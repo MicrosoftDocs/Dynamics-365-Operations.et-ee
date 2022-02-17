@@ -9,18 +9,18 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 1fd15b5d664fead10949750678a2d3eab967af22
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 825d6a4b3462077d0f4b3f4275792ea0fe5152df
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781388"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063668"
 ---
 # <a name="dual-write-setup-from-lifecycle-services"></a>Topeltkirjutuse häälestus teenustest Lifecycle Services
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Selles teemas selgitatakse, kuidas häälestada topeltkirjutuse ühendust teenusest Microsoft Dynamics Lifecycle Services (LCS).
 
@@ -53,18 +53,18 @@ Järgige neid samme LCS-i keskkonna üksikasjade lehel **topeltkirjutuse hääle
 
     :::image type="content" source="media/powerplat_integration_step3.png" alt-text="Link Power Platform keskkonda.":::
 
-8. Kui linkimine on lõpetatud, kuvatakse hüperlink. Logige lingi abil sisse topeltkirjutuse haldusalasse Finance and Operations keskkonnas. Sealt saate seadistada üksuse vastendamised.
+8. Kui linkimine on lõpetatud, kuvatakse hüperlink. Kasutage linki, et logida sisse topeltkirjutus administreerimisalale keskkonnas Rahandus ja Toimingud. Sealt saate seadistada üksuse vastendamised.
 
 ## <a name="set-up-dual-write-for-an-existing-dataverse-environment"></a>Juhised topeltkirjutuse Dataverse häälestamiseks
 
 Olemasoleva keskkonna topeltkirjutuse Dataverse häälestamiseks peate looma Microsofti [tugipileti](../../lifecycle-services/lcs-support.md). Pilet peab sisaldama:
 
-+ Teie Finance and Operations keskkonna ID.
++ Teie finants- ja tegevuskeskkonna ID.
 + Teie keskkonna nimi rakendusest Lifecycle Services.
 + Organisatsiooni Dataverse ID või Power Platform keskkonna ID Power Platform Halduskeskusest. Taotlege oma piletis, et ID oleks integratsiooniks kasutatav Power Platform eksemplar.
 
 > [!NOTE]
-> LCS-i abil ei saa keskkondade linkimist tühistada. Keskkonna linkimise tühistamiseks avage tööruum **Andmete integratsioon** keskkonnas Finance and Operations ja seejärel valige käsk **Tühista linkimine**.
+> LCS-i abil ei saa keskkondade linkimist tühistada. Keskkonna linkimise tühistamiseks avage **andmete integreerimise** tööruum rahandus- ja operatsioonide keskkonnas ja seejärel valige **Käsk Tühista link**.
 
 ## <a name="linking-mismatch"></a>Mittevastavuse linkimine
 

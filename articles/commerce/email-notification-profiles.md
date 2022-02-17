@@ -2,7 +2,7 @@
 title: Meiliteatiste profiili seadistamine
 description: See teema kirjeldab, kuidas luua rakenduses Microsoft Dynamics 365 Commerce meiliteatiste profiil.
 author: bicyclingfool
-ms.date: 03/01/2021
+ms.date: 02/02/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: a92c21a93766e6583882f50222837366ed4c9a24c2bbfd93933763bd4ffa46bb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7a7d796a173a6f9dfcd62e1f73e078cac614145e
+ms.sourcegitcommit: 2aca3a95d42403c7f5d80dcd5e3ee958dca5c894
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771027"
+ms.lasthandoff: 02/03/2022
+ms.locfileid: "8087863"
 ---
 # <a name="set-up-an-email-notification-profile"></a>Meiliteatise profiili seadistamine
 
@@ -27,7 +27,7 @@ ms.locfileid: "6771027"
 
 See teema kirjeldab, kuidas luua rakenduses Microsoft Dynamics 365 Commerce meiliteatiste profiil.
 
-Kanalite loomisel saate seadistada meili teatise profiili. Sel viisil saab e-kirju saata klientidele erinevate kandesündmuste jaoks, nagu näiteks tellimuse loomine, tellimuse tarne olek ja makse nurjumine.
+Kanalite loomisel saate seadistada meili teatise profiili. Meiliteatise profiil määratleb müügitehingu sündmused (nt loodud tellimus, tellimus pakitud ja tellige arveldatud sündmused), mille kohta saadate oma klientidele märguandeid. 
 
 Lisateavet meili konfigureerimise kohta vt teemast [Meili konfigureerimine ja saatmine](../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json).
 
@@ -43,7 +43,7 @@ Meiliteatiste profiili loomiseks toimige järgmiselt.
 
 ### <a name="create-an-email-template"></a>Loo e-kirja mall
 
-Enne meiliteatise tüübi lubamist peate Cmmerce headquarters`is looma organisatsiooni meilimalli. Mall määratleb iga keele puhul, mida soovite toetada, e-kirja teema, saatja, vaikekeele ja meili keha.
+Enne meiliteatise tüübi lubamist peate iga toetatava teatisetüübi jaoks looma Commerce'i peakontoris organisatsiooni meiliaadressimalli. See mall määratleb iga toetatud keele jaoks meiliteema, saatja, vaikekeele ja meilikeha.
 
 Meilimalli loomiseks tehke järgmist.
 
@@ -61,6 +61,8 @@ Järgmine pilt näitab mõningaid näiteid meilimalli sätetest.
 
 ![E-kirja malli sätted.](media/email-template.png)
 
+Lisateavet meilimallide loomise kohta leiate teemast [Meilimallide loomine tehingusündmuste jaoks](email-templates-transactions.md). 
+
 ### <a name="create-an-email-event"></a>Meilisündmuse loomine
 
 Meilisündmuse loomiseks tehke järgmist.
@@ -76,10 +78,12 @@ Järgmine pilt näitab mõningaid näiteid sündmusest teavitamise sätetest.
 
 ![Sündmusest teavitamise sätted.](media/email-notification-profile.png)
 
+> [!NOTE]
+> Kliendi loodud teavitustüüp nõuab enne meiliteatise saatmist kohandamist.
+
 ### <a name="next-steps"></a>Järgmised sammud
 
 Enne e-kirjade saatmist peate konfigureerima oma väljamineva e-posti teenuse ja seadistama pakett-töö. Lisateavet vt teemast [Meilisõnumi konfigureerimine ja saatmine](../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json).
-
 
 ## <a name="additional-resources"></a>Lisaressursid
 

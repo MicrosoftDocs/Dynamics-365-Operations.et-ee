@@ -1,6 +1,6 @@
 ---
-title: Rootsi kontrollüksuse integratsiooni näidisüksuse juurutuse juhised (pärand)
-description: Selles teemas antakse juhised rootsi kontrollüksuse integreerimise näidiste juurutamiseks jaemüügi SDK-st.
+title: Rootsi kontrollüksuse integratsioonivalimi kasutuselevõtu juhised (pärand)
+description: Selles teemas antakse juhised juhtüksuse integratsioonivalimi kasutuselevõtuks Rootsi jaoks retail SDK-st
 author: EvgenyPopovMBS
 ms.date: 12/20/2021
 ms.topic: article
@@ -9,57 +9,57 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: c0e301305fb0d99ab2f8c811f9f560bc5008e02b
-ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
+ms.openlocfilehash: b8d60f32d986dec6bb26d78ebdfe8cee3a6b688a
+ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7944886"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "8077034"
 ---
-# <a name="deployment-guidelines-for-the-control-unit-integration-sample-for-sweden-legacy"></a>Rootsi kontrollüksuse integratsiooni näidisüksuse juurutuse juhised (pärand)
+# <a name="deployment-guidelines-for-the-control-unit-integration-sample-for-sweden-legacy"></a>Rootsi kontrollüksuse integratsioonivalimi kasutuselevõtu juhised (pärand)
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas antakse juhised Rootsi kontrollühiku integreerimise näidis juurutamiseks jaemüügi tarkvara arenduskomplektist (SDK) arendaja virtuaalmasinas (VM) elutsükli Microsoft Dynamics teenustes (LCS). Lisateavet fiskaalintegratsiooni näidiste kohta vt [Rootsi kontrollüksuse integreerimise näidist](emea-swe-fi-sample.md). 
+See teema annab juhised juhtüksuse integreerimise proovi juurutamiseks Rootsi jaoks jaemüügi tarkvaraarenduskomplektist (SDK) arendaja virtuaalses masinas Microsoft Dynamics (VM) lifecycle Services (LCS). Lisateavet selle fiskaalintegratsiooni valimi kohta leiate Rootsi [juhtüksuse integratsioonivalimist](emea-swe-fi-sample.md). 
 
-Rootsi fiskaalintegratsiooni näidis on jaemüügi SDK osa. Lisateavet selle kohta, kuidas installida ja kasutada SDK-d, vt [jaemüügi tarkvara arenduskomplekti (SDK) ülesehitust](../dev-itpro/retail-sdk/retail-sdk-overview.md). See näidis koosneb Commerce'i käitusaja (CRT), riistvarajaama ja kassa laiendustest. Selle näidisprojekti käivitamiseks peate muutma ja üles ehitada CRT projektid Riistvarajaam ja Müügikoha projektid. Selles teemas kirjeldatud muudatuste vaatamiseks on soovitatav kasutada jaemüügi SDK-d, mida pole võimalik muuta. Soovitame kasutada ka allikakontrollisüsteemi, näiteks Azure DevOps sellistena, kus faile pole veel muudetud.
+Rootsi fiskaalintegratsiooni valim on osa jaemüügi SDK-st. SDK installimise ja kasutamise kohta leiate teavet teemast [Jaemüügi tarkvaraarenduskomplekti (SDK) arhitektuur](../dev-itpro/retail-sdk/retail-sdk-overview.md). See proov koosneb Commerce'i käitusaja (CRT), riistvarajaama ja müügikoha (KASSA) laiendustest. Selle proovi käitamiseks peate muutma ja ehitama CRT, riistvarajaama ja kassaprojekte. Soovitame selles teemas kirjeldatud muudatuste tegemiseks kasutada modifitseerimata Retail SDK-d. Samuti soovitame kasutada allika juhtimissüsteemi, näiteks Azure DevOps kui ühtegi faili pole veel muudetud.
 
 ## <a name="development-environment"></a>Arenduskeskkonnad
 
-Järgige neid samme arenduskeskkonna häälestamiseks, et saate testida ja laiendada näidist.
+Arengukeskkonna seadistamiseks järgige neid juhiseid, et saaksite proovi testida ja pikendada.
 
-### <a name="enable-crt-extensions"></a>Laienduste CRT lubamine
+### <a name="enable-crt-extensions"></a>Laienduste lubamine CRT
 
-CRT Laienduskomponendid kaasatakse CRT näidiste hulka. Järgmiste protseduuride lõpule viimiseks avage **CommerceRuntimeSamples.sln lahendus** **retailSdk \\ SampleExtensions \\ CommerceRuntime'i** all.
+Laienduskomponendid CRT sisalduvad proovides CRT. Järgmiste protseduuride lõpuleviimiseks avage  **CommerceRuntimeSamples.sln** lahendus jaotises **RetailSdk\\SampleExtensions\\CommerceRuntime**.
 
 #### <a name="documentprovidercleancashsample-component"></a>DocumentProvider.CleanCashSample komponent
 
-1. Leidke projekt **Runtime.Extensions.DocumentProvider.CleanCashSample** ja koostage see.
-2. Leidke kaustast **Runtime.Extensions.DocumentProvider.CleanCashSample \\ bin \\ Silumine** **contoso.Commerce.Runtime.DocumentProvider.CleanCashSample.dll** assemblerifail.
-3. Kopeerige assemblerifail CRT laiendite kausta:
+1. **Leidke projekt Runtime.Extensions.DocumentProvider.CleanCashSample** ja ehitage see.
+2. Leidke kaustast **Runtime.Extensions.DocumentProvider.CleanCashSample\\bin\\Debug** assemblerifail **Contoso.Commerce.Runtime.DocumentProvider.CleanCashSample.dll**.
+3. Kopeerige assemblerifail CRT kausta Laiendused.
 
-    - **Commerce Scale Unit:** kopeerige fail **\\ bin \\ ext kausta** teenuse Internet Information Services (IIS) Commerce Scale Unit saidi asukoha all.
-    - **Kohalik CRT modern POS-s:** kopeerige fail kohaliku kliendi **\\** maakleri asukoha ext-kausta. CRT
+    - **Commerce Scale Unit:** kopeerige fail internetiteabeteenuste (IIS) Commerce Scale Uniti saidi asukoha all olevasse **\\bin\\ext** kausta.
+    - **Kohalik CRT kaasaegses kassas:** kopeerige fail **\\ ext** kausta kohaliku CRT kliendimaakleri asukoha all.
 
-4. Leidke laiendi CRT konfiguratsioonifail:
+4. Leidke laiendi konfiguratsioonifail:CRT
 
-    - **Commerce Scale Unit: faili nimi on** **commerceruntime.ext.config ja see on IIS Commerce Scale Uniti saidi asukoha** bin **\\** ext-kaustas.
-    - **Modern CRT POS-is kohalik: faili nimi on** **CommerceRuntime.MPOSOffline.Ext.config ja see on kohaliku kliendi** maakleri CRT asukoha all.
+    - **Commerce Scale Unit:** faili nimi **on commerceruntime.ext.config** ja see asub prügikasti **\\ kaustas** IIS Commerce Scale Unit saidi asukoha all.
+    - **Kohalik CRT kaasaegses kassas:** faili nimi **on CommerceRuntime.MPOSOffline.Ext.config** ja see on kohaliku CRT kliendimaakleri asukoha all.
 
-5. Registreerige CRT muudatus laiendi konfiguratsioonifailis.
+5. Registreerige CRT laienduse konfiguratsioonifaili muudatus.
 
     ``` xml
     <add source="assembly" value="Contoso.Commerce.Runtime.DocumentProvider.CleanCashSample" />
     ```
 
-#### <a name="extension-configuration-file"></a>Laiendi konfiguratsioonifail
+#### <a name="extension-configuration-file"></a>Laienduse konfiguratsioonifail
 
-1. Leidke laiendi CRT konfiguratsioonifail:
+1. Leidke laiendi konfiguratsioonifail:CRT
 
-    - **Commerce Scale Unit: faili nimi on** **commerceruntime.ext.config ja see on IIS Commerce Scale Uniti saidi asukoha** bin **\\** ext-kaustas.
-    - **Modern CRT POS-is kohalik: faili nimi on** **CommerceRuntime.MPOSOffline.Ext.config ja see on kohaliku kliendi** maakleri CRT asukoha all.
+    - **Commerce Scale Unit:** faili nimi **on commerceruntime.ext.config** ja see asub prügikasti **\\ kaustas** IIS Commerce Scale Unit saidi asukoha all.
+    - **Kohalik CRT kaasaegses kassas:** faili nimi **on CommerceRuntime.MPOSOffline.Ext.config** ja see on kohaliku CRT kliendimaakleri asukoha all.
 
-2. Registreerige CRT muudatus laiendi konfiguratsioonifailis.
+2. Registreerige CRT laienduse konfiguratsioonifaili muudatus.
 
     ``` xml
     <add source="assembly" value="Microsoft.Dynamics.Commerce.Runtime.ReceiptsSweden" />
@@ -67,36 +67,36 @@ CRT Laienduskomponendid kaasatakse CRT näidiste hulka. Järgmiste protseduuride
 
 ### <a name="enable-hardware-station-extensions"></a>Riistvarajaama laienduste lubamine
 
-Riistvarajaama laienduse komponendid sisalduvad riistvarajaama näidises. Järgmiste protseduuride sooritamiseks **avage** **RetailSdk \\ SampleExtensions \\ HardwareStationis konfiguratsioonilahendus HardwareStationSamples.sln.**
+Riistvarajaama laienduse komponendid sisalduvad riistvarajaama näidistes. Järgmiste protseduuride lõpuleviimiseks avage **HardwareStationSamples.sln** lahendus jaotises **RetailSdk\\SampleExtensions\\HardwareStation**.
 
-#### <a name="cleancash-component"></a>CleanCash komponent
+#### <a name="cleancash-component"></a>CleanCashi komponent
 
-1. Leidke **projekt HardwareStation.Extension.CleanCashSample** ja koostage see.
-2. Leidke **extension.CleanCashSample bin Silumiskaustas \\\\** **Contoso.Commerce.HardwareStation.CleanCashSample.dll** ja **Interop.CleanCash \_ 1 \_ 1.dll** assemblerifailid.
-3. Kopeerige assemblerifailid riistvarajaama laienduste kausta:
+1. **Leidke projekt HardwareStation.Extension.CleanCashSample** ja ehitage see.
+2. Otsige kaustast **Extension.CleanCashSample\\bin\\Debug** üles **contoso.Commerce.HardwareStation.CleanCashSample.dll** ja **Interop.CleanCash11\_\_.dll** assemblerifailid.
+3. Kopeerige assemblerifailid kausta Riistvarajaama laiendused.
 
-    - **Ühiskasutatav riistvarajaam:** kopeerige failid **IIS**-i riistvarajaama saidi asukoha bin-kausta.
-    - **Modern POS-i sihtotstarbeline riistvarajaam:** kopeerige failid Modern POS-i kliendi maakleri asukohta.
+    - **Ühiskasutusega riistvarajaam:** kopeerige failid IIS-i riistvarajaama saidi asukoha all olevasse **prügikasti** kausta.
+    - **Spetsiaalne riistvarajaam kaasaegses kassas:** kopeerige failid Kaasaegse kassa kliendimaakleri asukohta.
 
-4. Leidke riistvarajaama laienduste laiendite konfiguratsioonifail. Faili nimi on **HardwareStation.Extension.config.**
+4. Leidke riistvarajaama laienduste konfiguratsioonifail. Faili nimi **on HardwareStation.Extension.config**.
 
-    - **Ühiskasutatav riistvarajaam:** fail asub IIS-i riistvarajaama saidi asukohas.
-    - **Modern POS-i sihtotstarbeline riistvarajaam:** fail on Modern POS-i kliendi maakleri asukohas
+    - **Jagatud riistvarajaam:** fail asub IIS-i riistvarajaama saidi asukoha all.
+    - **Spetsiaalne riistvarajaam Kaasaegses kassas:** fail on kaasaegse kassa kliendimaakleri asukoha all.
 
-5. Lisage konfiguratsioonifaili **koostise** jaotisse järgmine rida.
+5. Lisage konfiguratsioonifaili kompositsioonijaotisse **järgmine** rida.
 
     ``` xml
     <add source="assembly" value="Contoso.Commerce.HardwareStation.CleanCashSample" />
     ```
 
-### <a name="enable-modern-pos-extension-components"></a>Modern POS-i laienduse komponentide lubamine
+### <a name="enable-modern-pos-extension-components"></a>Kaasaegsete kassalaiendi komponentide lubamine
 
-1. Avage **RetailPOS.slni lahendus retailSdk POS-i all ja veenduge, et** **seda saab \\** kompileerida tõrgeteta. Lisaks veenduge, et saate Modern POS-i käivitada Visual Studio **käsuga** Käivita.
+1. **Avage rakenduses RetailSdkPOS** **modernpos.sln\\ lahendus** ja veenduge, et seda saab vigadeta koostada. Lisaks veenduge, et saate käivitada modernse Visual Studio kassa, kasutades **käsku Käivita**.
 
     > [!NOTE]
-    > Tänapäevane kassa ei tohi olla kohandatud. Peate kasutajakonto juhtelemendi (UAC) lubama ja vastavalt vajadusele desinstallima modern POS-i varem installitud eksemplarid.
+    > Kaasaegset kassat ei tohi kohandada. Peate lubama kasutajakonto juhtimise (UAC) ja vajaduse korral desinstallima varem installitud kaasaegse kassa eksemplarid.
 
-2. Lubage laiendid, mis tuleb laadida, lisades failile **extensions.json järgmised** read.
+2. Lubage laiendused, mis tuleb laadida, lisades faili extensions.json **järgmised** read.
 
     ``` json
     {
@@ -109,15 +109,15 @@ Riistvarajaama laienduse komponendid sisalduvad riistvarajaama näidises. Järgm
     ```
 
     > [!NOTE]
-    > Lisateavet ja näidiseid, mis näitavad, kuidas kaasata lähtekoodi kaustu ja lubada laiendite laadimist, vt readme.md juhised **müügikoha laienduste** projektis.
+    > Lisateavet ja näidiste kohta, mis näitavad lähtekoodi kaustade kaasamist ja laienduste laadimist, leiate projekti Pos.Extensions **readme.md faili juhistest**.
 
-3. Saate lahenduse uuesti luua.
-4. Käivitage Modern POS siluris ja katsege funktsioone.
+3. Taastage lahendus uuesti.
+4. Käivitage siluris kaasaegne müügikoha ja testige funktsionaalsust.
 
-### <a name="enable-cloud-pos-extension-components"></a>Pilve kassa laienduse komponentide lubamine
+### <a name="enable-cloud-pos-extension-components"></a>Pilveteenuse müügikoha laienduskomponentide lubamine
 
-1. Avage **rakenduse** **RetailSdk POS all CloudPOS.sln lahendus ja veenduge, et seda saab \\** kompileerida tõrgeteta.
-2. Lubage laiendid, mis tuleb laadida, lisades failile **extensions.json järgmised** read.
+1. **Avage CloudPOS.sln** lahendus jaotises **RetailSdk\\POS** ja veenduge, et seda saab vigadeta koostada.
+2. Lubage laiendused, mis tuleb laadida, lisades faili extensions.json **järgmised** read.
 
     ``` json
     {
@@ -130,46 +130,46 @@ Riistvarajaama laienduse komponendid sisalduvad riistvarajaama näidises. Järgm
     ```
 
     > [!NOTE]
-    > Lisateavet ja näidiseid, mis näitavad, kuidas kaasata lähtekoodi kaustu ja lubada laiendite laadimist, vt readme.md juhised **müügikoha laienduste** projektis.
+    > Lisateavet ja näidiste kohta, mis näitavad lähtekoodi kaustade kaasamist ja laienduste laadimist, leiate projekti Pos.Extensions **readme.md faili juhistest**.
 
-3. Saate lahenduse uuesti luua.
-4. Käivitage lahendus, kasutades **käsku Käivita** ja järgides Jaemüügi SDK kasutusjuhend.
+3. Taastage lahendus uuesti.
+4. Käivitage lahendus käsu Run **abil** ja järgides rakenduse Retail SDK juhiseid.
 
 ## <a name="production-environment"></a>Tootmiskeskkond
 
-Eelmine protseduur võimaldab laiendusi, mis on kontrollühiku integratsiooni näidiskomponendid. Lisaks peate järgima neid samme Commerce'i komponente sisaldavate juurutatavate pakendite loomiseks ja nende pakendite rakendamiseks tootmiskeskkonnas.
+Eelmine protseduur võimaldab laiendusi, mis on juhtüksuse integratsioonivalimi komponendid. Lisaks peate järgima neid juhiseid, et luua juurutatavad paketid, mis sisaldavad Commerce'i komponente, ja rakendada need paketid tootmiskeskkonnas.
 
-1. Tehke paketi konfiguratsioonifailides kausta **RetailSdk Assets all järgmised \\** muudatused:
+1. Tehke paketi konfiguratsioonifailides kausta RetailSdkAssets **\\ all** järgmised muudatused.
 
-    - Lisage **konfiguratsioonifailides commerceruntime.ext.config ja** **CommerceRuntime.MPOSOffline.Ext.config koostise** jaotisele **järgmised** read.
+    - **Lisage konfiguratsioonifailidesse commerceruntime.ext.config** ja **CommerceRuntime.MPOSOffline.Ext.config** kompositsioonijaotisesse **järgmised** read.
 
         ``` xml
         <add source="assembly" value="Contoso.Commerce.Runtime.DocumentProvider.CleanCashSample" />
         <add source="assembly" value="Microsoft.Dynamics.Commerce.Runtime.ReceiptsSweden" />
         ```
 
-    - **Konfiguratsioonifailis HardwareStation.Extension.config** lisage koostise jaotisele **järgmine** rida.
+    - Lisage konfiguratsioonifaili HardwareStation.Extension.config **kompositsioonijaotisesse** **järgmine** rida.
 
         ``` xml
         <add source="assembly" value="Contoso.Commerce.HardwareStation.CleanCashSample" />
         ```
 
-2. Tehke kausta **BuildTools all kohanduspaketi** kohandamise konfiguratsioonifailis **järgmised** muudatused:
+2. Tehke kausta BuildTools all **paketi kohandamise konfiguratsioonifailis** Customization.settings **konfiguratsioonifailis** järgmised muudatused.
 
-    - Lisage järgmine rida, et kaasata CRT laiendused juurutatavatesse pakendisse.
+    - Lisage juurutatavatesse pakettidesse laienduste lisamiseks CRT järgmine rida.
 
         ``` xml
         <ISV_CommerceRuntime_CustomizableFile Include="$(SdkReferencesPath)\Contoso.Commerce.Runtime.DocumentProvider.CleanCashSample.dll" />
         ```
 
-    - Lisage järgmised read, et kaasata riistvarajaama laiend juurutatavatesse pakendisse.
+    - Lisage juurutatavatesse pakettidesse riistvarajaama laienduse kaasamiseks järgmised read.
 
         ``` xml
         <ISV_HardwareStation_CustomizableFile Include="$(SdkReferencesPath)\Contoso.Commerce.HardwareStation.CleanCashSample.dll" />
         <ISV_HardwareStation_CustomizableFile Include="$(SdkReferencesPath)\Interop.CleanCash_1_1.dll" />
         ```
 
-3. Lubage müügikoha laiend, lisades järgmised read **faili extensions.json** kausta **RetailSDK \\ POS \\ Extensions** alla.
+3. Kassalaiendi lubamine, lisades kausta RetailSDKPOSExtensions faili extensions.json **järgmised** read.**RetailSDK\\POS\\Extensions**
 
     ``` json
     {
@@ -181,167 +181,167 @@ Eelmine protseduur võimaldab laiendusi, mis on kontrollühiku integratsiooni n�
     }
     ```
 
-4. Käivitage rakenduse MSBuild käsuviip utiliidi jaoks ja käivitage Visual Studio **msbuild kausta** Retail SDK all juurutatavate pakettide loomiseks.
-5. Rakendage pakendid LCS-i kaudu või käsitsi. Lisateavet vt teemast [Juurutatavate pakendite](../dev-itpro/retail-sdk/retail-sdk-packaging.md) loomine.
-6. Viige lõpule kõik nõutud seadistustoimingud, mida on [kirjeldatud integratsiooni seadistamisel kontrollüksustega.](emea-swe-fi-sample.md#setting-up-the-integration-with-control-units)
+4. Käivitage utiliidi jaoks Visual Studio käsuviip MSBuild ja käivitage **msbuild** kausta Retail SDK all juurutatavate pakettide loomiseks.
+5. Rakendage paketid LCS-i kaudu või käsitsi. Lisateavet vt teemast [Create deployable packages](../dev-itpro/retail-sdk/retail-sdk-packaging.md).
+6. Täitke kõik vajalikud seadistustoimingud, mida kirjeldatakse jaotises [Juhtüksustega](emea-swe-fi-sample.md#setting-up-the-integration-with-control-units) integreerimise häälestamine.
 
 ## <a name="design-of-the-extensions"></a>Laienduste kujundus
 
-### <a name="crt-extension-design"></a>CRT laiendi kujundus
+### <a name="crt-extension-design"></a>CRT laienduse disain
 
-Fiskaaldokumendi pakkuja laiendi eesmärk on luua teenusepõhiseid dokumente ja käsitseda kontrollüksuse vastuseid.
+Finantsdokumendi pakkuja laienduse eesmärk on luua teenusepõhiseid dokumente ja käsitleda juhtüksuse vastuseid.
 
-Laiend CRT on **Runtime.Extensions.DocumentProvider.CleanCashSample.**
+Laiendus CRT on **Runtime.Extensions.DocumentProvider.CleanCashSample**.
 
-Lisateavet fiskaalintegratsiooni lahenduse kujunduse kohta vt [fiskaalregistreerimise protsessist ja fiskaalseadmete fiskaalintegratsiooni](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices) näidised.
+Lisateavet fiskaalintegratsiooni lahenduse kujunduse kohta leiate teemast [Fiskaalne registreerimisprotsess ja fiskaalseadmete ja -teenuste](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) fiskaalintegratsiooni näidised.
 
-#### <a name="request-handler"></a>Nõudeohjur
+#### <a name="request-handler"></a>Taotluse käitleja
 
-Dokumendipakkuja jaoks **on olemas üks DocumentProviderCleanCash** taotluseohjur. Seda ohjurit kasutatakse finantsdokumentide loomiseks kontrollühiku jaoks.
+Dokumendipakkuja jaoks on üks **documentProviderCleanCashi** päringukäsitleja. Seda käitlejat kasutatakse juhtseadmele rahandusdokumentide loomiseks.
 
-See ohjur on päritud **INamedRequestHandler** liideselt. Meetod **HandlerName** vastutab ohjuri nime tagastamise eest. Ohjuri nimi peab vastama Commerce Headquartersis määratud konnektori dokumendi pakkuja nimele.
+See töötleja on päritud **INamedRequestHandler** liides. **Käitleja nime tagastamise eest vastutab meetod HandlerName**. Käitleja nimi peaks vastama Commerce'i peakontoris määratud konnektori dokumendipakkuja nimele.
 
-Konnektor toetab järgmisi taotlusi:
+Konnektor toetab järgmisi taotlusi.
 
-- **GetFiscalDocumentDocumentProviderRequest** – see taotlus sisaldab teavet selle kohta, milline dokument tuleks luua. See tagastab teenuseomase dokumendi, mis tuleb registreerida kontrollüksuses.
-- **GetSupportedRegistrableEventsDocumentProviderRequest – see taotlus tagastab** tellitavate sündmuste loendi. Praegu toetatakse müügisündmusi ja auditi sündmusi.
+- **GetFiscalDocumentDocumentProviderRequest** – see taotlus sisaldab teavet selle kohta, milline dokument tuleks luua. See tagastab teenusepõhise dokumendi, mis tuleks juhtseadmes registreerida.
+- **GetSupportedRegistrableEventsDocumentProviderRequest** – See päring tagastab tellitavate sündmuste loendi. Praegu toetatakse müügiüritusi ja auditiüritusi.
 
 #### <a name="configuration"></a>Konfiguratsioon
 
-**Konfiguratsioonifail DocumentProviderFiscalCleanCashSample** on **laiendusprojekti** konfiguratsioonikaustas. Selle faili eesmärk on lubada dokumendipakkuja sätted rakendusest Commerce headquarters konfigureerimist. Failivorming on joondatud fiskaalintegratsiooni konfiguratsiooni nõuetele. Lisatakse järgmised sätted:
+**DocumentProviderFiscalCleanCashSample'i konfiguratsioonifail** asub laiendusprojekti kaustas **Konfiguratsioon**. Selle faili eesmärk on lubada dokumendipakkuja sätete konfigureerimine Commerce'i peakontorist. Failivorming on joondatud fiskaalintegratsiooni konfiguratsiooni nõuetega. Lisatakse järgmised sätted.
 
 - KM-koodide vastendamine
 
-### <a name="hardware-station-extension-design"></a>Riistvarajaama laienduse kujundus
+### <a name="hardware-station-extension-design"></a>Riistvarajaama laienduse disain
 
-Fiskaalühenduseks olemise laiendi eesmärk on pidada ühendust kontrollüksusega.
+Fiskaalse konnektori laienduse eesmärk on suhelda juhtseadmega.
 
-Riistvarajaama laiend on **HardwareStation.Extension.CleanCashSample**. See kasutab HTTP-protokolli, et esitada dokumente, CRT mida laiend kontrollüksusele loob. Samuti käsitletakse kontrollüksuselt saadud vastuseid.
+Riistvarajaama laiendus on **HardwareStation.Extension.CleanCashSample**. See kasutab HTTP-protokolli, et esitada juhtseadmele dokumente, mille CRT laiendus loob. Samuti tegeleb see juhtseadmelt saadud vastustega.
 
-#### <a name="request-handler"></a>Nõudeohjur
+#### <a name="request-handler"></a>Taotluse käitleja
 
-**CleanCashHandler** taotluseohjur on sisenemispunkt kontrollüksuse käsitsemise taotluste jaoks.
+**CleanCashHandleri** päringukäitleja on juhtseadmele esitatud taotluste käsitlemise sisenemispunkt.
 
-Ohjur pärineb **INamedRequestHandler** liideselt. Meetod **HandlerName** vastutab ohjuri nime tagastamise eest. Ohjuri nimi peab ühtima Commerce Headquartersis määratud fiskaalühenduse nimega.
+Käitleja on päritud **INamedRequestHandler** liides. **Käitleja nime tagastamise eest vastutab meetod HandlerName**. Töötleja nimi peaks ühtima fiskaalse konnektori nimega, mis on määratud Commerce'i peakorteris.
 
-Konnektor toetab järgmisi taotlusi:
+Konnektor toetab järgmisi taotlusi.
 
-- **SubmitDocumentFiscalDeviceRequest – see taotlus saadab** dokumendid kontrollüksusesse ja tagastab sellelt vastuse.
-- **IsReadyFiscalDeviceRequest – seda taotlust** kasutatakse kontrollüksuse seisundikontrolliks.
-- **InitializeFiscalDeviceRequest** – seda taotlust kasutatakse kontrollüksuse lähtestamiseks.
+- **SubmitDocumentFiscalDeviceRequest** – See päring saadab dokumendid juhtplokile ja tagastab sealt vastuse.
+- **IsReadyFiscalDeviceRequest** – Seda päringut kasutatakse juhtploki tervisekontrolliks.
+- **InitializeFiscalDeviceRequest** – Seda päringut kasutatakse juhtseadme lähtestamiseks.
 
 #### <a name="configuration"></a>Konfiguratsioon
 
-Konfiguratsioonifail on **laiendusprojekti** konfiguratsioonikaustas. Faili eesmärk on lubada finantsühenduse sätete konfigureerimist rakendusest Commerce headquarters. Failivorming on joondatud fiskaalintegratsiooni konfiguratsiooni nõuetele. Lisatakse järgmised sätted:
+Konfiguratsioonifail asub **Seadistamine** laiendusprojekti kaust. Faili eesmärk on lubada fiskaalse konnektori sätteid Commerce'i peakorteris konfigureerida. Failivorming on joondatud fiskaalintegratsiooni konfiguratsiooni nõuetega. Lisatakse järgmised sätted.
 
-- **Ühenduste string** – juhtüksuse ühenduse sätted.
-- **Ajalõpp** – aja hulk millisekundites, mille juht ootab kontrollüksuselt vastuse ootamist.
+- **Ühenduste string** – Juhtseadme ühenduse seaded.
+- **Aeg maha** – Aeg millisekundites, mille jooksul juht ootab juhtseadme vastust.
 
-## <a name="migrating-from-the-earlier-integration-sample"></a>Varasemast integratsiooninäidandist migreerimine
+## <a name="migrating-from-the-earlier-integration-sample"></a>Varasemast integratsiooniproovist üleminek
 
-Kui kasutate varasemat näidist kassa integreerimiseks Rootsi kontrollüksustega, peate võib-olla sellelt üle [kandma](retail-sdk-control-unit-sample.md) praegusele integratsiooni näidisele. Selleks, et uuendada muudatusi ja saada rootsi funktsioonide kohta õigeaegselt värskendusi tulevikus, peate võib-olla uuendama, tegema vähem tähtsaid koodi- ja konfiguratsiooni korrigeerimisi oma loodud laiendustes ja taaslooma oma lahendused. Teie loodud laiendiloogikas pole vajalikke olulisi muudatusi. Varasem integratsiooni näidis ja teie kohandused jätkavad tööd, kui teie poolelt ei ole muudatusi tehtud. Seetõttu saate oma keskkonda planeerida, ette valmistada ja seda kasutada.
+Kui kasutate varasemat [näidis POS-i integreerimiseks juhtseadmetega Rootsi jaoks](retail-sdk-control-unit-sample.md), peate võib-olla sellelt praegusele integratsiooninäidisele üle minema. Muudatuse kasutuselevõtuks ja Rootsi funktsioonide õigeaegsete värskenduste saamiseks tulevikus peate võib-olla uuendama, tegema väiksemaid koodi ja konfiguratsiooni muudatusi loodud laiendustes ning oma lahendusi uuesti ehitama. Teie loodud laiendusloogikas pole suuri muudatusi vaja. Varasem integratsiooninäidis ja teie kohandused töötavad edasi, kui teie poolt muudatusi ei tehta. Seetõttu saate oma keskkonda planeerida, selleks valmistuda ja sellega tegeleda.
 
-### <a name="migration-process"></a>Migreerimisprotsess
+### <a name="migration-process"></a>Migratsiooniprotsess
 
-Varasema integratsiooninäidi siirded praeguse kontrollüksuse integratsiooni näidisse peaksid põhinema värskendamispõhimõttel. Teiste sõnadega, kõik Commerce headquarters ja Commerce Scale Uniti komponendid tuleb juba uuendada enne, kui alustate kassa ja riistvarajaama komponentide uuendamist.
+Varasemalt integreerimise valimilt praegusele juhtploki integreerimisvalimile üleminek peaks põhinema järkjärgulise värskendamise kontseptsioonil. Teisisõnu tuleks kõiki Commerce'i peakorteri ja Commerce Scale Unit'i komponente värskendada juba enne POS-i ja riistvarajaama komponentide värskendamist.
 
-Et vältida olukorda, kus sündmus või kanne on allkirjastatud kaks korda (st selle on allkirjastanud nii varasem laiend kui ka praegune laiend), või kus sündmust või kannet ei saa puuduva konfiguratsiooni tõttu allkirjastada, on soovitatav lülitada välja kõik kassa ja riistvarajaama seadmed, mis kasutavad varasemat näidist. ja seejärel uuendage neid samaaegselt. Seda samaaegset uuendamist saab teha näiteks kaupluse kaupa, uuendades kaupluse funktsiooniprofiili ja riistvarajaama riistvaraprofiili.
+Et vältida olukorda, kus sündmus või tehing allkirjastatakse kaks korda (st see on allkirjastatud nii varasema kui ka praeguse laienduse poolt) või kui sündmust või tehingut ei saa allkirjastada puuduva konfiguratsiooni tõttu, soovitame lülitate välja kõik kassa- ja riistvarajaama seadmed, mis kasutavad varasemat näidist, ja seejärel värskendate neid samaaegselt. Seda samaaegset värskendust saab teha näiteks poepõhiselt, uuendades poe funktsionaalsusprofiili ja Riistvarajaama riistvaraprofiili.
 
-Migreerimisprotsess peaks koosnema järgmistest sammudest.
+Migratsiooniprotsess peaks koosnema järgmistest etappidest.
 
-1. Värskendage Commerce headquartersi komponente.
-1. Värskendage Commerce Scale Uniti komponente ja lubage praeguse näidis laiendid.
-1. Veenduge, et kõik võrguühenduseta kanded sünkroonitakse ühenduseta lubatud MPOS-seadmetest.
-1. Lülitage välja kõik seadmed, mis kasutavad varasema näidiskomponendi komponente.
-1. Viige lõpule kõik nõutud seadistustoimingud, mida on [kirjeldatud integratsiooni seadistamisel kontrollüksustega.](emea-swe-fi-sample.md#setting-up-the-integration-with-control-units)
-1. Uuendage kassa ja riistvarajaama komponente, keelake laiendused, mis on varasema näidis osad, ja lubage praeguse näidis laiendid.
+1. Värskendage Commerce'i peakorteri komponente.
+1. Värskendage Commerce Scale Unit komponente ja lubage praeguse näidise laiendused.
+1. Veenduge, et kõik võrguühenduseta tehingud oleksid võrguühenduseta MPOS-seadmetest sünkroonitud.
+1. Lülitage välja kõik seadmed, mis kasutavad eelmise proovi komponente.
+1. Täitke kõik vajalikud seadistustoimingud, mida kirjeldatakse jaotises [Juhtüksustega](emea-swe-fi-sample.md#setting-up-the-integration-with-control-units) integreerimise häälestamine.
+1. Värskendage kassa- ja riistvarajaama komponente, keelake laiendused, mis on varasema näidise osad, ja lubage praeguse näidise laiendused.
 
     > [!NOTE]
-    > Olenevalt keskkonna tüübist leiate migratsiooniprotsessi kohta täpsemaid üksikasju kas arenduskeskkonna jaotisest [Migreerimine arenduskeskkonnas](#migration-in-a-development-environment) või Selle teema tootmiskeskkonna jaotisest [Migreerimine tootmiskeskkonnas](#migration-in-a-production-environment).
+    > Olenevalt keskkonna tüübist leiate rohkem tehnilisi üksikasju migratsiooniprotsessi kohta mõlemast [Ränne arenduskeskkonnas](#migration-in-a-development-environment) jaotis või [Ränne tootmiskeskkonnas](#migration-in-a-production-environment) selle teema osa.
 
-### <a name="migration-in-a-development-environment"></a>Migratsioon arenduskeskkonnas
+### <a name="migration-in-a-development-environment"></a>Ränne arenduskeskkonnas
 
 #### <a name="update-crt"></a>Uuenda CRT
 
-1. Leidke projekt **Runtime.Extensions.DocumentProvider.CleanCashSample** ja koostage see.
-2. Leidke kaustast **Runtime.Extensions.DocumentProvider.CleanCashSample \\ bin \\ Silumine** **contoso.Commerce.Runtime.DocumentProvider.CleanCashSample.dll** assemblerifail.
-3. Kopeerige assemblerifail CRT laiendite kausta:
+1. **Leidke projekt Runtime.Extensions.DocumentProvider.CleanCashSample** ja ehitage see.
+2. Leidke kaustast **Runtime.Extensions.DocumentProvider.CleanCashSample\\bin\\Debug** assemblerifail **Contoso.Commerce.Runtime.DocumentProvider.CleanCashSample.dll**.
+3. Kopeerige assemblerifail CRT kausta Laiendused.
 
-    - **Commerce Scale Unit:** kopeerige fail **\\ bin \\ ext kausta** IIS Commerce Scale Uniti saidi asukoha all.
-    - **Kohalik CRT modern POS-s:** kopeerige fail kohaliku kliendi **\\** maakleri asukoha ext-kausta. CRT
+    - **Commerce Scale Unit:** kopeerige fail **\\bin\\ext** IIS Commerce'i skaala ühiku saidi asukoha all.
+    - **Kohalik CRT kaasaegses kassas:** kopeerige fail **\\ ext** kausta kohaliku CRT kliendimaakleri asukoha all.
 
-4. Leidke laiendi CRT konfiguratsioonifail:
+4. Leidke laiendi konfiguratsioonifail:CRT
 
-    - **Commerce Scale Unit: faili nimi on** **CommerceRuntime.ext.config ja see on** **\\ BIN ext-kaustas** IIS Commerce Scale Uniti saidi asukoha all.
-    - **Kohalik modern POS-is: faili nimi CRT on** **CommerceRuntime.MPOSOffline.Ext.config ja see on kohaliku kliendi maakleri asukoha bin** **\\** CRT ext-kaustas.
+    - **Kaubanduse mastaabiüksus:** Failile antakse nimi **CommerceRuntime.ext.config**, ja see asub **prügikast\\ ext** kausta IIS Commerce Scale Unit saidi asukoha all.
+    - **Kohalik CRT kaasaegses POS-is:** Failile antakse nimi **CommerceRuntime.MPOSOffline.Ext.config**, ja see asub **prügikast\\ ext** kaust kohaliku all CRT kliendi maakleri asukoht.
 
     > [!WARNING]
-    > Ärge **redigeerige** faile CommerceRuntime.config ja CommerceRuntime.MPOSOffline.config. Need failid ei ole mõeldud kohandamiseks.
+    > Tee **mitte** redigeerige faile CommerceRuntime.config ja CommerceRuntime.MPOSOffline.config. Need failid ei ole mõeldud kohandamiseks.
 
-5. Otsige ja eemaldage varasem CRT laiend laiendi konfiguratsioonifailist.
+5. Otsige üles ja eemaldage varasem CRT laiendi konfiguratsioonifailist.
 
     ``` xml
     <add source="assembly" value="Contoso.Commerce.Runtime.FiscalRegisterReceiptSample" />
     ```
 
     > [!WARNING]
-    > Ärge viige seda sammu lõpule enne, kui värskendate kõik selle eksemplariga töötavad CRT kassaseadmed.
+    > Ärge viige seda sammu lõpule enne, kui värskendate kõiki sellega töötavaid kassaseadmeid CRT näiteks.
 
-6. Registreerige praegused CRT näidislaiendid laiendi konfiguratsioonifailis, lisades järgmised read.
+6. Registreerige praegune proov CRT laiendite konfiguratsioonifailis, lisades järgmised read.
 
     ``` xml
     <add source="assembly" value="Contoso.Commerce.Runtime.DocumentProvider.CleanCashSample" />
     <add source="assembly" value="Microsoft.Dynamics.Commerce.Runtime.ReceiptsSweden" />
     ```
 
-#### <a name="update-hardware-station"></a>Riistvarajaama värskendamine
+#### <a name="update-hardware-station"></a>Värskendage riistvarajaama
 
-1. Leidke **projekt HardwareStation.Extension.CleanCashSample** ja koostage see.
-2. Leidke **extension.CleanCashSample bin Silumiskaustas \\\\** **Contoso.Commerce.HardwareStation.CleanCashSample.dll** ja **Interop.CleanCash \_ 1 \_ 1.dll** assemblerifailid.
-3. Kopeerige assemblerifailid riistvarajaama laienduste kausta:
+1. **Leidke projekt HardwareStation.Extension.CleanCashSample** ja ehitage see.
+2. Otsige kaustast **Extension.CleanCashSample\\bin\\Debug** üles **contoso.Commerce.HardwareStation.CleanCashSample.dll** ja **Interop.CleanCash11\_\_.dll** assemblerifailid.
+3. Kopeerige assemblerifailid kausta Riistvarajaama laiendused.
 
-    - **Ühiskasutatav riistvarajaam:** kopeerige failid **IIS**-i riistvarajaama saidi asukoha bin-kausta.
-    - **Modern POS-i sihtotstarbeline riistvarajaam:** kopeerige failid Modern POS-i kliendi maakleri asukohta.
+    - **Ühiskasutusega riistvarajaam:** kopeerige failid IIS-i riistvarajaama saidi asukoha all olevasse **prügikasti** kausta.
+    - **Spetsiaalne riistvarajaam kaasaegses kassas:** kopeerige failid Kaasaegse kassa kliendimaakleri asukohta.
 
-4. Leidke **konfiguratsioonifail HardwareStation.Extension.config:**
+4. Otsige üles **HardwareStation.Extension.config** laiendi konfiguratsioonifail:
 
-    - **Kaug riistvarajaam:** fail asub IIS-i riistvarajaama saidi asukohas.
-    - **Modern POS-i kohalik riistvarajaam:** fail on Modern POS-i kliendi maakleri asukohas
+    - **Kaugriistvarajaam:** Fail asub IIS-i riistvarajaama saidi asukoha all.
+    - **Kohalik riistvarajaam kaasaegses POS-is:** Fail asub Modern POS-kliendi maakleri asukoha all.
 
     > [!WARNING]
-    > Ärge **redigeerige** faile CommerceRuntime.config ja CommerceRuntime.MPOSOffline.config. Need failid ei ole mõeldud kohandamiseks.
+    > Tee **mitte** redigeerige faile CommerceRuntime.config ja CommerceRuntime.MPOSOffline.config. Need failid ei ole mõeldud kohandamiseks.
 
-5. Otsige ja eemaldage varasema riistvarajaama laiend laiendi konfiguratsioonifailist.
+5. Otsige üles ja eemaldage laienduse konfiguratsioonifailist varasem riistvarajaama laiendus.
 
-    # <a name="retail-73-and-earlier"></a>[Jaemüügi 7.3 ja varasemad](#tab/retail-7-3)
-
-    ``` xml
-    <add source="assembly" value="Contoso.Commerce.HardwareStation.Extension.FiscalRegisterSample" />
-    ```
-
-    # <a name="retail-731-and-later"></a>[Jaemüügi 7.3.1 ja uuem](#tab/retail-7-3-1)
+    # <a name="retail-73-and-earlier"></a>[Jaemüük 7.3 ja varasemad](#tab/retail-7-3)
 
     ``` xml
     <add source="assembly" value="Contoso.Commerce.HardwareStation.Extension.FiscalRegisterSample" />
     ```
 
-    # <a name="retail-100-and-later"></a>[Jaemüügi 10.0 ja uuem](#tab/retail-10-0)
+    # <a name="retail-731-and-later"></a>[Jaemüük 7.3.1 ja uuemad](#tab/retail-7-3-1)
+
+    ``` xml
+    <add source="assembly" value="Contoso.Commerce.HardwareStation.Extension.FiscalRegisterSample" />
+    ```
+
+    # <a name="retail-100-and-later"></a>[Jaemüük 10.0 ja uuemad](#tab/retail-10-0)
 
     ``` xml
     <add source="assembly" value="Contoso.Commerce.HardwareStation.FiscalRegisterSample" />
     ```
     ---
 
-6. Lisage laiendi **konfiguratsioonifaili** koostise jaotisse järgmine rida.
+6. Lisage järgmine rida **koostis** laiendi konfiguratsioonifaili jaotises.
 
     ``` xml
     <add source="assembly" value="Contoso.Commerce.HardwareStation.CleanCashSample" />
     ```
 
-#### <a name="update-modern-pos"></a>Uuenda tänapäevast kassat
+#### <a name="update-modern-pos"></a>Värskendage kaasaegset POS-i
 
-1. Avage **·** **RetailSdk POS-i all CloudPOS.sln \\ lahendus**.
-2. Keelake varasem müügikoha laiend, eemaldades failist **extensions.json järgmised** read.
+1. Ava **CloudPOS.sln** lahendus all **RetailSdk\\ POS**.
+2. Keelake varasem POS-laiendus, eemaldades loendist järgmised read **extensions.json** faili.
 
     ``` json
     {
@@ -349,7 +349,7 @@ Migreerimisprotsess peaks koosnema järgmistest sammudest.
     }
     ```
 
-2. Lubage praegune kassa näidislaiend, lisades failile **extensions.json järgmised** read.
+2. Lubage praegune näidis POS-laiend, lisades järgmised read **extensions.json** faili.
 
     ``` json
     {
@@ -361,10 +361,10 @@ Migreerimisprotsess peaks koosnema järgmistest sammudest.
     }
     ```
 
-#### <a name="update-cloud-pos"></a>Värskenda pilve kassa
+#### <a name="update-cloud-pos"></a>Värskendage Cloud POS-i
 
-1. **ModernPOS.sln lahenduse** avamine **RetailSdk \\ POS-i all**
-2. Keelake varasem müügikoha laiend, eemaldades failist **extensions.json järgmised** read.
+1. Ava **ModernPOS.sln** lahendus all **RetailSdk\\ POS**.
+2. Keelake varasem POS-laiendus, eemaldades loendist järgmised read **extensions.json** faili.
 
     ``` json
     {
@@ -372,7 +372,7 @@ Migreerimisprotsess peaks koosnema järgmistest sammudest.
     }
     ```
 
-2. Lubage praegune kassa näidislaiend, lisades failile **extensions.json järgmised** read.
+2. Lubage praegune näidis POS-laiend, lisades järgmised read **extensions.json** faili.
 
     ``` json
     {
@@ -384,89 +384,89 @@ Migreerimisprotsess peaks koosnema järgmistest sammudest.
     }
     ```
 
-### <a name="migration-in-a-production-environment"></a>Migreerimine tootmiskeskkonnas
+### <a name="migration-in-a-production-environment"></a>Ränne tootmiskeskkonnas
 
 #### <a name="update-crt"></a>Uuenda CRT
 
-1. Eemaldage varasem CRT laiend **CommerceRuntime.ext.config ja** **CommerceRuntime.MPOSOffline.Ext.config konfiguratsioonifailidest** **RetailSdk \\ Assets** kaustast.
+1. Eemaldage varasem CRT laiendus alates **CommerceRuntime.ext.config** ja **CommerceRuntime.MPOSOffline.Ext.config** konfiguratsioonifailid all **RetailSdk\\ Varad** kausta.
 
     ``` xml
     <add source="assembly" value="Contoso.Commerce.Runtime.FiscalRegisterReceiptSample" />
     ```
 
     > [!WARNING]
-    > Ärge viige seda sammu lõpule enne, kui värskendate kõik selle eksemplariga töötavad CRT kassaseadmed.
+    > Ärge viige seda sammu lõpule enne, kui värskendate kõiki sellega töötavaid kassaseadmeid CRT näiteks.
 
-2. Lubage praegused näidislaiendid, muutes järgmised muudatused CRT **kaustades CommerceRuntime.ext.config ja** **CommerceRuntime.MPOSOffline.Ext.config konfiguratsioonifailid** kausta **RetailSdk \\ Assets** all.
+2. Luba praegune näidis CRT laiendusi, tehes rakenduses järgmised muudatused **CommerceRuntime.ext.config** ja **CommerceRuntime.MPOSOffline.Ext.config** konfiguratsioonifailid all **RetailSdk\\ Varad** kausta.
 
     ``` xml
     <add source="assembly" value="Contoso.Commerce.Runtime.DocumentProvider.CleanCashSample" />
     <add source="assembly" value="Microsoft.Dynamics.Commerce.Runtime.ReceiptsSweden" />
     ```
 
-3. Kausta **BuildTools** paketi kohandamise konfiguratsioonifailis Customization.settings lisage järgmine rida, et kaasata praegune näidislaiend **juurutatavatesse** CRT pakettidesse.
+3. Aastal **Kohandamine.seaded** paketi kohandamise konfiguratsioonifaili all **Ehitustööriistad** kausta, lisage praeguse näidise kaasamiseks järgmine rida CRT laiendus juurutatavates pakettides.
 
     ``` xml
     <ISV_CommerceRuntime_CustomizableFile Include="$(SdkReferencesPath)\Contoso.Commerce.Runtime.DocumentProvider.CleanCashSample.dll" />
     ```
 
-#### <a name="update-hardware-station"></a>Riistvarajaama värskendamine
+#### <a name="update-hardware-station"></a>Värskendage riistvarajaama
 
-1. Eemaldage varasem riistvarajaama laiend, muutes **konfiguratsioonifaili HardwareStation.Extension.config.**
+1. Eemaldage varasem riistvarajaama laiendus, muutes faili **HardwareStation.Extension.config** konfiguratsioonifail.
 
-    # <a name="retail-73-and-earlier"></a>[Jaemüügi 7.3 ja varasemad](#tab/retail-7-3)
+    # <a name="retail-73-and-earlier"></a>[Jaemüük 7.3 ja varasemad](#tab/retail-7-3)
 
-    Eemaldage järgmine jaotis **konfiguratsioonifailidest HardwareStation.Shared.config** ja **HardwareStation.Dedicated.config.**
-
-    ``` xml
-    <add source="assembly" value="Contoso.Commerce.HardwareStation.Extension.FiscalRegisterSample" />
-    ```
-
-    # <a name="retail-731-and-later"></a>[Jaemüügi 7.3.1 ja uuem](#tab/retail-7-3-1)
-
-    Eemaldage konfiguratsioonifailist **HardwareStation.Extension.config** järgmine jaotis.
+    Eemaldage jaotisest järgmine jaotis **HardwareStation.Shared.config** ja **HardwareStation.Dedicated.config** konfiguratsioonifailid.
 
     ``` xml
     <add source="assembly" value="Contoso.Commerce.HardwareStation.Extension.FiscalRegisterSample" />
     ```
 
-    # <a name="retail-100-and-later"></a>[Jaemüügi 10.0 ja uuem](#tab/retail-10-0)
+    # <a name="retail-731-and-later"></a>[Jaemüük 7.3.1 ja uuemad](#tab/retail-7-3-1)
 
-    Eemaldage konfiguratsioonifailist **HardwareStation.Extension.config** järgmine jaotis.
+    Eemaldage jaotisest järgmine jaotis **HardwareStation.Extension.config** konfiguratsioonifail.
+
+    ``` xml
+    <add source="assembly" value="Contoso.Commerce.HardwareStation.Extension.FiscalRegisterSample" />
+    ```
+
+    # <a name="retail-100-and-later"></a>[Jaemüük 10.0 ja uuemad](#tab/retail-10-0)
+
+    Eemaldage jaotisest järgmine jaotis **HardwareStation.Extension.config** konfiguratsioonifail.
 
     ``` xml
     <add source="assembly" value="Contoso.Commerce.HardwareStation.FiscalRegisterSample" />
     ```
     ---
 
-2. Lubage praegune riistvarajaama näidislaiend, lisades järgmise rea **konfiguratsioonifaili** **HardwareStation.Extension.config koostise** jaotisesse.
+2. Lubage praegune näidisriistvarajaama laiendus, lisades järgmise rea **koostis** jaotises **HardwareStation.Extension.config** konfiguratsioonifail.
 
     ``` xml
     <add source="assembly" value="Contoso.Commerce.HardwareStation.CleanCashSample" />
     ```
 
-3. Tehke kausta **BuildTools all kohanduspaketi** kohandamise konfiguratsioonifailis **järgmised** muudatused:
+3. Tehke kausta BuildTools all **paketi kohandamise konfiguratsioonifailis** Customization.settings **konfiguratsioonifailis** järgmised muudatused.
 
-    - Eemaldage järgmine rida, et välistada varasema riistvarajaama laiend juurutatavatest pakenditest.
+    - Eemaldage järgmine rida, et välistada juurutatavatest pakettidest varasem riistvarajaama laiendus.
 
         ``` xml
         <ISV_CommerceRuntime_CustomizableFile Include="$(SdkReferencesPath)\Contoso.Commerce.HardwareStation.Extension.FiscalRegisterSample.dll" />
         ```
 
-    - Lisage järgmised read, et kaasata praegune riistvarajaama näidislaiend juurutatavatesse pakettidesse.
+    - Lisage järgmised read, et lisada juurutatavatesse pakettidesse praegune riistvarajaama laienduse näidis.
 
         ``` xml
         <ISV_HardwareStation_CustomizableFile Include="$(SdkReferencesPath)\Contoso.Commerce.HardwareStation.CleanCashSample.dll" />
         <ISV_HardwareStation_CustomizableFile Include="$(SdkReferencesPath)\Interop.CleanCash_1_1.dll" />
         ```
 
-#### <a name="update-modern-pos"></a>Uuenda tänapäevast kassat
+#### <a name="update-modern-pos"></a>Värskendage kaasaegset POS-i
 
-1. **CloudPOS.sln lahenduse** avamine **retailSdk \\ POS-s.**
-2. Keelake varasem müügikoha laiend:
+1. Ava **CloudPOS.sln** lahendus juures **RetailSdk\\ POS**.
+2. Keela varasem POS-laiendus:
 
-    - Lisage **failis tsconfig.json** kaust **FiscalRegisterSample** välistamisloendisse.
-    - Eemaldage järgmised read failist **extensions.json** kausta **RetailSDK \\ POS \\ extensions** all.
+    - Aastal **tsconfig.json** faili, lisage **FiscalRegisterSample** kausta välistamisloendisse.
+    - Eemaldage järgmised read **extensions.json** faili all **JaemüügiSDK\\ POS\\ Laiendused** kausta.
 
         ``` json
         {
@@ -474,7 +474,7 @@ Migreerimisprotsess peaks koosnema järgmistest sammudest.
         }
         ```
 
-3. Lubage praegune näidiskassa laiend, lisades järgmised read **faili extensions.json** kausta **RetailSDK \\ POS \\ Extensions** alla.
+3. Lubage praegune näidis POS-laiend, lisades järgmised read **extensions.json** faili all **JaemüügiSDK\\ POS\\ Laiendused** kausta.
 
     ``` json
     {
@@ -486,13 +486,13 @@ Migreerimisprotsess peaks koosnema järgmistest sammudest.
     }
     ```
 
-#### <a name="update-cloud-pos"></a>Värskenda pilve kassa
+#### <a name="update-cloud-pos"></a>Värskendage Cloud POS-i
 
-1. **ModernPOS.sln lahenduse** avamine **RetailSdk \\ POS-i all**
-2. Keelake varasem müügikoha laiend:
+1. Ava **ModernPOS.sln** lahendus all **RetailSdk\\ POS**.
+2. Keela varasem POS-laiendus:
 
-    - Lisage **failis tsconfig.json** kaust **FiscalRegisterSample** välistamisloendisse.
-    - Eemaldage järgmised read failist **extensions.json** kausta **RetailSDK \\ POS \\ extensions** all.
+    - Aastal **tsconfig.json** faili, lisage **FiscalRegisterSample** kausta välistamisloendisse.
+    - Eemaldage järgmised read **extensions.json** faili all **JaemüügiSDK\\ POS\\ Laiendused** kausta.
 
         ``` json
         {
@@ -500,7 +500,7 @@ Migreerimisprotsess peaks koosnema järgmistest sammudest.
         }
         ```
 
-3. Lubage praegune näidiskassa laiend, lisades järgmised read **faili extensions.json** kausta **RetailSDK \\ POS \\ Extensions** alla.
+3. Lubage praegune näidis POS-laiend, lisades järgmised read **extensions.json** faili all **JaemüügiSDK\\ POS\\ Laiendused** kausta.
 
     ``` json
     {
@@ -514,4 +514,4 @@ Migreerimisprotsess peaks koosnema järgmistest sammudest.
 
 #### <a name="create-deployable-packages"></a>Juurutatavate pakettide loomine
 
-Juurutatavate **pakendite loomiseks käivitage msbuild kogu** Retail SDK jaoks. Rakendage pakendid LCS-i kaudu või käsitsi. Lisateavet vt Jaemüügi [SDK-pakendist.](../dev-itpro/retail-sdk/retail-sdk-packaging.md)
+Jookse **msbuild** kogu jaemüügi SDK jaoks juurutavate pakettide loomiseks. Rakendage paketid LCS-i kaudu või käsitsi. Lisateabe saamiseks vt [Jaemüügi SDK pakend](../dev-itpro/retail-sdk/retail-sdk-packaging.md).

@@ -15,14 +15,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a13f699c8c0951b32f7826e8cfe8d7dcf02a7f55
-ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
+ms.openlocfilehash: dbb069110b46c38a994a7be6276137360b14397a
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/01/2021
-ms.locfileid: "7728999"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069525"
 ---
 # <a name="distribute-and-schedule-questionnaires"></a>Küsimustike jaotamine ja ajastamine
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -30,7 +33,7 @@ See teema selgitab, kuidas saata laiali enda kavandatud küsimustikke, nii et ne
 
 Küsimustiku laialisaatmiseks on mitu võimalust.
 
--   Saate märkida küsimustiku **aktiivseks**. Küsimustik on siis saadaval kõigile töötajatele, kui küsimusegrupile pole määratud piiratud juurdepääsu.
+-   Märkige küsimustik **aktiivseks**. Küsimustik on siis saadaval kõigile töötajatele, kui küsimusegrupile pole määratud piiratud juurdepääsu.
 -   Saate määrata õigused küsimustike grupile. Küsimustik on siis saadaval valitud grupi liikmetele.
 -   Saate luua plaanitud vastamissessioone. Küsimustik on siis saadaval ainult kindlale isikule.
 -   Saate luua graafiku. Küsimustik võib siis olla saadaval mitmele inimesele.
@@ -108,10 +111,10 @@ Kui kasutate plaanitud vastamisseanssi, peate teavitama inimest otse (nt telefon
 
 ### <a name="notifying-respondents-about-a-scheduling"></a>Vastajate teavitamine plaanimisest
 
-Lehel **Küsimustikugraafikud** saate ette valmistada ja saata meilid kõigile vastajatele, kellele küsimustik on määratud. Sisestage e-kirja tekst **vahekaardile Töötaja** iseteenindus. Pärast graafiku käivitamist klõpsake suvandil **Funktsioonid** &gt; **saada** meilisõnum, et luua ja saata meil vastajatele. Vastajad saavad siis veebisaidile sisse logida ja küsimustiku täita. 
+Lehel **Küsimustikugraafikud** saate ette valmistada ja saata meilid kõigile vastajatele, kellele küsimustik on määratud. Sisestage meilisõnumi tekst vahekaardile **Töötaja iseteeninduse** meilisõnum. Pärast ajakava käivitamist klõpsake vastajatele meilisõnumi loomiseks ja saatmiseks nuppu **Tegevused** &gt; **Saada meilisõnum.** Vastajad saavad siis veebisaidile sisse logida ja küsimustiku täita. 
 
 > [!NOTE]
-> Enne meilifunktsiooni kasutamist peab IT-administraator sisestama **meiliparameetrite** lehele meilisätted.
+> Enne meilifunktsiooni kasutamist peab teie IT-administraator sisestama lehel Meiliparameetrid **meilisätted**.
 
 ## <a name="ending-a-scheduled-questionnaire"></a>Plaanitud küsimustiku lõpetamine
 

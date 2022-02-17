@@ -9,33 +9,33 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: c9bf5d9017579b4207e09769cff38361442e3938
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 9a70de253eff2a3273be4a31ab32757bb014328f
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781436"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8061463"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>Tõrkeotsingu probleemid algse häälestuse ajal
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-See teema annab teavet rakendustekomplekti Finance and Operations ja Dataverse’i vahelise andmete topeltkirjutuse integratsiooni tõrkeotsingu kohta. Eelkõige annab see teavet, mis aitab lahendada lahenduse teadlikkusega seotud probleeme, mis võivad ilmneda topeltkirjutuse esialgse häälestamise käigus.
+
+See teema pakub tõrkeotsinguteavet finance and Operationsi rakenduste ja rakenduse kahe kirjutamise integreerimiseks Dataverse. Eelkõige annab see teavet, mis aitab lahendada lahenduse teadlikkusega seotud probleeme, mis võivad ilmneda topeltkirjutuse esialgse häälestamise käigus.
 
 > [!IMPORTANT]
 > Mõne selles teemas käsitletava probleemi korral on nõutav kas süsteemiadministraatori roll või Microsoft Azure Active Directory (Azure AD) rentniku administraatori mandaat. Kõigis probleeme kirjeldavates jaotistes täpsustatakse, kas konkreetne roll või mandaat on nõutav.
 
-## <a name="you-cant-link-a-finance-and-operations-app-to-dataverse"></a>Finance and Operations i rakendust ei saa linkida Dataverse'iga
+## <a name="you-cant-link-a-finance-and-operations-app-to-dataverse"></a>Rakendust Finance and Operations ei saa linkida Dataverse
 
-**Topeltkirjutuse seadistamiseks nõutav roll:** Finance and Operations i rakenduste ja Dataverse'i süsteemiadministraator.
+**Topeltkirjutaja seadistamise vajalik roll:** süsteemiadministraator finance and Operationsi rakendustes ja Dataverse.
 
 Tõrkeid lehel **Dataverse'i häälestuse link** põhjustab tavaliselt puudulik häälestus või lubade probleemid. Veenduge, et kogu seisundikontroll läbitakse lehel **Dataverse'i häälestuse link**, nagu näidatud järgmisel joonisel. Topeltkirjutust ei saa linkida, kui tervet seisundikontrolli pole läbitud.
 
 ![Edukas seisundikontroll.](media/health_check.png)
 
-Keskkondade Finance and Operations ja Dataverse linkimiseks peab teil olema Azure AD rentniku administraatori mandaat. Pärast keskkondade linkimist saavad kasutajad sisse logida oma konto mandaadiga ja värskendada olemasoleva tabeli vastenduse.
+Finance and Operationsi ja keskkondade Azure AD linkimiseks peab teil Dataverse olema rentnikuadministraatori identimisteave. Pärast keskkondade linkimist saavad kasutajad sisse logida oma konto mandaadiga ja värskendada olemasoleva tabeli vastenduse.
 
 ## <a name="find-the-limit-on-the-number-of-legal-tables-or-companies-that-can-be-linked-for-dual-write"></a>Leidke juriidiliste tabelite või ettevõtete arvu piirang, mida saab siduda topeltkirjutusega
 
@@ -55,7 +55,7 @@ Topeltkirjutus ei toeta mitut sama nimega juriidilist isikut/ettevõtet. Näitek
 
 Kliendi blokeerimise tühistamiseks eemaldage tabelist **cdm_company** duplikaatkirjed rakenduses Dataverse. Kui tabelil **cdm_company** tühja nimega kirjeid, eemaldage need kirjed või parandage need.
 
-## <a name="error-when-opening-the-dual-write-page-in-finance-and-operations-apps"></a>Tõrge topeltkirjutuslehe avamisel Finance and Operations rakendustes
+## <a name="error-when-opening-the-dual-write-page-in-finance-and-operations-apps"></a>Tõrge topeltkirjutuslehe avamisel finance and Operationsi rakendustes
 
 Kui proovite Dataverse keskkonda kahekordse kirjutamise jaoks linkida, võidakse kuvada järgmine tõrketeade:
 
@@ -70,22 +70,22 @@ See tõrge ilmneb, kui nõusoleku etappi pole lõpule viidud. Saate kinnitada, k
     `https://login.microsoftonline.com/common/oauth2/authorize?client_id=33976c19-1db5-4c02-810e-c243db79efde&response_type=code&prompt=admin_consent`
 
 + Valige **Nõustu** nõustumiseks. Olete andnud loa rakenduse (koos `id=33976c19-1db5-4c02-810e-c243db79efde`) oma rentnikusse installimiseks.
-+ See rakendus on vajalik, et Dataverse saaks suhelda rakendustega Finance and Operations.
++ See rakendus on vajalik finance and Operationsi rakendustega suhtlemiseks Dataverse.
 
     ![Tõrkeotsingu probleemid algse häälestuse ajal.](media/Initial-sync-setup-troubleshooting-1.png)
 
 > [!NOTE]
 > Kui see ei tööta, käivitage URL Microsoft Edge privaatrežiimis või Chrome inkognito režiimis.
 
-## <a name="finance-and-operations-environment-is-not-discoverable"></a>Finance and Operations keskkond pole leitav
+## <a name="finance-and-operations-environment-is-not-discoverable"></a>Finants- ja tegevuskeskkond ei ole leitav
 
 Sellisel juhul kuvatakse järgnev veateade:
 
-*Finance and Operations rakendusekeskkond \*\*\*.cloudax.dynamics.com pole leitav.*
+*Finance and Operationsi rakenduste keskkond \*\*\*.cloudax.dynamics.com pole leitav.*
 
 On kaks põhjust, mis võivad põhjustada probleemi, kus keskkond pole leitav:
 
-+ Sisselogimiseks kasutatav kasutaja pole eksemplariga samas Finance and Operations rentnikus.
-+ Leiti Finance and Operations pärandeksemplari, mis hostiti Microsoft`i ja seal oli tuvastamisprobleem. Selle parandamiseks värskendage Finance and Operations eksemplari. Keskkond muutub avastatavaks iga värskendusega.
++ Sisselogimiseks kasutatav kasutaja pole eksemplariga Finance and Operations samas rentnikus.
++ On mõned varasemad finance and Operationsi eksemplarid, mis olid Microsofti hostitud ja millel oli avastamisega probleeme. Selle parandamiseks värskendage eksemplari Finance and Operations. Keskkond muutub avastatavaks iga värskendusega.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

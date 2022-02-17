@@ -15,14 +15,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1e0c59eb8db5a97405e87922cc65f3eb74bee48e
-ms.sourcegitcommit: b101c21f972fdad2667431f712222e040cd69d43
+ms.openlocfilehash: 83718856a864123d7941b21c078bcdb96a62cca8
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/07/2021
-ms.locfileid: "7898436"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067575"
 ---
 # <a name="configure-employee-self-service"></a>Töövõtja iseteeninduse konfigureerimine
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -38,12 +41,12 @@ Rakenduses Microsoft Dynamics 365 Human Resources saate konfigureerida **Tööv�
 
    | Field | Kirjeldus |
    | --- | --- |
-   | **Plaani tüübi kood** | Plaani tüüp, mis kuvatakse, kui see paani on valitud **valikus Soodustused iseteenindus**. |
+   | **Plaani tüübi kood** | Plaani tüüp, mis kuvatakse, kui see paan on valitud **Soodustuste iseteeninduses**. |
    | **Paani ID** | Paani kordumatu identifikaator. |
-   | **Paani sildi tekst** | Paani jaoks kuvav tekst soodustuste **iseteeninduses**. |
+   | **Paani sildi tekst** | Tekst, mis kuvatakse paani jaoks Soodustuste **iseteeninduses**. |
    | **Kirjeldus** | Paani kirjeldus. |
    | **Paani taustapilt** | Paani jaoks kasutatava kujutise URL (valikuline). |
-   | **Jälgi avatud registreerimist** | Valige see suvand, et jälgida selle plaanitüübi avatud registreerimise edenemist. Näiteks võib olla loodud plaane, kus **Plaani tüüp = Muu**. Need plaanid võivad olla valikulised plaanid, mille puhul te ei soovi jälgida registreerimise edenemist. Kui te seda plaanitüüpi ei vali, ignoreeritakse seda tüüpi plaani registreerimiste edenemise või registreerimise lõpetamise jälgimisel vahekaardil **Avatud** registreerimine. See säte rakendub plaani tüübile, mis valitakse kõigi perioodide ja juriidiliste isikute puhul. |
+   | **Avatud registreerimise jälgimine** | Valige see suvand selle plaanitüübi avatud registreerimise edenemise jälgimiseks. Näiteks võib teil olla loodud plaanid, kus **plaani tüüp = Muu**. Need plaanid võivad olla valikulised plaanid, mille puhul te ei soovi jälgida registreerimise edenemist. Kui te seda plaanitüüpi ei vali, ignoreeritakse seda tüüpi plaani registreerimise edenemise või registreerimise lõpetamise jälgimisel vahekaardil **Ava registreerimine** . See säte rakendub plaani tüübile, mis on valitud kõigi perioodide ja juriidiliste isikute jaoks. |
 
 4. Valige käsk **Salvesta**.
 
@@ -57,12 +60,12 @@ Rakenduses Microsoft Dynamics 365 Human Resources saate konfigureerida **Tööv�
 
    | Field | Kirjeldus |
    | --- | --- |
-   | **Soodustuse krediidi ID** | Paindkrediidiprogrammi plaanid, mis kuvatakse, kui see paani valitakse valikus **Soodustused** iseteenindus. |
+   | **Soodustuse krediidi ID** | Paindkrediidiprogrammi plaanid, mis kuvatakse, kui see paan on valitud **soodustuste iseteeninduses**. |
    | **Paani ID** | Paani kordumatu identifikaator. |
-   | **Paani sildi tekst** | Paani jaoks kuvav tekst soodustuste **iseteeninduses**. |
+   | **Paani sildi tekst** | Tekst, mis kuvatakse paani jaoks Soodustuste **iseteeninduses**. |
    | **Kirjeldus** | Paani kirjeldus. |
    | **Paani taustapilt** | Paani jaoks kasutatava kujutise URL (valikuline). |
-   | **Jälgi avatud registreerimist** | Valige see suvand, et jälgida selle plaanitüübi avatud registreerimise edenemist. Näiteks võib olla loodud plaane, kus **Plaani tüüp = Muu**. Need plaanid võivad olla valikulised plaanid, mille puhul te ei soovi jälgida registreerimise edenemist. Kui te seda plaanitüüpi ei vali, ignoreeritakse seda tüüpi plaani registreerimiste edenemise või registreerimise lõpetamise jälgimisel vahekaardil **Avatud** registreerimine. See säte rakendub plaani tüübile, mis valitakse kõigi perioodide ja juriidiliste isikute puhul. |
+   | **Avatud registreerimise jälgimine** | Valige see suvand selle plaanitüübi avatud registreerimise edenemise jälgimiseks. Näiteks võib teil olla loodud plaanid, kus **plaani tüüp = Muu**. Need plaanid võivad olla valikulised plaanid, mille puhul te ei soovi jälgida registreerimise edenemist. Kui te seda plaanitüüpi ei vali, ignoreeritakse seda tüüpi plaani registreerimise edenemise või registreerimise lõpetamise jälgimisel vahekaardil **Ava registreerimine** . See säte rakendub plaani tüübile, mis on valitud kõigi perioodide ja juriidiliste isikute jaoks. |
 
 4. Valige käsk **Salvesta**.
 

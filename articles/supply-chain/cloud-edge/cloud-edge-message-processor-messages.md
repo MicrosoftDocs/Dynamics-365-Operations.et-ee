@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2021-04-21
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 685c8951b7c0d8524091cf06306388736d894f58
-ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
-ms.translationtype: HT
+ms.openlocfilehash: 68db4c6561f2cc3fcfd64b49da59a4cc164685f2
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7471640"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069425"
 ---
 # <a name="message-processor-messages"></a>Sõnumi töötleja sõnumid
 
@@ -29,7 +29,7 @@ ms.locfileid: "7471640"
 
 Sõnumitöötluse sõnumeid kasutatakse pilve ja servaskaala üksuste käitamisel [tootmise töökoormuste](cloud-edge-workload-manufacturing.md) ja [laohalduse töökoormuste](cloud-edge-workload-warehousing.md) jaoks.
 
-Keskuse ja kaalu ühiku juurutuskeskkonnad vahetavad nende sünkroonimisel suurt hulka andmeid, kuid *teateprotsessor* töötleb ainult mõnda neist andmevahetustest. Te saate vaadata teateprotsessori töödeldud teateid, kui teateid **Süsteemihaldus > Sõnumiprotsessor > Teateprotsessori teated**.
+Jaoturi ja skaalaüksuse juurutuskeskkonnad vahetavad sünkroonimiseks suure hulga andmeid. Mõned vahetatud andmed käivitavad sõnumiprotsessoris *täiendava loogika*. Sõnumiprotsessori poolt töödeldud sõnumeid saate vaadata, minnes **süsteemi administreerimise > Sõnumiprotsessori > Sõnumiprotsessori sõnumeid**.
 
 ## <a name="message-grid-columns-and-filters"></a>Teatepaneeli veerud ja filtrid
 

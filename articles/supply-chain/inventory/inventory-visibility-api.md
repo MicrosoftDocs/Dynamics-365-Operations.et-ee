@@ -11,17 +11,17 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 92c427d3063c34f263d5bc449be6fac695b5912d
-ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
+ms.openlocfilehash: f74bb4bd4ed66520c04261bd9f82faad7775817e
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952623"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062107"
 ---
 # <a name="inventory-visibility-public-apis"></a>Varude nähtavuse avalikud API-d
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 
 Selles teemas kirjeldatakse Varude nähtavuse pakutavaid avalikke API-sid.
 
@@ -49,7 +49,7 @@ Microsoftil on valmiskujul nõudekogum *Postman*. Saate importida selle kogumi o
 > [!NOTE]
 > Tee {environmentId} osa on keskkonna ID rakenduses Microsoft Dynamics Lifecycle Services (LCS).
 > 
-> Hulgi-API saab tagastada maksimaalselt 512 kirjet iga taotluse kohta.
+> Api võib iga taotluse kohta tagastada maksimaalselt 512 kirjet.
 
 ## <a name="find-the-endpoint-according-to-your-lifecycle-services-environment"></a>Lõpp-punkti leidmine vastavalt Lifecycle Services keskkonnale
 
@@ -251,7 +251,7 @@ Järgmises näites on toodud näidissisu ilma `dimensionDataSource`. Sel juhul, 
 
 ### <a name="create-multiple-change-events"></a><a name="create-multiple-onhand-change-events"></a>Mitme muutmise sündmuse loomine
 
-See API võib luua korraga mitu kirjet. Ainsad erinevused selle API ja [üksiksündmuse API](#create-one-onhand-change-event) vahel on väärtused `Path` ja `Body`. Selle API puhul annab `Body` palju kirjeid. Maksimaalne kirjete arv on 512, mis tähendab, et vaba kaubavaru muudatuse hulgi-API võib toetada korraga kuni 512 muutuse sündmust.
+See API võib luua korraga mitu kirjet. Ainsad erinevused selle API ja [üksiksündmuse API](#create-one-onhand-change-event) vahel on väärtused `Path` ja `Body`. Selle API puhul annab `Body` palju kirjeid. Maksimaalne kirjete arv on 512, mis tähendab, et on-olla muuta lahtiselt API saab toetada kuni 512 muuta sündmusi korraga.
 
 ```txt
 Path:
@@ -478,7 +478,7 @@ Body:
 
 ## <a name="query-on-hand"></a>Vaba kaubavaru päring
 
-Kasutage päringu _vaba laoseisu_ API-d oma toodetele praeguste vaba kaubavaru andmete toomiseks. API toetab praegu päringuid kuni 100 üksiku üksuse kohta väärtuse `ProductID` alusel. Iga `SiteID` päringu puhul saab määrata ka mitu `LocationID` väärtust. Maksimaalne limiit on määratletud kui `NumOf(SiteID) * NumOf(LocationID) <= 100`.
+_Kasutage vaba kaubavaru_ API-d, et tuua oma toodetele praegused vaba kaubavaru andmed. API toetab praegu päringute võtte kuni 100 üksiku üksuse väärtuse järgi `ProductID`. Igas päringus saab määrata ka mitu `SiteID` ja `LocationID` väärtusi. Maksimaalne piirmäär on määratletud kui `NumOf(SiteID) * NumOf(LocationID) <= 100`.
 
 ### <a name="query-by-using-the-post-method"></a><a name="query-with-post-method"></a>Päring sisestusmeetodi abil
 

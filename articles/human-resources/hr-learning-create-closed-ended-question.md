@@ -13,14 +13,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8758b74f9ce7c8687b7c2925ccd04cd512602db0
-ms.sourcegitcommit: 8246ba3872a1f3eaa18c8bb1ba86d3c2142a6e10
-ms.translationtype: HT
+ms.openlocfilehash: b3b90bb2a4981f32feb10ee1192e9c4d2e604e7a
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "7465169"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071714"
 ---
 # <a name="create-a-closed-ended-question"></a>Suletud küsimuse loomine
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -34,10 +37,10 @@ Kinnised küsimused võimaldavad teil pakkuda valikuid, mille hulgast vastaja sa
 2. Klõpsake valikut **Uus**.
 3. Sisestage väärtus väljale **Vastustegrupp**.
 4. Sisestage väärtus väljale **Kirjeldus**.
-    * Kasutage funktsiooni Juhuslikult vastuste juhuslikult eri järjestuses paigutamiseks iga kord, kui vastusegruppi küsimuse puhul kasutatakse.  
+    * **Kasutage funktsiooni Randomize** vastuste juhuslikuks paigutamiseks erinevasse järjestusse iga kord, kui vastuserühma küsimuse jaoks kasutatakse.  
 5. Klõpsake suvandit **Vastus**.
 6. Klõpsake valikut **Uus**.
-    * Seerianumber juhib vastuste kuvamise järjestust, v.a juhul, kui vastustegrupi puhul on valitud Juhuslikult.  
+    * Järjekorranumber juhib vastuste kuvamise järjekorda, välja arvatud juhul, kui **rühma Vastus jaoks** on valitud **randomiseerimine**.  
     * Vastuste eest saab anda punkte küsimustiku punktiarvestuses kasutamiseks.  
 7. Sisestage number väljale **Punktid**.
     * Õige vastuse saab märkida, näitamaks, et valitud vastus on õige. Seda saab kasutada küsimustiku punktiarvestuseks.  
@@ -61,8 +64,8 @@ Kinnised küsimused võimaldavad teil pakkuda valikuid, mille hulgast vastaja sa
 ## <a name="create-the-question"></a>Küsimuse loomine
 1. Avage **Küsimustik** > **Kujundus** > **Küsimused**.
 2. Klõpsake valikut **Uus**.
-3. Kasutage seotud küsimuste koos grupeerimiseks välja Tüüp.
-    * Saate kinniste küsimuste puhul kasutada sisendi tüüpe Märkeruut, Alternatiivne nupp või Liitboks.  
+3. **Välja Tüüp** abil saate rühmitada seotud küsimusi koos.
+    * Suletud küsimuste puhul saate kasutada **märkeruudu**, **alternatiivinuppu** või **liitbotüüpe**.  
 4. Valige suvand väljalt **Sisendi tüüp**.
 5. Sisestage või valige väärtus väljal **Vastustegrupp**.
 6. **Sisestage väärtus väljale Tekst.**

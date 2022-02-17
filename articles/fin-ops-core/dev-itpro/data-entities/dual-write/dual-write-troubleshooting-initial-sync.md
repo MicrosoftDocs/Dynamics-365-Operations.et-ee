@@ -9,25 +9,25 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 241277ada768cc6497035cc377d0e158646a42d6
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 030e565ffff561f6c1efbdd0de9928f70c7c46c0
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781110"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063054"
 ---
 # <a name="troubleshoot-issues-during-initial-synchronization"></a>Probleemide tõrkeotsing esmase sünkroonimise ajal
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-See teema annab teavet rakendustekomplekti Finance and Operations ja Dataverse’i vahelise andmete topeltkirjutuse integratsiooni tõrkeotsingu kohta. Eelkõige annab see teavet, mis aitab lahendada lahenduse teadlikkusega seotud probleeme, mis võivad ilmneda esialgse sünkroonimise käigus.
+
+See teema pakub tõrkeotsinguteavet finance and Operationsi rakenduste ja rakenduse kahe kirjutamise integreerimiseks Dataverse. Eelkõige annab see teavet, mis aitab lahendada lahenduse teadlikkusega seotud probleeme, mis võivad ilmneda esialgse sünkroonimise käigus.
 
 > [!IMPORTANT]
 > Mõne selles teemas käsitletava probleemi korral on nõutav kas süsteemiadministraatori roll või Microsoft Azure Active Directory (Azure AD) rentniku administraatori mandaat. Kõigis probleeme kirjeldavates jaotistes täpsustatakse, kas konkreetne roll või mandaat on nõutav.
 
-## <a name="check-for-initial-synchronization-errors-in-a-finance-and-operations-app"></a>Esmase sünkroonomise tõrgete kontrollimine Finance and Operations i rakenduses
+## <a name="check-for-initial-synchronization-errors-in-a-finance-and-operations-app"></a>Finance and Operationsi rakenduse algsete sünkroonimistõrgete kontrollimine
 
 Pärast vastendamise mallide lubamist peaks vastenduse olekuks olema **Töötab**. Kui olek on **Ei tööta**, ilmnes tõrkeid esmasel sünkroonimisel. Tõrgete kuvamiseks valige lehel **Topeltkirjutus** vahekaart **Esmase sünkroonimise üksikasjad**.
 
@@ -39,7 +39,7 @@ Pärast vastendamise mallide lubamist peaks vastenduse olekuks olema **Töötab*
 
 Kui proovite käivitada vastendust ja esmast sünkroonimist, võidakse kuvada järgmine tõrketeade.
 
-*(\[ Vigane päring\], kaugserver tagastas tõrke: (400) vigane päring.), AX eksportimisel ilmnes tõrge.*
+*(\[Vigane päring\], kaugserver tagastas tõrke: (400) vigane päring.), AX eksportimisel ilmnes tõrge.*
 
 Siin on tabeli täieliku tõrketeate näide.
 
@@ -63,7 +63,7 @@ at Microsoft.D365.ServicePlatform.Context.ServiceContext.Activity.\<ExecuteAsync
 
 Kui see tõrge ilmneb järjepidevalt ja te ei saa esmast sünkroonimist lõpule viia, toimige probleemi lahendamiseks järgmiselt.
 
-1. Logige rakenduse Finance and Operations virtuaalarvutisse (VM) sisse.
+1. Logige sisse rakendus Finance and Operations virtuaalmasinasse (VM).
 2. Avage Microsofti halduskonsool.
 3. Paanil **Teenused** veenduge, et Microsoft Dynamics 365 andmete importimise/eksportimise raamistiku teenus töötab. Taaskäivitage see, kui see on peatatud, kuna esmane sünkroonimine nõuab seda.
 
@@ -71,11 +71,11 @@ Kui see tõrge ilmneb järjepidevalt ja te ei saa esmast sünkroonimist lõpule 
 
 Teile võidakse kuvada esmase sünkroonimise ajal järgmine tõrketeade.
 
-*(\[ Keelatud\], kaugserver tagastas tõrke: (403) keelatud.), AX eksportimisel ilmnes tõrge*
+*(\[Keelatud\], kaugserver tagastas tõrke: (403) keelatud.), AX eksportimisel ilmnes tõrge*
 
 Probleemi lahendamiseks tehke järgmist.
 
-1. Logige rakendusse Finance and Operations sisse.
+1. Logige sisse rakendusse Finance and Operations.
 2. Kustutage lehel **Azure Active Directory rakendused** klient **DtAppID** ja seejärel lisage see uuesti.
 
 ![DtAppID klient Azure AD rakenduste loendis.](media/aad_applications.png)
@@ -87,9 +87,9 @@ Teile võidakse kuvada tõrketeade, kui mõnel teie vastendustest on eneseviited
 - [Tõrked tabeli Hankijad V2 vastendamisel üksusega msdyn_vendors](#error-vendor-map)
 - [Tõrked tabeli Kliendid V3 vastendamisel üksusega Kontod](#error-customer-map)
 
-## <a name="resolve-errors-in-the-vendors-v2tomsdyn_vendors-table-mapping"></a><a id="error-vendor-map"></a> Tõrgete lahendamine tabeli Hankijad V2 vastendamisel üksusega msdyn_vendors
+## <a name="resolve-errors-in-the-vendors-v2tomsdyn_vendors-table-mapping"></a><a id="error-vendor-map"></a>Tõrgete lahendamine tabeli Hankijad V2 vastendamisel üksusega msdyn_vendors
 
-Üksuse **Hankijad V2** vastendamisel üksusega **msdyn\_ vendors** võivad ilmneda esmase sünkroonimise tõrked, kui tabelitel on olemasolevaid ridu, mille veerud **PrimaryContactPersonId** ja **InvoiceVendorAccountNumber** sisaldavad väärtusi. Tõrked ilmnevad seetõttu, et hankija vastendamisel on **InvoiceVendorAccountNumber** enesele viitav veerg ja **PrimaryContactPersonId** ringviitav väli.
+Üksuse **Hankijad V2** vastendamisel üksusega **msdyn\_vendors** võivad ilmneda esmase sünkroonimise tõrked, kui tabelitel on olemasolevaid ridu, mille veerud **PrimaryContactPersonId** ja **InvoiceVendorAccountNumber** sisaldavad väärtusi. Tõrked ilmnevad seetõttu, et hankija vastendamisel on **InvoiceVendorAccountNumber** enesele viitav veerg ja **PrimaryContactPersonId** ringviitav väli.
 
 Ilmnenud tõrketeated kuvatakse järgmises vormis.
 
@@ -97,14 +97,14 @@ Ilmnenud tõrketeated kuvatakse järgmises vormis.
 
 Järgmisena on toodud mõned näited.
 
-- *Guidi ei saanud lahendada väljal: msdyn\_ vendorprimarycontactperson.msdyn\_ contactpersonid. Otsingut ei leitud: 000056. Proovige seda URL-i, et kontrollida kas viiteandmed on olemas: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/contacts?$select=msdyn_contactpersonid.contactid&$filter=msdyn_contactpersonid eq '000056'`*
-- *Guidi ei saanud lahendada väljal: msdyn\_ invoicevendoraccountnumber.msdyn\_ vendoraccountnumber. Otsingut ei leitud: V24-1. Proovige seda URL-i, et kontrollida kas viiteandmed on olemas: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/msdn_vendors?$select=msdyn_vendoraccountnumber,msdyn_vendorid&$filter=msdyn_vendoraccountnumber eq 'V24-1'`*
+- *Guidi ei saanud lahendada väljal: msdyn\_vendorprimarycontactperson.msdyn\_contactpersonid. Otsingut ei leitud: 000056. Proovige seda URL-i, et kontrollida kas viiteandmed on olemas: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/contacts?$select=msdyn_contactpersonid.contactid&$filter=msdyn_contactpersonid eq '000056'`*
+- *Guidi ei saanud lahendada väljal: msdyn\_invoicevendoraccountnumber.msdyn\_vendoraccountnumber. Otsingut ei leitud: V24-1. Proovige seda URL-i, et kontrollida kas viiteandmed on olemas: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/msdn_vendors?$select=msdyn_vendoraccountnumber,msdyn_vendorid&$filter=msdyn_vendoraccountnumber eq 'V24-1'`*
 
 Kui hankija tabelis on read, mille veerud **PrimaryContactPersonId** ja **InvoiceVendorAccountNumber** sisaldavad väärtusi, siis järgige neid samme, et esmane sünkroonimine lõpule viia.
 
-1. Kustutage rakenduses Finance and Operations vastendusest veerud **PrimaryContactPersonId** ja **InvoiceVendorAccountNumber** ning seejärel salvestage vastendus.
+1. Kustutage **rakenduses Finance and Operations vastendusest veerud PrimaryContactPersonId** ja **InvoiceVendorAccountNumber** ning salvestage vastendus.
 
-    1. Avage **Hankijad V2 (msdyn\_ vendors)** topeltkirjutuse vastendamisleht ja seejärel vahekaart **Tabeli vastendused**. Valige vasakpoolses filtris suvand **Finance and Operations apps.Vendors V2**. Valige parempoolses filtris **Müük.Hankija**.
+    1. Valige hankijate V2 (msdynvendors **) topeltkirjutuskaardistuslehel \_** vahekaardi Tabeli vastendamised **vasakpoolses filtris suvand** Finance and Operations **rakendused. Hankijad V2**. Valige parempoolses filtris **Müük.Hankija**.
     2. Otsige väärtust **primarycontactperson**, et leida allika veerg **PrimaryContactPersonId**.
     3. Valige **Tegevused** ja seejärel **Kustuta**.
 
@@ -128,13 +128,13 @@ Kui hankija tabelis on read, mille veerud **PrimaryContactPersonId** ja **Invoic
 
         ![Suvandi „Keela muudatuste jälgimine” valimine.](media/selfref_tracking.png)
 
-3. Käivitage üksuse **Hankijad V2 (msdyn\_ vendors)** vastenduse esmane sünkroonimine. Esmane sünkroonimine peaks toimima tõrgeteta.
+3. Käivitage üksuse **Hankijad V2 (msdyn\_vendors)** vastenduse esmane sünkroonimine. Esmane sünkroonimine peaks toimima tõrgeteta.
 4. Käivitage üksuse **CDS-i kontaktid V2 (kontaktid)** vastenduse esmane sünkroonimine. Selle vastenduse peate sünkroonima juhul, kui soovite sünkroonida hankijate tabeli põhikontakti veergu, kuna ka kontaktiread tuleb esmasünkroonida.
-5. Lisage veerud **PrimaryContactPersonId** ja **InvoiceVendorAccountNumber** tagasi vastendusse **Hankijad V2 (msdyn\_ vendors)** ning seejärel salvestage vastendus.
-6. Käivitage uuesti üksuse **Hankijad V2 (msdyn\_ vendors)** vastenduse esmane sünkroonimine. Kuna muudatuste jälgimine on välja lülitatud, sünkroonitakse kõik read.
+5. Lisage veerud **PrimaryContactPersonId** ja **InvoiceVendorAccountNumber** tagasi vastendusse **Hankijad V2 (msdyn\_vendors)** ning seejärel salvestage vastendus.
+6. Käivitage uuesti üksuse **Hankijad V2 (msdyn\_vendors)** vastenduse esmane sünkroonimine. Kuna muudatuste jälgimine on välja lülitatud, sünkroonitakse kõik read.
 7. Lülitage tabeli **Hankijad V2** muudatuste jälgimine tagasi sisse.
 
-## <a name="resolve-errors-in-the-customers-v3toaccounts-table-mapping"></a><a id="error-customer-map"></a> Tõrgete lahendamine tabeli Kliendid V3 vastendamisel üksusega Kontod
+## <a name="resolve-errors-in-the-customers-v3toaccounts-table-mapping"></a><a id="error-customer-map"></a>Tõrgete lahendamine tabeli Kliendid V3 vastendamisel üksusega Kontod
 
 Üksuse **Kliendid V3** vastendamisel üksusega **Kontod** võivad ilmneda esmase sünkroonimise tõrked, kui tabelitel on olemasolevaid ridu, mille veerud **ContactPersonID** ja **InvoiceAccount** sisaldavad väärtusi. Need tõrked ilmnevad seetõttu, et hankija vastendamisel on **InvoiceAccount** enesele viitav veerg ja **ContactPersonID** ringviitav veerg.
 
@@ -144,14 +144,14 @@ Ilmnenud tõrketeated kuvatakse järgmises vormis.
 
 Järgmisena on toodud mõned näited.
 
-- *Guidi ei saanud lahendada väljal: primarycontactid.msdyn\_ contactpersonid. Otsingut ei leitud: 000056. Proovige seda URL-i, et kontrollida kas viiteandmed on olemas: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/contacts?$select=msdyn_contactpersonid.contactid&$filter=msdyn_contactpersonid eq '000056'`*
-- *Guidi ei saanud lahendada väljal: msdyn\_ billingaccount.accountnumber. Otsingut ei leitud: 1206-1. Proovige seda URL-i, et kontrollida kas viiteandmed on olemas: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/accounts?$select=accountnumber.account&$filter=accountnumber eq '1206-1'`*
+- *Guidi ei saanud lahendada väljal: primarycontactid.msdyn\_contactpersonid. Otsingut ei leitud: 000056. Proovige seda URL-i, et kontrollida kas viiteandmed on olemas: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/contacts?$select=msdyn_contactpersonid.contactid&$filter=msdyn_contactpersonid eq '000056'`*
+- *Guidi ei saanud lahendada väljal: msdyn\_billingaccount.accountnumber. Otsingut ei leitud: 1206-1. Proovige seda URL-i, et kontrollida kas viiteandmed on olemas: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/accounts?$select=accountnumber.account&$filter=accountnumber eq '1206-1'`*
 
 Kui kliendi tabelis on read, mille veerud **ContactPersonID** ja **InvoiceAccount** sisaldavad väärtusi, siis järgige neid samme, et esmane sünkroonimine lõpule viia. Seda meetodit saate kasutada kõikide valmiskujul tabelite puhul, nagu näiteks **Kontod** ja **Kontaktid**.
 
-1. Kustutage rakenduses Finance and Operations vastendusest **Kliendid V3 (kontod)** veerud **ContactPersonID** ja **InvoiceAccount** ning seejärel salvestage vastendus.
+1. Kustutage **rakenduses Finance and Operations veerud ContactPersonID** ja **InvoiceAccount** vastendusest **Kliendid V3 (kontod)** ja salvestage vastendus.
 
-    1. Avage **Kliendid V3 (kontod)** topeltkirjutuse vastendamisleht ja seejärel vahekaart **Tabeli vastendused**. Valige vasakpoolses filtris suvand **Finance and Operations app.Customers V3**. Valige parempoolses filtris **Dataverse.Account**.
+    1. Valige klientide V3 (kontod) **topeltkirjutusvastenduslehe** **vahekaardi Tabeli vastendused** vasakpoolses filtris rakendus **Finance and Operations . Kliendid V3**. Valige parempoolses filtris **Dataverse.Account**.
     2. Otsige väärtust **contactperson**, et leida allika veerg **ContactPersonID**.
     3. Valige **Tegevused** ja seejärel **Kustuta**.
 
@@ -179,29 +179,29 @@ Kui kliendi tabelis on read, mille veerud **ContactPersonID** ja **InvoiceAccoun
 4. Käivitage üksuse **CDS-i kontaktid V2 (kontaktid)** vastenduse esmane sünkroonimine.
 
     > [!NOTE]
-    > Sama nimega vastendusi on kaks. Valige vastendus, millel on vahekaardil **Üksikasjad** järgmine kirjeldus: **Topeltkirjutamise mall üksuse FO.CDS Hankija Kontaktid V2 sünkroonimiseks üksusega CDS.Kontaktid. Vajab uut paketti \[ Dynamics365SupplyChainExtended\].**
+    > Sama nimega vastendusi on kaks. Valige vastendus, millel on vahekaardil **Üksikasjad** järgmine kirjeldus: **Topeltkirjutamise mall üksuse FO.CDS Hankija Kontaktid V2 sünkroonimiseks üksusega CDS.Kontaktid. Vajab uut paketti \[Dynamics365SupplyChainExtended\].**
 
 5. Lisage veerud **InvoiceAccount** ja **ContactPersonId** tagasi vastendusse **Kliendid V3 (Kontod)** ning seejärel salvestage vastendus. Nüüd on nii veerg **InvoiceAccount** kui ka veerg **ContactPersonId** taas osa reaalajas sünkroonimise režiimist. Järgmise sammu käigus esmasünkroonite need veerud.
-6. Käivitage uuesti üksuse **Kliendid V3 (kontod)** vastenduse esmane sünkroonimine. Kuna muudatuste jälgimine on välja lülitatud, siis sünkroonitakse väljade **InvoiceAccount** ja **ContactPersonId** andmed rakendusest Finance and Operations rakendusega Dataverse.
-7. Väljade **InvoiceAccount** ja **ContactPersonId** andmete sünkroonimiseks rakendusest Dataverse rakendusega Finance and Operations peate kasutama andmeintegratsiooni projekti.
+6. Käivitage uuesti üksuse **Kliendid V3 (kontod)** vastenduse esmane sünkroonimine. Kuna muudatuste jälgimine on välja lülitatud, sünkroonitakse InvoiceAccounti **ja** ContactPersonId **andmed** rakendusest Finance and Operations rakenduseks Dataverse.
+7. InvoiceAccounti **ja ContactPersonId-i** **andmete** sünkroonimiseks rakendusega Finance and Operations peate kasutama andmete integreerimise Dataverse projekti.
 
-    1. Looge rakenduses Power Apps tabelite **Sales.Account** ja **Finance and Operations apps.Customers V3** vahel andmete integreerimise projekt. Andmete suund peab olema rakendusest Dataverse rakendusse Finance and Operations. Kuna **InvoiceAccount** on topeltkirjutuses uus atribuut, siis võite selle atribuudi esmase sünkroonimise vahele jätta. Lisateavet vt teemast [Andmete integreerimine teenusesse Dataverse](/power-platform/admin/data-integrator).
+    1. Looge rakenduses Power Apps Sales.Account **ning** Finance and **Operationsi rakenduste vahel andmeintegratsiooni projekt. Klientide V3** tabelid. Andmesuund peab olema rakendusest Dataverse Finance and Operations. Kuna **InvoiceAccount** on topeltkirjutuses uus atribuut, siis võite selle atribuudi esmase sünkroonimise vahele jätta. Lisateavet vt teemast [Andmete integreerimine teenusesse Dataverse](/power-platform/admin/data-integrator).
 
         Järgmisel illustratsioonil on toodud projekt, mis värskendab väljasid **CustomerAccount** ja **ContactPersonId**.
 
         ![Andmeintegratsiooni projekt väljade CustomerAccount ja ContactPersonId värskendamiseks.](media/cust_selfref6.png)
 
-    2. Lisage teenuse Dataverse poolel filtrite all ettevõtte kriteeriumid, et rakenduses Finance and Operations värskendataks vaid filtri kriteeriumidele vastavaid ridu. Filtri lisamiseks valige filtri nupp. Seejärel saate dialoogiboksis **Päringu redigeerimine** lisada filtri päringu, nagu näiteks **\_ msdyn\_ company\_ value eq '\<guid\>'**.
+    2. Lisage ettevõtte kriteeriumid küljel olevasse filtrisse Dataverse, nii et rakenduses Finance and Operations värskendatakse ainult filtrikriteeriumidele vastavaid ridu. Filtri lisamiseks valige filtri nupp. Seejärel saate dialoogiboksis **Päringu redigeerimine** lisada filtri päringu, nagu näiteks **\_msdyn\_company\_value eq '\<guid\>'**.
 
         > [MÄRKUS] Kui filtri nuppu ei kuvata, siis saate luua tugiteenusepileti, et paluda andmeintegratsiooni meeskonnal lubada teie rentnikus filtri võimalus.
 
-        Kui te ei sisesta **\_ msdyn\_ company\_ value** jaoks filtri päringut, siis sünkroonitakse kõik read.
+        Kui te ei sisesta **\_msdyn\_company\_value** jaoks filtri päringut, siis sünkroonitakse kõik read.
 
         ![Filtri päringu lisamine.](media/cust_selfref7.png)
 
     Ridade esmane sünkroonimine on nüüd lõpule viidud.
 
-8. Lülitage rakenduses Finance and Operations tabeli **Kliendid V3** muudatuste jälgimine tagasi sisse.
+8. Lülitage rakenduses Finance and Operations muudatuste jälgimine uuesti sisse **tabelis Kliendid V3**.
 
 ## <a name="initial-sync-failures-on-maps-with-more-than-10-lookup-fields"></a>Algse sünkroonimise tõrked rohkem kui 10 otsinguväljaga vastetel
 
@@ -227,9 +227,9 @@ Kui proovite käivitada osapoole postiaadresside ja osapoole elektrooniliste aad
 
 *Osapoole numbrit Dataverse`ist ei leitud.*
 
-On määratud vahemikud **KolmasOsaCDSÜksus** rakenduses Finance and Operations, mis filtreerivad **Isiku** ja **Organisastsiooni** tüüpi osapooli. Selle tulemusena **CDS-i osapoolte - msdyn_parties** vastendamine ei sünkrooni teist tüüpi osapooli, sh **juriidilist isikut** ja **tootmisüksust**. Kui algne sünkroonimine töötab **CDS Party postiaadresside (msdyn_partypostaladdresses)** või **Party Contacts V3 (msdyn_partyelectronicaddresses)** puhul, võidakse kuvada tõrge.
+DirPartyCDSEntity in Finance and Operations rakendustes on seatud **vahemik, mis filtreerib osapooled tüübiga** Isik **ja** Organisatsioon **.** Selle tulemusena **CDS-i osapoolte - msdyn_parties** vastendamine ei sünkrooni teist tüüpi osapooli, sh **juriidilist isikut** ja **tootmisüksust**. Kui algne sünkroonimine töötab **CDS Party postiaadresside (msdyn_partypostaladdresses)** või **Party Contacts V3 (msdyn_partyelectronicaddresses)** puhul, võidakse kuvada tõrge.
 
-Töötame parandusega, et eemaldada üksuselt osapoole tüübi vahemik, nii et igat tüüpi osapooled rakenduses Finance and Operations saavad edukalt Dataverse sünkroonida.
+Töötame lahenduse kallal, et eemaldada olemi Rahandus ja Toimingud osapooletüübi vahemik, et igat tüüpi osapooled saaksid sünkroonida Dataverse edukalt.
 
 ## <a name="are-there-any-performance-issues-while-running-initial-sync-for-customers-or-contacts-data"></a>Kas klientide või kontaktide andmete algsel sünkroonimisel ilmnes jõudlusprobleeme?
 

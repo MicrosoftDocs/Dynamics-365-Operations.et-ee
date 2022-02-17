@@ -2,7 +2,7 @@
 title: Soodustuse halduse tööruum
 description: Selles teemas kirjeldatakse soodustuste halduse tööruumi rakenduses Dynamics 365 Human Resources.
 author: twheeloc
-ms.date: 09/21/2021
+ms.date: 01/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,14 +15,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-24
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e6cc1432e108c74706dea124a62024272e65b6c1
-ms.sourcegitcommit: 47a3ad71210c7ac84d0c25e913c440b5ba205282
-ms.translationtype: HT
+ms.openlocfilehash: 424f4a2098e05b4f7dc6fa84df133dda81cc59f0
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7512470"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071711"
 ---
 # <a name="benefits-management-workspace"></a>Soodustuse halduse tööruum
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [applies to](../includes/applies-to-hr.md)]
 
@@ -94,7 +97,7 @@ Muu soodustuste perioodi vaatamiseks valige see ripploendist **Periood**.
 Tegevusüksuste kuvamiseks võite valida kas paani või vahekaardi. Vahekaardi valimise korral saate töötajaid vaadata ja valida tööruumi lehel.
 Vahekaardil **Avatud registreerimine** antakse avatud registreerimisprotsessi võtmemõõdud. 
 
-Avatud registreerimisega seotud teave kuvatakse 30 päeva enne **Registreerimise alguskuupäeva**. See määratletakse **Perioodide** seadistuses **Soodustuste haldus** > **Lingid** > **Perioodid** väljal **Registreerimise alguskuupäev**.  Selle sätte muutmiseks minge **Inimressursside jagatud parameetrid** > **Soodustuste haldus** > **Avatud registreerimise suvandid** ja värskendage **Arv** välja.  
+Avatud registreerimisega seotud teave kuvatakse 30 päeva enne **Registreerimise alguskuupäeva**. See määratletakse **Perioodide** seadistuses **Soodustuste haldus** > **Lingid** > **Perioodid** väljal **Registreerimise alguskuupäev**.  Selle sätte muutmiseks minge aadressile **Inimressursi jagatud parameetrid** > **Kasu juhtimine** > **Ava registreerimisvalikud** ja värskendage **Mitu** valdkonnas.  
 
 Järgmine teave on saadaval vahekaardil **Avatud registreerimine**:
  - Töötajad, kes ei ole avatud registreerimisprotsessi alustanud
@@ -109,11 +112,11 @@ Järgmine teave on saadaval vahekaardil **Avatud registreerimine**:
   > [!NOTE]
   > Kui te ei soovi jälgida **Plaani tüübi** avatud registreerimise edenemist, saate selle välistada, kui kasutate **Soodustuste haldus** > **Lingid** > **Töötaja iseteeninduse parameetrid** > **Soodustuse plaani paani häälestus** ja värskendades välja **Jälgi avatud registreerimise edenemist**.  Näiteks võib olla loodud plaane, millel **Plaani tüüp** = **Muu**. Need plaanid võivad olla valikulised plaanid, mille puhul te ei soovi jälgida registreerimise edenemist. Kui te seda plaanitüüpi ei vali, eiratakse seda tüüpi plaane registreerimiste jälgimisel või lõpetamisel vahekaardil **Avatud registreerimine**. See säte rakendub plaani tüübile, mis valitakse kõigi perioodide ja juriidiliste isikute puhul.
 
-- **Pooleli** – **Pooleli** paanil on töötajate arv, kellel on valimised pooleli. Paanil **Pooleli** on filtreeritud loend, mis näitab ainult töötajaid, kes omavad vähemalt ühte loobutud või valitud plaani. Kohustuslikke plaane ignoreeritakse ja neid ei kaasata, kuna need on töötaja jaoks vaikimisi valitud. Sellelt paanilt saate tagasi minna, et näha **Töötaja soodustuse plaanide hulgivärskenduse lehel** valitud ja loobutud plaane.
+- **Pooleli** – **Pooleli** paanil on töötajate arv, kellel on valimised pooleli. Paanil **Pooleli** on filtreeritud loend, mis näitab ainult töötajaid, kes omavad vähemalt ühte loobutud või valitud plaani. Kohustuslikke plaane ignoreeritakse ja neid ei kaasata, kuna need on töötaja jaoks vaikimisi valitud. Saate sellelt paanilt tagasi puurida, et näha valitud ja loobutud plaane **Töötajate hüvitiste plaanide hulgivärskendus** lehel.
 
 - **Registreeritud soodustusteks** – **Registreeritud soodustusteks** paanil on kaasatud töötajate arv, kes on registreeritud soodustusteks. **Registreeritud soodustusteks** paanil on filtreeritud loend, mis näitab kõiki plaanidest valitud või sellest loobunud töötajaid. Päring välistab plaanid, mida ei jälgita avatud registreerimise jaoks lehel **Töötaja iseteeninduse parameetrid**. Sellelt paanilt saate tagasi minna, et vaadata töötajate loendit **Töötaja soodustuse plaanide** lehel.
 
-- **Kinnitamata valikud** – **Kinnitamata valikute** paanil kuvatakse töötajate arv, kes on valitud või loobunud plaanidest, mis tuleb kinnitada. Sellelt paanilt saate tagasi minna, et kuvada **Töötajate soodustuse plaanide hulgivärskenduse** lehte.
+- **Kinnitamata valikud** – **Kinnitamata valikute** paanil kuvatakse töötajate arv, kes on valitud või loobunud plaanidest, mis tuleb kinnitada. Saate sellest paanist tagasi puurida, et kuvada **Töötajate hüvitiste plaanide hulgivärskendus** lehel.
 
 **Tegevus**
 

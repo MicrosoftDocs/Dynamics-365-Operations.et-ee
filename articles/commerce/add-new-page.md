@@ -2,7 +2,7 @@
 title: Uue saidilehe lisamine
 description: Selles teemas kirjeldatakse, kuidas lisada rakenduses Microsoft Microsoft Dynamics 365 Commerce uus saidi leht.
 author: psimolin
-ms.date: 04/14/2020
+ms.date: 02/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4b031431499eba0e109ac04dc46ec187250eba694284864bf78bb1f90265d788
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: e0c2a73ae9e85cb299e7cb6fc70562659cdfadc5
+ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6725382"
+ms.lasthandoff: 02/04/2022
+ms.locfileid: "8090715"
 ---
 # <a name="add-a-new-site-page"></a>Uue saidilehe lisamine
 
@@ -33,11 +33,11 @@ Pärast saidi mallide ja fragmentide loomist on järgmine etapp lehtede loomise 
 
 Saate kasutada kas oma uue lehe malli või paigutust. Lisateavet vaadake teemast [Mallide ja paigutuste ülevaade](templates-layouts-overview.md).
 
-## <a name="page-name"></a>Lehe nimi
+## <a name="specify-the-page-name"></a>Lehe nime määramine
 
-Lehe nimi peab olema teie lehe jaoks ainulaadne. See peaks olema kirjeldav, et saaksite selle hõlpsasti leida ja teised inimesed teaksid, milleks leht on mõeldud. Valige lehe nimi hoolikalt, kuna seda ei saa hiljem muuta.
+Lehe nimi peab olema teie saidile ainulaadne ja kirjeldav, et saaksite selle hõlpsalt leida ja teised inimesed teaksid, milleks leht mõeldud on. Lehe saate hiljem ümber nimetada, redigeerides seda ja valides seejärel atribuudipaanil lehe nime kõrval pliiatsi sümboli.
 
-## <a name="page-url"></a>Lehe URL
+## <a name="specify-the-page-url"></a>Lehe URL-i määramine
 
 Teil võib olla võimalus sisestada uue lehe URL. Lehe loomisel saate sisestada stringi, mida kasutatakse täieliku URL-i moodustamiseks. See string on tuntud kui suhteline URL või URL-i komponent. Seejärel luuakse URL-i komponendi põhjal täielik URL ja sellele määratakse uus leht. Saate URL-i komponenti hiljem muuta, enne kui avaldate lehe. Lisateavet vaadake teemast [Lehe URL-i loomine](create-page-URL.md) .
 

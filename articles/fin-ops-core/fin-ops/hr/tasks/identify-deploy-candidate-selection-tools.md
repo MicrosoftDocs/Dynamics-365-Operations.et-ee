@@ -13,47 +13,50 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 23ac3067c03bf2cf336848301e8c27b60da8dc8c
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
-ms.translationtype: HT
+ms.openlocfilehash: 2a9753e220e62794b157340c9f8e6f8a053e9ba7
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964827"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067979"
 ---
 # <a name="identify-and-deploy-candidate-selection-tools"></a>Kandidaatide valikutööriistade tuvastamine ja juurutamine
 
 [!include [banner](../../includes/banner.md)]
 
-Vabade kohtade täitmiseks piisava hulga kvalifitseeritud kandidaatide leidmine võib olla keeruline, eriti kui ametikoht nõuab unikaalseid oskusi. Siiski võivad vajatavate oskustega kandidaadid aga juba teie organisatsioonis töötada. Saate otsida olemasolevate töötajate või uute kandidaatide seast kindlate oskustega spetsialiste. See võimaldab värbajal kiiresti koguda ja üle vaadata kandidaadid, kes on praegu või varem vabale ametikohale kandideerinud, või leida potentsiaalne kandidaat olemasolevate töötajate seast. Kasutage seda protseduuri, et teada saada, kuidas oskuste kaardistamise funktsioon aitab teil leida õige inimese avatud positsioonile. Selle **protseduuri** loomiseks kasutati USMF-i demoandmete ettevõtet.
 
-1. Minge inimressursside **pädevuste \> oskuste analüüsi oskuste \>\> kaardistamise profiilidele**.
+[!INCLUDE [PEAP](../../../../includes/peap-1.md)]
+
+Vabade kohtade täitmiseks piisava hulga kvalifitseeritud kandidaatide leidmine võib olla keeruline, eriti kui ametikoht nõuab unikaalseid oskusi. Siiski võivad vajatavate oskustega kandidaadid aga juba teie organisatsioonis töötada. Saate otsida olemasolevate töötajate või uute kandidaatide seast kindlate oskustega spetsialiste. See võimaldab värbajal kiiresti koguda ja üle vaadata kandidaadid, kes on praegu või varem vabale ametikohale kandideerinud, või leida potentsiaalne kandidaat olemasolevate töötajate seast. Selle toimingu abil saate teada, kuidas oskuste kaardistamise funktsioon aitab teil leida avatud positsiooni jaoks õige inimese. The **USMF** Selle protseduuri loomiseks kasutati demoandmete ettevõtet.
+
+1. **Minge inimressursside \> pädevuste \> oskuste analüüsi \> oskuste kaardistamise profiilidele**.
 2. Valige suvand **Uus**.
-3. Sisestage oma oskuste kaardistamise nimi väljale **Oskuste kaardistamine**. Näiteks saate sisestada **raamatupidaja**.
-4. Sisestage **oskuste** kaardistamise kirjeldus väljale Kirjeldus.
+3. Sisestage oma oskuste kaardistamise nimi väljale **Oskuste kaardistamine**. Näiteks sisestage **raamatupidaja**.
+4. Sisestage väljale **Kirjeldus** oskuste vastenduse kirjeldus.
 5. Väljale **Kuupäev** sisestage kuupäev.
-6. Valige too profiil valitud isiku, töö või kursuse tunnistusest, oskusest ja haridusandmetest tõmbamiseks, et seda saaks kasutada otsingu **alusena**. Seejärel saate kriteeriume lisada või eemaldada, näidata, kas need on valikulised, ning hinnata nende tähtsust.
-7. Valige **töö**.
-8. Sisestage **või** valige väärtus väljal Töö.
+6. Valitud isikult, töölt või kursuselt serdi,oskuste ja haridusandmete tõmbamiseks valige **Too profiil**, et saaksite neid otsingu alusena kasutada. Seejärel saate lisada või eemaldada kriteeriumid, näidata, kas need on valikulised, ja järjestada nende tähtsuse.
+7. Valige **Töö**.
+8. **Sisestage või valige väljale Töö** väärtus.
 9. Valige nupp **OK**.
-10. Lisage **vahemiku** kiirkaardile mis tahes lisateave, nt osakond.
-11. Vaadake **või** redigeerige sertifikaatide kiirkaardil tunnistusi.
-12. Vaadake **või** redigeerige oskusi kiirkaardil Oskused.
-13. Hariduse **kiirkaardil** saate vaadata või redigeerida hariduskriteeriume.
+10. Lisage kiirkaardil **Vahemik** mis tahes lisateavet (nt osakond).
+11. **Vaadake või redigeerige kiirkaardil Serdid** serte.
+12. Kiirkaardil **Oskused** saate oskusi vaadata või redigeerida.
+13. Kiirkaardil **Haridus** saate vaadata või redigeerida hariduskriteeriume.
 14. Valige **Käivita**.
 15. Valige nupp **OK**.
 16. Valige **Tulem**.
 17. Valige **Tulem**.
-18. Valige **ELULOOKIRJELDUS**.
-19. Valige **tunnistused**.
+18. Valige **Jätka**.
+19. Valige **Serdid**.
 
-    Saate süvitsi minna igasse loendisse kantud isikusse, et vaadata üksikasju oma hariduse, oskuste ja töökogemuse kohta.
+    Saate puurida edasi iga loetletud isiku kohta, et vaadata üksikasju oma hariduse, oskuste ja töökogemuse kohta.
 
 20. Sulgege leht.
 21. Sulgege leht.
 22. Valige tulemus uuesti.
 23. Valige **Aruanne**.
 
-    Parim vaste kuvatakse aruande ülaosas. Peaksite nägema, kas elemendis on vahe loetletud. See element kajastab erinevust oskuste kaardistamisel loetletud taseme ja isikule määratud oskuse taseme vahel.
+    Parimad mängud loetletakse aruande ülaosas. Peaksite nägema, et loetletud on tühimiku element. See element tähistab erinevust oskuste kaardistamisel loetletud taseme ja isikule määratud oskuse taseme vahel.
 
 24. Sulgege leht.
 25. Valige käsk **Salvesta**.

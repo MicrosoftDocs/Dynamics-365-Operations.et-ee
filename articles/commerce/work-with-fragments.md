@@ -2,7 +2,7 @@
 title: Fragmentidega töötamine
 description: Selles teemas kirjeldatakse, miks, millal ja kuidas kasutada fragmente rakenduses Microsoft Dynamics 365 Commerce.
 author: phinneyridge
-ms.date: 10/16/2020
+ms.date: 02/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 35a19f064b63ce476252064253032d35697bd69c84c4c93db1d0349a57527c2a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 98cb1fba158ea99427d2068ca49b257cb5290de3
+ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6776190"
+ms.lasthandoff: 02/04/2022
+ms.locfileid: "8090740"
 ---
 # <a name="work-with-fragments"></a>Fragmentidega töötamine 
 
@@ -121,6 +121,20 @@ Fragmendi redigeerimiseks Commerce'i saidiehitajas, toimige järgmiselt.
 1. Redigeerige fragmendi mooduli atribuute ja struktuuri vajaduse järgi. Protsess meenutab moodulite redigeerimise protsessi, mis toimub lehe redaktori vaates.
 
 Saate fragmenti redigeerida ka nii, et valite selle lehelt, mallist või ülemfragmendist ja seejärel valite paremalt atribuutide paanilt suvandi **Fragmendi redigeerimine**.
+
+### <a name="rename-a-fragment"></a>Nimetage fragment ümber
+
+Olemasoleva fragmendi ümbernimetamiseks saidi koostajas toimige järgmiselt.
+
+1. Valige vasakpoolsel navigeerimispaanil **Killud**.
+1. Valige ümbernimetatava fragmendi fragmendi nimi.
+1. Valige **Redigeeri** fragmendi redigeerimise alustamiseks. Pange tähele, et te ei saa fragmenti redigeerida, kui keegi teine seda fragmenti juba redigeerib.
+1. Valige fragmendi atribuutide paanil pliiatsi sümbol fragmendi nime kõrval.
+1. Muutke fragmendi nime vastavalt vajadusele.
+1. Nime muutmise kinnitamiseks valige linnuke.
+1. Valige **Lõpeta redigeerimine**.
+
+Saate fragmendi pärast loomist ümber nimetada, muutes seda ja valides seejärel atribuutide paanil fragmendi nime kõrval pliiatsi sümboli.
 
 ## <a name="additional-resources"></a>Lisaressursid
 

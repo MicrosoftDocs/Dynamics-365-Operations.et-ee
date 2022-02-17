@@ -1,6 +1,6 @@
 ---
 title: Kiirklahvid
-description: Selles teemas antakse ülevaade kiirklahvikombinatsioonidest, mida saate kasutada Finance and Operationsi rakendustega töötamisel.
+description: Selles teemas antakse ülevaade kiirklahvikombinatsioonidest, mida saate kasutada finance and Operationsi rakendustega töötamisel.
 author: jasongre
 ms.date: 12/10/2021
 ms.topic: article
@@ -14,18 +14,21 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6e6f6faf75bb9dc2b11b3a27a886b1674cc7b339
-ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
-ms.translationtype: MT
+ms.openlocfilehash: 0ecf745337c15270290f02496cc6ce4ccac86861
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/11/2021
-ms.locfileid: "7913514"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070979"
 ---
 # <a name="keyboard-shortcuts"></a>Kiirklahvid
 
 [!include [banner](../includes/banner.md)]
 
-Järgmised klaviatuuri otseteed aitavad teil Finance and Operationsi rakendustes kiiresti ja tõhusalt andmeid sisestada.
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
+
+Järgmised kiirklahvid aitavad teil kiiresti ja tõhusalt sisestada andmeid finance and Operationsi rakendustes.
 
 > [!NOTE]
 > Siin kirjeldatud kiirklahvid viitavad USA klahvipaigutusele. Muude klahvipaigutuste korral ei pruugi klahvid vastata täpselt USA klahvipaigutusele.
@@ -129,8 +132,8 @@ Alates platvormivärskendusest 11 saavad kasutajad vaadata praegu saadaolevaid k
 
 | Toiming                                                                                                             | Vajutage nuppu                            |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------|
-| Vertikaalne kerimine                                                                                                     | Hiire ratas                     |
-| Horisontaalne kerimine                                                                                                   | Vahetus + hiire ratas             |
+| Vertikaalne kerimine                                                                                                     | Hiireratas                     |
+| Horisontaalne kerimine                                                                                                   | Shift + Hiireratas             |
 | Järgmisele/eelmisele veerule liikumine                                                                                       | tabeldusklahv / Shift + tabeldusklahv                 |
 | Järgmisele/eelmisele reale liikumine                                                                                          | Allanool/ülesnool           |
 | Järgmisele/eelmisele reale liikumine ilma seda valimata<blockquote>[!NOTE] See otsetee kehtib ainult mitme valikuga stsenaariumide puhul.</blockquote> | Ctrl + ülesnool / Ctrl + allanool |
@@ -149,9 +152,9 @@ Alates platvormivärskendusest 11 saavad kasutajad vaadata praegu saadaolevaid k
 | Vaiketegevuse käivitamine ruudustikus<blockquote>[!NOTE] See otsetee on lubatud, kui fookus on hüperlinki sisaldaval lahtril ja kõigil selle veeru lahtritel on hüperlingid.</blockquote> | Sisestusklahv                           |
 | Lülita fookus ümber valitud rea ja päiserea vahel                                                               | Alt + Shift + H                     |
 | Praeguse veeru suuremaks/väiksemaks tegemine (kui fookus on päisereas)                                                  | Paremnool/vasaknool        |
-| Praeguse veeru teisaldamine järgmisele/eelmisele positsioonile (fookusega päise real)                                   | Ctrl+ Shift + paremnool / Ctrl + Shift + vasaknool |
+| Praeguse veeru teisaldamine järgmisse/eelmisse asendisse (fookusega päisereas)                                   | Ctrl +Shift+paremnool / Ctrl+Shift+vasaknool |
 | Praeguse veeru ruudustiku filtrimise avamine (kui fookus on päisereas)                                              | Sisestusklahv                           |
-| Muutke praeguse veeru suurust, et see mahuks sisuga (fookusega päisereal)                                           | A (või topeltklõpsake veeru suuruse muutmise pidet) |
+| Muutke praeguse veeru suurust, et see mahuks sisuga (fookusega päisereal)                                           | A (või topeltklõpsake veeru suurusepidet) |
 
 ## <a name="input-control-shortcuts"></a>Sisestamise kiirklahvid
 

@@ -15,14 +15,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: bb827e17dcfc63031d0edcb5f447e70f03e8ac3c
-ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
-ms.translationtype: HT
+ms.openlocfilehash: e798646263b9939445f49a3866532cd229c668cd
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7431458"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071696"
 ---
 # <a name="edit-personal-information"></a>Isiklike andmete muutmine
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -69,7 +72,7 @@ Redigeeritavate isikuandmete hulka kuulub järgnev.
     - ID-numbri lisamiseks valige **Uus**. Täitke väljad vastavalt vajadusele ja valige **Salvesta**.
     - Numbri redigeerimiseks valige **Redigeeri**. Redigeerige väljad vastavalt vajadusele ja valige **Salvesta**.
 
-7. Selleks, et muuta meetodeid, mille alusel teile makstakse, valige vahekaart **Minu makseteave**. See vahekaart on saadaval ainult juhul, kui makseviisid on lubatud vormil **Human Resourcesi parameetrid**. Personalijuht saab lubada suvandid **Pangaveksel**, **Sularaha**, **Tšekk**, **Elektroonilise makse** või **Muu**. Personalijuht saab keelata ka elektroonilise makse kinnitamise (kasutatakse USA palga puhul) ning pangakonto ja marsruudi valiku numbri kinnitamise.
+7. Makseviiside muutmiseks valige **Minu makseteave** sakk. See vahekaart on saadaval ainult siis, kui makseviisid on lubatud **Personali parameetrid** lehel. Personalijuht saab lubada suvandid **Pangaveksel**, **Sularaha**, **Tšekk**, **Elektroonilise makse** või **Muu**. Personalijuht saab keelata ka elektroonilise makse kinnitamise (kasutatakse USA palga puhul) ning pangakonto ja marsruudi valiku numbri kinnitamise.
 
 8. Human Resourcesis kuvatava profiilipildi muutmiseks valige vahekaart **Pilt**. Olenevalt teie organisatsiooni sätetest võivad pildid läbida kinnitamise protsessi.
 

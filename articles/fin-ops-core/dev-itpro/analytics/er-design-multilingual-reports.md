@@ -2,7 +2,7 @@
 title: Mitmekeelsete aruannete kujundamine elektroonilises aruandluses
 description: Selles teemas selgitatakse, kuidas saate kasutada elektroonilise aruandluse (ER) silte mitmekeelsete aruannete kujundamiseks ja loomiseks.
 author: NickSelin
-ms.date: 09/03/2021
+ms.date: 11/30/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf02e8f90fb83acd8448339f411489851742af18
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
-ms.translationtype: MT
+ms.openlocfilehash: e5c6b28dc115719922e418cb7a6156032d994d39
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7674425"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8074938"
 ---
 # <a name="design-multilingual-reports-in-electronic-reporting"></a>Mitmekeelsete aruannete kujundamine elektroonilises aruandluses
 
@@ -28,9 +28,9 @@ ms.locfileid: "7674425"
 
 ## <a name="overview"></a>Ülevaade
 
-Ärikasutajana saate kasutada raamistikku [Elektrooniline aruandlus (ER)](general-electronic-reporting.md), et konfigureerida väljaminevate dokumentide vorminguid, mis tuleb luua eri riikide või regioonide õigusnõuete järgi. Kui nõuete järgi tuleb väljaminevad dokumendid luua eri riikide või regioonide jaoks mitmes keeles, saate konfigureerida ühe ER-i [vormingu](general-electronic-reporting.md#FormatComponentOutbound), mis sisaldab keelest sõltuvaid ressursse. Sel viisil saate vormingut kasutada mitmeid kordi, et luua väljaminevaid dokumente eri riikide või regioonide jaoks. Soovi korral võite kasutada üht ER-i vormingut, et luua väljaminev dokument eri keeltes asjakohastele klientidele, hankijatele, tütarettevõtetele või teistele pooltele.
+Ärikasutajana saate kasutada raamistikku [Elektrooniline aruandlus (ER)](general-electronic-reporting.md), et konfigureerida väljaminevate dokumentide vorminguid, mis tuleb luua eri riikide või regioonide õigusnõuete järgi. Kui nõuete järgi tuleb väljaminevad dokumendid luua eri riikide või regioonide jaoks mitmes keeles, saate konfigureerida ühe ER-i vormingu, mis sisaldab keelest sõltuvaid ressursse. Sel viisil saate vormingut kasutada mitmeid kordi, et luua väljaminevaid dokumente eri riikide või regioonide jaoks. Soovi korral võite kasutada üht ER-i vormingut, et luua väljaminev dokument eri keeltes asjakohastele klientidele, hankijatele, tütarettevõtetele või teistele pooltele.
 
-Te saate konfigureerida ER-i andmemudeleid ja mudelivastendusi konfigureeritud ER-i vormingute andmeallikateks, et määratleda andmevoog, mis täpsustab, millised rakenduse andmed loodud dokumentidesse lisatakse. ER-i konfiguratsiooni[pakkujana](general-electronic-reporting.md#Provider) saate [avaldada](tasks/er-upload-configuration-into-lifecycle-services.md#upload-a-configuration-into-lcs) konfigureeritud [andmemudeleid](general-electronic-reporting.md#data-model-and-model-mapping-components), [mudelivastendusi](general-electronic-reporting.md#data-model-and-model-mapping-components) ja [vorminguid](general-electronic-reporting.md#FormatComponentOutbound) ER-i lahenduse komponentidena, et luua kindlaid väljaminevaid dokumente. Samuti saate lubada klientidel avaldatud ER-i lahendust [üles laadida](general-electronic-reporting-manage-configuration-lifecycle.md), et seda oleks võimalik kasutada ja kohandada. Kui te arvate, et kliendid võivad rääkida teises keeles, saate konfigureerida ER-i komponente nii, et need sisaldaksid keelest sõltuvaid ressursse. Sel viisil on võimalik kujundamise ajal esitada muudetava ER-i komponendi sisu kliendi eelistatud keeles.
+Te saate konfigureerida ER-i andmemudeleid ja mudelivastendusi konfigureeritud ER-i vormingute andmeallikateks, et määratleda andmevoog, mis täpsustab, millised rakenduse andmed loodud dokumentidesse lisatakse. ER-i konfiguratsioonipakkujana [saate](general-electronic-reporting.md#Provider) [konkreetsete väljaminevate dokumentide loomiseks avaldada](tasks/er-upload-configuration-into-lifecycle-services.md#upload-a-configuration-into-lcs) konfigureeritud [andmemudeleid](general-electronic-reporting.md#data-model-and-model-mapping-components), [mudelivastenduseid](general-electronic-reporting.md#data-model-and-model-mapping-components) ja vorminguid ER-lahenduse komponentidena. Samuti saate lubada klientidel avaldatud ER-i lahendust [üles laadida](general-electronic-reporting-manage-configuration-lifecycle.md), et seda oleks võimalik kasutada ja kohandada. Kui te arvate, et kliendid võivad rääkida teises keeles, saate konfigureerida ER-i komponente nii, et need sisaldaksid keelest sõltuvaid ressursse. Sel viisil on võimalik kujundamise ajal esitada muudetava ER-i komponendi sisu kliendi eelistatud keeles.
 
 Saate konfigureerida keelest sõltuvaid ressursse ER-i siltidena. Seejärel saate silte kasutada ER-i komponentide konfigureerimiseks järgmistel eesmärkidel.
 
@@ -232,6 +232,19 @@ Nagu selles teemas eespool kirjeldatud, saab asjakohases ER-i komponendis kätte
 ## <a name="performance"></a><a name=performance></a>Jõudlus
 
 Kui konfigureerite ER-vormingu komponenti, et luua aruanne eelistatud [keeles](#language), või importida sissetulev dokument, kus sisu sõelutakse eelistatud keele järgi, on soovitatav lubada funktsioonihalduse tööruumis **praeguse kasutaja eelistatud keel** funktsioon [Funktsioonihalduse](../../fin-ops/get-started/feature-management/feature-management-overview.md) tööruumis. See funktsioon aitab parandada jõudlust, eriti ER-vormingu komponentide puhul, mis sisaldavad mitmeid viiteid ER-i valemite ja sidumiste [siltidele](general-electronic-reporting-formula-designer.md#TestFormula) ning palju kinnitusreegliid eelistatud keelekasutajateadete loomiseks.
+
+Kui muudate ER-i konfiguratsiooniversiooni oleku mustandist **lõpuleviidituks** **·**, kui konfiguratsiooniversioon sisaldab ER-silte, salvestatakse need sildid rakenduste andmebaasi. Salvestusskeem sõltub ER-siltide salvestusfunktsiooni **kiirendamise olekust**.
+
+- Kui funktsioon pole lubatud, salvestatakse kõik sildid **tabeli ERSOLUTIONVERSIONTABLE** väljale **LABELXML** ühe XML-lõiguna.
+- Kui funktsioon on lubatud, luuakse tabeli ERSOLUTIONVERSIONLABELSTABLE **iga keele** jaoks eraldi kirje. Selle **tabeli sisuväljal** talletatakse sildid keele kohta tihendatud XML-lõiguna.
+
+Soovitame funktsioonihalduse tööruumis lubada **funktsioonihalduse** funktsiooni kiirendamise **sildisalvestusfunktsiooni**. See funktsioon aitab parandada võrgu ribalaiuse kasutamist ja üldist süsteemi jõudlust, kuna enamikul juhtudel kasutatakse ühe keele ER-silte ühe ER-i konfiguratsiooniga töötamisel.
+
+Valitud salvestusskeemi rakendamiseks kõigi ER-i konfiguratsioonide siltide hoidmiseks currenet Finance'i eksemplaris täitke järgmised juhised.
+
+1. Minge organisatsiooni **administreerimissePeriodicApply** > **·** > **valitud sildid, mis talletab skeemi kõigi ER-konfiguratsioonide** jaoks.
+2. Valige nupp **OK**.
+
 
 ## <a name="additional-resources"></a>Lisaressursid
 

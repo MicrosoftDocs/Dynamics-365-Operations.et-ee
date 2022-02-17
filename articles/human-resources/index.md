@@ -17,81 +17,42 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a86995691cab3050d0ec44c1f4d1c3bed6c18fdb
-ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
+ms.openlocfilehash: 8674c228a1e624a79ae210dc6ad5c0f80741570f
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7771243"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075042"
 ---
 # <a name="human-resources-home-page"></a>Personaliosakonna kodulehekülg
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Dynamics 365 Human Resources võimaldab tööjõu ülevaateid, mida vajate andmepõhise töövõtja kogemuse loomiseks mitmete valdkondade üleselt, sealhulgas järgnev.
 
-- Kompensatsioon
-- Soodustused
-- Puhkused ja puudumine
-- Vastavus
-- Palgaarvestuse integratsioon
-- Tulemuste tagasiside
-- Koolitused ja sertifitseerimine
-- Iseteeninduse programmid
+Selles teemas on esitatud nimekiri Dynamics 365 Human Resourcesi spikriteemadest ja muudest ressurssidest. 
+
+Valige funktsiooniala, et selle kohta rohkem teavet saada.
+
+- [Töötaja iseteenindus](hr-employee-manager-self-service-overview.md)
+- [Personalihaldus](hr-personnel-departments-jobs-positions.md)
+- [Ülesandehaldus](hr-task-mgmt.md)
+- [Puhkused ja puudumine](hr-leave-and-absence-overview.md)
+- [Soodustused](hr-benefits-manage-program.md)
+- [Soodustuste haldus](hr-benefits-management-overview.md)
+- [Hüvitiste haldamine](hr-compensation-overview.md)
+- [Töötajate areng](hr-develop-performance-management-overview.md)
+- [Õpe](hr-learning-courses.md)
+- [Töövoo süsteem]( ../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/human-resources/toc.json)
 
 Human Resources ühendab inimesed ja tööandmed, et aidata teil optimeerida tööjõukulusid ja hoolitseda oma töövõtjate eest.
 
-## <a name="whats-new"></a>Mis on uut?
+## <a name="dynamics-365-finance"></a>Dynamics 365 Finance
 
-[Mis on uut või mida on muudetud rakenduses Human Resources?](hr-admin-whats-new.md)
-
-## <a name="administrator-guide"></a>Administraatori juhend
-
-- [Ülevaade](hr-admin-overview.md)</br>
-- [Süsteeminõuded](hr-admin-system-requirements.md)</br>
-- [Eksemplaride häälestus ja haldamine](hr-admin-setup-provision.md)</br>
-- [Andmete integratsiooni häälestamine](hr-admin-integration-choose-technology.md)</br>
-- [Andmehalduse konfigureerimine](../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md?toc=/dynamics365/human-resources/toc.json)</br>
-- [Funktsioonide haldamine](hr-admin-manage-features.md)</br>
-- [Kasutajaliidesega tutvumine](../fin-ops-core/fin-ops/get-started/user-interface-elements.md?toc=/dynamics365/human-resources/toc.json)</br>
-- [Rakendus Human Resources Teamsis](hr-admin-teams-leave-app.md)</br>
-- [Ettevalmistamine süsteemi Go-Live jaoks](hr-admin-go-live-prepare.md)</br>
-- [Süsteemi Go-live KKK](hr-admin-go-live-faq.md)</br>
-- [Dokumentatsiooniressursid](../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/human-resources/toc.json)</br>
-- [Human Resourcesi tõrkeotsing](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md)
-
-## <a name="developer-guide"></a>Arendaja juhend
-
-- [Ülevaade](hr-developer-overview.md)</br>
-- [Laiendamine Power Apps i ja Power Automate’iga](hr-developer-power-apps.md)</br>
-- [Rakenduse Human Resources üksused teenuses Dataverse](hr-developer-entities.md)</br>
-- [Kohandatud väljad](hr-developer-custom-fields.md)</br>
-- [Dataverse'i tabelid](hr-developer-entities.md)</br>
-- [Andmete integratsiooni häälestamine](hr-admin-integration-choose-technology.md)</br>
-- [Vigade Dataverse tõrkeotsing virtuaalsete tabelite abil](hr-developer-optimize-virtual-table-queries.md)</br>
-- [Üksuse API viide](hr-developer-api-authentication.md)</br>
-- [ATS-i integratsiooni API](hr-admin-integration-ats-api-introduction.md)</br>
-- [Palgaarvestuse integratsiooni API](hr-admin-integration-payroll-api-introduction.md)
-
-## <a name="user-guide"></a>Kasutusjuhend
-
-- [Ülevaade](hr-hrpro-overview.md)</br>
-- [Kasutajaliidesega tutvumine](../fin-ops-core/fin-ops/get-started/user-interface-elements.md?toc=/dynamics365/human-resources/toc.json)</br>
-- [Rakenduse Human Resources häälestamine](hr-setup-parameters.md)</br>
-- [Organisatsiooni seadistuste konfigureerimine](../fin-ops-core/fin-ops/organization-administration/organization-administration-home-page.md?toc=/dynamics365/human-resources/toc.json)</br>
-- [Personali haldamine](hr-personnel-departments-jobs-positions.md)</br>
-- [Kompensatsiooniplaanide häälestamine](hr-compensation-overview.md)</br>
-- [Soodustuste haldamine](hr-benefits-management-overview.md)</br>
-- [Puhkuste ja puudumiste haldamine](hr-leave-and-absence-overview.md)</br>
-- [Puhkusetaotluste haldamine Teamsis](hr-teams-leave-app.md)</br>
-- [Töötajate arendamine](hr-develop-performance-management-overview.md)</br>
-- [Kursuste loomine](hr-learning-courses.md)</br>
-- [Töövõtja ja juhataja iseteeninduskeskuse häälestus](hr-employee-manager-self-service-overview.md)
+Lisateavet leiate Dynamics 365 Finance teemast [Finance'i avaleht](../finance/index.md).
 
 ## <a name="additional-resources"></a>Lisaressursid
 
 ### <a name="elearning-courses"></a>E-õppe kursused
-Veebikursuste ja koolituse kohta leiate teavet [Microsoft Learn i jaotisest Dynamics 365 Human Resources](/learn/browse/?products=dynamics-human-resources&expanded=dynamics-365).
+Veebikursuste ja koolituse kohta leiate teavet [Microsoft Learni jaotisest Dynamics 365 Human Resources](/learn/browse/?products=dynamics-human-resources&expanded=dynamics-365).
 
 ### <a name="videos"></a>Videod
 

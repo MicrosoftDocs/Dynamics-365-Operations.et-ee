@@ -1,6 +1,6 @@
 ---
 title: Töökandidaatide värbamine
-description: See teema kirjeldab, kuidas värvata kandidaate Dynamics 365 Human Resources.
+description: Selles teemas kirjeldatakse, kuidas värvata kandidaate Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 10/28/2021
 ms.topic: article
@@ -15,14 +15,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-12-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c613586302b4d03972c7558b6b63cd1be018d3b3
-ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
+ms.openlocfilehash: 77d37cba84fcd6fb8f93da79b10db2db91d91db0
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/01/2021
-ms.locfileid: "7729167"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066596"
 ---
 # <a name="recruit-job-candidates"></a>Töökandidaatide värbamine
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -45,20 +48,20 @@ Kui soovite Human Resourcesi kaudu esitada töötajate värbamiskutseid, peate e
 
 1. Tööruumis **Personalihaldus** valige **Lingid**.
 2. Jaotises **Häälestus** valige suvand **Human Resourcesi ühiskasutuses parameetrid**.
-3. Seadke **vahekaardi** Värbamine jaotises **Värbamine** **valikule Luba värbamise taotlused** väärtusele **Jah**.
+3. **Seadke vahekaardi Värbamine** jaotises **Värbamine** ruut **Luba värbamistaotlused** kuni **Jah**.
 
 ## <a name="add-a-recruiting-request-location"></a>Värbamistaotluse asukoha lisamine
 
 Kui teie organisatsioonil on mitu asukohta, saate need lisada, et taotluse esitajad saaksid valida asukoha, kus uus töövõtja tööle hakkab. Asukoht lisatakse töökuulutusele.
 
-1. Otsinguribal sisestage **värbamistaotluse** asukoht.
+1. Sisestage **otsinguribale värbamistaotluse asukoht**.
 2. Valige suvand **Uus**.
 3. Sisestage asukoha nimi väljale **Värbamistaotluse asukoht**.
 
     ![Värbamistaotluse asukoha lisamine.](./media/hr-recruit-0a-add-location.png)
 
 4. Sisestage väljale **Kirjeldus** asukoha kirjeldus.
-5. Valige jaotises **Asukoht** nupp **Lisa**. Kui **kuvatakse dialoogiboks** Uus aadress, sisestage asukoha aadress.
+5. Valige jaotises **Asukoht** nupp **Lisa**. **Kui kuvatakse dialoogiboks Uus aadress**, sisestage asukoha aadress.
 
     ![Sisestage aadress.](./media/hr-recruit-0b-address.png)
 
@@ -71,7 +74,7 @@ Rakenduse Human Resources saavad juhid värbamistaotlusi esitada. Kui kasutate e
 
 1. Valige **Töövõtja iseteenindus**.
 2. Valige vahekaart **Minu töörühm**.
-3. Valige **·** värbamistaotlus.
+3. Valige **Värbamistaotlus**.
 
     ![Värbamistaotluse alustamine.](./media/hr-recruit-1-request-to-recruit.png)
 
@@ -158,11 +161,11 @@ Kui teie organisatsioon on integreeritud mõne muu rakendusega, et hallata värb
 
 Kui olete kandidaadi palkamiseks valmis, järgige seda protseduuri, et muuta kandidaat töövõtjaks.
 
-1. Valige **leheküljel** Kandidaat **·** palkamine.
+1. Valige **lehel Kandidaat** käsk **Palka**.
 
     ![Kandidaadi palkamine.](./media/hr-recruit-11-hire.png)
 
-2. Täitke **kõik** väljad lehel **Uue töötaja** palkamine jaotises Üksikasjad.
+2. **Täitke lehe Uue töötaja** palkamine jaotises **Üksikasjad** kõik väljad.
 
     ![Palgatud töövõtja üksikasjade sisestamine.](./media/hr-recruit-12-hire-new-worker.png)
 
@@ -177,7 +180,7 @@ Kui olete kandidaadi palkamiseks valmis, järgige seda protseduuri, et muuta kan
 
 Kui otsustate kandidaati mitte palgata, järgige seda protseduuri, et eemaldada ta taustakontrollist. 
 
-1. Valige **leheküljel** Kandidaat suvand **Ära** palka.
+1. **Valige lehel Kandidaat** suvand **Ära palka**.
 
     ![Kandidaadi mittepalkamine.](./media/hr-recruit-13-do-not-hire.png)
 
@@ -188,7 +191,7 @@ Kui otsustate kandidaati mitte palgata, järgige seda protseduuri, et eemaldada 
 
 Vajaduse korral saate kandidaadist pärast tema palkamist loobuda. Näiteks võib kandidaat teie pakkumise tagasi lükata või ei ilmu esimesel päeval kohale.
 
-- Valige kandidaadi **·** leheküljelt **vallandamise kandidaat.**
+- Valige **lehel Kandidaat** käsk **Loobu kandidaadist**.
 
     ![Loobu kandidaadist.](./media/hr-recruit-14-dismiss-candidate.png)
 

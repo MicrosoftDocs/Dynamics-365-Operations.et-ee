@@ -9,15 +9,18 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2021-06-24
-ms.openlocfilehash: ceb0a60ccf3d1c989d8663e933faaa5e430d314695e20990c9086cd1b8325ff1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: ad980889247e0239ad743078cb013c1c5839f676
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6773723"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070142"
 ---
 # <a name="configure-expenditure-reviewers"></a>Kulu ülevaatajate konfigureerimine
 [!include[banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Saate seadistada kulude dünaamilise ülevaataja konfiguratsioonid, et suunata kulusid ülevaatamiseks kasutaja põhjal, kes on määratud projekti rollile või finantsdimensioonile, kus kulu tekib. Töövooprotsess kasutab määratud projektirolli või finantsdimensiooni omanikku määramaks, kellele tuleb kulu suunata.
 
@@ -49,7 +52,7 @@ Finantsdimensioone juhitakse iga juriidilise isiku kontostruktuuridega. Iga juri
 
 ## <a name="example-1-expenditure-reviewers-based-on-organization-distributions"></a>Näide 1: organisatsiooni jaotustel põhinevad kulu ülevaatajad
 
-Te töötate Contoso seadmetega ja teie organisatsioonil on kuus osakonda ja 10 kulukeskust. Uue ostutaotluse esitamise korral peab kinnitus tulema esmalt osakonnajuhatajalt ja seejärel kulukeskuse juhilt.
+Töötate Contoso Appliancesis ja teie organisatsioonil on kuus osakonda ja 10 kulukeskust. Uue ostutaotluse esitamise korral peab kinnitus tulema esmalt osakonnajuhatajalt ja seejärel kulukeskuse juhilt.
 
 Selles näites konfigureerite kaks *ostutaotluse kulu ülevaatajat*:
 
@@ -62,7 +65,7 @@ Kui ostutaotlus on loodud, määratakse osakond ja kulukeskuse finantsdimensioon
 
 ## <a name="example-2-expenditure-reviewers-based-on-project-distributions"></a>Näide 2: projekti jaotustel põhinevad kulu ülevaatajad
 
-Töötate seadmete teenuste Contoso jaotuses. Organisatsioon nõuab, et iga ostutellimuse projektijuht peab kulu kinnitama. Lisaks peab projekti kulukeskuse haldur selle kinnitama. Kinnitusi saab teha samaaegselt. Igal juhul peavad mõlemad kasutajad ostutellimuse kinnitama, enne kui töövoog saab jätkata.
+Te töötate Contoso Appliancesi teenuste osakonnas. Organisatsioon nõuab, et iga ostutellimuse projektijuht peab kulu kinnitama. Lisaks peab projekti kulukeskuse haldur selle kinnitama. Kinnitusi saab teha samaaegselt. Igal juhul peavad mõlemad kasutajad ostutellimuse kinnitama, enne kui töövoog saab jätkata.
 
 Selles näites loote *ostutellimuse kulu ülevaataja* nimega **PM ja kulukeskus**. Märgistate **Projektihaldur** kasti ja seate **kulukeskuse dimensiooni** väärtuseks **Jah** **Projekti jaotamised** vahekaardil **Ostutellimuse kulu ülevaataja** lehel. Osana konfiguratsioonist peate tagama, et **projektijuhi** väli on seadistatud kõigile projektidele ja et omanik on määratud kõigile kulukeskustele **Finantsdimensiooni väärtused** lehel.
 

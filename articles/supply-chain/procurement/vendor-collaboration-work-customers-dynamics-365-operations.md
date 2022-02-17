@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: v-savanh
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 9ad7f116f979d571a5e34eee67beb7218a271522
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: f699b00ab7ea2d043e12824015c54439caf8e63c
+ms.sourcegitcommit: d58a891d9fe0aa0e6b2c20329250c8d74ffbee90
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777590"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "8022970"
 ---
 # <a name="vendor-collaboration-with-customers"></a>Hankija koostöö klientidega
 
@@ -78,7 +78,7 @@ Veose varude kasutamisel saate hankija koostööliidese kaudu vaadata teavet jä
 
 ## <a name="working-with-rfqs-in-the-vendor-bidding-workspace"></a>Töö pakkumiskutsetega tööruumis Hankija pakkumine
 
-Tööruum **Hankija pakkumine** võimaldab vaadata pakkumiskutseid, millele oodatakse teie ettevõte vastust. Samuti saate pakkumiskutsetele vastata. 
+Tööruum **Hankija pakkumine** võimaldab vaadata pakkumiskutseid, millele oodatakse teie ettevõte vastust. Samuti saate pakkumiskutsetele vastata.
 
 Tööruumis kuvatakse ka kõik kaotatud või võidetud pakkumiskutsed. Kui süsteemi konfiguratsiooniks on avalik sektor, kuvatakse tööruumis ka avalikult kättesaadavad pakkumiskutsed.
 
@@ -96,20 +96,28 @@ Alljärgnevale teabele juurdepääsemiseks avage tööruum **Hankija pakkumine**
 
 ### <a name="working-with-rfqs-that-are-publicly-available"></a>Avalikult kättesaadavate pakkumiskutsetega töötamine
 
-Avaliku sektori töötajad saavad vaadata avatud ja aegunud avalikult kättesaadavaid pakkumiskutseid.
+Avalikus sektoris töötavad inimesed näevad avalikkusele kättesaadavaks tehtud avatud ja aegunud pakkumiskutseid.
 
 - Avalikult kättesaadavaks tehtud avatud pakkumiskutsete vaatamiseks valige link **Avatud avaldatud pakkumiskutsed**. Avatud pakkumiskutse on praegu veel aegumata pakkumiskutse. Aegumiskuupäeva ja -kellaaja leiate pakkumiskutse päisest.
 
-    Kui teid on kutsutud pakkumist esitama, leiate sama pakkumiskutse lehelt **Uue pakkumise kutsed**. Mõnikord võib ette tulla, et teile pole avatud pakkumiskutset saadetud, kuid soovite siiski pakkumise esitada. Sel juhul võib olla võimalik iseennast kutsuda, eeldusel et klient on selle pakkumiskutse puhul lubanud ise end kutsuda.
+    Kui teid on kutsutud pakkumist esitama, leiate sama pakkumiskutse lehelt **Uue pakkumise kutsed**. Mõnikord võib ette tulla, et teile pole avatud pakkumiskutset saadetud, kuid soovite siiski pakkumise esitada. Sel juhul võib olla võimalik iseennast kutsuda, eeldusel et klient on selle pakkumiskutse puhul lubanud ise end kutsuda. 
 
-    Laiendage **Ava avaldatud pakkumiskutsete** link lülitades sisse **Kuva "Ava avaldatud pakkumiskutsed" link plaadina** funktsiooni. See funktsioon teisendab lingi paanile ja teisaldab selle silmapaistvasse asukohta, et seda oleks lihtne leida. (Tarneahela halduse versiooni 10.0.21 kohaselt on see funktsioon vaikimisi sisse lülitatud.)
+    Leht **Uued pakkumiskutsed** võivad pakkuda filtrit, mis võimaldab teil vaadata avatud pakkumiskutseid ja tuvastada need, mis sisaldavad jooni, mis vastavad teie kinnitatud hankekategooriatele. Selle filtri kättesaadavaks tegemiseks peate sisse lülitama *funktsiooni Luba hankijatel otsida oma süsteemis hankekategooriate* kaupa. Administraatorid saavad funktsioonihalduse **tööruumi abil** kontrollida selle funktsiooni olekut ja vajadusel sisse lülitada. Seega on funktsioon loetletud järgmisel viisil.
+
+    - **Moodul:** *ostureskontro*
+    - **Funktsiooni nimi:** *laske hankijatel otsida pakkumiskutseid hankekategooriate kaupa* <!-- KFM: I don't see this here, is this right? -->
+
+    Saate parandada lingi Avatud avaldatud pakkumiskutsete **juurdepääsetavust, lülitades paanifunktsioonina** sisse *lingi "Avatud avaldatud pakkumiskutsed*" kuvamine. See funktsioon teisendab lingi paanile ja teisaldab selle silmapaistvasse asukohta, et seda oleks lihtne leida. Administraatorid saavad funktsioonihalduse **tööruumi abil** kontrollida selle funktsiooni olekut ja vajadusel sisse lülitada. (Tarneahela halduse versiooni 10.0.21 seisuga on funktsioon vaikimisi sisse lülitatud.) Seal on funktsioon loetletud järgmiselt:
+
+    - **Moodul:** *hanked*
+    - **Funktsiooni nimi:** *saate paanina kuvada lingi "Ava avaldatud pakkumiskutsed"*
 
 - Avalikult kättesaadavaks tehtud suletud pakkumiskutsete vaatamiseks valige link **Suletud avaldatud pakkumiskutsed**. Suletud pakkumiskutse on aegunud pakkumiskutse. Aegumiskuupäeva ja -kellaaja leiate pakkumiskutse päisest.
 
     Suletud pakkumiskutse näitab kõiki hankija pakkumisi kuni rea tasemeni. Teave pakkumiste valituks osutumise või tagasilükkamise kohta kajastub suletud pakkumiskutses. Kättesaadavad on ka kõik pakkumisele lisatud manused.
 
 > [!NOTE]
-> See funktsioon on saadaval ainult juhul, kui lubatud on konfiguratsioon avalik sektor.
+> See funktsioon on saadaval ainult siis, kui avaliku sektori konfiguratsioon on sisse lülitatud.
 
 ### <a name="bidding"></a>Pakkumine
 

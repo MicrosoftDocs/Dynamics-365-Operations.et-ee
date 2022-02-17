@@ -15,20 +15,23 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: ff9f9404ebbcbc7359ee9927d7a92e31808a478a
-ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
+ms.openlocfilehash: 9093944a2e225565fc8fdba8f9a487303369c251
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/01/2021
-ms.locfileid: "7728755"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067272"
 ---
 # <a name="manage-items-that-are-lent-to-workers"></a>Töötajatele laenatud kaupade haldamine
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Laenuartiklid on kirjed, mis aitavad juhtidel jälgida füüsilisi kaupu, mida ettevõte töötajatele laenab. 
 
-Siin on mõned näited kaupadest, mida ettevõte võib töötajatele laenata:
+Siin on mõned näited kaupadest, mida ettevõte võib töötajatele laenata.
 
 -   mobiiltelefonid,
 -   autod,
@@ -38,7 +41,7 @@ Iga füüsiline kaup peab laenuartiklile vastama. Iga laenuartikli kirje peaks k
 
 Artiklit laenates sisestage laenamise kuupäev ja plaanitav tagastamise kuupäev. Artikli tagastamisel sisestage tegelik tagastamise kuupäev.
 
-Töötajad saavad kasutada **töötaja** iseteeninduse tööruumi neile laenatud kaupade kirjete vaatamiseks. Samuti saavad nad redigeerida olemasolevaid kirjeid või sisestada uusi laenuüksusi, kui nad on saanud täiendavaid füüsilisi kaupu. Töövoogu saab seadistada protsessi muutmisele uutes või olemasolevates laenuüksustes kinnitusprotsessi kaudu. 
+Töötajad saavad kasutada **töötaja iseteeninduse** tööruumi neile laenatud kaupade kirjete vaatamiseks. Samuti saavad nad redigeerida olemasolevaid kirjeid või sisestada uusi laenuüksusi, kui nad on saanud täiendavaid füüsilisi kaupu. Töövoo saab seadistada uute või olemasolevate laenuüksuste muudatuste marsruutimiseks kinnitamisprotsessi kaudu. 
 
 Juhatajad saavad vaadata oma otseste alluvate laenatud artikleid. Neile saab anda ka õiguse oma töötajate nimel uusi laenuartikleid lisada.
 

@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-29
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 55b174b426b02e59f75d58e9a6cf32991089ca22
-ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
+ms.openlocfilehash: 01edccbf1a50264b3867e303cbca44eb1b1d7dd9
+ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/01/2021
-ms.locfileid: "7728951"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "8087495"
 ---
 # <a name="parameters-not-used-by-planning-optimization"></a>Parameetrid, mida Planning Optimization ei kasuta
 
@@ -60,7 +60,7 @@ Planning Optimization ei kasuta lehel järgmisi parameetreid või valikuid **Kat
 
 - Kiirkaart **Üldine**.
 
-  - **Positiivsed** päevad – *·* positiivsete päevade väärtust ei kasutata. Planeerimise optimeerimise puhul loetakse positiivsed päevad lõpmatuks.
+  - **Positiivsed päevad** – *positiivsete päevade* väärtust ei kasutata. Planeerimise optimeerimisega peetakse positiivseid päevi lõpmatuks.
   - **Tarbi vaba kaubavaru** – vaba *kaubavaru toe ootel* tarbimine.
   - **Kasutage määratud koosluse või valemi versiooni** – ootel *valemiversioonid koos kaastoote/tootega* toega.
   - **Kasuta määratud protsessi versiooni** – ootel *nõudlus kindla koosluse või protsessi nõuete määratud* toega.
@@ -160,6 +160,10 @@ Planning Optimization ei kasuta lehel järgmisi parameetreid või valikuid **Koo
   - **Lisage arvutatud viivitus vajaduse kuupäevale** (jaotises **Plaanitud ostutellimused** jaotis) – ootel *arvutatud viivitused* tugi.
   - **Lisage arvutatud viivitus vajaduse kuupäevale** (jaotises **Plaanitud kanne** jaotis) – ootel *arvutatud viivitused* tugi.
   - **Lisage arvutatud viivitus vajaduse kuupäevale** (jaotises **Plaanitud kanban** jaotis) – ootel *arvutatud viivitused* tugi.
+
+- **Kiirkaart** Tegevusteade:
+
+  - **Värskendage edasilükatud kuupäeva nõudekuupäevana** – see parameeter lõpetatakse plaanimise optimeerimisega.
 
 - **Sageduse** kiirkaart:
 

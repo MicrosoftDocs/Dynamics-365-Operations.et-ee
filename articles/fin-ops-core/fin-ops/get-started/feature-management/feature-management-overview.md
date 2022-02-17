@@ -1,6 +1,6 @@
 ---
 title: Funktsioonihalduse ülevaade
-description: Selles teemas kirjeldatakse Funktsioonihaldust ja selle kasutamist.
+description: Selles teemas kirjeldatakse funktsioonide haldamist ja selle kasutamist.
 author: Peakerbl
 ms.date: 01/10/2022
 ms.topic: overview
@@ -15,16 +15,19 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 6605fe68576ce80726438b60c1f1fbf3782d0934
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: HT
+ms.openlocfilehash: c98bdbd64ee5488da20de3f5b23ae18ebce8c23f
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984455"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068005"
 ---
 # <a name="feature-management-overview"></a>Funktsioonihalduse ülevaade
 
 [!include [banner](../../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../../includes/peap-1.md)]
 
 Igale väljalaskele lisatakse funktsioone ja nende uuendusi. Funktsioonihalduse kogemus pakub tööruumi, kus saate vaadata igale väljalaskele lisatud funktsioonide loendit. Siis saate kasutada tööruumi funktsioonidokumentatsiooni vaatamiseks ning funktsioonide lubamiseks või keelamiseks.
 
@@ -76,7 +79,7 @@ Funktsioonid, mida uuendatakse **vaikimisi**, on lülitatud vaikimisi sisse, kui
 
 ### <a name="mandatory"></a>Kohustuslik
 
-**Kohustuslik on** funktsioonide eeldatav lõplik olek. See näitab, et funktsioonid on sisse lülitatud ja te ei saa neid keelata ilma Microsoft`iga kontakteerumata. Valikulised funktsioonid muutuvad kohustuslikuks pärast kahte põhivabastust. Kriitilisi funktsioone saab erandkorras kehtestada kohustuslikuna.
+**Kohustuslik** on funktsioonide eeldatav lõppseisund. See näitab, et funktsioonid on sisse lülitatud ja te ei saa neid keelata ilma Microsoft`iga kontakteerumata. Valikulised funktsioonid muutuvad kohustuslikuks pärast kahte põhivabastust. Kriitilisi funktsioone saab erandkorras kehtestada kohustuslikuna.
 
 ## <a name="example-of-expected-feature-lifecycles"></a>Eeldatava funktsiooni töötsüklite näide
 

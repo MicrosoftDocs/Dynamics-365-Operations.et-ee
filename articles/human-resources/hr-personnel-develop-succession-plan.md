@@ -13,14 +13,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ed10813c30b9a49b84a7e8e333fbac3d1e26720a
-ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
+ms.openlocfilehash: adcb7387b9ac21a88c1ee047d1b9573708a14abb
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "7731512"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068865"
 ---
 # <a name="develop-a-succession-plan"></a>Järgnevusplaani arendamine
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -35,8 +38,8 @@ Oma organisatsiooni kasvades peata hakkama mõtlema talentide kasvatamisele. Tal
 7. Valige **Isik**.
 8. Sisestage inimese nimi väljal **Isik** või valige rippmenüüst.
 9. Valige nupp **OK**.
-10. Oskuste **kaardistamisse** kaasatud sertide vaatamiseks või redigeerimiseks laiendage kiirkaarti Serdid.
-11. Kaasatud **oskuste** vaatamiseks või redigeerimiseks laiendage kiirkaarti Oskused.
+10. **Oskuste vastenduses sisalduvate sertifikaatide vaatamiseks või redigeerimiseks laiendage kiirkaarti Serdid**.
+11. **Kaasatatud oskuste vaatamiseks või redigeerimiseks laiendage kiirkaarti Oskused**.
 12. Märkige loendis esimene rida. Näide: raamatupidamine.
 13. Valige märkeruut **Valikuline**.
 14. Valige suvand väljal **Tähtsus**. Kui märgite oskuse valikuliseks, peate valima oskuse tähtsusastme.  
@@ -49,7 +52,7 @@ Oma organisatsiooni kasvades peata hakkama mõtlema talentide kasvatamisele. Tal
 21. Valige loendist rida 4.
 22. Valige märkeruut **Valikuline**.
 23. Valige suvand väljal **Tähtsus**.
-24. Oskuste **·** kaardistamisse kaasatav haridusoskuste vaatamiseks või redigeerimiseks laiendage hariduse kiirkaarti.
+24. **Oskuste kaardistamisel kaasatavate hariduspädevuste vaatamiseks või redigeerimiseks laiendage kiirkaarti Haridus**.
 25. Valige **Käivita**.
 26. Valige nupp **OK**.
 27. Valige **Tulem**.

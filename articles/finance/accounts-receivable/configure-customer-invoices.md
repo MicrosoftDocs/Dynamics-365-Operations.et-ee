@@ -1,26 +1,26 @@
 ---
 title: Kliendiarve loomine
-description: '**Müügitellimuse kliendiarve** on arve, mis on seotud müügiga, ja mille organisatsioon kliendile annab.'
+description: Müügitellimuse kliendiarve on arve, mis on seotud müügiga, ja mille organisatsioon kliendile annab.
 author: ShivamPandey-msft
-ms.date: 01/12/2018
+ms.date: 02/01/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: CustFreeInvoice
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 77772
 ms.assetid: 00b4b40c-1576-4098-9aed-ac376fdeb8c5
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 369f0737ee4026c32ffbae6b11b5815c5548d83d564aebf2eae4b1c246e73508
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: d408ca5265802cf17a53dd5cb004f707f6f7855b
+ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723867"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "8087419"
 ---
 # <a name="create-a-customer-invoice"></a>Kliendiarve loomine
 
@@ -42,6 +42,23 @@ Lisateavet vt
 
 
 **Esialgne arve** on arve, mis on vormistatud hinnanguliste arvesummadega enne arve sisestamist. Saate printida esialgse arve nii müügitellimuse kliendiarve kui ka vabas vormis arve kohta.
+
+## <a name="using-sales-order-customer-invoice-data-entities"></a>Müügitellimuse kliendiarve andmeolemite kasutamine
+Andmeolemite abil saate importida ja eksportida teavet müügitellimuse kliendiarve kohta. Müügiarve päise ja müügiarve ridade teabe jaoks on erinevad olemid.
+
+Müügiarve päise teabe jaoks on saadaval järgmised olemid.
+
+- **Müügiarve töölehe päise** olem (SalesInvoiceJournalHeaderEntity)
+- **Müügiarve päised V2** olem (Entity SalesInvoiceHeaderV2)
+
+Soovitame kasutada **olemit Müügiarve žurnaali päis**, kuna see pakub müügipäise importimiseks ja eksportimiseks esinejalikumat kasutuskogemust. See olem ei sisalda **veergu Käibemaksu summa** (INVOICEHEADERTAXAMOUNT), mis tähistab käibemaksu väärtust müügiarve päises. Kui teie äristsenaarium nõuab seda teavet, kasutage **müügiarve päise teabe importimiseks ja eksportimiseks olemit Müügiarve päised V2**.
+
+Müügiarve ridadel oleva teabe jaoks on saadaval järgmised olemid.
+
+- **Kliendiarve ridade** olem (BusinessDocumentSalesInvoiceLineItemEntity)
+- **Müügiarve read V3** olem (olem SalesInvoiceLineV3)
+
+Kui määrate, millist reaüksust ekspordiks kasutada, kaaluge, kas kasutatakse täielikku tõuget või järkjärgulist tõuget. Lisaks kaaluge andmete koostist. Olem **Müügiarve read V3** toetab keerukamaid stsenaariume (nt varude väljadega vastendamine). Samuti toetab see täieliku tõuke ekspordi stsenaariume. Astmeliste tõukete puhul soovitame kasutada **olemit Kliendi arve read**. See olem sisaldab palju lihtsamat andmekoostise kui **olem Müügiarve read V3** ja on eelistatud, eriti kui varude välja integreerimine pole vajalik. Reaolemite **vastendustoe erinevuste tõttu on olemil Kliendiarve read** tavaliselt kiirem jõudlus kui **olemil Müügiarve read V3**.
 
 ## <a name="post-and-print-individual-customer-invoices-that-are-based-on-sales-orders"></a>Eraldi müügitellimustel põhinevate kliendiarvete sisestamine ja printimine
 Selle protsessi abil saate koostada müügitellimusel põhineva arve. Seda võib teha, kui otsustate arve kliendile esitada enne kaupade või teenuste tarnimist. 

@@ -2,7 +2,7 @@
 title: Arve töötlemine
 description: See teema annab teavet arve töötlemise kohta Ida-Euroopa puhul.
 author: EvgenyPopovMBS
-ms.date: 10/19/2020
+ms.date: 02/02/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, R
 ms.author: epopov
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: fdefc1dbf58a147c9380aacad9ca1afc253dbe766f7d8ed214753b07466841c3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 9eb4f3ace8c6295e82ba9ab44ef49baa0d10e96b
+ms.sourcegitcommit: 2aca3a95d42403c7f5d80dcd5e3ee958dca5c894
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774220"
+ms.lasthandoff: 02/03/2022
+ms.locfileid: "8087815"
 ---
 # <a name="invoice-processing"></a>Arve töötlemine
 
@@ -69,7 +69,8 @@ See teema käsitleb lühidalt mõningaid riigipõhiseid stsenaariume, nagu EL-i 
 <td>
 <p>Seaduses on äritehingute jaoks kehtivate vahetuskursside valimiseks erinevad reeglid. Lehtede <strong>Müügireskontro parameetrid</strong> ja <strong>Ostureskontro parameetrid</strong> väljal <strong>Vahetuskursi kuupäev</strong> saab valida kuupäeva, mida tuleks kasutada ostu- ja müügidokumentidel arvestusvaluuta arvutuste jaoks. Andmete sisestamisel toob süsteem selle parameetri põhjal kande vahetuskursi.</p>
 <blockquote>[!NOTE]<br>Itaalia puhul rakendub see funktsioon ainult ostureskontro moodulis. Ostureskontro parameetrites saab kasutaja valida <strong>Sisestamise kuupäeva</strong> või <strong>Dokumendi kuupäeva</strong> väljal <strong>Vahetuskursi kuupäev</strong>.   </blockquote>
-<blockquote>[!NOTE]<br>Kui määrate välja <strong>Vahetuskursi kuupäev</strong> väärtuseks <strong>Dokumendi kuupäev (ainult EL-i kaubanduse puhul)</strong>, kasutab süsteem käibemaksugruppi. Käibemaksugrupi puhul on vahekaardil <strong>Üldine</strong> parameeter <strong>EL-i kaubandus</strong>. Kui käibemaksugrupil on valiku <strong>EL-i kaubandus</strong> väärtuseks määratud <strong>Jah</strong> ja kui see käibemaksugrupp on dokumendi päises olemas, toob süsteem vahetuskursi dokumendi kuupäeva põhjal. Kui selle käibemaksugrupi puhul on valiku <strong>EL-i kaubandus</strong> väärtuseks määratud <strong>Ei</strong>, toob süsteem vahetuskursi dokumendi sisestuskuupäeva põhjal.</blockquote>
+<blockquote><br>Kui määrate välja <strong>Vahetuskursi kuupäev</strong> väärtuseks <strong>Dokumendi kuupäev (ainult EL-i kaubanduse puhul)</strong>, kasutab süsteem käibemaksugruppi. Käibemaksugrupi puhul on vahekaardil <strong>Üldine</strong> parameeter <strong>EL-i kaubandus</strong>. Kui käibemaksugrupil on valiku <strong>EL-i kaubandus</strong> väärtuseks määratud <strong>Jah</strong> ja kui see käibemaksugrupp on dokumendi päises olemas, toob süsteem vahetuskursi dokumendi kuupäeva põhjal. Kui selle käibemaksugrupi puhul on valiku <strong>EL-i kaubandus</strong> väärtuseks määratud <strong>Ei</strong>, toob süsteem vahetuskursi dokumendi sisestuskuupäeva põhjal.</blockquote>
+  <blockquote><br>Poola puhul on müügireskontro moodulis <strong>saadaval selle parameetri täiendav</strong> automaatne kuupäeva määramise<strong></strong> väärtus. Kui see on valitud, valib süsteem automaatselt arve konteerimiskuupäeva, müügikuupäeva ja maksekuupäevade varaseima kuupäeva.</blockquote>
 </td>
 </tr>
 <tr>

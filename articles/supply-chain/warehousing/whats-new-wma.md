@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 6f45cacd7f43c8caf836fd1ea24d354e4bcf5853
-ms.sourcegitcommit: 9638d3a2bd592dc28f5952bda4af7dcf06edfaa4
-ms.translationtype: HT
+ms.openlocfilehash: ceb327599bb2651a37ac51c3e0fdffc39d20c7f6
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8007570"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067247"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Mis on uut või muudetud Warehouse Management laohalduse mobiilirakenduses
 
@@ -23,38 +23,45 @@ ms.locfileid: "8007570"
 
 Selles teemas loetletakse Microsoft Dynamics 365 Supply Chain Management iga Warehouse Management mobiilirakenduse väljastatud versiooni uued funktsioonid, parandused, täiustused ja teadaolevad vead.
 
+## <a name="version-20150"></a>Versioon 2.0.15.0
+
+See versioon tutvustab järgmisi uusi funktsioone, parandusi ja täiustusi:
+
+- Parem jõudlus mälulekke probleemi lahendamisega.
+- Lahendas probleemi, kus mõned väljaväärtused ei värskendatud üksikasjade lehel valimisel õigesti.
+
 ## <a name="version-20140"></a>Versioon 2.0.14.0
 
 See versioon tutvustab järgmisi uusi funktsioone, parandusi ja täiustusi:
 
-- Saate lahendada probleemi, mis keelas nupu Edasta vaikeväärtus.
+- Lahendas probleemi, mis keelas vaikenupu Edasta.
 
 ## <a name="version-20130"></a>Versioon 2.0.13.0
 
 See versioon tutvustab järgmisi uusi funktsioone, parandusi ja täiustusi:
  
-- Täiustatud kerimine sujuvama meelelahutusega lehtede vahel.
-- Fikseeritud counter-intuitiivne vastused liigutuste ja juhuslike ekraanide külmutamise tõmbamiseks.
-- Täiustatud tumerežiimi tekst ja taustavärvi kombinatsioonid parema loetavuse tagamiseks.
-- Fikseeritud probleem, mille puhul mõni tekst võib rakenduse akna suuruse muutmisel muutuda väga väikeseks.
-- Lahendati probleem, mis võib vöötkoodide skannimisel mõnikord rakenduse alla anda.
-- Lisati võimalus asendada slaidli oma nupuga.
-- Fikseeritud probleem, mis võib põhjustada rakenduse tõrketeate näitamise, "AADSTS7000215: antud on lubamatu kliendisaladus."
-- Fikseeritud vihje vihje vihje, mis näitab, kuidas sulgeda lehekülge, kasutades tõmbamise ettemaks.
-- Lisatud võimalus sulgeda leht, kasutades lisandit.
-- Fikseeritud probleem, mille puhul ripploendi pealkirjad kasutajasätete lehel **ei** kuvatud.
-- Fikseeritud lokaliseerimisprobleem, mille puhul rakendusele ei määratud koma (,) komaeraldajana.
+- Sujuvama animatsiooniga lehtede täiustatud kerimine.
+- Fikseeritud intuitiivne vastus liikumise pühkimiseks ja aeg-ajalt ekraani külmutamiseks.
+- Parema loetavuse tagamiseks täiustatud tumedarežiimi teksti- ja taustavärvikombinatsioonid.
+- Lahendas probleemi, kus mõni tekst võib rakenduse akna suuruse tamisel muutuda väga väikeseks.
+- Lahendas probleemi, mis võib vöötkoodide skannimisel mõnikord rakendust krahhida.
+- Lisatud võimalus liugur ühe nupuga asendada.
+- Lahendas probleemi, mis võib põhjustada rakenduse veateate "AADSTS7000215: esitatakse kehtetu kliendisaladus" (AADSTS7000215: esitatakse kehtetu kliendisaladus).
+- Parandas vihjeanimatsiooni, mis näitab lehe sulgemist pühkimisžesti abil.
+- Lisatud võimalus sulgeda leht allalipitud žesti abil.
+- Lahendas probleemi, kus ripploendi pealkirju ei kuvatud **lehel Kasutajasätted**.
+- Lahendas lokaliseerimisprobleemi, kus rakendus ei tunne koma (,) kümnenderaldajana.
 - Paremad hõlbustusfunktsioonid.
-- Parandatud hõlbustusfunktsioonide **loomiseks** parandage navigeerimist lehel Uus ühendus.
-- Fikseeritud probleem, kus sisendvälja valimisel ei kuvata kerget (ekraanil) klaviatuuri teksti.
-- Fikseeritud probleem, mis võib rakendusele reageerida, kui kasutajad selle akna kiiresti muutsid.
-- Fikseeritud probleem, kus kiirklahvi vajutamist on vahel tõlgendatud kui pikale pressile.
-- Lahendas probleemi, mille puhul rakenduse paigutus võis tarneahela halduses tehtud väljakohanduste tõttu muutuda rikutud.
-- Lahendati probleem, mille puhul kauba asukohti ei kuvatud õigesti.
-- Tootevariandi töövoo lühikese komplekteerimisega seotud probleemi fikseeritud
-- Eemaldas eelseadistatud vaikeväärtusi sisaldavate väljade mittevajaliku kinnitamise.
-- Täiustatud jõudlus.
-- Lisatud uus säte, mis võimaldab kasutajatel valida, kuidas väljad kaardi leheküljel filtreeritakse ja tellitakse.
+- Parandage navigeerimise **lehel Uus ühendus**, et tagada parem juurdepääs.
+- Lahendas probleemi, kus sisendvälja valimisel ei kuvata pehmet (ekraanil) klaviatuuri.
+- Lahendas probleemi, mis võib rakenduse kokku krahhida, kui kasutajad oma akna 2004. aasta akna kiiresti ümber kujundavad.
+- Lahendatud on probleem, kus kiiret võtmepressi tõlgendati mõnikord pika ajakirjandusena.
+- Lahendas probleemi, kus rakenduse paigutus võib tarneahela halduses tehtud väljade kohanduste tõttu rikutud olla.
+- Lahendas probleemi, kus kauba asukohti ei kuvatud õigesti.
+- Lahendas tootevariandi töövoo lühikese komplekteerimise probleemi.
+- Eemaldas eelseadistatud vaikeväärtusi sisaldavate väljade tarbetu valideerimise.
+- Parem jõudlus.
+- Lisatud uus säte, mis võimaldab kasutajatel valida, kuidas välju kaardilehel filtreeritakse ja tellitakse.
 
 ## <a name="version-20110"></a>Versioon 2.0.11.0
 

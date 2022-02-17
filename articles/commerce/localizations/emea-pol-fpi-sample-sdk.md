@@ -1,6 +1,6 @@
 ---
-title: Fiskaalprinteri integratsiooni näidise juurutuse juhised Poola jaoks (pärand)
-description: Selles teemas antakse juhised fiskaalprinteri integreerimisnäidi juurutamiseks Poola jaoks Microsoft Dynamics 365 Commerce jaemüügi tarkvara arenduskomplektist (SDK).
+title: Poola fiskaalprinterite integratsioonivalimi juurutusjuhised (pärand)
+description: Selles teemas antakse juhised poola fiskaalprinterite integreerimise näidise juurutamiseks jaemüügi tarkvaraarenduskomplektist Microsoft Dynamics 365 Commerce (SDK).
 author: EvgenyPopovMBS
 ms.date: 12/20/2021
 ms.topic: article
@@ -9,164 +9,164 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: bff3a6ad74d50e7b706d4df92b17a4a3af36521b
-ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
+ms.openlocfilehash: 45cae498df8157b9561c54e9859daadcaedd7823
+ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7944811"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "8076984"
 ---
-# <a name="deployment-guidelines-for-the-fiscal-printer-integration-sample-for-poland-legacy"></a>Fiskaalprinteri integratsiooni näidise juurutuse juhised Poola jaoks (pärand)
+# <a name="deployment-guidelines-for-the-fiscal-printer-integration-sample-for-poland-legacy"></a>Poola fiskaalprinterite integratsioonivalimi juurutusjuhised (pärand)
 
 [!include[banner](../includes/banner.md)]
 
-Selles teemas antakse juhised, kuidas juurutada Fiskaalprinteri integreerimisnäidik Poola jaoks jaemüügi tarkvara arenduskomplektist (SDK) arendaja virtuaalmasinasse Microsoft Dynamics 365 Commerce (VM) Microsoft Dynamics elutsükli teenustes (LCS). Lisateavet selle fiskaalintegratsiooni näidiste kohta vt Poola [fiskaalprinteri integratsiooni näidist](emea-pol-fpi-sample.md). 
+See teema annab juhised poola fiskaalprinteri integratsiooni näidise juurutamiseks jaemüügi tarkvaraarenduskomplektist Microsoft Dynamics 365 Commerce (SDK) arendaja virtuaalses masinas (VM) elutsükli teenustes Microsoft Dynamics (LCS). Lisateavet selle fiskaalintegratsiooni näidise kohta leiate teemast [Fiskaalprinteri integreerimise näidis Poola jaoks](emea-pol-fpi-sample.md). 
 
-Poola fiskaalintegratsiooni näidis on jaemüügi SDK osa. Lisateavet selle kohta, kuidas installida ja kasutada SDK-d, vt [jaemüügi tarkvara arenduskomplekti (SDK) ülesehitust](../dev-itpro/retail-sdk/retail-sdk-overview.md). See näidis koosneb Commerce Runtime' CRT () ja riistvarajaama laiendustest. Selle näidisprojekti käivitamiseks peate muutma ja ehitama CRT riistvarajaama projekte. Selles teemas kirjeldatud muudatuste vaatamiseks on soovitatav kasutada jaemüügi SDK-d, mida pole võimalik muuta. Soovitame kasutada ka allikakontrollisüsteemi, näiteks Azure DevOps sellistena, kus faile pole veel muudetud.
+Poola eelarveintegratsiooni valim on osa jaemüügi SDK-st. SDK installimise ja kasutamise kohta leiate teavet teemast [Jaemüügi tarkvaraarenduskomplekti (SDK) arhitektuur](../dev-itpro/retail-sdk/retail-sdk-overview.md). See proov koosneb Commerce'i käitusaja (CRT) ja riistvarajaama laiendustest. Selle proovi käivitamiseks peate muutma ja ehitama CRT ja riistvarajaama projekte. Soovitame selles teemas kirjeldatud muudatuste tegemiseks kasutada modifitseerimata Retail SDK-d. Samuti soovitame kasutada allika juhtimissüsteemi, näiteks Azure DevOps kui ühtegi faili pole veel muudetud.
 
 ## <a name="development-environment"></a>Arenduskeskkonnad
 
-Järgige neid samme arenduskeskkonna häälestamiseks, et saate testida ja laiendada näidist.
+Arengukeskkonna seadistamiseks järgige neid juhiseid, et saaksite proovi testida ja pikendada.
 
-### <a name="commerce-runtime-extension-components"></a>Äri käitusaja laienduse komponendid
+### <a name="commerce-runtime-extension-components"></a>Commerce'i käitusaja laiendi komponendid
 
-CRT Laienduskomponendid on kaasatud retail SDK-sse. Järgmiste protseduuride lõpule viimiseks avage **CommerceRuntimeSamples.sln lahendus** **retailSdk \\ SampleExtensions \\ CommerceRuntime'i** all.
+Laienduskomponendid CRT sisalduvad jaotises Retail SDK. Järgmiste protseduuride lõpuleviimiseks avage  **CommerceRuntimeSamples.sln** lahendus jaotises **RetailSdk\\SampleExtensions\\CommerceRuntime**.
 
-1. Leidke projekt **Runtime.Extensions.DocumentProvider.PosnetSample** ja koostage see.
-2. Leidke **kaustast Extensions.DocumentProvider.PosnetSample \\ bin \\ Silumine** **contoso.Commerce.Runtime.Extensions.DocumentProvider.PosnetSample.dll** assemblerifail.
-3. Kopeerige assemblerifail CRT laienduskausta:
+1. **Leidke projekt Runtime.Extensions.DocumentProvider.PosnetSample** ja ehitage see.
+2. Otsige kaustast **Extensions.DocumentProvider.PosnetSample\\bin\\Debug** üles **assemblerifail Contoso.Commerce.Runtime.Extensions.DocumentProvider.PosnetSample.dll** assemblerifail.
+3. Kopeerige assemblerifail CRT laienduskausta.
 
-    - **Commerce Scale Unit:** kopeerige fail **\\ bin \\ ext kausta** teenuse Internet Information Services (IIS) Commerce Scale Unit saidi asukoha all.
-    - **Kohalik CRT modern POS-s:** kopeerige fail kohaliku kliendi **\\** maakleri asukoha ext-kausta. CRT
+    - **Commerce Scale Unit:** kopeerige fail internetiteabeteenuste (IIS) Commerce Scale Uniti saidi asukoha all olevasse **\\bin\\ext** kausta.
+    - **Kohalik CRT kaasaegses kassas:** kopeerige fail **\\ ext** kausta kohaliku CRT kliendimaakleri asukoha all.
 
-4. Leidke laiendi CRT konfiguratsioonifail:
+4. Leidke laiendi konfiguratsioonifail:CRT
 
-    - **Commerce Scale Unit: faili nimi on** **commerceruntime.ext.config ja see on IIS Commerce Scale Uniti saidi asukoha** bin **\\** ext-kaustas.
-    - **Modern CRT POS-is kohalik: faili nimi on** **CommerceRuntime.MPOSOffline.Ext.config ja see on kohaliku kliendi** maakleri CRT asukoha all.
+    - **Commerce Scale Unit:** faili nimi **on commerceruntime.ext.config** ja see asub prügikasti **\\ kaustas** IIS Commerce Scale Unit saidi asukoha all.
+    - **Kohalik CRT kaasaegses kassas:** faili nimi **on CommerceRuntime.MPOSOffline.Ext.config** ja see on kohaliku CRT kliendimaakleri asukoha all.
 
-5. Registreerige CRT muudatus laiendi konfiguratsioonifailis.
+5. Registreerige CRT laienduse konfiguratsioonifaili muudatus.
 
     ``` xml
     <add source="assembly" value="Contoso.Commerce.Runtime.Extensions.DocumentProvider.PosnetSample" />
     ```
 
-6. Taaskäivitage Commerce Service:
+6. Taaskäivitage Commerce'i teenus.
 
-    - **Commerce Scale Unit:** taaskäivitage Commerce Service'i sait IIS-i halduri kaudu.
-    - **Kliendi** maakler: **lõpetage dllhost.exe** protsess ülesandehalduris ja taaskäivitage Modern POS.
+    - **Commerce Scale Unit:** taaskäivitage Commerce'i teenusesait IIS Managerist.
+    - **Kliendimaakler:** lõpetage **dllhost.exe** protsess Task Manageris ja taaskäivitage seejärel kaasaegne kassa.
 
 ### <a name="hardware-station-extension-components"></a>Riistvarajaama laienduse komponendid
 
-Riistvarajaama laienduse komponendid on kaasatud Jaemüügi SDK-sse. Järgmiste protseduuride sooritamiseks **avage** **RetailSdk \\ SampleExtensions \\ HardwareStationis konfiguratsioonilahendus HardwareStationSamples.sln.**
+Riistvarajaama laienduse komponendid sisalduvad retail SDK-s. Järgmiste protseduuride lõpuleviimiseks avage **HardwareStationSamples.sln** lahendus jaotises **RetailSdk\\SampleExtensions\\HardwareStation**.
 
-1. Leidke **projekt HardwareStation.Extension.PosnetThermalFVFiscalPrinterSample ja** koostage see.
-2. Leidke kaustast **Extension.Posnet.UuendavFiscalPrinterSample \\ bin \\ Silumine** assemblerifail **Contoso.Commerce.HardwareStation.PosnetThermalFFiscalPrinterSample.dll.**
-3. Kopeerige assemblerifail juurutatud riistvarajaama arvutisse:
+1. **Leidke projekt HardwareStation.Extension.PosnetThermalFVFiscalPrinterSample** ja ehitage see.
+2. Leidke kaustast **Extension.Posnet.ThermalFVFiscalPrinterSample\\bin\\Debug** assemblerifail **Contoso.Commerce.HardwareStation.PosnetThermalFVFiscalPrinterSample.dll** assemblerifail.
+3. Assemblerifaili kopeerimine juurutatud riistvarajaama masinasse.
 
-    - **Kaug riistvarajaam:** kopeerige fail **IIS**-i riistvarajaama saidi asukoha bin-kausta. Kopeerige printeri draiveriteegid (**libposcmbth.dll**, **libcmbth\_serial.dll** ja **cmbth\_pl.lng**).
+    - **Remote Hardware station:** kopeerige fail IIS-i riistvarajaama saidi asukoha all olevasse **prügikasti** kausta. Kopeerige printeri draiverite teegid (**libposcmbth.dll**, **libcmbthserial\_.dll** ja **cmbthpl.lng\_**).
 
-4. Leidke riistvarajaama laienduste konfiguratsioonifail. Faili nimi on **HardwareStation.Extension.config:**
+4. Leidke riistvarajaama laienduste konfiguratsioonifail. Faili nimi **on HardwareStation.Extension.config**:
 
-    - **Kaug** riistvarajaam: fail asub IIS-i riistvarajaama asukoha all.
+    - **Kaugriistvarajaam:** fail asub IIS-i riistvarajaama saidi asukoha all.
 
-5. Lisage konfiguratsioonifaili **koostise** jaotisse järgmine rida.
+5. Lisage konfiguratsioonifaili kompositsioonijaotisse **järgmine** rida.
 
     ``` xml
     <add source="assembly" value="Contoso.Commerce.HardwareStation.PosnetThermalFVFiscalPrinterSample" />
     ```
 
-6. Taaskäivitage riistvarajaama teenus:
+6. Taaskäivitage riistvarajaama teenus.
 
-    - **Kaug riistvarajaam:** taaskäivitage riistvarajaama sait IIS-i haldurist.
+    - **Remote Hardware station:** taaskäivitage riistvarajaama sait IIS Managerist.
 
 ## <a name="production-environment"></a>Tootmiskeskkond
 
-Eelmises protseduuris lubate laiendused, mis on fiskaalregistreerimise teenuse integratsiooni näidiskomponendid. Lisaks peate järgima neid samme Commerce'i komponente sisaldavate juurutatavate pakendite loomiseks ja nende pakendite rakendamiseks tootmiskeskkonnas.
+Eelmises protseduuris lubasite laiendused, mis on finantsregistreerimisteenuse integratsioonivalimi komponendid. Lisaks peate järgima neid juhiseid, et luua juurutatavad paketid, mis sisaldavad Commerce'i komponente, ja rakendada need paketid tootmiskeskkonnas.
 
-1. Tehke paketi konfiguratsioonifailides kausta **RetailSdk Assets all järgmised \\** muudatused:
+1. Tehke paketi konfiguratsioonifailides kausta RetailSdkAssets **\\ all** järgmised muudatused.
 
-    - **Commerceruntime.ext.config ja** **CommerceRuntime.MPOSOffline.Ext.config konfiguratsioonifailides lisage koostise** jaotisele **järgmine** rida.
+    - **Lisage konfiguratsioonifailidesse commerceruntime.ext.config** ja **CommerceRuntime.MPOSOffline.Ext.config** kompositsioonijaotisele **järgmine** rida.
 
         ``` xml
         <add source="assembly" value="Contoso.Commerce.Runtime.Extensions.DocumentProvider.PosnetSample" />
         ```
 
-    - **Konfiguratsioonifailis HardwareStation.Extension.config** lisage koostise jaotisele **järgmine** rida.
+    - Lisage konfiguratsioonifaili HardwareStation.Extension.config **kompositsioonijaotisesse** **järgmine** rida.
 
         ``` xml
         <add source="assembly" value="Contoso.Commerce.HardwareStation.PosnetThermalFVFiscalPrinterSample" />
         ```
 
-1. Tehke kausta **BuildTools all kohanduspaketi** kohandamise konfiguratsioonifailis **järgmised** muudatused:
+1. Tehke kausta BuildTools all **paketi kohandamise konfiguratsioonifailis** Customization.settings **konfiguratsioonifailis** järgmised muudatused.
 
-    - Lisage järgmine rida, et kaasata CRT laiend juurutatavatesse pakettidesse.
+    - Lisage järgmine rida, et lisada CRT laiendus juurutatavatesse pakettidesse.
 
         ``` xml
         <ISV_CommerceRuntime_CustomizableFile Include="$(SdkReferencesPath)\Contoso.Commerce.Runtime.Extensions.DocumentProvider.PosnetSample.dll"/>
         ```
 
-    - Lisage järgmine rida, et kaasata riistvarajaama laiend juurutatavatesse pakendisse.
+    - Lisage järgmine rida, et lisada juurutatavatesse pakettidesse riistvarajaama laiendus.
 
         ``` xml
         <ISV_HardwareStation_CustomizableFile Include="$(SdkReferencesPath)\Contoso.Commerce.HardwareStation.PosnetThermalFVFiscalPrinterSample.dll"/>
         ```
 
-1. Käivitage rakenduse MSBuild käsuviip utiliidi jaoks ja käivitage Visual Studio **msbuild kausta** Retail SDK all juurutatavate pakettide loomiseks.
-1. Rakendage pakendid LCS-i kaudu või käsitsi. Lisateavet vt teemast [Juurutatavate pakendite](../dev-itpro/retail-sdk/retail-sdk-packaging.md) loomine.
+1. Käivitage utiliidi jaoks Visual Studio käsuviip MSBuild ja käivitage **msbuild** kausta Retail SDK all juurutatavate pakettide loomiseks.
+1. Rakendage paketid LCS-i kaudu või käsitsi. Lisateavet vt teemast [Create deployable packages](../dev-itpro/retail-sdk/retail-sdk-packaging.md).
 
 ## <a name="design-of-extensions"></a>Laienduste kujundus
 
-Poola fiskaalprinteri integratsiooni näidis põhineb [fiskaalintegratsiooni](fiscal-integration-for-retail-channel.md) funktsioonil. Lisateavet fiskaalintegratsiooni lahenduse kujunduse kohta vt [fiskaalintegratsiooni näidiskujunduse](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices) ülevaatest.
+Poola fiskaalprinterite integratsiooninäidis põhineb fiskaalintegratsiooni [funktsioonil](fiscal-integration-for-retail-channel.md). Lisateavet fiskaalintegratsiooni lahenduse kujunduse kohta leiate [fiskaalintegratsiooni näidisprojekti](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) ülevaatest.
 
-### <a name="commerce-runtime-extension-design"></a>Äri käitusaja laiendi kujundus
+### <a name="commerce-runtime-extension-design"></a>Commerce'i käitusaja laienduse kujundus
 
-Fiskaaldokumendi pakkujaks olemise laiend on luua printeripõhiseid dokumente ja käsitleda fiskaalprinteri vastuseid.
+Maksudokumentide pakkuja laienduse eesmärk on luua printeripõhiseid dokumente ja käsitleda fiskaalprinteri vastuseid.
 
-Laiend CRT on **Runtime.Extensions.DocumentProvider.PosnetSample.** See laiend loob Printerispetsiifiliste käskude komplekti JavaScripti objekti notationi (JSON) vormingus, mille on määranud POSNET-i spetsifikatsioon 19-3678.
+Laiendus CRT on **Runtime.Extensions.DocumentProvider.PosnetSample**. See laiendus loob printerispetsiifiliste käskude komplekti JavaScript Object Notation (JSON) vormingus, mis on määratletud POSNETi spetsifikatsiooniga 19-3678.
 
-Lisateavet fiskaalintegratsiooni lahenduse kujunduse kohta vt [fiskaalregistreerimise protsessist ja fiskaalseadmete fiskaalintegratsiooni](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices) näidised.
+Lisateavet fiskaalintegratsiooni lahenduse kujunduse kohta leiate teemast [Fiskaalne registreerimisprotsess ja fiskaalseadmete ja -teenuste](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) fiskaalintegratsiooni näidised.
 
-#### <a name="request-handler"></a>Nõudeohjur
+#### <a name="request-handler"></a>Taotluse käitleja
 
-**DocumentProviderPosnetProtocol** taotluseohjur on fiskaalprinterist dokumentide loomise nõude sisenemispunkt.
+The **DocumentProviderPosnetProtocol** päringu töötleja on maksuprinterist dokumentide genereerimise päringu sisenemispunkt.
 
-Ohjur pärineb **INamedRequestHandler** liideselt. Meetod **HandlerName** vastutab ohjuri nime tagastamise eest. Ohjuri nimi peab vastama Commerce Headquartersis määratud konnektori dokumendi pakkuja nimele.
+Käitleja on päritud **INamedRequestHandler** liides. **Käitleja nime tagastamise eest vastutab meetod HandlerName**. Käitleja nimi peaks vastama Commerce'i peakontoris määratud konnektori dokumendipakkuja nimele.
 
-Konnektor toetab järgmisi taotlusi:
+Konnektor toetab järgmisi taotlusi.
 
-- **GetFiscalDocumentDocumentProviderRequest** – see taotlus sisaldab teavet selle kohta, milline dokument tuleks luua. See tagastab printeripõhise dokumendi, mis tuleb registreerida fiskaalprinteris.
-- **GetSupportedRegistrableEventsDocumentProviderRequest – see taotlus tagastab** tellitavate sündmuste loendi. Praegu toetatakse järgmisi sündmusi: müük, X-aruande printimine ja Z-aruande printimine.
+- **GetFiscalDocumentDocumentProviderRequest** – see taotlus sisaldab teavet selle kohta, milline dokument tuleks luua. See tagastab printerispetsiifilise dokumendi, mis tuleks fiskaalprinteris registreerida.
+- **GetSupportedRegistrableEventsDocumentProviderRequest** – See päring tagastab tellitavate sündmuste loendi. Praegu toetatakse järgmisi sündmusi: müük, X-aruande printimine ja Z-aruande printimine.
 
 #### <a name="configuration"></a>Konfiguratsioon
 
-Konfiguratsioonifail asub **laiendusprojekti** konfiguratsioonikaustas. Faili eesmärk on lubada dokumendipakkuja sätted rakendusest Commerce headquarters konfigureerimist. Failivorming on joondatud fiskaalintegratsiooni konfiguratsiooni nõuetele. Lisatakse järgmised sätted:
+Konfiguratsioonifail asub **laiendusprojekti kaustas Konfiguratsioon**. Faili eesmärk on lubada dokumendipakkuja sätete konfigureerimine Commerce'i peakontorist. Failivorming on joondatud fiskaalintegratsiooni konfiguratsiooni nõuetega. Lisatakse järgmised sätted.
 
 - KM-määrade vastendamine
 - Maksevahendi tüübi vastendamine
 - Deposiitmakse tüüp
 
-### <a name="hardware-station-extension-design"></a>Riistvarajaama laienduse kujundus
+### <a name="hardware-station-extension-design"></a>Riistvarajaama laienduse disain
 
-Fiskaalühenduseks olemise laiendi eesmärgiks on side fiskaalprinteriga.
+Fiskaalpistikuks oleva laienduse eesmärk on suhelda fiskaalprinteriga.
 
-Riistvarajaama laiend on **HardwareStation.Extension.PosnetThermalFFiscalPrinterSample.** See laiend kutsub POSNET-i draiveri funktsioone esitama käske, mida CRT laiend fiskaalprinterile loob. Samuti käsitletakse selles seadme tõrkeid.
+Riistvarajaama laiendus on **HardwareStation.Extension.PosnetThermalFVFiscalPrinterSample**. See laiendus kutsub POSNETi draiveri funktsioone, et edastada käske, mida CRT laiendus genereerib fiskaalprinterile. Samuti käsitleb see seadme vigu.
 
-#### <a name="request-handler"></a>Nõudeohjur
+#### <a name="request-handler"></a>Taotluse käitleja
 
-**FiscalPrinterHandler** taotluseohjur on sisenemispunkt fiskaalseadme perifeerseadme taotluse käsitlemiseks.
+The **FiscalPrinterHandler** päringu töötleja on sisenemispunkt päringu käsitlemiseks maksuvälisseadmesse.
 
-Ohjur pärineb **INamedRequestHandler** liideselt. Meetod **HandlerName** vastutab ohjuri nime tagastamise eest. Ohjuri nimi peab ühtima Commerce Headquartersis määratud fiskaalühenduse nimega.
+Käitleja on päritud **INamedRequestHandler** liides. **Käitleja nime tagastamise eest vastutab meetod HandlerName**. Töötleja nimi peaks ühtima fiskaalse konnektori nimega, mis on määratud Commerce'i peakorteris.
 
-Konnektor toetab järgmisi taotlusi:
+Konnektor toetab järgmisi taotlusi.
 
-- **SubmitDocumentFiscalDeviceRequest – see taotlus saadab dokumendid printerisse ja** tagastab vastuse fiskaalprinterist.
-- **IsReadyFiscalDeviceRequest** – seda taotlust kasutatakse seadme seisundikontrolliks.
-- **InitializeFiscalDeviceRequest** – seda taotlust kasutatakse printeri lähtestamiseks.
+- **SubmitDocumentFiscalDeviceRequest** – See päring saadab dokumendid printeritele ja tagastab fiskaalprinterilt vastuse.
+- **IsReadyFiscalDeviceRequest** – Seda päringut kasutatakse seadme tervisekontrolliks.
+- **InitializeFiscalDeviceRequest** – Seda päringut kasutatakse printeri lähtestamiseks.
 
 #### <a name="configuration"></a>Konfiguratsioon
 
-Konfiguratsioonifail asub **laiendusprojekti** konfiguratsioonikaustas. Faili eesmärk on lubada ühenduse sätete konfigureerimine rakendusest Commerce headquarters. Failivorming on joondatud fiskaalintegratsiooni konfiguratsiooni nõuetele. Lisatakse järgmised sätted:
+Konfiguratsioonifail asub **Seadistamine** laiendusprojekti kaust. Faili eesmärk on lubada konnektori sätete konfigureerimine Commerce'i peakontorist. Failivorming on joondatud fiskaalintegratsiooni konfiguratsiooni nõuetega. Lisatakse järgmised sätted.
 
-- **Ühendusstring** – string, mis kirjeldab seadmega ühenduse üksikasju vormingus, mida draiver toetab. Lisateavet vt POSNET-i draiveri dokumentatsioonist.
-- **Kuupäeva ja kellaaja sünkroonimine – väärtus, mis määrab, kas printeri kuupäev ja kellaaeg tuleb** sünkroonida ühendatud riistvarajaamaga.
-- **Seadme** ajalõpp – aja hulk millisekundites, mille juht ootab seadmelt vastuse ootamist. Lisateavet vt POSNET-i draiveri dokumentatsioonist.
+- **Ühendusstring** – string, mis kirjeldab seadmega ühenduse üksikasju vormingus, mida draiver toetab. Lisateavet leiate POSNETi draiveri dokumentatsioonist.
+- **Kuupäeva ja kellaaja sünkroonimine** – Väärtus, mis määrab, kas printeri kuupäev ja kellaaeg tuleb ühendatud riistvarajaamaga sünkroonida.
+- **Seadme ajalõpp** – Aeg millisekundites, mille jooksul juht ootab seadmelt vastust. Lisateavet leiate POSNETi draiveri dokumentatsioonist.

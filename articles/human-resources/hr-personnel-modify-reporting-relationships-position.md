@@ -13,14 +13,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: db15394bf4bcd1b56781d269ad81aa1ad20b5e69
-ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
+ms.openlocfilehash: d7996733575c2d3a23971d08eb101962c1f6bbd9
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/01/2021
-ms.locfileid: "7728805"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066621"
 ---
 # <a name="modify-reporting-relationships-for-a-position"></a>Ametikoha aruandlusseoste muutmine
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -28,18 +31,18 @@ ms.locfileid: "7728805"
 
 Protseduur näitab, kuidas muuta töötaja aruandluse seost. Aruandluse seost saab kasutada töövoos dokumentide marsruudi valikul. Protseduur näitab ka seda, kuidas määrata töötaja täiendavatesse hierarhiatesse. Näiteks võib töötaja kuuluda projekti töörühma, mis hõlmab mitteametlikku aruandluse seost projektijuhiga. Ametikoha jaoks saab määratleda täiendavad aruandluse seosed, et võimaldada mitmesuguseid projekti- või maatriksistsenaariume. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.
 
-1. Minge inimressursside **ametikohtade** \> **·** \> **ametikohtadele**.
-2. Saate kirjete leidmiseks kasutada valikut Kiirfilter. Filtreerige näiteks välja **Positsioon väärtuse 000091** **·** väärtusel.
+1. Minge **inimressursside**\> positsioonidele.**·** \> **·**
+2. Saate kirjete leidmiseks kasutada valikut Kiirfilter. Näiteks filtreerige **välja Positsioon** väärtuse **000091**.
 3. Valige loendis link valitud reas.
-4. Laiendage **jaotist Aruanded** ametikohale.
-5. Ripploendi **·** avamiseks klõpsake nuppu Uus.
-6. Sisestage **või valige väärtus väljal Aruanded** kuni.
+4. Laiendage jaotist **Aruanded positsioonile**.
+5. **Ripploendi dialoogiboksi avamiseks valige Uus**.
+6. **Sisestage või valige väljale** Aruanded väärtus.
 7. Valige **Loo**.
-8. Laiendage **jaotist** Seosed.
+8. Laiendage jaotist **Seosed**.
 9. Valige **Lisa**.
-10. Märkige ruudustikust vasakul ruut.
-11. Sisestage **või** valige väärtus väljal Hierarhia nimi (nt **·** Projekt).
-12. Sisestage **või** valige väärtus väljale Positsiooniaruanded (nt **·** 000437).
+10. Märkige ruudustikust vasakul olev ruut.
+11. Sisestage või valige väljale **Hierarhia nimi** väärtus (nt **Projekt**).
+12. **Sisestage või valige väljale Ametikohale kinnitavad** aruanded väärtus (nt **000437**).
 13. Valige käsk **Salvesta**.
 
 

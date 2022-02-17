@@ -1,6 +1,6 @@
 ---
-title: Finance and Operations rakenduste või teenuse Lifecycle Services (LCS) tugi
-description: See teema selgitab, kuidas saada abi Finance and Operations rakenduste või teenuse Microsoft Dynamics Lifecycle Services (LCS) kasutamisel.
+title: Toetuse saamine rakenduse Finance and Operations või Lifecycle Services (LCS) jaoks
+description: Selles teemas selgitatakse, kuidas saada abi rakenduse Finance and Operations või teenuse Microsoft Dynamics Lifecycle Services (LCS) kasutamisel.
 author: EricMoos
 ms.date: 08/02/2021
 ms.topic: article
@@ -14,18 +14,21 @@ ms.search.region: Global
 ms.author: anupams
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4314545941cd4c401325aad7651c8882db322f58aae54e85dbad2548733cc95e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 3e697c574efb0b04db6cb04d01c41066a0ac3974
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713330"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068030"
 ---
-# <a name="get-support-for-finance-and-operations-apps-or-lifecycle-services-lcs"></a>Finance and Operations rakenduste või teenuse Lifecycle Services (LCS) tugi
+# <a name="get-support-for-finance-and-operations-apps-or-lifecycle-services-lcs"></a>Toetuse saamine rakenduse Finance and Operations või Lifecycle Services (LCS) jaoks
 
 [!include [banner](../includes/banner.md)]
 
-See teema selgitab, kuidas saada abi Finance and Operations rakenduste või teenuse Microsoft Dynamics Lifecycle Services (LCS) kasutamisel. 
+
+[!INCLUDE [PEAP](../../../includes/peap-2.md)]
+
+Selles teemas selgitatakse, kuidas saada abi rakenduse Finance and Operations või teenuse Microsoft Dynamics Lifecycle Services (LCS) kasutamisel. 
 
 <table>
 <thead>
@@ -48,7 +51,7 @@ See teema selgitab, kuidas saada abi Finance and Operations rakenduste või teen
 <td>Kasutage lehel <a href="https://lcs.dynamics.com/">LCS</a> <strong>teema otsingut</strong>, et leida kiiresti Microsofti teabebaasi (KB) artikleid, kiirparandusi ja leitud probleemide lahendusi. Saate vaadata, milliste leitud probleemide lahendamisega kindlas kategoorias tegeletakse ja millised on juba lahendatud. Lisateabe saamiseks vt <a href="issue-search-lcs.md">Teema otsing (Lifecycle Services, LCS)</a>.</td>
 </tr>
 <tr>
-<td>Hankige tuge rakendusest Finance and Operations.</td>
+<td>Hankige tuge rakenduses Finance and Operations.</td>
 <td>Valige rakenduse ülemisest parempoolsest nurgast nupp <strong>Spikker</strong> (<strong>?</strong>) ja seejärel <strong>Tugi</strong>. Probleemid edastatakse LCS-is vahekaardil <strong>Aktiivsed probleemid</strong>. Seal saavad administraatorid teha kindlaks, kas nad peaksid pakkuma ettevõttesisest tuge või edastama probleemid Microsoftile.</td>
 </tr>
 <tr>

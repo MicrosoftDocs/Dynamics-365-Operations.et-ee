@@ -9,35 +9,35 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: 127b4092ad3c5e8737aff43f503e0a8f36ff1ec8
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 601c49e21c3a97d2da225705ddbb386e491d4d25
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781340"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060328"
 ---
 # <a name="party-and-global-address-book"></a>Osapool ja globaalne aadressiraamat
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-*Osapool* ja *globaalne aadressiraamat* on mõisted Finance and Operations rakendustes. Osapooleks võib olla organisatsioon või isik. Osapoole atribuute on mugav globaalselt talletada ja hallata (nt nimi, keel, kontaktid ja aadressid). Kui atribuudi väärtus muutub ühes kohas, peegeldub see kõigis kohtades, kuhu osapool on kaasatud.
+
+*Osapoolte* ja *globaalsete aadresside raamat* on mõisted finance and Operations rakendustes. Osapooleks võib olla organisatsioon või isik. Osapoole atribuute on mugav globaalselt talletada ja hallata (nt nimi, keel, kontaktid ja aadressid). Kui atribuudi väärtus muutub ühes kohas, peegeldub see kõigis kohtades, kuhu osapool on kaasatud.
 
 ## <a name="party"></a>Osapool
 
-Osapool on ettevõttega seotud isik või organisatsioon. Osapoole kontseptsiooni kasutades saab inimene või organisatsioon ettevõttes täita rohkem kui ühte rolli (nagu töötaja, klient, hankija või kontakt). Roll põhineb kontekstil ja eesmärgil. Siin on mõned näited rollidest kahest fiktiivstest ettevõtetest: Contoso ja Fabrikam:
+Osapool on ettevõttega seotud isik või organisatsioon. Osapoole kontseptsiooni kasutades saab inimene või organisatsioon ettevõttes täita rohkem kui ühte rolli (nagu töötaja, klient, hankija või kontakt). Roll põhineb kontekstil ja eesmärgil. Siin on mõned näited kahe fiktiivse ettevõtte, Contoso ja Fabrikami rollidest:
 
-+ **Töötaja** – Töövõtja. Näide on Contoso töötaja.
-+ **Hankija** – Tarnijaorganisatsioon või ainuomanik, kes tarnib ettevõttele kaupu või teenuseid. Näiteks kui Fabrikam müüb tarneid Contosole, on Fabrikam Contoso hankija.
-+ **Kontakt** – Kontaktisik. Näiteks kui Contoso ostab varusid Fabrikamilt, võtab Contoso töötajad ühendust Fabrikami kontaktiga.
-+ **Klient** : Isik või ettevõte, kes ostab ettevõttelt kaupu. Näiteks kui Contoso ostab varusid Fabrikamilt, on Contoso Fabrikami klient.
++ **Töötaja** – Töövõtja. Näitena võib tuua Contoso töötaja.
++ **Hankija** – Tarnijaorganisatsioon või ainuomanik, kes tarnib ettevõttele kaupu või teenuseid. Näiteks kui Fabrikam müüb tarneid Contosole, on Fabrikam Contoso müüja.
++ **Kontakt** – Kontaktisik. Näiteks kui Contoso ostab tarneid Fabrikamilt, võtavad Contoso töötajad ühendust Fabrikami kontaktiga.
++ **Klient** : Isik või ettevõte, kes ostab ettevõttelt kaupu. Näiteks kui Contoso ostab tarneid Fabrikamist, on Contoso Fabrikami klient.
 
 Osapoole mudelit kasutatakse sageli organisatsioonide ja inimeste vaheliste keerukate suhete meediumi kajastamiseks, eriti siis, kui osapoolel on rohkem kui üks roll. Järgmisena on toodud mõned levinumad näited.
 
-+ Osapool võib olla nii klient kui ka hankija. Näiteks Põhja-Ameerikas müüb Fabrikam Contosole elektrit ja ostab Contosost monteeritud riike. Euroopas müüb Fabrikam osaSid Contosole, kuid see ei osta Contosost midagi.
++ Osapool võib olla nii klient kui ka hankija. Näiteks Põhja-Ameerikas müüb Fabrikam Contosole elektrijuhtmeid ja ostab Contosolt kokkupandud kõlareid. Euroopas müüb Fabrikam osi Contosole, kuid ei osta Contosolt midagi.
 + Osapool võib olla nii töövõtja kui ka klient. Näiteks ostab Contoso töövõtja Contosost elektroonikat isiklikuks kasutamiseks.
-+ Isiku ja organisatsiooni vahel võib olla mitu-mitmele (N:N) – seosed. Näiteks varustab Fabrikam teenusespetsialiste ja võtab tööle paigutuse koordinaator. Paigutuse koordinaator viib teenusespetsialistid vastavusse mitme Fabrikami kliendi töötaotlustega. Contoso on üks Fabrikami klientidest. Kui Contoso nõuab teenusespetsialisti, võtab see ühendust paigutuse koordinaatoriga, kes seejärel lihtsustab taotlust. Kuna paigutuse koordinaator tegeleb kõikide klientide taotlustega, kaasatakse N:N-seos.
++ Isiku ja organisatsiooni vahel võib olla mitu-mitmele (N:N) – seosed. Näiteks varustab Fabrikam teenusespetsialiste ja võtab tööle paigutuse koordinaator. Paigutuse koordinaator viib teenusespetsialistid vastavusse mitme Fabrikami kliendi töötaotlustega. Contoso on üks Fabrikami klientidest. Kui Contoso vajab teenindusspetsialisti, võtab ta ühendust paigutuse koordinaatoriga, kes seejärel taotlust hõlbustab. Kuna paigutuse koordinaator tegeleb kõikide klientide taotlustega, kaasatakse N:N-seos.
 
 Järgmine pilt näitab osapoole andmemudelit.
 
@@ -46,7 +46,7 @@ Järgmine pilt näitab osapoole andmemudelit.
 > [!TIP]
 > Kui proovite luua uut kontokirjet, kasutage välja **Osapool** kirje otsimiseks nime järgi. Sel viisil, kui te kirje leiate, peate selle lihtsalt valima. Süsteem täidab automaatselt kõik osapoole andmed. Kõiki nõutavaid välju ei tule käsitsi täita. Selline käitumine võib ilmneda valmislahendusega lehtedel **Konto**, **Kontakt** ja **Hankija** .
 
-Topeltkirjutus ei toeta kõiki Finance and Operations -i rakenduste osapoole rolle. Osapoolte rollide täieliku loendit vt [Globaalse aadressiraamatu ülevaade](../../../fin-ops/organization-administration/overview-global-address-book.md) ülevaatest.
+Topeltkirjutus ei toeta kõiki Finance and Operationsi rakenduste osapoolerolle. Osapoolte rollide täieliku loendit vt [Globaalse aadressiraamatu ülevaade](../../../fin-ops/organization-administration/overview-global-address-book.md)ülevaatest.
 
 ### <a name="global-address-book"></a>Globaalne aadressiraamat
 
@@ -75,7 +75,7 @@ Tabel **Kontakt** võib talletada järgmist tüüpi ridu.
 |----------|-------------|
 | Isik, kes on klient, nt müüdav kontakt või B2C-klient | Vöödilise kontakti kirje, milles väli **Ettevõte** ei ole tühi ning välja **Klient** väärtuseks on seatud **Jah**. |
 | Isik, kes on hankija, näiteks ainuomanik nagu hankija | Vöödilise kontakti kirje, milles väli **Ettevõte** ei ole tühi ning väljal **Hankija** on seatud väärtuseks **Jah**. |
-| Isik, kes on korraga nii klient kui ka hankija | Vöödilise kontakti kirje, milles väli **Ettevõte** ei ole tühi ning väljal **On kKlient** on seatud väärtuseks **Jah** ja välja **On Hankija** on seatud väärtuseks **Jah**. Isik võib olla nii ühe toote tootja kui ka teise toote tarbija. Seda Finance and Operations i rakenduste suhet toetavad nii rakendused kui ka topeltkirjutus. |
+| Isik, kes on korraga nii klient kui ka hankija | Vöödilise kontakti kirje, milles väli **Ettevõte** ei ole tühi ning väljal **On kKlient** on seatud väärtuseks **Jah** ja välja **On Hankija** on seatud väärtuseks **Jah**. Isik võib olla nii ühe toote tootja kui ka teise toote tarbija. Seda suhet toetavad nii finance and Operationsi rakendused kui ka topeltkirjutus. |
 | Isik, kes on organisatsiooni kontaktisik, kuid ei ole klient ega hankija | Vöödita kontakti kirje, milles väli **Ettevõte** on tühi ning väljal **On Klient** on seatud väärtuseks **Ei**, ja väljal **On Hankija** on seatud väärtuseks **Ei**. |
 
 ## <a name="contact-for-party-table"></a>Osapoole tabeli kontakt
@@ -86,13 +86,13 @@ Näiteks on Natasha Jones ja Miguel Reyes veterinaarid, kes oma piirkonnas asuva
 
 Need seosed salvestatakse tabelisse **Kontakt osapoole jaoks**. Teavet leiate valmislahendusega lehtedel **Konto**, **Kontakt** ja **Hankija** :
 
-+ **Konto** lehel saate kasutada vahekaarti **Seotud Kontaktid**, et seostada üks või mitu kontakti **Konto** reaga. Sel viisil määrate organisatsiooni kontaktisiku. Siis saate valida konto esmaseks kontaktiks ühe kontakti. Kui kasutate lehte **Kiirloomine**, saate valida ainult kontaktisiku. Käitumine on sama, kui kasutate lehte **Hankija** ja kirje tüüp on **Organisatsioon**.
-+ **Kontakti** lehel, kui rida on klient, hankija või mõlemad (riba kontakt), saate kasutada vahekaarti **Seotud Kontaktid** et siduda üks või mitu kontakti. Sel viisil määrate kontaktisiku B2C-kliendi või hankija jaoks. Siis saate valida ühe kontakti esmaseks kontaktiks. Kui kasutate lehte **Kiirloomine**, saate valida ainult kontaktisiku.
++ **Konto** lehel saate kasutada vahekaarti **Seotud Kontaktid** , et seostada üks või mitu kontakti **Konto** reaga. Sel viisil määrate organisatsiooni kontaktisiku. Siis saate valida konto esmaseks kontaktiks ühe kontakti. Kui kasutate lehte **Kiirloomine** , saate valida ainult kontaktisiku. Käitumine on sama, kui kasutate lehte **Hankija** ja kirje tüüp on **Organisatsioon**.
++ **Kontakti** lehel, kui rida on klient, hankija või mõlemad (riba kontakt), saate kasutada vahekaarti **Seotud Kontaktid** et siduda üks või mitu kontakti. Sel viisil määrate kontaktisiku B2C-kliendi või hankija jaoks. Siis saate valida ühe kontakti esmaseks kontaktiks. Kui kasutate lehte **Kiirloomine** , saate valida ainult kontaktisiku.
 + **Kontakti** lehel, kui rida on kontaktisik (vöötideta kontakt), saate kasutada vahekaarti **Seotud Kontaktid** et siduda üks või mitu klienti või hankijat. Sel viisil määrate kliendid või hankijad põhi kontaktisikuteks. Klient või hankija võib olla organisatsioon, isik või mõlemad. Korraga saate valida väärtuse ainult ühel neljast väljast:
 
     + Kui valite määra väärtus **Osapoole ID** väljale, siis määratakse aluseks olev kontakt kõikidele valitud osapoole rollidele.
     + Kui valite **Seostatud Kontakti** välja, valite sellega vöödiga kontakti, mis on **Isiku** tüüp.
-    + Kui valite väärtuse väljal **Seotud konto** või **Seotud Hankija**, valite organisatsiooni.
+    + Kui valite väärtuse väljal **Seotud konto** või **Seotud Hankija** , valite organisatsiooni.
 
     ![Associated Organizations vahekaart Kontaktilehel.](media/party-gab-image3.png)
 
@@ -142,7 +142,7 @@ Ruudustiku kohal saate kasutada nuppu **Uus Elektrooniline Aadress**, et luua ni
 Elektronaadressid on saadaval ainult selles ruudustikus. Tulevastes väljalasetes eemaldatakse kõik elektron- ja postiaadressi väljad teistelt vahekaartidelt, näiteks vahekaartidelt **Kokkuvõte** ja **Üksikasjad**. Vahekaardil **Üksikasjad** kuvatud kontaktandmed on esmase elektroonilise aadressi kirjutuskaitstud koopiad, nagu esmane telefon, esmane meil, esmane telefon, esmane faks ja esmane Twitteri ID. Müügivihje kvalifikatsiooniprotsessi käigus saate sisestada nii ettevõtte telefoninumbri kui ka mobiiltelefoni numbri. Ettevõtte telefoninumber on esmane telefoninumber, kui **IsMobile=No** ja mobiiltelefoni numbrit loetakse teiseseks telefoninumbriks, kui **IsMobile=Yes**.
 
 > [!TIP]
-> Kasutage vahekaarte **Aadressid** ja **Elektroonilised aadressid** vormidel **Konto** ja **Kontakt** posti- ja elektrooniliste aadresside haldamiseks. See tagab, et aadressiandmed sünkroonitakse rakendustekomplektiga Finance and Operations.
+> Kasutage vahekaarte **Aadressid** ja **Elektroonilised aadressid** vormidel **Konto** ja **Kontakt** posti- ja elektrooniliste aadresside haldamiseks. See tagab aadressiandmete sünkroonimise rakendusega Finance and Operations.
 
 ## <a name="setup"></a>Seadistus
 
@@ -230,7 +230,7 @@ Elektronaadressid on saadaval ainult selles ruudustikus. Tulevastes väljalasete
 
 12. Tegevused käivitatakse järgmises järjestuses. Kui kuvatakse tõrge, mis teatab "Projekti kinnitamine nurjus". Puudub sihtväli...", seejärel avage kaart ja valige **Värskenda Tabeleid**. Seejärel käivitage kaart.
 
-    Finance and Operations rakendus | Klientide kaasamise rakendus  
+    Rakendus Finance and Operations | Klientide kaasamise rakendus  
     ----------------------------|------------------------
     [CDS osapooled](mapping-reference.md#220) | msdyn_parties
     [CDS-i postiaadressi asukohad](mapping-reference.md#234) | msdyn_postaladdresscollections
@@ -255,7 +255,7 @@ Elektronaadressid on saadaval ainult selles ruudustikus. Tulevastes väljalasete
 > [!NOTE]
 > Kaart `CDS Contacts V2 (contacts)` on kaart, mille peatasite sammus 1. Kui proovite käitada teisi kaarte, võivad need 2 vastekaarti ilmuda ülalpeetavate loendis. Ära käita neid kaarte.
 >
-> Kui osapool ja globaalse aadressiraamatu lahendus on installitud, peate ühenduse `Microsoft.Dynamics.SCMExtended.Plugins.Plugins.LeadPrimaryContactPostCreate: QualifyLead of lead` keelama. Kui desinstallid osapoole ja globaalse aadressiraamatu lahenduse siis peate ühenduse keelama.
+> Kui osapool ja globaalse aadressiraamatu lahendus on installitud, peate ühenduse `Microsoft.Dynamics.SCMExtended.Plugins.Plugins.LeadPrimaryContactPostCreate: QualifyLead of lead`keelama. Kui desinstallid osapoole ja globaalse aadressiraamatu lahenduse siis peate ühenduse keelama.
 >
 > `msdyn_*partynumber` välja (ühe rea tekstivälja), mis on kaasatud tabelitesse **Konto**, **Kontakt** ja **Hankija** ei tohiks kasutada edasiminekuks. Sildinimel on eesliide **Iganenud** selguse jaoks. Selle asemel kasutage **msdyn_partyid** välja. See väli on tabeli **msdyn_party** otsing.
 
@@ -269,42 +269,42 @@ Elektronaadressid on saadaval ainult selles ruudustikus. Tulevastes väljalasete
 
 Tabeli kaartide kogum toimib koos ning suhtluses osapoole ja globaalse aadressiraamatuga, nagu on näidatud järgmises tabelis.
 
-| Finance and Operations rakendus | Klientide kaasamise rakendus | Kirjeldus |
+| Rakendus Finance and Operations | Klientide kaasamise rakendus | Kirjeldus |
 |----------------------------|-------------------------|-------------|
-| [Kontaktisiku tiitlid](mapping-reference.md#223) | msdyn\_ salescontactpersontitles |
+| [Kontaktisiku tiitlid](mapping-reference.md#223) | msdyn\_salescontactpersontitles |
 | [Kliendid V3](mapping-reference.md#101) | kontod |
 | [Kliendid V3](mapping-reference.md#116) | kontaktid |
-| [CDS osapooled](mapping-reference.md#220) | msdyn\_ parties |
-| [CDS-i osapoole postiaadressi asukohad](mapping-reference.md#233) | msdyn\_ partypostaladdresses |
-| [CDS-i postiaadressi ajalugu V2](mapping-reference.md#235) | msdyn\_ postaladdresses |
-| [CDS-i postiaadressi asukohad](mapping-reference.md#234) | msdyn\_ postaladdresscollections |
+| [CDS osapooled](mapping-reference.md#220) | msdyn\_parties |
+| [CDS-i osapoole postiaadressi asukohad](mapping-reference.md#233) | msdyn\_partypostaladdresses |
+| [CDS-i postiaadressi ajalugu V2](mapping-reference.md#235) | msdyn\_postaladdresses |
+| [CDS-i postiaadressi asukohad](mapping-reference.md#234) | msdyn\_postaladdresscollections |
 | [CDS-i müügipakkumise päis](mapping-reference.md#215) | pakkumised |
 | [CDS-i müügitellimuse päised](mapping-reference.md#217) | müügitellimused |
-| [Viisakusväljendid](mapping-reference.md#222) | msdyn\_ complimentaryclosings |
-| [Kontaktid V2](mapping-reference.md#221) | msdyn\_ contactforparties |
-| [Otsustamisrollid](mapping-reference.md#224) | msdyn\_ decisionmakingroles |
-| [Tööhõive tööfunktsioonid](mapping-reference.md#225) | msdyn\_ employmentjobfunctions |
-| [Püsikliendi tasemed](mapping-reference.md#226) | msdyn\_ loyaltylevels |
-| [Osapoole kontaktid V3](mapping-reference.md#236) | msdyn\_ partyelectronicaddresses |
-| [Isiklikud märgitüübid](mapping-reference.md#227) | msdyn\_ personalcharactertypes |
+| [Viisakusväljendid](mapping-reference.md#222) | msdyn\_complimentaryclosings |
+| [Kontaktid V2](mapping-reference.md#221) | msdyn\_contactforparties |
+| [Otsustamisrollid](mapping-reference.md#224) | msdyn\_decisionmakingroles |
+| [Tööhõive tööfunktsioonid](mapping-reference.md#225) | msdyn\_employmentjobfunctions |
+| [Püsikliendi tasemed](mapping-reference.md#226) | msdyn\_loyaltylevels |
+| [Osapoole kontaktid V3](mapping-reference.md#236) | msdyn\_partyelectronicaddresses |
+| [Isiklikud märgitüübid](mapping-reference.md#227) | msdyn\_personalcharactertypes |
 | [Müügiarve päised V2](mapping-reference.md#118) | arved |
-| [Tervitused](mapping-reference.md#228) | msdyn\_ salutations |
-| [Hankijad V2](mapping-reference.md#202) | Msdyn\_ hankijad |
+| [Tervitused](mapping-reference.md#228) | msdyn\_salutations |
+| [Hankijad V2](mapping-reference.md#202) | Msdyn\_hankijad |
 
 Lisateavet vt [topeltkirjutuse vastendamise viitest](mapping-reference.md).
 
 ## <a name="known-issues-and-limitations"></a>Teadaolevad probleemid ja piirangud
 
-+ Finance and Operations rakendustes, kui loote kliendi aadressiga ja salvestate selle, ei pruugi aadress **Aadressi** tabeliga sünkroonida. Põhjus on platvormi topeltkirjutuse järjestuse probleemis. Lahendusena looge kõigepealt klient ja salvestage see. Seejärel lisage aadress.
-+ Finance and Operations rakendustes, kui kliendikirjel on esmane aadress ja te loote sellele kliendile uue kontakti, pärib kontaktikirje peamise aadressi seotud kliendikirjest. See juhtub ka hankija kontakti korral. Dataverse ei toeta praegu seda käitumist. Kui topeltkirjutus on lubatud, sünkroonitakse rakendusest esmase aadressiga Finance and Operations päritud kliendikontaktid Dataverse koos selle aadressiga.
++ Rakendustes Finance and Operations ei pruugi aadress kliendi loomisel koos aadressiga ja salvestamine sünkroonida **tabeliga Aadress**. Põhjus on platvormi topeltkirjutuse järjestuse probleemis. Lahendusena looge kõigepealt klient ja salvestage see. Seejärel lisage aadress.
++ Rakendustes Finance and Operations, kui kliendikirjel on esmane aadress ja loote sellele kliendile uue kontakti, pärib kontaktikirje seotud kliendikirjelt esmase aadressi. See juhtub ka hankija kontakti korral. Dataverse ei toeta praegu seda käitumist. Kui topeltkirjutus on lubatud, sünkroonitakse Dataverse kliendikontaktid, mis on päritud rakenduse Finance and Operations esmase aadressiga koos selle aadressiga.
 + Elektrooniliste aadresside vahekaardile määratud elektroonilised aadressid ei tööta **Konto**, **Kontakt** ja **Hankija** vormidel tabelist `msdyn_partyelectronicaddress` . See teave ei mõjuta seotud kandeid (nt müügitellimus, pakkumine ja ostutellimus). Plaanime selle probleemi astmelises väljalaskes lahendada. Konto elektroonilise aadressi väljadel olevad andmed ja kontaktikirjed jätkavad tööd kannetega, nagu müügitellimus, pakkumine ja ostutellimus.
-+ Rakendustes Finance and Operations saate luua kontaktikirje vormilt **Lisa Kontakt** . Kui proovite luua uut kontakti vormilt **Kuva Kontakt** tegevus nurjub. See on teadaolev probleem.
++ Rakendustes Finance and Operations saate luua kontaktikirje vormil **Kontakti** lisamine. Kui proovite luua uut kontakti vormilt **Kuva Kontakt** tegevus nurjub. See on teadaolev probleem.
 
     ![Teadaolev probleem Kontakti Lisamisega.](media/party-gab-contact-issue.png)
 
-+ **Esialgne sünkroonimine** ei toeta **Saadaval Alates** ja **Saadaval Kuni** väljasid **OsapooleKontakt**, kuna DIXF teisendab väärtuse täisarvu asemel stringiks. Teisendus käivitab tõrke `Cannot convert the literal '<say 08:00:00>’ to the expected type edm.int32`.
++ **Esialgne sünkroonimine** ei toeta **Saadaval Alates** ja **Saadaval Kuni** väljasid **OsapooleKontakt** , kuna DIXF teisendab väärtuse täisarvu asemel stringiks. Teisendus käivitab tõrke `Cannot convert the literal '<say 08:00:00>’ to the expected type edm.int32`.
 + Kui postiaadressi kasutatakse rohkem kui ühe põhjuse jaoks, näiteks ärisidemete aadressi ja arveldusaadressi, peaks see ilmuma nii, nagu `Business;Invoice` nagu näidatud järgmisel pildil. Kui lisate väärtuste vahele ruumi, kuvatakse tõrketeade.
 
     ![Teadaolev probleem Aadressiga.](media/party-gab-address-issue.png)
 
-+ Te ei saa sisestada edasisuunas postiaadressi, kasutades topeltkirjutusega Finance and Operations rakendust, sest Dataverse ei toeta kuupäeva mõju. Kui sisestate rakenduse abil tulevikku ajastatud postiaadressi kasutades rakendust Finance and Operations , sünkroonitakse see täielikult Dataverse -i ja te näete aadressi kasutajaliideses kohe. Selle kirje mis tahes uuenduste tulemuseks on viga, kuna see on tulevikku ajastatud, kuid mitte rakenduses Finance and Operations praegu kehtiv.
++ Edasisuunatud postiaadressi ei saa sisestada topeltkirjutusega rakenduse Finance and Operations abil, kuna Dataverse see ei toeta kuupäevaefektiivsust. Kui sisestate rakenduse Finance and Operations abil tulevikus dateeritud postiaadressi, sünkroonitakse Dataverse see täielikult ja näete kohe kasutajaliideses olevat aadressi. Selle kirje mis tahes värskenduste tulemuseks on tõrge, kuna see on tulevikus dateeritud ja rakenduses Finance and Operations mittekohaldav.

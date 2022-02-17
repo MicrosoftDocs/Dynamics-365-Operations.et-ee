@@ -13,14 +13,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0a812887f20a8ae5ae3b677ac452a498230c244a
-ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
+ms.openlocfilehash: 21127c46615015c30e06465b390f67b835e746cb
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "7731732"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068130"
 ---
 # <a name="create-loan-items"></a>Loo laenuartikleid
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -30,9 +33,9 @@ Laenuartiklid on kirjed, mis aitavad teil jälgida füüsilisi kaupu, näiteks t
 
 
 ## <a name="create-loan-types"></a>Laenutüüpide loomine
-1. Avage inimressursside **töötajate** > **·** > **laenuüksuste** > **laenutüübid**.
+1. Avage puhasja **human resourcesWorkersLoan** > **·** > **itemsLoan** > **types**.
 2. Klõpsake valikut **Uus**.
-3. Tippige **väärtus** väljale Laenu tüüp.
+3. Tippige väljale **Laenu liik** väärtus.
 4. Sisestage väärtus väljale **Kirjeldus**.
 5. Sisestage päevade arv, mille võrra võib seda tüüpi laenuartiklite tagastamine tähtaja ületada. 
 6. Klõpsake nuppu **Salvesta**.
@@ -40,21 +43,21 @@ Laenuartiklid on kirjed, mis aitavad teil jälgida füüsilisi kaupu, näiteks t
 8. Värskendage lehte.
 
 ## <a name="create-loan-items"></a>Laenuartiklite loomine
-1. Avage inimressursside **töötajate** > **laenu** > **artiklid** > **Laenuüksused.**
-2. Klõpsake **nuppu Loo laenuüksused.**
-3. Sisestage **number** väljale Kogus.
+1. Avage **puhasüksusedTöölisedLoan** > **·** > **itemsLoan** > **items**.
+2. Klõpsake nuppu **Loo laenukaubad**.
+3. Sisestage väljale **Kogus** number.
 4. Sisestage väärtus väljale **Kirjeldus**.
-5. Otsingu **·** avamiseks klõpsake väljal Laenu tüüp ripploendit.
+5. Otsingu avamiseks klõpsake väljal **Laenu tüüp** rippmenüü nuppu.
 6. Otsige loendist ja valige soovitud kirje.
 7. Klõpsake loendis valitud real olevat linki.
 8. Sisestage päevade arv, mille jooksul artikkel võib olla välja laenatud.
     * Lehe Laenatud seadmed välja Plaanitud tagastus vaikeväärtus arvutatakse, liites tänasele kuupäevale selle numbri.  
-9. Otsingu **avamiseks klõpsake väljal Vastutav** isik ripploendit.
+9. **Otsingu avamiseks klõpsake väljal Vastutav** isik rippmenüüd.
 10. Klõpsake **Vali**.
-11. Sisestage **number väljale** Algväärtus.
+11. Sisestage väljale **Algväärtus** number.
 12. Sisestage number väljale **Intervall**.
-13. Tippige **väärtus** väljale Vorming.
-    * Näiteks kui laenukauba algusnumber on 10, sisestage vormingu väljale kaks **·** numbrisümbolit.  
+13. Tippige väljale **Vorming** väärtus.
+    * Näiteks kui laenukauba algusnumber on 10, sisestage väljale **Vorming** kaks numbritähist.  
 14. Klõpsake valikut **OK**.
 15. Värskendage lehte.
 

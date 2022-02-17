@@ -1,6 +1,6 @@
 ---
-title: Integreeritud hankija koondandmed
-description: Selles teemas kirjeldatakse hankija andmete integreerimist teenusekomplekti Finance and Operations rakenduste ja teenuse Dataverse vahel.
+title: Hankija koondandmete haldamine
+description: Selles teemas kirjeldatakse hankija andmete integreerimist rakenduse Finance and Operationsi rakenduste ja teenuse Dataverse vahel.
 author: RamaKrishnamoorthy
 ms.date: 07/15/2019
 ms.topic: article
@@ -9,22 +9,22 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: fce5e072d39533fa5d54fe34e90c7aca9d01d67e
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 7794f33aed7364b76a7d5ffd08a068342887e468
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782473"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063158"
 ---
 # <a name="integrated-vendor-master"></a>Integreeritud hankija koondandmed
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Termin *hankija* viitab tarnijariigi organisatsioonile või ainuomanikule, kes tarnib ettevõttele kaupu või teenuseid. Kuigi *müüja* on loodud mõiste teenusekomplektis Microsoft Dynamics 365 Supply Chain Management, pole teistes kliendikaasamise rakendustes mõistet müüja olemas. Kuid hankija teabe talletamiseks saate ülekoormata tabeli **Konto/kontakt**. Integreeritud müüja koondandmed tutvustavad kliendikaasamise rakendustes selgesõnalist müüja mõistet. Saate kasutada kas uut hankija kujundust või talletada hankija andmeid tabelis **Konto/kontakt**. Topeltkirjutus toetab mõlemat lähenemist.
 
-Mõlemas lähenemisviisis on hankija andmed integreeritud Dynamics 365 Supply Chain Management i, Dynamics 365 Salesi, Dynamics 365 Field Service'i ja Power Apps i portaalide vahel. Supply Chain Managementis on andmed saadaval töövoogudele (nt ostutaotlused ja ostutellimused).
+Mõlemas lähenemisviisis on hankija andmed integreeritud Dynamics 365 Supply Chain Managementi, Dynamics 365 Salesi, Dynamics 365 Field Service'i ja Power Appsi portaalide vahel. Supply Chain Managementis on andmed saadaval töövoogudele (nt ostutaotlused ja ostutellimused).
 
 ## <a name="vendor-data-flow"></a>Hankijaandmete voog
 
@@ -37,7 +37,7 @@ Kui soovite jätkata hankija andmete talletamist tabelis **Konto/kontakt**, saat
 ![Hankijaandmete laiendatud voog.](media/dual-write-vendor-detail.jpg)
 
 > [!TIP]
-> Kui kasutate iseteeninduse hankijate Power Apps i portaale, võib hankija teave liikuda otse Finance and Operations i rakendustesse.
+> Kui kasutate Power Apps iseteeninduse hankijate portaale, võib hankija teave liikuda otse rakendusse Finance and Operations.
 
 ## <a name="templates"></a>Mallid
 
@@ -52,7 +52,7 @@ Finance and Operations rakendused | Klientide kaasamise rakendused     | Kirjeld
 [Maksegraafiku read](mapping-reference.md#159) | msdyn_paymentschedulelines | Sünkroonib nii klientide kui ka hankijate maksegraafiku ridade viiteandmed.
 [Maksegraafik](mapping-reference.md#160) | msdyn_paymentschedules | See mall sünkroonib nii klientide kui ka hankijate maksegraafiku viiteandmed.
 [Maksetingimused](mapping-reference.md#161) | msdyn_paymentterms | See mall sünkroonib nii klientide kui ka hankijate maksetingimuste viiteandmed.
-[Hankijad V2](mapping-reference.md#202) | msdyn_vendors | Ettevõtted, mis kasutavad hankijate jaoks kohandatud lahendusi, saavad kasutada valmislahendusena hankija eeliseid, mis on Finance and Operations i rakenduste integratsiooni tõttu juurutatud teenuses Dataverse.
+[Hankijad V2](mapping-reference.md#202) | msdyn_vendors | Ettevõtted, mis kasutavad hankijatele, saavad ära kasutada valmislahendusena hankija eeliseid, mis on Finance and Operationsi rakenduste integratsiooni kaudu juurutatud teenuses Dataverse.
 [Hankijagrupid](mapping-reference.md#200) | msdyn_vendorgroups | See mall sünkroonib hankijagrupi teabe.
 [Tarnija makseviis](mapping-reference.md#201) | msdyn_vendorpaymentmethods | See mall sünkroonib hankija makseviisi teabe.
 

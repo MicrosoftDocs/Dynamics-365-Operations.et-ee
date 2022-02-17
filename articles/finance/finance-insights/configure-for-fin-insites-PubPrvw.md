@@ -1,6 +1,6 @@
 ---
-title: Finantside vihjete konfiguratsioon – versioon 10.0.20 ja uuem
-description: See teema kirjeldab, kuidas konfigureerida süsteemi nii, et see kasutaks finantside vihjetes saadaolevaid võimalusi versioonis 10.0.20 ja uuemates versioonides.
+title: Finance'i ülevaadete konfiguratsioon – versioon 10.0.20 ja uuemad versioonid
+description: Selles teemas selgitatakse, kuidas konfigureerida oma süsteemi kasutama võimalusi, mis on saadaval Finance'i ülevaates versioonis 10.0.20 ja uuemas versioonis.
 author: ShivamPandey-msft
 ms.date: 06/16/2021
 ms.topic: article
@@ -16,20 +16,20 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-06-03
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 8ff20334445fba1db435d7005c4ca9ba18f97f72
-ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
-ms.translationtype: HT
+ms.openlocfilehash: cea6258d3a99ba33e73acd2508ec7b6c11d15859
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968958"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8061750"
 ---
-# <a name="configuration-for-finance-insights---version-10020-and-later"></a>Finantside vihjete konfiguratsioon – versioon 10.0.20 ja uuem
+# <a name="configuration-for-finance-insights---version-10020-and-later"></a>Finance'i ülevaadete konfiguratsioon – versioon 10.0.20 ja uuemad versioonid
 
 [!include [banner](../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Finantsülevaated koondavad Microsofti Dynamics 365 Finance funktsioone Dataverse rakendusega, AI Builder Azure'iga ja pakuvad organisatsioonile võimast prognoosimise tööriistu. See teema kirjeldab versiooni 10.0.20 konfigureerimist, nii et süsteem saab kasutada finantsülevaadetes Dynamics 365 Finance saadaolevaid võimalusi.
+
+Finance Insights ühendab Microsofti Dynamics 365 Finance Dataverse funktsioonid Azure'iga ja AI Builder pakub teie asutusele võimsaid prognoosimisvahendeid. Selles teemas selgitatakse, kuidas konfigureerida Dynamics 365 Finance versioon 10.0.20 nii, et teie süsteem saaks kasutada finance'i ülevaates saadaolevaid võimalusi.
 
 > [!NOTE]
 > Selles teemas kirjeldatud konfiguratsiooni etapid kehtivad ainult finantsversiooni 10.0.20 ja uuemate versioonide puhul. Finance insights`i seadistamiseks versioonil 10.0.19 ja uuemates versioonides vt [Finance insights vihjete konfigureerimine (eelvaade) – versioonid kuni 10.0.19](configure-for-fin-insites.md).
@@ -38,9 +38,9 @@ Finantsülevaated koondavad Microsofti Dynamics 365 Finance funktsioone Datavers
 
 Keskkonna juurutamiseks tehke järgmist.
 
-1. Looge teenuses Microsoft Dynamics Lifecycle Services (LCS) või värskendage ’i keskkonda. Keskkonnas on vaja rakenduse 10.0.20 või uuemat Rakendust Finance and Operationsi rakendustest.
+1. Looge teenuses Microsoft Dynamics Lifecycle Services (LCS) või värskendage ’i keskkonda. Keskkond nõuab finance and Operationsi rakenduste rakenduse versiooni 10.0.20 või uuemat versiooni.
 2. Keskkond peab olema hea kättesaadavusega (HA) liivakasti keskkond. (Seda tüüpi keskkond on tuntud ka kui järgu 2 keskkond.) Lisateavet vt teemast [Keskkonna kavandamine](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
-3. Finance insights`i konfigureerimisel võib olla peate prognooside tööle kopeerimiseks tootmisandmed sellele keskkonnale kopeerima. Ennustuse mudel kasutab prognooside koostamiseks mitmeid aastaid andmeid. Contoso demoandmed ei sisalda piisavalt ajaloolisi andmeid ennustuse mudeli andmeedastuse jaoks. 
+3. Finance insights`i konfigureerimisel võib olla peate prognooside tööle kopeerimiseks tootmisandmed sellele keskkonnale kopeerima. Ennustuse mudel kasutab prognooside koostamiseks mitmeid aastaid andmeid. Contoso demoandmed ei sisalda piisavalt ajaloolisi andmeid, et ennustusmudelit piisavalt koolitada. 
 
 ## <a name="configure-dataverse"></a>Dataverse konfigureerimine
 
@@ -126,7 +126,7 @@ Kui te ei leia ühtegi eelnevat rakendust, proovige järgmisi samme.
         - **Jõudlus** – soovitame valida suvandi **Standardne**.
         - **Konto liik** – peate valima **StorageV2**.
 
-    3. Dialoogiaknas **Täpsemad suvandid** valige suvandi **Data Lake storage Gen2** valik **Luba** jaotises **Hierarhilised nimeruumide**. Kui te seda funktsiooni ei luba, ei saa te finantside ja toimingute rakenduste kirjutamiseks andmeid tarbida, kasutades selliseid teenuseid nagu Power BI andmevood.
+    3. Dialoogiaknas **Täpsemad suvandid** valige suvandi **Data Lake storage Gen2** valik **Luba** jaotises **Hierarhilised nimeruumide**. Kui te seda funktsiooni ei luba, ei saa te tarbida andmeid, mida Finance and Operationsi rakendused kirjutavad, kasutades selliseid teenuseid nagu Power BI andmevood.
     4. Valige **Läbivaatus ja loomine**. Kui juurutamine on lõpule viidud, kuvatakse Azure’i portaalis uus ressurss.
     5. Avage loodud salvestusruumi konto.
     6. Valige vasakpoolses menüüs **Juurdepääsuvõtmed**.
@@ -752,6 +752,6 @@ Lisandmooduli installimiseks võib aega kuluda mitu minutit.
 
 ## <a name="feedback-and-support"></a>Tagasiside ja tugi
 
-Kui soovite pakkuda tagasisidet või kui teil on tuge vaja, saatke finantsülevaatele [meilisõnum](mailto:fiap@microsoft.com).
+Kui olete huvitatud tagasiside andmist või vajate tuge, saatke e-kiri Finance'i [statistikale](mailto:fiap@microsoft.com).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

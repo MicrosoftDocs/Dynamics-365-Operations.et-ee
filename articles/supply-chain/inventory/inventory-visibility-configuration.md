@@ -11,17 +11,17 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: fcbace2bd28a843fca8aa2f4f998c08f238c29d6
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: 8ba478fef424a6c4688191ed4e5375bbce52de0c
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920294"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060997"
 ---
 # <a name="configure-inventory-visibility"></a>Varude nähtavuse konfigureerimine
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 
 See teema kirjeldab Inventory Visibility konfigureerimist ja Inventory Visibility kasutamist rakenduses Power Apps.
 
@@ -58,10 +58,10 @@ Kui konfiguratsioon on lõpule viidud, valige kindlasti rakenduses **Konfigurats
 
 ## <a name="data-source-configuration"></a>Andmeallika konfiguratsioon
 
-Iga andmeallikas tähistab süsteemi, millest teie andmed tulevad. Andmeallikate näidete hulka kuuluvad näiteks `fno` (mis tähistab rakendusi "Dynamics 365 Finance and Operations rakendus) ja `pos` (mis tähistab "kassat"). Vaikimisi on rakenduse Varude nähtavus andmeallikaks (`fno`) seadistatud Supply Chain Management.
+Iga andmeallikas tähistab süsteemi, millest teie andmed tulevad. Andmeallika näidisnimed on (`fno` mis tähendab "Dynamics 365 Finance ja Operationsi rakendused) ja `pos` (mis tähendab "müügikohta"). Vaikimisi on rakenduse Varude nähtavus andmeallikaks (`fno`) seadistatud Supply Chain Management.
 
 > [!NOTE]
-> Andmeallikas `fno` on reserveeritud tarneahela haldamiseks. Kui varude nähtavuse lisandmoodul on integreeritud tarneahela halduskeskkonnaga, on soovitatav mitte kustutada andmeallikaga `fno` seotud konfiguratsioone.
+> Andmeallikas `fno` on reserveeritud tarneahela juhtimisele. Kui teie varude nähtavuse lisandmoodul on integreeritud tarneahela halduse keskkonnaga, soovitame teil andmeallikas konfiguratsioonid mitte kustutada`fno`.
 
 Andmeallika lisamiseks toimige järgmiselt.
 
@@ -273,7 +273,7 @@ Selle arvutusvalemi kasutamisel sisaldab uus päringutulemus kohandatud mõõdet
 
 ## <a name="partition-configuration"></a><a name="partition-configuration"></a>Sektsiooni konfiguratsioon
 
-Sektsiooni konfiguratsioon koosneb praegu kahest põhidimensioonist (ja ) sellest, `SiteId``LocationId` kuidas andmeid jaotatakse. Sama sektsiooni toimingutega saab madalama hinnaga jõudlust parandada. Järgmine tabel näitab vaikimisi sektsiooni konfiguratsiooni, mille pakub varude nähtavuse lisandmoodul.
+Praegu koosneb sektsiooni konfiguratsioon kahest põhimõõtmest (`SiteId` ja `LocationId`), mis näitavad, kuidas andmeid jaotatakse. Sama sektsiooni all olevad toimingud võivad pakkuda suuremat jõudlust madalamate kuludega. Järgmises tabelis kuvatakse varude nähtavuse lisandmooduli esitatud sektsiooni vaikekonfiguratsioon.
 
 | Põhidimensioon | Hierarhia |
 |---|---|
@@ -283,7 +283,7 @@ Sektsiooni konfiguratsioon koosneb praegu kahest põhidimensioonist (ja ) selles
 Lahendus sisaldab vaikimisi seda sektsiooni konfiguratsiooni. Seetõttu *ei pea te seda ise määratlema*.
 
 > [!IMPORTANT]
-> Ärge kohandage sektsiooni vaikekonfiguratsiooni. Selle kustutamisel või muutmisel võib põhjustada ootamatu tõrge.
+> Ärge kohandage sektsiooni vaikekonfiguratsiooni. Kui kustutate või muudate seda, põhjustate tõenäoliselt ootamatu tõrke.
 
 ## <a name="product-index-hierarchy-configuration"></a><a name="index-configuration"></a>Tooteindeksi hierarhia konfiguratsioon
 

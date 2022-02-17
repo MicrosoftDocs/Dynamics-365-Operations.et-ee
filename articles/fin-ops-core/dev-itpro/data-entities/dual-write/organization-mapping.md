@@ -1,6 +1,6 @@
 ---
-title: Organisatsiooni hierarhia teenuses Dataverse
-description: Siin peatükis kirjeldatakse organisatsiooni andmete integratsiooni Finance and Operations i rakenduste ja teenuse Dataverse vahel.
+title: Organisatsiooni hierarhia teenusesDataverse
+description: Selles teemas kirjeldatakse organisatsiooniliste andmete integreerimist Finance and Operationsi rakenduste ja teenuse Dataverse vahel.
 author: RamaKrishnamoorthy
 ms.date: 07/15/2019
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: c7ef3a11817d60343503c80d89493262711524b1
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: afc1b5996667835c460f467526493380aa2d6403
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782304"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062082"
 ---
-# <a name="organization-hierarchy-in-dataverse"></a>Organisatsiooni hierarhia teenuses Dataverse
+# <a name="organization-hierarchy-in-dataverse"></a>Organisatsiooni hierarhia teenusesDataverse
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Kuna Dynamics 365 Finance on finantssüsteem, on *organisatsioon* keskne mõiste ja süsteemi seadistus algab organisatsiooni hierarhia konfiguratsioonist. Ettevõtte rahandusasju saab seejärel jälgida organisatsiooni tasemel ja mis tahes tasemel organisatsiooni hierarhias.
 
@@ -28,11 +28,11 @@ Kuigi teenuses Dataverse ei ole organisatsiooni hierarhia mõistet, on sellel m�
 
 ## <a name="data-flow"></a>Andmevoog
 
-Ettevõtte ökosüsteemil, mis koosneb Finance and Operations i rakendustest ja Dataverse’ist, on jätkuvalt organisatsiooni hierarhia. See organisatsiooni hierarhia on loodud Finance and Operations i rakendustes, kuid see on informatiivsel ja laiendatavuse eesmärgil esitatud Dataverse’is. Järgmine illustratsioon näitab organisatsiooni hierarhia teavet, mis on avatud Dataverse’i ühesuunalise andmevoona Finance and Operations i rakendustest teenusesse Dataverse.
+Ettevõtte ökosüsteemil, mis koosneb Finance and Operationsi rakendustest ja Dataverse’ist, on jätkuvalt organisatsiooni hierarhia. See organisatsiooni hierarhia on loodud Finance and Operationsi rakendustes, kuid see on informatiivsel ja laiendatavuse eesmärgil esitatud Dataverse’is. Järgmine illustratsioon näitab organisatsiooni hierarhia teavet, mis on avatud Dataverse’i ühesuunaline andmevoona Finance and Operationsi rakendustest teenusesse Dataverse.
 
 ![Ülesehituse pilt.](media/dual-write-data-flow.png)
 
-Organisatsiooni hierarhia tabeli kaardid on saadaval andmete ühesuunalisel sünkroonimiselt Finance and Operations i rakendustest teenusesse Dataverse.
+Organisatsioonihierarhia tabelikaardid on saadaval andmete ühesuunalise sünkroonimise jaoks rakendustest Finance and Operations Dataverse.
 
 ## <a name="templates"></a>Mallid
 

@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a01e172f5c62b746f4733e03d25ea43f0247790003ea1a1470bc28e98db12deb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 8b0260c4d1bafe271a08336ceed7dc3742f1d590
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741401"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8061380"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-26-2020"></a>Mis on Dynamics 365 Human Resourcesis uut või mida on muudetud (26. september 2020)
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Selles teemas kirjeldatakse Dynamics 365 Human Resourcesi uusi, muutunud või peatselt tulevaid funktsioone. Meie värskendamisprotsessi ja graafiku kohta lisateabe saamiseks vt teemat [Värskendamisprotsess](hr-admin-setup-update-process.md).
 
@@ -39,7 +39,7 @@ See väljaanne sisaldab järgmisi uusi funktsioone ja veaparandusi. Muudatused r
 
 Selle väljalaskega tuleb üldiselt kättesaadavaks järgmine funktsioon.
 
-- **Platvormi versiooni 10.0.13 värskendus on nüüd saadaval**: lisateavet värskenduse kohta leiate teemast [Finance and Operationsi rakenduste platvormi versiooni 10.0.13 värskendused (oktoober 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-13.md).
+- **Platvormi värskendus 10.0.13 on nüüd saadaval**: lisateavet värskenduse kohta leiate [teemast Finance and Operationsi rakenduste versiooni 10.0.13 platvormi värskendused (oktoober 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-13.md).
 
 ### <a name="bug-fixes"></a>Veaparandused
 

@@ -13,29 +13,32 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c7929a89d1f503fa42b214dc1f1019a2c26e607b
-ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
+ms.openlocfilehash: abb45fe6f398de71565732dce6249daa0c39fce2
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "7731584"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069450"
 ---
 # <a name="enter-worker-information"></a>Töötaja andmete sisestamine
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 
 
-Pärast värbaja hulgivärbamisprojekti ja ametikohtade loomist on järgmiseks etapiks värvatavate inimeste töötaja teabe sisestamine. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid. Demoandmed sisaldavad avatud hulgivärbamise projekti. Selle protseduuri alustamiseks minge inimressursside **värbamise** > **·** > **hulgivärbamisprojektidesse**.
+Pärast värbaja hulgivärbamisprojekti ja ametikohtade loomist on järgmiseks etapiks värvatavate inimeste töötaja teabe sisestamine. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid. Demoandmed sisaldavad avatud hulgivärbamise projekti. Selle protseduuri alustamiseks minge aadressile **Inimressursid** > **Värbamine** > **Massi rendiprojektid**.
 
 1. Märkige loendis valitud rida.
-2. Klõpsake **valikul Ametikoha üksikasjad**.
-    * Töötaja **·** alguskuupäeva redigeerimine  
-    * Töötaja **·** lõppkuupäeva redigeerimine  
-    * Vajadusel **muutke** töötaja tüüpi.  
-3. Tippige **väärtus** väljale Eesnimi.
-4. Tippige **väärtus** väljale Teine nimi.
-5. Tippige **väärtus** väljale Perekonnanimi.
+2. Klõpsake nuppu **Asukoha üksikasjad**.
+    * Redigeerige **töötaja alguskuupäeva**.  
+    * Redigeerige **töötaja lõppkuupäeva**.  
+    * **Vajadusel muutke töötaja tüüpi**.  
+3. Tippige väljale **Eesnimi** väärtus.
+4. Tippige väljale **Keskmine nimi** väärtus.
+5. Tippige väljale **Perekonnanimi** väärtus.
     * Vajaduse korral muutke töötaja puhul tööd.  
     * Vajaduse korral muutke töötaja puhul osakonda.  
     * Vajaduse korral muutke töötaja puhul täistööaja olekut.  

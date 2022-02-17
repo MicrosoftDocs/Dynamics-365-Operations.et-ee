@@ -16,16 +16,16 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 1a311b4a304984044a1c3bd3924c129821afbbb9
-ms.sourcegitcommit: f11ad8d7ee8a4d2ee1a1bb601622b50e14955c4a
+ms.openlocfilehash: 638b5c3b0c83f67f3d99331b6456efd1b8f5225a
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/18/2021
-ms.locfileid: "7825350"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063337"
 ---
 # <a name="product-identifiers"></a>Toote identifikaatorid
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 [!include [banner](../includes/banner.md)]
 
@@ -39,7 +39,7 @@ Rakenduses Dynamics 365 Supply Chain Management on toote peamine identifikaator 
 
 Paljudel juhtudel pole tootenumber algselt loodud rakenduses Dynamics 365 Supply Chain Management. Selle asemel on see seotud tootega toote elutsükli halduse (PLM) süsteemis või toote teabehalduse (PDM) süsteemis. Sel juhul saate toodete ja tootevariantide importimiseks kasutada andmeüksuseid. Tarneahela haldus kasutab seejärel kõigi operatsioonide numbreid.
 
-Kui juurutate rakendust Tarneahela haldus, peaksite pöörama erilist tähelepanu oma tootenumbrite strateegiale. Hea nummerdamissüsteem parandab logistikavoogusid ja aitab vältida vigu. Heal tooteidentifikaatoril peaks tavaliselt olema kuni 20 märki, kuid üldiselt soovitame kasutada alla 10 märgi ning mitte rohkem kui 5 klassifitseerivat märki. Samuti saate kiirotsingute lubamiseks kasutada otsingunimesid. Otsingunimi on täiendav nimi, mis tähistab toote klassifikatsioone.
+Kui juurutate rakendust Tarneahela haldus, peaksite pöörama erilist tähelepanu oma tootenumbrite strateegiale. Hea nummerdamissüsteem parandab logistikavoogusid ja aitab vältida vigu. Hea toote identifikaator peaks tavaliselt olema 20 tähemärki või vähem, kuid üldiselt soovitame kasutada vähem kui 10 tähemärki ja mitte rohkem kui 5 klassifitseerimine tähemärki. Samuti saate kiirotsingute lubamiseks kasutada otsingunimesid. Otsingunimi on täiendav nimi, mis tähistab toote klassifikatsioone.
 
 Kui kasutate teenust Microsoft Dataverse, siis on ka toote number Supply Chain Managementis ka toote number teenuses Microsoft Dataverse. Tootevariandid sünkroonitakse Dataverse’iga eristatavate toodetena.
 

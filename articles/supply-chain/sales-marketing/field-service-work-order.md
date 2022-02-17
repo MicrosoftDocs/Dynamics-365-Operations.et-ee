@@ -16,18 +16,18 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: c54f5eaec1ae453ba9e55ef54d47c8591276ec89
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: b7b311701aff12d58392fc036d0f1174678b7dc3
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568371"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8061305"
 ---
 # <a name="synchronize-work-orders-in-field-service-to-sales-orders-in-supply-chain-management"></a>Sünkroonige rakenduse Field Service töötellimused rakenduse Supply Chain Management müügitellimustega
 
 [!include[banner](../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Selles teemas käsitletakse malle ja aluseks olevaid ülesandeid, mida kasutatakse projekti numbriga töökäskude sünkroonimiseks rakendusest Dynamics 365 Field Service müügitellimusse rakenduses Dynamics 365 Supply Chain Management.
 

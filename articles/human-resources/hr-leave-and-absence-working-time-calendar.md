@@ -15,14 +15,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 09449b832c403b0f711c3827ad20fc5aa618fbc4
-ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
+ms.openlocfilehash: 54aa85acb43c1e9a474bea9996c72c7e7017c245
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "7731489"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068915"
 ---
 # <a name="create-a-working-time-calendar"></a>Tööajakalendri loomine
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -64,7 +67,7 @@ Saate pühasid ja kinniolekuaegu lisada või muuta tööajakalendris eraldi.
 
 Saate mittetöötamise aegu lisada või muuta tööajakalendris eraldi.
 
-1. Valige **organisatsiooni** halduse lehel väärtus **MITTETÖÖAEG**.
+1. Valige **lehel Organisatsiooni administreerimine** käsk **MITTETÖÖAEG**.
 
 2. Valige suvand **Uus** ja sisestage mittetöötamise aja nimi ja ajavahemik.
 

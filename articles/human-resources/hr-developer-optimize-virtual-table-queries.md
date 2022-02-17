@@ -15,18 +15,21 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-04-02
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 40fc4c06c563415cd5b1a13c145b778276274fd97279dc9f56ff5e3f8954dc76
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 1857d2e35e369bcd0c8f02a059a307f31da8b3b9
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732005"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067450"
 ---
 # <a name="optimize-dataverse-virtual-table-queries"></a>Dataverse'i virtuaalsete tabelite päringute optimeerimine
 
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 ## <a name="issue"></a>Väljasta
 
@@ -47,12 +50,12 @@ Personaliosakonna Dataverse virtuaaltabelite aeglase jõudluse üheks põhjuseks
 Näide, kus seda mõju võite näha, on päringutes olemi Töötaja ( **mshr_hcmworkerentity**) või Baastöötaja (**mshr_hcmworkerbaseentity**) vastu. Jõudluse probleem võib ilmneda mitmel erineval viisil:
 
 - **Aeglane päringu tegevus**: virtuaaltabeli vastane päring võib tagastada oodatud tulemused, kuid päringu täitmise lõpuleviimiseks kulub oodatust kauem aega.
-- **Päringu aegumine**: päring võib aeguda ja tagastada järgmise tõrke: "Finance and Operations kutsumiseks saadi luba, kuid Finance and Operations tagas tõrke tüübiga InternalServerError."
+- **Päringu ajalõpud**: päring võib aja maha võtta ja tagastada järgmise tõrke: "Finance and Operationsi helistamiseks saadi luba, kuid Finance and Operations tagastas vea tüübiga InternalServerError."
 - **Ootamatu tõrge**: päring võib tagastada tõrketüübi 400 järgmise teatega: "Ilmnes ootamatu tõrge."
 
   ![Vea tüüp 400 HcmWorkerBaseEntity.](./media/HcmWorkerBaseEntityErrorType400.png)
 
-- **Ahendamine**: päring võib serveri ressursse üle kasutada ja muutuda ahendamiseks. Sel juhul tagastab päring järgmise tõrke: "Finance and Operations kutsumiseks hangiti luba ,kuid Finance and Operations tagastas tõrge tüübiga 429." Lisateavet personaliosakonna ahendamise kohta leiate teemast [Ahendamise KKK](./hr-admin-integration-throttling-faq.md).
+- **Ahendamine**: päring võib serveri ressursse üle kasutada ja muutuda ahendamiseks. Sellisel juhul tagastab päring järgmise vea: "Luba saadi finance and Operationsi helistamiseks, kuid Finance and Operations tagastas vea tüübiga 429." Lisateavet personaliosakonna ahendamise kohta leiate teemast [Ahendamise KKK](./hr-admin-integration-throttling-faq.md).
 
   ![Vea tüüp 429 HcmWorkerBaseEntity.](./media/HcmWorkerBaseEntityErrorType429.png)
 
@@ -101,7 +104,7 @@ Kui teil tekib Power BI aruande Dataverse virtuaalse tabeli suhtes aruande üles
 4. Laiendage aknas Navigator sõlm **Olemid**.
 5. Otsinguboksis sisestage **mshr_hcmworkerbaseentity** ja valige olem.
 6. Valige **Andmete transformeermine**.
-7. Valige Power Query Editor aknas **Täpsem redaktor**.
+7. Valige aknas Power Query Toimetaja suvand **Täpsem redaktor**.
 8. Aknas **Täpsem redaktor** uuendage päringut nii, et see otsiks välja järgmisena, lisades või eemaldades kõik vajalikud veerud massiivile.
 
    ```
@@ -113,14 +116,14 @@ Kui teil tekib Power BI aruande Dataverse virtuaalse tabeli suhtes aruande üles
    in
      selectedWorkerBaseEntityColumns
    ```
-   ![Päringu värskendamine Power Query Editor täpsemas redaktoris.](./media/HcmWorkerBaseEntityPowerQueryEditor.png)
+   ![Värskendage päringut redaktori täpsemas redaktoris Power Query.](./media/HcmWorkerBaseEntityPowerQueryEditor.png)
 
 9. Valige suvand **Valmis**.
 
    > [!NOTE]
    > Kui olete enne päringu värskendamist päringult saanud tõrke tüübist 429, peate võib-olla enne päringu värskendamist ootama uuesti prooviperioodi, et see saaks täielikult lõpule viia.
 
-10. Klõpsake Power Query Editor tegevusribal nuppu **Sule ja rakenda**.
+10. Klõpsake toimingul Toimetaja nuppu **Sule** ja rakenda Power Query.
 
 Siis saate alustada Power BI aruande ülesehimist virtuaaltabelist valitud veergude suhtes.
 

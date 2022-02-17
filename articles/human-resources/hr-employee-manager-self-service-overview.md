@@ -17,14 +17,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2a356aae6590c2bce289c8d180324027efc76983
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: HT
+ms.openlocfilehash: 28bf4ff4e456505efda3777a4f820c54f270c74b
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7991741"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068940"
 ---
 # <a name="employee-and-manager-self-service-overview"></a>Töövõtja ja juhataja iseteeninduskeskuse ülevaade
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -93,7 +96,7 @@ Kaardil **Manused** saate vaadata ja hallata dokumente. Saate hallata kõiki **V
 
 Sellest jaotisest leiate lingid teistele **töövõtja iseteenindusaladele**, sarnaselt jaotisele **Minu tööalane teave**.
 
-Registreeruge soodustuste saamiseks lingi **Soodustused** kaudu. Lisateavet soodustuste haldamise kohta vt soodustuste [ülevaatest](hr-benefits-management-overview.md).
+Registreeruge soodustuste saamiseks lingi **Soodustused** kaudu. Lisateabe saamiseks hüvitiste haldamise kohta vt [Ülevaade eelistest](hr-benefits-management-overview.md).
 
 Jaotises **Jõudlus** saate valida **Jõudluse töölehed** jõudluse töölehekannete loomiseks, et kasutada neid nii jõudluse eesmärkide kui ka ülevaatuse puhul. Organisatsiooni teiste töövõtjate kohta tagasiside andmiseks saate valida **Saada tagasisidet**. Sõltuvalt teie organisatsiooni sätetest võidakse meile saata adressaadile, saatjale ja ülemustele. Tagasisidet saate saata kõigi organisatsiooni töötajate kohta. Ettevõte ei piira tagasiside saatmist.
 

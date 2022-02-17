@@ -11,17 +11,17 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 26f8820fe707b8a2dff0dcc1a24884ef02e5616f
-ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
+ms.openlocfilehash: a49f35211f30cdb76104cc5be78f5b114320a228
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952492"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062646"
 ---
 # <a name="install-and-set-up-inventory-visibility"></a>Inventory Visibility installimine ja seadistamine
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 
 See teema kirjeldab varude nähtavuse lisandmooduli installimist rakenduse Microsoft Dynamics 365 Supply Chain Management jaoks.
 
@@ -73,7 +73,7 @@ Pärast rakenduse registreerimist ja Azure AD kliendi saladuse lisamist, järgig
 1. Valige Dataverse vasakpoolsel navigeerimisel jaotis **Rakendused** ja veenduge, et **Varude nähtavus** Power Apps on edukalt installitud. Kui jaotist **Rakendused** pole olemas, võtke ühendust varude nähtavuse tootetiimiga siin [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com).
 
 > [!TIP]
-> Soovitame teil liituda varude nähtavuse lisandmooduli kasutajagrupiga, kus saate otsida kasulikke juhendeid, saada meie uusimaid uuendusi ja sisestada mis tahes küsimused, mis võivad olla seotud varude nähtavuse kasutamisega. Liitumiseks saatke laos varude nähtavuse tootemeeskonnale e-kiri inventvisibilitysupp@microsoft.com lisage oma [tarneahela](mailto:inventvisibilitysupp@microsoft.com) halduse keskkonna ID.
+> Soovitame liituda varude nähtavuse lisandmooduli kasutajagrupiga, kust leiate kasulikke juhendeid, hankige meie uusimad värskendused ja postitage kõik küsimused, mis teil varude nähtavuse kasutamise kohta võivad tekkida. Liitumiseks saatke e-kiri varude nähtavuse tootemeeskonnale aadressil [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) ja lisage oma tarneahela halduse keskkonna ID.
 
 > [!IMPORTANT]
 > Kui teil on rohkem kui üks LCS keskkond, looge igale Azure AD keskkonnale erinev rakendus. Kui kasutate sama rakenduse ID-d ja rentniku ID-d varude nähtavuse lisandmooduli installimiseks erinevates keskkondades, ilmneb loa probleem vanemates keskkondades. Kehtib ainult viimane installitud versioon.

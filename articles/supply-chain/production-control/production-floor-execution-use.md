@@ -2,7 +2,7 @@
 title: Kuidas töötajad kasutavad tootmisosakonna käivitusliidest
 description: Selles teemas kirjeldatakse, kuidas kasutada tootmisosakonna käivitusliidest töötaja vaatepunktist.
 author: johanhoffmann
-ms.date: 10/05/2020
+ms.date: 01/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
-ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: e872600222ad23bf3de62c0f2d6cda74942d5b55
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.dyn365.ops.version: 10.0.24
+ms.openlocfilehash: 086d05b4080015f6185a083ca20963539f76619f
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920644"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075015"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Kuidas töötajad kasutavad tootmisosakonna käivitusliidest
 
@@ -138,6 +138,65 @@ Sel juhul saab töötaja määrata aruandluse aluseks oleva kaastoote ja koguse,
 Kui töötaja lõpetab või osaliselt lõpetab töö, saab ta teatada maha kantud koguse, valides töö vahekaardil **Aktiivsed tööd** ja valides seejärel **Maha kantud koguse esitamine**. Seejärel sisestab töötaja dialoogiboksis **Maha kantud koguse esitamine** maha kantud koguse numbriklahvistiku abil. Töötaja valib ka põhjuse (*Puudub*, *Masin*, *Operaator* või *Materjal*).
 
 ![Dialoogiboks Maha kantud koguse esitamine.](media/pfei-report-scrap-dialog.png "Dialoogiboks Maha kantud koguse esitamine")
+
+## <a name="adjust-material-consumption-and-make-material-reservations"></a>Materjali tarbimise reguleerimine ja materjali reserveerimine
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: preview until further notice -->
+
+Töötajad saavad kohandada materjalitarbimist iga tootmistöö jaoks. Seda funktsiooni kasutatakse stsenaariumides, kus tootmistöö poolt tarbitud materjalide tegelik kogus oli kavandatust suurem või väiksem. Seetõttu tuleb seda kohandada, et varude tasemed oleksid ajakohased.
+
+Töötajad saavad teha ka broneeringuid materjalide partii- ja seerianumbrite kohta. Seda funktsiooni kasutatakse stsenaariumides, kus töötaja peab materjali jälgitavuse nõuete täitmiseks käsitsi määrama, millist materjalipartii või seerianumbreid tarbiti.
+
+Töötajad saavad määrata täpsustatava koguse, valides suvandi Materjali **kohandamine**. See nupp on saadaval järgmistes asukohtades.
+
+- Dialoogiboksis **Aruande vanametallist**
+- Dialoogiboksis **Edusammudest** teatamine
+- Paremal oleval tööriistaribal
+
+### <a name="adjust-material-consumption-from-the-report-scrap-and-report-progress-dialog-boxes"></a>Materjalitarbimise reguleerimine dialoogiboksidest Aruande praak ja Edusammudest teatamine
+
+Pärast seda, kui töötaja sisestab aruandearuande edenemise **või** **aruandejäägist** teatamise koguse, **muutub kättesaadavaks nupp Materjali** kohandamine. Kui kasutaja valib selle nupu, kuvatakse dialoogiboks **Materjali** reguleerimine. Selles dialoogiboksis loetletakse üksused, mida plaanitakse tarbida, kui projekti kohta esitatakse hea või mahakantud kogus.
+
+Dialoogiboksi loendis kuvatakse järgmine teave.
+
+- **Toote number** – Tooteetaloni ja tootevariant.
+- **Toote nimi** – toote nimi.
+- **Ettepanek** – hinnanguline materjalikogus, mida tarbitakse edenemise või praagi esitamisel projekti jaoks määratud koguse kohta.
+- **Tarbimine** – tegelik materjalikogus, mida tarbitakse edenemise või praagi esitamisel projekti jaoks määratud koguse kohta.
+- **Reserveeritud** – varudes füüsiliselt reserveeritud materjali kogus.
+- **Ühik** – koosluse üksus.
+
+Dialoogiboksi paremas servas kuvatakse järgmine teave.
+
+- **Toote number** – Tooteetaloni ja tootevariant.
+- **Hinnanguline** – hinnanguline tarbitav kogus.
+- **Alustatud** – tootmistööl alustatud kogus.
+- **Jääkkogus** – hinnangulisest kogusest tarbitav kogus.
+- **Vabastatud kogus** – tarbitud kogus.
+
+Teha saab järgmisi toiminguid.
+
+- Töötaja saab määrata materjali jaoks korrigeeritava koguse, valides suvandi **Kohanda tarbimist**. Pärast koguse kinnitamist uuendatakse veerus Tarbimine **olev** kogus korrigeeritud kogusega.
+- Kui töötaja valib **Materjali täpsustamise**, luuakse tootmise komplekteerimislehe tööleht. See tööleht sisaldab samu kaupu ja koguseid kui materjali **kohandamine**.
+- Kui töötaja korrigeerib kogust dialoogiboksis **Materjali** täpsustamine, **värskendatakse vastava žurnaalirea välja Ettepanek** sama kogusega. Kui töötaja valib dialoogiboksis **Materjali** **reguleerimine valiku Loobu**, kustutatakse komplekteerimisnimekiri.
+- Kui töötaja valib **OK**, siis komplekteerimisloendit ei kustutata. See konteeritakse, kui töö on teatatud dialoogiboksis **Aruande praak** või **Teata edenemisest**.
+- Kui töötaja valib dialoogiboksis **Aruande edenemine** või **Aruande praagist** suvandi **Loobu**, komplekteerimisleht kustutatakse.
+
+### <a name="adjust-material-from-the-toolbar-on-the-right"></a>Materjali reguleerimine paremal olevalt tööriistaribalt
+
+Nuppu **Materjali** reguleerimine saab konfigureerida nii, et see kuvatakse paremal tööriistaribal. (Lisateavet vt teemast [Kujundage tootmispõranda täitmise liides](production-floor-execution-tabs.md).) Töötaja saab poolelioleva tootmistöö jaoks valida **materjali** kohandamine. Sellisel juhul **kuvatakse dialoogiboks Materjali** reguleerimine, kus töötaja saab soovitud kohandusi teha. Dialoogiboksi avamisel luuakse tootmistellimuse jaoks tootmise komplekteerimisloend, mis sisaldab korrigeeritud koguste ridu. Kui töötaja valib **Konteeri kohe**, kinnitatakse täpsustus ja komplekteerimisnimekiri konteeritakse. Kui töötaja valib **Tühista**, kustutatakse komplekteerimisloend ja korrigeerimist ei tehta.
+
+### <a name="reserve-materials"></a>Reservmaterjalid
+
+**Dialoogiboksis Materjali** reguleerimine saab töötaja teha ja reguleerida materjali reserveeringuid, valides suvandi **Reserve material**. Kuvatakse **dialoogiboks Reserveeri materjal**, kus kuvatakse kauba füüsiliselt kättesaadav varu iga talletus- ja jälgimisdimensiooni jaoks.
+
+Kui materjal on täiustatud laoprotsesside jaoks lubatud, kuvatakse loendis ainult materjali tootmissisendi asukoha füüsiliselt kättesaadav varu. Tootmise sisestuskoht määratletakse ressursil, kus tootmistöö on planeeritud. Kui kauba number on partii- või seerianumbriga kontrollitav, kuvatakse füüsiliselt saadaolevate partii- ja seerianumbrite täielik loend. Reserveeritava koguse määramiseks saab töötaja valida **Reserveeri materjali**. Olemasoleva broneeringu eemaldamiseks saab töötaja valida **Eemalda broneering**.
+
+Lisateavet tootmissisendi asukoha seadistamise kohta leiate järgmisest ajaveebi postitusest: [Tootmissisendi asukoha seadistamine](/archive/blogs/axmfg/deliver-picked-materials-to-the-locations-where-the-materials-are-consumed-by-operations-in-production).
+
+> [!NOTE]
+> Broneeringud, mille töötaja teeb **Reservmaterjal** dialoogiboks jääb alles, kui töötaja valib **Tühista** aastal **Teatage edusammudest** või **Teata sissekandest** Dialoogikast.
 
 ## <a name="completing-a-job-and-starting-a-new-job"></a>Töö lõpetamine ja uue töö alustamine
 

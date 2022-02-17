@@ -2,7 +2,7 @@
 title: Hüvitisruudustike häälestamine
 description: Tasuruudustikke kasutatakse põhipalgaplaanide palgastruktuuri määratlemiseks ja säilitamiseks.
 author: twheeloc
-ms.date: 08/25/2021
+ms.date: 01/03/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,14 +13,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9e6aabf5c05b2a7a5d2b37b43c9a7e93ea6e9bbb
-ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
-ms.translationtype: HT
+ms.openlocfilehash: 51b98320eac539e49787d352f32683efadc11f41
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7483812"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071706"
 ---
 # <a name="set-up-compensation-grids"></a>Hüvitisruudustike häälestamine
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -67,28 +70,16 @@ Tasuruudustikke kasutatakse põhipalgaplaanide palgastruktuuri määratlemiseks 
 7. Valige suvand väljal **Korrigeerimise tüüp**.
 8. Sisestage arv väljale **Korrigeerimissumma**.
 9. Otsige loendist ja valige soovitud kirje.
-10. Otsige loendist ja valige soovitud kirje.
-11. Otsige loendist ja valige soovitud kirje.
-12. Otsige loendist ja valige soovitud kirje.
-13. Klõpsake käsku **Rakenda ruudustikule**.
-14. Otsige loendist ja valige soovitud kirje.
-15. Otsige loendist ja valige soovitud kirje.
-16. Otsige loendist ja valige soovitud kirje.
-17. Klõpsake käsku **Rakenda ruudustikule**.
-18. Otsige loendist ja valige soovitud kirje.
-19. Otsige loendist ja valige soovitud kirje.
-20. Klõpsake käsku **Rakenda ruudustikule**.
-21. Otsige loendist ja valige soovitud kirje.
-22. Klõpsake käsku Rakenda ruudustikule.
+10. Klõpsake käsku **Rakenda ruudustikule**.
     * Nüüd kasutame hulgimuutmise funktsiooni, et kohandada iga taseme miinimum- ja maksimumpunkti. Selles näites kasutatakse erinevust 50%, seega kohandatakse miinimumpunkti –20% ja maksimumpunkti +20% võrra.  
-23. Sisestage arv väljale **Korrigeerimissumma**.
-24. Valige või sisestage väärtus väljal **Viitepunkt**.
-25. Märkige või tühjendage loendis kõik read.
-26. Klõpsake käsku **Rakenda ruudustikule**.
-27. Sisestage arv väljale **Korrigeerimissumma**.
-28. Valige või sisestage väärtus väljal **Viitepunkt**.
-29. Märkige või tühjendage loendis kõik read.
-30. Klõpsake käsku **Rakenda ruudustikule**.
+11. Sisestage arv väljale **Korrigeerimissumma**.
+12. Valige või sisestage väärtus väljal **Viitepunkt**.
+13. Märkige või tühjendage loendis kõik read.
+14. Klõpsake käsku **Rakenda ruudustikule**.
+15. Sisestage arv väljale **Korrigeerimissumma**.
+16. Valige või sisestage väärtus väljal **Viitepunkt**.
+17. Märkige või tühjendage loendis kõik read.
+18. Klõpsake käsku **Rakenda ruudustikule**.
 
 
 

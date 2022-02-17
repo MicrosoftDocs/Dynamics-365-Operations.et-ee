@@ -1,6 +1,6 @@
 ---
-title: Fiskaalregistreerimisteenuse integreerimise näidis Tšehhi Vabariigi jaoks
-description: Selles teemas antakse ülevaade Tšehhi Vabariigi fiskaalintegratsiooni näidistest Microsoft Dynamics 365 Commerce.
+title: Tšehhi Vabariigi maksuregistreerimisteenuse integratsiooni näidis
+description: See teema annab ülevaate Tšehhi Vabariigi eelarveintegratsiooni valimist Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
 ms.date: 12/20/2021
 ms.topic: article
@@ -10,291 +10,291 @@ ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-4-1
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 0a04ebb7685ff0b72207d9268b4aea980679572e
-ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
+ms.openlocfilehash: 990de96f57f4a22b4d58da5f970b1b96f5fc21f5
+ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7944985"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "8077086"
 ---
-# <a name="fiscal-registration-service-integration-sample-for-the-czech-republic"></a>Fiskaalregistreerimisteenuse integreerimise näidis Tšehhi Vabariigi jaoks
+# <a name="fiscal-registration-service-integration-sample-for-the-czech-republic"></a>Tšehhi Vabariigi maksuregistreerimisteenuse integratsiooni näidis
 
 [!include[banner](../includes/banner.md)]
 
-Selles teemas antakse ülevaade Tšehhi Vabariigi fiskaalintegratsiooni näidistest Microsoft Dynamics 365 Commerce.
+See teema annab ülevaate Tšehhi Vabariigi eelarveintegratsiooni valimist Microsoft Dynamics 365 Commerce.
 
-Tšehhi Vabariigi kassaraamatute kohalike fiskaalnõuete täitmiseks hõlmab Tšehhi Vabariigi funktsioon kassa (POS) näidisintegratsiooni välise Dynamics 365 Commerce fiskaalregistreerimisteenusega. Näidis laiendab [fiskaalintegratsiooni funktsioone](fiscal-integration-for-retail-channel.md). See põhineb [EFSTA](https://efsta.org/) [EFR-i (elektroonilise finantsregistri)](https://efsta.org/sicherheitsloesungen/) lahendusel ja võimaldab HTTPS-protokolli kaudu sidet EFR-teenusega. EFR-i teenus tagab müügi elektroonilise registreerimise (EET - Elektro müügitellimuse tõenduse trtulub), st müügiandmete elektroonilise edastamise maksuameti fiskaalveebiteenusele.
+Tšehhi Vabariigi Dynamics 365 Commerce kassaaparaatide kohalike maksunõuete täitmiseks hõlmab Tšehhi Vabariigi funktsionaalsus müügikoha näidisi integreerimist välise maksuregistreerimisteenusega. Valim laiendab fiskaalintegratsiooni [funktsiooni](fiscal-integration-for-retail-channel.md). See põhineb EFSTA [EFR (Electronic Fiscal Register)](https://efsta.org/sicherheitsloesungen/) lahendusel [ja](https://efsta.org/) võimaldab EFR-teenusega suhelda HTTPS-protokolli kaudu. EFR-teenus tagab müügi elektroonilise registreerimise (EET - Elektronická evidence tržeb), st müügiandmete veebipõhise edastamise maksuhaldurite maksupõhisele veebiteenusele.
 
-EFR-teenus peab olema majutatud kas Commerce Hardware'i jaamas või eraldi masinas, mida saab ühendada riistvarajaamaga. Näidis esitatakse lähtekoodina ja on osa jaemüügi tarkvara arenduskomplektist (SDK).
+EFR-teenust tuleks majutada kas Commerce Hardware jaamas või eraldi masinas, millega saab riistvarajaamast ühendada. Proov on esitatud lähtekoodi kujul ja see on osa jaemüügi tarkvaraarenduskomplektist (SDK).
 
-Microsoft ei vabasta EFSTA-st riistvara, tarkvara ega dokumentatsiooni. Lisateabeks selle kohta, kuidas saada EFR-lahendust ja seda kasutada, võtke ühendust [EFSTA-ga](https://efsta.org/kontakt/).
+Microsoft ei väljasta EFSTA-st riist-, tarkvara ega dokumente. EFR-lahenduse saamiseks ja selle käitamiseks võtke ühendust EFSTA-ga [...](https://efsta.org/kontakt/).
 
 ## <a name="scenarios"></a>Stsenaariumid
 
-Järgmisi stsenaariume hõlmab Tšehhi Vabariiki fiskaalregistreerimise teenuse integreerimisteenuse näidis.
+Tšehhi Vabariigi maksuregistreerimisteenuse integratsioonivalim hõlmab järgmisi stsenaariume.
 
-- Sularahakannete registreerimine fiskaalregistreerimise teenuses.
+- Sularahakannete registreerimine maksuregistreerimisteenuses.
 
-    - Saada üksikasjalikud kandeandmed fiskaalregistreerimise teenusesse. Need andmed sisaldavad müügirea teavet ning allahindluste, maksete ja maksude teavet. Fiskaalregistreerimise teenus saadab seejärel andmed maksuameti veebiteenusele ja saab sellelt kinnituse, mis sisaldab kande fiskaal-ID koodi.
-    - Fikseerige fiskaalregistreerimise teenuse vastus. Vastus hõlmab rahandusandmeid, nt fiskaal-ID-koodi ja kande turvakoodi jne.
-    - Printige kviitungil registreeritud kande finantsandmed.
+    - Saatke üksikasjalikud kandeandmed finantsregistreerimisteenusele. Need andmed sisaldavad müügirea teavet ning teavet allahindluste, maksete ja maksude kohta. Maksuregistreerimisteenus saadab andmed edasi maksuhalduri veebiteenusele ja saab sellelt kinnituse, mis sisaldab tehingu finantskoodi.
+    - Jäädvustage vastus fiskaalregistreerimisteenusest. See vastus hõlmab finantsandmeid, nagu finants-ID-kood ja tehingu turvakood jne.
+    - Saate printida kviitungil registreeritud kande finantsandmed.
 
-- Kinkekaarditoimingute ja kliendi deposiitide registreerimine fiskaalregistreerimise teenuses.
+- Kinkekaardi toimingute ja kliendihoiuste registreerimine maksuregistreerimisteenuses.
 
-    - Väljastage kinkekaardile raha või lisage see.
+    - Väljastage või lisage kinkekaardile raha.
     - Registreerige kliendikonto deposiit.
-    - Looge klienditellimus ja registreerige tellimusele deposiit.
+    - Looge klienditellimus ja registreerige tellimuse tagatisraha.
     - Redigeerige klienditellimust ja alistage tellimuse deposiit.
-    - Tühistage klienditellimus ja tagastage tellimuse deposiit.
+    - Tühistage kliendi tellimus ja tagastage tellimuse tagatisraha.
 
-- Tõrkekäsitlus, nt järgmised valikud.
+- Tõrkekäsitlus ( nt järgmised suvandid).
 
-    - Kui on võimalik uuesti teha fiskaalregistreerimist, nt kui fiskaalregistreerimisteenus ei ole saadaval, ei ole valmis või ei vasta sellele, saate seda uuesti teha.
-    - Finantsregistreerimise edasilükkamine.
-    - Jätte fiskaalregistreerimise vahele või märgite kande registreeritud koodina ja kaasate teabekoodid, et hõivata tõrke põhjus ja lisateave.
-    - Kontrollige fiskaalregistreerimisteenuse saadavust enne uue müügikande avamist või müügikande sulgemist.
+    - Kui eelarveregistreerimine on võimalik uuesti proovida nt kui fiskaalregistreerimisteenus pole saadaval, pole valmis või ei vasta.
+    - Lükake finantsregistreerimine edasi.
+    - Jätke finantsregistreerimine vahele või märkige kanne registreerituks ning lisage tõrke põhjuse ja lisateabe jäädvustamiseks infokoodid.
+    - Kontrollige finantsregistreerimisteenuse kättesaadavust enne uue müügikande avamist või müügikande lõpuleviimist.
 
 ### <a name="gift-cards"></a>Kinkekaardid
 
-Fiskaalregistreerimisteenuse integreerimise näidis rakendab järgmised kinkekaartidega seotud reeglid.
+Finantsregistreerimisteenuse integreerimise näidis rakendab järgmisi kinkekaartidega seotud reegleid.
 
-- Müügiread, mis on seotud kinkekaardi väljastamise või kinkekaardi toimingutega müügikandes, märgitakse spetsiaalse atribuudiga, kui kanne on *fiskaalregistreerimise* *teenuses* registreeritud.
-- Kinkekaardiga maksmine on tavamakse ja märgitud spetsiaalse atribuudiga, kui kanne on fiskaalregistreerimise teenuses registreeritud.
+- Müügiread, mis on seotud *kinkekaardiGa* Väljastamine või *Lisa kinkekaardi* toimingutesse müügikandes, märgitakse eriatribuudiga, kui kanne on registreeritud finantsregistreerimisteenuses.
+- Kinkekaardiga makset loetakse regulaarseks makseks ja märgitakse spetsiaalse atribuudiga, kui tehing on registreeritud maksukohustuslasena registreerimise teenuses.
 
-### <a name="customer-account-deposits-and-customer-order-deposits"></a>Kliendikonto deposiidid ja kliendi tellimuse deposiidid
+### <a name="customer-account-deposits-and-customer-order-deposits"></a>Kliendikonto hoiused ja klienditellimuse hoiused
 
-Fiskaalregistreerimisteenuse integreerimise näidis juurutab järgmised reeglid, mis on seotud kliendikonto deposiitide ja klienditellimuse deposiitdega.
+Finantsregistreerimisteenuse integreerimise näidis rakendab järgmisi reegleid, mis on seotud kliendikonto hoiuste ja klienditellimuse hoiustega.
 
-- Kliendikonto deposiidi või kliendi tellimuse deposiidiga seotud kanne registreeritakse fiskaalregistreerimisteenuses ühe rea kandena ja märgitakse eriatribuudiga. Deposiidi KM-grupp on sellel real määratud.
-- Kliendi tellimuse loomisel, s.t kliendi tellimusena, mis sisaldab tooteid, mida klient saab kauplusest välja viia, ning tooteid, mida klient saab peale võtta või lähetada, sisaldab fiskaalregistreerimisteenuses registreeritud kanne ka teostatud toodete ridu ja tellimuse deposiidi rida.
-- Makse kliendi kontolt loetakse tavaliseks makseks ja märgitakse spetsiaalse atribuudiga, kui kanne on fiskaalregistreerimise teenuses registreeritud.
-- Kliendi tellimuse deposiidisummat, mida rakendatakse kliendi tellimuse peale võtta toimingule, peetakse tavaliseks makseks ja märgitakse spetsiaalse atribuudiga, kui kanne *on fiskaalregistreerimisteenuses* registreeritud.
+- Kliendikonto deposiidi või klienditellimuse deposiidiga seotud kanne registreeritakse finantsregistreerimisteenuses ühe reakandena ja on tähistatud eriatribuudiga. Sellel real on määratud hoiuse KM grupp.
+- Kui luuakse hübriidne klienditellimus, st klienditellimus, mis sisaldab tooteid, mida klient saab kauplusest läbi viia, samuti tooted, mis võetakse peale või saadetakse hiljem, sisaldab maksuregistreerimisteenuses registreeritud kanne teostatud toodete ridu ning tellimuse deposiidi rida.
+- Kliendikonto makset loetakse tavaliseks makseks ja see on märgitud spetsiaalse atribuudiga, kui tehing on registreeritud maksuregistreerimisteenuses.
+- Klienditellimuse deposiidi summat, mis rakendub klienditellimuse *pealevõtmistoimingule*, loetakse tavaliseks makseks ja märgitakse eriatribuudiga, kui kanne on registreeritud finantsregistreerimisteenuses.
 
-### <a name="offline-registration"></a>Võrguühenduseta registreerimine
+### <a name="offline-registration"></a>Ühenduseta registreerimine
 
-Kui fiskaalregistreerimise teenus ei suuda kandeandmeid edastada maksuameti fiskaalveebiteenusele (nt vastuse ajalõpu tõttu) ja saada kinnitust veebiteenuselt (st kande fiskaal-ID kood), loob see kandele kohaliku allkirja ning kaasab selle ja vastuses spetsiaalse tõrkekoodi. Fiskaalregistreerimisteenus taassedab kanded algses järjestuses võrguühenduse taastamisel.
+Kui maksuregistreerimisteenus ei edasta tehinguandmeid maksuhalduri fiskaalsele veebiteenusele (näiteks reageerimisaja tõttu) ja ei saa veebiteenuselt kinnitust (st tehingu finants-ID-koodi), loob see tehingule kohaliku allkirja ja lisab selle ning vastusesse spetsiaalse veakoodi. Maksuregistreerimisteenus saadab kanded algses järjekorras uuesti taustal kohe, kui võrguühendus on taastatud.
 
-### <a name="limitations-of-the-sample"></a>Näidiste piirangud
+### <a name="limitations-of-the-sample"></a>Proovi piirangud
 
-Fiskaalregistreerimisteenus toetab ainult stsenaariume, kus hind sisaldab käibemaksu. Seetõttu peab nii kaupluste kui ka klientide puhul valik Hind **sisaldama** käibemaksu **väärtuseks** olema seatud Jah.
+Maksuregistreerimisteenus toetab ainult stsenaariume, kus hinnas sisaldub käibemaks. Seetõttu **peab hinnas sisaldatav käibemaksusuvand** olema seatud **nii kaupluste kui ka klientide jaoks jah**.
 
-## <a name="set-up-commerce-for-the-czech-republic"></a>Häälestage Kaubandus Tšehhi Vabariigile.
+## <a name="set-up-commerce-for-the-czech-republic"></a>Tšehhi Vabariigi kaubanduse häälestamine
 
-See jaotis kirjeldab Kaubandussätteid, mis on Tšehhi Vabariigile omased ja soovitatavad. Lisateavet vt [Commerce'i](../index.md) kodulehelt.
+Selles jaotises kirjeldatakse Tšehhi Vabariigile omast ja soovitatavat kaubandusseadet. Lisateavet leiate teemast [Commerce'i avaleht](../index.md).
 
 Tšehhi-põhise funktsiooni kasutamiseks peate määrama järgmised sätted.
 
-- Juriidilise isiku esmasel aadressil seadke välja **Riik/regioon** väärtuseks **CZECH** (Tšehhi Vabariik).
-- Määrake iga Tšehhi Vabariigis paikneva kaupluse kassa funktsiooniprofiilis ISO-koodi välja väärtuseks **CZ** **·** (Tšehhi Vabariik).
+- Määrake **juriidilise isiku esmasel aadressil väli Riik/regioon** aadressiks **CZE** (Tšehhi Vabariik).
+- Seadke **iga Tšehhi Vabariigis asuva kaupluse kassafunktsioonide profiilis ISO-koodi** väli **CZ** (Tšehhi Vabariik).
 
-Samuti peate määrama Tšehhi Vabariigi jaoks järgmised sätted. Pidage meeles, et pärast seadistuse lõpule viimist peate käivitama vastavad jaotustööd.
+Samuti peate Tšehhi Vabariigi jaoks määrama järgmised sätted. Pange tähele, et pärast seadistuse lõpuleviimist peate käivitama asjakohased jaotustööd.
 
-### <a name="set-up-vat-per-czech-republic-requirements"></a>KM-i seadistamine Tšehhi Vabariigi nõuete kohta
+### <a name="set-up-vat-per-czech-republic-requirements"></a>Käibemaksu häälestamine Tšehhi Vabariigi nõuete kohta
 
 
-Peate looma käibemaksukoodid, käibemaksugrupid ja kauba käibemaksugrupid. Samuti peate häälestama toodete ja teenuste käibemaksuteabe. Lisateavet käibemaksu funktsioonide seadistamis- ja kasutus kohta leiate käibemaksu [ülevaatest](../../finance/general-ledger/indirect-taxes-overview.md).
+Peate looma käibemaksukoodid, käibemaksugrupid ja kauba käibemaksugrupid. Samuti peate seadistama toodete ja teenuste käibemaksuteabe. Lisateavet käibemaksufunktsioonide seadistamise ja kasutamise kohta leiate teemast [Käibemaksu ülevaade](../../finance/general-ledger/indirect-taxes-overview.md).
 
 ### <a name="set-up-stores"></a>Kaupluste häälestamine
 
-Lehel **Kõik** kauplused värskendage kaupluse üksikasju. Konkreetselt seadke järgmised parameetrid.
+Värskendage **lehel Kõik kauplused** poe üksikasju. Täpsemalt määrake järgmised parameetrid.
 
-- Määrake **väljal** Käibemaksugrupp käibemaksugrupp, mida tuleks kasutada vaikekliendile müügi puhul.
-- Seadke valiku **Hinnad sisaldavad käibemaksu** väärtuseks **Jah**.
-- Seadke **välja** Nimi väärtuseks ettevõtte nimi. See muudatus aitab tagada, et ettevõtte nimi ilmub müügikviitungil. Teise võimalusena saate ettevõtte nime lisada müügikviitungi kavandile vabas vormis tekstina.
-- Seadistage **maksu ID-koodi (TIN)** väli ettevõtte ID-koodile. See muudatus aitab tagada, et ettevõtte ID-number ilmub müügikviitungil. Teise võimalusena saate vabas vormis tekstina lisada müügikviitungi kavandile ettevõtte ID-koodi.
+- Määrake väljal **Käibemaksugrupp** käibemaksugrupp, mida tuleks kasutada vaikekliendile müügiks.
+- Määrake **suvandi Hinnad sisaldavad käibemaksu** valikuks **Jah**.
+- Määrake **väli Nimi** ettevõtte nimeks. See muudatus aitab tagada, et ettevõtte nimi kuvatakse müügikviitungil. Teise võimalusena saate ettevõtte nime lisada müügikviitungi paigutusele vabas vormis tekstina.
+- **Määrake välja Maksu ID-number (TIN)** ettevõtte ID-numbriks. See muudatus aitab tagada, et ettevõtte ID-number kuvatakse müügikviitungil. Teise võimalusena saate ettevõtte ID-numbri lisada müügikviitungi paigutusele vabas vormis tekstina.
 
-### <a name="set-up-functionality-profiles"></a>Funktsiooniprofiilide seadistamine
+### <a name="set-up-functionality-profiles"></a>Funktsiooniprofiilide häälestamine
 
-Kassa funktsiooniprofiilide seadistamine.
+Kassafunktsioonide profiilide häälestamine.
 
-- Kiirkaardil Kviitungi nummerdamine seadistage kviitungite nummerdamine, luues või värskendades kirjeid **kandetüüpide** **·** **Müük**, Müügitellimus ja **Tagastatud** sissetulek jaoks.
+- Seadistage **kiirkaardil Tarne nummerdamine** kviitungi nummerdamine, luues või värskendades kirjeid müügi **-,** müügitellimuse **- ja** tagastustarne **kandetüüpide jaoks**.
 
-### <a name="set-up-registration-numbers"></a>Saate häälestada registreerimisnumbreid.
+### <a name="set-up-registration-numbers"></a>Registreerimisnumbrite häälestamine
 
-1. Minge organisatsiooni **halduse \> globaalse aadressiraamatu \> registreerimistüüpide registreerimise \>** tüüpidele. Saate luua uue registreerimistüübi. Määrake **riigi/regiooni väli** **CZECH-le** (Tšehhi Vabariik) ja piirage see organisatsiooniga.
-2. Minge organisatsiooni **halduse \> globaalse aadressiraamatu \> registreerimistüüpide registreerimise \>** kategooriatesse. Looge uus registreerimiskategooria. Valige eelmisest juhist registreerimise tüüp ja määrake **registreerimiskategooria** **väärtuseks Ettevõttesisese** ID.
-3. Avage **Organisatsiooni haldamine \> Organisatsioonid \> Tootmisüksused**. Valige igale Tšehhi Vabariigis paiknevale kauplusele kauplusega seotud ühik. Laiendage **aadressi** kiirkaardil **ripploendit Veel** valikuid ja valige suvand **Täpsem**. 
-4. Lehel **Aadresside haldamine** avatud peate määrama järgmise sätte.
+1. Minge organisatsiooni **administreerimise \> globaalse aadressiraamatu \> registreerimistüüpide \> registritüüpide juurde**. Looge uus registreerimistüüp. **Määrake väli Riik/regioon** aadressile **CZE** (Tšehhi Vabariik) ja piirake seda organisatsiooniga.
+2. Minge organisatsiooni **administreerimise \> globaalse aadressiraamatu \> registreerimistüüpide \> registrikategooriatesse**. Looge uus registreerimiskategooria. Valige eelmisest etapist registreerimistüüp ja seadke **kategooria Registreerimine ärieelduse ID-ks** **.**
+3. Avage **Organisatsiooni haldamine \> Organisatsioonid \> Tootmisüksused**. Valige iga Tšehhi Vabariigis asuva kaupluse puhul kauplusega seotud üksus. Laiendage **kiirkaardil Aadress** ripploendit **Veel suvandeid** ja valige **Täpsem**. 
+4. Avamisel **Aadresside haldamine** lehel peate määrama järgmise sätte.
 
-    - Määrake aadressi **kiirkaardil** välja **Riik/regioon** väärtuseks **KUVA KUVA**.
-    - Looge **registreerimis ID** kiirkaardil uus kirje. Valige varem loodud registreerimistüüp ja määrake registreerimisnumber.
+    - peal **Aadress** FastTab määras **Riik/regioon** väljale **CZE**.
+    - peal **Registreerimistunnus** FastTab loob uue kirje. Valige varem loodud registreerimistüüp ja määrake registreerimisnumber.
 
-### <a name="configure-custom-fields-so-that-they-can-be-used-in-receipt-formats-for-sales-receipts"></a>Kohandatud väljade konfigureerimine, et neid saaks kasutada müügikviitungite kviitungi vormingutes
+### <a name="configure-custom-fields-so-that-they-can-be-used-in-receipt-formats-for-sales-receipts"></a>Kohandatud väljade konfigureerimine nii, et neid saaks kasutada müügi sissetulekute vormingutes
 
-Saate konfigureerida keele teksti ja kohandatud väljad, mida kassa kviitungi vormingutes kasutatakse. Kviitungi häälestuse loonud kasutaja vaikeettevõte peaks olema sama juriidiline isik, kus keele teksti häälestus on loodud. Teise võimalusena tuleks samad keeletekstid luua nii kasutaja vaikeettevõttes kui ka kaupluse juriidilises isikus, mille jaoks häälestus on loodud.
+Saate konfigureerida keeleteksti ja kohandatud väljad, mida kasutatakse kassa kviitungi vormingutes. Kviitungi häälestuse loonud kasutaja vaikeettevõte peaks olema sama juriidiline isik, kus keeleteksti häälestus luuakse. Teise võimalusena tuleks luua samad keeletekstid nii kasutaja vaikeettevõttes kui ka selle poe juriidilises isikus, kellele häälestus on loodud.
 
-Lisage **keele teksti** lehel kviitungi kavandite kohandatud väljade siltidele järgmised kirjed. Pange **tähele, et tabelis kuvatavad keele ID, teksti ID ja teksti väärtused** **on vaid** **näited**. Saate neid vastavalt oma nõuetele muuta. Teksi ID väärtused peavad siiski olema kordumatud ning võrduma või **olema** rohkem kui 900001.
+**Lisage lehel Keeletekst** kviitungipaigutuste kohandatud väljade siltide jaoks järgmised kirjed. Pange tähele, et **tabelis kuvatavad keele ID**, **teksti ID** ja **tekstiväärtused** on vaid näited. Saate neid vastavalt oma vajadustele muuta. Kasutatavad teksti ID **väärtused peavad siiski** olema kordumatud ja need peavad olema võrdsed või suuremad kui 900001.
 
-Lisage tabelist keeleteksti **müügikoha** jaotisse **järgmised** müügikoha sildid:
+Lisage järgmised POS-sildid **POS** osa **Keeletekst** tabelist:
 
 | Keele ID | Teksti ID | Tekst                   |
 |-------------|---------|------------------------|
-| en-US       | 900001  | ID prov selle provania id/poklad id |
-| en-US       | 900002  | BKP                    |
-| en-US       | 900003  | PKP                    |
-| en-US       | 900004  | FIK                    |
-| en-US       | 900005  | Teave                   |
-| en-US       | 900006  | Järjekorranumber        |
+| EN-US       | 900001  | ID provozovny/pokladny |
+| EN-US       | 900002  | BKP                    |
+| EN-US       | 900003  | PKP                    |
+| EN-US       | 900004  | FIK                    |
+| EN-US       | 900005  | Teave                   |
+| EN-US       | 900006  | Järjekorranumber        |
 
-Lisage **kviitungi** kavandite kohandatud väljade jaoks kohandatud väljadele järgmised kirjed lehel Kohandatud väljad. Pange **tähele, et pealdise teksti ID väärtused peavad vastama teksti ID väärtustele, mille** **määrate** **keele** tekstilehel:
+**Lisage lehel Kohandatud väljad** kviitungipaigutuste kohandatud väljadele järgmised kirjed. Pange tähele, et **Tiitrite teksti ID** väärtused peavad vastama **Teksti ID** väärtused, mille määrasite **Keeletekst** leht:
 
 | Nimi                 | Tüüp    | Pealdise teksti ID |
 |----------------------|---------|-----------------|
 | TLT                  | Sissetulek | 900001          |
 | SEC                  | Sissetulek | 900002          |
-| MÄRK                 | Sissetulek | 900003          |
-| EELARVE               | Sissetulek | 900004          |
+| ALL                 | Sissetulek | 900003          |
+| FISKALNE               | Sissetulek | 900004          |
 | INFO                 | Sissetulek | 900005          |
-| PIDEV NUMMERDAMINE     | Sissetulek | 900006          |
+| PIDEV NUMBER     | Sissetulek | 900006          |
 
 > [!NOTE]
-> On oluline määrata õiged kohandatud väljanimed, nagu on loetletud eelmises tabelis. Vale kohandatud välja nimi põhjustab sissetulekutes puuduvate andmete.
+> On oluline määrata õiged kohandatud väljanimed, nagu on loetletud eelmises tabelis. Vale kohandatud välja nimi põhjustab kviitungitel puuduvaid andmeid.
 
-### <a name="configure-receipt-formats"></a>Kviitungi vormingute konfigureerimine
+### <a name="configure-receipt-formats"></a>Sissetulekuvormingute konfigureerimine
 
-Muutke iga nõutava kviitungi vormingu puhul välja **Prindikäitumine** väärtus väärtuseks Alati **prindi**.
+Iga nõutava kviitungivormingu puhul muutke väärtust **Prindi käitumine** väljale **Printige alati**.
 
-Lisage kviitungi vormingu kujundajasse järgmised kohandatud väljad asjakohastele kviitungi jaotistele. Pange tähele, et väljanimed vastavad eelmises jaotises määratletud keeletekstidele.
+Lisage kviitungivormingu kujundaja vastavatele kviitungi jaotistele järgmised kohandatud väljad. Pange tähele, et väljanimed vastavad eelmises jaotises määratletud keeletekstidele.
 
-- **Päis:** lisage järgmised väljad.
+- **Päis:** Lisage järgmised väljad.
 
-    - **Kaupluse nimi** ja **maksu** ID-kood: neid välju kasutatakse ettevõtte nime ja ID-numbri printimiseks sissetulekutele. Soovi korral saate kavandile lisada ka ettevõtte nime ja ID-numbri vabas vormis tekstina.
-    - **Kaupluse** aadress, **kuupäev**, **kellaaeg 24** h, **kviitungi** number ja registri **number**.
-    - **Järjekorranumber** : see väli tuvastab sularahakande numbri fiskaalregistreerimise teenuses.
+    - **Kaupluse nimi** ja **Maksukohustuslasena registreerimise number** : neid välju kasutatakse kviitungitele ettevõtte nime ja isikukoodi printimiseks. Teise võimalusena saate küljendusele lisada vabas vormis tekstina ettevõtte nime ja isikukoodi.
+    - **Kaupluse aadress**, **·**, **24h**, **number**, ja **Registri number**.
+    - **Järjestuse number** : see väli identifitseerib sularahatehingu numbri maksuregistreerimise teenuses.
 
-- **Read:** lisage järgmised väljad.
+- **read:** Lisage järgmised väljad.
 
     - **Kauba nimetus**
     - **Kogus**
-    - **Hind kokku maksudega**
+    - **Hind kokku koos käibemaksuga**
 
-- **Jalus**: lisage järgmised väljad.
+- **Jalus:** Lisage järgmised väljad.
 
-    - Makseväljad, nii et prinditakse iga makseviisi maksesummad. Lisage näiteks maksevahendi **nimi** ja **maksevahendi summa** väljad kavandi ühele reale.
-    - **ID provfsovekvivalendi/poklad nii: sellel väljal prinditakse** ettevõtte valduste identifikaatorid ja kassaregister.
-    - **BKP:** see väli prindib maksukohuslase turvakoodi, mille on määranud fiskaalregistreerimise teenus.
-    - **FIK: see väli prindib maksuameti veebiteenuse määratud kande fiskaal-ID koodi eduka** võrgus registreerimise korral.
-    - **PKP: see väli prindib maksukohuslase allkirjakoodi, mille** fiskaalregistreerimise teenus võrguühenduseta registreerimise korral loonud on.
-    - **Teave:** see väli prindib fiskaalregistreerimise teenusest lisateavet.
+    - Makseväljad, et prinditaks iga makseviisi maksesummad. Näiteks lisage **Pakkumise nimi** ja **Pakkumise summa** väljad paigutuse ühele reale.
+    - **ID provozovny/pokladny** : sellel väljal trükitakse äriruumi ja kassaaparaadi tunnused.
+    - **BKP** : sellel väljal prinditakse maksumaksja turvakood, mille on määranud maksuregistreerimisteenus.
+    - **FIK** : sellel väljal prinditakse tehingu fiskaalne kood, mille maksuhalduri veebiteenus eduka veebipõhise registreerimise korral määrab.
+    - **PKP** : sellel väljal prinditakse maksumaksja allkirjakood, mis võrguühenduseta registreerimise korral fiskaalse registreerimisteenuse poolt genereeritakse.
+    - **Info** : sellel väljal prinditakse maksuregistriteenuse lisateave.
 
-Lisateavet kviitungi vormingutega töötades vt Kviitungi [vormingute häälestamine ja](../receipt-templates-printing.md) kujundamine.
+Kviitungivormingutega töötamise kohta lisateabe saamiseks vt [Kviitungivormingute seadistamine ja kujundamine](../receipt-templates-printing.md).
 
-## <a name="set-up-fiscal-integration-for-the-czech-republic"></a>SeadistaGe Tšehhi Vabariigile fiskaalintegratsioon
+## <a name="set-up-fiscal-integration-for-the-czech-republic"></a>Seadke sisse Tšehhi Vabariigi fiskaalintegratsioon
 
-Tšehhi Vabariigi fiskaalregistreerimisteenuse integratsiooni näidis põhineb fiskaalintegratsiooni funktsioonil ja on osa [Retail](fiscal-integration-for-retail-channel.md) SDK-st. Näidis asub lahenduste hoidla **\\ kaustas FiscalIntegration \\ Efr (nt vabastamisnäide/9.33).**[Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/)[...](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/Efr) Näidis [koosneb fiskaaldokumendi pakkujast, mis on Commerce Runtime'i () laiendus, ja fiskaalühendusest, mis](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices)CRT on Commerce Hardware Stationi laiendus. Lisateavet Retail SDK kasutamise kohta vt [Retail SDK arhitektuurist](../dev-itpro/retail-sdk/retail-sdk-overview.md) ja [iseseisva pakendamise SDK koostamisvõimaluste häälestamisest](../dev-itpro/build-pipeline.md).
+Tšehhi Vabariigi maksuregistriteenuse integreerimise näidis põhineb [fiskaalintegratsiooni funktsionaalsus](fiscal-integration-for-retail-channel.md) ja on osa jaemüügi SDK-st. Näidis asub aadressil **src\\ Fiskaalintegratsioon\\ Efr** kaust [Dynamics 365 Commerce Lahendused](https://github.com/microsoft/Dynamics365Commerce.Solutions/) hoidla (näiteks [väljalaskes olev näidis/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/Efr)). [Näidis koosneb](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) fiskaaldokumendi pakkujast, mis on Commerce'i käitusaja CRT () laiendus, ja fiskaalse konnektori, mis on Commerce'i riistvarajaama laiendus. Lisateavet jaemüügi SDK kasutamise kohta leiate teemast [Retail SDK arhitektuur](../dev-itpro/retail-sdk/retail-sdk-overview.md) ja [Sõltumatu pakendiga SDK](../dev-itpro/build-pipeline.md) ehitustorustiku seadistamine.
 
 > [!WARNING]
-> Uue sõltumatu pakendi- ja laiendusmudeli piirangute tõttu ei saa seda praegu selle [fiskaalintegratsiooni](../dev-itpro/build-pipeline.md) näidise jaoks kasutada. Retail SDK eelmist versiooni peate kasutama arendaja virtuaalmasinas (VM) Microsoft Dynamics elutsükli teenustes (LCS). Lisateavet vt Tšehhi Vabariigi [(pärand) fiskaalintegratsiooni näidise juurutuse](emea-cze-fi-sample-sdk.md) juhised.
+> Uue sõltumatu pakendi- [ja laiendusmudeli](../dev-itpro/build-pipeline.md) piirangute tõttu ei saa seda praegu selle fiskaalse integratsiooni valimi jaoks kasutada. Peate kasutama Retail SDK eelmist versiooni arendaja virtuaalses masinas (VM) elutsükli teenustes Microsoft Dynamics (LCS). Lisateabe saamiseks vt [Tšehhi Vabariigi eelarveintegratsiooni valimi kasutuselevõtu juhised (pärand)](emea-cze-fi-sample-sdk.md).
 >
-> Uutesse versioonidesse planeeritakse fiskaalintegratsiooni valimite uue sõltumatu pakendi- ja laiendusmudeli tugi.
+> Eelarveintegratsiooni näidiste uue sõltumatu pakendi- ja laiendusmudeli toetamine on kavandatud hilisematele versioonidele.
 
-Viige finantsintegratsiooni seadistuse etapid lõpule, nagu on [kirjeldatud ärikanalite fiskaalintegratsiooni seadistamises:](setting-up-fiscal-integration-for-retail-channel.md)
+Viige fiskaalintegratsiooni seadistamise etapid lõpule, nagu on kirjeldatud jaotises [Seadistage kaubanduskanalite fiskaalintegratsioon](setting-up-fiscal-integration-for-retail-channel.md):
 
-1. [Seadistage fiskaalregistreerimise protsess](setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process). Lisaks tehke märkus fiskaalregistreerimise protsessi sätete kohta, mis on sellele [fiskaalregistreerimise teenuse integreerimis näidisele omased.](#set-up-the-registration-process)
-1. [Tõrke käsitlemise sätete](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings) seadistamine.
-1. [Luba edasilükatud fiskaalregistreerimise käsitsi](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-postponed-fiscal-registration) käivitamine.
+1. [Saate häälestada finantsregistreerimise protsessi](setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process). Märkige üles ka fiskaalse registreerimise protsessi sätted [selle maksuregistriteenuse integratsiooninäidise spetsiifiline](#set-up-the-registration-process).
+1. [Saate määrata tõrkekäsitluse sätted](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
+1. [Lubage edasilükatud finantsregistreerimise käsitsi käivitamine](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-postponed-fiscal-registration).
 1. [Kanali komponentide](#configure-channel-components) konfigureerimine.
 
 ### <a name="set-up-the-registration-process"></a>Registreerimisprotsessi häälestamine
 
-Registreerimisprotsessi lubamiseks järgige neid samme Commerce headquartersi häälestamiseks. Lisateavet vt Commerce'i [kanalite fiskaalintegratsiooni](setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process) häälestamine.
+Registreerimisprotsessi lubamiseks järgige Commerce'i peakontori seadistamiseks neid juhiseid. Lisateavet vt teemast [Fiscal Integration for Commerce channels](setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process) häälestamine.
 
-1. Laadige alla finantsdokumendi pakkuja ja fiskaalkonnektori konfiguratsioonifailid:
+1. Laadige alla rahandusdokumendi pakkuja ja fiskaalse konnektori konfiguratsioonifailid.
 
-    1. Lahenduste [Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) hoidla avamine.
-    1. Valige õige väljalaske haruversioon vastavalt oma SDK-le/rakenduse versioonile (nt **[vabastamine/9.33).](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33)**
-    1. Avatud **src \> FiscalIntegration \>** Efr.
-    1. Laadige alla finantsdokumendi pakkuja konfiguratsioonifail konfiguratsioonifailis **\> Configurations DocumentProviders \> DocumentProviderFiscalEFRSampleTagemch.xml (nt väljalaske**[fail/9.33).](https://github.com/microsoft/Dynamics365Commerce.Solutions/blob/release/9.33/src/FiscalIntegration/Efr/Configurations/DocumentProviders/DocumentProviderFiscalEFRSampleCzech.xml)
-    1. Laadige alla fiskaalkonnektori **\> konfiguratsioonifail Configurations Connectors \> ConnectorEFRSample.xml** -is (nt [väljalaskefail/9.33).](https://github.com/microsoft/Dynamics365Commerce.Solutions/blob/release/9.33/src/FiscalIntegration/Efr/Configurations/Connectors/ConnectorEFRSample.xml)
+    1. Avage lahenduste [Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) hoidla.
+    1. Valige õige väljalaskeharu versioon vastavalt oma SDK/rakenduse versioonile (nt **[release/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33)**).
+    1. Avatud **src \> Fiskaalintegratsioon \> Efr**.
+    1. Laadige alla maksudokumendi pakkuja konfiguratsioonifail aadressilt **Konfiguratsioonid \> Dokumendipakkujad \> DocumentProviderFiscalEFRSampleCzech.xml** (näiteks, [vabastamise fail/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/blob/release/9.33/src/FiscalIntegration/Efr/Configurations/DocumentProviders/DocumentProviderFiscalEFRSampleCzech.xml)).
+    1. Laadige alla maksuühenduse konfiguratsioonifail aadressilt **Konfiguratsioonid \> Ühendused \> ConnectorEFRSample.xml** (näiteks, [vabastamise fail/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/blob/release/9.33/src/FiscalIntegration/Efr/Configurations/Connectors/ConnectorEFRSample.xml)).
 
     > [!WARNING]
-    > Uue sõltumatu pakendi- ja laiendusmudeli piirangute tõttu ei saa seda praegu selle [fiskaalintegratsiooni](../dev-itpro/build-pipeline.md) näidise jaoks kasutada. Retail SDK eelmist versiooni peate kasutama LCS-i arendaja VM-s. Selle fiskaalintegratsiooni näidiskonfiguratsiooni failid asuvad Retail SDK arendaja VM LCS-i kaustades:
+    > Uue sõltumatu pakendi- [ja laiendusmudeli](../dev-itpro/build-pipeline.md) piirangute tõttu ei saa seda praegu selle fiskaalse integratsiooni valimi jaoks kasutada. Peate kasutama Retail SDK eelmist versiooni arendaja VM-is LCS-is. Selle fiskaalse integratsiooni näidise konfiguratsioonifailid asuvad LCS-i arendaja VM-i jaemüügi SDK järgmistes kaustades.
     >
-    > - **Fiskaaldokumendi pakkuja konfiguratsioonifail:** RetailSdk \\ SampleExtensions \\ CommerceRuntime \\ Extensions.DocumentProvider.EFRSample \\ Configuration \\ DocumentProviderFiscalEFRSampleKliendich.xml
-    > - **Fiskaalkonnektori**\\ konfiguratsioonifail: RetailSdk SampleExtensions \\ HardwareStation \\ Extension.EFRSample \\ Configuration \\ ConnectorEFRSample.xml
+    > - **Maksudokumendi pakkuja konfiguratsioonifail:** RetailSdk\\ Näidislaiendid\\ CommerceRuntime\\ Extensions.DocumentProvider.EFRSample\\ Seadistamine\\ DocumentProviderFiscalEFRSampleCzech.xml
+    > - **Fiskaalse konnektori konfiguratsioonifail:** RetailSdk\\ Näidislaiendid\\ Riistvarajaam\\ Laiendus.EFRSnäidis\\ Seadistamine\\ ConnectorEFRSample.xml
     > 
-    > Uutesse versioonidesse planeeritakse fiskaalintegratsiooni valimite uue sõltumatu pakendi- ja laiendusmudeli tugi.
+    > Eelarveintegratsiooni näidiste uue sõltumatu pakendi- ja laiendusmudeli toetamine on kavandatud hilisematele versioonidele.
 
-1. Valige suvandid **Jaemüük ja kaubandus \> Headquartersi häälestus \> Parameetrid \> Commerce’i ühiskasutuses parameetrid**. Seadke **vahekaardil** Üldine suvand Luba **fiskaalintegratsioon** väärtusele **Jah**.
-1. Minge jaemüügi **ja ärikanali häälestuse \>\> fiskaalintegratsiooni finantsdokumendi pakkujate juurde ja laadige varem alla \>** laaditud finantsdokumendi pakkuja konfiguratsioonifail.
-1. Minge **jaemüügi- ja ärikanali \>\>\> häälestuse fiskaalintegratsiooni fiskaalkonnektori ja laadige varem alla** laaditud fiskaalkonnektori konfiguratsioonifail.
-1. Minge jaemüügi ja **ärikanali \> häälestuse \> fiskaalintegratsiooni \> konnektori** funktsiooniprofiilidesse. Looge uus konnektori funktsiooniprofiil. Valige dokumendipakkuja ja ühendus, mille varem laadisite. Värskendage [andmevastendussätted](#default-data-mapping) vastavalt vajadusele.
-1. Minge jaemüügi ja **ärikanali \> häälestuse \> finantsintegratsiooni \> konnektori tehnilistesse** profiilidesse. Looge uus konnektori tehniline profiil ja valige varem laaditud fiskaalühendus. Uuendage [konnektori](#fiscal-connector-settings) sätteid vastavalt vajadusele.
-1. Minge jaemüügi ja **ärikanali \> häälestuse \> fiskaalintegratsiooni \> fiskaalühenduse gruppidesse**. Looge varem loodud konnektori funktsiooniprofiilile uus fiskaalühenduse grupp.
-1. Minge jaemüügi **ja ärikanali häälestuse \> fiskaalintegratsiooni \>\> fiskaalregistreerimisprotsessidesse.** Looge uus fiskaalregistreerimise protsess ja fiskaalregistreerimise protsessi samm ning valige varem loodud fiskaalühenduse grupp.
-1. Avage **Jaemüük ja kaubandus \> Kanali seadistus \> Kassa seadistus \> Kassaprofiilid \> Funktsiooniprofiilid**. Valige funktsiooniprofiil, mis on lingitud kauplusega, kus registreerimisprotsess tuleks aktiveerida. Valige **finants registreerimisprotsessi** kiirkaardil varem loodud fiskaalregistreerimise protsess.
-1. Avage **Jaemüük ja kaubandus \> Kanali seadistus \> Kassa seadistus \> Kassaprofiilid \> Riistvaraprofiilid**. Valige riistvaraprofiil, mis on lingitud riistvarajaamaga, millega fiskaalprinter on ühendatud. Valige **kiirkaardil Fiscal** peripherals varem loodud konnektori tehniline profiil.
-1. Avage jaotusgraafik (Retail ja Commerce Retail ja Commerce IT Distribution schedule) ning valige tööd **\>\>** **1070 ja** **1090 andmete** edastamiseks kanali andmebaasi.
+1. Valige suvandid **Jaemüük ja kaubandus \> Headquartersi häälestus \> Parameetrid \> Commerce’i ühiskasutuses parameetrid**. peal **Kindral** vahekaardil määrake **Luba maksuintegratsioon** võimalus **Jah**.
+1. Minema **Jaemüük ja kaubandus \> Kanali seadistamine \> Fiskaalne integratsioon \> Maksudokumentide pakkujad** ja laadige varem alla laaditud maksudokumendi pakkuja konfiguratsioonifail.
+1. Minema **Jaemüük ja kaubandus \> Kanali seadistamine \> Fiskaalne integratsioon \> Fiskaalühendused** ja laadige varem alla laaditud fiskaalse konnektori konfiguratsioonifail.
+1. Minema **Jaemüük ja kaubandus \> Kanali seadistamine \> Fiskaalne integratsioon \> Konnektori funktsionaalsed profiilid**. Looge uus konnektori funktsionaalne profiil. Valige dokumendipakkuja ja varem laaditud konnektor. Värskendage andmete vastendamise [sätteid](#default-data-mapping) vastavalt vajadusele.
+1. Minema **Jaemüük ja kaubandus \> Kanali seadistamine \> Fiskaalne integratsioon \> Konnektori tehnilised profiilid**. Looge uus konnektori tehniline profiil ja valige varem laaditud fiskaalkonnektor. Värskendage [konnektori sätteid](#fiscal-connector-settings) vastavalt vajadusele.
+1. **Avage jaemüügi- ja kaubanduskanali \> häälestus \> Fiskaalintegratsioon \> Fiskaalkonnektorigrupid**. Looge varem loodud konnektori funktsionaalse profiili jaoks uus fiskaalse konnektori rühm.
+1. Minema **Jaemüük ja kaubandus \> Kanali seadistamine \> Fiskaalne integratsioon \> Fiskaalsed registreerimise protsessid**. Looge uus maksuregistreerimisprotsess ja fiskaalse registreerimise protsessi etapp ning valige varem loodud maksuühenduse rühm.
+1. Avage **Jaemüük ja kaubandus \> Kanali seadistus \> Kassa seadistus \> Kassaprofiilid \> Funktsiooniprofiilid**. Valige funktsiooniprofiil, mis on lingitud poega, kus registreerimisprotsess tuleks aktiveerida. peal **Maksustamise registreerimise protsess** FastTab, valige varem loodud maksuregistreerimisprotsess.
+1. Avage **Jaemüük ja kaubandus \> Kanali seadistus \> Kassa seadistus \> Kassaprofiilid \> Riistvaraprofiilid**. Valige riistvaraprofiil, mis on lingitud riistvarajaamaga, millega fiskaalprinter ühendatakse. Valige kiirkaardil **Fiskaalsed välisseadmed** varem loodud konnektori tehniline profiil.
+1. Avage jaotusgraafik (**jae- ja kaubandus \> - ja kaubandus-kaubanduse IT-jaotuse \> ajakava**) ning valige tööd **1070** ja **1090**, et edastada andmeid kanali andmebaasi.
 
-#### <a name="default-data-mapping"></a>Vaikeandmete vastendamine
+#### <a name="default-data-mapping"></a>Andmete vaikevastendus
 
-Järgmine vaikeandmete vastendamine on kaasatud fiskaaldokumendi pakkuja konfiguratsiooni, mis antakse fiskaalintegratsiooni näidisosana:
+Rahandusdokumendi pakkuja konfiguratsioonis, mis on esitatud fiskaalse integratsiooni valimi osana, kaasatakse järgmine andmete vaikevastendus.
 
-- **Käibemaksumäärade vastendamine: käibemaksukoodide jaoks seadistatud maksu protsendiväärtuste vastendamine fiskaalteenusele saadetud taotlustes** **atribuudi TaxG** (maksugrupp) väärtustega. Siin on vaikevastendus:
+- **Käibemaksu (KM) määrade kaardistamine** – käibemaksukoodide jaoks seadistatud maksuprotsentide väärtuste vastendamine väärtustega **TaxG** (maksugrupp) atribuut taotlustes, mis saadetakse maksuteenistusele. Siin on vaikevastendus.
 
     ```
     A: 21.00; B: 15.00; C: 10.00; Z: 0.00
     ```
 
-    Iga paari esimene komponent esindab käibemaksugruppi, mida toetab EFR-i fiskaalregistreerimisteenus. Teine komponent esindab vastavat KM-määra. Lisateavet käibemaksugruppide kohta, mida EFR Tšehhi Vabariigile toetab, vt [EFR-i](https://public.efsta.net/efr/) viidet.
+    Iga paari esimene komponent esindab käibemaksurühma, mida toetab EFR-i maksuregistreerimise teenus. Teine komponent tähistab vastavat KÄIBEMAKSUmäära. Lisateavet EFR-i Tšehhi Vabariigis toetatavate käibemaksugruppide kohta leiate aadressilt [EFR viide](https://public.efsta.net/efr/).
 
-- **KM-grupi vaikevastendus – kõik KM-summad, mida ei saa vastendada ühe ettemääratud KM-grupiga, seostatakse vaikimisi** (baas)KM-grupiga. Siin on vaikevastendus:
+- **Vaikimisi käibemaksugrupi vastendus** – Kõik käibemaksusummad, mida ei saa ühega eelmääratud käibemaksugrupist vastendada, omistatakse vaikimisi (põhi)käibemaksurühmale. Siin on vaikevastendus.
 
     ```
     A
     ```
 
-- **Deposiitide** KM-grupi vastendamine – kliendi deposiidisummad ja kliendi tellimuse deposiidisummad seostatakse deposiidi KM-grupiga. Siin on vaikevastendus:
+- **Sissemakse käibemaksugrupi kaardistamine** – Kliendi sissemakse summad ja kliendi tellimuse sissemakse summad seotakse sissemakse käibemaksu gruppi. Siin on vaikevastendus.
 
     ```
     Z
     ```
 
-#### <a name="fiscal-connector-settings"></a>Fiskaalühenduse sätted
+#### <a name="fiscal-connector-settings"></a>Fiskaalse konnektori sätted
 
-Järgmised sätted on kaasatud fiskaalkonnektori konfiguratsiooni, mis on antud fiskaalintegratsiooni näidisosana:
+Fiskaalse konnektori konfiguratsiooni kuuluvad järgmised sätted, mis on esitatud fiskaalse integratsiooni valimi osana.
 
-- **Lõpp**-punkti aadress – fiskaalregistreerimise teenuse URL.
-- **Ajalõpp** – aja hulk millisekundites, mida fiskaalkonnektor fiskaalregistreerimise teenuse vastuse ootab.
+- **Lõpp-punkti aadress** – maksuregistreerimisteenuse URL.
+- **Aeg maha** – Aeg millisekundites, mille jooksul fiskaalne konnektor ootab maksuregistreerimisteenuse vastust.
 
-### <a name="configure-channel-components"></a>Kanali komponentide konfigureerimine
+### <a name="configure-channel-components"></a>Kanali komponentide seadistamine
 
 > [!WARNING]
-> Uue sõltumatu pakendi- ja laiendusmudeli piirangute tõttu ei saa seda praegu selle [fiskaalintegratsiooni](../dev-itpro/build-pipeline.md) näidise jaoks kasutada. Retail SDK eelmist versiooni peate kasutama LCS-i arendaja VM-s. Lisateavet vt Tšehhi Vabariigi [(pärand) fiskaalintegratsiooni näidise juurutuse](emea-cze-fi-sample-sdk.md) juhised.
+> Uue sõltumatu pakendi- [ja laiendusmudeli](../dev-itpro/build-pipeline.md) piirangute tõttu ei saa seda praegu selle fiskaalse integratsiooni valimi jaoks kasutada. Peate kasutama Retail SDK eelmist versiooni arendaja VM-is LCS-is. Lisateabe saamiseks vt [Tšehhi Vabariigi eelarveintegratsiooni valimi kasutuselevõtu juhised (pärand)](emea-cze-fi-sample-sdk.md).
 >
-> Uutesse versioonidesse planeeritakse fiskaalintegratsiooni valimite uue sõltumatu pakendi- ja laiendusmudeli tugi.
+> Eelarveintegratsiooni näidiste uue sõltumatu pakendi- ja laiendusmudeli toetamine on kavandatud hilisematele versioonidele.
 
-#### <a name="set-up-the-development-environment"></a>Saate häälestada arenduskeskkonda.
+#### <a name="set-up-the-development-environment"></a>Seadistage arenduskeskkond
 
-Arenduskeskkonna katsetada ja näidist laiendada, järgige neid samme.
+Näidise testimiseks ja laiendamiseks arenduskeskkonna seadistamiseks toimige järgmiselt.
 
-1. Rakenduste hoidla [Dynamics 365 Commerce leidmine](https://github.com/microsoft/Dynamics365Commerce.Solutions) või allalaadimine. Valige õige väljalaske haruversioon vastavalt oma SDK-le/rakenduse versioonile. Lisateavet vt jaotisest Jaemüügi SDK näidised ja viitepakendid alla laadida [GitHub-st ja NuGet](../dev-itpro/retail-sdk/sdk-github.md).
-1. Avage EFR-i lahendus **rakenduses Dynamics365Commerce.Solutions \\ FiscalIntegration \\\\ EFR.sln** ja koostage see.
-1. Installi CRT laiendid:
+1. Kloonige või laadige alla [Dynamics 365 Commerce Lahendused](https://github.com/microsoft/Dynamics365Commerce.Solutions) hoidla. Valige õige väljalaske haru versioon vastavalt oma SDK/rakenduse versioonile. Lisateabe saamiseks vt [Laadige alla jaemüügi SDK näidised ja viitepaketid GitHubist ja NuGet](../dev-itpro/retail-sdk/sdk-github.md).
+1. Avage EFR-lahendus aadressil **Dynamics365Commerce.Solutions\\ Fiskaalintegratsioon\\ Efr\\ EFR.sln**, ja ehitada see.
+1. Installige CRT laiendused:
 
-    1. Leidke laiendi CRT installer:
+    1. Otsige üles CRT laienduse paigaldaja:
 
-        - **Commerce Scale Unit: leidke kaustast** **Efr \\ ScaleUnit \\ ScaleUnit.EFR.Installer \\ bin \\ Debug \\ net461** **scaleUnit.EFR.Installer.**
-        - **Kohalik CRT modern POS-s:** leidke **Efr \\\\ ModernPOS ModernPOS.EFR.Installeri \\ bin \\ Silumine \\ net461** **kaustast ModernPOS.EFR.Installer.**
+        - **Kaubanduse mastaabiüksus:** Aastal **Efr\\ Skaalaühik\\ ScaleUnit.EFR.Installer\\ prügikast\\ Silumine\\ net461** kaust, otsige üles **ScaleUnit.EFR.Installer** paigaldaja.
+        - **Kohalik CRT kaasaegses POS-is:** Aastal **Efr\\ Kaasaegne POS\\ ModernPOS.EFR.Installer\\ prügikast\\ Silumine\\ net461** kaust, otsige üles **ModernPOS.EFR.Installer** paigaldaja.
 
-    1. Käivitage CRT laiendiinstall käsurealt:
+    1. Alustage CRT laienduse installija käsurealt:
 
-        - **Commerce Scalei üksus:**
+        - **Kaubanduse mastaabiüksus:**
 
             ```Console
             ScaleUnit.EFR.Installer.exe install --verbosity 0
             ```
 
-        - **Kohalik CRT Modern POS-s:**
+        - **Kohalik CRT kaasaegses POS-is:**
 
             ```Console
             ModernPOS.EFR.Installer.exe install --verbosity 0
             ```
 
-1. Riistvarajaama laienduste installimine:
+1. Installige riistvarajaama laiendused:
 
-    1. Leidke **Efr \\ HardwareStation \\ HardwareStation.EFR.Installeri \\ bin \\ Silumine \\ net461 kaustast** **HardwareStation.EFR.Installer.**
-    1. Käivitage laiendiinstall käsurealt:
+    1. Aastal **Efr\\ Riistvarajaam\\ HardwareStation.EFR.Installer\\ prügikast\\ Silumine\\ net461** kaust, otsige üles **HardwareStation.EFR.Installer** paigaldaja.
+    1. Käivitage laienduse installija käsurealt:
 
         ```Console
         HardwareStation.EFR.Installer.exe install --verbosity 0
@@ -302,53 +302,53 @@ Arenduskeskkonna katsetada ja näidist laiendada, järgige neid samme.
 
 #### <a name="production-environment"></a>Tootmiskeskkond
 
-Järgige fiskaalintegratsiooni näidise jaoks koostevõimaluste häälestamise etappe, et luua ja vabastada pilveskaala üksus ja iseteeninduse juurutatavad paketid [fiskaalintegratsiooni](fiscal-integration-sample-build-pipeline.md) näidiskomplekti jaoks. **EFR-i build-pipeline.yml malli JAML faili leiate lahenduste** **YAML_Files \\**[Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions) kaustast Müügivõimalustest.
+Järgige juhiseid [Seadistage fiskaalintegratsiooni näidise jaoks ehituskonveier](fiscal-integration-sample-build-pipeline.md) luua ja vabastada Cloud Scale Unit ja iseteenindusega juurutatavad paketid fiskaalintegratsiooni näidise jaoks. The **EFR build-pipeline.yml** malli YAML-faili leiate **Torujuhe\\ YAML_Files** kaust [Dynamics 365 Commerce Lahendused](https://github.com/microsoft/Dynamics365Commerce.Solutions) hoidla.
 
 ## <a name="design-of-extensions"></a>Laienduste kujundus
 
-Tšehhi Vabariigi fiskaalregistreerimisteenuse integratsiooni näidis põhineb fiskaalintegratsiooni funktsioonil ja on osa [Retail](fiscal-integration-for-retail-channel.md) SDK-st. Näidis asub lahenduste hoidla **\\ kaustas FiscalIntegration \\ Efr (nt vabastamisnäide/9.33).**[Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/)[...](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/Efr) Näidis [koosneb](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices) fiskaaldokumendi pakkujast, mis on CRT laiendiks, ja fiskaalühendusest, mis on Commerce Hardware Stationi laiendus. Lisateavet Retail SDK kasutamise kohta vt [Retail SDK arhitektuurist](../dev-itpro/retail-sdk/retail-sdk-overview.md) ja [iseseisva pakendamise SDK koostamisvõimaluste häälestamisest](../dev-itpro/build-pipeline.md).
+Tšehhi Vabariigi maksuregistriteenuse integreerimise näidis põhineb [fiskaalintegratsiooni funktsionaalsus](fiscal-integration-for-retail-channel.md) ja on osa jaemüügi SDK-st. Näidis asub aadressil **src\\ Fiskaalintegratsioon\\ Efr** kaust [Dynamics 365 Commerce Lahendused](https://github.com/microsoft/Dynamics365Commerce.Solutions/) hoidla (näiteks [väljalaskes olev näidis/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/Efr)). Näidis [koosneb](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) fiskaaldokumentide pakkuja, mis on laiendus CRT ja fiskaalne pistik, mis on Commerce Hardware Stationi laiendus. Lisateavet jaemüügi SDK kasutamise kohta leiate teemast [Retail SDK arhitektuur](../dev-itpro/retail-sdk/retail-sdk-overview.md) ja [Sõltumatu pakendiga SDK](../dev-itpro/build-pipeline.md) ehitustorustiku seadistamine.
 
 > [!WARNING]
-> Uue sõltumatu pakendi- ja laiendusmudeli piirangute tõttu ei saa seda praegu selle [fiskaalintegratsiooni](../dev-itpro/build-pipeline.md) näidise jaoks kasutada. Retail SDK eelmist versiooni peate kasutama LCS-i arendaja VM-s. Lisateavet vt Tšehhi Vabariigi [(pärand) fiskaalintegratsiooni näidise juurutuse](emea-cze-fi-sample-sdk.md) juhised. Uutesse versioonidesse planeeritakse fiskaalintegratsiooni valimite uue sõltumatu pakendi- ja laiendusmudeli tugi.
+> Uue sõltumatu pakendi- [ja laiendusmudeli](../dev-itpro/build-pipeline.md) piirangute tõttu ei saa seda praegu selle fiskaalse integratsiooni valimi jaoks kasutada. Peate kasutama Retail SDK eelmist versiooni arendaja VM-is LCS-is. Lisateabe saamiseks vt [Tšehhi Vabariigi eelarveintegratsiooni valimi kasutuselevõtu juhised (pärand)](emea-cze-fi-sample-sdk.md). Eelarveintegratsiooni näidiste uue sõltumatu pakendi- ja laiendusmudeli toetamine on kavandatud hilisematele versioonidele.
 
-### <a name="commerce-runtime-extension-design"></a>Äri käitusaja laiendi kujundus
+### <a name="commerce-runtime-extension-design"></a>Commerce'i käitusaja laienduse kujundus
 
-Fiskaaldokumendi pakkuja laiendi eesmärk on luua teenusepõhiseid dokumente ja käsitleda fiskaalregistreerimise teenuse vastuseid.
+Fiskaaldokumendi pakkuja laienduse eesmärk on luua teenusepõhiseid dokumente ja käsitleda fiskaalregistreerimisteenuse vastuseid.
 
-#### <a name="request-handler"></a>Nõudeohjur
+#### <a name="request-handler"></a>Taotluse käitleja
 
-Dokumendipakkuja jaoks on üks **DocumentProviderEFRFiscalPF taotluseohjur, mida kasutatakse fiskaaldokumentide loomiseks** fiskaalregistreerimise teenuse jaoks.
+Üksik on olemas **DocumentProviderEFRFiscalCZE** Dokumendipakkuja päringu töötleja, mida kasutatakse fiskaaldokumentide genereerimiseks maksuregistreerimisteenuse jaoks.
 
-See ohjur on päritud **INamedRequestHandler** liideselt. Meetod **HandlerName** vastutab ohjuri nime tagastamise eest. Ohjuri nimi peab vastama Commerce Headquartersis määratud konnektori dokumendi pakkuja nimele.
-
-Konnektor toetab järgmisi taotlusi.
-
-- **GetFiscalDocumentDocumentProviderRequest** – see taotlus sisaldab teavet selle kohta, milline dokument tuleks luua. See tagastab teenusepõhise dokumendi, mis tuleb registreerida fiskaalregistreerimise teenuses.
-- **GetSupportedRegistrableEventsDocumentProviderRequest – see taotlus tagastab** tellitavate sündmuste loendi. Praegu toetatakse järgmisi sündmusi: müük, kliendikonto deposiidid ja kliendi tellimuse deposiitid.
-- **GetFiscalRegisterResponseToSaveDocumentProviderRequest – see taotlus tagastab** fiskaalregistreerimise teenuse vastuse. See vastus järjestatakse stringi moodustamiseks nii, et see on salvestamiseks valmis.
-
-#### <a name="configuration"></a>Konfiguratsioon
-
-Fiskaaldokumendi pakkuja konfiguratsioonifail asub **lahenduste hoidlas src \\ FiscalIntegration \\ Efr \\ Konfiguratsioonide \\\\ DocumentProviderFiscalEFRSampleValdaja.xml.**[Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) Faili eesmärk on lubada finantsdokumendi pakkuja sätete konfigureerimist rakendusest Commerce headquarters. Failivorming on joondatud fiskaalintegratsiooni konfiguratsiooni nõuetele.
-
-### <a name="hardware-station-extension-design"></a>Riistvarajaama laienduse kujundus
-
-Fiskaalühenduseks olemise laiendi eesmärgiks on fiskaalregistreerimise teenusega suhtlemine. Riistvarajaama laiend kasutab HTTP-protokolli, et esitada dokumente, CRT mida laiend fiskaalregistreerimise teenusele loob. Samuti käsitletakse fiskaalregistreerimisteenuselt saadud vastuseid.
-
-#### <a name="request-handler"></a>Nõudeohjur
-
-**EFRHandler-i** taotluseohjur on sisenemispunkt fiskaalregistreerimise teenuse taotluste käsitlemiseks.
-
-Ohjur pärineb **INamedRequestHandler** liideselt. Meetod **HandlerName** vastutab ohjuri nime tagastamise eest. Ohjuri nimi peab ühtima Commerce Headquartersis määratud fiskaalühenduse nimega.
+See töötleja on päritud **INamedRequestHandler** liides. **Käitleja nime tagastamise eest vastutab meetod HandlerName**. Käitleja nimi peaks vastama Commerce'i peakontoris määratud konnektori dokumendipakkuja nimele.
 
 Konnektor toetab järgmisi taotlusi.
 
-- **SubmitDocumentFiscalDeviceRequest – see taotlus saadab dokumendid fiskaalregistreerimise teenusesse ja** tagastab sellelt vastuse.
-- **IsReadyFiscalDeviceRequest – seda taotlust kasutatakse** fiskaalregistreerimise teenuse seisundikontrolliks
-- **InitializeFiscalDeviceRequest** – seda taotlust kasutatakse fiskaalregistreerimise teenuse lähtestamiseks
+- **GetFiscalDocumentDocumentProviderRequest** – see taotlus sisaldab teavet selle kohta, milline dokument tuleks luua. See tagastab teenusepõhise dokumendi, mis tuleks registreerida maksuregistreerimisteenuses.
+- **GetSupportedRegistrableEventsDocumentProviderRequest** – See päring tagastab tellitavate sündmuste loendi. Hetkel toetatakse järgmisi üritusi: müük, kliendikonto sissemaksed ja klientide tellimuste sissemaksed.
+- **GetFiscalRegisterResponseToSaveDocumentProviderRequest** – See päring tagastab maksuregistreerimisteenuse vastuse. See vastus järjestatakse stringi moodustamiseks, nii et see on salvestamiseks valmis.
 
 #### <a name="configuration"></a>Konfiguratsioon
 
-Fiskaalkonnektori konfiguratsioonifail asub lahenduste **hoidlas src \\ FiscalIntegration \\ Efr \\\\ Configurations Connectors \\ ConnectorEFRSample.xml.**[Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) Faili eesmärk on lubada finantsühenduse sätete konfigureerimist rakendusest Commerce headquarters. Failivorming on joondatud fiskaalintegratsiooni konfiguratsiooni nõuetele.
+Maksudokumendi pakkuja konfiguratsioonifail asub aadressil **src\\ Fiskaalintegratsioon\\ Efr\\ Konfiguratsioonid\\ Dokumendipakkujad\\ DocumentProviderFiscalEFRSampleCzech.xml** aastal [Dynamics 365 Commerce Lahendused](https://github.com/microsoft/Dynamics365Commerce.Solutions/) hoidla. Faili eesmärk on võimaldada fiskaaldokumentide pakkuja seadeid konfigureerida Commerce'i peakorteris. Failivorming on joondatud fiskaalintegratsiooni konfiguratsiooni nõuetega.
+
+### <a name="hardware-station-extension-design"></a>Riistvarajaama laienduse disain
+
+Fiskaalühenduseks oleva laienduse eesmärk on suhelda maksuregistriteenusega. Riistvarajaama laiendus kasutab HTTP-protokolli dokumentide esitamiseks, mis CRT laiendus genereerib maksuregistriteenuse. Samuti käsitleb see maksuregistreerimisteenuselt saadud vastuseid.
+
+#### <a name="request-handler"></a>Taotluse käitleja
+
+The **EFRHandler** päringu töötleja on maksuregistreerimisteenuse taotluste käsitlemise sisenemispunkt.
+
+Käitleja on päritud **INamedRequestHandler** liides. **Käitleja nime tagastamise eest vastutab meetod HandlerName**. Töötleja nimi peaks ühtima fiskaalse konnektori nimega, mis on määratud Commerce'i peakorteris.
+
+Konnektor toetab järgmisi taotlusi.
+
+- **SubmitDocumentFiscalDeviceRequest** – See päring saadab dokumendid maksuregistreerimisteenistusele ja saadab sealt vastuse.
+- **IsReadyFiscalDeviceRequest** – Seda päringut kasutatakse maksuregistriteenuse tervisekontrolliks.
+- **InitializeFiscalDeviceRequest** – Seda päringut kasutatakse maksuregistreerimisteenuse lähtestamiseks.
+
+#### <a name="configuration"></a>Konfiguratsioon
+
+Fiskaalse konnektori konfiguratsioonifail asub aadressil **src\\ Fiskaalintegratsioon\\ Efr\\ Konfiguratsioonid\\ Ühendused\\ ConnectorEFRSample.xml** aastal [Dynamics 365 Commerce Lahendused](https://github.com/microsoft/Dynamics365Commerce.Solutions/) hoidla. Faili eesmärk on võimaldada fiskaalühenduse seadete konfigureerimist Commerce'i peakorteris. Failivorming on joondatud fiskaalintegratsiooni konfiguratsiooni nõuetega.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -15,24 +15,24 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-05-14
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 23f720db57bf60c81182ed8ae4bdac965676741ce2a2e53bc699c2bd49325b74
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: cb4693f3c856e7abcc39cbd658183d01ec98a066
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754133"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063743"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-14-2020"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 Human Resources (14. mai 2020)
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Selles teemas kirjeldatakse Dynamics 365 Human Resourcesi uusi või muutunud funktsioone. Muudatused rakenduvad versioonile number 8.1.3244. Sulgudes olevad numbrid mõnedes pealkirjades viitavad toenumbritele teenuses Lifecycle Services (LCS).
 
 ## <a name="platform-changes"></a>Platvormi muudatused
 
-Selle nädala väljalaske hulka kuuluvad platvormi muudatused. Lisateavet leiate teemast [Finance and Operationsi rakenduste versiooni 10.0.10 platvormivärskendused (mai 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-34.md). See väljalase sisaldab veaparandusi ja salvestatud vaadete muudatusi.
+Selle nädala väljalaske hulka kuuluvad platvormi muudatused. Lisateabe saamiseks vt [Finance and Operationsi rakenduste versiooni 10.0.10 platvormi värskendused (mai 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-34.md). See väljalase sisaldab veaparandusi ja salvestatud vaadete muudatusi.
  
 ## <a name="ensure-dataverse-picklists-are-consistent-with-leave-enums-436343"></a>Dataverse'i märkeloendi puhkuse loeteludega kooskõlas olemises veendumine (436343)
 

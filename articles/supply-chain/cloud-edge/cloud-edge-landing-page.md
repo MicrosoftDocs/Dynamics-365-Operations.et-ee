@@ -4,18 +4,19 @@ description: Selles teemas antakse teavet tootmis- ja laohalduse töökoormuste 
 author: cabeln
 ms.date: 04/22/2021
 ms.topic: article
+ms.search.form: ScaleUnitWorkloadsWorkspace
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 3111de1f9862cbf926e763f963c86059f4121fc0
-ms.sourcegitcommit: 4b7e9d074e368a08d2f75482b722dce0c69a4bbd
-ms.translationtype: MT
+ms.openlocfilehash: 593331a3f1073edb6a50c9bfc66e0723d222832a
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "7733435"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065760"
 ---
 # <a name="scale-units-in-a-distributed-hybrid-topology"></a>Skaala ühikud jaotatud topoloogias
 
@@ -33,7 +34,7 @@ Tootmise ja jaotamisega töötavad ettevõtted peavad olema võimelised käivita
 Jaotatud hübriid-topoloogias tutvustatakse *kaaluühikute* mõisteid, mis võimaldavad tööde ja laotäitmiskoormuste jaotamist erinevate keskkondade vahel. See funktsioon aitab parandada jõudlust, ennetada teenuse katkestusi ja maksimeerida tööaega. Mõõtühikud pakutakse Supply Chain Management tellimuse jaoks järgmiste lisandmoodulite kaudu:
 
 - Pilvskaalaüksuse lisandmoodul rakenduse Dynamics 365 Supply Chain Management jaoks
-- Perimeeterskaalaüksuse lisandmoodul Dynamics 365 Supply Chain Management i jaoks
+- Perimeeterskaalaüksuse lisandmoodul Dynamics 365 Supply Chain Managementi jaoks
 
 Töökoormuse võimalusi vabastatakse pidevalt astmelise täiustamise kaudu.
 
@@ -51,12 +52,11 @@ Saate konfigureerida keskuse keskkonna ja valitud töökoormus pilve skaala üks
 
 ### <a name="dedicated-warehouse-management-workload-capabilities-in-a-scale-unit"></a>Spetsiaalsed laohalduse töökoormuse võimalused skaala üksuses
 
-Laohalduse töökoormus võimaldab teil käitada laohaldusprotsesse eraldatud juurutamisel.
-Lisateavet vt [Laohalduse töökoormused pilv- ja perimeeterskaalaüksuste jaoks](cloud-edge-workload-warehousing.md).
+Laohalduse töökoormus on skaalaühikute esimene jaotatud töökoormus, mis vabastatakse üldise kättesaadavuse jaoks. See võimaldab teie laotoiminguid isoleeritud hooldusakende abil skaleerida ja töötada vastupidavas keskkonnas. Laohalduse töökoormus toetab enamikku ettevõtterummu laohaldusprotsesse. Lisateavet vt [Laohalduse töökoormused pilv- ja perimeeterskaalaüksuste jaoks](cloud-edge-workload-warehousing.md).
 
 ### <a name="dedicated-manufacturing-execution-workload-capabilities-in-a-scale-unit"></a>Spetsiaalsed tootmise käivitamise töökoormuse võimalused skaala üksuses
 
-Tootmise töökoormus pakub järgmisi võimalusi.
+Tootmiskoormus pakub järgmisi võimalusi.
 
 - Masina operaatorid ja tööde juhtimise haldurid pääsevad ligi operatiivsele tootmisplaanile.
 - Masina operaatorid saavad plaani ajakohasena hoida, töötades eraldi ja menetledes tootmise töid.
@@ -69,7 +69,7 @@ Lisateavet vt [Tootmise täideviimise töökoormused pilv- ja perimeeterskaalaü
 
 Lubades hajutatud hübriidtopoloogia, muudate oma Supply Chain Management pilvekeskkonna nii, et see toimiks jaoturina. Lisaks saate seostada täiendavaid keskkondi, mis on konfigureeritud mastaabiühikutena pilves või pilveservas.
 
-### <a name="prerequisites-and-limitations-for-cloud-scale-units"></a><a name="cloud-scale-unit-prerequisites"></a> Pilviskaala ühikute eeldused ja piirangud
+### <a name="prerequisites-and-limitations-for-cloud-scale-units"></a><a name="cloud-scale-unit-prerequisites"></a>Pilviskaala ühikute eeldused ja piirangud
 
 Mastaabiühikute praeguses versioonis pole mõned võimalused veel saadaval, kuid need võidakse aja jooksul lisada astmelistes väljalasetes.
 
@@ -114,7 +114,7 @@ Juhtimisvõimalused, mis võivad aidata töökoormuse liikumisel, on piiratud. M
 
 Mõõdikud ja mõõtmised, mis võivad aidata teil valida oma mõõtühikutele parima rakenduse, pole veel saadaval. Kõige kasulikuma rakenduse valimiseks tehke koostööd oma Microsofti kontakti või rakenduspartneriga.
 
-### <a name="data-processing-during-management-of-scale-units"></a><a name="data-processing-management"></a> Andmetöötlus skaalaühikute haldamise ajal
+### <a name="data-processing-during-management-of-scale-units"></a><a name="data-processing-management"></a>Andmetöötlus skaalaühikute haldamise ajal
 
 Kui lubate oma Dynamics 365 keskkonnas toetada pilve- ja servaskaalaüksuste hajutatud hübriidtopoloogiat, majutatakse mõnda haldusteenust ainult Ameerika Ühendriikides (nagu LCS-i puhul). Selline käitumine mõjutab mõne haldus- ja konfiguratsiooniteabe edastamist ja talletamist, mida kasutab [portaali Scale Unit Manager](https://sum.dynamics.com). Järgmisena on toodud mõned näited.
 
@@ -165,7 +165,7 @@ Kui soovite omandada rohkem liivakasti keskkondi, saate osta täiendavaid tavali
 
 Pärast seda, kui olete lõpetanud plaanimise, kuidas saate levitatud hübriidtopoloogiaga Supply Chain Management jaoks juurutada, kasutaga juurutusprotsessi alustamiseks [portaali Scale Unit Manager](https://aka.ms/SCMSUM). Portaalis valige vahekaart **Dynamics 365 rentnikud**. Vahekaart kuvab nende üürnike loendit, millesse teie konto kuulub, ja kus olete LCS projekti omanik või keskkonna administraator.
 
-Kui teie otsitavat üürnikku ei ole loendis, minge [LCS](https://lcs.dynamics.com/v2) ja veenduge, et olete selle rentniku suhtes kas keskkonna-või LCS projekti omanik. Ainult, Azure Active Directory (Azure AD) valitud rentniku kontodelt on lubatud registreerumise kogemus lõpule viia.
+Kui teie otsitavat üürnikku ei ole loendis, minge [LCS](https://lcs.dynamics.com/v2)ja veenduge, et olete selle rentniku suhtes kas keskkonna-või LCS projekti omanik. Ainult, Azure Active Directory (Azure AD) valitud rentniku kontodelt on lubatud registreerumise kogemus lõpule viia.
 
 > [!NOTE]
 > Pärast LCS muudatuste rakendamist võib üürnike loendi muudatuste kajastamiseks kuluda kuni 30 minutit.
@@ -182,31 +182,31 @@ Microsoft vaatab teie taotluse läbi ja teavitab teid järgmisest sammudest, saa
 
 Kui juurutamine on lõpule jõudnud, saate pordi abil konfigureerida mastaabiühikuid ja töökoormusi.
 
-### <a name="manage-scale-units-and-workloads-by-using-the-scale-unit-manager-portal"></a><a name="scale-unit-manager-portal"></a> Kaaluühikute ja töökoormuste haldamine kaaluühiku halduri portaali abil
+### <a name="manage-scale-units-and-workloads-by-using-the-scale-unit-manager-portal"></a><a name="scale-unit-manager-portal"></a> Skaalaühikute ja töökoormuse haldamine skaala ühikuhalduri portaali abil
 
 Avage [Scale Unit Manageri portaal](https://aka.ms/SCMSUM) ja logige sisse oma rentniku konto abil. Lehel **Skaalaüksuste konfigureerimine** saate lisada keskse keskkonna, kui see ei ole juba loetletud. Seejärel saate valida keskuse, mida soovite konfigureerida koos skaala ühikute ja töömahuga.
 
-:::image type="content" source="media/cloud_edge-Manage.png" alt-text="Kaaluühiku halduri portaal, skaala ühikute konfigureerimise leht.":::
+:::image type="content" source="media/cloud_edge-Manage.png" alt-text="Skaala ühikuhalduri portaal, skaalaühikute konfigureerimise leht.":::
 
 Ühe või mitme skaala üksuste lisamiseks, mis on saadaval teie tellimustel, valige **Lisa skaala ühikud**.
 
 Vahekaardil **Määratletud töömahud** Kasutage **nuppu Loo töökoormus,** et lisada laohalduse töömaht ühte teie skaalajaotise üksustest. Iga töömahu puhul peate määrama töömahule kuuluvate protsesside konteksti. Laohalduse töökoormuste puhul on kontekst konkreetne ladu kindlas tegevuskohas ja juriidiline üksus.
 
-:::image type="content" source="media/cloud_edge-DefineWorkload.png" alt-text="Töökoormuste dialoogi määratlemine.":::
+:::image type="content" source="media/cloud_edge-DefineWorkload.png" alt-text="Töökoormuse dialoogi määratlemine.":::
 
-#### <a name="manage-workloads"></a>Töökoormuste haldamine
+#### <a name="manage-workloads"></a>Töökoormuse haldamine
 
-Kui üks või mitu töökoormust on lubatud, kasutage suvandit Halda töökoormusi selliste protsesside käivitamiseks ja haldamiseks, nagu need, mis **·** on loetletud järgmises tabelis.
+Kui üks või mitme töökoormus on lubatud, kasutage **suvandi Töökoormuse haldamine,** et algatada ja hallata selliseid protsesse nagu need, mis on loetletud järgmises tabelis.
 
 | Töötle | Kirjeldus |
 |---|---|
-| Peata kaaluüksuse side | Peatage müügivõimaluste sõnumid keskuse ja kaaluühiku vahel. See protsess peatab kommunikatsiooni ja lõpetage andmevõimaluste töö keskuse ja kaalu üksuste vahel. Enne hankeahela halduse hooldamistoimingu käivitamist kas keskusel või kaaluühikul peate käitama seda protsessi, kuid võite seda kasutada ka teistes olukordades. |
-| Jätka kaaluühiku sidet | Jätkake müügivõimaluste teateid keskuse ja kaaluühiku vahel. Teil võib olla vaja seda protsessi kasutada näiteks pärast tarneahela haldamise hooldamistoimingu käivitamist kas keskusel või kaaluühikul. |
-| Töökoormuste täiendamine | Sünkroonige uued funktsioonid keskuse ja kaalu ühiku töökoormuste vahel. Seda protsessi võib olla vaja kasutada näiteks siis, kui selle hooldamine on põhjustanud andmevahetuspäringute muutmise ja/või on töökoormusse lisanud uued tabelid või väljad. |
-| Töökoormuste ülekandmine kaaluühikusse | Planeerige töökoormus, mis töötab hetkel keskusel ja mis teisaldatakse kaaluühikusse. Selle protsessi käivitamisel toimub andmete sünkroonimine ning seadistatakse nii keskus kui ka kaaluühik, et muuta töökoormuse omandust. |
-| Kanna kaaluühik keskusesse | Planeerige töökoormus, mis töötab praegu keskusesse teisaldamiseks kaaluühikul. Selle protsessi käivitamisel toimub andmete sünkroonimine ning seadistatakse nii keskus kui ka kaaluühik, et muuta töökoormuse omandust.
-| Hädaolukorra siiret keskusesse | <p>Kandke olemasolev töökoormus kohe keskusesse. *See protsess muudab ainult hetkel keskuses saadaolevate andmete omameid.*</p><p><strong>Hoiatus.</strong> See protsess võib põhjustada sünkroonimata andmete andmekadu ja äritöötlemise nurjumise. Seetõttu tuleks seda kasutada ainult tootmisprotsessides, kus äriprotsesse tuleb keskuse puhul töödelda, kuna kaaluühikul on väljaminekuid, mida ei saa mõistlike aja jooksul leevendada.</p> |
-| Lahtijätmise jaotatud topoloogia | Eemaldage kaaluühiku juurutamine ja käivitage see ainult keskusel ilma töökoormuse töötlemiseta. |
+| Skaalaüksuse suhtluse peatamine | Peatage konveierisõnumid jaoturi ja skaalaüksuse vahel. See protsess peatab suhtluse ja tühjendab andmetorustiku jaoturi ja skaalaüksuste vahel. Enne tarneahela halduse teenindustoimingu käivitamist kas jaoturis või skaalaüksuses peate selle protsessi käivitama, kuid võite seda kasutada ka muudes olukordades. |
+| Skaalaüksuse kommunikatsiooni jätkamine | Jätkake konveieri sõnumeid jaoturi ja skaalaüksuse vahel. Võimalik, et peate seda protsessi kasutama näiteks pärast tarneahela halduse teenindustoimingu käivitamist kas jaoturis või skaalaüksuses. |
+| Töökoormuse täiendamine | Sünkroonige uus funktsioon jaoturi ja skaalaühiku töökoormuse vahel. Võimalik, et peate seda protsessi kasutama näiteks siis, kui teenindus on põhjustanud andmevahetuspäringute muutumise ja/või lisanud töökoormusele uued tabelid või väljad. |
+| Töökoormuse ülekandmine skaalaühikusse | Plaanige töökoormus, mis praegu töötab jaoturis, et teisaldada skaalaühikusse. Kui see protsess käivitatakse, voolab andmete sünkroonimine ning nii jaotur kui ka skaalaüksus seatakse töökoormuse omandiõiguse muutmiseks. |
+| Skaalaüksuse ülekandmine jaoturisse | Plaanige töökoormus, mis töötab praegu jaoturisse teisaldatavate skaalaühikuga. Kui see protsess käivitatakse, voolab andmete sünkroonimine ning nii jaotur kui ka skaalaüksus seatakse töökoormuse omandiõiguse muutmiseks.
+| Erakorraline üleminek keskusele | <p>Viige olemasolev töökoormus kohe jaoturisse. *See protsess muudab ainult praegu jaoturis saadaolevate andmete omandiõigust.*</p><p><strong>Hoiatus:</strong> see protsess võib põhjustada andmekadu sünkroonimata andmetele ja ettevõtte töötlemise nurjumist. Seetõttu tuleks seda kasutada ainult hädaolukordades, kus äriprotsesse tuleb töödelda jaoturis, sest skaalaüksusel on katkestus, mida ei saa mõistliku aja jooksul leevendada.</p> |
+| Likvideerige hajutatud topoloogia | Eemaldage skaalaüksuse juurutamine ja käivitage ainult jaoturis ilma töökoormuse töötlemiseta. |
 
 :::image type="content" source="media/sum-manage-workloads.png" alt-text="Skaala üksuse ja töömahu haldamise kogemus.":::
 

@@ -6,7 +6,7 @@ ms.date: 09/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: PurchTable, SysSecRolesEditUsers, SysWorkloadDuplicateRecord
+ms.search.form: PurchTable, InventTransferOrders, SalesTable, SysSecRolesEditUsers, SysWorkloadDuplicateRecord
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: ''
@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: ae8e9791b590a32581b66853f55ea11bc389bb19
-ms.sourcegitcommit: 96515ddbe2f65905140b16088ba62e9b258863fa
+ms.openlocfilehash: 0d8b0f5a4878a924943f6f8876575d5247875811
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/04/2021
-ms.locfileid: "7891747"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068105"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Laohaldustöökoormused pilv- ja perimeeterskaalaüksuste jaoks
 
@@ -36,7 +36,18 @@ Warehouse management töökoormused võimaldavad pilve- ja servaskaala üksustel
 
 ## <a name="prerequisites"></a>Eeltingimused
 
+Enne laohalduse töökoormusega töötamise alustamist tuleb teie süsteem ette valmistada nii, nagu on kirjeldatud selles jaotises.
+
+### <a name="deploy-a-scale-unit-with-the-warehouse-management-workload"></a>Laohalduse töökoormusega skaalaüksuse juurutamine
+
 Teil peab olema Dynamics 365 Supply Chain Management keskus ja skaalaüksus, mis on rakendatud koos laohalduse töömahuga. Lisateavet arhitektuuri ja juurutamisprotsessi kohta vt [skaala ühikutest jaotatud hübriidtopoloogias](cloud-edge-landing-page.md).
+
+### <a name="turn-on-required-features-in-feature-management"></a>Funktsioonihalduses nõutavate funktsioonide sisselülitamine
+
+[Mõlema järgmise funktsiooni sisselülitamiseks kasutage funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) tööruumi. (Mõlemad funktsioonid on loetletud jaotises *Laohalduse* moodul.)
+
+- ASN-idest kõrvalepaneku töö eradamine
+- (Eelvaade) Skaalaüksuse tugi sissetulevate ja väljaminevate laotellimuste jaoks
 
 ## <a name="how-the-warehouse-execution-workload-works-on-scale-units"></a>Kuidas toimib laohalduse ellurakenduse töökoormus skaalaüksustes
 
@@ -51,10 +62,10 @@ Skaalaühik võib säilitada ainult oma omanduses olevad andmed. Andmete omandi�
 
 ## <a name="outbound-process-flow"></a>Väljamineva protsessi voog
 
-Enne laohalduse töökoormuse juurutamist pilve või servaskaala ühikus veenduge, et teil on ettevõtte keskuses lubatud väljastamistellimuste funktsiooni lattu vabastamiseks *kaaluüksuse* tugi. Administraatorid saavad kasutada [funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sätteid, et kontrollida funktsiooni olekut ja vajadusel selle sisse lülitada. Tööruumis **Funktsioonihaldus** loetletakse funktsiooni järgneval viisil.
+Enne laohalduse töökoormuse juurutamist pilve- või servaskaala üksuses veenduge, et teie ettevõtte jaoturis on *lubatud skaala ühiku tugi väljaminevate tellimuste* lattu vabastamiseks. Administraatorid saavad kasutada [funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sätteid, et kontrollida funktsiooni olekut ja vajadusel selle sisse lülitada. Tööruumis **Funktsioonihaldus** loetletakse funktsiooni järgneval viisil.
 
 - **Moodul:** *laohaldus*
-- **Funktsiooni nimi:** *kaaluühiku tugi lähetustellimuste lattu vabastamiseks*
+- **Funktsiooni nimi:** *Skaala ühiku tugi väljaminevate tellimuste lattu vabastamiseks*
 
 Väljamineva andme omandiõiguse protsess sõltub sellest, kas kasutate koorma planeerimise protsessi. Kõigil juhtudel omab keskus *lähtedokumente* näiteks müügitellimusi ja seotud tellimuse kande andmeid, nagu ka üleviimistellimusi ja sellega seotud tellimuse kandeandmeid. Kuid kui kasutate koorma planeerimise protsessi, luuakse koormad keskusesse ja seetõttu on need algselt keskuse omad. Osana *lattu vabastamise* protsessist edastatakse koormuse andmete omand sihtotstarbelisesse skaalaüksuse juurutusse, millest saab *saadetise voo protsessi* omanik (nagu näiteks töö eraldamine, täiendustöö ja nõudlustöö loomine). Seega saavad laotöötajad töödelda ainult väljamineva müügi- ja üleviimistellimuse tööd, kasutades Warehouse Management mobiilirakendust, mis on ühendatud juurutuse abil, käitades konkreetse astala ühiku töökoormust.
 
@@ -108,6 +119,26 @@ See diagramm näitab sissetulevat voogu ja näitab, kus üksikud äriprotsessid 
 
 [![Väljamineva protsessi voog](media/wes_inbound_warehouse_processes-small.png "Väljamineva protsessi voog")](media/wes_inbound_warehouse_processes.png)
 
+## <a name="production-control"></a>Tootmise juhtimine
+
+Laohalduse töökoormus toetab rakenduses Laohaldus järgmisi kolme tootmisvoogu.
+
+- Teata lõpetamisest ja sea kõrvale
+- Käivita tootmistellimus
+- Materjali tarbimise registreerimine
+
+### <a name="report-as-finished-and-put-away"></a>Teata lõpetamisest ja sea kõrvale
+
+Töötajad saavad aruannet **kasutada lõpetatuks ja ladustada** vooge rakenduses Laohaldus, et teatada tootmis- või partiitellimuse lõpetatuks. Samuti võivad nad teatada kaastoodetest ja kõrvalsaadustest partiitellimusel lõpetatuna. Kui töö lõpetatuna lõpetatuna loetakse, loob süsteem tavaliselt skaalaüksuse laotööd. Kui te ei vaja kaugtööd, saate seadistada oma tööpoliitika selle väljajätmise jaoks.
+
+### <a name="start-production-order"></a>Käivita tootmistellimus
+
+Töötajad saavad tootmis- või partiitellimuse alguse registreerimiseks kasutada **rakenduse Laohalduse tootmistellimuse** käivitamise käivitamist.
+
+### <a name="register-material-consumption"></a>Materjali tarbimise registreerimine
+
+Töötajad saavad kasutada **rakenduse Warehouse Management materjali tarbimise** vooge, et teatada tootmis- või partiitellimuse materjalitarbimisest. Seejärel luuakse komplekteerimislehe tööleht skaalaühiku tootmis- või partiitellimusel esitatud materjali jaoks. Žurnaaliread teevad tarbitud varudele füüsilise reserveeringu. Kui andmed sünkroonitakse skaalaühiku ja jaoturi vahel, luuakse ja konteeritakse jaoturi eksemplari komplekteerimislehe tööleht.
+
 ## <a name="supported-processes-and-roles"></a>Toetatud protsessid ja rollid
 
 Mitte kõiki laohalduse protsesse ei toetata skaalaüksuse lao täitmise töömahus. Seetõttu soovitame määrata rollid, mis vastavad igale kasutajale saadaolevatele funktsioonidele.
@@ -139,22 +170,26 @@ Skaalaühikule saab luua järgmisi töötüüpe ja tänu sellele saab neid laoha
 - **Tsükliline inventuur** - sealhulgas kinnitamise/tagasilükkamise protsess inventuuritoimingute osana.
 - **Ostutellimused** - laotellimuse kaudu tehtud ladustamistöö, kui ostutellimused pole koormatega seostatud.
 - **Müügitellimused** - Lihtne komplekteerimis- ja laadimistöö.
+- **Üleviimistšekk** – numbrimärgi vastuvõtmise töötlemise kaudu.
 - **Edastamise probleem** – lihtne komplekteerimine ja laadimine.
 - **Täiendamine** - Ei hõlma tootmiseks kasutatavaid toormaterjale.
 - **Lõpetatud kaupade ära panemine** – pärast lõpetatuna kinnitatud tootmisprotsessi.
 - **Kaastoote ja kõrvaltoote ära panek** – pärast lõpetatuna kinnitatud tootmisprotsessi.
+<!-- - **Packed container picking** - After manual packing station processing. -->
 
-Skaalaüksustes ei toetata ühtegi teist tüüpi lähtedokumentide töötlemist ega laotööd. Näiteks laohalduse elluviimise töökoormus skaalaüksuses puhul ei saa te teha üleviimistellimuse vastuvõtmise protsessi töötlemist (üleviimise vastuvõtmine), selle asemel tuleb seda töödelda keskuse instantsis.
+Muud tüüpi algdokumendi töötlemise või laotööd ei toetata praegu skaalaühikutes. Näiteks kui jooksete lao täitmise töökoormuse vastu skaalaüksuses, ei saa te tagastustellimuste töötlemiseks kasutada müügi tagastustellimuse vastuvõtmise protsessi. Selle asemel peab selle töötlemise tegema jaoturi eksemplar.
 
 > [!NOTE]
 > Toetuseta funktsioonide mobiilse seadme menüüelemente ega nuppe ei näidata _mobiilirakenduses Warehouse Management_, kui see on skaalaüksuse juurutusega ühendatud.
-> 
+>
+> Laohalduse mobiilirakenduse häälestamiseks pilve- või servaskaala üksuse vastu töötamiseks on vaja mõningaid lisatoiminguid. Lisateavet leiate teemast [Laohalduse mobiilirakenduse konfigureerimine pilve- ja servaskaala ühikute](cloud-edge-workload-setup-warehouse-app.md) jaoks.
+>
 > Kui käitate skaalaüksuses töömahu, ei saa te käitada mittetoetavaid protsesse kindla lao jaoks keskuses. Selles teemas hiljem toodud tabelid dokumenteerivad toetatud võimalusi.
 >
 > Valitud lao töötüüpe saab luua nii keskuses kui ka skaalaüksuses, kuid seda saab säilitada ainult omanikust keskus või skaalaüksus (andmed loonud juurutus).
 >
 > Isegi kui skaalaühik toetab kindlat protsessi, arvestage sellega, et kõiki vajalikke andmeid ei pruugita keskusest skaalaühikusse või skaalaühikust keskusesse sünkroonida, mis võib tuua kaasa ootamatu süsteemitöötluse. Selle stsenaariumi näidete hulgas on:
-> 
+>
 > - Kui kasutate asukohakorralduse päringut, mis ühendab andmetabeli kirje, mis on olemas ainult keskuse juurutamisel.
 > - Kui kasutate asukoha oleku ja/või asukoha mahulise koormuse funktsioone. Neid andmeid ei sünkroonita juurutuste vahel ja seega töötavad ainult asukoha vaba kaubavaru värskendamisel ühes juurutuses.
 
@@ -174,16 +209,16 @@ Järgmised laohalduse funktsioonid ei ole praegu skaalaühiku töökoormustes to
 - Toodete tegeliku kaaluga töötlemine.
 - Töötlemine üksustega, mis on lubatud ainult transpordihalduse (TMS) jaoks.
 - Negatiivse vaba kaubainventuuriga töötlemine.
+- Kontsernisisene tooteandmete ühiskasutus. <!-- Planned -->
 - Laotöö töötlemine saadetise märkustega.
 - Laotöö töötlemine koos materjali töötlemisega/warehouse automation.
 - Toote põhiandmete pildid (näiteks mobiilirakenduses Warehouse Management).
-- Kontsernisisene tooteandmete ühiskasutus.
 
 > [!WARNING]
 > Mõned laofunktsioonid ei ole saadaval ladude puhul, mis käitavad laohalduse töökoormusi skaalaüksuses, ning samuti ei toetata seda keskuse või skaalaüksuse töökoormusega.
-> 
+>
 > Teisi võimalusi saab töödelda mõlemas, kuid nõuab teatud stsenaariumites hoolikat kasutamist, nt kui vaba kaubavaru värskendatakse asünkroonse andmevärskendusprotsessi tõttu samas laos nii keskuse kui ka skaalaüksuse puhul.
-> 
+>
 > Kindlaid funktsioone (nagu näiteks *töö blokeerimine*), mida toetatakse nii keskuses kui ka skaalaüksuses, toetatakse ainult andmete omaniku jaoks.
 
 ### <a name="outbound-supported-only-for-sales-and-transfer-orders"></a>Väljaminev (toetatud ainult müügi- ja üleviimistellimuste puhul)
@@ -201,25 +236,28 @@ Järgmine tabel näitab, milliseid väljaminevaid funktsioone toetatakse ja kus 
 | Voo saadetiste hooldamine                                  | Ei  | Jah|
 | Laotöö töötlemine (sh litsentsiplaadi printimine)        | Ei  | Jah, kuid ainult ülalnimetatud toetatud võimaluste puhul |
 | Kogumi komplekteerimine                                              | Ei  | Jah|
-| Käsitsi pakkimise töötlemine, sh pakitud konteinerite komplekteerimise töö töötlemine | Ei <P>Teatud töötlust saab teha pärast algset komplekteerimisprotsessi, mida käsitseb skaalaüksus, kuid pole soovitatav järgmiste blokeeritud toimingute tõttu.</p>  | Ei |
+| Käsitsi pakkimise töötlemine, sh pakitud konteinerite komplekteerimise töö töötlemine | Nr <P>Osa töötlemisest saab teha pärast esialgset komplekteerimisprotsessi, mida käsitseb skaalaüksus, kuid seda ei soovitata järgmiste blokeeritud toimingute tõttu.</p>  | Ei |
 | Eemalda konteiner grupist                                  | Ei  | Ei |
 | Väljamineva sortimise töötlemine                                  | Ei  | Ei |
 | Koormaga seotud dokumentide printimine                           | Jah | Jah|
 | Konossemendi ja ASN-i loomine                            | Ei  | Jah|
-| Saadetise kinnitus                                             | Ei  | Jah|
-| Saadetise kinnitamine valikuga „Kinnita ja edasta”            | Ei  | Jah|
-| Saatelehe ja arve töötlemine                        | Jah | Ei |
+| Saadetise kinnitus                                             | Nr  | Jah|
+| Saadetise kinnitamine valikuga „Kinnita ja edasta”            | Nr  | Jah|
+| Saatelehe ja arve töötlemine                        | Jah | Nr |
 | Kiire komplekteerimine (müügi- ja üleviimistellimused)                    | Ei  | Jah, lähtedokumentide reserveeringuid eemaldamata|
-| Ümberkomplekteerimine (müügi- ja üleviimistellimused)                     | Ei  | Jah|
+| Ümberkomplekteerimine (müügi- ja üleviimistellimused)                     | Nr  | Jah|
+| Konsolideeri identifitseerimismärgised                                   | Nr  | Jah|
 | Tööasukohtade muutmine (müügi- ja üleviimistellimused)         | Ei  | Jah|
 | Töö lõpetamine (müügi- ja üleviimistellimused)                    | Ei  | Jah|
 | Tööaruande printimine                                            | Jah | Jah|
 | Voo silt                                                   | Ei  | Jah|
 | Töö tükeldamine                                                   | Ei  | Jah|
-| Töö töötlemine – suunaja: transpordi laadimine            | Ei  | Ei |
-| Vähenda komplekteeritavat kogust                                       | Ei  | Jah|
-| Tühista töö                                                 | Ei  | Jah|
-| Saadetise kinnitamise ümberpööramine                                | Ei  | Jah|
+| Töö töötlemine – suunaja: transpordi laadimine            | Nr  | Nr |
+| Vähenda komplekteeritavat kogust                                       | Nr  | Jah|
+| Tühista töö                                                 | Nr  | Jah|
+| Saadetise kinnitamise ümberpööramine                                | Nr  | Jah|
+| Laotellimuse ridade tühistamise taotlus                      | Jah | Ei, kuid taotlus kiidetakse heaks või lükatakse tagasi. |
+| <p>Saate väljastada üleviimistellimusi vastuvõtmiseks</p><p>See protsess toimub automaatselt ülekandetellimuse lähetusprotsessi osana. Seda saab siiski käsitsi kasutada numbrimärgi vastuvõtmise lubamiseks skaalaühikus, kui sissetulevad laotellimuse read on tühistatud või osana uuest töökoormuse juurutamise protsessist.</p> | Jah | Nr|
 
 ### <a name="inbound"></a>Sissetulev
 
@@ -231,18 +269,18 @@ Järgnev tabel näitab, milliseid sissetulevaid funktsioone toetatakse ja kus ne
 | Laadimise ja transpordijuhtimise töötlemine                    | Jah | Ei |
 | Maandumiskulu ja transiitkauba vastuvõtmine                       | Jah | Ei |
 | Sissetuleva saadetise kinnitus                                    | Jah | Ei |
-| Ostutellimuse vabastamine lattu (lao tellimuse töötlemine) | Jah | Ei |
-| Laotellimuse ridade tühistamine<p>Pange tähele, et seda toetatakse ainult siis, kui reaga pole toimingu tühistamise taotluse töötlemise ajal *toimunud ühtegi* registreerimist.</p> | Jah | Ei |
+| Ostutellimuse vabastamine lattu (lao tellimuse töötlemine) | Jah | Nr |
+| Laotellimuse ridade tühistamise taotlus                            | Jah | Ei, kuid taotlus kiidetakse heaks või lükatakse tagasi. |
+| Ostutellimuse algdokumendi toote sissetuleku töötlemine                        | Jah | Nr |
 | Vastuvõttev ostutellimuse üksus ja kõrvaleseadmine                       | <p>Jah,&nbsp;kui &nbsp;sinna&nbsp;lao tellimust pole</p><p>Ei, kui on olemas lao tellimus</p> | <p>Jah, kui ostutellimus pole <i>koormuse</i> osa</p> |
 | Vastuvõttev ostutellimuse rida ja kõrvaleseadmine                       | <p>Jah, kui laotellimust pole</p><p>Ei, kui on olemas lao tellimus</p> | <p>Jah, kui ostutellimus pole <i>koormuse</i> osa</p></p> |
 | Tagastustellimuse vastuvõtt ja kõrvaleseadmine                              | Jah | Ei |
 | Kombineeritud litsentsiplaadi vastuvõtt ja kõrvaleseadmine                       | <p>Jah, kui laotellimust pole</p><p>Ei, kui on olemas lao tellimus</p> | Jah |
-| Vastuvõetav koormas olev kaup                                              | <p>Jah, kui laotellimust pole</p><p>Ei, kui on olemas lao tellimus</p> | Ei |
-| Litsentsiplaadi vastuvõtt ja kõrvaleseadmine                             | <p>Jah, kui laotellimust pole</p><p>Ei, kui on olemas lao tellimus</p> | Ei |
-| Vastuvõttev edastustellimuse üksus ja kõrvaleseadmine                       | Jah | Ei |
-| Vastuvõetava ja kõrvaleseatava tellimuserea ülekanne                       | Jah | Ei |
-| Töö tühistamine (sissetulev)                                            | <p>Jah, kui laotellimust pole</p><p>Ei, kui on olemas lao tellimus</p> | <p>Jah, kuid ainult siis, kui valik <b>Tühista registreerimine töö tühistamisel</b> (lehel <b>Laohalduse parameetrid</b>) on tühistatud</p> |
-| Ostutellimuse toote tšeki töötlemine                        | Jah | Ei |
+| Vastuvõetav koormas olev kaup                                              | <p>Jah, kui laotellimust pole</p><p>Ei, kui on olemas lao tellimus</p> | Nr |
+| Ostutellimus Numbrimärgi vastuvõtmine ja ära panemine              | <p>Jah, kui laotellimust pole</p><p>Ei, kui on olemas lao tellimus</p> | Nr |
+| Tellimuse ülekandmine Numbrimärgi vastuvõtmine ja ära panemine             | Nr | Jah |
+| Vastuvõttev edastustellimuse üksus ja kõrvaleseadmine                       | Jah | Nr |
+| Vastuvõetava ja kõrvaleseatava tellimuserea ülekanne                       | Jah | Nr |
 | Ostutellimuse vastuvõtmine alatarnega                      | <p>Jah, kui laotellimust pole</p><p>Ei, kui on olemas lao tellimus</p> | Jah, kuid ainult keskusest tühistamistaotluse tegemisega |
 | Ostutellimuse vastuvõtmine ületarnega                       | <p>Jah, kui laotellimust pole</p><p>Ei, kui on olemas lao tellimus</p> | Jah  |
 | Vastuvõtmine koos töö *Ristlaadimine* loomisega                 | <p>Jah, kui laotellimust pole</p><p>Ei, kui on olemas lao tellimus</p> | Ei |
@@ -250,8 +288,9 @@ Järgnev tabel näitab, milliseid sissetulevaid funktsioone toetatakse ja kus ne
 | Vastuvõtmine koos töö *Kauba kvaliteedivalim* loomisega          | <p>Jah, kui laotellimust pole</p><p>Ei, kui on olemas lao tellimus</p> | Ei |
 | Vastuvõtmine koos töö *Kvaliteet kvaliteedikontrollis* loomisega       | <p>Jah, kui laotellimust pole</p><p>Ei, kui on olemas lao tellimus</p> | Ei |
 | Vastuvõtmine koos kvaliteettellimuse loomisega                            | <p>Jah, kui laotellimust pole</p><p>Ei, kui on olemas lao tellimus</p> | Ei |
-| Töö töötlemine – suunaja: *Kogumi kõrvalepanek*                 | Jah | Ei |
-| Töö töötlemine koos *kiire komplekteerimisega*                               | Jah | Jah |
+| Töö töötlemine – suunaja: *Kogumi kõrvalepanek*                 | Jah | Nr |
+| Töö töötlemine koos *kiire komplekteerimisega*                               | Jah | Nr |
+| Töö tühistamine (sissetulev)                                            | <p>Jah, kui laotellimust pole</p><p>Ei, kui on olemas lao tellimus</p> | <p>Jah, kuid ainult siis, <b>kui lehel Laohalduse parameetrid</b> on töö<b>tühistamisel</b> kviitungi tühistamine tühjendatud</p> |
 | Litsentsiplaadi laadimine                                           | Jah | Jah |
 
 ### <a name="warehouse-operations-and-exception-handing"></a>Lao toimingud ja erandi üleandmine
@@ -274,12 +313,11 @@ Järgnev tabel näitab, milliseid lao toiminguid ja erandi üleandmise funktsioo
 | Prindi silt uuesti (Litsentsiplaadi printimise)             | Jah | Jah                          |
 | Litsentsiplaadi koostamine                                | Jah | Ei                           |
 | Litsentsiplaadi vahe                                | Jah | Ei                           |
-| Paki pesastatud litsentsiplaatidesse                                | Jah | Ei                           |
+| Paki pesastatud litsentsiplaatidesse                      | Jah | Ei                           |
 | Juhi sisseregistreerimine                                    | Jah | Ei                           |
 | Juhi väljaregistreerimine                                   | Jah | Ei                           |
 | Partii likvideerimiskoodi muutmine                      | Jah | Jah                          |
 | Kuva avatud tööloend                             | Jah | Jah                          |
-| Konsolideeri identifitseerimismärgised                         | Jah | Ei                           |
 | Min/max ja tsooni läve varude täiendamise töötlemine| Jah <p>Soovitatav on sama asukohta päringute osana mitte kaasata</p>| Jah                          |
 | Laoruumi täiendamise töötlemine                  | Jah  | Jah<p>Pange tähele, et seadistus tuleb teha skaalaüksuses</p>                           |
 | Blokeeri ja deblokeeri töö                             | Jah | Jah                          |
@@ -292,28 +330,46 @@ Järgnev tabel näitab, milliseid lao toiminguid ja erandi üleandmise funktsioo
 Järgmine tabel võtab kokku, milliseid laohalduse tootmistsenaariume praegu skaalaühiku töökoormuse korral toetatakse.
 
 | Töötle | Keskus | Lao täitmise töökoormus skaala ühikutes |
-|---------|-----|------------------------------|
-| Teata lõpetamisest ja kaupade kõrvale panemisest | Jah | Jah |
-| Kaastoodete ja kõrvalsaaduste kõrvalepanek | Jah | Jah |
-| Käivita tootmistellimus | Jah | Jah |
-| <p>Kõik muud laohalduse protsessid, mis on seotud tootmisega, kaasa arvatud:</p><li>Lattu väljastamine</li><li>Tootmisvoo töötlemine</li><li>Toormaterjalide komplekteerimine</li><li>Kanbani kõrvalepanek</li><li>Kanbani komplekteerimine</li><li>Tootmise praak</li><li>Tootmise viimane kaubaalus</li><li>Materjali tarbimise registreerimine</li><li>Tühi kanban</li></ul> | Jah | Ei |
-| Toormaterjali täiendamine | Ei | Ei |
+|---------|-----|----------------------------------------------|
+| Tootmistellimuse algdokumendi töötlemine    | Jah | Nr |
+| Lattu väljastamine                           | Jah | Nr |
+| Käivita tootmistellimus                         | Jah | Jah|
+| Laotellimuste loomine                        | Jah | Nr |
+| Laotellimuse ridade tühistamise taotlus        | Jah | Ei, kuid taotlus kiidetakse heaks või lükatakse tagasi. |
+| Teata lõpetamisest ja kaupade kõrvale panemisest | <p>Jah, kui laotellimust pole</p><p>Ei, kui on olemas lao tellimus</p> | Jah|
+| Kaastoodete ja kõrvalsaaduste kõrvalepanek             | <p>Jah, kui laotellimust pole</p><p>Ei, kui on olemas lao tellimus</p> | Jah|
+| Materjali tarbimise registreerimine                  | Jah | Jah|
+| Tootmisvoo töötlemine                     | Jah | Nr |
+| Toormaterjalide komplekteerimine                           | Jah | Nr |
+| Kanbani kõrvalepanek                                | Jah | Nr |
+| Kanbani komplekteerimine                                 | Jah | Nr |
+| Tühi kanban                                   | Jah | Nr |
+| Tootmise praak                               | Jah | Nr |
+| Tootmise viimane kaubaalus                         | Jah | Nr |
+| Toormaterjali täiendamine                     | Nr  | Nr |
 
 ## <a name="maintaining-scale-units-for-warehouse-execution"></a>Skaalaühikute säilitamine lao täitmiseks
 
 Mitu partii-tööd töötavad nii keskuses kui ka skaalaüksustes.
 
-Keskuse juurutamisel saate pakett-töid käsitsi hallata. Saate järgmisi pakett-töösid hallata suvandis **Laohaldus \> Perioodilised ülesanded \> Tagatoa töökoormuse haldamine**:
+Jaoturi juurutuses saate käsitsi hallata järgmisi pakett-töid.
 
-- Skaalaüksus keskusesse sõnumiprotsessor
-- Lähtetellimuse sissetulekute registreerimine
-- Lõpeta laotellimused
+- Hallake järgmisi pakett-töid laohalduses **\> Perioodilised tööülesanded \> Kontori töökoormuse juhtimine**.
 
-Skaalaüksustes saate töökoormuse korral hallata järgmisi pakett-töösid suvandis **Laohaldus \> Perioodilised ülesanded \> Töökoormuse haldamine**.
+    - Skaalaüksus keskusesse sõnumiprotsessor
+    - Lähtetellimuse sissetulekute registreerimine
+    - Lõpeta laotellimused
 
-- Vootabeli kirjete töötlemine
+- Hallake järgmisi pakett-töid laohalduses **\> Perioodilised tööülesanded \> Töökoormuse juhtimine**.
+
+    - Lao keskusest skaalaüksusesse sõnumiprotsessor
+    - Laotellimuse sissetulekute sisestamise laotellimuse rea sissetulekute töötlemine
+
+Skaalaühiku juurutustes saate hallata järgmisi pakett-töid laohalduse perioodiliste ülesannete töökoormuse halduses **\>.\>**
+
+- Töötle voo tabelikirjeid
 - Lao keskusest skaalaüksusesse sõnumiprotsessor
-- Laotellimuse ridade töötlemise koguse värskendustaotlused
+- Laotellimuse sissetulekute sisestamise laotellimuse rea sissetulekute töötlemine
 
 [!INCLUDE [cloud-edge-privacy-notice](../../includes/cloud-edge-privacy-notice.md)]
 

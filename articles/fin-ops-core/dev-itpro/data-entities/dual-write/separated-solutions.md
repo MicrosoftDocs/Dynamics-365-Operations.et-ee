@@ -1,6 +1,6 @@
 ---
-title: Eraldatud topeltkirjutusega rakenduse orkestratsioonipakett
-description: Topeltkirjutusega rakenduse orkestratsioonipakett ei ole enam üks pakett, vaid on eraldatud väiksemateks pakettideks. See teema selgitab lahendusi ja vastemeid, mida iga pakett sisaldab ja selle sõltuvust teistest pakenditest.
+title: Eraldatud kahe kirjutamisrakenduse orkestratsioonipakett
+description: Kahe kirjaga rakenduste orkestreerimispakett ei ole enam üks pakett, vaid on jagatud väiksemateks pakenditeks. Selles teemas selgitatakse lahendusi ja kaarte, mida iga pakett sisaldab, ning selle sõltuvust teistest pakettidest.
 author: RamaKrishnamoorthy
 ms.date: 11/29/2021
 ms.topic: article
@@ -10,55 +10,55 @@ ms.custom: separate-solution
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-11-29
-ms.openlocfilehash: 3fe1b7707df72927fba78ee9659502cc62471799
-ms.sourcegitcommit: 70ac76be31bab7ed5e93f92f4683e65031fbdf85
+ms.openlocfilehash: e2f870368dc662032a3e7ca7ddca902feb23a713
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/16/2021
-ms.locfileid: "7924980"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063258"
 ---
-# <a name="separated-dual-write-application-orchestration-package"></a>Eraldatud topeltkirjutusega rakenduse orkestratsioonipakett
+# <a name="separated-dual-write-application-orchestration-package"></a>Eraldatud kahe kirjutamisrakenduse orkestratsioonipakett
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Varem oli topeltkirjutusega rakenduse orkestrutuspakett üksikpakett, mis sisaldas järgmisi lahendusi:
 
-- Dynamics 365 märkused
-- Dynamics 365 Finance and Operations Üldine ankur
-- Dynamics 365 Finance and Operations Topeltkirjutuse üksuse vastekaardid
-- Dynamics 365 varahalduse rakendus
-- Dynamics 365 varahaldus
+Varem oli kahe kirjutamisrakenduse orkestratsioonipakett üks pakett, mis sisaldas järgmisi lahendusi:
+
+- Dynamics 365 Notes
+- Dynamics 365 Finance ja operatsioonid ühine ankur
+- Dynamics 365 Finance ja toimingud Topeltkirjutus olemi kaardid
+- Dynamics 365 Asset Managementi rakendus
+- Dynamics 365 Asset Management
 - HCM-i ühine
-- Dynamics 365 tarneahelat on laiendatud.
+- Dynamics 365 Supply Chain Extended
 - Dynamics 365 Finance Extended
-- Dynamics 365 Finance and Operations Ühise
-- Dynamics 365 ettevõte
-- Valuuta vahetuskursid
-- Väljateenuse üldine
+- Dynamics 365 Finance ja operatsioonid ühised
+- Dynamics 365 Company
+- Valuutakursid
+- Field Service Common
 
-Kuna see oli üks pakett, lõi see pakett klientide jaoks olukorra "kõik või mitte midagi". Microsoft on nüüd selle eraldanud väiksemateks pakettideks. Seetõttu saab klient valida vaid paketid lahenduste jaoks, mida nad vajavad. Näiteks kui olete Microsofti klient ja te ei vaja integreerimist rakendustega, märkustega ja varahaldusega, võite need lahendused installitud Dynamics 365 Supply Chain Management Dynamics 365 Human Resources lahendustest välja jätta. Kuna aluseks olevad lahendusenimed, avaldaja ja vastendatud versioonid jäävad samaks, ei katke see muudatus. Olemasolevaid installe uuendatakse.
+Kuna see oli üks pakett, lõi see pakett klientidele "kõik või mitte midagi" olukorra. Microsoft on selle nüüd väiksemateks pakettreisideks eraldanud. Seetõttu saab klient valida ainult nende jaoks mõeldud lahenduste paketid. Näiteks kui olete Microsofti Dynamics 365 Supply Chain Management klient ja ei vaja integreerimist, märkmete ja varahaldusega Dynamics 365 Human Resources, saate need lahendused installitud lahendustest välja jätta. Kuna aluseks olevad lahendusenimed, avaldaja ja kaardiversioonid jäävad samaks, ei riku see muudatus. Olemasolevaid seadmeid uuendatakse.
 
 ![Eraldatud pakend.](media/separated-package-1.png)
 
-See teema selgitab lahendusi ja vastemeid, mida iga pakett sisaldab ja selle sõltuvust teistest pakenditest.
+Selles teemas selgitatakse lahendusi ja kaarte, mida iga pakett sisaldab, ning selle sõltuvust teistest pakettidest.
 
-## <a name="dual-write-application-core"></a>Topeltkirjutuse rakenduse tuum
+## <a name="dual-write-application-core"></a>Kahe kirjaga rakenduse tuum
 
-Topeltkirjutusega rakenduse tuumpakett võimaldab kasutajatel installida ja konfigureerida topeltkirjutust ilma kliendikogemuse rakenduseta. See sisaldab järgmist viit lahendust.
+Kahe kirjutamisrakenduse põhipakett võimaldab kasutajatel installida ja konfigureerida topeltkirjutust ilma kliendi kaasamise rakenduseta. See sisaldab viit järgmist lahendust.
 
 | Kordumatu nimi                           | Kuvatav nimi                               |
 |---------------------------------------|--------------------------------------------|
-| Dynamics365Company                    | Dynamics 365 ettevõte                       |
-| Dynamics365FinanceAndOperationsCommon | Dynamics 365 Finance and Operations Ühise |
-| Valuuta vahetuskursi määrad                 | Valuuta vahetuskursid                    |
-| msdyn_DualWriteAppCoreMaps            | Topeltkirjutuse rakenduste põhiüksuse vastekaardid   |
-| msdyn_DualWriteAppCoreAnchor          | Topeltkirjutuse rakenduste tuumankur        |
+| Dynamics365Company                    | Dynamics 365 Company                       |
+| Dynamics365FinanceAndOperationsCommon | Dynamics 365 Finance ja operatsioonid ühised |
+| Valuuta vahetuskursi määrad                 | Valuutakursid                    |
+| msdyn_DualWriteAppCoreMaps            | Kahe kirjutamisrakenduste põhiolemi kaardid   |
+| msdyn_DualWriteAppCoreAnchor          | Kahe kirjaga rakenduste tuumankur        |
 
-Selles paketis on saadaval järgmised vastekaardid.
+Selles paketis on saadaval järgmised kaardid.
 
-| Finance and Operations rakendused     | Klientide kaasamise rakendused                    |
+| Finance and Operationsi rakendused     | Klientide kaasamise rakendused                    |
 |---------------------------------|---------------------------------------------|
 | Tootmisüksus                  | msdyn_internalorganizations                 |
 | Organisatsiooni hierarhia          | msdyn_internalorganizationhierarchies       |
@@ -75,21 +75,21 @@ Selles paketis on saadaval järgmised vastekaardid.
 
 **Sõltuvuse teave**
 
-Topeltkirjutuse rakenduse tuumpakett ei sõltu teistest pakenditest.
+Kahe kirjutamisrakenduse põhipakett ei sõltu teistest pakettidest.
 
-## <a name="dual-write-human-resources"></a>Topeltkirjutuse inimressursid
+## <a name="dual-write-human-resources"></a>Kahepalgeline inimressursid
 
-Topeltkirjutuse inimressursside pakett sisaldab inimressursside andmete sünkroonimiseks vajalikke lahendusi ja vastekaarte. See sisaldab järgmist kolme lahendust.
+Kahe kirjutamisega inimressursside pakett sisaldab lahendusi ja kaarte, mis on vajalikud inimressursside andmete sünkroonimiseks. See sisaldab kolme järgmist lahendust.
 
 | Kordumatu nimi                | Kuvatav nimi                             |
 |----------------------------|------------------------------------------|
 | HCMCommon                  | HCM-i ühine                               |
-| msdyn_Dynamics365HCMMaps   | Dynamics 365 Human Resources üksuse vastekaardid |
-| msdyn_Dynamics365HCMAnchor | Dynamics 365 Human Resources Ankur      |
+| msdyn_Dynamics365HCMMaps   | Dynamics 365 Human Resources olemi kaardid |
+| msdyn_Dynamics365HCMAnchor | Dynamics 365 Human Resources ankur      |
 
-Selles paketis on saadaval järgmised vastekaardid.
+Selles paketis on saadaval järgmised kaardid.
 
-| Finance and Operations rakendused | Klientide kaasamise rakendused         |
+| Finance and Operationsi rakendused | Klientide kaasamise rakendused         |
 |-----------------------------|----------------------------------|
 | Etniline päritolu              | cdm_ethnicorigins                |
 | Tasu tööfunktsioon   | cdm_jobfunctions                 |
@@ -105,21 +105,21 @@ Selles paketis on saadaval järgmised vastekaardid.
 
 **Sõltuvuse teave**
 
-Topeltkirjutuse inimressursside pakett sõltub topeltkirjutuse rakenduse põhipaketist. Seetõttu peaksite installima topeltkirjutuse rakenduse põhipaketi enne topeltkirjutuse inimressursside paketi installimist.
+Kahe kirjutaga inimressursside pakett sõltub kahe kirjaga rakenduspõhi paketist. Seetõttu peaksite enne kahe kirjutava inimressursside paketi installimist installima topeltkirjutamisrakenduse põhipaketi.
 
-## <a name="dual-write-supply-chain"></a>Topeltkirjutuse hankeahel
+## <a name="dual-write-supply-chain"></a>Kahe kirjaga tarneahel
 
-Topeltkirjutuse tarneahela pakett sisaldab lahendusi ja vastekaarte, mida on vaja tarneahela halduse andmete sünkroonimiseks. See sisaldab järgmist kolme lahendust.
+Kahe kirjutakuga tarneahela pakett sisaldab lahendusi ja kaarte, mis on vajalikud tarneahela halduse andmete sünkroonimiseks. See sisaldab kolme järgmist lahendust.
 
 | Kordumatu nimi                                | Kuvatav nimi                                              |
 |--------------------------------------------|-----------------------------------------------------------|
-| Dynamics365SupplyChainextended             | Dynamics 365 tarneahelat on laiendatud.                        |
-| msdyn_Dynamics365SupplyChainExtendedMaps   | Dynamics 365 Supply Chain Management laiendatud üksuse vastekaardid |
+| Dynamics365SupplyChainExtended             | Dynamics 365 Supply Chain Extended                        |
+| msdyn_Dynamics365SupplyChainExtendedMaps   | Dynamics 365 Supply Chain Management laiendatud olemikaardid |
 | msdyn_Dynamics365SupplyChainExtendedAnchor | Dynamics 365 Supply Chain Management laiendatud ankur      |
 
-Selles paketis on saadaval järgmised vastekaardid.
+Selles paketis on saadaval järgmised kaardid.
 
-| Finance and Operations rakendused                 | Klientide kaasamise rakendused                      |
+| Finance and Operationsi rakendused                 | Klientide kaasamise rakendused                      |
 |---------------------------------------------|-----------------------------------------------|
 | Ühikud                                       | uoms                                          |
 | CDS-i müügitellimuse päised                     | müügitellimused                                   |
@@ -165,9 +165,9 @@ Selles paketis on saadaval järgmised vastekaardid.
 | Tootekategooria määramised                | msdyn_productcategoryassignments              |
 | Tootekategooriad                          | msdyn_productcategories                       |
 | Lao asukohad                         | msdyn_inventorylocations                      |
-| CDS-varud sisse                            | msdyn_inventoryonhandentries                  |
+| CDS-i varud on peal                            | msdyn_inventoryonhandentries                  |
 | Tootekategooriad                          | msdyn_productcategories                       |
-| CDS-varud sisse                            | msdyn_inventoryonhandrequests                 |
+| CDS-i varud on peal                            | msdyn_inventoryonhandrequests                 |
 | Tootenumbriga tuvastatud vöötkood           | msdyn_productbarcodes                         |
 | Kliendikaart                                | msdyn_loyaltycards                            |
 | Püsikliendi preemiapunktid                       | msdyn_loyaltyrewardpoints                     |
@@ -178,30 +178,30 @@ Selles paketis on saadaval järgmised vastekaardid.
 
 **Sõltuvuse teave**
 
-Topeltkirjutuse tarneahela pakett sõltub järgmisest kolmest paketist. Seetõttu peaksite need paketid installima enne tarneahela topeltkirjutuse paketi installimist.
+Kahe kirjaga tarneahela pakett sõltub järgmisest kolmest paketist. Seetõttu peaksite need paketid enne topeltkirjutamispaketi installimist installima.
 
-- Topeltkirjutuse rakenduse tuumpakett
-- Topeltkirjutuse finantspakett
-- Topeltkirjutuse inimressursside pakett
+- Kahe kirjaga rakenduse põhipakett
+- Kahe kirjaga finantspakett
+- Kahe kirjutaga inimressursside pakett
 
-## <a name="dual-write-finance"></a>Topeltkirjutuse finantsid
+## <a name="dual-write-finance"></a>Kahe kirjutaga rahandus
 
-Topeltkirjutuse finantspakett sisaldab andmete sünkroonimiseks vajalikke lahendusi ja Dynamics 365 Finance vastekaarte. See sisaldab järgmist nelja lahendust.
+Kahe kirjutamisega finantspakett sisaldab lahendusi ja kaarte, mis on vajalikud andmete sünkroonimiseks Dynamics 365 Finance. See sisaldab nelja järgmist lahendust.
 
 | Kordumatu nimi                            | Kuvatav nimi                               |
 |----------------------------------------|-------------------------------------------|
 | Dynamics365FinanceExtended             | Dynamics 365 Finance Extended             |
-| msdyn_Dynamics365FinanceExtendedMaps   | Dynamics 365 Finance laiendatud üksuse vastekaardid |
-| FieldServiceCommon                     | Väljateenuse üldine                      |
+| msdyn_Dynamics365FinanceExtendedMaps   | Dynamics 365 Finance laiendatud olemikaardid |
+| FieldServiceCommon                     | Field Service Common                      |
 | msdyn_Dynamics365FinanceExtendedAnchor | Dynamics 365 Finance laiendatud ankur      |
 
-Selles paketis on saadaval järgmised vastekaardid.
+Selles paketis on saadaval järgmised kaardid.
 
-| Finance and Operations rakendused             | Klientide kaasamise rakendused        |
+| Finance and Operationsi rakendused             | Klientide kaasamise rakendused        |
 |-----------------------------------------|---------------------------------|
 | Kinnipeetava maksugrupid                  | msdyn_withholdingtaxgroups      |
-| CDS Contacts V2 (klient)              | kontaktid                        |
-| CDS-kontaktid V2 (hankija)                | kontaktid                        |
+| CDS kontaktid V2 (klient)              | kontaktid                        |
+| CDS kontaktid V2 (hankija)                | kontaktid                        |
 | Kliendid V3                            | kontaktid                        |
 | Kinnipeetava maksu koodid                   | msdyn_withholdingtaxcodes       |
 | Hankijad V2                              | msdyn_vendors                   |
@@ -232,20 +232,20 @@ Selles paketis on saadaval järgmised vastekaardid.
 
 **Sõltuvuse teave**
 
-Topeltkirjutuse finantspakett sõltub topeltkirjutuse rakenduse põhipaketist. Seetõttu peate installima topeltkirjutuse rakenduse põhipaketi enne topeltkirjutuse finantside paketi installimist.
+Kahe kirjutakuga finantspakett sõltub kahe kirjaga rakenduse põhipaketist. Seetõttu peaksite enne topeltkirjutusrakenduse finantspaketi installimist installima topeltkirjutamisrakenduse põhipaketi.
 
-## <a name="dual-write-notes"></a>Topeltkirjutusmärkmed
+## <a name="dual-write-notes"></a>Kahe kirjutamismärkmed
 
-Topeltkirjutuse märkuste pakett sisaldab lahendusi ja vastendusi, mida on vaja märkuse või marginaali andmete sünkroonimiseks. See sisaldab järgmist nelja lahendust.
+Kahe kirjutamisega märkmete pakett sisaldab lahendusi ja kaarte, mis on vajalikud märkme- või marginaaliandmete sünkroonimiseks. See sisaldab nelja järgmist lahendust.
 
 | Kordumatu nimi                  | Kuvatav nimi                   |
 |------------------------------|--------------------------------|
-| Dynamics365notes             | Dynamics 365 märkused             |
-| Dynamics365NotesExtended     | Dynamics 365-märkusi on laiendatud.    |
-| msdyn_Dynamics365NotesMaps   | Dynamics 365 märkuste üksuse vastemed |
-| msdyn_Dynamics365NotesAnchor | Dynamics 365 märkuste ankur      |
+| Dynamics365Notes             | Dynamics 365 Notes             |
+| Dynamics365NotesExtended     | Dynamics 365 märkmeid laiendatud    |
+| msdyn_Dynamics365NotesMaps   | Dynamics 365 märkmete olemikaardid |
+| msdyn_Dynamics365NotesAnchor | Dynamics 365 märkmete ankur      |
 
-Selles paketis on saadaval järgmised vastekaardid.
+Selles paketis on saadaval järgmised kaardid.
 
 | Finance and Operations                     | Customer Engagement |
 |--------------------------------------------|---------------------|
@@ -256,25 +256,25 @@ Selles paketis on saadaval järgmised vastekaardid.
 
 **Sõltuvuse teave**
 
-Topeltkirjutuse märkuste pakett sõltub kahest järgmisest paketist. Seetõttu peaksite need paketid installima enne topeltkirjutuse märkuste paketi installimist.
+Kahe kirjaga märkmete pakett sõltub kahest järgmisest paketist. Seetõttu peaksite need paketid enne topeltkirjutusmärkmete paketi installimist installima.
 
-- Topeltkirjutuse rakenduse tuumpakett
-- Topeltkirjutuse finantspakett
+- Kahe kirjaga rakenduse põhipakett
+- Kahe kirjaga finantspakett
 
-## <a name="dual-write-asset-management"></a>Topeltkirjutuse varahaldus
+## <a name="dual-write-asset-management"></a>Kahe kirjaga varahaldus
 
-Topeltkirjutuse varahalduse pakett sisaldab lahendusi ja vastekaarte, mida on vaja varade haldamisest või kaartidest Dynamics 365 Field Service sünkroonimiseks. See sisaldab järgmist nelja lahendust.
+Kahe kirjutamisvarahalduse pakett sisaldab lahendusi ja kaarte, mis on vajalikud tarneahela halduse või Dynamics 365 Field Service. See sisaldab nelja järgmist lahendust.
 
 | Kordumatu nimi                          | Kuvatav nimi                              |
 |--------------------------------------|-------------------------------------------|
-| Dynamics365AssetManagement           | Dynamics 365 varahaldus             |
-| Dynamics365AssetManagementApp        | Dynamics365 varahalduse rakendus          |
-| msdyn_DualWriteAssetManagementMaps   | Dynamics 365 varahalduse üksuse vastekaardid |
-| msdyn_DualWriteAssetManagementAnchor | Dynamics 365 varahalduse ankur      |
+| Dynamics365AssetManagement           | Dynamics 365 Asset Management             |
+| Dynamics365AssetManagementApp        | Dynamics365 Asset Managementi rakendus          |
+| msdyn_DualWriteAssetManagementMaps   | Dynamics 365 Asset Managementi olemikaardid |
+| msdyn_DualWriteAssetManagementAnchor | Dynamics 365 Asset Managementi ankur      |
 
-Selles paketis on saadaval järgmised vastekaardid.
+Selles paketis on saadaval järgmised kaardid.
 
-| Finance and Operations rakendused                           | Klientide kaasamise rakendused                |
+| Finance and Operationsi rakendused                           | Klientide kaasamise rakendused                |
 |-------------------------------------------------------|-----------------------------------------|
 | Varahalduse garantii                             | msdyn_warranties                        |
 | Varahalduse mudelid                               | msdyn_models                            |
@@ -290,13 +290,13 @@ Selles paketis on saadaval järgmised vastekaardid.
 
 **Sõltuvuse teave**
 
-Topeltkirjutuse varahalduse pakett sõltub topeltkirjutuse rakenduse põhipaketist. Seetõttu peate installima topeltkirjutuse rakenduse põhipaketi enne topeltkirjutuse varahalduse paketi installimist.
+Kahe kirjutamisvarahalduse pakett sõltub kahe kirjaga rakenduspõhi paketist. Seetõttu peaksite enne topeltkirjutusvarahalduse paketi installimist installima topeltkirjutamisrakenduse põhipaketi.
 
-## <a name="packages-required-for-project-operations"></a>Projektitoiminguteks vajalikud paketid
-Projektitoimingud sõltuvad järgmistest pakettdest. Seetõttu peaksite need paketid installima enne projektitoimingute installimist.
+## <a name="packages-required-for-project-operations"></a>Projektitoimingute jaoks vajalikud paketid
+Projektitoimingud sõltuvad järgmistest pakettidest. Seetõttu peaksite need paketid enne Project Operationsi installimist installima.
 
-- Topeltkirjutuse rakenduse tuumpakett
-- Topeltkirjutuse finantspakett
-- Topeltkirjutuse tarneahela pakett
-- Topeltkirjutuse varahalduse pakett
-- Topeltkirjutuse inimressursside pakett
+- Kahe kirjaga rakenduse põhipakett
+- Kahe kirjaga finantspakett
+- Kahe kirjaga tarneahela pakett
+- Kahe kirjaga varahalduse pakett
+- Kahe kirjutaga inimressursside pakett

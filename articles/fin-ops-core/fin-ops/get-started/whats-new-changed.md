@@ -1,6 +1,6 @@
 ---
-title: Mis on uut või mida on muudetud teenuse Finance and Operations rakenduste avalehel?
-description: See leht suunab teid teemadele, mis võivad aidata teil saada lisateavet teenuse Finance and Operations rakenduste uute funktsioonide kohta.
+title: Mis on uut või muudetud rakenduste Finance and Operations avalehel?
+description: See lehekülg suunab teid teemadele, mis võivad aidata teil saada lisateavet värskeima Finance and Operationsi versiooni uusimate funktsioonide kohta.
 author: josaw1
 ms.date: 02/14/2020
 ms.topic: article
@@ -17,30 +17,37 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-09-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: 06f7e9b39b72a5e2cbbc06949dda7f16f2405250dd6c25b919260daca76e33bc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 8348f935ddee557a5f47b550c24f78cf68e37db2
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759181"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075196"
 ---
-# <a name="whats-new-or-changed-in-finance-and-operations-apps-home-page"></a>Mis on uut või mida on muudetud teenuse Finance and Operations rakenduste avalehel?
+# <a name="whats-new-or-changed-in-finance-and-operations-apps-home-page"></a>Mis on uut või muudetud rakenduste Finance and Operations avalehel?
 
 [!include [banner](../includes/banner.md)]
 
 
 ## <a name="application-releases"></a>Rakenduse väljaanded
 
-Et näha, mis on teenuse Finance and Operations iga rakenduse väljalaskes uut või muudetud, vaadake järgmisi teemasid.
+Finance and Operationsi rakenduse igas väljaandes uue või muudetud vaatamiseks vaadake järgmisi teemasid.
 
-- **Finance:** [Mis on uut või mida on muudetud rakenduses Dynamics 365 Finance?](../../../finance/get-started/whats-new-home-page.md) 
+- **Finance:** [Mis on uut või mida on muudetud rakenduses Dynamics 365 Finance?](../../../finance/get-started/whats-new-home-page.md)
+- **Inimressursid (ühendatud infrastruktuur):**[mis on Microsoftis uut või muudetud? Dynamics 365 Human Resources](../../../human-resources/get-started/hr-whats-new-changed-10-0-25.md)  
 - **Supply Chain Management:** [Mis on uut või mida on muudetud rakenduses Dynamics 365 Supply Chain Management?](../../../supply-chain/get-started/whats-new-home-page.md) 
 - **Commerce:** [Mis on uut või mida on muudetud rakenduses Dynamics 365 Commerce?](../../../commerce/get-started/whats-new-home-page.md)
+
+
+## <a name="stand-alone-applications"></a>Eraldiseisvad rakendused
+
+Eraldises Dynamics 365 Human Resources uue või muutunud vaatamiseks vaadake järgmist teemat.
+
 - **Human Resources:** [Mis on uur või muudetud rakenduses Dynamics 365 Human Resources](../../../human-resources/hr-admin-whats-new.md)
 
 ## <a name="platform-updates"></a>Platvormivärskendused
 
-Et näha, mis on uut või mida muudetud teenuse Finance and Operations rakenduste platvormivärskendustes, vaadake järgmist teemat.
+Rakenduste Finance and Operations värskendustes uue või muudetud vaatamiseks vaadake järgmist teemat.
 
 - [Mis on uut või mida on muudetud Platform update'is?](../../dev-itpro/get-started/whats-new-home-page.md)
 

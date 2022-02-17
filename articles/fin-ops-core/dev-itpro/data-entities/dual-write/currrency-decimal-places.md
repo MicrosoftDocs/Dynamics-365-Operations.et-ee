@@ -9,18 +9,18 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-04-06
-ms.openlocfilehash: bce58631ecd54bb90993bd552d529d3b379de1b1
-ms.sourcegitcommit: 6762a674a552353d9f53587923c9acba9b43cb56
+ms.openlocfilehash: e9dc3e6c5fbec9636370b64a9bbdcf8a5834d332
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/13/2021
-ms.locfileid: "7917726"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8061832"
 ---
 # <a name="currency-data-type-migration-for-dual-write"></a>Valuuta andmetüübi migreerimine topeltkirjutamise jaoks
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Saate suurendada valuutaväärtuste puhul toetatavate kümnendkohtade arvu kuni kümneni. Vaikepiirang on neli kümnendkohta. Kümnendkohtade arvu suurendades aitate vältida andmekadu siis, kui kasutate andmete sünkroonimiseks topeltkirjutamist. Kümnendkohtade arvu suurendamine on valikuline muudatus. Selle rakendamiseks peate paluma Microsoftilt abi.
 
@@ -29,7 +29,7 @@ Kümnendkohtade arvu muutmise protsessil on kaks sammu.
 1. Taotlege Microsoftilt migreerimist.
 2. Muutke kümnendkohtade arv teenuses Dataverse.
 
-Rakendus Finance and Operations ja teenus Dataverse peavad toetama valuutaväärtuste puhul sama kümnendkohtade arvu. Vastasel juhul võib esineda andmekadu, kui seda teavet sünkroonitakse rakenduste vahel. Migreerimisprotsess muudab viisi, kuidas valuuta- ja vahetuskursiväärtuseid talletatakse, kuid mitte andmeid. Pärast migreerimise lõpule viimist saab valuutakoodide ja hinnakujunduse kümnendkohtade arvu suurendada ning andmed, mida kasutajad sisestavad ja vaatavad, võivad hõlmata täpsemaid kümnendkohti.
+Rakendus Finance and Operations ja Dataverse peab toetama valuuta väärtustes sama arvu kümnendkohti. Vastasel juhul võib esineda andmekadu, kui seda teavet sünkroonitakse rakenduste vahel. Migreerimisprotsess muudab viisi, kuidas valuuta- ja vahetuskursiväärtuseid talletatakse, kuid mitte andmeid. Pärast migreerimise lõpule viimist saab valuutakoodide ja hinnakujunduse kümnendkohtade arvu suurendada ning andmed, mida kasutajad sisestavad ja vaatavad, võivad hõlmata täpsemaid kümnendkohti.
 
 Migreerimine on valikuline. Kui rohkemate kümnendkohtade tugi võib teile kasuks tulla, soovitame teil migreerimist kaaluda. Organisatsioonid, millel pole vaja rohkem kui nelja kümnendkohaga väärtuseid, ei pea migreerima.
 
@@ -37,7 +37,7 @@ Migreerimine on valikuline. Kui rohkemate kümnendkohtade tugi võib teile kasuk
 
 Olemasolevate valuutaveergude talletamise puhul teenuses Dataverse ei toetata rohkem kui nelja kümnendkohta. Seetõttu kopeeritakse valuutaväärtused migreerimise käigus andmebaasi uutele sisemistele veergudele. See protsess jätkub, kuni kõik andmed on migreeritud. Migreerimise lõpus asendatakse vanad talletustüübid sisemiselt uute talletustüüpidega, kuid andmeväärtused ei muutu. Valuutaveerud toetavad seejärel kuni kümmet kümnendkohta. Migreerimise käigus saab jätkata teenuse Dataverse kasutamist häirimatult.
 
-Samal ajal muudetakse vahetuskursse nii, et need toetaks kuni 12 kümnendkohta praeguse kümnese piirangu asemel. See muudatus on vajalik selleks, et kümnendkohtade arv oleks sama nii rakenduses Finance and Operations kui ka teenuses Dataverse.
+Samal ajal muudetakse vahetuskursse nii, et need toetaks kuni 12 kümnendkohta praeguse kümnese piirangu asemel. See muudatus on vajalik, et kümnendkohtade arv oleks sama nii rakenduses Finance and Operations kui ka rakenduses Dataverse.
 
 Migreerimine ei muuda andmeid. Pärast valuuta- ja vahetuskursivveergude teisendamist saavad administraatorid seadistada süsteemi kasutama valuutaveergude puhul kuni kümmet kümnendkohta, määrates kümnendkohtade arvu iga kande valuuta ning hinnakujunduse jaoks.
 
@@ -83,20 +83,20 @@ Kui teil on vaja, et konkreetse valuuta täpsus erineks hinnakujunduses kasutata
 
 ![Konkreetse lokaadi valuutasätted.](media/specific-currency.png)
 
-### <a name="tables-currency-column"></a>Tabelid: valuuta veerg
+### <a name="tables-currency-column"></a>Tabelid: Valuuta veerg
 
 Kindlate valuutaveergude jaoks konfigureeritav maksimaalne kümnendkohtade arv on neli.
 
-### <a name="default-currency-decimal-precision"></a>Vaikevaluuta kümnendarvuline täpsus
-Migreerimise ja mittesiirde stsenaariumide vaikimisi valuuta kümnendarvu täpsuse eeldatava käitumise jaoks vaadake järgmist tabelit. 
+### <a name="default-currency-decimal-precision"></a>Vaikevaluuta kümnendkoha täpsus
+Vaikevaluuta kümnendkoha täpsuse eeldatava käitumise kohta ülemineku ja mittemigreerimise stsenaariumide puhul vaadake järgmist tabelit. 
 
-| Loomiskuupäev  | Valuuta kümnendkoht    | Olemasolev org (valuutavälja ei migreerita) | Olemasolev org (ülekantud valuutaväli) | Uus org. loomise järgselt 9.2.21062.00134 |
+| Loomiskuupäev  | Valuuta kümnendväli    | Olemasolev organisatsioon (valuuta väli pole üle viidud) | Olemasolev organisatsioon (valuuta väli migreeritud) | Uus organisatsioon lõi postituse ehituse 9.2.21062.00134 |
 |---------------------------------------------------------|-------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|------------------------------------------------|
-| Enne valuutakursi loomist 9.2.21111.00146  |     |  |       |
-|    | Maksimaalne täpsus, mis on nähtav kasutajaliideses.   | 4 numbrit    | 10 numbrit    | Pole    |
-| | Maksimaalne täpsus, mis on nähtav andmebaasis ja andmebaasi päringutulemuste kasutajaliideses         | 4 numbrit   | 10 numbrit   | Pole    |
-| Pärast valuuta 9.2.21111.00146 |    |  |     |   |
-|   | Kasutajaliideses nähtav kümnendarvuline täpsus     | 4 numbrit   | 10 numbrit   | 10 numbrit     |
-|          | Maksimaalne kümnendarvuline täpsus, mis on nähtav andmebaasi ja andmebaasi päringutulemuste kasutajaliideses | 10 numbrit. Kuid ainult 4 on oluline, kui kõik nullid on väljaspool nelja kümnendkohta. See võimaldab vajadusel organisatsiooni lihtsamat ja kiiremat siirdet. | 10 numbrit      | 10 numbrit     |
+| Valuuta väli loodud enne ehitamist 9.2.21111.00146  |     |  |       |
+|    | Kasutajaliideses nähtav maksimaalne täpsus   | 4 numbrit    | 10 numbrit    | Pole    |
+| | Maksimaalne täpsus on nähtav andmebaasi ja DB päringutulemuste kasutajaliideses         | 4 numbrit   | 10 numbrit   | Pole    |
+| Valuuta väli loodud pärast ehitamist 9.2.21111.00146 |    |  |     |   |
+|   | Kasutajaliideses nähtav maksimaalne kümnendkoha täpsus     | 4 numbrit   | 10 numbrit   | 10 numbrit     |
+|          | Maksimaalne kümnendkoha täpsus on nähtav andmebaasi ja DB päringutulemuste kasutajaliideses | 10 numbrit. Kuid ainult 4 on olulised, kui kõik nullid ületavad nelja kümnendkoha numbrit. See võimaldab vajadusel organisatsiooni lihtsamat ja kiiremat migratsiooni. | 10 numbrit      | 10 numbrit     |
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

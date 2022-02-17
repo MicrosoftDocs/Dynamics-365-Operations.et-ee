@@ -15,14 +15,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 08c8015e8729a4ca33f3fb3c48f654e489f32f3f
-ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
+ms.openlocfilehash: 90dd59b605c21abd03d2e0d64a89dc787850c26e
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/01/2021
-ms.locfileid: "7729047"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065197"
 ---
 # <a name="create-questionnaires"></a>Küsimustike loomine
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -63,7 +66,7 @@ Mõned eeltingimused peavad olema kehtestatud enne, kui saate küsimustikke, vas
 
 ### <a name="questionnaire-types"></a>Küsimustike tüübid
 
-**·** Küsimustikutüübid on nõutavad ning need tuleb määrata küsimustiku loomisel. **·** Küsimustikutüübid aitavad küsimustikke hallata ja liigitada lihtsamaks. Kasutage küsimustike tüüpe küsimustike klassifitseerimiseks ja üksteisest eristamiseks. Näiteks kui teil on mitu küsimustikku, mille vahel valida, võite neid tüübi järgi filtreerida, et konkreetset küsimustikku oleks lihtsam leida. Siin on mõned näited küsimustike tüüpide kohta.
+**Küsimustiku tüübid** on nõutavad ja need tuleb küsimustiku loomisel määrata. **Küsimustiku tüübid** aitab teil küsimustikke hõlpsamini hallata ja klassifitseerida. Kasutage küsimustike tüüpe küsimustike klassifitseerimiseks ja üksteisest eristamiseks. Näiteks kui teil on mitu küsimustikku, mille vahel valida, võite neid tüübi järgi filtreerida, et konkreetset küsimustikku oleks lihtsam leida. Siin on mõned näited küsimustike tüüpide kohta.
 
 -   inimressursside areng,
 -   kliendiülevaated,
@@ -71,9 +74,9 @@ Mõned eeltingimused peavad olema kehtestatud enne, kui saate küsimustikke, vas
 
 ### <a name="question-types"></a>Küsimuste tüübid
 
-**Küsimuse tüübid** on nõutavad ning need tuleb küsimuse loomisel määrata. 
+**Küsimuste tüübid** on kohustuslikud ja need tuleb küsimuse loomisel määrata. 
 
-Aruandluse **küsimuste** kategoriseerimiseks kasutage küsimuste tüüpe. **Küsimuste tüübid** lihtsustavad küsimuste otsimist, sest lehte Küsimused saab filtritena **·** kasutada. Siin on mõned näited küsimuste tüüpide kohta.
+Kasuta **Küsimuste tüübid** aruandluse küsimuste kategoriseerimiseks. **Küsimuste tüübid** hõlbustavad ka küsimuste leidmist, sest saate tüüpe kasutada filtritena **Küsimused** lehel. Siin on mõned näited küsimuste tüüpide kohta.
 
 -   Inimressursid
 -   Ärijuhtimine
@@ -92,7 +95,7 @@ Kõik parameetrid tuleks määratleda enne andmete loomise alustamist. Küsimust
 ## <a name="questionnaire-components"></a>Küsimustiku osad
 Küsimustikud hõlmavad kolme põhielementi: vastusegruppe, mis sisaldavad valikvastustega küsimuste vastuseid, küsimusi ja küsimustikku ennast. Soovi korral saab küsimustiku küsimused tulemusegruppidesse jagada. Tulemusegrupid võimaldavad küsimusi kategoriseerida ja küsimustikku edasi analüüsida. 
 
-[![ QuestionnaireComponents.](./media/questionnairecomponents-1024x615.png)](./media/questionnairecomponents.png)
+[![QuestionnaireComponents.](./media/questionnairecomponents-1024x615.png)](./media/questionnairecomponents.png)
 
 ### <a name="answer-groups-and-answers"></a>Vastusegrupid ja vastused
 
@@ -105,7 +108,7 @@ Võimaliku vastuste loendi esitamiseks suletud küsimustele võite luua vastused
 
 Vastusegrupid ja vastused on komponendid, mis moodustavad küsimuste aluseks oleva teabe põhiosa. Pärast vastusegrupi loomist saate seostada selle vastusegrupi küsimusega väljal **Vastusegrupp** lehel **Küsimused**. 
 
-Vastustegruppi saab kasutada samas küsimustikus rohkem kui ühe küsimuse puhul ning seda saab **kasutada ka rohkem kui ühes** küsimustikus. 
+An **Vastuste grupp** saab kasutada sama küsimustiku rohkem kui ühe küsimuse jaoks ja seda saab kasutada ka rohkem kui ühes küsimustikus. 
 
 > [!NOTE]
 > Kui muudate vastuste rühmas vastuse teksti, mida on juba kasutatud täidetud küsimustikes, võib andmete hindamine osutuda raskeks ja küsimustiku tulemused ei pruugi enam kehtida. Kui teil on vaja vastusegruppi muuta, kaaluge olemasoleva grupi muutmise asemel uue vastusegrupi loomist. Küsimuse või vastusega seotud või vastatud vastusegruppe ei saa kustutada.
@@ -171,7 +174,7 @@ Küsimustikus ei saa kustutada järgmist tüüpi küsimusi.
 
 ### <a name="result-groups"></a>Tulemustegrupid
 
-**·** Tulemustegrupid on küsimustikuga küsimuste seostamisel valikulised. 
+**Tulemusrühmad** on valikulised, kui lisate küsimustikule küsimusi. 
 
 Tulemusegruppi kasutatakse punktide arvestamiseks ja küsimustiku tulemuste kategooriatesse jagamiseks. Kui kasutate tulemusegruppe, saate teha järgmist.
 

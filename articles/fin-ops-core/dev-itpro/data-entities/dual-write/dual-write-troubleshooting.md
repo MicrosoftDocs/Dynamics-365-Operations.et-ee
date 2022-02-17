@@ -1,6 +1,6 @@
 ---
 title: Üldine tõrkeotsing
-description: See teema annab teavet rakendustekomplekti Finance and Operations ja Dataverse’i vahelise andmete topeltkirjutuse integratsiooni üldise tõrkeotsingu kohta.
+description: See teema pakub üldist tõrkeotsinguteavet finance and Operationsi rakenduste ja rakenduse kahe kirjutamise integreerimiseks Dataverse.
 author: RamaKrishnamoorthy
 ms.date: 03/16/2020
 ms.topic: article
@@ -9,25 +9,25 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: bcedb9f6e8fb15210512ed6a376d4329759593e4
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: f6f5b9f26990e2f4db9bf69040a6c4be31400b40
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781170"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062334"
 ---
 # <a name="general-troubleshooting"></a>Üldine tõrkeotsing
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-See teema annab teavet rakendustekomplekti Finance and Operations ja Dataverse’i vahelise andmete topeltkirjutuse integratsiooni üldise tõrkeotsingu kohta.
+
+See teema pakub üldist tõrkeotsinguteavet finance and Operationsi rakenduste ja rakenduse kahe kirjutamise integreerimiseks Dataverse.
 
 > [!IMPORTANT]
 > Mõne selles teemas käsitletava probleemi korral on nõutav kas süsteemiadministraatori roll või Microsoft Azure Active Directory (Azure AD) rentniku administraatori mandaat. Kõigis probleeme kirjeldavates jaotistes täpsustatakse, kas konkreetne roll või mandaat on nõutav.
 
-## <a name="enable-and-view-the-plug-in-trace-log-in-dataverse-to-view-error-details"></a><a id="enable-view-trace"></a> Teenuse Dataverse’i lisandmooduli jälituslogide lubamine ja kuvamine tõrke üksikasjade kuvamiseks
+## <a name="enable-and-view-the-plug-in-trace-log-in-dataverse-to-view-error-details"></a><a id="enable-view-trace"></a>Teenuse Dataverse’i lisandmooduli jälituslogide lubamine ja kuvamine tõrke üksikasjade kuvamiseks
 
 **Jälituslogi sisselülitamiseks ja tõrgete kuvamiseks nõutav roll:** süsteemiadministraator
 
@@ -44,38 +44,38 @@ Jälituslogi kuvamiseks toimige järgmiselt.
 2. Leiate jälituslogid siis, kui veeru **Tüübi nimi** väärtuseks on seatud **Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PreCommmitPlugin**.
 3. Täieliku logi vaatamiseks topeltklõpsake üksust ja seejärel vaadake üle kiirkaardil **Käivitamine** tekst **Teateplokk**.
 
-## <a name="enable-debug-mode-to-troubleshoot-live-synchronization-issues-in-finance-and-operations-apps"></a>Silumisrežiim lubamine tõrkeotsingu reaalajas sünkroonimise probleemide korral Finance and Operations i rakendustes
+## <a name="enable-debug-mode-to-troubleshoot-live-synchronization-issues-in-finance-and-operations-apps"></a>Lubage silumisrežiimil reaalajas sünkroonimisprobleemide tõrkeotsing Finance and Operationsi rakendustes
 
 **Tõrgete vaatamiseks nõutav roll:** süsteemiadministraator
 
-Dataverse'ist pärinevaid topeltkirjutuse tõrkeid võidakse kuvada Finance and Operations i rakenduses. Vigade paljusõnalise logimise lubamiseks toimige järgmiselt:
+Rakenduses Finance and Operations võivad ilmneda topeltkirjutamisvead, mis pärinevad Dataverse rakendusest Finance and Operations. Vigade paljusõnalise logimise lubamiseks toimige järgmiselt:
 
-1. Kõigil Finance and Operations rakenduste projekti konfiguratsioonidel on atribuut **Silumisrežiim** tabelis **TopeltKirjutuseProjektiKonfiguratsioon**.
-2. **TopeltKirjutuseProjektiKonfiguratsioon** avamine Exceli lisandmooduliga. Lisandmooduli kasutamiseks lubage kujundusrežiim Finance and Operations Exceli lisandmoodulis ja lisage lehele **TopeltKirjutuseProjektiKonfiguratsioon**. Lisateavet vaata [üksuse andmete kuvamiseks ja värskendamiseks Exceli`ga](../../office-integration/use-excel-add-in.md).
+1. Kõigi rakenduse Finance and Operations projektikonfiguratsioonide puhul on dualWrite Projektikonfiguratsiooni tabelis Lipu **isDebugMode** **.**
+2. **TopeltKirjutuseProjektiKonfiguratsioon** avamine Exceli lisandmooduliga. Lisandi kasutamiseks lubage kujundusrežiim Exceli lisandis Finance and Operations ja lisage **lehele DualWrite Projektikonfiguratsioon**. Lisateavet vaata [üksuse andmete kuvamiseks ja värskendamiseks Exceli`ga](../../office-integration/use-excel-add-in.md).
 3. Seadke projekti **Silumisrežiim** väärtuseks **Jah**.
 4. Käivitage stsenaarium, mis tekitab tõrkeid.
 5. Paljusõnalised logid salvestatakse **TopeltKirjutusTõrkeLogi** tabelisse.
 6. Tabelibrauseri andmete otsimiseks kasutage järgmist linki: `https://999aos.cloudax.dynamics.com/?mi=SysTableBrowser&tableName=DualWriteErrorLog`, asendades `999` vastavalt vajadusele.
 7. Uuendage uuesti pärast [KB 4595434](https://fix.lcs.dynamics.com/Issue/Details?kb=4595434&bugId=527820&dbType=3&qc=98e5dc124ac125c57ad633d885ac612aea3ddb8f4abf9d71ab3aa354f2e06cbe), mis on saadaval platvormi värskendusteks 37 ja uuemad. Kui see parandus on installitud, hõivab silumisrežiim rohkem logisid.  
 
-## <a name="check-synchronization-errors-on-the-virtual-machine-for-the-finance-and-operations-app"></a>Rakenduse Finance and Operations virtuaalarvuti sünkroonimistõrgete kontrollimine
+## <a name="check-synchronization-errors-on-the-virtual-machine-for-the-finance-and-operations-app"></a>Rakenduse Finance and Operations virtuaalmasina sünkroonimistõrgete kontrollimine
 
 **Tõrgete vaatamiseks nõutav roll:** süsteemiadministraator
 
 1. Microsoft Dynamics Lifecycle Services’i (LCS) sisselogimine.
 2. Avage LCS-i projekt, mille valisite topeltkirjutamise testimiseks.
 3. Valige paan **Pilve majutatud keskkonnad**.
-4. Kasutage rakenduse Finance and Operations virtuaalarvutisse (VM) sisselogimiseks kaugtöölauda. Kasutage LCS-is kuvatud kohalikku kontot.
+4. Kaugtöölaua abil saate rakenduse Finance and Operations virtuaalmasinasse (VM) sisse logida. Kasutage LCS-is kuvatud kohalikku kontot.
 5. Avage sündmusevaatur.
 6. Valige **Rakenduste ja teenuste logid \> Microsoft \> Dynamics \> AX-DualWriteSync \> Toiming**.
 7. Vaadake läbi hiljutiste tõrgete loend.
 
-## <a name="unlink-and-link-another-dataverse-environment-from-a-finance-and-operations-app"></a>Linkimise tühistamine ja teise Dataverse'i keskkonna linkimine Finance and Operations i rakendusest
+## <a name="unlink-and-link-another-dataverse-environment-from-a-finance-and-operations-app"></a>Teise Dataverse keskkonna linkimise tühistamine ja linkimine rakendusest Finance and Operations
 
-**Keskkonna linkimise tühistamiseks nõutav roll:** kas Finance and Operations i rakenduse või teenuse Dataverse süsteemiadministraator.
+**Keskkonna linkimise tühistamiseks vajalik roll:** rakenduse Finance and Operations või Dataverse.
 
-1. Logige rakendusse Finance and Operations sisse.
-2. Avage **Tööruumid \> Andmehaldus** ja valige paan **Topeltkirjutus**.
+1. Logige sisse rakendusse Finance and Operations.
+2. Avage **Tööruumid \>Andmehaldus** ja valige paan **Topeltkirjutus**.
 3. Valige kõik töötavad vastendused ja valige **Peata**.
 4. Valige nupp **Tühista keskkonna link**.
 5. Toimingu kinnitamiseks valige **Jah**.

@@ -1,6 +1,6 @@
 ---
-title: Fiskaalregistreerimise teenuse integreerimise näidis Austria juurutuse juhised (pärand)
-description: See teema annab juhised Austria fiskaalintegratsiooni näidiste juurutamiseks jaemüügi tarkvara Microsoft Dynamics 365 Commerce arenduskomplektist (SDK).
+title: Austria maksuregistreerimisteenuse integratsioonivalimi kasutuselevõtu juhised (pärand)
+description: Selles teemas antakse juhised Austria fiskaalintegratsiooni valimi juurutamiseks jaemüügi tarkvaraarenduskomplektist Microsoft Dynamics 365 Commerce (SDK).
 author: EvgenyPopovMBS
 ms.date: 12/20/2021
 ms.topic: article
@@ -9,44 +9,44 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: c038773dc7c1c475f5852f0f0272b59516140593
-ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
+ms.openlocfilehash: 6238b67a35a303a03c51bbd261dd24d1b2acf041
+ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7944659"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "8077111"
 ---
-# <a name="deployment-guidelines-for-the-fiscal-registration-service-integration-sample-for-austria-legacy"></a>Fiskaalregistreerimise teenuse integreerimise näidis Austria juurutuse juhised (pärand)
+# <a name="deployment-guidelines-for-the-fiscal-registration-service-integration-sample-for-austria-legacy"></a>Austria maksuregistreerimisteenuse integratsioonivalimi kasutuselevõtu juhised (pärand)
 
 [!include [banner](../includes/banner.md)]
 
-See teema annab juhised Austria fiskaalregistreerimise teenuse integreerimise näidiste juurutamiseks jaemüügi tarkvara arenduskomplektist (SDK) arendaja virtuaalmasinasse Microsoft Dynamics 365 Commerce (VM) Microsoft Dynamics elutsükli teenustes (LCS). Lisateavet fiskaalintegratsiooni näidiste kohta vt [Austria fiskaalteenuste integreerimise näidist](emea-aut-fi-sample.md). 
+See teema annab juhised Austria fiskaalregistratuuri teenuse integreerimise proovi juurutamiseks jaemüügi tarkvaraarenduskomplektist Microsoft Dynamics 365 Commerce (SDK) arendaja virtuaalses masinas Microsoft Dynamics (VM) lifecycle Services (LCS). Lisateavet selle fiskaalse integratsiooni valimi kohta leiate [teemast Fiskaalregistreerimisteenuse integratsiooninäidis Austria kohta](emea-aut-fi-sample.md). 
 
-Austria fiskaalintegratsiooni näidis on osa jaemüügi SDK-st. Lisateavet selle kohta, kuidas installida ja kasutada SDK-d, vt [jaemüügi tarkvara arenduskomplekti (SDK) ülesehitust](../dev-itpro/retail-sdk/retail-sdk-overview.md). Fiskaalintegratsiooni näidis koosneb Commerce Runtime' (CRT), riistvarajaama ja kassa laiendustest. Selle näidisprojekti käivitamiseks peate muutma ja üles ehitada CRT projektid Riistvarajaam ja Müügikoha projektid. Selles teemas kirjeldatud muudatuste vaatamiseks on soovitatav kasutada jaemüügi SDK-d, mida pole võimalik muuta. Soovitame kasutada ka allikakontrollisüsteemi, näiteks Azure DevOps sellistena, kus faile pole veel muudetud.
+Austria fiskaalseintegratsiooni valim on osa jaemüügi SDK-st. SDK installimise ja kasutamise kohta leiate teavet teemast [Jaemüügi tarkvaraarenduskomplekti (SDK) arhitektuur](../dev-itpro/retail-sdk/retail-sdk-overview.md). Fiskaalintegratsiooni näidis koosneb Commerce'i käitusaja (CRT), riistvarajaama ja müügikoha (müügikoha) laiendustest. Selle proovi käitamiseks peate muutma ja ehitama CRT, riistvarajaama ja kassaprojekte. Soovitame selles teemas kirjeldatud muudatuste tegemiseks kasutada modifitseerimata Retail SDK-d. Samuti soovitame kasutada allika juhtimissüsteemi, näiteks Azure DevOps kui ühtegi faili pole veel muudetud.
 
 ## <a name="development-environment"></a>Arenduskeskkonnad
 
-Järgige neid samme arenduskeskkonna häälestamiseks, et saate testida ja laiendada näidist.
+Arengukeskkonna seadistamiseks järgige neid juhiseid, et saaksite proovi testida ja pikendada.
 
-### <a name="enable-commerce-runtime-extensions"></a>Luba Äri käitusaja laiendid
+### <a name="enable-commerce-runtime-extensions"></a>Commerce'i käitusajalaiendite lubamine
 
-CRT Laienduskomponendid kaasatakse CRT näidiste hulka. Järgmiste protseduuride lõpule viimiseks avage **CommerceRuntimeSamples.sln lahendus** **retailSdk \\ SampleExtensions \\ CommerceRuntime'i** all.
+Laienduskomponendid CRT sisalduvad proovides CRT. Järgmiste protseduuride lõpuleviimiseks avage **CommerceRuntimeSamples.sln** solution under **RetailSdk\\SampleExtensions\\CommerceRuntime**.
 
-#### <a name="documentproviderefrsample-component"></a>DocumentProvider.EFRSample'i komponent
+#### <a name="documentproviderefrsample-component"></a>DocumentProvider.EFRSample komponent
 
-1. Leidke projekt **Runtime.Extensions.DocumentProvider.EFRSample** ja koostage see.
-2. Leidke kaustast **Runtime.Extensions.DocumentProvider.EFRSample \\ bin \\ Silumine** **Contoso.Commerce.Runtime.DocumentProvider.EFRSample.dll** assemblerifail.
-3. Kopeerige assemblerifail CRT laiendite kausta:
+1. **Leidke projekt Runtime.Extensions.DocumentProvider.EFRSample** ja ehitage see.
+2. Otsige kaustast **Runtime.Extensions.DocumentProvider.EFRSample\\bin\\Debug** üles **assemblerifail Contoso.Commerce.Runtime.DocumentProvider.EFRSample.dll** assemblerfaili.
+3. Kopeerige assemblerifail CRT kausta Laiendused.
 
-    - **Commerce Scale Unit:** kopeerige fail **\\ bin \\ ext kausta** teenuse Internet Information Services (IIS) Commerce Scale Unit saidi asukoha all.
-    - **Kohalik CRT modern POS-s:** kopeerige fail kohaliku kliendi **\\** maakleri asukoha ext-kausta. CRT
+    - **Commerce Scale Unit:** kopeerige fail internetiteabeteenuste (IIS) Commerce Scale Uniti saidi asukoha all olevasse **\\bin\\ext** kausta.
+    - **Kohalik CRT kaasaegses kassas:** kopeerige fail **\\ ext** kausta kohaliku CRT kliendimaakleri asukoha all.
 
-4. Leidke laiendi CRT konfiguratsioonifail:
+4. Leidke laiendi konfiguratsioonifail:CRT
 
-    - **Commerce Scale Unit: faili nimi on** **commerceruntime.ext.config ja see on IIS Commerce Scale Uniti saidi asukoha** bin **\\** ext-kaustas.
-    - **Modern CRT POS-is kohalik: faili nimi on** **CommerceRuntime.MPOSOffline.Ext.config ja see on kohaliku kliendi** maakleri CRT asukoha all.
+    - **Commerce Scale Unit:** faili nimi **on commerceruntime.ext.config** ja see asub prügikasti **\\ kaustas** IIS Commerce Scale Unit saidi asukoha all.
+    - **Kohalik CRT kaasaegses kassas:** faili nimi **on CommerceRuntime.MPOSOffline.Ext.config** ja see on kohaliku CRT kliendimaakleri asukoha all.
 
-5. Registreerige CRT muudatus laiendi konfiguratsioonifailis.
+5. Registreerige CRT laienduse konfiguratsioonifaili muudatus.
 
     ``` xml
     <add source="assembly" value="Contoso.Commerce.Runtime.DocumentProvider.EFRSample" />
@@ -54,32 +54,32 @@ CRT Laienduskomponendid kaasatakse CRT näidiste hulka. Järgmiste protseduuride
 
 #### <a name="documentproviderdatamodelefr-component"></a>DocumentProvider.DataModelEFR komponent
 
-1. Leidke projekt **Runtime.Extensions.DocumentProvider.DataModelEFR** ja koostage see.
-2. Leidke kaustast **Runtime.Extensions.DocumentProvider.DataModelEFR \\ bin \\ Silumine** **Contoso.Commerce.Runtime.DocumentProvider.DataModelEFR.dll** assemblerifail.
-3. Kopeerige assemblerifail CRT laiendite kausta:
+1. **Leidke projekt Runtime.Extensions.DocumentProvider.DataModelEFR** ja ehitage see.
+2. Otsige üles kaust **Runtime.Extensions.DocumentProvider.DataModelEFR\\bin\\Debug** assemblerifail **Contoso.Commerce.Runtime.DocumentProvider.DataModelEFR.dll** assemblerifail.
+3. Kopeerige assemblerifail CRT kausta Laiendused.
 
-    - **Commerce Scale Unit:** kopeerige fail **\\ bin \\ ext kausta** IIS Commerce Scale Uniti saidi asukoha all.
-    - **Kohalik CRT modern POS-s:** kopeerige fail kohaliku kliendi **\\** maakleri asukoha ext-kausta. CRT
+    - **Commerce Scale Unit:** kopeerige fail **\\bin\\ext** IIS Commerce'i skaala ühiku saidi asukoha all.
+    - **Kohalik CRT kaasaegses kassas:** kopeerige fail **\\ ext** kausta kohaliku CRT kliendimaakleri asukoha all.
 
-4. Leidke laiendi CRT konfiguratsioonifail:
+4. Leidke laiendi konfiguratsioonifail:CRT
 
-    - **Commerce Scale Unit: faili nimi on** **commerceruntime.ext.config ja see on IIS Commerce Scale Uniti saidi asukoha** bin **\\** ext-kaustas.
-    - **Modern CRT POS-is kohalik: faili nimi on** **CommerceRuntime.MPOSOffline.Ext.config ja see on kohaliku kliendi** maakleri CRT asukoha all.
+    - **Commerce Scale Unit:** faili nimi **on commerceruntime.ext.config** ja see asub prügikasti **\\ kaustas** IIS Commerce Scale Unit saidi asukoha all.
+    - **Kohalik CRT kaasaegses kassas:** faili nimi **on CommerceRuntime.MPOSOffline.Ext.config** ja see on kohaliku CRT kliendimaakleri asukoha all.
 
-5. Registreerige CRT muudatus laiendi konfiguratsioonifailis.
+5. Registreerige CRT laienduse konfiguratsioonifaili muudatus.
 
     ``` xml
     <add source="assembly" value="Contoso.Commerce.Runtime.DocumentProvider.DataModelEFR" />
     ```
 
-#### <a name="extension-configuration-file"></a>Laiendi konfiguratsioonifail
+#### <a name="extension-configuration-file"></a>Laienduse konfiguratsioonifail
 
-1. Leidke laiendi CRT konfiguratsioonifail:
+1. Leidke laiendi konfiguratsioonifail:CRT
 
-    - **Commerce Scale Unit: faili nimi on** **commerceruntime.ext.config ja see on IIS Commerce Scale Uniti saidi asukoha** bin **\\** ext-kaustas.
-    - **Modern CRT POS-is kohalik: faili nimi on** **CommerceRuntime.MPOSOffline.Ext.config ja see on kohaliku kliendi** maakleri CRT asukoha all.
+    - **Commerce Scale Unit:** faili nimi **on commerceruntime.ext.config** ja see asub prügikasti **\\ kaustas** IIS Commerce Scale Unit saidi asukoha all.
+    - **Kohalik CRT kaasaegses kassas:** faili nimi **on CommerceRuntime.MPOSOffline.Ext.config** ja see on kohaliku CRT kliendimaakleri asukoha all.
 
-2. Registreerige CRT muudatus laiendi konfiguratsioonifailis.
+2. Registreerige CRT laienduse konfiguratsioonifaili muudatus.
 
     ``` xml
     <add source="assembly" value="Microsoft.Dynamics.Commerce.Runtime.ReceiptsAustria" />
@@ -89,40 +89,40 @@ CRT Laienduskomponendid kaasatakse CRT näidiste hulka. Järgmiste protseduuride
 
 ### <a name="enable-hardware-station-extensions"></a>Riistvarajaama laienduste lubamine
 
-Riistvarajaama laienduse komponendid sisalduvad riistvarajaama näidises. Järgmiste protseduuride sooritamiseks **avage** **RetailSdk \\ SampleExtensions \\ HardwareStationis konfiguratsioonilahendus HardwareStationSamples.sln.**
+Riistvarajaama laienduse komponendid sisalduvad riistvarajaama näidistes. Järgmiste protseduuride lõpuleviimiseks avage **HardwareStationSamples.sln** lahendus jaotises **RetailSdk\\SampleExtensions\\HardwareStation**.
 
-#### <a name="efrsample-component"></a>EFRSample'i komponent
+#### <a name="efrsample-component"></a>EFRSample komponent
 
-1. Otsige üles **projekt HardwareStation.Extension.EFRSample** ja koostage see.
-2. Leidke **kaustast Extension.EFRSample \\ bin \\** Silumine järgmised assemblerifailid:
+1. **Leidke projekt HardwareStation.Extension.EFRSample** ja ehitage see.
+2. Leidke kaustast **Extension.EFRSample\\bin\\Debug** järgmised assemblerifailid.
 
     - Contoso.Commerce.HardwareStation.EFRSample.dll
     - Contoso.Commerce.Runtime.DocumentProvider.DataModelEFR.dll
 
-3. Kopeerige assemblerifailid riistvarajaama laienduste kausta:
+3. Kopeerige assemblerifailid kausta Riistvarajaama laiendused.
 
-    - **Ühiskasutatav riistvarajaam:** kopeerige failid **IIS**-i riistvarajaama saidi asukoha bin-kausta.
-    - **Modern POS-i sihtotstarbeline riistvarajaam:** kopeerige failid Modern POS-i kliendi maakleri asukohta.
+    - **Ühiskasutusega riistvarajaam:** kopeerige failid IIS-i riistvarajaama saidi asukoha all olevasse **prügikasti** kausta.
+    - **Spetsiaalne riistvarajaam kaasaegses kassas:** kopeerige failid Kaasaegse kassa kliendimaakleri asukohta.
 
-4. Leidke riistvarajaama laienduste laiendite konfiguratsioonifail. Faili nimi on **HardwareStation.Extension.config.**
+4. Leidke riistvarajaama laienduste konfiguratsioonifail. Faili nimi **on HardwareStation.Extension.config**.
 
-    - **Ühiskasutatav riistvarajaam:** fail asub IIS-i riistvarajaama saidi asukohas.
-    - **Modern POS-i sihtotstarbeline riistvarajaam:** fail asub Modern POS-i kliendi maakleri asukoha all
+    - **Jagatud riistvarajaam:** fail asub IIS-i riistvarajaama saidi asukoha all.
+    - **Spetsiaalne riistvarajaam kaasaegses kassas:** fail asub Kaasaegse kassa kliendimaakleri asukoha all.
 
-5. Lisage konfiguratsioonifaili **koostise** jaotisse järgmine rida.
+5. Lisage konfiguratsioonifaili kompositsioonijaotisse **järgmine** rida.
 
     ``` xml
     <add source="assembly" value="Contoso.Commerce.HardwareStation.EFRSample.dll" />
     ```
 
-### <a name="enable-modern-pos-extension-components"></a>Modern POS-i laienduse komponentide lubamine
+### <a name="enable-modern-pos-extension-components"></a>Kaasaegsete kassalaiendi komponentide lubamine
 
-1. Avage **RetailPOS.slni lahendus retailSdk POS-i all ja veenduge, et** **seda saab \\** kompileerida tõrgeteta. Lisaks veenduge, et saate Modern POS-i käivitada Visual Studio **käsuga** Käivita.
+1. **Avage rakenduses RetailSdkPOS** **modernpos.sln\\ lahendus** ja veenduge, et seda saab vigadeta koostada. Lisaks veenduge, et saate käivitada modernse Visual Studio kassa, kasutades **käsku Käivita**.
 
     > [!NOTE]
-    > Tänapäevane kassa ei tohi olla kohandatud. Peate kasutajakonto juhtelemendi (UAC) lubama ja vastavalt vajadusele desinstallima modern POS-i varem installitud eksemplarid.
+    > Kaasaegset kassat ei tohi kohandada. Peate lubama kasutajakonto juhtimise (UAC) ja vajaduse korral desinstallima varem installitud kaasaegse kassa eksemplarid.
 
-2. Lubage laienduste laadimine, lisades failile **extensions.json järgmised** read.
+2. Luba laiendite laadimine, lisades faili extensions.json **järgmised** read.
 
     ``` json
     {
@@ -135,15 +135,15 @@ Riistvarajaama laienduse komponendid sisalduvad riistvarajaama näidises. Järgm
     ```
 
     > [!NOTE]
-    > Lisateavet ja näidiseid, mis näitavad, kuidas kaasata lähtekoodi kaustu ja lubada laiendite laadimist, vt readme.md juhised **müügikoha laienduste** projektis.
+    > Lisateavet ja näidiste kohta, mis näitavad lähtekoodi kaustade kaasamist ja laienduste laadimist, leiate projekti Pos.Extensions **readme.md faili juhistest**.
 
-3. Saate lahenduse uuesti luua.
-4. Käivitage Modern POS siluris ja katsege funktsioone.
+3. Taastage lahendus uuesti.
+4. Käivitage siluris kaasaegne müügikoha ja testige funktsionaalsust.
 
-### <a name="enable-cloud-pos-extension-components"></a>Pilve kassa laienduse komponentide lubamine
+### <a name="enable-cloud-pos-extension-components"></a>Pilveteenuse müügikoha laienduskomponentide lubamine
 
-1. Avage **rakenduse** **RetailSdk POS all CloudPOS.sln lahendus ja veenduge, et seda saab \\** kompileerida tõrgeteta.
-2. Lubage laienduste laadimine, lisades failile **extensions.json järgmised** read.
+1. **Avage CloudPOS.sln** lahendus jaotises **RetailSdk\\POS** ja veenduge, et seda saab vigadeta koostada.
+2. Luba laiendite laadimine, lisades faili extensions.json **järgmised** read.
 
     ``` json
     {
@@ -156,18 +156,18 @@ Riistvarajaama laienduse komponendid sisalduvad riistvarajaama näidises. Järgm
     ```
 
     > [!NOTE]
-    > Lisateavet ja näidiseid, mis näitavad, kuidas kaasata lähtekoodi kaustu ja lubada laiendite laadimist, vt readme.md juhised **müügikoha laienduste** projektis.
+    > Lisateavet ja näidiste kohta, mis näitavad lähtekoodi kaustade kaasamist ja laienduste laadimist, leiate projekti Pos.Extensions **readme.md faili juhistest**.
 
-3. Saate lahenduse uuesti luua.
-4. Käivitage lahendus, kasutades **käsku Käivita** ja järgides Jaemüügi SDK kasutusjuhend.
+3. Taastage lahendus uuesti.
+4. Käivitage lahendus käsu Run **abil** ja järgides rakenduse Retail SDK juhiseid.
 
 ## <a name="production-environment"></a>Tootmiskeskkond
 
-Eelmine protseduur võimaldab laiendusi, mis on fiskaalregistreerimise teenuse integratsiooni näidise komponendid. Lisaks peate järgima neid samme Commerce'i komponente sisaldavate juurutatavate pakendite loomiseks ja nende pakendite rakendamiseks tootmiskeskkonnas.
+Eelmine protseduur võimaldab laiendusi, mis on finantsregistreerimisteenuse integratsioonivalimi komponendid. Lisaks peate järgima neid juhiseid, et luua juurutatavad paketid, mis sisaldavad Commerce'i komponente, ja rakendada need paketid tootmiskeskkonnas.
 
-1. Tehke paketi konfiguratsioonifailides kausta **RetailSdk Assets all järgmised \\** muudatused:
+1. Tehke paketi konfiguratsioonifailides kausta RetailSdkAssets **\\ all** järgmised muudatused.
 
-    - Lisage **konfiguratsioonifailides commerceruntime.ext.config ja** **CommerceRuntime.MPOSOffline.Ext.config koostise** jaotisele **järgmised** read.
+    - **Lisage konfiguratsioonifailidesse commerceruntime.ext.config** ja **CommerceRuntime.MPOSOffline.Ext.config** kompositsioonijaotisesse **järgmised** read.
 
         ``` xml
         <add source="assembly" value="Contoso.Commerce.Runtime.DocumentProvider.EFRSample" />
@@ -177,91 +177,91 @@ Eelmine protseduur võimaldab laiendusi, mis on fiskaalregistreerimise teenuse i
         <add source="assembly" value="Microsoft.Dynamics.Commerce.Runtime.XZReportsAustria" />
         ```
 
-    - **Konfiguratsioonifailis HardwareStation.Extension.config** lisage koostise jaotisele **järgmine** rida.
+    - Lisage konfiguratsioonifaili HardwareStation.Extension.config **kompositsioonijaotisesse** **järgmine** rida.
 
         ``` xml
         <add source="assembly" value="Contoso.Commerce.HardwareStation.EFRSample" />
         <add source="assembly" value="Contoso.Commerce.Runtime.DocumentProvider.DataModelEFR" />
         ```
 
-2. Tehke kausta **BuildTools all kohanduspaketi** kohandamise konfiguratsioonifailis **järgmised** muudatused:
+2. Tehke kausta BuildTools all **paketi kohandamise konfiguratsioonifailis** Customization.settings **konfiguratsioonifailis** järgmised muudatused.
 
-    - Lisage järgmised read, et kaasata CRT laiendused juurutatavatesse pakendisse.
+    - Lisage järgmised read, et lisada CRT laiendused juurutatavatesse pakettidesse.
 
         ``` xml
         <ISV_CommerceRuntime_CustomizableFile Include="$(SdkReferencesPath)\Contoso.Commerce.Runtime.DocumentProvider.EFRSample.dll" />
         <ISV_CommerceRuntime_CustomizableFile Include="$(SdkReferencesPath)\Contoso.Commerce.Runtime.DocumentProvider.DataModelEFR.dll" />
         ```
 
-    - Lisage järgmine rida, et kaasata riistvarajaama laiend juurutatavatesse pakendisse.
+    - Lisage järgmine rida, et lisada juurutatavatesse pakettidesse riistvarajaama laiendus.
 
         ``` xml
         <ISV_HardwareStation_CustomizableFile Include="$(SdkReferencesPath)\Contoso.Commerce.HardwareStation.EFRSample.dll" />
         <ISV_HardwareStation_CustomizableFile Include="$(SdkReferencesPath)\Contoso.Commerce.Runtime.DocumentProvider.DataModelEFR.dll" />
         ```
 
-3. Käivitage rakenduse MSBuild käsuviip utiliidi jaoks ja käivitage Visual Studio **msbuild kausta** Retail SDK all juurutatavate pakettide loomiseks.
-4. Rakendage pakendid LCS-i kaudu või käsitsi. Lisateavet vt teemast [Juurutatavate pakendite](../dev-itpro/retail-sdk/retail-sdk-packaging.md) loomine.
-5. Täitke kõik nõutavad seadistustoimingud, mida on kirjeldatud [Austria häälestamisprogrammis.](emea-aut-fi-sample.md#set-up-commerce-for-austria)
+3. Käivitage utiliidi jaoks Visual Studio käsuviip MSBuild ja käivitage **msbuild** kausta Retail SDK all juurutatavate pakettide loomiseks.
+4. Rakendage paketid LCS-i kaudu või käsitsi. Lisateavet vt teemast [Create deployable packages](../dev-itpro/retail-sdk/retail-sdk-packaging.md).
+5. Täitke kõik vajalikud seadistustoimingud, mida on kirjeldatud jaotises [Austria](emea-aut-fi-sample.md#set-up-commerce-for-austria) Commerce'i häälestamine.
 
 ## <a name="design-of-extensions"></a>Laienduste kujundus
 
-Fiskaalregistreerimisteenuse integreerimise näidis Austria jaoks põhineb [fiskaalintegratsiooni](fiscal-integration-for-retail-channel.md) funktsioonil. Lisateavet fiskaalintegratsiooni lahenduse kujunduse kohta vt [fiskaalintegratsiooni näidiskujunduse](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices) ülevaatest.
+Austria fiskaalregistreerimisteenuse integratsiooninäidis põhineb fiskaalintegratsiooni [funktsioonil](fiscal-integration-for-retail-channel.md). Lisateavet fiskaalintegratsiooni lahenduse kujunduse kohta leiate [fiskaalintegratsiooni näidisprojekti](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) ülevaatest.
 
-### <a name="commerce-runtime-extension-design"></a>Äri käitusaja laiendi kujundus
+### <a name="commerce-runtime-extension-design"></a>Commerce'i käitusaja laienduse kujundus
 
-Fiskaaldokumendi pakkuja laiendi eesmärk on luua teenusepõhiseid dokumente ja käsitleda fiskaalregistreerimise teenuse vastuseid.
+Fiskaaldokumendi pakkuja laienduse eesmärk on luua teenusepõhiseid dokumente ja käsitleda fiskaalregistreerimisteenuse vastuseid.
 
-Laiend CRT on **Runtime.Extensions.DocumentProvider.EFRSample.**
+Laiendus CRT on **Runtime.Extensions.DocumentProvider.EFRSample**.
 
-#### <a name="request-handler"></a>Nõudeohjur
+#### <a name="request-handler"></a>Taotluse käitleja
 
-Dokumendi pakkujatel on kaks nõudeohjureid:
+Dokumendipakkujatele on kaks päringukäsitlejat.
 
-- **DocumentProviderEFRFiscalAUT – seda ohjurit kasutatakse** fiskaaldokumentide loomiseks fiskaalregistreerimise teenusele.
-- **DocumentProviderEFRNonFiscalAUT – seda ohjurit kasutatakse fiskaalregistreerimise teenuse** mittefiskaalsete dokumentide loomiseks.
+- **DocumentProviderEFRFiscalAUT** – seda käitlejat kasutatakse finantsregistreerimisteenuse finantsdokumentide loomiseks.
+- **DocumentProviderEFRNonFiscalAUT** – seda käitlejat kasutatakse fiskaalregistreerimisteenuse jaoks mitte fiscal-dokumentide loomiseks.
 
-Need ohjurid on päritud **INamedRequestHandler** liideselt. Meetod **HandlerName** vastutab ohjuri nime tagastamise eest. Ohjuri nimi peab vastama Commerce Headquartersis määratud konnektori dokumendi pakkuja nimele.
+Need käitlejad on päritud **INamedRequestHandleri** liidesest. **Käitleja nime tagastamise eest vastutab meetod HandlerName**. Käitleja nimi peaks vastama Commerce'i peakontoris määratud konnektori dokumendipakkuja nimele.
 
-Konnektor toetab järgmisi taotlusi:
+Konnektor toetab järgmisi taotlusi.
 
-- **GetFiscalDocumentDocumentProviderRequest** – see taotlus sisaldab teavet selle kohta, milline dokument tuleks luua. See tagastab teenusepõhise dokumendi, mis tuleb registreerida fiskaalregistreerimise teenuses.
-- **GetNonFiscalDocumentDocumentProviderRequest – see taotlus sisaldab teavet** mittefiskaalse dokumendi genereerimise kohta. See tagastab teenusepõhise dokumendi, mis tuleb registreerida fiskaalregistreerimise teenuses.
-- **GetSupportedRegistrableEventsDocumentProviderRequest – see taotlus tagastab** tellitavate sündmuste loendi. Praegu toetatakse järgmisi sündmusi: müük, X-aruande printimine, Z-aruande printimine, kliendikonto deposiitid, kliendi tellimuse deposiitid, auditi sündmused ja mittemüügikanded.
-- **GetFiscalRegisterResponseToSaveDocumentProviderRequest – see taotlus tagastab** fiskaalregistreerimise teenuse vastuse. See vastus järjestatakse stringi moodustamiseks nii, et see on salvestamiseks valmis.
+- **GetFiscalDocumentDocumentProviderRequest** – see taotlus sisaldab teavet selle kohta, milline dokument tuleks luua. See tagastab teenusepõhise dokumendi, mis tuleks registreerida maksuregistreerimisteenuses.
+- **GetNonFiscalDocumentDocumentProviderRequest** – see taotlus sisaldab teavet selle kohta, milline mitte-fiskaalne dokument tuleks luua. See tagastab teenusepõhise dokumendi, mis tuleks registreerida maksuregistreerimisteenuses.
+- **GetSupportedRegistrableEventsDocumentProviderRequest** – See päring tagastab tellitavate sündmuste loendi. Praegu toetatakse järgmisi sündmusi: müük, X-aruande printimine, Z-aruande printimine, kliendikonto hoiused, klienditellimuse hoiused, auditisündmused ja müügivälised tehingud.
+- **GetFiscalRegisterResponseToSaveDocumentProviderRequest** – See päring tagastab maksuregistreerimisteenuse vastuse. See vastus järjestatakse stringi moodustamiseks, nii et see on salvestamiseks valmis.
 
 #### <a name="configuration"></a>Konfiguratsioon
 
-Konfiguratsioonifailid asuvad **laiendusprojekti** konfiguratsioonikaustas:
+Konfiguratsioonifailid asuvad laiendusprojekti kaustas **Konfiguratsioon**:
 
-- **DocumentProviderFiscalEFRSampleAustria** – finantsdokumentide jaoks.
-- **DocumentProviderNonFiscalEFRSampleAustria** – mittefiskaalsetele dokumentidele.
+- **DocumentProviderFiscalEFRSampleAustria** – fiskaaldokumentide puhul.
+- **DocumentProviderNonFiscalEFRSampleAustria** – mitte fiscal-dokumentide puhul.
 
-Nende failide eesmärk on lubada dokumendipakkuja sätted rakendusest Commerce headquarters konfigureerimist. Failivorming on joondatud fiskaalintegratsiooni konfiguratsiooni nõuetele. Lisatakse järgmine säte:
+Nende failide eesmärk on lubada dokumendipakkuja sätete konfigureerimist Commerce'i peakontorist. Failivorming on joondatud fiskaalintegratsiooni konfiguratsiooni nõuetega. Lisatakse järgmine säte.
 
 - KM-määrade vastendamine
 
-### <a name="hardware-station-extension-design"></a>Riistvarajaama laienduse kujundus
+### <a name="hardware-station-extension-design"></a>Riistvarajaama laienduse disain
 
-Fiskaalühenduseks olemise laiendi eesmärgiks on fiskaalregistreerimise teenusega suhtlemine.
+Fiskaalühenduseks oleva laienduse eesmärk on suhelda maksuregistriteenusega.
 
-Riistvarajaama laiend **onHardwareStation.Extension.EFRSample.** See kasutab HTTP-protokolli, et esitada dokumente, CRT mida laiend finantsregistreerimise teenusele loob. Samuti käsitletakse fiskaalregistreerimisteenuselt saadud vastuseid.
+Riistvarajaama laiendus on **HardwareStation.Extension.EFRSample**. See kasutab HTTP-protokolli dokumentide esitamiseks, mis CRT laiendus genereerib maksuregistreerimisteenuse. Samuti käsitleb see maksuregistreerimisteenuselt saadud vastuseid.
 
-#### <a name="request-handler"></a>Nõudeohjur
+#### <a name="request-handler"></a>Taotluse käitleja
 
-**EFRHandler-i** taotluseohjur on sisenemispunkt fiskaalregistreerimise teenuse taotluste käsitlemiseks.
+The **EFRHandler** päringu töötleja on maksuregistreerimisteenuse taotluste käsitlemise sisenemispunkt.
 
-Ohjur pärineb **INamedRequestHandler** liideselt. Meetod **HandlerName** vastutab ohjuri nime tagastamise eest. Ohjuri nimi peab ühtima Commerce Headquartersis määratud fiskaalühenduse nimega.
+Käitleja on päritud **INamedRequestHandler** liides. **Käitleja nime tagastamise eest vastutab meetod HandlerName**. Töötleja nimi peaks ühtima fiskaalse konnektori nimega, mis on määratud Commerce'i peakorteris.
 
-Konnektor toetab järgmisi taotlusi:
+Konnektor toetab järgmisi taotlusi.
 
-- **SubmitDocumentFiscalDeviceRequest – see taotlus saadab dokumendid fiskaalregistreerimise teenusesse ja** tagastab sellelt vastuse.
-- **IsReadyFiscalDeviceRequest – seda taotlust kasutatakse** fiskaalregistreerimise teenuse seisundikontrolliks
-- **InitializeFiscalDeviceRequest** – seda taotlust kasutatakse fiskaalregistreerimise teenuse lähtestamiseks
+- **SubmitDocumentFiscalDeviceRequest** – See päring saadab dokumendid maksuregistreerimisteenistusele ja saadab sealt vastuse.
+- **IsReadyFiscalDeviceRequest** – Seda päringut kasutatakse maksuregistriteenuse tervisekontrolliks.
+- **InitializeFiscalDeviceRequest** – Seda päringut kasutatakse maksuregistreerimisteenuse lähtestamiseks.
 
 #### <a name="configuration"></a>Konfiguratsioon
 
-Konfiguratsioonifail asub **laiendusprojekti** konfiguratsioonikaustas. Faili eesmärk on lubada finantsühenduse sätete konfigureerimist rakendusest Commerce headquarters. Failivorming on joondatud fiskaalintegratsiooni konfiguratsiooni nõuetele. Lisatakse järgmised sätted:
+Konfiguratsioonifail asub **Seadistamine** laiendusprojekti kaust. Faili eesmärk on lubada fiskaalse konnektori sätteid Commerce'i peakorteris konfigureerida. Failivorming on joondatud fiskaalintegratsiooni konfiguratsiooni nõuetega. Lisatakse järgmised sätted.
 
-- **Lõpp**-punkti aadress – fiskaalregistreerimise teenuse URL.
-- **Ajalõpp** – aja hulk millisekundites, mille juht fiskaalregistreerimise teenusest vastust ootab.
+- **Lõpp-punkti aadress** – maksuregistreerimisteenuse URL.
+- **Timeout** – aeg millisekundites, mil juht ootab fiskaalse registreerimise teenuse vastust.

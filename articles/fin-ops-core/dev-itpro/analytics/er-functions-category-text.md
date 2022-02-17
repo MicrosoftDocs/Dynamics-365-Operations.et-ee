@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b69b16e4a40b5370c3a73f2aee40a8a86b952d9e
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: afe45bf1ff5c641346997aa4f32f3241dce2f0a2
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647556"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075496"
 ---
 # <a name="list-of-er-functions-of-the-text-category"></a>Teksti kategooria ER-i funktsioonide loend
 
@@ -35,6 +35,7 @@ Elektroonilise aruandluse (ER) teksti funktsioone saab kasutada toimingute tegem
 | [Ühenda](er-functions-text-concatenate.md) | See funktsioon tagastab kõik määratud tekstistringi *stringi* väärtusena pärast nende üheks stringiks ühendamist. |
 | [Vorming](er-functions-text-format.md) | See funktsioon tagastab määratud stringi *stringi* väärtusena pärast seda, kui see vormindati, asendades **%N** esinemiskorrad *N*. argumendiga. |
 | [GetEnumValueByName](er-functions-text-getenumvaluebyname.md) | See funktsioon otsib määratud loetelu andmeallikast konkreetset *loetelu* väärtust, kasutades loendi nime, mis on määratud *stringi* väärtuseks. Kui *loetelu* väärtus leitakse, tagastab funktsioon selle. |
+| [GetLabelText](er-functions-text-getlabeltext.md) | See funktsioon otsib kindlat silti, et tagastada *[stringi](er-formula-supported-data-types-primitive.md#string)* väärtus, mis tähistab määratud sildi tõlget määratud keeles. |
 | [GuidValue](er-functions-text-guidvalue.md) | See funktsioon teisendab *stringi* tüübi määratud sisendi andmeüksuseks tüübiga *GUID*. |
 | [JsonValue](er-functions-text-jsonvalue.md) | See funktsioon sõelub andmeid vormingus JavaScript Object Notation (JSON), millele pääseb juurde määratud tee kaudu ja see ekstraktib määratud ID-l põhineva skalaarväärtuse. Seejärel tagastab see ekstraktitud skalaarväärtus *stringi* väärtusena. |
 | [Vasak](er-functions-text-left.md) | See funktsioon tagastab *stringi* väärtuse, mis esindab määratud tähemärkide arvu määratud stringi algusest. |

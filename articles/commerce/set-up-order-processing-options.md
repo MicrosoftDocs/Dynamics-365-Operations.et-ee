@@ -2,7 +2,7 @@
 title: Kõnekeskuse kanalite seadistamine
 description: Selles teemas antakse teavet tellimuste töötlemiste kohta kõnekeskuste puhul, kasutades rakendust Dynamics 365 Commerce.
 author: josaw1
-ms.date: 01/06/2020
+ms.date: 02/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 5f9afd1b67d6b164facc4dd15a8680866fe8c5b4e4b491d969cda6554eebb1de
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 64669c5bf71a4f1673f5ad2c46db7d3a2eaf2a97
+ms.sourcegitcommit: 39f1455215e0363cd1449bbc6bdff489097f9ded
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750644"
+ms.lasthandoff: 02/04/2022
+ms.locfileid: "8092428"
 ---
 # <a name="set-up-call-center-channels"></a>Kõnekeskuse kanalite seadistamine
 
@@ -56,6 +56,9 @@ Kui säte **Tellimuse lõpetamise lubamine** on kõnekeskuse kanali jaoks sisse 
 Lisaks, kui säte **Tellimuse lõpetamise lubamine** on sisse lülitatud ning kasutajad loovad müügitellimusi ja nad on reakauba sisestamise režiimis, kuvatakse peamise müügitellimuse päises väli **Allikas**. Välja **Allikas** kasutatakse [kataloogi lähtekoodi](/dynamics365/unified-operations/retail/call-center-catalogs) hõivamiseks otseturustamise müügistsenaariumis. Seda koodi saab seejärel kasutada erihindade ja kampaaniate jaoks.
 
 Isegi kui säte **Tellimuse lõpetamise lubamine** on välja lülitatud, saavad kasutajad siiski müügitellimusele lähtekoodi rakendada. Kuid nad peavad väljale **Allikas** juurdepääsu saamiseks esmalt avama müügitellimuse päise üksikasjad. Teisisõnu on vaja teha paar lisaklõpsu. Sama käitumine rakendub funktsioonidele, nagu Saatmine lõpetatud ja Kiirendatud tellimused. Need funktsioonid on saadaval kõigi kõnekeskuses loodud tellimuste jaoks. Kuid kui säte **Tellimuse lõpetamise lubamine** on sisse lülitatud, näevad kasutajad nende funktsioonide konfiguratsiooni müügipäises, kui nad on rea sisestamise vaates. Nad ei pea sobivate sätete ja väljade leidmiseks müügitellimuse päise üksikasjadesse süvitsi minema.
+
+> [!NOTE]
+> **Kui Omni-channel Commerce'i tellimuse maksete** funktsioon on lubatud, peidetakse kõnekeskus **Luba tellimuse lõpetamine** nupp peakorterisse teie kanali kiirkaardil **Retail** and Commerce **Channels \> Kõnekeskustes \>**.
 
 ### <a name="enable-direct-selling"></a>Otsemüügi lubamine
 

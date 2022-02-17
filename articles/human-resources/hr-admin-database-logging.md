@@ -15,14 +15,17 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 10591abee7890d54d721c9324101a4b4bd0a74d2
-ms.sourcegitcommit: 70ac76be31bab7ed5e93f92f4683e65031fbdf85
+ms.openlocfilehash: 3cbe4c105b14935db6803e4bded0d891c564fb81
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/16/2021
-ms.locfileid: "7924816"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066436"
 ---
 # <a name="configure-and-manage-database-logging"></a>Andmebaasi logimise konfigureerimine ja haldamine
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -93,8 +96,8 @@ Järgmiste võimaluste abil saate kustutada kõik andmebaasilogid või osa neist
 Andmebaasilogi puhastamise seadistamiseks järgige neid samme. 
 
 1. Avage **Süsteemihaldus > Lingid > Andmebaas > Andmebaasilogi**. Valige **Puhasta logi**.
-2. Valige päise **kaasamiseks** kirjetes suvand **Filter**.
-3. Valige kustutamislogide valimiseks kasutatav meetod. Sisestage üks järgmistest suvanditest:
+2. Valige jaotises **Päise** kaasamiseks olevad **kirjed Filter**.
+3. Valige meetod, mida kasutatakse kustutatavate logide valimiseks. Sisestage üks järgmistest suvanditest.
 
    - Tabeli kood
    - Logi tüüp

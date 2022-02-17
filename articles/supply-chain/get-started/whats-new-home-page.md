@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: e4a120dd4199b143c3103392515c85e7b887194b
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: HT
+ms.openlocfilehash: 4c37a91a00aa6b7896bfbf9b57567a25c30d8b35
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982711"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075120"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 Supply Chain Management
 
@@ -31,6 +31,7 @@ Et näha, mis on teenuse Dynamics 365 Supply Chain Management igas väljalaskes 
 
 | Versioon | Loo number | Automaatvärskenduse kättesaadavus | Lisateave |
 |---|---|---|---|
+| 10.0.25 | 10.0.1149 | 2022. aprill | [Dynamics 365 Supply Chain Management 10.0.25 eelvaade](whats-new-scm-10-0-25.md) |
 | 10.0.24 | 10.0.1084 | 2022. veebruar | [Mis on uut või mida on muudetud rakenduses Dynamics 365 Supply Chain Management 10.0.24?](whats-new-scm-10-0-24.md) |
 | 10.0.23 | 10.0.1037 | 2022. jaanuar | [Mis on uut või mida on muudetud rakenduses Dynamics 365 Supply Chain Management 10.0.23?](whats-new-scm-10-0-23.md) |
 | 10.0.22 | 10.0.995 | November 2021 | [Mis on uut või mida on muudetud rakenduses Dynamics 365 Supply Chain Management 10.0.22?](whats-new-scm-10-0-22.md) |

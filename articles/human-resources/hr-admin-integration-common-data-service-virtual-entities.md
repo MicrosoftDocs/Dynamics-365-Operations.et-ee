@@ -15,18 +15,21 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9e26a2fb65564cb4a1d2f9ba4b0d621177207545
-ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
-ms.translationtype: HT
+ms.openlocfilehash: f7ffe522f0f17a21280e53728c6efc2823743733
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7414660"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069142"
 ---
 # <a name="configure-dataverse-virtual-tables"></a>Dataverse'i virtuaalsete tabelite konfigureerimine
 
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Dynamics 365 Human Resources on virtuaalne andmeallikas teenuses Microsoft Dataverse. See pakub täielikke loomise, lugemise, värskendamise ja kustutamise (CRUD) toiminguid lahendustes Dataverse ning Microsoft Power Platform. Virtuaalsete tabelite andmeid ei talletata teenuses Dataverse, vaid rakenduse andmebaasis.
 
@@ -119,10 +122,10 @@ Järgmine samm on konfigureerida virtuaalse tabeli andmeallikas Power Appsi kesk
 
 4. Valige jaotises **Lahenduse seisundikeskus** **täpsema otsingu** ikoon, mis asub rakenduse lehe üleval paremal pool.
 
-5. Valige lehel **Täpsem otsing** ripploendist **Otsitav** suvand **Finance and Operationsi virtuaalse andmeallika konfiguratsioonid**.
+5. peal **Täpsem otsing** lehel **Otsi** ripploendist, valige **Finance and Operationsi virtuaalse andmeallika konfiguratsioonid**.
 
    > [!NOTE]
-   > Eelmise häälestussammu virtuaaltabeli rakenduse installimine võib võtta mitu minutit. Kui **Finance and Operations virtuaalse andmeallika konfiguratsioonid** ei ole loendis saadaval, oodake minut ja värskendage siis loendit.
+   > Eelmise häälestussammu virtuaaltabeli rakenduse installimine võib võtta mitu minutit. Kui **Finance and Operationsi virtuaalse andmeallika konfiguratsioonid** pole loendis saadaval, oodake minut ja värskendage loendit.
 
 6. Valige **Tulemid**.
 

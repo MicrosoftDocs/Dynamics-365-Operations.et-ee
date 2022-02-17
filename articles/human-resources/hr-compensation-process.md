@@ -14,14 +14,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 413143afb578aed29ce0836aaa3ac98ffc0c6cc3
-ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
-ms.translationtype: HT
+ms.openlocfilehash: 7c72f866886f320d8a7fa22d6ccfa7e43284b5bf
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7484092"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071716"
 ---
 # <a name="process-compensation"></a>Tasu töötlemine
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -41,10 +44,10 @@ Kui protsessisündmuse parameetrid on salvestatud, võite klõpsata nuppu **Sead
 
 Klõpsake vahekaardil **Plaanid** nuppu **Lisa** tasuplaani lisamiseks protsessisündmusele. Veergusid **Kasuta muud finantsvõimendust**, **Finantsvõimenduse tegur** ja **Finantsvõimenduse kirjeldus** kasutatakse ainult ergutussüsteemi plaanide jaoks ja neid selles teemas ei käsitleta.
 
-Salvestage kirje ja klõpsake siis vahekaardil **Tegevused** nuppu **Lisa** põhipalga toimingute lisamiseks valitud plaani puhul. Kasutage valikut **Luba soovitus**, et sisestada muu summa peale tegevuse jaoks arvutatud kasvusumma. Kui soovite arvutada eelmise tegevuse tulemusel põhineva tegevuse mitme hüvitustegevuse linkimiseks, märkige valik **Kasuta eelmist tulemuse** varianti. Põhitasu tegevused on kompensatsiooniloogika tüübid, millele saate anda kirjeldavaid nimed. Taseme ja palgaastmiku plaanide puhul saate lisada ainult järgmist tüüpi põhipalgategevusi.
+Salvestage kirje ja klõpsake siis vahekaardil **Tegevused** nuppu **Lisa** põhipalga toimingute lisamiseks valitud plaani puhul. Kasutage valikut **Luba soovitus**, et sisestada muu summa peale tegevuse jaoks arvutatud kasvusumma. Kui soovite arvutada eelmise tegevuse tulemusel põhineva tegevuse mitme hüvitustegevuse linkimiseks, märkige valik **Kasuta eelmist tulemuse** varianti. Põhitasu tegevused on kompensatsiooniloogika tüübid, millele saate anda kirjeldavaid nimed. Sest **Hinne** ja **Bänd** plaanid, saate lisada ainult järgmist tüüpi fikseeritud hüvitistoiminguid:
 
-| Põhipalga tegevuse tüüp | Funktsioon                                                                                                                                                                                                                                                                                                                                                                                                    |
-|-------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Põhipalga tegevuse tüüp | Funktsioon                  |
+|-------------------------------|-------------------------------------------------------------------------|
 | Omakapital                        | Omakapitali tegevused võrdlevad töötaja palgamäära tsükli lõpu seisuga madalaima võrdluspunktiga töötaja ametikohal näidatud taseme puhul. Kui töötaja palgamäär on minimaalsest võrdluspunktist madalam, arvutatakse vajalik kasv töötaja viimiseks vahemiku miinimumpunkti.                                                                                |
 | teene                         | Teenetel põhinevad tegevused arvutavad kasvu töötaja palgamäära põhjal tsükli lõppkuupäeva seisuga ja töötaja osakonna, ametiühingu ning asukoha fikseeritud palgatõusu eelarves antud kasvuprotsendi alusel.                                                                                                                                                                                         |
 | Üldine                       | Üldised toimingud arvutavad palgatõusu protsendi põhjal või annavad töötajatele fikseeritud summa. See määratakse vahekaardil **Üldine** olevate suvandi **Põhipalk** sätete alusel.                                                                                                                                                                                                                        |
@@ -53,12 +56,12 @@ Salvestage kirje ja klõpsake siis vahekaardil **Tegevused** nuppu **Lisa** põh
 
 Astmeplaani saab lisada ainult neid tegevusi **Põhipalk**, mille tüüp on Aste.
 
-| Põhipalga tegevuse tüüp | Funktsioon                                                                                                                                                                                           |
-|--------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Põhipalga tegevuse tüüp | Funktsioon                |
+|--------------------------------|------------------------------|
 | Etapp                           | Märkige vahekaardil **Üldine**, kas see astmetegevus peaks viima töötajad edasi 0 astme, 1 astme või kahe astme võrra.                                                                                  |
 |                                | **0 astet** – töötaja saab selle astme palgamäära, millel ta praeg on.                                                                                                                      |
 |                                | **1 aste** – süsteem kontrollib, kas töötaja on juba oma taseme viimases võrdluspunktis.                                                                                             |
-|                                | **2 astet** – süsteem viib töötaja praegusel tasemel kaks astet edasi. Süsteem võib liigutada töötajat ühe või nulli astme võrra, kui töötaja on jõudnud oma taseme viimasesse võrdluspunkti. |
+|                                | **2 sammu** - Töötaja liigub praegusel tasemel kaks sammu edasi. Töötaja võib liikuda ainult ühe või null sammu, kui ta jõuab oma taseme viimase võrdluspunktini. |
 
 ## <a name="run-the-compensation-process"></a>Tasuprotsessi käitamine
 Pärast protsessisündmuse seadistamist vajalike kuupäevaväljade, plaanide ja tegevustega klõpsake lehel **Protsessisündmus** valikut **Käivita protsess**, see avab **Käivitage kompensatsiooniprotsessi sündmused** dialoogi. Klõpsake valikul **Töötlemise tulemuste näitamine**, et näha, kuidas iga töötaja puhul tasusummad arvutati. Nupu **OK** klõpsamisel käivitatakse tasuprotsess kõigi töötajate kohta, kes on tsükli lõppkuupäeva seisuga valitud tasuplaanides.

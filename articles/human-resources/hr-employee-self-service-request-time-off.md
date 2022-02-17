@@ -15,14 +15,17 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6e12ac21e80c46f5cb5f231aadab7272fc279194
-ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
+ms.openlocfilehash: f7ca3fd03cda720187cb9c21b7f3ef3545c8901e
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7771408"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066771"
 ---
 # <a name="request-time-off"></a>Eemaloleku aja taotlemine
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -42,11 +45,11 @@ Rakenduses Dynamics 365 Human Resources saate esitada eemaloleku taotlusi, vaada
 
 6. Kui olete taotluse esitamiseks valmis, valige suvand **Esita**. Muidu valige suvand **Salvesta mustand**.
 
-Uue puhkustaotluse esitanud töötajad saavad puhkusetaotluse koostamiseks valida erinevad puhkusetüübid. Kõigil ühe puhkusetaotluse osana valitud puhkusetüüpidel peaks siiski olema sama puhkuseühik. Töötajad saavad kuvada iga puhkuse tüübi puhkuseühikut lehel **Taotluse ajalt** väljas.
+Uue puhkustaotluse esitanud töötajad saavad puhkusetaotluse koostamiseks valida erinevad puhkusetüübid. Kõigil ühe puhkusetaotluse osana valitud puhkusetüüpidel peaks siiski olema sama puhkuseühik. Töötajad saavad lehelt vaadata iga puhkusetüübi puhkuseüksust **Taotlege vaba aega** lehel.
 
 ## <a name="add-an-attachment-to-an-existing-request"></a>Olemasolevale taotlusele manuse lisamine
 
-Olemasoleva puhkusetaotluse uuendamisel saate lisada manuse. Samuti saate vaadata kõiki seotud taotlusi konkreetse kuupäeva kohta.
+Olemasoleva puhkusetaotluse uuendamisel saate lisada manuse. Samuti näete kõiki seotud taotlusi konkreetse kuupäeva kohta.
 
 ## <a name="view-leave-balances"></a>Puhkusesaldode vaatamine
 
@@ -58,13 +61,13 @@ Olemasoleva puhkusetaotluse uuendamisel saate lisada manuse. Samuti saate vaadat
 
 1. Tööruumis **Töövõtja iseteenindus** valige suvand **Lisateave** (…) paanil **Vaba aja saldod**.
 
-2. Kinnitatud aja mahak kellaaegade vaatamiseks valige **Kinnitatud aeg välja**. Oma ooteloleva aja mahak millalgi taotluse vaatamiseks valige **aja mahak millal taotlus**.
+2. Kinnitatud vaba aja taotluste vaatamiseks valige **Kinnitatud puhkeaeg**. Ootel vaba aja taotluste vaatamiseks valige **Vaba aja taotlused**.
 
-## <a name="cancel-time-off-requests"></a>Tühista aja mahaminemise taotlused
+## <a name="cancel-time-off-requests"></a>Tühistage puhkeaja taotlused
 
 1. Tööruumis **Töövõtja iseteenindus** valige suvand **Kuva eemaloleku aega** paanil **Vaba aja saldod**.
 
-2. Lehel **Kellaaja väljalülitamine** valige tühistamiseks üks või mitu ajalt väljastamistaotlust.
+2. peal **Aega maha võtma** lehel, valige tühistamiseks üks või mitu puhkeaja taotlust.
 
 3. Valige nupp **Tühista**.
 

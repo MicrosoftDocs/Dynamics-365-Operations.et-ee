@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: b1687b24f499f4d226406a0035f8ea70b6046167
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
-ms.translationtype: MT
+ms.openlocfilehash: 54962b48dee05b2cd62fd3ea8814e4c965ba7818
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7901985"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069375"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>Laohalduse mobiilirakenduse installimine ja ühendamine
 
@@ -143,6 +143,10 @@ Azure AD-ga autentimine pakub turvalist viisi mobiilse seadme ühendamiseks Supp
 Serte saab kasutada saladusena rakenduse identiteedi tõestamisel, kui luba taotletakse. Serdi avalik osa laaditakse üles rakenduse registreerimiseks Azure’i portaalis, kuid täielik sert tuleb juurutada igasse seadmesse, kuhu on installitud laohalduse mobiilirakendus. Teie organisatsioon vastutab serdi haldamise eest roteerimise ja muus osas. Teil on võimalik kasutada enda allkirjastatud serte, kuid te peaksite alati kasutama mitte-eksporditavaid serte.
 
 Peate tegema serdi kohalikult kättesaadavaks igas seadmes, kus käitate laohalduse mobiilirakendust. Lisateavet selle kohta, kuidas hallata Intune'i juhitavate seadmete serte Intune'i kasutamise korral, vaadake teemast [Sertide kasutamine Microsoft Intune'is autentimiseks](/mem/intune/protect/certificates-configure).
+
+## <a name="configure-the-warehouse-management-mobile-app-for-cloud-and-edge-scale-units"></a>Laohalduse mobiilirakenduse konfigureerimine pilve- ja servaskaala ühikute jaoks
+
+Kui kavatsete käivitada laohalduse mobiilirakenduse pilve- või servaskaala üksuse vastu, on vaja mõningaid lisatoiminguid. Juhised leiate teemast [Laohalduse mobiilirakenduse konfigureerimine pilve- ja servaskaala ühikute jaoks](../cloud-edge/cloud-edge-workload-setup-warehouse-app.md).
 
 ## <a name="configure-the-application-by-importing-connection-settings"></a>Rakenduse konfigureerimine ühenduse sätete importimise abil
 
@@ -306,5 +310,6 @@ Kui seade läheb kaduma või satub ohtu, peate eemaldama juurdepääsu Supply Ch
 
 - [Mobiilse seadme kasutaja sätted](mobile-device-user-settings.md)
 - [Warehouse Management mobiilirakendusele astmeikoonide ja pealkirjade määramine](step-icons-titles.md)
+- [Laohalduse mobiilirakenduse konfigureerimine pilve- ja servaskaala ühikute jaoks](../cloud-edge/cloud-edge-workload-setup-warehouse-app.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -13,34 +13,38 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a97c2a8bb6c334a5a060fcbfc9527a41ba592750
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
-ms.translationtype: HT
+ms.openlocfilehash: 4e3287fc824f2f7eb725b11c990a1c457d45439f
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964651"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075145"
 ---
 # <a name="develop-and-open-job-requisition"></a>Töötaotluse arendamine ja avamine
 
 [!include [banner](../../includes/banner.md)]
 
-Värbamisprojektid aitavad värbamisprotsessi hallata. Iga värbamisprojekti puhul saate seadistada teavet, näiteks tööd, mille jaoks värbamine on tehtud, värbaja nimi, projekti olek ja osakond, kus töö asub. Pärast värbamisprojekti loomist saate kirjutada selle kohta töökuulutuse, avaldada reklaami **töötaja** iseteeninduse lehel, seostada projektiga töötamise taotlusi ja jälgida selle projekti tegevusi. Selle **protseduuri** loomiseks kasutati USMF-i demoandmete ettevõtet.
+> [!IMPORTANT]
+> Selles teemas märgitud funktsioonid on praegu saadaval inimressursside klientidele finance infrastruktuuris.  
 
-1. Minge **inimressursside \>\> värbamise värbamisprojektidesse \> Värbamisprojektid**.
+
+Värbamisprojektid aitavad värbamisprotsessi hallata. Iga värbamisprojekti puhul saate seadistada teavet, näiteks tööd, mille jaoks värbamine on tehtud, värbaja nimi, projekti olek ja osakond, kus töö asub. Pärast värbamisprojekti loomist saate kirjutada selle kohta töökuulutuse, avaldada reklaami **töötaja iseteeninduse** lehel, seostada projektiga töötamise taotlusi ja jälgida selle projekti tegevusi. The **USMF** Selle protseduuri loomiseks kasutati demoandmete ettevõtet.
+
+1. Minge inimressursside **värbamise \> värbamisprojektidesse \>\> Värbamisprojektid**.
 2. Valige suvand **Uus**.
 3. Sisestage väärtus väljale **Värbamisprojekt**.
 4. Sisestage väärtus väljal **Kirjeldus**.
-5. Otsingu **avamiseks valige väljal Värbaja** rippnool.
+5. Otsingu avamiseks valige väljal **Värbaja** rippnool.
 6. Otsige loendist ja valige soovitud kirje.
 7. Valige loendis link valitud reas.
 8. Valige käsk **Vali**.
-9. Otsingu **avamiseks** valige väljal Osakond rippnool.
+9. Otsingu avamiseks valige väljal **Osakond** rippnool.
 10. Valige loendis link valitud reas.
-11. Otsingu **avamiseks** valige väljal Töö rippnool.
+11. **Otsingu avamiseks valige väljal Töö** rippnool.
 12. Otsige loendist ja valige soovitud kirje.
 13. Valige loendis link valitud reas.
-14. **Sisestage väljale Avade arv** number.
-15. Otsingu **avamiseks valige väljal Rentimise haldur** rippnool.
+14. Sisestage väljale **Avade** arv number.
+15. Otsingu avamiseks valige väljal **Rentimise haldur** rippnool.
 16. Otsige loendist ja valige soovitud kirje.
 17. Valige loendis link valitud reas.
 18. Valige käsk **Vali**.
@@ -50,7 +54,7 @@ Värbamisprojektid aitavad värbamisprotsessi hallata. Iga värbamisprojekti puh
     Värbamisprojektid hõlmavad võimalust määrata meediaväljaanded, mida kasutatakse avatud ametikohtade reklaamimiseks.
 
 21. Valige suvand **Uus**.
-22. Otsingu **avamiseks** valige väljal Meedia rippnool.
+22. **Otsingu avamiseks valige väljal Meedia** rippnool.
 23. Valige loendis link valitud reas.
 24. Väljale **Alguskuupäev** sisestage kuupäev.
 25. Väljale **Lõppkuupäev** sisestage kuupäev.
@@ -59,14 +63,14 @@ Värbamisprojektid aitavad värbamisprotsessi hallata. Iga värbamisprojekti puh
 28. Valige **Töökuulutused**.
 29. Valige käsk **Salvesta**.
 30. Sulgege leht.
-31. Märkige või tühjendage **ruut Kuva töötaja iseteeninduses.**
+31. Märkige või tühjendage **ruut Kuva töötaja iseteeninduses**.
 
-    Märkige ruut, et muuta värbamisprojekt töötajatele nähtavaks nende **töötaja** iseteeninduse lehel.
+    Märkige ruut, et muuta värbamisprojekt töötajatele nähtavaks nende **töötaja iseteeninduse** lehel.
 
 32. Valige **värbamisprojekti** olek.
 33. Valige nupp **Alusta**.
 
-    **Olek Alustatud** näitab, et projekt on taotluste vastuvõtmiseks valmis.
+    Olek **Alustatud** näitab, et projekt on taotluste vastuvõtmiseks valmis.
 
 34. Valige nupp **OK**.
 
