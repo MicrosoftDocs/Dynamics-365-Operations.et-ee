@@ -2,9 +2,11 @@
 title: Elektroonilise aruandluse konfiguratsioonide allalaadimine konfiguratsiooniteenuse globaalsest hoidlast
 description: Selles teemas selgitatakse, kuidas laadida konfiguratsiooniteenuse globaalsest hoidlast alla elektroonilise aruandluse konfiguratsioone.
 author: NickSelin
+manager: AnnBe
 ms.date: 06/02/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERSolutionImport, ERWorkspace, ERSolutionRepositoryTable
 audience: Application User, IT Pro
@@ -15,18 +17,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 32eb5206fadefbd024f2dd2af888d166c81b950f
-ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
+ms.openlocfilehash: a96e78a64fe0559ae5f3bfddabf3fe1cad8a3dcb
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7605327"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679554"
 ---
 # <a name="download-er-configurations-from-the-global-repository-of-configuration-service"></a>Elektroonilise aruandluse konfiguratsioonide allalaadimine konfiguratsiooniteenuse globaalsest hoidlast
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas selgitatakse, kuidas laadida konfiguratsiooniteenuse globaalsest hoidlast alla [elektroonilise aruandluse konfiguratsioone](general-electronic-reporting.md#Configuration). Lisateavet vt teemast [Microsoft Dynamics 365 for Finance and Operations – Regulatory Services, konfiguratsiooniteenus](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration).
+Selles teemas selgitatakse, kuidas laadida konfiguratsiooniteenuse globaalsest hoidlast alla [elektroonilise aruandluse konfiguratsioone](general-electronic-reporting.md#Configuration). Lisateavet vt teemast [Microsoft Dynamics 365 for Finance and Operations – Regulatory Services, konfiguratsiooniteenus](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration).
 
 ## <a name="open-configurations-repository"></a>Konfiguratsioonihoidla avamine
 
@@ -40,7 +42,7 @@ Selles teemas selgitatakse, kuidas laadida konfiguratsiooniteenuse globaalsest h
 3. Valige jaotises **Konfiguratsiooni pakkujad** paan **Microsoft**.
 3. Valige paanil **Microsoft** suvand **Hoidlad**.
 
-    ![Elektroonilise aruandluse tööruum.](./media/er-download-configurations-global-repo-er-workspace.png)
+    ![Elektroonilise aruandluse tööruum](./media/er-download-configurations-global-repo-er-workspace.png)
 
 4. Valige lehel **Konfiguratsioonihoidlad** ruudustikus olemasolev hoidla, mille tüüp on **Globaalne**. Kui hoidlat ei kuvata ruudustikus, tehke järgmist.
 
@@ -52,7 +54,7 @@ Selles teemas selgitatakse, kuidas laadida konfiguratsiooniteenuse globaalsest h
 
 5. Valitud hoidla elektroonilise aruandluse konfiguratsioonide loendi vaatamiseks valige käsk **Ava**.
 
-    ![Konfiguratsioonihoidlate leht.](./media/er-download-configurations-global-repo-repositories-list.png)
+    ![Konfiguratsioonihoidlate leht](./media/er-download-configurations-global-repo-repositories-list.png)
 
 ## <a name="import-a-single-configuration"></a>Ühe konfiguratsiooni importimine
 
@@ -63,7 +65,7 @@ Selles teemas selgitatakse, kuidas laadida konfiguratsiooniteenuse globaalsest h
     > [!NOTE]
     > Nupp **Impordi** ei ole saadaval elektroonilise aruandluse konfiguratsiooni versioonide puhul, mis on juba praeguses Finance'i eksemplaris olemas.
 
-    ![Konfiguratsioonihoidla leht, konfiguratsioonide kiirkaart.](./media/er-download-configurations-global-repo-repository-content.png)
+    ![Konfiguratsioonide hoidla leht](./media/er-download-configurations-global-repo-repository-content.png)
 
 ## <a name="import-filtered-configurations"></a>Filtreeritud konfiguratsioonide importimine
 
@@ -77,7 +79,7 @@ Selles teemas selgitatakse, kuidas laadida konfiguratsiooniteenuse globaalsest h
 4. Valige kiirkaardil **Konfiguratsioonid** käsk **Impordi**, et laadida filtreeritud konfiguratsioonid globaalsest hoidlast praegusesse eksemplari.
 5. Valige kiirkaardil **Konfiguratsioonid** käsk **Lähtesta filter**, et puhastada määratletud valikutingimused.
 
-    ![Konfiguratsioonihoidla leht, versioonide kiirkaart, nupp Impordi.](./media/er-download-configurations-global-repo-filtered-configurations.png)
+    ![Konfiguratsioonihoidla leht](./media/er-download-configurations-global-repo-filtered-configurations.png)
 
 > [!NOTE]
 > Olenevalt ER-i sätetest kontrollitakse konfiguratsioone pärast importimist. Võib-olla teavitatakse teid leitud vasturääkivustest. Probleemid tuleb enne imporditud konfiguratsiooni versiooni kasutamist lahendada. Lisateavet leiate selle teemaga seotud ressursside loendist.
@@ -88,6 +90,3 @@ Selles teemas selgitatakse, kuidas laadida konfiguratsiooniteenuse globaalsest h
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Elektroonilise aruandluse (ER) ülevaade](general-electronic-reporting.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

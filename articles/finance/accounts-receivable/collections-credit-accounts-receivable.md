@@ -2,25 +2,28 @@
 title: Müügireskontro sissenõuded
 description: Müügireskontro sissenõuete teavet hallatakse ühes keskses vaates rakenduse Microsoft Dynamics 365 Finance lehel Sissenõuded. Krediidiosakonna juhatajad saavad kasutada seda keskset vaadet sissenõuete haldamiseks. Inkassaatorid saavad alustada sissenõudmise protsessi klientide loendist, mis luuakse eelmääratud sissenõude kriteeriumite alusel, või lehelt Kliendid.
 author: ShivamPandey-msft
+manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustAgingSnapshot, CustBankAccounts, CustCollections, CustCollectionsActivitiesListPage, CustCollectionsAgent, CustCollectionsCaseListPage, CustCollectionsPool, CustCollectionsPoolsListPage, CustTable
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 3061
 ms.assetid: fd851520-8d93-434b-845b-be127d6ac3a6
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b143ebead89804af57e7d2dbfa6f7d366c1ae664573776d78bff44763ddeb819
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c150eb7283b34c82e728da36ed0e1e6643eff46a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723915"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4442239"
 ---
 # <a name="collections-in-accounts-receivable"></a>Müügireskontro sissenõuded
 
@@ -99,7 +102,8 @@ Mahakandmiskanne luuakse kandevaluutas.
 
 Lisateabe saamiseks vt [Kliendi jaoks mahakandmise töölehe loomine](tasks/create-write-off-journal-customer.md)
 
-## <a name="process-not-sufficient-funds-nsf-payments"></a>Ebapiisavate vahendite (NSF) maksete töötlemine  
+<a name="process-not-sufficient-funds-nsf-payments"></a>Ebapiisavate vahendite (NSF) maksete töötlemine  
+--------------------------------------------
 
 Saate töödelda NSF-makseid, klõpsates lehel Sissenõuded nuppu NSF-makse. Selle nupu klõpsamisel tühistatakse makse. Kui kliendile kehtib NSF-tasu, luuakse maksetöölehel tasukanne. Tasu summa põhineb automaatsete tasude seadistusel. Automaatsed tasud, mida kohaldatakse NSF-maksetele, on määratud tasude grupis, mis on valitud seotud pangakonto lehel Pangakontod.
 
@@ -107,6 +111,3 @@ Saate töödelda NSF-makseid, klõpsates lehel Sissenõuded nuppu NSF-makse. Sel
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,13 +2,16 @@
 title: Kassa rakenduse ja kasutaja keelesätted
 description: Selles teemas kirjeldatakse Modern POS-i (MPOS) ja pilvekassa keelesätete muutmist.
 author: jblucher
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: HcmWorker, RetailStoreTable
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: 78891
 ms.assetid: 0030940c-e0a5-4345-9511-8c3bd1f487ad
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 099d16f63e03ecbc8bf911fe4385b35fac7c67f763c17379cdc6b6229abdea16
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 49bfcaa4c05ea8e6cc6bf0a8f855f2474cea35bc
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774529"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4411786"
 ---
 # <a name="point-of-sale-pos-application-and-user-language-settings"></a>Kassa rakenduse ja kasutaja keelesätted
 
@@ -57,11 +60,8 @@ Kassa kasutaja keelesäte määrab rakenduse kasutajaliideses kasutatavad tõlke
 
 Kassa kasutaja keelt saab seadistada lehel **Töötaja** jaotises **Kõik töötajad"**, valides **Jaemüük ja kaubandus &gt; Keel**. Seda ei seadistata vahekaardil Profiil. Kassa ei kasuta seda sätet. Kui kasutaja keelt ei määrata või määratakse mõni keel, millele ei ole tõlget saadaval, ennistatakse kassas kaupluse keel.
 
-| &nbsp;      | Kasutajaliidese keel                   | Andmete keel (tooted, kviitungi vormingud, rea kuva jne) |
+|             | Kasutajaliidese keel                   | Andmete keel (tooted, kviitungi vormingud, rea kuva jne) |
 |-------------|----------------------------|---------------------------------------------------------------|
 | **Ettevõte** | Vaikimisi                    | Vaikimisi                                                       |
 | **Kauplus**   | Tühistab ettevõtte          | Tühistab ettevõtte                                             |
 | **Kasutaja**    | Tühistab kaupluse või ettevõtte | Mitte kunagi                                                         |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,27 +1,30 @@
 ---
-title: Hankija arve automatiseerimise tööruum
+title: Hankija arve sisestamise tööruum
 description: Selles teemas selgitatakse, kuidas seadistada hankija arvetega seotud tööruume, mis kuvavad Microsoft Power BI kaudu saadaolevat teavet.
 author: abruer
+manager: AnnBe
 ms.date: 09/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.assetid: ''
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2020-09-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: dde77a19fae9af8f40af8b14259a29db80f4a80cf8be75233a463d6fec2dac46
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a4ba676d9b6df69cf0a91862bcc4d2837b7cb69e
+ms.sourcegitcommit: 0efa93f11847a2b75d13cd0a49e716c76130ec44
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722715"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "4442525"
 ---
-# <a name="vendor-invoice-automation-workspace"></a>Hankija arve automatiseerimise tööruum
+# <a name="vendor-invoice-entry-workspace"></a>Hankija arve sisestamise tööruum
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
@@ -30,7 +33,7 @@ Selles teemas selgitatakse, kuidas seadistada hankija arvetega seotud tööruume
 
 ## <a name="overview"></a>Ülevaade
 
-Tööruumis **Hankija arve automatiseerimine** kuvatakse teave, mis on seotud hankija arvete töötlemisega. See sisaldab vaadet **Minu töö** ja lehte **Analüüs – kõik ettevõtted**. Vaade **Minu töö** kuvab kokkuvõttepaanid, hankija kannete tabelid ja hankija seonduvad andmed. Leht **Analüüs – kõik ettevõtted** kasutab Power BI võimalusi hankija arvetega seotud visualiseeringute kuvamiseks.
+Tööruumis **Hankija arve sisestamine** kuvatakse teave, mis on seotud hankija arvete töötlemisega. See sisaldab vaadet **Minu töö** ja lehte **Analüüs – kõik ettevõtted**. Vaade **Minu töö** kuvab kokkuvõttepaanid, hankija kannete tabelid ja hankija seonduvad andmed. Leht **Analüüs – kõik ettevõtted** kasutab Power BI võimalusi hankija arvetega seotud visualiseeringute kuvamiseks.
 
 ## <a name="set-up-the-workspace-to-show-power-bi-content"></a>Tööruumi seadistamine Power BI sisu kuvamiseks
 
@@ -114,6 +117,3 @@ Järgmine tabel näitab igal aruandelehel olevaid visualiseeringuid.
 | Arved, mille importimine nurjus | <ul><li>Arved, mille importimine nurjus</li><li>Arved, mille importimine nurjus, ettevõtte järgi</li></ul> |
 | Automatiseerimise nurjumise põhjused | <ul><li>Nurjunud arved</li><li>Nurjunud arved ettevõtte järgi</li><li>Nurjunud arved hankija grupi järgi</li></ul> |
 | Töövoo olek                | <ul><li>Töövoos olevad arved</li><li>Hankija arve töövooeksemplarid</li><li>Määramine kinnitaja kohta</li><li>Hankija arve töövoog ettevõtte kohta</li><li>Keskmine töövoo päevade arv kinnitaja kohta</li></ul> |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

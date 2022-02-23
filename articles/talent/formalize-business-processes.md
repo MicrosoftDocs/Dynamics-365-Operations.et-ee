@@ -73,6 +73,3 @@ Protsessi omanikud saavad endale määratud aktiivseid äriprotsesse vaadata tö
 
 Aktiivsete protsesside ja seotud ülesannete vaatamiseks avage tööruum **Äriprotsessid**.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

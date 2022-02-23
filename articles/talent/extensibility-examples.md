@@ -79,6 +79,3 @@ Saate selle rakenduse manustada soovituste esitamiseks töötajate iseteeninduss
 
 [Microsoft Power Platform](https://docs.microsoft.com/power-platform/admin/admin-documentation)</br>
 [Rakenduse ülekandmine rentnike ja keskkondade vahel](https://docs.microsoft.com/power-platform/admin/environment-and-tenant-migration)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

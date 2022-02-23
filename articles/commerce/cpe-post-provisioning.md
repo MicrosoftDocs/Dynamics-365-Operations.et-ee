@@ -1,31 +1,36 @@
 ---
 title: Dynamics 365 Commerce'i hindamiskeskkonna konfigureerimine
-description: Selles teemas selgitatakse, kuidas konfigureerida rakenduse Microsoft Dynamics 365 Commerce hindamiskeskkonda, kui see on ette valmistatud.
+description: Selles teemas selgitatakse, kuidas konfigureerida Microsoft Dynamics 365 Commerce’i hindamiskeskkond, kui see on ette valmistatud.
 author: psimolin
-ms.date: 12/10/2021
+manager: annbe
+ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5883a6e68628d706fa19d7d23b68f17007c32890
-ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
-ms.translationtype: MT
+ms.openlocfilehash: 6a1ae960f0f530104af7bdea9a8fcb78b01571f5
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/11/2021
-ms.locfileid: "7913723"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4411567"
 ---
 # <a name="configure-a-dynamics-365-commerce-evaluation-environment"></a>Dynamics 365 Commerce'i hindamiskeskkonna konfigureerimine
 
 [!include [banner](includes/banner.md)]
 
-Selles teemas selgitatakse, kuidas konfigureerida rakenduse Microsoft Dynamics 365 Commerce hindamiskeskkonda, kui see on ette valmistatud.
+Selles teemas selgitatakse, kuidas konfigureerida Microsoft Dynamics 365 Commerce’i hindamiskeskkond, kui see on ette valmistatud.
+
+## <a name="overview"></a>Ülevaade
 
 Viige lõpule selle teema protseduurid alles pärast seda, kui rakenduse Commerce hindamiskeskkond on ette valmistatud. Teavet selle kohta, kuidas Commerce’i hindamiskeskkonda ette valmistada, vaadake teemast [Commerce’i hindamiskeskkonna ettevalmistamine](provisioning-guide.md).
 
@@ -39,7 +44,6 @@ Pärast seda, kui teie Commerce'i hindamiskeskkond on täielikult ettevalmistatu
 1. Valige loendist oma keskkond.
 1. Valige paremal olevast keskkonna teabest **Keskkonda sisselogimine**. Teid suunatakse Commerce'i peakontorisse.
 1. Veenduge, et **USRT** juriidiline isik on valitud ülemises parempoolses nurgas.
-2. Minge konfiguratsiooniparameetrite > ja veenduge, et **parameetri** **ProductSearch.UseAzureSearch kirje** on seatud **tõeseks**. Kui see kirje puudub, saate lisada selle kirje ja käivitada **kanali andmebaasi > Oma eCommerce'i veebisaidiga seotud Commerce Scalei üksuse** Jaoks Kanali andmebaas.
 
 Commerce'i peakontori ettevalmistusjärgsete tegevuste käigus veenduge, et juriidiline isik **USRT** oleks alati valitud.
 
@@ -107,12 +111,6 @@ Commerce’is tööde lubamiseks tehke järgmist.
     1. Tegumiribal valikus **Pakett-töö**, klõpsake **Muuda olekut**.
     1. Valige **Tühistamine** ja seejärel valige **OK**.
 
-1. Kui töö olek on **Kinnipeetud,** järgige neid samme.
-
-    1. Vali kirje.
-    1. Tegumiribal valikus **Pakett-töö**, klõpsake **Muuda olekut**.
-    1. Valige suvand **Ootel** ja seejärel nupp **OK**.
-
 Saate seadistada ka kordumise intervalli iga ühe (1) minuti järel järgmiste tööde puhul.
 
 * Jaemüügitellimuse meiliteavituse töötlemise töö
@@ -135,7 +133,7 @@ Commerce’is kõikide andmete sünkroonimise käitamiseks tehke Commerce'i peak
 Selleks, et sooritada testi kandeid saidil, saate kasutada järgmist testi krediitkaardi teavet.
 
 - **Kaardi number:** 4111-1111-1111-1111
-- **Aegumiskuupäev:** 10/30
+- **Aegumiskuupäev:** 10/20
 - **Kaardi tõendamise väärtus (CVV) kood:** 737
 
 > [!IMPORTANT]
@@ -146,9 +144,6 @@ Selleks, et sooritada testi kandeid saidil, saate kasutada järgmist testi kredi
 Pärast ettevalmistamise ja konfigureerimise etappide lõpule viimist, olete valmis oma hindamiskeskkonda kasutama. Kasutage Commerce'i saidiehitaja URL-i, et minna autorluskogemuse juurde. Kasutage Commerce'i saidi URL-i, et minna jaemüügi klientide saidikogemuse juurde.
 
 Teavet selle kohta, kuidas Commerce’i hindamiskeskkonna valikulisi funktsioone konfigureerida, vaadake teemast [Commerce’i hindamiskeskkonna valikuliste funktsioonide konfigureerimine](cpe-optional-features.md).
-
-> [!NOTE]
-> Commerce'i hindamiskeskkonnad on eellaaditud Azure Active Directory (Azure AD) ettvõttelt tarbijale (B2C) rentnikule demo eesmärgil. Oma Azure AD B2C rentniku konfigureerimine ei ole hindamiskeskkondade jaoks vajalik. Kui aga konfigureerite hindamiskeskkonda oma Azure AD B2C rentniku kasutamiseks, lisage ``https://login.commerce.dynamics.com/_msdyn365/authresp`` see Azure AD Azure Portaali kaudu B2C-rakendusele vastuse URL-ina.
 
 ## <a name="additional-resources"></a>Lisaressursid
 
@@ -162,15 +157,10 @@ Teavet selle kohta, kuidas Commerce’i hindamiskeskkonna valikulisi funktsioone
 
 [Dynamics 365 Commerce'i hindamiskeskkonna KKK](cpe-faq.md)
 
-[Microsofti elutsükli teenused (LCS)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
+[Microsofti elutsükli teenused (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 
-[Retail Cloud Scale Unit (RCSU)](/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
+[Retail Cloud Scale Unit (RCSU)](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
 
 [Microsoft Azure'i portaal](https://azure.microsoft.com/features/azure-portal)
 
 [Dynamics 365 Commerce veebisait](https://aka.ms/Dynamics365CommerceWebsite)
-
-[Jaekaubandusrentniku häälestamine Commerce'is](set-up-B2C-tenant.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

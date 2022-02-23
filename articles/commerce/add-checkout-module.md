@@ -2,24 +2,27 @@
 title: Maksmise moodul
 description: Selles teemas kirjeldatakse, kuidas lisada lehele maksmise moodul ja määrata vajalikud atribuudid.
 author: anupamar-ms
+manager: annbe
 ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 031c70181e0dff9bc81450d2454f21e1dbaf1285d41b38ff6f7df6045923c27c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 28d58caba71ea98ccf163e756e879587aa254bb3
+ms.sourcegitcommit: 12d271bb26c7490e7525d9b4bbf125cdc39fef43
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715502"
+ms.lasthandoff: 11/07/2020
+ms.locfileid: "4411832"
 ---
 # <a name="checkout-module"></a>Maksmise moodul
 
@@ -27,13 +30,15 @@ ms.locfileid: "6715502"
 
 Selles teemas kirjeldatakse, kuidas lisada lehele maksmise moodul ja määrata vajalikud atribuudid.
 
+## <a name="overview"></a>Ülevaade
+
 Maksmise moodul on spetsiaalne konteiner, mis majutab kõiki tellimuse loomiseks vajalikke mooduleid. See esitab samm-sammulise voo, mida klient ostu sooritamiseks kogu asjakohase teabe sisestamiseks kasutab. See hõivab tarneaadressi, tarneviisi ja arveldusteavet. Samuti esitatakse tellimuse kokkuvõte ja muud kliendi tellimusega seotud andmed.
 
 Maksmise moodul renderdab andmeid ostukorvi ID põhjal. See ostukorvi ID salvestatakse brauseriküpsisena. Ostukorvi ID on nõutav, et renderdada maksmise mooduli teavet, nagu tellimuse kaubad, kogusumma ja allahindlused. 
 
 Järgmisel pildil on näide Fabrikami maksmise moodulist maksmise lehel.
 
-![Maksmise mooduli näide.](./media/Checkout.PNG)
+![Maksmise mooduli näide](./media/Checkout.PNG)
 
 ## <a name="checkout-module-properties"></a>Maksmise mooduli atribuudid
 
@@ -52,13 +57,13 @@ Kassa moodul näitab tellimuse kokkuvõtet ja pakub tellimuse esitamise funktsio
 
     Järgmisel pildil on näide tarneaadressi moodulist maksmise lehel.
 
-    ![Tarneaadressi mooduli näide.](./media/ecommerce-shippingaddress.PNG)
+    ![Tarneaadressi mooduli näide](./media/ecommerce-shippingaddress.PNG)
 
 - **Tarnevalikud** – see moodul võimaldab kliendil valida tellimuse tarneviisi. Lisateavet selle mooduli kohta leiate teemast [Tarnevalikute moodul](delivery-options-module.md).
 
     Järgmisel pildil on näide tarnevalikute moodulist maksmise lehel.
  
-    ![Tarnevalikute mooduli näide.](./media/ecommerce-deliveryoptions.PNG)
+    ![Tarnevalikute mooduli näide](./media/ecommerce-deliveryoptions.PNG)
 
 - **Maksmise jaotise konteiner** – see moodul on konteiner, kuhu saate lisada mitu moodulit, et luua jaotis maksmise voo sees. Näiteks saate panna sellesse konteinerisse kõik maksmisega seotud moodulid, et need kuvataks ühe jaotisena. See moodul mõjutab ainult voo paigutust.
 
@@ -70,7 +75,7 @@ Kassa moodul näitab tellimuse kokkuvõtet ja pakub tellimuse esitamise funktsio
 
     Järgmisel pildil on näide kinkekaardi, boonuspunktide ja maksemoodulitest maksmise lehel.
 
-    ![Kinkekaardi, boonuspunktide ja maksemoodulite näide maksmise lehel.](./media/ecommerce-payments.PNG)
+    ![Kinkekaardi, boonuspunktide ja maksemoodulite näide maksmise lehel](./media/ecommerce-payments.PNG)
 
 - **Kontaktteave** – see moodul võimaldab kliendil lisada või muuta tellimuse kontaktandmeid (meiliaadress).
 
@@ -80,7 +85,7 @@ Kassa moodul näitab tellimuse kokkuvõtet ja pakub tellimuse esitamise funktsio
 
     Järgmisel pildil on näide tingimustest maksmise lehel.
 
-    ![Tingimuste näide maksmise lehel.](./media/ecommerce-checkout-terms.PNG)
+    ![Tingimuste näide maksmise lehel](./media/ecommerce-checkout-terms.PNG)
 
 ## <a name="commerce-scale-unit-interaction"></a>Commerce Scale Unitiga suhtlemine
 
@@ -122,6 +127,3 @@ Uuele lehele ostukorvi mooduli lisamiseks ja vajalike atribuutide seadistamiseks
 [Tellimuse üksikasjade moodul](order-confirmation-module.md)
 
 [Kinkekaardi moodul](add-giftcard.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

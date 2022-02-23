@@ -2,30 +2,35 @@
 title: Ülesandeloendite loomine ja ülesannete lisamine
 description: Selles teemas kirjeldatakse, kuidas rakenduses Microsoft Dynamics 365 Commerce luua ülesandeloendeid ja lisada neile ülesandeid.
 author: gvrmohanreddy
+manager: annbe
 ms.date: 02/10/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 2e6bd69435ee8fe58dbbf66eb0c5eee3d2ec09ee1998ef0218cdef643522c5bf
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1cab31784db9f3242dce20e98762088436a5a8f8
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6756521"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4411737"
 ---
-# <a name="create-task-lists-and-add-tasks"></a>Tööülesannete loendite loomine ja ülesannete lisamine
+# <a name="create-task-lists-and-add-tasks"></a>Ülesandeloendite loomine ja ülesannete lisamine
 
 [!include [banner](includes/banner.md)]
 
 Selles teemas kirjeldatakse, kuidas rakenduses Microsoft Dynamics 365 Commerce luua ülesandeloendeid ja lisada neile ülesandeid.
+
+## <a name="overview"></a>Ülevaade
 
 *Ülesanne* määratleb kindla töö või tegevuse, mille keegi peab täitma määratud tähtajal või enne seda. Rakenduses Dynamics 365 Commerce võib ülesanne sisaldada üksikasjalikke juhiseid ja teavet kontaktisiku kohta. See võib sisaldada ka linke kontori toimingutele kassatoimingutele või saidi lehtedele, et aidata parandada produktiivsust ja pakkuda konteksti, mida ülesande omanik ülesande tõhusaks täitmiseks vajab.
 
@@ -70,7 +75,7 @@ Rakendus Commerce võimaldab teil linkida ülesanded konkreetsete kassatoimingut
 
 Järgmisel joonisel on näidatud ülesande linkide valimine dialoogiboksis **Redigeeri ülesannet**.
 
-![Ülesande linkide valimine ülesande redigeerimise dialoogiboksis.](media/HQ-POS-Tasks-Linking.png)
+![Ülesande linkide valimine dialoogiboksis Redigeeri ülesannet](media/HQ-POS-Tasks-Linking.png)
 
 ### <a name="configure-a-pos-operation-so-that-it-can-be-linked-to-a-task"></a>Kassatoimingu konfigureerimine, et selle saaks ülesandega linkida
 
@@ -88,6 +93,3 @@ Kassatoimingu konfigureerimine, et selle saaks ülesandega linkida, tehke järgm
 [Ülesandeloendite määramine poodidele või töötajatele](task-mgmt-assign-lists.md)
 
 [Ülesannete haldus kassas](task-mgmt-POS.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

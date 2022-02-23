@@ -2,23 +2,26 @@
 title: Finantsdimensioonide määratlemine
 description: Selles ülesandejuhendis selgitatakse üksuse tagatud finantsdimensiooni ja kohandatud finantsdimensiooni lisamist.
 author: aprilolson
+manager: AnnBe
 ms.date: 06/25/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DimensionDetails,  DimensionAttributeTableExtensionActivate, DimensionValueDetails
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ed6dad64032c03e638c2090471af825dd18560a1
-ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
+ms.openlocfilehash: 6fbe739eec0cfa1e7b0276872640bd4f82be3ef7
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "7394458"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4442196"
 ---
 # <a name="define-financial-dimensions"></a>Finantsdimensioonide määratlemine
 
@@ -52,6 +55,3 @@ Selles ülesandejuhendis selgitatakse üksuse tagatud finantsdimensiooni ja koha
 9. Sisestage väljale **Dimensiooni väärtus** oma finantsdimensiooni väärtust kirjeldav nimi.
 10. Sisestage väljale **Kirjeldus** oma finantsdimensiooni väärtuse kirjeldus.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,26 +1,29 @@
 ---
 title: Pearaamatu eraldamisreeglid
 description: Selles artiklis antakse teavet pearaamatu eraldamisreeglite kohta. See kirjeldab nende eraldamisreeglite mitmesuguseid komponente ja eraldamismeetodeid, mida nende puhul kasutada saab.
-author: kweekley
+author: ShylaThompson
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerAllocation, LedgerAllocationBasisRule, LedgerAllocationRequest, LedgerAllocationRule
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 15402
 ms.assetid: 8147e148-7c11-45ef-95c6-f9889a875b54
 ms.search.region: Global
-ms.author: kweekley
+ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 718640390cd1d4c6c2e9fb1d6bdeba21b515be4a
-ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
-ms.translationtype: MT
+ms.openlocfilehash: 42896fc8b204df921f1e24797098472eca090d30
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/31/2021
-ms.locfileid: "7726867"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4442415"
 ---
 # <a name="ledger-allocation-rules"></a>Pearaamatu eraldamisreeglid
 
@@ -48,6 +51,3 @@ Igal eraldamisreeglil on neli komponenti: üldine, allikas, sihtkoht ja vastasko
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

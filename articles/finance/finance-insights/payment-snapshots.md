@@ -1,32 +1,34 @@
 ---
-title: Hetktõmmiste ülevaade
+title: Hetktõmmiste ülevaade (eelversioon)
 description: Selles teemas kirjeldatakse hetktõmmiste funktsiooni, mis võimaldab teil salvestada likviidsuse prognoosi hilisemaks analüüsimiseks või tegelikkusega võrdlemiseks. Likviidsuse prognoosi loomisel saate selle prognoosi salvestada hetktõmmisena. Seejärel saate kasutada hetktõmmiseid, et redigeerida prognoosi kaasatud kontosid või võrrelda hetktõmmise prognoosi tegelike näitajatega.
 author: ShivamPandey-msft
-ms.date: 11/03/2021
-ms.topic: overview
+manager: AnnBe
+ms.date: 05/19/2020
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.custom:
-- "14151"
-- intro-internal
+ms.search.scope: Core, Operations
+ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-19
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: f9b6d44b7381817a40b86c17ee4eaf3dbfc46b67
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: f0d0bdde8b69148c72b8c645e040f0e596ecba92
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983513"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4645621"
 ---
-# <a name="snapshots-overview"></a>Hetktõmmiste ülevaade
+# <a name="snapshots-overview-preview"></a>Hetktõmmiste ülevaade (eelversioon)
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Hetktõmmised lasevad organisatsioonidel redigeerida ja salvestada oma teatud ajahetke sularahajääki ja sularaha prognoose. Saate hetktõmmist võrrelda tegeliku finantssüsteemiga, uurida hälvet ja kasutada seda teavet likviidsuse planeerimise parandamiseks aja jooksul. Täpsemalt saab hetktõmmiseid kasutada järgmistel viisidel.
 
@@ -40,6 +42,9 @@ Saate luua hetktõmmise, kui valite käsu **Uus hetktõmmis** kas vahekaardil **
 
 Hetktõmmiste sularaha sissetulekuid ja väljaminekuid saab igal ajal redigeerida. Kui sissetuleku või väljamineku summat muuta, siis jagatakse uuendatud summat algse saldo moodustanud likviidsuse kontodel proportsionaalselt. Kui olete hetktõmmise redigeerimise lõpetanud, valige muudatuste salvestamiseks käsk **Salvesta**.
 
-Tegelike finantstulemuste võrdlemiseks hetktõmmisena salvestatud prognoosiga valige **Võrdle tegelikega**. Lehekülg **Võrdle tegelikega** näitab võrdlust tegelike summade ja prognoosiga. Lehe ülaosas olev diagramm näitab sularaha sissetulekute, sularaha väljaminekute ja panga saldode võrdlust kattuvatel perioodidel kahe hetktõmmise vahel. Allosas olev ruudustik näitab iga likviidsuse summa perioodi tegelike saldode ja prognoositud saldode üksikasjalikku võrdlust. Ruudustiku veerg **Hälve** kuvab erinevust perioodi tegeliku saldo ja prognoositud saldo vahel.
+Mitme hetktõmmise võrdlemiseks valige käsk **Võrdle hetktõmmiseid**. Korraga saate võrrelda kaht hetktõmmist. Valige kaks hetktõmmist, mida võrrelda ja seejärel valige **OK**. Leht **Hetktõmmiste võrdlemine** kuvab valitud hetktõmmiste võrdluse. Lehe ülaosas olev diagramm näitab sularaha sissetulekute, sularaha väljaminekute ja panga saldode võrdlust kattuvatel perioodidel kahe hetktõmmise vahel. Allosas olev ruudustik näitab iga likviidsuse summa kahe prognoosi üksikasjalikku võrdlust. Ruudustiku veerg **Hälve** kuvab erinevust perioodi saldode vahel.
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+Tegelike finantstulemuste võrdlemiseks hetktõmmisena salvestatud prognoosiga valige **Võrdle tegelikega**. Lehel **Hetktõmmise võrdlemine** kuvatakse võrdlust tegelike summade ja prognoosi vahel. Lehe ülaosas olev diagramm näitab sularaha sissetulekute, sularaha väljaminekute ja panga saldode võrdlust kattuvatel perioodidel kahe hetktõmmise vahel. Allosas olev ruudustik näitab iga likviidsuse summa perioodi tegelike saldode ja prognoositud saldode üksikasjalikku võrdlust. Ruudustiku veerg **Hälve** kuvab erinevust perioodi tegeliku saldo ja prognoositud saldo vahel.
+
+#### <a name="privacy-notice"></a>Privaatsusavaldus
+Eelvaated 1) võivad kasutada vähem privaatsus- ja turbemeetmeid kui rakenduse Dynamics 365 Finance and Operations teenus; 2) ei ole hõlmatud selle teenuse teenusetaseme leppes; 3) ei tohi olla kasutusel isiklike andmete ega muude andmete töötlemiseks, mis on seaduste või määrustega kaitstud; 4) on piiratud toega.

@@ -1,13 +1,16 @@
 ---
 title: Karusellmoodul
-description: See teema hõlmab ostukasti mooduleid ja kirjeldab, kuidas neid rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
+description: See teema hõlmab karusellmooduleid ja kirjeldab, kuidas neid rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
 author: anupamar-ms
+manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -15,18 +18,20 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: cfbe254d225366f89779ffeef410bb0b1a29056e51a4719106e9bc495b898161
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f09f3f98d174f965a75e27ee6a5c2ed8599042fc
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721051"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4411601"
 ---
 # <a name="carousel-module"></a>Karusellmoodul
 
 [!include [banner](includes/banner.md)]
 
-See teema hõlmab ostukasti mooduleid ja kirjeldab, kuidas neid rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
+See teema hõlmab karusellmooduleid ja kirjeldab, kuidas neid rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
+
+## <a name="overview"></a>Ülevaade
 
 Karussellmoodulit kasutatakse mitme kampaaniakauba (sealhulgas rikastatud piltide) lisamiseks pöörlevale karussellibännerile, mida kliendid saavad sirvida. Näiteks saab jaemüüja kasutada avalehel karussellmoodulit, et tutvustada mitut uut toodet või kampaaniat.
 
@@ -40,7 +45,7 @@ Saate lisada karusellmooduli sisse sisuploki. Karussellmooduli atribuudid määr
 
 Järgmisel pildil on näide karussellmoodulist, mida kasutatakse avalehel. Karussellmoodul sisaldab mitmeid sisu blokeerimise üksuseid.
 
-![Karussellmooduli näide.](./media/Hero.PNG)
+![Karussellmooduli näide](./media/Hero.PNG)
 
 ## <a name="carousel-module-properties"></a>Karusellmooduli atribuudid
 
@@ -81,6 +86,3 @@ Uuele lehele karusellmooduli lisamiseks ja vajalike atribuutide seadistamiseks t
 [Sisuploki moodul](add-hero-module.md)
 
 [Videopleierimoodul](add-video-player.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,28 +1,28 @@
 ---
 title: Pakkumiskutsete ülevaade
 description: Selles teemas antakse ülevaade pakkumiskutsete kohta. Organisatsioonid väljastavad pakkumiskutse, kui saavad mitmelt hankijalt konkureerivaid pakkumisi kaupade või teenuste kohta, mida soovivad osta.
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 10/05/2020
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchRFQCaseTable, PurchRFQCaseTableListPage, PurchRFQCompare, PurchRFQReplyTable, PurchRFQVendReplyTableListPage, BOMExpandPurchRFQ, PurchRFQReplyFollowupItem, PurchRFQCaseVend, PurchRFQReplyFollowup, PurchRFQCaseAmendmentInfo, PurchRFQReplyFollowupCase, PurchRFQReplyStatus, PurchRFQCaseReplyFields, PurchRFQAddQuestionnaire, PurchRFQAmendmentWizard, PurchRFQReplyTableStatus, PurchRFQReplyTableListPage, PurchRFQCancelWizard
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom:
-- "2154"
-- intro-internal
+ms.custom: 2154
 ms.assetid: 3936996e-d943-46ca-8385-84c042990f1d
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7338897feb2c3a28350d366f26eecc56f8eeb3fb
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: 5b3338e1837496605ce94a54eb57a32b1b83145b
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983388"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016927"
 ---
 # <a name="requests-for-quotation-rfqs-overview"></a>Pakkumiskutsete ülevaade
 
@@ -39,13 +39,13 @@ Pakkumiskutse protsess koosneb järgmistest ülesannetest.
 
 Järgmisel joonisel on näidatud ülevaade pakkumiskutse protsessist.
 
-[![RFQ-protsess.](./media/rfq-process-458x1024.jpg)](./media/rfq-process.jpg)
+[![RFQ-protsess](./media/rfq-process-458x1024.jpg)](./media/rfq-process.jpg)
 
 Saate luua pakkumiskutse juhtumi plaanitud tellimustelt, ostutaotluselt või käsitsi sisestades. Pakkumiskutse juhtum on alusdokument, mida kasutate igale hankijale pakkumiskutse väljastamiseks.
 
 Kui olete pakkumiskutse ette valmistanud ja hankijad lisanud, valige pakkumiskutses **Saada** (**Saada ja avalda** avaliku sektori korral). Iga hankija kohta, kellele pakkumiskutse saadate, luuakse pakkumiskutse tööleht. Saate konfigureerida saatmistegevuse prindisuvandeid kas printima iga hankija kohta aruande arhiivi või saatma aruande iga hankija meiliaadressile. Peale selle saate iga hankija pakkumiskutse töölehe abil luua aruande, mille saate hankijale saata kohe või hiljem uuesti. Samuti saate konfigureerida saatmistegevuse nii, et see loob vastuselehe, mille hankija saab täita.
 
-Selles teemas käsitletakse pakkumiskutsete käsitlemise protsessi, kui hankija koostööd ei kasutata. Kui teie süsteem on seadistatud hankija koostöö kasutamiseks, saavad hankijad sisestada pakkumised otse rakenduses Supply Chain Management. Lisateavet vt teemast [Hankija koostöö klientidega](/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) ja [Hankija koostöö väliste hankijatega](vendor-collaboration-work-external-vendors.md).
+Selles teemas käsitletakse pakkumiskutsete käsitlemise protsessi, kui hankija koostööd ei kasutata. Kui teie süsteem on seadistatud hankija koostöö kasutamiseks, saavad hankijad sisestada pakkumised otse rakenduses Supply Chain Management. Lisateavet vt teemast [Hankija koostöö klientidega](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) ja [Hankija koostöö väliste hankijatega](vendor-collaboration-work-external-vendors.md).
 
 Kui peate pakkumiskutset pärast selle saatmist täiendama, saate pakkumiskutse hankijatele uuesti saata, kasutades kaht täiendamistegevust: loomine ja lõpetamine.
 
@@ -80,23 +80,23 @@ Hankijatele saadetava meiliteatise jaoks saate malli valida lehel **Hankeparamee
 - %Pakkumise tagastamise põhjus%
 - %Paranduse põhjus%
 - %Paranduse ettevalmistaja%
-- %Company%
+- %Ettevõte%
 - %Pakkumiskutse juhtumi nimi%
 - %Aegumiskuupäev%
-- %Date%
+- %Kuupäev%
 
-Sõned %Pakkumise tagastuse põhjus% ja %Paranduse põhjus% asendatakse tekstiga, mille hankespetsialist saab sisestada paranduse tegemisel viisardis **Parandus**. Sõnede %Paranduse ettevalmistaja% ja %Company% väärtused võetakse automaatselt pakkumiskutselt. Sõne %Date% asendatakse praeguse kuupäevaga.
+Sõned %Pakkumise tagastuse põhjus% ja %Paranduse põhjus% asendatakse tekstiga, mille hankespetsialist saab sisestada paranduse tegemisel viisardis **Parandus**. Sõned %Paranduse ettevalmistaja% ja %Ettevõte% võetakse automaatselt pakkumiskutselt. Sõne %Kuupäev% asendatakse praeguse kuupäevaga.
 
 Kui soovite tühistada pakkumiskutse pärast selle saatmist, saate seda teha pakkumiskutse juhtumis. Tühistamiseks tuleb kasutada meilimalli, et saata tühistamisteatis hankija kontaktisikutele. Mall tuleb valida lehel **Hankeparameetrid**. Malli loomisel võib see sisaldada järgmisi asendussõnesid.
 
 - %Tühistamise põhjus%
 - %Pakkumiskutse juhtum%
 - %Pakkumiskutse tühistaja%
-- %Company%
+- %Ettevõte%
 - %Pakkumiskutse juhtumi nimi%
-- %Date%
+- %Kuupäev%
 
-Sõne %Tühistamise põhjus% asendatakse tekstiga, mille hankespetsialist saab sisestada viisardis **Tühistamine**. Sõne %Date% asendatakse praeguse kuupäevaga.
+Sõne %Tühistamise põhjus% asendatakse tekstiga, mille hankespetsialist saab sisestada viisardis **Tühistamine**. Sõne %Kuupäev% asendatakse praeguse kuupäevaga.
 
 Kui soovite kasutada pakkumises põhjusekoode, et näidata pakkumise tagasilükkamise või aktsepteerimise põhjust, peate seadistama põhjusekoodid lehel **Hankija põhjused**.
 
@@ -167,7 +167,7 @@ Kui konfigureerite täiendamisprotsessi nii, et see oleks rohkem piirav, siis en
 
 Kui konfigureerite täiendamisprotsessi nii, et see oleks vähem piirav, ei pea te enne saadetud pakkumiskutse juhtumi väljade muutmist käsku **Loo** valima. Siiski peate täiendamismärkuse käsitsi pakkumiskutsele lisama ja juhtumi uuesti saatma. Võtke arvesse, et seda lähenemisviisi saab kasutada ainult siis, kui ühtki vastust (pakkumist) pole redigeeritud. Kui olete vastuse sisestanud ja selle olek on **Vastu võetud**, pole nupp **Saada** saadaval. Sel juhul peate valima käsu **Loo** ja seejärel **VII lõpule** ning tegutsema rohkem piiravas protsessis. Seejärel saadetakse vastus pakkumiskutse juhtumi muudatuste kajastamiseks.
 
-Kui hankijad kasutavad pakkumiste sisestamiseks hankija koostöö liidest, peate hankijaid pakkumiskutse juhtumi muudatustest teavitama alati täiendamisprotsessi kaudu. See protsess aitab vältida olukorda, kus hankijad teevad aegunud pakkumiskutsele pakkumise, kui nende pakkumine on veel pooleli. Lisateavet hankija koostöö kohta vt teemast [Hankija koostöö väliste hankijatega](/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-external-vendors).
+Kui hankijad kasutavad pakkumiste sisestamiseks hankija koostöö liidest, peate hankijaid pakkumiskutse juhtumi muudatustest teavitama alati täiendamisprotsessi kaudu. See protsess aitab vältida olukorda, kus hankijad teevad aegunud pakkumiskutsele pakkumise, kui nende pakkumine on veel pooleli. Lisateavet hankija koostöö kohta vt teemast [Hankija koostöö väliste hankijatega](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-external-vendors).
 
 Kui soovite kutsuda pakkumist tegema täiendavaid hankijaid ja pakkumiskutse juhtumit pole muudetud, saate kasutada nuppu **Saada**. Lisatud hankijad kuvatakse lehel **Saatmine** ja neile saadetakse meilikutse.
 
@@ -246,6 +246,3 @@ All toodud näites näete kõrgeimat ja madalaimat olekut pakkumiskutse juhtumis
 | Aktsepteerige üks pakkumistest. (või vähemalt üks rida) |                          Vastu võetud                           |                           Aktsepteeritud                           |                    Vastu võetud                    |                    Aktsepteeritud                     |                   Vastu võetud                   |                   Aktsepteeritud                    |
 |           Lükake kõik teised pakkumised tagasi.           |                          Tagasi lükatud                           |                           Aktsepteeritud                           |                    Tagasi lükatud                    |                    Aktsepteeritud                     |                   Tagasi lükatud                   |                   Aktsepteeritud                    |
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

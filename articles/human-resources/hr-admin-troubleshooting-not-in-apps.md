@@ -1,34 +1,32 @@
 ---
 title: Human Resources ei ilmu Microsoft Dynamics 365 rakenduste hulgas
-description: See teema selgitab, mida teha, kui rakendust Microsoft Dynamics 365 Human Resources ei ole Microsoft Dynamics 365 rakenduste hulgas.
-author: twheeloc
-ms.date: 08/19/2021
+description: Selles artiklis selgitatakse, mida teha, kui klient ei näe rakendust Microsoft Dynamics 365 Human Resources Microsoft Dynamics 365 rakenduste.
+author: andreabichsel
+manager: AnnBe
+ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4bdbe6c4065a8266fd30a3b093743ded91524f6a
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: cbf47b4673e1c97965bba7728e5669b7639c4d56
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069676"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4418132"
 ---
-# <a name="human-resources-app-doesnt-appear-in-microsoft-dynamics-365-apps"></a>Rakendust Human Resources ei kuvata Microsoft Dynamics 365 rakenduste hulgas
+# <a name="human-resources-doesnt-appear-in-microsoft-dynamics-365-apps"></a>Human Resources ei ilmu Microsoft Dynamics 365 rakenduste hulgas
 
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-**Probleem**
+**Väljastamine**
 
 Klient ei näe rakendust Dynamics 365 Human Resources Microsoft Dynamics 365 rakenduste hulgas.
 
@@ -42,11 +40,11 @@ Kasutajale peab Microsoft Power Appsis olema keskkonna jaoks lisatud roll Keskko
 
 3. Tehke vahekaardi **Turve** vahekaardil **Keskkonnarollid** valik **Keskkonna looja**.
 
-    ![Keskkonnarollide vahekaart.](media/environment-roles.png)
+    ![Vahekaart Keskkonnarollid](media/environment-roles.png)
 
 4. Lisage vahekaardil **Kasutajad** kasutaja või organisatsioon.
 
-    ![Kasutajate vahekaart.](media/environment-maker.png)
+    ![Vahekaart Kasutajad](media/environment-maker.png)
 
 5. Valige käsk **Salvesta**.
 
@@ -54,9 +52,6 @@ Kasutajale peab Microsoft Power Appsis olema keskkonna jaoks lisatud roll Keskko
 
 7. Valige kasutajarakenduste uuendamiseks **Sünkrooni**.
 
-    ![Sünkroniseerimise nupp.](media/get-more.png)
+    ![Nupp Sünkrooni](media/get-more.png)
 
     Pärast sünkroonimise lõpuleviimist ilmub rakendus Human Resources avalehel.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

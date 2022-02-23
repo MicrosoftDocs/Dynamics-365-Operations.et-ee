@@ -1,37 +1,36 @@
 ---
 title: Koolituskursuste seadistamine
 description: Inimressursside administraatorid ja haldurid saavad kasutada kursuste funktsioone töötajatele pakutavate koolituste kohta teabe haldamiseks.
-author: twheeloc
-ms.date: 08/26/2021
+author: andreabichsel
+manager: AnnBe
+ms.date: 06/24/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HcmCourseType, HcmCourseTypeGroup, HRMCourseTable, HcmLearningWorkspace
 audience: Application User
-ms.search.scope: Human Resources
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations, Human Resources
 ms.custom: 7532
 ms.assetid: a6950c29-8b3e-45b2-9084-ddfb1317ffaa
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: c66459a044419535d66875cddac7eb73af744ca7
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: 253f0d07679b6327a0ed1e3cc20ede66249750b8
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066746"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4418220"
 ---
 # <a name="set-up-training-courses"></a>Koolituskursuste seadistamine
 
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
 Inimressursside administraatorid ja haldurid saavad kasutada kursuste funktsioone töötajatele pakutavate koolituste kohta teabe haldamiseks.
 
-##  <a name="set-up-prerequisites"></a> Seadistuse eeltingimused
+ <a name="set-up-prerequisites"></a> Seadistuse eeltingimused
+---------------------
 
 Järgmine teave on vajalik ja tuleb seadistada enne kursuste loomist.
 -   **Kursuste tüübid**
@@ -83,7 +82,7 @@ Iga kursuse puhul saate täita järgmisi ülesandeid.
 - Osalejate vähima ja suurima arvu määratlemine
 - Kursuse asukoha ja klassiruumi määramine
 - Kursusel osalejatele hotellide soovitamine
-- Kursuse kirjelduse loomine **töötaja iseteeninduses** reklaamimiseks
+- Kursuse kirjelduse loomine töötaja iseteeninduses reklaamimiseks.
 
   >**Märkus.** Kursuse saate kustutada ainult siis, kui keegi pole sellele registreerunud. 
 
@@ -129,7 +128,8 @@ Järgmises tabelis on antud võimalikud kursuse olekud ja toimingud, mida saate 
 ## <a name="course-participants"></a>Kursusel osalejad
 Kursusel osalejad on töötajad, kes koolituskursusel või sündmusel osalevad. Saate registreerida osalejaid ainult avatud kursustele. Minimaalne ja maksimaalne kursusele registreeritav osalejate arv määratakse kiirkaardil **Üldine** lehel **Kursused**.
 
-## <a name="workflow"></a>Töövoog
+<a name="workflow"></a>Töövoog
+--------
 
 Töötajad, kes registreeruvad kursusele lehe **Töötaja iseteenindus** kaudu, saavad lasta oma registreerumisel läbida kinnitamise töövoo. Te võite määrata töövookursusele lehe **Kursused** kiirkaardil **Üldine**.
 
@@ -137,6 +137,3 @@ Töötajad, kes registreeruvad kursusele lehe **Töötaja iseteenindus** kaudu, 
 
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Andmete agnostiline testimine, kasutadesRegression Suite Automation Tool
 description: Selles teemas käsitletakse soovitusi, mida andmete agnostiliseks testimiseks kasutatakse Regression Suite Automation Tool.
 author: kfend
+manager: AnnBe
 ms.date: 09/13/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2019-09-11
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: d9a5bce1cc56dfdf66b2ce58c2e740b7c4b3bdfc7f4e75396fe5dc7cb931b6d0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2398bcbf0d148932e62ebe90aa8016acf0c79c28
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763406"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798197"
 ---
 # <a name="data-agnostic-testing-using-the-regression-suite-automation-tool"></a>Andmete agnostiline testimine, kasutadesRegression Suite Automation Tool
 
@@ -30,7 +32,7 @@ Kui ERP-rakenduse funktsionaalne valideerimine ei saa olla täielikult agnostili
 - ATL raamistik
 - Regression Suite Automation Tool (RSAT)
 
-[![Testi klassifikatsiooni püramiid.](./media/rsat-data-agnostic-testing-01.PNG)](./media/rsat-data-agnostic-testing-01.PNG)
+[![Testi klassifikatsiooni püramiid](./media/rsat-data-agnostic-testing-01.PNG)](./media/rsat-data-agnostic-testing-01.PNG)
 
 ## <a name="overview"></a>Ülevaade
 -   **SysTest raamistik** – SysTest raamistik on usaldusväärseks ühiku testimiseks. Kuna ühiku testid testivad üldiselt meetodit või funktsiooni, peaksid need alati olema andmeagnostilised ja sõltuvad ainult sisendi andmetest, mis esitatakse katse osana.
@@ -42,11 +44,8 @@ Kui ERP-rakenduse funktsionaalne valideerimine ei saa olla täielikult agnostili
     - o Sisestage kordumatud ID-d (nt arve numbrid) numbriseeria kaudu või kasutades Microsoft Excel funktsioone, nt =TEXT(NOW(),"yyyymmddhhmm"). See funktsioon annab iga minut kordumatu numbri, mis võimaldab teil jälgida, millal tegevus toimus. Seda saab kasutada muutujate jaoks, nagu toote sissetuleku numbrid ja hankija arve numbrid. Need testid jätkavad tööd sama andmebaasiga uuesti ja uuesti, nõudmata taastamist.
     - Määrake alati keskkonna **Redigeerimise režiim**, et **lugeda** või **redigeerida** esimese testi juhtumina, kuna vaikimisi on suvand **Automaatne**.**Automaatne** suvandid kasutavad alati eelmist sätet ja võivad põhjustada ebausaldusväärseid teste. 
  
-    [![Suvandite leht, jõudluse vahekaart.](./media/rsat-data-agnostic-testing-02.PNG)](./media/rsat-data-agnostic-testing-02.PNG)
+    [![Suvandite leht, jõudluse vahekaart](./media/rsat-data-agnostic-testing-02.PNG)](./media/rsat-data-agnostic-testing-02.PNG)
  
     - Kinnitage ainult pärast kindla kande filtreerimist üldise kinnitamise asemel. Näiteks kirjete arvu puhul filtreerige kande number või kande kuupäev nii, et kontroll välistab kõik muud kanded. 
     - Kui kontrollite kliendi saldot või eelarvet, salvestage esmalt väärtus ja lisage seejärel oma tehinguväärtus, et kontrollida oodatavat tulemust, kindla eeldatava väärtuse kinnitamise asemel. 
  
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

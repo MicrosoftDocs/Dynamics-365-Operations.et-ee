@@ -1,25 +1,28 @@
 ---
 title: " Toodete jaotamine jaotuskeskusest kauplusse kesklaost jaotuse abil"
 description: See protseduur tutvustab, kuidas luua ja töödelda jaotust kesklaost toodete laialisaatmiseks ühest kohast ühte või mitmesse kauplusesse.
-author: BrianShook
+author: rubencdelgado
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RetailBuyersPush, InventLocationIdLookup, InventItemIdLookupSimple, RetailReplenishmentTreeLookup
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: brshoo
+ms.author: rubendel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 30d82e4b282bac2ea888971ad5c6298adfa8332b
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
-ms.translationtype: MT
+ms.openlocfilehash: dad74855ab9a9c225a5cd64a8c27663aedcd21e4
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779616"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4411708"
 ---
 # <a name="push-products-from-distribution-center-to-store-using-buyers-push"></a> Toodete jaotamine jaotuskeskusest kauplusse kesklaost jaotuse abil
 
@@ -50,6 +53,3 @@ See protseduur tutvustab, kuidas luua ja töödelda jaotust kesklaost toodete la
 19. Klõpsake valikut Create order (Loo tellimus).
 20. Klõpsake nuppu Jah.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

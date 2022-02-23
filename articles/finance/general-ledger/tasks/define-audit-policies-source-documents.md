@@ -2,9 +2,11 @@
 title: Lähtedokumentide jaoks auditipoliitikate määratlemine
 description: Selles teemas selgitatakse, kuidas seadistada ja käivitada auditipoliitika reegleid.
 author: panolte
+manager: AnnBe
 ms.date: 08/20/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysPolicySourceDocumentRuleType, SysFieldLookUp, SysPolicyListPage, SysPolicy, AuditPolicyRule, SysQueryForm, SysQueryFieldLookUp, AuditPolicyDateSelection, AuditPolicyAdditionalOption, BatchJob, CaseDetail
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0779589a3583909984e35014a2ec0e86455cd30a3833110556f095241e7172ca
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e020a9e82ff18055e40e3e0ddc7bbed1068c886c
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722667"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021425"
 ---
 # <a name="define-audit-policies-for-source-documents"></a>Lähtedokumentide jaoks auditipoliitikate määratlemine
 
@@ -39,7 +41,7 @@ Selles teemas selgitatakse, kuidas seadistada ja käivitada auditipoliitika reeg
 11. Valige suvand **Uus**.
 12. Sisestage väärtus väljale **Nimi**.
 13. Laiendage jaotist **Poliitika organisatsioonid**.
-14. Puus valige **Contoso Meelelahutuse Süsteem USA**, seejärel valige **Lisa**.
+14. Puus valige **Contoso Meelelahutussüsteem USA**, seejärel valige **Lisa**.
 15. Puus valige **Contoso Nõustamine USA**, seejärel valige **Lisa**.
 16. Puus valige **Contoso Jaemüük USA**, seejärel valige **Lisa**.
 17. Ahendage jaotist **Poliitika organisatsioonid**.
@@ -85,6 +87,3 @@ Selles teemas selgitatakse, kuidas seadistada ja käivitada auditipoliitika reeg
 57. Laiendage jaotist **Seosed**.
 58. Otsige loendist ja valige soovitud kirje.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

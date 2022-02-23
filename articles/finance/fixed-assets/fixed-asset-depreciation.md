@@ -1,10 +1,12 @@
 ---
 title: Põhivara kulum
 description: Selles teemas antakse ülevaade põhivara kulumiarvestusest.
-author: moaamer
-ms.date: 12/03/2021
+author: ShylaThompson
+manager: AnnBe
+ms.date: 10/30/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetBonus, AssetBookTable
 audience: Application User
@@ -12,26 +14,23 @@ ms.reviewer: roschlom
 ms.custom: 3121
 ms.assetid: 98ff891f-e0e2-4184-b618-28107a50851f
 ms.search.region: Global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2442830766ef1dccc109db5569bfbbbc8182f027
-ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
-ms.translationtype: MT
+ms.openlocfilehash: 9b399ab3df9bddbce8b96752ef344bf93cb2563c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7890976"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969099"
 ---
 # <a name="fixed-asset-depreciation"></a>Põhivara kulum
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Selles teemas antakse ülevaade põhivara kulumiarvestusest.
 
 Kulum on perioodiline kanne, mis tavaliselt vähendab bilansis põhivara väärtust ning mis kantakse kuluna tulu ja kulu kontole. Seetõttu kasutatakse bilansis perioodilise kulumi krediteerimiseks tavaliselt põhikontot. Vastaskonto on kontoplaani tulude ja kulude osas olev konto.
-
-Versiooni 10.0.24 järgi lubab lehe Raamatud suvand Arvuta positiivne kulumivararaamatu konfiguratsioon kulumit debiteerida negatiivse raamatupidamisväärtusega (kreedit) soetatud **·** **põhivara**.
 
 ## <a name="depreciation-adjustment"></a>Kulumi korrigeerimine
 Tavaliselt sisestatakse kulumi korrigeerimisena ainult sisestatud kulumikande parandus. Seetõttu seadistatakse nii põhikonto kui ka vastaskonto samamoodi kui kulumikontod. Kulumit võidakse korrigeerida nii positiivse kui ka negatiivse summa võrra, kuid põhikonto (bilansikontona) ja vastaskonto funktsionaalsus (tavaliselt kasumi ja kahjumi kontona) funktsioon jääb samaks.
@@ -57,6 +56,3 @@ Lisateavet leiate jaotisest [Kulumimeetodid ja kulumiarvestusreeglid](depreciati
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

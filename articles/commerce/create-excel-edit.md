@@ -2,9 +2,11 @@
 title: Exceli töövihiku loomine jaemüügikannete redigeerimiseks
 description: Selles teemas kirjeldatakse, kuidas luua Exceli töövihikut, et saaksite Microsoft Dynamics 365 Commerce'is jaemüügikandeid redigeerida.
 author: josaw1
+manager: AnnBe
 ms.date: 11/04/2020
 ms.topic: index-page
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -15,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: bfc3f6898087445e0276994ceeb52c178785bf3604fa163939327e99a0564f64
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 73a3387d1e7251168002ff683b5b58e0c82a620c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753104"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965373"
 ---
 # <a name="create-an-excel-workbook-to-edit-retail-transactions"></a>Exceli töövihiku loomine jaemüügikannete redigeerimiseks
 
@@ -76,6 +78,3 @@ Jaemüügikannete redigeerimiseks Exceli töövihiku loomiseks ja konfigureerimi
 [Jaemüügikannete finantsdimensioonide redigeerimine](edit-financial-dim.md)
 
 [Väljade lisamine Exceli töövihikusse jaemüügikannete redigeerimiseks](add-fields-excel.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Mis on uut või mida on muudetud rakenduses Dynamics AX 7.0 (veebruar 2016)
 description: Selles artiklis kirjeldatakse Microsoft Dynamics AX 7.0 uusi või muutunud funktsioone. See versioon sisaldab nii platvormi kui ka rakenduse funktsioone ja anti välja veebruaris 2016.
 author: sericks007
+manager: AnnBe
 ms.date: 10/23/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ROBOTS: NOINDEX, NOFOLLOW
 audience: Application User, Developer, IT Pro
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bcc69cbf418131d0b1747f1c904de3188d7ba84216cb3145607b45553263244c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3c1b63ba623eb1699938476825a77fd40d838142
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757215"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797215"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Mis on uut või mida on muudetud rakenduses Dynamics AX 7.0 (veebruar 2016)
 
@@ -732,7 +734,7 @@ Jaemüügiserver ja andmehaldus võimaldavad tarbijatel ja ettevõtetel luua üh
 </tr>
 <tr>
 <td>Saate teisaldada andmeid Microsoft Dynamics AX-i kontori ja kanalite vahel, kasutades rakendust Commerce Data Exchange.</td>
-<td>Commerce Data Exchange on süsteem, mis edastab andmeid Microsoft Dynamics AX-i ja jaemüügikanalite (nt veebipoed või traditsioonilised kauplused) vahel. Lisateavet vt teemast <a href="/dynamicsax-2012/appuser-itpro/commerce-data-exchange">Commerce Data Exchange [AX 2012]</a>.</td>
+<td>Commerce Data Exchange on süsteem, mis edastab andmeid Microsoft Dynamics AX-i ja jaemüügikanalite (nt veebipoed või traditsioonilised kauplused) vahel. Lisateavet vt teemast <a href="https://technet.microsoft.com/library/dn741440.aspx">Commerce Data Exchange [AX 2012]</a>.</td>
 <td>On olemas funktsionaalne paarsus rakendusega Microsoft Dynamics AX 2012 CU8. Kuid arvestage järgmist.
 <ul>
 <li>Commerce Data Exchange on ümber korraldatud pilve jaoks.</li>
@@ -1031,6 +1033,3 @@ Uusi funktsioone ei ole lisatud.
 [Mis on uut või muudetud Finance and Operationsi avalehel](whats-new-changed.md)
 
 [Uued tegevusjuhised (veebruar 2016)](new-task-guides-available-february-2016.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

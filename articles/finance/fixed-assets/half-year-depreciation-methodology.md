@@ -2,25 +2,28 @@
 title: Poolaasta kulumiarvestuse konventsiooni metoodika
 description: Selles teemas kirjeldatakse meetodit, mida põhivarad kasutavad kulumi arvestamiseks, kasutades poolaasta reeglit, mis arvutab kuue kuu kulumi vara esimesel ja viimasel kasutusaastal.
 author: moaamer
+manager: Ann Beebe
 ms.date: 08/17/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-08-17
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 5e71beb316494d05a3d8ce6066f2a4c72e32a2ad3d75a4ba3560cb0aebfe4cc8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 55fb03cf08d8ec042aa8fb37fd1fb858d98279b1
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6746436"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4442227"
 ---
 # <a name="half-year-depreciation-convention-methodology"></a>Poolaasta kulumiarvestuse konventsiooni metoodika
 
@@ -36,9 +39,6 @@ Esimene kasutusaasta lõppes 2020. aasta detsembris, mis tähendab, et vara viie
 > Aastane kulum: 50 000:5 = 10 000; igakuine kulum: 10000:12 = 833,33 <br>
 > Esimese aasta kulum: 10 000:2 = 5 000; ja järgnev igakuine kulum: 5000:9 = 555,56
 
-   [![Poolaasta kulumiarvestuse konventsiooni kulumiarvestuse ajakava.](./media/half-yr-dprectn-cnvntn.png)](./media/half-yr-dprectn-cnvntn.png)
+   [![Poolaasta kulumiarvestuse konventsiooni kulumiarvestuse ajakava](./media/half-yr-dprectn-cnvntn.png)](./media/half-yr-dprectn-cnvntn.png)
 
 Pikendatud kulumiperioodid, mis on lisatud pooleaastase konventsiooniga, võimaldavad kulumi täpsemat jaotamist. Kuuekuuline konventsioon kajastab kulumiarvestuse kulusid võrdsemalt, mis on kasulik kasumiaruande koostamiseks.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

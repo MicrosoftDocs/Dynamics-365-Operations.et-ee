@@ -1,33 +1,31 @@
 ---
 title: Hüvitise struktuuri arendamine
-description: Selles teemas selgitatakse, kuidas luua fikseeritud hüvituskava ja registreerida töötajad abikõlblikkuse reeglite kaudu plaani.
-author: twheeloc
-ms.date: 08/25/2021
+description: See artikkel annab ülevaate põhipalga plaani loomisest ja sobivusreeglite abil töötajate plaani lisamisest.
+author: andreabichsel
+manager: AnnBe
+ms.date: 02/10/2020
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: DefaultDashboard, HcmCompensationWorkspace, HcmCompFixedPlansPart, HRMCompFixedPlanTable, HRMCompCreateGridDialog, HRCCompGridView, HRMCompEligibility,  HRCCompGrid
 audience: Application User
-ms.search.scope: Human Resources
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2e35f4978cc4e8162c56ba05de28ab5b2366ccc7
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: 124d0f7f83feebabf622f00732c25bfa0f6eccdd
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065282"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4418182"
 ---
 # <a name="develop-a-compensation-structure"></a>Hüvitise struktuuri arendamine
 
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-See teema kirjeldab fikseeritud hüvitiste plaani loomist ja töötajate registreerimist plaani abikõlblikkuse reeglite kaudu. See teema kasutab USMF-i demoandmeid ja kehtib hüvitise ja soodustuste halduritele.
+See artikkel annab ülevaate põhipalga plaani loomisest ja sobivusreeglite abil töötajate plaani lisamisest. See artikkel kasutab USMF-i demoandmeid ja kehtib hüvitise ja soodustuste halduritele.
 
 ## <a name="create-a-fixed-compensation-plan"></a>Põhipalga plaani loomine
 
@@ -45,7 +43,7 @@ See teema kirjeldab fikseeritud hüvitiste plaani loomist ja töötajate registr
 
 7. Väljal **Tüüp** valige, kas põhipalgaplaan on **rea-**, **klassi-** või **etapiplaan**.
 
-8. Märkeruut **Soovitamine lubatud** on protsessi sündmusena plaani lisatud mistahes tegevuse vaikeväärtusena. Tasu töötlemisel saate soovituste lubamisega tühistada arvutatud juhise summa.
+8. Märkeruut **Soovitamine lubatud** toimib protsessi sündmusena plaani lisatud mistahes tegevuse vaikeväärtusena. Tasu töötlemisel saate soovituste lubamisega tühistada arvutatud juhise summa.
 
 9. Väli **Vahemikust väljajäämise tolerants** võimaldab määrata, kuidas käsitletakse tasusummasid, mis ei kuulu antud tasemel määratletud tasustruktuuri vahemikku. Välja **Vahemikust väljajäämise tolerants** määramine suvandile **Puudub** võimaldab kasutada mis tahes hüvitise summat. Suvand **Paindlik tolerants** hoiatab kasutajaid, kui hüvitise summa on selle taseme viitepunkti summade miinimumist väiksem või maksimumist suurem. Kasutajad võivad hoiatust ignoreerida ja jätkata. Valik **Jäik tolerants** annab tõrketeate, kui töötaja tasu jääb väljapoole taseme minimaalset või maksimaalset viitepunkti ning töötaja tasu korrigeeritakse automaatselt määratud vahemikku.
 
@@ -115,6 +113,3 @@ Te ei saa põhipalgaplaani töötajale määrata enne, kui määratlete plaani j
 
 8. Sulgege leht.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

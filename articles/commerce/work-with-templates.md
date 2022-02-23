@@ -2,30 +2,36 @@
 title: Mallidega töötamine
 description: Selles teemas kirjeldatakse, kuidas töötada mallidega rakenduses Microsoft Dynamics 365 Commerce.
 author: phinneyridge
-ms.date: 02/03/2022
+manager: annbe
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: ab6ccfac96249b39cb007d9a9fce10475f0c7149
-ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
-ms.translationtype: MT
+ms.openlocfilehash: a3fc4259a76f6edcfaa0b8f6e08292477c6c0835
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8090790"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4411687"
 ---
 # <a name="work-with-templates"></a>Mallidega töötamine
+
 
 [!include [banner](includes/banner.md)]
 
 Selles teemas kirjeldatakse, kuidas töötada mallidega rakenduses Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Ülevaade
 
 Nagu rääkisime teemas [Mallide ja paigutuste ülevaade](templates-layouts-overview.md), mallid määravad suvandite kogumi, mis on saadaval järgmistele autoritele. Mallid on kasulikud ettevõtte veebiloomismeeskonnale mitmel põhjusel ja hea struktuuriga mallid võivad olla abiks kõikide järgmiste eesmärkide saavutamisel.
 
@@ -38,7 +44,7 @@ Nagu rääkisime teemas [Mallide ja paigutuste ülevaade](templates-layouts-over
 - Hoidke ettevõtte saidid kaubamärgile vastavad, määrates heaks kiidetud mooduli kogumi korralduse ja konfigureerimissuvandid.
 
     > [!TIP] 
-    > Edukad e-kaubanduse saidid pakuvad klientidele tuttavaid, korratavaid ja brändipõhiseid kasutajakogemusi (UX). Malle kasutades aitate reguleerida järjepidavust kogu saidil.
+    > Edukat e-kaubanduse saidid pakuvad klientidele tuttavat, korratavat ja kaubamärgile vastavaid kasutuskogemuse (UX) kujunduse mustreid. Malle kasutades aitate reguleerida järjepidavust kogu saidil.
 
 - Parandage otsingumootori optimeerimise (SEO) skoore, tagades korratavad ja programmiliselt määratletud lehedefinitsioonid ja metaandmed.
 
@@ -49,7 +55,7 @@ Nagu rääkisime teemas [Mallide ja paigutuste ülevaade](templates-layouts-over
 
 Malle muudetakse malli redaktori abil.
 
-Malliredaktori avamiseks Commerce'i saidikoostis tehke järgmist.
+Malli redaktori avamiseks järgige üht järgmistest etappidest.
 
 - Valige saidi navigeerimispaanilt suvand **Mallid** ja seejärel valige muutmiseks mall.
 - Olemasoleva lehe redaktorist valige vasakult liigendpuust ülemine sõlm. Seejärel valige paremalt atribuutide paanilt suvand **Redigeeri malli**.
@@ -66,7 +72,7 @@ Liigendpuu vaade vasakul kuvab mooduli suvandid ja struktuurid, mis on saadaval 
 
 ## <a name="create-a-new-template"></a>Loo uus mall
 
-Saidikoosturis uue malli loomiseks tehke järgmist.
+Uue malli loomiseks tehke järgmist.
 
 1. Valige saidi navigeerimispaanilt suvand **Mallid**, et avada malli inspektori vaade.
 1. Valige suvand **Uus mall**.
@@ -85,7 +91,7 @@ Mall on nüüd tehniliselt kehtiv ja seda saab salvestada, registreerida ja kasu
 
 ## <a name="add-a-header-and-a-footer"></a>Päise ja jaluse lisamine
 
-Kui teie saidil on juba päisefragment, järgige mallile päise ja jaluse lisamiseks saidikoosturis neid juhiseid.
+Kui teie saidil juba on päise fragment, järgige neid etappe, et lisada mallile päis ja jalus.
 
 1. Laiendage liigendpuus pesa **Sisu** ja selle alamlehe moodulit.
 1. Valige pesa **Päis**.
@@ -98,7 +104,7 @@ Kui teie saidil pole veel päise fragmenti, vaadake lisateavet selle loomise koh
 
 ## <a name="change-the-template-theme"></a>Malli kujunduse vahetamine
 
-Kõigi malli kasutavate lehtede vaiketeemade seadmiseks tehke saidikoostis järgmisi juhiseid.
+Vaikekujunduse valimiseks kõikidele lehtedele, mis malli kasutavad, tehke järgmist.
 
 1. Laiendage vasakul liigendpuus pesa **Sisu**.
 1. Valige pesast **Sisu** lehe konteineri moodul (nt **Vaikeleht**).
@@ -110,7 +116,7 @@ Vaikimisi kasutavad nüüd kõik uued lehed valitud kujundust. Selleks et lehed 
 
 Saate lisada mallile HTML-i **&lt;skripti&gt;** elemente, mis sisaldavad JavaScripti. Nii saate luua oma lehtede HTML-i päisele, sisu alguse ja sisu lõpu jaotistele skripti vaikekäitumised.
 
-Saidikoosturi mallile skripti lisamiseks tehke järgmist.
+Mallile skripti lisamiseks tehke järgmist.
 
 1. Valige vasakult liigendpuust pesa, kuhu soovite lisada **&lt;skripti&gt;** elemendi (nt HTML-i päis, sisu algus või sisu lõpp).
 1. Valige pesa kolmikpunkti nupp ja seejärel valige käsk **Lisa moodul**.
@@ -123,7 +129,7 @@ Saidikoosturi mallile skripti lisamiseks tehke järgmist.
 
 ## <a name="save-check-in-preview-and-publish-a-template"></a>Malli salvestamine, registreerimine, eelvaatamine ja avaldamine
 
-Malli salvestamiseks ja sisseregistreerimiseks saidikoosturis tehke järgmist.
+Malli salvestamiseks ja kontrollimiseks tehke järgmist.
 
 1. Valige malli redaktorist ülevalt suvand **Salvesta**. Salvestatud muudatused ei mõjuta järgmisi lehti, kuni need registreeritakse.
 1. Valige **Lõpeta redigeerimine**. Teie muudatused on nüüd leitavad järgmiste töövoogude jaoks.
@@ -139,23 +145,8 @@ Pärast malli muudatuste vaatamist järgige üht alltoodud etappidest malli aval
 > [!WARNING]
 > Kui mall või mõni muu sisuhaldussüsteemi (CMS) üksus avaldatakse, on see Internetist leitav. Ärge avaldage dokumente või varasid, kuni olete valmis need avalikuks muutma. Salvestatud ja registreeritud, aga veel avaldamata dokumentide versioonid on leitavad vaid autenditud süsteemikasutajatele.
 
-## <a name="rename-a-template"></a>Malli ümbernimetamine
-
-Olemasoleva malli ümbernimetamiseks saidikoosturis tehke järgmist.
-
-1. Valige vasakpoolsel navigeerimispaanil **Mallid**.
-1. Valige ümbernimetatava malli malli nimi.
-1. Malli redigeerimise alustamiseks valige **Redigeeri**. Pange tähele, et malli ei saa redigeerida, kui keegi teine juba malli redigeerib.
-1. Valige malli atribuutide paanil malli nime kõrval pliiatsi sümbol.
-1. Redigeerige malli nime vastavalt vajadusele.
-1. Nime muutmise kinnitamiseks valige linnuke.
-1. Valige **Lõpeta redigeerimine**.
-
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Mallide ja paigutuste ülevaade](templates-layouts-overview.md)
 
 [Eelmääratud paigutustega töötamine](work-with-layouts.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

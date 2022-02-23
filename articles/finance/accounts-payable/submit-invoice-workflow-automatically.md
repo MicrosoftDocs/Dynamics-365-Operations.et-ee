@@ -1,29 +1,33 @@
 ---
-title: Arvete esitamine töövoosüsteemi ja toote sissetulekuridade vastendamine
+title: Arvete edastamine töövoosüsteemi ja toote sissetuleku ridade vastendamine (eelversioon)
 description: Selles teemas kirjeldatakse, kuidas hankija arveid töövoosüsteemile edastada ja sisestatud toote sissetuleku ridasid automaatselt hankija arvetega vastavusse viia.
 author: abruer
+manager: AnnBe
 ms.date: 09/08/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.assetid: ''
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-09-08
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: fd7ec9f4f30c444fd6442c9a2f1333fcaba4246520de3997f3bb9064a8ee16e1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cde164ee89b542d769d81d8d483049fb7ca001c4
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736965"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4442208"
 ---
-# <a name="submit-invoices-to-the-workflow-system-and-match-product-receipt-lines"></a>Arvete esitamine töövoosüsteemi ja toote sissetulekuridade vastendamine
+# <a name="submit-invoices-to-the-workflow-system-and-match-product-receipt-lines-preview"></a>Arvete edastamine töövoosüsteemi ja toote sissetuleku ridade vastendamine (eelversioon)
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Selles teemas kirjeldatakse, kuidas hankija arveid töövoosüsteemile edastada ja sisestatud toote sissetuleku ridasid automaatselt hankija arvetega vastavusse viia.
 
@@ -39,19 +43,14 @@ Töövoos olev väärtus **Edastaja** on kasutaja ID, mis sisestati taustaülesa
 
 Täiesti automaatse ostureskontro arveldusprotsessi osana saab süsteem sisestatud toote sissetulekuid automaatselt arve ridadega vastavusse viia. Selle ülesande jaoks tuleb määratleda kolmesuunaline vastavusse viimise poliitika. See funktsioon on saadaval, kui funktsioon **Hankija arve automatiseerimine** on lehel **Funktsioonihaldus** lubatud.
 
-Vastendusprotsess töötab seni, kuni vastavusse viidud toote sissetuleku kogus võrdub arve kogusega. Kui aga ühel arvereal on mitu toote sissetulekut, peate täieliku koguse vastenduse saavutamiseks protsessi mitu korda käitama. Saate määrata, mitu korda peaks süsteem maksimaalset üritama viia toote sissetulekuid vastavusse arve ridadega, enne kui jõuab järeldusele, et protsess nurjus. Protsess töötab taustal, kas iga tund või iga päev. 
-
-Saate käivitada automatiseeritud vastavusseviimise protsessi osana arvete edastamise protsessist töövoosüsteemi. Teise võimalusena saate selle käivitada eraldiseisva protsessina. Sätted toote sissetulekute vastavusseviimiseks arve ridadega konfigureeritakse vahekaardil **Hankija arve automatiseerimine**, mis asub lehel **Ostureskontro parameetrid** (**Ostureskontro \> Seadistus \> Ostureskontro parameetrid**).
+Protsess töötab seni, kuni vastavusse viidud toote sissetuleku kogus võrdub arve kogusega. Selle protsessi osana saate määrata, mitu korda peaks süsteem maksimaalset üritama viia toote sissetulekuid vastavusse arve ridadega, enne kui jõuab järeldusele, et protsess nurjus. Protsess töötab taustal, kas iga tund või iga päev. Saate käivitada automatiseeritud vastavusseviimise protsessi osana arvete edastamise protsessist töövoosüsteemi. Teise võimalusena saate selle käivitada eraldiseisva protsessina. Sätted toote sissetulekute vastavusseviimiseks arve ridadega konfigureeritakse vahekaardil **Hankija arve automatiseerimine**, mis asub lehel **Ostureskontro parameetrid** (**Ostureskontro \> Seadistus \> Ostureskontro parameetrid**).
 
 Arve read, millel on kolmesuunaline vastavusse viimise poliitika, kus vastavusse viidava sissetuleku kogus on väiksem arve kogusest, kaasatakse automaatsesse toote sissetulekuga vastavusse viimise protsessi.
 
-Et näha olekut **Viimane vastavusseviimine** arvete puhul, mis ei ole automatiseeritud töövoosüsteemile edastamise protsessi osa, avage arve lehel **Hankija arved**. Arve vaatamisel värskendatakse vastavusseviimise kontrollimise teavet. Olekut **Viimane vastendus** saab värskendada automaatselt, kasutades taustaülesannet **Arvete võrdlemise kinnitamine**. Saate automaatset oleku **Viimane vastendus** värskendamise protsessi konfigureerida vahekaardil **Taustaprotsessid** lehel **Protsessi automatiseerimised** (**Süsteemihaldus\> Seadistamine\> Protsessi automatiseerimised**).
+Et näha olekut **Viimane vastavusseviimine** arvete puhul, mis ei ole automatiseeritud töövoosüsteemile edastamise protsessi osa, avage arve lehel **Hankija arved**. Arve vaatamisel värskendatakse vastavusseviimise kontrollimise teavet.
 
 Arve rida eemaldatakse automatiseeritud töötlusest, kui kehtib mõni järgmistest tingimustest.
 
 - Arve rea väärtus **Automatiseeritud sissetuleku vastavusseviimise olek** on **Nurjunud**.
 - Arvet kasutatakse.
 - Arve on töövoosüsteemis.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

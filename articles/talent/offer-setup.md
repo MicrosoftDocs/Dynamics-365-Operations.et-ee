@@ -209,6 +209,3 @@ Rakenduse Attract administraator saab konfigureerida mitut pakkumise loomise pro
 
 
 Pakkumise loomisprotsessi kohta lisateabe saamiseks vt [Pakkumiste loomine, kinnitamine ja allkirjastamine](./creating-offers.md).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

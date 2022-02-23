@@ -1,26 +1,29 @@
 ---
 title: Arvutatud käibemaks üldise töölehe ridade kohta
 description: Selles teemas selgitatakse, kuidas arvutatakse käibemaksu eri tüüpi kontode (hankija, klient, pearaamat ja projekt) kohta üldise töölehe ridadel.
-author: EricWangChen
-ms.date: 04/22/2021
+author: EricWang
+manager: Ann Beebe
+ms.date: 08/14/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: roschlom
+ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
-ms.author: wangchen
+ms.author: roschlom
 ms.search.validFrom: 2019-08-14
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 654917705400e0aecc7240e12f68d578827f6ad2
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: 51d43c8e6d16201e1f8c392c13ead20287782dcc
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488307"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4442219"
 ---
 # <a name="sales-tax-calculation-on-general-journal-lines"></a>Arvutatud käibemaks üldise töölehe ridade kohta
 [!include [banner](../includes/banner.md)]
@@ -43,11 +46,11 @@ Käibemaksu suuna määratlemise viis sõltub konto tüübist kandes. Käibemaks
 
 Kui kandel on töölehe rida, kus konto tüüp on **Projekt**, rakendatakse kõigil kande tööleheridadel sama maksu suunda. Järgmine illustratsioon näitab seda vormingut. Järgmised punktid näitavad projekti kontode võimalikke maksu suundi.
 
-• Kui käibemaksukood on kasutusmaks, siis käibemaksu suund on kasutusmaks.
+•   Kui käibemaksukood on kasutusmaks, siis käibemaksu suund on kasutusmaks.
 
-• Kui käibemaksukood on maksuvaba, siis käibemaksu suund on maksuvaba ost.
+•   Kui käibemaksukood on maksuvaba, siis käibemaksu suund on maksuvaba ost.
 
-• Kui käibemaksukood on intracom km, siis käibemaksu suund on tasumisele kuuluv käibemaks.
+•   Kui käibemaksukood on intracom km, siis käibemaksu suund on tasumisele kuuluv käibemaks.
 
 • Kui käibemaksukood on pöördmaksustamine, siis käibemaksu suund on tasumisele kuuluv käibemaks.
 
@@ -55,17 +58,17 @@ Vastasel juhul on käibemaksu suund saadaolev käibemaks.
 
 Järgmine diagramm illustreerib reeglit graafiliselt.
 
-![Maksu suuna võimalused projekti kontodele.](media/Sales-Tax-Direction-Vendor.jpg)
+![Maksu suuna võimalused projekti kontodele](media/Sales-Tax-Direction-Vendor.jpg)
 
 ### <a name="account-type-is-vendor"></a>Kontotüüp on Tarnija
 
 Kui kandel on töölehe rida, kus konto tüüp on **Tarnija**, rakendavad kõik kande töölehe read sama maksu suuna. Järgmised punktid näitavad tarnija kontode võimalikke maksustamise suundi. 
 
-• Kui käibemaksukood on kasutusmaks, siis käibemaksu suund on kasutusmaks.
+•   Kui käibemaksukood on kasutusmaks, siis käibemaksu suund on kasutusmaks.
 
-• Kui käibemaksukood on maksuvaba, siis käibemaksu suund on maksuvaba ost.
+•   Kui käibemaksukood on maksuvaba, siis käibemaksu suund on maksuvaba ost.
 
-• Kui käibemaksukood on intracom km, siis käibemaksu suund on tasumisele kuuluv käibemaks.
+•   Kui käibemaksukood on intracom km, siis käibemaksu suund on tasumisele kuuluv käibemaks.
 
 • Kui käibemaksukood on pöördmaksustamine, siis käibemaksu suund on tasumisele kuuluv käibemaks.
 
@@ -73,13 +76,13 @@ Vastasel juhul on käibemaksu suund saadaolev käibemaks.
 
 Järgmine diagramm illustreerib reeglit graafiliselt.
 
-![Maksu suuna võimalused tarnija kontodele.](media/Sales-Tax-Direction-Vendor.jpg)
+![Maksu suuna võimalused tarnija kontodele](media/Sales-Tax-Direction-Vendor.jpg)
 
 ### <a name="account-type-is-customer"></a>Kontotüüp on Klient
 
 Kui kandel on töölehe rida, kus konto tüüp on **Klient**, rakendavad kõik kande töölehe read sama maksu suuna. Järgmised punktid näitavad kliendi kontode võimalikke maksustamise suundi.
 
-• Kui käibemaksukood on maksuvaba, siis käibemaksu suund on maksuvaba ost.
+•   Kui käibemaksukood on maksuvaba, siis käibemaksu suund on maksuvaba ost.
 
 • Kui käibemaksukood on intracom km, siis käibemaksu suund on saadaolev käibemaks.
 
@@ -89,21 +92,21 @@ Muul juhul on käibemaksu suund tasumisele kuuluv käibemaks.
 
 Järgmine diagramm illustreerib reeglit graafiliselt.
 
-![Maksu suuna võimalused kliendi kontodele.](media/Sales-Tax-Direction-Customer.jpg)
+![Maksu suuna võimalused kliendi kontodele](media/Sales-Tax-Direction-Customer.jpg)
 
 ### <a name="account-type-is-ledger"></a>Konto tüüp on Pearaamat
 
 Järgmisel joonisel on näha reegel, mis rakendub siis, kui kandel on ainult töölehe read, kus konto tüüp on **Pearaamat**. Järgmised punktid näitavad pearaamatu kontode võimalikke maksustamise suundi.
 
-• Kui käibemaksukood on kasutusmaks, siis käibemaksu suund on kasutusmaks.
+•   Kui käibemaksukood on kasutusmaks, siis käibemaksu suund on kasutusmaks.
 
-• Kui käibemaksukood on maksuvaba, siis käibemaksu suund on maksuvaba ost.
+•   Kui käibemaksukood on maksuvaba, siis käibemaksu suund on maksuvaba ost.
 
 Vastasel juhul, kui töölehe summa on deebet (positiivne), on käibemaksu suund saadaolev käibemaks. Kui töölehe summa on kreedit (negatiivne), on käibemaksu suund tasumisele kuuluv käibemaks.
 
 Järgmine diagramm illustreerib reeglit graafiliselt.
 
-![Maksu suuna võimalused pearaamatu kontodele.](media/Sales-Tax-Direction-Ledger.jpg)
+![Maksu suuna võimalused pearaamatu kontodele](media/Sales-Tax-Direction-Ledger.jpg)
 
 #### <a name="override-the-sales-tax-direction"></a>Käibemaksu suuna muutmine
 
@@ -115,9 +118,9 @@ Avage **Pearaamat \> Kontode tabel \> Kontod \> Põhikontod**, ja valige **jurii
 
 Selles jaotises kirjeldatakse käibemaksu summa märgi arvutamist.
 
-![Käibemaksu kannete leht.](media/sales-tax-amount-sign.jpg)
+![Käibemaksu kannete leht](media/sales-tax-amount-sign.jpg)
 
-Järgmine tabel näitab üldist reeglit käibemaksu direktiivi piiritlemiseks ja määravad käibemaksu summad ajutise käibemaksu tabelis.
+Järgmine tabel näitab üldist käibemaksu summade märgi määramise reeglit ajutises käibemaksu tabelis.
 
 | Töölehe rea summa | Käibemaksu suund  | Käibemaksu summa märk |
 |---------------------|----------------------|-----------------------|
@@ -126,7 +129,7 @@ Järgmine tabel näitab üldist reeglit käibemaksu direktiivi piiritlemiseks ja
 | Negatiivne            | Saadaolev käibemaks | Negatiivne              |
 | Negatiivne            | Tasumisele kuuluv käibemaks    | Positiivne              |
 
-On olemas erireegel kannete jaoks, millel on ainult read **Projekt** või **Pearaamat**, kui real **Pearaamat** on valitud käibemaksugrupp või kauba käibemaksugrupp. Seda reeglit juhib üldiste funktsioon **Lubage sõltumatu käibemaksu arvutamise funktsioon pearaamatus**. Kui see funktsioon on välja lülitatud, kasutab rea **Pearaamatu** maksusumma rea **Projekt** deebeti/kreediti suunda. Kui see funktsioon on sisse lülitatud, kasutab rea **Pearaamat** maksusmma omaenda deebeti/kreediti suunda. Järgmised tabelid näitavad iga stsenaariumi reeglit. 
+On olemas erireegel kannete jaoks, millel on ainult read **Projekt** või **Pearaamat**, kui real **Pearaamat** on valitud käibemaksugrupp või kauba käibemaksugrupp. Seda reeglit juhib üldiste töölehtede puhul sõltumatu käibemaksu arvutamise lubamise funktsioon. Kui see funktsioon on välja lülitatud, kasutab rea **Pearaamatu** maksusumma rea **Projekt** deebeti/kreediti suunda. Kui see funktsioon on sisse lülitatud, kasutab rea **Pearaamat** maksusmma omaenda deebeti/kreediti suunda. Järgmised tabelid näitavad iga stsenaariumi reeglit. 
 
 **Reegel sisse lülitatud funktsiooni korral**
 
@@ -154,6 +157,3 @@ Järgmine tabel näitab üldist reeglit.
 | Saadaolev käibemaks | Negatiivne              | Saadaoleva käibemaksu konto | Negatiivne (kreedit)  |
 | Tasumisele kuuluv käibemaks    | Positiivne              | Tasumisele kuuluva käibemaksu konto    | Negatiivne (kreedit)  |
 | Tasumisele kuuluv käibemaks    | Negatiivne              | Tasumisele kuuluva käibemaksu konto    | Positiivne (deebet)  |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

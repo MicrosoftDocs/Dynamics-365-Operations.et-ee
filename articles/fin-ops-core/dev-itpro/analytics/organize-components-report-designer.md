@@ -1,10 +1,12 @@
 ---
 title: Aruande komponentide korraldamine aruandekoosturis
-description: Selles teemas selgitatakse olemasolevate aruannete, koosteüksuste ja objektide korraldamist aruandekoosturis.
+description: Kui olete koosteüksused kujundanud ja aruanded koostanud, on abiks nende objektide korraldamine, et kasutajatel oleks neid hõlpsam leida. Selles artiklis kirjeldatakse olemasolevate aruannete,koosteüksuste ja objektide korraldamist aruandekoosturis.
 author: ShylaThompson
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6b30e7e480edb50bb9509e270806224755f98e38111cda0c1cae86a0f56eb193
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 58525da35eb9e9376cb5793ad6c6fa45b9de42e6
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763520"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685807"
 ---
 # <a name="organize-report-components-in-report-designer"></a>Aruande komponentide korraldamine aruandekoosturis
 
@@ -47,7 +49,7 @@ Saate grupeerida aruande definitsioone korraga mitme aruande loomiseks. Aruandeg
 ### <a name="create-a-report-group"></a>Aruandegrupi loomine
 
 1. Klõpsake aruandekoosturi navigeerimispaanil valikut **Aruandegrupid**.
-2. Klõpsake menüüs **Fail** valikuid **Uus** &gt; **Aruandegrupi definitsioon** uue aruandegrupi avamiseks vaaturi aknas. Teine võimalus on klõpsata tööriistaribal nuppu **Aruandegrupp** ![Aruandegrupp.](media/report-group.gif "Aruanderühm") tööriistaribal.
+2. Klõpsake menüüs **Fail** valikuid **Uus** &gt; **Aruandegrupi definitsioon** uue aruandegrupi avamiseks vaaturi aknas. Teine võimalus on klõpsata tööriistaribal nuppu **Aruandegrupp** ![Aruandegrupp](media/report-group.gif "Aruanderühm")
 3. Klõpsake vahekaarti **Aruandegrupp**. Eraldi aruande definitsioonide teabe tühistamiseks selle aruande loomise puhul märkige ruut **Ettevõtte, üksikasjade ja kuupäeva sätete tühistamine** eraldi aruande definitsioonidest. Ettevõtte nime, üksikasjataseme, tinglikkuse seadistuse ja kuupäeva teave sisestatakse automaatselt, kuid saate endiselt värskendusi teha.
 4. Mitme arvestusvaluutasid näitava aruande koostamiseks märkige ruut **Kaasa kõik aruandlusvaluutad**. Seejärel pääsete mitmesse vaatesse, klõpsates aruande vaatamisel veebivaaturis nuppu **Valuuta**.
 5. Aruandegruppi kaasatavate aruannete valimiseks klõpsake väljal **Grupi aruanded** valikut **Lisa**. Mitme aruande valimiseks dialoogiboksis **Lisa** hoidke aruannete valimisel all klahvi Ctrl. Kui olete aruannete valimise lõpetanud, klõpsake **OK**.
@@ -58,7 +60,7 @@ Saate grupeerida aruande definitsioone korraga mitme aruande loomiseks. Aruandeg
 1. Klõpsake aruandekoosturi navigeerimispaanil valikut **Aruandegrupid**.
 2. Aruandegrupi muutmiseks topeltklõpsake.
 3. Tehke vahekaardil **Aruandegrupp** soovitud muudatused.
-4. Klõpsake menüüs **Fail** käsku **Salvesta** muudetud aruandegrupi salvestamiseks, Teine võimalus on klõpsata tööriistaribal nuppu **Salvesta** ![Salvesta.](media/save.gif "Salvesta") tööriistaribal.
+4. Klõpsake menüüs **Fail** käsku **Salvesta** muudetud aruandegrupi salvestamiseks. Teine võimalus on klõpsata tööriistaribal nuppu **Salvesta** ![Salvesta](media/save.gif "Salvesta")
 
 > Kui olete plaaninud aruanded määratud vahemikel koostamiseks, saate need sätted tühistada ja aruande kohe luua.
 
@@ -66,7 +68,7 @@ Saate grupeerida aruande definitsioone korraga mitme aruande loomiseks. Aruandeg
 
 1. Klõpsake aruandekoosturi navigeerimispaanil valikut **Aruandegrupid**.
 2. Avage loodav aruandegrupp.
-3. Klõpsake aruannete loomiseks nuppu **Loo aruanne** ![Loo aruanne.](media/generate-report.gif "Aruande loomine") aruannete loomiseks.
+3. Klõpsake aruannete loomiseks nuppu **Loo aruanne** ![Loo aruanne](media/generate-report.gif "Aruande loomine")
 
 ### <a name="delete-a-report-group"></a>Aruandegrupi kustutamine
 
@@ -146,6 +148,3 @@ Aruande definitsiooni salvestatakse ainult baasperioodi vaikesätted.</td>
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Finantsaruandlus](financial-reporting-intro.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

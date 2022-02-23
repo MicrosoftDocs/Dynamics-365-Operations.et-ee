@@ -2,35 +2,37 @@
 title: Seadme häälestamine tootmisosakonna käivitusliidese käitamiseks
 description: Tootmisosakonna käivitusliides seadistakse iga tootmisosakonnas oleva seadme jaoks. Ettevõtted seadistavad tavaliselt iga seadme erinevalt, sõltuvalt seadme otstarbest. Näiteks võib ettevõttel olla üks seade vastuvõtualal, kus töötajad sisse ja välja registreerivad ning teine tootmisjaoskonnas, kus töötajad oma töid haldavad.
 author: johanhoffmann
+manager: tfehr
 ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: JmgProductionFloorExecution, HcmWorker, JmgProductionFloorExecutionDeviceConfiguration
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
-ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: f0be79b54a279893f93d41981342e42c8880f059
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
-ms.translationtype: MT
+ms.dyn365.ops.version: Release 10.0.15
+ms.openlocfilehash: d4529af21d9673512889b17aeb1e7fbd49969cdc
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752828"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966271"
 ---
 # <a name="set-up-a-device-to-run-the-production-floor-execution-interface"></a>Seadme häälestamine tootmisosakonna käivitusliidese käitamiseks
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Tootmisosakonna käivitusliides seadistakse iga tootmisosakonnas oleva seadme jaoks. Ettevõtted seadistavad tavaliselt iga seadme erinevalt, sõltuvalt seadme otstarbest. Näiteks võib ettevõttel olla üks seade vastuvõtualal, kus töötajad sisse ja välja registreerivad ning teine tootmisjaoskonnas, kus töötajad oma töid haldavad.
 
 ## <a name="set-the-configuration-and-filters-for-a-specific-device"></a>Kindla seadme konfiguratsiooni ja filtrite häälestamine
 
-Seadme konfiguratsiooni ja töö filtrite seadistamiseks logige sisse tootmise juhtimise lehele, kasutades kontot, mil on turberoll, mis sisaldab **·** aja järelevalve kohustuse *·* säilitamist. (Valmislahenduse turberollide seast on see kohustus ainult *Tööde järelevaatajal*.) Seejärel toimige järgmiselt.
+Seadme konfiguratsiooni ja tööfiltrite seadistamiseks logige sisse lehele **Tootmisosakonna käivitus**, kasutades kontot, millel on turberolli, mis sisaldab kohustust  *Ajahalduse järelevaataja*. (Valmislahenduse turberollide seast on see kohustus ainult *Tööde järelevaatajal*.) Seejärel toimige järgmiselt.
 
-1. Minge seadme juurde, mida soovite häälestada, ja logige tööde juhatajana sisse Microsoft Dynamics 365 Supply Chain Management i. (Kasuta kontot, mis sisaldab kontot *Aja* järelevalvekohustuse hooldamine.)
+1. Minge seadme juurde, mida soovite häälestada, ja logige tööde juhatajana sisse Microsoft Dynamics 365 Supply Chain Managementi. (Kasutage kontot, mis sisaldab kohustust *Ajahalduse järelevaataja*.)
 1. Veenduge, et konfiguratsioon oleks saadaval seadmele, mida seadistate. Kui konfiguratsioon pole olemas, pakutakse vaikekonfiguratsiooni. Lisateavet konfiguratsiooni seadistamise kohta leiate teemast [Tootmisosakonna käivitusliidese konfigureerimine](production-floor-execution-configure.md).
 1. Avage **Tootmise juhtimine \> Tootmise käivitamine \> Tootmisosakonna käivitus**.
 
@@ -70,13 +72,10 @@ Sageli käivitatakse tootmisosakonna käivitusliides seadmes, mida kasutatakse a
 
 Järgmise illustratsiooni ülemises on kuvatud, kuidas kasutajaliides vaikimisi välja näeb. Alumises osas kuvatakse, kuidas see näeb välja täisekraanrežiimis, kui navigeerimispaan on peidetud.
 
-![Standardne või täisekraani liides.](media/pfei-full-screen.png "Standardne või täisekraani liides")
+![Standardne või täisekraani liides](media/pfei-full-screen.png "Standardne või täisekraani liides")
 
 ## <a name="extend-the-session-past-12-hours"></a>Seansi pikendamine üle 12 tunni
 
 Vaikimisi logib tootmisosakonna juhtimise liides automaatselt välja, kui keegi seda 12 tunni jooksul ei kasuta. Supply Chain Managementi kasutaja peab seejärel uuesti sisse logima. Kuid ajalõpu limiiti saate pikendada kuni 90 päevani.
 
 Ajalõpu limiidi pikendamiseks logige Supply Chain Managementi sisse ja avage **Süsteemihaldus \> Kasutajad \> Seansi pikendused**. Määrake Supply Chain Managementi kasutajakonto, mida kasutatakse seadmesse sisse logimiseks ja tundide arv, mille jooksul peaks seanss aktiivseks jääma.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

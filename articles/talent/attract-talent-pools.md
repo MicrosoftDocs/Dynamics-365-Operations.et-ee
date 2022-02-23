@@ -149,6 +149,3 @@ Sageli ei valita tööle mitmeid häid kandidaate, kuid te ei taha neid silmist 
 1. Valige avalduse lehelt **Lisa talendikausta**. Kuvatakse talendikaustade loendit, millele teil on juurdepääs.
 
 1. Valige või leidke talendikaust, seejärel valige kandidaadi talendikausta lisamiseks **Lisa**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

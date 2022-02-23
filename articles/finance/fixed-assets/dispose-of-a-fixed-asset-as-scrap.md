@@ -2,9 +2,11 @@
 title: Põhivarade praagi likvideerimine
 description: Selles teemas kirjeldatakse praagina likvideeritud põhivara kannete likvideerimise protsessi.
 author: moaamer
+manager: Ann Beebe
 ms.date: 08/14/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-08-14
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 90eb791bae2bbe70cf9fe7127a98962305449e1d0b370cfa001afbd3654046ec
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4dee4468079a9ad500f513900cec090acf6026ce
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752914"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969124"
 ---
 # <a name="dispose-of-a-fixed-asset-as-scrap"></a>Põhivarade praagi likvideerimine
 
@@ -43,7 +45,7 @@ Selles teemas kirjeldatakse praagina likvideeritud põhivara kannete likvideerim
 Enne põhivara praagina likvideerimist peate looma pearaamatukontod, mis on seotud vara soetamise väärtusega, jooksva aasta kulumiga, eelmiste aastate kulumiga ja vara NBV-ga. Põhivara kandetüübid on loetletud lehel **Põhivarade sisestusreeglid**. Valige **Põhivarad \> Seadistus \> Põhivarade sisestusreeglid** ja seejärel valige kiirkaardi **Likvideerimine** väljal ruudusliku kohal olev valik **Praak**. Järgneval joonisel kujutatakse põhivara kanndetüüpide loendit lehel **Põhivara sisestusreeglid**.
 
 
-[![Vara likvideerimine praagina, joonis 1.](./media/Fixed_asset_Disposal_scrap_scenario_1.png)](./media/Fixed_asset_Disposal_scrap_scenario_1.png)
+[![Vara likvideerimine praagina, joonis 1](./media/Fixed_asset_Disposal_scrap_scenario_1.png)](./media/Fixed_asset_Disposal_scrap_scenario_1.png)
 
 Järgmise näite puhul soetati põhivara 1. jaanuaril 2018 ja see kantakse maha 31. märtsil 2019.
 
@@ -58,27 +60,24 @@ Raamatupidamislik jääkväärtus = soetamise hind - kulum
 
 Selles näites soetati põhivara ja amortiseeriti 15 kuuks, 2018. aasta jaanuarist kuni 2019. aasta märtsini. Seetõttu on vara NBV 9000,00 USD (24 000,00 USD – 15 000,00 USD).
 
-[![Põhivara kulumiarvestuse näide.](./media/Fixed_asset_Disposal_scrap_scenario_2.png)](./media/Fixed_asset_Disposal_scrap_scenario_2.png)
+[![Põhivara kulumiarvestuse näide](./media/Fixed_asset_Disposal_scrap_scenario_2.png)](./media/Fixed_asset_Disposal_scrap_scenario_2.png)
 
 
 Likvideerimise töölehe loomiseks avage **Põhivarad \> Töölehe kanded \> Põhivarade tööleht** ja seejärel valige Tegevuspaanil **Read**. Valige **Likvideerimine – praak** ja seejärel valige põhivara ID. Vara täielikuks likvideerimiseks ärge sisestage väärtust väljale **Deebet** ega **Kreedit**.
 
-[![Põhivarade tööleht.](./media/Fixed_asset_Disposal_scrap_scenario_3.png)](./media/Fixed_asset_Disposal_scrap_scenario_3.png)
+[![Põhivarade tööleht](./media/Fixed_asset_Disposal_scrap_scenario_3.png)](./media/Fixed_asset_Disposal_scrap_scenario_3.png)
 
 Põhivara praagina likvideerimise kanne muudab põhivara raamatu välja väärtusi järgmistel viisidel.
 
 - Jaotises **Saldo** muudetakse välja **Olek** väärtuseks **Praagitud**.
 - Jaotises **Väljastamine** muudetakse välja **Likvideerimise kuupäev** väärtuseks kuupäev, millal vara praagiti.
 
-[![Põhivarade töölehe üksikasjad.](./media/Fixed_asset_Disposal_scrap_scenario_4.png)](./media/Fixed_asset_Disposal_scrap_scenario_4.png)
+[![Põhivarade töölehe üksikasjad](./media/Fixed_asset_Disposal_scrap_scenario_4.png)](./media/Fixed_asset_Disposal_scrap_scenario_4.png)
 
 Järgmisel joonisel näidatakse põhivara saldot.
 
-[![Põhivara saldo.](./media/Fixed_asset_Disposal_scrap_scenario_5.png)](./media/Fixed_asset_Disposal_scrap_scenario_5.png)
+[![Põhivara saldo](./media/Fixed_asset_Disposal_scrap_scenario_5.png)](./media/Fixed_asset_Disposal_scrap_scenario_5.png)
 
 Järgmisel joonisel näidatakse postitatavat kupongi.
 
-[![Arvestuslik jääkväärtus.](./media/Fixed_asset_Disposal_scrap_scenario_6.png)](./media/Fixed_asset_Disposal_scrap_scenario_6.png)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[![Arvestuslik jääkväärtus](./media/Fixed_asset_Disposal_scrap_scenario_6.png)](./media/Fixed_asset_Disposal_scrap_scenario_6.png)

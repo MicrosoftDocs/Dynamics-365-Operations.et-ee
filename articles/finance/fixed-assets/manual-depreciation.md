@@ -1,10 +1,12 @@
 ---
 title: Käsitsi kulumiarvestus
 description: Selles artiklis antakse ülevaade käsitsi rakendatavast kulumiarvestusmeetodist.
-author: moaamer
+author: ShylaThompson
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: roschlom
 ms.custom: 13811
 ms.assetid: b0e837c9-515a-4aed-9060-5ec94f37edeb
 ms.search.region: Global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b5b62bbdd5d745bc9d0745cc6fa6d6e8034a61e3
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
-ms.translationtype: MT
+ms.openlocfilehash: 228e6c94042942a26793eb0bebc1186dd4767e7f
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7674823"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969025"
 ---
 # <a name="manual-depreciation"></a>Käsitsi kulumiarvestus
 
@@ -30,11 +32,11 @@ Selles artiklis antakse ülevaade käsitsi rakendatavast kulumiarvestusmeetodist
 
 Kui teete põhivara kulumireeglite seadistamisel valiku **Käsitsi** väljal **Meetod** lehel **Kulumireeglid**, määratletakse selle kulumireegliga põhivarade kulum kalendriaasta intervallidele sisestatud protsendimääraga. Intervallid, millele protsendimäärad seadistate, sisestatakse väärtuse järgi, mille valite väljal **Perioodi sagedus** kiirkaardil **Üldine** lehel **Kulumireeglid**. Siin on väärtused, mida valida saate.
 
-- Kord aastas
-- Kord kuus
-- Kord kvartalis
-- Kord poolaastas
-- Kord päevas
+-   Kord aastas
+-   Kord kuus
+-   Kord kvartalis
+-   Kord poolaastas
+-   Kord päevas
 
 Pärast perioodi sageduse valimist klõpsake valikut **Käsitsi koostatud graafikud** ja seadistage kõigi sisestusintervallide protsendimäärad. Käsitsi koostatud graafikud koos sisestusintervallidega määratlevad kulumisumma, nagu selles artiklis antud näidetest näha võib. Käsitsi sisestatud kulumid arvutatakse alati protsendina soetusmaksumusest. Käsitsi sisestatud kulumi puhul ei pea teie poolt kulumiintervallidele sisestatavate protsendimäärade summa olema 100 protsenti. Käsitsi kulumiarvestus on paindlik kulumiarvestusmeetod, mida kasutatakse sageli erakorralise kulumireegli määratlemiseks lehel **Raamatud**, nt mitteperioodiline kulum erieesmärkidel.
 
@@ -73,6 +75,3 @@ Kõigi intervallide protsentide kogusumma ei pea olema 100. Kuid saate teate, ku
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

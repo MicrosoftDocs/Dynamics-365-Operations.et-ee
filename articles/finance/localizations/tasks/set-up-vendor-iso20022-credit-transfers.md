@@ -2,23 +2,26 @@
 title: Hankijate ja hankija pangakontode seadistamine ISO20022 kreeditkorralduste jaoks
 description: See protseduur näitab, kuidas seadistada hankija ja hankijakohase pangakonto teavet, mis on nõutav ISO20022 kreeditülekande või mis tahes muu hankija maksefaili loomiseks.
 author: mrolecki
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendTable, VendBankAccounts
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f7a901591f9f3d1a892c29f92e59dc96c1f172143cae6bec571da33b4a50d274
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4809a352f87cc3d88429461a06dfe36189ed5f31
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723715"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4442192"
 ---
 # <a name="set-up-vendors-and-vendor-bank-accounts-for-iso20022-credit-transfers"></a>Hankijate ja hankija pangakontode seadistamine ISO20022 kreeditkorralduste jaoks
 
@@ -49,6 +52,3 @@ See on neljas viiest protseduurist, mis illustreerib hankija makseprotsessi, kas
 4. Klõpsake loendis valitud real SEPA CT olevat linki.
 5. Klõpsake nuppu Salvesta.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

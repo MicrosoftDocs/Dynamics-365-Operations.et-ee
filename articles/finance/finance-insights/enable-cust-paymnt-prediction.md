@@ -1,51 +1,64 @@
 ---
-title: Kliendimaksete prognoosimise lubamine
+title: Kliendimaksete prognoosimise lubamine (eelversioon)
 description: Selles teemas selgitatakse, kuidas lülitada sisse ja konfigureerida finantsülevaadetes kliendimakse prognooside funktsioon.
 author: ShivamPandey-msft
-ms.date: 11/03/2021
+manager: AnnBe
+ms.date: 05/27/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 5002fc79842bef150892347a7ff4702b07cfe5be
-ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
-ms.translationtype: MT
+ms.openlocfilehash: e10aa9342ec9f089ef8ecec5e1221a31c580fc87
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968873"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4644989"
 ---
-# <a name="enable-customer-payment-predictions"></a>Kliendimaksete prognoosimise lubamine
+# <a name="enable-customer-payment-predictions-preview"></a>Kliendimaksete prognoosimise lubamine (eelversioon)
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
-Selles teemas selgitatakse, kuidas lülitada sisse ja konfigureerida finantsülevaadetes kliendimakse prognooside funktsioon. Lülitate funktsiooni sisse funktsioonihalduse **tööruumis** ja sisestate konfiguratsioonisätted **finantsülevaate konfiguratsioonilehele.** See teema sisaldab ka teavet, mis võib aidata teil funktsiooni tõhusalt kasutada.
+Selles teemas selgitatakse, kuidas lülitada sisse ja konfigureerida finantsülevaadetes kliendimakse prognooside funktsioon. Te lülitate funktsiooni tööruumis **Funktsioonihaldus** sisse ja sisestate konfiguratsiooni sätted lehel **Finantsülevaadete parameetrid**. See teema sisaldab ka teavet, mis võib aidata teil funktsiooni tõhusalt kasutada.
 
 > [!NOTE]
 > Enne järgmiste etappide täitmist täitke kindlasti eeltingimuse etapid jaotises [Finantsülevaadete konfigureerimine](configure-for-fin-insites.md).
 
-1. Lülitage kliendi makseprognooside funktsioon sisse:
+1. Kasutage teavet teenuse Microsoft Dynamics Lifecycle Services (LCS) lehelt, et ühendada Azure SQL-i esmane eksemplar selle keskkonnaga. Käivitage järgmine Transact-SQL (T-SQL) käsk, et lülitada liivakasti keskkonna eelväljaanded sisse. (Enne rakendusobjekti serveriga \[AOS\] eemalt ühenduse loomist võib olla vajalik, et peate LCS-is lülitama oma IP-aadressi juurdepääsu sisse.)
 
-    1. Avage tööruum **Funktsioonihaldus**.
-    2. Valige **Otsi värskendusi**.
-    3. Otsige **vahekaardil** Kõik kliendi **makseprognoose**. Kui te seda funktsiooni ei leia, otsige **(eelvaade) kliendi** makseprognoose. 
-    4. Lülitage funktsioon sisse.
+    `INSERT INTO SYSFLIGHTING (FLIGHTNAME, ENABLED, PARTITION) VALUES ('PayPredEnableFeature', 1, 5637144576)`
 
-    Kliendi makseennustused on nüüd sisse lülitatud ja konfigureerimiseks valmis.
+    > [!NOTE]
+    > Kui teie Microsoft Dynamics 365 Finance on Service Fabricu juurutus, saate selle sammu vahele jätta. Finantsülevaadete meeskond peaks olema väljaande juba teie jaoks sisse lülitanud. Kui te funktsiooni tööruumis **Funktsioonihaldus** ei näe või kui selle sisselülitamisel esineb probleeme, võtke ühendust aadressil <fiap@microsoft.com>.
 
-2. Kliendimaksete ülevaadete funktsiooni konfigureerimine.
+2. Kliendimaksete ülevaadete funktsiooni sisselülitamine.
 
-    1. Mine **kreediti ja kollektsioonide \> häälestuse \> finantside \> vihjete kliendi makseprognooside kohta**
-    2. Finantsülevaate konfiguratsioonilehel kliendi makse prognooside vahekaardil valige prognoosimudelis kasutatavate andmeväljade kuvamine prognoosimudeli **andmeväljade** **·** **·** **avamiseks prognoosimudeli** lehe jaoks. Siin saate vaadata väljade vaikeloendit, mida kasutatakse kliendimaksete prognooside jaoks tehisintellekti (AI) prognoosimismudeli loomiseks.
+    1. Avage **Süsteemihaldus \> Tööruumid \> Funktsioonihaldus**.
+    2. Leidke funktsioon, mille nimi on **Kliendimakse ülevaated (eelversioon)**.
+    3. Valige **Luba kohe**.
 
-        Ennustuse mudeli loomiseks vaikimisi väljaloendi kasutamiseks sulgege prognoosimudeli lehe andmeväljad ja seadke seejärel finantsülevaadete konfiguratsioonilehel suvandi Luba funktsioon **väärtusele** **·** **·** **Jah**.
+    Kliendimakse ülevaadete funktsioon on nüüd sisse lülitatud ja konfigureerimiseks valmis.
+
+3. Kliendimaksete ülevaadete funktsiooni konfigureerimine.
+
+    1. Avage suvand **Krediidihaldus ja võlanõuded \> Seadistamine \> Finantsülevaated \> Finantsülevaadete parameetrid**.
+
+        [![Finantsteabe parameetrite leht enne funktsiooni konfigureerimist](./media/finance-insights-parameters.png)](./media/finance-insights-parameters.png)
+
+    2. Valige lehel **Finantsülevaadete parameetrid** vahekaardil **Kliendimaksete ülevaated** link **Prognoosimudelis kasutatavate andmeväljade kuvamine**, et avada leht **Prognoosimudeli andmeväljad**. Siin saate vaadata väljade vaikeloendit, mida kasutatakse kliendimaksete prognooside jaoks tehisintellekti (AI) prognoosimismudeli loomiseks.
+
+        Prognoosimudeli loomiseks väljade vaikeloendi kasutamiseks sulgege leht **Prognoosimudeli andmeväljad** ja määrake seejärel lehel **Finantsülevaadete parameetrid** suvand **Funktsiooni lubamine** valikule **Jah**.
 
     3. Määrake väga hilise kande periood, et määratleda, mida tähendab teie ettevõtte jaoks prognoosisalv **Väga hilja**.
 
@@ -58,13 +71,23 @@ Selles teemas selgitatakse, kuidas lülitada sisse ja konfigureerida finantsüle
         > [!NOTE]
         > Kui muudate kande perioodi „väga hilja” ja valite suvandi **Hilise lävendi muutmine** pärast seda, kui tehisintellekti prognoosimise mudel on kliendimaksete jaoks on loodud, olemasolev prognoosimise mudel kustutatakse ja luuakse uus mudel. Uus prognoosimise mudel teisaldab kanded perioodile „väga hilja”, mis põhineb selle määratlemiseks sisestatud sätetel.
 
-    4. Kui olete tehingu perioodi „väga hilja” määratlenud, valige prognoosimise mudeli loomiseks suvand **Prognoosimise mudeli loomine**. Finantside **vihjete** **konfiguratsioonilehe ennustuse mudeli** jaotis näitab ennustuse mudeli olekut.
+    4. Kui olete tehingu perioodi „väga hilja” määratlenud, valige prognoosimise mudeli loomiseks suvand **Prognoosimise mudeli loomine**. Jaotis **Prognoosimise mudel** lehel **Finantsülevaadete parameetrid** näitab prognoosimise mudeli olekut.
 
         > [!NOTE]
         > Prognoosimise mudeli loomise ajal saate igal ajal protsessi taaskäivitamiseks valida suvandi **Lähtesta mudeli loomine**.
 
     Funktsioon on nüüd konfigureeritud ja kasutamiseks valmis.
 
-Kui funktsioon on sisse lülitatud ja konfigureeritud ning ennustuse mudel on loodud ja töötab, näitab finantsülevaate parameetrite lehe ennustuse mudeli jaotis **mudeli** **täpsust**.
+Pärast seda, kui funktsioon on sisse lülitatud ja konfigureeritud ning prognoosimise mudel on loodud ja töötab, kuvab jaotise **Prognoosimise mudel** leht **Finantsülevaadete parameetrid** mudeli täpsuse, nagu järgmisel illustratsioonil on näidatud.
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[![Prognoosimise mudeli täpsus finantsülevaadete parameetrite lehel](./media/finance-insights-parameters-accuracy.png)](./media/finance-insights-parameters-accuracy.png)
+
+## <a name="release-details"></a>Väljastuse üksikasjad
+
+Finantsülevaadete avalik eelversioon on prooviversioonina juurutamiseks saadaval Ameerika Ühendriikides, Euroopas ja Ühendkuningriigis. Microsoft lisab astmeliselt juurde täiendavate piirkondade tuge.
+
+Avaliku eelvaate funktsioone saab ja tuleb sisse lülitada ainult Järgu 2 liivakasti keskkondades. Liivakasti keskkonnas loodud seadistust ja AI mudeleid ei saa migreerida töökeskkonda. Lisateavet leiate teemast [Microsoft Dynamics 365 eelversioonide täiendavad kasutustingimused](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-terms).
+
+## <a name="privacy-notice"></a>Privaatsusavaldus
+
+Eelvaated 1) võivad kasutada vähem privaatsus- ja turbemeetmeid kui rakenduse Dynamics 365 Finance and Operations teenus; 2) ei ole hõlmatud selle teenuse teenusetaseme leppes; 3) ei tohi olla kasutusel isiklike andmete ega muude andmete töötlemiseks, mis on seaduste või määrustega kaitstud; 4) on piiratud toega.

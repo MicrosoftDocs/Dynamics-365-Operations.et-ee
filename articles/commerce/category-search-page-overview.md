@@ -2,23 +2,27 @@
 title: Kategooria vaikesihtlehe ja otsingutulemuste lehe ülevaade
 description: Selles teemas antakse rakenduse Dynamics 365 Commerce kategooria vaikesihtlehe ja otsingutulemuste lehe ülevaade.
 author: ashishmsft
+manager: annbe
 ms.date: 06/30/2020
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Operations, Retail, Core
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6f61ee8ec212185e195e2cf1a9d6d25c31e4f672
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: e85449c10fa4a768a144ce423a77bd1fc2c94352
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982430"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4411640"
 ---
 # <a name="default-category-landing-page-and-search-results-page-overview"></a>Kategooria vaikesihtlehe ja otsingutulemuste lehe ülevaade
 
@@ -30,7 +34,7 @@ Selles teemas antakse rakenduse Microsoft Dynamics 365 Commerce e-kaubanduse kat
 
 Kategooria vaikesihtleht on leht, kuhu veebisaidi kasutajad tavaliselt navigeerimishierarhias kategooria valimisel viiakse. Kategooria leht võimaldab teil sirvida ja saate lisaks sortida ning viimistleda kategoriseeritud tooteid.
 
-![Kategooria vaikesihtleht.](./media/SimpleCategoryLandingDressCategory.png)
+![Kategooria vaikesihtleht](./media/SimpleCategoryLandingDressCategory.png)
 
 Lehe ülaosas on päis, mis näitab kõiki tootekategooriaid ja teisi lehti, mida tootejuht on kategoriseerinud. Konfiguratsioon tehakse kanali navigeerimishierarhia konfiguratsiooni osana. Lehe allosas on jalus, mis sisaldab kiirlinke erinevatele teemadele, millest klient võib olla huvitatud.
 
@@ -54,7 +58,7 @@ Kategooria jaoks on olulised järgmised komponendid.
 
 Kui soovite, et kategooria sihtlehel oleks kindla kategooria jaoks palju kohandatum kogemus, saate selle kategooria jaoks nö rikastada kategooria sihtlehte. Näiteks saate ostja tähelepanu tõmbamiseks lisada turundusvideo ja mõne kategooria loo jutustamise. Lisateavet vaadake teemast [Kategooria sihtlehe rikastamine](enrich-category-page.md).
 
-![Rikastatud kategooria sihtleht.](./media/CategoryLandingPages.png)
+![Rikastatud kategooria sihtleht](./media/CategoryLandingPages.png)
 
 ## <a name="auto-suggest-and-search-results-pages"></a>Automaatse soovitamise ja otsingutulemuste lehed
 
@@ -68,11 +72,11 @@ Siin on mõned soovituste tüübid, mis võidakse kuvada.
 - **Tooted** pakuvad otseseid linke toote üksikasjade lehele.
 - **Määratletud kategooria otsingusoovitused** loetlevad erinevad kategooriad ja võimaldavad kasutajatel otsida märksõna kindlas kategoorias.
 
-![Kõikehõlmavad automaatsed soovitused.](./media/ImmersiveAutoSuggestUX.png)
+![Kõikehõlmavad automaatsed soovitused](./media/ImmersiveAutoSuggestUX.png)
 
 Kui kasutajad valivad ühe märksõna või määratletud kategooria otsingusoovituse või kui nende sisestatud otsingusõnale puuduvad soovitused, suunatakse need ümber otsingutulemuste lehele. Seejärel saavad kasutajad soovitud kauba leidmiseks otsingutulemuste loendit sirvida, sortida ja täpsustada.
 
-![Sihtkoha otsing.](./media/SearchLanding.png)
+![Sihtkoha otsing](./media/SearchLanding.png)
 
 Otsingutulemuste lehe jaoks on olulised järgmised komponendid.
 
@@ -93,7 +97,7 @@ Otsingutulemuste lehe jaoks on olulised järgmised komponendid.
 
 >[!NOTE]
 >Need pilvepõhised otsinguvõimalused on saadaval alates versioonist 10.0.8. Veenduge, et jaotises **Kaubanduse parameetrid > konfiguratsiooniparameetrid** on kirje ProductSearch.UseAzureSearch väärtuseks määratud „tõene”. 
-![Pilvepõhise otsingu konfiguratsiooniparameetrid.](./media/CloudPoweredSearchConfigurationParameters.png)
+![Pilvepõhise otsingu konfiguratsiooniparameetrid](./media/CloudPoweredSearchConfigurationParameters.png)
 
 ## <a name="additional-resources"></a>Lisaressursid
 
@@ -107,6 +111,3 @@ Otsingutulemuste lehe jaoks on olulised järgmised komponendid.
 
 [Kontohalduse lehtede ülevaade](quick-tour-account-management.md)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

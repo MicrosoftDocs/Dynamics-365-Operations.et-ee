@@ -2,9 +2,11 @@
 title: Hõlbustusfunktsioonid
 description: Selles teemas kirjeldatakse funktsioone, mille eesmärk on aidata erinevate erivajadustega kasutajaid.
 author: TLeforMicrosoft
+manager: AnnBe
 ms.date: 12/02/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -12,19 +14,16 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 022c51f7050d11caf5ce67c5df8f9f9040a54b98
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: 2d0dd3ebf4b50f43f9fb1893081ede2a93428c72
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071054"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798691"
 ---
 # <a name="accessibility-features"></a>Hõlbustusfunktsioonid
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Selles teemas kirjeldatakse funktsioone, mille eesmärk on aidata erinevate erivajadustega inimesi selle rakenduse kasutamisel. Näiteks on saadaval funktsioonid inimestele, kes kasutavad nägemist abistavaid tehnoloogiaid, nagu Microsoft Windowsi jutustaja.
 
@@ -55,13 +54,13 @@ Igale lehel esitatud tegevusele saab juurdepääsu klaviatuurilt, kasutades tabe
 
 Soovite käivitada tegevuse **Meiliteatise logi**, mis asub toimingupaani vahekaardil **Müügitellimus** grupis **Meiliteatis**.
 
-![Meiliteatise logitegevus toimingupaanil.](media/f0d78399e7fafcd85ded1cd1e3d34f3c.jpg "„Meiliteatise logitegevus&quot; toimingupaanil")
+![Meiliteatise logitegevus toimingupaanil](media/f0d78399e7fafcd85ded1cd1e3d34f3c.jpg "„Meiliteatise logitegevus&quot; toimingupaanil")
 
 Üks võimalus on kasutada klaviatuuri. Vajutage klahvikombinatsiooni Ctrl + F6, et nihutada fookus tegevuspaanile ja vajutage seejärel korduvalt tabeldusklahvi (TAB), et liikuda läbi kõigi vahekaartide ja tegevuste, kuni fookus on tegevusel **Meiliteatise logi**.
 
 Kuid saate tegevuse käivitada ka otsesemalt. Vajutage lehel mistahes kohas klahvikombinatsiooni Ctrl + ülakoma ('), et kuvada tegevuste otsinguväli.
 
-![Tegevuste otsinguväli.](media/80f7e8c5ac412fdf2c8a12f7728f135a.jpg "Tegevuste otsinguväli")
+![Tegevuste otsinguväli](media/80f7e8c5ac412fdf2c8a12f7728f135a.jpg "Tegevuste otsinguväli")
 
 Sisestage otsinguväljale sõnad, mis kirjeldavad tegevust. Tegevus on tehtud teile kättesaadavaks ja te saate seda otse käitada. Näiteks, kui sisestate sõnad **meil**, **teatis** või **logi**, saate kohe hüpata meiliteatise logi funktsiooni juurde.
 
@@ -98,6 +97,3 @@ Nutitelefonid ja muud väikesed ekraanid, juhtelemendid ja vormi kavandid kohand
 ## <a name="guidance-to-help-developers-and-customers-incorporate-accessible-thinking-in-their-customizations"></a>Juhendid, mis aitavad arendajatel ja klientidel oma kohandamistesse kaasata hõlbustavat mõtteviisi
 
 Lisateabe saamiseks parimate tavade kohta, mida Microsoft kasutab hõlbustatuse lihtsustamiseks, vt teemat [Vormide, toodete ja juhtelementide hõlbustatus](../../dev-itpro/user-interface/enable-accessibility.md).
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

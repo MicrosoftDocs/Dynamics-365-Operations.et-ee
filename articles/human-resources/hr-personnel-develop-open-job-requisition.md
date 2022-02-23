@@ -1,69 +1,68 @@
 ---
-title: Töötaotluse loomine ja avamine
+title: Töötaotluse arendamine ja avamine
 description: Värbamisprojektid aitavad värbamisprotsessi hallata.
-author: twheeloc
-ms.date: 10/28/2021
+author: andreabichsel
+manager: AnnBe
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HRMRecruitingTable, HcmWorkerLookUp, HcmJobLookup, HRMRecruitingMedia, HRMRecruitingJobAd, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.search.scope: Human Resources
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0d59ccb88b8a76de6e2f00453f185fec2f149873
-ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
-ms.translationtype: MT
+ms.openlocfilehash: 3207d61536422255b574fd126f16075fcddc2c93
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "7731557"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4418090"
 ---
-# <a name="create-and-open-job-requisition"></a>Töötaotluse loomine ja avamine
+# <a name="develop-and-open-job-requisition"></a>Töötaotluse arendamine ja avamine
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Värbamisprojektid aitavad värbamisprotsessi hallata. Pärast värbamisprojekti loomist saate teha järgmist.
 
-- Kirjutada projektile töökuulutuse.
-- Avaldada kuulutuse töötaja iseteeninduse lehtedel.
-- Seostada projektiga kandideerimisavaldusi.
-- Jälgige selle projekti tegevusi. 
+Värbamisprojektid aitavad värbamisprotsessi hallata. Igale värbamisprojektile saate lisada teabe värvatava ametikoha, värbaja nime, projekti oleku ja osakonna kohta. Värbamisprojekti loomise järel saate kirjutada projekti töökuulutuse, avaldada reklaami lehtedel Töötaja iseteenindus, seostada kandideerimisavaldusi projektiga ja jälgida projekti tegevusi. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid. Protseduuri alustamiseks avage Inimressursid > Värbamine > Värbamisprojektid > Värbamisprojektid
 
-1. Avage **Inimressursid > Värbamine > Värbamisprojektid > Värbamisprojektid**.
-2. Valige suvand **Uus**.
-3. Sisestage väärtus väljale **Värbamisprojekt**.
-4. Sisestage väärtus väljal **Kirjeldus**.
-5. Klõpsake väljal **Värbaja** otsingu avamiseks ripploendi nuppu.
-6. Otsige loendist ja valige oma kirje.
-7. Valige loendis link valitud reas.
-8. Valige käsk **Vali**.
-9. Otsingu **·** avamiseks valige väljal Osakond rippnupp.
-10. Valige loendis link valitud reas.
-11. Valige otsingu avamiseks väljal **Töö** ripploendi nupp.
-12. Otsige loendist ja valige oma kirje.
-13. Valige loendis link valitud reas.
-14. Sisestage number väljale **Vabade kohtade arv**.
-15. Klõpsake väljal **Värbamisjuht** otsingu avamiseks ripploendi nuppu.
-16. Otsige loendist ja valige oma kirje.
-17. Valige loendis link valitud reas.
-18. Valige käsk **Vali**.
-19. Sisestage lõpukuupäev väljale **Avalduse tähtaeg**.
-20. Valige **Meedium**. Värbamisprojektid sisaldavad suvandit, kus saab määrata vabade töökohtade reklaamimiseks kasutatavaid meediakanaleid.  
-21. Valige suvand **Uus**.
-22. Valige otsingu avamiseks väljal **Meedium** ripploendi nupp.
-23. Valige loendis link valitud reas.
-24. Väljale **Alguskuupäev** sisestage kuupäev.
-25. Väljale **Lõppkuupäev** sisestage kuupäev.
-26. Valige käsk **Salvesta**.
-27. Sulgege leht.
-28. Saate **valida töökuulutused**.
-29. Valige käsk **Salvesta**.
-30. Sulgege leht.
-31. Märkige või tühjendage **ruut Kuva töötaja** iseteeninduses. Märkige **ruut Kuva töötaja** iseteeninduses. See valik muudab värbamisprojekti töötajatele nähtavaks töötaja **iseteeninduslehe** kaudu.
-32. Valige **Värbamisprojekti olek**.
-33. Valige nupp **Alusta**. Olek **Alustatud** tähendab, et projekt on valmis avaldusi vastu võtma.  
-34. Valige nupp **OK**.
+1. Klõpsake valikut Uus.
+2. Sisestage väärtus väljale Värbamisprojekt.
+3. Sisestage väljale Kirjeldus soovitud väärtus.
+4. Klõpsake väljal Värbaja otsingu avamiseks ripploendi nuppu.
+5. Otsige loendist ja valige soovitud kirje.
+6. Klõpsake loendis valitud real olevat linki.
+7. Klõpsake Vali.
+8. Klõpsake väljal Osakond otsingu avamiseks ripploendi nuppu.
+9. Klõpsake loendis valitud real olevat linki.
+10. Klõpsake väljal Töö otsingu avamiseks ripploendi nuppu.
+11. Otsige loendist ja valige soovitud kirje.
+12. Klõpsake loendis valitud real olevat linki.
+13. Sisestage arv väljale Vabade kohtade arv.
+14. Klõpsake väljal Värbamisjuht otsingu avamiseks ripploendi nuppu.
+15. Otsige loendist ja valige soovitud kirje.
+16. Klõpsake loendis valitud real olevat linki.
+17. Klõpsake Vali.
+18. Sisestage lõpukuupäev väljale Avalduse tähtaeg.
+19. Klõpsake valikut Meedia.
+    * Värbamisprojektid sisaldavad suvandit, kus saab määrata vabade töökohtade reklaamimiseks kasutatavaid meediakanaleid.  
+20. Klõpsake valikut Uus.
+21. Klõpsake väljal Meedia otsingu avamiseks ripploendi nuppu.
+22. Klõpsake loendis valitud real olevat linki.
+23. Sisestage kuupäev väljale Alguskuupäev.
+24. Sisestage kuupäev väljale Lõppkuupäev.
+25. Klõpsake nuppu Salvesta.
+26. Sulgege leht.
+27. Klõpsake valikut Töökuulutused.
+28. Klõpsake nuppu Salvesta.
+29. Sulgege leht.
+30. Märkige ruut Kuva töötaja iseteeninduses või eemaldage sellelt märge.
+    * Valige märkeruut Kuva töötaja iseteeninduses, et teha värbamisprojekt töötajatele nähtavaks lehtedel Töötaja iseteenindus.  
+31. Klõpsake valikut Värbamisprojekti olek.
+32. Klõpsake nuppu Käivita.
+    * Olek Alustatud tähendab, et projekt on valmis avaldusi vastu võtma.  
+33. Klõpsake nuppu OK.
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Rakendusekohaste metaandmete ettevalmistamine RCS-i ja ER-i jaoks
 description: Selles teemas selgitatakse, kuidas valmistada ette rakendusespetsiifilisi metaandmeid Regulatiivse konfiguratsiooniteenuse (RCS) ja elektroonilise aruandluse (ER) jaoks.
 author: NickSelin
+manager: AnnBe
 ms.date: 04/04/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERWorkspace
 audience: Application User, Developer, IT Pro
@@ -13,12 +15,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 9136bd3db2aee1447d6af3b3c47b908177cee966aba630490cc6e72072525d29
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f15b78d3ed5b4df47540f9f89cc69c0b535a7241
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6735594"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680190"
 ---
 # <a name="prepare-application-specific-metadata-for-rcs-and-er"></a>Rakendusekohaste metaandmete ettevalmistamine RCS-i ja ER-i jaoks
 
@@ -278,6 +280,3 @@ Kui peate hindama seda mudeli vastendust, kasutades rakenduse teise versiooni me
 ## <a name="additional-resources"></a>Lisaressursid
 
 Teise võimalusena saate esitada rakenduse ülesande juhise **RCS-i jaoks kasutatavate rakenduse metaandmete ettevalmistamine** ja ka RCS-i ülesande juhised **Juurdepääs rakenduse metaandmetele ER-konfiguratsiooni abil** ja **Juurdepääs rakenduse metaandmetele ühendatud rakenduste abil**. Need ülesande juhised saab alla laadida lehelt [Elektroonilise aruandluse ülesande juhised rakendusele Dynamics 365 for Finance and Operations 8.1](https://go.microsoft.com/fwlink/?linkid=2082739).
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

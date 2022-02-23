@@ -2,9 +2,11 @@
 title: Pilvepõhiste ja asutusesiseste funktsioonide võrdlus
 description: Selles teemas näidatakse, milliseid funktsioone pilves ja asutusesiseses versioonis toetatakse.
 author: sericks007
+manager: AnnBe
 ms.date: 01/14/2021
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -14,12 +16,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
-ms.openlocfilehash: 68082ad0ae264b76a852d8d12412af8c4ad917703441c41e67743d1b499a8d73
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 309131f0d7390288a46f84b1375bd87922407159
+ms.sourcegitcommit: a017fc0583a894382b959e22511231dd07d4254a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736218"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4959890"
 ---
 # <a name="comparison-of-cloud-and-on-premises-features"></a>Pilvepõhiste ja kohapealsete funktsioonide võrdlus
 
@@ -42,9 +44,9 @@ Järgmistes tabelites on loetletud rakendusvaldkonnad. Pilvepõhine ja asutusesi
 |---------------------|-----------------------------|-----------|-----------------|
 | Vastavus ja serdid        |                                                                                           | Jah       | Jah             |
 |                                      | SOC 1 1. tüübi sert                                                                | Jah       | Ei              |
-| Andmete haldus ja integreerimine      |                                                                                           | Jah       | Jah             |
+| Andmete haldus ja integreerimine      |                                                                                           | Jah       | Jah             
 |                                      | Andmete eksportimine oma andmelattu                                                    | Jah       | Jah             |
-|                                      | Astmeliste värskenduste eksportimise lubamine andmeüksusse                                 | Jah       | Jah             |
+|                                      | Astmeliste värskenduste eksportimise lubamine andmeüksusse                                 | Jah       | Jah              |
 |                                      | Andmeintegratsioon                                                                         | Jah       | Jah             |
 | Dokumendihaldus                  |                                                                                           | Jah       | Jah             |
 | Finantshaldus                 |                                                                                           | Jah       | Jah             |
@@ -61,7 +63,7 @@ Järgmistes tabelites on loetletud rakendusvaldkonnad. Pilvepõhine ja asutusesi
 |                                      | Analüütikatööruumid                                                                     | Jah       | Ei              |
 |                                      | Arukas äriprotsess: soovitused                                             | Jah       | Ei              |
 |                                      | Power BI aruannete loomine OData abil, kasutades Power BI Desktopi või Exceli PowerQuery tööriistu    | Jah       | Ei              |
-|                                      | SQL Serveri aruandlusteenused (SSRS) toetavad väljamastaapimist                                 | Jah       | Jah             |
+|                                      | SQL Serveri aruandlusteenused (SSRS) toetavad väljamastaapimist                                 | Jah       | Ei              |
 |                                      | Telemeetria kantakse üle pilve                                                   | Jah       | Ei              |
 | Elutsükli teenused                   |                                                                                           | Jah       | Jah             |
 |                                      | Konfigureeritavad äriprotsessid                                                           | Jah       | Ei              |
@@ -84,7 +86,7 @@ Järgmistes tabelites on loetletud rakendusvaldkonnad. Pilvepõhine ja asutusesi
 
 | **Piirkond**                | **Funktsioon**             | **Pilv** | **Asutusesisene** |
 |-------------------------|-------------------|-----------|-----------------|
-| Varahaldus                     |                                                                                           | Jah       | Jah             |
+| Varahaldus                     |                                                                                           | Jah       | Ei |
 | Vastavus ja serdid        |                                                                                           | Jah       | Jah             |
 |                                      | SOC 1 1. tüübi sert                                                                | Jah       | Ei              |
 | Kuluarvestus                      |                                                                                           | Jah       | Jah             |
@@ -95,7 +97,7 @@ Järgmistes tabelites on loetletud rakendusvaldkonnad. Pilvepõhine ja asutusesi
 | Andmete haldus ja integreerimine      |                                                                                           | Jah       | Jah             |
 |                                      | Konfiguratsioonipõhine laiendus                                                            | Jah       | Ei              |
 |                                      | Andmete eksportimine oma andmelattu                                                    | Jah       | Jah             |
-|                                      | Astmeliste värskenduste eksportimise lubamine andmeüksusse                                 | Jah       | Jah             |
+|                                      | Astmeliste värskenduste eksportimise lubamine andmeüksusse                                 | Jah       | Jah              |
 |                                      | Andmeintegratsioon                                                                         | Jah       | Jah             |
 | Dokumendihaldus                  |                                                                                           | Jah       | Jah             |
 | Spikker                                 |                                                                                           | Jah       | Ei              |
@@ -110,9 +112,9 @@ Järgmistes tabelites on loetletud rakendusvaldkonnad. Pilvepõhine ja asutusesi
 |                                      | Analüütikatööruumid                                                                     | Jah       | Ei              |
 |                                      | Arukas äriprotsess: soovitused                                             | Jah       | Ei              |
 |                                      | Power BI aruannete loomine OData abil, kasutades Power BI Desktopi või Exceli PowerQuery tööriistu    | Jah       | Ei              |
-|                                      | SQL Serveri aruandlusteenused (SSRS) toetavad väljamastaapimist                                 | Jah       | Jah             |
+|                                      | SQL Serveri aruandlusteenused (SSRS) toetavad väljamastaapimist                                 | Jah       | Ei              |
 |                                      | Telemeetria kantakse üle pilve                                                   | Jah       | Ei              |
-| Varud                 |                                                                                           | Jah       | Jah             |
+| Varude haldamine                 |                                                                                           | Jah       | Jah             |
 | Elutsükli teenused                   |                                                                                           | Jah       | Jah             |
 |                                      | Konfigureeritavad äriprotsessid                                                           | Jah       | Ei              |
 | Lokaliseerimised                        |                                                                                           | Jah       | Jah             |
@@ -147,7 +149,7 @@ Järgmistes tabelites on loetletud rakendusvaldkonnad. Pilvepõhine ja asutusesi
 
 ## <a name="dynamics-365-commerce"></a>Dynamics 365 Commerce 
 
-Kohapeal saadaolevate juurutuste võimaluste loendi nägemiseks vt [Kohapealseks juurutamiseks saadaolevad Commerce’i võimalused](../../../commerce/retail-onprem.md).
+Kohapeal saadaolevate juurutuste võimaluste loendi nägemiseks vt [Kohapealseks juurutamiseks saadaolevad Commerce’i võimalused](../../../retail/retail-onprem.md).
 
 ## <a name="dynamics-365-human-resources"></a>Dynamics 365 Human Resources 
 
@@ -174,6 +176,3 @@ Kohapeal saadaolevate juurutuste võimaluste loendi nägemiseks vt [Kohapealseks
 
 \*Kohapealsetes keskkondades näitab PerfTimer ainult kliendi tulemusi.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

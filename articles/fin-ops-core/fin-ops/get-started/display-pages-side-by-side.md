@@ -2,9 +2,11 @@
 title: Lehtede kõrvuti kuvamine, kasutades uue akna funktsioonis nuppu „Ava“
 description: Selles artiklis selgitatakse, kuidas kuvada lehti kõrvuti.
 author: aneesmsft
+manager: AnnBe
 ms.date: 11/20/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -14,19 +16,16 @@ ms.search.region: Global
 ms.author: aneesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a4c8086d511892f8965dfefca2789742a006f63f
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: 35ade352edf31fe895a9b9118a8ad7d5fe6c0bde
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068055"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798399"
 ---
 # <a name="show-pages-side-by-side-using-the-open-in-new-window-feature"></a>Lehtede kõrvuti kuvamine, kasutades uue akna funktsioonis nuppu „Ava“
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Selles artiklis selgitatakse, kuidas kuvada lehti kõrvuti.
 
@@ -49,6 +48,3 @@ Enne funktsiooni **Ava uues aknas** kasutamist tuleb konfigureerida brauseri hü
 Funktsioon **Ava uues aknas** on saadaval ainult siis, kui aknas on avatud mitu lehte. Samuti suletakse hüpikaken automaatselt, kui rohkem lehti pole avatud (st selle akna viimase lehe sulgemisel). Süsteem suleb avatud lehed ka siis, kui lähete rakenduses teisele alale. Seetõttu, kui teil on hüpikaknad avatud ja lähete rakenduses teisele alale, sulguvad hüpikaknad automaatselt, kuna süsteem sulges nendes akendes olevad lehed.
 
 Hüpikakende ülaribal on kuvatud teave ettevõtte kohta, mille all leht avati, ja see on kirjutuskaitstud. Hüpikaknad sõltuvad ka peamisest brauseriaknast. Kui peamine aken suletakse või seda värskendatakse, muutuvad kõik hüpikaknad kirjutuskaitstuks. Selle olukorra ilmnemisel saate neis akendes siiski teavet vaadata, kuid ei saa sellega midagi teha.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

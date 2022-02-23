@@ -2,25 +2,28 @@
 title: Rendilepingute haldamine rendilepingu importimise raamistiku kaudu
 description: Selles teemas selgitatakse, kuidas kasutada rendilepingu importimise raamistikku, et korrigeerida mitut rendilepingut samaaegselt.
 author: moaamer
-ms.date: 04/12/2021
+manager: Ann Beebe
+ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: AssetLeaseLeaseImportHeader
+ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 534584a7da494b427d48b1bc97bf6554d25f4a79d9d62f59ec5f2afb65e67431
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d7a7d2afd8f352bc167ec8c0a354ee4ac0a9e77b
+ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758893"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4442570"
 ---
 # <a name="manage-leases-through-the-lease-import-framework"></a>Rendilepingute haldamine rendilepingu importimise raamistiku kaudu
 
@@ -53,7 +56,7 @@ Võrdlemise funktsioon võimaldab teil võrrelda kirjet, mida impordite vastava 
 > [!NOTE]
 > Võrdlemise funktsioon ei toimi rendilepingute korral, millel on protsessitüübiks **Lisa kirje**, sest seda rendilepingut pole millegagi võrrelda.
 >
-> Mitme rendilepingu üheaegseks võrdlemiseks minge jaotisse **Vara rentimine \> Rendilepingu importi raamistik \> Perioodiline** ja valige **Võrdle**.
+> Mitme rendilepingu üheaegseks võrdlemiseks minge jaotisse **Vara rentimine \> Rendilepingu importi raamistik \> Perioodiline \> Võrdlemine** ja valige **Võrdle**.
 
 Iga üksuse puhul saate vaadata praegu süsteemis olemasoleva ja ajastamise tabelites oleva erinevusi. Iga ajastamise tabelites oleva üksuse kohta valige **Vaata erinevusi**. Kuvatavas dialoogiaknas on näha praegune väärtus ja pakutav ajastamise väärtus.
 
@@ -62,17 +65,17 @@ Saate ajastamise väärtust uuendada nii, et vahetate selle veerus **Uus väärt
 Saate rendilepinguid valideerida, veendumaks, et kirjed saab ilma vigu tekitamata süsteemi tuua. Enne rendilepingu kirje migreerimist käitab süsteem mitu valideerimist, et tagada kirje edukas importimine. Üksiku rendilepingu valideerimiseks valige käsk **Valideeri**.
 
 > [!NOTE]
-> Mitme rendilepingu üheaegseks valideerimiseks minge jaotisse **Vara rentimine \> Rendilepingu importi raamistik \> Perioodiline** ja valige **Võrdle**.
+> Mitme rendilepingu üheaegseks valideerimiseks minge jaotisse **Vara rentimine \> Rendilepingu importi raamistik \> Perioodiline \> Valideerimine** ja valige **Võrdle**.
 
 Üksiku rendilepingu töötlemiseks valige käsk **Migreeri rendilepingu kirjed** lehel **Impordi päis**. Kui rendileping on migreeritud, teostab süsteem toimingu, mis on määratletud väljal **Protsessi tüüp**.
 
 > [!NOTE]
-> Mitme rendilepingu üheaegseks migreerimiseks minge jaotisse **Vara rentimine \> Rendilepingu importi raamistik \> Perioodiline** ja valige **Migreeri**.
+> Mitme rendilepingu üheaegseks valideerimiseks minge jaotisse **Vara rentimine \> Rendilepingu importi raamistik \> Perioodiline \> Valideerimine** ja valige **Võrdle**.
 
 Pärast rendilepingute võrdlemist saate käitada aruannet, et vaadata iga impordi ID-s sisalduva rendilepingu erinevusi. Ühe rendilepingu kohta aruande loomiseks valige see rendileping ajastamise andmetest ja seejärel avage jaotis **Võrdle ja kuva aruanne \> Erinevuste aruanne**.
 
 > [!NOTE]
-> Mitme rendilepingu üheaegseks võrdlemiseks minge jaotisse **Vara rentimine \> Rendilepingu importi raamistik \> Perioodiline** ja valige **Võrdle**. 
+> Mitme rendilepingu üheaegseks valideerimiseks minge jaotisse **Vara rentimine \> Päringud ja aruanded \> Erinevuste aruanne** ja valige **Võrdle**.
 
 ## <a name="set-up-update-fields"></a>Uuendusväljade seadistamine
 
@@ -80,6 +83,3 @@ Kui kasutate rendilepingute uuendamiseks rendilepingute importimise raamistikku 
 
 1. Avage **Vara rentimine \> Rendilepingu importimise raamistik \> Seadistus \> Uuendatava välja valik**.
 2. Valige kuvataval leheküljel väljad, mida uuendada, ja seejärel valige roheline nool, et teisaldada need loendisse **Valitud väljad**. Ainult loendis **Valitud väljad** olevaid välju saab rendilepingu importimise komplektiga uuendada.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

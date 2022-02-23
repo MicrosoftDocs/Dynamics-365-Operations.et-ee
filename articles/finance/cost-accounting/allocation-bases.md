@@ -2,13 +2,16 @@
 title: Eraldamise alused
 description: Teema sisaldab teavet eraldamisaluste kohta. Eraldamisalused on kuluarvestuse põhikomponendid ja neid kasutatakse enamasti üldkulude eraldamiseks.
 author: AndersGirke
+manager: AnnBe
 ms.date: 05/24/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMDimensionMember, CAMAllocationBaseDetail, CAMFormulaAllocationBaseDetail, CAMAllocationBasePreview, CAMAllocationBase, CAMCostAllocationRule, CAMPredefinedMemberAllocationBase
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 223174
 ms.assetid: ''
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 2e51d0320d66a2ae094573735df96bc9bc3f93d359f3bbeab2e5cec3081dddbe
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fc6f655d17a83db54aa99c834980bf7666e8100d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743045"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4442256"
 ---
 # <a name="allocation-bases"></a>Eraldamise alused 
 
@@ -212,7 +215,7 @@ Pärast statistilise mõõdu lähteandmete töötlemist luuakse kuluarvestusse j
 
 **Statistilised kirjed**
 
-| Kuluobjekt | Nimi   | Aruandluskuupäev | Statistiline dimensiooniliige |    Kirjeldus          | Väärtus |
+| Kuluobjekt |    | Aruandluskuupäev | Statistilise dimensiooni liige |    Kirjeldus          | Väärtus |
 |-------------|----|-----------------|------------------------------|-------------------------|-----------|
 | CC001       | Personaliosakond | 31-01-2017      | Elektrienergia                  | Elektri tarbimine | 2,450.00  |
 | CC002       | FI | 31-01-2017      | Elektrienergia                  | Elektri tarbimine | 4,100.00  |
@@ -404,9 +407,9 @@ Eelvaate funktsioon võimaldab kontrollida valemi eraldamisalust, mis luuakse st
 
 **Eraldamisaluse üksikasjad**
 
-| Kuluobjekt |  Nimi  | Valem                                                                                                                             | Väärtus |
+| Kuluobjekt |    | Valem                                                                                                                             | Väärtus |
 |-------------|----|-------------------------------------------------------------------------------------------------------------------------------------|-----------|
-| CC001       | HR | ((2450.00 \> 10 000.00) × ((10 000.00 × 0,75) + (2450.00 – 10 000.00) × 1,15)) + ((2450.00 \<= 10 000.00) × 2450.00 × 0,75)     | 1,837.50  |
+| CC001       | Personaliosakond | ((2450.00 \> 10 000.00) × ((10 000.00 × 0,75) + (2450.00 – 10 000.00) × 1,15)) + ((2450.00 \<= 10 000.00) × 2450.00 × 0,75)     | 1,837.50  |
 | CC002       | FI | ((4100.00 \> 10 000.00) × ((10 000.00 × 0,75) + (4100.00 – 10 000.00) × 1,15)) + ((4100.00 \<= 10 000.00) × 4100.00 × 0,75)     | 3,075.00  |
 | CC003       | LÜ | ((15000.00 \> 10 000.00) × ((10 000.00 × 0,75) + (15000.00 – 10 000.00) × 1,15)) + ((15000.00 \<= 10 000.00) × 15000.00 × 0,75) | 1,3250.00 |
 
@@ -427,6 +430,3 @@ Siin on kulu jaotusreegli näide, kui elektri fikseeritud valemi eraldamisalus o
 |    CC002    |     FI      | 3,075.00  | (3075.00 ÷ 18 162.50) × summa  |
 |    CC003    |     LÜ      | 13,250.00 | (13 250.00 ÷ 18 162.50) × summa |
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

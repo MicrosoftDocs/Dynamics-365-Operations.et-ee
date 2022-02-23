@@ -1,25 +1,28 @@
 ---
 title: Algse eelarve loomine ja seejärel esialgse eelarve kirjete tagasivõtmine avalikus sektoris
-description: See teema kirjeldab, kuidas luua ja tühistada algset eelarvekirjet, kasutades eelarvemudelit ja dimensiooniväärtusi, mis hõlmavad esialgseid eelarvesummasid.
+description: Kui luuakse algse eelarve kande ja mida kasutatakse eelarve mudel ja dimensiooni väärtused, mis sisaldavad esialgses eelarvesummad, esialgsete eelarvesummade saab tühistada.
 author: twheeloc
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetTransaction, BudgetAccountStructureLookup, BudgetTransactionMultiPost
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Service industries
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f0120e4aa895d70da418c643a81bd0046a96c031de0ca660e31bb3e0d8f8c2df
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 32d89216d49a743729de8910f738276cbddcd8bb
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744246"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4442458"
 ---
 # <a name="create-an-original-budget-and-then-reverse-preliminary-budget-entries-in-the-public-sector"></a>Algse eelarve loomine ja seejärel esialgse eelarve kirjete tagasivõtmine avalikus sektoris
 
@@ -48,6 +51,3 @@ Kui luuakse algse eelarve kande ja mida kasutatakse eelarve mudel ja dimensiooni
     * Lisavalikute tegemiseks klõpsake lehe ülaosas ikooni Unlock (Vabasta lukust).  
 18. Klõpsake käsku Uuenda.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

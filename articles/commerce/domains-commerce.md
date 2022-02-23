@@ -1,27 +1,30 @@
 ---
-title: Domeenid Dynamics 365 Commerce'is
+title: Domeenid teenuses Dynamics 365 Commerce
 description: Selles teemas kirjeldatakse, kuidas käsitsetakse domeene teenuses Microsoft Dynamics 365 Commerce.
 author: BrShoo
-ms.date: 03/17/2021
+manager: AnnBe
+ms.date: 09/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: ''
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: BrShoo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: bf96c47b8f5e940ffdd9241c3bdda4162a3101c42004c58c431f135f11c39d14
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cb2b003168d32d05387bd45796d313736b11a41f
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733987"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517351"
 ---
-# <a name="domains-in-dynamics-365-commerce"></a>Domeenid Dynamics 365 Commerce'is
+# <a name="domains-in-dynamics-365-commerce"></a>Domeenid teenuses Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
@@ -38,7 +41,7 @@ E-kaubanduse keskkonna ettevalmistamisel teenuses [Microsoft Dynamics Lifecycle 
 
 Järgmisel joonisel on kujutatud LCS-i e-kaubanduse ettevalmistamise ekraan, kus on esile tõstetud väli **Toetatud hostinimed**. 
 
-![LCS e-commerce ettevalmistamise ekraan koos esiletõstetud väljaga **Toetatud hostinimed**.](./media/Domains_ProvisioningeCommerceScreen_publish.png)
+![LCS-i e-kaubanduse ettevalmistamise ekraan koos esiletõstetud väljaga **Toetatud hostinimed**](./media/Domains_ProvisioningeCommerceScreen.png)
 
 Kui ettevalmistamine on juba toimunud, saate luua hooldustaotluse lisadomeenide keskkonda lisamiseks. Teenusetaotluse loomiseks LCS-is tehke oma keskkonnas valikud **Tugi \> Toeprobleemid** ja valige **Edasta juhtum**.
 
@@ -56,7 +59,7 @@ Saidi esmakordsel seadistamisel saidiehitajas kuvatakse dialoogiboks **Saidi sea
 
 Järgmisel illustratsioonil on kujutatud dialoogiboks **Saidi seadistamine** saidi „vaikimisi” jaoks, kui navigeerite saidile esmakordselt saidiehitaja kaudu.
 
-![Dialoogiboks **Saidi seadistamine**.](./media/Domains_SetupyoursiteScreen.png)
+![Dialoogiboks **Saidi seadistamine**](./media/Domains_SetupyoursiteScreen.png)
 
 Väli **Vali domeen** võimaldab teil saidiehitajas seostada oma saidiga ühe toetatud hostinimedest, mida pakutakse teie saidi jaoks LCS-is.
 
@@ -79,11 +82,11 @@ Pärast seda, kui teie sait on seadistatud teega, tuginevad kõik saidiehitaja l
 
 Järgmisel joonisel on kujutatud saidiehitaja dialoogiboks **Uus URL**, milles on esile tõstetud näidis-URL-i tee. 
 
-![Saidiehitaja dialoogiboks **Uus URL**.](./media/Domains_PageSetup2a.png)
+![Saidiehitaja dialoogiboks **Uus URL**](./media/Domains_PageSetup2a.png)
 
 Järgmisel joonisel on kujutatud saidiehitaja leht **URL-id**, mille loendis on esile tõstetud URL.
 
-![Kasutajavoo suvandi käitamine poliitika voos.](./media/Domains_URLsInSiteBuilder2a.png)
+![Kasutajavoo suvandi käitamine poliitika voos](./media/Domains_URLsInSiteBuilder2a.png)
 
 ## <a name="domains-in-site-builder"></a>Saidiehitaja domeenid
 
@@ -151,13 +154,13 @@ Commerce'i esitatud Azure'i sisenemispunkti eksemplar ei toeta tippdomeene (juur
 
   [Uue e-kaubanduse rentniku juurutamine](deploy-ecommerce-site.md)
 
-  [Võrgupoe kanali häälestamine](./channel-setup-online.md)
+  [Võrgupoe kanali häälestamine](online-stores.md)
 
   [E-kaubanduse saidi loomine](create-ecommerce-site.md)
 
   [Dynamics 365 Commerce'i saidi seostamine võrgukanaliga](associate-site-online-store.md)
 
-  [Robots.txt-failide haldamine](manage-robots-txt-files.md)
+  [robots.txt-failide haldamine](manage-robots-txt-files.md)
 
   [Üleslaadimise URL suunab ümber hulgi](upload-bulk-redirects.md)
 
@@ -170,6 +173,3 @@ Commerce'i esitatud Azure'i sisenemispunkti eksemplar ei toeta tippdomeene (juur
   [Sisuedastusvõrgu (CDN) toe lisamine](add-cdn-support.md)
 
   [Asukohapõhise poetuvastuse lubamine](enable-store-detection.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

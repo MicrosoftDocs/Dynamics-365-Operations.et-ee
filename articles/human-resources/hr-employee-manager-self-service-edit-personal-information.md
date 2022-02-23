@@ -1,35 +1,33 @@
 ---
 title: Isiklike andmete muutmine
 description: Selles artiklis kirjeldatakse, kuidas redigeerida isikuandmeid töövõtja ja ülemuse iseteeninduses.
-author: twheeloc
-ms.date: 08/26/2021
+author: andreabichsel
+manager: AnnBe
+ms.date: 03/19/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HRMParameters, EssWorkspace
 audience: Application User
-ms.search.scope: Human Resources
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations, Human Resources
 ms.custom: 51941
 ms.assetid: 2cfb061a-a616-4bf9-9d98-9cde00039eec
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e798646263b9939445f49a3866532cd229c668cd
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: 0158bd4ee74e24006e338c0477ee0ac4210b1bf5
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071696"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4418080"
 ---
 # <a name="edit-personal-information"></a>Isiklike andmete muutmine
 
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-Saate Dynamics 365 Human Resources`i isikuandmeid redigeerida jaotises **Töövõtja iseteeninduse** tööruum.
+Saate Dynamics 365 Human Resourcesi isikuandmeid redigeerida jaotises **Töövõtja iseteeninduse tööruum**.
 
 Redigeeritavate isikuandmete hulka kuulub järgnev.
 
@@ -40,16 +38,13 @@ Redigeeritavate isikuandmete hulka kuulub järgnev.
 - Makseviis
 - Human Resourcesis kasutatav pilt
 
->[!NOTE]
->On võimalik, et te ei saa redigeerida teatud tüüpi isiklikke andmeid, nt ärikontakti üksikasju. Lisateavet vt teemast [Isikuandmete redigeerimise piiramine](hr-employee-self-service-restrict-editing.md).
-
-**Globaalses aadressiraamatu parameetrid** lehel seatud parameetrid määratlevad rollid, kes näevad teie isikuandmeid.
+Globaalses aadressiraamatus seatud parameetrid määratlevad rollid, mis näevad teie isikuandmeid.
 
 1. Human Resourcesis valige **Töövõtja iseteenindus**.
 
 2. Valige **Redigeeri isikuandmeid**.
 
-3. Aadressi muutmiseks valige vahekaart **Aadressid**. Teie tehtud muudatused kuvatakse personalijuhi teavitamiseks tööruumis **Personalihaldus**.
+3. Aadressi muutmiseks valige vahekaart **Aadressid**. Teie tehtud muudatused kuvatakse personalijuhi teavitamiseks tööruumis **Personalihaldus**. 
 
     - Uue aadressi lisamiseks valige **Lisa**.
     - Olemasoleva aadressi redigeerimiseks valige aadress ja seejärel valige **Redigeeri**.
@@ -57,13 +52,11 @@ Redigeeritavate isikuandmete hulka kuulub järgnev.
     - Kontakti lisamiseks või eemaldamiseks valige **Rohkem suvandeid** ja seejärel valige **Täpsem**. Jaotises **Kontaktteave** valige **Lisa** või **Eemalda** ja redigeerige välju vastavalt vajadusele.
     - Ajavööndi ja asukoha määramiseks valige **Rohkem suvandeid** ja seejärel valige **Täpsem**. Jaotises **Üldine** redigeerige välju vastavalt vajadusele.
 
-4. Oma kontaktandmete muutmiseks valige vahekaart **Kontaktandmed**. Saate anda erinevat kontaktteavet, sh telefoni, meili ja sotsiaalmeedia linke. Saate määrata kontaktteabe esmaseks, kuid esmaseks saab määrata igast tüübist ainult ühe.
+4. Oma kontaktandmete muutmiseks valige vahekaart **Kontaktandmed**. Saate anda erinevat kontaktteavet, sh telefoni, meili ja sotsiaalmeedia linke. Saate määrata kontaktteabe esmaseks, kuid esmaseks saab määrata igast tüübist ainult ühe. 
 
     - Uue kontaktteabe lisamiseks valige **Lisa**. Redigeerige välju vastavalt vajadusele.
     - Olemasoleva kontaktteabe redigeerimiseks valige üksus ja seejärel valige **Redigeeri**. Redigeerige välju vastavalt vajadusele.
     - Kontaktteabe privaatsena määramiseks valige see üksus, valige **Täpsem** ja seadke nupp **Privaatne** väärtusele **Jah**. Valige nupp **OK**.
-      >[!NOTE]
-      >Nupp **Täpsem** pole saadaval, kui teie administraator on lubanud teie keskkonnas funktsiooni **(Eelversioon) Piirake töötajatel aadressi- ja kontaktteabe lisamist või redigeerimist kindlal otstarbel**. Lisateavet vt teemast [Isikuandmete redigeerimise piiramine](hr-employee-self-service-restrict-editing.md).
   
 5. Isiklike kontaktide muutmiseks valige vahekaart **Isiklikud kontaktid**. Saate määrata lähedasi isikuid, kasusaajaid ja sõltuvaid. Kontaktiks võib olla isik või organisatsioon. Funktsioon **Soodustuste haldus** kasutab isiklikke kontaktandmeid. Lisateavet leiate teemast [Isiklike kontaktide sobivuse suvandite konfigureerimine](hr-benefits-setup-contact-eligibility-options.md).
 
@@ -72,13 +65,10 @@ Redigeeritavate isikuandmete hulka kuulub järgnev.
     - ID-numbri lisamiseks valige **Uus**. Täitke väljad vastavalt vajadusele ja valige **Salvesta**.
     - Numbri redigeerimiseks valige **Redigeeri**. Redigeerige väljad vastavalt vajadusele ja valige **Salvesta**.
 
-7. Makseviiside muutmiseks valige **Minu makseteave** sakk. See vahekaart on saadaval ainult siis, kui makseviisid on lubatud **Personali parameetrid** lehel. Personalijuht saab lubada suvandid **Pangaveksel**, **Sularaha**, **Tšekk**, **Elektroonilise makse** või **Muu**. Personalijuht saab keelata ka elektroonilise makse kinnitamise (kasutatakse USA palga puhul) ning pangakonto ja marsruudi valiku numbri kinnitamise.
+7. Selleks, et muuta meetodeid, mille alusel teile makstakse, valige vahekaart **Minu makseteave**. See vahekaart on saadaval ainult juhul, kui makseviisid on lubatud vormil **Human Resourcesi parameetrid**. Personalijuht saab lubada suvandid **Pangaveksel**, **Sularaha**, **Tšekk**, **Elektroonilise makse** või **Muu**. Personalijuht saab keelata ka elektroonilise makse kinnitamise (kasutatakse USA palga puhul) ning pangakonto ja marsruudi valiku numbri kinnitamise.
 
 8. Human Resourcesis kuvatava profiilipildi muutmiseks valige vahekaart **Pilt**. Olenevalt teie organisatsiooni sätetest võivad pildid läbida kinnitamise protsessi.
 
     - Pildi üleslaadimiseks valige **Laadi üles uus pilt**.
     - Pildi eemaldamiseks valige pilt ja seejärel valige **Eemalda**.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

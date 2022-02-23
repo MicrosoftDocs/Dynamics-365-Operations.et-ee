@@ -1,26 +1,29 @@
 ---
 title: Arveldusallika uurija
 description: Selles artiklis antakse teavet arveldusallika uurija kohta, mida saate kasutada pearaamatu raamatupidamiskannete taga oleva allikateabe üksikasjalikuks analüüsiks.
-author: rcarlson
+author: ShylaThompson
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AccountingSourceExplorer
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 15391
 ms.assetid: 57b95899-7298-43c0-8034-45b5d993cbf2
 ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ab098aa36d6fa6c34beaaa31ecfbb1eb47840e343d7dee3d9cd3034d6ff8f9c8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 904f1f9fb139248205b426aec5a0372f2edb1e59
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749194"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4442522"
 ---
 # <a name="accounting-source-explorer"></a>Arveldusallika uurija
 
@@ -46,10 +49,5 @@ Lähtedokumentide puhul, mis kasutavad lähtedokumendi viite ID-de kontseptsioon
 
 Nende dokumentide puhul saate minna arvestusallika uurijast ka tegeliku lähtedokumendi juurde.
 
-> [!NOTE]
-> Versioonist 10.0.20 annab nupp **Värskenda** kaks lisavahemikku, et piirata algset päringut, mis käivitatakse lehele andmete sisestamiseks. Need lisavahemikud on saadaval ka versioonis 10.0.19 teenuse värskendusena. Lisatud on järgmised väljad.
->
-> - Vautšerist, vautšerini
-> - Põhikontolt, põhikontole
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

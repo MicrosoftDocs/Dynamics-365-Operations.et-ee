@@ -2,9 +2,11 @@
 title: Laiendatud garantiide loomine ja konfigureerimine
 description: See teema hõlmab laiendatud garantiisid ning kirjeldab, kuidas neid rakenduses Microsoft Dynamics 365 Commerce luua ja konfigureerida.
 author: sijoshi
+manager: annbe
 ms.date: 06/08/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -15,14 +17,14 @@ ms.search.industry: ''
 ms.author: sijoshi
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 772dc1fdda7c34448ffa946237f717e657df6d83d8fda9336049e79d19ed1af0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 411895763cc282766b5a668208f20c72496059cd
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745376"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965111"
 ---
-# <a name="create-and-configure-extended-warranties"></a>Põhjalikumate garantiide loomine ja konfigureerimine
+# <a name="create-and-configure-extended-warranties"></a>Laiendatud garantiide loomine ja konfigureerimine
 
 [!include [banner](includes/banner.md)]
 
@@ -81,7 +83,7 @@ Commerce'is kaubagarantii loomiseks toimige järgmiselt.
 
     Näiteks kaheaastase garantii puhul seadke välja **Ajaühik** väärtuseks **Aasta(t)** ja välja **Ajavahemik** väärtuseks **2**. Teise võimalusena võite seada välja **Ajaühik** väärtuseks **Kuu(d)** ja välja **Ajavahemik** väärtuseks **24**, nagu on näha järgmisel joonisel.
 
-    ![Toote üksikasjade leht kaubagarantii jaoks.](./media/ew-time-properties.png)
+    ![Toote üksikasjade leht kaubagarantii jaoks](./media/ew-time-properties.png)
 
 1. Kaubagarantii salvestamiseks valige **Salvesta**.
 1. Tehke kaubagarantii ettevõttele kättesaadavaks, et seda saaks müüa. Lisateavet leiate teemast [Jaemüügitoodete häälestamine](set-up-retail-products.md).
@@ -94,7 +96,7 @@ Commerce'is kaubagarantii loomiseks toimige järgmiselt.
 
     Näiteks on järgmisel joonisel seatud välja **Hinnavahemiku alus** väärtuseks **Baashind**, välja **Alampiir** väärtuseks 500 $ ja välja **Ülempiir** väärtuseks 1000 $.
     
-    ![Väljastatud toote üksikasjade leht kaubagarantii jaoks.](./media/ew-release-product-details.png)
+    ![Väljastatud toote üksikasjade leht kaubagarantii jaoks](./media/ew-release-product-details.png)
 
 1. Määrake kaubagarantii kanalile, kus seda müüakse. Lisateabe saamiseks vt [Sortimentide häälestamine](set-up-assortments.md).
 
@@ -161,11 +163,11 @@ Müügiesindajad saavad kliendiostude protsessi ajal kaubagarantiisid müüa kah
 
 Järgmisel joonisel on näha kassaterminali lehe näide, millel on kujutatud praegusele garantiikõlbliku kauba ostule kaubagarantii lisamise viip.
 
-![Praegusele ostule kaubagarantii lisamise viiba näide.](./media/ew-sell-warranty.png)
+![Praegusele ostule kaubagarantii lisamise viiba näide](./media/ew-sell-warranty.png)
 
 Järgmisel joonisel on näide funktsioonist, mille kaudu saab lisada varem müüdud garantiikõlblikule kaubale kaubagarantii.
 
-![Varem müüdud garantiikõlblikule kaubale kaubagarantii lisamise funktsiooni näide.](./media/ew-add-warranty-existing.png)
+![Varem müüdud garantiikõlblikule kaubale kaubagarantii lisamise funktsiooni näide](./media/ew-add-warranty-existing.png)
 
 ## <a name="process-warranty-transactions"></a>Garantiikannete töötlemine
 
@@ -236,6 +238,3 @@ Garantii on teenus, mis on mõeldud kindla kordumatu toote jaoks. Rakenduses Dyn
 [Sortimentide häälestamine](set-up-assortments.md)
 
 [Numbriseeriate ülevaade](../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

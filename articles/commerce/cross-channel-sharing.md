@@ -2,30 +2,35 @@
 title: Kanaliülese ühiskasutuse lubamine ja kasutamine
 description: Selles teemas kirjeldatakse, kuidas lubada ja kasutada rakenduse Microsoft Dynamics 365 Commerce saidiehitaja kanaliülese ühiskasutuse funktsiooni.
 author: psimolin
+manager: annbe
 ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 05614b3ec14bfca9551242e5cf31aee0cb21c39a85150114af446a187fac998a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 77284045bda193500117978102c0565c5f15ec6d
+ms.sourcegitcommit: 1a12b42cc17f004a981c716aed3da6cf538475a5
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742412"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4411803"
 ---
 # <a name="enable-and-use-cross-channel-sharing"></a>Kanaliülese ühiskasutuse lubamine ja kasutamine
 
 [!include [banner](includes/banner.md)]
 
 Selles teemas kirjeldatakse, kuidas lubada ja kasutada rakenduse Microsoft Dynamics 365 Commerce saidiehitaja kanaliülese ühiskasutuse funktsiooni.
+
+## <a name="overview"></a>Ülevaade
 
 Kanaliülene ühiskasutus laseb jaemüüjatel taaskasutada ja jagada sisu saidi mitme kanali vahel. See võimalus on kasulik, kui saidi kanalitel on ühilduv baaskeel või kui neil on palju ühiseid sisuüksusi.
 
@@ -48,15 +53,15 @@ Et lubada kanaliülene ühiskasutus Commerce'i saidiehitajas, toimige järgmisel
 1. Avage **Saidi sätted \> Funktsioonid**.
 1. Seadke funktsiooni **Kanaliülene** suvandi väärtuseks **Sees**.
 
-    ![Commerce'i saidiehitajas sisselülitatud kanaliülene suvand.](./media/enabling-cross-channel-sharing.png)
+    ![Commerce'i saidiehitajas sisselülitatud kanaliülene suvand](./media/enabling-cross-channel-sharing.png)
 
 Pärast seda, kui lubate kanaliülese ühiskasutuse, kuvatakse kanaliülene teave jaotises **Kanalid**, mis asub jaotises **Saidi sätted \> Funktsioonid**, nagu järgmisel illustratsioonil näha.
 
-![Kanalite teave, mis on nähtav pärast kanaliülese ühiskasutuse lubamist.](./media/channels-cross-channel.png)
+![Kanalite teave, mis on nähtav pärast kanaliülese ühiskasutuse lubamist](./media/channels-cross-channel.png)
 
 Pärast seda, kui lubate kanaliülese ühiskasutuse, sisaldab Commerce'i saidiehitaja ülemises parempoolses nurgas olev väli **Kanal** suvandit **Kanaliülene e-pood**, mille abil saate hallata kanaliülest sisu, nagu on näidatud järgmisel illustratsioonil.
 
-![Kanaliülese e-poe suvand väljal „Kanalid” pärast kanaliülese ühiskasutuse lubamist.](./media/cross-channel-dropdown.png)
+![Kanaliülese e-poe suvand väljal „Kanalid” pärast kanaliülese ühiskasutuse lubamist](./media/cross-channel-dropdown.png)
 
 ## <a name="create-and-use-cross-channel-content"></a>Kanaliülese sisu loomine ja kasutamine
 
@@ -132,6 +137,3 @@ Kui te kasutate nüüd kanali baas-URL-i ja avate selle saidi kanaliülese lehe 
 [Dokumendi olekud ja töötsükkel](document-states-overview.md)
 
 [Avaldamisrühmadega töötamine](publish-groups.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

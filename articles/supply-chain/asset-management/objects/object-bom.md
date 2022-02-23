@@ -1,10 +1,12 @@
 ---
 title: Vara kooslused
 description: Selles teemas kirjeldatakse mooduli Asse Management vara kooslusi (BOM).
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 06/26/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetStandardSparePartsItemGroup, EntAssetObjectBOM
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0430891607ac4558c91b86318aee318d0076007daf59a32eda65cb411d274b3a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: baaf516eb386c3cf63d72bf31800b8731121fe26
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6751981"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019513"
 ---
 # <a name="asset-boms"></a>Vara kooslused
 
@@ -81,6 +83,3 @@ Varade kaubaridu saate käsitsi luua.
 5. Kui kaup aegub, sisestage väljale **Aegumine** lõppkuupäev.
 6. Valige kaup väljalt **Kaubakood**. Nimi sisestatakse automaatselt väljale **Toote nimetus**.
 7. Sisestage kasutatav kogus väljale **Kogus**. Välja  **Ühik** uuendatakse automaatselt.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

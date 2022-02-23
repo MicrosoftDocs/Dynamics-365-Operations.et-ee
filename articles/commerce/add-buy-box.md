@@ -2,32 +2,37 @@
 title: Ostukasti moodul
 description: See teema hõlmab ostukasti mooduleid ja kirjeldab, kuidas neid rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
 author: anupamar-ms
-ms.date: 07/08/2021
+manager: annbe
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4f49c7a1519744cda9cfba31a3938fd23e692841a851a52ec9d18a241f8c0458
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fa9d42c20540f2ee2240cc4f2b180140c3f9a628
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6717791"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517084"
 ---
-# <a name="buy-box-module"></a>Ostukastimoodul
+# <a name="buy-box-module"></a>Ostukasti moodul
 
 [!include [banner](includes/banner.md)]
 
 See teema hõlmab ostukasti mooduleid ja kirjeldab, kuidas neid rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
 
-Mõiste *ostukast* viitab tavaliselt toote üksikasjade lehe alale (PDP), mis on lehe kuvatav osa ehk „above the fold” ja mis sisaldab kõige olulisemat teavet, mis on toote ostu tegemiseks vajalik. (Ala, mida nimetatakse inglise keeles „above the fold”, on nähtav, kui leht esmakordselt laeb, ilma et kasutaja peaks hiirega selle nägemiseks kerima.)
+## <a name="overview"></a>Ülevaade
+
+Mõiste *ostukast* viitab tavaliselt toote üksikasjade lehe alale, mis on lehe kuvatav osa ehk „above the fold” ja mis sisaldab kõige olulisemat teavet, mis on toote ostu tegemiseks vajalik. (Ala, mida nimetatakse inglise keeles „above the fold”, on nähtav, kui leht esmakordselt laeb, ilma et kasutaja peaks hiirega selle nägemiseks kerima.)
 
 Ostukasti moodul on spetsiaalne konteiner, mida kasutatakse kõigi moodulite majutamiseks, mis on toote üksikasjade lehe ostukasti alal näidatud.
 
@@ -35,7 +40,7 @@ Toote üksikasjade lehe URL sisaldab toote ID-d. Kogu teave, mis on vajalik ostu
 
 Järgmisel pildil on näide ostukasti moodulist toote üksikasjade lehel.
 
-![Ostukasti mooduli näide.](./media/ecommerce-pdp-buybox.PNG)
+![Ostukasti mooduli näide](./media/ecommerce-pdp-buybox.PNG)
 
 ## <a name="buy-box-module-properties-and-slots"></a>Ostukasti mooduli atribuudid ja pesad 
 
@@ -67,16 +72,14 @@ Jaotises **Saidi sätted \> Laiendused** saab konfigureerida järgmisi ostukasti
 
 - **Ostukorvi rea koguse piirang** – selle atribuudi abil määratakse, mitu kaubaühikut võib maksimaalselt ostukorvi lisada. Näiteks võib jaemüüja otsustada, et ühe tehinguga saab müüa iga toodet ainult 10 tükki.
 - **Varud** – varude sätete rakendamise kohta lisateabe saamiseks vt teemat [Varude sätete rakendamine](inventory-settings.md).
-- **Toote lisamine ostukorvi** - lisateabe saamiseks selle kohta, kuidas rakendada **Toote lisamine ostukorvi** sätteid, vaata [Toote lisamine ostukorvi](add-cart-settings.md).
-
-## <a name="buy-box-module-definition-extensions-in-the-adventure-works-theme"></a>Ostke kastimooduli definitsiooni laiendid Adventure Worksi kujunduses
-
-Ostukasti moodul, mida Adventure Worksi teema pakub, on mooduli definitsiooni laiend, mis toetab tootespetsifikatsioonide mooduli rakendamist PDP ostukastis ühe definitsioonimooduli piires. PDP ostuboksis tootespetsifikatsiooni atribuutide näitamiseks lisage toote spetsifikatsioonimoodul teenindusmooduli pesasse ostuboksi pesas.
-
+- **Lisa toode ostukorvi** – selle atribuudi abil määratakse, mis juhtub pärast toote lisamist ostukorvi. Võimalikud väärtused on **Navigeeri ostukorvi lehele**, **Ära navigeeri ostukorvi lehele** ja **Kuva teatised**. Kui väärtuseks on seatud **Navigeeri ostukorvi lehele**, suunatakse kasutajad pärast kauba lisamist ostukorvi lehele. Kui väärtuseks on seatud **Ära navigeeri ostukorvi lehele**, ei suunata kasutajaid pärast toote lisamist ostukorvi lehele. Kui väärtuseks on seatud **Kuva teatised**, kuvatakse kasutajatele kinnitusteatis ja nad võivad jätkata toote üksikasjade lehe sirvimist. 
 
 > [!IMPORTANT]
-> Adventure Works teema on saadaval alates Dynamics 365 Commerce väljalaske versioonist 10.0.20.
+> **Lisa toode ostukorvi** saidi sätted on saadaval rakenduse Dynamics 365 Commerce väljalaskes 10.0.11. Kui värskendate rakenduse Dynamics 365 Commerce varasemast versioonist, peate faili appsettings.json käsitsi värskendama. Faili appsettings.json värskendamise juhised leiate teemast [SDK ja mooduliteegi värskendused](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file). 
 
+Järgmisel pildil on näide kinnitusteatisest „lisati ostukorvi” Fabrikami saidil.
+
+![Teatise mooduli näide](./media/ecommerce-addtocart-notifications.PNG)
 
 ## <a name="commerce-scale-unit-interaction"></a>Commerce Scale Unitiga suhtlemine
 
@@ -130,11 +133,6 @@ Uuele lehele ostukasti mooduli lisamiseks ja vajalike atribuutide seadistamiseks
 
 [Sotsiaalmeedias jagamise moodul](social-share-module.md)
 
-[Lisage toode ostukorvi sätted](add-cart-settings.md)
-
 [Varude saadavuse arvutamine jaemüügikanalite jaoks](calculated-inventory-retail-channels.md)
 
 [SDK ja mooduliteegi värskendused](e-commerce-extensibility/sdk-updates.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

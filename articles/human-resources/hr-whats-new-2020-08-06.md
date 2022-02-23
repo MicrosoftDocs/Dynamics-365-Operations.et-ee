@@ -1,54 +1,55 @@
 ---
 title: Mis on uut ja mida on muudetud rakenduses Dynamics 365 Human Resources (06. august 2020)?
 description: Selles teemas kirjeldatakse Microsoft Dynamics 365 Human Resourcesi 06. augusti 2020 uusi või muutunud funktsioone.
-author: andreabichsel
-ms.date: 08/06/2020
+author: darinkramer
+manager: AnnBe
+ms.date: 8/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: jaredha
+ms.author: dkrame
 ms.search.validFrom: 2020-08-06
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: dbcf854330b7c5ba6ca812a5aed384584c05ce8d
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
-ms.translationtype: MT
+ms.openlocfilehash: 94ec9b44e21715363116427839badacd14a3d6f8
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062182"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528421"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-august-06-2020"></a>Mis on uut ja mida on muudetud rakenduses Dynamics 365 Human Resources (06. august 2020)?
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Selles teemas kirjeldatakse Dynamics 365 Human Resourcesi uusi või muutunud funktsioone. Muudatused rakenduvad versioonile number 8.1.3444. Sulgudes olevad numbrid mõnedes pealkirjades viitavad LCS-i toenumbritele viitamise jaoks.
 
 ## <a name="platform-update-1001236-is-now-available"></a>Platvormivärskendus 10.0.12(36) on nüüd saadaval
 
-Lisateavet leiate teemast [Finance and Operationsi rakenduste versiooni 10.0.12 platvormi värskendused (august 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-10-0-12.md).
+Lisateavet leiate teemast [Finance and Operationsi rakenduste versiooni 10.0.12 platvormivärskendused (august 2020)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-update-10-0-12).
 
 ## <a name="data-management-framework-dmf-entities-for-benefits-management"></a>Andmehaldusraamistiku (DMF) üksused soodustuste haldamiseks
  
 Välja tulevad soodustuste haldamise üksused. DMF-üksused võimaldavad teil andmeid importida ja eksportida, et lihtsalt soodustuste haldamist konfigureerida. Soodustuste haldamise mall on saadaval andmete teisaldamiseks. Mall ekspordib ja impordib andmeid andmesõltuvuste arvestamiseks järjestikku. Lisateabe saamiseks vt:
 
-- [DMF-üksuse tugi](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/dmf-entity-support) Dynamics 365 2020. aasta väljalaskevoo 1 plaanis
-- [Andmehalduse ülevaade](../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md)
+- [DMF-üksuse tugi](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/dmf-entity-support) Dynamics 365 2020. aasta väljalaskevoo 1 plaanis
+- [Andmehalduse ülevaade](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities-data-packages)
 
 
 ## <a name="claire-creates-a-workflow-for-buying-and-selling-leave-requests-446557"></a>Claire loob töövoo puhkusetaotluste ostmiseks ja müümiseks (446557)
 
 Lisateabe saamiseks vt:
 
-- [Töötajatele puhkuse ostmise ja müümise lubamine](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/allow-employees-buy-sell-leave) Dynamics 365 2020. aasta väljalaskevoo 2 plaanis
-- [Puhkuse ostu ja müügi poliitikate haldamine](./hr-leave-and-absence-manage-buy-and-sell-leave-policies.md)
-- [Puhkuse ostmine ja müümine](./hr-employee-self-service-buy-sell-leave.md)
+- [Töötajatele puhkuse ostmise ja müümise lubamine](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/allow-employees-buy-sell-leave) Dynamics 365 2020. aasta väljalaskevoo 2 plaanis
+- [Puhkuse ostu ja müügi poliitikate haldamine](https://docs.microsoft.com/dynamics365/human-resources/hr-leave-and-absence-manage-buy-and-sell-leave-policies)
+- [Puhkuse ostmine ja müümine](https://docs.microsoft.com/dynamics365/human-resources/hr-employee-self-service-buy-sell-leave)
 
 
 ## <a name="worker-postal-addresses-v2-entity-has-access-across-legal-entities-with-restricted-access-459126"></a>Üksusel „Töötaja postiaadressid V2” on juurdepääs kõikidele piiratud juurdepääsuga juriidilistele isikutele (459126)
@@ -61,7 +62,7 @@ Kui kasutate arvustuse töövoos tulemuslikkuse arvustuse avamiseks kohatäidet,
 
 ## <a name="new-entities-for-buying-and-selling-leave-473180"></a>Uued üksused puhkuse ostmiseks ja müümiseks (473180)
 
-Puhkuse ostmiseks ja müümiseks on nüüd saadaval andmehaldusraamistiku üksused. Lisateavet leiate teemast [Andmehalduse ülevaade](../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md).
+Puhkuse ostmiseks ja müümiseks on nüüd saadaval andmehaldusraamistiku üksused. Lisateavet leiate teemast [Andmehalduse ülevaade](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities-data-packages).
 
 ## <a name="when-viewing-record-information-and-using-advanced-filters-a-user-could-gain-access-to-other-employees-records-472490"></a>Kirjeteabe vaatamisel ja täpsemate filtrite kasutamisel võib kasutaja pääseda juurde teiste töötajate kirjetele (472490)
 
@@ -95,9 +96,9 @@ Selle muudatusega põhineb ametikoha hierarhia ringviite tuvastamine ainult ühe
 
 Mõned organisatsioonid pakuvad soodustust, mis võimaldab töötajatel oma puhkust müüa või osta. Seda protsessi hallatakse sageli käsitsi. See funktsioon muudab personaliosakonna jaoks poliitikate ja taotluste haldamise automaatseks. See muudab puhkusehalduse protsessi sujuvamaks ja aitab kõrvaldada vigu. Lisateabe saamiseks vt:
 
-- [Töötajatele puhkuse ostmise ja müümise lubamine](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/allow-employees-buy-sell-leave) Dynamics 365 2020. aasta väljalaskevoo 2 plaanis
-- [Puhkuse ostu ja müügi poliitikate haldamine](./hr-leave-and-absence-manage-buy-and-sell-leave-policies.md)
-- [Puhkuse ostmine ja müümine](./hr-employee-self-service-buy-sell-leave.md)
+- [Töötajatele puhkuse ostmise ja müümise lubamine](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/allow-employees-buy-sell-leave) Dynamics 365 2020. aasta väljalaskevoo 2 plaanis
+- [Puhkuse ostu ja müügi poliitikate haldamine](https://docs.microsoft.com/dynamics365/human-resources/hr-leave-and-absence-manage-buy-and-sell-leave-policies)
+- [Puhkuse ostmine ja müümine](https://docs.microsoft.com/dynamics365/human-resources/hr-employee-self-service-buy-sell-leave)
 
 ## <a name="leave-accrual-for-a-single-company-or-single-plan"></a>Puhkuse lisandumine üksiku ettevõtte või plaani puhul
 
@@ -125,15 +126,15 @@ Saate luua reegli, et peatada selliste töötajate puhkuse lisandumine, kes on e
 
 Saate muuta väljasid kohustuslikuks Human Resourcesi isikupärastamise võimaluste abil. See funktsioon nõuab **Salvestatud vaateid**. Lisateavet salvestatud vaadete kohta leiate siit.
 
-- [Salvestatud vaated – üldine kättesaadavus](/dynamics365-release-plan/2020wave2/finance-operations/finance-operations-crossapp-capabilities/saved-views--general-availability) Dynamics 365 2020. aasta väljalaskevoo 2 plaanis
-- [Koostage vorme, mis täielikult kasutavad salvestatud vaateid](../fin-ops-core/dev-itpro/user-interface/understanding-saved-views.md)
+- [Salvestatud vaated – üldine kättesaadavus](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/finance-operations-crossapp-capabilities/saved-views--general-availability) Dynamics 365 2020. aasta väljalaskevoo 2 plaanis
+- [Koostage vorme, mis täielikult kasutavad salvestatud vaateid](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/user-interface/understanding-saved-views)
 
 ### <a name="human-resources-application-in-teams"></a>Rakendus Human Resources Teamsis
 
 Töötajad saavad kuvada ja taotleda töölt eemaoleku aega rakenduses Microsoft Teams. Nad saavad suhelda botiga, et luua puhkusetaotlusi. Lisateabe saamiseks vt:
 
-- [Töövõtja puhkuse ja puudumise kogemus rakenduses Microsoft Teams](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) Dynamics 365 2020. aasta väljalaskevoo 1 plaanis
-- [Rakendus Human Resources Teamsis](./hr-admin-teams-leave-app.md)
+- [Töövõtja puhkuse ja puudumise kogemus rakenduses Microsoft Teams](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) Dynamics 365 2020. aasta väljalaskevoo 1 plaanis
+- [Rakendus Human Resources Teamsis](https://go.microsoft.com/fwlink/?linkid=2127841)
 
 ### <a name="dmf-entity-available-for-accrual-suspensions"></a>DMF-üksus on saadaval lisandumise peatamiseks
 
@@ -141,9 +142,9 @@ Nüüdsest on lisandumise peatamiseks saadaval DMF-üksus.
 
 ## <a name="coming-soon"></a>Peagi tulekul
 
-## <a name="checklist-entities-included-in-dataverse"></a>Dataverse'is kaasatud kontroll-loendi üksused
+## <a name="checklist-entities-included-in-common-data-service"></a>Common Data Service'is kaasatud kontroll-loendi üksused
 
-Kontroll-loendi üksused Kasutuselevõtt, Kõrvaldamine, Ülekanded ja Äriprotsessid on peagi saadaval Dataverse'is.
+Kontroll-loendi üksused Kasutuselevõtt, Kõrvaldamine, Ülekanded ja Äriprotsessid on peagi saadaval Common Data Service'is.
 
 ## <a name="known-issues"></a>Teadaolevad probleemid
 
@@ -171,9 +172,6 @@ Tööruumis **Funktsioonihaldus** võidakse kuvada funktsioone, mis on eelvaatef
 ## <a name="see-also"></a>Vt ka
 
 [Mis on uut või mida on muudetud rakenduses Human Resources?](hr-admin-whats-new.md)</br>
-[Dynamics 365 Human Resourcesi 2019. aasta väljalaskevoo 2 ülevaade](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Dynamics 365 Human Resourcesi 2019. aasta väljalaskevoo 2 ülevaade](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Värskendamisprotsess](hr-admin-setup-update-process.md)</br>
 [Funktsioonide haldamine](hr-admin-manage-features.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

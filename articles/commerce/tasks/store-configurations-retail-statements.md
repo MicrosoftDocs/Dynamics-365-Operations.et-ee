@@ -2,24 +2,27 @@
 title: " Jaemüügi väljavõtete kauplusekonfiguratsioonid"
 description: See protseduur selgitab kaupluse konfiguratsioone, mis mõjutavad Commerce’i väljavõtete loomise ja sisestamise viisi.
 author: jashanno
+manager: AnnBe
 ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RetailStoreTable
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1bebe5d6732e6f8156e0271000a0b6caa24ba432491adc0370850109f19b7e4c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e255c58997ed1c0ad5614b15867f14714a8bcfc8
+ms.sourcegitcommit: 4c6d31f3ebd88212d3d1497a4bba9c64c5300444
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770929"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "4411827"
 ---
 # <a name="store-configurations-for-retail-statements"></a> Jaemüügi väljavõtete kauplusekonfiguratsioonid
 
@@ -46,6 +49,3 @@ See protseduur selgitab kaupluse konfiguratsioone, mis mõjutavad Commerce’i v
 17. Valige suvand Jah väljal **Poolitatud väjavõttemeetodi järgi**, kui soovite määratleda iga väljavõttemeetodi jaoks loodavaid väljavõtteid. Sellest tegevusest on abi, kui sisestusjõudlust tuleb suurte kandemahtudega kaupluste puhul suurendada, kuna see loob palju väiksemaid väljavõtteid, mida saab korraga töödelda.  
 18. Saate kiirkaardi **Üldine** väljal **Vaikeklient** valida kliendikonto, mida kasutada kohale tulevatele klientidele müümisel.  
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

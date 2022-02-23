@@ -1,26 +1,29 @@
 ---
 title: Kassa välisseadmete ja teenuste seisundikontroll
 description: Selles teemas antakse ülevaate kassa seisundikontrolli toimingust.
-author: BrianShook
+author: rubendel
+manager: AnnBe
 ms.date: 03/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Operations, Retail
 ms.custom: 141393
 ms.assetid: e23e944c-15de-459d-bcc5-ea03615ebf4c
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: brshoo
+ms.author: rubendel
 ms.search.validFrom: 2019-03-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: cd4e97b8dbfc4faf336d4ea927342fd4fa3cc7cd
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
-ms.translationtype: MT
+ms.openlocfilehash: 86f0964b6d929d0434a8bf04aaefc173bee21c6f
+ms.sourcegitcommit: d77e902b1ab436e5ff3e78c496f5a70ef38e737c
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779868"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "4411798"
 ---
 # <a name="health-check-for-pos-peripherals-and-services"></a>Kassa välisseadmete ja teenuste seisundikontroll
 
@@ -32,7 +35,7 @@ Selles teemas kirjeldatakse kassa seisundikontrolli toimingut.
 
 Kauplused võivad olla keerukad keskkonnad, kus on kasutusel mitmeid rakendusi ja seadmeid. Toimingute lisandumisel võib olla raske tagada, et need töötaksid alati vaevatult, näiteks välisseadmetest sõltumise tõttu, mis võivad päeva jooksul katki minna või juhuslikult vooluvõrgust välja tulla. Seadmete ja teenustega seotud probleemide tõrkeotsing võib olla kulukas suurematele kaupmeestele ja samamoodi ahastav väiksematele ettevõtetele.
 
-Rakenduse Microsoft Dynamics 365 Commerce versioon 10.0.10 ja hilisemad versioonid sisaldavad seisundikontrolli toimingut, mis aitavad ennetada sellega seonduvat kulu ja muret. See toiming võimaldab seadmete testimise viisi otse kassast tavapäraste toimingute kõrvalt. See võimaldab jaemüüjatel probleeme tuvastada enne nende ilmnemist.
+Microsoft Dynamics 365 Commerce'i versioon 10.0.10 ja hilisemad versioonid sisaldavad seisundikontrolli toimingut, mis aitavad ennetada sellega seonduvat kulu ja muret. See toiming võimaldab seadmete testimise viisi otse kassast tavapäraste toimingute kõrvalt. See võimaldab jaemüüjatel probleeme tuvastada enne nende ilmnemist.
 
 ## <a name="key-terms"></a>Põhimõisted
 
@@ -53,7 +56,7 @@ Vaikimisi testib seisundikontroll ainult neid seadmeid, mis on seadistatud riist
 |---|---|---|
 | Printer | OPOS | See kontroll testib põhiobjekti, linkides ja manustades kassafunktsioonidele (OPOS). Järgmisena on toodud mõned näited.<ul><li>Avamiseks **Ava** &gt; **ClaimDevice** &gt; **DeviceEnabled=True**</li><li>Sulgemiseks: **DeviceEnabled=False** &gt; **ReleaseDevice** &gt; **Sule**</li></ul> |
 | Rea kuva | OPOS | See kontroll testib peamisi OPOS-i funktsioone. Järgmisena on toodud mõned näited.<ul><li>Avamiseks **Ava** &gt; **ClaimDevice** &gt; **DeviceEnabled=True**</li><li>Sulgemiseks: **DeviceEnabled=False** &gt; **ReleaseDevice** &gt; **Sule**</li></ul> |
-| Topeltkuva | Windows | See kontroll tagab, et operatsioonisüsteem tuvastab teise Windowsi kuvari. | 
+| Topeltkuva | &Aknad... | See kontroll tagab, et operatsioonisüsteem tuvastab teise Windowsi kuvari. | 
 | Magnetribalugeja | OPOS | See kontroll testib peamisi OPOS-i funktsioone. Järgmisena on toodud mõned näited.<ul><li>Avamiseks **Ava** &gt; **ClaimDevice** &gt; **DeviceEnabled=True**</li><li>Sulgemiseks: **DeviceEnabled=False** &gt; **ReleaseDevice** &gt; **Sule**</li></ul> |
 | Koostaja | OPOS | See kontroll testib peamisi OPOS-i funktsioone. Järgmisena on toodud mõned näited.<ul><li>Avamiseks **Ava** &gt; **ClaimDevice** &gt; **DeviceEnabled=True**</li><li>Sulgemiseks: **DeviceEnabled=False** &gt; **ReleaseDevice** &gt; **Sule**</li></ul> | 
 | Skanner | OPOS | See kontroll testib peamisi OPOS-i funktsioone. Järgmisena on toodud mõned näited.<ul><li>Avamiseks **Ava** &gt; **ClaimDevice** &gt; **DeviceEnabled=True**</li><li>Sulgemiseks: **DeviceEnabled=False** &gt; **ReleaseDevice** &gt; **Sule**</li></ul> | 
@@ -80,6 +83,3 @@ Kohandatud seisundikontrolle saab luua ka nende seadmete testimiseks, mille jaok
 ## <a name="related-articles"></a>Seotud artiklid
 
 [Kaasaegse kassa (MPOS) päästikud ja printimine](dev-itpro/pos-trigger-printing.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

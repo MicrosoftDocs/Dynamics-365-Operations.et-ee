@@ -2,12 +2,15 @@
 title: Hinnangute ja arvustuste haldus
 description: Selles teemas selgitatakse, kuidas hallata rakenduse Microsoft Dynamics 365 Commerce saidiehitajas hinnanguid ja arvustusi.
 author: gvrmohanreddy
+manager: annbe
 ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -15,18 +18,20 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-01
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1aefa6eb93ef251778a48ba972d87e0cd5930bf0
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
-ms.translationtype: MT
+ms.openlocfilehash: 3fc88bc5a5868dce7c0539bf3f0ddc5b751e7b75
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968223"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4411696"
 ---
 # <a name="manage-ratings-and-reviews"></a>Hinnangute ja arvustuste haldus
 
 [!include [banner](includes/banner.md)]
 
 Selles teemas selgitatakse, kuidas hallata rakenduse Microsoft Dynamics 365 Commerce saidiehitajas hinnanguid ja arvustusi.
+
+## <a name="overview"></a>Ülevaade
 
 Dynamics 365 Commerce kasutab Microsoft Azure’i kognitiivset teenust, et automaatselt ebasündsaid sõnu redigeerides arvustuse teksti modereerida. Lisaks saavad moderaatorid kasutada rakenduse Dynamics 365 Commerce saidiehitajat järgmiste käsitsi tehtavate ülesannete tegemiseks.
 
@@ -43,7 +48,7 @@ Arvustuse lugemiseks rakenduse Commerce saidiehitajas toimige järgmiselt.
 
 Täiendavad filtrid võimaldavad teil piirata arvustusi perioodi, hinnangu, kanali või mure oleku järgi (eemaldatud, vastatud või teatatud).
 
-![Modereerimise avaleht.](media/rnr-moderation-home.png) 
+![Modereerimise avaleht](media/rnr-moderation-home.png) 
 
 ## <a name="respond-to-a-review"></a>Arvustusele vastamine 
 
@@ -57,7 +62,7 @@ Arvustusele vastamiseks rakenduse Commerce saidiehitajas toimige järgmiselt.
 1. Sisestage vastuse tekst ja nimi, mis tuleks vastajale näidata. Vastaja vaikenimi on **Moderaator.**
 1. Kui olete lõpetanud, valige **Sisesta vastus**.
 
-![Arvustusele vastamine.](media/rnr-moderation-response.png) 
+![Arvustusele vastamine](media/rnr-moderation-response.png) 
 
 ## <a name="take-down-a-review"></a>Arvustuse eemaldamine 
 
@@ -80,7 +85,7 @@ Kliendiandmete leidmiseks ja kustutamiseks rakenduse Commerce saidiehitajas toim
 1. Kui kliendil on mis tahes arvustuste tegevusi (nt esitatud arvustused, hääletused teiste klientide arvustuste kasulikkuse kohta või kommentaarid teiste klientide arvustuste kohta), kuvatakse tulemused. Iga üksuse jaoks on nupp **Kustuta**.
 1. Valige iga üksuse jaoks, mis tuleb kustutada, käsk **Kustuta**. Kui teilt küsitakse kinnitust, valige **Jah**. 
     
-![Kliendiandmete kustutamine.](media/rnr-moderation-delete-reviews.png) 
+![Kliendiandmete kustutamine](media/rnr-moderation-delete-reviews.png) 
 
 > [!NOTE]
 > - Andmete süsteemist täielikuks eemaldamiseks võib kuluda kuni seitse päeva. Moderaatorid peaksid kliente sellest viivitusest teavitama.
@@ -104,19 +109,19 @@ Arvustuste ja hinnangute suundumuste vaatamiseks rakenduse Commerce saidiehitaja
 1. Avage **Avaleht \> Arvustused \> Aruandlus**.
 1. Malli allalaadimiseks valige suvand **PowerBI mall**.
 
-    ![Laadige alla Power BI mall.](media/rnr-moderation-reports.png) 
+    ![Laadige alla Power BI mall](media/rnr-moderation-reports.png) 
 
 1. Avage allalaaditud mall Power BI rakendust kasutades. Sulgege ilmuv dialoogiaken **Juurdepääs veebisisule** ja seejärel sulgege kuvatav tõrketeade „Värskenda”.
 1. Avage suvand **Avaleht**, valige **Päringute redigeerimine** ja valige seejärel **Andmeallika sätted**.
 1. Valige dialoogiaknas **Andmeallika sätted** suvand **Muuda allikat**.
 1. Sisestage väljale **URL** eelmises protseduuris allalaaditud arvustuste andmete tee (nt **c:\\arvustused\\ArvustusteAndmed.CSV**).
 
-    ![URL-i väli komaeraldusega väärtuste dialoogiaknas.](media/rnr-powerbi-datasource-settings.png) 
+    ![URL-i väli komaeraldusega väärtuste dialoogiaknas](media/rnr-powerbi-datasource-settings.png) 
 
 1. Valige **OK** ja seejärel valige käsk **Rakenda muutused**. Andmeallikale muudatuste rakendamiseks kulub üks kuni kaks minutit.
 1. Hinnangute ja arvustuste suundumuste vaatamiseks valige suvand **Suundumuste leht**.
 
-    ![Hinnangute ja arvustuste suundumused.](media/rnr-powerbi-dashboard-template.png) 
+    ![Hinnangute ja arvustuste suundumused](media/rnr-powerbi-dashboard-template.png) 
     
 ## <a name="additional-resources"></a>Lisaressursid
 
@@ -127,14 +132,3 @@ Arvustuste ja hinnangute suundumuste vaatamiseks rakenduse Commerce saidiehitaja
 [Hinnangute ja arvustuste konfigureerimine](configure-ratings-reviews.md)
 
 [Toote hinnangute sünkroonimine rakenduses Dynamics 365 Retail](sync-product-ratings.md)
-
-[Lubage hinnangute ja ülevaadete käsitsi avaldamine moderaatori poolt](manual-publish-rating-reviews.md)
-
-[Hinnangute ja kommentaaride importimine ja eksportimine](import-export-reviews.md)
-
-[Teenusepõhise autentimise konfigureerimine](service-to-service-auth.md)
-
-[Hinnangud ja arvustused KKK](ratings-reviews-faq.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

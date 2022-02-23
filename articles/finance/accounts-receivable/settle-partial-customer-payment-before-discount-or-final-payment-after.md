@@ -1,28 +1,31 @@
 ---
-title: Osalise makse tasakaalustamine enne allahindluse kuupäeva koos lõpliku maksega pärast allahindluse kuupäeva
+title: Kliendi osalise makse tasakaalustamine enne allahindluse kuupäeva koos lõpliku maksega pärast allahindluse kuupäeva
 description: See artikkel käsitleb klientidele esitatavate arvete ja maksete tasakaalustamise mõju. Stsenaarium keskendub mõjule alammoodulis, mitte pearaamatus.
 author: ShivamPandey-msft
+manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 14584
 ms.assetid: e54936f5-053b-4ed3-b778-42c7e9aeb7cf
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 10ba8d59855b60b3d05b4c6b44c98905e10487ecdcf7bc459acca73c12bc72d1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a71d0931445f3501f1b74f26c5eef583ab598b3c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740166"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4442263"
 ---
-# <a name="settle-partial-payment-before-discount-date-with-final-payment-after-discount-date"></a>Osalise makse tasakaalustamine enne allahindluse kuupäeva koos lõpliku maksega pärast allahindluse kuupäeva
+# <a name="settle-a-partial-customer-payment-before-the-discount-date-with-a-final-payment-after-the-discount-date"></a>Kliendi osalise makse tasakaalustamine enne allahindluse kuupäeva koos lõpliku maksega pärast allahindluse kuupäeva
 
 [!include [banner](../includes/banner.md)]
 
@@ -46,10 +49,10 @@ Fabrikam müüb kaupu kliendile 4027. Fabrikam pakub skontot 1%, kui arve tasuta
 
 Teave märgitud arve allahindluse kohta kuvatakse lehe **Avatud kannete tasakaalustamine** allosas. Kui te ei muuda suvandi **Tasakaalustatav summa** väärtuseks 297,00, erinevad suvandi **Skonto summa** kuvatavad väärtused. Siiski arvestatakse makse sisestamisel skontona 3,00, kuna tasakaalustamine korrigeerib suvandi **Tasakaalustatav summa väärtust** automaatselt teie eest.
 
-| Field                        | Väärtus     |
+|                              |           |
 |------------------------------|-----------|
 | Skonto kuupäev           | 09.07.2015 |
-| Skonto summa         | 10.00     |
+| Skonto summa         | 10,00     |
 | Kasuta skontot            | Tavaline    |
 | Võetud skonto          | 0,00      |
 | Skonto summa võtmiseks | 3,00      |
@@ -71,7 +74,7 @@ Arnie sisestab selle makse. Arve saldo on nüüd 700.00. Kliendile on näha jär
 
 Teave märgitud arve allahindluse kohta kuvatakse lehe **Avatud kannete tasakaalustamine** allosas.
 
-| Field                        | Väärtus     |
+|                              |           |
 |------------------------------|-----------|
 | Skonto kuupäev           | 09.07.2015 |
 | Skonto summa         | 0,00      |
@@ -87,15 +90,15 @@ Kui Arnie muudab välja **Kasuta skontot** sätteks **Alati**, tühistatakse sä
 
 Teave märgitud arve allahindluse kohta kuvatakse lehe **Avatud kannete tasakaalustamine** allosas.
 
-| Field                        | Väärtus     |
+|                              |           |
 |------------------------------|-----------|
 | Skonto kuupäev           | 09.07.2015 |
-| Skonto summa         | 7.00      |
+| Skonto summa         | 7,00      |
 | Kasuta skontot            | Alati    |
 | Võetud skonto          | 3,00      |
 | Skonto summa võtmiseks | 7,00      |
 
-Arnie muudab välja **Kasuta sularahakontot** väärtuseks uuesti **Tavaline**, kuna Arnie ei lase sellel kliendil kasutada järelejäänud sularahakontot summas 7.00. Seejärel sisestab Arnie makse. Kui Arnie avab **Kliendi kanded** lehe, näeb ta, et arve saldo on 0.00. On kaks makset. Üks makse on summas 297,00 skontoga 3,00 skonto ja teine makse summas 700,00.
+Arnie muudab välja **Kasuta skontot** väärtuseks uuesti **Tavaline**, kuna ta ei lase sellel kliendil kasutada järelejäänud skontot summas 7,00. Seejärel sisestab Arnie makse. Kui Arnie avab lehe **Kliendi kanded**, näeb ta, et arve saldo on 0,00. Samuti näeb ta kaht makset. Üks makse on summas 297,00 skontoga 3,00 skonto ja teine makse summas 700,00.
 
 | Kanne    | Kande tüüp | Kuupäev      | Arve | Deebeti summa kande valuutas | Kreediti summa kande valuutas | Saldo | Valuuta |
 |------------|------------------|-----------|---------|--------------------------------------|---------------------------------------|---------|----------|
@@ -108,6 +111,3 @@ Arnie muudab välja **Kasuta sularahakontot** väärtuseks uuesti **Tavaline**, 
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

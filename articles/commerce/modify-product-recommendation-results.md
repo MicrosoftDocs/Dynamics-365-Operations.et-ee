@@ -2,13 +2,16 @@
 title: AI-ML-põhiste tootesoovituse tulemuste kohandamine
 description: Selles teemas selgitatakse, kuidas kohandada tehisintellekti masinõppel (AI-ML) põhinevaid tootesoovituse tulemusi teie ettevõttele.
 author: bebeale
+manager: AnnBe
 ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5374b2ce559134bd26036b06ac6d96a9f5510ab847544707fc9885506aaab547
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bc6a793061a3e644599f0882ff163f5f57b2162d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748518"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4411759"
 ---
 # <a name="adjust-ai-ml-based-product-recommendation-results"></a>AI-ML-põhiste tootesoovituse tulemuste kohandamine
 
@@ -51,7 +54,7 @@ Sõltuvalt teie ettevõttest, võib loend Enim müüdud anda populaarsete toodet
 
 Enim müüdud toodete loendis on võimalik muuta ühte parameetrit.
 
-![Enim müüdud loendi vaikeparameetri näide.](./media/examplebestsellingparameters.PNG)
+![Enim müüdud loendi vaikeparameetri näide](./media/examplebestsellingparameters.PNG)
 
 1. **Kaasa viimase X päeva müügid** – müügitehinguid, mis on toimunud konkreetne arv päevi enne praegust kuupäeva, saab kasutada toodete tellimiseks. Ülaltoodud vaikeväärtus näitab, et kõiki viimase 30 päeva jooksul sooritatud toote ostusid kasutatakse toote asukoha määratlemiseks enim müüdud toodete loendis. 
 
@@ -65,13 +68,13 @@ Enim müüdud toodete loendis on võimalik muuta ühte parameetrit.
 1.  Toodete tabelisse lisamiseks valige suvand **Lisa rida.** 
 1.  Veerus Toode otsige toodet suvandi **Nimi** või **Tootenumber** järgi.
 
-    ![Näide toodete otsimisest uute toodete loendis.](./media/examplenewlistconfiguration1.png)
+    ![Näide toodete otsimisest uute toodete loendis](./media/examplenewlistconfiguration1.png)
 
 1.  Valige veerus Rea tüüp üks kahest suvandist.
     -   **Kaasa** – sunnib toote loendi ette
     -   **Välista** – tühistab toote loendis ilmumise
     
-    ![Näide toote uute toodete loendist kaasamisest või välistamisest.](./media/examplenewlistconfiguration2.png)
+    ![Näide toote kaasamisest või välistamisest uute toodete loendist](./media/examplenewlistconfiguration2.png)
 
 1.  Suvandi **Kuvamise järjekord** muutmine muudab järjestust, kuidas suvandiga **kaasa** tähistatud tooted loendisse ilmuvad.
     - Kui kahel tootel on sama **kuvamise järjestuse** väärtus, siis võib nende kahe tulemuse lõplik tellimus kontorist erineda.
@@ -86,12 +89,12 @@ Loendite Sageli koos ostetud või Inimestele meeldib ka kontekstis kasutatakse m
 
 Lähteväärtus toote tulemuste käsitsi lisamiseks või eemaldamiseks tehke järgmist.
 1.  Valige suvand **Lähteväärtuse toode**. 
-1.  Veerus **Toode** otsige toodet suvandite järgi **Nimi** või **Tootenumber.**
-![Näide toote otsimisest loendist Sageli koos ostetud.](./media/exampleFBTlistconfiguration1.png)
+1.  Veerus **Toode** otsige toodet suvandite **Nimi** või **Tootenumber** alusel.
+![Näide toote otsimisest loendist Sageli koos ostetud](./media/exampleFBTlistconfiguration1.png)
 1. Valige veerus **Rea tüüp** üks kahest suvandist.
     - **Kaasa** – sunnib toote loendi ette
     - **Välista** – tühistab toote loendis ilmumise     
-![Näide toote loendisse Sageli koos ostetud kaasamisest või sellest eemaldamisest.](./media/exampleFBTlistconfiguration2.png)
+![Näide toote loendisse Sageli koos ostetud kaasamisest või sellest eemaldamisest](./media/exampleFBTlistconfiguration2.png)
 1.  Toodete tabelist eemaldamiseks: valige eemaldatav rida ja klõpsake käsku Eemalda.
 
 
@@ -118,6 +121,3 @@ Lähteväärtus toote tulemuste käsitsi lisamiseks või eemaldamiseks tehke jä
 [Soovituste loomine demoandmetega](product-recommendations-demo-data.md)
 
 [Tootesoovituste KKK](faq-recommendations.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

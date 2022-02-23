@@ -1,30 +1,33 @@
 ---
 title: Põhikonto loomine
-description: Selles protseduuris kirjeldatakse põhikonto lisamist olemasolevale kontoplaanile.
+description: See ülesandejuhend kirjeldab olemasolevale kontoplaanile põhikonto lisamise etappe.
 author: aprilolson
+manager: AnnBe
 ms.date: 07/11/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: MainAccount, CompanyInfoList
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cbc93e2d2aec1ffcfa755c46553022931bc24c5b
-ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
+ms.openlocfilehash: a116164a31337013d34f963b549c394aade2de1c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "7394631"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4442269"
 ---
 # <a name="create-a-main-account"></a>Põhikonto loomine
 
 [!include [banner](../../includes/banner.md)]
 
-Selles protseduuris kirjeldatakse põhikonto lisamist olemasolevale kontoplaanile. Salvestamisel kasutatakse demoettevõtte USMF-i.  
+See ülesandejuhend kirjeldab olemasolevale kontoplaanile põhikonto lisamise etappe. Salvestamisel kasutatakse demoettevõtte USMF-i.  
 
 1. Avage **Navigeerimispaan > Moodulid > Pearaamat > Kontoplaan > Kontdd > Põhikontod**.
 2. Klõpsake valikut **Uus**.
@@ -49,6 +52,3 @@ Selles protseduuris kirjeldatakse põhikonto lisamist olemasolevale kontoplaanil
 21. Väljal **Valuutateisenduse tüüp** valige konto vahetuskursside arvutamise meetod.
 22. Sulgege leht.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,35 +1,33 @@
 ---
 title: Korduvate andmete ekspordi rakenduse loomine
-description: See artikkel näitab, kuidas luua Microsoft Azure loogikarakendus, mis ekspordib rakendusest Microsoft Dynamics 365 Human Resources korduva graafiku alusel andmeid.
-author: twheeloc
-ms.date: 08/19/2021
+description: See artikkel näitab, kuidas luua Microsoft Azure’i loogikarakendus, mis ekspordib rakendusest Microsoft Dynamics 365 Human Resources korduva graafiku alusel andmeid.
+author: andreabichsel
+manager: AnnBe
+ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 368eee6bb182f363f47467a5c5ad8208a57db7ec
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: edd4b999624a845fc145ed9ff348ae9cba782719
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069778"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4418194"
 ---
 # <a name="create-a-recurring-data-export-app"></a>Korduvate andmete ekspordi rakenduse loomine
 
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-See artikkel näitab, kuidas luua Microsoft Azure loogikarakendus, mis ekspordib rakendusest Microsoft Dynamics 365 Human Resources korduva graafiku alusel andmeid. Õpetus kasutab andmete eksportimiseks rakenduse Human Resources DMF-i paketi REST rakenduse programmeerimisliidest (API). Pärast andmete eksportimist salvestab loogikarakendus eksporditud andmed Microsoft OneDrive for Businessi kausta.
+See artikkel näitab, kuidas luua Microsoft Azure’i loogikarakendus, mis ekspordib rakendusest Microsoft Dynamics 365 Human Resources korduva graafiku alusel andmeid. Õpetus kasutab andmete eksportimiseks rakenduse Human Resources DMF-i paketi REST rakenduse programmeerimisliidest (API). Pärast andmete eksportimist salvestab loogikarakendus eksporditud andmed Microsoft OneDrive for Businessi kausta.
 
 ## <a name="business-scenario"></a>Äristsenaarium
 
@@ -45,12 +43,12 @@ See õpetus kasutab järgmisi tehnoloogiaid.
 - **[Dynamics 365 Human Resources](https://dynamics.microsoft.com/talent/overview/)**– eksporditavatele töötajatele mõeldud koondandmete allikas.
 - **[Azure Logic Apps](https://azure.microsoft.com/services/logic-apps/)** – tehnoloogia, mis võimaldab korduva eksportimise korraldamist ja planeerimist.
 
-    - **[Konnektorid](/azure/connectors/apis-list)** – tehnoloogia, mida kasutatakse loogikarakenduse ühendamiseks vajalike lõpp-punktidega.
+    - **[Konnektorid](https://docs.microsoft.com/azure/connectors/apis-list)** – tehnoloogia, mida kasutatakse loogikarakenduse ühendamiseks vajalike lõpp-punktidega.
 
-        - Konnektor [HTTP koos Azure AD-ga](/connectors/webcontents/)
-        - Konnektor [OneDrive for Business](/azure/connectors/connectors-create-api-onedriveforbusiness)
+        - Konnektor [HTTP koos Azure AD-ga](https://docs.microsoft.com/connectors/webcontents/)
+        - Konnektor [OneDrive for Business](https://docs.microsoft.com/azure/connectors/connectors-create-api-onedriveforbusiness)
 
-- **[DMF-i pakett REST API](../fin-ops-core/dev-itpro/data-entities/data-management-api.md)** – tehnoloogia, mida kasutatakse eksportimise käivitamiseks ja selle edenemise jälgimiseks.
+- **[DMF-i pakett REST API](../dev-itpro/data-entities/data-management-api.md)** – tehnoloogia, mida kasutatakse eksportimise käivitamiseks ja selle edenemise jälgimiseks.
 - **[OneDrive for Business](https://onedrive.live.com/about/business/)** – eksporditud töötajate sihtkoht.
 
 ## <a name="prerequisites"></a>Eeltingimused
@@ -66,13 +64,13 @@ Selle harjutuse lõpus on teil loogikarakendus, mis on ühendatud teie inimressu
 
 Lõpetatud loogikarakendus sarnaneb järgmisele joonisele.
 
-![Loogikarakenduse ülevaade.](media/integration-logic-app-overview.png)
+![Loogikarakenduse ülevaade](media/integration-logic-app-overview.png)
 
 ### <a name="step-1-create-a-data-export-project-in-human-resources"></a>1. etapp: andmete eksportimise projekti loomine rakenduses Human Resources
 
 Looge rakenduses Human Resources andmete eksportimise projekt, mis ekspordib töötajaid. Pange sellele nimi **Töötajate eksportimine** ja veenduge, et suvand **Andmepaketi loomine** oleks seatud valikule **Jah**. Lisage projektile üks üksus (**Töötaja**) ja valige eksportimiseks vorming. (Selles õpetuses on kasutatud Microsoft Exceli vormingut.)
 
-![Töötajate eksportimise andmeprojekt.](media/integration-logic-app-export-workers-project.png)
+![Töötajate eksportimise andmeprojekt](media/integration-logic-app-export-workers-project.png)
 
 > [!IMPORTANT]
 > Jätke andmete eksportimise projekti nimi meelde. Seda on vaja, kui loote järgmises etapis loogikarakenduse.
@@ -83,14 +81,14 @@ Suur osa harjutusest hõlmab loogikarakenduse loomist.
 
 1. Looge Azure’i portaalis loogikarakendus.
 
-    ![Loogikarakenduse loomise leht.](media/integration-logic-app-creation-1.png)
+    ![Loogikarakenduse loomise leht](media/integration-logic-app-creation-1.png)
 
 2. Alustage Logic Apps Designeris tühja loogikarakendusega.
-3. Lisage [kordumise graafiku päästik](/azure/connectors/connectors-native-recurrence), et käivitada loogikarakendus iga 24 tunni järel (või vastavalt teie valitud graafikule).
+3. Lisage [kordumise graafiku päästik](https://docs.microsoft.com/azure/connectors/connectors-native-recurrence), et käivitada loogikarakendus iga 24 tunni järel (või vastavalt teie valitud graafikule).
 
-    ![Kordumise dialoogiaken.](media/integration-logic-app-recurrence-step.png)
+    ![Kordumise dialoogiaken](media/integration-logic-app-recurrence-step.png)
 
-4. Kutsuge DMF-i REST API [ExportToPackage](../fin-ops-core/dev-itpro/data-entities/data-management-api.md#exporttopackage), et ajastada teie andmepaketi eksportimine.
+4. Kutsuge DMF-i REST API [ExportToPackage](../dev-itpro/data-entities/data-management-api.md#exporttopackage), et ajastada teie andmepaketi eksportimine.
 
     1. Kasutage tegevust **HTTP-päringu kutsumine** konnektorist HTTP koos Azure AD-ga.
 
@@ -100,7 +98,7 @@ Suur osa harjutusest hõlmab loogikarakenduse loomist.
         > [!NOTE]
         > Teenus Human Resources ei paku veel konnektorit, mis näitab kõiki API-sid, millest DMF-i paketi REST API koosneb, näiteks **ExportToPackage**. Selle asemel peate kutsuma API-d, kasutades HTTPS-i toortaotlusi läbi konnektori HTTP koos Azure AD-ga. See konnektor kasutab autentimiseks ja autoriseerimiseks rakendusele Human Resources Azure Active Directoryt (Azure AD).
 
-        ![Konnektor HTTP koos Azure AD-ga.](media/integration-logic-app-http-aad-connector-step.png)
+        ![Konnektor HTTP koos Azure AD-ga](media/integration-logic-app-http-aad-connector-step.png)
 
     2. Logige oma inimressursside keskkonda läbi konnektori HTTP koos Azure AD-ga sisse.
     3. Seadistage HTTP **POST-i** taotlus kutsuma DMF-i REST API **ExportToPackage**.
@@ -119,28 +117,28 @@ Suur osa harjutusest hõlmab loogikarakenduse loomist.
             }
             ```
 
-        ![Tegevuse HTTP-päringu käivitamine.](media/integration-logic-app-export-to-package-step.png)
+        ![Tegevuse HTTP-päring käivitamine](media/integration-logic-app-export-to-package-step.png)
 
     > [!TIP]
     > Võite soovida iga sammu ümber nimetada, et see oleks tähendusrikkam kui vaikenimi **HTTP-päringu käivitamine**. Näiteks võite panna sellele etapile nimeks **ExportToPackage**.
 
-5. [Lähtestage muutuja](/azure/logic-apps/logic-apps-create-variables-store-values#initialize-variable) salvestama taotluse **ExportToPackage** käivitamisoleku.
+5. [Lähtestage muutuja](https://docs.microsoft.com/azure/logic-apps/logic-apps-create-variables-store-values#initialize-variable) salvestama taotluse **ExportToPackage** käivitamisoleku.
 
-    ![Muutuja tegevuse lähtestamine.](media/integration-logic-app-initialize-variable-step.png)
+    ![Muutuja tegevuse lähtestamine](media/integration-logic-app-initialize-variable-step.png)
 
 6. Oodake, kuni andmete ekspordi käivitamisolek on **Õnnestunud**.
 
-    1. Lisage [silmus Kuni](/azure/logic-apps/logic-apps-control-flow-loops#until-loop), mis kordub, kuni muutuja **ExecutionStatus** väärtus on **Õnnestunud**.
+    1. Lisage [silmus Kuni](https://docs.microsoft.com/azure/logic-apps/logic-apps-control-flow-loops#until-loop), mis kordub, kuni muutuja **ExecutionStatus** väärtus on **Õnnestunud**.
     2. Lisage tegevus **Viivitus**, mis ootab viis sekundit enne kui pollib eksportimise praegust käivitamisolekut.
 
-        ![Silmuse Kuni konteiner.](media/integration-logic-app-until-loop-step.png)
+        ![Silmuse Kuni konteiner](media/integration-logic-app-until-loop-step.png)
 
         > [!NOTE]
         > Määrake limiidi arvuks **15**, et oodata ekspordi lõpetamiseks maksimaalselt 75 sekundit (15 iteratsiooni × 5 sekundit). Kui teie eksportimisele kulub rohkem aega, reguleerige limiidi arvu vastavalt vajadusele.        
 
-    3. Lisage tegevus **Käivita HTTP-päring**, er kutsuda DMF-i REST API [GetExecutionSummaryStatus](../fin-ops-core/dev-itpro/data-entities/data-management-api.md#getexecutionsummarystatus) ja määrata muutuja **ExecutionStatus** vastuse **GetExecutionSummaryStatus** tulemusele.
+    3. Lisage tegevus **Käivita HTTP-päring**, er kutsuda DMF-i REST API [GetExecutionSummaryStatus](../dev-itpro/data-entities/data-management-api.md#getexecutionsummarystatus) ja määrata muutuja **ExecutionStatus** vastuse **GetExecutionSummaryStatus** tulemusele.
 
-        > See näide ei tee veakontrolli. API **GetExecutionSummaryStatus** võib tagastada ebaõnnestunud lõplikke olekuid (s.t muud olekud kui **Õnnestunud**). Lisateabe saamiseks vt [API-i dokumentatsiooni](../fin-ops-core/dev-itpro/data-entities/data-management-api.md#getexecutionsummarystatus).
+        > See näide ei tee veakontrolli. API **GetExecutionSummaryStatus** võib tagastada ebaõnnestunud lõplikke olekuid (s.t muud olekud kui **Õnnestunud**). Lisateabe saamiseks vt [API-i dokumentatsiooni](../dev-itpro/data-entities/data-management-api.md#getexecutionsummarystatus).
 
         - **Meetod:** POST
         - **Taotluse URL:** https://\<hostname\>/namespaces/\<namespace\_guid\>/data/DataManagementDefinitionGroups/Microsoft.Dynamics.DataEntities.GetExecutionSummaryStatus
@@ -149,26 +147,26 @@ Suur osa harjutusest hõlmab loogikarakenduse loomist.
             > [!NOTE]
             > Võimalik, et peate sisestama väärtuse **Taotluse keha** kas koodi vaates või kujundaja funktsioonide redaktoris.
 
-        ![Tegevuse HTTP-päring 2 käivitamine.](media/integration-logic-app-get-execution-status-step.png)
+        ![Tegevuse HTTP-päring 2 käivitamine](media/integration-logic-app-get-execution-status-step.png)
 
-        ![Muutuva tegevuse määramine.](media/integration-logic-app-set-variable-step.png)
+        ![Muutuva tegevuse määramine](media/integration-logic-app-set-variable-step.png)
 
         > [!IMPORTANT]
         > Tegevuse **Muutuja määramine** (**body('Invoke\_an\_HTTP\_request\_2')?['value']**) väärtus erineb keha **HTTP-päringu 2 käivitamine** väärtusest, isegi kui kujundaja näitab väärtuseid samamoodi.
 
 7. Hankige eksporditud paketi allalaadimise URL.
 
-    - Lisake tegevus **HTTP-päringu käivitamine** DMF-i REST API [GetExportedPackageUrl](../fin-ops-core/dev-itpro/data-entities/data-management-api.md#getexportedpackageurl) kutsumiseks.
+    - Lisake tegevus **HTTP-päringu käivitamine** DMF-i REST API [GetExportedPackageUrl](../dev-itpro/data-entities/data-management-api.md#getexportedpackageurl) kutsumiseks.
 
         - **Meetod:** POST
         - **Taotluse URL:** https://\<hostname\>/namespaces/\<namespace\_guid\>/data/DataManagementDefinitionGroups/Microsoft.Dynamics.DataEntities.GetExportedPackageUrl
         - **Taotluse keha:** {"executionId": body('GetExportedPackageURL')?['value']}
 
-        ![Tegevus GetExportedPackageURL.](media/integration-logic-app-get-exported-package-step.png)
+        ![Tegevus GetExportedPackageURL](media/integration-logic-app-get-exported-package-step.png)
 
 8. Laadige eksporditud pakett alla.
 
-    - Lisage HTTP taotlus **GET** (sisseehitatud [HTTP konnektori tegevus](/azure/connectors/connectors-native-http)), et laadida pakett alla URL-ilt, mis eelmises etapis tagastati.
+    - Lisage HTTP taotlus **GET** (sisseehitatud [HTTP konnektori tegevus](https://docs.microsoft.com/azure/connectors/connectors-native-http)), et laadida pakett alla URL-ilt, mis eelmises etapis tagastati.
 
         - **Meetod:** GET
         - **URI:** body('Invoke\_an\_HTTP\_request\_3').value
@@ -176,21 +174,21 @@ Suur osa harjutusest hõlmab loogikarakenduse loomist.
             > [!NOTE]
             > Võimalik, et peate sisestama väärtuse **URI** kas koodi vaates või kujundaja funktsioonide redaktoris.
 
-        ![HTTP GET tegevus.](media/integration-logic-app-download-file-step.png)
+        ![HTTP tegevus GET](media/integration-logic-app-download-file-step.png)
 
         > [!NOTE]
         > See taotlus ei nõua ühtegi täiendavat autentimist, kuna API **GetExportedPackageUrl** tagastatav URL sisaldab ühiskasutusega juurdepääsu allkirja luba, mis annab juurdepääsu faili allalaadimisele.
 
-9. Salvestage allalaaditud pakett, kasutades konnektorit [OneDrive for Business](/azure/connectors/connectors-create-api-onedriveforbusiness).
+9. Salvestage allalaaditud pakett, kasutades konnektorit [OneDrive for Business](https://docs.microsoft.com/azure/connectors/connectors-create-api-onedriveforbusiness).
 
-    - Lisage OneDrive for Businessi tegevus [Loo fail](/connectors/onedriveforbusinessconnector/#create-file).
+    - Lisage OneDrive for Businessi tegevus [Loo fail](https://docs.microsoft.com/connectors/onedriveforbusinessconnector/#create-file).
     - Ühendage vastavalt vajadusele oma OneDrive for Businessi konto.
 
         - **Kausta tee:** teie valitud kaust
         - **Failinimi:** worker\_package.zip
         - **Faili sisu:** keha eelmisest etapist (dünaamiline sisu)
 
-        ![Faili loomise tegevus.](media/integration-logic-app-create-file-step.png)
+        ![Faili loomise tegevus](media/integration-logic-app-create-file-step.png)
 
 ### <a name="step-3-test-the-logic-app"></a>3. etapp: loogikarakenduse testimine
 
@@ -200,13 +198,10 @@ Kui mõnes etapis esitatakse tõrge, valige kujundajas nurjunud etapp ja kontrol
 
 Järgmisel joonisel on näha, kuidas Logic Apps Designer välja näeb, kui kõik loogikarakenduse etapid töötavad edukalt.
 
-![Edukas loogikarakenduse käitamine.](media/integration-logic-app-successful-run.png)
+![Edukas loogikarakenduse töötamine](media/integration-logic-app-successful-run.png)
 
 ## <a name="summary"></a>Kokkuvõte
 
 Selles õpetuses saite teada, kuidas kasutada loogikarakendusi, et eksportida andmeid rakendusest Human Resources, ja salvestada eksporditud andmed OneDrive for Businessi kausta. Saate selle õpetuse etappe vastavalt vajadusele muuta, et need vastaksid teie ettevõtte vajadustele.
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

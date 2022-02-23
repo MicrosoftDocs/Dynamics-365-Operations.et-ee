@@ -1,10 +1,12 @@
 ---
 title: Varade laenud
 description: Selles teemas kirjeldatakse, kuidas registreerida laenuvarasid varahalduses.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 10/01/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetObjectLoanSend, EntAssetObjectLoanListPage, EntAssetObjectLoanReturn, EntAssetObjectLoanInfoPart
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 65809d9be39372412d5d6b419f7356fe2c9668a1a01ede32ef52cbd66753e6d7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 355e3d3e0e952db14a03810145528f9701804ca2
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752846"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5022328"
 ---
 # <a name="asset-loans"></a>Varade laenud
 
@@ -44,7 +46,7 @@ Kui teie ettevõte saab varasid remondi- või hooldustööde jaoks kas sisemiste
 
 Kõigi teistele asukohtadele või klientidele laenatud varade loendi vaatamiseks valige **Varahaldus**\>**Üldine**\>**Varalaen**\>**Kõik varalaenud**. Kui vara jaoks on valitud märkeruut **Lõpetatud**, on vara teie ettevõttele registreeritud kui tagastatud.
 
-![Hooldusnõuete haldamine.](media/06-manage-maintenance-requests.png)
+![Hooldusnõuete haldamine](media/06-manage-maintenance-requests.png)
 
 Lehel **Aktiivsed varalaenud** saate vaadata loendit kõigist laenuvaradest, mis pole veel teie ettevõttele tagastatud.
 
@@ -55,6 +57,3 @@ Lehel **Aktiivsed varalaenud** saate vaadata loendit kõigist laenuvaradest, mis
 3. Väljale **Tagastatud** sisestage kuupäev ja kellaaeg.
 4. Valige nupp **OK**.
 5. Värskendage loendilehte **Aktiivsed varalaenud** ja märkate, et varalaenu ei kuvata enam loendis.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

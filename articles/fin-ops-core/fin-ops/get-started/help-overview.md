@@ -1,50 +1,47 @@
 ---
-title: Spikrisüsteem (sisaldab videot)
-description: Selles teemas antakse ülevaade finance and Operationsi rakenduste spikrisüsteemist.
+title: Spikrisüsteem
+description: Selles teemas antakse ülevaade Finance and Operationsi rakenduste spikrisüsteemist.
 author: edupont04
-ms.date: 07/20/2021
-ms.topic: overview
+manager: AnnBe
+ms.date: 05/11/2020
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: SystemParameters
 audience: Application User, Developer, IT Pro
 ms.reviewer: tfehr
-ms.custom:
-- "16381"
-- intro-internal
+ms.custom: 16381
 ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
 ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dd34addc2ffa5e437691cb1e3e8b33246053ccc7
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: 2c84a5f346bae440fb7a0ec6b2c3b813a30e8edd
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070497"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4695135"
 ---
 # <a name="help-system"></a>Spikrisüsteem
 
 [!include [banner](../includes/banner.md)]
 
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
-
 Järgmiste rakenduste kasutajad saavad juurdepääsu kontekstitundlikule spikrile ja muule sellel spikrisüsteemil põhinevale sisule.
 
-- Dynamics 365 Commerce
+- Microsoft Dynamics 365 Commerce
 - Dynamics 365 Finance
 - Dynamics 365 Human Resources
 - Dynamics 365 Supply Chain Management
 
 Kõigis neis rakendustes pääsete tootepõhisele spikrile juurde paanilt **Spikker**.
 
-![Spikripaan.](./media/help-pane-ops-help.png)
+![Spikripaan](./media/help-pane-ops-help.png)
 
 ## <a name="help-on-docsmicrosoftcom"></a>Spikker saidil docs.microsoft.com
 
-Sait docs.microsoft.com ([docs.microsoft.com/dynamics365/](/dynamics365/)) on ülaltoodud rakenduste vaikimisi tootedokumentide allikas. See sait pakub järgmisi funktsioone.
+Sait docs.microsoft.com ([docs.microsoft.com/dynamics365/](https://docs.microsoft.com/dynamics365/)) on ülaltoodud rakenduste vaikimisi tootedokumentide allikas. See sait pakub järgmisi funktsioone.
 
 - **Juurdepääs kõige ajakohasemale sisule** – sait annab Microsoftile kiirema ja paindliku võimaluse tootedokumente luua, edastada ja uuendada. Seetõttu tagab see teile hõlpsat juurdepääsu uusimale tehnilisele teabele.
 - **Asjatundjate kirjutatud sisu** – saidi sisu saavad täiendada kogukonna liikmed nii Microsofti siseselt kui ka väljastpoolt.
@@ -53,20 +50,9 @@ Sisu leiate saidilt docs.microsoft.com mis tahes otsingumootori abil. Soovitame 
 
 ## <a name="get-notified-about-changes-through-an-rss-feed"></a>Muudatuste kohta teatiste saamine RSS-kanali kaudu
 
-Kõigi finance and Operationsi rakendustes docs.microsoft.com sisule tehtud RSS-voo tellimiseks kasutage järgmist linki.
+RSS-kanali (Really Simple Syndication) tellimiseks kõigi docs.microsoft.com sisu värskenduste jaoks, kasutage järgmist linki.
 
-[RSS-kanal](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-finops%27)&locale=en-us)
-
-> [!NOTE]
-> RSS-kanal tagastab hiljuti uuendatud 100 teema loendi. Loend ei sordita kuupäeva järgi.  
-
-Teise võimalusena saate tellida RSS-voo rakenduse järgi:
-
-- [Commerce](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-commerce%27)&locale=en-us)  
-- [Finance](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-finance%27)&locale=en-us)  
-- [Human Resources](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-hr%27)&locale=en-us)  
-- [Tarneahel](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-supplychain%27)&locale=en-us)  
-- [Talent](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-talent%27)&locale=en-us)  
+[RSS-kanal](https://docs.microsoft.com/api/search/rss?locale=en-us&$filter=scopes%2Fany(t%3A%20t%20eq%20%27Unified%20Operations%27))
 
 ### <a name="leave-us-feedback"></a>Tagasiside andmine
 
@@ -76,7 +62,7 @@ Kui teil on küsimusi konkreetse teema kohta, lisage kommentaar lehe alaosas.
 
 2. Alustage kommentaaride sisestamist ja valige seejärel **Tagasiside edastamine**.
 
-    ![Sisesta kommentaar.](./media/feedback.png)
+    ![Sisesta kommentaar](./media/feedback.png)
 
 > [!NOTE]
 > Kui soovite edastada dokumentatsiooni tagasisidet, peate sisse logima GitHubi kontoga. Lugege lisateavet teemast [GitHubi profiili häälestamine ja haldamine](https://help.github.com/github/setting-up-and-managing-your-github-profile).
@@ -89,7 +75,7 @@ Saate anda oma panuse dokumentidesse ja neid redigeerida. Alustamiseks valige te
 
 Video [Kuidas panustada Microsoft Dynamics 365 dokumenti](https://youtu.be/m5djioozRbg) (vt eespool) on vaadatav Microsoft Dynamics 365 kanalist YouTube'is.
 
-Lugege lisateavet teemast [Dokumentide kaasautori juhend](/contribute), mille avaldajaks on saidi docs.microsoft.com loonud meeskond.
+Lugege lisateavet teemast [Dokumentide kaasautori juhend](https://docs.microsoft.com/contribute), mille avaldajaks on saidi docs.microsoft.com loonud meeskond.
 
 > [!NOTE]
 > Praegu aktsepteerime panuseid ainult ingliskeelsesse sisusse.
@@ -100,11 +86,11 @@ Tegevuse juhis on juhendatud, interaktiivne kogemus, mis juhib teid läbi tegevu
 
 Microsoft väljastas 2017. aasta Dynamics 365 for Finance and Operationsi väljalaskega tegevuse juhiste teegid toote versioonidele. Selle teema jaotis [Spikripaanilt tegevuse juhistele juurde pääsemine](#accessing-task-guides-from-the-help-pane) kirjeldab, kuidas leida oma toote jaoks sobivaid tegevuse juhiseid.
 
-![Tegevuse juhise lugemisvaade.](./media/task-guide-ops.png)
+![Tegevuse juhise lugemisvaade](./media/task-guide-ops.png)
 
 Juhitud interaktiivse kogemusega alustamiseks valige paani **Spikker** alumises osas suvand **Käivita tegevuse juhis**. Must kursor näitab millest alustada. Järgige kasutajaliideses (UI) kuvatavaid juhiseid ja sisestage andmed näidatud viisil.
 
-![Tegevusjuhise etapijuhend.](./media/task-guide-step-1-ops.png)
+![Tegevusjuhise etapijuhend](./media/task-guide-step-1-ops.png)
 
 > [!IMPORTANT]
 > Tegevuse juhise käitamisel sisestatavad andmed on tõelised. Kui olete tootmiskeskkonnas, sisestatakse andmed hetkel kasutatavasse ettevõttesse.
@@ -117,7 +103,7 @@ Näiteks osadel väljadel on kirjeldused, mis aitavad kasutajatel blokeeringu t�
 
 Spikrisisule juurde pääsemiseks valige nupp **Spikker** (**?**) ja seejärel valige **Spikker**. Või vajutage klahvikombinatsiooni **Ctrl+Shift+?**. Mõlemal juhul kuvatakse paan **Spikker**. Paanil **Spikker** pääsete juurde kontseptuaalsetele teemadele või tegevuse juhistele, mis puudutavad hetkel avatud toote valdkonda.
 
-![Spikripaan.](./media/help-pane-ops-help.png)
+![Spikripaan](./media/help-pane-ops-help.png)
 
 ### <a name="accessing-help-topics-from-the-help-pane"></a>Spikri paanilt spikriteemadele juurdepääsemine
 
@@ -128,19 +114,19 @@ Paanilt **Spikker** pääsete juurde kliendile mõeldud teemadele. Kui avate esi
 
 ### <a name="accessing-task-guides-from-the-help-pane"></a>Spikri paanilt ülesande juhistele juurde pääsemine
 
-Enne, kui pääsete paanilt **Spikker** tegevuse juhistele juurde, peab süsteemiadministraator konfigureerima rakenduste Finance, Supply Chain Management ja Commerce lehel **Süsteemi parameetrid** mõned sätted. Lugege lisateavet teemast [Tegevuse juhiste lisamine](help-connect.md#adding-task-guides).
+Enne, kui pääsete paanilt **Spikker** tegevuse juhistele juurde, peab süsteemiadministraator konfigureerima rakenduste Finance, Supply Chain Managment ja Commerce lehel **Süsteemi parameetrid** mõned sätted. Lugege lisateavet teemast [Tegevuse juhiste lisamine](help-connect.md#adding-task-guides).
 
 <!-- > [!NOTE]
 > - In order to configure Help, you must be signed in with an account in the same tenant as the tenant in which the app is deployed.
 > - It is not possible to connect to an LCS library from an instance of the app running in a local virtual hard drive (VHD).
 
-![System Parameters form with Help settings.](./media/system-parameters_ops-1024x437.png)
+![System Parameters form with Help settings](./media/system-parameters_ops-1024x437.png)
 
 On the **System parameters** page, follow these steps:
 
 1. **Important:** The first time that you open the Help tab, you must connect to Lifecycle Services. Be sure to select the link in the middle of the form, wait for the connection, close the dialog box, and then select **OK** to get to the parameters form.
 
-    ![Connect to LCS.](./media/connect-to-lcs-crop-1024x365.png)
+    ![Connect to LCS](./media/connect-to-lcs-crop-1024x365.png)
 
 2. Select the Lifecycle Services project to connect to.
 3. Select BPM libraries (within the selected project) to retrieve task recordings from.
@@ -148,7 +134,7 @@ On the **System parameters** page, follow these steps:
 
 Kui süsteemiadministraator on need toimingud lõpule viinud, võite avada paani **Spikker** ja klõpsata vahekaarti **Tegevuse juhised**. Teile kuvatakse nüüd tegevuse juhiseid, mis rakenduvad lehele, millel parajasti olete. Kui ühtegi ülesande juhist ei leita, saate sisestada märksõnu otsingu kitsendamiseks. Pärast tegevuse juhise klõpsamist paanil **Spikker** kuvatakse paanil **Spikker** etapiviisilised juhised ja saate tegevuse juhise esitada.
 
-![Tegevuse juhise lugemisvaade.](./media/task-guide-ops.png)
+![Tegevuse juhise lugemisvaade](./media/task-guide-ops.png)
 
 ### <a name="where-are-the-translated-task-guides-for-microsoft-libraries"></a>Kus on Microsofti teekide tõlgitud tegevuse juhised?
 
@@ -171,14 +157,10 @@ Järgmises tabelis esitatakse meie veebilehed. Saitidel, millel on nime kõrval 
 | Sait | Kirjeldus |
 |------|-------------|
 | [Docs.microsoft.com](/dynamics365/) | See sait majutab või lingib kõiki Dynamics 365 tootedokumente. |
-| [Microsoft Learn](/learn/) | See Microsofti tasuta e-õppe sait. |
+| [Microsoft Learn](https://docs.microsoft.com/learn/) | See Microsofti tasuta e-õppe sait. |
 | [Microsoft DynamicsLifecycle Services (LCS)](https://lcs.dynamics.com/)\* | See sait pakub pilvepõhist koostöö tööruumi, mida partnerid ja kliendid saavad kasutada projektide haldamiseks alates müügieelsetest tegevustest kuni juurutamise ning toiminguteni. See on abiks kõigis juurutamise faasides. |
 | [Toe ajaveeb](https://aka.ms/AXSupportBlog) | See sait annab vihjeid ja näpunäiteid, mida sisestab tugiteenuse töörühm. |
 | [Docs.microsoft.com/previous versioonid](/previous-versions/dynamics/) | See sait majutab varasemate väljaannete sisu. |
 | [Dynamicsi kogukond](https://community.dynamics.com/) | See sait majutab ajaveebe, foorumeid ja videoid. |
 | [Microsoft.com/dynamics365](https://www.microsoft.com/dynamics365/home) | See sait pakub hinnanguid ja müügiteavet. |
-
-
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+| [CustomerSource](https://mbs.microsoft.com/customersource/)\* | See sait majutab koolitusmaterjale, allalaaditavaid aruandeid ja tehnilisi ülevaateid ning on peamine teenusplaani omanike tugisait. Mõndadele saidil olevatele ressurssidele juurde pääsemiseks võib olla nõutav hooldusplaan. |

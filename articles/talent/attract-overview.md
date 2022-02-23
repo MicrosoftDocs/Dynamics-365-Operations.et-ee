@@ -49,6 +49,3 @@ Kohe, kui kandidaadid on tööle lisatud, saavad nad meili rakenduse hankimise l
 
 ## <a name="analytic-reports"></a>Analüütilised aruanded
 Värbamistöörühmad saavad kasutada ühe töö põhimõõdikute vaatamist ühe töö kohta või koondmõõdikuid kõigi tööde kohta [Attracti analüütilistes aruannetes](analytic-reports.md). See funktsioon on praegu [eelvaates](access-preview-feature.md) klientidele, kellel on [Milline rakenduse Microsoft Dynamics 365 Talent – Attract versioon?](attract-comprehensive-hiring.md).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

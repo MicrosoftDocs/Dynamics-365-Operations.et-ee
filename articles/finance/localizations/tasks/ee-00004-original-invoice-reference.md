@@ -2,22 +2,25 @@
 title: Algse arve viide (Ida-Euroopa)
 description: See ülesanne näitab teile, kuidas luua parandusridu müügitellimuse kreeditarvele.
 author: sndray
+manager: AnnBe
 ms.date: 02/09/2016
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Operations
 ms.search.region: Estonia
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3834cb789c679e9fc589759dc68243c1887417bac61036c091cf86c63e33d8cd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f9af8b1cbd5ac8e03b3841b4afd2e71a5193b358
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740861"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4407866"
 ---
 # <a name="original-invoice-reference-eastern-europe"></a>Algse arve viide (Ida-Euroopa)
 
@@ -67,6 +70,3 @@ See ülesanne näitab teile, kuidas luua parandusridu müügitellimuse kreeditar
 19. Klõpsake nuppu OK.
 20. Klõpsake nuppu OK.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

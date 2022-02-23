@@ -141,6 +141,3 @@ Olemasoleva malli värskendamiseks toimige järgmiselt.
     9. Lehel **Vastendamise ülesanne** valige uus veerg allikaks, mis loob üksusele HIERARCHYTYPENAME veel ühe vastenduse.
 
         [![Vastendamine](./media/CDS-Mapping5.png)](./media/CDS-Mapping5.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

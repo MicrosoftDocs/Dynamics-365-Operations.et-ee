@@ -2,29 +2,34 @@
 title: Ülesannete halduse konfigureerimine
 description: Selles teemas kirjeldatakse, kuidas konfigureerida ülesannete halduse funktsioone rakenduses Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
+manager: annbe
 ms.date: 02/10/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 0ae0f3bd58db587d9024beceedd790cc3d3e4ee990a2f4c727dfda96b2f0785c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9a4775c2dba2b9aa8e671ab6c246000303b3a37e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730799"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4411739"
 ---
-# <a name="configure-task-management"></a>Ülesandehalduse konfigureerimine
+# <a name="configure-task-management"></a>Ülesannete halduse konfigureerimine
 
 [!include [banner](includes/banner.md)]
 
 Selles teemas kirjeldatakse, kuidas konfigureerida ülesannete halduse funktsioone rakenduses Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Ülevaade
 
 Enne kui rakenduse Dynamics 365 Commerce juhatajad ja töötajad saavad Commerce’is ülesande haldamise funktsioone kasutada, tuleb ülesannete haldus konfigureerida. Konfiguratsiooni etapid hõlmavad juhatajatele ja töötajatele lubade andmist, kassa klientidele lubade andmist, kassa teavituste seadistamist ja kassarakenduse avalehel paani **Ülesanded** konfigureerimist.
 
@@ -44,7 +49,7 @@ Poe juhatajate ülesannete halduse lubade konfigureerimiseks tehke järgmist.
 
 Järgmisel joonisel on näidatud, kuidas konfigureerida poe juhatajate ülesannete halduse lubasid.
 
-![Poe juhatajate ülesannete halduse lubade konfigureerimine.](media/HQ-POS-Tasks-Notifications-User-Permission.png)
+![Poe juhatajate ülesannete halduse lubade konfigureerimine](media/HQ-POS-Tasks-Notifications-User-Permission.png)
 
 ## <a name="configure-permissions-for-employees"></a>Töötajate lubade konfigureerimine
 
@@ -78,7 +83,7 @@ Kassa klientidele lubade jaotamiseks tehke järgmist.
 
 Järgmisel joonisel on kujutatud toiming **Ülesannete haldus** lehel **Kassa toimingud**.
 
-![Ülesannete halduse toiming kassa toimingute lehel.](media/HQ-POS-Tasks-Notifications.png)
+![Ülesannete halduse toiming kassa toimingute lehel](media/HQ-POS-Tasks-Notifications.png)
 
 Lisateavet kassa teatiste konfigureerimise kohta vt teemast [Kassa tellimuse teatiste kuvamine](notifications-pos.md).
 
@@ -95,17 +100,14 @@ Kassarakenduse avalehel paani **Ülesanded** konfigureerimiseks tehke järgmist.
 
 Järgmisel joonisel on näidatud paani **Ülesanded** näide kassa avalehel.
 
-![Ülesannete paan kassa avalehel.](media/POS-home-screen-tasks-button-image.png)
+![Ülesannete paan kassa avalehel](media/POS-home-screen-tasks-button-image.png)
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-[Ülesandehalduse ülevaade](task-mgmt-overview.md)
+[Ülesannete halduse ülevaade](task-mgmt-overview.md)
 
-[Tööülesannete loendite loomine ja ülesannete lisamine](task-mgmt-create-lists.md)
+[Ülesandeloendite loomine ja ülesannete lisamine](task-mgmt-create-lists.md)
 
 [Ülesandeloendite määramine poodidele või töötajatele](task-mgmt-assign-lists.md)
 
 [Ülesannete haldus kassas](task-mgmt-POS.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

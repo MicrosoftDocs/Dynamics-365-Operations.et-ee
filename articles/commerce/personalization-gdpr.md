@@ -2,13 +2,16 @@
 title: Isikupärastatud soovitustest loobumine
 description: See teema selgitab, kuidas saate lubada klientidel loobuda rakenduses Microsoft Dynamics 365 Commerce isikupärastatud soovituste saamisest.
 author: bebeale
+manager: AnnBe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,18 +19,20 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f634e39fe8ca7ffecfd1952933cb82e1bfe7d5a8eec28a61e1d78d21847f95f6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6a64b45e1326673dd84c3c705491c9c100cdd069
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772933"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4411646"
 ---
-# <a name="opt-out-of-personalized-recommendations"></a>Isikupärastatud tootesoovitustest loobumine
+# <a name="opt-out-of-personalized-recommendations"></a>Isikupärastatud soovitustest loobumine
 
 [!include [banner](includes/banner.md)]
 
 See teema selgitab, kuidas saate lubada klientidel loobuda rakenduses Microsoft Dynamics 365 Commerce isikupärastatud soovituste saamisest.
+
+## <a name="overview"></a>Ülevaade
 
 Konto loomise ajal seadistatakse uued kliendid automaatselt saama isikupärastatud soovitusi. Samas pakub rakendus Dynamics 365 Commerce jaemüüjatele erinevaid võimalusi nende soovituste saamisest loobumiseks ja oma isikuandmete töötlemise piiramiseks. Autenditud kasutajad, kes loobuvad isikupärastatud soovituste saamisest, lõpetavad kohe isikupärastatud loendite nägemise. Lisaks eemaldatakse kõik isikupärastamiseks kogutavad isikuandmed isikupärastatud soovituste mudelitest.
 
@@ -44,11 +49,11 @@ Commerce’i kontori kontohalduses saavad jaemüüjad loobuda kasutajate nimel.
 1. Otsige kontori avalehelt **kõiki kliente**.
 1. Otsige ja valige klient ning seejärel valige kiirkaart **Jaemüük**.
 
-    ![Jaemüügi kiirkaart.](./media/Disablepersonalizationpart1.png)
+    ![Jaemüügi kiirkaart](./media/Disablepersonalizationpart1.png)
 
 1. Jaotises **Privaatsus** seadke suvand **Keela isikupärastamine** väärtusele **Jah**.
 
-    ![Privaatsussätted.](./media/Disablepersonalizationpart2.png)
+    ![Privaatsussätted](./media/Disablepersonalizationpart2.png)
 
 1. Valige **Salvesta** ja sulgege leht.
 
@@ -99,6 +104,3 @@ Järgmine näide näitab, kuidas jaemüüja saab seda ülesannet täita.
 [Soovituste loomine demoandmetega](product-recommendations-demo-data.md)
 
 [Tootesoovituste KKK](faq-recommendations.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,28 +1,30 @@
 ---
-title: Kliendiportaali kasutajate loomine ja haldamine (sisaldab videot)
+title: Kliendiportaali kasutajate loomine ja haldamine
 description: Selles teemas selgitatakse, kuidas luua kliendiportaali kasutajakontosid ja seadistada neile lubasid.
-author: Henrikan
+author: dasani-madipalli
+manager: tfehr
 ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: henrikan
+ms.author: damadipa
 ms.search.validFrom: 2020-04-22
-ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 4615182e6c3341a376e8e55a1417480e3e3f5ea7
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
-ms.translationtype: MT
+ms.dyn365.ops.version: Release 10.0.13
+ms.openlocfilehash: e2001d5c0b17ecadf4cb42529d9beb4b3b81805a
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062486"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528289"
 ---
 # <a name="create-and-manage-customer-portal-users"></a>Kliendiportaali kasutajate loomine ja haldamine
 
-[!include [banner](../includes/banner.md)]
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Valmiskujul rakenduse puhul ei saa kasutajad ise kliendiportaali abil loodud veebisaitidesse registreerida. Sisselogimiseks ja veebisaidi kasutamiseks peab administraator kasutajatele kutse saatma. Microsoft on teadlikult blokeerinud kasutajate iseregistreerimise võimaluse.
 
@@ -33,38 +35,38 @@ Kasutajate iseregistreerumise korral luuakse neile automaatselt kontakti kirjed.
 ## <a name="video"></a>Video
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4ADkI]
 
-Kutsuge [kliente oma kliendiportaali](https://youtu.be/drGUYHX9QIQ) videot registreerima ja kasutama (näidatud eespool) on lisatud [finants- ja toimingute esitusloendisse](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW), mis on saadaval YouTube.
+Video [Klientide kutsumine registreeruma ja kliendiportaali kasutama](https://youtu.be/drGUYHX9QIQ) (kuvatud eespool) on kaasatud [Finance and Operationsi esitusloendisse](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW), mis on saadaval YouTube'is.
 
 ## <a name="prerequisite-setup"></a>Eeltingimuste seadistamine
 
-Power Appsi portaalides salvestatakse kontaktid Microsoft Dataverse’is tabelina üksuses **Kontaktid**. Seejärel sünkroonib topeltkirjutus need kirjed vajaduse järgi teenuses Microsoft Dynamics 365 Supply Chain Management.
+Power Appsi portaalides salvestatakse kontaktid Common Data Service'is kirjetena üksuses **Kontaktid**. Seejärel sünkroonib topeltkirjutus need kirjed vajaduse järgi teenuses Microsoft Dynamics 365 Supply Chain Management.
 
-![Süsteemi diagramm Customer portaali kontaktide jaoks.](media/customer-portal-contacts.png "Süsteemi diagramm kliendiportaali kontaktide jaoks")
+![Süsteemi diagramm kliendiportaali kontaktide jaoks](media/customer-portal-contacts.png "Süsteemi diagramm kliendiportaali kontaktide jaoks")
 
-Enne uute klientide kutsumist veenduge, et oleksite lubanud topeltkirjutuses tabeli **Kontakt** vastendamise.
+Enne uute klientide kutsumist veenduge, et oleksite lubanud topeltkirjutuses üksuse **Kontakt** vastendamise.
 
 ## <a name="the-invitation-process"></a>Kutseprotsess
 
-Olemasoleva kontakti kliendiportaali kutsumiseks järgige Power Appsi portaalide dokumentatsioonis toodud teemat [Oma portaalidesse kontaktide kutsumine](/powerapps/maker/portals/configure/invite-contacts).
+Olemasoleva kontakti kliendiportaali kutsumiseks järgige Power Appsi portaalide dokumentatsioonis toodud teemat [Oma portaalidesse kontaktide kutsumine](https://docs.microsoft.com/powerapps/maker/portals/configure/invite-contacts).
 
-Enne kliendi kliendiportaaliga liituma kutsumist veenduge, et kliendi [kontakti kirje](/powerapps/maker/portals/configure/configure-contacts) oleks saadaval ja seadistatud järgmisel moel.
+Enne kliendi kliendiportaaliga liituma kutsumist veenduge, et kliendi [kontakti kirje](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) oleks saadaval ja seadistatud järgmisel moel.
 
 1. Seadke välja **Ettevõte** väärtuseks juriidiline isik, kellele klient peab rakenduses Supply Chain Management kuuluma.
 2. Seadke välja **Kontonumber** väärtuseks kliendi kontonumber, mis teie arvates peab kliendil rakenduses Supply Chain Management olema.
 
 Pärast kontakti loomist peaksite nägema seda rakenduses Supply Chain Management.
 
-Lisateavet leiate teemast [Kontakti konfigureerimine portaalis kasutamiseks](/powerapps/maker/portals/configure/configure-contacts) Power Appsi portaalide dokumentatsioonis.
+Lisateavet leiate teemast [Kontakti konfigureerimine portaalis kasutamiseks](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) Power Appsi portaalide dokumentatsioonis.
 
-## <a name="out-of-box-web-roles-and-table-permissions"></a>Valmiskujul veebirollid ja tabeli load
+## <a name="out-of-box-web-roles-and-entity-permissions"></a>Valmiskujul veebirollid ja üksuse load
 
-Power Appsi portaalides määratletakse kasutajarollid [veebirollide](/powerapps/maker/portals/configure/create-web-roles) ja [tabeli lubade](/powerapps/maker/portals/configure/assign-entity-permissions) alusel. Mõned kliendiportaali rollid on määratletud valmiskujul. Te saate luua uusi rolle ja muuta või eemaldada olemasolevaid rolle.
+Power Appsi portaalides määratletakse kasutajarollid [veebirollide](https://docs.microsoft.com/powerapps/maker/portals/configure/create-web-roles) ja [üksuse lubade](https://docs.microsoft.com/powerapps/maker/portals/configure/assign-entity-permissions) alusel. Mõned kliendiportaali rollid on määratletud valmiskujul. Te saate luua uusi rolle ja muuta või eemaldada olemasolevaid rolle.
 
 ### <a name="out-of-box-web-roles"></a>Valmiskujul veebirollid
 
 Selles jaotises kirjeldatakse kliendiportaaliga kaasatulevaid veebirolle.
 
-Lisateavet valmiskujul kasutajarollide muutmise kohta vt teemadest [Portaalidele veebirollide loomine](/powerapps/maker/portals/configure/create-web-roles) ja [Portaalidele kirjepõhise turbe lisamine tabeli lubade abil](/powerapps/maker/portals/configure/assign-entity-permissions) Power Appsi portaalide dokumentatsioonis.
+Lisateavet valmiskujul kasutajarollide muutmise kohta vt teemadest [Portaalidele veebirollide loomine](https://docs.microsoft.com/powerapps/maker/portals/configure/create-web-roles) ja [Portaalidele kirjepõhise turbe lisamine üksuste lubade abil](https://docs.microsoft.com/powerapps/maker/portals/configure/assign-entity-permissions) Power Appsi portaalide dokumentatsioonis.
 
 #### <a name="administrator"></a>Administraator
 
@@ -94,6 +96,3 @@ Järgmises tabelis on näidatud, milliseid müügitellimusi iga veebirolli kasut
 
 > [!NOTE]
 > Kuigi nii Sam kui ka Jane on kliendi X jaoks töötavad kontaktid, näevad nad ainult iseenda esitatud tellimusi ja ei midagi muud. Kuigi Mayl on süsteemis tellimus, siis ei näe ta seda tellimust kliendiportaalis, kuna ta on volitamata kasutaja. (Lisaks peab ta olema esitanud tellimuse mõne muu kanali, mitte kliendiportaali kaudu.)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

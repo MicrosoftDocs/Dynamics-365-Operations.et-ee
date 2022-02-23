@@ -1,10 +1,12 @@
 ---
 title: Ennustused, töökäsud ja projektid
 description: Selles teemas kirjeldatakse ennustuste ja töökäsu integratsiooni projekti halduse ja varahalduse raamatupidamismooduliga.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 08/29/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderProjCostInfoPart
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 6b53dcf4e8796f808283b7bd5ea92b869ee0e59aac5359d74bcdc5de37ea7352
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f062b5463b54e9bcf32ed6f17263811c4bb24138
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770332"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021016"
 ---
 # <a name="forecasts-work-orders-and-projects"></a>Prognoosid, töökäsud ja projektid
 
@@ -58,13 +60,13 @@ Osa sellest teabest ei pruugi töökäsul leida. Seega otsitakse töökäsu üle
 
 Näiteks järgmisel joonisel on varatüübi **Veoki mootor** seadistamise viisi tõttu iga töökäsu töö, mis luuakse varatüübiga **Veoki mootor** projekti ID 000186 alamprojekt.
 
-![Joonis 1.](media/01-integration-to-pma.png)
+![Joonis 1](media/01-integration-to-pma.png)
 
 Projekti ID eesmärk töökäsu tööl ja sellega seotud tegevuse numbri eesmärk on jälgida töökäsu tööga seotud kulusid ja sellel valitud vara moodulis **Projektihaldus ja -arvestus**. (Projekti ID ja tegevuse numbri vaatamiseks **Varade haldus** > **Üldine** > **Töökäsud** > **Kõik töökäsud** ja valige töökäsk. Vahekaardil **Rea üksikasjad** kuvatakse väljal **Projekti ID** projekti ID ja väljal **Tegevuse number** kuvatakse tegevuse number.) Lisateavet varade haldamise kulukontrolli kohta vt [Kulude ja kuupäeva kontroll](../controlling-and-reporting/cost-and-date-control.md).
 
 Järgmisel joonisel on kujutatud graafiline ülevaade töökäsu projektidest ja sellega seotud projektitegevustest.
 
-![Joonis 2.](media/02-integration-to-pma.png)
+![Joonis 2](media/02-integration-to-pma.png)
 
 Kui töökäsus luuakse uus töö, luuakse selle jaoks automaatselt projekt. Töökäsu tööga seotud vara finantsdimensioonid edastatakse automaatselt töökäsu projekti.
 
@@ -86,18 +88,15 @@ Et tagada töökäsu tsükli olekute ja nendega seotud projekti etappide õiget 
 
 Järgmised joonised näitavad seoseid töökäsu projekti gruppide, seotud projektitüüpide, projekti etappide ja töökäsu tsükli olekute vahel.
 
-![Joonis 3.](media/03-integration-to-pma.png)
+![Joonis 3](media/03-integration-to-pma.png)
 
-![Joonis 4.](media/04-integration-to-pma.png)
+![Joonis 4](media/04-integration-to-pma.png)
 
-![Joonis 5.](media/05-integration-to-pma.png)
+![Joonis 5](media/05-integration-to-pma.png)
 
 Lisateavet töökäsu projektide seadistamise kohta vt [Töökäsu projektide seadistus](../setup-for-work-orders/work-order-project-setup.md). Lisateavet töökäsu elutsükli olekute loomise kohta vt [Töökäsu elutsükli olekud](../setup-for-work-orders/work-order-lifecycle-states.md).
 
 Järgmisel joonisel on kujutatud erinevate projektide graafiline ülevaade, mis on loodud moodulis **Varade haldus**, et võimaldada integreerimist mooduliga **Projektihaldus ja -arvestus**. See näitab ka tööprotsesse, millega projektid on seotud.
 
-![Joonis 6.](media/06-integration-to-pma.png)
+![Joonis 6](media/06-integration-to-pma.png)
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

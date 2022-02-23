@@ -2,23 +2,26 @@
 title: Viitvõlaskeemide loomine
 description: Selles teemas selgitatakse, kuidas luua viitvõlaskeeme.
 author: aprilolson
+manager: AnnBe
 ms.date: 07/19/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerAccrualTable
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8ab36250365fefe37329f87769f16f546ca7326654db42aa7acb61fb37604ce2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a83870c4cec4de2e51e90ff1889d4beff6c23f95
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779498"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4442443"
 ---
 # <a name="create-accrual-schemes"></a>Viitvõlaskeemide loomine
 
@@ -38,6 +41,3 @@ Selles teemas selgitatakse, kuidas luua viitvõlaskeeme. See ülesanne kasutab d
 10. Väljale **Juhtumite arv perioodide kaupa** sisestage arv.
 11. Väljal **Sisesta kanded** valige, millal kandeid peaks postitama, näiteks **Iga kuu**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

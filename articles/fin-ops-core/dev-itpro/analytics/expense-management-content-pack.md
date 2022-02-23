@@ -2,9 +2,11 @@
 title: Kulude halduse Power BI sisu
 description: Selles teemas kirjeldatakse, mida hõlmab kulude halduse Power BI sisupakett.
 author: panolte
+manager: AnnBe
 ms.date: 03/18/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: TrvExpenseWorkspace, ExpenseWorkspace
 audience: Application User, IT Pro
@@ -14,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kfend
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 178a65c44abd0c9c068d4da1f2684a60062da595247560de4cb81d97ab7b6521
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d580502a08c2c176a000616abc3513cc45bd58a6
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769894"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016448"
 ---
 # <a name="expense-management-power-bi-content"></a>Kulude halduse Power BI sisu
 
@@ -41,7 +43,7 @@ Versioonis 8.1 ja uuemates versioonides on koos kulude haldusega kasutamiseks sa
 Kõik summad on näidatud ettevõtte valuutas. Näidatakse kõikide ettevõtete andmeid, aga vajaduse korral saab lisada ettevõtte filtri. 
 
 ## <a name="accessing-the-power-bi-content"></a>Juurdepääs Power BI sisule
-Kulude administraatori Dashboard.pbix-i ja kulude isikliku Dashboard.pbix-i Power BI sisu leiate teenuste Microsoft Dynamics Lifecycle Services (LCS) ühiste vahendite teegist. Lisateavet sisu allalaadimise ja selle rakendamise kohta organisatsioonis vt jaotisest [Power BI sisu Microsoftilt ja teie partneritelt LCS-is](/archive/blogs/dynamicsaxbi/power-bi-content-from-microsoft-and-your-partners).
+Kulude administraatori Dashboard.pbix-i ja kulude isikliku Dashboard.pbix-i Power BI sisu leiate teenuste Microsoft Dynamics Lifecycle Services (LCS) ühiste vahendite teegist. Lisateavet sisu allalaadimise ja selle rakendamise kohta organisatsioonis vt jaotisest [Power BI sisu Microsoftilt ja teie partneritelt LCS-is](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/12/12/power-bi-content-from-microsoft-and-your-partners/).
 Sisu on saadaval kulude halduse tööruumis Power Bi manussisuna. Kulu omanik pääseb ligi enda isiklikele kuludele, kuid ainult ostureskontro ametnikel ja juhtidel on ligipääs administraatori sisule, et näha kõiki kasutaja kuluandmeid.
 
 ## <a name="refreshing-the-power-bi-content"></a>Power BI sisu värskendamine
@@ -91,6 +93,3 @@ Sisu hõlmab aruandelehtede komplekti. Iga leht koosneb mõõdikute komplektist,
 | Töövõtja statistika | Kuluaruanded kulutüübi järgi            |
 |                     | Isiklikud kulud                       |
 |                     | Kuluaruanded statistikagrupi järgi     |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

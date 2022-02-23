@@ -2,13 +2,16 @@
 title: Kulujuhtimise tööruum
 description: Teema annab teavet kuluhalduse tööruumi kohta. See tööruum on keskne punkt, kus juhid, kes vastutavad kuluobjekti või kuluobjektide kogumi kontrollimise eest dimensioonis või dimensioonide lõikes, aruannetele juurde pääsevad.
 author: AndersGirke
+manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMCostControlWorkspaceConfiguration, CAMCostControlWorkspace, CAMCostControlWorkspaceConfigurationPerUser
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: db587f5526e0541fc81964d510000a42a671a9bd65224e7167b9d869475c3601
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c54afd0d94a56f6306a11e03448cc66c168390c2
+ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763186"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4442589"
 ---
 # <a name="cost-control-workspace"></a>Kulujuhtimise tööruum 
 
@@ -53,7 +56,7 @@ Kiirkaardil **Andmete filtreerimine** saate määratleda aruande alusandmed. Sel
 |-------------------------------------------------------------------|-------------|
 | Kuluarvestuse pearaamat                                            | **Kuluarvestuse pearaamat**, millel aruanne põhineb. Väärtus tuletatakse väljalt **Kulu juhtimisüksus**. |
 | Kulu juhtseade                                                 | Väärtus, mille valite, määrab kuluarvestuse pearaamatu ja kuluobjektid, millel see aruanne põhineb. |
-| Statistiline dimensioonihierarhia, kuluelemendi dimensioonihierarhia | **Kulujuhtimise** tööruumi konfiguratsioonikirje saab registreerida mitterahalisi või rahalisi väärtusi, kuid mitte samas paigutuses. Valige väärtus väljalt **Kuluelemendi dimensioonihierarhia** rahaliste väärtuste registreerimiseks. Valige väärtus väljalt **Statistiline dimensioonihierarhia** mitterahaliste väärtuste registreerimiseks. Valitud dimensioonihierarhia kirje määrab aruandluse ja liitmise taseme struktuuri.<blockquote>[!NOTE]<br>Mitterahaliste ja rahaliste väärtuste kõrvuti vaatamiseks võite eksportida Microsoft Power BI sisupaketi andmed Microsoft Excel`isse.</blockquote> |
+| Statistiline dimensioonihierarhia, kuluelemendi dimensioonihierarhia | **Kulujuhtimise** tööruumi konfiguratsioonikirje saab registreerida mitterahalisi või rahalisi väärtusi, kuid mitte samas paigutuses. Valige väärtus väljalt **Kuluelemendi dimensioonihierarhia** rahaliste väärtuste registreerimiseks. Valige väärtus väljalt **Statistiline dimensioonihierarhia** mitterahaliste väärtuste registreerimiseks. Valitud dimensioonihierarhia kirje määrab aruandluse ja liitmise taseme struktuuri.<blockquote>[!NOTE]<br>Mitterahaliste ja rahaliste väärtuste kõrvuti vaatamiseks võite eksportida Microsoft Power BI sisupaketi andmed Microsoft Excelisse.</blockquote> |
 | Kuluobjekti dimensioonihierarhia                                   | Valige määratletava aruandluse eesmärgiga sobiva kuluobjekti dimensiooni dimensioonihierarhia. |
 | Eelarve algne versioon                                           | Valige eelarveversiooni ID, mis toimib selle aruande kontekstis algse eelarvena. |
 | Eelarve parandatud versioon                                            | Valige eelarveversiooni ID, mis toimib selle aruande kontekstis parandatud eelarvena. |
@@ -116,7 +119,7 @@ Kiirkaardil **Eelarvestatud kulude jaoks kuvatavad veerud** määrab kuluarvesta
 
 Kasutajatele (nt juhtidele) kättesaadavate aruannete loendit juhitakse sättega valikus **Avaldatud** lehel **Kulujuhtimise tööruumi konfiguratsioonid**.
 
-![Aruanne, mida kasutajad kulujuhtimise tööruumis näevad.](./media/report-cost-control.png)
+![Aruanne, mida kasutajad kulujuhtimise tööruumis näevad](./media/report-cost-control.png)
 
 Juht saab valida kuvamiseks rahanduskalendri perioodi. Jooksva perioodi vaikeväärtuse määramiseks kasutatakse seansi kuupäeva.
 
@@ -136,11 +139,11 @@ Ruudustikus kuvatakse kuluelemendi dimensioonihierarhia sõlme ja selle väärtu
 
 Kaks diagrammi kuvavad kokkuvõtte tegelikest andmetest võrreldes eelarvega ja eelarve hälbe perioodide kaupa.
 
-![Diagrammid, mis kuvavad kokkuvõtte tegelikest andmetest võrreldes eelarvega ja eelarve hälbe perioodide kaupa.](./media/cost-element-details-operations.png)
+![Diagrammid, mis kuvavad kokkuvõtte tegelikest andmetest võrreldes eelarvega ja eelarve hälbe perioodide kaupa](./media/cost-element-details-operations.png)
 
 Kasutajad võivad klõpsata valikut **Kulukirjed** kirje andmetes vajalikul viisil süvitsi minekuks.
 
-![Kulukirjed.](./media/cost-entries.png)
+![Kulukirjed](./media/cost-entries.png)
 
 Näiteks rent on kulu, mis jagatakse kulukeskuste vahel. Kasutaja, kes soovib mõista oma kulukeskuse rendikulu, saab minna süvitsi, et näha, kuidas rent on arvutatud.
 
@@ -148,13 +151,10 @@ Kui kasutajad klõpsavad valikut **Eraldamisalus** lehel **Kulukirjed**, kuvatak
 
 Järgmises näites on eraldamisaluse tüüp **Valemi eraldamisalus** ja on kuvatud valem. Loetletud on valemit määratlevad tegurid. Lisaks on ruudustikus näha kuluobjekti kohta tehtav arvutus.
 
-![Arvutused kuluobjekti kohta.](./media/cost-entries-allocation-base.png)
+![Arvutused kuluobjekti kohta](./media/cost-entries-allocation-base.png)
 
 Lisaressursid 
 
 [Kuluobjekti kontrollijate pääsuõiguste määratlemine](access-rights-cost-object-controller.md)
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

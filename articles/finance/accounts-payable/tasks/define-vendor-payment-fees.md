@@ -2,23 +2,26 @@
 title: Hankija maksetasude määratlemine
 description: Hankija maksetasude seadistus.
 author: abruer
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendPaymFee, VendPaymModeFee, BankAccountTableLookUp
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f3a53124d021e35b05ce720c75924e136acdfadde8ddbad0d544d36662f45cb2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 404bd1e22caa8098f114a2dcc67dd420509cce2b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777310"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4442205"
 ---
 # <a name="define-vendor-payment-fees"></a>Hankija maksetasude määratlemine
 
@@ -56,6 +59,3 @@ Hankija maksetasude seadistus. See ülesanne kasutab demoettevõtte USMF andmeid
     * See on tasu valuutakood. Makse valuutat kasutatakse määratlemaks, millal tasu reeglit tuleks määrata makse valuuta põhjal. Näiteks võib teie pank nõuda tasu, kui makse on tehtud eurodes, kuid kõikidele muudele maksetele pole tasu määratud.  
 18. Klõpsake nuppu Salvesta.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

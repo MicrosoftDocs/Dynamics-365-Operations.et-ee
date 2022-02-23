@@ -86,6 +86,3 @@ Selle n채dala v채ljaandes on aadressi andmed n체체d uute andmete importimisel s�
 ### <a name="print-performance-reviews"></a>J천udluse 체levaadete printimine
 
 Vt [J천udluse 체levaadete printimine](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-talent/print-performance-reviews), rakenduse Dynamics 365 2019. aasta v채ljalaskevoo plaanis 2.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,24 +2,27 @@
 title: KM-aruande üksikasjad Eesti puhul
 description: See teema selgitab, kuidas seadistada käibemaksuaruannet Eestis asuvate juriidiliste isikute puhul.
 author: ShylaThompson
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxPeriod, TaxReportCollection, TaxReportVoucher
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.custom: 266904
 ms.search.region: Estonia
 ms.author: kfend
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 442309db43d6f154cccf48e49c3026ab57856f85e2c850613811c01364840e39
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bb3821216ea5d1f5c045e8ce3498d6b408476a64
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779356"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4407853"
 ---
 # <a name="vat-statement-details-for-estonia"></a>KM-aruande üksikasjad Eesti puhul
 
@@ -98,6 +101,3 @@ Seejärel määrake järgmised väljad.
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

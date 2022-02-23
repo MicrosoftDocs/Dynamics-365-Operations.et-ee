@@ -2,9 +2,11 @@
 title: Elektroonilises aruandluses loodavate suurte failide tihendamine
 description: Selles teemas selgitatakse, kuidas tihendada suuri dokumente, mis luuakse elektroonilise aruandluse (ER) vormingus.
 author: NickSelin
+manager: kfend
 ms.date: 09/11/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: EROperationDesigner, ERFormatDestinationTable
 audience: Application User, IT Pro
@@ -15,18 +17,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 7ef8f730f2e207a8fd28c2bf5167d14f57d6c607314bfc48d4358a59d3ef5c43
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 30de55f9e55911290750c148621fd3d4531686c2
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718595"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680850"
 ---
 # <a name="compress-large-documents-that-are-generated-in-electronic-reporting"></a>Elektroonilises aruandluses loodavate suurte failide tihendamine 
 
 [!include [banner](../includes/banner.md)]
 
-Saate kasutada [elektroonilise aruandluse (ER) raamistikku](general-electronic-reporting.md), et konfigureerida lahendus, mis toob kandeandmed väljamineva dokumendi loomiseks. See loodud dokument võib olla üsna suur. Seda tüüpi dokumendi loomisel kasutatakse selle hoidmiseks [rakendusobjekti serveri (AOS)](../dev-tools/access-instances.md#location-of-packages-source-code-and-other-aos-configurations) mälu. Mingil hetkel tuleb dokument seejärel rakendusest Microsoft Dynamics 365 Finance alla laadida. Praegu on ühe ER-is loodava dokumendi maksimaalne suurus 2 gigabaiti (GB). Lisaks on Finance'is praegu allalaaditud faili suuruse [piirang](https://fix.lcs.dynamics.com/Issue/Details?kb=4569432&bugId=453907&dbType=3) 1 GB. Seetõttu peate konfigureerima ER-i lahenduse, mis vähendab tõenäosust, et need piirangud ületatakse ja et teile näidatakse erandit **Voog oli liiga pikk** või **Ületäide või allakadu aritmeetikatehtes**.
+Saate kasutada [elektroonilise aruandluse (ER) raamistikku](general-electronic-reporting.md), et konfigureerida lahendus, mis toob kandeandmed väljamineva dokumendi loomiseks. See loodud dokument võib olla üsna suur. Seda tüüpi dokumendi loomisel kasutatakse selle hoidmiseks [rakendusobjekti serveri (AOS)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/dev-tools/access-instances#location-of-packages-source-code-and-other-aos-configurations) mälu. Mingil hetkel tuleb dokument seejärel rakendusest Microsoft Dynamics 365 Finance alla laadida. Praegu on ühe ER-is loodava dokumendi maksimaalne suurus 2 gigabaiti (GB). Lisaks on Finance'is praegu allalaaditud faili suuruse [piirang](https://fix.lcs.dynamics.com/Issue/Details?bugId=489291) 1 GB. Seetõttu peate konfigureerima ER-i lahenduse, mis vähendab tõenäosust, et need piirangud ületatakse ja et teile näidatakse erandit **Voog oli liiga pikk** või **Ületäide või allakadu aritmeetikatehtes**.
 
 Lahendust konfigureerides saate toimingute kujundajas ER-i vormingut kohandada, lisades juurelemendi, mille tüüp on **Kaust**, et tihendada sisu, mida selle pesastatud elemendid loovad. Tihendamine toimub „täpselt õigel ajal”, nii et maksimaalset kasutatavat mälumahtu ja allalaaditava faili suurust saab vähendada.
 
@@ -55,7 +57,7 @@ Enne selles teemas kirjeldatud toimingute tegemist peavad järgmised sammud lõp
 1. [Imporditud vormingu käivitamine](er-defer-xml-element.md#run-the-imported-format).
 2. Pange tähele, et XML-vormingus loodud dokumendi suurus on 3 kilobaiti (KB).
 
-    ![Tihendamata väljamineva dokumendi eelvaade.](./media/er-compress-outbound-files1.png)
+    ![Tihendamata väljamineva dokumendi eelvaade](./media/er-compress-outbound-files1.png)
 
 ### <a name="modify-the-format-to-compress-the-generated-output"></a>Vormingu muutmine loodud väljundi tihendamiseks
 
@@ -80,7 +82,7 @@ Enne selles teemas kirjeldatud toimingute tegemist peavad järgmised sammud lõp
     > [!NOTE] 
     > Selles ZIP-failis oleva XML-faili tihendusaste on 87 protsenti. Tihendusaste sõltub tihendatavatest andmetest.
 
-    ![Tihendatud väljamineva dokumendi eelvaade.](./media/er-compress-outbound-files2.png)
+    ![Tihendatud väljamineva dokumendi eelvaade](./media/er-compress-outbound-files2.png)
 
 > [!NOTE]
 > Kui ER-i [sihtkoht](electronic-reporting-destinations.md) on konfigureeritud vorminguelemendi jaoks, mis loob väljundi (selles näites element **Aruanne**), jäetakse väljundi tihendamine vahele.
@@ -92,6 +94,3 @@ Enne selles teemas kirjeldatud toimingute tegemist peavad järgmised sammud lõp
 [Elektroonilise aruandluse (ER) sihtkohad](electronic-reporting-destinations.md)
 
 [Elektroonilise aruandluse vormingus XML-elementide käivitamise edasilükkamine](er-defer-xml-element.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

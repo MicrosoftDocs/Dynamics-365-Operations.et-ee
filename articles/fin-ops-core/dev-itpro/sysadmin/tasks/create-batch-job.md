@@ -2,9 +2,11 @@
 title: Pakktöö loomine
 description: Pakett-töö on tööülesannete grupp, mis on edastatud rakendusobjekti serveri (AOS) eksemplarile automaatseks töötluseks.
 author: maertenm
-ms.date: 11/22/2021
+manager: AnnBe
+ms.date: 06/21/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BatchJob, SysRecurrence, BatchAlerts
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 76c6c68f7effad0c40282b22ea2a6bf991862cf5
-ms.sourcegitcommit: d7d997ad84623ad952672411c0eb6740972ae0b1
-ms.translationtype: MT
+ms.openlocfilehash: e4360cd7068658a170f5b44c2ce7c71c39c44fa8
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/24/2021
-ms.locfileid: "7864169"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679884"
 ---
 # <a name="create-a-batch-job"></a>Pakktöö loomine
 
@@ -29,53 +31,26 @@ Pakett-töö on tööülesannete grupp, mis on edastatud rakendusobjekti serveri
 
 ## <a name="create-the-batch-job"></a>Pakett-töö loomine
 1. Avage **Navigatsioonipaan > Moodulid > Süsteemihaldus > Päringud > Pakett-tööd**.
-2. Valige suvand **Uus**.
-3. Sisestage **väljale Töö kirjeldus** pakett-töö kirjeldus.
-4. Väljale **Plaanitud** alguskuupäev/-kellaaeg sisestage kuupäev ja kellaaeg, millal pakett-töö peaks käivituma.
-5. Valige käsk **Salvesta**.
+2. Klõpsake valikut **Uus**.
+3. Sisestage väärtus väljale **Töö kirjeldus**.
+4. Sisestage väljale **Plaanitud alguskuupäev/kellaaeg** kuupäev ja kellaaeg.
+5. Klõpsake valikut **Salvesta**.
 
 ## <a name="create-a-recurrence"></a>Korduvuse loomine
-1. Valige tegevuspaanil **pakett-töö**.
-2. Valige **kordumine**. Kasutage neid valikuid korduvuse vahemiku ja mustri sisestamiseks.  
-3. Valige nupp **OK**.
+1. Klõpsake tegumiribal valikut **Pakett-töö**.
+2. Klõpsake valikul **Korduvus**. Kasutage neid valikuid korduvuse vahemiku ja mustri sisestamiseks.  
+3. Klõpsake valikut **OK**.
 
 ## <a name="add-alerts"></a>Teatiste lisamine
-1. Valige tegevuspaanil **pakett-töö**.
-2. Valige **teatised**. Näidake, kas soovite, et teated saadetakse, kui pakett-töö lõpeb, kui selles on tõrge või kui see tühistatakse. Seejärel määrake, kas soovite, et teated kuvatakse hüpikteadetena.   
-3. Valige nupp **OK**.
-
-## <a name="add-a-task-to-a-batch-job"></a>Ülesande lisamine pakett-tööle
-1.  **Pakett-tööde lehel valige suvand Kuva** **ülesanded**.
-2.  Valige **Ctrl+N** ülesande loomiseks.
-3.  Sisestage pakett-töö kirjeldus.
-4.  Väljal **Ettevõtte** kontod valige ettevõtte andmebaas, kus ülesannet peaks käitama.
-5.  Valige **väljal Klassi** nimi protsess, mida ülesanne peaks käitama. 
-6.  Valige ülesandele sobiv partiigrupp.
-
-    Klienditoimingud peavad olema partiigrupile määratud. Need määratakse automaatselt vaikepartiigruppi (nimetatakse ka partiigrupiks Tühi).
-
-7.  Valige **Ctrl+S,** et tööülesanne salvestada.
-8.  Et teha valitud ülesanne sõltuvaks töö teisest ülesandest, valige Suvand On tingimuste ruudustik ja järgige seejärel neid samme iga tingimuse **puhul**, mida soovite määratleda:
-
-    1. Valige **ctrl+N** tingimuse loomiseks.
-    2. Valige emaülesande ülesande ID.
-    3. Valige olek, milleni emaülesanne peab jõudma, enne kui sõltuvat ülesannet saab käitada.
-    4. Valige **Ctrl+S,** et tingimus salvestada.
-
-    Kui määrate rohkem kui ühe tingimuse ja kui kõik tingimused peavad olema täidetud, enne kui sõltuvat ülesannet saab käitada, valige *tingimuse* tüüp **Kõik**. Kui sõltuvat ülesannet saab *käitada* pärast mis tahes tingimuste täitmist, valige tingimuse tüüp Mis **tahes**.
-
-9.  Valige, kuidas tuleks ülesande tõrkeid käsitseda. Konkreetse ülesande nurjumise ignoreerimiseks valige vahekaardil Üldine selle ülesande puhul suvand **Ignoreeri** toimingu **nurjumist**. Kui see suvand on valitud, ei põhjusta ülesande nurjumine töö nurjumist. Samuti saate kasutada välja Suurim uuestisaatmise katsed, et määrata, mitu korda tuleb ülesannet uuesti proovida, enne kui see loetakse **nurjutuks**. Hea tava on soovitatav mitte seada väljale Maksimaalne **uuestisisestud arv** väärtuseks, mis on rohkem kui **5**.
-
-    Lisateavet pakett-töö kordamise kohta vt [luba pakett-töö uuesti](../retryable-batch.md) käivitamine.
+1. Klõpsake tegumiribal valikut **Pakett-töö**.
+2. Klõpsake valikut **Teatised**. Näidake, kas soovite, et teated saadetakse, kui pakett-töö lõpeb, kui selles on tõrge või kui see tühistatakse. Seejärel määrake, kas soovite, et teated kuvatakse hüpikteadetena.   
+3. Klõpsake valikut **OK**.
 
 ## <a name="adjust-batch-job-status"></a>Pakett-töö oleku reguleerimine
 1. Avage **Süsteemihaldus > Päringud > Pakett-tööd**.
 2. Valige sobiv pakett-töö.
-3. Tegevuspaanil valige **pakett-töö, > funktsioonid > olekut** muuta.
+3. Klõpsake tegumiribal valikut **Pakett-töö > Funktsioonid > Muuda olekut**.
 4. Valige asjassepuutuv olek.
     - **Kinnipeetud**: seadke pakett-töö olekuks **kinnipeetud** nii, et see on pakett-töö toiminguajastist kinni peetud. Sama kui *peatus*.
     - **Ootel**: seadistage pakett-töö olekuks **ootel**, et see ootaks pakett-töö ajasti poolt üleskorjamist. Sama kui *mine*.
-5. Valige nupp **OK**.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+5. Klõpsake valikut **OK**.

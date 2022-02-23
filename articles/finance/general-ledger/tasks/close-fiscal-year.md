@@ -2,23 +2,26 @@
 title: Finantsaasta sulgemine
 description: See protseduur kirjeldab rahandusaasta sulgemise protsessi etappe, millega kantakse saldod uude finantsaastasse üle.
 author: aprilolson
+manager: AnnBe
 ms.date: 07/11/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerParameters, LedgerFiscalCloseGroup, LedgerFiscalCloseAddLedger, SysLookupMultiSelectGrid, LedgerFiscalCloseRunGroup
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e1ade9af06848b125fb6253ea1182f6098588150
-ms.sourcegitcommit: 88f8a0369ce66b82314db9639491b695e18a7e5c
-ms.translationtype: MT
+ms.openlocfilehash: 593ab5b45cc0c2e1a8b876aa89de014fd9df1a13
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902503"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4442445"
 ---
 # <a name="close-the-fiscal-year"></a>Finantsaasta sulgemine
 
@@ -36,7 +39,7 @@ See protseduur kirjeldab rahandusaasta sulgemise protsessi etappe, millega kanta
 
 4. Valige suvandi **Loo ülekande ajal sulgemiskanded** väärtuseks „Jah“ või „Ei“.
 
-    Kui väärtuseks on määratud Jah, luuakse kaks kannet. Suletav rahandusaasta kohta luuakse üks kanne, et viia kõigi pearaamatukontode saldod nulli ja järgmine finantsaasta luuakse algsaldode kohta teine kanne. Kui väärtuseks on määratud Ei, luuakse järgmises rahandusaastas algsaldode jaoks üks kanne.  
+    Kui väärtuseks on määratud Jah, luuakse kaks kannet. Üks kanne luuakse suletavas rahandusaastas, et viia tulu- ja kulukontode saldod nulli, ja teine kanne luuakse järgmises rahandusaastas algsaldode jaoks. Kui väärtuseks on määratud Ei, luuakse järgmises rahandusaastas algsaldode jaoks üks kanne.  
 
 5. Valige suvandi **Määra rahandusaasta olek püsivalt suletuks** väärtuseks „Jah“ või „Ei“.
 
@@ -80,6 +83,3 @@ See protseduur kirjeldab rahandusaasta sulgemise protsessi etappe, millega kanta
 23. Aastalõpu sulgemine käivitub vaikimisi partiina. Aeganõudvate protsesside puhul on mõistlik kasutada partiirežiimi. See on tavaliselt üks neist protsessidest, seetõttu on vaikesäte partiirežiimi kasutamine.  
 24. Klõpsake valikut **OK**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

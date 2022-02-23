@@ -89,6 +89,3 @@ Saate laadida üles pilti oma ettevõtte logost või muid andmeid oma meilide ko
     ![Oma ettevõtte privaatsuspoliitika ja kasutustingimuste linkide lisamine e-posti jalusele](./media/attract-admin-email-footer.png)
 
 4. Valige **Salvesta**, et salvestada e-kirja malli sätted.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

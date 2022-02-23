@@ -2,9 +2,11 @@
 title: Kliendi järeletulemise ajavahemike loomine ja värskendamine
 description: See teema kirjeldab kliendi järeletulemise ajavahemike loomist, konfigureerimist ja värskendamist Commerce Headquartersis.
 author: anupamar-ms
+manager: AnnBe
 ms.date: 01/05/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -14,12 +16,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-09-20
 ms.dyn365.ops.version: Retail 10.0.15 update
-ms.openlocfilehash: a9ee1356bfcaeee881c28cf0361b34b2c65acbc7a3b57347fa2581a8a935da42
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 125696e8f32c2452a572a2316f512779f399f5c4
+ms.sourcegitcommit: 8b4cb7b6ad4aab37566bcc91e426bd56db771416
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713417"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "4828207"
 ---
 # <a name="create-and-update-time-slots-for-customer-pickup"></a>Kliendi järeletulemise ajavahemike loomine ja värskendamine
 
@@ -30,11 +32,11 @@ See teema kirjeldab kliendi järeletulemise ajavahemike loomist, konfigureerimis
 Ajavahemiku funktsioon annab jaemüüjatele võimaluse määratleda ajavahemiku kaupadele, mille jaoks kliendi järeletulemisega tarneviis on sisse lülitatud. Ajavahemikud võimaldavad jaemüüjatel määratleda päevad ja kellaajad, kui tellimustele saab poodi järele tulla. Jaemüüjad saavad määratleda ka tellimuste arvu, millele saab kindla perioodi jooksul järele tulla. Sel viisil saavad jaemüüjad piirata selliste tellimuste arvu, millele saab kindlal päeval ja kindlal kellaajal järele tulla. Tulemuseks on kvaliteetsem klienditeenindus.
 
 > [!NOTE]
-> Ajavahemiku funktsioon on saadaval rakenduse Microsoft Dynamics 365 Commerce versioonis 10.0.15 ja uuemates versioonides.
+> Ajavahemiku funktsioon on saadaval Microsoft Dynamics 365 Commerce'i versioonis 10.0.15 ja uuemates versioonides.
 
 Järgmisel joonisel on näidatud ajavahemiku valiku näide e-kaubanduse kassas.
 
-![Ajavahemiku valiku näide e-commerce kassas.](../dev-itpro/media/Curbside_timeslot_eCommerce.PNG)
+![Ajavahemiku valiku näide e-kaubanduse kassas](../dev-itpro/media/Curbside_timeslot_eCommerce.PNG)
 
 ## <a name="time-slot-properties"></a>Ajavahemike atribuudid
 
@@ -60,7 +62,7 @@ Ajavahemik määratletakse järgmiste atribuutide abil.
 - **Aktiivsed päevad** – määrake nädalapäevad, kui järeletulemise ajavahemikud on aktiivsed. See atribuut võimaldab jaemüüjal määratleda päevad, mil ta soovib järeletulemisega tellimusi toetada.
 - **jaemüügikanalid** – saate määrata jaemüügikanalid. Iga ajavahemikku saab seostada ühe või mitme jaekauplusega. Sõltuvalt iga poe lahtiolekuajast saab luua ja kanaliga seostada vähemalt ühe ajavahemikukande. 
 
-<!-- ![HQ Timeslot overview.](../dev-itpro/media/Curbside_timeslot_Settings_overview.PNG) -->
+<!-- ![HQ Timeslot overview](../dev-itpro/media/Curbside_timeslot_Settings_overview.PNG) -->
 
 Kanali kohta saab konfigureerida ainult ühe ajavahemiku malli. Need kanalid hõlmavad tellis-ja mördi kauplusi, kõnekeskusi, mobiiliseadmeid ja e-kaubanduse saite.
 
@@ -85,14 +87,14 @@ Ajavahemiku funktsiooni konfigureerimiseks Commerce'i peakontoris tehke järgmis
     > [!NOTE]
     > Saate luua mitu malli, kuid ühe kanali või poega saab seostada ainult ühe malli.
 
-    ![Tellimusele järeletulemine - kellaaja sätete dialoogiboks.](../dev-itpro/media/Curbside_timeslot_Settings_Page.PNG)
+    ![Dialoogiboks Tellimusele järeletulemine – kellaaja sätted](../dev-itpro/media/Curbside_timeslot_Settings_Page.PNG)
 
 1. Kui olete lõpetanud, valige **OK**.
 1. Kui ajavahemikud päeva jooksul varieeruvad, looge kiirkaardil **Tellimusele järeletulemine – kellaaja sätted** veel kirjeid, et kuupäevad ja kellaajad ei kattuks.
 1. Valige kiirkaardil **jaemüügikanalid** nupp **Lisa**, et seostada ajavahemiku mall nende poodide või kanalitega, kus seda kasutatakse.
 1. Kasutage dialoogiboksis **Organisatsiooni sõlmede valimine** poodide, regioonide ja organisatsioonide, millega mall peaks seotud olema, valimiseks (või valiku tühistamiseks) noolenuppe.
 
-    <!-- ![HQ Timeslot overview.](../dev-itpro/media/Curbside_timeslot_Settings_overview.PNG) -->
+    <!-- ![HQ Timeslot overview](../dev-itpro/media/Curbside_timeslot_Settings_overview.PNG) -->
 
 1. Kui olete lõpetanud, valige **OK**.
 1. Käivitage lehel **Jaotusgraafik** tööd **1070** ja **1135**, et sünkroonida andmed kanalitega.
@@ -103,7 +105,7 @@ Kui kassas määratakse kindlaks järeletulemisega tellimuse rida, saab kassapid
 
 Järgmisel joonisel on näidatud ajavahemiku valiku näide kassatellimuses.
 
-![Ajavahemiku valiku näide kassatellimuse jaoks.](../dev-itpro/media/Curbside_timeslot_POS.png)
+![Ajavahemiku valiku näide kassatellimuse jaoks](../dev-itpro/media/Curbside_timeslot_POS.png)
 
 ## <a name="time-slot-selection-for-e-commerce-orders"></a>E-kaubanduse ajavahemike valimine
 
@@ -114,17 +116,14 @@ Lisateavet selle kohta, kuidas valida e-kaubanduse tellimuste jaoks ajavahemikku
 
 Järgmisel joonisel on kujutatud e-kaubanduse tellimuse näide, kus järeletulemise ajavahemik on valitud.
 
-![Näide e-commerce tellimusest, kus järeletulemise ajavahemik on valitud.](../dev-itpro/media/Curbside_timeslot_eCommerce_checkoutsummary.PNG)
+![Näide e-kaubanduse tellimusest, kus järeletulemise ajavahemik on valitud](../dev-itpro/media/Curbside_timeslot_eCommerce_checkoutsummary.PNG)
 
 ## <a name="time-slot-selection-for-call-center-orders"></a>Kõnekeskuse tellimustele ajavahemiku valimine
 
 Kõnekeskuse rakenduses saavad kõnekeskuse agendid valida järeletulemise poe või asukoha ning ka kuupäeva ja ajavahemiku, nii nagu välja toodud järgmisel joonisel.
 
-![Näide kõnekeskuse tellimusest, kus järeletulemise ajavahemik on valitud.](../dev-itpro/media/Curbside_timeslot_callcenter.png)
+![Näide kõnekeskuse tellimusest, kus järeletulemise ajavahemik on valitud](../dev-itpro/media/Curbside_timeslot_callcenter.png)
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-[Järeletulemise teabe moodul](../pickup-info-module.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[Järeletulemisteabe moodul](../pickup-info-module.md)

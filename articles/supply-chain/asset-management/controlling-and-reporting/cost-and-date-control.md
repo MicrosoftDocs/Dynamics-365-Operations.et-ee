@@ -1,10 +1,12 @@
 ---
 title: Kulu ja kuupäeva juhtelementi
 description: Selles teemas tutvustatakse kulu ja kuupäeva juhtelementi varahalduses.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 08/23/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetBICostControlWorkspace, EntAssetWorkOrderDateControl, EntAssetWorkOrderForecastCostInfoPart, EntAssetMaintenanceCostTrans, EntAssetWorkOrderDateControlCalcDialog, EntAssetCostControl, EntAssetCostObjectCalendar, EntAssetWorkOrderCostInfoPart
 audience: Application User
@@ -12,21 +14,23 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 826e0aab8c717bb951d80aff61b2d72dad802189706f720c48e72c8a1c393ead
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1de12233ff296f77ba9984fa8d957d4c2bc90b3f
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6731909"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019071"
 ---
 # <a name="cost-and-date-control"></a>Kulu ja kuupäeva juhtelementi
 
 [!include [banner](../../includes/banner.md)]
 
-Varahalduses saate kulusid arvutada, et saada ülevaade tegelikest kuludest võrreldes varade, töö asukohtade ja töökäskude eelarvekuludega. Tegelikud kulud põhinevad sisestatud kannetel.
+ 
+
+Varahalduses saate kulusid arvutada, et saada ülevaade tegelikest kuludest võrreldes varade, töö asukohtade ja töökäskude eelarvekuludega. Tegelikud kulud põhinevad sisestatud kannetel. 
 
 Samuti saate teha kuupäeva arvutuse, kui soovite võrrelda plaanitud algus- ja lõppkuupäevasid töökäskude tegelike algus- ja lõppkuupäevadega.
 
@@ -44,8 +48,8 @@ Varade, funktsionaalsete asukohtade ja töökäskude kohta tehtud arvutused on p
 
 5. Saate kasutada välja **Tase**, et näidata, kui üksikasjalikult soovite, et kulujuhtimise read oleksid seotud töö asukohtadega. 
 
-    Kui sisestate väljale näiteks arvu "1" ja teil on mitmetasandiline töö asukoha hierarhia, kuvatakse ülemisel tasemel kõik töö asukoha kulu juhtelemendi read ning seetõttu võivad tunnid real olla lisatud ülespoole töö asukohtades, mis asuvad madalamal tasemel.
-
+    Kui sisestate väljale näiteks arvu "1" ja teil on mitmetasandiline töö asukoha hierarhia, kuvatakse ülemisel tasemel kõik töö asukoha kulu juhtelemendi read ning seetõttu võivad tunnid real olla lisatud ülespoole töö asukohtades, mis asuvad madalamal tasemel. 
+    
     Kui sisestate väljale **Tase** arvu "0", näete üksikasjalikku tulemust, mis näitab kõiki kulu juhtelemendi ridu kõigi töö asukoha tasemete kohta, millega nad on seotud.
 
 6. Valige "Jah" tumblernupul **Kuva avatud kooskõlastatud kulu**, kui soovite seda tulpa arvutusse kaasata.
@@ -58,11 +62,11 @@ Varade, funktsionaalsete asukohtade ja töökäskude kohta tehtud arvutused on p
 
     Alloleval joonisel kuvatakse näidet dialoogiboksist **Vara kulu juhtelement**.
 
-    ![Dialoogiboks Vara kulu juhtimine.](media/01-controlling-and-reporting.png)
+    ![Dialoogiboks Vara kulu juhtimine](media/01-controlling-and-reporting.png)
 
 10. Klõpsale lehe **Vara kulu juhtimine** jaotise **Grupeerimisalus** nuppe, et näidata arvutuse nõutavat üksikasjalikku taset. Valitud nupud **Rühmitusalus** on esile tõstetud. Nupu aktiveerimiseks või inaktiveerimiseks klõpsake sellel.
 
-## <a name="example-of-calculation-results-in-asset-cost-control"></a>Näide arvutustulemustest varakulude kontrollimisel
+## <a name="example"></a>Näide
 
 Alloleval kuvatõmmisel kuvatakse näidet arvutuse tulemustest dialoogiboksis **Vara kulu juhtimine**.
 
@@ -71,9 +75,10 @@ Alloleval kuvatõmmisel kuvatakse näidet arvutuse tulemustest dialoogiboksis **
 - Väljal **Avatud kooskõlastatud kulu** kuvatakse kohustused maksta kaupade, tundide ja teenuste eest, mille olete tellinud või saanud, kuid mille eest pole veel maksnud. 
 - Kui kõik tarbimise registreeringud on sisestatud, kuvatakse seotud kulud väljal **Tegelik kulu**.
 
-![Arvutustulemuste näide lehel vara kulu juhtimine.](media/02-controlling-and-reporting.png)
+![Arvutustulemuste näide lehel vara kulu juhtimine](media/02-controlling-and-reporting.png)
 
 Teine viis kulu juhtelemendi loomiseks on teha mitmikvalik varadele suvandis **Kõik varad** või **Aktiivsed varad**. Seejärel klõpsake nupule **Kulu juhtelement** vahekaardil **Üldine**. Dialoogiboksis **Vara kulu juhtelement** valitud varad sisestatakse automaatselt väljale **Vara** vahekaardil **Kaasatavad kirjed**. Klõpsake **OK** ja kuvatakse kulu arvutus valitud varade kohta. Sama protseduuri saab teha funktsionaalsete asukohtade puhul väljades **Kõik funktsionaalsed asukohad** või **Aktiivsed funktsionaalsed asukohad** ja ktöökäskude puhul väljades **Kõik töökäsud** või **Aktiivsed töökäsud**.
+
 
 ## <a name="work-order-date-control"></a>Töökäsu kuupäevajuhtimine
 
@@ -91,7 +96,7 @@ Kasutage seda lehte, kui soovite saata ülevaate oodatavatest algus- ja lõppkuu
 
 6. Valige nupud **Rühmitusalus**, et vaadata arvutuse soovitud üksikasja taset. Valitud nupud **Rühmitusalus** on esile tõstetud. Nupu aktiveerimiseks või inaktiveerimiseks klõpsake sellel.
 
-## <a name="example-of-calculation-results-in-work-order-date-control"></a>Näide arvutustulemustest töökorralduse kuupäevakontrollis
+## <a name="example"></a>Näide
 
 Alloleval kuvatõmmisel kuvatakse näide arvutustulemuste kohta dialoogiboksis **Töökäsu kuupäeva juhtimine**.
 
@@ -99,9 +104,6 @@ Alloleval kuvatõmmisel kuvatakse näide arvutustulemuste kohta dialoogiboksis *
 - Väljal **Keskm. alguse hilinemine** kuvatakse erinevus töökäsu plaanitud lõppkuupäeva ja tegeliku lõppkuupäeva vahel. Näiteks kui tegelik lõppkuupäev oli kolm päeva pärast plaanitud lõppkuupäeva, kuvatakse sellel väljal "3".  
 - Väljal **Esinemiskorrad** kuvatakse kõrvalekallete arv seoses töökäsu plaanitud ja tegelike alguskuupäevadega ning plaanitud ja tegelike lõppkuupäevadega.
 
-![Arvutustulemuste näide lehel Töökäsu kuupäeva juhtimine.](media/03-controlling-and-reporting.png)
+![Arvutustulemuste näide lehel Töökäsu kuupäeva juhtimine](media/03-controlling-and-reporting.png)
 
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

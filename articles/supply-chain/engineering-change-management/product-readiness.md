@@ -2,34 +2,32 @@
 title: Toote valmisolek
 description: Selles teemas selgitatakse, kuidas saate kasutada valmisoleku kontrolle, et tagada, et nõutavad põhiandmed täidetakse toote kohta enne selle kannetes kasutamist.
 author: t-benebo
+manager: tfehr
 ms.date: 09/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
-ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 4286f72f9aed1b4dd91e7c45203cfab2af43f3c2
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.15
+ms.openlocfilehash: 8321a0d8516a6c2c085ce9c1236f70af1cca98da
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571949"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967254"
 ---
 # <a name="product-readiness"></a>Toote valmisolek
 
 [!include [banner](../includes/banner.md)]
 
-Saate kasutada valmisoleku kontrolle, et tagada, et nõutavad põhiandmed täpsustatakse toote kohta enne selle kannetes kasutamist. Kui kasutatakse valmisoleku kontrolle, vastutab kasutaja või meeskond kindla eelmääratletud tootega seotud teabe kinnitamise eest.
+Saate kasutada valmisoleku kontrolle, et tagada, et nõutavad põhiandmed täpsustatakse toote kohta enneselle kannetes kasutamist. Kui kasutatakse valmisoleku kontrolle, vastutab kasutaja või meeskond kindla eelmääratletud tootega seotud teabe kinnitamise eest. Kui toote kohta on avatud valmisoleku kontroll, ei saa toodet väljastada ega kasutada kannetes.
 
-Pärast kõigi nõutavate andmete sisestamist ja kontrollimist ning pärast kõigi valmisoleku kontrollide töötlemist saate insenertehnilise toote, variandi või versiooni jaoks märkeruudu **Aktiivne** märkida. Kui toote, versiooni või variandi jaoks pole üht või mitut tšekki töödeldud, siis kui proovite märkida märkeruutu **Aktiivne**, kuvatakse teile kiire hoiatus, et kõik kontrollid pole lõpule viidud.
-
-Saate luua valmisoleku kontrolli uute tehniliste toodete, variantide ja versioonide jaoks. Valmisolekukontrolli saate rakendada ka standardsetele (mitte-tehnilistele) toodetele (vaata ka [Standardsete toodete valmisolekukontrollid](#standard-products)). 
-
-Tehingutes saate kasutada standardtooteid, kuigi kõik valmisoleku kontrollid pole lõpule viidud. Kui peate blokeerima toote kasutamise tehingutes, kasutage selle töötsükli olekut. Saate määrata töötsükli oleku, mis blokeerib toote kasutamise tehingutes, ja seejärel, pärast kõigi valmisoleku kontrollide lõpetamist, saate määrata uue töötsükli oleku, mis võimaldab nõutavaid tehinguid.
+Tehnilise toote, variandi või versiooni märkeruut **Aktiivne** on saadaval ainult siis, kui kõik nõutavad andmed on sisestatud ja kinnitatud ning pärast seda on kõik valmisoleku kontrollid töödeldud. Sel hetkel saab toodet, versiooni või varianti väljastada teistele ettevõtetele ja kasutada kannetes. Saate luua valmisoleku kontrolli uute toodete, uute variantide ja uute tehniliste versioonide jaoks.
 
 ## <a name="types-of-readiness-checks"></a>Valmisoleku kontrollide tüübid
 
@@ -39,29 +37,22 @@ Valmisoleku kontrolle on kolme tüüpi.
 - **Manuaalne kontroll** – Kasutaja kontrollib, kas kirje on kehtiv. Näiteks võib valmisoleku kontroll nõuda vaikimisi tellimuse sätete kinnitamist. Mõnel juhul, näiteks kui toode on veel projekteerimises ja seetõttu ei paigutata seda lattu, ei nõuta vaikimisi tellimuse sätteid. Siiski võib olla vajalik, et mõne teise sama tüüpi toote puhul oleks vaikimisi tellimuse sätted nõutavad, sest toodet saab laos hoida. Kasutaja vastutab selle eest, kuidas õigesti otsustada, kas valmisoleku kontroll on nõutav.
 - **Kontroll-loend** – Kasutaja vastab kontroll-loendi küsimustele ja süsteem määrab, kas vastused vastavad ootustele. Kontroll-loendis võib olla mis tahes teema. Näiteks saab seda kasutada, et teha kindlaks, kas turundusmaterjalid või toote dokumentatsioon on lõpule viidud.
 
-<a name="checks-engineering"></a>
+## <a name="how-readiness-checks-are-created-for-a-new-product-variant-or-version"></a>Kuidas valmisoleku kontroll luuakse uue toote, variandi või versiooni jaoks
 
-## <a name="how-readiness-checks-are-created-for-a-new-engineering-product-variant-or-version"></a>Kuidas valmisoleku kontroll luuakse uue toote, variandi või versiooni jaoks
-
-Valmisoleku kontrolli poliitikaid saab rakendada väljastatud toote tasemel, väljastatud variandi tasemel ja tehnilise versiooni tasemel.
-
-Kui loote uue *inseneritoote*, määrab süsteem, kas selle suhtes kehtib [valmisolekukontrolli poliitika](#assign-policy). Kui rakendatakse valmisolekukontrolli poliitikat, ilmnevad järgmised sündmused:
+Kui loote uue tehnilise **toote**, määrab süsteem, kas valmisoleku kontrolli poliitika on seadistatud tehniliste toodete kategooria jaoks. (Valmisoleku kontrolli poliitikaid saab rakendada väljastatud toote tasemel, väljastatud variandi tasemel ja tehnilise versiooni tasemel.) Kui poliitika on seadistatud, toimuvad järgmised sündmused:
 
 - Toote jaoks luuakse valmisoleku kontrollid vastavalt kehtivale poliitikale.
-- Tehniline versioon on seatud passiivseks, et blokeerida toote kasutamine. Kõik toote tehnikaversioonid on seadistatud passiivseteks.
+- Tehniline versioon on seatud passiivseks, et blokeerida toote kasutamine. Kõik konkreetse tootega seotud versioonid on määratud passiivseks.
 
-Kui uus *variant* on loodud tootele, rakendub valmisolekukontrolli poliitika. (Valmisoleku kontrolle saab rakendada väljastatud variandi tasemel ja tehnilise versiooni tasemel.) Kui valmisoleku kontroll on seadistatud, toimuvad järgmised sündmused:
+Kui tootele luuakse uus **variant**, kontrollib süsteem, kas valmisoleku kontrollid on tehnikatoodete kategoorias seadistatud. (Valmisoleku kontrolle saab rakendada väljastatud variandi tasemel ja tehnilise versiooni tasemel.) Kui valmisoleku kontroll on seadistatud, toimuvad järgmised sündmused:
 
-- Toote jaoks luuakse valmisoleku kontrollid vastavalt kehtivale poliitikale.
+- Toote jaoks luuakse valmisoleku kontrollid.
 - Tehniline versioon on seatud passiivseks, et blokeerida toote kasutamine.
 
-Kui uus *variant* on loodud tootele, rakendab süsteem sellele kontrolliks valmisolekukontrolli poliitika. (Valmisoleku kontrolle saab rakendada väljastatud variandi tasemel). Kui valmisoleku kontroll on seadistatud, toimuvad järgmised sündmused:
+Kui tootele luuakse uus tehniline **versioon**, kontrollib süsteem, kas valmisoleku kontrollid on tehnikatoodete kategoorias seadistatud. (Valmisoleku kontrolle saab rakendada tehnilise versiooni tasemel.) Kui valmisoleku kontroll on seadistatud, toimuvad järgmised sündmused:
 
-- Toote jaoks luuakse valmisoleku kontrollid vastavalt kehtivale poliitikale.
+- Toote jaoks luuakse valmisoleku kontrollid.
 - Tehniline versioon on seatud passiivseks, et blokeerida toote kasutamine.
-
-> [!NOTE]
-> Te saate rakendada ka valmisolekukontrollid standardsetele (mitteinsenerilistele) toodetele. Lisateavet vt selle teema [Häälestamist väljastatud tootemalli abil](#standard-products) selles teemas hiljem.
 
 ## <a name="view-readiness-checks"></a>Valmisoleku kontrollide kuvamine
 
@@ -78,7 +69,7 @@ Teile määratud avatud valmisoleku kontrollide vaatamiseks järgige ühte järg
 - Mine **Tehniliste muutuste haldus \> Tavaline \> Toote valmisolek \> Minu avatud valmisoleku kontrollid**.
 - Mine **Tooteinfo haldus \> Tööruumid \> Toote valmidus diskreetseks tootmiseks**.
 
-Seadistus, mis määrab, kellele on määratud valmisoleku kontroll, tehakse tehniliste toodete kategooria jaoks. Valmisoleku kontrolli saab määrata isikule või meeskonnale. Kui valmisoleku kontroll on määratud meeskonnale, on meeskonnas üks isik, kes peab valmisoleku kontrolli töötlema.
+Seadistus, mis määrab, kellele on määratud valmisoleku kontroll, tehakse tehniliste toodete kategooria jaoks. Valmisoleku kontrolli saab määrata isikule või meeskonnale. Kui valmisoleku kontroll on määratud meeskonnale, on meeskonnas üks isik, kes peab valmisoleku kontrolli töötlema. Lisateavet vt teemast [Tehnilised versioonid ja tehniliste toodete kategooriad](engineering-versions-product-category.md).
 
 ## <a name="process-open-readiness-checks"></a>Avatud valmisoleku kontrollide töötlemine
 
@@ -103,7 +94,9 @@ Kui kõik avatud valmisoleku kontrollid uue toote, variandi või versiooni kohta
 
 ## <a name="create-and-manage-product-readiness-policies"></a>Toote valmisoleku poliitikate loomine ja haldamine
 
-Kasutage toote valmisoleku poliitikaid, et hallata tootele rakendatavat valmisoleku kontrolli. Iga valmisoleku poliitika sisaldab valmisoleku kontrolli kogumit. Kui valmisoleku poliitika on määratud tehniliste toodete kategooriale, on kõigil sellest tehniliste toodete kategooriast loodud toodetel valmisoleku kontroll, mis on määratud valmisoleku poliitikas.
+Kasutage toote valmisoleku poliitikaid, et hallata tootele rakendatavat valmisoleku kontrolli. Kuna valmisoleku poliitika on määratud tehnilise kategooriale, rakenduvad kõik valmisoleku poliitika kontrollid kõikidele tehnilistele toodetele, mis põhinevad tehnilisel kategoorial. Lisateavet vt teemast [Tehnilised versioonid ja tehniliste toodete kategooriad](engineering-versions-product-category.md).
+
+Iga valmisoleku poliitika sisaldab valmisoleku kontrolli kogumit. Kui valmisoleku poliitika on määratud tehniliste toodete kategooriale, on kõigil sellest tehniliste toodete kategooriast loodud toodetel valmisoleku kontroll, mis on määratud valmisoleku poliitikas.
 
 Toote valmisoleku poliitikatega töötamiseks valige **Tehniliste muutuste haldus \> Häälestus \> Toote valmisoleku poliitikad**. Seejärel järgige üht neist sammudest.
 
@@ -151,72 +144,6 @@ Iga lisatava rea jaoks määrake järgmised väljad.
 | Ettevõte | Kui seate **Käivita** välja väärtuseks *Üksik ettevõte*, valige ettevõte. |
 | Omaniku tüüp | Valige, kas rea loodav valmisoleku kontroll tuleb määrata isikule või meeskonnale. |
 | Omanik | Valige isik või meeskond, kellele rea loodav valmisoleku kontroll tuleb määrata. |
-| Küsimustik | Valige küsimustik, mida tuleks kontroll-loendi puhul kasutada. Kontroll-loend on kohalik kontroll-loend ettevõttes, kus valmisoleku kontroll on teostatud. Süsteem peab saama hinnata, kas kontroll-loendile on õigesti vastatud. Seetõttu peab kontroll-loend olema seadistatud nii, et hinnang tehakse õigete vastuste põhjal. Lisateavet küsimustike loomise kohta vt teemast [Küsimustike kasutamine](/dynamicsax-2012/appuser-itpro/using-questionnaires) ja sellega seotud teemasid. |
+| Küsimustik | Valige küsimustik, mida tuleks kontroll-loendi puhul kasutada. Kontroll-loend on kohalik kontroll-loend ettevõttes, kus valmisoleku kontroll on teostatud. Süsteem peab saama hinnata, kas kontroll-loendile on õigesti vastatud. Seetõttu peab kontroll-loend olema seadistatud nii, et hinnang tehakse õigete vastuste põhjal. Lisateavet küsimustike loomise kohta vt teemast [Küsimustike kasutamine](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/using-questionnaires) ja sellega seotud teemasid. |
 | Automaatne kinnitamine | Valmisoleku kontrollimise kirjed sisaldavad märkeruutu **Kinnitatud**, mis näitab kinnituse olekut. Märkige **Automaatne kinnitamine** valikruut kontrollidele, mis tuleb kinnitada kohe pärast seda, kui määratud kasutaja on need täitnud. Tühjendage see märkeruut, et nõuda selgesõnalist kinnitust lisasammuna. |
 | Kohustuslik | Märkige see ruut kontrollide jaoks, mida määratud kasutaja peab täitma. Kohustuslikke kontrolle ei saa vahele jätta. |
-
-<a name="assign-policy"></a>
-
-## <a name="assign-readiness-policies-to-standard-and-engineering-products"></a>Määrake valmisolekupoliitika standard- ja inseneritoodetele
-
-Kui loote tehnika kategooria põhjal uue toote, loote nii *väljastatud toote* ja seotud *Seotud toote*. Viis, kuidas vabastatud toote valmisolekupoliitikad lahendatakse, sõltub sellest, kas olete funktsiooni *toote valmisolekukontroll* sisse lülitanud. (Lisateavet vt selle teema [Häälestamist väljastatud tootemalli abil](#standard-products) selles teemas hiljem.)
-
-- Kui toote *valmisoleku kontrollide* funktsioon on süsteemist *välja* välja lülitatud, seatakse valmisoleku poliitika ja kuvatakse ainult [tehnika kategooria](engineering-versions-product-category.md) kirjetes. Et teada saada, millist poliitikat rakendatakse väljastatud tootele, kontrollib süsteem seotud **tehnikakategooria tootevalmiduse** poliitika välja. Saate muuta olemasoleva toote valmisoleku poliitikat, redigeerides seotud tehnika kategooriat (mitte jagatud toodet).
-- Kui toote *valmisoleku kontrollide* funktsioon on *Sisse* lülitatud lisab see **Toote valmisoleku poliitika** välja **Toote** lehele (kus ühiskasutusega tooted on häälestatud) ja **Vabastatud** toote lehele (kus väärtus on kirjutuskaitstud ja võetakse seotudühiskasutusegalt). Süsteem leiab väljastatud toote valmisolekupoliitika, kontrollides seotud ühistoodet. Kui kasutate tehnika kategooriat uue tehnikatoote loomiseks, loob süsteem nii jagatud kui ka väljastatud toote ning kopeerib kõik toote **Valmisoleku poliitika** tehnika kategoorias uuele jagatud sättted tootele. Saate muuta olemasoleva toote valmisoleku poliitikat, redigeerides seotud tehnika kategooriat (mitte jagatud toodet).
-
-Tootele tooteomaniku määramiseks tehke järgmist.
-
-1. Avage **Tooteteabe haldus \> Tooted \> Tooted**.
-1. Avage või looge toode, millele soovite määrata valmisolekupoliitika.
-1. Seadke kiirkaardil **Üldine** toote valmisoleku poliitika väljale **Tootele rakenduv poliitika** väljal tootele rakenduv poliitika nimi.
-
-Tootele tootekategooria määramiseks tehke järgmist.
-
-1. Minge jaotisse **Tehnilise muudatuse haldamine \>Sammud \> Tehnilise toote kategooria üksikasjad**.
-1. Avage või looge toode, millele soovite määrata tehnikakategooria poliitika.
-1. Seadke kiirkaardil **toote valmisoleku poliitika** kiirkaardile väljale **Tootele rakenduv poliitika** tootele rakenduv tehnikakategooria.
-
-<a name="standard-products"></a>
-
-## <a name="readiness-checks-on-standard-products"></a>Standardtoodete valmisolekukontrollid
-
-Saate lubada standardsete (mitteinseneriliste) toodete toote valmisolekukontrollid, lülitades funktsioonihalduses sisse *toote valmisoleku* Feature funktsiooni. See funktsioon teeb mõned väikesed muudatused valmisolekukontrolli süsteemis nii, et see toetab standardtooteid.
-
-### <a name="enable-readiness-checks-on-standard-products"></a>Standardtoodete valmisolekukontrollid
-
-Et lubada süsteemil teha standardsete toodete valmisolekukontrolli, järgige neid samme.
-
-- Lubage tehnilise muudatuse haldus ja selle konfiguratsioonivõti, nagu on kirjeldatud jaotises [Tehnilise muudatuse halduse ülevaade](product-engineering-overview.md).
-- Funktsioonihalduse [abil saate](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sisse lülitada funktsiooni nimega  *Toote valmisoleku kontrollid*.
-
-<!-- KFM: This section requires confirmation before publishing
-
-### How readiness checks are created for standard products
-
-When you create a new non-engineering *released product*, the system determines whether a readiness check policy has been set up for the related shared product. If a policy has been set up, the following events occur:
-
-- Readiness checks are created for the released product, according to the applicable policy.
-- The released product is blocked from being used until all checks are marked as completed.
-
-If a new *variant* is created for a product, the system checks whether readiness checks have been set up on the related shared product. If a readiness check has been set up, the following events occur:
-
-- Readiness checks are created for the released product, according to the applicable policy.
-- The released product is blocked from being used until all checks are marked as completed.
-
-For engineering products, readiness checks are created in the same way that they are created when the *Product readiness checks* feature is turned off. For more information, see the [How readiness checks are created for a new engineering product, variant, or version](#checks-engineering) section earlier in this topic.
-
--->
-
-### <a name="create-readiness-policies-for-standard-products"></a>Standardsete toodete valmisolekupoliitika loomine
-
-Te loote standardtoodetele valmisolekupoliitika samuti nagu tehnikatoodete puhul. Vaadake selle kirjeldust eestpoolt.
-
-### <a name="assign-readiness-policies-to-standard-products"></a>Standardsete toodete valmisolekupoliitika loomine
-
-Standardsele tootele valmisolekupoliitika määramiseks avage **seotud jagatud toode** ja seadke toote valmisoleku poliitika välirakendumise poliitika nimele. Lisateavet vaata jaotisest [Standardi- ja tehnikatoodetele valmisoleku poliitikate määramine](#assign-policy).
-
-### <a name="view-and-process-readiness-checks-on-standard-products"></a>Standardtoodete valmisolekukontrollid
-
-Kui see funktsioon on sisse lülitatud, vaatate ja töötlete standardtoodete valmisoleku kontrolle nagu tehnika toote puhul. Vaadake selle kirjeldust eestpoolt.
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

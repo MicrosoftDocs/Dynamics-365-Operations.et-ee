@@ -2,25 +2,28 @@
 title: Skonto võtmine väljaspool skonto perioodi
 description: See artikkel pakub kaht stsenaariumi, mis näitavad, kuidas skontot saab arvestada, isegi kui makse on tehtud väljaspool skontoperioodi.
 author: abruer
+manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 14301
 ms.assetid: bad10b7f-e550-4742-9261-8a094c9c624d
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b9ba9c8176571a8b97b43565c89f8614bd828b3d9e1498a248fd896069d5d5c2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e4a166e9a0d43da80986dd63d6739b104745b115
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736985"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4442207"
 ---
 # <a name="take-a-cash-discount-outside-the-cash-discount-period"></a>Skonto võtmine väljaspool skonto perioodi
 
@@ -41,7 +44,7 @@ April märgib arve maksmiseks. Skontot ei võeta, kuna makse toimub pärast skon
 
 Teave märgitud arve allahindluse kohta kuvatakse lehe **Kannete tasakaalustamine** allosas.
 
-| Field                        | Väärtus     |
+|                              |           |
 |------------------------------|-----------|
 | Skonto kuupäev           | 12.07.2015 |
 | Skonto summa         | ‑20,00    |
@@ -59,7 +62,7 @@ Kui mõlemad, nii arve kui ka makse on sisestatud, saab kannete tasakaalustamise
 
 Teave märgitud arve allahindluse kohta kuvatakse lehe **Avatud kannete tasakaalustamine** allosas. Võetakse skonto summas 20,00, kuna tasakaalustatav summa arvel on vaikesumma 1980,00.
 
-| Field                        | Väärtus     |
+|                              |           |
 |------------------------------|-----------|
 | Skonto kuupäev           | 12.07.2015 |
 | Skonto summa         | ‑20,00    |
@@ -76,7 +79,7 @@ April värskendab välja **Tasakaalustatav summa** väärtuseks **500,00**. Väl
 
 Teave märgitud arve allahindluse kohta kuvatakse lehe **Avatud kannete tasakaalustamine** allosas. Välja **Skonto summa võtmiseks** väärtus on **5,05**, kuna tasakaalustatav summa arvel muudeti maksesummaks 500,00.
 
-| Field                        | Väärtus     |
+|                              |           |
 |------------------------------|-----------|
 | Skonto kuupäev           | 12.07.2015 |
 | Skonto summa         | ‑20,00    |
@@ -88,6 +91,3 @@ Teave märgitud arve allahindluse kohta kuvatakse lehe **Avatud kannete tasakaal
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,25 +2,28 @@
 title: Põhivarakannete sisestamine sisestuskihtidele
 description: See artikkel annab ülevaate sisestamiskihi funktsioonist põhivarakannete puhul.
 author: moaamer
+manager: AnnBe
 ms.date: 04/25/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetBookTable, LedgerJournalTransAsset
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 3001
 ms.assetid: 7dabde57-0843-47c3-85ef-f36b6f472e30
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 538366163bac8ba593bd5575459ddb9b0079094150187dfb8c04490f467f9798
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a80e4d1a081b5bd8c58238b0f154f8fbdc660ccb
+ms.sourcegitcommit: f80819c67c0a7475315fc68ce1cb568831e2c0e7
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757069"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "4493668"
 ---
 # <a name="post-fixed-asset-transactions-to-posting-layers"></a>Põhivarakannete sisestamine sisestuskihtidele
 
@@ -46,6 +49,3 @@ Lisateavet vt teemadest [Tuletatud raamatud](derived-books.md) ja [Tuletatud raa
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

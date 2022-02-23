@@ -2,25 +2,28 @@
 title: Tasakaalustuse konfigureerimine
 description: Kuidas ja millal kanded tasakaalustatakse, võib olla keeruline teema, nii et on oluline, et mõistate ja määratlete õigesti oma ärinõuetele vastavad parameetrid. Selles teemas kirjeldatakse parameetreid, mida kasutatakse nii ostu- kui ka müügireskontro tasakaalustamiseks.
 author: kweekley
+manager: AnnBe
 ms.date: 05/16/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustOpenTrans, CustParameters, VendOpenTrans, VendParameters
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 14601
 ms.assetid: 6b61e08c-aa8b-40c0-b904-9bca4e8096e7
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 323a1e6d426208a880a72dd89f7be04bacbf13a8e6c5d8ab7599217cfc18f2c0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 094b8876b3b10b6dcbc0ce399a1a9915271459ed
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720570"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4442505"
 ---
 # <a name="configure-settlement"></a>Tasakaalustuse konfigureerimine
 
@@ -64,6 +67,3 @@ Selleks, et vältida täiendavate raamatupidamiskirjete ning deebeti ja kreediti
 
 -   Organisatsioonid kasutavad sageli fikseeritud dimensioone, et täita mittevajalikke finantsdimensioone nullidega. Nii on tavapäraselt bilansikontode puhul, näiteks müügireskontrod/ostureskontrod. Konto struktuure saab kasutada tavaliselt nullidega täidetud finantsdimensioonide jälgimise välistamiseks.  Saate finantsdimensiooni bilansikontode jaoks eemaldada, kõrvaldades sellega vajaduse fikseeritud dimensioonide kasutamise järele.
 -   Kui teie organisatsioon nõuab müügireskontro/ostureskontro põhikonto jaoks fikseeritud dimensioone, siis proovige leida viis, kuidas fikseeritud dimensioon vaikimisi maksele sisestada, nii et fikseeritud dimensiooni väärtus on salvestatud makse hankija kandel. See võimaldab süsteemil rekonstrueerida müügireskontro/ostureskontro põhikonto nii, et fikseeritud dimensiooni väärtused oleks hõlmatud. Fikseeritud dimensiooni väärtust saab määratleda vaikeväärtuseks hankijate jaoks või makse töölehe nimel.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

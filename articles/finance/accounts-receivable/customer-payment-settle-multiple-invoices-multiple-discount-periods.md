@@ -1,28 +1,31 @@
 ---
-title: Ühe makse kasutamine nende arvete tasakaalustamiseks, mis ulatuvad üle mitme allahindlusperioodi
+title: Ühe kliendimakse kasutamine mitme arve tasakaalustamiseks, mis ulatuvad üle mitme allahindlusperioodi
 description: See teema näitab, kuidas makstakse mitut arvet, kui igale arvele kehtib skonto. Selle artikli stsenaariumid toovad välja, kuidas erinevad kasutatavad sularaha allahindlused, olenevalt sellest, millal makse tehakse.
 author: ShivamPandey-msft
+manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 14511
 ms.assetid: 3e42ccb5-b9d7-4a70-8db9-4206d10fd433
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6c86423c9e3453d8be11e6bdbc3484647e26e9eeec59c9a2e888cc5a2b2b5592
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c7ae0bdc8245db1391103ca0f214fb3120f93f5b
+ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769055"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4442590"
 ---
-# <a name="use-one-payment-to-settle-invoices-that-span-multiple-discount-periods"></a>Ühe makse kasutamine nende arvete tasakaalustamiseks, mis ulatuvad üle mitme allahindlusperioodi
+# <a name="use-a-customer-payment-to-settle-multiple-invoices-that-span-multiple-discount-periods"></a>Ühe kliendimakse kasutamine mitme arve tasakaalustamiseks, mis ulatuvad üle mitme allahindlusperioodi
 
 [!include [banner](../includes/banner.md)]
 
@@ -66,7 +69,7 @@ Kui Arnie loob maksetöölehe, et need arved 1. juulil täielikult tasakaalustad
 | Valitud ja esile tõstetud | Tavaline            | FTI‑10042 | 4032    | 25.06.2015 | 25.07.2015 | 10042   | 1 000,00                             |                                       | USA dollar      | 990.00           |
 
 ## <a name="partial-settlement-on-june-29"></a>Osaline tasakaalustamine 29. juunil
-Klient 4032 saab tasuda osa summast, näiteks pool igast arvest. Arnie loob makse kliendile 4032 ja seejärel avab lehe **Kannete tasakaalustamine**. Lehel **Kannete tasakaalustamine** märgib Arnie tasakaalustamiseks kõik kolm arverida. Igal real sisestab Arnie kliendi antud juhiste põhjal tasakaalustatava summa. Kui Arnie valib mõne rea, näeb ta selle rea allahindluse summat ja sularahasoodustuse summat, mis arvesse võetakse. Kuna klient tasub pool arvest, näeb Arnie, et väärtus väljal **Skonto summa** arve FTI-10042 puhul on **20,00**, kuid välja **Arvestatud skonto** väärtus on **10,00**. Maksesumma on 1485,00.
+Klient 4032 saab tasuda osa summast, näiteks pool igast arvest. Arnie loob makse kliendile 4032 ja seejärel avab lehe **Kannete tasakaalustamine**. Lehel **Kannete tasakaalustamine** märgib Arnie tasakaalustamiseks kõik kolm arverida. Igal real sisestab ta kliendi antud juhiste põhjal tasakaalustatava summa. Kui Arnie valib mõne rea, näeb ta selle rea allahindluse summat ja arvesse minevat skonto summat. Kuna klient tasub pool arvest, näeb Arnie, et väärtus väljal **Skonto summa** arve FTI-10042 puhul on **20,00**, kuid välja **Arvestatud skonto** väärtus on **10,00**. Maksesumma on 1485,00.
 
 | Märge                     | Kasuta skontot | Kanne   | Konto | Kuupäev      | Tähtaeg  | Arve | Deebeti summa kande valuutas | Kreediti summa kande valuutas | Valuuta | Tasakaalustatav summa |
 |--------------------------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------------|---------------------------------------|----------|------------------|
@@ -74,11 +77,11 @@ Klient 4032 saab tasuda osa summast, näiteks pool igast arvest. Arnie loob maks
 | Valitud                 | Tavaline            | FTI‑10041 | 4032    | 25.06.2015 | 25.07.2015 | 10041   | 1 000,00                             |                                       | USA dollar      | 495.00           |
 | Valitud ja esile tõstetud | Tavaline            | FTI‑10042 | 4032    | 25.06.2015 | 25.07.2015 | 10042   | 1 000,00                             |                                       | USA dollar      | 490.00           |
 
-Arnie saab maksesumma 1 485.00 ka käsitsi sisestada enne lehe **Kannete tasakaalustamine** avamist. Kui Arnie sisestab maksesumma käsitsi ja seejärel märgib kõik kolm kannet, kuid ei korrigeeri iga kande puhul välja **Tasakaalustatav summa** väärtust, saab ta lehe sulgemisel järgmise teate:
+Arnie saate maksesumma 1485,00 ka käsitsi sisestada enne lehe **Kannete tasakaalustamine** avamist. Kui Arnie sisestab maksesumma käsitsi ja seejärel märgib kõik kolm kannet, kuid ei korrigeeri iga kande puhul välja **Tasakaalustatav summa** väärtust, saab ta lehe sulgemisel järgmise teate.
 
 > Märgitud kannete kogusummade erineb töölehe summast. Kas muuta töölehe summat?
 
-Kui Arnie soovib, et maksesumma oleks vaid 1 485.00, klõpsab ta suvandit **Ei** ja seejärel sisestab töölehe. Kanded tasakaalustatakse järgmiselt.
+Kui Arnie soovib, et maksesumma oleks vaid 1485,00, klõpsab ta suvandit **Ei** ja seejärel sisestab töölehe. Kanded tasakaalustatakse järgmiselt.
 
 1.  Arve FTI-10040 on täielikult tasakaalustatud summale 1000,00, kuna see oli sisestatud 15. mail ja on vanim arve. Skontot ei arvestata. Maksekande jääksumma on 485,00.
 2.  Arve FTI-10041 ei ole üldse tasakaalustatud. Arved FTI-10041 ja FTI-10042 sisestati samal kuupäeval. Siiski on 1-protsendine allahindlus saadaval arvele FTI-10041 ja 2-protsendine allahindlus arvele FTI-10042. Kuna arvele FTI-10042 on saadaval parem allahindlus, tasakaalustatakse ülejäänud 485,00 arvega FTI-10042.
@@ -98,6 +101,3 @@ Arnie vaatab seda teavet lehel **Kliendi kanded**.
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

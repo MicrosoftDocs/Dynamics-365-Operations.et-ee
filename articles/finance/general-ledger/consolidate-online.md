@@ -2,23 +2,26 @@
 title: Finantskonsolideerimised võrgus
 description: Selles teemas kirjeldatakse pearaamatu finantskonsolideerimisi võrgus.
 author: aprilolson
+manager: AnnBe
 ms.date: 07/09/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 7c8a36447670458b2a8fe423f35fafd5f8cff773461f4dff47577e52573abc3a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 86be6d4cc0af3f2fd92523d4ecd3825f2383fc48
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758845"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4442360"
 ---
 # <a name="online-financial-consolidations"></a>Finantskonsolideerimised võrgus
 
@@ -31,7 +34,7 @@ Kui olete seadistuse lõpetanud, sisestage konsolideerimise üksikasjad lehel **
 ## <a name="criteria"></a>Kriteeriumid
 Vahekaardil **Kriteeriumid** lehel **Konsolideeri (võrgus)** määrake kontod, perioodid ja konsolideeritavate andmete tüüp.
 
-![Vahekaart Kriteeriumid.](./media/criteria-consolidate-online.png "Vahekaart Kriteeriumid")
+![Vahekaart Kriteeriumid](./media/criteria-consolidate-online.png "Vahekaart Kriteeriumid")
 
 Siin on selle vahekaardi eri väljade selgitus.
 
@@ -57,16 +60,16 @@ Siin on selle vahekaardi eri väljade selgitus.
 ## <a name="financial-dimensions"></a>Finantsdimensioonid
 Määrake vahekaardil **Finantsdimensioonid** dimensioonid, mis peaksid olema kaasatud konsolideeritavasse ettevõttesse. Dimensiooni valimiseks määrake väli **Täpsustus** valikule **Dimensioon** ja seejärel määrake dimensiooni järjestus konsolideeritavas ettevõttes.
 
-![Vahekaart Finants dimensioonid.](./media/financial-dimensions-cons.png "Vahekaart Finantsdimensioonid")
+![Vahekaart Finantsdimensioonid](./media/financial-dimensions-cons.png "Vahekaart Finantsdimensioonid")
 
 Olenemata määratud järjestusest on esimene segment alati **Põhikonto**.
 
 ## <a name="legal-entities"></a>Juriidilised isikud
 Määrake vahekaardil **Juriidilised isikud** ettevõtted, mis peaksid olema kaasatud konsolideeritavasse ettevõttesse. Määrake ka nende ettevõtete omandiõiguse protsent. Kui määrate omandiõiguseks vähem kui 100 protsenti, võetakse määratud protsent konsolideeritavas ettevõttes kokku. Teisenduserinevuste korral kasutatakse välja **Teisenduserinevuste konto tüüp** põhikonto valimiseks seadistuses lehel **Automaatsete kannete kontod**.
 
-![Vahekaart Juriidilised olemid.](./media/legal-entities-cons.png "Vahekaart Juriidilised olemid")
+![Vahekaart Juriidilised olemid](./media/legal-entities-cons.png "Vahekaart Juriidilised olemid")
 
-![Automaatsete tehingute kontode leht.](./media/accounts-for-automatic-cons.png "Automaatsete tehingute kontode leht")
+![Automaatsete tehingute kontode leht](./media/accounts-for-automatic-cons.png "Automaatsete tehingute kontode leht")
 
 ## <a name="elimination"></a>Eemaldamine
 Vahekaardil **Eemaldamine** on teil kolm võimalust eemalduste töötlemiseks:
@@ -75,7 +78,7 @@ Vahekaardil **Eemaldamine** on teil kolm võimalust eemalduste töötlemiseks:
 - Valige eemaldamisreegel ja seejärel valige väljalt **Soovituse valikud** suvand **Ainult sisesta**. See suvand töötleb eemaldust konsolideerimisprotsessi käigus ja sisestab kõik korraga.
 - Käitage eemaldamissoovitus konsolideerimise protsessist eraldi, kasutades eemaldamise töölehte.
 
-![Vahekaart Eemaldamine.](./media/elimination-cons-onl.png "Vahekaart Eemaldamine")
+![Vahekaart Eemaldamine](./media/elimination-cons-onl.png "Vahekaart Eemaldamine")
 
 Lisateavet eemaldamiste kohta vt teemast [Eemaldamisreeglid](./elimination-rules.md).
 
@@ -86,13 +89,10 @@ Vahekaardil **Valuuta teisendamine** määrate juriidilise isiku, konto ja vahet
 - **Kande kuupäev** – iga kande kuupäeva kasutatakse vahetuskursi valimiseks. Seda suvandit kasutatakse kõige rohkem põhivaradel ja seda nimetatakse sageli ajalooliseks kursiks. Te ei näe kursi eelvaadet, kuna konto vahemikus on eri kannete jaoks palju kursse.
 - **Kasutaja määratud kurss** – pärast selle suvandi valimist võite sisestada teile sobiva vahetuskursi. See suvand on kasulik keskmiste vahetuskursside korral või kui konsolideerite fikseeritud vahetuskursside suhtes.
 
-![Vahekaart valuuta ümberarvestus.](./media/currency-translation-cons-online.png "Vahekaart valuuta ümberarvestus")
+![Vahekaart valuuta ümberarvestus](./media/currency-translation-cons-online.png "Vahekaart valuuta ümberarvestus")
 
 ## <a name="additional-resources"></a>Lisaressursid
 
 Lisateavet konsolideerimise ja valuuta teisendamise kohta vaadake selle teema ülemteemast [Finantskonsolideerimiste ja valuutateisenduse ülevaade](./financial-consolidations-currency-translation.md).
 
 Lisateavet stsenaariumide kohta, kus võite luua konsolideeritud finantsaruandeid, vt teemast [Konsolideeritud finantsaruannete loomine](./generating-consolidated-financial-statements.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

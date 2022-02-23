@@ -97,6 +97,3 @@ Andmehalduse raamistiku (DMF) üksus HcmPersonalContactPersonEntity on uuendatud
 ## <a name="known-issue"></a>Teadaolev probleem
 - **Probleemi**: uuele töötajale seotuse lisamisel on nupud **Uus** ja **Redigeeri** hallid. 
 - **Lahendus:** veenduge enne manuse lehe avamist, et **Töötaja** lehe kiirinfod oleksid suletud. Kui kiirinfod on lehe **Töötaja** laadimisel suletud, on manuste nupud lubatud. (See probleem lahendatakse järgmisel platvormivärskendusel.)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

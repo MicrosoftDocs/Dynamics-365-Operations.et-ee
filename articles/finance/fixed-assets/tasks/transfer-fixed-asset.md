@@ -1,30 +1,33 @@
 ---
 title: Põhivara ülekandmine
 description: See tegevuse juhis kannab põhivara raamatu finantsteabe ühest finantsdimensioonist kogumist uude finantsdimensiooni kogumisse.
-author: moaamer
+author: saraschi2
+manager: AnnBe
 ms.date: 07/22/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetTable, AssetTransfer, DimensionLookup, AssetTransferConfirmation
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e573386ddbb97bf60e2e501ba92b225f8716c73a
-ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
-ms.translationtype: MT
+ms.openlocfilehash: eb38483d3ac61acb4513e87d8c36ddd0f8863a10
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7883358"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4442378"
 ---
 # <a name="transfer-a-fixed-asset"></a>Põhivara ülekandmine
 
 [!include [banner](../../includes/banner.md)]
 
-See tegevuse juhis kannab põhivara raamatu finantsteabe ühest finantsdimensioonist kogumist uude finantsdimensiooni kogumisse.  
+See tegevuse juhis kannab põhivara raamatu finantsteabe ühest finantsdimensioonist kogumist uude finantsdimensiooni kogumisse.  See kasutab USMF-i juriidilise isiku puhul raamatupidaja rolli ja demoandmeid.
 
 1. Avage navigeerimispaanil **Moodulid > Põhivara > Põhivara > Põhivara**.
 2. Leidke ja valige loendist vara, mida soovite soetada.
@@ -45,6 +48,3 @@ See tegevuse juhis kannab põhivara raamatu finantsteabe ühest finantsdimensioo
     * Enne põhivara raamatu ülekandmist vaadake tulemusi.  
 10. Klõpsake **Edasta**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

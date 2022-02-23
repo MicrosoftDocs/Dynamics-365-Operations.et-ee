@@ -2,13 +2,16 @@
 title: Isikupärastatud tootesoovituste lubamine
 description: See teema kirjeldab, kuidas teha rakenduses Microsoft Dynamics 365 Commerce isikupärastatud tootesoovitused klientidele kättesaadavaks.
 author: bebeale
+manager: AnnBe
 ms.date: 08/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,18 +19,20 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 74bf2c96d744b8101151be9288a956d46ce3b6885f0cb593dc1b78728b018fb4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8a61ef0720839d371701f2f0a1fdec7e85a5feb7
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770953"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4411645"
 ---
 # <a name="enable-personalized-recommendations"></a>Isikupärastatud soovituste lubamine
 
 [!include [banner](includes/banner.md)]
 
 See teema kirjeldab, kuidas teha rakenduses Microsoft Dynamics 365 Commerce isikupärastatud tootesoovitused klientidele kättesaadavaks.
+
+## <a name="overview"></a>Ülevaade
 
 Rakenduses Dynamics 365 Commerce saavad jaemüüjad teha kättesaadavaks isikupärastatud tootesoovitused (tuntud ka kui isikupärastamine). Sel viisil saab isikupärastatud soovitusi lisada kliendi kasutuskogemusele veebis ja kassas. Kui isikupärastamise funktsioon on sisse lülitatud, saab süsteem seostada kasutaja ostu- ja tooteteabe individualiseeritud tootesoovituste loomiseks.
 
@@ -50,7 +55,7 @@ Isikupärastamise sisselülitamiseks toimige järgmiselt.
 1. Valige funktsioon **Isikupärastatud tootesoovitused**.
 1. Tehke atribuutide paanil **Isikupärastatud tootesoovitused** valik **Luba kohe**.
 
-![Isikupärastamise sisselülitamine.](./media/FeatureManagement_Personalized.PNG)
+![Isikupärastamise sisselülitamine](./media/FeatureManagement_Personalized.PNG)
 
 > [!NOTE]
 > Kui lülitate isikupärastamise sisse, käivitatakse isikupärastatud tootesoovituste loendite loomise protsess. Kuluda võib kuni üks päev enne, kui need loendid on saadaval ja nähtavad veebis ning kassas.
@@ -73,7 +78,7 @@ Enne kui loend „Teile valitud” saab e-kaubanduse lehel ilmuda, peavad järgm
 
 Järgmisel joonisel on kujutatud loendi „Teile valitud” näide veebipoe lehel.
 
-![Veebipõhine loend Teile valitud.](./media/picksforyou.png)
+![Veebipõhine loend Teile valitud](./media/picksforyou.png)
 
 ### <a name="recommended-for-customer-lists-at-the-pos"></a>Loendid „Kliendile soovitatud” kassas
 
@@ -81,7 +86,7 @@ Oma kliendisuhtluse kogemuse parandamiseks saavad jaemüüjad isikupärastada ol
 
 Järgmisel joonisel on kujutatud loendi „Kliendile soovitatud” näide kassaterminalis.
 
-![Loend Kliendile soovitatud kassas.](./media/picksonpos.png)
+![Loend Kliendile soovitatud kassas](./media/picksonpos.png)
 
 ## <a name="apply-personalization-to-existing-recommendation-lists"></a>Isikupärastamise rakendamine olemasolevatele soovituste loenditele
 
@@ -89,7 +94,7 @@ Jaemüüjad saavad rakendada isikupärastamist olemasolevatele soovituste loendi
 
 Näiteks on sisselogitud kasutaja juba ostnud musta kella ja pruunid töösaapad, mis ilmuvad järgmisel joonisel loendis „Populaarne – vaikimisi”. Seetõttu näeb kasutaja nende toodete asemel uusi tooteid, nagu on näidatud loendis „Populaarne – isikustatud”.
 
-![Isikupärastamise rakendamine.](./media/applypersonalization.png)
+![Isikupärastamise rakendamine](./media/applypersonalization.png)
 
 Isikupärastamise rakendamiseks olemasolevale soovituste loendile rakenduse Commerce saidiehitajas, toimige järgmiselt.
 
@@ -99,7 +104,7 @@ Isikupärastamise rakendamiseks olemasolevale soovituste loendile rakenduse Comm
 1. Dialoogiaknas **Vali toote loendi konfigureerimine** jaotises **Tüüp** valige loendi tüüp.
 1. Valige märkeruut **Rakenda isikupärastamine** ja valige seejärel **OK**.
 
-    ![Populaarsete loendile isikupärastamise rakendamine.](./media/ApplyPersonalizationToTrending.PNG)
+    ![Populaarsete loendile isikupärastamise rakendamine](./media/ApplyPersonalizationToTrending.PNG)
 
 1. Salvestage leht, lõpetage selle redigeerimine ja seejärel avaldage see. Pärast lehe avaldamist kuvatakse sisselogitud kasutajatele isikupärastatud populaarsete loendeid.
 
@@ -126,6 +131,3 @@ Isikupärastamise rakendamiseks olemasolevale soovituste loendile rakenduse Comm
 [Soovituste loomine demoandmetega](product-recommendations-demo-data.md)
 
 [Tootesoovituste KKK](faq-recommendations.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

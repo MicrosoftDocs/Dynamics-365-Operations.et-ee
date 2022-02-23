@@ -81,6 +81,3 @@ Kui värbamistöörühm saadab meili, saab kasutada administraatori loodud malle
 
 > [!NOTE] 
 > Automaatselt saadetavatele meilidele saab luua mitu malli. Siiski, aktiivseks malliks saab määrata ainult ühe malli. Sest seda protsessi käivitavad sündmused, saab ainult administraator määrata, millist malli tuleks kasutada. See põhineb mallide teegi märkide **Vaikimisi** ja **Automaatselt saadetav** märkidest.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

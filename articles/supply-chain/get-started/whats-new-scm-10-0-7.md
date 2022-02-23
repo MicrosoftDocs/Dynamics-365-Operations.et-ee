@@ -1,25 +1,27 @@
 ---
 title: Mis on uut või mida on muudetud rakenduses Dynamics 365 Supply Chain Management 10.0.7. (jaanuar 2020)
 description: Selles teemas kirjeldatakse Dynamics 365 Supply Chain Management 10.0.7 uusi või muutunud funktsioone.
-author: kamaybac
+author: josaw1
+manager: tfehr
 ms.date: 12/05/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: josaw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 23d9e186a75c79659ddccb07eeaff805f8e1702f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 4da0c95d753685cc9cce774dc63309a53bd2fbd0
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572861"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963531"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1007-january-2020"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 Supply Chain Management 10.0.7. (jaanuar 2020)
 
@@ -50,7 +52,7 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.7 sisaldab Platform update'i
 ### <a name="dynamics-365-2019-release-wave-2-plan"></a>Dynamics 365 2019. aasta väljalaske 2. voo plaan
 Kas teile pakuvad huvi meie ärirakenduste või platvormi uued ja hiljuti väljaantud võimalused?
 
-Vaadake teemat [Dynamics 365: 2019. aasta väljalaske 2. voo plaan](/dynamics365-release-plan/2019wave2/). Käsitleme ühes dokumendis kõiki üksikasju otsast lõpuni ja ülevalt alla, millest võite plaanide tegemisel lähtuda.
+Vaadake teemat [Dynamics 365: 2019. aasta väljalaske 2. voo plaan](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/). Käsitleme ühes dokumendis kõiki üksikasju otsast lõpuni ja ülevalt alla, millest võite plaanide tegemisel lähtuda.
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Eemaldatud ja aegunud Supply Chain Managementi funktsioonid
 
@@ -62,5 +64,3 @@ Teemas [Eemaldatud või aegunud Dynamics 365 Supply Chain Managementi funktsioon
 Enne mis tahes funktsiooni eemaldamist tootest, teavitatakse aegumisest 12 kuud ette teemas [Eemaldatud või aegunud Dynamics 365 Supply Chain Managementi funktsioonid](removed-deprecated-features-scm-updates.md).
 
 Murranguliste muudatuste puhul, mis mõjutavad ainult kompileerimise aega, kuid on binaarselt ühilduvad liivakasti- ja tootmiskeskkondadega, on aegumise aeg vähem kui 12 kuud. Need on tavaliselt funktsionaalsed uuendused, mida tuleb teha kompilaatori jaoks.
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

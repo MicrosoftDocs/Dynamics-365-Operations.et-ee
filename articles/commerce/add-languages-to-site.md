@@ -2,30 +2,36 @@
 title: Saidile keelte lisamine
 description: Selles teemas selgitatakse, kuidas lisada rakenduse Microsoft Dynamics 365 Commerce saidile täiendavate keelte tugi.
 author: bicyclingfool
+manager: annbe
 ms.date: 12/12/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d118c90dc16be964bb22aa6f170fe2d2f009b3e9
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
-ms.translationtype: MT
+ms.openlocfilehash: fa3029387d5f1ca605fc9559c4272c8dfebcddaf
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964550"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4411613"
 ---
 # <a name="add-languages-to-your-site"></a>Saidile keelte lisamine
+
 
 [!include [banner](includes/banner.md)]
 
 Selles teemas selgitatakse, kuidas lisada rakenduse Microsoft Dynamics 365 Commerce saidile täiendavate keelte tugi.
+
+## <a name="overview"></a>Ülevaade
 
 Saate oma veebisaidi lokaliseerida mis tahes keelde, mida Commerce toetab. (Toetatud keelte loend on toodud selles teemas hiljem.) Oma veebisaidile keele lisamiseks peate selle kõigepealt lisama oma saidiga seotud veebipoele.
 
@@ -165,9 +171,8 @@ Lisatud keel on nüüd saadaval, et saaksite oma saiti konfigureerida kasutama s
 
 [Leheikooni lisamine](add-favicon.md)
 
+[Tervitussõnumi lisamine](add-welcome-message.md)
+
 [Autoriõiguste teatise lisamine](add-copyright-notice.md)
 
 [Telemeetria toetamiseks saidile skriptikoodi lisamine](add-telemetry.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

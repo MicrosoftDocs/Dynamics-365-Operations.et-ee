@@ -2,23 +2,26 @@
 title: Hankija arve poliitikate seadistamine
 description: Selles teemas selgitatakse, kuidas seadistada tarnijate arvete poliitikat.
 author: ShivamPandey-msft
+manager: AnnBe
 ms.date: 07/11/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendParameters,  SysPolicyListPage, SysPolicyParameters, SysPolicySourceDocumentRuleType, SysPolicy, SysPolicySourceDocumentRule, SysQueryForm, SysQueryTableLookUp, SysQueryPrefixLookUp, SysQueryFieldLookUp
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 339f52727b6f5a680f711cf4e6e0b8b0bc290853316fc2f2ff63164c8292d2d8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 58518f5291b70c63506c20717034daff0268901b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728837"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4442384"
 ---
 # <a name="set-up-vendor-invoice-policies"></a>Hankija arve poliitikate seadistamine
 
@@ -56,7 +59,7 @@ Selles teemas selgitatakse, kuidas seadistada tarnijate arvete poliitikat. Hanki
 2. Valige suvand **Uus**.
 3. Sisestage väärtused väljadele **Nimi** ja **Kirjeldus**.
 4. Laiendage või ahendage jaotist **Poliitika organisatsioonid**.
-5. Valige puul **Contoso Meelelahutuse Süsteem USA**.
+5. Valige puust **Contoso Entertainment System USA**.
 6. Valige **Lisa**.
 7. Laiendage või ahendage jaotist **Poliitika reeglid**.
 8. Valige **Poliitika reegli loomine**.
@@ -70,6 +73,3 @@ Selles teemas selgitatakse, kuidas seadistada tarnijate arvete poliitikat. Hanki
 16. Valige nupp **OK**.
 17. Avalehele naasmiseks sulgege leheküljed.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

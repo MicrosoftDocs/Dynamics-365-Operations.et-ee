@@ -1,31 +1,29 @@
 ---
 title: Loo laenuartikleid
 description: Laenuartiklid on kirjed, mis aitavad teil jälgida füüsilisi kaupu, näiteks telefone või arvuteid, mida teie ettevõte töötajatele laenab.
-author: twheeloc
-ms.date: 10/28/2021
+author: andreabichsel
+manager: AnnBe
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmLoanType, DefaultDashboard, HcmLoanItem, HcmWorkerLookUp, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.search.scope: Human Resources
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 21127c46615015c30e06465b390f67b835e746cb
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: 8317a2fbe9d857ed3824631241b99c333b6dc4e8
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068130"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4418149"
 ---
 # <a name="create-loan-items"></a>Loo laenuartikleid
-
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 
 
@@ -33,34 +31,31 @@ Laenuartiklid on kirjed, mis aitavad teil jälgida füüsilisi kaupu, näiteks t
 
 
 ## <a name="create-loan-types"></a>Laenutüüpide loomine
-1. Avage puhasja **human resourcesWorkersLoan** > **·** > **itemsLoan** > **types**.
-2. Klõpsake valikut **Uus**.
-3. Tippige väljale **Laenu liik** väärtus.
-4. Sisestage väärtus väljale **Kirjeldus**.
+1. Avage Inimressursid > Töötajad > Laenuartiklid > Laenutüübid.
+2. Klõpsake valikut Uus.
+3. Sisestage väärtus väljale Laenu tüüp.
+4. Sisestage väljale Kirjeldus soovitud väärtus.
 5. Sisestage päevade arv, mille võrra võib seda tüüpi laenuartiklite tagastamine tähtaja ületada. 
-6. Klõpsake nuppu **Salvesta**.
+6. Klõpsake nuppu Salvesta.
 7. Sulgege leht.
 8. Värskendage lehte.
 
 ## <a name="create-loan-items"></a>Laenuartiklite loomine
-1. Avage **puhasüksusedTöölisedLoan** > **·** > **itemsLoan** > **items**.
-2. Klõpsake nuppu **Loo laenukaubad**.
-3. Sisestage väljale **Kogus** number.
-4. Sisestage väärtus väljale **Kirjeldus**.
-5. Otsingu avamiseks klõpsake väljal **Laenu tüüp** rippmenüü nuppu.
+1. Avage Inimressursid > Töötajad > Laenuartiklid > Laenuartiklid.
+2. Klõpsake suvandit Loo laenuartikleid.
+3. Väljale Kogus väljale Protsessi kogus.
+4. Sisestage väljale Kirjeldus soovitud väärtus.
+5. Klõpsake väljal Laenu tüüp otsingu avamiseks ripploendi nuppu.
 6. Otsige loendist ja valige soovitud kirje.
 7. Klõpsake loendis valitud real olevat linki.
 8. Sisestage päevade arv, mille jooksul artikkel võib olla välja laenatud.
     * Lehe Laenatud seadmed välja Plaanitud tagastus vaikeväärtus arvutatakse, liites tänasele kuupäevale selle numbri.  
-9. **Otsingu avamiseks klõpsake väljal Vastutav** isik rippmenüüd.
-10. Klõpsake **Vali**.
-11. Sisestage väljale **Algväärtus** number.
-12. Sisestage number väljale **Intervall**.
-13. Tippige väljale **Vorming** väärtus.
-    * Näiteks kui laenukauba algusnumber on 10, sisestage väljale **Vorming** kaks numbritähist.  
-14. Klõpsake valikut **OK**.
+9. Klõpsake väljal Vastutav isik otsingu avamiseks ripploendi nuppu.
+10. Klõpsake Vali.
+11. Sisestage number väljale Algväärtus.
+12. Sisestage number väljale Intervall.
+13. Sisestage väärtus väljale Vorming.
+    * Näiteks kui laenuartikli algusnumber on 10, sisestage väljale Vorming kaks numbri sümbolit.  
+14. Klõpsake nuppu OK.
 15. Värskendage lehte.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

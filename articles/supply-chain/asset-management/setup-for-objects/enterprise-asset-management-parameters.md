@@ -1,10 +1,12 @@
 ---
 title: Rakenduse Asset Management parameetrid
 description: Rakenduses Asset Management tuleb seadistada varade, töökäskude ja töökäsu planeerimisega seotud parameetrid.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 02/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetParameters
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4e1deef00f01d83bc809a004265c386ba9d300df5fa4a1be245812ed5632059f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5e4b76ba90ab03cd35e72eff8acc89f780659fa5
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6751957"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020649"
 ---
 # <a name="asset-management-parameters"></a>Rakenduse Asset Management parameetrid
 
@@ -68,7 +70,7 @@ Vahekaart **Töökäsud** sisaldab järgmisi sätteid.
 Vahekaart **Töökäsu plaanimine** sisaldab kiirkaardi **Üldine** järgmisi sätteid.
 
 - **Graafiku ajapiir** määratleb perioodi päevades, mis arvutatakse töökäsu eeldatavast alguskuupäevast, mille jooksul töökäsu töid planeeritakse.  
-- **Koondplaan** on seotud mooduli **Organisatsiooni haldus** ressurssidega. Kui valite sellel väljal koondplaani, saate vaadata töökäskudega seotud võimsuse reserveerimisi valikus **Võimsuse reserveerimised** (**Organisatsiooni haldus** > **Ressursid** > **Ressursid** > valige ressurss vahekaardil > **Ressurss** nupp > **Võimsuse reserveerimised**). Kui jätate selle välja tühjaks, saate vaadata töökäskude täiskoormusi valikus **Täiskoormus** (**Organisatsiooni haldus** \> **Ressursid** \> **Ressursid** \> valige ressursi vahekaart \> **Ressurss** \> **Täiskoormus** nupp).  
+- **Koondplaan** on seotud mooduli **Organisatsiooni haldus** ressurssidega. Kui valite sellel väljal koondplaani, saate vaadata töökäskudega seotud võimsuse reserveerimisi valikus **Võimsuse reserveerimised** (**Organisatsiooni haldus** > **Ressursid** > **Ressursid** > valige ressurss vahekaardil > **Ressurss** nupp > **Võimsuse reserveerimised**). Kui jätate selle välja tühjaks, saate vaadata töökäskude täiskoormusi valikus **Täiskoormus** (**Organisatsiooni haldus** \> **Ressursid** \> **Ressursid** \> valige ressursi vahekaart  \> **Ressurss** \> **Täiskoormus** nupp).  
 
 >[!NOTE]
 >Valik, mis puudutab koondplaani kasutamist moodulis **Varade haldus** ja seotud vorm, mida kasutatakse võimsuse reserveerimiste või täiskoormuse ülevaate saamiseks, on standardseadistus. Olenevalt seadistusest väljal **Koondplaan**, on teil võimalik pääseda võimsuse teabele juurde nii valikus **Võimsuse reserveerimine** kui ka **Täiskoormus** moodulis **Organisatsiooni haldus**. Seadistust ei saa luua, kui mõlemas vaates kuvatakse võimsuse reserveerimised.  
@@ -99,11 +101,8 @@ Järgmises loendis kirjeldatud väljad on seotud arvutatud hinnanguskooridega, m
 
 ## <a name="the-document-types-tab"></a>Vahekaart Dokumendi tüübid
 
-Saate valida dokumentide tüübid, mis peaksid olema saadaval töökäsu aruandega seotud manuste printimiseks. Selleks valige jaotises **Saadaolevad** dokumendi tüüpi ja valige ![edasi nool.](media/15-setup-for-objects.png). Kui soovite valitud dokumenditüübi eemaldada, valige dokumenditüüp jaotises **Valitud** ja valige ![tagasinool](media/16-setup-for-objects.png) nuppu.
+Saate valida dokumentide tüübid, mis peaksid olema saadaval töökäsu aruandega seotud manuste printimiseks. Selleks valige jaotises **Saadaolevad** dokumendi tüüpi ja valige ![edasinoole](media/15-setup-for-objects.png). Kui soovite valitud dokumenditüübi eemaldada, valige dokumenditüüp jaotises **Valitud** ja valige ![tagasinool](media/16-setup-for-objects.png) nuppu.
 
 ## <a name="the-number-sequences-tab"></a>Vahekaart Numbriseeriad
 
 Valige selles jaotises nõutavad numbriseeriad. Varade jaoks on kaks numbriseeriat: üks käsitsi loodud varadele ja üks ootel varade kaudu loodud varadele.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

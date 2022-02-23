@@ -1,10 +1,12 @@
 ---
 title: Hoolduskavade plaanimine
 description: Selles teemas selgitatakse hoolduskavade plaanimist varahalduses.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 08/27/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: bd5192f727c83c017148405fb1b3ee587c118542450d46b5822d86cd1676d8fd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9c215417eacb8a0e1ec0a8324fe35fc053089afb
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6731315"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016902"
 ---
 # <a name="schedule-maintenance-plans"></a>Hoolduskavade plaanimine
 
@@ -52,14 +54,14 @@ Ennetav hoolduskavade plaanimine loob kalendri varade kohta seadistatud hooldusp
 
 5. Klõpsake **OK**, et alustada hooldusgraafiku kannete loomist varade kohta. Loodud kandeid näidatakse loendilehel **Kõik hooldusgraafikud**. Järgnev illustratsioon näitab dialoogi **Plaani hoolduskavad** näidet.
 
-![Joonis 1.](media/09-preventive-maintenance.png)
+![Joonis 1](media/09-preventive-maintenance.png)
 
 - Dialoogis **Plaani hoolduskavad** saate seadistada pakett-tööd kiirkaardil **Käivita taustal**, et kalendri kannete loomine toimuks automaatselt regulaarsete intervallidega.  
 - Kui plaanite ennetava hoolduse, ei looda hooldusgraafiku ridu, mille oodatav alguskuupäev ja kellaaeg on varasemad kui süsteemi kuupäev ja kellaaeg.  
 
 Alloleval joonisel on kujutatud graafiline illustratsioon ajapõhisest hoolduskava arvutusest.  
 
-![Joonis 2.](media/10-preventive-maintenance.jpg)
+![Joonis 2](media/10-preventive-maintenance.jpg)
 
 Loenduripõhistest hoolduskavadest: allolevatel joonistel kuvatakse kahte erinevat loenduri registreerimise tsüklit. Need põhinevad hoolduskaval, mis on seadistatud vara "V0001" jaoks ja eeldatakse, et vara (auto) sõidab iga kuu ligikaudu 2000 km.
 
@@ -69,10 +71,7 @@ Järgmisel joonisel registreeritakse igal kuul 2000 või enam km. Seetõttu luua
 
 Siin kirjeldatud näidete põhjal on näha, et kõik vara kohta tehtud loenduri registreeringud näitavad tendentsi, mis kirjeldab vara kulumist. Seda tendentsi kasutatakse arvutuse aluseks hoolduskava plaanimise ajal.
 
-![Joonis 3.](media/11-preventive-maintenance.png)
+![Joonis 3](media/11-preventive-maintenance.png)
 
-![Joonis 4.](media/12-preventive-maintenance.png)
+![Joonis 4](media/12-preventive-maintenance.png)
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

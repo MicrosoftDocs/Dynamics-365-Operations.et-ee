@@ -2,13 +2,16 @@
 title: Kassa kasutajaliidese visuaalsed konfiguratsioonid
 description: Selles teemas käsitletakse Dynamics 365 Commercei kassa ekraanipaigutusi.
 author: boycezhu
+manager: annbe
 ms.date: 09/22/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailTillLayout
 audience: Application user
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: 90573
 ms.assetid: a6868f93-02ed-4928-9f6a-3b7383e7e399
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: boycez
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 17379dc97c7a8b22912482a7aeebd0d8ac08dc496fa7b1661952bca10a21c75b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2a6fdbc957a50adba38627bc37622c17ab4be419
+ms.sourcegitcommit: 510ca8b14d8b5334e50aca1b15d636c65fcc9888
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765876"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4411806"
 ---
 # <a name="pos-user-interface-visual-configurations"></a>Kassa kasutajaliidese visuaalsed konfiguratsioonid
 
@@ -32,15 +35,15 @@ Microsoft Dynamics 365 Commerce'i kassa kasutajaliidest saab konfigureerida kaup
 
 Järgmine joonis näitab seoseid erinevate olemite vahel, millest kassa UI konfigureeritavad aspektid koosnevad.
 
-![Kassa ekraanipaigutuse olemid.](../commerce/media/POS-layout-configuration-entities-diagram.png)
+![Kassa ekraanipaigutuse olemid](../commerce/media/POS-layout-configuration-entities-diagram.png)
 
 ## <a name="visual-profile"></a>Visuaalne profiil
 
 Visuaalsed profiilid määratakse registritele ja need määravad kasutajate vahel jagatavad registripõhised visuaalsed elemendid. Iga kasutaja, kes registrisse sisse logib, näeb sama kujundust, paigutust, värve ja pilte.
 
-![Kassa tervituskuva heleda kujundusega.](../commerce/media/POS-Welcome-Screen-with-Light-theme.png)
+![Kassa tervituskuva heleda kujundusega](../commerce/media/POS-Welcome-Screen-with-Light-theme.png)
 
-![Kassa kandekuva tumeda kujundusega.](../commerce/media/POS-Transaction-Screen-with-Dark-theme.png)
+![Kassa kandekuva tumeda kujundusega](../commerce/media/POS-Transaction-Screen-with-Dark-theme.png)
 
 - **Profiili number** – profiili number on visuaalse profiili ainuidentifikaator.
 - **Kirjeldus** – saate määrata kirjeldava nime, mis aitab tuvastada teie olukorra jaoks sobiva profiili.
@@ -65,15 +68,15 @@ Peate käivitama jaotusgraafiku töö **1090** (**Registrid**), et sünkroonida 
 
 Ekraanipaigutuse konfiguratsioonid määratlevad juhtelementide toimingud, sisu ja paigutuse kassa **tervitusekraanil** ning ekraanil **Kanne**.
 
-![Kassa ekraanipaigutus.](../commerce/media/POS-Screen-Layout-View.png)
+![Kassa ekraanipaigutus](../commerce/media/POS-Screen-Layout-View.png)
 
 - **Tervitusekraan** – enamasti on tervitusekraan leht, mida kasutajad näevad, kui nad alguses kassasse sisse logivad. Tervitusekraan võib koosneda kaubamärgipildist ja nupupaneelidest, millelt pääseb kassatoimingute juurde. Tavaliselt paigutatakse sellele ekraanile toimingud, mis ei ole jooksva kande põhised.
 
-    ![Kassa tervitusekraan.](../commerce/media/POS-Welcome-Screen.png)
+    ![Kassa tervitusekraan](../commerce/media/POS-Welcome-Screen.png)
 
 - **Kandeekraan** – ekraan **Kanne** on kassa põhiekraan müügikannete ja tellimuste töötlemiseks. Sisu ja paigutust saab konfigureerida ekraani paigutuse kujundajaga.
 
-    ![Kassa kandeekraan.](../commerce/media/POS-Transaction-Screen.png)
+    ![Kassa kandeekraan](../commerce/media/POS-Transaction-Screen.png)
 
 - **Vaikeavakuva** – mõned jaemüüjad eelistavad, et kassapidajad läheksid pärast sisselogimist kohe ekraanile **Kanne**. Säte **Vaikeavakuva** võimaldab teil määrata vaikekuva, mis kuvatakse pärast sisselogimist iga ekraanipaigutuse korral.
 
@@ -89,7 +92,7 @@ Kassa kasutajaliidese enamik aspekte on reageerivad ning paigutuse suurust muude
 
 Käivitamisel valib kassarakendus automaatselt lähima paigutuse suuruse, mis on seadme jaoks konfigureeritud. Ekraani paigutus võib sisaldada ka konfiguratsioone horisontaal- ja vertikaalpaigutuse jaoks nii täissuuruses kui ka kompaktsete seadmete jaoks. Seetõttu saab kasutajatele määrata ühe ekraanipaigutuse, mis töötab kaupluse kasutatavate mitmesuguste suuruse ja vormi tegurite lõikes.
 
-![Kassa paigutuse suurused.](../commerce/media/POS-Screen-Layout-Sizes.png)
+![Kassa paigutuse suurused](../commerce/media/POS-Screen-Layout-Sizes.png)
 
 - **Nimi** – saate ekraani suuruse tuvastamiseks sisestada tähendusliku nime.
 - **Paigutuse tüüp** – kassarakenduse saab selle kasutajaliidese kuvada erinevates režiimides, et pakkuda igas seadmes parimat kasutuskogemust.
@@ -102,7 +105,7 @@ Käivitamisel valib kassarakendus automaatselt lähima paigutuse suuruse, mis on
 > [!TIP]
 > Kassa ekraani jaoks vajaliku paigutuse suuruse leiate, kui vaatate rakenduses eraldusvõimet. Käivitage kassa ja avage **Sätted \> Seansi teave**. Kassa kuvab praegu laaditud ekraani paigutuse, paigutuse suuruse ja rakenduse akna eraldusvõime.
 
-![Kassa seansi teabe leht kuvab praegu laaditud ekraani paigutuse, paigutuse suuruse ja rakenduse akna eraldusvõime.](../commerce/media/POS-Session-Information.png)
+![Kassa seansi teabe leht kuvab praegu laaditud ekraani paigutuse, paigutuse suuruse ja rakenduse akna eraldusvõime](../commerce/media/POS-Session-Information.png)
 
 ### <a name="button-grids"></a>Nupupaneelid
 
@@ -112,10 +115,7 @@ Kassa täispaigutustes on nupupaneelide paigutus määratletud ekraani paigutuse
 
 Kassa kompaktsetes paigutustes paigutatakse nupupaneelid automaatselt ülevalt alla, väikseimast numbrist (kandekuva 1) suurima numbrini. Neile pääseb juurde menüüst **Tegevused**.
 
-![Kompaktse paigutuse nupupaneelid.](../commerce/media/Compact-View-Button-Grids.png)
-
-> [!NOTE]
-> Nupu suurused kujundajas sobituvad akna suurusega, seega ei pruugi nad tegelikke kassa nuppe täpselt peegeldada. Nupupaneeli paigutust saate kõige paremini simuleerida kohandades kujundaja akna sama suures, kui kassa.
+![Kompaktse paigutuse nupupaneelid](../commerce/media/Compact-View-Button-Grids.png)
 
 ### <a name="images"></a>Pildid
 
@@ -132,7 +132,7 @@ Ekraanipaigutuse kujundaja võimaldab teil konfigureerida kassa ekraani **Kanne*
 
 Täispaigutuse kujundaja võimaldab kasutajatel lohistada kasutajaliidese juhtelemente ekraanile **Kanne** ja konfigureerida nende juhtelementide sätteid.
 
-![Kassa täispaigutuse kujundaja (horisontaalrežiim).](../commerce/media/POS-Full-Layout-Designer-Landscape.png)
+![Kassa täispaigutuse kujundaja (horisontaalrežiim)](../commerce/media/POS-Full-Layout-Designer-Landscape.png)
 
 - **Impordi paigutus / Ekspordi paigutus** – saate eksportida ja impordi kassa ekraanipaigutuse kujundusi XML-failidena, et saaksite neid erinevates keskkondades hõlpsalt uuesti kasutada ja ühiskasutusse anda. On oluline, et impordite paigutuse kujundused õigete paigutuse suuruste jaoks. Vastasel juhul ei pruugi kasutajaliidese elemendid õigesti ekraanile sobida.
 - **Horisontaalne/vertikaalne režiim** – kui kassaseade võimaldab kasutajatel vahetada horisontaalse ja vertikaalse režiimi vahel, peate iga režiimi jaoks määratlema ekraanipaigutuse. Kassa tuvastab ekraani pööramise automaatselt ja kuvab õige paigutuse.
@@ -140,11 +140,11 @@ Täispaigutuse kujundaja võimaldab kasutajatel lohistada kasutajaliidese juhtel
 - **Kujundaja suum** – saate suumida kujundaja vaadet sisse ja välja, et näha sisu kassaekraanil paremini. See funktsioon on kasulik, kui kassaekraani eraldusvõime erineb oluliselt kujundajas kasutatava ekraani eraldusvõimest.
 - **Navigeerimisriba kuvamine/peitmine** – kassa täispaigutuste jaoks saate valida, kas ekraanil **Kanne** on vasakpoole navigeerimisriba nähtav. See funktsioon on kasulik väiksema eraldusvõimega ekraanidel. Nähtavuse seadmiseks paremklõpsake kujundajas navigeerimisribal ja märkige või tühjendage märkeruut **Alati nähtav**. Kui navigeerimisriba on peidetud, saavad kassa kasutajad sellele siiski juurdepääsu üleval vasakul oleva menüü abil.
 
-    ![Kuva/peida navigeerimisriba.](../commerce/media/Navigation-Bar.PNG)
+    ![Kuva/peida navigeerimisriba](../commerce/media/Navigation-Bar.PNG)
 
 - **Kassa juhtelemendid** – kassa paigutuse kujundaja toetab järgmisi juhtelemente. Saate paljusid juhtelemente konfigureerida paremklõpsates ja kasutades kiirmenüüd.
 
-    ![Kassa kasutajaliidese juhtelemendid.](../commerce/media/POS-UI-Controls.png)
+    ![Kassa kasutajaliidese juhtelemendid](../commerce/media/POS-UI-Controls.png)
 
     - **Numbriklahvistik** – numbriklahvistik on kassa ekraanil **Kanne** peamine kasutaja sisestusvahend. Saate konfigureerida juhtelemente nii, et kuvatakse kogu numbriklahvistik. See valik sobib hästi puuteekraaniga seadme korral. Teise võimalusena saate seda konfigureerida nii, et kuvatakse ainult sisestusväli. Sellisel juhul kasutatakse sisestamiseks füüsilist klaviatuuri. Numbriklahvistiku sätted on saadaval ainult täispaigutuses. Kompaktsete paigutuste korral kuvatakse ekraanil **Kanne** alati kogu numbriklahvistik.
     - **Kogusummade paneel** – saate konfigureerida kogusummade paneeli ühes või kahes veerus kuvama väärtusi, nagu ridade arv, allahindluse summa, tasud, vahesumma ja maksud. Kompaktsed paigutused toetavad ainult üht veergu.
@@ -159,13 +159,13 @@ Täispaigutuse kujundaja võimaldab kasutajatel lohistada kasutajaliidese juhtel
 
 Kompaktse paigutuse kujundaja võimaldab teil sarnaselt täispaigutuse kujundajale konfigureerida kassaekraani paigutust telefonide ja väikeste tahvelarvutite jaoks. Kuid sellisel juhul on paigutus fikseeritud. Saate paigutuse juhtelemente konfigureerida paremklõpsates ja kasutades kiirmenüüd. Kuid te ei saa täiendavat sisu hiirega pukseerida.
 
-![Kompaktse paigutuse kujundaja.](../commerce/media/Compact-Layout-Designer.png)
+![Kompaktse paigutuse kujundaja](../commerce/media/Compact-Layout-Designer.png)
 
 ### <a name="button-grid-designer"></a>Nupupaneeli kujundaja
 
 Nupupaneeli kujundaja võimaldab teil konfigureerida nupupaneele, mida kasutatakse nii täis- kui ka kompaktses paigutuses kassa tervituskuval ja ekraanil **Kanne**. Sama nupupaneeli saab kasutada kõigis paigutustes ja paigutuse tüüpides. Nupupaneeli kujundaja kasutab sarnaselt ekraanipaigutuse kujundajale juurutuse tehnoloogiat ClickOnce rakenduse uusima versiooni allalaadimiseks, installimiseks ja käivitamiseks iga kord, kui kasutaja sellele juurde pääseb. Kontrollige brauseri nõudeid ClickOnce'i jaoks. Mõned brauserid, nagu Google Chrome, vajavad laiendusi.
 
-![Nupupaneeli kujundaja.](../commerce/media/Button-Grid-Designer.png)
+![Nupupaneeli kujundaja](../commerce/media/Button-Grid-Designer.png)
 
 - **Uus nupp** – klõpsake uue nupu lisamiseks nupupaneelile. Vaikimisi kuvatakse uued nupud paneeli ülemises vasakpoolses nurgas. Kuid saate nuppe neid paigutuses lohistades ümber paigutada.
 
@@ -178,7 +178,7 @@ Nupupaneeli kujundaja võimaldab teil konfigureerida nupupaneele, mida kasutatak
     > [!IMPORTANT]
     > Mõned nupupaneeli sätted kehtivad ainult ettevõtte kassas, mitte Modern POS-is ega pilvekassas.
 
-    ![Nupupaneeli nupu atribuudid.](../commerce/media/Button-grid-button-properties.png)
+    ![Nupupaneeli nupu atribuudid](../commerce/media/Button-grid-button-properties.png)
 
     - **Tegevus** – valige kohaldatavate kassatoimingute loendist toiming, mis käivitatakse nupu klõpsamisel kassas.
 
@@ -190,7 +190,7 @@ Nupupaneeli kujundaja võimaldab teil konfigureerida nupupaneele, mida kasutatak
     - **Kohtspikker** – saate määratava täiendava spikri teksti, mis kuvatakse, kui kasutaja viib hiire nupu kohale.
     - **Suurus veergudes / suurus ridades** – saate määrata, kui kõrge ja lai nupp on.
 
-        ![Kassa nuppude suurused ridades ja veergudes.](../commerce/media/POS-Button-Sizes-In-Rows-And-Columns.png)
+        ![Kassa nuppude suurused ridades ja veergudes](../commerce/media/POS-Button-Sizes-In-Rows-And-Columns.png)
 
     - **Kohandatud font** – kui valite märkeruudu **Luba kassa jaoks kohandatud font**, saate valida muu fondi kui kassa süsteemi vaikefont.
     - **Kohandatud kujundus** – vaikimisi kasutatakse kassa nuppude jaoks rõhuvärvi visuaalsest profiilist. Kui valite märkeruudu **Kasuta kohandatud kujundust**, saate määrata täiendavad värvid.
@@ -200,11 +200,8 @@ Nupupaneeli kujundaja võimaldab teil konfigureerida nupupaneele, mida kasutatak
 
     - **Nupu pilt** – nuppudele saab lisada pilte või ikoone. Valige saadaolevate piltide hulgast, mis on toodud asukohas **Jaemüük ja kaubandus \> Kanali häälestus \> Kassa häälestus \> Kassa \> Pildid**.
 
-![Nupupaneeli näide kassas.](../commerce/media/Example-Button-Grid-In-POS.png)
+![Nupupaneeli näide kassas](../commerce/media/Example-Button-Grid-In-POS.png)
 
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Jaemüügikassa paigutuse kujundaja installimine](install-pos-layout-designer.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

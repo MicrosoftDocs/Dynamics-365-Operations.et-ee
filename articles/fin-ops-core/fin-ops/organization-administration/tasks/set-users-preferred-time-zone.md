@@ -2,9 +2,11 @@
 title: Kasutaja eelistatud ajavööndi seadistamine
 description: Selles teemas selgitatakse, kuidas saab süsteemiadministraatori rolliga kasutaja seadistada kasutaja ajavööndit.
 author: pvillads
+manager: AnnBe
 ms.date: 07/08/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysUserManagement, SysUserSetup
 audience: Application User
@@ -13,19 +15,16 @@ ms.search.region: Global
 ms.author: pvillads
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 32417694e53600836370ecc5601d36057cc55de9
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: cd336a59481c77d4e0a22f14f8bb2ce6dbd8f028
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065601"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798951"
 ---
 # <a name="set-a-users-preferred-time-zone"></a>Kasutaja eelistatud ajavööndi seadistamine
 
 [!include [banner](../../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../../includes/peap-1.md)]
 
 Järgmises teemas selgitatakse, kuidas saab süsteemiadministraatori rolliga kasutaja seadistada kasutaja ajavööndit.
 
@@ -36,6 +35,3 @@ Järgmises teemas selgitatakse, kuidas saab süsteemiadministraatori rolliga kas
 5. Valige väljal **Ajavöönd** ripploendist suvand.
 6. Valige käsk **Salvesta**.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

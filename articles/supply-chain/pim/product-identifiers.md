@@ -1,31 +1,34 @@
 ---
 title: Toote identifikaatorid
 description: Selles teemas kirjeldatakse erinevaid toote identifikaatoreid ja kirjeldatakse, kuidas lisada toote identifikaatoreid toote andmetesse.
-author: t-benebo
+author: cvocph
+manager: tfehr
 ms.date: 03/27/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductEntityIdentifierCode, EcoResProductListPage, EcoResProductDetailsExtended, EcoResProductVariantsPerCompany
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: benebotg
+ms.author: kamaybac
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 638b5c3b0c83f67f3d99331b6456efd1b8f5225a
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
-ms.translationtype: MT
+ms.openlocfilehash: c16818f1dc52c9e21130539213e7e8d1053fef1d
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063337"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4529182"
 ---
 # <a name="product-identifiers"></a>Toote identifikaatorid
 
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 [!include [banner](../includes/banner.md)]
 
@@ -39,9 +42,9 @@ Rakenduses Dynamics 365 Supply Chain Management on toote peamine identifikaator 
 
 Paljudel juhtudel pole tootenumber algselt loodud rakenduses Dynamics 365 Supply Chain Management. Selle asemel on see seotud tootega toote elutsükli halduse (PLM) süsteemis või toote teabehalduse (PDM) süsteemis. Sel juhul saate toodete ja tootevariantide importimiseks kasutada andmeüksuseid. Tarneahela haldus kasutab seejärel kõigi operatsioonide numbreid.
 
-Kui juurutate rakendust Tarneahela haldus, peaksite pöörama erilist tähelepanu oma tootenumbrite strateegiale. Hea nummerdamissüsteem parandab logistikavoogusid ja aitab vältida vigu. Hea toote identifikaator peaks tavaliselt olema 20 tähemärki või vähem, kuid üldiselt soovitame kasutada vähem kui 10 tähemärki ja mitte rohkem kui 5 klassifitseerimine tähemärki. Samuti saate kiirotsingute lubamiseks kasutada otsingunimesid. Otsingunimi on täiendav nimi, mis tähistab toote klassifikatsioone.
+Kui juurutate rakendust Tarneahela haldus, peaksite pöörama erilist tähelepanu oma tootenumbrite strateegiale. Hea nummerdamissüsteem parandab logistikavoogusid ja aitab vältida vigu. Hea toote identifikaator sisaldab kuni 15 tähemärki. Ideaaljuhul sisaldab see vähem kui 10 tähemärki ja kuni viis liigitavat tähemärki. Samuti saate kiirotsingute lubamiseks kasutada otsingunimesid. Otsingunimi on täiendav nimi, mis tähistab toote klassifikatsioone.
 
-Kui kasutate teenust Microsoft Dataverse, siis on ka toote number Supply Chain Managementis ka toote number teenuses Microsoft Dataverse. Tootevariandid sünkroonitakse Dataverse’iga eristatavate toodetena.
+Kui kasutate Common Data Service, siis on ka toote number Tarneahela halduses ka toote number Common Data Service-is. Tootevariandid sünkroonitakse Common Data Service-iga eristatavate toodetena.
 
 ## <a name="item-number-and-product-dimensions"></a>Kaubakood ja tootedimensioonid
 
@@ -72,7 +75,7 @@ Otsingunimi võib sisaldada ka kliendi või hankija toote ID-d või mõnda muud 
 
 Väljastatud toodete jaoks saate hallata kaubakoode, kauba nimesid ja kauba kirjeldusi, mida klient või hankija kasutab. Viited kuvatakse välistel dokumentidel, nagu müügitellimused, ostutellimused, saatelehed ja arved. Rakenduse Tarneahela haldus praeguses versioonis ei kuvata väliseid viiteid põhitoimingute lehtedel. Ainsaks erandiks on hankija kaubakood. See number kuvatakse dialoogiboksis **Tooteteave**, kui väljastatud toote jaoks on määratud vaikehankija.
 
-Saate hallata väliseid toote identifikaatoreid väljastatud toote, väljastatud tootevariandi, kliendi, kliendigrupi, hankija või hankijagrupi kaupa.
+Saate hallata väliseid toote identifikaatoreid väljastatud toote, väljastatud tootevariandi, kliendi või kliendigrupi või hankija või hankijagrupi kaupa.
 
 Lehel **Väljastatud tooted** tehke üht järgmistest.
 
@@ -106,7 +109,7 @@ Vöötkoodide haldamiseks valige lehel **Väljastatud tooted** vahekaardil **Hal
 
 e-Commerce’is on oluline, et kõik osapooled räägiksid ühist keelt ja viitaksid toodetele ühist identifikaatorite kogumit kasutades. Seetõttu tuginevad mõned tööstusharud süsteemile [GTIN](https://www.gs1.org/id-keys/gtin), mis on globaalne kaubakoodide süsteem, mida pakub GS1.
 
-Soovitame GTIN säilitada kui vöötkood. Kuid saate seda hallata ka lehel **Kaup – GTIN**. Selle lehe avamiseks valige lehel **Väljastatud tooted** vahekaardil **Halda varusid** grupis **Ladu** suvand **GTIN-koodid**. GTIN-i ei hallata globaalse numbrina. Selle asemel haldab seda juriidiline isik.
+Soovitame GTIN säilitada kui vöötkood. Kuid saate seda hallata ka lehel **Kaup – GTIN**. Selle lehe avamiseks valige lehel **Väljastatud tooted** vahekaardil **Halda varusid** grupis **Ladu** suvand **GTIN-koodid**. Pange tähele, et GTIN-i ei hallata globaalse numbrina. Selle asemel haldab seda juriidiline isik.
 
 Rakenduses Tarneahela haldus saate laotoimingutes määratleda pakendamisvariandid, määrates kindlad mõõtühikud. Näiteks võib kaup olla ladustatud tükkidena, kuueste komplektidena, 18 kaupa sisaldavate alustena või täis kaubaalustena. Iga pakendamisvariandi jaoks määratletakse kindel mõõtühik. Kuna GTIN on tavaliselt seotud toote pakendamisüksusega, saate lehel **Kaup – GTIN** hallata erinevaid GTIN-koode toote ja mõõtühiku kohta. Siiski ei saa te sama GTIN-koodi kasutada juriidilise isiku erinevate kaupade või tootevariantide jaoks rohkem kui üks kord.
 
@@ -124,12 +127,12 @@ Kahjuks pole standardfunktsiooni, mis võimaldaks tooteid otsida väliste koodid
 |-------------|--------------------|--------------------|----------|
 | Tooted V2 | Tootenumber, toote otsingunimi, toote nimi, toote kirjeldus | Tootenumber, toote otsingunimi, toote nimi, toote kirjeldus | Olenevalt üksuse sätetest ja tootenumbri numbriseeriast saab tootenumbri luua automaatselt importimise ajal. |
 | Tootevariandid | Tootenumber, toote otsingunimi, toote nimi, toote kirjeldus | Tootenumber, toote otsingunimi, toote nimi, toote kirjeldus | Olenevalt tootenomenklatuuri mallist saab toote numbri luua automaatselt importimise ajal. Kuid saate importida mis tahes kordumatu tootenumbri ja see tootenumber ei pea järgima tootenomenklatuuri mallide struktuuri. |
-| Toote tõlked | Toote nimi, toote kirjeldus | Toote nimi, toote kirjeldus | See üksus alistab iga keele. Kui juriidilise isiku esmase keele nimi või kirjeldus alistatakse, muutub toote nimi ja kirjeldus. |
+| Toote tõlked | Toote nimi, toote kirjeldus | Toote nimi, toote kirjeldus | See üksus alistab iga keele. Pange tähele, et kui juriidilise isiku esmase keele nimi või kirjeldus alistatakse, muutub toote nimi ja kirjeldus. |
 | Väljastatud toote loomine V2 | Kaubakood, tootenumber, kauba otsingunimi| Kaubakood, tootenumber, kauba otsingunimi, toote otsingunimi, toote nimi | See üksus võib olla väljakutse, kui uute väljastatud toodete loomise ajal kasutatakse numbriseeriaid. Seda mõjutavad nii **kaubakoodi** numbriseeria kui ka **tootenumbri** numbriseeria. Kuid **kaubakoodi** numbriseeria kehtib juriidilise isiku kohta, samal ajal kui **tootenumbri** numbriseeria on globaalne. Seetõttu pole soovitatav uute väljastatud toodete juurutamisel kasutada **kaubakoodi** numbriseeriat. Kui üksust kasutatakse olemasoleva toote väljastamiseks, tuleb üksuses esitada tootenumber. Lisateavet vaadake selle teema jaotisest „Toote ja kauba numbriseeriad”. |
 | Väljastatud tootevariandid | Kaubakood, tootedimensioonid, tootenumber | Tootenumber, toote otsingunimi, toote nimi, toote kirjeldus, tootedimensioonid | Sarnaselt **tootevariantide** üksusele saab ka seda üksust kasutada uute toodete loomiseks, mis järgivad variandi jaoks tootenomenklatuuri malli või kasutavad enda tootenumbreid. |
 | Klientide väline kaubakirjeldus | Kliendi kaubakood, kliendi kauba nimi, kliendi kirjeldus, kliendi konto | Kliendi kaubakood, kliendi kauba nimi, kliendi kirjeldus, kliendi konto | Klientide gruppi (näiteks ostjaseos) saab koondada ühte gruppi, kasutades üksust **Välise kaubakirjelduse kliendigrupid**. |
 | Hankijate väline kaubakirjeldus | Hankija kaubakood, hankija kauba nimi, hankija kirjeldus, hankija konto | Hankija kaubakood, hankija kauba nimi, hankija kirjeldus, hankija konto | Hankijate gruppi (näiteks müügiseos või tööstusorganisatsioon) saab koondada ühte gruppi, kasutades üksust **Välise kaubakirjelduse hankijagrupid**. |
-| Kauba vöötkood | Vöötkood | Vöötkood | Importimise ajal peate viitama vöötkoodi häälestusele, mis on määratletud sihtsüsteemis. Imporditud vöötkoodiviiteid kontrollitakse selle vöötkoodi häälestuse suhtes ja need lükatakse tagasi, kui vöötkoodid ei vasta selles häälestuses määratletud nõuetele. |
+| Kauba vöötkood | Vöötkood | Vöötkood | Pange tähele, et importimise ajal peate viitama vöötkoodi häälestusele, mis on määratletud sihtsüsteemis. Imporditud vöötkoodiviiteid kontrollitakse selle vöötkoodi häälestuse suhtes ja need lükatakse tagasi, kui vöötkoodid ei vasta selles vöötkoodi häälestuses määratletud nõuetele. |
 | Väljastatud toodete väliskoodid | Väline kood | Väline kood, väliskoodi klassid, kaubakood | Välised koodid on esitatud juriidilise isiku alusel. Importimiseks peate viitama määratletud koodiklassile. Importige koodiklassid, kasutades üksust **Väljastatud toodete väliskoodi klassid**. |
 | Väljastatud toodevariantide väliskoodid | Väline kood | Väline kood, väliskoodi klassid, kaubakood, tootedimensioonid | Välised koodid on esitatud juriidilise isiku alusel. Importimiseks peate viitama määratletud koodiklassile. Importige koodiklassid, kasutades üksust **Väljastatud toodete väliskoodi klassid**. See üksus viitab tootevariantidele kaubakoodi ja tootedimensioonide alusel. |
 | Väljastatud tootevariantide välised koodid tootenumbri identifikaatori järgi | Väline kood | Väline kood, väliskoodi klassid, tootenumber | Välised koodid on esitatud juriidilise isiku alusel. Importimiseks peate viitama määratletud koodiklassile. Importige koodiklassid, kasutades üksust **Väljastatud toodete väliskoodi klassid**. See üksus viitab tootevariantidele variandi tootenumbri järgi. (Alates järgmisest peamisest väljalaskest) |
@@ -158,13 +161,13 @@ Järgmine tabel annab ülevaate importimise ja käsitsi loomise tulemustest, kui
 | Tootenumbri numbriseeria | Kaubakoodi numbriseeria | Kaubakoodi vastendamine | Tootenumbri vastendamine | Üksuse importimise tulemus | Käsitsi loomise tulemus | Lõppsõna |
 |--------------------------------|-----------------------------|----------------------------|-------------------------------|-------------------------|----------------------------|-----------|
 | Käsitsi = ei | Käsitsi = ei | Vastendamist pole. | Vastendamist pole. | Tootenumbrid kasutavad numbriseeriat **Tootenumber**. Kaubakoodid kasutavad numbriseeriat **Kaubakood**. | Tootenumbrid kasutavad numbriseeriat **Tootenumber**. Kaubakoodid kasutavad numbriseeriat **Kaubakood**. | Selle konfiguratsiooniga järgivad tootenumbrid tootenumbri seeriat ja kaubakoodid järgivad kaubakoodi seeriat. Kuid see konfiguratsioon ei tööta siis, kui imporditakse rohkem kui üks üksus (rida). |
-| Käsitsi = ei | Käsitsi = jah | Automaatne loomine | Vastendamist pole. | Nii tootenumbrid kui ka kaubakoodid kasutavad numbriseeriat **Kaubakood**. | Nii tootenumbrid kui ka kaubakoodid kasutavad numbriseeriat **Tootenumber**. | Nii tootenumbrid kui ka kaubakoodid järgivad tootenumbri seeriat. See on soovitatav viis hulgitoodete importimiseks väljastatud toote loomise V2 andmeüksusega.<br><br>Seda varianti saate kasutada ainult kaupade hulgiimportimisel (mitu rida) ja kui te ei loo kaupu kasutajaliidese kaudu. Kui teil on vaja nii hulgiimportida kui ka luua tooteid kasutajaliidese kaudu, kasutage selle tabeli järgmises reas toodud protseduuri. Üleminekuks hulgiimpordi variandi kasutamiselt kasutajaliidese kasutamisele käsitsi importimiseks ja toodete loomiseks, peate kohandama käsitsi kaubakoodi numbriseeria jaotist **Järgmine number** nii, et see vastaks tootenumbri numbriseeria jaotisele **Järgmine number**. Seejärel saate üle minna selle tabeli järgmisel real toodud variandi kasutamisele. |
-| Käsitsi = ei | Käsitsi = jah | Vastendamist pole. | Vastendamist pole. | Nii tootenumbrid kui ka kaubakoodid kasutavad numbriseeriat **Tootenumber**. | Nii tootenumbrid kui ka kaubakoodid kasutavad numbriseeriat **Tootenumber**. | Nii tootenumbrid kui ka kaubakoodid kasutavad tootenumbri seeriat. Kuid see konfiguratsioon ei tööta siis, kui imporditakse rohkem kui üks üksus (rida).<br><br>Seda varianti peate kasutama siis, kui teil on vaja nii importida tooteid üksuste abil (korraga saab importida ainult ühe rea) kui ka luua tooteid kasutajaliidese kaudu. |
+| Käsitsi = ei | Käsitsi = jah | Automaatne loomine | Vastendamist pole. | Nii tootenumbrid kui ka kaubakoodid kasutavad numbriseeriat **Kaubakood**. | Nii tootenumbrid kui ka kaubakoodid kasutavad numbriseeriat **Tootenumber**. | Nii tootenumbrid kui ka kaubakoodid järgivad tootenumbri seeriat. See on soovitatav viis hulgitoodete importimiseks väljastatud toote loomise V2 andmeüksusega. |
+| Käsitsi = ei | Käsitsi = jah | Vastendamist pole. | Vastendamist pole. | Nii tootenumbrid kui ka kaubakoodid kasutavad numbriseeriat **Tootenumber**. | Nii tootenumbrid kui ka kaubakoodid kasutavad numbriseeriat **Tootenumber**. | Nii tootenumbrid kui ka kaubakoodid kasutavad tootenumbri seeriat. Kuid see konfiguratsioon ei tööta siis, kui imporditakse rohkem kui üks üksus (rida). |
 | Käsitsi = jah | Pole kohaldatav | Pole kohaldatav | Automaatne loomine | Saate järgmise tõrketeate: „Numbriseeriat ei saa tuvastada.” | Numbriseeria **Kaubakood** kohaselt | Seda sätet ei saa importida. |
 
 ## <a name="product-entity-identifier-export-all-product-identifiers"></a>Tooteüksuse identifikaator (kõigi tooteidentifikaatorite eksportimine)
 
-Tooteüksuse identifikaatori mudel loodi selleks, et lubada Dataverse’i versiooni 1.0 ettevalmistamist kõigi identifikaatoritega, mida kasutatakse tootele viitamiseks. Ülesande lihtsustamiseks koondatakse kõik identifikaatorid ühte globaalsesse identifikaatorite tabelisse, et neid saaks eksportida ühe mudelina. Pange tähele, et Dataverse’i see versioon ei kasutada tooteidentifikaatorite mudelit. Seetõttu on üksuse **Tooteüksuse common data service’i identifikaatori üksus** ja selle protsessi praktilisus piiratud ja see võib tulevikus muutuda.
+Tooteüksuse identifikaatori mudel loodi selleks, et lubada CDS-i versiooni 1.0 ettevalmistamist kõigi identifikaatoritega, mida kasutatakse tootele viitamiseks. Ülesande lihtsustamiseks koondatakse kõik identifikaatorid ühte globaalsesse identifikaatorite tabelisse, et neid saaks eksportida ühe mudelina. Pange tähele, et CDS-i see versioon ei kasutada tooteidentifikaatorite mudelit. Seetõttu on üksuse **Tooteüksuse common data service’i identifikaatori üksus** ja selle protsessi praktilisus piiratud ja see võib tulevikus muutuda.
 
 Tooteidentifikaatorite tabel on globaalne tabel, kuhu lisatakse korduva pakett-töö kaudu andmeid kõigist peamise juriidilise isiku viitetabelitest. Peate globaalse tooteetaloni ulatuse määratlusena valima juriidilise isiku ja tootekategooria hierarhia. Globaalse tooteidentifikaatorite tabeli loomine on piiratud toodetega, mis on väljastatud valitud juriidilisse isikusse, ja toodetega, mis on tootekategooria hierarhias oleva rolli **common data service'i** jaoks valitud tootehierarhia liikmed.
 
@@ -172,11 +175,11 @@ See protsess eeldab, et toote koondandmeid hallatakse peamiselt ühes keskses ju
 
 Keskkonna konfigureerimiseks tehke järgmist.
 
-1. Valige Dataverse’i jaoks kategooriahierarhia. Kui lehel **Kategooriahierarhia rolli seosed** pole rolliga **common data service** seostatud ühtegi hierarhiat, peate looma uue seose. Valige roll **Common data service** ja seejärel seostage kategooriahierarhia, mis esindab tooteportfooliot, mis tuleb Dataverse’iga sünkroonida.
+1. Valige CDS-i jaoks kategooriahierarhia. Kui lehel **Kategooriahierarhia rolli seosed** pole rolliga **common data service** seostatud ühtegi hierarhiat, peate looma uue seose. Valige roll **common data service** ja seejärel seostage kategooriahierarhia, mis esindab tooteportfooliot, mis tuleb CDS-iga sünkroonida.
 2. Valige globaalsete toote koondandmete jaoks juriidiline isik. Lehel **Tooteteabe halduse parameetrid** vahekaardil **Toote atribuudid** valige peaettevõte, kus toote ja kauba identifikaatoreid peamiselt hallatakse.
 3. Määratlege identifitseerimiskoodide tüübid ja koodid, mis tuleb eksportida. Avage **Tooteteabe haldus** &gt; **Häälestus** &gt; **Toote identifitseerimiskoodid**. Identifitseerimiskoodide tüüpide loomiseks valige **Loo koodid**. Koodi tüübi kirje luuakse iga identifikaatoritüübi jaoks, mis leitakse valitud juriidilisest isikust.
 
-    Vöötkoodide korral luuakse koodi tüüp iga vöötkoodi häälestuse jaoks. Väliste koodide korral luuakse koodi tüüp iga väliskoodi klassi jaoks.
+    Pange tähele, et vöötkoodide korral luuakse koodi tüüp iga vöötkoodi häälestuse jaoks. Väliste koodide korral luuakse koodi tüüp iga väliskoodi klassi jaoks.
 
     Nüüd saate hallata kooditüüpide loendit. Saate muuta koodi, nime ja kirjeldust. Saate ka kooditüüpe kustutada. Kustutatud kooditüüpe ei kasutata globaalse tooteüksuste identifikaatorite tabelite täitmiseks.
 
@@ -187,6 +190,3 @@ Nüüd saate kasutada andmeüksuseid **Tooteüksuse common data service’i iden
 ## <a name="related-topic"></a>Seotud teema
 
 [Toodete ja tootevariantide otsimine tellimuse sisestamise käigus](search-products-product-variants.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

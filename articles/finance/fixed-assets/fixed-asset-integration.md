@@ -1,26 +1,29 @@
 ---
 title: Põhivarade integreerimine
 description: Põhivarasid saab integreerida moodulitega Pearaamat, Varude haldus, Müügi- ja Ostureskontro. Samuti on teil võimalik seadistada moodulit Põhivarad, et see oleks integreeritud ostutellimustega.
-author: moaamer
+author: ShylaThompson
+manager: AnnBe
 ms.date: 03/05/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetTable
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 3501
 ms.assetid: f0639053-d99c-432a-8ead-5c26e0d4eaec
 ms.search.region: Global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3e53d171ba0b9be7bbfffa25c27bd21fe036acee
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
-ms.translationtype: MT
+ms.openlocfilehash: 1fb1348a3a3c47e5fd7df46d9ce4af3725d8896b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7674771"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4442349"
 ---
 # <a name="fixed-assets-integration"></a>Põhivarade integreerimine
 
@@ -28,7 +31,8 @@ ms.locfileid: "7674771"
 
 Põhivarasid saab integreerida moodulitega Pearaamat, Varude haldus, Müügi- ja Ostureskontro. Samuti on teil võimalik seadistada moodulit Põhivarad, et see oleks integreeritud ostutellimustega.
 
-## <a name="general-ledger"></a>Pearaamat
+<a name="general-ledger"></a>Pearaamat
+--------------
 
 Pearaamatus summeeritakse kõikide põhivarade väärtus tavaliselt mitmes finantsaruandluseks vajalikus põhikontos. Lehel **Põhivarad** saate siiski luua paljusid põhivarakirjeid. Need kirjed võivad hõlmata sellist teavet nagu soetusmaksumus, kulum ja väärtus. Igal põhivarakande sisestamisel värskendatakse vastavad põhikontod. Põhivarade põhikontod kajastavad alati põhivarade värskendatud väärtust.
 
@@ -91,6 +95,3 @@ Lisateavet leiate jaotisest [Varade soetamine hankega](acquire-assets-procuremen
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

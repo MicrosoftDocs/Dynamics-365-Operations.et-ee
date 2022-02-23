@@ -2,9 +2,11 @@
 title: Aadressiraamatute KKK
 description: See teema sisaldab vastuseid korduma kippuvatele küsimustele, mis on seotud aadressiraamatutega.
 author: msftbrking
-ms.date: 02/03/2021
+manager: AnnBe
+ms.date: 10/26/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DirPartyCheckDuplicate, DirPartyTable
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: brking
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d429639f52c745a737567419b6012884ab20d43d
-ms.sourcegitcommit: b294840b8e12aaa2775dd73b2ba9481ecc3d91d5
+ms.openlocfilehash: 922900b20b878dd8b479158d47a9f7792caa684d
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "7463614"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4796894"
 ---
 # <a name="address-books-faq"></a>Aadressiraamatute KKK
 
@@ -65,13 +67,3 @@ Saate sisestada osapoole kirjeid globaalsesse aadressiraamatusse või vastava ü
 ## <a name="can-i-translate-address-information-for-party-records"></a>Kas saan tõlkida osapoole kirjete aadressiteavet?
 
 Saate seadistada aadressiteabe tõlkeid, nii et teave kuvatakse programmis teie kasutajakeeles (süsteemikeeles), kuid dokumentidel (nt müügitellimustel) muus keeles. Saate sisestada riigi/piirkonna nimede, aadressi eesmärkide ja nimeseeriate tõlkeid. Näiteks oletame, et teie süsteemikeel on taani keel ja loote müügitellimuse Prantsusmaal asuvale kliendile. Sel juhul saate vaadata kliendikirjet programmis taani keeles, kuid kuvada prinditud müügitellimusel aadressiteabe prantsuse keeles. Tõlgete seadistamisel tuleb sisestada iga loendis oleva üksuse tõlke. Kõik üksused, millele te tõlget ei sisesta, kuvatakse süsteemikeeles. Näiteks oletame, et teie süsteemikeel on taani keel ja saadate dokumendi Hispaanias asuvale kliendile. Kui te pole sisestanud aadressiteabele hispaaniakeelseid (ESP) tõlkeid, kuvatakse see teave taani keeles nii programmis kui ka prinditud dokumendil.
-
-## <a name="after-i-import-addresses-why-cant-i-edit-the-records"></a>Pärast aadresside importimist, miks ei saa kirjeid redigeerida?
-
-Aadresside importimisel on olemas väli nimega **IsLocationOwner**. See väli näitab, kas asukohaga (aadressiga) seotud osapool on aadressi omanik. Kui osapool on aadressi omanik, saab aadressi redigeerida, kui pääseb juurde globaalse aadressiraamatu osapoole kaudu või koondkirje vormilt (nt klient, hankija või töötaja). Kui osapool ei ole aadressi omanik, ei saa kirjet redigeerida. 
-
-Aadresside importimisel peaks **isLocationOwner** väli olema seadistatud väärtusele **Jah** kui soovite, et aadress oleks seostatud osapoole abil redigeeritav. Kui see väli on valesti imporditud, saab asukoha omaniku globaalses aadressiraamatus uuendada.
-
-Lisateavet imporditud aadressi asukoha omaniku muutmise kohta vt [asukoha omanike haldamine](./global-address-book-location-owner.md).
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

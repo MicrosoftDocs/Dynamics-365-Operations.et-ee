@@ -2,23 +2,26 @@
 title: Varade loomine ja soetamine ostureskontrost
 description: See ülesande juhend annab ülevaate põhivara loomise ja soetamise kohta ostuprotsessiga.
 author: saraschi2
+manager: AnnBe
 ms.date: 08/13/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetParameters, VendInvoiceWorkspace, VendEditInvoice, VendTableLookup, InventItemIdLookupSimple, AssetTable
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dbac069362a15b5ab1d2dbf88a732a14a3cf709d
-ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
+ms.openlocfilehash: 7cb9a37c65fb8eab4db6084b91a71c13a45ba42c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "7394654"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4442397"
 ---
 # <a name="create-and-acquire-assets-from-accounts-payable"></a>Varade loomine ja soetamine ostureskontrost
 
@@ -53,6 +56,3 @@ See ülesande juhend annab ülevaate põhivara loomise ja soetamise kohta ostupr
 17. Klõpsake loendis valitud real olevat linki.
 18. Klõpsake käsku **Sisesta**. Põhivara luuakse ja soetatakse arve sisestamisel.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

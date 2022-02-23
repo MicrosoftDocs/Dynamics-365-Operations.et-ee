@@ -2,25 +2,28 @@
 title: Vara rentimise funktsiooni kasutamise alustamine
 description: Selles teemas kirjeldatakse vara rentimise võimalust ja näidatakse, kuidas renditavat vara luua ja nende varade teavet vaadata.
 author: moaamer
-ms.date: 04/12/2021
+manager: Ann Beebe
+ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: AssetLeaseLeasingWorkspace
+ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: intro-internal
+ms.search.scope: Core, Operations, Retail
+ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-09-24
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 72c362e651787d2ff120944925e3bc35523f0059
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: 9e206569aad3f53a2f6f66e6d6253226e5980078
+ms.sourcegitcommit: 30c541426cf2037b768e3556e1b170a64991f64a
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982005"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "4442540"
 ---
 # <a name="asset-leasing-get-started"></a>Vara rentimise funktsiooni kasutamise alustamine
 
@@ -28,14 +31,12 @@ ms.locfileid: "7982005"
 
 Selles teemas kirjeldatakse vara rentimise võimalust ja näidatakse, kuidas renditavat vara luua ja nende varade teavet vaadata. Teemas on toodud ka kasutajaliideses ja dokumentatsioonis kasutatud terminoloogia. Vara rentimine on täiustatud võimalus renditavate varade finantskannete haldamiseks, jälgimiseks ja automatiseerimiseks teenuses Microsoft Dynamics 365 Finance. Vara rentimise funktsioon vastab rahvusvahelistele raamatupidamisstandarditele (IFRS 16) ja Ameerika Ühendriikide üldaktsepteeritavate raamatupidamispõhimõtete (GAAP) standarditele (ASC 842). Vara rentimise funktsioon kogub ja töötleb renditavate varade põhiteavet ning aitab luua töölehe sisestusi terve renditava vara elutsükli jooksul alates esialgsest tuvastamisest, igakuistest töölehe sisestustest kuni renditava vara väärtuse langemiseni ja rentimise lõppemiseni. Vara rentimise funktsioon integreerub sujuvalt teiste rakenduse Dynamics 365 Finance komponentidega, sealhulgas põhivarad, ostureskontro ja pearaamat.
 
-Enne selle funktsiooni kasutamist peate selle oma süsteemis sisse lülitama. Administraatorid saavad kasutada **funktsioonihalduse** tööruumi, et kontrollida funktsiooni olekut ja vajadusel selle sisse lülitada. Otsige tööruumis **Funktsioonihaldus** üles suvand **Vara rentimine** ja seejärel klõpsake nuppu **Luba kohe**.
-
 Lisateavet raamatupidamisstandardite kohta leiate rahvusvaheliste raamatupidamisstandardite (IFRS 16) ja Ameerika Ühendriikide üldaktsepteeritavate raamatupidamispõhimõtete (GAAP) standardite (ASC 842) standarddokumentatsioonist.
 
 ## <a name="asset-leasing-elements"></a>Vara rentimise elemendid
 Järgmisel diagrammil on toodud rentimise protsessi peamised elemendid.
 
-[![Vara rentimise elemendid.](./media/overview-01.png)](./media/overview-01.png)
+[![Vara rentimise elemendid](./media/overview-01.png)](./media/overview-01.png)
 
 Renditav vara hõlmab järgmisi põhikomponente.
 
@@ -54,7 +55,7 @@ Vara rentimise funktsioon vastendab renditeavet, maksegraafikuid, algus- ja lõp
 
 Järgmine diagramm näitab rendiraamatut, renditeavet, arvutatud maksegraafikut, rendi ja rendiraamatute klassifitseerimise teste ning vastavaid raamatupidamiskandeid.
 
-[![Rentimine, rendiraamat ja maksegraafik.](./media/overview-02.png)](./media/overview-02.png)
+[![Rentimine, rendiraamat ja maksegraafik](./media/overview-02.png)](./media/overview-02.png)
 
 - **Rendiraamat** – rendiraamat sisaldab kogu rendilepingu teavet, nagu renditingimused, õiglane väärtus ja rendimaksed. See hõlmab ka raamatupidamisstandardit, mida te järgite, renditüüpi ja lävesid, mida arvestatakse rendi klassifikatsioonitestis. Rendiraamat sisaldab ka pearaamatusse sisestatud rendikandeid. 
   
@@ -62,7 +63,7 @@ Järgmine diagramm näitab rendiraamatut, renditeavet, arvutatud maksegraafikut,
 
 - **Vara kasulik tööiga** – see tähistab vara kasuliku tööaja järelejäänud perioode alates rentimise alguskuupäevast. Vara kasulikku tööiga arvestatakse klassifikatsioonitesti võrrandis. See erineb põhivarades määratletud kasulikust tööeast.
 
-- **Alternatiivne laenuintressimäär** – See on intressimäär, mida kasutatakse praeguse väärtuse arvutamiseks. Süsteem kasutab kaudset määra, kui see on rendiandmetes määratletud, et arvutada rendimaksete praegune väärtus. Kui kaudset määra ei ole määratletud, kasutab süsteem alternatiivset laenuintressimäära.
+- **Alternatiivne laenuintressimäär** – see on intressimäär, mida kasutatakse praeguse väärtuse arvutamiseks. Süsteem kasutab kaudset määra, kui see on rendiandmetes määratletud, et arvutada rendimaksete praegune väärtus. Kui kaudset määra ei ole määratletud, kasutab süsteem alternatiivset laenuintressimäära.
 
 - **Annuiteedi tüüp** – see on rendimakse, mis kuulub tasumisele kas makseperioodi alguses või lõpus. See võib olla ettemakse ehk perioodieelne annuiteet (rendimakse perioodi alguses) või tavaline annuiteet (rendimakse perioodi lõpus).
 
@@ -81,7 +82,7 @@ Järgmine diagramm näitab rendiraamatut, renditeavet, arvutatud maksegraafikut,
 
 - **Maksete sagedus** – see näitab, kas makse tehakse kord kuus, kord kvartalis, kord poole aasta tagant või kord aastas. Lõppkuupäev arvutatakse automaatselt alguskuupäeva ja sisestatud perioodide arvu alusel.
 
-- **Maksegraafik** – See on arvutatud praegune väärtus, mis põhineb kõikide rendimaksete perioodi pikkusel, maksete summal, liitperioodidel ja annuiteedi tüübil.
+- **Maksegraafik** – see on arvutatud praegune väärtus, mis põhineb kõikide rendimaksete perioodil, maksete summal, liitperioodidel ja annuiteedi tüübil.
 
 - **Perioodid** – need on rendiperioodid, mis kajastavad liitintervalli ja annuiteedi tüüpi. Liitintervall määrab, kuidas perioode jagatakse. Saate seada järgmised liitintervallid.
 
@@ -107,7 +108,7 @@ Esimene periood algab nullist, kui annuiteedi tüüp on perioodieelne annuiteet.
 
   - **Rendiperiood** – see on klassifikatsioonitestis kasutatava kasuliku tööea protsent. Süsteem liigitab rendi kapitalirendiks, kui rendi tüüp on seadistatud automaatseks ja kui rendiperiood vara kasuliku tööea jooksul on suurem kui siin määratletud protsent või sellega võrdne.
 
-  - **Praegune väärtus** – See on klassifikatsioonitestis kasutatava vara õiglase väärtuse protsent. Süsteem liigitab rendi kapitalirendiks, kui rendi tüüp on seadistatud automaatseks ja kui tulevaste rendimaksete praegune väärtus on vara õiglase väärtuse põhjal suurem kui siin määratletud protsent või sellega võrdne.
+  - **Praegune väärtus** – see on klassifikatsioonitestis kasutatava vara õiglase väärtuse protsent. Süsteem liigitab rendi kapitalirendiks, kui rendi tüüp on seadistatud automaatseks ja kui tulevaste rendimaksete praegune väärtus on vara õiglase väärtuse põhjal suurem kui siin määratletud protsent või sellega võrdne.
 
   - **Lühiajaline rent** – kui rendiperiood on määratletud väärtusest väiksem või sellega võrdne, siis liigitatakse rent lühiajaliseks rendiks.
 
@@ -117,7 +118,7 @@ Esimene periood algab nullist, kui annuiteedi tüüp on perioodieelne annuiteet.
 
 Klassifikatsioonitestid hõlmavad omandi üleminekut, ostuvalikut, rendiperioodi, praegust väärtust ja kordumatut vara. Järgmine diagramm illustreerib neid rendi klassifikatsiooniteste.
 
-[![Rendi klassifikatsioonitestid.](./media/overview-03.png)](./media/overview-03.png)
+[![Rendi klassifikatsioonitestid](./media/overview-03.png)](./media/overview-03.png)
 
 Iga rendi tüübi puhul on raamatupidamine eri rendikannete puhul erinev. Kannete hulka kuuluvad esialgne tuvastamine, intressikulu, tasumisele kuuluv rendimakse ja rendikulum ning need põhinevad teie järgitavatel raamatupidamisstandarditel (IFRS 16 või ASC 842). Pearaamatukontod määratletakse iga kandetüübi ja raamatupidamisraamistiku jaoks rendi sisestusreeglites.
 
@@ -131,15 +132,15 @@ Renditava vara esialgne tuvastamine kasutab arvutatud praegust väärtust, et se
 
 |     Tüüp                                          |     Deebet                     |     Kreedit                            |
 |-----------------------------------------------    |-----------------------------  |------------------------------------   |
-|     Kasutusrent US GAAP alusel            |     Kasutamisõiguse esemeks olev vara        |     Kasutusrendi kohustis     |
-|     Kapitalirent IFRS-i ja USA GAAP põhjal      |     Kasutamisõiguse esemeks olev vara        |     Kapitalirendi kohustis       |
+|     Kasutusrent US GAAP alusel              |     Kasutamisõiguse esemeks olev vara      |     Kasutusrendi kohustis       |
+|     Kapitalirent IFRS-i ja USA GAAP põhjal        |     Kasutamisõiguse esemeks olev vara      |     Kasutusrendi kohustis       |
 
 #### <a name="lease-liability-amortization-interest-expense"></a>Rendikohustise amortisatsioon (intressikulu) 
 Rendi intress tuvastatakse, arvutades järgmised väärtused: rendi algbilanss, perioodi rendimakse, intressimäär ja liitintervalli perioodid aastas. Intressisumma suurendab kasutusrendi kohustise kontot seda krediteerides, mis kajastub organisatsiooni bilansis. Kanne hõlmab ka intressikulu konto debiteerimist, mis kajastub kapitalirendi puhul kasumiaruandes ning kasutusrendi puhul rendikulu kontol.
 
-|     Tüüp                                          |     Deebet                     |     Krediit                            |
+|     Tüüp                                          |     Deebet                     |     Kreedit                            |
 |-----------------------------------------------    |-----------------------------  |------------------------------------   |
-|     Kasutusrendi kohustise kirje USA GAAP (ASC 842) põhjal    |     Rendikulu         |     Kasutusrendi kohustis         |
+|     Kasutusrendi kohustise kirje USA GAAP (ASC 842) põhjal    |     Intressikulu          |     Kasutusrendi kohustis         |
 |     Kapitalirendi kohustis IFRS-i ja USA GAAP põhjal      |     Intressikulu          |     Kapitalirendi kohustis           |
 
 #### <a name="accrued-lease-payment"></a>Akumuleerunud rendimakse
@@ -151,7 +152,7 @@ Akumuleerunud rendimakse on tulevane rendimakse, mida töödeldakse maksekandena
 |     Kapitalirent IFRS-i ja USA GAAP põhjal        |  Kapitalirendi kohustis      |   Hankija kohustis (alammoodul) / tasumisele kuuluvad vekslid  |
 
 #### <a name="asset-depreciation"></a>Vara kulum
-Kasutamisõiguse esemeks olev vara amortiseeritakse selle põhjal, kumb on kõige lühem: vara kasulik tööiga või rendiperiood. US GAAPi kasutusrendi (ASC 842) kulumiarvestuse meetod põhineb lineaarse rendikulu ja intressisumma vahelisel erinevusel. Kapitalirendi kulum arvutatakse standardse lineaarse meetodi abil. Rendikulum mõjutab intressikulu debiteerides kasumi ja kahjumi väljavõtet. Bilanssi mõjutab kapitalirendi akumuleeritud kasutamisõiguse esemeks olev vara krediteerimine. Kui rent on seotud põhivaraga, tehakse kulumikanded ainult põhivarade moodulist. 
+Kasutamisõiguse esemeks olev vara amortiseeritakse selle põhjal, kumb on kõige lühem: vara kasulik tööiga või rendiperiood. USA GAAP (ASC 842) puhul põhineb kulumi arvutamise meetod lineaarse rendikulu ja intressisumma vahelisel erinevusel. Kapitalirendi intress arvutatakse standardse lineaarse meetodi abil. Rendikulum mõjutab intressikulu debiteerides kasumi ja kahjumi väljavõtet. Bilanssi mõjutab kapitalirendi akumuleeritud kasutamisõiguse esemeks olev vara krediteerimine. Kasutusrendi puhul tähendab kulum rendikulu konto krediteerimist. Kui rent on seotud põhivaraga, tehakse kulumikanded ainult põhivarade moodulist. 
 
 |     Tüüp                                          |     Deebet                     |     Kreedit                            |
 |-----------------------------------------------    |-----------------------------  |------------------------------------   |
@@ -232,7 +233,7 @@ Uue renditava vara loomiseks läbige järgmised etapid.
 
    Lehel **Maksegraafik** on loetletud rendi ID tulevased maksegraafikud. Valige **Kinnita graafik**, et saaksite sisestada **esialgse tuvastamise** kanded. 
 
-[![Esialgse tuvastamise funktsioon.](./media/overview-13.png)](./media/overview-13.png)
+[![Esialgse tuvastamise funktsioon](./media/overview-13.png)](./media/overview-13.png)
 
 8. Valige **Esialgne tuvastamine**, et luua esialgse tuvastamise tööleht. 
 
@@ -246,12 +247,9 @@ Uue renditava vara loomiseks läbige järgmised etapid.
 
    Lehel **Vara kulumigraafik** kuvatakse valitud rendi ID kulumikanded. 
 
-   [![Kasutamisõiguse esemeks olev vara kande leht.](./media/overview-20.png)](./media/overview-20.png)
+   [![Kasutamisõiguse esemeks olev vara kande leht](./media/overview-20.png)](./media/overview-20.png)
 
    Lehel **Kasutamisõiguse esemeks olev vara** loetletakse esialgne tuvastamine, akumuleerunud kulum ja vara saldo. 
 
    Lehel **Rendikohustise kanded** kuvatakse esialgne tuvastamine, rendi intressimakse, rendimakse ja rendikohustise saldo. 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

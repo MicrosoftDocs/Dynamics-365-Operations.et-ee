@@ -1,35 +1,33 @@
 ---
 title: Töö komponentide seadistamine
-description: See teema kirjeldab töö võimalikke põhielemente ja toob näiteid, kuidas saate neid elemente oma organisatsioonis kasutada.
-author: twheeloc
-ms.date: 10/28/2021
+description: See artikkel kirjeldab töö võimalikke põhielemente ja toob näiteid, kuidas saate neid elemente oma organisatsioonis kasutada.
+author: andreabichsel
+manager: AnnBe
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
-ms.search.form: HcmJob, HcmJobFunction, HcmJobTask, HcmTitle, HcmPersonnelManagementWorkspace, HCMJobFamily
+ms.search.form: HcmJob, HcmJobFunction, HcmJobTask, HcmTitle, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.author: twheeloc
-ms.search.scope: Human Resources
+ms.author: anbichse
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations, Human Resources, Retail
 ms.custom: 269054
 ms.assetid: 889a8fab-0eef-45c2-91fc-ff2f4d44d54f
 ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7e2c9421646dacc5523f40b28b550881dc4b25dd
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: 69759c0488563a904f6e80afacb1802611ab1930
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068155"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4418143"
 ---
 # <a name="set-up-the-components-of-a-job"></a>Töö komponentide seadistamine
 
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-See teema kirjeldab töö võimalikke põhielemente ja toob näiteid, kuidas saate neid elemente oma organisatsioonis kasutada. 
+See artikkel kirjeldab töö võimalikke põhielemente ja toob näiteid, kuidas saate neid elemente oma organisatsioonis kasutada. 
 
 Enne tööde loomist tuleb seadistada teatud viiteteave. Saate luua töö, millel on ainult nimi. Täiendava teabe, näiteks ametinimetuse, lisamisega pakute aga tööle määratud ametikohtade vaikeväärtused. Peale selle saab osa sisestatud teavet kasutada teatud töödele tasuplaanide filtreerimiseks. Kui soovite seadistada sobivuse, mida saate kasutada kindlale tööle tasuplaanide filtreerimiseks, peate enne tööde seadistamist seadistama tööfunktsioonid ja töötüübid. Kui need vaikeväärtused on saadaval, hoiate tööle ametikohtade lisamisel aega kokku. 
 
@@ -47,11 +45,6 @@ Sarnaste tööde kategooriatesse grupeerimiseks saate kasutada töötüüpe. Tö
 -   **Mittevabastatud** – tööd ei ole FLSA alusel ületunnitööst vabastatud.
 -   **Ei kohaldu** – FLSA kate ei kohaldu.
 
-## <a name="job-family"></a>Tööpere
-Tööpere on grupp sarnaseid töid hõlmav töö, mis nõuab sarnaseid koolitus-, oskus-, teadmisi ja oskusteavet. Tööpere saab linkida tööga lehel **Töö klassifikatsiooni** kiirkaardil **Tööd** lehel **Üldine** kiirkaardil **Kõik ametikohad** lehel. Tööpered võivad olla laiad või spetsiifilised, sõltuvalt teie äri- ja aruandlusnõuetest. Mõned näited laiadest tööperedest on **kogenud tööjõud** ja **oskusteta tööjõud**. Mõned konkreetsed tööpered on näiteks **Raamatupidamine**, **Tootmine** ja **Müük**.
-
-Ametinimetusi saate hallata lehel **Tööpere**, millele pääsete juurde otsingufunktsiooni abil. Sisestage **Tööpere** lehele pere kordumatu nimi ja sisestage üksikasjalik kirjeldus, mida planeerite oma töös kasutada.
-
 ## <a name="job-functions"></a>Tööfunktsioonid
 Tööfunktsioonid kirjeldavad kõrgetasemelisi funktsioonikategooriaid ja seotud kõrgetasemelisi kohustusi. Tööfunktsioonid ei ole nõutavad. Saate kasutada tööfunktsioone koos töötüüpidega, et filtreerida konkreetsete tööde tasuplaane. Seostage tööfunktsioonid ja töötüübid tasuplaanidega, seadistades sobivuse reeglid lehel **Sobivuse reeglid**. Seejärel saate lisada tasuplaanile ka tasemete komplekti, mida rakendada töötüübi/tööfunktsiooni kindla kombinatsiooni korral, mille määratlesite sobivuse reeglitega. (Need omadused kehtivad nii fikseeritud kui ka muutuvate tasuplaanide korral.) Kui te kavatsete siiski kasutada tööfunktsioone tasuhalduse jaoks sobivuse reeglite seadistamisel, peate seadistama tööfunktsioonid enne tööde seadistamist. Järgmises tabelis on toodud mõned tööfunktsioonide näited.
 
@@ -61,14 +54,6 @@ Tööfunktsioonid kirjeldavad kõrgetasemelisi funktsioonikategooriaid ja seotud
 | Raamatupidaja    | Professionaalid        |
 
 Tööfunktsioone saate hallata lehel **Tööfunktsioonid**. Sisestage lehel **Tööfunktsioonid** tööfunktsiooni ID-kood ja lühikirjeldus.
-
-## <a name="compensation"></a>Hüvitus
-Fikseeritud tasuplaani määramiseks töötajale, kellel on töö positsioon, peate tööle seadistama hüvitustasemed. Hüvitise **taset** kasutatakse siis, kui miinimum-, keskpunkt- ja maksimumsummad on määratud kompensatsioonistruktuuris (kompensatsiooniruudustikus). Kui põhitasu plaan on loodud, valitakse tasustruktuur. Tasustruktuur hõlmab ka hüvitustaset. Kui valite töötajale fikseeritud tasuplaani, sõltuvad valimiseks saadaolevad tasutasemed tööst, millega töötaja ametikoht on seotud. Lisateavet kompensatsiooni seadmise kohta leiate artiklist [Kompensatsiooniplaanid](hr-compensation-overview.md).
-
-## <a name="job-skills"></a>Töö oskused
-Tööoskused kirjeldavad oskusi, mis on vajalikud töö sooritamiseks. Oskuste tase tuleb seostada iga tööoskusega. Oskuste tasemed on kasutaja määratud. Need näitavad oskusele vajaliku teadmiste või oskustaseme taset. Näiteks võivad ettevõtted seadistada numbrilisi tasemeid, nt 1–5, kus **1** näitab algajat ja **5** näitab spetsialisti. Teise võimalusena võivad ettevõtted seadistada tasemed, mille sildiks on **Algaja**, **Edasijõudnu** või **Ekspert**. Pärast oskuste taseme seadmist saab seada ka oskuse tähtsuse. Näiteks kui raamatupidaja peab omama tugevaidd teadmisi, saab Microsoft Excel`is luua oskuse, mille nimi on **Exceli oskus**. Seejärel saab oskuste tasemeks seada **Edasijõudnu** ja selle tähtsus seada väärtusele **Enamik**.
-
-Oskuseid, mis on tööl, saab kasutada oskuste kaardistamisel. Oskuste kaardistamine võib võrrelda tööks vajalike oskuste kogumeid ja töötajaga seotud oskusi. Seejärel saab see kattuvate oskuste põhjal määrata vaste protsendi. Lisateavet oskuste kaardistamise kohta vaata teemast [Oskuste konfigureerimine](hr-develop-skills.md). 
 
 ## <a name="job-tasks"></a>Tööülesanded
 Tööülesanded kirjeldavad teatud töö ametikohal tegutseva töötaja põhiülesandeid. Sama tööülesande saab lisada mitmele tööle ja neid tööülesandeid kasutavate tööde ametikohtadele. Järgmises tabelis on toodud mõned tööülesannete näited.
@@ -101,7 +86,4 @@ Tööülesandeid saate hallata lehel **Tööülesanded**. Sisestage lehel **Tö�
 Vastutusalade abil saate näidata, milliste töörollide, protsesside ja toodete eest selle töö ametikohal tegutsev töötaja vastutab. Näiteks töö „Raamatupidaja” vastutusala võib olla „Toote A finantsaruandlus”. Vastutusalasid saate hallata lehel **Vastutusalad**, millele pääsete juurde otsingufunktsiooni abil. Sisestage lehel **Vastutusalad** vastutusala nimi ja lühikirjeldus. Väljale **Märkus** saate soovi korral sisestada ka lisateavet. Märkusi saab kindla töö puhul värskendada ilma siia sisestatud märkusi muutmata.
 
 ## <a name="steps-for-creating-a-job"></a>Töö loomise juhised
-Uue töö loomise etapiviisilise protseduuri leiate artiklist [Uute tööde määratlemine](./hr-personnel-define-jobs.md). 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+Uue töö loomise etapiviisilise protseduuri leiate artiklist [Uute tööde määratlemine](../fin-and-ops/hr/tasks/define-new-jobs.md). 

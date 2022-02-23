@@ -2,9 +2,11 @@
 title: Tootesoovituste lisamine kassas
 description: See teema kirjeldab toote soovituste kasutamist müügikohas (POS) seadmel.
 author: bebeale
+manager: AnnBe
 ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailParameters
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 29f502df7c158611df4eb2ddd5ac0e6bd6b4fe628113b2c544e33ba9c41cbcc7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 08784385dd1fead13f538b4e856b4bac6651a560
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763736"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969922"
 ---
 # <a name="add-product-recommendations-on-pos"></a>Tootesoovituste lisamine kassas
 
@@ -39,7 +41,7 @@ Tootesoovitused on aktiivsed järgmiste kassastsenaariumide puhul. Need on saada
 
     - Kui poemüüja läheb varasemate kannete vaatamise käigus erinevate kanalite lõikes lehele **Toote üksikasjad**, soovitab soovituste mootor täiendavaid kaupu, mida tõenäoliselt koos ostetakse.
 
-    [![Soovitused lehel Toote üksikasjad.](./media/proddetails.png)](./media/proddetails.png)
+    [![Soovitused lehel Toote üksikasjad](./media/proddetails.png)](./media/proddetails.png)
 
 2. Lehel **Kanne** toimub järgmine.
 
@@ -48,7 +50,7 @@ Tootesoovitused on aktiivsed järgmiste kassastsenaariumide puhul. Need on saada
     > [!NOTE]
     > Soovituste kuvamiseks lehel **Kanne** peab jaemüüja muutma Dynamics 365 Commerceis ekraanipaigutust. Juhtelement **Soovitused** tuleb paigutada lehele **Kanne**.
 
-    [![Soovitused lehel Kande lehel.](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
+    [![Soovitused lehel Kanne](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
 
 ## <a name="configure-commerce-to-enable-pos-recommendations"></a>Commerce’i konfigureerimine kassasoovituste kuvamiseks
 
@@ -89,6 +91,3 @@ Tootesoovituste seadistamiseks läbige need etapid.
 [Soovituste loomine demoandmetega](product-recommendations-demo-data.md)
 
 [Tootesoovituste KKK](faq-recommendations.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

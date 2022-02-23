@@ -118,6 +118,3 @@ See funktsioon on praegu eelvaateversioonis. Enne nende toimingute tegemist veen
 [Tööde loomine, kinnitamine ja sisestamine Attractis](./creating-jobs-attract.md)
 
 [Rakendusega Microsoft Dynamics 365 Talent – Attract ja LinkedIniga integreerimise tõrkeotsing](./attract-troubleshoot-linkedin.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

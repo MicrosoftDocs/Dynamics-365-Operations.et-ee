@@ -46,6 +46,3 @@ Selles versioonis sisaldub mitu täiendavat veaparandust.
 ## <a name="known-issue"></a>Teadaolev probleem
 
 -   **Probleem:** töötajale uue manuse lisamisel on nupud **Uus** ja **Redigeeri** hallid. **Lahendus:** enne manuselehe avamist veenduge, et kiirinfod lehel **Töötaja** oleksid suletud. Kui kiirinfod on lehe **Töötaja** laadimisel suletud, on manusenupud lubatud. (See probleem lahendatakse järgmisel platvormivärskendusel.)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

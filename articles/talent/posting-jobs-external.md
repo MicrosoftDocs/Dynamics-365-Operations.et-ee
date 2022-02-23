@@ -102,6 +102,3 @@ Kui teil on Broadbeani töökuulutuse sisestamisega probleeme, proovige järgmis
 [Tööde loomine, kinnitamine ja sisestamine Attractis](./creating-jobs-attract.md)
 
 [Broadbeani rakendusega Microsoft Dynamics 365 Talent - Attract integreerimise lubamine](./attract-admin-job-board-settings.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

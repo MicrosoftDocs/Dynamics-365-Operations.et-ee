@@ -2,8 +2,11 @@
 title: ER-i funktsioon DAYS
 description: See teema sisaldab teavet selle kohta, kuidas kasutatakse elektroonilise aruandluse (ER) funktsiooni DAYS
 author: NickSelin
+manager: kfend
 ms.date: 12/04/2019
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -14,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 19e363e7bc8b8ad898244702ad6ba14bcf490f5ca2381b006a35dc0ed9309d49
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 66398e624e4b9d69d4dc3ccf3ee8f97758f4f861
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750596"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682337"
 ---
 # <a name="days-er-function"></a>ER-i funktsioon DAYS
 
@@ -60,6 +63,3 @@ Funktsioon `DAYS` tagastab vastuseks positiivse väärtuse, kui esimene kuupäev
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Kuupäeva ja kellaaja funktsioonid](er-functions-category-datetime.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,24 +1,27 @@
 ---
 title: Kulumiraamatute seadistamine
 description: See protseduur juhendab uue kulumiraamatu loomise protsessi ja selle seostamist põhivaragrupiga.
-author: moaamer
+author: saraschi2
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepBookTable, AssetGroupDepBookSetup
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 42b8a15ac60fd2620c600d78b84a25e3caf6d2bf
-ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
-ms.translationtype: MT
+ms.openlocfilehash: 03f915fa91e0eeff2f26ab9a60bbd5118317e853
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7883616"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4442438"
 ---
 # <a name="set-up-depreciation-books"></a>Kulumiraamatute seadistamine 
 
@@ -52,6 +55,3 @@ See protseduur juhendab uue kulumiraamatu loomise protsessi ja selle seostamist 
 6. Sisestage number väljale Kasutusiga.
     * Pange tähele, et välja Kulumiperioodid väärtus arvutatakse pärast kasutusea seadistamist.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,34 +1,38 @@
 ---
-title: Arvestuse jaotused ja töölehekirjed hankija arvete puhul
+title: Arvestuse jaotused ja alammooduli töölehe kirjed hankijaarvete puhul
 description: Arvestuse jaotuste abil saate määratleda, kuidas summat arvestatakse, näiteks kulude, maksude või tasude arvestamisel hankija arvel. Igal summal, mida tuleb hankija arve töölehele kandmisel arvestada, on üks või mitu arvestuse jaotust.
-author: sunfzam
+author: abruer
+manager: AnnBe
 ms.date: 08/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendEditInvoice
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 26891
 ms.assetid: 93dc608a-b5b4-4ec3-83c2-618e3d80a583
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7296b1e00bfd49bceb40a0e8b859d46c6517450a
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: f8e38e6a571bb7f08b32548bcb4af823807a4340
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7594687"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4442510"
 ---
-# <a name="accounting-distributions-and-journal-entries-for-vendor-invoices"></a>Arvestuse jaotused ja töölehekirjed hankija arvete puhul
+# <a name="accounting-distributions-and-subledger-journal-entries-for-vendor-invoices"></a>Arvestuse jaotused ja alammooduli töölehe kirjed hankijaarvete puhul
 
 [!include [banner](../includes/banner.md)]
 
 Arvestuse jaotuste abil saate määratleda, kuidas summat arvestatakse, näiteks kulude, maksude või tasude arvestamisel hankija arvel. Igal summal, mida tuleb hankija arve töölehele kandmisel arvestada, on üks või mitu arvestuse jaotust. 
 
-## <a name="accounting-distributions"></a>Arvestuse jaotused 
+<a name="accounting-distributions"></a>Arvestuse jaotused 
+-------------------------
 
 Saate kasutada lehel Hankija arve iga hankija arve summa arvestuse jaotuse vaatamiseks ja võimaluse korral muutmiseks järgmisi nuppe.
 -   **Summade jaotamine** – saate kuvada ja muuta arvestuse jaotusi üksiku rea ja alamüksuste ridade kohta (nt maksud või tasud). Saate kuvada ja muuta ka alamrea arvestuse jaotusi otse lehelt Käibemaksukanded või Tasude kanded.
@@ -226,7 +230,8 @@ Hankija arve sisestamisel jaotatakse iga summa järgmiselt.
 </table>
 
 
-## <a name="distributing-taxes"></a>Maksude jaotamine
+<a name="distributing-taxes"></a>Maksude jaotamine
+------------------
 
 Maksude arvestuse jaotusi ei saa luua, kuni makse arvutatakse. Käibemaksu arvutamiseks peate täitma lehel Hankija arve ühe järgmise ülesande.
 -   Arve kogusumma kuvamine.
@@ -245,6 +250,3 @@ Kui alammooduli töölehe kirje on enne hankija arve töölehele paigutamist val
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

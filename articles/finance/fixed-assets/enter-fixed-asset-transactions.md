@@ -1,28 +1,31 @@
 ---
-title: Põhivarakande valikud
+title: Põhivara kande valikud
 description: Selles teemas kirjeldatakse põhivara kannete loomiseks saadaolevaid erinevaid viise.
-author: moaamer
-ms.date: 08/10/2021
+author: ShylaThompson
+manager: AnnBe
+ms.date: 02/07/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetTable, PurchCreateOrder
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 23061
 ms.assetid: 338c495b-a4d8-461e-b85b-a83faf673730
 ms.search.region: Global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2c5530bb7b0472aad75ec04c00ba828b8efb877d
-ms.sourcegitcommit: 5f5a8b1790076904f5fda567925089472868cc5a
-ms.translationtype: MT
+ms.openlocfilehash: 6f08750c369475f9d8be3c723aaf4eb6cf36eb7c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7891568"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4442303"
 ---
-# <a name="fixed-asset-transaction-options"></a>Põhivarakande valikud
+# <a name="fixed-asset-transaction-options"></a>Põhivara kande valikud
 
 [!include [banner](../includes/banner.md)]
 
@@ -46,7 +49,7 @@ Kui põhivara soetamiseks kasutatakse ostutellimust või töölehte Põhivara va
 ## <a name="general-ledger"></a>Pearaamat
 Kõiki põhivara kandetüüpe saab sisestada lehele Päevaraamat. Samuti saate põhivarade puhul töölehti kasutada põhivarakannete sisestamiseks.
 
-### <a name="options-for-entering-fixed-asset-transaction-types"></a>Põhivara kandetüüpide sisestamise suvandid
+## <a name="options-for-entering-fixed-asset-transaction-types"></a>Põhivara kandetüüpide sisestamise suvandid
 
 
 | Kande tüüp                    | Moodul                   | Suvandid                                   |
@@ -58,25 +61,10 @@ Kõiki põhivara kandetüüpe saab sisestada lehele Päevaraamat. Samuti saate p
 | Kulum                        | Põhivarad             | Põhivarad                              |
 |                                     | Pearaamat           | Päevaraamat                           |
 | Likvideerimine                            | Põhivarad             | Põhivarad                              |
-|                                     | Pearaamat           | Päevaraamat                           |
-|                                     | Müügireskontro      | Vabas vormis arve                         |
+| ** **                               | Pearaamat           | Päevaraamat                           |
+| ** **                               | Müügireskontro      | Vabas vormis arve                         |
+
 
 Kulumiperioodide põhivara järelejäänud väärtust ei värskendata kulumikande tüüpi tööleherea käsitsi loomisel või importimisel andmeüksuse kaudu. Seda väärtust värskendatakse, kui töölehe rea loomiseks kasutatakse kulumisoovituste protsessi.
 
 Lisateavet leiate jaotisest [Põhivarade integreerimine](fixed-asset-integration.md).
-
-Süsteem väldib kulumi sisestamist samasse perioodi kaks korda. Näiteks kui kaks kasutajat loovad kulumisoovitusi jaanuariks eraldi, sisestatakse esimese kasutaja kulum esimesele töölehele. Kui teine kasutaja sisestab kulumi teisele töölehele, kontrollib süsteem viimast kulumiarvestust ega sisesta sama perioodi kulumit teist korda.
-
-### <a name="transactions-that-require-a-different-voucher-number"></a>Kanded, mille vautšeri numbrid on erinevad
-
-Järgmistes põhivarakannetes kasutatakse erinevaid kandenumbreid:
-
-- Varale tehakse täiendav soetamine ja arvutatakse järelkulum.
-- Vara tükeldatakse.
-- Likvideerimise kulumi arvutamiseks kasutatav parameeter on sisse lülitatud ja vara likvideeritakse.
-- Vara teenuse kuupäev on enne soetamiskuupäeva. Seega sisestatakse kulumi korrigeerimine.
-
-> [!NOTE]
-> Kannete sisestamisel veenduge, et kõik kanded oleksid seotud sama põhivaraga. Kannet ei sisestata, kui see hõlmab rohkem kui ühte põhivara, isegi kui väli **Uus kanne** on määratud pearaamatu lehel **Töölehe nimed** valikule **Ainult üks kande number**. Kui kaasate kandesse rohkem kui ühe põhivara, kuvatakse teade "Kandel võib olla ainult üks põhivarakanne" ja te ei saa kannet sisestada.
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

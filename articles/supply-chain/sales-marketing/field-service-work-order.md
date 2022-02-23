@@ -1,37 +1,40 @@
 ---
 title: Sünkroonige rakenduse Field Service töötellimused rakenduse Supply Chain Management müügitellimustega
 description: See teema käsitleb malle ja aluseks olevaid ülesandeid, mida kasutatakse rakenduse Field Service töökäskude sünkroonimiseks rakenduse Supply Chain Management müügitellimustega.
-author: Henrikan
+author: ChristianRytt
+manager: tfehr
 ms.date: 04/09/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: henrikan
+ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: b7b311701aff12d58392fc036d0f1174678b7dc3
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
-ms.translationtype: MT
+ms.openlocfilehash: d8051e21c731213e2d74ab6eeb80c239ca9932e6
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061305"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528919"
 ---
 # <a name="synchronize-work-orders-in-field-service-to-sales-orders-in-supply-chain-management"></a>Sünkroonige rakenduse Field Service töötellimused rakenduse Supply Chain Management müügitellimustega
 
 [!include[banner](../includes/banner.md)]
 
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Selles teemas käsitletakse malle ja aluseks olevaid ülesandeid, mida kasutatakse projekti numbriga töökäskude sünkroonimiseks rakendusest Dynamics 365 Field Service müügitellimusse rakenduses Dynamics 365 Supply Chain Management.
 
-[![Äriprotsesside sünkroniseerimine rakenduste Supply Chain Management ja Field Service vahel.](./media/field-service-integration.png)](./media/field-service-integration.png)
+[![Äriprotsesside sünkroniseerimine rakenduste Supply Chain Management ja Field Service vahel](./media/field-service-integration.png)](./media/field-service-integration.png)
 
 
 ## <a name="templates-and-tasks"></a>Mallid ja ülesanded
@@ -59,13 +62,13 @@ Enne müügitellimuse päiste ja ridade sünkroonimist on nõutavad järgmised s
 
 | **Field Service** | **Supply Chain Management** |
 |-------------------------|-------------------------|
-| msdyn_workorders        | Dataverse’i müügitellimuse päised |
-| msdyn_workorderservices | Dataverse’i müügitellimuse read   |
-| msdyn_workorderproducts | Dataverse’i müügitellimuse read   |
+| msdyn_workorders        | CDS-i müügitellimuse päised |
+| msdyn_workorderservices | CDS-i müügitellimuse read   |
+| msdyn_workorderproducts | CDS-i müügitellimuse read   |
 
 ## <a name="entity-flow"></a>Üksuse voog
 
-Töökäsud luuakse rakenduses Field Service. Kui töökäsud sisaldavad ainult väliselt hallatavaid tooteid ja kui välja **Töökäsu olek** väärtuseks ei ole **Avatud – ajastamata** ja **Suletud – tühistatud**, saab töökäsud rakenduse Microsoft Dataverse andmeintegratsiooni projekti kaudu rakendusega Supply Chain Management sünkroonida. Töökäskude värskendused sünkroonitakse rakendusse Supply Chain Management müügitellimustena. Need värskendused sisaldavad päritolu tüübi ja oleku teavet.
+Töökäsud luuakse rakenduses Field Service. Kui töökäsud sisaldavad ainult väliselt hallatavaid tooteid ja kui välja **Töökäsu olek** väärtuseks ei ole **Avatud – ajastamata** ja **Suletud – tühistatud**, saab töökäsud rakenduse Common Data Service andmeintegratsiooni projekti kaudu rakendusega Supply Chain Management sünkroonida. Töökäskude värskendused sünkroonitakse rakendusse Supply Chain Management müügitellimustena. Need värskendused sisaldavad päritolu tüübi ja oleku teavet.
 
 ## <a name="estimated-versus-used"></a>Eeldatav vs kasutatud
 
@@ -245,31 +248,28 @@ Järgmistel joonistel on näidatud malli vastendamine andmete integratsioonis.
 
 Filter: (msdyn_systemstatus ne 690970005) ja (msdyn_systemstatus ne 690970000) ja (msdynce_hasexternallymaintainedproductsonly eq true)
 
-[![Töötellimuste andmete integreerimise mallivastendus müügitellimustele (Field Service kuni Supply Chain Management): WorkOrderHeader.](./media/FSWorkOrder1.png )](./media/FSWorkOrder1.png)
+[![Malli vastendamine andmete integratsioonis](./media/FSWorkOrder1.png )](./media/FSWorkOrder1.png)
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderservicelineestimate"></a>Töötellimused müügitellimuste juurde (Field Service rakendusele Supply Chain Management): WorkOrderServiceLineEstimate
 
 Filter: (msdynce_headersystemstatus ne 690970005) ja (msdynce_headersystemstatus ne 690970000) ja (msdynce_orderhasexternalmaintainedproductsonly eq true) ja (msdyn_linestatus eq 690970000) ja (msdynce_headersystemstatus ne 690970004)
 
-[![Töötellimuste andmete integreerimise mallivastendus müügitellimustele (Field Service kuni Supply Chain Management): WorkOrderServiceLineEstimate.](./media/FSWorkOrder2.png )](./media/FSWorkOrder2.png)
+[![Malli vastendamine andmete integratsioonis](./media/FSWorkOrder2.png )](./media/FSWorkOrder2.png)
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderservicelineused"></a>Töötellimused müügitellimuste juurde (Field Service rakendusele Supply Chain Management): WorkOrderServiceLineUsed
 
 Filter: (msdynce_headersystemstatus ne 690970005) ja (msdynce_headersystemstatus ne 690970000) ja (msdynce_orderhasexternalmaintainedproductsonly eq true) ja ((msdyn_linestatus eq 690970001) või (msdynce_headersystemstatus eq 690970004))
 
-[![Töötellimuste andmete integreerimise mallivastendus müügitellimustele (Field Service kuni Supply Chain Management): WorkOrderServiceLineUsed.](./media/FSWorkOrder3.png )](./media/FSWorkOrder3.png)
+[![Malli vastendamine andmete integratsioonis](./media/FSWorkOrder3.png )](./media/FSWorkOrder3.png)
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderproductlineestimate"></a>Töötellimused müügitellimuste juurde (Field Service rakendusele Supply Chain Management): WorkOrderProductLineEstimate
 
 Filter: (msdynce_headersystemstatus ne 690970005) ja (msdynce_headersystemstatus ne 690970000) ja (msdynce_orderhasexternalmaintainedproductsonly eq true) ja (msdyn_linestatus eq 690970000) ja (msdynce_headersystemstatus ne 690970004) ja (msdyn_allocated eq true)
 
-[![Töötellimuste andmete integreerimise mallivastendus müügitellimustele (Field Service kuni Supply Chain Management): WorkOrderProductLineEstimate.](./media/FSWorkOrder4.png )](./media/FSWorkOrder4.png)
+[![Malli vastendamine andmete integratsioonis](./media/FSWorkOrder4.png )](./media/FSWorkOrder4.png)
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderproductlineused"></a>Töötellimused müügitellimuste juurde (Field Service rakendusele Supply Chain Management): WorkOrderProductLineUsed
 
 Filter: (msdynce_headersystemstatus ne 690970005) ja (msdynce_headersystemstatus ne 690970000) ja (msdynce_orderhasexternalmaintainedproductsonly eq true) ja ((msdyn_linestatus eq 690970001) või (msdynce_headersystemstatus eq 690970004) või (msdyn_allocated ne true))
 
-[![Töötellimuste andmete integreerimise mallivastendus müügitellimustele (Field Service kuni Supply Chain Management): WorkOrderProductLineUsed.](./media/FSWorkOrder5.png )](./media/FSWorkOrder5.png)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[![Malli vastendamine andmete integratsioonis](./media/FSWorkOrder5.png )](./media/FSWorkOrder5.png)

@@ -1,31 +1,34 @@
 ---
 title: Dynamics 365 Commerce'i hindamiskeskkonna valikuliste funktsioonide konfigureerimine
-description: Selles teemas selgitatakse, kuidas konfigureerida rakenduse Microsoft Dynamics 365 Commerce hindamiskeskkonda, kui see on ette valmistatud.
+description: Selles teemas selgitatakse, kuidas konfigureerida Microsoft Dynamics 365 Commerce’i hindamiskeskkond, kui see on ette valmistatud.
 author: psimolin
+manager: annbe
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2f4e93b7ece7652b72ae2067be4de73f45a8261ada1b0bc731e2bd2147dcccc6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6f7ba7e6de3791720458b509059f008423c73a82
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728287"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4411569"
 ---
 # <a name="configure-optional-features-for-a-dynamics-365-commerce-evaluation-environment"></a>Dynamics 365 Commerce'i hindamiskeskkonna valikuliste funktsioonide konfigureerimine
 
 [!include [banner](includes/banner.md)]
 
-Selles teemas selgitatakse, kuidas konfigureerida rakenduse Microsoft Dynamics 365 Commerce hindamiskeskkonda, kui see on ette valmistatud.
+Selles teemas selgitatakse, kuidas konfigureerida Microsoft Dynamics 365 Commerce’i hindamiskeskkond, kui see on ette valmistatud.
 
 ## <a name="prerequisites"></a>Eeltingimused
 
@@ -100,7 +103,7 @@ Iga kandelise sündmuse jaoks, mille jaoks soovite meile saata, tuleb uuendada m
 
 Võite soovida kohandada meilimalle, et nad kasutaksid erinevaid pilte. Võite ka värskendada linke mallides, et need sobiksid teie hindamiskeskkonda. See protseduur selgitab, kuidas vaikimisi malle alla laadida, neid kohandada ja süsteemi malle värskendada.
 
-1. Laadige brauserist alla [Microsoft Dynamics 365 Commerce Microsoft 'i hindamisee vaikimisi meilimallide zip-fail](https://download.microsoft.com/download/d/7/b/d7b6c4d4-fe09-4922-9551-46bbb29d202d/Commerce.Preview.Default.Email.Templates.zip) kohalikku arvutisse. See fail sisaldab järgmisi HTML-dokumente:
+1. Laadige brauserist alla kohalikku arvutisse [Microsoft Dynamics 365 Commerce'i hindamisee vaikimisi meilimallide zip-fail](https://download.microsoft.com/download/d/7/b/d7b6c4d4-fe09-4922-9551-46bbb29d202d/Commerce.Preview.Default.Email.Templates.zip). See fail sisaldab järgmisi HTML-dokumente:
 
     - Tellimuse kinnituse mall
     - Kinkekaardi väljastamise mall
@@ -136,7 +139,7 @@ Järgmised load rakenduvad üldisele müügitellimusele.
 | Tellimuse kood      | %salesid% |
 | Kliendi nimi   | %customername% |
 | Tarneaadress  | %deliveryaddress% |
-| Arveldusaadress   | %customeraddress% |
+| Arveaadress   | %customeraddress% |
 | Tellimuse kuupäev        | %shipdate% |
 | Tarneviis     | %modeofdelivery% |
 | Allahindlus          | %discount% |
@@ -157,7 +160,7 @@ Järgmised load on iga toote puhul tellimuses asendatud väärtustega.
 | Toote nimetus           | %lineproductname% |
 | Kirjeldus            | %lineproductdescription% |
 | Kogus               | %linequantity% |
-| Reaühiku hind        | %lineprice% (Kontrolli) |
+| Reaühiku hind        | %lineprice% (kontrollige) |
 | reaüksuse kogusumma        | %linenetamount% |
 | rea allahindlus          | %linediscount% |
 | Lähetuskuupäev              | %lineshipdate% |
@@ -177,13 +180,10 @@ Järgmised load on iga toote puhul tellimuses asendatud väärtustega.
 
 [Dynamics 365 Commerce'i hindamiskeskkonna KKK](cpe-faq.md)
 
-[Microsofti elutsükli teenused (LCS)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
+[Microsofti elutsükli teenused (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 
-[Retail Cloud Scale Unit (RCSU)](/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
+[Retail Cloud Scale Unit (RCSU)](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
 
 [Microsoft Azure'i portaal](https://azure.microsoft.com/features/azure-portal)
 
 [Dynamics 365 Commerce veebisait](https://aka.ms/Dynamics365CommerceWebsite)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

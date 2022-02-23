@@ -1,34 +1,33 @@
 ---
-title: Palgaplaanid
-description: See teema kirjeldab, kuidas kasutada kompensatsioonihaldust kompensatsiooniplaanide haldamiseks ja töötlemiseks.
-author: twheeloc
-ms.date: 08/25/2021
-ms.topic: overview
+title: Hüvitusplaanid
+description: Hüvitise ja eeliste haldurid saavad kasutada hüvituste haldust, et hallata ning töödelda organisatsiooni töötajate fikseeritud ja ergutussüsteemi plaane.
+author: andreabichsel
+manager: AnnBe
+ms.date: 06/20/2017
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HcmCompensationLevel, HRCCompGrid, HRMCompFixedAction, HRMCompFixedBudget, HRMCompFixedPlanTable, HcmCompensationWorkspace
 audience: Application User
-ms.search.scope: Human Resources
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations, Human Resources
+ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 7571f220780ca383f57338bb69505cc68a741877
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: b6dd163b0e956624eb57fa031b918a94609f9cfa
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066896"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4418112"
 ---
-# <a name="compensation-plans"></a>Palgaplaanid
+# <a name="compensation-plans"></a>Hüvitusplaanid
 
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-Kompensatsiooni ja eeliste haldurid saavad kasutada **Kompensatsioonihaldust**, et hallata ning töödelda organisatsiooni töötajate fikseeritud ja ergutussüsteemi plaane.
+Hüvitise ja eeliste haldurid saavad kasutada hüvituste haldust, et hallata ning töödelda organisatsiooni töötajate fikseeritud ja ergutussüsteemi plaane.
 
 ### <a name="introduction"></a>Sissejuhatus
 
@@ -45,7 +44,7 @@ Järgmises tabelis on tasuprotsessi komponendid, mis võivad kuuluda teie ettev�
 <thead>
 <tr class="header">
 <th>Komponent</th>
-<th>Lisateave</th>
+<th>Lisateave ...</th>
 </tr>
 </thead>
 <tbody>
@@ -91,7 +90,7 @@ Järgmises tabelis on tasuprotsessi komponendid, mis võivad kuuluda teie ettev�
 </tr>
 <tr class="even">
 <td>kontrollpunkt</td>
-<td>Kontrollpunkt näitab, seda, mida peetakse tasu tasemel ideaalseks tasumääraks kõigi töötajate puhul. Taseme plaanide struktuuride puhul on kontrollpunktid tavaliselt vahemike keskpunktid. Palgaastmikuga struktuurid kasutavad kontrollpunkte harva. Põhilist kompensatsiooniplaani kontrollpunkti saab määrata lehel **Põhipalgaplaanid**.</td>
+<td>Kontrollpunkt näitab, seda, mida peetakse tasu tasemel ideaalseks tasumääraks kõigi töötajate puhul. Taseme plaanide struktuuride puhul on kontrollpunktid tavaliselt vahemike keskpunktid. Palgaastmikuga struktuurid kasutavad kontrollpunkte harva. Põhipalgaplaani kontrollpunkti saab määrata vormil Põhipalgaplaanid.</td>
 </tr>
 <tr class="odd">
 <td>Tööfunktsioonid</td>
@@ -123,7 +122,8 @@ Järgmises tabelis on tasuprotsessi komponendid, mis võivad kuuluda teie ettev�
 ## <a name="process-events"></a>Protsessi sündmused
 Protsessisündmus arvutab tasuteabe kindlal perioodi jaoks kõigi ühte või mitmesse fikseeritud või muutuvasse tasuplaani registreerunud töötajate puhul. Saate protsessisündmust käivitada korduvalt kalkuleeritud tasutulemuste testimiseks või uuendamiseks.
 
-## <a name="compensation-events"></a>Kompensatsiooni sündmused
+<a name="compensation-events"></a>Kompensatsiooni sündmused
+-------------------
 
 Iga kord, kui protsessisündmus käivitatakse, luuakse tasusündmus.  Tasusündmused sisaldavad tasuprotsessi tulemusi iga protsessisündmusesse kaasatud töötaja kohta  Kui arvutused on õiged, saate laadida tasusündmuse, et uuendada protsessisündmusest mõjutatud töötajate tasukirjeid.
 
@@ -132,6 +132,3 @@ Pärast protsessisündmuse käitamist võite soovitada korrigeerimisi töötaja 
 
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

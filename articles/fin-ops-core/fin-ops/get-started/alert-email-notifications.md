@@ -1,24 +1,26 @@
 ---
 title: Klienditeatiste edastamine meili teel
 description: Selles teemas selgitatakse, kuidas seadistada reegleid, mis saadavad eelmääratletud sündmuste toimumisel meiliteatisi.
-author: RichdiMSFT
+author: tjvass
+manager: AnnBe
 ms.date: 09/20/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EventCreateRule
 audience: Application user
 ms.reviewer: sericks
 ms.search.region: Global
-ms.author: richdi
+ms.author: tjvass
 ms.search.validFrom: 2019-1-29
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: 4e2205ba3bdf5ec2a4e6d9390007eaf1098293c3dd2a5b2ff1b3c73c7de5a83f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a1d520584e331631bb5a6a88ba6c9a8b50b3d29e
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734610"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798619"
 ---
 # <a name="client-alert-notifications-by-email"></a>Kliendi teatiste teatamine meili teel
 
@@ -36,7 +38,7 @@ Lisateavet meili konfigureerimise kohta vt teemast [Meili konfigureerimine ja sa
 
 Järgmisel pildil on näidatud dialoogiboks **Teatisereegli loomine**, milles on nüüd ka valik **Saada meil**.
 
-[![Dialoogiboks Teatisereegli loomine, kus suvandi Saada meil sätteks on valitud Jah.](./media/Create-alert-rule-form.png)](./media/Create-alert-rule-form.png)
+[![Dialoogiboks Teatisereegli loomine, kus suvandi Saada meil sätteks on valitud Jah](./media/Create-alert-rule-form.png)](./media/Create-alert-rule-form.png)
 
 > [!NOTE]
 > Kui suvandi **Saada meil** sätteks on valitud **Jah**, jätkub teatiste edastamine tegevuskeskusest.
@@ -47,7 +49,4 @@ Teenus saadab meiliteatised eelmääratletud meilimalle kasutades, mis edastavad
 
 Järgmisel pildil on näidatud teatiste struktuur, kui need on meili teel vastu võetud.
 
-[![Mallipõhised teatised kirje loomise, välja muutmise ja malli kustutamise kohta.](./media/Alert-email-templates.png)](./media/Alert-email-templates.png)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+[![Mallipõhised teatised kirje loomise, välja muutmise ja malli kustutamise kohta](./media/Alert-email-templates.png)](./media/Alert-email-templates.png)

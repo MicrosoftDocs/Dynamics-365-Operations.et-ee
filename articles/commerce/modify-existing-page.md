@@ -2,30 +2,36 @@
 title: Olemasoleva saidilehe muutmine
 description: Selles teemas kirjeldatakse, kuidas rakenduses Microsoft Dynamics 365 Commerce olemasolevat saidi lehte muuta.
 author: psimolin
+manager: annbe
 ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0039489c266840e5341f2e322fa7783216ac9bb3ebcecff840f591beec9f79c4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8ca23dcf568cb0df6934f0d6201e4aafba5f9ba1
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6751539"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4411754"
 ---
 # <a name="modify-an-existing-site-page"></a>Olemasoleva saidilehe muutmine
+
 
 [!include [banner](includes/banner.md)]
 
 Selles teemas kirjeldatakse, kuidas rakenduses Microsoft Dynamics 365 Commerce olemasolevat saidi lehte muuta.
+
+## <a name="overview"></a>Ülevaade
 
 Kui peate lehte muutma, on esimene etapp selle avamine lehe redaktoris. Avage teie lehte sisaldav sait ja seejärel leidke lehtede loendist soovitud leht. Kui te lehte ei leia, saate kasutada autorluse tööriista rikkalikku sisuga otsingufunktsiooni. Sisestage kas lehe täpne nimi või sisestage selle esimesed paar tähte ja seejärel tärn (\*). Kuvatakse filtreeritud lehtede loend. Seda loendit saate kasutada soovitud lehe leidmiseks. Pärast õige lehe leidmist valige lehe nimi, et avada leht lehe redaktoris.
 
@@ -81,8 +87,3 @@ Järgmine näide selgitab, kuidas muuta avalehte, muutes videopleieri moodulis i
 [Kategooria sihtlehe rikastamine](enrich-category-page.md)
 
 [Lehe sisu hõlbustusfunktsioonide kinnitamine](verify-accessibility.md)
-
-[Dünaamiliste e-kaubanduse lehtede loomine URL-parameetrite põhjal](create-dynamic-pages.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

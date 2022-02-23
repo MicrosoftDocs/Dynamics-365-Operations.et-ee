@@ -1,24 +1,26 @@
 ---
 title: Pakkumiskutse pakkumiste sisestamine ja võrdlemine ning lepingute määramine
 description: See protseduur näitab, kuidas sisestada pakkumiskutsele (RFQ) vastuseid, pakkumisi hinnata ja võrrelda ning seejärel määrata leping ühele hankijatest.
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 07/09/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchRFQCaseTableListPage, PurchRFQCaseTable, PurchRFQReplyTable, PurchRFQCompare, PurchRFQEditLines, PurchRFQEditLinesParameters, PurchTable, PurchTablePart, PurchRFQCompareLinePrices, PurchRFQCompareRFQ
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8378a491e528c1e1166f0688e29f923a25f23eed
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 3f14b95a71397bf5879c97654620e1d4c22a1149
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579468"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016674"
 ---
 # <a name="enter-and-compare-rfq-bids-and-award-contracts"></a>Pakkumiskutse pakkumiste sisestamine ja võrdlemine ning lepingute määramine
 
@@ -32,7 +34,7 @@ Pakkumise saate sisestada kas hankijana või hankespetsialistina. Lisateavet vaa
 
 ## <a name="enter-a-reply-as-a-vendor"></a>Vastuse sisestamine hankijana
 
-1. Valige suvandid **Hankijate koostöö \> Tööruumid \>Hankija pakkumine**.
+1. Armatuurlaual valige **Hankija pakkumine**.
 2. Leidke loendist **Uued pakkumiskutsed** äsja saadetud pakkumiskutse. Valige vaatamiseks nõutud pakkumiskutse.
 3. Valige **Pakkumiskutsete manused**, et vaadata lisatud manuseid.
 4. Valige **Pakkumine**, et muuta väljad redigeeritavaks. Jälgige, et välja **Pakkumise edenemine** väärtuseks oleks määratud **Hankija värskendab**.
@@ -104,6 +106,3 @@ Pakkumise saate sisestada kas hankijana või hankespetsialistina. Lisateavet vaa
 ## <a name="view-the-purchase-order-that-is-generated"></a>Loodud ostutellimuse vaatamine
 
 Toimingupaani vahekaardil **Üldine** valige suvand **Ostutellimus**. Ilmuval lehel saate vaadata ostutellimust, mis loodi pakkumise aktsepteerimisel.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

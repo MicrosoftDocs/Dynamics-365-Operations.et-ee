@@ -1,10 +1,12 @@
 ---
 title: Hangete töövood
 description: Mõned organisatsioonid nõuavad, et ostutaotlused ja ostutellimused kinnitaks muu kasutaja kui see, kes kande sisestas. Kinnitamisprotsessi seadistamiseks saate luua töövoo.
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 12/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WorkflowTableListPageRnr
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: 2074
 ms.assetid: e54a1d59-b9fb-421b-821d-01f32878aa9b
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a819093d9ee6f999e637281e54905968fe361566
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: af614b7f29144d02a853ef15b008f2a21d3d3aa5
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575532"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019750"
 ---
 # <a name="procurement-and-sourcing-workflows"></a>Hangete töövood
 
@@ -47,7 +49,7 @@ Jaotises Hanked on saadaval järgmised töövootüübid.
 | Hankija lisamise rakenduse töövoog | Saate luua ülevaatuse ja kinnitamise töövood uute hankijate lisamiseks hankija nõuete kaudu. |
 
 > [!IMPORTANT]
-> Uue töövoo lisamisel võidakse kuvada ka järgmised iganenud töövood, mis on loetletud dialoogiboksis **Töövoo loomine**. Need on seotud *vastuvõtukinnituse* funktsiooniga, mis oli saadaval teenuses [Dynamics AX 2012](/dynamicsax-2012/appuser-itpro/set-up-procurement-and-sourcing-workflows), aga mis on nüüd iganenud. Neid töövooge praegu ei toetata.
+> Uue töövoo lisamisel võidakse kuvada ka järgmised iganenud töövood, mis on loetletud dialoogiboksis **Töövoo loomine**. Need on seotud *vastuvõtukinnituse* funktsiooniga, mis oli saadaval teenuses [Dynamics AX 2012](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-procurement-and-sourcing-workflows), aga mis on nüüd iganenud. Neid töövooge praegu ei toetata.
 > 
 > - Tarnetähtaja teate töövoog
 > - Arve saamise teatise töövoog
@@ -77,6 +79,3 @@ Saate määrata kinnitamisetapi järgmistele osalejate gruppidele.
 - [Äriprotsessi töövoogude määratlemine ostutaotluste jaoks](https://www.microsoft.com/download/details.aspx?id=101821)
 - [Ostutaotluse töövoog](purchase-requisitions-workflow.md)
 - [Hankijate vastuvõtmine](vendor-onboarding.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

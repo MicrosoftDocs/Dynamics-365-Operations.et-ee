@@ -2,9 +2,11 @@
 title: Loodud dokumentidele kohandatud salvestuskohtade määramine
 description: Selles teemas selgitatakse, kuidas laiendada talletuskohtade loendit dokumentidele, mille on loodud elektroonilise aruandluse (ER) vormingud.
 author: NickSelin
+manager: AnnBe
 ms.date: 10/29/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -12,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 337e760f28161721d886c7bbec09b5ff8dbfad45
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 362ac7f10cc61e26be89dfbae0e84745d42588a3
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7594905"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680754"
 ---
 # <a name="specify-custom-storage-locations-for-generated-documents"></a>Loodud dokumentidele kohandatud salvestuskohtade määramine
 
@@ -27,7 +29,7 @@ Elektroonilise aruandluse (ER) rakenduse programmeerimisliidese (API) raamistik 
 
 ## <a name="prerequisites"></a>Eeltingimused
 
-Juurutage topoloogia, mis toetab pidevat järku. Lisainfo saamiseks vt [Pideva järgu ja testimise automaatikat toetavate topoloogiate juurutamine](/dynamics365/unified-operations/dev-itpro/perf-test/continuous-build-test-automation). Samuti peab teil olema sellele topoloogiale juurdepääs ühe järgmise rolliga.
+Juurutage topoloogia, mis toetab pidevat järku. Lisainfo saamiseks vt [Pideva järgu ja testimise automaatikat toetavate topoloogiate juurutamine](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/perf-test/continuous-build-test-automation). Samuti peab teil olema sellele topoloogiale juurdepääs ühe järgmise rolliga.
 
 - Elektroonilise aruandluse arendaja
 - Elektroonilise aruandluse funktsionaalne konsultant
@@ -41,7 +43,7 @@ Kõik selle teema ülesanded saab täita ettevõttes **USMF**.
 
 Dokumentide loomiseks, mida kavatsete kohandatud talletuskoht lisada, [importige](er-download-configurations-global-repo.md) **põhivara edasiarvestuse** ER-i vormingu konfiguratsioon praegusesse topoloogiasse.
 
-![Konfiguratsioonihoidla leht.](./media/er-custom-storage-generated-files-import-format.png)
+![Konfiguratsioonihoidla leht](./media/er-custom-storage-generated-files-import-format.png)
 
 ## <a name="run-the-fixed-asset-roll-forward-report"></a>Käitage põhivara edasiarvestuse aruanne
 
@@ -52,7 +54,7 @@ Dokumentide loomiseks, mida kavatsete kohandatud talletuskoht lisada, [importige
 5. Valige väljal **Vormingu vastendamine** väärtus **Põhivara edasiarvestus**.
 6. Valige nupp **OK**.
 
-![Põhivara edasiarenduse aruande käitusaja dialoogiboks.](./media/er-custom-storage-generated-files-runtime-dialog.png)
+![Põhivara edasiarenduse aruande käitusaja dialoogiboks](./media/er-custom-storage-generated-files-runtime-dialog.png)
 
 Vaadake Microsoft Excelis üle väljamineva dokumendi, mis on loodud ja allalaadimiseks saadaval. Selline käitumine on [vaikimisi käitumine](electronic-reporting-destinations.md#default-behavior) ER-i vormingu jaoks, mille jaoks ei ole konfigureeritud ühtegi [sihtkohta](electronic-reporting-destinations.md) ja mis töötab interaktiivses režiimis.
 
@@ -255,7 +257,7 @@ class AssetRollForwardService extends SysOperationServiceBase
 3. Muutke olemasolevat klassi `AssetRollForwardService` ja kirjutage kood, et seadistada kohandatud sihtkoha tehases aruande käitaja. Pange tähele, et kui kohandatud sihtkoha vabrik on loodud, edastatakse rakenduse juhitud parameeter, mis määrab sihtkausta. Sel viisil kasutatakse sihtkausta loodud failide talletamiseks.
 
     > [!NOTE] 
-    > Veenduge, et määratud kaust (selles näites **c:\\0**) on AOS-i teenust käitava serveri kohalikus failisüsteemis olemas. Vastasel juhul kuvatakse käitusajal erand [DirectoryNotFoundException](/dotnet/api/system.io.directorynotfoundexception).
+    > Veenduge, et määratud kaust (selles näites **c:\\0**) on AOS-i teenust käitava serveri kohalikus failisüsteemis olemas. Vastasel juhul kuvatakse käitusajal erand [DirectoryNotFoundException](https://docs.microsoft.com/dotnet/api/system.io.directorynotfoundexception?view=netcore-3.1).
 
     ```xpp
     using Microsoft.Dynamics365.LocalizationFramework;
@@ -339,6 +341,3 @@ class AssetRollForwardService extends SysOperationServiceBase
 
 - [Elektroonilise aruandluse (ER) sihtkohad](electronic-reporting-destinations.md)
 - [Laiendatavuse avaleht](../extensibility/extensibility-home-page.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

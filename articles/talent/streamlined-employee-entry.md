@@ -91,6 +91,3 @@ Põhitöötaja lehe vahekaart **Ametikohad** annab täieliku ülevaate kõigist 
 
 [![Ametikohad](./media/Worker-position-history.png)](./media/Worker-position-history.png)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

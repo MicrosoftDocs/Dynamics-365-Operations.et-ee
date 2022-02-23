@@ -143,6 +143,3 @@ Värskendatud vastendused peaksid välja nägema sellised.
 
 ![Soo välja muutumine](./media/WorkerTransform.png)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

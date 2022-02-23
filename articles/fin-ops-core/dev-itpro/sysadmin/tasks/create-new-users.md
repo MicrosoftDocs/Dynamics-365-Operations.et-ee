@@ -2,9 +2,11 @@
 title: Uute kasutajate loomine
 description: Kasutajad on teie organisatsioonisisesed töötajad või välised kliendid ja hankijad, kes vajavad oma töö tegemiseks juurdepääsu süsteemile.
 author: peakerbl
+manager: AnnBe
 ms.date: 01/12/2021
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysUserManagement, SysDataAreaSelectLookup, SysSecUserAddRoles, SysUserMSODSUserImport
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 480d181e8abb3af5a7406efd13c8bd9961a7490a
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: ca062ddd49f1c206c503fb6160ed436fe2d6f7e9
+ms.sourcegitcommit: 9e27a097b7eb3c8f2df66011ccc597ad18bc5445
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7595382"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "4878653"
 ---
 # <a name="create-new-users"></a>Uute kasutajate loomine
 
@@ -29,10 +31,10 @@ Enne Finance and Operationsi rakenduste avamist peate olema kõigepealt lisatud 
 Lisateavet Finance and Operationsi rakendust ostmise ja litsentsimise kohta vt [Microsoft Dynamics 365 litsentsimise juhend](https://go.microsoft.com/fwlink/?LinkId=866544&amp;clcid=0x409).
 
 ## <a name="assign-a-license-to-a-user"></a>Kasutajale litsentsi määramine
-Süsteemi administraatorid saavad [litsentse määrata](/office365/admin/subscriptions-and-billing/assign-licenses-to-users)[Microsoft 365-i administreerimiskeskuse](/office365/admin/admin-overview/about-the-admin-center) kasutajatele.
+Süsteemi administraatorid saavad [litsentse määrata](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide)[Microsoft 365-i administreerimiskeskuse](https://docs.microsoft.com/office365/admin/admin-overview/about-the-admin-center?view=o365-worldwide) kasutajatele.
 
 ## <a name="add-an-external-user-in-azure-ad-and-assign-a-license"></a>Azure AD-s välise kasutaja lisamine ja litsentsi määramine 
-Litsentside määramiseks peavad välised kasutajad olema teie rentniku teegis esindatud (Azure Active Directory (Azure AD)). Need välised kasutajad tuleb lisada Azure AD's rentnikku külaliskasutajatena ja seejärel määrata vastavad litsentsid. Finance and Operationsi rakenduste nõue on, et külaliskasutaja ettevõte peab kasutama teenust Azure AD. Lisateavet vt teemast [Azure portaalis Azure Active Directory B2B koostöö kasutajate lisamine](/azure/active-directory/b2b/add-users-administrator).
+Litsentside määramiseks peavad välised kasutajad olema teie rentniku teegis esindatud (Azure Active Directory (Azure AD)). Need välised kasutajad tuleb lisada Azure AD's rentnikku külaliskasutajatena ja seejärel määrata vastavad litsentsid. Finance and Operationsi rakenduste nõue on, et külaliskasutaja ettevõte peab kasutama teenust Azure AD. Lisateavet vt teemast [Azure portaalis Azure Active Directory B2B koostöö kasutajate lisamine](https://docs.microsoft.com/azure/active-directory/b2b/add-users-administrator).
 
 ## <a name="import-new-users-from-azure-ad"></a>Uute kasutajate importimine teenusest Azure AD 
 1. Avage **Süsteemihaldud** \> **Kasutaja** \> **Kasutajad**.
@@ -57,7 +59,7 @@ Litsentside määramiseks peavad välised kasutajad olema teie rentniku teegis e
 7. Valige väljal **Ettevõte** kasutaja vaikimisi avatav ettevõte. 
 8. Valige käsk **Salvesta**.
 
-Identiteedipakkuja ja telemeetria ID väärtusi värskendatakse [Microsofti graafiku](/graph/overview) kutse põhjal, kui kasutajakirje salvestatakse. Telemeetria ID põhineb kasutaja objekti ID-l / turbeidentifikaatoril (SID) Azure AD-s.
+Identiteedipakkuja ja telemeetria ID väärtusi värskendatakse [Microsofti graafiku](https://docs.microsoft.com/graph/overview) kutse põhjal, kui kasutajakirje salvestatakse. Telemeetria ID põhineb kasutaja objekti ID-l / turbeidentifikaatoril (SID) Azure AD-s.
 
 > [!NOTE]
 > Pärast kasutaja lisamist peate määrama vastavalt vajadusele rollid ja organisatsioonid. Lisainfo saamiseks vt [Kasutajatele turberollide määramine](assign-users-security-roles.md). Tingimuslikult võib olla nõutav ka kasutaja seostamine **isikuga** ja **kasutaja valikute** uuendamine, nt keel.
@@ -79,6 +81,3 @@ Kasutaja ID muutmiseks peate võtme andmebaasis ümber nimetama. Kui muudate sed
 Lisateavet B2B kasutajate juurutamiseks vt [B2B kasutajate eksportimine Azure AD-sse](../implement-b2b.md).
 
 Lisateavet eelkonfigureeritud süsteemikontode kohta vt [Eelkonfigureeritud süsteemikontod](../pre-configured-system-accounts.md)
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

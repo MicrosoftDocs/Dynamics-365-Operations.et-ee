@@ -1,10 +1,12 @@
 ---
 title: Kuluarvestuse analüüsi Power BI sisu jaoks turbe seadistamine
-description: Selles teemas selgitatakse, kuidas saate kuluarvestuses juurdepääsutaseme turbe rakenduses Microsoft Power BI reatasemel turbeks muuta.
+description: Selles teemas selgitatakse, kuidas saate kuluarvestuses juurdepääsutaseme turbe Microsoft Power BI-s reatasemel turbeks muuta. See funktsioon aitab tagada, et kasutajad näevad ainult Power BI andmeid, millele neil on juurdepääs.
 author: ShylaThompson
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
@@ -14,18 +16,18 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f519a38b381da0efc1e91ba0f2015780d086550c3e38810e6845a0fc07976767
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 04ff1523f7b05fe8398513e913702b0f3c7c354c
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6751487"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682185"
 ---
-# <a name="set-up-security-for-the-cost-accounting-analysis-power-bi-content"></a>Kuluarvestuse analüüsi Power BI sisu jaoks turbe häälestus
+# <a name="set-up-security-for-the-cost-accounting-analysis-power-bi-content"></a>Kuluarvestuse analüüsi Power BI sisu jaoks turbe seadistamine
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas selgitatakse, kuidas saate kuluarvestuses juurdepääsutaseme turbe rakenduses Microsoft Power BI reatasemel turbeks muuta. See funktsioon aitab tagada, et kasutajad näevad ainult Power BI andmeid, millele neil on juurdepääs.
+Selles teemas selgitatakse, kuidas saate kuluarvestuses juurdepääsutaseme turbe Microsoft Power BI-s reatasemel turbeks muuta. See funktsioon aitab tagada, et kasutajad näevad ainult Power BI andmeid, millele neil on juurdepääs.
 
 ## <a name="overview"></a>Ülevaade
 
@@ -42,11 +44,11 @@ Power BI-le juurdepääsutaseme turbe levitamiseks peab Power BI sisu omanik jä
 3. Leidke **kuluarvestuse analüüsi** Power BI sisu jaoks andmekogum.
 4. Avage turbe leht.
 
-    ![Turbelehe avamine.](./media/CA-picture-1.png)
+    ![Turbelehe avamine](./media/CA-picture-1.png)
 
 5. Roll **Kuluobjekti kontroller** on juba loodud. Lisage teisi liikmeid, kes kuuluvad kuluarvestuse juurdepääsutaseme organisatsioonihierarhiasse.
 
-    ![Liikmete lisamine.](./media/CA-picture-2.png)
+    ![Liikmete lisamine](./media/CA-picture-2.png)
 
 Kasutajad, kes lisatakse rollile **Kuluobjekti kontroller**, näevad ainult neid andmeid, mida neil on kuluarvestuse juurdepääsutaseme organisatsioonihierarhia määratluse järgi lubatud näha.
 
@@ -61,6 +63,3 @@ Eeldame, et teie organisatsioon soovib andmetele juurdepääsu piirata. Kui turb
 
 ## <a name="additional-resources"></a>Lisaressursid
 Power BI reatasemel turbe kohta lisateabe saamiseks vaadake teemat [Turbe haldamine teie Power BI mudelis](https://powerbi.microsoft.com/documentation/powerbi-admin-rls/#manage-security-on-your-model).
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,10 +1,12 @@
 ---
 title: ostutaotluse töövoog
 description: Töövooprotsess viib ostutaotlused läbi ülevaatusprotsessi algsest olekust Mustand kuni lõplikku olekusse Kinnitatud. Kui ostutaotlus esitatakse ülevaatamiseks, käivitatakse töövoo protsess. Kui ostutaotlus on kinnitatud, saate luua ostutellimuse ostutaotluse ridade jaoks ja selle hankijale tellimuse täitmiseks esitada.
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchReqAuthorization, WorkflowParticipantExpenToken
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: 2234
 ms.assetid: dad3ba5a-2892-45d2-874a-300896f59b34
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 66305688d1613b9882d3778a81886728df934931
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f6069e2ab93e1ce4299669850bdae37e82b17428
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569453"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021976"
 ---
 # <a name="purchase-requisition-workflow"></a>ostutaotluse töövoog
 
@@ -51,7 +53,7 @@ Järgmine illustratsioon näitab, kuidas ostutaotlus saab läbi töövoo läbiva
 -   **Ostuagent** – kasutaja, kes vaatab hanke üle ja saab dokumendi kinnitada.
 -   **Nõude esitaja ülemus** – kasutaja, kes teeb juhtiva ülevaatuse ja saab dokumendi kinnitada.
 
-![Ostutaotluse töövoo ülevaatamise protsess.](./media/purchreqworkflowoverview_submission.gif)  
+![Ostutaotluse töövoo ülevaatamise protsess](./media/purchreqworkflowoverview_submission.gif)  
 Selles näites töövoo protsess ostutaotlusele järgib järgmiseid samme:
 
 1.  Ettevalmistaja esitab ostutaotluse ülevaatamiseks.
@@ -74,7 +76,7 @@ Selles näites kuuluvad töövoo protsessi järgmised ülesanded:
 -   **Osakonnajuhataja** – kasutaja, kes vaatab kulu üle ja saab dokumendi kinnitada.
 -   **Grupihaldur**– kasutaja, kes teeb allkirjahalduri ülevaatuse ja saab dokumendi kinnitada.
 
-![Ostutaotluse rea töövoo ülevaatamise protsess.](./media/purchreqlineworkflowoverview.gif)  
+![Ostutaotluse rea töövoo ülevaatamise protsess](./media/purchreqlineworkflowoverview.gif)  
 Selles näites töövoo protsess ostutaotluse ridadele järgib järgmiseid samme:
 
 1.  Ettevalmistaja esitab ostutaotluse ülevaatamiseks. Iga rida suunatakse ülevaatajale, kes on konfigureeritud seda töövooprotsessis vastu võtma.
@@ -105,7 +107,8 @@ Saate seadistada kulude ülevaatajad lehel **Ostutaotluse kulude ülevaatajad**.
 
 Töövoos seadistatud kulu ülevaataja kasutamiseks peate asjakohase töövooelemendi välja **Määramine** atribuutides valima suvandi **Osaleja tüüp** sätteks **Kulu osalejad**.
 
-## <a name="additional-resources"></a>Lisaressursid
+<a name="additional-resources"></a>Lisaressursid
+--------
 
 [Tarbimistaotluse loomine](tasks/create-requisition-consumption.md)
 
@@ -117,6 +120,3 @@ Töövoos seadistatud kulu ülevaataja kasutamiseks peate asjakohase töövooele
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

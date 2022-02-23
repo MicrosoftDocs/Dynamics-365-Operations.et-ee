@@ -2,23 +2,26 @@
 title: Hankija hilisema kuupäevaga tšeki registreerimine ja sisestamine
 description: Saate registreerida hilisema kuupäevaga dateeritud tšeki üksikasjad enne tšeki väljastamist hankijale, kasutades töölehe kannet.
 author: kweekley
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransVendPaym
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9ca63923a18ce531493e390ec3883910fe25b0fb4d4dc61203285a33bee2714e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 63a822350ce2bd4d673d7f9841822c84fb883601
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761298"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4442400"
 ---
 # <a name="register-and-post-a-postdated-check-for-a-vendor"></a>Hankija hilisema kuupäevaga tšeki registreerimine ja sisestamine
 
@@ -53,6 +56,3 @@ Selle ülesandejuhendi roll on Kassiir. See ülesanne kasutab demoettevõtte USM
 16. Sulgege leht.
 17. Klõpsake vahekaarti Hilisema kuupäevaga dateeritud tšekid.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

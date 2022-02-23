@@ -2,13 +2,16 @@
 title: Üleminek planeerimise optimeerimisele koondplaneerimiseks
 description: See teema annab teavet planeerimise optimeerimise kohta, mis on uus koondplaneerimise mootor, ja olemasolevalt mootorilt ülemineku kohta.
 author: ChristianRytt
+manager: tfehr
 ms.date: 05/11/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 19311
 ms.assetid: 5ffb1486-2e08-4cdc-bd34-b47ae795ef0f
 ms.search.region: Global
@@ -16,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.search.validFrom: 2020-11-05
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8d3edeefca2e2194a8d5484afbfabf2091da4a1c1538d238351a5d389177ccfd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 94e5668da45c524ed9ab9eef10b40d0fb5336a65
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728575"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4645992"
 ---
 # <a name="migration-to-planning-optimization-for-master-planning"></a>Üleminek planeerimise optimeerimisele koondplaneerimiseks
 
@@ -63,12 +66,8 @@ Praegu on planeerimise optimeerimise funktsiooni migreerumise erand asjakohane, 
 
 Pärast nõutavate funktsioonide kättesaadavaks muutumist annab Microsoft ajapikenduse perioodi, kuni erand aegub. Keskkonna administraatorit teavitatakse, kui nõutavad funktsioonid on saadaval ja ajapikenduse periood on alanud.
 
-Järgmine vooskeem võtab kokku selles teemas esitatud teabe, et saaksite kiiresti teada, kas peaksite erandit taotlema. Kui teil on vaja taotleda erandit, täitke ja esitage [Planning Optimization migreerimise ja erandi küsimustik](https://go.microsoft.com/fwlink/?linkid=2144962).
-
-![Erandi vooskeem.](media/exception-diagram.png "Erandi vooskeem")
-
 > [!NOTE]
-> Erandit saate taotleda ainult rentnikele, kes hetkel kaasavad või kaasavad tulevikus tootmiskeskkondadega, mitte ainult liivakastikeskkondadega üürnikele. Kui teil on vaja keelata planeerimise optimeerimise erandi tõrge infrastruktuuri teenuse (IaaS-i) liivakastikeskkonnas, käivitage SQL-i päring, mis on esitatud teemas [Liivakastikeskkonad](#faq-sandbox).
+> Erandit saate taotleda ainult töökeskkonnale, mitte liivakastikeskkonnale. Kui teil on vaja keelata planeerimise optimeerimise erandi tõrge infrastruktuuri teenuse (IaaS-i) liivakastikeskkonnas, käivitage SQL-i päring, mis on esitatud teemas [Liivakastikeskkonad](#faq-sandbox).
 
 ## <a name="frequently-asked-questions"></a>Korduma kippuvad küsimused
 
@@ -117,6 +116,3 @@ Kasutan versiooni 10.0.16 või uuemat versiooni ja koondplaneerimise käitamisel
 > Alustamiseks täitke järgmine küsimustik ja vajaduse korral paluge erandit planeerimise optimeerimisele üleminekul.
 
 **Vastus:** ei, koondplaneerimine ei ole blokeeritud. Teie koondplaneerimine viidi edukalt lõpule ja saate tulemust kasutada tavalisel viisil. Kuid selleks, et välistada edaspidi selle tõrketeate kuvamine koondplaneerimise käitamise ajal, peate kohe planeerimise optimeerimisele üle minema või taotlema erandit, kasutades tõrketeates olevat linki.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

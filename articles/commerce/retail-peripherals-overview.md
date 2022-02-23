@@ -1,33 +1,33 @@
 ---
 title: Välisseadmed
 description: Selles teemas selgitatakse mõisteid, mis on seotud Commerce’i välisseadmetega.
-author: BrianShook
-ms.date: 02/04/2022
-ms.topic: overview
+author: rubencdelgado
+manager: AnnBe
+ms.date: 02/06/2020
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailTerminalTable, RetailDevice, RetailHardwareProfile
 audience: Application User, IT Pro
 ms.reviewer: josaw
-ms.custom:
-- "268444"
-- intro-internal
+ms.search.scope: Core, Operations, Retail
+ms.custom: 268444
 ms.search.region: global
 ms.search.industry: Retail
-ms.author: brshoo
+ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e60b369feff5bf17f58d6a3b4c9e9b290343b1ae
-ms.sourcegitcommit: 39f1455215e0363cd1449bbc6bdff489097f9ded
-ms.translationtype: MT
+ms.openlocfilehash: dd2ce6b223c99d890691d5fdb9f93a5ceaf33a0d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8092480"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4411794"
 ---
 # <a name="peripherals"></a>Välisseadmed
 
 [!include[banner](includes/banner.md)]
-[!include[banner](includes/preview-banner.md)]
 
 Selles teemas selgitatakse mõisteid, mis on seotud poe välisseadmetega. See kirjeldab mitmesuguseid viise, kuidas välisseadmed saab kassaga ühendada, ja kassaga ühenduse haldamise eest vastutavaid komponente.
 
@@ -35,15 +35,15 @@ Selles teemas selgitatakse mõisteid, mis on seotud poe välisseadmetega. See ki
 
 ### <a name="pos-registers"></a>Kassaregistrid
 
-Navigeerimine: avage **jae- ja kaubanduskanali \> häälestus \> kassa häälestusregistrid \>**. Kassaregister on üksus, mida kasutatakse kassa konkreetse eksemplari omaduste määratlemiseks. Nende omaduste hulka kuuluvad registris kasutatav riistvaraprofiil või välisseadmed, registriga vastendatud kauplus ja sellesse registrisse sisse logiva kasutaja visuaalne kogemus.
+Navigeerimine: klõpsake **Jaemüük ja kaubandus** &gt; **Kanali seadistus** &gt; **Kassa seadistus** &gt; **Registrid**. Kassaregister on üksus, mida kasutatakse kassa konkreetse eksemplari omaduste määratlemiseks. Nende omaduste hulka kuuluvad registris kasutatav riistvaraprofiil või välisseadmed, registriga vastendatud kauplus ja sellesse registrisse sisse logiva kasutaja visuaalne kogemus.
 
 ### <a name="devices"></a>Seadmed
 
-Navigeerimine: avage **jaemüügi- ja kaubanduskanali \> häälestuskassu \> häälestusseadmed \>**. Seade on üksus, mis kajastab kassaregistriga vastendatud seadme füüsilist eksemplari. Seadme loomisel vastendatakse see kassaregistriga. Seadmeüksus jälgib teavet selle kohta, millal kassaregister aktiveeritakse, kasutatava kliendi tüübi kohta ja rakenduse paketi kohta, mis on konkreetse seadme puhul juurutatud. 
+Navigeerimine: klõpsake **Jaemüük ja kaubandus** &gt; **Kanali seadistus** &gt; **Kassa seadistus** &gt; **Seadmed**. Seade on üksus, mis kajastab kassaregistriga vastendatud seadme füüsilist eksemplari. Seadme loomisel vastendatakse see kassaregistriga. Seadmeüksus jälgib teavet selle kohta, millal kassaregister aktiveeritakse, kasutatava kliendi tüübi kohta ja rakenduse paketi kohta, mis on konkreetse seadme puhul juurutatud. 
 
-Seadmeid saab vastetada järgmiste rakendusetüüpidega: Retail Modern POS, Retail Cloud POS, Retail Modern POS – Android ja Retail Modern POS – iOS.
+Seadmed saab vastendada järgmiste rakendusetüüpidega: Retail Modern POS, Retail Cloud POS, Retail Modern POS – Windows Phone, Retail Modern POS – Android ja Retail Modern POS – iOS.
 
-### <a name="modern-pos"></a>Modern POS
+### <a name="modern-pos"></a>Tänapäevane Kassa
 
 Modern POS on Microsoft Windowsi kassaprogramm. Seda saab juurutada Windows 10 operatsioonisüsteemides (OS-ides).
 
@@ -63,20 +63,20 @@ Modern POS Androidile on Modern POS-i programmi Androidi-põhine versioon, mida 
 
 Kassa välisseadmed on seadmed, millel selgelt kassafunktsioone toetatakse. Need välisseadmed on tavaliselt jagatud konkreetsetesse klassidesse. Lisateavet nende klasside kohta leiate selle teema jaotisest „Seadmeklassid”.
 
-### <a name="hardware-station"></a>Riistvarajaam
+### <a name="hardware-station"></a>Hardware station
 
-Navigeerimine: minge jaotisse **Retail and Commerce \> Channels \> Stores \> Kõik kauplused**. Valige kauplus ja seejärel **kiirkaart Riistvarajaamad**. Säte **Riistvarajaam** on kanali tasandi säte, mida kasutatakse eksemplaride määratlemiseks, kui kasutatakse välisseadme loogikat. Seda sätet kasutatakse kanali tasandil riistvarajaama omaduste määramiseks. Samuti kasutatakse seda antud kaupluses Modern POS-i puhul saadaolevate riistvarajaamade loetlemiseks. Riistvarajaam on integreeritud Modern POS-i programmidesse Windowsile ja Androidile. Riistvarajaama saab juurutada ka iseseisvalt autonoomse teenuse Microsoft Internet Information Services (IIS) programmina. Sellisel juhul pääseb sellele juurde võrgu kaudu.
+Navigeerimine: klõpsake **Jaemüük ja kaubandus** &gt; **Kanalid** &gt; **Poed** &gt; **Kõik poed**. Valige kauplus ja klõpsake siis kiirkaarti **Riistvarajaamad**. Säte **Riistvarajaam** on kanali tasandi säte, mida kasutatakse eksemplaride määratlemiseks, kui kasutatakse välisseadme loogikat. Seda sätet kasutatakse kanali tasandil riistvarajaama omaduste määramiseks. Samuti kasutatakse seda antud kaupluses Modern POS-i puhul saadaolevate riistvarajaamade loetlemiseks. Riistvarajaam on integreeritud Modern POS-i programmidesse Windowsile ja Androidile. Riistvarajaama saab juurutada ka iseseisvalt autonoomse teenuse Microsoft Internet Information Services (IIS) programmina. Sellisel juhul pääseb sellele juurde võrgu kaudu.
 
 ### <a name="hardware-profile"></a>Riistvaraprofiil
 
-Navigeerimine: avage **jaemüügi- ja kaubanduskanali \> häälestus \> kassa häälestus \> müügikoha profiilid \> Riistvaraprofiilid**. Riistvaraprofiil on kassaregistri või riistvarajaama jaoks konfigureeritud seadmete loend. Riistvaraprofiili saab vastendada otse kassaregistri või riistvarajaamaga.
+Navigeerimine: klõpsake valikuid **Jaemüük ja kaubandus** &gt; **Kanali seadistus** &gt; **Kassa seadistus** &gt; **Kassaprofiilid** &gt; **Riistvaraprofiilid**. Riistvaraprofiil on kassaregistri või riistvarajaama jaoks konfigureeritud seadmete loend. Riistvaraprofiili saab vastendada otse kassaregistri või riistvarajaamaga.
 
 ## <a name="devices-classes"></a>Seadmete klassid
 Kassa välisseadmed on tavaliselt jagatud klassidesse. Selles jaotises kirjeldatakse seadmeid, mida Modern POS toetab, ja antakse neist ülevaade.
 
 ### <a name="printer"></a>Printer
 
-Printerite hulka kuuluvad tavapärased kassa kviitungiprinterid ja kogu lehe printerid. Printereid toetatakse rakenduse Retail POS (OPOS) ja draiveri liideste objektide linkimise ja Microsoft Windows manustamise kaudu. Korraga saab kasutada kuni kahte printerit. See võimalus toetab stsenaariume, kus sularahaklientide kviitungid prinditakse kviitungiprinteritest, samas kui klientide teaberohkemad arved prinditakse kogu lehe printeritest. Kviitungiprinterid saab ühendada USB kaudu otse arvutiga, Etherneti kaudu võrguga või Bluetoothi kaudu.
+Printerite hulka kuuluvad tavapärased kassa kviitungiprinterid ja kogu lehe printerid. Printereid toetatakse süsteemi Object Linking and Embedding for Retail POS (OPOS) ja Microsoft Windowsi draiveriliideste kaudu. Korraga saab kasutada kuni kahte printerit. See võimalus toetab stsenaariume, kus sularahaklientide kviitungid prinditakse kviitungiprinteritest, samas kui klientide teaberohkemad arved prinditakse kogu lehe printeritest. Kviitungiprinterid saab ühendada USB kaudu otse arvutiga, Etherneti kaudu võrguga või Bluetoothi kaudu.
 
 ### <a name="scanner"></a>Skanner
 
@@ -98,9 +98,9 @@ Ridade kuvareid kasutatakse toodete, kandesaldode ja muu kasuliku teabe kuvamise
 
 Allkirja hõivamise seadmed saab USB kaudu otse arvutiga ühendada, kasutades OPOS-i draivereid. Kui allkirja hõive on konfigureeritud, kuvatakse kasutajale viip seadmesse logimiseks. Pärast allkirja edastamist näidatakse seda kassapidajale kinnitamiseks.
 
-### <a name="scale"></a>Mõõtkava
+### <a name="scale"></a>Sobita
 
-Kaalusid saab arvutiga ühendada USB kaudu, kasutades OPOS-draivereid. Kui kandele lisatakse toode, mis on märgitud „kaalutavaks” tooteks, loeb kassa kaalult kaalu, lisab toote kandesse ja kasutab kaalu antud kogust.
+Arvutiga saab USB kaudu kaalu ühendada, kasutades OPOS-i draivereid. Kui kandele lisatakse toode, mis on märgitud „kaalutavaks” tooteks, loeb kassa kaalult kaalu, lisab toote kandesse ja kasutab kaalu antud kogust.
 
 ### <a name="pin-pad"></a>PIN-klahvistik
 
@@ -120,14 +120,14 @@ Makseseadme tugi juurutatakse makseliidese kaudu. Makseseadmed võivad täita ü
 Selleks, et Commerce’iga saaks kasutada suurimat seadmevalikut, on valdkonna standard objektilinkimine ja -manustamine müügikohas peamine toetatud välisseadmete platvorm. Standardi Objektilinkimine ja -manustamine müügikohas looja on organisatsioon National Retail Federation (NRF), mis kehtestab välisseadmetele standardsed sideprotokollid. OPOS on standardi Objektilinkimine ja -manustamine müügikohas laialdaselt kasutatav juurutus. See töötati välja 1990. aastate keskel ja seda on sestsaadik mitu korda uuendatud. OPOS pakub seadmedraiveri arhitektuuri, mis võimaldab kassa riistvara hõlpsat integreerimist Windowsi-põhiste kassasüsteemidega. OPOS-i juhtelemendid tegelevad ühilduva riistvara ja kassatarkvara vahelise sidega. OPOS-i juhtelement koosneb kahest osast.
 
 -   **Juhtimisobjekt** – seadmeklassi (nt ridade kuvarite) juhtimisobjekt pakub tarkvaraprogrammi liidest. Monroe Consulting Services ([www.monroecs.com](http://www.monroecs.com/)) pakub standardset OPOS-i juhtimisobjektide kogumit, mida tuntakse kui üldisi juhtimisobjekte (CCO-sid). CCO-sid kasutatakse Commerce’i kassakomponendi testimiseks. Seega aitab testimine tagada, et kui Commerce toetab OPOS-i kaudu seadmeklassi, siis saab toetada paljusid seadmetüüpe eeldusel, et tootja pakub OPOS-i jaoks loodud hooldusobjekti. Iga seadmetüüpi pole vaja otseselt testida.
--   **Hooldusobjekt** – hooldusobjekt tagab juhtimisobjekti (CCO) ja seadme vahelise side. Tavaliselt annab seadme hooldusobjekti seadme tootja. Kuid mõnel juhul võib teil olla vaja hooldusobjekt tootja veebisaidilt alla laadida. Näiteks võib olla saadaval uuem hooldusobjekt. Tootja veebisaidi aadressi leiate oma riistvara dokumentidest.
+-   **Hooldusobjekt** – hooldusobjekt tagab juhtimisobjekti (CCO) ja seadme vahelise side. Tavaliselt annab seadme hooldusobjekti seadme tootja. Samas mõnel juhul võib teil olla vaja hooldusobjekt tootja veebisaidilt alla laadida. Näiteks võib olla saadaval uuem hooldusobjekt. Tootja veebisaidi aadressi leiate oma riistvara dokumentidest.
 
-[![Kontrolli objekti ja teenuse objekti.](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png) Juhtimisobjekt ja hooldusobjekt kassa OLE OPOS-i juurutuse tugi aitab tagada, et kui seadme tootjad ja kassa avaldajad juurutavad standardi õigesti, siis töötavad kassasüsteemid ja toetatud seadmed koos, isegi, kui neid eelnevalt koos ei testitud. 
+[![Juhtimisobjekt ja hooldusobjekt](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png) Müügikohas objektilinkimise ja -manustamise OPOS-i juurutuse tugi aitab tagada, et kui seadme tootjad ja kassa avaldajad juurutavad standardi õigesti, siis töötavad kassasüsteemid ja toetatud seadmed koos, isegi kui neid eelnevalt koos ei testitud. 
 
 > [!NOTE]
 > OPOS-i tugi ei garanteeri kõigi OPOS-i draiveritega seadmete tuge. Commerce peab seda seadmetüüpi või klassi esmalt OPOS-i kaudu toetama. Lisaks ei pruugi hooldusobjektid CCO-de viimase versiooni suhtes alati ajakohased olla. Peaksite arvestama ka seda, et üldjuhul on hooldusobjektide kvaliteet erinev.
 
-### <a name="windows"></a>Windows
+### <a name="windows"></a>&Aknad...
 
 Kassas kviitungite printimine on OPOS-i jaoks optimeeritud. OPOS on tavaliselt palju kiirem kui Windowsi kaudu printimine. Seega tasub OPOS-i kasutada, eelkõige keskkondades, kus prinditakse 40 veerust koosnevaid kviitungeid ja kande aeg peab olema lühike. Enamiku seadmete puhul kasutatakse OPOS-i juhtelemente. Kuid mõned OPOS-i kviitungiprinterid toetavad ka Windowsi draivereid. Windowsi draiverit kasutades pääsete juurde uusimatele fontidele ja esimese võrgu printerile mitme registri puhul. Kuid Windowsi draiverite kasutamisel on miinuseid. Siin on mõned näited neist miinustest.
 
@@ -138,26 +138,17 @@ Kassas kviitungite printimine on OPOS-i jaoks optimeeritud. OPOS on tavaliselt p
 
 Kui OPOS-i juhtelemendid on kasutatava Windowsi printeri puhul saadaval, peaks printer ikkagi Commerce’iga õigesti töötama.
 
-### <a name="plug-and-play-devices"></a>Seadmete ühendamine ja mängimine
+### <a name="universal-windows-platform"></a>Universaalne Windowsi platvorm
 
-Kui pistik- ja esitusseade on ühendatud Seda tüüpi seadet toetava Windowsi operatsioonisüsteemi versiooniga, ei ole seadme ettenähtud kasutamiseks draiverit vaja. Näiteks kui Windows tuvastab Bluetooth-kõlariseadme, teab operatsioonisüsteem, et seadmel on klassi tüüp "Kõlar" ja käsitleb seda seadet kõlarina. Täiendavat seadistamist pole vaja. 
-
-Kassa välisseadmete puhul saab Windows OS ühendada ja tuvastada paljusid USB-seadmeid inimliidese seadmetena (HID). Kuid Windows ei pruugi olla võimeline määrama seadme pakutavaid võimalusi, kuna seade ei määra seadme klassi ega tüüpi. Windows 10-s on lisatud vöötkoodiskannerite ja MSR-ide seadmeklassid. Seetõttu, kui seade kinnitab Windows 10-le, et ta on mõne sellise klassi seade, kuulab Windows sobivatel aegadel seadme sündmusi.
-
-Modern POS toetab UWP MSR-e ja skannereid. Seega, kui Kaasaegne kassa on ühest neist seadmetest sisendiks valmis ja ühendatud on seade, mis kuulub ühte seadmeklassi, saab seda seadet kasutada. Näiteks kui windows 10 arvutisse on ühendatud pistik- ja esitusribakoodi skanner ja vöötkoodi sisselogimine on konfigureeritud kaasaegse kassa jaoks, muutub vöötkoodi skanner sisselogimislehel aktiivseks. Täiendavat seadistamist pole vaja.
-
-Windowsi lisatakse täiendavaid kassa välisseadmete klasse, näiteks sularahasahtlite ja kviitungiprinterite klasse. Nende uute seadmeklasside tugi Modern POS-is on ootel.
+Välisseadmete puhul on UWP seotud Windowsi isehäälestuvate seadmete toega. Kui isehäälestuv seade ühendatakse seda tüüpi seadet toetava Windowsi OS-i versiooniga, pole seadme sihipäraseks kasutamiseks ühtegi draiverit vaja. Näiteks kui Windows tuvastab Bluetooth-kõlari või seadme, siis OS teab, et selle seadme klassi tüüp on **Kõlar**. Seega käsitleb see seadet kõlarina. Täiendavat seadistamist pole vaja. Kassaseadmete puhul saab ühendada paljusid USB-seadmeid ja Windows tuvastab need inimliidese seadmetena (HID-dena). Kuid see ei pruugi suuta määrata seadme pakutavaid võimalusi, kuna seade ei määra seadme klassi või tüüpi. Windows 10-s on lisatud vöötkoodiskannerite ja MSR-ide seadmeklassid. Seetõttu, kui seade kinnitab Windows 10-le, et ta on mõne sellise klassi seade, kuulab Windows sobivatel aegadel seadme sündmusi. Modern POS toetab UWP MSR-e ja skannereid. Seega, kui see on valmis mõne sellise seadme sisendiks ja mõnda sellisesse klassi kuuluv seade on ühendatud, saab seadet kasutada. Näiteks kui Windows 10 arvutiga on ühendatud UWP-vöötkoodiskanner ja Modern POS-i jaoks on konfigureeritud vöötkoodiga sisselogimine, siis aktiveerub sisselogimisekraanil vöötkoodiskanner. Täiendavat seadistamist pole vaja. Windowsi lisatakse täiendavaid kassa UWP seadmeid. Nende klasside hulka kuuluvad sularahasahtlite ja kviitungiprinterite klassid. Nende uute seadmeklasside tugi Modern POS-is on ootel.
 
 ### <a name="keyboard-wedge"></a>Klaviatuurikiil
 
-Klaviatuurikiilu seadmed saadavad andmeid arvutisse, justkui need andmed oleksid klaviatuuri kaudu sisestatud. Seega võtab skannitud või kaarditõmbega sisestatud andmed vaikimisi vastu väli, mis on kassas aktiivne. Mõnikord põhjustab see vale tüüpi andmete skannimise valele väljale. Näiteks võidakse vöötkood skannida väljale, mis on mõeldud krediitkaardi andmete sisestamiseks. Paljudel juhtidel on kassas olemas loogika, mis määrab, kas skannitud või kaarditõmbega sisestatud andmed on vöötkood või kaarditõmme. Seega käsitsetakse andmeid õigesti. Kuid kui seadmed on seadistatud klaviatuurikiilu seadmete asemel OPOS-ina, on suurem kontroll selle üle, kuidas nende seadmete andmeid tarbitakse, kuna seadme kohta, kust andmed pärinevad, on rohkem „teada”. Näiteks vöötkoodiskannerist pärinevad andmed tuvastatakse automaatselt vöötkoodina ning seotud kirje andmebaasis leitakse hõlpsamini ja kiiremini kui üldise stringiotsingu kasutamisel (nagu klaviatuurikiilu seadmete puhul).
+Klaviatuurikiilu seadmed saadavad andmeid arvutisse, justkui need andmed oleksid klaviatuuri kaudu sisestatud. Seega võtab skannitud või kaarditõmbega sisestatud andmed vaikimisi vastu väli, mis on kassas aktiivne. Mõnikord põhjustab see vale tüüpi andmete skannimise valele väljale. Näiteks võidakse vöötkood skannida väljale, mis on mõeldud krediitkaardi andmete sisestamiseks. Paljudel juhtidel on kassas olemas loogika, mis määrab, kas skannitud või kaarditõmbega sisestatud andmed on vöötkood või kaarditõmme. Seega käsitsetakse andmeid õigesti. Samas kui seadmed on seadistatud klaviatuurikiilu seadmete asemel OPOS-ina, on suurem kontroll selle üle, kuidas nende seadmete andmeid tarbitakse, kuna seadme kohta, kust andmed pärinevad, on rohkem „teada”. Näiteks vöötkoodiskannerist pärinevad andmed tuvastatakse automaatselt vöötkoodina ning seotud kirje andmebaasis leitakse hõlpsamini ja kiiremini kui üldise stringiotsingu kasutamisel (nagu klaviatuurikiilu seadmete puhul).
 
-> [!NOTE]
-> Kui müügikohas kasutatakse klaviatuuri kiiluskannereid, peavad need olema programmeeritud saatma veotagastuse või **Enteri** sündmuse pärast viimast skannitud märki. Kui see konfiguratsioon pole tehtud, ei tööta klaviatuuri kiiluskannerid korralikult. Lisateavet tagasisõidusündmuse lisamise kohta leiate seadme tootja dokumentatsioonist.  
+### <a name="native-printer"></a>Süsteemi printer
 
-### <a name="device-printers"></a>Seadme printerid
-
-Tüüpi "Seade" printereid saab konfigureerida nii, et see palub kasutajal valida arvuti jaoks konfigureeritud printer. Kui "Seadme" tüüpi printer on konfigureeritud, kui Kaasaegne kassa kohtab prindikäsku, palutakse kasutajal valida loendist printer. See käitumine erineb Windowsi draiverite käitumisest, kuna printeri "Windows" tüüp riistvaraprofiil ei näita kasutajale printerite loendit. Selle asemel nõuab see, et väljal **Seadme nimi** oleks antud nimega printer.
+Süsteemi (või riistvaraprofiilis nimetatud tüüpi seadme) printereid saab konfigureerida nii, et kasutaja peab valima printeri, mis arvuti jaoks konfigureeritakse. Kui on konfigureeritud printer tüübiga **Seade**, siis kui Modern POS saab printimiskäsu, lastakse kasutajal loendist printer valida. See käitumisviis erineb Windowsi draiverite omast, kuna printeri tüüp **Windows** riistvaraprofiilis ei näita printerite loendit. Selle asemel nõuab see, et väljal **Seadme nimi** oleks antud nimega printer.
 
 ### <a name="network"></a>Võrk
 
@@ -167,18 +158,13 @@ Võrguaadressiga sularahasahtleid, kviitungiprintereid ja makseterminale saab ka
 
 ### <a name="dedicated"></a>Sihtotstarbeline
 
-Modern POS-i kliendid Windowsi ja Androidi jaoks hõlmavad **sihtotstarbelisi** või sisseehitatud riistvarajaamu. Need kliendid saavad suhelda välisseadmetega otse, kasutades äriloogikat, mis on rakendustesse sisse ehitatud. Androidi rakendus toetab ainult võrguseadmeid. Lisateabe saamiseks Androidi välisseadmete toe kohta külastage artiklit [Rakenduse POS Hybrid seadistamine Androidis ja iOS-is](./dev-itpro/hybridapp.md).
+Modern POS-i kliendid Windowsi ja Androidi jaoks hõlmavad **sihtotstarbelisi** või sisseehitatud riistvarajaamu. Need kliendid saavad suhelda välisseadmetega otse, kasutades äriloogikat, mis on rakendustesse sisse ehitatud. Androidi rakendus toetab ainult võrguseadmeid. Lisateabe saamiseks Androidi välisseadmete toe kohta külastage artiklit [Rakenduse POS Hybrid seadistamine Androidis ja iOS-is](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp).
 
-Spetsiaalse riistvarajaama kasutamiseks tehke järgmist.
-
-1. Määrake riistvaraprofiil registrile, mis kasutab Windowsi või Android rakenduse kaasaegset kassat.
-1. Looge selle poe jaoks, kus registrit kasutatakse, tüübi "Pühendatud" riistvarajaam. 
-1. Avage mittesahtli režiimis kaasaegne müügikoha ja riistvarajaamade **haldamine** riistvarajaama võimaluste sisselülitamiseks. Spetsiaalne riistvarajaam on vaikimisi aktiivne. 
-1. Logige kaasaegsest kassast välja. Seejärel logige uuesti sisse ja avage vahetus. Riistvaraprofiilis konfigureeritud välisseadmed on nüüd kasutatavad. 
+Sihtotstarbelise riistvarajaama kasutamiseks määrake riistvaraprofiil registrile, mis kasutab Windowsi või Androidi avalduste jaoks Modern POS-i. Seejärel looge kauplusele, kus registrit kasutatakse, riistvarajaam tüübiga **Sihtotstarbeline**. Käivitage Modern POS kassavälises režiimis ja kasutage toimingut **Halda riistvarajaamasid**, et lülitada sisse riistvarajaama võimalused. Sihtotstarbeline riistvarajaam on vaikimisi aktiivne. Järgmisena logige Modern POS-ist välja, seejärel logige tagasi sisse ja avage vahetus ning riistvara profiilis konfigureeritud välisseadmed on kasutatavad. 
 
 ### <a name="shared"></a>Ühine 
 
-Mõnikord nimetatakse seda ka "IIS" riistvarajaamaks, "IIS", mis tähendab, et kassarakendus ühendub riistvarajaamaga Microsoft Internet Information Servicesi kaudu. Kassarakendus loob IIS-i riistvarajaamaga ühenduse veebiteenuste kaudu, mis töötavad arvutis, millega seadmed on ühendatud. Ühise riistvarajaama kasutamisel saab riistvarajaamaga ühendatud välisseadmeid kasutada iga kassaregister, mis on IIS-i riistvarajaamaga samas võrgus. Kuna ainult Modern POS Windowsile ja Androidile sisaldavad integreeritud välisseadmete tuge, peavad kõik Modern POS-i rakendused kasutama riistvaraprofiilis konfigureeritud kassa välisseadmetega suhtlemiseks IIS-i riistvarajaama. Seega nõuab iga IIS-i riistvarajaama eksemplar arvutit, millel töötab veebiteenus ja seadmetega suhtlev rakendus. 
+Mõnikord viidatud ka kui „IIS-i” riistvarajaam, kus „IIS” tähendab, et kassa rakendus ühendub riistvarajaamaga teenuse Microsoft Internet Information Services kaudu. Kassarakendus loob IIS-i riistvarajaamaga ühenduse veebiteenuste kaudu, mis töötavad arvutis, millega seadmed on ühendatud. Ühise riistvarajaama kasutamisel saab riistvarajaamaga ühendatud välisseadmeid kasutada iga kassaregister, mis on IIS-i riistvarajaamaga samas võrgus. Kuna ainult Modern POS Windowsile ja Androidile sisaldavad integreeritud välisseadmete tuge, peavad kõik Modern POS-i rakendused kasutama riistvaraprofiilis konfigureeritud kassa välisseadmetega suhtlemiseks IIS-i riistvarajaama. Seega nõuab iga IIS-i riistvarajaama eksemplar arvutit, millel töötab veebiteenus ja seadmetega suhtlev rakendus. 
 
 Ühist riistvarajaama saab kasutada välisseadmete jagamiseks mitme kassa kliendi lubamiseks või kasutada ühe kassa kooskõlastatud kogum või välisseadmete haldamiseks. 
 
@@ -213,14 +199,14 @@ Teavet vt [Modern POS-i (MPOS) konfigureerimine, installimine ja aktiveerimine](
 
 ### <a name="modern-pos-for-android-and-ios-setup-and-configuration"></a>Modern POS Androidile ja iOS-ile seadistamine ja konfigureerimine
 
-Teavet vt [Rakenduse POS Hybrid seadistamine Androidis ja iOS-is](./dev-itpro/hybridapp.md).
+Teavet vt [Rakenduse POS Hybrid seadistamine Androidis ja iOS-is](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp).
 
 ### <a name="opos-device-setup-and-configuration"></a>OPOS-i seadme seadistamine ja konfigureerimine
 
 Lisateavet OPOS-i komponentide kohta leiate selle dokumendi jaotisest „Toetatud liidesed”. Tavaliselt annab OPOS-i draiverid seadme tootja. Kui OPOS-i seadme draiver on installitud, lisab see Windowsi registrisse ühte järgmisse asukohta võtme.
 
--   **32-bitine süsteem:** HKEYLOCALMACHINE\_\_\SOFTWARE\OLEforRetail\ServiceOPOS
--   **64-bitine süsteem:** HKEYLOCALMACHINE\_\_\SOFTWARE\WOW6432Node\OLEforRetail\ServiceOPOS
+-   **32-bitine süsteem:** HKEY\_LOCAL\_MACHINESOFTWAREOLEforRetailServiceOPOS
+-   **64-bitine süsteem:** HKEY\_LOCAL\_MACHINESOFTWAREWOW6432NodeOLEforRetailServiceOPOS
 
 Registri asukoha ServiceOPOS puhul korraldatakse konfigureeritud seadmed OPOS-i seadmeklassi järgi. Salvestatakse mitu seadmedraiverit.
 
@@ -351,7 +337,7 @@ Võrgu välisseadmeid saab toetada otse Windowsi ja Androidi rakenduste Modern P
 ### <a name="all-modern-pos-clients-that-have-a-committed-shared-iis-hardware-station"></a>Kõik Modern POS-i kliendid, millel on kooskõlastatud ühine IIS-i riistvarajaam
 
 > [!NOTE]
-> Kui IIS-i riistvarajaam on "pühendunud", on kassa kliendi ja riistvarajaama vahel üks-ühele suhe.
+> Kui IIS-i riistvarajaam on kooskõlastatud, on kassa kliendi ja riistvarajaama vahel üks-ühele seos.
 
 <table>
 <colgroup>
@@ -434,7 +420,7 @@ Võrgu välisseadmeid saab toetada otse Windowsi ja Androidi rakenduste Modern P
 ### <a name="all-modern-pos-clients-shared-an-iis-hardware-station"></a>Kõik Modern POS-i kliendid, millel on ühine IIS-i riistvarajaam
 
 > [!NOTE]
-> Kui IIS-i riistvarajaam on ühine, saab seda kasutada korraga mitu seadet. Selle stsenaariumi puhul tuleks kasutada ainult järgmises tabelis loetletud seadmeid. Kui püüate anda ühiskasutusse seadmeid, mida siin kirjas ei ole (nt vöötkoodiskannereid ja MSR-e), tekivad tõrked, kui sama välisseadet püüab kasutada mitu seadet. Tulevikus on selline konfiguratsioon selgelt välistatud.
+> Kui IIS-i riistvarajaam on n-ö ühiskasutuses, saab seda kasutada korraga mitu seadet. Selle stsenaariumi puhul tuleks kasutada ainult järgmises tabelis loetletud seadmeid. Kui püüate anda ühiskasutusse seadmeid, mida siin kirjas ei ole (nt vöötkoodiskannereid ja MSR-e), tekivad tõrked, kui sama välisseadet püüab kasutada mitu seadet. Tulevikus on selline konfiguratsioon selgelt välistatud.
 
 <table>
 <colgroup>
@@ -500,15 +486,15 @@ See konfiguratsioon on tavapäraste fikseeritud kassaregistrite puhul kõige lev
     > [!NOTE]
     > Te ei pea riistvarajaamale ühtegi muud atribuuti määrama. Kogu muu vajalik teave (nt riistvaraprofiil) tuleb registrist endast.
 
-4.  Avage **Jaemüük ja kaubandus \> Jaemüügi ja kaubanduse IT \> Jaotusgraafik**.
-5.  Valige jaotusgraafik **1090** uue riistvaraprofiili sünkroonimiseks kauplusega. Müügikoha muudatuste sünkroonimiseks valige **Käivita kohe**.
-6.  Valige jaotusgraafik **1040** uue riistvarajaama sünkroonimiseks kauplusega. Müügikoha muudatuste sünkroonimiseks valige **Käivita kohe**.
+4.  Klõpsake valikuid **Jaemüük ja kaubandus** &gt; **Jaemüügi ja kaubanduse IT** &gt; **Jaotusgraafik**.
+5.  Valige jaotusgraafik **1090** uue riistvaraprofiili sünkroonimiseks kauplusega. Kassa muudatuste sünkroonimiseks klõpsake valikut **Käivita kohe**.
+6.  Valige jaotusgraafik **1040** uue riistvarajaama sünkroonimiseks kauplusega. Kassa muudatuste sünkroonimiseks klõpsake valikut **Käivita kohe**.
 7.  Installige ja aktiveerige Modern POS Windowsile.
 8.  Käivitage Modern POS Windowsile ja alustage ühendatud välisseadmete kasutamist.
 
 ### <a name="modern-pos-for-android-with-an-ipc-built-in-hardware-station"></a>IPC (integreeritud) riistvarajaamaga Modern POS Androidile
 
-**Uued 10.0.8** jaoks - Epsoni võrguprinterid ja sularahasahtlid, mis on ühendatud nende printeritega DK-pordi kaudu, on nüüd rakenduse modernse kassa jaoks Android toetatud. Üksikasjade jaoks külastage teemat [Rakenduse POS Hybrid seadistamine Androidis ja iOS-is](./dev-itpro/hybridapp.md).
+**10.0.8 jaoks uus** – Epsoni võrguprinterid ja nende printeritega DK-pordi kaudu ühendatud sularahasahtlid on nüüd Androidi rakenduse Modern POS jaoks toetatud. Üksikasjade jaoks külastage teemat [Rakenduse POS Hybrid seadistamine Androidis ja iOS-is](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp).
 
 ### <a name="all-modern-pos-clients-that-have-a-committed-shared-iis-hardware-station"></a>Kõik Modern POS-i kliendid, millel on kooskõlastatud ühine IIS-i riistvarajaam
 
@@ -527,18 +513,18 @@ Seda konfiguratsiooni saab kasutada kõigi Modern POS-i klientide puhul, millel 
     -   **EFT kassa number** – EFT terminali ID, mida EFT volituste saatmisel kasutada. Selle ID annab krediitkaardiprotsessor.
     -   **Paketi nimi** – riistvarajaama pakett, mida riistvarajaama juurutamisel kasutada.
 
-4.  Avage **Jaemüük ja kaubandus \> Jaemüügi ja kaubanduse IT \> Jaotusgraafik**.
-5.  Valige jaotusgraafik **1090** uue riistvaraprofiili sünkroonimiseks kauplusega. Müügikoha muudatuste sünkroonimiseks valige **Käivita kohe**.
-6.  Valige jaotusgraafik **1040** uue riistvarajaama sünkroonimiseks kauplusega. Müügikoha muudatuste sünkroonimiseks valige **Käivita kohe**.
+4.  Klõpsake valikuid **Jaemüük ja kaubandus** &gt; **Jaemüügi ja kaubanduse IT** &gt; **Jaotusgraafik**.
+5.  Valige jaotusgraafik **1090** uue riistvaraprofiili sünkroonimiseks kauplusega. Kassa muudatuste sünkroonimiseks klõpsake valikut **Käivita kohe**.
+6.  Valige jaotusgraafik **1040** uue riistvarajaama sünkroonimiseks kauplusega. Kassa muudatuste sünkroonimiseks klõpsake valikut **Käivita kohe**.
 7.  Riistvarajaama paigaldamine. Lisateavet riistvarajaama paigaldamise kohta leiate jaotisest [Jaemüügi riistvarajaama konfigureerimine ja installimine](retail-hardware-station-configuration-installation.md).
 8.  Installige ja aktiveerige Modern POS. Lisateavet Modern POS-i installimise kohta vt teemast [Modern POS-i (MPOS) konfigureerimine, installimine ja aktiveerimine](retail-modern-pos-device-activation.md).
 9.  Logige Modern POS-i sisse ja valige **Kassaväliste toimingute tegemine**.
 10. Käivitage toiming **Riistvarajaamade haldamine**.
-11. Valige **Halda**.
+11. Klõpsake käsku **Halda**.
 12. Määrake riistvarajaama haldamise lehel riistvarajaama sisselülitamise valik.
-13. Valige kasutatav riistvarajaam ja seejärel valige **Sidumine**.
-14. Kui riistvarajaam on seotud, valige **Sule**.
-15. Valige riistvarajaama valiku lehel hiljuti valitud riistvarajaam, et muuta see aktiivseks.
+13. Valige kasutatav riistvarajaam ja klõpsake siis nuppu **Seo**.
+14. Kui riistvarajaam on seotud, klõpsake nuppu **Sule**.
+15. Klõpsake riistvarajaama valimise lehel hiljuti valitud riistvarajaama, et muuta see aktiivseks.
 
 ### <a name="all-modern-pos-clients-that-have-a-shared-iis-hardware-station"></a>Kõik Modern POS-i kliendid, millel on ühine IIS-i riistvarajaam
 
@@ -550,46 +536,46 @@ Seda konfiguratsiooni saab kasutada kõigi Modern POS-i klientide puhul, mis kas
     -   **Hosti nimi** – hostarvuti nimi, kus riistvarajaam töötab.
     -   **Kirjeldus** – tekst, mis aitab riistvarajaama tuvastada, nt **Tagastused** või **Kaupluse ees**.
     -   **Port** – port, mida riistvarajaam kasutab Modern POS-i kliendiga suhtlemiseks.
-    -   **Riistvaraprofiil** – ühiskasutuses riistvarajaamade puhul peab igal riistvarajaamal olema riistvaraprofiil. Riistvarajaamad võivad riistvaraprofiile ühiselt kasutada, kuid need peavad olema vastendatud iga riistvarajaamaga. Lisaks soovitame kasutada ühiseid vahetusi, kui sama ühist riistvarajaama kasutab mitu seadet. Ühis shifti seadistamiseks minge jae **- ja kaubanduskanali \> häälestuskassile \> müügikoha seadistuse \> müügikoha profiilid \> Riistvaraprofiilid**. Valige iga ühise riistvaraprofiili jaoks sularahasahtel ja määrake valiku **Ühise vahetuse sahtel** väärtuseks **Jah**.
+    -   **Riistvaraprofiil** – ühiskasutuses riistvarajaamade puhul peab igal riistvarajaamal olema riistvaraprofiil. Riistvarajaamad võivad riistvaraprofiile ühiselt kasutada, kuid need peavad olema vastendatud iga riistvarajaamaga. Lisaks soovitame kasutada ühiseid vahetusi, kui sama ühist riistvarajaama kasutab mitu seadet. Ühise vahetuse seadistamiseks klõpsake **Jaemüük ja kaubandus** &gt; **Kanali seadistus** &gt; **Kassa seadistus** &gt; **Kassaprofiilid** &gt; **Riistvaraprofiilid**. Valige iga ühise riistvaraprofiili jaoks sularahasahtel ja määrake valiku **Ühise vahetuse sahtel** väärtuseks **Jah**.
     -   **EFT kassa number** – EFT terminali ID, mida EFT volituste saatmisel kasutada. Selle ID annab krediitkaardiprotsessor.
     -   **Paketi nimi** – riistvarajaama pakett, mida riistvarajaama juurutamisel kasutada.
 
 4.  Korrake samme 2 ja 3 iga täiendava riistvarajaamaga, mida kaupluses vaja on.
-5.  Avage **Jaemüük ja kaubandus \> Jaemüügi ja kaubanduse IT \> Jaotusgraafik**.
-6.  Valige jaotusgraafik **1090** uue riistvaraprofiili sünkroonimiseks kauplusega. Müügikoha muudatuste sünkroonimiseks valige **Käivita kohe**.
-7.  Valige jaotusgraafik **1040** uue riistvarajaama sünkroonimiseks kauplusega. Müügikoha muudatuste sünkroonimiseks valige **Käivita kohe**.
+5.  Klõpsake valikuid **Jaemüük ja kaubandus** &gt; **Jaemüügi ja kaubanduse IT** &gt; **Jaotusgraafik**.
+6.  Valige jaotusgraafik **1090** uue riistvaraprofiili sünkroonimiseks kauplusega. Kassa muudatuste sünkroonimiseks klõpsake valikut **Käivita kohe**.
+7.  Valige jaotusgraafik **1040** uue riistvarajaama sünkroonimiseks kauplusega. Kassa muudatuste sünkroonimiseks klõpsake valikut **Käivita kohe**.
 8.  Installige riistvarajaam igasse hostarvutisse, mille toimingutes 2 ja 3 seadistasite. Lisateavet riistvarajaama paigaldamise kohta leiate jaotisest [Jaemüügi riistvarajaama konfigureerimine ja installimine](retail-hardware-station-configuration-installation.md).
 9.  Installige ja aktiveerige Modern POS. Lisateavet Modern POS-i installimise kohta vt teemast [Modern POS-i (MPOS) konfigureerimine, installimine ja aktiveerimine](retail-modern-pos-device-activation.md).
 10. Logige Modern POS-i sisse ja valige **Kassaväliste toimingute tegemine**.
 11. Käivitage toiming **Riistvarajaamade haldamine**.
 
-12. Valige **Halda**.
+12. Klõpsake käsku **Halda**.
 13. Määrake riistvarajaama haldamise lehel riistvarajaama sisselülitamise valik.
-14. Valige kasutatav riistvarajaam ja seejärel valige **Sidumine**.
+14. Valige kasutatav riistvarajaam ja klõpsake siis nuppu **Seo**.
 15. Korrake toimingut 14 iga riistvarajaamaga, mida Modern POS kasutab.
-16. Kui kõik vajalikud riistvarajaamad on seotud, valige **Sule**.
-17. Valige riistvarajaama valiku lehel hiljuti valitud riistvarajaam, et muuta see aktiivseks. 
+16. Kui kõik vajalikud riistvarajaamad on seotud, klõpsake nuppu **Sule**.
+17. Klõpsake riistvarajaama valimise lehel hiljuti valitud riistvarajaama, et muuta see aktiivseks. 
 
 > [!NOTE]
-> Kui seadmed kasutavad sageli erinevaid riistvarajaamu, siis soovitame konfigureerida Modern POS-i paluma kassapidajatel maksmisprotsessi alustamisel riistvarajaama valida. Avage **Jaemüük ja kaubandus \> Kanali seadistus \> Kassa seadistus \> Registrid**. Valige register ja määrake siis valiku **Valige maksmisel** väärtuseks **Jah**. Kasutage jaotusgraafikut **1090** muudatuste sünkroonimiseks kanali andmebaasiga.
+> Kui seadmed kasutavad sageli erinevaid riistvarajaamu, siis soovitame konfigureerida Modern POS-i paluma kassapidajatel maksmisprotsessi alustamisel riistvarajaama valida. Klõpsake valikuid **Jaemüük ja kaubandus** &gt; **Kanali seadistus** &gt; **Kassa seadistus** &gt; **Registrid**. Valige register ja määrake siis valiku **Valige maksmisel** väärtuseks **Jah**. Kasutage jaotusgraafikut **1090** muudatuste sünkroonimiseks kanali andmebaasiga.
 
 ## <a name="extensibility"></a>Laiendatavus
-Teavet riistvarajaama laiendatavuse stsenaariumide kohta leiate jaotisest [POS Integreerimine uue riistvaraseadmega ja laienduste paigaldaja genereerimine](dev-itpro/hardware-device-extension.md).
+Teavet riistvarajaama laiendatavuse stsenaariumide kohta leiate jaotisest [Riistvarajaama laiendatavus](dev-itpro/hardware-station-extensibility.md).
 
 ## <a name="security"></a>Turvalisus
 Praeguste turvastandardite kohaselt tuleks kasutada tootmiskeskkonnas järgmisi sätteid: 
 
 ### <a name="hardware-station-installer"></a>Riistvarajaama paigaldaja
 Riistvara jaama installer teeb automaatselt registri redigeerimist installimise käigus iseteeninduse kaudu.
-
+ 
 -   Turvalinke soklikiht (SSL) peab olema keelatud.
 -   Lubatud ja kasutusel tohib olla ainult transpordikihi turbe (TLS) versioon 1.2 (või kehtiv kõrgeim versioon). 
 
 ### <a name="ssl-and-tls"></a>SSL ja TLS
 Vaikimisi on SSL ja kõik TLS-i versioonid (v.a TLS 1.2) keelatud. Nende väärtuste muutmiseks või lubamiseks tehke järgmist.
     1.  Vajutage Windowsi logo nuppu + R akna **Käivita** avamiseks.
-    2.  Tippige väljale **Avatud** väärtus **Regedit** ja seejärel valige **OK**.
-    3.  **Kui kuvatakse teade Kasutajakonto juhtelement**, valige **Jah**.
+    2.  Sisestage väljale **Ava** tekst **Regedit** ja klõpsake siis nuppu **OK**.
+    3.  Kui kuvatakse teateaken **Kasutajakonto juhtelement**, siis klõpsake nuppu **Jah**.
     4.  Minge aknas **Registriredaktor** asukohta **HKEY\_LOCAL\_MACHINESystemCurrentControlSetSecurityProvidersSCHANNELProtocols**. Järgmised koodid on automaatselt sisestatud, et lubada ainult TLS 1.2:
         -   TLS 1.2Server:Enabled=1
         -   TLS 1.2Server:DisabledByDefault=0
@@ -621,18 +607,13 @@ Järgmisi välisseadmeid testiti rakendusse Modern POS Windowsile integreeritud 
 #### <a name="printer"></a>Printer
 
 | Tootja | Mudel    | Liides | Kommentaarid                |
-| ------------ | -------- | --------- | ----------------------- |
+|--------------|----------|-----------|-------------------------|
+| Epson        | Tm-T88IV | OPOS      |                         |
 | Epson        | TM-T88V  | OPOS      |                         |
-| Epson        | TM-T88VI | OPOS      |                         |
 | Epson        | TM-T88   | Kohandatud    | Võrgu kaudu ühendatud   |
-| HP           | F7M67AA  | OPOS      | USB-toitel             |
 | Star         | TSP650II | Kohandatud    | Võrgu kaudu ühendatud   |
 | Star         | mPOP     | OPOS      | Bluetoothi kaudu ühendatud |
-| Toshiba      | HSP100   | OPOS      |                         |
-| Toshiba      | HSP150   | OPOS      |                         |
-
-> [!NOTE]
-> Täheprinterit TSP 100 ei toetata integreeritud riistvarajaama puhul. Integreeritud riistvarajaamas kasutatakse 64-bitiset protsessi, mis ei ühildu olemasoleva Star TP 100 draiveriga. 
+| HP           | F7M67AA  | OPOS      | USB-toitel             |
 
 #### <a name="bar-code-scanner"></a>Vöötkoodilugeja
 
@@ -701,17 +682,13 @@ Järgmisi välisseadmeid testiti, kasutades sihtotstarbelist (mitte ühist) IIS-
 
 #### <a name="printer"></a>Printer
 
-| Tootja | Mudel    | Liides | Kommentaarid              |
-| ------------ | -------- | --------- | --------------------- |
-| Epson        | TM-T88V  | OPOS      |                       |
-| Epson        | TM-T88VI | OPOS      |                       |
-| Epson        | TM-T88V  | Kohandatud    | Võrgu kaudu ühendatud |
-| HP           | F7M67AA  | OPOS      | USB-toitel           |
-| Star         | TSP650II | Kohandatud    | Võrgu kaudu ühendatud |
-| Toshiba      | HSP100   | OPOS      |                       |
-| Toshiba      | HSP150   | OPOS      |                       |
-
-
+| Tootja | Mudel    | Liides | Kommentaarid                  |
+|--------------|----------|-----------|---------------------------|
+| Epson        | Tm-T88IV | OPOS      |                           |
+| Epson        | TM-T88V  | OPOS      |                           |
+| Epson        | TM-T88V  | Kohandatud    | Võrgu kaudu ühendatud     |
+| Star         | TSP650II | Kohandatud    | Võrgu kaudu ühendatud     |
+| HP           | F7M67AA  | OPOS      | USB-toitel               |
 
 #### <a name="bar-code-scanner"></a>Vöötkoodilugeja
 
@@ -780,15 +757,14 @@ Järgmisi välisseadmeid testiti, kasutades ühist IIS-i riistvarajaama koos Mod
 
 #### <a name="printer"></a>Printer
 
-| Tootja | Mudel    | Liides | Kommentaarid              |
-| ------------ | -------- | --------- | --------------------- |
-| Epson        | TM-T88V  | OPOS      |                       |
-| Epson        | TM-T88VI | OPOS      |                       |
-| Epson        | TM-T88   | Kohandatud    | Võrgu kaudu ühendatud |
-| HP           | F7M67AA  | OPOS      | USB-toitel           |
-| Star         | TSP650II | Kohandatud    | Võrgu kaudu ühendatud |
-| Toshiba      | HSP100   | OPOS      |                       |
-| Toshiba      | HSP150   | OPOS      |                       |
+| Tootja | Mudel    | Liides | Kommentaarid                  |
+|--------------|----------|-----------|---------------------------|
+| Epson        | TM-T88IV | OPOS      |                           |
+| Epson        | TM-T88V  | OPOS      |                           |
+| Epson        | TM-T88   | Kohandatud    | Võrgu kaudu ühendatud     |
+| Star         | TSP650II | Kohandatud    | Võrgu kaudu ühendatud     |
+| Star         | TSP100   | OPOS      | Nõuab TSP650II draivereid |
+| HP           | F7M67AA  | OPOS      | USB-toitel               |
 
 #### <a name="payment-terminal"></a>Makseterminal
 
@@ -814,7 +790,7 @@ Järgmisi välisseadmeid testiti, kasutades ühist IIS-i riistvarajaama koos Mod
 
 -   Arvuti, millel Modern POS töötab, usaldab serti, mida kasutatakse riistvarajaama käitavas arvutis.
     -   Selle seadistuse kontrollimiseks minge veebibrauseris järgmisele URL-ile: https://&lt;Computer Name&gt;:&lt;Port Number&gt;/HardwareStation/ping.
-    -   See URL kasutab pingimist kontrollimiseks, et arvutile on võimalik juurde pääseda, ja brauser näitab, kas serti usaldatakse. (Näiteks rakenduses Internet Explorer kuvatakse aadressiribal lukustussümbol. Selle sümboli valimisel kontrollib, Internet Explorer kas serti on praegu usaldatud. Serdi saab kohalikku arvutisse installida, vaadates kuvatud serdi üksikasju.)
+    -   See URL kasutab pingimist kontrollimiseks, et arvutile on võimalik juurde pääseda, ja brauser näitab, kas serti usaldatakse. (Näiteks Internet Exploreri aadressiribal kuvatakse lukuikoon. Selle ikooni klõpsamisel kontrollib Internet Explorer, kas serti usaldatakse. Serdi saab kohalikku arvutisse installida, vaadates kuvatud serdi üksikasju.)
 -   Riistvarajaama käitavas arvuti tulemüüris avatakse port, mida riistvarajaam kasutab.
 -   Riistvarajaamal on õigesti installitud kaupmehe konto andmed tööriista Kaupmehe teabe installimine kaudu, mis riistvarajaama installiprogrammi lõpus käivitub.
 
@@ -843,23 +819,21 @@ Järgmisi välisseadmeid testiti, kasutades ühist IIS-i riistvarajaama koos Mod
 -   Mõnikord võivad seadmedraiverid takistada üldiste juhtimisobjektide (CCO-de) õiget töötamist. Kui seade on hiljuti installitud, kuid ei tööta korralikult või märkate muid probleeme, saab selle probleemi sageli CCO-de uuesti installimisega lahendada. CCO-de allalaadimiseks külastage veebisaiti <http://monroecs.com/oposccos_current.htm>.
 -   Kui vahetate testimise või tõrkeotsingu ajal sageli välisseadmeid, siis võib olla vaja IIS lähtestada, selle asemel, et oodata, millal vahemälu end värskendab. IIS-i lähtestamiseks tehke järgmist.
     1.  Sisestage menüüsse **Start** tekst **CMD**.
-    2.  Paremklõpsake otsingutulemustes **Käsurida** ja seejärel valige **Käivitage administraatorina**.
+    2.  Tehke otsingutulemustes paremklõps valikul **Käsuviip** ja klõpsake siis valikut **Käivita administraatorina**.
     3.  Sisestage aknasse **Käsuviip** tekst **iisreset /Restart** ja vajutage siis klahvi Enter.
     4.  Pärast IIS-i taaskäivitumist taaskäivitage Modern POS.
 -   Kui muudate sageli välisseadmeid ja selle käigus POS-i klienti sageli käivitate ja sulete, võib eelmise kassaseansi protsess dllhost praegust seanssi häirida. Sellisel juhul ei pruugi seade olla kasutatav enne, kui sulgete dünaamilise lingiga teegi (DLL-i) hosti, mis eelmist seanssi haldab. DLL-i hosti sulgemiseks tehke järgmist.
     1.  Sisestage menüüsse **Start** tekst **Tegumihaldur**.
-    2.  Valige otsingutulemustes **Tegumihaldur**.
-    3.  Tegumihalduris **Üksikasjad** valige veeru päis, millel on silt **Nimi** tabeli järjestamiseks nime järgi tähestikulises järjekorras.
+    2.  Klõpsake otsingutulemustes valikut **Tegumihaldur**.
+    3.  Klõpsake tegumihalduri vahekaardil **Üksikasjad** veerupäist sildiga **Nimi** tabeli sortimiseks nime alusel tähestiku järgi.
     4.  Kerige alla, kui leiate nime dllhost.exe.
-    5.  Valige iga DLL-host ja seejärel valige **Lõpeta ülesanne**.
+    5.  Valige iga DLL-i host ja klõpsake siis valikut **Lõpeta ülesanne**.
     6.  Kui DLL-i hostid on suletud, taaskäivitage Modern POS.
 
 
-## <a name="additional-resources"></a>Lisaressursid
+<a name="additional-resources"></a>Lisaressursid
+--------
 
 [Commerce’i välisseadme simulaator](dev-itpro/retail-peripheral-simulator.md)
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

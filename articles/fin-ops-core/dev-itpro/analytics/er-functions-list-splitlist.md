@@ -2,8 +2,11 @@
 title: ER-i funktsioon SPLITLIST
 description: See teema sisaldab teavet selle kohta, kuidas kasutatakse elektroonilise aruandluse (ER) funktsiooni SPLITLIST.
 author: NickSelin
-ms.date: 03/15/2021
+manager: kfend
+ms.date: 12/12/2019
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -14,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ef0b548173a01cc5a15fcfb743dfb29397c1349b3c2926fa6401399459d07026
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d0f527dcf313a6a5e3b6601cac9a0f6495f66833
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6776118"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680334"
 ---
 # <a name="splitlist-er-function"></a>ER-i funktsioon SPLITLIST
 
@@ -27,16 +30,10 @@ ms.locfileid: "6776118"
 
 Funktsioon `SPLITLIST` jaotab määratud loendi alamloenditeks (või partiideks), millest igaüks sisaldab määratud kirjete arvu. See tagastab seejärel tulemuse uue *kirjete loendi* väärtusena, mis koosneb partiidest.
 
-## <a name="syntax-1"></a>Süntaks 1
+## <a name="syntax"></a>Süntaks
 
 ```vb
 SPLITLIST (list, number)
-```
-
-## <a name="syntax-2"></a>Süntaks 2
-
-```vb
-SPLITLIST (list, number, on-demand reading flag)
 ```
 
 ## <a name="arguments"></a>Argumendid
@@ -48,10 +45,6 @@ Andmetüübi *Kirjete loend* andmeallika kehtiv tee.
 `number`: *täisarv*
 
 Maksimaalne kirjete arv partii kohta.
-
-`on-demand reading flag`: *kahendmuutuja*
-
-*Loogiline* väärtus, mis täpsustab, kas alamloendi elemendid peaksid olema loodud nõudmisel.
 
 ## <a name="return-values"></a>Tagastusväärtused
 
@@ -71,8 +64,6 @@ Tagastatav partiide loend sisaldab järgmisi elemente.
 
     Praeguse partii number tagastatud loendis.
 
-Kui nõudmisel lugemise lipp on seatud väärtusele **Tõene**, luuakse taotluse korral alamloendid, mis võimaldab mälutarbimise vähendamist, kuid võib põhjustada jõudluse hõivamise, kui elemente ei kasutata järjestikku.
-
 ## <a name="example"></a>Näide
 
 Järgmisel joonisel luuakse andmeallikas **Read** kolme kirjet omava kirjete loendina. See loend on jaotatud partiideks, millest igaüks sisaldab kuni kahte kirjet.
@@ -90,6 +81,3 @@ Järgmisel joonisel on näidatud koostatud vormingu käitamise tulemus.
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Loendi funktsioonid](er-functions-category-list.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

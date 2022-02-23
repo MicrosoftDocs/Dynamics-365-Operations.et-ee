@@ -2,9 +2,11 @@
 title: Commerce'i ettemaksuarved Ida-Euroopa puhul
 description: Selles teemas selgitatakse, kuidas seadistada Ida-Euroopa ettemaksu teavitusi.
 author: epopov
+manager: annbe
 ms.date: 10/23/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
@@ -13,12 +15,12 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 4433dfad61aacb41aba9cf233515460410c7260304e8e3d690b015b193ffe774
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d27eec5ad2ec12d1f2e617fc3e182e2bbefa39a9
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718688"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5017243"
 ---
 # <a name="advance-invoices-for-commerce-for-eastern-europe"></a>Commerce'i ettemaksuarved Ida-Euroopa puhul
 
@@ -30,7 +32,7 @@ Poola, Ungari ja Tšehhi Vabariigi korral tuleb peale kliendilt müügipunktis s
 
 Kui müügitellimuse arve lõpuks sisestatakse, peaks lõppdokument sisaldama ettemaksuarvet ning näidatud peaksid olema mistahes ettemaksed.
 
-Kui loote müügireskontost müügitellimusi, peate looma ettemaksuarved käsitsi, kasutades jaotise [Ida-Euroopa ettemaksuarved](/dynamics365/unified-operations/financials/localizations/emea-advance-invoice) protseduure. Kui loote müügitellimusi kassa kaudu, loob ja sisestab teile ettemaksearved süsteem.
+Kui loote müügireskontost müügitellimusi, peate looma ettemaksuarved käsitsi, kasutades jaotise [Ida-Euroopa ettemaksuarved](https://docs.microsoft.com/dynamics365/unified-operations/financials/localizations/emea-advance-invoice) protseduure. Kui loote müügitellimusi kassa kaudu, loob ja sisestab teile ettemaksearved süsteem.
 
 ## <a name="supported-scenarios"></a>Toetatud stsenaariumid
 
@@ -85,6 +87,3 @@ Riistvarajaamaga ühendatud Windowsi printeriga dokumentide kassast printimise v
 
 4. Avage **Jaemüük ja kaubandus \> Jaemüügi ja kaubanduse IT \> Jaotusgraafik**.
 5. Valige töö **1090** ja seejärel **Käivita kohe**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

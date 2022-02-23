@@ -2,24 +2,27 @@
 title: " Kategooria hinnakujunduse reeglid, et luua kaubanduslepped"
 description: Protseduur näitab, kuidas luua müügihinna kaubandusleppeid kategooria hinnakujunduse reegli abiga.
 author: scott-tucker
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, RetailDiscountPricingWorkspace, RetailPricingDiscountCategoryPriceRule, RetailCategoryPriceRule, EcoResCategorySingleLookup, RetailCategoryPriceWizard, PriceDiscAdm, PriceDiscAdmTable
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 39418f9d9c5e3edf1db92a6d8271df2c55be94deca814838c133d0ef6703ec09
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 21b1986aa36aab23f50a5af434435f9e93318e45
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730703"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4411732"
 ---
 # <a name="category-pricing-rules-to-create-trade-agreements"></a> Kategooria hinnakujunduse reeglid, et luua kaubanduslepped
 
@@ -56,6 +59,3 @@ Protseduur näitab, kuidas luua müügihinna kaubandusleppeid kategooria hinnaku
 24. Klõpsake vahekaarti Kategooria hinna reeglid.
     * Loend hõlmab kanalipõhiseid kategooria hinnakujunduse reeglid.  
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

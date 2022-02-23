@@ -1,40 +1,39 @@
 ---
-title: Halduse ülevaade
-description: Selles teemas on teenuse Dynamics 365 Human Resources finantshalduse funktsioonide spikriteemade ja muude ressursside loend.
-author: twheeloc
-ms.date: 08/11/2021
-ms.topic: overview
+title: Ülevaade
+description: See administraatori juhend aitab teil häälestada, hallata ja teha tõrkeotsingut rakenduses Dynamics 365 Human Resources.
+author: andreabichsel
+manager: AnnBe
+ms.date: 02/03/2020
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
+ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a403390132443f29f12e11914b7a0f08faffa973
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: 8008a7e78bb1d1568a79fab436194a04d1ff683c
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068405"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527857"
 ---
-# <a name="administration-overview"></a>Halduse ülevaade
+# <a name="overview"></a>Ülevaade
 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-
-
-Selles teemas on teenuse Dynamics 365 Human Resources finantshalduse funktsioonide spikriteemade ja muude ressursside loend.
+See administraatori juhend aitab teil häälestada, hallata ja teha tõrkeotsingut rakenduses Dynamics 365 Human Resources.
 
 - [Süsteeminõuded](hr-admin-system-requirements.md)
 
-- Eksemplaride häälestus ja haldamine
+- Eksemplaride häälestamine ja haldamine
   - [Rakenduse Human Resources ettevalmistamine](hr-admin-setup-provision.md)
   - [Kopeeri eksemplar](hr-admin-setup-copy-instance.md)
   - [Eemalda eksemplar](hr-admin-setup-remove-instance.md)
@@ -42,15 +41,15 @@ Selles teemas on teenuse Dynamics 365 Human Resources finantshalduse funktsiooni
 
 - Andmete integratsiooni häälestamine
   - [Andmete integreerimise tehnoloogia valimine](hr-admin-integration-choose-technology.md)
-  - [Dataverse’i integratsiooni konfigureerimine](hr-admin-integration-common-data-service.md)
+  - [Common Data Service’i integratsiooni konfigureerimine](hr-admin-integration-common-data-service.md)
   - [Integratsiooni konfigureerimine Finance’iga](hr-admin-integration-finance.md)
   - [Integratsiooni konfigureerimine Dayforce’iga](hr-admin-integration-dayforce.md)
   - [Korduvate andmete ekspordi rakenduse loomine](hr-admin-integration-recurring-data-export.md)
   - Office'iga integreerimine
-    - [Office’i integreerimise õppetükk](../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
-    - [Üksuseandmete värskendamine Excelis](../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
-    - [Excelis avamise kogemuste loomine](../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
-    - [Office'i integreerimise tõrkeotsing](../fin-ops-core/dev-itpro/office-integration/office-integration-troubleshooting.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
+    - [Office’i integreerimise õppetükk](../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json)
+    - [Üksuseandmete värskendamine Excelis](../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json)
+    - [Excelis avamise kogemuste loomine](../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json)
+    - [Office'i integreerimise tõrkeotsing](../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json)
 
 - [Funktsioonide haldamine](hr-admin-manage-features.md)
 
@@ -85,7 +84,7 @@ Selles teemas on teenuse Dynamics 365 Human Resources finantshalduse funktsiooni
   - [Dokumentide või koolituse loomine tegevuse salvestaja abil](../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/human-resources/toc.json)
 
 - Human Resourcesi tõrkeotsing
-  - [Toe hankimine](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md)
+  - [Toe hankimine](hr-admin-troubleshooting-support.md)
   - [Jõudluse optimeerimine automaatsete puhastamisülesannetega](hr-admin-troubleshooting-batch-history.md)
   - [Analüütilisi aruandeid ei värskendata](hr-admin-troubleshooting-analytic-reports.md)
   - [Power Appsi halduskeskuses ei saa keskkonda luua](hr-admin-troubleshooting-power-apps.md)
@@ -94,23 +93,12 @@ Selles teemas on teenuse Dynamics 365 Human Resources finantshalduse funktsiooni
   - [Kompensatsiooni protsessi käitamine](hr-admin-troubleshooting-compensation.md)
   - [Tegevuse juhise salvestamine LCS-i](hr-admin-troubleshooting-task-guide.md)
   - [Juurdepääs privaatsetele aadressidele turberolli järgi](hr-admin-troubleshooting-private-addresses.md)
-  - [Human Resourcesi ei kuvata Dynamics 365 rakendustes](hr-admin-troubleshooting-not-in-apps.md)
+  - [Human Resources ei ilmu Dynamics 365 rakenduste hulgas](hr-admin-troubleshooting-not-in-apps.md)
   - [Aruandlusvalikud](hr-admin-troubleshooting-reporting.md)
   - [Integratsiooni KKK](hr-admin-troubleshooting-integration.md)
-
-## <a name="additional-resources"></a>Lisaressursid
-
-### <a name="elearning-courses"></a>E-õppe kursused
-Veebikursuste ja koolituse kohta leiate teavet [Microsoft Learni jaotisest Dynamics 365 Human Resources](//learn/browse/?products=dynamics-human-resources&resource_type=learning%20path).
-
-### <a name="videos"></a>Videod
-
-Vaadake õppevideoid, mis on saadaval [Microsoft Dynamics 365 YouTube’i kanalil](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
 
 ## <a name="see-also"></a>Vt ka
 
 - [Mis on uut või mida on muudetud rakenduses Human Resources?](hr-admin-whats-new.md)
 - [Arendaja juhend](hr-developer-overview.md)
 - [Kasutusjuhend](hr-hrpro-overview.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

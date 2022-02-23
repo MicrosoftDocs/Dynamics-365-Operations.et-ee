@@ -66,6 +66,3 @@ Teise võimalusena tehke järgmist.
 2. Valige tööriistaribalt valik **Rakenduse lisamine Power Appsist**.
 
     ![Lisage isikupärastamise tööriistariba abil rakendus Power Appsist](media/powerapp-bar.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

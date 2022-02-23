@@ -1,10 +1,12 @@
 ---
-title: Dynamics 365 Commerce'i hindamisekeskkonna ettevalmistamine
-description: Selles teemas selgitatakse, kuidas valmistada ette rakenduses Microsoft Dynamics 365 Commerce hindamiskeskkond.
+title: Dynamics 365 Commerce'i hindamiskeskkonna ettevalmistamine
+description: Selles teemas selgitatakse, kuidas valmistada ette Microsoft Dynamics 365 Commerce’i hindamiskeskkond.
 author: psimolin
+manager: annbe
 ms.date: 12/17/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -15,23 +17,25 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c8241c31e82d124398189666c3a1709d25884b8acd9c8f3b1068529cbd216684
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8cda79a6be1aca7ad3826b9409e110524e6560e3
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777496"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969897"
 ---
-# <a name="provision-a-dynamics-365-commerce-evaluation-environment"></a>Dynamics 365 Commerce'i hindamisekeskkonna ettevalmistamine
+# <a name="provision-a-dynamics-365-commerce-evaluation-environment"></a>Dynamics 365 Commerce'i hindamiskeskkonna ettevalmistamine
 
 [!include [banner](includes/banner.md)]
 
-Selles teemas selgitatakse, kuidas valmistada ette rakenduses Microsoft Dynamics 365 Commerce hindamiskeskkond.
+Selles teemas selgitatakse, kuidas valmistada ette Microsoft Dynamics 365 Commerce’i hindamiskeskkond.
 
 Enne alustamist soovitame teil see teema kiiresti läbi vaadata, et saada protsessi nõudmistest aimu.
 
 > [!NOTE]
 > Commerce'i hindamiskeskkonnad pole üldiselt kättesaadavad ja antakse partneritele ning klientidele taotluse alusel. Lisateabe saamiseks pöörduge oma Microsofti partneri kontakti poole.
+
+## <a name="overview"></a>Ülevaade
 
 Oma Commerce’i hindamiskeskkonna edukaks ettevalmistamiseks peate looma projekti, millel on kindel toote nimi ja tüüp. Keskkonnal ja Commerce Scale Unitil (CSU) on samuti mõned konkreetsed parameetrid, mida peate kasutama, kui loodate hiljem e-kaubandust ette valmistada. Selle teema juhised kirjeldavad kõiki vajalikke etappe, mida on vaja ettevalmistamise lõpuleviimiseks, ja milliseid parameetreid peate kasutama.
 
@@ -76,7 +80,7 @@ LCS-is uue projekti loomiseks toimige järgmiselt.
 
 ### <a name="add-the-azure-connector"></a>Azure’i konnektori lisamine
 
-Azure'i konnektori lisamiseks oma LCS-i projekti, järgige etappe teemas [Azure Resource Manageri (ARM) sisseelamisprotsessi lõpule viimine](../fin-ops-core/dev-itpro/deployment/arm-onboarding.md).
+Azure'i konnektori lisamiseks oma LCS-i projekti, järgige etappe teemas [Azure Resource Manageri (ARM) sisseelamisprotsessi lõpule viimine](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/arm-onboarding).
 
 ### <a name="deploy-the-environment"></a>Keskkonna juurutamine
 
@@ -90,16 +94,16 @@ Keskkonna juurutamiseks tehke järgmist.
 1. Väljal **Rakenduse versioon** valige uusim versioon. Kui teil on konkreetne vajadus valida rakenduse versioon, mis ei ole kõige uuem versioon, ärge valige varasemat versiooni kui **10.0.14**.
 1. Kasutage väljal **Platvormi versioon** platvormi versiooni, mis valitakse automaatselt valitud rakenduse versiooni jaoks. 
 
-    ![Rakenduse ja platvormi versioonide valimine.](./media/project1.png)
+    ![Rakenduse ja platvormi versioonide valimine](./media/project1.png)
 
 1. Valige **Edasi**.
 1. Valige keskkonna topoloogiaks **Demo**.
 
-    ![Keskkonna topoloogia valimine 1.](./media/project2.png)
+    ![Keskkonna topoloogia valimine 1](./media/project2.png)
 
 1. Lehel **Keskkonna juurutamine** sisestage keskkonna nimi. Jätke täpsemad sätted nii nagu need on.
 
-    ![Keskkonna juurutamise leht.](./media/project4.png)
+    ![Keskkonna juurutamise leht](./media/project4.png)
 
 1. Kohandage VM-i suurust vastavalt vajadusele. (Soovitame VM-i varude arvestusühikut \[SKU\] **D13 v2**.)
 1. Vaadake üle hinnakujunduse ja litsentsimise tingimused ning märkige ruut, et näidata, et olete nendega nõus.
@@ -180,13 +184,10 @@ Oma Commerce’i hindamiskeskkonna ettevalmistamise ja konfigueerimise protsessi
 
 [Dynamics 365 Commerce'i hindamiskeskkonna KKK](cpe-faq.md)
 
-[Microsofti elutsükli teenused (LCS)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
+[Microsofti elutsükli teenused (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 
-[Commerce Scale Unit (pilv)](/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
+[Commerce Scale Unit (pilv)](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
 
 [Microsoft Azure'i portaal](https://azure.microsoft.com/features/azure-portal)
 
 [Dynamics 365 Commerce veebisait](https://aka.ms/Dynamics365CommerceWebsite)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

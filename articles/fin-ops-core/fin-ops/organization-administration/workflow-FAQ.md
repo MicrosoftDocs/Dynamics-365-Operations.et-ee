@@ -2,9 +2,11 @@
 title: Töövoo KKK
 description: Teemas on toodud vastused korduma kippuvatele küsimustele töövoo süsteemi kohta.
 author: ChrisGarty
+manager: AnnBe
 ms.date: 09/21/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -12,19 +14,16 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fe11942ca41dd8c0ca23d94006569c50a4501a52
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: 58aa4a6d313a78e88c2858637d6de167895ec534
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065576"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797387"
 ---
 # <a name="workflow-faq"></a>Töövoo KKK
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Teemas on toodud vastused korduma kippuvatele küsimustele töövoo süsteemi kohta.
 
@@ -48,9 +47,9 @@ Siin on mõned asjad, millele teatsite edastamiseks töövoogudele märguandeid 
     - Tulevases uuenduses lisame tegevuskeskuse teate, nii et kasutajale määratakse töövoo tööüksus. 
 - Teatiste töövoogudesse lisamine
     - Tegevuskeskuse teateid saab luua kindlatele kasutajatele, nt töövoost X++ loodud sõnum.
-    - [Töövoogudel on ärisündmused](../../dev-itpro/business-events/business-events-workflow.md), mida klient saab kasutada Flowsi käivitamiseks, et saada nende otsitavad teatised.   
+    - [Töövoogudel on ärisündmused](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow), mida klient saab kasutada Flowsi käivitamiseks, et saada nende otsitavad teatised.   
 
-Kokkuvõttes, kui kasutaja ei saa töövoo tööüksuse määramisel tegevuskeskusest nõuetekohast teatist, kasutage ära [Töövoo ärisündmuseid](../../dev-itpro/business-events/business-events-workflow.md) koos Microsoft Power Automate'ga, et pakkuda täiendavad või muid teatiseid.
+Kokkuvõttes, kui kasutaja ei saa töövoo tööüksuse määramisel tegevuskeskusest nõuetekohast teatist, kasutage ära [Töövoo ärisündmuseid](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) koos rakendusega Microsoft Power Automate, et pakkuda täiendavaid või muid teatiseid.
 
 ## <a name="why-is-workflow-editor-not-able-to-start-under-ad-fs"></a>Miks ei saa töövoo redaktor AD FS-i all käivituda?
 Täiendatud keskkonnas teenuse Active Directory Federation Services (AD FS) all töötamisel võib töövoo redaktoril olla probleeme alustamisega. Kui jah, veenduge, et URL https://dynamicsaxworkfloweditor/ oleks ADFS-i sätetes lisatud atribuudile **Microsoft Dynamics 365 for Operations kohapeal – Töövoog – Omarakendus**.
@@ -60,6 +59,3 @@ Vaikimisi välja väärtus suvandile **Töövoo üksuste arv partii kohta** lehe
 
 ## <a name="what-is-the-workflow-enhanced-error-feature"></a>Mis on töövoo täiustatud tõrgete funktsioon?
 Töövoo täiustatud tõrgete funktsiooni versioonis 10.0.13 lisati tõrkekoodid, et eristada töövootõrgete eri klasse. Kuvatavad tõrketeated on enamasti tuttavad, välja arvatud väikeste erinevuste poolest, et neid selgemaks teha.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

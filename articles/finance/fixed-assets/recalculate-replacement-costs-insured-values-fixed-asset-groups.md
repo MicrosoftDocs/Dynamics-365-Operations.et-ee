@@ -1,31 +1,34 @@
 ---
 title: Põhivaragruppide asendusväärtuste ja kindlustusväärtuste ümberarvutus
-description: See teema selgitab põhivara asendusväärtuste ja kindlustusväärtuste värskendamist.
-author: moaamer
+description: See artikkel selgitab põhivara asendusväärtuste ja kindlustusväärtuste värskendamist.
+author: ShylaThompson
+manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 3261
 ms.assetid: b8876f83-8772-4f2a-b277-12724e2a0c44
 ms.search.region: Global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 33d3dba59e459193798d790e64d2493c244d49a3
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
-ms.translationtype: MT
+ms.openlocfilehash: a9dd04072b4845fe5df2a918b64ba1835ea584dd
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7674872"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4442424"
 ---
 # <a name="recalculate-replacement-costs-and-insured-values-for-fixed-asset-groups"></a>Põhivaragruppide asendusväärtuste ja kindlustusväärtuste ümberarvutus
 
 [!include [banner](../includes/banner.md)]
 
-See teema selgitab põhivara asendusväärtuste ja kindlustusväärtuste värskendamist.
+See artikkel selgitab põhivara asendusväärtuste ja kindlustusväärtuste värskendamist.
 
 Võite saada perioodilisi teateid, et kindlate põhivarade vahetamise või kindlustamise kulu on muutunud. Näiteks võib teie haldur teid teavitada, et viimase aasta inflatsioon oli 3 protsenti, ning seetõttu peate kõigi põhivarade asenduskulusid 3 protsenti tõstma. 
 
@@ -75,6 +78,3 @@ Järgmisel päeval aga teavitab teie juht, et arvutid langesid 10% asemel 8%, se
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

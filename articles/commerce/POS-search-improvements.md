@@ -2,9 +2,11 @@
 title: Tooteotsing ja kliendiotsing kassas
 description: Selles teemas antakse ülevaade toote ja kliendi otsingufunktsiooni täiustustest rakenduses Dynamics 365 Commerce.
 author: ShalabhjainMSFT
-ms.date: 10/26/2021
+manager: AnnBe
+ms.date: 07/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
@@ -15,12 +17,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 022dcaca9bb3c9e7e749ee143702325367e5149b
-ms.sourcegitcommit: f8b597b09157d934b62bd5fb9a4d05b8f82b5a0e
-ms.translationtype: MT
+ms.openlocfilehash: 1de8373471ff8187bd476305c9ed0b26beaa52d5
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "7700085"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965274"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>Tooteotsing ja kliendiotsing kassas
 
@@ -36,32 +38,33 @@ Vaikimisi toimuvad tooteotsingud kaupluse sortimendist. Seda tüüpi otsingut ni
 
 Lehel **Vaheta kataloogi** saavad töötajad valida hõlpsasti mis tahes kaupluse või otsida tooteid kõigist kauplustest.
 
-![Kataloogi muutmine.](./media/Changecatalog.png "Kataloogi muutmine")
+![Kataloogi muutmine](./media/Changecatalog.png "Kataloogi muutmine")
 
 Kohalik tooteotsing otsib järgmistest tooteatribuutidest.
 
 - Toote number
-- Toote nimetus
+- Toote nimi
 - Kirjeldus
 - Dimensioonid
 - Vöötkood
-- Otsitav nimi
+- Otsingunimi
 
-### <a name="additional-local-product-search-capabilities-conventional-sql-full-text-search"></a>Täiendavad kohaliku tooteotsingu võimalused (tavaline SQL-i täistekstiotsing) 
+### <a name="enhancements-to-local-product-searches"></a>Kohalike tooteotsingute täiustused
 
+Kohalike tooteotsingute kogemus on nüüd kasutajasõbralikum. Tehtud on ka järgmised täiustused.
+
+- Otsinguribale on lisatud toote ja kliendi rippmenüüd, et töötajad saaksid valida enne otsimist **toote** või **kliendi**. Vaikimisi on valitud **Toode**, nagu on näha järgmisel illustratsioonil.
 - Mitme märksõnaga otsingute puhul (st otsingusõnu kasutavate otsingute puhul) saavad jaemüüjad konfigureerida, kas otsingutulemused sisaldavad *mõnele* või ainult *kõigile* otsingusõnadele vastavaid tulemusi. Selle funktsiooni säte on saadaval kassa funktsiooniprofiilis uues grupis, mille nimi on **Tooteotsing**. Vaikesäte on **Mis tahes otsingusõnade vastendamine**. See säte on ka soovitatav säte. Sätte **Mis tahes otsingusõnade vastendamine** kasutamisel antakse tulemuseks kõik tooted, mis vähemalt ühele otsingusõnale vastavad. Tulemused sorditakse automaatselt, lisades kasvavas järjestuses tooted, millel on kõige rohkem märksõnade (täielikke või osalisi) vasteid.
 
     Säte **Kõigi otsingusõnade vastendamine** annab ainult tooted, mis vastavad kõigile otsingusõnadele (täielikult või osaliselt). Sellest sättest on abi, kui toodete nimed on pikad ja töötajad soovivad näha otsingutulemustes ainult piiratud tooteid. Kuid seda tüüpi otsingul on kaks piirangut.
 
     - Otsing toimub eraldi tooteatribuutidel. Näiteks antakse tulemuseks ainult need tooted, millel on vähemalt ühes tooteatribuudis kõik otsitud märksõnad.
     - Dimensioonidest ei otsita.
-> [!NOTE]
-> Järgmised konfiguratsioonid **Sobib mis tahes otsinguterminiga**/**Vastenda kõik otsinguterminid** POS-i funktsiooniprofiilides kehtivad ainult **kohaliku** tooteotsingu (tavalise SQL-i täistekstiotsingu) kogemuste puhul. See konfiguratsioon ei mõjuta pilvepõhiseid otsingukogemusi. Uuel otsingumootoril on oma täiustatud algoritm, mis määrab tooteotsingu tulemuste jaoks otsingu asjakohasuse. 
 
-- Nüüd saavad jaemüüjad konfigureerida tooteotsingut nii, et kui kasutajad tootenimesid tipivad, kuvatakse otsingusoovitused. Selle funktsiooni uus säte on saadaval kassa funktsiooniprofiilis grupis, mille nimi on **Tooteotsing**. Sätte nimi on **Näita tippimise ajal otsingusoovitusi**. See funktsioon aitab töötajatel otsitavat toodet kiiresti leida, kuna nad ei pea kogu nime käsitsi tippima.
+- Nüüd saavad jaemüüjad konfigureerida tooteotsingu nii, et kui kasutajad tootenimesid tipivad, siis kuvatakse otsingusoovitused. Selle funktsiooni uus säte on saadaval kassa funktsiooniprofiilis grupis, mille nimi on **Tooteotsing**. Sätte nimi on **Näita tippimise ajal otsingusoovitusi**. See funktsioon aitab töötajatel otsitavat toodet kiiresti leida, kuna nad ei pea kogu nime käsitsi tippima.
 - Tooteotsingu algoritm otsib nüüd otsitud sõnu toote atribuudist **Otsingunimi**.
 
-![Tootesoovitused.](./media/Productsuggestions.png "Tootesoovitused")
+![Tootesoovitused](./media/Productsuggestions.png "Tootesoovitused")
 
 ## <a name="customer-search"></a>Kliendi otsing
 
@@ -85,22 +88,22 @@ Globaalseks otsimiseks saavad töötajad valida nupu **Filtreeri tulemusi** lehe
 
 Kliendi kaugotsingus ei kuvata kliendi ID-d teistest juriidilistest isikutest pärinevate klientide puhul, kuna nendele osapooltele pole selles ettevõttes kliendi ID-d loodud. Kuid kui töötaja avab kliendi andmete lehe, loob süsteem sellele osapoolele automaatselt kliendi ID ja seostab kliendiga ka kaupluse klientide aadressiraamatud. Seega on see klient hiljem toimuvates kaupluse kohalikes otsingutes nähtav.
 
-![Globaalne kliendi otsing.](./media/Globalcustomersearch.png "Globaalne kliendi otsing")
+![Globaalne kliendi otsing](./media/Globalcustomersearch.png "Globaalne kliendi otsing")
 
-### <a name="additional-local-customer-search-capabilities"></a>Täiendavad kohaliku tooteotsingu võimalused
+### <a name="enhancements-to-local-customer-search"></a>Kohaliku kliendiotsingu täiustused
 
-Kui kautaja otsib telefoninumbrit, eirab süsteem erimärke nagu tühikud, sidekriipsud ja sulud, mis võidi lisada kliendi loomise ajal. Seetõttu ei pea kassapidajad enam otsides muretsema telefoninumbri vormingu pärast. Näiteks kui kliendi telefoninumber sisestati kujul **123-456-7890**, saab kassapidaja klienti otsida, tippides **1234567890** või sisestades telefoninumbrist paar esimest numbrit.
+Telefoninumbritel põhinevaid otsinguid on lihtsustatud. Need otsingud eiravad nüüd erimärke, nagu tühikud, sidekriipsud ja sulud, mis võidi lisada kliendi loomise ajal. Seetõttu ei pea kassapidajad enam otsides muretsema telefoninumbri vormingu pärast. Näiteks kui kliendi telefoninumber sisestati kujul **123-456-7890**, saab kassapidaja klienti otsida, tippides **1234567890** või sisestades telefoninumbrist paar esimest numbrit.
 
 > [!NOTE]
 > Kliendil võib olla mitu telefoninumbrit ja meiliaadressi. Kliendiotsingu algoritm otsib ka teiseste meiliaadressite ja telefoninumbrite seast, kuid kliendiotsingutulemuste lehel kuvatakse ainult esmane meiliaadress ja telefoninumber. See võib põhjustada segadust, kuna tagastatud kliendiotsingutulemustes ei kuvata otsitud meiliaadressi või telefoninumbrit. Tulevases väljalaskes plaanime selle teabe kuvamiseks parandada kliendiotsingutulemuste vaadet.
 
-Tavaline kliendiotsing võib olla aeganõudev, sest selle käigus otsitakse mitmest väljast. Selle asemel saavad kassapidajad otsida ühest kliendi atribuudist, nagu nimi, meiliaadress või telefoninumber. Kliendiotsingu algoritmi kasutatavaid atribuute tuntakse ühiselt nimega *kliendi otsingukriteeriumid*. Süsteemiadministraator saab hõlpsalt konfigureerida ühe või mitu kriteeriumi kiirklahvidena, mis kuvatakse kassas. Kuna otsing on piiratud ühe kriteeriumiga, kuvatakse ainult asjakohased otsingutulemid ja jõudlus on palju parem kui tavapärase kliendiotsingu korral. Järgmisel illustratsioonil on näidatud kliendiotsingu kiirklahve kassas.
+Tavaline kliendiotsing võib olla aeganõudev, sest selle käigus otsitakse mitmest väljast. Selle asemel saavad kassapidajad nüüd otsida ühest kliendi atribuudist, nagu nimi, meiliaadress või telefoninumber. Kliendiotsingu algoritmi kasutatavaid atribuute tuntakse ühiselt nimega *kliendi otsingukriteeriumid*. Süsteemiadministraator saab hõlpsalt konfigureerida ühe või mitu kriteeriumi kiirklahvidena, mis kuvatakse kassas. Kuna otsing on piiratud ühe kriteeriumiga, kuvatakse ainult asjakohased otsingutulemid ja jõudlus on palju parem kui tavapärase kliendiotsingu korral. Järgmisel illustratsioonil on näidatud kliendiotsingu kiirklahve kassas.
 
-![Kliendiotsingu kiirklahvid.](./media/SearchShortcutsPOS.png "Kliendiotsingu kiirklahvid")
+![Kliendiotsingu kiirklahvid](./media/SearchShortcutsPOS.png "Kliendiotsingu kiirklahvid")
 
 Otsingukriteeriumide määramiseks kiirklahvidena peab administraator rakenduses Commerce avama lehe **Kaubanduse parameetrid** ja seejärel vahekaardil **Kassa otsingukriteeriumid** valima kriteeriumid, mis tuleks kuvada kiirklahvidena.
 
-![Otsingu kiirklahvide konfigureerimine.](./media/ConfigureShortcutsAX.png "Otsingu kiirklahvide konfigureerimine")
+![Otsingu kiirklahvide konfigureerimine](./media/ConfigureShortcutsAX.png "Otsingu kiirklahvide konfigureerimine")
 
 > [!NOTE]
 > Kui lisate liiga palju kiirklahve, muutub kassa otsinguriba rippmenüü ülekoormatuks ja töötajate otsingu tõhusus võib väheneda. Soovitame lisada vaid nii palju kiirklahve, kui vaja.
@@ -110,44 +113,7 @@ Väli **Kuvamisjärjestus** määratleb, millises järjekorras kiirklahve kassas
 > [!NOTE]
 > Loetellu lisatud kohandatud atribuut ei mõjuta standardset kliendiotsingu algoritmi. Teisisõnu, kliendiotsingu algoritm ei otsi kohandatud atribuudist. Kasutajad saavad kohandatud atribuuti otsingute jaoks kasutada ainult siis, kui kohandatud atribuut on lisatud kiirklahvina või otsingu vaikealgoritm on alistatud.
 
-Jaemüüjad saavad kassas seada kliendi vaikeotsingu režiimiks ka **Kõigi kaupluste otsing**. See konfiguratsioon võib olla kasulik olukordades, kus väljaspool kassat loodud kliente tuleb otsida kohe (nt enne levitamise töö käitamist). Selleks peab jaemüüja kassa funktsiooniprofiilis **Kliendi vaikeotsingu režiimi** suvandi sisse lülitama. Kui see on seatud **Jah**, iga kliendi otsingu katse saadab seejärel peakontorisse reaalajas taotluse.
+Commerce’i tulevases väljalaskes saavad jaemüüjad määrata kassas kliendiotsingu režiimi vaiketüübiks **Otsing kõigist kauplustest**. See konfiguratsioon võib olla kasulik olukordades, kus väljaspool kassat loodud kliente tuleb otsida kohe (nt enne levitamise töö käitamist). Uus suvand **Kliendiotsingu režiimi vaiketüüp** on saadaval kassa funktsiooniprofiilil. Määrake see olekusse **Sees**, et seada vaikimisi otsingurežiim suvandile **Otsing kõigist kauplustest**. Iga kliendi otsingu katse saadab seejärel peakontorisse reaalajas taotluse.
 
 Ootamatute jõudlusprobleemide vältimiseks on see konfiguratsioon peidetud eelväljaande lipu taha, mille nimi on **CUSTOMERSEARCH_ENABLE_DEFAULTSEARCH_FLIGHTING**. Seega kasutajaliidese seadistuse **Kliendiotsingu režiimi vaiketüüp** kuvamiseks peaks jaemüüja looma kasutaja vastuvõtu testimise (UAT) ja tootmiskeskkonnas tugiteenusepileti. Pärast pileti kättesaamist teeb inseneride töörühm jaemüüjaga koostööd, et kindlustada, et jaemüüja testiks oma mitte-tootmiskeskkondades, et hinnata jõudlust ja rakendada vajalikud optimeerimised.
 
-## <a name="cloud-powered-customer-search"></a>Pilvepõhine kliendiotsing
-
-Kliendiotsingu võimaluse avalik eelvaade Azure'i Cognitive Searchi teenuse abil on välja antud Commerce 10.0.18 väljalaske osana. Lisaks jõudluse parendustele on teenuse kasutajatel kasulik ka rikas täiendus ja täiustatud tähtsuse võimalused. Jõudluse parendused on eriti ilmnevad, kui kasutatakse müügikoha globaalse otsingu funktsiooni ("Otsi kõiki kauplusi").. Seda seetõttu, et Commerce Headquartersi andmetest päringute asemel toodatakse Azure'i otsinguindeksist otsingutulemused. 
-
-### <a name="enable-the-cloud-powered-search-feature"></a>Luba pilve võimsusega otsingu funktsioon
-
-> [!NOTE]
-> Nii Commerce headquarters kui ka Commerce Scale Unit uuendatakse versiooniks 10.0.18. Müügikoha uuendamine ei ole nõutav.
-
-Pilvepõhise otsingufunktsiooni lubamiseks Commerce'i headquarters`is, toimige järgmiselt.
-
-1. Avage **Süsteemihaldus \> Tööruumid \> Funktsioonihaldus**.
-1. Leidke ja valige **(Eelvaade) pilve toetatud kliendi otsing** funktsioon ja seejärel valige **Luba kohe**.
-1. Avage **Kauplused ja äri >Äri andmeedastaja > Lähtesta äri andmeedastaja** ja valige **OK** et kuvada uus **1010_CustomerSearch** töö **jaotusgraafiku** vormis.
-1. Avage **Jaemüük ja kaubandus > Jaemüügi ja kaubanduse IT > Jaotusgraafik**.
-1. Käivitage **1010_CustomerSearch** töö. See töö avaldab kuupäeva Azure'i otsinguindeksis. Kui indeksi avaldamine on lõpule viidud, seatakse töö olekuks **Rakendatud**.
-1. Pärast **1010_CustomerSearch** on töö staatus seatud **Rakendatud**, käivitage **1110 - globaalne konfiguratsiooni** töö äsja lubatud funktsiooni **funktsioonihaldus** värskendamiseks.
-1. Seejärel käivitage **1010_CustomerSearch** kliendivärskenduste saatmiseks otsinguindeksisse regulaarsete ajavahemike järel.
-
-> [!NOTE]
-> Algse indeksi avaldamiseks võib **1010_CustomerSearch** töö lõpule viimine võtta mitu tundi, kuni see saadab kõik kliendikirjed Azure'i otsinguindeksisse. Järgnevad uuendused peaksid kestma mõned minutid. Ajaperioodis, mil pilve toetatud otsingufunktsioon on lubatud, kuid indeksi avaldamine ei ole veel lõpetatud, läheb kliendi otsing kassast vaikimisi olemasolevale SQL-põhisele otsingule. See tagab, et operatsioonide talletamiseks ei ole katkestusi.
-
-### <a name="functional-differences-from-the-existing-search"></a>Olemasoleva otsingu funktsioonierinevused
-
-Järgmises loendis näidatakse, kuidas pilve toega kliendi otsingufunktsioon erineb olemasolevatest otsingufunktsioonidest. 
-
-- Commerce Headquartersis loodud ja redigeeritud kliendid saadetakse Azure'i otsinguindeksisse **pärast 1010_CustomerSearch** käivitamist. Uuenduste uuendamiseks võtab aega vähemalt 15–20 minutit. Müügikoha kasutajad saavad uusi kliente (või uuendatud teabel põhinevat otsingut) otsida umbes 15–20 minutit pärast seda, kui Värskendused toimuvad Commerce Headquartersis. Kui teie äriprotsess nõuab, et Äri peakontoris loodud kliendid peavad kassas kohe otsima, ei pruugi see olla teie jaoks õige teenus.
-- Kassas loodud uued kliendid saadetakse Azure'i otsinguindeksisse Commerce Scale Unit kaudu ja on kohe otsitavad igas kaupluses. Kui aga Async Kliendi loomise funktsioon on sisse lülitatud, ei avaldata uusi kliendikirjeid Azure'i otsinguindeksis rakenduses Commerce Scale Unit ja neid ei otsita kassast enne, kui klienditeave on sünkroonitud Commerce headquartersiga ja kliendi ID-d luuakse Async Klientide jaoks. Seejärel **1010_CustomerSearch** töö Async Customeri kirjed Azure otsinguindeksisse saata. Keskmiselt on see umbes 30 minutit enne, kui vastloodud Asynci kliente kassas otsida saab. See hinnang eeldab, et **1010_CustomerSearch**, **P-töö** ja **Sünkrooni kliendid ja äripartnerid asünkroonses reziimis** tööd plaanitakse käitada 15 minuti järel.
-- Pilve toega otsing otsib ka teiseseid e-kirju ja klientide telefoninumbriid, kuid praegu kuvatakse kliendi otsingutulemustes ainult esmane telefoninumber ja klientide esmane meiliaadress. Kohe võib see näida, et asjatuid otsingutulemusi on tagastatud, kuid kliendi teisese e-kirja ja telefoninumbri kontrollimine otsingutulemustes võib aidata kontrollida, kas märksõna otsiti kliendi vastendamise tulemusena. Sellise segaduse vältimiseks plaanitakse otsingutulemuste lehte parandada, et kasutajad mõistaksid, miks otsingutulemus tagastati.
-- Nõue otsida globaalses otsingus vähemalt 4 märki ("Otsi kõiki kauplusi") ei ole sellele teenusele kohaldatav.
-
-> [!NOTE]
-> Kliendi otsinguvõimalused Azure'i cotive search service'i abil on eelvaate jaoks saadaval piiratud regioonides. Kliendi otsinguvõimalused *pole* saadaval järgmistes regioonides:
-> - Brasiilia
-> - India
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

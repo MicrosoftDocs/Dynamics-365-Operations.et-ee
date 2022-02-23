@@ -71,6 +71,3 @@ Värbamisprotsessi malli loomiseks tehke järgmist.
     - Tegevuse eemaldamiseks laiendage seda ja seejärel valige prügikasti nupp tegevuse päises.
 
 8. Valige **Salvesta**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,10 +1,12 @@
 ---
 title: Tasakaalustatud töölehed sisekäibe jaoks
 description: See artikkel näitab, kuidas töölehte automaatselt tasakaalustatakse, kui lehel Pearaamat valitakse tasakaalustav finantsdimensioon.
-author: kweekley
+author: ShylaThompson
+manager: AnnBe
 ms.date: 10/30/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerParameters
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: roschlom
 ms.custom: 15791
 ms.assetid: 301bd80e-f8b1-4f12-8194-e6d7de736084
 ms.search.region: Global
-ms.author: kweekley
+ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7f6ffccb2ee504f182250dbf6d316823efafddf5
-ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
-ms.translationtype: MT
+ms.openlocfilehash: f189d1ed5b0917c9975587accc2275556ceb8143
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/31/2021
-ms.locfileid: "7726890"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4968750"
 ---
 # <a name="balanced-journals-for-interunit-accounting"></a>Tasakaalustatud töölehed sisekäibe jaoks
 
@@ -30,7 +32,7 @@ See artikkel näitab, kuidas töölehte automaatselt tasakaalustatakse, kui lehe
 
 Kui kontokirjed ei tasakaalust finantsdimensiooni väärtuste tasandil, luuakse automaatselt täiendavad kontokirjed, et töölehte tasakaalustada. Need kontokirjed kasutavad lehel **Automaatsete kannete kontod** sisestustüüpe **Üksustevaheline – deebet** ja **Üksustevaheline – kreedit**, et määrata põhikonto. Näiteks on tasakaalustava finantsdimensioonina valitud Äriüksus, mis on pearaamatukonto teine segment, ja loomisel on järgmised raamatupidamiskirjed.
 
-| &nbsp;               | &nbsp;    |
+|                      |           |
 |----------------------|-----------|
 | 6100 – MSP – OU\_256 | 100.00 DR |
 | 6100 – NY – OU\_249  | 100.00 DR |
@@ -43,7 +45,7 @@ Sellisel juhul määratakse järgmised saldod.
 
 Seega luuakse järgmised raamatupidamiskirjed automaatselt, et tasakaalustada tööleht finantsdimensiooni väärtuste tasemel.
 
-| &nbsp;                            | &nbsp;    |
+|                                   |           |
 |-----------------------------------|-----------|
 | (Üksustevaheline deebet) – MSP – OU\_256 | 100.00 DR |
 | (Üksustevaheline kreedit) – NY – OU\_249 | 100.00 CR |
@@ -52,6 +54,3 @@ Seega luuakse järgmised raamatupidamiskirjed automaatselt, et tasakaalustada t�
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

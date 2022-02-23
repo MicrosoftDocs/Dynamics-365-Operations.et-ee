@@ -2,9 +2,11 @@
 title: Äridokumendimalli struktuuri värskendamine
 description: See teema selgitab, kuidas värskendada äridokumendi malli struktuuri äridokumendi haldamise funktsiooni abil.
 author: NickSelin
+manager: AnnBe
 ms.date: 11/19/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERBDWorkspace, ERBDParameters, ERBDTemplateEditor
 audience: Application User, Developer, IT Pro
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-12-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 2f57e3f3a84a6e767755c69074bc194e90793e6edd79d0e07ae7449d45ec7539
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cb0188e372b5f6275472cf040d10bb796eed1858
+ms.sourcegitcommit: 95d2fc0fa7d17d3a96f7969f12c985b018b4ff94
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775282"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "4728085"
 ---
 # <a name="update-the-structure-of-a-business-document-template"></a>Äridokumendimalli struktuuri värskendamine 
 
@@ -58,7 +60,7 @@ Tehke [äridokumendi halduse ülevaates](er-business-document-management.md) jä
 
     Uus mall on redigeerimiseks avatud Excel Online’i malli redaktori lehel manustatud juhtelemendis.
 
-[![Äridokumentide halduse tööruumi kasutamine äridokumendi malli redigeerimise alustamiseks.](./media/er-bdm-update-structure1.gif)](./media/er-bdm-update-structure1.gif)
+[![Äridokumentide halduse tööruumi kasutamine äridokumendi malli redigeerimise alustamiseks](./media/er-bdm-update-structure1.gif)](./media/er-bdm-update-structure1.gif)
 
 ### <a name="review-the-current-structure-of-the-editable-template"></a>Redigeeritava malli praeguse struktuuri läbivaatamine
 
@@ -68,7 +70,7 @@ Tehke [äridokumendi halduse ülevaates](er-business-document-management.md) jä
 4. Laiendage paanil **Malli struktuur** suvandit **Aruanne \> Arve \> rptHeader \> rptHeaderPart1**.
 5. Pange tähele, et rakenduse Finance malli struktuuris on üksus **rptHeaderCompLogo** esitatud suvandi **Aruanne \> Arve \> rptHeader \> rptHeaderPart1** allüksusena.
 
-[![Äridokumentide halduse tööruumi kasutamine redigeeritud malli praeguse struktuuri läbivaatamiseks.](./media/er-bdm-update-structure2.gif)](./media/er-bdm-update-structure2.gif)
+[![Äridokumentide halduse tööruumi kasutamine redigeeritud malli praeguse struktuuri läbivaatamiseks](./media/er-bdm-update-structure2.gif)](./media/er-bdm-update-structure2.gif)
 
 ### <a name="update-the-structure-of-a-business-document-template-by-deleting-a-picture"></a>Äridokumendimalli struktuuri värskendamine kustutades pildi
 
@@ -85,7 +87,7 @@ Tehke [äridokumendi halduse ülevaates](er-business-document-management.md) jä
 4. Laiendage paanil **Malli struktuur** suvandit **Aruanne \> Arve \> rptHeader \> rptHeaderPart1**.
 5. Pange tähele, et üksus **rptHeaderCompLogo** ei sisaldu enam rakenduse Finance malli struktuuris.
 
-[![Äridokumentide halduse tööruumi kasutamine äridokumendi mallist pildi kustutamiseks.](./media/er-bdm-update-structure3.gif)](./media/er-bdm-update-structure3.gif)
+[![Äridokumentide halduse tööruumi kasutamine äridokumendi mallist pildi kustutamiseks](./media/er-bdm-update-structure3.gif)](./media/er-bdm-update-structure3.gif)
 
 ### <a name="update-the-structure-of-a-business-document-template-by-adding-a-picture"></a>Äridokumendimalli struktuuri värskendamine lisades pildi
 
@@ -97,13 +99,10 @@ Tehke [äridokumendi halduse ülevaates](er-business-document-management.md) jä
 6. Laiendage paanil **Malli struktuur** suvandit **Aruanne \> Arve \> rptHeader \> rptHeaderPart1**.
 7. Pange tähele, et uus pilt on nüüd lisatud üksusena rakenduse Finance malli struktuuri.
 
-[![Äridokumentide halduse tööruumi kasutamine äridokumendi mallile pildi lisamiseks.](./media/er-bdm-update-structure4.gif)](./media/er-bdm-update-structure4.gif)
+[![Äridokumentide halduse tööruumi kasutamine äridokumendi mallile pildi lisamiseks](./media/er-bdm-update-structure4.gif)](./media/er-bdm-update-structure4.gif)
 
 ## <a name="related-links"></a>Seotud lingid
 
 [Elektroonilise aruandluse (ER) ülevaade](general-electronic-reporting.md)
 
 [Äridokumentide halduse ülevaade](er-business-document-management.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

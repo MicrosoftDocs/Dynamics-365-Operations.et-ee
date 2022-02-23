@@ -2,22 +2,25 @@
 title: Vabas vormis arve loomine
 description: Selles teemas kirjeldatakse vabas vormis arvete loomist.
 author: mikefalkner
+manager: AnnBe
 ms.date: 08/24/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: e5ca9e00ec881707248d966470288fd3ddba4e785127f30bd0e6dd4e7186c7e6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1ac06e7d702ffe3a8cdb6bd2823f2ffdc055c722
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763282"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4442233"
 ---
 # <a name="create-a-free-text-invoice"></a>Vabas vormis arve loomine
 
@@ -27,8 +30,8 @@ Selles teemas kirjeldatakse vabas vormis arvete loomist. Selle protseduuri jaoks
 
 ## <a name="create-a-free-text-invoice"></a>Vabas vormis arve loomine
 
-1. Avage **Müügireskontro (või Müügiregister) \> Arved \> Kõik vabas vormis arved**.
-2. Valige suvand **Uus**.
+1. Avage **Müügireskontro \> Arved \> Kõik vabas vormis arved**.
+2. Valige **Uus**.
 3. Valige väärtus väljal **Kliendi konto**.
 
     * Vaikimisi kasutatakse arvekontona sama kontot, mis on valitud kliendikontoks.
@@ -82,6 +85,3 @@ Pärast ridade kopeerimist saate redigeerida teavet vajaduse järgi.
 Saate luua vabas vormis arve mallist. Kui valite suvandi **Uus mallist** vahekaardil **Arve**, saate uue vabas vormis malli jaoks valida malli nime ja kliendikonto. Vaikeväärtusi, nt maksetingimused ja makseviisi, saab automaatselt kliendi põhjal täita või võite kasutada malli salvestatud väärtusi.
 
 Luuakse uus vabas vormis arve, mille väärtusi saate vajaduse järgi redigeerida.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

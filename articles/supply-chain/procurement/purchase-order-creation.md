@@ -1,10 +1,12 @@
 ---
 title: Ostutellimuste loomine
 description: Selles artiklis kirjeldatakse protsessi ja valikuid ostutellimuse käsitsi koostamisel.
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: 93053
 ms.assetid: 25b1c9f1-20f8-4cf5-b87c-876e32f68846
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 20b8e00316b45126b028b6d9812a455ef0e53f19
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 105d4022e1867f553fcae5e4ae9c0ed7ce4e912d
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575508"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5022277"
 ---
 # <a name="create-purchase-orders"></a>Ostutellimuste loomine
 
@@ -65,7 +67,7 @@ Mõnikord võib olla vaja tellitud kogust jagada, et selle erinevaid osi saaks t
 Tasusid saab ostutellimuse ridadele automaatselt lisada, kui hankijale või hankija tasugrupile ja kaubale või kauba tasugrupile on seadistatud automaatsed tasud. Kuid tavaliselt lisatakse tasud käsitsi tellimuse rea tasandil. Tasu lisamiseks avage leht **Tasude haldamine**, kasutades toimingut **Tasude haldamine** menüüs **Finantsid** vaates **Read**. Otse tellimuse rea tasandil tasu lisamise eelis on see, et tasu saab eraldada laokuluna. Tasukoodide seadistamiseks toote hinna arvestamiseks kasutage debiteerimisvalikut **Kaup**. Seda tüüpi tasud tuleb enne tellimuse kinnitamist ostutellimuse päisest ridadele eraldada. Näiteks võib olla vaja eraldada tasud igal real oleva koguse põhjal. Tasukategooria mõjutab ka seda, kuidas tasusid arvestatakse. Näiteks fikseeritud tasud näitavad fikseeritud summat ja tasuprotsent arvutatakse tellimuse rea netosumma protsendina. Ostutellimused saab määrata koormale ja koorma hulka võib kuuluda eeldatavate transpordikulude prognoos. Selle kulu saab eraldada koormalt tagasi ostutellimuse ridadele.
 
 ## <a name="purchase-order-actions"></a>Ostutellimuse tegevused
-Kui olete lisanud ostutellimusele päise ja read, peate sageli tegema lisatoiminguid enne, kui tellimus on kinnitamiseks valmis. Kuna saadaval on nii palju võimalusi, võib olla abiks funktsiooni [Tegevuse otsing](../../fin-ops-core/fin-ops/get-started/action-search.md) kasutamine vastava menüü-üksuse otsimiseks.  
+Kui olete lisanud ostutellimusele päise ja read, peate sageli tegema lisatoiminguid enne, kui tellimus on kinnitamiseks valmis. Kuna saadaval on nii palju võimalusi, võib olla abiks funktsiooni [Tegevuse otsing](../../fin-and-ops/get-started/action-search.md) kasutamine vastava menüü-üksuse otsimiseks.  
 
 Tellimusel saab tooteid konfigureerida nii, et neil on lisakaubad. Lisakaubad on tooted, mida tuleb või saab osta koos teiste toodetega. Lisatooted võib lisada tasuta kaasnevate toodetena või otsustada, kas lisada need tellimusele või mitte. Lisakaupu saab pärast iga lisatavat tellimuse rida üle vaadata. Kuid ilmselt on mugavam vaadata üle ja lisada vastavad lisakaubad kõigile tellimuse ridadele, kasutades lehte **Lisakaubad**, mille saate avada tegumiribalt.  
 
@@ -80,7 +82,8 @@ Ostutellimused saab konfigureerida nõudma, et eelarvevahendid eraldataks tellim
 
 Ostutellimuse täitmist võib olla vaja edasi lükata. Näiteks võib olla toodete või teenuste kohta vaja lisateavet või peate kulutuse tegemiseks loa saama. Tellimusega viivitamiseks on mitu võimalust. Näiteks võite oodata tellimuse kinnitamisega. Teine võimalus (kui kasutatakse muudatuse haldamise töövoogu) on tellimuse kinnitamiseks esitamata jätmine. Kui peate blokeerima kõik konkreetse hankija tellimused, võite hankija koondandmete töötlemiseks märkida hankija olekuks **Ootel**. On ka olukordi, mis võivad tellimuse töötlemist takistada. Näiteks võib töötlemine olla takistatud, kui krediidilimiite on ületatud või vajalikud eelarvevahendid pole saadaval.
 
-## <a name="additional-resources"></a>Lisaressursid
+<a name="additional-resources"></a>Lisaressursid
+--------
 
 [Ostutellimuse ülevaade](purchase-order-overview.md)
 
@@ -92,6 +95,3 @@ Ostutellimuse täitmist võib olla vaja edasi lükata. Näiteks võib olla toode
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

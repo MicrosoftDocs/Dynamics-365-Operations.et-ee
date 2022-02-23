@@ -2,27 +2,27 @@
 title: ER-vormingu korrigeerimine kohandatud elektroonilise dokumendi loomiseks
 description: Selles teemas selgitatakse, kuidas korrigeerida Microsofti elektroonilise aruandluse (ER) vormingut nii, et see looks kohandatud elektroonilise dokumendi.
 author: NickSelin
+manager: AnnBe
 ms.date: 06/22/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom:
-- "220314"
-- intro-internal
+ms.custom: 220314
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 47d8091e9199597857791f58f14587e2dea027e0
-ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
+ms.openlocfilehash: 20e7a32ac5f6ab21f89ed3c11c64458286864c9d
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7605226"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680166"
 ---
 # <a name="adjust-an-er-format-to-generate-a-custom-electronic-document"></a>ER-vormingu korrigeerimine kohandatud elektroonilise dokumendi loomiseks
 
@@ -144,7 +144,7 @@ Oma praegusesse Microsoft Dynamics 365 Finance'i eksemplari standardsete ER-konf
 5. Kiirkaardil **Versioonid** valige valitud ER-vormingu konfiguratsiooni versioon **1.1**.
 6. Valige käsk **Impordi**, et laadida valitud versioon globaalsest hoidlast alla Finance'i praegusesse eksemplari.
 
-![Konfiguratsioonihoidla leht.](./media/er-quick-start2-import-solution1.png)
+![Konfiguratsioonihoidla leht](./media/er-quick-start2-import-solution1.png)
 
 > [!TIP]
 > Kui teil on probleeme [globaalsele hoidlale](er-download-configurations-global-repo.md) juurde pääsemisega, saate selle asemel [laadida konfiguratsioonid alla](download-electronic-reporting-configuration-lcs.md) Microsoft Dynamics Lifecycle Servicesist (LCS).
@@ -160,7 +160,7 @@ Oma praegusesse Microsoft Dynamics 365 Finance'i eksemplari standardsete ER-konf
     - **Maksemudeli vastendamine 1611** – see konfiguratsioon sisaldab [mudeli vastendamise](general-electronic-reporting.md#data-model-and-model-mapping-components) ER-komponenti, mis kirjeldab, kuidas andmemudel täidetakse rakenduse andmetega käitusajal.
     - **BACS (UK)** – see konfiguratsioon sisaldab [vormingu](general-electronic-reporting.md#FormatComponentOutbound) ja vormingu vastendamise ER-komponente. Vormingu komponent määratleb aruande paigutuse. Vormingu vastendamise komponent sisaldab mudeli andmeallikat ja määratleb, kuidas täidetakse aruande paigutust andmeallika abil käitusajal.
 
-![Konfiguratsioonileht, millel on puus saadaval määratud ER -konfiguratsioonid.](./media/er-quick-start2-imported-solution1.png)
+![Konfiguratsioonide leht](./media/er-quick-start2-imported-solution1.png)
 
 ## <a name="prepare-a-vendor-payment-for-processing"></a><a id="PrepareVendorPayment"></a>Hankija makse ettevalmistamine töötlemiseks
 
@@ -179,7 +179,7 @@ Peate lisama hankija kontole panga teabe, millele viidatakse hiljem registreerit
     5. Sisestage väljale **IBAN** väärtus **GB33BUKB20201555555555**.
     6. Jätke väljale **Registreerimisnumber** vaikeväärtus <a id="DefineRoutingNumber"></a>**123456**.
 
-    ![Hankija pangakontode leht.](./media/er-quick-start2-bank-account.png)
+    ![Hankija pangakontode leht](./media/er-quick-start2-bank-account.png)
 
 4. Valige käsk **Salvesta**.
 5. Sulgege leht.
@@ -187,14 +187,14 @@ Peate lisama hankija kontole panga teabe, millele viidatakse hiljem registreerit
 7. Vajadusel valige hankija üksikasjade lehel **Redigeeri**, et muuta leht redigeeritavaks.
 8. Valige kiirkaardi **Makse** väljal **Pangakonto** suvand **GBP OPER**.
 
-    ![Hankija üksikasjade leht.](./media/er-quick-start2-bank-account-reference.png)
+    ![Hankija üksikasjade leht](./media/er-quick-start2-bank-account-reference.png)
 
 9. Valige käsk **Salvesta**.
 10. Sulgege leht.
 
 ### <a name="enter-a-vendor-payment"></a><a id="EnterVendorPayment"></a>Hankija makse sisestamine
 
-Peate sisestama uue hankija makse [maksesoovituse](../../../finance/accounts-payable/create-vendor-payments-payment-proposal.md) abil.
+Peate sisestama uue hankija makse [maksesoovituse](https://docs.microsoft.com/dynamics365/finance/accounts-payable/create-vendor-payments-payment-proposal) abil.
 
 1. Avage **Ostureskontro** \> **Maksed** \> **Hankija maksete tööleht**.
 2. Lehel **Hankija maksete tööleht** valige suvand **Uus**.
@@ -204,11 +204,11 @@ Peate sisestama uue hankija makse [maksesoovituse](../../../finance/accounts-pay
 6. Konfigureerige dialoogiboksis **Hankija maksesoovitus** filtreerimistingimused ainult hankija konto **GB_SI_000001** kirjete jaoks ja seejärel valige **OK**.
 7. Valige arve **00000007_Inv** rida ja seejärel valige **Loo makse**.
 
-    ![Hankija maksesoovituse dialoogiboks.](./media/er-quick-start2-payment-proposal.png)
+    ![Hankija maksesoovituse dialoogiboks](./media/er-quick-start2-payment-proposal.png)
 
 8. Veenduge, et sisestatud makse oleks konfigureeritud kasutama makseviisi **Elektrooniline**.
 
-    ![Hankija maksete leht.](./media/er-quick-start2-payment-line.png)
+    ![Hankija maksete leht](./media/er-quick-start2-payment-line.png)
 
 ## <a name="process-a-vendor-payment-by-using-the-standard-er-format"></a><a id="ProcessVendorPayment1"></a>Hankija makse töötlemine standardse ER-vormingu abil
 
@@ -222,7 +222,7 @@ Peate konfigureerima elektroonilise makseviisi, et see kasutaks imporditud ER-vo
 4. Seadistage kiirkaardil **Failivormingud** suvandi **Üldine elektrooniline ekspordivorming** väärtuseks **Jah**.
 5. Valige väljal **Ekspordivormingu konfiguratsioon** vormingu konfiguratsioon **BACS (UK)**.
 
-    ![Makseviisid - hankijate leht, et seadistada elektrooniline makseviis hankija maksete töötlemiseks standardvormingus.](./media/er-quick-start2-method-of-payment1.png)
+    ![Makseviisid - hankijate leht](./media/er-quick-start2-method-of-payment1.png)
 
 6. Valige käsk **Salvesta**.
 
@@ -239,7 +239,7 @@ Peate konfigureerima elektroonilise makseviisi, et see kasutaks imporditud ER-vo
 5. Valige nupp **OK**.
 6. Määrake dialoogiboksis **Elektroonilise aruande parameetrid** suvandi **Prindi kontrollaruanne** väärtuseks **Jah** ja seejärel valige **OK**.
 
-    ![Elektroonilise aruande parameetrite dialoogileht.](./media/er-quick-start2-payment-dialog1.png)
+    ![Elektroonilise aruande parameetrite dialoogileht](./media/er-quick-start2-payment-dialog1.png)
 
     > [!NOTE]
     > Lisaks maksefailile saate nüüd luua ka kontrollaruande.
@@ -251,7 +251,7 @@ Peate konfigureerima elektroonilise makseviisi, et see kasutaks imporditud ER-vo
 
         Pange tähele, et vastavalt antud ER-vormingu [struktuurile](#PositionRoutingNumber) algab loodud faili makserida registreerimisnumbriga, mis [määratleti](#DefineRoutingNumber) konfigureeritud pangakonto jaoks.
 
-        ![Maksefail TXT-vormingus.](./media/er-quick-start2-payment-file1.png)
+        ![Maksefail TXT-vormingus](./media/er-quick-start2-payment-file1.png)
 
 ## <a name="customize-the-standard-er-format"></a><a id="CustomizeProvidedFormat"></a>Standardse ER-vormingu kohandamine
 
@@ -267,13 +267,13 @@ Sellisel juhul peaksite Litware, Inc.-i esindajana looma (tuletama) uue ER-vormi
 4. Valige väljagrupis **Uus** suvand **Tuleta nimest: BACS (UK), Microsoft**.
 5. Välja **Nimi** sisestage väärtus **BACS (UK kohandatud)**.
 
-    ![Konfiguratsiooni loomise rippmenüü dialoogiaken.](./media/er-quick-start2-add-derived-format.png)
+    ![Konfiguratsiooni loomise rippmenüü dialoogiaken](./media/er-quick-start2-add-derived-format.png)
 
 6. Valige **Konfiguratsiooni loomine**.
 
 Luuakse ER-vormingu konfiguratsiooni **BACS (UK kohandatud)** versioon 1.1.1. Selle versiooni [olek](general-electronic-reporting.md#component-versioning) on **Mustand** ja seda saab redigeerida. Teie kohandatud ER-vormingu praegune sisu vastab Microsofti antud vormingu sisule.
 
-![ER-vormingu konfiguratsiooni BACS (UK kohandatud) versioon 1.1.1 konfiguratsioonileht.](./media/er-quick-start2-derived-format-configuration1.png)
+![Konfiguratsioonide leht](./media/er-quick-start2-derived-format-configuration1.png)
 
 ### <a name="edit-a-custom-format"></a><a id="ConfigureDerivedFormat"></a>Kohandatud vormingu redigeerimine
 
@@ -293,7 +293,7 @@ Peate konfigureerima oma kohandatud vormingut nii, et see vastaks pangapõhistel
 
 7. Valige element **kanne**.
 
-    ![Kande element ER-toimingute koostajas.](./media/er-quick-start2-derived-format0.png)
+    ![Kande element ER-toimingute koostajas](./media/er-quick-start2-derived-format0.png)
 
     > [!NOTE]
     > Antud aruanne on konfigureeritud nii, et <a id="PositionRoutingNumber"></a>iga makserida algaks panga registreerimisnumbriga. Selleks otstarbeks kasutatakse vorminguelementi **VendBankRouteNum**. 
@@ -311,13 +311,13 @@ Peate konfigureerima oma kohandatud vormingut nii, et see vastaks pangapõhistel
 9. Valige vormingustruktuuri puus **vendBankSWIFT**.
 10. Valige **Nihuta üles**, et liigutada valitud vorminguelementi ühe taseme võrra ülespoole. Korrake seda etappi senikaua, kuni element **vendBankSWIFT** on <a id="PositionSWIFTCode"></a>esimene element peamise elemendi **kanne** all.
 
-    ![VendBankSWIFT kui ER-toimingute koostaja kande esimene element.](./media/er-quick-start2-derived-format1.png)
+    ![VendBankSWIFT on ER-toimingute koostaja kande esimene element](./media/er-quick-start2-derived-format1.png)
 
 11. Kui suvand **vendBankSWIFT** on vormingustruktuuri puus valitud, valige vahekaart **Vastendamine** ja seejärel laiendage andmeallikat **mudel**.
 12. Laiendage suvandit **model.Payment** \> **model.Payment.CreditorAgent** ja valige andmeallika väli **model.Payment.CreditorAgent.BICFI**. See andmeallika väli näitab hankija panga SWIFT-koodi, millele määratakse agendi roll töödeldud hankija makses.
 13. Valige **Seo**. Vorminguelement **VendBankSWIFT** on nüüd seotud andmeallika väljaga **model.Payment.CreditorAgent.BICFI**, et SWIFT-koode sisestatakse loodud maksefailidesse.
 
-    ![Andmeallika väljaga model.Payment.CreditorAgent.BICFI seotud vorminguelement vendBankSWIFT ER-toimingute koostajas.](./media/er-quick-start2-derived-format2.png)
+    ![Andmeallika väljaga model.Payment.CreditorAgent.BICFI seotud vorminguelement vendBankSWIFT ER-toimingute koostajas](./media/er-quick-start2-derived-format2.png)
 
 14. Valige käsk **Salvesta**.
 15. Sulgege koostaja leht.
@@ -335,7 +335,7 @@ ER-vormingu mustandversiooni kasutamiseks peate ER-vormingu selgelt märgistama.
 5. Valige vasakpoolse paani konfiguratsioonipuus **BACS (UK kohandatud)**.
 6. Seadke suvandi **Käivita mustand** väärtuseks **Jah**.
 
-    ![Suvand Käivita mustand Konfiguratsioonide lehel.](./media/er-quick-start2-derived-format-configuration2.png)
+    ![Suvand Käivita mustand lehel Konfiguratsioonid](./media/er-quick-start2-derived-format-configuration2.png)
 
 ## <a name="process-a-vendor-payment-by-using-the-custom-er-format"></a><a id="ProcessVendorPayment2"></a>Hankija makse töötlemine kohandatud ER-vormingu abil
 
@@ -349,7 +349,7 @@ Peate konfigureerima elektroonilise makseviisi, et teie kohandatud ER-vormingut 
 4. Seadistage kiirkaardil **Failivorming** suvandi **Üldine elektrooniline ekspordivorming** väärtuseks **Jah**.
 5. Valige väljal **Ekspordivormingu konfiguratsioon** vormingu konfiguratsioon **BACS (UK kohandatud)**.
 
-    ![Makseviisid - hankijate leht, et seadistada elektrooniline makseviis hankija maksete töötlemiseks kohandatud vormingus.](./media/er-quick-start2-method-of-payment2.png)
+    ![Makseviisid - hankijate leht](./media/er-quick-start2-method-of-payment2.png)
 
 6. Valige käsk **Salvesta**.
 
@@ -378,7 +378,7 @@ Peate konfigureerima elektroonilise makseviisi, et teie kohandatud ER-vormingut 
 
         Pange tähele, et vastavalt teie kohandatud ER-vormingu struktuurile [algab](#PositionSWIFTCode) loodud faili makserida nüüd SWIFT-koodiga, mis [sisestati](#DefineSWIFTCode) selle hankija pangakontole, kelle makse on töödeldud.
 
-        ![Hankijamakse töötlemiseks kasutatav maksefail TXT-vormingus.](./media/er-quick-start2-payment-file2.png)
+        ![Maksefail TXT-vormingus](./media/er-quick-start2-payment-file2.png)
 
 ## <a name="import-new-versions-of-the-standard-er-format-configurations"></a><a id="ImportERSolution2"></a>Standardse ER‑vormingu konfiguratsiooni uute versioonide importimine
 
@@ -395,7 +395,7 @@ Oma praegusesse Finance'i eksemplari ER-konfiguratsioonide uute versioonide lisa
 5. Kiirkaardil **Versioonid** valige valitud ER-vormingu konfiguratsiooni versioon **3.3**.
 6. Valige käsk **Impordi**, et laadida valitud versioon globaalsest hoidlast alla Finance'i praegusesse eksemplari.
 
-![Konfiguratsioonihoidla leht, versioonide kiirkaart, nupp Impordi.](./media/er-quick-start2-import-solution2.png)
+![Konfiguratsioonihoidla leht](./media/er-quick-start2-import-solution2.png)
 
 > [!TIP]
 > Kui teil on probleeme [globaalsele hoidlale](er-download-configurations-global-repo.md) juurde pääsemisega, saate selle asemel [laadida konfiguratsioonid alla](download-electronic-reporting-configuration-lcs.md) LCS-ist.
@@ -410,7 +410,7 @@ Oma praegusesse Finance'i eksemplari ER-konfiguratsioonide uute versioonide lisa
 6. Laiendage lehel **Vormingu koostaja** vorminguelementi **BACSReportsFolder**.
 7.  Pange tähele, et versioon 3.3 sisaldab vorminguelementi **PaymentAdviceReport**, mida kasutatakse maksesoovituse aruande loomiseks hankija makse töötlemisel.
 
-    ![Vorminguelement MakseSoovituseAruanne ER-toimingute koostajas.](./media/er-quick-start2-imported-solution2.png)
+    ![Vorminguelement PaymentAdviceReport ER-toimingute koostajas](./media/er-quick-start2-imported-solution2.png)
 
 8. Sulgege koostaja leht.
 
@@ -436,14 +436,14 @@ Oma kohanduses vormingu **BACS (UK)** versiooni 3.3 uue funktsiooni kasutamiseks
 3. Valige kiirkaardil **Versioonid** versioon **1.1.2** ja valige **Muuda alust**.
 4. Valige dialoogiboksi **Muuda alust** väljal **Sihtversioon** aluskonfiguratsiooni versioon **3.3**, et rakendada see uue alusena ja kasutada seda konfiguratsiooni värskendamiseks.
 
-    ![Dialoogiakna aluse muutmine.](./media/er-quick-start2-rebase1.png)
+    ![Dialoogiakna aluse muutmine](./media/er-quick-start2-rebase1.png)
 
 5. Valige nupp **OK**.
 6. Pange tähele, et mustandi versiooni number **1.1.2** on muudetud numbriks **3.3.2**, et kajastada alusversiooni muudatust.
 
     Kohandatud versiooni ja uue alusversiooni liitmisel võidakse avastada konflikte osade vormingumuudatuste tõttu, mida ei saa automaatselt ühendada.
 
-    ![Muudetud alusega konfiguratsioon, millel on konflikte lehel Konfiguratsioonid.](./media/er-quick-start2-rebase2.png)
+    ![Muudetud alusega konfiguratsioon, millel on konflikte lehel Konfiguratsioonid](./media/er-quick-start2-rebase2.png)
 
     Konfliktide avastamisel tuleb need käsitsi lahendada vormingu koostajas.
 
@@ -451,13 +451,13 @@ Oma kohanduses vormingu **BACS (UK)** versiooni 3.3 uue funktsiooni kasutamiseks
 8. Valige **Kujundaja**.
 9. Valige lehe **Vormingu koostaja** kiirkaardil **Üksikasjad** aluse muutmise konflikti kirje ja seejärel valige **Rakenda alusväärtus**.
 
-    ![Aluse muutmise konflikti kirje ER-toimingute koostajas.](./media/er-quick-start2-rebase3.png)
+    ![Aluse muutmise konflikti kirje ER-toimingute koostajas](./media/er-quick-start2-rebase3.png)
 
 10. Valige käsk **Salvesta**.
 
     Aluse muutmise konflikti kirje ei tohiks olla enam kuvatud kiirkaardil **Üksikasjad**.
 
-    ![Konflikt lahendatud ER-toimingute koostajas.](./media/er-quick-start2-rebase4.png)
+    ![Konflikt lahendatud ER-toimingute koostajas](./media/er-quick-start2-rebase4.png)
 
     > [!NOTE]
     > Lahendasite konflikti kinnitades, et selles ER-vormingus tuleb kasutada alusmudeli versiooni 3.
@@ -465,7 +465,7 @@ Oma kohanduses vormingu **BACS (UK)** versiooni 3.3 uue funktsiooni kasutamiseks
 11. Laiendage suvandit **BACSReportsFolder** \> **fail** \> **kanded** \> **kanne**.
 12. Pange tähele, et vahekaardil **Vastendamine** sisaldab teie kohandatud ER-vormingu versioon 3.3.2 nii teie kohandust (vorminguelementi **vendBankSWIFT** ja selle sidumist) kui ka Microsofti antud ER-vormingu aluse versiooni 3.3 uut funktsiooni (vorminguelementi **PaymentAdviceReport** koos selle pesastatud elementide ja konfigureeritud sidumistega). Vaid mõne hiireklõpsuga võtsite vastu uue alusversiooni muudatused, ühendades need oma kohandusega.
 
-    ![Ühendatud vorming ER-toimingute koostajas.](./media/er-quick-start2-rebase5.png)
+    ![Ühendatud vorming ER-toimingute koostajas](./media/er-quick-start2-rebase5.png)
 
 13. Sulgege koostaja leht.
 
@@ -490,7 +490,7 @@ Oma kohanduses vormingu **BACS (UK)** versiooni 3.3 uue funktsiooni kasutamiseks
     - Seadistage valik **Kontrollaruande printimine** olekusse **Jah**.
     - Seadistage valik **Maksesoovituse printimine** olekusse **Jah**.
 
-    ![Elektroonilise aruande parameetrite dialoogiaken.](./media/er-quick-start2-payment-dialog2.png)
+    ![Elektroonilise aruande parameetrite dialoogiaken](./media/er-quick-start2-payment-dialog2.png)
 
     > [!NOTE]
     > Lisaks maksefailile saate nüüd luua nii kontrollaruande kui ka maksesoovituse aruande.
@@ -501,19 +501,16 @@ Oma kohanduses vormingu **BACS (UK)** versiooni 3.3 uue funktsiooni kasutamiseks
     - Kontrollaruanne Exceli vormingus
     - Maksesoovituse aruanne Exceli vormingus
 
-        ![Maksesoovituse aruanne Exceli vormingus.](./media/er-quick-start2-payment-advice-report.png)
+        ![Maksesoovituse aruanne Exceli vormingus](./media/er-quick-start2-payment-advice-report.png)
 
     - Maksefail TXT-vormingus
 
         Pange tähele, et loodud faili makserida algab SWIFT-koodiga, mis sisestati selle hankija pangakontole, kelle makse on töödeldud.
 
-        ![Hankijamakse töötlemiseks kasutatav maksefail TXT-vormingus kasutades ümbermääratletud ER-vormingut.](./media/er-quick-start2-payment-file3.png)
+        ![Maksefail TXT-vormingus](./media/er-quick-start2-payment-file3.png)
 
 ## <a name="additional-resources"></a><a id="References"></a>Lisaressursid
 
 - [Elektroonilise aruandluse ülevaade](general-electronic-reporting.md)
 - [ER-konfiguratsioonide allalaadimine teenusest Lifecycle Services](download-electronic-reporting-configuration-lcs.md)
 - [ER-konfiguratsioonide allalaadimine konfiguratsiooniteenuse globaalsest hoidlast](er-download-configurations-global-repo.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

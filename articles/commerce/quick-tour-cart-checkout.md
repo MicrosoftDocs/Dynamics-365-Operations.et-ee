@@ -2,30 +2,35 @@
 title: Ostukorvi ja väljaregistreerimise ülevaade
 description: See teema annab ülevaate ostukorvi ja kassa lehtedest rakenduses Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
+manager: annbe
 ms.date: 09/15/2020
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3e450192025b29c655be49050aa3e61fc8acd898
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: e932be31a301ef5aacb68fa4e710d8a9137b7263
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982964"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4411780"
 ---
 # <a name="cart-and-checkout-pages-overview"></a>Ostukorvi ja väljaregistreerimise ülevaade
 
 [!include [banner](includes/banner.md)]
 
 See teema annab ülevaate ostukorvi ja kassa lehtedest rakenduses Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Ülevaade
 
 E-kaubanduse veebisaidi ostukorvi lehel kuvatakse kõik kaubad, mille klient on ostukorvi lisanud. Ostukorvi lehekülg on ehitatud ostukorvi mooduli abil. Ostukorvi moodul on konteiner, mis majutab kõiki mooduleid, mis on vajalikud ostukorvis olevate kaupade esitlemiseks. Ostukorvi moodul saab kasutada ka teisi mooduleid, et näidata tellimuse kokkuvõtet ja kõiki kliendi tellimusele rakendatud kampaania koode.
 
@@ -37,7 +42,7 @@ Ostukorvi lehekülg toimib ostukorvina ja sisaldab kõiki ostukorvi lisatud kaup
 
 Järgmisel joonisel on kujutatud ostukorvi lehe näide, mis loodi mooduliteegi ja kujunduse „Fabrikam” abil.
 
-![Ostukorvi lehe näide.](./media/cart2.PNG)
+![Ostukorvi lehe näide](./media/cart2.PNG)
 
 Ostukorvi lehe põhiosas kuvatakse kõik kaubad, mille klient on ostukorvi lisanud. Kõik kehtivad allahindlused on esitletud. Need allahindlused hõlmavad keerukaid allahindlusi. Näideteks on "Osta 3 toodet ja saad 10% soodsamalt" või "Osta pudel ja seljakott, et saada 10% soodustust". Tellimuse kokkuvõtte moodul näitab summat, mis kuulub tasumisele pärast allahindluste, tarnekulude, maksude jms rakendamist. On olemas ka promokoodi moodul, mis võimaldab kliendil rakendada või eemaldada kampaania koode.
 
@@ -53,7 +58,7 @@ Kassa leht on koht, kus kliendid sisestavad tellimuse esitamiseks vajaliku teabe
 
 Järgmisel joonisel on kujutatud kassa lehe näide, mis loodi mooduliteegi abil.
 
-![Kassa lehe näide.](./media/Checkout.PNG)
+![Kassa lehe näide](./media/Checkout.PNG)
 
 Kassa lehe põhiosa on see, kus kogutakse kogu tellimuse teave. See teave sisaldab tarneaadressi, kohaletoimetamise valikuid ja makseteavet. Kassas on samm-sammuline voog, sest teave tuleb töödelda kindlas järjekorras. Näiteks tuleb sisestada tarneaadress, enne kui saab tarnekulud arvutada ja makse autoriseerida.
 
@@ -83,7 +88,7 @@ Klient saab lõpetada väljeregistreerimise protsessi külaliskasutajana või si
 
 ### <a name="order-summary"></a>Tellimuse kokkuvõte
 
-Kassas kuvatakse ostukorvis reaüksuste kokkuvõte, nii et klient saab tellimuse enne esitamist kinnitada. Reaüksuseid ei saa kassa voo ajal redigeerida. Siiski on olemas linki ostukorvi, juhul kui kasutaja soovib tagasi minna ja reaüksusi redigeerida.
+Kassas kuvatakse ostukorvis reaüksuste kokkuvõte, nii et klient saab tellimuse kinnitada, enne kui ta selle esitab. Reaüksuseid ei saa kassa voo ajal redigeerida. Siiski on olemas linki ostukorvi, juhul kui kasutaja soovib tagasi minna ja reaüksusi redigeerida.
 
 Pärast seda, kui klient annab tarne- ja arvelduse teabe, peegeldab tellimuse kokkuvõte summat, mis on tasutud pärast boonuspunktide, kinkekaartide ja muude maksete rakendamist.
 
@@ -102,6 +107,3 @@ Lisateavet kassa lehe loomise kohta leiate teemast [Kassa mooduli lisamine lehel
 [Toote üksikasjade lehe ülevaade](quick-tour-pdp.md)
 
 [Kontohalduse lehtede ülevaade](quick-tour-account-management.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

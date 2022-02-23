@@ -1,30 +1,33 @@
 ---
-title: Põhivara sisestusreeglite häälestus
-description: See protseduur näitab, kuidas seadistada põhivara sisestusreeglid.
-author: moaamer
+title: Põhivara sisestusreeglite seadistamine
+description: See ülesande juhend seadistab Põhivara sisestusreeglid.
+author: saraschi2
+manager: AnnBe
 ms.date: 07/22/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetPosting
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ee0006c9588a22d720687e7aceb49acc756b83e1
-ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
-ms.translationtype: MT
+ms.openlocfilehash: 07961d8613b6b5e0e1c5dc6a91b554305dcb17f5
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7883764"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4442429"
 ---
-# <a name="set-up-fixed-asset-posting-profiles"></a>Põhivara sisestusreeglite häälestus
+# <a name="set-up-fixed-asset-posting-profiles"></a>Põhivara sisestusreeglite seadistamine
 
 [!include [banner](../../includes/banner.md)]
 
-See protseduur näitab, kuidas seadistada põhivara sisestusreeglid. Teemas toodud näited on peamised sisestusreeglid, ehkki sisestusreeglid tuleb luua teie kontoplaani ja finantsaruandluse nõuete jaoks.
+See ülesande juhend seadistab Põhivara sisestusreeglid.  See kasutab USMF-i juriidilise isiku puhul raamatupidaja rolli ja demoandmeid.  Ülesande juhendis esitatud näited kehtivad üldiste sisestusreeglite kohta, kuigi sisestusreeglid tuleb luua teie kindla kontoplaani ja finantsaruandluse nõuete puhul.
 
 1. Avage navigeerimispaanil **Moodulid > Põhivarad > Häälestus > Põhivarade sisestusreeglid**.
 2. Klõpsake valikut **Uus**.
@@ -120,6 +123,3 @@ See protseduur näitab, kuidas seadistada põhivara sisestusreeglid. Teemas tood
 88. Määratlega väljal **Põhikonto** soovitud väärtused.
 89. Määratlega väljal **Vastaskonto** soovitud väärtused.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Auditipoliitika reeglid
 description: Auditipoliitikaga saate hinnata kuluaruandeid, hankija arveid ja ostutellimusi, et kontrollida, kas need vastavad loodud poliitikareeglitele. Kõik auditi poliitikaga seotud reeglid käitatakse pakett-režiimis vastavalt teie määratud graafikule.  Iga poliitikareegel on poliitikareegli tüübi eksemplar. Iga poliitikareegli tüübi puhul saab korraga aktiivne olla vaid üks reegel.
 author: panolte
+manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AuditPolicyAdditionalOption, AuditPolicyRule
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bbf93f5b8b2f8d95102a52178b096d7e334894483c0ac0bacc62653aea845022
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 998d4dbabec74528b4acb9e797faef0c449e7c28
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744302"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021237"
 ---
 # <a name="audit-policy-rules"></a>Auditipoliitika reeglid
 
@@ -28,7 +30,8 @@ ms.locfileid: "6744302"
 
 Auditipoliitikaga saate hinnata kuluaruandeid, hankija arveid ja ostutellimusi, et kontrollida, kas need vastavad loodud poliitikareeglitele. Kõik auditi poliitikaga seotud reeglid käitatakse pakett-režiimis vastavalt teie määratud graafikule.  Iga poliitikareegel on poliitikareegli tüübi eksemplar. Iga poliitikareegli tüübi puhul saab korraga aktiivne olla vaid üks reegel. 
 
-## <a name="queries-and-query-types"></a>Päringud ja päringu tüübid
+<a name="queries-and-query-types"></a>Päringud ja päringu tüübid
+-----------------------
 
 Auditipoliitika reegli loomisel valite esmalt poliitikareegli tüübi. Poliitikareegli tüübiga määratakse rakendusobjektide puu (AOT) päring, mida kasutatakse poliitikareegli loomisel alguspunktina. Samuti määratakse poliitikareegli jaoks kasutatav päringu tüüp. Päring määrab, millist lähtedokumenti poliitikareegel hindab. See määrab ka lähtedokumendi väljad, mis näitavad dokumentide auditi jaoks valimisel kasutatavat juriidilist isikut ja kuupäeva. Päringu tüübiga määratakse päringulehe ja lehe Auditipoliitika reegel vaikeväljad. Järgmises tabelis on auditi poliitikareeglite jaoks saadaolevad päringu tüübid.
 
@@ -90,12 +93,10 @@ Kõigil kindla auditipoliitika poliitikareeglitel on samad partiiparameetrid ja 
 
 
 
-## <a name="additional-resources"></a>Lisaressursid
+<a name="additional-resources"></a>Lisaressursid
+--------
 
 [Auditipoliitika rikkumised ja juhtumid](audit-policy-violations-cases.md)
 [Lähtedokumentide jaoks auditipoliitikate määratlemine](tasks/define-audit-policies-source-documents.md)
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

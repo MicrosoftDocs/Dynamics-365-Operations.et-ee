@@ -2,12 +2,15 @@
 title: Käibemaksu konfigureerimine veebitellimuste jaoks
 description: Selles teemas antakse ülevaade käibemaksugrupi valikust erinevate veebitellimuse tüüpide puhul rakenduses Dynamics 365 Commerce.
 author: gvrmohanreddy
-ms.date: 04/02/2021
+manager: AnnBe
+ms.date: 11/16/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -15,73 +18,68 @@ ms.search.industry: Retail
 ms.author: gmohanv
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 5801bbfb5b5850cb4c9ae06140bff5adca9b368febdc06d69c538fc49f9ee40a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 40c20bf13779f73289e43df21b763e1b864686a7
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772957"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4530193"
 ---
 # <a name="configure-sales-tax-for-online-orders"></a>Käibemaksu konfigureerimine veebitellimuste jaoks
 
-[!include [banner](includes/banner.md)]
+[!include [banner](../includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
-Selles teemas antakse ülevaade käibemaksugrupi valikust erinevate võrgutellimuse tüüpide jaoks, kasutades sihtkoha- või kliendikontopõhiseid maksusätteid. 
+Selles teemas antakse ülevaade käibemaksugrupi valikust erinevate veebitellimuse tüüpide puhul. 
 
-Võite soovida, et teie e-kaubanduse kanal toetaks selliseid valikuid nagu kohaletoimetamine või veebitellimuste kättesaamine. Käibemaksu kohaldatavus põhineb teie võrguklientide poolt valitud suvandil. 
+Teie e-kaubanduse kanal võib soovida toetada selliseid võimalusi nagu veebitellimuste kohaletoimetamine või peale võtmine. Käibemaksu kohaldatavus põhineb teie võrgukasutajate poolt valitud suvandil. Kui saidi klient otsustab osta kauba veebis ja lähetab selle aadressile, määratakse käibemaks kliendi lähetusaadressi maksugrupi sätte põhjal. Kui klient otsustab ostetud kauba poest peale võtta, määratakse käibemaks peale võtmise poe maksugrupi sätte alusel. 
 
-## <a name="destination-based-taxes-for-online-orders"></a>Võrgutellimuste sihtkohapõhised maksud
+## <a name="orders-shipped-to-a-customer-address"></a>Kliendi aadressile lähetatud tellimused 
 
-Üldiselt määratleb kliendi aadressidele lähetatavate veebitellimuste maksud sihtkoht. Igal käibemaksugrupil on jaemüügi sihtkohapõhine maksukonfiguratsioon, kus teie ettevõte saab hierarhilisel kujul määratleda sihtkoha üksikasjad (nt maakond või regioon, maakond, maakond ja linn).
+Üldiselt määratleb kliendi aadressidele lähetatavate veebitellimuste maksud sihtkoht. Igal käibemaksugrupil on jaemüügi sihtkohapõhine maksukonfiguratsioon, kus teie ettevõte saab hierarhilisel kujul määratleda sihtkoha üksikasjad (nt maakond/regioon, maakond, maakond ja linn). Kui veebitellimus on sisestatud, kasutab kaubanduse maksumootor tellimuse iga reakauba tarneaadressi ja leiab käibemaksugrupid vastavate sihtkohapõhiste maksukriteeriumidega. Näiteks online-tellimuse puhul, mille rea kauba tarneaadress on San Francisco, California, leiab maksumootor California käibemaksugrupi ja käibemaksukoodi ning arvutab seejärel vastavalt iga reakauba maksu.  
 
-### <a name="orders-delivered-to-customer-address"></a>Kliendi aadressile saadetud tellimused
+## <a name="customer-based-tax-groups"></a>Kliendipõhised maksugrupid
 
-Kui veebitellimus on sisestatud, kasutab kaubanduse maksumootor tellimuse iga reakauba tarneaadressi ja leiab käibemaksugrupid vastavate sihtkohapõhiste maksukriteeriumidega. Näiteks online-tellimuse puhul, mille rea kauba tarneaadress on San Francisco, California, leiab maksumootor California käibemaksugrupi ja käibemaksukoodi ning arvutab seejärel vastavalt iga reakauba maksu.
+Kaubanduse peakorteris on kaks kohta, kus kliendi maksugrupid on konfigureeritud.
 
-### <a name="order-pick-up-in-store"></a>Tellimusele järgi tulemine kauplusesse
+- **Kliendi profiil**
+- **Kliendi tarneaadress**
 
-Kauplusesse järgi tulemise või tellimuse peale võtmise tellimuseridade puhul rakendatakse valitud peale võtmise kaupluse maksugrupp. Lisateavet antud kaupluse müügimaksude seadistamise kohta leiate teemast [Kaupluste muude maksusuvandite määramine](/dynamicsax-2012/appuser-itpro/set-other-tax-options-for-stores).
+### <a name="if-a-customers-profile-has-a-tax-group-configured"></a>Kui kliendi profiilil on maksugrupp konfigureeritud
 
-## <a name="customer-account-based-taxes-for-online-orders"></a>Võrgutellimuste kliendi kontopõhised maksud
+Kliendi profiilikirjel võib peakorteris olla konfigureeritud käibemaksugrupp, kuid internetitellimuste puhul ei kasuta maksumootor kliendi profiilis konfigureeritud käibemaksugruppi. 
 
-Võib esineda äristsenaarium, kus soovite konfigureerida müügimaksugrupi konkreetsel kliendikontol Commerce peakorteris. Peakontoris on kaks kohta, kus saate kliendikontol käibemaksu konfigureerida. Neile juurdepääsuks peate esmalt pääsema kliendi üksikasjade lehele, minnes lehele **Retail ja Commerce \> Kliendid \> Kõik kliendid** ja valides seejärel klient.
+### <a name="if-a-customers-shipping-address-has-a-tax-group-configured"></a>Kui kliendi tarneaadressil on maksugrupp konfigureeritud
 
-Kaks kohta, kus konfigureerite kliendikonto müügimaksu, on järgmised.
+Kui kliendi tarneaadressi kirjel on konfigureeritud maksugrupp ja internetitellimus (või reakaup) saadetakse kliendi tarneaadressile, kasutab maksumootor maksu arvutamisel kliendi aadressikirjes konfigureeritud maksugruppi.
 
-- **Käibemaksugrupp** kliendi üksikasjade lehe kiirkaardil **Arve ja tarne**. 
-- **Käibemaks** **aadresside haldamise** lehe kiirkaardil **Üldine**. Kliendi üksikasjade lehelt sinna jõudmiseks valige kiirkaardil **Aadressid** kindel aadress ja seejärel valige **Täpsemalt**.
+#### <a name="configure-a-tax-group-for-a-customers-shipping-address-record"></a>Konfigureeri kliendi tarneaadressi kirjele maksugrupp
 
-> [!TIP]
-> Kui soovite võrgukliendi tellimuste puhul rakendada ainult sihtkohapõhiseid makse ja vältida kliendikontol põhinevaid makse, veenduge, et väli **Käibemaksugrupp** oleks kliendi üksikasjade lehe kiirkaardil **Arve ja tarne** tühi. Tagamaks, et võrgukanali kaudu registreeruvad uued kliendid ei päriks käibemaksugrupi sätteid kliendi või kliendigrupi vaikesätetest, veenduge, et väli **Käibemaksugrupp** oleks tühi ka võrgukanali kliendi vaikesätete ja kliendigrupi sätete korral ( **Retail ja Commercea \>Kliendid \> Kliendigrupid**).
+Kliendi tarneaadressi kirje maksugrupi konfigureerimiseks kaubanduse peakorteris toimige järgmiselt.
 
-## <a name="determine-destination-based-tax-or-customer-account-based-tax-applicability"></a>Sihtpõhise maksu või kliendikontol põhineva maksu kohaldatavuse määratlemine 
+1. Avage **Kõik kliendid** ja valige soovitud klient. 
+1. Valige **Aadressid** FastTab-is soovitud aadress ja seejärel valige **Veel suvandeid \> Täpsem**. 
+1. Määrake **Üldine** vahekaardil **Halda aadresse** lehel käibemaksu väärtus vastavalt vajadusele.
 
-Järgmises tabelis selgitatakse, kas veebipõhiste tellimuste puhul rakendatakse sihtkohapõhiseid või kliendikontopõhiseid makse. 
+> [!NOTE]
+> Maksugrupp määratletakse tellimuserea tarneaadressi abil ja sihtkohapõhised maksud konfigureeritakse maksugrupis. Lisateavet vt teemast [Seadista maksud veebipoodidele vastavalt asukohale](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-taxes-for-online-stores-based-on-destination).
 
-| Kliendi tüüp | Tarneaadress                   | Klient > Arve ja tarne > Käibemaksugrupp? | Aadress peakontori kliendikontol? | Kliendi aadress > Täpsemalt > Üldine > Käibemaksugrupp?                                              | Rakendatud käibemaksugrupp      |
-|---------------|------------------------------------|-----------------------------------------------------|-----------------------------------|--------------------------------------------------------------------------------------------------------|------------------------------|
-| Külaline         | Manhattan, NY                      | Ei (tühi)                                                | Ei (tühi)                              | Ei (tühi)                                                                                                   | NY (sihtkohapõhised maksud) |
-| Sisse logitud     | Austin, TX                          | Ei (tühi)                                             | Jah                               | None<br/><br/>Võrgukanali kaudu lisatud uus aadress.                                                            | TX (sihtkohapõhised maksud) |
-| Sisse logitud     | San Francisco, CA (Kättesaamine poest) | Jah (NY)                                            | Pole kohaldatav                              | Pole kohaldatav                                                                                                    | CA (sihtkohapõhised maksud) |
-| Sisse logitud     | Houston, TX                         | Jah (NY)                                            | Jah                               | Jah (NY)<br/><br/>Võrgukanali ja käibemaksugrupi kaudu lisatud uus aadress, mis on päritud kliendikontolt. | NY (kliendikontol põhinevad maksud)  |
-| Sisse logitud     | Austin, TX                          | Jah (NY)                                            | Jah                               | Jah (NY)<br/><br/>Võrgukanali ja käibemaksugrupi kaudu lisatud uus aadress, mis on päritud kliendikontolt. | NY (kliendikontol põhinevad maksud)  |
-| Sisse logitud     | Sarasota, FL                       | Jah (NY)                                            | Jah                               | Jah (WA)<br/><br/>Käsitsi seatud WA-le.                                                                          | WA (kliendikontol põhinevad maksud)  |
-| Sisse logitud     | Sarasota, FL                       | Ei (tühi)                                                | Jah                               | Jah (WA)<br/><br/>Käsitsi seatud WA-le.                                                                          | WA (kliendikontol põhinevad maksud)  |
+## <a name="order-pickup-in-store"></a>Tellimusele järgi tulemine kauplusesse
+
+Kauplusesse järgi tulemise või tellimuse peale võtmise tellimuseridade puhul rakendatakse valitud peale võtmise kaupluse maksugrupp. Lisateavet antud kaupluse maksugrupi konfigureerimise kohta leiate teemast [Kaupluste muude maksusuvandite määramine](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-other-tax-options-for-stores).
+
+> [!NOTE]
+> Kui tellimusele tullakse kauplusesse järgi, ignoreerib maksumootor kliendi aadressi maksusätteid (kui see on seadistatud) ja rakendatakse peale võtmise kaupluse maksu konfiguratsioon. 
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-[Saate seadistada maksud võrgupoodide jaoks asukoha alusel](/dynamicsax-2012/appuser-itpro/set-up-taxes-for-online-stores-based-on-destination)
+[Käibemaksu ülevaade](https://docs.microsoft.com/dynamics365/finance/general-ledger/indirect-taxes-overview?toc=/dynamics365/commerce/toc.json) 
 
-[Käibemaksu ülevaade](../finance/general-ledger/indirect-taxes-overview.md?toc=%2fdynamics365%2fcommerce%2ftoc.json) 
+[Käibemaksuarvutusmeetodid väljal Päritolu](https://docs.microsoft.com/dynamics365/finance/general-ledger/sales-tax-calculation-methods-origin-field?toc=/dynamics365/commerce/toc.json) 
 
-[Käibemaksuarvutusmeetodid väljal Päritolu](../finance/general-ledger/sales-tax-calculation-methods-origin-field.md?toc=%2fdynamics365%2fcommerce%2ftoc.json) 
+[Käibemaksu määramine ja tühistamised](https://docs.microsoft.com/dynamics365/supply-chain/procurement/tasks/sales-tax-assignment-overrides?toc=/dynamics365/commerce/toc.json) 
 
-[Käibemaksu määramine ja tühistamised](../supply-chain/procurement/tasks/sales-tax-assignment-overrides.md?toc=%2fdynamics365%2fcommerce%2ftoc.json) 
-
-[Kogusumma ja intervalli arvutamise valikud käibemaksukoodide puhul](../finance/general-ledger/whole-amount-interval-options-sales-tax-codes.md?toc=%2fdynamics365%2fcommerce%2ftoc.json) 
+[Kogusumma ja intervalli arvutamise valikud käibemaksukoodide puhul](https://docs.microsoft.com/dynamics365/finance/general-ledger/whole-amount-interval-options-sales-tax-codes?toc=/dynamics365/commerce/toc.json) 
 
 [Maksuvabastuse arvutamine](tax-exempt-price-inclusive.md) 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

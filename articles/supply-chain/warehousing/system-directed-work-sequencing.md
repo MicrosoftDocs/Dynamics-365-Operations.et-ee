@@ -2,9 +2,11 @@
 title: Süsteemi suunatud tööde järjestus
 description: Selles teemas antakse teavet süsteemi suunatud tööde järjestuse kohta. Selle funktsiooni abil saate sortida ja filtreerida töötellimusi, mida süsteem kasutajatele käivitamiseks esitab. See on kasulik olukordades, kus lao komplekteerimise protsessi juhtimiseks on lisakriteeriumid nõutavad.
 author: Mirzaab
+manager: tfehr
 ms.date: 07/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSRFSystemDirectedWorkSequenceQuery, WHSLocDirTable
 audience: Application User
@@ -12,13 +14,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-03
-ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: b433787f330de3634c59f7b1b2babfe07e3bdf09
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.7
+ms.openlocfilehash: 3811486a31d079cac7f7c27ea6323f16de4478d5
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577812"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4970202"
 ---
 # <a name="system-directed-work-sequencing"></a>Süsteemi suunatud tööde järjestus
 
@@ -302,6 +304,3 @@ Süsteemi suunatud tööde järjestuse päringud on *kaasa arvatud*. Seda on olu
 Seetõttu hõivas päring selle stsenaariumi näites ka töö ID *4*. Selle loomise ajal lisati kaks rida: üks 25 ea kohta ja teine 10 ea kohta. Töö esitati ikkagi kasutajale, sest vähemalt ühe töörea kogus on väiksem kui 20 ea.
 
 Sõltuvalt stsenaariumist saate seda käitumist vältida tööpauside abil.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

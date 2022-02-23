@@ -1,35 +1,33 @@
 ---
 title: Tööjõu korraldamine osakondade, tööde ja ametikohtade abil
-description: Selles teemas kirjeldatakse kontseptuaalset teavet osakondade, töökohtade ja ametikohtade kohta, mis on inimressurssides säilitatavad organisatsioonilised elemendid.
-author: twheeloc
-ms.date: 01/03/2022
+description: Osakonnad, tööd ja ametikohad on organisatsiooni elemendid, mida hallatakse inimressurssides. Selles artiklis kirjeldatakse nende elementide sisulist teavet.
+author: andreabichsel
+manager: AnnBe
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HcmJob, HcmPosition, OMOperatingUnit, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.search.scope: Human Resources
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations, Human Resources, Retail
 ms.custom: 87933
 ms.assetid: eb5dcacb-a5fe-451d-b30a-7ef14da65d81
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 2b4c1efac249b315de25348a104f00a613c32df9
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: 826de9e1e5d70ba1ec088b44254c871726b5c38e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071712"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4418137"
 ---
 # <a name="organize-your-workforce-by-using-departments-jobs-and-positions"></a>Tööjõu korraldamine osakondade, tööde ja ametikohtade abil
 
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-Osakonnad, tööd ja ametikohad on organisatsiooni elemendid, mida hallatakse inimressurssides. Selles teemas kirjeldatakse nende elementide sisulist teavet. 
+Osakonnad, tööd ja ametikohad on organisatsiooni elemendid, mida hallatakse inimressurssides. Selles artiklis kirjeldatakse nende elementide sisulist teavet. 
 
 Järgmise näite abil selgitatakse selles artiklis kirjeldatud põhimõtteid.
 
@@ -45,26 +43,42 @@ Järgmise näite abil selgitatakse selles artiklis kirjeldatud põhimõtteid.
 |**Inimressursid**|Personalijuht (Kesk)|Personalijuht|
 
 
-##  <a name="departments"></a>Osakonnad
+ <a name="departments"></a>Osakonnad
+------------
 
 Osakond on tootmisüksus, mis esindab organisatsiooni kategooriat või funktsionaalala, mis vastutab organisatsiooni kindla valdkonna eest, nagu müük või raamatupidamine. Osakonda kasutatakse aruandluseks funktsionaalsete alade kohta ning sel võib olla kasumi ja kahjumi vastutus. Osakond võib sisaldada ka, kulukeskuste gruppi. Organisatsiooni osakonnad on muu hulgas näiteks müük, raamatupidamine ja inimressursid.
 
 ## <a name="jobs-and-positions"></a> Tööd ja ametikohad
 Töö on tööd tegeva isiku jaoks nõutavate ülesannete ja vastutuste kogum. Ametikoht on töökoha üksik eksemplar. Töö jaoks nõutavad vastutusvaldkonnad, tööülesanded, oskused, haridusteave ja serdid on nõutavad ka selle tööga seostatud ametikohtade puhul.
-
 ### <a name="job-tasks"></a>Tööülesanded
 
 Saate luua tööülesandeid, mis kirjeldavad selle töö ametikohal tegutseva töötaja põhiülesandeid. Sama tööülesande saab lisada mitmele tööle ja nende tööde ametikohad pärivad need tööülesanded. Tööülesannete näited on toodud järgmises tabelis.
 
-| Töö           | Tööülesanne                                                |
-|---------------|-------------------------------------------------------------|
-| Müügijuht | Jõudluse ülevaade – iga müüja tööjõudluse ülevaade.    |
-| Raamatupidaja    | Puudumiste ülevaade – iga müüja puudumistaotluste või registreeringute kinnitamine või tagasilükkamine. |
-
+<table>
+<thead>
+<tr class="header">
+<th>Töö</th>
+<th>Tööülesanne</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Müügijuht</td>
+<td><ul>
+<li><span class="input">Jõudluse ülevaade</span> – iga müüja tööjõudluse ülevaade.</li>
+<li><span class="input">Puudumiste ülevaade</span> – iga müüja puudumistaotluste või registreeringute kinnitamine või tagasilükkamine.</li>
+</ul></td>
+</tr>
+<tr class="even">
+<td>Raamatupidaja</td>
+<td><span class="input">Finantsaruanne</span> – iganädalaste finantsaruannete esitamine pealaekurile.</td>
+</tr>
+</tbody>
+</table>
 
 ### <a name="job-functions"></a>Tööfunktsioonid
 
-Tööfunktsioonid on nagu tööülesanded. Tööfunktsioon kirjeldab ühte või mitut tööle määratud ülesannet, kohustust või kohustust. Tööfunktsioone saab määrata töödele ning kasutada hüvitusplaanide sobivusreeglite rakendamiseks. Tööfunktsioonide näited on toodud järgmises tabelis.
+Tööfunktsioonid on nagu tööülesanded. Tööfunktsioon kirjeldab üht või mitut tööle määratud ülesannet, kohustust või vastutust. Tööfunktsioone saab määrata töödele ning kasutada hüvitusplaanide sobivusreeglite rakendamiseks. Tööfunktsioonide näited on toodud järgmises tabelis.
 
 | Töö           | Tööfunktsioon                                                |
 |---------------|-------------------------------------------------------------|
@@ -83,7 +97,8 @@ Töötüüpide abil saate liigitada sarnaseid töid kategooriatesse. Töötüüp
 
 Vastutusalade abil saate näidata, milliste töörollide, protsesside ja toodete eest selle töö ametikohal tegutsev töötaja vastutab. „Raamatupidaja” töö vastutusala näide võib olla „Toote A finantsaruandlus”.
 
-## <a name="positions"></a>Ametikohad
+<a name="positions"></a>Ametikohad
+----------
 
 Ametikohad on organisatsioonihierarhia madalama taseme oluline element. Ametikoht on töökoha üksik eksemplar. Näiteks on ametikoht „müügijuht (Ida)” vaid üks tööga „müügijuht” seostatud ametikohti. Ametikohad on osakonnas ja need määratakse töötajatele.
 ### <a name="position-creation-and-maintenance"></a>Ametikoha loomine ja haldamine
@@ -94,21 +109,24 @@ Ametikohad on organisatsioonihierarhia madalama taseme oluline element. Ametikoh
 -   Saate seadistada töövoo, nii et ametikoha täiendused ja muudatused nõuaksid kinnitamist.
 
 ### <a name="position-duration"></a>Positsiooni kestus
+
 Igal ametikohal on kehtivusaeg. Seda ajaperioodi nimetatakse kestuseks. Näiteks võib suviste ametikohtade kestus olla 1. maist 2015 kuni 31. augustini 2015.
 
 ### <a name="worker-assignments"></a>Töötajate määramised
+
 Kui määrate töötaja ametikohale, täidate selle ametikoha. Saate määrata töötajad mitmele ametikohale, kuid korraga saab olla ühele ametikohale määratud vaid üks töötaja.
 
 ### <a name="reporting-relationships"></a>Aruandluse suhted
-Ametikohad on organisatsioonihierarhia madalama taseme olulised elemendid. Lehel **Ametikoht** saate määrata positsiooni, millele see ametikoht aru annab. Kui määrate töötaja ametikohale, mis annab aru teisele ametikohale, loote neile kahele ametikohale määratud töötajate vahel aruandlusseose. Näiteks annab ametikoht „raamatupidaja A” aru ametikohale „raamatupidamise ülevaataja”. Ana Bowman on määratud ametikohale "Raamatupidamise järelevaataja" ja Felix Henderson ametikohale "Raamatupidaja-A". See tähendab, et Felix Henderson raporteerib Ana Bowmanile. 
 
-Kui teie organisatsioon kasutab maatrikshierarhiat või mõnd muud kohandatud hierarhiat, saate seadistada ametikohahierarhia tüübid ja seejärel lisada iga seadistatud hierarhiatüübi puhul aruandlusseosed ametikohtadele. Näiteks Olivia Wilson on Adventure Worksi peadirektor ja on määratud "peadirektori" ametikohale. Olivia juhib toote väljatöötamist, mida kasutatakse vidinate puhastamiseks. Olivia vajab raamatupidajat, kes aitaks toote arendamisel rahalisi vahendeid. Seetõttu on ta värvanud Felix Hendersoni raamatupidajaks. Felix annab aru otse Ana Bowmanile, kuid töötab koos Olivia Wilsoniga ka tema töös, mis on seotud vidinapuhasti arendamise rahaliste vahenditega. 
+Ametikohad on organisatsioonihierarhia madalama taseme olulised elemendid. Vormil Ametikoht saate määrata ametikoha, millele see ametikoht aru annab. Kui määrate töötaja ametikohale, mis annab aru teisele ametikohale, loote neile kahele ametikohale määratud töötajate vahel aruandlusseose. Näiteks annab ametikoht „raamatupidaja A” aru ametikohale „raamatupidamise ülevaataja”. Kim Akers on määratud ametikohale „raamatupidamise ülevaataja” ja Sanjay Patel ametikohale „raamatupidaja A”. See tähendab, et Sanjay Patel annab aru Kim Akersile. 
 
-Eelmise näite puhul täidaksite Felix Hendersoni ja Ana Bowmani vahelise töösuhte seadistamiseks järgmised ülesanded:
+Kui teie organisatsioon kasutab maatrikshierarhiat või mõnd muud kohandatud hierarhiat, saate seadistada ametikohahierarhia tüübid ja seejärel lisada iga seadistatud hierarhiatüübi puhul aruandlusseosed ametikohtadele. Näiteks on Lori Penor Adventure Worksi üldjuhataja ja määratud ametikohale „üldjuht”. Lori haldab tööriistade puhastamiseks kasutatava toote arendust. Lori palub, et raamatupidaja aitaks teda toote arendusfinantsidega. Seetõttu palkas ta Sanjay Pateli oma raamatupidajaks. Sanjay annab aru otse Kim Akersile, kuid ta töötab ka Lori Penorile seoses tööriistapuhasti arendusfinantsidega. 
+
+Eelmise näite puhul peate täitma järgmised ülesanded, et seadistada tööseos Sanjay Pateli ja Lori Penori vahel.
 1.  Looge kohandatud ametikohahierarhia tüüp nimega Tööriist, et luua hierarhia, mis sisaldab tööriistapuhastustootega seotud tööde eest vastutatavaid ametikohti.
 2.  Määrake üldjuhi ametikoht ametikohaks, millele ametikoht „raamatupidaja A” hierarhias Tööriist aru annab.
 
-**Positsioonide aruandlusstruktuuri kuvamiseks kasutage lehte Positsioonihierarhia**. Kui teil on mitu positsioonihierarhiat, saate vaadata iga hierarhia hierarhiat, tippige **ametikoha hierarhia**. Samuti saate otsida ametikohta ametikoha ID või ametikohale määratud töötaja nime järgi. Positsioonihierarhia **on** organisatsiooniline hierarhia.
+Ametikohahierarhia abil saate vaadata ametikohtade aruandlusstruktuuri. Kui teil on mitu ametikohahierarhiat, saate vaadata ametikohahierarhia iga hierarhiatüübi hierarhiat. Samuti saate otsida ametikohta ametikoha ID või ametikohale määratud töötaja nime järgi. Ametikohahierarhia on organisatsioonihierarhia.
 
 ## <a name="date-effective-records"></a>Kehtivuskuupäevade kirjed
 Mõne kirje puhul saate määrata kirje tulevased muudatused. Järgmine teave on jõustumiskuupäevaga.
@@ -141,4 +159,9 @@ Mõne kirje puhul saate määrata kirje tulevased muudatused. Järgmine teave on
 </tbody>
 </table>
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+Saate muuta eelmises tabelis nimetatud ametikoha- ja töö-teavet ning määrata kuupäeva, millal ametikoha või töö muudatused peavad jõustuma. Näiteks saab ametikoha määrata ainult ühele töötajale, kuid Sanjay Patel, kes on määratud ametikohale Raamatupidaja A, lahkub kahe nädala pärast. Sanjay Pateli lahkumisel asendab teda Joe Healy. Kuigi Sanjay on veel oma ametikohale määratud, saate määrata Joe Healy samale ametikohale, nii et määramine jõustub alles pärast Sanjay viimast tööpäeva.
+
+
+
+
+

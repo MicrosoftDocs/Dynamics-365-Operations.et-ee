@@ -53,6 +53,3 @@ Selle muudatusega on väljad **Katseaeg** ja **Kalender** lisatud lehele **Muuda
 
 ### <a name="platform-update-23-for-finance-and-operations"></a>Teenuse Finance and Operations platvormivärskendus 23
 Finance and Operations platvormivärskenduse 23 osana on tehtud väiksemaid veaparandusi. Lisateavet vt teemast [Mis on uut või mida on muudetud rakenduse Dynamics 365 Finance and Operations platvormivärskenduses 23 (jaanuar 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-23). 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,23 +2,27 @@
 title: Autorluse lehe ülevaade
 description: Selles teemas antakse ülevaade autorluse lehest rakenduses Microsoft Dynamics 365 Commerce.
 author: brendans
+manager: annbe
 ms.date: 10/31/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application USer
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: brendans
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 68487c899edccaeff9c339d746d21b1d27b498aa
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: 95908c3a8b6c5231f2f5b283fa05f07c4e91b5d7
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984617"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4411653"
 ---
 # <a name="authoring-page-overview"></a>Autorluse lehe ülevaade
 
@@ -26,6 +30,8 @@ ms.locfileid: "7984617"
  [!include [banner](includes/banner.md)]
 
 Selles teemas antakse ülevaade autorluse lehest rakenduses Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Ülevaade
 
 Erinevate ärivajaduste toetamiseks on võimalik luua veebisaite. Nad võivad esindada kogu ettevõtet, pakkuda ühte ärikanalit või olla suunatud konkreetsele sihtrühmale või sihtrühma segmendile. Näiteks võib rõivaste tootjal olla veebisait, mis tutvustab kõiki kaubamärke, mida see omab. Samal rõivaste tootjal võib selle kõrval olla iga konkreetse kaubamärgi jaoks eraldi veebisait ja ka veebisaitide kogum luksusliku moe, välirõivaste moe ja lastemoega.
 
@@ -39,7 +45,7 @@ Hetkel koosneb autorluse leht järgmistest jaotistest.
 
 Järgmine illustratsioon näitab autorluse lehte.
 
-![Rakenduse Dynamics 365 Commerce autorluse leht.](../commerce/media/authoring_tools_01.png)
+![Rakenduse Dynamics 365 Commerce autorluse leht](../commerce/media/authoring_tools_01.png)
 
 ## <a name="use-the-home-button-to-select-a-tool"></a>Avalehe nupu kasutamine tööriista valimiseks
 
@@ -116,6 +122,3 @@ Pärast autorluse tööriista laadimist saate valida suvandi **Avaleht**, et naa
 [Saidi jaoks otsingumootori optimeerimise (SEO) kaalutlused](search-engine-optimization-considerations.md)
 
 [Sisu turbepoliitika (CSP) haldamine](manage-csp.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

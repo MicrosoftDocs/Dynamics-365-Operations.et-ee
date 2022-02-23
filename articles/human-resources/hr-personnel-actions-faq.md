@@ -1,46 +1,34 @@
 ---
 title: Personalitegevuste KKK
-description: Teema sisaldab vastuseid organisatsioonis personalitoimingute kasutamisega seotud küsimustele.
-author: twheeloc
-ms.date: 10/28/2021
+description: See artikkel sisaldab vastuseid organisatsioonis personalitoimingute kasutamisega seotud küsimustele. Personalitoimingud on täiendavad etapid, mille peate lõpule viima personaliga seotud ülesannete puhul.
+author: andreabichsel
+manager: AnnBe
+ms.date: 06/16/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
-ms.search.scope: Human Resources
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations, Human Resources
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2017-06-16
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: c952bdc95b49c92fea34aef63b57c7e193b2f09a
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: 6d52e7e5203a4c311afb56259e9e1800ee0e5161
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065147"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4418145"
 ---
 # <a name="personnel-actions-faq"></a>Personalitegevuste KKK
 
+See artikkel sisaldab vastuseid organisatsioonis personalitoimingute kasutamisega seotud küsimustele. Personalitoimingud on täiendavad etapid, mille peate lõpule viima personaliga seotud ülesannete puhul. Personalitoimingute kasutamine võib olla vajalik näiteks uute ametikohtade loomisel, olemasolevate ametikohtade väärtuste muutmisel, uute töötajate palkamisel, töötajate üleviimisel, töötajate hüvituse muutmisel, ametikoha määramiste muutmisel või töötajate vallandamisel.
 
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-Teema sisaldab vastuseid organisatsioonis personalitoimingute kasutamisega seotud küsimustele. Personalitoimingud on täiendavad etapid, mille peate lõpule viima personaliga seotud ülesannete puhul. 
-
-Näited ülesannetest, mis võivad vajada personalitoiminguid, on järgmised.
- - Kui loote uusi positsioone. 
- - Muutke olemasolevaid positsiooniväärtusi. 
- - Palka uusi töötajaid. 
- - Üleviimise töötajad. 
- - Töötaja hüvitise muutmine. 
- - Muutke ametikoha määranguid. 
- - Lõpeta töölised.
-
-> [!NOTE]
-> Personalitoimingud on saadaval ainult siis, **kui väljade Luba töötaja tegevused** ja **Luba ametikohatoimingud** väljad on seatud väärtusele **Jah**, **lehel** Personalitoimingud **lehel Inimressursside ühisparameetrid**. 
+**Märkus.** Personalitoimingud on saadaval ainult juhul, kui väljade **Töötaja tegevuste lubamine** ja **Ametikoha tegevuste lubamine** väärtuseks lehe **Inimressursside ühiskasutusega parameetrid** vahekaardil **Personalitegevused** on määratud **Jah**. 
 
 ## <a name="how-can-i-tell-if-my-organization-requires-personnel-actions"></a>Kuidas saada teada, kas mu organisatsioon nõuab personalitoiminguid?
 Teie organisatsioon nõuab personalitoiminguid, kui teil palutakse valida personalitoiming uute ametikohtade loomisel, olemasolevate ametikohtade muutmisel, uute töötajate palkamisel, töötajate üleviimisel, töötajate hüvituse muutmisel, ametikoha määramiste muutmisel, töötajate vallandamisel või töötajate puhkuse sisestamisel. 
@@ -48,26 +36,26 @@ Teie organisatsioon nõuab personalitoiminguid, kui teil palutakse valida person
 ## <a name="what-is-the-difference-between-a-position-action-and-a-worker-action"></a>Mille poolest erinevad ametikoha toimingud ja töötaja toimingud?
 Personalitoiminguid on kahte tüüpi.
 
-- **Positsiooni** tegevus – positsioonitoimingut tehakse olemasolevatel positsioonidel või uutel ametikohtadel. Näiteks võib ametikoha toiming olla nõutav, kui muudate olemasoleva ametikoha väärtust või loote uue hooajalise ametikoha. 
+- Ametikoha toiming – ametikoha toiming tehakse olemasolevatele või uutele ametikohtadele. Näiteks võib ametikoha toiming olla nõutav, kui muudate olemasoleva ametikoha väärtust või loote uue hooajalise ametikoha. Üksikasjalikku teavet ametikoha toimingute kasutamise kohta leiate jaotistest Peamised ülesanded: olemasolevate töötajate ametikohad või Peamised ülesanded: uute töötajate ametikohad.
 
-- **Töötaja** toiming – töötaja toiming viiakse läbi olemasolevate töötajate või uute töötajatega. Näiteks võib töötaja toiming olla nõutav uue töötaja palkamisel või olemasoleva töötaja edutamisel. 
+- Töötaja toiming – töötaja toiming tehakse olemasolevatele või uutele töötajatele. Näiteks võib töötaja toiming olla nõutav uue töötaja palkamisel või olemasoleva töötaja edutamisel. Üksikasjaliku teabe töötaja toimingute kasutamise kohta leiate jaotisest Töötajatele personalitoimingute määramine.
 
 ## <a name="what-do-the-statuses-of-the-personnel-actions-mean"></a>Mida personalitoimingute olekud tähendavad?
 Personalitoimingute olek võib olla järgmine.
 
 - **Mustand** – kui kasutatakse töövoogu, ei ole toimingut esitatud. Kui töövoogu ei kasutata, ei ole toiming lõpule viidud.
 - **Ülevaatamisel** – personalitoiming on edastatud töövoogu, kuid töövoog ei ole lõpule viidud.
-- **Kinnituse ootel** – töövoog on lõpule viidud, kuid muudatused on veel pooleli. **Tühistatud** – töövoog tühistati või personalitoimingud kutsuti tagasi. **Tagasi lükatud** – kinnitaja lükkas hagitaotluse tagasi.
+- **Kinnituse ootel** – töövoog on lõpule viidud, kuid muudatused on veel pooleli. Tühistatud – töövoog tühistati või personalitoiming on tagasi kutsutud. Tagasi lükatud – kinnitaja lükkas toimingutaotluse tagasi.
 - **Toimingu töötlemine** – toimingutaotlus on kinnitatud ja muudatusi töödeldakse.
-- **Töövoog on lõpetatud** – töövoog on lõpule viidud ja muudatused on töödeldud. **Nurjus** – töövoog nurjus, kuna teave on aegunud. Uusima teabe kuvamiseks ja jätkamiseks klõpsake nuppu **Aktiveeri** uuesti.
-- **Lõpetatud** – ametikoha loomine või muutmine õnnestus või töötaja palkamine, üleviimine või vallandamine või töötaja tasu muutmine õnnestus. **Tõrge** – ilmnes muu probleem kui teave, mis on aegunud. **Tõrke põhjuse määramiseks avage personalitoimingute teatelogi**.
+- **Töövoog on lõpetatud** – töövoog on lõpule viidud ja muudatused on töödeldud. Nurjunud – töövoog nurjus, kuna teave on aegunud. Uusima teabe kuvamiseks ja jätkamiseks klõpsake käsku Aktiveeri uuesti.
+- **Lõpetatud** – ametikoha loomine või muutmine õnnestus või töötaja palkamine, üleviimine või vallandamine või töötaja tasu muutmine õnnestus. Tõrge – ilmnes teabe aegumisega mitteseotud probleem. Tõrke põhjuse tuvastamiseks avage personalitoimingute teadete logi.
 - **Keelatud** – kinnitaja keelas toimingutaotluse.
 
 ## <a name="can-i-delete-a-personnel-action"></a>Kas saan personalitoimingu kustutada?
-Jah, saate kustutada personalitoimingud, mille olek on **Mustand**, **Tõrge**, **Nurjunud** või **Tühistatud**. Personalitoimingute saab kustutada ainult siis kui olete suvandi **Lõpetatud** häälestanud **Luba lõpetatud töötaja tegevuste kustutamine** väärtusele **jah** **inimressursside jagatud parameetrid** lehel.
+Jah, saate kustutada personalitoimingud, mille olek on **Mustand**, **Tõrge**, **Nurjunud** või **Tühistatud**.
 
 ## <a name="what-is-the-fastest-way-to-check-the-status-of-a-personnel-action-request"></a>Kuidas kõige kiiremini personalitoimingu taotluse olekut kontrollida?
-Avage mõni **personali tegevuse** loendileht ja valige personalitegevus.
+Avage soovitud personalitoimingute loendileht ja valige personalitoiming.
 
 ## <a name="what-should-i-do-if-a-personnel-action-request-fails"></a>Mida teha, kui personalitoimingu taotlus nurjub?
 Kui personalitoimingu taotlus nurjub, siis tehke tõrke lahendamiseks ja taotluse uuesti saatmiseks järgmist.
@@ -79,23 +67,23 @@ Kui personalitoimingu taotlus nurjub, siis tehke tõrke lahendamiseks ja taotlus
 > 3. Lahendage tõrge ja seejärel klõpsake valikut **Valmis** või **Esita**.
 
 ## <a name="what-happens-to-a-personnel-action-that-uses-workflow-when-the-final-approval-is-completed"></a>Mis juhtub töövoogu kasutava personalitoiminguga pärast lõplikku kinnitamist?
-Kui tõrkeid ei ole, muutub personalitoiming kirjutuskaitstuks. (Ajalugu **saate vaadata Kõik töötajate toimingute** loendileht, kuid personalitoimingut ei saa muuta.) Kui personalitoimingu olek on **Lõpetatud**, on ametikoha või töötaja kirje juba värskendatud. Tehtud muudatuste vaatamiseks avage loendileht **Ametikohad** või **Töötajad**.
+Kui tõrkeid ei ole, muutub personalitoiming kirjutuskaitstuks. (Saate vaadata ajalugu loendilehel **Kõik töötaja tegevused**, kuid te ei saa personalitoimingut muuta.) Kui personalitoimingu olek on **Lõpetatud**, on ametikoht või töötaja kirje juba muudetud. Tehtud muudatuste vaatamiseks avage loendileht **Ametikohad** või **Töötajad**.
 
-## <a name="why-do-i-receive-the-following-error-when-i-enter-a-non-zero-value-in-the-pay-rate-field-the-value-is-out-of-its-valid-range--it-much-be-between-000-and-000"></a>Miks ilmub järgmine tõrge, kui sisestan väljale Palgamäär väärtuse, mis ei ole null? „Väärtus on väljaspool kehtivat vahemikku - see peab jääma vahemikku 0.00 kuni 0.00”
-Selle sõnumi saate, kuna **lehe Töö** väli **Tase** on valitud ametikohaga seostatud töö jaoks tühi.
+## <a name="why-do-i-receive-the-following-error-when-i-enter-a-non-zero-value-in-the-pay-rate-field-the-value-is-out-of-its-valid-range--it-much-be-between-000-and-000"></a>Miks ilmub järgmine tõrge, kui sisestan väljale Palgamäär väärtuse, mis ei ole null? „Väärtus on väljaspool kehtivat vahemikku. See peab jääma vahemikku 0,00 kuni 0,00”
+See teade ilmub, kuna valitud ametikohaga seostatud töö vormi väli Tase on tühi.
 
 Tõrke lahendamiseks tehke järgmist.
 
-> 1. **Klõpsake** lehel Töötaja ametikoha määramised **välja Positsioon**.  
-> 2. **Lehe Töö avamiseks** klõpsake välja Töö **väärtust**.
-> 3. Klõpsake toimingupaanil nuppu **Redigeeri**.
-> 4. Klõpsake **vahekaarti Hüvitis**.
-> 5. Valige väljal **Tase** tase.
-> 6. Sulgege **leht Töö**.
-> 7. Sulgege **leht Positsioon**.
-> 8. Naaske lehe Töötaja **vahekaardile** Hüvitis **, valige** Fikseeritud hüvitis **.**  Valige **Uus** ja sisestage töötaja positsioon väljale **Positsioon**.  Sisestage väärtus väljale **Plaan** ja sisestage töötaja hüvitis väljale **Tasumäär**.
+> 1. Klõpsake vormil Töötaja ametikoha määrangud välja Ametikoht.  
+> 2. Klõpsake välja Töö väärtust lehe Töö avamiseks.
+> 3. Klõpsake toimingupaanil käsku Redigeeri.
+> 4. Klõpsake vahekaarti Tasu.
+> 5. Valige tase väljal Tase.
+> 6. Sulgege töö leht.
+> 7. Sulgege ametikoha leht.
+> 8. Naaske lehel Töötaja vahekaardile Tasu, valige Põhipalk.  Valige Uus ja sisestage töötaja ametikoht väljale Ametikoht.  Sisestage väärtus väljale Plaan ja sisestage siis töötaja tasu väljale Palgamäär.
 
-## <a name="why-cant-i-change-the-effective-date-on-the-header-of-the-worker-action-page"></a>Miks ei saa toimingulehe Töötaja päises jõustumiskuupäeva muuta?
+## <a name="why-cant-i-change-the-effective-date-in-the-header-of-the-worker-action-form"></a>Miks ma ei saa muuta kehtivat kuupäeva töötaja toimingu vormi päises?
 Te ei saa kehtivat kuupäeva muuta, kuna väljale sisestatakse kõige loogilisem kuupäev toimingu tüübi alusel.
 
 Näide.
@@ -104,6 +92,3 @@ Näide.
 - Toimingu **Töötaja palkamine** päises olev kehtiv kuupäev kattub väljale **Töösuhte alguskuupäev** sisestatud kuupäevaga.
 - Toimingu **Töötaja üleviimine** päises olev kehtiv kuupäev kattub töötaja väljale **Määramise alguskuupäev** sisestatud kuupäevaga.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

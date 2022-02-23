@@ -1,10 +1,12 @@
 ---
 title: Mobiilne tööruum Minu töörühm
-description: Selles teemas on teave mobiilse tööruumi Minu töörühm kohta, kus juhtidel on võimalus oma otseseid alluvaid ja laiendatud personali vaadata.
+description: Selles teemas on teave mobiilse tööruumi Minu töörühm kohta, kus juhtidel on võimalus oma otseseid alluvaid ja laiendatud personali vaadata. Kasutajad saavad ka oma aruandlusahela inimestele tänu saata.
 author: ShielaSogge
+manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -12,14 +14,14 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 74abb4ce77b4fc13c614e8e1b734e1b9f5f24e0a728a10b79508e6be4faf3dca
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6ac3bf0a6ce20866f749b0c14030b70770e5589c
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767108"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680966"
 ---
-# <a name="my-team-mobile-workspace"></a>Minu töörühma mobiilne tööruum
+# <a name="my-team-mobile-workspace"></a>Mobiilne tööruum Minu töörühm
 
 [!include [banner](../includes/banner.md)]
 
@@ -78,7 +80,7 @@ Laadige alla ja installige Finance and Operationsi mobiilirakendus.
 3.  Esimesel sisselogimisel küsitakse teilt kasutajanime ja parooli. Sisestage oma identimisteave.
 4.  Pärast sisselogimist kuvatakse teie ettevõtte jaoks saadaolevad tööruumid. Pange tähele, et teie süsteemiadministraator avaldab uue tööruumi hiljem ja teil on vaja mobiilsete tööruumide loendit uuendada.
 
-[![Tõmmake värskendamiseks.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+[![Tõmmake värskendamiseks](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="view-team-members-by-using-the-my-team-mobile-workspace"></a>Töörühma liikmete kuvamine, kasutades mobiilset tööruumi Minu töörühm
 1.  Valige mobiilirakendusest tööruum **Minu tööruum**. Kuvatakse töörühma liikmete loend. Loendis kuvatakse ka iga töörühma liikme ametinimetus ja tema otsesed alluvad.
@@ -95,6 +97,3 @@ Laadige alla ja installige Finance and Operationsi mobiilirakendus.
 1.  Valige **Saada tänu**. 
 1. Sisestage tänu tekst, mille saata soovite. 
 1. Valige suvand **Valmis**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

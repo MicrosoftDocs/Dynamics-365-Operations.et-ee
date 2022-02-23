@@ -1,82 +1,92 @@
 ---
-title: Topeltkirjutuse häälestus teenustest Lifecycle Services
-description: Selles teemas selgitatakse, kuidas häälestada topeltkirjutuse ühendust teenusest Microsoft Dynamics Lifecycle Services (LCS).
-author: laneswenka
-ms.date: 08/03/2021
+title: Topeltkirjutuse seadistamine teenuses Lifecycle Services
+description: Selles teemas kirjeldatakse, kuidas seadistada topeltkirjutust uue Finance and Operationsi ja uue Dataverse'i keskkonna vahel teenuse Microsoft Dynamics Lifecycle Services (LCS) kaudu.
+author: RamaKrishnamoorthy
+manager: AnnBe
+ms.date: 01/06/2020
 ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: rhaertle
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
+ms.search.industry: ''
 ms.author: ramasri
+ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 825d6a4b3462077d0f4b3f4275792ea0fe5152df
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
-ms.translationtype: MT
+ms.openlocfilehash: 25db9c58c3d09e44dcf11b48cae1a9eda4241c35
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063668"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683520"
 ---
-# <a name="dual-write-setup-from-lifecycle-services"></a>Topeltkirjutuse häälestus teenustest Lifecycle Services
+# <a name="dual-write-setup-from-lifecycle-services"></a>Topeltkirjutuse seadistamine teenuses Lifecycle Services
 
 [!include [banner](../../includes/banner.md)]
 
+[!include [preview-banner](../../includes/preview-banner.md)]
 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Selles teemas selgitatakse, kuidas häälestada topeltkirjutuse ühendust teenusest Microsoft Dynamics Lifecycle Services (LCS).
+Selles teemas kirjeldatakse, kuidas seadistada topeltkirjutust uue Finance and Operationsi ja uue Dataverse'i keskkonna vahel teenuse Microsoft Dynamics Lifecycle Services (LCS) kaudu.
 
 ## <a name="prerequisites"></a>Eeltingimused
 
-Integratsiooni peate lõpule Power Platform viima järgmistes teemades kirjeldatud viisil:
+Topeltkirjutuse ühenduse seadistamiseks peate olema administraator.
 
-+ [Power Platform Integreerimine – lubage keskkonna juurutamisel](../../power-platform/enable-power-platform-integration.md#enable-during-deploy)
-+ [Power Platform Integreerimine – lubage keskkonna juurutamisel](../../power-platform/enable-power-platform-integration.md#enable-after-deploy)
++ Teil peab olema juurdepääs rentnikule.
++ Peate olema administraator nii Finance and Operationsi kui ka Dataverse'i keskkonnas.
 
-## <a name="set-up-dual-write-for-new-dataverse-environments"></a>Juhised topeltkirjutuse Dataverse häälestamiseks
+## <a name="set-up-a-dual-write-connection"></a>Topeltkirjutuse ühenduse seadistamine
 
-Järgige neid samme LCS-i keskkonna üksikasjade lehel **topeltkirjutuse häälestamiseks** lehel:
+Topeltkirjutuse ühenduse seadistamiseks tehke järgmist.
 
-1. Lehel **Keskkonna üksikasjad** laiendage jaotist **Power Platform Integratsioon** väljal.
+1. Avage LCS-is oma projekt.
+2. Uue keskkonna juurutamiseks valige **Konfigureeri**.
+3. Valige versioon. 
+4. Valige topoloogia. Kui saadaval on ainult üks topoloogia, valitakse see automaatselt.
+5. Viige lõpule esimesed toimingud viisardis **Juurutussätted**.
+6. Vahekaardil **Dataverse** järgige ühte järgnevatest toimingutest.
 
-2. Valige **topeltkirjutuse rakenduse** nupp.
+    - Kui teie rentniku jaoks on Dataverse'i keskkond juba ette valmistatud, saate selle valida.
 
-    ![Power Platform integratsioon.](media/powerplat_integration_step2.png)
+        1. Määrake suvandi **Dataverse'i konfigureerimine** väärtuseks **Jah**.
+        2. Väljal **Saadaolevad keskkonnad** valige oma Finance and Operationsi andmetega integreeritav keskkond. Loend hõlmab kõiki keskkondi, kus teil on administraatori privileegid.
+        3. Tingimustega nõustumise näitamiseks märkige ruut **Nõustu**.
 
-3. Tingimustega nõustumiseks valige märkeruut **Konfigureeri**.
+        ![Vahekaart Dataverse, kui teie rentniku jaoks on 'Dataversei keskkond juba ette valmistatud](../dual-write/media/lcs_setup_1.png)
 
-4. Jätkamiseks valige **OK**.
+    - Kui teie rentnikul ei ole veel Dataverse'i keskkonda, luuakse uus keskkond.
 
-5. Edenemist saate jälgida keskkonna üksikasjade lehte perioodiliselt värskendades. Seadistus kestab tavaliselt 30 minutit või vähem.  
+        1. Määrake suvandi **Dataverse'i konfigureerimine** väärtuseks **Jah**.
+        2. Sisestage Dataverse'i keskkonnale nimi.
+        3. Valige keskkonna juurutamise piirkond.
+        4. Valida keskkonna vaikekeel ja -valuuta.
 
-6. Kui seadistus on lõpule viidud, teavitab teade teid, kas protsess õnnestus või kui see ebaõnnestus. Kui seadistus nurjus, kuvatakse sellega seotud tõrketeade. Enne järgmisele astmele teisaldamist peate parandama kõik tõrked.
+            > [!NOTE]
+            > Keelt ja valuutat ei saa hiljem muuta.
 
-7. Valige **Linkige Power Platform keskkonnaga** et luua link rakenduse Dataverse ja käesoleva keskkonna andmebaasiga. Seadistus kestab tavaliselt 5 minutit või vähem.
+        5. Tingimustega nõustumise näitamiseks märkige ruut **Nõustu**.
 
-    :::image type="content" source="media/powerplat_integration_step3.png" alt-text="Link Power Platform keskkonda.":::
+        ![Vahekaart Dataverse, kui teie rentnikul ei ole veel Dataverse'i keskkonda](../dual-write/media/lcs_setup_2.png)
 
-8. Kui linkimine on lõpetatud, kuvatakse hüperlink. Kasutage linki, et logida sisse topeltkirjutus administreerimisalale keskkonnas Rahandus ja Toimingud. Sealt saate seadistada üksuse vastendamised.
+7. Viige lõpule järelejäänud toimingud viisardis **Juurutussätted**.
+8. Kui keskkonna olekuks on **Juurutatud**, avage keskkonna üksikasjade leht. Jaotises **Dataverse'i keskkonna teave** kuvatakse lingitud Finance and Operationsi ja Dataverse'i keskkonna nimed.
 
-## <a name="set-up-dual-write-for-an-existing-dataverse-environment"></a>Juhised topeltkirjutuse Dataverse häälestamiseks
+    ![Dataverse keskkonna teabe jaotis](../dual-write/media/lcs_setup_3.png)
 
-Olemasoleva keskkonna topeltkirjutuse Dataverse häälestamiseks peate looma Microsofti [tugipileti](../../lifecycle-services/lcs-support.md). Pilet peab sisaldama:
+9. Keskkonna Finance and Operations administraator peab linkimise lõpule viimiseks logima sisse LCS-i ja valima **Lingi CDS rakendustele**. Keskkonna üksikasjade lehel kuvatakse administraatori kontaktteave.
 
-+ Teie finants- ja tegevuskeskkonna ID.
-+ Teie keskkonna nimi rakendusest Lifecycle Services.
-+ Organisatsiooni Dataverse ID või Power Platform keskkonna ID Power Platform Halduskeskusest. Taotlege oma piletis, et ID oleks integratsiooniks kasutatav Power Platform eksemplar.
+    Kui linkimine on lõpule viidud, uuendatakse olekuks **Keskonna linkimine on edukalt lõpule viidud**.
+
+10. Tööruumi **Andmete integratsioon** avamiseks Finance and Operationsi keskkonnas ja saadaolevate mallide juhtimiseks valige **Lingi CDS rakendustele**.
+
+    ![Nupp Lingi CDS rakendusele keskkonna Dataverse teabe jaotises](../dual-write/media/lcs_setup_4.png)
 
 > [!NOTE]
-> LCS-i abil ei saa keskkondade linkimist tühistada. Keskkonna linkimise tühistamiseks avage **andmete integreerimise** tööruum rahandus- ja operatsioonide keskkonnas ja seejärel valige **Käsk Tühista link**.
-
-## <a name="linking-mismatch"></a>Mittevastavuse linkimine
-
-On võimalik, et teie LCS-keskkond on lingitud ühe Dataverse eksemplariga, samas kui teie topeltkirjutuskeskkond on lingitud teise Dataverse eksemplariga. Selline seostamine võib põhjustada ootamatut käitumist ja see võib lõppeda andmete saatmisega valesse keskkonda. Topeltkirjutuse jaoks soovitatav keskkond on see, mis luuakse Power Platform integratsiooni ja pikaajalise integreerimise osana, see on ainus viis luua seos keskkondade vahel.
-
-Kui teie keskkonnas on seostatav lahknevus, kuvab LCS hoiatuse teie keskkonna üksikasjade lehel, mis on sarnane lingile "Microsoft tuvastas, et teie keskkond on topeltkirjutuse kaudu lingitud integratsioonis määratud erinevasse sihtkohta, mis pole rakenduses Power Platform soovitatav":
-
-:::image type="content" source="media/powerplat_integration_mismatchLink.png" alt-text="Power Platform integratsioonilink on vasta.":::
-
-Kui ilmneb see tõrge, on teie vajadustest lähtuvalt kaks võimalust:
-
-+ [Kahekordse kirjutamise keskkondade linkimise tühistamine ja uuesti linkimine (linkimise lähtestamine või muutmine)](relink-environments.md#scenario-reset-or-change-linking) nagu on määratud teie LCS-i keskkonna üksikasjade lehel. See on ideaalvalik, kuna saate seda käivitada ilma Microsoft`i toeta.  
-+ Kui soovite linki topeltkirjutuses säilitada, võite paluda Microsoft`i tugiteenustelt abi, et muuta Power Platform integratsiooni, et kasutada olemasolevat Dataverse keskkonda vastavalt eelmises jaotises dokumenteeritud versioonile.  
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+> LCS-i abil ei saa keskkondade linkimist tühistada. Keskkonna linkimise tühistamiseks avage tööruum **Andmete integratsioon** keskkonnas Finance and Operations ja seejärel valige käsk **Tühista linkimine**.

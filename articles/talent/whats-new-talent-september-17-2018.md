@@ -54,6 +54,3 @@ Teenuse Finance and Operations platvormivärskendus 18 on nüüd Talenti väljaa
 ## <a name="bug-fixes"></a>Veaparandused
 
 Selles versioonis on mitu täiendavat veaparandust, sh viited ACA-le, ADA-le ja I9-le on nüüd lubatud ainult USA ettevõtete puhul.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

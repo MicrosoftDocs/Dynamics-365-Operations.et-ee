@@ -1,24 +1,26 @@
 ---
 title: Ajastatud kanban-tööde teisaldamine
 description: See protseduur keskendub plaanitud protsessi kanban-tööde teise perioodi teisaldamisele.
-author: johanhoffmann
+author: ChristianRytt
+manager: tfehr
 ms.date: 11/07/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanJobSchedulingListPage
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: johanho
+ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8c1b6ea92a1e3b16df6678030957c3fa407c15b1
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 2769a7d519e12613796025b658db0b08cdfc4fde
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568011"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4961636"
 ---
 # <a name="move-scheduled-kanban-jobs"></a>Ajastatud kanban-tööde teisaldamine
 
@@ -59,6 +61,3 @@ See protseduur keskendub plaanitud protsessi kanban-tööde teise perioodi teisa
 2. Klõpsake nuppu **Edasi**. Pange tähele, et tööd teisaldatakse loendis üks rida alla. 
 
 3. Klõpsake nuppu **Tagasi**. Pange tähele, et tööd teisaldatakse loendis üks rida üles.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

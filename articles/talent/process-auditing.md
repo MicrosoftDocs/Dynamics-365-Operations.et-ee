@@ -61,6 +61,3 @@ Järgmised andmed on saadaval protsessi auditeerimisel.
 |Tööavalduse ajalugu | Tööavaldus (msdyn_JobapplicatonId)<br></br>Olek (msdyn_status) <br></br>Oleku põhjus (msdyn_statusreason) <br></br>Tagasilükkamise põhjus (msdyn_rejectionreason) |
 | Vaba töökoha ajalugu | Vaba töökoht (msdyn_JobopeningId) <br></br>Olek (msdyn_jobopeningstatus) <br></br>Oleku põhjus (msdyn_jobopeningstatusreason) |
 | Kandidaadi ajalugu | Kandidaat (msdyn_CandidateId) |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

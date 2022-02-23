@@ -2,24 +2,26 @@
 title: Mobiilirakenduse avaleht
 description: Selles teemas kirjeldatakse mobiilirakendust Finance and Operations (Dynamics 365) ja antakse linke ressurssidele, mis aitavad teil seda oma organisatsioonis juurutada.
 author: ChrisGarty
+manager: AnnBe
 ms.date: 01/22/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.custom: intro-internal
+ms.custom: 272853
 ms.assetid: c99f818f-27b3-4e45-92b4-74272dad0e17
 ms.search.region: Global
 ms.author: cgarty
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
-ms.openlocfilehash: 8a91f603b4dd058341110c59039a6d3c782e06ee768fbf0e7f94e9527a6354ba
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e4a9d6424e2d214624c148c0565c88ea4cf4ccf9
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729704"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683454"
 ---
 # <a name="mobile-app-home-page"></a>Mobiilirakenduse avaleht
 
@@ -27,7 +29,8 @@ ms.locfileid: "6729704"
 
 Selles teemas kirjeldatakse mobiilirakendust **Finance and Operations (Dynamics 365)** ja antakse linke ressurssidele, mis aitavad teil seda oma organisatsioonis juurutada.
 
-## <a name="overview"></a>Ülevaade
+<a name="overview"></a>Ülevaade
+--------
 
 Mobiilirakendus võimaldab teie organisatsioonil teha äriprotsessid kättesaadavaks mobiilsetes seadmetes. Kui teie IT-administraator on organisatsiooni jaoks mobiilsete tööruumid lubanud, saavad kasutajad rakendusse sisse logida ja hakata äriprotsesse oma mobiilsetest seadmetest kohe käitama. Mobiilirakendus sisaldab järgmisi funktsioone, mis võivad aidata tootlikkust tõsta.
 
@@ -39,7 +42,7 @@ Mobiilirakendus võimaldab teie organisatsioonil teha äriprotsessid kättesaada
 ## <a name="elements-of-the-mobile-app"></a>Mobiilirakenduse elemendid
 Mobiilirakenduse navigeerimispaan koosneb neljast peamisest osast: armatuurlaud, tööruumid, lehed ja tegevused. 
 
-[![Navigeerimispaani põhimõtted mobiilirakenduses.](./media/mobilephoneapp1-1024x536.png)](./media/mobilephoneapp1.png)
+[![Navigeerimispaani põhimõtted mobiilirakenduses](./media/mobilephoneapp1-1024x536.png)](./media/mobilephoneapp1.png)
 
 1. Rakenduse käivitamisel avaneb **armatuurlaud**.
 2. Armatuurlaual näete avaldatud **tööruumide** loendit.
@@ -53,7 +56,7 @@ Mobiilirakenduse navigeerimispaan koosneb neljast peamisest osast: armatuurlaud,
 ## <a name="implementation-process"></a>Juurutusprotsess
 Järgmisel joonisel on näidatud nii Microsofti pakutavate kui ka kohandatud mobiilsete tööruumide juurutusprotsess. 
 
-[![Mobiilirakenduste juurutamise protsess.](./media/Mobile-implementation-process-5.png)](./media/Mobile-implementation-process-5.png)
+[![Mobiilirakenduste juurutamise protsess](./media/Mobile-implementation-process-5.png)](./media/Mobile-implementation-process-5.png)
 
 Järgmises tabelis on lingid ressursside juurde, mis aitavad juurutada nii Microsofti pakutavaid kui ka kohandatud mobiilseid tööruume. Esimeses veerus toodud numbrid vastavad eelmisel joonisel kujutatud nummerdatud etappidele.
 
@@ -90,8 +93,8 @@ Järgmises tabelis on lingid ressursside juurde, mis aitavad juurutada nii Micro
 <li><a href="../../../supply-chain/inventory/inventory-on-hand-mobile-workspace.md">Mobiilse tööruumi varude laoseis</a></li>
 <li><a href="../../../supply-chain/sales-marketing/sales-orders-mobile-workspace.md">Müügitellimuste mobiilsed tööruumid</a></li>
 <li><a href="../../../supply-chain/procurement/vendor-collaboration-mobile-workspace.md">Hankija koostöö mobiilne tööruum</a></li>
-<li><a href="/dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace">Mobiilse tööruumi projekti ajakirje</a></li>
-<li><a href="/dynamics365/project-operations/prod-exp/expense-management-mobile-workspace">Kuluhalduse mobiilne tööruum</a></li>
+<li><a href="../../../finance/project-management/project-time-entry-mobile-workspace.md">Mobiilse tööruumi projekti ajakirje</a></li>
+<li><a href="../../../finance/expense-management/expense-management-mobile-workspace.md">Kuluhalduse mobiilne tööruum</a></li>
 
 </ul></td>
 </tr>
@@ -148,6 +151,3 @@ Järgmises tabelis on lingid ressursside juurde, mis aitavad juurutada nii Micro
 
 ## <a name="troubleshooting"></a>Tõrkeotsing
 [Mobiiliplatvormi ressursid](platform/mobile-platform-home-page.md#troubleshooting-the-app)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

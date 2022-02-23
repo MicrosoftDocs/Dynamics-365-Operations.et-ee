@@ -157,6 +157,3 @@ Töö loomiseks toimige järgmiselt.
 
 13. Töö aktiveerimiseks valige **Aktiveeri**.
 14. Töö sisestamiseks avage **Töökuulutused**, ja seejärel valige Talent Careers saidi või LinkedIni all **Sisesta kohe**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

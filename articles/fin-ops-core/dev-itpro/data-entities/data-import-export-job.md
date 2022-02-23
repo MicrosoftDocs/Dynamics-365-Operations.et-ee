@@ -1,30 +1,29 @@
 ---
 title: Andmeimpordi ja -ekspordi tööde ülevaade
 description: Kasutage andmeimpordi ja -ekspordi tööde jaoks andmehalduse tööruumi.
-author: peakerbl
-ms.date: 10/21/2021
-ms.topic: overview
+author: Sunil-Garg
+manager: AnnBe
+ms.date: 11/02/2020
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application user
 ms.reviewer: sericks
 ms.search.region: Global
-ms.author: peakerbl
+ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e63daad6f206500bfa21c28635648c717f5bbdde
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: 3af49d9355f37e0016f491ed37050f75bbc65d72
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071081"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684056"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Andmete importimis- ja eksportimistööde ülevaade
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Andmete impordi- ja eksporditööde loomiseks ning haldamiseks kasutage tööruumi **Andmehaldus**. Vaikimisi loob andmeimpordi ja -ekspordi protsess igale sihtandmebaasi üksusele koondamistabeli. Koondamistabelid võimaldavad andmeid enne teisaldamist kontrollida, puhastada või teisendada.
 
@@ -71,9 +70,6 @@ Kui valite üksuse, peate valima eksporditavate või imporditavate andmete vormi
 | XML                    | \-Pole-                                      | XML-element XML-atribuut |
 | Eraldatud, fikseeritud laius | Koma, semikoolon, vahekaart, vertikaalriba, koolon | \-Pole-                     |
 
-> [!NOTE]
-> Oluline on valida õige väärtus , veerueraldaja ja teksti täpifikaatori jaoks, kui failivormingu suvand on **reaeraldaja**, **veerueraldaja**, ja **teksti täpifikaatori** jaoks kui **Faili vormaat** väärtus on seatud väärtusele **Eraldatud**. Kontrollige, et teie andmed ei sisaldaks eraldajana või täpindina kasutatavat märki, kuna see võib importimise ja eksportimise ajal põhjustada tõrkeid.
-
 ### <a name="sequence-the-entities"></a>Üksuste järjestamine
 Üksusi saab järjestada andmemallis või impordi- ja eksporditöödes. Kui käivitate mitut andmeüksust sisaldava töö, peate veenduma, et andmeüksused oleksid õiges järjestuses. Üksused järjestatakse peamiselt nii, et saaksite käsitleda funktsionaalseid sõltuvusi üksuste vahel. Kui üksustel pole ühtegi funktsionaalset sõltuvust, saab need plaanida paralleelseks impordiks või ekspordiks.
 
@@ -112,7 +108,7 @@ Vastendamisvaateid on kaks: **Vastendamise visualiseering**, mis on vaikevaade, 
 
 Lehel saab luua vastenduse, valides **Allika vastendamise loomine**. Loodud vastendus toimib nagu automaatne vastendus. Seega tuleb vastendamata väljad käsitsi vastendada.
 
-![Andmetüüpide vastendamine.](./media/dixf-map.png)
+![Andmetüüpide vastendamine](./media/dixf-map.png)
 
 ## <a name="verify-the-security-for-your-import-or-export-job"></a>Impordi- või eksporditöö turvalisuse kontrollimine
 Juurdepääsu tööruumile **Andmehaldus** saab piirata, et mitte-administraatorist kasutajad pääseksid juurde ainult konkreetsetele andmetöödele. Juurdepääs andmetööle tähendab täielikku juurdepääsu selle töö läbiviimise ajaloole ja juurdepääsu koondamistabelitele. Seetõttu tuleb veenduda, et andmetöö loomisel oleksid paigas sobivad juurdepääsu kontrollimismehhanismid.
@@ -138,7 +134,7 @@ Töö saab käivitada ühe korra, valides pärast töö määratlemist nupu **Im
 ## <a name="validate-that-the-job-ran-as-expected"></a>Kontrollimine, et töö toimus õigesti
 Töö ajalugu on tõrkeotsinguks ja uurimiseks saadaval nii impordi- kui ka eksporditööde puhul. Varasemad töötsüklid on korraldatud ajavahemike alusel.
 
-![Töö ajaloo vahemikud.](./media/dixf-job-history.md.png)
+![Töö ajaloo vahemikud](./media/dixf-job-history.md.png)
 
 Iga töötsükli puhul kuvatakse järgmised andmed.
 
@@ -167,7 +163,19 @@ Andmete importimise kiirendamiseks saab lubada faili importimise paralleelse tö
     - Sisestage imporditavate kirjete piirarv väljale **Imporditavate kirjete piirarv**. See määratleb kirjete arvu, mida lõim töötlema hakkab. Kui failis on 10 000 kirjet, siis tähendab kirjete arv 2500 ja ülesannete arv 4, et iga lõim töötleb 2500 kirjet.
     - Sisestage importimisülesannete arv väljale **Importimisülesannete arv**. See ei tohi ületada jaotises **Süsteemihaldus \>Serveri konfiguratsioon** pakktöötluseks eraldatud maksimaalset pakktöötluslõimede arvu.
 
-## <a name="job-history-clean-up"></a>Tööde ajaloo tühjendamine 
+## <a name="clean-up-the-staging-tables"></a>Koondamistabelite puhastamine
+Alates platvormivärskendusest 29, on see funktsioon aegunud. See on asendatud töö ajaloo puhastamise funktsiooni uue versiooniga, mida allpool selgitatakse.
+
+Koondamistabelid saab puhastada, kasutades funktsiooni **Koondamise puhastamine** tööruumis **Andmehaldus**. Järgmiste valikute abil saate valida, millised kirjed millisest koondamistabelist kustutada tuleks.
+
+- **Üksus** – kui antud on ainult üksus, kustutatakse kõik selle üksuse kirjed koondamistabelist. Selle valiku abil saate kustutada kõik üksuse andmed kõigi andmeprojektide ja kõigi tööde lõikes.
+- **Töö ID** – kui antud on ainult töö ID, kustutatakse kõigi üksuste kõik kirjed valitud töös vastavatest koondamistabelitest.
+- **Andmeprojektid** – kui valitud on ainult andmeprojekt, kustutatakse valitud andmeprojekti kõigi üksuste kõik kirjed kõigi tööde lõikes.
+
+Kustutatava kirjekogumi täiendavaks piiramiseks saab valikuid ka kombineerida.
+
+## <a name="job-history-clean-up-available-in-platform-update-29-and-later"></a>Tööajaloo puhastamine (saadaval platvormivärskenduses 29 ja uuemate versioonide puhul)
+
 Tööajaloo puhastamise funktsiooni tuleb andmehaldustöös kasutada käivitusajaloo perioodilise puhastuse planeerimiseks. See funktsioon asendab eelmise koondamistabeli puhastamise funktsiooni, mis on nüüd aegunud. Puhastamise käigus puhastatakse järgmised tabelid.
 
 -   Kõik koondamistabelid
@@ -203,10 +211,16 @@ Puhastamise protsessi planeerimisel tuleb täpsustada puhastuse kriteeriumite j�
 > [!NOTE]
 > Kui vahetabelite kirjeid täielikult ei puhastata, veenduge, et puhastamise töö oleks plaanitud käivituma korduvalt. Nagu eespool selgitatud, siis mis tahes puhastamise käivitamisel töö puhastab ainult nii palju käivitamise ID-sid, nagu on ettenähtud maksimaalsete tundide jooksul võimalik. Mis tahes allesjäänud vahekirjete puhastamise jätkamiseks peab töö olema ajastatud töötama perioodiliselt.
 
-## <a name="job-history-clean-up-and-archival"></a>Tööajaloo puhastamine ja arhiivimine 
+## <a name="job-history-clean-up-and-archival-available-for-preview-in-platform-update-39-or-version-10015"></a>Tööde ajaloo puhastamine ja arhiveerimine (saadaval rakenduse Platform värskenduse 39 või versiooni 10.0.15 eelversiooni jaoks)
 Tööde ajaloo puhastamise ja arhiveerimise funktsioon asendab puhastamise funktsioonide varasemad versioonid. Selles jaotises selgitatakse neid uusi võimalusi.
 
-Üks põhilistest puhastamise funktsiooni muudatustest on ajaloo puhastamiseks süsteemi pakett-töö kasutamine. Süsteemi pakett-töö kasutamine võimaldab Finance and Operationsi rakendustel puhastuspaketti automaatselt planeerida ja töötada kohe, kui süsteem on valmis. Pakett-tööd ei pea enam käsitsi planeerima. Selle vaikimisi käivitamise režiimis käivitub pakett-töö iga tund alates keskööl ja säilitab viimase seitsme päeva käivitamise ajaloo. Likvideeritud ajalugu arhiveeritakse tulevikus toomiseks. Alates versioonist 10.0.20 on see funktsioon alati sees.
+Üks põhilistest puhastamise funktsiooni muudatustest on ajaloo puhastamiseks süsteemi pakett-töö kasutamine. Süsteemi pakett-töö kasutamine võimaldab Finance and Operationsi rakendustel puhastada automaatselt pakett-tööd plaanitult ja käivitada selle kohe, kui süsteem on valmis. Pakett-tööd ei pea enam käsitsi planeerima. Selle vaikimisi käivitamise režiimis käivitub pakett-töö iga tund alates kl 12 keskööl ja säilitab viimase seitsme päeva käivitamise ajaloo. Likvideeritud ajalugu arhiveeritakse tulevikus toomiseks.
+
+> [!NOTE]
+> Kuna see funktsioon on eelvaateversioonis, ei kustuta süsteemi pakett-töö käivitamise ajalugu enne, kui see on lubatud eelväljaande DMFEnableExecutionHistoryCleanupSystemJob kaudu. Kui funktsioon on tavaliselt saadaval tulevases väljalaskes, ei ole see eelväljaanne nõutav ja süsteemi pakett-töö hakkab likvideerima ja arhiveerima pärast süsteemi valmimist, mis põhineb määratletud graafikul, nagu eespool selgitatud. 
+
+> [!NOTE]
+> Tulevases väljalaskes eemaldatakse rakenduse puhastamise funktsioonidest Finance and Operationsi rakenduste varasemad versioonid.
 
 Puhastustoimingu protsessi teine muudatus on likvideeritud käivitamise ajaloo arhiveerimine. Puhastamise töö arhiveerib kustutatud kirjed bloobimällu, mida DIXF kasutab regulaarsete integratsioonide jaoks. Arhiveeritud fail on DIXF-i paketi vormingus ja see on bloobimälus 7 päeva jooksul saadaval, mille jooksul saab selle alla laadida. Arhiivitud faili vaikimisi säilimisaega 7 päeva saab muuta parameetrites maksimaalselt 90 päevaks.
 
@@ -229,6 +243,3 @@ Arhiveeritud käivitamise ajaloo allalaadimiseks minge dokumendihalduse tööruu
 -   DMFSTAGINGLOGDETAILS
 -   DMFSTAGINGVALIDATIONLOG
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

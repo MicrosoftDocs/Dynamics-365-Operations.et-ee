@@ -1,23 +1,26 @@
 ---
 title: Automaatsete tasude lubamine ja konfigureerimine kanali kaupa
-description: Selles teemas selgitatakse, kuidas lubada ja konfigureerida automaatseid tasusid kanali järgi Microsoft Microsoft Dynamics 365 Commerce'is.
+description: Selles teemas selgitatakse, kuidas lubada ja konfigureerida automaatseid tasusid kanali järgi Microsoft Dynamics 365 Commerce'is.
 author: gvrmohanreddy
+manager: annbe
 ms.date: 03/30/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-03-01
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: d905819d1e0c8223c74509bfb357b3aaa51d20305a2857061eadb0b0ff8f6b9b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1be07c754e563298d82f6ca54f09ae3aa9118602
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727626"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4411652"
 ---
 # <a name="enable-and-configure-auto-charges-by-channel"></a>Automaatsete tasude lubamine ja konfigureerimine kanali kaupa
 
@@ -66,7 +69,7 @@ Commerce'is organisatsiooni hierarhia eesmärgi jaoks vaikehierarhia määramise
 1. Valige tegevuste paanil käsk **Käivita kohe**.
 1. Korrake kahte eelmist kahte toimingut tööde **1070** (**Kanali konfiguratsioon**) ja **1110** (**Globaalne konfiguratsioon**) käivitamiseks.
 
-![Jaemüügi automaatsete tasude organisatsiooni hierarhia eesmärgi konfigureerimine.](media/Auto-charges-org-hierarchy-purpose.png)
+![Jaemüügi automaatsete tasude organisatsiooni hierarhia eesmärgi konfigureerimine](media/Auto-charges-org-hierarchy-purpose.png)
 
 ## <a name="define-auto-charges-by-channel"></a>Automaatsete tasude määratlemine kanali järgi
 
@@ -74,7 +77,7 @@ Pärast funktsiooni **Luba automaatsete tasude filtreerimine kanali järgi** sis
 
 Commerce'is automaatsete tasude määratlemiseks kanali järgi toimige järgnevalt.
 
-1. Minge jaotisse **Müügireskontro \> Kulude seadistus \> Automaatsed kulud**.
+1. Minge jaotisse **Müügireskontro \> Kulude seadistus \> Automaatsed kulud**.
 1. Valige vasakpoolse paani väljlal **Tase** kas **Päis** või **Rida**, sõltuvalt teie ettevõtte vajadusest.
 1. Valige väljal **Jaemüügikanali kood** sobiv kanali kood (nt **Tabel** või **Grupp**). Kui kasutate vaikesätet **Kõik**, rakendatakse tasude reeglid kõigile kanalitele.
 
@@ -86,7 +89,7 @@ Commerce'is automaatsete tasude määratlemiseks kanali järgi toimige järgneva
 1. Valige tegevuste paanil käsk **Käivita kohe**.
 1. Korrake kahte eelmist kahte toimingut tööde **1070** (**Kanali konfiguratsioon**) ja **1110** (**Globaalne konfiguratsioon**) käivitamiseks.
     
-![Kanali järgi määratletud automaatsed tasud.](media/Auto-charges-line-charge-by-channel.png)
+![Kanali järgi määratletud automaatsed tasud](media/Auto-charges-line-charge-by-channel.png)
 
 ## <a name="example-scenario"></a>Näidisstsenaarium
 
@@ -94,7 +97,7 @@ Järgmises näites kirjeldatakse toote konfigureerimiseks vajalikke etappe nii, 
 
 Organisatsioon määratleb tasude koodi nimega **RINGLUSSEVÕTT**, nagu järgmisel joonisel on näidatud.
 
-![Tasude kood RINGLUSSEVÕTT.](media/Auto-charges-charge-code.png)
+![Tasude kood RINGLUSSEVÕTT](media/Auto-charges-charge-code.png)
 
 Automaatne tasu luuakse reatasemel. Sellel on järgmine konfiguratsioon.
 
@@ -112,19 +115,16 @@ Automaatsete tasude rida on loodud. Sellel on järgmine konfiguratsioon.
 - Välja **Kategooria** väärtuseks on seatud **Fikseeritud**.
 - Välja **Tasud** väärtuseks on seatud **6,25 $**.
 
-![Reataseme automaatsete tasude ja automaatsete tasude rea konfigureerimine.](media/Auto-charges-recyclingfee-line-fee.png)
+![Reataseme automaatsete tasude ja automaatsete tasude rea konfigureerimine](media/Auto-charges-recyclingfee-line-fee.png)
 
 Kassarakenduses on loodud müügitellimus kaupluse kanalis **San Francisco**. Real **Kulud** kuvatakse ringlussevõtu tasu **6,25 $**.
 
 Valides kassarakenduses **Kande suvandid \> Tasud \> Tasude haldamine** saate vaadata tasude koodi ja ringlussevõtu tasu kirjeldust.
 
-![Ringlussevõtu tasu kassarakenduses.](media/pos-auto-charges-recyclingfee-line-fee.png)
+![Ringlussevõtu tasu kassarakenduses](media/pos-auto-charges-recyclingfee-line-fee.png)
 
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Omnikanali täpsemad automaatsed kulud](omni-auto-charges.md)
 
 [Päisekulude proportsionaalselt jaotamine vastavatele müügiridadele](pro-rate-charges-matching-lines.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

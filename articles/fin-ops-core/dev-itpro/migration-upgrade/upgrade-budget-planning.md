@@ -1,25 +1,27 @@
 ---
 title: Eelarve plaanimise täiendamine
-description: Selles teemas selgitatakse, mida tuleb ümber konfigureerida, ja kirjeldatakse ka uusi funktsioone, mida tuleb pärast täiendamise lõpulejõudmist arvesse võtta.
-author: panolte
+description: Eelarve planeerimine on rakendustes Microsoft Dynamics AX 2012 ja Dynamics 365 Finance suuresti erinev. Mõnd funktsiooni pole täiendatud ja seetõttu nõuavad need ümberkonfigureerimist. Selles teemas selgitatakse, mida tuleb ümber konfigureerida, ja kirjeldatakse ka uusi funktsioone, mida tuleb pärast täiendamise lõpulejõudmist arvesse võtta.
+author: ryansandness
+manager: AnnBe
 ms.date: 04/10/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.custom: 272923
 ms.assetid: 17cdfe74-bdfd-466a-9bdd-c12583f250c7
 ms.search.region: Global
-ms.author: panolte
+ms.author: ryansand
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: c52de15faddd797d31d0875882863b8fe37a7d173b38be058e51a06b2e7fe078
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1c62771170212039112c777e55d45a0d88d2f49d
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769187"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680994"
 ---
 # <a name="upgrade-budget-planning"></a>Eelarve plaanimise täiendamine
 
@@ -27,7 +29,7 @@ ms.locfileid: "6769187"
 
 Eelarve planeerimine on rakendustes Microsoft Dynamics AX 2012 ja Dynamics 365 Finance suuresti erinev. Mõnd funktsiooni pole täiendatud ja seetõttu nõuavad need ümberkonfigureerimist. Selles teemas selgitatakse, mida tuleb ümber konfigureerida, ja kirjeldatakse ka uusi funktsioone, mida tuleb pärast täiendamise lõpulejõudmist arvesse võtta.  
 
-Eelarve plaanimisel rakenduses on palju täiustusi, mis ei olnud rakenduses Dynamics AX 2012 saadaval. Selles teemas selgitatakse muudatusi, mida täiendust tegevad kliendid peavad rakendama. Samuti tuuakse välja uued funktsioonid, mida tuleb täiendusprotsessis arvesse võtta. Muudatuste rohkuse tõttu ei saa ühtki olemasolevat eelarveplaani avada, enne kui selles teemas kirjeldatud muudatused on tehtud. Siiski peavad aruanded tööd jätkama ega nõua lisamuudatusi.
+Eelarve plaanimisel rakenduses  on palju täiustusi, mis ei olnud rakenduses Dynamics AX 2012 saadaval. Selles teemas selgitatakse muudatusi, mida täiendust tegevad kliendid peavad rakendama. Samuti tuuakse välja uued funktsioonid, mida tuleb täiendusprotsessis arvesse võtta. Muudatuste rohkuse tõttu ei saa ühtki olemasolevat eelarveplaani avada, enne kui selles teemas kirjeldatud muudatused on tehtud. Siiski peavad aruanded tööd jätkama ega nõua lisamuudatusi.
 
 ## <a name="overview-of-changes"></a>Muudatuste ülevaade
 Finance and Operationsi moodulis Eelarvestus on tehtud palju olulisi muudatusi. Need muudatused hõlbustavad eelarve plaanimise konfigureerimist ja korduskasutamist, et vähendada iga-aastast hooldamist ja seadistamist. Finance ei sisalda enam järgmisi AX 2012 valdkondi.
@@ -160,6 +162,3 @@ Lisatud on mitu andmeüksust, et võimaldada eelarve plaanimist kiiresti rakenda
 
 
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

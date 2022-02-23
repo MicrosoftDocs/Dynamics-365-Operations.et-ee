@@ -2,28 +2,33 @@
 title: Varude puhvrite ja varude tasemete konfigureerimine
 description: Selles teemas selgitatakse, kuidas konfigureerida varude puhvreid ja varude tasemeid, mis määravad varude saadavuse sõnumid Microsoft Dynamics 365 Commerce'i saitidel.
 author: boycezhu
+manager: annbe
 ms.date: 06/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Core, Operations, Retail
 ms.search.region: global
 ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 842389811169f785235de7ac7d9a49ab903f99ddf7d43f139aba0873a2577d72
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ef58dbb756c7bed3924010cb33eff27af66cd0bd
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727529"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4411702"
 ---
 # <a name="configure-inventory-buffers-and-inventory-levels"></a>Varude puhvrite ja varude tasemete konfigureerimine
 
 [!include [banner](includes/banner.md)]
 
 Selles teemas selgitatakse, kuidas konfigureerida varude puhvreid ja varude tasemeid, mis määravad varude saadavuse kohta käivad sõnumid Microsoft Dynamics 365 Commerce'i saitidel.
+
+## <a name="overview"></a>Ülevaade
 
 Dynamics 365 Commerce'i peakorter hõlmab varude andmeid ja mitmesuguseid kanaleid, nagu näiteks kassarakendused, e-poe kauplused ja muud kohandatud integreeritud rakendused, mis liigutavad varusid asünkroonsel viisil. Seetõttu ei ole Commerce'i peakorteri vaba kaubavaru lehe, kassa kasutajaliidese ja e-poe kaupluste kaubavaru saadavuse API-de kaudu hangitud vaba kaubavaru väärtused reaalajas alati täiesti täpsed.
 
@@ -144,6 +149,3 @@ Toote kättesaadavuse API-de vastuse konfigureerimiseks toimige järgmiselt.
 [Varude sätete rakendamine](inventory-settings.md)
 
 [Varude saadavuse arvutamine jaemüügikanalite jaoks](calculated-inventory-retail-channels.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

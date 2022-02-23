@@ -102,6 +102,3 @@ Puhkusearvestuse protsessis kasutatavate tegelike tundide importimiseks on vaja 
 | 000337                | 8/8/2018             | Tavaline               | 8                    |
 | 000337                | 8/7/2018             | Tavaline               | 8                    |
 | 000337                | 8/9/2018             | Tavaline               | 8                    |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

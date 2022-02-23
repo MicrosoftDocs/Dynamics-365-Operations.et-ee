@@ -1,25 +1,27 @@
 ---
 title: Kaupluse tellimuse täitmine
 description: Teema annab ülevaate kaupluse tellimuse täitmisest.
-author: BrianShook
+author: rubencdelgado
+manager: AnnBe
 ms.date: 10/30/2017
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailStoreTable, RetailTillLayout
 audience: Application User
 ms.reviewer: josaw
 ms.search.region: Global
 ms.search.industry: retail
-ms.author: brshoo
+ms.author: rubendel
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 36ce908e81639fbb836d33ff3e84976c395b1473
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: fa568926ccdde4620294915679cd094adbd1e833
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983338"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965398"
 ---
 # <a name="store-order-fulfillment"></a>Kaupluse tellimuse täitmine
 
@@ -33,7 +35,7 @@ Tellimuse täitmise toiming kassas annab kassas üksiku tööala, mida saab tell
 
 ## <a name="access-unified-order-fulfillment-in-the-point-of-sale"></a>Ühtse tellimuse täitmisele juurdepääsemine kassas
 
-Tellimuse täitmist, [toimingu ID 928](pos-operations.md), saab kasutada juurdepääsuks kaupluse tellimuse täitmise tööalale kassas.
+Tellimuse täitmist, [toimingu ID 928](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-operations), saab kasutada juurdepääsuks kaupluse tellimuse täitmise tööalale kassas.
 
 Tellimuse täitmise toimingul ei ole oma valmisluba, kuid tulevikus on kasutajatel võimalik kasutada kassast toimingu alustamiseks luba nimega **Luba tellimuse toomine**.
 
@@ -93,7 +95,7 @@ Kui tellimus on aktsepteeritud, saab ridu valida ja nende olekuks märkida **Kom
 
 Komplekteerimislehti saab printida kassas, et aidata töötajaid komplekteerimisprotsessi juures. Prinditud komplekteerimislehte saab komplekteeriv töötaja kaasas kanda ja kui tooted on komplekteeritud, märgib töötaja need komplekteerimislehel käsitsi komplekteerituks.
 
-Komplekteerimislehe vorming konfigureeritakse rakenduses Commerce ja lisatakse kviitungiprofiilile. Lisateavet kviitungiprofiilide seadistamise kohta vt teemast [Kviitungite mallid ja printimine](receipt-templates-printing.md).
+Komplekteerimislehe vorming konfigureeritakse rakenduses Commerce ja lisatakse kviitungiprofiilile. Lisateavet kviitungiprofiilide seadistamise kohta vt teemast [Kviitungite mallid ja printimine](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing).
 
 Kui read on valitud ja nende ridade kohta komplekteerimisleht prinditud, värskendatakse nende olekuks automaatselt **Komplekteerimine**.
 
@@ -119,7 +121,7 @@ Tellimuseridu saab pakkida igal ajal pärast seda, kui tellimuserida on aktsepte
 - **Tulemolek:** pakitud või osaliselt pakitud
 - **Varukontori tulemolek:** tarnitud või osaliselt tarnitud
 
-See tegevus märgib read pakituks või osaliselt pakituks ja prindib saatelehe. Saatelehe saab välja printida, et kontrollida kokku pakitud tooteid. Saatelehe vorming konfigureeritakse rakenduses Commerce ja lisatakse kviitungiprofiilile. Lisateavet kviitungiprofiilide seadistamise kohta vt teemast [Kviitungite mallid ja printimine](receipt-templates-printing.md).
+See tegevus märgib read pakituks või osaliselt pakituks ja prindib saatelehe. Saatelehe saab välja printida, et kontrollida kokku pakitud tooteid. Saatelehe vorming konfigureeritakse rakenduses Commerce ja lisatakse kviitungiprofiilile. Lisateavet kviitungiprofiilide seadistamise kohta vt teemast [Kviitungite mallid ja printimine](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing).
 
 **Tegevus: pakituks märkimine**
 
@@ -215,6 +217,3 @@ Tellimuse täitmine kassas hõlmab filtrimist, et aidata kasutajal otsitavat hõ
 - Loomise kuupäev
 - Tarnekuupäev
 - Tarnekuupäev
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

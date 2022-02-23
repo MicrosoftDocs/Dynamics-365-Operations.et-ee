@@ -2,12 +2,15 @@
 title: Töötaja puhkuse haldamine
 description: Rakenduses Dynamics 365 Human Resources saate hallata töövõtja puhkust.
 author: andreabichsel
-ms.date: 07/16/2021
+manager: tfehr
+ms.date: 11/02/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -15,19 +18,14 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ccdf2346e3fdecf4f27fc9f34f0641d3b1fb5b55
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: 627c8959b1845fbad761a85bdca7dc93bfc6a105
+ms.sourcegitcommit: ffb5998e611b83c2e4f98323f39e3e8f6419c652
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067373"
+ms.lasthandoff: 11/02/2020
+ms.locfileid: "4418242"
 ---
 # <a name="manage-employee-leave"></a>Töötaja puhkuse haldamine
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Saate hallata töötaja puhkust puhkuse tüübi järgi. See hõlmab puhkuse registreerimise aegumist ja puhkuse tüübi saldode korrigeerimist. 
 
@@ -47,16 +45,14 @@ Saate hallata töötaja puhkust puhkuse tüübi järgi. See hõlmab puhkuse regi
 
 Te võite töötaja puhkusesaldot korrigeerides lisada põhjusekoodi ja kommentaari. 
 
-Kui hõljutate kursorit mis tahes puhkuse saldo kohal, kuvatakse järgmine teave.
-
-- **Saadaval** -**selle aasta kogusumma**, millest on lahutatud väärtus **Võetud sel aastal**.
-- **Sellel aastal kokku** - kõik viitvõlad, korrigeerimised ja aasta edasikanded.
-- **Sellel aastal võetud** - kogu kinnitatud vaba aeg.
+>[!IMPORTANT]
+>Puhkusesaldode lisateabe vaatamisel on eelversioon. Peate selle lubama keskkonnas **Liivakast**. Lisateavet eelvaatefunktsioonide lubamise kohta vt [Funktsioonide haldus](hr-admin-manage-features.md).<br>
+>Kui viite kursori puhkusesaldo kohale, kuvatakse nüüd järgmine teave.<br>
+>- **Saadaval**: sellel aastal kokku – sellel aastal võetud
+>- **Sellel aastal kokku**: kõik viitvõlad, korrigeerimised ja aasta edasikanded
+>- **Sellel aastal võetud**: kogu kinnitatud vaba aeg
 
 ## <a name="see-also"></a>Vt ka
 
 - [Puhkuste ja puudumiste ülevaade](hr-leave-and-absence-overview.md)
 - [Puhkuste ja puudumiste taotluste haldamine](hr-employee-self-service-manage-requests.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

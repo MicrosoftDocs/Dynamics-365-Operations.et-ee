@@ -2,27 +2,28 @@
 title: Pearaamatu ja finantsaruande ülevaade
 description: Pearaamatu abil saate määratleda ja hallata juriidilise isiku finantskirjeid.
 author: ShylaThompson
+manager: AnnBe
 ms.date: 08/14/2020
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: GeneralJournalEntryWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.custom:
-- "65431"
-- intro-internal
+ms.search.scope: Core, Operations
+ms.custom: 65431
 ms.assetid: d2c604df-daae-42cd-82d9-c80e3dee4a60
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 639d77e43fc9a55e43ebb030f8fc292ce8fb7fce
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: 1ade10020e4bab02490c9104c37fe1f234d634e8
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985233"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4442478"
 ---
 # <a name="general-ledger-home-page"></a>Pearaamatu avaleht
 
@@ -39,7 +40,7 @@ Saate eraldada või jaotada rahalisi summasid ühele või mitmele kontole või k
 - [Pearaamatukonto saldod](general-ledger-account-balances.md)
 - [Finantsdimensioonid](financial-dimensions.md)
 
-[![Äriprotsess.](./media/GL-process.PNG)](./media/GL-process.PNG)
+[![Äriprotsess](./media/GL-process.PNG)](./media/GL-process.PNG)
 
 ## <a name="sales-tax"></a>Käibemaks
 Kõik ettevõtted koguvad ja maksavad makse erinevatele maksuametitele. Reeglid ja määrad erinevad riikide/regioonide, maakondade, valdade ja linnade lõikes.
@@ -54,14 +55,14 @@ Lisaks tuleb reegleid regulaarselt uuendada, kui maksuasutused oma nõudeid muud
 
 #### <a name="whats-new-and-in-development"></a>Mis on uut ja mis on arendamisel?
 
-Avage [Microsoft Dynamics 365 väljalaskeplaanid](/dynamics365/release-plans/), et näha, milliseid uusi funktsioone on kavandatud. 
+Avage [Microsoft Dynamics 365 väljalaskeplaanid](https://go.microsoft.com/fwlink/?linkid=2010158), et näha, milliseid uusi funktsioone on kavandatud. 
 
 #### <a name="financial-reporting"></a>Finantsaruandlus
 Finantsaruannete kohta leiate teavet teemast [Rakenduse Financial Reporting ülevaade](../../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md).
 
 #### <a name="blogs"></a>Ajaveebid
 
-365 töö kohta ning Microsofti ja toimingute - finantside kohta leiate arvamust, [Microsoft Dynamics](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)[Dynamics 365 Finance uudistest ja muud teavet](https://community.dynamics.com/365/financeandoperations/b/financials).
+Arvamusi, uudiseid ja muud teavet leiate [Microsoft Dynamics 365 ajaveebist](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) ning [ajaveebist Microsoft Dynamics 365 Finance and Operations – Financials](https://community.dynamics.com/365/financeandoperations/b/financials).
 
 [Microsoft Dynamics Operationsi partnerite kogukonna ajaveeb](https://community.dynamics.com/partner/b/operationspartnercommunityblog) on Microsoft Dynamicsi partnerite jaoks kõikehõlmav ressurss, kust nad saavad teada, mis on uut ja põnevat rakenduses Dynamics 365.
 
@@ -73,6 +74,3 @@ Vaadake õppevideoid, mis on saadaval [Microsoft Dynamics 365 YouTube’i kanali
 
 - [Mida peaks teadma pearaamatu kohta rakenduses Dynamics 365 for Finance and Operations](https://financefunction.tech/2018/04/29/what-you-should-know-about-ledger-in-dynamics-365-for-finance-and-operations)
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

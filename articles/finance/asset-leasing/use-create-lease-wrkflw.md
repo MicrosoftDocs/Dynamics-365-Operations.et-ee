@@ -2,25 +2,28 @@
 title: Rendi kinnitamise töövoogude kasutamine
 description: Selles teemas selgitatakse, kuidas kasutada töövooge vara rentimise kinnitamiseks ja kuidas jälgida töövoogude olekut ja ajalugu.
 author: moaamer
-ms.date: 04/12/2021
+manager: Ann Beebe
+ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WorkflowTableListPageRnr
+ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 33faf7aa6bc9e5df4b8b0f004692b2c1803c6994264c7b9a8e3eb404387f6800
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1805e1f87ee70a1f35d9105b8f7ad6c95861efcc
+ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726082"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4442580"
 ---
 # <a name="use-lease-approval-workflows"></a>Rendi kinnitamise töövoogude kasutamine
 
@@ -42,6 +45,3 @@ Enne selle protseduuri kasutamist veenduge, et loodud on vähemalt üks rendilep
 
 8. Töövoo peatamiseks valige lehel **Töövoo ajalugu** käsk **Tühista**. Sisestage kuvatavasse dialoogiaknasse kommentaar ja seejärel valige **OK**.
 9. Töövoo desaktiveerimiseks või eelnevalt loodud töövoo aktiveerimiseks avage jaotis **Vara rentimine \> Seadistamine \> Rendi töövoog**. Seejärel valige lehel **Tendi töövoog** jaotis **Töövoog \> Versioonid**. Praeguse töövoo passiivseks muutmiseks valige rendilepingu versiooni dialoogiaknas aktiivne rendileping ja seejärel valige **Muuda passiivseks**. Olemasoleva töövoo aktiivseks muutmiseks valige töövoog ja seejärel valige käsk **Muuda aktiivseks**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

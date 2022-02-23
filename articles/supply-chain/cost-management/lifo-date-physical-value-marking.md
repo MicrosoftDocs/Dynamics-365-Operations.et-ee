@@ -2,9 +2,11 @@
 title: LIFO kuupäev füüsilise väärtuse ja märgistusega
 description: Laomudel Viimasena sisse, esimesena välja (LIFO) põhineb LIFO põhimõttel. Laost väljastamine tasakaalustatakse viimaste sissetulekutega lattu, laokande kuupäeva alusel. Kui LIFO-kuupäeva kasutamisel enne väljaminekut sissetulekut pole, tasakaalustatakse väljaminek mis tahes sissetulekuga, mis toimub pärast väljamineku kuupäeva. Mitmed väljaminekud samal päeval tasakaalustatakse viimase väljamineku, viimase sissetuleku järjekorras.
 author: AndersGirke
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
@@ -13,15 +15,15 @@ ms.custom: 51592
 ms.assetid: d9f13274-3268-444f-85c8-b686fd39286d
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: aevengir
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 72e1dab8bbbb830619629d1fb62a89413d388a7f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: c2c06443532519ad5d6c36a6f4ed1f1c4d136664
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567555"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967629"
 ---
 # <a name="lifo-date-with-physical-value-and-marking"></a>LIFO kuupäev füüsilise väärtuse ja märgistusega
 
@@ -55,9 +57,7 @@ Selles näites pole kauba mudeligrupil füüsilise väärtuse kaasamine märgitu
 
 Uus jooksev keskmine omahind kajastab finantsiliselt värskendatud kannete keskmist 15,00 USD juures 
 
-Järgmisel joonisel on kujutatud laomudeli LIFO kuupäev mõju, kui valikut **Kaasa füüsiline väärtus** ei kasutata. 
-
-![LIFO kuupäev füüsilise väärtuse valiku kaasamiseta.](./media/lifodatewithoutincludephysicalvalue.gif) 
+Järgmisel joonisel on kujutatud laomudeli LIFO kuupäev mõju, kui valikut **Kaasa füüsiline väärtus** ei kasutata. ![LIFO kuupäev valikuga Kaasa füüsiline väärtus](./media/lifodatewithoutincludephysicalvalue.gif) 
 
 **Diagrammi võti**
 
@@ -92,9 +92,7 @@ Alloleval joonisel on kuvatud järgmised kanded.
 
 Uus jooksev keskmine omahind kajastab finantsiliselt värskendatud kannete keskmist 20,00 USD juures 
 
-Järgmisel joonisel on kujutatud laomudeli LIFO mõju, kui kasutatakse valikut **Kaasa füüsiline väärtus**. 
-
-![LIFO kuupäev füüsilise väärtuse valiku kaasamisega.](./media/lifodatewithincludephysicalvalue.gif) 
+Järgmisel joonisel on kujutatud laomudeli LIFO mõju, kui kasutatakse valikut **Kaasa füüsiline väärtus**. ![LIFO kuupäev valikuga Kaasa füüsiline väärtus](./media/lifodatewithincludephysicalvalue.gif) 
 
 **Diagrammi võti**
 
@@ -140,7 +138,7 @@ Alloleval joonisel on kuvatud järgmised kanded.
 
 Uus jooksev keskmine omahind kajastab finantsiliselt ja füüsiliselt värskendatud kannete keskmist: 27,50 USD. 
 
-Järgmisel joonisel on kujutatud laomudeli LIFO mõju, kui kasutatakse väljastuste ja sissetulekute omavahelist märkimist. ![LIFO kuupäev valikuga Märkus.](./media/lifodatewithmarking.gif) 
+Järgmisel joonisel on kujutatud laomudeli LIFO mõju, kui kasutatakse väljastuste ja sissetulekute omavahelist märkimist. ![LIFO kuupäev valikuga Märkus](./media/lifodatewithmarking.gif) 
 
 **Diagrammi võti**
 
@@ -158,6 +156,3 @@ Järgmisel joonisel on kujutatud laomudeli LIFO mõju, kui kasutatakse väljastu
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

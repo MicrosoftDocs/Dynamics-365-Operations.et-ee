@@ -1,10 +1,12 @@
 ---
 title: Lao seadistamine lao konfiguratsioonimalli abil
 description: Selles teemas selgitatakse, kuidas seadistada ladu lao konfiguratsioonimalli abil.
-author: yufeihuang
+author: perlynne
+manager: tfehr
 ms.date: 11/16/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DataManagementWorkspace, DMFQuickImportExportEnhanced, DMFDefinitionGroupTemplate, DMFEntityTemplateDefinitionLoadDialog
 audience: Application User
@@ -13,21 +15,21 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: yufeihuang
+ms.author: perlynne
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 6698d615826a1555426824bb76db654fde539360
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: d533eed984c188c5b6520232f2b875bddd1f57bf
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571085"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967126"
 ---
 # <a name="set-up-a-warehouse-by-using-a-warehouse-configuration-template"></a>Lao seadistamine lao konfiguratsioonimalli abil
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas selgitatakse, kuidas seadistada ladu lao konfiguratsioonimalli abil. Saate kasutada mitut eelmääratud konfiguratsioonimalli. Teavet nende mallide kasutamise kohta leiate teemast [„Konfigureerimisandmete mallid”](../../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md).
+Selles teemas selgitatakse, kuidas seadistada ladu lao konfiguratsioonimalli abil. Saate kasutada mitut eelmääratud konfiguratsioonimalli. Teavet nende mallide kasutamise kohta leiate teemast [„Konfigureerimisandmete mallid”](../../dev-itpro/data-entities/configuration-data-templates.md).
 
 ## <a name="scenarios-where-configuration-templates-can-be-helpful"></a>Stsenaariumid, mille puhul konfiguratsioonimallid võivad kasulikud olla
 
@@ -88,13 +90,10 @@ Teil on võimalik andmed ZIP-failina alla laadida. See fail sisaldab kõiki vali
 4. Valige **+ lisa fail** ja laadige andmed üles ZIP-failina.
 5. Valige **Impordi**. **Täiustatud** vaates saate importimisel tekkida võivatest probleemidest kiiresti ülevaate, kui kasutate suvandit **Filtreeri**.
 
-Käsk **Kuva käivituslogi** annab üksikasjaliku teabe iga imporditud andmeüksuse kohta. Kiirelt sihtandmete juurde jõudmiseks saate kasutada andmete ajastamise vaadet. Sel viisil näete, kuidas imporditud andmed rakenduse seotud lehekülgedel välja näevad. Vaikeandmemallide kasutamisel töötab importimise järjestus iga andmeüksuse puhul eelmääratud viisil, tagamaks, et sõltuvad andmed imporditakse esimesena. Kui projekti kuuluvad kohandatud andmeüksused, peate veenduma, et õige järjekord oleks määratud. Lisateavet vaadake teemast [„Konfigureerimisandmete mallid”](../../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md).
+Käsk **Kuva käivituslogi** annab üksikasjaliku teabe iga imporditud andmeüksuse kohta. Kiirelt sihtandmete juurde jõudmiseks saate kasutada andmete ajastamise vaadet. Sel viisil näete, kuidas imporditud andmed rakenduse seotud lehekülgedel välja näevad. Vaikeandmemallide kasutamisel töötab importimise järjestus iga andmeüksuse puhul eelmääratud viisil, tagamaks, et sõltuvad andmed imporditakse esimesena. Kui projekti kuuluvad kohandatud andmeüksused, peate veenduma, et õige järjekord oleks määratud. Lisateavet vaadake teemast [„Konfigureerimisandmete mallid”](../../dev-itpro/data-entities/configuration-data-templates.md).
 
 Rohkem teavet selle kohta, kuidas kasutada laomalli, et kopeerida lao konfiguratsiooni ühest ettevõttest sama eksemplari uude ettevõttesse, leiate järgmisest 3-minutilisest YouTube’i videost: [Laomalli kasutamine konfiguratsiooni kopeerimiseks rakenduse Finance and Operations](https://www.youtube.com/watch?v=K2WIfFlqJYs) jaoks.
 
 ## <a name="related-topic"></a>Seotud teema
 
-[Konfigureerimisandmete mallid](../../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[Konfigureerimisandmete mallid](../../dev-itpro/data-entities/configuration-data-templates.md)

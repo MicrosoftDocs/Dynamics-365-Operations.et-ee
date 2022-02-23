@@ -2,23 +2,26 @@
 title: Akreditiivi importimine
 description: See protseduur selgitab akreditiivi importimise protsessi.
 author: kweekley
+manager: AnnBe
 ms.date: 02/28/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendTable, VendBankAccounts, PurchTable, PurchCreateOrder, InventItemIdLookupPurchase, BankLCImport,  PurchEditLines, VendEditInvoice, SrsReportViewerForm, LedgerJournalTable, LedgerJournalTransVendPaym, VendOpenTrans, SysQueryForm, BankAccountTableLookUp
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c6119a8b52eece5935bf05d0f2300feeb8d4e90b08f26e949870f491bc9254e8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9f9c73ec1347e72f8cd4ae8eec580bb8fe3df8ed
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743117"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4442434"
 ---
 # <a name="import-letter-of-credit"></a>Akreditiivi importimine
 
@@ -128,8 +131,7 @@ See protsess kasutab demoettevõtte USMF-i andmeid.
 12. Sulgege leht.
 13. Sulgege leht.
 
-## <a name="verify-import-letter-of-credit-status-and-printing"></a>Kinnitage akreditiivi importimise olek ja printimine
-
+## <a name="verify-import-letter-of-credit-status"></a>Akreditiivi importimise oleku kinnitamine
 1. Avage jaotis Sularaha- ja pangahaldus > Akreditiivid > Impordi akreditiiv ja sissenõue.
 2. Otsige loendist ja valige soovitud kirje.
 3. Klõpsake loendis valitud real olevat linki.
@@ -183,6 +185,3 @@ See protsess kasutab demoettevõtte USMF-i andmeid.
     * Veenduge, et aruandes oleks loetletud kanded koos pangadokumendi numbri, süsteemiteenuse limiidi, kasutatud summa ja süsteemiteenuse saldo summa.  
 8. Sulgege leht.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

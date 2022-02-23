@@ -78,6 +78,3 @@ Uus suvand võimaldab juhtidel vaadata nii oma otseste kui ka kaudsete alluvate 
 Meil on hea meel teatada, et Kanada ja Kagu-Aasia piirkonnad on saadaval teenuse Talent jaoks 1. augustil 2019. Selle muudatusega saate luua keskkondasid Kanada ja Aasia regioonides ning kõik Talenti andmed säilitatakse ainult nende asukohtade piires. Saate luua keskkonna nendes uutes piirkondades, valides uue keskkonna dialoogis asukoha ja kasutada seda keskkonda, et valmistada ette Talenti LCS-is, nagu on kirjeldatud siin [Provision Talent](https://docs.microsoft.com/dynamics365/unified-operations/talent/provisioning-talent).
 
 Teiste piirkondade ning Kanada ja Aasia piirkondade olemasolevate projektide andmeid ei toetata. Uutele toetatud piirkondadele saab ette valmistada ainult uusi projekte.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

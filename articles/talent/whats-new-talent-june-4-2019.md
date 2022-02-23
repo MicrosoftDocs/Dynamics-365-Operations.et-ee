@@ -98,6 +98,3 @@ Uus suvand võimaldab juhtidel vaadata nii oma otseste kui ka kaudsete alluvate 
 ### <a name="print-performance-reviews"></a>Jõudluse ülevaadete printimine
 
 Töötajad, juhid ja HR saavad töötaja jõudluse ülevaat välja printida.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

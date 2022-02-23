@@ -1,35 +1,33 @@
 ---
 title: Registreerimise sobivuse töötlemine
-description: Selles teemas selgitatakse, kuidas käivitada registreerimise sobivuse töötlemist.
-author: twheeloc
-ms.date: 08/23/2021
+description: Selles artiklis selgitatakse, kuidas käivitada registreerimise sobivuse töötlemist.
+author: andreabichsel
+manager: AnnBe
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e8997cf24bf24097e46a05acffef8b3839056c57
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: dfb7f13dce48f33c111af491918702763f7e3b8a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067625"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4418107"
 ---
 # <a name="process-enrollment-eligibility"></a>Registreerimise sobivuse töötlemine
 
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-Selles teemas selgitatakse, kuidas käivitada registreerimise sobivuse töötlemist.
+Selles artiklis selgitatakse, kuidas käivitada registreerimise sobivuse töötlemist.
 
 1. Tööruumis **Soodustuste haldus** jaotises **Töötlemine** valige suvand **Registreerimise sobivuse töötlemine**.
 
@@ -56,11 +54,11 @@ Selles teemas selgitatakse, kuidas käivitada registreerimise sobivuse töötlem
 
 ## <a name="view-process-results"></a>Protsessi tulemuste kuvamine
 
-Selles teemas selgitatakse, kuidas kuvada sobivuse töötlemise tulemusi.
+Selles artiklis selgitatakse, kuidas kuvada sobivuse töötlemise tulemusi.
 
 1.  Tööruumis **Soodustuste haldus** jaotises **Töötlemine** valige suvand **Protsessi tulemused**.
 
-2.  Lehel **Protsessi tulemused** on määratud järgmised väljad.
+2.  Vormil **Protsessi tulemused** on määratud järgmised väljad.
 
    | Field | Kirjeldus |
    | --- | --- |
@@ -74,6 +72,3 @@ Selles teemas selgitatakse, kuidas kuvada sobivuse töötlemise tulemusi.
    | **Tulemi olek** | See on Sobilik või Sobimatu. Tulemuse olek on Sobimatu, kui töötaja ei vastanud sobivusreegli kriteeriumidele, kui töötaja kohta puudub nõutav teave (nt maksesagedus või põhipalk) või kui puudub teave soodustusplaani kohta, mis takistab töötajate registreerimist. |
    | **Tulemusteade** | Näitab, miks töötaja on soodustusplaani jaoks sobimatu või kui sobivusreegel on edastatud. |
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

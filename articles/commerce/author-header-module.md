@@ -2,30 +2,35 @@
 title: Päise moodul
 description: See teema hõlmab päise mooduleid ja kirjeldab, kuidas lehe päiseid rakenduses Microsoft Dynamics 365 Commerce luua.
 author: anupamar-ms
-ms.date: 07/08/2021
+manager: annbe
+ms.date: 10/20/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: afdc12230ebad3d5db59c384b2f1066d2c7929339f282ed4880ff967b1fd2d8b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 52069af5ca2211473d4a096ad850b5be1290bba1
+ms.sourcegitcommit: eee3523be26369aecdb36c0143a6ee3dab4b7966
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712786"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "4411809"
 ---
-# <a name="header-module"></a>Päisemoodul
+# <a name="header-module"></a>Päise moodul
 
 [!include [banner](includes/banner.md)]
 
 See teema hõlmab päise mooduleid ja kirjeldab, kuidas lehe päiseid rakenduses Microsoft Dynamics 365 Commerce luua.
+
+## <a name="overview"></a>Ülevaade
 
 Rakenduses Dynamics 365 Commerce konfigureeritakse lehe päis lehe fragmentina, mis sisaldab päise-, reklaambänneri ja küpsistega nõustumise mooduleid. 
 
@@ -33,7 +38,7 @@ Päise moodul sisaldab saidi logo, linke navigeerimise hierarhiale, linke teiste
 
 Järgmisel pildil on näide päise moodulist avalehel.
 
-![Päise mooduli näide.](./media/ecommerce-header.png)
+![Päise mooduli näide](./media/ecommerce-header.png)
 
 ## <a name="properties-of-a-header-module"></a>Päise mooduli atribuudid
 
@@ -58,16 +63,9 @@ Päise moodulis saab kasutada järgmisi mooduleid.
 - **Kaupluse valija** – kaupluse valija moodulit saab lisada päise mooduli kaupluse valija pessa. Kasutajad saavad selle abil sirvida ja leida lähedalasuvaid kauplusi. Kasutajad saavad määrata ka eelistatud kaupluse. See kauplus kuvatakse seejärel päises. Kui kaupluse valija moodul on lisatud päise moodulisse, peab selle atribuudi **Režiim** väärtuseks olema seatud **Kaupluste otsimine**. Lisateabe saamiseks vt [Kaupluse valija moodul](store-selector.md).
 
 > [!NOTE]
-> - Ostukorvi ikooni mooduli kasutamise tugi päise moodulis on saadaval kui väljalaskes Dynamics 365 Commerce versioonis 10.0.11.
-> - Ostukorvi ikooni mooduli kasutamise tugi päise moodulis on saadaval kui väljalaskes Dynamics 365 Commerce versioonis 10.0.14.
-> - Ostukorvi ikooni mooduli kasutamise tugi päise moodulis on saadaval kui väljalaskes Dynamics 365 Commerce versioonis 10.0.15.
-
-## <a name="header-module-in-the-adventure-works-theme"></a>Päisemoodul Adventure Worksi kujunduses
-
-Adventure Worksi teemas toetab päisemoodul **mobiilse logo** atribuuti. See atribuut võimaldab määrata logo mobiili vaateportide jaoks. Atribuut **Mobiilne logo** on saadaval mooduli definitsiooni laiendina.
-
-> [!IMPORTANT]
-> Adventure Works teema on saadaval alates Dynamics 365 Commerce väljalaske versioonist 10.0.20.
+> - Ostukorvi ikooni mooduli kasutamise tugi päise moodulis on saadaval väljalaskes Dynamics 365 Commerce 10.0.11.
+> - Saidi valija mooduli kasutamise tugi päise moodulis on saadaval väljalaskes Dynamics 365 Commerce 10.0.14.
+> - Kaupluse valija mooduli kasutamise tugi päise moodulis on saadaval väljalaskes Dynamics 365 Commerce 10.0.15.
 
 ## <a name="create-a-header-fragment-for-a-page"></a>Lehele päise fragmendi loomine
 
@@ -121,6 +119,3 @@ Päise igal lehel kuvamise tagamiseks järgige neid samme iga malli jaoks, mis o
 [Saidi valija moodul](site-selector.md)
 
 [Kaupluse valimise moodul](store-selector.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

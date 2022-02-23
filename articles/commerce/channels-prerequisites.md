@@ -2,30 +2,36 @@
 title: Kanali seadistamise eeltingimused
 description: Selles teemas antakse ülevaade rakenduse Microsoft Dynamics 365 Commerce kanalite seadistamise eeltingimustest.
 author: samjarawan
+manager: annbe
 ms.date: 02/21/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6ad8911df00fde4675d4d9b52fcdd52ff58d4983b177316a7606de277328226b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0da0457240cf12686fff2fa929c7fb510c11f242
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742460"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4411633"
 ---
-# <a name="channel-setup-prerequisites"></a>Kanali häälestuse eeltingimused
+# <a name="channel-setup-prerequisites"></a>Kanali seadistamise eeltingimused
+
 
 [!include [banner](includes/banner.md)]
 
-Selles teemas antakse ülevaade rakenduse Microsoft Dynamics 365 Commerce kanalite seadistamise eeltingimustest.
+Selles teemas antakse ülevaade rakenduse Microsoft Dynamics 365 Commerce kanali seadistamise eeltingimustest.
+
+## <a name="overview"></a>Ülevaade
 
 Enne Dynamics 365 Commerce'i kanali loomist tuleb täita mitu eeltingimuseks olevat ülesannet. Järgmised eeltingimuseks olevate ülesannete loendid on korraldatud kanali tüübi järgi.
 
@@ -80,6 +86,3 @@ Enne Dynamics 365 Commerce'i kanali loomist tuleb täita mitu eeltingimuseks ole
 [Jaemüügikanali seadistamine](channel-setup-retail.md)
     
 [Veebikanali häälestamine](channel-setup-online.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,12 +2,15 @@
 title: Tellimuste lähetamine teisest poest kasutades tasu saatmise funktsiooni
 description: Selles teemas kirjeldatakse tasu saatmise funktsiooni.
 author: ashishmsft
+manager: AnnBe
 ms.date: 10/10/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -15,12 +18,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2017-10-10
 ms.dyn365.ops.version: Retail July 2017 update
-ms.openlocfilehash: 8c9c435c9ef8f692551a216d72a76f8a71b4ce6dc03dc6b13c23364a0aa81662
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0bbebcc7b2ab89bf2f5db7294acfca1d8a5ad96e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6746695"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4411665"
 ---
 # <a name="ship-orders-from-another-store-by-using-the-charge-send-feature"></a>Tellimuste lähetamine teisest poest kasutades tasu saatmise funktsiooni
 
@@ -39,6 +42,3 @@ Tasu saatmise funktsioon kasutab järgmisi kassa operatsioone: Läheta kõik too
 See ei mõjuta sihtaadresside valimise võimalust.
 
 Tarneviisid, mida saab tellimuse rea täitmiseks kasutada, põhinevad toodete ja aadresside jaoks sobivatel tarneviisidel. Kuna sobivate tarneviiside reegleid talletatakse ainult Headquarteris (HQ), teeb kassaklient reaalajas kõne tarnerea jaoks sobivate tarneviiside toomiseks.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -56,6 +56,3 @@ Selle nädala muudatused parandavad probleemi, kus kalendripäevi ei õnnestunud
 ### <a name="current-balance-report-in-leave-pbi-doubles-employee-balance-385581"></a>Puhkuse PBI jooksva saldo aruanne kahekordistab töötaja saldot (385581)
 
 See muudatus parandab selle stsenaariumi jooksva saldo aruande.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

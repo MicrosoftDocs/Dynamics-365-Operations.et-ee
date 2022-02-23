@@ -1,30 +1,39 @@
 ---
 title: Dynamics 365 Commerce’i hinnakujunduse mootori kasutamine koos rakendusega Dynamics 365 Sales
-description: Selles teemas kirjeldatakse, kuidas kasutada Microsoft Dynamics 365 Commerce hinnakujunduse mootorit rakenduses Dynamics 365 Sales müügipakkumiste loomiseks.
+description: Selles teemas kirjeldatakse, kuidas kasutada Microsoft Dynamics 365 Commerce’i hinnakujunduse mootorit rakenduses Dynamics 365 Sales müügipakkumiste loomiseks.
 author: ShalabhjainMSFT
+manager: AnnBe
 ms.date: 11/19/2020
 ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: v-chgri
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
+ms.search.industry: ''
 ms.author: shajain
-ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: c3f1527e5f37bebba57661ca86b1a3aae7e62da0
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
+ms.dyn365.ops.version: ''
+ms.search.validFrom: 2020-11-03
+ms.openlocfilehash: fad5c21d75db62b85efe803f1667dd3f9164a5fc
+ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7416751"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4594914"
 ---
 # <a name="use-the-dynamics-365-commerce-pricing-engine-with-dynamics-365-sales"></a>Dynamics 365 Commerce’i hinnakujunduse mootori kasutamine koos rakendusega Dynamics 365 Sales
 
 [!include [banner](../../includes/banner.md)]
 
-Selles teemas kirjeldatakse, kuidas kasutada Microsoft Dynamics 365 Commerce hinnakujunduse mootorit rakenduses Dynamics 365 Sales müügipakkumiste loomiseks.
+Selles teemas kirjeldatakse, kuidas kasutada Microsoft Dynamics 365 Commerce’i hinnakujunduse mootorit rakenduses Dynamics 365 Sales müügipakkumiste loomiseks.
 
 Dynamics 365 Commerce’i hinnakujunduse mootor toetab enamikke ettevõtja ja tarbija vahelisi (B2C) hinnakujunduse stsenaariume, nagu kaupluse tasemel hinnakujundus, alluvusepõhine ja püsikliendipõhine hinnakujundus, sobitamise allahindlused, koguse allahindlused ja läveallahindlused. Hinnakujunduse mootor kasutab keerukaid reegleid antud pakkumisele või tellimusele parima hinna määramiseks.
 
-Kui kasutate [topeltkirjutamist](./dual-write-overview.md), on teil oma hinnakujunduse vajaduste jaoks kolm võimalust. Saate kasutada staatilist hinnakujundust, mis pärineb rakenduse Dynamics 365 Sales hindade loendist, rakenduse Dynamics 365 Supply Chain Management hinnakujunduse mootorist või rakenduse Dynamics 365 Commerce hinnakujunduse mootorist. Nende valikute hulgas sobib Commerce’i hinnakujunduse mootor kõige paremini B2C stsenaariumiga.
+Kui kasutate [topeltkirjutamist](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-overview), on teil oma hinnakujunduse vajaduste jaoks kolm võimalust. Saate kasutada staatilist hinnakujundust, mis pärineb rakenduse Dynamics 365 Sales hindade loendist, rakenduse Dynamics 365 Supply Chain Management hinnakujunduse mootorist või rakenduse Dynamics 365 Commerce hinnakujunduse mootorist. Nende valikute hulgas sobib Commerce’i hinnakujunduse mootor kõige paremini B2C stsenaariumiga.
 
 ## <a name="use-the-commerce-pricing-engine-in-sales"></a>Salesis Commerce’i hinnakujunduse mootori kasutamine
 
@@ -35,7 +44,7 @@ Kui kasutajad teevad Salesis müügipakkumisega algust, kopeerib topeltkirjutami
 
 ## <a name="prerequisites"></a>Eeltingimused
 
-- Enne kui saate kasutada Salesis Commerce’i hinnakujunduse mootorit, peate järgima samme teemas [Potentsiaalne kliendist rahaks kaksikkirjutamises](./dual-write-prospect-to-cash.md).
+- Enne kui saate kasutada Salesis Commerce’i hinnakujunduse mootorit, peate järgima samme teemas [Potentsiaalne kliendist rahaks kaksikkirjutamises](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-prospect-to-cash/).
 - Peate käsitsi sisestamiseks hindamise kaubandusleppe välja lülitama, järgides järgmisi samme.
 
     1. Avage Commerce’i keskkonnas jaotis **Müügireskontro \> Seadistus \> Müügireskontro parameetrid**.
@@ -43,7 +52,4 @@ Kui kasutajad teevad Salesis müügipakkumisega algust, kopeerib topeltkirjutami
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-[Potentsiaalne klient-raha ja kaksikkirjutamine](./dual-write-prospect-to-cash.md)
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[Potentsiaalne klient-raha ja kaksikkirjutamine](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-prospect-to-cash/)

@@ -1,13 +1,16 @@
 ---
 title: Reklaambänneri moodul
-description: See teema hõlmab reklaambänneri mooduleid ja kirjeldab, kuidas neid rakenduses Microsoft Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
+description: See teema hõlmab reklaambänneri mooduleid ja kirjeldab, kuidas neid rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
 author: anupamar-ms
-ms.date: 07/08/2021
+manager: annbe
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -15,18 +18,20 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f781ed22852cb2108850e7dc6762aa6a9ba0db97574cb0dcc7959f8926e47a08
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d9debd16b18300d090bde1862a16920d8e9185eb
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718776"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4411589"
 ---
-# <a name="promo-banner-module"></a>Kampaania ribareklaami moodul
+# <a name="promo-banner-module"></a>Reklaambänneri moodul
 
 [!include [banner](includes/banner.md)]
 
-See teema hõlmab reklaambänneri mooduleid ja kirjeldab, kuidas neid rakenduses Microsoft Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
+See teema hõlmab reklaambänneri mooduleid ja kirjeldab, kuidas neid rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
+
+## <a name="overview"></a>Ülevaade
 
 Reklaambänneri mooduleid kasutatakse lehel sisemiste teabesõnumite kuvamiseks. Neid saab kasutada kõikidel e-kaubanduse saidi lehtedel ilmuvate saidiüleste kampaaniate kuvamiseks. 
 
@@ -46,7 +51,7 @@ Reklaambännereid saab kasutada saidi päises, et näidata kogu saiti hõlmavaid
 
 Järgmisel pildil on toodud reklaambänneri näide.
 
-![Reklaambänneri mooduli näide.](./media/ecommerce-Promobanner.PNG)
+![Reklaambänneri mooduli näide](./media/ecommerce-Promobanner.PNG)
 
 ## <a name="promo-banner-module-properties"></a>Reklaambänneri mooduli atribuudid
 
@@ -59,10 +64,6 @@ Järgmisel pildil on toodud reklaambänneri näide.
 | Näita karusselli keerajat     | **Tõene** või **Väär**              | Väärtus, mis näitab, kas karusselli keerajaid tuleb kuvada, et kliendid saaksid käsitsi liikuda mitme bänneri vahel. |
 | Teksti joondus            | **Paremal**, **Vasakul** või **Keskel** | Teksti joondamine reklaambänneri moodulis. |
 | Seos                      | URL                              | Valikulise lingi URL. |
-|Teksti joondamine             | **Paremal**, **Vasakul** või **Keskel** | See atribuut on saadaval teema laiendina Adventure Worksi teemas. See võimaldab kasutajal määrata teksti joonduse reklaamibänneris. |
-
-> [!IMPORTANT]
-> Adventure Works teema on saadaval alates Dynamics 365 Commerce väljalaske versioonist 10.0.20.
 
 ## <a name="add-a-promo-banner-module-to-a-page"></a>Reklaambänneri mooduli lehele lisamine 
 
@@ -83,6 +84,7 @@ Lehele reklaambänneri mooduli lisamiseks ja vajalike atribuutide seadistamiseks
 > [!NOTE]
 > Reklaambännerit kasutatakse tavaliselt lehekülje päise pesas või alapealkirja pesas.
 
+
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Mooduliteegi ülevaade](starter-kit-overview.md)
@@ -94,6 +96,3 @@ Lehele reklaambänneri mooduli lisamiseks ja vajalike atribuutide seadistamiseks
 [Sisuploki moodul](add-hero-module.md)
 
 [Videopleierimoodul](add-video-player.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

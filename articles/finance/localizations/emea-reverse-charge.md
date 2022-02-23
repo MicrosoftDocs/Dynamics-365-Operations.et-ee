@@ -2,22 +2,25 @@
 title: KM/GST-süsteemi pöördmaksustamise mehhanism
 description: See teema selgitab, kuidas seadistada Euroopa riikide ja Saudi Araabia pöördkäibemaksu (KM).
 author: epodkolz
+manager: AnnBe
 ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Saudi Arabia, Spain, Sweden, United Kingdom, Singapore, Bahrain, Kuwait, Oman, Qatar
 ms.author: epodkolz
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 326a74d0f962cf0455033b04950ded7ca26bfc77
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 247bc64bf0b90a641ead8a21971a6043691762fa
+ms.sourcegitcommit: f12ce34cc08cf1fa205c67f48669ea9a6566b526
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7594715"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4515047"
 ---
 # <a name="reverse-charge-mechanism-for-vatgst-scheme"></a>KM/GST-süsteemi pöördmaksustamise mehhanism
 
@@ -45,6 +48,7 @@ Pöördmaksu rakendamiseks tuleb teha järgmine seadistus.
 Soovitame kasutada müügi- ja ostutoimingute jaoks eraldi käibemaksukoode.
 
 <table>
+<body>
 <tr>
 <td><strong>Müügi käibemaksukood</strong></td>
 <td>Looge käibemaksukood müügi pöördmaksu toimingutele (<strong>Maks</strong> &gt; <strong>Kaudsed maksud</strong> &gt; <strong>Käibemaks</strong> &gt; <strong>Käibemaksukoodid</strong>).
@@ -61,6 +65,7 @@ See negatiivne käibemaksukood tuleb määrata kauba käibemaksugrupile ja seej�
 <p>Lisateavet leiate järgmisest jaotisest &quot;Käibemaksugruppide ja kauba käibemaksugruppide häälestamine&quot;.</p>
 </td>
 </tr>
+</tbody>
 </table>
 
 ## <a name="set-up-sales-tax-groups-and-item-sales-tax-groups"></a><a name="sales-tax-item-sales-tax-groups"></a>Käibemaksugruppide ja kauba käibemaksugruppide seadistamine
@@ -119,7 +124,7 @@ Pöördmaksuga ostuarve sisestamisel luuakse kaks käibemaksukannet. Ühel kande
 
 Järgneval kuvatõmmisel on ühe kande suund **Saadaolev käibemaks** ja teise kande suund **Tasumisele kuuluv käibemaks**. 
 
-![Sisestatud käibemaks.](media/apac-sau-posted-sales-tax.png)
+![Sisestatud käibemaks](media/apac-sau-posted-sales-tax.png)
 
 ## <a name="enable-reverse-charge-mechanism-for-vatgst-scheme-feature"></a><a name="enable-reverse-charge"></a>KM-/GST-skeemi jaoks pöördkäibemaksu mehhanismi funktsiooni lubamine
 Leidke tööruumis **Funktsioonihaldus** funktsioon ja valige suvand **Luba**.
@@ -132,6 +137,3 @@ Saadaval on järgmised funktsiooni häälestusega seotud lehed ja menüükäsud.
  - **Väliskaubanduse parameetrid** (**Maks** > **Seadistus** > **Müügimaks** > **Väliskaubandus** > **Väliskaubanduse parameetrid**). Vt teemat [Riigi/regiooni atribuutide häälestamine](#Set-up-Country/region-properties).
 
 Saadabal on märkeruut **Pöördmaksustamine** lehtedel **Käibemaksu grupp** ja **Sisestatud käibemaks**. Lisateavet vt jaotistest [Käibemaksugruppide ja kauba käibemaksugruppide häälestus](#sales-tax-item-sales-tax-groups), [Pöördmaks müügiarvel](#reverse-charge-sale) ja [Pöördmaks ostuarvel](#reverse-charge-purchase).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

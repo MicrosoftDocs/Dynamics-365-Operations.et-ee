@@ -2,9 +2,11 @@
 title: Modern POS-i (MPOS) ja pilvekassa vahel valimine
 description: Selles teemas selgitatakse Modern POS-i ja pilvekassa vahelisi erinevusi. Selles kirjeldatakse ka erinevaid tegureid, mida rakendust Dynamics 365 Commerce kasutusele võtvad jaemüüjad peaksid arvesse võtma, et teha oma nõuetele vastav parim valik.
 author: jblucher
+manager: AnnBe
 ms.date: 10/13/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -15,12 +17,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-10-12
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 3e2987351e327b5cca27a6ea992a0550cc21d028cecf4330d374768f13711829
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 330646da075e3fc8c0c3f7fe54b790ed42615395
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714755"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4970099"
 ---
 # <a name="choose-between-modern-pos-mpos-and-cloud-pos"></a>Modern POS-i (MPOS) ja pilvekassa vahel valimine
 
@@ -57,7 +59,7 @@ Kuigi MPOS ja CPOS on suures osas samad, on ka olulisi erinevusi, mida peate mõ
 Windowsi, iOS-i või Androidi seadmes on MPOS rakendus, mida pakitakse, installitakse ja hooldatakse selles seadmes.
 
 - **Windows** – MPOS Windowsi rakenduse jaoks sisaldab kogu rakenduse koodi ja manustatud Commerce Runtime’i (CRT). 
-- **iOS/Android** – nendel platvormidel toimib rakendus CPOS-i rakendusekoodi hostina. Teisisõnu tuleb rakendusekood CPOS-i serverist Microsoft Azure’is või Commerce’i skaala üksuses. Lisateavet vt teemast [Commerce Scale Uniti ülevaade](dev-itpro/retail-store-system-begin.md).
+- **iOS/Android** – nendel platvormidel toimib rakendus CPOS-i rakendusekoodi hostina. Teisisõnu tuleb rakendusekood CPOS-i serverist Microsoft Azure’is või Commerce’i skaala üksuses. Lisateavet vt teemast [Commerce Scale Uniti ülevaade](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/retail-store-system-begin).
 
 #### <a name="cpos"></a>CPOS
 
@@ -79,11 +81,11 @@ Commerce’i skaala üksus on CRT-d majutav komponent. CRT sisaldab kogu äriloo
 
 #### <a name="offline-mode"></a>Ühenduseta režiim
 
-MPOS Windowsi jaoks toetab ühenduseta režiimi. Ühenduseta režiimis saab kassa jätkata müügi töötlemist isegi siis, kui ühendus Commerce’i skaala üksusega katkeb. Ühenduse taastumisel saab seda seejärel sünkroonida kanali andmebaasiga. MPOS kasutab oma CRT manustatud eksemplari ja kasutab ajutiselt oma kohalikku andmeallikat (võrguühenduseta SQL Serveri andmebaas). Lisateavet võrguühenduseta funktsioonide kohta vt teemast [Kassa võrguühenduseta funktsioonid](pos-offline-functionality.md).
+MPOS Windowsi jaoks toetab ühenduseta režiimi. Ühenduseta režiimis saab kassa jätkata müügi töötlemist isegi siis, kui ühendus Commerce’i skaala üksusega katkeb. Ühenduse taastumisel saab seda seejärel sünkroonida kanali andmebaasiga. MPOS kasutab oma CRT manustatud eksemplari ja kasutab ajutiselt oma kohalikku andmeallikat (võrguühenduseta SQL Serveri andmebaas). Lisateavet võrguühenduseta funktsioonide kohta vt teemast [Kassa võrguühenduseta funktsioonid](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-offline-functionality).
 
 ### <a name="pos-peripheralhardware-considerations"></a>Kassa välisseadmete/riistavara kaalutlused
 
-Jaemüüjad peavad kaaluma ka seda, kuidas kassa saab juurdepääsu seadmetele ja välisseadmetele, nagu printerid, sularahasahtlid ja makseterminalid. Ainult MPOS Windowsi jaoks toetab otsesuhtlust nende seadmetega. MPOS Windows Phone’i, iOS-i või Androidi jaoks ning pilvekassa vajavad neile seadmetele juurdepääsu saamiseks riistvarajaama. Riistvarajaamad saab eraldada kindlale kassaregistrile või kasutada ühiselt kaupluses olevate registrite vahel. Lisateavet riistvarajaamade kohta leiate jaotisest [Jaemüügi riistvarajaama konfigureerimine ja installimine](retail-hardware-station-configuration-installation.md).
+Jaemüüjad peavad kaaluma ka seda, kuidas kassa saab juurdepääsu seadmetele ja välisseadmetele, nagu printerid, sularahasahtlid ja makseterminalid. Ainult MPOS Windowsi jaoks toetab otsesuhtlust nende seadmetega. MPOS Windows Phone’i, iOS-i või Androidi jaoks ning pilvekassa vajavad neile seadmetele juurdepääsu saamiseks riistvarajaama. Riistvarajaamad saab eraldada kindlale kassaregistrile või kasutada ühiselt kaupluses olevate registrite vahel. Lisateavet riistvarajaamade kohta leiate jaotisest [Jaemüügi riistvarajaama konfigureerimine ja installimine](https://docs.microsoft.com/dynamics365/unified-operations/retail/retail-hardware-station-configuration-installation).
 
 ## <a name="implementation-considerations"></a>Juurutamise kaalutlused
 
@@ -100,8 +102,5 @@ Kui planeerite kassa juurutamist oma kauplustes, võtke arvesse järgmist teavet
     Need kaks võimalust ei ole teineteist välistavad. Kõige usaldusväärsema topoloogia saavutamiseks saavad jaemüüjad juurutada kohaliku RSSU, et vähendada sõltuvust Interneti-ühendusest või Azure’i kättesaadavusest, ning kui kohaliku serveri või võrguga esineb probleem, saavad nad juurutada ka kassaregistreid, kui ühenduseta režiim on lubatud.
 
 - **Riistvaraseadmed/välisseadmed** – süsteemi Retail POS üks olulistest aspektidest on võimalus kasutada kassa välisseadmeid, nagu printerid, sularahasahtlid ja makseterminalid. Kuigi kõik saadaolevad kassavalikud saavad kasutada välisseadmeid, toetab neid otse ainult MPOS Windowsi jaoks. Kõigi muude rakenduste jaoks on vaja vähemalt üht riistvarajaama. Kuigi see lähenemisviis lisab paindlikkust, tuleb juurutada, konfigureerida ja hooldada lisakomponente.
-- **Süsteeminõuded** – kassarakenduse süsteeminõuded võivad olla erinevad. Enne valiku tegemist kontrollige kindlasti kõige värskemat teavet. Näiteks, kuna CPOS töötab brauseris, toetab see rohkem operatsioonisüsteeme. Lisateavet süsteeminõuete kohta vt teemast [Pilvjuurutuste süsteeminõuded](../fin-ops-core/fin-ops/get-started/system-requirements.md).
+- **Süsteeminõuded** – kassarakenduse süsteeminõuded võivad olla erinevad. Enne valiku tegemist kontrollige kindlasti kõige värskemat teavet. Näiteks, kuna CPOS töötab brauseris, toetab see rohkem operatsioonisüsteeme. Lisateavet süsteeminõuete kohta vt teemast [Pilvjuurutuste süsteeminõuded](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/system-requirements).
 - **Juurutamine ja hooldus** – juurutamis- ja hooldusnõuete keerukus võib olenevalt rakendusest ja juurutusvalikutest olla erinev. Näiteks pilves majutatud CPOS-i juurutamisel ei pea te installima ja värskendama kõigis seadmetes. Seega vähendab see lähenemine oluliselt keerukust ja kulusid. Kuid kui juurutate MPOS-i igas registris ja lubate võrguühenduseta režiimi ning juurutate ka ühiskasutuses riistvarajaamu, suurendate oluliselt haldamist vajavate lõpp-punktide arvu.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

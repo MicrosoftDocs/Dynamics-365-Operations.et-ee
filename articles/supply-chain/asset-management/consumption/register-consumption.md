@@ -1,10 +1,12 @@
 ---
 title: Tarbimise registreerimine
 description: Selles teemas tutvustatakse, kuidas varahalduses tarbimist registreerida.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 08/21/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderJournal, EntAssetWorkOrderAddSparePart
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 619da584ea37e80b1803ae5983e52e8ee4053f3751a8df75a8f5bc1ddf7e65d6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ea1522f8a8e4867d8d70fea59b493d139a1b01ef
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765574"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020776"
 ---
 # <a name="register-consumption"></a>Tarbimise registreerimine
 
@@ -54,7 +56,7 @@ Mõnel juhul saate töökäsule prognoosi ridu lisada või neid kustutada. Töö
 
 Alloleval kuvatõmmisel kuvatakse näidet tunni ja kauba registreeringutest töökäsul suvandis **Töökäsu töölehed**.
 
-![Joonis 1.](media/01-consumption.png)
+![Joonis 1](media/01-consumption.png)
 
 
 ## <a name="split-hours-on-work-orders-with-several-work-order-jobs"></a>Töökäskude tundide eraldamine mitme töökäsu tööga
@@ -73,13 +75,13 @@ Kui töökäsk sisaldab mitut töökäsu tööd, saate registreerida töötunnid
 
 6. Sisestage väljale **Tunnid** eraldatavad töötunnid.
 
-    ![Joonis 2.](media/02-consumption.png)
+    ![Joonis 2](media/02-consumption.png)
 
 7. Klõpsake valikut **OK**.
 
 *Näide*: alloleval kuvatõmmisel kuvatakse töökäsu töölehe read, mis sisaldavad kolme töökäsu tööd. Esimene rida, mis sisaldab kolme töötundi, on eraldatud ja üks töötund on registreeritud iga töökäsu töö kohta. Pärast kolme tunni registreerimise rea loomist saate valida, mida teha algse tunni registreerimise reaga (näite esimene rida). Saate selle jätta selliseks nagu ta on või selle kustutada. 
 
-![Joonis 3.](media/03-consumption.png)
+![Joonis 3](media/03-consumption.png)
 
 ## <a name="financial-dimensions-on-consumption-registrations"></a>Tarbimise registreerimiste finantsdimensioonid
 
@@ -92,6 +94,3 @@ Kui teete tarbimise registreeringuid, lisatakse eri registreerimise tüüpidega 
 >[!NOTE]
 >Kõigi kolme registreerimise tüübi puhul on finantsdimensioonide kombinatsioon valideeritud ja kehtetud kombinatsioonid jäetakse tühjaks. See on standardne seadistus koos teiste lahenduse Finance and Operations rakendustega.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

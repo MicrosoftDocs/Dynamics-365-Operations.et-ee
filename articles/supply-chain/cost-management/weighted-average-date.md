@@ -2,9 +2,11 @@
 title: Kaalutud keskmine kuupäev
 description: Kaalutud keskmine kuupäev on kaalutud keskmise põhimõttel põhinev laomudel, milles laos olevaid kaupu hinnatakse lattu sissetulevate kaupade keskmise väärtuse järgi iga lao sulgemisperioodi päeva lõikes.
 author: AndersGirke
+manager: tfehr
 ms.date: 10/25/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
@@ -13,15 +15,15 @@ ms.custom: 28991
 ms.assetid: 945d5088-a99d-4e54-bc42-d2bd61c61e22
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: aevengir
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ce056a661130d30426ccfa4c288a0ce5b62ff959
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 5df497a8590c6d60a5f0bc39469cf048c3448572
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572021"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963734"
 ---
 # <a name="weighted-average-date"></a>Kaalutud keskmine kuupäev
 
@@ -39,7 +41,7 @@ Kaalutud keskmine = (\[Q1 × P1\] + \[Q2 × P2\] + \[Q *n* × P *n*\]) ÷ (Q1 + 
 
 Varude sulgemise ajal tehakse arvutus iga päev sulgemisperioodi kaudu, nagu on näidatud järgmisel joonisel. 
 
-![Kaalutud keskmise kuupäeva igapäevane arvutusmudel.](./media/weightedaveragedatedailycalculationmodel.gif) 
+![Kaalutud keskmise kuupäeva igapäevane arvutusmudel](./media/weightedaveragedatedailycalculationmodel.gif) 
 
 Laokanded, millest jäävad varud, nagu müügitellimused, varude töölehed ja tootmistellimused, toimuvad sisestamise päeval eeldatava omahinnaga. Seda eeldatavat omahinda nimetatakse ka keskmiseks jooksevomahinnaks. Varude sulgemise kuupäeval analüüsib süsteem eelmiste perioodide, eelmiste päevade ja jooksva päeva laokandeid. Seda analüüsi kasutatakse, et määrata, millist järgmistest sulgemispõhimõtetest tuleks kasutada.
 
@@ -72,7 +74,7 @@ Järgmine illustratsioon näitab järgmisi kandeid.
 -   2b. Varude finantsilise väljamineku kogust värskendatakse kahe võrra tüki hinnaga 10,00 USA dollarit.
 -   3. Lao sulgemine tehakse otsese tasakaalustuse meetodi abil finantsilise sissetuleku tasakaalustamiseks lao finantsilise väljastusega.
 
-![Kaalutud keskmise kuupäeva otsene tasakaalustus ilma füüsilise väärtuse valikut kaasamata.](./media/weightedaveragedatedirectsettlementwithoutincludephysicalvalue.gif) 
+![Kaalutud keskmise kuupäeva otsene tasakaalustus ilma valikuta Kaasa füüsiline väärtus](./media/weightedaveragedatedirectsettlementwithoutincludephysicalvalue.gif) 
 
 **Joonise võti**
 
@@ -126,7 +128,7 @@ Süsteem loob ja sisestab summeeritud laoülekande kande. Peale selle tasakaalus
 
 Järgmine joonis näitab seda kannete seeriat koos kaalutud keskmise laomudeli valimise mõjudega ja summeeritud põhimõtet ilma valikuta **Kaasa füüsiline väärtus**. 
 
-![Kaalutud keskmise kuupäeva summeeritud tasakaalustus ilma füüsilise väärtuse kaasamise valikuta.](./media/weightedaveragedatesummarizedsettlementwithoutincludephysicalvalue.gif) 
+![Kaalutud keskmise kuupäeva summeeritud tasakaalustus ilma valikuta Kaasa füüsiline väärtus](./media/weightedaveragedatesummarizedsettlementwithoutincludephysicalvalue.gif) 
 
 **Joonise võti**
 
@@ -175,7 +177,7 @@ Väljaminekukande saate sissetulekule märkida enne kande sisestamist. Seda saat
 
 Uus jooksev keskmine omahind kajastab finantsiliselt ja füüsiliselt värskendatud kannete keskmist: 27,50 USD. Järgnev joonis näitab seda kannete seeriat, kaalutud keskmise kuupäeva laomudeli valiku mõju ja märkimist.
 
-![Kaalutud keskmise kuupäev koos märkimisega.](./media/weightedaveragedatewithmarking.gif) 
+![Kaalutud keskmise kuupäev koos märkimisega](./media/weightedaveragedatewithmarking.gif) 
 
 **Joonise võti**
 
@@ -193,6 +195,3 @@ Uus jooksev keskmine omahind kajastab finantsiliselt ja füüsiliselt värskenda
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

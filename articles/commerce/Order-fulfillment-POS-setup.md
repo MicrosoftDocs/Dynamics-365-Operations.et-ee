@@ -1,29 +1,33 @@
 ---
 title: Kaupluse tellimuse täitmise seadistamine
 description: Teema annab ülevaate kaupluse tellimuse täitmise seadistamisest.
-author: BrianShook
+author: rubencdelgado
+manager: AnnBe
 ms.date: 10/30/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailStoreTable, RetailTillLayout
 audience: Application User
 ms.reviewer: josaw
 ms.search.region: Global
 ms.search.industry: retail
-ms.author: brshoo
+ms.author: rubendel
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: ed709c2a15a2d9e1675da55fc87284127e64ba39
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
-ms.translationtype: MT
+ms.openlocfilehash: 8d6cfa0d1eba4ccb0b24839b7cc632835b17107e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779592"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965307"
 ---
-# <a name="set-up-order-fulfillment-for-stores"></a>Kaupluse tellimuse täitmise häälestus
+# <a name="set-up-order-fulfillment-for-stores"></a>Kaupluse tellimuse täitmise seadistamine
 
 [!include [banner](includes/banner.md)]
+
+## <a name="overview"></a>Ülevaade
 
 Paljud jaemüüjad soovivad tellimuste täitmist optimeerida, võimaldades kauplustel tellimusi täita. Tellimuse täitmine kaupluse tasemel aitab leevendada laoülejäägi olukordi kindla kaupluse puhul või võib olla vajalik logistika seisukohalt, kui kauplusel on lisavõimsust või see asub kliendile saatmiseks lähemal. Selle vajaduse täitmiseks on kassas saadaval ühtse tellimuse täitmise toiming.
 
@@ -33,9 +37,9 @@ Tellimuse täitmise toiming kassas annab kassas üksiku tööala, mida saab tell
 
 ## <a name="set-up-the-order-fulfillment-operation"></a>Tellimuse täitmise toimingu seadistamine
 
-Tellimuse täitmist, [toimingu ID 928](pos-operations.md), saab kasutada juurdepääsuks kaupluse tellimuse täitmise tööalale kassas.
+Tellimuse täitmist, [toimingu ID 928](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-operations), saab kasutada juurdepääsuks kaupluse tellimuse täitmise tööalale kassas.
 
-Määrake kassas tellimuse täitmise käivitamisel kasutatav parameeter, järgides teemas [Nupupaneelile toimingu lisamine](pos-screen-layouts.md) kirjeldatud etappe. Pärast tellimuse täitmise toimingute määramist on vaikimisi valitud suvad **Kõik tellimused**. Selle parameetriga konfigureerimisel loetleb toimib kõik praeguses kaupluses täitmiseks mõeldud tellimuseread. Saadaval on ka suvand **Tellimused lähetamiseks**, mille saab määrata nupule ja kasutada, kui kasutaja soovib näha ainult tellimusi, mis saadetakse kauplusest välja. Samuti on siin suvand **Tellimused kättesaamiseks**. Kassas käivitamisel loetleb see ainult kaupluses kättesaamiseks mõeldud tellimused. Erinevatele nuppudele saab määrata erinevad parameetrid, et pakkuda kasutajatele erinevaid võimalusi tellimuse täitmise vaatamiseks.
+Määrake kassas tellimuse täitmise käivitamisel kasutatav parameeter, järgides teemas [Nupupaneelile toimingu lisamine](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-screen-layouts) kirjeldatud etappe. Pärast tellimuse täitmise toimingute määramist on vaikimisi valitud suvad **Kõik tellimused**. Selle parameetriga konfigureerimisel loetleb toimib kõik praeguses kaupluses täitmiseks mõeldud tellimuseread. Saadaval on ka suvand **Tellimused lähetamiseks**, mille saab määrata nupule ja kasutada, kui kasutaja soovib näha ainult tellimusi, mis saadetakse kauplusest välja. Samuti on siin suvand **Tellimused kättesaamiseks**. Kassas käivitamisel loetleb see ainult kaupluses kättesaamiseks mõeldud tellimused. Erinevatele nuppudele saab määrata erinevad parameetrid, et pakkuda kasutajatele erinevaid võimalusi tellimuse täitmise vaatamiseks.
 
 ### <a name="enable-users-to-access-order-fulfillment-at-the-point-of-sale"></a>Saate lubada kasutajatel tellimuse täitmisele juurde pääseda kassas.
 
@@ -104,9 +108,9 @@ Vaikimisi on tellimuste olek **Aktsepteeritud**. Tellimuse olekut saab vaadata t
 
 - **Redigeeri** – kui tellimuse olek on Ootel, saab seda redigeerida kassas. Tellimusi, mis on juba osaliselt komplekteeritud, pakitud või arveldatud, ei saa tellimuse täitmise vaatel redigeerida.
 - **Aktsepteeri** – kui kanalitasemel on konfigureeritud suvand **Käsitsi aktsepteerimine**, tuleb read esmalt aktsepteerida, enne kui need saavad läbida tellimuse täitmise protsessi.
-- **Komplekteerimine** – komplekteerimissuvand toetab mitut tegevust. Kõigepealt värskendab tegevus **Komplekteerimine** tellimuserea olekut, et teised kaupluses ei püüaks sama rida komplekteerida. Seejärel prindib tegevus **Komplekteerimislehe printimine** valitud rea või ridade jaoks komplekteerimislehe ja värskendab nende oleku ka sättele **Komplekteerimisel**. Komplekteerimislehe vorminguid juhitakse kviitungivormingute osana. Lisateavet kviitungivormingute seadistamise kohta vt teemast [Kviitungite mallid ja printimine](receipt-templates-printing.md). Lõpuks näitab tegevus **Komplekteerituks märkimine**, et rida on komplekteeritud. **Komplekteerituks märkimine** näitab varukontoris vastavaid laokandeid. Komplekteerimistegevusi saab teha korraga mitme tellimuserea puhul kõigi tellimuste ja tarneviiside korral.
+- **Komplekteerimine** – komplekteerimissuvand toetab mitut tegevust. Kõigepealt värskendab tegevus **Komplekteerimine** tellimuserea olekut, et teised kaupluses ei püüaks sama rida komplekteerida. Seejärel prindib tegevus **Komplekteerimislehe printimine** valitud rea või ridade jaoks komplekteerimislehe ja värskendab nende oleku ka sättele **Komplekteerimisel**. Komplekteerimislehe vorminguid juhitakse kviitungivormingute osana. Lisateavet kviitungivormingute seadistamise kohta vt teemast [Kviitungite mallid ja printimine](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing). Lõpuks näitab tegevus **Komplekteerituks märkimine**, et rida on komplekteeritud. **Komplekteerituks märkimine** näitab varukontoris vastavaid laokandeid. Komplekteerimistegevusi saab teha korraga mitme tellimuserea puhul kõigi tellimuste ja tarneviiside korral.
 - **Lükka tagasi** – ridu või osalisi ridu saab tagasi lükata. See võimaldab neid varukontorist ümber määrata teise kauplusse või lattu. Ridu saab tagasi lükata ainult siis, kui need pole veel komplekteeritud või pakitud. Juba komplekteeritud või pakitud rea tagasilükkamiseks tuleb selle rea komplekteerimine või pakkimine varukontoris tühistada.
-- **Paki** – pakkimissuvand toetab kaht tegevust: **Prindi saateleht** prindib valitud ridade jaoks saatelehe ja **Märgi pakituks** märgib read pakituks ning märgib read varukontoris tarnituks. Korraga saab pakkida ainult samasse tellimusse kuuluvaid ja sama tarneviisiga tellimuseridu. Saatelehe vorminguid juhitakse kviitungivormingute osana. Lisateavet kviitungivormingute seadistamise kohta vt teemast [Kviitungite mallid ja printimine](receipt-templates-printing.md).
+- **Paki** – pakkimissuvand toetab kaht tegevust: **Prindi saateleht** prindib valitud ridade jaoks saatelehe ja **Märgi pakituks** märgib read pakituks ning märgib read varukontoris tarnituks. Korraga saab pakkida ainult samasse tellimusse kuuluvaid ja sama tarneviisiga tellimuseridu. Saatelehe vorminguid juhitakse kviitungivormingute osana. Lisateavet kviitungivormingute seadistamise kohta vt teemast [Kviitungite mallid ja printimine](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing).
 - **Läheta** – lähetamistegevus märgib valitud ridade olekuks varukontoris **Tarnitud**. Kui rida on täielikult lähetatud, siis seda tellimuse täitmise vaates enam ei kuvata.
 - **Kättesaamine** – kättesaamistegevus lisab read kättesaamiseks kandevaatele. Kui tellimusel on muid ridu, mis pole praegu kättesaamisel, lisatakse need kandevaatele nullkogusega. Kui rida on täielikult kätte saadud, siis seda tellimuse täitmise vaates enam ei kuvata.
 
@@ -126,6 +130,3 @@ Tellimuse täitmine kassas hõlmab filtrimist, et aidata kasutajal otsitavat hõ
 - Loomise kuupäev
 - Tarnekuupäev
 - Tarnekuupäev
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

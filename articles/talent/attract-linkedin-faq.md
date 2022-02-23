@@ -117,6 +117,3 @@ Järgmises tabelis kirjeldatakse erinevaid valikuid tööpakkumiste sisestamisek
 [LinkedIn Recruiteriga allikakandidaadid rakenduses Microsoft Dynamics 365 Talent – Attract](./attract-linkedin-recruiter.md).
 
 [Rakendusega Microsoft Dynamics 365 Talent – Attract ja LinkedIniga integreerimise tõrkeotsing](./attract-troubleshoot-linkedin.md).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

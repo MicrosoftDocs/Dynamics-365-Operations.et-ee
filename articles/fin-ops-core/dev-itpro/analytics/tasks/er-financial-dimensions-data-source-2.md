@@ -1,10 +1,12 @@
 ---
 title: Elektrooniline aruandlus. Finantsdimensioonide kasutamine andmeallikana (2. osa – mudeli vastendamine)
-description: Selles teemas kirjeldatakse, kuidas konfigureerida elektroonilise aruandluse (ER) mudelit kasutama finantsdimensioone andmeallikana ER-i aruannetele. (2. osa)
+description: Järgmistes etappides selgitatakse, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rolli määratud kasutaja saab konfigureerida elektroonilise aruandluse (ER) mudeli finantsdimensioonide kasutamiseks elektrooniliste aruannete andmeallikana.
 author: NickSelin
+manager: AnnBe
 ms.date: 05/27/2020
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, ERExpressionDesignerFormula
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bc7c6bc299dd0af83db3b09b06276a210ecfada5
-ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
+ms.openlocfilehash: 3214ddb1e077d889fb7b785bee2554b96c3907ed
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7605401"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681681"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-2---model-mapping"></a>Elektrooniline aruandlus. Finantsdimensioonide kasutamine andmeallikana (2. osa – mudeli vastendamine)
 
@@ -56,14 +58,14 @@ Nende etappide lõpule viimiseks peate esmalt viima lõpule etapid protseduuris 
 21. Valige väljal Põhikonto küsimine suvand Jah.
     * Määrake valiku „Põhikonto küsimine” väärtuseks Jah, et lasta kasutajatel valida põhikontot dimensioonide loendi osana.   Kui väärtus on Ei, ei lisata põhikontot dimensioonide loendisse ja valik „Kas põhikonto on kohustuslik” on aktiivne. Kui valiku „Kas põhikonto on kohustuslik” väärtuseks on määratud Jah, siis lisatakse põhikonto dimensioonide loendisse kasutaja valikust olenemata.  
 22. Klõpsake nuppu OK.
-![Finantsdimensioonide üksikasjade andmeallika atribuutide välja liikumine.](../media/er-financial-dimensions-guides-model-mapping1.png)
+![ER-i mudelivastenduse koostaja leht](../media/er-financial-dimensions-guides-model-mapping1.png)
 23. Valige puul väärtus Dynamics 365 for Operations \ Tabeli kirjed.
 24. Klõpsake suvandit Juure lisamine.
 25. Tippige väljale Nimi tekst LedgerJournal.
 26. Valige väljal Päringu küsimine suvand Jah.
 27. Tippige väljale Tabel tekst LedgerJournalTable.
 28. Klõpsake nuppu OK.
-![Mudeli kaardistamise kujundaja leht, tabeli kirjed andmeallika tüüp.](../media/er-financial-dimensions-guides-model-mapping2.png)
+![ER-i mudelivastenduse koostaja leht](../media/er-financial-dimensions-guides-model-mapping2.png)
 
 ## <a name="map-data-model-elements-to-added-data-sources"></a>Andmemudeli elementide vastendamine lisatud andmeallikatega
 1. Laiendage puul väärtust 'Tööleht.
@@ -94,7 +96,7 @@ Nende etappide lõpule viimiseks peate esmalt viima lõpule etapid protseduuris 
 25. Valige puult „LedgerJournal\<Seosed\LedgerJournalTrans\Account.Dimension(LedgerDimension.Dimension)\Põhikonto ja dimensioonid“.
 26. Valige puult Tööleht \ Kanne \ Dimensioonide andmed.
 27. Klõpsake valikut Seo.
-!Mudeli vastendamise kujundaja leht, vahekaart Vastendamine, andmeallikate puu.](../media/er-financial-dimensions-guides-model-mapping3.png)
+![ER-i mudelivastenduse koostaja leht](../media/er-financial-dimensions-guides-model-mapping3.png)
 28. Valige puult „LedgerJournal\<Seosed\LedgerJournalTrans\Debit(AmountCurDebit)“.
 29. Valige puult Tööleht \ Kanne \ Deebet.
 30. Klõpsake valikut Seo.
@@ -133,7 +135,7 @@ Nende etappide lõpule viimiseks peate esmalt viima lõpule etapid protseduuris 
 63. Sisestage väljale expressionAsStringText väärtus Company.'find()'.'name()'.
     * Company.'find()'.'name()'  
 64. Klõpsake nuppu Salvesta.
-![ER-i mudelivastenduse koostaja leht.](../media/er-financial-dimensions-guides-model-mapping4.png)
+![ER-i mudelivastenduse koostaja leht](../media/er-financial-dimensions-guides-model-mapping4.png)
 65. Sulgege leht.
 66. Klõpsake nuppu Salvesta.
 67. Sulgege leht.
@@ -144,7 +146,4 @@ Nende etappide lõpule viimiseks peate esmalt viima lõpule etapid protseduuris 
 3. Klõpsake valikut Muuda olekut.
 4. Klõpsake valikut Valmis.
 5. Klõpsake nuppu OK.
-![ER-i konfiguratsioonide leht.](../media/er-financial-dimensions-guides-model-mapping5.png)
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+![ER-i mudelivastenduse koostaja leht](../media/er-financial-dimensions-guides-model-mapping5.png)

@@ -1,29 +1,34 @@
 ---
 title: Puudumistaotluste loomine
 description: Selles teemas antakse ülevaade hooldustaotluste haldamise kohta varahalduses.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 10/01/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetRequestTable, EntAssetRequestWorkspace, EntAssetRequestActivePart, EntAssetRequestWorkOrderActive, EntAssetRequestType, EntAssetRequestTableCreateWO, EntAssetRequestTableLookup, EntAssetRequestTableActivePart, EntAssetMobileRequestDetails
 audience: Application User
 ms.reviewer: kamaybac
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 6d247457b83036dba2fad8fd9f94e04c29a3aa5e
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: 1e0071ae745987a1217525b2841e3320933a9242
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985249"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019625"
 ---
 # <a name="maintenance-requests"></a>Puudumistaotluste loomine
 
 [!include [banner](../../includes/banner.md)]
+
+ 
 
 Hooldustaotlused on märkmed või avaldused, mis on loodud teavitama haldurit või plaanijat, et vara võib vajada hooldust või parandustööd, kuid ilma töötellimust loomata. Kui hooldustaotluse sisu loetakse kehtivaks, saab töötellimuse seejärel hooldustaotluse põhjal luua.
 
@@ -39,7 +44,7 @@ Hooldustaotlusi saab luua iga vara kohta varahalduses. Sõltuvalt sellest, kuida
 
 Hoolduspäringute vaatamiseks valige **Varahaldus**\>**Ühised**\>**Hooldustaotlused**\>**Kõik hooldustaotlused**, **Aktiivsed hooldustaotlused** või **Minu funktsionaalse asukoha hooldustaotlused**. Iga loendileht kuvab osa hooldustaotlusega seotud teabest.
 
-![Hooldusnõuete vaatamine.](media/01-manage-maintenance-requests.png)
+![Hooldusnõuete vaatamine](media/01-manage-maintenance-requests.png)
 
 > [!NOTE]
 > Kasutage loendilehte **Minu funktsionaalse asukoha hooldustaotlused**, et vaadata hooldustaotluste loendit, mis sisaldab kas funktsionaalseid asukohti, millega olete töötajana seotud või varasid, mis on installitud funktsionaalsetele asukohtadele, millega olete töötajana seotud. (Lisateavet hooldustöötajate funktsionaalsete asukohtade häälestamise kohta vt teemast [Hooldustöötajad ja töörühmad](../setup-for-objects/workers-and-worker-groups.md).)
@@ -48,7 +53,7 @@ Hoolduspäringute vaatamiseks valige **Varahaldus**\>**Ühised**\>**Hooldustaotl
 
 Kirje üksikasjade vaate avamiseks loendilehel **Kõik hooldustaotlused** ruudustiku vaates, valige link veerus **Hooldustaotlused**.
 
-![Kuva hooldusnõude üksikasjad.](media/02-manage-maintenance-requests.png)
+![Kuva hooldusnõude üksikasjad](media/02-manage-maintenance-requests.png)
 
 Tegumiriba nupud on korraldatud vahekaartidel. Järgmises tabelis kirjeldatakse lühidalt mooduli Asse Management nuppe.
 
@@ -67,6 +72,3 @@ Tegumiriba nupud on korraldatud vahekaartidel. Järgmises tabelis kirjeldatakse 
 | Saada laenuvara                  | Saate valida laenuvara, mis peaks olema valitud hooldustaotluses valitud vara ajutiseks asenduseks. |
 | Tagastuslaenu vara                | Registreeri laenuvarad tagastatud |
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

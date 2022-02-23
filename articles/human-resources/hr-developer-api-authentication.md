@@ -2,12 +2,15 @@
 title: Autentimine
 description: See artikkel annab ülevaate teabest, kuidas autentida rakenduse Microsoft Dynamics 365 Human Resources andmete rakenduse programmeerimisliidese (API) abil.
 author: andreabichsel
+manager: AnnBe
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -15,19 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3396f0ae6d089f43c39f318dc9d92a88a7db3d7c
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: a0509ce99205d49d516e180203ffb65a1dc09a7c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070864"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4418086"
 ---
 # <a name="authentication"></a>Autentimine
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 See artikkel annab ülevaate teabest, kuidas autentida rakenduse Microsoft Dynamics 365 Human Resources andmete rakenduse programmeerimisliidese (API) abil.
 
@@ -84,13 +82,13 @@ GET https://{cluster}.hr.talent.dynamics.com/namespaces/{namespace_guid}/data/Jo
         - Veebirakenduste jaoks sisestage rakenduse baas-URL. Näiteks võib `http://localhost:31544` olla veebirakenduse URL, mis töötab teie kohalikus masinas. Kasutajad kasutavad seejärel seda URL-i, et logida sisse veebikliendi rakendusse.
         - Avalike kliendirakenduste jaoks sisestage URI, mida Azure AD kasutab loa vastuste tagastamiseks. Sisestage teie rakendusele omane väärtus, nt `myapp://auth`.
 
-        Veebirakenduste või kohalike rakenduste kohta konkreetsete näidete nägemiseks vaadake lühijuhendeid [Microsofti identiteedi platvormil (varem arendajatele suunatud Azure Active Directory)](/azure/active-directory/develop/#quickstarts).
+        Veebirakenduste või kohalike rakenduste kohta konkreetsete näidete nägemiseks vaadake lühijuhendeid [Microsofti identiteedi platvormil (varem arendajatele suunatud Azure Active Directory)](https://docs.microsoft.com/azure/active-directory/develop/#quickstarts).
 
 5. Jaotises **API load** valige suvand **Lisa luba**. Seejärel otsige vahekaardil **Minu organisatsiooni kasutatavad API-d** rakendust **Dynamics 365 Human Resources** ja lisage rakendusele luba **kasutaja\_matkimine**. Rakenduse Human Resources ID on f9be0c49-aa22-4ec6-911a-c5da515226ff. Kasutage seda ID-d, et tagada õige rakenduse valimine.
 
 6. Valige suvand **Registreeri**.
 
-   [![Azure’i portaalis uue rakenduse registreerimine.](media/api-new-app-registration-expanded.png)](media/api-new-app-registration-expanded.png#lightbox)
+   [![Azure’i portaalis uue rakenduse registreerimine](media/api-new-app-registration-expanded.png)](media/api-new-app-registration-expanded.png#lightbox)
 
 Azure AD määrab rakendusele kordumatu rakenduse ID (kliendi ID) ja viib teid rakenduse lehele **Ülevaade**. Rakendusele täiendavate võimaluste lisamiseks saate valida teisi konfiguratsiooni suvandeid, nagu tootjakohasuse ja sertifikaatide ning saladuste suvandid.
 
@@ -187,6 +185,3 @@ namespace TalentODataPoC
 ```
 
 Kui olete juurdepääsuloa juba hankinud, edastate loa autoriseerimise päises vastutaja loana koos iga taotlusega, mille saadate andmete API-le, nagu eespool kirjeldatud.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

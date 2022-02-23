@@ -1,13 +1,16 @@
 ---
 title: Kontohalduse lehed ja moodulid
-description: See teema käsitleb kontohalduse lehti ja mooduleid rakenduses Microsoft Microsoft Dynamics 365 Commerce.
+description: See teema käsitleb kontohalduse lehti ja mooduleid rakenduses Microsoft Dynamics 365 Commerce.
 author: v-chgri
-ms.date: 03/17/2021
+manager: annbe
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -15,18 +18,20 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5b26f9f83ad368a7e0fbc0ffe1263a8fec86f99b8a66ee6c4a28d5e061efbc21
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b0f963bcf65ae622522fe52fd59996c6ec0ecf17
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716246"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4411594"
 ---
 # <a name="account-management-pages-and-modules"></a>Kontohalduse lehed ja moodulid
 
 [!include [banner](includes/banner.md)]
 
-See teema käsitleb kontohalduse lehti ja mooduleid rakenduses Microsoft Microsoft Dynamics 365 Commerce.
+See teema käsitleb kontohalduse lehti ja mooduleid rakenduses Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Ülevaade
 
 Kontohaldus viitab lehtede grupile, mida kasutatakse kasutajakontoga seotud teabe haldamiseks rakenduses Dynamics 365 Commerce. Kontohalduse lehed hõlmavad kontohalduse sihtlehte, kasutajaprofiili lehte, kasutaja aadressi lehte, tellimuste ajaloo lehte, tellimuste üksikasjade lehte, püsikliendi lehte ja soovinimekirja lehte.
 
@@ -49,9 +54,9 @@ Tellimuste ajaloo leht kasutab tellimuste ajaloo moodulit, et näidata kõiki ka
 
 Tellimuste üksikasjade leht pakub iga tellimuse üksikasjalikku teavet ja sellele pääseb ligi tellimuste ajaloo lehelt. See kasutab tellimuse üksikasjade moodulit, mis nõuab tellimuse üksikasjade toomiseks müügi ID-d või kande ID-d.
 
-### <a name="my-profile-page"></a>Leht Minu reeglid
+### <a name="user-profile-page"></a>Kasutajaprofiili leht
 
-Lehekülg Minu profiil näitab profiili mooduli abil kasutaja profiili üksikasju. Lehel kuvatakse kasutaja kontoga seotud meiliaadress ja määratud konto eelistused. Kohandatud kliendi atribuutide seadistamisel kuvatakse need lisaks jaotises Lisateave. Kasutajad saavad redigeerida oma nime, eelistusi või lisateavet (kui see on saadaval).
+Kasutajaprofiili leht näitab kasutajakonto üksikasju, nagu kasutajanimi ja meiliaadress. See kasutab kasutajaprofiili üksikasju ja kasutajaprofiili redigeerimise mooduleid. Kuigi meiliaadressi ei saa eemaldada, saab seda redigeerida. Kasutajaprofiili lehel kuvatakse ka kasutaja eelistused, mis võimaldavad kasutajal valida või loobuda teatud funktsioonidest, nt soovituste loendite isikupärastamine. 
 
 ### <a name="user-address-page"></a>Kasutaja aadressi leht
 
@@ -84,6 +89,3 @@ Püsikliendiprogrammiga liitumiseks saab luua püsikliendiprogrammi registreerum
 [Päise moodul](author-header-module.md)
 
 [Jaluse moodul](author-footer-module.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

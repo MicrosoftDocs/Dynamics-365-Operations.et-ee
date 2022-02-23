@@ -2,27 +2,28 @@
 title: Ostureskontro konfigureerimise ülevaade
 description: Selles artiklis kirjeldatakse lehti, mida kasutatakse i mooduli Ostureskontro põhi- ja valikuliste funktsioonide seadistamiseks. Kirjeldatakse ka seadistamistoiminguid, mis tuleb teha enne mooduli Ostureskontro seadistamist.
 author: abruer
+manager: AnnBe
 ms.date: 07/25/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankAccountTable, DeliveryMode, PaymTerm, VendGroup, VendParameters, VendPaymMode, VendTable, DeliveryReason, DeliveryTerms, DestinationCode
 audience: Application User
 ms.reviewer: roschlom
-ms.custom:
-- "24671"
-- intro-internal
+ms.search.scope: Core, Operations
+ms.custom: 24671
 ms.assetid: 82561fe7-b2d6-464c-9347-79d0ce0f9743
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4981f317697998298ba0c1ea84d50698f135474f
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: 5eed11cbe73ede71cabf83655fc1d37b1a979a4c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984876"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4442452"
 ---
 # <a name="configure-accounts-payable-overview"></a>Ostureskontro konfigureerimise ülevaade
 
@@ -30,7 +31,8 @@ ms.locfileid: "7984876"
 
 Selles artiklis kirjeldatakse lehti, mida kasutatakse i mooduli Ostureskontro põhi- ja valikuliste funktsioonide seadistamiseks. Kirjeldatakse ka seadistamistoiminguid, mis tuleb teha enne mooduli Ostureskontro seadistamist.
 
-## <a name="prerequisites-for-accounts-payable-setup"></a>Ostureskontro seadistamise eeltingimused
+<a name="prerequisites-for-accounts-payable-setup"></a>Ostureskontro seadistamise eeltingimused
+----------------------------------------
 
 Enne ostureskontro seadistamist tuleb teha järgmine seadistus.
 
@@ -79,7 +81,7 @@ Täiendavad seadistuslehed on organiseeritud funktsioonide järgi.
 
 -   Lehel Tasukoodid saate seadistada ostutellimustel kasutatavaid tasukoode.
 -   Lehel Hankija tasude grupp saate luua ja hallata hankijate tasugruppe.
--   Lehel Kauba tasugrupid saate luua ja hallata kaupade tasugruppe.
+-   Lehel Kauba tasugrupid  saate luua ja hallata kaupade tasugruppe.
 -   Lehel Automaatsed kulud saate määratleda tellimustele automaatselt määratavad tasud.
 
 **Lisakaubad**
@@ -103,7 +105,7 @@ Täiendavad seadistuslehed on organiseeritud funktsioonide järgi.
 
 -   Lehel Skontod saate seadistada ja hallata skontode saamise tingimusi. Skonto koodid on seotud hankijatega ja neid rakendatakse ostutellimuste korral.
 -   Lehel Maksegraafikud saate seadistada maksegraafikuid, mida kasutatakse hankijatele osamaksete tegemiseks.
--   Lehel Maksepäevad saate määratleda tähtaegade arvutamiseks kasutatavad maksepäevad ja täpsustada maksepäevaks konkreetse nädalapäeva või kuu.
+-   Lehel Maksepäevad  saate määratleda tähtaegade arvutamiseks kasutatavad maksepäevad ja täpsustada maksepäevaks konkreetse nädalapäeva või kuu.
 -   Lehel Maksetasu saate luua ja hallata hankijatega seotud maksetasusid.
 -   Lehel Maksejuhis saate luua ja hallata maksejuhiseid.
 
@@ -146,6 +148,3 @@ Täiendavad seadistuslehed on organiseeritud funktsioonide järgi.
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

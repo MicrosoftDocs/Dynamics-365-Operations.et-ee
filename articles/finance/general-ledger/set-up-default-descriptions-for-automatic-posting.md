@@ -2,24 +2,27 @@
 title: Saate seadistada vaikekirjeldused automaatseks sisestamiseks
 description: Selles teemas selgitatakse, kuidas seadistada vaiketeksti, mida kasutatakse automaatselt pearaamatusse sisestatavate raamatupidamiskirjete kirjeldamiseks kasutatavat vaiketeksti. Saate seadistada vaikimisi kirjeldusteksti, kasutades vabateksti või valides fikseeritud muutujad.
 author: aprilolson
+manager: AnnBe
 ms.date: 07/23/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 222564
 ms.assetid: ''
 ms.search.region: global
 ms.author: aolson
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 89ea19753abdc4e5d4219a123a832bb3606515a43b439d5f94a9619857b6c7d0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f5fc73f636a5cac25c259ce2cbae5c5407dca9b7
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722691"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4442197"
 ---
 # <a name="set-up-default-descriptions-for-automatic-posting"></a>Saate seadistada vaikekirjeldused automaatseks sisestamiseks
 
@@ -84,6 +87,3 @@ Pärast selle teema varasemas jaotises [Vaikekirjelduste seadistamine](#set-up-d
 2. Valige väljal **Viitetabel** andmebaasi tabel, millest parameetriandmed kirjeldusse lisada.
 3. Valige väljal **Viiteväli** väli, millest parameetriandmed kirjeldusse lisada.
 4. Parameetrite lisamiseks korrake samme 1 kuni 3.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

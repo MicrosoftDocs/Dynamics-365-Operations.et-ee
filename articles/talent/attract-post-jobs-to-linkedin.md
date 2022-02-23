@@ -80,6 +80,3 @@ Kui teil on probleeme LinkedIni töökohtade postitamisega, vaadake jaotist [Lin
 [Kandidaatide hankimine teenuse LinkedIn Recruiter abil](./attract-linkedin-recruiter.md)
 
 [LinkedIniga integreerimise tõrkeotsing](./attract-troubleshoot-linkedin.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

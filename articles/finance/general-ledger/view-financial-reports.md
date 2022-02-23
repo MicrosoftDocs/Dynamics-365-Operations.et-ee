@@ -2,25 +2,28 @@
 title: Finantsaruannete vaatamine
 description: Selles teemas kirjeldatakse, kuidas kuvada ja uurida finantsaruandeid Microsoft Dynamics 365 Financeis. See sisaldab teavet mitmesuguste võimaluste kohta, mida saate finantsaruannetele rakendada, et muuta nende välimust ja andmeid, mida need sisaldavad.
 author: kweekley
+manager: AnnBe
 ms.date: 03/25/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 10334
 ms.assetid: d20f435f-fb65-4068-ab09-7efc7be683a6
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 485d8f0aee791aa577432947d74b08caf484da0a3056d8119579e9d659ca3d57
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c368259af9454af94da217585b2a1d01ea75d834
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730502"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4442367"
 ---
 # <a name="view-financial-reports"></a>Finantsaruannete vaatamine
 
@@ -28,7 +31,8 @@ ms.locfileid: "6730502"
 
 Selles teemas kirjeldatakse, kuidas kuvada ja uurida finantsaruandeid. See sisaldab teavet mitmesuguste võimaluste kohta, mida saate finantsaruannetele rakendada, et muuta nende välimust ja andmeid, mida need sisaldavad.
 
-## <a name="financial-reporting-overview"></a>Finantsaruandluse ülevaade
+<a name="financial-reporting-overview"></a>Finantsaruandluse ülevaade
+----------------------------
 
 ## <a name="open-a-financial-report"></a>Finantsaruande avamine
 Aruande avamiseks valige aruande nimi. Aruande esmakordsel avamisel koostatakse see automaatselt eelmise kuu kohta. Näiteks kui avate aruande esmakordselt augustis 2015, koostatakse aruanne 31. juuli 2015 kohta. Pärast aruande avamist saab seda uurida, minnes süvitsi konkreetsetes andmehulkades ja muutes aruande valikuid.
@@ -75,13 +79,11 @@ Kui olete prindisuvandite määramise lõpetanud, klõpsake jätkamiseks nuppu *
 ## <a name="export-a-financial-report"></a>Finantsaruande eksportimine
 Finantsaruande eksportimiseks klõpsake tegumiribal käsku **Ekspordi**. Aruanne eksporditakse Microsoft Excelisse ja brauser küsib, kas soovite eksporditud faili avada või salvestada. Aruande kujunduses määratletud ekspordisätted rakendatakse eksporditud aruandele.    
 
-## <a name="additional-resources"></a>Lisaressursid
+<a name="additional-resources"></a>Lisaressursid
+--------
 
-[Finantsaruandlus](../../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md)
-
-
-
+[Finantsaruandlus](../../dev-itpro/analytics/financial-reporting-intro.md)
 
 
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

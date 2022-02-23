@@ -2,30 +2,36 @@
 title: Eelmääratud paigutustega töötamine
 description: Selles teemas kirjeldatakse, kuidas töötada eelmääratud paigutustega rakenduses Microsoft Dynamics 365 Commerce.
 author: phinneyridge
-ms.date: 02/03/2022
+manager: annbe
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 56ad992b6a9fd6fce09cadad70b8098acdc74ac0
-ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
-ms.translationtype: MT
+ms.openlocfilehash: f31dfa1fdbb3732610748abe4a9de851033f2b89
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8090841"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4411692"
 ---
 # <a name="work-with-preset-layouts"></a>Eelmääratud paigutustega töötamine
+
 
 [!include [banner](includes/banner.md)]
 
 Selles teemas kirjeldatakse, kuidas töötada eelmääratud paigutustega rakenduses Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Ülevaade
 
 Enne selle teema protseduuride läbimist lugege kindlasti teemat [Eelseadistatud ja kohandatud paigutused](templates-layouts-overview.md#preset-and-custom-layouts). Üldise ülevaate saamiseks vt teemat [Mallide ja paigutuste ülevaade](templates-layouts-overview.md).
 
@@ -78,7 +84,7 @@ Tavaline on seadistada kõikidele eelmääratud paigutust kasutavatele lehtedele
 Kujunduse määramiseks või muutmiseks kõikidele alamlehtedele, mis kasutavad teie eelmääratud paigutust, tehke järgmist.
 
 1. Valige paigutuse redaktorist vasakult liigendpuust lehe konteineri moodul. (Tavaliselt on see moodul teine sõlm ja kannab nime **Vaikeleht**.)
-1. **Valige paremal oleva atribuutide paani kujunduses** teema.
+1. Valige kujundus paremalt atribuutide paanilt väljast **Kujundus**.
 
 ## <a name="save-check-in-preview-and-publish-a-preset-layout"></a>Eelmääratud paigutuse salvestamine, registreerimine, eelvaatamine ja avaldamine
 
@@ -91,30 +97,15 @@ Muudatuste eelvaatamiseks avage olemasolev leht, mis kasutab eelmääratud paigu
 
 Pärast eelmääratud paigutuse muudatuste vaatamist järgige üht alltoodud etappidest paigutuse avaldamiseks reaalajas saidil.
 
-1. Valige suvand **Paigutused**, valige paigutus ja seejärel käsk **Avalda**.
-1. Valige paigutuse redaktori avamiseks paigutuse nimi ja seejärel **Avalda**.
-1. Avaldage leht, mis viitab avaldamata paigutusele. Paigutus avaldatakse automaatselt.
+* Valige suvand **Paigutused**, valige paigutus ja seejärel käsk **Avalda**.
+* Valige paigutuse redaktori avamiseks paigutuse nimi ja seejärel **Avalda**.
+* Avaldage leht, mis viitab avaldamata paigutusele. Paigutus avaldatakse automaatselt.
 
 > [!WARNING]
 > Eelmääratud paigutustele saab viidata mitmelt lehelt. Kui avaldate eelmääratud paigutuse, pange tähele, et see võib mõjutada mitme lehe paigutust.
-
-## <a name="rename-a-preset-layout"></a>Eelseadistatud paigutuse ümbernimetamine
-
-Saidikoosturi eelseadistatud paigutuse ümbernimetamiseks tehke järgmist.
-
-1. Valige vasakpoolsel navigeerimispaanil **Paigutused**.
-1. Valige ümbernimetatava paigutuse paigutuse nimi.
-1. Paigutuse redigeerimise alustamiseks valige **Redigeeri**.
-1. Valige paigutuse atribuutide paanil paigutuse nime kõrval pliiatsi sümbol.
-1. Redigeerige paigutuse nime vastavalt vajadusele.
-1. Nime muutmise kinnitamiseks valige linnuke.
-1. Valige **Lõpeta redigeerimine**.
 
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Mallide ja paigutuste ülevaade](templates-layouts-overview.md)
 
 [Mallidega töötamine](work-with-templates.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

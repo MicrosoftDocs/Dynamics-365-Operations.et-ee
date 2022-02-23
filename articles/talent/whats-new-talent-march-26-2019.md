@@ -97,6 +97,3 @@ Finance and Operations-i platvormi värskendusega 25 saavad kasutajad luua teavi
 
 ### <a name="duplicate-employee-checks-user-interface-changes"></a>Topelt töötajate kontrollid: kasutajaliidese muudatused
 Selle muudatusega tuvastatakse nimeväljade sisestamisel duplikaadid ja olek näitab leitud duplikaatide arvu. Võite uue lehe avamiseks valida antud lingi, et hinnata, kas kasutada tuvastatud vastet. Andmesisestuse katkestamise vältimiseks ei avane duplikaatide vorm automaatselt.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

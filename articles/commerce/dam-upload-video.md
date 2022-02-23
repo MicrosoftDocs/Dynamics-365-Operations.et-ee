@@ -2,12 +2,15 @@
 title: Videote üleslaadimine
 description: Selle teema all kirjeldatakse, kuidas üles laadida videosid rakenduse Microsoft Dynamics 365 Commerce saidiehituses.
 author: psimolin
-ms.date: 06/09/2021
+manager: annbe
+ms.date: 03/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -15,18 +18,20 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f481e5d3f323b0c86d637b67c119d13b956d5714dc0d990004834e2be05b370e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8dd9e710f9a6ea593a0673e7902fadf84ca05cff
+ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6735626"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4594304"
 ---
 # <a name="upload-videos"></a>Videote üleslaadimine
 
 [!include [banner](includes/banner.md)]
 
 Selle teema all kirjeldatakse, kuidas üles laadida videosid rakenduse Microsoft Dynamics 365 Commerce saidiehituses.
+
+## <a name="overview"></a>Ülevaade
 
 Kaubanduse saidiehitaja meediumiteek võimaldab teil videoid üles laadida. Te peaksite alati üles laadima kõrgeima lahutuse ja kvaliteediga videoversiooni, sest video muundatakse automaatselt sobivaks erinevatele vaateportidele ja nende katkestuspunktidele.
 
@@ -35,7 +40,7 @@ Kaubanduse saidiehitaja meediumiteek võimaldab teil videoid üles laadida. Te p
 Video üleslaadimisel saab määrata järgmise teabe.
 
 - **Pealkiri, Kirjeldus, Märksõnad**: video metaandmed.
-- **Loo automaatselt suletud pealdised**: määrab, kas video jaoks luuakse automaatselt suletud pealdised (toetatud ainult inglise keeles). 
+- **Loo automaatselt suletud pealdised**: määrab, kas video jaoks luuakse automaatselt suletud pealdised.
 - **Suletud pealdis**: määrab suletud pealdised, mida kasutada.
 - **Regulaarne heli**: määrab regulaarse heliriba, mida kasutada.
 - **Pisipilt**: määrab video pisipildi. Kui see ei ole sätestatud, luuakse see automaatselt.
@@ -68,6 +73,3 @@ Kui sisestate mitut tüüpi varad üheaegselt (nt pildid ja videod), saate mää
 [Pildi keskpunktide kohandamine](dam-custom-focal-point.md)
 
 [Staatiliste failide üleslaadimine ja kasutamine](upload-serve-static-files.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

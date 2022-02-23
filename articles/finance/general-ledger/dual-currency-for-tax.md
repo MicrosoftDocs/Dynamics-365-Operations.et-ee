@@ -2,25 +2,28 @@
 title: Maksu topeltvaluuta tugi
 description: Selles teemas selgitatakse, kuidas laiendada maksudomeenis topeltvaluuta arvestuse funktsiooni ja maksude arvutamise ja sisestamise mõju
 author: EricWang
-ms.date: 12/11/2020
+manager: Ann Beebe
+ms.date: 12/16/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 449ebe55b8be7ee7ea22b4be7c44162d83fc3c2affbd4d20f4cad235ddb0f772
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9e5db8e4bbd14aa30196e3be617cdfcb72c091fd
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742200"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4442323"
 ---
 # <a name="dual-currency-support-for-sales-tax"></a>Käibemaksu topeltvaluuta tugi
 [!include [banner](../includes/banner.md)]
@@ -41,17 +44,17 @@ Lisateavet topeltvaluuta kohta vt teemast [Topeltvaluuta](dual-currency.md).
 
 Topeltvaluuta toe tulemusena on funktsiooni halduses saadaval kaks uut funktsiooni. 
 
-- Käibemaksu konverteerimine (uus versioonis 10.0.13)
-- Finantsdimensioonide sisestamine realiseeritud valuuta korrigeerimise kasumi/kahjumi kontodele käibemaksu tasakaalustamiseks (uus versioonis 10.0.17)
+- Käibemaksu teisendamine (väljaanne versioonis 10.0.9)
+- Aruandevaluuta maksu tasakaalustuse automaatne saldo (väljaanne versioonis 10.0.11)
 
-Käibemaksu topeltvaluuta tugi tagab, et maksud arvutatakse maksu valuutas täpselt ja et käibemaksu tasakaalustuse saldo arvutatakse täpselt nii arvestusvaluutas kui ka aruandlusvaluutas.
+Käibemaksu topeltvaluuta tugi tagab, et maksud arvutatakse maksu valuutas täpselt ja et käibemaksu tasakaalustuse saldo arvutatakse täpselt nii arvestusvaluutas kui ka aruandlusvaluutas. 
 
 ## <a name="sales-tax-conversion"></a>Käibemaksu teisendamine
 
 Parameeter **Käibemaksu teisendamine** pakub maksusumma kandevaluutast maksuvaluutasse teisendamiseks kaks võimalust. 
 
-- Arvestusvaluuta: teekond on „Summa kandevaluutas > Summa arvestusvaluutas > Summa maksuvaluutas”. Valuuta konverteerimiseks kasutatakse arvestusvaluuta vahetuskursi tüüpi (konfigureeritud pearaamatu seadistuses).
-- Aruandlusvaluuta: teekond on „Summa kandevaluutas > Summa aruandlusvaluutas > Summa maksuvaluutas”. Valuuta konverteerimiseks kasutatakse aruandlusvaluuta vahetuskursi tüüpi (konfigureeritud pearaamatu seadistuses).
+- Arvestusvaluuta: teekond on „Summa kandevaluutas > Summa arvestusvaluutas > Summa maksuvaluutas”. Valuuta teisendamiseks kasutatakse arvestusvaluuta vahetuskursi tüüpi (konfigureeritud pearaamatu seadistuses).
+- Aruandlusvaluuta: teekond on „Summa kandevaluutas > Summa aruandlusvaluutas > Summa maksuvaluutas”. Valuuta teisendamiseks kasutatakse aruandlusvaluuta vahetuskursi tüüpi (konfigureeritud pearaamatu seadistuses).
 
 ### <a name="example"></a>Näide
 
@@ -89,10 +92,6 @@ See funktsioon rakendub ainult uutele kannetele. Tabelis TAXTRANS juba salvestat
 
 Eelneva stsenaariumi vältimiseks soovitame muuta selle parameetri väärtust uues (puhtas) maksu tasakaalustusperioodil, mis ei sisalda ühtegi tasakaalustamata maksukannet. Selle väärtuse muutmiseks maksu tasakaalustusperioodi keskel käivitage enne selle parameetri väärtuse muutmist programm „Käibemaksu tasakaalustamine ja sisestamine” praeguse maksu tasakaalustusperioodi jaoks.
 
-See funktsioon lisab raamatupidamiskirjed, mis selgitavad valuutavahetustest saadavat kasumit ja kahjumit. Kanded tehakse realiseeritud valuuta korrigeerimise tulu ja kulu kontodel, kui ümberhindamine toimub käibemaksu tasakaalustamise ajal. Lisateabe leimiseks vaaake [Maksu tasakaalustuse automaatne saldo](#tax-settlement-auto-balance-in-reporting-currency) jaotisest selles teemas hiljem.
-
-> [!NOTE]
-> Tasakaalustuse ajal võetakse finantsdimensioonide teave käibemaksukontodelt, mis on bilansikontod, ja sisestatakse valuuta korrigeerimise tulu ja kulu kontodele, mis on kasumiaruande kontod. Kuna finantsdimensioonide väärtuse piirangud erinevad bilansikontode ning kasumiaruande kontode vahel, võib müügimaksu tasakaalustamise ja sisestamise protsessis ilmneda tõrkeid. Konto struktuuride muutmise vältimiseks saate sisse lülitada funktsiooni "Rahaliste mõõtmete täitmine käibemaksu arveldamiseks realiseeritud valuutakorrigeerimise kasumi / kahjumi kontodele". See funktsioon sunnib finantsdimensioonide tuletamist valuuta korrigeerimise kasumi/kahjumi kontodele. 
 
 ## <a name="track-reporting-currency-tax-amount"></a>Aruandlusvaluuta maksu summa jälgimine
 
@@ -146,6 +145,3 @@ Lisateavet vt järgmistest teemadest:
 - [Topeltvaluuta](dual-currency.md)
 - [Käibemaksu ülevaade](indirect-taxes-overview.md)
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

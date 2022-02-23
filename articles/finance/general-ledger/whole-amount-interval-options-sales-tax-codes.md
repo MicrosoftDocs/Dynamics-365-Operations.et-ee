@@ -1,34 +1,37 @@
 ---
 title: Kogusumma ja intervalli arvutamise valikud käibemaksukoodide puhul
-description: See teema selgitab käibemaksukoodide välja Arvutusmeetod ja seda, kuidas käibemaksu vahemike ja terviksummade puhul arvutatakse.
-author: kailiang
+description: See artikkel selgitab käibemaksukoodide välja Arvutusmeetod ja seda, kuidas käibemaksu vahemike ja terviksummade puhul arvutatakse.
+author: ShylaThompson
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxData, TaxTable
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations, Retail
 ms.custom: 5624
 ms.assetid: 96166db4-b7ca-470b-aeb7-0a66fe0554c4
 ms.search.region: Global
-ms.author: kailiang
+ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 44c4ce480de470b623f6faeff5a763bfcb05aecc
-ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
-ms.translationtype: MT
+ms.openlocfilehash: b3e18eac934eb109e8f3f509b2bd78f76dd5f74d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/31/2021
-ms.locfileid: "7726819"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4442369"
 ---
 # <a name="whole-amount-and-interval-calculation-options-for-sales-tax-codes"></a>Kogusumma ja intervalli arvutamise valikud käibemaksukoodide puhul
 
 [!include [banner](../includes/banner.md)]
 
-See teema selgitab käibemaksukoodide välja **Arvutusmeetod** ja seda, kuidas käibemaksu vahemike ja terviksummade puhul arvutatakse.
+See artikkel selgitab käibemaksukoodide välja Arvutusmeetod ja seda, kuidas käibemaksu vahemike ja terviksummade puhul arvutatakse.
 
-Saate seadistada käibemaksukoodi arvutamise kogusumma või intervallisumma põhjal. Valige käibemaksukoodi arvutamise viis lehe **Käibemaksukoodid** kiirkaardi **Arvutamine** väljal **Arvutusmeetod**.
+Saate seadistada käibemaksukoodi arvutamise kogusumma või intervallisumma põhjal. Valige käibemaksukoodi arvutamise viis lehe Käibemaksukoodid kiirkaardi Arvutamine väljal Arvutusmeetod.
 - Kogusumma – maksumäära rakendatakse kogu maksustatavale summale.
 - Intervall – maksustatav summa on jagatud osadeks, millest igaüks langeb kindla käibemaksumäärata vahemikku. Osa summast, mis langeb antud intervalli, maksustatakse selle intervalli maksumäära järgi. Käibemaks on iga summa intervalli kohta arvutatud maksusummade summa.
   > [!NOTE]                                                                                                                              
@@ -44,8 +47,9 @@ Kui summa on eelmise intervalli ülempiir ja järgmise intervalli alampiir, rake
 ## <a name="example-whole-amount-method-of-calculation"></a>Näide. Arvutamismeetod: kogusumma
 Lehel Käibemaksukoodid seadistatakse käibemaksumäärad järgmiste intervallidega.
 
-| Alampiir     | Ülempiir     | Maksumäär     |
+|                   |                   |              |
 |-------------------|-------------------|--------------|
+| **Alampiir** | **Ülempiir** | **Maksumäär** |
 | 0,00              | 50,00             | 30%          |
 | 50,00             | 100,00            | 20%          |
 | 100,00            | 0,00              | 10%          |
@@ -62,8 +66,9 @@ Käibemaks arvutatakse kogu maksustatava summa kohta.
 ## <a name="example-interval-method-of-calculation"></a> Näide. Arvutusmeetod: intervall
 Lehel Väärtused seadistatakse käibemaksumäärad järgmiste intervallidega.
 
-| Alampiir     | Ülempiir     | Maksumäär     |
+|                   |                   |              |
 |-------------------|-------------------|--------------|
+| **Alampiir** | **Ülempiir** | **Maksumäär** |
 | 0,00              | 50,00             | 30%          |
 | 50,00             | 100,00            | 20%          |
 | 100,00            | 0,00              | 10%          |
@@ -85,6 +90,3 @@ Lisateabe saamiseks vaadake teemat [Käibemaksumäärad väljade Marginaali alus
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

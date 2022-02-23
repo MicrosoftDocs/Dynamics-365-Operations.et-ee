@@ -1,24 +1,26 @@
 ---
 title: Teatisereeglite loomine
-description: Selles teemas antakse teavet teatiste kohta ja selgitatakse teatisereegli loomist.
-author: RichdiMSFT
+description: Selles teemas antakse teavet teatiste kohta ja selgitatakse, kuidas luua teatisereeglit selliselt, et saaksite teavitusi selliste sündmuste kohta nagu saabuv kuupäev või konkreetne muudatus.
+author: tjvass
+manager: AnnBe
 ms.date: 10/08/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EventCreateRule
 audience: Application user
 ms.reviewer: sericks
 ms.search.region: Global
-ms.author: richdi
+ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: 597785e65f127794ca84fe3053a664f717b056bd7374e0396732d4bcf59a743c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3721416ce720167a6f78e26583de84af9c8d086b
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736194"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798423"
 ---
 # <a name="create-alert-rules"></a>Teatisereeglite loomine
 
@@ -100,8 +102,3 @@ Saate luua teatisi osade vormi teisaste andmeallikate jaoks. Näiteks kui teatis
     ```
 2. Looge teatis vormis SysTableBrowser.
 
-### <a name="change-based-alerts-do-not-work-for-batch-status-changes"></a>Muutusel põhinevad teatised ei tööta partii oleku muudatuste puhul
-Muutusel põhinevad teatised ei tööta partii oleku muudatustega, kuna see on jõudluse huvides välja lülitatud. Selle asemel tuleks seadistada **pakktöötluse** teatiste võimalus. Lisateavet vt teatiste seadistamine [pakett-töö täiustatud vormide](../../dev-itpro/sysadmin/alerts.md#set-up-alerts-for-batch-enhanced-forms) jaoks.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

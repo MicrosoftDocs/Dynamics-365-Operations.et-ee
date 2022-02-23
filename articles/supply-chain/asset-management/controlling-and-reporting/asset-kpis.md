@@ -1,10 +1,12 @@
 ---
 title: Vara KPI-d
 description: Selles teemas tutvustatakse vara KPI-sid varahalduses.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 08/23/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetObjectKPI
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8bdc60d993a784ffc123d36b5e51cbd6028316f18a2dee6f4ee134a93ffc024e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f75db96926e72bab80d0a65ce6f0ab3a92590699
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778744"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021776"
 ---
 # <a name="asset-kpis"></a>Vara KPI-d
 
@@ -82,11 +84,8 @@ Allolevast tabelist leiate lehel **Vara KPI-d** olevate väljade kirjelduse.
 
 Allolev joonisel on näha kuvatõmmis nelja vara KPI-de arvutusest.
 
-![KPI arvutuse kuvatõmmis nelja vara kohta.](media/11-controlling-and-reporting.png)
+![KPI arvutuse kuvatõmmis nelja vara kohta](media/11-controlling-and-reporting.png)
 
 - Saate mitmikvaliku abil valida mitu vara suvandis **Kõik varad** ja klõpsata nuppu **Vara KPI-d** vahekaardil **Üldine**. Seejärel klõpsake **OK** dialoogiboksis **Arvuta vara KPI-d**, et arvutada valitud varade KPI-d.  
 - KPI arvutuse tulemuste hulgas võib sisalduda või mitte sisalduda [hoolduskatkestuste registreeringud](../work-orders/maintenance-downtime.md), sõltuvalt hoolduskatkestuse põhjuse koodide seadistusest ja kasutusest. 
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

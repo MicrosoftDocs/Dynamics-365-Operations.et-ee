@@ -2,9 +2,11 @@
 title: ER-vormingute konfigureerimine juriidilise isiku kohta määratud parameetrite kasutamiseks
 description: Selles teemas selgitatakse, kuidas saab konfigureerida elektroonilise aruandluse (ER) vorminguid juriidilise isiku kohta määratud parameetrite kasutamiseks.
 author: NickSelin
-ms.date: 04/02/2021
+manager: AnnBe
+ms.date: 10/26/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERSolutionTable, EROperationDesigner, ERLookupDesigner, ERComponentLookupStructureEditing
 audience: Application User, Developer, IT Pro
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 2bf4d1ecad3e25299df7c87ffa2236736ddcac300a5ded779616b25920745d7e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0ed1442403ae82dfc820212e3e235737f37f21a4
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765828"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679722"
 ---
 # <a name="configure-er-formats-to-use-parameters-that-are-specified-per-legal-entity"></a>ER-vormingute konfigureerimine juriidilise isiku kohta määratud parameetrite kasutamiseks
 
@@ -28,7 +30,7 @@ ms.locfileid: "6765828"
 
 ## <a name="overview"></a>Ülevaade
 
-Paljudes elektroonilise aruandluse (ER) vormingutes, mida loote, peate andmeid filtreerima, kasutades väärtuste kogumit, mis on omane igale teie eksemplari juriidilisele isikule (nt maksukoodide kogum maksukannete filtreerimiseks). Kui praegu on filtreerimine konfigureeritud ER-vormingus, kasutatakse andmete filtreerimisreeglite määratlemiseks ER-vormingu avaldistes väärtusi, mis sõltuvad juriidilisest isikust (nt maksukoode). Seetõttu on ER-vorming muudetud juriidilisele isikule omaseks, ja vajalike aruannete loomist peate looma tuletatud koopiad algsest ER-vormingust iga juriidilise isiku kohta, kus tuleb ER-vormingut käitada. Iga tuletatud ER-vormingut tuleb redigeerida, et tuua sellesse juriidilise isiku põhised väärtused, muuta alust iga kord, kui algversiooni (alust) värskendatakse, eksportida katsekeskkonnast ja importida tootmiskeskkonda, kui see tuleb juurutada kasutamiseks tootmises, jne. Seetõttu on seda tüüpi konfigureeritud ER-lahenduse hooldus keeruline ja aeganõudev mitmel põhjusel.
+Paljudes elektroonilise aruandluse (ER) vormingutes, mida loote, peate andmeid filtreerima, kasutades väärtuste kogumit, mis on omane igale teie eksemplari juriidilisele isikule (nt maksukoodide kogum maksukannete filtreerimiseks). Kui praegu on filtreerimine konfigureeritud ER-vormingus, kasutatakse andmete filtreerimisreeglite määratlemiseks ER-vormingu avaldistes väärtusi, mis sõltuvad juriidilisest isikust (nt maksukoode). Seetõttu on ER-vorming muudetud juriidilisele isikule omaseks, ja vajalike aruannete loomist peate looma tuletatud koopiad algsest ER-vormingust iga juriidilise isiku kohta, kus tuleb ER-vormingut käitada. Iga tuletatud ER-vormingut tuleb redigeerida, et tuua sellesse juriidilise isiku põhised väärtused, muuta alust iga kord, kui algversiooni (alust) värskendatakse, eksportida katsekeskkonnast ja importida tootmiskeskkonda, kui see tuleb juurutada kasutamiseks tootmises, jne. Seetõttu on seda tüüpi konfigureeritud ER-lahenduse hooldus üsna keeruline ja aeganõudev mitmel põhjusel.
 
 -   Mida rohkem on juriidilisi isikuid, seda rohkem ER-vormingu konfiguratsioone tuleb hooldada.
 -   ER-konfiguratsioonide hoolduseks peavad ärikasutajatel olema ER-alased teadmised.
@@ -47,14 +49,14 @@ Soovitame läbida etapid teemas [ARVUTATUD VÄLJATÜÜBI ER-andmeallikate parame
 
 ## <a name="import-er-configurations-into-rcs"></a>ER-konfiguratsioonide importimine RCS-i
 
-Laadige alla ja salvestage kohalikult järgmised ER-i konfiguratsioonid.
+Laadige [Microsofti allalaadimiskeskusest](https://go.microsoft.com/fwlink/?linkid=851448) alla tihendatud fail **ARVUTATUD VÄLJATÜÜBI ER-andmeallikate parameetritega kõned**. See tihendatud fail sisaldab järgmisi ER-konfiguratsioone, mida tuleb kohapeal ekstraktida ja säilitada.
 
 | **Sisu kirjeldus**                        | **Faili nimi**                                        |
 |------------------------------------------------|------------------------------------------------------|
-| **ER-i andmemudeli** konfiguratsioonifaili näidis    | [Mudel parameetritega calls.version.1.xml õppimiseks](https://download.microsoft.com/download/2/d/b/2db913a0-3622-494e-91a2-97fc494af9b9/Modeltolearnparameterizedcalls.version.1.xml)     |
-| **ER-i metaandmete** konfiguratsioonifaili näidis      | [Metaandmed parameetritega calls.version.1.xml õppimiseks](https://download.microsoft.com/download/1/b/3/1b343968-5a47-4000-b5a8-6487698ef4c0/Metadatatolearnparameterizedcalls.version.1.xml)  |
-| **ER-i mudelivastenduse** konfiguratsioonifaili näidis | [Vastendamine parameetritega calls.version.1.xml õppimiseks](https://download.microsoft.com/download/8/6/6/866e0ab6-2e05-4d98-9d52-d2da2038f6e4/Mappingtolearnparameterizedcalls.version.1.1.xml) |
-| **ER-vormingu** konfiguratsiooni näidis             | [Vorming parameetritega calls.version.1.xml õppimiseks](https://download.microsoft.com/download/e/3/9/e392eadc-b9b4-4834-95c3-b8066dd00b9c/Formattolearnparameterizedcalls.version.1.1.xml)  |
+| **ER-i andmemudeli** konfiguratsioonifaili näidis    | Mudel parameetritega calls.version.1.xml õppimiseks     |
+| **ER-i metaandmete** konfiguratsioonifaili näidis      | Metaandmed parameetritega calls.version.1.xml õppimiseks  |
+| **ER-i mudelivastenduse** konfiguratsioonifaili näidis | Vastendamine parameetritega calls.version.1.xml õppimiseks |
+| **ER-vormingu** konfiguratsiooni näidis             | Vorming parameetritega calls.version.1.xml õppimiseks  |
 
 Järgmiseks logige sisse oma RCS-eksemplari.
 
@@ -78,17 +80,17 @@ Selles näites loote konfiguratsiooni näidisettevõttele Litware, Inc. Enne sel
 
     ER-vorming **Vorming parameetritega kõnede õppimiseks** on mõeldud XML-vormingus maksudeklaratsiooni loomiseks, millel kujutatakse mitut maksustamistaset (tavaline, vähendatud ja puudub). Igal tasemel on erinev arv üksikasju.
 
-    ![ER-vormingu mitu taset, vorming parameetritega kutsete saamiseks.](./media/RCS-AppSpecParms-ReviewFormat.PNG)
+    ![ER-i toimingu koostaja leht](./media/RCS-AppSpecParms-ReviewFormat.PNG)
 
 5.  Laiendage vahekaardil **Vastendamine** üksusi **Mudel**, **Andmed** ja **Kokkuvõte**.
 
     Andmeallikas **Model.Data.Summary** tagastab maksukannete loendi. Need kanded on kokku võetud maksukoodi järgi. Selle andmeallika jaoks on arvutatud väli **Model.Data.Summary.Level** konfigureeritud tagastama iga kokku võetud kirje maksustamistaseme koodi. Iga maksukoodi kohta, mida saab käitusajal tuua andmeallikast **Model.Data.Summary**, tagastab arvutatud väli maksustamistaseme koodi (**Tavaline**, **Vähendatud**, **Puudub** või **Muu**) tekstväärtusena. Arvutatud välja **Model.Data.Summary.Level** kasutatakse andmeallika **Model.Data.Summary** kirjete filtreerimiseks ja filtreeritud andmete sisestamiseks igasse XML-elementi, mis kujutavad maksustamistaset, kasutades välju **Model.Data2.Level1**, **Model.Data2.Level2** ja **Model.Data2.Level3**.
 
-    ![Mudel.Andmed.Kokkuvõte andmeallikas maksukannete loendist.](./media/RCS-AppSpecParms-ReviewFormat-Data2Fld.PNG)
+    ![ER-i toimingu koostaja leht](./media/RCS-AppSpecParms-ReviewFormat-Data2Fld.PNG)
 
-    Arvutatud väli **Model.Data.Summary.Level** on konfigureeritud nii, et see sisaldab ER-i avaldist. Maksukoodid (**VAT19**, **InVAT19**, **VAT7**, **InVAT7**, **THIRD** ja **InVAT0**) on sellesse konfiguratsiooni püsiprogrammeeritud. Seetõttu oleneb see ER-vorming juriidilisest isikust, kus maksukoodid konfigureeriti.
+    Arvutatud väli **Model.Data.Summary.Level** on konfigureeritud nii, et see sisaldab ER-i avaldist. Pange tähele, et maksukoodid (**VAT19**, **InVAT19**, **VAT7**, **InVAT7**, **THIRD** ja **InVAT0**) on sellesse konfiguratsiooni püsiprogrammeeritud. Seetõttu oleneb see ER-vorming juriidilisest isikust, kus maksukoodid konfigureeriti.
 
-    ![Mudel.Andmed.Kokkuvõte.Tasandi kalkuleeritud väli koos püsiprogrammeeritud maksukoodidega.](./media/RCS-AppSpecParms-ReviewFormat-LevelFld.PNG)
+    ![ER-i toimingu koostaja leht](./media/RCS-AppSpecParms-ReviewFormat-LevelFld.PNG)
 
     Muu maksukoodide kogumi toetamiseks iga juriidilise isiku jaoks peate järgima järgmisi etappe.
 
@@ -128,7 +130,7 @@ Järgmiseks lisage uus ER-vormingu loetelu. Selle vormingu loetelu väärtused e
 12. Valige uuesti käsk **Lisa**.
 13. Väljale **Nimi** sisestage **Muu**.
 
-    ![Uus kirje Vormingu loetelude lehel.](./media/RCS-AppSpecParms-ConfigureFormat-Enum.PNG)
+    ![ER-i toimingu koostaja leht](./media/RCS-AppSpecParms-ConfigureFormat-Enum.PNG)
 
     Kuna ärikasutajad võivad kasutada erinevaid keeli juriidilisest isikust sõltuvate maksukoodide kogumite määramiseks, soovitame teil tõlkida selle loetelu väärtused keeltesse, mis on konfigureeritud eelistatud keeltena nende kasutajate jaoks Finance’is.
 
@@ -141,7 +143,7 @@ Järgmiseks lisage uus ER-vormingu loetelu. Selle vormingu loetelu väärtused e
 20. Sisestage väljale **Tõlgitud tekst** väärtus **keine Besteuerung**.
 21. Valige käsk **Tõlgi**.
 
-    ![Teksti tõlke välja libisemine.](./media/RCS-AppSpecParms-ConfigureFormat-EnumTranslate.PNG)
+    ![ER-i toimingu koostaja leht](./media/RCS-AppSpecParms-ConfigureFormat-EnumTranslate.PNG)
 
 22. Valige käsk **Salvesta**.
 23. Sulgege leht **Vormingu loetelud**.
@@ -153,12 +155,12 @@ Järgmiseks lisage uus andmeallikas määramaks, kuidas ärikasutajad määravad
 1.  Valige vahekaardil **Vastendamine** käsk **Lisa**.
 2.  Valige suvand **Vormingu loetelu\otsing**.
 
-    Tuvastasite äsja, et iga reegel, mille ärikasutajad määravad maksustamistaseme tuvastamiseks, tagastavad ER-vormingu loetelu väärtuse. Pange tähele, et andmeallika tüübile **Otsing** pääseb ligi jaotisest **Andmemudel** ja **Dynamics 365 for Operations** i plokkidest lisaks plokile **Vormingu loetelu**. Seetõttu saab ER-i andmemudeli loetelusid ja rakenduse loetelusid kasutada väärtuste määramiseks, mis tagastatakse seda tüüpi andmeallikate kohta. Lisateavet **otsingu** andmeallikate kohta leiate teemast [Otsingu andmeallikate konfigureerimine ER-i rakendusekohaste parameetrite funktsiooni kasutamiseks](er-lookup-data-sources.md).
+    Tuvastasite äsja, et iga reegel, mille ärikasutajad määravad maksustamistaseme tuvastamiseks, tagastavad ER-vormingu loetelu väärtuse. Pange tähele, et andmeallika tüübile **Otsing** pääseb ligi jaotisest **Andmemudel** ja **Dynamics 365 for Operations** i plokkidest lisaks plokile **Vormingu loetelu**. Seetõttu saab ER-i andmemudeli loetelusid ja rakenduse loetelusid kasutada väärtuste määramiseks, mis tagastatakse seda tüüpi andmeallikate kohta.
     
 3.  Väljale **Nimi** sisestage suvand **Valija**.
 4.  Väljalt **Vormingu loetelu** valige väärtus **Maksustamistasemete loend**.
 
-    Määrasite, et iga selles andmeallikas määratud reegli kohta peab ärikasutaja valima ühe vormingu loetelu **Maksustamistasemete loend** väärtuse tagastatud väärtusena.
+    Määrasite äsja, et iga selles andmeallikas määratud reegli kohta peab ärikasutaja valima ühe vormingu loetelu **Maksustamistasemete loend** väärtuse tagastatud väärtusena.
     
 5.  Valige suvand **Otsingu redigeerimine**.
 6.  Valige suvand **Veerud**.
@@ -168,13 +170,13 @@ Järgmiseks lisage uus andmeallikas määramaks, kuidas ärikasutajad määravad
 10. Valige üksus **Model.Data.Tax.Code**.
 11. Valige nupp **Lisa** (paremnool).
 
-    ![Veerud libisevad välja.](./media/RCS-AppSpecParms-ConfigureFormat-Lookup1.PNG)
+    ![ER-i toimingu koostaja leht](./media/RCS-AppSpecParms-ConfigureFormat-Lookup1.PNG)
 
     Määrasite äsja, et iga maksustamistaseme tuvastamise selles andmeallikas määratud reegli kohta peab ärikasutaja valima tingimuseks ühe maksukoodi. Maksukoodide loend, mida ärikasutaja saab valida, tagastatakse andmeallikaga **Model.Data.Tax**. Kuna see andmeallikas sisaldab välja **Nimi**, kuvatakse maksukoodi nimi iga maksukoodi väärtuse kohta otsingus, mis esitatakse ärikasutajale.
     
 12. Valige nupp **OK**.
 
-    ![Otsingukujundaja leht.](./media/RCS-AppSpecParms-ConfigureFormat-Lookup2.PNG)
+    ![ER-i toimingu koostaja leht](./media/RCS-AppSpecParms-ConfigureFormat-Lookup2.PNG)
 
     Ärikasutajad saavad lisada selle andmeallika kirjetena mitu reeglit. Iga kirje nummerdatakse rea koodi järgi. Reegleid hinnatakse rea numbrite kasvavas järjekorras.
 
@@ -188,13 +190,13 @@ Järgmiseks lisage uus andmeallikas määramaks, kuidas ärikasutajad määravad
 
     Pange tähele, et kui lisasite uue andmeallika, tagastab see maksustamistaseme vormingu loetelu **Maksustamistasemete loend** väärtuse mis tahes maksukoodi kohta, mis edastatakse andmeallikale andmetüübi **String** parameetri **Kood** argumendina.
     
-    ![Vormingukujundaja leht koos uue andmeallikaga.](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFld.PNG)
+    ![ER-i toimingu koostaja leht](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFld.PNG)
 
-    Konfigureeritud reeglite hindamine oleneb väljade andmetüübist, mis on valitud määratlema nende reeglite tingimusi. Kui valite välja, mis on konfigureeritud väljaks andmetüübile **Numbriline** või **Kuupäev**, erinevad kriteeriumid kriteeriumitest, mida kirjeldati varem andmetüübi **String** kohta. Väljade **Numbriline** ja **Kuupäev** korral tuleb reegel määrata väärtuste vahemikuna. Reegli tingimust peetakse täidetuks, kui andmeallikale edastatud väärtus jääb konfigureeritud vahemikku.
+    Pange tähele, et konfigureeritud reeglite hindamine oleneb väljade andmetüübist, mis on valitud määratlema nende reeglite tingimusi. Kui valite välja, mis on konfigureeritud väljaks andmetüübile **Numbriline** või **Kuupäev**, erinevad kriteeriumid kriteeriumitest, mida kirjeldati varem andmetüübi **String** kohta. Väljade **Numbriline** ja **Kuupäev** korral tuleb reegel määrata väärtuste vahemikuna. Reegli tingimust peetakse täidetuks, kui andmeallikale edastatud väärtus jääb konfigureeritud vahemikku.
     
     Järgmisel joonisel on näide seda tüüpi seadistuse kohta. Peale välja **Model.Data.Tax.Code** andmetüübi **String** korral kasutatakse otsingu andmeallika tingimuste määramiseks välja **Model.Tax.Summary.Base** andmetüübi **Tegelik** korral.
     
-    ![Otsingukujundaja leht lisaveergudega.](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFld2.PNG)
+    ![ER-i toimingu koostaja leht](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFld2.PNG)
 
     Kuna selle otsingu andmeallika jaoks valitakse väljad **Model.Data.Tax.Code** ja **Model.Tax.Summary.Base**, konfigureeritakse selle andmeallika iga reeglit järgmiselt.
     
@@ -223,7 +225,7 @@ Kuna ärikasutajad võivad kasutada erinevaid keeli juriidilisest isikust sõltu
 9.  Valige käsk **Tõlgi**.
 10. Valige nupp **OK**.
 
-    ![Andmeallika atribuudid libisevad välja.](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFldTranslate.PNG)
+    ![ER-i toimingu koostaja leht](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFldTranslate.PNG)
 
 ### <a name="add-a-new-field-to-consume-the-configured-lookup"></a>Konfigureeritud otsingu kasutamiseks uue välja lisamine
 
@@ -236,16 +238,16 @@ Kuna ärikasutajad võivad kasutada erinevaid keeli juriidilisest isikust sõltu
 7.  Sisestage väljale **Valem** väärtus **Model.Selector(Model.Data.Summary.Code)**.
 8.  Valige käsk **Salvesta**.
 
-    ![Mudeleid lisama.Valija(Mudel.Andmed.Kokkuvõte.Kood) vormingudisaineri lehele.](./media/RCS-AppSpecParms-ConfigureFormat-AddLevelByLookupFld.PNG)
+    ![ER-i toimingu koostaja leht](./media/RCS-AppSpecParms-ConfigureFormat-AddLevelByLookupFld.PNG)
 
 9.  Sulgege leht **Valemiredaktor**.
 10. Valige nupp **OK**.
 
-    ![Vormingukujundaja leht koos uue lisatud vorminguga.](./media/RCS-AppSpecParms-ConfigureFormat-AddLevelByLookupFld2.PNG)
+    ![ER-i toimingu koostaja leht](./media/RCS-AppSpecParms-ConfigureFormat-AddLevelByLookupFld2.PNG)
 
     Pange tähele, et lisatud arvutatud väli **LevelByLookup** tagastab iga kokkuvõtliku maksukande kirje kohta vormingu loetelu **Maksustamistasemete loend** väärtusena maksustamistaseme. Kirje maksukood edastatakse otsingu andmeallikale **Model.Selector** ja selle andmeallika reeglite kogumit kasutatakse õige maksustamistaseme valimiseks.
 
-### <a name="add-a-new-format-enumeration-based-data-source&quot;></a>Uue vormingu loetelul põhineva andmeallika lisamine
+### <a name="add-a-new-format-enumeration-based-data-source"></a>Uue vormingu loetelul põhineva andmeallika lisamine
 
 Järgmiseks lisage uus andmeallikas, mis viitab varem lisatud vormingu loetelule. Selle andmeallika väärtusi kasutatakse hiljem ER-vormingu avaldises.
 
@@ -255,7 +257,7 @@ Järgmiseks lisage uus andmeallikas, mis viitab varem lisatud vormingu loetelule
 4.  Väljalt **Vormingu loetelu** valige väärtus **Maksustamistasemete loend**.
 5.  Valige käsk **Salvesta**.
 
-### <a name=&quot;modify-an-existing-field-to-start-to-use-the-lookup&quot;></a>Olemasoleva välja muutmine otsingu kasutamise alustamiseks
+### <a name="modify-an-existing-field-to-start-to-use-the-lookup"></a>Olemasoleva välja muutmine otsingu kasutamise alustamiseks
 
 Järgmiseks muutke olemasolevat arvutatud välja nii, et see kasutaks konfigureeritud otsingu andmeallikat õige maksustamistaseme väärtuse tagastamiseks olenevalt maksukoodist.
 
@@ -265,11 +267,11 @@ Järgmiseks muutke olemasolevat arvutatud välja nii, et see kasutaks konfiguree
 
     Pange tähele, et välja **Model.Data.Summary.Level** praegune avaldis sisaldab järgmisi püsiprogrammeeritud maksukoode:
     
-    CASE (@.Code, &quot;VAT19&quot;, &quot;Regular&quot;, &quot;InVAT19&quot;, &quot;Regular&quot;, &quot;VAT7&quot;, &quot;Reduced&quot;, &quot;InVAT7&quot;, &quot;Reduced&quot;, &quot;THIRD&quot;, &quot;None&quot;, &quot;InVAT0&quot;, &quot;None&quot;, &quot;Other")
+    CASE (@.Code, "VAT19", "Regular", "InVAT19", "Regular", "VAT7", "Reduced", "InVAT7", "Reduced", "THIRD", "None", "InVAT0", "None", "Other")
 
 4.  Sisestage väljale **Valem** väärtus **CASE(@.LevelByLookup, TaxationLevel.'Regular taxation', "Regular", TaxationLevel.'Reduced taxation', "Reduced", TaxationLevel.'No taxation', "None", "Other")**.
 
-    ![ER-i toimingu koostaja leht.](./media/RCS-AppSpecParms-ConfigureFormat-ChangeLookupFld.PNG)
+    ![ER-i toimingu koostaja leht](./media/RCS-AppSpecParms-ConfigureFormat-ChangeLookupFld.PNG)
     
     Pange tähele, et välja **Model.Data.Summary.Level** avaldis tagastab nüüd maksustamistaseme, lähtudes praeguse kirje maksukoodist ja reeglite kogumist, mille ärikasutaja konfigureerib otsingu andmeallikas **Model.Data.Selector**.
     
@@ -281,7 +283,7 @@ Järgmiseks muutke olemasolevat arvutatud välja nii, et see kasutaks konfiguree
 
 ## <a name="complete-the-draft-version-of-a-derived-format"></a>Tuletatud vormingu mustandversiooni lõpetamine
 
-1.  Vahekaardil **Versioonid** valige **Muuda olekut**.
+1.  Valige kiirkaardil **Versioonid** käsk **Muuda olekut**.
 2.  Valige **Lõpeta**.
 3.  Valige nupp **OK**.
 
@@ -306,9 +308,4 @@ Selleks et õppida konfigureeritud ER-vormingut **Vorming LE-andmete otsingu õp
 
 [Valemikoostaja elektroonilises aruandluses](general-electronic-reporting-formula-designer.md)
 
-[Elektroonilise aruandluse vormingu parameetrite häälestus juriidilise isiku kohta](er-app-specific-parameters-set-up.md)
-
-[Andmeallikate otsingu konfigureerimine kasutama ER-i rakendusepõhiseid parameetrite funktsioone](er-lookup-data-sources.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+[ER-vormingu parameetrite seadistamine juriidilise isiku kohta](er-app-specific-parameters-set-up.md)

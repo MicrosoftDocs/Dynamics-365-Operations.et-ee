@@ -2,23 +2,26 @@
 title: Kassa (POS) täiustused seerianumbritega toodete jaoks
 description: Selles teemas käsitletakse täiustusi, mis on tehtud seerianumbriga toodetes, et säästaksite aega ja saaksite olla produktiivsemad.
 author: ShalabhjainMSFT
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-08-01
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 9b988e8046fadad4579a12966a5031929202e7411f00ca8e0de149380ddb34fc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bf3a6a2b713e5fe1fe22ae886080945e7a87c9b2
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741752"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4411791"
 ---
 # <a name="point-of-sale-pos-improvements-for-serialized-products"></a>Kassa (POS) täiustused seerianumbritega toodete jaoks
 
@@ -39,6 +42,3 @@ Commerce Headquartersi sätete põhjal saab tooted liigitada seerianumbriga või
 - **Klienditellimuste esitamiseks pole seerianumbrid nõutavad** – klienditellimusi saab esitada ühest poest ja täita teisest. Kassapidaja, kes esitab klienditellimuse, ei pea seerianumbrit sisestama. Seerianumber sisestatakse komplekteerimise või pealevõtmise etapis. Kuid seerianumber tuleb sisestada kõigile reaüksustele, millele on valitud tarne tüüp **Sularahatarne**. Vastasel juhul ei saa kannet lõpule viia.
 - **Seerianumbriga tooteid ei liideta kande ekraanil** – säte **Liida tooted** lehe **Funktsiooniprofiil** väljal **Terminal** võimaldab liita kande ekraanil samad seerianumbrita tooted. Samade toodete liitmisel on neid kande ruudustikus lihtsam näha. Kuid kuna seerianumbrid on üldiselt kordumatud ja müüjad ei pea sisestama seerianumbreid enne maksmist, ei kohaldu säte **Liida tooted** seerianumbriga toodetele. Seetõttu ei liideta seerianumbriga tooteid kande ekraanil, kui on valitud säte **Liida tooted**.
 - **Võimalus otsida töölehti seerianumbri järgi** – nüüdsest saab töölehtede otsimiseks täiendavalt kasutada seerianumbreid. Selleks avage toiming „Töölehed” ja vajutage rakenduseribal nuppu „Täpsem otsing”. Seerianumbreid saate otsida, kui rakendate filtri, kasutades nuppu „Lisa filter”.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

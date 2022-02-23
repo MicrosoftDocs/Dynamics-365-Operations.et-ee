@@ -1,28 +1,28 @@
 ---
-title: Rakenduse Human Resources ülevaade
-description: Inimressursside lihtsustamise rutiin arhiveerimisülesannete jaoks automatiseerib organisatsiooni töötajatega varustamise protsesse ja pakub raamistikku personaliosakonna töötajatele ülevaadatud alade haldamiseks.
+title: Inimressursside ülevaade
+description: Inimressursside moodul hõlbustab paljusid rutiinseid andmesäilitustoiminguid ja automatiseerib teie organisatsiooni personalitegevuste protsesse. Samuti annab see personaliosakonna töötajatele raamistiku ülevaatamisega seotud valdkondade juhtimiseks. Need valdkonnad on töötajate töölevõtmine ja hoidmine, hüvitiste haldamine, koolitus, tulemuste ülevaated ja muudatuste juhtimine.
 author: andreabichsel
+manager: AnnBe
 ms.date: 07/25/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: anbichse
-ms.custom:
-- "20931"
-- intro-internal
+ms.custom: 20931
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9cd7ce1268dd1aeae142e85fdd3ea2d9faa0a659
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: b2c23cda87060ecb129befcc67c5b54f2f062bb3
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983125"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797813"
 ---
-# <a name="human-resources-overview"></a>Rakenduse Human Resources ülevaade
+# <a name="human-resources-overview"></a>Inimressursside ülevaade
 
 [!include [banner](../includes/banner.md)]
 
@@ -44,38 +44,38 @@ Saate inimressursse kasutada, et teha järgmist.
 
 Inimressurssidega töötamisel saate otsustada kuidas struktureerida oma organisatsiooni, kasutades elemente, nagu osakonnad, tööd ja ametikohad. Need kuuluvad põhielementide hulka, mida saate inimressurssides konfigureerida. Üksikud töötajad määratakse ametikohtadele, mis on seotud töödega.
 
-- [Tööjõu korraldamine osakondade, tööde ja ametikohtade abil](../../../human-resources/hr-personnel-departments-jobs-positions.md)
-- [Ettevõttekohaste inimressursside (HR) parameetrite seadistamine](../../../human-resources/hr-setup-parameters.md)
-- [Juriidilistele isikutele inimressursside (HR) parameetrite seadistamine](../../../human-resources/hr-setup-shared-parameters.md)
+- [Tööjõu korraldamine osakondade, tööde ja ametikohtade abil](../../../talent/departments-jobs-positions.md)
+- [Ettevõttekohaste inimressursside (HR) parameetrite seadistamine](../../../talent/set-up-company-specific-hr-parameters.md)
+- [Juriidilistele isikutele inimressursside (HR) parameetrite seadistamine](../../../talent/set-up-hr-parameters-across-legal-entities.md)
 
 ## <a name="recruit-hire-and-motivate-employees"></a>Töötajate värbamine, palkamine ja motiveerimine
 
 Värbamisprojektid haldavad sisu, mida kasutatakse vabade töökohtade reklaamides ja mis võivad aidata teil vabade töökohtade puhul kandideerimisi hallata. Saate kasutada neid töösisestuste vastuste jälgimiseks teatud värbamisprojekti või konkreetsete kandidaatide kohta ja vabade ametikohtade oleku värskendamiseks. Saate palgata ka üksikuid kandidaate või hallata „hulgivärbamise projekte”, mis hõlbustavad mitme töötaja palkamist, nt selleks, et täita hooajalisi ärivajadusi.
 
 - [Värbamisprotsesside haldus](manage-recruiting-process.md)
-- [Hulgivärbamisprojektid](../../../human-resources/hr-personnel-mass-hire-projects.md) 
+- [Hulgivärbamisprojektid](mass-hire-projects.md) 
 
 Kui olete töötajad palganud, saate koostada plaane tasu tulemuslikuks ja õiglaseks haldamiseks ning selleks, et hallata üksusi nagu arvutid või telefonid, mida teie organisatsioon oma töötajatele laenab. Saate luua põhipalga ja ergutussüsteemi plaane ning määratleda reegleid, mis kehtivad tasuplaanile selle plaani kriteeriumide täitmiseks.
 
-- [Hüvitusplaanid](../../../human-resources/hr-compensation-overview.md)
-- [Fikseeritud hüvitusplaanide loomine](../../../human-resources/hr-compensation-fixed-plans.md)
-- [Ergutussüsteemi plaanide loomine](../../../human-resources/hr-compensation-variable-plans.md)
+- [Hüvitusplaanid](../../../talent/compensation-plans.md)
+- [Fikseeritud hüvitusplaanide loomine](../../../talent/create-fixed-compensation-plans.md)
+- [Ergutussüsteemi plaanide loomine](../../../talent/create-variable-compensation-plans.md)
 
 ## <a name="develop-and-train-employees"></a>Töötajate arendamine ja koolitamine
 
 Saate seadistada eesmärke, luua tulemuste ülevaatusi ja jälgida tagasisidet, et aidata töövõtjatel saavutada karjäärieesmärke, täites samas äriliselt kriitilisi ülesandeid. Selleks et aidata töövõtjatel vajalikke oskusi arendada, saate ka seadistada juhendajad, kursusetüübid, kursused, kursusekirjeldused, päevakorrad, teed ja sessioonid enne kursusele juhendaja määramist või kellegi registreerimist kursusele. Juhendajad peavad juba töötajate, kandidaatide või kontaktidena olemas olema.
 
-- [Jõudlushaldus](../../../human-resources/hr-develop-performance-management-overview.md)
-- [Töötajate oskuste joondamine ärivajadustega](../../../human-resources/hr-develop-skills.md)
-- [Koolituskursuste seadistamine](../../../human-resources/hr-learning-courses.md)
+- [Jõudlushaldus](../../../talent/performance-management-overview.md)
+- [Töötajate oskuste joondamine ärivajadustega](../../../talent/skills.md)
+- [Koolituskursuste seadistamine](../../../talent/courses.md)
 
 ## <a name="create-and-maintain-benefits"></a>Soodustuste loomine ja haldamine
 
 Peale töötajatele töötasu ja preemiate maksmise saate töötada välja soodustuste programme, nt tervisekindlustuse ja pensioni plaane. Samuti saate hallata soodustusi, nt laenuprogrammid, mille puhul ettevõte laenab oma töötajatele artikleid, nt arvutid või telefonid.
 
-- [Soodustusprogrammi määratlemine ja haldamine](../../../human-resources/hr-benefits-management-overview.md)
-- [Soodustuse saamise õiguse eeskirjad](../../../human-resources/hr-benefits-eligibility-policies.md)
-- [Töötajatele laenatud kaupade haldamine](../../../human-resources/hr-personnel-loan-items.md)
+- [Soodustusprogrammi määratlemine ja haldamine](../../../talent/manage-benefit-program.md)
+- [Soodustuse saamise õiguse eeskirjad](../../../talent/benefit-eligibility-policies.md)
+- [Töötajatele laenatud kaupade haldamine](../../../talent/loan-items.md)
 
 ## <a name="maintain-workplace-safety-and-compliance"></a>Töökoha ohutuse ja nõuetele vastavuse haldamine
 
@@ -89,10 +89,7 @@ Microsoft Dynamics AX aitab teil säilitada ohutut töökeskkonda, mis järgib k
 
 Saate koostada ja hallata küsimustikke andmete kogumiseks mitmesugustel eesmärkidel. Küsimustiku funktsiooni abil saate koostada ja luua küsimustikke. Kui küsimustik on valmis, võite edastada selle täitmiseks laiemalt või konkreetsele vastajate kogumile. Pärast seda, kui vastajad on oma vastused andnud, saate vaadata ja analüüsida tulemusi.
 
-- [Küsimustikud](../../../human-resources/hr-learning-questionnaires.md)
-- [Küsimustike kujundamine](../../../human-resources/hr-learning-design-questionnaires.md)
-- [Küsimustike jaotamine ja kavandamine](../../../human-resources/hr-learning-distribute-questionnaires.md)
-- [Küsimustike tulemuste vaatamine ja hindamine](../../../human-resources/hr-learning-evaluate-questionnaire-results.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+- [Küsimustikud](../../../talent/questionnaires.md)
+- [Küsimustike kujundamine](../../../talent/design-questionnaires.md)
+- [Küsimustike jaotamine ja kavandamine](../../../talent/distribute-questionnaires.md)
+- [Küsimustike tulemuste vaatamine ja hindamine](../../../talent/evaluate-questionnaire-results.md)

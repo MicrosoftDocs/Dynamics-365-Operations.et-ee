@@ -2,24 +2,27 @@
 title: Pangakonto vastavusseviimine
 description: See teema kirjeldab, kuidas pangakontot vastavusse viia.
 author: panolte
+manager: AnnBe
 ms.date: 07/01/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Operations, Core
 ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e06a38a19a16a07d77d0c9aceaa4e3206646dd0561996681b417b785058f3938
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c77d08d5877ab27f9b6549a5b2a666150938fc08
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739355"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4442439"
 ---
 # <a name="reconcile-a-bank-account"></a>Pangakonto vastavusseviimine
 
@@ -68,6 +71,3 @@ Pangaväljavõtte vastavusse viimise tühistamise funktsioon võimaldab tühista
 Pangaväljavõtte vastavusseviimise saab tühistada ainult selle sisestamise kronoloogilises järjestuses. Kui pangaväljavõtte vastavusseviimine tühistatakse, tühistatakse uued kanded ja parandused ning kõik muud kanded tähistatakse kui vastavusse viimata.
  
 Pangaväljavõtte vastavusseviimise tühistamiseks valige pangaväljavõte ja valige **Pangaväljavõte > Tühista panga vastavusseviimine**. Lehel **Tühista panga vastavusseviimine** sisestage **Põhjusekood**, **Põhjuse kommentaar** ja **Tühistamise kuupäev**. Tühistamise alustamiseks valige **OK**. Pange tähele, et pangaväljavõtte tühistamise kuupäev peab olema pangaväljavõtte kuupäeval või pärast seda. Pärast pangaväljavõtte vastavusseviimise tühistamist uuendatakse välja **Tühistamise kuupäev** panga väljavõtte jaoks sisestatud **Tühistamise kuupäevaga**. Klõpsake nuppu **Kanded**, et vaadata kandeid, mille vastavusseviimine tühistati.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

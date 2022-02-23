@@ -2,12 +2,15 @@
 title: Suhtlussaidil jagamise moodul
 description: See teema hõlmab suhtlussaidil jagamise mooduleid ja kirjeldab, kuidas neid rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
 author: anupamar-ms
+manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -15,18 +18,20 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 2e997cad97d45949c8f542764126a08fb6daa73551079eb2d400d7edfb98ca2b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 82a8795360f453cdee19fa6e9e376a42e8276849
+ms.sourcegitcommit: 510ca8b14d8b5334e50aca1b15d636c65fcc9888
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730943"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4411804"
 ---
-# <a name="social-share-module"></a>Sotsiaalmeedias jagamise moodul
+# <a name="social-share-module"></a>Suhtlussaidil jagamise moodul
 
 [!include [banner](includes/banner.md)]
 
 See teema hõlmab suhtlussaidil jagamise mooduleid ja kirjeldab, kuidas neid rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
+
+## <a name="overview"></a>Ülevaade
 
 Suhtlussaidil jagamise moodulid võimaldavad kasutajatel jagada e-kaubanduse saidi URL-e sotsiaalmeedias (nt Facebook, Twitter, Pinterest ja LinkedIn). Saidi URL-e saab jagada ka meili teel. Suhtlussaidil jagamise mooduleid kasutatakse tavaliselt toote üksikasjade lehtedel (PDP-d), et aidata kasutajatel toote teavet jagada.
 
@@ -36,7 +41,7 @@ Iga sotsiaalmeedia platvorm võib küpsiseid jälgida, nii et see moodul nõuab 
 
 Järgmisel illustratsioonil on toodud näide toote üksikasjade lehel kasutatavast suhtlussaidil jagamise moodulist.
 
-![Suhtlussaidil jagamise mooduli näide.](./media/ecommerce-socialshare.png)
+![Suhtlussaidil jagamise mooduli näide](./media/ecommerce-socialshare.png)
 
 ## <a name="social-share-module-properties"></a>Suhtlussaidil jagamise mooduli atribuudid
 
@@ -77,6 +82,3 @@ Suhtlussaidil jagamise mooduli lisamiseks ostukasti moodulile tehke järgmist.
 [Ostukastimoodul](add-buy-box.md)
 
 [Küpsise vastavus](cookie-compliance.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

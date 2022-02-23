@@ -1,10 +1,12 @@
 ---
 title: Ostutellimuste kinnitamine
 description: Selles teemas kirjeldatakse olekuid, mille ostutellimus pärast loomist läbib, ja muudatuste halduse lubamise mõju ostutellimustele.
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 04/02/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, PurchOrderInReview, PurchOrderApproved, PurchOrderInDraft, PurchOrderAssignedToMe, VendPurchOrderJournalListPage, PurchTableWorkflowDropDialog, VendPurchOrderJournal
 audience: Application User
@@ -13,15 +15,15 @@ ms.custom: 93143
 ms.assetid: cd12a944-c52c-4579-a301-7abe1d237c72
 ms.search.region: Global
 ms.search.industry: ''
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7ae625950e62b2bf5ec092ccda414ee306c62d79
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: eafce0be07ae21e5bc2db2cf5bb694a9d71a6269
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570533"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5018441"
 ---
 # <a name="approve-and-confirm-purchase-orders"></a>Ostutellimuste kinnitamine
 
@@ -83,7 +85,8 @@ Ostutellimuse rea kogu koguse tühistamiseks peate real tühistama tarnejäägi 
 
 Kui ostutellimus on muudatuste haldamise all, tuleb kõik muudatused, nt tellimuse tühistamine või tarnejääk, esitada töövoo süsteemile ja kinnitada enne protsessi lõpuleviimist ja varude kannete uuendamist vastavalt tühistamisele.
 
-## <a name="additional-resources"></a>Lisaressursid
+<a name="additional-resources"></a>Lisaressursid
+--------
 
 [Ostutellimuse ülevaade](purchase-order-overview.md)
 
@@ -95,6 +98,3 @@ Kui ostutellimus on muudatuste haldamise all, tuleb kõik muudatused, nt tellimu
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

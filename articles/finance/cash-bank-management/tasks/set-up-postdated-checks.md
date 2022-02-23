@@ -2,23 +2,26 @@
 title: Hilisema kuupäevaga tšekkide seadistamine
 description: Selles teemas selgitatakse, kuidas määrata, kas sisestada hilisema kuupäevaga dateeritud tšekkidele töölehe sisestused ja milliseid sisestamise töölehti kliiringukirjete ja hankija maksete puhul kasutada.
 author: kweekley
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankParameters, VendPaymMode, CustPaymMode
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fc1798836d9b905d991adb4c87d55ddce41d260bdbfdad6bf0c4b4feb846ee57
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 22e67aa051b5ea8267df7efac40e007d0f11a83d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743069"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4442431"
 ---
 # <a name="set-up-postdated-checks"></a>Hilisema kuupäevaga tšekkide seadistamine
 
@@ -53,12 +56,4 @@ Selle protseduuri roll on Kassiir. See protsess kasutab demoettevõtte USMF-i an
     * Valige pangakonto, mida kasutatakse arvesumma mahaarvamiseks.  
 18. Klõpsake nuppu Salvesta.
 19. Sulgege leht.
-> [!NOTE]
-> Et saada pärast kuupäevaga dateeritud tšekki pangakontole sisestada, kui seansi kuupäev on tähtajakuupäevast suurem või sellega võrdne, peate lubama funktsiooni **Tähtaja kuupäeva kinnitamise maksetöölehe sisestamisel kuupäevaga dateeritud tšekkide** pangakontole. See funktsioon võimaldab teil sisestada maksetöölehti hankijatele või klientidele, kellel on dateeritud tšekid, kui seansi kuupäev on tähtaja kuupäevast suurem või sellega võrdne.
-> 
-> Kui seadistate **maksemeetodi** (**Ostureskontro > Makse seadistus > Makseviisid)**, ärge täitke **Ühiskontot**. Sel juhul sisestatakse vastaskonto pangakontole, mis on seadistatud **Makseviis**.
->  
-> Kui funktsioon on lubatud ja seansi kuupäev on tähtajast väiksem, kuvatakse maksetöölehe sisestamisel järgmine tõrketeade: "Tähtaja kuupäev peab olema seansi kuupäevast väiksem või sellega võrdne, kui vastaskonto tüüp on Pank". Kui see funktsioon pole lubatud, saate sisestada maksetöölehe dateeritud tšekiga, kui seansi kuupäev on tähtaja kuupäevast väiksem.
-> See funktsioon on saadaval rakenduses versioonis 10.0.21 ja uuemas.    
 
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

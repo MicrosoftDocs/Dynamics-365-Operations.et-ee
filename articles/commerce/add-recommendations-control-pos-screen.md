@@ -2,13 +2,16 @@
 title: Soovituste lisamine kandeekraanile
 description: See teema kirjeldab, kuidas lisada soovituste juhtelement kassaaparaadi kannetekuvale, kasutades Microsoft Dynamics 365 Commercei ekraanipaigutuse kujundajat.
 author: bebeale
+manager: AnnBe
 ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailStoreTable, RetailTillLayout
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: 260624
 ms.assetid: a4f9d315-9951-451c-8ee6-37f9b3b15ef0
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: af76169455cef16467b1faa9eda92a969aa923e85750cf245b0a6bd071a092e8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: af2450b27106325a86f6db68f9791637694cda63
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6731003"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4411558"
 ---
 # <a name="add-recommendations-to-the-transaction-screen"></a>Soovituste lisamine kandeekraanile
 
@@ -43,7 +46,7 @@ Saate Commerce'i kasutamisel kuvada kassaseadmes tootesoovitusi. Tootesoovituste
 6. Sisselogimisel avaneb alltoodule sarnane leht. Paigutus erineb olenevalt teie poele tehtud kohandustest.
 
 
-    [![Paigutusekujundaja.](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png)
+    [![Paigutusekujundaja](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png)
 
 ## <a name="choose-a-display-option"></a>Valige kuvatav valik
 
@@ -58,11 +61,11 @@ Saadaval on kaks konfigureerimisvalikut. Tehke oma poe jaoks sobivam valik ja j�
 1. Vähendage kanderidade üksikasjade ala kõrgust, nii et see oleks sama kõrge, kui vasakul asuv kliendipaneel.
 
 
-    [![Kanderidade üksikasjade ala kõrgust on vähendatud.](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)
+    [![Kanderidade üksikasjade ala kõrgust on vähendatud](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)
 
 2. Pukseerige soovituste juhtelement vasakul asuvast menüüst kanderea üksikasjade ala ja kannetekuva alaosa keskel asuva nupuruudustiku vahele. Muutke juhtelemendi suurust, nii et see mahuks olemasolevasse ruumi.
 
-    [![Paigutusele on lisatud soovituste juhtelement.](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)
+    [![Paigutusele on lisatud soovituste juhtelement](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)
 
 
 3. Salvestamiseks ja paigutusekujundajast väljumiseks klõpsake nuppu **X**.
@@ -77,13 +80,13 @@ Saadaval on kaks konfigureerimisvalikut. Tehke oma poe jaoks sobivam valik ja j�
 
 2. Klõpsake **Kohandada**.
 
-    [![Kohandamine – vahekaardi juhtimise dialoogiboks.](./media/pic-5.png)](./media/pic-5.png)
+    [![Kohandamine – vahekaardi juhtimise dialoogiboks](./media/pic-5.png)](./media/pic-5.png)
 
 3. Klõpsake valikut **Uus vahekaart**.
 4. Leidke vastlisatud uus vahekaart. Võib-olla peate selleks allapoole kerima.
 5. Valige ripploendist **Sisu** suvand **Soovitatud tooted**.
 
-    [![Soovitatud toodete valimine sisu väljast.](./media/pic-6.png)](./media/pic-6.png)
+    [![Soovitatud toodete valimine sisu väljast](./media/pic-6.png)](./media/pic-6.png)
 
 6. Tippige väljale **Silt** soovituste vahekaardi nimi. Tippige näiteks „Soovitatud tooted”.
 7. Valige väljal **Pilt** vahekaardil kuvatav pilt.
@@ -116,6 +119,3 @@ Saadaval on kaks konfigureerimisvalikut. Tehke oma poe jaoks sobivam valik ja j�
 [Soovituste loomine demoandmetega](product-recommendations-demo-data.md)
 
 [Tootesoovituste KKK](faq-recommendations.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -51,6 +51,3 @@ Soovite, et teave teie vabadest ametikohtadest jõuaks võimalikult paljude kval
 
 > [!NOTE]
 > Microsoft ja Attract ei ole nende väärtuste loomise ning haldamisega seotud. Mandaatide Attractis ajakohasena hoidmine ja nendega seotud võimalike probleemide lahendamine Broadbeanis on teie vastutus.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -61,6 +61,3 @@ Teenuse Finance and Operations platvormivärskenduse 29 kohta lisateave saamisek
 Töötajate kirjete muudatused jõustuvad harva kohe. Andmeid peate värskendama alates töötaja alguskuupäevast, mis on sageli tulevikus, samuti peate värskendama teavet ka minevikus. Selle sujuvama navigeerimismudeli abil saate värskendada tulevasi ja varasemaid andmeid ilma mitu vormi navigeerimata või kuupäeva konteksti muutmata. See muudatus edendab ja kuvab ka põhiteavet töötajate kirje ülemisel ribal.
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

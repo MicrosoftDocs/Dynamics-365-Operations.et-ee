@@ -129,6 +129,3 @@ Kui kandidaadid nõustuvad oma LinkedIni profiile teie ettevõtte mis tahes kasu
 [Rakendusest Microsoft Dynamics 365 Talent – Attract LinkedIni postitamine](./attract-post-jobs-to-linkedin.md)
 
 [Rakendusega Microsoft Dynamics 365 Talent – Attract ja LinkedIniga integreerimise tõrkeotsing](./attract-troubleshoot-linkedin.md).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

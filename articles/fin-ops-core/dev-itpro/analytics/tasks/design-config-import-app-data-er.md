@@ -2,9 +2,11 @@
 title: Elektroonilise aruandluse konfiguratsioonide kujundamine sissetulevate dokumentide sõelumiseks
 description: Protseduur näitab, kuidas kujundada elektroonilise aruandluse (ER) konfiguratsioone sissetuleva elektroonilise dokumendi sõelumiseks.
 author: NickSelin
+manager: AnnBe
 ms.date: 12/12/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -12,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8068850ee143540ff9f3b6222485d3ecd2a2a82020063f34cfd7b5a69826eda3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 446a4676ad00c93d691d3048408c32d7ad373d2d
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6756377"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682089"
 ---
 # <a name="design-er-configurations-to-parse-incoming-documents"></a>Elektroonilise aruandluse konfiguratsioonide kujundamine sissetulevate dokumentide sõelumiseks
 
@@ -48,7 +50,7 @@ Importige ER-i mudeli konfiguratsioon, mis sisaldab näidisandmemudelit, mis on 
 6. Laiendage puul väärtust „Vastus”.
     * Juurüksus „Vastus” määratletakse selleks, et määrata, millist tüüpi andmeid tuleb toetatud teenuse vastusest hankida, et avalduse andmeid värskendada.
 7. Sulgege leht.
-    * Impordite ER-i vormingu konfiguratsiooni, mis määrab, kuidas sissetulevaid dokumente sõelutakse ER-i andmemudelisse andmete talletamiseks.
+    * Impordite ER-i vormingu konfiguratsiooni, mis määrab, kuidas  sissetulevaid dokumente sõelutakse ER-i andmemudelisse andmete talletamiseks.
 8. Valige Exchange.
 9. Valige Laadi XML-failist.
     * Valige suvand Sirvi ja vali EFSTA fail format.xml.
@@ -111,6 +113,3 @@ Käivitate loodud mudeli vastendamise testimise eesmärgil, et vaadata, kuidas k
     * Valige käsk Sirvi ja vali fail Response4.xml.
 16. Valige nupp OK.
     * Vaadake loodud väljundit. Vastusetüüpi on nüüd tuvastatud õigesti failiga Response1.xml võrdsena.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -1,25 +1,28 @@
 ---
 title: Hankija arve automatiseerimise seadistussuvandid (eelversioon)
 description: Selles teemas kirjeldatakse suvandeid, mis on saadaval hankija arve automatiseerimise seadistamiseks ja konfigureerimiseks.
-author: sunfzam
-ms.date: 10/19/2021
+author: abruer
+manager: AnnBe
+ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.assetid: ''
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 8e5aac8f108cf9a46c80c61891b057b8dc2b4672
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
-ms.translationtype: MT
+ms.openlocfilehash: ebab41d8b7697f20095d6d4654718b88c8b08a82
+ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7675465"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4665194"
 ---
 # <a name="setup-options-for-vendor-invoice-automation"></a>Hankija arve automatiseerimise seadistussuvandid
 
@@ -27,18 +30,12 @@ ms.locfileid: "7675465"
 
 Selles teemas kirjeldatakse suvandeid, mis on saadaval hankija arve automatiseerimise seadistamiseks ja konfigureerimiseks. Arvete automatiseerimise funktsioonid kasutavad järgmist tüüpi seadistusparameetreid.
 
-- Imporditud arvetel ettemaksete automaatse rakendamise parameetrid.
 - Parameetrid imporditud hankija arvete edastamiseks töövoosüsteemile ja sisestatud toote sissetuleku ridade vastavusse viimiseks ootel hankija arve ridadega.
 - Parameetrid automatiseerimise taustaülesannete töötlemiseks. Protsessi automatiseerimise raamistikku kasutatakse imporditud hankija arvete edastamiseks töövoosüsteemile. Seda kasutatakse ka automaatselt sisestatud toote sissetulekuridade vastendamiseks ootel hankija arve ridadega ja arve vastendamise valideerimiseks käsitsi arvete korral, mis on automaatselt toote sissetulekuridadega vastendatud. Erinevad äriprotsessid kasutavad seda raamistikku määramiseks, kui tihti valitud protsessi käitatakse. Saadaolevad sagedused taustaprotsesside **Toote sissetuleku vastavusseviimine arve ridadega** ja **Hankija arvete edastamine töövoole** puhul on **Iga tund** ja **Iga päev**.
 
 Taustaülesande seadistamiseks või selle kohta teabe vaatamiseks avage **Süsteemihaldus \> Seadistus \> Protsessi automatiseerimine** ja valige vahekaart **Taustaülesanne**.
 
 Et töö oleks täiesti automaatne alates impordiprotsessist kuni hankija arve sisestamiseni, peate seadistama hankija arve töövoo. Töövoo seadistamiseks avage **Ostureskontro > Seadistus > Ostureskontro töövood**. Tagamaks, et arvet saaks töödelda algusest lõpuni automaatselt, peate oma töövookonfiguratsiooni kaasama automatiseeritud sisestamisülesande.
-
-## <a name="parameters-for-automatically-applying-prepayments-in-imported-invoices"></a>Imporditud arvetel ettemaksete automaatse rakendamise parameetrid
-
-- **Rakenda imporditud arvetele ettemaks automaatselt** – kui see suvand on seatud väärtusele **Jah**, otsib süsteem hankija arvete importimisel automaatselt vastava ostutellimuse olemasolevad ettemaksed. Kui leitakse ettemakseid, mida saab rakendada, lisatakse üks täiendav rida ettemaksete rakendamiseks imporditavatel hankija arvetel.
-- **Blokeerige järelkontrolli automatiseerimisprotsess ettemaksutaotluse ebaõnnestumise korral** – kui see valik on seatud väärtusele **Jah**, blokeeritakse arved, kui ettemaksu ei saa rakendada. Sarnaselt muudele automatiseeritud protsessidele, nagu kviitungite sobitamise protsess ja töövooprotsessi esitamine, ei võta arvete automatiseerimisprotsess blokeeritud arveid enne, kui ettemaks on käsitsi rakendatud. 
 
 ## <a name="parameters-for-submitting-imported-vendor-invoices-to-the-workflow-system"></a>Parameetrid imporditud hankija arvete edastamiseks töövoosüsteemile
 
@@ -66,6 +63,3 @@ Saadaval on järgmised parameetrid.
 
 - **Automaatse vastavusseviimise katsete arv** – valige mitu korda peaks süsteem maksimaalset üritama viia toote sissetulekuid vastavusse arve ridadega, enne kui see jõuab järeldusele, et protsess nurjus. Kui määratud katsete arv on saavutatud, eemaldatakse arve automatiseeritud töötlemisest.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

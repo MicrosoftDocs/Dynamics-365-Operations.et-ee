@@ -2,24 +2,27 @@
 title: Vahetuskursi korrigeerimine
 description: Selles teemas antakse teavet vahetuskursi korrigeerimise funktsiooni kohta kasutajatele Eestis, Ungaris, Tšehhi Vabariigis, Lätis, Leedus, Poolas ja Venemaal.
 author: ShylaThompson
+manager: AnnBe
 ms.date: 04/10/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerParameters
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.custom: 272683
 ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, Russia
 ms.author: kfend
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 82f9d51bb882ae83c6382a424fbdff65900fd3822d70f496c0956c2e57180ebf
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8ea7993312434a25805bd7d22ade2c7b772a5c1d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767603"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4407852"
 ---
 # <a name="exchange-rate-adjustments"></a>Vahetuskursi korrigeerimine
 
@@ -94,6 +97,3 @@ Süsteemi käitumine on sama, olenemata sellest, kas lehe **Pearaamatu parameetr
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

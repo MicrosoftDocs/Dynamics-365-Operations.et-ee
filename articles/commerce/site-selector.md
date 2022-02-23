@@ -1,13 +1,16 @@
 ---
 title: Saidi valija moodul
-description: See teema hõlmab kaupluse valija moodulit ja kirjeldab, kuidas seda rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
+description: See teema hõlmab saidi valija moodulit ja kirjeldab, kuidas seda rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
 author: anupamar-ms
+manager: annbe
 ms.date: 10/20/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -15,18 +18,20 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: a5f6f6e3ff459447aa4b3c0058b5526c9e8d1038a5d2629eefbed197012aebf0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b4e5f715efcac7f883df99508d282db904be0d80
+ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772224"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4665219"
 ---
-# <a name="site-selector-module"></a>Saidi valimise moodul
+# <a name="site-selector-module"></a>Saidi valija moodul
 
 [!include [banner](includes/banner.md)]
 
-See teema hõlmab kaupluse valija moodulit ja kirjeldab, kuidas seda rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
+See teema hõlmab saidi valija moodulit ja kirjeldab, kuidas seda rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
+
+## <a name="overview"></a>Ülevaade
 
 Kui ettevõttel on eri turgudel, piirkondadel ja lokaatidel erinevad saidid, on saidi kasutajatel vaja hõlpsasti liikuda saitide vahel ja valida enda eelistatud ostlemissait. Selle stsenaariumi võimaldamiseks saavad kasutajad saidi valija moodulis sirvida mitmel saidil.
 
@@ -37,7 +42,7 @@ Saidi valija moodulis tuleb konfigureerida saitide loend (turud, piirkonnad või
 
 Järgmisel joonisel on kujutatud saidi lehe päises esiletõstetud saidi valija mooduli näide.
 
-![Saidi valija mooduli näide saidi lehe päises.](./media/ecommerce-sitepicker.PNG)
+![Saidi valija mooduli näide saidi lehe päises](./media/ecommerce-sitepicker.PNG)
 
 ## <a name="site-selector-module-properties"></a>Saidi valija mooduli atribuudid
 
@@ -59,6 +64,3 @@ Saidi valija moodulit saab lisada saidi valija pesa [päise moodulisse](author-h
 [Lingireamoodul](add-breadcrumb.md)
 
 [Navigeerimismenüü moodul](nav-menu-module.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

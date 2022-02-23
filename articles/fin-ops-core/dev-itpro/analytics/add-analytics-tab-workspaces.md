@@ -1,23 +1,25 @@
 ---
 title: Analüüsi lisamine tööruumidele teenuse Power BI Embedded abil
 description: See teema kirjeldab, kuidas kaasata Power BI aruanne tööruumi vahekaardile Analüüs.
-author: RichdiMSFT
+author: tjvass
+manager: AnnBe
 ms.date: 06/21/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application user, IT Pro
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: richdi
+ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: ed562dca621acea24efa3f157f695257cb919cdda577cf9ae6dd0b0c942e1b70
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 53c9d6343422f64aed74ce436bafd2c8b2ce1c3e
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760148"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680932"
 ---
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Analüüsi lisamine tööruumidele teenuse Power BI Embedded abil
 
@@ -27,11 +29,11 @@ ms.locfileid: "6760148"
 > Seda funktsiooni toetatakse rakenduses Finance and Operations (versioon 7.2 ja uuem).
 
 ## <a name="introduction"></a>Sissejuhatus
-See teema kirjeldab, kuidas kaasata Microsoft Power BI aruanne **Analüüs** vahekaardile tööruumis. Siin toodud näite puhul laiendame sõidukipargi halduse rakenduse tööruumi **Reserveerimise haldus**, et kaasata analüütiline tööruum vahekaardile **Analüütika**.
+See teema kirjeldab, kuidas kaasata Microsoft Power BI aruanne tööruumi vahekaardile **Analüüs**. Siin toodud näite puhul laiendame sõidukipargi halduse rakenduse tööruumi **Reserveerimise haldus**, et kaasata analüütiline tööruum vahekaardile **Analüütika**.
 
 ## <a name="prerequisites"></a>Eeltingimused
 + Juurdepääs arendaja keskkonnale, mis käitab platvormivärskendust 8 või uuemat.
-+ Analüütiline aruanne (.pbix-fail), mis on Microsoft Power BI Desktop abil loodud ja millel on üksuse kaupluse andmebaasist hangitud andmemudel.
++ Microsoft Power BI Desktopi abil loodud analüütiline aruanne (pbix-fail), millel on üksuse kaupluse andmebaasist hangitud andmemudel.
 
 ## <a name="overview"></a>Ülevaade
 Olenemata sellest, kas laiendate olemasolevat rakenduse tööruumi või võtate kasutusele omaenda uue tööruumi, saate kaasatud analüütiliste vaadete abil kuvada oma äriandmetest selgeid ja interaktiivseid vaateid. Analüütilise tööruumi vahekaardi lisamise protsess koosneb neljast etapist.
@@ -54,11 +56,11 @@ Pbix-faili lisamiseks Visual Studio projekti artefaktina toimige järgmiselt.
 3. Valige dialoogiboksi **Uue üksuse lisamine** jaotises **Toimingute artefaktid** mall **Ressurss**.
 4. Sisestage nimi, mida kasutatakse aruande viitamiseks X++ metaandmetes, ja klõpsake nuppu **Lisa**.
 
-    ![Dialoogiboks Uue üksuse lisamine.](media/analytical-workspace-add.png)
+    ![Dialoogiboks Uue üksuse lisamine](media/analytical-workspace-add.png)
 
 5. Leidke pbix-fail, mis sisaldab analüütilise aruande määratlust, seejärel klõpsake käsku **Ava**.
 
-    ![Dialoogiboks Ressursifaili valimine.](media/analytical-workspace-select-resource.png)
+    ![Dialoogiboks Ressursifaili valimine](media/analytical-workspace-select-resource.png)
 
 Nüüd kui olete lisanud pbix-faili Dynamics 365 ressursina, saate kaasata aruanded tööruumidesse ja lisada ka otselingid, kasutades menüü-üksusi.
 
@@ -67,7 +69,7 @@ Selles näites laiendame mudeli Sõidukipargi haldus tööruumi **Reserveerimise
 
 Järgmisel joonisel on näha, milline näeb vorm **FMClerkWorkspace** välja Microsoft Visual Studio kujundajas.
 
-![Vorm FMClerkWorkspace enne muudatusi.](media/analytical-workspace-definition-before.png)
+![Vorm FMClerkWorkspace enne muudatusi](media/analytical-workspace-definition-before.png)
 
 Vormi määratluse laiendamiseks tööruumi **Reserveerimise haldus** puhul toimige järgmisel.
 
@@ -92,7 +94,7 @@ Vormi määratluse laiendamiseks tööruumi **Reserveerimise haldus** puhul toim
 
 Järgmisel joonisel on näha, milline näeb kujundus välja pärast nende muudatuste rakendamist.
 
-![FMClerkWorkspace pärast muudatusi.](media/analytical-workspace-definition-after.png)
+![FMClerkWorkspace pärast muudatusi](media/analytical-workspace-definition-after.png)
 
 Nüüd, kui olete tööruumi aruande kaasamiseks kasutatavad vormi juhtelemendid lisanud, peate määratlema ülemjuhtelemendi suuruse, nii et see mahuks paigutusse. Vaikimisi jäävad aruandes nähtavaks nii leht **Filtripaan** kui ka leht **Vahekaart**. Saate nende juhtelementide nähtavust siiski aruande sihttarbija vajaduste järgi muuta.
 
@@ -142,7 +144,7 @@ Tööruumi **Reserveerimise haldus** kaasatud aruandevaaturi juhtelementi lähte
 
 Nüüd olete kaasatud aruandevaaturi juhtelementi lähtestava äriloogika lisamise ülesande täitnudl. Järgmisel joonisel on näha, milline näeb tööruum välja pärast nende muudatuste rakendamist.
 
-![Tööruumi kaasatud aruanne.](media/analytical-workspace-final.png)
+![Tööruumi kaasatud aruanne](media/analytical-workspace-final.png)
 
 > [!NOTE]
 > Pääsete juurde olemasolevale toiminguvaatele, kasutades lehe pealkirja all olevaid tööruumi vahekaarte.
@@ -173,6 +175,3 @@ public static void initializeReportControl(
 | showFilterPane   | Kahendmuutuja väärtus, mis näitab, kas filtripaan tuleb kuvada (**tõene**) või peita (**väär**).     |
 | showNavPane      | Kahendmuutuja väärtus, mis näitab, kas navigeerimispaan tuleb kuvada (**tõene**) või peita (**väär**). |
 | defaultFilters   | Power BI aruande vaikefiltrid.                                                                 |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

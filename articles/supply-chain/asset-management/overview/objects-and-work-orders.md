@@ -1,10 +1,12 @@
 ---
 title: Varad ja töökäsud
 description: Selles teemas kirjeldatakse varasid ja töökäskusid varahalduses.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 06/24/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a2872dc84ec11ae7fad9fd5b225b9207f13280db334cc0d010a3d6749a591ee2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0cddb0a25286c8ce9d72aef0b835809705ad577a
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718103"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020935"
 ---
 # <a name="assets-and-work-orders"></a>Varad ja töökäsud
 
@@ -32,26 +34,23 @@ Selles teemas kirjeldatakse varasid ja töökäskusid varahalduses. Varad ja tö
 
 Igale varale seadistatakse mitmesugused andmed, näiteks tooteteave ja vara täpsustus ning nõutavad hooldusplaanid. Järgmisel joonisel on ülevaade vara andmetest ja varade kuuluvusest töö tüüpides. Punast teksti kasutatakse näidete puhul, mis näitavad päritolu ja sõltuvused.
 
-![Töö tüüpidega seotud vara andmeid kuvav diagramm.](media/05-overview-image.png)
+![Töö tüüpidega seotud vara andmeid kuvav diagramm](media/05-overview-image.png)
 
 Igal töökäsul on töökäsu tüüp, ennetav hooldus, korrigeeriv hooldus või kontroll. Töökäsk sisaldab ühte või mitut töökäsu tööd. Iga töökäsu töö määratleb töö, mis tuleb sooritada vara ja seotud töö tüübiga. Seotud töö tüüpide hulgas on 10 000 km, 50 000 km, 1-aastane ülevaatus ja ohutusinspektsioon. Üks töökäsk võib olla seotud mitme varaga.
 
 Järgmine illustratsioon näitab töökäsu põhiandmete ülevaadet.
 
-![Töökäsu põhiandmeid kuvav diagramm.](media/06-overview-image.png)
+![Töökäsu põhiandmeid kuvav diagramm](media/06-overview-image.png)
 
 Töökäsk võib olla seotud mõne muu töökäsuga ja töö tüübid võivad sisaldada töökäsu loomiseks järeltöid. Üldiselt ei ole töökäskude vahel sõltuvusi. Seetõttu saavad nad muuta oma töökäskude elutsükli olekut ja neid saab planeerida üksteisest sõltumatult.
 
 Töökäskusid saab luua erinevatel viisidel, mis on seotud korrigeeriva, ennetava või reaktiivse hooldusega. Saate töökäske luua ka käsitsi. Järgmine illustratsioon näitab ülevaadet töökäskude automaatse või käsitsi loomise protsessist.
 
-![Töökäskude automaatset või käsitsi loomist kuvav diagramm.](media/07-overview-image.png)
+![Töökäskude automaatset või käsitsi loomist kuvav diagramm](media/07-overview-image.png)
 
 Töökäsu hooldustöö plaanimisel ja käitamisel tuleb täita mitu etappi. Järgmine illustratsioon näitab töötlemine ülevaadet.
 
-![Töökäsu töötlemise ülevaadet kuvav diagramm.](media/08-overview-image.png)
+![Töökäsu töötlemise ülevaadet kuvav diagramm](media/08-overview-image.png)
 
 > [!NOTE]
 > Kui töötate rakenduses Dynamics 365 Supply Chain Management ja moodulis **Varahaldus** valite uue kirje loomiseks **Uus**, valige **Redigeeri** olemasoleva kirje värskendamiseks ja valige **Salvesta** uute või redigeeritud andmete salvestamiseks.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

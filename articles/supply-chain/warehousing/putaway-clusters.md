@@ -2,22 +2,25 @@
 title: Ladustatavad kogumid
 description: Kogumite ladustamine pakub võimalust komplekteerida mitu identifitseerimisnumbrit samal ajal ja seejärel neid erinevates asukohtades ladustada. Need võivad olla väga kasulikud jaemüügi ettevõtetele, kus identifitseerimisnumbrid ei ole tavaliselt täis kaubaalused.
 author: Mirzaab
+manager: tfehr
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-19
-ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: c3496d43fa3791f765abfb1eb25c45f1f21b972f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.7
+ms.openlocfilehash: 6a330ddccbd17c92443232fc8488e36a59235773
+ms.sourcegitcommit: cfd84321fba38e02e270d361df369a536a48efa3
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573005"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "4512326"
 ---
 # <a name="putaway-clusters"></a>Ladustatavad kogumid
 
@@ -228,7 +231,7 @@ See stsenaarium simuleerib ladustatava kogumi töötlemist.
 
 #### <a name="receive-and-sort-the-inventory-into-a-cluster"></a>Võtke kaup vastu ja sortige kogumisse
 
-1. Logige mobiilirakendusse Warehouse Management sisse kasutajana, kes on seadistatud lao *61* jaoks.
+1. Logige laorakendusse sisse kasutajana, kes on lao *61* jaoks seadistatud.
 1. Valige peamenüüs suvand **Sissetulev**.
 1. **Sissetulev** menüüs valige **Võta vastu ja sordi kogum**.
 1. Sisestage väljale **Ponum** ostutellimuse number.
@@ -270,7 +273,7 @@ Enne kui kogumis olevad kaubad saab ladustada, peab kogum olema suletud.
 
 #### <a name="put-the-cluster-away"></a>Ladusta kogum
 
-1. Logige mobiilirakendusse Warehouse Management sisse kasutajana, kes on seadistatud lao *61* jaoks.
+1. Logige laorakendusse sisse kasutajana, kes on lao *61* jaoks seadistatud.
 1. Valige peamenüüs suvand **Sissetulev**.
 1. Valige **Sissetulev** menüüs **Kogumi ladustamine**.
 1. Valige **Kogumi ID** ja sisestage kogumi ID, mille sisestasite varasemalt suletud kogumi jaoks.
@@ -284,7 +287,7 @@ Enne kui kogumis olevad kaubad saab ladustada, peab kogum olema suletud.
 
     Teil on kindlad valikud selle etapi alistamiseks või vahele jätmiseks.
 
-    ![Kogumi ladustamine: Komplekteerimise leht.](media/Cluster_putaway-Put.png "Kogumi ladustamine: Komplekteerimise leht")
+    ![Kogumi ladustamine: Komplekteerimise leht](media/Cluster_putaway-Put.png "Kogumi ladustamine: Komplekteerimise leht")
 
 1. Kogumi ladustamise kinnitamiseks valige **OK**.
 
@@ -293,6 +296,3 @@ Enne kui kogumis olevad kaubad saab ladustada, peab kogum olema suletud.
 ## <a name="notes-and-tips"></a>Märkmed ja näpunäited
 
 Juhtudel, kus kogumi ID muutub pesastatud kaubaaluse peamiseks identifitseerimisnumbriks, antakse ladustamisasukoht automaatselt, kui kogumi ID on skaneeritud. Täiendavat identifitseerimisnumbrit ei tohi skaneerida, isegi kui identifitseerimisnumbri loomine on seatud käsitsi.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

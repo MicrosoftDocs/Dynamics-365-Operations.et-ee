@@ -1,10 +1,12 @@
 ---
 title: Hoolduseelarvete loomine
 description: Selles teemas tutvustatakse, kuidas luua hoolduseelarvet varahalduses.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 08/13/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetBudgetLineAdjust, EntAssetBudget, EntAssetBudgetRecalc, EntAssetBudgetCopy, EntAssetBudgetLine, EntAssetBudgetCreate, EntAssetBudgetApprove, EntAssetBudgetCalculateActualCost
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a375eb7c208479615b2d5e7cf78168ffd7ac8b16c52c85a7ef5a41aa69c947d5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 602a00060c1e56285d9954981d019bececaf90fd
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6776940"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020985"
 ---
 # <a name="create-maintenance-budgets"></a>Hoolduseelarvete loomine
 
@@ -50,12 +52,9 @@ Hoolduseelarved põhinevad kulutüüpidel, mida kasutatakse varahalduses: **Enne
     > [!NOTE]
     > Pärast hoolduseelarve kinnitamist ei saa te enam uuesti arvutada ega kohandada seotud ridu lehel **Hoolduseelarveread**, ilma kinnitust eemaldamata. Hoolduseelarve kinnituse eemaldamiseks valige see lehel **Hoolduseelarved** ja seejärel valige **Kinnita**. Seejärel valige **OK** dialoogiboksis **Kinnita eelarve**.
 
-![Hoolduse eelarved.](media/01-maintenance-budgets.png)
+![Hoolduseelarved](media/01-maintenance-budgets.png)
 
 Samuti saate luua uue hoolduseelarve olemasoleva eelarve kopeerimisega. Lehel **Hoolduseelarved** ja valige eelarve, mida soovite kopeerida, ja seejärel valige **Kopeeri**. See lähenemine on kasulik, kui olete näiteks loonud eelarve ühe kuu kohta ja soovite seda kopeerida teistesse kuudesse.
 
 > [!NOTE]
 > Hoolduseelarve arvutab ainult hooldusgraafiku ridadel põhinevad eelarvekulud. Sama perioodi tegelike kulude arvutamiseks saate teha arvutuse lehel **Vara kulu juhtimine**. 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Pearaamatu käibemaksu sisestusgruppide seadistamine
 description: Käibemaks arvutatakse ja sisestatakse põhikontodele, mis on määratud pearaamatu sisestusgruppides.
 author: twheeloc
+manager: AnnBe
 ms.date: 07/01/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxAccountGroup
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e779887a650f4ca79ea4c9f0d69a5abb5533ac69abab38e1fae38e745e4157bd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6cc96cbdb11f24d727bddfa5fd4aaa579537802a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754166"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4968450"
 ---
 # <a name="set-up-ledger-posting-groups-for-sales-tax"></a>Pearaamatu käibemaksu sisestusgruppide seadistamine
 
@@ -39,6 +41,3 @@ Käibemaks arvutatakse ja sisestatakse põhikontodele, mis on määratud pearaam
 11. Valige väljal **Kliendi teenindusjuhtumi allahindlus** põhikonto nende **Käibemaksukoodide** allahindluse sisestamiseks, mis on seotud selle **Pearaamatu sisestusrühmaga**. See on valikuline ja kui kontot ei sisestata, kasutatakse **Sularaha allahindluskoodide** põhikontot. Võib olla kasulik kasutada erinevaid kontosid **Pearaamatu sisestusrühma** kohta, kui kasutatakse **Käibemaksu rühmades** sularaha allahindluse valikul pöördkäibemaksu.  
 12. Klõpsake valikut **Salvesta**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

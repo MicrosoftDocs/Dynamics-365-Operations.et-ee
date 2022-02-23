@@ -2,25 +2,28 @@
 title: Hankija sisestusreeglid
 description: Hankija sisestusreeglid kontrollivad hankijakannete sisestamist pearaamatusse.
 author: abruer
+manager: AnnBe
 ms.date: 06/12/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendPosting
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 24691
 ms.assetid: 18def866-7655-4f0b-b299-eec83098d23a
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f8ebb67bddf6fa9aae8ba6c6ed290c94bb2e0a047ca6157aa1325f4cf21f148f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 43450c5f7ab8295b896b591880da9d0bddd955cf
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777212"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4442198"
 ---
 # <a name="vendor-posting-profiles"></a>Hankija sisestusreeglid
 
@@ -28,7 +31,8 @@ ms.locfileid: "6777212"
 
 Hankija sisestusreeglid kontrollivad hankijakannete sisestamist pearaamatusse.
 
-## <a name="vendor-posting-profiles"></a>Hankija sisestusreeglid
+<a name="vendor-posting-profiles"></a>Hankija sisestusreeglid
+-----------------------
 
 Hankija sisestusreeglid võimaldavad määrata pearaamatukontosid ja dokumendisätteid kõigile hankijatele, hankijagrupile või üksikule hankijale. Neid sätteid kasutatakse ostutellimuste, hankija arvete ja sularahamaksete loomisel. Mõne kande puhul saate valida sisestusreegli, mis erineb ja on olulisem sellel lehel kannete jaoks seadistatud sisestusreeglitest. Vaike-sisestusreeglid määratletakse kiirkaardil **Pearaamat ja käibemaks** lehel **Ostureskontro parameetrid**. Vaike-sisestusreeglid lisatakse siis automaatselt uute dokumentide päisesse, kus saate need vajaduse korral teistsuguste sisestusreeglite vastu vahetada.
 
@@ -115,6 +119,3 @@ Määrake sisestusreeglite seadistamiseks järgmised väärtused.
 | **Tasakaalustus** | Tehke see valik nende sisestusreeglitega kannete automaatse tasakaalustamise lubamiseks. Kui see valik eemaldada, tuleb kanded käsitsi tasakaalustada, kasutades lehte **Avatud kannete tasakaalustamine**. |
 | **Tühista**     | Tehke see valik, kui soovite, et saaksite nende sisestusreeglitega kandeid tühistada.                                                                                                               |
 | **Sulge**      | Valige sisestusreeglid, millele üle minna, kui nende sisestusreeglitega kanded suletakse. Kanne loetakse suletuks, kui see on täielikult tasakaalustatud.                                       |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

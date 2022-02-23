@@ -2,9 +2,11 @@
 title: Veebipõhise funktsiooniprofiili loomine
 description: See teema kirjeldab, kuidas luua rakenduses Microsoft Dynamics 365 Commerce veebipõhine funktsiooniprofiil.
 author: samjarawan
+manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -14,18 +16,21 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: d6dcbb5b9ea01035396e90a6809cb1568c3a4fc86def41cf36732588b5046da7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1b0afeabfecb60672156692f3cd809445624020c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716190"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969972"
 ---
-# <a name="create-an-online-functionality-profile"></a>Funktsiooniprofiili loomine võrgus
+# <a name="create-an-online-functionality-profile"></a>Veebipõhise funktsiooniprofiili loomine
+
 
 [!include [banner](includes/banner.md)]
 
 Selles teemas antakse ülevaade rakenduse Microsoft Dynamics 365 Commerce veebipõhise funktsiooniprofiili seadistamisest.
+
+## <a name="overview"></a>Ülevaade
 
 Veebipõhine funktsiooniprofiil võimaldab erinevaid võrgukanalites kasutatavaid seadistusi. Iga võrgukanal peab määrama veebipõhise funktsiooniprofiili.
 
@@ -42,7 +47,7 @@ Järgmine protseduur selgitab, kuidas luua rakenduses Commerce Headquarters veeb
 
 Järgmisel pildil on näidatud veebipõhise funktsiooniprofiili näide.
   
-![Veebipõhise funktsiooniprofiili näide.](media/online-functionality-profile.png)
+![Veebipõhise funktsiooniprofiili näide](media/online-functionality-profile.png)
 
 ## <a name="functions"></a>Funktsioonid
 
@@ -61,6 +66,3 @@ Järgmisel pildil on näidatud veebipõhise funktsiooniprofiili näide.
 [Jaemüügikanali seadistamine](channel-setup-retail.md)
 
 [Kõnekeskuse kanali seadistamine](channel-setup-callcenter.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

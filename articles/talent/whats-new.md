@@ -33,6 +33,3 @@ Rakendus Talent saab igal nädalal uue väljaande. Need väljaanded on loetletud
 
 Sisukorda uuendatakse igal nädalal, nii et tulge tagasi, et leida kõik uued funktsioonid ja muudatused värskeimatest Talenti väljaannetest.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,10 +1,12 @@
 ---
 title: Hankijatega koostöö tegemine Hankija portaali kasutades
 description: See teema kirjeldab, kuidas ostuagendid saavad kasutada hankija portaali ostutellimuse kinnitamise protsessi käigus väliste hankijatega koostöö tegemiseks. See teave kehtib ainult Dynamics AX-i 2016. aasta veebruari ja 2016. aasta mai versioonide puhul.
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, PurchVendorPortalRequests
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: 30211
 ms.assetid: 3c7e0e1c-703c-4bbf-b90c-84d29a131360
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6e691d0e2e4260e75b70e22d94486afdb779871f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 4aece4fd621be803abe5011e40785f6a3301924f
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568060"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019099"
 ---
 # <a name="collaborate-with-vendors-by-using-the-vendor-portal"></a>Hankijatega koostöö tegemine Hankija portaali kasutades
 
@@ -92,14 +94,12 @@ Järgmises tabelis on näide oleku ja versiooni muudatustest, mida ostutellimuss
 |                           Saadate ostutellimuse uue versiooni hankija portaali.                            |                                                                                                                                                                    Uus versioon registreeritakse hankija portaalis ja olekuks määratakse <strong>Välisel ülevaatamisel</strong>.                                                                                                                                                                     |
 |                                Hankija kinnitab ostutellimuse uue versiooni.                                 |                                                                                                                                                     Olekuks määratakse <strong>Kinnitatud</strong>, kas automaatselt või siis, kui saate hankijalt vastuse ja kinnitate siis ostutellimuse.                                                                                                                                                     |
 
-## <a name="additional-resources"></a>Lisaressursid
+<a name="additional-resources"></a>Lisaressursid
+--------
 
 [Hankija portaali kasutajate turvalisus](configure-security-vendor-portal-users.md)
 
-[Hankija koostöö arve tööruum](../../finance/accounts-payable/vendor-portal-invoicing-workspace.md)
+[Hankija koostöö arve tööruum](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md)
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

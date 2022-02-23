@@ -1,39 +1,37 @@
 ---
-title: Lahenduse Human Resources funktsioonide haldamine
-description: See teema kirjeldab funktsioonihaldust ja kuidas seda kasutada.
-author: twheeloc
-ms.date: 08/19/2021
+title: Funktsioonide haldamine
+description: Saage teada, kuidas lülitada uusi funktsioone rakenduses Dynamics 365 Human Resources sisse või välja.
+author: andreabichsel
+manager: AnnBe
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: FeatureManagementWorkspace
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2d5a27c02df841dfbb17a9375aaf75f93d05cd8e
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: 9176e9519c3bf65ef7a4f1b5ae43dbeb411750f5
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069703"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4418193"
 ---
-# <a name="manage-features-in-human-resources"></a>Lahenduse Human Resources funktsioonide haldamine
-
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+# <a name="manage-features"></a>Funktsioonide haldamine
 
 Rakenduse Microsoft Dynamics 365 Human Resources pidevate uute võimaluste levitamise osana tahame, et kliendid saaksid proovida uusi funktsioone niipea kui võimalik. Pakume uusi eelvaatefunktsioone, mis on peaaegu valmis üldiseks kasutamiseks ja on läbinud põhjalikud kontrollid. Eelvaatefunktsioonide puhul soovime saada täiendavat kasutajate tagasidet ja kinnitust, enne kui funktsioonid üldiselt kättesaadavaks teeme.
 
-Lisateavet Human Resourcesi uute funktsioonide kohta vt teemast [Mis on uut rakenduses Human Resources](hr-admin-whats-new.md) ja [Dynamics 365 ja Power Platformi väljalaskeplaan](/dynamics365/release-plans/?panel=products1#pivot=products).
+Lisateavet Human Resourcesi uute funktsioonide kohta vt teemast [Mis on uut rakenduses Human Resources](hr-admin-whats-new.md) ja [Dynamics 365 ja Power Platformi väljalaskeplaan](https://docs.microsoft.com/dynamics365/release-plans/#pivot=products&panel=products1).
 
-Tööruumis **Funktsioonihaldus** on toodud loend igas väljaandes saadetud funktsioonidest. Vaikimisi on uued funktsioonid välja lülitatud. Saate kasutada tööruumi funktsioonide sisselülitamiseks ja nende dokumentatsiooni vaatamiseks. Lisateavet funktsioonihalduse kohta vt [Funktsioonihalduse ülevaade](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Tööruumis **Funktsioonihaldus** on toodud loend igas väljaandes saadetud funktsioonidest. Vaikimisi on uued funktsioonid välja lülitatud. Saate kasutada tööruumi funktsioonide sisselülitamiseks ja nende dokumentatsiooni vaatamiseks. Lisateavet funktsioonihalduse kohta vt [Funktsioonihalduse ülevaade](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
 
 Kõik uued funktsioonid jäävad vähemalt 30 päevaks eelvaatesse ja tavaliselt 30–60 päevaks. Peamised funktsioonid on tavaliselt saadaval eelvaate perioodile järgneva iga aasta oktoobris ja aprillis. Kohe kui näete tööruumis **Funktsioonihaldus** uusi võimalusi, saate need sisse lülitada. Mõned funktsioonid võivad olla vaikimisi sisse lülitatud.
 
@@ -95,6 +93,4 @@ Ootame teie tagasisidet teie kogemuse kohta nende eelvaatefunktsioonidega. Soovi
 ## <a name="see-also"></a>Vt ka
 
 - [Mis on rakenduses Human Resources uut?](hr-admin-whats-new.md)
-- [Dynamics 365 ja Power Platformi väljalaskeplaan](/dynamics365/release-plans/?panel=products1#pivot=products)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+- [Dynamics 365 ja Power Platformi väljalaskeplaan](https://docs.microsoft.com/dynamics365/release-plans/#pivot=products&panel=products1)

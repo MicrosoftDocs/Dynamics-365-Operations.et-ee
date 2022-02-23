@@ -1,23 +1,26 @@
 ---
 title: Vabas vormis arve malli loomine
 description: See protseduur kirjeldab, kuidas luua vabas vormis arve malli.
-author: abruer
+author: ShivamPandey-msft
+manager: AnnBe
 ms.date: 05/29/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1477227228ae9f79314d1e3b6da73446d660d108
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
-ms.translationtype: MT
+ms.openlocfilehash: 8281de3cb336d9392a6a97f98e51a2a139a384c5
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7753688"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4442232"
 ---
 # <a name="create-a-free-text-invoice-template"></a>Vabas vormis arve malli loomine
 
@@ -65,6 +68,3 @@ Selle juhendava tutvustuse jaoks kasutage demoettevõtte USMF andmeid. See prots
 
 ## <a name="save-a-free-text-invoice-as-a-template"></a>Vabas vormis arve salvestamine mallina
 Samuti saate salvestada olemasoleva vabas vormis arve mallina. Kui valite vahekaardil Arve suvandi Salvesta malli, lisage mallile nimi ja kirjeldus. Kui selle nimega mall on juba olemas, näete teatist, et selle nimega mall on juba olemas. Saate klõpsata nuppu OK malli asendamiseks. 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

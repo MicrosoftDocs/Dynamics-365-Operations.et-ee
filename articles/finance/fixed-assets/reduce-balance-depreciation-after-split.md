@@ -2,25 +2,28 @@
 title: Väheneva jääkväärtuse kuluarvestusmeetod pärast tükeldamist
 description: Selles teemas kirjeldatakse meetodit, mida kasutatakse põhivarades kulumi arvutamiseks pärast seda, kui vara tükeldatakse väheneva jääkväärtuse meetodil.
 author: moaamer
+manager: Ann Beebe
 ms.date: 11/17/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-11-17
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 8e59ff1ef2b06a7203c1023bade7f06019479f3929dfbd582860f102c46b49f0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 615d17c71b904d426081d4c57492ba7e95c2c749
+ms.sourcegitcommit: 65f9e2584c0530b1a71655aae09101691726b47f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737697"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "4650657"
 ---
 # <a name="reduce-balance-depreciation-after-a-split"></a>Väheneva jääkväärtuse kuluarvestusmeetod pärast tükeldamist
 
@@ -37,11 +40,8 @@ Näiteks kehtivad järgmised tingimused.
 - Esimese finantsaasta kulum võrdub 18 000 USD-ga, igakuine kulum võrdub 150 USD-ga ja vara amortiseeritakse seejärel summas 738.75 USD kuni novembrini 2019.
 - Novembris 2019 tükeldatakse 80 protsenti varast teiseks põhivaraks.
 
-[![Väheneva jääkväärtuse kuluarvestusmeetod pärast tükeldamist.](./media/reduce-balance-depreciation-after-split.png)](./media/reduce-balance-depreciation-after-split.png)
+[![Väheneva jääkväärtuse kuluarvestusmeetod pärast tükeldamist](./media/reduce-balance-depreciation-after-split.png)](./media/reduce-balance-depreciation-after-split.png)
 
 Algse vara kulumi summa on $1822.25. See summa võrdub raamatupidamisliku jääkväärtusega enne tükeldatud kande sisestamist (9111.25 USD), pluss soetuse korrigeerimine, mis luuakse tükeldatud kande (8000 USD) sisestamisel, pluss kulumi korrigeerimine, mis luuakse tükeldatud kande (711 USD) jooksul. Seetõttu on teise aasta kulum (1822.25 × 18 protsenti) ÷ 12 = 27.33 USD.
 
 Uue põhivara kulumiarvestuse summa esimesel aastal on (8000 × 18 protsenti) ÷ 12 = 120 USD.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

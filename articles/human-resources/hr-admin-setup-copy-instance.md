@@ -2,12 +2,15 @@
 title: Kopeeri eksemplar
 description: Saate kasutada portaali Microsoft Dynamics Lifecycle Services (LCS), et kopeerida rakenduse Microsoft Dynamics 365 Human Resources andmebaas liivakastikeskkonda.
 author: andreabichsel
+manager: AnnBe
 ms.date: 07/22/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -15,18 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 22aa33135535d543eb8fe437821cab7a4865d6df
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
-ms.translationtype: MT
+ms.openlocfilehash: 40ca0a4d9733fc2a163daa4ea1c27a3bfae6d3bf
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060827"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527833"
 ---
 # <a name="copy-an-instance"></a>Kopeeri eksemplar
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Saate kasutada portaali Microsoft Dynamics Lifecycle Services (LCS), et kopeerida rakenduse Microsoft Dynamics 365 Human Resources andmebaas liivakastikeskkonda. Kui teil on teine liivakastikeskkond, saate kopeerida andmebaasi ka sellest keskkonnast sihtkohaks olevasse liivakastikeskkonda.
 
@@ -38,9 +39,9 @@ Eksemplari kopeerimiseks pidage meeles järgmisi nõuandeid.
 
 - Peate olema sihtkeskkonnas administraator, et saaksite pärast eksemplari kopeerimist sellesse sisse logida.
 
-- Rakenduse Human Resources andmebaasi kopeerimisel ei kopeerita elemente (rakendusi või andmeid), mis sisalduvad keskkonnas Microsoft Power Apps. Teavet Power Appsi keskkonnas elementide kopeerimise kohta vt teemast [Keskkonna kopeerimine](/power-platform/admin/copy-environment). Power Appsi keskkond, mida soovite üle kirjutada, peab olema liivakastikeskkond. Power Appsi tootmiskeskkonna muutmiseks liivakastikeskkonnaks peate olema rentniku üldadministraator. Lisateavet Power Appsi keskkonna muutmise kohta vt teemast [Eksemplari vahetamine](/dynamics365/admin/switch-instance).
+- Rakenduse Human Resources andmebaasi kopeerimisel ei kopeerita elemente (rakendusi või andmeid), mis sisalduvad keskkonnas Microsoft Power Apps. Teavet Power Appsi keskkonnas elementide kopeerimise kohta vt teemast [Keskkonna kopeerimine](https://docs.microsoft.com/power-platform/admin/copy-environment). Power Appsi keskkond, mida soovite üle kirjutada, peab olema liivakastikeskkond. Power Appsi tootmiskeskkonna muutmiseks liivakastikeskkonnaks peate olema rentniku üldadministraator. Lisateavet Power Appsi keskkonna muutmise kohta vt teemast [Eksemplari vahetamine](https://docs.microsoft.com/dynamics365/admin/switch-instance).
 
-- Kui kopeerite eksemplari oma liivakastikeskkonda ja soovite oma liivakastikeskkonda integreerida Dataverse'iga, peate uuesti rakendama kohandatud väljad Dataverse'i tabelitele. Lugege teemat [Kohandatud väljade rakendamine teenuses Dataverse](hr-admin-setup-copy-instance.md?apply-custom-fields-to-common-data-service).
+- Kui kopeerite eksemplari oma liivakastikeskkonda ja soovite oma liivakastikeskkonda integreerida Common Data Service'iga, peate uuesti rakendama kohandatud väljad Common Data Service'i üksustele. Lugege teemat [Kohandatud väljade rakendamine teenuses Common Data Service](hr-admin-setup-copy-instance.md?apply-custom-fields-to-common-data-service).
 
 ## <a name="effects-of-copying-a-human-resources-database"></a>Rakenduse Human Resources andmebaasi kopeerimise mõjud
 
@@ -52,9 +53,9 @@ Rakenduse Human Resources andmebaasi kopeerimisel esinevad järgmised sündmused
 
 - Microsoft Azure’i bloobimälu dokumente ei kopeerita ühest keskkonnast teise. Selle tulemusena ei kopeerita ühtegi lisatud dokumenti ega malli ja need jäävad lähtekeskkonda.
 
-- Kõik kasutajad, v.a need, kellel on turberoll "Süsteemiadministraator" ja teised siseteenuse kasutajakontod, pole saadaval. Administraatorkasutaja andmed kustutada või ebaselgeks muuta enne teiste kasutajate tagasi süsteemi lubamist.
+- Ükski kasutaja (v.a administraatorkasutajad ja teised sisemised teenusekasutajate kontod) pole saadaval. Administraatorkasutaja andmed kustutada või ebaselgeks muuta enne teiste kasutajate tagasi süsteemi lubamist.
 
-- Iga kasutaja, kellel on turvaroll "Süsteemihaldur", peab tegema vajalikud konfiguratsioonimuudatused, näiteks ühendama integratsiooni lõpp-punktid uuesti teatud teenuste või URL-idega.
+- Administraatorkasutaja peab tegema vajalikud konfiguratsiooni muudatused, nagu integratsiooni lõpp-punktide uuesti ühendamine kindlate teenuste või URL-idega.
 
 ## <a name="copy-the-human-resources-database"></a>Rakenduse Human Resources andmebaasi kopeerimine
 
@@ -71,15 +72,15 @@ Selle ülesande lõpetamiseks kopeerite esmalt eksemplar ja seejärel logige oma
 
 4. Valige tööpaanil **Eksemplari kopeerimine** ülekirjutamiseks eksemplar ja seejärel valige käsk **Kopeeri**. Oodake, kuni välja **Kopeerimise olek** väärtus uuendatakse suvandile **Lõpule viidud**.
 
-   ![[Valige ülekirjutamiseks eksemplar.](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
+   ![[Ülekirjutamiseks eksemplari valimine](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
 
 5. Valige **Power Platform** ja logige Microsoft Power Platformi halduskeskusesse sisse.
 
-   ![[Valige Power Platform .](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
+   ![[Power Platformi valimine](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
 
 6. Valige kopeeritav Power Appsi keskkond eksemplar ja seejärel valige käsk **Kopeeri**.
 
-7. Kui kopeerimisprotsess on lõpule viidud, logige sihteksemplari sisse ja lubage Dataverse’i integratsioon. Lisateavet ja juhiseid vt teemast [Dataverse’i integreerimise konfigureerimine](./hr-admin-integration-common-data-service.md).
+7. Kui kopeerimisprotsess on lõpule viidud, logige sihteksemplari sisse ja lubage Common Data Service’i integratsioon. Lisateavet ja juhiseid vt teemast [Common Data Service’i integreerimise konfigureerimine](https://docs.microsoft.com/dynamics365/talent/hr-common-data-service-integration).
 
 ## <a name="data-elements-and-statuses"></a>Andmeelemendid ja olekud
 
@@ -111,7 +112,7 @@ Osasid neist elementidest ei kopeerita, kuna need on keskkonnale spetsiifilised.
 
 Samuti muutuvad eksemplari kopeerimisel järgmised olekud.
 
-- Kõik kasutajad, v.a need, kellel on turberoll "Süsteemiadministraator" on seatud olekusse **Ei ole lubatud**.
+- Kõik kasutajad peale administraatori seatakse olekusse **Keelatud**.
 
 - Kõik pakett-tööd, välja arvatud mõned süsteemi tööd, seatakse olekusse **Kinnipeetud**.
 
@@ -121,11 +122,11 @@ Kõik liivakasti sihtkeskkonna kasutajad (sh administraatorid) asendatakse läht
 
 Kõik mitte-administraatorist kasutajad liivakasti sihtkeskkonnas keelatakse, et välistada liivakasti keskkonnas soovimatuid sisselogimisi. Administraatorid saavad vajadusel kasutajaid uuesti lubada.
 
-## <a name="apply-custom-fields-to-dataverse"></a>Kohandatud väljade rakendamine teenuses Dataverse
+## <a name="apply-custom-fields-to-common-data-service"></a>Kohandatud väljade rakendamine teenuses Common Data Service
 
-Kui kopeerite eksemplari oma liivakastikeskkonda ja soovite oma liivakastikeskkonda integreerida Dataverse'iga, peate uuesti rakendama kohandatud väljad Dataverse'i tabelitele.
+Kui kopeerite eksemplari oma liivakastikeskkonda ja soovite oma liivakastikeskkonda integreerida Common Data Service'iga, peate uuesti rakendama kohandatud väljad Common Data Service'i üksustele.
 
-Iga Dataverse'i tabelites avatud kohandatud välja puhul tehke järgmist.
+Iga Common Data Service'i üksustes avatud kohandatud välja puhul tehke järgmist.
 
 1. Minge kohandatud väljale ja valige **Redigeeri**.
 
@@ -139,9 +140,9 @@ Iga Dataverse'i tabelites avatud kohandatud välja puhul tehke järgmist.
 
 6. Valige uuesti **Rakenda muudatused**.
 
-Valiku tühistamine, muudatuste rakendamine, uuesti valimine ja muudatuste uuesti rakendamine palub skeemil teha teenuses Dataverse värskendusi kohandatud väljade kaasamiseks.
+Valiku tühistamine, muudatuste rakendamine, uuesti valimine ja muudatuste uuesti rakendamine palub skeemil teha teenuses Common Data Service värskendusi kohandatud väljade kaasamiseks.
 
-Lisateavet kohandatud väljade kohta leiate teemast [Kohandatud väljade loomine ja nendega töötamine](../fin-ops-core/fin-ops/get-started/user-defined-fields.md).
+Lisateavet kohandatud väljade kohta leiate teemast [Kohandatud väljade loomine ja nendega töötamine](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/user-defined-fields).
 
 ## <a name="see-also"></a>Vt ka
 
@@ -149,6 +150,3 @@ Lisateavet kohandatud väljade kohta leiate teemast [Kohandatud väljade loomine
 [Eemalda eksemplar](hr-admin-setup-remove-instance.md)</br>
 [Värskendamisprotsess](hr-admin-setup-update-process.md)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

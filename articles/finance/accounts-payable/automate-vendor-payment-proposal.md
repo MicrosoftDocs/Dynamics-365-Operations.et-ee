@@ -2,24 +2,27 @@
 title: Hankija maksesoovituste automatiseerimine
 description: Selles teemas selgitatakse, kuidas korduva graafiku alusel hankijatele maksvad organisatsioonid saavad automatiseerida hankija maksesoovituste loomise protsessi.
 author: kweekley
+manager: AnnBe
 ms.date: 04/08/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 262034
 ms.assetid: 9db38b3f-26b3-436e-8449-7ff243568a18
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-04-08
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 1c5012fdc4f3bfab3f91adfee1eab758dd9c1a0f
-ms.sourcegitcommit: 5aecb04178e45e1fdea032b3ef3ce338332005dc
-ms.translationtype: MT
+ms.openlocfilehash: 2b4e6b42326ecbd07efe006afb23931849f5cf58
+ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7966711"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4442587"
 ---
 # <a name="automate-vendor-payment-proposals"></a>Hankija maksesoovituste automatiseerimine
 
@@ -32,9 +35,6 @@ Korduva graafiku alusel hankijatele maksvad organisatsioonid saavad nüüd autom
 - Millisel hankija maksete töölehel tehtavad maksed salvestatakse
 
 Maksesoovituste automatiseerimine ei sisesta makseid automaatselt. Seega saate loodud maksete kinnitamiseks jätkata mis tahes valideerimis- ja töövooprotsesside kasutamist.
-
-> [!NOTE]
-> Funktsioonihalduses peab selle funktsiooni kasutamiseks olema lubatud hankija **maksesoovituse** automatiseerimise funktsioon. 
 
 ## <a name="define-the-occurrence-of-vendor-payment-proposals"></a>Hankija maksesoovituste aset leidmise määratlemine
 
@@ -100,11 +100,11 @@ Soovitame esmalt hinnata, kas automatiseerimine on teie organisatsiooni nõuete 
 
 Pärast hankija maksesoovituse automatiseerimise seeria loomist kuvatakse iga makse sündmused protsessi automatiseerimise nädalavaates. Hankija maksete puhul on protsessi automatiseerimise nädalavaade lisatud nii tööruumi **Hankija maksed** kui ka lehele **Protsessi automatiseerimine**.
 
-[![Protsessi automatiseerimise nädalavaade hankija maksete tööruumis.](./media/vendor-payment-proposal-1.png)](./media/vendor-payment-proposal-1.png)
+[![Protsessi automatiseerimise nädalavaade hankija maksete tööruumis](./media/vendor-payment-proposal-1.png)](./media/vendor-payment-proposal-1.png)
 
 Tööruumis **Hankija maksed** kuvatavas protsessi automatiseerimise nädalavaates kuvatakse vaid hankija maksesoovituste automatiseerimised. Seal kuvatakse kõik käimasoleva nädala maksesündmused kõigi juriidiliste isikute kohta, kelle suhtes on sisselogitud kasutajal turbeõigused. Näiteks kui ostureskontro makseametnik vastutab USMF ja USSI ettevõtete maksete eest, siis näeb ta hankija maksesoovituste automatiseerimise sündmusi nende kahe ettevõtte, kuid mitte muude ettevõtete kohta.
 
-[![USMF ja USSI ettevõtete protsessi automatiseerimise nädalavaade.](./media/vendor-payment-proposal-2.png)](./media/vendor-payment-proposal-2.png)
+[![USMF ja USSI ettevõtete protsessi automatiseerimise nädalavaade](./media/vendor-payment-proposal-2.png)](./media/vendor-payment-proposal-2.png)
 
 Iga sündmus kuvab ettevõtet, milles maksetööleht loodi või luuakse. Kui maksed luuakse tsentraliseeritud makseid kasutades, siis on kuvatav ettevõte see ettevõte, kus maksed luuakse. Sündmus ei pruugi tingimata kuvada, milliste ettevõtete arved tasutakse.
 
@@ -144,6 +144,3 @@ Hankija maksesoovituste automatiseerimistele on lisatud järgmised kohustused ja
 | Graafiku sündmusi puudutav päring | Ostureskontro makseametnik, ostureskontro tsentraliseeritud makseametnik | See kohustus annab õiguse kuvada maksesoovituse automatiseerimise sündmusi järgmiste privileegide kaudu.<ul><li>Graafiku sündmuste kuvamine</li><li>Sündmuse nädalavaate kuvamine</li></ul> |
 | Graafiku seeriaid puudutav päring      | None                                                                       | See kohustus annab õiguse kuvada seeriate ja sündmuste sätteid järgmiste privileegide kaudu.<ul><li>Graafiku sündmuste kuvamine</li><li>Sündmuste loendi lehe kuvamine</li><li>Sündmuse nädalavaate kuvamine</li></ul>|
 | Graafiku sündmuste haldamine     | None                                                                       | See kohustus annab õiguse luua ja hallata sündmusi järgmiste privileegide kaudu.<ul><li>Graafiku sündmuste haldamine</li><li>Sündmuse nädalavaate kuvamine</li></ul> |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

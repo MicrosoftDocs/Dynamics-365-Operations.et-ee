@@ -2,28 +2,29 @@
 title: Klientuuri ülevaade
 description: Selles teemas antakse ülevaade kaupluse rakenduses saadaolevast uuest klientuurist.
 author: bebeale
-ms.date: 02/01/2021
-ms.topic: overview
+manager: AnnBe
+ms.date: 06/15/2020
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.custom:
-- "260624"
-- intro-internal
+ms.search.scope: Core, Operations, Retail
+ms.custom: 260624
 ms.assetid: a4f9d315-9951-451c-8ee6-37f9b3b15ef0
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: Version 10.0.7
-ms.openlocfilehash: b1e1b7a67141ffec01d926b7f917ebd4e1f24741
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: d76668fa16a7634e7fbd953afaa6c89eed5457a2
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984592"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4411669"
 ---
 # <a name="clienteling-overview"></a>Kliendisuhtluse ülevaade
 
@@ -34,9 +35,9 @@ Paljud jaemüüjad, eriti tipptasemel erialased jaemüüjad, soovivad, et nende 
 
 ## <a name="client-book"></a>Kliendiraamat
 
-Rakenduses Microsoft Dynamics 365 Commerce saavad jaemüüjad kasutada kliendi raamatu funktsioone, et aidata talletada partneritele pikaajalisi suhteid peamiste klientidega.
+Microsoftis Dynamics 365 Commerceis saavad jaemüüjad kasutada kliendi raamatu funktsioone, et aidata talletada partneritele pikaajalisi suhteid peamiste klientidega.
 
-Kliendi raamat hõlmab kliendikaarte, mis näitavad iga kliendi kontaktandmeid koos kolme täiendava atribuudiga, mis on määratud jaemüüja poolt ja mis on konfigureeritud rakenduses Headquarters. Jaemüüjad saavad otsustada kolm kõige olulisemat asja, mida müügi kaastöötajad peaksid klientide kohta teadma. Näiteks ehete jaemüüja võib soovida kaasata olulisi kuupäevi, nagu tähtpäevad või sünnipäevad, sest need kuupäevad on juhud, kui inimesed võivad osta rohkem ehteid. Samuti võib moe-jaemüüja soovida kaasata kliendi eelistatud kaubanduskeskuste huvid ja kaubamärgid.
+Kliendi raamat sisaldab kliendi kaarte, mis näitavad iga kliendi kontaktandmeid koos kolme täiendava atribuudiga, mis on määratud jaemüüja poolt ja mis on konfigureeritud rakenduses Headquarters. Jaemüüjad saavad otsustada kolm kõige olulisemat asja, mida müügi kaastöötajad peaksid klientide kohta teadma. Näiteks ehete jaemüüja võib soovida kaasata olulisi kuupäevi, nagu tähtpäevad või sünnipäevad, sest need kuupäevad on juhud, kui inimesed võivad osta rohkem ehteid. Samuti võib moe-jaemüüja soovida kaasata kliendi eelistatud kaubanduskeskuste huvid ja kaubamärgid.
 
 Kliendiraamat laseb ka müüdavatel sidusettevõtetel loendit filtreerida, nii et see näitab ainult kliente, kes vastavad kindlatele kriteeriumidele. Näiteks on poodi jõudnud uus kingade kollektsioon ning partner soovib teavitada kliente, kellele meeldib kingi osta. Sel juhul võib sidusettevõte kliendi raamatut filtreerida, et leida vastavaid kliente ja seejärel võtta täiendavaid meetmeid.
 
@@ -62,7 +63,7 @@ Müügiesindajad saavad kasutada ka märkmeid, et jäädvustada üldise kliendi 
 
 ## <a name="integration-with-dynamics-365-customer-insights"></a>Dynamics 365 Customer Insights-iga integreerimine
 
-Rakenduse Dynamics 365 Customer Insights abil saavad jaemüüjad koondada andmeid erinevatest süsteemidest, mida kliendid kasutavad jaemüüja kaubamärgiga suhtlemiseks. Seejärel saavad nad neid andmeid kasutada kliendi ühe vaate loomiseks ja nendest arusaamise tuletamiseks. Customer Insightsi integreerimine Commerce'iga laseb jaemüüjatel valida ühe või mitu meedet, mis tuleks kliendi kaardil kuvada kliendi raamatus. Näiteks saavad jaemüüjad kasutada Customer Insightsi andmeid, et arvutada kliendile „kloppimise tõenäosus” ja määratleda „järgmine parim tegevus”. Kui need väärtused on määratletud kui meetmed, saab neid kuvada kliendi kaardil ja see võib pakkuda olulist teavet müügiesindajate jaoks. Lisateavet Customer Insightsi kohta vt rakenduse [Dynamics 365 Customer Insights](/dynamics365/ai/customer-insights/overview) dokumentatsioonist. Lisateavet meetmete kohta vt [Meetmed](/dynamics365/ai/customer-insights/pm-measures).
+Rakenduse Dynamics 365 Customer Insights abil saavad jaemüüjad koondada andmeid erinevatest süsteemidest, mida kliendid kasutavad jaemüüja kaubamärgiga suhtlemiseks. Seejärel saavad nad neid andmeid kasutada kliendi ühe vaate loomiseks ja nendest arusaamise tuletamiseks. Customer Insightsi integreerimine Commerce'iga laseb jaemüüjatel valida ühe või mitu meedet, mis tuleks kliendi kaardil kuvada kliendi raamatus. Näiteks saavad jaemüüjad kasutada Customer Insightsi andmeid, et arvutada kliendile „kloppimise tõenäosus” ja määratleda „järgmine parim tegevus”. Kui need väärtused on määratletud kui meetmed, saab neid kuvada kliendi kaardil ja see võib pakkuda olulist teavet müügiesindajate jaoks. Lisateavet Customer Insightsi kohta vt rakenduse [Dynamics 365 Customer Insights](https://docs.microsoft.com/dynamics365/ai/customer-insights/overview) dokumentatsioonist. Lisateavet meetmete kohta vt [Meetmed](https://docs.microsoft.com/dynamics365/ai/customer-insights/pm-measures).
 
 ## <a name="set-up-clienteling"></a>Seadista klientuur
 
@@ -70,12 +71,12 @@ Klientuuri funktsioonide sisselülitamiseks oma keskkonnas toimige järgmiselt.
 
 1. **Funktsioonide halduse** tööruumis filtreerige funktsioone rakenduse **Retail and Commerce** moodulis.
 
-    ![Klientuur Commerce'i mooduli funktsioonide loendis.](./media/Enable_clienteling.png "Klientuur Retail and Commerce'i mooduli funktsioonide loendis")
+    ![Klientuur Commerce'i mooduli funktsioonide loendis](./media/Enable_clienteling.png "Klientuur Retail and Commerce'i mooduli funktsioonide loendis")
 
 2. Lülitage sisse **Klientuuri** funktsioon, valides **Luba kohe.**
 3. Lehe **Commerce'i parameetrid** vahekaardil **Numbriseeria** valige rida **Kliendi raamatu ID**. Seejärel sisestage numbriseeria kood väljale **Numbriseeria kood**. Süsteem kasutab seda numbriseeriat, et määrata kliendi raamatutele ID.
 4. Valige käsk **Salvesta**.
-5. Looge uus atribuudirühm, mis sisaldab atribuute, mida soovite hõivata klientide jaoks, keda hallatakse kliendi raamatutes. Vaadake juhiseid jaotises [Atribuudid ja atribuudirühmad](./attribute-attributegroups-lifecycle.md).
+5. Looge uus atribuudirühm, mis sisaldab atribuute, mida soovite hõivata klientide jaoks, keda hallatakse kliendi raamatutes. Vaadake juhiseid jaotises [Atribuudid ja atribuudirühmad](https://docs.microsoft.com/dynamics365/retail/attribute-attributegroups-lifecycle).
 
     - Määratlege nõutavad atribuudid, **mida saab täpsustada**. Seejärel saavad müügiesindajad kasutada neid atribuute oma kliendi raamatu filtreerimiseks.
     - Seadistage nende atribuutide jaoks kuvatav tellimus. See kuvatav tellimus määratleb, millised atribuudid tuleb kliendi kaardil kuvada kliendi raamatus. 1. kuvatav tellimus on suurem kui 2. kuvatav tellimus. Seetõttu kuvatakse atribuut, millel on kuvatav tellimus 1, enne atribuuti, millel on kuvatud tellimus 2.
@@ -85,7 +86,7 @@ Klientuuri funktsioonide sisselülitamiseks oma keskkonnas toimige järgmiselt.
 
 6. Valige lehe **Commerce'i parameetrid** vahekaardi **Klientuur** väljal **Kliendi raamatu atribuudirühm** äsjaloodud atribuudirühm.
 
-    ![Valitud kliendi raamatu atribuudirühm.](./media/Client%20book%20attributes.png "Valitud kliendi raamatu atribuudirühm")
+    ![Valitud kliendi raamatu atribuudirühm](./media/Client%20book%20attributes.png "Valitud kliendi raamatu atribuudirühm")
 
 7. POS-is toimuvate tegevuste hõivamiseks määratlege tegevuse tüübid lehel **Tegevuse tüübid** (**Jaemüük ja kaubandus \> Kliendid \> Tegevuse tüübid**).
 
@@ -97,7 +98,7 @@ Klientuuri funktsioonide sisselülitamiseks oma keskkonnas toimige järgmiselt.
 
 Kui olete selle protseduuri lõpetanud, saavad sidusettevõtted avada kliendi üksikasjade lehe kassas ja lisada kliendid oma kliendi raamatusse, vaadata ja jäädvustada klientide tegevusi ja märkmeid ning suunata kliente, kasutades kliendi ja kliendiraamatu atribuute, et filtreerida kliendiraamatut. Järgmisel joonisel on toodud kliendi raamatu näide.
 
-![Kliendi raamatu näide.](./media/client_book.png "Kliendi raamatu näide")
+![Kliendi raamatu näide](./media/client_book.png "Kliendi raamatu näide")
 
 ## <a name="turn-on-the-integration-of-customer-insights-with-commerce"></a>Customer Insightsi integreerimise sisselülitamine Commerce'iga
 
@@ -105,33 +106,21 @@ Customer Insightsi Commerce'iga integreerimise sisselülitamiseks peate veenduma
 
 Integratsiooni seadistamiseks läbige need etapid.
 
-1. Registreerige Azure'i portaalis uus rakendus ja märkige rakenduse nimi, rakenduse ID ja saladus üles. Seda teavet kasutatakse teenusest teenusesse autentimiseks Commerce'i ja Customer Insightsi vahel. Märkige saladus kindlasti üles, kuna see tuleb võtmehoidlasse salvestada. Järgmise näite puhul kasutage rakenduse nime, rakenduse ID ja saladuse jaoks vastavalt parameetreid CI_Access_name, CI_Access_AppID, CI_Access_Secret. Lisateavet vaadake teemast [Lühijuhend: rakenduse registreerimine Microsofti identiteedi platvormiga](/azure/active-directory/develop/quickstart-register-app).
+1. Azure'i portaalis registreerige rakendus. Seda rakendust kasutatakse Customer Insightsi autentimiseks. Juhised leiate teemast [Lühijuhend: rakenduse registreerimine Microsofti identiteedi platvormiga](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app).
+2. Rakenduse jaoks uue kirje genereerimine. Tehke märge saladusest ja hoidke seda kuskil turvalises kohas, sest teil on seda hiljem vaja. Valige ka saladuse aegumise kestus.
 
     > [!IMPORTANT]
     > Tehke nii, et mäletaksite saladuse muutmist enne selle aegumist. Vastasel juhul peatub integratsioon ootamatult.
 
-2. Avage oma Customer Insightsi eksemplar ja otsige üleval loodud rakenduse nime (selles näites CI_Access_name).
-3. Looge Azure'i võtmehoidla ning märkige üles nimi ja URL (selles näites KeyVaultName, KeyVaultURL). Juhised leiate teemast [Lühijuhend: saate seada ja tuua saladuse Azure'i võtmehoidlast Azure'i portaali abil](/azure/key-vault/quick-create-portal).
-4. Salvestage saladus (selles näites CI_Access_Secret) hoidlasse. Kui saladus on hoidlasse salvestatud, määratakse saladusele nimi. Märkige saladuse nimi (selles näites SecretName) üles.
-5. Azure'i võtmehoidla kaudu saladusele juurdepääsuks peate looma teise rakenduse ning määrama rakenduse ID ja saladuse (selles näites KeyVault_Access_AppID ja KeyVault_Access_Secret). Märkige saladus kindlasti üles, kuna seda ei kuvata enam.
-6. Seejärel peate andma rakendusele load Commerce'i kaudu API-de abil võtmehoidlale juurdepääsuks. Avage Azure'i portaalis rakenduse leht. Tehke jaotises **Haldamine** valik **API load**. Andke juurdepääsuluba **Azure'i võtmehoidlale**. Selle loa jaoks valige **Juurdepääsupoliitika**. Valige mall **Saladuse haldus** ning valige suvandid **Hangi**, **Loend**, **Dekrüpti** ja **Krüpti**. 
-5. Avage Commerce'i peakontoris **Süsteemihaldus \> Seadistus \> Võtmehoidla parameetrid** ja sisestage võtmehoidlale vajalik teave. Seejärel sisestage väljal **Võtmehoidla klient** rakenduse ID, mida kasutasite sammus 4, nii et Commerce pääseks ligi saladustele võtmehoidlas.
-6. 1. etapis loodud rakenduse lisamiseks turvaliste rakenduste loendisse (nimetatakse mõnikord ka turvaliseks loendiks) avage Customer Insights ja valige rakenduse jaoks **kuvamisõigus**. Vaadake juhiseid jaotisest [Load](/dynamics365/ai/customer-insights/pm-permissions).
-7. Värskendage Commerce'i peakontori (HQ) lehel jaotises **Süsteemihaldus > Seadistus > Võtmehoidla parameetrid** välju, nagu allpool kirjeldatud. 
+3. Looge Azure'i võtmehoidla ja salvestage rakenduse saladus. Juhised leiate teemast [Lühijuhend: saate seada ja tuua saladuse Azure'i võtmehoidlast Azure'i portaali abil](https://docs.microsoft.com/azure/key-vault/quick-create-portal).
+4. Lülita juurdepääs Azure'i võtmehoidlale sisse Commerce'ist. Selle sammu lõpetamiseks peab teil olema rakenduse ID ja saladus. Rakendus võib olla sama rakendus, mille lõite juhises 1 või see võib olla uus rakendus. (Teisisõnu, saate kasutada rakendust, mille lõite sammus 1 nii võtmehoidlale juurdepääsuks ja Customer Insightsi teenusele juurdepääsuks, või saate luua kordumatu rakenduse iga juurdepääsutüübi kohta.) Juhiste saamiseks vaadake teemat [Salvestage teenuse peamised mandaadid Azure Stacki võtmehoidlasse](https://docs.microsoft.com/azure-stack/user/azure-stack-key-vault-store-credentials?view=azs-1908#create-a-service-principal).
+5. Avage rakenduses Headquarters **Süsteemi haldus \> Seadistus \> Võtmehoidla parameetrid** ja sisestage võtmehoidlale vajalik teave. Seejärel sisestage väljal **Võtmehoidla klient** rakenduse ID, mida kasutasite sammus 4, nii et Commerce pääseks ligi saladustele võtmehoidlas.
+6. Esimese sammu käigus loodud rakenduse lisamiseks turvaliste rakenduste loendisse (nimetatakse mõnikord ka turvaliseks loendiks) avage Customer Insights ja muutke rakendus **kuvatavaks**. Vaadake juhiseid jaotisest [Load](https://docs.microsoft.com/dynamics365/ai/customer-insights/pm-permissions).
+7. Järgige Commerce'is lehel **Commerce'i parameetrid** vahekaardi **Klientuur** kiirkaardil **Dynamics 365 Customer Insights** toodud etappe.
 
-- **Võtmehoidla URL**: KeyVaultURL (vt üleval 3. etappi).
-- **Võtmehoidla klient**: KeyVault_Access_AppID (vt üleval 5. etappi).
-- **Võtmehoidla saladuse võti**: KeyVault_Access_Secret (vt üleval 5. etappi).
-- Tehke jaotises **Saladused** järgmised valikud.
-    - **Nimi**: mis tahes nimi, nt CISecret.
-    - **Kirjeldus**: mis tahes väärtus.
-    - **Salajane**: **võlv**:`//<Name of key vault>/<name of secret>>` selles näites on `vault://KeyVaultName/SecretName`.
-
-Pärast väljade värskendamist valige **Kinnita** ja veenduge, et rakendus Commerce pääseks saladusele juurde.
-
-8. Määrake Commerce'i lehe **Commerce'i parameetrid** vahekaardi **Klientuur** kiirkaardil **Dynamics 365 Customer Insights** parameetri **Rakenduse ID** väärtuseks CI_Access_AppID (vt üleval 1. etappi). Valige väljal **Saladuse nimi** selle saladuse nimi, mis sisestati üleval 7. etapis (CISecret). Määrake suvand **Luba Customer Insights** valikule **Jah**. Kui seadistus mingil põhjusel ei õnnestu, kuvatakse tõrketeade ja selle suvandi väärtuseks määratakse **Ei**. 
-
-Customer Insightsis võib olla mitu keskkonda, nagu katse- ja tootmisprotsess. Väljale **Keskkonna eksemplari ID** sisestage sobiv keskkond. Väljale **Alternatiivne kliendi ID** sisestage atribuut Customer Insightsis, mis on vastendatud kliendi konto numbriga. (Commerce'is on kliendi ID kliendi kontonumber.) Ülejäänud kolm atribuuti on meetmed, mis kuvatakse kliendi raamatus kliendikaardil. Kliendikaardi kuvamiseks saate valida kuni kolm meedet. Te ei pea siiski mingeid meetmeid valima. Nagu eelnevalt mainitud, näitab süsteem esmalt neid väärtusi ja seejärel kliendi raamatu atribuudigrupi väärtusi.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+    1. Väljale **Rakenduse ID** sisestage rakenduse ID, mida kasutasite sammus 1.
+    2. Väljale **Salajane nimi** sisestage võtmehoidla saladuse nimi, mille lõite juhises 5.
+    3. Määrake suvand **Luba Customer Insights** valikule **Jah**. Kui installiprogramm ei õnnestu mingil põhjusel, kuvatakse tõrketeade ja selle valiku väärtuseks määratakse **Ei**.
+    4. Customer Insightsis võib olla mitu keskkonda, nagu katse- ja tootmisprotsess. Väljale **Keskkonna eksemplari ID** sisestage sobiv keskkond.
+    5. Väljale **Alternatiivne kliendi ID** sisestage atribuut Customer Insightsis, mis on vastendatud kliendi konto numbriga. (Commerce'is on kliendi konto number kliendi ID.)
+    6. Ülejäänud kolm atribuuti on meetmed, mis kuvatakse kliendi kaardil kliendi raamatus. Kliendikaardi kuvamiseks saate valida kuni kolm meedet. (Kuid te ei pea ühtegi meedet valima.) Nagu varem mainitud, kuvab süsteem need väärtused esmalt ja seejärel kuvab kliendi raamatu atribuudirühma väärtused.

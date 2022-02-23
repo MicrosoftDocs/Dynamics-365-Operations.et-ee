@@ -2,13 +2,16 @@
 title: Varude väljamineku toiming kassas
 description: Selles teemas kirjeldatakse kassa varude väljamineku toimingu võimalusi.
 author: hhaines
+manager: annbe
 ms.date: 07/30/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,14 +19,14 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 3641e1974ffc277a690ca8b8d15399ac883b0132
-ms.sourcegitcommit: 89906aa2f18f16e622fd280433c8fc9fe74d2aec
+ms.openlocfilehash: 1f74df94b1647520880ff994581872b9d9f8e067
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7581133"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4411560"
 ---
-# <a name="outbound-inventory-operation-in-pos"></a>Väljaminev laooperatsioon kassas
+# <a name="outbound-inventory-operation-in-pos"></a>Varude väljamineku toiming kassas
 
 [!include [banner](includes/banner.md)]
 
@@ -71,7 +74,7 @@ Loodavaid pakett-töösid kasutatakse dokumentide töötlemiseks, mis nurjuvad v
 
 ## <a name="prerequisite-add-outbound-operation-to-the-pos-screen-layout"></a>Eeltingimus: väljamineku toimingu lisamine kassa ekraanipaigutusse
 
-Enne kui teie organisatsioon saab väljamineku toimingu funktsiooni kasutada, peab see konfigureerima kassa toimingu **Väljamineku toiming** ühes või mitmes [kassa ekraanipaigutuses](/dynamics365/unified-operations/retail/pos-screen-layouts). Enne uue toiming tootmiskeskkonnas juurutamist veenduge, et katsetaksite seda põhjalikult ja koolitaksite oma kasutajaid seda kasutama.
+Enne kui teie organisatsioon saab väljamineku toimingu funktsiooni kasutada, peab see konfigureerima kassa toimingu **Väljamineku toiming** ühes või mitmes [kassa ekraanipaigutuses](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-screen-layouts). Enne uue toiming tootmiskeskkonnas juurutamist veenduge, et katsetaksite seda põhjalikult ja koolitaksite oma kasutajaid seda kasutama.
 
 ## <a name="overview"></a>Ülevaade
 
@@ -116,7 +119,7 @@ Vaates **Täielik tellimuste loend** saate käsitsi valida loendist rea ja seej�
 
 ### <a name="over-delivery-shipping-validations"></a>Ületarne saadetise kinnitamised
 
-Kinnitamine leiab aset dokumendi ridade täitmise protsessi ajal. Nende hulka kuuluvad ületarne kinnitused. Kui kasutaja püüab saata rohkem varusid kui on ülekandekorraldusel tellitud, kuid kas ületarne pole konfigureeritud või kui saadetud kogus ületab ülekandekorralduse rea jaoks konfigureeritud ületarne hälbe, kuvatakse kasutajale veateade ja tal pole võimalik üleliigset kogust saata.
+Kinnitamine leiab aset dokumendi ridade vastuvõtmise protsessi ajal. Nende hulka kuuluvad ületarne kinnitused. Kui kasutaja püüab võtta vastu rohkem varusid kui ostutellimusel tellitud, kuid kas ületarne pole konfigureeritud või kui saadud kogus ületab ostutellimuse rea jaoks konfigureeritud ületarne hälbe, kuvatakse kasutajale viha ja tal pole võimalik üleliigset kogust vastu võtta.
 
 ### <a name="underdelivery-close-lines"></a>Alatarne sulgemisread
 
@@ -190,6 +193,3 @@ Täielikult saadetud üleviimistellimused liigutatakse vahekaardile **Lõpetatud
 ## <a name="related-topics"></a>Seotud dokumendid
 
 [Varude sissetuleku toiming kassas](pos-inbound-inventory-operation.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

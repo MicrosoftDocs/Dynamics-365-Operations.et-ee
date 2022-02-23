@@ -1,29 +1,27 @@
-- name: Rahanduse ja toimingute rakenduste juurutamine ja haldamine
+- name: Finance and Operationsi rakenduste juurutamine ja haldamine
   items:
-    - name: Rahanduse ja toimingute rakenduste juurutamine ja haldamine
+    - name: Finance and Operationsi rakenduste juurutamine ja haldamine
       items:
-        - name: Rakenduse Rahandus ja toimingud dokumentatsioon
+        - name: Rakenduse Finance and Operations dokumentatsioon
           href: ../fin-ops/index.md
-        - name: Rahanduse ja toimingute rakenduste juurutamine ja haldamine
+        - name: Finance and Operationsi rakenduste juurutamine ja haldamine
           href: index.md
         - name: Mis on uut või mida on muudetud?
           items:
-            - name: Mis on uut või mida on muudetud Rahanduse ja toimingute rakendustes?
+            - name: Mis on uut või mida on muudetud Finance and Operationsi rakendustes?
               href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
-            - name: Mis on uut või mida on muudetud platvormivärskendustes?
+            - name: Mis on uut või mida on muudetud Platform update'is?
               items:
                 - name: Mis on uut või mida on muudetud platvormivärskenduste avalehel?
                   href: get-started/whats-new-home-page.md
-                - name: Platvormivärskendused versioonile 10.0.25 (aprill 2022)
-                  href: get-started/whats-new-platform-updates-10-0-25.md
-                - name: Platvormivärskendused versioonile 10.0.24 (veebruar 2022)
-                  href: get-started/whats-new-platform-updates-10-0-24.md
-                - name: Platvormivärskendused versioonile 10.0.23 (jaanuar 2022)
-                  href: get-started/whats-new-platform-updates-10-0-23.md
+                - name: Platvormi versiooni 10.0.16 värskendused (veebruar 2021)
+                  href: get-started/whats-new-platform-updates-10-0-16.md
+                - name: Platvormi versiooni 10.0.15 värskendused (jaanuar 2021)
+                  href: get-started/whats-new-platform-updates-10-0-15.md
+                - name: Platvormi versiooni 10.0.14 värskendused (november 2020)
+                  href: get-started/whats-new-platform-updates-10-0-14.md
             - name: Eemaldatud või iganenud funktsioonid
               items:
-                - name: Eemaldatud või iganenud funktsioonide avaleht
-                  href: ../fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
                 - name: Eemaldatud või iganenud platvormifunktsioonid
                   href: get-started/removed-deprecated-features-platform-updates.md
                 - name: Varasemate versioonide eemaldatud või iganenud funktsioonid
@@ -32,6 +30,40 @@
               href: ../fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: Microsoft Dynamics AX 2009 ja 2012 tavatoe lõpp
               href: ../fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
+        - name: Ärisündmused
+          items:
+            - name: Ärisündmuste ülevaade
+              href: business-events/home-page.md
+            - name: Rakenduse ärisündmused
+              href: business-events/app-business-events.md
+            - name: Töövoo ärisündmused
+              href: business-events/business-events-workflow.md
+            - name: Teatised ärisündmustena
+              href: business-events/alerts-business-events.md
+            - name: Ärisündmused rakenduses Microsoft Flow
+              href: business-events/business-events-flow.md
+            - name: Ärisündmuste arendaja dokumentatsioon
+              href: business-events/business-events-dev-doc.md
+            - name: Ärisündmuste tõrkeotsing
+              href: business-events/troubleshooting.md
+            - name: Ärisündmuste kasutusjuhtumid
+              href: business-events/potential-use-cases.md
+            - name: Õpikud
+              items:
+                - name: Ärisündmused ja Microsoft Flow
+                  href: business-events/how-to/how-to-flow.md
+                - name: Ärisündmused ja Azure Event Grid
+                  href: business-events/how-to/how-to-eventgrid.md
+                - name: Ärisündmused ja Azure Service Bus
+                  href: business-events/how-to/how-to-servicebus.md
+                - name: Ärisündmuste ja töövoogude kinnitused
+                  href: business-events/how-to/how-to-workflow.md
+                - name: Ärisündmused ja Microsoft Forms Pro
+                  href: business-events/how-to/FormsPro.md
+                - name: Ärisündmused ja Azure'i sündmuste keskused
+                  href: business-events/how-to/event-hub.md
+                - name: Ärisündmused finantsperioodi sulgemisel
+                  href: business-events/how-to/period-close.md
         - name: Pidev tarne
           items:
             - name: Pideva tarne koduleht
@@ -48,7 +80,7 @@
               href: dev-tools/version-models-build.md
         - name: Andmete integratsioon
           items:
-            - name: Rahanduse ja toimingute rakenduste ja kolmanda osapoole teenuste integreerimine
+            - name: Andmete integratsioonistrateegia (import/eksport) valimine
               href: data-entities/integration-overview.md
             - name: Prioriteedil põhinev ahendamine
               hreF: data-entities/priority-based-throttling.md
@@ -72,7 +104,7 @@
                   href: data-entities/recurring-integrations.md
                 - name: Teenuste testimine kolmandate osapoolte utiliitide abil
                   href: data-entities/third-party-service-test.md
-            - name: Rahanduse ja toimingute konnektor
+            - name: Finance and Operationsi konnektor
               href: data-entities/fin-ops-connector.md
             - name: Arendus integreerimiseks
               items:
@@ -90,62 +122,182 @@
                       href: data-entities/tasks/create-record-template-facilitate-data-entry.md
                     - name: Kirjete loomine kirjemallide abil
                       href: data-entities/tasks/use-record-template-new-record.md
-                - name: Andmeintegraator
+                - name: Andmeintegratsioon Common Data Service’i abil
                   items:
-                    - name: Sularahastsenaariumi jaoks potentsiaalse kliendi konfigureerimine
+                    - name: Andmeintegratsioon Common Data Service'i abil – ülevaade
+                      href: data-entities/data-integration-cds.md
+                    - name: Topeltkirjutuse integratsioon
                       items:
-                        - name: Potentsiaalne klient sularahaks
-                          href: ../../supply-chain/sales-marketing/prospect-to-cash.md
-                        - name: Rakenduse Sales kontode sünkroonimine otse rakenduse Rahandus ja toimingud klientidega
-                          href: ../../supply-chain/sales-marketing/accounts-template-mapping-direct.md
-                        - name: Rakenduse Rahandus ja toimingud toodete sünkroonimine otse rakenduse Sales toodetega
-                          href: ../../supply-chain/sales-marketing/products-template-mapping-direct.md
-                        - name: Rakenduse Sales kontaktide sünkroonimine otse rakenduse Rahandus ja toimingud kontaktide või klientidega
-                          href: ../../supply-chain/sales-marketing/contacts-template-mapping-direct.md
-                        - name: Rakenduse Rahandus ja toimingud müügipakkumiste päiste ja ridade sünkroonimine otse rakendusega Sales
-                          href: ../../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md
-                        - name: Müügitellimuste vahetu sünkroonimine rakenduse Rahandus ja toimingud ja rakenduse Sales vahel
-                          href: ../../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
-                        - name: Rakenduse Rahandus ja toimingud müügiarvete päiste ja ridade sünkroonimine otse rakendusega Sales
-                          href: ../../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
-                    - name: Integratsiooni konfigureerimine Field Service’iga
+                        - name: Topeltkirjutuse koduleht
+                          href: data-entities/dual-write/dual-write-home-page.md
+                        - name: Mis on uut või mida on muudetud topeltkirjutuses?
+                          href: data-entities/dual-write/whats-new-dual-write.md
+                        - name: Topeltkirjutuse ülevaade
+                          href: data-entities/dual-write/dual-write-overview.md
+                        - name: Topeltkirjutuse häälestus
+                          items:
+                            - name: Süsteeminõuded topeltkirjutuseks
+                              href: data-entities/dual-write/dual-write-system-req.md
+                            - name: Juhised topeltkirjutuse häälestamiseks
+                              href: data-entities/dual-write/connection-setup.md
+                            - name: Algse sünkroonimise kaalutlused
+                              href: data-entities/dual-write/initial-sync-guidance.md
+                            - name: Topeltkirjutuse häälestus teenustest Lifecycle Services
+                              href: data-entities/dual-write/lcs-setup.md
+                            - name: Topeltkirjutuse lubamine olemasolevate Finance and Operationsi rakenduste jaoks
+                              items:
+                                - name: Topeltkirjutuse lubamine olemasolevate Finance and Operationsi rakenduste jaoks
+                                  href: data-entities/dual-write/enable-dual-write.md
+                                - name: Süsteeminõuded ja eeltingimused
+                                  href: data-entities/dual-write/requirements-and-prerequisites.md
+                                - name: Kuidas kasutada topeltkirjutamise viisardit oma keskkondade linkimiseks?
+                                  href: data-entities/dual-write/link-your-environment.md
+                                - name: Üksuse vastenduse lubamine topeltkirjutamise jaoks
+                                  href: data-entities/dual-write/enable-entity-map.md
+                            - name: Valuuta andmetüübi migratsioon topeltkirjutamise jaoks
+                              href: data-entities/dual-write/currrency-decimal-places.md
+                            - name: Müügitellimuse olekuväljade vastendamise seadistamine
+                              href: data-entities/dual-write/sales-status-map.md
+                            - name: Kontsernisiseste tellimuste filtreerimine tellimuse ja tellimuseridade sünkroonimise vältimiseks
+                              href: data-entities/dual-write/filtering-intercompany-orders.md
+                        - name: Topeltkirjutamise haldamine
+                          items:
+                            - name: Üksuse- ja väljavastenduste kohandamine
+                              href: data-entities/dual-write/customizing-mappings.md
+                            - name: Mitme üksusevastenduse käsitsemine
+                              href: data-entities/dual-write/multiple-entity-maps.md
+                            - name: Juriidilise isiku redigeerimine pärast topeltkirjutamise seadistamist
+                              href: data-entities/dual-write/edit-legal-entity.md
+                            - name: Tõrkehaldus ja teatised
+                              href: data-entities/dual-write/errors-and-alerts.md
+                            - name: Rakenduse elutsüklihaldus
+                              href: data-entities/dual-write/app-lifecycle-management.md
+                        - name: Vastendamise määratlused rakenduste vahel
+                          items:
+                            - name: Integreeritud kliendi koondandmed
+                              href: data-entities/dual-write/customer-mapping.md
+                            - name: Hankija integreerimine
+                              items:
+                                - name: Integreeritud hankija koondandmed
+                                  href: data-entities/dual-write/vendor-mapping.md
+                                - name: Hankija kujunduste vaheldumisi aktiveerimine
+                                  href: data-entities/dual-write/vendor-switch.md
+                            - name: Kliendikaardid ja preemiapunkte
+                              href: data-entities/dual-write/loyalty-mapping.md
+                            - name: Toote integratsioon
+                              items:
+                                - name: Ühendatud toote kasutusfunktsionaalsus
+                                  href: data-entities/dual-write/product-mapping.md
+                                - name: Integreeritud kohad ja laod
+                                  href: data-entities/dual-write/sites-warehouses-mapping.md
+                            - name: Ettevõtte integratsioon
+                              items:
+                                - name: Ettevõtte kontseptsioon Common Data Servicesis
+                                  href: data-entities/dual-write/company-data.md
+                                - name: Alglaadimine ettevõtte andmetega
+                                  href: data-entities/dual-write/bootstrap-company-data.md
+                            - name: Common Data Service'i organisatsiooni hierarhia
+                              href: data-entities/dual-write/organization-mapping.md
+                            - name: Finants-ja maksuandmed
+                              items:
+                                - name: Juurdepääs finants- ja maksuandmetele
+                                  href: data-entities/dual-write/finance-tax-reference.md
+                                - name: Integreeritud pearaamat
+                                  href: data-entities/dual-write/ledger-mapping.md
+                                - name: Integreeritud koondmaksuandmed
+                                  href: data-entities/dual-write/tax-mapping.md
+                            - name: Potentsiaalne klient sularahaks topeltkirjutus
+                              href: data-entities/dual-write/dual-write-prospect-to-cash.md
+                            - name: Sünkroonimine Dynamics 365 Supply Chain Management hinnakujunduse mootoriga vajaduse korral
+                              href: data-entities/dual-write/pricing-engine.md
+                            - name: Dynamics 365 Commerce'i hinnakujunduse mootori kasutamine koos rakendusega Dynamics 365 Sales
+                              href: data-entities/dual-write/commerce-pricing.md
+                            - name: Ettevõttesisesed varad teenindamiseks
+                              href: data-entities/dual-write/in-house-assets.md
+                            - name: 'Integreeritud töötaja, töö ja ametikoht'
+                              href: data-entities/dual-write/integrated-hr.md
+                            - name: Varude saadavus
+                              href: data-entities/dual-write/inventory-availability.md
+                        - name: Topeltkirjutuse tugi
+                          items:
+                            - name: Field Service'i lahenduste tugi ja Project Service Automationi lahendused
+                              href: data-entities/dual-write/field-service-project-service-automation.md
+                            - name: Tõrkeotsing
+                              items:
+                                - name: 'Kontrollige, et topeltkirjutamine on konfigureeritud Finance and Operationsi rakendustes ja Common Data Service''is'
+                                  href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
+                                - name: Tõrkeotsingu probleemid algse häälestuse ajal
+                                  href: data-entities/dual-write/dual-write-troubleshooting-initial-setup.md
+                                - name: Tõrkeotsingu probleemid algse sünkroonimine ajal
+                                  href: data-entities/dual-write/dual-write-troubleshooting-initial-sync.md
+                                - name: Topeltkirjutamise mooduli tõrkeotsingu probleemid Finance and Operationsi rakendustes
+                                  href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
+                                - name: Reaalajas sünkroonimise probleemide tõrkeotsing
+                                  href: data-entities/dual-write/dual-write-troubleshooting-live-sync.md
+                                - name: Lahenduse teadlikkusega seotud probleemide tõrkeotsing
+                                  href: data-entities/dual-write/dual-write-troubleshooting-solution-awareness.md
+                                - name: Finance and Operationsi rakenduste värskendustega seotud probleemide tõrkeotsing
+                                  href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
+                                - name: Üldine tõrkeotsing
+                                  href: data-entities/dual-write/dual-write-troubleshooting.md
+                        - name: Korduma kippuvad küsimused topeltkirjutuse kohta
+                          href: data-entities/dual-write/dual-write-faq.md
+                    - name: Integreerimine Power Platformiga
                       items:
-                        - name: Integratsiooni konfigureerimine Field Service’i abil – ülevaade
-                          href: ../../supply-chain/sales-marketing/field-service.md
-                        - name: Rakenduse Rahandus ja toimingud toodete sünkroonimine rakenduse Field Service toodetega
-                          href: ../../supply-chain/sales-marketing/field-service-product.md
-                        - name: Rakenduse Field Service töötellimuste sünkroonimine rakenduse Rahandus ja toimingud müügitellimustega
-                          href: ../../supply-chain/sales-marketing/field-service-work-order.md
-                        - name: Rakenduse Field Service lepinguarvete sünkroonimine rakenduse Rahandus ja toimingud vabas vormis arvetega
-                          href: ../../supply-chain/sales-marketing/field-service-invoice.md
-                        - name: Varude üleviimiste ja korrigeerimiste sünkroonimine rakendusest Field Service rakendusse Rahandus ja toimingud
-                          href: ../../supply-chain/sales-marketing/synchronize-inventory-adjustments.md
-                        - name: Varude taseme teabe sünkroonimine rakendusest Rahandus ja toimingud rakendusse Field Service
-                          href: ../../supply-chain/sales-marketing/synchronize-inventory-level-info.md
-                        - name: Laoühikuga toodete sünkroonimine rakendusest Rahandus ja toimingud rakendusse Field Service
-                          href: ../../supply-chain/sales-marketing/synchronize-products-inv-unit.md
-                        - name: Projektiloendi sünkroonimine rakendusest Rahandus ja toimingud rakendusse Field Service
-                          href: ../../supply-chain/sales-marketing/synchronize-project-list.md
-                        - name: Ladude sünkroonimine rakendusest Rahandus ja toimingud rakendusse Field Service
-                          href: ../../supply-chain/sales-marketing/synchronize-warehouse.md
-                        - name: Projektiga töökäskude sünkroonimine rakendusest Field Service rakendusse Rahandus ja toimingud
-                          href: ../../supply-chain/sales-marketing/synchronize-work-orders.md
-                    - name: Project Service Automationi integreerimise konfigureerimine
-                      items:
-                        - name: Project Service Automationi ülevaade
-                          href: /dynamics365/project-operations/prod-pma/PSA-integration
-                        - name: Project Service Automationi integreerimisparameetrid
-                          href: /dynamics365/project-operations/prod-pma/PSA-parameters
-                        - name: Projektilepingute ja projektide sünkroonimine
-                          href: /dynamics365/project-operations/prod-pma/project-contracts-templates
-                        - name: Projektiülesannete sünkroonimine
-                          href: /dynamics365/project-operations/prod-pma/project-tasks-template
-                        - name: Projekti kulukategooriate sünkroonimine
-                          href: /dynamics365/project-operations/prod-pma/project-categories-templates
-                        - name: Projektihinnangute sünkroonimine projekti eelarvetega
-                          href: /dynamics365/project-operations/prod-pma/project-estimates-templates
-                        - name: Projekti tegelike väärtuste sünkroonimine projekti integratsiooni töölehega
-                          href: /dynamics365/project-operations/prod-pma/project-actuals-templates
+                        - name: Sularahastsenaariumi jaoks potentsiaalse kliendi konfigureerimine
+                          items:
+                            - name: Potentsiaalne klient sularahaks
+                              href: ../../supply-chain/sales-marketing/prospect-to-cash.md
+                            - name: Rakenduse Sales kontode sünkroonimine otse rakenduse Finance and Operations klientidega
+                              href: ../../supply-chain/sales-marketing/accounts-template-mapping-direct.md
+                            - name: Rakenduse Finance and Operations toodete sünkroonimine otse rakenduse Sales toodetega
+                              href: ../../supply-chain/sales-marketing/products-template-mapping-direct.md
+                            - name: Rakenduse Sales kontaktide sünkroonimine otse rakenduse Finance and Operations kontaktide või klientidega
+                              href: ../../supply-chain/sales-marketing/contacts-template-mapping-direct.md
+                            - name: Rakenduse Finance and Operations müügipakkumiste päiste ja ridade sünkroonimine otse rakendusega Sales
+                              href: ../../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md
+                            - name: Müügitellimuste vahetu sünkroonimine rakenduse Finance and Operations ja rakenduse Sales vahel
+                              href: ../../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
+                            - name: Rakenduse Finance and Operations müügiarvete päiste ja ridade sünkroonimine otse rakendusega Sales
+                              href: ../../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
+                        - name: Integratsiooni konfigureerimine Field Service’iga
+                          items:
+                            - name: Integratsiooni konfigureerimine Field Service’i abil – ülevaade
+                              href: ../../supply-chain/sales-marketing/field-service.md
+                            - name: Rakenduse Finance and Operations toodete sünkroonimine rakenduse Field Service toodetega
+                              href: ../../supply-chain/sales-marketing/field-service-product.md
+                            - name: Rakenduse Field Service töötellimuste sünkroonimine rakenduse Finance and Operations müügitellimustega
+                              href: ../../supply-chain/sales-marketing/field-service-work-order.md
+                            - name: Rakenduse Field Service lepinguarvete sünkroonimine rakenduse Finance and Operations vabas vormis arvetega
+                              href: ../../supply-chain/sales-marketing/field-service-invoice.md
+                            - name: Varude üleviimiste ja korrigeerimiste sünkroonimine rakendusest Field Service rakendusse Finance and Operations
+                              href: ../../supply-chain/sales-marketing/synchronize-inventory-adjustments.md
+                            - name: Varude taseme teabe sünkroonimine rakendusest Finance and Operations rakendusse Field Service
+                              href: ../../supply-chain/sales-marketing/synchronize-inventory-level-info.md
+                            - name: Laoühikuga toodete sünkroonimine rakendusest Finance and Operations rakendusse Field Service
+                              href: ../../supply-chain/sales-marketing/synchronize-products-inv-unit.md
+                            - name: Projektiloendi sünkroonimine rakendusest Finance and Operations rakendusse Field Service
+                              href: ../../supply-chain/sales-marketing/synchronize-project-list.md
+                            - name: Ladude sünkroonimine rakendusest Finance and Operations rakendusse Field Service
+                              href: ../../supply-chain/sales-marketing/synchronize-warehouse.md
+                            - name: Projektiga töökäskude sünkroonimine rakendusest Field Service rakendusse Finance and Operations
+                              href: ../../supply-chain/sales-marketing/synchronize-work-orders.md
+                        - name: Project Service Automationi integreerimise konfigureerimine
+                          items:
+                            - name: Project Service Automationi ülevaade
+                              href: ../../finance/project-management/PSA-integration.md
+                            - name: Project Service Automationi integreerimisparameetrid
+                              href: ../../finance/project-management/PSA-parameters.md
+                            - name: Projektilepingute ja projektide sünkroonimine
+                              href: ../../finance/project-management/project-contracts-templates.md
+                            - name: Projektiülesannete sünkroonimine
+                              href: ../../finance/project-management/project-tasks-template.md
+                            - name: Projekti kulukategooriate sünkroonimine
+                              href: ../../finance/project-management/project-categories-templates.md
+                            - name: Projektihinnangute sünkroonimine projekti eelarvetega
+                              href: ../../finance/project-management/project-estimates-templates.md
+                            - name: Projekti tegelike väärtuste sünkroonimine projekti integratsiooni töölehega
+                              href: ../../finance/project-management/project-actuals-templates.md
             - name: Väliste veebiteenuste tarbimine
               href: data-entities/consume-external-web-service.md
             - name: Elektronsõnumid
@@ -186,12 +338,8 @@
               items:
                 - name: Andmete importimis- ja eksportimistööde ülevaade
                   href: data-entities/data-import-export-job.md
-                - name: Kuupäeva ja kellaaja sünkroonimine importimistöödes
-                  href: data-entities/data-synchronize-date-and-time.md
-                - name: Üldise töölehe üksuse abil kannete importimine
+                - name: Üldise töölehe üksuse abil kannete importimise head tavad
                   href: data-entities/tips-tricks-import-general-journal-entity.md
-                - name: Andmete migreerimise optimeerimine Rahanduse ja toimingute rakenduste jaoks
-                  href: sysadmin/optimize-data-migration.md
             - name: Andmeüksuste arendamine
               items:
                 - name: Andmeüksuste kujundamise põhimõtted ja parimad tavad
@@ -232,16 +380,14 @@
               href: data-entities/dm-error-descriptions.md
         - name: Azure Data Lake
           items:
-            - name: Azure Data Lake'i eksportimise ülevaade
-              href: data-entities/Azure-Data-Lake-GA-version-overview.md
-            - name: Azure Data Lake'i eksportimise lisandmooduli installimine
+            - name: Azure Data Lake'i ülevaade
+              href: data-entities/azure-data-lake-overview.md
+            - name: Eksportimise konfigureerimine Azure Data Lake'i
               href: data-entities/configure-export-data-lake.md
-            - name: Rahanduse ja toimingute rakendused Azure Data Lake’is
+            - name: Finance and Operationsi rakendused Azure Data Lake'is
               href: data-entities/finance-data-azure-data-lake.md
             - name: Üksusesalve Data Lake’i üksusena saadavaks muutmine
               href: data-entities/entity-store-data-lake.md
-            - name: Andmete muutmine Azure Data Lake'is
-              href: data-entities/Azure-data-lake-Change-feeds.md
         - name: Andmebaasi teisaldamistoimingud
           items:
             - name: Ülevaade
@@ -326,25 +472,17 @@
                       href: deployment/updateenvironment-newinfrastructure.md
                     - name: Iseteeninduse juurutamise kaudu juurutatud keskkondade tõrkeotsing
                       href: deployment/troubleshoot-newinfrastructure.md
-                    - name: Iseteeninduskeskkondade plaanitud hooldustöö KKK
-                      href: deployment/plannedmaintenance-selfservice.md
-                    - name: Ettevõtte järjepidevus ja avariijärgne taaste
-                      href: sysadmin/business-continuity-disaster-recovery.md
-                - name: Azure Resource Manageri kasutuselevõtuprotsessi lõpuleviimine
+                - name: Azure Resource Manageri kasutuselevõtu lõpule viimine
                   href: deployment/arm-onboarding.md
-                - name: Azure Resource Manageri kasutuselevõtuprotsessi lõpuleviimine USA valitsuse LCS-i projektide jaoks
-                  href: deployment/arm-onbarding-us-goverment.md
-                - name: Azure ExpressRoute ja Rahandus ja toimingud
+                - name: Azure ExpressRoute ja Finance and Operations
                   href: deployment/expressroute.md
-                - name: Rahanduse ja toimingute arhitektuur
+                - name: Finance and Operationsi arhitektuur
                   href: ../fin-ops/imp-lifecycle/architecture-overview.md
                 - name: Värskenduste rakendamine pilvekeskkondadele
                   href: deployment/apply-deployable-package-system.md
-                - name: Värskenduste ja laienduste rakendamine Commerce Scale Unitile (pilv)
+                - name: Uuenduste ja laienduste rakendamine Commerce Scale Unitile (pilv)
                   href: deployment/Update-retail-channel.md
-                - name: Commerce Scale Uniti (pilv) automaatne värskendamine
-                  href: deployment/Auto-Update-Commerce-Scale-Unit.md
-                - name: Commerce Scale Uniti (pilv) lähtestamine
+                - name: Commerce Scale Unit (pilv) lähtestamine
                   href: deployment/Initialize-Retail-Channels.md
                 - name: Kanalite migreerimine teise Commerce Scale Unitisse
                   href: deployment/Reassign-CSU.md
@@ -360,25 +498,21 @@
                       href: deployment/on-premises-overview.md
                     - name: Kohapealsete juurutuste plaanimine ja ettevalmistamine
                       href: deployment/plan-onprem-deployment.md
-                    - name: Lahenduste Microsoft Dynamics 365 Finance + Operations (on-premises) toetatud tarkvara
-                      href: deployment/onprem-compatibility.md
                     - name: Riistvara suuruse nõuded
                       href: ../fin-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json
-                    - name: Autentimine lahenduses Dynamics 365 Finance + Operations (on-premises)
+                    - name: Autentimine rakenduses Dynamics 365 Finance + Operations (on-premises)
                       href: deployment/authentication-onprem.md
                 - name: Kohapealsete keskkondade häälestamine ja juurutamine
                   items:
                     - name: Kohapealsete projektide häälestamine LCS-is
                       href: lifecycle-services/lbd-create-lcs-on-prem-project.md
-                    - name: Kohapealsete keskkondade häälestamine ja juurutamine (platvormivärskendus 41 ja uuemad)
-                      href: deployment/setup-deploy-on-premises-pu41.md
-                    - name: Kohapealsete keskkondade häälestamine ja juurutamine (platvormivärskendused 12 kuni 40)
+                    - name: Kohapealsete keskkondade häälestamine ja juurutamine
                       href: deployment/setup-deploy-on-premises-pu12.md
                     - name: Etapid Retaili kanali komponentide installimiseks kohapealses keskkonnas
                       href: deployment/deploy-retail-onprem.md
                     - name: Kohandatud mudelite arendamine ja juurutamine kohapealsetesse keskkondadesse
                       href: deployment/develop-deploy-custom-models-on-premises.md
-                - name: Keskkonna toimingud
+                - name: Keskkonna hooldus
                   items:
                     - name: Värskenduste rakendamine kohapealsesse juurutamisse
                       href: deployment/apply-updates-on-premises.md
@@ -386,10 +520,8 @@
                       href: deployment/certificate-rotation-on-prem.md
                     - name: Kliendi Interneti-ühendus
                       href: user-interface/client-disconnected.md
-                    - name: Ainult paketi ja interaktiivsete AOS-i sõlmede konfigureerimine kohapealsetes juurutustes
+                    - name: Ainult paketi ja interaktiivsete AOS-i sõlmede konfigureerimine asutusesiseses juurutuses
                       href: deployment/onprem-batchonly.md
-                    - name: SQL Serveri aruandlusteenuste (SSRS) sõlmede suure kättesaadavuse konfigureerimine
-                      href: deployment/onprem-SSRSHA.md
                     - name: Puhverserverite konfigureerimine kohapealsete keskkondade jaoks
                       href: deployment/onprem-reverseproxy.md
                     - name: Kohapealsed diagnostikad
@@ -406,16 +538,12 @@
                       href: deployment/onprem-remove-reinstall-AOS-node.md
                     - name: Mitme keskkonna puhul sama AD FS-i eksemplari korduv kasutamine
                       href: deployment/onprem-reuseadfs.md
-                    - name: Lahenduse Microsoft Dynamics 365 Finance + Operations (on-premises) keskkondade SQL Serveri eksemplari täiendamine
-                      href: deployment/onprem-upgrade-sqlserver.md
                 - name: Kohalik esindaja
                   items:
-                    - name: AD FS Microsoft 365-ga ühilduvus
+                    - name: AD FS Microsoft 365 ühilduvus
                       href: deployment/onprem-adfscompatibility.md
                     - name: Kohaliku esindaja eeljuurutuse ja järeljuurutuse skriptid
                       href: lifecycle-services/pre-post-scripts.md
-                    - name: Juurutamise konfiguratsioonid kohaliku agendi jaoks
-                      href: deployment/onprem-localagent-options.md
                     - name: Kohaliku esindaja värskendamine
                       href: lifecycle-services/update-local-agent.md
                 - name: Tõrkeotsing
@@ -432,8 +560,6 @@
                   href: deployment/install-deployable-package.md
                 - name: Paketi desinstallimine
                   href: deployment/uninstall-deployable-package.md
-                - name: Kohandatud X++ skriptide käitamine ilma katkestusteta
-                  href: deployment/run-custom-scripts.md
                 - name: Paketi rakendusprobleemide tõrkeotsing
                   href: deployment/deployable-package-troubleshooting.md
             - name: Kohandatud spikri juurutamine
@@ -462,16 +588,6 @@
                   href: help/language-locale.md
                 - name: 'Spikri laiendamine, kohandamine ja koostöö'
                   href: help/contributor-guide.md
-            - name: Juurutamiskaalutlused
-              items:
-                - name: Dynamics 365 Finance'i ja Dynamics 365 Supply Chain Managementi riigikohase ja kohaliku pilve juurutusvõimalused
-                  href: deployment/deployment-options-geo.md
-                - name: Finance ja Supply Chain Management USA riigiasutuste ühispilvkeskkonnas (GCC)
-                  href: deployment/us-gcc-deployment.md
-                - name: 'Finance''i ja Supply Chain Managementi rakendused, mida käitab 21Vianet Hiinas'
-                  href: deployment/china-local-deployment.md
-                - name: Rahanduse ja toimingute rakendused Prantsusmaal
-                  href: deployment/france-local-deployment.md
         - name: Arendamine ja kohandamine
           items:
             - name: Avalehe arendamine ja kohandamine
@@ -488,6 +604,8 @@
                   href: dev-tools/access-instances.md
                 - name: Valmis arenduskeskkondade konfigureerimine
                   href: dev-tools/configure-developer-vm.md
+                - name: Uute kasutajate loomine arendusmasinatel
+                  href: dev-tools/enable-development-machine.md
                 - name: Administraatori juurdepääsu keelavate VM-ide arendamise ja koostamise KKK
                   href: sysadmin/VMs-no-admin-access.md
                 - name: Kohalike keskkondade ümbernimetamine Azure DevOps’ile juurdepääsuks
@@ -514,10 +632,6 @@
                   href: dev-tools/pipeline-deploy-asset.md
                 - name: Teenuse Lifecycle Services (LCS) ühenduse loomine lahenduses Azure Pipelines
                   href: dev-tools/pipeline-lcs-connection.md
-                - name: LCS-i ühenduse autentimise ülesannete värskendamine Azure Pipelinesi MSAL-i
-                  href: dev-tools/pipeline-lcs-connection-update.md
-                - name: Majutatud Azure Pipeline'i värskendamine uute NuGet-pakettide jaoks
-                  href: dev-tools/pipeline-nuget-split.md
                 - name: Pärandkonveieri värskendamine lahenduses Azure Pipelines
                   href: dev-tools/pipeline-msbuild-update.md
             - name: Sõidukipargi halduse näidisrakendus
@@ -547,7 +661,7 @@
                     - name: Mudelite ja andmemudeli elementide ülevaade
                       href: dev-tools/create-data-model-elements.md
                     - name: Laiendite nimejuhised
-                      href: /dynamics365/fin-ops-core/dev-itpro/naming-guidelines-extensions
+                      href: extensibility/NamingGuidelines.md
                     - name: Mudeli kohandamise ja aegumisfunktsiooni väljalülitamine
                       href: dev-tools/lock-models.md
                 - name: Kliendi kohanduste analüüsi aruanne
@@ -562,7 +676,7 @@
                   href: dev-tools/metadata-search-visual-studio.md
                 - name: Mudelid ja paketid
                   href: dev-tools/models.md
-                - name: Rahanduse ja toimingute projekti tüüp
+                - name: Finance and Operationsi projekti tüüp
                   href: dev-tools/projects.md
                 - name: Tööriistade lisandmoodulid Visual Studio jaoks
                   href: dev-tools/developer-tools-add-ins.md
@@ -570,24 +684,22 @@
                   href: dev-tools/update-development-tools.md
             - name: X++ programmeerimiskeel
               items:
-                - name: X++ keele tugi
-                  items:
-                    - name: Visual Studio nõuded X++ jaoks
-                      href: dev-tools/developer-tools-vs2017.md
-                    - name: X++ koodi silumine
-                      href: dev-tools/debug-xpp.md
-                    - name: Atribuudi EventHandlerResult klassid taotluste või vastuste stsenaariumides
-                      href: dev-tools/event-handler-result-class.md
-                    - name: Äriloogika kirjutamine C# ja X++ lähtekoodi abil
-                      href: dev-tools/write-business-logic.md
-                    - name: LINQ pakkuja C# jaoks
-                      href: dev-tools/linq-provider-c.md
-                    - name: Hea tava reeglite kirjutamine
-                      href: dev-tools/author-best-practice-rules.md
-                    - name: Application Exploreri atribuudid
-                      href: dev-ref/application-explorer-aot-properties.md
-                    - name: Atribuut SysSetupConfigAttribute
-                      href: dev-tools/syssetupconfigattribute.md
+                - name: X++ ja siluri funktsioonid
+                  href: dev-tools/new-x-debugger-features.md
+                - name: X++ koodi silumine
+                  href: dev-tools/debug-xpp.md
+                - name: Atribuudi EventHandlerResult klassid taotluste või vastuste stsenaariumides
+                  href: dev-tools/event-handler-result-class.md
+                - name: Äriloogika kirjutamine C# ja X++ lähtekoodi abil
+                  href: dev-tools/write-business-logic.md
+                - name: X++ ja X++ kompilaatori muudatused
+                  href: dev-tools/programming-language-support.md
+                - name: LINQ pakkuja C# jaoks
+                  href: dev-tools/linq-provider-c.md
+                - name: Hea tava reeglite kirjutamine
+                  href: dev-tools/author-best-practice-rules.md
+                - name: Application Exploreri atribuudid
+                  href: dev-ref/application-explorer-aot-properties.md
                 - name: X++ keeleviide
                   items:
                     - name: X++ keeleviite ülevaade
@@ -632,11 +744,11 @@
                           href: dev-ref/xpp-interfaces.md
                         - name: Teegid
                           href: dev-ref/xpp-library-objects.md
-                        - name: Sündmused ja delegaadid
+                        - name: Sündmused
                           href: dev-ref/xpp-events.md
                     - name: X++ andmete valimine ja manipuleerimine
                       items:
-                        - name: X++ andmete valimise ja manipuleerimise ülevaade
+                        - name: X++ andmete valimine ja manipuleerimise ülevaade
                           href: dev-ref/xpp-data/xpp-data-home-page.md
                         - name: Väljavõtte valimine
                           href: dev-ref/xpp-data/xpp-select-statement.md
@@ -696,6 +808,60 @@
                       href: dev-ref/xpp-string-run-time-functions.md
                 - name: Süsteemitabelid
                   href: dev-ref/system-tables.md
+                - name: Süsteemiklassid
+                  items:
+                    - name: Süsteemiklassi loend
+                      href: dev-ref/system-classes/toc.yml
+                    - name: Tähestikuliselt rühmitatud süsteemiklassid
+                      items:
+                        - name: A klassid
+                          href: dev-ref/a-classes.md
+                        - name: B klassid
+                          href: dev-ref/b-classes.md
+                        - name: C klassid
+                          href: dev-ref/c-classes.md
+                        - name: D klassid
+                          href: dev-ref/d-classes.md
+                        - name: E klassid
+                          href: dev-ref/e-classes.md
+                        - name: F klassid
+                          href: dev-ref/f-classes.md
+                        - name: G klassid
+                          href: dev-ref/g-classes.md
+                        - name: H klassid
+                          href: dev-ref/h-classes.md
+                        - name: I klassid
+                          href: dev-ref/i-classes.md
+                        - name: J klassid
+                          href: dev-ref/j-classes.md
+                        - name: K klassid
+                          href: dev-ref/k-classes.md
+                        - name: L klassid
+                          href: dev-ref/l-classes.md
+                        - name: M klassid
+                          href: dev-ref/m-classes.md
+                        - name: N klassid
+                          href: dev-ref/n-classes.md
+                        - name: O klassid
+                          href: dev-ref/o-classes.md
+                        - name: P klassid
+                          href: dev-ref/p-classes.md
+                        - name: Q klassid
+                          href: dev-ref/q-classes.md
+                        - name: R klassid
+                          href: dev-ref/r-classes.md
+                        - name: S klassid
+                          href: dev-ref/s-classes.md
+                        - name: T klassid
+                          href: dev-ref/t-classes.md
+                        - name: U klassid
+                          href: dev-ref/u-classes.md
+                        - name: V klassid
+                          href: dev-ref/v-classes.md
+                        - name: W klassid
+                          href: dev-ref/w-classes.md
+                        - name: X klassid
+                          href: dev-ref/x-classes.md
             - name: Laiendatavus
               items:
                 - name: Laiendatavuse avaleht
@@ -836,11 +1002,13 @@
               items:
                 - name: Jälitamised Trace Parseri abil
                   href: perf-test/trace-trace-tutorial.md
-                - name: Ühe kasutajaga testimine jõudluse SDK ja tegevuse salvestaja abil
+                - name: Ühe kasutajaga testimine tegevuse salvestaja ja Performance SDK abil
                   href: perf-test/single-user-test-perf-sdk.md
-                - name: Mitme kasutajaga testimine jõudluse SDK abil
-                  href: perf-test/perfsdk-multi-user-testing.md
-                - name: Tõrkeotsingujuhend testimisel jõudluse SDK abil
+                - name: Mitme kasutajaga testimine Performance SDK ja kohaliku testimiskontrolleri abil
+                  href: perf-test/multi-user-testing-local-test-controller.md
+                - name: Mitme kasutajaga testimine Performance SDK ja Azure DevOpsi kaudu
+                  href: perf-test/multi-user-testing-perfsdk-azuredevops.md
+                - name: Ühe või mitme kasutajaga testimine Performance SDK abil – tõrkeotsingujuhend
                   href: perf-test/troubleshoot-perf-sdk-user-testing.md
                 - name: Performance SDK ja mitme kasutajaga testimine kohapealsetes keskkondades
                   href: perf-test/perfsdk-tutorial-lbd.md
@@ -854,12 +1022,10 @@
                   href: perf-test/testing-validation.md
                 - name: Testprojektid Visual Studios
                   href: perf-test/testing-support.md
-                - name: Pideva koostamise ning testimise automaatkeskkonna juurutamine ja kasutamine
+                - name: Pideva koostamise ja testimise automaatikat toetavate keskkondade juurutamine
                   href: perf-test/continuous-build-test-automation.md
                 - name: SysTesti filtreerimine klassi- ja meetodiatribuutidega
                   href: perf-test/systest-filtering.md
-                - name: Atribuut SysTestRow mitme väärtuse testimiseks
-                  href: perf-test/systest-row.md
                 - name: Vastuvõtutesti teek
                   items:
                     - name: Vastuvõtutesti teegi ressursid
@@ -886,16 +1052,10 @@
                       href: perf-test/atl-faq.md
             - name: Kuupäeva jõustumine
               href: dev-tools/date-effectivity.md
-            - name: Arendus sõltumatutele tarkvaratootjatele
-              items:
-                - name: ISV arendamise avaleht
-                  href: dev-tools/isv-dev-home-page.md
-                - name: X++ moodulite linkimine pakettidega ISV Studio abil
-                  href: dev-tools/isv-studio-solutions.md
-                - name: ISV litsentsimine
-                  href: dev-tools/isv-licensing.md
-                - name: ISV kohapealne litsentsimine
-                  href: dev-tools/isv-licensing-on-prem.md
+            - name: ISV litsentsimine
+              href: dev-tools/isv-licensing.md
+            - name: ISV kohapealne litsentsimine
+              href: dev-tools/isv-licensing-on-prem.md
         - name: Isikuandmete kaitse üldmäärus (GDPR)
           items:
             - name: Isikuandmete kaitse üldmääruse ülevaade
@@ -912,7 +1072,7 @@
                   href: gdpr/gdpr-extend-person-search-report.md
                 - name: Tundlike andmete juurdepääsu haldamine
                   href: gdpr/gdpr-auditing-sensitive-data.md
-                - name: Isikuandmete taotlustele vastamine Human Resources'i abil
+                - name: Isikuandmete taotlustele vastamine Human Resourcesi abil
                   href: gdpr/respond-dsr-request-talent.md
                 - name: Isikuandmete taotlustele vastamine AX 2012-s
                   href: gdpr/gdpr-ax2012.md
@@ -928,18 +1088,12 @@
                   href: lifecycle-services/lcs-works-lcs.md
                 - name: LCS partneritele
                   href: lifecycle-services/getting-started-lcs.md
-                - name: ReSTful API-d
-                  items:
-                    - name: Keskkondade käivitamine ja lõpetamine
-                      href: lifecycle-services/api/v1/reference-start-stop-environments.md
-                    - name: Keskkonna metaandmete toomine
-                      href: lifecycle-services/api/v1/reference-environment-metadata.md
-                    - name: Keskkonna ajaloo toomine
-                      href: lifecycle-services/api/v1/reference-environment-history.md
-                    - name: Keskkonna RSAT-serdi ZIP-i toomine
-                      href: lifecycle-services/api/v1/reference-download-rsat-certificate.md
-                - name: Mis on uut või mida on muudetud teenuses Lifecycle Services?
+                - name: Mis on uut või mida on muudetud Lifecycle Servicesis?
                   href: lifecycle-services/whats-new-lcs.md
+                - name: Teadaolevad probleemid
+                  href: lifecycle-services/known-issues.md
+                - name: Eemaldatud või iganenud funktsioonid teenuses Lifecycle Services (LCS)
+                  href: lifecycle-services/removed-deprecated-features.md
             - name: Teenuse Lifecycle Services kasutusjuhend
               href: lifecycle-services/lcs-user-guide.md
             - name: Projekti kasutuselevõtt
@@ -989,11 +1143,9 @@
                 - name: Plaanitud hooldustöö aja KKK
                   href: lifecycle-services/planned-maintenance-window-faq.md
             - name: Jälgimine ja diagnostika
-              items:
-                - name: Jälgimise ja diagnostika tööriistad
-                  href: lifecycle-services/monitoring-diagnostics.md
-                - name: Azure Data Exploreri kasutamine töötlemata teabe logide päringuks
-                  href: lifecycle-services/azure-data-explorer.md
+              href: lifecycle-services/monitoring-diagnostics.md
+            - name: Mõju analüüsi aruanne
+              href: lifecycle-services/impact-analysis-report.md
             - name: Keskkonnateenuste taaskäivitamine
               href: lifecycle-services/restart-environment-services.md
             - name: Tootmiskatkestusest teatamine
@@ -1006,8 +1158,6 @@
               href: lifecycle-services/performancetroubleshooting.md
             - name: Päringu kokaraamat
               href: lifecycle-services/querycookbook.md
-            - name: Aegunud kordustellimused ja andmete kustutamine
-              href: lifecycle-services/expired-subscription-data-deletion.md
             - name: Microsoft Dynamics 365 Translation Service
               items:
                 - name: Dynamics 365 Translation Service'i ülevaade
@@ -1018,230 +1168,20 @@
                   href: lifecycle-services/use-translation-service-ua.md
                 - name: Tõlkemälu failid
                   href: lifecycle-services/use-translation-service-tm.md
-                - name: Azure DevOpsi laiend (avalik eelversioon)
-                  href: lifecycle-services/dts-devops-extension.md
-        - name: Microsoft Power Platformi integratsioon
+        - name: Microsoft Power Platform’i integratsioon
           items:
-            - name: Ülevaade
+            - name: Microsoft Power Platform integreerimine Finance and Operations'iga
               href: power-platform/overview.md
-            - name: Power Platformi integreerimise lubamine
-              href: power-platform/enable-power-platform-integration.md
-            - name: Autentimine ja autoriseerimine
-              href: power-platform/authentication-and-authorization.md
-            - name: Topeltkirjutus
-              items:
-                - name: Topeltkirjutuse koduleht
-                  href: data-entities/dual-write/dual-write-home-page.md
-                - name: Mis on uut või mida on muudetud topeltkirjutuses?
-                  href: data-entities/dual-write/whats-new-dual-write.md
-                - name: Topeltkirjutuse ülevaade
-                  href: data-entities/dual-write/dual-write-overview.md
-                - name: Topeltkirjutuse häälestus
-                  items:
-                    - name: Süsteeminõuded topeltkirjutuseks
-                      href: data-entities/dual-write/dual-write-system-req.md
-                    - name: Juhised topeltkirjutuse häälestamiseks
-                      href: data-entities/dual-write/connection-setup.md
-                    - name: Algse sünkroonimise kaalutlused
-                      href: data-entities/dual-write/initial-sync-guidance.md
-                    - name: Reaalajas sünkroonimise piirangud
-                      href: data-entities/dual-write/sync-limits.md
-                    - name: Topeltkirjutuse häälestus teenustest Lifecycle Services
-                      href: data-entities/dual-write/lcs-setup.md
-                    - name: Topeltkirjutuse lubamine olemasolevatele Rahanduse ja toimingute rakendustele
-                      items:
-                        - name: Topeltkirjutuse lubamine olemasolevatele Rahanduse ja toimingute rakendustele
-                          href: data-entities/dual-write/enable-dual-write.md
-                        - name: Süsteeminõuded ja eeltingimused
-                          href: data-entities/dual-write/requirements-and-prerequisites.md
-                        - name: Kuidas kasutada topeltkirjutamise viisardit oma keskkondade linkimiseks?
-                          href: data-entities/dual-write/link-your-environment.md
-                        - name: Üksuse vastenduse lubamine topeltkirjutamise jaoks
-                          href: data-entities/dual-write/enable-entity-map.md
-                    - name: Eraldatud topeltkirjutusrakenduse orkestratsioonipakett
-                      href: data-entities/dual-write/separated-solutions.md
-                    - name: Valuuta andmetüübi migratsioon topeltkirjutamise jaoks
-                      href: data-entities/dual-write/currrency-decimal-places.md
-                    - name: Müügitellimuse olekuväljade vastendamise seadistamine
-                      href: data-entities/dual-write/sales-status-map.md
-                    - name: Kontsernisiseste tellimuste filtreerimine tellimuse ja tellimuseridade sünkroonimise vältimiseks
-                      href: data-entities/dual-write/filtering-intercompany-orders.md
-                - name: Topeltkirjutuse haldamine
-                  items:
-                    - name: Üksuse- ja väljavastenduste kohandamine
-                      href: data-entities/dual-write/customizing-mappings.md
-                    - name: Topeltkirjutuse juhised
-                      href: data-entities/dual-write/custom-best-practices.md
-                    - name: Mitme üksusevastenduse käsitsemine
-                      href: data-entities/dual-write/multiple-entity-maps.md
-                    - name: Juriidilise isiku redigeerimine pärast topeltkirjutuse seadistamist
-                      href: data-entities/dual-write/edit-legal-entity.md
-                    - name: Hoolduse topeltkirjutuse peatamine
-                      href: data-entities/dual-write/pause-for-maintenance.md
-                    - name: Tõrkehaldus ja teatised
-                      href: data-entities/dual-write/errors-and-alerts.md
-                    - name: Rakenduse elutsüklihaldus
-                      href: data-entities/dual-write/app-lifecycle-management.md
-                    - name: Kasutaja määratud töörühma omanik
-                      href: data-entities/dual-write/user-specified-team-owner.md
-                    - name: Topeltkirjutuse linkimise tühistamine ja uuesti linkimine
-                      href: data-entities/dual-write/relink-environments.md
-                - name: Vastendamise määratlused rakenduste vahel
-                  items:
-                    - name: Integreeritud kliendi koondandmed
-                      href: data-entities/dual-write/customer-mapping.md
-                    - name: Hankija integreerimine
-                      items:
-                        - name: Integreeritud hankija koondandmed
-                          href: data-entities/dual-write/vendor-mapping.md
-                        - name: Hankija kujunduste vaheldumisi aktiveerimine
-                          href: data-entities/dual-write/vendor-switch.md
-                    - name: Kliendikaardid ja preemiapunkte
-                      href: data-entities/dual-write/loyalty-mapping.md
-                    - name: Toote integratsioon
-                      items:
-                        - name: Ühendatud toote kasutusfunktsionaalsus
-                          href: data-entities/dual-write/product-mapping.md
-                        - name: Integreeritud kohad ja laod
-                          href: data-entities/dual-write/sites-warehouses-mapping.md
-                    - name: Ettevõtte integratsioon
-                      items:
-                        - name: Ettevõtte kontseptsioon Dataverse'is
-                          href: data-entities/dual-write/company-data.md
-                        - name: Ettevõtte andmete lähtestamine
-                          href: data-entities/dual-write/bootstrap-company-data.md
-                    - name: Dataverse'i organisatsiooni hierarhia
-                      href: data-entities/dual-write/organization-mapping.md
-                    - name: Finants-ja maksuandmed
-                      items:
-                        - name: Juurdepääs finants- ja maksuandmetele
-                          href: data-entities/dual-write/finance-tax-reference.md
-                        - name: Integreeritud pearaamat
-                          href: data-entities/dual-write/ledger-mapping.md
-                        - name: Integreeritud koondmaksuandmed
-                          href: data-entities/dual-write/tax-mapping.md
-                    - name: Hanke integreerimine Supply Chain Managementis Field Service'iga
-                      href: data-entities/dual-write/scm-field-service-procurement.md
-                    - name: Vajaduse korral sünkroonimine Supply Chain Managementi hinnakujunduse mootoriga
-                      href: data-entities/dual-write/pricing-engine.md
-                    - name: Potentsiaalne klient sularahaks topeltkirjutus
-                      href: data-entities/dual-write/dual-write-prospect-to-cash.md
-                    - name: Dynamics 365 Commerce'i hinnakujunduse mootori kasutamine koos rakendusega Dynamics 365 Sales
-                      href: data-entities/dual-write/commerce-pricing.md
-                    - name: Ettevõttesisesed varad teenindamiseks
-                      href: data-entities/dual-write/in-house-assets.md
-                    - name: Varude saadavus
-                      href: data-entities/dual-write/inventory-availability.md
-                    - name: 'Integreeritud töötaja, töö ja ametikoht'
-                      href: data-entities/dual-write/integrated-hr.md
-                    - name: Osapool ja globaalne aadressiraamat
-                      href: data-entities/dual-write/party-gab.md
-                    - name: Microsoft Power Appsi portaalide kasutamine osapoole andmemudeliga
-                      href: data-entities/dual-write/party-gab-portal.md
-                    - name: Üleminek osapoole ja globaalse aadressiraamatu mudelile
-                      href: data-entities/dual-write/upgrade-party-gab.md
-                    - name: Osapoole andmete kuvamine
-                      href: data-entities/dual-write/view-party.md
-                    - name: Märkuste integreerimine
-                      href: data-entities/dual-write/notes-integration.md
-                    - name: Vastenduse viide
-                      href: data-entities/dual-write/mapping-reference.md
-                - name: Topeltkirjutuse tugi
-                  items:
-                    - name: Field Service'i ja Project Service Automationi lahenduste tugi
-                      href: data-entities/dual-write/field-service-project-service-automation.md
-                    - name: Potentsiaalse klient sularahaks andmete migreerimine andmeintegraatorist topeltkirjutusse
-                      href: data-entities/dual-write/migrate-prospect-to-cash.md
-                    - name: Tõrkeotsing
-                      items:
-                        - name: Üldine tõrkeotsing
-                          href: data-entities/dual-write/dual-write-troubleshooting.md
-                        - name: Tõrkeotsingu probleemid algse häälestuse ajal
-                          href: data-entities/dual-write/dual-write-troubleshooting-initial-setup.md
-                        - name: Tõrkeotsingu probleemid algse sünkroonimine ajal
-                          href: data-entities/dual-write/dual-write-troubleshooting-initial-sync.md
-                        - name: Reaalajas sünkroonimise probleemide tõrkeotsing
-                          href: data-entities/dual-write/dual-write-troubleshooting-live-sync.md
-                        - name: Topeltkirjutusprobleemide tõrkeotsing Rahanduse ja toimingute rakendustes
-                          href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
-                        - name: Osapoole ja globaalse aadressiraamatu probleemide tõrkeotsing
-                          href: data-entities/dual-write/dual-write-troubleshooting-party-gab.md
-                        - name: Lahenduse teadlikkusega seotud probleemide tõrkeotsing
-                          href: data-entities/dual-write/dual-write-troubleshooting-solution-awareness.md
-                        - name: Rahanduse ja toimingute rakenduste värskenduste probleemide tõrkeotsing
-                          href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
-                        - name: Topeltkirjutuse konfiguratsiooni kontrollimine Rahanduse ja toimingute rakendustes ja Dataverse’is
-                          href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
-                        - name: Tõrkekoodid tabelikaardi seisundikontrolli jaoks
-                          href: data-entities/dual-write/table-map-health-check.md
-                - name: Korduma kippuvad küsimused topeltkirjutuse kohta
-                  href: data-entities/dual-write/dual-write-faq.md
-            - name: Virtuaalsed üksused
-              items:
-                - name: Virtuaalsete üksuste ülevaade
-                  href: power-platform/virtual-entities-overview.md
-                - name: Üksuse modelleerimine
-                  href: power-platform/entity-modeling.md
-                - name: Rakenduse elutsüklihaldus
-                  href: power-platform/application-lifecycle-management.md
-                - name: Dataverse'i virtuaalüksuste konfigureerimine
-                  href: power-platform/admin-reference.md
-                - name: Dataverse'i virtuaalsete üksuste lubamine
-                  href: power-platform/enable-virtual-entities.md
-                - name: Power Appsi portaalid Rahanduse ja toimingutega
-                  href: power-platform/power-portal-reference.md
-                - name: Rahanduse ja toimingute virtuaalsete üksuste KKK
-                  href: power-platform/faq.md
-            - name: Ärisündmused
-              items:
-                - name: Ärisündmuste ülevaade
-                  href: business-events/home-page.md
-                - name: Ärisündmuse lõpp-punktide haldamine
-                  href: business-events/managing-business-event-endpoints.md
-                - name: Rakenduse ärisündmused
-                  href: business-events/app-business-events.md
-                - name: Töövoo ärisündmused
-                  href: business-events/business-events-workflow.md
-                - name: Partii ärisündmused
-                  href: business-events/system-business-events.md
-                - name: Teatised ärisündmustena
-                  href: business-events/alerts-business-events.md
-                - name: Andmesündmused
-                  href: business-events/data-events.md
-                - name: Ärisündmused rakenduses Power Automate
-                  href: business-events/business-events-flow.md
-                - name: Ärisündmuste arendaja dokumentatsioon
-                  href: business-events/business-events-dev-doc.md
-                - name: Ärisündmuste tõrkeotsing
-                  href: business-events/troubleshooting.md
-                - name: Ärisündmuste kasutusjuhtumid
-                  href: business-events/potential-use-cases.md
-                - name: Õpikud
-                  items:
-                    - name: Ärisündmused ja Power Automate
-                      href: business-events/how-to/how-to-flow.md
-                    - name: Ärisündmused ja Azure Event Grid
-                      href: business-events/how-to/how-to-eventgrid.md
-                    - name: Ärisündmused ja Azure Service Bus
-                      href: business-events/how-to/how-to-servicebus.md
-                    - name: Ärisündmused ja Azure Service Busi järjekord
-                      href: business-events/how-to/how-to-servicebus-queue.md
-                    - name: Ärisündmuste ja töövoogude kinnitused
-                      href: business-events/how-to/how-to-workflow.md
-                    - name: Ärisündmused ja Microsoft Forms Pro
-                      href: business-events/how-to/FormsPro.md
-                    - name: Ärisündmused ja Azure'i sündmuste keskused
-                      href: business-events/how-to/event-hub.md
-                    - name: Sündmuste kordustellimus Dataverse'is
-                      href: business-events/how-to/how-to-dataverse-events.md
-                    - name: Ärisündmused finantsperioodi sulgemisel
-                      href: business-events/how-to/period-close.md
-            - name: Lisandmoodulid
-              items:
-                - name: Lisandmoodulite ülevaade
-                  href: power-platform/add-ins-overview.md
-            - name: Poliitikad ja side
-              href: /power-platform/admin/policies-communications?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json
+            - name: Olemi modelleerimine
+              href: power-platform/entity-modeling.md
+            - name: Rakenduse elutsüklihaldus
+              href: power-platform/application-lifecycle-management.md
+            - name: Finance and Operations ja Common Data Service'i administraatori viide
+              href: power-platform/admin-reference.md
+            - name: Power Appsi portaalid Finance and Operationsiga
+              href: power-platform/power-portal-reference.md
+            - name: Finance and Operationsi virtuaalsete olemite KKK
+              href: power-platform/faq.md
         - name: Mobiiliplatvorm
           items:
             - name: Mobiiliplatvormi ressursid
@@ -1474,26 +1414,18 @@
               href: perf-test/rsat/rsat-install-configure.md
             - name: Regression Suite Automation Tooli kasutamine
               href: perf-test/rsat/rsat-run.md
-            - name: Regression Suite Automation Tooli testjuhtumite haldamine
-              href: perf-test/rsat/rsat-maintain-test-cases.md
             - name: Eeldatavate väärtuste valideerimine
               href: perf-test/rsat/rsat-validate-expected.md
             - name: Aheltestjuhtumid
               href: perf-test/rsat/rsat-chain-test-cases.md
             - name: Tuletatud testjuhtumid
               href: perf-test/rsat/rsat-derived-test-cases.md
-            - name: Parameetrifailide uuendamine
-              href: perf-test/rsat/rsat-upgrade-parameter-files.md
-            - name: Regression Suite Automation Tooli õpik
-              href: perf-test/rsat/rsat-tutorial.md
-            - name: Mitteadministraatorist kasutajate konfigureerimine
-              href: perf-test/rsat/rsat-configure-nonadmin.md
+            - name: Regression Suite Automation Tooli õppetükk ja muud funktsioonid
+              href: ../fin-ops/get-started/hol-use-regression-suite-automation-tool.md
             - name: Head tavad
               href: perf-test/rsat/rsat-best-practices.md
             - name: Andmete sõltumatu testimine tööriistaga Regression Suite Automation Tool
               href: ../fin-ops/get-started/recommendation-data-agnostic-testing-rsat.md
-            - name: Regression Suite Automation Tooli (RSAT) käitamine paralleelkäivitusega
-              href: perf-test/rsat/rsat-parallel-execution.md
             - name: Tõrkeotsing
               href: perf-test/rsat/rsat-troubleshooting.md
         - name: Lahenduste väljaandmine teenuse Lifecycle Services abil
@@ -1532,18 +1464,16 @@
                   href: lcs-solutions/submit-localization-alerts.md
         - name: Tugi
           items:
-            - name: Rakenduste Rahandus ja toimingud ja Lifecycle Services tugi
+            - name: Rakenduste Finance and Operations ja Lifecycle Services tugi
               href: lifecycle-services/lcs-support.md
             - name: Dynamics 365 toe ülevaade
-              href: /power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json
-            - name: 'Toe hankimine rakenduse Rahandus ja toimingud jaoks, mida käitab 21Vianet Hiinas'
+              href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json'
+            - name: 'Toe hankimine rakenduse Finance and Operations jaoks, mida käitab 21Vianet Hiinas'
               href: lifecycle-services/21vianet-support.md
-            - name: Tehnilise toe seadistamine Rahanduse ja toimingute rakenduste jaoks
+            - name: Tehnilise toe häälestus Finance and Operationsi rakenduste jaoks
               href: lifecycle-services/support-experience.md
-            - name: Rahanduse ja toimingute rakenduste tugikogemuste haldamine
+            - name: Finance and Operationsi rakenduste tugiteenuste haldamine
               href: lifecycle-services/cloud-powered-support-lcs.md
-            - name: Toote tugi ja jälgimine
-              href: ../fin-ops/imp-lifecycle/production-support-monitoring.md
         - name: Süsteemihaldus
           items:
             - name: Süsteemihalduse koduleht
@@ -1560,15 +1490,13 @@
               href: sysadmin/pre-configured-system-accounts.md
             - name: B2B kasutajate eksportimine Azure AD-sse
               href: sysadmin/implement-b2b.md
-            - name: Andmehooldus
-              href: sysadmin/DataMaintenancePortal.md
             - name: Turve
               items:
                 - name: Rollipõhine turve
                   href: sysadmin/role-based-security.md
                 - name: Turbearhitektuur
                   href: sysadmin/security-architecture.md
-                - name: Krüptimine Rahanduse ja toimingute rakendustes
+                - name: Krüptimine Finance and Operationsi rakendustes
                   href: sysadmin/encryption.md
                 - name: Seansi passiivsusajalõpu määramine
                   href: sysadmin/session-idle-timeout.md
@@ -1578,8 +1506,6 @@
                   href: sysadmin/tasks/create-new-users.md
                 - name: Kasutaja seansi haldus
                   href: sysadmin/user-session-management.md
-                - name: Juurdepääsu blokeerimine asukoha järgi Azure AD tingimusjuurdepääsuga
-                  href: /power-platform/admin/restrict-access-online-trusted-ip-rules?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json
                 - name: Kasutajate hulgiimport
                   href: sysadmin/tasks/import-bulk-users.md
                 - name: Kohustuste jagamise häälestus
@@ -1598,8 +1524,6 @@
                   href: sysadmin/create-simple-security-policy.md
             - name: Litsentsimisnõuete täitmine
               href: sysadmin/stay-compliant-user-license-requirement.md
-            - name: Sõltumatu tarkvaratootja litsentsi oleku vaatamine
-              href: sysadmin/view-isv-license-status.md
             - name: Protsessi automatiseerimine
               href: sysadmin/process-automation.md
             - name: Pakktöötlus
@@ -1610,31 +1534,27 @@
                   href: sysadmin/batch-server-overview.md
                 - name: Pakett-tööde loomine
                   href: sysadmin/tasks/create-batch-job.md
-                - name: Pakett-tööde uuestiproovimise lubamine
-                  href: sysadmin/retryable-batch.md
                 - name: Pakett-töö kopeerimine
                   href: sysadmin/copy-batch-job.md
-                - name: Prioriteedipõhine partii planeerimine
-                  href: sysadmin/priority-based-batch-scheduling.md
                 - name: Aktiivsed partiiperioodid
                   href: sysadmin/activeperiod.md
-                - name: Aktiivsete partiide perioodide suveaja tugi
+                - name: Aktiivsete pakettide perioodide suveaja tugi
                   href: sysadmin/batch-active-period-dst.md
                 - name: Partii halduri turberoll
                   href: sysadmin/runby.md
+                - name: Pakett-töö SQL-indeksi defragmentimise käsitsemiseks
+                  href: sysadmin/batch-job-SQL-defragmentation.md
                 - name: Partiiteatiste konfigureerimine
                   href: sysadmin/alerts.md
                 - name: Täiustatud partiivormid
                   href: sysadmin/enhanced-forms.md
                 - name: Partii ajaloo puhastamine
                   href: sysadmin/batch-history-cleanup.md
-                - name: Pakett-töö täitmise tühistamine
+                - name: Pakett-töö täitmise katkestamine
                   href: sysadmin/batch-abort.md
-                - name: Partii OData API
-                  href: sysadmin/batch-odata-api.md
             - name: Optimeerimisnõustaja
               items:
-                - name: Optimeerimisnõustaja ülevaade
+                - name: Nõustaja ülevaate optimeerimine
                   href: sysadmin/optimization-advisor-overview.md
                 - name: Reeglite loomine optimeerimisnõustaja jaoks
                   href: sysadmin/create-rules-optimization-advisor.md
@@ -1654,7 +1574,7 @@
               href: migration-upgrade/upgrade-home-page.md
             - name: Üleminek versioonilt AX 2012
               items:
-                - name: Versiooni AX 2012 täiendamine versioonile Rahandus ja toimingud
+                - name: Versiooni AX 2012 täiendamine versioonile Finance and Operations
                   href: migration-upgrade/upgrade-overview-2012.md
                 - name: AX 2012 täiendus – täienduse analüüsija tööriista kasutamine plaanimiseks
                   href: migration-upgrade/upgrade-analyzer-tool.md
@@ -1666,10 +1586,10 @@
                   href: migration-upgrade/data-upgrade-2012.md
                 - name: AX 2012 täiendus – täienduseelne kontroll-loend andmete täiendamiseks
                   href: migration-upgrade/prepare-data-upgrade.md
-                - name: AX 2012 täiendus – SQL-i kannete tiražeerimine
-                  href: database/replication-setup.md
-                - name: AX 2012 täiendus – iseteeninduskeskkondade andmete täiendamine
-                  href: migration-upgrade/data-upgrade-self-service.md
+                - name: AX 2012 täiendus – andmete täiendamine liivakastikeskkondades dacpac-protsessi abil
+                  href: migration-upgrade/upgrade-data-sandbox-dacpac.md
+                - name: AX 2012 täiendus – liivakastikeskkondade andmete täiendamine
+                  href: migration-upgrade/upgrade-data-sandbox.md
                 - name: AX 2012 täiendus – kohapealsed keskkonnad
                   href: migration-upgrade/on-prem-upgrade-2012.md
                 - name: AX 2012 täiendus – ülemineku testimine
@@ -1678,16 +1598,16 @@
                   href: migration-upgrade/app-validation-process.md
                 - name: AX 2012 täiendus – funktsionaaltestide sooritamised
                   href: migration-upgrade/upgrade-functional-validation.md
-                - name: AX 2012 täiendus – valmistumine süsteemi Go-live jaoks
+                - name: AX 2012 täiendus – kasutuselevõtuks ettevalmistamine
                   href: migration-upgrade/upgrade-go-live-prep.md
-                - name: AX 2012 täiendus – Go-Live
+                - name: AX 2012 täiendus – kasutuselevõtt
                   href: migration-upgrade/2012-upgrade-cutover.md
-                - name: Üleminek versioonilt AX 2012 – andmete täiendamise KKK
-                  href: migration-upgrade/upgrade-faq.md
                 - name: 'Muudatused, mis mõjutavad täiendamist versioonilt AX 2012'
                   items:
                     - name: Kontoplaani eraldaja kordumatuks muutmine
                       href: migration-upgrade/chart-accounts-delimiter-unique.md
+                    - name: Üksiku kande töölehtede ja valuuta ümberarvutamise täiendus
+                      href: migration-upgrade/single-voucher-and-currency-revaluation-upgrade.md
                     - name: Projekti ressursi plaanimise andmemudel
                       href: migration-upgrade/data-model-changes-resource-management.md
                     - name: Töövoo alamsüsteemi muudatused
@@ -1700,7 +1620,7 @@
                       href: migration-upgrade/upgrade-budget-planning.md
             - name: Andmete migreerimine versioonist AX 2009
               items:
-                - name: Andmete migreerimine AX 2009-st rakendusse Rahandus ja toimingud
+                - name: Andmete migreerimine AX 2009-st rakendusse Finance and Operations
                   href: migration-upgrade/data-migration-tool.md
                 - name: AX 2009 migratsioon – andmemigratsiooni tööriista installimine
                   href: migration-upgrade/install-dmt.md

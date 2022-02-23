@@ -2,9 +2,11 @@
 title: Kontohalduse lehtede ülevaade
 description: See teema annab ülevaate kontohalduse lehtedest rakenduses Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
+manager: annbe
 ms.date: 09/15/2020
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -14,18 +16,20 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b21ae257ce84034f05fa22a93a2c622ee14c0a2b
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: e194004476545fb142f71aa4bd889dbbc70c6ed4
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984515"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969847"
 ---
 # <a name="account-management-pages-overview"></a>Kontohalduse lehtede ülevaade
 
 [!include [banner](includes/banner.md)]
 
 See teema annab ülevaate kontohalduse lehtedest rakenduses Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Ülevaade
 
 Kontohalduse lehed võimaldavad klientidel vaadata teavet, mis on seotud nende konto ja tellimustega. Kontohalduse lehed hõlmavad kontohalduse sihtlehte ja lehti, mis on seotud kasutaja profiili, aadresside, tellimuste ajaloo, tellimuste üksikasjade, püsikliendi punktide ja soovinimekirjadega.
 
@@ -35,15 +39,15 @@ Kui klient logib sisse ja valib suvandi **Minu konto**, avatakse konto halduse s
 
 Järgnev illustratsioon näitab kontohalduse sihtlehe näidet.
 
-![Kontohalduse sihtlehe näide.](./media/Account-Management.PNG)
+![Kontohalduse sihtlehe näide](./media/Account-Management.PNG)
 
 ### <a name="my-profile-page"></a>Leht Minu reeglid
 
-Lehel **Minu profiil** kuvatakse kliendi konto teave, nt tema nimi ja telefoninumber. Klient saab sellel lehel värskendada teavet oma profiilil. Seda lehte saab kohandada nii, et see sisaldaks täiendavaid kliendi konto eelistusi, nagu suvand, mille abil saab valida turundusmeili.
+Lehel **Minu profiil** kuvatakse kliendi konto teave, nt tema nimi ja telefoninumber. Klient saab sellel lehel värskendada oma profiili teavet. Seda lehte saab kohandada nii, et see sisaldaks täiendavaid kliendi konto eelistusi, nagu suvand, mille abil saab valida turundusmeili.
 
 Järgmisel joonisel on kujutatud lehe **Minu profiil** näide, mis loodi mooduliteegi abil.
 
-![Minu profiili lehe näide.](./media/Account-Management-MyProfile.PNG)
+![Minu profiili lehe näide](./media/Account-Management-MyProfile.PNG)
 
 ### <a name="addresses-page"></a>Aadresside leht
 
@@ -51,19 +55,19 @@ Leht **Aadressid** võimaldab kliendil oma kontole aadresse lisada. See näitab 
 
 Järgnev illustratsioon näitab lehe **Aadressid** näidet.
 
-![Aadresside lehe näide.](./media/Account-Management-Address.png)
+![Aadresside lehe näide](./media/Account-Management-Address.png)
 
 ### <a name="order-history-and-order-details-pages"></a>Tellimuste ajalugu ja tellimuse üksikasjade lehed
 
-Lehel **Tellimuse ajalugu** kuvatakse kõigi tellimuste kokkuvõte, mille klient on oma kontolt esitanud. See annab kiire kokkuvõtte tellitud kaupadest, kinnituse numbrist, müügitehingute ID-st, jälgimisteabest ja muust teabest. Kui klient soovib vaadata iga tellimuse üksikasjalikumat jaotust, on selleks leht **Tellimuse üksikasjad**. See lehekülg sisaldab teavet, nagu kättetoimetamise aadress, makseteave, allahindlused, maksud ja postikulud tellimuse jaoks.
+Lehel **Tellimuse ajalugu** kuvatakse kõigi tellimuste kokkuvõte, mille klient on oma kontoga esitanud. See annab kiire kokkuvõtte tellitud kaupadest, kinnituse numbrist, müügitehingute ID-st, jälgimisteabest ja muust teabest. Kui klient soovib vaadata iga tellimuse üksikasjalikumat jaotust, on selleks leht **Tellimuse üksikasjad**. See lehekülg sisaldab teavet, nagu kättetoimetamise aadress, makseteave, allahindlused, maksud ja postikulud tellimuse jaoks.
 
 Järgnev illustratsioon näitab lehe **Tellimuse ajalugu** näidet.
 
-![Tellimuse ajaloo lehe näide.](./media/Account-Management-OrderHistory.PNG)
+![Tellimuse ajaloo lehe näide](./media/Account-Management-OrderHistory.PNG)
 
 Järgnev illustratsioon näitab lehe **Tellimuse üksikasjad** näidet.
 
-![Tellimuse üksikasjade lehe näide.](./media/Account-Management-OrderDetails.PNG)
+![Tellimuse üksikasjade lehe näide](./media/Account-Management-OrderDetails.PNG)
 
 ### <a name="loyalty-program-page"></a>Püsikliendiprogrammi leht
 
@@ -71,7 +75,7 @@ Leht **Püsikliendiprogramm** võimaldab kliendil saada püsikliendiprogrammi li
 
 Järgmisel joonisel on näidatud lehe **Püsikliendiprogramm** näide.
 
-![Püsikliendiprogrammi lehe näide.](./media/Account-Management-Loyalty.PNG)
+![Püsikliendiprogramm lehe näide](./media/Account-Management-Loyalty.PNG)
 
 ### <a name="wishlist-page"></a>Soovinimekirja leht
 
@@ -79,7 +83,7 @@ Lehel **Soovinimekiri** kuvatakse nende kaupade loend, mille klient on oma soovi
 
 Järgmisel joonisel on näidatud lehe **Soovinimekiri** näide.
 
-![Soovinimekirja lehe näide.](./media/Account-Management-Wishlist.PNG)
+![Soovinimekirja lehe näide](./media/Account-Management-Wishlist.PNG)
 
 Lisateavet kontohalduse moodulite ja nende autori kohta vt jaotisest [Kontohaldus](account-management.md).
 
@@ -91,6 +95,3 @@ Lisateavet kontohalduse moodulite ja nende autori kohta vt jaotisest [Kontohaldu
 
 [Ostukorvi ja väljaregistreerimise ülevaade](quick-tour-cart-checkout.md)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

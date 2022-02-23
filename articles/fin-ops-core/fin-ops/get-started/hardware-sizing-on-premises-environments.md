@@ -2,9 +2,11 @@
 title: Riistvara suuruse muutmise nõuded kohapealsetes keskkondades
 description: Riistvara suuruse muutmise nõuded kohapealsetes keskkondades
 author: sericks007
-ms.date: 06/02/2021
+manager: AnnBe
+ms.date: 11/27/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -14,12 +16,12 @@ ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 443b80e44a90a68610fbb2bb5a5f4b6b7d545fa7ad772edb3672972fa82f8cbd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9d4f2e59d4dd78d15d561ff0da47e4b9b1a2fce3
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763430"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798300"
 ---
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>Riistvara suuruse muutmise nõuded kohapealsetes keskkondades
 
@@ -36,7 +38,7 @@ Kui olete dokumentatsiooni läbi vaadanud, võite alustada oma tehingute ja sama
 
 Suuruse muutmist mõjutavad kõik järgmisel joonisel näidatud tegurid. Mida põhjalikum on kogutud teave, seda täpsemalt saate suuruse muutmise kindlaks määrata. Riistvaraline suuruse muutmine ilma toetavate andmeteta on tõenäoliselt ebatäpne. Vajalike andmete absoluutne miinimumnõue on maksimaalne kanderea koormus tunni kohta.
 
-[![Riistvara suuruse muutmine kohapealsetes keskkondades.](./media/lbd-sizing-01.png)](./media/lbd-sizing-01.png)
+[![Riistvara suuruse muutmine kohapealsetes keskkondades](./media/lbd-sizing-01.png)](./media/lbd-sizing-01.png)
 
 Vaadates vasakult paremale, on esimene ja kõige olulisem suuruse muutmise täpseks prognoosimiseks vajalik tegur kannete profiil ehk kannete iseloomustus. Tähtis on leida alati maksimaalne kannete maht tunnis. Kui tipp-perioode on mitu, tuleb need perioodid täpselt määratleda.
 
@@ -132,15 +134,10 @@ Enamasti peaks soovitatud miinimumnõuded, kasutades kaht sõlme, hästi toimima
 
 Üldiselt kättesaadava versiooni puhul saab juurutada ainult ühe SSRS-i sõlme. Jälgige oma SSRS-i sõlme testimise ajal ja suurendage SSRS-i jaoks saadaolevate tuumade arvu vajadust mööda. Veenduge, et teil oleks virtuaalhostis saadaval eelkonfigureeritud teisene sõlm, mis ei ole SSRS-i virtuaalarvuti. See on oluline, kui SSRS-i või virtuaalhosti majutava virtuaalarvutiga tekib mõni probleem. Sellisel juhul tuleb see arvutada.
 
-Alates versioonist 10.0.17 on kõrge kättesaadavuse saavutamiseks võimalik konfigureerida täiendavaid SSRS-sõlmi. Lisateabe saamiseks vt [SQL Serveri aruandlusteenuste (SSRS) sõlmede suure kättesaadavuse konfigureerimine](../../dev-itpro/deployment/onprem-ssrsha.md).
-
 ## <a name="environment-orchestrator"></a>Keskkonna korraldaja
 
-Korraldusteenus on teenus, mis haldab teie juurutust ja seotud sidet LCS-iga. See teenus juurutatakse primaarse Service Fabricu teenusena ja nõuab vähemalt kolme virtuaalarvutit. Teenus asub samas kohas mis Service Fabricu korraldusteenused. Selle suurus tuleks määrata kogumi tippkoormuse järgi. Lisateabe saamiseks vaadake teemat [Teenuse Service Fabric eraldiseisva kogumi juurutamise plaanimine ja ettevalmistamine](/azure/service-fabric/service-fabric-cluster-standalone-deployment-preparation).
+Korraldusteenus on teenus, mis haldab teie juurutust ja seotud sidet LCS-iga. See teenus juurutatakse primaarse Service Fabricu teenusena ja nõuab vähemalt kolme virtuaalarvutit. Teenus asub samas kohas mis Service Fabricu korraldusteenused. Selle suurus tuleks määrata kogumi tippkoormuse järgi. Lisateabe saamiseks vaadake teemat [Teenuse Service Fabric eraldiseisva kogumi juurutamise plaanimine ja ettevalmistamine](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-standalone-deployment-preparation).
 
 ## <a name="virtualization-and-oversubscription"></a>Virtualiseerimine ja ületellimine
 
 Missioonikriitilisi teenuseid, nagu AOS, tuleks majutada virtuaalhostides, millel on spetsiaalsed ressursid – tuumad, mälu ja ketas.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

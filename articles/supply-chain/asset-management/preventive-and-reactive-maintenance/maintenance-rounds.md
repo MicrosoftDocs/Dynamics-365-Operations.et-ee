@@ -1,10 +1,12 @@
 ---
 title: Hoolduskorrad
 description: Selles teemas selgitatakse hoolduskordi varahalduses.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 08/27/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetRoundTable
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: dc0d8ec546e7455187a87ac124c5e56a93f5bafd2270bf275af950991fc4b87e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a3a64593a2155d35e78b0d854c7367fa65d1c5c8
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740715"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5018542"
 ---
 # <a name="maintenance-rounds"></a>Hoolduskorrad
 
@@ -59,7 +61,7 @@ ms.locfileid: "6740715"
 
 12. Valige väljal **Hooldustöö tüüp** varale hooldustöö tüüp.
 
-13. Valige vajadusel hooldustöö tüübiga seotud **Hooldustöö tüübi variant** ja **Vaheta**.
+13. Valige vajadusel hooldustöö tüübiga seotud **Hooldustöö  tüübi variant** ja **Vaheta**.
 
 14. Valige väljal **Perioodi tüüp** korduvus (päev, nädal, jne).
 
@@ -69,7 +71,7 @@ ms.locfileid: "6740715"
 
 17. Kui soovite hoolduskorrale veel varasid lisada, korrake etappe 9-16.
 
-18. Klõpsake kiirkaardil **Töö asukoha read** hoolduskorrale töö asukohta lisamiseks valikut **Lisa**. Vaadake eespoolt seotud väljade kirjeldust. Saadaval on samad väljad, mis ka vara rea loomisel, aga saate vajadusel töö asukohale valida ka **Tootja** ja **Mudeli**. Kui valite reale ainult töö asukoha aga ei tee valikuid **Vara tüüp**, **Tootja**, **Mudel**, **Hooldustöö tüüp**, **Hooldustöö tüübi variant** ja **Vahetus**, kaasatakse hoolduskorda kõik selle töö asukohaga hoolduse ajastamise hetkel seotud töö asukohad.
+18. Klõpsake kiirkaardil **Töö asukoha read** hoolduskorrale töö asukohta lisamiseks valikut **Lisa**. Vaadake eespoolt seotud väljade kirjeldust. Saadaval on samad väljad, mis ka vara rea loomisel, aga saate vajadusel töö asukohale valida ka **Tootja** ja **Mudeli**. Kui valite reale ainult töö asukoha aga ei tee valikuid **Vara tüüp**, **Tootja**, **Mudel**, **Hooldustöö tüüp**, **Hooldustöö  tüübi variant** ja **Vahetus**, kaasatakse hoolduskorda kõik selle töö asukohaga hoolduse ajastamise hetkel seotud töö asukohad.
 
 19. Klõpsake kiirkaardil **Kogumid** hoolduskorda kaasatava töökäsu kogumi valimiseks suvandit **Lisa**. Ühe hoolduskorraga saab ühendada mitu töökäsu kogumit.
 
@@ -80,7 +82,7 @@ ms.locfileid: "6740715"
 
 Alloleval joonisel on kujutatud kolme vara hõlmava hoolduskorra näide.
 
-![Joonis 1.](media/13-preventive-maintenance.png)
+![Joonis 1](media/13-preventive-maintenance.png)
 
 
 ## <a name="schedule-maintenance-rounds"></a>Hoolduskordade plaanimine
@@ -106,14 +108,11 @@ Kui olete hoolduskorra seadistanud, käivitate ajastamise töö, et ajastada kõ
 
 Kahel alloleval joonisel on kujutatud ajastamise töö dialoogis **Hoolduskordade plaanimine** ja hooldusgraafiku read, mis on loodud jaotises **Kõik hooldusgraafikud** selle ajastamise töö põhjal.
 
-![Joonis 2.](media/14-preventive-maintenance.png)
+![Joonis 2](media/14-preventive-maintenance.png)
 
-![Joonis 3.](media/15-preventive-maintenance.png)
+![Joonis 3](media/15-preventive-maintenance.png)
 
 - Kui tarnija garantii alla käivatele varadele tehakse töökäsud käsitsi, kuvatakse dialoogikasti, et teavitada kasutajat garantiist. Siis saab töökäsu loomise tühistada. Automaatselt loodud töökäskudel on garantii seose kontrollimine välja jäetud.  
 - Kiirkaardil **Taustal käitamine** saate seadistada pakett-töö regulaarsete intervallidega hoolduskordade ajastamiseks.  
 - Kui hoolduskord sisaldub mitmes töökäsu kogumis (vt [Töökäskude kogumid](../work-orders/work-order-pools.md)), kuvatakse ühte kirjet igas jaotise **Avatud hooldusgraafiku kogumid** kogumis. Seda tehakse töökäsu kogumite filtreerimisvalikute optimeerimiseks.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

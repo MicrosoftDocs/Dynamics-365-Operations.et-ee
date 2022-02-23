@@ -2,25 +2,28 @@
 title: Indeksimääraga seotud rendimaksete ümberhindamine
 description: Selles teemas kirjeldatakse korrigeerimist, mida tehakse kasutamisõiguse esemeks oleva vara rendikohustisele, kui rendimaksed indeksimäärade muutumise tõttu muutuvad.
 author: moaamer
-ms.date: 01/11/2022
+manager: Ann Beebe
+ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: AssetLeaseIndexRevaluation
+ms.search.form: ''
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
+ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 5abd1f5d265c6e8b53903e6df5c52a06b3468880
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
-ms.translationtype: MT
+ms.openlocfilehash: 83684afbd5e11b890a59bc1469ddefffd1777c4e
+ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968048"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4442557"
 ---
 # <a name="revalue-lease-payments-that-are-linked-to-an-index-rate"></a>Indeksimääraga seotud rendimaksete ümberhindamine
 
@@ -43,7 +46,7 @@ Indeksimääraga seotud rendimaksete ümberhindamiseks toimige järgmiselt.
 4. Valige filtrid, et valida rendilepingud, mis tuleks taustal töötlemisse kaasata, ja seejärel valige **OK**.
 
     Kuvatakse dialoogiboks **Indeksimäära ümberhindamise eelvaade** ja kuvatakse ümberarvutatavad rendilepingud. Kuvatakse ka vara ja kohustiste korrigeerimisi või muutuvate maksete korrigeerimisi.
-
+    
 5. Rendilepingute ümberarvutamise vältimiseks valige rendilepingud, mis **tuleks** ümberarvutada. Kui te ei vali ühtegi rendilepingut, hinnatakse kõik rendilepingud ümber. Kui olete lõpetanud, valige rendimaksete ümberhindamiseks **OK**.
 6. Kindla indeksi ümberhindamise protsessi jaoks loodud kannete vaatamiseks valige protsessi ID ja seejärel valige **Kanded**.
 
@@ -54,7 +57,7 @@ Indeksimääraga seotud rendimaksete ümberhindamiseks toimige järgmiselt.
 
 ## <a name="asc-842-leases--index-revaluation"></a>ASC 842 rendilepingud – indeksi ümberhindamine
 
-ASC 842 rendilepingute ümberhindamise mõju vaatamiseks avage rendilepingu maksegraafik. Lehel kuvatakse ainult indeksi ümberarvutamise tõttu tehtud ümberhindamise kuupäeval või pärast seda tehtud muutuvad maksed. Amortisatsiooni ja kulumi graafikuid ei muudeta. Kui loote arve, millel on muutuv makse, siis debiteeritakse muutuv makse muutuva makse sisestuskontole. Samuti lisatakse muutuvmakse summa kreeditkandele, mis konteeritakse otse hankijale või sisestatakse vastavalt rendiraamatu seadistusele võlakirju.
+ASC 842 rendilepingute ümberhindamise mõju vaatamiseks avage rendilepingu maksegraafik. Lehel kuvatakse ainult indeksi ümberarvutamise tõttu tehtud ümberhindamise kuupäeval või pärast seda tehtud muutuvad maksed. Amortisatsiooni ja kulumi graafikuid ei muudeta. Kui loote arve, millel on muutuv makse, siis debiteeritakse muutuv makse muutuva makse sisestuskontole. Samuti lisatakse muutuva makse summa kreeditkandele, mis sisestatakse otse hankijale või või tasumisele kuuluvate vekslite kontole, olenevalt rendiraamatu seadistusest.
 
 Rendilepingu üksikasjade lehe maksegraafiku ridu uuendatakse automaatselt, lisades uue rea, mis näitab uut indeksimäära. Lisaks näitab veerg, kas rida loodi käsitsi või indeksi ümberhindamise protsessi kaudu.
 
@@ -65,8 +68,3 @@ IFRS 16 rendilepingute ümberhindamise mõju vaatamiseks avage korrigeeritud ren
 Saate vaadata värskeltloodud maksegraafikut, mis algab ümberhindamise kuupäevast ja näitab värskendatud makse kogusummat. Loodud on ka uus rendikohustise amortisatsioonigraafik ja vara kulumigraafik, mis peegeldavad korrigeeritud maksegraafikut.
 
 Töölehe kirje sisestas korrigeerimise töölehe kirje automaatselt kontole indeksi ümberhindamisega seotud rendimaksete muutmiseks.
-
-> [!NOTE]
-> Kui **suvand Jaotusmakse summa** on lubatud lehe Liisingu üksikasjad **kiirkaardil** Üldine ja seotud raamat on **IFRS** 16, lisab indeksi ümberhindluse protsess **automaatselt kirje dialoogiboksi Maksesumma** jaotus. Summa kajastab indeksi ümberhindluse tõttu makses tehtud muudatust. Kirje märgitakse **kui Kasutatud IRFS 16 indeksi ümberhindamiseks**.
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

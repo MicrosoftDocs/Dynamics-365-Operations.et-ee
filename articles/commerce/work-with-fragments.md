@@ -2,30 +2,35 @@
 title: Fragmentidega töötamine
 description: Selles teemas kirjeldatakse, miks, millal ja kuidas kasutada fragmente rakenduses Microsoft Dynamics 365 Commerce.
 author: phinneyridge
-ms.date: 02/03/2022
+manager: annbe
+ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 98cb1fba158ea99427d2068ca49b257cb5290de3
-ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
-ms.translationtype: MT
+ms.openlocfilehash: f1525610fb16edd5ff9ccefe0194f6f27b797b62
+ms.sourcegitcommit: 1a12b42cc17f004a981c716aed3da6cf538475a5
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8090740"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4411802"
 ---
 # <a name="work-with-fragments"></a>Fragmentidega töötamine 
 
 [!include [banner](includes/banner.md)]
 
 Selles teemas kirjeldatakse, miks, millal ja kuidas kasutada fragmente rakenduses Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Ülevaade
 
 Fragmendid tagavad tsentraliseeritud loomiskogemuse mooduli konfiguratsioonidele, mida tuleb kogu saidil uuesti kasutada. Näiteks päiseid, jaluseid ja ribareklaame konfigureeritakse sageli fragmentidena, kuna neid jagatakse paljude lehtede vahel. Mõelge fragmentidest kui miniatuursetest veebisaitidest, mida saab sisestada teie saidi teistele lehtedele. Fragmentidel on oma elutsükkel. Teisisõnu need luuakse, neile viidatakse, neid värskendatakse ja need kustutatakse loomistööriistade sõltumatute üksustena.
 
@@ -45,7 +50,7 @@ Kõik kohad, kuhu fragment lisatakse, on viited loodud kesksele pannoofragmendil
 
 Järgmisel joonisel on näha, kuidas saab fragmente kasutada jagatud mooduli konfiguratsioonide loomise tsentraliseerimiseks üle e-kaubanduse saidi.
 
-![Näide sellest, kuidas saab fragmente kasutada jagatud mooduli konfiguratsioonide loomise tsentraliseerimiseks üle e-Commerce saidi.](./media/fragment-figure1.png)
+![Näide sellest, kuidas saab fragmente kasutada jagatud mooduli konfiguratsioonide loomise tsentraliseerimiseks üle e-kaubanduse saidi.](./media/fragment-figure1.png)
 
 ## <a name="create-a-fragment"></a>Fragmendi loomine
 
@@ -62,7 +67,7 @@ Varem konfigureeritud mooduli teisendamiseks korduskasutatavaks fragmendiks Comm
 1. Sisestage dialoogiboksis **Salvesta fragmendina** fragmendi nimi.
 1. Valige nupp **OK**, et salvestada mooduli konfiguratsioon fragmendina, mida saab lisada teistele lehtedele.
 <!-- The following image shows how to save a module configuration as a fragment.-->
-<!--![A screen capture of how to save a module configuration as a fragment.](./media/save-as-fragment.png)-->
+<!--![A screen capture of how to save a module configuration as a fragment](./media/save-as-fragment.png)-->
 
 ### <a name="create-a-new-fragment"></a>Loo uus fragment
 
@@ -73,7 +78,7 @@ Uue fragmendi loomiseks Commerce'i saidiehitajas, toimige järgmiselt.
 1. Valige oma fragmendi jaoks mooduli tüüp.
 
 <!-- The following image shows where to create a new fragment.-->
-<!-- ![A screen capture of where to create a new fragment.](./media/fragment-nav-menu.png)-->
+<!-- ![A screen capture of where to create a new fragment](./media/fragment-nav-menu.png)-->
 > [!TIP]
 > Valides üldkonteineri mooduli tüübi, on teil hiljem fragmendi värskendamise ja konfigureerimise vajadusel kõige rohkem vabadust.
 
@@ -88,14 +93,14 @@ Lehele uue fragmendi lisamiseks Commerce'i saidiehitajas, toimige järgmiselt.
 1. Valige vasakult liigenduspaanilt või otse visuaalsest leheehitajast konteiner või pesa, kuhu võib lisada alammoodulid.
 1. Valige kolmikpunkt (**...**) konteineri või pesa nime kõrval.  Kui kasutate visuaalset leheehitajat, valige teise võimalusena pluss-sümbol (**+**).  
 1. Valige **Lisa fragment**.
-    <!-- ![A screen capture of how to add an existing fragment to a slot or container.](./media/add-fragment.png)-->
+    <!-- ![A screen capture of how to add an existing fragment to a slot or container](./media/add-fragment.png)-->
  
     > [!NOTE]
     > Kui konteiner või pesa ei toeta uusi alammooduleid, ei ole suvand **Lisa fragment** saadaval.
     
 1. Otsige dialoogiboksist **Lisa fragment** fragmenti ja valige see lisamiseks. Kui ühtegi saadaolevat fragmenti loendis pole, peate kõigepealt looma fragmendi mooduli tüübist, mida valitud konteiner või pesa toetab.
 1. Valige soovitud fragment, et lisada see oma lehel konteinerile või pesale.
-<!--    ![A screen capture of the fragment picker modal window.](./media/fragment-picker.png)-->
+<!--    ![A screen capture of the fragment picker modal window](./media/fragment-picker.png)-->
 
 > [!NOTE]
 > Konteineris või pesas lubatud moodulid on määratletud lehe malli või moodulite enda määratlustega.
@@ -122,20 +127,6 @@ Fragmendi redigeerimiseks Commerce'i saidiehitajas, toimige järgmiselt.
 
 Saate fragmenti redigeerida ka nii, et valite selle lehelt, mallist või ülemfragmendist ja seejärel valite paremalt atribuutide paanilt suvandi **Fragmendi redigeerimine**.
 
-### <a name="rename-a-fragment"></a>Nimetage fragment ümber
-
-Olemasoleva fragmendi ümbernimetamiseks saidi koostajas toimige järgmiselt.
-
-1. Valige vasakpoolsel navigeerimispaanil **Killud**.
-1. Valige ümbernimetatava fragmendi fragmendi nimi.
-1. Valige **Redigeeri** fragmendi redigeerimise alustamiseks. Pange tähele, et te ei saa fragmenti redigeerida, kui keegi teine seda fragmenti juba redigeerib.
-1. Valige fragmendi atribuutide paanil pliiatsi sümbol fragmendi nime kõrval.
-1. Muutke fragmendi nime vastavalt vajadusele.
-1. Nime muutmise kinnitamiseks valige linnuke.
-1. Valige **Lõpeta redigeerimine**.
-
-Saate fragmendi pärast loomist ümber nimetada, muutes seda ja valides seejärel atribuutide paanil fragmendi nime kõrval pliiatsi sümboli.
-
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Mallide ja paigutuste ülevaade](templates-layouts-overview.md)
@@ -145,6 +136,3 @@ Saate fragmendi pärast loomist ümber nimetada, muutes seda ja valides seejäre
 [Eelmääratud paigutustega töötamine](work-with-layouts.md)
 
 [Avaldamisrühmadega töötamine](publish-groups.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

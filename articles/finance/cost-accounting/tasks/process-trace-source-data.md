@@ -2,22 +2,25 @@
 title: Lähteandmete töötlemine ja jälgimine
 description: Kogu andmete töötlust käitavad tööd.
 author: ShylaThompson
+manager: AnnBe
 ms.date: 06/27/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fa4daff2d35ecfc9d2be171167683679b1e6db5698f9d04c13edf773253590d2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6a23443c985ac681c8c31956ae5ea3e513337577
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775886"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4442497"
 ---
 # <a name="process-and-trace-source-data"></a>Lähteandmete töötlemine ja jälgimine
 
@@ -42,6 +45,3 @@ Kogu andmete töötlust käitavad tööd. Iga töö ja andmepakkuja jaoks luuaks
     * Näiteks saate valida rahandusaasta 2017 perioodi 9.  
 14. Klõpsake nuppu OK.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

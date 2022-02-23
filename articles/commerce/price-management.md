@@ -2,24 +2,27 @@
 title: Jaemüügi hinna haldamine
 description: Selles teemas kirjeldatakse müügihindade loomise ja haldamise põhimõtteid rakenduses Dynamics 365 Commerce.
 author: ShalabhjainMSFT
-ms.date: 07/28/2021
+manager: AnnBe
+ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-retail
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f78a4f328d6962db373990ea60dc03cec35718dc719aa0b284b319db5bc059ab
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a90f5706c87d398f495fae40f42f6c2d408b1c2a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759281"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4411550"
 ---
 # <a name="retail-sales-price-management"></a>Retaili müügihinna haldamine
 
@@ -40,21 +43,21 @@ Selles teemas on kasutatud järgmisi mõisteid.
 
 ## <a name="price-groups"></a>Hinnagrupid
 
-Hinnagrupid on rakenduses Commerce hinna ja allahindluste haldamise keskmes. Hinnagruppe kasutatakse hindade ja allahindluste määramiseks Commerce üksustele (nt kanalitele, kataloogidele, ühendustele ja püsikliendiprogrammidele). Kuna hinnagruppe kasutatakse igasuguse hinnakujunduse ja allahindluste jaoks, on väga oluline, et plaaniksite, kuidas neid enne alustamist kasutate.
+Hinnagrupid on rakenduses Commerce hinna ja allahindluste haldamise keskmes. Hinnagruppe kasutatakse hindade ja allahindluste määramiseks kaubanduse üksustele (nt kanalitele, kataloogidele, ühendustele ja püsikliendiprogrammidele). Kuna hinnagruppe kasutatakse igasuguse hinnakujunduse ja allahindluste jaoks, on väga oluline, et plaaniksite, kuidas neid enne alustamist kasutate.
 
-Eraldi on hinnagrupp lihtsalt nimi, kirjeldus ja valikuliselt hinnakujunduse prioriteet. Hinnagruppide juures on peamine meeles pidada, et neid kasutatakse mitu-mitmele-seoste haldamiseks, mis on allahindlustel ja hindadel Commerce üksustes olemas.
+Eraldi on hinnagrupp lihtsalt nimi, kirjeldus ja valikuliselt hinnakujunduse prioriteet. Hinnagruppide juures on peamine meeles pidada, et neid kasutatakse mitu-mitmele-seoste haldamiseks, mis on allahindlustel ja hindadel kaubanduse üksustes olemas.
 
-Alloleval joonisel on näidatud, kuidas hinnagruppe kasutatakse. Pange tähele, et sellel joonisel on hinnagrupp täpselt hinnakujunduse ja allahindluse haldamise keskel. Commerce üksused, mida kasutate eristavate hindade ja allahindluste haldamiseks, on vasakul, ning tegelik hind ja allahindluse kirjed paremal.
+Alloleval joonisel on näidatud, kuidas hinnagruppe kasutatakse. Pange tähele, et sellel joonisel on hinnagrupp täpselt hinnakujunduse ja allahindluse haldamise keskel. Kaubanduse üksused, mida kasutate eristavate hindade ja allahindluste haldamiseks, on vasakul, ning tegelik hind ja allahindluse kirjed on paremal.
 
-![Hinnagrupid.](./media/PriceGroups.png "Hinnagrupid")
+![Hinnagrupid](./media/PriceGroups.png "Hinnagrupid")
 
-Hinnagruppe luues ei tohiks kasutada üht hinnagrupi mitut tüüpi Commerce üksuste jaoks. Muidu võib olla keeruline määrata, miks konkreetset hinda või allahindlust kandele rakendatakse.
+Hinnagruppe luues ei tohiks kasutada üht hinnagrupi mitut tüüpi kaubanduse üksuste jaoks. Muidu võib olla keeruline määrata, miks konkreetset hinda või allahindlust kandele rakendatakse.
 
 Nagu punane katkendjoon joonisel näitab, toetab Commerce Microsoft Dynamics 365 otse kliendile määratud hinnagrupi põhifunktsioone. Kuid sellisel juhul saate ainult müügihinna kaubanduslepingud. Kui soovite rakendada kliendipõhiseid hindu, soovitame otse kliendile hinnagruppe mitte määrata. Selle asemel kasutage alluvusi. 
 
 Pidage meeles, et kui kliendile on seadistatud hinnagrupp, siis seotakse hinnagrupp selle kliendi jaoks loodud tellimuste müügitellimuse päisega. Kui kasutaja muudab tellimuse päises hinnagruppi, siis asendatakse vana hinnagrupp uue hinnagrupiga vaid käesoleva tellimuse jaoks. See tähendab, et vana hinnagrupp ei mõjuta näiteks käesolevat tellimust, kuid seda seostatakse sellegipoolest kliendi tulevaste tellimustega.
 
-Järgmistes jaotistes on rohkem teavet Commerce üksuste kohta, mida saate hinnagruppide kasutamisel kasutada eraldi hindade määramiseks. Kõikide nende üksuste hindade ja allahindluste konfiguratsioon on kahesammuline protsess. Neid samme võib läbida mis tahes järjekorras. Kuid loogiline järjekord on kõigepealt määrata üksustele hinnagrupid, kuna see samm on tõenäoliselt ühekordne seadistamissamm, mida tehakse juurutamise ajal. Kui hinnad ja allahindlused on loodud, saate neile eraldi määrata hinnagrupid.
+Järgmistes jaotistes on rohkem teavet kaubanduse üksuste kohta, mida saate hinnagruppide kasutamisel kasutada eraldi hindade määramiseks. Kõikide nende üksuste hindade ja allahindluste konfiguratsioon on kahesammuline protsess. Neid samme võib läbida mis tahes järjekorras. Kuid loogiline järjekord on kõigepealt määrata üksustele hinnagrupid, kuna see samm on tõenäoliselt ühekordne seadistamissamm, mida tehakse juurutamise ajal. Kui hinnad ja allahindlused on loodud, saate neile eraldi määrata hinnagrupid.
 
 ### <a name="channels"></a>Kanalid
 
@@ -214,30 +217,26 @@ Kui määrate Dynamics 365-s müügihinnad, siis te ei määra, kas määratav h
 
 Kui töötate nii hõlmavate kui ka välistavate maksutüüpidega, on väga oluline määrata hinnad õigesti, kuna kogusumma, mille klient maksab, muutub, kui kanali sätet **Hind sisaldab käibemaksu** muudetakse.
 
-## <a name="differences-between-commerce-pricing-and-non-commerce-pricing"></a>Erinevused Commerce hinnakujunduse ja mitte-Commerce hinnakujunduse vahel
+## <a name="differences-between-retail-pricing-and-non-retail-pricing"></a>Erinevused jaemüügi hinnakujunduse ja jaemüügiga mitteseotud hinnakujunduse vahel
 
-Hindade arvutamiseks kõikides kanalites (kõnekeskus, jaemüügikauplus ja e-poed) kasutatakse üht hinnakujunduse mootorit. See aitab lubada ühtlustatud Commerce stsenaariume.
+Hindade arvutamiseks kõikides kanalites (kõnekeskus, kauplus ja e-poed) kasutatakse üht hinnakujunduse mootorit. See aitab lubada ühtlustatud kaubanduse stsenaariume.
 
-Hinnakujundus on loodud toimima Commerce üksustega, mitte-Commerce üksustega. Eeskätt on see loodud määrama hindu kaupluse, mitte lao järgi.
+Hinnakujundus on loodud toimima jaemüügiüksustega, mitte jaemüügiga mitteseotud üksustega. Eeskätt on see loodud määrama hindu kaupluse, mitte lao järgi.
 
-Commerce hinnakujunduse mootor **ei toeta** järgmisi hinnakujunduse funktsioone:
+Hinnakujunduse mootor **ei toeta** järgmisi hinnakujunduse funktsioone.
 
 - Hinna määramine tegevuskoha või tegevuskoha ja laoala dimensioone kasutades pole toetatud. Kui täpsustate kaubandusleppes ainult tegevuskoha dimensioonid, siis hinnakujunduse mootor ignoreerib tegevuskohta ja rakendab kaubandusleppe kõigile saitidele. Kui määrate nii tegevuskoha kui ka lao, siis on käitumine määratlemata/testimata, kuna eeldatakse, et jaemüüjad kasutavad poe hinnagruppe, kontrollida iga kaupluse/lao hindu.
 - Atribuudipõhist hinnakujundust ei toetata.
 - Hankija allahindluse läbimist ei toetata.
-- Üldvaluuta funktsiooni ei toetata, st isegi kui kaubanduslelepingus on lülitatud sisse lülitatud valik **Lisa üldvaluuta** loetakse see kaubanduse leping kehtivaks ainult kaubanduslelepingus määratletud valuuta puhul.
 - Tavapärane Supply Chain Managementi hinnastamismootor toetab hindade arvutamist praeguse kuupäeva kõrval „Soovitud lähetuskuupäeva“ ja „Soovitud sissetulekukuupäeva“ alusel. Samas ei toeta jaemüügi hinnakujundus hetkel neid väärtusi. Põhjuseks on tõsiasi, et B2C stsenaariumite puhul ei eelda kliendid, et soovitud sissetulekukuupäev mõjutab kauba hinda. Mõnel juhul rakendavad jaemüüjad nii B2B kui ka B2C toiminguid. B2B toimingute puhul on tavaline, et hinnad muutuvad sõltuvalt sissetulekukuupäevadest. Need jaemüüjad saavad kasutada B2B äritegevuses Supply Chain Managementi hinnakujundust ja B2C äritegevuses jaemüügi hinnakujundust. Jaemüügi hinnakujundus hakkab tööle vaid siis, kui rakenduse kasutaja lisatakse kõnekeskuse kasutajaks, nii et jaemüüjad saavad määrata teatud kasutajad, kes töötavad Supply Chain Managementi hinnakujundusega, ning mõned kasutajad, kes töötavad jaemüügi hinnakujundusega, st need kasutajad tuleks lisadada kõnekeskuse kasutajatena. Lisaks peab olema sisse lülitatud atribuut **Tänase kuupäeva kasutamine hindade arvutamisel** jaotises **Kaubanduse parameetrid > hinnakujundus ja allahindlused > Mitmesugune**. Sel moel saavad nad Supply Chain Managementi hinnakujundamisel jätkata ostureskontro parameetri väärtuse kasutamist soovitud lähetuskuupäeva või soovitud sissetulekukuupäeva jaoks, kuid jaemüügi hinnakujunduses rakendatakse hindade arvutamisel jätkuvalt tänast kuupäeva.
 
-Peale selle toetab järgmisi hinnakujunduse funktsioone **ainult** Commerce hinnakujunduse mootor:
+Peale selle toetab järgmisi hinnakujunduse funktsioone **ainult** hinnakujunduse mootor.
 
-- Hind põhineb tootedimensioonil kõige konkreetsemast variandi hinnast kõige vähem konkreetse variandi hinnani tooteetaloni hinnani. Hinda, mis on määratud kaht tootedimensiooni kasutades (nt värv ja suurus), kasutatakse enne hinda, mis on määratud ainult ühte tootedimensiooni kasutades (nt suurus).
+- Hind põhineb tootedimensioonil kõige konkreetsemast variandi hinnast kõige vähem konkreetse variandi hinnani tooteetaloni hinnani. Hinda, mis on määratud kaht tootedimensiooni kasutades (nt värv ja suurus), kasutatakse enne hinda, mis on määratud ainult üht tootedimensiooni kasutades (nt suurus).
 - Hinnakujunduse ja allahindluste juhtimiseks saab kasutada sama hinnagruppi.
 
 ## <a name="pricing-api-enhancements"></a>Hinnakujunduse API-täiustused
 
 Hind on üks kõige tähtsamaid tegureid, mis juhivad klientide ostuotsuseid, ja paljud kliendid võrdlevad enne ostu sooritamist hindu eri veebisaitidel. Selleks, et tagada konkurentsivõimeliste hindade pakkumine, jälgivad jaemüüjad hoolikalt oma konkurente ning korraldavad sageli kampaaniaid. Aitamaks jaemüüjatel kliente ligi meelitada, on seega väga oluline, et toote otsingu lehel, sirvimise funktsiooni puhul ning toote üksikasjade lehel kuvataks kõige täpsemaid hindu.
 
-Commerce tarkvara programmeerimisliides (API) **GetActivePrices** tagastab hinnad, mis sisaldab lihtsaid allahindlusi (näiteks ühe rea allahindlused, mis ei sõltu muudest ostukorvis olevatest kaupadest). Sellisel moel on kuvatud hinnad sarnasemad tegeliku summaga, mida kliendid kaupade eest maksavad. See API kaasab kõiki lihtsate allahindluste tüüpe: alluvus-, püsikliendi-, kataloogi- ja kanalipõhised allahindlused. Peale selle esitab see API rakendatud allahindluste nimed ja kehtivusteabe, nii et jaemüüjad saavad pakkuda üksiksasjalikumat hinnakirjeldust ning rõhutada kiireloomulisust, kui allahindluse kehtivus peagi aegub.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+Rakenduse Commerce tulevases väljalaskes esitab rakenduse programmeerimisliides (API) **GetActivePrices** hindu, mis kaasavad lihtsaid allahindlusi (näiteks ühe rea allahindlused, mis ei sõltu muudest ostukorvis olevatest kaupadest). Sellisel moel on kuvatud hinnad sarnasemad tegeliku summaga, mida kliendid kaupade eest maksavad. See API kaasab kõiki lihtsate allahindluste tüüpe: alluvus-, püsikliendi-, kataloogi- ja kanalipõhised allahindlused. Peale selle esitab see API rakendatud allahindluste nimed ja kehtivusteabe, nii et jaemüüjad saavad pakkuda üksiksasjalikumat hinnakirjeldust ning rõhutada kiireloomulisust, kui allahindluse kehtivus peagi aegub.

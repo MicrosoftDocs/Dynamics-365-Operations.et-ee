@@ -69,6 +69,3 @@ Samuti saate konfigureerida kandidaadi kogemusega seotud suvandeid. Näiteks ük
 Samuti saate määrata pakkumistele aegumiskuupäeva ja seda jõustada. Kui määrate suvandi **Nõutud aegumiskuupäev kõigi pakkumiste puhul** olekuks **Jah**, aeguvad pakkumised määratud tundide või päevadega.
 
 Pakkumiste haldamise kohta leiate lisateavet artiklist [Pakkumiste halduse seadistamine](./offer-setup.md).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,30 +2,37 @@
 title: Hinnangute ja arvustuste ülevaade
 description: See teema hõlmab hinnanguid ja arvustusi rakenduses Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
+manager: annbe
 ms.date: 10/01/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: eb68652e0d3ecd8d75f2bc0fe9c243749d7de284
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: 1248ce660d765ddade1df7d79786202235019990
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982248"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4411776"
 ---
 # <a name="ratings-and-reviews-overview"></a>Hinnangute ja arvustuste ülevaade
+
 
 [!include [banner](includes/banner.md)]
 
 See teema hõlmab hinnanguid ja arvustusi rakenduses Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Ülevaade
 
 Hinnangud ja arvustused on olulised e-kaubanduse klientidele, kes soovivad teada, kuidas teised kliendid toodet hindavad. Samuti võivad need aidata tarbijatel teha ostuotsuseid. Rakenduses Dynamics 365 Commerce võimaldab hinnangute ja arvustuste lahendus jaemüüjatel jäädvustada tootearvustusi ja hinnanguid klientidelt. Seejärel saavad jaemüüjad kuvada keskmised hinnangud ja vaadata üle oma e-kaubanduse veebisaidil olevat teavet.
 
@@ -35,7 +42,7 @@ Hinnangute ja arvustuste funktsioon rakenduses Dynamics 365 Commerce on omnikana
 
 Järgmine illustratsioon näitab, kuidas hinnangute ja arvustuste lahendus töötab rakenduses Dynamics 365 Commerce.
 
-![Hinnangud ja arvustused rakenduses Dynamics 365 for Commerce.](media/Dynamics-365-Commerce-Ratings-and-Reviews-Overview.jpg)
+![Hinnangud ja arvustused rakenduses Dynamics 365 for Commerce](media/Dynamics-365-Commerce-Ratings-and-Reviews-Overview.jpg)
 
 Hinnangute ja arvustuste lahendus rakenduses Dynamics 365 Commerce kasutab teenust Azure Cognitive Services, et pakkuda ebasündsate sõnade automaatset modereerimist 40 keeles. Kuna inimeste heakskiitu ei nõuta, vähendatakse modereerimise kulusid. Süsteem pakub ka moderaatori tööriistu, mida saab kasutada klientide murede, tagasiside ja mahavõtmise taotluste rahuldamiseks ja kasutajatelt saadud andmetega seotud taotluste käsitlemiseks.
 
@@ -52,14 +59,3 @@ Hinnangute ja arvustuste lahendus pakub ka ärianalüüsi (BI) malli, mis sisald
 [Hinnangute ja arvustuste konfigureerimine](configure-ratings-reviews.md)
 
 [Toote hinnangute sünkroonimine rakenduses Dynamics 365 Commerce](sync-product-ratings.md)
-
-[Lubage hinnangute ja ülevaadete käsitsi avaldamine moderaatori poolt](manual-publish-rating-reviews.md)
-
-[Hinnangute ja kommentaaride importimine ja eksportimine](import-export-reviews.md)
-
-[Teenusepõhise autentimise konfigureerimine](service-to-service-auth.md)
-
-[Hinnangud ja arvustused KKK](ratings-reviews-faq.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

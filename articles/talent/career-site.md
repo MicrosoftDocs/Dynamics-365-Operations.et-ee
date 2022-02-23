@@ -142,6 +142,3 @@ Pärast ühele või mitmele töökohale kandideerimist saavad kandidaadid oma av
 ## <a name="internal-jobs"></a>Organisatsioonisisesed töökohad
 
 Hetkel ei kuvata karjäärisaidil organisatsioonisiseseks märgitud ja rakenduse Attract karjäärisaidile sisestatud töökohti. Need on juurdepääsetavad ainult otsese URL-i **Kandideeri** kaudu, mida saab kopeerida rakendusest Attract.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

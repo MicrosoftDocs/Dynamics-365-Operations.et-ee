@@ -2,24 +2,27 @@
 title: Aruannetel ja dokumentidel summade kuvamisviisi värskendamine
 description: Selles teemas antakse teavet aruannetel ja muudel dokumentidel summade kuvamisviisi värskendamiseks Eesti, Leedu, Poola, Tšehhi Vabariigi, Ungaris ja Venemaa puhul.
 author: anasyash
-ms.date: 01/18/2022
+manager: AnnBe
+ms.date: 08/13/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: Currency
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.custom: 264254
 ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, Russia
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 678c7ac288e7754809ad51cc609e1aaa011776ee
-ms.sourcegitcommit: 9638d3a2bd592dc28f5952bda4af7dcf06edfaa4
-ms.translationtype: MT
+ms.openlocfilehash: dd42a64bb384561cc0c4a8c9baf1213860691849
+ms.sourcegitcommit: 092ef6a45f515b38be2a4481abdbe7518a636f85
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8007589"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4407872"
 ---
 # <a name="update-how-amounts-are-displayed-on-reports-and-documents"></a>Aruannetel ja dokumentidel summade kuvamisviisi värskendamine
 
@@ -47,10 +50,7 @@ Valuutaühikute ja allühikute täielike ning lühinimede seadistamiseks valitud
    |    <strong>Ühikute lühinimi (Lühinime väljagrupp)</strong>    |                                                                                         Sisestage valuutat tuvastav ISO-kood. Näiteks littide tuvastamiseks sisestage LTL.                                                                                         |
    |   <strong>Ühikute lühinimi (Lühinime väljagrupp)</strong>    |                                                                                               Sisestage valuuta allühiku üldnimetus. Näiteks sisestage Centas.                                                                                               |
    |       <strong>Sidesõna „ja” ühikute ja allühikute vahel</strong>       |                                     Märkige ruut , et printida ühikute ja allühikute vahel sidesõna „ja”. Näiteks kuvatakse summa LTL 100,20 arvetel või aruannetes kui „100 Litas and 20 Centas”.                                      |
-   |       <strong>Sugu</strong>       |  Valige **Mehelik**, **Naiselik** või **Kesksoost**. See näitaja võib mõjutada summa käänet, mida näidatakse kassaorderi kohalikus keeles. Näiteks kui seadistate Valuuta Sugu EUR-i jaoks Neuter-ina, kirjutatakse summa 1,01 EUR kassaorderi Thhi **keeles** **·** *01 senti Jedno eurona*.  |
+   |       <strong>Sugu</strong>       |  Valige **Mehelik**, **Naiselik** või **Kesksoost**. See näitaja võib mõjutada summa käänet, mida näidatakse kassaorderi kohalikus keeles. Näiteks, kui määrate EUR valuuta **sooks** **Kesksugu**, siis summa 1,01 EUR on tšehhikeelsel kassaorderil, kui *Edno euro 01 cent*.  |
 
 5. Valige käsk **Salvesta**.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

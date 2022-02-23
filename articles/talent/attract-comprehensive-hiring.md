@@ -85,6 +85,3 @@ Sellel, miks te ei näe kõiki Attracti funktsioone, mida teie kaastöötaja nä
 
 - Teie kaastöötajal on Attracti prooviversioon või tervikliku värbamise lisandmooduliga Attracti litsents, aga teie töötate Attracti põhiversiooniga.
 - Teil on tervikliku värbamise lisandmooduliga Attract, kuid teile pole määratud õigeid rolle, et saaksite kõiki funktsioone kasutada. Lisateavet leiate artiklist [Turvalisus ja rollihaldus Attractis](security-attract.md).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

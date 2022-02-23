@@ -1,32 +1,30 @@
 ---
 title: Kliendi ühendus katkeb
-description: See teema selgitab, mida teha, kui kliendi ühendus tema keskkonnaga katkeb.
-author: twheeloc
-ms.date: 08/19/2021
+description: See artikkel selgitab, mida teha, kui kliendi ühendus tema keskkonnaga katkeb ja põhjus pole teada.
+author: andreabichsel
+manager: AnnBe
+ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b15c5db19f1b07e3d469986ac700138ecb1d1525
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: 2088706baf8735fa371960955a2ffc3240ccac76
+ms.sourcegitcommit: a26e4963d40796da21ce6581cfb2f4d9db4f6776
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071131"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "4418239"
 ---
 # <a name="client-disconnects"></a>Kliendi ühendus katkeb
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 **Keskkonna üksikasjad** 
 
@@ -34,7 +32,7 @@ Probleem võib esineda kõigis keskkondades.
  
 **Sümptom** 
 
-Kliendi ühendus keskkonnaga katkeb ja selle põhjus pole teada. Klient saab ühe järgmistest tõrketeadetest:
+Kliendi ühendus tema keskkonnaga katkeb ja põhjus pole teada. Klient saab ühe järgmistest tõrketeadetest:
 
 - Teie ühendus on katkenud. Töötamiseks jätkamises klõpsake nuppu Sule.
 - Näib, et olete kaotanud võrguühenduse. Uuesti proovimiseks klõpsake nuppu Proovi uuesti.
@@ -54,6 +52,3 @@ Rakendus Microsoft Dynamics 365 Human Resources katkestab kasutajate ühendused,
 Veenduge, et korraga oleks ühes brauseritüübis avatud ainult üks keskkond. Kasutajad saavad samas keskkonnas avada mitu seanssi (s.t samas brauseris mitu vahekaarti).
 
 Kasutajad, kes soovivad korraga hüpata kahe keskkonna vahel, peavad kummagi keskkonna avama erinevas brauseritüübis. (Nt, kasutaja A saab vaadata keskkonda 1 Chrome’is ja keskkonda 2 Microsoft Edge’is.)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

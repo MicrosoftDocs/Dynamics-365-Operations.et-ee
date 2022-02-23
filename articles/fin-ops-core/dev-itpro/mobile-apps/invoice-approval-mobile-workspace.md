@@ -1,10 +1,12 @@
 ---
 title: Arvete kinnitamise mobiilne tööruum
-description: See teema annab teavet arvete kinnitamise mobiilse tööruumi kohta.
+description: See teema annab teavet arvete kinnitamise mobiilse tööruumi kohta. See tööruum annab loendi arvetest, mis on määratud teile hankija arve päise töövooprotsessi kaudu.
 author: abruer
+manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -12,12 +14,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 0d19e99776f04eab28eb7371bc0ac90ac046b62af0ad785fd3ab28309cae43ab
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8d4b40c7ce8939248e85b6b6f3d359bd16e35b0d
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759976"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683404"
 ---
 # <a name="invoice-approvals-mobile-workspace"></a>Arvete kinnitamise mobiilne tööruum
 
@@ -72,7 +74,7 @@ Laadige alla ja installige Finance and Operationsi mobiilirakendus.
 3.  Esimesel sisselogimisel küsitakse teilt kasutajanime ja parooli. Sisestage oma identimisteave.
 4.  Pärast sisselogimist kuvatakse teie ettevõtte jaoks saadaolevad tööruumid. Pange tähele, et teie süsteemiadministraator avaldab uue tööruumi hiljem ja teil on vaja mobiilsete tööruumide loendit uuendada.
 
-    [![Tõmmake värskendamiseks.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+    [![Tõmmake värskendamiseks](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="approve-invoices-by-using-the-invoice-approvals-mobile-workspace"></a>Arvete kinnitamine, kasutades arvete kinnitamise mobiilset tööruumi
 1.  Valige oma mobiilses seadmes tööruum **Arvete kinnitamine**.
@@ -84,6 +86,3 @@ Laadige alla ja installige Finance and Operationsi mobiilirakendus.
 7.  Valige **Manused** kõigi arvele manustatud märkmete või failide kuvamiseks.
 8.  Valige lehelt **Arve üksikasjad** sobiv töövoog ülevaatuse protsessi lõpuleviimiseks.
 9.  Valige suvand **Valmis**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

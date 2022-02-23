@@ -2,9 +2,11 @@
 title: Mallide ja paigutuste ülevaade
 description: Selles teemas räägitakse mallidest ja paigutustest rakenduses Microsoft Dynamics 365 Commerce.
 author: phinneyridge
+manager: annbe
 ms.date: 12/12/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -14,12 +16,12 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 888f5295dce601d4ce5d823f14169bbcdfe48d6b
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: 835b283ea93f761791745a41c74b6a12c11eea02
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986090"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4962956"
 ---
 # <a name="templates-and-layouts-overview"></a>Mallide ja paigutuste ülevaade
 
@@ -32,7 +34,7 @@ Hea võimalus mallidega alustamiseks on mõista mallide ja paigutuste funktsiona
 
 Järgmisel joonisel on näha lehemudeli hierarhia renderdatud veebilehe taga.
 
-![Lehemudeli diagramm.](../commerce/media/page-model-diagram.png)
+![Lehemudeli diagramm](../commerce/media/page-model-diagram.png)
 
 | Üksus        | Põhifunktsioonid |
 |---------------|----------------|
@@ -98,7 +100,7 @@ Eelseadistatud ja kohandatud paigutusi redigeeritakse loomise tööriistakogumi 
 
 Järgmisel joonisel on näha eelseadistatud ja kohandatud paigutused stsenaariumid.
 
-![Eelseadistatud ja kohandatud paigutuse stsenaariumid.](../commerce/media/template-figure1.png)
+![Eelseadistatud ja kohandatud paigutuse stsenaariumid](../commerce/media/template-figure1.png)
 
 Eelseadistatud paigutuste kasutamisega alustamiseks vt teemat [Eelseadistatud paigutustega töötamine](work-with-layouts.md).
 
@@ -109,6 +111,3 @@ Eelseadistatud paigutuste kasutamisega alustamiseks vt teemat [Eelseadistatud pa
 [Eelmääratud paigutustega töötamine](work-with-layouts.md)
 
 [Avaldamisrühmadega töötamine](publish-groups.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

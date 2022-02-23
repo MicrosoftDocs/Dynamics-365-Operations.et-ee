@@ -2,22 +2,25 @@
 title: Täiendusstrateegiad
 description: Selles teemas antakse teavet täiendusstrateegiate kohta ja selgitatakse, kuidas täiendamise strateegiat saab kasutada voo nõudluse täiendamismalli ridadel, et valida, kuidas täiendamist teostatakse.
 author: mirzaab
+manager: tfehr
 ms.date: 10/29/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-29
-ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: bd2ddbfeef454f2759ca09d8d763bada36a1fc83
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.16
+ms.openlocfilehash: 45b3b1a4d2e92a52ee69c17865634a6578181ac7
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574157"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4646129"
 ---
 # <a name="replenishment-strategies"></a>Täiendusstrateegiad
 
@@ -85,7 +88,7 @@ Kui seate täiendamise strateegiaks *Asukoha maksimaalne võimsus*, saate järgm
 - **Täiendamise töö 1:** Valige 4 kasti suurema varuga asukohast ja pange need asukohta komplekteerimine-001.
 - **Täiendamise töö 2:** Valige 5 kasti suurema varuga asukohast ja pange need asukohta komplekteerimine-002.
 
-[![Näide 1.](media/ReplenTemp_example_1.png "Näide 1")](media/ReplenTemp_example_1_large.png)
+[![Näide 1](media/ReplenTemp_example_1.png "Näide 1")](media/ReplenTemp_example_1_large.png)
 
 ### <a name="example-2"></a>Näide 2
 
@@ -109,9 +112,6 @@ Sõltuvalt asukoha direktiivides olevale täiendamise komplekteerimise sätte **
 
 Tulemused erinevad sõltuvalt teabest, mis on saadaval, kui loote töö. Kui täiendamise komplekteerimiseks mõeldud asukoha direktiivide suvand **Luba poolitamine** väärtuseks on seatud *Jah*, siis teate, et teil õnnestus leida 160 tk. Seetõttu saate luua töö selle koguse jaoks. Kuid kui suvandi **Luba poolitamine** väärtuseks on seatud *Ei*, ei tea te 160 tk olemasolust. Kuna lisakogus, mida otsustasite täiendada, oli 3 kasti, unustate selle lisakoguse ja proovite uuesti algset kogust.
 
-[![Näide 2.](media/ReplenTemp_example_2.png "Näide 2")](media/ReplenTemp_example_2_large.png)
+[![Näide 2](media/ReplenTemp_example_2.png "Näide 2")](media/ReplenTemp_example_2_large.png)
 
 Selleks, et saada maksimaalset kogust täiendatud asukohtadesse, peaksite täiendamise komplekteerimise asukoha direktiivides seadistama suvandi **Luba poolitamine** väärtusele *Jah*.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

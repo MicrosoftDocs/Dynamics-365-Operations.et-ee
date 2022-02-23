@@ -1,42 +1,35 @@
 ---
 title: Põhjusekoodide häälestamine
 description: Dynamics 365 Human Resources kasutab põhjuse koode, et selgitada, miks töövõtja soodustused muutuvad.
-author: twheeloc
-ms.date: 08/25/2021
+author: andreabichsel
+manager: AnnBe
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a30a59a648d54eda771845b8bee52df43987d3d1
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: 83923eecf7eb23a21b8dbbd39491014fa2bc20d6
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068280"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4418183"
 ---
 # <a name="set-up-reason-codes"></a>Põhjusekoodide häälestamine
 
+Dynamics 365 Human Resources kasutab põhjuse koode, et selgitada, miks töövõtja soodustused muutuvad. 
 
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-Dynamics 365 Human Resources kasutab põhjuse koode, et selgitada, miks töövõtja soodustused muutuvad.
-
-> [!NOTE]
-> Alates 2021. jaanuarist migreeritakse põhjusekoodid tööruumi **Personalihaldus** mitte tööruumi **Soodustuste haldus**. Lisateavet vt teemast [Põhjusekoodide käsitsi migreerimine personalihaldusesse](hr-benefits-setup-reason-codes.md#manually-migrate-reason-codes-to-personnel-management).
-
-## <a name="create-reason-codes"></a>Põhjusekoodide loomine
-
-1. Kui teie põhjusekoodid ei ole veel migreeritud valige tööruumis **Personalihaldus** (või tööruumis **Soodustuste haldus**, kui teie põhjusekoodid ei ole veel migreeritud) jaotis **Lingid** ja seejärel valige **Põhjusekoodid**.
+1. Tööruumis **Soodustuste haldus** jaotises **Seadistus** valige suvand **Põhjuse koodid**.
 
 2. Valige suvand **Uus**.
 
@@ -47,39 +40,4 @@ Dynamics 365 Human Resources kasutab põhjuse koode, et selgitada, miks töövõ
    | **Põhjuse kood** | Kordumatu nimi, et tuvastada põhjus, miks töövõtja muudaks soodustuse plaani registreerimist. |
    | **Kirjeldus** | Põhjuse koodi kirjeldus. |
 
-4. Seadke jaotises **Rakendatavad stsenaariumid** suvand **Soodustuste haldus** väärtusele **Jah**. (Pole kohaldatav, kui põhjusekoode pole veel tööruumi **Personalihaldus** migreeritud.)
-
-5. Valige käsk **Salvesta**.
-
-## <a name="manually-migrate-reason-codes-to-personnel-management"></a>Põhjusekoodide käsitsi migreerimine Personalihaldusesse
-
-Alates 2021. jaanuarist migreeritakse põhjusekoodid tööruumi **Personalihaldus** mitte tööruumi **Soodustuste haldus**. Enamik põhjusekoodide andmeid migreeritakse automaatselt teie keskkonda. Mõned põhjusekoodide andmed ei pruugi migreeruda. Näiteks on põhjusekoodide suurim lubatud tähemärkide arv 15 märki, seega ei migreerita ühtegi üle 15-tähemärgilist põhjusekoodi automaatselt.
-
-Näete bännerit lehel **Lingid** tööruumis **Soodustuste haldus**, mis teavitab teid migratsioonist ja sellest, kas mõni põhjusekood ei migreerunud.
-
-1. Valige migatsiooni oleku kohta üksikasjade saamiseks **Põhjusekoodid**.
-
-   [![Põhjuse koodid.](./media/hr-benefits-setup-reason-codes-link.png)](./media/hr-benefits-setup-reason-codes-link.png)
-
-2. Valige põhjusekood, mida ei saanud migreerida.
-
-   [![Põhjusekoodi migreerimise olek.](./media/hr-benefits-setup-reason-codes-status.png)](./media/hr-benefits-setup-reason-codes-status.png)
-
-3. Valige **Migreeri põhjusekood**.
-
-   [![Migreeri põhjusekood.](./media/hr-benefits-setup-reason-codes-migrate.png)](./media/hr-benefits-setup-reason-codes-migrate.png)
-
-4. Teil on paanil **Soodustuse põhjusekoodide migreerimine** kaks võimalust Personalihalduse põhjusekoodi vastendamiseks.
-
-   - Olemasoleva põhjusekoodi kasutamiseks Personalihalduses valige üks ripploendist **Kasuta olemasolevat põhjusekoodi**.
-     > [!NOTE]
-     > Personalihalduses saate kasutada olemasolevat põhjusekoodi ainult siis, kui mõnda muud Soodustuste halduse põhjusekoodi pole juba sinna migreeritud.
-   - Personalihalduses uue põhjusekoodi loomiseks sisestage uus põhjusekood väljale **Uus põhjusekood** ja seejärel sisestage kirjeldus väljale **Uus kirjeldus**.
-
-   [![Personalihalduse põhjusekoodile vastendamine.](./media/hr-benefits-setup-reason-codes-mapping.png)](./media/hr-benefits-setup-reason-codes-mapping.png)
-
-Kui põhjusekoodid on Personalihaldusse migreeritud, seadistatakse nende kasutamise valiku Soodustuste halduses automaatselt väärtusele **Jah**.
-
-[![Põhjusekoodi kasutamine Soodustuste halduses.](./media/hr-benefits-setup-reason-codes-use.png)](./media/hr-benefits-setup-reason-codes-use.png)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+4. Valige käsk **Salvesta**. 

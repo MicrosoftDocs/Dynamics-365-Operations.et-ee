@@ -1,10 +1,12 @@
 ---
 title: Eelistatud hooldustöötajate seadistus
 description: Selles teemas selgitatakse, kuidas sätestada eelistatud hooldustöötajaid varahalduses.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 08/19/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkerPreferred
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 511d875baed029df9083da36baf6c48ca4b7abf866ae569038b554bf594473c8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ab36d9fde0cc6e864f21f9ebd09834f5098c1913
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734423"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021400"
 ---
 # <a name="set-up-preferred-maintenance-workers"></a>Eelistatud hooldustöötajate seadistus
 
@@ -37,7 +39,7 @@ Enne eelistatud hooldustöötajate seadistamist peate esmalt seadistama hooldust
 Eelistatud hooldustöötaja või töötajate rühm võib olla seotud ühe või mitmega järgmistest.
 
 - kaubandus  
-- Hooldustöö tüübi variant  
+- Hooldustöö  tüübi variant  
 - Hooldustöö tüüp  
 - Hooldustöö tüübi kategooria  
 - vara  
@@ -59,12 +61,9 @@ Mida rohkem valikuid te sama kirje jaoks teete, seda täpsem on teie seadistus.
 
     [!NOTE] Üldiselt, kui töötellimuse planeerimisel valitakse eelistatud hooldustöötaja, läbib Varahaldus kõik **eelistatud hooldustöötajate** kirjed, et kontrollida võimalikku vastet, kontrollides alati kõige spetsiifilisemat kombinatsiooni esimesena. Kui vastet ei leita, kasutatakse "vaikimisi" kirjet, mille valikuks on kas **Eelistatud hooldustöötajate grupi** väli või **Eelistatud hooldustöötaja** väli.
 
-![Joonis 1.](media/02-work-order-scheduling.png)
+![Joonis 1](media/02-work-order-scheduling.png)
 
 Saate seadistada ka *vastutavad* hooldustöötajad, keda saab valida hoolduse taotluse või töökäsu loomisel. **Kõigi töökäskude** ja **Kõigi hooldusnõuete** korral saate valikut vajadusel redigeerida. Lisateabe saamiseks vaadake [Vastutavad hooldustöötajad](../setup-for-maintenance-requests/responsible-workers.md).
 
 Töötellimuse planeerimisel arvutatakse erinevad punktisummad, et määrata, millised töötajad peaksid läbi viima töötellimusega seotud tööd (need punktisummad seadistatakse **Varahalduse parameetrite** > **Töötellimuse planeerimise** lingil). Kui kaks või rohkem eelistatud hooldustöötajat või vastutavat hooldustöötajat saavad töötellimuse planeerimisel sama punktisumma, valitakse juhuslikult üks töötaja. Vastasel juhul on alati kõige kõrgema punktisummaga töötaja see, kes määratakse töötellimuse läbiviimiseks.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

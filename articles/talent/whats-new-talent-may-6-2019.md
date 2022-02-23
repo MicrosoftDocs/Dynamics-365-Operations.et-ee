@@ -93,6 +93,3 @@ Võimalus jägida töötaja puhkuseaega ja mõista, kuidas puhkus on arvestatud,
 ### <a name="indicate-instance-type-when-provisioning-talent"></a>Näidake eksemplari tüüpi Talenti ettevalmistamisel
 
 Uue Talenti eksemplari ettevalmistamisel saate näidata, kas eksemplari tüüp on **Tootmine** või **Liivakast**, mis võimaldab uute funktsioonide varajast testimist. Kõik olemasolevad Talenti eksemplarid uuendatakse tootmise eksemplari tüübiks. Kui soovite mõne olemasoleva eksemplari värskendada Liivakasti eksemplari tüübiks, võtke muudatuse taotlemiseks ühendust toega.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

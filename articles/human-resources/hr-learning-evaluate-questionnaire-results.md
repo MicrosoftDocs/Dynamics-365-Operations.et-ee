@@ -1,40 +1,38 @@
 ---
 title: Küsimustike tulemuste vaatamine ja hindamine
-description: See teema selgitab, kuidas saate vaadata ja hinnata vastajate täidetavate küsimustike tulemusi.
-author: twheeloc
-ms.date: 10/28/2021
+description: See artikkel selgitab, kuidas saate vaadata ja hinnata vastajate täidetavate küsimustike tulemusi.
+author: andreabichsel
+manager: AnnBe
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KMCollection, KMKnowledgeCollectorCollection, KMKnowledgeCollectorUserResults, HcmLearningWorkspace
 audience: Application User
-ms.search.scope: Human Resources
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations, Human Resources
 ms.custom: 17444
 ms.assetid: 6570206a-b2c4-4025-8715-432fe6652b78
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: dc71748a5081b90feb69ed0da936c42b4d0e572a
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: ceb21af75dca2756d8e07f315ddee0246554c854
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070698"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4418213"
 ---
 # <a name="view-and-evaluate-the-results-of-questionnaires"></a>Küsimustike tulemuste vaatamine ja hindamine
 
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-See teema selgitab, kuidas saate vaadata ja hinnata vastajate täidetavate küsimustike tulemusi. 
+See artikkel selgitab, kuidas saate vaadata ja hinnata vastajate täidetavate küsimustike tulemusi. 
 
 Pärast seda, kui vastajad on küsimustiku täitnud, saate vaadata ja hinnata küsimustiku tulemusi järgmisel viisil.
 
 -   **Täidetud vastamissessioonid** – saate kuvada vastajate täidetud küsimustike üksikasjad ja koostada aruandeid vastuste ning teenitud punktide summeerimiseks.
--   **Tulemusegrupid** – saate kuvada tulemusegrupi üksikasjad ja küsimustike statistika. Tulemusgrupi statistikat saab luua kas küsimustiku ühe vastuseseansi või kõigi vastuseseansside kohta.
+-   **Tulemusegrupid** – saate kuvada tulemusegrupi üksikasjad ja küsimustike statistika. Tulemusegrupi statistika saab luua ühe küsimustiku vastamissessiooni või kõigi vastamissessioonide kohta.
 -   **Küsimustiku statistika** – saate määrata kriteeriumid konkreetse vastajagrupi statistika arvutamiseks.
 
 Samuti saate luua mitmesuguseid aruandeid inimese, vastamissessiooni või tulemusegrupi järgi sorditud tulemuste vaatamiseks. Saadaval on järgmised täidetud küsimustikega seotud aruanded.
@@ -74,5 +72,3 @@ Saate kasutada küsimustiku statistikat täidetud küsimustiku tulemuste analü�
 -   Valige või kinnitage kriteeriumid tulemuste analüüsimiseks vastaja või küsimustiku omaduste põhjal. Näiteks kui teete valiku **Sihtnumber**, saate analüüsida vastaja asukoha ja õigete vastuste seost.
 
 Teie määratud seaded salvestatakse ja saate neid tulemuste ümberarvutamiseks regulaarselt kasutada.
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

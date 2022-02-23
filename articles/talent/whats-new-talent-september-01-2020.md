@@ -44,5 +44,3 @@ See pressiteade sisaldab järgmisi muudatusi LinkedIn Recruiter integratsioonis 
 - Brauseri toe uuendused (LinkedIn ei toeta enam Internet Explorer 11 alates 2020. aasta 1. juulist)
 
 Lisateabe saamiseks vaadake jaotist [Hangi Attract-is kandidaate LinkedIn Recruiter rakendusega](attract-linkedin-recruiter.md).
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

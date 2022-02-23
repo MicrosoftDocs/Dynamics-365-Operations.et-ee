@@ -1,10 +1,12 @@
 ---
 title: Varade installimine töö asukohtades
 description: Selles teemas kirjeldatakse, kuidas varasid moodulis Asset Management installida.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 06/25/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetFunctionalLocationObjectChange, EntAssetFunctionalLocationObjectInstall, EntAssetFunctionalLocationObject
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bc278564b02335b44a0b35d6a3a981125e6f456b08893be2b5886f0a55396d52
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5ea67e2392d8e25a2a5f3cb7e1ff5032322f2c48
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775743"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5022026"
 ---
 # <a name="install-assets-on-functional-locations"></a>Varade installimine töö asukohtades
 
@@ -80,6 +82,3 @@ Kui seadistusandmed on saadaval, olete valmis vara looma.
 1. Veenduge lehel **Kõik töö asukohad**, et töö asukoht, kuhu soovite vara automaatselt luua, kasutab töö asukoha tüüpi, mille olete sel eesmärgil loonud.
 2. Valige loendist töö asukoht.
 3. Valige **Värskenda töö asukohta olekut** ja seejärel valige selleks otstarbeks loodud töötsükli olek. Üks vara installitakse nüüd automaatselt töö asukohta. Varal on töö asukohaga sama nimi.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,23 +2,26 @@
 title: Hankija maksetingimuste määratlemine
 description: Selles teemas selgitatakse, kuidas sätestada maksetingimusi tarnija arvete jaoks.
 author: abruer
+manager: AnnBe
 ms.date: 07/09/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PaymTerm, CashDisc
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e70a68ab5e14e8dadfd8d61f696f5971c8e60262d0fd55c5de1589e572ff8085
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7e6778f61a9367399e4b71d5b2bb2459c09ba508
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722979"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4442204"
 ---
 # <a name="define-vendor-payment-terms"></a>Hankija maksetingimuste määratlemine
 
@@ -44,6 +47,3 @@ Selles teemas selgitatakse, kuidas sätestada maksetingimusi tarnija arvete jaok
 16. Sisestage põhikonto, kuhu skonto sisestatakse kliendiarvete puhul, seejärel sisestage põhikonto, kuhu skonto sisestatakse hankija arvete puhul. Kui suvand **Allahindluse vastaskontod** on seatud valikule **Kasuta hankija allahindluse jaoks põhikontot**, siis kasutatakse põhikontot. Kui suvand on seatud valikule **Kontod arve real**, sisestatakse skonto arve ridadel vara/kulu kontodele.  
 17. Valige käsk **Salvesta**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

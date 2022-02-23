@@ -2,23 +2,26 @@
 title: Korduvate vabas vormis arvete genereerimine ja sisestamine
 description: Korduvaid arveid kasutatakse klientidele regulaarselt sama summa arveldamiseks.
 author: ShivamPandey-msft
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysLookupMultiSelectGrid, CustRecurrenceInvoiceGroup, CustFreeInvoice, CustRecurrenceInvoiceTotals
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0389db98c00f8ad98a9cf919a21110c31206949199f06328782d25e9c415b315
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f3b31dbf296a06ea6253a8ae71bfea6193a1e03e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6762159"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4442355"
 ---
 # <a name="generate-and-post-recurring-free-text-invoices"></a>Korduvate vabas vormis arvete genereerimine ja sisestamine
 
@@ -43,6 +46,3 @@ Korduvaid arveid kasutatakse klientidele regulaarselt sama summa arveldamiseks. 
 6. Klõpsake valikut Sisesta.
     * Sisestage valitud arved.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

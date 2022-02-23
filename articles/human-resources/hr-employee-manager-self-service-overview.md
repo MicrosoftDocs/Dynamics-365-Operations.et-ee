@@ -1,35 +1,31 @@
 ---
-title: Töövõtja ja juhataja iseteeninduskeskuse ülevaade
+title: Töövõtja ja ülemuse iseteeninduse ülevaade
 description: Selles artiklis antakse ülevaate töövõtja ja ülemuse iseteeninduse tööruumist.
-author: twheeloc
-ms.date: 08/26/2021
-ms.topic: overview
+author: andreabichsel
+manager: tfehr
+ms.date: 10/20/2020
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HRMParameters, EssWorkspace
 audience: Application User
-ms.search.scope: Human Resources
-ms.custom:
-- "51941"
-- intro-internal
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations, Human Resources
+ms.custom: 51941
 ms.assetid: 2cfb061a-a616-4bf9-9d98-9cde00039eec
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 28bf4ff4e456505efda3777a4f820c54f270c74b
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: 116c85c53b0ec2fe1e1fd2d1fbc2738f5b6351fb
+ms.sourcegitcommit: 1fdca917e01470fbd5d3051adb85fd63e8624b47
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068940"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "4418234"
 ---
-# <a name="employee-and-manager-self-service-overview"></a>Töövõtja ja juhataja iseteeninduskeskuse ülevaade
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+# <a name="employee-and-manager-self-service-overview"></a>Töövõtja ja ülemuse iseteeninduse ülevaade
 
 Selles artiklis antakse ülevaate töövõtja ja ülemuse iseteeninduse tööruumist.
 
@@ -43,7 +39,7 @@ Kui te pole lehel **Kasutajad** kasutajat linkinid kirjega **Töötaja**, kuvata
 
 **Teie kasutajatunnus pole süsteemis töövõtja kirjega seostatud. Te ei saa oma andmeid vaadata ega muuta, kuni see on tehtud. Pöörduge abi saamiseks oma juhi või tugitöörühma poole.**
 
-Kasutaja seostamiseks kirjega **Töötaja** navigeerige lehele **Kasutajad** ja valige kasutaja. Valige **Redigeeri**, lisage vastav töötaja vormi väljale **Isik** ja valige **Salvesta**. Teil peaks nüüd olema juurdepääs **töövõtja iseteenindusele**.
+Kasutaja seostamiseks kirjega **Töötaja** navigeerige lehele **Kasutajad** ja valige kasutaja. Valige **Redigeeri**, lisage vastav töötaja vormi väljale **Isik** ja valige **Salvesta**. Teil peaks nüüd olema juurdepääs töövõtja iseteenindusele.
 
 ## <a name="security-requirements-for-employee-and-manager-self-service"></a>Töövõtja ja juhi iseteeninduse turbenõuded
 
@@ -58,7 +54,7 @@ Töövõtja ja juhi iseteenindus nõuab kahte järgmist turberolli.
 
 ## <a name="employee-self-service"></a>Töövõtja iseteenindus
 
-Vahekaart **Minu teave** kuvab **töövõtja iseteeninduskeskuse** kohta järgmise teabe.  
+Vahekaart **Minu teave** kuvab töövõtja iseteeninduskeskuse kohta järgmise teabe.  
 
 ### <a name="summary"></a>Kokkuvõte
 
@@ -72,13 +68,13 @@ Vahekaart **Minu teave** kuvab **töövõtja iseteeninduskeskuse** kohta järgmi
 
 ### <a name="my-career-information"></a>Minu karjääri teave
 
-**Töövõtja iseteeninduse** jaotis **Minu tööalane teave** sisaldab puhkuse ja puudumiste, jõudlushalduse, pädevuste, soodustuste, ülesannete ja manustega seotud kaarte.
+Töövõtja iseteeninduse jaotis **Minu tööalane teave** sisaldab puhkuse ja puudumiste, jõudlushalduse, pädevuste, soodustuste, ülesannete ja manustega seotud kaarte.
 
 Kaart **Vaba aja saldod** kuvab kõigi registreeritud plaanide saldod. See kaart prognoosib teie saldot teie viitvõla viisi põhjal. Saate sisestada ja esitada vaba aja taotlusi, mis seejärel teevad läbi kinnitamise töövoo protsessi. Puhkuste ja puudumiste kohta lisateabe saamiseks vt [Puhkuste ja puudumiste ülevaade](hr-leave-and-absence-overview.md).
 
 Kaart **Ülesanded** kuvab teile määratud ülesanded ning võimaldab teil vaadata ja hallata neid.
 
-Kaart **Järgmine registreeritud kursus** kuvab järgmise kursuse, kuhu olete registreerinud. Saate vaadata ja registreerida kõigile avatud kursustele. Kõigi registreerimiseks avatud kursuste olek on **Alustatud** ja töövõtjate iseregistreerimise kuvamine on lubatud sellel kaardil. Sõltuvalt teie organisatsiooni sätetest võib kursuse registreerimine läbida kinnitamisprotsessi.
+Kaart **Järgmine registreeritud kursus** kuvab järgmise kursuse, kuhu olete registreerinud. Saate vaadata ja registreerida kõigile avatud kursustele. Kõigi registreerimiseks avatud kursuste oleku on **Alustatud** ja töövõtjate iseregistreerimise kuvamine on lubatud sellel kaardil. Sõltuvalt teie organisatsiooni sätetest võib kursuse registreerimine läbida kinnitamisprotsessi.
 
 Kaart **Tunnistused** kuvab praegusele kuupäevale kõige lähedasema aegumiskuupäevaga tunnistuse. Saate tunnistusi värskendada, lisada või eemaldada. Sõltuvalt teie organisatsiooni sätetest võib tunnistuste värskendamine läbida kinnitamisprotsessi.
 
@@ -88,15 +84,15 @@ Kaardil **Jõudluse eesmärgid** saate hallata oma eesmärke. Sellel kaardil kuv
 
 Saate vaadata oma olemasolevaid oskusi kaardil **Oskused**. Saate värskendada oskusi, lisada uusi või eemaldada need, mis pole enam asjakohased. Sõltuvalt teie organisatsiooni sätetest võib oskuste muutmine läbida kinnitamisprotsessi.
 
-Saate vaadata oma praegust kompensatsiooni kaardil **Kompensatsioon**. Iga-aastase palga ja viimatise kasvusumma kuvamiseks valige **Kuva**. Kui töötate rohkem kui ühes ettevõttes, kuvatakse kaardil kõik iga-aastased summad. Üksikasjaliku kompensatsiooniajaloo vaatamiseks valige **iga-aastane palga** summa, et avada vorm **Fikseeritud ja ergutussüsteemi ajalugu**. Tulevast kompensatsiooni ei kuvata sellel lehel. Kui teil on rohkem kui üks töökoht, saate sellel lehel kompensatsiooni ajaloo vaatamiseks ettevõtteid vahetada ilma igasse ettevõttesse eraldi sisse logimata.
+Saate vaadata oma praegust kompensatsiooni kaardil **Kompensatsioon**. Iga-aastase palga ja viimatise kasvusumma kuvamiseks valige **Kuva**. Kui töötate rohkem kui ühes ettevõttes, kuvatakse kaardil kõik iga-aastased summad. Üksikasjaliku kompensatsiooniajaloo vaatamiseks valige iga-aastane palgasumma, et avada vorm **Fikseeritud ja ergutussüsteemi ajalugu**. Tulevast kompensatsiooni ei kuvata selles vormis. Kui teil on rohkem kui üks töökoht, saate selles vormis kompensatsiooni ajaloo vaatamiseks ettevõtteid vahetada ilma igasse ettevõttesse eraldi sisse logimata.
 
-Kaardil **Manused** saate vaadata ja hallata dokumente. Saate hallata kõiki **Väliseid** manuseid. Nii personalijuht kui ka töövõtja saab lisada manuseid **Töövõtja iseteeninduse** või vormi **Töötaja** kaudu. Manused on vaikimisi seatud väärtusele **Väline**.
+Kaardil **Manused** saate vaadata ja hallata dokumente. Saate hallata kõiki **Väliseid** manuseid. Nii personalijuht kui ka töövõtja saab lisada manuseid Töövõtja iseteeninduse või vormi **Töötaja** kaudu. Manused on vaikimisi seatud väärtusele **Väline**.
 
 ### <a name="additional-information"></a>Lisateave
 
-Sellest jaotisest leiate lingid teistele **töövõtja iseteenindusaladele**, sarnaselt jaotisele **Minu tööalane teave**.
+Sellest jaotisest leiate lingid teistele töövõtja iseteenindusaladele, sarnaselt jaotisele **Minu tööalane teave**.
 
-Registreeruge soodustuste saamiseks lingi **Soodustused** kaudu. Lisateabe saamiseks hüvitiste haldamise kohta vt [Ülevaade eelistest](hr-benefits-management-overview.md).
+Registreeruge soodustuste saamiseks lingi **Soodustused** kaudu. Lisateavet soodustuste halduse kohta vt [Soodustuste ülevaade](hr-benefits-management-overview.md)
 
 Jaotises **Jõudlus** saate valida **Jõudluse töölehed** jõudluse töölehekannete loomiseks, et kasutada neid nii jõudluse eesmärkide kui ka ülevaatuse puhul. Organisatsiooni teiste töövõtjate kohta tagasiside andmiseks saate valida **Saada tagasisidet**. Sõltuvalt teie organisatsiooni sätetest võidakse meile saata adressaadile, saatjale ja ülemustele. Tagasisidet saate saata kõigi organisatsiooni töötajate kohta. Ettevõte ei piira tagasiside saatmist.
 
@@ -106,13 +102,13 @@ Saate vaadata töö üksikasju jaotises **Organisatsioon**. Töö üksikasjad h�
 
 Jaotises **Küsimustik** saate vaadata lõpule viidud küsimustikke. Saate vaadata ka üleettevõttelisi küsimustikke, mida pole lõpule viidud. Saate küsimustiku igal ajal lõpule viia. Küsimustiku autor saab määratleda küsimustiku kehtivuse ajavahemiku.
 
-Saate konfigureerida kasutaja määratud linke jaotises **Personaliressursi parameetrid**. Saate näiteks määratleda palgaväljavõtete, aastalõpu dokumentatsiooni või välislahenduste linke. Need lingid kuvatakse selle jaotise allosas, kuid saate neid teisaldada isikupärastamise abil.
+Saate konfigureerida kasutaja määratud linke jaotises **Human Resourcesi parameetrid**. Saate näiteks määratleda palgaväljavõtete, aastalõpu dokumentatsiooni või välislahenduste linke. Need lingid kuvatakse selle jaotise allosas, kuid saate neid teisaldada isikupärastamise abil.
 
-Samuti saate luua täiendavaid vahekaarte, manustades Power Apps`i **töövõtja iseteeninduse** tööruumi. Kasutage menüüd **Sätted** lehe isikupärastamiseks mis tahes Power Appsi abil. Menüüs **Sätted** saate lisada Power Appi, täita üksikasjad ja sisestada rakenduse. Vaikimisi kuvatakse Power Apps seeria esimese vahekaardina. Järjestust saate muuta standardse isikupärastamise abil.
+Samuti saate luua täiendavaid vahekaarte, manustades Power Appsi töövõtja iseteeninduse tööruumi. Kasutage menüüd **Sätted** lehe isikupärastamiseks mis tahes Power Appsi abil. Menüüs **Sätted** saate lisada Power Appi, täita üksikasjad ja sisestada rakenduse. Vaikimisi kuvatakse Power Apps seeria esimese vahekaardina. Järjestust saate muuta standardse isikupärastamise abil.
 
 ## <a name="my-team"></a>Minu töörühm
 
-Vahekaart **Minu meeskond** kuvab **ülemuse iseteeninduskeskuse** kohta järgmise teabe. Vahekaardile **Minu meeskond** pääsevad juurde ainult ülemused.
+Vahekaart **Minu meeskond** kuvab ülemuse iseteeninduskeskuse kohta järgmise teabe. Vahekaardile **Minu meeskond** pääsevad juurde ainult ülemused.
 
 ### <a name="personnel-actions"></a>Personalitegevused
 
@@ -135,7 +131,7 @@ Saate konfigureerida need suvandid ka valikulise ülevaatuse ja kinnitamise tö�
 
 ### <a name="summary"></a>Kokkuvõte
 
-Jaotises **Kokkuvõte** kuvatav teave sõltub personalijuhi valitud suvanditest jaotises **Personaliressursi parameetrid**. Lehe **Personaliressursi parameetrid** vahekaardil **Ülemuse iseteenindus** saate konfigureerida suvandeid aeguvate kirjete ja avatud ametikohtade kuvamiseks. Nende suvandite lubamine määrab, mida ülemused näevad jaotises **Kokkuvõte**.
+Jaotises **Kokkuvõte** kuvatav teave sõltub personalijuhi valitud suvanditest jaotises **Human Resourcesi parameetrid**. Lehe **Human Resources** vahekaardil **Ülemuse iseteenindus** saate konfigureerida suvandeid aeguvate kirjete ja avatud ametikohtade kuvamiseks. Nende suvandite lubamine määrab, mida ülemused näevad jaotises **Kokkuvõte**.
 
 Ülemusteöe saate konfigureerida järgmisi paane.
 
@@ -163,7 +159,7 @@ Saate konfigureerida järgmisi suvandeid ülemuste jaoks, et nad saaksid muuta v
 
 ### <a name="my-team-information"></a>Minu meeskonna teave
 
-**Minu meeskonna** teave võimaldab ülemustel vaadata ja värskendada otseseid ja kaudseid alluvaid. Kaudsete alluvate juurde pääsemiseks valige töötaja, kellel on alluvad ja seejärel valige kaardil **Kuva meeskond**. Kõik samad valikud rakenduvad kaudsetele alluvatele nagu otsestele alluvatele. 
+Minu meeskonna teave võimaldab ülemustel vaadata ja värskendada otseseid ja kaudseid alluvaid. Kaudsete alluvate juurde pääsemiseks valige töötaja, kellel on alluvad ja seejärel valige kaardil **Kuva meeskond**. Kõik samad valikud rakenduvad kaudsetele alluvatele nagu otsestele alluvatele. 
 
 #### <a name="summary-tab"></a>Kokkuvõtte vahekaart
 
@@ -186,12 +182,12 @@ Sõltuvalt teie organisatsiooni sätetest saate teha muudatusi või ainult vaada
 
 #### <a name="position-tab"></a>Ametikoha vahekaart
 
-Vahekaart **Ametikohad** pakub töötajate koondvaadet nende esmasel ametikohal. Iga kaardi pealkirja alal kuvatakse nimi, paan ja osakond. See paan sisaldab:
+Vahekaart **Ametikohad** pakub töötajate koondvaadet nende esmasel ametikohal. Iga kaardi pealkirja alal kuvatakse nimi, paan ja osakond. See kaart sisaldab järgnevat.
 
-- **Staaži kuupäev** – kuvatakse töötaja vormi **töötaja** lehel kokkuvõtte jaotises.
-- **Tööaastad** – arvutatud töövõtja töösuhte alguskuupäeva järgi.
-- **Varasemate töökohtade arv** – sõltuvalt ametikohtade ajaloost kuvatakse selle numbri klõpsamisel varasemate ametikohtade üksikasjalik vaade.
-- **Sünnikuupäev** – töövõtja sünni kuu ja päev.
+- **Staaži kuupäev** – kuvatakse töötaja vormi töötaja kokkuvõtte jaotises
+- **Tööaastad** – arvutatud töövõtja töösuhte alguskuupäeva järgi
+- **Varasemate töökohtade arv** – sõltuvalt ametikohtade ajaloost kuvatakse selle numbri klõpsamisel varasemate ametikohtade üksikasjalik vaade
+- **Sünnikuupäev** – töövõtja sünnikuupäeva kuu ja päev
 
 Saate vaadata nii otseste kui ka kaudsete alluvate ametikoha andmeid.
 
@@ -199,13 +195,13 @@ Saate vaadata nii otseste kui ka kaudsete alluvate ametikoha andmeid.
 
 Vahekaardil **Kompensatsioon** kuvatakse töövõtja aastane palk. Palgasumma all kuvatakse ettevõtte identifikaator. Kui töövõtjal on rohkem kui üks töökoht ja ta saab palka mitmelt juriidiliselt isikult, siis on töövõtjal mitu kompensatsiooniplaani. Kõigi juriidiliste isikute kompensatsiooniplaanide kuvamiseks ilma ettevõtet vahetamata, peate lubama ettevõtteülese kompensatsiooni jaotises **Inimressurssid > Jagatud parameetrid > Täiustatud juurdepääs > Luba ettevõtteülene kompensatsioon**.
 
-Kompensatsiooniajaloo vaatamiseks valige vormi **Üksikasjad** avamiseks **palgasumma**. Lehel **Kompensatsioon** kuvatakse ainult praeguse ja varasema põhipalga ja ergutussüsteemi kirjed. Kui töövõtjal on rohkem kui üks töökoht, saate vahetada ettevõtete vaadete vahel, et kuvada kompensatsiooni ajalugu iga ettevõtte kohta või lubada ettevõtteülese kompensatsiooni **inimressursside jagatud parameetrites**, et kuvada kõiki kompensatsiooniplaane.
+Kompensatsiooniajaloo vaatamiseks valige vormi **Üksikasjad** avamiseks palgasumma. Vormil **Kompensatsioon** kuvatakse ainult praeguse ja varasema põhipalga ja ergutussüsteemi kirjed. Kui töövõtjal on rohkem kui üks töökoht, saate vahetada ettevõtete vaadete vahel, et kuvada kompensatsiooni ajalugu iga ettevõtte kohta või lubada ettevõtteülese kompensatsiooni inimressursside jagatud parameetrites, et kuvada kõiki kompensatsiooniplaane.
 
 Saate vaadata nii otseste kui ka kaudsete alluvate kompensatsiooni.
 
 #### <a name="leave-and-absence-tab"></a>Puhkuste ja puudumiste vahekaart
 
-Vahekaardil **Puhkus ja puudumine** kuvatakse nende töötajate kõrgeimad saldod, kellel on tegevus. Tegutsemiseks või tegevuste täieliku loendi vaatamiseks valige **Üksikasjad** ja seejärel **Vaba aeg**. Lehel **Vaba aeg** saate vaadata saldosid, taotlusi, kinnitatud vaba aega ja prognoositud saldosid, et aidata töövõtjatel paremini aega hallata. Sõltuvalt teie organisatsiooni sätetest võite taotleda vaba aega oma otseste ja kaudsete alluvate jaoks.
+Vahekaardil **Puhkus ja puudumine** kuvatakse nende töötajate kõrgeimad saldod, kellel on tegevus. Tegutsemiseks või tegevuste täieliku loendi vaatamiseks valige **Üksikasjad** ja seejärel **Vaba aeg**. Vormil **Vaba aeg** saate vaadata saldosid, taotlusi, kinnitatud vaba aega ja prognoositud saldosid, et aidata töövõtjatel paremini aega hallata. Sõltuvalt teie organisatsiooni sätetest võite taotleda vaba aega oma otseste ja kaudsete alluvate jaoks.
 
 #### <a name="performance-goals-tab"></a>Jõudluse eesmärkide vahekaart
 
@@ -218,5 +214,3 @@ Vahekaart **Jõudluse eesmärgid** summeerib jõudluse eesmärgid oleku järgi. 
 Vahekaart **Ülevaatused** summeerib töövõtjaja ülevaatuseid kõigis olekutes: **Pooleli**, **Ülevaatamiseks valmis** ja **Lõplik ülevaatus**. Töövõtja ülevaatuse juurde pääsemiseks valige nupp **Üksikasjad** ja seejärel valige ülevaateid, millega koostööd teha. Olenevalt sellest, kus ülevaatus paikneb töövooprotsessis, saate vaadata kas ülevaatus on värskendamiseks saadaval. 
 
 Saate vaadata oma meeskonna kõiki ülevaatuseid menüü **Minu meeskond** paani **Meeskonna jõudluse ülevaatused** jaotises **Kokkuvõte**.
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

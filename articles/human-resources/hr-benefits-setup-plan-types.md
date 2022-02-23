@@ -1,52 +1,39 @@
 ---
-title: Plaani tüübi ülevaade
-description: Plaani tüüp rakenduses Microsoft Dynamics 365 Human Resources on kindlate soodustuste tüüpide kõrgetasemeline rühmitamine.
-author: twheeloc
-ms.date: 08/24/2021
-ms.topic: overview
+title: Plaani tüüpide loomine
+description: Plaani tüüp rakenduses Microsoft Dynamics 365 Human Resources on kindlate soodustuste tüüpide kõrgetasemeline rühmitamine. Igal plaani tüübil on plaani tüübi kood, mis määrab plaani tüübi reeglid.
+author: andreabichsel
+manager: AnnBe
+ms.date: 04/06/2020
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b247b3a044a073c2a4d2d9c2ab8507fa2ebe864c
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: 88a6d89bf98ea145bbb6a4eb8f4e052e5f4088e5
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067550"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4418177"
 ---
-# <a name="plan-type-overview"></a>Plaanitüübi ülevaade
+# <a name="create-plan-types"></a>Plaani tüüpide loomine
 
+Plaani tüüp rakenduses Microsoft Dynamics 365 Human Resources on kindlate soodustuste tüüpide kõrgetasemeline rühmitamine. Igal plaani tüübil on plaani tüübi kood, mis määrab plaani tüübi reeglid. Näiteks plaani tüüp Tavaline elu olemaks plaani tüübi koodi Elu, kuna see sarnaneb elukindlustuse plaanile ja peab vastama plaani tüübi koodis Elu määratud reeglitele. Teine plaani tüüp võib olla Täiendav elu, mis on samuti koos plaani tüübi koodi Elu.
 
-[!INCLUDE [PEAP](../includes/peap-2.md)]
+Iga plaani tüüp näitab, kas töövõtja saab registreeruda ühe seda tüüpi plaaniga või mitmega. Näiteks võib töötaja tõenäoliselt registreeruda plaani tüübi Elu nii Tavaline elu kui ka Täiendav elu poliisile. Töövõtjal lubatakse tõenäoliselt registreeruda ainult ühe tüübi Meditsiiniline poliisile.
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+Kui plaani tüüp hõlmab kontakte, siis näitab plaani tüüp, kas kontaktid on kasusaajad või sõltuvad. Näiteks oleksid plaani tüübil Tavaline elu kasusaajad, samas kui plaani tüübil Tavaline meditsiiniline oleksid sõltuvad. Mõnel juhul ei tohi plaanis isiklikke kontakte olla. Näiteks Paindlik kasutuskonto või Parkimishüvitis.
 
-Plaani tüüp on kindlate soodustuste tüüpide kõrgetasemeline rühmitamine. Igal plaani tüübil on plaani tüübi kood, mis määrab plaani tüübi reeglid. Näiteks plaani tüüp **Tavaline elu** olemaks plaani tüübi koodi **Elu**, kuna see sarnaneb elukindlustuse plaanile ja peab vastama plaani tüübi koodis **Elu** määratud reeglitele. Teine plaanitüüp võib olla **Täiendav eluiga**. Sellel plaanitüübil on ka **Elu** plaani tüübi kood.
-
-Iga plaani tüüp näitab, kas töövõtja saab registreeruda ühe seda tüüpi plaaniga või mitmega. Näiteks võib töötaja tõenäoliselt registreeruda plaani tüübi nii **Tavaline elu** kui ka **Täiendav elu** poliisile. Töövõtjal lubatakse tõenäoliselt registreeruda ainult ühe tüübi Meditsiiniline poliisile.
-
-Kui plaani tüüp hõlmab kontakte, siis näitab plaani tüüp, kas kontaktid on kasusaajad või sõltuvad. Näiteks oleksid plaani tüübil **Tavaline elu** kasusaajad, samas kui plaani tüübil Tavaline meditsiiniline oleksid sõltuvad. Mõnel juhul ei tohi plaanis isiklikke kontakte olla. Näiteks Paindlik kasutuskonto või Parkimishüvitis.
-
-
-Plaani tüüp võib määratleda katvuse valikud. Katvuse valikud määratletakse lehel **Katvuse atribuudid**. Katvuse valik saab määrata soodustuse summa või kontaktid, kes vastavad plaani tüübile. Näiteks kui kontakti tüüp on **Kasusaaja**, peaks katvuse valik määratlema tingimused, mida kasusaaja saab soodustuse kasutamisel saada. Kui kontakti tüüp on **Sõltuv**, peaks katvuse valik määratlema sõltuva ja töövõtja vahelise seose. 
-
-> [!IMPORTANT]
-> Lehekülg **Plaani tüüp** sisaldab põhiandmeid, mis mõjutavad uue hüvitiste plaani loomisel saadaolevaid valikuid:
->
-> - **Plaani tüübi kood** – see väli mõjutab **konfiguratsiooni** vahekaardil kuvatavat teavet tegeliku hüvitise häälestamisel.  
-> - **Samaaegne registreerimine** – see väli määratleb, kas mitu registreerimist on lubatud. (Arstliku plaani puhul on selle välja väärtuseks tavaliselt seatud **Üks registreerimine**.)
-> - **Kontakti tüüp** – see väli võimaldab plaani lisada sõltuvaid või kasusaajaid. Kui see on seatud valikule **Puudub**, ei saa soodustuses registreerunud töötajatel valida kas kasusaajat või sõltuvat.
-> - **Katvuse valikud** – kasutage seda välja katvuse valikute seostamiseks plaanitüüpidega. See määratleb kas need isikud, kellele see plaanitüüp hõlmab, või katvuse summad, mis on selle plaani tüübi jaoks saadaval. Näiteks võite määrata, et meditsiiniplaani tüübi katvus on saadaval ainult töötajale, töötajale ja veel ühele inimesele või töötajale ja tema perele.
-
-## <a name="create-plan-types"></a>Plaani tüüpide loomine
+Plaani tüüp võib määratleda katvuse valikud. Katvuse valikud määratletakse vormil Katvuse valik. Katvuse valik saab määrata soodustuse summa või kontaktid, kes vastavad plaani tüübile. Näiteks kui kontakti tüüp on Kasusaaja, peaks katvuse valik määratlema tingimused, mida kasusaaja saab soodustuse kasutamisel saada. Kui kontakti tüüp on Sõltuv, peaks katvuse valik määratlema sõltuva ja töövõtja vahelise seose. 
 
 1. Tööruumis **Soodustuste haldus** jaotises **Seadistus** valige suvand **Plaani tüübid**.
 
@@ -76,6 +63,3 @@ Plaani tüüp võib määratleda katvuse valikud. Katvuse valikud määratletaks
    | **Aruandlusaken** | Määrab elusündmuse aruandlusakna, päevades. **Märge**: kui te summat ei sisesta, siis süsteem eeldab, et aruandlusaken on null ja ei töötle elusündmust. |
 
 5. Valige käsk **Salvesta**. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

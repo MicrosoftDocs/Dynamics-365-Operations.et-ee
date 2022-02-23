@@ -1,42 +1,33 @@
 ---
 title: Sobivusreeglite ja -suvandite konfigureerimine
-description: See teema kirjeldab, kuidas määrata sobivusreegleid ja võimalusi rakenduse Microsoft Dynamics 365 Human Resources soodustuste halduses.
-author: twheeloc
-ms.date: 08/24/2021
+description: Määrake rakenduses Microsoft Dynamics 365 Human Resources soodustuste haldamises sobivusreeglid ja -suvandi.
+author: andreabichsel
+manager: AnnBe
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e87bef8994fe1eac0089764c8d4f9b18289c13ea
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: 70054acafc3aec35fd985c0ca81e928519ddd0a3
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069626"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4418106"
 ---
-# <a name="configure-eligibility-rules-and-options"></a>Sobivusreeglite ja -suvandite konfigureerimine 
+# <a name="configure-eligibility-rules-and-options"></a>Sobivusreeglite ja -suvandite konfigureerimine
 
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-Kui olete konfigureerinud soodustuste haldamise nõutud parameetrid, saate luua sobivusreeglid, kogumid, perioodid ja programmid, mille soodustuse plaanidega seostate.
-
-Sobivuse reegleid kasutatakse selleks, et määrata, kas töötajad on plaani jaoks sobilikud. Töötajad peavad hüvitise saamise tingimustele vastamiseks vastama vähemalt ühe reegli tingimusele. Näiteks on teil plaani kohta kaks reeglit. Esimeses reeglis (1. rida) on sätestatud, et töötaja tüüp peab olema **Töötaja**. Teises reeglis (2. rida) on sätestatud, et töötaja töötab täistööajaga. Seetõttu on 1. reeglile vastavad töötajad sobilikud ka siis, kui nad on tööle võetud ainult osalise tööajaga.
-
-Saate seadistada ühe reegli, kus on mitu tingimust. Sellisel juhul peavad töötajad vastama kõigile reegli tingimustele, et oleks õigustatud hüvitise saamine. Näiteks on teil reegel nimega **Töötaja täistööaeg**. See reegel tähendab, et töötaja tüüp peab olema **Töötaja** *ja* töötaja peab olema täiskohaga palgatud. Seetõttu peavad töötajad vastama nõuetele vastamiseks reegli mõlemad tingimused.
-
-> [!IMPORTANT]
-> Iga hüvitisplaaniga peab olema seotud vähemalt üks sobivuse reegel. Eelisega saate siduda mitu reeglit.
+Kui olete rakenduses Microsoft Dynamics 365 Human Resources konfigureerinud soodustuste haldamise vajalikud parameetrid, saate luua sobivusreeglid, kogumid, perioodid ja programmid, mille soodustuse plaanidega seostate.
 
 ## <a name="create-an-eligibility-rule"></a>Sobivusreegli loomine
 
@@ -50,7 +41,7 @@ Avatud registreerimise ajal saavad töötajad valida soodustuse plaanid. Kui nad
 
 3. Määrake järgmiste väljade väärtused.
 
-   | Field | Kirjeldus |
+   | Väli | Kirjeldus |
    | --- | --- |
    | **Sobivusreegel** | Sobivusreegli kordumatu identifikaator. |
    | **Kirjeldus** | Sobivusreegli kirjeldus. |
@@ -70,7 +61,7 @@ Avatud registreerimise ajal saavad töötajad valida soodustuse plaanid. Kui nad
 
    | Suvand | Kirjeldus |
    | --- | --- |
-   | **Sobilik vanus** | Määrab sobivusreegli täitmiseks vajaliku vanusevahemiku või -vahemikud. |
+   | **Kõlblik vanus** | Määrab sobivusreegli täitmiseks vajaliku vanusevahemiku või -vahemikud. |
    | **Sobilik osakond** | Määrab sobivusreegli täitmiseks vajaliku osakonna või osakonnad, kus töövõtja peab asuma. |
    | **Sobilik töölevõtu tüüp** | Määrab sobivusreegli täitmiseks vajaliku tööhõive tüübi või tüübid, mille alusel töövõtja peab olema kategoriseeritud. Näiteks täistööaeg või osaline tööaeg. |
    | **Sobilik töö** | Määratleb töö või tööd, mis vastavad sobivusreeglile. Tööd on seotud ametikohtadega ja ametikohad on täidetud töövõtjatega. |
@@ -82,12 +73,12 @@ Avatud registreerimise ajal saavad töötajad valida soodustuse plaanid. Kui nad
    | **Sobilik ametikoha tüüp** | Määratleb ametikoha tüübi või tüübid, mis vastavad sobivusreeglile. Näiteks täistööaeg. |
    | **Soodustuskõlblik olek** | Määratleb osariigid või provintsid, mis vastavad sobivusreeglile. Näiteks Põhja-Dakota (USA) või Briti Columbia (Kanada). |
    | **Sobilikud töölevõtu tingimused** | Määrab töölevõtutingimused, mis vastab sobivusreeglile. Näiteks üksikisiku või rühma leping. |
-   | **Kõlblik ametiühing** | Määratleb ametiühingu liikmesused, mis vastavad sobivusreeglile. Näiteks Ameerika kahveltõstukite juhid.</br></br>Ametiühingu põhist sobivusreeglit kasutades peab töötaja ametiühingu kirjes olema lõpukuupäev täidetud. Te ei saa seda tühjaks jätta. |
+   | **Kõlblik ametiühing** | Määratleb ametiühingu liikmesused, mis vastavad sobivusreeglile. Näiteks Ameerika kahveltõstukite juhid. </br></br>Ametiühingu põhist sobivusreeglit kasutades peab töötaja ametiühingu kirjes olema lõpukuupäev täidetud. Te ei saa seda tühjaks jätta. |
    | **Sobilik sihtnumber** | Määratleb sihtnumbrid, mis vastavad sobivusreeglile. Näiteks 58104. |
 
 5. Jaotises **Lisateave** saate kuvada järgmisi täiendavaid üksikasju.
 
-   | Field | Kirjeldus |
+   | Väli | Kirjeldus |
    | --- | --- |
    | **Sobilik kasutajaväli** | Määrab kliendi määratletud väljade põhjal täiendavad sobivusreeglid. |
    | **Sobivustüüp** | Määrab kriteeriumi kategooria, mille valisite jaotises **Lisakriteeriumid**. |
@@ -96,72 +87,6 @@ Avatud registreerimise ajal saavad töötajad valida soodustuse plaanid. Kui nad
 
 6. Valige käsk **Salvesta**.
 
-## <a name="using-custom-fields-in-eligibility-rules"></a>Kohandatud väljade kasutamine sobivuse reeglites
-
-[Kohandatud välju](hr-developer-custom-fields.md) saab luua rakenduses Human Resources et jälgida lisateavet. Neid välju saab lisada otse kasutajaliidesesse ja veerg lisatakse dünaamiliselt aluseks olevasse tabelisse.  
-
-Kohandatud välju saab kasutada sobivuse protsessis. Sobivuse reeglid võivad töötaja sobivuse määramiseks kasutada ühte või rohkem kohandatud väljaväärtust.  Kohandatud välja lisamiseks olemasolevale reeglile või uue reegli loomiseks minge **Soodustuste haldus > Lingid > Häälestus > Sobilikkuse reeglid > Kohandatud välja sobivus**. Sellel leheküljel saate luua reegli, mis kasutab üht või mitut kohandatud välja ja saate sobivuse määramiseks igale kohandatud väljale määrata mitu väärtust.
-
-Järgmised tabelid toetavad kohandatud välju, mida saab kasutada abikõlblikkuse töötlemiseks:
-
-- Töötaja (HcmTöötaja)  
-- Töö (HcmTöö)  
-- Ametikoht (HcmAmetikoht)  
-- Ametikoha üksikasjad (HcmAmetikohaÜksikasjad)  
-- Ametikoha töötaja määramine  
-- Tööhõive (HcmTööhõive)  
-- TööhõiveÜksikasjad (HcmTööhõiveÜksikasjad)  
-- Töö üksikasjad (HcmTööÜksikasjad)  
-
-Järgmised tabelid toetavad kohandatud välju, mida saab kasutada abikõlblikkuse töötlemiseks:
-
-- Tekst  
-- Märkeloend  
-- Arv  
-- Kümnendkoht  
-- Märkeruut  
-
-Järgmine tabel näitab kohandatud välja sobivuse vormi väljateavet.
-
-| Field  | Kirjeldus |
-|--------|-------------|
-| Nimi | Loodava kriteeriumi nimi. |
-| Tabeli nimi | Tabeli nimi, mis sisaldab kohandatud välja, mida sobivuse reegli jaoks kasutatakse. |
-| Välja nimi | Sobivuse reegli jaoks kasutatav väli. |
-| Operaatoritüüp | Kuvab kohandatud välja sobivuse konfiguratsioonis kasutatava tehtemärki. |
-| Väärtus | Kuvab kohandatud välja sobivuse konfiguratsioonis kasutatava väärtuse. |
-
-## <a name="eligibility-logic"></a>Sobivuse loogika
-
-Järgmised jaotised kirjeldavad, kuidas soodustuskõlblikkust töödeldakse.
-
-### <a name="rules-assigned-to-a-plan"></a>Plaanile määratud reeglid 
-Kui soodustusplaanile on määratud mitu sobivuse reeglit, peab töötaja soodustusplaanis registreerumiseks vastama vähemalt ühele reeglile.  Järgmises näites peab töötaja kas vastama **Töö tüübi** reegli või **Aktiivsete töötajate** reegli nõuetele.
-
-![Järgmises näites peab töötaja kas vastama Töö tüübi reegli või Aktiivsete töötajate reegli nõuetele.](media/RulesAssignedToAPlan.png)
- 
-### <a name="criteria-within-an-eligibility-rule"></a>Sobivuse reegli kriteeriumid 
-Reegli piires määrate reegli moodustavad kriteeriumid. Ülaltoodud näites on **Töö tüübi** reegli kriteeriumiks see, kus töö tüüp = direktorid. Seetõttu peab töötaja olema direktoriks, kes on sobilik. See on reegel, kus reeglis on ainult üks kriteerium.
-
-Saate määratleda reeglid, kus on mitu kriteeriumi. Kui määrate sobivuse reeglis mitu kriteeriumi, peab töötaja soodustusplaani jaoks vastama kõigile reegli kriteeriumidele. 
-
-Näiteks ülaltoodud **Aktiivsete töötajate** reegel koosneb järgmistest kriteeriumidest. Selleks, et töötaja oleks **aktiivsete töötajate** reegli alusel sobilik, peab töötaja olema palgatud juriidilises isikus USMF *ja* tema positsioonitüüp peab olema täiskohaga.  
-
-![Sobivuse reegli kriteeriumid.](media/CriteriaWithinAnEligibilityRule.png) 
- 
-### <a name="multiple-conditions-within-criteria"></a>Kriteeriumide sees on mitu tingimust
-
-Reegleid saab täiendavalt laiendada, et kasutada ühe kriteeriumi raames mitut tingimust. Selleks, et töötaja oleks sobilik, peab ta vastama vähemalt ühele tingimusele. Ülaltoodud näite põhjal toetudes saab **Aktiivsete töötajate** reeglit veelgi laiendada, et kaasata ka osalise tööajaga töötajad. Seetõttu peab töötaja olema USMF-i töötaja *ja* kas täis- või osalise tööajaga töötaja.  
-
-![Kriteeriumide sees on mitu tingimust.](media/MultipleConditionsWithinCriteria.png) 
- 
-### <a name="eligibility-conditions-within-a-custom-field-criterion"></a>Kohandatud väljakriteeriumi sees abikõlblikkuse tingimused 
-Nagu ülaltoodud, saab kohandatud välju kasutada sobivuse reeglite loomisel ja samal viisil töötades. Näiteks võite pakkuda interneti hüvitist kodus töötavatele Fargo ja Kopenhaageni töötajatele, kuna nendes asukohtades on interneti kulud suuremad. Selleks looge kaks kohandatud välja: **Kontori asukoht** (komplekteeritud loend) ja **Kodust töötamine** (märkeruut). Seejärel looge reegel nimega **WFH töötajad**. Reegli kriteeriumiks on see, kus **Kontori asukoht = Fargo** või **Kopenhaagen** *ja* kus **Töötamine kodust = Jah**.
-
-Kohandatud sobivuse reeglid tuleb seadistada järgmisel pildil näidatud kohaselt. 
-
-![Kohandatud väljakriteeriumi sees abikõlblikkuse tingimused.](media/EligibilityConditionsWithinACustomFieldCriterion.png) 
- 
 ## <a name="configure-bundles"></a>Kogumite konfigureerimine
 
 Kogumid on seotud soodustuste plaanide komplektid. Soodustuste kogumite abil saate rühmitada soodustuste plaane, mille töövõtja peab valima, et registreeruda teatud soodustuste plaanides, mis võivad sõltuda teistest soodustuse plaanide registreerumistest. Näited, millal võite tahta kasutada kogumit, on järgmised.
@@ -176,7 +101,7 @@ Kogumid on seotud soodustuste plaanide komplektid. Soodustuste kogumite abil saa
 
 3. Määrake järgmiste väljade väärtused.
 
-   | Field | Kirjeldus |
+   | Väli | Kirjeldus |
    | --- | --- |
    | **Kogum** | Kogumi kordumatu identifikaator. |
    | **Kirjeldus** | Kogumi kirjeldus. |
@@ -196,7 +121,7 @@ Perioodid määratlevad, millal soodustused on jõus ja millal on töötajatel l
 
 3. Määrake järgmiste väljade väärtused.
 
-   | Field | Kirjeldus |
+   | Väli | Kirjeldus |
    | --- | --- |
    | **Periood** | Perioodi kordumatu identifikaator. |
    | **Kehtivuse alguskuupäev ja -aeg** | Alguskuupäev ja -kellaaeg, mil soodustuste periood on aktiivne. |
@@ -218,15 +143,15 @@ Saate kasutada paindliku krediidiga programme, et registreerida töötajad eelm�
 
 3. Valige rakendamiseks paindliku krediidiga programm. Väljad sisaldavad järgmist teavet.
 
-   | Field | Kirjeldus |
+   | Väli | Kirjeldus |
    | --- | --- |
-   | **Soodustuse krediidi ID** | Paindliku krediidiga programmi kordumatu identifikaator. |
-   | **Kirjeldus** | Paindliku krediidiga programm kirjeldus. | 
-   | **Kehtivuse alguskuupäev** | Paindliku krediidiga programmi aktiivseks muutumise kuupäev. |
-   | **Kuupäevani** | Paindliku krediidiga programmi lõpukuupäev. Saate jätta vaikeväärtuse (12/31/2154), mis näitab, et paindliku krediidiga programmil ei ole plaanitud aegumist. |
-   | **Krediidi koguväärtus** | Krediidi hulk, mida iga töövõtja saab nende soodustuste jaoks kasutada. |
-   | **Proportsionaalse jaotumise reegel** | Reeglit kasutatakse paindliku krediidi proportsionaalseks jaotamiseks, kui töövõtja palgatakse paindliku krediidi perioodi keskel. </br></br><ul><li>**Pole** – töövõtja ei saa paindlikku krediiti, kui ta on palgatud pärast paindliku krediidiga programmi perioodi algust.</li><li>**Täiskrediit** – töötaja saab paindliku krediidi koguhulga, olenemata nende palkamise ajast.</li><li>**Jaota proportsionaalselt** – töövõtja saab proportsionaalselt jaotatud hulga paindlikku krediiti, olenevalt nende tööhõive alguskuupäevast.</li></ul> |
-   | **Paindliku krediidi proportsionaalse jaotamise valem** | Reeglit kasutatakse paindliku krediidi proportsionaalseks jaotamiseks töövõtjatele, kes palgatakse paindliku krediidi programmi soodustuste perioodi keskel. Proportsionaalne jaotamine põhineb tööhõive alguskuupäeval. Seda välja kasutatakse ainult siis kui valite suvandi **Jaota proportsionaalselt** väljal **Proportsionaalselt jaotamise reegel**. </br></br><ul><li>**Igapäevane** – jaotab töövõtja saadava paindliku krediidi hulga proportsionaalselt päevade tasemel. Paindliku krediidi koguhulk jagatakse perioodi päevade arvuga. Näiteks kui teie soodustuste periood on 400 päeva, jaotab süsteem paindliku krediidi koguhulga 400-ga, et arvutada paindliku krediidi hulga, mida töötaja päevas saab.</li><li>**Jooksev kuu** – jaotab töövõtja saadava paindliku krediidi hulga proportsionaalselt kuu tasemel, ümardatuna praeguse kuuni. Paindliku krediidi koguhulk jagatakse perioodi kuude arvuga. Näiteks kui teie soodustuste periood on 15 kuud, jaotab süsteem paindliku krediidi koguhulga 15-ga, et arvutada paindliku krediidi hulga, mida töötaja kuus saab.</li><li>**Järgmine kuu** – jaotab töövõtja saadava paindliku krediidi hulga proportsionaalselt kuu tasemel, ümardatuna järgmise kuuni. Paindliku krediidi koguhulk jagatakse perioodi kuude arvuga. Näiteks kui teie soodustuste periood on 15 kuud, jaotab süsteem paindliku krediidi koguhulga 15-ga, et arvutada paindliku krediidi hulga, mida töötaja kuus saab.</li></ul> |
+   | Soodustuse krediidi ID | Paindliku krediidiga programmi kordumatu identifikaator. |
+   | Kirjeldus | Paindliku krediidiga programm kirjeldus. | 
+   | Kehtivuse alguskuupäev | Paindliku krediidiga programmi aktiivseks muutumise kuupäev. |
+   | Kuupäevani | Paindliku krediidiga programmi lõpukuupäev. Saate jätta vaikeväärtuse (12/31/2154), mis näitab, et paindliku krediidiga programmil ei ole plaanitud aegumist. |
+   | Krediidi koguväärtus | Krediidi hulk, mida iga töövõtja saab nende soodustuste jaoks kasutada. |
+   | Proportsionaalse jaotumise reegel | Reeglit kasutatakse paindliku krediidi proportsionaalseks jaotamiseks, kui töövõtja palgatakse paindliku krediidi perioodi keskel. </br></br><ul><li>**Pole** – töövõtja ei saa paindlikku krediiti, kui ta on palgatud pärast paindliku krediidiga programmi perioodi algust.</li><li>**Täiskrediit** – töötaja saab paindliku krediidi koguhulga, olenemata nende palkamise ajast.</li><li>**Jaota proportsionaalselt** – töövõtja saab proportsionaalselt jaotatud hulga paindlikku krediiti, olenevalt nende tööhõive alguskuupäevast.</li></ul> |
+   | Paindliku krediidi proportsionaalse jaotamise valem | Reeglit kasutatakse paindliku krediidi proportsionaalseks jaotamiseks töövõtjatele, kes palgatakse paindliku krediidi programmi soodustuste perioodi keskel. Proportsionaalne jaotamine põhineb tööhõive alguskuupäeval. Seda välja kasutatakse ainult siis kui valite suvandi **Jaota proportsionaalselt** väljal **Proportsionaalselt jaotamise reegel**. </br></br><ul><li>**Igapäevane** – jaotab töövõtja saadava paindliku krediidi hulga proportsionaalselt päevade tasemel. Paindliku krediidi koguhulk jagatakse perioodi päevade arvuga. Näiteks kui teie soodustuste periood on 400 päeva, jaotab süsteem paindliku krediidi koguhulga 400-ga, et arvutada paindliku krediidi hulga, mida töötaja päevas saab.</li><li>**Jooksev kuu** – jaotab töövõtja saadava paindliku krediidi hulga proportsionaalselt kuu tasemel, ümardatuna praeguse kuuni. Paindliku krediidi koguhulk jagatakse perioodi kuude arvuga. Näiteks kui teie soodustuste periood on 15 kuud, jaotab süsteem paindliku krediidi koguhulga 15-ga, et arvutada paindliku krediidi hulga, mida töötaja kuus saab.</li><li>**Järgmine kuu** – jaotab töövõtja saadava paindliku krediidi hulga proportsionaalselt kuu tasemel, ümardatuna järgmise kuuni. Paindliku krediidi koguhulk jagatakse perioodi kuude arvuga. Näiteks kui teie soodustuste periood on 15 kuud, jaotab süsteem paindliku krediidi koguhulga 15-ga, et arvutada paindliku krediidi hulga, mida töötaja kuus saab.</li></ul> |
    
    Veenduge, et iga soodustuse plaan oleks igal soodustuse perioodil registreeritud ainult ühes paindliku krediidiga programmis. Vastasel juhul süsteem ei tea, millist paindliku krediidiga programmi kasutada, et paindlikku krediiti anda, ja teil tekib probleeme. 
 
@@ -240,7 +165,7 @@ Programmid on soodustuste plaanide komplektid, mis jagavad ühiseid sobivusreegl
 
 3. Määrake järgmiste väljade väärtused.
 
-   | Field | Kirjeldus |
+   | Väli | Kirjeldus |
    | --- | --- |
    | **Programm** | Programmi kordumatu identifikaator. |
    | **Kirjeldus** | Programmi kirjeldus. | 
@@ -251,6 +176,3 @@ Programmid on soodustuste plaanide komplektid, mis jagavad ühiseid sobivusreegl
    | **Sobivusreeglid** | Valige soodustusprogrammidele kehtivad sobivusreeglid. Sobivusreeglid määratlete selle lehe vahekaardil **Sobivusreeglid**. |
    
 4. Valige käsk **Salvesta**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,30 +1,34 @@
 ---
-title: Esialgse kliendimakse prognoosimudeli hindamine
+title: Algse kliendimakse prognoosimise mudeli hindamine (eelversioon)
 description: See teema kirjeldab samme, mida saate teha kliendimakse prognoosimise mudeli mõistmiseks ja selle tõhususe hindamiseks.
 author: ShivamPandey-msft
-ms.date: 07/16/2021
+manager: AnnBe
+ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 874c6e938681537a0420eece6835a4c2124e11fc
-ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
-ms.translationtype: MT
+ms.openlocfilehash: d761e31c4e4169b09711e351948390d2d40f3739
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7969108"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4644965"
 ---
-# <a name="evaluate-the-initial-customer-payment-prediction-model"></a>Esialgse kliendimakse prognoosimudeli hindamine
+# <a name="evaluate-the-initial-customer-payment-prediction-model-preview"></a>Algse kliendimakse prognoosimise mudeli hindamine (eelversioon)
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 See teema selgitab, kuidas hinnata prognoosimise mudelit pärast seda, kui olete finantsülevaated sisse lülitanud ning loonud ja treeninud oma esimese mudeli. See teema käsitleb kliendimaksete prognoosimise mudeleid. See kirjeldab samme, mida saate teha kliendimakse prognoosimise mudeli mõistmiseks ja selle tõhususe hindamiseks.
 
@@ -32,32 +36,32 @@ See teema selgitab, kuidas hinnata prognoosimise mudelit pärast seda, kui olete
 
 Rakenduse Microsoft Dynamics 365 Finance lehel **Finantsülevaadete parameetrid** ilmub täpsuse skoori kõrval link **Mudeli täpsuse parandamine**.
 
-[![Mudeli täpsuse parandamise link.](./media/prediction-model.png)](./media/prediction-model.png)
+[![Mudeli täpsuse parandamise link](./media/prediction-model.png)](./media/prediction-model.png)
 
-See link viib teid AI Builder lehele, kus saate praeguse mudeli kohta lisateavet saada ja selle parandamiseks samme teha. Järgmisel joonisel näidatakse avatud lehte.
+See link viib teid AI Builderisse, kus saate lisateavet praeguse mudeli kohta ja võtta lisaks meetmeid selle parandamiseks. Järgmisel joonisel näidatakse avatud lehte.
 
-[![AI Builder.](./media/what-to-predict.png)](./media/what-to-predict.png)
+[![AI Builder](./media/what-to-predict.png)](./media/what-to-predict.png)
 
 Avaneb leht kuvab järgmist teavet.
 
-- Jaotises **Jõudlus** annab mudeli jõudluse klass mudeli kvaliteedi kohta perspektiivi. Lisateavet selle taseme kohta vt [dokumentatsioonist Ennustuse](/ai-builder/prediction-performance) mudeli AI Builder jõudlust.
+- Jaotises **Jõudlus** annab mudeli jõudluse klass mudeli kvaliteedi kohta perspektiivi. Lisateavet selle klassi kohta vt AI Builderi dokumentatsiooni teemast [Prognoosi mudeli jõudlus](https://docs.microsoft.com/ai-builder/prediction-performance).
 - Jaotis **Kõige mõjukamad andmed** näitab, kui olulised olid teie mudeli jaoks eri andmete sisestustüübid. Saate hinnata seda loendit ja vastavaid protsente, et teha kindlaks, kas teave on kooskõlas sellega, mida te oma ettevõtte ja turu kohta teate.
 
-    [![Prognoosi mudeli jõudluse ja kõige mõjukamate andmete jaotised.](./media/models.png)](./media/models.png)
+    [![Prognoosi mudeli jaotised Jõudlus ja Kõige mõjukamad andmed](./media/models.png)](./media/models.png)
 
 - Valige jaotises **Jõudlus** suvand **Kuva üksikasjad**, et saada lisateavet klassi ja teiste kaalutluste kohta. Järgmisel illustratsioonil näitavad üksikasjad, et mudel kasutab soovitatust vähem teavet. Seetõttu on süsteem loonud hoiatusteate.
 
-    [![Hoiatused mudeli jõudluse kohta.](./media/details.png)](./media/details.png)
+    [![Hoiatused mudeli jõudluse kohta](./media/details.png)](./media/details.png)
 
 ## <a name="digging-deeper"></a>Süvitsi minemine
 
-Ehkki täpsus on hea alguspunkt mudeli hindamisel ja jõudluse aste annab perspektiivi, pakub see üksikasjalikumaid mõõdukaid, mida AI Builder saate kasutada oma hindamisel. Üksikasjade allalaadimiseks valige jaotises **Jõudlus** kolmikpunkti nupp (**…**), mis asub nupu **Kasuta mudelit** kõrval, ja valige seejärel käsk **Laadi alla üksikasjalikud mõõdikud**.
+Kuigi täpsus on mudeli hindamiseks hea lähtepunkt ja jõudluse klass lisab perspektiivi, pakub AI Builder üksikasjalikumaid mõõdikuid, mida saate oma hinnangus kasutada. Üksikasjade allalaadimiseks valige jaotises **Jõudlus** kolmikpunkti nupp (**…**), mis asub nupu **Kasuta mudelit** kõrval, ja valige seejärel käsk **Laadi alla üksikasjalikud mõõdikud**.
 
-[![Üksikasjalike mõõdikute allalaadimise käsk.](./media/performance.png)](./media/performance.png)
+[![Üksikasjalike mõõdikute allalaadimise käsk](./media/performance.png)](./media/performance.png)
 
 Järgmine illustratsioon näitab vormingut, milles saate andmed alla laadida.
 
-[![Allalaaditud andmete vorming.](./media/data-format.png)](./media/data-format.png)
+[![Allalaaditud andmete vorming](./media/data-format.png)](./media/data-format.png)
 
 Tulemuste põhjalikumaks analüüsiks on hea lähtepunkt vaadata läbi mõõdik „Segiajamise maatriks”. Näiteks siin on andmed, mis kuvatakse selle mõõdiku jaoks eelmisel illustratsioonil.
 
@@ -65,7 +69,7 @@ Tulemuste põhjalikumaks analüüsiks on hea lähtepunkt vaadata läbi mõõdik 
 
 Saate neid andmeid laiendada järgmisel viisil.
 
-| &nbsp;                   | Prognoositud õigel ajal | Prognoositud hilja | Prognoositud väga hilja |
+|                          | Prognoositud õigel ajal | Prognoositud hilja | Prognoositud väga hilja |
 |--------------------------|-------------------|----------------|---------------------|
 | Tegelikud õigeaegsed maksed   | **71**            | 0              | 21                  |
 | Tegelikud hilinenud maksed      | 5                 | **0**          | 27                  |
@@ -89,10 +93,11 @@ Sel juhul näitab F1 makro skoor ligikaudu 49,3 protsenti, et olenemata küllalt
 
 ## <a name="improving-the-model"></a>Mudeli parandamine
 
-Pärast oma esimese mudeli tulemuste paremini mõistmist võite tahta oma mudelit parandada, lisades või eemaldades funktsioonide veerge või filtreerides mis tahes andmekomplektide osi, mis ei toeta täpseid prognoose. Sulgege ja kasutage seejärel protsessi taaskäivitamiseks linki AI Builder Parandada **·** Dynamics 365 Finance AI Builder mudelit. Saate eksperimenteerida erinevate omadustega ilma avaldatud mudelit mõjutamata. Avaldatud mudel on mõjutatud ainult siis, kui valite nupu **Avalda**. Pidage meeles, et teie rakenduse Dynamics 365 Finance eksemplari jaoks kasutatakse ühte mudelit. Seega peate enne selle avaldamist hoolikalt vaatama läbi kõik uued mudelid.
+Pärast oma esimese mudeli tulemuste paremini mõistmist võite tahta oma mudelit parandada, lisades või eemaldades funktsioonide veerge või filtreerides mis tahes andmekomplektide osi, mis ei toeta täpseid prognoose. Sulgege AI Builder ja kasutage seejärel linki **Mudeli parandamine** rakenduses Dynamics 365 Finance, et taaskäivitada AI Builderi protsess. Saate eksperimenteerida erinevate omadustega ilma avaldatud mudelit mõjutamata. Avaldatud mudel on mõjutatud ainult siis, kui valite nupu **Avalda**. Pidage meeles, et teie rakenduse Dynamics 365 Finance eksemplari jaoks kasutatakse ühte mudelit. Seega peate enne selle avaldamist hoolikalt vaatama läbi kõik uued mudelid.
 
 ## <a name="for-more-information"></a>Lisateave
 
 Lisateavet prognooside mudelite hindamise kohta vt teemast [Masinõppemudelite tulemid](/confusion-matrix.md)
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+#### <a name="privacy-notice"></a>Privaatsusavaldus
+Eelvaated 1) võivad kasutada vähem privaatsus- ja turbemeetmeid kui rakenduse Dynamics 365 Finance and Operations teenus; 2) ei ole hõlmatud selle teenuse teenusetaseme leppes; 3) ei tohi olla kasutusel isiklike andmete ega muude andmete töötlemiseks, mis on seaduste või määrustega kaitstud; 4) on piiratud toega.

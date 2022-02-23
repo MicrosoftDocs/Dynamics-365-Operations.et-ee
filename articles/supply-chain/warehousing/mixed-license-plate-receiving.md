@@ -2,9 +2,11 @@
 title: Kombineeritud litsentsiplaadi vastuvõtmine
 description: Selles teemas kirjeldatakse, kuidas kasutada kombineeritud litsentsiplaadi vastuvõtmist töö registreerimiseks ja loomiseks mitmele kaubale mobiilse seadmega.
 author: Mirzaab
+manager: tfehr
 ms.date: 05/26/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSRFAutoConfirm, WHSLicensePlate
 audience: Application User
@@ -14,12 +16,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 84b01e9c6ad041fe95b46c97d89b90e85422d170399754062a6422319fc23a63
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6c4dcafa5d997bce21d37d02f87fbf604568c24e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769463"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965630"
 ---
 # <a name="mixed-license-plate-receiving"></a>Kombineeritud litsentsiplaadi vastuvõtmine
 
@@ -46,6 +48,3 @@ Peate looma uue menüüelemendi sellise töörežiimiga, mis ei kasuta olemasole
 - Kombineeritud litsentsiplaadi vastuvõtt ja kõrvaleseadmine
 
 Valikud lähtedokumendi ridade tuvastamiseks on ostutellimuse kaup, ostutellimuse rida, tagastustellimus, üleviimistellimuse kaup ja üleviimistellimuse rida. Nende valikutega saab vastuvõetavat tellimust ühel litsentsiplaadil muuta. Viimane valik on koormakauba järgi. Litsentsiplaadile saab lisada mitu kaupa, kuid mitme koorma vahel ei saa liikuda.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

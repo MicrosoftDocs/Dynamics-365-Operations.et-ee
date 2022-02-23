@@ -90,6 +90,3 @@ Lisateavet leiate teemast [Sujuv töötajate sisestamine ja navigeerimine](./str
 ### <a name="platform-update-29"></a>Platvormivärskendus update 29
 
 Platvormivärskenduse 29 kohta lisainfo saamiseks vt [Dynamics 365 for Finance and Operations platvormivärskenduse 29 (oktoober 2019) funktsioonide eelvaade](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-29).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

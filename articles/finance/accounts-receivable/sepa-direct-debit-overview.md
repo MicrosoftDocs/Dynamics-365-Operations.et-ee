@@ -2,27 +2,28 @@
 title: SEPA otsekorralduse ülevaade
 description: Ühtse euromaksete piirkonna (SEPA) on määranud Euroopa Komisjon, kelle korraldusel tuleb kõiki elektroonilisi makseid käsitleda kodumaistena, olenemata riigist/piirkonnast, kus üksikisik, ettevõte või organisatsioon ja pank asuvad. Riiklike ja riikidevahelistel maksetel pole mingit vahet. SEPA hõlmab 28 Euroopa Liidu liikmesriiki ning samuti Islandit, Liechtensteini, Norrat, Šveitsi, Monacot ja San Marinot. SEPA aitab Euroopa majanduspiirkonnas (EMP) luua maksekannete jaoks ühtse turu. Lõppkokkuvõttes eeldatakse, et SEPA vähendab maksevormingute arvu, millega pangad, ettevõtted ja üksiksikud peavad tegelema.
 author: ShivamPandey-msft
+manager: AnnBe
 ms.date: 08/22/2017
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankAccountTable, CustBankAccounts, CustParameters, CustTable
 audience: Application User
 ms.reviewer: roschlom
-ms.custom:
-- "11144"
-- intro-internal
+ms.search.scope: Core, Operations
+ms.custom: 11144
 ms.assetid: 3277c9b6-e46e-40c9-aa76-9b0449467842
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5f71eca0ca9ee07d43bdf737874f442f0029e87e
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: fcb7585d344988e00093231f785c1a746226e4e0
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984374"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4442267"
 ---
 # <a name="sepa-direct-debit-overview"></a>SEPA otsekorralduse ülevaade
 
@@ -30,7 +31,8 @@ ms.locfileid: "7984374"
 
 Ühtse euromaksete piirkonna (SEPA) on määranud Euroopa Komisjon, kelle korraldusel tuleb kõiki elektroonilisi makseid käsitleda kodumaistena, olenemata riigist/piirkonnast, kus üksikisik, ettevõte või organisatsioon ja pank asuvad. Riiklike ja riikidevahelistel maksetel pole mingit vahet. SEPA hõlmab 28 Euroopa Liidu liikmesriiki ning samuti Islandit, Liechtensteini, Norrat, Šveitsi, Monacot ja San Marinot. SEPA aitab Euroopa majanduspiirkonnas (EMP) luua maksekannete jaoks ühtse turu. Lõppkokkuvõttes eeldatakse, et SEPA vähendab maksevormingute arvu, millega pangad, ettevõtted ja üksiksikud peavad tegelema.   
 
-## <a name="what-is-the-goal-of-sepa-direct-debits"></a>Mis on SEPA otsedeebetite eesmärk?
+<a name="what-is-the-goal-of-sepa-direct-debits"></a>Mis on SEPA otsedeebetite eesmärk?
+---------------------------------------
 
 SEPA otsedeebet võimaldab kreeditoril koguda kliendi pangakontolt vahendeid eeldusel, et klient on kreeditorile andnud allkirjastatud loa. Klient allkirjastab loa, mis autoriseerib kreeditori koguma makseid ja annab kliendi pangale korralduse kogutud maksed tasuda. 
 
@@ -82,6 +84,3 @@ Mõlema SEPA otsekorraldusskeemi alusel on klientidel teatud õigused tagasimaks
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,30 +2,36 @@
 title: Lao seadistamine
 description: Selles teemas kirjeldatakse lao seadistamist, mida kasutatakse uue kanaliga Microsoft Dynamics 365 Commerce'is.
 author: samjarawan
+manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6987263bfa83582f465e3b47c4f7b9d96cf087c814a1e002afd289852346975b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6da72ae612f0520965a2b11a21123d4642303ac3
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734015"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4411666"
 ---
 # <a name="warehouse-set-up"></a>Lao seadistamine
+
 
 [!include [banner](includes/banner.md)]
 
 Selles teemas kirjeldatakse lao seadistamist, mida kasutatakse uue kanaliga Microsoft Dynamics 365 Commerce'is.
+
+## <a name="overview"></a>Ülevaade
 
 Iga ärikanal nõuab, et sellega oleks seotud konfigureeritud ladu. Järgmised protseduurid annavad minimaalse konfiguratsiooni, mis on vajalik ärikanalile lao seadistamiseks. Lisainfot lao seadistamise kohta vaadake jaotisest [Laohalduse ülevaade](../supply-chain/warehousing/warehouse-management-overview.md?toc=/dynamics365/commerce/toc.json).
 
@@ -45,9 +51,9 @@ Laoala konfigureerimiseks toimige järgmiselt.
 
 Järgmine pilt näitab laoala näidet.
 
-![Laoala näide.](media/warehouse-site.png)
+![Laoala näide](media/warehouse-site.png)
 
-## <a name="set-up-a-warehouse&quot;></a>Lao seadistamine
+## <a name="set-up-a-warehouse"></a>Lao seadistamine
 
 Lao seadistamiseks toimige järgmiselt.
 
@@ -61,14 +67,14 @@ Lao seadistamiseks toimige järgmiselt.
     - Kui soovite seadistada **Transiitlao**, peate esmalt järgima neid samme, et luua täiendav ladu, kus **Tüüp** on seadistatud väärtusele **Transiit**.
 1. Valige toimingupaanil nupp **Salvesta**.
 
-## <a name=&quot;set-up-inventory-aisles&quot;></a>Saate häälestada lao riiuliridu.
+## <a name="set-up-inventory-aisles"></a>Saate häälestada lao riiuliridu.
 
 Riiuliridade seadistamiseks toimige järgmiselt.
 
 1. Avage navigeerimispaanilt **Moodulid \> Jaemüük ja kaubandus \> Kanali seadistus \> Asukoha seadistus \> Riiuliread**.
 1. Valige toimingupaanil nupp **Uus**.
 1. Valige ripploendist **Ladu** eelnevalt loodud ladu.
-1. Sisestage väljale **Riiulirida** nimi (nt &quot;Vaik").
+1. Sisestage väljale **Riiulirida** nimi (nt "Vaik").
 1. Sisestage väljale **Nimi** nimi (nt "Vaikimisi riiulirida").
 1. Valige toimingupaanil nupp **Salvesta**.
 
@@ -98,7 +104,7 @@ Standardsete, kahjustatud ja tagastatud lao varude asukohtade seadistamiseks jä
     
 Järgmine pilt näitab San Francisco lao varude asukoha seadistust.
 
-![Varude asukoha seadistuse näide.](media/warehouse-inventory-locations.png)
+![Varude asukoha seadistuse näide](media/warehouse-inventory-locations.png)
     
 ## <a name="complete-warehouse-setup"></a>Lao seadistamise lõpetamine
 
@@ -121,7 +127,7 @@ Lao seadistamise lõpetamiseks järgige järgmisi etappe.
 
 Järgmine pilt näitab konfigureeritud lao üksikasju.
 
-![Konfigureeritud lao näide.](media/warehouse-sample.png)
+![Konfigureeritud lao näide](media/warehouse-sample.png)
 
 ## <a name="additional-resources"></a>Lisaressursid
 
@@ -141,6 +147,3 @@ Järgmine pilt näitab konfigureeritud lao üksikasju.
 
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

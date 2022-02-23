@@ -1,30 +1,32 @@
 ---
 title: Hankija maksete ülevaade
-description: See protseduur annab ülevaate hankija maksete loomiseks kasutatavate eri meetodite, sh selle kohta, kuidas kasutada maksesoovitust või sisestada ühekordset makset käsitsi.
+description: See ülesande juhend annab ülevaate hankija maksete loomiseks kasutatavate eri meetodite, sh selle kohta, kuidas kasutada maksesoovitust või sisestada ühekordset makset käsitsi.
 author: kweekley
+manager: AnnBe
 ms.date: 06/25/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: intro-internal
+ms.search.scope: Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 73fd1b46bbf73bb3e65f381289e0b3efa12392b4
-ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
+ms.openlocfilehash: 19cea683058f7fb757ac3a99541959ba06df1963
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "7394434"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4442401"
 ---
 # <a name="vendor-payment-overview"></a>Hankija maksete ülevaade
 
 [!include [banner](../../includes/banner.md)]
 
-See protseduur annab ülevaate hankija maksete loomiseks kasutatavate eri meetodite, sh selle kohta, kuidas kasutada maksesoovitust või sisestada ühekordset makset käsitsi. See protsess kasutab demoettevõtte USMF-i andmeid.
+See ülesande juhend annab ülevaate hankija maksete loomiseks kasutatavate eri meetodite, sh selle kohta, kuidas kasutada maksesoovitust või sisestada ühekordset makset käsitsi. See protsess kasutab demoettevõtte USMF-i andmeid.
 
 1. Avage **Navigeerimispaan > Moodulid > Müügireskontro > Maksed > Maksete tööleht**.
 2. Klõpsake valikut **Uus**.
@@ -50,7 +52,7 @@ See protseduur annab ülevaate hankija maksete loomiseks kasutatavate eri meetod
 22. Märkige kõik arved, mis makstakse. Kasutades maksearvete valimiseks suvandit **Kannete tasakaalustamine**, arvutatakse maksesumma automaatselt selle põhjal, millised arved makse puhul märgite ja millise summa sisestate väljale **Tasakaalustatav summa**.
 23. Klõpsake valikut **OK**.
 24. Kui soovite makse kustutada, märkige rida.
-25. Klõpsake **Kustuta**. Makse kustutamine kustutab ainult makse. Mis tahes makse puhul märgitud arved on teise maksega tasumiseks endiselt saadaval.
+25. Klõpsake  **Kustuta**. Makse kustutamine kustutab ainult makse. Mis tahes makse puhul märgitud arved on teise maksega tasumiseks endiselt saadaval.
 26. Klõpsake nuppu **Jah**.
 27. Valige tšekkide printimiseks või elektroonilise maksefaili loomiseks suvand **Loo makse**.
 28. Valige makseviis, mille soovite luua. Maksetööleht võib sisaldada makseid nii tšekkide kui ka elektrooniliste maksete puhul, kuid saate luua ainult ühe maksetüübi korraga.
@@ -61,6 +63,3 @@ See protseduur annab ülevaate hankija maksete loomiseks kasutatavate eri meetod
 33. Maksete loomiseks klõpsake nuppu **OK**.
 34. Kui kõik maksed on kinnitatud ja loodud, klõpsake käsku **Sisesta**. 
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

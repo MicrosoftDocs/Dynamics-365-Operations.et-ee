@@ -1,10 +1,12 @@
 ---
 title: Elektroonilise aruandluse konfiguratsioonide kujundamine andmete importimiseks välistest CSV-failidest
-description: Kasutage seda protseduuri, et kujundada elektroonilise aruandluse konfiguratsioone andmete importimiseks CSV-vormingus välisest failist rakendusse Finance and Operations.
+description: Kasutage seda protseduuri, et kujundada elektroonilise aruandluse (ER) konfiguratsioone andmete importimiseks CSV-vormingus välisest failist rakendusse Finance and Operations.
 author: NickSelin
+manager: AnnBe
 ms.date: 12/12/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -12,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b42f0cf8c7260c85d405a5dfdcd50323ffee4d4528b982997a802b859ab8327b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b542b6250bcc72334659e050f7ab6d5bd87d3508
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747267"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682041"
 ---
 # <a name="design-er-configurations-to-import-data-from-external-csv-files"></a>Elektroonilise aruandluse konfiguratsioonide kujundamine andmete importimiseks välistest CSV-failidest
 
@@ -122,6 +124,3 @@ Testimiseks käivitage vorminduse vastendamine varem alla laaditud failiga 1099e
     * Vaadake väljund üle XML-vormingus, mis tähistab valitud failist imporditud ja andmemudelisse porditud andmeid. Pange tähele, et imporditud CSV-faili kõiki 7 rida töödeldi. Sisalduvate väljade pealkirjade rida 1 jäeti vahele, 4 kannet sõeluti õigesti ja 2 kannet osutusid kehtetuks.
 3. Sulgege leht.
 4. Sulgege leht.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

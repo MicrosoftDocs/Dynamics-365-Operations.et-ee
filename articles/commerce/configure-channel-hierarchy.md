@@ -2,24 +2,27 @@
 title: Kanali konfigureerimine kanali navigeerimishierarhia kasutamiseks
 description: Selles teemas kirjeldatakse, kuidas konfigureerida rakenduses Microsoft Dynamics 365 Commerce kanal kasutama kanali navigeerimishierarhiat.
 author: samjarawan
+manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 3cf29bd423a2475b77e9076024b4da6864a31065da81de49f1b9a0f639243f1d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7b5041d35d310125c314ab2cb77d3cc40cdb7113
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713988"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4411578"
 ---
 # <a name="configure-a-channel-to-use-a-channel-navigation-hierarchy"></a>Kanali konfigureerimine kanali navigeerimishierarhia kasutamiseks
 
@@ -45,7 +48,7 @@ Kanal konfigureerimiseks kanali navigatsioonihierarhiat kasutama toimige järgmi
 
 Järgmine pilt näitab kuidas konfigureerida kanalit kasutama kanali navigatsioonihierarhiat.
 
-![Kanali konfiguratsiooni näide.](media/configure-channel-hierarchy-1.png)
+![Kanali konfiguratsiooni näide](media/configure-channel-hierarchy-1.png)
 
 ## <a name="set-attribute-metadata"></a>Atribuudi metaandmete häälestamine
 
@@ -61,9 +64,9 @@ Atribuudi metaandmete seadistamiseks toimige järgmiselt.
 
 Järgmine pilt näitab näidet kanali tooteatribuutide konfigureerimisest kanali kategooria sõlmel.
 
-![Kanali atribuudid kanali kategooria sõlmel.](media/configure-channel-hierarchy-2.png)
+![Kanali atribuudid kanali kategooria sõlmel](media/configure-channel-hierarchy-2.png)
 
-## <a name="publish-changes"></a>Avalda muudatused
+## <a name="publish-changes"></a>Muudatuste avaldamine
 
 Muudatuste jõustumiseks tuleb muudatused avaldada.
 
@@ -74,13 +77,10 @@ Muudatuste avaldamiseks tehke järgmist.
 
 Järgmine pilt näitab, kuidas kanali värskendusi avaldada.
 
-![Kanalivärskenduste avaldamine.](media/configure-channel-hierarchy-3.png)
+![Kanalivärskenduste avaldamine](media/configure-channel-hierarchy-3.png)
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-[Looge kanali navigeerimishierarhia](create-channel-hierarchy.md)
+[Kanali navigeerimishierarhia loomine](create-channel-hierarchy.md)
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,23 +1,26 @@
 ---
 title: Kliendi krediidigrupid
 description: Selles teemas kirjeldatakse kliendi krediidigruppe.
-author: JodiChristiansen
+author: mikefalkner
+manager: AnnBe
 ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschloma
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c8a007dcaaa9e10ab36dd3a7d0f80dd49b8e4d63
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
-ms.translationtype: MT
+ms.openlocfilehash: 1ddf41d88d085b102a7d69eeeff0ec463d8b4137
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7753846"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4442330"
 ---
 # <a name="customer-credit-groups"></a>Kliendi krediidigrupid
 
@@ -36,6 +39,3 @@ Kliendi krediidigruppe saate seadistada lehel **Kliendi krediidigrupid** (**Kred
 Kui olete kliendi krediidigrupi seadistamise lõpetanud, saate sellele kliente lisada, määratledes nende juriidilise isiku ja kliendi konto ID. Kui lisate kliendi krediidigrupile uue kliendi, otsib süsteem kõigi juriidiliste isikute seast sama kliendikonto ja palub teil selle kliendi krediidigruppi lisada.
 
 Kasutage menüüd **Aegunud saldod**, et vaadata kõigi kliendi krediidigrupi arveklientide aegumissaldo üksikasju. Leht **Aegumissaldo** näitab arveklientide kontode aegunud saldosid.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
