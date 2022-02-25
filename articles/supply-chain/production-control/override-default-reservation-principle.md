@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-10
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 959b8b85fe55ed5e0a93b5b614c3f6166bbd2bb6ef07e9d0f0f4c2b1ea3c4659
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: b12740e58b2bf8667bee8a2c51917d69771779f2
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721315"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103359"
 ---
 # <a name="override-the-default-reservation-principle-for-materials-in-production"></a>Tootmises olevate materjalide vaikimisi reserveerimise põhimõtte alistamine
 
@@ -31,12 +31,9 @@ Uue tootmistellimuse või partiitellimuse loomisel palutakse teil valida reserve
 
 Näiteks kui teil on toormaterjale või koostisosi, mis nõuavad nende toodete jaoks loodud komplekteerimistööd, koosluse või valemiridu, vajavad füüsilist reserveerimist, kuna füüsiline reserveerimine on eeltingimuseks laotöö loomisele. Tavaliselt kui soovite, et reserveering toimuks automaatselt, valite ühe järgmistest reserveerimise põhimõtetest: *hindamine*, *planeerimine*, *vabastamine* või *alustamine*. Samas kui teil on materjale või koostisosi, mis ei vaja komplekteerimise tööd, sest need tarbitakse otse asukohast, valite tavaliselt *käsitsi* reserveerimise põhimõtte, mis ei tee mingeid füüsilisi reserveeringuid ega ei loo ühtegi komplekteerimise tööd.
 
-## <a name="turn-on-the-feature"></a>Funktsiooni sisselülitamine
+## <a name="turn-the-override-default-production-reservation-feature-on-or-off"></a>Tootmise reserveerimise vaikefunktsiooni alistamise sisse- või väljalülitamine
 
-Enne selle funktsiooni kasutamist peate selle oma süsteemis sisse lülitama. Administraatorid saavad kasutada [funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sätteid, et kontrollida funktsiooni olekut ja selle sisse lülitada. Tööruumis **Funktsioonihaldus** loetletakse funktsiooni järgneval viisil.
-
-- **Moodul:** *tootmise juhtimine*
-- **Funktsiooni nimi:** *Vaikimisi tootmise broneerimise alistamine*
+Tarneahela halduse versiooni 10.0.25 puhul lülitatakse see funktsioon vaikimisi sisse. Administraatorid saavad selle funktsiooni sisse või välja lülitada, otsides *funktsioonihalduse* tööruumis tootmise vaikereserveeringu [alistamise funktsiooni](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="assign-a-production-reservation-policy-to-an-item-model-group"></a>Tootmise reserveerimise poliitika määramine kauba mudeligrupile
 

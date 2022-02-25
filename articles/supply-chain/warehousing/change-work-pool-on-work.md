@@ -13,12 +13,12 @@ ms.search.region: global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 066655b58d4676bafb6e8ed8d80a95636c047444
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: 9255b7d2eaf030592207b557b3b6567a1a5bda98
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566019"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102859"
 ---
 # <a name="change-work-pool-on-work"></a>Muuda töö töökausta
 
@@ -28,12 +28,9 @@ Töö korraldamiseks gruppidesse saate kasutada töökaustu. Näiteks saate luua
 
 Funktsioon *Töö töökausta muutmine* lisab nupu **Muuda töökausta** tööüksuste toimingupaanile. Tänu sellele saavad laohaldurid hõlpsalt muuta olemasoleva töö töökausta. See funktsioon võimaldab halduritel kiiresti reageerida lao kaupluse korruse muudatustele ja see aitab parandada nende võimet kohaneda muutuvate olukordadega ja vajadusega viia töö üle teise töökausta.
 
-## <a name="turn-on-the-change-work-pool-on-work-feature"></a>Funktsiooni Töö töökausta muutmine sisselülitamine
+## <a name="turn-the-change-work-pool-on-work-feature-on-or-off"></a>Töökausta muutmise tööfunktsiooni sisse- või väljalülitamine
 
-Enne, kui alustate selle funktsiooni seadistamist või kasutamist, peate veenduma, et see oleks teie süsteemis saadaval. Administraatorid saavad kasutada [funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sätteid, et kontrollida funktsiooni olekut ja vajadusel selle sisse lülitada. Tööruumis **Funktsioonihaldus** loetletakse funktsiooni järgneval viisil.
-
-- **Moodul:** *laohaldus*
-- **Funktsiooni nimi:** *Töö töökausta muutmine*
+Tarneahela halduse 10.0.25 puhul on see funktsioon kohustuslik ja seda ei saa välja lülitada. Kui käitate versiooni, mis *on*[vanem kui 10.0.25, saavad administraatorid selle funktsiooni sisse või välja lülitada, otsides Funktsioonihalduse tööruumi tööfunktsioonide muutmise töökausta.](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
 
 ## <a name="set-up-the-change-work-pool-on-work-feature"></a>Funktsiooni Töö töökausta muutmine seadistamine
 

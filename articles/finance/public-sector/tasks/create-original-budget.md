@@ -1,28 +1,25 @@
 ---
 title: Algse eelarve loomine ja seejärel esialgse eelarve kirjete tagasivõtmine avalikus sektoris
-description: Kui luuakse algse eelarve kande ja mida kasutatakse eelarve mudel ja dimensiooni väärtused, mis sisaldavad esialgses eelarvesummad, esialgsete eelarvesummade saab tühistada.
+description: See teema kirjeldab, kuidas luua ja tühistada algset eelarvekirjet, kasutades eelarvemudelit ja dimensiooniväärtusi, mis hõlmavad esialgseid eelarvesummasid.
 author: twheeloc
-manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 02/14/2022
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetTransaction, BudgetAccountStructureLookup, BudgetTransactionMultiPost
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.search.industry: Service industries
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 32d89216d49a743729de8910f738276cbddcd8bb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 7758a1c9edfa129ba8b63a146b38ed3f119fd051
+ms.sourcegitcommit: 6a269db08e8bb3bb3405c9f4a512091d13c80faa
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442458"
+ms.lasthandoff: 02/14/2022
+ms.locfileid: "8119422"
 ---
 # <a name="create-an-original-budget-and-then-reverse-preliminary-budget-entries-in-the-public-sector"></a>Algse eelarve loomine ja seejärel esialgse eelarve kirjete tagasivõtmine avalikus sektoris
 
@@ -30,24 +27,27 @@ ms.locfileid: "4442458"
 
 Kui luuakse algse eelarve kande ja mida kasutatakse eelarve mudel ja dimensiooni väärtused, mis sisaldavad esialgses eelarvesummad, esialgsete eelarvesummade saab tühistada. See protseduur loodi PSUS-ettevõtte demoandmetega avaliku sektori sektsioonis.
 
-1. Tehke valik Eelarvestamine > Eelarveregistri kirjed.
-2. Klõpsake valikut Uus.
-3. Klõpsake väljal Budget model (Eelarve mudel) otsingu avamiseks ripploendi nuppu.
+1. Avage > **Eelarve registrikirjed**.
+2. Klõpsake valikut **Uus**.
+3. **Otsingu avamiseks** klõpsake väljal Eelarvemudel ripploendit.
 4. Otsige loendist ja valige soovitud kirje.
-5. Klõpsake väljal Budget code (Eelarve kood) otsingu avamiseks ripploendi nuppu.
-6. Klõpsake loendis valikut Original budget (Algne eelarve).
-7. Klõpsake nuppu Salvesta.
-8. Klõpsake käsku Lisa rida.
+5. **Otsingu** avamiseks klõpsake eelarvekoodi väljal ripploendit.
+6. Klõpsake loendis valikut Algne **eelarve**.
+7. Klõpsake nuppu **Salvesta**.
+8. Klõpsake käsku **Lisa rida**.
 9. Valikuline: kui soovite päises kuupäeva muuta, sisestage uus kuupäev. See kuupäev määrab rahdnusperioodi, millesse eelarve salvestatakse.
-10. Klõpsake väljal Konto struktuur otsingu avamiseks ripploendi nuppu.
+10. Väljal **Konto struktuur** klõpsake rippmenüü nuppu, et avada otsing.
 11. Otsige loendist ja valige soovitud kirje.
-12. Täpsustage väljal Dimension values (Dimensiooni väärtused) soovitud väärtused.
-13. Sisestage number väljale Summa.
-14. Klõpsake väljal Valuuta otsingu avamiseks ripploendi nuppu.
+12. **Määrake väljal Dimensiooniväärtused** soovitud väärtused.
+13. **Sisestage** number väljale Summa.
+14. **Otsingu** avamiseks klõpsake väljal Valuuta ripploendit.
 15. Klõpsake loendis valitud real olevat linki.
-16. Klõpsake nuppu Salvesta.
-17. Klõpsake Update budget balances (Värskenda eelarve tasakaalud).
-    * Valikuline: Saate valida suvandi Reverse preliminary budget (Tühista esialgne eelarve). Pange tähele, et saate tühistada kõik esialgsed eelarvekanded või ainult teie poolt täpsustatud eelarvekoodiga esialgsed eelarvekanded.  
-    * Lisavalikute tegemiseks klõpsake lehe ülaosas ikooni Unlock (Vabasta lukust).  
-18. Klõpsake käsku Uuenda.
+16. Klõpsake nuppu **Salvesta**.
+17. Klõpsake nuppu **Eelarvesaldode värskendamine**.
+    * Valikuline: saate valida suvandi **Tühista esialgne eelarve**. Pange tähele, et saate tühistada kõik esialgsed eelarvekanded või ainult teie poolt täpsustatud eelarvekoodiga esialgsed eelarvekanded.  
+    * Valikuliste valikute avamiseks klõpsake **lehe** ülaosas ikooni Lukust vabasta.  
+18. Klõpsake **Värskenda**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

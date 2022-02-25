@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 72b97b2f7091883e445b2e8474ca140217bda004b0c4d8988411b9ed4209e254
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: bf7178888e39a5f26ae92e77df9c996374b76bf3
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758260"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323661"
 ---
 # <a name="supported-composite-data-types-for-electronic-reporting-formulas"></a>Elektroonilise aruandluse valemite toetatud liitandmetüübid
 
@@ -27,7 +27,7 @@ See teema annab teavet liitandmetüüpide kohta, mida toetatakse [elektroonilise
 
 *Klass* andmetüüp viitab avaliku rakenduse klassile. ER-is on see esitatud kirjena, mis on [*kirje*](#record) mis sisaldab eraldi välja iga viidatud klassi avaliku meetodi jaoks. Kui meetodi kutse on parameetritega seadistatud, peate meetodi kutsumiseks konfigureeritud ER-avaldises määrama ka vajalike tüüpide nõutavad argumendid.
 
-ER-i [vastendamise](general-electronic-reporting.md#data-model-and-model-mapping-components) ja [vormingu](general-electronic-reporting.md#FormatComponentOutbound) komponentide puhul saate lisada **klassi** andmeallika, mis on esitatud andmeallikana ja annab tulemuseks *klassi* tüüp. See andmeallikas sisaldab klassi avalikuid meetodeid, mida saab käivitada käitusajal.
+ER-i vastendamise ja **vormingu** komponentide puhul saate lisada andmeallikana esitatud klassi andmeallika, mis tagastab klassi tüübi *väärtuse*. See andmeallikas sisaldab klassi avalikuid meetodeid, mida saab käivitada käitusajal.
 
 > [!NOTE]
 > ER-avaldistest saab kutsuda ainult meetodeid, mis tagastavad väärtuse.

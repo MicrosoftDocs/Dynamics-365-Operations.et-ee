@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: 98d28c39b2923afecc851299a07aa3b93ef2edce
-ms.sourcegitcommit: ac23a0a1f0cc16409aab629fba97dac281cdfafb
+ms.openlocfilehash: 27e9e977193f9ff5c8188b780e8de955742c4ebe
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/29/2021
-ms.locfileid: "7867290"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323871"
 ---
 # <a name="design-a-new-er-configuration-to-generate-reports-in-word-format"></a>Uue ER-i konfiguratsiooni loomine Wordi vormingus aruannete loomiseks
 
@@ -28,7 +28,7 @@ Aruannete Microsoft Wordi dokumentidena loomiseks peate kujundama aruannete jaok
 
 ![Näidismalli kontrollaruanne Wordi töölauarakenduses.](./media/er-design-configuration-word-image1.png)
 
-Wordi vormingus aruannete Wordi dokumendi mallina kasutamiseks saate konfigureerida uue [elektroonilise aruandluse (ER)](general-electronic-reporting.md) [lahenduse](er-quick-start1-new-solution.md). See lahendus peab sisaldama ER-i [konfiguratsiooni](general-electronic-reporting.md#Configuration), mis sisaldab ER-i [vormingu](general-electronic-reporting.md#FormatComponentOutbound) komponenti.
+Wordi vormingus aruannete Wordi dokumendi mallina kasutamiseks saate konfigureerida uue [elektroonilise aruandluse (ER)](general-electronic-reporting.md) [lahenduse](er-quick-start1-new-solution.md). Lahendus peab sisaldama ER-i konfiguratsiooni [,](general-electronic-reporting.md#Configuration) mis sisaldab ER-vormingu komponenti.
 
 > [!NOTE]
 > Kui loote Wordi vormingus aruannete loomiseks uue ER-vormingu konfiguratsiooni, peate valima kas suvandi **Word** dialoogiboksi **Konfiguratsiooni loomine** vormingutüübiks või jätma välja **Vormingu tüüp** tühjaks.

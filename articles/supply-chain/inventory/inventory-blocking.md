@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4b6169362c9e8cb3a9ace2f300dd9d80aa9cd085
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: 606bc23f552b57d0f4e3fdad28d1144cdf43e5d5
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568875"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103534"
 ---
 # <a name="inventory-blocking"></a>Varude blokeerimine
 
@@ -96,13 +96,11 @@ Kui **Reserveeri tellitud kaubad** on keelatud, ei saa eeldatavaid laekumisi res
 
 Pange tähele kahe juhtumi vahelist erinevust kande olekus ja dimensioonides. Seetõttu soovitame lubada suvandi **Reserveeri tellitud kaubad**.
 
-<!-- KFM: (Enable this section when the feature leaves private preview)
+### <a name="disable-expected-receipts-from-quality-orders-that-sample-blocked-inventory-feature"></a>Keela eeldatud sissetulekud kvaliteettellimustest, mis on blokeeritud varude näidisfunktsiooniga
 
-### Disable expected receipts from quality orders that sample blocked inventory feature
+Varude kannete lihtsustamiseks kvaliteettellimuste korral, mille varude oleku tagajärjeks on blokeeritud varud, annab süsteem funktsiooni, mis keelab sellistelt kvaliteettellimustelt oodatavad sissetulekud. Kuna varude oleku blokeerimine blokeerib eeldatava sissetuleku kohe, siis selle muudatuse tõttu vaba kaubavaru ei vähendata.
 
-To simplify the inventory transactions in the case of quality orders that sample inventory blocked as a consequence of inventory status, the system provides a feature that disables expected receipts from such quality orders. As the expected receipt is in any case immediately blocked by inventory status blocking, there is no reduction of on-hand inventory because of this change.
-
--->
+Vaikimisi on see funktsioon välja lülitatud. Administraatorid saavad selle sisse või välja lülitada, *otsides* keelake eeldatud sissetulekud kvaliteettellimustest, mis sisaldavad blokeeritud lao näidisfunktsiooni funktsiooni [Funktsioonihalduse tööruumis](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="additional-resources"></a>Lisaressursid
 

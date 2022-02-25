@@ -1,12 +1,10 @@
 ---
 title: Alusprognoosis käsitsi korrigeerimiste tegemine
 description: Selles teemas selgitatakse, kuidas alusprognoosi käsitsi korrigeerida ning prognoosi üksikasju kuvada.
-author: roxanadiaconu
-manager: tfehr
+author: ChristianRytt
 ms.date: 01/07/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqDemPlanForecastViewer
 audience: Application User
@@ -15,15 +13,15 @@ ms.custom: 72704
 ms.assetid: e7c5d44e-07bc-40b1-a4b3-8ba46483ef9e
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: afdcbb98c96b2a685f64a16886b9a064ed13c2c0
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: 4d00061efa551c9fe2ad9d0e441bba44e70b071c
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4967026"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103759"
 ---
 # <a name="make-manual-adjustments-to-the-baseline-forecast"></a>Alusprognoosis käsitsi korrigeerimiste tegemine
 
@@ -69,14 +67,13 @@ Lehel **Nõudluse prognoosi üksikasjad** kuvatakse graafilises vormingus ja tab
 
 **Märkused.**
 
--   Kui lubate funktsioonide halduses suvandi **Prognoosi mudeli valik nõudluse prognoosi üksikasjades**, saate valida ajaloolisesse prognoosi kaasatavad prognoosimudelid lehel **Nõudluse prognoosi üksikasjad**.
--   Jaotises **Prognoos** kuvatud usaldusvahemik tähistab usaldusvahemiku ülem- ja alampiiri erinevust. Ülem- ja alampiiri väärtuste vaatamiseks liikuge üle diagrammi jaotises **Varasem nõudlus ja prognoos graafiliselt**.
--   Kui kasutate nõudluse prognoosimise Microsoft Azure’i masinõpet, saate määrata loodava prognoosi usaldusväärsuse taseme protsendi. Usaldusvahemik koosneb väärtuste vahemikust, mille järgi on nõudluse prognoosi hea hinnata. Usaldusväärsuse tase 95% näitab, et on olemas 5% tõenäosus, et nõudluse prognoos jääb usaldusväärsusintervalli vahemikust välja.
+- Prognoosimudeli *valik nõudluse prognoosi üksikasjade* funktsioonis lisab nõudluse prognoosi **üksikasjade** lehel sätted, mis võimaldab teil valida kaasatavad prognoosimudelid. Tarneahela halduse versiooni 10.0.21 puhul on see funktsioon vaikimisi sisse lülitatud. Tarneahela halduse 10.0.25 puhul on see funktsioon kohustuslik ja seda ei saa välja lülitada. Kui käitate versiooni, mis *on*[vanem kui 10.0.25, saavad administraatorid selle funktsiooni sisse või välja lülitada, otsides funktsioonihalduse tööruumis nõudluse prognoosi üksikasjade funktsiooni](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) prognoosi valikut.
+- Jaotises **Prognoos** kuvatud usaldusvahemik tähistab usaldusvahemiku ülem- ja alampiiri erinevust. Ülem- ja alampiiri väärtuste vaatamiseks liikuge üle diagrammi jaotises **Varasem nõudlus ja prognoos graafiliselt**.
+- Kui kasutate nõudluse prognoosimise Microsoft Azure’i masinõpet, saate määrata loodava prognoosi usaldusväärsuse taseme protsendi. Usaldusvahemik koosneb väärtuste vahemikust, mille järgi on nõudluse prognoosi hea hinnata. Usaldusväärsuse tase 95% näitab, et on olemas 5% tõenäosus, et nõudluse prognoos jääb usaldusväärsusintervalli vahemikust välja.
 
 Leheküljel **Nõudluse prognoosi üksikasjad** saate prognoosis käsitsi korrigeerimis teha, muutes väärtusi reas **Prognoos** jaotises **Prognoos**.
 
-<a name="additional-resources"></a>Lisaressursid
---------
+## <a name="additional-resources"></a>Lisaressursid
 
 [Prognoosi täpsuse jälgimine](monitor-forecast-accuracy.md)
 
@@ -84,3 +81,6 @@ Leheküljel **Nõudluse prognoosi üksikasjad** saate prognoosis käsitsi korrig
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

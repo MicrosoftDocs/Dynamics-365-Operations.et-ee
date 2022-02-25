@@ -2,27 +2,24 @@
 title: EL-i käibearuandlus
 description: Selles artiklis antakse teavet Euroopa Liidu (EL-i) käibearuande aruandluse kohta.
 author: EvgenyPopovMBS
-manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 02/17/2022
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EUSalesList
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 12811
 ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Spain, Sweden, United Kingdom
 ms.author: epopov
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 68cbd8d3495f8c10c57fa0751fabb03a6946c7dd
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: af49817667999dd02a96a7a9bd5bb966be652d35
+ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407851"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323472"
 ---
 # <a name="eu-sales-list-reporting"></a>EL-i käibearuandlus
 
@@ -30,8 +27,7 @@ ms.locfileid: "4407851"
 
 Selles artiklis antakse teavet Euroopa Liidu (EL-i) käibearuande aruandluse kohta.
 
-<a name="eu-sales-list-reporting"></a>EL-i käibearuandlus
------------------------
+## <a name="eu-sales-list-reporting"></a>EL-i käibearuandlus
 
 Tarnija, kes tarnib Euroopa Liidus (EL) loodud ettevõtetele EL-i siseseid kaupu või teenuseid, peab esitama EL-i siseste tarnete deklaratsiooni (EL-i käibearuanne või ESL). Üldjuhul tuleb esitada ESL maksuametile hiljemalt ESL-i kaetavale kalendriperioodile järgneva kuu viimasel päeval. Tarnija peab teatama ESL-i käibemaksu (KM) ID-numbri ja samuti kliendi kaupa järgmise teabe.
 
@@ -72,13 +68,19 @@ Järgmises tabelis kuvatakse eeltingimused, mis peavad olema asukohakorralduse l
 <td>Seadistage maksuvabastuse ID parameetrid lehel <strong>Riigi/regiooni parameetrid</strong> (klõpsake valikuid <strong>Maks</strong> &gt; <strong>Seadistus</strong> &gt; <strong>Käibemaks</strong> &gt; <strong>Riigi/regiooni parameetrid</strong>). Looge igale riigile/regioonile, kus teil on vastaspooli, lehele kirje ja lisage järgmine teave.
 <ul>
 <li><strong>Riik/regioon</strong> – valige riik/regioon, mis seostatakse maksuvabastuse ID-ga.</li>
-<li><strong>Käibemaks</strong> – sisestage valitud riigi/regiooni maksuvabastuse ID-number (s.o maksukohuslase koodi eesliide).</li>
+<li><strong>Käibemaks –</strong> sisestage valitud riigi/regiooni maksukohuslase ID-kood (st käibemaksu registreerimisnumber või maksukohuslase koodi eesliide).</li>
 <li><strong>Kontrolli maksukohuslase koodi</strong> – valige see märkeruut, et kinnitada valitud riigi/regiooni maksuvabastuse ID.</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><strong>Seadistus: </strong>maksukohuslase koodid</td>
-<td>Looge vastaspooltele maksukohuslase koodid lehel <strong>Maksukohuslase koodid</strong> (klõpsake valikuid <strong>Maks</strong> &gt; <strong>Seadistus</strong> &gt; <strong>Käibemaks</strong> &gt; <strong>Maksukohuslase koodid</strong>). Looge iga maksukohuslase koodi kohta lehel kirje ja lisage järgmine teave.
+<td><strong>Seadistus: käibemaksu</strong> registreerimisnumbrid</td>
+<td>Looge oma hankijatele käibemaksu registreerimisnumbrid lehel Kõik kliendid (minge müügi<strong></strong><strong></strong>&gt;<strong></strong>&gt; ja turunduse kõik kliendid, <strong></strong><strong></strong> valige kliendikirje ja seejärel valige klientide registreerimise ID-d&gt;) <strong></strong> või hankijate leht (<strong></strong><strong></strong>&gt;<strong></strong>&gt; minge hanke hankijatele, <strong>valige hankijakirje ja seejärel valige hankijad.</strong><strong></strong>&gt;<strong>Registreerimiste ID-d</strong>). <strong>Looge kirje ja määrake vahekaardil Üldine kiirkaardil</strong><strong>Registreerimise ID</strong> järgmine teave:
+<ul>
+<li><strong>Registreerimise tüüp</strong> – valige soovitud riigi/ <strong>regiooni käibemaksu ID</strong> registreerimiskategooriale määratud registreerimistüüp.</li>
+<li><strong>Registreerimisnumber</strong> : sisestage galeegeja käibemaksu registreerimisnumber.</li>
+<li><strong>Kehtib</strong> : valige käibemaksu registreerimisnumbri kasutusperioodi algus.</li>
+</ul>  
+Teise võimalusena saate oma <strong>maksukohustuslaste jaoks luua käibemaksu registreerimisnumbri leheküljel Maksukohuslase kood (</strong> minge maksu seadistamise <strong></strong>&gt;<strong></strong>&gt; käibemaksuvabastuse<strong></strong>&gt; numbritele).<strong></strong> Looge iga maksukohuslase koodi kohta lehel kirje ja lisage järgmine teave.
 <ul>
 <li><strong>Riik/regioon </strong>– valige vastaspoole maksu registreerimise riik/regioon.</li>
 <li><strong>Maksukohuslase kood</strong> – sisestage vastaspoole maksukohuslase kood.</li>
@@ -87,7 +89,7 @@ Järgmises tabelis kuvatakse eeltingimused, mis peavad olema asukohakorralduse l
 </tr>
 <tr class="even">
 <td><strong>Seadistus: </strong>vastaspoolte maksu registreerimine</td>
-<td>Seadistage vastaspoolte maksu registreerimise teave kas lehel <strong>Kõik kliendid</strong> (klõpsake valikuid <strong>Müük ja turundus</strong> &gt; <strong>Kliendid</strong> &gt; <strong>Kõik kliendid</strong>, valige kliendi kirje ja klõpsake siis valikuid <strong>Suvandid</strong> &gt; <strong>Muuda vaadet</strong> &gt; <strong>Üksikasjade vaade</strong>) või lehte <strong>Hankijad</strong> (klõpsake valikuid <strong>Hanked</strong> &gt; <strong>Hankijad</strong> &gt; <strong>Hankijad</strong>, valige hankija kirje ja klõpsake siis valikuid <strong>Suvandid</strong> &gt; <strong>Muuda vaadet</strong> &gt; <strong>Üksikasjade vaade</strong>). Valige kiirkaardi <strong>Arve ja tarne</strong> väljal <strong>Maksukohuslase kood</strong> maksu registreerimise number.</td>
+<td>Seadistage vastaspoolte maksu registreerimise teave kas lehel <strong>Kõik kliendid</strong> (klõpsake valikuid <strong>Müük ja turundus</strong> &gt; <strong>Kliendid</strong> &gt; <strong>Kõik kliendid</strong>, valige kliendi kirje ja klõpsake siis valikuid <strong>Suvandid</strong> &gt; <strong>Muuda vaadet</strong> &gt; <strong>Üksikasjade vaade</strong>) või lehte <strong>Hankijad</strong> (klõpsake valikuid <strong>Hanked</strong> &gt; <strong>Hankijad</strong> &gt; <strong>Hankijad</strong>, valige hankija kirje ja klõpsake siis valikuid <strong>Suvandid</strong> &gt; <strong>Muuda vaadet</strong> &gt; <strong>Üksikasjade vaade</strong>). Valige käibemaksu <strong>registreerimisnumber</strong> väljal Arve ja <strong></strong> tarne kiirkaardil maksukohuslase kood.</td>
 </tr>
 <tr class="odd">
 <td><strong>Seadistus: </strong>käibemaks</td>
@@ -160,3 +162,6 @@ Kui olete lõpetanud konkreetse perioodi aruandlusprotsessi (näiteks kui maksua
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

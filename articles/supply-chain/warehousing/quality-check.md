@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: a3a565ea566dd2bf4d8c793b3340c78c9f4ed0a2
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: 0848eeb2ad073915ad90d2fd2a4a91f0f420c0ab
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565299"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103284"
 ---
 # <a name="quality-check"></a>Kvaliteedikontroll
 
@@ -39,12 +39,9 @@ Selle funktsiooni kasutamisel toimub saabumis- ja kvaliteedikontroll järgmiselt
 
 Seda protsessi saab häälestada ka nii, et kõik skannitud litsentsiplaadid suunatakse kohe kvaliteedikontrolli asukohta.
 
-## <a name="turn-on-the-quality-check-feature"></a>Kvaliteedikontrolli funktsiooni sisselülitamine
+## <a name="turn-the-quality-check-feature-on-or-off"></a>Kvaliteedikontrolli funktsiooni sisse- või väljalülitamine
 
-Enne funktsiooni *Kvaliteedikontroll* kasutamist peate selle oma süsteemis sisse lülitama. Administraatorid saavad kasutada [funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sätteid, et kontrollida funktsiooni olekut ja vajadusel selle sisse lülitada. Tööruumis **Funktsioonihaldus** loetletakse funktsiooni järgneval viisil.
-
-- **Moodul:** *laohaldus*
-- **Funktsiooni nimi:** *Kvaliteedikontroll*
+Selles teemas kirjeldatud funktsioonide kasutamiseks peab kvaliteedikontrolli *funktsioon* olema teie süsteemi jaoks sisse lülitatud. Tarneahela halduse 10.0.25 puhul on see funktsioon kohustuslik ja seda ei saa välja lülitada. Kui käitate versiooni, mis on *vanem* kui 10.0.25, saavad administraatorid selle funktsiooni sisse või välja lülitada, otsides kvaliteedikontrolli funktsiooni Funktsioonihalduse [tööruumist](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="set-up-the-feature-for-the-example-scenario"></a>Funktsiooni häälestamine näidisstsenaariumi jaoks
 

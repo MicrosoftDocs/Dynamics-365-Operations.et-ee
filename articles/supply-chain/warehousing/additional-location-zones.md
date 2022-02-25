@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 4801077ac498699972244f3f86216790b517b47247fc7fb288614ec143c3c5cb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: dd9e97cabe5e3d3bdc261a7280930b73eb8e1419
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6762766"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103834"
 ---
 # <a name="additional-location-zones"></a>Täiendavad asukohatsoonid
 
@@ -30,12 +30,9 @@ Microsoft Dynamics 365 Supply Chain Managementis on saadaval kolm uut tsooniväl
 
 Tsooniväljade kasutamiseks pole vaja täiendavat häälestust.
 
-## <a name="turn-on-the-additional-location-zone-feature"></a>Funktsiooni Täiendav asukohatsoon sisselülitamine
+## <a name="turn-the-additional-location-zone-feature-on-or-off"></a>Täiendava asukohatsooni funktsiooni sisse- või väljalülitamine
 
-Enne funktsiooni *Täiendav asukohatsoon* kasutamist peate selle oma süsteemis sisse lülitama. Administraatorid saavad kasutada [funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sätteid, et kontrollida funktsiooni olekut ja vajadusel selle sisse lülitada. Tööruumis **Funktsioonihaldus** loetletakse funktsiooni järgneval viisil.
-
-- **Moodul:** *laohaldus*
-- **Funktsiooni nimi:** *Täiendav asukohatsoon*
+Tarneahela halduse versiooni 10.0.25 puhul lülitatakse see funktsioon vaikimisi sisse. Administraatorid saavad selle funktsiooni sisse või välja lülitada, otsides Funktsioonihalduse *tööruumist* täiendavat asukohatsooni [funktsiooni](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="use-location-zones"></a>Asukohatsoonide kasutamine
 

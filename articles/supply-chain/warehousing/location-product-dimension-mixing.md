@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 20085c51230d3ceca46c5119fecbc3cf3291ecd4
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: 031b92f827979c01dbf0208ba21ae827fb13920b
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578556"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103484"
 ---
 # <a name="location-product-dimension-mixing"></a>Asukoha tootedimensioonide segamine
 
@@ -26,14 +26,11 @@ ms.locfileid: "7578556"
 
 Asukohatoote dimensioonide segamine on asukohaprofiili funktsioon, mis aitab parandada asukohahaldust, kui kasutatakse tootevariante või tooteid, millel on dimensioonid, näiteks moetööstuses. See võimaldab teil otsustada, kas kindlas asukohaprofiilis saab kombineerida konfiguratsioone, värve, laade ja suurusi või kas ühte asukohta saab lisada vaid ühe neist dimensioonidest või nende kombinatsiooni.
 
-## <a name="turn-on-the-location-product-dimension-mixing-feature"></a>Asukohatoote dimensiooni segamise funktsiooni sisselülitamine
+## <a name="turn-the-location-product-dimension-mixing-feature-on-or-off"></a>Asukoha tootedimensiooni segamise funktsiooni sisse- või väljalülitamine
 
-Enne asukohatoote dimensiooni segamise funktsiooni kasutamist peate selle oma süsteemis sisse lülitama. Administraatorid saavad kasutada [funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) tööruumi, et kontrollida funktsiooni olekut ja vajadusel selle sisse lülitada. Seega on funktsioon loetletud järgmisel viisil.
+Selles teemas kirjeldatud funktsioonide kasutamiseks peab asukoha *tootedimensiooni segamise* funktsioon olema teie süsteemi jaoks sisse lülitatud. Tarneahela halduse 10.0.25 puhul on see funktsioon kohustuslik ja seda ei saa välja lülitada. Kui käitate versiooni, mis *on*[vanem kui 10.0.25, saavad administraatorid selle funktsiooni sisse ja välja lülitada, otsides funktsioonihalduse tööruumist asukoha tootedimensioonide segamise](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) funktsiooni.
 
-- **Moodul:** *laohaldus*
-- **Funktsiooni nimi:** *Asukohatoote dimensiooni segamine*
-
-## <a name="setup"></a>Häälestus
+## <a name="setup"></a>Seadistus
 
 Igal asukohal laos on vaja sellega seotud asukohaprofiili, mis kirjeldab asukoha atribuute. Seega kõik sama asukohaprofiili kasutavad asukohad saavad lubada tootedimensiooni segamist pärast selle seadistamist.
 

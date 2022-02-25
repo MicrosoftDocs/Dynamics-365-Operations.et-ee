@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 4af84383fe1d214849d5d05463bd0cbfad7d0536
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: f68dcfc0c1454ee5b095e186c52faa6c83bf8dc6
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778469"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103911"
 ---
 # <a name="confirm-outbound-shipments-from-batch-jobs"></a>Pakett-töödes väljaminevate saadetiste kinnitamine
 
@@ -25,12 +25,9 @@ ms.locfileid: "7778469"
 
 Selles teemas kirjeldatakse, kuidas seadistada pakett-tööd, mis kinnitab automaatselt väljaminevad üleviimistellimuse saadetised saatmisvalmis koorma jaoks. Siin kirjeldatud pakett-tööd rakendatakse ainult üleviimistellimuste saadetiste, mitte müügitellimuste puhul.
 
-## <a name="enable-the-confirm-outbound-shipments-from-batch-jobs-feature"></a>Funktsiooni „Pakett-töödes väljaminevate saadetiste kinnitamine” lubamine
+## <a name="turn-the-confirm-outbound-shipments-from-batch-jobs-feature-on-or-off"></a>Pakett-töödest väljaminevate saadetiste kinnitamise funktsiooni sisse- või väljalülitamine
 
-Tarneahela halduse versiooni 10.0.21 puhul on see funktsioon vaikimisi sisse lülitatud. Administraatorid saavad funktsioonihalduse [lehte](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) kasutada, et kontrollida funktsiooni olekut ja lubada või keelata see, kui vaja. Siin on funktsioon loetletud järgmiselt.
-
-- **Moodul** - *laohaldus*
-- **Funktsiooni nimi** - *Pakett-töödes väljaminevate saadetiste kinnitamine*
+Selles teemas *kirjeldatud funktsioonide kasutamiseks peab* funktsioon Pakett-töödest väljaminevate saadetiste kinnitamine olema teie süsteemi jaoks sisse lülitatud. Tarneahela halduse versiooni 10.0.21 puhul on see funktsioon vaikimisi sisse lülitatud. Tarneahela halduse 10.0.25 puhul on see funktsioon kohustuslik ja seda ei saa välja lülitada. Kui käitate versiooni, mis on *vanem kui 10.0.25, saavad administraatorid selle funktsiooni sisse või välja lülitada, otsides funktsioonihalduse tööruumi pakett-tööde*[funktsioonist](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) Väljaminevate saadetiste kinnitust.
 
 ## <a name="process-outbound-shipments"></a>Väljaminevate saadetiste töötlemine
 

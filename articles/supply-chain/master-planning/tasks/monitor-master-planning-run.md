@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f1438ed6bcec485ff9665ffd9659c938f5cac478
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 4db1173b35cd196ab39fae3cac3754439fab84d0
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778127"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103159"
 ---
 # <a name="monitor-a-master-planning-run"></a>Koondplaneerimise käitamise jälgimine
 
@@ -28,12 +28,11 @@ ms.locfileid: "7778127"
 
 Lehel **Koondplaneerimise edenemise kuva** saate vaadata ajalooliste koondplaneerimiste käitamiste üksikasju Gantti diagrammina. See funktsioon aitab teil mõista koondplaneerimise erinevatele etappidele kulutatavat aega. Praeguse aktiivse planeerimistöö jaoks saab lehte **Koondplaneerimise edenemise kuva** kasutada edenemise jälgimiseks ja hinnangulise allesjäänud aja vaatamiseks.
 
-### <a name="turn-on-and-use-the-master-plan-progress-visualization-feature"></a>Koondplaneerimise edenemise visualiseerimise funktsiooni sisselülitamine ja kasutamine
+### <a name="turn-the-master-plan-progress-visualization-feature-on-or-off"></a>Koondplaani edenemise visualiseerimise funktsiooni sisse- või väljalülitamine
 
-Sulle funktsiooni kasutamiseks tehke järgmist.
+Tarneahela halduse versiooni 10.0.21 puhul on see funktsioon vaikimisi sisse lülitatud. Tarneahela halduse 10.0.25 puhul on see funktsioon kohustuslik ja seda ei saa välja lülitada. Kui käitate versiooni, mis on *vanem kui 10.0.25, saavad administraatorid selle funktsiooni sisse või välja lülitada, otsides Funktsioonihalduse tööruumis koondplaneerimise edenemise visualiseeringu*[funktsiooni](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-1. Valige tööruumis **Funktsiooni haldus** vahekaardil **Uus** loendist suvand **Koondplaneerimise edenemise visualiseerimine**. Kui funktsioon vahekaardile **Uus** ei ilmu, vaadake vahekaartidelt **Pole lubatud** ja **Kõik**.
-1. Valige **Luba kohe**. Teise võimalusena valige **Graafik** ja seejärel valige kellaaeg, millal soovite funktsiooni sisse lülitada. (Tarneahela halduse versiooni 10.0.21 kohaselt on see funktsioon vaikimisi sisse lülitatud.)
+### <a name="use-the-master-plan-progress-visualization-feature"></a>Kasuta koondplaani edenemise visualiseerimise funktsiooni
 
 Leht **Koondplaneerimise edenemise kuva** võib kuvada nii ajaloolised planeerimistööd kui ka aktiivsed planeerimistööd. 
 

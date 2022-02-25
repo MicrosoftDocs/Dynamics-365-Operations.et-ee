@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 0382e34664f20389c43e8dec4437f0078fa1f60a
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 4c7a9585d96a1e08790e0f3c972e704971f27dc0
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777736"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103434"
 ---
 # <a name="configure-job-card-for-devices"></a>Töökaardi konfigureerimine seadmetele
 
@@ -34,21 +34,19 @@ Mõned selles teemas kirjeldatud sätted peavad teie süsteemis olema lubatud, e
 
 Selle funktsiooni kättesaadavaks muutmiseks lubage [funktsioonihalduses](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) järgmised funktsioonid (järjekorras).
 
-1. Töökaardi seadmesse lisatud litsentsiplaat lõpetatuna teatamiseks (tarneahela halduse versiooniga 10.0.21 lülitatakse see funktsioon vaikimisi sisse.)
-1. Identifitseerimisnumbri automaatse genereerimise lubamine lõpetamisest teatamisel töökaardi vahendis
+1. *Töökaardi vahendile on lisatud lõpetatuks märkimise litsentsiplaat*<br>(Tarneahela halduse versiooni 10.0.21 puhul lülitatakse see funktsioon vaikimisi sisse. Tarneahela halduse versiooni 10.0.25 kohaselt on see funktsioon kohustuslik.)
+1. *Identifitseerimisnumbri automaatse genereerimise lubamine lõpetamisest teatamisel töökaardi vahendis*<br>(Tarneahela halduse versiooni 10.0.25 kohaselt on see funktsioon kohustuslik.)
 
 ### <a name="print-label"></a>Prindi silt
 
 Selle funktsiooni kättesaadavaks muutmiseks lubage [funktsioonihalduses](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) järgmised funktsioonid (järjekorras).
 
-1. Töökaardi seadmesse lisatud litsentsiplaat lõpetatuna teatamiseks (tarneahela halduse versiooniga 10.0.21 lülitatakse see funktsioon vaikimisi sisse.)
-1. Sildi printimine töökaardi vahendilt
+1. *Töökaardi vahendile on lisatud lõpetatuks märkimise litsentsiplaat*<br>(Tarneahela halduse versiooni 10.0.21 puhul lülitatakse see funktsioon vaikimisi sisse. Tarneahela halduse versiooni 10.0.25 kohaselt on see funktsioon kohustuslik.)
+1. *Sildi printimine töökaardi vahendilt*<br>(Tarneahela halduse versiooni 10.0.25 kohaselt on see funktsioon kohustuslik.)
 
 ### <a name="allow-locking-of-touch-screen"></a>Puuteekraani lukustamise lubamine
 
-Tarneahela halduse versiooni 10.0.21 puhul on see funktsioon vaikimisi sisse lülitatud. Kui soovite seda kasutada, veenduge, et funktsioonihalduses on järgmine funktsioon sisse [...](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) lülitatud:
-
-- Funktsioon töökaardi seadme ja töökaardi terminali lukustamiseks, et neid saaks puhastada
+Tarneahela halduse versiooni 10.0.21 puhul on see funktsioon vaikimisi sisse lülitatud. Tarneahela halduse 10.0.25 puhul on see funktsioon kohustuslik ja seda ei saa välja lülitada. Kui käitate versiooni, mis on *vanem kui 10.0.25, saavad administraatorid selle funktsiooni sisse või välja lülitada, otsides funktsiooni töökaardi seadme ja töökaardi terminali lukustamiseks, et neid saaks funktsioonihalduse*[tööruumis](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) kasteerida.
 
 ## <a name="manage-your-device-configurations"></a>Seadme konfiguratsioonide haldamine
 

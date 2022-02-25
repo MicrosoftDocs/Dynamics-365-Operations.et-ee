@@ -1,27 +1,24 @@
 ---
 title: Jäägi tasakaalustus
 description: Võite tasakaalustada tasakaalustamistegevusest järelejäänud summa kandes selle summa pearaamatukontole.
-author: mikefalkner
-manager: aolson
-ms.date: 10/16/2018
+author: twheeloc
+ms.date: 02/16/2022
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym, LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2018-12-01
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 52b0b456a6d9879c480ac3f076a32e382426a89c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 881b46774d3ca6a9b91d4dc06babb30c8677183a
+ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442356"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8182400"
 ---
 # <a name="settle-remainder"></a>Jäägi tasakaalustus
 
@@ -30,13 +27,13 @@ ms.locfileid: "4442356"
 Võite tasakaalustada tasakaalustamistegevusest järelejäänud summa kandes selle summa pearaamatukontole või teisele kliendile. Võite ülejäägi tasakaalustada, kui tasakaalustate töölehele sisestatud summasid või kui tasakaalustate ainult avatud kandeid.
 
 ## <a name="setting-up-defaults"></a>Vaikesätete seadistamine 
-Peate lubama funktsiooni Tasakaalusta jääk ja enne jäägi tasakaalustamise kasutamist seadistama vaikesötted
+Enne jäägi tasakaalustamist **peate** lubama funktsiooni Tasakaalusta jääk ja seadistama **vaikesätted**.
 
 1)  Klõpsake **Müügireskontro > Parameetrid > Tasakaalustused** või **Ostureskontro > Parameetrid > Tasakaalustused**
-2)  Valige vahekaart **Tasakaalustamine** ja klõpsake **Luba jäägi tasakaalustus**
+2)  Valige vahekaart Tasakaalustamine **ja** klõpsake käsku Luba **tasakaalustamise jääk**.
 3)  Jaotises **Põhjuse vaikekood** valige põhjuse vaikekood. Põhjusekoodid peavad olema juba seadistatud jaotises **Müügireskontro > Seadistus > Kliendi mahakandmise põhjuse koodid** või **Ostureskontro > Seadistus > Kliendi mahakandmise põhjuse koodid**. **Jäägi tasakaalustamise vaikekonto** lähtestatakse mahakandmise põhjusekoodi kontole.
 3)  Värskendage **Jäägi tasakaalustamise vaikekontot** vastavalt vajadusele.
-4)  Valige **Vaiketöölehe nimi** alt maksetööleht, mida kasutatakse siis, kui soovite luua maksetöölehe, kui te vaid tasakaalustate avatud kandeid. Kui lubate jäägi tasakaalustuse funktsiooni, peate lisama töölehe vaikenime.
+4)  Valige vaiketöölehe **nimes** maksetööleht, mida kasutatakse, kui soovite luua maksetöölehte ainult avatud kannete tasakaalustamisel. Kui lubate jäägi tasakaalustuse funktsiooni, peate lisama töölehe vaikenime.
 
 ## <a name="settle-remainder-from-a-journal"></a>Tasakaalustage jääk töölehelt
 Kuil te ei luba funktsiooni **Jäägi tasakaalustamine**, võite siiski sisestada kande töölehele ja seejärel tasakaalustada see kannetega, nagu olete teinud varem. Kui klõpsate nupule **OK**, vähendatakse arve avatud saldot sularaha summa võrra. Kui sularaha arvet täielikult ei tasakaalusta, jäetakse arve avatuks ning ülejäänud summa tasakaalustatakse hiljem.
@@ -61,8 +58,8 @@ Saate jääki tasakaalustada ka siis, kui tasakaalustate avatud kandeid ilma tö
 
 Jäägi tasakaalustamiseks toimige järgmiselt.
 
-1)  Märkige leheküljel **Tasakaalustamine** arved või kanded, mida soovite tasakaalustada
-2)  Klõpsake valikul **Jäägi tasakaalustamine**
+1)  Märkige leheküljel **Tasakaalustamine** arved või kanded, mida soovite tasakaalustada.
+2)  Klõpsake tasakaalustamise **jääki**.
 3)  Kuvatakse dialoogiboks, mis näitab summat, mida pearaamatu vastu tasakaalustatakse, jäägei tasakaalustamisel kasutatavat kuupäeva, põhjuse vaikekoodi parameetritest ja vaikekontot parameetritest. 
 4)  Kui sooviti vaikepõhjust muuta, valige uus tasakaalustuse põhjus. Tasakaalustuskonto muudetakse põhjusekoodiga seotud kontoks.
 5)  Redigeerige **tasakaalutuskontot**, kui soovite seda muuta.
@@ -70,3 +67,6 @@ Jäägi tasakaalustamiseks toimige järgmiselt.
 7)  Võita ka luua tasakaalustamise jäägiga maksetöölehe või lihtsalt sisestada selle ilma tööleheta. Valige **Yes** **Redigeeri töölehel** jaoks, et luua maksetööleht. Saate redigeerida oma loodud maksetöölehte.
 8)  Klõpsake valikul **Jäägi tasakaalustamine**. Kui valisite töölehe loomise, muutub nupp nupuks **Töölehe loomine**. Klõpsake selle asemel nuppu **Töölehe loomine**.
 9)  Kui kõite maksetöölehe, avaneb töölehe lehekülg pärast seda, kui klõpsate nupul **Jäägi tasakaalustus**. Töölehele lisatakse töölehe rida, kus summaks on tasakaalustamise jäägi summa ja vastaskontoks on jäägi tasakaalustamise konto. Kui lisasite kliendile või hankija, et saaksite liigutada tasakaalustussumma teisele kliendile või hankijale, siis lisatakse töölehele lisanduv rida jäägi summa liigutamiseks sellele kliendile või hankijale.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,12 +1,10 @@
 ---
 title: Kasutajate määramine turberollidesse
-description: Rakendustele Finance and Operations juurdepääsuks peavad kasutajatele olema määratud turberollid.
+description: Finance and Operationsi rakendustele juurde pääsemiseks tuleb määrata kasutajatele turberoll.
 author: Peakerbl
-manager: AnnBe
-ms.date: 05/06/2020
+ms.date: 02/09/2022
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysSecRolesEditUsers, SysSecAssignmentQueryLookup, SysQueryForm, SysSecRoleExcludeUsers
 audience: Application User
@@ -15,18 +13,18 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f78c24e8c2ffe5418ce119e19b7c0193f01f64b8
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: 36874b996cc5708f6fd7fbc45251f3066b5b1c97
+ms.sourcegitcommit: f2a78e0d7d461ca843ac2f9abff7690275db9196
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679860"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8105534"
 ---
-# <a name="assign-users-to-security-roles"></a>Kasutajate määramine turberollidesse
+# <a name="manage-users-and-security-roles"></a>Kasutajate ja turberollide haldamine
 
 [!include [banner](../../includes/banner.md)]
 
-Finance and Operations-i rakendustes tavalistest võimalustest enama kasutamiseks tuleb määrata kasutajatele turberoll. Saate määrata kasutajatele rolle automaatselt, tuginedes reeglitele ja äriteabele, välistada kasutajaid automaatsest rollide määramisest või lisada kasutajatele käsitsi rolle.
+Finantside ja toimingute rakendustes tavalisest erinevate võimaluste kasutamiseks peavad kasutajad olema määratud turberollidele. Saate määrata kasutajatele rolle automaatselt, tuginedes reeglitele ja äriteabele, välistada kasutajaid automaatsest rollide määramisest või lisada kasutajatele käsitsi rolle.
 
 ## <a name="automatically-assign-users-to-roles"></a>Kasutajate automaatsel rollidesse määramine
 See protseduur selgitab, kuidas süsteemiadministraatorid saavad automaatselt määrata kasutajatele rolle äriandmete alusel. 
@@ -42,6 +40,8 @@ See protseduur selgitab, kuidas süsteemiadministraatorid saavad automaatselt m�
 10. Vaadake üle erinevatele kasutajatele määratud rollid ja veenduge, et rollide määramise päring oleks õige. Kohandage ja käivitage vajaduse korral uuesti.
 
 ## <a name="exclude-users-from-automatic-role-assignment"></a>Kasutajate välistamine automaatsest rollimäärangust
+See protseduur selgitab, kuidas välistada kasutajaid automaatsest rollimäärangust.
+
 1. Sulgege leht.
 2. Avage **Navigeerimispaan > Moodulid > Süsteemihaldus > Turvalisus > Kasutajate rollidesse määramine**.
 3. Tehke puustruktuuris valik Raamatupidaja. Valige roll. Selles näites tehke valik Raamatupidaja.  
@@ -57,3 +57,19 @@ Administraator peab käsitsi turberollidesse määratud kasutajad ka käsitsi ee
 2. Valige puus roll ja menüüs **Rollile määratud kasutajad** suvand **Määra käsitsi / välista kasutajad**.
 4. Jaotises **Kasutajate rolli määramine või eemaldamine** on kasutajad, kellele ei ole rolli määratud, loetletud nii, et suvandi **Määrangurežiim** väärtus on **Puudub**. Valige üks või mitu kasutajat, kellele tuleb roll määrata.
 5. Valige suvandis **Toimingupaan** valik **Määra rollile**. Suvandis **Määrangurežiim** uuendatakse väärtuseks **Käsitsi** ja kasutajatele on nüüd määratud uus roll.
+
+## <a name="manually-remove-users-from-roles"></a>Kasutajate eemaldamine rollidest käsitsi
+Administraator peab käsitsi turberollidesse määratud kasutajad ka käsitsi eemaldama. Automaatse rollide määramise reeglid neid kasutajaid rollidest ei eemalda.
+
+1. Avage **Navigeerimispaan > Moodulid > Süsteemihaldus > Turvalisus > Kasutajate rollidesse määramine**.
+2. Ühe kasutaja eemaldamiseks järgige neid samme.
+   1. Valige puus roll. 
+   2. **Valige rollialale määratud** kasutajatelt eemaldatav kasutaja.
+   3. Valige **Käsk** Eemalda ja kasutaja eemaldatakse rollist.
+3. Mitme kasutaja eemaldamiseks järgige neid samme.
+   1. Valige puus roll. 
+   2. Valige rollialale **määratud kasutajate** jaoks käsitsi **määramine/välistamine**.
+   3. Rollile **kasutajate määramine või sellest** välistamine on rolli **määramata** **kasutajatel** määramise režiimi veerus Pole. Valige kasutajad, kes tuleks rollist välja jätta.
+   4. Valige paanil **Toimingupaan** suvand **Välista rollist**. Määramisrežiimi **veergu** värskendatakse nüüd olekusse **Käsitsi** ja kasutajad jäetakse nüüd rollist välja.
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

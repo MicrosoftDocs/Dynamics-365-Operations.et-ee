@@ -2,7 +2,7 @@
 title: Võrgutellimuste maksud on valesti arvutatud
 description: See teema annab tõrkeotsingu juhised, mis aitavad, kui võrgutellimuste maksud on valesti arvutatud või kui müügirea maksugrupp pole õigesti seatud.
 author: Reza-Assadi
-ms.date: 03/11/2021
+ms.date: 02/16/2022
 ms.topic: Troubleshooting
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: e51ae789dad2c7b5118be2cf8a88f4e4090a8c74c8259b4eaaddad1a134af80a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 0e4361b436cc78eccaff29dfa2927d342e26072d
+ms.sourcegitcommit: 4d52c67f52ad0add63cd905df61367b344389069
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715256"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8312027"
 ---
 # <a name="taxes-on-online-orders-are-incorrectly-calculated"></a>Võrgutellimuste maksud on valesti arvutatud
 
@@ -32,7 +32,18 @@ See teema annab tõrkeotsingu juhised, mis aitavad, kui võrgutellimuste maksud 
 
 Kui e-äri tellimus on esitatud, siis on maksud valesti arvutatud või on müügirea maksugrupp valesti seatud.
 
-## <a name="resolution"></a>Eraldusvõime
+## <a name="resolution"></a>Lahendus
+
+### <a name="configure-general-sales-tax-groups-in-commerce-headquarters"></a>Üldiste käibemaksugruppide konfigureerimine Commerce Headquartersis
+
+Commerce headquarters`is kannete redigeerimiseks toimige järgmiselt.
+
+1. Avage **Maks \> Kaudsed maksud \> Käibemaks \> Käibemaksu grupid**.
+1. Valige vasakul navigeerimispaanil konfigureeritav maksugrupp.
+1. Konfigureerige **Jaemüügipõhine maks** kiirvahekaardil maksud grupile käibemaks.
+
+> [!NOTE]
+> Lähetamiseks, mis ei sisalda kliendi aadressiga määratletud käibemaksu, määravad maksugrupile rea tarneaadress ja maksugrupi jaoks konfigureeritud sihtkohapõhised maksud. Lisateavet vt teemast [Seadista maksud veebipoodidele vastavalt asukohale](/dynamicsax-2012/appuser-itpro/set-up-taxes-for-online-stores-based-on-destination).
 
 ### <a name="configure-the-sales-tax-for-a-retail-store-in-commerce-headquarters"></a>Commerce Headquartersi kaupluse käibemaksu konfigureerimine
 
@@ -57,17 +68,6 @@ Commerce Headquarters`i kaupluse käibemaksu konfigureerimine, järgige järgmis
 
 > [!NOTE]
 > Lähetamise puhul, mis hõlmab käibemaksu kliendi aadressil, määrab rea tarneaadress rea maksugrupi. Kui klient lähetab olemasolevale aadressile, kus on juba konfigureeritud maksugrupp, kasutatakse olemasolevat maksugruppi. Vaikimisi ei ole aadressidel loomisel maksugruppi.
-
-### <a name="configure-general-sales-tax-groups-in-commerce-headquarters"></a>Üldiste käibemaksugruppide konfigureerimine Commerce Headquartersis
-
-Commerce headquarters`is kannete redigeerimiseks toimige järgmiselt.
-
-1. Avage **Maks \> Kaudsed maksud \> Käibemaks \> Käibemaksu grupid**.
-1. Valige vasakul navigeerimisl konfigureeritav maksugrupp.
-1. Konfigureerige **Jaemüügipõhine maks** kiirvahekaardil maksud grupile käibemaks.
-
-> [!NOTE]
-> Lähetamiseks, mis ei sisalda kliendi aadressi käibemaksu, määratlege maksugrupp rea tarneaadress ja maksugrupi jaoks konfigureeritud sihtkohapõhised maksud. Lisateavet vt teemast [Seadista maksud veebipoodidele vastavalt asukohale](/dynamicsax-2012/appuser-itpro/set-up-taxes-for-online-stores-based-on-destination).
 
 ## <a name="additional-resources"></a>Lisaressursid
 

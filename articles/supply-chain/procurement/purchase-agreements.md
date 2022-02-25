@@ -1,12 +1,10 @@
 ---
 title: Ostulepingud
 description: Selles artiklis antakse teavet ostulepingute kohta. Ostuleping on leping, mis kohustab organisatsiooni ostma konkreetset kogust või kindlat summat, kasutades aja jooksul mitut ostutellimust. Selle kohustuse täitmise eest saab ostja erihindu ja allahindlusi.
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AgreementClassification, AgreementLine, AgreementLinePrompt, PurchAgreement, PurchAgreementCreate, PurchAgreementGenerateReleaseOrder, PurchAgreementHistory, PurchAgreementInvoiceJournal, PurchLine, AgreementLines
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 11634
 ms.assetid: 8ac20adf-7412-4929-be8c-aaedf23a76ad
 ms.search.region: Global
-ms.author: riluan
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9cd3c18129724cc67560aee7bf9fc0e5dcd2ebc3
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
-ms.translationtype: HT
+ms.openlocfilehash: d8084ebed80a509d543053867bb1f4d483b3f8eb
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017183"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103734"
 ---
 # <a name="purchase-agreements"></a>Ostulepingud
 
@@ -43,10 +41,7 @@ Ostulepingu kasutamise ja kinnitamise vältimiseks märkige lepingu olekuks **Su
 Saate tuvastada ostulepingu klassifikatsioonis peamise vastutava töötaja ja teisese vastutava töötaja. Need väärtused rakendatakse tulemiks saadud ostulepingus. Te ei pea vastutavaid töötajaid ostulepingusse lisama ja neid on võimalik ostulepingus endas juhtumipõhiselt muuta. Te ei saa määrata teisest vastutavat töötajat ilma esmase vastutava töötaja määramiseta, ehkki teil ei pea olema teisest vastutavat töötajat. Te ei saa määrata sama töötajat nii esmaseks kui ka teiseseks vastutavaks töötajaks.
 
 > [!IMPORTANT]
-> Enne vastutava isiku funktsiooni kasutamist peate selle oma süsteemis sisse lülitama. Administraatorid saavad kasutada [funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sätteid, et kontrollida funktsiooni olekut ja selle sisse lülitada. Tööruumis **Funktsioonihaldus** loetletakse funktsiooni järgneval viisil.
-> 
-> - **Moodul:** *hanked*
-> - **Funktsiooni nimi:** *ostulepingu vastutav isik*
+> Vastutava osapoole funktsiooni kasutamiseks peab see olema teie süsteemis sisse lülitatud. Tarneahela halduse 10.0.25 puhul on see funktsioon vaikimisi sisse lülitatud. Administraatorid saavad selle funktsiooni sisse või välja lülitada, otsides funktsioonihalduse *tööruumis* ostulepingu eest [vastutava osapoole](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) funktsiooni.
 
 ## <a name="commitment-types"></a>Kohustuse tüübid
 Iga ostulepingu rida on kohustus midagi osta. Kohustuse täitmiseks saate kasutada mitme ostutellimuse (PO) ridu. On nelja tüüpi kohustusi.
@@ -104,12 +99,13 @@ Kui loote kontsernisisese ostutellimuse, mis kasutab kontsernisisest ostulepingu
 ## <a name="financial-dimensions-on-purchase-agreements"></a>Ostulepingute finantsdimensioonid
 Saate kopeerida finantsdimensioonid dokumentide päistesse või ostutellimuse üksikutele ridadele. Kui muudate dimensioone lepingu päises või lepingu real, ei mõjuta muudatus ühtegi väljastatud tellimust, kuid kajastub kõigil uutel tellimustel.
 
-<a name="additional-resources"></a>Lisaressursid
---------
+## <a name="additional-resources"></a>Lisaressursid
 
-[Ostulepingu loomine](tasks/create-purchase-agreement.md)
-
-[Ostu väljalaskeorderi loomine ostulepingu põhjal](tasks/create-purchase-release-order-purchase-agreement.md)
+- [Ostulepingu loomine](tasks/create-purchase-agreement.md)
+- [Ostutellimuse loomisel rakendage ostulepingut](tasks/create-purchase-release-order-purchase-agreement.md)
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

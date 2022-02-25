@@ -2,15 +2,12 @@
 title: Hinnangute ja arvustuste kasutamise valimine
 description: Selles teemas selgitatakse, kuidas nõustuda rakenduses Microsoft Dynamics 365 Commerce saidi hinnangute ja arvustuste kasutamisega.
 author: gvrmohanreddy
-manager: annbe
-ms.date: 01/30/2020
+ms.date: 02/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,20 +15,18 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: cbdb69202ebec19f4442041cfb1f99857da36d2e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 19c3e8b32654f7c4b7803c547e9d5692f9fc461b
+ms.sourcegitcommit: 4d52c67f52ad0add63cd905df61367b344389069
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411682"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8311925"
 ---
 # <a name="opt-in-to-use-ratings-and-reviews"></a>Hinnangute ja arvustuste kasutamise valimine
 
 [!include [banner](includes/banner.md)]
 
 Selles teemas selgitatakse, kuidas nõustuda rakenduses Microsoft Dynamics 365 Commerce saidi hinnangute ja arvustuste kasutamisega.
-
-## <a name="overview"></a>Ülevaade
 
 Hinnangute ja arvustuste lahendus on omnikanali lahendus, mille saate rakenduses Dynamics 365 Commerce teha kättesaadavaks, kasutades Microsoft Dynamicsi teenust Lifecycle Services (LCS). LCS on haldusportaal, mida jaemüüjad kasutavad oma keskkondade juhtimiseks alates ettevalmistusest kuni kasutusest eemaldamiseni.
 
@@ -44,9 +39,9 @@ Oma saidil hinnangute ja arvustuste kasutamisega nõustumiseks järgige neid sam
 1. Järgige samme teemas [Uue e-kaubanduse saidi juurutamine](deploy-ecommerce-site.md).
 1. Olles endiselt LCS-is, avage suvand **Jaemüügi juurutamise häälestus \> Muud sätted**.
 1. Määrake suvand **Hinnangute ja arvustuste teenuse häälestuse lubamine** väärtusele **Jah**.
-1. Sisestage väljale **AAD hinnangute ja arvustuse moderaatori turberühm (turberühma objekti ID)** Microsoft Azure Active Directory (Azure AD) turberühma ID, mis hõlmab hinnangute ja arvustuste moderaatoreid.
+1. Sisestage **AAD reitingute ja läbivaatuse moderaatori** väljale Microsofti (Azure Active Directory) turvagrupi ID Azure AD, mis sisaldab hinnanguid ja vaatab modera doublei üle.
 
-    ![Hinnangute ja arvustuste kasutamise valimine](media/LCS_RnR_Preference.png)
+    ![Hinnangute ja arvustuste kasutamise valimine.](media/LCS_RnR_Preference_2.png)
 
 1. Viige e-kaubanduse lähtestamise protsess lõpule.
 
@@ -63,4 +58,13 @@ Oma saidil hinnangute ja arvustuste kasutamisega nõustumiseks järgige neid sam
 
 [Toote hinnangute sünkroonimine rakenduses Dynamics 365 Commerce](sync-product-ratings.md)
 
+[Lubage hinnangute ja ülevaadete käsitsi avaldamine moderaatori poolt](manual-publish-rating-reviews.md)
 
+[Hinnangute ja arvustuste importimine ja eksportimine](import-export-reviews.md)
+
+[Teenusest teenusesse autentimise konfigureerimine](service-to-service-auth.md)
+
+[Hinnangud ja arvustused KKK](ratings-reviews-faq.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

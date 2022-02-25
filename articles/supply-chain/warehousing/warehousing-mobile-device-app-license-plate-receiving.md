@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-03-31
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 872a08241f3d0156d0ccf1f89443e3a894656404
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 6663188334c70035906f924c7850a0dc5002f306
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777598"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103059"
 ---
 # <a name="license-plate-receiving-via-the-warehouse-management-mobile-app"></a>Identifitseerimisnumbri vastuvõtmine laohalduse mobiilirakenduse kaudu
 
@@ -77,15 +77,13 @@ Kui see funktsioon on sisse lülitatud, annavad identifitseerimisnumbri vastuvõ
 - **Kuva üksikasjalik kokkuvõte** – identifitseerimisnumbri vastuvõtmise ajal kuvatakse töötajatele täiendav leht, mis sisaldab täielikku ASN-i teavet.
 - **Jäta kokkuvõte vahele** – töötajatele ei kuvata täielikku ASN-i teavet. Lao töötajad ei saa määrata ka likvideerimiskoodi või lisada erandeid vastuvõtu protsessi ajal.
 
-Et teha see funktsioon süsteemis kättesaadavaks, peab juhtelement, kas kuvada mobiilsete seadmete funktsiooni vastuvõtmise kokkuvõtteleht, olema *·* funktsioonihalduses [sisse lülitatud](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). (Tarneahela halduse versiooni 10.0.21 kohaselt on see funktsioon vaikimisi sisse lülitatud.)
+Selle funktsiooni kasutamiseks peab juhtelement, *kas kuvada mobiilse seadme funktsiooni vastuvõtu kokkuvõtete* lehekülg, olema süsteemi jaoks sisse lülitatud. Tarneahela halduse versiooni 10.0.21 puhul on see funktsioon vaikimisi sisse lülitatud. Tarneahela halduse 10.0.25 puhul on see funktsioon kohustuslik ja seda ei saa välja lülitada. Kui käitate versiooni, mis *on*[vanem kui 10.0.25, saavad administraatorid selle funktsiooni sisse või välja lülitada, otsides Juhtelementi, kas kuvada vastuvõtu kokkuvõtteleht mobiilsete seadmete funktsioonis Funktsioonihalduse tööruumis.](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
 
 ## <a name="prevent-transfer-ordershipped-license-plates-from-being-used-at-warehouses-other-than-the-destination-warehouse"></a>Takista üleviimistellimuse – saadetud identifitseerimisnumbrite kasutamist muudes ladudes, mis ei ole sihtkoha ladu
 
 Identifitseerimisnumbri vastuvõtmisprotsessi ei saa kasutada, kui ASN sisaldab juba olemasolevat identifitseerimisnumbri ID-d ja sellel on füüsiline vaba kaubavaru muus lao asukohas, kus identifitseerimisnumbri registreerimine toimub.
 
-Üleviimistellimuste olukorras, kus transiitlaos ei jälgita identifitseerimisnumbreid (ja seega ei jälgita ka füüsilist vaba kaubavaru identifitseerimisnumbri kohta), saate kasutada funktsiooni *Takista üleviimistellimuse – saadetud identifitseerimisnumbrite kasutamist muudes ladudes, mis ei ole sihtkoha ladu*, et vältida transiidis olevate identifitseerimisnumbrite füüsilise vaba kaubavaru värskendamist.
-
-Funktsiooni oma süsteemis kättesaadavaks muutmiseks peate lülitama [funktsioonihalduses](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sisse funktsiooni *Takista üleviimistellimuse saadetud identifitseerimisnumbrite kasutamist muudes ladudes, mis ei ole sihtkoha ladu*.
+Üleviimistellimuste olukorras, kus transiitlaos ei jälgita identifitseerimisnumbreid (ja seega ei jälgita ka füüsilist vaba kaubavaru identifitseerimisnumbri kohta), saate kasutada funktsiooni *Takista üleviimistellimuse – saadetud identifitseerimisnumbrite kasutamist muudes ladudes, mis ei ole sihtkoha ladu*, et vältida transiidis olevate identifitseerimisnumbrite füüsilise vaba kaubavaru värskendamist. Et see funktsioon oleks saadaval, *peab teie süsteemi jaoks olema sisse lülitatud funktsioon Takista üleviimistellimuse* saadetud litsentsiplaate kasutamast muudes ladudes kui sihtlao funktsioon. Tarneahela halduse 10.0.25 puhul on see funktsioon kohustuslik ja seda ei saa välja lülitada. Kui käitate versiooni, mis on vanem kui 10.0.25, saavad administraatorid selle funktsiooni sisse või välja lülitada, otsides seda Funktsioonihalduse [tööruumis](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 Selle funktsiooni haldamiseks, kui see on saadaval, toimige järgmiselt.
 

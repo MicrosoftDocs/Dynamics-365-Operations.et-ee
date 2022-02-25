@@ -2,7 +2,7 @@
 title: Andmevaka lähtestamise KKK
 description: Selles teemas antakse vastused mõnele korduma kippuvatele küsimustele andmevaka lähtestamise kohta.
 author: jinniew
-ms.date: 07/16/2021
+ms.date: 02/14/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-05-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: e5a40342306eb9888b456a865ab2220dccfe65f8ccecc67bf8fc16f907e06977
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 53f45f469c39f9e389763aa0daed658e5a62d377
+ms.sourcegitcommit: 6a269db08e8bb3bb3405c9f4a512091d13c80faa
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767751"
+ms.lasthandoff: 02/14/2022
+ms.locfileid: "8119508"
 ---
 # <a name="data-mart-resets-faq"></a>Andmevaka lähtestamise KKK
 
@@ -35,8 +35,9 @@ Kindlustamaks, et vanu andmeid ei lisata, saab andmevakka lähtestada alles pär
 
 Kui teie olukorras kehtib üks või mitu järgnevat lauset, võib teie organisatsioonile olla kasulik andmevaka lähtestamine.
 
-- Rakenduse andmebaas taastati.
-- Olete avanud tugipileti ja tugiinsener juhendas teid lähtestama andmevaka tõrkeotsingu sammu osana.
+- **Rakenduse andmebaas taastati**
+- **Avasite tugipileti** – tugiinsener juhendas teid lähtestama data marti tõrkeotsingu etapi osana.
+- **Suur protsent aegunud kirjeid –** aegunud kirjed ise ei pruugi andmete lähtestamist õigustada. Aegunud andmete kõrged protsendid võivad kogu aruande genereerimist ja integratsiooni jõudlust alandada ning hõivata andmebaasi ruumi lisakasutust. Kui data marti andmetes on rohkem kui 80% aegunud andmeid, on soovitatav viia andmete lähtestamine lõpule.
  
 > [!NOTE]
 > Andmebaasi lähtestamise protsessi mõjutab teie pearaamatu ja eelarvetehingute arv teie andmebaasis. Sõltuvalt teie süsteemis olevate tehingute arvust saab andmesidet lähtestada nii vähe kui 15 minutit või see võib võtta kuni neli tundi. Kui lähtestamine kestab aga üle nelja tunni, on soovitatav võtta ühendust tugiteenustega.
@@ -45,13 +46,12 @@ Kui teie olukorras kehtib üks või mitu järgnevat lauset, võib teie organisat
 
 Siin on mõned olukorrad, kus me ei soovita andmevakka lähtestada.
 
-- Teil esineb andmete sünkroonimisega seotud jõudlusprobleeme.
+- Teil esineb andmete integreerimise jõudlusprobleeme.
 - Teil on mõne järgmise põhjuse tõttu korduv lähtestamise muster.
 
-    - **Puuduvad andmed** – kui märkate, et andmed puuduvad, avage koos Microsoftiga tugipilet, et vaadata üle teie aruande vorming ja võimalikud andmete sünkroonimise probleemid.
+    - **Aruandes puuduvad või ootamatud andmed** – kui teate, et andmed puuduvad, avage tugipilet Microsoftiga, et vaadata üle oma aruande vorming ja võimalikud andmete sünkroonimise probleemid.
     - **Kinnise integratsiooni olek**
-    - **Aegunud kirjed** – aegunud kirjed ei pruugi andmevaka lähtestamist alati õigustada. Kui teil on suur andmekomplekt, võtab lähtestamisprotsess aega, kuid tõenäoliselt ei vii see täiustamiseni.
-
+   
 ## <a name="if-i-reset-the-data-mart-will-i-lose-reports-that-ive-already-designed"></a>Kui lähtestan andmed marti, kas kaotan aruanded, mis ma juba kujundanud olen?
 
 Ei. Teie aruandeid talletatakse SQL-tabelites, mida ei mõjuta andmevaka lähtestamine. Kui olete mures mõne loodud aruande kaotamise pärast, saate varundada kujundused, mida te ei soovi kaotada. Kujunduste varundamiseks avage aruandekujundaja ja minge **Ettevõtte \> Ettevõtted \> Koosteüksused \> Eksport**.

@@ -2,26 +2,23 @@
 title: Ostureskontro arve vastenduse kinnitamise seadistamine
 description: See teema annab teavet selle kohta, kuidas seadistada ostureskontro arvete võrdlemise kinnitamine.
 author: abruer
-manager: AnnBe
-ms.date: 06/26/2019
+ms.date: 02/14/2022
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendParameters
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a101edd9e25fba1aa2325cb2193c6ea56282c9d1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 602666df4cf015791398939a3067a2cae85a12eb
+ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442307"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8182551"
 ---
 # <a name="set-up-accounts-payable-invoice-matching-validation"></a>Ostureskontro arve vastenduse kinnitamise seadistamine
 
@@ -57,7 +54,7 @@ Saadaval on neli erinevat tüüpi võrdlemise kinnitamist.
 12. Sisestage väljale **Ostuhinna kogusumma hälve** summa arvestusvaluutas. See väli on saadaval üksnes juhul, kui väljal **Hinna kogusumma võrdlemine** on valitud **Summa** või **Protsent ja summa**.
 13. Valige väljalt **Kogusumma võrdlemise ikooni kuvamine**, millal kuvada ikoon, kui erinevus ületab arve vastendamisel lubatud ühiku netohinna hälbe. Ikooni saab kuvada, kui positiivne erinevus ületab lubatud hälbe, või kui positiivne või negatiivne erinevus ületab lubatud hälbe.
 Näide: hälve on 5 protsenti ja ostutellimuse rea hinna kogusumma on 10.00. Seetõttu kuvatakse hinna vastavuse ikoon, kui arve rea hinna kogusumma ületab 10.50. Kui teete valiku **Kui kõikumisest suuremad või väiksemad**, kuvatakse ikoon ka siis, kui arve rea hinna kogusumma on väiksem kui 9,50.
-13. Tasude võrdlemise seadistamine.
+13. Häälestage kulude **võrdlemine**.
 14. Tegelike tasude võrdlemiseks eeldatavate tasudega, tuginedes ostutellimuse teabele, märkige ruut **Võrdle tasusid**.
 
 ## <a name="set-up-unit-price-tolerance-percentages"></a>Seadistage ühiku hinnakõikumisprotsendid
@@ -78,7 +75,7 @@ Vaikimisi on negatiivsed hinnaerinevused lubatud. Kuid te ei saa sisestada hinna
 
 ## <a name="set-up-matching-policy-override"></a>Vastavusse viimise poliitika alistamise seadistamine
 
-Avage **Ostureskontro > Seadistus > Arvete võrdlemise seadistus > Vastavusse viimise poliitika**, et määratleda ostutellimuse vormi ridadele vastavusse viimise poliitika vaikeväärtus. See on valikuline seadistus. Kasutage seda vormi, et seadistada kahesuunaline või kolmesuunaline vastavusse viimine kaupadele, hankijatele või kauba ja hankija kombinatsioonidele. Need kirjed võimaldavad teil määratleda üksikasjalikumaid vastavusse viimise poliitikaid kui lehel **Ostusreskontro parameetrid** määratud juriidilise isiku vastavusse viimise poliitika. Vaikeseadistatud juriidilise isiku rea vastavusse viimise poliitika rakendub kõigile kaupadele ja hankijatele, välja arvatud neile, millele on sel lehel määratud muu rea vastavusse viimise poliitika.
+Minge ostureskontro **> ja > häälestage >** **·** **vastavusse viimise poliitika abil, et määrata ostutellimuse lehe ridadele vastavusse viimise poliitika välja vaikesisestus.** See on valikuline seadistus. Kasutage seda lehekülge, et seadistada kaupade, hankijate või kauba- ja hankijakombinatsioonide kahe- või kolmepooleline vastavusse viimine. Need kirjed võimaldavad teil määratleda üksikasjalikumaid vastavusse viimise poliitikaid kui lehel **Ostusreskontro parameetrid** määratud juriidilise isiku vastavusse viimise poliitika. Vaikeseadistatud juriidilise isiku rea vastavusse viimise poliitika rakendub kõigile kaupadele ja hankijatele, välja arvatud neile, millele on sel lehel määratud muu rea vastavusse viimise poliitika.
 
 Valige sellel lehel **Vastavusse viimise poliitika tase**. Valige vastavusse viimise poliitika hierarhia tase, millele soovite rea vastavusse viimise poliitika seadistada.
 
@@ -98,3 +95,6 @@ Avage **Ostusreskontro > Seadistus > Arvete võrdlemise seadistus > Arvesummade 
 
 1. Üksikhankijatele vaikeseadistatud kõikumisi ületavate hankimiste määramiseks valige **Hankija konto**
 2. Sisestage hälbe protsent, mida olete nõus aktsepteerima selle hankija puhul.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

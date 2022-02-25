@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: e24bceac9457212ecaafda876d19ba62df049371
-ms.sourcegitcommit: 2113678369f47944f8725ca656f461fa159f87f6
-ms.translationtype: HT
+ms.openlocfilehash: 7921983a965af5557f54f608418c8ec922256ba6
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/27/2021
-ms.locfileid: "7471832"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103634"
 ---
 # <a name="generate-variants-for-engineering-products"></a>Tehnikatoodete variantide loomine
 
@@ -23,15 +23,9 @@ ms.locfileid: "7471832"
 
 See teema kirjeldab, kuidas luua tehnikatoodete variante.
 
-## <a name="turn-on-variant-generation-for-engineering-products"></a>Lülitage inseneritoodete jaoks sisse variantide genereerimine
+## <a name="turn-variant-generation-for-engineering-products-on-or-off"></a>Lülita tehnika toodete variandi loomine sisse või välja
 
-Enne selle funktsiooni kasutamist peate selle oma süsteemis sisse lülitama. Administraatorid saavad kasutada [funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sätteid, et kontrollida funktsiooni olekut ja selle sisse lülitada. Tööruumis **Funktsioonihaldus** loetletakse funktsiooni järgneval viisil.
-
-- **Moodul:** *Insenerimuudatuse haldus*
-- **Funktsiooni nimi:** *Variantide genereerimine inseneritoodete jaoks*
-
-> [!IMPORTANT]
-> Funktsiooni *Variantide loomine tehnikatoodete* jaoks on teie süsteemis nähtav alles pärast seda, kui lubate *tehnika muutmise halduse* konfiguratsioonivõtme. Lisateavet vt teemast [Tehniliste muudatuste haldamise ülevaade](product-engineering-overview.md).
+Selles teemas kirjeldatud funktsioonid nõuavad, et *nii tehnika muutmise haldus* *kui ka* tootevariandi loomine oleks teie süsteemi jaoks sisse lülitatud. Üksikasju selle kohta, kuidas neid funktsioone sisse või välja lülitada, vt tehnika [muudatusehalduse ülevaadet](product-engineering-overview.md).
 
 ## <a name="generate-one-or-more-new-variants-of-an-engineering-product"></a>Looge üks või mitu tehnikatoote uut varianti
 

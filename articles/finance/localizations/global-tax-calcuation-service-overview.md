@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: b5f9f41bdadc76064aa9aee92e27e6b504baf461
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 1dff1767b8e19215a2b27f87c45325e6abd1266e
+ms.sourcegitcommit: f2a78e0d7d461ca843ac2f9abff7690275db9196
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986012"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8105433"
 ---
 # <a name="tax-calculation-overview"></a>Maksuarvutuse ülevaade
 
@@ -65,7 +65,7 @@ Maksuarvestus on juurutatud järgmistes Azure'i geograafilistes asukohtades. Vas
 > Maksuarvutus ei toeta Dynamics 365 varasemat versiooni, nt Dynamics AX 2012 või Dynamics 365 valdustes juurutamist.
 
 ## <a name="versions"></a>Versioonid
-Soovitame importida ja seadistada maksuarvutuse konfiguratsiooni versiooniga, mis vastab teie finance või supply chain management versioonile.
+Soovitame teil importida ja seadistada oma maksuarvestuse konfiguratsioon versiooniga, mis vastab teie finantside või tarneahela halduse versioonile.
 
 | Finants- või tarneahela halduse versioon | Maksu konfiguratsiooni versioon               |
 | --------------- | --------------------------------------- |
@@ -76,11 +76,12 @@ Soovitame importida ja seadistada maksuarvutuse konfiguratsiooni versiooniga, mi
 | 10.0.22         | Maksu arvutamise konfiguratsioon 40.48.215 |
 | 10.0.23         | Maksu arvutamise konfiguratsioon 40.50.221 |
 | 10.0.24         | Maksu arvutamise konfiguratsioon 40.50.225 |
+| 10.0.25         | Maksu arvutamise konfiguratsioon 40.50.225 |
 
 
 ## <a name="data-flow"></a>Andmevoog
 
-Siin on ülevaade maksu arvutamise andmevoo protsessist. 
+Siin on maksuarvestuse andmevoo protsessi liigendus. 
 
 1. RCS-s saate vaadata ja importida maksustatava dokumendi mudeli konfiguratsioone ja mudeli vastendamise konfiguratsioone. Kui peate täpsema stsenaariumi konfiguratsioone laiendama, vaata [Andmeväljade lisamine maksukonfiguratsioonides](tax-service-add-data-fields-tax-configurations.md).
 2. RCS-sis looge või säilitage maksufunktsioonid. Saate kasutada maksufunktsiooni maksumäärade ja maksu kohaldatavusreeglite säilitamiseks.

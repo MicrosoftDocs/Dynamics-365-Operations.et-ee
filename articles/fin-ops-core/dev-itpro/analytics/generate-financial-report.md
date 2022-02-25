@@ -2,7 +2,7 @@
 title: Finantsaruannete loomine
 description: See teema sisaldab finantsaruande koostamise üldteavet.
 author: jinniew
-ms.date: 03/08/2021
+ms.date: 02/08/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 101cf2b29bb6f91cec5a3dac0be30b53388905c96ecf481f5b7b3e90cda3f804
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 00a860089265800ca1a0058f222d5e85c360501c
+ms.sourcegitcommit: 6a269db08e8bb3bb3405c9f4a512091d13c80faa
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740259"
+ms.lasthandoff: 02/14/2022
+ms.locfileid: "8119499"
 ---
 # <a name="generate-financial-reports"></a>Finantsaruannete loomine
 
@@ -28,14 +28,27 @@ ms.locfileid: "6740259"
 
 See teema sisaldab finantsaruande koostamise üldteavet.
 
-Aruande loomiseks avage aruande definitsioon ja klõpsake seejärel nuppu **Loo** tööriistaribal. Avatakse aken **Aruannete järjekorra olek** ja näidatakse teie aruande asukohta järjekorras. Vaikimisi avaneb loodud aruanne veebivaaturis.
+Aruande loomiseks avage aruande definitsioon ja valige tööriistaribal käsk **Loo**. Avaneb **aruandejärjekorra** oleku leht ja see näitab teie aruande asukohta järjekorras.
 
-Aruannete loomiseks on saadaval järgmised suvandid.
+Aruande loomise edenedes võivad järgmised aruandejärjekorra olekunäidikud olla aruandejärjekorra **oleku lehel nähtavad**.
+
+| Olek          | Maakond | Kirjeldus|
+|-----------------|--------|--------------------|
+| Järjekorda lisamine        | Ajutised |Aruande definitsioon kinnitatakse enne aruande asetamist loomise järjekorda.                    |
+| Järjekorras          | Ajutised | Aruanne sisestab aruande loomise järjekorra ja ootab töötlemist.                      |
+| Töötlemine      | Ajutised | See olek järgib tavaliselt olekut **Järjekorras** ning viib tavaliselt **töötlemise lõpetamisel** lõplikule olekule üle.       |
+| Järeltöötlemisel | Ajutised | See olek järgib töötlemise **olekut** ja näitab, et kogutakse kõik aruande andmed, kuid teostatakse sellised tegevused nagu kalkulatsioon ja ümberarvestus.            |
+| Tühistamine      | Ajutised | Aruandlus tühistatakse kasutaja nõudmisel. See olek tuleneb kasutaja taotletud tühistamisest aruandele olekus Järjekorras **või** **Töötlemine**. Süsteem püüab panna aruande Tühistatud **olekusse**, välja arvatud juhul, kui süsteem on liiga kaugele jõudnud ja peab selle teises olekus lõpetama. |
+| Tühistatud        | Lõplik | Aruanne on töötlemise lõpetanud, kuid seda ei lõpetatud kasutaja nõutud peatamise tõttu.            |
+| Lõpule viidud       | Lõplik | Aruanne on kasutamiseks valmis.                      |
+| Nurjus          | Lõplik | Aruanne lõpetas töötlemise, kuid ebaõnnestus ja seda ei tohi kasutada. |
+
+Vaikimisi avaneb loodud aruanne veebivaaturis. Aruannete loomiseks on saadaval järgmised suvandid.
 
 - Graafiku seadistamine aruande või aruannete grupi automaatseks loomiseks
 - Aruandest puuduvate kontode või andmete kontrollimine või aruande ja aruande täpsuse kinnitamine
 
-Aruande loomisel kasutatakse valikuid, mille olete määranud valiku Aruande definitsioon vahekaartidel.
+Aruande loomisel kasutatakse suvandeid, mis te olete määranud aruande definitsiooni vahekaartidele.
 
 ## <a name="generate-a-financial-report"></a>Finantsaruande loomine
 
@@ -61,9 +74,9 @@ Aruandegrupid on tõhus viis luua korraga mitu aruannet. Oletame näiteks, et te
 4. Salvestage aruande grupp.
 
 ## <a name="schedule-report-generation"></a>Aruande loomise plaanimine
-Paljudel ettevõtetel on aruannete põhikomplekt, mida kasutatakse plaanitud intervallidega, et äriprotsessidega vastavuses olla. Saate plaanida aruande regulaarselt loomise, näiteks iga päev, nädal, kuu või aasta. Tegemist võib olla ühe aruandega või mitut ettevõtet hõlmava aruannete rühmaga. Peate sisestama iga määratletud ettevõtte mandaadid, nagu aruandluspuu definitsiooniski. Kui mandaadid on kehtetud, kuvatakse aruandes ainult teave, millele teil on juurdepääsuõigus, nt ettevõte, kuhu olete sisse logitud. Väljundi teavet loetakse esmalt aruannete grupist ja seejärel üksikutest aruannetest.
+Paljudel ettevõtetel on aruannete põhikomplekt, mida kasutatakse plaanitud intervallidega, et äriprotsessidega vastavuses olla. Saate plaanida aruande regulaarselt loomise, näiteks iga päev, nädal, kuu või aasta. Tegemist võib olla ühe aruandega või mitut ettevõtet hõlmava aruannete rühmaga. Peate sisestama iga määratletud ettevõtte mandaadid, nagu aruandluspuu definitsiooniski. Kui mandaadid ei kehti, kuvab aruanne ainult teabe, mille juurde teil on juurdepääs, nt ettevõte, mille olete praegu sisse loginud. Väljundi teavet loetakse esmalt aruannete grupist ja seejärel üksikutest aruannetest.
 
-Aruande graafikute loomisel ja salvestamisel kuvatakse need navigeerimispaanil suvandi Aruande graafikud all. Saate aruannete korraldamiseks kaustu luua. Kui üht graafikus olevat aruannet ei käitata, siis kõiki teisi aruandeid käitatakse endiselt.
+Kui aruandegraafikud on loodud ja salvestatud, kuvatakse need navigeerimispaanil aruandegraafikute all. Saate aruannete korraldamiseks kaustu luua. Kui üht graafikus olevat aruannet ei käitata, siis kõiki teisi aruandeid käitatakse endiselt.
 
 > [!IMPORTANT]
 > Graafikute loomiseks, muutmiseks ja kustutamiseks peab teil olema kujundaja või administraatori roll. Aruande käivitamisel kasutatakse aruande loomiseks graafiku loonud kasutaja mandaate.
@@ -99,13 +112,13 @@ Aruande graafiku kustutamiseks peate olema aruande graafiku omanik või teil pea
 
 1. Klõpsake aruande kujundajas navigeerimise paanil suvandit **Aruandegraafikud**.
 2. Valige kustutatav aruande graafik ja seejärel klõpsake suvandit **Kustuta** või vajutage klahvi **Kustuta**.
-3. Klõpsake kustutamise kinnitamise dialoogiboksis suvandit **Jah** aruande graafiku jäädavaks kustutamiseks. Kui teil pole õigust graafikut kustutada, kuvatakse teade ja aruannet ei kustutata.
+3. Klõpsake kustutamise kinnitamise dialoogiboksis suvandit **Jah** aruande graafiku jäädavaks kustutamiseks. Kui teil pole graafiku kustutamise õigust, kuvatakse teade ja aruannet ei kustutata.
 
 ### <a name="credentials-and-report-schedules"></a>Mandaadid ja aruandegraafikud
 
 Kui te ei sisesta kõikide aruandesse kaasatud ettevõtete puhul nõutavaid mandaate, kuvatakse aruande graafiku salvestamisel järgmine teade: „Peate sisestama mandaadid sellesse aruande graafikusse kaasatud ettevõtete puhul. Valige mandaatide sisestamiseks nupp Õigused.”
 
-Näiteks logib kasutaja oma sisselogimisandmete ja parooliga Ettevõttesse A sisse. Kasutaja loob mitme ettevõtte andmete kogumiseks aruandluspuu definitsiooni kasutava aruande graafiku. Aruandegraafiku salvestamisel palutakse kasutajal sisestada teiste aruandluspuu definitsioonis määratud ettevõtete mandaadid. Mandaatide aegumisel ei looda aruande graafikus olevaid mõjutatud aruandeid kuni mandaatide värskendamiseni. Lubade värskendamise viitamiseks kuvatakse aruannete järjekorras teade. Aruande graafik nurjub mis tahes järgmiste asjaolude korral (kuna need nõuavad mandaate).
+Näiteks logib kasutaja oma sisselogimisandmete ja parooliga Ettevõttesse A sisse. Kasutaja loob mitme ettevõtte andmete kogumiseks aruandluspuu definitsiooni kasutava aruande graafiku. Aruandegraafiku salvestamisel palutakse kasutajal sisestada teiste aruandluspuu definitsioonis määratud ettevõtete mandaadid. Kui teie mandaadid aeguvad, ei looda aruandegraafikus mõjutatud aruandeid enne, kui mandaadid on värskendatud. Lubade värskendamise viitamiseks kuvatakse aruannete järjekorras teade. Aruande graafik nurjub mis tahes järgmiste asjaolude korral (kuna need nõuavad mandaate).
 
 - Uus ettevõte on lisatud aruandluspuusse üksiku aruande puhul.
 - Aruanderühmas olevat aruannet on muudetud.
@@ -116,12 +129,12 @@ Jätkamiseks klõpsake **Load** nuppu dialoogiboksis **Aruande plaanimine** ja s
 ## <a name="missing-account-analysis-feature"></a>Puuduvate kontode analüüsi funktsioon
 Saate otsida finantskontosid ja dimensioone, mis võivad olla puudu koosteüksuste grupi kõigis readefinitsioonides, aruandluspuu definitsioonides ja aruande definitsioonides. See on kasulik mitme konto või koosteüksuse loomisel või värskendamisel lühikese aja jooksul ja kui soovite kontrollida, kas kogu teave on aruannetesse kaasatud.
 
-Puuduvad kontod määratakse, kasutades readefinitsiooni või aruandluspuu definitsiooni kõige madalamaid ja kõrgemaid väärtusi ja seejärel kuvatakse loend kontodest, mida pole readefinitsioonis või aruandluspuu definitsioonis, kuid on finantsandmetes. Kui puuduv konto on reamääratluse väärtustest suurem või väiksem, siis ei lisata kontot puuduvate kontode loendisse.
+Puuduvad kontod määratletakse readefinitsiooni või aruandluspuu definitsiooni madalaima ja kõrgeima väärtusega ning seejärel kuvatakse nende kontode loend, mis ei ole readefinitsioonis või aruandluspuu definitsioonis, kuid mis on finantsandmetes. Kui puuduv konto on suurem või väiksem kui readefinitsiooni väärtused, ei kaasata seda kontot puuduvate kontode loendisse.
 
 > [!TIP]
 > Protsessi tuleb kinnitamiseks käitada enne igakuiste aruannete ja uute koosteüksuste loomist.
 
-Väärtuste vahemikega aruannete puhul on kontode puudumine vähem tõenäoline. Võimaluse korral kasutage koosteüksuse vahemikke uute kontode lisamiseks nende loomisel. Kui aruande määratluses on määratud ettevõte @ANY, siis saate sisse logida kindlasse ettevõttesse ja käitada puuduvate kontode analüüsi.
+Väärtuste vahemikega aruannete puhul on kontode puudumine vähem tõenäoline. Võimaluse korral kasutage koosteüksuse vahemikes uusi kontosid nende loomisel. Kui aruande määratluses on määratud ettevõte @ANY, siis saate sisse logida kindlasse ettevõttesse ja käitada puuduvate kontode analüüsi.
 
 > [!NOTE]
 > Kui on lisatud uus ettevõte, peate lisama uue ettevõtte mis tahes olemasolevate aruannete aruandluspuudesse, vastasel korral ettevõtet puuduva konto analüüsi ei kaasata.
@@ -134,8 +147,8 @@ Väärtuste vahemikega aruannete puhul on kontode puudumine vähem tõenäoline.
 4. Valige väljalt **Grupeerimisalus** tulemuste sortimiseks suvand. Võite sortida tulemusi asjakohase koosteüksuse alusel või dimensioonide ja väärtuste kogumite järgi.
 5. Vaadake kuvatavad tulemused üle. Kui valite ülemisel paanil üksuse, kuvatakse alumisel paanil lisateavet erandi kohta. See hõlmab seotud dimensioone, väärtusi ja aruandeid.
 6. Seotud üksuse avamiseks klõpsake loendi paanil kuvatavat seotud ikooni või paremklõpsake üksust ja valige käsk **Ava**. Mitme üksuse valimiseks hoidke alumisel paanil all klahvi **Ctrl** mitme üksuse valimiseks.
-7. Mis tahes väärtuste, koosteüksuste või aruannete tagastamisel, mis ei tohiks aruandesse kaasatud olla, paremklõpsake üksust ja valige üksuse loendist eemaldamiseks käsk **Välista** või valige üksuse kõrval olev märkeruut **Välista**. Loendi värskendamisel välistatud üksusi ei kaasata. Mitme üksuse valimiseks hoidke alumisel paanil all klahvi **Ctrl** mitme üksuse valimiseks. Kõikide, sealhulgas varem analüüsist välistatud üksuste vaatamiseks valige märkeruut **Kuva väljajäetud koosteüksused ja väärtused** ning klõpsake käsku **Värskenda**.
-8. Osutatud erandite värskendamiseks klõpsake käsku **Värskenda**. Kõigi tulemuste täielikuks värskendamiseks klõpsake suvandit **Jah** või klõpsake osutatud üksuste osaliseks värskendamiseks suvandit **Ei**.
+7. Kui tagastatakse mis tahes väärtused, ehitusplokkid või aruanded, mida ei peaks analüüsi kaasama, **paremklõpsake** kaupa ja valige suvand Välista või valige kauba kõrval märkeruut Välista, **et** eemaldada kaup loendist. Loendi värskendamisel ei kaasata välja jäetud kaupu. Mitme üksuse valimiseks hoidke alumisel paanil all klahvi **Ctrl** mitme üksuse valimiseks. Kõikide, sealhulgas varem analüüsist välistatud üksuste vaatamiseks valige märkeruut **Kuva väljajäetud koosteüksused ja väärtused** ning klõpsake käsku **Värskenda**.
+8. Valige **suvand** Värskenda, et värskendada erandeid, mille olete läbinud. Kõigi tulemuste täielikuks värskendamiseks klõpsake suvandit **Jah** või klõpsake osutatud üksuste osaliseks värskendamiseks suvandit **Ei**.
 
     > [!NOTE]
     > Avamisel värskendatakse vormi automaatselt, v.a juhul kui vormi on avatud viimase 15 minuti jooksul.

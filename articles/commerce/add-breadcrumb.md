@@ -1,16 +1,13 @@
 ---
 title: Lingirea moodul
-description: See teema hõlmab lingirea mooduleid ja kirjeldab, kuidas neid rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
+description: See teema hõlmab akordionmooduleid ja selles kirjeldatakse, kuidas neid rakenduses Microsoft Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
 author: anupamar-ms
-manager: annbe
 ms.date: 10/20/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,20 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: ec9f5c72b03d9fd76055369e24491db5c7633cdf
-ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
-ms.translationtype: HT
+ms.openlocfilehash: f387b6353e58ebb454b74568ddc17ae6d25d7e36
+ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "4517156"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8109728"
 ---
-# <a name="breadcrumb-module"></a>Lingirea moodul
+# <a name="breadcrumb-module"></a>Lingireamoodul
 
 [!include [banner](includes/banner.md)]
 
-See teema hõlmab lingirea mooduleid ja kirjeldab, kuidas neid rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
-
-## <a name="overview"></a>Ülevaade
+See teema hõlmab akordionmooduleid ja selles kirjeldatakse, kuidas neid rakenduses Microsoft Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
 
 Lingirea mooduleid kasutatakse saidi lehtede teisese navigeerimise võimaldamiseks. Tavaliselt kuvatakse need lehe ülaosas päise all. Kuigi lingirea mooduleid saab lisada igale lehele, kasutatakse neid kõige sagedamini toote üksikasjade lehtedel, et kuvada toote kategooriahierarhiat ja pakkuda kiiret võimalust saidil navigeerimiseks. Lingirea moodulit saab kasutada ka lingi „Tagasi tulemuste juurde“ kuvamiseks, kui kasutajad avavad otsingus või loendilehel toote üksikasjade lehe. Nii saavad kasutajad kiiresti filtreeritud loendilehele tagasi pöörduda ning jätkata ostlemist.
 
@@ -42,7 +37,7 @@ Tootekategooria kontekstiga lehtedel, nagu näiteks toote üksikasjade lehed ja 
 
 Järgmisel pildil on näidatud lingirea mooduli näide, kus on toodud toote üksikasjade lehe kategooriahierarhia.
 
-![Lingirea mooduli näide](./media/ecommerce-breadcrumb.PNG)
+![Lingirea mooduli näide.](./media/ecommerce-breadcrumb.PNG)
 
 ## <a name="breadcrumb-module-settings"></a>Lingirea mooduli sätted
 
@@ -95,3 +90,6 @@ Toote üksikasjade lehele lingirea mooduli lisamiseks ja vajalike atribuutide se
 [Ostukastimoodul](add-buy-box.md)
 
 [SDK ja mooduliteegi värskendused](e-commerce-extensibility/sdk-updates.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

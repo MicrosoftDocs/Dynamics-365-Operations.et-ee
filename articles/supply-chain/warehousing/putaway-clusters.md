@@ -2,25 +2,22 @@
 title: Ladustatavad kogumid
 description: Kogumite ladustamine pakub võimalust komplekteerida mitu identifitseerimisnumbrit samal ajal ja seejärel neid erinevates asukohtades ladustada. Need võivad olla väga kasulikud jaemüügi ettevõtetele, kus identifitseerimisnumbrid ei ole tavaliselt täis kaubaalused.
 author: Mirzaab
-manager: tfehr
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-19
-ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 6a330ddccbd17c92443232fc8488e36a59235773
-ms.sourcegitcommit: cfd84321fba38e02e270d361df369a536a48efa3
-ms.translationtype: HT
+ms.dyn365.ops.version: 10.0.7
+ms.openlocfilehash: d5aa579394a0e3bd4c27cd44c9ff98951b3bfe1c
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "4512326"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103659"
 ---
 # <a name="putaway-clusters"></a>Ladustatavad kogumid
 
@@ -28,12 +25,9 @@ ms.locfileid: "4512326"
 
 Kogumite ladustamine pakub võimalust komplekteerida mitu identifitseerimisnumbrit samal ajal ja seejärel neid erinevates asukohtades ladustada. Seda protsessi nimetatakse sageli *veoringiks*. Ladustatavad kogumid võivad olla väga kasulikud jaemüügi ettevõtetele, kus identifitseerimisnumbrid ei ole tavaliselt täielikult täis kaubaalused. 
 
-## <a name="turn-on-the-cluster-putaway-feature"></a>Kogumite ladustamise funktsiooni sisselülitamine
+## <a name="turn-the-cluster-putaway-feature-on-or-off"></a>Kogumi panemisfunktsiooni sisse- või väljalülitamine
 
-Enne selle funktsiooni kasutamist peate selle oma süsteemis sisse lülitama. Administraatorid saavad kasutada [funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) tööruumi, et kontrollida funktsiooni olekut ja vajadusel selle sisse lülitada. Seega on funktsioon loetletud järgmisel viisil.
-
-- **Moodul:** *laohaldus*
-- **Funktsiooni nimi:** *Kogumi ladustamise funktsioon*
+Selles teemas kirjeldatud funktsioonide kasutamiseks peab *kogumi panemisfunktsioon* olema teie süsteemi jaoks sisse lülitatud. Tarneahela halduse 10.0.25 puhul on see funktsioon kohustuslik ja seda ei saa välja lülitada. Kui käitate versiooni, mis on *vanem kui 10.0.25, saavad administraatorid selle funktsiooni sisse või välja lülitada, otsides kogumi panemisfunktsiooni*[tööruumis](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="setup-for-the-example-scenario"></a>Näite seadistamine
 
@@ -231,7 +225,7 @@ See stsenaarium simuleerib ladustatava kogumi töötlemist.
 
 #### <a name="receive-and-sort-the-inventory-into-a-cluster"></a>Võtke kaup vastu ja sortige kogumisse
 
-1. Logige laorakendusse sisse kasutajana, kes on lao *61* jaoks seadistatud.
+1. Logige mobiilirakendusse Warehouse Management sisse kasutajana, kes on seadistatud lao *61* jaoks.
 1. Valige peamenüüs suvand **Sissetulev**.
 1. **Sissetulev** menüüs valige **Võta vastu ja sordi kogum**.
 1. Sisestage väljale **Ponum** ostutellimuse number.
@@ -273,7 +267,7 @@ Enne kui kogumis olevad kaubad saab ladustada, peab kogum olema suletud.
 
 #### <a name="put-the-cluster-away"></a>Ladusta kogum
 
-1. Logige laorakendusse sisse kasutajana, kes on lao *61* jaoks seadistatud.
+1. Logige mobiilirakendusse Warehouse Management sisse kasutajana, kes on seadistatud lao *61* jaoks.
 1. Valige peamenüüs suvand **Sissetulev**.
 1. Valige **Sissetulev** menüüs **Kogumi ladustamine**.
 1. Valige **Kogumi ID** ja sisestage kogumi ID, mille sisestasite varasemalt suletud kogumi jaoks.
@@ -287,7 +281,7 @@ Enne kui kogumis olevad kaubad saab ladustada, peab kogum olema suletud.
 
     Teil on kindlad valikud selle etapi alistamiseks või vahele jätmiseks.
 
-    ![Kogumi ladustamine: Komplekteerimise leht](media/Cluster_putaway-Put.png "Kogumi ladustamine: Komplekteerimise leht")
+    ![Kogumi ladustamine: Komplekteerimise leht.](media/Cluster_putaway-Put.png "Kogumi ladustamine: Komplekteerimise leht")
 
 1. Kogumi ladustamise kinnitamiseks valige **OK**.
 
@@ -296,3 +290,6 @@ Enne kui kogumis olevad kaubad saab ladustada, peab kogum olema suletud.
 ## <a name="notes-and-tips"></a>Märkmed ja näpunäited
 
 Juhtudel, kus kogumi ID muutub pesastatud kaubaaluse peamiseks identifitseerimisnumbriks, antakse ladustamisasukoht automaatselt, kui kogumi ID on skaneeritud. Täiendavat identifitseerimisnumbrit ei tohi skaneerida, isegi kui identifitseerimisnumbri loomine on seatud käsitsi.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

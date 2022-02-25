@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2021-06-01
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 20bcf26e1510634c5ee7043576a480ce15889923
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
-ms.translationtype: HT
+ms.openlocfilehash: 3f3f77a9e6104a31995c9ee398504982fe43ac9e
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344116"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323771"
 ---
 # <a name="design-an-er-format-to-generate-a-report-in-excel-format-with-embedded-images-in-page-headers-or-footers"></a>ER-vormingu loomine Exceli vormingus manustatud piltidega lehe päistes või jalustes
 
@@ -153,9 +153,9 @@ Oma praegusesse Microsoft Dynamics 365 Finance'i eksemplari standardsete ER-konf
 3. Laiendage lehe **Konfiguratsioonid** vasakpoolsel paanil konfiguratsioonipuus suvandit **Arve mudel**.
 4. Pange tähele, et lisaks valitud ER-vormingule **Vabas vormis arve (Excel)** imporditi teised nõutavad ER-i konfiguratsioonid. Veenduge, et konfiguratsioonipuus oleksid saadaval järgmised ER-konfiguratsioonid.
 
-    - **Arve mudel** – see konfiguratsioon sisaldab [andmemudeli](general-electronic-reporting.md#data-model-and-model-mapping-components) ER-komponenti, mis tähistab arve äridomeeni andmete struktuuri.
-    - **Arvemudeli vastendamine** – see konfiguratsioon sisaldab [mudeli vastendamise](general-electronic-reporting.md#data-model-and-model-mapping-components) ER-komponenti, mis kirjeldab, kuidas andmemudel täidetakse rakenduse andmetega käitusajal.
-    - **Vabas vormis arve (Excel)** – see konfiguratsioon sisaldab [vormingu](general-electronic-reporting.md#FormatComponentOutbound) ja vormingu vastendamise ER-komponente. Vormingu komponent määrab aruande paigutuse Exceli vormingus malli põhjal. Vormingu vastenduse komponent sisaldab mudeli andmeallikat ja määratleb, kuidas seda andmeallikat kasutatakse aruande paigutuse täitmiseks käitusajal.
+    - **Arve mudel** – see konfiguratsioon sisaldab andmemudeli ER-komponenti, mis esindab arveldamise äridomeeni andmestruktuuri.
+    - **Arve mudeli vastendamine** – see konfiguratsioon sisaldab mudeli vastendamise ER-komponenti, mis kirjeldab, kuidas andmemudel käitusajal rakendusandmetega täidetakse.
+    - **Vabas vormis arve (Excel)** – see konfiguratsioon sisaldab vormingu ja vormingu vastendamise ER-komponente. Vormingu komponent määrab aruande paigutuse Exceli vormingus malli põhjal. Vormingu vastenduse komponent sisaldab mudeli andmeallikat ja määratleb, kuidas seda andmeallikat kasutatakse aruande paigutuse täitmiseks käitusajal.
 
 ![Imporditud ER-konfiguratsioonid Konfiguratsioonide lehel.](./media/er-embed-images-header-footer-excel-reports-imported-solution.png)
 

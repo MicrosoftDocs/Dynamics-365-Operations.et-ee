@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: a23168b550bfa2bb6a51c8df5d0a558431c23ebb
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: 459c8fce892d9437c7466458b7e53743c71da38f
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574253"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102823"
 ---
 # <a name="cluster-position-full"></a>Kogumi positsioon on täis
 
@@ -28,12 +28,9 @@ Funktsioon *Kogumi positsioon on täis* pakub alternatiivi tööjaotuse reeglite
 
 See funktsioon pakub võimalust kasutada nuppu **Täielik** ühe kogumi tööüksuse korral. Vanemates versioonides oli see suvand saadaval ainult tavalise tellimuse komplekteerimiseks, mitte kogumi komplekteerimiseks. See funktsioon erineb standardsest nupust **Täielik**, kuna see tühistab ülejäänud töö. See ei viita sellele, et kasutaja lisab samasse kogumisse veel ühe asukoha ning see ei loo automaatselt uut tööd.
 
-## <a name="turn-on-the-cluster-position-full-feature"></a>Funktsiooni „Kogumi positsioon on täis” sisselülitamine
+## <a name="turn-the-cluster-position-full-feature-on-or-off"></a>Kogumi positsiooni täieliku funktsiooni sisse- või väljalülitamine
 
-Enne selle funktsiooni kasutamist peate selle oma süsteemis sisse lülitama. Administraatorid saavad kasutada [funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sätteid, et kontrollida funktsiooni olekut ja selle sisse lülitada. Tööruumis **Funktsioonihaldus** loetletakse funktsiooni järgneval viisil.
-
-- **Moodul:** *laohaldus*
-- **Funktsiooni nimi:** *Kogumi positsioon on täis*
+Selles teemas kirjeldatud funktsioonide kasutamiseks peab klastri positsiooni *täielik* funktsioon olema teie süsteemi jaoks sisse lülitatud. Tarneahela halduse 10.0.25 puhul on see funktsioon kohustuslik ja seda ei saa välja lülitada. Kui käitate versiooni, mis on *vanem* kui 10.0.25, saavad administraatorid selle funktsiooni sisse või välja lülitada, otsides kogumi positsiooni täisfunktsiooni Funktsioonihalduse [tööruumis](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="setup"></a>Seadistus
 

@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: banluo
 ms.search.validFrom: 2021-10-19
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 7978c7b326ef1b62f76711ac187c28539eb1f449
-ms.sourcegitcommit: ba10ba2cd4fb4267afb5aacae4f6a52aa2456e7e
+ms.openlocfilehash: 3da92c384d3074335067433120eccc97d11b6b81
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "7798317"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103936"
 ---
 # <a name="inventory-value-reports"></a>Laoväärtuse aruanded
 
@@ -34,122 +34,119 @@ Laoväärtuse aruannete abil saate teha järgmisi toiminguid:
 
 ## <a name="types-of-inventory-value-report"></a>Varude väärtuse aruande tüübid
 
-Laoväärtuse aruannet on kahte tüüpi: **laoväärtus** (standardaruanne) ja **laoväärtuse aruande ladustamine**.
+Laoväärtuse aruannet on kahte tüüpi: laoväärtus **·** (standardaruanne) ja laoväärtuse **aruande ladustamine**.
 
 ### <a name="standard-inventory-value-report"></a>Standardne laoväärtuse aruanne
 
-Standardne varude väärtuse aruanne on lihtne aruanne, mis võimaldab teil valida kaasatud teabe ja **seejärel näitab seda teavet** ekraanil. See ei salvesta tulemusi. Samuti ei paku see interaktiivseid funktsioone filtreerimiseks, süvitsiminekuks, sirvimiseks või eksportimiseks. Seepärast soovitame enamikel juhtudel kasutada **laoväärtuse aruande** ladustamisaruannet.
+Standardne **varude väärtuse** aruanne on lihtne aruanne, mis võimaldab teil valida kaasatud teabe ja seejärel näitab seda teavet ekraanil. See ei salvesta tulemusi. Samuti ei paku see interaktiivseid funktsioone filtreerimiseks, süvitsiminekuks, sirvimiseks või eksportimiseks. Seepärast soovitame enamikel juhtudel kasutada **laoväärtuse aruande** ladustamisaruannet.
 
 ### <a name="inventory-value-report-storage-report"></a>Laoväärtuse aruande ladustamisaruanne
 
-Laoväärtuse aruande ladustamisaruanne esitab väljundi kas Microsofti interaktiivse leheküljena või **·** Dynamics 365 Supply Chain Management eksporditud dokumendina mitmes vormingus.
+Laoväärtuse **aruande ladustamisaruanne** esitab väljundi kas Microsofti interaktiivse leheküljena Dynamics 365 Supply Chain Management või eksporditud dokumendina mitmes vormingus.
 
 Aruande brauseris vaatamisel reguleeritakse veerge ja koondsaldosid dünaamiliselt olenevalt teie konfigureeritud paigutusest. Saate sortida tulemusi, filtreerida neid, minna andmetesse süvitsi ja muud.
 
-Aruande tulemused talletatakse andmeüksuses **Varude väärtus**. Seetõttu saate tulemusi filtreerida ja eksportida eri vormingutesse, näiteks komaeraldusega (CSV) fail või Microsoft Excel i vorming.
+Aruande tulemused talletatakse andmeüksuses **Varude väärtus**. Seetõttu saate tulemusi filtreerida ja eksportida eri vormingutesse, näiteks komaeraldusega (CSV) fail või Microsoft Exceli vorming.
 
-Laoväärtuse **aruande ladustamisaruanne** on kasulik, kui väljund sisaldab palju ridu. Näiteks on teil 50 000 kaupa ja ladudeks määratud 300 kauplust. Sel juhul sisaldab väljund palju ridu, kui taotlete varude lõppsaldosid kauba, asukoha ja lao kaupa.
+Laoväärtuse **aruande ladustamisaruanne on** kasulik, kui väljund sisaldab palju ridu. Näiteks on teil 50 000 kaupa ja ladudeks määratud 300 kauplust. Sel juhul sisaldab väljund palju ridu, kui taotlete varude lõppsaldosid kauba, asukoha ja lao kaupa.
 
 > [!NOTE]
-> Laoväärtuse **aruande** talletusaruanne ei sisalda aruande paigutuses määratletud vahesummasid. See ei sisalda ka pearaamatu saldosid, isegi kui need saldod on aruande kavandis määratletud. Vastavusseviimine pearaamatuga tuleb teha proovibilansside abil. Standardne **laoväärtuse aruanne** sisaldab siiski neid vahesummasid ja saldosid.
+> Laoväärtuse **aruande talletusaruanne** ei sisalda aruande paigutuses määratletud vahesummasid. See ei sisalda ka pearaamatu saldosid, isegi kui need saldod on aruande kavandis määratletud. Vastavusseviimine pearaamatuga tuleb teha proovibilansside abil. Standardne laoväärtuse **aruanne sisaldab** siiski neid vahesummasid ja saldosid.
 
-## <a name="turn-on-the-inventory-value-report-storage-feature"></a>Laoväärtuse aruande ladustamisfunktsiooni sisse lülitamine
+## <a name="turn-the-inventory-value-report-storage-feature-on-or-off"></a>Laoväärtuse aruande talletusfunktsiooni sisse- või väljalülitamine
 
-Standardne **·** laoväärtuse aruanne on vaikimisi lubatud. Kui aga soovite luua täpsemat varude väärtuse **aruande** ladustamisaruannet, peate selle funktsiooni oma süsteemis sisse lülitama. Administraatorid saavad kasutada [funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sätteid, et kontrollida funktsiooni olekut ja vajadusel selle sisse lülitada. Tööruumis **Funktsioonihaldus** loetletakse funktsiooni järgneval viisil.
-
-- **Moodul:** *Kuluhaldus*
-- **Funktsiooni nimi:** *varude väärtuse aruande talletus*
+Tarneahela halduse versiooni 10.0.25 puhul lülitatakse see funktsioon vaikimisi sisse. Administraatorid saavad selle funktsiooni sisse või välja lülitada, otsides funktsioonihalduse *tööruumis laoväärtuse* aruande talletusfunktsiooni [.](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
 
 ## <a name="define-inventory-value-report-configurations"></a><a name="report-configuration"></a> Määratlege laoväärtuse aruande konfiguratsioonid.
 
-Kasutage **lehte Laoväärtuse** aruanded, et seadistada sisu, mis kaasatakse erinevat tüüpi varude väärtuse aruandesse. Saate määratleda mis tahes arvu aruandetüüpe. Iga kord, kui te loote laoväärtuse aruande tüübi, valite aruande tüübi.
+Kasutage lehte **Laoväärtuse** aruanded, et seadistada sisu, mis kaasatakse erinevat tüüpi varude väärtuse aruandesse. Saate määratleda mis tahes arvu aruandetüüpe. Iga kord, kui te loote laoväärtuse aruande tüübi, valite aruande tüübi.
 
-1. Minge **kuluhalduse varude \> raamatupidamispoliitikate häälestuse \> laoväärtuse** aruannetesse.
+1. Minge kuluhalduse **varude raamatupidamispoliitikate \> häälestuse laoväärtuse \> aruannetele**.
 1. Järgige üht neist sammudest.
 
-    - Olemasoleva aruande redigeerimiseks valige see loendipaanil ja seejärel valige **·** tegevuspaanil redigeeri.
-    - Uue aruande loomiseks valige **·** tegevuspaanil väärtus Uus.
+    - Olemasoleva aruande redigeerimiseks valige see loendipaanil ja seejärel valige tegevuspaanil **redigeeri**.
+    - Uue aruande loomiseks valige tegevuspaanil **väärtus** Uus.
 
 1. Seadke uue või valitud aruande päises järgmised väljad:
 
     - **ID** – sisestage aruande lühiidentifikaator. See väärtus peab olema kõigi laoväärtuse aruande konfiguratsioonide seas kordumatu. Seda ei saa pärast uue konfiguratsiooni salvestamist redigeerida.
-    - **Nimi:** sisestage aruande kirjeldav nimi.
+    - **Nimi** : sisestage aruande kirjeldav nimi.
 
-1. Kui loote uue aruandekonfiguratsiooni, valige **tegevuspaanil** salvestamine, et teha ülejäänud väljad kättesaadavaks.
+1. Kui loote uue aruandekonfiguratsiooni, valige tegevuspaanil **salvestamine**, et teha ülejäänud väljad kättesaadavaks.
 1. Määrake kiirkaardil **Üldine** järgmised väljad.
 
-    - **·** Kuupäevaintervall – valige eelmääratletud kuupäevavahemik. Te saate selle kuupäevaintervalli aruande käivitamisel alistada.
-    - **Vahemik: valige sisestuskuupäev või kande kellaaeg, sõltuvalt kuupäevast ja kellaajast, mida tuleks kasutada** *kirjete* *·* toomisel aruandesse.
-    - **Dimensioonikomplekt** – valige dimensioonide kogum, mille jaoks andmeid käitada. (Dimensioonid määratletakse pearaamatus.) Näiteks võite käivitada andmed põhikonto või põhikonto + *·* *äriüksuse* jaoks. Valitud dimensioonikogumil ei tohi olla rohkem kui kaks dimensiooni. Lisateavet vt teemast [Finantsdimensioonikomplektid.](../../finance/general-ledger/financial-dimension-sets.md)
+    - **Kuupäevaintervall** – valige eelmääratletud kuupäevavahemik. Te saate selle kuupäevaintervalli aruande käivitamisel alistada.
+    - **Vahemik**: valige *sisestuskuupäev* *või kande* kellaaeg, sõltuvalt kuupäevast ja kellaajast, mida tuleks kasutada kirjete toomisel aruandesse.
+    - **Dimensioonikomplekt** – valige dimensioonide kogum, mille jaoks andmeid käitada. (Dimensioonid määratletakse pearaamatus.) Näiteks võite käivitada andmed põhikonto või *põhikonto* *+ äriüksuse jaoks*. Valitud dimensioonikogumil ei tohi olla rohkem kui kaks dimensiooni. Lisateavet vt teemast [Finantsdimensioonikomplektid](../../finance/general-ledger/financial-dimension-sets.md).
 
-1. Seadke **·** kiirkaardil Columns (Veerud) järgmised väljad. Need väljad kontrollivad teie aruande veerge ja andmetüüpe, mida need veerud sisaldavad.
+1. Seadke kiirkaardil **Columns** (Veerud) järgmised väljad. Need väljad kontrollivad teie aruande veerge ja andmetüüpe, mida need veerud sisaldavad.
 
-    - **·** Ladu: laoväärtuse *näitamiseks määrake selle valiku* väärtuseks Jah. Seejärel saate need väärtused pearaamatukonto saldodega vastavusse viia.
-    - **Lõpetamata** toodangu (WIP) – wip väärtuste *·* näitamiseks määrake selle suvandi väärtuseks Jah. Seejärel saate viia need väärtused vastavusse pearaamatu lõpetamata toodangu konto saldodega. Kui seate valikuks Jah, kuvatakse aruandes ainult lõpetamata toodangu olekuga varude füüsilised *·* kogused ja summad. Tootmistellimused, mille olek on Lõpetamata toodang, on komplekteeritud või lõpetatuna kinnitatud, kuid need pole veel lõpetatud.
-    - **Edasi lükatud COGS – määrake see suvand väärtusele Jah, et kuvada veerg, mis näitab edasilükatud** *·* COGS-i lao füüsilisi koguseid ja summasid. Edasilükatud COGS-i näidatakse, kasutades füüsilisi koguseid ja summasid, sest see tasakaalustab saatelehe kogused ja summad.
-    - **·** COGS: seadke see suvand suvandile *·* Jah, et kuvada veerg, mis näitab COGS-i finantskoguseid ja summasid. COGS-i näidatakse finantskoguste ja -summade kasutamisel, sest see tasakaalustab arve kogused ja summad.
-    - **Tulu ja kulu – määrake see valik valikule Jah, et kuvada veerg, mis näitab varude tulu ja** *kulu* kontodele sisestatud finantssummat.
-    - **Prindi võrdluseks kumulatiivsed kontoväärtused – häälestage see valik valikule Jah, et kuvada veerg,** *mis näitab* pearaamatukonto saldot. Sel viisil ei pea te kontrollima jälje saldot. See valik töötab ainult standardse **laoväärtuse** aruandega, mitte **laoväärtuse aruande ladustamisaruandega.** Pärast valiku Jah seadmist peate kasutama järgmisi välju iga pearaamatukonto määramiseks, mida soovite loendisse seada, sõltuvalt teie lubatud rahalise *·* positsiooni **·** suvanditest.
+    - **Ladu**: laoväärtuse näitamiseks *määrake* selle valiku väärtuseks Jah. Seejärel saate need väärtused pearaamatukonto saldodega vastavusse viia.
+    - **Lõpetamata toodangu (WIP**) –*wip* väärtuste näitamiseks määrake selle suvandi väärtuseks Jah. Seejärel saate viia need väärtused vastavusse pearaamatu lõpetamata toodangu konto saldodega. Kui seate valikuks *Jah*, kuvatakse aruandes ainult lõpetamata toodangu olekuga varude füüsilised kogused ja summad. Tootmistellimused, mille olek on Lõpetamata toodang, on komplekteeritud või lõpetatuna kinnitatud, kuid need pole veel lõpetatud.
+    - **Edasi lükatud COGS** – määrake see suvand *väärtusele* Jah, et kuvada veerg, mis näitab edasilükatud COGS-i lao füüsilisi koguseid ja summasid. Edasilükatud COGS-i näidatakse, kasutades füüsilisi koguseid ja summasid, sest see tasakaalustab saatelehe kogused ja summad.
+    - **COGS** : seadke see suvand suvandile *Jah,* et kuvada veerg, mis näitab COGS-i finantskoguseid ja summasid. COGS-i näidatakse finantskoguste ja -summade kasutamisel, sest see tasakaalustab arve kogused ja summad.
+    - **Tulu ja kulu** – määrake see valik valikule *Jah*, et kuvada veerg, mis näitab varude tulu ja kulu kontodele sisestatud finantssummat.
+    - **Prindi võrdluseks kumulatiivsed kontoväärtused** – häälestage see valik *valikule Jah*, et kuvada veerg, mis näitab pearaamatukonto saldot. Sel viisil ei pea te kontrollima jälje saldot. See valik töötab ainult standardse laoväärtuse **aruandega**, mitte laoväärtuse **aruande ladustamisaruandega**. Pärast valiku Jah seadmist *peate* kasutama järgmisi välju iga pearaamatukonto määramiseks, mida soovite loendisse seada, **sõltuvalt** teie lubatud rahalise positsiooni suvanditest.
 
         > [!NOTE]
-        > Kui valite mõne välja jaoks summakonto, kuvatakse nii iga kogusumma konto summa kui ka kogusumma konto *·* summa.
+        > Kui valite *mõne* välja jaoks summakonto, kuvatakse nii iga kogusumma konto summa kui ka kogusumma konto summa.
 
-        - **Laokonto** – määrake pearaamatukonto, mille laoteavet soovite kuvada. (Mõlemad **Varude** suvand ja prindi **kumulatiivsed kontoväärtused** võrdluseks peavad olema seatud väärtusele *·* Jah.)
-        - **WIP** konto: määrake pearaamatukonto, mille kohta lõpetamata toodangu teavet kuvada. (Mõlemad **Suvand** WIP ja **prindi kumulatiivsed kontoväärtused** võrdluseks tuleb seada suvandile *·* Jah.)
-        - **Edasilükatud** COGS-konto – määrake pearaamatukonto, mille edasilükatud COGS-i teavet näidata. (Mõlemad **Edasilükatud** COGS-i suvand **ja võrdluse kumulatiivsete kontoväärtuste** printimine peab olema seatud väärtusele *·* Jah.)
-        - **COGS-konto** – määrake pearaamatukonto, mille COGS-i teavet kuvada. (Mõlemad **·** COGS-i suvand **ja prindi kumulatiivsed kontoväärtused** võrdluseks tuleb seada suvandile *·* Jah.)
+        - **Laokonto** – määrake pearaamatukonto, mille laoteavet soovite kuvada. (Mõlemad **Varude** suvand ja prindi **kumulatiivsed kontoväärtused võrdluseks** peavad olema seatud väärtusele *Jah*.)
+        - **WIP konto** : määrake pearaamatukonto, mille kohta lõpetamata toodangu teavet kuvada. (Mõlemad **Lõpetamata** toodangu suvand ja **prindi kumulatiivsed kontoväärtused võrdluseks** tuleb seada suvandile *Jah*.)
+        - **Edasilükatud COGS-konto** – määrake pearaamatukonto, mille edasilükatud COGS-i teavet näidata. (Mõlemad **Edasilükatud COGS-i** suvand ja **võrdluse kumulatiivsete kontoväärtuste printimine** peab olema seatud väärtusele *Jah*.)
+        - **COGS-konto** – määrake pearaamatukonto, mille COGS-i teavet kuvada. (Mõlemad **COGS-i** suvand ja **prindi võrdluseks kumulatiivsed kontoväärtused** peavad olema seatud väärtusele *Jah*.)
 
-    - **Füüsiliste ja finantsväärtuste summeerimine: seadke see valik valikule Jah, et kuvada veerg, mis näitab kogu kaubavaru kogust ja laosummat (nii füüsiliste kui ka rahaliste** *varude väärtuste* kokkuvõtet). Kui see valik on seatud *valikule* Ei, kuvatakse aruandes nii füüsilise kui finantsilise laovaru väärtused.
-    - **Kaasa pearaamatusse sisestamata – määrake selle suvandi väärtuseks Jah, et kuvada veerg, milles kuvatakse kanded, mida** *pole kunagi* pearaamatusse sisestatud. Kanded järgmist tüüpi kaupade kohta ei pruugita pearaamatusse sisestada:
+    - **Füüsiliste ja finantsväärtuste summeerimine**: *seadke* see valik valikule Jah, et kuvada veerg, mis näitab kogu kaubavaru kogust ja laosummat (nii füüsiliste kui ka rahaliste varude väärtuste kokkuvõtet). Kui see valik on seatud valikule *Ei*, kuvatakse aruandes nii füüsilise kui finantsilise laovaru väärtused.
+    - **Kaasa pearaamatusse sisestamata** – määrake selle *suvandi* väärtuseks Jah, et kuvada veerg, milles kuvatakse kanded, mida pole kunagi pearaamatusse sisestatud. Kanded järgmist tüüpi kaupade kohta ei pruugita pearaamatusse sisestada:
 
         - Saadud ja veel arveldamata kaubad, kui vastava **kauba mudeligrupi** suvand Sisesta füüsiline ladu on tühjendatud.
-        - Saadud ja veel arveldamata kaubad, kui suvand Sisesta toote sissetulek pearaamatusse on tühjendatud toote sissetuleku kiirkaardil ostureskontro parameetrite lehe vahekaardil Üldine **·** **·** **·** **(Ostureskontro häälestus** **\>\>** Ostureskontro parameetrid).
+        - Saadud ja veel arveldamata kaubad, kui suvand Sisesta toote sissetulek pearaamatusse **on** **·** **tühjendatud toote sissetuleku kiirkaardil ostureskontro parameetrite lehe vahekaardil Üldine (Ostureskontro** **ostureskontro** häälestus **ostureskontro parameetrid).\>\>**
 
-    - **Arvuta keskmine ühiku kulu** – määrake selle suvandi väärtuseks *·* Jah, et kuvada veerg, milles kuvatakse keskmine ühiku hind. Keskmine ühikukulu on kogus kokku jagatud kogusummaga.
-    - **Kogus ja väärtus kokku: määrake see valik valikule Jah, et kuvada veerud, mis näitavad füüsiliste varude (ja finantskoguste) kogust ning füüsiliste varude** *(ja* finantssummade) kogusummat. Saate seada selle suvandi väärtuseks *Jah* ainult siis, kui suvand Füüsiliste ja **finantsväärtuste summeerimine** on seatud valikule *·* Ei.
-    - **Varude** dimensioonid – märkige selles ruudustikus ruut Kuva iga **·** dimensiooni puhul, mida soovite aruandes kuvada. Aruandes kuvatakse väärtused ainult **nende** dimensioonide puhul, kus suvand Finantsladu on lubatud. Teised dimensioonid kuvavad ainult tühjad veerud. Nende dimensioonide puhul, mida soovite kuvada, saate ka **kogusummade** kaasamiseks valida märkeruudu Kokku.
-    - **Ressursi ID** – määrake suvandi Kuva **·** väärtuseks *Jah, et* kuvada veerg, mis identifitseerib kauba iga rea jaoks. Seadke suvandi **Kokku** väärtuseks *Jah,* et kaasata ka kogusummad. Sõltuvalt iga rea loendis olevast kauba tüübist kuvatakse veerus üks järgmistest teabe tüüpidest:
+    - **Arvuta keskmine ühiku kulu** – määrake selle suvandi väärtuseks *Jah*, et kuvada veerg, milles kuvatakse keskmine ühiku hind. Keskmine ühikukulu on kogus kokku jagatud kogusummaga.
+    - **Kogus ja väärtus kokku**: *määrake* see valik valikule Jah, et kuvada veerud, mis näitavad füüsiliste varude (ja finantskoguste) kogust ning füüsiliste varude (ja finantssummade) kogusummat. Saate seada selle suvandi väärtuseks Jah *ainult* siis, kui suvand **Füüsiliste ja finantsväärtuste summeerimine** on seatud valikule *Ei*.
+    - **Varude dimensioonid** – märkige selles ruudustikus **ruut Kuva** iga dimensiooni puhul, mida soovite aruandes kuvada. Aruandes kuvatakse väärtused ainult **nende dimensioonide** puhul, kus suvand Finantsladu on lubatud. Teised dimensioonid kuvavad ainult tühjad veerud. Nende dimensioonide puhul, mida soovite kuvada, saate ka **kogusummade kaasamiseks** valida märkeruudu Kokku.
+    - **Ressursi ID** – määrake suvandi **Kuva väärtuseks** *Jah,* et kuvada veerg, mis identifitseerib kauba iga rea jaoks. Seadke suvandi **Kokku väärtuseks** *Jah,* et kaasata ka kogusummad. Sõltuvalt iga rea loendis olevast kauba tüübist kuvatakse veerus üks järgmistest teabe tüüpidest:
 
         - **Materjal** – veerus kuvatakse vastava `ItemID` materjalikirje väljaväärtus.
-        - **Tööjõud** – veerg näitab välja väärtust vastava `WorkCenterID` töökirje jaoks.
-        - **·** Kaudne kulu – veerus kuvatakse vastava `CodeID` kulukirje väljaväärtus.
+        - **Tööjõud** – veerg näitab välja `WorkCenterID` väärtust vastava töökirje jaoks.
+        - **Kaudne** kulu – veerus kuvatakse `CodeID` vastava kulukirje väljaväärtus.
 
-        Kui nii ressursi ID kui ka välja Ressursigrupp puhul on suvandi Vaade väärtuseks seatud Ei, näete ainult kogu laoväärtust, mis põhineb teie valitud varude **·** *·* **·** **·** dimensioonil.
+        Kui **nii** *·* **ressursi ID** **kui** ka välja Ressursigrupp puhul on suvandi Vaade väärtuseks seatud Ei, näete ainult kogu laoväärtust, mis põhineb teie valitud varude dimensioonil.
 
-    - **Ressursigrupp** – määrake suvandi Kuva **·** väärtuseks *Jah, et* kuvada veerg, mis identifitseerib iga rea ressursigrupi. Seadke suvandi **Kokku** väärtuseks *Jah,* et kaasata ka kogusummad. Sõltuvalt iga rea loendis olevast kauba tüübist kuvatakse veerus üks järgmistest teabe tüüpidest:
+    - **Ressursigrupp** – määrake suvandi **Kuva** väärtuseks *Jah,* et kuvada veerg, mis identifitseerib iga rea ressursigrupi. Seadke suvandi **Kokku väärtuseks** *Jah,* et kaasata ka kogusummad. Sõltuvalt iga rea loendis olevast kauba tüübist kuvatakse veerus üks järgmistest teabe tüüpidest:
 
         - **Materjal** – veerus kuvatakse vastava `ItemGroup` materjalikirje väljaväärtus.
-        - **Tööjõud** – veerg näitab välja väärtust vastava `WorkcenterGroup` töökirje jaoks.
-        - **·** Kaudne kulu – veerus kuvatakse vastava `CostGroup` kulukirje väljaväärtus. (Väärtus `CostGroupType` peab olema *Kaudne* .)
+        - **Tööjõud** – veerg näitab välja `WorkcenterGroup` väärtust vastava töökirje jaoks.
+        - **Kaudne** kulu – veerus kuvatakse `CostGroup` vastava kulukirje väljaväärtus. (Väärtus `CostGroupType` peab olema *Kaudne*.)
 
-        Kui nii ressursi ID kui ka välja Ressursigrupp puhul on suvandi Vaade väärtuseks seatud Ei, näete ainult kogu laoväärtust, mis põhineb teie valitud varude **·** *·* **·** **·** dimensioonil.
+        Kui **nii** *·* **ressursi ID** **kui** ka välja Ressursigrupp puhul on suvandi Vaade väärtuseks seatud Ei, näete ainult kogu laoväärtust, mis põhineb teie valitud varude dimensioonil.
 
-1. Seadke **·** kiirkaardil Rows järgmised väljad. Need väljad lasevad teil aruandesse lisada vastavaid lõpetamata toodanguga seotud alamjaotisi või neid eemaldada.
+1. **Seadke kiirkaardil** Rows järgmised väljad. Need väljad lasevad teil aruandesse lisada vastavaid lõpetamata toodanguga seotud alamjaotisi või neid eemaldada.
 
-    - **Materjal** : materjalide kohta teabe *näitamiseks määrake selle* valikuks Jah. *Materjal* on vaikimisi ressursitüüp, sest materjalid tuleb kaasata kõigisse aruande konfiguratsioonidesse, et luua töökindel väljund.
-    - **Tööjõud** – määrake see valik *väärtusele* Jah, et näidata WIP-i töökulusid.
-    - **·** Kaudne kulu: määrake see valik *väärtusele* Jah, et näidata WIP kaudseid kulusid.
-    - **Otse väljast** tellimine – määrake see valik *valikule Jah,* et näidata WIP-i otseseid välisteenuse kulusid. See teave on vajalik allhanke puhul.
-    - **Üksikasjade** tase – valige aruande jaoks kuvamissuvand:
+    - **Materjal** : materjalide kohta teabe näitamiseks *määrake* selle valikuks Jah. *Materjal* on vaikimisi ressursitüüp, sest materjalid tuleb kaasata kõigisse aruande konfiguratsioonidesse, et luua töökindel väljund.
+    - **Tööjõud** – määrake see valik väärtusele *Jah*, et näidata WIP-i töökulusid.
+    - **Kaudne** kulu: määrake see valik väärtusele *Jah*, et näidata WIP kaudseid kulusid.
+    - **Otse väljast tellimine** – määrake see valik valikule *Jah,* et näidata WIP-i otseseid välisteenuse kulusid. See teave on vajalik allhanke puhul.
+    - **Üksikasjade tase** – valige aruande jaoks kuvamissuvand:
 
-        - *Kanded* – saate vaadata kõiki aruande asjakohaseid kandeid. Arvestage, et võite esineda jõudluse probleeme, kui vaatate aruandeid, mis sisaldavad suurt hulka kandeid. Seetõttu, kui soovite kasutada seda kuvamissuvandi, soovitame kasutada varude **väärtuse aruande** ladustamisaruannet.
+        - *Kanded* – saate vaadata kõiki aruande asjakohaseid kandeid. Arvestage, et võite esineda jõudluse probleeme, kui vaatate aruandeid, mis sisaldavad suurt hulka kandeid. Seetõttu, kui soovite kasutada seda kuvamissuvandi, soovitame kasutada varude **väärtuse aruande ladustamisaruannet**.
         - *Kogusummad* – vaadake kogutulemust.
 
-    - **Kaasa algsaldo** – algsaldo *näitamiseks* määrake see valik väärtusele Jah. See valik on saadaval ainult siis, kui välja **·** Üksikasjatase väärtuseks on *määratud* Kanded.
+    - **Kaasa algsaldo** – algsaldo näitamiseks *määrake* see valik väärtusele Jah. See valik on saadaval ainult siis, kui välja **Üksikasjade tase** väärtuseks on määratud *Kanded*.
 
 ## <a name="generate-an-inventory-value-report-storage-report"></a>Varude väärtuse aruande salvestusaruande loomine
 
-Järgige neid samme varude väärtuse aruande **talletusaruande loomiseks ja** salvestamiseks.
+Järgige neid samme varude väärtuse aruande talletusaruande **loomiseks ja salvestamiseks**.
 
 1. Avage **Kuluhaldus \> Päringud ja aruanded \> Varude väärtuse aruande talletus**.
 1. Valige toimingupaanil nupp **Uus**.
-1. Seadke **dialoogiboksi** Varude väärtus **kiirkaardil** Parameetrid järgmised väljad:
+1. **Seadke dialoogiboksi Varude** väärtus kiirkaardil **Parameetrid** järgmised väljad:
 
-    - **Nimi:** sisestage aruande kordumatu nimi.
-    - **·** ID: valige aruandes kasutamiseks [...](#report-configuration) laoväärtuse aruande konfiguratsioon. Konfiguratsioon määrab suvandid veergude ja ridade jaoks, mis teie aruandesse kaasatakse.
-    - **·** Kuupäevaintervall – kasutage käesoleva jaotise välju, et määratleda, millised kirjed aruandesse kaasatakse. Kuupäevaintervalli määratlemiseks saate valida eelseadistatud vahemiku (aruande loomise kuupäeva põhjal) väljal **Kuupäevaintervalli kood** või valida kindlad kuupäevad väljadel **Alguskuupäev** ja **Lõppkuupäev**.
+    - **Nimi** : sisestage aruande kordumatu nimi.
+    - **ID** : valige [aruandes kasutamiseks laoväärtuse](#report-configuration) aruande konfiguratsioon. Konfiguratsioon määrab suvandid veergude ja ridade jaoks, mis teie aruandesse kaasatakse.
+    - **Kuupäevaintervall** – kasutage käesoleva jaotise välju, et määratleda, millised kirjed aruandesse kaasatakse. Kuupäevaintervalli määratlemiseks saate valida eelseadistatud vahemiku (aruande loomise kuupäeva põhjal) väljal **Kuupäevaintervalli kood** või valida kindlad kuupäevad väljadel **Alguskuupäev** ja **Lõppkuupäev**.
 
-1. **Kiirkaarti kaasadel** kirjetes seadistage filtrid ja piirangud, et määratleda, millised andmed aruandesse kaasatakse. Valige **·** filter, et avada standardpäringu redaktori dialoog, kus saate määratleda valikukriteeriumid, sortimiskriteeriumid ja liitmised. Väljad töötavad samamoodi nagu muudel päringutüüpidel Supply Chain Management puhul. Kõiki neid filtreid rakendatakse laokannetele, kuid mitte pearaamatu saldole. Pidage seda käitumist silmas, kui seadistate oma filtrid. Vastasel juhul võite näha lahknevust varude ja pearaamatu vahel.
+1. Kiirkaarti **kaasadel** kirjetes seadistage filtrid ja piirangud, et määratleda, millised andmed aruandesse kaasatakse. Valige **filter**, et avada standardpäringu redaktori dialoog, kus saate määratleda valikukriteeriumid, sortimiskriteeriumid ja liitmised. Väljad töötavad samamoodi nagu muudel päringutüüpidel Supply Chain Management puhul. Kõiki neid filtreid rakendatakse laokannetele, kuid mitte pearaamatu saldole. Pidage seda käitumist silmas, kui seadistate oma filtrid. Vastasel juhul võite näha lahknevust varude ja pearaamatu vahel.
 1. Määrake kiirkaardil **Käivita taustal** kuidas, millal ja kui sageli aruanne luuakse. Väljad töötavad samamoodi nagu muud tüüpi [taustatööl](../../fin-ops-core/dev-itpro/sysadmin/batch-processing-overview.md) Supply Chain Management puhul.
 
     > [!NOTE]
@@ -160,15 +157,15 @@ Järgige neid samme varude väärtuse aruande **talletusaruande loomiseks ja** s
 Pärast pakett-töö lõpetamist kuvatakse aruanne lehel **Varude väärtuse aruande talletus**. Aruande nägemiseks peate võib-olla lehte värskendama.
 
 > [!IMPORTANT]
-> Valitud laoväärtuse aruande konfiguratsioonis võib teil olla vale algsaldo, kui valite sama kuupäeva nii väljal Alates kui ka väljal Kuni kuupäevani ning kui seate suvandi Kaasa algsaldo väärtuseks **·** **·** **·** *·* Jah.
+> Valitud laoväärtuse aruande konfiguratsioonis võib teil olla vale algsaldo, **·** **kui valite sama kuupäeva nii väljal Alates kui ka väljal Kuni kuupäevani** ning **kui seate suvandi Kaasa** *algsaldo väärtuseks Jah*.
 
 ## <a name="explore-an-inventory-value-report-storage-report"></a>Varude väärtuse aruande ladustamisaruande avastamine
 
 Pärast aruande loomist saate igal ajal seda vaadata ja sellega tutvuda järgmisel viisil.
 
 1. Avage **Kuluhaldus \> Päringud ja aruanded \> Varude väärtuse aruande talletus**.
-1. Valige loendist aruanne. Lehel kuvatakse laoväärtuse aruande [konfiguratsiooni](#report-configuration) üksikasjad, mida kasutati valitud aruande loomiseks.
-1. Tegevuspaanil valige **aruande sisu** kuvamiseks suvand Kuva üksikasjad.
+1. Valige loendist aruanne. Lehel kuvatakse laoväärtuse aruande [konfiguratsiooni üksikasjad](#report-configuration), mida kasutati valitud aruande loomiseks.
+1. Tegevuspaanil valige aruande **sisu** kuvamiseks suvand Kuva üksikasjad.
 1. Tutvuge aruandega mis tahes järgmist sammu järgides.
 
     - Nagu enamiku standardsete lehtede puhul Supply Chain Managementis saate valida peaaegu mis tahes veerupäise, et sortida või filtreerida ruudustikku selle veeru väärtuste järgi.
@@ -179,7 +176,7 @@ Pärast aruande loomist saate igal ajal seda vaadata ja sellega tutvuda järgmis
 
 Iga loodud aruanne talletatakse andmeüksuses **Varude väärtus**. Saate kasutada Supply Chain Managementi standardseid andmehaldusfunktsioone, et eksportida selle üksuse andmed mis tahes toetatud vormingusse, sh CSV või Exceli vorming.
 
-Järgmine näide näitab, kuidas eksportida **laoväärtuse aruande** ladustamisaruannet.
+Järgmine näide näitab, kuidas eksportida laoväärtuse **aruande ladustamisaruannet**.
 
 1. Minge jaotisse **Süsteemihaldus \> Tööruumid \> Andmehaldus**.
 1. Valige jaotises **Import/eksport** paan **Eksport**.
@@ -209,16 +206,16 @@ Lisateavet andmete eksportimiseks andmehalduse kasutamise kohta vt [Andmete impo
 
 ## <a name="generate-a-standard-inventory-value-report"></a>Standardse varude väärtuse aruande loomine
 
-Kasutage järgmist protseduuri standardse laoväärtuse **aruande** loomiseks.
+Kasutage järgmist protseduuri standardse laoväärtuse **aruande loomiseks**.
 
-1. Minge **kuluhalduse \> päringute ja aruannetesse \> Laoarvestus - olekuaruanded \>** Laoväärtus.
-1. Seadke **dialoogiboksi** Laoväärtuse aruanne kiirkaardil **·** Parameetrid järgmised väljad:
+1. Minge kuluhalduse päringute ja aruannetesse Laoarvestus **– olekuaruanded Laoväärtus \>\>.\>**
+1. **Seadke dialoogiboksi Laoväärtuse** aruanne kiirkaardil **Parameetrid** järgmised väljad:
 
-    - **Nimi:** sisestage aruande kordumatu nimi.
-    - **·** ID: valige aruandes kasutamiseks [...](#report-configuration) laoväärtuse aruande konfiguratsioon. Konfiguratsioon loob suvandid veergude ja ridade jaoks, mis teie aruandesse kaasatakse.
-    - **·** Kuupäevaintervall – kasutage käesoleva jaotise välju, et määratleda, millised kirjed aruandesse kaasatakse. Kuupäevaintervalli määratlemiseks saate valida eelseadistatud vahemiku (aruande loomise kuupäeva põhjal) väljal **Kuupäevaintervalli kood** või valida kindlad kuupäevad väljadel **Alguskuupäev** ja **Lõppkuupäev**.
+    - **Nimi** : sisestage aruande kordumatu nimi.
+    - **ID** : valige [aruandes kasutamiseks laoväärtuse](#report-configuration) aruande konfiguratsioon. Konfiguratsioon loob suvandid veergude ja ridade jaoks, mis teie aruandesse kaasatakse.
+    - **Kuupäevaintervall** – kasutage käesoleva jaotise välju, et määratleda, millised kirjed aruandesse kaasatakse. Kuupäevaintervalli määratlemiseks saate valida eelseadistatud vahemiku (aruande loomise kuupäeva põhjal) väljal **Kuupäevaintervalli kood** või valida kindlad kuupäevad väljadel **Alguskuupäev** ja **Lõppkuupäev**.
 
-1. **Kiirkaarti kaasadel** kirjetes seadistage filtrid ja piirangud, et määratleda, millised andmed aruandesse kaasatakse. Valige **·** filter, et avada standardpäringu redaktori dialoog, kus saate määratleda valikukriteeriumid, sortimiskriteeriumid ja liitmised. Väljad töötavad samamoodi nagu muudel päringutüüpidel Supply Chain Management puhul.
+1. Kiirkaarti **kaasadel** kirjetes seadistage filtrid ja piirangud, et määratleda, millised andmed aruandesse kaasatakse. Valige **filter**, et avada standardpäringu redaktori dialoog, kus saate määratleda valikukriteeriumid, sortimiskriteeriumid ja liitmised. Väljad töötavad samamoodi nagu muudel päringutüüpidel Supply Chain Management puhul.
 1. Määrake kiirkaardil **Käivita taustal** kuidas, millal ja kui sageli aruanne luuakse. Väljad töötavad samamoodi nagu muud tüüpi [taustatööl](../../fin-ops-core/dev-itpro/sysadmin/batch-processing-overview.md) Supply Chain Management puhul.
 1. Valige **OK**, et rakendada oma sätted ja sulgeda dialoogiboks. Kuvatakse aruanne.
 
@@ -228,26 +225,26 @@ See jaotis annab mõningaid juhiseid, kuidas lugeda ja mõista laoväärtuse aru
 
 Tarneahela haldus toetab kaht järgmist varude olekuga seotud olulist kontseptsiooni:
 
-- **·** Finantsilt uuendatud – see mõiste näitab, et laokanded on juba arveldatud. Tootmistellimuste puhul näitab see tootmistellimuse lõppu.
-- **Füüsiliselt uuendatud – see mõiste näitab, et laokandeid pole** veel arveldatud, kuid need on saadud või saadetud. Tootmistellimuste puhul näitab see, et materjal on komplekteeritud või tootmistellimus on lõpetatuna kinnitatud.
+- **Finantsilt** uuendatud – see mõiste näitab, et laokanded on juba arveldatud. Tootmistellimuste puhul näitab see tootmistellimuse lõppu.
+- **Füüsiliselt uuendatud** – see mõiste näitab, et laokandeid pole veel arveldatud, kuid need on saadud või saadetud. Tootmistellimuste puhul näitab see, et materjal on komplekteeritud või tootmistellimus on lõpetatuna kinnitatud.
 
 Kui mõistate neid kahte mõistet, peaks aruande väljundi järgnevaid veerge olema lihtne mõista:
 
 - **Varud: rahaline** kogus – finantsiliselt uuendatud kogus.
 - **Varud: rahaline** summa – finantsiliselt uuendatud laosumma väärtus.
 - **Varud: sisestatud füüsiline** kogus – füüsiliselt uuendatud kogus.
-- **Varud: sisestatud** füüsiline summa – füüsiliselt uuendatud laosumma väärtus.
-- **Varud: füüsiline kogus on sisestamata – kogus, mis on laokannetega,** kuid mida pole pearaamatusse sisestatud. Näiteks on teil kauba mudeligrupp, kus tühjendatakse suvand Sisesta füüsiline ladu ja Sisesta finantsiline laovaru ning teil on kaup, mis **·** on selle **·** grupiga lingitud. Seejärel loote ostutellimuse, saate selle vastu ja arveldate. Kui vaatate üle kauba laoväärtuse aruande, näete, et ostutellimuse kogus ja väärtus kuvatakse veergudes Varud: Füüsiline kogus on sisestamata ja **·** Ladu: füüsiline summa **·** sisestamata.
-- **Varud: füüsiline summa on** sisestamata – saate seadistada oma aruanded nii, et need kuvavad sisestamata summasid. Kuid kui kasutate varude vastavusseviimise aruannet, siis ärge seda väärtust kasutage. Vastasel juhul summat pearaamatusse ei sisestata.
-- **·** Varud: kogus – aruande kõigi koguseveergude kogusumma.
-- **·** Varud: summa – aruande kõigi summaveergude kogusumma. Kui teete varude vastavusseviimist, siis ärge kasutage seda veergu, kui teie aruanne sisaldab veergu **Varud: füüsiline summa** on sisestamata. Sellisel juhul tuleb kogusummast välja arvata lao füüsiline summa, **·** mida pole sisestatud.
-- **Keskmine ühiku** hind – kogusumma jagatud kogusummaga.
+- **Varud: sisestatud füüsiline** summa – füüsiliselt uuendatud laosumma väärtus.
+- **Varud: füüsiline kogus on sisestamata** – kogus, mis on laokannetega, kuid mida pole pearaamatusse sisestatud. Näiteks on teil kauba **mudeligrupp** **·**, kus tühjendatakse suvand Sisesta füüsiline ladu ja Sisesta finantsiline laovaru ning teil on kaup, mis on selle grupiga lingitud. Seejärel loote ostutellimuse, saate selle vastu ja arveldate. Kui vaatate üle kauba laoväärtuse aruande, näete, et ostutellimuse kogus ja väärtus kuvatakse **veergudes Varud: Füüsiline kogus on** **sisestamata ja Ladu: füüsiline** summa sisestamata.
+- **Varud: füüsiline summa on sisestamata** – saate seadistada oma aruanded nii, et need kuvavad sisestamata summasid. Kuid kui kasutate varude vastavusseviimise aruannet, siis ärge seda väärtust kasutage. Vastasel juhul summat pearaamatusse ei sisestata.
+- **Varud:** kogus – aruande kõigi koguseveergude kogusumma.
+- **Varud:** summa – aruande kõigi summaveergude kogusumma. Kui teete varude vastavusseviimist, siis ärge kasutage **seda veergu, kui teie aruanne sisaldab veergu Varud: füüsiline summa on sisestamata**. Sellisel juhul tuleb kogusummast välja arvata **lao** füüsiline summa, mida pole sisestatud.
+- **Keskmine ühiku hind** – kogusumma jagatud kogusummaga.
 
 Tavaliselt kasutate laoväärtuse aruannet laoväärtuse ja koguse vaatamiseks. Mõnikord siiski ei näidata aruandes kõiki asjakohaseid varude dimensioone. Kui te ei näe dimensioone, mida eeldate, kontrollige järgmisi sätteid:
 
-- Vaadake üle kauba ladustamis- ja jälgimisdimensioonigrupid. Aruandes saab kuvada **ainult neid** dimensioone, kus suvand Finantsiline laovaru on lubatud.
-- Minge kuluhalduse varude raamatupidamispoliitikate häälestuse laoväärtuse aruannetesse, valige aruande loomiseks kasutatud aruande konfiguratsioon ja veenduge, et veerus Vaade on valitud vajalikud **\> varude \>** **·** dimensioonid.
+- Vaadake üle kauba ladustamis- ja jälgimisdimensioonigrupid. Aruandes saab kuvada ainult **neid dimensioone**, kus suvand Finantsiline laovaru on lubatud.
+- Minge kuluhalduse **\>\>** varude raamatupidamispoliitikate häälestuse laoväärtuse aruannetesse, valige aruande loomiseks kasutatud aruande konfiguratsioon ja veenduge, et veerus Vaade on valitud vajalikud varude **dimensioonid.**
 
-Näiteks on teil kaup, mille kaubakood on *A0001.* Laoala dimensioonide grupis on finantsiline laovaru lubatud ainult laoala. Füüsilise lao puhul on nii sait kui ka ladu lubatud. Jälgimisdimensioonigrupis on partiinumber lubatud füüsilise laovaru jaoks, kuid mitte finantsilise laovaru jaoks. Seejärel kasutage aruande konfiguratsiooni, kus ala, ladu ja partii number on kõik valitud. Kui vaatate aruannet, näete väärtust ainult saidile. Lao veerud ja partiinumber on tühjad. Nagu see näide näitab, saavad laoväärtuse aruanded näidata ainult varude dimensioone, mis on finantsilise laovaru puhul lubatud.
+Näiteks on teil kaup, mille kaubakood on *A0001*. Laoala dimensioonide grupis on finantsiline laovaru lubatud ainult laoala. Füüsilise lao puhul on nii sait kui ka ladu lubatud. Jälgimisdimensioonigrupis on partiinumber lubatud füüsilise laovaru jaoks, kuid mitte finantsilise laovaru jaoks. Seejärel kasutage aruande konfiguratsiooni, kus ala, ladu ja partii number on kõik valitud. Kui vaatate aruannet, näete väärtust ainult saidile. Lao veerud ja partiinumber on tühjad. Nagu see näide näitab, saavad laoväärtuse aruanded näidata ainult varude dimensioone, mis on finantsilise laovaru puhul lubatud.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: Toote töötsükli olekud ja kanded
 description: Selles teemas selgitatakse, kuidas saate kontrollida, millised kanded on igas töötsükli olekus lubatud, kui tehniline toode töötsüklit läbib.
 author: t-benebo
-ms.date: 09/28/2020
+ms.date: 02/17/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 12f95feda887b5f1284624e5f072b498a78d00e1
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: 1e9b8a9f25edfa654a57e0ab4071cd93c8033d85
+ms.sourcegitcommit: d375ef4138e898621416754c40770d8ccca4d271
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574637"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8322740"
 ---
 # <a name="product-lifecycle-states-and-transactions"></a>Toote töötsükli olekud ja kanded
 
@@ -93,5 +93,13 @@ Oletame näiteks, et soovite müüa ainult ühe variandi (punane) antud tootest 
 - Määrake tootele elutsükli olek, mis lubab protsessi. Määrake näiteks t-särki toote elutsükli olekuks *Müüdav*, mis lubab *Müügitellimust* äriprotsessis.
 - Määrake müüdavale variandile protsessi võimaldav elutsükli olek. Määrake näiteks punasele variandile elutsükli olek *Müüdav*.
 - Kõigile muudele variantidele määratakse teine elutsükli olek, kus protsess on blokeeritud. Määrake näiteks valge variandi (ja kõik muud variandid) elutsükli olekuks *Pole müüdav*, mis blokeerib blokeerib *Müügitellimuse* äriprotsessi.
+
+## <a name="default-product-lifecycle-states"></a>Toote töötsükli vaikeolekud
+
+Tehnikaversiooni vaikimisi töötsükli olek on määratud tehnika kategoorias. Olekut kasutatakse vaikimisi uue tehnikaversiooni, k.a uue toote esimese versiooni loomisel.
+
+Uue toote või inseneritoote loomisel saate määrata ka töötsükli vaikeoleku, määrates selle tootele määratud väljalaskepoliitika mallil.
+
+Sellisel juhul on tootel uue tehnikatoote loomisel võimalik omada versioonist erinevat töötsükli olekut.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

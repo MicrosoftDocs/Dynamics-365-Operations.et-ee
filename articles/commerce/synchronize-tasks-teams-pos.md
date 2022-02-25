@@ -2,7 +2,7 @@
 title: Ülesannete halduse sünkroonimine Microsoft Teams ja Dynamics 365 Commerce kassade vahel
 description: See teema kirjeldab, kuidas sünkroonida ülesannete haldust Microsoft Teams ja Dynamics 365 Commerce müügikoha vahel.
 author: gvrmohanreddy
-ms.date: 03/31/2021
+ms.date: 02/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: f9abebbf8d6c5dd6695b9697361e1a9a9e6005dc3ded16c4211c9c5c9e34a0b3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: c07ca28b45335de5e327305b7426d1b6de8ce5c7
+ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730871"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323493"
 ---
 # <a name="synchronize-task-management-between-microsoft-teams-and-dynamics-365-commerce-pos"></a>Ülesannete halduse sünkroonimine Microsoft Teams ja Dynamics 365 Commerce kassade vahel
 
@@ -54,6 +54,9 @@ Lisateavet vt [Avalda ülesannete loendid, et luua ja jälgida organisatsiooni t
 ## <a name="link-pos-and-teams-for-task-management"></a>Kassa ja Teams linkimine ülesannete haldamiseks
 
 Kassa ja Microsoft Teams rakenduste linkimiseks Commerce peakontori ülesandehalduse jaoks järgige neid samme.
+
+> [!NOTE]
+> Enne ülesandehalduse integreerimist veenduge Microsoft Teams, et teil on lubatud ja [Dynamics 365 Commerce integratsioon Microsoft Teams](enable-teams-integration.md). 
 
 1. Minge **Retail ja Commerce \> Ülesandehaldus \>Ülesannete integreerimine rakendusega Microsoft Teams**.
 1. Valige Toimingupaanil nupp **Redigeeri**.

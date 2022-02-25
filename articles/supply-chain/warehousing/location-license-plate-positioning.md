@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: c19f8dcdb7d84b752e0eec56afdb1a1865cfe00b
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: f87723ebd6684efba8464a7d64c7e1ea99f194eb
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567603"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102785"
 ---
 # <a name="location-license-plate-positioning"></a>Asukoha litsentsiplaadi paigutus
 
@@ -30,12 +30,9 @@ Funktsioon lisab igale lattu paigutatavale identifitseerimisnumbrile järjekorra
 
 Selles teemas esitletakse stsenaariumi, mis näitab, kuidas funktsiooni häälestada ja kasutada.
 
-## <a name="turn-on-the-location-license-plate-positioning-feature"></a>Asukoha identifitseerimisnumbri positsioneerimise funktsiooni sisselülitamine
+## <a name="turn-the-location-license-plate-positioning-feature-on-or-off"></a>Asukoha litsentsiplaadi paigutamise funktsiooni sisse- või väljalülitamine
 
-Enne identifitseerimisnumbri asukoha positsioneerimise funktsiooni kasutamist peate selle oma süsteemis sisse lülitama. Administraatorid saavad kasutada [funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) tööruumi, et kontrollida funktsiooni olekut ja vajadusel selle sisse lülitada. Seega on funktsioon loetletud järgmisel viisil.
-
-- **Moodul:** *laohaldus*
-- **Funktsiooni nimi:** *Asukoha identifitseerimisnumbri positsioneerimine*
+Selles teemas kirjeldatud funktsioonide kasutamiseks peab asukoha *litsentsiplaadi paigutamise* funktsioon olema teie süsteemi jaoks sisse lülitatud. Tarneahela halduse 10.0.25 puhul on see funktsioon kohustuslik ja seda ei saa välja lülitada. Kui käitate versiooni, mis on *vanem kui 10.0.25, saavad administraatorid selle funktsiooni sisse või välja lülitada, otsides asukoha litsentsiplaadi*[paigutamise funktsiooni Funktsioonihalduse tööruumis](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="example-scenario"></a>Näidisstsenaarium
 

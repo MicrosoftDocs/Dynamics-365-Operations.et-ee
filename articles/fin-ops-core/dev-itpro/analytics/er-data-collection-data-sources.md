@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2021-01-01
 ms.dyn365.ops.version: AX 10.0.16
-ms.openlocfilehash: f001734baf9aee59f0a61d21ca5a99af0c55b56f
-ms.sourcegitcommit: 7e32e5e39e762a4b1606161cb603a450d13b5251
-ms.translationtype: HT
+ms.openlocfilehash: 185fb9a33cb4cc655dfdf640b4c239d617426c64
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "7413590"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323897"
 ---
 # <a name="use-data-collection-data-sources-in-electronic-reporting-formats"></a>Kasuta elektroonilise aruandluse vormingutes ANDMEKOGUMI andmeallikaid
 
 [!include [banner](../includes/banner.md)]
 
-Saate kasutada operatsioonide kujundajat [Elektroonilise aruandluse (ER)](general-electronic-reporting.md) raamistiku jaoks et [vormida](general-electronic-reporting.md#FormatComponentOutbound) komponent, mida kasutatakse väljamineva dokumendi loomiseks eri vormingutes. Konfigureeritud vormingukomponendi hierarhiline struktuur koosneb erinevate tüüpide vorminguelementidest. Neid vorminguelemente kasutatakse loodud dokumentide täitmiseks nõutava teabega käitusaja ajal. Vaikimisi, kui käitate ER-vormingut, käitatakse vorminguelemente samas järjekorras, nagu need on esitatud vorminguhierarhias: ükshaaval, ülevalt alla.
+Elektroonilise aruandluse [(ER)](general-electronic-reporting.md) raamistiku toimingute kujundajat saate kasutada ER-i lahenduse vormingukomponendi konfigureerimiseks, mida kasutatakse väljaminevate dokumentide loomiseks erinevates vormingutes. Konfigureeritud vormingukomponendi hierarhiline struktuur koosneb erinevate tüüpide vorminguelementidest. Neid vorminguelemente kasutatakse loodud dokumentide täitmiseks nõutava teabega käitusaja ajal. Vaikimisi, kui käitate ER-vormingut, käitatakse vorminguelemente samas järjekorras, nagu need on esitatud vorminguhierarhias: ükshaaval, ülevalt alla.
 
-Kui ER käitab vorminguelementi, mis sisaldab sidumist, käitatakse selle sidumise valemit ja vorminguelement lisab väärtuse loodud dokumendile. Näiteks võib sidumine edastada [andmemudeli](general-electronic-reporting.md#data-model-and-model-mapping-components) välja väärtuse vorminguelemendile. Saate konfigureerida andmeallikat DATA COLLECTION, et koguda käitusajal andmemudeli väljade väärtusi, teha väärtuste summeerimist ja täita loodud dokument kogutud väärtustega. Selle lähenemise kasutamiseks muutke esmane sidumine nii, et konfigureeritud DATA COLLECTION andmeallikat kasutatakse andmemudeli välja väärtuse edastamiseks vorminguelemendile. Väärtuste edastamisel andmeallikast DATA COLLECTION saate koguda nõutavaid üksikasju edasiseks kasutamiseks.
+Kui ER käitab vorminguelementi, mis sisaldab sidumist, käitatakse selle sidumise valemit ja vorminguelement lisab väärtuse loodud dokumendile. Näiteks võib sidumine edastada andmemudeli välja väärtuse vorminguelemendile. Saate konfigureerida andmeallikat DATA COLLECTION, et koguda käitusajal andmemudeli väljade väärtusi, teha väärtuste summeerimist ja täita loodud dokument kogutud väärtustega. Selle lähenemise kasutamiseks muutke esmane sidumine nii, et konfigureeritud DATA COLLECTION andmeallikat kasutatakse andmemudeli välja väärtuse edastamiseks vorminguelemendile. Väärtuste edastamisel andmeallikast DATA COLLECTION saate koguda nõutavaid üksikasju edasiseks kasutamiseks.
 
 Andmeallika DATA COLLECTION konfigureerimisel määrake andmeallikas hallatav väärtuse tüüp. Praegu toetatakse järgmisi [andmetüüpe](er-formula-supported-data-types-primitive.md) väärtuste kogumiseks:
 

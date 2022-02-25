@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-05-02
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: f0fba0a9234e5b7cb055f7b97578bff72f1d06ac
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: e356ef8339f8f71965bf9313e14fed3d0810152d
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571973"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103609"
 ---
 # <a name="enable-change-management-on-existing-products"></a>Luba olemasolevate toodete muudatuste haldamine
 
@@ -27,12 +27,9 @@ Selles teemas kirjeldatakse, kuidas lubada olemasolevate toodete muudatusehaldus
 
 Kui lubate olemasoleva toote muudatusehalduse, saate luua selle toote versioone ja jälgida muudatusi, mis tehakse selle kogu eluea jooksul. Seetõttu saate neid muudatusi jälgida muudatustellimuste abil. Muudatusehalduse lubamiseks peate teisendama vastavad tooted *tehnilisteks kaupadeks* (nimetatakse ka tehnilisteks toodeteks). Tehnilised tooted on tooted, mis on versioonitud ja mida hallatakse muudatusehalduse kaudu. Teisendusprotsessi juhendamiseks on ette nähtud viisard.
 
-## <a name="turn-on-the-feature-in-your-system"></a>Funktsiooni sisselülitamine teie süsteemis
+## <a name="turn-this-feature-on-or-off"></a>Selle funktsiooni sisse- või väljalülitamine
 
-Selle võimaluse kasutamiseks peate täitma järgmised ülesanded.
-
-1. Lubage tehnilise muudatuse haldus ja selle konfiguratsioonivõti, nagu on kirjeldatud jaotises [Tehnilise muudatuse halduse ülevaade](product-engineering-overview.md).
-1. Lülitage funktsioonihalduses sisse funktsioon *Luba olemasolevate toodete muudatusehaldus*. Lisateavet vt [Funktsioonihalduse ülevaatest](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Selles teemas kirjeldatud funktsioonid nõuavad, et nii *Tehnika muutmise haldus* *kui ka luba olemasolevate toodete* funktsioonide muudatusehaldus lülitatakse teie süsteemi jaoks sisse. Üksikasju selle kohta, kuidas neid funktsioone sisse või välja lülitada, vt tehnika [muudatusehalduse ülevaadet](product-engineering-overview.md).
 
 ## <a name="restrictions-and-limitations"></a>Piirangud
 

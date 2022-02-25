@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 72c372a4d9b6af337731ff0bbd750b3b58f27bb79cb3813a0b5e4f79707d9f5c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 96fdf33f4cc5f22015c00c57858bd438e6465764
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730603"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323636"
 ---
 # <a name="supported-primitive-data-types-for-electronic-reporting-formulas"></a>Elektroonilise aruandluse valemite toetatud primitiivsed andmetüübid
 
@@ -101,7 +101,7 @@ Võrdlus [tehted](er-formula-language.md#Operators) on ainus tehtemärgi tüüp,
 
 ## <a name="enumeration"></a><a name="enumeration"></a>Loetelu
 
-*Loendamise* primitiivne andmetüüp on literaalide loend. Võite kasutada rakenduse lähtekoodis määratletud loendeid [lähtekood](../dev-ref/xpp-data-primitive.md#enum). Saate tutvustada ka oma loendusi ER [andmemudelis](general-electronic-reporting.md#data-model-and-model-mapping-components) ja ER [vormingu](general-electronic-reporting.md#FormatComponentOutbound) komponentides.
+*Loendamise* primitiivne andmetüüp on literaalide loend. Võite kasutada rakenduse lähtekoodis määratletud loendeid [lähtekood](../dev-ref/xpp-data-primitive.md#enum). Saate tutvustada ka oma loendusi ER andmemudelis ja ER vormingu komponentides.
 
 Rakenduste *loendamist* saab kasutada mis tahes ER-mudeli vastenduse ja ER-vormingu avaldistes.
 

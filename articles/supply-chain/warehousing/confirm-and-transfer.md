@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 4c366d2f9091ee46ac3b1b6eff72e178932da18e
-ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
-ms.translationtype: HT
+ms.openlocfilehash: 7b487684980f60112d9af6bea02672f7e919c834
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7592624"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103585"
 ---
 # <a name="confirm-and-transfer"></a>Kinnitamine ja üleviimine
 
@@ -53,12 +53,9 @@ Saate tükeldada ainult järgmistele kriteeriumidele vastavaid koormuseid.
 >
 > Kasutage funktsiooni *Kinnitamine ja üleviimine* olukordades, kus koormuseid planeeritakse ja luuakse tavaliselt ette ja, kuid kus võib vahel ilmneda erandeid, mille puhul koormus ei mahu saadaolevasse transpordivahendisse (nt veokisse).
 
-## <a name="turn-on-confirm-and-transfer"></a>Kinnitamise ja üleviimise sisselülitamine
+## <a name="turn-the-confirm-and-transfer-feature-on-or-off"></a>Kinnitamis- ja ülekandefunktsiooni sisse- või väljalülitamine
 
-Enne funktsiooni *Kinnitamine ja üleviimine* kasutamist peate selle oma süsteemis sisse lülitama. Administraatorid saavad kasutada [funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sätteid, et kontrollida funktsiooni olekut ja vajadusel selle sisse lülitada. Tööruumis **Funktsioonihaldus** loetletakse funktsiooni järgneval viisil.
-
-- **Moodul:** *laohaldus*
-- **Funktsiooni nimi:** *Kinnitamine ja üleviimine*
+Selles teemas kirjeldatud funktsioonide kasutamiseks peab kinnitamise *ja* ülekandmise funktsioon olema teie süsteemi jaoks sisse lülitatud. Tarneahela halduse 10.0.25 puhul on see funktsioon kohustuslik ja seda ei saa välja lülitada. Kui käitate versiooni, mis *on*[vanem kui 10.0.25, saavad administraatorid selle funktsiooni sisse või välja lülitada, otsides Funktsioonihalduse tööruumis kinnitamis- ja ülekandefunktsiooni.](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
 
 ## <a name="set-up-confirm-and-transfer"></a>Kinnitamise ja üleviimise häälestamine
 

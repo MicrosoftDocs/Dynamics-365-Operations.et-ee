@@ -2,11 +2,9 @@
 title: Tegevusest sõltuvate ER-i sihtkohtade konfigureerimine
 description: Sellest teemast selgitatakse, kuidas konfigureerida tegevusest sõltuvad sihtkohad konfigureeritud elektroonilise aruandluse (ER) vormingu iga kausta või faili komponendi jaoks.
 author: NickSelin
-manager: AnnBe
 ms.date: 02/09/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERSolutionTable, ERFormatDestinationTable
 audience: Application User
@@ -17,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: ea7543fddef085cfd1e92edf0b1dabf6d0aac38a
-ms.sourcegitcommit: 5264aaec3723c40a219e4d2867afe1ba9cc5f2a2
-ms.translationtype: HT
+ms.openlocfilehash: e0c836d4a0be47b753d74dc9d6d40ea7d9197176
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5153635"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323975"
 ---
 # <a name="configure-action-dependent-er-destinations"></a>Tegevusest sõltuvate ER-i sihtkohtade konfigureerimine
 
 [!include [banner](../includes/banner.md)]
 
-Saate konfigureerida [sihtkohad](electronic-reporting-destinations.md) iga [elektroonilise aruandluse (ER)](general-electronic-reporting.md) [vormingu](general-electronic-reporting.md#FormatComponentOutbound) [konfiguratsiooni](general-electronic-reporting.md#Configuration) väljundi komponendi jaoks, mida kasutatakse väljamineva dokumendi jaoks. Kasutajad, kes kasutavad seda tüüpi ER-vormingut ja kellel on vastavad pääsuõigused, saavad muuta konfigureeritud sihtkoha sätteid ka käitusajal.
+Sihtkohad saate [konfigureerida](electronic-reporting-destinations.md) elektroonilise aruandluse (ER) [vormingu konfiguratsiooni igale väljundkomponendile (kaustale või failile),](general-electronic-reporting.md)[mida](general-electronic-reporting.md#Configuration) kasutatakse väljamineva dokumendi loomiseks. Kasutajad, kes kasutavad seda tüüpi ER-vormingut ja kellel on vastavad pääsuõigused, saavad muuta konfigureeritud sihtkoha sätteid ka käitusajal.
 
 Rakenduse Microsoft Dynamics 365 Finance **versioonis 10.0.17 ja uuemas** saab ER-vormingut käitada [valmistades ette](er-apis-app10-0-17.md) tegevuse koodi, mille kasutaja ER-vormingut käitades teeb. Näiteks moodulis **Müügireskontro**, saate prindihalduse sätetes valida ER-vormingu, mis loob kindla äridokumendi, nt vabas vormis arve. Seejärel saate arve eelvaate kuvamiseks valida nupu **Kuva** või printerisse saatmiseks nupu **Prindi**. Kui kasutaja tegevus edastatakse töötavasse ER-vormingusse käitusajal, saate konfigureerida eri kasutaja tegevustele erinevad ER-i sihtkohad. Selles teemas selgitatakse, kuidas konfigureerida ER-i sihtkohti seda tüüpi ER-vormingule.
 
@@ -62,7 +60,7 @@ Kui valite dokumendi tüübi **Mis tahes**, valitakse suvand **Automaatne tuvast
     - Kui käitusajal esitatakse tegevus **Saada**, rakendatakse ER-i sihkoht **E-post**.
     - Kui käitusajal esitatakse tegevus **Prindi**, rakendatakse ER-i sihkoht **Printer**.
 
-Näiteks saate kasutada ER-vormingut **Vabas vormis arve (Excel)**, et selle sisestamisel printida [vabas vormis arve](https://docs.microsoft.com/dynamics365/finance/accounts-receivable/create-free-text-invoice-new). Loodud dokumendi marsruutimiseks peate konfigureerima selle ER-vormingu jaoks ER-i sihtkohad. Näiteks peate võib-olla konfigureerima need ER-i sihtkohad, et teha genereeritud dokumendis järgmist.
+Näiteks saate kasutada ER-vormingut **Vabas vormis arve (Excel)**, et selle sisestamisel printida [vabas vormis arve](../../../finance/accounts-receivable/create-free-text-invoice-new.md). Loodud dokumendi marsruutimiseks peate konfigureerima selle ER-vormingu jaoks ER-i sihtkohad. Näiteks peate võib-olla konfigureerima need ER-i sihtkohad, et teha genereeritud dokumendis järgmist.
 
 - Arhiivige dokument, kui ER-vorming on käivitunud, kuid tegevuskoodi pole antud (näiteks dokumendi elektroonilisel saatmisel).
 - Kuvage veebibrauseris dokumendi eelvaade, kui kasutaja sooritab tegevuse **Kuva**.
@@ -71,11 +69,11 @@ Näiteks saate kasutada ER-vormingut **Vabas vormis arve (Excel)**, et selle sis
 
 Järgmises näites on näidatud, kuidas saavutada seda ER-i sihtkohtade konfigureerimist individuaalsete sihtkoha kirjete komplektina, kui iga kirje konfigureeritakse individuaalse kasutaja tegevuse jaoks.
 
-![Elektroonilise aruandluse sihtleht, kus on tegevusest sõltuvad sihtkoha sätted ER-vormingu jaoks, kui iga sihtkirje on konfigureeritud ühe kasutaja tegevuse jaoks](./media/er-destination-action-dependent-01.png)
+![Elektroonilise aruandluse sihtleht, kus on tegevusest sõltuvad sihtkoha sätted ER-vormingu jaoks, kui iga sihtkirje on konfigureeritud ühe kasutaja tegevuse jaoks.](./media/er-destination-action-dependent-01.png)
 
 Järgmises näites on näidatud, kuidas saavutada samu alternatiivseid ER-i sihtkohtade konfigureerimisi individuaalsete sihtkoha kirjete komplektina, kui iga kirje konfigureeritakse individuaalse sihtkoha jaoks.
 
-![Elektroonilise aruandluse sihtleht, kus on tegevusest sõltuvad sihtkoha sätted ER-vormingu jaoks, kui iga sihtkirje on konfigureeritud ühe sihtkoha jaoks](./media/er-destination-action-dependent-01a.png)
+![Elektroonilise aruandluse sihtleht, kus on tegevusest sõltuvad sihtkoha sätted ER-vormingu jaoks, kui iga sihtkirje on konfigureeritud ühe sihtkoha jaoks.](./media/er-destination-action-dependent-01a.png)
 
 > [!NOTE]
 > Kui jooksva ER-vormingu käitamiseks on antud tegevuse kood, kuid selle tegevuskoodi jaoks pole ühtegi sihtkohta konfigureeritud, rakendatakse [vaikimisi](electronic-reporting-destinations.md#default-behavior) sihtkoha käitumist.
@@ -84,9 +82,9 @@ Järgmises näites on näidatud, kuidas saavutada samu alternatiivseid ER-i siht
 
 Kui ER-vormingu käitamisel kasutaja tegevused on valmistatud ette kasutaja poolt, kellel on vastavad [õigused](electronic-reporting-destinations.md#security-considerations) konfigureeritud sihtkohasätete muutmiseks käitusajal, kuvatakse dialoogiboks, mis annab võimaluse muuta konfigureeritud sihtkohasätteid. See dialoogiboks on valikuline ja selle ilme sõltub sellest, kuidas on ER-vormingu käitamiseks tehtud ER-ii raamistiku kutsung rakendatud. Selle dialoogiboksi kuvamisel lubatakse ER-i sihtkohad vastavalt esitatud kasutaja tegevusele.
 
-Järgmises näites on toodud dialoogiboksi **Elektroonilise aruandlse vormingu sihtkohad** näide, mis ilmub, kui vabas vomis arve [sisestatakse](https://docs.microsoft.com/dynamics365/finance/accounts-receivable/create-free-text-invoice-new) ja ER-vorming **Vabas vormis arve (Excel)** käitatakse selle dokumendi loomiseks, kui tegevus **Printer** valmistati ette ja ER-i sihtkohad olid selle vormingu jaoks konfigureeritud, nagu varasemalt selles teemas on näidatud.
+Järgmises näites on toodud dialoogiboksi **Elektroonilise aruandlse vormingu sihtkohad** näide, mis ilmub, kui vabas vomis arve [sisestatakse](../../../finance/accounts-receivable/create-free-text-invoice-new.md) ja ER-vorming **Vabas vormis arve (Excel)** käitatakse selle dokumendi loomiseks, kui tegevus **Printer** valmistati ette ja ER-i sihtkohad olid selle vormingu jaoks konfigureeritud, nagu varasemalt selles teemas on näidatud.
 
-![Dialoogiboks, mis annab võimaluse muuta täätava ER-vormingu algselt konfigureeritud ER-i sihtkohad](./media/er-destination-action-dependent-02.gif)
+![Dialoogiboks, mis annab võimaluse muuta täätava ER-vormingu algselt konfigureeritud ER-i sihtkohad.](./media/er-destination-action-dependent-02.gif)
 
 > [!NOTE]
 > Kui konfigureerisite ER-i sihtkohad mitme töötava ER-vormingu komponendi jaoks, pakutakse valikut eraldi iga ER-vormingu konfigureeritud komponendi jaoks.
@@ -105,7 +103,7 @@ Järgige neid samme, et kontrollida esitatud kasutajategevuse koodi.
 6. Filtreerige lehel **Konfigureerimise silumislogid** ER-i käitamislogisid, et leida oma ER-vormingu käitamise logi.
 7. Vaadake läbi logikirjed, mis peavad sisaldama esitatud kasutajategevuse koodi kirjet, kui ER-vormingu käitamiseks on esitatud mis tahes tegevus.
 
-    ![Elektroonilise aruandluse käitamise logide leht, mis sisaldab teavet kasutajategevuse koodi kohta, mis on esitatud ER-vormingu filtreeritud käituse jaoks](./media/er-destination-action-dependent-03.png)
+    ![Elektroonilise aruandluse käitamise logide leht, mis sisaldab teavet kasutajategevuse koodi kohta, mis on esitatud ER-vormingu filtreeritud käituse jaoks.](./media/er-destination-action-dependent-03.png)
 
 ## <a name=""></a><a name="reports-list-wave1">Äridokumentide loend (voog 1)</a>
 
@@ -117,7 +115,6 @@ Järgmine äridokumentide loend on juhitav funktsiooniga **PM-aruannete väljund
 - Ostutellimuse ostupäring
 - Müügitellimuse kinnitus
 - Märgukirjade märkus
-- Kliendi kontoväljavõte
 - Viivisearve
 - Hankija maksesoovitus
 - Pakkumiskutse
@@ -129,3 +126,6 @@ Järgmine äridokumentide loend on juhitav funktsiooniga **PM-aruannete väljund
 [Elektroonilise aruandluse (ER) sihtkohad](electronic-reporting-destinations.md)
 
 [Elektroonilise aruandluse raamistiku API muudatused Application update 10.0.17 puhul](er-apis-app10-0-17.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

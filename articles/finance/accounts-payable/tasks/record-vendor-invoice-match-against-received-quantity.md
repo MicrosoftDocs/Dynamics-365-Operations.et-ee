@@ -2,26 +2,23 @@
 title: Hankija arve kirjendamine ja sissetulnud kogusega vastendamine
 description: Kui saate hankijalt ostutellimuse alusel arve kaupade või teenuste kohta, võivad äriprotsessid nõuda, et kaubad või teenused peavad enne arve makseks kinnitamist olema kätte saadud.
 author: ShivamPandey-msft
-manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 02/11/2022
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchCreateOrder, PurchEditLines, VendEditInvoice, VendEditInvoiceDefaultQuantityForLinesDropDialog,  VendJournalMatch_PackingSlip, VendInvoiceMatchingDetails
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: aa79ab46e9fdc6f8a2b4524d372949314ac2d200
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 8a3f1463821a43af0d8d5f15225944b080414e4c
+ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442310"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8109914"
 ---
 # <a name="record-vendor-invoice-and-match-against-received-quantity"></a>Hankija arve kirjendamine ja sissetulnud kogusega vastendamine
 
@@ -29,39 +26,42 @@ ms.locfileid: "4442310"
 
 Kui saate hankijalt ostutellimuse alusel arve kaupade või teenuste kohta, võivad äriprotsessid nõuda, et kaubad või teenused peavad enne arve makseks kinnitamist olema kätte saadud. Enne alustamist veenduge, et valitud on konfiguratsioonivõti Arvete vastendamine. 
 
-Veenduge lehel Ostureskontro parameetrid, et valitud on suvand Lubage arvete võrdlemise kontrollimine, suvand Nõua kinnitust väljal Lahknevustega arvete sisestamine ning suvand Kolmesuunaline vastavusse viimine väljal Rea vastavusse viimise poliitika.
+Veenduge, **et** ostureskontro parameetrite lehel on valitud suvand Luba arvete vastendamise kontrollimine, **·** **·** **·** **väli Sisesta lahknevustega arve on seatud valikule Nõua kinnitamist ja rea vastavusse viimise poliitika väli on seatud kolmepoolelisteks vastavusse viimiseks.** **·**
 
 See protsess kasutab demoettevõtte USMF-i andmeid. Järgmiste sammude tegemiseks on vaja ostureskontro juhi või pearaamatupidaja rolli.
 
 
 ## <a name="create-a-purchase-order"></a>Ostutellimuse loomine
 1. Avage valik Kõik ostutellimused.
-2. Klõpsake valikut Uus.
-3. Klõpsake väljal Hankija konto otsingu avamiseks ripploendi nuppu.
-4. Sisestage väärtus väljale Hankija konto.
-5. Klõpsake nuppu OK.
-6. Klõpsake käsku Lisa rida.
-7. Sisestage väärtus väljale Kaubakood.
-8. Klõpsake toimingupaanil valikut Ost.
-9. Klõpsake käsku Kinnita.
+2. Klõpsake valikut **Uus**.
+3. Klõpsake väljal **Hankija konto** otsingu avamiseks ripploendi nuppu.
+4. Sisestage väärtus väljale **Hankija konto**.
+5. Klõpsake valikut **OK**.
+6. Klõpsake käsku **Lisa rida**.
+7. Sisestage väärtus väljale **Kaubakood**.
+8. Klõpsake toimingupaanil valikut **Ost**.
+9. Klõpsake käsku **Kinnita**.
 
 ## <a name="post-a-product-receipt"></a>Toote sissetuleku sisestamine
-1. Klõpsake toimingupaanil valikut Vastuvõtt.
-2. Klõpsake valikut Toote sissetulek.
+1. Klõpsake toimingupaanil valikut **Vastuvõtt**.
+2. Klõpsake valikut **Toote sissetulek**.
 3. Märkige loendis valitud rida.
-4. Sisestage väärtus väljale Toote sissetulek.
-5. Klõpsake nuppu OK.
+4. Sisestage väärtus väljale **Toote sissetulek**.
+5. Klõpsake valikut **OK**.
 
 ## <a name="record-and-match-a-vendor-invoice-to-a-product-receipt"></a>Hankija arve salvestamine ja vastendamine toote sissetulekuga
-1. Klõpsake toimingupaanil valikut Arve.
-2. Klõpsake valikut Arve.
-3. Sisestage väärtus väljale Arv.
-4. Rippdialoogi avamiseks klõpsake valikut Vaikimis asukohast: tellitud kogus.
-5. Valige suvand väljal Ridade vaikekogus.
-6. Klõpsake nuppu OK.
-7. Klõpsake nuppu Jah.
-8. Klõpsake valikut Toote sissetulekute vastendamine.
-9. Klõpsake nuppu OK.
-10. Klõpsake toimingupaanil valikut Vaata üle.
-11. Klõpsake valikut Vastanduvad üksikasjad.
+1. Klõpsake toimingupaanil valikut **Arve**.
+2. Klõpsake **Arve**.
+3. Sisestage väärtus väljale **Arv**.
+4. Rippdialoogi avamiseks klõpsake valikut **Vaikimisi asukohast: tellitud kogus**.
+5. Valige suvand väljal **Ridade vaikekogus**.
+6. Klõpsake nupul **OK**.
+7. Klõpsake nuppu **Jah**.
+8. Klõpsake valikut **Toote sissetulekute vastendamine**.
+9. Klõpsake nupul **OK**.
+10. Klõpsake toimingupaanil valikut **Vaata üle**.
+11. Klõpsake valikut **Vastanduvad üksikasjad**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

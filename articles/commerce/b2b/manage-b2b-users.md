@@ -1,8 +1,8 @@
 ---
 title: Äripartnerist kasutajate haldamine B2B e-kaubanduse veebisaitidel
-description: Selles teemas kirjeldatakse, kuidas administraatorid saavad lisada, redigeerida ja kustutada äripartnerist kasutajaid ettevõtetevahelistel (B2B) e-kaubanduse veebisaitidel.
+description: See teema kirjeldab, kuidas lisada, kustutada ja redigeerida Microsoft Dynamics 365 Commerce äripartneri kasutajaid ettevõtete vahel (B2B) e-kaubanduse veebisaitidel ja Commerce Headquartersis.
 author: josaw1
-ms.date: 10/26/2021
+ms.date: 02/17/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,72 +14,56 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 090dc9af49840e559b4c1ad1500718fde9764aa2
-ms.sourcegitcommit: 6bf9e18989e6d77497a9dda1c362f324b3c2fbf2
+ms.openlocfilehash: def8d4de082ceb4be77ed7e8898cbef82d52b749
+ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/27/2021
-ms.locfileid: "7713689"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323451"
 ---
 # <a name="manage-business-partner-users-on-b2b-e-commerce-websites"></a>Äripartnerist kasutajate haldamine B2B e-kaubanduse veebisaitidel
 
 [!include [banner](../../includes/banner.md)]
 
-Selles teemas kirjeldatakse, kuidas administraatorid saavad lisada, redigeerida ja kustutada äripartnerist kasutajaid ettevõtetevahelistel (B2B) e-kaubanduse veebisaitidel.
+See teema kirjeldab, kuidas lisada, kustutada ja redigeerida Microsoft Dynamics 365 Commerce äripartneri kasutajaid ettevõtete vahel (B2B) e-kaubanduse veebisaitidel ja Commerce Headquartersis.
 
-B2B e-kaubanduse veebisaidid nõuavad, et organisatsioonide äripartneriks saamiseks registreeruksid. Kui organisatsioon on B2B e-kaubanduse veebisaidile registreerimisandmed esitanud, läbib see kvalifikatsiooniprotsessi. Kui organisatsioon on edukalt kvalifitseeritud, võetakse see äripartnerina vastu.
+> [!NOTE]
+> Dokumendi [eeltingimuseks on B2B-äripartnerite](partners-customer-hierarchies.md) haldamine, kasutades kliendi hierarhiate teemat. 
+
+B2B e-kaubanduse veebisaidid nõuavad, et organisatsioonide äripartneriks saamiseks registreeruksid. Pärast seda, kui organisatsioon esitab registreerimisandmed B2B e-äri veebisaidile, läbib registreerimistaotlus kvalifikatsiooniprotsessi. Kui organisatsioon on edukalt kvalifitseeritud, võetakse see äripartnerina vastu.
 
 Kui organisatsioon on äripartneriks võetud, määratakse administraatoriks organisatsiooni see kasutaja, kes algatas äripartneriks saamise, ja talle antakse õigus liita B2B e-kaubanduse veebisaidile täiendavaid volitatud kasutajaid. Need volitatud kasutajad saavad seejärel esitada tellimusi äripartneri nimel.
 
-## <a name="turn-on-the-b2b-e-commerce-capabilities-feature-in-commerce-headquarters"></a>B2B e-kaubanduse võimaluse funktsiooni sisselülitamine Commerce'i peakontoris
-
-Commerce'i peakontori B2B e-kaubanduse võimaluste funktsioon võimaldab võtta vastu äripartnereid ja määrata administraatorkasutajaid. See funktsioon võimaldab administraatoritel ka luua ja hallata äripartneri kasutajaid ja meeskondi ning määrata neile kindlaid rolle. Lõpuks võimaldab see äripartnerist kasutajatel luua tellimuse malle ja kasutada olemasolevaid tellimusi toodete uuesti tellimiseks.
-
-B2B e-kaubanduse võimaluse funktsiooni sisselülitamiseks Commerce'i peakontoris toimige järgmiselt.
-
-1. Avage **Tööruumid \> Funktsioonihaldus**.
-1. Filtreerige vahekaardil **Kõik** väljal **Moodul** termini **Jaemüük ja kaubandus** järgi.
-1. Leidke ja valige funktsioon nimega **Luba B2B e-kaubanduse võimaluste kasutamine** ja seejärel valige **Luga kohe**.
-
-## <a name="create-a-number-sequence-and-add-it-to-commerce-shared-parameters"></a>Looge numbriseeria ja lisage see Commerce'i ühisparameetritele
-
-Numbriseeriaid kasutatakse loetavate ainuidentifikaatorite loomiseks koondandmete ja kannete kirjete jaoks, mis nõuavad identifikaatoreid. Numbriseeriate kohta leiate lisateavet teemast [Numbriseeriate ülevaade](../../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md).
-
-Numbriseeria loomiseks ja Commerce'i ühisparameetritele lisamiseks toimige järgmiselt.
-
-1. Avage **Jaemüük ja kaubandus \> Peakontori seadistus \> Numbriseeriad \> Numbriseeriad** ja looge numbriseeria.
-1. Avage **Jaemüük ja kaubandus \> Peakontori seadistus \> Parameetrid \> Commerce'i ühisparameetrid** ja lisage uus numbriseerija viitele **Kliendi hierarhia ID**.
-
 ## <a name="set-up-the-administrator-user-for-a-new-business-partner"></a>Administraatorkasutajate seadistamine uue äripartneri jaoks
 
-Potentsiaalsed äripartnerid saavad käivitada B2B e-kaubanduse veebisaidiga liitumise protsessi esitades liitumistaotluse läbi saidil oleva lingi. Pärast seda, kui potentsiaalne äripartnerist kasutaja valib lingi, saab ta esitada üksikasjad, mis on liitumise ja registreerumise jaoks nõutavad. Pärast taotluse esitamist kuvatakse esitamise kinnituse leht. Kui esildis kinnitatakse, saab taotlejast (st kasutajast, kes algatas liitumistaotluse) äripartneri administraatorkasutaja.
+Potentsiaalsed äripartnerid saavad käivitada sisseseadmisprotsessi B2B e-äri veebisaidile, esitades sisseostmistaotluse B2B veebisaidi lingi kaudu. Siis saavad nad kasutada kohandatavat vormi, et pakkuda üksikasju, mis on vajalikud sisse- ja välja registreerimiseks. Pärast taotluse esitamist kuvatakse esitamise kinnituse leht. Kui esitamine kinnitatakse, muutub ettevõte, mille jaoks taotlus esitati, äripartneriks ning nõudeja (kes algatas sisseseadmistaotluse) äripartneri administraatoriks.
 
-Äripartneri administraatorkasutaja kinnitamiseks ja häälestamiseks Commerce'i peakontoris toimige järgmiselt.
+Äripartneri taotluse kinnitamiseks Commerce Headquartersis järgige neid samme.
 
 1. Avage **Jaemüügi ja kaubanduse IT \> Jaotusgraafik**.
 1. Käivitage töö **P-0001**, et tõmmata kõik äripartnerite liitumistaotlused Commerce'i peakontorisse.
-1. Pärast töö **P-0001** edukat käitamist avage **Jaemüügi ja kaubanduse IT \> Klient** ja käivitage töö **Sünkrooni kliendid ja äripartnerid asünkroonsest režiimist**. Kui see töö on edukalt käitatud, luuakse Commerce'i peakontoris liitumistaotlused potentsiaalsete klientide kirjetena. Nende kirjete väli **Tüübi ID** on seadistatud olekusse **Potentsiaalne B2B klient**.
-1. Avage **Kliendid \> Kõik potentsiaalsed kliendid** ja avage potenstiaalsete klientide leht.
-1. Valige uue äripartneri potentsiaalse kliendi kirje, et avada potentsiaalse kliendi üksikasjade leht.
-1. Valige vahekaardil **Üldine** jaotis **Teisendamine \> Kinnitamine/Tagasilükkamine**, et liitumistaotlus kas kinnitada või tagasi lükata. Kui kuvatakse kinnitusteade, kinnitage, et soovite protsessiga jätkata ja taotluse kinnitada. Seejärel saadetakse taotleja meiliaadressile meil kinnitamaks, et tema organisatsioon on äripartnerina kinnitatud.
+1. Kui töö **P-0001 on** edukalt käitatud, **minge jaemüügi ja äri ite \>** kliendi ja käivitage klientide **ja kanali taotluste sünkroonimise** töö. Pärast selle töö edukat käivitamist luuakse **Commerce Headquartersis B2B-potentsiaalse** kliendi tüübi potentsiaalsete klientidena katmistaotlused. 
+1. Minge kliendi **kõigi \> potentsiaalsete klientide** juurde ja valige uue äripartneri potentsiaalse kliendi kirje potentsiaalse kliendi üksikasjade lehe avamiseks.
+1. Märkige vahekaardil **Üldine** ruut Teisenda **kinnitamine \> /Tagasilükkamine**, et kinnitada sisseostmistaotlus. Kui kuvatakse kinnitusteade, kinnitage, et soovite protsessiga jätkata, ja seejärel kinnitage taotlus. Kinnitamine muudab potentsiaalse **kliendi** kirje olekuvälja väärtusele **Kinnitatud**. Seejärel saadetakse taotleja meiliaadressile meil kinnitamaks, et tema organisatsioon on äripartnerina kinnitatud. Luuakse ka kliendihierarhia, kus nõudeja lisatakse äripartneri administraatorina.
 
-    Pärast taotluse kinnitamist määratakse potentsiaalse kliendi väli **Olek** väärtuseks **Kinnitatud**. Lisaks luuakse süsteemis kaks uut kliendikirjet: kliendikirje **Tüüp Organisatsioon** äripartneri organisatsioonile ja kliendikirje **Tüüp Isik** taotlejale. Samuti luuakse äripartnerile kliendi hierarhia kirje. <!--(Please refer to the Org modeling of B2B customer section in this document for more information)-->
+    > [!NOTE]
+    > Praegu saadetakse kinnituse meil kinnitamisel kohe. Kuid tulevane Commerce'i funktsioon võimaldab administraatoril e-kirjad käsitsi käivitada.
 
-1. Avage **Jaemüügi ja kaubanduse IT \> Jaotusgraafik** ja käivitage töö **1010** (**Kliendid**), et suunata vastloodud kliendi ja kliendi hierarhia kirjed kanali andmebaasi.
+1. Minge jaemüügi **ja äri it-jaotuse \>** **graafikusse ja käivitage 1010 (kliendid)** töö, et suunata uued kliendi ja kliendi hierarhia kirjed kanali andmebaasi.
 
-Kui taotlus on kinnitatud ja kliendi ning kliendi hierarhia kirjed on sünkroonitud kanali andmebaasi, saab taotleja B2B e-kaubanduse veebisaidile sisse logida, kasutades taotlust esitades antud meiliaadressi. Kasutajad saavad kasutada registreerumisvoogu oma kontole parooli määratlemiseks. Identiteedipakkuja (Azure AD B2C) kirje linkimise lubamiseks registreerumisel või sisselogimisel loodud B2B-kliendikirjega järgige juhiseid lingil [Luba identiteedikirjete automaatne linkimine kliendikontodega](../identity-record-linking.md).
+> [!NOTE]
+> Tagamaks, et uued kliendikirjed saadetakse kanali andmebaasi, peab vähemalt üks kliendiga seotud aadressiraamatutest olema kaasatud võrgupoega seostatud kliendi aadressiraamatusse. Saate selle protsessi automatiseerida, konfigureerides e-poe vaikekliendi aadressiraamatu nii, et süsteem kopeerib aadressiraamatu väärtuse igale uuele kliendile.
+
+Kui kliendi hierarhia kirjed on kanali andmebaasiga sünkroonitud, saab nõudeja sisse logida B2B e-äri veebisaidile, kasutades meiliaadressi, mille nad sisestasid, kui nad esitasid sisseseadmistaotluse. Kasutajad saavad kasutada registreerumisvoogu oma kontole parooli määratlemiseks. Lisateavet selle kohta Azure Active Directory, kuidas lubada (Azure AD) B2C-identiteedi pakkuja kirje linkimine potentsiaalse kliendi kinnitusel loodud B2B kliendikirjega, vt [Luba automaatne linkimine](../identity-record-linking.md).
 
 ## <a name="notify-b2b-prospects-when-they-are-approved-or-rejected"></a>Teatage B2B-potentsiaalseid kliente, kui need on kinnitatud või tagasi lükatud
 
-Kui kinnitate või lükkate tagasi B2B potentsiaalse kliendi taotluse, saate potentsiaalsele kliendile automaatselt saata meiliteatise. 
+Kui kinnitate või lükkate tagasi B2B potentsiaalse kliendi taotluse, saab meiliteatise potentsiaalsele kliendile automaatselt saata.
 
-Commerce Headquarters`is kinnitatud B2B-potentsiaalse kliendi heakskeedetud või B2B-potentsiaalse kliendi tagasilükatud teatise tüübi sündmuste kohta meiliteatiste häälestamiseks järgige neid samme.
+Commerce Headquartersis **kinnitatud B2B-potentsiaalse kliendi või B2B-potentsiaalse** **kliendi** tagasilükatud teatise tüübi sündmuste kohta meiliteatiste häälestamiseks järgige neid samme.
 
-1. Looge meilimallid e-kirjade jaoks, mis saadetakse potentsiaalsetele klientidele, kui B2B-potentsiaalne klient on kinnitatud või B2B potentsiaalse kliendi tagasilükatud teavitustüüp on käivitatud.
-
-    Lisateavet kohatäitjate kohta, mida B2B potentsiaalne klient heaks kiitis ja B2B potentsiaalse kliendi tagasilükatud teatisetüübid toetavad, vaata [teatisetüübid](../email-templates-transactions.md#notification-types). Teabe saamiseks e-kirja mallide loomise kohta vt teemast [E-kirja malli loomine](../email-templates-transactions.md#create-an-email-template). 
-
-1. Lisage B2B-potentsiaalne klient kinnitatud ja B2B-potentsiaalse kliendi tagasilükatud teatisetüübid oma meiliteatise profiili ja vastendage need loodud meilimallidega. Lisateavet meiliteatise profiilide häälestamise kohta vaata [häälestage meiliteatise profiil](../email-notification-profiles.md). 
+1. Looge meilimallid e-kirjade jaoks **, mis saadetakse potentsiaalsetele klientidele, kui B2B-potentsiaalne** **klient on kinnitatud või B2B** potentsiaalse kliendi tagasilükatud teavitustüüp käivitatakse. Lisateavet nende teatisetüüpide toega seotud kohatäitjate kohta vt teatise [tüüpidest](../email-templates-transactions.md#notification-types). Teabe saamiseks e-kirja mallide loomise kohta vt teemast [E-kirja malli loomine](../email-templates-transactions.md#create-an-email-template).
+1. **Lisage B2B-potentsiaalne klient** **kinnitatud ja B2B-potentsiaalse** kliendi tagasilükatud teatisetüübid oma meiliteatise profiili ja vastendage need loodud meilimallidega. Lisateavet meiliteatise profiilide häälestamise kohta vaata [häälestage meiliteatise profiil](../email-notification-profiles.md).
 
 ## <a name="onboard-additional-business-partner-users"></a>Täiendavate äripartneri kasutajate liitmine
 
@@ -91,58 +75,61 @@ B2B e-kaubanduse veebisaidile äripartnerite lisamiseks toimige järgmiselt.
 1. Avage **Minu konto \> Organisatsiooni kasutajad \> Vaata üksikasju** ja valige **Lisa kasutaja**.
 1. Sisestage nõutud teave ja seejärel valige **Salvesta**. Uue kasutaja olekuks seadistatakse **Ootel**.
 
-    Pärast tööde **P-0001** ja **Sünkrooni kliendid ja äripartnerid asünkroonsest režiimist** käitamist luuakse Commerce'i peakontoris uuele kasutajale kliendikirje **Tüüp Isik**. See kliendikirje on seotud ka vastava äripartnerist kliendi hierarhia kirjega. Lisaks saadetakse e-kiri uue kasutaja meiliaadressile, et teavitada teda äripartneri organisatsiooni kasutajaks lisamisest ja sellest, et ta saab nüüd B2B e-kaubanduse veebisaidile sisse logida.
+Kui P-0001 **·** **ja** Sünkrooni kliendid ja kanali taotlused on käitatud, **luuakse** Commerce Headquartersis uue kasutaja jaoks klienditüüp Isik. See kliendikirje on seotud ka vastava äripartnerist kliendi hierarhia kirjega. Lisaks saadetakse e-kiri uue kasutaja meiliaadressile, et teavitada teda äripartneri organisatsiooni kasutajaks lisamisest ja sellest, et ta saab nüüd B2B e-kaubanduse veebisaidile sisse logida.
 
-1. Käivitage töö **1010** (**Kliendid**), et sünkroonida uued äripartneri kasutajad kanali andmebaasiga.
+Järgmisena käivitage **1010 -töö (Kliendid),** et sünkroonida uus äripartneri kasutaja kanali andmebaasiga.
 
-Kui kliendikirje on sünkroonitud, määratakse kasutaja olekuks B2B e-kaubanduse veebisaidil **Aktiivne** ja uus kasutaja saab B2B e-kaubanduse veebisaidile oma meiliaadressi kasutades sisse logida. Kasutajad saavad kasutada registreerumisvoogu oma kontole parooli määratlemiseks. Identiteedipakkuja (Azure AD B2C) kirje linkimise lubamiseks registreerumisel või sisselogimisel loodud B2B-kliendikirjega järgige juhiseid lingil [Luba identiteedikirjete automaatne linkimine kliendikontodega](../identity-record-linking.md).
+Kui kliendikirje on sünkroonitud, on B2B e-äri **veebisaidi kasutaja olekuks seadistatud Aktiivne** ja uus kasutaja saab oma meiliaadressi kasutades B2B e-commerce'i veebisaidile sisse logida. Kasutajad saavad kasutada registreerumisvoogu oma kontole parooli määratlemiseks. Lisateavet, kuidas Azure AD lubada B2C-identiteedi pakkuja kirje linkimine Commerce Headquartersis loodud B2B kliendikirjega, vt Luba [automaatne linkimine](/dynamics365/commerce/identity-record-linking.md).
 
 ## <a name="edit-business-partner-user-details"></a>Äripartneri kasutaja üksikasjade redigeerimine
 
 Äripartneri kasutajate üksikasjade redigeerimiseks järgige neid samme.
 
 1. Logige B2B e-kaubanduse veebisaidile administraatorina sisse.
-1. Avage **Minu konto \> Organisatsiooni kasutajad \> Kuva üksikasjad** valige nupp **Redigeeri** (pliiatsi sümbol), tehke vajalikud muudatused ja seejärel valige nupp **Salvesta**. Muudatused jõustuvad alles pärast seda, kui tööd **P-0001**, **Sünkrooni kliendid ja äripartnerid asünkroonsest režiimist** ja **1010** (**Kliendid**) on käitatud.
+1. Avage **Minu konto \> Organisatsiooni kasutajad \> Kuva üksikasjad** valige nupp **Redigeeri** (pliiatsi sümbol), tehke vajalikud muudatused ja seejärel valige nupp **Salvesta**. Muudatused jõustuvad alles pärast seda **, kui P-0001**, **·** **klientide ja kanali taotluste sünkroonimine ja 1010 (kliendid)** tööd on käitatud.
 
 ## <a name="remove-a-business-partner-user"></a>Äripartneri kasutaja eemaldamine
 
 Administraator saab vajadusel eemaldada äripartneri organisatsiooni olemasoleva kasutajad nende kasutajate loendist, kellel on juurdepääs B2B e-kaubanduse veebisaidile.
-
 Äripartneri kasutaja eemaldamiseks toimige järgmiselt.
-
-1. Logige B2B e-kaubanduse veebisaidile administraatorina sisse.
-1. Avage **Minu konto \> Organisatsiooni kasutajad \> Vaata üksikasju** ja valige nupp **Eemalda** ("X" sümbol). Kui kuvatakse kinnitusteade, kinnitage, et soovite kasutaja eemaldada. Muudatused jõustuvad alles pärast seda, kui tööd **P-0001**, **Sünkrooni kliendid ja äripartnerid asünkroonsest režiimist** ja **1010** (**Kliendid**) on käitatud.
+- Logige B2B e-kaubanduse veebisaidile administraatorina sisse.
+- Minge jaotisesse **Minu konto > Organisatsiooni kasutajad \> vaadake** üksikasju ja valige nupp **Eemalda** (sümbol X). Kui kuvatakse kinnitusteade, kinnitage, et soovite kasutaja eemaldada. Muudatus jõustub ainult pärast seda **, kui P-0001**, **·** **klientide ja kanali taotluste sünkroonimine ja 1010 (kliendid)** tööd on käitatud.
 
 > [!NOTE]
 > Kui eemaldate kasutaja B2B e-kaubanduse veebisaidile juurdepääsu omavate kasutajate hulgast, eemaldatakse vastav kasutajakirje äripartneri kliendi hierarhia kirjest. Kuid kliendikirjet ennast Commerce'i peakontorist ei kustutata.
 
-## <a name="onboard-business-partner-and-users-in-commerce-headquarters"></a>Äripartneri ja kasutajate vastuvõtmine Commerce'i peakontoris
+## <a name="onboard-existing-customers-as-business-partners-on-the-b2b-e-commerce-website"></a>Olemasolevad kliendid B2B e-äri veebisaidi äripartneritena
 
-Administraatorid saavad äripartnereid ja kasutajaid otse Commerce'i peakontorist vastu võtta.
+Administraatorid saavad äripartnereid ja kasutajaid otse Commerce'i peakontorist vastu võtta. See võimalus on kasulik oma olemasolevate äripartneritele B2B e-kaubanduse veebisaidi kaudu.
 
 Äripartnerite ja kasutajate vastuvõtmiseks Commerce'i peakontorist toimige järgmiselt.
 
-1. Looge äripartneri organisatsioonile kliendikirje **Tüüp Organisatsioon**.
-1. Looge äripartneri kasutajatele kliendikirjed **Tüüp Isik**. Veenduge, et igale kliendile oleks määratud esmane meiliaadress.
-1. Iga kliendikirje **Tüüp Isik** kohta, kes tuleb määrata äripartneri organisatsiooni administraatoriks, määrake kiirkaardil **Jaemüük** suvand **B2B administraator** olekusse **Jah**.
-1. Looge kliendi hierarhia ID. Väljale **Nimi** sisestage nimi.
+1. Looge või valige klient organisatsiooni **tüübist**, et lisada see äripartnerina.
+1. Looge või valige klient tüübiga **Isik**, et see äripartnerile administraatori või kasutajana lisada. Veenduge, et esmased meiliaadressid on klientidega seostatud. Neid meiliaadressisid kasutatakse veebisaidile sisselogimiseks. 
+
+    > [!NOTE]
+    > Süsteem peab olema võimeline otsima ainulaadset kliendikirjet kasutajatele, kes saavad veebisaidile sisse logida. Kui süsteem leiab rohkem kui ühe kliendi, kellele on juriidilises isikus sama esmane meiliaadress, ei saa kasutaja veebisaidile sisse logida.
+
+1. Looge kliendi hierarhia ID.
+1. Väljale **Nimi** sisestage nimi.
 1. Sisestage väljale **Organisatsioon** äripartnerist organisatsiooni klient.
-1. Valige **Lisa** ja seejärel valige klient väljalt **Nimi**.
-1. Korrake seda protsessi, et lisada hierarhiasse täiendavaid kliente.
+1. **Valige hierarhia kiirkaardil** käsk **Lisa**.
+1. **Valige väljal** Nimi klienditüüp **Isik**.
+1. **Valige administraatori** roll kliendile, mis tuleks määrata administraatoriks.
+1. Korrake seda protsessi klientide lisamiseks hierarhiasse.
 
 ## <a name="additional-information"></a>Lisateave
 
 - Kõiki selles teemas mainitud töid saab konfigureerida graafikus käivituma partiivormingus. Eeldatakse, et äripartnerid konfigureerivad pakett-töid vastavalt vajadusele.
 - Praegu saab adiminstraatorkasutajaks määrata ainult ühe kasutaja/kliendi kirje ja seda rolli saab muuta ainult Commerce'i peakontoris. Puudub tugi iseteeninduse võimalustele, mis laseksid äripartneritel määrata mitut administraatorit või muuta B2B e-kaubanduse veebisaitidel adiminstraatoreid.
-<!--- The modules and labels of the different fields referenced in the screenshots for e-commerce are only for illustration purposes. Customers have complete control on the placement of the B2B related modules and the labels.-->
 - Kuigi kasutajatele saab määrata kulutamise piiranguid, ei ole kulutamise piirangute jõustamist tellimuse sisestamise protsessis veel rakendatud.
 - Kogu kasutajakogemuse äriloogika ja valideerimine B2B e-kaubanduse veebisaidil põhineb kasutajale Commerce'i peakontoris vastendatud kliendikirje konfiguratsioonil.
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-[B2B e-kaubanduse saidi seadistamine](set-up-b2b-site.md)
+[B2B e-kaubandussaidi häälestamine](set-up-b2b-site.md)
 
-[B2B organisatsioonidele organisatsiooni modelleerimise hierarhiate loomine.](org-model.md)
+[B2B-äripartnerite haldamine kliendi hierarhiaid kasutades](partners-customer-hierarchies.md)
 
 [Kliendikonto makseviisi konfigureerimine B2B e-kaubanduse saitide jaoks](payment-method.md)
 

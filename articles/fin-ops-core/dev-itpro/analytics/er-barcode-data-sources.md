@@ -2,11 +2,9 @@
 title: Vöötkoodi andmeallikate kasutamine vöötkoodipiltide loomiseks
 description: Selles teemas selgitatakse, kuidas kasutada vöötkoodi andmeallikaid vöötkoodipiltide loomiseks.
 author: NickSelin
-manager: AnnBe
 ms.date: 10/21/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERModelMappingDesigner, EROperationDesigner
 audience: Application User, Developer, IT Pro
@@ -17,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: Version 10.0.13
-ms.openlocfilehash: 3fb754267de1120bc3c086d49cb7c63028183bda
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: a5a396080d8b5dd4c2ed9a0eb15c1286e8799ebf
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681420"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323948"
 ---
 # <a name="use-barcode-data-sources-to-generate-bar-code-images"></a>Vöötkoodi andmeallikate kasutamine vöötkoodipiltide loomiseks
 
 [!include[banner](../includes/banner.md)]
 
-Saate kasutada [elektroonilise aruandluse (ER)](general-electronic-reporting.md) raamistikku, et kujundada [ER-i vormingukomponente](general-electronic-reporting.md#FormatComponentOutbound), mida saate käitada vajalike elektrooniliste ja prinditavate väljaminevate dokumentide loomiseks. Väljamineva dokumendi loomiseks Microsoft Office'i vormingus peate määrama aruande paigutuse, kasutades aruandemallina kas Microsoft Exceli dokumenti või Microsoft Wordi dokumenti. [ER-i toimingute koostaja](general-electronic-reporting.md#building-a-format-that-uses-a-data-model-as-a-base) võimaldab teil manustada ER-i vormingu jaoks mallina Exceli või Wordi dokumendi. Järgmised lisatud mallis olevad nimega elemendid on seostatud konfigureeritud vormingukomponendi elementidega.
+Saate kasutada elektroonilise aruandluse [(ER)](general-electronic-reporting.md) raamistikku, et kujundada ER-i vormingu komponente, mida saate käitada, et luua soovitud elektroonilisi ja prinditavaid väljaminevaid dokumente. Väljamineva dokumendi loomiseks Microsoft Office'i vormingus peate määrama aruande paigutuse, kasutades aruandemallina kas Microsoft Exceli dokumenti või Microsoft Wordi dokumenti. [ER-i toimingute koostaja](general-electronic-reporting.md#building-a-format-that-uses-a-data-model-as-a-base) võimaldab teil manustada ER-i vormingu jaoks mallina Exceli või Wordi dokumendi. Järgmised lisatud mallis olevad nimega elemendid on seostatud konfigureeritud vormingukomponendi elementidega.
 
 - Sisu juhtelemendid Wordis
 - Nimega lehed, vahemikud, lahtrid, kujundid ja pildid Excelis
@@ -39,7 +37,7 @@ ER toetab nüüd andmeallika tüüpi **Vöötkood**. Seetõttu saate nüüd luua
 
 Aruandemallides saab kasutada vöötkoodipiltide sisestamiseks järgmiseid kohatäiteid.
 
-- [Pildi](https://docs.microsoft.com/office/client-developer/word/content-controls-in-word)sisu juhtelement Wordi jaoks
+- [Pildi](/office/client-developer/word/content-controls-in-word)sisu juhtelement Wordi jaoks
 - [Pildi](https://support.office.com/article/insert-pictures-3c51edf4-22e1-460a-b372-9329a8724344)objekt Excelis
 
 Kasutades andmeallikat, mille tüüp on **Vöötkood**, saate luua vöötkoode järgmistes vormingutes.
@@ -118,21 +116,21 @@ Kui te pole veel lõpule viinud näidet teemas [Piltide ja kujundite manustamine
 
 | Sisu kirjeldus         | Faili nimi                   |
 |-----------------------------|-----------------------------|
-| ER-i andmemudeli konfiguratsioon | Model for cheques.xml       |
-| Elektroonilise aruandluse vormingu konfiguratsioon     | Cheques printing format.xml |
+| ER-i andmemudeli konfiguratsioon | [Model for cheques.xml](https://download.microsoft.com/download/6/e/a/6ea166fd-1382-4fdb-8dcb-0f13379f9c8e/Modelforcheques.xml)      |
+| Elektroonilise aruandluse vormingu konfiguratsioon     | [Cheques printing format.xml](https://download.microsoft.com/download/1/7/c/17c301e3-c4ee-4886-ae75-440fcc002c8c/Chequesprintingformat.xml) |
 
 Lisaks laadige alla järgmine Exceli fail, mis sisaldab muudetud malli pakutava ER-i lahenduse jaoks.
 
 | Sisu kirjeldus | Faili nimi                 |
 |---------------------|---------------------------|
-| Aruandemall     | Check template Excel.xlsx |
+| Aruandemall     | [Check template Excel.xlsx](https://download.microsoft.com/download/3/b/d/3bd3b944-da8f-43b4-8533-3c1292a4c3ef/CheckTemplateExcel.xlsx) |
 
 ### <a name="activate-a-configuration-provider"></a><a name="ExampleProvider"></a>Konfiguratsioonipakkuja aktiveerimine
 
 1. Avage **Organisatsiooni haldamine** \> **Tööruumid** \> **Elektrooniline aruandlus**.
 2. Veenduge lehe **Lokaliseerimise konfiguratsioonid** jaotises **Konfiguratsioonipakkujad**, et näidisettevõtte **Litware, Inc.** [konfiguratsioonipakkuja](general-electronic-reporting.md#Provider) oleks loendis ja aktiivseks märgitud. Kui seda pole loendis või kui see pole märgitud aktiivseks, järgige juhiseid teemas [Konfiguratsioonipakkuja loomine ja selle märkimine aktiivseks](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
-![Näidisettevõtte märkimine aktiivseks lokaliseerimise konfiguratsioonide lehel](./media/er-barcode-data-source-active-provider.png)
+![Näidisettevõtte märkimine aktiivseks lokaliseerimise konfiguratsioonide lehel.](./media/er-barcode-data-source-active-provider.png)
 
 ### <a name="import-the-provided-er-solution"></a><a name="ExampleImportSolution"></a>Pakutava ER-i lahenduse importimine
 
@@ -162,14 +160,14 @@ Lisaks laadige alla järgmine Exceli fail, mis sisaldab muudetud malli pakutava 
 7. Valige toimingupaanil suvand **Prindi test**.
 8. Seadke dialoogiboksis suvandi **Käibiv tšekivorming** väärtuseks **Jah** ja valige seejärel **OK**.
 
-    ![Tšeki paigutuse ja testi printimise dialoogiboks](./media/er-barcode-data-source-check-layout.png)
+    ![Tšeki paigutus - testprintimise dialoogiboks.](./media/er-barcode-data-source-check-layout.png)
 
 ### <a name="review-the-generated-payment-check"></a><a name="ExampleReviewGeneratedCheque"></a>Loodud tšeki ülevaatamine
 
 - Avage loodud tšekk Excelis.
 2. Vaadake loodud tšekk üle.
 
-    ![Loodud tšekk Excelis](./media/er-barcode-data-source-cheque1.png)
+    ![Loodud maksetšekk Excelis.](./media/er-barcode-data-source-cheque1.png)
 
 ### <a name="modify-the-format-of-the-provided-er-solution"></a><a name="ExampleModifyFormat"></a>Pakutava ER-i lahenduse vormingu muutmine
 
@@ -177,7 +175,7 @@ Lisaks laadige alla järgmine Exceli fail, mis sisaldab muudetud malli pakutava 
 
 Varem imporditud faili **Cheque template Excel.xlsx** avamiseks saate kasutada Exceli töölauarakendust. Pange tähele, et see mall erineb mallist, mida kasutasite tšeki loomiseks pakutud ER-i lahenduses. Lisaks sisaldab see vöötkoodipildi elementi **AmountBarcode**.
 
-![Element AmountBarcode Exceli mallis](./media/er-barcode-data-source-cheque2.png)
+![Element AmountBarcode Exceli mallis.](./media/er-barcode-data-source-cheque2.png)
 
 Nüüd peate muutma ER-i lahendust ja seejärel muudetud malli [uuesti rakendama](modify-electronic-reporting-format-reapply-excel-template.md).
 
@@ -188,7 +186,7 @@ Nüüd peate muutma ER-i lahendust ja seejärel muudetud malli [uuesti rakendama
 5. Valige ER-i toimingute koostajas lehe parempoolsest servast vahekaart **Vastendamine** ja klõpsake siis vasakul oleva vormingupuu paanil suvandit **Laienda/ahenda**.
 6. Pange tähele, et kõik lahtrivormingu elemendid on seotud sobivate andmeallikatega.
 
-    ![ER-i toimingute koostajas lahtrivormingu elementide sidumine andmeallikatega](./media/er-barcode-data-source-cells-bound.png)
+    ![ER-i toimingute koostajas lahtrivormingu elementide sidumine andmeallikatega.](./media/er-barcode-data-source-cells-bound.png)
 
 7. Valige lehe parempoolsest servast vahekaart **Vorming**.
 8. Valige toimingupaanil kolmikpunkt (**...**) ja seejärel **Impordi**.
@@ -197,7 +195,7 @@ Nüüd peate muutma ER-i lahendust ja seejärel muudetud malli [uuesti rakendama
 11. Valige lehe parempoolsest servast vahekaart **Vastendamine** ja klõpsake siis vasakul oleva vormingupuu paanil suvandit **Laienda/ahenda**.
 12. Pange tähele, et lahtrielement **AmountBarcode** on vormingusse lisatud. See element on seotud elemendiga **AmountBarcode**, mis on lisatud vöötkoodipildi kohatäitena muudetud Exceli malli.
 
-    ![ER-i toimingute koostajas vormingule lisatud lahtrielement AmountBarcode](./media/er-barcode-data-source-cell-added.png)
+    ![ER-i toimingute koostajas vormingule lisatud lahtrielement VöötkoodiHulk.](./media/er-barcode-data-source-cell-added.png)
 
 #### <a name="add-a-new-barcode-data-source"></a><a name="ExampleModifyFormatAddDataSource"></a>Uue vöötkoodi andmeallika lisamine
 
@@ -206,14 +204,14 @@ Järgmisena tuleb lisada uus andmeallikas, mille tüüp on **Vöötkood**.
 1. Valige ER-i toimingute loojas vahekaardil **Vastendamine** lehe parempoolsest servast **printimise** andmeallikas.
 2. Valige **Lisa** ja seejärel grupis **Funktsioonid** andmeallika tüüp **Vöötkood**.
 
-    ![Vöötkoodi andmeallika tüübi valimine](./media/er-barcode-data-source-add.png)
+    ![Vöötkoodi andmeallika tüübi valimine.](./media/er-barcode-data-source-add.png)
 
 3. Sisestage dialoogiboksis väljale **Nimi** väärtus **vöötkood**.
 4. Valige jaotises **Vöötkoodi vorming** suvand **Code 128**.
 5. Sisestage väljale **Laius** väärtus **500**.
 6. Valige nupp **OK**.
 
-    ![Andmeallika atribuutide dialoogiboks](./media/er-barcode-data-source-add2.png)
+    ![Andmeallika atribuutide dialoogiboks.](./media/er-barcode-data-source-add2.png)
 
 #### <a name="bind-a-new-format-element"></a><a name="ExampleModifyFormatBindFormatElement"></a>Uue vorminguelemendi sidumine
 
@@ -224,7 +222,7 @@ Järgmisena peate siduma uue vorminguelemendi äsja lisatud andmeallikaga.
 3. Valige toimingupaanilt suvand **Kuva üksikasjad**.
 4. Pange tähele, et kuna **Vöötkoodi** andmeallikas on seoses tähistatud üht parameetrit sisaldava funktsioonina, siis on seotud vorminguelemendi nimi võetud automaatselt selle parameetri argumendist.
 
-    ![Vöötkoodi andmeallika üksikasjad ER-i toimingute kujundajas](./media/er-barcode-data-source-bind1.png)
+    ![Vöötkoodi andmeallika üksikasjad ER-i toimingute kujundajas.](./media/er-barcode-data-source-bind1.png)
 
 5. Seose korrigeerimiseks valige **Redigeeri valemit**.
 
@@ -234,7 +232,7 @@ Järgmisena peate siduma uue vorminguelemendi äsja lisatud andmeallikaga.
 7. Valige **Salvesta** ja sulgege seejärel [ER-i valemikoostaja](general-electronic-reporting-formula-designer.md).
 8. Pange tähele, et seos on nüüd korrigeeritud.
 
-    ![Korrigeeritud seos ER-i toimingute kujundajas](./media/er-barcode-data-source-bind2.png)
+    ![Korrigeeritud seos ER-i toimingute kujundajas.](./media/er-barcode-data-source-bind2.png)
 
 9. Valige **Salvesta** ja sulgege seejärel ER-i toimingute kujundaja.
 
@@ -279,7 +277,7 @@ Valitud vormingu mustandiversioon on valitud vormingu käitamisel kasutamiseks s
 6. Valige nupp **OK**.
 7. Vaadake loodud tšekk üle. Pange tähele, et tšeki tasumisele kuuluva summa kodeerimiseks on loodud vöötkood.
 
-    ![Loodud vöötkoodiga tšekk Excelis](./media/er-barcode-data-source-cheque3.png)
+    ![Loodud vöötkoodiga maksetšekk Excelis.](./media/er-barcode-data-source-cheque3.png)
 
 > [!IMPORTANT]
 > Kui **Vöötkoodi** andmeallika argument ei vasta selle vöötkoodi vormingule kehtivatele asjakohastele nõuetele, ilmneb tõrge. Näiteks kui **Vöötkoodi** andmeallikat kasutatakse [EAN-8](https://wikipedia.org/wiki/EAN-8) vöötkoodi loomiseks, ilmneb tõrge, kui tekst on pikem kui seitse tähemärki.
@@ -290,7 +288,7 @@ Nagu kirjeldatud teemas [Prinditavate FTI-vormide loomine](er-generate-printable
 
 Kui aga kasutate vöötkoodide loomiseks **Vöötkoodi** andmeallikat, ei sõltu vöötkoodide renderdamine ühestki fondist. Seetõttu saate vöötkoode sisaldavaid dokumente hõlpsalt PDF-vormingusse teisendada. Järgmisel illustratsioonil on kujutatud loodud tšeki eelvaade, mis on [teisendatud](electronic-reporting-destinations.md#OutputConversionToPDF) PDF-iks konfigureeritud ER-i [sihtkoha](electronic-reporting-destinations.md) sätete alusel.
 
-![Tšeki PDF-i eelvaade](./media/er-barcode-data-source-cheque4.png)
+![Maksetšeki PDF-i eelvaade.](./media/er-barcode-data-source-cheque4.png)
 
 ## <a name="limitations"></a>Kitsendused
 
@@ -303,3 +301,6 @@ Kui aga kasutate vöötkoodide loomiseks **Vöötkoodi** andmeallikat, ei sõltu
 - [Elektroonilise aruandluse sihtkohad](electronic-reporting-destinations.md)
 - [Elektroonilise aruandluse valemi keel](er-formula-language.md)
 - [Funktsioon NUMBERFORMAT](er-functions-text-numberformat.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

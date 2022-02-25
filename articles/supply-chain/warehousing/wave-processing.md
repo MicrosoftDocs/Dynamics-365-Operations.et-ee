@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 4b7c01a21dcbe7543332439ee6fd371b426851f4
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: b89a13e72816bbf140986bd5450d037cf2510753
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579924"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103509"
 ---
 # <a name="wave-creation-and-processing"></a>Voo loomine ja töötlemine
 
@@ -190,9 +190,9 @@ Vajaduse korral saate töödeldud voo tühistada. Loodud voo ja komplekteerimist
 
 Kasutage lehte **voo partiitöö üksikasjad**, et kontrollida partiitöid ja mis tahes vooga seostatud ülesandeid. Sellest on kasu eelkõige nurjunud voo tõrkeotsingul. Ilma selle funktsioonita on partiitöö üksikasjadele tavaliselt juurdepääs ainult administraatoritel. Lehe **Voo partiitöö üksikasjad** saab teha kättesaadavaks mittehaldusega kasutajatele ning pakub partiitööde ja seotud ülesannete kirjutuskaitstud vaadet.
 
-### <a name="enable-the-wave-batch-job-details-page"></a>Voo partiitöö üksikasjade lehe lubamine
+### <a name="turn-the-wave-batch-job-details-page-on-or-off"></a>Voo pakett-töö üksikasjade lehe sisse- või väljalülitamine
 
-Kui süsteem ei kaasa lehte **Voo partiitöö üksikasjad**, minge [funktsioonihaldusesse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ja lülitage sisse funktsioon *Voo partiitöö üksikasjad*.
+Tarneahela halduse versiooni 10.0.25 **puhul** lülitatakse voo pakett-töö üksikasjade leht vaikimisi sisse. Administraatorid saavad selle funktsiooni sisse või välja lülitada, otsides funktsioonihalduse *tööruumist* voo pakett-töö [üksikasju](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ### <a name="use-the-wave-batch-job-details-page"></a>Voo partiitöö üksikasjade lehe kasutamine
 

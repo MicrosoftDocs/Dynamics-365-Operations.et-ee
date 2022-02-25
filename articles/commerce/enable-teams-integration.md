@@ -2,7 +2,7 @@
 title: Dynamics 365 Commerce ja Microsoft Teams integratsiooni lubamine
 description: See teema kirjeldab, kuidas lubada Microsoft Dynamics 365 Commerce ja Microsoft Teams integratsiooni.
 author: gvrmohanreddy
-ms.date: 03/31/2021
+ms.date: 02/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 9910ee48a0792c89a4e04ec8685fd02484e45575d70b06454dea56a89ee8c914
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 52b1a889a15cfe2e6e104e38b7d257f80762954f
+ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775334"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323426"
 ---
 # <a name="enable-dynamics-365-commerce-and-microsoft-teams-integration"></a>Dynamics 365 Commerce ja Microsoft Teams integratsiooni lubamine
 
@@ -38,15 +38,23 @@ Enne, kui saate Microsoft Teams integratsiooni Commerce'iga lubada, peate regist
 Teamsi rakenduse registreerimiseks oma rentnikuga Azure'i portaalis järgige järgmisi samme.
 
 1. Järgige samme jaotises [Kiirstart: rakenduse registreerimine Microsofti identiteediplatvormis](/azure/active-directory/develop/quickstart-register-app), et registreerida Teamsi rakendus oma rentnikuga Azure'i portaalis.
-1. Kopeerige **Rakenduse (kliendi) ID** väärtus registreeritud rakenduse lehel **Ülevaade**. Kasutate seda väärtust Teamsi integreerimise lubamiseks Commerce peakeskuses.
-1. Kopeerige tunnistuse väärtus, mis [lisati tunnistusele](/azure/active-directory/develop/quickstart-register-app#add-a-certificate) etapis 1. Tunnistust nimetatakse ka avalikuks võtmeks või rakenduse võtmeks. Kasutate seda väärtust Teamsi integreerimise lubamiseks Commerce peakeskuses.
+1. Valige vahekaardil **Rakenduse** registreerimine rakendus, mille lõite eelmises sammus. Seejärel valige vahekaardil **Autentimine** suvand **Lisa platvorm**.
+1. Valige dialoogiboksis **veeb**. Seejärel sisestage **väljale Ümbersuunamise URL-id** URL **\<HQUrl\> vormingus /oauth**. Asendage **\<HQUrl\>** oma Commerce headquartersi URL-iga (nt `https://hxennugbjtweufmdeo385f47fadb6aa9a0aos.cloudax.int.dynamics.com/oauth`).
+1. Kopeerige **registreeritud** rakenduse ülevaate lehel rakenduse (kliendi **) ID** väärtus. Peate selle väärtuse andma, et lubada teamsi integreerimist järgmises jaotises Commerce headquartersis.
+1. Kliendisaladuse lisamiseks [järgige juhendit](/azure/active-directory/develop/quickstart-register-app#add-a-client-secret) "Lisa kliendi saladus". Seejärel kopeerige **kliendi salaväärtuse** väärtus. Peate selle väärtuse andma, et lubada teamsi integreerimist järgmises jaotises Commerce headquartersis.
+1. Valige **API õigused** ja seejärel valige **luba**.
+1. Dialoogiaknas **Taotluse API õigused** valige Microsoft Graph **,** valige Delegeeritud **õigused,** laiendage Grupp, **·** **valige Group.ReadWrite.All** ja seejärel valige lisa **õigused**.
+1. Dialoogiaknas **Taotluse API** õigused valige suvand Lisa õigus, **·** **valige Microsoft Graph**,**valige** rakenduse õigused, **laiendage** grupp, **valige Group.ReadWrite.All** ja seejärel valige suvand **Add permissions (Lisa õigusi).**
+1. Dialoogiaknas **Api õiguste** taotlemine valige **suvand Lisa õigus**. Vahekaardil Minu **organisatsioon kasutab API-sid** jaemüügiteenuse **Microsoft Teams otsimiseks** ja valige see.
+1. Valige **delegeeritud õigused**, laiendage **TaskPublishing**, valige **TaskPublising.ReadWrite.All** ja seejärel valige **lisa õigused**. Lisateavet vt kliendirakenduse [konfigureerimine veebi API-le juurdepääsemiseks](/azure/active-directory/develop/quickstart-configure-app-access-web-apis).
 
 Commerce'i peakeskuses Teamsi integratsiooni lubamiseks toimige järgmiselt.
 
 1. Valige suvandid **Retail ja Commerce \> Kanali häälestus \> Microsoft Teams integratsiooni konfiguratsioon**.
 1. Valige Toimingupaanil nupp **Redigeeri**.
 1. Määrake suvand **Luba Microsoft Teams integratsioon** valikule **Jah**.
-1. Väljades **Rakenduse ID** ja **Rakenduse võti** sisestage väärtused, mis te olete saanud rakenduse Teams registreerimisel Azure'i portaalis.
+1. Sisestage **väljale Rakenduse ID** rakenduse (kliendi) ID **väärtus,** mille te kogunud rakenduse Teams Azure portaalis registreerinud olete.
+1. Sisestage **rakendusvõtme väljale** "Salaväärtus", **mille** olete saanud kliendisaladuse sisestamisel Azure'i portaali.
 1. Valige toimingupaanil nupp **Salvesta**.
 
 Järgmine joonis kuvab näidet Teamsi integreerimise konfigureerimise kohta Commerce'i peakeskuses.

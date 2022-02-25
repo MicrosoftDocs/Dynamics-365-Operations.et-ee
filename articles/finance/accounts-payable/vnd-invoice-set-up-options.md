@@ -1,28 +1,25 @@
 ---
 title: Hankija arve automatiseerimise seadistussuvandid (eelversioon)
 description: Selles teemas kirjeldatakse suvandeid, mis on saadaval hankija arve automatiseerimise seadistamiseks ja konfigureerimiseks.
-author: abruer
-manager: AnnBe
-ms.date: 10/16/2020
+author: sunfzam
+ms.date: 02/14/2022
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
+ms.reviewer: twheeloc
 ms.assetid: ''
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: ebab41d8b7697f20095d6d4654718b88c8b08a82
-ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
-ms.translationtype: HT
+ms.openlocfilehash: c1dc443e4225a3ffc6b88cedf7add396a66ec25d
+ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4665194"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8182434"
 ---
 # <a name="setup-options-for-vendor-invoice-automation"></a>Hankija arve automatiseerimise seadistussuvandid
 
@@ -30,12 +27,18 @@ ms.locfileid: "4665194"
 
 Selles teemas kirjeldatakse suvandeid, mis on saadaval hankija arve automatiseerimise seadistamiseks ja konfigureerimiseks. Arvete automatiseerimise funktsioonid kasutavad järgmist tüüpi seadistusparameetreid.
 
+- Imporditud arvetel ettemaksete automaatse rakendamise parameetrid.
 - Parameetrid imporditud hankija arvete edastamiseks töövoosüsteemile ja sisestatud toote sissetuleku ridade vastavusse viimiseks ootel hankija arve ridadega.
 - Parameetrid automatiseerimise taustaülesannete töötlemiseks. Protsessi automatiseerimise raamistikku kasutatakse imporditud hankija arvete edastamiseks töövoosüsteemile. Seda kasutatakse ka automaatselt sisestatud toote sissetulekuridade vastendamiseks ootel hankija arve ridadega ja arve vastendamise valideerimiseks käsitsi arvete korral, mis on automaatselt toote sissetulekuridadega vastendatud. Erinevad äriprotsessid kasutavad seda raamistikku määramiseks, kui tihti valitud protsessi käitatakse. Saadaolevad sagedused taustaprotsesside **Toote sissetuleku vastavusseviimine arve ridadega** ja **Hankija arvete edastamine töövoole** puhul on **Iga tund** ja **Iga päev**.
 
 Taustaülesande seadistamiseks või selle kohta teabe vaatamiseks avage **Süsteemihaldus \> Seadistus \> Protsessi automatiseerimine** ja valige vahekaart **Taustaülesanne**.
 
 Et töö oleks täiesti automaatne alates impordiprotsessist kuni hankija arve sisestamiseni, peate seadistama hankija arve töövoo. Töövoo seadistamiseks avage **Ostureskontro > Seadistus > Ostureskontro töövood**. Tagamaks, et arvet saaks töödelda algusest lõpuni automaatselt, peate oma töövookonfiguratsiooni kaasama automatiseeritud sisestamisülesande.
+
+## <a name="parameters-for-automatically-applying-prepayments-in-imported-invoices"></a>Imporditud arvetel ettemaksete automaatse rakendamise parameetrid
+
+- **Rakenda imporditud arvetele ettemaks automaatselt** – kui see suvand on seatud väärtusele **Jah**, otsib süsteem hankija arvete importimisel automaatselt vastava ostutellimuse olemasolevad ettemaksed. Kui leitakse ettemakseid, mida saab rakendada, lisatakse üks täiendav rida ettemaksete rakendamiseks imporditavatel hankija arvetel.
+- **Blokeerige järelkontrolli automatiseerimisprotsess ettemaksutaotluse ebaõnnestumise korral** – kui see valik on seatud väärtusele **Jah**, blokeeritakse arved, kui ettemaksu ei saa rakendada. Sarnaselt muudele automatiseeritud protsessidele, nagu kviitungite sobitamise protsess ja töövooprotsessi esitamine, ei võta arvete automatiseerimisprotsess blokeeritud arveid enne, kui ettemaks on käsitsi rakendatud. 
 
 ## <a name="parameters-for-submitting-imported-vendor-invoices-to-the-workflow-system"></a>Parameetrid imporditud hankija arvete edastamiseks töövoosüsteemile
 
@@ -52,7 +55,7 @@ Saadaval on järgmised parameetrid.
 
 - **Toote sissetulekute vastavusseviimine arve ridadega enne automaatset edastamist** – kui seate selle suvandi väärtuseks **Jah**, ei saa imporditud arvet automaatselt töövoosüsteemile edastada enne, kui vastavusse viidud toote sissetuleku kogus võrdub arve kogusega. Kui määrate selle suvandi väärtuseks **Jah**, lubate sisestatud toote sissetulekute automaatse vastavusseviimise arve ridadega, mille jaoks on määratletud kolmesuunaline vastavusse viimise poliitika. See protsess töötab seni, kuni vastavusse viidud toote sissetuleku kogus võrdub arve kogusega. Seejärel edastatakse arve automaatselt töövoosüsteemile.
 
-    Suvand „Toote sissetulekute vastavusseviimine arve ridadega enne automaatset edastamist” on saadaval ainult siis, kui valitud on suvand **Luba arvete vastavusseviimise kontrollimine**. Kui see suvand on valitud, valitakse automaatselt suvand **Vii toote sissetulekud automaatselt arve ridadega vastavusse**.
+    Toote **sissetulekute vastendamine arve ridadele enne automaatset esitamist** on saadaval ainult siis, kui on **valitud suvand Luba arvete vastendamise** kinnitamine. Kui see suvand on valitud, valitakse automaatselt suvand **Vii toote sissetulekud automaatselt arve ridadega vastavusse**.
 
 - **Nõua, et arvutatud kogusummad võrduksid automaatse töövoole edastamise puhul imporditud kogusummadega** – kui seate selle suvandi väärtuseks **Jah**, ei saa arvet automaatselt töövoosüsteemile edastada enne, kui arve jaoks arvutatud kogusummad võrduvad imporditud kogusummadega. Kui selle suvandi väärtuseks on seatud **Ei**, saab arvet automaatselt edastada töövoosüsteemi, kuid seda ei saa sisestada enne, kui arvutatud kogusummasid parandatakse nii, et need ühtiksid imporditud kogusummadega. Kui te ei impordi arve summat või käibemaksu summat, peaks selle suvandi väärtuseks olema seatud **Ei**.
 - **Vii toote sissetulekud automaatselt arve ridadega vastavusse** – kui seate selle suvandi väärtuseks **Jah**, saab taustatöötlust kasutada sisestatud toote sissetulekute automaatseks vastavusse viimiseks arve ridadega, mille jaoks on määratletud kolmesuunaline vastavusse viimise poliitika. See protsess töötab seni, kuni vastavusse viidava toote sissetuleku kogus võrdub arve kogusega või kuni saavutatakse välja **Automaatse vastavusseviimise katsete arv** väärtus. Protsessi saab käivitada seni, kuni arve on edastatud töövoosüsteemile.
@@ -63,3 +66,6 @@ Saadaval on järgmised parameetrid.
 
 - **Automaatse vastavusseviimise katsete arv** – valige mitu korda peaks süsteem maksimaalset üritama viia toote sissetulekuid vastavusse arve ridadega, enne kui see jõuab järeldusele, et protsess nurjus. Kui määratud katsete arv on saavutatud, eemaldatakse arve automatiseeritud töötlemisest.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

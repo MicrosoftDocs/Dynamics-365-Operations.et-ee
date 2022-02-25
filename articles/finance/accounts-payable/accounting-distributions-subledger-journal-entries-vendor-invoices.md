@@ -1,38 +1,34 @@
 ---
-title: Arvestuse jaotused ja alammooduli töölehe kirjed hankijaarvete puhul
+title: Arvestuse jaotused ja töölehekirjed hankija arvete puhul
 description: Arvestuse jaotuste abil saate määratleda, kuidas summat arvestatakse, näiteks kulude, maksude või tasude arvestamisel hankija arvel. Igal summal, mida tuleb hankija arve töölehele kandmisel arvestada, on üks või mitu arvestuse jaotust.
-author: abruer
-manager: AnnBe
-ms.date: 08/20/2017
+author: sunfzam
+ms.date: 02/18/2022
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendEditInvoice
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
+ms.reviewer: twheeloc
 ms.custom: 26891
 ms.assetid: 93dc608a-b5b4-4ec3-83c2-618e3d80a583
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f8e38e6a571bb7f08b32548bcb4af823807a4340
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: fecdafe8765121d6d54389a70e6c2e497a03611a
+ms.sourcegitcommit: 43d0555c17a0643c9e5ba3bc2da3ce5f80754642
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442510"
+ms.lasthandoff: 02/18/2022
+ms.locfileid: "8325964"
 ---
-# <a name="accounting-distributions-and-subledger-journal-entries-for-vendor-invoices"></a>Arvestuse jaotused ja alammooduli töölehe kirjed hankijaarvete puhul
+# <a name="accounting-distributions-and-journal-entries-for-vendor-invoices"></a>Arvestuse jaotused ja töölehekirjed hankija arvete puhul
 
 [!include [banner](../includes/banner.md)]
 
 Arvestuse jaotuste abil saate määratleda, kuidas summat arvestatakse, näiteks kulude, maksude või tasude arvestamisel hankija arvel. Igal summal, mida tuleb hankija arve töölehele kandmisel arvestada, on üks või mitu arvestuse jaotust. 
 
-<a name="accounting-distributions"></a>Arvestuse jaotused 
--------------------------
+## <a name="accounting-distributions"></a>Arvestuse jaotused 
 
 Saate kasutada lehel Hankija arve iga hankija arve summa arvestuse jaotuse vaatamiseks ja võimaluse korral muutmiseks järgmisi nuppe.
 -   **Summade jaotamine** – saate kuvada ja muuta arvestuse jaotusi üksiku rea ja alamüksuste ridade kohta (nt maksud või tasud). Saate kuvada ja muuta ka alamrea arvestuse jaotusi otse lehelt Käibemaksukanded või Tasude kanded.
@@ -66,7 +62,7 @@ Hankija arve sisestamisel jaotatakse iga summa järgmiselt.
 <td>Ladustatav toode</td>
 <td><ol>
 <li>Ostutellimuse rea arvestuse jaotus.</li>
-<li>Põhikonto väli, kui lehel Sisestamine on valitud suvand Toote ostukulu.</li>
+<li>Põhikonto **väli**, kui lehel Sisestamine on valitud toote ostu **kulu**</li>
 </ol></td>
 <td><ol>
 <li>Kui arve rida viitab ostutellimuse reale, kasutage ostutellimuse rea puhul konto jaotust.</li>
@@ -77,35 +73,35 @@ Hankija arve sisestamisel jaotatakse iga summa järgmiselt.
 <td>Hankekategooria või toode, mis pole ladustatud</td>
 <td><ol>
 <li>Ostutellimuse rea arvestuse jaotus, kui hankija arve rida viitab ostutellimuse reale.</li>
-<li>Põhikonto väli, kui lehel Sisestamine on valitud suvand Kulu ostukulu.</li>
+<li>Põhikonto **väli**, kui lehel Sisestamine on valitud kulude ostu **kulu**</li>
 </ol></td>
 <td><ol>
 <li>Kui arve rida viitab ostutellimuse reale, kasutage ostutellimuse rea puhul konto jaotust.</li>
 <li>Kui põhikonto on eraldamiskonto, kasutage eraldamiskonto määratluse vaikeväärtust.</li>
 <li>Saate kasutada hankija arve finantsdimensiooni väärtusi.</li>
 <li>Saate kasutada hankija arve rea finantsdimensiooni väärtusi.</li>
-<li>Saate kasutada lehel Kontoplaan põhikonto finantsdimensiooni vaikeväärtusi.</li>
+<li>Saate kasutada kontoplaani leheküljel oleva põhikonto finantsdimensiooni **vaikeväärtusi**.</li>
 </ol></td>
 </tr>
 <tr class="odd">
-<td>Põhivarad</td>
+<td>Põhivara</td>
 <td><ol>
 <li>Ostutellimuse rea arvestuse jaotus, kui hankija arve rida viitab ostutellimuse reale.</li>
-<li>Põhikonto väli, kui vormi Hankija arve väljal Kande tüüp on valitud suvand Soetus ja lehel Põhivara sisestusreeglid valitakse suvand Soetus.</li>
-<li>Põhikonto väli, kui vormi Hankija arve väljal Kande tüüp on valitud suvand Soetuse korrigeerimine ja lehel Põhivara sisestusreeglid valitakse suvand Soetuse korrigeerimine.</li>
+<li>Kui **hankija** arve lehe **väljal Kande** tüüp on **valitud** soetus, **siis on põhivara sisestusreeglite** **·** **lehel valitud põhikonto väli, kui soetus on** valitud.</li>
+<li>Kui **väljal Kande** tüüp on valitud **soetamise** korrigeerimine, siis väli Põhikonto, **·** **kui** põhivara sisestusreeglite lehel on **valitud soetamise korrigeerimine.**</li>
 </ol></td>
 <td><ol>
 <li>Kui arve rida viitab ostutellimuse reale, kasutage ostutellimuse rea puhul konto jaotust.</li>
 <li>Saate kasutada hankija arve rea finantsdimensiooni väärtusi.</li>
-<li>Saate kasutada lehel Kontoplaan põhikonto finantsdimensiooni vaikeväärtusi.</li>
+<li>Saate kasutada kontoplaani leheküljel oleva põhikonto finantsdimensiooni **vaikeväärtusi**.</li>
 </ol></td>
 </tr>
 <tr class="even">
 <td>Hankija arve real määratletud projekt</td>
 <td><ol>
 <li>Ostutellimuse rea arvestuse jaotus, kui arve rida viitab ostutellimuse reale.</li>
-<li>Põhikonto väli, kui lehe Projektigrupid väljal Sisesta kulud – kaup on valitud suvand Saldo ja lehel Pearaamatu sisestamise seadistus valitakse suvand Kulu.</li>
-<li>Põhikonto väli, kui lehe Projektigrupid väljal Sisesta kulud – kaup on valitud suvand Kasub ja kahjum ning lehel Pearaamatu sisestamise seadistus valitakse suvand Kulu – kaup.</li>
+<li>Kui **projektigruppide** lehe väljal **Kulude sisestamine -** **kaup** on valitud saldo, **·** **siis** kui pearaamatu sisestamise häälestuslehel on **valitud väli Kulu põhikonto.**</li>
+<li>Kui **projektigruppide lehe** väljal **Kulude -** **kauba** sisestamine on valitud tulu ja kulu, **·** **siis põhikonto väli, kui pearaamatu sisestamisseadistuse lehel on** **valitud väärtus Kulu -** kaup.</li>
 </ol></td>
 <td><ol>
 <li>Kui arve rida viitab ostutellimuse reale, kasutage ostutellimuse rea puhul konto jaotust.</li>
@@ -115,18 +111,18 @@ Hankija arve sisestamisel jaotatakse iga summa järgmiselt.
 <td>Rea allahindlus</td>
 <td><ol>
 <li>Ostutellimuse rea arvestuse jaotus, kui arve rida viitab ostutellimuse reale.</li>
-<li>Põhikonto väli, kui lehel Sisestamine valitakse suvand Allahindlus.</li>
+<li>Väli **Põhikonto**, kui **lehel** Sisestamine on valitud **allahindlus**.</li>
 <li>Kui allahindluse põhikonto pole sisestusreeglites määratletud, siis laiendatud hinna arvestuse jaotus ostutellimuse real.</li>
 </ol></td>
 <td><ol>
 <li>Kui arve rida viitab ostutellimuse reale, kasutage ostutellimuse rea puhul arvestuse jaotust.</li>
 <li>Kasutage hankija arve rea laiendatud hinna puhul arvestuse jaotuste finantsdimensioone.</li>
 <li>Saate kasutada hankija arve real finantsdimensiooni väärtusi.</li>
-<li>Saate kasutada lehel Kontoplaan põhikonto finantsdimensiooni vaikeväärtusi.</li>
+<li>Saate kasutada kontoplaani leheküljel põhikonto finantsdimensiooni **vaikeväärtusi**.</li>
 </ol></td>
 </tr>
 <tr class="even">
-<td>Ostukulu, mis sisestatakse ostutellimuse rea vahekaardile Hind ja allahindlus</td>
+<td>Ostukulu, mis on sisestatud **ostutellimuse rea vahekaardile** Hind ja allahindlus</td>
 <td><ol>
 <li>Ostutellimuse rea arvestuse jaotus, kui arve rida viitab ostutellimuse reale.</li>
 <li>Laiendatud hinna arvestuse jaotus ostutellimuse real.</li>
@@ -140,21 +136,21 @@ Hankija arve sisestamisel jaotatakse iga summa järgmiselt.
 <td>Reatasu</td>
 <td><ol>
 <li>Ostutellimuse rea arvestuse jaotus, kui arve rida viitab ostutellimuse reale.</li>
-<li>Deebetkonto väli lehel Tasukood, kui vormi Tasukood väljal Deebeti tüüp on valitud suvand Pearaamatukonto.</li>
-<li>Laiendatud hinna arvestuse jaotus ostutellimuse real, kui vormi Tasukood väljal Deebeti tüüp on valitud suvand Kaup.</li>
-<li>Kreeditkonto väli lehel Tasukood, kui vormi Tasukood väljal Deebeti tüüp on valitud suvand Klient/hankija.</li>
+<li>Kui **pearaamatukonto** on valitud kulude **koodi** lehe **väljal Deebeti** tüüp, kuvatakse **kulude** koodilehe välja Deebetkonto **väli**.</li>
+<li>**Kui** tasude koodi lehe **väljal** Deebeti **tüüp** on valitud kaup, siis laiendatud hinna arvestuse jaotus ostutellimuse real.</li>
+<li>Kui **lehe Tasud** kood väljal **Deebeti** tüüp on **valitud** klient/hankija, **kuvatakse kulude** koodilehe **väli Kreeditkonto**.</li>
 </ol></td>
 <td><ol>
 <li>Kui arve rida viitab ostutellimuse reale, kasutage ostutellimuse rea puhul konto jaotust.</li>
 <li>Kasutage hankija arve rea laiendatud hinna puhul arvestuse jaotuste finantsdimensioone.</li>
 <li>Saate kasutada hankija arve rea finantsdimensiooni väärtusi.</li>
-<li>Saate kasutada lehel Kontoplaan põhikonto finantsdimensiooni vaikeväärtusi.</li>
+<li>Saate kasutada kontoplaani leheküljel põhikonto finantsdimensiooni **vaikeväärtusi**.</li>
 </ol></td>
 </tr>
 <tr class="even">
 <td>Maks, järgmise tingimusega.
 <ul>
-<li>Lehel Pearaamatu parameetrid on märgitud ruut Rakenda USA maksureeglid.</li>
+<li>Suvand Rakenda USA maksureeglid valitakse pearaamatu **parameetrite lehel**.</li>
 </ul></td>
 <td><ol>
 <li>Ostutellimuse rea arvestuse jaotus, kui arve rida viitab ostutellimuse reale.</li>
@@ -169,69 +165,68 @@ Hankija arve sisestamisel jaotatakse iga summa järgmiselt.
 <tr class="odd">
 <td>Maks, järgmiste tingimustega.
 <ul>
-<li>Lehel Pearaamatu parameetrid on tühjendatud ruut Rakenda USA maksureeglid.</li>
-<li>Lehel Käibemaksugrupid on käibemaksugrupi puhul ruut Kasuta maksu tühjendatud.</li>
+<li>Usa maksureeglite rakendamiseks suvand tühjendatakse pearaamatu **parameetrite** lehel.</li>
+<li>Käibemaksugrupi **kasutusmaksu** väli tühjendatakse käibemaksugruppide **lehel**.</li>
 </ul></td>
 <td><ol>
-<li>Väli Saadaolev käibemaks lehel Pearaamatu sisestusgrupid, kui maksusumma on tagastatav.</li>
+<li>Kui maksusumma on taastatav, siis väli **Saadaolev käibemaks** pearaamatu sisestusgruppide **lehel**.</li>
 <li>Kui maksusumma pole tagastatav, siis laiendatud hind või tasu arvestuse jaotus.</li>
 </ol></td>
 <td><ol>
 <li>Kui arve rida viitab ostutellimuse reale, kasutage ostutellimuse rea puhul konto jaotust.</li>
 <li>Kasutage hankija arve rea tasu puhul laiendatud hinna või arvestuse jaotuste finantsdimensioone.</li>
 <li>Saate kasutada hankija arve rea finantsdimensiooni väärtusi.</li>
-<li>Saate kasutada lehel Kontoplaan põhikonto finantsdimensiooni vaikeväärtusi.</li>
+<li>Saate kasutada kontoplaani leheküljel oleva põhikonto finantsdimensiooni **vaikeväärtusi**.</li>
 </ol></td>
 </tr>
 <tr class="even">
 <td>Maks, järgmiste tingimustega.
 <ul>
-<li>Lehel Pearaamatu parameetrid on tühjendatud ruut Rakenda USA maksureeglid.</li>
-<li>Lehel Käibemaksugrupid on käibemaksugrupi puhul ruut Kasuta maksu märgitud.</li>
+<li>Usa maksureeglite rakendamiseks suvand tühjendatakse pearaamatu **parameetrite** lehel.</li>
+<li>Käibemaksugrupi **kasutusmaksu** väli on valitud lehel **Käibemaksugrupid**.</li>
 </ul></td>
 <td><ol>
-<li>Väli Saadaolev käibemaks lehel Pearaamatu sisestusgrupid, kui maksusumma on tagastatav.</li>
-<li>Väli Kasutusmaksu kulu lehel Pearaamatu sisestusgrupid, kui maksusumma ei ole tagastatav.</li>
+<li>Kui maksusumma on taastatav, siis väli **Saadaolev käibemaks** pearaamatu sisestusgruppide **lehel**.</li>
+<li>Kui maksusumma ei ole tagasisaadav, siis **väli Kasuta** maksukulu pearaamatu sisestamisgruppide **lehel**.</li>
 </ol></td>
 <td><ol>
 <li>Kui arve rida viitab ostutellimuse reale, kasutage ostutellimuse rea puhul konto jaotust.</li>
 <li>Kasutage hankija arve rea tasu puhul laiendatud hinna või arvestuse jaotuste finantsdimensioone.</li>
 <li>Saate kasutada hankija arve rea finantsdimensiooni väärtusi.</li>
-<li>Saate kasutada lehel Kontoplaan põhikonto finantsdimensiooni vaikeväärtusi.</li>
+<li>Saate kasutada kontoplaani leheküljel oleva põhikonto finantsdimensiooni **vaikeväärtusi**.</li>
 </ol></td>
 </tr>
 <tr class="odd">
 <td>Päise tasu</td>
 <td><ol>
-<li>Deebetkonto väli lehel Tasukood, kui vormi Tasukood väljal Deebeti tüüp on valitud suvand Pearaamatukonto.</li>
-<li>Kreeditkonto väli lehel Tasukood, kui vormi Tasukood väljal Deebeti tüüp on valitud suvand Klient/hankija.</li>
+<li>Kui **pearaamatukonto** on valitud väljal **Deebeti** tüüp lehe Tasud **kood**, kuvatakse **kulude** koodilehe **deebetkonto** väli.</li>
+<li>Kui **tasude koodilehe väljal** Deebeti **tüüp on** **valitud klient/hankija,** kuvatakse kulude **koodilehe** väli **Kreeditkonto**.</li>
 </ol></td>
 <td><ol>
 <li>Kui arve rida viitab ostutellimuse reale, kasutage ostutellimuse rea puhul konto jaotust.</li>
 <li>Kui põhikonto on eraldamiskonto, kasutage eraldamiskonto määratluse vaikeväärtust.</li>
 <li>Saate kasutada hankija arve päise finantsdimensiooni vaikemalli väärtusi.</li>
 <li>Saate kasutada hankija arve rea finantsdimensiooni väärtusi.</li>
-<li>Saate kasutada lehel Kontoplaan põhikonto finantsdimensiooni vaikeväärtusi.</li>
+<li>Saate kasutada kontoplaani leheküljel oleva põhikonto finantsdimensiooni **vaikeväärtusi**.</li>
 </ol></td>
 </tr>
 <tr class="even">
 <td>Päise allahindlus</td>
 <td><ol>
-<li>Põhikonto väli lehe Automaatsete kannete kontod sisestustüübi Hankija arve allahindlus puhul.</li>
+<li>Hankija **arve** allahindluse sisestustüübi **põhikonto väli** automaatsete **kannete lehel Kontode** jaoks</li>
 </ol></td>
 <td><ol>
 <li>Kui arve rida viitab ostutellimuse reale, kasutage ostutellimuse rea puhul konto jaotust.</li>
 <li>Kasutage hankija arve rea laiendatud hinna puhul arvestuse jaotuste finantsdimensioone.</li>
 <li>Saate kasutada hankija arve rea finantsdimensiooni väärtusi.</li>
-<li>Saate kasutada lehel Kontoplaan põhikonto finantsdimensiooni vaikeväärtusi.</li>
+<li>Saate kasutada kontoplaani leheküljel oleva põhikonto finantsdimensiooni **vaikeväärtusi**.</li>
 </ol></td>
 </tr>
 </tbody>
 </table>
 
 
-<a name="distributing-taxes"></a>Maksude jaotamine
-------------------
+## <a name="distributing-taxes"></a>Maksude jaotamine
 
 Maksude arvestuse jaotusi ei saa luua, kuni makse arvutatakse. Käibemaksu arvutamiseks peate täitma lehel Hankija arve ühe järgmise ülesande.
 -   Arve kogusumma kuvamine.
@@ -250,3 +245,6 @@ Kui alammooduli töölehe kirje on enne hankija arve töölehele paigutamist val
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

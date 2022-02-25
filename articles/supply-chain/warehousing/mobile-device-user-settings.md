@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: mirzaab
 ms.search.validFrom: 2021-02-09
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 13c99854224a6d220e73a43636d85ec1951f8149
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: 4ea0fcfa7a165587567968f95549799859edaa60
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7901868"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103709"
 ---
 # <a name="mobile-device-user-settings"></a>Mobiilse seadme kasutaja sätted
 
@@ -39,12 +39,9 @@ See funktsioon aitab töötajatel kiiremini alustada, kui nad hakkavad kasutama 
 > [!IMPORTANT]
 > Funktsioon *Mobiilse seadme kasutajasätted* toimib ainult uue mobiilirakenduse Laohaldus korral. See ei tööta vana laorakendusega.
 
-## <a name="turn-on-the-mobile-device-user-settings-feature"></a>Mobiilse seadme kasutajasätete funktsiooni sisselülitamine
+## <a name="turn-the-mobile-device-user-settings-feature-on-or-off"></a>Mobiilse seadme kasutajasätete funktsiooni sisse- või väljalülitamine
 
-Enne selle funktsiooni kasutamist peate selle oma süsteemis sisse lülitama. Administraatorid saavad kasutada [funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sätteid, et kontrollida funktsiooni olekut ja selle sisse lülitada. Tööruumis **Funktsioonihaldus** loetletakse funktsiooni järgneval viisil.
-
-- **Moodul:** *laohaldus*
-- **Funktsiooni nimi:** *uue laorakenduse kasutajasätted, ikoonid ja etapi pealkirjad*
+Selles teemas *kirjeldatud funktsioonide kasutamiseks peavad* uue laorakenduse funktsiooni kasutajasätted, ikoonid ja etapi pealkirjad olema teie süsteemi jaoks sisse lülitatud. Tarneahela halduse 10.0.25 puhul on see funktsioon kohustuslik ja seda ei saa välja lülitada. Kui käitate versiooni, mis on *vanem kui 10.0.25, saavad administraatorid selle funktsiooni sisse ja välja lülitada, otsides Kasutajasätteid, ikoone ja uue laorakenduse funktsiooni pealkirjad Funktsioonihalduse tööruumis*[...](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="create-and-manage-user-settings"></a>Kasutajasätete loomine ja haldamine
 

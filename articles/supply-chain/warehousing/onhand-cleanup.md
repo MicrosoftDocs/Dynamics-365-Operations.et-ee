@@ -2,11 +2,9 @@
 title: Laohalduse vabade kirjete puhastustöö
 description: Selles teemas kirjeldatakse vabade kirjete puhastustööd, mis aitab parandada süsteemi jõudlust, tuvastades ja kustutades seotud, kuid mittevajalikud kirjed.
 author: perlynne
-manager: tfehr
 ms.date: 04/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysOperationTemplateForm
 audience: Application User
@@ -14,15 +12,17 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-04-03
-ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: f045b9686bbdfcf3e82f5158f0fd28860354b7d7
-ms.sourcegitcommit: b6686265314499056690538eaa95ca51cff7c720
-ms.translationtype: HT
+ms.dyn365.ops.version: 10.0.12
+ms.openlocfilehash: b2bdfb7fa0c9c4d9e1f630a41357dc405f0082bc
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5014479"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103859"
 ---
 # <a name="warehouse-management-on-hand-entries-cleanup-job"></a>Laohalduse vabade kirjete puhastustöö
+
+[!include [banner](../includes/banner.md)]
 
 Vabade varude arvutamiseks kasutatavat päringute jõudlust mõjutab kaasatud tabelites sisalduvate kirjete arv. Üks viis jõudluse parandamiseks on vähendada kirjete arvu, mida andmebaas peab arvestama.
 
@@ -58,7 +58,7 @@ Samas jõudluse parandamine, mida puhastustöö pakub, peaks need väikesed funk
 
 ## <a name="make-the-maximum-execution-time-setting-available"></a><a name="max-execution-time"></a>Maksimaalse teostamisaja kättesaadavaks muutmine
 
-**Maksimaalse teostamisaja** säte ei ole vaikesättena kättesaadav. Kui soovite seda kasutada, peate kasutama [funktsioonihaldust](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), et lülitada seotud funktsioon oma süsteemis sisse. Tööruumis **Funktsioonihaldus** loetletakse funktsiooni järgneval viisil.
+Maksimaalne **täitmisaja** säte on saadaval ainult *siis, kui laohalduse laohalduse vaba* kaubavaru kannete puhastustöö funktsiooni maksimaalne täitmisaeg on sisse lülitatud. Tarneahela halduse versiooni 10.0.25 puhul lülitatakse see funktsioon vaikimisi sisse. Administraatorid saavad selle funktsiooni sisse või välja *lülitada, otsides funktsioonihalduse tööruumi laohalduse vaba*[kaubavaru kirjete puhastustöö funktsioonile maksimaalse täitmisaja](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-- **Moodul:** *laohaldus*
-- **Funktsiooni nimi:** *Laohalduse vabade kirjete puhastustöö maksimaalne teostamisaeg*
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

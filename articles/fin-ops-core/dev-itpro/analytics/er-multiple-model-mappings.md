@@ -2,11 +2,9 @@
 title: Ühe mudeli juure mitme tuletatud vastenduse haldamine
 description: Selles teemas kirjeldatakse, kuidas hallata mitut tuletatud vastendust, mis konfigureeriti ühe mudeli juure jaoks.
 author: NickSelin
-manager: AnnBe
 ms.date: 01/04/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERSolutionTable, ERModelMappingTable
 audience: Application User
@@ -15,20 +13,20 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3116fe98f499637b3bc7f243ed1b5094853caa7e
-ms.sourcegitcommit: 7cfe8931dd454e811a691f5118a4ecae7ba4b478
-ms.translationtype: HT
+ms.openlocfilehash: d71b05b3f2eda93a93f728926e675c040371781e
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/04/2021
-ms.locfileid: "4826105"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8324108"
 ---
 # <a name="manage-several-derived-mappings-for-a-single-model-root"></a>Ühe mudeli juure mitme tuletatud vastenduse haldamine
 
 [!include [banner](../includes/banner.md)]
 
-[Elektroonilise aruandluse (ER)](general-electronic-reporting.md) andmete [mudeli](general-electronic-reporting.md#data-model-and-model-mapping-components) komponenti kasutatakse igas konfigureeritud ER-i [vormingu](general-electronic-reporting.md#FormatComponentOutbound) komponendis väljuvate dokumentide loomise andmeallikana. Ühe äridomeeni kirjeldamiseks konfigureerige andmemudeli komponent, mis sisaldab palju juurdefinitsioone. 
+Elektroonilise [aruandluse (ER)](general-electronic-reporting.md) andmemudelikomponenti kasutatakse igas konfigureeritud ER-vormingu komponendis andmeallikana väljaminevate dokumentide loomiseks. Ühe äridomeeni kirjeldamiseks konfigureerige andmemudeli komponent, mis sisaldab palju juurdefinitsioone. 
 
-Iga juurdefinitsioon võimaldab teil esindada selle domeeni andmeid viisil, mis sobib kõige paremini konkreetsete aruandluse eesmärkidega. Saate konfigureerida iga juurdefinitsiooni jaoks [mudeli vastenduse](general-electronic-reporting.md#data-model-and-model-mapping-components) komponendina oma andmemudeli rakenduse Microsoft Dynamics 365 Finance spetsiifilises juurutamises. Nii saate kirjeldada, kuidas teie andmemudel käitusajal täidetakse.
+Iga juurdefinitsioon võimaldab teil esindada selle domeeni andmeid viisil, mis sobib kõige paremini konkreetsete aruandluse eesmärkidega. Iga juurdefinitsiooni jaoks saate konfigureerida ER-mudeli vastendamise komponendi Microsoft Dynamics 365 Finance-spetsiifiliseks andmemudeli juurutamiseks. Nii saate kirjeldada, kuidas teie andmemudel käitusajal täidetakse.
 
 ER-i mudeli vastendamise komponendid võivad asuda ER-i andmemudeli [konfiguratsioonides](general-electronic-reporting.md#Configuration) ja ER-mudeli vastendamise konfiguratsioonides. Üksik ER-i konfiguratsioon võib sisaldada palju vastendamise komponente, millest igaüks on konfigureeritud ühe juurdefinitsiooni jaoks. Teise võimalusena võib üksik ER-i konfiguratsioon sisaldada ainult ühte vastendamise komponenti, mis on konfigureeritud ühe juurdefinitsiooni jaoks.
 
@@ -57,7 +55,7 @@ Oma praegusesse rakenduse Finance eksemplari standardsete ER-i konfiguratsioonid
 2. Valige lehe **Lokaliseerimise konfiguratsioonid** jaotises **Konfiguratsioonid** paan **Aruandluse konfiguratsioonid**.
 3. Laiendage lehe **Konfiguratsioonid** vasakpoolsel paanil konfiguratsioonipuus suvandit **Arve mudel**.
 
-    ![Imporditud konfiguratsioonide lehel Konfiguratsioonid läbivaatamine](./media/er-multiple-model-mappings-image1.png)
+    ![Imporditud konfiguratsioonide konfiguratsioonide lehel läbi vaatamine.](./media/er-multiple-model-mappings-image1.png)
 
 4. Vaadake läbi vorming **Vabas vormis arve (Excel)**:
 
@@ -68,7 +66,7 @@ Oma praegusesse rakenduse Finance eksemplari standardsete ER-i konfiguratsioonid
     
        Praegune ER-vorming on konfigureeritud kasutama juurdefinitsiooni **InvoiceCustomer** suvandis **Arve mudel**. Kui see vorming käivitatakse ja kutsutakse andmeallikas **Mudel**, kasutatakse rakenduse andmetele juurdepääsuks ja andmemudeli täitmiseks mudeli vastendust, mis on konfigureeritud juurdefinitsiooni **InvoiceCustomer** jaoks.
 
-        ![Mudeli andmeallika läbivaatamine vormingu koostaja lehel](./media/er-multiple-model-mappings-image2.png)
+        ![Mudeli andmeallika läbivaatamine vormingu koostaja lehel.](./media/er-multiple-model-mappings-image2.png)
 
     6. Sulgege **Vormingu kujundaja** leht.
 
@@ -81,7 +79,7 @@ Oma praegusesse rakenduse Finance eksemplari standardsete ER-i konfiguratsioonid
         + Mudelivastendus **Kliendiarve** konfigureeritakse juurdefinitsiooni **InvoiceCustomer** jaoks suvandis **Arve mudel**. Seega saab ER-vormingu **Vabas vormis arve (Excel)** käitamisel valida selle ER-i konfiguratsiooni mudelivastenduse **Kliendiarve**, et pääseda juurde rakenduse andmetele ja täita andmemudel.
         + Mudelivastendus **Projekti arve** konfigureeritakse juurdefinitsiooni **InvoiceProject** jaoks suvandis **Arve mudel**. Seega saab ER-vormingu **Projekti arve (Excel)** käitamisel valida selle ER-i konfiguratsiooni mudelivastenduse **Projekti arve**, et pääseda juurde rakenduse andmetele ja täita andmemudel.
 
-        ![Arve mudeli vastendamine lehel Mudelist andmeallikasse vastendamine](./media/er-multiple-model-mappings-image3.png)
+        ![Arve mudeli vastendamine lehel "Mudelist andmeallikasse vastendamine".](./media/er-multiple-model-mappings-image3.png)
 
     4. Sulgege leht **Mudelist andmeallikasse vastendamine**.
     5. Valige kiirkaardil **Versioonid** suvand **Kustuta**, et kustutada selle ER-i konfiguratsiooni kõik versioonid, mis on hilisemad kui versioon 240.175.
@@ -92,7 +90,7 @@ Oma praegusesse rakenduse Finance eksemplari standardsete ER-i konfiguratsioonid
     2. Valige toimingupaanil valik **Koostaja**.
     3. Pange tähele, et lehel **Mudelist andmeallikasse vastendamine** sisaldab praegune ER-i mudelivastenduse konfiguratsioon mudelivastendust **InvoiceProject** ja et see mudelivastendus on konfigureeritud juurdefinitsiooni **InvoiceProject** jaoks suvandis **Arve mudel**. Valige ER-vormingu **Projekti arve (Excel)** käitamise ajal selle ER-i konfiguratsiooni mudelivastendus **InvoiceProject**, et pääseda juurde rakenduse andmetele ja täita andmemudel.
 
-        ![Projekti arve mudeli vastendamine lehel Mudelist andmeallikasse vastendamine](./media/er-multiple-model-mappings-image4.png)
+        ![Projekti arve mudeli vastendamine mudelist andmeallikasse vastendamise lehel.](./media/er-multiple-model-mappings-image4.png)
 
     4. Sulgege leht **Mudelist andmeallikasse vastendamine**.
     5. Valige kiirkaardil **Versioonid** suvand **Kustuta**, et kustutada selle ER-i konfiguratsiooni kõik versioonid, mis on hilisemad kui versioon 226.35.
@@ -117,7 +115,7 @@ See jaotis selgitab, kuidas [kohandada](er-quick-start3-customize-report.md#cust
 
 7. Valige tegevuspaanil suvand **Kujundaja**, et vaadata läbi selle konfiguratsiooni mudelivastendused.
 
-    ![Arve mudeli vastenduste läbivaatamine lehel Mudelist andmeallikasse vastendamine](./media/er-multiple-model-mappings-image5.png)
+    ![Arve mudeli vastenduste läbivaatamine mudelist andmeallikasse vastendamise lehel.](./media/er-multiple-model-mappings-image5.png)
 
     > [!TIP]
     > Nüüd saate avada kujundajas kõik selle ER-i konfiguratsiooni ER-mudeli vastendamise komponendid oma kohandatud loogika konfigureerimiseks. Lisateavet vt teemast [Mudelivastenduse konfiguratsiooni kohandamine](er-quick-start3-customize-report.md#customize-the-model-mapping-configuration).
@@ -128,7 +126,7 @@ Nüüd on teil konfiguratsioonid **Arve mudeli vastendus** ja **Arve mudeli vast
  
 > Andmemudelis '\<model name\> (\<root descriptor\>)' konfiguratsioonides \<configuration names separated by commas\> on olemas rohkem kui üks mudeli vastendus. Määrake üks konfiguratsioonides vaikeväärtuseks.
 
-![Vormingu avamine konfiguratsioonide lehel redigeerimiseks](./media/er-multiple-model-mappings-image6.gif)
+![Vormingu avamine konfiguratsioonide lehel redigeerimiseks.](./media/er-multiple-model-mappings-image6.gif)
 
 ### <a name="customize-the-project-invoice-model-mapping-rdp-configuration"></a>Projekti arve mudelivastenduse (RDP) konfiguratsiooni kohandamine
 
@@ -140,7 +138,7 @@ Nüüd on teil konfiguratsioonid **Arve mudeli vastendus** ja **Arve mudeli vast
 6. Konfiguratsiooni **Projekti arve mudelivastendus, Litware** jaoks, mis on praegu konfiguratsioonipuus valitud, määrake suvandi **Käivita mustand** valikuks **Jah**.
 7. Valige tegevuspaanil suvand **Kujundaja**, et vaadata läbi selle konfiguratsiooni mudelivastendused.
 
-    ![Kohandatud projekti arve mudelivastenduse läbivaatamine lehel Mudelist andmeallikasse vastendamine](./media/er-multiple-model-mappings-image7.png)
+    ![Kohandatud projekti arve mudelivastenduse läbivaatamine mudelist andmeallikasse vastendamise lehel.](./media/er-multiple-model-mappings-image7.png)
 
 8. Sulgege leht **Mudelist andmeallikasse vastendamine**.
 
@@ -151,7 +149,7 @@ Nüüd on teil konfiguratsioonid **Arve mudeli vastendus**, **Projekti arve mude
 1. Valige lehe **Konfiguratsioonid** vasakpoolsel paanil konfiguratsioonipuus suvand **Arve mudeli vastendamine, Litware**.
 2. Seadistage **Vaikimisi mudeli vastendamise** suvand väärtusele **Jah**.
 
-    ![Mudelivastenduse konfiguratsioonide lehel vaikimisi mudelivastenduseks määramine](./media/er-multiple-model-mappings-image8.png)
+    ![Mudelivastenduse konfiguratsioonide lehel vaikimisi mudelivastenduseks määramine.](./media/er-multiple-model-mappings-image8.png)
 
     Selle seadistuse tõttu kasutatakse mudelivastendust **Kliendiarve koopia**, kui käitate suvandit **Vabas vormis arve (Excel)** või kui redigeerite seda või kinnitate selle. Mudelivastendust **Kliendiarve** konfiguratsioonis **Arve mudelivastendus** ignoreeritakse.
 
@@ -169,7 +167,7 @@ Nüüd on teil konfiguratsioonid **Arve mudeli vastendus**, **Projekti arve mude
 5. Valige lehel **Mudelist andmeallikasse vastendamine** suvand **Redigeeri**, et muuta leht vastavalt vajadusele redigeeritavaks.
 6. Valige mudelivastendus **Projekti arve koopia** ja seejärel valige selle jaoks märkeruut **On kustutatud**.
 
-    ![Mudelivastenduse virtuaalselt kustutatuks seadmine lehel vaikimisi mudelivastenduseks määramine](./media/er-multiple-model-mappings-image9.png)
+    ![Mudelivastenduse virtuaalselt kustutatuks seadmine vaikimisi mudelivastenduseks määramise lehel.](./media/er-multiple-model-mappings-image9.png)
 
     Selle seadistuse tõttu käsitletakse konfiguratsiooni **Arve mudeli vastendamine, Litware** justkui sellel puuduks juurdefinitsiooni **InvoiceProject** jaoks mudelivastendus. Vaikimisi väljastatud mudelivastendus **InvoiceProjecti koopia**. Konfiguratsioon **Projekti arve mudeli vastendus, Litware**, mis sisaldab seda mudelivastendust, on märgitud vaikimisi konfiguratsiooniks. Kuna see on märgitud vaikeväärtuseks, on sellel kõrgem prioriteet kui mudelivastendus **InvoiceProject** konfiguratsioonist **Projekti arve mudelivastendus (RDP)**.
 
@@ -182,3 +180,6 @@ Mudelivastendus **InvoiceProjecti koopia** konfiguratsioonis **Projekti arve mud
 - [Elektroonilise aruandluse (ER) mudelivastenduse haldamine eraldi ER-i konfiguratsioonides](./tasks/er-manage-model-mapping-configurations-july-2017.md)
 - [Riigi kontekstist sõltuva ER-mudeli vastenduste konfigureerimine](er-country-dependent-model-mapping.md)
 - [Elektroonilise aruandluse raamistiku API muudatused](er-apis-app10-0-11.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

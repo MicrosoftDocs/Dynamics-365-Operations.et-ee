@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 54962b48dee05b2cd62fd3ea8814e4c965ba7818
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: HT
+ms.openlocfilehash: 812dd30e0e444bc310fc81edd16958e0c0747885
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069375"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103409"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>Laohalduse mobiilirakenduse installimine ja ühendamine
 
@@ -39,12 +39,9 @@ Laohalduse mobiilirakendus on saadaval nii Windowsi kui ka Google’i Androidi o
 - Windows 10 (Universaalne Windowsi platvorm \[UWP\]) 2018. a oktoobri värskendus 1809 (versioonijärk 10.0.17763) või uuem
 - Android 4.4 või uuem
 
-## <a name="turn-on-the-feature"></a>Funktsiooni sisselülitamine
+## <a name="turn-warehouse-management-mobile-app-features-or-or-off-in-supply-chain-management"></a>Laohalduse mobiilirakenduse funktsioonide või tarneahela haldamises välja lülitatud
 
-Enne rakenduse kasutamist peate seotud funktsiooni oma süsteemis sisse lülitama. Administraatorid saavad kasutada [funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) tööruumi, et kontrollida funktsiooni olekut ja vajadusel selle sisse lülitada. Seega on funktsioon loetletud järgmisel viisil.
-
-- **Moodul:** *laohaldus*
-- **Funktsiooni nimi:** *uue laorakenduse kasutajasätted, ikoonid ja etapi pealkirjad*
+Laohalduse mobiilirakenduse kasutamiseks peavad uue *laorakenduse funktsiooni kasutajasätted,* ikoonid ja etapi pealkirjad olema süsteemis sisse lülitatud. Tarneahela halduse 10.0.25 puhul on see funktsioon kohustuslik ja seda ei saa välja lülitada. Kui käitate versiooni, mis on *vanem kui 10.0.25, saavad administraatorid selle funktsiooni sisse ja välja lülitada, otsides Kasutajasätteid, ikoone ja uue laorakenduse funktsiooni pealkirjad Funktsioonihalduse tööruumis*[...](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="get-the-warehouse-management-mobile-app"></a>Laohalduse mobiilirakenduse hankimine
 
@@ -144,9 +141,9 @@ Serte saab kasutada saladusena rakenduse identiteedi tõestamisel, kui luba taot
 
 Peate tegema serdi kohalikult kättesaadavaks igas seadmes, kus käitate laohalduse mobiilirakendust. Lisateavet selle kohta, kuidas hallata Intune'i juhitavate seadmete serte Intune'i kasutamise korral, vaadake teemast [Sertide kasutamine Microsoft Intune'is autentimiseks](/mem/intune/protect/certificates-configure).
 
-## <a name="configure-the-warehouse-management-mobile-app-for-cloud-and-edge-scale-units"></a>Laohalduse mobiilirakenduse konfigureerimine pilve- ja servaskaala ühikute jaoks
+## <a name="configure-the-warehouse-management-mobile-app-for-cloud-and-edge-scale-units"></a>Warehouse Managementi pilvrakenduse ja perimeeterskaalaüksuste konfigureerimine
 
-Kui kavatsete käivitada laohalduse mobiilirakenduse pilve- või servaskaala üksuse vastu, on vaja mõningaid lisatoiminguid. Juhised leiate teemast [Laohalduse mobiilirakenduse konfigureerimine pilve- ja servaskaala ühikute jaoks](../cloud-edge/cloud-edge-workload-setup-warehouse-app.md).
+Kui plaanite käitada laohalduse mobiilirakendust pilve või servaskaala ühiku alusel, on vajalikud mõned lisa sammud. Juhiseid vt laohalduse [mobiilirakenduse konfigureerimine pilve ja servaskaala üksuste jaoks](../cloud-edge/cloud-edge-workload-setup-warehouse-app.md).
 
 ## <a name="configure-the-application-by-importing-connection-settings"></a>Rakenduse konfigureerimine ühenduse sätete importimise abil
 
@@ -310,6 +307,6 @@ Kui seade läheb kaduma või satub ohtu, peate eemaldama juurdepääsu Supply Ch
 
 - [Mobiilse seadme kasutaja sätted](mobile-device-user-settings.md)
 - [Warehouse Management mobiilirakendusele astmeikoonide ja pealkirjade määramine](step-icons-titles.md)
-- [Laohalduse mobiilirakenduse konfigureerimine pilve- ja servaskaala ühikute jaoks](../cloud-edge/cloud-edge-workload-setup-warehouse-app.md)
+- [Warehouse Managementi pilvrakenduse ja perimeeterskaalaüksuste konfigureerimine](../cloud-edge/cloud-edge-workload-setup-warehouse-app.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

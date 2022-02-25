@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2021-04-19
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 560b62183f9c0c45c872998373a90dc9dc0ebbb3
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: 5d06f05ca27ed8fe58a9a24fcde8c0082662b866
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571709"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103091"
 ---
 # <a name="category-requests-from-vendors"></a>Kategooriataotlused hankijatelt
 
@@ -26,11 +26,11 @@ Kategooria nõudeprotsess lubab hankijatel taotleda uute hankekategooriate seost
 
 Kategooriataotlused algatavad hankijad **hankija teabe** tööruumis. Seejärel esitatakse need teie agentuurile ülevaatamiseks ja kinnitamiseks. Kinnitatud kategooriad lisatakse hankija konto hankekategooriate loendisse.
 
-## <a name="turn-on-the-feature-in-your-system"></a>Funktsiooni sisselülitamine teie süsteemis
+## <a name="turn-the-category-requests-from-vendors-feature-on-or-off"></a>Lülita kategooriataotlused hankijate funktsioonist sisse või välja
 
-Kui teie süsteem ei hõlma juba selles teemas kirjeldatud funktsiooni, minge [funktsioonihaldusesse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ja lülitage sisse valik *Luba hankijatel hankijate koostööportaali kaudu hankekategooriaid taotleda*.
+Tarneahela halduse versiooni 10.0.25 puhul lülitatakse see funktsioon vaikimisi sisse. Administraatorid saavad selle funktsiooni sisse või välja lülitada, *otsides hankekategooriate hankekategooriaid hankija koostöö funktsiooni kaudu Funktsioonihalduse* tööruumis [...](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-Kui funktsioon on sisse lülitatud, saate endiselt hankekategooriaid hankija kontodele käsitsi lisada. Lisateabe saamiseks vt jaotist [Kindlatele hankekategooriatele hankijate kinnitamine](tasks/approve-vendors-specific-procurement-categories.md).
+Kui see funktsioon on sisse lülitatud, saate hankekategooriaid hankija kontodele käsitsi lisada. Lisateabe saamiseks vt jaotist [Kindlatele hankekategooriatele hankijate kinnitamine](tasks/approve-vendors-specific-procurement-categories.md).
 
 ## <a name="vendor-collaboration-requirements"></a>Hankija koostöö nõuded
 

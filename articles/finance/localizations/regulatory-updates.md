@@ -1,26 +1,23 @@
 ---
 title: Regulatiivsed värskendused
 description: Selles teemas on toodud loend rakenduse Microsoft Dynamics 365 Finance plaanitud ja väljastatud regulatiivsetest värskendustest.
-author: ShylaThompson
-manager: AnnBe
-ms.date: 11/13/2020
+author: VStamberg
+ms.date: 01/20/2022
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.search.region: Global
-ms.author: roschlom
+ms.author: vastrup
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 46e9b3c3d47207715d0eee689913073d363f3af3
-ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
-ms.translationtype: HT
+ms.openlocfilehash: 663b7d3162af6d385bc9c445b1e98cf5f74a1471
+ms.sourcegitcommit: f2a78e0d7d461ca843ac2f9abff7690275db9196
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "4517496"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8105560"
 ---
 # <a name="regulatory-updates"></a>Regulatiivsed värskendused
 
@@ -28,7 +25,7 @@ ms.locfileid: "4517496"
 
 Selles teemas on toodud loend regulatiivsetest värskendustest, mis on plaanitud rakenduse Dynamics 365 Finance toetatud lokaliseeringute väljalaskesse. Väljaandmise tähtajad võivad muutuda ja kavandatud funktsioonid võivad olla erinevad või ei pruugita neid väljastada. Lisateavet leiate jaotisest [Microsofti poliitika](https://go.microsoft.com/fwlink/p/?linkid=2007332). 
 
-Regulatiivsed värskendused on funktsioonid, mida juurutatakse, et toetada uusi või muudetud riigikohaseid õigusakte. Teavet muude plaanitud ja välja antud riigikohaste funktsioonide kohta vaadake lehelt [Dynamics 365 ja Power Platformi väljalaskeplaanid](https://docs.microsoft.com/business-applications-release-notes/index).
+Regulatiivsed värskendused on funktsioonid, mida juurutatakse, et toetada uusi või muudetud riigikohaseid õigusakte. Lisateavet plaanitud ja väljastatud riigispetsiifiliste funktsioonide kohta vt [Dynamics 365 ja väljalaskeplaanidest Power Platform](/business-applications-release-notes/index).
 
 Microsoft püüab juurutada uusi regulatiivseid nõudeid võimalikult kiiresti. Tegelik väljalaskekuupäev sõltub seaduse väljakuulutamise päevast, nõuete üksikasjaliku teabe kättesaadavusest kohalike omavalitsuste käest, valideerimisvahendite kättesaadavusest ning muutuste ulatusest ja keerukusest.
 
@@ -41,49 +38,44 @@ Regulatiivsed uuendused, mis väljastatakse osana igakuisest uuendusest, tähist
 Uusimate plaanitud regulatiivsete värskenduste aegade jaoks vaadake järgmist tabelit.   
 
 |Riik|Väljalaske kuupäev|Vabasta versioon|Regulatiivne värskendus|
-|--------------------|---------------|-------|-------|
-|      Austria         |   2020. september      | 10.0.15      |   Käibemaksudeklaratsiooni vormingut U30 on uuendatud 2020. aasta aruandluse jaoks   |
-|      Bahrein         |   2020. juuni      | 10.0.13      |   Arve väljastamise tähtaeg (GCC)   |
-|      Bahrein         |   2020. september      | 10.0.13      |   Bahreini projekti arve   |
-|      Bahrein         |   2020. juuni      | 10.0.13      |   Bahreini km-deklaratsioon – kande kirjelduse lubamine   |   
-|      Brasiilia         |   August 2020      | 10.0.14, 10.0.13      |   ADRCST deklaratsioon PR   |
-|      Brasiilia         |   2020. mai      | 10.0.13      |   SPED ECF kavand 6   |
-|      Brasiilia         |   2020. a juuli      | 10.0.13      |   SPED Fiinants – kirje C176 – RS-olek   |
-|      Brasiilia         |   2020. oktoober      | 10.0.16, 10.0.15HF, 10.0.14HF, 10.0.13HF      |   NF-e NT2019.001 v1.51 – rakenduseeskirjade vastuvõtmine Distrito Federali soodustuse koodi alusel   |
-|      Brasiilia         |   2020. oktoober      | 10.0.16      |   SPED finantsaasta – paigutus 015   |
-|      Brasiilia         |   November 2020      | 10.0.15HF      |   SPED finantsaasta ICMS / IPI kirje C176 uuendus RS-olekule   |
-|      Brasiilia         |   2020. oktoober      | 10.0.16      |   DRCST deklaratsioon SC - SEF 262/2020   |
-|      Brasiilia         |   2020. oktoober      | 10.0.16      |   SPED finantsaasta ICMS / IPI kirje C176   |
-|      Tšehhi Vabariik      |   2020. a juuli      | 10.0.13      |   KM-i kontrolldeklaratsiooni muudatused XML-skeemis (arve loend)   |
-|      Tšehhi Vabariik         |   2020. a juuli      | 10.0.13      |   KM-deklaratsioon XML-is, KM-deklaratsiooni eelvaade Excelis ja KM-i kontrolldeklaratsiooni XML-vormingud maksudeklaratsiooni mudeli põhjal   |
-|      Euroopa        |   August 2020       | 10.0.14      |   Partneri käibemaksu ID ülekandmine intrastatile  |
-|      Soome         |   2020. a juuli       | 10.0.13      |   Soome elektrooniliste arvete tugi  |
-|      India         |   2020. a juuli      | 10.0.13      |   Kaupade müügi TCS vastavalt paragrahvile 206C (1H) – lävi PAN-i kohta, mis põhineb tehingute akumuleerimisel.  |
-|      India         |   August 2020, juuni 2020      | 10.0.13      |   Deebet-/kreeditarve ekspordiarve põhjal  |
-|      India         |   August 2020      | 10.0.13      |   Elektroonilised arved GST põhjal  |
-|      India         |   2020. a juuli      | 10.0.13      |   Uus võrguühenduseta tööriist (beetaversioon) GSTR (ANX-1 & ANX-2)  |
-|      India         |   2020. oktoober      | 10.0.14HF, 10.0.13HF      |   E-arve GST alusel varude ülekandmise tellimuses India jaoks|
-|      India         |   2020. oktoober      | 10.0.14HF, 10.0.13HF      |   E-arve GST alusel mitme GSTIN registreerimise jaoks Indias|
-|      India         |   2020. september      | 10.0.13HF      |   Kinnipeetava maksu määr 3/5 kümnendkohta|
-|      India         |   2020. september      | 10.0.14HF      |   Numbriseeria grupp: "GSTNSG", kande tüüp: "GST-arve", mis seadistatakse maksuteabe "0073" GST viitenumbri seeriagrupile|
-|      Itaalia         |   2020. a juuli      | 10.0.13      |   Itaalia elektrooniliste arvete vormingumuudatused – FatturaPA |
-|      Malaisia         |   2020. a juuli      | 10.0.13      |   SST-aruanne |
-|      Mehhiko         |   2020. september      | 10.0.13HF      |   CFDI URL-i skeemi asukoht Anexo 20 dokumendi alusel |
-|      Holland         |   2020. oktoober      | 10.0.16     |   Intrastati vormingut värskendatakse alates 2021. aastast |
-|      Norra         |   August 2020      | 10.0.14     |   SAF-T - kannete rühmituse tase "Kande" kohta tuleb esitada "Kande" elemendi tasemel, mitte "Töölehe" tasemel. |
-|      Poola          |   2020. september     | 10.0.14     |   Poola: Exceli vorming JPK-V7M (VDEK) – SSRS-aruande asendamiseks  |
-|      Poola          |   2020. a juuli     | 10.0.15, 10.0.14HF, 10.0.13     |   Vabatahtliku tükeldatud makse täiustused |
-|      Poola          |   2020. oktoober     | 10.0.13HF     |   Kohustusliku tükeldatud makse täiustused |
-|      Poola          |   November 2020     | 10.0.16, 10.0.15, 10.0.14, 10.0.13     |   JPK-V7M (VDEK) – müügidokumendi tüüp FP ja RO jaemüügi kannete jaoks |
-|      Poola          |   2020. september     | 10.0.15     |   Poola: JPK-V7M (VDEK) – avab võimaluse aruande loomiseks osade kaupa |
-|      Poola          |   2020. oktoober     | 10.0.16     |   JPK-V7M (VDEK) aruanne - "makse vabatahtlikult jagamise" parameetri omastamine |
-|      Venemaa          |   August 2020     | 10.0.14    |   Raamatupidamisaruandluse vorming muutus alates 2020. aastast  |
-|      Venemaa          |   2020. a juuli     | 10.0.13    |   Kulumi arvutamine soetusmaksumuse alusel ja olulised parandused kulumilisade rakendamisel maksuarvestuses  |
-|      Venemaa          |   November 2020     | 10.0.16    |   KM-i deklaratsiooni vorming uuendatakse versioonile 5.07 alates 2020 a. 4. kv aruandlusest|
+|--------------------|---------------|-------|-------| 
+|      Austria         |   August 2021      | 10.0.22      |   KM-i deklaratsioon XML-is ja eelvaade Excelis   |
+|      Austria         |   2021. september      | 10.0.22 hF      |   Intrastati vorming värskendatakse alates 2022- lähetustes muutuvad päritoluriik ja partneri KM-i ID kohustuslikuks   |
+|      Belgia        |   2021. oktoober      | 10.0.22 hF     |   Intrastati kandekoodid muutuvad kaheks numbriks alates 2022  |
+|      Brasiilia         |   August 2021      | 10.0.22      |   NF-e NT2020.006 – digitaalse platvormi vahendaja ID (paigutuse ja kinnitusreeglite uuendused)   |
+|      Brasiilia         |   2021. detsember         | 10.0.22, 10.0.23, 10.0.24         |    SPED-i fiskaalpaigutus 2022  |
+|      Tšehhi Vabariik         |   2021. oktoober         | 10.0.23 hF         |     Intrastati vorming värskendatakse alates 2022- lähetustes muutuvad päritoluriik ja partneri KM-i ID kohustuslikuks  |
+|      Taani         |   2021. detsember         | 10.0.22 hF         |    Intrastati vormingut värskendatakse alates 2022. aastast  |
+|      Eesti         |   2021. detsember      | 10.0.22 hF      |   Intrastati vorming värskendatakse alates 2022- lähetustes muutuvad päritoluriik ja partneri KM-i ID kohustuslikuks  |
+|      Soome         |   November 2021         | 10.0.22 hF         |    Intrastati vorming uuendatakse alates 2022.  |
+|      Saksamaa        |   August 2021       | 10.0.22 hF      |   Intrastati vormingu INSTAT XML värskendatakse alates 2022. Intrastati vormingu TXT pole rakendatav 01.07.2021  |
+|      Saksamaa        |   2021. oktoober       | 10.0.23      |   KM-i deklaratsioon XML-is ja eelvaates Excelis (uus kujundus maksukoodi valuutas summadega, töötab välja pöördtasu funktsiooniga, saab käivitada mitte-DE juriidilistes isikutes ja saab koguda maksukandeid mitmelt juriidiliselt isikult)  |
+|      Itaalia         |   November 2021         | 10.0.22hF, 10.0.23 hF, 10.0.24         |    Elektrooniline arveldus piiriüleste kannete jaoks  |
+|      Mehhiko         |   November 2021      | 10.0.22      |   Carta de Porte'i täiendus CFDI-dokumentides   |
+|      Mehhiko         |   2021. detsember      | 10.0.24      |   Carta de Porte täienduse versioon 2.0  |
+|      Holland        |   2021. oktoober      | 10.0.22 hF      |   2-kohaline kandekood Intrastati failivormingus alates 2022  |
+|      Uus-Meremaa         |   August 2021      | 10.0.22    |   GST deklaratsiooni vorm GST101A  |
+|      Norra        |   November 2021      | 10.0.24      |   KM-i deklaratsiooni vorming 2022 otseedastusega – Dynamics 365 Finance |
+|      Omaan         |   August 2021      | 10.0.22      |   KM-i deklaratsioon – versioon 1 |
+|      Poola          |   2021. oktoober     | 10.0.23, 10.0.24     |   JPK_V7M – uus skeemiversioon alates 2022. jaanuarist |
+|      Poola          |   November 2021     | 10,0,24 hF     |   Kaubanduskannete maksekuupäevade aastaaruanne |
+|      Poola          |   2021. oktoober     | 10.0.24     |   EL käibenimekirja elektrooniline vorming (VAT-UE) |
+|      Venemaa          |   2021. oktoober     | 10.0.22 hF, 10.0.23, 10.0.24    |   Müügi-, osturaamatute ja faktuurarve töölehtede muutused|
+|      Venemaa          |   2021. oktoober     | 10,0,24 hF    |   KM-i deklaratsiooni ja lisade vormingute muutmine|
+|      Venemaa          |   November 2021     | 10.0.24    |   Föderaalarvestuse standardid 6/2020 (põhivarad)|
+|      Saudi Araabia          |   November 2021     | 10.0.22 hF, 10.0.23    |   Elektroonilise arveldamise loomine Saudi-Araabias – faas 1|
+|      Saudi Araabia          |   November 2021     | 10.0.22hF, 10.0.23 hF, 10.0.24    |   Jaemüügi – elektrooniline arveldamine Saudi Araabias – faas 1|
+|      Hispaania          |   2021. oktoober     | 10.0.23    |    KM-i deklaratsiooni mudel 303 txt-ina ja eelvaade Excelis|
+|      Hispaania          |   2021. september     | 10.0.22    |    2022. aruandluseks värskendatakse Intrastat-vormingut – partneri KM-i ID ja päritoluriik on lähetuste puhul kohustuslikud|
+|      Rootsi          |   2021. oktoober     | 10.0.22 hF    |    Intrastati vorming uuendatakse alates 2022. aastast – lähetustes muutuvad riigi ja partneri KM-i ID kohustuslikuks. Kasutatakse kahenumbrilist kandekoodi.|
+|      Ühendkuningriik          |   August 2021     | 10.0.22    |    UK – MTD pettusest kõrvalehoidmine 2021)|
 
 
 
 ## <a name="additional-resources"></a>Lisaressursid
-- Kõik plaanitud ja väljaantud regulatiivsed värskendused leiate jaotisest [Lifecycle Service – väljaande otsing](https://lcs.dynamics.com/Logon/Index) (vajalik on sisselogimine).
+- Lisateavet kõikide plaanitud ja väljastatud riigispetsiifiliste regulatiivsete uuenduste kohta vt [riigispetsiifiliste regulatiivsete uuenduste otsing](search-for-regulatory-updates.md). (Registreerumine on nõutav.)
 - Toetatavate lokaliseeringute loendi leiate [Rahvusvahelise saadavuse juhendist](https://aka.ms/dynamics_365_international_availability_deck).
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

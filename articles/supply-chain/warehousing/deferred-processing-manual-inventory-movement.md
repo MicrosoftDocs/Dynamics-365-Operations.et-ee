@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: Mirzaab
 ms.search.validFrom: 2021-04-27
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: f5c9ba7079895feeb0c171f2021479587aa13cc9
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 21dd01448fcf6c2b3ca90a5476fad061bb0f55e4
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777662"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102735"
 ---
 # <a name="deferred-processing-of-manual-inventory-movement"></a>Laovarude manuaalse liigutamise edasilükatud töötlemine
 
@@ -32,10 +32,10 @@ Taustatöötlus on saavutatud lao rakenduse [Process app sündmuste funktsiooni]
 
 Selle funktsiooni sisselülitamiseks lubage [funktsioonihalduses](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) järgmiseid funktsioone. Need tuleb sisse lülitada selles järjekorras:
 
-1. Organisatsiooni üleorganisatsiooniline töö blokeerimine (tarneahela halduse versiooni 10.0.21 kohaselt on see funktsioon kohustuslik, seega lülitatakse see vaikimisi sisse ja seda ei saa uuesti välja lülitada.)
-1. Laorakenduse sündmuste töötlemine
-1. Edasilükatud asetamistoimingud
-1. Varude käsitsi paigutamise toimingu edasilükatud töötlemine
+1. *Organisatsiooniülene töö blokeerimine*<br>(Tarneahela halduse versiooni 10.0.21 kohaselt on see funktsioon kohustuslik, seega on see vaikimisi sisse lülitatud ja seda ei saa enam välja lülitada.)
+1. *Laorakenduse sündmuste töötlemine*<br>(Tarneahela halduse versiooni 10.0.25 puhul lülitatakse see funktsioon vaikimisi sisse.)
+1. *Edasilükatud asetamistoimingud*
+1. *Varude käsitsi paigutamise toimingu edasilükatud töötlemine*<br>(Tarneahela halduse versiooni 10.0.25 puhul on see funktsioon kohustuslik, seega on see vaikimisi sisse lülitatud ja seda ei saa enam välja lülitada.)
 
 ## <a name="configure-the-work-processing-policies"></a>Töö töötluspoliitikate konfigureerimine
 

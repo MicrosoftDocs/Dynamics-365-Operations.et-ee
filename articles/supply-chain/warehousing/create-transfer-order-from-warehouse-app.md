@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 4ceedd8b42383dc1334f472ba754ac3e18261b9d
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: cbaeb120032bf2239fd9a5bce39fd7936229b308
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777811"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102934"
 ---
 # <a name="create-transfer-orders-from-the-warehouse-app"></a>Üleviimistellimuste loomine laorakenduses
 
@@ -26,21 +26,16 @@ ms.locfileid: "7777811"
 
 See funktsioon laseb laotöötajatel luua ja töödelda üleviimistellimusi otse mobiilirakenduses Warehouse Management. Esiteks peab töötaja valima sihtlao ja seejärel saavad nad skannida rakenduse abil ühe või mitu litsentsiplaati, et lisada litsentsiplaadid üleviimistellimusele. Kui laotöötaja valib suvandi **Lõpeta tellimus**, loob pakett-töö litsentsiplaatide jaoks registreeritud vaba kaubavaru alusel vajaliku üleviimistellimuse ja tellimuse read.
 
-## <a name="enable-the-create-transfer-orders-from-the-warehouse-app-feature"></a><a name="enable-create-transfer-order-from-warehouse-app"></a> Funktsiooni „Üleviimistellimuste loomine laorakenduses” lubamine
+## <a name="turn-this-feature-on-or-off"></a><a name="enable-create-transfer-order-from-warehouse-app"></a> Selle funktsiooni sisse- või väljalülitamine
 
 Enne selle funktsiooni kasutamist tuleb teie süsteemis lubada nii see ise kui ka selle eeltingimused. Administraatorid saavad kasutada [funktsioonide halduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) lehte, et kontrollida funktsiooni olekut ja vajaduse korral see lubada.
 
-1. Esmalt lubage funktsioon [Laorakenduse sündmuste töötlemine](warehouse-app-events.md), mis on loetletud [funktsioonihalduses](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) järgmiselt.
-    - **Moodul** – laohaldus
-    - **Funktsiooni nimi** – laorakenduse sündmuste töötlemine
-1. Seejärel lubage funktsioon *Üleviimistellimuste loomine laorakenduses*, mis on loetletud järgmiselt.
-    - **Moodul** – laohaldus
-    - **Funktsiooni nimi** – üleviimistellimuste loomine ja töötlemine laorakenduses
-1. Väljaminevate saadetiste töötlemise automatiseerimiseks peate lubama ka funktsiooni [Väljaminevate saadetiste kinnitamine pakett-töödes](confirm-outbound-shipments-from-batch-jobs.md). Tarneahela halduse versiooni 10.0.21 puhul on see funktsioon vaikimisi sisse lülitatud. Administraatorid saavad funktsioonihalduse [lehte](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) kasutada, et kontrollida funktsiooni olekut ja lubada või keelata see, kui vaja. Siin on funktsioon loetletud järgmiselt.
-    - **Moodul** – laohaldus
-    - **Funktsiooni nimi** – väljaminevate saadetiste kinnitamine pakett-töödes
+1. Lubage järgmised kaks funktsiooni (järjestuses) Funktsioonihalduse [tööruumis](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). Tarneahela halduse versiooni 10.0.25 puhul lülitatakse mõlemad funktsioonid vaikimisi sisse.
+    1. *Laorakenduse sündmuste töötlemine*
+    1. *Laorakenduses ülekandetellimuste loomine ja töötlemine*
+1. Väljaminevate saadetiste töötlemise automatiseerimiseks peate lubama ka pakett-töödelt [väljaminevate saadetiste kinnitamise funktsiooni](confirm-outbound-shipments-from-batch-jobs.md).
 
-## <a name="set-up-a-mobile-device-menu-item-to-create-transfer-orders"></a><a name="setup-warehouse-app-menu"></a> Mobiilse seadme menüükäsu seadistamine üleviimistellimuste loomiseks
+## <a name="set-up-a-mobile-device-menu-item-to-create-transfer-orders"></a><a name="setup-warehouse-app-menu"></a>Mobiilse seadme menüükäsu seadistamine üleviimistellimuste loomiseks
 
 Siin on toodud üldised juhised selle kohta, kuidas seadistada mobiilses seadmes menüükäsku üleviimistellimuse loomiseks. Sõltuvalt teie ärinõuetest, mis on seotud automatiseerimise tasemega, mis tuleb määrata, kui kasutajad loovad laos üleviimistellimusi, lubatakse eri konfiguratsioonid. Selles dokumendis toodud olukorras kirjeldatakse üht sellist konfiguratsiooni.
 
@@ -254,7 +249,7 @@ Lisage füüsilise vaba kaubavaru kogused, kasutades järgmisi väärtusi.
 
 Nimetatud näite puhul kasutatakse kaht **laorakenduse sündmust** (*Üleviimistellimuse loomine* ja *Üleviimistellimuse lõpetamine*).
 
-### <a name="inquire-the-warehouse-app-events"></a><a name="#inquire-the-warehouse-app-events"></a> Laorakenduse sündmuste päring
+### <a name="inquire-the-warehouse-app-events"></a><a name="#inquire-the-warehouse-app-events"></a>Laorakenduse sündmuste päring
 
 Saate vaadata sündmuste järjekorda ja mobiilirakenduse Warehouse Management loodud sündmuseteateid, avades **Laohaldus \> Päringud ja aruanded \> Mobiilse seadme logid \> Laorakenduse sündmused**.
 

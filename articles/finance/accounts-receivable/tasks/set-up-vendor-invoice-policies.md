@@ -2,36 +2,33 @@
 title: Hankija arve poliitikate seadistamine
 description: Selles teemas selgitatakse, kuidas seadistada tarnijate arvete poliitikat.
 author: ShivamPandey-msft
-manager: AnnBe
-ms.date: 07/11/2019
+ms.date: 02/11/2022
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendParameters,  SysPolicyListPage, SysPolicyParameters, SysPolicySourceDocumentRuleType, SysPolicy, SysPolicySourceDocumentRule, SysQueryForm, SysQueryTableLookUp, SysQueryPrefixLookUp, SysQueryFieldLookUp
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 58518f5291b70c63506c20717034daff0268901b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 1f9707c7b283f42729126efa57e890e0df65ca8b
+ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442384"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8109752"
 ---
 # <a name="set-up-vendor-invoice-policies"></a>Hankija arve poliitikate seadistamine
 
 [!include [banner](../../includes/banner.md)]
 
-Selles teemas selgitatakse, kuidas seadistada tarnijate arvete poliitikat. Hankija arvepoliitikad käivitatakse, kui sisestate hankija arve leheküljel Hankija arve ja avate lehekülje Hankija arve poliitika rikkumised. Hankija arve töövoogu saate konfigureerida ka selliselt, et hankija arve poliitikad käivitatakse iga kord, kui sisestate arve töövoogu. 
+Selles teemas selgitatakse, kuidas seadistada tarnijate arvete poliitikat. Hankija arvepoliitikad käivitatakse, kui sisestate **hankija** arve, kasutades lehte Hankija arve ja kui avate hankija arve poliitika **rikkumiste** lehe. Hankija arve töövoogu saate konfigureerida ka selliselt, et hankija arve poliitikad käivitatakse iga kord, kui sisestate arve töövoogu. 
 
 - Hankija arvepoliitikad ei kehti arvetele, mis on loodud arveregistris või arve töölehel.  
-- Arvete võrdlemise kinnitamisel ei kasutata hankija arvepoliitikaid, vaid selle sätted määratakse leheküljel Ostureskontro parameetrid.  
-- Salvestamisel kasutatakse demoettevõtte USMF-i. Järgmiste sammude tegemiseks on vaja ostureskontro juhi või pearaamatupidaja rolli. Enne alustamist veenduge, et valitud on konfiguratsioonivõti Arvete vastendamine.
+- Arvete vastendamise kontrollimine ei kasuta hankija arvepoliitikaid, vaid seadistatakse selle asemel ostureskontro **parameetrite** lehel.  
+- Salvestamisel kasutatakse demoettevõtte USMF-i. Järgmiste sammude tegemiseks on vaja ostureskontro juhi või pearaamatupidaja rolli. Enne alustamist veenduge, et arvete vastendamise **konfiguratsioonivõti** on valitud.
 
 
 ## <a name="prepare-to-create-vendor-invoice-policies"></a>Hankija arve poliitikate loomise ettevalmistus
@@ -73,3 +70,6 @@ Selles teemas selgitatakse, kuidas seadistada tarnijate arvete poliitikat. Hanki
 16. Valige nupp **OK**.
 17. Avalehele naasmiseks sulgege leheküljed.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

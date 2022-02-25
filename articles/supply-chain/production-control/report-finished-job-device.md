@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 2fa82c721316fb21442e1cfc00ba00ff8cb2b750
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 67fa97c938f091c23a41ddd5aaf34a32c5a13c93
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778227"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102806"
 ---
 # <a name="report-as-finished-from-the-job-card-device"></a>Töökaardi seadmes lõpetamisest teatamine
 
@@ -218,9 +218,9 @@ Täpsemad laoprotsessid rakendavad lao asukohtades varude jälgimiseks vastaval 
 
 Antud jaotises kirjeldatud funktsioonide kasutamiseks peate kasutama [funktsioonihaldust](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), et lülitada sisse järgmised funktsioonid (samas järjekorras).
 
-1. Töökaardi seadmesse lisatud litsentsiplaat lõpetatuna teatamiseks (tarneahela halduse versiooniga 10.0.21 lülitatakse see funktsioon vaikimisi sisse.)
-1. Identifitseerimisnumbri automaatse genereerimise lubamine lõpetamisest teatamisel töökaardi vahendis
-1. Sildi printimine töökaardi vahendilt
+1. *Töökaardi vahendile on lisatud lõpetatuks märkimise litsentsiplaat*<br>(Tarneahela halduse versiooni 10.0.21 puhul lülitatakse see funktsioon vaikimisi sisse. Tarneahela halduse versiooni 10.0.25 kohaselt on see funktsioon kohustuslik.)
+1. *Identifitseerimisnumbri automaatse genereerimise lubamine lõpetamisest teatamisel töökaardi vahendis*<br>(Tarneahela halduse versiooni 10.0.25 kohaselt on see funktsioon kohustuslik.)
+1. *Sildi printimine töökaardi vahendilt*<br>(Tarneahela halduse versiooni 10.0.25 kohaselt on see funktsioon kohustuslik.)
 
 ### <a name="set-up-reporting-as-finished-to-a-license-plate"></a>Litsentsiplaadile lõpetamisest teatamise seadistamine
 
