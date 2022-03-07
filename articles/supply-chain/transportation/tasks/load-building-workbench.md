@@ -2,29 +2,28 @@
 title: Koorma koostamise töölaud
 description: Selles teemas kirjeldatakse, kuidas töötada koorma koostamise töölauaga.
 author: Henrikan
-manager: ''
 ms.date: 10/30/2020
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: TMSLoadBuildWorkbench,TMSLoadBuildTemplateCreate,TMSLoadBuildStrategy
+ms.search.form: TMSLoadBuildWorkbench,TMSLoadBuildTemplateCreate,TMSLoadBuildStrategy,TMSLoadBuildTemplateApply
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: henrikan
 ms.search.validFrom: 2020-10-30
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 429a8bac5491a342ecbc8b67c59c71715a4b0889
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
-ms.translationtype: HT
+ms.openlocfilehash: 306ca4f77d9c1d4879d750992e51c8b83917839e
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4646381"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7574853"
 ---
 # <a name="load-building-workbench"></a>Koorma koostamise töölaud
+
+[!include [banner](../../includes/banner.md)]
 
 Koorma koostamise töölaud võimaldab teil koormate loomisel rakendada koorma koostamise strateegiaid.
 
@@ -67,3 +66,6 @@ Nüüd saate koorma koostamise mallile määrata koorma koostamise strateegia. V
 1. Vaadake üle pakutud koormad ja pakutud koormaread.
 1. Tehke toimingupaanil valik **Loo koormad**, et luua kiirkaardi **Pakutud koormaread** lähtedokumentide ridadel põhinevad koormad.
 1. Sulgege leht **Koorma koostamise töölaud**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

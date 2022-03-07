@@ -4,36 +4,8 @@
       items:
         - name: Dynamics 365 Finance'i avaleht
           href: index.md
-        - name: Mis on uut või mida on muudetud?
-          items:
-            - name: Mis on uut või mida on muudetud Rahanduse ja toimingute rakendustes?
-              href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
-            - name: Mis on uut või mis on muutunud Finance’is?
-              items:
-                - name: Mis on uut või mida on muudetud Finance'i avalehel?
-                  href: get-started/whats-new-home-page.md
-                - name: Finance 10.0.25 (aprill)
-                  href: get-started/whats-new-changed-10-0-25.md
-                - name: Finance 10.0.24 (veebruar)
-                  href: get-started/whats-new-changed-10-0-24.md
-                - name: Finance 10.0.23 (jaanuar)
-                  href: get-started/whats-new-changed-10-0-23.md
-            - name: Eemaldatud või iganenud funktsioonid
-              items:
-                - name: Eemaldatud või iganenud funktsioonide avaleht
-                  href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/finance/toc.json
-                - name: Dynamics 365 Finance'i eemaldatud või iganenud funktsioonid
-                  href: get-started/removed-deprecated-features-finance.md
-                - name: Varasemate versioonide eemaldatud või iganenud funktsioonid
-                  href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/finance/toc.json
-            - name: AX 2012 edasilükatud funktsioonid
-              href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/finance/toc.json
-            - name: Microsoft Dynamics AX 2009 ja 2012 tavatoe lõpp
-              href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/finance/toc.json
         - name: Alustamine
           items:
-            - name: Teenuse kirjeldus
-              href: ../fin-ops-core/fin-ops/get-started/service-description.md?toc=/dynamics365/finance/toc.json
             - name: Enne ostmist
               href: ../fin-ops-core/fin-ops/get-started/before-you-buy.md?toc=/dynamics365/finance/toc.json
             - name: Eelvaatetellimuste saajaks registreerumine
@@ -88,6 +60,36 @@
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/finance/toc.json
                 - name: Laorakenduse konfigureerimine kohapealseteks juurutusteks
                   href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/finance/toc.json
+                - name: 'Finance and Operationsi rakendused, mida käitab 21Vianet Hiinas'
+                  href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/finance/toc.json
+                - name: Finance and Operationsi rakendused Prantsusmaal
+                  href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/finance/toc.json
+            - name: Mis on uut või mida on muudetud?
+              items:
+                - name: Mis on uut või mida on muudetud Finance and Operationsi rakendustes?
+                  href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
+                - name: Mis on uut või mida on muudetud rakenduses Finance?
+                  items:
+                    - name: Mis on uut või mida on muudetud Finance'i avalehel?
+                      href: get-started/whats-new-home-page.md
+                    - name: Finance 10.0.18 (mai 2021)
+                      href: get-started/whats-new-changed-10-0-18.md
+                    - name: Finance 10.0.17 (aprill 2021)
+                      href: get-started/whats-new-changed-10-0-17.md
+                    - name: Finance 10.0.16 (veebruar 2021)
+                      href: get-started/whats-new-changed-10-0-16.md
+            - name: Eemaldatud või iganenud funktsioonid
+              items:
+                - name: Eemaldatud või iganenud funktsioonide avaleht
+                  href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/finance/toc.json
+                - name: Dynamics 365 Finance'i eemaldatud või iganenud funktsioonid
+                  href: get-started/removed-deprecated-features-finance.md
+                - name: Varasemate versioonide eemaldatud või iganenud funktsioonid
+                  href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/finance/toc.json
+            - name: AX 2012 edasilükatud funktsioonid
+              href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/finance/toc.json
+            - name: Microsoft Dynamics AX 2009 ja 2012 tavatoe lõpp
+              href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/finance/toc.json
             - name: Dokumentatsiooniressursid
               items:
                 - name: Spikrisüsteem
@@ -104,6 +106,8 @@
                   href: ../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/finance/toc.json
                 - name: Videod
                   href: ../fin-ops-core/fin-ops/get-started/videos.md?toc=/dynamics365/finance/toc.json
+                - name: Sõnastik
+                  href: ../fin-ops-core/fin-ops/get-started/glossary.md?toc=/dynamics365/finance/toc.json
             - name: Õppekataloog
               items:
                 - name: Õppekataloogi avaleht
@@ -158,8 +162,6 @@
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/finance/toc.json
                 - name: Power Appsist lõuendirakenduste manustamine
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/finance/toc.json
-                - name: Kolmanda osapoole rakenduste manustamine
-                  href: ../fin-ops-core/fin-ops/get-started/embed-website.md?toc=/dynamics365/finance/toc.json
                 - name: Teabe leidmine otsingute abil
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/finance/toc.json
                 - name: Seansi kuupäeva muutmine
@@ -172,7 +174,7 @@
               items:
                 - name: Juurutamise elutsüklihalduse avaleht
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/implementation-lifecycle.md?toc=/dynamics365/finance/toc.json
-                - name: Rahanduse ja toimingute rakenduste arhitektuur
+                - name: Finance and Operationsi rakenduste arhitektuur
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/architecture-overview.md?toc=/dynamics365/finance/toc.json
                 - name: Microsoft FastTrack
                   href: /dynamics365/fasttrack/index
@@ -218,8 +220,6 @@
                   href: accounts-payable/vendor-copy.md
                 - name: Hankija arve kirjendamine arvete töölehele
                   href: accounts-payable/tasks/record-vendor-invoice-invoice-journal.md
-                - name: Maksegraafiku rakendamine arve töölehele
-                  href: accounts-payable/payment-invoice-journal.md
             - name: Arvete ja võtmeandmete audit ostureskontros
               href: general-ledger/tasks/audit-invoices-key-data-ap-system.md
             - name: Kolmesuunalised vastavusseviimise poliitikad
@@ -236,10 +236,6 @@
                   href: accounts-payable/auto-vendr-invc-process.md
                 - name: Hankija arve automatiseerimise seadistussuvandid
                   href: accounts-payable/vnd-invoice-set-up-options.md
-                - name: Ettemaksete automaatne rakendamine hankija arvete ülevaatele
-                  href: accounts-payable/apply-prepymnts-overview.md
-                - name: Arveridade loomine hankija arvete importimisel
-                  href: accounts-payable/auto-create-invc-lines-at-import.md
                 - name: Arvete esitamine töövoosüsteemi ja toote sissetulekuridade vastendamine
                   href: accounts-payable/submit-invoice-workflow-automatically.md
                 - name: Hankija arve automatiseerimise tulemuste kuvamine
@@ -272,8 +268,6 @@
                   href: accounts-payable/tasks/research-resolve-exceptions.md
             - name: Hankija sisestusreeglid
               href: accounts-payable/vendor-posting-profiles.md
-            - name: Hankija arve kuupäevad
-              href: accounts-payable/vendor-invoice-dates.md
             - name: Ostureskontro ja müügireskontro välisvaluuta ümberarvutamine
               href: cash-bank-management/foreign-currency-revaluation-accounts-payable-accounts-receivable.md
             - name: Mobiilsed arvete heakskiidud
@@ -286,8 +280,6 @@
               href: accounts-payable/broker-contract.md
             - name: Honorarilepingu haldus
               href: accounts-payable/royalty-contract.md
-            - name: Algsetele arvetele viitamine kreeditarvetes (hankija arved)
-              href: accounts-payable/gbl-original-invoice-numbers-credit-notes-ap.md
             - name: Maksed ja tasakaalustamised
               items:
                 - name: Ostureskontro tsentraliseeritud maksed
@@ -408,17 +400,11 @@
                   href: accounts-receivable/rev-rec-reallocation-scenario-3.md
                 - name: Tulu tuvastamise ümberjaotamine – 4. stsenaarium
                   href: accounts-receivable/rev-rec-reallocation-scenario-4.md
-            - name: Kordustellimuse arveldus
-              items:
-                - name: Kordustellimuse arvelduse ülevaade
-                  href: accounts-receivable/subscription-billing-summary.md
-                - name: Arveldusgraafikute häälestamine
-                  href: accounts-receivable/sb-billing-schedules.md
             - name: Maksed ja tasakaalustamised
               items:
                 - name: Kliendimaksete ülevaade
                   href: cash-bank-management/tasks/customer-payment-overview.md
-                - name: Ostureskonto tsentraliseeritud maksed
+                - name: Müügireskontro tsentraliseeritud maksed
                   href: accounts-receivable/centralized-payments-accounts-receivable.md
                 - name: Kliendimaksete deponeerimine
                   href: accounts-receivable/tasks/deposit-customer-payments.md
@@ -438,8 +424,6 @@
                   href: accounts-receivable/settle-partial-customer-payment-discounts-credit-notes.md
                 - name: Mitme allahindlusperioodiga osalise kliendimakse tasakaalustamine
                   href: accounts-receivable/settle-partial-customer-payment-multiple-discount-periods.md
-                - name: Kliendi ettemaksed
-                  href: accounts-receivable/customer-prepayments.md
                 - name: Klientide kulude korvamine
                   href: accounts-receivable/reimburse-customers.md
                 - name: Kliendi osalises summas maksed
@@ -458,8 +442,6 @@
                   href: accounts-receivable/tasks/review-collections-information.md
                 - name: Sissenõuete protsessi automatiseerimine
                   href: accounts-receivable/collections-process-automate.md
-                - name: Sissenõuete protsessi automatiseerimise parameetrite konfigureerimine
-                  href: accounts-receivable/config-paramtrs-collections-proc-automate.md
                 - name: Krediidihalduse häälestamine
                   href: accounts-receivable/cm-credit-mgmt-setup.md
                 - name: Krediidihalduse häälestuse andmed
@@ -498,12 +480,8 @@
               href: accounts-receivable/process-collection-letters-example.md
             - name: Müügireskontro ajalise jaotuse teabe häälestus ja genereerimine
               href: accounts-receivable/tasks/set-up-accounts-receivable-aging-information.md
-            - name: Kliendi aegumise hetktõmmis
-              href: accounts-receivable/customer-aging-snapshot.md
             - name: Kliendi ajalise jaotuse aruanne
               href: accounts-receivable/customer-aging.md
-            - name: Kliendi ajalise jaotuse andmete salvestusruum
-              href: accounts-receivable/customer-aging-data-storage.md
             - name: Kliendi jaoks mahakandmise töölehe loomine
               href: accounts-receivable/tasks/create-write-off-journal-customer.md
             - name: Täpsemate märkmete haldus
@@ -524,16 +502,12 @@
               href: budgeting/budget-control-overview-configuration.md
             - name: Eelarve koostamise ülevaade
               href: budgeting/basic-budgeting-overview-configuration.md
-            - name: Saadaolevad eelarvefondid
-              href: budgeting/budget-funds-available.md
             - name: Ametikoha prognoosimine
               href: budgeting/position-forecasting.md
             - name: Eelarve planeerimise põhjendusdokumendid
               href: budgeting/budget-planning-justification-docs.md
             - name: Eelarve loomine kandekontodest ja summakontodest
               href: budgeting/create-budget-transaction-accounts-total-accounts.md
-            - name: Eelarveplaani narratiiv
-              href: budgeting/budget-narrative.md
             - name: Eelarve planeerimise mallid Exceli jaoks
               href: budgeting/budget-planning-excel-templates.md
             - name: Eelarve plaanimise paigutuse laiendamine
@@ -705,15 +679,49 @@
             - name: Kulujuhtimise tööruumi kasutamine mobiilirakenduses
               href: cost-accounting/cost-controlling-mobile-workspace.md
         - name: Elektronsõnumid
+          href: general-ledger/electronic-messaging.md
+        - name: Kulude haldus
           items:
-            - name: Elektroonilise sõnumside ülevaade
-              href: general-ledger/electronic-messaging.md
-            - name: Elektrooniliste sõnumite häälestamine
-              href: general-ledger/electronic-messaging-setup.md
-            - name: Töötamine elektrooniliste sõnumite funktsiooniga
-              href: general-ledger/electronic-messaging-work-with-em.md
-            - name: Lihtsa elektroonilise aruandluse eksporditava vormingu kutsumine Exceli aruande genereerimiseks
-              href: general-ledger/electronic-messaging-example.md
+            - name: Kuluhalduse ülevaade
+              href: expense-management/expense-management.md
+            - name: Uuendatud kuluaruanded
+              href: expense-management/ExpenseWorkspaceNew.md
+            - name: Kuluhalduse plaanimine
+              href: expense-management/plan-expense-management.md
+            - name: Kuluhalduse parameetrid
+              href: expense-management/Expense-Management-Parameters.md
+            - name: Kuluhalduse mobiilne tööruum
+              href: expense-management/expense-management-mobile-workspace.md
+            - name: Kulude halduse töövoogude häälestamine
+              href: expense-management/expense-workflows.md
+            - name: Kulude halduse töövoog
+              href: expense-management/expense-workflow.md
+            - name: Kulude delegeerimise haldus
+              href: expense-management/manage-expense-delegation.md
+            - name: Kulusissetuleku töötlemine
+              href: expense-management/expense-receipt-processing.md
+            - name: Krediitkaardikannete importimine ja haldamine
+              href: expense-management/import-credit-card.md
+            - name: Kuluaruande jaotused
+              href: expense-management/expense-report-distributions.md
+            - name: Kontsernisisesed kulud
+              href: expense-management/intercompany-expense.md
+            - name: Kulupoliitikate määratlemine
+              href: expense-management/travel-expense-policies.md
+            - name: Kuluaruande vaatamine
+              href: expense-management/view-expense-report.md
+            - name: Kuluaruande sisestamine
+              href: expense-management/post-expense.md
+            - name: Kuluaruanded ja mitu kinnitajat
+              href: expense-management/expense-report-multiple-approvers.md
+            - name: Käibemaksu sissenõudmine kulude halduses
+              href: expense-management/VAT-expense-report.md
+            - name: Päevaraha reeglid
+              href: expense-management/per-diem.md
+            - name: Reisiplaanid
+              href: expense-management/travel-req.md
+            - name: Isiklikud kulud kuluaruandes
+              href: expense-management/personal-expenses.md
         - name: Põhivarad
           items:
             - name: Põhivarade avaleht
@@ -842,8 +850,6 @@
                   href: asset-leasing/set-up-lease-books.md
                 - name: Rendigrupi loomine
                   href: asset-leasing/create-lease-group.md
-                - name: Maksesumma tüüp
-                  href: asset-leasing/Payment-amount-type.md
                 - name: Indeksimäärade seadistamine
                   href: asset-leasing/set-up-index-rate-types.md
                 - name: Kulutüüpide seadistamine
@@ -904,144 +910,142 @@
               href: asset-leasing/asset-leasing-rprts.md
         - name: Pearaamat
           items:
-            - name: Pearaamatu avaleht
+            - name: Pearaamatu ülevaade
               href: general-ledger/general-ledger.md
-            - name: Kontoplaan
+            - name: Kontod
               items:
+                - name: Viitvõlgade ülevaade
+                  href: general-ledger/accruals-overview.md
+                - name: Eemaldamisreeglid
+                  href: general-ledger/elimination-rules.md
+                - name: Konto ja dimensiooni kombinatsioonid
+                  href: general-ledger/enter-account-dimension-combinations-segmented-entry-control.md
+                - name: Tasakaalustatud töölehed sisekäibe jaoks
+                  href: general-ledger/example-balanced-journals-interunit-accounting.md
+                - name: Sisestamisdefinitsioonid
+                  href: general-ledger/posting-definitions.md
+                - name: Sisestamisdefinitsiooni näited
+                  href: general-ledger/example-posting-definitions.md
+                - name: Saate häälestada vaikekirjeldused automaatseks sisestamiseks
+                  href: general-ledger/set-up-default-descriptions-for-automatic-posting.md
+                - name: Pearaamatukonto saldod
+                  href: general-ledger/general-ledger-account-balances.md
+                - name: Finantsdimensioonide määratlemine
+                  href: general-ledger/tasks/define-financial-dimensions.md
+                - name: Finantsdimensiooni vaikemallide haldamine
+                  href: general-ledger/tasks/maintain-financial-dimension-default-templates.md
+                - name: Kontostruktuuride loomine
+                  href: general-ledger/tasks/create-account-structures.md
+                - name: Finantsdimensioonid ja sisestamine
+                  href: general-ledger/default-dimensions.md
+                - name: Viitvõlaskeemide loomine
+                  href: general-ledger/tasks/create-accrual-schemes.md
+                - name: Finantskonsolideerimised ja valuuta teisendamine
+                  items:
+                    - name: Finantskonsolideerimiste ja valuutateisenduse ülevaade
+                      href: general-ledger/financial-consolidations-currency-translation.md
+                    - name: Konsolideerimine võrgus
+                      href: general-ledger/consolidate-online.md
+                    - name: Konsolideeritud finantsaruannete loomine
+                      href: general-ledger/generating-consolidated-financial-statements.md
+                    - name: Failidest allettevõtte andmete importimine
+                      href: general-ledger/import-subsidiary-data-from-files.md
+                    - name: Allettevõtte andmete faili eksportimine
+                      href: general-ledger/export-subsidiary-data-to-file.md
+                    - name: Konsolideerimine importimisega – vorming
+                      href: general-ledger/consolidate-with-import-format.md
+                    - name: Konsolideerimisprotsessis kasutatava juriidilise isiku ettevalmistamine
+                      href: general-ledger/prepare-company-for-consolidation.md
+                    - name: Allettevõtte juriidilise isiku seadistamine konsolideerimiseks
+                      href: general-ledger/set-up-subsidiary-company-for-consolidation.md
+                - name: Konsolideerimisgruppide ja täiendava konsolideerimiskonto loomine
+                  href: general-ledger/tasks/create-consolidation-groups.md
+                - name: Põhikonto tüübid
+                  href: general-ledger/main-account-types.md
+                - name: Põhikonto loomine
+                  href: general-ledger/tasks/create-main-account.md
                 - name: Kontoplaanide plaanimine
                   href: general-ledger/plan-chart-of-accounts.md
-                - name: Põhikontod
-                  items:
-                    - name: Põhikonto tüübid
-                      href: general-ledger/main-account-types.md
-                    - name: Põhikonto kategooriate häälestus
-                      href: general-ledger/tasks/set-up-main-account-categories.md
-                    - name: Pearaamatukonto pseudonüümi häälestus
-                      href: general-ledger/tasks/set-up-ledger-account-alias.md
-                    - name: Põhikonto loomine
-                      href: general-ledger/tasks/create-main-account.md
-                    - name: Eraldustingimused
-                      href: general-ledger/main-account-allocation-terms.md
-                - name: Finantsdimensioonid
-                  items:
-                    - name: Finantsdimensioonid
-                      href: general-ledger/financial-dimensions.md
-                    - name: Finantsdimensioonide määratlemine
-                      href: general-ledger/tasks/define-financial-dimensions.md
-                    - name: Konto ja dimensiooni kombinatsioonid
-                      href: general-ledger/enter-account-dimension-combinations-segmented-entry-control.md
-                    - name: Finantsdimensioonikomplektid
-                      href: general-ledger/financial-dimension-sets.md
-                    - name: Finantsdimensiooni vaikemallide haldamine
-                      href: general-ledger/tasks/maintain-financial-dimension-default-templates.md
-                    - name: Finantsdimensioonid ja sisestamine
-                      href: general-ledger/default-dimensions.md
-                    - name: Konto struktuuride konfigureerimine
-                      href: general-ledger/configure-account-structures.md
-                    - name: Kontostruktuuride loomine
-                      href: general-ledger/tasks/create-account-structures.md
-                    - name: Täpsemate reeglistruktuuride loomine ja määramine
-                      href: general-ledger/tasks/create-assign-advanced-rule-structures.md
-                    - name: Kuidas seadistada tasakaalustavad finantsdimensioonid?
-                      href: general-ledger/set-up-balance-dimensions.md
-            - name: Seadistus
-              items:
+                - name: Pearaamatukontode kannete tasakaalustamine
+                  href: general-ledger/tasks/settle-transactions-between-ledger-accounts.md
+                - name: Pearaamatukonto pseudonüümi häälestus
+                  href: general-ledger/tasks/set-up-ledger-account-alias.md
+                - name: Põhikonto kategooriate häälestus
+                  href: general-ledger/tasks/set-up-main-account-categories.md
+                - name: Arveldusallika uurija
+                  href: accounts-payable/accounting-source-explorer.md
+                - name: Arvestuse jaotused
+                  href: accounts-payable/accounting-distributions.md
                 - name: Eraldiste töötlemine
                   href: general-ledger/process-allocations.md
-                - name: Pearaamatu konfigureerimine
-                  items:
-                    - name: 'Rahandusaasta kalendrid, rahandusaastad ja perioodid'
-                      href: budgeting/fiscal-calendars-fiscal-years-periods.md
-                    - name: Pearaamatute konfigureerimine
-                      href: general-ledger/configure-ledger.md
-                    - name: Arvestus- või aruandlusvaluuta muutmine
-                      href: general-ledger/add-change-acctg-rprtg-crrncy.md
-                    - name: Pearaamatu kalendri muutmine ja ümbermääramine
-                      href: general-ledger/change-mdfy-clndr-to-ledger.md
-                - name: Kontsernisisesed ja tasakaalustavad dimensioonid
-                  items:
-                    - name: Tasakaalustatud töölehed sisekäibe jaoks
-                      href: general-ledger/example-balanced-journals-interunit-accounting.md
-                    - name: Kontsernisisese raamatupidamise häälestus
-                      href: general-ledger/intercompany-accounting-setup.md
-                    - name: Kuidas seadistada tasakaalustavad finantsdimensioonid?
-                      href: general-ledger/set-up-balance-dimensions.md
-                - name: Töölehe ja sisestamise vaikesätted
-                  items:
-                    - name: Saate häälestada vaikekirjeldused automaatseks sisestamiseks
-                      href: general-ledger/set-up-default-descriptions-for-automatic-posting.md
-                    - name: Viitvõlgade ülevaade
-                      href: general-ledger/accruals-overview.md
-                    - name: Viitvõlaskeemide loomine
-                      href: general-ledger/tasks/create-accrual-schemes.md
-                    - name: Pearaamatu töölehe tüübid
-                      href: general-ledger/ledger-journal-types.md
-                    - name: Täpsemate reeglite loomine töölehtede jaoks
-                      href: general-ledger/tasks/create-advanced-rules-journals.md
-                    - name: Finantsdimensioonidele otsinguväärtuste lisamine Exceli mallides
-                      href: ../fin-ops-core/dev-itpro/financial/add-dimensions-excel-templates.md
-                    - name: Sisestamisdefinitsioonid
-                      href: general-ledger/posting-definitions.md
-                    - name: Sisestamisdefinitsiooni näited
-                      href: general-ledger/example-posting-definitions.md
-                - name: Valuuta
-                  items:
-                    - name: Impordi valuutavahetuskursid
-                      href: general-ledger/import-currency-exchange-rates.md
-                    - name: Topeltvaluuta
-                      href: general-ledger/dual-currency.md
-                - name: Eraldusreeglid
-                  items:
-                    - name: Pearaamatu eraldamisreeglid
-                      href: general-ledger/ledger-allocation-rules.md
-                    - name: Pearaamatu eraldamistöölehe töötlemine
-                      href: general-ledger/tasks/process-ledger-allocation-journal.md
-            - name: Töölehed ja lähtedokumendid
+                - name: Eraldustingimused
+                  href: general-ledger/main-account-allocation-terms.md
+                - name: Finantsdimensioonid
+                  href: general-ledger/financial-dimensions.md
+                - name: Konsolideerimiskonto grupid ja täiendavad konsolideerimiskontod
+                  href: budgeting/consolidation-account-groups-consolidation-accounts.md
+                - name: Konsolideerimise ja eemaldamise ülevaade
+                  href: budgeting/consolidation-elimination-overview.md
+                - name: 'Rahandusaasta kalendrid, rahandusaastad ja perioodid'
+                  href: budgeting/fiscal-calendars-fiscal-years-periods.md
+                - name: Konto struktuuride konfigureerimine
+                  href: general-ledger/configure-account-structures.md
+                - name: Topeltvaluuta
+                  href: general-ledger/dual-currency.md
+            - name: Töölehed ja pearaamatud
               items:
-                - name: Töölehed
-                  items:
-                    - name: Pearaamatu töölehe töötlemine
-                      href: general-ledger/general-journal-processing.md
-                    - name: Perioodiliste töölehtede sisestamine
-                      href: general-ledger/tasks/post-periodic-journals.md
-                    - name: Töölehtede loomine ja kinnitamine
-                      href: general-ledger/tasks/create-validate-journals.md
-                    - name: Töölehe sisestamise tõrge tasakaalustamatuse tõttu
-                      href: general-ledger/posting-fail-imbalance.md
-                    - name: Tühistatud sisestustööleht
-                      href: general-ledger/reverse-journal-posting.md
-                    - name: Miks ma ei saa seda kannet tühistada?
-                      href: general-ledger/cant-reverse-transctns.md
-                    - name: Töölehe sisestuse loomine malli abil
-                      href: general-ledger/tasks/create-journal-entry-template.md
-                    - name: Pearaamatu eraldamistöölehe töötlemine
-                      href: general-ledger/tasks/process-ledger-allocation-journal.md
-                    - name: Töölehe sisestuste või kannete kuvamine
-                      href: general-ledger/tasks/view-journal-entries-or-transactions.md
-                    - name: Seotud kontsernisisese kande kuvamine töölehelt
-                      href: general-ledger/tasks/view-related-intercompany-voucher-journal.md
-                    - name: Exceli töölehe ridade ja dokumentide avaldamine
-                      href: general-ledger/open-lines-excel-journals-documents.md
-                    - name: Pearaamatu tekkepõhiste kannete loomine
-                      href: general-ledger/tasks/create-ledger-accrual-transactions.md
-                    - name: Üks kanne
-                      href: general-ledger/one-voucher.md
-                    - name: Ühe kande KKK
-                      href: general-ledger/one-voucher-faq.md
-                - name: Lähtedokumendid
-                  items:
-                    - name: Arvestuse jaotused
-                      href: accounts-payable/accounting-distributions.md
-                    - name: Alammooduli ülekandmine pearaamatusse
-                      href: general-ledger/subledger-transfer.md
-                    - name: Arveldusallika uurija
-                      href: accounts-payable/accounting-source-explorer.md
-            - name: Aruanded ja päringud
-              items:
+                - name: Üldtöölehe töötlemine
+                  href: general-ledger/general-journal-processing.md
+                - name: Perioodiliste töölehtede sisestamine
+                  href: general-ledger/tasks/post-periodic-journals.md
+                - name: Tühistatud sisestustööleht
+                  href: general-ledger/reverse-journal-posting.md
+                - name: Pearaamatu eraldamistöölehe töötlemine
+                  href: general-ledger/tasks/process-ledger-allocation-journal.md
+                - name: Kontsernisisese raamatupidamise häälestus
+                  href: general-ledger/intercompany-accounting-setup.md
+                - name: Pearaamatu eraldamisreeglid
+                  href: general-ledger/ledger-allocation-rules.md
+                - name: Täpsemate reeglite loomine töölehtede jaoks
+                  href: general-ledger/tasks/create-advanced-rules-journals.md
+                - name: Täpsemate reeglistruktuuride loomine ja määramine
+                  href: general-ledger/tasks/create-assign-advanced-rule-structures.md
+                - name: Pearaamatu töölehe tüübid
+                  href: general-ledger/ledger-journal-types.md
+                - name: Pearaamatute konfigureerimine
+                  href: general-ledger/configure-ledger.md
+                - name: Töölehtede loomine ja kinnitamine
+                  href: general-ledger/tasks/create-validate-journals.md
+                - name: Töölehe sisestuste või kannete kuvamine
+                  href: general-ledger/tasks/view-journal-entries-or-transactions.md
+                - name: Seotud kontsernisisese kande kuvamine töölehelt
+                  href: general-ledger/tasks/view-related-intercompany-voucher-journal.md
+                - name: Töölehe sisestuse loomine malli abil
+                  href: general-ledger/tasks/create-journal-entry-template.md
+                - name: Pearaamatu tekkepõhiste kannete loomine
+                  href: general-ledger/tasks/create-ledger-accrual-transactions.md
+                - name: Alammooduli ülekandmine pearaamatusse
+                  href: general-ledger/subledger-transfer.md
+                - name: Exceli töölehe ridade ja dokumentide avaldamine
+                  href: general-ledger/open-lines-excel-journals-documents.md
                 - name: Töölehe sisestuste ja kannete kuvamine
                   href: general-ledger/view-journal-entries-transactions.md
                 - name: Proovibilanss kande üksikasjade aruandega
                   href: public-sector/general-ledger-public-sector-trial-balance.md
+                - name: Sisestatud töölehekirjete töölehele paigutamine
+                  href: general-ledger/tasks/journalize-posted-journal-entries.md
+                - name: Valuuta ümberarvutamine konsolideeritavas ettevõttes
+                  href: general-ledger/currency-revaluation-consolidation-company.md
+                - name: Pearaamatu välisvaluuta ümberarvutamine
+                  href: general-ledger/foreign-currency-revaluation-general-ledger.md
+                - name: Valuutavahetuskursside importimine
+                  href: general-ledger/import-currency-exchange-rates.md
+                - name: Üks kanne
+                  href: general-ledger/one-voucher.md
+                - name: Ühe kande KKK
+                  href: general-ledger/one-voucher-faq.md
+                - name: Pearaamatu tasakaalustused
+                  href: general-ledger/ledger-settlements.md
             - name: Perioodi lõpu sulgemine
               items:
                 - name: Pearaamatu sulgemine perioodi lõpus
@@ -1056,48 +1060,64 @@
                   href: general-ledger/tasks/mass-financial-period-close.md
                 - name: Aastalõpu tegevuste KKK
                   href: general-ledger/faq-year-end-activities.md
-                - name: Pearaamatu tasakaalustused
-                  href: general-ledger/ledger-settlements.md
-                - name: Teadlikkus pearaamatu tasakaalustamise ja aastalõpu sulgemise vahel
-                  href: general-ledger/awareness-between-ledger-settlement-year-end-close.md
-                - name: Pearaamatu välisvaluuta ümberarvutamine
-                  href: general-ledger/foreign-currency-revaluation-general-ledger.md
-                - name: Pearaamatukonto saldod
-                  href: general-ledger/general-ledger-account-balances.md
-                - name: Pearaamatu eraldamistöölehe töötlemine
-                  href: general-ledger/tasks/process-ledger-allocation-journal.md
-                - name: Pearaamatu eraldamisreeglid
-                  href: general-ledger/ledger-allocation-rules.md
-                - name: Sisestatud töölehekirjete töölehele paigutamine
-                  href: general-ledger/tasks/journalize-posted-journal-entries.md
-            - name: Konsolideerimised ja eemaldamised
+            - name: Käibemaks
               items:
-                - name: Konsolideerimise ja eemaldamise ülevaade
-                  href: budgeting/consolidation-elimination-overview.md
-                - name: Finantskonsolideerimiste ja valuutateisenduse ülevaade
-                  href: general-ledger/financial-consolidations-currency-translation.md
-                - name: Konsolideerimiskonto grupid ja täiendavad konsolideerimiskontod
-                  href: budgeting/consolidation-account-groups-consolidation-accounts.md
-                - name: Konsolideerimisgruppide ja täiendava konsolideerimiskonto loomine
-                  href: general-ledger/tasks/create-consolidation-groups.md
-                - name: Konsolideerimisprotsessis kasutatava juriidilise isiku ettevalmistamine
-                  href: general-ledger/prepare-company-for-consolidation.md
-                - name: Allettevõtte juriidilise isiku seadistamine konsolideerimiseks
-                  href: general-ledger/set-up-subsidiary-company-for-consolidation.md
-                - name: Konsolideeri võrgus
-                  href: general-ledger/consolidate-online.md
-                - name: Failidest allettevõtte andmete importimine
-                  href: general-ledger/import-subsidiary-data-from-files.md
-                - name: Allettevõtte andmete faili eksportimine
-                  href: general-ledger/export-subsidiary-data-to-file.md
-                - name: Konsolideerimine importimisega – vorming
-                  href: general-ledger/consolidate-with-import-format.md
-                - name: Eemaldamisreeglid
-                  href: general-ledger/elimination-rules.md
-                - name: Konsolideeritud finantsaruannete loomine
-                  href: general-ledger/generating-consolidated-financial-statements.md
-                - name: Valuuta ümberarvutamine konsolideeritavas ettevõttes
-                  href: general-ledger/currency-revaluation-consolidation-company.md
+                - name: Käibemaksu ülevaade
+                  href: general-ledger/indirect-taxes-overview.md
+                - name: Käibemaksu määrad marginaali aluse põhjal ja arvutamismeetodid
+                  href: general-ledger/marginal-base-field.md
+                - name: Käibemaksu maksed ja ümardamisreeglid
+                  href: general-ledger/round-sales-tax-payments.md
+                - name: Käibemaksuarvutusmeetodid väljal Päritolu
+                  href: general-ledger/sales-tax-calculation-methods-origin-field.md
+                - name: Kogusumma ja intervalli arvutamise valikud käibemaksukoodide puhul
+                  href: general-ledger/whole-amount-interval-options-sales-tax-codes.md
+                - name: Arvutatud käibemaks üldise töölehe ridade kohta
+                  href: general-ledger/sales-tax-calculation-on-general-journal.md
+                - name: Käibemaksu arvutamine ja korrigeerimine hankija arvel
+                  href: general-ledger/tasks/calculate-adjust-sales-tax-vendor-invoice.md
+                - name: Luba töölehel viivitusega maksuarvutus
+                  href: general-ledger/enable-delayed-tax-calculation.md
+                - name: Käibemaksumakse loomine
+                  href: general-ledger/tasks/create-sales-tax-payment.md
+                - name: Käibemaksukannete loomine dokumentidel
+                  href: general-ledger/tasks/create-sales-tax-transactions-documents.md
+                - name: Pearaamatu käibemaksu sisestusgruppide häälestus
+                  href: general-ledger/tasks/set-up-ledger-posting-groups-sales-tax.md
+                - name: Käibemaksuhaldurite häälestus
+                  href: general-ledger/tasks/set-up-sales-tax-authorities.md
+                - name: Käibemaksukoodide häälestus
+                  href: general-ledger/tasks/set-up-sales-tax-codes.md
+                - name: Käibemaksugruppide ja kauba käibemaksugruppide häälestus
+                  href: general-ledger/tasks/set-up-sales-tax-groups-item-sales-tax-groups.md
+                - name: Käibemaksuaruandluse koodide häälestus
+                  href: general-ledger/tasks/set-up-sales-tax-reporting-codes.md
+                - name: Käibemaksu topeltvaluuta tugi
+                  href: general-ledger/dual-currency-for-tax.md
+                - name: Käibemaksu täpsustus pearaamatukannete aruande järgi
+                  href: general-ledger/Sales-tax-specification-by-ledger-transaction-report.md
+                - name: Käibemaksu tasakaalustusperioodide häälestamine
+                  href: general-ledger/tasks/set-up-sales-tax-settlement-periods.md
+                - name: Sisestatud käibemaksukannete kuvamine
+                  href: general-ledger/tasks/view-posted-sales-tax-transactions.md
+                - name: Käibemaksu tasumise printimine koodide aruande järgi
+                  href: general-ledger/print-sales-tax-payment-by-code-report.md
+            - name: Kinnipeetav maks
+              items:
+                - name: Kinnipeetava maksu häälestus
+                  href: general-ledger/tasks/set-up-withholding-tax.md
+                - name: Globaalne kinnipeetav maks
+                  items:
+                    - name: Globaalse kinnipeetava maksu ülevaade
+                      href: general-ledger/global-withholding-tax-overview.md
+                    - name: Globaalse kinnipeetava maksu häälestus
+                      href: general-ledger/set-up-global-withholding-tax.md
+                    - name: Kinnipeetav maks ostukannetes
+                      href: general-ledger/withholding-tax-in-purchase-transactions.md
+                    - name: Kinnipeetav maks müügikannetes
+                      href: general-ledger/withholding-tax-in-sales-transactions.md
+                    - name: Kinnipeetava maksu makse loomine
+                      href: general-ledger/create-a-withholding-tax-payment.md
             - name: Auditi töölaud
               items:
                 - name: Auditipoliitika reeglid
@@ -1106,26 +1126,6 @@
                   href: general-ledger/audit-policy-violations-cases.md
                 - name: Lähtedokumentide jaoks auditipoliitikate määratlemine
                   href: general-ledger/tasks/define-audit-policies-source-documents.md
-            - name: Tõrkeotsing
-              items:
-                - name: Arvestus- või aruandlusvaluuta muutmine
-                  href: general-ledger/add-change-acctg-rprtg-crrncy.md
-                - name: Pearaamatu kalendri muutmine ja ümbermääramine
-                  href: general-ledger/change-mdfy-clndr-to-ledger.md
-                - name: Storno seaded töölehtedel ja ridadel
-                  href: general-ledger/rvrs-settgs-on-jrnls-lines.md
-                - name: Aastalõpu sulgemisel puuduvad algsaldod
-                  href: general-ledger/yec-mssng-open-blnces.md
-                - name: Kuidas seadistada tasakaalustavad finantsdimensioonid?
-                  href: general-ledger/set-up-balance-dimensions.md
-                - name: Finantstöölehe mallide avamine Office'is
-                  href: general-ledger/open-fincl-jrnls-in-office.md
-                - name: Finantstöölehtede vaikefinantsdimensioonid
-                  href: general-ledger/dimension-default-values.md
-                - name: Töölehe sisestamise tõrge tasakaalustamatuse tõttu
-                  href: general-ledger/posting-fail-imbalance.md
-                - name: Miks ma ei saa seda kannet tühistada?
-                  href: general-ledger/cant-reverse-transctns.md
         - name: Finantsaruandlus
           items:
             - name: Finantsaruandlusega alustamine
@@ -1136,8 +1136,6 @@
               href: ../fin-ops-core/dev-itpro/analytics/financial-report-components.md?toc=/dynamics365/finance/toc.json
             - name: Finantsaruande valuutavõimalused
               href: general-ledger/financial-reporting-currency-capability.md
-            - name: Jaotamata kasumi arvutamine finantsaruandluses
-              href: general-ledger/retained-earnings-enhancements.md
             - name: Bilansi finantsaruanded
               href: general-ledger/balance-sheet-financial-reports.md
             - name: Finantsaruannete loomine
@@ -1174,50 +1172,126 @@
               href: ../fin-ops-core/dev-itpro/analytics/when-to-reset-data-mart.md?toc=/dynamics365/finance/toc.json
             - name: Finantsaruandluse KKK
               href: general-ledger/financial-reporting-faq.md
-        - name: Finance Insights
+        - name: Finantsülevaated
           items:
-            - name: Finance Insightsi avaleht
+            - name: Finantsülevaadete avaleht
               href: finance-insights/finance-insights-home-page.md
-            - name: Häälestamine ja haldus
+            - name: Konfiguratsioon ja haldus
               items:
-                - name: Finance Insightsi konfigureerimine
+                - name: Finance'i ülevaadete konfigureerimine
                   href: finance-insights/configure-for-fin-insites.md
                 - name: Kliendimaksete prognoosimise lubamine
                   href: finance-insights/enable-cust-paymnt-prediction.md
                 - name: Likviidsuse planeerimise lubamine
                   href: finance-insights/enable-cash-flow-forecasting.md
-                - name: Välisandmed likviidsuse planeerimistes
-                  href: finance-insights/external-data-in-cash-flow.md
                 - name: Eelarveettepanekute lubamine
                   href: finance-insights/enable-budget-proposal.md
                 - name: Andmeintegraatori projekti loomine
                   href: finance-insights/create-data-integrate-project.md
-                - name: Prognooside täpsustamine ja täiustamine
-                  items:
-                    - name: Masinõppemudelite tulemused
-                      href: finance-insights/confusion-matrix.md
-                    - name: Esialgse kliendimakse prognoosimudeli hindamine
-                      href: finance-insights/evaluate-payment-prediction.md
-                    - name: Prognoosimudeli parandamine
-                      href: finance-insights/improve-model.md
-                    - name: Mudelihalduse elutsükkel
-                      href: finance-insights/model-manage-lifecycle.md
-            - name: Finance Insightsi kasutamine
+            - name: Finance'i ülevaadete kasutamine
               items:
                 - name: Eelarveettepanekud
                   href: finance-insights/budget-proposals.md
                 - name: Kassajääk
                   href: finance-insights/cash-position.md
-                - name: Rahaprognoos
+                - name: Likviidsuse planeerimine
                   href: finance-insights/cash-flow-forecast-intro.md
+                - name: Välisandmete kasutamine likviidsuse planeerimistes
+                  href: finance-insights/external-data-in-cash-flow.md
                 - name: Kliendimaksete prognoosimine
                   href: finance-insights/payment-insights-overview.md
                 - name: Kliendimaksete prognoosimise kasutamine
                   href: finance-insights/use-customer-payment-predictions.md
                 - name: Hetktõmmiste ülevaade
                   href: finance-insights/payment-snapshots.md
-            - name: Finance Insightsi tõrkeotsingu KKK
-              href: finance-insights/finance-insights-troubleshooting-faq.md
+                - name: Masinõppemudelite tulemused
+                  href: finance-insights/confusion-matrix.md
+                - name: Esialgse kliendimakse prognoosimudeli hindamine
+                  href: finance-insights/evaluate-payment-prediction.md
+                - name: Prognoosimudeli parandamine
+                  href: finance-insights/improve-model.md
+        - name: Projektihaldus ja -arvestus
+          items:
+            - name: Projektihalduse ja -arvestuse ülevaade
+              href: project-management/overview-project-management-accounting.md
+            - name: Kontsernisisene arveldamine
+              href: project-management/intercompany-invoicing.md
+            - name: Kontsernisisese projekti arveldamise konfigureerimine
+              href: project-management/tasks/configure-intercompany-project-invoicing.md
+            - name: Tööjõu ja kulude standardsete kulude konfigureerimine
+              href: project-management/tasks/configure-standard-costs-labor-expenses.md
+            - name: Hankija makse kinnipidamise tingimuste loomine ja rakendamine
+              href: project-management/create-and-apply-vendor-payment-retention-terms.md
+            - name: Maksame-kui-meile makstakse hankijamaksete seadistamine ja kasutamine
+              href: project-management/setup-manage-vendor-payments.md
+            - name: Lisandunud projektikulud ostutarnete loenditest
+              href: accounts-payable/project-cost-accrual-purchase-receipts.md
+            - name: Projekti arveldamine
+              href: accounts-payable/project-invoicing.md
+            - name: Projektilepingud
+              href: project-management/project-contracts.md
+            - name: Valmidusastmelisusel põhineva arveldamise täpsemate lepingute koostamine
+              href: project-management/project-create-advanced-contracts-for-billing-based-progress.md
+            - name: Projekti prognoosid ja eelarved
+              href: project-management/project-forecasts-budgets.md
+            - name: Eelarvemudelite loomine projektieelarvete jaoks
+              href: project-management/create-forecast-models-project-budgets.md
+            - name: Projekti eelarvete ülekandmine finantsaasta lõpus
+              href: project-management/process-project-budgets-for-fiscal-year-end.md
+            - name: Projekti müügitellimused
+              href: project-management/project-sales-orders.md
+            - name: Projekti ostutellimused
+              href: project-management/project-purchase-orders.md
+            - name: Projektipakkumised
+              href: project-management/project-quotations.md
+            - name: 'Projektipakkumise kinnitamine, värskendamine ja saatmine'
+              href: project-management/confirm-update-send-project-quotation.md
+            - name: Pakkumise ülekandmine projekti
+              href: project-management/transfer-quote-new-existing-project.md
+            - name: Projekti ressursid
+              items:
+                - name: Projekti ressursside ülevaade
+                  href: project-management/project-resourcing.md
+                - name: Projekti ressursside häälestamine
+                  href: project-management/set-up-project-resources.md
+                - name: Ressursi kompetentside haldamine
+                  href: project-management/manage-resource-competencies.md
+                - name: Uue projekti loomine
+                  href: project-management/create-new-project.md
+                - name: Rollipõhise hinnakujunduse häälestamine
+                  href: project-management/set-up-role-based-pricing.md
+                - name: Projektimeeskonna koostamine
+                  href: project-management/create-project-team.md
+                - name: Ressursi võimsuse sünkroonimine
+                  href: project-management/synchronize-resource-capacity.md
+                - name: Projekti ressursside plaanimise jõudlus
+                  href: project-management/project-scheduling-performance.md
+                - name: Tööjaotuse struktuuri mallide rollide häälestamine
+                  href: project-management/set-up-roles-wbs-template.md
+                - name: Ressursi täitmine plaanitud ressursside puhul
+                  href: project-management/resource-fulfillment-planned-resources.md
+            - name: Ostutellimusel olevate kaupade kaubavajadusest vastuvõtmine
+              href: project-management/tasks/receive-items-purchase-order-item-requirement.md
+            - name: Tööjaotuse struktuurid
+              items:
+                - name: Tööjaotuse struktuuride ülevaade
+                  href: project-management/work-breakdown-structures.md
+                - name: Microsoft Project Clienti integreerimine
+                  href: project-management/project-integration.md
+                - name: Projecti mobiilirakenduste ülevaade
+                  href: project-management/project-mobile-application-overview.md
+                - name: Mobiilse tööruumi projekti ajakirje
+                  href: project-management/project-time-entry-mobile-workspace.md
+                - name: Project Timesheeti mobiilirakendus
+                  href: project-management/project-timesheet.md
+                - name: Projekti ajatabelid mobiilses seadmes
+                  href: project-management/mobile-timesheets.md
+                - name: Kohandatud väljade juurutamine projekti ajatabeli mobiilirakenduses
+                  href: project-management/custom-fields-mobile.md
+            - name: Projekti hüvitised
+              href: project-management/project-grants.md
+            - name: Projekti hinnangu eemaldamine
+              href: project-management/eliminate-project-estimate.md
         - name: Avalik sektor
           items:
             - name: Avaliku sektori avaleht
@@ -1340,264 +1414,42 @@
           items:
             - name: Globaliseerimisressursid
               href: ../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=/dynamics365/finance/toc.json
-            - name: Globaliseerimisteenused
-              items:
-                - name: Globaliseerimisteenuste ülevaade
-                  href: localizations/globalization-services-overview.md?toc=/dynamics365/finance/toc.json
-                - name: Regulatory configuration service (RCS)
-                  items:
-                    - name: Regulatory configuration service'i (RCS) ülevaade
-                      href: localizations/rcs-overview.md?toc=/dynamics365/finance/toc.json
-                    - name: Regulatory configuration service (RCS) – globaliseerumise funktsioonid
-                      href: localizations/rcs-globalization-feature.md?toc=/dynamics365/finance/toc.json
-                    - name: ER-i konfiguratsioonide loomine Regulatory configuration service'is (RCS) ja üleslaadimine globaalsesse hoidlasse
-                      href: localizations/rcs-global-repo-upload.md?toc=/dynamics365/finance/toc.json
-                    - name: Regulatory Configuration Service (RCS) – RCS-keskkonna kustutamine
-                      href: localizations/rcs-delete-environment.md
-                    - name: Regulatory Configuration Service (RCS) – Lifecycle Servicesi salvestusruumi aegumine
-                      href: localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/finance/toc.json
-                    - name: ER-i konfiguratsioonide allalaadimine rakendusse Finance
-                      items:
-                        - name: Konfiguratsioonide allalaadimine RCS-ist
-                          href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/finance/toc.json
-                        - name: Konfiguratsioonide importimine RCS-ist
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/finance/toc.json
-                    - name: Globaalne hoidla (GR)
-                      items:
-                        - name: Konfiguratsioonide importimine GR-ist
-                          href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/finance/toc.json
-                        - name: ER-i konfiguratsioonide värskendatud versioonide import
-                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/finance/toc.json
-                        - name: Täiustatud filtreerimine GR-i konfiguratsioonide leidmiseks
-                          href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/finance/toc.json
-                        - name: Konfiguratsioonide üleslaadimine GR-i
-                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/finance/toc.json
-                        - name: Konfiguratsioonide jagamine GR-is
-                          href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/finance/toc.json
-                        - name: Konfiguratsioonide katkestamine RCS-i globaalses hoidlas
-                          href: localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/finance/toc.json
-                - name: Elektrooniline arveldus
-                  items:
-                    - name: Elektroonilise arvelduse ülevaade
-                      href: localizations/e-invoicing-service-overview.md?toc=/dynamics365/finance/toc.json
-                    - name: Elektroonilise arvelduse halduskomponendid
-                      href: localizations/e-invoicing-service-administration.md?toc=/dynamics365/finance/toc.json
-                    - name: Elektroonilise arvelduse konfigureerimine Regulatory Configuration Servicesis (RCS)
-                      href: localizations/e-invoicing-configuration-rcs.md?toc=/dynamics365/finance/toc.json
-                    - name: Elektrooniliste arvete väljastamine Finance'is ja Supply Chain Managementis
-                      href: localizations/e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md?toc=/dynamics365/finance/toc.json
-                    - name: Azure'i salvestusruumi konto ja võtmehoidla loomine
-                      href: localizations/e-invoicing-create-azure-storage-account-key-vault.md?toc=/dynamics365/finance/toc.json
-                    - name: Kasutuse halduse armatuurlaud
-                      href: localizations/e-invoicing-usage-management-dashboard.md?toc=/dynamics365/finance/toc.json
-                    - name: Alustamine
-                      items:
-                        - name: Elektroonilise arvelduse teenusehalduse kasutamise alustamine
-                          href: localizations/e-invoicing-get-started-service-administration.md?toc=/dynamics365/finance/toc.json
-                        - name: Elektroonilise arvelduse kasutamise alustamine
-                          href: localizations/e-invoicing-get-started.md?toc=/dynamics365/finance/toc.json
-                        - name: Uue elektroonilise arveldamise funktsiooni loomine
-                          href: localizations/e-invoicing-create-new-e-invoicing-feature.md
-                        - name: Elektroonilise arvelduse kasutamise alustamine Brasiilias
-                          href: localizations/e-invoicing-bra-get-started.md?toc=/dynamics365/finance/toc.json
-                        - name: Elektroonilise arvelduse kasutamise alustamine Egiptuses
-                          href: localizations/e-invoicing-eg-get-started.md?toc=/dynamics365/finance/toc.json
-                        - name: Elektroonilise arvelduse kasutamise alustamine Mehhikos
-                          href: localizations/e-invoicing-mex-get-started.md?toc=/dynamics365/finance/toc.json
-                        - name: Elektroonilise arvelduse kasutamise alustamine Saudi Araabias
-                          href: localizations/e-invoicing-sa-get-started.md
-                        - name: Itaalia SDI-ga FatturaPA otseintegratsiooni seadistamine
-                          href: localizations/e-invoicing-ita-fatturapa-get-started.md
-                        - name: Elektroonilise arveldamise teenuse kasutamine hankija arvete importimiseks
-                          href: localizations/e-invoicing-get-started-import-vendor-invoices.md
-                        - name: Elektroonilise arveldamise häälestus
-                          href: localizations/e-invoicing-setup.md?toc=/dynamics365/finance/toc.json
-                        - name: Power Platformi lisandmooduli administraatori viide
-                          href: localizations/e-invoicing-power-platform-plug-in.md
-                    - name: Elektroonilise arvelduse KKK
-                      href: localizations/e-invoicing-faq.md?toc=/dynamics365/finance/toc.json
-                - name: Maksuarvutus
-                  items:
-                    - name: Maksuarvutuse ülevaade
-                      href: localizations/global-tax-calcuation-service-overview.md?toc=/dynamics365/finance/toc.json
-                    - name: Seadistus
-                      items:
-                        - name: Maksuarvutusega alustamine
-                          href: localizations/global-get-started-with-tax-calculation-service.md?toc=/dynamics365/finance/toc.json
-                        - name: Maksukoodide häälestus
-                          href: localizations/set-up-tax-codes.md
-                        - name: Maksugruppide häälestus
-                          href: localizations/set-up-tax-groups.md
-                        - name: Kauba maksugruppide häälestus
-                          href: localizations/set-up-item-tax-groups.md
-                        - name: Impordi- ja ekspordimaksude arvutused
-                          href: localizations/tax-calculation-import-export-feature.md
-                        - name: Koondandmete otsingu keskkonna häälestamine
-                          href: localizations/tax-service-set-up-environment-master-data-lookup.md?toc=/dynamics365/finance/toc.json
-                        - name: Maksuhäälestuse sünkroonimine maksuarvutusteenusest Finance’isse
-                          href: localizations/global-master-data-sync-tax-calculation-service-finance.md
-                    - name: Määratlemine
-                      items:
-                        - name: Maksuarvutuse andmemudel
-                          href: localizations/tax-calculation-data-model-overview.md
-                        - name: Käibemaksu kohaldatavuse ja käibemaksugrupi määramise loogika
-                          href: localizations/global-sales-tax-group-determination.md?toc=/dynamics365/finance/toc.json
-                        - name: Maksujurisdiktsiooni parameetrite kasutamine skonto arvutamise häälestamiseks
-                          href: localizations/global-tax-jurisdiction-cash-discount-setup.md?toc=/dynamics365/finance/toc.json
-                    - name: Arvutus
-                      items:
-                        - name: 'Maksu arvutamine hindadelt, kui valik Hinnad sisaldavad makse on lubatud'
-                          href: localizations/global-exclude-from-tax-base-amount-calculation.md?toc=/dynamics365/finance/toc.json
-                        - name: Maksuarvutuse ümardamisreeglid
-                          href: localizations/tax-calculation-rounding-rules.md
-                    - name: Mitu käibemaksu registreerimist
-                      items:
-                        - name: Mitu käibemaksu registreerimisnumbrit
-                          href: localizations/emea-multiple-vat-registration-numbers.md
-                        - name: Mitme KM-i registreerimise aruandlus
-                          href: localizations/emea-reporting-for-multiple-vat-registrations.md
-                        - name: Austria aruandlus
-                          items:
-                            - name: KM-deklaratsioon
-                              href: localizations/emea-aut-vat-declaration-austria.md
-                        - name: Prantsusmaa aruandlus
-                          items:
-                            - name: KM-deklaratsioon
-                              href: localizations/emea-fra-VAT-declaration-preview-France.md
-                        - name: Saksamaa aruandlus
-                          items:
-                            - name: KM-deklaratsioon
-                              href: localizations/emea-deu-vat-declaration-germany.md
-                        - name: Hollandi aruandlus
-                          items:
-                            - name: KM-deklaratsioon
-                              href: localizations/emea-nl-vat-declaration-netherlands.md
-                            - name: EL käibearuanne
-                              href: localizations/emea-nl-eu-sales-list.md
-                        - name: Hispaania aruandlus
-                          items:
-                            - name: 'KM-i kohene teave (Suministro Inmediato de Información del IVA, SII)'
-                              href: localizations/emea-esp-sii-spain.md
-                            - name: KM-deklaratsioon
-                              href: localizations/emea-esp-vat-declaration-spain.md
-                        - name: Rootsi aruandlus
-                          items:
-                            - name: KM-deklaratsioon
-                              href: localizations/emea-swe-VAT-declaration-Sweden.md
-                        - name: Šveitsi aruandlus
-                          items:
-                            - name: KM-deklaratsioon
-                              href: localizations/emea-che-vat-declaration-switzerland.md
-                        - name: Ühendkuningriigi aruandlus
-                          items:
-                            - name: KM-deklaratsioon
-                              href: localizations/emea-gbr-vat-declaration.md
-                        - name: Norra aruandlus
-                          items:
-                            - name: KM-deklaratsioon
-                              href: localizations/emea-nor-vat-declaration.md
-                    - name: Üleviimistellimuse maksuarvutuse lubamine
-                      items:
-                        - name: Maksufunktsiooni tugi üleviimistellimuste jaoks
-                          href: localizations/tasks/Tax-feature-support-for-transfer-order.md?toc=/dynamics365/finance/toc.json
-                        - name: Maksuteabe printimine üleviimistellimuse dokumentidele
-                          href: localizations/tax-calculation-print-tax-information-on-transfer-order-documents.md?toc=/dynamics365/finance/toc.json
-                    - name: Laiendus
-                      items:
-                        - name: Andmeväljade lisamine maksukonfiguratsioonidesse
-                          href: localizations/tax-service-add-data-fields-tax-configurations.md?toc=/dynamics365/finance/toc.json
-                        - name: 'Andmeväljade lisamine maksu integreerimisse, kasutades laiendusi'
-                          href: localizations/tax-service-add-data-fields-tax-integration-by-extension.md?toc=/dynamics365/finance/toc.json
-                        - name: Maksukonfiguratsioonide kohandamine koondandmete otsinguks
-                          href: localizations/customize-tax-configurations-master-data-lookup.md
-                    - name: Maksuarvutuse KKK
-                      href: localizations/global-tax-calcuation-service-faq.md?toc=/dynamics365/finance/toc.json
-            - name: Maks
-              items:
-                - name: Käibemaks
-                  items:
-                    - name: Käibemaksu ülevaade
-                      href: general-ledger/indirect-taxes-overview.md
-                    - name: Käibemaksu määrad marginaali aluse põhjal ja arvutamismeetodid
-                      href: general-ledger/marginal-base-field.md
-                    - name: Käibemaksu maksed ja ümardamisreeglid
-                      href: general-ledger/round-sales-tax-payments.md
-                    - name: Käibemaksuarvutusmeetodid väljal Päritolu
-                      href: general-ledger/sales-tax-calculation-methods-origin-field.md
-                    - name: Kogusumma ja intervalli arvutamise valikud käibemaksukoodide puhul
-                      href: general-ledger/whole-amount-interval-options-sales-tax-codes.md
-                    - name: Arvutatud käibemaks üldise töölehe ridade kohta
-                      href: general-ledger/sales-tax-calculation-on-general-journal.md
-                    - name: Käibemaksu arvutamine ja korrigeerimine hankija arvel
-                      href: general-ledger/tasks/calculate-adjust-sales-tax-vendor-invoice.md
-                    - name: Luba töölehel viivitusega maksuarvutus
-                      href: general-ledger/enable-delayed-tax-calculation.md
-                    - name: Käibemaksumakse loomine
-                      href: general-ledger/tasks/create-sales-tax-payment.md
-                    - name: Maksu tasakaalustuse ümardamine kohandatud valuuta komakohtade põhjal
-                      href: localizations/global-tax-settlement-rounding-based-customized-currency-decimal-places.md
-                    - name: Käibemaksukannete loomine dokumentidel
-                      href: general-ledger/tasks/create-sales-tax-transactions-documents.md
-                    - name: Pearaamatu käibemaksu sisestusgruppide häälestus
-                      href: general-ledger/tasks/set-up-ledger-posting-groups-sales-tax.md
-                    - name: Käibemaksuhaldurite häälestus
-                      href: general-ledger/tasks/set-up-sales-tax-authorities.md
-                    - name: Käibemaksukoodide häälestus
-                      href: general-ledger/tasks/set-up-sales-tax-codes.md
-                    - name: Käibemaksugruppide ja kauba käibemaksugruppide häälestus
-                      href: general-ledger/tasks/set-up-sales-tax-groups-item-sales-tax-groups.md
-                    - name: Käibemaksuaruandluse koodide häälestus
-                      href: general-ledger/tasks/set-up-sales-tax-reporting-codes.md
-                    - name: Käibemaksu topeltvaluuta tugi
-                      href: general-ledger/dual-currency-for-tax.md
-                    - name: Käibemaksu täpsustus pearaamatukannete aruande järgi
-                      href: general-ledger/Sales-tax-specification-by-ledger-transaction-report.md
-                    - name: Käibemaksu tasakaalustusperioodide häälestamine
-                      href: general-ledger/tasks/set-up-sales-tax-settlement-periods.md
-                    - name: Sisestatud käibemaksukannete kuvamine
-                      href: general-ledger/tasks/view-posted-sales-tax-transactions.md
-                    - name: Käibemaksu tasumise printimine koodide aruande järgi
-                      href: general-ledger/print-sales-tax-payment-by-code-report.md
-                    - name: Käibemaksu tõrkeotsing
-                      items:
-                        - name: Maksu ei arvutatud või maksusumma on null
-                          href: general-ledger/sales-tax-troubleshooting-tax-not-calculated-amount-zero.md
-                        - name: Maksuarvutuse jõudlus mõjutab kandeid
-                          href: general-ledger/sales-tax-troubleshooting-tax-calculation-bad-performance.md
-                        - name: Vale väljaväärtus TaxTransis
-                          href: general-ledger/sales-tax-troubleshooting-field-value-taxtrans-incorrect.md
-                        - name: TaxTransi kirjet ei looda
-                          href: general-ledger/sales-tax-troubleshooting-taxtrans-record-not-generated.md
-                        - name: Maks sisestatakse kandes valele pearaamatukontole
-                          href: general-ledger/sales-tax-troubleshooting-tax-posted-to-wrong-ledger-account.md
-                        - name: Kannet ei looda
-                          href: general-ledger/sales-tax-troubleshooting-voucher-not-generated.md
-                - name: Kinnipeetav maks
-                  items:
-                    - name: Kinnipeetava maksu häälestus
-                      href: general-ledger/tasks/set-up-withholding-tax.md
-                    - name: Globaalne kinnipeetav maks
-                      items:
-                        - name: Globaalse kinnipeetava maksu ülevaade
-                          href: general-ledger/global-withholding-tax-overview.md
-                        - name: Globaalse kinnipeetava maksu häälestus
-                          href: general-ledger/set-up-global-withholding-tax.md
-                        - name: Kinnipeetav maks ostukannetes
-                          href: general-ledger/withholding-tax-in-purchase-transactions.md
-                        - name: Kinnipeetav maks müügikannetes
-                          href: general-ledger/withholding-tax-in-sales-transactions.md
-                        - name: Kinnipeetava maksu makse loomine
-                          href: general-ledger/create-a-withholding-tax-payment.md
             - name: Regulatiivsed värskendused
               href: localizations/regulatory-updates.md
-            - name: Regulatiivsete värskenduste otsing
-              href: localizations/search-for-regulatory-updates.md
+            - name: Elektrooniline arveldus
+              items:
+                - name: Elektroonilise arvelduse ülevaade
+                  href: localizations/e-invoicing-service-overview.md
+                - name: Elektroonilise arvelduse halduskomponendid
+                  href: localizations/e-invoicing-service-administration.md
+                - name: Elektroonilise arvelduse konfigureerimine Regulatory Configuration Servicesis (RCS)
+                  href: localizations/e-invoicing-configuration-rcs.md
+                - name: Elektrooniliste arvete väljastamine Finance'is ja Supply Chain Managementis
+                  href: localizations/e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md
+                - name: Azure'i salvestusruumi konto ja võtmehoidla loomine
+                  href: localizations/e-invoicing-create-azure-storage-account-key-vault.md
+                - name: Alustamine
+                  items:
+                    - name: Elektroonilise arvelduse teenusehalduse kasutamise alustamine
+                      href: localizations/e-invoicing-get-started-service-administration.md
+                    - name: Elektroonilise arvelduse kasutamise alustamine
+                      href: localizations/e-invoicing-get-started.md
+                    - name: Elektroonilise arvelduse kasutamise alustamine Brasiilias
+                      href: localizations/e-invoicing-bra-get-started.md
+                    - name: Elektroonilise arvelduse kasutamise alustamine Egiptuses
+                      href: localizations/e-invoicing-eg-get-started.md
+                    - name: Elektroonilise arvelduse kasutamise alustamine Itaalias
+                      href: localizations/e-invoicing-ita-get-started.md
+                    - name: Elektroonilise arvelduse kasutamise alustamine Mehhikos
+                      href: localizations/e-invoicing-mex-get-started.md
+                    - name: Elektroonilise arveldamise häälestus
+                      href: localizations/e-invoicing-setup.md
+                - name: Elektroonilise arvelduse KKK
+                  href: localizations/e-invoicing-faq.md
             - name: Austraalia
               items:
                 - name: Austraalia ülevaade
                   href: localizations/australia.md
-                - name: Austraalia pankade pangafailivormingud
-                  href: localizations/apac-aus-bank-file-formats.md
                 - name: Äritegevuse aruanne (BAS)
                   href: localizations/apac-aus-business-activity-statement.md
                 - name: Aruandeväljade lisamine ja BAS-i loomine
@@ -1606,8 +1458,6 @@
                   href: localizations/apac-aus-low-value-pool-depreciation.md
                 - name: BAS-aruande põhjusekoodide häälestus
                   href: localizations/tasks/set-up-reason-codes-australia-bas.md
-                - name: Makseaegade aruandlusskeem
-                  href: localizations/apac-aus-payment-times-report.md
             - name: Austria
               items:
                 - name: Austria ülevaade
@@ -1618,21 +1468,13 @@
                   href: localizations/emea-aut-packing-material-fee-calculation.md
                 - name: KM-aruanne
                   href: localizations/emea-aut-vat-statement-details.md
-                - name: Piiriüleste teenuste aruanne
-                  href: localizations/emea-aut-cross-border-services-report.md
-                - name: Austria Intrastat
-                  href: localizations/emea-aut-intrastat.md
-                - name: Ostulõivud
-                  href: localizations/emea-aut-purchase-duties.md
-                - name: KM-deklaratsioon
-                  href: localizations/emea-aut-vat-declaration-austria.md
             - name: Bahrein
               items:
                 - name: Bahreini ülevaade
                   href: localizations/bahrain.md
                 - name: Bahreini arve paigutuse konfigureerimine
                   href: localizations/emea-bhr-invoice-layout.md
-                - name: Bahreini KM-deklaratsioon
+                - name: Bahreini käibemaksudeklaratsioon
                   href: localizations/emea-bhr-vat-declaration.md
                 - name: Arve väljastamise tähtaeg
                   href: localizations/gcc-invoice-issue-deadline.md
@@ -1650,16 +1492,10 @@
                   href: localizations/emea-bel-intervat-tax-declaration.md
                 - name: Vastavusseviimise aruanded
                   href: localizations/emea-bel-reconciliation-reports.md
-                - name: Töölehe aruanded
-                  href: localizations/emea-bel-journal-reports.md
                 - name: Maksesaldode aruandluse seadistamine
                   href: localizations/tasks/be-00011-set-up-payment-balance-reporting.md
                 - name: PRODCOM-i häälestus ja haldamine
                   href: localizations/emea-bel-prodcom-report.md
-                - name: Kodumaiste müükide KM-i aastane loend
-                  href: localizations/emea-bel-annual-vat-listing-of-domestic-sales.md
-                - name: Belgia Intrastat
-                  href: localizations/emea-bel-intrastat.md
             - name: Brasiilia
               items:
                 - name: Brasiilia ülevaade
@@ -1754,26 +1590,14 @@
                       href: localizations/tasks/br-00053-1-set-up-nf-e-federal-parameters.md
                     - name: NF-e parameetrite seadistamine maksuameti jaoks
                       href: localizations/tasks/br-00053-2-set-up-nf-e-parameters-fiscal-establishment.md
-                    - name: NF-e XML-failide teisaldamine manustena
-                      href: localizations/latam-bra-nf-e-move-xml-as-attachment.md
-                    - name: NT2020.005 – paigutuse ja kinnitamise uuendused elektroonilises fiskaaldokumendis (NF-e)
-                      href: localizations/latam-bra-nfe-nt2020.005.md
                     - name: NT2020.006 – vahendaja müügi digitaalne platvorm NF-e jaoks
                       href: localizations/latam-bra-nf-e-nt2020-006-v1-00.md
                     - name: NT2019.001 – maksusoodustused ja maksuvabastuse reeglid NF-e/NFC-e jaoks
                       href: localizations/bra-use-tax-exemption-nf-e.md
                 - name: SPED ECD
                   href: localizations/latam-bra-sped-ecd.md
-                - name: SPED-Reinf
-                  items:
-                    - name: SPED-Reinfi ülevaade
-                      href: localizations/latam-bra-sped-reinf-overview.md
-                    - name: Elektroonilise sõnumi häälestamine
-                      href: localizations/latam-bra-sped-reinf-electronic-messages.md
-                    - name: Finantsraamatute häälestamine
-                      href: localizations/latam-bra-sped-reinf-setup-fiscal-books.md
-                    - name: Sündmused
-                      href: localizations/latam-bra-sped-reinf.md
+                - name: SPED-Reinfi maksudeklaratsioon
+                  href: localizations/latam-bra-sped-reinf.md
                 - name: SPED finantskäskkiri 13/2019 RJ
                   href: localizations/latam-bra-resolution-13-2019-RJ.md
                 - name: SPED finantsaasta 2020 – ICMS-ST lisateave SPED finantsdokumendi paigutuse 014 jaoks
@@ -1810,8 +1634,6 @@
                   href: localizations/tasks/br-00066-1-set-up-interest-fines-customer-payments.md
                 - name: Kliendimaksete intresside ja trahvide arvutamine
                   href: localizations/tasks/br-00066-2-calculate-interest-fines-customer-payments.md
-                - name: Pangakonto numbrite seadistamine Brasiilia jaoks
-                  href: localizations/latam-bra-bank-account-number-setup-brazil-localization.md
                 - name: Maksud
                   items:
                     - name: Brasiilia maksude ülevaade
@@ -1840,9 +1662,7 @@
                       href: localizations/tasks/br-10001-2-set-up-adjustment-codes-icms-taxes-fiscal-documents.md
                     - name: 'ICMS-ST täiendus- ja restitutsiooniprotsess ja deklaratsioon olekutele RS, SC ja SP'
                       href: localizations/latam-bra-complement-restitution.md
-                    - name: ICMS-DIF-i maksuarvutuste aluse muutus teiste riikide hankijate toodete puhul
-                      href: localizations/latam-brazil-basis-change-ICMS-DIF-tax-calculation-products-suppliers-other-states.md
-                    - name: IPI maksude jaoks korrigeerimiskoodide häälestamine
+                    - name: IPI-i maksude jaoks korrigeerimiskoodide häälestus
                       href: localizations/tasks/br-10004-1-set-up-adjustment-codes-ipi-taxes.md
                     - name: PIS-i ja COFINS-i põhivarad
                       href: localizations/tasks/br-10020-4-pis-cofins-fixed-assets.md
@@ -1872,10 +1692,8 @@
               items:
                 - name: Hiina ülevaade
                   href: localizations/china.md
-                - name: 'Rahandus ja toimingud, mida käitab 21Vianet Hiinas'
+                - name: 'Finance and Operations, mida käitab 21Vianet Hiinas'
                   href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md
-                - name: Kontogruppide valik Hiina kandetüüpide jaoks
-                  href: localizations/apac-chn-account-groups-selection.md
                 - name: Koosluse võrdlus
                   href: localizations/apac-chn-bom-comparison.md
                 - name: Hiina kontoplaani hierarhia
@@ -1890,7 +1708,7 @@
                   href: localizations/tasks/golden-tax-integration-export-setup.md
                 - name: Põhivarade kulumiarvestusmeetodid
                   href: localizations/apac-chn-depreciation-methods-fixed-assets.md
-                - name: Hiina kuldse maksu failide importimine
+                - name: Hiina kuldse maksu andmeüksuse importimine
                   href: localizations/apac-chn-import-golden-tax-data-entity.md
                 - name: Igakuise keskmise kulumudel
                   href: localizations/apac-chn-monthly-average-cost-model.md
@@ -1912,8 +1730,6 @@
                   href: localizations/tasks/user-operation-log-china-working-rule.md
                 - name: KM-i sisaldavate kliendiarvete KKK
                   href: localizations/apac-chn-tax-integration-vat-customer-invoices.md
-                - name: GB/T 24589-2010 eksport
-                  href: localizations/apac-chn-gbt-24589-2010.md
             - name: Tšehhi Vabariik
               items:
                 - name: Tšehhi Vabariik
@@ -1942,14 +1758,8 @@
                   href: localizations/emea-amount-printing-forms.md
                 - name: KM-aruanne
                   href: localizations/emea-cze-vat-statement-details.md
-                - name: KM-deklaratsioon (Tšehhi Vabariik)
+                - name: Käibemaksudeklaratsioon (Tšehhi Vabariik)
                   href: localizations/emea-cze-vat-declaration-tax-declaration-model.md
-                - name: Tšehhi intrastat
-                  href: localizations/emea-cze-intrastat.md
-                - name: Pangakontode pangasümbolid
-                  href: localizations/emea-cze-specify-bank-symbols-for-bank-accounts.md
-                - name: ELi-sisene KM
-                  href: localizations/emea-cze-intra-community-VAT.md
                 - name: Aastalõpu sulgemine
                   href: localizations/emea-cze-hun-year-end.md
             - name: Taani
@@ -1978,8 +1788,6 @@
                   href: localizations/tasks/set-up-oioubl-electronic-invoicing.md
                 - name: Maksekviitungi vormingu häälestus
                   href: localizations/tasks/set-up-payment-slip-format.md
-                - name: Taani intrastat
-                  href: localizations/emea-dnk-intrastat.md
             - name: Egiptus
               items:
                 - name: Egiptuse ülevaade
@@ -2002,8 +1810,6 @@
                   href: localizations/emea-est-personal-info.md
                 - name: KM-aruanne
                   href: localizations/emea-est-vat-statement-details.md
-                - name: Eesti intrastat
-                  href: localizations/emea-est-intrastat.md
             - name: Euroopa
               items:
                 - name: Euroopa ülevaade
@@ -2146,24 +1952,18 @@
                       href: localizations/emea-vat-register-transactions.md
                     - name: Maksupunkti kuupäev (KM-registri kuupäev)
                       href: localizations/emea-tax-point-date.md
-                    - name: KM-aruandlus
+                    - name: Käibemaksuaruanne
                       href: localizations/emea-vat-reporting.md
                     - name: KM-aruande loomine ja esitamine
                       href: localizations/tasks/create-submit-vat-report.md
-                    - name: Hankija KM-registri kuupäev
-                      href: localizations/emea-date-vendor-vat-register.md
                 - name: Kannete kuvamine tasakaalustamisel
                   href: localizations/emea-transactions-settlement-form.md
-                - name: Finantspõhjus
-                  href: localizations/emea-financial-reason.md
             - name: Soome
               items:
                 - name: Soome ülevaade
                   href: localizations/finland.md
                 - name: Soome käibemaksu maksearuanne
                   href: localizations/emea-fin-sales-tax-payment-report-finland.md
-                - name: Soome Intrastat
-                  href: localizations/emea-fin-intrastat.md
             - name: Prantsusmaa
               items:
                 - name: Prantsusmaa ülevaade
@@ -2186,18 +1986,8 @@
                   href: localizations/tasks/fr-00004-approve-post-draw-bill-exchange.md
                 - name: Kronoloogilises järjekorras arvete kanded
                   href: localizations/emea-fra-chronological-invoices-vouchers.md
-                - name: Prantsusmaa auditifail
-                  items:
-                    - name: Prantsusmaa auditifaili (FEC) ülevaade
-                      href: localizations/emea-fra-fec-audit-file.md
-                    - name: FEC auditifaili loomise eeltingimused Prantsusmaal
-                      href: localizations/emea-fra-fec-audit-file-pre-requisites.md
-                    - name: FEC finantsandmeallikate struktuur
-                      href: localizations/emea-fra-fec-audit-file-structure.md
-                    - name: Keskkonna ettevalmistamine FEC loomiseks
-                      href: localizations/emea-fra-fec-audit-file-setup.md
-                    - name: FEC loomine Dynamics 365 Finance'is
-                      href: localizations/emea-fra-fec-audit-file-generation.md
+                - name: Prantsusmaa standardse auditifaili loomine (FEC)
+                  href: localizations/emea-fra-fec-audit-file.md
                 - name: Kliendi ja hankija kontoväljavõtted
                   href: localizations/tasks/fr-00002-customer-vendor-account-statements.md
                 - name: Igapäevane intressiarvutus hilinenud makse ja tervikväljamakse jaoks arvel ning märgukirjal
@@ -2206,8 +1996,6 @@
                   href: localizations/emea-fra-derogatory-depreciation.md
                 - name: Prantsusmaa käskvekslid ja võlatähed
                   href: localizations/tasks/fr-00004-french-bills-exchange-promissory-notes.md
-                - name: Prantsuse Intrastat
-                  href: localizations/emea-fra-intrastat.md
                 - name: NAF-koodid ja siret-numbrid
                   href: localizations/emea-fra-naf-codes-siret-numbers.md
                 - name: NAF-koodide ja siret-numbrite häälestus
@@ -2222,12 +2010,10 @@
                   href: localizations/emea-fra-print-lump-sum-recovery-text.md
                 - name: RB-/SL-kulum
                   href: localizations/emea-fra-rbsl-depreciation.md
-                - name: Makseviisi häälestamine
+                - name: Häälesta makseviis
                   href: localizations/tasks/fr-00004-setup-method-payment.md
-                - name: Kliendi makseviisi värskendamine
+                - name: Kliendi makseviisi uuendamine
                   href: localizations/tasks/fr-00004-update-method-payment-customer.md
-                - name: KM-deklaratsioon
-                  href: localizations/emea-fra-VAT-declaration-preview-France.md
                 - name: DAS-2-aruanne
                   href: localizations/emea-fra-das2-report.md
             - name: Saksamaa
@@ -2250,22 +2036,16 @@
                       href: localizations/emea-deu-gdpdu-data-filtering.md
                 - name: Täiendavate soetamiste kulumi korrigeerimised teisel aastal
                   href: localizations/tasks/de-00002-depreciation.md
-                - name: KM-deklaratsioon
-                  href: localizations/emea-deu-vat-declaration-germany.md
-                - name: KM-deklaratsiooni (ELSTER) elektrooniline edastamine
+                - name: Käibemaksudeklaratsiooni (ELSTER) elektrooniline edastamine
                   href: localizations/tasks/de-00003-electronic-transmission-elster.md
-                - name: Saksa Intrastat
-                  href: localizations/emea-deu-intrastat.md
-                - name: KM-aruanne
+                - name: Saksamaa käibemaksudeklaratsioon
                   href: localizations/emea-de-vat-declaration.md
                 - name: Kliendi elektrooniliste arvete aruanne
                   href: localizations/emea-deu-e-invoices.md
                 - name: Tööleheloendi aruanne
                   href: localizations/emea-deu-journal-list-report.md
-                - name: Elektrooniliste maksudeklaratsioonide häälestamine
+                - name: Elektrooniliste maksudeklaratsioonide seadistamine
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/setup-electronic-tax-declaration-germany.md?toc=/dynamics365/finance/toc.json
-                - name: Müügist tulenevate kreeditarvete jaoks eraldi sildi printimine
-                  href: localizations/emea-deu-print-separate-label-credit-memo-originating-sales.md
             - name: Ungari
               items:
                 - name: Ungari ülevaade
@@ -2308,42 +2088,62 @@
                   href: localizations/apac-ind-scope.md
                 - name: Mis on uut või mida on muudetud India lokaliseerimise puhul?
                   items:
-                    - name: Mis on uut või mida on muudetud versioonides 10.0.20 – 10.0.22?
-                      href: localizations/ind-news-letter-10-0-20-22.md
-                    - name: Mis on uut või mida on muudetud versioonides 10.0.15 – 10.0.19?
-                      href: localizations/ind-news-letter-10-0-15-19.md
-                    - name: Mis on uut või mida on muudetud versioonis 10.0.14?
-                      href: localizations/apac-ind-news-letter-10-0-14.md
-                    - name: Mis on uut või mida on muudetud versioonis 10.0.13?
-                      href: localizations/ind-news-letter-10-0-13.md
-                    - name: Mis on uut või mida on muudetud versioonis 10.0.12?
-                      href: localizations/apac-ind-news-letter-10-0-12.md
-                    - name: Mis on uut või mida on muudetud versioonis 10.0.11?
-                      href: localizations/apac-ind-news-letter-10-0-11.md
-                    - name: Mis on uut või mida on muudetud versioonis 10.0.10?
-                      href: localizations/apac-ind-news-letter-10-0-10.md
-                    - name: Mis on uut või mida on muudetud versioonis 10.0.09?
-                      href: localizations/apac-ind-news-letter-10-0-09.md
-                    - name: Mis on uut või mida on muudetud versioonis 10.0.08?
-                      href: localizations/apac-ind-news-letter-10-0-08.md
-                    - name: Mis on uut või mida on muudetud versioonis 10.0.07?
-                      href: localizations/apac-ind-news-letter-10-0-07.md
-                    - name: Mis on uut või mida on muudetud versioonis 10.0.06?
-                      href: localizations/apac-ind-news-letter-10-0-06.md
-                    - name: Mis on uut või mida on muudetud versioonis 10.0.05?
-                      href: localizations/apac-ind-news-letter-10-0-05.md
-                    - name: Mis on uut või mida on muudetud versioonis 10.0.04?
-                      href: localizations/apac-ind-news-letter-10-0-04.md
-                    - name: Mis on uut või mida on muudetud versioonis 10.0.03?
-                      href: localizations/apac-ind-news-letter-10-0-03.md
-                    - name: Mis on uut või mida on muudetud versioonis 10.0.02?
-                      href: localizations/apac-ind-news-letter-10-0-02.md
-                    - name: Mis on uut või mida on muudetud versioonis 10.0.01?
-                      href: localizations/apac-ind-news-letter-10-0-01.md
                     - name: Mis on uut või mida on muudetud versioonis 10.0.0?
                       href: localizations/apac-ind-news-letter-10-0-00.md
-                - name: Raamatupidamistarkvara auditijälg ja logide redigeerimine
-                  href: localizations/apac-ind-audit-trail-edit-logs-accounting-software.md
+                    - name: Mis on uut või mida on muudetud versioonis 10.0.01?
+                      href: localizations/apac-ind-news-letter-10-0-01.md
+                    - name: Mis on uut või mida on muudetud versioonis 10.0.02?
+                      href: localizations/apac-ind-news-letter-10-0-02.md
+                    - name: Mis on uut või mida on muudetud versioonis 10.0.03?
+                      href: localizations/apac-ind-news-letter-10-0-03.md
+                    - name: Mis on uut või mida on muudetud versioonis 10.0.04?
+                      href: localizations/apac-ind-news-letter-10-0-04.md
+                    - name: Mis on uut või mida on muudetud versioonis 10.0.05?
+                      href: localizations/apac-ind-news-letter-10-0-05.md
+                    - name: Mis on uut või mida on muudetud versioonis 10.0.06?
+                      href: localizations/apac-ind-news-letter-10-0-06.md
+                    - name: Mis on uut või mida on muudetud versioonis 10.0.07?
+                      href: localizations/apac-ind-news-letter-10-0-07.md
+                    - name: Mis on uut või mida on muudetud versioonis 10.0.08?
+                      href: localizations/apac-ind-news-letter-10-0-08.md
+                    - name: Mis on uut või mida on muudetud versioonis 10.0.09?
+                      href: localizations/apac-ind-news-letter-10-0-09.md
+                    - name: Mis on uut või mida on muudetud versioonis 10.0.10?
+                      href: localizations/apac-ind-news-letter-10-0-10.md
+                    - name: Mis on uut või mida on muudetud versioonis 10.0.11?
+                      href: localizations/apac-ind-news-letter-10-0-11.md
+                    - name: Mis on uut või mida on muudetud versioonis 10.0.12?
+                      href: localizations/apac-ind-news-letter-10-0-12.md
+                    - name: Mis on uut või mida on muudetud versioonis 10.0.13?
+                      href: localizations/ind-news-letter-10-0-13.md
+                    - name: Mis on uut või mida on muudetud versioonis 10.0.14?
+                      href: localizations/apac-ind-news-letter-10-0-14.md
+                - name: Põhivarad
+                  items:
+                    - name: India põhivarade ülevaade
+                      href: localizations/apac-ind-fixed-assets.md
+                    - name: Päevapõhise kalendri manustamine põhivararaamatule
+                      href: localizations/tasks/apac-ind-attach-day-based-calendar.md
+                    - name: Vahetuskulumi arvestus
+                      href: localizations/tasks/apac-ind-shift-depreciation-rates.md
+                    - name: Laomudeligrupi loomine kapitalikaupade jaoks
+                      href: localizations/tasks/apac-ind-create-inventory-model-group.md
+                    - name: Kulumi koostamine ja sisestamine
+                      href: localizations/apac-ind-calculate-post-depreciation.md
+                    - name: Raamatute vahetuse ja valdkonna määratlemine ja põhivarale lisamine
+                      href: localizations/tasks/apac-ind-books-shift-industry-types.md
+                    - name: Põhivarakannete storno
+                      href: localizations/apac-ind-reverse-fixed-assets-transactions.md
+                    - name: Vahetuskulumi arvestus
+                      href: localizations/apac-ind-calculation-shift-depreciation.md
+                    - name: Päevapõhise rahanduskalendri häälestamine
+                      href: localizations/tasks/apac-ind-day-based-calendar.md
+                    - name: Parameetrite häälestamine kulumi arvutamiseks
+                      href: localizations/tasks/apac-ind-set-up-depreciation.md
+                    - name: Varagrupi kulumi häälestamine kulumiraamatute jaoks
+                      href: localizations/tasks/apac-ind-set-up-asset-group-dep.md
+                    - name: Kapitalikaupade ülekanne põhivarasse
+                      href: localizations/tasks/apac-ind-transfer-capital-items.md
                 - name: Kaudsed maksud
                   items:
                     - name: India GST
@@ -2438,10 +2238,6 @@
                                   href: localizations/apac-ind-GST-purchase-return-order.md
                                 - name: 'Hankija ettemaksed, millel on pöördtasusid'
                                   href: localizations/apac-ind-GST-vendor-advance-payment-reverse-charges.md
-                                - name: GST TDS kaupade ja teenuste eest maksmisel
-                                  href: localizations/ind-gst-tds-payment-goods-services.md
-                                - name: GST TCS kaupade ja teenuste eest maksmisel
-                                  href: localizations/ind-gst-tcs-payment.md
                             - name: Müügikanded
                               items:
                                 - name: Maksustatavate kaupade müük tarbijatele
@@ -2504,10 +2300,6 @@
                                   href: localizations/apac-ind-GST-revise-advanced-payment-tax.md
                                 - name: Kliendimaksete tagasimaksed
                                   href: localizations/apac-ind-GST-customer-payment-refund.md
-                            - name: Projekti halduskanded
-                              items:
-                                - name: Kaupade ja teenuste maksu (GST) projekti kanded
-                                  href: localizations/apac-ind-gst-project-transactions.md
                             - name: Maksu korrigeerimine
                               items:
                                 - name: Maksusumma korrigeerimine
@@ -2532,164 +2324,18 @@
                               href: localizations/apac-ind-GST-tax-returns.md
                             - name: GSTR aruannete puhu mitme partii töötlemise lubamine
                               href: localizations/apac-ind-gst-multi-batch-processing-gstr-return.md
-                        - name: GST tõrkeotsing
-                          items:
-                            - name: Vale maksusumma pärast arvutamist
-                              href: localizations/apac-ind-GST-troubleshooting-tax-amount-wrong-after-calculation.md
-                            - name: Maksu konfiguratsioonitõrked
-                              href: localizations/apac-ind-GST-troubleshooting-tax-configuration-errors.md
-                            - name: Maksu pole arvutatud
-                              href: localizations/apac-ind-GST-troubleshooting-tax-not-calculated.md
-                            - name: Maksusoodustuse reeglite aktiveerimine võtab oodatust kauem aega
-                              href: localizations/apac-ind-GST-troubleshooting-setoff-rule-activate-take-long-time.md
-                            - name: TaxTransi või kannet pole loodud
-                              href: localizations/apac-ind-GST-troubleshooting-taxtrans-or-voucher-not-generated.md
-                            - name: Maksukande ID on vale
-                              href: localizations/apac-ind-GST-troubleshooting-tax-transaction-id-incorrect.md
-                            - name: Valed väljaväärtused GSTR-i aruandes
-                              href: localizations/apac-ind-GST-troubleshooting-field-value-incorrect-GSTR-report-result.md
-                            - name: Vale väljaväärtus arve töölehel või kandel
-                              href: localizations/apac-ind-GST-troubleshooting-invoice-journal-wrong.md
-                            - name: Vale pearaamatukonto kandes
-                              href: localizations/apac-ind-GST-troubleshooting-ledger-account-voucher-wrong.md
-                            - name: Praeguse maksu konfiguratsiooni koostaja avamine
-                              href: localizations/apac-ind-GST-troubleshooting-open-designer-current-used-tax-configuration.md
-                            - name: Kirjeid ja välju ei kuvata GSTR-i aruandes
-                              href: localizations/apac-ind-GST-troubleshooting-records-fields-not-showing-GSTR-report.md
-                            - name: Maksusoodustuse reegli tõrge maksutasakaalustuse käivitamisel
-                              href: localizations/apac-ind-GST-troubleshooting-setoff-rule-error-transactions-on-voucher-not%20balance.md
-                            - name: Maksuteabe välja vaikeväärtus ei vasta eeldatule
-                              href: localizations/apac-ind-GST-troubleshooting-default-value-in-tax-information-not-expected.md
                 - name: Otsesed maksud
                   items:
                     - name: India kinnipeetav maks
                       items:
+                        - name: GST kaasamine maksu mahaarvamise arvutamisel
+                          href: localizations/apac-ind-GST-include-gst-calculating-tax-deductions.md
+                        - name: GST kaasamine maksukogumiste arvutamisel
+                          href: localizations/apac-ind-GST-include-gst-calculating-tax-collections.md
                         - name: Maksulävede KKK
                           href: localizations/apac-ind-tax-thresholds.md
-                        - name: India TCS
-                          items:
-                            - name: TCS kaupade müügilt
-                              href: localizations/apac-ind-GST-TCS-on-Sale-of-Goods-Section-206C-(1H).md
-                            - name: GST kaasamine maksukogumiste arvutamisel
-                              href: localizations/apac-ind-GST-include-gst-calculating-tax-collections.md
-                        - name: India TDS
-                          items:
-                            - name: India allikas mahaarvatud maksu (TDS) ülevaade
-                              href: localizations/apac-ind-TDS-India-TDS-overview.md
-                            - name: GST kaasamine maksu mahaarvamise arvutamisel
-                              href: localizations/apac-ind-GST-include-gst-calculating-tax-deductions.md
-                            - name: 194Q alla kuuluvate kaupade ostu TDS
-                              href: localizations/ind-tds-purchases-goods.md
-                            - name: TDS-/TCS-i kirjendamine suurema maksumääraga mittesisseandjatele
-                              href: localizations/post-tds-tcs-non-filers-higher-tax.md
-                            - name: TDS-i põhihäälestus
-                              items:
-                                - name: TDS-i parameetrite määramine
-                                  href: localizations/apac-ind-TDS-TDS-parameter-activation.md
-                                - name: TDS-i pearaamatukontode häälestamine
-                                  href: localizations/apac-ind-TDS-TDS-ledger-accounts-setup.md
-                                - name: TDS-i registreerimisnumbrite häälestamine juriidiliste isikute jaoks
-                                  href: localizations/apac-ind-TDS-TDS-registration-numbers-setup-for-legal-entities.md
-                                - name: Kinnipeetava maksu haldurite häälestamine TDS-i maksutüübi jaoks
-                                  href: localizations/apac-ind-TDS-Withholding-tax-authorities-setup-for-TDS-tax-type.md
-                                - name: Maksukomponentide häälestamine TDS-i maksutüübi jaoks
-                                  href: localizations/apac-ind-TDS-Tax-components-setup-for-TDS-tax-type.md
-                                - name: Kinnipeetava maksu koodide häälestamine TDS-i maksutüübi jaoks
-                                  href: localizations/apac-ind-TDS-Withholding-tax-authorities-setup-for-TDS-tax-type.md
-                                - name: Kinnipeetava maksu tasakaalustusperioodide häälestamine TDS-i maksutüübi jaoks
-                                  href: localizations/apac-ind-TDS-Withholding-tax-settlement-periods-setup-for-TDS-tax-type.md
-                                - name: Kinnipeetava maksu aruandluskoodide häälestamine TDS-i maksutüübi jaoks
-                                  href: localizations/apac-ind-TDS-Withholding-tax-reporting-codes-setup-for-TDS-tax-type.md
-                                - name: Kinnipeetava maksu koodide häälestamine TDS-i maksutüübi jaoks
-                                  href: localizations/apac-ind-TDS-Withholding-tax-codes-setup-for-TDS-tax-type.md
-                                - name: TDS-i maksukoodide TDS-i maksugruppidele manustamine ja TDS-i arvutamise valemi määratlemine
-                                  href: localizations/apac-ind-TDS-Attach-TDS-tax-codes-to-TDS-tax-groups-and-define-formula-to-calculate-TDS.md
-                                - name: TDS-i kontsessioonisertifikaadi numbrite kirjendamine
-                                  href: localizations/apac-ind-TDS-Record-TDS-concession-certificate-numbers.md
-                                - name: TDS-i parameetrite määramine ostureskontros ja müügireskontros
-                                  href: localizations/apac-ind-TDS-TDS-parameters-setup-in-accounts-payable-parameters-and-accounts-receivable-parameters.md
-                                - name: TDS-i eraldamisega maksegraafikute häälestamine
-                                  href: localizations/apac-ind-TDS-Payment-schedule-setup-with-TDS-allocation.md
-                                - name: Maksetasude häälestamine TDS-i halduri maksete jaoks
-                                  href: localizations/apac-ind-TDS-Payment-fee-setup-to-charge-payment-fee-for-TDS-authority-payments.md
-                                - name: 'TDS-i grupi, PAN-i ja TAN-i teabe häälestus hankijatele ja klientidele'
-                                  href: localizations/apac-ind-TDS-TDS-group-PAN-and-TAN-information-setup-for-vendors-and-customers.md
-                                - name: TDS-i arvutuse valemikoostaja ja lävelimiit
-                                  items: null
-                                - name: TDS-i arvutuste valemikoostaja
-                                  href: localizations/apac-ind-TDS-Formula-designer.md
-                                - name: Lävelimiit ja erandi lävelimiit
-                                  href: localizations/apac-ind-TDS-Threshold-limit-and-exception-threshold-limit.md
-                            - name: TDS-i arvutamine arvetel
-                              items:
-                                - name: TDS-i arvutamine arvetel
-                                  href: localizations/apac-ind-TDS-TDS-calcuation-on-invoice.md
-                                - name: TDS-i arvutamine arvetel töölehtede abil
-                                  href: localizations/apac-ind-TDS-Calculate-TDS-on-invoices-using-journals.md
-                                - name: TDS-i arvete arvutamine ostutellimuse vormi ja müügitellimuse vormi abil
-                                  href: localizations/apac-ind-TDS-Calculate-TDS-invoices-using-purchase-order-form-and-sales-order-form.md
-                                - name: TDS-i arvutamine arvetel vabas vormis arve lehelt
-                                  href: localizations/apac-ind-TDS-TDS-calculation-on-invoices-using-free-text-invoice-form.md
-                                - name: Arve tükeldamise funktsioon
-                                  href: localizations/apac-ind-TDS-Split-invoice-functionality.md
-                            - name: TDS-i arvutamine maksetelt ja võlatähtedelt
-                              href: localizations/apac-ind-TDS-TDS-calculation-on-payments-and-promissory-notes.md
-                            - name: TDS-i arvutamine kontsernisisestelt kannetelt
-                              href: localizations/apac-ind-TDS-TDS-calculation-on-intercompany-transactions.md
-                            - name: TDS-i tasakaalustusprotsess
-                              items:
-                                - name: TDS-i arvutamine maksetelt ja võlatähtedelt
-                                  href: localizations/apac-ind-TDS-TDS-calculation-on-payments-and-promissory-notes.md
-                                - name: TDS-i arvutamine kontsernisisestelt kannetelt
-                                  href: localizations/apac-ind-TDS-TDS-calculation-on-intercompany-transactions.md
-                                - name: Perioodilise TDS-i tasakaalustusprotsessi käitamine
-                                  href: localizations/apac-ind-TDS-Run-the-periodic-TDS-settlement-process.md
-                                - name: TDS-i maksete tasakaalustamine TDS-i halduri hankijatele ja TDS-i challani loomine
-                                  href: localizations/apac-ind-TDS-Settle-TDS-payments-to-TDS-authority-vendors-and-generate-TDS-challan.md
-                                - name: TDS-i tasakaalustusperioodi kohta sisestatud TDS-i maksete ja kannete kuvamine
-                                  href: localizations/apac-ind-TDS-View-TDS-payments-and-TDS-transactions-posted-for-a-TDS-settlement-period.md
-                - name: Põhivarad
-                  items:
-                    - name: India põhivarade ülevaade
-                      href: localizations/apac-ind-fixed-assets.md
-                    - name: Päevapõhise kalendri manustamine põhivararaamatule
-                      href: localizations/tasks/apac-ind-attach-day-based-calendar.md
-                    - name: Vahetuskulumi arvestus
-                      href: localizations/tasks/apac-ind-shift-depreciation-rates.md
-                    - name: Laomudeligrupi loomine kapitalikaupade jaoks
-                      href: localizations/tasks/apac-ind-create-inventory-model-group.md
-                    - name: Kulumi koostamine ja sisestamine
-                      href: localizations/apac-ind-calculate-post-depreciation.md
-                    - name: Raamatute vahetuse ja valdkonna määratlemine ja põhivarale lisamine
-                      href: localizations/tasks/apac-ind-books-shift-industry-types.md
-                    - name: Põhivarakannete storno
-                      href: localizations/apac-ind-reverse-fixed-assets-transactions.md
-                    - name: Vahetuskulumi arvestus
-                      href: localizations/apac-ind-calculation-shift-depreciation.md
-                    - name: Päevapõhise rahanduskalendri häälestamine
-                      href: localizations/tasks/apac-ind-day-based-calendar.md
-                    - name: Parameetrite häälestamine kulumi arvutamiseks
-                      href: localizations/tasks/apac-ind-set-up-depreciation.md
-                    - name: Varagrupi kulumi häälestamine kulumiraamatute jaoks
-                      href: localizations/tasks/apac-ind-set-up-asset-group-dep.md
-                    - name: Kapitalikaupade ülekanne põhivarasse
-                      href: localizations/tasks/apac-ind-transfer-capital-items.md
-                    - name: TDS-i sertifikaadinumbrite ja kuupäevade kirjendamine ja uuendamine
-                      items:
-                        - name: TDS-i tagastatava sertifikaadi numbrite kirjendamine
-                          href: localizations/apac-ind-TDS-Record-TDS-recoverable-certificate-numbers.md
-                        - name: TDS-i kannete sertifikaadinumbrite ja kuupäevade uuendamine
-                          href: localizations/apac-ind-TDS-Update-certificate-numbers-and-dates-for-TDS-transactions.md
-            - name: Indoneesia
-              items:
-                - name: Indoneesia ülevaade
-                  href: localizations/indonesia.md
-                - name: Maksuarvete nummerdamine ja arveldamine
-                  href: localizations/apac-idn-invoicing.md
-                - name: Indoneesia KM-deklaratsioon
-                  href: localizations/apac-idn-ppn-declaration.md
-                - name: Kinnipeetava maksu aruanne Indoneesia jaoks
-                  href: localizations/apac-idn-wht-declaration.md
+                        - name: TCS kaupade müügilt
+                          href: localizations/apac-ind-GST-TCS-on-Sale-of-Goods-Section-206C-(1H).md
             - name: Itaalia
               items:
                 - name: Itaalia ülevaade
@@ -2698,6 +2344,8 @@
                   href: localizations/emea-ita-vat-statements-details.md
                 - name: Kvartali KM-i kommunikatsiooniaruanne
                   href: localizations/emea-ita-quarterly-vat-communication.md
+                - name: Musta loendi aruanne
+                  href: localizations/emea-ita-black-list-report.md
                 - name: Pädevuskuupäev ja fiskaaltööleht
                   href: localizations/emea-ita-competence-date.md
                 - name: Põhivarade kulum
@@ -2726,14 +2374,6 @@
                   href: localizations/emea-ita-exil-zero-invoice-posting.md
                 - name: Pangaandmete kasutatavuse täiendus
                   href: localizations/emea-ita-exil-bank-accounts-setup.md
-                - name: Intrastat
-                  items:
-                    - name: Itaalia Intrastat
-                      href: localizations/emea-ita-intrastat.md
-                    - name: Saabumiste ja lähetuste sisestamine Intrastati jaoks
-                      href: localizations/emea-ita-post-arrivals-and-dispatches-for-intrastat.md
-                    - name: Intrastati (IT) failivorming
-                      href: /dynamics/s-e/365business/dynamices365finance_itintrastatfile
                 - name: Mitmesugused tasud kilogrammi kohta Intrastati deklaratsioonis
                   href: localizations/emea-ita-exil-misc-charges-intrastat.md
                 - name: Eellepingud – arvete esitamine tavalistele eksportijatele
@@ -2756,8 +2396,6 @@
                   href: localizations/emea-ita-exil-tax-plafond.md
                 - name: Kliendi elektroonilised arved
                   href: localizations/emea-ita-e-invoices.md
-                - name: Hankija elektroonilised arved
-                  href: localizations/emea-ita-vend-e-invoices.md
                 - name: Aastane maksusuhtlus
                   href: localizations/emea-ita-yearly-tax-communication.md
                 - name: Makse jälgitavus
@@ -2942,8 +2580,6 @@
                   href: localizations/emea-lva-tax-natural-resources.md
                 - name: KM-aruande üksikasjad
                   href: localizations/emea-lva-vat-statement-details.md
-                - name: Läti intrastat
-                  href: localizations/emea-lva-intrastat.md
             - name: Leedu
               items:
                 - name: Leedu ülevaade
@@ -2954,12 +2590,10 @@
                   href: localizations/tasks/lt-00003-fixed-asset-transfer.md
                 - name: KM-aruande üksikasjad
                   href: localizations/emea-ltu-vat-statement-details.md
-                - name: i.SAF-aruandlus Leedus
+                - name: i. SAF-aruandlus Leedus
                   href: localizations/emea-ltu-isaf.md
                 - name: Maksu standardne auditifail (SAF-T) Leedu jaoks
                   href: localizations/emea-ltu-saf-t.md
-                - name: Ettevõttesisese kaupade liikumise ülekandedokumentide häälestus
-                  href: localizations/tasks/set-up-transfer-documents-goods-movement-inside-company.md
             - name: Malaisia
               items:
                 - name: Malaisia ülevaade
@@ -3006,8 +2640,6 @@
                   href: localizations/tasks/mx-00010-e-invoicing-cfdi.md
                 - name: Elektroonilised arved
                   href: localizations/latam-mex-CFDI-electronic-invoices.md
-                - name: Saatelehe (Carta de Porte) täiendus (versioon 1.0)
-                  href: localizations/latam-mex-carta-de-porte.md
                 - name: Pearaamatu elektroonilised arvestusväljavõtted
                   href: localizations/latam-mex-electronic-ledger-accounting-statements.md
                 - name: Mehhiko juriidiliste isikute maksukohustuslase registreerimisnumbrite sisestamine
@@ -3028,28 +2660,22 @@
                   href: localizations/tasks/mx-00020-specify-rfc-registration-id-mexican-bank-accounts.md
                 - name: Hankijate registreerimisnumbrid
                   href: localizations/tasks/mx-00008-vendor-registration-ids.md
+            - name: Omaan
+              items:
+                - name: Omaani ülevaade
+                  href: localizations/oman.md
             - name: Holland
               items:
                 - name: Hollandi ülevaade
                   href: localizations/netherlands.md
-                - name: KM-deklaratsioon
+                - name: Käibemaksudeklaratsioon
                   href: localizations/emea-nl-VAT-declaration.md
                 - name: Elektroonilised maksudeklaratsioonid (EVAT)
                   href: localizations/tasks/nl-00010-electronic-tax-declarations-evat.md
                 - name: Semansys XBRL-i integreerimine
                   href: localizations/tasks/nl-00003-semansys-xbrl-integration.md
-                - name: Auditifail (XML Auditfile Financieel XAF)
+                - name: 'Auditifail (XML Auditfile Financieel, XAF)'
                   href: localizations/emea-nl-audit-file.md
-                - name: KM-deklaratsioon (Holland)
-                  href: localizations/emea-nl-vat-declaration-netherlands.md
-                - name: Hollandi Intrastat
-                  href: localizations/emea-nl-intrastat.md
-                - name: EL käibearuanne
-                  href: localizations/emea-nl-EU-sales-list.md
-            - name: Uus-Meremaa
-              items:
-                - name: GST-deklaratsiooni vorm GST101A Uus-Meremaale (NZ-00003)
-                  href: localizations/apac-nzl-gst-declaration.md
             - name: Norra
               items:
                 - name: Norra ülevaade
@@ -3062,30 +2688,10 @@
                   href: localizations/emea-nor-nets-import-format.md
                 - name: KM-aruanne
                   href: localizations/emea-nor-sales-tax-payment-report.md
-                - name: Käibemaksutagastus otseedastusega Altinnile
-                  items:
-                    - name: 'Ülevaade: käibemaksutagastus otseedastusega Altinnile'
-                      href: localizations/emea-nor-vat-return.md
-                    - name: Integratsioonipunktide registreerimine ID-porteni veebiportaalis
-                      href: localizations/emea-nor-vat-return-integration-point.md
-                    - name: Keskkonna ettevalmistamine koostööks ID-porteni ja Altinni veebiteenustega
-                      href: localizations/emea-nor-vat-return-setup.md
-                    - name: Käibemaksutagastuse elektrooniliste teadete seadistuse kontroll-loend
-                      href: localizations/emea-nor-vat-return-checklist.md
-                    - name: Finance'i keskkonna autoriseerimine koostööks ID-Porteni ja Altinni veebiteenustega
-                      href: localizations/emea-nor-vat-return-authorization.md
-                    - name: Käibemaksutagastuse edastamine Altinni veebiteenusele
-                      href: localizations/emea-nor-vat-return-submission.md
                 - name: Maksu standardne auditifail (SAF-T) Norra jaoks
                   href: localizations/emea-nor-satndard-audit-file-for-tax.md
                 - name: Kliendi elektroonilised arved Norras
                   href: localizations/emea-nor-e-invoices.md
-            - name: Omaan
-              items:
-                - name: Omaani ülevaade
-                  href: localizations/oman.md
-                - name: Omaani KM-deklaratsioon (OM-00003)
-                  href: localizations/emea-oma-vat-declaration.md
             - name: Poola
               items:
                 - name: Poola ülevaade
@@ -3108,8 +2714,6 @@
                   href: localizations/emea-pol-returnable-packages.md
                 - name: Käibemaksuaruanded
                   href: localizations/emea-pol-sales-tax-reports.md
-                - name: Poola Intrastat
-                  href: localizations/emea-pol-intrastat.md
                 - name: Numbriseeriate häälestamine lao järgi
                   href: localizations/emea-pol-number-sequence-warehouses.md
                 - name: Standardne auditifail
@@ -3120,20 +2724,8 @@
                   href: localizations/emea-pol-turnover-balances-statement.md
                 - name: Ostu-/müügireskontro kursierinevuse tükeldamine
                   href: localizations/emea-pol-split-ap-ar-exchange-difference.md
-                - name: PKWiU-koodide häälestamine ja kasutamine Poolas
-                  href: localizations/emea-pol-pkwiu-code.md
-                - name: 'KM-deklaratsioon registritega (JPK_V7M, VDEK)'
-                  items:
-                    - name: 'KM-deklaratsioon registritega (JPK_V7M, VDEK) – ülevaade'
-                      href: localizations/emea-pol-vdek.md
-                    - name: JPK-V7M-i aruandluseks ettevalmistamine
-                      href: localizations/emea-pol-vdek-setup.md
-                    - name: JPK-V7M-i aruandlus
-                      href: localizations/emea-pol-vdek-reporting.md
-                    - name: Konkreetsete äristsenaariumide üksikasjad JPK-V7M-i aruandes
-                      href: localizations/emea-pol-vdek-scenarios.md
-                - name: Maksetingimused ärikannete aruandes
-                  href: localizations/emea-pol-payment-terms-report.md
+                - name: 'Käibemaksudeklaratsioon registritega (JPK_V7M, VDEK)'
+                  href: localizations/emea-pol-vdek.md
             - name: Katar
               items:
                 - name: Katari ülevaade
@@ -3158,10 +2750,6 @@
                       href: localizations/rus-turnover-balance-statement-reports.md
                     - name: Kontotoimingute aruanded
                       href: localizations/rus-account-activity-reports.md
-                    - name: Föderaalne raamatupidamisstandard 27-2021
-                      href: localizations/emea-rus-federal-accounting-standard-27-2021.md
-                    - name: Elektroonilise aruandluse sihtkohtade lubamine Venemaa raamatupidamisdokumentide talletamiseks
-                      href: localizations/rus-enable-er-destinations-ru-accounting-documents.md
                 - name: Avansisaajad
                   items:
                     - name: Venemaa avansisaajate ülevaade
@@ -3200,7 +2788,7 @@
                       href: localizations/rus-revise-invoice-facture.md
                     - name: Maksuesindajate käibemaks (KM)
                       href: localizations/rus-tax-agent.md
-                    - name: KM-deklaratsioon
+                    - name: Käibemaksudeklaratsioon
                       href: localizations/rus-VAT-declaration.md
                     - name: 'Müügiraamatud, osturaamatud ja faktuurarvete töölehed'
                       href: localizations/rus-sales-books-purchase-books.md
@@ -3254,18 +2842,14 @@
                           href: localizations/rus-post-budget-fixed-asset-acquisition.md
                         - name: Põhivarade ülekandmine
                           href: localizations/rus-fixed-asset-transfer.md
-                        - name: Põhivara ühtsed printimisvormid
-                          href: localizations/printing-forms-fixed-assets.md
-                        - name: Päringud ja aruanded
-                          href: localizations/rus-fa-inquiries-reports.md
                     - name: Ei ole väärtuslik põhivara ega töörõivad
                       items:
-                        - name: Väheväärtuslik põhivara (NVFA-d) (Venemaa)
+                        - name: Väheväärtuslik põhivara (Venemaa)
                           href: localizations/rus-not-valuable-assets.md
                         - name: Töörõivaste/erivarustuse raamatupidamine (Venemaa)
                           href: localizations/rus-working-clothes-instruments-accounting.md
-                    - name: Põhivarade integreerimine varahalduse mooduliga
-                      href: localizations/rus-integration-eam-with-fixed-asset.md
+                        - name: Põhivara ühtsed printimisvormid
+                          href: localizations/printing-forms-fixed-assets.md
                 - name: Müügi- ja ostureskontrod
                   items:
                     - name: Kreeditarve parandused (Venemaa)
@@ -3300,8 +2884,6 @@
                           href: localizations/rus-purchases-on-commission.md
                         - name: Müügi komisjonitasu
                           href: localizations/rus-sales-on-commission.md
-                    - name: Müügireskontro ja Ostureskontro kohalikud aruanded ja esmased vormid
-                      href: localizations/rus-local-reports-primary-forms-ar-ap.md
                 - name: Varud
                   items:
                     - name: Hankija transiidis olevad kaubad
@@ -3366,11 +2948,9 @@
                       href: localizations/rus-reporting-deferrals.md
                 - name: Maksuarvestus
                   items:
-                    - name: Maksuregistrite ja maksuregistri töölehe loomine
-                      href: localizations/rus-profit-tax-registers.md
                     - name: Kulu- ja tulukoodid
                       href: localizations/rus-expense-and-income-codes.md
-                    - name: Varade maksuregistrid
+                    - name: Varade maksu registrid
                       href: localizations/rus-assets-tax-registers.md
                     - name: Viitvõlgade maksuregister
                       href: localizations/rus-deferred-expenses-register.md
@@ -3378,16 +2958,6 @@
                       href: localizations/rus-cash-flow-tax-registers.md
                     - name: Hinnatud kulude registrid
                       href: localizations/rus-rated-expenses-registers.md
-                    - name: Ostureskontro võla maksuregistrid ja võla mahakandmised
-                      href: localizations/rus-accounts-payable-debt-tax-registers-and-debt-write-offs.md
-                    - name: Võlgade reservid müügireskontros
-                      href: localizations/rus-bad-debts.md
-                    - name: Maksuvara ja maksukohustuse registrite arvutamine
-                      href: localizations/rus-calculation-tax-asset-tax-liability-registers.md
-                    - name: Kaubaliikumise maksuregistrid
-                      href: localizations/rus-goods-movement-tax-registers.md
-                    - name: Muud maksuregistrid
-                      href: localizations/rus-other-tax-registers.md
             - name: Saudi Araabia
               items:
                 - name: Saudi Araabia ülevaade
@@ -3398,8 +2968,6 @@
                   href: localizations/emea-sau-zakat-reporting.md
                 - name: Pangadokumentide tasude eraldamine saadetisele
                   href: localizations/apac-sau-allocate-bank-document-charges-shipment.md
-                - name: Kliendi elektroonilised arved Saudi Araabias
-                  href: localizations/emea-sau-e-invoices.md
             - name: Singapur
               items:
                 - name: Singapuri ülevaade
@@ -3424,10 +2992,8 @@
                   href: localizations/emea-esp-fiscal-data-invoice-account.md
                 - name: Põhivaragrupi ümberhindamine
                   href: localizations/emea-esp-fixed-asset-group-revaluation.md
-                - name: ELi-sisene KM
+                - name: ELi sisene KM
                   href: localizations/emea-esp-intra-community-vat.md
-                - name: Hispaania intrastat
-                  href: localizations/emea-esp-intrastat.md
                 - name: Ühekordsed kliendid
                   href: localizations/emea-esp-no-one-time-customer-for-project-contracts.md
                 - name: Tšekkide printimine Hispaania paigutusega
@@ -3438,8 +3004,6 @@
                   href: localizations/emea-esp-report-340.md
                 - name: Deklaratsiooni 347 aruanne
                   href: localizations/emea-esp-declaration-347-report.md
-                - name: KM-deklaratsioon 303
-                  href: localizations/emea-esp-vat-declaration-spain.md
                 - name: Müügi- ja ostutsüklid
                   href: localizations/emea-esp-sales-purchase-cycle.md
                 - name: Erikanded ja avamislehed
@@ -3456,10 +3020,6 @@
                   href: localizations/emea-swe-payment-formats-import.md
                 - name: Rootsi käibemaksu maksearuanne
                   href: localizations/emea-swe-sales-tax-payment-report-sweden.md
-                - name: Rootsi KM-deklaratsioon
-                  href: localizations/emea-swe-VAT-declaration-Sweden.md
-                - name: Rootsi Intrastat
-                  href: localizations/emea-swe-intrastat.md
             - name: Šveits
               items:
                 - name: Šveitsi ülevaade
@@ -3468,22 +3028,16 @@
                   href: localizations/emea-che-esr-customer-payments-import.md
                 - name: Šveitsi QR-arved
                   href: localizations/emea-che-swiss-qr-bills.md
-                - name: KM-deklaratsioon
-                  href: localizations/emea-che-VAT-declaration-Switzerland.md
             - name: Tai
               items:
                 - name: Tai ülevaade
                   href: localizations/thailand.md
                 - name: Laokaardi aruanded
                   href: localizations/apac-tha-stock-card-reports.md
-                - name: Maksuarved
-                  href: localizations/apac-tha-tax-invoices.md
                 - name: Maksuarve asendamine/korrigeerimine
                   href: localizations/apac-tha-substitution-and-adjustment-invoices.md
                 - name: Realiseerimata ostu käibemaks
                   href: localizations/apac-tha-unrealized-vat.md
-                - name: Ostukannete keskmine KM
-                  href: localizations/apac-tha-average-vat-for-purchase-transactions.md
                 - name: Maksuüksuse dimensioonid
                   href: localizations/apac-tha-tax-branch-dimensions.md
                 - name: Müügi käibemaksuaruanne
@@ -3514,26 +3068,8 @@
                       href: localizations/tasks/gb-00002-reverse-charge-vat-item-groups.md
                     - name: Käibemaksugruppide häälestus pöördkäibemaksu jaoks
                       href: localizations/tasks/gb-00002-sales-tax-groups-reverse-charge-vat.md
-                - name: Maksude digitaalseks muutmine (MTD) käibemaksu jaoks
-                  items:
-                    - name: Maksude digitaalseks muutmise (MTD) käibemaksutagastuse esitamine Ühendkuningriigis
-                      href: localizations/emea-gbr-mtd-vat-integration.md
-                    - name: Keskkonna ettevalmistamine koostööks HMRC MTD käibemaksu veebiteenusega
-                      href: localizations/emea-gbr-mtd-vat-integration-setup.md
-                    - name: MTD käibemaksu elektrooniliste teadete seadistuse kontroll-loend
-                      href: localizations/emea-gbr-mtd-vat-integration-em-setup-checklist.md
-                    - name: MTD käibemaksu liivakastiga toimuva koostöö testimine
-                      href: localizations/emea-gbr-mtd-vat-integration-sandbox.md
-                    - name: Finance'i keskkonna autoriseerimine koostööks HMRC MTD käibemaksu veebiteenusega
-                      href: localizations/emea-gbr-mtd-vat-integration-authorization.md
-                    - name: Käibemaksutagastuse tagastamine HMRC MTD veebiteenusele
-                      href: localizations/emea-gbr-mtd-vat-integration-submission.md
-                    - name: Käibemaksu maksete ja kohustuste kohta teabe toomine HMRC-st
-                      href: localizations/emea-gbr-mtd-vat-integration-optional-scenarios.md
-                    - name: Käibemaksu seadistuse üksikasjad KM-deklaratsioonide kohta Ühendkuningriigis
-                      href: localizations/emea-gbr-mtd-vat-integration-declaration.md
-                    - name: KM-deklaratsiooni loomine pabervormingus (aruanne VAT 100)
-                      href: localizations/emea-gbr-mtd-vat-integration-vat100.md
+                - name: Maksu muutmine käibemaksu jaoks digitaalseks
+                  href: localizations/emea-gbr-mtd-vat-integration.md
                 - name: Maksete aruande statistika
                   href: localizations/emea-gbr-statistics-on-payment-practices-report.md
             - name: Ameerika Ühendriigid
@@ -3546,6 +3082,168 @@
                   href: localizations/noam-usa-form-1099-public-sector.md
                 - name: Hankijate häälestamine aruande 1099 jaoks
                   href: localizations/noam-usa-set-up-vndrs-1099-rprtg.md
+        - name: Human Resources
+          items:
+            - name: Rakenduse Human Resources ülevaade
+              href: ../fin-ops-core/fin-ops/hr/hr-landing-page.md
+            - name: Rakenduse Human Resources häälestamine
+              items:
+                - name: Human Resourcesi parameetrite konfigureerimine
+                  href: ../human-resources/hr-setup-parameters.md?toc=/dynamics365/finance/toc.json
+                - name: Human Resourcesi ühiskasutuses parameetrite konfigureerimine
+                  href: ../human-resources/hr-setup-shared-parameters.md?toc=/dynamics365/finance/toc.json
+                - name: Human Resource'i töövoogude häälestamine
+                  href: ../human-resources/hr-setup-workflows.md?toc=/dynamics365/finance/toc.json
+                - name: Kuupäeva ja kellaaja väljade ülevaade
+                  href: ../human-resources/hr-setup-date-time-fields.md?toc=/dynamics365/finance/toc.json
+            - name: Personali haldamine
+              items:
+                - name: Tööjõu korraldamine
+                  href: ../human-resources/hr-personnel-departments-jobs-positions.md?toc=/dynamics365/finance/toc.json
+                - name: Töö komponentide häälestus
+                  href: ../human-resources/hr-personnel-jobs.md?toc=/dynamics365/finance/toc.json
+                - name: Osakondade määratlemine
+                  href: ../human-resources/hr-personnel-define-departments.md?toc=/dynamics365/finance/toc.json
+                - name: Osakonna lisamine hierarhiasse
+                  href: ../human-resources/hr-personnel-add-department-hierarchy.md?toc=/dynamics365/finance/toc.json
+                - name: Tööde määratlemine
+                  href: ../human-resources/hr-personnel-define-jobs.md?toc=/dynamics365/finance/toc.json
+                - name: Töögraafikute loomine
+                  href: ../human-resources/hr-personnel-create-working-time-calendar.md?toc=/dynamics365/finance/toc.json
+                - name: Personalitegevuste KKK
+                  href: ../human-resources/hr-personnel-actions-faq.md?toc=/dynamics365/finance/toc.json
+                - name: Töövoogude kasutamine töövõtja teabe haldamiseks
+                  href: ../human-resources/hr-workflow-manage-employee-information.md?toc=/dynamics365/finance/toc.json
+                - name: Ametikoha aruandlusseoste muutmine
+                  href: ../human-resources/hr-personnel-modify-reporting-relationships-position.md?toc=/dynamics365/finance/toc.json
+                - name: Töötaja andmete sisestamine
+                  href: ../human-resources/hr-personnel-enter-worker-information.md?toc=/dynamics365/finance/toc.json
+                - name: Töötajatele kaupade laenamine
+                  href: ../human-resources/hr-personnel-loan-item-worker.md?toc=/dynamics365/finance/toc.json
+                - name: Laenuartiklite loomine
+                  href: ../human-resources/hr-personnel-create-loan-items.md?toc=/dynamics365/finance/toc.json
+                - name: Laenuartiklite haldamine
+                  href: ../human-resources/hr-personnel-loan-items.md?toc=/dynamics365/finance/toc.json
+                - name: Järgnevusplaani arendamine
+                  href: ../human-resources/hr-personnel-develop-succession-plan.md?toc=/dynamics365/finance/toc.json
+                - name: Projekti ajatabelite sisestamine
+                  href: ../fin-ops-core/fin-ops/hr/tasks/hr-enter-project-timesheets.md
+                - name: Hulgivärbamisprojektid
+                  href: ../human-resources/hr-personnel-mass-hire-projects.md?toc=/dynamics365/finance/toc.json
+                - name: Hulgivärbamisprojekti loomine
+                  href: ../human-resources/hr-personnel-create-mass-hire-project.md?toc=/dynamics365/finance/toc.json
+                - name: Ametikohtade häälestus
+                  href: ../human-resources/hr-personnel-set-up-positions.md?toc=/dynamics365/finance/toc.json
+                - name: Saate häälestada vigastuste ja haiguste teavet
+                  href: ../human-resources/hr-personnel-set-up-injury-illness-information.md?toc=/dynamics365/finance/toc.json
+                - name: Töövõtjate vigastuste ja haiguste teabe haldamine
+                  href: ../human-resources/hr-personnel-maintain-employee-injury-illness-information.md?toc=/dynamics365/finance/toc.json
+            - name: Kandidaatide värbamine
+              items:
+                - name: Värbamisprotsesside haldus
+                  href: ../fin-ops-core/fin-ops/hr/manage-recruiting-process.md
+                - name: Hulgivärbamisprojektid
+                  href: ../fin-ops-core/fin-ops/hr/mass-hire-projects.md
+                - name: Hulgivärbamisprojektide loomine
+                  href: ../fin-ops-core/fin-ops/hr/tasks/create-mass-hire-project.md
+                - name: Kandidaadi ja avalduse andmete käsitsi sisestamine
+                  href: ../fin-ops-core/fin-ops/hr/tasks/enter-applicant-application-data-manually.md
+                - name: Töötaotluste arendamine ja avamine
+                  href: ../fin-ops-core/fin-ops/hr/tasks/develop-open-job-requisition.md
+                - name: Ametikohtade häälestus
+                  href: ../fin-ops-core/fin-ops/hr/tasks/set-up-positions.md
+                - name: Kandidaatide palkamine värbamise kaudu
+                  href: ../fin-ops-core/fin-ops/hr/tasks/hire-candidate-through-recruiting.md
+                - name: Olemasolevate töövõtjate palkamine värbamise kaudu
+                  href: ../fin-ops-core/fin-ops/hr/tasks/hire-existing-employee-through-recruiting.md
+                - name: Kandidaatide valikutööriistade tuvastamine ja juurutamine
+                  href: ../fin-ops-core/fin-ops/hr/tasks/identify-deploy-candidate-selection-tools.md
+            - name: Kompensatsiooniplaanide häälestamine
+              items:
+                - name: Kompensatsiooniplaanide ülevaade
+                  href: ../human-resources/hr-compensation-overview.md?toc=/dynamics365/finance/toc.json
+                - name: Hüvitusruudustike häälestus
+                  href: ../human-resources/hr-compensation-grids.md?toc=/dynamics365/finance/toc.json
+                - name: Kompensatsiooni struktuuri ja plaani arendamine
+                  href: ../human-resources/hr-compensation-structure.md?toc=/dynamics365/finance/toc.json
+                - name: Põhipalga plaanide loomine
+                  href: ../human-resources/hr-compensation-fixed-plans.md?toc=/dynamics365/finance/toc.json
+                - name: Ergutussüsteemi plaanide loomine
+                  href: ../human-resources/hr-compensation-variable-plans.md?toc=/dynamics365/finance/toc.json
+                - name: Töövõtjate registreerimine põhipalga plaanis
+                  href: ../human-resources/hr-compensation-enroll-employees-fixed.md?toc=/dynamics365/finance/toc.json
+                - name: Töövõtjate registreerimine ergutussüsteemi plaanis
+                  href: ../human-resources/hr-compensation-enroll-employees-variable.md?toc=/dynamics365/finance/toc.json
+                - name: Kompensatsiooniprotsessi määratlemine ja tulemuste arvutamine
+                  href: ../human-resources/hr-compensation-define-process.md?toc=/dynamics365/finance/toc.json
+                - name: Kompensatsiooniplaanide töötlemine
+                  href: ../human-resources/hr-compensation-process.md?toc=/dynamics365/finance/toc.json
+            - name: Soodustuste haldamine
+              items:
+                - name: Soodustusprogrammi määratlemine ja haldamine
+                  href: ../human-resources/hr-benefits-manage-program.md?toc=/dynamics365/finance/toc.json
+                - name: Soodustuse saamise õiguse eeskirjad
+                  href: ../human-resources/hr-benefits-eligibility-policies.md?toc=/dynamics365/finance/toc.json
+                - name: Soodustuse sobivuse töötlemine
+                  href: ../human-resources/hr-benefits-eligibility-process.md?toc=/dynamics365/finance/toc.json
+                - name: Soodustuskõlblikkuse reeglite ja poliitikate määratlemine
+                  href: ../human-resources/hr-benefits-define-eligibility-rules.md?toc=/dynamics365/finance/toc.json
+                - name: Töövõtja soodustuste programmi pakkumine
+                  href: ../human-resources/hr-benefits-deliver-employee-benefits-program.md?toc=/dynamics365/finance/toc.json
+                - name: Uute soodustuste loomine
+                  href: ../human-resources/hr-benefits-create.md?toc=/dynamics365/finance/toc.json
+                - name: Töötajate registreerimine soodustustes
+                  href: ../human-resources/hr-benefits-enroll-workers.md?toc=/dynamics365/finance/toc.json
+                - name: Soodustuste aegumiskuupäevade haldamine
+                  href: ../human-resources/hr-benefits-expiration-dates.md?toc=/dynamics365/finance/toc.json
+                - name: ACA aruannete loomine
+                  href: ../human-resources/hr-benefits-aca-reports.md?toc=/dynamics365/finance/toc.json
+            - name: Töövõtjate arendamine
+              items:
+                - name: Jõudlushalduse ülevaade
+                  href: ../human-resources/hr-develop-performance-management-overview.md?toc=/dynamics365/finance/toc.json
+                - name: Tööjõu oskuste joondamine
+                  href: ../human-resources/hr-develop-skills.md?toc=/dynamics365/finance/toc.json
+                - name: Oma jõudluse töölehele lisamine
+                  href: ../human-resources/hr-develop-add-performance-journal.md?toc=/dynamics365/finance/toc.json
+                - name: Eesmärgi loomine
+                  href: ../human-resources/hr-develop-create-goal.md?toc=/dynamics365/finance/toc.json
+                - name: Jõudluse ülevaate loomine
+                  href: ../human-resources/hr-develop-create-performance-review.md?toc=/dynamics365/finance/toc.json
+            - name: Kursuste loomine
+              items:
+                - name: Koolituskursuste häälestus
+                  href: ../human-resources/hr-learning-courses.md?toc=/dynamics365/finance/toc.json
+                - name: Küsimustike ülevaade
+                  href: ../human-resources/hr-learning-questionnaires.md?toc=/dynamics365/finance/toc.json
+                - name: Küsimustike kujundamine
+                  href: ../human-resources/hr-learning-design-questionnaires.md?toc=/dynamics365/finance/toc.json
+                - name: Küsimustike jaotamine ja kavandamine
+                  href: ../human-resources/hr-learning-distribute-questionnaires.md?toc=/dynamics365/finance/toc.json
+                - name: Küsimustike levitamine ajastamise abil
+                  href: ../human-resources/hr-learning-distribute-questionnaires-scheduling.md?toc=/dynamics365/finance/toc.json
+                - name: Küsimustiku tulemuste kuvamine
+                  href: ../human-resources/hr-learning-evaluate-questionnaire-results.md?toc=/dynamics365/finance/toc.json
+                - name: Küsimustiku tulemuste analüüsimine
+                  href: ../human-resources/hr-learning-analyze-questionnaire-results.md?toc=/dynamics365/finance/toc.json
+                - name: Avatud küsimuse loomine
+                  href: ../human-resources/hr-learning-create-open-ended-question.md?toc=/dynamics365/finance/toc.json
+                - name: Suletud küsimuse loomine
+                  href: ../human-resources/hr-learning-create-closed-ended-question.md?toc=/dynamics365/finance/toc.json
+                - name: Loo sõltuv küsimus
+                  href: ../human-resources/hr-learning-depending-question.md?toc=/dynamics365/finance/toc.json
+            - name: Töökoha ohutus ja nõuetelevastavus (Ameerika Ühendriigid)
+              items:
+                - name: Vormi I-9 kinnitamine
+                  href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-form-i-9-verification.md
+                - name: Töökohale sobivuse kontrollimine vormil I-9
+                  href: ../fin-ops-core/fin-ops/hr/localizations/tasks/employment-verification-i9-verification.md
+                - name: Vormi I-9 dokumenditüüpide häälestus
+                  href: ../fin-ops-core/fin-ops/hr/localizations/tasks/set-up-i9-document-types.md
+                - name: Ameerika võimetusakti järgimine
+                  href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-comply-ada.md
+                - name: Töötajate majutuse haldamine
+                  href: ../fin-ops-core/fin-ops/hr/localizations/tasks/manage-worker-accommodations.md
         - name: Aruandlus ja Power BI integratsioonid
           items:
             - name: Aruandlus ja analüüs rakendusega Power BI
@@ -3699,8 +3397,6 @@
           items:
             - name: Elektroonilise aruandluse ülevaade
               href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md?toc=/dynamics365/finance/toc.json
-            - name: Elektroonilise aruandluse komponendid
-              href: ../fin-ops-core/dev-itpro/analytics/er-overview-components.md?toc=/dynamics365/finance/toc.json
             - name: Konfiguratsioonid
               items:
                 - name: Konfiguratsioonide loomine
@@ -3745,12 +3441,6 @@
               items:
                 - name: Valemi keel
                   href: ../fin-ops-core/dev-itpro/analytics/er-formula-language.md?toc=/dynamics365/finance/toc.json
-                - name: ER-valemite toetatud andmetüübid
-                  items:
-                    - name: Primitiivsed andmetüübid
-                      href: ../fin-ops-core/dev-itpro/analytics/er-formula-supported-data-types-primitive.md?toc=/dynamics365/finance/toc.json
-                    - name: Liitandmetüübid
-                      href: ../fin-ops-core/dev-itpro/analytics/er-formula-supported-data-types-composite.md?toc=/dynamics365/finance/toc.json
                 - name: Funktsioonid
                   items:
                     - name: Konteiner
@@ -3765,8 +3455,6 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-datetime.md?toc=/dynamics365/finance/toc.json
                         - name: AddDays
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-adddays.md?toc=/dynamics365/finance/toc.json
-                        - name: ChangeTimeZone
-                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-changetimezone.md?toc=/dynamics365/finance/toc.json
                         - name: DateFormat
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-dateformat.md?toc=/dynamics365/finance/toc.json
                         - name: DateTimeFormat
@@ -3793,9 +3481,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessiontoday.md?toc=/dynamics365/finance/toc.json
                         - name: Today
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-today.md?toc=/dynamics365/finance/toc.json
-                        - name: WeekNum
-                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-weeknum.md?toc=/dynamics365/finance/toc.json
-                    - name: List
+                    - name: Loend
                       items:
                         - name: Loendi funktsioonid
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-list.md?toc=/dynamics365/finance/toc.json
@@ -3889,20 +3575,18 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-record-emptyrecord.md?toc=/dynamics365/finance/toc.json
                         - name: NullContainer
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-record-nullcontainer.md?toc=/dynamics365/finance/toc.json
-                    - name: Text
+                    - name: Tekst
                       items:
                         - name: Tekstifunktsioonid
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-text.md?toc=/dynamics365/finance/toc.json
                         - name: Char
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-char.md?toc=/dynamics365/finance/toc.json
-                        - name: Concatenate
+                        - name: Ühenda
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-concatenate.md?toc=/dynamics365/finance/toc.json
-                        - name: Format
+                        - name: Vorming
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-format.md?toc=/dynamics365/finance/toc.json
                         - name: GetEnumValueByName
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-getenumvaluebyname.md?toc=/dynamics365/finance/toc.json
-                        - name: GetLabelText
-                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-getlabeltext.md?toc=/dynamics365/finance/toc.json
                         - name: GuidValue
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-guidvalue.md?toc=/dynamics365/finance/toc.json
                         - name: JsonValue
@@ -3915,8 +3599,6 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-lower.md?toc=/dynamics365/finance/toc.json
                         - name: Mid
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-mid.md?toc=/dynamics365/finance/toc.json
-                        - name: NewGUID
-                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-newguid.md?toc=/dynamics365/finance/toc.json
                         - name: NumberFormat
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-numberformat.md?toc=/dynamics365/finance/toc.json
                         - name: NumeralsToText
@@ -4023,12 +3705,12 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-text.md?toc=/dynamics365/finance/toc.json
             - name: ER-vormingute kujundamine väljaminevate dokumentide loomiseks eri vormingutes
               items:
-                - name: OPENXML-vormingus aruannete loomiseks konfiguratsiooni koostamine
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/dynamics365/finance/toc.json
                 - name: Konfiguratsioonide kujundamine väljaminevate dokumentide loomiseks Exceli vormingus
                   items:
                     - name: Konfiguratsiooni kujundamine dokumentide loomiseks Exceli vormingus
                       href: ../fin-ops-core/dev-itpro/analytics/er-fillable-excel.md?toc=/dynamics365/finance/toc.json
+                    - name: OPENXML-vormingus aruannete loomise näide
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/dynamics365/finance/toc.json
                     - name: ER-vormingute muutmine Exceli malle uuesti rakendades
                       href: ../fin-ops-core/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/dynamics365/finance/toc.json
                     - name: Dünaamiline veergude lisamine Exceli aruannetesse horisontaalselt laiendatavate vahemikena
@@ -4037,8 +3719,6 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/dynamics365/finance/toc.json
                         - name: Vormingute käitamine dünaamiliseks veergude lisamiseks Exceli aruannetesse
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/dynamics365/finance/toc.json
-                    - name: ER-vormingu kujundamine Excelis genereeritud dokumentide lehekülgjaotuseks
-                      href: ../fin-ops-core/dev-itpro/analytics/er-paginate-excel-reports.md?toc=/dynamics365/finance/toc.json
                 - name: Konfiguratsioonide loomine Wordi vormingus aruannete loomiseks
                   items:
                     - name: Uue ER-i konfiguratsiooni koostamine Wordi vormingus aruannete loomiseks
@@ -4061,8 +3741,6 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/dynamics365/finance/toc.json
                         - name: Aruannete loomine Office’i vormingutes koos manustatud piltidega
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/dynamics365/finance/toc.json
-                    - name: Elektroonilise aruandluse vormingu kujundamine aruande genereerimiseks Excelis koos manustatud piltidega lehe päistes või jalustes
-                      href: ../fin-ops-core/dev-itpro/analytics/er-embed-images-header-footer-excel-reports.md?toc=/dynamics365/finance/toc.json
                 - name: Loodud XML-failide tükeldamine failimahu ja sisukoguse alusel
                   href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/finance/toc.json
                 - name: Koosluse märkide peitmine loodud failides
@@ -4089,8 +3767,6 @@
                   items:
                     - name: Konfiguratsioonide loomine andmete importimiseks välisest XML-failist
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-required-configurations-import-data.md?toc=/dynamics365/finance/toc.json
-                    - name: Partiirežiimis käsitsi valitud failidest andmete importimine
-                      href: ../fin-ops-core/dev-itpro/analytics/er-configure-data-import-batch.md?toc=/dynamics365/finance/toc.json
                 - name: Rakenduses SharePoint asuvatest failidest partiirežiimis andmete importimise konfigureerimine
                   href: ../fin-ops-core/dev-itpro/analytics/er-configure-data-import-sharepoint.md?toc=/dynamics365/finance/toc.json
                 - name: Failide importimine XML-vormingus
@@ -4113,10 +3789,10 @@
                       href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/finance/toc.json
                     - name: Konfiguratsioonide importimine (LBD)
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/finance/toc.json
-                - name: Regulatory configuration service (RCS)
+                - name: Regulatory service (RCS)
                   items:
-                    - name: Regulatory configuration service'i (RCS) ülevaade
-                      href: localizations/rcs-overview.md?toc=/dynamics365/finance/toc.json
+                    - name: Globaliseerimise funktsioonid RCS-is
+                      href: localizations/rcs-globalization-feature.md?toc=dynamics365/finance/toc.json
                     - name: ER-i konfiguratsioonide allalaadimine rakendusse Finance
                       items:
                         - name: Konfiguratsioonide allalaadimine RCS-ist
@@ -4171,8 +3847,6 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/dynamics365/finance/toc.json
                         - name: Aruannete käivitamine
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/dynamics365/finance/toc.json
-                    - name: Kirjete rühmitamine ning loendamine ja liitmine GROUPBY andmeallikate abil
-                      href: ../fin-ops-core/dev-itpro/analytics/er-groupby-data-sources.md?toc=/dynamics365/finance/toc.json
                     - name: Loodud väljundi andmeallikana kasutamine loendamiseks ja summeerimiseks
                       items:
                         - name: Vormingute loomine
@@ -4195,14 +3869,10 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/dynamics365/finance/toc.json
                         - name: Vormingute muutmine ja käivitamine dokumendihalduse failide kasutamiseks
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/dynamics365/finance/toc.json
-                    - name: VÖÖTKOODI kasutamine vöötkoodi piltide genereerimiseks
-                      href: ../fin-ops-core/dev-itpro/analytics/er-barcode-data-sources.md?toc=/dynamics365/finance/toc.json
-                    - name: Andmeallikate OTSINGU konfigureerimine kasutama ER-i rakendusepõhiseid parameetreid
-                      href: ../fin-ops-core/dev-itpro/analytics/er-lookup-data-sources.md?toc=/dynamics365/finance/toc.json
-                    - name: ANDMEKOGUMI andmeallikate kasutamine ER-vormingutes
-                      href: ../fin-ops-core/dev-itpro/analytics/er-data-collection-data-sources.md?toc=/dynamics365/finance/toc.json
                     - name: Andmeallikate silumine
                       href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/finance/toc.json
+                    - name: VÖÖTKOODI kasutamine vöötkoodi piltide genereerimiseks
+                      href: ../fin-ops-core/dev-itpro/analytics/er-barcode-data-sources.md?toc=/dynamics365/finance/toc.json
                 - name: Mudelivastenduste konfigureerimine
                   items:
                     - name: Riigi kontekstist sõltuva ER-mudeli vastenduste konfigureerimine
@@ -4233,8 +3903,6 @@
                   href: ../fin-ops-core/dev-itpro/analytics/er-components-inspections.md?toc=/dynamics365/finance/toc.json
                 - name: Suhteline tee andmesidemetes
                   href: ../fin-ops-core/dev-itpro/analytics/relative-path-data-bindings-er-models-format.md?toc=/dynamics365/finance/toc.json
-                - name: 'Avaldiste kujundamine, millega kutsuda rakendusklasside meetodeid'
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/design-expressions-app-class-er.md?toc=/dynamics365/finance/toc.json
             - name: ER-lahenduste kasutamine Finance'is
               items:
                 - name: Raamistiku konfigureerimine
@@ -4271,30 +3939,24 @@
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/dynamics365/finance/toc.json
                     - name: Toimingust sõltuvate sihtkohtade konfigureerimine
                       href: ../fin-ops-core/dev-itpro/analytics/er-action-dependent-destinations.md?toc=/dynamics365/finance/toc.json
-                    - name: Prindihalduse kirjepõhise ER-i sihtkoha konfigureerimine
-                      href: ../fin-ops-core/dev-itpro/analytics/er-named-destinations.md?toc=/dynamics365/finance/toc.json
                 - name: ER-vormingu viite häälestamine
                   href: ../fin-ops-core/dev-itpro/analytics/er-extended-format-lookup.md?toc=/dynamics365/finance/toc.json
                 - name: Loodud aruannete automaatne kinnitamine
                   items:
                     - name: Loodud aruandetulemite jälgimine ja nende võrdlemine alusväärtustega
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/dynamics365/finance/toc.json
-                    - name: Loodud ER-aruannete ja võrdluse alusväärtuste abil jälgimise tulemuste täiustused
+                    - name: Loodud ER-aruannete ja võrdluste alusväärtuste abil jälgimise tulemuste täiustused
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/dynamics365/finance/toc.json
                     - name: ER-iga testimise automatiseerimine
                       href: ../fin-ops-core/dev-itpro/analytics/er-automate-testing.md?toc=/dynamics365/finance/toc.json
-                - name: Äriprotsesside automatiseerimine ER-i konfiguratsioone kasutades
+                - name: Äriprotsesside automatiseerimine elektroonilise aruandluse konfiguratsioone kasutades
                   items:
                     - name: ER-i konfigureerimine andmete tõmbamiseks Power BI-sse
                       href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/dynamics365/finance/toc.json
                     - name: Prinditava vabas vormis arve (FTI) vormide loomine
                       href: ../fin-ops-core/dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/dynamics365/finance/toc.json
-                - name: Tõhusate ER-i lahenduste kujundamine
-                  items:
-                    - name: Elektroonilise aruandluse vormingute täitmise jälitamine jõudlusprobleemide tõrkeotsingu tegemiseks
-                      href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/finance/toc.json
-                    - name: ER-i konfiguratsioonide jõudlusprobleemide tõrkeotsing
-                      href: ../fin-ops-core/dev-itpro/analytics/er-troubleshoot-perf-issues-in-configurations.md?toc=/dynamics365/finance/toc.json
+                - name: Elektroonilise aruandluse vormingute täitmise jälitamine jõudlusprobleemide tõrkeotsingu tegemiseks
+                  href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/finance/toc.json
                 - name: Äridokumentide haldus (BDM)
                   items:
                     - name: BDM-i ülevaade
@@ -4319,28 +3981,14 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-11.md?toc=/dynamics365/finance/toc.json
                     - name: Rakenduse värskendus 10.0.17
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-17.md?toc=/dynamics365/finance/toc.json
-                    - name: Rakenduse värskendus 10.0.19
-                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-19.md?toc=/dynamics365/finance/toc.json
-                    - name: Rakenduse värskendus 10.0.21
-                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-21.md?toc=/dynamics365/finance/toc.json
-                    - name: Rakenduse värskendus 10.0.23
-                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-23.md?toc=/dynamics365/finance/toc.json
-                    - name: Rakenduse värskendus 10.0.25
-                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-25.md?toc=/dynamics365/finance/toc.json
                 - name: Loodud dokumentidele kohandatud salvestuskoha määramine
                   items:
                     - name: Sündmuse tellimine tellimuste käitlejalt vastuse taotlemiseks
                       href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/dynamics365/finance/toc.json
                     - name: Elektroonilise aruandluse sihtkoha loomise delegeerimine kohandatud sihttehasesse
                       href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-files.md?toc=/dynamics365/finance/toc.json
-                    - name: Loodud dokumentidele kohandatud sihtkoha juurutamine
-                      href: ../fin-ops-core/dev-itpro/analytics/er-custom-file-destination.md?toc=/dynamics365/finance/toc.json
-                - name: Tüübi USER INPUT PARAMETER andmeallika väärtuste käivitamine lähtekoodist
+                - name: KASUTAJA SISENDPARAMEETRI tüübi andmeallika väärtuste käivitamine lähtekoodist
                   href: ../fin-ops-core/dev-itpro/analytics/er-initiate-uip-data-source-value-from-source-code.md?toc=/dynamics365/finance/toc.json
-                - name: 'Koodi muutmine, et lubada kasutajatel nimega ER-sihtkohti konfigureerida ja kasutada'
-                  href: ../fin-ops-core/dev-itpro/analytics/er-api-named-destinations.md?toc=/dynamics365/finance/toc.json
-                - name: Sissetulevate dokumentide kohandatud ER-allika juurutamine
-                  href: ../fin-ops-core/dev-itpro/analytics/er-custom-file-source.md?toc=/dynamics365/finance/toc.json
         - name: Mobiilirakendus
           items:
             - name: Mobiilirakenduse avaleht
@@ -4356,7 +4004,7 @@
                 - name: Kulude juhtimine
                   href: cost-accounting/cost-controlling-mobile-workspace.md?toc=/dynamics365/finance/toc.json
                 - name: Kulude haldus
-                  href: /dynamics365/project-operations/prod-exp/expense-management-mobile-workspace?toc=%2fdynamics365%2ffinance%2ftoc.json
+                  href: expense-management/expense-management-mobile-workspace.md?toc=/dynamics365/finance/toc.json
                 - name: Vaba kaubavaru
                   href: ../supply-chain/inventory/inventory-on-hand-mobile-workspace.md?toc=/dynamics365/finance/toc.json
                 - name: Arve kinnitamised
@@ -4364,11 +4012,11 @@
                 - name: Minu töörühm
                   href: ../fin-ops-core/dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?toc=/dynamics365/finance/toc.json
                 - name: Projecti mobiilirakenduste ülevaade
-                  href: /dynamics365/project-operations/prod-pma/project-mobile-application-overview?toc=%2fdynamics365%2ffinance%2ftoc.json
+                  href: project-management/project-mobile-application-overview.md?toc=/dynamics365/finance/toc.json
                 - name: Projekti ajakirje
-                  href: /dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace?toc=%2fdynamics365%2ffinance%2ftoc.json
+                  href: project-management/project-time-entry-mobile-workspace.md?toc=/dynamics365/finance/toc.json
                 - name: Project Timesheet
-                  href: /dynamics365/project-operations/prod-pma/project-timesheet?toc=%2fdynamics365%2ffinance%2ftoc.json
+                  href: project-management/project-timesheet.md?toc=/dynamics365/finance/toc.json
                 - name: Ostutellimuse heakskiitmine
                   href: ../supply-chain/procurement/purchase-order-mobile-workspace.md?toc=/dynamics365/finance/toc.json
                 - name: Müügitellimused
@@ -4385,7 +4033,7 @@
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/finance/toc.json
             - name: Üksuse andmete avamine Excelis ja nende värskendamine Exceli lisandmooduliga
               href: ../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/finance/toc.json
-            - name: Excelis avamise kogemuste KKK
+            - name: Excelis avamise kogemuste loomine
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/finance/toc.json
             - name: Exceli menüüsse Ava read mallide lisamine
               href: ../fin-ops-core/dev-itpro/user-interface/add-templates-open-lines-excel-menu.md?toc=/dynamics365/finance/toc.json
@@ -4429,8 +4077,6 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/finance/toc.json
                 - name: Globaalse aadressiraamatu konfigureerimine
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/finance/toc.json
-                - name: Aadressi häälestamine
-                  href: ../fin-ops-core/fin-ops/organization-administration/global-address-book-address-setup.md?toc=/dynamics365/finance/toc.json
                 - name: Aadressiraamatute KKK
                   href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/finance/toc.json
                 - name: Aadressiraamatute konfigureerimine
@@ -4459,8 +4105,6 @@
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-process-workflow.md?toc=/dynamics365/finance/toc.json
                     - name: Kinnitussammude konfigureerimine
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-step-workflow.md?toc=/dynamics365/finance/toc.json
-                    - name: Kulude läbivaatajate konfigureerimine
-                      href: ../fin-ops-core/fin-ops/organization-administration/configure-expenditure-reviewers.md?toc=/dynamics365/finance/toc.json
                     - name: Käsitsi otsuste konfigureerimine
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-decision-workflow.md?toc=/dynamics365/finance/toc.json
                     - name: Tingimuslike otsuste konfigureerimine
@@ -4653,15 +4297,13 @@
               items:
                 - name: Vahetuskursipakkujate loomine
                   href: ../fin-ops-core/dev-itpro/financial/create-exchange-rate-providers.md
-                - name: Vahetuskursipakkujate loomine Rahanduse ja toimingute versioonis 8.0
+                - name: Vahetuskursipakkujate loomine Finance and Operationsi versioonis 8.0
                   href: ../fin-ops-core/dev-itpro/financial/create-exchange-rate-8.md
             - name: 'Kannete tasakaalustamine CustTrans::settleTransactioni abil'
               href: ../fin-ops-core/dev-itpro/financial/settletransact-obsolete.md
-    - name: Finantside ja toimingute rakenduste juurutamine ja haldamine
+    - name: Finance and Operationsi rakenduste juurutamine ja haldamine
       href: ../fin-ops-core/dev-itpro/index.md
     - name: Dynamics 365 Supply Chain Management
       href: ../supply-chain/index.md
     - name: Dynamics 365 Commerce
       href: ../commerce/index.md
-    - name: Dynamics 365 Human Resources
-      href: ../human-resources/index.md

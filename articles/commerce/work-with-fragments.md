@@ -2,35 +2,30 @@
 title: Fragmentidega töötamine
 description: Selles teemas kirjeldatakse, miks, millal ja kuidas kasutada fragmente rakenduses Microsoft Dynamics 365 Commerce.
 author: phinneyridge
-manager: annbe
 ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f1525610fb16edd5ff9ccefe0194f6f27b797b62
-ms.sourcegitcommit: 1a12b42cc17f004a981c716aed3da6cf538475a5
+ms.openlocfilehash: 1fa55ab83562983273768895db61032ec7199fa6
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4411802"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5793941"
 ---
 # <a name="work-with-fragments"></a>Fragmentidega töötamine 
 
 [!include [banner](includes/banner.md)]
 
 Selles teemas kirjeldatakse, miks, millal ja kuidas kasutada fragmente rakenduses Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Ülevaade
 
 Fragmendid tagavad tsentraliseeritud loomiskogemuse mooduli konfiguratsioonidele, mida tuleb kogu saidil uuesti kasutada. Näiteks päiseid, jaluseid ja ribareklaame konfigureeritakse sageli fragmentidena, kuna neid jagatakse paljude lehtede vahel. Mõelge fragmentidest kui miniatuursetest veebisaitidest, mida saab sisestada teie saidi teistele lehtedele. Fragmentidel on oma elutsükkel. Teisisõnu need luuakse, neile viidatakse, neid värskendatakse ja need kustutatakse loomistööriistade sõltumatute üksustena.
 
@@ -136,3 +131,6 @@ Saate fragmenti redigeerida ka nii, et valite selle lehelt, mallist või ülemfr
 [Eelmääratud paigutustega töötamine](work-with-layouts.md)
 
 [Avaldamisrühmadega töötamine](publish-groups.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

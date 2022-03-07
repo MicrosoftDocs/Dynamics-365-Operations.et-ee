@@ -10,7 +10,6 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -18,17 +17,16 @@ ms.search.industry: Retail
 ms.author: gmohanv
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 40c20bf13779f73289e43df21b763e1b864686a7
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 36dd3e8a3d47f02eed5b9c8bb79d773d98069376
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4530193"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5254837"
 ---
 # <a name="configure-sales-tax-for-online-orders"></a>Käibemaksu konfigureerimine veebitellimuste jaoks
 
-[!include [banner](../includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
+[!include [banner](includes/banner.md)]
 
 Selles teemas antakse ülevaade käibemaksugrupi valikust erinevate veebitellimuse tüüpide puhul. 
 
@@ -83,3 +81,6 @@ Kauplusesse järgi tulemise või tellimuse peale võtmise tellimuseridade puhul 
 
 [Maksuvabastuse arvutamine](tax-exempt-price-inclusive.md) 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

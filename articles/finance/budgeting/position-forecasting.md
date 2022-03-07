@@ -1,29 +1,26 @@
 ---
 title: Ametikoha prognoosimine
 description: Töötajatega seotud kulud moodustavad tihti suure osa organisatsiooni kuludest. Ametikoha prognoosimine võimaldab teil neid kulusid planeerida ja kaasata need eelaarvete planeerimisse.
-author: ShylaThompson
-manager: AnnBe
+author: panolte
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmPositionForecast
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 64413
 ms.assetid: 35e791d2-1905-4808-a579-7f181ddddd91
 ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d5bae90cf7c8f11fa5409014023d36cc68ae1bd0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: d43d0f92e666dd512fc6f2681aa8c7b6446edd5c
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442405"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7595482"
 ---
 # <a name="position-forecasting"></a>Ametikoha prognoosimine
 
@@ -33,7 +30,7 @@ Töötajatega seotud kulud moodustavad tihti suure osa organisatsiooni kuludest.
 
 ## <a name="position-forecasting-in-budget-planning"></a>Ametikoha prognoosimine eelarve planeerimisel
 
-[![Ametikoha prognoosimise komponendid](./media/graphic-top.png)](./media/graphic-top.png) 
+[![Ametikoha prognoosimise komponendid.](./media/graphic-top.png)](./media/graphic-top.png) 
 
 Ametikoha prognoosimine kasutab kolme põhikomponenti, et anda ametikoha kulude kohta täpsed eelarvesummad. Need summad saab siis tuua eelarveplaani eelarve arvutamiseks. 
 
@@ -45,14 +42,14 @@ Esmane komponent on **prognoositav ametikoht**, mis esindab kõiki ühe ametikoh
 
 ### <a name="position-forecasting-processes"></a>Ametikoha prognoosimise protsessid
 
-[![Ametikoha prognoosimise protsessi joonis](./media/graphic1b.png)](./media/graphic1b.png) 
+[![Ametikoha prognoosimise protsessi joonis.](./media/graphic1b.png)](./media/graphic1b.png) 
 
 Tavapärase ametikoha prognoosimise protsessis loote esmalt häälestuskomponendid (eelarve kuluelemendid ja hüvitusgrupid). Seejärel luuakse olemasolevate ametikohtade alusel prognoositavad ametikohad. Seejärel saate korrigeerida. Näiteks saate ametikohti lisada või lõpetada, muuta tasumäärasid ja soodustusi ning lisada palgatõuse. Saate luua prognoositavast ametikohast mitu versiooni, et lihtsustada erinevate eelarve koostamise stsenaariumide võrdlemist. Seejärel saate lisada prognoositavad ametikohad eelarveplaanidesse ja tuua sisse prognoostavate ametikohtade kulud eelarveplaani ridadena.
 
 Eelarveplaanide läbivaatusel saate luua täiendavaid prognoositava ametikoha versioone. Uued versioonid on paranduste aluseks.
 
 ## <a name="position-forecasting-setup"></a>Ametikoha prognoosimise häälestamine
-[![Esiletõstmise häälestuse kujutis](./media/graphic2-1024x327.png)](./media/graphic2.png)
+[![Esiletõstmise häälestuse kujutis.](./media/graphic2-1024x327.png)](./media/graphic2.png)
 
 ### <a name="budget-cost-elements"></a>Eelarve kuluelemendid
 
@@ -70,9 +67,9 @@ Jodi organisatsioon pakub koolitushüvitist, mis on 5% töötaja põhipalgast. J
 
 Jodi ei soovi, et haldurid soodustuse summat muudaksid. Seetõttu valib ta suvandi **Ära luba kulu muuta** väljal **Prognoositava ametikoha alistamine**. Organisatsioon soovib, et seda kulu määrataks iga kuu kohta võrdselt. Seetõttu valib Jodi suvandi **Kord kvartalis** väljal **Eraldamismeetod**. 
 
-järgmisena lisab Jodi kulu arvutamise rea, määrab kuupäevad ja põhikonto ning sisestab protsendiks **5,00**. Tema organisatsioonil on selle soodustuse jaoks aastas 5000 USA dollarit katet. Seetõttu sisestab Jodi selle summa aastalimiidiks. 
+järgmisena lisab Jodi kulu arvutamise rea, määrab kuupäevad ja põhikonto ning sisestab protsendiks **5,00**. Organisatsioonil on selle soodustuse ülemmääraks aastas 5000 USA dollarit. Seetõttu sisestab Jodi selle summa aastalimiidiks. 
 
-Lõpuks lisab Jodi kõik tulu kuluelemendid, mida kasutatakse põhipalga puhul arvutamise alusena. Tema eelarve kuluelement on nüüd kasutamiseks valmis.
+Lõpuks lisab Jodi kõik tulu kuluelemendid, mida kasutatakse põhipalga puhul arvutamise alusena. Eelarve kuluelement on nüüd kasutamiseks valmis.
 
 ### <a name="compensation-groups"></a>Hüvitusgrupid
 
@@ -89,7 +86,7 @@ Hüvitusgrupi välju **Tõusu graafik** ja **Tõusu kuupäev** kasutatakse, kui 
 Hüvitusgrupis valitud tulu kuluelementi kasutatakse grupi prognoositavate ametikohtade tulude loomisel, sh nende põhipalk ja mis tahes etapi tõusud. Väli **Hüvituse fikseeritud plaan** seob inimressurssides hüvitusgrupi põhipalgaplaaniga. See seos võib määrata prognoositavale ametikohale töötaja põhipalgateabe ja saab seega muuta eelarve planeerimise täpsemaks. Pidage meeles, et hüvitusgrupi hüvitusruudustiku struktuur (tasemed ja etapid) peavad sobima põhipalgaplaani struktuuriga. Muidu ei saa süsteem hüvitusgruppi ja põhipalgaplaani õigesti siduda.
 
 ## <a name="creating-forecast-positions"></a>Prognoositavate ametikohtade loomine
-[![Prognoositavate ametikohtade loomise esiletõstu joonis](./media/graphic3-1024x327.png)](./media/graphic3.png)
+[![Prognoositavate ametikohtade "loomise esiletõstu joonis."](./media/graphic3-1024x327.png)](./media/graphic3.png)
 
 ### <a name="creating-forecast-positions-for-existing-positions"></a>Olemasolevatele ametikohtadele prognoositavate ametikohtade loomine
 
@@ -118,7 +115,7 @@ Kui prognoositav ametikoht on valitud, valige suvand **Kopeeri valitud prognoosi
 Saate luua ka täiesti uue prognoositava ametikoha. Valige olemasolev töö, eelarve plaanimise protsess ja eelarveplaani stsenaarium. Seejärel saate lisada mis tahes muud soovitud üksikasjad. Tuletame veel kord meelde, et samal ajal luuakse jaotises Inimressursid uus ametikoht.
 
 ## <a name="working-with-forecast-positions"></a>Prognoositavate ametikohtadega töötamine
-[![Prognoositavate ametikohtade muutmise esiletõstu joonis](./media/graphic5-1024x327.png)](./media/graphic5.png)
+[!["Prognoositavate ametikohtade muutmise" esiletõstu joonis.](./media/graphic5-1024x327.png)](./media/graphic5.png)
 
 ### <a name="multiple-versions-of-a-forecast-position"></a>Prognoositava ametikoha mitu versiooni
 
@@ -140,7 +137,7 @@ Eelarve kuluelemendi read tuleb uuesti arvutada, kui prognoositava ametikoha puh
 
 **Näide** 
 
-Organisatsioon kaalub raamatupidaja ametikoha kulude vähendamiseks kahte võimalust. Üks võimalus on lõpetada amerikoht mingiks osaks aastast. Teine võimalus on muuta ametikoht kogu aastaks osalise tööajaga ametikohaks. Brad lõi põhistseanaariumis olemasolevale raamatupidaja ametikohale prognoositava ametikoha. Ta kopeerib selle põhilise prognoositava ametikoha stsenaariumisse A, määrab lõpetamise kuupäevaks 31. mai ja arvutab uuesti. Seejärel kopeerib Brad põhilise prognoositava ametikoha stsenaaiumisse B, muudab FTE väärtuseks **0,50** ja arvutab siis uuesti. Bradil on nüüd kolm versiooni, millest igaühel on kulude kogusummad, mis on tema võimalustega joondatud.
+Organisatsioon kaalub raamatupidaja ametikoha kulude vähendamiseks kahte võimalust. Üks võimalus on lõpetada amerikoht mingiks osaks aastast. Teine võimalus on muuta ametikoht kogu aastaks osalise tööajaga ametikohaks. Brad lõi põhistseanaariumis olemasolevale raamatupidaja ametikohale prognoositava ametikoha. Brad kopeerib selle põhilise prognoositava ametikoha stsenaariumisse A, määrab lõpetamise kuupäevaks 31. mai ja arvutab uuesti. Seejärel kopeerib Brad põhilise prognoositava ametikoha stsenaaiumisse B, muudab FTE väärtuseks **0,50** ja arvutab siis uuesti. Bradil on nüüd kolm versiooni, millest igaühel on kulude kogusummad, mis on tema võimalustega joondatud.
 
 #### <a name="assigning-a-compensation-group"></a>Hüvitusgrupi määramine
 
@@ -174,7 +171,7 @@ Valides prognoositava ametikoha ja klõpsates siis suvandit **Hulgivärskendamin
 
 ## <a name="bringing-forecast-positions-into-budget-plans"></a>Prognoositavate ametikohtade toomine eelarveplaanidesse
 
-[![Eelarve lisamise esiletõstu kujutis](./media/graphic6-1024x327.png)](./media/graphic6.png)
+[!["Eelarve plaani lisamise" esiletõstu kujutis.](./media/graphic6-1024x327.png)](./media/graphic6.png)
 
 Prognoositavate ametikohtade loomise ja muutmise eesmärk on lisada need eelarveplaanidele, nii et eelarveplaanid kaasaksid kõige täpsemaid eelarvesummasid. Prognoositavate ametikohtade lisamiseks eelarveplaanidesse on kaks järgmist viisi. Saate kasutada eelarveplaanis kas loomise protsessi või valikuprotsessi.
 
@@ -218,3 +215,6 @@ Nägemaks, millistesse eelarveplaanidesse prognoositav ametikoht kaasatud on, sa
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

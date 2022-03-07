@@ -1,34 +1,32 @@
 ---
 title: Väärtusmudelite seadistamine
 description: See protseduur näitab, kuidas luua uut põhivara raamatut ja seostada seda põhivaragrupiga.
-author: saraschi2
-manager: AnnBe
-ms.date: 08/29/2018
+author: moaamer
+ms.date: 08/12/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetBookTable, AssetGroupBookSetup
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a59bafe3099b50d34bdd9e125cfb7f43d219dcc6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 46c26e5fad3c5c60d87c2fea2b29043c69b82b5d
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442427"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344654"
 ---
 # <a name="set-up-value-models"></a>Väärtusmudelite seadistamine
 
 [!include [banner](../../includes/banner.md)]
+[!include [preview banner](../../includes/preview-banner.md)]
+
 
 See protseduur näitab, kuidas luua uut põhivara raamatut ja seostada seda põhivaragrupiga. See kasutab USMF-i juriidilise isiku puhul raamatupidaja rolli ja demoandmeid.
-
 
 ## <a name="create-a-book"></a>Raamatu loomine
 1. Avage Põhivarad > Seadistus > Raamatud.
@@ -51,6 +49,10 @@ See protseduur näitab, kuidas luua uut põhivara raamatut ja seostada seda põh
 1. Klõpsake suvandit Põhivaragrupid.
 2. Sisestage väärtus väljale Põhivara grupp või valige sellelt väljalt.
 3. Sisestage number väljale Kasutusiga.
-    * Pange tähele, et väärtus Kulumiperioodid arvutatakse pärast kasutusea seadistamist.  
-    * Kulumiarvestusreeglit saab maksuarvestuse jaoks vajalikul viisil seadistada.  
 
+  - Kulumiperioodid arvutatakse pärast vara tööea sisestamist.  
+  - Kulumiarvestusreeglit saab maksuarvestuse jaoks vajalikul viisil seadistada.
+  - Rendiga seostud põhivarade puhul alistatakse välja **Kasutusiga** väärtus vararaamatu või vara kasulikus tööeas toodud rendiperioodi vähima väärtuse poolt. Kui välja **Omandiõiguse üleminek** väärtuseks on rendiraamatu puhul määratud **Jah**, on välja **Kasutusiga** väärtus alati vara kasulik tööiga.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

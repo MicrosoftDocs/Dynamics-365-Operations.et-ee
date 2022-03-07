@@ -2,26 +2,23 @@
 title: ISO20022-failide importimine
 description: Selles teemas selgitatakse ISO 20022 camt.054- ja pain.002-vormingus maksefailide importimist rakendusse Microsoft Dynamics 365 Finance.
 author: neserovleo
-manager: AnnBe
 ms.date: 07/27/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustPaymMode, CustBankAccounts, VendPaymMode, VendBankAccounts
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Italy, Latvia, Lithuania, Norway, Poland, Spain, Sweden, Switzerland, United Kingdom
 ms.author: v-lenest
 ms.search.validFrom: 2017-06-01
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: b809ba8d92772d8f3f416d4854d4af322e6f954a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0df3f840162cf93c9e9f5f34a22e8b49171ea71f
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407845"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5891157"
 ---
 # <a name="import-iso20022-files"></a>ISO20022-failide importimine
 
@@ -117,7 +114,7 @@ LCS-ist vormingu konfiguratsiooni importimisel impordite kogu konfiguratsioonipu
  - **Pain.002** – seda vormingut kasutatakse koos makse mudeli vastendamisega sihtkohta ISO20022, et importida pain.002-fail hankija makseülekannete töölehele
  - **Camt.054** – seda vormingut kasutatakse koos makse mudeli vastendamisega sihtkohta ISO20022, et importida camt.054-fail hankija makseülekannete töölehele Sama vormingukonfiguratsiooni kasutatakse kliendimaksete impordi funktsiooni puhul, kuid konfiguratsiooni Maksemudeli vastendamine sihtkohta ISO20022 puhul kasutatakse teistsugust vastendamist.
 
-Elektroonilise aruandluse kohta lisateabe saamiseks vaadake teemat [Elektroonilise aruandluse ülevaade](../../dev-itpro/analytics/general-electronic-reporting.md).
+Elektroonilise aruandluse kohta lisateabe saamiseks vaadake teemat [Elektroonilise aruandluse ülevaade](../../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md).
 
 ## <a name="additional-resources"></a>Lisaressursid
 - [Hankijamaksete loomine ja eksportimine ISO20022 maksevormingu abil](./tasks/create-export-vendor-payments-iso20022-payment-format.md)
@@ -129,3 +126,6 @@ Elektroonilise aruandluse kohta lisateabe saamiseks vaadake teemat [Elektroonili
 - [Makseviisi seadistamine ISO20022 kreeditkorralduse jaoks](./tasks/set-up-method-payment-iso20022-credit-transfer.md)
 - [Makseviisi seadistamine ISO20022 otsekorralduse puhul](./tasks/setup-method-payment-iso20022-direct-debit.md)
 - [Hankijate ja hankija pangakontode seadistamine ISO20022 kreeditkorralduste jaoks](./tasks/set-up-vendor-iso20022-credit-transfers.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

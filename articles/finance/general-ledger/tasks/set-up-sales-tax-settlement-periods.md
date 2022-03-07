@@ -2,26 +2,23 @@
 title: Käibemaksu tasakaalustusperioodide seadistamine
 description: Selles teemas selgitatakse, kuidas seadistada käibemaksu tasakaalustusperioode rakenduses Dynamics 365 Finance.
 author: twheeloc
-manager: AnnBe
 ms.date: 08/05/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxPeriod
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e5068c121e921c1586dc6ae003c0021bf41d2254
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 1f57cd2b5b0f8f86d67500086403c5f484a263f76601453c00f59ede901b01a8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442371"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6732953"
 ---
 # <a name="set-up-sales-tax-settlement-periods"></a>Käibemaksu tasakaalustusperioodide seadistamine
 
@@ -40,9 +37,7 @@ See ülesanne kasutab demoettevõtte USMF andmeid.
 7. Valige väljas **Maksetingimused** soovitud kirje rippmenüüst. Seotud käibemaksuhalduri saab seadistada kui hankija ja käibemaksu tasakaalustus loob avatud hankija arve. Maksetingimused määratlevad avatud hankija arve maksetähtaja.  
 8. Valige tasakaalustusperioodi vahemike tüüp.
 9. Sisestage perioodivahemiku ühikute arv perioodi kohta. Näiteks kvartalis on 3 kuud.
-10. Märkige või tühjendage ruut **Kasuta käibemaksu tasakaalustamiseks pakktöötlust**. Tasakaalustusperioodi tasakaalustusprotsessi saab töödelda taustal pakett-tööna. See on soovitatav suure hulga maksukannete puhul kuupäevavahemiku jooksul.  
-    > [!NOTE]
-    > Praegu puudub selle tugi Hispaanias, Jaapanis ja Hollandis.
+10. Märkige või tühjendage ruut **Kasuta käibemaksu tasakaalustamiseks pakktöötlust**. Tasakaalustusperioodi tasakaalustusprotsessi saab töödelda taustal pakett-tööna. See on soovitatav suure hulga maksukannete puhul kuupäevavahemiku jooksul.
 11. Märkige või tühjendage märkeruut **Vastasmaksukannete loomise ennetamine**. Süsteem loob tasakaalustusprotsessi ajal vaikimisi vastasmaksukandeid, mis põhjustavad jõudlusprobleeme, kui perioodivahemikul on suur hulk maksukandeid. Märkige see märkeruut, et vältida vastasmaksukannete loomist.
 12. Laiendage vahekaarti **Perioodivahemikud**.
 13. Valige **Lisa**.
@@ -51,3 +46,6 @@ See ülesanne kasutab demoettevõtte USMF andmeid.
 16. Valige **Uus perioodivahemik**. Kui esimene perioodivahemik on sisestatud, saab uusi perioode luua automaatselt. Vajaduse korral saate naasta ja uusi perioodivahemikke lisada.  
 17. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

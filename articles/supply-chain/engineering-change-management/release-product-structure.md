@@ -2,11 +2,9 @@
 title: Toote struktuuride vabastamine
 description: Selles teemas selgitatakse, kuidas saate vabastada lõpptoote struktuurid lisaks toodete vabastamisele koos nende tehniliste versioonidega. Sel viisil saate tagada, et tehnilise poolega seotud tooteandmeid saab hõlpsasti kasutada erinevates juriidilistes isikutes.
 author: t-benebo
-manager: tfehr
 ms.date: 09/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EngChgProductReleaseSiteBulkEdit, EngChgProductReleaseSendListPage, EngChgProductReleaseSendDetails,EngChgProductReleaseSelection,EngChgProductReleaseReceiveListPage, EngChgProductReleaseReceiveDetails, EngChgProductReleasePreviewPane, EngChgProductReleasePolicy, EngChgProductReleasePart, EngChgProductReleaseNote
 audience: Application User
@@ -14,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
-ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 971ff16b862a48581365523edc6b64052b29c380
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.dyn365.ops.version: 10.0.15
+ms.openlocfilehash: 4dc1b073350044ef8afb765470ed14da88a70fdd
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4967227"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7567483"
 ---
 # <a name="release-product-structures"></a>Toote struktuuride vabastamine
 
@@ -77,8 +75,6 @@ Lisateavet toote kinnitamise kohta vaadake teemast [Toote ülevaatamine ja kinni
 
 Kõik operatiivettevõtted ei vaja samu toote andmeid. Üldiselt nõuavad tehnilisi tooteid tootvad operatiivettevõtted kooslusi, samas kui operatiivettevõte, mis tehnilisi tooteid ainult müüb, kooslusi ei vaja. Saate kasutada väljastamispoliitikaid, et luua parameetreid, mida kasutatakse toodete väljastamiseks.
 
-Tehniliste toodete väljastamispoliitika on määratud tehniliste toodete kategoorias ja väli on kohustuslik. Standardsete toodete puhul määratakse poliitika jagatud tootele ja väli on valikuline.
-
 Lisateavet tehniliste toodete kategooriate kohta leiate teemast [Tehnilised versioonid ja tehniliste toodete kategooriad](engineering-versions-product-category.md).
 
 Väljastamisprotsessi ajal saate sätteid mõjutada.
@@ -107,6 +103,7 @@ Seadistage toote väljastamispoliitika **Üldine** FastTab-is järgmised seaded.
 | Field | Kirjeldus |
 |---|---|
 | Toote tüüp | Valige, kas poliitika rakendub *kauba* või *teenuse* tüübi toodetele. Pärast kirje salvestamist ei saa seda sätet muuta. |
+| Tootmise tüüp | See valik kuvatakse ainult siis, kui olete süsteemis lubanud [valemi muutmise halduse](manage-formula-changes.md). Valige tootmise tüüp, mille suhtes see tehnika tootekategooria kehtib:<ul><li>**Kaastoode** – kasutage seda väljalaske poliitikat kaastoodete haldamiseks. Kaastooted toodetakse protsessi tootmise ajal ja neid ei ole versioonitud ega tehnika tooteid. Kaastoodete vabastuspoliitikad aitavad kindlustada oluliste sätete nagu **Laoala dimensioonigrupi** ja **Jälgimisdimensiooni grupi** häälestamist väljastatud tootemalli abil, enne kui need ettevõttele lastakse.</li><li>**Kaastoode** – kasutage seda väljalaske poliitikat kaastoodete haldamiseks. Kaastooted toodetakse protsessi tootmise ajal ja neid ei ole versioonitud ega tehnika tooteid. Kaastoodete vabastuspoliitikad aitavad kindlustada oluliste sätete nagu **Laoala dimensioonigrupi** ja **Jälgimisdimensiooni grupi** häälestamist väljastatud tootemalli abil, enne kui need ettevõttele lastakse.</li><li>**Pole** – kasutage seda poliitikat standardsete toodete haldamiseks, mis pole versioonitud või tehnikatooted, kaastooted või by-tooted.</li><li>**Kauba plaanimine** - Kasutage seda väljalaskepoliitikat protsessi tootmise abil toodetud kaupade plaanimise haldamiseks. Plaanimisüksused kasutavad valemeid. Need sarnanevad valemiüksustega, kuid neid kasutatakse ainult kaastoodete ja kaastoodete tootmiseks, lõpetamata toodete tootmiseks.</li><li>**Koostis** - Kasutage seda tehnika kategooriat, et hallata tehnika tooteid, mis ei kasuta valemeid ja sisaldavad tavaliselt (kuid mitte tingimata) koostises.</li><li>**Valem** - Kasutage seda väljalaskepoliitikat protsessi tootmise abil toodetud kaupade plaanimise haldamiseks. Nendel üksustel on valem, kuid mitte BOM.</li></ul> |
 | Rakenda mallid | Valige üks järgmistest suvanditest, et määrata, kas ja kuidas tuleks poliitika kasutamise toote väljastamise malle rakendada:<ul><li>**Alati** – Väljastamiseks tuleb alati kasutada väljastatud toote malli. Kui valite selle suvandi, kasutage **Kõikide toodete** FastTab-i, et määrata mall, mida kasutatakse iga ettevõtte puhul, millele te väljastate. Kui te ei määra iga ettevõtte jaoks malli, mis on loetletud **Kõikide toodete** FastTab-is, kuvatakse tõrge, kui püüate poliitikat salvestada.</li><li>**Valikuline** – Kui väljastatud toote mall on määratud ettevõttele, mis on loetletud **Kõikide toodete** FastTab-is, kasutatakse seda malli sellele ettevõttele väljastamisel. Muul juhul malli ei kasutata. Selle suvandi valimisel saate poliitika salvestada kõikidele ettevõtetele malle määramata. (Hoiatust ei kuvata.)</li><li>**Mitte kunagi** – Väljastatud toote malli ei kasutata mitte ühegi ettevõtte puhul, kellele väljastatakse, isegi mitte siis, kui mall on määratud ettevõttele, mis on loetletud **Kõikide toodete** FastTab-is. Malli veerud ei ole saadaval.</li></ul> |
 | Aktiivne | Kasutage seda suvandit, et aidata säilitada väljastamispoliitikaid. Seadistage see kõigi kasutatavate väljastamispoliitikate puhul valikule *Jah*. Seadistage see valikule *Ei*, et tähistada väljastamispoliitikat passiivsena, kui seda ei kasutata. Võtke arvesse, et te ei saa aktiveerida väljastamispoliitikat, mis on määratud tehniliste toodete kategooriale, ja saate kustutada ainult passiivse väljastamispoliitika. |
 
@@ -159,3 +156,6 @@ Selline käitumine rakendub ainult siis, kui toode on otseselt väljastamiseks v
 Näiteks toode X on määratud *Disainkappide* toote omaniku grupile. Toode X on ühtlasi osa toote Y kooslusest, mis on määratud *Disainkõlarid* toote omaniku grupile. Kui tooteomaniku grupi *Disainkõlarid* kasutaja väljastab toote Y ja selle koosluse, väljastatakse toode X koos tootega Y.
 
 Lisateavet vt jaotisest [Toote omanikud](product-owner.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

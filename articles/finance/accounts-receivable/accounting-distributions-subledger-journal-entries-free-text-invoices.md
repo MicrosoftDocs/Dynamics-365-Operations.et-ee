@@ -1,38 +1,34 @@
 ---
-title: Arvestuse jaotused ja alammooduli töölehe kirjed vabas vormis arvete puhul
+title: Arvestuse jaotused ja töölehekirjed vabas vormis arvete puhul
 description: Arvestuse jaotused määratlevad, kuidas summat arvestatakse, näiteks tulu, maksude või tasude arvestamisel vabas vormis arvel. Igal summal, mida tuleb vabas vormis arve töölehele kandmisel arvestada, on üks või mitu arvestuse jaotust.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustFreeInvoice
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 3141
 ms.assetid: fecd17a2-d7b4-4a20-ac81-eb71abbfa9d1
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 515d0a9c35507fad04b776e1f0b6225ac5a162d3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: da1d1b41c4da1fafcf20246022c4020b60152917f5df85f8e003e23aaef9433c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442214"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6728933"
 ---
-# <a name="accounting-distributions-and-subledger-journal-entries-for-free-text-invoices"></a>Arvestuse jaotused ja alammooduli töölehe kirjed vabas vormis arvete puhul
+# <a name="accounting-distributions-and-subledger-entries-for-free-text-invoices"></a>Arvestuse jaotused ja alammooduli kirjed vabas vormis arvete puhul
 
 [!include [banner](../includes/banner.md)]
 
 Arvestuse jaotused määratlevad, kuidas summat arvestatakse, näiteks tulu, maksude või tasude arvestamisel vabas vormis arvel. Igal summal, mida tuleb vabas vormis arve töölehele kandmisel arvestada, on üks või mitu arvestuse jaotust.
 
-<a name="accounting-distributions"></a>Arvestuse jaotused
-------------------------
+## <a name="accounting-distributions"></a>Arvestuse jaotused
 
 Saate kasutada järgmisi nuppe lehel Vabas vormis arve iga vabas vormis arve summa arvestuse jaotuse vaatamiseks ja võimaluse korral muutmiseks.
 
@@ -136,3 +132,6 @@ Enne vabas vormis arve sisestamist saate vaadata arve täielikku raamatupidamisk
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

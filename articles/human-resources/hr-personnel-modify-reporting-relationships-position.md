@@ -1,46 +1,50 @@
 ---
 title: Ametikoha aruandlusseoste muutmine
 description: Protseduur näitab, kuidas muuta töötaja aruandluse seost.
-author: andreabichsel
-manager: AnnBe
-ms.date: 08/29/2018
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmPosition, HcmPositionReportsToDialog, HcmPositionLookup, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2ae8ca5b20f331709e9fc1d9ae3b5f350e5c19ab
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: d7996733575c2d3a23971d08eb101962c1f6bbd9
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418169"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066621"
 ---
 # <a name="modify-reporting-relationships-for-a-position"></a>Ametikoha aruandlusseoste muutmine
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 
 
 Protseduur näitab, kuidas muuta töötaja aruandluse seost. Aruandluse seost saab kasutada töövoos dokumentide marsruudi valikul. Protseduur näitab ka seda, kuidas määrata töötaja täiendavatesse hierarhiatesse. Näiteks võib töötaja kuuluda projekti töörühma, mis hõlmab mitteametlikku aruandluse seost projektijuhiga. Ametikoha jaoks saab määratleda täiendavad aruandluse seosed, et võimaldada mitmesuguseid projekti- või maatriksistsenaariume. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.
 
-1. Avage jaotis Personaliarvestus > Ametikohad > Ametikohad.
-2. Saate kirjete leidmiseks kasutada valikut Kiirfilter. Näiteks saate filtrida välja Ametikoht alusel väärtusega „000091”.
-3. Klõpsake loendis valitud real olevat linki.
-4. Laiendage jaotist Millisele ametikohale annab aru.
-5. Rippdialoogi avamiseks klõpsake valikut Uus.
-6. Sisestage või valige väärtus väljal Aruannete sihtkoht.
-7. Klõpsake käsku Loo.
-8. Laiendage jaotist Seosed.
-9. Klõpsake vahekaarti Lisa.
+1. Minge **inimressursside**\> positsioonidele.**·** \> **·**
+2. Saate kirjete leidmiseks kasutada valikut Kiirfilter. Näiteks filtreerige **välja Positsioon** väärtuse **000091**.
+3. Valige loendis link valitud reas.
+4. Laiendage jaotist **Aruanded positsioonile**.
+5. **Ripploendi dialoogiboksi avamiseks valige Uus**.
+6. **Sisestage või valige väljale** Aruanded väärtus.
+7. Valige **Loo**.
+8. Laiendage jaotist **Seosed**.
+9. Valige **Lisa**.
 10. Märkige ruudustikust vasakul olev ruut.
-11. Sisestage või valige väärtus väljal Hierarhia nimi.
-    * Näide: projekt  
-12. Sisestage või valige väärtus väljal Millisele ametikohale annab aru.  Näide: 000437
-13. Klõpsake nuppu Salvesta.
+11. Sisestage või valige väljale **Hierarhia nimi** väärtus (nt **Projekt**).
+12. **Sisestage või valige väljale Ametikohale kinnitavad** aruanded väärtus (nt **000437**).
+13. Valige käsk **Salvesta**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

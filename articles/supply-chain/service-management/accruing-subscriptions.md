@@ -2,11 +2,9 @@
 title: Lisandunud kordustellimused
 description: teenustellimuste puhul kogute tulud käsitsi perioodidesse, mis järgnevad kuupäevale, millal kande eest arve esitasite.
 author: ShylaThompson
-manager: tfehr
 ms.date: 04/30/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMASubscriptionGroup
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f6d0d6c25cc8a19f5ebea3477cd2c957876752fd
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 3d6f2f69b7093e5408b016f4a69792b28c70f57f
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4966076"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5824674"
 ---
 # <a name="accruing-subscriptions"></a>Lisandunud kordustellimused 
 
@@ -151,3 +149,6 @@ Saate määrata pearaamatukannete arvu, mis luuakse viittulu sisestamisel. Kordu
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

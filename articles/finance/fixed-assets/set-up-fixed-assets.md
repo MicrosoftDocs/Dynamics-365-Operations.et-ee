@@ -1,45 +1,38 @@
 ---
 title: Põhivarade seadistamine
 description: Selles teemas antakse ülevaade põhivarade mooduli seadistamisest.
-author: ShylaThompson
-manager: AnnBe
-ms.date: 01/12/2018
+author: moaamer
+ms.date: 06/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 13771
 ms.assetid: 8be64197-fea1-4a34-8af2-d939919c28b1
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8196ddc879df1f398aabef0c1c4064bf0d4fff2c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 572d104bbc7024da1ea4b219fd3f544f36a88ccddcf1aa5d18065e2e08b93bfa
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442518"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6754214"
 ---
 # <a name="set-up-fixed-assets"></a>Põhivarade seadistamine
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas antakse ülevaade mooduli **Põhivarad** seadistamisest.
+Selles teemas antakse ülevaade mooduli **Põhivarad** seadistamisest. 
 
-## <a name="overview"></a>Ülevaade
-
-Parameetrid juhivad põhivarade mooduli üldist käitumist.
-
-Põhivaragrupid võimaldavad teil varasid grupeerida ja määrata igale gruppi määratud varale atribuute. Raamatud määratakse põhivaragruppidele. Raamatud jälgivad põhivara finantsväärtust aja jooksul, kasutades kulumireeglites määratletud kulumikonfiguratsiooni.
+Parameetrid juhivad põhivarade mooduli üldist käitumist. Põhivaragrupid võimaldavad teil varasid grupeerida ja määrata igale gruppi määratud varale atribuute. Raamatud määratakse põhivaragruppidele. Raamatud jälgivad põhivara finantsväärtust aja jooksul, kasutades kulumireeglites määratletud kulumikonfiguratsiooni.
 
 Põhivarad määratakse loomisel gruppi. Vaikimisi määratakse põhivaragrupile määratud raamatud seejärel põhivarale. Põhiraamatusse sisestamiseks konfigureeritud raamatud seostatakse sisestusreeglitega. Pearaamatukontod määratletakse sisestusreeglites iga raamatu kohta ja neid kasutatakse põhivarakannete sisestamisel.
 
-![Põhivara komponendid](./media/FAComponents_Updated.png)
+![Põhivara komponendid.](./media/FAComponents_Updated.png)
 
 ## <a name="depreciation-profiles"></a>Kulumireeglid
 
@@ -52,6 +45,8 @@ Pärast kulumireeglite seadistamist peate looma oma varade jaoks nõutavad raama
 Igale raamatule määratakse esmane kulumireegel. Raamatutel on ka alternatiivsed või ülemineku kulumireeglid, kui seda tüüpi reeglid on kohaldatavad. Põhivara raamatu automaatseks kaasamiseks kulumi käitustesse peate lubama suvandi **Arvuta kulum**. Kui see suvand pole mõne vara puhul lubatud, jätab kulumisoovitus vara vahele.
 
 Saate seadistada ka tuletatud raamatuid. Määratud tuletatud kanded sisestatakse tuletatud raamatute suhtes esmase kande täpse koopiana. Seetõttu seadistatakse tuletatud kanded tavaliselt soetuste ja likvideerimiste, mitte kulumikannete jaoks. Lisateavet leiate teemast [Väärtusmudelite seadistamine](tasks/set-up-value-models.md).
+
+Valik **põhivara parameetrite** lehel võimaldab teil lukustamise funktsiooni sisse ja välja lülitada. Saate lubada selle eelvaate funktsiooni **Funktsioonihaldus tööruumis**.
 
 ## <a name="fixed-asset-posting-profiles"></a>Põhivarade sisestusreeglid
 
@@ -77,6 +72,8 @@ Väli **Kapitaliseerimislävi** määratleb amortiseerunud varad. Kui põhivaran
 
 Üks oluline suvand on **Kulumi korrigeerimissummade automaatne loomine likvideerimisel**. Kui valite selle suvandi sätteks **Jah**, korrigeeritakse vara amortiseerumist automaatselt, võttes aluseks kulumisätted vara likvideerimise ajal. Teine valik võimaldab soetussummast maha arvata skontod, kui soetate põhivarasid hankija arvega.
 
+**Põhivararaamatute lukustamine kulumitöölehe** parameetris võimaldab teil lukustada vararaamatud kulumitöölehele. Kui kulumikandeid sisestatakse, kontrollib süsteem, et sama vararaamatut pole lisatud rohkem kui ühele kulumitöölehele. Kui on, siis see põhivararaamat lukustatakse ja sisestamine peatatakse. Kui vararaamatu ID on lukustatud töölehel, vabastatakse see automaatselt, kui sisestamine on algse töölehe puhul lõpetatud. Saate päeviku avada ka käsitsi. 
+
 Kiirkaardil **Ostutellimused** saate konfigureerida, kuidas varasid ostuprotsessi osana luuakse. Esimene valik on **Luba vara soetamine ostmiselt**. Kui määrate selle suvandi sätteks **Jah**, toimub vara soetamine arve sisestamisel. Kui määrate selle suvandi sätteks **Ei**, saate põhivara panna ikkagi ostutellimusse ja arvele, kuid soetamist ei sisestata. Sisestamine tuleb teha eraldi etapina põhivara töölehelt. Suvand **Looge vara toote sissetuleku või arve sisestamise ajal** võimaldab luua uue põhivara käigu pealt sisestamise ajal. Seetõttu ei pea vara enne kannet põhivarana seadistama. Viimane võimalus **Kontrolli põhivarade loomist rea sisestamisel** rakendub ainult ostutaotlustele.
 
 Saate konfigureerida põhjusekoode nii, et need on põhivara muudatuste või kindlate põhivarakannete puhul nõutavad.
@@ -84,3 +81,6 @@ Saate konfigureerida põhjusekoode nii, et need on põhivara muudatuste või kin
 Viimasena saate vahekaardil **Numbriseeriad** määratleda põhivarade numbriseeriad. **Põhivara** numbriseeria saab tühistada üksuse **Põhivaragrupp** numbriseeriaga, kui see on määratud.
 
 Lisateavet leiate teemast [Põhivara loomine](tasks/create-fixed-asset.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

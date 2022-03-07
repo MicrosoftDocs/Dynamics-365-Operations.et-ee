@@ -2,11 +2,8 @@
 title: ER-i funktsioon JSONVALUE
 description: See teema sisaldab teavet selle kohta, kuidas kasutatakse elektroonilise aruandluse (ER) funktsiooni JSONVALUE.
 author: NickSelin
-manager: kfend
 ms.date: 12/11/2019
-ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -17,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 11f9ac680ea00622367ea56106fd22508628d85d
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: b034755602a2f999892d2b976c80550b7a3d7f3cd179816dd7aa1edefe6a0270
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685903"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6733769"
 ---
 # <a name="jsonvalue-er-function"></a>ER-i funktsioon JSONVALUE
 
@@ -59,3 +56,6 @@ Andmeallikas **JsonField** sisaldab JSON-vormingus järgmisi andmeid: **{„Buil
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Tekstifunktsioonid](er-functions-category-text.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

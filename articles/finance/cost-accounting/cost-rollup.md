@@ -2,16 +2,13 @@
 title: Kulukomplekti poliitika ja üldkulude arvutus
 description: See teema selgitab, kuidas määrata õige teiseste kuluelementide tase ja luua kulu ümberarvestusreeglid, mis sobivad organisatsiooni aruandluse ja kulu jälgitavusega.
 author: AndersGirke
-manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMCostRollupRule, CAMDimensionHierarchy, CAMOverheadRatePolicy
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b02bfd83cfc4f1585c9044ebca8b20413042124a
-ms.sourcegitcommit: b40d6ce45aeb07724fc41d1a41923970b007fbcf
-ms.translationtype: HT
+ms.openlocfilehash: f86529359f548bf48fdef8817bd2e2260235561cce57cac28158739687ade2c1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "4442530"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6779952"
 ---
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>Kulukomplekti poliitika ja üldkulude arvutus 
 
@@ -47,13 +44,13 @@ Nende mõjude vältimiseks võimaldab kuluarvestus konfigureerida kulude eraldam
 
 Oletagem, et organisatsioonil on järgmine 4 kulukeskusega struktuur.
 
-![Organisatsiooni struktuuri näide](./media/dimension-hierarchy-org.png)
+![Organisatsiooni struktuuri näide.](./media/dimension-hierarchy-org.png)
 
 **Kuluobjekti dimensioon**
 
 | Kulukeskused | Kirjeldus          |
 |--------------|-----------|
-| CC001        | Personaliosakond        |
+| CC001        | HR        |
 | CC002        | Finantsid   |
 | CC003        | Assembler  |
 | CC004        | Pakendamine |
@@ -152,8 +149,7 @@ Kulueraldusreeglid saab seadistada järgmiselt.
 | CC001                                | Kokku         | **Inimressursside teenused**        |
 | CC002                                | Kokku         | **Finantsteenused** |
 
-<a name="brhow-cost-flows-between-cost-centers"></a><br>Kuidas kulu kulukeskuste vahel liigub 
----------------------------------------------------
+## <a name="brhow-cost-flows-between-cost-centers"></a><br>Kuidas kulu kulukeskuste vahel liigub 
 
 Kui soovite teada, kuidas kulu organisatsioonis kulukeskuste vahel liigub, võite luua igale kulukeskusele kuluelemendid tüübiga **Teisene**. Neid kuluelemente kasutatakse seejärel saldode ülekandmiseks kulukeskuste vahel üldkulude arvutamise käigus.
 
@@ -301,3 +297,6 @@ Selge eraldatud valikute **Kulude eraldamine** ja **Kulude ümberarvestuspoliiti
 -  [Kuluelemendi dimensioonid](cost-elements.md)
 -  [Dimensioonihierarhia](dimension-hierarchy.md)
 -  [Üldkulude arvutus](overhead-calculation.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

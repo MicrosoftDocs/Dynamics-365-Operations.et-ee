@@ -1,10 +1,12 @@
 ---
 title: Kiirklahvid
-description: Selles teemas antakse ülevaade kiirklahvide kombinatsioonidest, mida saate kasutada Finantside ja toimingute rakendustega töötamisel.
+description: Selles teemas antakse ülevaade kiirklahvikombinatsioonidest, mida saate kasutada Finance and Operationsi rakendustega töötamisel.
 author: jasongre
-ms.date: 02/11/2022
+manager: AnnBe
+ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -14,21 +16,18 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5243ea35138aa37d9fc54821e0923d0fa47c95de
-ms.sourcegitcommit: 6a269db08e8bb3bb3405c9f4a512091d13c80faa
-ms.translationtype: MT
+ms.openlocfilehash: 2c5b25ea3bc91ac427d0d57db45fbc4169895d3e
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/14/2022
-ms.locfileid: "8119548"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4693721"
 ---
 # <a name="keyboard-shortcuts"></a>Kiirklahvid
 
 [!include [banner](../includes/banner.md)]
 
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
-
-Kiirklahvide abil saate finantside ja toimingute rakendustesse andmeid kiiresti ja tõhusalt sisestada. 
+Järgmised klaviatuuri otseteed aitavad teil Finance and Operationsi rakendustes kiiresti ja tõhusalt andmeid sisestada.
 
 > [!NOTE]
 > Siin kirjeldatud kiirklahvid viitavad USA klahvipaigutusele. Muude klahvipaigutuste korral ei pruugi klahvid vastata täpselt USA klahvipaigutusele.
@@ -37,11 +36,11 @@ Mõni sellel lehel toodud otsetee on *klahvikomplekt*, mis tähendab, et selle j
 
 ## <a name="finding-a-shortcut"></a>Otsetee leidmine
 
-Kasutajad saavad avastada praegu saadaolevaid otseteesid otse kasutajaliidesest. Lihtsalt paremklõpsake juhtelemendil ja valige **Kuva kiirklahvid**. See avab dialoogiboksi, milles kuvatakse kiirklahvid, mida saate kasutada olenevalt sellest, kus praegu lehel olete. Selle dialoogiboksi avamiseks võite vajutada ka klahve Alt+Shift+C (ja vajutada teist korda klahvikombinatsiooni Alt+Shift+K, et näha kõiki praegu saadaolevaid lehekülje otseteesid).    
+Alates platvormivärskendusest 11 saavad kasutajad vaadata praegu saadaolevaid kiirklahve otse kasutajaliidesest. Lihtsalt paremklõpsake juhtelemendil ja valige **Kuva kiirklahvid**. See avab dialoogiboksi, milles kuvatakse kiirklahvid, mida saate kasutada olenevalt sellest, kus praegu lehel olete.
 
 ## <a name="action-shortcuts"></a>Tegevuste otseteed
 
-| Toiming                                      | Vajutage nuppu                             |
+| Toiming                                      | Klahv või klahvikombinatsioon                            |
 |-------------------------------------------------|----------------------------------|
 | Tegevuse otsingu avamine                              | CTRL + ' või Alt + Q                  |
 | Standardsele tegumiribale liikumine                | Alt + M, A või Ctrl + F6               |
@@ -130,10 +129,8 @@ Kasutajad saavad avastada praegu saadaolevaid otseteesid otse kasutajaliidesest.
 
 ## <a name="grid-shortcuts"></a>Ruudustiku kiirklahvid
 
-| Toiming                                                                                                             | Vajutage nuppu                            |
+| Toiming                                                                                                             | Klahv või klahvikombinatsioon                           |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------|
-| Vertikaalne kerimine                                                                                                     | Hiire ratas                     |
-| Horisontaalne kerimine                                                                                                   | Vahetus + hiire ratas             |
 | Järgmisele/eelmisele veerule liikumine                                                                                       | tabeldusklahv / Shift + tabeldusklahv                 |
 | Järgmisele/eelmisele reale liikumine                                                                                          | Allanool/ülesnool           |
 | Järgmisele/eelmisele reale liikumine ilma seda valimata<blockquote>[!NOTE] See otsetee kehtib ainult mitme valikuga stsenaariumide puhul.</blockquote> | Ctrl + ülesnool / Ctrl + allanool |
@@ -145,24 +142,22 @@ Kasutajad saavad avastada praegu saadaolevaid otseteesid otse kasutajaliidesest.
 | Teisalda esimesse kirjesse                                                                                               | Ctrl + Home                       |
 | Liigu viimasele kirjele                                                                                                | Ctrl + End                        |
 | Märgi või tühjenda kõik read                                                                                               | Ctrl + Shift + M                    |
-| Liigu esimese märgitud reani                                                                                           | Alt+Shift+M, F                  |
-| Liigu järgmise märgitud reani                                                                                            | Alt+Shift+M, L                  |
-| Liigu eelmise märgitud reani                                                                                        | Alt+Shift+M, P                  |
-| Liigu viimase märgitud reani                                                                                           | Alt+Shift+M, N                  |
+| Liigu esimese märgitud reani                                                                                           | Alt+Shift+M, F                    |
+| Liigu järgmise märgitud reani                                                                                            | Alt+Shift+M, L                    |
+| Liigu eelmise märgitud reani                                                                                        | Alt+Shift+M, P                    |
+| Liigu viimase märgitud reani                                                                                           | Alt+Shift+M, N                    |
 | Vaiketegevuse käivitamine ruudustikus<blockquote>[!NOTE] See otsetee on lubatud, kui fookus on hüperlinki sisaldaval lahtril ja kõigil selle veeru lahtritel on hüperlingid.</blockquote> | Sisestusklahv                           |
 | Lülita fookus ümber valitud rea ja päiserea vahel                                                               | Alt + Shift + H                     |
 | Praeguse veeru suuremaks/väiksemaks tegemine (kui fookus on päisereas)                                                  | Paremnool/vasaknool        |
-| Praeguse veeru teisaldamine järgmisele/eelmisele positsioonile (fookusega päise real)                                   | Ctrl+ Shift + paremnool / Ctrl + Shift + vasaknool |
 | Praeguse veeru ruudustiku filtrimise avamine (kui fookus on päisereas)                                              | Sisestusklahv                           |
-| Muutke praeguse veeru suurust, et see mahuks sisuga (fookusega päisereal)                                           | A (või topeltklõpsake veeru suuruse muutmise pidet) |
 
 ## <a name="input-control-shortcuts"></a>Sisestamise kiirklahvid
 
-| Toiming                                                                   | Vajutage nuppu                          |
+| Toiming                                                                   | Klahv või klahvikombinatsioon                         |
 |------------------------------------------------------------------------------|-------------------------------|
 | Hüperlingi avamine                                                           | Ctrl + Enter                    |
-| Kuupäevaväljale seansi kuupäeva sisestamine                                       | D                             |
-| Kuupäevaväljale praeguse kuupäeva sisestamine                                       | T                             |
+| Kuupäevaväljale seansi kuupäeva sisestamine                                       | D                         |
+| Kuupäevaväljale praeguse kuupäeva sisestamine                                       | T                         |
 | Otsingu, liitboksi, kuupäevavalija, rippdialoogiboksi avamine                         | Alt + allanool                |
 | Otsingu, liitboksi, kuupäevavalija, rippdialoogiboksi sulgemine                        | Esc-klahv                           |
 | Fookuse nihutamine otsingule (kui otsing on juba avatud)                   | Alt + allanool                |
@@ -209,8 +204,8 @@ Kasutajad saavad avastada praegu saadaolevaid otseteesid otse kasutajaliidesest.
 | Tööriista Teisalda kasutamine (isikupärastamise režiimis)                                                                       | M                                   |
 | Praeguse juhtelemendi valimine teisaldamiseks (kasutades teisaldamistööriista ja kui teisaldamiseks pole veel ühtki juhtelementi valitud)  | Tühik või sisestusklahv (Enter)                      |
 | Teisaldatava juhtelemendi kustutamine (tööriista Teisalda kasutamisel)                                                                   | Esc-klahv                                 |
-| Valitud juhtelemendi teisaldamine järgmisse asukohta (tööriista Teisalda kasutades)                                              | Tabulaator või paremnool või allanool    |
-| Valitud juhtelemendi teisaldamine eelmisse asukohta (tööriista Teisalda kasutades)                                          | Shift + Tab või vasaknool või ülesnool |
+| Valitud juhtelemendi teisaldamine järgmisse asukohta (tööriista Teisalda kasutades)                                          | Tabulaator või paremnool või allanool    |
+| Valitud juhtelemendi teisaldamine eelmisse asukohta (tööriista Teisalda kasutades)                                      | Shift + Tab või vasaknool või ülesnool |
 | Tööriista Peida kasutamine (isikupärastamise režiimis)                                                                       | H                                   |
 | Vahetamine, kas praegune juhtelement on nähtav või peidetud (tööriista Peida kasutamisel)                                     | Tühik või sisestusklahv (Enter)                      |
 | Tööriista Jäta vahele kasutamine (isikupärastamise režiimis)                                                                       | K                                   |
@@ -256,14 +251,7 @@ Kasutajad saavad avastada praegu saadaolevaid otseteesid otse kasutajaliidesest.
 | Animeeritud hüpikakna laiendamine/ahendamine (tegevuse juhise esitamisel)              | Alt+R,C                    |
 | Animeeritud hüpikaknas rohkem/vähem teabe kuvamine (tegevuse juhise esitamisel) | Alt+R,M                    |
 
-## <a name="focus-management"></a>Fookuse haldus 
-Fookuse haldus kirjeldab, kuidas kasutaja fookust rakenduses käsitletakse. Finantside ja toimingute rakendustel on spetsialiseeritud fookuse käitumine, mis on mõeldud kasutaja tööviljakuse optimeerimiseks, eriti andmesisestusstsenaariumide puhul. Fookuse käitumised hõlmavad järgmist:  
-
--  Kui leht on laaditud, on lehekülje esimene redigeeritav sisendi juhtelement fookus ja saab kasutaja sisestuse kohe aktsepteerida. Kui lehel ei ole redigeeritavat sisendi juhtelementi, on algse fookuse tagasipööramise valik esimene sisestuskontroll lehel, millele järgneb leheküljel esimene, fookus juhtelement.   
--  Nupu valimisel töödeldakse tegevust ja fookus võib naasta lehele. Sel juhul fookuskeskused pöörduvad tagasi valitud nupu juhtelementi. See kehtib finantside ja toimingute rakendustes, **v.a** juhul, kui nupp asub tegevuspaanil või tööriistaribal. Sel juhul, kui tegevus on lõpetatud, *fookus* naaseb viimasele juhtelemendile väljaspool tegevuspaani (või tööriistariba), mis oli fookus enne nupu valimist.
-
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Kiirklahvid puuduva konto analüüsi puhul](../../../finance/general-ledger/financial-reporting-keyboard-shortcuts.md)
 
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

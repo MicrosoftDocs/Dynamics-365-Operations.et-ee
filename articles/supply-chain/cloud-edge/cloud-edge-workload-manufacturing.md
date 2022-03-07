@@ -2,11 +2,9 @@
 title: Tootmise täideviimise töökoormused pilv- ja perimeeterskaalaüksuste jaoks
 description: See teema kirjeldab, kuidas tootmise läbiviimise töömahud töötavad koos pilv- ja perimeeterskaalaüksustega.
 author: cabeln
-manager: ''
 ms.date: 10/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,22 +16,22 @@ ms.search.industry: SCM
 ms.author: cabeln
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 08c46655d3966ad1433935318c5e60667dd10bb6
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: da19066f647c17e934a11e4dab7cb370baabfb5c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4967756"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352732"
 ---
 # <a name="manufacturing-execution-workloads-for-cloud-and-edge-scale-units"></a>Tootmise täideviimise töökoormused pilv- ja perimeeterskaalaüksuste jaoks
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 > [!WARNING]
+> Tootmise käivitamise töökoormus on praegu eelvaates saadaval.
 > Mõni ettevõtte funktsionaalsus ei ole avalikus eelvaates täielikult toetatud juhul, kui kasutatakse töökoormuse skaalaüksusi.
 
-Tootmise käitamisel tarnivad pilve ja perimeeterskaala üksused järgmised võimalused, isegi kui perimeeterskaala üksused pole jaoturiga ühendatud:
+Tootmise käivitamisel pakuvad mastaabiüksused järgmisi võimalusi:
 
 - Masina operaatorid ja tööde juhtimise haldurid pääsevad ligi operatiivsele tootmisplaanile.
 - Masina operaatorid saavad plaani ajakohasena hoida, töötades eraldi ja menetledes tootmise töid.
@@ -46,7 +44,7 @@ See teema kirjeldab, kuidas tootmise läbiviimise töömahud töötavad koos pil
 
 Nagu järgnev illustratsioon näitab, on tootmise elutsükkel jagatud kolmeks faasiks: *Planeeri*, *Käivita* ja *Lõpeta*.
 
-[![Ühe keskkonna kasutamisel on tootmise käivitamise faasid](media/mes-phases.png "Tootmise täideviimisfaasid ühe keskkonna kasutamisel")](media/mes-phases-large.png)
+[![Tootmise käivitamise faasid üksiku keskkonna kasutamisel](media/mes-phases.png "Tootmise käivitamise faasid üksiku keskkonna kasutamisel."](media/mes-phases-large.png)
 
 _Planeerimise_ faas hõlmab toote määratlust, planeerimist, tellimuse loomist ja ajastamist ning müügile laskmist. Müügile laskmise etapp näitab üleminekut _planeerimise_ faasist _käivitamise_ faasi. Kui tootmistellimus on müügile lastud, on tootmistellimuse tööd tootmiskorrusel nähtavad ja valmis täitmiseks.
 
@@ -56,7 +54,7 @@ Kui tootmistöö on märgitud lõpetatuks, liigub see käivitamise _Käivitamise
 
 Nagu järgmine illustratsioon näitab, kui kasutatakse astmiku ühikuid, tükeldatakse _Käivitamise_ faas eraldi töökoormusena.
 
-[![Tootmise käivitamise faasid, kui kasutatakse astmiku ühikuid](media/mes-phases-workloads.png "Tootmise käivitamise faasid, kui kasutatakse astmiku ühikuid")](media/mes-phases-workloads-large.png)
+[![Tootmise käivitamise faasid, kui kasutatakse kaaluühikuid](media/mes-phases-workloads.png "Tootmise käivitamise faasid, kui kasutatakse kaaluühikuid."](media/mes-phases-workloads-large.png)
 
 Mudel läheb nüüd kohesest installist mudelile, mis põhineb keskusel ja skaala ühikutel. Faasid _Plaanimine_ ja _Lõpetamine_ käivitatakse keskuses tagatoatoimingutena ja tootmise täideviimise töökoormus käivitatakse skaalaüksustes. Andmed edastatakse asünkroonselt keskuse ja astmiku ühikute vahel.
 
@@ -73,6 +71,7 @@ Järgmisi tootmise käivitamise toiminguid saab praegu käitada töömahu puhul,
 - Teata praagist
 - Kaudne tegevus
 - Paus
+- Teata lõpetamisest ja ära panemisest (nõuab, et käivitate ka lao käivitamise töökoormuse oma kaaluühikul, vt ka [Lõpetatuna kinnitamine ja mõõtude laadimine kaaluühikul](#RAF))
 
 ## <a name="working-with-manufacturing-execution-workloads-on-the-hub"></a>Töötamine tootmise käivitamise töömahuga keskuses
 
@@ -88,7 +87,7 @@ Kuigi töö tavaliselt käivitub automaatselt, saate selle käivitada käsitsi m
 
 Registreerimise töötlemise Logi ülevaatamiseks logige keskusesse sisse ja minge **Tootmise juhtimise \> Perioodiliste ülesannete \> BackOffice töökoormuse haldamine \> töötlemata registreerimise töötlemise Logi**. Lehel **Töötlemata registreerimise töötluse logi** kuvatakse töötlemata registreerimiste loend ja iga registreerimise olek.
 
-![Töötlemata registreerimise töötluse logi](media/mes-processing-log.png "Töötlemata registreerimise töötluse logi")
+![Töötlemata registreerimise töötluse logi.](media/mes-processing-log.png "Töötlemata registreerimise töötluse logi")
 
 Saate töötada mis tahes registreerimisega loendis valides selle ja seejärel valides Tegevuse Paanilt ühe järgmistest nuppudest:
 
@@ -109,3 +108,27 @@ Skaala ühikus töödeldud tööde ajaloo ülevaatamiseks logige sisse skaala ü
 ### <a name="manufacturing-hub-to-scale-unit-message-processor-job"></a>Tootmiskeskus skaala ühiku teade protsessori töö jaoks
 
 _Tootmise keskus skaala ühiku teade protsessori_ töö töötleb andmeid keskusest skaala ühikule. See töö käivitatakse automaatselt, kui tootmise käivitamise töökoormus on kasutusel. Kuid saate seda käitada käsitsi igal ajal, minnes **Tootmise juhtimise \> Perioodiliste ülesannete \> BackOffice töökoormuse halduse \> Tootmise keskusestt skaala ühiku teate protsessorisse**.
+
+<a name="RAF"></a>
+
+## <a name="report-as-finished-and-putaway-on-a-scale-unit"></a>Lõpetamisest ja kõrvale panekust teatamine kaaluühikul
+
+<!-- KFM: 
+This section describes how to enable the abilities to report as finished and then putaway finished items when you are using to a scale unit.
+
+### Enable and use report as finished and putaway on a scale unit -->
+
+Selles väljaandes teavitatakse lõpp- ja varjatud toimingutest (valmistoodete, kaastoodete ja kõrvalsaaduste puhul) mis on toeatatud [varude täiskoormuse puhul](cloud-edge-workload-warehousing.md) (mitte tootmise täiskoormuse puhul). Seetõttu peate selle funktsiooni kasutamiseks, kui see on ühendatud kaaluühikuga, tegema järgmist:
+
+- Installige oma kaaluühikusse nii lao käivitamise töökoormus kui ka tootmise käivitamise töökoormus.
+- Warehouse Management mobiilirakenduse abil saate teatada lõpetatund ja töödeldud töödest. Tootmispinna käivitamise liides ei toeta praegu neid protsesse.
+
+<!-- KFM: API details needed
+
+### Customize report as finished and putaway functionality
+
+ -->
+
+[!INCLUDE [cloud-edge-privacy-notice](../../includes/cloud-edge-privacy-notice.md)]
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

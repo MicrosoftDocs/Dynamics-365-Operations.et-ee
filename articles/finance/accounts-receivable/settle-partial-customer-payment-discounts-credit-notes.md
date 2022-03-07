@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14564
 ms.assetid: d9984cef-ddcf-46bd-816d-c01b8cc5cf48
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: da4353849b053ff94cf1fda7a03568438d0111da
-ms.sourcegitcommit: 092ef6a45f515b38be2a4481abdbe7518a636f85
+ms.openlocfilehash: 22354efbf75710bbc34f2b701f68be2083d91bac
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4442536"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5221005"
 ---
 # <a name="settle-a-partial-customer-payment-that-has-discounts-on-credit-notes"></a>Kliendi osalise makse, millel on kliendi kreeditarvetel allahindlusi, tasakaalustamine
 
@@ -61,3 +60,6 @@ Tasakaalustus on 100,00 ning sisaldab makset summas 99,00 ja allahindlust summas
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

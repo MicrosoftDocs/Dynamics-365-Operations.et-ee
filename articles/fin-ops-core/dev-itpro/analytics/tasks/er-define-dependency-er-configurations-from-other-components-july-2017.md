@@ -1,12 +1,10 @@
 ---
-title: ER-i konfiguratsioonide teistest komponentidest sõltuvuse määramine
-description: Toimingute teostamiseks peate esmalt läbima tegevusjuhises toodud ja ER-i mudelihalduse vastendamise konfiguratsioonide etapid ning teil peab olema juurdepääs teenusele Microsoft Dynamics Lifecycle Services (LCS).
+title: ER-i konfiguratsioonide sõltuvuse määramine teistest komponentidest
+description: Selles teemas kirjeldatase, kuidas kujundada elektroonilise aruandluse (ER) konfiguratsiooni ja määrata selle sõltuvus teistest tarkvarakomponentidest.
 author: NickSelin
-manager: AnnBe
-ms.date: 06/23/2017
+ms.date: 07/23/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,14 +12,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 77783d629afc9abf30cdc48534fbb26eba5f8811
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: 2901092938dae5ae14480716eeeb2b0386848332e91ad388ce5d34437f8492ba
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681969"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6717590"
 ---
-# <a name="define-the-dependency-of-er-configurations-on-other-components"></a>ER-i konfiguratsioonide teistest komponentidest sõltuvuse määramine
+# <a name="define-the-dependency-of-er-configurations-on-other-components"></a>ER-i konfiguratsioonide sõltuvuse määramine teistest komponentidest
 
 [!include [banner](../../includes/banner.md)]
 
@@ -110,16 +108,16 @@ Protseduur on loodud kasutajatele, kellele on määratud süsteemiadministraator
 ## <a name="evaluate-er-configuration-dependencies"></a>ER-i konfiguratsioonide sõltuvuste hindamine
 Kustutame süsteemist loodud konfiguratsioonid ja laadime need uuesti alla LCS-i hoidlast.  
 1. Tehke puul valik "Näidisandmemudel\Näidisvastendus".
-2. Klõpsake  Kustuta.
+2. Klõpsake Kustuta.
 3. Klõpsake nuppu Jah.
 4. Tehke puul valik „Näidisandmemudel\Näidisvastendamine (alternatiivne)".
-5. Klõpsake  Kustuta.
+5. Klõpsake Kustuta.
 6. Klõpsake nuppu Jah.
 7. Tehke puul valik „Näidisandmemudel\Näidisformaat".
-8. Klõpsake  Kustuta.
+8. Klõpsake Kustuta.
 9. Klõpsake nuppu Jah.
 10. Tehke puul valik „Sample data model".
-11. Klõpsake  Kustuta.
+11. Klõpsake Kustuta.
 12. Klõpsake nuppu Jah.
 13. Sulgege leht.
     * Avage ER-i hoidlate loend praeguse ER-i pakkuja, ettevõtte Litware, Inc. jaoks.  
@@ -139,3 +137,9 @@ Kustutame süsteemist loodud konfiguratsioonid ja laadime need uuesti alla LCS-i
 26. Laiendage puul valikut „Sample data model".
     * Pange tähele, et mudeli „Näidisvastendamine" vastenduskonfiguratsioon on alla laaditud koos valitud andmemudeli konfiguratsiooniga. Kaks faili laaditi koos alla, kuna „Näidisvastendus" on määratletud valitud andmemudeli juurutamisena ja kuna see kehtib rakenduse kohta. Konfiguratsiooni „Näidisvastendus (alternatiivne)” pole alla laaditud, kuna nõutava avalduse versiooni tingimust pole täidetud.   
     * Kui logite sisse Finance and Operationsi, registreerige sama pakkuja, avage sama LCS-projekt ja laadige alla sama andmemudeli konfiguratsioon. Konfiguratsioon „Näidisvastendus (alternatiivne)” laaditakse alla, aga konfiguratsioon „Näidisvastendus” jäetakse vahele.  
+
+## <a name="additional-resources"></a>Lisaressursid
+
+[Elektroonilise aruandluse (ER) konfiguratsiooni elutsükli haldamine](../general-electronic-reporting-manage-configuration-lifecycle.md)
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

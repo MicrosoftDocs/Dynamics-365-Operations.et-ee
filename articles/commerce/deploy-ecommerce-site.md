@@ -2,46 +2,40 @@
 title: Uue e-kaubanduse rentniku juurutamine
 description: Selles teemas kirjeldatakse, kuidas juurutada uut Dynamics 365 Commerce'i e-kaubanduse saiti, kasutades teenust Microsoft Dynamics Lifecycle Services (LCS).
 author: psimolin
-manager: annbe
 ms.date: 07/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 157dc8225e5bbf9338a1b5a79a2880e8a8c4bf10
-ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
-ms.translationtype: HT
+ms.openlocfilehash: b4b54e10cb4bd897b4c0706a13eeaf32f8892a05f7a09f3b27dbdd3dcdad1606
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "4517278"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6750710"
 ---
 # <a name="deploy-a-new-e-commerce-tenant"></a>Uue e-kaubanduse rentniku juurutamine
-
 
 [!include [banner](includes/banner.md)]
 
 Selles teemas kirjeldatakse, kuidas juurutada uut Dynamics 365 Commerce'i e-kaubanduse saiti, kasutades teenust Microsoft Dynamics Lifecycle Services (LCS).
 
-## <a name="overview"></a>Ülevaade
-
 Microsoft Dynamicsi teenus Lifecycle Services (LCS) on pilvepõhine koostöö tööruum, mida partnerid ja kliendid saavad kasutada oma projektide ja keskkondade haldamiseks, Microsoft Dynamicsi toodete ja funktsioonide kohta uusima teabe vaatamiseks ning teenindusjuhtumite loomiseks, jälgimiseks ja sirvimiseks. E-kaubanduse haldusefunktsioonid on LCS-i integreeritud.
 
-Lisateavet LCS-i kohta vaadake teemast [Teenuse Lifecycle Services kasutusjuhend](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide).
+Lisateavet LCS-i kohta vaadake teemast [Teenuse Lifecycle Services kasutusjuhend](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide).
     
 ## <a name="get-started"></a>Alustage
 
 Enne e-kaubanduse lähtestamist tuleb teil lähtestada projekt, keskkond ja Retail Cloud Scale Unit (RCSU). LCS-i lähtestamiseks peab teil olema kas projekti omaniku või keskkonnahalduri rolli õigused. Tootmise ja liivakasti keskkonna topoloogiad on toetatud.
 
-Lisateavet keskkondade kohta vaadake teemast [Keskkonna planeerimine](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/imp-lifecycle/environment-planning). Lisateavet RCSU kohta leiate teemast [Lähtesta Retail Cloud Scale Unit](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/deployment/initialize-retail-channels).
+Lisateavet keskkondade kohta vaadake teemast [Keskkonna planeerimine](/dynamics365/unified-operations/fin-and-ops/imp-lifecycle/environment-planning). Lisateavet RCSU kohta leiate teemast [Lähtesta Retail Cloud Scale Unit](/dynamics365/unified-operations/dev-itpro/deployment/initialize-retail-channels).
 
 ## <a name="initialize-e-commerce"></a>E-kaubanduse lähtestamine
 
@@ -99,7 +93,7 @@ Commerce'i saidiehitajale juurdepääsuks avage vahekaart **E-kaubandus** LCS-i 
 
 [Dynamics 365 Commerce'i saidi seostamine võrgukanaliga](associate-site-online-store.md)
 
-[robots.txt-failide haldamine](manage-robots-txt-files.md)
+[Robots.txt-failide haldamine](manage-robots-txt-files.md)
 
 [Üleslaadimise URL suunab ümber hulgi](upload-bulk-redirects.md)
 
@@ -112,3 +106,6 @@ Commerce'i saidiehitajale juurdepääsuks avage vahekaart **E-kaubandus** LCS-i 
 [Sisuedastusvõrgu (CDN) toe lisamine](add-cdn-support.md)
 
 [Asukohapõhise poetuvastuse lubamine](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

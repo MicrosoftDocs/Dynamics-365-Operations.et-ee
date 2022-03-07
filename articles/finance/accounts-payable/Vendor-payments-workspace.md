@@ -2,27 +2,24 @@
 title: Hankija maksete tööruum
 description: See teema annab teavet hankija maksete tööruumi kohta. Hankija maksete tööruumis on näidatud teave, mis on seotud hankija maksete töötlemisega.
 author: abruer
-manager: AnnBe
 ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendPaymentWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.assetid: ''
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 39a9ba54ba26db5904c2cd519be9f83bbc68c037
-ms.sourcegitcommit: 30c541426cf2037b768e3556e1b170a64991f64a
-ms.translationtype: HT
+ms.openlocfilehash: 084a18d1af789c7ebb89d9a598754a9478a48b83fb949241c9fc34fefa7c152b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/17/2020
-ms.locfileid: "4442538"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6749266"
 ---
 # <a name="vendor-payments-workspace"></a>Hankija maksete tööruum
 
@@ -78,3 +75,6 @@ Järgmine tabel näitab igal aruandelehel olevaid visualiseeringuid.
 |    Hankija ja kliendi saldo     |                                                                                                                   <ul><li>Hankija ja kliendi saldo</li><li>Hankija ja kliendi saldo ettevõtte kohta</li><li>Hankija ja kliendi saldo üksikasjad</li></ul>                                                                                                                    |
 |    Ooteloleva maksega arved     |                                                                                         <ul><li>Ooteloleva maksega arved</li><li>Ooteloleva maksega arvete üksikasjad</li><li>Ooteloleva maksega arved ettevõtte kohta</li><li>Ooteloleva maksega arved hankijagrupi kohta</li></ul>                                                                                          |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

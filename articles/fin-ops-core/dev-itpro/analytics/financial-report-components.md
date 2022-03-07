@@ -1,12 +1,11 @@
 ---
 title: Finantsaruande komponendid
-description: Selles artiklis kirjeldatakse, kuidas aruande definitsiooni komponente (koosteüksusi) finantsaruandluses kasutatakse. Nende koosteüksuste hulka kuuluvad readefinitsioonid, veerudefinitsioonid ja aruandluspuu definitsioonid. Artikkel selgitab, kuidas koosteüksusi korraldada ja lukustada ning kuidas koosteüksuste gruppidega töötada.
+description: Selles artiklis kirjeldatakse, kuidas aruande definitsiooni komponente (koosteüksusi) finantsaruandluses kasutatakse.
 author: aprilolson
 manager: AnnBe
 ms.date: 10/27/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 97468be0bdea679ca7a52c5cef9c1e10950736e8
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: e8015af1970da22f70882739cddb4227825e4e40
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682717"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5568819"
 ---
 # <a name="financial-report-components"></a>Finantsaruande komponendid
 
@@ -126,3 +125,6 @@ Koosteüksuse avamisel pääsevad teised kasutajad selle koosteüksuse juurde ki
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Finantsaruandlus](financial-reporting-intro.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,30 +1,27 @@
 ---
-title: Veebikanali häälestamine
+title: Võrgukanali häälestamine
 description: Selles teemas kirjeldatakse, kuidas luua rakenduses Microsoft Dynamics 365 Commerce uus veebikanal.
 author: samjarawan
-manager: annbe
 ms.date: 07/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 07225d97af76ea665fa28362cc205c6e8dc4fdf4
-ms.sourcegitcommit: 4c6d31f3ebd88212d3d1497a4bba9c64c5300444
+ms.openlocfilehash: f0f1e0f3e7145c66b8f2b082b44ad7035c57d947
+ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "4411825"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5936940"
 ---
-# <a name="set-up-an-online-channel"></a>Veebikanali häälestamine
+# <a name="set-up-an-online-channel"></a>Võrgukanali häälestamine
 
 
 [!include [banner](includes/banner.md)]
@@ -70,7 +67,7 @@ Kui teie e-kaubanduse sait toetab mitut keelt, laiendage jaotist **Keeled** ja l
 
 ## <a name="set-up-payment-account"></a>Maksekonto seadistamine
 
-Jaotisest **Maksekonto** saate lisada kolmanda osapoole maksepakkuja. Lisateavet Adyeni maksekonnektori seadistamise kohta vt teemast [Dynamics 365 maksekonnektor Adyeni jaoks](../retail/dev-itpro/adyen-connector.md).
+Jaotisest **Maksekonto** saate lisada kolmanda osapoole maksepakkuja. Lisateavet Adyeni maksekonnektori seadistamise kohta vt teemast [Dynamics 365 maksekonnektor Adyeni jaoks](./dev-itpro/adyen-connector.md).
 
 ## <a name="additional-channel-setup"></a>Täiendava kanali seadistamine
 
@@ -133,4 +130,7 @@ Järgmine pilt näitab täitmisgrupi määramise seadistuse näidet.
 
 [Kõnekeskuse kanali seadistamine](channel-setup-callcenter.md)
 
-[Dynamics 365 maksekonnektor Adyeni jaoks](../retail/dev-itpro/adyen-connector.md)
+[Dynamics 365 maksekonnektor Adyeni jaoks](./dev-itpro/adyen-connector.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

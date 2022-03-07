@@ -2,9 +2,11 @@
 title: Tehniliste toodete muudatuste haldamine
 description: Teema annab teavet tehnilise muudatuse haldamise kohta. Tehnilise muudatuse haldamine pakub struktureeritud protsesse, et hallata muudatusi tehnilistes toodetes, alates ettepanekute tegemisest, taotlemisest ja muudatuste tegemisest kuni muudatuste läbivaatamiseni ja kinnitamiseni, nende mõju hindamiseni olemasolevatele tehingutele ning nende jälgimiseni.
 author: t-benebo
+manager: tfehr
 ms.date: 09/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EngChgEcmRequestSelection,EngChgEcmRequestProducts,EngChgEcmRequestPriorityChart,EngChgEcmRequestListPage,EngChgEcmRequestFilteredPart,EngChgEcmRequestDetails,EngChgEcmReason,EngChgEcmProjTableInformation,EngChgEcmProductRoute,EngChgEcmProductRelease,EngChgEcmProductPreview, EngChgEcmWhereUsed, EngChgEcmInventTrans,EngChgEcmHeaderSelection,EngChgEcmHeaderPreviewPart,EngChgEcmHeaderFilteredPart,EngChgEcmHeaderDetails, EngChgCaseWhereUsedAnalysis, EngChgCaseValidatorMessage
 audience: Application User
@@ -12,13 +14,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
-ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 93f5c3e4951784a6c4925b8f9026816bfaf551ee
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
-ms.translationtype: MT
+ms.dyn365.ops.version: Release 10.0.15
+ms.openlocfilehash: 8ae97d0e6aac1b0961427bd73a37612020231a9f
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102906"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4983796"
 ---
 # <a name="manage-changes-to-engineering-products"></a>Tehniliste toodete muudatuste haldamine
 
@@ -92,13 +94,9 @@ Sellel loendil on ainult informatiivne eesmärk. Seetõttu saate lisada nii palj
 
 Kiirkaart **Allikas** võimaldab teil jälgida muudatuse taotluse lähtepunkti. See on kasulik näiteks juhul, kui soovite näha, kas muudatuse taotlus loodi müügitellimuse alusel, kes selle lõi ja millises ettevõttes see loodi.
 
-### <a name="evaluate-the-business-impact-of-a-change-request-and-send-notifications"></a>Muudatuse taotluse ärimõju hindamine
+### <a name="evaluate-the-business-impact-of-a-change-request"></a>Muudatuse taotluse ärimõju hindamine
 
-Kui vaatate muudatuse taotlust läbi, saate otsida sõltuvusi. Sel viisil saate hinnata taotletud muudatuse mõju avatud kannetele, nagu näiteks müügitellimused, tootmistellimused ja vaba kaubavaru. Muutmise taotluste ülevaatamise käigus saate saata teavitusi inimestele, kes vastutavad erinevat tüüpi seotud tellimuste täitmise eest.
-
-#### <a name="review-affected-transactions-block-selected-transactions-and-send-notifications"></a>Mõjutatud kannete ülevaatamine, valitud kannete blokeerimine ja teatiste saatmine
-
-Mõjutatud kannete ülevaatamiseks, valitud kannete blokeerimiseks ja teatiste saatmiseks järgige järgmisi samme.
+Kui vaatate muudatuse taotlust läbi, saate otsida sõltuvusi. Sel viisil saate hinnata taotletud muudatuse mõju avatud kannetele, nagu näiteks müügitellimused, tootmistellimused ja vaba kaubavaru.
 
 1. Valige **Tehnilise muudatuse haldamine \> Ühine \> Tehnilise muudatuse haldamine \> Tehnilise muudatuse taotlused**.
 1. Avage olemasolev muudatuse taotlus või valige toimingupaanil **Uus**, et luua uus muudatuse taotlus.
@@ -107,36 +105,7 @@ Mõjutatud kannete ülevaatamiseks, valitud kannete blokeerimiseks ja teatiste s
     - **Otsing** – skannib kõiki avatud kandeid ja avab seejärel dialoogiboksi **Ärimõju avatud kannetele**, kus loetletakse kõik kanded, mida muudatus mõjutab.
     - **Kuva eelmine otsing** – avage dialoogiboks **Ärimõju avatud kannetele**, kus loetletakse eelmise otsingu tulemused. (Uut otsingut ei tehta.)
 
-1. **Äritegevuse mõju avatud kannetele** dialoogiboks annab vahekaartide komplekti, millest igaüks näitab kindla tüübiga mõjutatud loendi (**Müügitellimused**, **Ostutellimused**, **Tootmistellimused**, **Inventuur** jne). Igal vahekaardil kuvatakse ka number, mis näitab seda tüüpi mõjutatud kannete arvu. Valige vahekaart, et vaadata asjassepuutuvat loendit.
-1. Loendis kandega tööks valige see ja valige tööriistaribal üks järgmistest nuppudest:
-
-    - **Vaadake kannet** - Avage valitud kandekirje.
-    - **Blokeeri tellimus** - See nupp on saadaval ainult **Müügitellimused** vahekaart. Valige see valitud müügitellimuse blokeerimiseks.
-    - **Blokeeri rida** - See nupp on saadaval ainult **Müügitellimused** vahekaardil. Valige see, et blokeerida valitud ostutellimuse rida.
-    - **Teavitage vastutajat** - See nupp on saadaval ainult **Müügitellimused** vahekaardil. Valige see muudatusteatise saatmiseks valitud müügitellimuse eest vastutavale kasutajale. Lisateavet selle kohta, kes näeb teatisi ja kuidas seda vaadata, vaadake [kannete muutmise teatiste ülevaatamist ja töötlemisest](#review-notifications).
-    - **Teavitage tellijat** - See nupp on saadaval ainult **Müügitellimused** vahekaardil. Valige see, et saata muutmisteatis kasutajale, kes on määratud valitud ostutellimuse tellijaks. Lisateavet selle kohta, kes näeb teatisi ja kuidas seda vaadata, vaadake [kannete muutmise teatiste ülevaatamist ja töötlemisest](#review-notifications).
-    - **Teavita tootmist** – see nupp on saadaval ainult **Tootmistellimused** vahekaardil. Erinevalt müügitellimustest ja ostutellimustest ei ole tootmistellimustel ühtegi kasutajat, kes on määratud nende eest vastutavaks lõpuni. Selle asemel saavad erinevad ülevaatajad või planeerijad tavaliselt omanikud kindlale saidile või kindlale tootmise osale (nt kindlatele ressurssidele või ressursigruppidele). Seetõttu saavad selle nupu valimisel muutmisteatise kõik kasutajad, kes vastutavad valitud tootmistellimusega seotud ressursside eest. Lisateavet selle kohta, kes näeb teatisi ja kuidas seda vaadata, vaadake [kannete muutmise teatiste ülevaatamist ja töötlemisest](#review-notifications).
-    - **Teavitage ettevalmistajat** - See nupp on saadaval ainult **Ostutellimus** vahekaardil. Valige see, et saata muutmisteatis kasutajale, kes on määratud valitud ostutellimuse tellijaks. Lisateavet selle kohta, kes näeb teatisi ja kuidas seda vaadata, vaadake [kannete muutmise teatiste ülevaatamist ja töötlemisest](#review-notifications).
-    - **Teavitage müügivastutusest** - See nupp on saadaval ainult **Pakkumised** vahekaardil. Valige see muudatusteatis saatmiseks kasutajale, kes on määratud vastutama valitud pakkumise eest. Lisateavet selle kohta, kes näeb teatisi ja kuidas seda vaadata, vaadake [kannete muutmise teatiste ülevaatamist ja töötlemisest](#review-notifications).
-    - **Jäägid** - See nupp on saadaval ainult **Varud** vahekaardil. Valige see valitud laovaru mahakandmiseks.
-    - **Kuva ajalugu** – Avage valitud kandega seotud tegevuste ajalugu, kasutades dialoogiboksi **Ärimõju avatud kannetele**. (Näiteks näitab ajalugu, kas teatised on saadetud või kanded on blokeeritud.) 
-    - **Vaadake kõiki kandeid** – Avage kõigi kannete, mitte ainult avatud kannete täielik loend.
-
-> [!IMPORTANT]
-> Nupp **Teavita tootmist** on saadaval ainult siis, kui tootmisfunktsiooni *tehnikateatiste* funktsioon on teie süsteemi jaoks sisse lülitatud. Juhiseid funktsiooni ja selle eeltingimuste sisse- või väljalülitamine kohta vt tehnika muudatusehalduse [ülevaadet](product-engineering-overview.md).
-
-#### <a name="review-and-process-change-notifications-for-transactions"></a><a name="review-notifications"></a>Kannete muutmise teatiste ülevaatamine ja protsess
-
-Saate lugeda ja töödelda muutuseteatisi, mida saate järgmistel viisidel:
-
-- Muutke tegevuskeskuses teie eest vastutavate kannete teatisi, välja arvatud tootmistellimuste puhul. **Teadete näitamise** nupp (kella sümbol) navigeerimisriba paremal pool näitab, millal tegevuskeskuse sõnum on praegusele kasutajale saadaval. Kasutaja saab tegevuskeskuse avamiseks ja sõnumite ülevaatamiseks valida nupu **Näita teateid**.
-- Kõigi nende tootmistellimuste vaatamiseks, mille kohta on saadetud tehnikateatis, minge **Tootmistellimuste \> Tootmistellimusse \> Kõik tootmistellimused**. Valige lehe **Tootmistellimus** toimingupaani vahekaardi **Tehnika muutmise taotlus** grupis **Tootmisteated**, et avada leht **Tootmisteated**.
-- Tootmistellimuste puhul saate valida ainult nende muutuse teatiste ülevaatamise, mis kehtivad teie hallatavate tootmisressursside puhul. Tööruumis **Tootmispinna haldus** toimingupaanil **Konfigureerige oma tööruum** valige lehe filtreerimiseks, nii et see kuvab infot ainult teie hallatavate tootmisüksuste, gruppide ja/või ressursside kohta. Jaotises **Kokkuvõte** paanil nimega **Muudetud toodetega tootmistellimused** kuvatakse teatised, mis vastavad teie teatiste filtri sätetele. Valige see paani, et avada **Tehnika teatiste** leht, mis näitab kogu kannete loendit, mis vastavad teie filtri kriteeriumitele.
-
-Tootmistellimuse teatiste ülevaatamise ajal **Tehnika teatiste** lehel saate jälgida linke seotud muudatuse tellimustele või tootmistellimustele, valides veeru väärtused või kasutades seotud käske tegevuspaanil. Pärast muudatuse hindamise lõpetamist ja pärast vajaduse järgi tootmistellimuste tühistamist või muutmist saate märkida teatise lahendatuks. Valige tegevuspaanilt teatis ja seejärel valige tegevuspaanil **Lahendatud**. Teatis eemaldatakse kõikide kasutajate vaadetelt.
-
-> [!IMPORTANT]
-> Võimalus saata tootmistellimuste teatisi nõuab, et tootmisfunktsiooni *tehnikateatiste funktsioon* oleks teie süsteemi jaoks sisse lülitatud. Juhiseid funktsiooni ja selle eeltingimuste sisse- või väljalülitamine kohta vt tehnika muudatusehalduse [ülevaadet](product-engineering-overview.md).
+1. Kui probleem, mis nõuab muutmist, leitakse olevat kriitiline, saate avatud kanded blokeerida või teavitada vastutavat kasutajat, kasutades tööriistariba nuppe dialoogiboksis **Ärimõju avatud kannetele**.
 
 ### <a name="create-a-change-order-from-a-change-request"></a>Muudatuse tellimuse loomine muudatuse taotluse põhjal
 
@@ -172,14 +141,13 @@ Kui vaatate muudatuse taotlust läbi, valige toimingupaanil kiirkaardil **Muudat
 
 Nagu on kirjeldatud teemas [Tehnikaettevõtted ja andmete omandiõiguse reeglid](engineering-org-data-ownership-rules.md), olenevad redigeeritavad tooteandmed juriidilise isiku tüübist, milles te töötate (tehnikaettevõte vs. operatiivettevõte). Andmete omandiõiguse reegleid rakendatakse ka tehnilise muudatuse tellimuste puhul. Seetõttu, sõltuvalt juriidilisest isikust, kus te loote tehnilise muudatuse tellimuse, saab teha erinevat tüüpi muudatusi. Järgmisena on toodud mõned näited.
 
-- *Operatiivettevõtte* tehnilise muudatuse tellimuste korral saate tehnilisi andmeid vähe muuta. Näiteks saate luua tootele uusi versioone, muuta toote struktuuri koosluse kaudu ja muuta tehnilise atribuudi väärtusi. Iga mõjutatud toote puhul valige väljal **Mõju** üks järgmistest väärtustest.
+- **Operatiivettevõtte** tehnilise muudatuse tellimuste korral saate tehnilisi andmeid vähe muuta. Näiteks saate luua tootele uusi versioone, muuta toote struktuuri koosluse kaudu ja muuta tehnilise atribuudi väärtusi. Iga mõjutatud toote puhul valige väljal **Mõju** üks järgmistest väärtustest.
 
     - **Pole** – värskendage olemasolevat tooteversiooni (versioonisisene värskendamine).
     - **Uus versioon** – looge uus versioon, mis põhineb valitud tooteversioonil.
-    - **Uus toode** – looge täiesti uus toode, mis põhineb valitud tooteversioonil.
-    - **Uus versioon** – looge uus versioon, mis põhineb valitud tooteversioonil. Selle kooslus ja protsessi teave kopeeritakse.
+    - **Uus toode** – looge täiesti uus toode või tootevariant, mis põhineb valitud tooteversioonil.
 
-- *Operatiivettevõtte* tehnilise muudatuse tellimuste korral saate muuta toote logistilisi andmeid. Näiteks saate rikastada olemasolevat kooslust hankimissätetega, lisada kohalikke protsesse või kohalikke kooslusi ning isegi rikastada kooslust, lisades uusi koosluseridu kohaliku pakkematerjali, määrimisevedelike või kohalikus keeles juhiste jaoks. Rikastamised, mida kasutajad operatiivettevõttes teevad, säilitatakse uute värskenduste saatmisel tehnikaettevõttest. Lisateavet vt teemast [Tehnikaettevõtted ja andmete omandiõiguse reeglid](engineering-org-data-ownership-rules.md).
+- **Operatiivettevõtte** tehnilise muudatuse tellimuste korral saate muuta toote logistilisi andmeid. Näiteks saate rikastada olemasolevat kooslust hankimissätetega, lisada kohalikke protsesse või kohalikke kooslusi ning isegi rikastada kooslust, lisades uusi koosluseridu kohaliku pakkematerjali, määrimisevedelike või kohalikus keeles juhiste jaoks. Rikastamised, mida kasutajad operatiivettevõttes teevad, säilitatakse uute värskenduste saatmisel tehnikaettevõttest. Lisateavet vt teemast [Tehnikaettevõtted ja andmete omandiõiguse reeglid](engineering-org-data-ownership-rules.md).
 
     Kui tehnilise muudatuse tellimusi töödeldakse tehnikaettevõttes, luuakse ja/või uuendatakse tooted ainult tehnikaettevõttes. Seega, kui toote koondandmeid tuleb värskendada, tuleb tooted ka operatiivettevõtetele väljastada.
 
@@ -216,6 +184,3 @@ Suurem osa tehniliste muudatuste tellimuste väljadest on samad, mis on saadaval
 | Keskkonnatervis ja -ohutus | Määrake, kas muudatuse korral rakendatakse keskkonnatervise ja -ohutuse reegleid. Kui jah, saate valida kohaldatavad reeglid. |
 
 Saate kasutada nuppu **Halda/kopeeri muudatuse teave**, et kopeerida muudatuse teavet mõjutatud toodete vahel.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

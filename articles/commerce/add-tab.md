@@ -1,16 +1,13 @@
 ---
 title: Vahekaardi moodul
-description: See teema hõlmab vahekaardi mooduleid ja kirjeldab, kuidas neid rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
+description: See teema hõlmab ostukasti mooduleid ja kirjeldab, kuidas neid rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
 author: anupamar-ms
-manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,20 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c9d897113442f14b95539efb9fec9482be96447a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 9062e584d159e0f1986c46140d535f06f5d2817af048f30e812f9049bd52d4f6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411618"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6723283"
 ---
-# <a name="tab-module"></a>Vahekaardi moodul
+# <a name="tab-module"></a>Vahekaardimoodul
 
 [!include [banner](includes/banner.md)]
 
-See teema hõlmab vahekaardi mooduleid ja kirjeldab, kuidas neid rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
-
-## <a name="overview"></a>Ülevaade
+See teema hõlmab ostukasti mooduleid ja kirjeldab, kuidas neid rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
 
 Vahekaardi moodulid on konteinerilaadsed moodulid, mida kasutatakse vahekaartide abil saidi lehel teabe korrastamiseks. Neid saab kasutada igal lehel, kus teave tuleb esitada vahekaartidel.
 
@@ -39,13 +34,13 @@ Igas vahekaardi moodulis saab lisada ühe või enama vahekaardi mooduli. Iga vah
 
 Järgmisel pildil on näide vahekaardi moodulist saidi lehel. Näites on valitud vahekaart **Lähetamine**.
 
-![Vahekaardi mooduli näide](./media/ecommerce-tab.PNG)
+![Vahekaardi mooduli näide.](./media/ecommerce-tab.PNG)
 
 ## <a name="tab-module-properties"></a>Vahekaardi mooduli atribuudid
 
 | Atribuudi nimi | Väärtused | Kirjeldus |
 |---------------|--------|-------------|
-| Pealkiri | Tekst | See atribuut määratleb vahekaardi mooduli jaoks valikulise teksti pealkirja. |
+| Päis | Tekst | See atribuut määratleb vahekaardi mooduli jaoks valikulise teksti pealkirja. |
 | Aktiivse vahekaardi indeks | Number | See atribuut määratleb vahekaardi, mis peaks lehe laadimisel olema vaikimisi aktiivne. Kui väärtust ei esitada, siis on vaikimisi aktiivne esimene vahekaart. |
 
 ## <a name="tab-item-module-properties"></a>Vahekaardi üksuse mooduli atribuudid
@@ -84,3 +79,6 @@ Lehele vahekaardi mooduli lisamiseks ja atribuutide seadistamiseks toimige järg
 [Akordionmoodul](add-accordion.md)
 
 [Tekstiploki moodul](add-content-rich-block.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

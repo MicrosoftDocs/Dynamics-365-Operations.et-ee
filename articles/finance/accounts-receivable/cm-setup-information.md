@@ -1,23 +1,23 @@
 ---
 title: Krediidihalduse seadistamine
 description: See teema kirjeldab kreeditihalduseks vajalikku seadistust.
-author: JodiChristiansen
-ms.date: 02/15/2022
+author: mikefalkner
+ms.date: 09/04/2019
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 6977789b039c3e77e6d697e32bf4cac69c35a901
-ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
-ms.translationtype: MT
+ms.openlocfilehash: 640d81920dad391a77b58942972660b01f11b003
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8182424"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5830636"
 ---
 # <a name="credit-management-setup"></a>Krediidihalduse seadistamine 
 
@@ -39,7 +39,7 @@ Saate müügitellimuse ootele panna, kui tellimuse maksetingimused ei vasta klie
 
 Kui maksetingimuste reitingud on aktiivsed ja tellimuse maksetingimustel on kõrgem aste kui kliendi vaikimisi maksetingimustel, pannakse müügitellimused ootele.
 
-Maksetingimuste reitingu seadistamiseks minge krediidi ja sissenõuete **häälestuse krediidihalduse \> häälestuse \> reitingu \> maksetingimustele**.  
+Maksetingimuste järjestuse saate seadistada lehel **Krediit ja võlanõuded \> Seadistus \> Krediidihalduse seadistus \> Maksetingimuste järjestamine**  
 
 ### <a name="ranking-settlement-discounts"></a>Tasakaalustuse allahindluste hindamine
 
@@ -86,7 +86,7 @@ Konto olekuid saate luua lehel **Konto olekud** (**Krediit ja võlanõuded \> Se
 
 ## <a name="scoring-groups"></a>Hindamisgrupid
 
-Saate seadistada hindamisgrupid **,** et määrata riskitegurid ja nende mõõtmiseks kasutatavad kriteeriumid. Kui punktigruppi lisatakse andmeid kliendi kohta, arvutatakse iga riskifaktori kohta punktisumma ja kasutatakse seda kliendi riskigruppi panemiseks. Riskigruppi saab kasutada krediidiriski tuvastamiseks ja automaatsete krediidilimiitide arvutamiseks.
+Saate seada sisse punktigrupid riskifaktorite määratlemiseks ning kriteeriumid nende mõõtmiseks. Kui punktigruppi lisatakse andmeid kliendi kohta, arvutatakse iga riskifaktori kohta punktisumma ja kasutatakse seda kliendi riskigruppi panemiseks. Riskigruppi saab kasutada krediidiriski tuvastamiseks ja automaatsete krediidilimiitide arvutamiseks.
 
 Punktigruppe saate luua lehel **Punktigrupid** (**Krediit ja võlanõuded \> Seadistus \> Krediidhalduse seadistus \> Risk \> Punktigrupid**).
 

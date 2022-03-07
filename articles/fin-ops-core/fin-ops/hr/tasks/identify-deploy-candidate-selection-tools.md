@@ -1,59 +1,64 @@
 ---
 title: Kandidaatide valikutööriistade tuvastamine ja juurutamine
 description: Vabade kohtade täitmiseks piisava hulga kvalifitseeritud kandidaatide leidmine võib olla keeruline, eriti kui ametikoht nõuab unikaalseid oskusi.
-author: andreabichsel
-manager: AnnBe
-ms.date: 11/20/2020
+author: twheeloc
+ms.date: 01/10/2022
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmSkillMapping, HcmJobLookup, HcmSkillMappingLine, HcmPersonCertificate, CCHTMLPrintPreview
 audience: Application User
-ms.reviewer: anbichse
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8015d4e32da2ba80230aa0ad48576948f2fd1678
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
-ms.translationtype: HT
+ms.openlocfilehash: 2a9753e220e62794b157340c9f8e6f8a053e9ba7
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797746"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067979"
 ---
 # <a name="identify-and-deploy-candidate-selection-tools"></a>Kandidaatide valikutööriistade tuvastamine ja juurutamine
 
 [!include [banner](../../includes/banner.md)]
 
-Vabade kohtade täitmiseks piisava hulga kvalifitseeritud kandidaatide leidmine võib olla keeruline, eriti kui ametikoht nõuab unikaalseid oskusi.  Siiski võivad vajatavate oskustega kandidaadid aga juba teie organisatsioonis töötada. Saate otsida olemasolevate töötajate või uute kandidaatide seast kindlate oskustega spetsialiste. See võimaldab värbajal kiiresti koguda ja üle vaadata kandidaadid, kes on praegu või varem vabale ametikohale kandideerinud, või leida potentsiaalne kandidaat olemasolevate töötajate seast. Saate seda ülesande salvestist kasutades õppida, kuidas oskuste kaardistamise funktsioon aitab teil vabale ametikohale õiget inimest leida. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.
 
-1. Avage Personaliarvestus > Pädevused > Oskuste analüüs > Oskuste kaardistamise profiilid.
-2. Klõpsake valikut Uus.
-3. Sisestage oma oskuste kaardistamise nimi väljale Oskuste kaardistamine.  Näide: raamatupidaja.
-4. Sisestage oskuste kaardistamise kirjeldus väljale Kirjeldus.
-5. Sisestage kuupäev väljale Kuupäev.
-6. Klõpsake nuppu Too reeglid.
-    * Valige otsingu aluseks isik, töö või kursus ning tõmmake funktsiooni Too reeglid abil andmed tunnistuse, oskuse ja hariduse kohta.   Seejärel saate kriteeriumeid lisada või eemaldada, määrata kriteeriumide valikulisust ning anda kriteeriumidele tähtsus.  
-7. Klõpsake vahekaarti Töö.
-8. Sisestage või valige väärtus väljal Töö.
-9. Klõpsake nuppu OK.
-10. Laiendage kiirkaarti Vahemik ja lisage mistahes täiendavat teavet, näiteks osakond.
-11. Tunnistuste vaatamiseks või redigeerimiseks laiendage kiirkaarti Tunnistused.
-12. Oskuste vaatamiseks või redigeerimiseks laiendage kiirkaarti Oskused.
-13. Hariduse kriteeriumide vaatamiseks või redigeerimiseks laiendage kiirkaarti Haridus.
-14. Klõpsake nuppu Käivita.
-15. Klõpsake nuppu OK.
-16. Klõpsake vahekaarti Tulemus.
-17. Klõpsake vahekaarti Tulemus.
-18. Klõpsake Jätka.
-19. Klõpsake vahekaarti Tunnistused.
-    * Saate süvitsi minna iga loendis oleva isiku andmetesse ja vaadata nende hariduse, oskuste ja professionaalse kogemuse üksikasju.  
+[!INCLUDE [PEAP](../../../../includes/peap-1.md)]
+
+Vabade kohtade täitmiseks piisava hulga kvalifitseeritud kandidaatide leidmine võib olla keeruline, eriti kui ametikoht nõuab unikaalseid oskusi. Siiski võivad vajatavate oskustega kandidaadid aga juba teie organisatsioonis töötada. Saate otsida olemasolevate töötajate või uute kandidaatide seast kindlate oskustega spetsialiste. See võimaldab värbajal kiiresti koguda ja üle vaadata kandidaadid, kes on praegu või varem vabale ametikohale kandideerinud, või leida potentsiaalne kandidaat olemasolevate töötajate seast. Selle toimingu abil saate teada, kuidas oskuste kaardistamise funktsioon aitab teil leida avatud positsiooni jaoks õige inimese. The **USMF** Selle protseduuri loomiseks kasutati demoandmete ettevõtet.
+
+1. **Minge inimressursside \> pädevuste \> oskuste analüüsi \> oskuste kaardistamise profiilidele**.
+2. Valige suvand **Uus**.
+3. Sisestage oma oskuste kaardistamise nimi väljale **Oskuste kaardistamine**. Näiteks sisestage **raamatupidaja**.
+4. Sisestage väljale **Kirjeldus** oskuste vastenduse kirjeldus.
+5. Väljale **Kuupäev** sisestage kuupäev.
+6. Valitud isikult, töölt või kursuselt serdi,oskuste ja haridusandmete tõmbamiseks valige **Too profiil**, et saaksite neid otsingu alusena kasutada. Seejärel saate lisada või eemaldada kriteeriumid, näidata, kas need on valikulised, ja järjestada nende tähtsuse.
+7. Valige **Töö**.
+8. **Sisestage või valige väljale Töö** väärtus.
+9. Valige nupp **OK**.
+10. Lisage kiirkaardil **Vahemik** mis tahes lisateavet (nt osakond).
+11. **Vaadake või redigeerige kiirkaardil Serdid** serte.
+12. Kiirkaardil **Oskused** saate oskusi vaadata või redigeerida.
+13. Kiirkaardil **Haridus** saate vaadata või redigeerida hariduskriteeriume.
+14. Valige **Käivita**.
+15. Valige nupp **OK**.
+16. Valige **Tulem**.
+17. Valige **Tulem**.
+18. Valige **Jätka**.
+19. Valige **Serdid**.
+
+    Saate puurida edasi iga loetletud isiku kohta, et vaadata üksikasju oma hariduse, oskuste ja töökogemuse kohta.
+
 20. Sulgege leht.
 21. Sulgege leht.
 22. Valige tulemus uuesti.
-23. Klõpsake vahekaarti Aruanne.
-    * Parimad vasted loetletakse aruande ülaosas.  Näete, et vaheelement on loetletud.  See on näitab erinevust oskuste kaardistamisel üles loetletud ja isikule määratud oskuste taseme vahel.  
-24. Sulgege leht.
-25. Klõpsake nuppu Salvesta.
+23. Valige **Aruanne**.
 
+    Parimad mängud loetletakse aruande ülaosas. Peaksite nägema, et loetletud on tühimiku element. See element tähistab erinevust oskuste kaardistamisel loetletud taseme ja isikule määratud oskuse taseme vahel.
+
+24. Sulgege leht.
+25. Valige käsk **Salvesta**.
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

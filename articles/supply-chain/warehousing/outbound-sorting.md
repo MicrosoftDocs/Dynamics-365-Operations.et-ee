@@ -2,11 +2,9 @@
 title: Väljastuste sortimine
 description: Selles teemas antakse teavet väljamineku sortimise kohta. See funktsioon hõlbustab väikeste konteinerite käsitsemist ja aitab lao töötajatel veokis kaubaaluste mahutavust tõhusamalt planeerida ja korraldada.
 author: Mirzaab
-manager: tfehr
 ms.date: 07/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSPack, WHSOutboundSortTemplate, WHSOutboundSortPositionAssignments, WHSLocationType, WHSLoactionProfile
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 2b0049269b69c0777420b3ecd9b1f649c4a1ab11
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 3c576209a86f776ac424f7fb9f2b606bea774a67
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4963406"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5828390"
 ---
 # <a name="outbound-sorting"></a>Väljastuste sortimine
 
@@ -666,3 +664,6 @@ Peate viima lõpule sorditud varude komplekteerimistöö. Kui see on lõpule vii
     Töö on lõpule viidud.
 
 Sellest alates kehtivad kõik muud laoprotsessid.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,31 +1,32 @@
 ---
 title: Puhkuste ja puudumiste ülevaade
-description: Rakenduses Dynamics 365 Human Resources pakub puhkuste ja puudumiste tööruum paindlikku raamistik uute puhkuseplaanide loomiseks. See pakub ka töövoogusid taotluste haldamiseks ja intuitiivset iseteeninduslehte töövõtjatele vaba aja taotlemiseks.
-author: andreabichsel
-manager: AnnBe
-ms.date: 06/01/2020
-ms.topic: article
+description: Rakenduses Dynamics 365 Human Resources pakub puhkuste ja puudumiste tööruum paindlikku raamistik uute puhkuseplaanide loomiseks.
+author: twheeloc
+ms.date: 10/28/2021
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
-ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ea58c3a08e74eea1ab51aa19a5a28445a9bcbb04
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 344b4bba144a311530ce7be3b4bc230ce9cf8d1a
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418210"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069017"
 ---
 # <a name="leave-and-absence-overview"></a>Puhkuste ja puudumiste ülevaade
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Dynamics 365 Human Resources aitab teil pakkuda oma töötajatele suurepäraseid puhkusesoodustusi. Tööruum **Puhkused ja puudumised** pakub uute puhkuseplaanide loomise paindlikku raamistikku. See pakub ka töövoogusid taotluste haldamiseks ja intuitiivset iseteeninduslehte töövõtjatele vaba aja taotlemiseks. Analüüs aitab teie organisatsioonil mõõta ja jälgida puhkuseplaanide saldosid ja kasutust.
 
@@ -34,8 +35,9 @@ Dynamics 365 Human Resources aitab teil pakkuda oma töötajatele suurepäraseid
 Enne oma töötajate jaoks puhkuseplaanide loomist peate läbima paar seadistuse etappi.
 
 - [Puhkuste ja puudumiste parameetrite konfigureerimine](hr-leave-and-absence-parameters.md)
-- [Tööajakalendri loomine](hr-leave-and-absence-working-time-calendar.md)
-- [Puhkusetaotluse töövoo loomine](hr-leave-and-absence-workflow.md)
+- [Looge töögraafik](hr-leave-and-absence-working-time-calendar.md)
+- [Puhkusetaotluse loomine töövoogu](hr-leave-and-absence-workflow.md)
+- [Puudumiste halduri rolli konfigureerimine](hr-configure-absence-manager.md)
 
 ## <a name="create-and-manage-leave-plans"></a>Puhkuseplaanide loomine ja haldamine
 
@@ -51,6 +53,10 @@ Enne töötajale puhkuseplaanide loomist peate looma puhkuste ja puudumiste tü�
 
 Teie töövõtjad võivad esitada eemaloleku aja taotlusi ja saate neid hallata tööruumis **Töövõtja iseteeninduskeskus**.
 
-[Vaba aja taotlemine](hr-employee-self-service-request-time-off.md)
-[Puhkuste ja puudumiste taotluste haldamine](hr-employee-self-service-manage-requests.md)
+- [Taotle vaba aega](hr-employee-self-service-request-time-off.md)
+- [Puhkuste ja puudumiste taotluste haldamine](hr-employee-self-service-manage-requests.md)
+- [Puudumiste halduri rolli konfigureerimine](hr-configure-absence-manager.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

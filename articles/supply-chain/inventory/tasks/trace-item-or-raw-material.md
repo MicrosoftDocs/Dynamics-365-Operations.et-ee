@@ -1,27 +1,25 @@
 ---
 title: Kauba või toormaterjali jälgimine
 description: See protseduur näitab, kuidas kasutada kauba jälgimist tuvastamiseks, kus kaupu või toormaterjale on kasutatud või kasutatakse.
-author: pjacobse
-manager: tfehr
+author: yufeihuang
 ms.date: 08/12/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventTrackingDimTracing, InventTrackingDimTracingCriteria, InventTrackingItemIdLookup, InventBatchIdLookup, CustTable, SalesLine
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: pjacobse
+ms.author: yufeihuang
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 044b098b24d8cdf8008824b7ed1359f2b0566a8f
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c01cabf32542798f70720ab0db7d055fc54cf345
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4961483"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7575820"
 ---
 # <a name="trace-an-item-or-raw-material"></a>Kauba või toormaterjali jälgimine
 
@@ -59,3 +57,6 @@ Puu ülemine sõlm kajastab valitud kauba ja partii laos olevat kogust. Peate la
 9. Klõpsake nuppu **Saadetud müügitellimused**.
 10. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

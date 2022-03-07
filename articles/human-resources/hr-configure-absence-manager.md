@@ -2,7 +2,7 @@
 title: Puudumiste halduri rolli konfigureerimine
 description: See teema kirjeldab, kuidas seadistada puudumiste halduri rolli töötaja puhkuse haldamiseks.
 author: hasrivas
-ms.date: 08/25/2021
+ms.date: 07/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,19 +15,18 @@ ms.search.region: Global
 ms.author: hasrivas
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9f1c699358c9cc8de9e975886cfb72edfb0d3f31
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: e8a8250b36d2774ac308637253b780592df316cd
+ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065222"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6639602"
 ---
 # <a name="configure-the-absence-manager-role"></a>Puudumiste halduri rolli konfigureerimine
 
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+[!include [preview feature](./includes/preview-feature.md)]
 
 Mõnedes organisatsioonides ei pruugi personalijuhatajad oma meeskonna puhkuseid hallata. Selle asemel võib puudumise haldur selle protsessiga tegeleda mitme osakonna ja meeskonna meeskonnaliikmete jaoks. Puudumiste halduritel on puhkusehalduseks järgmised võimalused:
 
@@ -39,7 +38,7 @@ Mõnedes organisatsioonides ei pruugi personalijuhatajad oma meeskonna puhkuseid
 
 1. Valige **Süsteemihaldus** tööruumis **Funktsioonihaldus**.
 
-2. Lubage **Funktsioonihaldus** vahekaardil funktsioon **Puudumiste haldur puhkuste haldamiseks**.
+2. Lubage **Funktsioonihaldus** vahekaardil funktsioon **(Eelvaade) Puudumiste haldur puhkuste haldamiseks**.
 
 ## <a name="define-a-custom-hierarchy"></a>Kohandatud hierarhia määratlemine
 
@@ -90,24 +89,19 @@ Puudumiste halduri roll tuleb töötajatele määrata, et nad saaksid puhkusetao
 
 ## <a name="absence-manager-workspace"></a>Puudumiste halduri tööruum
 
-**Töötaja iseteeninduse** tööruumis kuvatakse **Puhkuste haldamine** vahekaardil puudumiste teave töötajate kohta, kes on puhkuse hierarhias puudumiste haldurisse määratud. Puudumiste halduril on mõned võimalused saadaval: 
- - Vaba aja taotluste läbi vaatamine.</br>
- - Töötaja nimel töölt eemaldumistaotluse esitamine.</br>
- - Saate vaadata kõiki nendesse puhkusehierarhiasse määratud töötajaid.</br>
- - Puudumiste halduri kalendri kuvamine.</br>
+**Töötaja iseteeninduse** tööruumis kuvatakse **Puudumiste halduri** vahekaardil puudumiste teave töötajate kohta, kes on puhkuse hierarhias puudumiste haldurisse määratud.
 
-**Puhkuse halduse** tööruumis on kaks vahekaarti:
- - **Vaba aja taotlus**: see vahekaart loetleb kõik ootelolevad puudumise taotlused, mille puudumiste haldur saab kinnitada. Puudumiste haldur saab valida mitu kirjet ja tegutseda nendega samaaegselt. Kui ettevõtteülene puhkusevaade on lubatud, kuvatakse selles loendis kõigi juriidiliste isikute ootelolevad väljaminekutaotlused, mille juurde neil on juurdepääs. Vastasel juhul kuvatakse see praegu valitud juriidilise isiku ootel olevate vaba aja taotluste kohta. </br>
- - **Kõik töötajad**: Sellel vahekaardil loetletakse puhkuse hierarhias kõik puudumiste haldajale määratud töötajad. Igale töötajale on saadaval mõned valikuvõimalused:
-    - **Taotle puhkust** – Saate edastada valitud töötajale uue vaba aja taotluse.</br>
-    - **Vaba aeg** – vaadake valitud töötaja saldosid, heakskiidetud vaba aega ja puhkeaja taotlusi.</br>
+Vahekaardil **Puhkus ja puudumine** on iga töötaja jaoks saadaval järgmised valikud.
+
+- **Vaba aeg** – vaadake valitud töötaja saldosid, heakskiidetud vaba aega ja puhkeaja taotlusi.
+- **Puhkusesaldod** – saate vaadata valitud töötaja erinevate puhkuseplaanide saldode loendit.
 
 ## <a name="approve-time-off-requests"></a>Vaba aja taotluste kinnitamine
 
-Puudumise haldurid saavad töötajate aja mahavõtmise taotlusi heaks kiita või tagasi lükata. 
+Puudumise haldurid saavad töötajate aja mahavõtmise taotlusi heaks kiita või tagasi lükata. Nad saavad vajaduse korral luua taotlusi ka töötajate nimel.
 
 > [!IMPORTANT]
-> Enne, kui puudumise haldurid saavad puhkusetaotlusi heaks kiita või tagasi lükata, tuleb puhkuse taotlemise töövoog konfigureerida, et määrata neile ülevaatamiseks puhkuse taotlemise tööüksused.
+> Enne, kui puudumise haldurid saavad puhkusetaotlusi heaks kiita või tagasi lükata, tuleb puhkuse taotlemise töövoog konfigureerida neile puhkuse taotlemise tööüksused ülevaatamiseks määrama.
 >
 > 1. Leheküljel **Inimressurside töövood** valige või looge puhkuse taotluse töövoog.
 > 2. Valige suvand **Seosta hierarhia** ja seejärel valige **Hierarhia nimi** väljal **Puhkus**.
@@ -115,13 +109,15 @@ Puudumise haldurid saavad töötajate aja mahavõtmise taotlusi heaks kiita või
 >
 > Teavet puhkusetaotluse töövoo loomise kohta leiate teemast [Puhkusetaotluse töövoo loomine](hr-leave-and-absence-workflow.md).
 
-1. Valige töölehel **Töötaja iseteenindus** vahekaart **Puhkuste haldur**.
+1. Valige **Töötaja iseteeninduse** töölehel vahekaart **Puudumise haldur**.
 
-2. Valige **Puhkuse taotlus** vahekaardilt puhkuse taotlus, millele soovite midagi teha. Selles loendivaates saate valida mitu kirjet.
+2. Valige vahekaardil **Puudumiste haldur** soovitud töötaja.
 
-3. Kasutage ruudustiku ülaosas nuppe Kinnita, Keeldu või Delegeeri vaba aja taotluseks. 
+3. Valige **Üksikasjad** ja seejärel **Puhkus**.
 
-Teise võimalusena saab kasutaja kasutada vasakul paani **Vaba aja taotlus**, et navigeerida kõigi väljasolevate tööüksuste ajaloendisse. 
+4. Otsige puhkusetaotlus üles ja valige suvand **Kinnitamine**. Seejärel saate valida suvandi, mis kinnitab või tühistab puhkusetaotluse.
+
+Olek **Tühistamine** näitab, et taotlus on tagasi lükatud. Olek **Lõpetatud** näitab, et taotlus on heaks kiidetud.
 
 ## <a name="view-time-off-in-the-calendar"></a>Kalendris puhkuse kuvamine
 
@@ -130,7 +126,7 @@ Puudumiste halduri rolli kasutajad saavad vaadata oma kalendris puhkuste taotlus
 > [!IMPORTANT]
 > Süsteemiadministraator peab puudumiste halduri kalendri vaatevalikud konfigureerima. **Puhkuse ja puudumise parameetrite** lehel on vahekaardil **Kalender** suvand sünnipäevade, üksikasjadeta puudumiste, puudumiste ja ootel puhkusetaotluste peitmiseks või näitamiseks. Samuti on võimalus kalendrivaate valikut filtreerida töötaja tüübi järgi.
 
-1. Tööruumis **Töötaja iseteenindus** valige **Puudumiste haldur** ja seejärel **Puudumiste halduri kalender**.
+1. Valige tööruumis **Töötaja iseteenindus** **Puudumiste haldur** ja seejärel **Puudumiste halduri kalender**.
 
 2. Väljale **Kuupäev** sisestage soovitud kuupäevad.
 

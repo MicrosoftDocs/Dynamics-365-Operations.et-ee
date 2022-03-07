@@ -1,8 +1,8 @@
 ---
-title: Rahavoo prognoosimise lubamine
+title: Rahavoo prognoosimise lubamine (eelversioon)
 description: Selles teemas selgitatakse, kuidas lülitada finantsülevaadetes sisse rahavoo prognoosimise funktsioon.
 author: ShivamPandey-msft
-ms.date: 02/11/2022
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,42 +15,48 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 763818f70095964d77ff82cf02178367d05eaf23
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
-ms.translationtype: MT
+ms.openlocfilehash: 29118557a1de4d3521f8125395b26471f7f48f3e
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109575"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638617"
 ---
-# <a name="enable-cash-flow-forecasting"></a>Rahavoo prognoosimise lubamine
+# <a name="enable-cash-flow-forecasting-preview"></a>Rahavoo prognoosimise lubamine (eelversioon)
 
 [!include [banner](../includes/banner.md)]
 
-See teema kirjeldab, kuidas lülitada finantside vihjetes sisse likviidsuse prognoosimise funktsioon.
+Selles teemas selgitatakse, kuidas lülitada finantsülevaadetes sisse rahavoo prognoosimise funktsioon.
 
 > [!NOTE]
 > Maksete prognoosimises rahavoo kasutamiseks peate häälestama kliendimaksete prognoosimise funktsiooni, nagu on kirjeldatud jaotises [Kliendimaksete prognoosimise lubamine](enable-cust-paymnt-prediction.md).
+
+1. Kasutage teavet teenuse Microsoft Dynamics Lifecycle Services (LCS) lehelt, et ühendada Azure SQL-i esmane eksemplar selle keskkonnaga. Käivitage järgmine Transact-SQL (T-SQL) käsk, et lülitada liivakasti keskkonna eelväljaanded sisse. (Enne rakendusobjekti serveriga \[AOS\] eemalt ühenduse loomist võib olla vajalik, et peate LCS-is lülitama oma IP-aadressi juurdepääsu sisse.)
+
+    `INSERT INTO SYSFLIGHTING (FLIGHTNAME, ENABLED) VALUES ('CashflowInsightsFeature', 1)`
+
+    > [!NOTE]
+    > Jätke see samm vahele, kui kasutate 10.0.20 või uuemat versiooni või kui kasutate Service Fabric juurutamist. Finantsülevaadete meeskond peaks olema väljaande juba teie jaoks sisse lülitanud. Kui te funktsiooni tööruumis **Funktsioonihaldus** ei näe või kui selle sisselülitamisel esineb probleeme, võtke ühendust aadressil <fiap@microsoft.com>.
   
-1. Avage tööruum **Funktsioonide haldus** ja järgige järgmisi etappe.
+2. Avage tööruum **Funktsioonide haldus** ja järgige järgmisi etappe.
 
     1. Valige **Otsi värskendusi**.
-    2. **Vahekaardil Kõik** otsige likviidsuse **eelarveid**. Kui te seda funktsiooni ei leia, otsige **(eelvaade) likviidsuse prognoose**. 
-    3. Lülitage funktsioon sisse.
+    2. Järgmiste funktsioonide sisselülitamine.
 
-2. Avage jaotis **Sularaha ja panga haldus \>Rahavoo prognoosimise seadistus** ja lisage likviiduses kontod, mis peaksid olema prognoosi kaasatud. Saate seadistada ka vahekaartide Müügireskontro **ja** Ostureskontro **maksete likviidsuskonto**. Arvutage kindlasti likviidsuse prognoos ümber.
+        - Uus ruudustiku juhtelement
+        - Ruudustikus grupeerimine (eelversioon) 
+        - Kliendimaksete prognoosid (eelversioon)
+        - Likviidsuse planeerimine (eelversioon)
+
+3. Avage jaotis **Sularaha ja panga haldus \>Rahavoo prognoosimise seadistus** ja lisage likviiduses kontod, mis peaksid olema prognoosi kaasatud.
 
     > [!NOTE]
     > Kui likviidsuse kontosid ei ole seadistatud, ei saa rahavoogu luua.
-    >
-    > Likviidsuse prognoosimise kohta lisateabe saamiseks vt likviidsuse [prognoosimist](../cash-bank-management/cash-flow-forecasting.md).
 
-3. Avage jaotis **Sularaha ja panga haldus \> Seadistus \> Finantsülevaated (eelversioon) \> Rahavoo prognoosid (eelversioon)** ja tehke järgmist.
+4. Avage jaotis **Sularaha ja panga haldus \> Seadistus \> Finantsülevaated (eelversioon) \> Rahavoo prognoosid (eelversioon)** ja tehke järgmist.
 
     1. Valige vahekaardil **Rahavoo prognoosimine** suvand **Luba funktsioon**.
     2. Valige **Prognoosimise mudeli loomine**.
-
-> [!NOTE]
-> Likviidsuse **prognoosimudeli** koolitus hõlmab andmeid, mille 100 või rohkem kandeid ulatuvad üle aasta. Soovitame teil vähemalt kaks aastat andmeid omada rohkem kui 1000 kandega.
 
 Lisainfo saamiseks rahavoo prognoosimise võimaluste kohta vt teemast [Rahavoo prognoosimine](cash-flow-forecast-intro.md).
 

@@ -1,33 +1,35 @@
 ---
-title: Küsimustike kujundamine
-description: See artikkel kirjeldab küsimustiku koostamise protsessi. Esimene samm on küsimustiku kavandamine. Küsimustiku kavandamisel ei kirjutata ainult küsimusi ja vastuseid, vaid luuakse ka struktuur, mis võimaldab vastuste salvestamise ja tabelisse paigutamise.
-author: andreabichsel
-manager: AnnBe
-ms.date: 06/20/2017
+title: Küsimustike loomine
+description: See teema kirjeldab küsimustiku koostamise protsessi.
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KCMCollectionType, KMAnswerCollection, KMCollection, HcmLearningWorkspace
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 17341
 ms.assetid: b27e2f12-c7a0-4a54-b8d8-17819f8a1c72
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: da4250b281438c29c82150af8db9cb8cca41c6c9
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 90dd59b605c21abd03d2e0d64a89dc787850c26e
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418217"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065197"
 ---
-# <a name="design-questionnaires"></a>Küsimustike kujundamine
+# <a name="create-questionnaires"></a>Küsimustike loomine
 
-See artikkel kirjeldab küsimustiku koostamise protsessi. Esimene samm on küsimustiku kavandamine. Küsimustiku kavandamisel ei kirjutata ainult küsimusi ja vastuseid, vaid luuakse ka struktuur, mis võimaldab vastuste salvestamise ja tabelisse paigutamise. 
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+See teema kirjeldab küsimustiku koostamise protsessi. Esimene samm on küsimustiku kavandamine. Küsimustiku kavandamisel ei kirjutata ainult küsimusi ja vastuseid, vaid luuakse ka struktuur, mis võimaldab vastuste salvestamise ja tabelisse paigutamise. 
 
 Hoolikalt koostatud küsimustik võib aidata tõsta kogutavate andmete kvaliteeti. Hoolika kavandamise kaudu saate küsimustiku jaoks sobival ajal paremini sobivaid võimalusi valida. Järgmised punktid aitavad tulemuslikku küsimustikku kavandada.
 
@@ -64,7 +66,7 @@ Mõned eeltingimused peavad olema kehtestatud enne, kui saate küsimustikke, vas
 
 ### <a name="questionnaire-types"></a>Küsimustike tüübid
 
-Küsimustike tüübid on kohustuslikud ja need tuleb määrata küsimustiku koostamisel. Küsimustike tüübid aitavad küsimustikke hõlpsamini hallata ja klassifitseerida. Kasutage küsimustike tüüpe küsimustike klassifitseerimiseks ja üksteisest eristamiseks. Näiteks kui teil on mitu küsimustikku, mille vahel valida, võite neid tüübi järgi filtreerida, et konkreetset küsimustikku oleks lihtsam leida. Siin on mõned näited küsimustike tüüpide kohta.
+**Küsimustiku tüübid** on nõutavad ja need tuleb küsimustiku loomisel määrata. **Küsimustiku tüübid** aitab teil küsimustikke hõlpsamini hallata ja klassifitseerida. Kasutage küsimustike tüüpe küsimustike klassifitseerimiseks ja üksteisest eristamiseks. Näiteks kui teil on mitu küsimustikku, mille vahel valida, võite neid tüübi järgi filtreerida, et konkreetset küsimustikku oleks lihtsam leida. Siin on mõned näited küsimustike tüüpide kohta.
 
 -   inimressursside areng,
 -   kliendiülevaated,
@@ -72,9 +74,9 @@ Küsimustike tüübid on kohustuslikud ja need tuleb määrata küsimustiku koos
 
 ### <a name="question-types"></a>Küsimuste tüübid
 
-Küsimuse tüübid on kohustuslikud ja need tuleb määrata küsimuse koostamisel. 
+**Küsimuste tüübid** on kohustuslikud ja need tuleb küsimuse loomisel määrata. 
 
-Saate kasutada küsimuste tüüpe aruandluse eesmärgil küsimuste kategoriseerimiseks. Küsimuste tüübid muudavad ka küsimuste leidmise lihtsamaks, kuna saate tüüpe lehel **Küsimused** filtritena kasutada. Siin on mõned näited küsimuste tüüpide kohta.
+Kasuta **Küsimuste tüübid** aruandluse küsimuste kategoriseerimiseks. **Küsimuste tüübid** hõlbustavad ka küsimuste leidmist, sest saate tüüpe kasutada filtritena **Küsimused** lehel. Siin on mõned näited küsimuste tüüpide kohta.
 
 -   Inimressursid
 -   Ärijuhtimine
@@ -91,9 +93,9 @@ Küsimuste ja vastuste korraldamiseks kasutatakse numbriseeriakoode. Nende numbr
 Kõik parameetrid tuleks määratleda enne andmete loomise alustamist. Küsimustiku parameetri sätteid saab igal ajal muuta.
 
 ## <a name="questionnaire-components"></a>Küsimustiku osad
-Küsimustikud hõlmavad kolme põhielementi: vastusegruppe, mis sisaldavad valikvastustega küsimuste vastuseid, küsimusi ja küsimustikku ennast.  Soovi korral saab küsimustiku küsimused tulemusegruppidesse jagada. Tulemusegrupid võimaldavad küsimusi kategoriseerida ja küsimustikku edasi analüüsida. 
+Küsimustikud hõlmavad kolme põhielementi: vastusegruppe, mis sisaldavad valikvastustega küsimuste vastuseid, küsimusi ja küsimustikku ennast. Soovi korral saab küsimustiku küsimused tulemusegruppidesse jagada. Tulemusegrupid võimaldavad küsimusi kategoriseerida ja küsimustikku edasi analüüsida. 
 
-[![QuestionnaireComponents](./media/questionnairecomponents-1024x615.png)](./media/questionnairecomponents.png)
+[![QuestionnaireComponents.](./media/questionnairecomponents-1024x615.png)](./media/questionnairecomponents.png)
 
 ### <a name="answer-groups-and-answers"></a>Vastusegrupid ja vastused
 
@@ -106,7 +108,7 @@ Võimaliku vastuste loendi esitamiseks suletud küsimustele võite luua vastused
 
 Vastusegrupid ja vastused on komponendid, mis moodustavad küsimuste aluseks oleva teabe põhiosa. Pärast vastusegrupi loomist saate seostada selle vastusegrupi küsimusega väljal **Vastusegrupp** lehel **Küsimused**. 
 
-Vastusegruppi saab kasutada samas küsimustikus rohkem kui ühe küsimuse puhul ja ka rohkem kui ühes küsimustikus. 
+An **Vastuste grupp** saab kasutada sama küsimustiku rohkem kui ühe küsimuse jaoks ja seda saab kasutada ka rohkem kui ühes küsimustikus. 
 
 > [!NOTE]
 > Kui muudate vastuste rühmas vastuse teksti, mida on juba kasutatud täidetud küsimustikes, võib andmete hindamine osutuda raskeks ja küsimustiku tulemused ei pruugi enam kehtida. Kui teil on vaja vastusegruppi muuta, kaaluge olemasoleva grupi muutmise asemel uue vastusegrupi loomist. Küsimuse või vastusega seotud või vastatud vastusegruppe ei saa kustutada.
@@ -172,7 +174,7 @@ Küsimustikus ei saa kustutada järgmist tüüpi küsimusi.
 
 ### <a name="result-groups"></a>Tulemustegrupid
 
-Tulemusegrupid on valikulised, kui seote küsimused küsimustikega. 
+**Tulemusrühmad** on valikulised, kui lisate küsimustikule küsimusi. 
 
 Tulemusegruppi kasutatakse punktide arvestamiseks ja küsimustiku tulemuste kategooriatesse jagamiseks. Kui kasutate tulemusegruppe, saate teha järgmist.
 
@@ -236,3 +238,5 @@ Tingimuslike küsimuste kasutamiseks küsimustikus küsimuste hierarhia loomisek
 Juriidiline isik pakub oma klientidele nii kaupu kui ka teenuseid. Nagu sellistel puhkudel tavaliselt juhtub, ostavad mõned kliendid ainult kaupu, mõned ainult teenuseid ja mõned nii kaupu kui ka teenuseid. Seega, kui juriidiline isik saadab laiali kliendirahulolu uuringu, rakendatakse küsimustikus tingimuslikku struktuuri, et kliendid, kes ostavad ainult teenuseid, ei peaks vastama kaupu puudutavatele küsimustele. 
 
 Teine võimalus on seadistada küsimustik nii, et kui vastaja valib küsimusele 1 vastuse A, on küsimus 2 küsimuste järjekorras järgmine. Kuid kui vastaja valib küsimuse 1 puhul vastuse B, on järgmine küsimus 5.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

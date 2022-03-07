@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: CustVendReportInterval, CustAgingSnapshot, CustCollectionsPoolsListPage, CustCollections
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 439be64a864056cc19fd156f664a4b90601be040
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b21fe217aacd11821ff8d5cf7c7682b2181e36c8
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442385"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5220079"
 ---
 # <a name="set-up-and-generate-accounts-receivable-aging-information"></a>Müügireskontro ajalise jaotuse teabe seadistamine ja genereerimine
 
@@ -59,3 +58,6 @@ See juhis aitab teil aegumisperioodi määratlust seadistada, kliendi saldosid a
 2. Valige saldoga klient.
 3. Laiendage kasti **Aegumise fakt** ala, et näha aegunud saldosid. Kiirinfo aegumisperioodi määratluse kohta võetakse parameetrites määratud aegumisperioodi vaikemääratlusest. Saate seda muuta menüüd Sissenõue kasutades.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

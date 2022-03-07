@@ -1,27 +1,24 @@
 ---
 title: Finantskonsolideerimise ja valuuta teisenduse ülevaade
 description: Selles teemas kirjeldatakse pearaamatu finantskonsolideerimisi ja valuuta teisendusi.
-author: aprilolson
-manager: AnnBe
-ms.date: 07/25/2019
-ms.topic: article
+author: jiwo
+ms.date: 10/07/2021
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 2a6685a2dcf9d7bf7ac82c3dede9c3ece0c08698
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: a77fe5e1970c617203706d9d629ac65e3a47909b
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442483"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982401"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>Finantskonsolideerimiste ja valuutateisenduse ülevaade
 
@@ -69,13 +66,13 @@ Siin on mõned konsolideerimisstsenaariumid, mida võrguühendusega konsolideeri
 ## <a name="legal-entity-setup"></a>Juriidilise isiku seadistamine
 Enne konsolideerimise töötlemist peate seadistama juriidilise isiku. Saate konsolideerimist käivitada nii palju kordi kui vaja ja kõik andmed teisendatakse lähteettevõte arvestusvaluutast valuutasse, mis on konsolideeritava ettevõtte jaoks määratud. Seetõttu, kui teil on järgmise organisatsiooni struktuuri jaoks vaja teisendada kõik Põhja-Ameerika ettevõtted esmalt USA dollaritele (USD) ja seejärel eurodele (EUR), emaettevõtte valuutale, peab teil olema vähemalt kaks konsolideeritavat ettevõtet.
 
-![Organisatsiooni struktuur](./media/organizational-structure.png "Organisatsiooni struktuur")
+![Organisatsiooni struktuur.](./media/organizational-structure.png "Organisatsiooni struktuur")
 
 Eelnevas ogranisatsioonilises struktuuris peab teil olema juriidiline isik Põhja-Ameerika konsolideerimise jaoks, kuna konsolideerimised konsolideerivad alati lähteettevõtte arvestusvaluutast konsolideeritava ettevõtte valuutasse. Kui näites on kõik ettevõtted kaasatud ühte konsolideerimisse, siis Mehhiko tütarettevõte teisendatakse Mehhiko peesodest (MXN) eurodeks, mitte peesodest USA dollariteks ja USA dollaritest eurodeks.
 
 Kui loote juriidilise isiku, saate määrata, kas ettevõtet kasutatakse nii konsolideerimis- kui ka eemaldamisprotsessis või ainult ühes neist protsessidest. Järgmises näites kasutatakse ettevõtet mõlemas protsessis. Pange tähele, et igapäevaseid töölehti ei saa sisestada konsolideeritavasse ettevõttesse, aga saate need sisestada eemaldamisettevõttesse. Seetõttu võib olla kasulik eraldi eemaldamisettevõte.
 
-![Juriidiline isik, mida kasutatakse nii konsolideerimiseks kui ka eemaldamiseks](./media/sep-elimination-company.png "Juriidiline isik, mida kasutatakse nii konsolideerimiseks kui ka eemaldamiseks")
+![Juriidiline isik, mida kasutatakse nii konsolideerimiseks kui ka eemaldamiseks.](./media/sep-elimination-company.png "Juriidiline isik, mida kasutatakse nii konsolideerimiseks kui ka eemaldamiseks")
 
 ## <a name="main-accounts-and-consolidation-account-groups"></a>Põhikontode ja konsolideerimiskontode grupid
 Peate otsustama, kuidas soovite oma kontoplaane konsolideerida. Konsolideerimisprotsessi käigus on teil põhikontode konsolideerimiseks kolm võimalust.
@@ -84,11 +81,11 @@ Esimene võimalus on kasutada lähteettevõtete põhikontosid. Sellisel juhul ko
 
 Teine võimalus on määrata vaikimisi konsolideerimiskonto lehel **Põhikontod**. Konto vastendatakse seejärel konsolideerimiskontoga. See suvand võib olla kasulik, kui teil on erisugused kontoplaanid või peate vastendama plaaniga, mille on määranud peakontor.
 
-![Põhikontode lehel määratud vaikimisi konsolideerimiskonto](./media/main-accounts.png "Põhikontode lehel määratud vaikimisi konsolideerimiskonto")
+![Põhikontode lehel määratud vaikimisi konsolideerimiskonto.](./media/main-accounts.png "Põhikontode lehel määratud vaikimisi konsolideerimiskonto")
 
 Kolmas võimalus on kasutada konsolideerimiskonto gruppe. Saate määrata nii palju konsolideerimiskonto gruppe kui vaja. Seejärel peate lehel **Täiendavad konsolideerimiskontod** vastendama põhikonto kontoplaanist kontoga, mida teil selle grupi jaoks vaja on.
 
-![Vastendamine täiendavate konsolideerimiskontode lehel](./media/additional-consolidation-accounts.png "Vastendamine täiendavate konsolideerimiskontode lehel")
+![Vastendamine täiendavate konsolideerimiskontode lehel.](./media/additional-consolidation-accounts.png "Vastendamine täiendavate konsolideerimiskontode lehel")
 
 ## <a name="consolidating-online"></a>Võrguühendusega konsolideerimine
 Lisateavet konsolideerimise üksikasjade sisestamise kohta võrgus vt teemast [Finantskonsolideerimised võrgus](./consolidate-online.md).
@@ -100,7 +97,7 @@ Konsolideerimise tulemuste vaatamiseks on teil mitu võimalust.
 - Vaadake üle konsolideeritava ettevõtte loendileht **Proovibilanss**.
 - Vaadake konsolideerimiskannete loendis lehel **Konsolideerimised** saldosid, mis on loodud iga perioodi kohta igale lähteettevõttele kuupäeva järgi.
 
-    ![Konsolideerimiskanded konsolideerimiste lehel](./media/managing-consolidation-transactions.png "Konsolideerimiskanded konsolideerimiste lehel")
+    ![Konsolideerimiskanded konsolideerimiste lehel.](./media/managing-consolidation-transactions.png "Konsolideerimiskanded konsolideerimiste lehel")
 
 Konsolideerimise uuesti käivitamiseks võite konsolideerimist lihtsalt töödelda. Võite ka esmalt valida suvandi **Kannete eemaldamine** lehelt **Konsolideerimised**.
 Kui teie konsolideeritud konto saldod ei ole täpsed, saab saldosid korrigeerida lehe **Sulgemisperioodi korrigeerimised** abil.
@@ -121,15 +118,15 @@ Eemaldamiste seadistuse leiate mooduli **Konsolideerimised** alal **Seadistus**.
 
 Saate enda vajaduste järgi määrata kuupäeva, millal eemaldamisreegel toimima hakkab, ja kuupäeva, millal see aegub. Kui soovite, et eemaldamisreegel oleks eemaldamispakkumise protsessis saadaval, peate seadistama suvandi **Aktiivne** valikule **Jah**. Valige tüübi **Eemaldamine** töölehe nimi.
 
-![Eemaldamisreegli põhiatribuudid](./media/ledger-elimination-rule-journal.png "Eemaldamisreegli põhiatribuudid")
+![Eemaldamisreegli põhiatribuudid.](./media/ledger-elimination-rule-journal.png "Eemaldamisreegli põhiatribuudid")
 
 Kui olete põhiatribuudid määratlenud, valige suvand **Read**, et määratleda tegelikud töötlusreeglid. Eemaldamiseks on kaks võimalust: võite eemaldada netomuutuse summa või määrata fikseeritud summa.
 
-Valige lähtekontod. Saate kasutada metamärgina tärni (\*). Näiteks väärtuse **1\*** korral valitakse eralduse andmeallikana kõik kontod, mis algavad numbriga **1**.
+Valige lähtekontod. Saate kasutada metamärgina tärni (\*). Näiteks väärtuse **1\**_ korral valitakse eralduse andmeallikana kõik kontod, mis algavad numbriga _* 1**.
 
 Kui olete lähtekontod valinud, kasutage välja **Konto täpsustus**, et määrata konto, mida kasutatakse sihtettevõttest. Valige suvand **Allikas**, et kasutada sama põhikontot, mis on määratletud lähtekontol. Kui valite suvandi **Kasutaja määratletud**, peate määrama sihtkonto.
 
-![Pearaamatu eemaldamisreegli rea leht](./media/ledger-elimination-rule-line.png "Pearaamatu eemaldamisreegli rea leht")
+![Pearaamatu eemaldamisreegli rea leht.](./media/ledger-elimination-rule-line.png "Pearaamatu eemaldamisreegli rea leht")
 
 Väli **Dimensioonide täpsustus** töötab nagu väli **Konto täpsustus**. Valige suvand **Allikas**, et kasutada sihtettevõttes ja lähteettevõttes samu dimensioone. Kui valite suvandi **Kasutaja määratletud**, peate määrama sihtettevõttes dimensioonid, valides suvandi **Sihtdimensioonid**. Seejärel valige lähtedimensioonid ja finantsdimensioonid ning väärtused, mida kasutatakse eemaldamisallikana.
 
@@ -168,7 +165,8 @@ Klientidel, kes kasutavad finantsaruandlust finantskonsolideerimisteks ja valuut
 - **Sujuv valuuta teisendamine** – pärast minimaalset seadistamist rakenduses Rahandus saate teisendada mis tahes finantsaruandluse aruandeid ükskõik millisesse seadistatud aruandlusvaluutasse. Peale selle saate seadistada piiramatu arvu aruandlusvaluutasid.
 - **Eemaldamiste sisestamine allikas** – saate luua ja printida eemaldamisaruannet, et kontrollida eemaldamiskandeid. Seejärel saate sisestada mis tahes uue eemaldamise standardse ettevõtete vahelise kandena. Võite ka kasutada eemaldamise juriidilist isikut mis tahes kande jaoks, mida te oma juriidilisse isikusse ei soovi.
 
-## <a name="supported-consolidation-scenarios"></a>Toetatud konsolideerimisstsenaariumid
+## <a name="supported-consolidation-scenarios-for-financial-reporting"></a>Toetatud konsolideerimisstsenaariumid finantsaruandluses
+
 Siin on mõned konsolideerimisstsenaariumid, mida finantsaruandlus toetab:
 
 - Ühe- ja mitmetasemelised konsolideerimised juriidilistele isikutele
@@ -182,3 +180,18 @@ Siin on mõned konsolideerimisstsenaariumid, mida finantsaruandlus toetab:
 
 ## <a name="generating-consolidated-financial-statements"></a>Konsolideeritud finantsaruannete loomine
 Lisateavet stsenaariumide kohta, kus võite luua konsolideeritud finantsaruandeid, vt teemast [Konsolideeritud finantsaruannete loomine](./generating-consolidated-financial-statements.md).
+
+## <a name="performance-enhancement-for-large-consolidations"></a>Suurte konsolideerimise jõudluse suurenemine
+
+Keskkonnad, kus on palju pearaamatukandeid, võivad olla optimaalseset kiirusest aeglasemad. Probleemi lahendamiseks saate seadistada paralleeltöötluse partiide jaoks, mis kasutavad kasutaja määratud kuupäevade arvu. Lahenduse ettenähtud toimimise tagamiseks lisage kuupäevavahemike konteineri tagastamiseks konsolideerimisele laienduspunkt. Põhiline rakendamine peaks sisaldama ühte kuupäevavahemikku konsolideerimise algus- ja lõppkuupäeva jaoks. Põhilise rakendamise kuupäevavahemikud kinnitatakse, et veenduda, et need ei sisaldaks tühikuid või kattumist. Kuupäevavahemikke kasutatakse igale ettevõttele paralleelpartiide kogumite loomiseks.
+
+Saate kohandada kuupäevavahemike arvu vastavalt oma organisatsiooni vajadustele. Kuupäevavahemike arvu kohandamisel saate lihtsustada testimist ja vähendada mõju olemasolevale koodile, kuna pole ühtegi eraldamisloogikat. Ainsad uued testid, mida on vaja partiikogumite loomise kinnitamiseks, kuupäevavahemike kontrollimiseks ja kuupäevavahemike alamkogumi testimiseks, kontrollimaks, et partiid saab lõpliku partiiülesande jaoks kokku tuua. 
+
+See funktsioon parandab konsolideerimisprotsessi pearaamatus, kui protsessi käitatakse partiitööna. Täiustus parandab pearaamatu konsolideerimisprotsessi jõudlust jaotades konsolideerimise mitmeks tööülesandeks, mida saab paralleelselt töödelda. Vaikemeetod, konsolideerimise käivitamiseks, töötleb iga ülesanne pearaamatu kaheksa päeva tegevust. Ent lisatud on laienduspunkt, mis võimaldab teil kohandada loodud numbritoiminguid.
+
+Enne selle funktsiooni kasutamist peate selle oma süsteemis sisse lülitama. Administraatorid saavad kasutada **funktsioonihalduse** tööruumi, et kontrollida funktsiooni olekut ja vajadusel selle sisse lülitada. Seega on funktsioon loetletud järgmisel viisil.
+
+- **Moodul:** pearaamat
+- **Funktsiooni nimi:** suurte konsolideerimise jõudluse suurenemine
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

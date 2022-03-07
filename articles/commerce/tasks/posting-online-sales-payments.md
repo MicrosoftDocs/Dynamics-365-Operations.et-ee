@@ -2,27 +2,24 @@
 title: Veebimüügi ja -maksete sisestamine
 description: See protseduur selgitab korduva pakett-töö konfigureerimist ja käitamist veebipoe kannete jaoks müügitellimuste ja maksete loomiseks.
 author: psimolin
-manager: AnnBe
 ms.date: 08/06/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RetailChannelOperationsWorkspace, RetailOperatingUnitPicker, SysRecurrence
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e3bac0cab764436a618fa570901c84ab720dbc86
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a2e482b0fb5f2cf67e687c2b278bc5b54ad09839
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411716"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5802667"
 ---
 # <a name="posting-of-online-sales-and-payments"></a>Veebimüügi ja -maksete sisestamine
 
@@ -109,3 +106,6 @@ See protseduur selgitab korduva pakett-töö konfigureerimist ja käitamist veeb
 - RetailTransactionMarkupTrans
 - RetailTransactionPaymentTrans
 - RetailTransactionAttributeTrans
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

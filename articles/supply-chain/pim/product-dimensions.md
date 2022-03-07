@@ -2,13 +2,16 @@
 title: Tootedimensioonid
 description: 'On olemas viis tootedimensiooni: värv, konfiguratsioon, suurus, stiil ja versioon. Tootedimensioonid saab ühendada dimensioonigruppidesse ja dimensioonigrupid saab määrata tooteetalonidele. Tootevariantide määratlemise määravad tootedimensioonide kombinatsioonid.'
 author: t-benebo
+manager: tfehr
 ms.date: 09/22/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductDimension, EcoResProductDimensionGroup, EcoResProductMasterDimension, RetailEcoResColor, RetailEcoResSize, RetailEcoResStyle, EcoResVersionNameLookup, RetailStyleGroupTable
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations, Retail
 ms.custom: 19171
 ms.assetid: 81fa3709-4ab8-4fbf-9806-359892a05985
 ms.search.region: Global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 46079daafc744421abcbdf0a3539428f2a39f13c
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
-ms.translationtype: MT
+ms.openlocfilehash: bdfd9482d30bd65cf84fae032df78e1243e05239
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920519"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4426031"
 ---
 # <a name="product-dimensions"></a>Tootedimensioonid
 
@@ -78,7 +81,7 @@ Ettevõte müüb teksasid. Kaup *Teksad* kasutab värvi- ja suurusedimensioone. 
 
 ## <a name="the-version-product-dimension"></a>Tootedimensioon „versioon”
 
-Versioon on tootedimensioon, mille eesmärk on aidata teil kogu tarneahelas hallata ja jälgida toote mitut versiooni. Versiooni jälgimine on oluline tootjate edukuseks, mis opereerivad toote töötsüklite kahandamise ja suurema kvaliteedi ja usaldusväärsuse nõuetes ning pööravad tähelepanu tooteohutusele.
+Versioon on tootedimensioon, mille eesmärk on aidata teil kogu tarneahelas hallata ja jälgida toote mitut versiooni. Versiooni jälgimine on tootjatele oluline edu saavutamiseks, sest nad tegutsevad maailmas, kus toote elutsüklid kahanevad pidevalt, kvaliteedi- ja töökindlusnõuded on järjest karmimad ning tooteohutusele keskendutakse üha enam.
 
 Standardse tootedimensioonina toimib versioon samamoodi nagu olemasolevad tootedimensioonid (suurus, stiil, värv ja konfiguratsioon). Seetõttu saate seda kasutada lisaks tooteversioonide jälgimisele ka muude eesmärkide jaoks.
 
@@ -119,7 +122,7 @@ Enne versioonidimensiooni kasutamist peate selle oma süsteemis sisse lülitama.
 
 ### <a name="areas-where-the-version-dimension-isnt-supported"></a>Valdkonnad, kus versioonidimensiooni ei toetata
 
-Järgmised alad ei toeta versioonidimensiooni (neid alasid saate siiski kasutada, kuid te ei saa neile lisada versioonitud tooteid (tooteid, mille puhul kasutatakse versioonidimensiooni)). Näiteks ei saa te versioonitud kaupa lisada hankija kataloogi. Põhjus on selles, et versioonidimensiooniga toodete lisamine nendele aladele põhjustaks murrangulised muudatused.
+Järgmistes valdkondades ei toetata versioonidimensiooni, kuna selle dimensiooni juurutamine põhjustaks kahjutoovaid muudatusi.
 
 - Kuluobjekti kuuaruanne
 - Kuluobjekti aruande vahemälu
@@ -143,6 +146,3 @@ Versioonidimensioon toimib samamoodi nagu teised tootedimensioonid. Kuid selle e
 
 > [!IMPORTANT]
 > Kui lülitate versioonidimensiooni sisse ja kasutate seda, võivad mõned lahendused, mis viitavad varude dimensioonidele, lõpetada ootuspärase töötamise. Nende probleemide kinnitamiseks ja lahendamiseks võtke mõjutatud lahendustega seoses ühendust oma sõltumatu tarkvaratarnijaga (ISV). Lisateavet leiate teemast [Versioonidimensiooni lubamine](#enable-version-dim).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

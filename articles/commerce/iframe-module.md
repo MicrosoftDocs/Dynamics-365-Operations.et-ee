@@ -1,16 +1,13 @@
 ---
 title: IFrame-moodul
-description: See teema hõlmab iFrame-moodulit ja kirjeldab, kuidas seda rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
+description: See teema hõlmab iframe-moodulit ja kirjeldab, kuidas seda rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
 author: anupamar-ms
-manager: annbe
-ms.date: 09/15/2020
+ms.date: 11/04/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,20 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 4afd8f60938c99d1981be1625ef28f91d9e4bb4c
-ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
-ms.translationtype: HT
+ms.openlocfilehash: bce6a50e8c145f8961bd0c839fe16c1f4d69e811
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4665392"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7754010"
 ---
 # <a name="iframe-module"></a>IFrame-moodul
 
 [!include [banner](includes/banner.md)]
 
-See teema hõlmab iFrame-moodulit ja kirjeldab, kuidas seda rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
-
-## <a name="overview"></a>Ülevaade
+See teema hõlmab iframe-moodulit ja kirjeldab, kuidas seda rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
 
 IFrame-moodul tagab iFrame'i (tekstisisene raam), mis majutab saidil välissisu. Näiteks saab seda kasutada YouTube'i video või PDF-faili vaaturi majutamiseks ükskõik millisel saidilehel. 
 
@@ -42,7 +37,7 @@ IFrame-mooduli jaoks on vaja siht-URL-i. Seejärel majutab see sihtlehe sisu HTM
 
 Järgmisel pildil on näited iFrame-moodulitest, mis näitavad saidilehtedel väliseid videoid.
 
-![IFrame-moodulite näide, millel on näha välised videod](./media/ecommerce-iframe.PNG)
+![IFrame-moodulite näide, milles on näha välised videod.](./media/ecommerce-iframe.PNG)
 
 ## <a name="iframe-module-properties"></a>IFrame-mooduli atribuudid
 
@@ -71,9 +66,15 @@ Et lisada välise video kuvamiseks lehele iFrame-moodul, toimige järgmiselt.
 1. Määrake vajaduse järgi muud atribuudid, näiteks **Pealkiri** ja **Kõrgus**.
 1. Valige **Salvesta**, valige lehe registreerimiseks **Lõpeta redigeerimine** ja seejärel selle avaldamiseks **Avalda**.
 1. Minge oma saidil turunduslehele. Peaksite nägema iFrame-moodulis renderdatavat videot.
- 
+
+> [!NOTE]
+> Kuna IFrame'i moodul hostib välist sisu, peavad saidi autorid tagama, et iframe'i moodulis majutatud sisu ei riku sisupiirangu poliitikaid vastaval turul. Kui iframe-moodulit kasutav lehekülg sisaldab sisu rikkumise, saab saidi autor iFrame'i mooduli eemaldada, avades saidikonstruktoris lehe, valides iframe-moodulis suvandi Eemalda moodul ning salvestades ja avaldades seejärel **·** uuesti.
+
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Mooduliteegi ülevaade](starter-kit-overview.md)
 
 [Sisu turbepoliitika (CSP) haldamine](manage-csp.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

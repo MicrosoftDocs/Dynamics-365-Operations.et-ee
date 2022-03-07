@@ -2,27 +2,24 @@
 title: Telemeetria toetamiseks saidile skriptikoodi lisamine
 description: Selles teemas kirjeldatakse saidi lehtedele kliendipoolse skriptikoodi lisamist, et toetada kliendipoolset telemeetriat.
 author: bicyclingfool
-manager: annbe
 ms.date: 09/29/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e15ba6a0d624bd97c25936aa6d3bfafb844b66c0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: fb1773ab10b23a586eb6a8286f145181818585b9
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411617"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5797427"
 ---
 # <a name="add-script-code-to-site-pages-to-support-telemetry"></a>Telemeetria toetamiseks saidile skriptikoodi lisamine
 
@@ -30,12 +27,10 @@ ms.locfileid: "4411617"
 
 Selles teemas kirjeldatakse saidi lehtedele kliendipoolse skriptikoodi lisamist, et toetada kliendipoolset telemeetriat.
 
-## <a name="overview"></a>Ülevaade
-
 Veebianalüüs on oluline tööriist, kui soovite mõista, kuidas kliendid teie saidiga suhtlevad, ja teha otsuseid, mis aitavad maksimaalse teisenduse kogemust optimeerida. Saadaval on palju veebianalüüsi pakette, et aidata teid nende eesmärkide saavutamisel, nagu Google Analytics, Clicky, Moz Analytics ja KISSMetrics. Enamik veebianalüüsi pakette nõuavad, et lisaksite oma saidi kõikidele lehtedele HTML-i elemendis **\<head\>** kliendipoolse skriptikoodi.
 
 > [!NOTE]
-> Selle teema juhised rakenduvad ka teistele kohandatud kliendipoolsetele funktsioonidele, mida Microsoft Dynamics 365 Commerce ei paku.
+> Selle teema juhised rakenduvad ka teistele kohandatud kliendipoolsetele funktsioonidele, mida Microsoft Microsoft Dynamics 365 Commerce ei paku.
 
 ## <a name="create-a-reusable-fragment-for-your-script-code"></a>Skriptikoodi jaoks taaskasutatava fragmendi loomine
 
@@ -122,3 +117,6 @@ Saidiehitajas tekstivälise skripti otse malli lisamiseks järgige neid juhiseid
 [Autoriõiguste teatise lisamine](add-copyright-notice.md)
 
 [Saidile keelte lisamine](add-languages-to-site.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

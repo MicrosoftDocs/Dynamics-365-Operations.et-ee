@@ -1,30 +1,27 @@
 ---
 title: MPOS-i ja pilve kassa (CPOS) jaoks laiendatud sisselogimise funktsiooni seadistamine
 description: See teema käsitleb võimalusi laiendatud sisselogimise seadistamiseks pilvekassas ja Retail Modern POS-is (MPOS).
-author: rubencdelgado
-manager: AnnBe
-ms.date: 06/20/2017
+author: boycezhu
+ms.date: 09/07/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailFunctionalityProfile
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 92353
 ms.assetid: 7473e237-fbc8-41d5-8ba0-920242747488
 ms.search.region: global
 ms.search.industry: Retail
-ms.author: rubendel
+ms.author: boycez
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 79878e2ffbf219f77f378997c277ced8bb41598c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 0cc3d3a3cadbc614e82b8cc7ae0b78406247cece
+ms.sourcegitcommit: efcb853a68a77037cca23582d9f6f96ea573727a
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411630"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7478667"
 ---
 # <a name="set-up-extended-logon-functionality-for-mpos-and-cloud-pos"></a>Cloud MPOS ja Cloud POS‑i laiendatud sisselogimisfunktsiooni seadistamine
 
@@ -62,8 +59,13 @@ Töötajale määratud laiendatud sisselogimise kustutamiseks otsige töötajat 
 
 ## <a name="extending-extended-logon"></a>Laiendatud sisselogimine laiendamine
 
+Laiendatud sisselogimine lubab ainult viit olulist märki, et olla boksist väljas kordumatu ID. Näiteks kui konfigureerite kaks kaarti ID-dega "1234567" ja "1234578", peetakse neid mõlemaid kui "12345". Võite luua laiendi, mis toetab rohkem märke. Üksikasjalikke juhiseid vaadake [MPOS-i ja pilve kassa laiendatud sisselogimise funktsioonide laiendamisest](https://cloudblogs.microsoft.com/dynamics365/no-audience/2018/12/14/extending-the-extended-logon-functionality-for-mpos-and-cloud-pos/).
+
 Sisselogimisteenust saab laiendada täiendavate laiendatud sisselogimine seadmete nagu käsiskannerid toetamiseks. Lisateabe saamiseks vt kassa laiendatavuse dokumentatsiooni.
 
 ## <a name="using-extended-logon"></a>Laiendatud sisselogimise kasutamine
 
-Kui laiendatud sisselogimine on konfigureeritud ja töötajale on määratud vöötkood või magnetriba, peab töötaja kassa sisselogimislehe kuvamisel tegema ainult kaarditõmbe või ‑skanni. Kui sisselogimise jätkamiseks on kohustuslik ka parool, palutakse töötajal oma parool sisestada.
+Kui laiendatud sisselogimine on konfigureeritud ja töötajale on määratud vöötkood või magnetriba, peab töötaja kassa sisselogimislehe kuvamisel tegema ainult kaarditõmbe või ‑skanni. Kui sisselogimise jätkamiseks on kohustuslik ka parool, palutakse töötajal sisestada oma parool.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

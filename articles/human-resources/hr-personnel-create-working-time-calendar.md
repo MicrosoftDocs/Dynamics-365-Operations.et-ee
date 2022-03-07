@@ -2,28 +2,27 @@
 title: Kalendrite loomine ja tööaegade genereerimine
 description: Kalendrid kirjeldavad operatsiooniressursside võimsust ja tööaegu. Selles artiklis selgitatakse, kuidas määratleda tööajamalli põhjal töökalendrit.
 author: andreabichsel
-manager: AnnBe
 ms.date: 07/09/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: OpResLifeCycleManagementWorkspace, WorkCalendarTable, WorkCalendarDate, HcmPersonnelManagementWorkspace, WrkCtrGroupDateCalendar, WrkCtrDateCalendar
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f5c630297a8962d1bb383110881b2acdc872b9cd
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 16decd94f72e6aefe4e1d058f4cfd6215d14f569
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418079"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6058892"
 ---
 # <a name="create-calendars-and-generate-working-times"></a>Kalendrite loomine ja tööaegade genereerimine
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 
 
@@ -43,3 +42,6 @@ Kalendrid kirjeldavad operatsiooniressursside võimsust ja tööaegu. Selles art
 12. Valige nupp **OK**.
 13. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

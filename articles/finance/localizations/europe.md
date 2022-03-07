@@ -2,25 +2,22 @@
 title: Euroopa ülevaade
 description: See teema sisaldab linke Microsoft Dynamics 365 Finance Euroopa dokumentatsiooni ressurssidele.
 author: ShylaThompson
-manager: AnnBe
-ms.date: 07/25/2019
+ms.date: 02/24/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.search.region: global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1d63d5682521b1991c387604c2cc219c7f147c8d
-ms.sourcegitcommit: cfd84321fba38e02e270d361df369a536a48efa3
+ms.openlocfilehash: 382cfc3eaacd0610491646f32e8c7684e0451d7f
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "4512207"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892369"
 ---
 # <a name="europe-overview"></a>Euroopa ülevaade
 
@@ -41,6 +38,7 @@ See teema sisaldab teavet ja linke ressurssidele, mis aitavad teil seadistada ju
 - [ELi käibearuandlus](emea-eu-sales-list.md)
 - [Vahetuskursi korrektsioonid](emea-exchange-rate-adjustments.md)
 - [Makseviiside failivormingud](emea-select-file-formats-for-the-method-of-payments.md)
+- [Finantside (globaliseerumine) juhised Brexit mõju kohta](https://businesscenter.mbs.microsoft.com/#contentdetail/GuidanceBrexitImpact)
 - [Finantsteenuse (ESR) integratsioon](emea-fiscal-service-integration.md)
 - [Põhivarade likvideerimine Eesti ja Leedu puhul](emea-credit-note-reverse-fixed-asset-sale.md)
 - [Varude sisemise üleviimise ülekandedokumendi koostamine](tasks/transfer-document-internal-inventory-transfer.md)
@@ -65,6 +63,7 @@ See teema sisaldab teavet ja linke ressurssidele, mis aitavad teil seadistada ju
 - [Arve töötlemine](emea-invoice-processing.md)
 - [EL-i kandesertifikaadi väljastamine](tasks/eur-00012-issue-eu-entry-certificate.md)
 - [Elektroonilise arvelduse toetatud standardid](emea-oioubl-standards-electronic-invoicing.md)
+- [Elektrooniliste sundarvete loomine](emea-eur-forced-einvoices.md)
 - [Algse arve viide (Ida-Euroopa)](tasks/ee-00004-original-invoice-reference.md)
 - [Osapoole otsing KMK reg-nr abil](tasks/eur-00015-party-search-vat-id.md)
 - [Makse viite loomise tööriist](tasks/ee-00015-payment-reference-generation-tool.md)
@@ -97,5 +96,8 @@ See teema sisaldab teavet ja linke ressurssidele, mis aitavad teil seadistada ju
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-- [Elektroonilise aruandluse ülevaade](../../dev-itpro/analytics/general-electronic-reporting.md)
-- [Elektroonilise aruandluse konfiguratsioonide allalaadimine teenusest Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
+- [Elektroonilise aruandluse ülevaade](../../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md)
+- [Elektroonilise aruandluse konfiguratsioonide allalaadimine teenusest Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

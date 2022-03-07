@@ -2,11 +2,9 @@
 title: Kohandatud väljade loomine ja nendega töötamine
 description: Selles teemas selgitatakse teile, kuidas kasutajaliidese luua kohandatud välju, et rakendus sobiks teie ettevõttega.
 author: jasongre
-manager: AnnBe
-ms.date: 03/09/2020
+ms.date: 05/24/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: SysCustomFieldManageFields
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-1-31
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: eee5b072f999aab7d4a5e72888abad3915e03d5b
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: c941fa30662ed54159e303bf2a944026900d8c04107bc800d109a80d9ef456a4
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798114"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6760706"
 ---
 # <a name="create-and-work-with-custom-fields"></a>Kohandatud väljade loomine ja nendega töötamine
 
@@ -28,7 +26,7 @@ ms.locfileid: "4798114"
 
 Kuigi mitmete äriprotsesside haldamiseks on olemas lai valik valmisvälju, on ettevõttel mõnikord vaja süsteemis jälgida lisateavet. Kuigi nende väljade lisamiseks arendustööriistas laiendustena saab kasutada programmeerijate abi, võimaldab kohandatud väljade funktsioon lisada väljasid otse kasutajaliidese kaudu, võimaldades teil kohandada rakendust oma ettevõttte vajadustele vastavaks veebibrauseri abil.
 
-Kohandatud väljade lisamise võimalus on saadaval platvormivärskenduses 13 ja uuemates. Ainult eriõigustega kasutajatel on juurdepääs sellele funktsioonile.
+*Ainult eriõigustega kasutajatel on juurdepääs sellele funktsioonile.*
 
 See video näitab, kui lihtne on lisada lehele kohandatud välja: [Kohandatud väljade lisamine](https://www.youtube.com/watch?v=gWSGZI9Vtnc).
 
@@ -48,8 +46,9 @@ Järgmised sammud kirjeldavad kohandatud välja loomist ja selle välja vormile 
     Kui te ei näe nuppu **Uue välja lisamine**, pole teil selle funktsiooni kasutamiseks vajalikku luba.
 
 7. Sisestage dialoogiboksi **Uue välja loomine** järgmine teave.
-
+   
     1. Valige andmebaasi tabel, kuhu see väli tuleks lisada. Pange tähele, et ripploendis kuvatakse ainult tabelid, mis toetavad kohandatud välju. Toetatud tabelite tehnilisi üksikasju vaadake allpool asuvast jaotisest.
+
     2. Valige uue välja andmetüüp. Saadaolevad andmetüübid on märkeruut, kuupäev, kuupäev ja kellaaeg, kümnendarv, arv, märkeloend ja tekst.
 
         - Andmetüübi tekst valimisel saate määrata ka väljale sisestatava teksti maksimaalse pikkuse.
@@ -62,11 +61,15 @@ Järgmised sammud kirjeldavad kohandatud välja loomist ja selle välja vormile 
 10. Märgitud väljade lisamiseks vormi valitud piirkonda klõpsake käsku **Lisa**..
 11. **Valikuline:** uute väljade teisaldamiseks valitud piirkonna soovitud asukohta lubage isikupärastamise tööriistaribal režiim **Teisaldamine**. Lisateavet eri isikupärastamisvõimaluste kasutamise kohta vormi teie isikliku kasutuse järgi kohandamiseks vaadake teemast [Kasutuskogemuse isikupärastamine](personalize-user-experience.md)
 
+> [!WARNING]
+> Võime sisestada väärtusi kohandatud väljale, mis on leheküljele lisatud, sõltub sellest, kas kohandatud väljaga seostatud tabel on redigeeritav või kirjutuskaitstud. Kui seotud tabel on kirjutuskaitstud, siis on kirjutuskaitstud ka kõik selle tabeliga lingitud väljad, k.a kõik kohandatud väljad.
+
+
 ## <a name="sharing-custom-fields-with-other-users"></a>Kohandatud väljade jagamine teiste kasutajatega
 
 Pärast kohandatud välja loomist ja selle vormile esitamist võite soovida seda uue väljaga uuendatud lehevaatet jagada ka süsteemi teiste kasutatatega. Seda saab toote isikupärastamisvõimalusi kasutades teha kahel viisil.
 
-- Soovitatav on seda teha süsteemi administraatori kaudu, kes saab isikupärastamise avaldada kõigile kasutajatele või kasutajate alamkogumile. Lisateavet vaadake teemast [Kasutuskogemuse isikupärastamine](personalize-user-experience.md).
+- Soovitatav protsess peab **avaldama [salvestatud vaate](saved-views.md)** koos kohandatud väljaga, mis on lisatud sobivasse kasutajakomplekti. Kui salvestatud vaadete funktsioon ei ole lubatud, saab süsteemiadministraator isikupärastamise rakendada isikupärastamise soovitud kasutajatele isikupärastamisvormist. Lisateavet vaadake teemast [Kasutuskogemuse isikupärastamine](personalize-user-experience.md).
 - Teise võimalusena saate muudatused (nimega *isikupärastamised*) eksportida, saata need ühele või mitmele kasutajale ja igaüks neist saab muudatused importida. Isikupärastamise tööriistariba suvand **Halda** võimaldab teil isikupärastamisi eksportida ja importida.
 
 ## <a name="managing-custom-fields"></a>Kohandatud väljade haldamine
@@ -137,6 +140,10 @@ Harvadel juhtudel võite otsustada, et kohandatud välja ei ole enam vaja. Sel j
 
 ## <a name="appendix"></a>Lisa
 
+### <a name="why-cant-i-enter-a-value-in-my-custom-field"></a>Miks ei saa ma sisestada väärtust oma kohandatud väljale? 
+
+Kui te ei saa tippida väärtust kohandatud väljale, kui lehekülg on redigeerimisrežiimis, võib põhjus olla selles, et tabel, mis väljale lisati, on praegu kirjutuskaitstud. Kõik tabeli väljad muutuvad kirjutuskaitstuks, kui kindlustamistabel on hetkel lehel kirjutuskaitstuna konfigureeritud.   
+
 ### <a name="who-can-create-custom-fields"></a>Kes saab kohandatud välju luua?
 
 Süsteemi kaitsmiseks saavad kohandatud välju vaikimisi luua vaid süsteemiadministraatorid. Sellegipoolest saavad süsteemiadministraatorid turberolli **Käitusaja kohandamise lauskasutaja** abil anda kohandatud väljade loomise õigusi lauskasutajatele, kelle osas organisatsioon õiguste andmist vajalikuks peab. Ilma selle turberollita kasutajad ei saa kohandatud välju luua, kuid saavad süsteemi teiste kasutajate loodud kohandatud välju vaadata ja neid mõjutada.
@@ -162,3 +169,6 @@ Jõudluse tõttu ja tehnilistel põhjustel võimaldavad praegu kohandatud välja
 ### <a name="can-i-reference-custom-fields-from-the-developer-tools"></a>Kas ma saan arendustööriistades viidata kohandatud väljadele?  
 
 Kohandatud välju saab hallata ainult kasutajaliidese kaudu ja neile ei saa koodi alusel viidata. 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

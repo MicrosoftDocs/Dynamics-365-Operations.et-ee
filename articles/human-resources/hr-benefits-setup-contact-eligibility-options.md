@@ -1,33 +1,32 @@
 ---
-title: Isikliku kontakti sobivuse suvandite konfigureerimine
-description: Isiklike kontaktide sobivuse suvandite konfigureerimine rakenduses Microsoft Dynamics 365 Human Resources. Isiklikud kontaktid võivad olla kasusaajad või sõltuvad.
-author: andreabichsel
-manager: AnnBe
-ms.date: 04/06/2020
+title: Isiklike kontaktide sobivuse suvandite konfigureerimine
+description: See teema selgitab, kuidas konfigureerida isiklike kontaktide sobivuse suvandeid rakenduses Microsoft Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 08/24/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 68364b0cc1c579a3ee9813474c9d3f6e4df1c05d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: bd0ba4b609aaf05d37b120eaea71095a589bcc0a
+ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418175"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "7423289"
 ---
-# <a name="configure-personal-contact-eligibility-options"></a>Isikliku kontakti sobivuse suvandite konfigureerimine
+# <a name="configure-personal-contact-eligibility-options"></a>Isiklike kontaktide sobivuse suvandite konfigureerimine
 
-See artikkel näitab, kuidas konfigureerida soodustuste kasutamiseks isiklike kontaktide tüüpe rakenduses Microsoft Dynamics 365 Human Resources. Isiklikud kontaktid võivad olla kasusaajad või sõltuvad. 
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+See teema kirjeldab, kuidas konfigureerida soodustuste kasutamiseks isiklike kontaktide tüüpe rakenduses Microsoft Dynamics 365 Human Resources. Isiklikud kontaktid on need isikud, kellele teie plaanid kuuluvad (ülalpeetavad) või kes saavad teie plaanidest kasu (kasusaajad). Ülalpeetavad on tavaliselt abikaasad või lapsed. Kasusaajad võivad olla abikaasad, pered, usaldusisikud või lapsevanemad.
 
 1. Tööruumis **Soodustuste haldus** jaotises **Seadistus** valige suvand **Isikliku kontakti sobivuse suvandid**.
 
@@ -45,3 +44,6 @@ See artikkel näitab, kuidas konfigureerida soodustuste kasutamiseks isiklike ko
    | **Vanus** | Soodustuse plaani sobiva isikliku kontakti maksimaalne vanus. See väli on aktiivne ainult siis, kui valite seose. Seda vanust võrreldakse isikliku kontakti arvutatud vanusega. Arvutatud vanus on: (katvuse kuupäev – isiklik kontakti sünnikuupäev / 365). See number on alati täisarv. |
 
 4. Valige käsk **Salvesta**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

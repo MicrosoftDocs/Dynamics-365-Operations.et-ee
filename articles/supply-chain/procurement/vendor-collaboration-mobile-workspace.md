@@ -1,27 +1,25 @@
 ---
 title: Hankija koostöö mobiilne tööruum
 description: See teema annab teavet hankija koostöö mobiilse tööruumi kohta. See tööruum võimaldab hankijatel olla kursis ostutellimustega, mis on neile kinnitamiseks saadetud. Nad saavad vaadata teavet ka uute ja muudetud ostutellimuste ning kontaktide kohta.
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 267074
 ms.assetid: 1d293b3a-2fa2-418d-9347-78c2809d67fe
 ms.search.region: global
-ms.author: riluan
+ms.author: henrikan
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 5cd8a2b2db7147aca6bdc29ba15d99a619ddb4f8
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
-ms.translationtype: HT
+ms.openlocfilehash: efbd0afb0d84f76058b75126af200a9b10197559
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5020832"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577020"
 ---
 # <a name="vendor-collaboration-mobile-workspace"></a>Hankija koostöö mobiilne tööruum
 
@@ -59,7 +57,7 @@ Uute kontaktide loomiseks ja uute kasutajataotluste esitamiseks tuleb kasutada v
 Eeltingimused erinevad olenevalt teie organisatsioonis juurutatud Microsoft Dynamics 365 versioonist.
 
 ### <a name="prerequisites-if-you-use-supply-chain-management"></a>Eeltingimused, kui kasutate Supply Chain Managementi
-Kui Supply Chain Management on teie organisatsioonis on juurutatud, peab süsteemiadministraator avaldama mobiilse tööruumi **Koostöö hankijaga**. Juhised leiate jaotisest [Mobiilse tööruumi avaldamine](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+Kui Supply Chain Management on teie organisatsioonis on juurutatud, peab süsteemiadministraator avaldama mobiilse tööruumi **Koostöö hankijaga**. Juhised leiate jaotisest [Mobiilse tööruumi avaldamine](../../fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Eeltingimused, kui kasutate rakenduse Microsoft Dynamics 365 for Operations versiooni 1611 platvormivärskendusega 3 või uuemat
 Kui teie organisatsioonis on juurutatud Microsoft Dynamics 365 for Operationsi versioon 1611 platvormivärskendusega 3 või uuem, peab süsteemiadministraator täitma järgmised eeltingimused. 
@@ -79,7 +77,7 @@ Kui teie organisatsioonis on juurutatud Microsoft Dynamics 365 for Operationsi v
 <td>KB 3216943 on binaarne värskendus, mis on vajalik, kui kasutat&#39;e platvormivärskendust 3. Selle KB juurutamiseks peab süsteemiadministraator tegema järgmist.
 <ol>
 <li>Laadige KB 3216943 alla teenusest Microsoft Dynamics Lifecycle Services (LCS).</li>
-<li>Installima binaarse värskenduse, mis toimetatakse kohale juurutatava paketina. Teavet juurutatava paketi kohta leiate jaotisest <a href="../../dev-itpro/deployment/apply-deployable-package-system.md">Juurutatava paketi rakendamine</a>.</li>
+<li>Installima binaarse värskenduse, mis toimetatakse kohale juurutatava paketina. Teavet juurutatava paketi kohta leiate jaotisest <a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Juurutatava paketi rakendamine</a>.</li>
 </ol></td>
 </tr>
 <tr class="even">
@@ -87,14 +85,14 @@ Kui teie organisatsioonis on juurutatud Microsoft Dynamics 365 for Operationsi v
 <td>Süsteemiadministraator</td>
 <td>KB 4013633 on X++ värskendus või metaandmete kiirparandus, mis sisaldab mobiilset tööruumi <strong>Vaba kaubavaru</strong>. KB 4013633 juurutamiseks peab süsteemiadministraator toimima järgmiselt.
 <ol>
-<li><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">Metaandmete kiirparanduse allalaadimine LCS-ist</a>.</li>
-<li><a href="../../dev-itpro/migration-upgrade/install-metadata-hotfix-package.md">Installima metaandmete kiirparanduse</a>.</li><li><a href="../../dev-itpro/deployment/create-apply-deployable-package.md">Looma juurutatava paketi</a>, mis sisaldab mudelit <strong>SCMMobile</strong>, ja seejärel laadima juurutatava paketi LCS-i üles.</li>
-<li><a href="../../dev-itpro/deployment/apply-deployable-package-system.md">Rakendage juurutatav pakett</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Metaandmete kiirparanduse allalaadimine LCS-ist</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Installima metaandmete kiirparanduse</a>.</li><li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Looma juurutatava paketi</a>, mis sisaldab mudelit <strong>SCMMobile</strong>, ja seejärel laadima juurutatava paketi LCS-i üles.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Rakendage juurutatav pakett</a>.</li>
 </ol></td>
 </tr>
 <tr class="odd">
 <td><strong>Hankija koostöö</strong> mobiilne tööruum tuleb avaldada.</td><td>Süsteemiadministraator</td>
-<td>Vt jaotist <a href="../../dev-itpro/mobile-apps/publish-mobile-workspace.md">Mobiilse tööruumi avaldamine</a>.</td>
+<td>Vt jaotist <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Mobiilse tööruumi avaldamine</a>.</td>
 </tr>
 <tr class="even">
 <td>Hankija-kasutajal peab olema juurdepääs hankija koostöö veebiliidesele veebikliendis ja ta peab seadistama hankija koostöö kasutaja.</td><td>Ostuspetsialistid ja süsteemiadministraator</td>
@@ -122,12 +120,12 @@ Laadige alla ja installige Finance and Operationsi mobiilirakendus.
 4.  Esimesel sisselogimisel küsitakse teilt kasutajanime ja parooli. Sisestage oma identimisteave.
 5.  Pärast sisselogimist kuvatakse teie ettevõtte jaoks saadaolevad tööruumid. Pange tähele, et teie süsteemiadministraator avaldab uue tööruumi hiljem ja teil on vaja mobiilsete tööruumide loendit uuendada.
 
-    [![Tõmmake värskendamiseks](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+    [![Tõmmake värskendamiseks.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="use-the-vendor-collaboration-mobile-workspace"></a>Hankija koostöö mobiilse tööruumi kasutamine
 Kui valite **hankija koostöö** tööruumi, siis näete järgmisi valikuid.
 
-![Hankija koostöö mobiilne tööruum](./media/vendor-collaboration-mobile-app.png)
+![Hankija koostöö mobiilne tööruum.](./media/vendor-collaboration-mobile-app.png)
 
 **Hankija koostöö** tööruum sisaldab järgmisi lehti.
 
@@ -169,3 +167,6 @@ Kuvatakse tellimuse rea vastuses tehtud muudatused. Kuid üles laaditud märkusi
 
 ### <a name="open-confirmed-orders"></a>Avatud kinnitatud tellimused
 Kui klient kinnitab ostutellimuse (st ostutellimuse olekuks määratakse **Kinnitatud**), kuvatakse see avatud kinnitatud tellimuses. See jääb loendisse, kuni registreeritakse, et klient on selle vastu võtnud.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

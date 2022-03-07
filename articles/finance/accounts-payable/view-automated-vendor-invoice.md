@@ -2,11 +2,9 @@
 title: Hankija arve automatiseerimise tulemuste kuvamine (eelversioon)
 description: Selles teemas selgitatakse, kuidas vaadata hankija arvete olekut, mis on kaasatud töövoole edastamise automatiseeritud protsessi.
 author: abruer
-manager: AnnBe
 ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-09-08
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: baa2f1f55dfb9bb93b4f27c45db563e39850dd37
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: e7ec69177cdb4f6304b75016963f4111bbfde6ed975d66ffa702426a68dce640
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969722"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6728957"
 ---
 # <a name="view-vendor-invoice-automation-results"></a>Hankija arve automatiseerimise tulemuste kuvamine
 
@@ -37,3 +35,6 @@ Kui imporditud arve puhul rakendatakse töövoole edastamise protsessi, saate va
 - **Peatatud** – automatiseeritud protsessid, mis on määratud lehel **Ostureskontro parameetrid**, on käivitatud, kuid vähemalt üks etapp protsessis nurjus. Olekut **Peatatud** rakendatakse ka juhul, kui välja **Kaasa automatiseeritud töötlemisse** väärtuseks on seatud **Ei**. Nurjumisi saate kuvada, kui valite **Kuva kõige viimased tulemused**.
 - **Töövoos** – imporditud arve on edastatud töövoosüsteemi kas automatiseeritud töövoole edastamise protsessi kaudu või käsitsi.
 - **Töövoog lõpetatud** – töövooprotsess on imporditud arve jaoks lõpetatud.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

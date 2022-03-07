@@ -2,11 +2,9 @@
 title: Ettevõtte kataloogi mobiilne tööruum
 description: Selles teemas käsitletakse ettevõtte kataloogi mobiilset tööruumi, mis võimaldab kasutajatel teisi oma organisatsiooni töötajaid vaadata ja nendega ühendust võtta.
 author: jcart1106
-manager: AnnBe
 ms.date: 09/17/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 3193fbc4d4b3492960c7c13dc24b41bb920e7d23
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: 2152d89e7d60a74e8d7561ea888e60cff42dd1ffd0ec697fac371aad9b85383c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683427"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6720644"
 ---
 # <a name="company-directory-mobile-workspace"></a>Ettevõtte kataloogi mobiilne tööruum
 
@@ -79,7 +77,7 @@ Laadige alla ja installige Finance and Operationsi mobiilirakendus.
 3.  Esimesel sisselogimisel küsitakse teilt kasutajanime ja parooli. Sisestage oma identimisteave.
 4.  Pärast sisselogimist kuvatakse teie ettevõtte jaoks saadaolevad tööruumid. Pange tähele, et teie süsteemiadministraator avaldab uue tööruumi hiljem ja teil on vaja mobiilsete tööruumide loendit uuendada.
 
-[![Tõmmake värskendamiseks](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+[![Tõmmake värskendamiseks.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="view-the-company-directory-by-using-the-mobile-workspace"></a>Ettevõtte kataloogi vaatamine mobiilse tööruumi abil
 1.  Valige mobiilirakendusest tööruum **Ettevõtte kataloog**. Kuvatakse töötajate loend.
@@ -89,3 +87,6 @@ Laadige alla ja installige Finance and Operationsi mobiilirakendus.
 1.  Valige mobiilirakendusest tööruum **Ettevõtte kataloog**.
 2.  Otsingu alustamiseks sisestage väljale **Otsing** töötaja eesnimi, perekonnanimi, ametinimetus või osakond.
 3.  Valige töötaja. Avaneb leht **Töötaja profiil**. Sellel lehel oleva teabe hulgas on töötaja eesnimi, perekonnanimi, ametinimetus ja osakond.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

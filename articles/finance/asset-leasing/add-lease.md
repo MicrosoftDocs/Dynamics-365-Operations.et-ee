@@ -2,27 +2,25 @@
 title: Rendikirjete lisamine või kopeerimine (eelversioon)
 description: Selles teemas kirjeldatakse, kuidas luua uus rentimine, sisestades selle teabe vara rentimisest või kopeerides teabe olemasolevast rendikirjest.
 author: moaamer
-manager: Ann Beebe
-ms.date: 10/28/2020
+ms.date: 01/11/2022
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: abbf04d009a4b347792cd8b317e334da2a4cbbee
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: b09a87c7d4f5ba076647218c3586d17a13e6c558
+ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969599"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7967922"
 ---
 # <a name="add-or-copy-leases-preview"></a>Rendikirjete lisamine või kopeerimine (eelversioon)
 
@@ -37,6 +35,19 @@ Vara rentimises rendikirje loomiseks tehke järgmist.
 1. Valige toimingupaani lehel **Rendi kokkuvõte** suvand **Uus**.
 2. Sisestage rendi teave. Nõutavatel väljadel on punased ääred.
 
+Rendimakse alguskuupäev ei saa olla varasem kui rendi alguskuupäev. Kui sisestate liisingumakse alguskuupäeva, mis on varasem kui liisingu alguskuupäev, saate veateate.
+
+Vaikimisi on liisingu üksikasjade lehe üldine kiirkaardil oleva jaotuse maksesumma valik seatud suvandile Ei, kui vara parameetrilehe suvand Luba makse jaotus on **seatud** **·** **·** **·** **·** **valikule** **Jah**. 
+
+Kui suvandi **Jaotus** maksesumma väärtuseks **on seatud** **Jah, siis on** **maksegraafiku ridade** kiirkaardil maksesumma väli lukus. See seatakse maksesummade kogusummale, mis sisestatakse hiljem maksesumma **jaotuse** kataloogi.
+
+Valige **maksesumma** jaotus, et avada leht, kus saate lisada liigendusi maksetüüpidele. **Maksesummale kogusummade** lisamise nupp teisaldab kogusummad **makse summa** väljale.
+
+> [!NOTE]
+> Kui lisate maksesumma üksikasjad ja seejärel valite paoklahvi (Esc), siis sisestatud summasid ei lisata maksegraafiku ridade kiirkaardi **väljale** **·** **Maksesumma**. Selle asemel talletatakse need **maksesumma jaotuse** dialoogiboksis. Kui soovite, et dialoogiboksis kuvatakse kogusumma, valige veerg Summa, valige ja hoidke all (või paremklõpsake) ning **seejärel valige veerg** **Kokku**. 
+
+Rea **kopeerimise** nupp kopeerib makse liigendust.
+
 ## <a name="create-a-lease-schedule"></a>Rendigraafiku loomine
 
 Pärast rendikirje teabe sisestamist tehke rendiajakava loomiseks järgmist.
@@ -50,6 +61,9 @@ Pärast rendikirje teabe sisestamist tehke rendiajakava loomiseks järgmist.
     Leht **Raamatu üksikasjad** näitab, kuidas renti sellele eraldatud raamatutega arvestatakse. Siit saate vaadata rendigraafikuid.
 
     Maksegraafik sisaldab vahekaardi **Maksegraafiku read** sisendeid lehel **Rendi lisamine**. Saate iga makse summat ja muutuvat makset endiselt muuta. Rendikohustis arvutatakse muudetud maksegraafiku põhjal.
+
+    > [!NOTE]
+    > Rendimakse alguskuupäev peab olema rendi alguskuupäevaga sama või hilisem. Saate tõrketeate, kui makse alguskuupäev on varasem kui rendi alguskuupäev. 
 
 4. Kui olete maksegraafiku läbivaatamise lõpetanud valige **Kinnita graafik**. Pärast graafiku kinnitamist pole rendikirje redigeerimiseks enam saadaval.
 
@@ -88,3 +102,6 @@ Kõik vara rentimises loodavad töölehe kanded sisalduvad vara rentimise tööl
 
 > [!NOTE]
 > Vara rentimise töölehte ei saa käsitsi luua. See luuakse rendiajakavade loomise ajal automaatselt.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

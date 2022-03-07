@@ -2,35 +2,30 @@
 title: Saidi kujunduse valimine
 description: See teema kirjeldab, kuidas seada või muuta saidi kujundust rakenduses Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
-manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c54a3e9471fdeb56f27fe7c567c7cd7f0b7fd218
-ms.sourcegitcommit: 2ef23dcd4e42362186b9951e675010d97d55c6bd
-ms.translationtype: HT
+ms.openlocfilehash: a13400258a86087b6137b08ca724cbbfc1a90ad4
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4556425"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964777"
 ---
 # <a name="select-a-site-theme"></a>Saidi kujunduse valimine
 
 [!include [banner](includes/banner.md)]
 
 See teema kirjeldab, kuidas seada või muuta saidi kujundust rakenduses Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Ülevaade
 
 Saidi paigutust ja stiili (nt fonte, suurusi ja värve) määratletakse teemaga, mille valite ja rakendate saidile. Kujundus luuakse ja rakendatakse teie ettevõtte arendaja poolt. Kujunduste ülevaate saamiseks vaadake jaotist [Kujunduse ülevaadet](e-commerce-extensibility/theming.md). Lisateavet kujunduse loomise ja juurutamise kohta vt jaotisest [Uue kujunduse loomine](e-commerce-extensibility/create-theme.md).
 
@@ -56,8 +51,6 @@ Saidil rakendatava kujunduse valimiseks järgige neid etappe.
 
 [Leheikooni lisamine](add-favicon.md)
 
-[Tervitussõnumi lisamine](add-welcome-message.md)
-
 [Autoriõiguste teatise lisamine](add-copyright-notice.md)
 
 [Saidile keelte lisamine](add-languages-to-site.md)
@@ -68,3 +61,6 @@ Saidil rakendatava kujunduse valimiseks järgige neid etappe.
 
 [Uue teema loomine](e-commerce-extensibility/create-theme.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

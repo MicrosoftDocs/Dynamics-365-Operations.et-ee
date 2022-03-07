@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: cc4382d72e032fdfad05f2077ffe8e41e64c6a55
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 482bee9dba22763a065c8aca93745f53f06f99be
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5018467"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5253706"
 ---
 # <a name="work-hour-control"></a>Töötundide kontroll
 
@@ -73,3 +73,6 @@ Alltoodud kuvatõmmisel on näidatud lehe **Varatunni kontroll** näidisarvutus.
 Teine moodus tundide arvutamiseks on valida kas **Kõik varad** või **Aktiivsed varad**. Seejärel klõpsake nuppu **Tunnikontroll** kiirkaardil **Üldine**. Valitud varad sisestatakse automaatselt välja **Varad** kiirkaardil **Kaasatavad kirjed**. Klõpsake **OK** dialoogiaknas **Varatunni kontroll** ja valitud varade arvutus kuvatakse. Sama protseduuri saab teha funktsionaalsete asukohtade puhul väljades **Kõik funktsionaalsed asukohad** või **Aktiivsed funktsionaalsed asukohad** ja ktöökäskude puhul väljades **Kõik töökäsud** või **Aktiivsed töökäsud**.
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

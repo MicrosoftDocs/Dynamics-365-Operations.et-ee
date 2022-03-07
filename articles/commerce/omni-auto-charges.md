@@ -1,17 +1,14 @@
 ---
 title: Omnikanali täpsemad automaatsed kulud
-description: See teema kirjeldab võimalusi Commerce’i kanali tellimuste täiendavate tellimuskulude haldamise kohta, kasutades täpsemate automaatsete kulude funktsioone.
+description: See teema kirjeldab võimalusi Commerce kanali tellimuste täiendavate tellimuskulude haldamise kohta, kasutades täpsemate automaatsete kulude funktsioone.
 author: hhaines
-manager: annbe
 ms.date: 03/30/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 2d463bf01659aeb6599023ce46da0c604f8eeff0
-ms.sourcegitcommit: 4c6d31f3ebd88212d3d1497a4bba9c64c5300444
-ms.translationtype: HT
+ms.openlocfilehash: ef6396ec66a0f96ba97b176c46bf70d83a080883cf496312398f14dce3ad9758
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "4411824"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6743427"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>Omnikanali täpsemad automaatsed kulud
 
@@ -32,9 +29,9 @@ ms.locfileid: "4411824"
 
 See teema sisaldab teavet rakenduse Dynamics 365 for Retail versioonis 10.0 saadaolevate täpsemate automaatsete kulude funktsioonide konfigureerimise ja juurutamise kohta.
 
-Kui täpsemate automaatsete kulude funktsioonid on lubatud, saavad mis tahes toetatud Commerce’i kanalis (kassa, kõnekeskus ja veebipood) loodud tellimused kasutada [automaatsete kulude](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery#define-charges-for-delivery-services) konfiguratsioone, mis on määratletud ERP rakenduses nii päise- kui ka reatasemega seotud kuludele.
+Kui täpsemate automaatsete kulude funktsioonid on lubatud, saavad mis tahes toetatud Commerce’i kanalis (kassa, kõnekeskus ja veebipood) loodud tellimused kasutada [automaatsete kulude](/dynamics365/unified-operations/retail/configure-call-center-delivery#define-charges-for-delivery-services) konfiguratsioone, mis on määratletud ERP rakenduses nii päise- kui ka reatasemega seotud kuludele.
 
-Varasemates väljaannetes kui rakenduse Retail versioon 10.0 pääsevad [automaatsete kulude](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery#define-charges-for-delivery-services) konfiguratsioonidele juurde ainult e-kaubanduse ja kõnekeskuse kanalites loodud tellimused. Versioonis 10.0 ja uuemates saavad kassas loodud tellimused kasutada automaatsete kulude konfiguratsioone. Nii saab mitmesuguseid lisakulusid süstemaatiliselt müügikannetesse lisada.
+Varasemates väljaannetes kui rakenduse Retail versioon 10.0 pääsevad [automaatsete kulude](/dynamics365/unified-operations/retail/configure-call-center-delivery#define-charges-for-delivery-services) konfiguratsioonidele juurde ainult e-kaubanduse ja kõnekeskuse kanalites loodud tellimused. Versioonis 10.0 ja uuemates versioonides saavad kassas loodud tellimused kasutada automaatsete kulude konfiguratsioone. Nii saab mitmesuguseid lisakulusid süstemaatiliselt müügikannetesse lisada.
 
 Varasemate versioonide kui 10.0 kasutamisel palutakse kassa kasutajal sisestada saatekulu kassakande Saada kõik või Saada valitud loomise ajal käsitsi. Kui tellimusse kulude kirjutamiseks kasutatakse rakenduse lisakulude võimalusi, ei pakuta süstemaatilist arvutamist – kulude väärtuste arvutamisel toetutakse kasutaja sisendile. Kulusid saab lisada ainult ühe saadetisega seotud kulukoodina ja seda ei saa kassas pärast loomist hõlpsalt redigeerida ega muuta.
 
@@ -42,21 +39,21 @@ Versioonis 10.0 ja uuemates on endiselt võimalik kasutada saatekulude lisamisek
 
 Täpsemate automaatsete kulude funktsioon pakub kassa kasutajatele automaatsete kulude seadistustabelite põhjal süstemaatilisi arvutusi mis tahes määratletud kulude puhul. Peale selle on kasutajatel võimalik lisada või redigeerida piiramatut arvu lisakulusid ja -tasusid mis tahes kassa müügikandele päise- või reatasandil (sularaha või klienditellimuse puhul).
 
-## <a name="enabling-advanced-auto-charges"></a>Täpsemate automaatsete kulude lubamine
+## <a name="enable-advanced-auto-charges"></a>Täpsemate automaatsete laadimiste lubamine
 
 Minge lehel **Jaemüük ja kaubandus \> Peakontori seadistamine \> Parameetrid \> Kaubanduse parameetrid** vahekaardile **Klienditellimused**. Valige kiirkaardil **Kulud** suvandi **Täpsemate automaatsete kulude kasutamine** sätteks **Jah**.
 
-![Täpsemate automaatsete kulude parameeter](media/advancedchargesparameter.png)
+![Täpsemate automaatsete kulude parameeter.](media/advancedchargesparameter.png)
 
 Kui täpsemad automaatsed kulud on lubatud, ei paluta kasutajatel klienditellimuse Saada kõik või Saada valitud loomisel enam saatekulu kassaterminalis käsitsi sisestada. Kassa tellimuse kulusid arvutatakse süstemaatiliselt ja need lisatakse kassa kandesse (kui leitakse vastav automaatsete kulude tabel, mis vastab loodava tellimuse kriteeriumidele). Kasutajad saavad päise- või reatasandil kulusid ka käsitsi lisada või hallata, kasutades äsjalisatud kassatoiminguid, mille saab lisada kassa ekraanipaigutustesse.
 
 Kui täpsemad automaatsed kulud on lubatud, ei kasutata olemasolevat suvandit **Kaubanduse parameetrit** enam valikute **Saatekulude kood** ja **Saatekulude tagasimakse** puhul. Need parameetrid kohalduvad ainult siis, kui parameetri **Kasuta täpsemaid automaatseid kulusid** sätteks on valitud **Ei**.
 
-Enne selle funktsiooni lubamist veenduge, et teie töötajad oleksid läbinud koolituse ja testid, kuna lubatud funktsioon muudab äriprotsessi voogu saate- või muude kulude arvutamise ja kassa müügitellimuste lisamise meetodis. Veenduge, et mõistaksite protsessivoo mõju kassast kannete loomisele. Kõnekeskuse ja e-kaubanduse tellimuste puhul on täpsemate automaatsete kulude lubamise mõju minimaalne. Kõnekeskuse ja e-kaubanduse rakendustel on endiselt sama käitumine, mis neil oli varem seoses automaatsete kulude tabelitega tellimuse lisatasude arvutamisel. Kõnekeskuse kanali kasutajatel on endiselt võimalik redigeerida päise- või reatasemel käsitsi mis tahes süsteemi arvutatud automaatseid kulusid või lisada päise- või reatasemel käsitsi mis tahes lisakulusid.
+Enne selle funktsiooni lubamist veenduge, et teie töötajad oleksid läbinud koolituse ja testid, kuna lubatud funktsioon muudab äriprotsessi voogu saate- või muude kulude arvutamise ja kassa müügitellimuste lisamise meetodis. Veenduge, et mõistaksite protsessivoo mõju kassast kannete loomisele. Kõnekeskuse ja e-kaubanduse tellimuste puhul on täpsemate automaatsete kulude lubamise mõju minimaalne. Kõnekeskuse ja e-Commerce rakendustel on endiselt sama käitumine, mis neil oli varem seoses automaatsete kulude tabelitega tellimuse lisatasude arvutamisel. Kõnekeskuse kanali kasutajatel on endiselt võimalik redigeerida päise- või reatasemel käsitsi mis tahes süsteemi arvutatud automaatseid kulusid või lisada päise- või reatasemel käsitsi mis tahes lisakulusid.
 
-## <a name="additional-pos-operations"></a>Kassa lisatoimingud
+## <a name="add-pos-operations"></a>Lisage kassaoperatsioon
 
-Selleks et täpsemate automaatsete kulude funktsioon teie kassarakenduse keskkonnas nõuetekohaselt töötaks, on lisatud uued kassatoimingud. Need toimingud tuleb lisada oma [Kassa ekraanipaigutustesse](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-screen-layouts) ja juurutada kassaseadmetes täpsemate automaatsete kulude juurutamisel. Kui neid toiminguid ei lisata, ei ole kasutajatel võimalik kassakannetes lisakulusid hallata ega kuluväärtusi, mida automaatsete kulude konfiguratsioonide põhjal süstemaatiliselt arvutatakse, reguleerida ega muuta. Minimaalselt on soovitatav juurutada kassa ekraanipaigutusse toiming **Kulude haldamine**.
+Selleks et täpsemate automaatsete kulude funktsioon teie kassarakenduse keskkonnas nõuetekohaselt töötaks, on lisatud uued kassatoimingud. Need toimingud tuleb lisada oma [Kassa ekraanipaigutustesse](/dynamics365/unified-operations/retail/pos-screen-layouts) ja juurutada kassaseadmetes täpsemate automaatsete kulude juurutamisel. Kui neid toiminguid ei lisata, ei ole kasutajatel võimalik kassakannetes lisakulusid hallata ega kuluväärtusi, mida automaatsete kulude konfiguratsioonide põhjal süstemaatiliselt arvutatakse, reguleerida ega muuta. Minimaalselt on soovitatav juurutada kassa ekraanipaigutusse toiming **Kulude haldamine**.
 
 Uued toimingud on järgmised.
 
@@ -77,7 +74,7 @@ Selles jaotises on kirjeldatud kasutusjuhtude näidiseid, mis aitavad teil mõis
 
 #### <a name="use-case-scenario"></a>Kasutusjuhu stsenaarium
 
-Jaemüüja soovib lisada kulud automaatselt veosele, kui mis tahes Commerce’i kanalis luuakse kanded, mis nõuavad toodete saatmist kliendile. Jaemüüja pakub kaht tarneviisi: maismaa ja õhu kaudu. Kui klient valib maismaatranspordi ja tellimuse väärtus on väiksem kui 100 eurot, soovib jaemüüja kliendilt veokulu 10,00 eurot. Kui tellimuse väärtus on üle 100 euro ja klient valib maismaatranspordi, ei küsita talt täiendavat veokulu. Kui klient valib kõigi tellimuste puhul õhutranspordi olenemata nende koguväärtusest õhutranspordi, tuleb tal tasuda veokulu 20,00 eurot.
+Jaemüüja soovib lisada kulud automaatselt veosele, kui mis tahes Commerce’i kanalis luuakse kanded, mis nõuavad toodete saatmist kliendile. Jaemüüja pakub kaht tarneviisi: maismaa ja õhu kaudu. Kui klient valib maismaatranspordi ja tellimuse väärtus on väiksem kui 100 eurot, soovib jaemüüja kliendilt veokulu 10,00 eurot. Kui tellimuse väärtus on üle 100 dollari ja klient valib maismaatranspordi, ei küsita talt täiendavat veokulu. Kui klient valib kõigi tellimuste puhul õhutranspordi olenemata nende koguväärtusest õhutranspordi, tuleb tal tasuda veokulu 20,00 eurot.
 
 #### <a name="setup-and-configuration"></a>Seadistamine ja konfigureerimine
 
@@ -89,7 +86,7 @@ Konfigureerige kaks erinevat päisetasemel automaatset kulu. Konfigureerige üks
 
 Maismaatranspordi kulude puhul määratlege lehe **Automaatsed kulud** ridade jaotises kulu, mis rakendatakse tellimustele väärtusevahemikus 0,01 kuni 100 eurot, väärtuseks 10,00 eurot. Looge veel üks kulurida näitamaks, et tellimustele üle 100,01 eurot kulu ei kohaldu.
 
-![Kahe automaatsete kulude tabeli näited](media/headerchargesexample.png)
+![Kahe automaatsete kulude tabeli näited.](media/headerchargesexample.png)
 
 Õhutranspordi kulude puhul määratlege lehe Automaatsed kulud ridade jaotises kõigile tellimustele (väärtusevahemikus 0,01 kuni 9 999 999 eurot kulu 20,00 eurot).
 
@@ -109,7 +106,7 @@ Kõnekeskuse stsenaariumide puhul saab kasutaja hallata tarneviisi seadistust te
 
 #### <a name="use-case-scenario"></a>Kasutusjuhu stsenaarium 
 
-Jaemüüja soovib lisada kliendile seadistustasude puhul lisakulu, kui klient ostab kindla arvutimudeli. Selle arvuti puhul on vajalikud täiendavad kohustuslikud seadistustoiminguid, mille jaemüüja teeb kliendi eest. Jaemüüja on kliente teavitanud, et sellele seadistusele kohaldub lisatasu. Jaemüüja eelistab finantsaruandluse otstarbel hallata selle tasuga seotud kulusid toote müügihinnast eraldi. Selle konkreetse arvutimudeli ostmisel mis tahes kanalist peab klient maksma seadistustasu 19,99 eurot.
+Jaemüüja soovib lisada kliendile seadistustasude puhul lisakulu, kui klient ostab konkreetse arvutimudeli. Selle arvuti puhul on vajalikud täiendavad kohustuslikud seadistustoiminguid, mille jaemüüja teeb kliendi eest. Jaemüüja on kliente teavitanud, et sellele seadistusele kohaldub lisatasu. Jaemüüja eelistab finantsaruandluse otstarbel hallata selle tasuga seotud kulusid toote müügihinnast eraldi. Selle konkreetse arvutimudeli ostmisel mis tahes kanalist peab klient maksma seadistustasu 19,99 eurot.
 
 #### <a name="setup-and-configuration"></a>Seadistamine ja konfigureerimine
 
@@ -119,7 +116,7 @@ Minge jaotisse **Müügireskontro \> Kulude seadistus \> Automaatsed kulud**.
 
 Valige rippmenüüst **Tase** suvand **Rida** ja looge uus automaatsete kulude kirje kõigile klientidele ning kindlale tootele või tooterühmale, mille puhul kohaldub seadistustasu.
 
-![Ühe reataseme automaatsete kulude tabeli näide](media/linechargesexample.png)
+![Ühe reataseme automaatsete kulude tabeli näide.](media/linechargesexample.png)
 
 Saatke tasud Commerce’i skaala üksusesse / kanali andmebaasi nii, et kassa saaks neid kasutada, käivitades töö **1040 jaotusgraafik**.
 
@@ -139,13 +136,13 @@ Jaemüüja teeb tüüpprotsessile erandi, pakkudes klientidele, kes tellivad poe
 
 Veenduge, et selles stsenaariumis kasutatavad kulukoodid oleksid õigesti konfigureeritud, minnes jaotisse **Müügireskontro \> Kulude seadistus \> Kulud** ja määratledes stsenaariumi puhul asjakohase kulukoodi.
 
-![Kulude näide](media/chargesexample.png)
+![Kulude näide.](media/chargesexample.png)
 
 Kui kulu tuleb käsitleda saatmisega seotud kuluna saatmisega seotud allahindluste või soodustuste otstarbel, valige kulukoodis suvandi **Saatekulu** sätteks **Jah**. Kui selle kulu puhul on lubatud ka süstemaatiline tagasimaksmine kassarakenduses tagastuskande töötlemisel, valige suvandi **Tagastatav** sätteks **Jah**. Lipp **Tagastatav** kohaldub ainult siis, kui parameetri **Kasuta täpsemaid automaatseid kulusid** sätteks on valitud **Jah**.
 
 Saatke tasud Commerce’i skaala üksusesse / kanali andmebaasi nii, et kassa saaks neid kasutada, käivitades töö **1040 jaotusgraafik**.
 
-Toiming **Päisekulu lisamine** tuleb konfigureerida [kassa ekraanipaigutuses](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-screen-layouts) nii, et kasutaja saaks selle toimingu (141) kassas nupuga käivitada. Ekraanipaigutuse muudatused tuleb levitada ka kanalisse, kasutades jaotusgraafiku funktsiooni.
+Toiming **Päisekulu lisamine** tuleb konfigureerida [kassa ekraanipaigutuses](/dynamics365/unified-operations/retail/pos-screen-layouts) nii, et kasutaja saaks selle toimingu (141) kassas nupuga käivitada. Ekraanipaigutuse muudatused tuleb levitada ka kanalisse, kasutades jaotusgraafiku funktsiooni.
 
 #### <a name="sales-processing-of-manual-header-charges"></a>Müügi käsitsi päisekulu töötlemine
 
@@ -167,7 +164,7 @@ Kui kulu tuleb käsitleda saatmisega seotud kuluna saatmisega seotud allahindlus
 
 Saatke tasud Commerce’i skaala üksusesse / kanali andmebaasi nii, et kassa saaks neid kasutada, käivitades töö **1040 jaotusgraafik**.
 
-Toiming **Reakulu lisamine** tuleb konfigureerida [kassa ekraanipaigutuses](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-screen-layouts) nii, et kasutaja saaks selle toimingu (toiming 140) kassas nupuga käivitada. Ekraanipaigutuse muudatused tuleb levitada ka kanalisse, kasutades jaotusgraafiku funktsiooni.
+Toiming **Reakulu lisamine** tuleb konfigureerida [kassa ekraanipaigutuses](/dynamics365/unified-operations/retail/pos-screen-layouts) nii, et kasutaja saaks selle toimingu (toiming 140) kassas nupuga käivitada. Ekraanipaigutuse muudatused tuleb levitada ka kanalisse, kasutades jaotusgraafiku funktsiooni.
 
 #### <a name="sales-processing-of-the-manual-line-charge"></a>Müügi käsitsi reakulu töötlemine
 
@@ -179,7 +176,7 @@ Sama protsessi saab rakendada kõnekeskuses, kasutades kulude haldamise funktsio
 
 ### <a name="editing-charges-on-a-pos-sales-transaction"></a>Kulude redigeerimine kassa müügikandes
 
-Toiming **Kulude haldamine** (142) tuleb lisada [kassa ekraanipaigutusse](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-screen-layouts) nii, et kasutaja saaks vaadata ja redigeerida või tühistada mis tahes süsteemi arvutatud või käsitsi loodud päise- või reatasemel kulusid. Kui toimingut ei lisata, ei saa kasutajad kulu väärtust kassakandes reguleerida ega vaadata kulude üksikasju, nagu kuluga seotud kulukoodi tüüp.
+Toiming **Kulude haldamine** (142) tuleb lisada [kassa ekraanipaigutusse](/dynamics365/unified-operations/retail/pos-screen-layouts) nii, et kasutaja saaks vaadata ja redigeerida või tühistada mis tahes süsteemi arvutatud või käsitsi loodud päise- või reatasemel kulusid. Kui toimingut ei lisata, ei saa kasutajad kulu väärtust kassakandes reguleerida ega vaadata kulude üksikasju, nagu kuluga seotud kulukoodi tüüp.
 
 Kassa lehel **Kulude haldamine** saab kasutaja vaadata nii päise- kui ka reatasemel kulude üksikasju. Kasutaja saab sellel lehel saadaoleva funktsiooniga **Redigeerimine** muuta kindlale kulureale määratud summat. Kui kulurida kirjutatakse käsitsi üle, ei arvutata seda süstemaatiliselt ümber, enne kui kasutaja käivitab toimingu **Kulude ümberarvutus**.
 
@@ -200,7 +197,7 @@ Kulusid ei tagastata süstemaatiliselt Commerce’is loodud **tagastustellimuste
 Sissetuleku reale ja jalusesse on lisatud järgmised kviitungielemendid, et toetada täpsemate automaatsete kulude funktsiooni.
 
 - **Rea saatekulu** – seda reatasemel elementi saab kasutada müügireale kohaldatud kindlate kulukoodide kokkuvõtteks. Siin kuvatakse ainult kulukoodid, mis on tähistatud lehel **Kulukood** kui **Saatekulu**.
-- **Rea muud kulud** – seda reatasemel elementi saab kasutada müügireale kohaldatud mis tahes saatmisega mitteseotud kulukoodide kokkuvõtteks. Need on kulukoodid, mille puhul pole lipp **Saatmine** lehel **Kulukood** lubatud.
+- **Rea muud kulud** – seda reatasemel elementi saab kasutada müügireale kohaldatud mis tahes saatmisega mitteseotud kulukoodide kokkuvõtteks. **Rea muud tasud** on kulukoodid, mille puhul pole lipp **Saatmine** lehel **Kulukood** pole lubatud.
 - **Tellimuse saatekulude üksikasjad** – see jalusetasemel element kuvab tellimusele kohaldatud kulukoodide kirjeldused, mis on tähistatud suvandi **Kulukood** seadistuslehel lipuga **Saatekulu**.
 - **Tellimuse saatekulu** – see jalusetasemel element kuvab saatmisega seotud kulude väärtuse eurodes.
 - **Tellimuse muude kulude üksikasjad** – see jalusetasemel element kuvab tellimusele kohaldatud kulukoodide kirjelduse, mis ei ole tähistatud saatmisega seotud kulu lipuga.
@@ -222,3 +219,6 @@ Kui kasutajad tühistavad arvutatud kulud käsitsi või lisavad kulu kandele kä
 
 [Päisekulude proportsionaalselt jaotamine vastavatele müügiridadele](pro-rate-charges-matching-lines.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

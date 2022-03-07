@@ -1,33 +1,32 @@
 ---
 title: Mis on uut ja mida on muudetud rakenduses Dynamics 365 Human Resources (08. juuli 2020)
 description: Selles teemas kirjeldatakse Microsoft Dynamics 365 Human Resourcesi 8. juuli 2020 uusi või muutunud funktsioone.
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
 ms.date: 07/08/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ba0bb54b44f66aa73056667a93a3f8e6f7f618ee
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
-ms.translationtype: HT
+ms.openlocfilehash: 8a574436bc7762fbee722af8be2f923d18d01e5b
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528469"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060785"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-july-8-2020"></a>Mis on uut ja mida on muudetud rakenduses Dynamics 365 Human Resources (8. juuli 2020)
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+
 
 Selles teemas kirjeldatakse Dynamics 365 Human Resourcesi uusi või muutunud funktsioone. Muudatused rakenduvad versioonile number 8.1.3382. Sulgudes olevad numbrid mõnedes pealkirjades viitavad LCS-i toenumbritele viitamise jaoks.
 
@@ -71,9 +70,9 @@ Loodud ja muudetud süsteemi väljad on nüüd lubatud Human Resourcesi tabelis 
 
 Selles väljalaskes on parandatud tõrge (tühi viide) sujuvamas töövõtjate sisestamises, kui palkate töövõtja suvandi **Palkamise ja üksikasjade lisamine** abil.
 
-## <a name="changes-made-in-the-common-data-service-worker-entity-dont-reflect-in-human-resources-455652"></a>Common Data Service'i töövõtja üksuses tehtud muudatused ei kajastu Human Resourcesis (455652)
+## <a name="changes-made-in-the-dataverse-worker-entity-dont-reflect-in-human-resources-455652"></a>Dataverse'i töövõtja üksuses tehtud muudatused ei kajastu Human Resourcesis (455652)
 
-Common Data Service'i üksuse **Töövõtja** järgmistel väljadel tehtud muudatused kuvatakse nüüd Human Resourcesis.
+Dataverse'i üksuse **Töövõtja** järgmistel väljadel tehtud muudatused kuvatakse nüüd Human Resourcesis.
 
 - **Töötab kodus**
 - **Staaž kuupäeval**
@@ -92,7 +91,7 @@ Saate nüüd muuta väljasid kohustuslikuks Human Resourcesi isikupärastamise v
 
 ## <a name="human-resources-application-in-teams"></a>Rakendus Human Resources Teamsis
 
-Töötajad saavad kuvada ja taotleda töölt eemaoleku aega rakenduses Microsoft Teams. Nad saavad suhelda botiga, et luua puhkusetaotlusi. Lisateavet vt teemast [Rakendus Human Resources Teamsis](https://go.microsoft.com/fwlink/?linkid=2127841). 
+Töötajad saavad kuvada ja taotleda töölt eemaoleku aega rakenduses Microsoft Teams. Nad saavad suhelda botiga, et luua puhkusetaotlusi. Lisateavet vt teemast [Rakendus Human Resources Teamsis](./hr-admin-teams-leave-app.md). 
 
 ## <a name="data-management-framework-dmf-entities-for-benefits-management"></a>Andmehaldusraamistiku (DMF) üksused soodustuste haldamiseks
  
@@ -131,13 +130,16 @@ Nüüdsest on lisandumise peatamiseks saadaval DMF-üksus.
 
 ## <a name="coming-soon"></a>Peagi tulekul
 
-## <a name="checklist-entities-included-in-common-data-service"></a>Common Data Service'is kaasatud kontroll-loendi üksused
+## <a name="checklist-entities-included-in-dataverse"></a>Dataverse'is kaasatud kontroll-loendi üksused
 
-Kontroll-loendi üksused Kasutuselevõtt, Kõrvaldamine, Ülekanded ja Äriprotsessid on peagi saadaval Common Data Service'is.
+Kontroll-loendi üksused Kasutuselevõtt, Kõrvaldamine, Ülekanded ja Äriprotsessid on peagi saadaval Dataverse'is.
 
 ## <a name="see-also"></a>Vt ka
 
 [Mis on uut või mida on muudetud rakenduses Human Resources?](hr-admin-whats-new.md)</br>
-[Dynamics 365 Human Resources 2019 väljalaskevoo 2 ülevaade](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Dynamics 365 Human Resources 2019 väljalaskevoo 2 ülevaade](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Värskendamisprotsess](hr-admin-setup-update-process.md)</br>
 [Funktsioonide haldamine](hr-admin-manage-features.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

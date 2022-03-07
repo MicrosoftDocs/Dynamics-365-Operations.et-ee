@@ -2,16 +2,13 @@
 title: Dimensioonihierarhia
 description: Teema sisaldab teavet dimensioonihierarhiate kohta. Dimensioonihierarhiat saab kasutada aruandlusstruktuuri, kulupoliitikate ja turbeseadistuse määratlemiseks kuluarvestuses.
 author: AndersGirke
-manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMDimensionHierarchy,
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 71ba02fc6be4ab9a7871c10a9f95c474e52ae765
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 40ae7b61537cdcd1934056b9e289f342e96b57d3eebe5a6e713b2db91310ed9a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442283"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6766968"
 ---
 # <a name="dimension-hierarchy"></a>Dimensioonihierarhia
 
@@ -42,7 +39,7 @@ Dimensioonihierarhiaid kasutatakse kuluarvestuses mitmesugustes kohtades. Dimens
 
 Siin on dimensioonihierarhia näide.
 
-![Dimensioonihierarhia näide](./media/dimension-hierarchy.png)
+![Dimensioonihierarhia näide.](./media/dimension-hierarchy.png)
 
 Dimensioonihierarhia saab luua järgmistele dimensioonitüüpidele.
 
@@ -53,7 +50,7 @@ Dimensioonihierarhia saab luua järgmistele dimensioonitüüpidele.
 > [!NOTE]
 > - Kui on vaja erinevaid perspektiive, võite luua samale dimensioonile mitu dimensioonihierarhiat.
 > - Dimensioonihierarhia saab seostada ainult ühe dimensiooniga.
-> - Dimensioonihierarhia struktuuris võib olla piiramatu arv tasandeid. Kõik tasandid on saadaval **kulujuhtimise** tööruumis. Kui kasutate aruandluseks Microsoft Excelit või Microsoft Power BI-d, siis eksporditakse ainult esimesed 15 dimensioonihierarhia taset. See piirang on sellepärast, et nii Excel kui ka Power BI nõuavad fikseeritud skeemi.
+> - Dimensioonihierarhia struktuuris võib olla piiramatu arv tasandeid. Kõik tasandid on saadaval **kulujuhtimise** tööruumis. Kui kasutate rakendusi Microsoft Excel või Microsoft Power BI aruandluseks, siis eksporditakse ainult esimesed 15 dimensioonihierarhia taset. See piirang on sellepärast, et nii Excel kui ka Power BI nõuavad fikseeritud skeemi.
 > - Dimensioonihierarhia ei sõltu kuupäevast. Seega salvestatakse dimensioonihierarhia muudatused kohe kirje juurde ja varasemat ning hilisemat kuupäeva ei saa võrrelda.
 
 ## <a name="dimension-hierarchy-type"></a>Dimensiooni hierarhia tüüp
@@ -83,7 +80,7 @@ Dimensioonihierarhia luuakse puustruktuurina, millel on sõlme ja lehesõlme seo
 
 Väikeettevõttel on järgmine organisatsiooni struktuur, kus finantsosakond ja personaliosakond on halduse alla kuuluvad osakonnad ja komplekteerimine ning pakkumine on tootmise alla kuuluvad osakonnad.
 
-![Organisatsiooni struktuuri näide](./media/dimension-hierarchy-org.png)
+![Organisatsiooni struktuuri näide.](./media/dimension-hierarchy-org.png)
 
 Kuluobjekti dimensioon kajastab kõik organisatsiooni kulukeskusi.
 
@@ -125,12 +122,13 @@ Dimensioonihierarhia, mis rahuldab organisatsiooni aruandlusvajadused, saab sead
 
 Aruandluse jaoks saab dimensioonihierarhia seadistada siin näidatud viisil.
 
-|                   | Dimensiooniliikmete vahemikud   |                         |
+**Dimensiooniliikmete vahemikud**
+
+|   Sõlmpunktid           |   Lähtedimensiooni liige   |   Sihtdimensiooni liige   |
 |-------------------|---------------------------|-------------------------|
-| **Sõlmed**         | **Lähtedimensiooni liige** | **Sihtdimensiooni liige** |
 | Organisatsioon      |                           |                         |
 | &nbsp;&nbsp;Administraator         |                           |                         |
-|&nbsp;&nbsp;&nbsp;&nbsp;Finantsid   | CC002                     | CC003                   |
+| &nbsp;&nbsp;&nbsp;&nbsp;Finantsid   | CC002                     | CC003                   |
 |                   | CC007                     | CC007                   |
 | &nbsp;&nbsp;&nbsp;&nbsp;Personaliosakond        | CC001                     | CC001                   |
 | &nbsp;&nbsp;Tootmine    |                           |                         |
@@ -147,12 +145,13 @@ Dimensioonihierarhia, mis täidab poliitika nõude, saab seadistada siin näidat
 
 Poliitika jaoks saab dimensioonihierarhia seadistada siin näidatud viisil.
 
-|                   | Dimensiooniliikmete vahemikud   |                         |
+**Dimensiooniliikmete vahemikud**
+
+|   Sõlmpunktid           |   Lähtedimensiooni liige   |   Sihtdimensiooni liige   |
 |-------------------|---------------------------|-------------------------|
-| **Sõlmed**         | **Lähtedimensiooni liige** | **Sihtdimensiooni liige** |
 | Kulukäitumine     |                           |                         |
 | &nbsp;&nbsp;Fikseeritud kulu    | 10001                     | 10011                   |
-|&nbsp;&nbsp;Muutuv kulu | 40001                     | 40010                   |
+| &nbsp;&nbsp;Muutuv kulu | 40001                     | 40010                   |
 
 > [!NOTE]
 > Jaotises **Dimensiooniliikmete vahemikud** võib sõlm sisaldada 1:_n_ dimensiooniliikmete vahemikku. Saate sisestada dimensiooniliikme ID-d, mida ei ole veel dimensiooni liikmetena olemas. See lähenemine muudab hierarhia tulevikku silmas pidades paindlikuks.  
@@ -298,9 +297,10 @@ Kõigil juhtidel võib olla juurdepääs väga tundlikele äriandmetele, nt tulu
 
 Hierarhiakujundajas saab kasutada uut kiirkaarti **Kasutajad**. Siin saate sisestada igasse hierarhiasõlme vähemalt ühe kasutaja ID.
 
-|                 | Kasutajad            | Dimensiooniliikmete vahemikud   |                         |
+**Kasutajate ja dimensiooniliikmete vahemikud**
+
+|   Sõlmpunktid         |   Kasutaja ID        |   Dimensiooniliikmest   |   Sihtdimensiooni liige   |
 |-----------------|------------------|---------------------------|-------------------------|
-| **Sõlmed**       | **Kasutaja ID**      | **Lähtedimensiooni liige** | **Sihtdimensiooni liige** |
 | Organisatsioon    | Benjamin, Claire |                           |                         |
 | &nbsp;&nbsp;Administraator         | aprill            |                           |                         |
 | &nbsp;&nbsp;&nbsp;&nbsp;Finantsid   | Alicia           | CC002                     | CC003                   |
@@ -331,5 +331,8 @@ Juurdepääsuloendi hierarhia sätteid kasutatakse järgmistel aladel kuvatavate
     - Dynamics 365 Financei klientrakendusse manustatud Power BI andmevisualiseeringud
 
 > [!NOTE] 
-> - Enne kui juurdepääsuloendi hierarhia saab Power BI-s olevaid andmeid mõjutada, tuleb juurdepääsuloendi hierarhia ja rea tasemel turve Power BI-s siduda. Lisateavet leiate teemast [Kuluarvestuse sisupaketi jaoks turbe seadistamine](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
+> - Enne kui juurdepääsuloendi hierarhia saab Power BI-s olevaid andmeid mõjutada, tuleb juurdepääsuloendi hierarhia ja rea tasemel turve Power BI-s siduda. Lisateavet leiate teemast [Kuluarvestuse sisupaketi jaoks turbe seadistamine](../../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
 > - Juurdepääsuloendi hierarhia ei aita kaitsta andmete eksportimist Excelisse. Seetõttu peaksid seda aruandlustööriista kasutama ainult kuluarvestajad ja juhid, kellel on vaja andmete vaatamiseks täielikku juurdepääsu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

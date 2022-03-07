@@ -1,35 +1,26 @@
 ---
 title: Hankija kujunduste vaheldumisi aktiveerimine
-description: Selles teemas kirjeldatakse, kuidas lülitada hankija andmete integreerimist teenusekomplekti Finance and Operations rakenduste ja teenuse Dataverse vahel.
+description: Selles teemas kirjeldatakse, kuidas vahetada hankija andmete integreerimist Finance and Operationsi rakenduste ja rakenduse vahel Dataverse.
 author: RamaKrishnamoorthy
-manager: AnnBe
 ms.date: 09/20/2019
 ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: tfehr
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2019-09-20
-ms.openlocfilehash: d2c22123d5f05945b34eb107c5b912852aec387a
-ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
-ms.translationtype: HT
+ms.search.validFrom: 2020-01-06
+ms.openlocfilehash: 80de21b5e46e4f274626fa311f16e81312a2f5ab
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4744461"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062746"
 ---
 # <a name="switch-between-vendor-designs"></a>Hankija kujunduste vaheldumisi aktiveerimine
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 
 
@@ -50,14 +41,14 @@ Uute töövooprotsesside loomiseks töövooprotsessi mallide abil toimige järgn
 
 1. Looge töövooprotsess tabelile **Hankija** ja valige töövooprotsessi mall **Hankijate loomine kontode tabelis**. Seejärel valige **OK**. See töövoog käsitseb tabeli **Konto** hankija loomise stsenaariumi.
 
-    ![Hankijate loomine kontode tabeli töövoo protsessis](media/create_process.png)
+    ![Hankijate loomine kontode tabeli töövoo protsessis.](media/create_process.png)
 
 2. Looge töövooprotsess tabelile **Hankija** ja valige töövooprotsessi mall **Hankijate värskendamine kontode tabelis**. Seejärel valige **OK**. See töövoog käsitseb tabeli **Konto** hankija värskendamise stsenaariumi.
 3. Looge töövooprotsess tabelile **Konto** ja valige töövooprotsessi mall **Hankijate loomine hankijate tabelis**.
 4. Looge töövooprotsess tabelile **Konto** ja valige töövooprotsessi mall **Hankijate värskendamine hankijate tabelis**.
 5. Saate konfigureerida töövoogusid kas reaalaja töövoogudena või taustatöövoogudena, olenevalt teie nõuetest. Töövoo konfigureerimiseks taustatöövoona valige **Teisenda taustatöövooks**.
 
-    ![Teisendamine taustatöövoo nupuks](media/background_workflow.png)
+    ![Teisendamine taustatöövoo nupuks.](media/background_workflow.png)
 
 6. Aktiveerige töövood, mille lõite tabelitele **Konto** ja **Hankija**, et hakata kasutama tabelit **Konto** tüübiga **Organisatsioon** hankijate teabe salvestamiseks.
 
@@ -78,3 +69,6 @@ Uute töövooprotsesside loomiseks töövooprotsessi mallide abil toimige järgn
 4. Looge töövooprotsess tabelile **Kontakt** ja valige mall **Isiku tüübiga hankijate värskendamine hankijate tabelis**.
 5. Saate konfigureerida töövoogusid kas reaalaja töövoogudena või taustatöövoogudena, olenevalt teie nõuetest. Töövoo konfigureerimiseks taustatöövoona valige **Teisenda taustatöövooks**.
 6. Aktiveerige töövood, mille lõite tabelitele **Kontakt** ja **Hankija**, et hakata kasutama tabelit **Kontakt** tüübiga **Isik** hankijate teabe salvestamiseks.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

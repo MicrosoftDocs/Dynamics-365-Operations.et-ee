@@ -1,12 +1,10 @@
 ---
 title: Vara tüübid
 description: Selles teemas selgitatakse vara tüüpide loomist rakenduses Asset Management. Samuti kirjeldatakse varatüüpidega seotud elemente.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetObjectJobType, EntAssetObjectType, EntAssetObjectTypeDefaultSparePart, EntAssetObjectTypeDefaultSparePartApprove, EntAssetObjectTypeDefaultCreateCombinations, EntAssetObjectTypeDefault, EntAssetObjectTypeDefaultCopy
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 295840c12f89bc6c6a4d53023985259ac761d6b2
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
-ms.translationtype: HT
+ms.openlocfilehash: fc1a8d98e9a8853e2e72bfcc7415ddb9a0a3b7758504621d6fccff00a08a36be
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017413"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6730366"
 ---
 # <a name="asset-types"></a>Vara tüübid
 
@@ -47,9 +45,9 @@ Esmalt seadistage nõutavad varatüübid. Järgmisena saate luua varamudelid, mi
 7. Valige käsk **Salvesta**.
 8. Valige kiirkaardil **Hooldustööde tüübid** need hooldustööde tüübid, mis peaksid olema vara tüübiga seotud.
 
-    - Hooldustöö tüübi valimiseks valige see väljal **Järelejäänud hooldustöö tüübid** ja seejärel valige paremnoole nupp ![Paremnoole nupp](media/29-setup-for-objects.png), et teisaldada see jaotisse **Valitud hooldustöö tüübid**.
-    - Kõigi saadaolevate hooldustöö tüüpide valimiseks valige nupp ![Edasta kõik](media/30-setup-for-objects.png). Kõik hooldustöö tüübid kantakse väljalt **Järelejäänud hooldustöö tüübid** üle väljale **Valitud hooldustöö tüübid**.
-    - Hooldustöötüübi valiku tühistamiseks valige see väljal **Valitud hooldustöö tüübid** ja seejärel valige vasaknoole nupp ![Vasaknoole nupp](media/31-setup-for-objects.png) selle teisaldamiseks väljale **Järelejäänud hooldustöö tüübid**.
+    - Töötüübi valimiseks valige see väljal **Järelejäänud töötüübid** ja seejärel valige paremnoole nupp ![Paremnoole nupp.](media/29-setup-for-objects.png) et teisaldada see valitud jaotisesse **Elutsükli valitud olekud**.
+    - Kõigi saadaolevate hooldustöö tüüpide valimiseks, valige nupp ![Edasta kõik nool.](media/30-setup-for-objects.png) nupp. Kõik hooldustöö tüübid kantakse väljalt **Järelejäänud hooldustöö tüübid** üle väljale **Valitud hooldustöö tüübid**.
+    - Töötüübi valimiseks valige see väljal **Järelejäänud töötüübid valitud** ja seejärel valige vasaknoole nupp ![Vasaknoole nupp.](media/31-setup-for-objects.png) et teisaldada see valitud jaotisesse **Elutsükli valitud olekud** väli..
 
 9. Saate valida ka loendurid, mis peaksid olema seotud varatüüpidega. Kiirkaardil **Loendurid** tehke oma valikud, kasutades meetodeid, mida on kirjeldatud hooldustöö tüüpide juhises 8. Teavet loendurite häälestamise kohta leiate jaotisest [Loendurid](counters.md).
 10. Saate valida ka atribuutide tüübid, mis peaksid olema seotud varatüüpidega. Kiirkaardil **Atribuutide tüübid** tehke oma valikud, kasutades meetodeid, mida on kirjeldatud hooldustöö tüüpide juhises 8. Seejärel valige atribuuditüüpide eelistatud jada loomiseks atribuuditüüp väljal **Valitud atribuuditüübid** ja kasutage selle teisaldamiseks üles-ja allanoolenuppe. Atribuuditüüpide jada näidatakse varadele, mis kasutavad seda varatüüpi. Lisateavet vara atribuutide kohta lugege teemast [Hooldusatribuutide tüübid](../setup-for-functional-locations/specification-types.md).
@@ -96,3 +94,6 @@ Lehel **Varuosad** saate luua ka uusi varuosi varatüübi, vara tootja ja varamu
 
 Et näha, kas valitud real olevat varuosa kasutatakse mujal moodulis Asset Management (nt seoses varade ja töökäskudega), tehke lehe **Kauba kasutuskoht** avamiseks valik **Kauba kasutuskoht**. 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

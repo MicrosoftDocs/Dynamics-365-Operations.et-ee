@@ -1,12 +1,10 @@
 ---
 title: Elektrooniline aruandlus. Finantsdimensioonide kasutamine andmeallikana (3. osa – aruande koostamine)
-description: Järgmistes etappides selgitatakse, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rolli määratud kasutaja saab konfigureerida elektroonilise aruandluse (ER) mudeli finantsdimensioonide kasutamiseks elektrooniliste aruannete andmeallikana.
+description: Selles teemas kirjeldatakse, kuidas konfigureerida elektroonilise aruandluse (ER) mudelit kasutama finantsdimensioone andmeallikana ER-i aruannetele. (3. osa)
 author: NickSelin
-manager: AnnBe
 ms.date: 05/27/2020
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERComponentTypeDropDialog
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a12f88f1e8b5e451bc8a5c5486d820da61bf3ad0
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 74c845cf5ce361b0e9594863cdfca98d9cb9b0ca
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684783"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356315"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-3---design-the-report"></a>Elektrooniline aruandlus. Finantsdimensioonide kasutamine andmeallikana (3. osa – aruande koostamine)
 
@@ -94,7 +92,7 @@ Nende etappide lõpule viimiseks peate esmalt viima lõpule etapid protseduuris 
 59. Klõpsake valikut Lisa atribuut.
 60. Tippige Desc väljale Nimi.
 61. Klõpsake nuppu OK.
-![ER-i toimingute koostaja leht](../media/er-financial-dimensions-guides-format1.png)
+![ER-i toimingute koostaja leht.](../media/er-financial-dimensions-guides-format1.png)
 
 ## <a name="map-report-elements-to-data-sources"></a>Aruande elementide vastendamine andmeallikatega
 1. Klõpsake vahekaarti Vastendus.
@@ -143,5 +141,8 @@ Nende etappide lõpule viimiseks peate esmalt viima lõpule etapid protseduuris 
 44. Klõpsake valikut Seo.
 45. Klõpsake nuppu Salvesta.
 46. Sulgege leht.
-![ER-i toimingute koostaja leht](../media/er-financial-dimensions-guides-format2.png)
+![ER-i toimingute koostaja leht.](../media/er-financial-dimensions-guides-format2.png)
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

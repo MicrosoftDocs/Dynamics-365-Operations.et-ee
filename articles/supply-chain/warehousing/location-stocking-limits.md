@@ -2,26 +2,23 @@
 title: Asukoha ladustamispiirangud
 description: See teema kirjeldab asukoha ladustamispiirangute funktsioone.
 author: perlynne
-manager: tfehr
 ms.date: 11/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationLimit
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-11-11
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 208662f38b06b1f230bdde5247946a9fefd57cea
-ms.sourcegitcommit: d2dea9ce480f35d0c0b10615c18862695e107d55
-ms.translationtype: HT
+ms.openlocfilehash: 239b9fa8d8e34a92d453d3387881cff7b0a11f28a3c3b1e19891ea3bd78c3d7c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/23/2020
-ms.locfileid: "4607275"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6714158"
 ---
 # <a name="location-stocking-limits"></a>Asukoha ladustamispiirangud
 
@@ -84,7 +81,7 @@ Selles näites esitate ostutellimuse, kus on kaks vastuvõtuvooga rida. Kuid pea
 
 Kõigepealt saate üksuse *PL* suurusega *S* koguses *4* ja saate kontrollida loodava töö asetusridade asukohti. Seejärel saate üksuse *PL* suurusega *L* koguses *4* ja saate kontrollida loodava töö asetusridade asukohti.
 
-1. Logige sisse laorakendusse, kasutades kasutaja ID-na nr *24* ja paroolina nr *1*.
+1. Logige sisse mobiilirakendusse Warehouse Management kasutades *24* kasutaja ID-na ja *1* paroolina.
 1. Valige **Sissetulev** \> **Vastuvõetud ost**.
 1. Saate *4* *PL*-i kaubakoodiga *D0013* ja suurusega *S*.
 1. Vaadake üle loodud ladustamistöö. Teile peaks olema kuvatud järgmine tulemus.
@@ -104,3 +101,6 @@ Selle ilmse nurjumise selgitamiseks peate mõistma asukoha ladustamispiirangute 
 
 > [!NOTE]
 > Te ei saa kasutada asukoha ladustamispiiranguid, et juhtida näiteks nende kaubavarude täiendamist, mida on samas asukohas erinevas koguses. Sel juhul kasutage *täiendamise malli*.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

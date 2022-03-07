@@ -1,12 +1,10 @@
 ---
 title: Töökäskude hoolduskatkestus
 description: Selles teemas kirjeldatakse, kuidas saate luua hoolduskatkestuse registreeringuid töökäsus valitud varale.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 53487a0173453ef7a8f5ea818672d999fe71cb65
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
-ms.translationtype: HT
+ms.openlocfilehash: 38c47a47fdf64c1d3601f6f3f7b84bf128823ec2ceb0c50e586822f6bdb97906
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5020907"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6753368"
 ---
 # <a name="maintenance-downtime-for-work-orders"></a>Töökäskude hoolduskatkestus
 
@@ -47,7 +45,7 @@ Võite luua hoolduskatkestuse registreeringuid töökäsus valitud varale. See f
 
 Järgneval joonisel kuvatakse lehe **Hoolduskatkestuse põhjuse koodid** näide.
 
-![Joonis 1](media/15-work-orders.png)
+![Joonis 1.](media/15-work-orders.png)
 
 Kui olete loonud need hoolduskatkestuse põhjuse koodid, mida kasutada soovite, saate luua töökäskudele ja varadele hoolduskatkestuse registreeringuid.
 
@@ -73,18 +71,21 @@ Kui olete loonud need hoolduskatkestuse põhjuse koodid, mida kasutada soovite, 
 
 Alljärgneval joonisel on esitatud hoolduskatkestuse registreerimise näide.
 
-![Joonis 2](media/16-work-orders.png)
+![Joonis 2.](media/16-work-orders.png)
 
 Hoolduskatkestuse registreeringuteks kasutatav kalender oleneb teie varade ja parameetrite seadistustes tehtud valikust. Kui varale on valitud ressurss lehe **Kõik varad** kiirkaardi **Põhivara** väljal **Ressurss**, kasutatakse seotud ressursirühma kalendri seadistust, nii nagu näidatud järgmisel joonisel.
 
-![Joonis 3](media/17-work-orders.png)
+![Joonis 3.](media/17-work-orders.png)
 
 Kui varale ressurssi valitud ei ole, kasutatakse standardset kalendrit, mis on valitud lehel **Varahalduse parameetrid**, nii nagu näidatud järgmisel joonisel.
 
-![Joonis 4](media/18-work-orders.png)
+![Joonis 4.](media/18-work-orders.png)
 
 Kõigi hoolduskatkestuste registreeringute ülevaate vaatamiseks valige **Varahaldus** > **Päringud** > **Hoolduskatkestus**.
 
 >[!NOTE]
 >Kõik moodulis **Varahaldus** kasutatud kalendrid seadistatakse jaotises **Organisatsiooni haldus** > **Seadistus** > **Kalendrid** > **Kalendrid**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

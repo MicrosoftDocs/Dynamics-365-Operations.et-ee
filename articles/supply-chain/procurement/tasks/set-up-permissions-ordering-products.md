@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 585f5c6cf83ad93b649e3f36e0d486a037915cd4
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 54d84e38a8816ec716414661d002cbe171623772
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017288"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5244011"
 ---
 # <a name="set-up-permissions-for-ordering-products-on-behalf-of-someone-else"></a>Teise isiku nimel toodete tellimise õiguste seadistamine
 
@@ -44,3 +44,6 @@ See teema selgitab, kuidas anda töötajatele õigus teiste töötajate nimel os
 2. Otsige kiirfiltri abil üles töötaja, kelle just nõude esitajana lisasite.
 3. Valige nõude esitaja. Loendis Ettevalmistaja on inimesed, kellel on õigus tellida kaupu vasakul paanil valitud nõude esitaja nimel.  Siin saate lisada veel ettevalmistajaid. Selles vaates saate anda nõude esitajale ka õiguse koostada taotlusi juriidilistes isikutes ja tootmisüksustes, mis ei ole selle inimese peamised juriidilised isikud või tootmisüksused.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

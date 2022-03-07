@@ -2,36 +2,31 @@
 title: Mooduliteegi ülevaade
 description: Selles teemas antakse ülevaade rakenduse Microsoft Dynamics 365 Commerce mooduliteegi kohta.
 author: anupamar-ms
-manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: dfc52dd8e14bb2e9f2f9c026ee0e058aee4cedcb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 35cf3b4413b5288a823527d24a5db759b6bfbf37
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411746"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6338553"
 ---
 # <a name="module-library-overview"></a>Mooduliteegi ülevaade
 
 [!include [banner](includes/banner.md)]
 
 Selles teemas antakse ülevaade rakenduse Microsoft Dynamics 365 Commerce mooduliteegi kohta.
-
-## <a name="overview"></a>Ülevaade
 
 Rakenduse Dynamics 365 Commerce mooduliteek on moodulikogum, mida saab kasutada e-kaubanduse veebisaidi loomiseks. Moodulitel on nii kasutajaliidese (UI) kui ka funktsionaalse käitumise aspektid.
 
@@ -66,3 +61,6 @@ Mooduliteegis on järgmist tüüpi moodulid.
 [Päise moodul](author-header-module.md)
 
 [Jaluse moodul](author-footer-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

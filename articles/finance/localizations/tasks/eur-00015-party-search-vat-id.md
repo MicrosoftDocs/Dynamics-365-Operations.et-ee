@@ -2,26 +2,23 @@
 title: EUR-00015 Osapoole otsing KM ID abil
 description: See protseduur näitab, kuidas teha osapoole otsingut, kasutades registreerimise ID-d.
 author: v-oloski
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DirPartyTable, DirPartTaxRegistrationSearch
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Spain, Sweden, United Kingdom
 ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 401971b6f146f1df028291ba0f691ccac5f1966d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d8e5cbbbc15a0e33afb04f00d8b1a0b0cd5cab2c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407831"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5821784"
 ---
 # <a name="eur-00015-party-search-using-vat-id"></a>EUR-00015 Osapoole otsing KM ID abil
 
@@ -42,3 +39,6 @@ See protseduur kohaldub kõigile Euroopa riikidele/piirkondadele. Protseduuri lo
 7. Klõpsake käsku Otsi.
     * Kuvatakse kõik selle registreerimise ID-ga osapooled.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

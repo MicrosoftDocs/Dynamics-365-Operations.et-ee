@@ -2,25 +2,25 @@
 title: Kolmesuunalised vastavusse viimise poliitikad
 description: See teema sisaldab näiteid kolmesuunalise vastavusseviimise kohta.
 author: abruer
-ms.date: 02/11/2022
+ms.date: 10/26/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: VendInvoicePostingHistory
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.custom: 2761
 ms.assetid: 70f3cb1a-18b7-4474-95ec-28b2410dd8f8
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cffdc06216ce8ab1bfb79265f265bec1aee334c5
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
-ms.translationtype: MT
+ms.openlocfilehash: d33a8cb001f1cd2f79c2a174710af90af423b9b3abc66eb80aa4811953ea4a14
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109989"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6722835"
 ---
 # <a name="three-way-matching-policies"></a>Kolmesuunalised vastavusse viimise poliitikad
 
@@ -42,22 +42,22 @@ Selles näites toodud arvete vastavusse viimise poliitikad aitavad järgmistes r
 
 ### <a name="prerequisites"></a>Eeltingimused
 
--   Vastav poliitika **seadistatakse** juriidilise isiku tasemel kolmetaseme **vastavusse viimiseks**.
--   Vastendab päise vastendamise **oleku automaatse värskendamise ja** lülituse juriidilise isiku olekule **Jah**.
--   Määrab juriidilisele isikule vastendatud **hinna kogusummade** **välja väärtuseks Protsent ja sisestab 15% kõikumise** protsendina **.**
--   Vastav poliitika seadistab kaubatasemel kauba 1500 – CNC Milicron Machine **kolmetasemelisele vastavusse viimisele**. See kaup on põhivara kaup, mida Fabrikamis tootmiseks kasutatakse. Selle kauba arved vastendatakse ostutellimuse ridade hindade ja toote sissetulekute kogustega.
+-   Ken seadistab juriidilise isiku tasemel vastavusse viimise poliitikaks Kolmesuunaline vastavusse viimine.
+-   Ken määrab juriidilise isiku jaoks valiku Päise vastavusse viimise oleku automaatne värskendamine suvandiks Jah.
+-   Ken määrab juriidilise isiku jaoks välja Hinna kogusumma vastendamine väärtuseks Protsent ja sisestab kõikumise protsendiks 15%.
+-   Ken määrab kauba tasemel kaubale 1500 – CNC Milicroni masin vastavusse viimise poliitikaks Kolmesuunaline vastavusse viimine. See kaup on põhivara kaup, mida Fabrikamis tootmiseks kasutatakse. Selle kauba arved vastendatakse ostutellimuse ridade hindade ja toote sissetulekute kogustega.
 -   Tony sisestab taotluse viiele CNC Milicroni masinale. Alicia, kes on Fabrikami ostutellimuse ametnik, esitab Contoso nimelisele juriidilisele isikule ostutellimuse kaupade tarnimiseks.
 
     | Kaubakood                 | Kogus | Ühiku hind | Netosumma | Tasukood        | Tasude väärtus |
     |-----------------------------|----------|------------|------------|---------------------|---------------|
-    | 1500 – CNC Milicroni masin | 5        | 8000,00   | 40 000,00  | Saatmine ja käsitsemine | 3000,00      |
+    | 1500 – CNC Milicroni masin | 5        | 8000,00   | 40 000,00  | Saatmine ja käsitsemine | 3,000.00      |
 
--   Arnie, kes on Contoso müügireskontro ametnik, vaatab üle nädala saadetised. Arnie valib Fabrikamile CNC Milicroni masinate tarne eest arve esitamiseks saadetise kanded. Arnie lisab tasu saatmise ja käsitsemise eest. Fabrikam arvestab seda tasu osana vara kulust.
+-   Arnie, kes on Contoso võlgnike arvepidaja, vaatab üle nädala saadetised. Arnie valib Fabrikamile CNC Milicroni masinate tarne eest arve esitamiseks saadetise kanded. Arnie lisab tasu saatmise ja käsitsemise eest. Fabrikam arvestab seda tasu osana vara kulust.
 
 ### <a name="scenario"></a>Stsenaarium
 
 1.  Sammy, kes on Fabrikami vastuvõtu osakonna töötaja, saab Contoso saadetud masinate lõpliku koguse. Sammy sisestab toote sissetuleku koguseks 5. Kuna ostutellimus on täielikult saadud, muutub ostutellimuse olekuks Saadud.
-2.  April, Fabrikami ostureskontro koordinaator, sisestab ja kinnitab Contoso esitatud arve. Ta kontrollib järgmist teavet.
+2.  April, Fabrikami võlgade koordinaator, sisestab ja kinnitab Contoso esitatud arve. Ta kontrollib järgmist teavet.
     -   Kolmesuunalist vastavusse viimist vajavate kaupade kogus arve real vastab saadud kogusele. Saadud kogus on näidatud arvega vastendatud toote sissetulekul.
     -   Kahe- või kolmesuunalist vastavusseviimist vajavate kaupade hinnad arve real jäävad Microsoft Dynamics 365 Financeis määratletud kõikumiste piiridesse. See hõlmab järgmisi hindade vastavusseviimise tüüpe.
         -   Ühiku netohinna vastavusse viimine – ühiku netohind arve real vastendub kõikumise protsendi piires ühiku netohinnale ostutellimuse real. Selles näites on lubatud ühiku netohinna kõikumine +8 protsenti.
@@ -91,11 +91,11 @@ Selles näites toodud arvete vastavusse viimise poliitikad aitavad järgmistes r
 
 ### <a name="prerequisites"></a>Eeltingimused
 
--   Vastav poliitika **seadistatakse** juriidilise isiku tasemel kahepoole **vastavusse viimiseks**.
--   Vastendab juriidilise **isiku jaoks välja** Vastendatud hinna kogusummad väärtuseks **Protsent** ja sisestab **10%** kõikumise **protsendina**.
+-   Ken seadistab juriidilise isiku tasemel vastavusse viimise poliitikaks Kahesuunaline vastavusse viimine.
+-   Ken määrab juriidilise isiku jaoks välja Hinna kogusumma vastendamine väärtuseks Protsent ja sisestab kõikumise protsendiks 10 protsenti.
 -   Ken määrab kõigi kaupade ühiku hinna kõikumiseks 2 protsenti.
--   Mitmekaupa seadistab **vastavusse viimise** poliitika kauba ja hankija kombinatsiooni tasemel kaubaLE PH2500 – arvuti ja hankija Contoso **kolmetasemeline vastavusse viimine**.
--   Alicia, kes on Fabrikami Malaisia allüksuse ostutellimuse ametnik, esitab Contosole ostutellimused kolme kauba tarnimiseks, nagu on näidatud järgmises tabelis. Ostutellimuse loomisel alistab **ta** hiire vastavusse viimise poliitika kahe-poole asemel kolme-poolese vastavusse viimise asemel.
+-   Cassie määrab kauba ja hankija kombinatsiooni tasemel kaubale PH2500 – arvuti ja hankija Contoso kolmesuunalise poliitikaga vastavusse viimiseks.
+-   Alicia, kes on Fabrikami Malaisia allüksuse ostutellimuse ametnik, esitab Contoso ostutellimused kolme kauba tarnimiseks, nagu on näidatud järgmises tabelis. Ostutellimust luues tühistab ta juhtmeta hiire puhul vastavusse viimise poliitika ja määrab kahesuunalise vastavusse viimise asemel kolmesuunalise.
 
     | Kaubakood           | Kogus | Ühiku hind | Netosumma | Vastavusse viimise poliitika (vaikesisestus) | Vastavusse viimise poliitika (ostutellimuse real) |
     |-----------------------|----------|------------|------------|---------------------------------|----------------------------------------------|
@@ -106,7 +106,7 @@ Selles näites toodud arvete vastavusse viimise poliitikad aitavad järgmistes r
 ### <a name="scenario"></a>Stsenaarium
 
 1.  Kaubad jõuavad kohale. Sammy, kes on Fabrikami Malaisia allüksuse vastuvõtu osakonna töötaja, töö katkestatakse ja ta ei sisesta kohe toote sissetulekut.
-2.  April, Fabrikami ostureskontro koordinaator, sisestab ja kinnitab Contoso esitatud arve. Ta kontrollib järgmist teavet.
+2.  April, Fabrikami võlgade koordinaator, sisestab ja kinnitab Contoso esitatud arve. Ta kontrollib järgmist teavet.
     -   Kolmesuunalist vastavusse viimist vajavate kaupade kogus arve real vastab saadud kogusele. Saadud kogus on näidatud arvega vastendatud toote sissetulekul.
     -   Kahe- või kolmesuunalist vastavusseviimist vajavate kaupade hinnad arve real jäävad määratletud kõikumiste piiridesse. See hõlmab järgmisi hindade vastavusseviimise tüüpe.
         -   Ühiku netohinna vastavusse viimine – ühiku netohind arve real vastendub kõikumise protsendi piires ühiku netohinnale ostutellimuse real. Selles näites on lubatud ühiku netohinna kõikumine +2 protsenti.
@@ -134,7 +134,7 @@ Pange tähele järgmisi kaupu.
 -   MM01 – traadita hiire rida. Toote sissetuleku koguse vastenduse veerul on hoiatusikoon, kuna arve rida ei ole toote sissetulekuga vastavusse viidud. Ühiku hinna vastenduse veerul on hoiatusikoon, kuna ühiku hinna kõikumine 2% on ületatud.
 -   USB-draivi rea toote sissetuleku koguse vastenduse veerg on tühi, kuna kahesuunaline vastavusse viimine ei vasta arve rea ja toote sissetuleku rea kogustele.
 
-Kui arvete sisestamiseks arvete vastendamise lahknevustega on **vaja** kinnitust, **peab** arvete vastendamise üksikasjade lehel olema valitud valik Kinnita koos vastenduste lahknevustega sisestamine. Kui kinnitamine ei ole kohustuslik, saab arve töötlemist muude sisestusvigade puudumisel jätkata.
+Kui vastendamise lahknevustega arvete sisestamisel on nõutud kinnitus, tuleb enne, kui hinna ja koguse vastendamise vigadega arvet saab sisestada, määrata lehel Arve võrdlemise üksikasjad valik Kinnita ühtivate lahknevustega sisestamine. Kui kinnitamine ei ole kohustuslik, saab arve töötlemist muude sisestusvigade puudumisel jätkata.
 
 
 Lisateabe saamiseks vaadake teemat [Ostureskontro arvete võrdlemise ülevaade](accounts-payable-invoice-matching.md).

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 92c7c8f0df3e6acde7cd9b1299f799ace35ca6a86c801a0a333321c56d8502eb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9430bc1386f127d02b598d6cad1b53f66e0cf2ba
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778136"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6023165"
 ---
 # <a name="set-up-withholding-tax-settlement-periods-for-the-tds-tax-type"></a>Kinnipeetava maksu tasakaalustusperioodide häälestamine TDS-i maksutüübi jaoks
 
@@ -31,7 +31,7 @@ See teema kirjeldab, kuidas seadistada maksegraafikuid allika (TDS) eraldamisel 
 
 1. Avage **Maks \> Kaudsed maksud \> Kinnipeetav maks \> Kinnipeetava maksu tasakaalustusperioodid**.
 
-    [![Käibemaksu tasakaalustusperioodide leht.](./media/apac-ind-TDS-13.png)](./media/apac-ind-TDS-13.png)
+    [![Kinnipeetava maksu tasakaalustusperioodide leht](./media/apac-ind-TDS-13.png)](./media/apac-ind-TDS-13.png)
 
 2. Väljal **Maksu tüüpi** valige **TDS** kinnipeetava maksu komponentide gruppide häälestamiseks TDS maksutüüpide jaoks.
 3. Valige uue rea loomiseks suvand **Uus**.
@@ -47,6 +47,6 @@ See teema kirjeldab, kuidas seadistada maksegraafikuid allika (TDS) eraldamisel 
     > [!NOTE]
     > Perioodilise TDS-i tasakaalustusprotsessi käivitamiseks minge **Pearaamat \> Perioodiline \> Kinnipeetav maks \> Kinnipeetava maksu makse**.
 
-    [![Kinnipeetava maksu makse leht.](./media/apac-ind-TDS-15.png)](./media/apac-ind-TDS-15.png)
+    [![Kinnipeetava maksu makse leht](./media/apac-ind-TDS-15.png)](./media/apac-ind-TDS-15.png)
 
 12. Sulgege leht.

@@ -1,12 +1,10 @@
 ---
 title: Kuluarvestuse analüüsi Power BI sisu
-description: See teema kirjeldab, mida hõlmab kuluarvestuse analüüsi Power BI sisu. See selgitab ka seda, kuidas pääseda juurde Power BI aruannetele, ning annab teavet andmemudeli ja üksuste kohta, mida kasutatakse sisu loomiseks.
+description: See teema kirjeldab, mida hõlmab kuluarvestuse analüüsi Power BI sisu.
 author: AndersGirke
-manager: AnnBe
 ms.date: 10/02/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c15995edb5d65a00207fdb425447779d3a17d993
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: d3b8832e5a5612fd0311811f43454689d5b274c36404b4fb92b710411d45e573
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683867"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6747365"
 ---
 # <a name="cost-accounting-analysis-power-bi-content"></a>Kuluarvestuse analüüsi Power BI sisu
 
@@ -42,7 +40,7 @@ Lisateavet kuluarvestuse kohta vt teemast [Kuluarvestuse koduleht](../../../fina
 Määratledes juurdepääsutasemel turvalisuse kuluarvestuses ja kombineerides selle reatasemel turvalisusega Power BI-s, saate anda kõigile kuluobjektide omanikele juurdepääsu **kuluarvestuse analüüsi** Power BI sisule. Kõik andmed visualisatsioonis filtreeritakse seejärel kuluarvestuses juhitava juurdepääsutaseme alusel. Juurdepääsutaseme turvalisuse ja rea tasemel turvalisuse kohta lisateabe saamiseks vaadake jaotist [Seadistage kuluarvestuse analüüsi Power BI sisu turvalisus](setup-security-cost-accounting-content-pack.md).
 
 ## <a name="accessing-the-power-bi-content"></a>Juurdepääs Power BI sisule
-**Kuluarvestuse analüüsi** Power BI sisu leiate teenuste Microsoft Dynamics Lifecycle Services (LCS) ühiste vahendite teegist. Lisateavet sisu allalaadimise ja selle rakendamise kohta organisatsioonis vt jaotisest [Power BI sisu Microsoftilt ja teie partneritelt LCS-is](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/12/12/power-bi-content-from-microsoft-and-your-partners/).
+**Kuluarvestuse analüüsi** Power BI sisu leiate teenuste Microsoft Dynamics Lifecycle Services (LCS) ühiste vahendite teegist. Lisateavet sisu allalaadimise ja selle rakendamise kohta organisatsioonis vt jaotisest [Power BI sisu Microsoftilt ja teie partneritelt LCS-is](/archive/blogs/dynamicsaxbi/power-bi-content-from-microsoft-and-your-partners).
 
 Laadige kindlasti alla **kuluarvestuse analüüsi** sisu, mis kehtib teie kasutatava Microsoft Dynamics 365 versiooni puhul.
 
@@ -123,3 +121,6 @@ Järgmisi põhidimensioone kasutatakse filtritena koondmõõtmiste tükeldamisek
 | Rahandussaasta kalendrid                   | Kalender, kalendri kirjeldus                                                                                       |
 | Finantsaastad                       | Kalendriaasta                                                                                                        |
 | Rahandusperioodid                     | Kalendriaasta periood                                                                                                 |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

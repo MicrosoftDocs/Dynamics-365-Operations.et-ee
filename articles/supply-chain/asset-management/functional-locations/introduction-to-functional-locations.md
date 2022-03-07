@@ -1,28 +1,28 @@
 ---
 title: Sissejuhatus -i lokaliseerimisfunktsioonidesse
 description: Selles teemas antakse ülevaade funktsionaalsetest asukohtadest varahalduses.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 06/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetFunctionalLocationEditSubLocations, EntAssetFunctionalLocationLookup, EntAssetFunctionalLocationRename, EntAssetFunctionalLocation
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 2214
+ms.custom:
+- "2214"
+- intro-internal
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 62cfd913393c3533c232dd89c90c3cdfffa72244
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
-ms.translationtype: HT
+ms.openlocfilehash: 1b0cb76a05f0f19d3e57d1f79751e8bc5870b3c331aa4d1c37ec8dfde0a3c6d5
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5018173"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6767551"
 ---
 # <a name="introduction-to-functional-locations"></a>Sissejuhatus -i lokaliseerimisfunktsioonidesse
 
@@ -82,3 +82,6 @@ Tegumiriba nupud on korraldatud vahekaartidel. Järgmises tabelis kirjeldatakse 
 | Tõrge                              | Avage leht **Vara tõrked**, kus saate vaadata valitud funktsionaalse asukohaga seotud tõrke registreeringute loendit. |
 | Funktsionaalse asukoha värskendamine    | Valitud funktsionaalse asukoha etapi värskendamine                                                                                        |
 | Elutsükli oleku logi                 | Saate vaadata logi, mis näitab valitud funktsionaalse asukoha etappe.                                                                        |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,26 +1,23 @@
 ---
 title: Perioodilised krediidihalduse ülesanded
 description: See teema kirjeldab perioodilisi toiminguid, mis on vajalikud klientide krediidilimiitide haldamise protsessis.
-author: mikefalkner
-manager: AnnBe
+author: JodiChristiansen
 ms.date: 09/04/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschloma
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 17b4b2f487fdeb9f1aa7d77bf87197885ba60e47
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 398fcd9d45ce0ddfb1f7189e0712f9dac2db012f
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442329"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7753503"
 ---
 # <a name="periodic-credit-management-tasks"></a>Perioodilised kreedidihalduse ülesanded
 
@@ -44,3 +41,6 @@ Kui ärid arenevad ja asjaolud muutuvad, võivad ka antud kliendi krediidiriskid
 Saate käivitada protsessi **Kliendi saldo statistika värskendamine**, et värskendada saldo statistika arvutust, mis kuvatakse lehel **Saldo statistika päring**. Seda teavet kasutatakse riskiskooride ja krediidistatistika kiirinfo väärtuste kuvamiseks lehel **Klient**.
 
 Protsessi käivitamisel uuendatakse kliendi saldo statistikat ühe kliendi kohta. Pakett-töö seadistamiseks mitme kliendi protsessi käitamiseks saate kasutada lehte **Saldo statistika arvutamine** (**Krediidihaldus \> Perioodilised ülesanded \> Saldo statistika arvutamine**).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

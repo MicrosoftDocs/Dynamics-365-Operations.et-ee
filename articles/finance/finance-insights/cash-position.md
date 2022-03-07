@@ -1,40 +1,36 @@
 ---
-title: Sularahajääk (eelversioon)
+title: Kassajääk
 description: Selles teemas kirjeldatakse, kuidas rahavoo prognoosimise funktsioon prognoosib organisatsiooni sularahajäägi konkreetsetel aegadel. Lisaks kirjeldab see valikuid, mis on saadaval erinevatel ajavahemikel prognooside kuvamiseks.
 author: ShivamPandey-msft
-manager: AnnBe
-ms.date: 05/26/2020
+ms.date: 12/21/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 64b8dcd43024e5c26d33bf12c5fe198711adde56
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
-ms.translationtype: HT
+ms.openlocfilehash: 7d43657573ea8092f047615fc50a1a50ab97f094
+ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4645886"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968983"
 ---
-# <a name="cash-position-preview"></a>Sularahajääk (eelversioon)
+# <a name="cash-position"></a>Kassajääk
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Sularahajääk on lühiajalise prognoosi rahavoo projektsioon. See põhineb laekumata arvete ja tellimuste eest tasuvate kliendilt sularaha sissetulekute projektsioonil ning sularaha väljamaksete projektsioonil, mis makstakse hankijatele arvete ja tellimuste ostude eest.
 
 Kui süsteem prognoosib kliendimakseid, kasutab see makse prognoosimiseks kliendi makseprognooside funktsiooni. Ilma makseprognoosideta kasutatakse maksekuupäeva arvutamiseks iga kliendi puhul kliendiarve makseks teisendamisele nõutavat keskmist aega. Avatud klienditellimuste puhul arvutab süsteem arve kuupäeva kasutades arveldatavate klientide tellimuse rea keskmist päevade arvu. Seejärel kasutab see arve kuupäeva makse prognoosimise funktsiooni sisendina. Kliendimakse prognoosimise funktsioon arvutab iga tellimuserea maksekuupäeva. 
 
-<*Vajalik on tekst Jarekilt või Dave’ilt selle kohta, kuidas makseprognoosid kuupäevaks teisendatakse*> Tasumata arvete maksekuupäev [*hinnatakse*] ligikaudselt makseprognoosi algusest, valides kuupäeva, mis vastab kumulatiivse jaotuse funktsiooni viiekümnenda protsentiilile, mis on saadud eeldatava salve tõenäosusest.
+Tasumata arvete maksekuupäev hinnatakse ligikaudselt makseprognoosi algusest, valides kuupäeva, mis vastab kumulatiivse jaotuse funktsiooni viiekümnendikule.
 
 Hankijatele maksmise prognoosimiseks kasutatakse sarnast lähenemist. Iga hankija puhul arvutab süsteem keskmise aja, mis on vajalik hankija arve makseks teisendamiseks. Seda päevade arvu kasutatakse seejärel maksekuupäeva arvutamiseks. Avatud hankija tellimuste puhul arvutab süsteem arve kuupäeva, võttes arvesse keskmise päevade arvu, mis on nõutav iga hankija puhul tellimuse ridade arveks teisendamiseks. Süsteem arvutab seejärel maksekuupäeva, kasutades keskmist aega, et teisendada hankija arve iga hankija puhul makseks.
 
@@ -49,5 +45,16 @@ Vahekaardi **Sularahajääk** alumine osa kuvav ametikoha, rahavoo, projitseerit
 
 Sularahajäägi salvestamiseks ja redigeerimiseks looge hetktõmmis. Lisateavet selle kohta, kuidas hetktõmmistega töötada, vt teemast [Hetktõmmiste ülevaade](payment-snapshots.md).
 
-#### <a name="privacy-notice"></a>Privaatsusavaldus
-Eelvaated 1) võivad kasutada vähem privaatsus- ja turbemeetmeid kui rakenduse Dynamics 365 Finance and Operations teenus; 2) ei ole hõlmatud selle teenuse teenusetaseme leppes; 3) ei tohi olla kasutusel isiklike andmete ega muude andmete töötlemiseks, mis on seaduste või määrustega kaitstud; 4) on piiratud toega.
+## <a name="details-of-the-cash-position-capability"></a>Kassa positsiooni võimaluse üksikasjad 
+
+Kassa positsiooni funktsioon sisaldab järgmisi funktsioone. 
+
+- Sularaha positsiooni funktsioon näitab rahavoo süsteemi olemasolevatel dokumentidel ning välissüsteemidest imporditud sularaha sissevoolu ja väljamineku ridu.
+- Muudab rahavoo andmete integreerimise välistest süsteemidest rakendusse Dynamics 365 Finance lihtsaks. Kassapositsioon saab kasutada ka andmete importimise/eksportimise raamistikku. Selle raamistiku abil on Exceli ODataga integreerimine lihtne. Mitme allika andmeid saate kombineerida ka mitmekülgse kassa positsiooni lahenduse loomiseks.
+- Tutvustab nutikat sularahajääki. Sularaha positsioon luuakse kliendi maksekäitumise põhjal, et prognoosida, millal ettevõte võib eeldada sularaha saabumist oma kontodele.
+- Kliendi tellimuste ja arvete puhul kasutatakse kliendi makse ennustuse AI-funktsiooni, et määrata ajaloolist kliendi maksekäitumist, kui makstakse tellimust või arvet.
+- Hankija tellimuste ja arvete puhul kasutame keskmist aega lähetuse ja arve maksmise vahel hankija kohta, et määrata, millal hankija tellimusele või arvele makstakse sularaha väljaminekuorderite täpsemat tasu.
+
+See loob täpsem vaate rahavoost, mis põhineb kassiri ajaloolisel maksekäitumisest. 
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

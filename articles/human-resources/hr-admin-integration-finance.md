@@ -1,37 +1,39 @@
 ---
-title: Finance’iga integreerimise konfigureerimine
-description: Selles artiklis kirjeldatakse funktsioone, mis on saadaval integratsiooniks rakendustest Dynamics 365 Human Resources ja Dynamics 365 Finance.
-author: andreabichsel
-manager: AnnBe
-ms.date: 03/26/2020
+title: Integratsiooni konfigureerimine Finance’iga
+description: Selles teemas kirjeldatakse maksuandmete integreerimist rakenduse Dynamics 365 Human Resources ja teenuse Dynamics 365 Finance vahel.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3b4d6369ab567879e23e1f132265aaff45c8ce47
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
-ms.translationtype: HT
+ms.openlocfilehash: 0a2c5dd0ce97f33f5f8b65c801fbc15dfc65e8d4
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527907"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065012"
 ---
 # <a name="configure-integration-with-finance"></a>Integratsiooni konfigureerimine Finance’iga
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Dynamics 365 Human Resourcesi integreerimisel Dynamics 365 Finance'iga saate kasutada rakendusest Human Resources rakendusse Finance malli [Andmeintegraator](https://docs.microsoft.com/powerapps/administrator/data-integrator). Rakendusest Human Resources rakendusse Finance mall lubab tööde, ametikohtade ja töötajate andmevoo. Mall lubab andmevoo rakendusest Human Resources rakendusse Finance, kuid ei luba andmevoogu Finance'ist Human Resourcesisse.
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
-![Integratsioonivoog rakendusest Human Resources rakendusse Finance](./media/hr-admin-integration-finance-flow.png)
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+
+
+Dynamics 365 Human Resourcesi integreerimisel Dynamics 365 Finance'iga saate kasutada rakendusest Human Resources rakendusse Finance malli [Andmeintegraator](/powerapps/administrator/data-integrator). Rakendusest Human Resources rakendusse Finance mall lubab tööde, ametikohtade ja töötajate andmevoo. Mall lubab andmevoo rakendusest Human Resources rakendusse Finance, kuid ei luba andmevoogu Finance'ist Human Resourcesisse.
+
+![Rakenduse Human Resources integratioonivoog.](./media/hr-admin-integration-finance-flow.png)
 
 Rakendusest Human Resources rakendusse Finance lahendus pakub järgmist tüüpi andmete sünkroonimist.
 
@@ -44,7 +46,7 @@ Rakendusest Human Resources rakendusse Finance lahendus pakub järgmist tüüpi 
 
 Integratsioonilahenduse jaoks on vaja rakenduste Human Resources ja Finance järgmisi versioone. 
 
-- Dynamics 365 Human Resources kuupäeval Common Data Service
+- Dynamics 365 Human Resources kuupäeval Dataverse
 - Dynamics 365 Finance’i versioon 7.2 või uuem
 
 ## <a name="template-and-tasks"></a>Mall ja ülesanded
@@ -55,7 +57,7 @@ Rakendusest Human Resources rakendusse Finance malli juurde pääsemine.
 
 2. Valige **Projektid** ja seejärel valige paremas ülanurgas **Uus projekt**. Looge iga juriidilise isiku jaoks uus projekt, mida soovite Finance’i integreerida.
 
-3. Rakendusest Human Resources rakendusse Finance andmete sünkroonimiseks valige **Human Resources (Human Resources Common Data Service rakendusse Finance)**.
+3. Rakendusest Human Resources rakendusse Finance andmete sünkroonimiseks valige **Human Resources (Human Resources Dataverse rakendusse Finance)**.
 
 Mall kasutab järgmisi ülesandeid kirjete sünkroonimiseks rakendusest Human Resources rakendusse Finance.
 
@@ -81,166 +83,166 @@ Järgmistes mallivastenduste tabelites sisaldab ülesande nimi igas rakenduses k
 
 ### <a name="job-functions-to-compensation-job-function"></a>Tööfunktsioonidest tööfunktsioonide kompensatsioonile
 
-| Common Data Service’i üksus (allikas) | Finance'i üksus (sihtkoht) |
+| Dataverse'i tabel (allikas) | Finance'i üksus (sihtkoht) |
 |-------------------------------------|---------------------------------------------|
-| cdm_name (cdm_Job   Funktsiooni nimi)  | TÖÖ FUNKTSIOONI ID   (TÖÖ FUNKTSIOONI ID)            |
-| cdm_description   (cdm_description) | KIRJELDUS   (KIRJELDUS)                 |
+| cdm_name (cdm_Job Funktsiooni nimi)  | TÖÖ FUNKTSIOONI ID (TÖÖ FUNKTSIOONI ID)            |
+| cdm_description (cdm_description) | KIRJELDUS (KIRJELDUS)                 |
 
 ### <a name="departments-to-operating-unit"></a>Osakondadest tootmisüksusele
 
-| Common Data Service’i üksus (allikas)           | Finance'i üksus (sihtkoht) |
+| Dataverse'i tabel (allikas)           | Finance'i üksus (sihtkoht) |
 |-----------------------------------------------|---------------------------------------------|
 | cdm_name (cdm_name)                           | NIMI (NIMI)                                 |
-| cdm_departmentnumber   (cdm_departmentnumber) | TÖÖÜKSUSE NUMBER   (TÖÖÜKSUSE NUMBER) |
-|                                               | TÖÖÜKSUSE TÜÜP   (TÖÖÜKSUSE TÜÜP)     |
-| cdm_description   (cdm_description)           | NIME PSEUDONÜÜM   (NIME PSEUDONÜÜM)                     |
+| cdm_departmentnumber (cdm_departmentnumber) | TÖÖÜKSUSE NUMBER (TÖÖÜKSUSE NUMBER) |
+|                                               | TÖÖÜKSUSE TÜÜP (TÖÖÜKSUSE TÜÜP)     |
+| cdm_description (cdm_description)           | NIME PSEUDONÜÜM (NIME PSEUDONÜÜM)                     |
 
 ### <a name="job-types-to-compensation-job-type"></a>Töötüüpidest töötüübi kompensatsioonile
 
-| Common Data Service’i üksus (allikas)   | Finance'i üksus (sihtkoht) |
+| Dataverse'i tabel (allikas)   | Finance'i üksus (sihtkoht) |
 |---------------------------------------|---------------------------------------------|
-| cdm_name (cdm_name)                   | TÖÖTÜÜBI ID   (TÖÖTÜÜBI ID)                     |
-| cdm_description   (cdm_description)   | KIRJELDUS   (KIRJELDUS)                 |
-| cdm_exemptstatus   (cdm_exemptstatus) | MAKSUVABASTUSE OLEK   (MAKSUVABASTUSE OLEK)               |
+| cdm_name (cdm_name)                   | TÖÖTÜÜBI ID (TÖÖTÜÜBI ID)                     |
+| cdm_description (cdm_description)   | KIRJELDUS (KIRJELDUS)                 |
+| cdm_exemptstatus (cdm_exemptstatus) | MAKSUVABASTUSE OLEK (MAKSUVABASTUSE OLEK)               |
 
 ### <a name="jobs-to-jobs"></a>Töödest töökohtadele
 
-| Common Data Service’i üksus (allikas)                           | Finance'i üksus (sihtkoht)           |
+| Dataverse'i tabel (allikas)                           | Finance'i üksus (sihtkoht)           |
 |---------------------------------------------------------------|-------------------------------------------------------|
 | cdm_name (cdm_name)                                           | TÖÖ ID (TÖÖ ID)                                         |
-| cdm_maximumnumberofpositions   (cdm_maximumnumberofpositions) | AMETIKOHTADE MAX ARV   (AMETIKOHTADE MAX ARV) |
-| cdm_allowedunlimitedpositions   (cdm_allowunlimitedpositions) | LUBA PIIRAMATULT AMETIKOHTI   (LUBA PIIRAMATULT AMETIKOHTI)   |
-| cdm_description   (cdm_description)                           | KIRJELDUS   (KIRJELDUS)                           |
-| cdm_jobdescription   (cdm_jobdescription)                     | TÖÖ KIRJELDUS   (TÖÖ KIRJELDUSED)                    |
+| cdm_maximumnumberofpositions (cdm_maximumnumberofpositions) | AMETIKOHTADE MAX ARV (AMETIKOHTADE MAX ARV) |
+| cdm_allowedunlimitedpositions (cdm_allowunlimitedpositions) | LUBA PIIRAMATULT AMETIKOHTI (LUBA PIIRAMATULT AMETIKOHTI)   |
+| cdm_description (cdm_description)                           | KIRJELDUS (KIRJELDUS)                           |
+| cdm_jobdescription (cdm_jobdescription)                     | TÖÖ KIRJELDUS (TÖÖ KIRJELDUSED)                    |
 
 ### <a name="jobs-to-job-detail"></a>Töödest töö üksikasjadele
 
-| Common Data Service’i üksus (allikas)                             | Finance'i üksus (sihtkoht) |
+| Dataverse'i tabel (allikas)                             | Finance'i üksus (sihtkoht) |
 |-----------------------------------------------------------------|---------------------------------------------|
 | cdm_name (cdm_name)                                             | TÖÖ ID (TÖÖ ID)                               |
-| cdm_jobtypeid.cdm_name   (Töö tüüp (töö tüübi nimi))             | TÖÖTÜÜBI ID   (TÖÖTÜÜBI ID)                     |
-| cdm_jobfunctionid.cdm_name   (Tööfunktsioon (tööfunktsiooni nimi)) | FUNKTSIOONI ID   (FUNKTSIOONI ID)                   |
-| cdm_validfrom   (Kehtiv alates)                                    | KEHTIV ALATES   (KEHTIV ALATES)                     |
+| cdm_jobtypeid.cdm_name (Töö tüüp (töö tüübi nimi))             | TÖÖTÜÜBI ID (TÖÖTÜÜBI ID)                     |
+| cdm_jobfunctionid.cdm_name (Tööfunktsioon (tööfunktsiooni nimi)) | FUNKTSIOONI ID (FUNKTSIOONI ID)                   |
+| cdm_validfrom (Kehtiv alates)                                    | KEHTIV ALATES (KEHTIV ALATES)                     |
 | cdm_validto (Kehtib kuni)                                        | KEHTIB KUNI (KEHTIB KUNI)                           |
-| cdm_defaultfulltimeequivalent   (Täisaja vaikeekvivalent)   | TÄISAJA VAIKEEKVIVALENT   (TÄISAJA VAIKEEKVIVALENT)   |
+| cdm_defaultfulltimeequivalent (Täisaja vaikeekvivalent)   | TÄISAJA VAIKEEKVIVALENT (TÄISAJA VAIKEEKVIVALENT)   |
 
 ### <a name="position-types-to-position-type"></a>Positsiooni tüüpidest positsiooni tüübile
 
-| Common Data Service’i üksus (allikas)       | Finance'i üksus (sihtkoht) |
+| Dataverse'i tabel (allikas)       | Finance'i üksus (sihtkoht) |
 |-------------------------------------------|---------------------------------------------|
-| cdm_name (cdm_name)                       | AMETIKOHA TÜÜBI ID   (AMETIKOHA TÜÜBI ID)           |
-| cdm_description   (cdm_description)       | KIRJELDUS   (KIRJELDUS)                 |
-| cdm_classification   (cdm_classification) | KLASSIFIKATSIOON   (KLASSIFIKATSIOON)           |
+| cdm_name (cdm_name)                       | AMETIKOHA TÜÜBI ID (AMETIKOHA TÜÜBI ID)           |
+| cdm_description (cdm_description)       | KIRJELDUS (KIRJELDUS)                 |
+| cdm_classification (cdm_classification) | KLASSIFIKATSIOON (KLASSIFIKATSIOON)           |
 
 ### <a name="job-positions-to-base-position"></a>Ametikohtadest peamise ametikoha jaoks
 
-| Common Data Service’i üksus (allikas)           | Finance'i üksus (sihtkoht) |
+| Dataverse'i tabel (allikas)           | Finance'i üksus (sihtkoht) |
 |-----------------------------------------------|---------------------------------------------|
-| cdm_jobpositionnumber   (Ametikoha number) | AMETIKOHA ID (AMETIKOHA ID)                      |
+| cdm_jobpositionnumber (Ametikoha number) | AMETIKOHA ID (AMETIKOHA ID)                      |
 
 ### <a name="job-positions-to-position-details"></a>Ametikohast ametikoha üksikasjadele
 
-| Common Data Service’i üksus (allikas)              | Finance'i üksus (sihtkoht)       |
+| Dataverse'i tabel (allikas)              | Finance'i üksus (sihtkoht)       |
 |--------------------------------------------------------------------------|---------------------------------------------------|
-| cdm_jobpositionnumber  (Ametikoha number)                            | AMETIKOHA ID (AMETIKOHA ID)                             |
-| cdm_jobid.cdm_name   (Töö (nimi))                                        | TÖÖ ID (TÖÖ ID)                                    |
-| cdm_description   (cdm_description)                                        | KIRJELDUS   (KIRJELDUS)                       |
-| cdm_departmentid.cdm_departmentnumber   (Osakond (osakonna number)) | OSAKONNA NUMBER   (OSAKONNA NUMBER)             |
-| cdm_positiontypeid.cdm_name   (Ametikoha tüüp (nimi))                     | AMETIKOHA TÜÜBI ID   (AMETIKOHA TÜÜBI ID)                 |
-| cdm_avaialableforassignment   (Määramise jaoks saadaval)                 | MÄÄRAMISEKS SAADAVAL   (MÄÄRAMISEKS SAADAVAL) |
-| cdm_validfrom   (Kehtiv alates)                                            | KEHTIV ALATES   (KEHTIV ALATES)                           |
+| cdm_jobpositionnumber (Ametikoha number)                            | AMETIKOHA ID (AMETIKOHA ID)                             |
+| cdm_jobid.cdm_name (Töö (nimi))                                        | TÖÖ ID (TÖÖ ID)                                    |
+| cdm_description (cdm_description)                                        | KIRJELDUS (KIRJELDUS)                       |
+| cdm_departmentid.cdm_departmentnumber (Osakond (osakonna number)) | OSAKONNA NUMBER (OSAKONNA NUMBER)             |
+| cdm_positiontypeid.cdm_name (Ametikoha tüüp (nimi))                     | AMETIKOHA TÜÜBI ID (AMETIKOHA TÜÜBI ID)                 |
+| cdm_avaialableforassignment (Määramise jaoks saadaval)                 | MÄÄRAMISEKS SAADAVAL (MÄÄRAMISEKS SAADAVAL) |
+| cdm_validfrom (Kehtiv alates)                                            | KEHTIV ALATES (KEHTIV ALATES)                           |
 | cdm_validto (Kehtib kuni)                                                 | KEHTIB KUNI (KEHTIB KUNI)                               |
-| cdm_fulltimeequivalent   (Täisaja ekvivalent)                           | TÄISAJA VAIKEEKVIVALENT   (TÄISAJA VAIKEEKVIVALENT)         |
+| cdm_fulltimeequivalent (Täisaja ekvivalent)                           | TÄISAJA VAIKEEKVIVALENT (TÄISAJA VAIKEEKVIVALENT)         |
 
 ### <a name="job-positions-to-position-durations"></a>Ametikohast ametikoha kestustele
 
-| Common Data Service’i üksus (allikas)             | Finance'i üksus (sihtkoht) |
+| Dataverse'i tabel (allikas)             | Finance'i üksus (sihtkoht) |
 |-------------------------------------------------|---------------------------------------------|
-| cdm_jobpositionnumber   (Ametikoha number)   | AMETIKOHA ID (AMETIKOHA ID)                      |
+| cdm_jobpositionnumber (Ametikoha number)   | AMETIKOHA ID (AMETIKOHA ID)                      |
 | Arvutatud aktiveerimine (arvutatud aktiveerimine) | KEHTIV ALATES (KEHTIV ALATES)                        |
 | Arvutatud pensionile jäämine (arvutatud pensionile jäämine) | KEHTIB KUNI (KEHTIB KUNI)                         |
 
 ### <a name="job-positions-to-position-hierarchies"></a>Ametikohast ametikoha hierarhiatele
 
-| Common Data Service’i üksus (allikas)        | Finance'i üksus (sihtkoht) |
+| Dataverse'i tabel (allikas)        | Finance'i üksus (sihtkoht) |
 |-----------------------------------------------------------------------------------------------|---------------------------------------------|
-| cdm_jobpositionnumber   (Ametikoha number)                                                 | AMETIKOHA ID (AMETIKOHA ID)                      |
-| cdm_parentjobpositionid.cdmjobpositionnumber   (cdm_parentjobpositionid.cdmjobpositionnumber) | ÜLEMAMETIKOHA ID (ÜLEMAMETIKOHA ID)         |
-| cdm_validfrom   (Kehtiv alates)                                                                  | KEHTIV ALATES   (KEHTIV ALATES)                     |
+| cdm_jobpositionnumber (Ametikoha number)                                                 | AMETIKOHA ID (AMETIKOHA ID)                      |
+| cdm_parentjobpositionid.cdmjobpositionnumber (cdm_parentjobpositionid.cdmjobpositionnumber) | ÜLEMAMETIKOHA ID (ÜLEMAMETIKOHA ID)         |
+| cdm_validfrom (Kehtiv alates)                                                                  | KEHTIV ALATES (KEHTIV ALATES)                     |
 | cdm_validto (Kehtib kuni)                                                                      | KEHTIB KUNI (KEHTIB KUNI)                           |
-| HIERARHIATÜÜBI NIMI   (HIERARHIATÜÜBI NIMI)                                                       | HIERARHIATÜÜBI NIMI   (HIERARHIATÜÜBI NIMI)     |
+| HIERARHIATÜÜBI NIMI (HIERARHIATÜÜBI NIMI)                                                       | HIERARHIATÜÜBI NIMI (HIERARHIATÜÜBI NIMI)     |
 
 
 ### <a name="workers-to-worker"></a>Töötajatelt töötajale
-| Common Data Service’i üksus (allikas)           | Finance'i üksus (sihtkoht)       |
+| Dataverse'i tabel (allikas)           | Finance'i üksus (sihtkoht)       |
 |-----------------------------------------------|---------------------------------------------------|
-| cdm_birthdate   (cdm_birthdate)               | SÜNNIKUUPÄEV   (SÜNNIKUUPÄEV)                           |
-| cdm_gender   (cdm_gender)                     | SUGU (SUGU)                                   |
-| cdm_primaryaddress   (cdm_primaryaddress)     | ESMASE KONTAKTI MEILIAADRESS   (ESMASE KONTAKTI MEILIAADRESS)      |
-| cdm_primarytelephone   (cdm_primarytelephone) | ESMASE KONTAKTI TELEFONINUMBER   (ESMASE KONTAKTI TELEFONINUMBER)       |
-| cdm_facebookidentity   (cdm_facebookidentity) | ESMASE KONTAKTI FACEBOOK   (ESMASE KONTAKTI FACEBOOK) |
-| cdm_twitteridentity   (cdm_twitteridentity)   | ESMASE KONTAKTI TWITTER   (ESMASE KONTAKTI TWITTER)   |
-| cdm_linkedinIdentity   (cdm_linkedinIdentity) | ESMASE KONTAKTI LINKEDIN   (ESMASE KONTAKTI LINKEDIN) |
-| cdm_websiteurl   (cdm_websiteurl)             | ESMASE KONTAKTI URL   (ESMASE KONTAKTI URL)           |
-| cdm_firstname   (cdm_firstname)               | EESNIMI   (EESNIMI)                           |
-| cdm_middlename   (cdm_middlename)             | KESKMINE NIMI   (KESKMINE NIMI)                         |
-| cdm_lastname   (cdm_lastname)                 | PEREKONNANIMI (PEREKONNANIMI)                               |
-| cdm_workernumber   (cdm_workernumber)         | PERSONALI NUMBER   (PERSONALI NUMBER)               |
-| cdm_type (cdm_type)                           | TÖÖ TÜÜP   (TÖÖ TÜÜP)                         |
-| cdm_state   (cdm_state)                       | TÖÖ OLEK   (TÖÖ OLEK)                       |
+| cdm_birthdate (cdm_birthdate)               | SÜNNIKUUPÄEV (SÜNNIKUUPÄEV)                           |
+| cdm_gender (cdm_gender)                     | SUGU (SUGU)                                   |
+| cdm_primaryaddress (cdm_primaryaddress)     | ESMASE KONTAKTI MEILIAADRESS (ESMASE KONTAKTI MEILIAADRESS)      |
+| cdm_primarytelephone (cdm_primarytelephone) | ESMASE KONTAKTI TELEFONINUMBER (ESMASE KONTAKTI TELEFONINUMBER)       |
+| cdm_facebookidentity (cdm_facebookidentity) | ESMASE KONTAKTI FACEBOOK (ESMASE KONTAKTI FACEBOOK) |
+| cdm_twitteridentity (cdm_twitteridentity)   | ESMASE KONTAKTI TWITTER (ESMASE KONTAKTI TWITTER)   |
+| cdm_linkedinIdentity (cdm_linkedinIdentity) | ESMASE KONTAKTI LINKEDIN (ESMASE KONTAKTI LINKEDIN) |
+| cdm_websiteurl (cdm_websiteurl)             | ESMASE KONTAKTI URL (ESMASE KONTAKTI URL)           |
+| cdm_firstname (cdm_firstname)               | EESNIMI (EESNIMI)                           |
+| cdm_middlename (cdm_middlename)             | KESKMINE NIMI (KESKMINE NIMI)                         |
+| cdm_lastname (cdm_lastname)                 | PEREKONNANIMI (PEREKONNANIMI)                               |
+| cdm_workernumber (cdm_workernumber)         | PERSONALI NUMBER (PERSONALI NUMBER)               |
+| cdm_type (cdm_type)                           | TÖÖ TÜÜP (TÖÖ TÜÜP)                         |
+| cdm_state (cdm_state)                       | TÖÖ OLEK (TÖÖ OLEK)                       |
 
 ### <a name="employments-to-employment"></a>Tööhõivetest tööhõivele
 
-| Common Data Service’i üksus (allikas)                             | Finance'i üksus (sihtkoht) |
+| Dataverse'i tabel (allikas)                             | Finance'i üksus (sihtkoht) |
 |-----------------------------------------------------------------|---------------------------------------------|
-| cdm_employmentstartdate   (cdm_employmentstartdate)             | TÖÖHÕIVE ALGUSKUUPÄEV   (TÖÖHÕIVE ALGUSKUUPÄEV) |
-| cdm_employmentenddate   (cdm_employmentenddate)                 | TÖÖHÕIVE LÕPPKUUPÄEV   (TÖÖHÕIVE LÕPPKUUPÄEV)     |
-| cdm_workertype   (cdm_workertype)                               | TÖÖTAJA TÜÜP   (TÖÖTAJA TÜÜP)                   |
-| cdm_workerid.cdm_workernumber   (cdm_workerid.cdm_workernumber) | PERSONALI NUMBER   (PERSONALI NUMBER)         |
-| cdm_companyid.cdm_companycode   (cdm_companyid.cdm_companycode) | JURIIDILISE ISIKU ID   (JURIIDILISE ISIKU ID)             |
+| cdm_employmentstartdate (cdm_employmentstartdate)             | TÖÖHÕIVE ALGUSKUUPÄEV (TÖÖHÕIVE ALGUSKUUPÄEV) |
+| cdm_employmentenddate (cdm_employmentenddate)                 | TÖÖHÕIVE LÕPPKUUPÄEV (TÖÖHÕIVE LÕPPKUUPÄEV)     |
+| cdm_workertype (cdm_workertype)                               | TÖÖTAJA TÜÜP (TÖÖTAJA TÜÜP)                   |
+| cdm_workerid.cdm_workernumber (cdm_workerid.cdm_workernumber) | PERSONALI NUMBER (PERSONALI NUMBER)         |
+| cdm_companyid.cdm_companycode (cdm_companyid.cdm_companycode) | JURIIDILISE ISIKU ID (JURIIDILISE ISIKU ID)             |
 
 ### <a name="employments-to-employment-detail"></a>Tööhõivetest tööhõive üksikasjadele
 
-| Common Data Service’i üksus (allikas)                             | Finance'i üksus (sihtkoht)   |
+| Dataverse'i tabel (allikas)                             | Finance'i üksus (sihtkoht)   |
 |-----------------------------------------------------------------|-----------------------------------------------|
-| cdm_employmentstartdate   (cdm_employmentstartdate)             | TÖÖHÕIVE ALGUSKUUPÄEV   (TÖÖHÕIVE ALGUSKUUPÄEV)   |
-| cdm_employmentenddate   (cdm_employmentenddate)                 | TÖÖHÕIVE LÕPPKUUPÄEV   (TÖÖHÕIVE LÕPPKUUPÄEV)       |
-| cdm_validfrom   (Kehtiv alates)                                    | KEHTIV ALATES   (KEHTIV ALATES)                       |
+| cdm_employmentstartdate (cdm_employmentstartdate)             | TÖÖHÕIVE ALGUSKUUPÄEV (TÖÖHÕIVE ALGUSKUUPÄEV)   |
+| cdm_employmentenddate (cdm_employmentenddate)                 | TÖÖHÕIVE LÕPPKUUPÄEV (TÖÖHÕIVE LÕPPKUUPÄEV)       |
+| cdm_validfrom (Kehtiv alates)                                    | KEHTIV ALATES (KEHTIV ALATES)                       |
 | cdm_validto (Kehtib kuni)                                        | KEHTIB KUNI (KEHTIB KUNI)                             |
-| cdm_workerstartdate   (cdm_workerstartdate)                     | TÖÖTAJA ALGUSKUUPÄEV   (TÖÖTAJA LÕPPKUUPÄEV)           |
-| cdm_lastdateworked   (cdm_lastdateworked)                       | VIIMANE TÖÖPÄEV   (VIIMANE TÖÖPÄEV)             |
-| cdm_transitiondate   (cdm_transitiondate)                       | ÜLEVIIMISE KUUPÄEV   (ÜLEVIIMISE KUUPÄEV)             |
-| cdm_employerunitofnotice   (cdm_employerunitofnotice)           | TÖÖANDJA TEATE ÜKSUS   (TÖÖANDJA TEATE ÜKSUS) |
-| cdm_workerunitofnotice   (cdm_workerunitofnotice)               | TÖÖTAJA TEATE ÜKSUS   (TÖÖTAJA TEATE ÜKSUS)     |
-| cdm_workerid.cdm_workernumber   (cdm_workerid.cdm_workernumber) | PERSONALI NUMBER   (PERSONALI NUMBER)           |
-| cdm_companyid.cdm_companycode   (cdm_companyid.cdm_companycode) | JURIIDILISE ISIKU ID   (JURIIDILISE ISIKU ID)               |
-| cdm_employernoticeamount   (cdm_employernoticeamount)           | TÖÖANDJA TEADETE ARV   (TÖÖANDJA TEADETE ARV) |
-| cdm_workernoticeamount   (cdm_workernoticeamount )              | TÖÖTAJA TEADETE ARV   (TÖÖTAJA TEADETE ARV)     |
+| cdm_workerstartdate (cdm_workerstartdate)                     | TÖÖTAJA ALGUSKUUPÄEV (TÖÖTAJA LÕPPKUUPÄEV)           |
+| cdm_lastdateworked (cdm_lastdateworked)                       | VIIMANE TÖÖPÄEV (VIIMANE TÖÖPÄEV)             |
+| cdm_transitiondate (cdm_transitiondate)                       | ÜLEVIIMISE KUUPÄEV (ÜLEVIIMISE KUUPÄEV)             |
+| cdm_employerunitofnotice (cdm_employerunitofnotice)           | TÖÖANDJA TEATE ÜKSUS (TÖÖANDJA TEATE ÜKSUS) |
+| cdm_workerunitofnotice (cdm_workerunitofnotice)               | TÖÖTAJA TEATE ÜKSUS (TÖÖTAJA TEATE ÜKSUS)     |
+| cdm_workerid.cdm_workernumber (cdm_workerid.cdm_workernumber) | PERSONALI NUMBER (PERSONALI NUMBER)           |
+| cdm_companyid.cdm_companycode (cdm_companyid.cdm_companycode) | JURIIDILISE ISIKU ID (JURIIDILISE ISIKU ID)               |
+| cdm_employernoticeamount (cdm_employernoticeamount)           | TÖÖANDJA TEADETE ARV (TÖÖANDJA TEADETE ARV) |
+| cdm_workernoticeamount (cdm_workernoticeamount )              | TÖÖTAJA TEADETE ARV (TÖÖTAJA TEADETE ARV)     |
 
 ### <a name="position-worker-assignment-to-position-worker-assignments"></a>Töötaja ametikoha määramisest töötaja ametikoha määrangutele
 
-| Common Data Service’i üksus (allikas)                             | Finance'i üksus (sihtkoht)   |
+| Dataverse'i tabel (allikas)                             | Finance'i üksus (sihtkoht)   |
 |-----------------------------------------------------------------|-----------------------------------------------|
-| cdm_workerid.cdm_workernumber   (cdm_workerid.cdm_workernumber) | PERSONALI NUMBER   (PERSONALI NUMBER)           |
-| cdm_jobpositionnumber   (Ametikoha number)                   | AMETIKOHA ID (AMETIKOHA ID)                        |
-| cdm_validfrom   (Kehtiv alates)                                    | KEHTIV ALATES   (KEHTIV ALATES)                       |
+| cdm_workerid.cdm_workernumber (cdm_workerid.cdm_workernumber) | PERSONALI NUMBER (PERSONALI NUMBER)           |
+| cdm_jobpositionnumber (Ametikoha number)                   | AMETIKOHA ID (AMETIKOHA ID)                        |
+| cdm_validfrom (Kehtiv alates)                                    | KEHTIV ALATES (KEHTIV ALATES)                       |
 | cdm_validto (Kehtib kuni)                                        | KEHTIB KUNI (KEHTIB KUNI)                             |
 
 ### <a name="worker-addresses-to-worker-postal-address-v2"></a>Töötaja aadressitest töötaja postiaadressi v2-le
 
-| Common Data Service’i üksus (allikas)                             | Finance'i üksus (sihtkoht)   |
+| Dataverse'i tabel (allikas)                             | Finance'i üksus (sihtkoht)   |
 |-----------------------------------------------------------------|-----------------------------------------------|
-| cdm_workerid.cdm_workernumber   (cdm_workerid.cdm_workernumber) | PERSONALI NUMBER   (PERSONALI NUMBER)           |
-| cdm_addresstype   (cdm_addresstype)                             | AADRESSI ASUKOHA ROLLID   (AADRESSI ASUKOHA ROLLID) |
-| cdm_line1   (cdm_line1)                                         | AADRESS, TÄNAV   (AADRESS, TÄNAV)               |
-| cdm_city (cdm_city)                                             | AADRESS, LINN   (AADRESS, LINN)                   |
-| cdm_stateorprovince   (cdm_stateorprovince)                     | AADRESS, OSARIIK   (AADRESS, OSARIIK)                 |
-| cdm_postalcode   (cdm_postalcode)                               | AADRESS, SIHTNUMBER (AADRESS, SIHTNUMBER)                |
-| cdm_countryregion   (cdm_countryregion)                         | AADRESS, RIIK/REGIOON (AADRESS, RIIK/REGIOON)    |
-| cdm_addressnumber   (cdm_addressnumber)                         | AADRESSI ASUKOHA ID (AADRESSI ASUKOHA ID)          |
-| cdm_ispreferred   (cdm_ispreferred)                             | ON ESMANE   (ON ESMANE)                       |
-| cdm_county   (cdm_county)                                       | AADRESS, MAAKONNA ID (AADRESS, MAAKONNA ID)              |
-| cdm_addresstype   (cdm_addresstype)                             | AADRESSI KIRJELDUS (AADRESSI KIRJELDUS)        |
+| cdm_workerid.cdm_workernumber (cdm_workerid.cdm_workernumber) | PERSONALI NUMBER (PERSONALI NUMBER)           |
+| cdm_addresstype (cdm_addresstype)                             | AADRESSI ASUKOHA ROLLID (AADRESSI ASUKOHA ROLLID) |
+| cdm_line1 (cdm_line1)                                         | AADRESS, TÄNAV (AADRESS, TÄNAV)               |
+| cdm_city (cdm_city)                                             | AADRESS, LINN (AADRESS, LINN)                   |
+| cdm_stateorprovince (cdm_stateorprovince)                     | AADRESS, OSARIIK (AADRESS, OSARIIK)                 |
+| cdm_postalcode (cdm_postalcode)                               | AADRESS, SIHTNUMBER (AADRESS, SIHTNUMBER)                |
+| cdm_countryregion (cdm_countryregion)                         | AADRESS, RIIK/REGIOON (AADRESS, RIIK/REGIOON)    |
+| cdm_addressnumber (cdm_addressnumber)                         | AADRESSI ASUKOHA ID (AADRESSI ASUKOHA ID)          |
+| cdm_ispreferred (cdm_ispreferred)                             | ON ESMANE (ON ESMANE)                       |
+| cdm_county (cdm_county)                                       | AADRESS, MAAKONNA ID (AADRESS, MAAKONNA ID)              |
+| cdm_addresstype (cdm_addresstype)                             | AADRESSI KIRJELDUS (AADRESSI KIRJELDUS)        |
 
 ## <a name="integration-considerations"></a>Integratsiooni kaalutlused
 
@@ -248,10 +250,12 @@ Integreerimine rakendusest Human Resources rakendusse Finance püüab kirjeid ID
 
 See probleem võib esineda üksusega **Töötaja**, kus kasutatakse sobitamiseks **Personali numbrit** ja **Ametikohti**. Tööd ei kasuta numbriseeriaid. Seega, kui sama töö ID on olemas nii rakenduses Human Resources kui ka Finance, kirjutab rakenduse Human Resources Dynamics 365 Finance’i teabe üle. 
 
-Dubleeritud ID-dega seotud probleemide vältimiseks saate lisada [numbriseeriale](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/organization-administration/number-sequence-overview?toc=/dynamics365/unified-operations/talent/toc.json) eesliite või määrata numbrijärjestuse algusnumbri, mis ületab teise süsteemi vahemikku. 
+Dubleeritud ID-dega seotud probleemide vältimiseks saate lisada [numbriseeriale](/dynamics365/unified-operations/fin-and-ops/organization-administration/number-sequence-overview?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json) eesliite või määrata numbrijärjestuse algusnumbri, mis ületab teise süsteemi vahemikku. 
 
 Töötaja aadressi jaoks kasutatav asukoha ID ei ole numbriseeria osa. Töötaja aadressi integreerimisel rakendusest Human Resources rakendusse Finance, kui töötaja aadress on juba Finance’is olemas, võib luua aadressi duplikaatkirje. 
 
 Järgmisel joonisel on toodud andmete integreerimise malli vastenduste näide. 
 
-![Malli vastendamine](./media/IntegrationMapping.png)
+![Malli vastendamine.](./media/IntegrationMapping.png)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

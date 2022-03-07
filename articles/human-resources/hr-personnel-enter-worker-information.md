@@ -1,47 +1,52 @@
 ---
 title: Töötaja andmete sisestamine
 description: Pärast värbaja hulgivärbamisprojekti ja ametikohtade loomist on järgmiseks etapiks värvatavate inimeste töötaja teabe sisestamine.
-author: andreabichsel
-manager: AnnBe
-ms.date: 08/29/2018
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: HRMMassHireProject, HRMMassHireLine, HcmPersonnelManagementWorkspace
+ms.search.form: HcmWorkerV2, HRMMassHireProject, HRMMassHireLine, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8d139b079c011b60af6d2b896e9edb5b9d27501a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: abb45fe6f398de71565732dce6249daa0c39fce2
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418115"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069450"
 ---
 # <a name="enter-worker-information"></a>Töötaja andmete sisestamine
 
 
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
-Pärast värbaja hulgivärbamisprojekti ja ametikohtade loomist on järgmiseks etapiks värvatavate inimeste töötaja teabe sisestamine. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid. Demoandmed sisaldavad avatud hulgivärbamise projekti. Selle protseduuri alustamiseks avage Inimressursid > Värbamine > Hulgivärbamisprojektid.
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+
+
+Pärast värbaja hulgivärbamisprojekti ja ametikohtade loomist on järgmiseks etapiks värvatavate inimeste töötaja teabe sisestamine. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid. Demoandmed sisaldavad avatud hulgivärbamise projekti. Selle protseduuri alustamiseks minge aadressile **Inimressursid** > **Värbamine** > **Massi rendiprojektid**.
 
 1. Märkige loendis valitud rida.
-2. Klõpsake suvandit Ametikoha üksikasjad.
-    * Redigeerige töötaja puhul alguskuupäeva.  
-    * Redigeerige töötaja puhul lõppkuupäeva.  
-    * Vajaduse korral muutke töötaja puhul töötaja tüüpi.  
-3. Sisestage väärtus väljale Eesnimi.
-4. Sisestage väärtus väljale Teine nimi.
-5. Sisestage väärtus väljale Perekonnanimi.
+2. Klõpsake nuppu **Asukoha üksikasjad**.
+    * Redigeerige **töötaja alguskuupäeva**.  
+    * Redigeerige **töötaja lõppkuupäeva**.  
+    * **Vajadusel muutke töötaja tüüpi**.  
+3. Tippige väljale **Eesnimi** väärtus.
+4. Tippige väljale **Keskmine nimi** väärtus.
+5. Tippige väljale **Perekonnanimi** väärtus.
     * Vajaduse korral muutke töötaja puhul tööd.  
     * Vajaduse korral muutke töötaja puhul osakonda.  
     * Vajaduse korral muutke töötaja puhul täistööaja olekut.  
-6. Klõpsake nuppu OK.
+6. Klõpsake valikut **OK**.
 7. Otsige loendist ja valige soovitud kirje.
 8. Eemaldage loendis valitud realt märge.
     * Valige projekti järgmine ametikoht ja jätkake iga värvatava inimese puhul töötaja teabe sisestamist.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

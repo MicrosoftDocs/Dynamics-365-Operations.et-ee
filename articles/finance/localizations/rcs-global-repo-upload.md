@@ -2,28 +2,25 @@
 title: ER-konfiguratsioonide loomine RCS-is ja üleslaadimine globaalsesse hoidlasse
 description: Selles teemas selgitatakse, kuidas luua elektroonilise aruandluse (ER) konfiguratsiooni Microsoft Regulatory Configuration Servicesis (RCS) ja globaalsesse hoidlasse üles laadida.
 author: JaneA07
-manager: AnnBe
 ms.date: 09/21/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERSolutionTable, ERWorkspace, RCS
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 97423
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 5b2b8f35b9931f8fd1824c20e9045da68af33ad5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a138fd4b525077f12f6575f4b10f682728b71203
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442425"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5838715"
 ---
 # <a name="create-er-configurations-in-regulatory-configuration-services-rcs-and-upload-them-to-the-global-repository"></a>ER-konfiguratsioonide loomine Regulatory Configuration Servicesis RCS ja üleslaadimine globaalsesse hoidlasse
 
@@ -98,3 +95,6 @@ Konfiguratsiooni versioon kustutatakse ja kuvatakse kinnitusteade.
 > [!NOTE]
 > Konfiguratsiooni saab kustutada ainult konfiguratsiooni loonud konfiguratsioonipakkuja. Kui konfiguratsiooni on jagatud mõne muu organisatsiooniga, tuleb jagamine enne konfiguratsiooni kustutamist tühistada.
  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

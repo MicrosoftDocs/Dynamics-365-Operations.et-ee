@@ -1,16 +1,13 @@
 ---
-title: Ülevaade
+title: Halduse ülevaade
 description: See administraatori juhend aitab teil häälestada, hallata ja teha tõrkeotsingut rakenduses Dynamics 365 Human Resources.
 author: andreabichsel
-manager: AnnBe
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -18,14 +15,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8008a7e78bb1d1568a79fab436194a04d1ff683c
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 2009b3965f032ae54b83835ae481c47b0234a231
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527857"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6053727"
 ---
-# <a name="overview"></a>Ülevaade
+# <a name="administration-overview"></a>Halduse ülevaade
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
@@ -41,15 +40,15 @@ See administraatori juhend aitab teil häälestada, hallata ja teha tõrkeotsing
 
 - Andmete integratsiooni häälestamine
   - [Andmete integreerimise tehnoloogia valimine](hr-admin-integration-choose-technology.md)
-  - [Common Data Service’i integratsiooni konfigureerimine](hr-admin-integration-common-data-service.md)
+  - [Dataverse’i integratsiooni konfigureerimine](hr-admin-integration-common-data-service.md)
   - [Integratsiooni konfigureerimine Finance’iga](hr-admin-integration-finance.md)
   - [Integratsiooni konfigureerimine Dayforce’iga](hr-admin-integration-dayforce.md)
   - [Korduvate andmete ekspordi rakenduse loomine](hr-admin-integration-recurring-data-export.md)
   - Office'iga integreerimine
-    - [Office’i integreerimise õppetükk](../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json)
-    - [Üksuseandmete värskendamine Excelis](../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json)
-    - [Excelis avamise kogemuste loomine](../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json)
-    - [Office'i integreerimise tõrkeotsing](../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json)
+    - [Office’i integreerimise õppetükk](../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
+    - [Üksuseandmete värskendamine Excelis](../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
+    - [Excelis avamise kogemuste loomine](../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
+    - [Office'i integreerimise tõrkeotsing](../fin-ops-core/dev-itpro/office-integration/office-integration-troubleshooting.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
 
 - [Funktsioonide haldamine](hr-admin-manage-features.md)
 
@@ -84,7 +83,7 @@ See administraatori juhend aitab teil häälestada, hallata ja teha tõrkeotsing
   - [Dokumentide või koolituse loomine tegevuse salvestaja abil](../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/human-resources/toc.json)
 
 - Human Resourcesi tõrkeotsing
-  - [Toe hankimine](hr-admin-troubleshooting-support.md)
+  - [Toe hankimine](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md)
   - [Jõudluse optimeerimine automaatsete puhastamisülesannetega](hr-admin-troubleshooting-batch-history.md)
   - [Analüütilisi aruandeid ei värskendata](hr-admin-troubleshooting-analytic-reports.md)
   - [Power Appsi halduskeskuses ei saa keskkonda luua](hr-admin-troubleshooting-power-apps.md)
@@ -102,3 +101,5 @@ See administraatori juhend aitab teil häälestada, hallata ja teha tõrkeotsing
 - [Mis on uut või mida on muudetud rakenduses Human Resources?](hr-admin-whats-new.md)
 - [Arendaja juhend](hr-developer-overview.md)
 - [Kasutusjuhend](hr-hrpro-overview.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

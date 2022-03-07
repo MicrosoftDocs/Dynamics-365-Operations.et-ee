@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: AssetDepreciationProfile, AssetGroupBookSetup, AssetGroupDepBookSetup
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 3441
 ms.assetid: 1d8267b1-86a8-44bf-8814-f56b5d45a0ae
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c3370db28f551b5ce4a9b49342cb0c0b2f3945c0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1aacc57051f21b992d9f7feb44c99511fc2a65bb
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442473"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5241286"
 ---
 # <a name="depreciation-methods-and-conventions"></a>Kulumimeetodid ja kulumiarvestusreeglid
 
@@ -91,3 +90,6 @@ Saate valida järgmiste kulumimeetodite hulgast.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

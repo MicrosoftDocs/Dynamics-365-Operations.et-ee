@@ -1,31 +1,30 @@
 ---
-title: Soodustuste haldamise parameetrite konfigureerimine ettevõtte kohta
-description: Konfigureerige soodustuste halduse parameetreid ettevõtte kohta rakenduses Microsoft Dynamics 365 Human Resources.
-author: andreabichsel
-manager: tfehr
-ms.date: 12/07/2020
+title: Soodustuste halduse parameetrite konfigureerimine ettevõtte alusel
+description: See teema kirjeldab, kuidas konfigureerida soodustuste halduse parameetreid ettevõtte kohta rakenduses Microsoft Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 8/24/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2943d0095e4c9421725b90e579b7cbb841038ab7
-ms.sourcegitcommit: fd097f6f76f0d8428038fa3655b3188bf093b517
+ms.openlocfilehash: 2d0bc8d511126901be09028dc3c10636f2902e79
+ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4692741"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "7423280"
 ---
 # <a name="configure-benefits-management-parameters-per-company"></a>Soodustuste haldamise parameetrite konfigureerimine ettevõtte kohta
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Iga soodustust pakkuva organisatsiooni jaoks peate konfigureerima soodustuste kinnitusmeilide sätted.
 
@@ -37,8 +36,10 @@ Iga soodustust pakkuva organisatsiooni jaoks peate konfigureerima soodustuste ki
 
    | Field | Kirjeldus |
    | --- | --- |
-   | **Saada kinnitusmeil** | Kui see funktsioon on sisse lülitatud, saadetakse töövõtjatele kinnitusmeili, kui nad registreerivad soodustuste registreerimise töövõtja iseteeninduse kaudu. |
+   | **Saada kinnitusmeil** | Kui see funktsioon on sisse lülitatud, saadetakse töövõtjatele kinnitusmeili, kui nad registreerivad soodustuste registreerimise **Töövõtja iseteeninduse** kaudu. |
    | **Kinnitusmeili mall** | Valige organisatsiooni meilisõnumi mall, mida kasutada registreerimise kinnituse saatmisel. Kui te malli ei vali, saadetakse järgmine üldine meilisõnum.<br><br>%EmployeeFirstName%,<br><br>Õnnitleme! Olete soodustuste registreerimise edukalt lõpule viinud.<br><br>Suur tänu!<br>Ettevõtte <Company/Org name> soodustused. |
    | **Vaikimisi meilisõnumi saatja aadress** | Meiliaadress, mida kasutada kinnitusmeili saatmisel. |
 
 3. Valige käsk **Salvesta**.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

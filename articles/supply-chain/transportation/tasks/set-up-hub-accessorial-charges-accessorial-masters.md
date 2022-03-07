@@ -1,25 +1,27 @@
 ---
 title: Keskuse lisatasude ja lisade koondandmete seadistamine
 description: See protseduur kirjeldab keskuse lisade koondandmete loomist ja nende koondandmete kasutamist keskuse lisade tasu loomiseks.
-author: Henrikan
+author: ShylaThompson
+manager: tfehr
 ms.date: 11/11/2016
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSCarrierAccessorial,TMSAccessorialMaster, TMSHubAccessorial
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: henrikan
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f1480dec82912d547bde5db614703164e3f8451c
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: e012850a390f373088e758418b68c7eaae7ad53e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576228"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4973981"
 ---
 # <a name="set-up-hub-accessorial-charges-and-accessorial-masters"></a>Keskuse lisatasude ja lisade koondandmete seadistamine
 
@@ -51,6 +53,3 @@ See protseduur kirjeldab keskuse lisade koondandmete loomist ja nende koondandme
 9. Klõpsake nuppu Salvesta.
 10. Sulgege leht.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

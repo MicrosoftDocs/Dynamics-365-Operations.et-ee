@@ -2,27 +2,24 @@
 title: Autorluse lehe ülevaade
 description: Selles teemas antakse ülevaade autorluse lehest rakenduses Microsoft Dynamics 365 Commerce.
 author: brendans
-manager: annbe
 ms.date: 10/31/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application USer
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: brendans
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 95908c3a8b6c5231f2f5b283fa05f07c4e91b5d7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b5e1e7dd669a9608d385086cf24d388b065c9ca6
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411653"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5799873"
 ---
 # <a name="authoring-page-overview"></a>Autorluse lehe ülevaade
 
@@ -30,8 +27,6 @@ ms.locfileid: "4411653"
  [!include [banner](includes/banner.md)]
 
 Selles teemas antakse ülevaade autorluse lehest rakenduses Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Ülevaade
 
 Erinevate ärivajaduste toetamiseks on võimalik luua veebisaite. Nad võivad esindada kogu ettevõtet, pakkuda ühte ärikanalit või olla suunatud konkreetsele sihtrühmale või sihtrühma segmendile. Näiteks võib rõivaste tootjal olla veebisait, mis tutvustab kõiki kaubamärke, mida see omab. Samal rõivaste tootjal võib selle kõrval olla iga konkreetse kaubamärgi jaoks eraldi veebisait ja ka veebisaitide kogum luksusliku moe, välirõivaste moe ja lastemoega.
 
@@ -122,3 +117,6 @@ Pärast autorluse tööriista laadimist saate valida suvandi **Avaleht**, et naa
 [Saidi jaoks otsingumootori optimeerimise (SEO) kaalutlused](search-engine-optimization-considerations.md)
 
 [Sisu turbepoliitika (CSP) haldamine](manage-csp.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

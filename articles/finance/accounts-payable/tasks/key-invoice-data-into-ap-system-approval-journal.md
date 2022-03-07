@@ -2,23 +2,25 @@
 title: Arve põhiandmed ostureskontrosse kinnitamise töölehe abil
 description: See teema selgitab, kuidas kasutada arveregistrit arvete loomiseks ja seejärel kinnituslehte kulukontode värskendamiseks.
 author: abruer
-ms.date: 02/11/2022
+manager: AnnBe
+ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransInvoiceRegister, HcmWorkerLookUp, LedgerJournalTransApprove, LedgerJournalTransApproveFetchVouchers, LedgerTransVoucher
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0ce66a4b92f26bcec0849accad3878aef2b2f658
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
-ms.translationtype: MT
+ms.openlocfilehash: f19c31a3ca20ad4b11e2529bdcb9db351c37f6c2
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109652"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4971874"
 ---
 # <a name="key-invoice-data-into-accounts-payable-using-an-approval-journal"></a>Arve põhiandmed ostureskontrosse kinnitamise töölehe abil
 
@@ -51,6 +53,3 @@ See teema selgitab, kuidas kasutada arveregistrit arvete loomiseks ja seejärel 
 10. Valige **Sisesta**.
 11. Postitatud kirjete vaatamiseks valige **Vautšer**. Kinnituse ootel arvete konto tühistatakse ja asendatakse tegeliku kulukontoga.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

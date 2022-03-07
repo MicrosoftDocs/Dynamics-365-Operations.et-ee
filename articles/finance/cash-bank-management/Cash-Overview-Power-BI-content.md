@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: BankTreasurerWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 6ad99f00438b0f9ccbf84e504219e39aa49f2bc1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0a6ce81867c93a188d77778b7105e3dd0b3b6656
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442404"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5260179"
 ---
-# <a name="cash-overview-power-bi-content"></a>Kassa ülevaate Power BI sisu
+# <a name="cash-overview-power-bi-content"></a>Sularaha ülevaate Power BI sisu
 
 [!include [banner](../includes/banner.md)]
 
@@ -79,3 +78,6 @@ Järgmises tabelis on näidatud üksused, millel **kassa ülevaate** Power BI si
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityInflowOutflowBalanceCompany    | Summeeritud sularaha sissetulekud ja väljaminekud, kasutades iga ettevõtte arvestusvaluutat |
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityInflowOutflowBalanceEnterprise | Summeeritud sularaha sissetulekud ja väljaminekud, kasutades kõigi ettevõtete puhul süsteemivaluutat |
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityTransactionCurrency            | Summeeritud kande netosumma ja valuutade saldo, kasutades kandevaluutat |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

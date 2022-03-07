@@ -2,28 +2,25 @@
 title: Kasutamisõiguse esemeks oleva vara kulumi kirjendamine (eelversioon)
 description: Selles teemas selgitatakse, kuidas luua töölehe kirjet amortisatsioonile, mida on vaja organisatsiooni bilansis tuvastatud rentimistele.
 author: moaamer
-manager: Ann Beebe
-ms.date: 10/28/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: AssetLeaseAssetSchedule
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 0dd8308acb875affc96ca6d9ed856d74d4b2eb37
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: ba26e83202163eb8e750705eb1bbb1c97cee813e
+ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4442558"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5881490"
 ---
 # <a name="record-right-of-use-asset-depreciation-preview"></a>Kasutamisõiguse esemeks oleva vara kulumi kirjendamine (eelversioon)
 
@@ -86,3 +83,6 @@ Vastavalt rahvusvahelise finantsaruandluse standarditele 16 (IFRS 16) ja ASC 842
 | 1                                    | 22889,87 ÷ 24 = 953,74                 |
 | 2                                    | 22889,87 ÷ 24 = 953,74                 |
 | 3                                    | 22889,87 ÷ 24 = 953,74                 |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

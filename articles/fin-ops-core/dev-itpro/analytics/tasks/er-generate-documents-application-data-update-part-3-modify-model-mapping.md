@@ -1,12 +1,10 @@
 ---
 title: Mudelite ja vastenduste muutmine rakendusandmetega dokumentide loomiseks
-description: Selle protseduuri toimingute lõpule viimiseks peate esmalt teostama protseduuri „ER Avalduse andmete värskendusega dokumentide genereerimine (2. osa – dokumentide genereerimine)“.
+description: Selles teemas kirjeldatakse, kuidas kujundada aruandluse konfiguratsioone elektroonilise dokumendi loomiseks ja värskendada rakenduse andmeid. (2. osa – dokumentide loomine).
 author: NickSelin
-manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3401ec98ac1b61572d07fbb30d4465de78473fca
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 78b1771d0e01702162192ff20c03facbba4f3513
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684567"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5751602"
 ---
 # <a name="modify-models-and-mappings-to-generate-documents-that-have-application-data"></a>Mudelite ja vastenduste muutmine rakendusandmetega dokumentide loomiseks
 
@@ -168,3 +166,6 @@ Selles protseduuris demonstreeritakse, kuidas kujundada elektroonilise aruandlus
 66. Sulgege leht.
 67. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

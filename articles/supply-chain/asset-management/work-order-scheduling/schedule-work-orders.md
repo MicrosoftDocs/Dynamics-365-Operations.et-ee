@@ -1,12 +1,10 @@
 ---
 title: Töökäskude plaanimine
 description: Selles teemas tutvustatakse, kuidas ajastada töökäske varahalduses.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/19/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderSchdulePreviewPart, EntAssetWorkOrderScheduleExclusively, EntAssetWorkOrderSchduleInfoPart, EntAssetWorkOrderScheduleListPage, EntAssetWorkOrderSchedule, EntAssetWorkOrderScheduleDelete
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7e7751e3e2f216abf46f02ee0644909c6894c5b2
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
-ms.translationtype: HT
+ms.openlocfilehash: becd06c46afd92bf07d9a69147b7768e780aefa57f9045c11698c04154d6ddb8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5020225"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6718055"
 ---
 # <a name="schedule-work-orders"></a>Töökäskude plaanimine
 
@@ -58,7 +56,7 @@ Ajastada saab ainult sellise töökäsu töötsükli olekuga töökäske, mis lu
 
 *Näide:* alloleval joonisel väljale **Oodatav algus** sisestatud valem loob töökäsu ajastamise kõigile töökäskudele, mille oodatud alguskuupäev on nädala pärast ja hiljem. See valem võib olla kasulik, kui käivitate töökäsu ajastamisi pidevalt, kuid tahate kindlustada, et järgmisele 5-6 päevale kavandatud töökäske uuesti ei ajastataks.
 
-![Joonis 1](media/03-work-order-scheduling.png)
+![Joonis 1.](media/03-work-order-scheduling.png)
 
 Töökäskudega seotud töökäsu tüüp võib seadistada ajastamise ühele hooldustöötajale (**Varahaldus** > **Seadistus** > **Töökäsud** > **Töökäsu tüübid** > **Üks hooldustöötaja** tumblervõti seadistatud olekusse "Jah"). See tähendab, et kui töökäsu juures kasutatakse töökäsu tüüpi, seadistatakse tumblernupp **Üks hooldustöötaja** jaotise **Kõik töökäsud** üksikasjade lehe > vaates **Päis** > vahekaardil **Ajakava** automaatselt olekusse "Jah". Töökäsu ajastamise ajal ajastatakse kõik töökäsule loodud töökäsu hooldustööd hiljem samale hooldustöötajale. Vajadusel saate redigeerida tumblernupu **Üks hooldustöötaja** valikut jaotises **Kõik hooldustöötajad**, et võimaldada töökäsu töödele mitme töötaja või ühe töötaja ajastamine.
 
@@ -137,3 +135,6 @@ Gantti diagrammi vaatamiseks ja sellega töötamiseks tehke järgmist.
     - Kuvatud töökäsu uuesti plaanimiseks valige ja lohistage see sobivale uuele kuupäevale ja kellaajale.
 
 1. Kui tegite muudatusi, valige nende salvestamiseks Toimingupaanil käsk **Salvesta**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

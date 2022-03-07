@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: LedgerPeriodCloseProjectWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 13791
 ms.assetid: 6ee51758-639b-448e-9cb2-56cf1d804273
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6f96da7f7f5374fb34e317c416238a48c3fe7d05
-ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
+ms.openlocfilehash: c83c8f6ecc72d4d04eae9707ad4066754ab5af48
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4442591"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5249335"
 ---
 # <a name="financial-period-close-workspace"></a>Finantsperioodi sulgemise tööruum
 
@@ -108,3 +107,6 @@ Pärast sulgemise graafiku lõpetamist valige selle puhul suvand **Suletud**. Ü
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

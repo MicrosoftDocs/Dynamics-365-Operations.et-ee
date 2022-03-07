@@ -2,15 +2,12 @@
 title: Sularahahalduse parandused
 description: Selles teemas kirjeldatakse sularahahalduse parandusi kassas rakenduses Dynamics 365 Commerce.
 author: anpurush
-manager: AnnBe
 ms.date: 05/21/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
 ms.search.region: global
@@ -18,12 +15,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-05-21
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 0c561c39dfcbfa739c5a22394c05191e7f9bc107
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: f878f39e8e9913edbe1da192e199090139a88adb6b7ed9a1e9b779c5748171b5
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411639"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6735650"
 ---
 # <a name="cash-management-improvements"></a>Sularahahalduse parandused
 
@@ -62,3 +59,6 @@ Retaili versioonis 10.0.3 ja uuemates versioonides on saadaval ka järgmised sul
 - Kui vastavusse viimise ajal valitud kanne tasakaalu ei lähe, peab kasutaja sisestama tasakaalustamata vastavusse viimise põhjuse kirjelduse. Kasutajad saavad valida ühe kande ja viia selle vajaduse järgi vastavusse vastava põhjuse kirjeldusega.
 - Kasutajad saavad jätkata kannete vastavusse ja vastavusest välja viimist, kuni vahetus suletakse. Kui vahetus on suletud, ei saa kandeid vastavusest välja viia.
 - Kui kasutaja otsustab vahetuse sulgeda, kontrollib Commerce, et vahetuses poleks vastavusse viimata sularahahalduse kandeid. Kasutajad ei saa vahetust sulgeda, kui selles on vastavusse viimata kandeid.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

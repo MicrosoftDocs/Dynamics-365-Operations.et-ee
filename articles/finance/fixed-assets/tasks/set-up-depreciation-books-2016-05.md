@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: AssetDepBookTable, AssetGroupDepBookSetup
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 03f915fa91e0eeff2f26ab9a60bbd5118317e853
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: cd65cb77872b3e2f74402cf8c92c8b8989cea6ee
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442438"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5224689"
 ---
 # <a name="set-up-depreciation-books"></a>Kulumiraamatute seadistamine 
 
@@ -55,3 +54,6 @@ See protseduur juhendab uue kulumiraamatu loomise protsessi ja selle seostamist 
 6. Sisestage number väljale Kasutusiga.
     * Pange tähele, et välja Kulumiperioodid väärtus arvutatakse pärast kasutusea seadistamist.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

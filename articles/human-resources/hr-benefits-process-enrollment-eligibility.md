@@ -2,7 +2,7 @@
 title: Registreerimise sobivuse töötlemine
 description: Selles artiklis selgitatakse, kuidas käivitada registreerimise sobivuse töötlemist.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: dfb7f13dce48f33c111af491918702763f7e3b8a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 25699d643b3e74fe7118884457ab17314d1f9132
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418107"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5466298"
 ---
 # <a name="process-enrollment-eligibility"></a>Registreerimise sobivuse töötlemine
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Selles artiklis selgitatakse, kuidas käivitada registreerimise sobivuse töötlemist.
 
@@ -72,3 +74,6 @@ Selles artiklis selgitatakse, kuidas kuvada sobivuse töötlemise tulemusi.
    | **Tulemi olek** | See on Sobilik või Sobimatu. Tulemuse olek on Sobimatu, kui töötaja ei vastanud sobivusreegli kriteeriumidele, kui töötaja kohta puudub nõutav teave (nt maksesagedus või põhipalk) või kui puudub teave soodustusplaani kohta, mis takistab töötajate registreerimist. |
    | **Tulemusteade** | Näitab, miks töötaja on soodustusplaani jaoks sobimatu või kui sobivusreegel on edastatud. |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

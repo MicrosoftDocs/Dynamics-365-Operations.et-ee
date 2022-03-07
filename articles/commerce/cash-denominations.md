@@ -2,11 +2,9 @@
 title: Sularaha nimiväärtuste konfigureerimine kassa jaoks
 description: Poe kassas müüjate, müügiassistentide ja juhatajate poolt kasutatavate rahatähtede ja müntide nimiväärtused saab määratleda kontoris.
 author: jblucher
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailStoreTable, RetailStoreCashDeclarationTable
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: e3a5f9a73bdee50e3e7c68125144c3b43305efa8
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 356552fd1c2001619785b6a03b8ec4cba92725da
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4961555"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351317"
 ---
 # <a name="configure-cash-denominations-for-the-point-of-sale-pos"></a>Sularaha nimiväärtuste konfigureerimine kassa jaoks
 
@@ -35,7 +33,7 @@ Poe kassas müüjate, müügiassistentide ja juhatajate poolt kasutatavate rahat
 
 Nimiväärtuste seadistamine iga poe kohta toimub lehel **Seadistamine** \> **Sularaha deklaratsiooni suvand**.
 
-![Sularaha deklaratsiooni suvand](./media/image1-denomination.png)
+![Sularaha deklaratsiooni suvand.](./media/image1-denomination.png)
 
 Nimiväärtuse määratlemiseks tehke järgmist.
 
@@ -43,7 +41,7 @@ Nimiväärtuse määratlemiseks tehke järgmist.
 1. Määrake tüüp (münt või rahatäht).
 1. Määrake summa (väärtus).
 
-![Sularahadeklaratsiooni põhivaluutade leht](./media/image2-denomination.png)
+![Sularahadeklaratsiooni põhivaluutade leht.](./media/image2-denomination.png)
 
 ## <a name="configure-the-functionality-profile"></a>Seadistage funktsiooniprofiil.
 
@@ -51,3 +49,6 @@ Sularahamakse korral saab kassa kasutaja kliendi makstud summa kiireks sisestami
 
 - **Suurem või võrdne summa**: vaikimisi kuvatakse kassas ainult makstavast summast suuremaid nimiväärtuseid, mis võimaldab makseid töödelda ühe puutega. Näiteks kui tasumisele kuuluv summa on 7,50 $,näitab kassa järgmiseid nimiväärtuseid: 10 $, 20 $, 50 $ ja 100 $. Kui puudutada ühte nendest summadest, töödeldakse makse vastavast summast lähtudes. Nimiväärtuseid 1 $ ja 5 $ ei kuvata, sest nende väärtus on maksmisele kuuluvast summast väiksem.
 - **Kõik nimiväärtused**: maksmisele kuuluvast summast olenemata kassas alati kõikide nimiväärtuste kuvamiseks valige see suvand. See tähendab, et kasutaja saab maksmisele kuuluva summa tasumiseks kasutada rahatähtede kombinatsioone. Näiteks, kui tasumisele kuuluv summa on 25,00 $, saab kasutaja valida müügi lõpetamiseks valikud 20 $ ja 5 $.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

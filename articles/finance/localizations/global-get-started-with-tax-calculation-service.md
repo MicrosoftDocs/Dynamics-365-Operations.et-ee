@@ -2,7 +2,7 @@
 title: Maksuarvutusega alustamine
 description: Selles teemas selgitatakse, kuidas seadistada maksuarvestusi.
 author: wangchen
-ms.date: 01/05/2022
+ms.date: 10/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,74 +15,31 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: ae2c20fe79c2f8fd8d102740441230ae443f16a3
-ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
-ms.translationtype: MT
+ms.openlocfilehash: 2f26f8e5eafe29e88c26d3fb6cfa950466ec6be9
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952517"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647430"
 ---
 # <a name="get-started-with-tax-calculation"></a>Maksuarvutusega alustamine
 
 [!include [banner](../includes/banner.md)]
 
-See teema annab teavet selle kohta, kuidas alustada maksuarvestusega. Selle teema jaotised juhendavad teid läbi kõrgema taseme kujunduse ja konfigureerimisetappide elutsükli Microsoft Dynamics teenustes (LCS), Regulatory Configuration Service (RCS) Dynamics 365 Finance ja Dynamics 365 Supply Chain Management. 
+See teema annab teavet selle kohta, kuidas alustada maksuarvestusega. Esiteks antakse teile juhised konfigureerimise kohta lahendustes Microsoft Dynamics Lifecycle Services (LCS), Regulatory Configuration Service (RCS), Dynamics 365 Finance ja Dynamics 365 Supply Chain Management. Seejärel vaatab see üle tavalise protseduuri kasutades maksuarvestuse võimekusi Finants ja Supply Chain Management -i kannetes.
 
-Seadistus koosneb kolmest põhi astmest.
+Seadistus koosneb neljast peamisest astmest:
 
 1. LCS-s installi maksuarvestuse lisandmoodul.
 2. RCS-is seadistage maksuarvestuse funktsioon. Need häälestusandmed pole spetsiifilised iga juriidilise üksuse jaoks. Seda saab jagada finants- ja Supply Chain Management -i kõigi juriidiliste üksuste vahel.
 3. Finantside ja Supply Chain Management -is seadistage juriidilise üksuse maksuarvestuse parameetrid.
-
-## <a name="high-level-design"></a>Kõrgtaseme kujundus
-
-### <a name="runtime-design"></a>Käitusaja kujundus
-
-Järgmine näide näitab maksuarvestuse kõrgema taseme käitusaja kujundust. Kuna maksuarvutust saab integreerida mitme Dynamics 365 rakendusega, kasutab näide integratsiooni finantsiga.
-
-1. Finantsis luuakse kanne, nt müügitellimus või ostutellimus.
-2. Finantsid kasutavad automaatselt käibemaksugrupi ja kauba käibemaksugrupi vaikeväärtusi.
-3. Kui **kandel** on valitud nupp Käibemaks, käivitatakse maksu arvutamine. Finantsid saadab siis lasti maksuarvutuse teenusesse.
-4. Maksuarvestuse teenus sobitab tasu koormuse eelmääratletud reeglitega maksufunktsioonis, et leida täpsem käibemaksugrupp ja kauba käibemaksugrupp samaaegselt.
-
-    - Kui tasukoormust saab vastendada maksugrupi kohaldatavusmaatriksiga, alistab see käibemaksugrupi väärtuse vastendatud maksugrupi **väärtusega** kohaldatavusreeglis. Muidu jätkatakse finantside käibemaksugrupi väärtuse kasutamist.
-    - Kui last on vastendatud kauba maksugrupi kohaldatavusmaatriksiga, alistab see kauba käibemaksugrupi väärtuse ja kohaldatavusreeglis vastendatud kauba **maksugrupi** väärtuse. Muidu jätkatakse finantside kauba käibemaksugrupi väärtuse kasutamist.
-
-5. Maksuarvestuse teenus määrab lõplikud maksukoodid, kasutades käibemaksugrupi ja kauba käibemaksugrupi ristvalikut.
-6. Maksuarvestuse teenus arvutab maksu lõplike maksukoodide alusel, mille ta määratles.
-7. Maksu arvutamise teenus tagastab maksuarvutuse tulemuse finantsid.
-
-![Maksuarvutuse käitusaja kujundus.](media/tax-calculation-runtime-logic.png)
-
-### <a name="high-level-configuration"></a>Kõrgtaseme konfiguratsioon
-
-Järgmised sammud annavad kõrgel tasemel ülevaate maksuarvestuse teenuse konfiguratsiooniprotsessist.
-
-1. Installige LCS-i **oma** LCS-projekti maksuarvutuse lisandmoodul.
-2. RCS-s looge **käibemaksu arvutamise** funktsioon.
-3. RCS-s seadistage **maksuarvestuse** funktsioon:
-
-    1. Valige maksu konfiguratsiooni versioon.
-    2. Loo maksukoodid.
-    3. Looge maksugrupp.
-    4. Looge kauba käibemaksugrupp.
-    5. Valikuline: looge maksugrupi kohaldatavus, kui soovite alistada kliendi või hankija koondandmetest sisestatud vaikimisi käibemaksugrupi.
-    6. Valikuline: looge kaubagrupi kohaldatavus, kui soovite kauba koondandmetest sisestatud kauba käibemaksu vaikegrupi alistada.
-
-4. RCS-s täitke ja avaldage **maksuarvestuse** funktsioon.
-5. Valige finantsides avaldatud **maksuarvutuse** funktsioon.
-
-Pärast nende sammude sooritamist sünkroonitakse järgmised seadistused automaatselt RCS-st finantsidesse.
-
-- Käibemaksukoodid
-- Käibemaksugrupid
-- Kauba käibemaksugrupid
-
-Selle teema ülejäänud jaotised pakuvad üksikasjalikumaid konfigureerimistoiminguid.
+4. Finantside ja Supply Chain Management -is looge kandeid, nt müügitellimusi, ning kasutage maksude määramiseks ja arvutamiseks maksuarvutust.
 
 ## <a name="prerequisites"></a>Eeltingimused
 
-Enne kui saate selles teemas järelejäänud protseduurid lõpule viia, peavad olema täidetud järgmised eeltingimused:<!--TO HERE-->
+Enne selles teemas kirjeldatud protseduuride lõpetamist peavad täidetud olema järgmised eeltingimused.
+
+Järgmised eeltingimused peavad olema täidetud:
 
 - Teil peab olema juurdepääs oma LCS-i kontole ja peate olema juurutanud LCS-projekti, millel on 2 või kõrgema taseme keskkond, mis käitab Dynamics 365 versiooni 10.0.21 või uuemat versiooni.
 - Peate looma oma organisatsioonile RCS-keskkonna ja teil peab olema juurdepääs oma kontole. Lisateavet RCS-keskkonna loomise kohta vt [Regulatory Configuration Service ülevaadet](rcs-overview.md).
@@ -115,7 +72,15 @@ Selle jaotise sammud ei ole seotud kindla juriidilise üksusega. Seda protseduur
 5. Väljalt **Tüüp** valige **Globaalne**.
 6. Valige **Avamine**.
 7. Minge **Maksu andmemudelisse**, laiendage failipuud ja valige seejärel **Maksukonfiguratsioon**.
-8. Valige õige [maksukonfiguratsiooni](global-tax-calcuation-service-overview.md#versions) versioon, mis põhineb teie finantsversioonil, ja seejärel valige **käsk** Impordi.
+8. Valige õige maksu konfiguratsiooni versioon, mis põhineb teie Finance versioonil, ja seejärel valige suvand **Impordi**.
+
+    | Vabasta versioon | Maksukonfiguratsioon                       |
+    | --------------- | --------------------------------------- |
+    | 10.0.18         | Maksu konfiguratsioon - Euroopa 30.12.82     |
+    | 10.0.19         | Maksu arvutamise konfiguratsioon 36.38.193 |
+    | 10.0.20         | Maksu arvutamise konfiguratsioon 40.43.208 |
+    | 10.0.21         | Maksu arvutamise konfiguratsioon 40.48.215 |
+
 9. Minge tagasi **Globaliseerimisfunktsioonide** tööruumi, valige **Funktsioonid**, valige **maksuarvutuse** paan ja seejärel valige **Lisa**.
 10. Saate valida ühe järgmistest funktsioonitüüpidest:
 
@@ -244,3 +209,42 @@ Selle jaotise seadistas juriidiline üksus. Peate selle konfigureerima iga jurii
 
 5. Vahekaardil **Mitme KM-i registreerimine** saate lülitada KM-i deklaratsioone, EL-i käibenimekirja ja Intrastati eraldi, et töötada mitme KM-i registreerimisstsenaariumiga. Lisateavet mitme käibemaksuregistreerimise maksuaruandluse kohta vt [mitme KM-i registreerimise aruandlus](emea-reporting-for-multiple-vat-registrations.md).
 6. Salvestage seadistus ja korrake eelmiseid samme iga täiendava juriidilise isiku puhul. Kui uus versioon avaldatakse ja soovite seda rakendada, seadistage **Funktsiooni häälestus** väljal **Üldine** vahekaardil **Maksu arvutamise parameetrite** lehel (vt 2. juhist).
+
+## <a name="transaction-processing"></a>Kannete töötlemine
+
+Kui olete kõik seadistusprotseduurid lõpule viinud, saate Finance maksu määramiseks ja arvutamiseks kasutada maksuarvutust. Kannete töötlemise sammud jäävad samaks. Finantsversioonis 10.0.21 toetatakse järgmisi kandeid:
+
+- Müügiprotsess
+
+    - Müügipakkumine
+    - Müügitellimus
+    - Kinnitus
+    - Komplekteerimisleht
+    - Saateleht
+    - Müügiarve
+    - Kreeditarve
+    - Tagastustellimus
+    - Päise tasu
+    - Reatasu
+
+- Ostuprotsess
+
+    - Ostutellimus
+    - Kinnitus
+    - Saabunud kaupade loend
+    - Toote sissetulek
+    - Ostuarve
+    - Päise tasu
+    - Reatasu
+    - Kreeditarve
+    - Tagastustellimus
+    - Ostutaotlus
+    - Ostutaotluse rea tasu
+    - Pakkumiskutse
+    - Pakkumiskutse päise tasunõue
+    - Pakkumiste rea tasunõue
+
+- Inventuuriprotsess
+
+    - Kandetellimus-- lähetus
+    - Kandetellimus-- kättesaamine

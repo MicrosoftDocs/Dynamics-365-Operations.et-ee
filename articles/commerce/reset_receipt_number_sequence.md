@@ -2,16 +2,13 @@
 title: Kviitungi numbrite lähtestamine
 description: See teema kirjeldab, kuidas lähtestada kviitungi numbreid, mida kasutatakse erinevate tegevuste jaoks soovitud kuupäeval (nt finantsaasta või kalendriaasta).
 author: ShalabhjainMSFT
-manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-Commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail, Commerce
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: Application update 10.0.9
-ms.openlocfilehash: 31ba82ac5e032734e00f2aee12339bc85a53550b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 855c39f15db6de8fac1f0cd4667eec485c70542b9aebde0d7085e2703f4609bb
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411606"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6733865"
 ---
 # <a name="reset-receipt-numbers"></a>Kviitunginumbrite lähtestamine 
 
@@ -58,7 +55,7 @@ Lähtestamise sisselülitamiseks toimige järgmiselt.
 1. Väljal **Kviitungi lähtestamise tüüp** valige suvand **Ainult üks kord** või **Kord aastas**.
 1. Valige nupp **OK**.
 
-![Kviitungi lähtestamise kuupäeva valimine](media/Enable_receipt_reset.png "Kviitungi lähtestamise kuupäeva valimine")
+![Kviitungi lähtestamise kuupäeva valimine.](media/Enable_receipt_reset.png "Kviitungi lähtestamise kuupäeva valimine")
 
 Pärast kuupäeva valimist kuvatakse see veerus **Järgmine kviitungi numbri lähtestamise kuupäev**. Lähtestamise kuupäev kohaldub kõigile kviitungi kande tüüpidele. Seega lähtestatakse kviitungi numbriseeria kõigil kviitungi tüüpidel.
 
@@ -68,3 +65,6 @@ Tulevaste lähtestamise kuupäevade tühjendamiseks saate kasutada funktsiooni *
 
 > [!NOTE]
 > Olenevalt teie valitud lähtestamise kuupäevast ja kviitungi vormingust, võivad esineda kviitungi numbrite duplikaadid. Kuigi kassasüsteem saab nende olukordadega hakkama, suurendavad need tagastuste töötlemiseks kuluvat aega, kuna müüjad peavad valima kviitungite duplikaatide seast. Kui kviitungite duplikaadid ei olnud plaanitud tagajärg, võivad ilmneda muud andmete korrastamisega seotud komplikatsioonid. Seetõttu soovitame teil kasutada dünaamilisi kuupäeva märke (nt **ddd**, **MM**, **DD** ja **YY**), et pärast lähtestamist aidata vältida kviitungi numbrite duplikaate.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

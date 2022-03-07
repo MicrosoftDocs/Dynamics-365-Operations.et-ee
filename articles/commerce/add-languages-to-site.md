@@ -10,19 +10,18 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: fa3029387d5f1ca605fc9559c4272c8dfebcddaf
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6ed1e2eae18b381c21b63a5cc403ddee0336f784
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411613"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5207599"
 ---
 # <a name="add-languages-to-your-site"></a>Saidile keelte lisamine
 
@@ -176,3 +175,6 @@ Lisatud keel on nüüd saadaval, et saaksite oma saiti konfigureerida kasutama s
 [Autoriõiguste teatise lisamine](add-copyright-notice.md)
 
 [Telemeetria toetamiseks saidile skriptikoodi lisamine](add-telemetry.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

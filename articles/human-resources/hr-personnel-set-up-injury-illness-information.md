@@ -2,28 +2,27 @@
 title: Saate häälestada vigastuste ja haiguste teavet.
 description: Tööandjad peavad teadma, kui nende töötajad saavad töökoha ohtude tõttu viga või haigestuvad.
 author: andreabichsel
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HRMInjurySetup, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 117ae1d690221dbbe0cf4287a3f986cdb3606623
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 24373b5dd9bf2a464919e35f29de1586b3885faf
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418168"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6057040"
 ---
 # <a name="set-up-injury-and-illness-information"></a>Saate häälestada vigastuste ja haiguste teavet.
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 
 
@@ -65,3 +64,6 @@ Tööandjad peavad teadma, kui nende töötajad saavad töökoha ohtude tõttu v
     * Aruandlusasutused on asutused, mida tuleb juhtumist teavitada. Märkige ruut Vaikimisi asutuse juures, mida vaikimisi vigastustest ja haigustest teavitatakse.  
 23. Klõpsake nuppu Salvesta.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

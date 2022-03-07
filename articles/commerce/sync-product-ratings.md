@@ -2,15 +2,12 @@
 title: Toote hinnangute sünkroonimine Dynamics 365 Commerceis
 description: Selles teemas kirjeldatakse, kuidas sünkroonida tootehinnanguid rakenduses Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
-manager: annbe
 ms.date: 02/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,20 +15,18 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: dec87b548f3a218e1f833b752305f373e893b14c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 3ceac78e6dbc6f83ed4968f76672367e79bdd968
+ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411741"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7967946"
 ---
 # <a name="sync-product-ratings-in-dynamics-365-commerce"></a>Toote hinnangute sünkroonimine Dynamics 365 Commerceis
 
 [!include [banner](includes/banner.md)]
 
 Selles teemas kirjeldatakse, kuidas sünkroonida tootehinnanguid rakenduses Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Ülevaade
 
 Tootehinnangute kasutamiseks omnikanalis, nt kassas (POS) ja kõnekeskustes, tuleb tootehinnangud hinnangute ja arvustuste teenusest importida Commerce’i kanali andmebaasi. Kui tootehinnangud omnikanalites saadavaks tehakse, aitavad need kliente kaudselt suhtluses müüjatega.
 
@@ -62,7 +57,7 @@ Selleks et kontrollida, kas alamtöö **RetailProductRating** on olemas, tehke j
 
 Järgmisel joonisel on näha alamtöö üksikasjade näide rakenduses Commerce.
 
-![Alamtöö RetailProductRating üksikasjad](media/rnr-hq-ratings-sub-job.png)
+![Alamtöö RetailProductRating üksikasjad.](media/rnr-hq-ratings-sub-job.png)
 
 > [!NOTE]
 > Kui te ei leia alamtööd **RetailProductRating**, on võimalik, et olete enne kaubanduse ajasi lähtestamist juba käitanud töö **Tootehinnangute sünkroonimine** ja töö **1040 CDX**. Sellisel juhul tehke töö **Andmete täielik sünkroonimine** käitamiseks järgmist.
@@ -86,7 +81,7 @@ Tootehinnangute importimiseks Commerce’i hinnangute ja arvustuste teenusest te
 
 Järgmisel joonisel on näha pakett-töö konfiguratsiooni näide Commerce’is.
 
-![Tootehinnangute pakett-töö sünkroonimise konfiguratsioon](media/rnr-hq-batchjob-recurrence.png)
+![Tootehinnangute pakett-töö sünkroonimise konfiguratsioon.](media/rnr-hq-batchjob-recurrence.png)
 
 ## <a name="verify-that-the-batch-job-for-product-rating-synchronization-was-successful"></a>Kontrollimine, kas tootehinnangute sünkroonimise pakett-töö õnnestus
 
@@ -98,7 +93,7 @@ Selleks et kontrollida, kas pakett-töö **Tootehinnangute sünkroonimine** õnn
 
 Järgmisel joonisel on näha näide pakett-töö üksikasjadest Commerce’is, kui pakett-töö on plaanitud käivituma kahetunnise intervalliga.
 
-![Tootehinnangute pakett-töö sünkroonimise üksikasjad](media/rnr-hq-batchjob-status-checking.png)
+![Tootehinnangute pakett-töö sünkroonimise üksikasjad.](media/rnr-hq-batchjob-status-checking.png)
 
 ## <a name="make-product-ratings-available-at-the-pos"></a>Tootehinnangute muutmine kassas kättesaadavaks
 
@@ -116,15 +111,15 @@ Tootehinnangute kassas sisselülitamiseks tehke järgmist.
 
 Järgmisel on joonisel on näha näide Kaubanduse parameetrite konfiguratsioonist tootehinnangute sisselülitamiseks kassas.
 
-![Kaubanduse parameetrite konfiguratsioon tootehinnangute jaoks kassas](media/rnr-hq-enable-ratings-in-pos.png)
+![Commerce parameetrite konfiguratsioon tootehinnangute jaoks kassas.](media/rnr-hq-enable-ratings-in-pos.png)
 
 Järgmisel joonisel on näha näide tootehinnangutest kassas.
 
-![Tootehinnangud kassas](media/rnr-pos-catalog-ratings.png)
+![Tootehinnangud kassas.](media/rnr-pos-catalog-ratings.png)
 
 Järgmisel joonisel on näha näide tootehinnangutest kõnekeskuse kanalites.
 
-![Tootehinnangud kõnekeskuse kanalis](media/rnr-call-center-ratings.png)
+![Tootehinnangud kõnekeskuse kanalis.](media/rnr-call-center-ratings.png)
 
 ## <a name="additional-resources"></a>Lisaressursid
 
@@ -135,3 +130,16 @@ Järgmisel joonisel on näha näide tootehinnangutest kõnekeskuse kanalites.
 [Hinnangute ja arvustuste haldus](manage-reviews.md)
 
 [Hinnangute ja arvustuste konfigureerimine](configure-ratings-reviews.md)
+
+[Toote hinnangute sünkroonimine](sync-product-ratings.md)
+
+[Lubage hinnangute ja ülevaadete käsitsi avaldamine moderaatori poolt](manual-publish-rating-reviews.md)
+
+[Hinnangute ja kommentaaride importimine ja eksportimine](import-export-reviews.md)
+
+[Teenusepõhise autentimise konfigureerimine](service-to-service-auth.md)
+
+[Hinnangud ja arvustused KKK](ratings-reviews-faq.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

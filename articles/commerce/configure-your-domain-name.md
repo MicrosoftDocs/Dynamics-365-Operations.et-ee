@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: ac1b0c8baaddd6ca62cc49657fff364df21c14f2
-ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
+ms.openlocfilehash: 8b7bc322b1a42190d5eec99f89a34025c34ba09f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "4517114"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5220482"
 ---
 # <a name="configure-your-domain-name"></a>Domeeninime konfigureerimine
 
@@ -49,7 +48,7 @@ Uute domeenide seostamiseks enda e-kaubanduse keskkonnaga pärast e-kaubanduse l
 
 [Dynamics 365 Commerce'i saidi seostamine võrgukanaliga](associate-site-online-store.md)
 
-[robots.txt-failide haldamine](manage-robots-txt-files.md)
+[Robots.txt-failide haldamine](manage-robots-txt-files.md)
 
 [Üleslaadimise URL suunab ümber hulgi](upload-bulk-redirects.md)
 
@@ -62,3 +61,6 @@ Uute domeenide seostamiseks enda e-kaubanduse keskkonnaga pärast e-kaubanduse l
 [Sisuedastusvõrgu (CDN) toe lisamine](add-cdn-support.md)
 
 [Asukohapõhise poetuvastuse lubamine](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

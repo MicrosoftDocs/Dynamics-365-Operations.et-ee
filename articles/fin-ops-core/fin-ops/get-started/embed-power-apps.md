@@ -2,11 +2,9 @@
 title: Power Appsi lõuendirakenduste manustamine
 description: Selles teemas seletatakse, kuidas manustada kliendis Microsoft Power Appsi lõuendirakendusi, et suurendada toote funktsionaalsust.
 author: jasongre
-manager: AnnBe
-ms.date: 11/03/2020
+ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FormRunConfigurationAddPAControl, FormRunConfigurationEditPAControl
 audience: Application User, Developer, IT Pro
@@ -15,26 +13,27 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
-ms.openlocfilehash: fbdd4dd1bb0b850319b12e55b0e68d6fdc516ad6
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 18146ce5ab081b3a6376bf412805016b04da6a11
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798373"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944675"
 ---
 # <a name="embed-canvas-apps-from-power-apps"></a>Power Appsi lõuendirakenduste manustamine
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Microsoft Power Apps on teenus, mis võimaldab arendajatel ja mittetehnilistel kasutajatel luua kohandatud ärirakendusi mobiilsete seadmete, tahvelarvutite ja veebi jaoks ilma koodi kirjutamata. Finance and Operationsi rakenduste puhul toetatakse integratsiooni Power Appsiga. Teie, teie organisatsiooni või laiema ettevõtete „ökosüsteemi” arendatud lõuendirakendusi saab manustada Finance and Operationsi rakendustes, et suurendada toote funktsionaalsust. Näiteks saate luua Power Appsis lõuendirakenduse, mis täiendab Finance and Operationsi rakendust teisest süsteemist toodud teabega.
 
-Lisateavet Power Appsi manustamise kohta vaadake lühivideost [Kuidas manustada Power Appsi rakendusse](https://www.youtube.com/watch?v=x3qyA1bH-NY).
+Lisateavet CanvasAppsi manustamise kohta vaadake lühivideost [Kuidas manustada CanvasAppsi rakendusse](https://www.youtube.com/watch?v=x3qyA1bH-NY).
 
 ## <a name="adding-an-embedded-canvas-app-from-power-apps-to-a-page"></a>Manustatud lõuendirakenduse lisamine Power Appsist lehele
 
 ### <a name="overview"></a>Ülevaade
 
-Enne Power Appsi rakenduse manustamist klienti peate leidma või looma soovitud visuaalide või funktsioonidega rakenduse. Selles teemas ei kirjeldata rakenduste loomise protsessi üksikasjalikult. Kui hakkasite Power Appsi alles kasutama, lugege [Power Appsi dokumentatsiooni](https://docs.microsoft.com/powerapps/).
+Enne Power Appsi rakenduse manustamist klienti peate leidma või looma soovitud visuaalide või funktsioonidega rakenduse. Selles teemas ei kirjeldata rakenduste loomise protsessi üksikasjalikult. Kui hakkasite Power Appsi alles kasutama, lugege [Power Appsi dokumentatsiooni](/powerapps/).
 
 Kui olete valmis rakendust manustama, on lehel kindlale lõuendirakendusele juurde pääsemiseks kaks võimalust. Saate valida, kumb meetod sobib teie olukorraga paremini. Esimene meetod kasutab standardsele toimingupaanile lisatud nuppu **Power Apps**. Selle meetodi abil lisatavad rakendused kuvatakse menüünupu **Power Apps** elementidena. Kui valite ühe nendest elementidest, kuvatakse külgpaan, mis sisaldab manustatud rakendust. Teise võimalusena saate rakenduse manustada otse lehel uue vahekaardi, kiirkaardi või labana või tööruumis uue jaotisena.
 
@@ -57,7 +56,8 @@ Järgmises protsessis näidatakse, kuidas manustada Power Appsi lõuendirakendus
 
     - Väljal **Nimi** on näidatud tekst, mis kuvatakse manustatud rakendust sisaldava nupu või vahekaardi jaoks. Sageli korratakse sellel väljal rakenduse nime.
     - Väljal **Rakenduse ID** on toodud manustatava lõuendirakenduse globaalne ainuidentifikaator (GUID). Selle väärtuse toomiseks leidke rakendus aadressilt [make.powerapps.com](https://make.powerapps.com) ja seejärel heitke pilk väljale **Rakenduse ID** jaotises **Üksikasjad**.
-    - Välja **Rakenduse sisendkontekst** jaoks võite valida ka välja, mis sisaldab andmeid, mida soovite rakenduse sisendina edastada. Üksikasju, kuidas rakendus saab juurdepääsu rakendusekomplektist Finance and Operations saadetud andmetele, vaadake selle jaotise allpool olevast teemast [Finance and Operationsi rakendustest saadetud andmeid kasutava rakenduse loomine](#building-a-canvas-app-that-uses-data-that-is-sent-from-finance-and-operations-apps).
+    - Välja **Rakenduse sisendkontekst** jaoks võite valida ka välja, mis sisaldab andmeid, mida soovite rakenduse sisendina edastada. Lisateavet selle kohta, kuidas rakendus pääseb juurde rakendustest Finance and Operations saadetud andmetele, leiate selle teema jaotisest pealkirjaga [Rakendustest Finance and Operations saadetud andmeid kasutava rakenduse loomine](#building-a-canvas-app-that-uses-data-that-is-sent-from-finance-and-operations-apps). 
+        - Alates versioonist 10.0.19 edastatakse praegune juriidiline isik samuti ka lõuendi rakenduse kontekstina **cmp** URL-i parameetri kaudu. See ei mõjuta sihtrakenduse lõuendi rakendust niikaua, kuni rakendus seda teavet kasutab. 
     - Valige **Rakenduse suurus**, mis on kooskõlas manustatava rakenduse tüübiga. Valige **Peenike** mobiilsetele seadmetele loodud rakenduste jaoks ja **Lai** tahvelarvutitele loodud rakenduste jaoks. See tagab, et manustatud rakenduse jaoks eraldatakse piisavalt ruumi.
     - Kiirkaardil **Juriidilised isikud** saate määrata, milliste juriidiliste isikute jaoks see rakendus saadaval on. Vaikimisi tehakse rakendus juurdepääsetavaks kõigile juriidilistele isikutele. See suvand on saadaval ainult siis, funktsioon [Salvestatud vaated](saved-views.md) on keelatud. 
 
@@ -67,7 +67,7 @@ Järgmises protsessis näidatakse, kuidas manustada Power Appsi lõuendirakendus
 
 Kui olete lõuendirakenduse lehel manustanud ja veendunud, et see töötab korrektselt mis tahes lehelt edastatud andmekonteksti puhul, võite rakendust teiste süsteemis olevate kasutajatega jagada. Manustatud lõuendirakenduse jagamiseks toimige järgmiselt.
 
-1. [Jagage lõuendirakendust](https://docs.microsoft.com/powerapps/maker/canvas-apps/share-app) sobivate kasutajatega, et nad pääseksid rakendusele Power Appsis juurde. 
+1. [Jagage lõuendirakendust](/powerapps/maker/canvas-apps/share-app) sobivate kasutajatega, et nad pääseksid rakendusele Power Appsis juurde. 
 
 2. Veenduge, et sihtkasutajatel oleksid sobivad isikupärastamised, et lehekülge vaadates kuvataks neile manustatud rakendus. Saate kasutada üht järgmistest meetoditest.
 
@@ -81,12 +81,14 @@ Toote isikupärastamise võimaluste ja nende kasutamise kohta vaadake lisateavet
 
 ## <a name="building-a-canvas-app-that-uses-data-that-is-sent-from-finance-and-operations-apps"></a>Finance and Operationsi rakendustest saadetud andmeid kasutava lõuendirakenduse loomine
 
-Kui loote lõuendirakenduse, mis manustatakse Finance and Operationsi rakenduses, on sellest Finance and Operationsi rakendusest pärit sisendandmete kasutamine oluline protsessi osa. Power Appsi arendamiskogemuse põhjal on võimalik pääseda Finance and Operationsi rakendusest edastatavatele andmetele juurde muutuja **Param("EntityId")** abil.
+Kui loote lõuendirakenduse, mis manustatakse Finance and Operationsi rakenduses, on sellest Finance and Operationsi rakendusest pärit sisendandmete kasutamine oluline protsessi osa. Power Appsi arendamiskogemuse põhjal on võimalik pääseda Finance and Operationsi rakendusest edastatavatele andmetele juurde muutuja **Param("EntityId")** abil. Alates versioonist 10.0.19 edastatakse praegune juriidiline isik lisaks ka lõuendi rakenduse kontekstina **Param("cmp")** muutuja kaudu. 
 
 Näiteks saate Finance and Operationsi rakenduste sisendandmed rakenduse funktsioonis OnStart seadistada järgmiseks muutujaks.
 
-```powerapps
+``` Power Apps
 If(!IsBlank(Param("EntityId")), Set(FinOpsInput, Param("EntityId")), Set(FinOpsInput, ""));
+
+If(!IsBlank(Param("cmp")), Set(FinOpsInput, Param("cmp")), Set(FinOpsLegalEntity, ""));
 ```
 
 ## <a name="viewing-a-canvas-app"></a>Lõuendirakenduse kuvamine
@@ -115,6 +117,11 @@ Kui lehele on manustatud rakendus, on vajaduse korral võimalik seda eemaldada k
 
 ## <a name="appendix"></a>Lisa
 
+### <a name="developer-modeling-a-canvas-app-on-a-form"></a>[Arendaja] Lõuendi rakenduse modelleerimine vormil
+
+Kui see teema keskendub lõuendi rakenduste kaasamisele isikupärastamise kaudu, on arendajatel ka võimalus lisada lõuendi rakendus vormile, kasutades Visual Studio arenduskogemust. Selle tarbeks lisage vormile lihtsalt PowerAppsHostControl. Juhtelemendil saadaolevad metaandmete atribuudid pakuvad samu võimalusi nagu isikupärastamise kogemuski.
+
+
 ### <a name="developer-specifying-where-an-app-can-be-embedded"></a>[Arendajale] Rakenduse manustamise asukoha täpsustamine
 
 Vaikimisi saavad kasutajad rakendusi manustada mis tahes lehele kas Power Appsi menüünuppu kasutades või otse lehele vahekaardina, kiirkaardina, labana või tööruumi puhul jaotisena lisades. Ent kui see on vajalik, saavad arendajad järgmiste meetodite abil seda funktsiooni konfigureerida selliselt, et rakendusi saab manustada ainult teatud lehtedele.
@@ -142,3 +149,6 @@ public final class ClassTest_Extension
     }
 }
 ```
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

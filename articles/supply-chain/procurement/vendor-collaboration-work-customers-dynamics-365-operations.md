@@ -2,40 +2,36 @@
 title: Hankija koostöö klientidega
 description: Selles teemas kirjeldatakse, kuidas saate kasutada hankija koostööd, et töötada ostutellimustega ja jälgida saadetise varusid.
 author: TaylorVH
-manager: tfehr
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ConsignmentProductReceiptLines, ConsignmentVendorPortalOnHand, PurchVendorPortalConfirmedOrders, PurchVendorPortalOriginalOrder, PurchVendorPortalResponsesHistoryList, PurchVendorPortalResponsesPart, VendVendorProfileCard, PurchVendorPortalAllResponse, PurchVendorPortalPendingResponsesPart, PurchVendorPortalResponses, PurchVendorPortalConfirmedOpenOrdersPart
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
+ms.reviewer: kamaybac
 ms.custom: 221234
 ms.assetid: 6e69fb8b-6d3a-46ef-88cf-6d01212aa7c3
 ms.search.region: Global
 ms.author: v-savanh
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: dc97b230f23056db90e654b4aea3272bb8f1ba13
-ms.sourcegitcommit: 0c33864efdd66c6ac11a4f35d971c0bb4efb15db
-ms.translationtype: HT
+ms.openlocfilehash: f699b00ab7ea2d043e12824015c54439caf8e63c
+ms.sourcegitcommit: d58a891d9fe0aa0e6b2c20329250c8d74ffbee90
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "4654336"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "8022970"
 ---
 # <a name="vendor-collaboration-with-customers"></a>Hankija koostöö klientidega
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Selles teemas kirjeldatakse, kuidas saate kasutada hankija koostööd, et töötada klientidega rakenduses Microsoft Dynamics 365 Supply Chain Management. Hankijad saavad äriprotsesse lõpule viia järgmistes tööruumides.
 
 - **Ostutellimuse kinnitus** – ostutellimuste (OT-de) jälgimine ja neile vastamine.
 - **Hankija pakkumine** – pakkumiskutsete vaatamine ja neile reageerimine pakkumisi sisestades.
 - **Hankija teave** – hankija koondandmete vaatamine ja värskendamine.
-- **Arve koostamine** – töötamine arvetega. See teema ei hõlma tööruumi **Arve koostamine**. Lisateabe saamiseks selle tööruumi kohta vaadake teemat [„Hankija koostöö arve tööruum”](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md).
+- **Arve koostamine** – töötamine arvetega. See teema ei hõlma tööruumi **Arve koostamine**. Lisateabe saamiseks selle tööruumi kohta vaadake teemat [„Hankija koostöö arve tööruum”](../../finance/accounts-payable/vendor-portal-invoicing-workspace.md).
 
 Hankijad saavad jälgida ka teavet veose varude kohta.
 
@@ -82,7 +78,7 @@ Veose varude kasutamisel saate hankija koostööliidese kaudu vaadata teavet jä
 
 ## <a name="working-with-rfqs-in-the-vendor-bidding-workspace"></a>Töö pakkumiskutsetega tööruumis Hankija pakkumine
 
-Tööruum **Hankija pakkumine** võimaldab vaadata pakkumiskutseid, millele oodatakse teie ettevõte vastust. Samuti saate pakkumiskutsetele vastata. 
+Tööruum **Hankija pakkumine** võimaldab vaadata pakkumiskutseid, millele oodatakse teie ettevõte vastust. Samuti saate pakkumiskutsetele vastata.
 
 Tööruumis kuvatakse ka kõik kaotatud või võidetud pakkumiskutsed. Kui süsteemi konfiguratsiooniks on avalik sektor, kuvatakse tööruumis ka avalikult kättesaadavad pakkumiskutsed.
 
@@ -100,20 +96,28 @@ Alljärgnevale teabele juurdepääsemiseks avage tööruum **Hankija pakkumine**
 
 ### <a name="working-with-rfqs-that-are-publicly-available"></a>Avalikult kättesaadavate pakkumiskutsetega töötamine
 
-Avaliku sektori töötajad saavad vaadata avatud ja aegunud avalikult kättesaadavaid pakkumiskutseid.
+Avalikus sektoris töötavad inimesed näevad avalikkusele kättesaadavaks tehtud avatud ja aegunud pakkumiskutseid.
 
 - Avalikult kättesaadavaks tehtud avatud pakkumiskutsete vaatamiseks valige link **Avatud avaldatud pakkumiskutsed**. Avatud pakkumiskutse on praegu veel aegumata pakkumiskutse. Aegumiskuupäeva ja -kellaaja leiate pakkumiskutse päisest.
 
-    Kui teid on kutsutud pakkumist esitama, leiate sama pakkumiskutse lehelt **Uue pakkumise kutsed**. Mõnikord võib ette tulla, et teile pole avatud pakkumiskutset saadetud, kuid soovite siiski pakkumise esitada. Sel juhul võib olla võimalik iseennast kutsuda, eeldusel et klient on selle pakkumiskutse puhul lubanud ise end kutsuda.
+    Kui teid on kutsutud pakkumist esitama, leiate sama pakkumiskutse lehelt **Uue pakkumise kutsed**. Mõnikord võib ette tulla, et teile pole avatud pakkumiskutset saadetud, kuid soovite siiski pakkumise esitada. Sel juhul võib olla võimalik iseennast kutsuda, eeldusel et klient on selle pakkumiskutse puhul lubanud ise end kutsuda. 
 
-    Laiendage **Ava avaldatud pakkumiskutsete** link lülitades sisse **Kuva "Ava avaldatud pakkumiskutsed" link plaadina** funktsiooni. See funktsioon teisendab lingi paanile ja teisaldab selle silmapaistvasse asukohta, et seda oleks lihtne leida.
+    Leht **Uued pakkumiskutsed** võivad pakkuda filtrit, mis võimaldab teil vaadata avatud pakkumiskutseid ja tuvastada need, mis sisaldavad jooni, mis vastavad teie kinnitatud hankekategooriatele. Selle filtri kättesaadavaks tegemiseks peate sisse lülitama *funktsiooni Luba hankijatel otsida oma süsteemis hankekategooriate* kaupa. Administraatorid saavad funktsioonihalduse **tööruumi abil** kontrollida selle funktsiooni olekut ja vajadusel sisse lülitada. Seega on funktsioon loetletud järgmisel viisil.
+
+    - **Moodul:** *ostureskontro*
+    - **Funktsiooni nimi:** *laske hankijatel otsida pakkumiskutseid hankekategooriate kaupa* <!-- KFM: I don't see this here, is this right? -->
+
+    Saate parandada lingi Avatud avaldatud pakkumiskutsete **juurdepääsetavust, lülitades paanifunktsioonina** sisse *lingi "Avatud avaldatud pakkumiskutsed*" kuvamine. See funktsioon teisendab lingi paanile ja teisaldab selle silmapaistvasse asukohta, et seda oleks lihtne leida. Administraatorid saavad funktsioonihalduse **tööruumi abil** kontrollida selle funktsiooni olekut ja vajadusel sisse lülitada. (Tarneahela halduse versiooni 10.0.21 seisuga on funktsioon vaikimisi sisse lülitatud.) Seal on funktsioon loetletud järgmiselt:
+
+    - **Moodul:** *hanked*
+    - **Funktsiooni nimi:** *saate paanina kuvada lingi "Ava avaldatud pakkumiskutsed"*
 
 - Avalikult kättesaadavaks tehtud suletud pakkumiskutsete vaatamiseks valige link **Suletud avaldatud pakkumiskutsed**. Suletud pakkumiskutse on aegunud pakkumiskutse. Aegumiskuupäeva ja -kellaaja leiate pakkumiskutse päisest.
 
     Suletud pakkumiskutse näitab kõiki hankija pakkumisi kuni rea tasemeni. Teave pakkumiste valituks osutumise või tagasilükkamise kohta kajastub suletud pakkumiskutses. Kättesaadavad on ka kõik pakkumisele lisatud manused.
 
 > [!NOTE]
-> See funktsioon on saadaval ainult juhul, kui lubatud on konfiguratsioon avalik sektor.
+> See funktsioon on saadaval ainult siis, kui avaliku sektori konfiguratsioon on sisse lülitatud.
 
 ### <a name="bidding"></a>Pakkumine
 
@@ -147,3 +151,6 @@ Juurdepääsetav teave on järgmine: hankija nimi; aadress; kontaktandmed; konta
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Hankija koostöö kasutajate haldamine](manage-vendor-collaboration-users.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

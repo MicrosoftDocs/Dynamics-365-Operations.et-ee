@@ -2,11 +2,9 @@
 title: E-kaubanduse saidi loomine
 description: See teema kirjeldab vajalikke etappe ja teavet uue e-kaubanduse saidi loomiseks Dynamics 365 Commerce'i saidiehitajas.
 author: bicyclingfool
-manager: AnnBe
-ms.date: 07/02/2020
+ms.date: 02/03/2022
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -18,12 +16,12 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: cf084f90d203d84c91ddf7c0d963780b895ef23d
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 01f22772fd8c8984a2f92c516972d6659325a18c
+ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4963031"
+ms.lasthandoff: 02/04/2022
+ms.locfileid: "8090765"
 ---
 # <a name="create-an-e-commerce-site"></a>E-kaubanduse saidi loomine
 
@@ -50,8 +48,15 @@ Oma saidi seadistamiseks tehke järgmist.
 | Domeen                              | Valige domeeni nimi, mis toimib selle veebipoe jaoks domeenina. Kui te pole LCS-is ühtegi domeeni konfigureerinud, võite selle välja tühjaks jätta. Pärast domeeni LCS-is konfigureerimist peate lisama selle oma veebipoele suvandis **Saidi sätted**.  |
 | Tee                              | Kui teie sait toetab antud domeeninime puhul rohkem kui ühte keelt, kasutage tee välja, et luua selle domeeni ja keele kombinatsiooni jaoks kordumatu saidi URL. Kui keel, mille väljal **Vaikekeel** määrasite, on ainus selle domeeni jaoks toetatav keel või see on pärast saidi täiendavate keelte jaoks lokaliseerimist jätkuvalt vaikekeel, soovitame jätta selle välja tühjaks. |
 
-
 Pärast saidi loomist saate kontrollida, kas see on teie võrgupoega seotud, valides vahekaardi **Tooted**. Peaksite nägema veebipoele eraldatud toodete valikut. Saate kasutada ka lehe üleval vasakul ripploendit, et pääseda kategooriate põhjal eraldatud toodete juurde.
+
+## <a name="rename-your-site"></a>Saidi ümbernimetamine
+
+Saidi ümbernimetamiseks saidikoosturis tehke järgmist.
+
+1. Saidiloendivaate avamiseks valige **paremas ülanurgas saidilüliti** ja seejärel valige **Halda saite**. 
+1. Märkige selle saidi kõrval olev ruut, mille soovite ümber nimetada, ja seejärel valige **käsuribal Nimeta ümber**.
+1. **Sisestage dialoogiboksi Uus saidi nimi** uus saidi nimi ja seejärel valige **OK**. Saidiloendit värskendatakse, et kuvada saidi uus nimi.
 
 ## <a name="additional-resources"></a>Lisaressursid
 
@@ -74,3 +79,6 @@ Pärast saidi loomist saate kontrollida, kas see on teie võrgupoega seotud, val
 [Sisuedastusvõrgu (CDN) toe lisamine](add-cdn-support.md)
 
 [Asukohapõhise poetuvastuse lubamine](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

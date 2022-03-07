@@ -2,28 +2,25 @@
 title: Konto struktuuride konfigureerimine
 description: Teema sisaldab teavet konto struktuuride ja finantsdimensioonide kohta.
 author: aprilolson
-manager: AnnBe
 ms.date: 06/03/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerEliminationRule
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 13131
 ms.assetid: 08fd46ef-2eb8-4942-985d-40fd757b74a8
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c278cefd47b14c44c1949505404d08628cb7f52f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: cc9219009991cce3f4df9c6f7e04903f5625dd80
+ms.sourcegitcommit: b2fe67e2fe6a99a35decb04c8d62efd1e94fe1b8
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442436"
+ms.lasthandoff: 12/22/2021
+ms.locfileid: "7945537"
 ---
 # <a name="configure-account-structures"></a>Konto struktuuride konfigureerimine
 
@@ -49,9 +46,9 @@ Oletame konto struktuuri ülesseadmise hea tava illustreerimiseks, et ettevõte 
 
 **Tulu ja kulu konto struktuur**
 
-|Põhikonto          | Äriüksus    |Osakond          | Kulukeskus    |
-|----------------------|-----------|----------------------|-----------|
-|400000–999999 | *; „ “|*; „ “|*; „ “|*; „ “|
+|Põhikonto          | Äriüksus    |Osakond          | Kulukeskus    | &nbsp; |
+|----------------------|------------------|--------------------|-----------|---|
+|400000–999999 | \*;” “| \*;” “| \*;” “| \*;” “|
 
 **Täpsem reegel kliendi lisamiseks**
 
@@ -68,7 +65,7 @@ Jaotistes **Segmendid** ja **Lubatud väärtuse üksikasjad** saab tabelisse sis
 
 Jaotis **Lubatud väärtuse üksikasjad** juhendab teid kriteeriumite loomisel, mis kasutavad **Tehtemärke** nagu algab väärtusega, vahel, hõlmab ja mitmeid teisi.
 
-[![Lubatud väärtused](./media/account.png)](./media/account.png) 
+[![Luba väärtused.](./media/account.png)](./media/account.png) 
 
 Lubatud väärtused sisestatakse vaikimisi töölehele või arvestuse jaotuse sisestamise lehele, kui konto struktuuri seadistuse järgi valimiseks pole muid võimalikke väärtusi.
 
@@ -82,7 +79,7 @@ Töölehte sisestades ning kasumi ja kahjumi vahemikust kontot valides määrab 
 
 ## <a name="more-than-7-criteria-needed"></a>Rohkem kui 7 kriteeriumit
 
-Kui teil on vaja rohkem kui 7 kriteeriumit, saate nende lisamist jätkata järgmisel real. Jaotises **Lubatud väärtuse üksikasjad** töötades märkate, et kriteerium **+ Lisa uus** pole enam pärast seitsmenda kriteeriumi sisestamist aktiivne. Seda mõjutavad järgmised tegurid. 
+Kui teil on vaja rohkem kui 7 kriteeriumit, saate nende lisamist jätkata järgmisel real. Kui töötate jaotises Lubatud väärtuse üksikasjad, siis teate, et pärast sisestatud seitsmes kriteeriumi sisestamist pole +Lisa uued **kriteeriumid** enam **aktiivsed**. Seda mõjutavad järgmised tegurid. 
  - Veeru laius 
  - Kuidas andmeid talletatakse 
  - Juhtelemendi **Lubatud väärtuse üksikasjad** jõudlus
@@ -104,6 +101,9 @@ Konto struktuuride ülesseadmisel on välja kujunenud mõned head tavad, mida j�
 - Ärge sisestage igasse konto struktuuri segmenti tärni, et toetuda vaid täpsematele reeglitele. Seda võib olla raske hallata ja tihtipeale põhjustab see haldamise ajal kasutaja vigasid, mistõttu ei suuda süsteem sisestada.
 
 ## <a name="account-structure-activation"></a>Konto struktuuri aktiveerimine
-Kui olete konto struktuuri häälestuse või muudatusega rahul, tuleb see aktiveerida. Kui konto struktuur on määratud pearaamatule, siis võib aktiveerimine võtta kaua aega, kuna kõik süsteemi sisestamata kanded tuleb sünkroonida uue struktuuriga. Konto struktuuri muudatused ei mõjuta sisestatud kandeid.
+Kui olete uue seadistuse või konto struktuuri muudatusega rahul, peate selle aktiveerima. Kui konto struktuur on määratud pearaamatule, siis võib aktiveerimine võtta kaua aega, kuna kõik süsteemi sisestamata kanded tuleb sünkroonida uue struktuuriga. Konto struktuuri muudatused ei mõjuta sisestatud kandeid.
 
 Lisateabe saamiseks vaadake jaotisi [Kontoplaanide plaanimine](plan-chart-of-accounts.md), [Finantsdimensioonid](financial-dimensions.md) ja [Konto ja dimensioonide kombinatsioonide sisestamine (segmenditud sisestamise juhtimine)](enter-account-dimension-combinations-segmented-entry-control.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Sortimentide seadistamine
 description: Selles artiklis kirjeldatakse, mis asi on sortiment, ja selgitatakse, kuidas sortimente rakenduses Dynamics 365 Commerce seadistada.
 author: jblucher
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailAssortmentDetails
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 32edf6534716236706847556a14b951f18ef40ae
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: 31ec0079584832537431872fea61a07b58d31648cdac0f29a469bc977009622f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969822"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6774481"
 ---
 # <a name="set-up-assortments"></a>Sortimentide häälestamine
 
@@ -33,7 +31,7 @@ Selles artiklis kirjeldatakse, mis asi on sortiment, ja selgitatakse, kuidas sor
 
 Sortiment on kogum seotud tooteid, mille määrate kaubanduse kanalile, nagu füüsiline kauplus või veebipood. Sortimentide abil saate tuvastada igas kaupluses saadaolevaid tooteid. Sortiment võib sisaldada tootekategooriaid. Seega sisaldab sortiment kindlale kategooriale määratud tooteid. Sortiment võib sisaldada ka kindlaid tooteid ja tootevariante. Sortimendi seadistamisega saate määrata oma kanalitele samal ajal mis tahes kombinatsioonis, mida teie kauplused vajavad, tuhandeid tooteid. Saate seadistada nii palju tootesortimente kui vaja. Iga toote saab lisada ühte või mitmesse sortimenti ja iga sortimendi saab määrata ühele või mitmele kanalile. Näiteks määratlete ühe sortimendi, mis sisaldab toodete põhikomplekti. Selle sortimendi saavad kõik kauplused. Seejärel määratlete teise sortimendi, mis sisaldab ainult suuri spordivahendeid. Selle sortimendi saavad ainult teie suuremad kauplused. Järgmisel joonisel on näidatud, kuidas saab tooteid sortimentidele määrata ja kuidas neid sortimente kanalitele määrata.
 
-![Tootesortimendi seosed](./media/assortments_relationship.gif)
+![Tootesortimendi seosed.](./media/assortments_relationship.gif)
 
 ## <a name="prerequisites"></a>Eeltingimused
 
@@ -54,3 +52,6 @@ Pärast eeltingimuste täitmist saate luua sortimendi ja määrata selle oma kan
 2. Valige kanalid või kanalite kõrgema taseme grupid, millele sortiment kohaldub.
 3. Lisage sortimendile tootekategooriad, üksikud tooted või tootevariandid. Saate kaasata kõik kindla kategooria tooted või välistada valitud tooteid sortimenti kaasatud kategooriast.
 4. Avaldage sortiment. Sortimendi avaldamisel käivitatakse sortimendi ajasti automaatselt. See protsess loob toodete loendi. Kui see protsess on lõpule viidud, muutuvad tooted kättesaadavaks kanalitele, millele on tootesortiment määratud. Avaldatud sortimendi või kanalite, millele sortiment on määratud, muutmisel tuleb sortimenti värskendada. Sortimendi värskendamiseks pärast muudatuste tegemist saate käivitada sortimendi ajasti pakett-tööna.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

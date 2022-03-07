@@ -1,12 +1,10 @@
 ---
 title: Hoolduseelarvete värskendamine
 description: Selles teemas selgitatakse, kuidas luua värskendada hoolduseelarvet varahalduses.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/13/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b04549700b51f73a3629fe9cd67a3e1f6c1bafbb
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
-ms.translationtype: HT
+ms.openlocfilehash: 87c054cb96d56e40e35ee44142396f59d61395263ff41232423f6c7911478b0d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021017"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6724936"
 ---
 # <a name="update-maintenance-budgets"></a>Hoolduseelarvete värskendamine
 
@@ -74,3 +72,6 @@ Lehel **Hoolduse eelarveread** saate uue eelarverea käsitsi lisada, valides **U
 
 - Te teate, et mõnede varade renoveerimine on praegu planeerimise faasis, kuid seotud tööd pole veel varahalduses loodud. Siiski soovite nende tööde eelarvete kulusid kaasata hoolduse eelarvesse.
 - Pärast hoolduse eelarvet on loodud uusi varasid või varatüüpe, kuid hoolduse plaane pole nende varade või varatüüpide puhul veel seadistatud. Siiski soovite nende varatüüpide eelarvete kulusid kaasata hoolduse eelarvesse.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

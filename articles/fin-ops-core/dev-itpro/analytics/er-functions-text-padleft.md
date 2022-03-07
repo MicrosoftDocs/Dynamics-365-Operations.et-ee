@@ -2,11 +2,9 @@
 title: ER-i funktsioon PADLEFT
 description: See teema sisaldab teavet selle kohta, kuidas kasutatakse elektroonilise aruandluse (ER) funktsiooni PADLEFT.
 author: NickSelin
-manager: kfend
 ms.date: 12/10/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 268941d8bc0bd4dc6de6d2597c05a11c1f530f15
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 806b1d318f18b0ade01f7b03909c90b1e4fd29b1
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680142"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5746239"
 ---
 # <a name="padleft-er-function"></a>ER-i funktsioon PADLEFT
 
@@ -63,3 +61,6 @@ Tulemiks saadud teksti väärtus.
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Tekstifunktsioonid](er-functions-category-text.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

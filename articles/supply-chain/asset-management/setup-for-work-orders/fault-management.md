@@ -1,12 +1,10 @@
 ---
 title: Tõrke haldamine
 description: Selles teemas kirjeldatakse varahalduse tõrke haldust.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/13/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetFaultArea, EntAssetFaultDesigner, EntAssetFaultCopyFromObjectType, EntAssetFaultRemedy, EntAssetObjectFaultRelationRequestInfoPart, EntAssetObjectFaultRelationWorkOrderInfoPart, EntAssetFaultCreateCombinations, EntAssetObjectFaultSymptom, EntAssetObjectFaultSymptomListPage, EntAssetFaultType, EntAssetFaultSymptom, EntAssetFaultCause
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 176fbebcf88e7557bf2bafc56524cd2ec015220e
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
-ms.translationtype: HT
+ms.openlocfilehash: 149d4fc8026a2a1878155d2b708cf3a79dd0e5af966db4e7f9339d8ca582da70
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5020960"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6711949"
 ---
 # <a name="fault-management"></a>Tõrke haldamine
 
@@ -108,7 +106,7 @@ Tõrke kujundajas seadistate vara tüüpide tõrke andmed.
 
 7. Oma muudatuste salvestamiseks valige **Salvesta**.
 
-![Tõrke kujundaja leht](media/21-setup-for-work-orders.png)
+![Tõrke kujundaja leht.](media/21-setup-for-work-orders.png)
 
 ## <a name="create-fault-causes"></a>Looge tõrke põhjused
 
@@ -132,3 +130,6 @@ Järgige neid etappe, et luua loend lahenduse ja paranduse soovitustest, mida sa
 
 > [!NOTE]
 > Saate vajadusel muuta tõrke sümptomite, valdkondade, tüüpide, põhjuste ja lahenduste nimesid. Nime muutused kajastuvad automaatselt vastavates tõrke registreerimistes.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

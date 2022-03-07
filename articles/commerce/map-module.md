@@ -2,15 +2,12 @@
 title: Kaardimoodul
 description: See teema hõlmab kaardimooduleid ja kirjeldab, kuidas neid rakenduses Microsoft Dynamics 365 Commerce konfigureerida.
 author: anupamar-ms
-manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: af6aedb6c0112822155c6d855909578a927d1c2c
-ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
-ms.translationtype: HT
+ms.openlocfilehash: bc5962d6bedba1f5abf423c396382e5c8a901c81797ae95132833e23c46cfd57
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4665416"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6747389"
 ---
 # <a name="map-module"></a>Kaardimoodul
 
@@ -32,9 +29,7 @@ ms.locfileid: "4665416"
 
 See teema hõlmab kaardimooduleid ja kirjeldab, kuidas neid rakenduses Microsoft Dynamics 365 Commerce konfigureerida.
 
-## <a name="overview"></a>Ülevaade
-
-Kaardimoodul kuvab kaupluste asukohad interaktiivsel kaardil, mis renderdatakse [Bing Maps V8 Web Controli](https://docs.microsoft.com/bingmaps/v8-web-control/) abil. Vajalik on Bing Maps kaartide API võti ja see tuleb lisada jagatud parameetrite lehele rakenduses Commerce peakontorid. Kaardimoodulid pakuvad erinevaid vaateid, nagu tee-, ülalt- ja tänavavaade, mida kasutajad saavad valida, et vaadata kaardil asukohti. Need võimaldavad ka toiminguid, nagu suumimine ja kasutaja asukoha kasutamine.
+Kaardimoodul kuvab kaupluste asukohad interaktiivsel kaardil, mis renderdatakse [Bing Maps V8 Web Controli](/bingmaps/v8-web-control/) abil. Vajalik on Bing Maps kaartide API võti ja see tuleb lisada jagatud parameetrite lehele rakenduses Commerce peakontorid. Kaardimoodulid pakuvad erinevaid vaateid, nagu tee-, ülalt- ja tänavavaade, mida kasutajad saavad valida, et vaadata kaardil asukohti. Need võimaldavad ka toiminguid, nagu suumimine ja kasutaja asukoha kasutamine.
 
 Kaardimoodul töötab koos kaupluse valija mooduliga, et määrata kaupluste geograafilised asukohad, mis tuleb kaardil renderdada. Kaupluse valija ja kaardimoodul teevad koostööd, kui kasutaja valib saidilehel kaupluse ühes nendest moodulitest. Kaardimooduleid saab kasutada ka teiste stsenaariumide puhul, mis ei ole seotud kaupluse valija moodulitega koos töötamisega. Kuid selleks tuleb moodulit kohandada.
 
@@ -43,13 +38,13 @@ Kaardimoodul töötab koos kaupluse valija mooduliga, et määrata kaupluste geo
 
 Järgmisel pildil on näide kaardimoodulist, mida kasutatakse kaupluste asukohtade lehel.
 
-![Kaupluse valija mooduli näide](./media/ecommerce-Storelocator.PNG)
+![Kaupluse valija mooduli näide.](./media/ecommerce-Storelocator.PNG)
 
 ## <a name="module-properties"></a>Mooduli atribuudid
 
 | Atribuudi nimi             | Väärtus                 | Kirjeldus |
 |---------------------------|-----------------------|-------------|
-| Pealkiri | Tekst | Mooduli pealkiri. |
+| Päis | Tekst | Mooduli pealkiri. |
 | Rõhknaela suvandid: vaikeikoon | Pilt | Rõhknaelasümboli pilt, mida kasutatakse kaardil kuvatud kaupluste puhul. |
 | Rõhknaela suvandid: aktiivse üksuse ikoon | Pilt | Rõhknaelasümboli pilt, mida kasutatakse kaardil valitud kaupluse puhul. |
 | Rõhknaela suvandid: ikooni vaikevärv | Tähemärkide string | Kaardil olevate rõhknaelasümbolite värvi tekstiline või kuueteistkümnendsüsteemis väärtus. |
@@ -81,4 +76,7 @@ Et kaardimoodul saaks suhelda Bingi kaartidega, peate tagama, et teie saidi sisu
 
 [Organisatsiooni Bingi kaartide haldamine](./dev-itpro/manage-bing-maps.md)
 
-[Bing Maps V8 Web Control](https://docs.microsoft.com/bingmaps/v8-web-control/)
+[Bing Maps V8 Web Control](/bingmaps/v8-web-control/)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,45 +1,41 @@
 ---
-title: Integreerimine lahendusega Microsoft Dynamics 365 Field Service – ülevaade
+title: Ülevaade integratsioonist rakendusega Microsoft Dynamics 365 Field Service
 description: Selles teemas antakse ülevaade integratsioonist rakendusega Microsoft Dynamics 365 Field Service.
-author: ChristianRytt
-manager: tfehr
+author: Henrikan
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
-ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: crytt
+ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 18eef310470cafd9d59bb1c848bbaeb8bf5b9fa1
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
-ms.translationtype: HT
+ms.openlocfilehash: 9428308211d51e7de8c61fb9aadef6ce1fd9886f
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528895"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062671"
 ---
-# <a name="integration-with-microsoft-dynamics-365-field-service-overview"></a>Integreerimine lahendusega Microsoft Dynamics 365 Field Service – ülevaade
+# <a name="integration-with-microsoft-dynamics-365-field-service-overview"></a>Ülevaade integratsioonist rakendusega Microsoft Dynamics 365 Field Service
 
 [!include[banner](../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Tarneahela juhtimine võimaldab äriprotsesside sünkrooniminst rakenduste Dynamics 365 Supply Chain Management ja Dynamics 365 Field Service vahel. Integreerimisstsenaariume konfigureeritakse lubama äriprotsesside sünkroonimist laiendatavates andmeintegraatori mallides ja teenuses Common Data Service.
-Kohandatud integratsiooniprojektide loomiseks saab kasutada standardmalle, kus standardseid ja kohandatud lisavälju ja üksusi saab integratsiooni korrigeerimiseks ja konkreetsete ärivajadustega kooskõlla viimiseks vastendada. 
+
+Tarneahela juhtimine võimaldab äriprotsesside sünkrooniminst rakenduste Dynamics 365 Supply Chain Management ja Dynamics 365 Field Service vahel. Integreerimisstsenaariume konfigureeritakse lubama äriprotsesside sünkroonimist laiendatavates andmeintegraatori mallides ja teenuses Microsoft Dataverse.
+Kohandatud integratsiooniprojektide loomiseks saab kasutada standardmalle, kus standardseid ja kohandatud lisaveerge ja tabeleid saab integratsiooni korrigeerimiseks ja konkreetsete ärivajadustega kooskõlla viimiseks vastendada. 
 
 Välja teenuse integreerimine rajaneb olemasoleva potentsiaalse kliendi funktsioonil.
 
 ![Äriprotsesside sünkroniseerimine rakenduste Supply Chain Management ja Field Service vahel.](./media/field-service-integration.png)
 
-Rakenduste Field Service ja Supply Chain Management integreerimise esimeses faasis keskendutakse rakenduse Field Service töötellimuste ja lepingute arveldamise lubamisele rakenduses Supply Chain Management. Toetatud voog algab rakenduses Field Service, kus töötellimuste teave sünkroonitakse müügitellimustena rakendusse Supply Chain Management. Rakenduses Supply Chain Management arveldatakse müügitellimused arve dokumentide loomiseks. Lisaks sünkroonitakse rakenduse Field Service lepingu arvete teave rakendusse Supply Chain Management. Microsoft Dynamics 365 andmeintegraator sünkroonib andmed kohandatavate projektide abil. Kohandatud integratsiooniprojektide loomiseks saab kasutada standardmalle, kus standardseid ja kohandatud lisavälju, samuti üksusi saab integratsiooni korrigeerimiseks ja konkreetsete nõuetega kooskõlla viimiseks vastendada.
+Rakenduste Field Service ja Supply Chain Management integreerimise esimeses faasis keskendutakse rakenduse Field Service töötellimuste ja lepingute arveldamise lubamisele rakenduses Supply Chain Management. Toetatud voog algab rakenduses Field Service, kus töötellimuste teave sünkroonitakse müügitellimustena rakendusse Supply Chain Management. Rakenduses Supply Chain Management arveldatakse müügitellimused arve dokumentide loomiseks. Lisaks sünkroonitakse rakenduse Field Service lepingu arvete teave rakendusse Supply Chain Management. Microsoft Dynamics 365 andmeintegraator sünkroonib andmed kohandatavate projektide abil. Kohandatud integratsiooniprojektide loomiseks saab kasutada standardmalle, kus standardseid ja kohandatud lisaveerge, samuti tabeleid saab integratsiooni korrigeerimiseks ja konkreetsete nõuetega kooskõlla viimiseks vastendada.
 
 Rakenduste Field Service ja Supply Chain Management integratsiooni esimeses faasis võimaldatakse sünkroonida järgmisi kaupu.
 
@@ -61,15 +57,15 @@ Lisafunktsioon selles teises etapis on suunatud väljatehnikutele ülevaate andm
 - Töötellimustega seotud Dynamics 365 Field Service rakenduse Supply Chain Management projektid
 - Dynamics 365 Field Service’i töökäsud lingiga Supply Chain Managementi projektidele rakendavad selle projekti numbri müügitellimusele, et lubada projektist arveldamine. 
 
-![Äriprotsesside sünkroniseerimine rakenduste Supply Chain Management ja Field Service vahel.](./media/FSv2overview.png)
+![Supply Chain Management ja Field Service vaheliste äriprotsesside sünkroonimine, sealhulgas varude ja projekti teave.](./media/FSv2overview.png)
 
 ### <a name="the-second-phase-of-the-integration-between-field-service-and-supply-chain-management-enables-synchronization-with-the-following-templates"></a>Rakenduste Field Service ja Supply Chain Management integratsiooni teises faasis võimaldatakse sünkroonida järgmisi malle:
-- Laod (rakendus Supply Chain Management rakendusele Field Service) – laod rakendusest Supply Chain Management rakendusse Field Service [täpsem päring] 
-- Tootevarud (rakendus Supply Chain Management rakendusele Field Service) – varude taseme teave rakendusest Supply Chain Management rakendusse Field Service [täpsem päring] 
-- Lao korrigeerimine (rakendus Field Service rakendusele Supply Chain Management) – lao korrigeerimised rakendusest Field Service rakendusse Supply Chain Management [täpsem päring] 
-- Varude ülekanded (rakendus Field Service rakendusele Supply Chain Management) – varude ülekanded rakendusest Field Service rakendusse Supply Chain Management [täpsem päring] 
+- Laod (rakendus Supply Chain Management rakendusele Field Service) – laod rakendusest Supply Chain Management rakendusse Field Service [Täpsem päring] 
+- Tootevarud (rakendus Supply Chain Management rakendusele Field Service) – varude taseme teave rakendusest Supply Chain Management rakendusse Field Service [Täpsem päring] 
+- Lao korrigeerimine (rakendus Field Service rakendusele Supply Chain Management) – lao korrigeerimised rakendusest Field Service rakendusse Supply Chain Management [Täpsem päring] 
+- Varude ülekanded (rakendus Field Service rakendusele Supply Chain Management) – varude ülekanded rakendusest Field Service rakendusse Supply Chain Management [Täpsem päring] 
 - Projektid (rakendus Supply Chain Management rakendusele Field Service) – projektiloend rakendusest Supply Chain Management rakendusse Field Service 
-- Projekti töötellimused (rakendus Field Service rakendusele Supply Chain Management) – töötellimused rakenduses Field Service müügitellimuste kohta rakenduses Supply Chain Management, koos projektitoega [täpsem päring] 
+- Projekti töötellimused (rakendus Field Service rakendusele Supply Chain Management) – töötellimused rakenduses Field Service müügitellimuste kohta rakenduses Supply Chain Management, koos projektitoega [täpsem päring] 
 - Rakenduse Field Service tooted laoühikuga (Supply Chain Management müügile) – rakenduse Supply Chain Management „Müüdavad väljastatud tooted” müügile „Tooted” rakenduse Field Service jaoks, sh laoühikud 
 
 ## <a name="system-requirements"></a>Süsteeminõuded
@@ -85,3 +81,6 @@ Rakenduse Field Service integreerimislahenduse kasutamiseks tuleb installida jä
 - Rakendus Field Service (versioon 8.2.0.286) või uuem rakenduses Dynamics 365 9.1.x – väljastati novembris 2018
 - Lahendus Potentsiaalne klient sularahaks (P2C) rakendusele Dynamics 365, versioon 1.15.0.1 või hilisem versioon. Lahendus on allalaadimiseks saadaval [AppSource’is](https://appsource.microsoft.com/product/dynamics-365/mscrm.c7a48b40-eed3-4d67-93ba-f2364281feb3).
 - Rakenduse Field Service integreerimis-, projekti- ja laoseisulahendus Dynamics 365 jaoks, versioon 2.0.0.0 või hilisem versioon. Lahendus on allalaadimiseks saadaval [AppSource’is](https://appsource.microsoft.com/product/dynamics-365/mscrm.p2cfieldserviceintegrationv2).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

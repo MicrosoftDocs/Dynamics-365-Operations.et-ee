@@ -1,8 +1,8 @@
 ---
-title: Luba koondandmete otsing maksuarvestuse konfiguratsiooni jaoks
-description: See teema kirjeldab, kuidas seadistada ja lubada maksu arvutamise koondandmete otsingufunktsioone.
+title: Koondandmete otsingu keskkonna häälestamine
+description: Selles teemas selgitatakse, kuidas seadistada oma keskkond kasutama maksuarvestuse põhiandmete otsingufunktsiooni.
 author: kai-cloud
-ms.date: 11/22/2021
+ms.date: 10/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,21 +15,18 @@ ms.search.region: Global
 ms.author: pashao
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 455e8becfdfa910a3733719653e1a91557b2f59a
-ms.sourcegitcommit: ac23a0a1f0cc16409aab629fba97dac281cdfafb
-ms.translationtype: MT
+ms.openlocfilehash: 901f8bcb0220355866952b68e92bc2dd906bb430
+ms.sourcegitcommit: 2113678369f47944f8725ca656f461fa159f87f6
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/29/2021
-ms.locfileid: "7867348"
+ms.lasthandoff: 10/27/2021
+ms.locfileid: "7700400"
 ---
-# <a name="enable-master-data-lookup-for-tax-calculation-configuration"></a>Luba koondandmete otsing maksuarvestuse konfiguratsiooni jaoks 
+# <a name="set-up-an-environment-for-master-data-lookup"></a>Koondandmete otsingu keskkonna häälestamine
 
 [!include [banner](../includes/banner.md)]
 
-See teema kirjeldab, kuidas seadistada ja lubada maksu arvutamise koondandmete otsingufunktsioone. Ripploendit saab kasutada maksuarvutuse konfiguratsioonis selliste väljade väärtused nagu Juriidiline **isik**, **Hankija** konto, **Kaubakood** ja Tarne **tähtaeg**. Need väärtused tulevad andmeallikat kasutades Dynamics 365 Finance ühendatud Microsofti Microsoft Dataverse keskkonnast.
-
-> [!NOTE] 
-> Maksu arvutamise koondandmete otsingu funktsioon on valikuline funktsioon. Kui keelate maksuteenuse andmeallikate tugifunktsiooni regulatiivses konfiguratsiooniteenuses **Dataverse** (RCS), võite järgmised sammud vahele jätta. Sel juhul ei ole aga ripploend maksuarvestuse konfiguratsioonis saadaval.
+Selles teemas selgitatakse, kuidas seadistada oma keskkond kasutama maksuarvestuse põhiandmete otsingufunktsiooni.
 
 1. Seadistage Microsoft Power Platform integreerimine rakenduses Microsoft Dynamics Lifecycle Services (LCS). Lisateavet vt teemast [Microsoft Power Platform ingegratsioon - lisandmooduli ülevaade](../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md). Pärast selle toimingu sooritamist kuvatakse jaotises **Power Platform Integration** Microsoft Power Platformi keskkonna nimi.
 2. Minge [Microsoft Power Platformi halduskeskusesse](https://admin.powerplatform.microsoft.com/environments) ja valige keskkonna nimi. Keskkonna URL on esitatud.

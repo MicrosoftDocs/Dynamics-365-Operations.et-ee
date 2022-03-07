@@ -2,11 +2,9 @@
 title: ER-i funktsioon SUMIF
 description: See teema sisaldab teavet selle kohta, kuidas kasutatakse elektroonilise aruandluse (ER) funktsiooni SUMIF.
 author: NickSelin
-manager: kfend
 ms.date: 04/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 52f9cdb78efa6fe0dbebd2ffd78cd6e9185d6b2e
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 60cf85ac0ffcdb163c12670efa3dcc7e9f05cb16
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685347"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5747103"
 ---
 # <a name="sumif-er-function"></a>ER-i funktsioon SUMIF
 
@@ -67,3 +65,6 @@ Selle funktsiooni kasutamise kohta lisateabe ja näidete saamiseks vt teemasid [
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Andmete kogumise funktsioonid](er-functions-category-data-collection.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

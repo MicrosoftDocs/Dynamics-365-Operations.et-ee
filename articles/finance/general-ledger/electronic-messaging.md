@@ -2,11 +2,9 @@
 title: Elektrooniline sõnumside
 description: Selles teemas antakse elektroonilise sõnumside ülevaade ja seadistusteave rakenduses Microsoft Dynamics 365 Finance.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 11/16/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: d4ecc29e47d68129df424c4212505413cf6c8889
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: dd49edeb92e6a23723b1b6b6ea7800b69a81bd0f
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4968975"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897596"
 ---
 # <a name="electronic-messaging"></a>Elektronsõnumid
 
@@ -31,7 +29,7 @@ Hiljuti kehtestasid erinevate riikide ja piirkondade valitsused ja seadusandliku
 
 Elektroonilise sõnumside funktsionaalsus rakenduses Rahandus toetab erinevaid protsesse elektrooniliseks koostalitluseks rakenduse Rahandus ning süsteemide vahel, mida valitsused ja seadusandlikud asutused pakuvad ametliku teabe aruandluseks, esitamiseks ja saamiseks.
 
-Elektroonilise sõnumside funktsionaalsus on integreeritud **elektroonilise aruandluse** (ER) mooduliga. Seetõttu saate elektronsõnumite jaoks seadistada ER-vormingud. Lisateabe saamiseks vt [Elektrooniline aruandlus (ER)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/general-electronic-reporting).
+Elektroonilise sõnumside funktsionaalsus on integreeritud **elektroonilise aruandluse** (ER) mooduliga. Seetõttu saate elektronsõnumite jaoks seadistada ER-vormingud. Lisateabe saamiseks vt [Elektrooniline aruandlus (ER)](/dynamics365/unified-operations/dev-itpro/analytics/general-electronic-reporting).
 
 Elektrooniline sõnumside põhineb järgmistel üksustel:
 
@@ -58,7 +56,7 @@ Elektronsõnumite funktsioon toetab järgmisi stsenaariume:
 
 ## <a name="set-up-electronic-messaging"></a>Elektroonilise sõnumside seadistamine
 
-Elektroonilise sõnumside abil saate hallata erinevaid elektroonilise aruandluse protsesse erinevate dokumenditüüpide jaoks. Mõnes keerukamas stsenaariumis seadistatakse elektrooniline sõnumside mitme sõnumi olekute, sõnumiüksuste olekute, tegevuste, lisaväljade ja täidetavate klasside kombinatsioonina. Nende stsenaariumide jaoks on importimiseks saadaval andmeüksuste paketid. Kui te kasutate neid andmeüksuse pakette, peate need importima juriidilisse isikusse, kasutades andmehalduse tööriista. Lisateavet andmehalduse tööriista kasutamise kohta vt jaotisest [Andmehaldus](../../dev-itpro/data-entities/data-entities-data-packages.md).
+Elektroonilise sõnumside abil saate hallata erinevaid elektroonilise aruandluse protsesse erinevate dokumenditüüpide jaoks. Mõnes keerukamas stsenaariumis seadistatakse elektrooniline sõnumside mitme sõnumi olekute, sõnumiüksuste olekute, tegevuste, lisaväljade ja täidetavate klasside kombinatsioonina. Nende stsenaariumide jaoks on importimiseks saadaval andmeüksuste paketid. Kui te kasutate neid andmeüksuse pakette, peate need importima juriidilisse isikusse, kasutades andmehalduse tööriista. Lisateavet andmehalduse tööriista kasutamise kohta vt jaotisest [Andmehaldus](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md).
 
 Kui te ei impordi andmeüksuse paketti, saate elektronsõnumite funktsiooni seadistada käsitsi. Sel juhul peate seadistama järgmised elemendid:
 
@@ -535,3 +533,6 @@ Saate nüüd sõnumi oleku kas kustutada või seda värskendada. Sõnumi oleku v
 ![Sõnumi oleku värskendamine](media/update-status.png)
 
 Sõnumi olek värskendatakse väärtusele **Ettevalmistatud** ja te saate nüüd aruande luua, valides **Loo aruanne**. Aruanne luuakse ning sõnumi olekut ja tegevuste logi värskendatakse. Loodud aruande vaatamiseks valige lehe paremas ülanurgas nupp **Manus** (kirjaklambrisümbol).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

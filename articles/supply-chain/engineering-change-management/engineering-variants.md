@@ -10,22 +10,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 7921983a965af5557f54f608418c8ec922256ba6
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
-ms.translationtype: MT
+ms.openlocfilehash: 57eda6a833df6ff8e91c006bbc5096554eff6c503a8b7ba2bd0b13e2f8e98f56
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103634"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6766142"
 ---
 # <a name="generate-variants-for-engineering-products"></a>Tehnikatoodete variantide loomine
 
 [!include [banner](../includes/banner.md)]
 
 See teema kirjeldab, kuidas luua tehnikatoodete variante.
-
-## <a name="turn-variant-generation-for-engineering-products-on-or-off"></a>Lülita tehnika toodete variandi loomine sisse või välja
-
-Selles teemas kirjeldatud funktsioonid nõuavad, et *nii tehnika muutmise haldus* *kui ka* tootevariandi loomine oleks teie süsteemi jaoks sisse lülitatud. Üksikasju selle kohta, kuidas neid funktsioone sisse või välja lülitada, vt tehnika [muudatusehalduse ülevaadet](product-engineering-overview.md).
 
 ## <a name="generate-one-or-more-new-variants-of-an-engineering-product"></a>Looge üks või mitu tehnikatoote uut varianti
 
@@ -42,15 +38,10 @@ Järgmine toiming annab näite, kuidas luua mitmeid variante, mis sisaldavad vä
 1. Vajadusel lisage variandile materjalide arve (BOM) ja marsruut.
 1. Valige toimingupaani vahekaardi **Toode** grupis **Tooteetalon** suvand **Tootedimensioonid**.
 1. Avaneb leht **Toote dimensioonid**. See lehekülg sisaldab vahekaarti iga saadaoleva dimensiooni kohta. Igal vahekaardil lisage rida iga väärtuse kohta, mida iga asjakohane dimensioon toetab. (Selle näite puhul võite lisada ridu vahekaardile **Värv** väärtustele *Valge*, *Kollane* ja *Roheline*).
-1. Sulgege leht ja valige **Väljastatud tootevariandid**. Pange tähele, et kuvatakse esimene loodud variant (sinine V-1).
-1. Toimingupaanil vahekaardil **Tootevariant** valige suvand **Variandisoovitused**.
-1. Dialoogiboksis **Variandisoovitused** järgige üht järgmistest sammudest:
-
-    - Dialoogiakna ülaosas on iga saadaoleva dimensiooni jaoks sektsioon. Iga dimensiooni puhul märkige ruut iga väärtuse kohta, mille jaoks soovite variandisoovituse luua, ja valige **Soovitamine** tööriistaribal. Jaotisesse **Soovitatud variandid** lisatakse vastavad soovitused.
-    - Tehke tööriistaribal valik **Soovita kõiki** et luua variandisoovitusi kõigile saadaval dimensiooniväärtuste kombinatsioonidele. Jaotisesse **Soovitatud variandid** lisatakse vastavad soovitused.
-
-1. Märkige jaotises **Soovitatud variandid** ruut iga variandi puhul, mida soovite luua. Siis valige **Loo**, et luua ja vabastada valitud variandid tehnikaettevõttele. Kehtivad järgnevad tingimused:
-
+1. Sulgege leht ja valige **Väljastatud tootevariandid**. Pange tähele, et kuvatakse esmakordselt loodud variant (valge V-1).
+1. Valige **Variantide soovitused**.
+1. Süsteem soovitab loodud värviväärtustega variante (näiteks valge V-1, kollane V-1 ja roheline V-1).
+1. Valige soovitatud variandid ja valige **OK**, et vabastada variandid tehnikaettevõttele. Pange tähele, et kehtivad järgmised tingimused. 
     - Ühelgi loodud variandil pole kooslust ega protsessi.
     - Nende variantide atribuudid on vaikimisi tehnikakategooriast ja neid ei kopeerita eelmisest variandist.
 

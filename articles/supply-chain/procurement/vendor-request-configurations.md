@@ -1,26 +1,24 @@
 ---
 title: Hankija nõude konfiguratsioonid
 description: See teema kirjeldab välju, mis tuleb uue hankija taotluse puhul täita.
-author: RichardLuan
-manager: tfehr
+author: kamaybac
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendProspectiveVendorRegistrationConfig
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: riluan
+ms.author: dabourq
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 987b9cefef395b3bf3e915f41232fe0daba213b9
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: a78ec681ff9bfe9f7792da04553e4b543bf4a183
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021160"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5809298"
 ---
 # <a name="vendor-request-configurations"></a>Hankija nõude konfiguratsioonid
 [!include [banner](../includes/banner.md)]
@@ -53,3 +51,6 @@ Võite sisestada ka kinnitusteate, mis kuvatakse, kui viisard on läbitud, samut
 4.  Riigi/regiooni puhul kasutatava konfiguratsiooni valimiseks avage vahekaart **Riik/regioon**.
 5.  Konfiguratsiooni lõpetamiseks järgige vaikekonfiguratsiooni juhiseid.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

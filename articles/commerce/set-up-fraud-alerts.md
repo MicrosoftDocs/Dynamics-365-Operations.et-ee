@@ -2,16 +2,13 @@
 title: Kõnekeskuse pettuseteatiste seadistamine ja kasutamine
 description: Selles teemas kirjeldatakse, kuidas seadistada reegleid, et tellimuste töötlemise käigus teavitada klienditeeninduse esindajaid potentsiaalsetest valeandmetest. Saate määratleda spetsiaalsed koodid, mida kasutatakse kahtlaste tellimust automaatselt või manuaalselt ootele panekuks.
 author: josaw1
-manager: AnnBe
 ms.date: 05/14/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: SalesPostingHistory, MCRHoldCodeTrans
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 79103
 ms.assetid: e342af8d-7498-4d20-8483-ab368429c578
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 38649e40021d1caaf70f217b3ebae0d488806180
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: e692d43b8c2648a424ff3b4fdc9d0cf16d0e03702d6a237f71caaf49646c5ec3
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411753"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6763664"
 ---
 # <a name="set-up-and-work-with-call-center-fraud-alerts"></a>Kõnekeskuse pettuseteatiste seadistamine ja kasutamine
 
@@ -37,13 +34,13 @@ Selles teemas selgitatakse, kuidas seadistada kriteeriume ja reegleid, et panna 
 
 ## <a name="turning-on-the-fraud-check-feature"></a>Pettuse kontrolli funktsiooni sisselülitamine
 
-Pettuse kontrolli funktsiooni kasutamiseks peate määrama kanali suvandi **Tellimuse lõpetamise lubamine** olekuks **Jah**, kui kõnekeskuse kanal on [määratletud](https://docs.microsoft.com/dynamics365/unified-operations/retail/set-up-order-processing-options). Kui tellimuse lõpetamine on sisse lülitatud, peavad kõnekeskuse kasutajad kõigi loodud müügitellimuste jaoks müügitellimuse lehel valima suvandi **Lõpule viidud**. Tegevus Lõpule viidud toob kaasa lehe **Müügitellimuse kokkuvõte** avanemise. Kui kasutajad on lehel **Müügitellimuse kokkuvõte** sisestanud vajalikud makseandmed, peavad nad tellimuse lõpuleviimiseks klõpsama käsku **Edasta**. Tellimuse esitamisel käivitatakse pettuse kontrolli funktsioon ja süsteemis olevad aktiivsed reeglid kinnitatakse automaatselt.
+Pettuse kontrolli funktsiooni kasutamiseks peate määrama kanali suvandi **Tellimuse lõpetamise lubamine** olekuks **Jah**, kui kõnekeskuse kanal on [määratletud](/dynamics365/unified-operations/retail/set-up-order-processing-options). Kui tellimuse lõpetamine on sisse lülitatud, peavad kõnekeskuse kasutajad kõigi loodud müügitellimuste jaoks müügitellimuse lehel valima suvandi **Lõpule viidud**. Tegevus Lõpule viidud toob kaasa lehe **Müügitellimuse kokkuvõte** avanemise. Kui kasutajad on lehel **Müügitellimuse kokkuvõte** sisestanud vajalikud makseandmed, peavad nad tellimuse lõpuleviimiseks klõpsama käsku **Edasta**. Tellimuse esitamisel käivitatakse pettuse kontrolli funktsioon ja süsteemis olevad aktiivsed reeglid kinnitatakse automaatselt.
 
-Kõnekeskuse kasutajad saavad ka käsitsi müügitellimuse pettuse tõttu ülevaatamise jaoks ootele panna, enne kui nad klõpsavad käsku **Edasta**. Müügitellimuse käsitsi ootele panemiseks valige lehel **Müügitellimuse kokkuvõte** suvand **Pane ootele** \> **Pettuse tõttu käsitsi ootele panemine**. Seejärel palutakse teil sisestada kommentaar tellimuse ootelepaneku põhjuse selgitamiseks. See kommentaar kuvatakse töölaual [ootel tellimused](https://docs.microsoft.com/dynamics365/unified-operations/retail/work-with-order-holds), et anda konteksti ootel olevaid tellimusi ülevaatavale kasutajale, et ta saaks otsustada, kas tellimus tuleks väljastada.
+Kõnekeskuse kasutajad saavad ka käsitsi müügitellimuse pettuse tõttu ülevaatamise jaoks ootele panna, enne kui nad klõpsavad käsku **Edasta**. Müügitellimuse käsitsi ootele panemiseks valige lehel **Müügitellimuse kokkuvõte** suvand **Pane ootele** \> **Pettuse tõttu käsitsi ootele panemine**. Seejärel palutakse teil sisestada kommentaar tellimuse ootelepaneku põhjuse selgitamiseks. See kommentaar kuvatakse töölaual [ootel tellimused](/dynamics365/unified-operations/retail/work-with-order-holds), et anda konteksti ootel olevaid tellimusi ülevaatavale kasutajale, et ta saaks otsustada, kas tellimus tuleks väljastada.
 
 Lisaks kanalil suvandi **Tellimuse lõpetamise lubamine** konfigureerimisele peate kõnekeskuse parameetrites konfigureerima ka pettuse kontrolli funktsiooni. Avage **Jaemüük ja kaubandus** \> **Kanali häälestus** \> **Kõnekeskuse seadistamine** \> **Kõnekeskuse parameetrid**. Lehel **Kõnekeskuse parameetrid** määrake vahekaardil **Ootel** suvandi **Pettuse kontroll** olekuks **Jah**.
 
-Vahekaardil **Ootel** peaksite määratlema ka [ooteloleku koodid](https://docs.microsoft.com/dynamics365/unified-operations/retail/work-with-order-holds), mis rakendatakse tellimusele, mis on kas käsitsi või automaatselt pettuse tõttu ülevaatamise jaoks ootele pandud. Määrake ooteloleku koodid väljadel **Pettusest tuleneva ooteloleku kood** ja **Pettusest tuleneva ooteloleku kood**. Kasulik võib olla kahe kordumatu ooteloleku koodi loomine, nii et kasutajad, kes töötavad ooteloleku töölaual, saaksid hõlpsalt filtreerida ja eristada automaatseid ja käsitsi ootele pandud tellimusi.
+Vahekaardil **Ootel** peaksite määratlema ka [ooteloleku koodid](/dynamics365/unified-operations/retail/work-with-order-holds), mis rakendatakse tellimusele, mis on kas käsitsi või automaatselt pettuse tõttu ülevaatamise jaoks ootele pandud. Määrake ooteloleku koodid väljadel **Pettusest tuleneva ooteloleku kood** ja **Pettusest tuleneva ooteloleku kood**. Kasulik võib olla kahe kordumatu ooteloleku koodi loomine, nii et kasutajad, kes töötavad ooteloleku töölaual, saaksid hõlpsalt filtreerida ja eristada automaatseid ja käsitsi ootele pandud tellimusi.
 
 Et pettuse kontrolli funktsiooni töötaks tõhusalt, peate määrama ka välja **Miinimumskoor**. Igal pettuse kriteeriumil ja reeglil, mis on süsteemis määratletud, on skoor. Kui müügitellimust kontrollitakse pettuse vastete suhtes, siis ühe või mitme vaste leidmisel liidetakse skoorid kokku, et esitada pettuse koguskoor. Kui pettuse koguskoor ületab välja **Miinimumskoor** väärtust, pannakse tellimus automaatselt ootele. Soovi korral saate vahekaardil **Ootel** kasutada teisi skooriga seotud välju, et määratleda meiliaadressi skoor, telefoninumbri skoor, sihtnumbri skoor ja laiendatud sihtnumbri skoor. Kui te ei määra ühelegi staatilise pettuse kriteeriumile skoori, kui määratlete neid lehel **Staatilised pettuse andmed**, annab süsteem neile skoorid, kasutades vaikeskoore, mille määrate vahekaardil **Ootel** lehel **Kõnekeskuse parameetrid**.
 
@@ -68,4 +65,7 @@ Tellimus on salvestatud, kuid sellele on märgitud lipp **Ära töötle**. See l
 
 Pettuse tõttu ülevaatamisel olevate tellimuste vaatamiseks ja haldamiseks avage **Jaemüük ja kaubandus** \> **Kliendid** \> **Ootel olevad tellimused**. Lehel **Ootelolevad tellimused** valige loendist kirje ja klõpsake nuppu **Ootelolev tellimus**, et näha üksikasjalikumat vaadet, mis sisaldab teavet ooteloleku põhjuse kohta. Kiirkaardil **Pettuse üksikasjad** saate vaadata süstemaatilisi pettuse kriteeriume, mis leiti olevat tellimuse vasted ja millele rakendati skoorid. Kui tellimus pandi käsitsi ootele, saate vaadata üle tellimuse ootele pannud kasutaja kommentaarid vaadates jaotist **Pettusemärkmed** kiirkaardil **Märkused**.
 
-Lisateavet selle kohta, kuidas töötada ootel olevate tellimustega, vt teemast [Ootelolevad tellimused](https://docs.microsoft.com/dynamics365/unified-operations/retail/work-with-order-holds).
+Lisateavet selle kohta, kuidas töötada ootel olevate tellimustega, vt teemast [Ootelolevad tellimused](/dynamics365/unified-operations/retail/work-with-order-holds).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,12 +1,10 @@
 ---
 title: Harjutushalduri Power BI sisu
-description: See teema kirjeldab, mida hõlmab harjutushalduri Power BI sisu. See selgitab juurdepääsu sisus sisalduvatele aruannetele ning annab teavet andmemudeli ja olemite kohta, mida sisu loomiseks kasutatakse.
-author: KimANelson
-manager: AnnBe
+description: See teema kirjeldab, mida hõlmab harjutushalduri Power BI sisu.
+author: kfend
 ms.date: 12/18/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ProjManagementWorkspace
 audience: Application User, IT Pro
@@ -16,18 +14,18 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 17a68e5aedb8b085c85d1ed7b6ad87f3eaecfc25
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: 4acef3c595f25fa0be16945a9f41611832cfcea9
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685701"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500217"
 ---
 # <a name="practice-manager-power-bi-content"></a>Harjutushalduri Power BI sisu
 
 [!include [banner](../includes/banner.md)]
 
-See teema kirjeldab, mida hõlmab **harjutushalduri** Microsoft Power BI sisu. See selgitab ka seda, kuidas pääseda juurde Power BI aruannetele, ning annab teavet andmemudeli ja üksuste kohta, mida kasutatakse sisu loomiseks.
+See teema kirjeldab, mida hõlmab **Harjutushalduri** Microsoft Power BI sisu. See selgitab ka seda, kuidas pääseda juurde Power BI aruannetele, ning annab teavet andmemudeli ja üksuste kohta, mida kasutatakse sisu loomiseks.
 
 ## <a name="overview"></a>Ülevaade
 
@@ -117,3 +115,6 @@ Järgmistes jaotistes kirjeldatakse igas üksuses kasutatavaid koondmõõtmisi.
 | Peamine koondmõõtmine       | Väli               | Kirjeldus |
 |---------------------------------|---------------------|-------------|
 | Lõpetatud tegevuse plaanitud kulu | Sum(TotalCostPrice) | Kogu omahinna prognoos kõigi lõpetatud ülesannetega projektikannete tüüpide kohta. |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

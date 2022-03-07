@@ -1,31 +1,33 @@
 ---
 title: Puhkuse ostmine ja müümine
-description: Dynamics 365 Human Resources aitab edastada puhkuse ostmise ja müümise taotlusi teie ettevõttes häälestatud puhkuse ostmis- ja müümispoliitika alusel.
-author: andreabichsel
-manager: AnnBe
-ms.date: 08/20/2020
+description: See teema kirjeldab, kuidas esitada ostu- ja müügipuhkuste Dynamics 365 Human Resources taotlusi.
+author: twheeloc
+ms.date: 08/26/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ESSLeaveBuyRequestEntry, EssWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e3a10d183c50f4db31f5c08eb6c0ab8cff79b23e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 2ddc50540ba0686f18b6e8875e40f11c378c448f
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418228"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067475"
 ---
 # <a name="buy-and-sell-leave"></a>Puhkuse ostmine ja müümine
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Dynamics 365 Human Resources aitab edastada puhkuse ostmise ja müümise taotlusi teie ettevõttes häälestatud puhkuse ostmis- ja müümispoliitika alusel.  
 
@@ -49,7 +51,16 @@ Teie saldod kas värskendatakse automaatselt või need läbivad enne värskendam
 
 Teie saldod kas värskendatakse automaatselt või need läbivad enne värskendamist kinnitustoimingu. See oleneb sellest, kuidas on ostupoliitika konfigureeritud.
 
+
+## <a name="troubleshooting"></a>Tõrkeotsing 
+
+Kui ostu või müügi puhkuse taotluse töövoog nurjub, saavad kasutajad, kellel on **EssLeaveBuySellRequestApprover** privileeg, vaadata üle kõikide puhkuse ostu- ja müügitaotluste teatelogi. Selleks minge **Puhkus ja puudumine > Link > Ostu- ja müügitaotluste päringud >Teatelogi** (vasakul üleval). **Teatelogi** näitab kasutajatele, kuidas kandeid töödeldakse ja seostatud töövoo ajalugu.
+
+
 ## <a name="see-also"></a>Vt ka
 
 [Puhkuste ja puudumiste ülevaade](hr-leave-and-absence-overview.md)</br>
 [Puhkuse ostu ja müügi poliitikate haldamine](hr-leave-and-absence-manage-buy-and-sell-leave-policies.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

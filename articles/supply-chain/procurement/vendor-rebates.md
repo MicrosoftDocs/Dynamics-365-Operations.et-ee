@@ -1,26 +1,24 @@
 ---
 title: Hankija tagasimaksed
 description: Selles teemas antakse ülevaade kõige levinumatest ülesannetest, mida on vaja teha hankija tagasimaksetega töötamisel. Hankija tagasimaksed aitavad ettevõtetel tarnijate tagasimakseprogramme paremini hallata, automatiseerides toiminguid, mis on vajalikud teenitud tagasimaksete haldamiseks, jälgimiseks ja nõudmiseks.
-author: omulvad
-manager: tfehr
+author: Henrikan
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TAMVendRebateAgreement
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 2012
-ms.openlocfilehash: 46d6beb287f7d034c6fde09999f7854695a4987c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: ec8d054d023b7e3f6611199e60f661c480d44d57
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4966651"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7566859"
 ---
 # <a name="vendor-rebates"></a>Hankija tagasimaksed
 
@@ -55,7 +53,7 @@ Hankija tagasimakseleping on registreeritud kokkulepe hankijaga, mis täpsustab 
 
 Lehe **Hankija tagasimakselepingud** avamiseks valige **Hanked** &gt; **Hankija tagasimaksed** &gt; **Tagasimakselepingud**.
 
-![Ostuleping](media/purchase-agreement.PNG)
+![Ostuleping.](media/purchase-agreement.PNG)
 
 Lehel **Hankija tagasimakselepingud** saate vaadata hankija lepingu läbiräägitud tingimuste üksikasju.
 
@@ -131,7 +129,7 @@ Kui nõuded on kinnitatud, saab neid töödelda ostureskontro. Krediiditeatis (h
 
     Nõude summa kohta sisestatakse tagasimakse juurdekasvu tööleht. See sisestus debiteerib kogunenud tasumisele kuuluvate hankija tagasimaksete kontolt oodatava hankija kreeditsumma ja krediteerib saadud kogunenud hankija tagasimaksete vahekontot oodatud tuluga.
 
-    ![Teade](media/message.png)
+    ![Sõnum.](media/message.png)
 
 5. Valige tagasimaksete loendist rida ja valige siis tegumiribalt **Tagasimaksekanded**, et vaadata selle tagasimakse kogunenud sisestuse töölehe partiinumbrit ja liikuda selle juurde.
 
@@ -166,3 +164,6 @@ Hankija tagasimaksete käsitsemise protsess hõlmab mitmeid sageli tüütuid kä
 - Täpsete tagasimaksenõuete loomine
 - Eeldatava tulu ja vahekasumi koondamine pearaamatus
 - Hankija saldo ja kasumiaruande värskendamine tasumisele kuuluva hüvitisega
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

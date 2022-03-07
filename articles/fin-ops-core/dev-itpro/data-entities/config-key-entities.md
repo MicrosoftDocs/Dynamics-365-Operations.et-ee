@@ -2,11 +2,9 @@
 title: Konfiguratsioonivõtmed ja andmeüksused
 description: Selles teemas kirjeldatakse konfiguratsioonivõtmete ja andmeüksuste vahelist seost.
 author: Sunil-Garg
-manager: AnnBe
 ms.date: 05/10/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application user
 ms.reviewer: sericks
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: e6145a2f6925932361851735df55374dda8ca03d
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 72204c0a454c9893b05f2cf37a3d43c49f06532faba48f344644ba83e3351110
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679376"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6737847"
 ---
 # <a name="configuration-keys-and-data-entities"></a>Konfiguratsioonivõtmed ja andmeüksused
 
@@ -54,24 +52,24 @@ Järgmises tabelis antakse ülevaade, kuidas objektile aluseks olevate eri artef
 ### <a name="entity-list-refresh"></a>Üksuste loendi värskendamine
 Üksuse loendi värskendamisel loob andmehaldusraamistik konfiguratsioonivõtme metaandmed käitusajal kasutamiseks. Metaandmed luuakse ülalkirjeldatud loogikat kasutades. Soovitame enne andmehaldusraamistikus tööde ja üksuste kasutamist tungivalt oodata üksuste loendi värskendamise lõpetamiseni. Kui te ei oota, ei pruugi konfiguratsioonivõtme metaandmed olla ajakohastatud, mis võib põhjustada ootamatuid tulemusi. Üksuste loendi värskendamisel kuvatakse üksuste loendi lehel järgmine teade.
 
-![Üksuste loendi värskendamine](./media/Entity_refresh_list.png)
+![Üksuste loendi värskendamine.](./media/Entity_refresh_list.png)
 
 ### <a name="data-entity-list-page"></a>Andmeüksuste loendi leht
 Andmeüksuste loendi leht tööruumis Andmehaldus näitab üksuste konfiguratsioonivõtme sätteid. Konfiguratsioonivõtmete mõju mõistmiseks andmeüksustele alustage sellelt lehelt.
 
 See teave kuvatakse üksuse värskendamise ajal loodud metaandmete abil. Konfiguratsioonivõtme veerus kuvatakse andmeüksusega seostatud konfiguratsioonivõtme nimi. Kui see veerg on tühi, tähendab see, on andmeüksusega pole konfiguratsioonivõtit seostatud. Konfiguratsioonivõtme oleku veerus kuvatakse konfiguratsioonivõtme olek. Kui see on märgitud, tähendab see, et võti on lubatud. Kui see on tühi, tähendab see, et võti on keelatud või võtit ei ole seostatud.
 
-![Üksuste loendi leht](./media/Data_entity_list_page.png)
+![Üksuste loendi leht.](./media/Data_entity_list_page.png)
 
 ### <a name="target-fields"></a>Sihtväljad
 Järgmiseks sammuks andmeteüksusesse süvitsiminek konfiguratsioonivõtmete mõju vaatamiseks tabelitele ja väljadele. Andmeüksuse sihtväljade vorm näitab andmeüksuses seotud tabelite ja väljade konfiguratsioonivõtme ja võtme oleku teavet. Kui andmeüksus ise on oma konfiguratsioonivõtme keelanud, kuvatakse hoiatusteade, et selle üksuse sihtväljade vormi tabelid ja väljad ei ole sõltumata nende konfiguratsioonivõtme olekust üldse saadaval.
 
-![Sihtväljad](./media/Target_fields_1.png)
+![Sihtväljad.](./media/Target_fields_1.png)
 
 ### <a name="child-entities"></a>Tütarüksused 
 Teatud üksustel on andmeallikatena teisi üksuseid või need on liit-andmeüksused; nende üksuste konfiguratsioonivõtme teave kuvatakse alamüksuse vormil. Seda vormi saate kasutada samal viisil nagu ülal kirjeldatud üksusteloendi lehte. Alamüksuse sihtväljad käituvad samuti ülal kirjeldatud viisil.
 
-![Sihtväljad](./media/Target_fields_2.png)
+![Sihtväljad.](./media/Target_fields_2.png)
 
 ### <a name="using-data-entities"></a>Andmeüksuste kasutamine
 Pärast konfiguratsioonivõtmete täieliku mõju mõistmist andmeüksustele, mida soovite kasutada, saate jätkata andmeüksuste kasutamist, lisades neid andmeprojektidele. 
@@ -93,4 +91,7 @@ Pärast konfiguratsioonivõtmete täieliku mõju mõistmist andmeüksustele, mid
 ### <a name="managing-configuration-key-changes"></a>Konfiguratsioonivõtme muudatuste haldamine
 Konfiguratsioonivõtmete värskendamisel üksuse, tabeli või välja tasemel tuleb värskendada andmehaldusraamistiku üksuste loendit. See tagab, et raamistik komplekteerib konfiguratsioonivõtme uusimad sätted. Kuni üksuste loendit värskendatakse, kuvatakse üksuste loendi lehel järgmine hoiatus. Värskendatud konfiguratsioonivõtme muudatused jõustuvad kohe pärast üksuste loendi värskendamist. Soovitame olemasoleva andmeprojektid ja tööd kinnitada, veendumaks et need toimiksid pärast konfiguratsioonivõtmete muudatuste rakendamist õigesti.
 
-![Sihtväljad](./media/Target_fields_3.png)
+![Sihtväljad.](./media/Target_fields_3.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

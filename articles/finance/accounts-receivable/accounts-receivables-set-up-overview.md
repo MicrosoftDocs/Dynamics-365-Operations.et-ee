@@ -2,28 +2,27 @@
 title: Müügireskontro ning krediidi ja võlanõuete konfigureerimine
 description: Konfigureerige Müügireskontro ning Krediit ja võlanõuded, et jälgida klientide arveid ja laekumisi.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 08/22/2017
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CashDisc, CollectionLetterCourse, CreditCardProcessors, CustAgingSnapshot, CustBankAccounts, CustCollections, CustCollectionsAgent, CustCollectionsPool, CustGroup, CustParameters, CustPaymMode, CustPosting, CustVendReportInterval, Interest, PaymTerm, Reasons
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
-ms.custom: 24631
+ms.custom:
+- "24631"
+- intro-internal
 ms.assetid: 8c1fc7c5-b461-41ed-b102-2648cc58eb0b
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1ec8ee7f8ba7493e5334c1a4106351c3661aa00a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 744170988351bf2c0ecb04e419045056965398c0
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442339"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983539"
 ---
 # <a name="configure-accounts-receivable-and-credit-and-collections"></a>Müügireskontro ning krediidi ja võlanõuete konfigureerimine
 
@@ -110,3 +109,6 @@ Lisateavet vt teemast [Krediit ja võlanõuded moodulis Müügireskontro](collec
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,5 +1,5 @@
 ---
-title: Parandage plaanimismootori tõrge ja piiratud võimsus, et ei leitud piisavalt võimsust
+title: Ajastamismootori tõrke 'Ei leitud piisavalt võimsust' lahendamine
 description: Selles teemas antakse teavet tootmistellimuse põhjuste ja käskude %1 kohta, mida ei saa planeerida. Ajastamismootori tõrge ei leitud' pole piisav.
 author: ChristianRytt
 ms.date: 7/29/2021
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-07-19
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: becd537d37a8ba8931f2598dccbae8554a4d168e
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: 16626a7ee74e89bd129d8435a17d16b41a5e0387
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985026"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7565755"
 ---
 # <a name="fix-the-not-enough-capacity-could-be-found-scheduling-engine-error"></a>Ajastamismootori tõrke 'Ei leitud piisavalt võimsust' lahendamine
 
@@ -105,11 +105,5 @@ Ressursi grupi saadaoleva võimsuse ülevaatamiseks järgige neid samme.
 
 1. Minge **Organisatsiooni haldus \> Ressursid \> Ressurssi grupid** ja valige ressursi grupp, mis on rakendatav tellimusele, mida ei saa planeerida.
 1. Valige tegevuspaani vahekaardi **Ressursi grupp** vahekaart **Vaade** suvand **Võimsuse koormus** või **Võimsuse koormus graafiliselt** ja veenduge, et võimsus on olemas.
-
-## <a name="master-planning-books-a-resource-when-the-resource-calendar-is-closed"></a>Koondplaneerimisel plaanitakse ressurss, kui ressursikalender on suletud.
-
-Operatsioonide planeerimisel planeerib koondplaneerimine võimsust vastavalt esmase ressursigrupi kalendrile. See raamatutab teisese operatsiooni esmase operatsiooniga samaaegselt ega võta arvesse teisese operatsiooni kalendreid ega võimsusi. Selle tulemuseks võib olla tootmistellimuse plaanimine suletud kalendris või ajal, mil teisene operatsioon ei ole saadaval (kalender suletud, võimsus puudub).
-
-Tööde planeerimisel võtab koondplaneerimine arvesse tellimuse planeerimisel esmase ja teisese operatsiooni võimsust ja kalendrit. Tellimuse plaanimiseks peavad mõlema operatsiooni ressursside kalendrid olema avatud ja vaba võimsusega.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

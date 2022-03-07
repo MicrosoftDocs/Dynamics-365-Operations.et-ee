@@ -2,25 +2,22 @@
 title: Kulukomplekti poliitika loomine
 description: See protseduur näitab, kuidas luua kulukomplekti poliitikat ja selle jaoks reegleid.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/27/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8b6d32cc2c1844c6c334dd00b249c736e153f13d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 50a50dc359dc4c2741ac4d280a9f97c6a7f2c259
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442503"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5810011"
 ---
 # <a name="create-a-cost-rollup-policy"></a>Kulukomplekti poliitika loomine
 
@@ -68,3 +65,6 @@ See protseduur näitab, kuidas luua kulukomplekti poliitikat ja selle jaoks reeg
     * Jätkake, kuni kõik kulukeskused on vastendatud vastavate teiseste kuluelementidega.  
 16. Klõpsake nuppu Salvesta.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

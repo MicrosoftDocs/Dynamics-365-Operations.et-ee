@@ -2,36 +2,30 @@
 title: Organisatsiooni hierarhiate seadistamine
 description: Selle teema all kirjeldatakse organisatsiooni hierarhiate seadistust rakenduses Microsoft Dynamics 365 Commerce.
 author: samjarawan
-manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 29d4b686cbb66715196fca06e4642fbb8a337ace
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: ce0732f32a9a80fc5b0ede7ae9f1c1ab9a68a89b2fb0b1821cb5df123ca5ca4a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411635"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6746012"
 ---
-# <a name="set-up-organization-hierarchies"></a>Organisatsiooni hierarhiate seadistamine
-
+# <a name="set-up-organization-hierarchies"></a>Organisatsiooni hierarhiate häälestus
 
 [!include [banner](includes/banner.md)]
 
 Selle teema all kirjeldatakse organisatsiooni hierarhiate seadistust rakenduses Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Ülevaade
 
 Enne kanalite loomist peate veenduma, et teie organisatsiooni hierarhiad on seadistatud.
 
@@ -60,7 +54,7 @@ Organisatsiooni hierarhia loomiseks toimige järgmiselt.
 
 Järgmine pilt näitab organisatsiooni hierarhia näidet, mis on loodud fiktiivsete "Adventure Works" kauplusteketi jaoks.
 
-![Organisatsiooni hierarhia näide](media/organizational-hierarchies.png)
+![Organisatsiooni hierarhia näide.](media/organizational-hierarchies.png)
 
 ### <a name="add-organizations-to-a-hierarchy"></a>Organisatsioonide lisamine hierarhiasse
 
@@ -73,7 +67,7 @@ Hierarhiale organisatsioonide lisamiseks toimige järgmiselt.
 
 Järgmine pilt näitab hierarhia juurele lisatud juriidilist isikut nelja lisatud kulukeskusega kanalitele "Ostukeskus", "Outlet-pood", "Veeb" ja "Kõnekeskus". Seejärel saab igale lisada erinevaid jaemüügi-, kõnekeskuse- ja veebikanaleid.
 
-![Hierarhia kujundaja näide](media/hierarchy-designer.png)
+![Hierarhia kujundaja näide.](media/hierarchy-designer.png)
 
 ## <a name="additional-resources"></a>Lisaressursid
 
@@ -88,3 +82,6 @@ Järgmine pilt näitab hierarhia juurele lisatud juriidilist isikut nelja lisatu
 [Kanalite ülevaade](channels-overview.md)
 
 [Kanali seadistamise eeltingimused](channels-prerequisites.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

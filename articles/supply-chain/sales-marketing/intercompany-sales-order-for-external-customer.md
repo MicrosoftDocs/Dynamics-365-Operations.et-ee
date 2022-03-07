@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: v-gfedorova
 ms.search.validFrom: 2021-09-01
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: b5f7342a997407c8701b836c2a6a6222d8512121
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
-ms.translationtype: MT
+ms.openlocfilehash: 72273a125da2e6c4a2fc16b449cd5077f3d767df
+ms.sourcegitcommit: fcfd85a508c0de52cfe11d1986892219e39ef406
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8074990"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7548211"
 ---
 # <a name="create-and-invoice-an-intercompany-sales-order-for-an-external-customer"></a>Kontsernisisese müügitellimuse loomine ja arveldamine väliskliendi puhul
 
@@ -75,18 +75,5 @@ Läbige juriidilises isikus B järgmised etapid. See protseduur vastab joonisel 
 1. Valige müügitellimus ja seejärel **OK**.
 
 Kontsernisisese müügitellimuse kliendiarve sisestatakse juriidilises isikus B automaatselt. Kontsernisisese hankija arve luuakse seejärel automaatselt ja sisestatakse juriidilises isikus A. Kui algne müügitellimus on seadistatud otsetarnena, luuakse juriidilises isikus A algsele müügitellimusele kliendiarve.
-
-> [!NOTE]
-> Varem, kontsernisiseste müügistsenaariumide puhul, kui hankija arve töövoog konfigureeriti kontsernisiseses ostuettevõttes, ei saanud kontsernisises müügitellimuses edukalt arveldada. Seetõttu tuli kontsernisisese ostuettevõtte jaoks hankija arve töövoog välja lülitada. 
-> 
-> Selle piirangu on fikseerinud hiljutine funktsioon väljaandes 10.0.25. Kontsernisiseseid müügitellimusi saab nüüd arveldada, kui hankija arve töövoog on konfigureeritud kontsernisiseses ostuettevõttes.
-> 
-> Selle funktsiooni lubamiseks tehke järgmist.
->
-> 1. Valige kontsernisisene müügi juriidiline isik.  
-> 2. Avage **Müügireskontro \> Kliendid \> Kõik kliendid**.
-> 3. Valige kontsernisisese ostuettevõtte klient.
-> 4. **Avage general \> seadistamine \> kontsernisisene**.
-> 5. Valige **vahekaardil** Ostutellimuse poliitikad **kontsernisiseste** hankija arvete parameetriks hankija arve töövoog.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

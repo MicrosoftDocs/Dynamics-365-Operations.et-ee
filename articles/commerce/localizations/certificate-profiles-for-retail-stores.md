@@ -2,11 +2,9 @@
 title: Kasutaja määratletud serdiprofiilid jaekaupluste jaoks
 description: Selles teemas antakse ülevaade selle kohta, kuidas serte kauplustes kasutatakse.
 author: josaw
-manager: annbe
 ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailFormLayout, RetailParameters
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 81fa3770a137471e3d7f8cab3c7d7f37febe64fa
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
-ms.translationtype: HT
+ms.openlocfilehash: 9cb82a6d6336bb69fe818fb33e04ad621382b383055b24a4e79eee5ddff217ac
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5018864"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6719926"
 ---
 # <a name="user-defined-certificate-profiles-for-retail-stores"></a>Kasutaja määratletud serdiprofiilid jaekaupluste jaoks
 
@@ -81,7 +79,7 @@ Uue rea lisamisel lehel **Serdiprofiili sätted** seadke järgmiste väljade vä
 - **Võtmehoidla sert** – see väli on kohustuslik, kui seate välja **Asukoha tüüp** väärtuseks **Võtmehoidla**. Kasutage seda võtmehoidla serdi saladuse määramiseks.
 
     > [!NOTE]
-    > Enne võtmehoidla serdi kasutamist serdiprofiilides laadige sert üles võtmehoidla salvestusruumi ja järgige juhiseid, mis on toodud teemas [Azure'i võtmehoidla klientrakenduse seadistamine](https://docs.microsoft.com/dynamics365/finance/localizations/setting-up-azure-key-vault-client).
+    > Enne võtmehoidla serdi kasutamist serdiprofiilides laadige sert üles võtmehoidla salvestusruumi ja järgige juhiseid, mis on toodud teemas [Azure'i võtmehoidla klientrakenduse seadistamine](../../finance/localizations/setting-up-azure-key-vault-client.md).
 
 - **Kaupluse nimi** – see väli on valikuline ja on saadaval ainult siis, kui seate välja **Asukoha tüüp** väärtuseks **Kohalik sert**. Kasutage seda kaupluse vaikenime määramiseks, mida tuleks kasutada kohalike sertide otsimiseks.
 - **Kaupluse asukoht** – see väli on valikuline ja on saadaval ainult siis, kui seate välja **Asukoha tüüp** väärtuseks **Kohalik sert**. Kasutage seda kaupluse vaikeasukoha määramiseks, mida tuleks kasutada kohalike sertide otsimiseks.
@@ -121,3 +119,6 @@ Kui kasutusele võetakse serdi uus versioon, kuid seda ei saa värskendada samal
 
 > [!NOTE]
 > Commerce Runtime'is kutsutakse serdi uut versiooni esimesena. Kui serti ei olda veel kindlas poes või terminalis värskendatud, kutsutakse eelmist versiooni.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

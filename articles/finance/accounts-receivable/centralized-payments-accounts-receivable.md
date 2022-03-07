@@ -2,28 +2,25 @@
 title: Müügireskontro tsentraliseeritud maksed
 description: Organisatsioonid, mis sisaldavad mitut juriidilist isikut, saavad luua ja hallata makseid, kasutades ühte kõigi maksetega tegelevat juriidilist isikut. Seetõttu pole vaja sisestada sama kannet mitmesse juriidilisse isikusse. Selles artiklis tuuakse näiteid, mis näitavad, kuidas tsentraliseeritud maksete sisestamist erinevates stsenaariumides käsitletakse.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 01/30/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTransCustPaym
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 78c72bb9632d3501638d528822a3c30b05686796
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: d5dfa3965cc22c0c3bcf31ae076afb586e12d158ef66464ce933b509aaf9a521
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442337"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6724155"
 ---
 # <a name="centralized-payments-for-accounts-receivable"></a>Müügireskontro tsentraliseeritud maksed
 
@@ -296,3 +293,6 @@ Fabrikam võtab kliendile 4000, Northwind Traders, vastu makse 75,00 ühikut. Ma
 | Müügireskontro (Lääne Fabrikam)    |              | 75,00         |
 | Võlg Ida Fabrikamilt (Lääne Fabrikam) | 25,00        |               |
 | Müügireskontro (Lääne Fabrikam)    |              | 25,00         |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

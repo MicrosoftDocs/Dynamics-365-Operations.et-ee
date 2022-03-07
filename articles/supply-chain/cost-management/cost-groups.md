@@ -2,11 +2,9 @@
 title: Kulugrupid
 description: Kulugrupid annavad aluse toodetud kauba omahinna püsikulude, nt materjali, töö ja üldise püsikulude segmentimiseks ja analüüsimiseks. Kulugrupi segmentimisel on tootmiskeskkonnas mitu sünonüümi, nagu kulude jaotamine, kulu eraldamine või kulu klassifikatsioon.
 author: AndersGirke
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BOMCostGroup
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ef656e24aadfbf6edb7c15851ea4142edd9520e6
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 6ec09fe3611542c9f4c4c65628a15cc690a3b437
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4967769"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5839387"
 ---
 # <a name="cost-groups"></a>Kulugrupid
 
@@ -53,3 +51,6 @@ Kulugrupile saab määrata kulugrupi tüübi ja toimimise täiendavate segmentim
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,35 +2,30 @@
 title: Meilimallide loomine kandesündmuste jaoks
 description: Selles teemas kirjeldatakse, kuidas luua, üles laadida ja konfigureerida meilimalle Microsoft Dynamics 365 Commerce'i kandesündmuste jaoks.
 author: bicyclingfool
-manager: annbe
-ms.date: 06/01/2020
+ms.date: 05/28/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: ea484bfc1e9b293c53d7293c50630c4955000131
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2da1044cd332d841a8c18f7139d0d8c09bad95f446494034060e59416b4018b8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411586"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6718703"
 ---
 # <a name="create-email-templates-for-transactional-events"></a>Meilimallide loomine kandesündmuste jaoks
 
 [!include [banner](includes/banner.md)]
 
 Selles teemas kirjeldatakse, kuidas luua, üles laadida ja konfigureerida meilimalle Microsoft Dynamics 365 Commerce'i kandesündmuste jaoks.
-
-## <a name="overview"></a>Ülevaade
 
 Dynamics 365 Commerce pakub valmislahendust meilide saatmiseks, mis teavitavad kliente kandesündmustest (näiteks kui tellimus sisestatakse,kui tellimus on pealevõtmiseks valmis või kui tellimus on saadetud). Selles teemas kirjeldatakse kandemeilide saatmiseks kasutatavate meilimallide loomist, üleslaadimist ja konfigureerimist.
 
@@ -40,7 +35,7 @@ Enne kindla kandesündmuse vastendamist meilimallile, peate looma selle malli.
 
 Meilimalli loomiseks tehke järgmist.
 
-1. Avage Commerce'i peakontoris **Organisatsiooni meilimallid**, mis asub jaotises **Retail ja Commerce \> Peakorteri seadistamine \> Organisatsiooni meilimallid** või **Organisatsiooni haldus \> Seadistamine \> Organisatsiooni meilimallid**.
+1. Avage Commerce'i headquarters, minge **Jaemüük ja Äri \> jaotises \>Organisatsiooni meilimallid** või **Organisatsiooni haldus \> Seadistamine \>  Organisatsiooni meilimallid**.
 1. Valige suvand **Uus**.
 1. Seadistage jaotises **Üldine** järgmised väljad.
 
@@ -79,28 +74,36 @@ Siin on näide.
 
 Järgmised kohatäited toovad ja kuvavad müügitellimuse tasemel määratletud andmeid (vastupidiselt müügirea tasemele).
 
-| Kohatäite nimi    | Kohatäite väärtus                                                |
-|---------------------|------------------------------------------------------------------|
-| customername        | Tellimuse esitanud kliendi nimi.                   |
-| salesid             | Müügitellimuse müügi ID.                                       |
-| deliveryaddress     | Saadetud tellimuste tarneaadress.                         |
-| customeraddress     | Kliendi aadress.                                     |
-| deliverydate        | Tarnekuupäev.                                               |
-| shipdate            | Lähetuskuupäev.                                                   |
-| modeofdelivery      | Tellimuse tarneviis.                                  |
-| lisakulud             | Tellimuse kogukulud.                                 |
-| maks                 | Tellimuse maks kokku.                                     |
-| kokku               | Tellimuse kogusumma.                                  |
-| ordernetamount      | Tellimuse kogusumma miinus kogu maks.             |
-| allahindlus            | Tellimuse lõppallahindlus.                                |
-| storename           | Poe nimi, kus tellimus esitati.                |
-| storeaddress        | Tellimuse esitanud poe aadress.                  |
-| storeopenfrom       | Tellimuse esitanud poe lahtiolekuaeg.             |
-| storeopento         | Tellimuse esitanud poe sulgemisaeg.             |
-| pickupstorename     | Poe nimi, kust tellimus peale võetakse.         |
-| pickupstoreaddress  | Poe aadress, kust tellimus peale võetakse.      |
-| pickupopenstorefrom | Poe lahtiolekuaeg, kust tellimus peale võetakse. |
-| pickupopenstoreto   | Poe sulgemisaeg, kust tellimus peale võetakse. |
+| Kohatäite nimi     | Kohatäite väärtus                                            |
+| -------------------- | ------------------------------------------------------------ |
+| customername         | Tellimuse esitanud kliendi nimi.               |
+| customeraddress      | Kliendi aadress.                                 |
+| kliendimeiliaadress | Meiliaadress, mille klient väljaregistreerimise ajal sisestas.     |
+| salesid              | Müügitellimuse müügi ID.                                   |
+| Tellimuse kinnitus  | Tellimuse loomisel loodud kanaliülene ID. |
+| kanalid            | Selle jaemüügi- või veebikanali ID, mille kaudu tellimus esitati. |
+| Tarne nimi         | Vaiketarneaadress, mis on laoala kohta sisestatud.        |
+| deliveryaddress      | Saadetud tellimuste tarneaadress.                     |
+| deliverydate         | Tarnekuupäev.                                           |
+| shipdate             | Lähetuskuupäev.                                               |
+| modeofdelivery       | Tellimuse tarneviis.                              |
+| ordernetamount       | Tellimuse kogusumma miinus kogu maks.         |
+| allahindlus             | Tellimuse lõppallahindlus.                            |
+| lisakulud              | Tellimuse kogukulud.                             |
+| maks                  | Tellimuse maks kokku.                                 |
+| kokku                | Tellimuse kogusumma.                              |
+| storename            | Poe nimi, kus tellimus esitati.            |
+| storeaddress         | Tellimuse esitanud poe aadress.              |
+| storeopenfrom        | Tellimuse esitanud poe lahtiolekuaeg.         |
+| storeopento          | Tellimuse esitanud poe sulgemisaeg.         |
+| pickupstorename      | Poe nimi, kust tellimus peale võetakse.\* |
+| pickupstoreaddress   | Poe aadress, kust tellimus peale võetakse.\* |
+| pickupopenstorefrom  | Poe lahtiolekuaeg, kust tellimus peale võetakse.\* |
+| pickupopenstoreto    | Poe sulgemisaeg, kust tellimus peale võetakse.\* |
+| pickupchannelid      | Kaupluse kanali ID, mis on määratud kättesaamisviisi jaoks.\* |
+| pakkimisslipid        | Saatelehe ID, mis loodi tellimuse ridade pakkimisel.\* |
+
+\*Need kohatäited tagastavad andmed ainult siis, kui neid kasutatakse **tellimuse** komplekteerimisteatise tüübi jaoks. 
 
 ### <a name="order-line-placeholders-sales-line-level"></a>Tellimuserea kohatäited (müügirea tase)
 
@@ -108,7 +111,10 @@ Järgmised kohatäited toovad ja kuvavad müügitellimuse üksikute toodete (rid
 
 | Kohatäite nimi               | Kohatäite väärtus |
 |--------------------------------|-------------------|
-| productid                      | Selle rea toote ID. |
+| productid                      | <p>Toote ID. See ID arvestab variante.</p><p><strong>Märkus:</strong> see kohatäide on **reaproduki** kasuks aegunud.</p> |
+| lineproductrecid               | Toote ID. See ID arvestab variante. See tuvastab kordumatult kauba variandi tasemel. |
+| lineitemid                     | Toote toote-taseme ID. (See ID ei arvesta variante.) |
+| lineproductvariantid           | Toote variandi ID. |
 | lineproductname                | Toote nimi. |
 | lineproductdescription         | Toote kirjeldus. |
 | linequantity                   | Sellele reale tellitud ühikute arv koos mõõtühikuga (nt **ea** või **paar**). |
@@ -127,6 +133,8 @@ Järgmised kohatäited toovad ja kuvavad müügitellimuse üksikute toodete (rid
 | linedeliverydate               | Rea tarnekuupäev. |
 | linedeliverymode               | Rea tarneviis. |
 | linedeliveryaddress            | Rea tarneaadress. |
+| linepickupdate                 | Kliendi määratud komplekteerimiskuupäev tellimuste puhul, mis kasutavad pealevõtmisviise. |
+| linepickuptimeslot             | Kliendi määratud komplekteerimiskuupäev tellimuste puhul, mis kasutavad pealevõtmisviise. |
 | giftcardnumber                 | Kinkekaardi number kinkekaardi tüübi toodete puhul. |
 | giftcardbalance                | Kinkekaardi saldo kinkekaardi tüübi toodete puhul. |
 | giftcardmessage                | Kinkekaardi sõnum kinkekaardi tüübi toodete puhul. |
@@ -170,11 +178,8 @@ Siin on näide.
 
 Kviitungeid saab saata klientidele, kes teevad oste jaemüügikassas (POS). Üldiselt sarnanevad meili teel saadetava kviitungi malli loomise etapid muude kandesündmuste mallide loomisega. Kuid järgmisi muudatusi on vaja teha.
 
-- Meilimalli meili ID peab olema **emailRecpt**.
-- Kviitungi tekst sisestatakse meili kohatäite **%message%** abil. Tagamaks, et kviitungi sisu oleks õigesti renderdatud, lisage see siltide **%message%** HTML-iga kohatäide **&lt;pre&gt;** ja **&lt;/pre&gt;** vahele.
-- Meili päise ja jaluse HTML-i reapiirid teisendatakse HTML-i siltideks **&lt;br /&gt;**, et kviitungi sisu renderdataks õigesti. Soovimatu vertikaalse tühiku eemaldamiseks kviitungi meilides, eemaldage reapiirid HTML-i mis tahes kohast, kus vertikaalset ruumi pole vaja.
-
-Lisateavet meili kviitungite konfigureerimise kohta vt teemast [Meili kviitungite seadistamine](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-email-receipts).
+- Kviitungi tekst sisestatakse meili kohatäite **%message%** abil. Tagamaks, et kviitungi sisu oleks õigesti renderdatud, lisage **%message%** kohatäide HTML-iga **&lt;pre&gt;** ja **&lt;pre&gt;** vahele.
+- Kohatäitjat **%receiptid%** saab kasutada QR-koodi või vöötkoodi näitamiseks, mis tähistab kviitungi ID-d. (QR-koodid ja vöötkoodid on dünaamiliselt loodud ja neid teenuseid teenuseid loonud kolmanda osapoole teenus.) Lisateavet selle kohta, kuidas kuvada QR-kood või vöötkood meiliga saadetud kviitungis, vt [Lisa QR-kood või vöötkood kande- ja kviitungi meilidele](add-qr-code-barcode-email.md).
 
 ## <a name="upload-the-email-html"></a>Meili HTML-i üleslaadimine
 
@@ -200,6 +205,9 @@ Lisateavet Dynamics 365 Commerce'is meilide konfigureerimise kohta vt teemast [M
 
 [Meilisõnumi konfigureerimine ja saatmine](../fin-ops-core/fin-ops/organization-administration/configure-email.md)
 
-[Seadistage meilisissetulekud](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-email-receipts)
+[Seadistage meilisissetulekud](/dynamicsax-2012/appuser-itpro/set-up-email-receipts)
 
 [Meilikviitungite saatmine kaasaegsest kassast ](email-receipts.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

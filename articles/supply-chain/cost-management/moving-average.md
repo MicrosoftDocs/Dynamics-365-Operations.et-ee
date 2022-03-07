@@ -2,11 +2,9 @@
 title: Liikuv keskmine
 description: Liikuv keskmine on pidev keskmise põhimõttel tuginev kuluarvestusmeetod, mille puhul ostuhinna muutumisel lao väljaminekute kulud ei muutu. Erinevus on kapitaliseeritud ja põhineb proportsionaalsel arvutusel. Ülejäänud summa kantakse kuludesse.
 author: AndersGirke
-manager: tfehr
 ms.date: 08/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventModelGroup
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0957fee111ec1fd5bb66951126869cf46d88b36e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 3616ade55b2055a30af8ebc2da7e2ade41973543
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4967479"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5809706"
 ---
 # <a name="moving-average"></a>Liikuv keskmine
 
@@ -154,3 +152,6 @@ Selles liikuva keskmise näites prinditakse varude väärtuse aruanne, et toetad
 
 > [!NOTE]
 > Pearaamatut ei saa varudega vastavusse viia, kasutades suvandit **Kande kellaaja järgi sortimine**. Aruanne tuleb printida, kasutades suvandit **Sisestuskuupäev**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

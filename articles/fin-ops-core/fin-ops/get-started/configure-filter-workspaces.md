@@ -2,11 +2,9 @@
 title: Tööruumide konfigureerimine ja filtreerimine
 description: Selles artiklis antakse ülevaade tööruumide konfigureerimisest ja filtreerimisest.
 author: jasongre
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankTreasurerWorkspace, HcmBenefitWorkspace, BudgetPlanningWorkspace, BusinessProcessGenericWorkspace, RetailCatalogManagementWorkspace, RetailCategoryAndProductWorkspace, RetailChannelManagementWorkspace, HcmCompensationWorkspace, CAMCostAccountingLedgerAdminWorkspace, CostAdminWorkspace, CostAnalysisWorkspace, CAMCostControlWorkspace, CustomerCollectionManagerWorkspace, CustomerInvoiceWorkspace, CustPaymentWorkspace, DataManagementWorkspace, DataValidationWorkspace, ERWorkspace, LedgerPeriodCloseProjectWorkspace, AssetWorkspace, GeneralJournalEntryWorkspace, VendVendorPortalInvoiceWorkspace, BudgetTrackingWorkspace, ReqCreatePlanWorkspace, BusinessProcessGenericOwnerWorkspace, SelfHealingWorkspace, WHSOutboundWorkMonitoringWorkspace, WHSWavePlanningWorkspace, PayrollWorkspace, HcmWorkforceWorkspace, RetailDiscountPricingWorkspace, EcoResProductDiscreteManufacturingWorkspace, KanbanPrepareProductForLeanWorkspace, EcoResProductProcessManufacturingWorkspace, EcoResProductVariantMaintainWorkspace, JmgShopSupervisorWorkspace, ProjProjectManagementWorkspace, VendVendorPortalWorkspace, PurchOrderMaintainWorkspace, PurchOrderProcessReceiptsWorkspace, HcmRecruitmentWorkspace, EcoResProductMaintainWorkspace, FMClerkWorkspace, OpResLifecycleManagementWorkspace, RetailITWorkspace, RetailChannelOperationsWorkspace, RetailStoreManagementWorkspace, SalesOrderProcessingWorkspace, SalesReturnWorkspace, SystemAdministrationWorkspaceForm, VendVendorRequestForQuotationsWorkspace, VendVendorProfileManagementWorkspace, VendInvoiceWorkspace, VendPaymentWorkspace
 audience: Application User
@@ -17,16 +15,19 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 10f7e790fdab3866958af1fa131d25735f69a58c
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
-ms.translationtype: HT
+ms.openlocfilehash: e96b61457f222836d50a75ed15305c3c1267600c
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798446"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068730"
 ---
 # <a name="configure-and-filter-workspaces"></a>Tööruumide konfigureerimine ja filtreerimine
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Selles artiklis antakse ülevaade tööruumide konfigureerimisest ja filtreerimisest.
 
@@ -34,11 +35,11 @@ Selles artiklis antakse ülevaade tööruumide konfigureerimisest ja filtreerimi
 
 Saate mõne tööruumi välimust ja toimimist muuta, värskendades kogu tööruumile rakenduvaid sätteid. Kui tööruumi saab konfigureerida, sisaldab toimingupaan nuppu, mis juhendab teid konfiguratsiooni muutmiseks seda klõpsama. Näiteks järgmisel joonisel on nupu nimi **Konfigureeri minu tööruumi**.
 
-[![tööruumide-konfigureerimine-ja-filtreerimine](./media/configure-and-filter-workspaces.png)](./media/configure-and-filter-workspaces.png)
+[![tööruumide-konfigureerimine-ja-filtreerimine.](./media/configure-and-filter-workspaces.png)](./media/configure-and-filter-workspaces.png)
 
 Nupu klõpsamisel ilmub dialoog, kus saate muuta tööruumi eelnevalt määratletud sätteid. Konkreetsed sätted, mida selles dialoogis näete, on iga tööruumi puhul erinevad ja olenevad konkreetsetest juhtelementidest ja äriandmetest, mida tööruumis kasutada saab.
 
-[![minu-tööruumi-konfigureerimine](./media/configure-my-workspace.png)](./media/configure-my-workspace.png)
+[![minu-tööruumi-konfigureerimine.](./media/configure-my-workspace.png)](./media/configure-my-workspace.png)
 
 ## <a name="filtering-a-workspace"></a>Tööruumi filtreerimine
 
@@ -48,11 +49,11 @@ Paljud töökohad võimaldavad neis kuvatavat sisu filtreerida. Saadaolevad juht
 
 Tööruumiülese filtriga saate filtreerida kogu tööruumi. Tööruumiülene filter on tööruumi ülemises vasakpoolses nurgas. Rippmenüüst konkreetse väärtuse valimisel filtreeritakse tööruumi sisu selle valiku põhjal.
 
-[![tööruumi-filter](./media/workspace-filter.png)](./media/workspace-filter.png)
+[![tööruumi-filter.](./media/workspace-filter.png)](./media/workspace-filter.png)
 
 Kui filtri avamiseks klõpsate, antakse teile mitu valikut.
 
-[![tööruumi-laiendatud-filter](./media/workspace-filter-expanded.png)](./media/workspace-filter-expanded.png)
+[![tööruumi-laiendatud-filter.](./media/workspace-filter-expanded.png)](./media/workspace-filter-expanded.png)
 
 Tehke valik tööruumi filtreerimiseks selle valiku põhjal.
 
@@ -60,6 +61,9 @@ Tehke valik tööruumi filtreerimiseks selle valiku põhjal.
 
 Kui tööruumis üksikutel osadel on filtrid, saate filtreerida igat osa eraldi. Järgmisel joonisel on filter (väli, millel on tekst Filter) vabas vormis tekstivälja filtri näidis.
 
-[![tööruumi-osa-filtrid](./media/workspace-section-filters.png)](./media/workspace-section-filters.png)
+[![tööruumi-osa-filtrid.](./media/workspace-section-filters.png)](./media/workspace-section-filters.png)
 
 Nagu tööruumiülese filtri puhul, saate valida või sisestada väljale väärtuse, et selle osa sisu filtreerida.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

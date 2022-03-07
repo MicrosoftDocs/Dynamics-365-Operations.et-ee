@@ -11,18 +11,17 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: f5b3c013996253de75cd85c4bcfc52ed159e8f9d
-ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
-ms.translationtype: MT
+ms.openlocfilehash: 07d3222680d9d9bff639f34eca5fea64d753ffd1
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7860504"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6336975"
 ---
 # <a name="get-started-with-global-inventory-accounting"></a>Global Inventory Accounting kasutamise alustamine
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
-<!--KFM: Preview until 4/30/2022 -->
 
 Global Inventory Accounting võimaldab teil teha mitut laoarvestust teie seadistatud Global Inventory Accounting pearaamatutes. Te seostate iga Global Inventory Accounting pearaamatu *reegliga*. Reegel on järgmist tüüpi raamatupidamispoliitikate kogumik.
 
@@ -43,7 +42,7 @@ Global Inventory Accounting laoarvestus ei toeta praegu kõiki Supply Chain Mana
 > [!IMPORTANT]
 > Global Inventory Accounting laoarvestuse kasutamiseks peab teil olema LCS-iga lubatud kõrge saadavuskeskkond (mitte OneBoxi keskkond). Lisaks peate käitama Supply Chain Management versiooni 10.0.19 või uuema.
 
-Global Inventory Accounting avalikku eelvaatesse registreerumiseks saatke oma LCS-i keskkonna ID meiliga [Global Inventory Accounting töörühmale](mailto:GlobalInvAccount@microsoft.com). Kui olete programmi heaks kiidetud, saadab meeskond teile järeltegevuse meili, mis sisaldab Global Inventory Accounting beetavõtit ja teie teenuse lõpp-punkte. Pärast beetavõtme saamist saate [installida lisandmooduli](#install).
+Global Inventory Accounting avalikku eelvaatesse registreerumiseks saatke oma LCS-i keskkonna ID meiliga [Global Inventory Accounting töörühmale](mailto:GlobalInventoryAccounting@service.microsoft.com). Kui olete programmi heaks kiidetud, saadab meeskond teile järeltegevuse meili, mis sisaldab Global Inventory Accounting beetavõtit ja teie teenuse lõpp-punkte. Pärast beetavõtme saamist saate [installida lisandmooduli](#install).
 
 ## <a name="licensing"></a>Litsentsimine
 
@@ -61,9 +60,9 @@ Enne lisandfunktsiooni lubamist tuleb teil need sammud Microsoft Power Platform 
 1. Märkige ruut **Power Platform platvormi keskkonna seadistus** dialoogiboksis ja valige seejärel **Seadistamine**. Tavaliselt võtab seadistus aega 60 kuni 90 minutit.
 1. Pärast Microsoft Power Platform keskkonna seadistuse lõpuleviimist kuvatakse lehel teie keskkonna nimi. Lisaks kuvatakse jaotises **Power Platform integratsioon** lause "Power Platform keskkonna seadistus on lõpule viidud." Global Inventory Accounting laoarvestus ei nõua topeltkirjutuse rakendust.
 
-Lisateavet vt teemast [Luba peale keskkonna juurutamist](../../fin-ops-core/dev-itpro/power-platform/enable-power-platform-integration.md#enable-after-deploy).
+Lisateavet vt teemast [Häälestamine peale keskkonna juurutamist](../../fin-ops-core/dev-itpro/power-platform/overview.md#set-up-after-environment-deployment).
 
-### <a name="set-up-dataverse"></a>Üksuse Dataverse häälestus
+### <a name="set-up-dataverse"></a>Dataverse'i häälestamine
 
 Enne Dataverse seadistamist järgmiste sammude abil lisage oma rentnikule Global Inventory Accounting laoarvestuse põhimõtted.
 

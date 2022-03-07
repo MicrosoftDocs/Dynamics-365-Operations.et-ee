@@ -2,9 +2,11 @@
 title: Exceli mallidega ER-i konfiguratsioonide taaskasutamine Wordi vormingus aruannete loomiseks
 description: See teema kirjeldab, kuidas konfigureerida aruande vorminguid, mis loodi aruannete loomiseks Exceli töövihikuna, looma aruandeid Wordi dokumendina.
 author: NickSelin
-ms.date: 04/23/2021
+manager: AnnBe
+ms.date: 01/11/2021
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, EROperationDesigner, LedgerJournalTable, LedgerJournalTransVendPaym
 audience: Application User
@@ -13,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: de8286c7612cd588b28cf4667340374906962dde
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
-ms.translationtype: MT
+ms.openlocfilehash: 769913fd0344eb276b3b1bd055255272ca5dfffd
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8324058"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092712"
 ---
 # <a name="reuse-er-configurations-with-excel-templates-to-generate-reports-in-word-format"></a>Exceli mallidega ER-i konfiguratsioonide taaskasutamine Wordi vormingus aruannete loomiseks
 
 [!include [banner](../../includes/banner.md)]
 
-Aruannete loomiseks dokumentidena Microsoft Word saate konfigureerida [uue](../er-design-configuration-word.md) elektroonilise aruandluse [(ER)](../general-electronic-reporting.md) vormingu. Teise võimalusena saate taaskasutada ER-vormingut, mis oli algselt mõeldud aruannete loomiseks Exceli töövihikutena. Sellisel juhul peate asendama Exceli malli Wordi malliga.
+Aruannete loomiseks Microsoft Wordi dokumentidena saate [konfigureerida](../er-design-configuration-word.md) uue [elektroonilise aruandluse (ER)](../general-electronic-reporting.md) [vormingu](../general-electronic-reporting.md#FormatComponentOutbound). Teise võimalusena saate taaskasutada ER-vormingut, mis oli algselt mõeldud aruannete loomiseks Exceli töövihikutena. Sellisel juhul peate asendama Exceli malli Wordi malliga.
 
 Järgmised protseduurid näitavad, kuidas kasutaja kas süsteemiadministraatori või elektroonilise aruandluse arendaja rollis saab konfigureerida ER-vormingut, et luua aruandeid Wordi failidena, kasutades uuesti ER-vormingut, mis loodi aruannete loomiseks Exceli failidena.
 
@@ -36,8 +38,8 @@ Nende protsesside lõpuleviimiseks peate esmalt järgima samme tegevuse juhises 
 
 Peate näidisaruande jaoks alla laadima ja kohalikult salvestama ka järgmised mallid:
 
-- [Maksearuande mall (SampleVendPaymDocReport.docx)](https://download.microsoft.com/download/0/d/e/0de5a87c-95fc-4dfa-958f-285cb28b5b2b/SampleVendPaymDocReport.docx)
-- [Maksearuande piiratud mall (SampleVendPaymDocReportBounded.docx)](https://download.microsoft.com/download/a/1/2/a126cb43-6281-4f7b-bde0-25e03ff9bc1e/SampleVendPaymDocReportBounded.docx)
+- [Maksearuande mall (SampleVendPaymDocReport.docx)](https://go.microsoft.com/fwlink/?linkid=862266)
+- [Maksearuande piiratud mall (SampleVendPaymDocReportBounded.docx)](https://go.microsoft.com/fwlink/?linkid=862266)
 
 Need protseduurid n funktsiooni jaoks, mis lisati rakenduse Dynamics 365 for Operations versioonis 1611 (november 2016).
 
@@ -54,14 +56,14 @@ Need protseduurid n funktsiooni jaoks, mis lisati rakenduse Dynamics 365 for Ope
 5. Valige **Kujundaja**.
 6. Lehel **Vormingukujundaja** pange tähele, et juurvormingu elemendi pealkiri näitab, et praegu kasutatakse Exceli vormingut.
 
-![Olemasoleva konfiguratsiooni valimine.](../media/er-design-configuration-word-2016-11-image01.gif)
+![Olemasoleva konfiguratsiooni valimine](../media/er-design-configuration-word-2016-11-image01.gif)
 
 ## <a name="review-the-downloaded-word-template"></a>Allalaaditud Wordi malli läbivaatamine
 
 1. Avage Wordi töölauarakenduses mailifail **SampleVendPaymDocReport.docx**, mille varem alla laadisite.
 2. Kinnitage, et mall sisaldab ainult sellise dokumendi paigutust, mille soovite luua elektroonilise aruandluse väljundina.
 
-![Wordi malli paigutus töölauarakenduses.](../media/er-design-configuration-word-2016-11-image02.png)
+![Wordi malli paigutus töölauarakenduses](../media/er-design-configuration-word-2016-11-image02.png)
 
 ## <a name="replace-the-excel-template-with-the-word-template-and-add-a-custom-xml-part"></a>Exceli malli Wordi malliga asendamine ja kohandatud XML-i osa lisamine
 
@@ -84,13 +86,13 @@ Praegu kasutatakse Exceli dokumenti mallina väljundi loomiseks OPENXML-vormingu
 
 9. Pange tähele, et juurvormingu elemendi pealkiri näitab, et praegu kasutatakse Wordi vormingut.
 
-    ![Exceli malli Wordi malliga asendamine ja kohandatud XML-i osa lisamine.](../media/er-design-configuration-word-2016-11-image03.gif)
+    ![Exceli malli Wordi malliga asendamine ja kohandatud XML-i osa lisamine](../media/er-design-configuration-word-2016-11-image03.gif)
 
 10. Vahekaardil **Vorming** valige **Manused**.
 
 Saate nüüd vastendada kohandatud XML-i osa **Aruanne** elemendid Word dokumendi sisu juhtelementidega.
 
-Kui olete tuttav protsessiga kujundada Wordi dokumendid vormidena, mis sisaldavad [sisu juhtelemente](/office/client-developer/word/content-controls-in-word), mis on vastendatud [kohandatud XML-i osade](/visualstudio/vsto/custom-xml-parts-overview) elementidega, täitke dokumendi loomiseks kõik järgmise protseduuri sammud. Lisateabe saamiseks vt [Ankeetide loomine, mida kasutajad täidavad või prindivad Wordis](https://support.office.com/article/Create-forms-that-users-complete-or-print-in-Word-040c5cc1-e309-445b-94ac-542f732c8c8b). Vastasel juhul jätke järgmine protseduur vahele.
+Kui olete tuttav protsessiga kujundada Wordi dokumendid vormidena, mis sisaldavad [sisu juhtelemente](https://docs.microsoft.com/office/client-developer/word/content-controls-in-word), mis on vastendatud [kohandatud XML-i osade](https://docs.microsoft.com/visualstudio/vsto/custom-xml-parts-overview?view=vs-2019) elementidega, täitke dokumendi loomiseks kõik järgmise protseduuri sammud. Lisateabe saamiseks vt [Ankeetide loomine, mida kasutajad täidavad või prindivad Wordis](https://support.office.com/article/Create-forms-that-users-complete-or-print-in-Word-040c5cc1-e309-445b-94ac-542f732c8c8b). Vastasel juhul jätke järgmine protseduur vahele.
 
 ## <a name="get-a-word-document-that-has-a-custom-xml-part-and-do-data-mapping"></a><a id='get-word-doc'></a>Wordi dokumendi hankimine, mis sisaldab kohandatud XML-i osa ja teeb andmevastendust
 
@@ -110,7 +112,7 @@ Kui olete tuttav protsessiga kujundada Wordi dokumendid vormidena, mis sisaldava
 1. Avage Wordi töölauarakenduses mailifail **SampleVendPaymDocReportBounded.docx**.
 2. Kinnitage, et mall sisaldab sellise dokumendi paigutust, mille soovite luua elektroonilise aruandluse väljundina. Andmete kohatäidetena kasutatavad sisu juhtelemendid, mille ER sisestab selles mallis käitusajal, põhinevad vastendustel, mis on konfigureeritud kohandatud XML-i osa **Aruanne** elementide ja Wordi dokumendi sisu juhtelementide vahel.
 
-![Wordi malli eelvaade töölauarakenduses.](../media/er-design-configuration-word-2016-11-image04.png)
+![Wordi malli eelvaade töölauarakenduses](../media/er-design-configuration-word-2016-11-image04.png)
 
 ## <a name="upload-the-word-template-where-the-custom-xml-part-is-mapped-to-content-controls"></a>Wordi malli üleslaadimine, kus kohandatud XML-i osa on vastendatud sisu juhtelementidega
 
@@ -144,7 +146,7 @@ Redigeeritava vormingu mustandi versiooni käivitamiseks peate muutma selle [kä
 3. Valige lehel **Hankija maksed** kõik ruudustiku read.
 4. Valige **Makse olek** \> **Puudub**.
 
-    ![Hankija maksete lehel töödeldavad maksed.](../media/er-design-configuration-word-2016-11-image05.png)
+    ![Hankija maksete lehel töödeldavad maksed](../media/er-design-configuration-word-2016-11-image05.png)
 
 5. Valige toimingupaanil **Loo maksed**.
 6. Ilmuvad dialoogiaknas tehke järgmist.
@@ -156,12 +158,9 @@ Redigeeritava vormingu mustandi versiooni käivitamiseks peate muutma selle [kä
 7. Valige dialoogiaknas **Elektroonilise aruandluse parameetrid** suvand **OK**.
 8. Loodud väljund esitatakse Wordi vormingus ja sisaldab töödeldud maksete üksikasju. Analüüsige loodud väljundit.
 
-    ![Loodud väljund Wordi vormingus.](../media/er-design-configuration-word-2016-11-image06.png)
+    ![Loodud väljund Wordi vormingus](../media/er-design-configuration-word-2016-11-image06.png)
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-- [Uue ER-i konfiguratsiooni koostamine Wordi vormingus aruannete loomiseks](../er-design-configuration-word.md)
+- [Uue ER-i konfiguratsiooni loomine Wordi vormingus aruannete loomiseks](../er-design-configuration-word.md)
 - [Manustatud pildid ja kujutised ER-iga loodud dokumentides](../electronic-reporting-embed-images-shapes.md#embed-an-image-in-a-word-document)
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

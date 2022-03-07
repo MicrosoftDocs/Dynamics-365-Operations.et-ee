@@ -2,28 +2,25 @@
 title: Finantsdimensioonid ja sisestamine
 description: Kontoplaani koostades ja häälestades peate arvestama sellega, kuidas erinevad komponendid dokumendi või tööraamatu sisestamisel koos toimivad. Need komponendid on konto struktuurid, täpsemad reeglid ning tasakaalustavad ja fikseeritud dimensioonid. Selles teemas selgitatakse, mis komponendid on ja kuidas need koos töötavad.
 author: aprilolson
-manager: AnnBe
 ms.date: 08/04/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerChartofAccounts,DimensionDetails
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14091
 ms.assetid: c64eed1d-df17-448e-8bb6-d94d63b14607
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: e65d371486d53d0fe4f039da68fbb4dcc35074d1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 7783c22659c5a2b070648c82a8b72e49e17b8e34
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442328"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823856"
 ---
 # <a name="financial-dimensions-and-posting"></a>Finantsdimensioonid ja sisestamine 
 
@@ -127,3 +124,6 @@ Mõnedes järgmistest teabematerjalidest viidatakse meie tarkvara varasemale vä
 [Dimensiooni vaikeväärtused arvestuse jaotustes](https://blogs.msdn.microsoft.com/ax_gfm_framework_team_blog/2013/12/16/dimension-defaulting-in-accounting-distributions-part-1-introduction/)
 
 [Dimensiooni vaikeväärtused dimensiooniraamistikus](https://docs.microsoft.com/archive/blogs/ax_gfm_framework_team_blog/dimension-defaulting-part-1-financial-dimensions-discovery)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

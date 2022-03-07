@@ -2,11 +2,9 @@
 title: ER-i funktsioon LIST
 description: See teema sisaldab teavet selle kohta, kuidas kasutatakse elektroonilise aruandluse (ER) funktsiooni LIST
 author: NickSelin
-manager: kfend
 ms.date: 12/12/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c7f8e701ec2836206d2299abba5e5b8542b4cf92
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 50cb8858301c030df07ad4af9fe2a9513f41fead
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683083"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5750408"
 ---
 # <a name="list-er-function"></a>ER-i funktsioon LIST
 
@@ -73,3 +71,6 @@ Sel juhul tagastab avaldis `LIST('Record 1', 'Record 2')` uue loendi, mis sisald
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Loendi funktsioonid](er-functions-category-list.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

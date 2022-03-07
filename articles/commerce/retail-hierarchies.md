@@ -2,16 +2,13 @@
 title: Commerce’i hierarhiad
 description: Selles artiklis kirjeldatakse rakenduse Dynamics 365 Commerce hierarhiaid.
 author: jblucher
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: OMHierarchyManager, EcoResCategoryHierarchyFactbox
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 15851
 ms.assetid: dfa11d41-2a0c-4cde-99b6-058c49176c94
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 8f7e4d01970f459f66934fe434ec7307104b39b2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ae0e2d068d40b61bd1bd258eac3a0e4b5f399e6a
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411767"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5791967"
 ---
 # <a name="commerce-hierarchies"></a>Commerce’i hierarhiad
 
@@ -45,3 +42,6 @@ Järgmises tabelis on loetletud saadaolevad kategooriahierarhia tüübid ja iga 
 | Navigeerimishierarhia   | Kasutage seda hierarhiatüüpi toodete grupeerimiseks ja korraldamiseks kategooriatesse, nii et tooteid saab sirvida võrgus või kassas. |
 
 Kategooriahierarhia abil tooteid struktureerides saate seadistada ja hallata toote atribuute ning omadusi kategooria tasemel. Need atribuudid ja omadused hõlmavad tootedimensioonide ja kassasätteid. Kategooriatesse määratud tooted pärivad automaatselt teie määratud atribuudid ja omadused. Samal ajal saate kopeerida ka mis tahes toote atribuudisätted valitud kategoorias mitmele tootele.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,11 +2,8 @@
 title: ER-i funktsioon DATEVALUE
 description: See teema sisaldab teavet selle kohta, kuidas kasutatakse elektroonilise aruandluse (ER) funktsiooni DATEVALUE.
 author: NickSelin
-manager: kfend
-ms.date: 12/04/2019
-ms.topic: article
+ms.date: 09/08/2021
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -17,18 +14,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 43e65055b0803ed330a19568f9565c3fae488ab2
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: 446f1357e54342073e73f86ef36e6467e029ebc4
+ms.sourcegitcommit: e7eeca05d738e9e46d6185d1ba349836ebafc1a4
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682409"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "7485570"
 ---
 # <a name="datevalue-er-function"></a>ER-i funktsioon DATEVALUE
 
 [!include [banner](../includes/banner.md)]
 
-Funktsioon `DATEVALUE` tagastab *kuupäeva* väärtuse, mis on antud teksti väärtusest konverteeritud väärtus määratud vormingus tekstina ja valikuliselt määratletud kuupäeva väärtuse [kultuuris](https://docs.microsoft.com/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes). Toetatud vormingute kohta lisateabe saamiseks vt jaotisi [standardne](https://msdn.microsoft.com/library/az4se3k1(v=vs.110).aspx) ja [kohandatud](https://msdn.microsoft.com/library/8kb3ddd4(v=vs.110).aspx).
+`DATEVALUE` Funktsioon tagastab *[Kuupäeva](er-formula-supported-data-types-primitive.md#date)* väärtuse, mis on antud teksti väärtusest konverteeritud väärtus määratud vormingus tekstina ja valikuliselt määratletud kuupäeva väärtuse [kultuuris](/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes). Toetatud vormingute kohta lisateabe saamiseks vt jaotisi [standardne](/dotnet/standard/base-types/standard-date-and-time-format-strings) ja [kohandatud](/dotnet/standard/base-types/custom-date-and-time-format-strings).
 
 ## <a name="syntax-1"></a>Süntaks 1
 
@@ -44,17 +41,17 @@ DATEVALUE (text, format, culture)
 
 ## <a name="arguments"></a>Argumendid
 
-`text`: *string*
+`text`: *[String](er-formula-supported-data-types-primitive.md#string)*
 
 Tekst, mis tähistab vormindatavat väärtust.
 
 `format`: *string*
 
-Antud teksti vorming.
+Antud teksti vorming. Toetatud vormingute kohta lisateabe saamiseks vt jaotisi [standardne](/dotnet/standard/base-types/standard-date-and-time-format-strings) ja [kohandatud](/dotnet/standard/base-types/custom-date-and-time-format-strings).
 
 `culture`: *string*
 
-Kultuur, mida kasutatakse antud teksti vormindamiseks.
+Kultuur, mida kasutatakse antud teksti vormindamiseks. Lisateabe saamiseks toetatud kultuuride kohta vaata [kultuur](/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes).
 
 ## <a name="return-values"></a>Tagastusväärtused
 
@@ -79,3 +76,6 @@ Stringiga `DATEVALUE ("21-Gen-2016", "dd-MMM-yyyy", "EN-US")` ilmneb aga erand, 
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Kuupäeva ja kellaaja funktsioonid](er-functions-category-datetime.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

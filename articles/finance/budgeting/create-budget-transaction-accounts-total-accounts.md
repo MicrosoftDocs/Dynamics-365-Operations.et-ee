@@ -1,29 +1,26 @@
 ---
 title: Eelarve loomine kandekontodelt ja summakontodelt
 description: Selles artiklis antakse ülevaade koondkontode alusel eelarvete loomise protsessist. Lisaks selgitatakse, kuidas koondkontode jaoks eelarve juhtimine sisse lülitada, kui eelarve juhtimine on nõutav.
-author: ShylaThompson
-manager: AnnBe
+author: panolte
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetControlConfiguration, BudgetPlanGenerate
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 13051
 ms.assetid: fb1bb2d3-445c-402f-a9a3-aa6503eed78e
 ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f60963bee790737c85161dff03278df0572e3abc
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 09c9fc38360dcf82ceb317edc7195d826f56d86f
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442487"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7594932"
 ---
 # <a name="create-a-budget-from-transaction-accounts-and-total-accounts"></a>Eelarve loomine kandekontodelt ja summakontodelt
 
@@ -46,3 +43,6 @@ Seega saate luua eraldi eelarved summakonto intervalli olulisimate kandekontode 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

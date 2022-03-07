@@ -1,37 +1,31 @@
 ---
 title: Hõlbustusfunktsioonid ja -võimalused
-description: Selles teemas kirjeldatakse rakenduse Microsoft Dynamics 365 Commerce hõlbustusfunktsioone ja -võimalusi.
+description: Selles teemas kirjeldatakse rakenduse Microsoft Microsoft Dynamics 365 Commerce hõlbustusfunktsioone ja -võimalusi.
 author: BrianShook
-manager: annbe
 ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6f6bca3589da4055eef000fc3b2c88b93eabb4d5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 77c5b2e40c3dd16b95afe421d4515c45af0e81358940c29a14c03754c39a076e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411595"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6716272"
 ---
 # <a name="accessibility-features-and-capabilities"></a>Hõlbustusfunktsioonid ja -võimalused
 
-
 [!include [banner](includes/banner.md)]
 
-Selles teemas kirjeldatakse rakenduse Microsoft Dynamics 365 Commerce hõlbustusfunktsioone ja -võimalusi.
-
-## <a name="overview"></a>Ülevaade
+Selles teemas kirjeldatakse rakenduse Microsoft Microsoft Dynamics 365 Commerce hõlbustusfunktsioone ja -võimalusi.
 
 Hõlbustusfunktsioonid ja -võimalused annavad kõigile kasutajatele funktsionaalsed vahendid juurdepääsuks ja toimingute tegemiseks, et nad saaksid täita oma eesmärke. See lai kasutajate hulk võib nõuda abistavaid tööriistu kuulmiseks, nägemiseks, liikuvuseks või neurodiversiteediks.
 
@@ -101,11 +95,11 @@ Video vara **vanuse alampiiri** atribuudi määramiseks järgige neid samme.
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-[Vormide, toodete ja juhtelementide hõlbustatus](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/user-interface/enable-accessibility)
+[Vormide, toodete ja juhtelementide hõlbustatus](/dynamics365/unified-operations/dev-itpro/user-interface/enable-accessibility)
 
 [Microsoft juurdepääsukeskus](https://www.microsoft.com/accessibility)
 
-[Dynamics 365 hõlbustusfunktsioonide keskus](https://docs.microsoft.com/dynamics365/get-started/accessibility/index)
+[Dynamics 365 hõlbustusfunktsioonide keskus](/dynamics365/get-started/accessibility/index)
 
 [Vastavuse ülevaade](compliance-overview.md)
 
@@ -114,3 +108,6 @@ Video vara **vanuse alampiiri** atribuudi määramiseks järgige neid samme.
 [Privaatsuspoliitika lehe lisamine](add-privacy-page.md)
 
 [Jälgitud sisumuudatustega seostatud kasutaja ID-de asendamine](replace-IDs-tracked-changes.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

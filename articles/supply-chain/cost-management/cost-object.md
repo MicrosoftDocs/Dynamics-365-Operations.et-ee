@@ -2,11 +2,9 @@
 title: Kuluobjektid
 description: Selles artiklis antakse teavet kuluobjektide kohta ja selgitatakse, kuidas kulusid ja koguseid akumuleeritakse. Kuluobjekt on üksus, mille jaoks kulusid ja koguseid akumuleeritakse. Kuluobjekt võib olla toode või tootevariant, näiteks laadi või värvi variandid.
 author: AndersGirke
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventCostOnhandItem
 audience: Application User
@@ -15,15 +13,15 @@ ms.custom: 19451
 ms.assetid: ec776b98-813a-490d-848f-468452d98fac
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 65a0f72f8d97bda36bacd691d545807c413f8825
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: d27e2dcfd8f70c8d4b0f2ae1254f3c4fce63bb4d
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4967654"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7572165"
 ---
 # <a name="cost-objects"></a>Kuluobjektid
 
@@ -66,18 +64,20 @@ Järgmine tabel näitab, milline on kuluobjekt ja milline on varuobjekt.
 
 **Märkus.** Parameetril **Kaasa füüsiline väärtus** pole eelnevatele arvutustele mingit mõju.
 
-<a name="additional-resources"></a>Lisaressursid
---------
+## <a name="additional-resources"></a>Lisaressursid
 
-[Tootedimensioonigrupp](https://technet.microsoft.com/library/aa499382.aspx)
+[Tootedimensioonigrupp](/dynamicsax-2012/appuser-itpro/about-product-dimensions)
 
-[Laoala dimensiooni grupp](https://technet.microsoft.com/library/hh209317.aspx)
+[Laoala dimensiooni grupp](/dynamicsax-2012//storage-dimension-groups-form)
 
-[Jälgimisdimensioonigrupp](https://technet.microsoft.com/library/hh209465.aspx)
+[Jälgimisdimensioonigrupp](/dynamicsax-2012//tracking-dimension-groups-form)
 
-[Mis on uus või muudetud](../../fin-and-ops/get-started/whats-new-changed.md)
+[Mis on uus või muudetud](../../fin-ops-core/fin-ops/get-started/whats-new-changed.md)
 
 [Kulukirjed](cost-entries.md)
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

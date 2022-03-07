@@ -2,27 +2,24 @@
 title: Registreerimise ID-d
 description: See teema annab teavet registreerimise ID-de seadistamise ja kasutamise kohta.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 11/08/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DirPartTaxRegistrationSearch, LogisticsPostalAddress, TaxRegistrationLegislationTypes, TaxRegistrationType
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 264824
 ms.search.region: Global
 ms.author: vlru
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7a0b978228e26ec70457a4bcb1c064070953909b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 01f9ef1bcf520ba5dd44c3a1e79cf0ea6c777eef
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442516"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5818320"
 ---
 # <a name="registration-ids"></a>Registreerimise ID-d
 
@@ -112,3 +109,6 @@ Lisateavet registreerimise ID-de töötlemise kohta, sealhulgas nõutavad eeltin
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

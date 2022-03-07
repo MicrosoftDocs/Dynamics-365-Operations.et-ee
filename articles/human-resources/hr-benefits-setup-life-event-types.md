@@ -2,11 +2,9 @@
 title: Elusündmuse tüüpide konfigureerimine
 description: Microsoft Dynamics 365 Human Resources kasutab elusündmuse tüüpe sündmuste määratlemiseks, kus kehtib töövõtja soodustuste registreerimise värskendamine.
 author: andreabichsel
-manager: AnnBe
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart, BenefitLifeEventTypes
 audience: Application User
@@ -18,16 +16,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5286bcd940f4068531bae624876c8a35e64db4c3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 44aecf003432bf803b5658f1eb89298d03f53423
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418140"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5805630"
 ---
 # <a name="configure-life-event-types"></a>Elusündmuse tüüpide konfigureerimine
 
-Microsoft Dynamics 365 Human Resources kasutab elusündmuse tüüpe sündmuste määratlemiseks, kus kehtib töövõtja soodustuste registreerimise värskendamine. Näiteks abiellumine või lapse saamine. Iga elusündmuse tüübi ID võib olla seotud ainult ühe elusündmuse tüübiga. Näiteks kui loote elusündmuse ID nimega aadressi muutus, mis on seotud elusündmuse tüübiga Töövõtja aadressi muutus, ei saa te luua teist ID-d sildiga Töövõtja aadressi muutus ega seostada seda elusündmuse tüübiga Töövõtja aadressi muutus. 
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+Dynamics 365 Human Resources kasutab elusündmuse tüüpe selliste sündmuste määratlemiseks, kus töövõtja soodustuste registreerimist saab värskendada. Näiteks abiellumine või lapse saamine. Iga elusündmuse tüübi ID võib olla seotud ainult ühe elusündmuse tüübiga. Näiteks kui loote elusündmuse ID nimega aadressi muutus, mis on seotud elusündmuse tüübiga Töövõtja aadressi muutus, ei saa te luua teist ID-d sildiga Töövõtja aadressi muutus ega seostada seda elusündmuse tüübiga Töövõtja aadressi muutus. 
 
 Pärast elusündmuse tüüpide loomist peate need seostama plaani tüüpidega. Lisateabe saamiseks vt [Plaani tüüpide loomine](hr-benefits-setup-plan-types.md).
 
@@ -88,3 +88,6 @@ Elusündmuse tüübi loomisel saate valida järgmiste elusündmuste seast.
 | **Sobivusreegli tühistamise aegumine (mitte USA-spetsiifiline)** | Täpsustatud inimressursid > Soodustused > Plaanid > Soodustused > Sobivusreegli tühistamine | Elusündmuse muutuse töötlemise kasutamine. Näiteks kui redigeerite plaani sobivusreegli tühistamise aegumiskuupäeva, et see oleks täna kl 17.00, mis tahes ajal pärast kl 17.00 või järgmistel päevadel ning seejärel käivitate elusündmuse muutmise töötluse, kuvatakse teade, et sobivusreegli tühistamine on aegunud. |
 | **Uus soodustuse plaan (mitte USA-spetsiifiline)** | Täiustatud inimressursid > Soodustused > Plaanid > Uus | <ul><li>Sobivuse suvandid lisatakse praegusele plaanile</li><li>Lisatakse uus plaan, millele on lisatud sobivuse suvandid</li></ul></br></br>Inimressursside töötajad peaksid käitama selles eksemplaris elusündmuse sobivuse töötlemise. |
 | **Sobivusreegli muudatus (mitte USA-spetsiifiline)** | Täpsustatud inimressursid > Soodustused > Reeglid/suvandid > Sobivusreeglid | Elusündmuse sobivuse töötlemise kasutamine. Logitakse, kui kirjetel **EhrBenefitEligibilityRule** muudetakse järgmisi väärtusi: **UseEmplCategory**, **UseEmplStatus** või **UseEmplType**. Värskendab ainult elusündmuste kandeid, mis on muudetud reegli või sobivuse kriteeriumide jaoks juba olemas. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

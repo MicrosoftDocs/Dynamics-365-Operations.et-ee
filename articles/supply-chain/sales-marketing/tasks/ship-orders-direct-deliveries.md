@@ -2,11 +2,9 @@
 title: Tellimuste lähetamine otsetarnetena
 description: Selles teemas näidatakse, kuidas luua müügitellimuse otsetarnet.
 author: omulvad
-manager: tfehr
 ms.date: 07/11/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, PurchCreateFromSalesOrder, VendAccountItemLookup, SalesTableReferences, PurchTable, PurchTablePart, PurchEditLines, PurchTable, PurchTableReferences, MCRDropShipWorkbench, SalesShippingLine
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0a8f214a56c6a5013cab8233d5b2e0126deb9220
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 5488ac6d29a99bcaa5ea29ea6da131858070011c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4966101"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5824794"
 ---
 # <a name="ship-orders-as-direct-deliveries"></a>Tellimuste lähetamine otsetarnetena
 
@@ -81,3 +79,6 @@ Selles teemas näidatakse, kuidas luua müügitellimuse otsetarnet. Otsetarnet k
     - Otsetarne leht toimib töölauana, mis annab ostuagendile ülevaate kõigist müügitellimuse ridadest, mis tuleb otse tarnida, ja võimaldab tal koostada vastavaid ostutellimusi. Lisaks saab ta vaadata avatud otsetarne tellimusi ja kinnitatud tellimusi vahekaartidel Kinnitus ja Tarne.  
     - Pärast otsetarne tellimuse koostamist teisaldatakse see automaatselt vahekaardile Kinnitus. Saate kinnitada tellimuse otse sellelt lehelt. Kui ost on kinnitatud, teisaldatakse see automaatselt vahekaardile Tarne, millelt saate registreerida selle sissetuleku.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

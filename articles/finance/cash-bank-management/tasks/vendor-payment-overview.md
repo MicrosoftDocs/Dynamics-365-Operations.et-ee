@@ -2,25 +2,23 @@
 title: Hankija maksete ülevaade
 description: See ülesande juhend annab ülevaate hankija maksete loomiseks kasutatavate eri meetodite, sh selle kohta, kuidas kasutada maksesoovitust või sisestada ühekordset makset käsitsi.
 author: kweekley
-manager: AnnBe
 ms.date: 06/25/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Operations
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 19cea683058f7fb757ac3a99541959ba06df1963
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 997d505cc89eaa39b2bac273a5ae381c1c892a9537cbaa9b45156ecbb6fd237c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442401"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6721823"
 ---
 # <a name="vendor-payment-overview"></a>Hankija maksete ülevaade
 
@@ -52,7 +50,7 @@ See ülesande juhend annab ülevaate hankija maksete loomiseks kasutatavate eri 
 22. Märkige kõik arved, mis makstakse. Kasutades maksearvete valimiseks suvandit **Kannete tasakaalustamine**, arvutatakse maksesumma automaatselt selle põhjal, millised arved makse puhul märgite ja millise summa sisestate väljale **Tasakaalustatav summa**.
 23. Klõpsake valikut **OK**.
 24. Kui soovite makse kustutada, märkige rida.
-25. Klõpsake  **Kustuta**. Makse kustutamine kustutab ainult makse. Mis tahes makse puhul märgitud arved on teise maksega tasumiseks endiselt saadaval.
+25. Klõpsake **Kustuta**. Makse kustutamine kustutab ainult makse. Mis tahes makse puhul märgitud arved on teise maksega tasumiseks endiselt saadaval.
 26. Klõpsake nuppu **Jah**.
 27. Valige tšekkide printimiseks või elektroonilise maksefaili loomiseks suvand **Loo makse**.
 28. Valige makseviis, mille soovite luua. Maksetööleht võib sisaldada makseid nii tšekkide kui ka elektrooniliste maksete puhul, kuid saate luua ainult ühe maksetüübi korraga.
@@ -63,3 +61,6 @@ See ülesande juhend annab ülevaate hankija maksete loomiseks kasutatavate eri 
 33. Maksete loomiseks klõpsake nuppu **OK**.
 34. Kui kõik maksed on kinnitatud ja loodud, klõpsake käsku **Sisesta**. 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

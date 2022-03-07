@@ -2,26 +2,23 @@
 title: Töölehe sisestuste või kannete kuvamine
 description: See näitab, kuidas kasutada pearaamatu kannete päringut töölehe kirjete või kannete otsimiseks.
 author: aprilolson
-manager: AnnBe
 ms.date: 07/01/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysQueryForm, LedgerTransVoucher, LedgerTransBase, Originaldocuments
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f463b7764288918609cba364acf342eed28ad929
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: dbeb5af9b14c409347f7f0ac2aeb045929619a3d
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442247"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5817025"
 ---
 # <a name="view-journal-entries-or-transactions"></a>Töölehe sisestuste või kannete kuvamine
 
@@ -43,3 +40,6 @@ See näitab, kuidas kasutada pearaamatu kannete päringut töölehe kirjete või
 12. Klõpsake toimingupaanil valikut **Algdokument**.
 13. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

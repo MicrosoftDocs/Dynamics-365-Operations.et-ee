@@ -2,26 +2,23 @@
 title: Hankija kannete loendi leht
 description: Selles teemas antakse teavet rakenduse Microsoft Dynamics 365 Finance hankija kannete loendilehe kohta.
 author: mikefalkner
-manager: aolson
 ms.date: 08/24/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendTrans
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 4f4535d08ff1bb6f83172efb4ceada5a7d02ebd4
-ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
+ms.openlocfilehash: 444edde75298c45db141abae3117bfcaeb2865ea
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4442593"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835456"
 ---
 # <a name="vendor-transactions-list-page"></a>Hankija kannete loendi leht
 
@@ -97,3 +94,6 @@ Igal väljal on kandele selle redigeerimisel erinev mõju.
 - **Skonto tingimuste redigeerimine** – skontosid muudetakse aluskuupäeva ja skonto tingimuste alusel.
 
 Kui olete maksesätete redigeerimise lõpetanud, valige muudatuste salvestamiseks käsk **Sule**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

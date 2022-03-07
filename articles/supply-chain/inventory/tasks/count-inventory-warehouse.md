@@ -1,25 +1,27 @@
 ---
 title: Varude loendamine laos
 description: Selles teemas kirjeldatakse protsessi, kuidas luua ja sisestada varude inventuuritöölehte, et loendada konkreetset kaupa asukohas laos.
-author: yufeihuang
+author: MarkusFogelberg
+manager: tfehr
 ms.date: 07/09/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventJournalCount, InventJournalCreate, HcmWorkerLookUp, InventItemIdLookupSimple, InventLocationIdLookup, WMSLocationIdLookup, InventTrans
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: yufeihuang
+ms.author: mafoge
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4b7dd3788d3cbf80bfba373f5b6ce9d2e0ca0c07
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 0a7f85cb91f36004a6bd6da714e7baa460a83a66
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578411"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5000087"
 ---
 # <a name="count-inventory-in-a-warehouse"></a>Varude loendamine laos
 
@@ -53,6 +55,3 @@ Selles teemas kirjeldatakse protsessi, kuidas luua ja sisestada varude inventuur
 1. Valige **Laoseis**.
 2. Valige **Kanded**. Siin saate vaadata kõiki seotud kandeid, mis teie laoinventuuri töölehe sisestamisel luuakse.   
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,36 +1,31 @@
 ---
 title: Ostukorvi moodul
-description: See teema hõlmab ostukorvi mooduleid ja kirjeldab, kuidas neid rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
+description: See teema hõlmab ostukasti mooduleid ja kirjeldab, kuidas neid rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
 author: anupamar-ms
-manager: annbe
-ms.date: 10/20/2020
+ms.date: 12/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 33db06ecfa2a8fa93cde3c4f1b31d6b30bfd0c34
-ms.sourcegitcommit: 12d271bb26c7490e7525d9b4bbf125cdc39fef43
-ms.translationtype: HT
+ms.openlocfilehash: f2db61cf23c217365274297c6e9878a4eb5679f8d9502cb70484372ae43f6b18
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/07/2020
-ms.locfileid: "4411831"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6716880"
 ---
-# <a name="cart-module"></a>Ostukorvi moodul
+# <a name="cart-module"></a>Ostukorvimoodul
 
 [!include [banner](includes/banner.md)]
 
-See teema hõlmab ostukorvi mooduleid ja kirjeldab, kuidas neid rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
-
-## <a name="overview"></a>Ülevaade
+See teema hõlmab ostukasti mooduleid ja kirjeldab, kuidas neid rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
 
 Ostukorvi moodul näitab ostukorvi lisatud kaupasid enne, kui klient on kassasse läinud. Moodul näitab ka ostu kokkuvõtet ja võimaldab kliendil rakendada või eemaldada kampaaniakoode.
 
@@ -40,11 +35,11 @@ Ostukorvi moodul renderdab andmed ostukorvi ID põhjal, mis on üle kogu saidi s
 
 Järgmisel pildil on näide Fabrikami saidi ostukorvi lehest.
 
-![Ostukorvimooduli näide Fabrikami saidil](./media/cart2.PNG)
+![Ostukorvimooduli näide Fabrikami saidil.](./media/cart2.PNG)
 
 Järgmisel pildil on näide Fabrikami saidi ostukorvi lehest. Selles näites on reakaubal töötluskulu.
 
-![Ostukorvimooduli näide koos reakauba töötluskuluga](./media/ecommerce-handling-fee.png)
+![Ostukorvimooduli näide koos reakauba töötluskuluga.](./media/ecommerce-handling-fee.png)
 
 ## <a name="cart-module-properties-and-slots"></a>Ostukorvi mooduli atribuudid ja pesad
 
@@ -53,6 +48,7 @@ Järgmisel pildil on näide Fabrikami saidi ostukorvi lehest. Selles näites on 
 | Pealkiri | Pealkirja tekst ja pealkirja silt (**H1**, **H2**, **H3**, **H4**, **H5** või **H6**) | Ostukorvi pealkiri, näiteks „Ostukorv” või „Ostukorvis olevad kaubad”. |
 | Kuva laost otsas varude tõrked | **Tõene** või **Väär** | Kui selle atribuudi väärtuseks on seatud **Tõene**, kuvatakse ostukorvilehel varudega seotud tõrkeid. Soovitame seada selle atribuudi väärtuseks **Tõene**, kui saidil kontrollitakse varusid. |
 | Kuva reakaupade saatekulud | **Tõene** või **Väär** | Kui selle atribuudi väärtuseks on seatud **Tõene**, kuvatakse ostukorvi reakaupade juures saatekulud, kui see teave on saadaval. See funktsioon pole Fabrikami kujunduses toetatud, kuna kasutajad valivad tarneviisi alles maksmise voos. Kuid seda funktsiooni saab sisse lülitada ka teistes töövoogudes, kui see on rakendatav. |
+| Kuva saadaolevad kampaaniad| **Tõene** või **Väär** | Kui selle atribuudi väärtuseks on määratud **Tõene**, kuvatakse ostukorvis selles olevate kaupade alusel saadaolevad kampaaniad. See funktsioon on saadaval Dynamics 365 Commerce'i versioonis 10.0.16. |
 
 ## <a name="modules-that-can-be-used-in-a-cart-module"></a>Moodulid, mida saab ostukorvi moodulis kasutada
 
@@ -106,7 +102,7 @@ Uuele lehele ostukorvi mooduli lisamiseks ja vajalike atribuutide seadistamiseks
 
 [Tarneaadressi moodul](ship-address-module.md)
 
-[Tarnesuvandite moodul](delivery-options-module.md)
+[Tarnevalikute moodul](delivery-options-module.md)
 
 [Järeletulemisteabe moodul](pickup-info-module.md)
 
@@ -117,3 +113,6 @@ Uuele lehele ostukorvi mooduli lisamiseks ja vajalike atribuutide seadistamiseks
 [Varude saadavuse arvutamine jaemüügikanalite jaoks](calculated-inventory-retail-channels.md)
 
 [Funktsiooniprofiili loomine võrgus](online-functionality-profile.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

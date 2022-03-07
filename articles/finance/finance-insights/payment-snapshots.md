@@ -1,31 +1,30 @@
 ---
-title: Hetktõmmiste ülevaade (eelversioon)
+title: Hetktõmmiste ülevaade
 description: Selles teemas kirjeldatakse hetktõmmiste funktsiooni, mis võimaldab teil salvestada likviidsuse prognoosi hilisemaks analüüsimiseks või tegelikkusega võrdlemiseks. Likviidsuse prognoosi loomisel saate selle prognoosi salvestada hetktõmmisena. Seejärel saate kasutada hetktõmmiseid, et redigeerida prognoosi kaasatud kontosid või võrrelda hetktõmmise prognoosi tegelike näitajatega.
 author: ShivamPandey-msft
-manager: AnnBe
-ms.date: 05/19/2020
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
-ms.custom: 14151
+ms.custom:
+- "14151"
+- intro-internal
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-19
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: f0d0bdde8b69148c72b8c645e040f0e596ecba92
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: a91300ac17b36d890840e6c0c3104fad5fce68f0
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4645621"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752753"
 ---
-# <a name="snapshots-overview-preview"></a>Hetktõmmiste ülevaade (eelversioon)
+# <a name="snapshots-overview"></a>Hetktõmmiste ülevaade
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
@@ -42,9 +41,6 @@ Saate luua hetktõmmise, kui valite käsu **Uus hetktõmmis** kas vahekaardil **
 
 Hetktõmmiste sularaha sissetulekuid ja väljaminekuid saab igal ajal redigeerida. Kui sissetuleku või väljamineku summat muuta, siis jagatakse uuendatud summat algse saldo moodustanud likviidsuse kontodel proportsionaalselt. Kui olete hetktõmmise redigeerimise lõpetanud, valige muudatuste salvestamiseks käsk **Salvesta**.
 
-Mitme hetktõmmise võrdlemiseks valige käsk **Võrdle hetktõmmiseid**. Korraga saate võrrelda kaht hetktõmmist. Valige kaks hetktõmmist, mida võrrelda ja seejärel valige **OK**. Leht **Hetktõmmiste võrdlemine** kuvab valitud hetktõmmiste võrdluse. Lehe ülaosas olev diagramm näitab sularaha sissetulekute, sularaha väljaminekute ja panga saldode võrdlust kattuvatel perioodidel kahe hetktõmmise vahel. Allosas olev ruudustik näitab iga likviidsuse summa kahe prognoosi üksikasjalikku võrdlust. Ruudustiku veerg **Hälve** kuvab erinevust perioodi saldode vahel.
+Tegelike finantstulemuste võrdlemiseks hetktõmmisena salvestatud prognoosiga valige **Võrdle tegelikega**. Lehekülg **Võrdle tegelikega** näitab võrdlust tegelike summade ja prognoosiga. Lehe ülaosas olev diagramm näitab sularaha sissetulekute, sularaha väljaminekute ja panga saldode võrdlust kattuvatel perioodidel kahe hetktõmmise vahel. Allosas olev ruudustik näitab iga likviidsuse summa perioodi tegelike saldode ja prognoositud saldode üksikasjalikku võrdlust. Ruudustiku veerg **Hälve** kuvab erinevust perioodi tegeliku saldo ja prognoositud saldo vahel.
 
-Tegelike finantstulemuste võrdlemiseks hetktõmmisena salvestatud prognoosiga valige **Võrdle tegelikega**. Lehel **Hetktõmmise võrdlemine** kuvatakse võrdlust tegelike summade ja prognoosi vahel. Lehe ülaosas olev diagramm näitab sularaha sissetulekute, sularaha väljaminekute ja panga saldode võrdlust kattuvatel perioodidel kahe hetktõmmise vahel. Allosas olev ruudustik näitab iga likviidsuse summa perioodi tegelike saldode ja prognoositud saldode üksikasjalikku võrdlust. Ruudustiku veerg **Hälve** kuvab erinevust perioodi tegeliku saldo ja prognoositud saldo vahel.
-
-#### <a name="privacy-notice"></a>Privaatsusavaldus
-Eelvaated 1) võivad kasutada vähem privaatsus- ja turbemeetmeid kui rakenduse Dynamics 365 Finance and Operations teenus; 2) ei ole hõlmatud selle teenuse teenusetaseme leppes; 3) ei tohi olla kasutusel isiklike andmete ega muude andmete töötlemiseks, mis on seaduste või määrustega kaitstud; 4) on piiratud toega.
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

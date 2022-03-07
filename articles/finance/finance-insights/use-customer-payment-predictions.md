@@ -2,11 +2,9 @@
 title: Kliendimaksete prognooside kasutamine (eelvaade)
 description: See teema selgitab eeltingimusi ja üldisi samme, mis on vajalikud Finance'i ülevaadete prooviversiooni kasutamiseks.
 author: ShivamPandey-msft
-manager: AnnBe
-ms.date: 11/16/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-11-16
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: e0445046d8016dfa2c02c1ff1a05bdd148f9409a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 1349521d65511864747de6c2fed3a904dea8917e
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969249"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186560"
 ---
 # <a name="use-customer-payment-predictions-preview"></a>Kliendimaksete prognooside kasutamine (eelvaade)
 
@@ -104,8 +102,6 @@ Kui te pole täpsusega rahul, valige link **Mudeli täpsuse parandamine**, et av
 
 Finantsülevaadete avalik eelversioon on kasutuselevõtu proovimiseks saadaval Ameerika Ühendriikides, Euroopas ja Ühendkuningriigis. Microsoft lisab astmeliselt juurde täiendavate piirkondade tuge.
 
-Avaliku eelvaate funktsioone saab ja tuleb sisse lülitada ainult Järgu 2 liivakasti keskkondades. Liivakasti keskkonnas loodud seadistust ja AI mudeleid ei saa migreerida töökeskkonda. Lisateavet leiate teemast [Microsoft Dynamics 365 eelversioonide täiendavad kasutustingimused](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-terms).
+Avaliku eelvaate funktsioone saab ja tuleb sisse lülitada ainult Järgu 2 liivakasti keskkondades. Liivakasti keskkonnas loodud seadistust ja AI mudeleid ei saa migreerida töökeskkonda. Lisateavet leiate teemast [Microsoft Dynamics 365 eelversioonide täiendavad kasutustingimused](../../fin-ops-core/fin-ops/get-started/public-preview-terms.md).
 
-## <a name="privacy-notice"></a>Privaatsusavaldus
-
-Eelvaated 1) võivad kasutada vähem privaatsus- ja turbemeetmeid kui rakenduse Dynamics 365 Finance and Operations teenus; 2) ei ole hõlmatud selle teenuse teenusetaseme leppes; 3) ei tohi olla kasutusel isiklike andmete ega muude andmete töötlemiseks, mis on seaduste või määrustega kaitstud; 4) on piiratud toega.
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
