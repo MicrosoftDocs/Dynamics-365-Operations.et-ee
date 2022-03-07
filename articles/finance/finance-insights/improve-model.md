@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 23c9062dcc13951792306c955b54cae6f656fec5
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 2bcdea4a2a8f4386b274077cd1e95398fb6fac37
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4646075"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5009364"
 ---
 # <a name="improve-the-prediction-model-preview"></a>Prognoosi mudeli parandamine (eelversioon)
 
@@ -42,19 +41,19 @@ Kui teie organisatsioon nõuab ainult kaht tulemust, muutke variantide **hilja**
 
 ## <a name="select-fields"></a>Vali väljad
 
-Mudelisse kaasamiseks väljade valimisel olge teadlik, et loend sisaldab kõiki saadaolevaid välju üksuses Common Data Service, mis vastendatakse Azure’i andmejärve andmetega. Osasid nendest väljadest **ei** pea valima. Väljad, mida ei peaks valima, jäävad ühte kolmest kategooriast.
+Mudelisse kaasamiseks väljade valimisel olge teadlik, et loend sisaldab kõiki saadaolevaid välju tabelis Microsoft Dataverse, mis vastendatakse Azure’i andmejärve andmetega. Osasid nendest väljadest **ei** pea valima. Väljad, mida ei peaks valima, jäävad ühte kolmest kategooriast.
 
-- Väli on üksuse Common Data Service jaoks nõutav, kuid andmejärves pole selle jaoks toetavaid andmeid.
+- Väli on tabeli Dataverse jaoks nõutav, kuid andmejärves pole selle jaoks toetavaid andmeid.
 - Väli on ID ja pole masinõppe funktsiooni jaoks vajalik.
 - Väli sisaldab teavet, mis ei ole prognoosimise ajal saadaval.
 
 Järgmistes jaotistes on näidatud väljad, mis on arve ja kliendi üksuste jaoks saadaval, ja loetleb väljad, mida **ei** peaks koolituse ajal valima. Iga sellise välja jaoks määratud kategooria viitab eelmise loendi kategooriatele.
  
-### <a name="invoice-common-data-model-entity"></a>Arve ühise andmemudeli üksus
+### <a name="invoice-dataverse-table"></a>Arve Dataverse'i tabel
 
-Järgmisel joonisel on näidatud arve üksuse jaoks saadaolevad väljad.
+Järgmisel joonisel on näidatud arve tabeli jaoks saadaolevad väljad.
 
-[![Arve üksuse jaoks saadaolevad väljad](./media/available-fields.png)](./media/available-fields.png)
+[![Arve tabeli jaoks saadaolevad väljad](./media/available-fields.png)](./media/available-fields.png)
 
 Järgmisi välju ei peaks koolituse jaoks valima.
 
@@ -65,11 +64,11 @@ Järgmisi välju ei peaks koolituse jaoks valima.
 - **Allika kirje** (kategooria 2)
 - **Allika tabel** (kategooria 2)
 
-### <a name="customer-common-data-model-entity"></a>Kliendi ühise andmemudeli üksus
+### <a name="customer-dataverse-table"></a>Kliendi Dataverse'i tabel
 
-Järgmisel joonisel on näidatud kliendi üksuse jaoks saadaolevad väljad.
+Järgmisel joonisel on näidatud kliendi tabeli jaoks saadaolevad väljad.
 
-[![Kliendi üksuse jaoks saadaolevad väljad](./media/related-entities.png)](./media/related-entities.png)
+[![Kliendi tabeli jaoks saadaolevad väljad](./media/related-entities.png)](./media/related-entities.png)
 
 Järgmist välja ei peaks koolituse jaoks valima.
 

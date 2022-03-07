@@ -10,19 +10,18 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 8ca23dcf568cb0df6934f0d6201e4aafba5f9ba1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6afd19a01520813e54871f4849aeb18f4424173c
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411754"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5223043"
 ---
 # <a name="modify-an-existing-site-page"></a>Olemasoleva saidilehe muutmine
 
@@ -87,3 +86,8 @@ Järgmine näide selgitab, kuidas muuta avalehte, muutes videopleieri moodulis i
 [Kategooria sihtlehe rikastamine](enrich-category-page.md)
 
 [Lehe sisu hõlbustusfunktsioonide kinnitamine](verify-accessibility.md)
+
+[Dünaamiliste e-kaubanduse lehtede loomine URL-parameetrite põhjal](create-dynamic-pages.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

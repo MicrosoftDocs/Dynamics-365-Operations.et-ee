@@ -2,15 +2,12 @@
 title: Värskendamisprotsess
 description: Microsoft Dynamics 365 Human Resources on tõeline tarkvara teenusena (Saas), mis pakub pidevaid, puutumatuid teenuse uuendusi rakenduse ja platvormi muudatustele.
 author: andreabichsel
-manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -18,16 +15,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d841a026f589d774ec5ada3ac9adcc84dde9aee1
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
-ms.translationtype: HT
+ms.openlocfilehash: 2af1f710ca010041bd684bca8ecfa6f20ac30d46
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527799"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063106"
 ---
 # <a name="update-process"></a>Värskendamisprotsess
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+
 
 Microsoft Dynamics 365 Human Resources on tõeline tarkvara teenusena (Saas), mis pakub pidevaid, puutumatuid teenuse uuendusi. Need värskendused sisaldavad nii rakenduse kui ka platvormi muudatusi, mis pakuvad sageli teenuse kriitilist täiustust, sh regulatiivsed uuendused.
 
@@ -39,11 +38,11 @@ Värskendusi antakse välja regulaarselt kõikides keskkondades. Rakenduse Human
 
 Rakenduse Human Resources värskendusi rakendatakse kõigile keskkondadele automaatselt. Human Resources pakub kahte tüüpi väljaandeid.
 
-- **Teenusevärskendused**: iga kahe nädala tagant toimuvad uuendused, mis sisaldavad veaparandusi ja uusi funktsioone. Teenusevärskendused sisaldavad ka kehtivaid platvormi värskendusi, kui need väljastatakse. Et saada aimu, millal platvormi värskendusi väljastatakse, vt [tabelit 3: Platvormi väljaanded](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy#table-3-platform-releases). Kahenädalasi värskendusi levitatakse globaalselt kõigis piirkondades etapiliselt. Lisateavet kahenädalaste uuenduste kohta vt teemat [Mis on uut või mida on muudetud rakenduses Dynamics 365 Human Resources](hr-admin-whats-new.md).
+- **Teenusevärskendused**: iga kahe nädala tagant toimuvad uuendused, mis sisaldavad veaparandusi ja uusi funktsioone. Teenusevärskendused sisaldavad ka kehtivaid platvormi värskendusi, kui need väljastatakse. Et saada aimu, millal platvormi värskendusi väljastatakse, vt [tabelit 3: Platvormi väljaanded](../fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy.md#table-3-platform-releases). Kahenädalasi värskendusi levitatakse globaalselt kõigis piirkondades etapiliselt. Lisateavet kahenädalaste uuenduste kohta vt teemat [Mis on uut või mida on muudetud rakenduses Dynamics 365 Human Resources](hr-admin-whats-new.md).
 
     Kõik toetatud andmekeskused uuendatakse iga kahe nädala tagant, kui pole teisiti märgitud. USA, Austraalia, Euroopa, Suurbritannia, Aasia ja Kanada piirkonnad sisalduvad kahenädalastes uuendustes. 
 
-- **Lahenduse Common Data Service värskendused**: need värskendused toimuvad vastavalt vajadusele ligikaudu iga kuue nädala järel. Need hõlmavad uusi üksusi ja muudatusi olemasolevatele üksustele rakenduses Common Data Service. Need uuendused vabastatakse samadele piirkondadele kui kahenädalased uuendused ja neil kulub umbes kuus nädalat, et edastada läbi kõikide andmekeskuste. Lahenduse värskendused võivad, kuid ei pruugi olla vastavuses kahenädalaste teenuse uuendustega.
+- **Lahenduse Dataverse värskendused**: need värskendused toimuvad vastavalt vajadusele ligikaudu iga kuue nädala järel. Need hõlmavad uusi üksusi ja muudatusi olemasolevatele üksustele rakenduses Dataverse. Need uuendused vabastatakse samadele piirkondadele kui kahenädalased uuendused ja neil kulub umbes kuus nädalat, et edastada läbi kõikide andmekeskuste. Lahenduse värskendused võivad, kuid ei pruugi olla vastavuses kahenädalaste teenuse uuendustega.
 
 > [!NOTE]
 > Kui need on väljastatud, on lahenduse värskendused saadaval kõigis andmekeskustes. Kui te ei soovi, et värskendused edastatakse automaatselt, saate neid värskendusi iga andmekeskuse igas keskkonnas käsitsi rakendada.
@@ -56,14 +55,14 @@ Vajadusel pakub rakendus Human Resources ka järgmist tüüpi parandusi.
 
 Väljaanded vaadatakse üle, testitakse ja kontrollitakse sisemises keskkonnas. Pärast järkude kinnitamist edastatakse need tootmisse.
 
-## <a name="release-cadence-exceptions-in-2020"></a>Erandid väljaandmise sageduses 2020. aastal
+## <a name="release-cadence-exceptions-in-2021"></a>Erandid väljaandmise sageduses 2021. aastal
 
-Puhkuse arvestamiseks on 2020. aasta novembri ja detsembri väljastusgraafik järgmine.
+Puhkuse arvestamiseks on 2021. aasta novembri ja detsembri väljastusgraafik järgmine.
 
-- Novembri väljastus: 2. november – 13. november
-- Detsembri väljastus: 30. november – 11. detsember
+- Novembri väljastus: 1. november – 14. november
+- Detsembri väljastus: 29. november – 12. detsember
  
-Kahenädalane väljaandmise sagedus jätkub tavapäraselt 11. jaanuaril 2021.
+Kahenädalane väljaandmise sagedus jätkub tavapäraselt 10. jaanuaril 2022.
 
 ## <a name="communications"></a>Suhtlus
 
@@ -71,11 +70,11 @@ Saate teada, mis on rakenduses Human Resources töös ja mida oleme väljastanud
 
 - [Dynamics 365 Human Resourcesi teejuht](https://dynamics.microsoft.com/roadmap/human-resources/)
 
-- [Dynamics 365 väljalaskeplaanid](https://docs.microsoft.com/dynamics365/release-plans/)
+- [Dynamics 365 väljalaskeplaanid](/dynamics365/release-plans/)
 
 - [Mis on uut või mida on muudetud rakenduses Dynamics 365 Human Resources?](hr-admin-whats-new.md)
 
-- [Teenuse Lifecycle Services (LCS) teema otsing](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/issue-search-lcs) (ainult platvormiga seotud vigade jaoks)
+- [Teenuse Lifecycle Services (LCS) teema otsing](../fin-ops-core/dev-itpro/lifecycle-services/issue-search-lcs.md) (ainult platvormiga seotud vigade jaoks)
 
 - [Rakenduse Human Resources blogi](https://community.dynamics.com/365/talent/b/dynamics365fortalent)
 
@@ -83,7 +82,7 @@ Saate teada, mis on rakenduses Human Resources töös ja mida oleme väljastanud
 
 ## <a name="preview-features-in-a-sandbox-environment"></a>Liivakastikeskkonna eelvaatefunktsioonid
 
-Enne nende tootmiskeskkonnas lubamist saate eelvaatefunktsioonid liivakastikeskkonnas kinnitada. Lisateavet funktsioonide lubamise kohta vt [Funktsioonihalduse ülevaade](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
+Enne nende tootmiskeskkonnas lubamist saate eelvaatefunktsioonid liivakastikeskkonnas kinnitada. Lisateavet funktsioonide lubamise kohta vt [Funktsioonihalduse ülevaade](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 Kõik uued funktsioonid jäävad vähemalt 30 päevaks eelvaatesse ja tavaliselt 30–60 päevaks. Peamised funktsioonid on tavaliselt saadaval eelvaate perioodile järgneva iga aasta oktoobris ja aprillis. Kohe kui näete tööruumis Funktsioonihaldus uusi võimalusi, saate need sisse lülitada. Mõned funktsioonid võivad olla vaikimisi sisse lülitatud.
 
@@ -101,7 +100,10 @@ Eelvaatefunktsioonide testimisel või uute võimaluste proovimisel võite leida 
 
 ## <a name="see-also"></a>Vt ka
 
-[Dynamics 365 ja Power Platformi väljalaskeplaanid](https://docs.microsoft.com/dynamics365/release-plans)</br>
+[Dynamics 365 ja Power Platformi väljalaskeplaanid](/dynamics365/release-plans)</br>
 [Mis on uut või mida on muudetud rakenduses Dynamics 365 Human Resources?](hr-admin-whats-new.md)</br>
-[Tarkvara elutsükli poliitika](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy)
+[Tarkvara elutsükli poliitika](../fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

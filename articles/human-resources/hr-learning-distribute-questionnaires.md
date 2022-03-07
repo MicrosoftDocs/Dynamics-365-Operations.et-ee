@@ -1,37 +1,39 @@
 ---
-title: Küsimustike jaotamine ja kavandamine
-description: See artikkel selgitab, kuidas saata laiali enda kavandatud küsimustikke, nii et need oleksid kättesaadavad inimesele või inimeste grupile, kes neid täidavad.
-author: andreabichsel
-manager: AnnBe
-ms.date: 04/04/2017
+title: Küsimustike jaotamine ja ajastamine
+description: See teema selgitab, kuidas saata laiali enda kavandatud küsimustikke, nii et need oleksid kättesaadavad inimesele või inimeste grupile, kes neid täidavad.
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: KMConnectionType, KMKnowledgeCollectorPlanningTabel, SysEmailParameters, HcmLearningWorkspace
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 17424
 ms.assetid: fd8d867a-2446-400a-b91f-ad4085427470
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0329b80615eed6efcc22bb0b140970988f5c306a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: dbb069110b46c38a994a7be6276137360b14397a
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418215"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069525"
 ---
-# <a name="distribute-and-schedule-questionnaires"></a>Küsimustike jaotamine ja kavandamine
+# <a name="distribute-and-schedule-questionnaires"></a>Küsimustike jaotamine ja ajastamine
 
-See artikkel selgitab, kuidas saata laiali enda kavandatud küsimustikke, nii et need oleksid kättesaadavad inimesele või inimeste grupile, kes neid täidavad. 
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+See teema selgitab, kuidas saata laiali enda kavandatud küsimustikke, nii et need oleksid kättesaadavad inimesele või inimeste grupile, kes neid täidavad. 
 
 Küsimustiku laialisaatmiseks on mitu võimalust.
 
--   Saate märkida küsimustiku aktiivseks. Küsimustik on siis saadaval kõigile töötajatele, kui küsimusegrupile pole määratud piiratud juurdepääsu.
+-   Märkige küsimustik **aktiivseks**. Küsimustik on siis saadaval kõigile töötajatele, kui küsimusegrupile pole määratud piiratud juurdepääsu.
 -   Saate määrata õigused küsimustike grupile. Küsimustik on siis saadaval valitud grupi liikmetele.
 -   Saate luua plaanitud vastamissessioone. Küsimustik on siis saadaval ainult kindlale isikule.
 -   Saate luua graafiku. Küsimustik võib siis olla saadaval mitmele inimesele.
@@ -109,10 +111,10 @@ Kui kasutate plaanitud vastamisseanssi, peate teavitama inimest otse (nt telefon
 
 ### <a name="notifying-respondents-about-a-scheduling"></a>Vastajate teavitamine plaanimisest
 
-Lehel **Küsimustikugraafikud** saate ette valmistada ja saata meilid kõigile vastajatele, kellele küsimustik on määratud. Sisestage meili tekst vahekaardile **Meil töötaja iseteeninduse jaoks**. Pärast graafiku käivitamist klõpsake valikuid **Funktsioonid** &gt; **Saada meilisõnum** meilisõnumi koostamiseks ja vastajatele saatmiseks. Vastajad saavad siis veebisaidile sisse logida ja küsimustiku täita. 
+Lehel **Küsimustikugraafikud** saate ette valmistada ja saata meilid kõigile vastajatele, kellele küsimustik on määratud. Sisestage meilisõnumi tekst vahekaardile **Töötaja iseteeninduse** meilisõnum. Pärast ajakava käivitamist klõpsake vastajatele meilisõnumi loomiseks ja saatmiseks nuppu **Tegevused** &gt; **Saada meilisõnum.** Vastajad saavad siis veebisaidile sisse logida ja küsimustiku täita. 
 
 > [!NOTE]
-> Enne meilifunktsiooni kasutamist peab teie IT-administraator sisestama lehel **Meiliparameetrid** meilisätted.
+> Enne meilifunktsiooni kasutamist peab teie IT-administraator sisestama lehel Meiliparameetrid **meilisätted**.
 
 ## <a name="ending-a-scheduled-questionnaire"></a>Plaanitud küsimustiku lõpetamine
 
@@ -131,3 +133,6 @@ Pärast küsimustiku kavandamist ja laiali saatmist saavad valitud vastajad sell
 Küsimustikud saab teha kättesaadavaks kindlatele kasutajatele või kasutajagruppidele või kõigile kasutajatele võrgus.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

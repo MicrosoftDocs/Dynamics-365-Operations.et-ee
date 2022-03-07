@@ -2,28 +2,27 @@
 title: Viitvõlgade ülevaade
 description: Selles artiklis kirjeldatakse viitvõlgu ning antakse teavet nende seadistamise ja kannete loomise kohta.
 author: aprilolson
-manager: AnnBe
 ms.date: 01/11/2018
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerAccuralTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
-ms.custom: 14131
+ms.custom:
+- "14131"
+- intro-internal
 ms.assetid: 0489b59a-37a7-4a78-87bf-4b597e9efad9
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4b97055f7eac12e3e82d028a0097ca926e5c355a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: dc3234c1a64155e1d0ad53cb7008d91847f7af7d
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442326"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985283"
 ---
 # <a name="accruals-overview"></a>Viitvõlgade ülevaade
 
@@ -46,3 +45,6 @@ Töölehe sisestamisel saate klõpsata suvandit **Pearaamatu viitvõlad** menü�
 
 
 Lisateabe saamiseks vt [Viitvõlaskeemide loomine](tasks/create-accrual-schemes.md) ja [Pearaamatusse tekkepõhiste kannete loomine](tasks/create-ledger-accrual-transactions.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

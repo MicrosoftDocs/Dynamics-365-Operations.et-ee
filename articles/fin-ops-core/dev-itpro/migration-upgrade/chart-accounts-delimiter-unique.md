@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 03/30/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 8
-ms.openlocfilehash: 72965e9c6182bdac123feb1bc5cc4b82d91cd588
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 183980651a811ef30a49461ff5a5f649d94b079c
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5020100"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5565258"
 ---
 # <a name="make-the-chart-of-accounts-delimiter-unique"></a>Kontoplaani eraldaja kordumatuks muutmine
 
@@ -41,3 +40,6 @@ Kontoplaani konflikti korral saab muuta kontoplaani eraldaja ja projekti/alampro
 
 ## <a name="how-to-determine-if-your-environment-requires-updated-delimiters"></a>Kuidas teha kindlaks, kas teie keskkonna puhul on nõutud eraldajate värskendamine? 
 Kui täiendatud keskkonnas esineb eraldajatega seoses konflikte, võib segmenditud sisestamise või dimensiooni kirje juhtimises väärtuste sisestamisel ilmneda ebastabiilsus. See tähendab, et teil tuleb alati konto ja dimensiooni kombinatsioonide sisestamisel kasutada otsinguid või hüpikmenüüd.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

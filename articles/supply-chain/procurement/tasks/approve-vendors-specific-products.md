@@ -1,26 +1,24 @@
 ---
 title: Kindlatele toodetele hankijate kinnitamine
 description: Selles protseduuris selgitatakse, kuidas kinnitada hankijaid kindlate toodete puhul.
-author: RichardLuan
-manager: tfehr
+author: kamaybac
 ms.date: 07/22/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, PdsApprovedVendorList, VendTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: riluan
+ms.author: dabourq
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1cc7d8a93bdbdb5a1446fc34beff4b74aa9d11a0
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 10b0397016bfb03dfc59a09f0b36ea1c87b6a75981609733dfbeb48d89637904
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5016649"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6760462"
 ---
 # <a name="approve-vendors-for-specific-products"></a>Kindlatele toodetele hankijate kinnitamine
 
@@ -61,3 +59,6 @@ Selles protseduuris selgitatakse, kuidas kinnitada hankijaid kindlate toodete pu
 31. Sulgege leht.
 32. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,12 +1,10 @@
 ---
 title: Sissenõuete protsessi automatiseerimine
 description: Selles teemas kirjeldatakse võlanõudmise protsessi strateegiate seadistamist, mis automaatselt tuvastavad kliendi arved, mille korral on vajalik meilimeeldetuletus, võlanõudmise tegevus (nt telefonikõne) või kliendile saadetav märgukiri.
-author: panolte
-manager: AnnBe
-ms.date: 08/26/2020
+author: JodiChristiansen
+ms.date: 03/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustomerCollectionManagerWorkspace
 audience: Application User, IT Pro
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-26
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: a63058904df72a7fda5a67ed1e6a846eed393ce0
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: 59db852024faf457db7ac145b67619b31555aaf2
+ms.sourcegitcommit: 3f6cbf4fcbe0458b1515c98a1276b5d875c7eda7
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969697"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "7486865"
 ---
 # <a name="collections-process-automation"></a>Sissenõuete protsessi automatiseerimine
 
@@ -28,92 +26,42 @@ ms.locfileid: "4969697"
 
 Selles teemas kirjeldatakse võlanõudmise protsessi strateegiate seadistamist, mis automaatselt tuvastavad kliendi arved, mille korral on vajalik meilimeeldetuletus, võlanõudmise tegevus (nt telefonikõne) või kliendile saadetav märgukiri. 
 
-Organisatsioonid kulutavad märkimisväärse aja aegunud saldoaruannete, kliendikontode ja avatud arvete otsimisele, et teha kindlaks, milliste klientidega on vaja avatud arve või konto saldoga seoses ühendust võtta. See uuring vähendab aega, mis kulub inkassaatoril klientidega suhtlemiseks, et sisse nõuda tähtajaks tasumata saldosid, või arvega seotud vaidluste lahendamiseks. Võlanõudmise protsessi automatiseerimine võimaldab teil seadistada oma võlanõudmise protsessile strateegiapõhise lähenemise. See aitab teil võlanõudmise tegevusi järjepidevalt rakendada, pakkudes kohandatud meilimeeldetuletusi või programmeeritud protsessi märgukirjade saatmiseks. 
+Organisatsioonid kulutavad tihti märkimisväärse aja aegunud saldoaruannete, kliendikontode ja avatud arvete otsimisele, et teha kindlaks, milliste klientidega on vaja avatud arve või konto saldoga seoses ühendust võtta. See uuring vähendab aega, mis kulub inkassaatoril klientidega suhtlemiseks, et sisse nõuda tähtajaks tasumata saldosid, või arvega seotud vaidluste lahendamiseks. Võlanõudmise protsessi automatiseerimine võimaldab teil seadistada oma võlanõudmise protsessile strateegiapõhise lähenemise. See aitab teil võlanõudmise tegevusi järjepidevalt rakendada, pakkudes kohandatud meilimeeldetuletusi või programmeeritud protsessi märgukirjade saatmiseks. 
 
 ## <a name="collections-process-setup"></a>Võlanõudmise protsessi töötlemine
 Lehe **Võlanõudmise protsessi töötlemine** (**Krediidihaldus ja võlanõuded > Töötlemine > Võlanõudmise protsessi töötlemine**) abil saate luua automatiseeritud võlanõudmise protsessi, mis ajastab tegevusi, saadab meilisõnumeid ning loob ja edastab klientidele mõeldud märgukirju. Protsessi etapid põhinevad uusimal või vanimal avatud arvel. Iga etapp kasutab seda arvet, et määrata, millist suhtlusviisi või mis tegevus peaks konkreetse kliendi korral kasutama.  
 
-### <a name="process-hierarchy"></a>Protsessihierarhia
-Iga kliendikausta saab määrata ainult ühele protsessi hierarhiale. Selle etapi hierarhia järk tuvastab, milline protsess on ülimuslik, kui klient on kaasatud mitmesse kausta, millele on määratud protsessihierarhia. Kausta ID määrab, millised kliendid määratakse protsessile. 
-
-Vaikseid päevi kasutatakse selleks, et tagada, et automatiseeritud protsess ei võtaks kliendiga ühendust liiga sageli.  Näiteks kui vaikseteks päevadeks on seatud kaks päeva, ei võta automatiseeritud protsess kliendiga ühendust vähemalt kaks päeva, isegi kui uusim esialgne arve on täielikult tasakaalustatud. 
-
-Kui soovite jätta kliendid protsessi automatiseerimisest välja juhul, kui konto saldo või arve saldo on määratletud väärtusest väiksem, seadke välja **Välista protsessist** väärtuseks **Jah** ja sisestage summa väärtus.
-
-## <a name="process-details"></a>Protsessi üksikasjad
-**Kirjeldust** kasutatakse hierarhia etapi eesmärgi või nime tuvastamiseks.
-
-**Tegevuse tüüp** määratleb, kas etapp loob tegevuse, saadab meili või loob märgukirja.
-
-**Äridokument** määratleb malli, mida kasutatakse tegevuse tüübi loomiseks.  See võib olla tegevusemall, meilimall või märgukiri kliendi kohta. 
-
-Tegevuse tüüpe saab luua kas enne või pärast arve tähtaega, võttes aluseks sätte, mis kuvatakse veerus **Arve tähtajaga seotud päevad**.
-
-Kui valite meilitoimingu tüübi, kasutatakse adressaati määratlemaks, kas tegemist on kliendi, müügigrupi või inkassaatori kontaktiga. Väljal **Ärikontakt** olev väärtus määrab seejärel, millise selle kliendi konto kontaktiga suheldakse.
-
-## <a name="business-document-details"></a>Äridokumentide üksikasjad
-Äridokumendi üksikasjad sõltuvad protsessi üksikasjades valitud tegevuse tüübist.  Kui tegevuse tüüp on tegevus, kuvatakse tegevusemalli üksikasjad.  Need üksikasjad hõlmavad tegevusemalli nime, loodava tegevuse tüüpi, tegevuse eesmärki, tegevuse lõpetamiseks plaanitud päevade arvu ja tegevuse üksikasju.  See tegevus loob seejärel seose uusima arvega, mis teatab adressaadile tegevuse lõpuleviimiseks vajalikust tegevusest.
-
-Kui tegevuse tüüp on protsessi üksikasjades olev meilisõnum, sisaldab see jaotis kahte kiirkaarti.  Esimest kasutatakse malli ID, meili kirjelduse, vaikekeele, automaatselt saadetavatele meilisõnumitele määratud kasutajanime ja seostuvate saatjate meilaadressi määratlemiseks. Teine võimaldab luua meilisisu pärast väljade **Keel** ja **Teema** väärtuste salvestamist, valides **Redigeeri**.  See avab akna, mis võimaldab üles laadida HTML-sisu. Soovi korral saate käsitsi sisestatud sõnumi tippida ka akna alumisse vasakpoolsesse kasti.  
-
-> [!Note]
-> Outlooki meili saab salvestada HTML-vormingus soovitud suhtluse tekstina. Selle saab malli rakendamiseks üles laadida. <br> <br> Kui märgukirja tegevuse tüüp on valitud, siis seadistamise vormil pole äridokumendi üksikasjade jaotist.
-
-
-## <a name="fasttab-reference"></a>Kiirkaardi viide
-Järgmistes tabelites on loetletud leheküljed ja väljad, millele määratud kiirkaartide kaudu saab juurde pääseda, koos sellel vahekaardil oleva teabe kirjeldusega. 
+Inkassomeeskonnad saadavad tavaliselt iga laekumata arvega seotud varajase teatise, et klienti teavitatakse siis, kui arve tähtaeg muutub kindlaks. Valiku **Eellugemine** saab seadistada nii, et iga protsessihierarhia sammuga saaks iga arve puhul tegutseda, kui arve ajastus selle sammuni jõuab.
 
 ### <a name="process-hierarchy"></a>Protsessihierarhia
+Iga kliendikausta saab määrata ainult ühele protsessi hierarhiale. Selle etapi hierarhia järk tuvastab, milline protsess on ülimuslik, kui klient on kaasatud mitmesse kausta, millele on määratud protsessihierarhia. Kausta ID määrab, millised kliendid määratakse protsessile. Iga seadistatud hierarhiat saab määrata ainult ühele protsessiautomaatikale.
 
-|     Lehekülg                                                  |     Field                         |     Kirjeldus                           |
-| --------------------------------------------------------  |-------------------------------    |---------------------------------------    |
-|     Võlanõudmise protsessi töötlemine <br> Protsessi automatiseerimine       |                                   |     Saate luua ja hallata kliendikausta määrangutel põhinevaid võlanõudmise protsesse.                                                                                                                             |
-|     Võlanõudmise protsessi töötlemine <br> Protsessi automatiseerimine       |     Hierarhia                     |     Määratleb protsessi automatiseerimise prioriteedi, et määrata klient, kui ta kuulub mitmesse kausta.                                                                                                   |
-|     Võlanõudmise protsessi töötlemine <br> Protsessi automatiseerimine       |     Kausta ID                       |     Päringud, mis määratlevad kliendi kirjete grupi.                                                                                                                                                        |
-|     Võlanõudmise protsessi töötlemine <br> Protsessi automatiseerimine       |     Vaiksed päevad                    |     Saate piirata seda, kui sageli saab protsessi etappi lõpule viia. Näiteks kui kaks vaikset päeva on määratud, ei toimu järgmine protsessi etapp vähemalt kahe päeva jooksul, kui uusim arve muutub.     |
-|     Võlanõudmise protsessi töötlemine <br> Protsessi automatiseerimine       |     Välista töötlemisest        |     Kui valite **Kliendi aegunud saldo on väiksem kui** või **Arve summa on väiksem kui**, välistatakse klient protsessi automatiseerimisest, kui väärtuse kriteeriumid pole täidetud.                                   |
+Vaikseid päevi kasutatakse selleks, et tagada, et automatiseeritud protsess ei võtaks kliendiga liiga sageli ühendust. Näiteks kui vaikseteks päevadeks on seatud kaks päeva, ei võta automatiseeritud protsess kliendiga ühendust vähemalt kaks päeva, isegi kui uusim esialgne arve on täielikult tasakaalustatud. 
+
+Klientide väljajätmiseks protsessi automatiseerimisest, kui kliendi vananemise saldo või arve summa on väiksem kui määratud väärtus, valige **Kliendi vananemise saldo alla** või **Arve summa alla** väljal **Välista protsessist** väli ja sisestage summa väärtus.
+
+Märkige **Ennustuse kasutamine** sissenõuete tegevuste loomiseks, kasutades kliendi makseprognoose. Loodud tegevuste puhul kasutatakse tegevuste malli **Makseprognoosid** **Konto saadaolevad parameetrid** lehel, **Kogumisprotsessi automatiseerimine** vahekaardil. 
 
 ### <a name="process-details"></a>Protsessi üksikasjad
-|     Lehekülg                                                  |     Field                                         |      Kirjeldus                  |
-|--------------------------------------------------------   |-----------------------------------------------    |----------------------------   |
-|     Võlanõudmise protsessi töötlemine <br> Protsessi automatiseerimine       |                                                   |     Saate määratleda uusimal arvel põhinevad etapid.                                                                                                |
-|                                                           |     Kirjeldus                                   |     Etapi nime ja/või kirjelduse esitamiseks kasutatav vabas vormis tekstiväli.                                                                           |
-|                                                           |     Tegevuse tüüp                                   |     Tegevus, meil või märgukiri, mis luuakse protsessi etapiga.                                                                     |
-|                                                           |     Äridokument                           |     Määratleb protsessi etapi korral kasutatava tegevuse või meilimalli.                                                                        |
-|                                                           |     Millal?                                          |     Määratleb, kas protsessi etapp toimub enne või pärast uusima arve tähtaega, ning välja **Arve tähtajaga seotud päevad**.        |
-|                                                           |     Arve tähtajaga seotud päevad        |     Välja **Kui** abil tuvastab see protsessi etapi ajastuse.                                                                          |
-|                                                           |     Adressaat                                     |     Tuvastab, kas meilisõnum saadetakse kliendi, müügigrupi või inkassaatori kontaktile.                                                   |
-|                                                           |     Äriotstarbeline kontakt                    |     Määrab, millist adressaadi meiliaadressi meilisuhtluses kasutatakse.                                                                                 |
+Klõpsake nuppu **Uus** hierarhiale uue protsessi üksikasja lisamiseks. **Kirjeldust** kasutatakse hierarhia etapi eesmärgi või nime tuvastamiseks. Valige **Tegevuse tüüp**, et määratleda etapp, mis loob tegevuse, saadab meili või loob märgukirja. 
 
-### <a name="business-process-activity-template-details"></a>Äriprotsessi tegevuse malli üksikasjad 
-|     Lehekülg                                                  |     Field                     |      Kirjeldus                  |
-|--------------------------------------------------------   |----------------------------   |-------------------------  |
-|     Võlanõudmise protsessi töötlemine <br> Protsessi automatiseerimine       |                               |     Seadistuse protsessi osa, mis tuvastab tegevuste malli üksikasju.                                                                      |
-|     Võlanõudmise protsessi töötlemine <br> Protsessi automatiseerimine       |     Tegevuse mall       |     Tuvastab tüübi, eesmärgi, lõpule viimiseni jäänud päevade arvu ja esitab üksikasjad tegevuse protsessi etapis loodava tegevuse kohta.       |
+- **Äridokument** määratleb malli, mida kasutatakse tegevuse tüübi loomiseks. See dokument võib olla tegevusemall, meilimall või märgukiri saadetud igale kliendile. Sissenõuete protsessi automatiseerimine loob ainult märgukirju kliendi kohta, sõltumata sellest, kuidas muud sissenõuete parameetrid on seadistatud.
+- **Millal** määratleb protsessietapi, mis toimub enne või pärast arve esmast tähtaega ja mida kasutatakse koos numbriga, mis kuvatakse veerus **Päevad seoses arve maksetähtajaga**. 
+- Märkige suvand **Eellteade**, et luua tegevus igale arvele protsessihierarhia ühe sammu jooksul. Eelteate toimingud on tavaliselt tasumata arvetega seotud varajane teade, nii et klienti saab teavitada arve tasumise tähtajast. Eelteadet saab märkida ainult ühele tegevusele hierarhia kohta. Kui valite meilitoimingu tüübi, kasutatakse adressaati määratlemaks, kas e-kiri saadetakse kliendi, müügigrupi või inkassaatori kontaktiga. 
+- Väljal **Ärikontakt** olev väärtus määrab seejärel, millise selle kliendi konto kontaktiga suheldakse.
 
-### <a name="business-document-email-template-details"></a>Äridokumendi meilimalli üksikasjad 
-|     Lehekülg                                                  |     Field     |      Kirjeldus                  |
-|--------------------------------------------------------   |-------------- |-----------------------------  |
-|     Võlanõudmise protsessi töötlemine <br> Protsessi automatiseerimine       |               |     Tuvastab meili protsessi etapis loodava meili kirjelduse, vaikekeele, saatjate nime ja meiliaadressi.        |
+### <a name="business-document-details"></a>Äridokumentide üksikasjad
+Äridokumendi üksikasjad sõltuvad protsessi üksikasjades valitud tegevuse tüübist. Kui tegevuse tüüp on tegevus, kuvatakse tegevusemalli üksikasjad. Need üksikasjad hõlmavad tegevusemalli nime, loodava tegevuse tüüpi, tegevuse eesmärki, tegevuse lõpetamiseks plaanitud päevade arvu ja tegevuse üksikasju. See tegevus loob seejärel seose uusima arvega, mis teatab adressaadile tegevuse lõpuleviimiseks vajalikust tegevusest.
 
+Kui tegevuse tüüp on protsessi üksikasjades olev meilisõnum, sisaldab see jaotis kahte kiirkaarti. Esimest kasutatakse malli ID, meili kirjelduse, vaikekeele, automaatselt saadetavatele meilisõnumitele määratud kasutajanime ja seostuvate saatjate meilaadressi määratlemiseks. Teine võimaldab luua meilisisu pärast väljade **Keel** ja **Teema** väärtuste salvestamist, valides **Redigeeri**. See avab akna, mis võimaldab üles laadida HTML-sisu. 
 
-### <a name="collections-history"></a>Sissenõuete ajalugu 
-|     Lehekülg                              |     Field     |      Kirjeldus                                                          |
-|------------------------------------   |-------------- |---------------------------------------------------------------------  |
-|     Võlanõudmise protsessi töötlemine       |               |     Saate vaadata valitud protsessi hierarhia hiljutist ajalugu.     |
+> [!Note]
+> Saate salvestada Outlooki meilisõnumi, mis sisaldab side kehateksti HTML-vormingus. Seejärel saate malli rakendamiseks teate sisu üles laadida. <br> <br> Kui märgukirja tegevuse tüüp on valitud, siis seadistamise lehel pole äridokumendi üksikasjade jaotist.
 
-### <a name="collection-process-assignment"></a>Võlanõudmise protsessi määramine
-|     Lehekülg                              |     Field     |      Kirjeldus                                                  |
-|------------------------------------   |-------------- |-----------------------------------------------------------    |
-|     Võlanõudmise protsessi töötlemine       |               |     Saate vaadata võlanõudmise protsessile määratud kliente.  
-|     Käsitsi määramine               |               |     Saate vaadata kliente, kes on protsessile käsitsi määratud, või valida protsessile määratavad kliendid. |
-|     Protsessi määramise eelversioon      |               |     Saate vaadata nende klientide eelvaadet, kes selle käivitamisel strateegiale määratakse.   |
-|     Kliendi määramise eelversioon     |               |     Saate vaadata strateegiat, millele konkreetne klient on määratud.    |
- 
-### <a name="parameters"></a>Parameetrid
-|     Lehekülg                                                                  |     Field                                             |      Kirjeldus                              |
-|-------------------------------------------------------------------------- |------------------------------------------------------ |-------------------------------------  |
-|     Müügireskontro parameetrid > võlanõudmise protsessi automatiseerimine     |     Klientide protsent partiiülesande kohta          |     Säte, mille abil saab määrata pakett-tööde arvu automatiseerimisprotsessi kohta.                                          |
-|     Müügireskontro parameetrid > võlanõudmise protsessi automatiseerimine     |     Postita märgukirjad automaatselt           |     Märgukirja tegevuse tüübid postitavad kirja automatiseerimise ajal.                                      |
-|     Müügireskontro parameetrid > võlanõudmise protsessi automatiseerimine     |     Automatiseerimise tegevuste loomine                |     Saate luua ja sulgeda tegevusi mitteaktiivsetele tegevuse tüüpide kohta, et vaadata kõiki kontol tehtud automatiseeritud etappe.        |
-|     Müügireskontro parameetrid > võlanõudmise protsessi automatiseerimine     |     Võlanõudmise protsessi automatiseerimise säilitamise päevade arv     |     Määratleb päevade arvu, mille jooksul kogumite ajalugu talletatakse.                                                       |
+Kasutage nuppu **Sissenõuete protsessiajalugu** valitud protsessihierarhia viimase ajaloo vaatamiseks. 
+
+Klõpsake **Sissenõuete protsessi määramine** tegevustel, et vaadata sissenõuete protsessi määratud kliente. Kasutage **Kliendi määramise eelvaadet**, et vaadata hierarhiat, millele konkreetne klient on määratud. Kasutage **Protsessi määrangu eelvaadet** klientide eelvaateks, kes määratakse hierarhiasse selle käivitamisel. Vajutage **Manuaalne ülesanne** peal, et vaadata kliente, kes on protsessile käsitsi määratud, või valida protsessile määratavad kliendid.
+
+Vajutage **Protsessi simulatsioni** peal, et vaadata üle tegevused, mis luuakse siis, kui valitud protsessi automatiseerimine on käitatud. 
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

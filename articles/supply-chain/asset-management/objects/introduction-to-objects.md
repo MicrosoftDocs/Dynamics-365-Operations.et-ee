@@ -1,12 +1,10 @@
 ---
 title: Varade sissejuhatus
 description: Selles teemas antakse ülevaade varadest moodulis Asset Management.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetTimeline, EntAssetObjectTableLookup, EntAssetObjectTableParent, EntAssetObjectOverview, EntAssetObjectImage, EntAssetObjectTable, EntAssetLifecycleStateLog, EntAssetObjectWorkOrderActive, EntAssetObjectAttribute
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2f629ebdf7423ca75fe215b0a3223478685fe95c
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 91c4ad4a96ce94c911066604794420c335a491b1
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5018567"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5808564"
 ---
 # <a name="introduction-to-assets"></a>Varade sissejuhatus
 
@@ -77,3 +75,6 @@ Tegumiriba nupud on korraldatud vahekaartidel. Järgmises tabelis kirjeldatakse 
 | Varuosad          | Saate vaadata kinnitatud ja alternatiivsete varuosade loendit, mida saab varal kasutada.                                                                               |
 | Vara tarbimine    | Saate printida aruande, milles kuvatakse vara tarbimise registreerimisi.                                                                                                |
 | Vara tõrge          | Saate printida aruande, milles kuvatakse vara tõrgete registreerimisi.                                                                                                      |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

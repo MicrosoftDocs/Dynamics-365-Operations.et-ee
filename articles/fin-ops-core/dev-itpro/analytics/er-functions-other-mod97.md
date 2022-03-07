@@ -2,11 +2,8 @@
 title: ER-i funktsioon MOD_97
 description: See teema sisaldab teavet selle kohta, kuidas kasutatakse elektroonilise aruandluse (ER) funktsiooni MOD_97.
 author: NickSelin
-manager: kfend
 ms.date: 12/17/2019
-ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -17,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b2e4e40fbd953b31225ccc0f54912b26933ccc48
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: edc29cac14014929e0672183be1c5db44fe6b5afe9543cd00942a95c79ec8897
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680634"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6734764"
 ---
 # <a name="mod_97-er-function"></a>ER-i funktsioon MOD_97
 
@@ -55,3 +52,6 @@ Tulemiks saadud teksti väärtus.
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Muud (ettevõtte domeenipõhised) funktsioonid](er-functions-category-other.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

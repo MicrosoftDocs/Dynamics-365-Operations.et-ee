@@ -1,39 +1,41 @@
 ---
 title: Power Appsi halduskeskuses ei saa keskkonda luua
-description: Selles artiklis selgitatakse, mida teha, kui administraator ei saa Microsoft Power Appsi halduskeskuses keskkonda luua.
-author: andreabichsel
-manager: AnnBe
-ms.date: 02/03/2020
+description: Selles teemas selgitatakse, mida teha, kui administraator ei saa Microsoft Power Appsi halduskeskuses keskkonda luua.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 68e6dbcbbc9811211570e968047f5faa8a2c8bd0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 937b372fa95c8076666aed14c2b34b12e8029c4d
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418131"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067700"
 ---
 # <a name="cant-create-an-environment-in-the-power-apps-admin-center"></a>Power Appsi halduskeskuses ei saa keskkonda luua
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 **Väljastamine**
 
 - Rentniku/keskkonna administraator ei saa Microsoft Power Appsi halduskeskuses keskkonda luua.
-- Litsents, mis annab kasutajatele õiguse teostada keskkonna loomise etappi, ei ole määratud otse seda etappi teostavale kasutajale.
+- Kasutajal pole litsentsi, mis annab õiguse keskkondi luua.
 
 **Lahendus**
 
-Veenduge, et rentniku administraator oleks määranud kehtiva Power Apps P2 litsentsi otse kasutajale, kes teostab keskkonna loomise etappi. Siit leiate Microsoft Dynamicsi teenuseplaanid, mis annavad selle õiguse.
+Veenduge, et rentniku administraator on keskkonda loovale kasutajale määranud kehtiva Power Apps P2 litsentsi. Keskkondade loomiseks pakuvad õigusi järgmised Microsoft Dynamicsi teenuseplaanid.
 
 | Üldine toote varude arvestusühik (SKU)       | Power Apps P2 teenusepakett  |
 |------------------------------------------------|----------------------------|
@@ -43,4 +45,7 @@ Veenduge, et rentniku administraator oleks määranud kehtiva Power Apps P2 lits
 Pange tähele, et erinevad Microsoft Office’i SKU-d annavad samuti selle õiguse lisaks eraldiseisvatele Power Appsi plaani 2 SKU-dele. Oluline on, et üks nendest SKU-dest oleks olemas.
 
 1. Avage [https://preview.admin.powerapps.com/environments](https://preview.admin.powerapps.com/environments).
-2. Looge keskkondi, järgides juhiseid teemas [Rakenduse Human Resources ettevalmistamine](https://docs.microsoft.com/dynamics365/unified-operations/talent/provisioning-talent).
+2. Looge keskkondi, järgides juhiseid teemas [Rakenduse Human Resources ettevalmistamine](/dynamics365/unified-operations/talent/provisioning-talent).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

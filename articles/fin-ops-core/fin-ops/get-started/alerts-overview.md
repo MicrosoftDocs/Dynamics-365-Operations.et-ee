@@ -1,26 +1,24 @@
 ---
 title: Teatiste ülevaade
 description: See teema annab üldteavet teatiste kohta. Teatisi saate kasutada, et olla kursis sündmustega, mida soovite tööpäeva jooksul jälgida.
-author: tjvass
-manager: AnnBe
+author: RichdiMSFT
 ms.date: 09/04/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EventCreateRule
 audience: Application user
 ms.reviewer: sericks
 ms.search.region: Global
-ms.author: tjvass
+ms.author: richdi
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: 473f53d230d7272ba0fcf78bd05d7020635a870f
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 5a92d84a5e8eaa2477d90df5065c0941d90dad5a
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798574"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5749848"
 ---
 # <a name="alerts-overview"></a>Teatiste ülevaade
 
@@ -88,3 +86,6 @@ Video [Kuidas kasutada teatisi filtreeritud andmete jälgimiseks](https://youtu.
 Video [Teatise reegli valikud](https://youtu.be/cpzimwOjicM) (eespool näidatud) on lisatud [Finance and Operationsi esitusloendisse](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW), mis on saadaval YouTubeis.
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

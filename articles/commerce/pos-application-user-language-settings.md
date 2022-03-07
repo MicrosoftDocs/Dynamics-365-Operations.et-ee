@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: HcmWorker, RetailStoreTable
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 78891
 ms.assetid: 0030940c-e0a5-4345-9511-8c3bd1f487ad
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 49bfcaa4c05ea8e6cc6bf0a8f855f2474cea35bc
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 09824d3b2eb8e3c1602882f19131d9fe312baaac
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411786"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5263152"
 ---
 # <a name="point-of-sale-pos-application-and-user-language-settings"></a>Kassa rakenduse ja kasutaja keelesätted
 
@@ -65,3 +64,6 @@ Kassa kasutaja keelt saab seadistada lehel **Töötaja** jaotises **Kõik tööt
 | **Ettevõte** | Vaikimisi                    | Vaikimisi                                                       |
 | **Kauplus**   | Tühistab ettevõtte          | Tühistab ettevõtte                                             |
 | **Kasutaja**    | Tühistab kaupluse või ettevõtte | Mitte kunagi                                                         |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

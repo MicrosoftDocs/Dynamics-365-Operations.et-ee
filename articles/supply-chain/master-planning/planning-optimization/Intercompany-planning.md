@@ -2,16 +2,13 @@
 title: Kontsernisisene planeerimine
 description: Selles teemas kirjeldatakse kontsernisiseseid planeerimisi ja selgitatakse, kuidas konfigureerida kontsernisiseseid planeerimisi planeerimise optimeerimisega rakenduses Microsoft Dynamics 365 Supply Chain Management.
 author: ChristianRytt
-manager: tfehr
 ms.date: 12/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 25c80ce27498131c6eb92174ab14a592bfa9915a
-ms.sourcegitcommit: fe21a3a98dcf6fe4eb9351941493f2c0443d8696
-ms.translationtype: HT
+ms.openlocfilehash: 2bf69a5d0d6e070374277e2d82d5fbf6eb4b8704895ffe31aa7e2d2d3546bb16
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "4672180"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6777907"
 ---
 # <a name="intercompany-planning"></a>Kontsernisisene planeerimine
 
@@ -48,8 +45,8 @@ Kui alustate koondplaneerimist põhiplaanist, mis sisaldab plaanitud allavoolu n
 
 Kontsernisisese planeerimise kasutamiseks peate oma süsteemi ette valmistama järgmisel viisil.
 
-1. Asjaomased tooted tuleb vabastada kõikides asjaomastes ettevõtetes. Lisateavet vt [Kontsernisisese kaubanduse konfigureerimine ja kasutamine rakenduses Dynamics 365 Supply Chain Management ](https://docs.microsoft.com/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/) saidil Microsoft Learn.
-1. Allavoolu nõudlus peab olema kaetud ostudega hankijalt, kellel on kontsernisisesed seosed ülesvoolu ettevõttega ja asjakohased vaikimisi varude dimensioonid (sait ja ladu) kliendi kohta. Lisateavet vt [Kontsernisisese kaubanduse konfigureerimine ja kasutamine rakenduses Dynamics 365 Supply Chain Management ](https://docs.microsoft.com/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/) saidil Microsoft Learn.
+1. Asjaomased tooted tuleb vabastada kõikides asjaomastes ettevõtetes. Lisateavet vt [Kontsernisisese kaubanduse konfigureerimine ja kasutamine rakenduses Dynamics 365 Supply Chain Management](/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/) saidil Microsoft Learn.
+1. Allavoolu nõudlus peab olema kaetud ostudega hankijalt, kellel on kontsernisisesed seosed ülesvoolu ettevõttega ja asjakohased vaikimisi varude dimensioonid (sait ja ladu) kliendi kohta. Lisateavet vt [Kontsernisisese kaubanduse konfigureerimine ja kasutamine rakenduses Dynamics 365 Supply Chain Management](/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/) saidil Microsoft Learn.
 1. Ülesvoolu ettevõtte koondplaan peab sisaldama plaanitud allavooluetapi nõudlust ning allavoolu plaanides tuleb määrata vastav ettevõte ja koondplaan.
 
 ## <a name="include-planned-downstream-demand"></a>Kaasa plaanitud järgmise etapi nõudlus
@@ -79,7 +76,7 @@ Selles näites luuakse plaanitud tootmistellimus ettevõttes USMF, et katta mü�
 
 Järgmine illustratsioon näitab, kuidas see näide võidakse kuvada plaanitud tootmistellimuse lehel **Mitmetasandiline sidumine**.
 
-![Kontsernisisene näide, mis hõlmab kaht ettevõtet](media/IntercompanyPlanning1.png)
+![Kontsernisisene näide, mis hõlmab kaht ettevõtet.](media/IntercompanyPlanning1.png)
 
 ### <a name="intercompany-example-that-involves-three-companies"></a>Kontsernisisene näide, mis hõlmab kolme ettevõtet
 
@@ -87,4 +84,7 @@ Selles näites luuakse plaanitud ostutellimus ettevõttes USMF, et katta müügi
 
 Järgmine illustratsioon näitab, kuidas see näide võidakse kuvada plaanitud tootmistellimuse lehel **Mitmetasandiline sidumine**.
 
-![Kontsernisisene näide, mis hõlmab kolme ettevõtet](media/IntercompanyPlanning2.png)
+![Kontsernisisene näide, mis hõlmab kolme ettevõtet.](media/IntercompanyPlanning2.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

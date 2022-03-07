@@ -2,29 +2,28 @@
 title: Koorma mallid
 description: Teemas kirjeldatakse koormamallide häälestamist ja koormamalli seostamist uue koormaga.
 author: Henrikan
-manager: ''
 ms.date: 10/30/2020
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLoadTemplate
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: henrikan
 ms.search.validFrom: 2020-10-30
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 1ea7f5244b483a1b9d6c55227c676a3878a71d83
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
-ms.translationtype: HT
+ms.openlocfilehash: 694860d1ade74f9fd51a8ac579aa69fe7fb673a8
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4646380"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7569909"
 ---
 # <a name="load-templates"></a>Koorma mallid
+
+[!include [banner](../../includes/banner.md)]
 
 Uue koorma loomisel saate määrata koormamalli. Koorma mallis on teave seadmete ja selliste mõõtmete kohta nagu koorma kõrgus, laius, sügavus ja maht.
 
@@ -54,3 +53,6 @@ Teemas kirjeldatakse koormamallide häälestamist ja koormamalli seostamist uue 
 1. Valige toimingupaani vahekaardi **Pakkumine ja nõudlus** grupis **Lisa** suvand **Uuele koormusele**.
 1. Valige dialoogiboksi **Koormamall** väljal **Koormamalli ID** rakendatav mall.
 1. Malli rakendamiseks valige **OK**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

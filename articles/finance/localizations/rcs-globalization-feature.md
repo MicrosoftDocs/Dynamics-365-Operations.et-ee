@@ -2,28 +2,25 @@
 title: Regulatory Configuration Services (RCS) – globaliseerimise funktsioonid
 description: Selles teemas selgitatakse, kuidas kasutada rakendust Microsoft Regulatory Configuration Services (RCS) ja globaalset hoidlat globaliseerimise funktsioonide loomiseks ja kasutamiseks.
 author: JaneA07
-manager: AnnBe
 ms.date: 06/04/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RCS, RCSWorkspace, e-Invoicing service
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 97423
 ms.assetid: ''
 ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: AX 10.0.11
-ms.openlocfilehash: ae46dab5250fbe8096f43e420cb7ef33a5862af0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: e8df8a56d493e58f28699a87dd9dab1f87540a4ee327450384f89e6d426ba1a7
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442274"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6760627"
 ---
 # <a name="regulatory-configuration-services-rcs---globalization-features"></a>Regulatory Configuration Services (RCS) – globaliseerimise funktsioonid
 
@@ -56,7 +53,7 @@ Toimige Finance and Operations-i rakenduste eksemplaris järgmiselt.
 1. Valige oma RCS-i eksemplaris paan **Funktsioonihaldus**.
 2. Valige tööruumis **Funktsioonihaldus** loendist suvand **Globaliseerimise funktsioonid** ja seejärel valige **Luba kohe**.
 
-    ![Globaliseerimise funktsioonid funktsioonihalduses](./media/RCS_GlobalF_1%20Feature%20mgmt.JPG)
+    ![Globaliseerimise funktsioonid funktsioonihalduses.](./media/RCS_GlobalF_1%20Feature%20mgmt.JPG)
 
 ## <a name="globalization-features"></a>Globaliseerimisfunktsioonid
 
@@ -70,11 +67,11 @@ Globaliseerimise funktsioonide kasutamiseks peate selle esmalt importima globaal
 1. Veenduge, et funktsioon **Globaliseerimise funktsioonid** on funktsioonihalduses sisse lülitatud, nagu varasemalt käesolevas teemas kirjeldatud.
 2. Avage uus tööruum **Globaliseerimise funktsioonid** ja valige seejärel jaotisest **Funktsioonid** paan **E-arved**.
 
-    ![Globaalsete funktsioonide tööruum](./media/RCS_GlobalF_2%20Feature%20wrkspace.JPG)
+    ![Globaalsete funktsioonide tööruum.](./media/RCS_GlobalF_2%20Feature%20wrkspace.JPG)
 
     Leht **E-arvete funktsioonid** on avatud.
 
-    ![E-arvete funktsioonide leht](./media/RCS_GlobalF_3%20Feature%20form.JPG)
+    ![E-arvete funktsioonide leht.](./media/RCS_GlobalF_3%20Feature%20form.JPG)
 
 ## <a name="add-a-derived-globalization-feature"></a>Tuletatud globaliseerimise funktsiooni lisamine
 
@@ -82,27 +79,27 @@ Saate lisada uue globaliseerimise funktsiooni, tuletades selle juba avaldatud v�
 
 1. Valige lehe **Globaalsest hoidlast funktsiooni importimine** avamiseks suvand **Impordi**.
 
-    ![Globaalse hoidla lehelt funktsiooni importimine](./media/RCS_GlobalF_4%20Feature%20import%20form%20GR.JPG)
+    ![Globaalse hoidla lehelt funktsiooni importimine.](./media/RCS_GlobalF_4%20Feature%20import%20form%20GR.JPG)
 
 2. Uusimate funktsioonide toomiseks valige **Sünkrooni**.
 
     Sünkroonitud loetelu hõlmab funktsioone, mis on teile saadaval seetõttu, et need avaldati Microsofti poolt, või seetõttu, et neid jagas teiega mõni teine konfiguratsioonipakkuja.
 
-    ![Funktsioonide sünkroonitud loetelu](./media/RCS_GlobalF_5%20Feature%20GR%20sync.JPG)
+    ![Funktsioonide sünkroonitud loetelu.](./media/RCS_GlobalF_5%20Feature%20GR%20sync.JPG)
 
 3. Valige loetelus imporditavad funktsioonid ja seejärel **Impordi**. Te saate teate, kui valitud funktsioonid on edukalt imporditud.
 
-    ![Teade eduka importimise kohta](./media/RCS_GlobalF_6%20Feature%20GR%20import%20success.JPG)
+    ![Teade eduka importimise kohta.](./media/RCS_GlobalF_6%20Feature%20GR%20import%20success.JPG)
 
 4. Valige **Lisa** ja seejärel valige dialoogiakna ripploendist suvand **Olemasoleval versioonil põhinev**.
 5. Sisestage funktsiooni nimi ja kirjeldus.
 6. Valige saadaolevate funktsioonide loetelust funktsiooni alusversioon ja seejärel valige **Loo funktsioon**.
 
-    ![Tuletatud funktsiooni lisamine](./media/RCS_GlobalF_7%20Feature%20create%20derived.JPG)
+    ![Tuletatud funktsiooni lisamine.](./media/RCS_GlobalF_7%20Feature%20create%20derived.JPG)
 
     Lisatud funktsioon on loodud ja selle olek on **Mustand**.
 
-    ![Mustandi olekuga tuletatud funktsioon](./media/RCS_GlobalF_8%20Feature%20draft%20create.JPG)
+    ![Mustandi olekuga tuletatud funktsioon.](./media/RCS_GlobalF_8%20Feature%20draft%20create.JPG)
 
 7. Vaadake üle funktsiooni komponendid, et teha kindlaks, kas värskendused on vajalikud.
 
@@ -123,7 +120,7 @@ Saate lisada uue globaliseerimise funktsiooni, luues selle nullist.
 2. Sisestage funktsiooni nimi ja kirjeldus.
 3. Valige **Loo funktsioon**.
 
-    ![Uue funktsiooni lisamine](./media/RCS_GlobalF_9%20Feature%20create%20new.JPG)
+    ![Uue funktsiooni lisamine.](./media/RCS_GlobalF_9%20Feature%20create%20new.JPG)
 
 4. Valige vahekaardil **Versioonid** suvandi **Kehtiv alates** kuupäev ja seejärel valige funktsiooni lõpule viimiseks suvand **Muuda olekut**. Lõpule viidud funktsioonid saab muuta kättesaadavaks konkreetsele keskkonnale, et seda saaks kasutada globaliseerimise teenustes, või neid saab avaldada globaalses hoidlas.
 
@@ -179,7 +176,7 @@ Funktsioonide seadistuste puhul on saadaval järgmised tegevused.
     - Kohaldatavusreeglid
     - Muutujad
 
-![Funktsiooni versiooni seadistamise leht](./media/RCS_GlobalF_10%20Feature%20set%20up.JPG)
+![Funktsiooni versiooni seadistamise leht.](./media/RCS_GlobalF_10%20Feature%20set%20up.JPG)
 
 ### <a name="environments"></a>Keskkonnad
 
@@ -196,7 +193,7 @@ Globaliseerimise funktsiooni välisele organisatsioonile ühiskasutuseks andmise
 2. Valige vahekaardil **Organisatsioonid** suvand **Anna ühiskasutusse** ja seejärel sisestage dialoogiakna rippmenüüs organisatsiooni domeeninimi.
 3. Valige **Anna ühiskasutusse**.
 
-    ![Funktsiooni organisatsiooni jaoks ühiskasutusse andmine](./media/RCS_GlobalF_20%20Feature%20orgn_share%20with.JPG)
+    ![Funktsiooni organisatsiooni jaoks ühiskasutusse andmine.](./media/RCS_GlobalF_20%20Feature%20orgn_share%20with.JPG)
 
 Funktsioon on antud ühiskasutusse valitud organisatsiooniga ja on selle organisatsiooni jaoks globaalses hoidlas kättesaadav. Sealt saab funktsiooni importida kasutamiseks organisatsiooni RCS-i või Dynamics 365 Finance'i eksemplari.
 
@@ -204,7 +201,7 @@ Funktsioon on antud ühiskasutusse valitud organisatsiooniga ja on selle organis
 
 Saate võtta tuletatud globaliseerimise funktsiooni aluseks uue või uuendatud põhifunktsiooni versiooni. Sel moel saab põhiversioonis aset leidnud muutusi automaatselt uuendada. Uuendatud põhifunktsiooni versiooni loob esialgne konfiguratsioonipakkuja ning seejärel see avaldatakse või antakse ühiskasutusse.
 
-![Uuendatud põhifunktsiooni versioon](./media/RCS_GlobalF_12%20Feature%20new%20version.JPG)
+![Uuendatud põhifunktsiooni versioon.](./media/RCS_GlobalF_12%20Feature%20new%20version.JPG)
 
 Näiteks kui soovite muuta teie loodud funktsiooni tuletatud versiooni alust, peate esmalt hankima funktsiooni uusima versiooni, importides selle globaalsest hoidlast.
 
@@ -212,23 +209,23 @@ Näiteks kui soovite muuta teie loodud funktsiooni tuletatud versiooni alust, pe
 2. Uusimate funktsioonide toomiseks valige **Sünkrooni**.
 3. Valige funktsioonide loetelus imporditavad funktsioonid ja seejärel **Impordi**.
 
-    ![Funktsiooni uusima versiooni importimine](./media/RCS_GlobalF_13%20Feature%20new%20version%20import.JPG)
+    ![Funktsiooni uusima versiooni importimine.](./media/RCS_GlobalF_13%20Feature%20new%20version%20import.JPG)
 
 4. Valige funktsioonide loetelust funktsioon, mille alust soovite muuta.
 5. Valige vahekaardil **Versioon** suvand **Uus**, et luua mustandversioon.
 
-    ![Uus mustandversioon loodud](./media/RCS_GlobalF_14%20Feature%20new%20base%20version.JPG)
+    ![Uus mustandversioon loodud.](./media/RCS_GlobalF_14%20Feature%20new%20base%20version.JPG)
 
 6. Valige **Aluse muutmine**.
 7. Valige dialoogiaknas **Aluse muutmine** funktsiooni uusim versioon, millele vastavalt alust muudetakse.
 
-    ![Dialoogiakna aluse muutmine](./media/RCS_GlobalF_15%20Feature%20rebase%20version.JPG)
+    ![Dialoogiakna aluse muutmine.](./media/RCS_GlobalF_15%20Feature%20rebase%20version.JPG)
 
 8. Valige nupp **OK**.
 9. Vaadake üle funktsiooni komponendid ja tehke vajalikud muudatused.
 10. Valige funktsiooni, mille alus on muudetud, lõpule viimiseks suvand **Muuda olekut**. Kui aluse muutmine on lõpule viidud, saate teostada täiendavaid toiminguid. Näiteks saate funktsiooni avaldada ja teha selle kasutamise globaliseerimise teenuste raames kättesaadavaks.
 
-    ![Funktsiooni olek on muudetud lõpule viiduks](./media/RCS_GlobalF_16%20Feature%20rebase%20version%20complete.JPG)
+    ![Funktsiooni olek on muudetud lõpule viiduks.](./media/RCS_GlobalF_16%20Feature%20rebase%20version%20complete.JPG)
 
 ## <a name="configure-environments-for-globalization-features"></a><a name="configureenvironment"></a>Globaliseerimise funktsioonide jaoks keskkondade konfigureerimine
 
@@ -236,13 +233,13 @@ Globaliseerimise teenuste kasutajad saavad hallata keskkonda, et seadistada glob
 
 1. Valige tööruumis **Globaliseerimise funktsioonid** jaotisest **Keskkonnad** paan **E-arved**.
 
-    ![Globaliseerimise funktsioonide tööruum](./media/RCS_GlobalF_17%20Feature%20environment.JPG)
+    ![Globaliseerimise funktsioonide tööruum.](./media/RCS_GlobalF_17%20Feature%20environment.JPG)
 
 2. Valige **Võtmehoidla parameetrid** ja seejärel valige **Uus**, et luua Azure'i võtmehoidla saladus.
 3. Sisestage võtmehoidla nimi ja kirjeldus ning seejärel sisestage väljal **Võtmehoidla URI** URL, mis tuvastab Azure'is võtmehoidla ressursi.
 4. Valige kiirkaardil **Serdid** serdi lisamiseks suvand **Lisa** ja sisestage iga serdi nimi ja kirjeldus.
 
-    ![Sert on lisatud](./media/RCS_GlobalF_18%20Feature%20envn%20key%20vault%20parameter.JPG)
+    ![Sert on lisatud.](./media/RCS_GlobalF_18%20Feature%20envn%20key%20vault%20parameter.JPG)
 
 5. Valige uue keskkonna loomiseks **Uus**.
 6. Sisestage nimi, kirjeldus ja salvestamiseks nõutud ühiskasutusele juurdepääsu allkirjaloa saladus.
@@ -251,4 +248,7 @@ Globaliseerimise teenuste kasutajad saavad hallata keskkonda, et seadistada glob
 9. Kasutajate lisamiseks korrake samme 7 ja 8.
 10. Keskkonna avaldamiseks valige suvand **Avalda**.
 
-    ![Avaldatud keskkond](./media/RCS_GlobalF_19%20Feature%20envn%20publishing.JPG)
+    ![Avaldatud keskkond.](./media/RCS_GlobalF_19%20Feature%20envn%20publishing.JPG)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

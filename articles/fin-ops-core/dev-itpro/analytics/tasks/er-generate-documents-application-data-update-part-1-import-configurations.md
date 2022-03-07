@@ -2,11 +2,9 @@
 title: Konfiguratsioonide importimine rakendusandmetega dokumentide loomiseks
 description: Selle protseduuri toimingute lõpule viimiseks peate esmalt läbima protseduuri „ER Konfiguratsiooni pakkuja loomine ja selle märkimine aktiivseks”.
 author: NickSelin
-manager: AnnBe
 ms.date: 11/02/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1f919d953c3aa0c8d16366167a12e52d35f32cdf
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: 08ab90d6f53dbb9eabeea3c2cf020792e8957c7b71ed27fc491008fcad114c72
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684615"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6727481"
 ---
 # <a name="import-configurations-to-generate-documents-that-have-application-data"></a>Konfiguratsioonide importimine rakendusandmetega dokumentide loomiseks
 
@@ -75,3 +73,6 @@ Konfiguratsioonipakkuja loomine ja aktiivseks märkimine". Selles protseduuris s
     * Vaadake üle Intrastat-aruande genereerimiseks kasutatud vormingu struktuur. Pange tähele, et see on mõeldud XML-faili genereerimiseks andmete asustamise abil andmemudelist, mille aluseks on juurkaup „Väljamineva dokumendi jaoks”. Kontrollige, kas genereeritud faili nimi on määratud kasutaja dialoogi vormil (selle jaoks kasutatakse andmeallikat „fn”).   
 30. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

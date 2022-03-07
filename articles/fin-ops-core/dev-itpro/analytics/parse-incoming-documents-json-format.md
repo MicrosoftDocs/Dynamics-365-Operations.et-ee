@@ -2,11 +2,9 @@
 title: Sissetulevate dokumentide sõelumine JSON-vormingus
 description: Selles teemas selgitatakse, kuidas seadistada elektroonilise aruandluse vorminguid, et sõeluda sissetulevad dokumente vormingus JavaScript Object Notation (JSON).
 author: kfend
-manager: AnnBe
 ms.date: 05/20/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: b4ed81bb5527ea8e02caaa1262a57960dd7cdf29
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 4e598dc15b619c2f6a0525ea18c371484ca26fa4
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685759"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5755150"
 ---
 # <a name="parse-incoming-documents-in-json-format"></a>Sissetulevate dokumentide sõelumine JSON-vormingus
 
@@ -50,3 +48,6 @@ Lisaks peate läbima tegevuse juhise [Elektrooniline aruandlus. Nõutavate konfi
 | Tiitel                  | Faili nimi |
 |------------------------|-----------|
 | Elektroonilise aruandluse mudeli konfiguratsioon | [1099model.xml](https://go.microsoft.com/fwlink/?linkid=874111) |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

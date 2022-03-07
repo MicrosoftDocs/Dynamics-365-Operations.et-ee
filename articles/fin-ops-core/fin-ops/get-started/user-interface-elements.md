@@ -2,11 +2,9 @@
 title: Kasutajaliidese elemendid
 description: Selles teemas kirjeldatakse rakenduse kasutajaliidese (UI) elemente.
 author: tlefor
-manager: AnnBe
 ms.date: 08/09/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -14,14 +12,17 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 3e087a1abec9bf177bb831b9bbfa12895054ad07
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
-ms.translationtype: HT
+ms.openlocfilehash: 60e85841ec940ed65d73dc052848168be70301d6
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797930"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069319"
 ---
 # <a name="user-interface-elements"></a>Kasutajaliidese elemendid
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Selles teemas kirjeldatakse rakenduse kasutajaliidese (UI) elemente. Enne, kui kasutajad saavad liidest navigeerida, on oluline teada liidest moodustavate elementide nimesid ja funktsioone.
 
@@ -86,3 +87,6 @@ Järgmine pilt näitab seda tüüpi teatiste näiteid.
 *Loend* on nimi, mis antakse kirjete kogumile, mida saate läbi kerida. Saate need kirjed lehele tuua, valides need. Sageli avab see võrgu.
 
 ![Järgmine pilt näitab näiteid tööriistaribade, võrkude ja loendite kohta.](media/user-interface-08.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,12 +1,10 @@
 ---
 title: Mallkooslused
 description: Mallkoosluses (BOM) on pidevalt kasutatavate teenuseobjekti komponentide standardnimekiri.
-author: ShylaThompson
-manager: tfehr
+author: kamaybac
 ms.date: 09/19/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMATemplateBOMTable
 audience: Application User
@@ -17,25 +15,23 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 01cd4cf03fb0ac1a3399673097895513f7180cf1
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: d34502d74590595f26ba5aae78158ed893a095df
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965775"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7571303"
 ---
-# <a name="template-boms"></a>Mallkooslused    
+# <a name="template-boms"></a>Mallkooslused
 
 [!include [banner](../includes/banner.md)]
-
 
 Mallkoosluses (BOM) on pidevalt kasutatavate teenuseobjekti komponentide standardnimekiri. Mallkoosluses loetletud komponendid kujutavad endast teenuseobjekti eraldiseisvaid alamkomponente. Kui te rakendate mallkooslust teenuseobjektil, saate säilitada teenuseobjektil vahetatud alamkomponentide kirjet.
 
 Teenuseleppes ja teenusetellimuses mallkoosluse rakendamiseks tuleb teil see lisada teenuseobjekti seosesse.
 
-
 > [!NOTE]
-> <P>Teenuseobjektile saate rakendada ainult ühe mallkoosluse.</P>
+> Teenuseobjektile saate rakendada ainult ühe mallkoosluse.
 
 ## <a name="create-a-template-bom"></a>Käsitsi koostatava mallkoosluse loomine
 
@@ -43,8 +39,8 @@ Järgmises tabelis on toodud teave mitmesuguste meetodite kohta, mida saate kasu
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -72,7 +68,6 @@ Järgmises tabelis on toodud teave mitmesuguste meetodite kohta, mida saate kasu
 </tbody>
 </table>
 
-
 ## <a name="apply-the-template-bom-to-a-service-agreement-or-service-order"></a>Mallkoosluse rakendamine teenuseleppele või hooldustellimusele
 
 Saate rakendada mallkooslust teenuseleppele, hooldustellimusele või mõlemale. Teenuselepe hõlmab tavaliselt pikaajalist suhet kliendiga. Teenusekoosluses salvestatud asenduste ajalugu on kasulik teave teenuseleppe jaoks.
@@ -83,7 +78,7 @@ Saate mallkooslust rakendada ka hooldustellimusele, et salvestada teenuseobjekti
 
 Teenusekoosluse rea ajaloo saate kopeerida ühest teenuseleppest teise. Kopeerides teenuse ajalugu ühest teenuseleppest teise, saate säilitada kaubal tehtud asenduste kirje.
 
-**Näide**
+### <a name="example"></a>Näide
 
 Olete koostanud 3-aastase teenuseleppe kliendi auto kohta. Selle perioodi jooksul harjub klient ettevõtte pakutava hea teenindusega. Seega soovib klient pärast leppe aegumist sõlmida uue. Nüüd on teil võimalik läbi rääkida ettevõtte jaoks kasulikuma lepingu suhtes. Kuna asendatud komponentide kirje võib tulevikus olla kasulik, võite kopeerida teenusekoosluse ajaloo uude leppesse.
 
@@ -101,26 +96,18 @@ Saate muuta viisi, kuidas kuvatakse koosluserida kõigis malli- ja teenusekooslu
 
 Mallkoosluste kasutamiseks peate seadistama kaks numbriseeriat. Seadistage üks numbriseeria mallkoosluse ja teine koosluse ajaloo rea numbri jaoks.
 
-
 > [!NOTE]
-> <P>Numbriseeriaid kasutatakse identifikaatorite eraldamiseks kirjetele, mis neid nõuavad. Enne kui saate mallkooslusele või koosluse ajaloo rea numbrile numbriseeria määrata, peate seadistama numbriseeria koodid.</P>
-
+> Numbriseeriaid kasutatakse identifikaatorite eraldamiseks kirjetele, mis neid nõuavad. Enne kui saate mallkooslusele või koosluse ajaloo rea numbrile numbriseeria määrata, peate seadistama numbriseeria koodid.
 
 ## <a name="set-up-number-sequences"></a>Seadista numbriseeriad
 
-1.  Looge loendilehel **Numbriseeriad** numbriseeriad mallkoosluste ja koosluse ajaloo raja numbri jaoks. 
-
-2.  Klõpsake valikul **Hooldushaldus** \> **Häälestus** \> **Teenuste halduse parameetrid**.
-
-3.  Klõpsake valikut **Numbriseeriad** ja seejärel valige numbriseeria kood numbriseeria viidetele, mille lõite vormis **Numbriseeriad**.
-
-4.  Muudatuste salvestamiseks sulgege vorm.
-
+1. Looge loendilehel **Numbriseeriad** numbriseeriad mallkoosluste ja koosluse ajaloo raja numbri jaoks.
+1. Valige **Teenuste haldus** \> **Häälestus** \> **Teenuste halduse parameetrid**.
+1. Valige **Numbriseeriad** ja seejärel valige numbriseeria kood numbriseeria viidetele, mille lõite vormis **Numbriseeriad**.
+1. Muudatuste salvestamiseks sulgege vorm.
 
 > [!NOTE]
-> <P>Koosluse ajaloo rea numbrit kasutab süsteem koosluse ajaloo kannete seostamiseks hooldusleppe või -tellimusega. Numbrit ei kuvata kasutajaliideses.</P>
-
-
+> Koosluse ajaloo rea numbrit kasutab süsteem koosluse ajaloo kannete seostamiseks hooldusleppe või -tellimusega. Numbrit ei kuvata kasutajaliideses.
 
 ## <a name="see-also"></a>Vt ka
 
@@ -130,6 +117,4 @@ Mallkoosluste kasutamiseks peate seadistama kaks numbriseeriat. Seadistage üks 
 
 [Teenusekoosluse muutmine](modify-service-bom.md)
 
- 
-
-
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

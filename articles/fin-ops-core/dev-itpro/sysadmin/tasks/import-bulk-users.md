@@ -2,11 +2,9 @@
 title: Kasutajate importimine rakendusest Azure Active Directory
 description: Süsteemiadministraatorid saavad seda toimingut kasutada valitud kasutajate käsitsi importimiseks või suure hulga kasutajate importimiseks Azure Active Directoryst.
 author: peakerbl
-manager: AnnBe
 ms.date: 07/07/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 56b6666310309817ff30ccb3902721880b829ee0
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: ce8c98add0c6d5fb07b3ba5338037d9a12b1d8e50a2d2039b0231d3d305c9ebe
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679810"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6748284"
 ---
 # <a name="import-users-from-azure-active-directory"></a>Kasutajate importimine rakendusest Azure Active Directory
 
@@ -46,7 +44,7 @@ Pange tähele, et partii importimise suvandit kasutades ei ole võimalik kasutaj
 2. Minge jaotisse **Süsteemihaldus > Kasutajad > Kasutajad**.
 3. Klõpsake suvandit **Partii import**.
 4. Laiendage jaotist **Käivita taustal**.
-4. Valige väärtus **Jah** väljal **Partii-töötlus**.
+4. Valige väärtus **Jah** väljal **Pakett-töötlus**.
 6. Sisestage või valige väärtus väljal **Partiigrupp**. See on valikuline etapp.  
 7. Valige väljal **Privaatne** väärtus **Jah**. See on valikuline etapp.  
 8. Valige väljal **Kriitiline töö** väärtus **Jah**. See on valikuline etapp.  
@@ -58,3 +56,6 @@ Pärast importimise lõpetamist on vaja kasutajatele määrata rollid.
 ## <a name="run-in-a-sandbox-environment"></a>Liivakastikeskkonna käitamine
 1. Valige **Partii import**.
 2. Valige nupp **OK**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

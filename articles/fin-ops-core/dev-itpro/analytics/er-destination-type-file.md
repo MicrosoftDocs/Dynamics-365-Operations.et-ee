@@ -2,11 +2,9 @@
 title: ER-i sihtkoha tüübi fail
 description: See teema annab teavet faili sihtkoha konfigureerimise ER-vormingu jaoks.
 author: NickSelin
-manager: AnnBe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: DocuType, ERSolutionTable, ERFormatDestinationTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 2e192a3d768b2f99330129260fa60ad231796710
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: adb32efd3849c94294d9fe9e706f39d209116d259e0d964d1558cc0e49009a5a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679626"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6760794"
 ---
 # <a name="file-destination"></a>Faili sihtkoht
 
@@ -32,9 +30,12 @@ Saate konfigureerida faili sihtkoha iga väljamineva dokumendi loomiseks konfigu
 
 Kui määrate **Sihtkoha sätte** lehel valiku **Lubatud** väärtuseks **Jah**, avatakse konfigureerimise lõppemisel avamise või salvestamise dialoogiboks.
 
-[![Sihtkoha sätte leht](./media/ER_Destinations-EnableFileDestination.png)](./media/ER_Destinations-EnableFileDestination.png)
+[![Sihtkoha sätte leht.](./media/ER_Destinations-EnableFileDestination.png)](./media/ER_Destinations-EnableFileDestination.png)
 
 ## <a name="additional-resources"></a>Lisaressursid
 
 - [Elektroonilise aruandluse (ER) ülevaade](general-electronic-reporting.md)
 - [Elektroonilise aruandluse (ER) sihtkohad](electronic-reporting-destinations.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

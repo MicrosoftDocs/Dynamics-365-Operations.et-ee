@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: CustFreeInvoice
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 77772
 ms.assetid: 00b4b40c-1576-4098-9aed-ac376fdeb8c5
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0f5b9866fc7afba205b84b372c6a204ec4c8f64d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ff988fff23611805c2849a63c2aaba74fc255d4c
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442235"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5217574"
 ---
 # <a name="create-a-customer-invoice"></a>Kliendiarve loomine
 
@@ -167,3 +166,6 @@ Järgmised väljad muudavad sisestamisprotsessi käitumist.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

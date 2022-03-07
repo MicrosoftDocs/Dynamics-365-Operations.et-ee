@@ -2,30 +2,33 @@
 title: Töövoosüsteemi ülevaade
 description: Teema kirjeldab töövoosüsteemi.
 author: ChrisGarty
-manager: AnnBe
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.custom: 56381
+ms.custom:
+- "56381"
+- intro-internal
 ms.assetid: 20b78595-e1d9-439a-ae1c-a776a3438919
 ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 660e01618eea66bc611dd51818694d36993ba9ea
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
-ms.translationtype: HT
+ms.openlocfilehash: 70776ba0a0461998d2c1f62ba05b55cd4307a0f7
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4796992"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067929"
 ---
 # <a name="workflow-system-overview"></a>Töövoosüsteemi ülevaade
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Teema kirjeldab töövoosüsteemi.
 
@@ -41,7 +44,7 @@ Töövoog on süsteem, mis töötab rakendusobjekti serveris (AOS). Töövoo sü
 
 Töövoog esindab äriprotsessi. See määratleb, kuidas dokument voogab või liigub läbi süsteemi, näidates, kes peab täitma ülesannet, otsuse või dokumendi kinnitamiseks. Alltoodud joonisel kujutatakse kuluaruannete töövoogu.
 
-![Kasutajatele määratud elementidega töövoog](./media/workflow_user.gif)
+![Kasutajatele määratud elementidega töövoog.](./media/workflow_user.gif)
 
 Selle töövoo paremaks mõistmiseks oletame, et Sam esitab kuluaruande summale 7000 USA dollarit. Selle stsenaariumi kohaselt on Ivani ülesanne Sami lähetatud sissetulekud üle vaadata. Seejärel peavad Frank ja Sue kuluaruande kinnitama. Oletame nüüd, et Sam esitab kuluaruande summas 11 000 USA dollarit. Selles stsenaariumis peab Ivan tšekid üle vaatama ning Frank, Sue ja Ann peavad kuluaruande kinnitama.
 
@@ -71,3 +74,6 @@ Töövoo süsteemi kasutamine teie organisatsioonis on mitmeti kasulik.
 + [Paralleelharude konfigureerimine töövoos](configure-parallel-branch-workflow.md)
 + [Reakauba töövoogude konfigureerimine](configure-line-item-workflow.md)
 + [Töövoo KKK](workflow-FAQ.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

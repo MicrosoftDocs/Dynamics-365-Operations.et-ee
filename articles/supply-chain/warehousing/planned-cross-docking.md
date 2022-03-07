@@ -2,11 +2,9 @@
 title: Plaanitud ristlaadimine
 description: Selles teemas kirjeldatakse täiustatud plaanitud ristlaadimist, kus tellimuse jaoks nõutav varude kogus suunatakse sissetulekust või loomisest otse õigesse väljaminevasse väljastus- või koondusalasse. Kõik järelejäänud sissetulevast allikast pärinevad varud suunatakse õigesse ladustamiskohta, kasutades tavalist ladustamise protsessi.
 author: Mirzaab
-manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSCrossDockingTemplate, WHSLoadPostMethod, WHSWorkClass, WHSWorkTemplateTable, WHSLocDirTable, WHSPlannedCrossDocking
 audience: Application User
@@ -14,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: fb598b3ac7dd72e8c500f0c2eaf07462009c67f7
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.dyn365.ops.version: 10.0.7
+ms.openlocfilehash: c28639a4a575f5f356bf947ba8e0aee6bcd256b4
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4970302"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7573029"
 ---
 # <a name="planned-cross-docking"></a>Plaanitud ristlaadimine
 
@@ -30,21 +28,23 @@ Selles teemas kirjeldatakse täiustatud plaanitud ristlaadimist. Ristlaadimine o
 
 Ristlaadimine võimaldab töötajatel jätta vahele juba väljaminevasse tellimusse märgitud varude sissetulevat ladustamist ja väljaminevat komplekteerimist. Selle abil vähendatakse varude liigutamise kordade arvu, kus see on võimalik. Lisaks, kuna süsteemiga suheldakse vähem, säästetakse rohkem lao kaupluse korrusel olevat aega ja ruumi.
 
-Enne ristlaadimise käivitamist peab kasutaja konfigureerima uue ristlaadimise malli, kus on määratud ristlaadimise tarneallikas ja muud nõuete kogumid. Kui väljaminev tellimus on loodud, tuleb rida tähistada sissetuleva tellimusega, mis sisaldab sama kaupa.
+Enne ristlaadimise käivitamist peate konfigureerima uue ristlaadimise malli, kus on määratud ristlaadimise tarneallikas ja muud nõuete kogumid. Kui väljaminev tellimus on loodud, tuleb rida tähistada sissetuleva tellimusega, mis sisaldab sama kaupa. Ristlaadimise mallil saate valida direktiivi koodi välja sarnaselt täiendamise ja ostutellimuste seadistamise viisile.
 
 Sissetuleva tellimuse vastuvõtmise ajal tuvastab ristlaadimise seadistus automaatselt ristlaadimise vajaduse ning loob vajaliku koguse jaoks liikumise töö, mis põhineb asukohakorralduse seadistusel.
 
 > [!NOTE]
-> Lao kandeid **ei** jäeta registreerimata ristlaadimise tühistamisel, isegi kui selle võimaluse säte on laohalduse parameetrites sisse lülitatud.
+> Lao kandeid *ei* jäeta registreerimata ristlaadimise tühistamisel, isegi kui selle võimaluse säte on laohalduse parameetrites sisse lülitatud.
 
-## <a name="turn-on-the-planned-cross-docking-feature"></a>Funktsiooni Plaanitud ristilaadimine sisselülitamine
+## <a name="turn-on-the-planned-cross-docking-features"></a>Plaanitud ristilaadimise funktsioonide sisselülitamine
 
-Enne täiustatud plaanitud ristlaadimise kasutamist, peate funktsiooni oma süsteemis sisse lülitama. Administraatorid saavad kasutada [funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) tööruumi, et kontrollida funktsiooni olekut ja vajadusel selle sisse lülitada. Seega on funktsioon loetletud järgmisel viisil.
+Kui teie süsteemis ei ole veel selles teemas kirjeldatud funktsioone, avage [Funktsioonihaldus](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ja lülitage järgmised funktsioonid järgmises järjekorras sisse.
 
-- **Moodul:** *laohaldus*
-- **Funktsiooni nimi** *Plaanitud ristilaadimine*
+1. *Plaanitud ristlaadimine*
+1. *Asukohadirektiividega ristiliaadimismallid*
+    > [!NOTE]
+    > See funktsioon võimaldab määrata ristlaadimise mallil **direktiivi tähise** välja sarnaselt täiendusmallide seadistamise viisiga. Selle funktsiooni lubamine takistab teil lõpliku *put*-rea ristlaadimise töömalli ridadele direktiivi koodi lisamist. See tagab, et lõpliku asukoha saab määrata töö loomise ajal enne töömallide kaalumist.
 
-## <a name="setup"></a>Häälestus
+## <a name="setup"></a>Seadistus
 
 ### <a name="regenerate-load-posting-methods"></a>Koorma sisestamise meetodite uuesti loomine
 
@@ -90,6 +90,10 @@ Plaanitud ristlaadimine rakendatakse koormuse sisestamise meetodina. Pärast fun
 
         See suvand määratleb, kas tarnet tuleb vastuvõtmise ajal uuesti kinnitada. Kui selle suvandi väärtuseks on seatud *Jah*, kontrollitakse nii maksimaalset ajavahemikku kui ka aegumiskuupäevade vahemikku.
 
+    - **Korralduse kood:** jätke see väli tühjaks
+
+        Selle suvandi lubavad *asukohadirektiivide funktsiooniga ristlaadimismallid*. Süsteem kasutab asukohakorraldusi, et aidata määrata parim asukoht ristlaadimise varude teisaldamiseks. Selle seadistamiseks määrake igale asjakohasele ristlaadimise mallile korralduse kood. Kui määratakse direktiivikood, otsib süsteem töö loomisel asukohadirektiive direktiivikoodi järgi. Sel viisil saate piirata asukohajuhiseid, mida kasutatakse konkreetse ristlaadimise malli puhul.
+
     - **Kinnita maksimaalne ajavahemik:** *Jah*
 
         See suvand määratleb, kas maksimaalset ajavahemikku tuleb hinnata tarneallika valimisel. Kui selle suvandi väärtuseks on seatud *Jah*, siis muutuvad maksimaalse ja minimaalse ajavahemiku väljad kättesaadavaks.
@@ -112,6 +116,9 @@ Plaanitud ristlaadimine rakendatakse koormuse sisestamise meetodina. Pärast fun
 
     - **Järjekorranumber:** *1*
     - **Tarneallikas:** *Ostutellimus*
+
+> [!NOTE]
+> Saate seadistada päringu, et juhtida konkreetse ristdokkimise malli kasutamist. Ristlaadimise mallide päringus on ainult *InventTable*'i (kaubad) tabel ja sisemiselt ühendatud *WHSInventTable'i* (WHS-kaupade) tabel. Kui soovite päringule teisi tabeleid lisada, saate nendega liituda, kasutades ainult *olemas olnud liitmised* või *ei ole olemas liitmised*. Kui filtreerite ühendatud tabeleid, laaditakse põhitabelist kirje iga tabeli sobiva kirje kohta. Kui liitmistüüp *on olemas liitmine*, lõpeb otsing pärast esimese vaste leidmist. Näiteks kui te liidate müügitellimuse rea tabeliga kaupade tabeliga, kontrollib ja tagastab süsteem kaubad, mille kohta on määratud tingimus vähemalt ühel müügitellimuse real. Andmed on toodud ematabelist (kaubad), mitte alamtabelist (müügitellimuse rida). Seega ei saa lähtedokumentide (nt müügitellimuse ridade või klientide) alusel filtreerimist teha väljast.
 
 ### <a name="create-a-work-class"></a>Tööklassi loomine
 
@@ -147,6 +154,9 @@ Plaanitud ristlaadimine rakendatakse koormuse sisestamise meetodina. Pärast fun
     - **Töö klassi ID:** *CrossDock*
 
 1. Valige **Salvesta** ja kinnitage, et malli *51 ristlaadimine* on valitud märkeruut **Kehtiv**.
+1. Valikuline: valige suvand **Redigeeri päringut**, kui soovite seada töömalli kasutamisel soovitud kriteeriumid.
+
+    Saate seadistada päringu, et juhtida, millal konkreetset töömalli kasutatakse. Näiteks saate määrata, et malli saab kasutada tööks ainult konkreetses asukohas. Kui soovite, et ristlaadimise töö mall rakendati kindlas asukohas, peate filtreerima väljal **Alustamise asukoht**, mitte väljal **Asukoht**, sest sissetulevate protsesside (ost, ristlaadimine ja laadimine) töö loomine algab panemisrealt. Töö loomisel seadistab asukoha tähis **Asukoht** välja panemiskohaks. Kuid valimiskoht salvestatakse väljale **Alguskoht**.
 
 > [!NOTE]
 > Töötüübid *Komplekteerimine* ja *Ladustamine* peavad olema samad.
@@ -314,4 +324,7 @@ Praegu on mõlemal töö ID-l sama sihtkoha identifitseerimisnumber. Järgmiste 
 
 Järgmine illustratsioon näitab, kuidas lõpule viidud ristlaadimise tööd kuvatakse Microsoftis Dynamics 365 Supply Chain Managementis.
 
-![Lõpule viidud ristlaadimise töö](media/PlannedCrossDockingWork.png "Lõpule viidud ristlaadimise töö")
+![Lõpule viidud ristlaadimise töö.](media/PlannedCrossDockingWork.png "Lõpule viidud ristlaadimise töö")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

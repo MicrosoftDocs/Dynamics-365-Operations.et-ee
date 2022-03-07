@@ -2,9 +2,11 @@
 title: Saatmiskonteinerite haldamine
 description: Selles teemas kirjeldatakse, kuidas töötada saatmiskonteineritega. Saatmiskonteinereid kasutatakse füüsiliselt kokkurühmitatud kaupade rühmitamiseks. Neid kasutatakse ka juhul, kui kulud tuleb jagada ainult nende kaupade vahel, tavaliselt seetõttu, et need on füüsiliselt koos.
 author: sherry-zheng
+manager: tfehr
 ms.date: 12/14/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ITMContainersListPage, ITMContainers
 audience: Application User
@@ -13,17 +15,18 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-14
-ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: d3a47aa2ae36cd36a7e92aa2503252021e03f739
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.17
+ms.openlocfilehash: e75deb5f4acd647408e93957bb99f04f548108f6
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573773"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5501338"
 ---
 # <a name="manage-shipping-containers"></a>Saatmiskonteinerite haldamine
 
 [!include [banner](../../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Saatmiskonteinereid kasutatakse füüsiliselt kokkurühmitatud kaupade rühmitamiseks. Neid kasutatakse ka juhul, kui kulud tuleb jagada ainult nende kaupade vahel, tavaliselt seetõttu, et need on füüsiliselt koos.
 

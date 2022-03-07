@@ -2,11 +2,8 @@
 title: ER-i funktsioon LISTJOIN
 description: See teema sisaldab teavet selle kohta, kuidas kasutatakse elektroonilise aruandluse (ER) funktsiooni LISTJOIN.
 author: NickSelin
-manager: kfend
 ms.date: 04/01/2020
-ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -17,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 28f03e5e6af0f252a994f2e54b57a5ef654f4e67
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: d9346afc88adb89c08098f39a5fd1c2cb82f664af2244b8cafbbe8a4d2f516c6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682239"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6755798"
 ---
 # <a name="listjoin-er-function"></a>ER-i funktsioon LISTJOIN
 
@@ -33,7 +30,7 @@ ms.locfileid: "4682239"
 ## <a name="syntax"></a>Süntaks
 
 ```vb
-LIST (list 1 [, list 2, …, list N])
+LISTJOIN (list 1 [, list 2, …, list N])
 ```
 
 ## <a name="arguments"></a>Argumendid
@@ -68,18 +65,21 @@ Seejärel sisestate tüübi `Container` andmeallika **Kirje 2**. See andmeallika
 - **Summa**: see väli sisaldab avaldist, mis tagastab tüübi `Real` väärtuse.
 - **IsValid**: see väli sisaldab avaldist, mis tagastab tüübi `Boolean` väärtuse.
 
-![ER-i mudelivastenduse koostaja leht](./media/er-functions-list-listjoin-image1.gif)
+![ER-i mudelivastenduse koostaja leht.](./media/er-functions-list-listjoin-image1.gif)
 
 Sel juhul tagastab avaldis `LISTJOIN(LIST('Record 1'), LIST('Record 2'))` uue loendi, mis sisaldab kaht kirjet.
 
-![ER-i mudelivastenduse koostaja leht kahe kirjega](./media/er-functions-list-listjoin-image2.gif)
+![ER-i mudelivastenduse koostaja leht kahe kirjega.](./media/er-functions-list-listjoin-image2.gif)
 
 Selle loendi struktuur koosneb ühest tüübi `Real` väljast **Summa**, kuna see väli on ainuke väli, mis on esitatud kutsutud funktsiooni igas argumendis.
 
-![ER-i mudelivastenduse koostaja lehe summaväli](./media/er-functions-list-listjoin-image3.gif)
+![ER-i mudelivastenduse koostaja lehe summaväli.](./media/er-functions-list-listjoin-image3.gif)
 
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Loendi funktsioonid](er-functions-category-list.md)
 
 [Käivitatud ER-vormingu andmeallikate silumine andmevoo ja teisenduse analüüsimiseks](er-debug-data-sources.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

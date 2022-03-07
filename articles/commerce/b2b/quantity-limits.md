@@ -2,9 +2,11 @@
 title: Toote koguse piirangute määramine B2B e-kaubanduse saitide jaoks
 description: Selles teemas kirjeldatakse ettevõtetevahelise (B2B) e-kaubanduse saitidele toote koguse piirangute seadistamist.
 author: josaw1
+manager: AnnBe
 ms.date: 01/20/2021
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailOperations
 audience: Application User, IT Pro
@@ -14,12 +16,12 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 2c8adaad2afee3b735c69a501d7949a807f4e770
-ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
-ms.translationtype: MT
+ms.openlocfilehash: 1208b968e476ccbc7a726facf1db896c7bf3c36f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323376"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5211173"
 ---
 # <a name="set-product-quantity-limits-for-b2b-e-commerce-sites"></a>Toote koguse piirangute määramine B2B e-kaubanduse saitide jaoks
 
@@ -75,9 +77,9 @@ Commerce'i saidiehitajas B2B toote koguse piirangute funktsiooni sisse lülitami
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-[B2B e-kaubandussaidi häälestamine](set-up-b2b-site.md)
+[B2B e-kaubanduse saidi seadistamine](set-up-b2b-site.md)
 
-[B2B-äripartnerite haldamine kliendi hierarhiaid kasutades](partners-customer-hierarchies.md)
+[B2B organisatsioonidele organisatsiooni modelleerimise hierarhiate loomine.](org-model.md)
 
 [Äripartnerkasutajate haldamine B2B e-kaubandussaitidel](manage-b2b-users.md)
 

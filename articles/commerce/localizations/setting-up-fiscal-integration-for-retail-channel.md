@@ -2,11 +2,9 @@
 title: Commerce’i kanalite fiskaalüksuse integreerimise seadistamine
 description: Sellest teemast leiate juhised kaubanduse kanalite fiskaalüksuse integratsiooni funktsiooni seadistamise kohta.
 author: josaw
-manager: annbe
 ms.date: 02/01/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailFunctionalityProfile, RetailFormLayout, RetailParameters
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2018-11-1
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: 889340c13d150ce8e3ad49a08b3d7f0c25a4b77a
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: bc87972b1cd2e04d31a3d48132cd1de42353698d
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017889"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5801913"
 ---
 # <a name="set-up-the-fiscal-integration-for-commerce-channels"></a>Commerce’i kanalite fiskaalüksuse integreerimise seadistamine
 
@@ -225,3 +223,6 @@ Edasi lükatud fiskaalüksuse registreerimise käsitsi käivitamise lubamiseks p
     1. Valige värskendatav paigutus.
     2. Lisage uus nupp ja määrake nupu atribuut **Lõpeta fiskaalüksuse registreerimise protsess**.
     3. Käivitage lehel **Jaotusgraafik** töö **1090**, et edastada teie muudatused kanali andmebaasile.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

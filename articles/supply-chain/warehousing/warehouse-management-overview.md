@@ -2,25 +2,24 @@
 title: Laohalduse ülevaade
 description: Laohalduse abil laotoimingute jälgimine ja automatiseerimine.
 author: ShylaThompson
-manager: tfehr
 ms.date: 04/20/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSParameters, WHSWorkPool
 audience: Application User
 ms.reviewer: kamaybac
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 432004a7389434248ddde242b153dfb3cd955055
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 3778a95fbc459e927cc97711f3e3d06bd4917dc5
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4970124"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6337548"
 ---
 # <a name="warehouse-management-overview"></a>Laohalduse ülevaade
 
@@ -73,3 +72,6 @@ Laohalduse ja muude lahendustega seotud arvamused, uudised ja muu teabe leiate [
 
  
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

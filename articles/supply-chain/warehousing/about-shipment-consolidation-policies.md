@@ -2,26 +2,23 @@
 title: Saadetise konsolideerimispoliitikad
 description: Selles teemas antakse ülevaate funktsioonidest, mis pakuvad saadetise konsolideerimispoliitikate paindlikku konfigureerimist.
 author: GarmMSFT
-manager: tfehr
 ms.date: 05/12/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench, WHSShipConsolidationError, WHSShipConsolidationSetShipment, WHSShipConsolidationPolicySelect, WHSShipPlanningListPage, TMSCarrierGroup, WHSShipConsolidationTemplate, WHSShipConsolidationTemplateApply, WHSShipConsolidationTemplateCreate
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: f895b13b2e11d4cb341f80b3cfeb40ed998ccfc4
-ms.sourcegitcommit: d9bffbeae2ba14f06294dd275383077d4d65c4fa
+ms.openlocfilehash: ab7c23ac7cf70de08425783df231bc95a3252b332efa38d9b95fe8dd7f9508b1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "4654216"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6776724"
 ---
 # <a name="shipment-consolidation-policies"></a>Saadetise konsolideerimispoliitikad
 
@@ -135,3 +132,6 @@ Järgmises tabelis võetakse kokku, kuidas saadetise konsolideerimine toimib, ku
 ## <a name="additional-resources"></a>Lisaressursid
 
 - [Saadetise konsolideerimispoliitikate konfigureerimine](configure-shipment-consolidation-policies.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

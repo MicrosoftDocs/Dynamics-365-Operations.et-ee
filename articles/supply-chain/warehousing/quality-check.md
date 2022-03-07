@@ -2,23 +2,26 @@
 title: Kvaliteedikontroll
 description: Sellest teemast leiate teavet kvaliteedikontrolli funktsiooni kohta. See funktsioon võimaldab laotöötajatel teha kiireid, pistelisi kontrolle kaupade vastuvõtmisel saabumisalale.
 author: mirzaab
+manager: tfehr
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSQualityCheckTemplate, WHSWorkClass, WHSWorkTemplateTable, WHSLocDirTable, WHSQualityCheckResult
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
-ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 0848eeb2ad073915ad90d2fd2a4a91f0f420c0ab
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
-ms.translationtype: MT
+ms.dyn365.ops.version: Release 10.0.8
+ms.openlocfilehash: dfb71f74732d65409003c4f6f74145442a1efa3f
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103284"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4426656"
 ---
 # <a name="quality-check"></a>Kvaliteedikontroll
 
@@ -39,9 +42,12 @@ Selle funktsiooni kasutamisel toimub saabumis- ja kvaliteedikontroll järgmiselt
 
 Seda protsessi saab häälestada ka nii, et kõik skannitud litsentsiplaadid suunatakse kohe kvaliteedikontrolli asukohta.
 
-## <a name="turn-the-quality-check-feature-on-or-off"></a>Kvaliteedikontrolli funktsiooni sisse- või väljalülitamine
+## <a name="turn-on-the-quality-check-feature"></a>Kvaliteedikontrolli funktsiooni sisselülitamine
 
-Selles teemas kirjeldatud funktsioonide kasutamiseks peab kvaliteedikontrolli *funktsioon* olema teie süsteemi jaoks sisse lülitatud. Tarneahela halduse 10.0.25 puhul on see funktsioon kohustuslik ja seda ei saa välja lülitada. Kui käitate versiooni, mis on *vanem* kui 10.0.25, saavad administraatorid selle funktsiooni sisse või välja lülitada, otsides kvaliteedikontrolli funktsiooni Funktsioonihalduse [tööruumist](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Enne funktsiooni *Kvaliteedikontroll* kasutamist peate selle oma süsteemis sisse lülitama. Administraatorid saavad kasutada [funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sätteid, et kontrollida funktsiooni olekut ja vajadusel selle sisse lülitada. Tööruumis **Funktsioonihaldus** loetletakse funktsiooni järgneval viisil.
+
+- **Moodul:** *laohaldus*
+- **Funktsiooni nimi:** *Kvaliteedikontroll*
 
 ## <a name="set-up-the-feature-for-the-example-scenario"></a>Funktsiooni häälestamine näidisstsenaariumi jaoks
 
@@ -296,7 +302,7 @@ Pärast ostutellimuse loomist saab selle vastu võtta, kasutades menüü-üksust
 
 #### <a name="receive-pallet-1"></a>Kaubaaluse 1 vastuvõtmine
 
-1. Logige mobiilirakendusse Warehouse Management sisse lao *51* kasutajana. (Sisestage *51* kasutaja ID-na ja *1* paroolina.)
+1. Logige laorakendusse sisse lao *51* kasutajana. (Sisestage *51* kasutaja ID-na ja *1* paroolina.)
 1. Avage **Sissetulev \> Vastuvõttev ostutellimuse rida**.
 1. Sisestage väljale **PONUM** ostutellimuse number.
 1. Kinnitage ostutellimuse number.
@@ -307,7 +313,7 @@ Pärast ostutellimuse loomist saab selle vastu võtta, kasutades menüü-üksust
 
     Kuvataval lehel **Kvaliteedikontroll** pole sisestusvälju. Sellel on allosas ainult kinnituse (märge) nupp ja ülaosas menüünupp (**≡**). (Menüünupule on mõnikord viidatud ka kui hamburgerile või hamburgerinupule). Kvaliteedikontrolli protsessi kiirendamiseks, kui kaubaalus läbib kvaliteedikontrolli, kinnitab kasutaja vaid lehe **Kvaliteedikontroll**.
 
-    ![Kvaliteedikontrolli leht.](media/quality-check.png "Kvaliteedikontrolli leht")
+    ![Kvaliteedikontrolli leht](media/quality-check.png "Kvaliteedikontrolli leht")
 
 1. Kaubaaluse 1 kvaliteedikontrolli läbimiseks valige kinnitusnupp realt 1.
 
@@ -391,6 +397,3 @@ Selle stsenaariumi võetakse kaubaalus 3 vastu.
 1. Valige lehe ülaosas nupp Menüü (**≡**) ja seejärel tehke menüüsse naasmiseks valik **Tühista**.
 
 Nüüd saate mobiilirakenduse sulgeda.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

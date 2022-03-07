@@ -2,8 +2,11 @@
 title: ER-i funktsioon FA_SUM
 description: See teema sisaldab teavet selle kohta, kuidas kasutatakse elektroonilise aruandluse (ER) funktsiooni FA_SUM.
 author: NickSelin
+manager: kfend
 ms.date: 12/17/2019
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -14,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 96b579cff1a61b8e1131317917ededb3b26963677e99da0e294501817cda26d1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1c46f945a9caae2836886d051da820658e8be9af
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740307"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4687692"
 ---
 # <a name="fa_sum-er-function"></a>ER-i funktsioon FA_SUM
 
@@ -64,6 +67,3 @@ Tulemuseks olev kirje väärtus.
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Muud (ettevõtte domeenipõhised) funktsioonid](er-functions-category-other.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

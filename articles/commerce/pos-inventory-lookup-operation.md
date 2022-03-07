@@ -2,7 +2,7 @@
 title: Varude otsimine POS-is
 description: See teema kirjeldab, kuidas kasutada müügikohas varude otsingutoimingut, et vaadata toodete vaba kaubavaru saadavust Dynamics 365 Commerce kaupluste ja ladude lõikes.
 author: boycezhu
-ms.date: 08/12/2021
+ms.date: 05/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application update 5, AX 8.0
-ms.openlocfilehash: ded7c0aa00d0806dfe4eb4e182abbbf66fd76d5b
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: c0f753febb0d347015fde1374148835f90df55a3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343832"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353776"
 ---
 # <a name="inventory-lookup-operation-in-pos"></a>Varude otsimine POS-is
 
@@ -38,10 +38,10 @@ Kui varude otsingutoiming on käivitatud kassa rakendusest, kasutab kassapidaja 
 
 Üksiku toote puhul annab varude otsingutoiming varude otsinguloendi vaate, mis näitab järgmiste toodete teavet asukohtade loendi kohta:
 
-- **Varud** – viitab toote saadaolevale füüsilisele kogusele.
-- **Reserveeritud** – viitab peakontorist toodud füüsiliselt reserveeritud kogusele.
-- **Tellitud** – viitab peakontorist toodud „tellitud kokku” kogusele.
-- **Ühik** – viitab peakontoris konfigureeritud varude mõõtühikule.
+- **Varud** – Viitab toote saadaolevale füüsilisele kogusele.
+- **Reserveeritud** - Viitab peakontorist toodud "füüsiliselt reserveeritud" kogusele.
+- **Tellitud** - Viitab peakontorist toodud "füüsiliselt reserveeritud" kogusele.
+- **Ühik** – Viitab peakontoris konfigureeritud varude mõõtühikule.
 
 Asukohtade loendi vaade hõlmab kõiki kauplusi ja ladusid, mis on konfigureeritud täitmisgruppides, mille juurde praegune kauplus on lingitud, nagu näha järgmises näitepildis.
 
@@ -52,26 +52,25 @@ Asukohtade loendi vaade hõlmab kõiki kauplusi ja ladusid, mis on konfigureerit
 
 POS-i rakenduse ribal on saadaval järgmised toimingud:
 
-- **Sordi** – tegevus võimaldab kassa kasutajal sortida loendivaate andmeid mitmesuguste kriteeriumide alusel. Asukohapõhine sortimine on vaikesortimisvalik.
-
-    - **Geograafiline asukoht** (kõige lähemast asukohast kõige kaugemasse asukohta, aluseks on kaugus praeguse kauplusega)
-    - **Nimi** (kasvavas või kahanevas järjestuses)
-    - **Kaupluse nimi** (kasvavas või kahanevas järjestuses)
-    - **Varud** (kahanevas järjestuses)
-    - **Reserveeritud** (kahanevas järjestuses)
-    - **Tellitud** (kahanevas järjestuses)
-
-- **Filtreeri** – tegevus võimaldab kassa kasutajal vaadata konkreetse asukoha filtreeritud andmeid.
-- **Kuva kaupluse saadavus** – tegevus võimaldab kassa kasutajal vaadata lubamiseks saadaval (ATP) koguseid valitud kaupluses olevale tootele.
-- **Kuva kaupluse asukohta** – tegevus avab eraldi lehe, et kuvada valitud kaupluse kaardivaade, aadress ja kauplusetunnid.
-- **Kättesaamine poest** – tegevus loob klienditellimuse tootevariandi jaoks, millele tullakse valitud asukohta järele, ja suunab kasutaja kandekuvale.
-- **Saada toode** – tegevus loob klienditellimuse tootevariandi jaoks, mis saadetakse valitud poest, ja suunab kasutaja kandekuvale.
-- **Kõigi variantide kuvamine** – variantidega toote puhul aktiveerib see tegevus loendivaate asemel maatriksivaate, kus kuvatakse kõigi tootevariantide laoteave.
-- **Lisa kandele** – tegevus lisab toote ostukorvi ja suunab kasutaja kandekuvale.
+- **Sortimine** – See toiming võimaldab kassa kasutajal sortida loendivaate andmeid mitmesuguste kriteeriumide alusel. Asukohapõhine sortimine on vaikesortimisvalik. 
+  - **Geograafiline asukoht** (kõige lähemast asukohast kõige lähimasse asukohta, võrrelduna praeguse kauplusega)
+  - **Nimi** (kasvavas või kahanevas järjestuses)
+  - **Kaupluse nimi** (kasvavas või kahanevas järjestuses)
+  - **Varud** (kahanevas järjestuses)
+  - **Reserveeritud** (kahanevas järjestuses)
+  - **Tellitud** (kahanevas järjestuses)
+- **Filtreeri** – See toiming võimaldab kassa kasutajal vaadata konkreetse asukoha filtreeritud andmeid.
+- **Kuva kaupluse saadavust**- See toiming võimaldab kassa kasutajal vaadata saadaolevaid (ATP) koguseid valitud kaupluses olevale tootele.
+- **Kuva kaupluse asukohta** – See toiming avab eraldi lehe, et kuvada valitud kaupluse kaardivaade, aadress ja kauplusetunnid.
+- **Vastuvõtmine poest** - Looge klienditellimus tootevariandi jaoks, millele tullakse valitud asukohta järele, ja suunakse kasutaja kandekuvale.
+- **Saada toode** - Looge klienditellimus tootevariandi jaoks, millele tullakse valitud asukohta järele, ja suunakse kasutaja kandekuvale.
+- **Kuvage kõiki variante** – Variantidega toote puhul aktiveeritakse see toiming loendi vaatest maatriksivaatesse, kus kuvatakse kõigi tootevariantide laoteave.
+- **Lisa kandele** – See toiming lisab toote ostukorvi ja suunab kasutaja tehinguekraanile.
 
 > [!NOTE]
-> Asukohapõhine sortimine, mida tutvustati rakenduse Commerce versiooni 10.0.17 väljalaskes, kuvab praeguse kaupluse ülaosas. Teiste asukohtade jaoks määratakse asukoha ja praeguse kaupluse vaheline kaugus Commerce Headquarter’is määratletud koordinaatidega (laius- ja pikkuskraad). Kaupluse asukohateave määratletakse kauplusega seotud tootmisüksuse esmasel aadressil. Mittelao puhul määratletakse asukoha teave lao aadressis. Enne versiooni 10.0.17 kuvab loendivaade alati praeguse kaupluse ülaosas ja sordib teised asukohad tähestikulises järjekorras.
->
+> Asukohapõhise sortimise puhul määratakse asukoha ja praeguse kaupluse vaheline kaugus Commerce headquartersis määratletud koordinaatidega (laius- ja pikkuskraadi järgi). Kaupluse asukoha teave määratletakse kauplusega seotud tootmisüksuse esmasel aadressil. Mittelao puhul määratletakse asukoha teave lao aadressis. Kui praegusel kauplusel ei ole koordinaate õigesti määratletud, kuvab asukohapõhine sortimisvalik loendi ülaosas praeguse kaupluse ja sordib seejärel teisi asukohti nime järgi.
+
+> [!NOTE]
 > **Kuva kaupluse saadavus**, **Kuva kaupluse asukohta**, **Kauplusesse järeleminemine**, ja **Toote saatmise** toimingud pole kauplusevälistes asukohtades saadaval.
 
 ## <a name="inventory-lookup-matrix-view-for-variants"></a>Varude otsingumaatriksi vaade variantide puhul
@@ -94,12 +93,12 @@ Dimensiooniväärtuste kuvamisjärjestus maatriksi vaates põhineb Commerce Head
 
 Maatriksivaate lahtris on saadaval järgmised toimingud:
 
-- **Müü kohe** – tegevus lisab valitud toote ostukorvi ja suunab kasutaja kandekuvale.
-- **Kättesaamine poest** – tegevus loob valitud variandi jaoks klienditellimuse, millele tullakse valitud kauplusesse järele, ja suunab kasutaja kandekuvale.
-- **Saada toode** – tegevus loob klienditellimuse valitud tootevariandi jaoks, mis saadetakse valitud poest, ja suunab kasutaja kandekuvale.
-- **Saadavus** – tegevus viib kasutaja eraldi lehele, kus kuvatakse valitud kaupluses valitud variandi ATP kogused.
-- **Kuva kõik asukohad** – tegevus aktiveerib standardse varude saadavusloendi vaate, kus kuvatakse valitud variandi laoteave.
-- **Kuva toote üksikasjad** – tegevus suunab kasutaja valitud variandi toote üksikasjade lehele.
+- **Müü kohe** – See toiming lisab toote ostukorvi ja suunab kasutaja tehinguekraanile.
+- **Vastuvõtmine poest** - See toiming loob valitud variandi jaoks klienditellimuse, millele tullakse valitud asukohta järele, ja suunakse kasutaja tehinguekraanile.
+- **Saada toode** - Looge klienditellimus tootevariandi jaoks, mis saadetakse valitud poest ja suunatakse kasutaja tehinguekraanile.
+- **Saadavus** - See toiming viib kasutaja eraldi lehele, kus kuvatakse valitud kaupluses valitud variandi ATP kogused.
+- **Kuva kõik asukohad** – See toiming aktiveerib standardse varude saadavusloendi vaate, kus kuvatakse valitud variandi laoteave.
+- **Toote üksikasjade kuvamine** - See toiming suunab kasutaja valitud variandi toote üksikasjadelehele.
 
 ## <a name="access-inventory-lookup-from-other-pages-in-pos"></a>Juurdepääs varude otsingule teistelt müügikoha lehtedelt
 
@@ -125,5 +124,7 @@ Commerce Release 10.0.9 ja varasemas luuakse **füüsiline väärtus** laootsing
 [Kassa kasutajaliidese visuaalsed konfiguratsioonid](pos-screen-layouts.md)
 
 [Varude saadavuse arvutamine jaemüügikanalite jaoks](calculated-inventory-retail-channels.md)
+
+
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

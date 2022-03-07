@@ -1,31 +1,30 @@
 ---
 title: Mis on uut või mida on muudetud rakenduses Dynamics 365 Human Resources (03. veebruar 2020)
 description: Selles artiklis kirjeldatakse Microsoft Dynamics 365 Human Resourcesi 3. veebruari 2020 uusi või muutunud funktsioone.
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b9efcea4fa52f73ac09a3e0ae74582fc563aeb64
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 09af17051450c14f806282df193aaaa08d7bd3fd0e522475b7d0aea82d8b132c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4526997"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6772660"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-3-2020"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 Human Resources (3. veebruar 2020)
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
@@ -45,7 +44,7 @@ Nüüd saate valitud tegevused kustutada, kasutades nupu **Eemalda** vormil **Tu
 
 ## <a name="coming-soon"></a>Peagi tulekul
 
-Uus lahendus Common Data Service on varsti saadaval järgmiste muudatustega.
+Uus lahendus Dataverse on varsti saadaval järgmiste muudatustega.
 
 | Kirjeldus | Muutmine |
 | ----------------------------------------- | --- |
@@ -56,12 +55,15 @@ Uus lahendus Common Data Service on varsti saadaval järgmiste muudatustega.
 | Uued ergutussüsteemi seadistuse üksused | **Muutuva hüvitisplaani tüüp**</br>**Kompensatsiooni tulemusplaan**</br>**Pensionireeglid**</br>**Muutuva hüvitisplaani tase** |
 | Uus olem **Töötaja kalendri tööhõive** | Lisatud **Töökalendri üksus** |
 | Uus olem **Palgaarvestuse ametikoha üksikasjad** | Lisatud **Palgaarvestuse ametikoha üksikasjad** |
-| Uus üksus **Ametinimetus** | Lisatud **Ametinimetus**. Uus üksus **Pealkiri** kaasatakse sünkroonimisprotsessi rakenduse Human Resources ja teenuse Common Data Service vahel. Kuid algselt ei viidata sellele üksustelt **Ametikoht** või **Töö**. |
+| Uus üksus **Ametinimetus** | Lisatud **Ametinimetus**. Uus üksus **Pealkiri** kaasatakse sünkroonimisprotsessi rakenduse Human Resources ja teenuse Dataverse vahel. Kuid algselt ei viidata sellele üksustelt **Ametikoht** või **Töö**. |
 
 ## <a name="see-also"></a>Vt ka
 
 [Mis on uut või mida on muudetud rakenduses Human Resources?](hr-admin-whats-new.md)</br>
-[Dynamics 365 Human Resources 2019 väljalaskevoo 2 ülevaade](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Dynamics 365 Human Resources 2019 väljalaskevoo 2 ülevaade](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Värskendamisprotsess](hr-admin-setup-update-process.md)</br>
 [Funktsioonide haldamine](hr-admin-manage-features.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

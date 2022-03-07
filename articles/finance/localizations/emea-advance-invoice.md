@@ -2,27 +2,24 @@
 title: Ettemaksuarved Ida-Euroopa puhul
 description: Ettemaksuarve on dokument, mille saate luua kliendile või hankijale. Sellel märgitakse summa, mis tuleb müügitellimuse puhul ette maksta. See teema annab teavet ettemaksuarvete kohta Ida-Euroopa puhul.
 author: EvgenyPopovMBS
-manager: AnnBe
 ms.date: 04/10/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustParameters
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 272643
 ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland
 ms.author: epopov
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 728df627b468f7727cb7bd993709adb8da695ced
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8a4501ceb218a9431eb112822708d580844dd970
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407842"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5839931"
 ---
 # <a name="advance-invoices-for-eastern-europe"></a>Ettemaksuarved Ida-Euroopa puhul
 
@@ -153,3 +150,6 @@ Looge ostutellimus või valige olemasolev ostutellimus. Klõpsake valikut **Arve
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

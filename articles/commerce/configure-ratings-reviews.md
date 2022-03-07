@@ -2,35 +2,30 @@
 title: Hinnangute ja arvustuste konfigureerimine
 description: Selles teemas kirjeldatakse, kuidas konfigureerida oma e-kaubanduse saiti, et kuvada rakenduses Microsoft Dynamics 365 Commerce klientide antud hinnanguid ja arvustusi.
 author: gvrmohanreddy
-manager: annbe
 ms.date: 02/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: edd2082b5d2cafcb955f8e3c7762bcba523ac479
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: e3f9ff4b0654ec5fa7548ac62e16ae64f44383e7
+ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411576"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968098"
 ---
 # <a name="configure-ratings-and-reviews"></a>Hinnangute ja arvustuste konfigureerimine
 
 [!include [banner](includes/banner.md)]
 
 Selles teemas kirjeldatakse, kuidas konfigureerida oma e-kaubanduse saiti, et kuvada rakenduses Microsoft Dynamics 365 Commerce klientide antud hinnanguid ja arvustusi.
-
-## <a name="overview"></a>Ülevaade
 
 Hinnangud ja arvustused e-Commerce’i veebisaitidel aitavad klientidel saada toote kohta teavet enne ostuotsuse tegemist, näidates neile, mida teised kliendid nendest toodetest arvavad. E-kaubanduse veebisaitide jaoks on hinnangud ja arvustused lisaks viis klientidelt toodete kohta tagasiside kogumiseks. 
 
@@ -49,7 +44,7 @@ Saidi konfigureerimiseks hinnangute ja arvustuste kuvamiseks toimige järgmiselt
 
 Järgmisel joonisel on näidatud, kuidas see konfiguratsioon rakenduses Dynamics 365 Commerce välja näeb.
 
-![Saidi konfigureerimine hinnangute ja arvustuste kuvamiseks](media/rnr-eCommerce-site-appsettings.png)
+![Saidi konfigureerimine hinnangute ja arvustuste kuvamiseks.](media/rnr-eCommerce-site-appsettings.png)
 
 ## <a name="link-a-product-rating-to-the-reviews-section-of-a-pdp"></a>Toote hinnangu linkimine PDP arvustuste jaotisega
 
@@ -63,7 +58,7 @@ Toote hinnangu linkimiseks PDP jaotisega **Arvustused** tehke järgmist.
 
 Järgmisel joonisel on näidatud, kuidas see konfiguratsioon rakenduses Dynamics 365 Commerce välja näeb.
 
-![Toote hinnangu linkimine PDP arvustuste jaotisega](media/rnr-eCommerce-buy-box-rating-summary.png)
+![Toote hinnangu linkimine PDP arvustuste jaotisega.](media/rnr-eCommerce-buy-box-rating-summary.png)
 
 ## <a name="configure-the-link-for-the-privacy-and-policy-page"></a>Privaatsuse ja poliitika lehe lingi konfigureerimine
 
@@ -78,7 +73,7 @@ Privaatsuse ja poliitika lehe lingi kommenteerimiseks järgige neid samme.
 
 Järgmisel joonisel on näidatud, kuidas see konfiguratsioon rakenduses Dynamics 365 Commerce välja näeb.
 
-![Privaatsuse ja poliitika lehe lingi konfigureerimine](media/rnr-eCommerce-rnr-privacy-policy-link.png)
+![Privaatsuse ja poliitika lehe lingi konfigureerimine.](media/rnr-eCommerce-rnr-privacy-policy-link.png)
 
 ## <a name="configure-ratings-and-reviews-modules-on-product-details-pages"></a>Hinnangute ja arvustuste moodulite konfigureerimine toote üksikasjade lehtedel
 
@@ -92,6 +87,17 @@ Lisateavet toote üksikasjade lehtedel hinnangute ja arvustuste moodulite konfig
 
 [Hinnangute ja arvustuste haldus](manage-reviews.md)
 
-[Hinnangute ja arvustuste moodulite konfigureerimine toote üksikasjade lehtedel](ratings-reviews-modules.md)
-
 [Toote hinnangute sünkroonimine rakenduses Dynamics 365 Retail](sync-product-ratings.md)
+
+[Lubage hinnangute ja ülevaadete käsitsi avaldamine moderaatori poolt](manual-publish-rating-reviews.md)
+
+[Hinnangute ja kommentaaride importimine ja eksportimine](import-export-reviews.md)
+
+[Teenusepõhise autentimise konfigureerimine](service-to-service-auth.md)
+
+[Hinnangud ja arvustused KKK](ratings-reviews-faq.md)
+
+[Hinnangute ja arvustuste moodulid](ratings-reviews-modules.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

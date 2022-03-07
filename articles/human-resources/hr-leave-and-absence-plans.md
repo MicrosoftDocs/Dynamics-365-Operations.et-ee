@@ -2,15 +2,12 @@
 title: Puhkuse ja puudumise plaani loomine
 description: Looge rakenduses Dynamics 365 Human Resources erinevat tüüpi puhkuste jaoks puhkuseplaane.
 author: andreabichsel
-manager: AnnBe
 ms.date: 09/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -18,14 +15,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cb42860292c5e3e654917cf2f62b525993aa795a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f0903c77676ce8ce7c8d585f24dfe4f554ca1321cd3e5ecc33a0b792dfcc4a66
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418205"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6745666"
 ---
 # <a name="create-a-leave-and-absence-plan"></a>Puhkuse ja puudumise plaani loomine
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Määratlege rakenduses Dynamics 365 Human Resources iga pakutava puhkuse tüübi jaoks puhkuse ja puudumise plaanid. Puhkuse ja puudumise plaanid võivad koonduda erinevatel sagedustel, nt igal aastal, igakuiselt või kaks korda kuus. Saate määratleda plaani kui hüvitise, kus kogu lisandumine omistatakse kindlale kuupäevale. Näiteks võite luua plaani, mis avab igal aastal ujuvad pühad.
 
@@ -383,3 +382,6 @@ Prognoositud saldo (30) = juurdekasvu summa (10 × 1) – praegune saldo (40) �
 - [Puhkuste ja puudumiste ülevaade](hr-leave-and-absence-overview.md)
 - [Puhkuste ja puudumiste tüüpide konfigureerimine](hr-leave-and-absence-types.md)
 - [Puhkuse ja puudumise plaanide koondamine](hr-leave-and-absence-accrue.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

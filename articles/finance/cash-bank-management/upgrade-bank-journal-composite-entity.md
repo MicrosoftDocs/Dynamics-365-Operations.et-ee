@@ -1,34 +1,31 @@
 ---
 title: Pangatöölehe liitüksuse värskendamine
-description: Järgmised etapid on vajalikud, et lisada täiendav väli BankTransactionType liitüksusele BankJournalEntity.
-author: ShylaThompson
-manager: panolte
+description: Selles teemas on loetletud vajalikud sammud, et lisada täiendav väli BankTransactionType liitüksusele BankJournalEntity.
+author: panolte
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 221654
 ms.assetid: adb8146b-eb21-4be2-a338-a5b299fcc9a0
 ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: ec196600a54a2aed4565cf422dc386d6646ff524
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 0d4334e9aa333aad116f0a0291d9175268661f11
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442230"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7595430"
 ---
 # <a name="update-the-bank-journal-composite-entity"></a>Pangatöölehe liitüksuse värskendamine
 
 [!include [banner](../includes/banner.md)]
 
-Järgmised etapid on vajalikud, et lisada täiendav väli BankTransactionType liitüksusele BankJournalEntity.
+Selles teemas on loetletud vajalikud sammud, et lisada täiendav väli BankTransactionType liitüksusele BankJournalEntity.
 
 Kasutage järgmisi etappe, et lisada täiendav väli BankTransactionType liitüksusele BankJournalEntity.
 
@@ -55,3 +52,6 @@ Kasutage järgmisi etappe, et lisada täiendav väli BankTransactionType liitük
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

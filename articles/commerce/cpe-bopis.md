@@ -1,6 +1,6 @@
 ---
 title: BOPIS-e konfigureerimine Dynamics 365 Commerce'i hindamiskeskkonnas
-description: Selles teemas selgitatakse, kuidas konfigureerida stsenaariumit „osta veebis, käi poes järel” (BOPIS) Microsoft Dynamics 365 Commerce'i hindamiskeskkonnas pärast selle ettevalmistamist.
+description: Selles teemas selgitatakse, kuidas konfigureerida stsenaariumit „osta veebis, käi poes järel” (BOPIS) Microsoft Dynamics 365 Commerce'i keskkonnas pärast selle ettevalmistamist.
 author: rubendel
 manager: annbe
 ms.date: 07/16/2020
@@ -10,25 +10,24 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
-ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: rubendel
 ms.search.validFrom: 2020-04-20
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 62dabaa2610341cc8ad8e85812a317ac3123fcb1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 71f2fb3882b51cdaed9b231cd605949195deca17
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411571"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5213862"
 ---
 # <a name="configure-bopis-in-a-dynamics-365-commerce-evaluation-environment"></a>BOPIS-e konfigureerimine Dynamics 365 Commerce'i hindamiskeskkonnas
 
 [!include [banner](includes/banner.md)]
 
-Selles teemas selgitatakse, kuidas konfigureerida stsenaariumit „osta veebis, käi poes järel” (BOPIS) Microsoft Dynamics 365 Commerce'i hindamiskeskkonnas pärast keskkonna ettevalmistamist.
+Selles teemas selgitatakse, kuidas konfigureerida stsenaariumit „osta veebis, käi poes järel” (BOPIS) Microsoft Microsoft Dynamics 365 Commerce'i keskkonnas pärast keskkonna ettevalmistamist.
 
 ## <a name="prerequisite"></a>Eeltingimus
 
@@ -164,3 +163,6 @@ Kõigi üldiste probleemide puhul peaksite alati esimesena uurima Modern POS-i v
 [Veebimaksevahendite salvestamine Adyeni konnektori abil](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector-listpi)
 
 [Omnikanali maksete ülevaade](https://docs.microsoft.com/dynamics365/commerce/omni-channel-payments)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

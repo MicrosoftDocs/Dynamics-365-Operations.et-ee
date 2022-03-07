@@ -1,37 +1,31 @@
 ---
 title: Juriidiliste isikute loomine
-description: See teema kirjeldab, kuidas luua Microsofti Dynamics 365 Commerce'is juriidilisi isikuid, mis tulevad enne kanalite loomist luua ja konfigureerida.
+description: See teema kirjeldab, kuidas luua Microsoft Dynamics 365 Commerce'is juriidilisi isikuid, mis tulevad enne kanalite loomist luua ja konfigureerida.
 author: samjarawan
-manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 28cbcc42505f1dc90c420adc812735841541c8e0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: bc5f097a7f941dfa05f4011d9be5caffbb7f01b5f6e67cd7535ef3d1b13f59fe
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411638"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6740427"
 ---
 # <a name="create-legal-entities"></a>Juriidiliste isikute loomine
 
-
 [!include [banner](includes/banner.md)]
 
-See teema kirjeldab, kuidas luua Microsofti Dynamics 365 Commerce'is juriidilisi isikuid, mis tulevad enne kanalite loomist luua ja konfigureerida.
-
-## <a name="overview"></a>Ülevaade
+See teema kirjeldab, kuidas luua Microsoft Dynamics 365 Commerce'is juriidilisi isikuid, mis tulevad enne kanalite loomist luua ja konfigureerida.
 
 Juriidiline isik on registreeritud või õigusliku struktuuriga organisatsioon. Juriidilised isikud võivad sõlmida juriidilisi lepinguid ja on kohustatud koostama oma tegevuse kohta aruandeid.
 
@@ -50,7 +44,7 @@ Uue juriidilise isiku loomiseks Dynamics 365 Commerce'is toimige järgmiselt.
 1. Sisestage või valige väärtus väljale **Riik/regioon**.
 1. Valige nupp **OK**. 
 
-   ![Juriidilise isiku loomine](media/legal-entities.png)
+   ![Juriidilise isiku loomine.](media/legal-entities.png)
 
 1. Esitage jaotises **Üldine** juriidilise isiku kohta järgmised üldandmed. 
    1. Sisestage otsingunimi, kui otsingunimi on nõutav. Otsingunimi on alternatiivne nimi, mida saab kasutada selle juriidilise isiku otsimiseks. 
@@ -73,7 +67,7 @@ Uue juriidilise isiku loomiseks Dynamics 365 Commerce'is toimige järgmiselt.
 
 Järgmine pilt näitab näitliku juriidilise isiku üksikasju.
 
-![Juriidilise isiku üldine jaotis](media/legal-entities-general.png)
+![Juriidilise isiku üldine jaotis.](media/legal-entities-general.png)
    
 ## <a name="additional-resources"></a>Lisaressursid
 
@@ -86,3 +80,6 @@ Järgmine pilt näitab näitliku juriidilise isiku üksikasju.
 [Kanalite ülevaade](channels-overview.md)
 
 [Kanali seadistamise eeltingimused](channels-prerequisites.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

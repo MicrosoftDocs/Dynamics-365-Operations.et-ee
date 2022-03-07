@@ -2,11 +2,9 @@
 title: Videod
 description: Sellel lehel on loetletud Microsofti loodud Finance and Operationsi rakendustega seotud õppe- ja Tech Talki videod, mis on saadaval YouTube’is ja teistel saitidel.
 author: sericks007
-manager: AnnBe
-ms.date: 12/01/2020
+ms.date: 09/15/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro, Developer
 ms.reviewer: sericks
@@ -16,12 +14,12 @@ ms.search.region: global
 ms.author: sericks
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: 56fdfc400b5bc3e640e7951985d54ffa870f96c9
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
-ms.translationtype: HT
+ms.openlocfilehash: 3fe44a9a7fcef2f22dff3be00ddfadd5b8c59574
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797871"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7487987"
 ---
 # <a name="videos"></a>Videod 
 
@@ -36,7 +34,6 @@ ms.locfileid: "4797871"
 
 ### <a name="data-integration"></a>Andmete integratsioon
 
-- [Potentsiaalse kliendi sularahaks integreerimine](https://youtu.be/AVV9x5x-XCg)
 - [Töötellimuse sünkroonimine rakenduse Dynamics 365 for Field Service ja rakenduste Finance and Operations vahel](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
 
 ### <a name="data-management"></a>Andmehaldus
@@ -86,12 +83,12 @@ ms.locfileid: "4797871"
 
 ## <a name="videos-for-dynamics-365-finance"></a>Rakenduse Dynamics 365 Finance videod
 
+### <a name="business-document-management"></a>Äridokumentide haldus
+- [Äridokumentide haldamise abil uue äridokumendi loomine](https://www.youtube.com/watch?v=gAIYl-mM_pw)
+
 ### <a name="customize-the-app"></a>Rakenduse kohandamine
 - [Kohandatud väljade lisamine](https://www.youtube.com/watch?v=gWSGZI9Vtnc)
 - [Rakenduse Power Apps manustamine](https://www.youtube.com/watch?v=x3qyA1bH-NY)
-
-### <a name="expenses"></a>Kulud
-- [Kulukogemus](https://youtu.be/Ocy-MsTvEE0)
 
 ### <a name="financial-reporting"></a>Finantsaruandlus
 - [Aruande koostaja versiooni leidmine](https://www.youtube.com/embed/icfA5Q3kp4w)
@@ -116,7 +113,10 @@ ms.locfileid: "4797871"
 - [Maksumootori ülevaade](https://www.youtube.com/watch?v=jAFpEBOtNWI&feature=youtu.be)
 
 
-## <a name="videos-for-dynamics-365-supply-chain-management"></a>Videod rakenduseleDynamics 365 Supply Chain Management
+## <a name="videos-for-dynamics-365-supply-chain-management"></a>Rakenduse Dynamics 365 Supply Chain Management videod
+
+### <a name="business-document-management"></a>Äridokumentide haldus
+- [Äridokumentide haldamise abil uue äridokumendi loomine](https://www.youtube.com/watch?v=gAIYl-mM_pw)
 
 ### <a name="costs"></a>Kulud
 - [Kulude juhtimise mobiilne tööruum](https://youtu.be/imsuTg8rUVk)
@@ -167,3 +167,6 @@ ms.locfileid: "4797871"
 [FastTrack Tech Talks](https://community.dynamics.com/365/b/techtalks?c=Finance%20and%20Operations) keskendub tehnilise ülevaate andmisele ja headele tavadele, mis annavad klientidele ja partneritele teemavaldkonna kohta põhjalikud teadmised.
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,16 +2,13 @@
 title: „Sarnaste toodete vaatamise” soovituste lubamine
 description: Selles teemas kirjeldatakse, kuidas lubada „sarnaste toodete vaatamise” tootesoovitused rakenduses Microsoft Dynamics 365 Commerce.
 author: bebeale
-manager: AnnBe
 ms.date: 08/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,20 +16,18 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: da957850072e233a41a042d5857f81ddbf178f7a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: e70365be8484d71ef9e0e9823b0a4406b0fd2761439780cafc30e1284bda1f20
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411747"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6721996"
 ---
-# <a name="enable-shop-similar-looks-recommendations"></a>„Sarnaste toodete vaatamise” soovituste lubamine
+# <a name="enable-shop-similar-looks-recommendations"></a>Luba "osta sarnaseid" soovitused
 
 [!include [banner](includes/banner.md)]
 
 Selles teemas kirjeldatakse, kuidas lubada „sarnaste toodete vaatamise” tootesoovitused rakenduses Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Ülevaade
 
 Rakenduse Dynamics 365 Commerce soovituste funktsioon „sarnaste toodete vaatamine” kasutab tehisintellekti ja masinõpet (AI-ML), et pakkuda klientidele visuaalselt sarnaste toodete soovitusi. Tehes „sarnaste toodete vaatamise” soovitused kõigis Commerce'i jaemüügikanalites kättesaadavaks, saavad jaemüüjad klientide rahulolu suurendada, aidates klientidel leida lihtsamini, mida nad tahavad.
 
@@ -73,7 +68,7 @@ Et soovitusmootor pääseks juurde tootepiltidele, peavad jaemüüjad looma toot
 
 Järgmisel illustratsioonil on näha funktsioon **Sarnaste toodete vaatamine** Commerce'i peakontori lehel **Funktsioonihaldus**.
 
-![Sarnaste toodete vaatamise funktsioon Commerce'i peakontori funktsioonihalduse lehel](./media/enableshopsimilarlooks.png)
+![Sarnaste toodete vaatamise funktsioon Commerce'i peakontori Feature management lehel.](./media/enableshopsimilarlooks.png)
 
 Kui eelmised ülesanded on lõpule viidud, täiendatakse kassaterminale automaatselt kontekstilise paneeliga **Sarnaste toodete ostmine**. Valides suvandi **Vaata lisa**, saavad kassaterminali kasutajaid avada spetsiaalse „sarnaste toodete vaatamise” lehe, mida saab veelgi filtreerida.
 
@@ -93,7 +88,7 @@ Et lisada nupp **Vaata sarnaseid tooteid** toote üksikasjade lehele Commerce'i 
 
 Järgmisel illustratsioonil on näha saidiehitajas toodete üksikasjade näidislehel märkeruut **Luba sarnaste toodete vaatamise link** ja nupp **Vaata sarnaseid tooteid**.
 
-![Saidiehitajas toote üksikasjade lehel olev märkeruut „Luba sarnaste toodete vaatamise link” ja nupp „Vaata sarnaseid tooteid”](./media/SSLecomtooling.png)
+![Luba PDP saidiehitajas toote üksikasjade lehel olev märkeruut „Luba sarnaste toodete vaatamise link”.](./media/SSLecomtooling.png)
 
 ## <a name="additional-resources"></a>Lisaressursid
 
@@ -116,3 +111,6 @@ Järgmisel illustratsioonil on näha saidiehitajas toodete üksikasjade näidisl
 [Soovituste loomine demoandmetega](product-recommendations-demo-data.md)
 
 [Tootesoovituste KKK](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

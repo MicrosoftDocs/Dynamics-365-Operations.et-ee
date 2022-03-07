@@ -2,15 +2,12 @@
 title: Kopeeri eksemplar
 description: Saate kasutada portaali Microsoft Dynamics Lifecycle Services (LCS), et kopeerida rakenduse Microsoft Dynamics 365 Human Resources andmebaas liivakastikeskkonda.
 author: andreabichsel
-manager: AnnBe
 ms.date: 07/22/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -18,14 +15,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 40ca0a4d9733fc2a163daa4ea1c27a3bfae6d3bf
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 8961b7156f52e48dbfcf7efb14e50316e81fcfff
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527833"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6053679"
 ---
 # <a name="copy-an-instance"></a>Kopeeri eksemplar
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
@@ -39,9 +38,9 @@ Eksemplari kopeerimiseks pidage meeles järgmisi nõuandeid.
 
 - Peate olema sihtkeskkonnas administraator, et saaksite pärast eksemplari kopeerimist sellesse sisse logida.
 
-- Rakenduse Human Resources andmebaasi kopeerimisel ei kopeerita elemente (rakendusi või andmeid), mis sisalduvad keskkonnas Microsoft Power Apps. Teavet Power Appsi keskkonnas elementide kopeerimise kohta vt teemast [Keskkonna kopeerimine](https://docs.microsoft.com/power-platform/admin/copy-environment). Power Appsi keskkond, mida soovite üle kirjutada, peab olema liivakastikeskkond. Power Appsi tootmiskeskkonna muutmiseks liivakastikeskkonnaks peate olema rentniku üldadministraator. Lisateavet Power Appsi keskkonna muutmise kohta vt teemast [Eksemplari vahetamine](https://docs.microsoft.com/dynamics365/admin/switch-instance).
+- Rakenduse Human Resources andmebaasi kopeerimisel ei kopeerita elemente (rakendusi või andmeid), mis sisalduvad keskkonnas Microsoft Power Apps. Teavet Power Appsi keskkonnas elementide kopeerimise kohta vt teemast [Keskkonna kopeerimine](/power-platform/admin/copy-environment). Power Appsi keskkond, mida soovite üle kirjutada, peab olema liivakastikeskkond. Power Appsi tootmiskeskkonna muutmiseks liivakastikeskkonnaks peate olema rentniku üldadministraator. Lisateavet Power Appsi keskkonna muutmise kohta vt teemast [Eksemplari vahetamine](/dynamics365/admin/switch-instance).
 
-- Kui kopeerite eksemplari oma liivakastikeskkonda ja soovite oma liivakastikeskkonda integreerida Common Data Service'iga, peate uuesti rakendama kohandatud väljad Common Data Service'i üksustele. Lugege teemat [Kohandatud väljade rakendamine teenuses Common Data Service](hr-admin-setup-copy-instance.md?apply-custom-fields-to-common-data-service).
+- Kui kopeerite eksemplari oma liivakastikeskkonda ja soovite oma liivakastikeskkonda integreerida Dataverse'iga, peate uuesti rakendama kohandatud väljad Dataverse'i tabelitele. Lugege teemat [Kohandatud väljade rakendamine teenuses Dataverse](hr-admin-setup-copy-instance.md?apply-custom-fields-to-common-data-service).
 
 ## <a name="effects-of-copying-a-human-resources-database"></a>Rakenduse Human Resources andmebaasi kopeerimise mõjud
 
@@ -80,7 +79,7 @@ Selle ülesande lõpetamiseks kopeerite esmalt eksemplar ja seejärel logige oma
 
 6. Valige kopeeritav Power Appsi keskkond eksemplar ja seejärel valige käsk **Kopeeri**.
 
-7. Kui kopeerimisprotsess on lõpule viidud, logige sihteksemplari sisse ja lubage Common Data Service’i integratsioon. Lisateavet ja juhiseid vt teemast [Common Data Service’i integreerimise konfigureerimine](https://docs.microsoft.com/dynamics365/talent/hr-common-data-service-integration).
+7. Kui kopeerimisprotsess on lõpule viidud, logige sihteksemplari sisse ja lubage Dataverse’i integratsioon. Lisateavet ja juhiseid vt teemast [Dataverse’i integreerimise konfigureerimine](./hr-admin-integration-common-data-service.md).
 
 ## <a name="data-elements-and-statuses"></a>Andmeelemendid ja olekud
 
@@ -122,11 +121,11 @@ Kõik liivakasti sihtkeskkonna kasutajad (sh administraatorid) asendatakse läht
 
 Kõik mitte-administraatorist kasutajad liivakasti sihtkeskkonnas keelatakse, et välistada liivakasti keskkonnas soovimatuid sisselogimisi. Administraatorid saavad vajadusel kasutajaid uuesti lubada.
 
-## <a name="apply-custom-fields-to-common-data-service"></a>Kohandatud väljade rakendamine teenuses Common Data Service
+## <a name="apply-custom-fields-to-dataverse"></a>Kohandatud väljade rakendamine teenuses Dataverse
 
-Kui kopeerite eksemplari oma liivakastikeskkonda ja soovite oma liivakastikeskkonda integreerida Common Data Service'iga, peate uuesti rakendama kohandatud väljad Common Data Service'i üksustele.
+Kui kopeerite eksemplari oma liivakastikeskkonda ja soovite oma liivakastikeskkonda integreerida Dataverse'iga, peate uuesti rakendama kohandatud väljad Dataverse'i tabelitele.
 
-Iga Common Data Service'i üksustes avatud kohandatud välja puhul tehke järgmist.
+Iga Dataverse'i tabelites avatud kohandatud välja puhul tehke järgmist.
 
 1. Minge kohandatud väljale ja valige **Redigeeri**.
 
@@ -140,9 +139,9 @@ Iga Common Data Service'i üksustes avatud kohandatud välja puhul tehke järgmi
 
 6. Valige uuesti **Rakenda muudatused**.
 
-Valiku tühistamine, muudatuste rakendamine, uuesti valimine ja muudatuste uuesti rakendamine palub skeemil teha teenuses Common Data Service värskendusi kohandatud väljade kaasamiseks.
+Valiku tühistamine, muudatuste rakendamine, uuesti valimine ja muudatuste uuesti rakendamine palub skeemil teha teenuses Dataverse värskendusi kohandatud väljade kaasamiseks.
 
-Lisateavet kohandatud väljade kohta leiate teemast [Kohandatud väljade loomine ja nendega töötamine](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/user-defined-fields).
+Lisateavet kohandatud väljade kohta leiate teemast [Kohandatud väljade loomine ja nendega töötamine](../fin-ops-core/fin-ops/get-started/user-defined-fields.md).
 
 ## <a name="see-also"></a>Vt ka
 
@@ -150,3 +149,6 @@ Lisateavet kohandatud väljade kohta leiate teemast [Kohandatud väljade loomine
 [Eemalda eksemplar](hr-admin-setup-remove-instance.md)</br>
 [Värskendamisprotsess](hr-admin-setup-update-process.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

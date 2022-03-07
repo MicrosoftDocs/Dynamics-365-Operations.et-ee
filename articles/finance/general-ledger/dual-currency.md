@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: LedgerJournalTable, Ledger, AssetTransReportingCurrencyAmountsWizard,BankAccountTransReportingCurrencyAmountsWizard, LedgerTrialBalanceListPage
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: ''
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 8b71b571b03e8fa2648c90258bbcaa020baeabc0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9202bc5009539e5f5b538b5625418ed227984462
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442213"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5212177"
 ---
 # <a name="dual-currency"></a>Topeltvaluuta
 
@@ -209,3 +208,6 @@ Pearaamatu konsolideerimisel on nüüd võimalik konsolideerida lähteettevõtet
 -  Nüüd saate valida, kas kasutada lähteettevõtte arvestus- või aruandlusvaluutat konsolideeritava ettevõtte tehingu valuutana.
 
 - Lähteettevõtte arvestus- või aruandlusvaluuta summad kopeeritakse ots konsolideeritava ettevõte arvestus- või aruandlusvaluuta summadele, kui üks neist on sama. Konsolideeritava ettevõte arvestus- ja aruandlusvaluuta summad arvutatakse vahetuskursi alusel, kui ükski neist valuutadest pole sama.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

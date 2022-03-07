@@ -2,11 +2,9 @@
 title: Kaubanduskanalite fiskaalüksuse integratsiooni ülevaade
 description: Selles teemas antakse ülevaade rakenduses Dynamics 365 Commerce saadaolevatest fiskaalüksuse integratsioonivõimalustest.
 author: josaw
-manager: annbe
 ms.date: 02/01/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailFunctionalityProfile, RetailFormLayout, RetailParameters
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2019-1-16
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 2f1abf29058e773f1645301fcd7a960df488d92b
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 155056eb3a2acd0d66e0ace8d5558929678cb8e3
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017463"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5798777"
 ---
 # <a name="overview-of-fiscal-integration-for-commerce-channels"></a>Kaubanduskanalite fiskaalüksuse integratsiooni ülevaade
 
@@ -149,3 +147,6 @@ Retail SDK-s on saadaval ka järgmised fiskaalüksuse integratsiooni funktsiooni
 Järgmine pärandi fiskaalüksuse integreerimise funktsioon, mis on saadaval Retail SDK-s, ei kasuta fiskaalüksuse integreerimise raamistikku ja on hilisemates värskendustes aegunud.
 
 - [Juhtseadme integratsiooni näidis Rootsi jaoks (pärand)](./retail-sdk-control-unit-sample.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

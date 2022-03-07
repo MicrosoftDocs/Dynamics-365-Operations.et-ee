@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2020-01-08
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 24b3a5552a83bfea52f6a274b836955e41acdb4281f7b7807acf040e9cd4af30
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d7e88163fd9b8dc4f5636ed29e2c4248aece52bf
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777472"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5792167"
 ---
 # <a name="quick-view-module"></a>Kiirvaatemoodul
 
@@ -36,7 +36,7 @@ Kiirvaatemoodulit toetavad moodulid [tootekogum](product-collection-module-overv
 
 Järgmisel illustratsioonil on näide toodete loendi lehe kiirvaate moodulist.
 
-![Toodete loendi lehe kiirvaate mooduli näide.](./media/ecommerce-quickview.PNG)
+![Toodete loendi lehe kiirvaate mooduli näide](./media/ecommerce-quickview.PNG)
 
 ## <a name="module-properties"></a>Mooduli atribuudid
 

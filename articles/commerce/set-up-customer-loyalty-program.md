@@ -2,29 +2,28 @@
 title: Püsikliendi ülevaade
 description: Selles teemas kirjeldatakse rakenduse Dynamics 365 Commerce püsikliendi võimalusi ja vastavaid seadistusetappe, mis aitavad jaemüüjal hõlpsasti oma püsikliendiprogrammiga algust teha.
 author: scott-tucker
-manager: AnnBe
 ms.date: 07/21/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailLoyaltyPrograms, RetailPriceDiscGroup
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
-ms.custom: 16201
+ms.custom:
+- "16201"
+- intro-internal
 ms.assetid: f79559d2-bc2d-4f0b-a938-e7a61524ed80
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 119046ee2b783e6a4b868fff2b1d7a1b59966e7b
-ms.sourcegitcommit: 092ef6a45f515b38be2a4481abdbe7518a636f85
-ms.translationtype: HT
+ms.openlocfilehash: 57512bbd735e26ba31e00518ca8179f2d9b14bc4
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4411799"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985158"
 ---
 # <a name="loyalty-overview"></a>Püsikliendi ülevaade
 
@@ -44,7 +43,7 @@ Saate seadistada püsikliendiprogrammi nii, et see hõlmaks järgmisi valikuid.
 
 Püsikliendifunktsiooni võimaldamiseks rakenduses Commerce peate seadistama mitu komponenti. Järgmisel joonisel on kujutatud püsikliendiprogrammi komponendid ja nende omavahelised seosed.
 
-![Püsikliendi seadistuse protsessivoog](./media/loyaltyprocess.gif "Püsikliendiprogrammi komponendid ja nende omavahelised seosed")
+![Püsikliendi seadistuse protsessivoog.](./media/loyaltyprocess.gif "Püsikliendiprogrammi komponendid ja nende omavahelised seosed")
 
 ## <a name="loyalty-components"></a>Püsikliendiprogrammi komponendid
 
@@ -81,17 +80,17 @@ Järgmises tabelis kirjeldatakse protsesse, mida tuleb käitada, et saata püsik
 - Osana boonusskeemist saavad jaemüüjad luua erinevaid teenimis- ja lunastamisreegleid püsikliendijärkude järgi, et eristada ei järkude klientide preemiaid. Jaemüüjad saavad ka osana teenimis- ja lunastamisreeglitest kaasata alluvused, et teatud kliendigrupp saaks olla olemasolavate järkude osa, kuid neid premeeritakse siiski teisiti. See väldib vajadust täiendavate järkude loomiseks.
     
     > [!NOTE]
-    > Boonusskeemi teenimisreeglid on täiendavad. Näiteks kui loote reegli, et premeerida kullajärgu klienti 10 punktiga iga USA dollari eest ning loote ka reegli premeerida iga "veterani" staatusega klienti 5 punktiga iga USA dollari, siis veteran, kes on ka kullajärgu klient, teeniks iga 1 USA dollari eesti 15 punkti, kuna see klient kvalifitseerub mõlemale reeglile. Kuid kui veteran-klient ei ole küllajärgu liige, teenib ta iga dollari eest 5 punkti. Kanalites muudatuste kajastamiseks käivitage **Boonusskeemide töötlemise** ja **1050** (püsikliendi teabe) tööd.
+    > Boonusskeemi teenimisreeglid on täiendavad. Näiteks kui loote reegli, et premeerida kullajärgu klienti 10 punktiga iga USA dollari eest ning loote ka reegli premeerida iga "veterani" staatusega klienti 5 punktiga iga USA dollari, siis veteran, kes on ka kullajärgu klient, teeniks iga 1 USA dollari eesti 15 punkti, kuna see klient kvalifitseerub mõlemale reeglile. Kuid kui veteran-klient ei ole kullajärgu liige, teenib ta iga dollari eest 5 punkti. Kanalites muudatuste kajastamiseks käivitage **Boonusskeemide töötlemise** ja **1050** (püsikliendi teabe) tööd.
     
-    ![Alluvusel põhinev teenimine](./media/Affiliation-based-earning.png "Alluvusel põhinevad teenimised")
+    ![Alluvusel põhinev teenimine.](./media/Affiliation-based-earning.png "Alluvusel põhinevad teenimised")
 
 - Jaemüüjatel on sageli teatud kliendigrupile erihinnad, kellele nad ei soovi püsikliendiprogrammi rakendada. Näiteks hulgimüüjad või töötajad, kes saavad erihindu kuid mitte boonuspunkte. Tavaliselt kasutatakse sellistele kliendigruppidele erihindade tegemiseks "alluvusi". Selleks, et piirata tetud kliendigruppe või kliente boonuspunkte teenimast, saab jaemüüja määrata ühe või rohkem alluvust boonunusskeemi jaotises **Välistatud alluvused**. Sel viisil ei saa kliendid, kes on olemasolevad püsikliendid, kuid kuuluvad välistatud alluvuste alla, oma ostude eest boonuspunkte teenida. Kanalites muudatuste kajastamiseks käivitage **Boonusskeemide töötlemise** ja **1050** (püsikliendi teabe) tööd.
 
-    ![Välistatud alluvused](./media/Excluded-affiliations.png "Alluvuste välistamine boonuspunktide teenimisest")
+    ![Välistatud alluvused.](./media/Excluded-affiliations.png "Alluvuste välistamine boonuspunktide teenimisest")
     
 - Kassa annab jaemüüjatele paindlikkuse füüsiliste kliendikaartide kasutamiseks või kordumatu kliendikaardi numbri automaatseks loomiseks. Kliendikaartide automaatseks loomiseks kauplusteks lülitage kauplusega seotud funktsiooniprofiilil sisse **Kliendikaardi numbri loomine**. Võrgukanalites saavad jaemüüjad kasutada IssueLoyaltyCard API-t, et klientidele kliendikaarte väljastada. Jaemüüjad saavad sellele API-le anda kliendikaardi numbri, mida kasutatakse kliendikaardi loomiseks, või kasutab süsteem kliendikaardi numbriseeriat rakendusest Commerce. Kuid kui numbriseeriat ei ole ja jaemüüja ei sisesta API-t kutsudes kliendikaardi numbrit, kuvatakse tõrge.
 
-    ![Kliendikaardi loomine](./media/Generate-loyalty-card.png "Kliendikaardi numbri automaatne loomine")
+    ![Kliendikaardi loomine.](./media/Generate-loyalty-card.png "Kliendikaardi numbri automaatne loomine")
 
 - Teenitud ja lunastatud püsikliendipunkte saab nüüd salvestatada iga kande ja müügitellimuse müügirea suhtes, et sama summa saaks täieliku või osalise tagastuse korral tagasi maksta või tagasi võtta. Lisaks annab punktide nägemine müügireal kõnekeskuse kasutajatele võimaluse vastata klientide küsimustele teenitud või lunastatud punktide kohta igal real. Enne seda muudatust kalkuleeriti boonuspunktid tagastustel alati ümber, mille tulemuseks oli originaalist erinev summa, kui teenimis- või lunastusreegleid oli muudetud ning kõnekeskuse kasutajatel ei olnud ülevaadet punktide jaotumisest. Punkte saab vaadata iga kliendikaardi **Kaardikannete** alt. Funktsiooni lubamiseks lülitage sisse konfiguratsioon **Sisesta boonuspunktid müügirea kohta** vahekaardil **Kaubanduse ühisparameetrid** \> **Üldine**.
 
@@ -102,33 +101,33 @@ Järgmises tabelis kirjeldatakse protsesse, mida tuleb käitada, et saata püsik
 
 Lisaks saavad jaemüüjad määratleda maksimaalse püsikliendiprogrammi preemiapunktide määra ühe klinedikaardi kohta. Seda välja saab kasutada püsikliendiprogrammi pettuste vähendamiseks. Kui maksimaalne boonuspunktide summa on saavutatud, ei saa kasutaja rohkem punkte teenida. Jaemüüja võib otsustada sellised kaardid blokeerida, kuni nad on uurinud võimalikke pettuseid. Kui jaemüüja tuvastab pettuse, saab ta kliendikaardi blokeerida ja märkida kliendi blokeerituks. Selleks määrake kiirkaardi **Commerce** jaotise **Kõik kliendid** atribuudi **Blokeeri kliendi registreerimine püsikliendiprogrammis** väärtuseks **Jah**. Blokeeritud kliendile ei saa väljastada kliendikaarti ühestki teisest kanalist.
 
-   ![Pensionireeglid ja maksimaalsed preemiapunktid](./media/Vesting-and-maximum-reward-points.png "Pensionireeglite ja maksimaalsete preemiapunktide määratlemine")
+   ![Pensionireeglid ja maksimaalsed preemiapunktid.](./media/Vesting-and-maximum-reward-points.png "Pensionireeglite ja maksimaalsete preemiapunktide määratlemine")
 
 - Alluvusi kasutatakse erihindade ja allahindluste pakkumiseks, kuid mõningaid alluvusi ei soovi jaemüüjad klientidele näidata. Näiteks alluvus pealkirjaga "Palju kulutav klient", ei pruugi mõndadele klientidele meeldida. Lisaks on mõned alluvused, mida ei peaks kaupluses haldama, näiteks töövõtjate alluvused, sest te ei soovi, et kassapidajad otsustaksid, kes on töövõtjad ning pakuksid seega töövõtja-põhiseid allahindlusi. Jaemüüjad saavad nüüd valida alluvused, mis peaksid kanalites peidetud olema. Alluvused, millele on märgitud **Kanalites peita**, ei saa kassas vaadata, lisada või eemaldada. Kuid alluvusega seotud hinnad ja allahindlused rakendatakse siiski toodetele.
 
-    ![Alluvuste peitmine](./media/Hide-affiliations.png "Alluvuste peitmine kanalites")
+    ![Alluvuste peitmine.](./media/Hide-affiliations.png "Alluvuste peitmine kanalites")
     
 - Kõnekeskuse kasutajad saavad nüüd hõlpsamalt kliente nende kliendikaardi teabe põhjal otsida ning navigeerida kliendikaardi ja kliendikaardi kannete lehele **Klienditeeninduse** leheküljelt.
 
-    ![Klienditeenindus](./media/Customer-service.png "Kliendi püsiklienditeabe leidmine")
+    ![Klienditeenindus.](./media/Customer-service.png "Kliendi püsiklienditeabe leidmine")
     
 - Kui kliendikaart on kompromiteeritud, tuleb luua uus kaart ja olemasolevad punktid uuele kaardile üle tuua. Selles väljaandes on lihtsustatud asenduskaardi voogu. Lisaks saavad kliendid kõik või osa oma boonuspunktidest sõpradele ja perele kinkida. Punktide ülekandmisel luuakse igale kliendikaardile punktide korrigeerimise kirjed. Asenduskaardi ning ülekande saldo funktsioonile pääseb ligi **Kliendikaartide** lehelt.
 
-    ![Punktide asendamine ja ülekandmine](./media/Replace-and-transfer-points.png "Kliendikaardi asendamine või saldo ülekandmine")
+    ![Punktide asendamine ja ülekandmine.](./media/Replace-and-transfer-points.png "Kliendikaardi asendamine või saldo ülekandmine")
     
 - Jaemüüjad võivad soovida kasutada kindla kanali efektiivsust klientide registreerimiseks püsikliendi programmi. Nüüd salvestatakse kliendikaartide registreerimise allikad, et jaemüüjad saaksid nende andmete kohta aruandeid luua. Registreerimiste allikas salvestatakse automaatselt kõikide väljastatud kliendikaartide kohta MPOS/CPOS või e-Commerce'i kanalitest. Kliendikaartidele, mis on väljastatud varukontori avaldusega, saab kõnekeskuse kasutaja valida sobiva kanali.
 - Varasemates väljaannetes said jaemüüjad kasutada MPOS/CPOS-i, et klientidele poes boonuspunkte lunastada. Kuid kuna nendes väljaannetes kuvati boonussaldo boonuspunktides, ei saanud kassiir vaadata kandele kohaldatavat valluta väärtuse summat. Kassapidaja pidi enne boonuspunktide maksmist punktid valuutasse teisendama. Praeguses väljaandes näeb kassapidaja pärast ridade kandega liitmist summat, mida boonuspunktid praeguses kandes katavad, hõlbustades kõikide või osade boonuspunktide kandes kasutamist. Lisaks näeb kassapidaja punkte, mis järgmise 30 päeva jooksul aeguvad, nii et nad saavad teha ülesmüüki või ristmüüki, et motiveerida klienti aeguvaid punkte sellele kandele kulutama.
 
-    ![Boonussaldoga kaetud punktid](./media/Points-covered-by-loyalty-balance.png "Boonuspunktidega kaetud saldo kuvamine")
+    ![Boonussaldoga kaetud punktid.](./media/Points-covered-by-loyalty-balance.png "Boonuspunktidega kaetud saldo kuvamine")
 
-    ![Aeguvad punktid](./media/Expiring-points.png "Aeguvate punktide kuvamine")
+    ![Aeguvad punktid.](./media/Expiring-points.png "Aeguvate punktide kuvamine")
 
 - Väljaandega 8.1.3 oleme lubanud kõnekeskuse kanalis kliendikaardiga tasumise suvandi. Selle suvandi lubamiseks looge püsikliendi maksevahendi tüüp ja seostage see kõnekeskusega. 
 
     > [!NOTE]
     > Kuna kliendikaardi maksed on seadistatud kaardimaksetena, peate valima kaardi lehelt **Kaardi seadistus**. 
 
-    ![Kliendikaardi seadistus](./media/LoyaltyCardSetup.png "Kliendikaardi seadistus")
+    ![Kliendikaardi seadistus.](./media/LoyaltyCardSetup.png "Kliendikaardi seadistus")
 
     Kui see on seadistatud, saavad kliendid oma boonuspunktid lunastada kõnekeskuses. Peale selle täiustame kasutajakogemust veelgi, kuvades boonuspunktidega kaetud summat, nii et kõnekeskuse kasutajad ei pea boonussaldo nägemiseks liikuma teisele kuvale.
 
@@ -145,9 +144,12 @@ Lisaks saavad jaemüüjad määratleda maksimaalse püsikliendiprogrammi preemia
     > Praegu sunnib süsteem kasutajaid seadistama muude tegevusetüüpide kohta numbriseeria, kuid see pole tulevastes väljaannetes vajalik etapp. Numbriseeria seadistamiseks minge jaotisse **Kaubanduse ühisparameetrid** \> **Numbriseeriad** ja valige numbriseeria suvandile **Püsikliendi muu tegevusetüübi ID**.
 
 - Hea klienditeeninduse pakkumiseks ja kliendipäringute tõhusaks lahendamiseks peab kassapidajatel olema juurdepääs kliendi täielikule profiilile. Väljaandes 10.0 saavad kassapidajad näha kassas püsikliendi ajaloolisi üksikasju koos seostatud püsikliendiprogrammi ja järguteabega.
-- Tasuta või allahindlusega tarne on üks kõrgelt motiveeriv tegur, mis paneb kliente veebist ostma. Tarnimiskampaaniate loomiseks võtsime väljaandes 10.0 kasutusele uut tüüpi kampaania nimega Saatmisläve allahindlus, kus jaemüüja saab määratleda läved, mille täitmisel kvalifitseerub klient allahindlusega või tasuta tarnele. Näiteks tuleb kõigil püsiklientidel kulutada 35 eurot kahepäevase tarne või tasuta kahepäevase tarne saamiseks. See funktsioon mõjutab uut täpsemate automaatsete kulude võimalust. Vaadake [täpsemate automaatsete kulude dokumentatsiooni](https://docs.microsoft.com/dynamics365/unified-operations/retail/omni-auto-charges). Täpsemad automaatsed kulud tuleb lubada tarnimiskampaaniate toimimiseks. Need saab lubada lehe **Kaubanduse parameetrid** vahekaardil **Kliendi tellimused**, kui sisse lülitada konfiguratsioon Kasuta täpsemaid automaatseid kulusid. Kuna jaemüüja saab seadistada mitut tüüpi tasusid, nt käsitlemise või paigaldamise eest, peab ta määrama, millist tasu peetakse saatekuluks. Saatmise allahindlused kohalduvad ainult saatekulule. Tasu määramiseks saatekuluna liikuge vormile **Kulukoodid**, mille leiate jaotisest **Jaemüük ja kaubandus** \> **Jaemüügi ja kaubanduse IT** \> **Kanali seadistus** \> **Kulud** ja märkige soovitud kulude jaoks märkeruut Saatmistasu. Nüüd saate liikuda vormile **Saatmise läve allahindlus** ja määrata allahindluse.
+- Tasuta või allahindlusega tarne on üks kõrgelt motiveeriv tegur, mis paneb kliente veebist ostma. Tarnimiskampaaniate loomiseks võtsime väljaandes 10.0 kasutusele uut tüüpi kampaania nimega Saatmisläve allahindlus, kus jaemüüja saab määratleda läved, mille täitmisel kvalifitseerub klient allahindlusega või tasuta tarnele. Näiteks tuleb kõigil püsiklientidel kulutada 35 eurot kahepäevase tarne või tasuta kahepäevase tarne saamiseks. See funktsioon mõjutab uut täpsemate automaatsete kulude võimalust. Vaadake [täpsemate automaatsete kulude dokumentatsiooni](/dynamics365/unified-operations/retail/omni-auto-charges). Täpsemad automaatsed kulud tuleb lubada tarnimiskampaaniate toimimiseks. Need saab lubada lehe **Kaubanduse parameetrid** vahekaardil **Kliendi tellimused**, kui sisse lülitada konfiguratsioon Kasuta täpsemaid automaatseid kulusid. Kuna jaemüüja saab seadistada mitut tüüpi tasusid, nt käsitlemise või paigaldamise eest, peab ta määrama, millist tasu peetakse saatekuluks. Saatmise allahindlused kohalduvad ainult saatekulule. Tasu määramiseks saatekuluna liikuge vormile **Kulukoodid**, mille leiate jaotisest **Jaemüük ja kaubandus** \> **Jaemüügi ja kaubanduse IT** \> **Kanali seadistus** \> **Kulud** ja märkige soovitud kulude jaoks märkeruut Saatmistasu. Nüüd saate liikuda vormile **Saatmise läve allahindlus** ja määrata allahindluse.
 
     Nagu ka toodete allahindlused, arvestab see allahindlus kõiki olemasolevaid tavalisi allahindlusvõimalusi, näiteks lubamine jaemüüjal piirata neid allahindlusi kupongidega, nii et allahindlusi saavad ainult kupongidega kliendid. Samuti kasutavad need allahindlused hinnagruppide võimalust määrata sobilikkust neile allahindlustele. Näiteks saab jaemüüja käivitada need soodustused ainult veebikanalites ja/või teatud kliendigruppide, näiteks püsiklientide, kanalites. Kui määratud tarneviisiga tellimuseread vastavad määratletud lävele, kohaldub saatmisele allahindlus ja vähendab saatekulu seadistatud allahindluse põhjal. 
 
     > [!NOTE]
     > Erinevalt muudest perioodilistest allahindlustest, nagu koguse, liht-, segamise ja sobitamise ning läveallahindlused, ei loo saateallahindlus allahindlusridu, pigem redigeerib saatekulu otse ja lisab allahindluse nime kulu kirjeldusele.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Enne ostmist
 description: Üksikasjalikud juhised, kui kaalute rakenduste Dynamics 365 Finance, Dynamics 365 Supply Chain Management või Dynamics 365 Commerce ostmist.
 author: ShellyBakke
-manager: AnnBe
-ms.date: 11/23/2020
+ms.date: 11/30/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: smiller
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: ea741e3d4b3a6ce93a30c9d8c8adc7c91b513871
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
-ms.translationtype: HT
+ms.openlocfilehash: f994acfb85e5bb7ccb9cbd3e6c0a0f3c4eec318a
+ms.sourcegitcommit: 34113bd588d53b9aed481da060a1c6738fca0eaf
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798545"
+ms.lasthandoff: 11/30/2021
+ms.locfileid: "7874580"
 ---
 # <a name="before-you-buy"></a>Enne ostmist
 
@@ -44,7 +42,7 @@ Asutusesisese juurutamisvaliku valimisel tuleb kaaluda järgmisi aspekte.
 - [Asutusesiseste juurutuste süsteeminõuded](system-requirements-on-prem.md).
 
 > [!IMPORTANT]
-> Asutusesiseseid juurutusi ei toetata avaliku pilve taristutes, sealhulgas Microsoft Azure's.
+> Asutusesiseseid juurutusi ei toetata avaliku pilve taristutes, sealhulgas Microsoft Azure's. Kuid neid toetatakse pinu [Microsoft Azure HCI- ja](https://azure.microsoft.com/products/azure-stack/hci/)[Microsoft Azure pinukeskuses käivitamiseks](https://azure.microsoft.com/products/azure-stack/hub/).
 
 Lisateavet vaadake jaotisest [Juurutusvalikud](../../dev-itpro/deployment/choose-deployment-type.md)
 
@@ -88,8 +86,11 @@ Lisaressursside nägemiseks vt.
 
 ## <a name="step-four-learn-about-fasttrack-and-plan-your-deployment"></a>Neljas etapp: FastTrackiga tutvumine ja juurutuse plaanimine
 
-Microsoft FastTrack for Dynamics 365 on meie klientide eduteenus, mis on mõeldud selleks, et aidata teil rakendusele Dynamics 365 sujuvalt ja kindlalt üle minna, et saaksite ettevõtte väärtust kiiremini realiseerida. Kui osalete FastTracki programmis, saate juhtnöörid parimate tavade ja edukate väljastuste plaanimise kohta. Samuti tutvute viisidega uute kasutajate lisamiseks ja võimaluste laiendamiseks teie oma tempos. Lisaks saate juurdepääsu Microsofti analüüsiressurssidele, mille eesmärk on tagada teie edu Dynamics 365-ga. Lisateabe saamiseks vt [Microsoft FastTrack](fasttrack-dynamics-365-overview.md).
+Microsoft FastTrack for Dynamics 365 on meie klientide eduteenus, mis on mõeldud selleks, et aidata teil rakendusele Dynamics 365 sujuvalt ja kindlalt üle minna, et saaksite ettevõtte väärtust kiiremini kasvatada. Kui osalete FastTracki programmis, saate juhtnöörid parimate tavade ja edukate väljastuste plaanimise kohta. Samuti tutvute viisidega uute kasutajate lisamiseks ja võimaluste laiendamiseks teie oma tempos. Lisaks saate juurdepääsu Microsofti analüüsiressurssidele, mille eesmärk on tagada teie edu Dynamics 365-ga. Lisateabe saamiseks vt [Microsoft FastTrack](/dynamics365/fasttrack/).
 
 ## <a name="if-you-are-upgrading-from-dynamics-ax-2012-or-migrating-from-ax-2009"></a>Kui täiendate rakenduselt Dynamics AX 2012 või migreerite rakenduselt AX 2009
 
 Kui olete klient, kes täiendab rakenduselt Microsoft Dynamics AX 2012 või migreerib rakenduselt Microsoft Dynamics AX 2009, võite olla sobilik pikema prooviperioodi saamiseks. Lisateabe saamiseks võtke ühendust meiliaadressil <daxcf@microsoft.com>.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

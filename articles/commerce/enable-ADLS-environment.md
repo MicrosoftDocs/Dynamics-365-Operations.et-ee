@@ -1,17 +1,14 @@
 ---
 title: Azure Data Lake Storage'i lubamine Dynamics 365 Commerce'i keskkonnas
-description: Selles teemas selgitatakse, kuidas lubada Azure Data Lake Storage Dynamics 365 Commerce'i keskkonnas, mis on tootesoovituste lubamise eeltingimus.
+description: See teema annab juhiseid, kuidas ühendada Azure Data Lake Storage Gen 2 lahendus Dynamics 365 Commerce keskkonna üksuselaoga. See on nõutav samm enne tootesoovituste lubamist.
 author: bebeale
-manager: AnnBe
-ms.date: 04/13/2020
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,44 +16,41 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 27e4f1c751ee865b0df536f3c1912cb1d8946032
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: c96c29a4d9639b02e6a60ad938b7e06f7d500c68
+ms.sourcegitcommit: 98061a5d096ff4b9078d1849e2ce6dd7116408d1
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411585"
+ms.lasthandoff: 09/01/2021
+ms.locfileid: "7466288"
 ---
 # <a name="enable-azure-data-lake-storage-in-a-dynamics-365-commerce-environment"></a>Azure Data Lake Storage'i lubamine Dynamics 365 Commerce'i keskkonnas
 
 [!include [banner](includes/banner.md)]
 
-Selles teemas selgitatakse, kuidas lubada Azure Data Lake Storage Dynamics 365 Commerce'i keskkonnas, mis on tootesoovituste lubamise eeltingimus.
+See teema annab juhiseid, kuidas ühendada Azure Data Lake Storage Gen 2 lahendus Dynamics 365 Commerce keskkonna üksuselaoga. See on nõutav samm enne tootesoovituste lubamist.
 
-## <a name="overview"></a>Ülevaade
+Lahenduses Dynamics 365 Commerce koondatakse soovituste, toodete ja kannete arvutamiseks vajalikud andmed keskkonna üksuse poodi. Et muuta need andmed kättesaadavaks teistele Dynamics 365 teenustele, nagu andmeanalüütika, äriteave ja isikupärastatud soovitused, on vaja ühendada keskkond kliendi omanduses oleva Azure Data Lake Storage Gen 2 lahendusega.
 
-Dynamics 365 Commerce lahenduses jälgitakse kogu toote ja kande teavet keskkonna üksuse kaupluses. Et muuta need andmed kättesaadavaks teistele Dynamics 365 teenustele, nagu andmeanalüütika, äriteave ja isikupärastatud soovitused, on vaja ühendada keskkond kliendi omanduses oleva Azure Data Lake Storage Gen 2 lahendusega.
+Kui ülaltoodud sammud on lõpule viidud, peegeldatakse kõik keskkonna olemilao kliendiandmed automaatselt kliendi Azure Data Lake Storage Gen 2 lahendusele. Kui Commerce headquarters`i funktsioonihalduse tööruumi kaudu on soovituste funktsioonid lubatud, antakse soovituste pinu juurdepääs samale Azure Data Lake Storage Gen2 lahendusele.
 
-Kuna Azure Data Lake Storage on keskkonnas konfigureeritud, võetakse kõik vajalikud andmed üksusesalvest, mis on endiselt kaitstud ja kliendi kontrolli all.
-
-Kui tootesoovitused või isikupärastatud soovitused on keskkonnas samuti lubatud, antakse tootesoovituste virnale juurdepääs spetsiaalsele kaustale Azure Data Lake Storage'is, et tuua kliendi andmed ja arvutada nende põhjal soovitusi.
+Kogu protsessi jooksul jäävad kliendi andmed kaitstuks ja nende kontrolli all.
 
 ## <a name="prerequisites"></a>Eeltingimused
 
-Klientidel peab olema Azure Data Lake Storage konfigureeritud Azure'i kordustellimuses, mida nad omavad. See teema ei hõlma Azure'i kordustellimuse ostmist või Azure Data Lake Storage'i toega salvestusruumi konto seadistamist.
+Keskkonna Dynamics 365 Commerce olemiladu peab olema ühendatud kontoga Azure Data Lake Gen Storage Gen2 ja sellega kaasnevad teenused.
 
-Lisateavet Azure Data Lake Storage'i kohta vt [Azure Data Lake Storage Gen 2 ametlikust dokumentatsioonist](https://azure.microsoft.com/pricing/details/storage/data-lake).
+Lisateavet Azure Data Lake Storage Gen2 ja selle kohta, kuidas seda seadistada, vaata [Azure Data Lake Storage Gen 2 ametlikust dokumentatsioonist](https://azure.microsoft.com/pricing/details/storage/data-lake).
   
 ## <a name="configuration-steps"></a>Konfiguratsiooni etapid
 
-See jaotis hõlmab konfigureerimistoiminguid, mis on vajalikud Azure Data Lake Storage'i lubamiseks keskkonnas, kuna see on seotud tootesoovitustega.
-Azure Data Lake Storage'i lubamiseks vajalikest toimingutest põhjalikuma ülevaate saamiseks vaadake teemat [Muuda üksusesalv Data Lake’i üksusena saadavaks](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md).
+See jaotis hõlmab konfigureerimistoiminguid, mis on vajalikud Azure Data Lake Storage Gen2 keskkonnas, kuna see on seotud tootesoovitustega.
+Põhjalikuma ülevaate Azure Data Lake Storage Gen2 lubamiseks vajalikest toimingutest vaadake teemast [Muuda üksusepood saadavaks Data Lake üksusena](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md).
 
 ### <a name="enable-azure-data-lake-storage-in-the-environment"></a>Azure Data Lake Storage'i lubamine keskkonnas
 
 1. Logige sisse keskkonna kontoriportaali.
 1. Otsige **Süsteemi parameetreid** ja navigeerige vahekaardile **Andmeühendused**. 
 1. Määrake **Luba Data Lake integratsioon** väärtuseks **Jah**.
-1. Määrake **Data Lake värskenduse niristamine** väärtuseks **Jah**.
 1. Seejärel sisestage järgmine kohustuslik teave:
     1. **Rakenduse ID** // **Rakenduse saladus** // **DNS-i nimi** – vajalik ühenduse loomiseks KeyVaultiga, kus on talletatud Azure Data Lake Storage saladus.
     1. **Salajane nimi** – KeyVaulti salvestatud salajane nimi, mida kasutatakse Azure Data Lake Storage'i autentimiseks.
@@ -64,7 +58,7 @@ Azure Data Lake Storage'i lubamiseks vajalikest toimingutest põhjalikuma üleva
 
 Järgmisel pildil on näide Azure Data Lake Storage'i konfiguratsioonist.
 
-![Azure Data Lake Storage'i konfiguratsiooni näide](./media/exampleADLSConfig1.png)
+![Azure Data Lake Storage'i konfiguratsiooni näide.](./media/exampleADLSConfig1.png)
 
 ### <a name="test-the-azure-data-lake-storage-connection"></a>Azure Data Lake Storage'i ühenduse kontrollimine
 
@@ -84,7 +78,7 @@ Kui ühenduse testid on edukad, peate lubama automaatse värskendamise üksuse k
 
 Järgmisel pildil on üksuse kaupluse näide, millel automaatne värskendamine on lubatud.
 
-![Üksuse kaupluse näide, millel automaatne värskendamine on lubatud](./media/exampleADLSConfig2.png)
+![Üksuse kaupluse näide, millel automaatne värskendamine on lubatud.](./media/exampleADLSConfig2.png)
 
 Azure Data Lake Storage on nüüd keskkonna jaoks konfigureeritud. 
 
@@ -115,3 +109,6 @@ Kui see ei ole juba lõpule viidud, järgige juhiseid keskkonna [tootesoovituste
 [Soovituste loomine demoandmetega](product-recommendations-demo-data.md)
 
 [Tootesoovituste KKK](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,44 +1,43 @@
 ---
-title: Mehhiko elektroonilise arvelduse lisandmooduli kasutamise alustamine
-description: Sellest teemast leiate teabe, mis aitab teil rakendustes Microsoft Dynamics 365 Finance ja Dynamics 365 Supply Chain Management Mehhiko elektroonilise arvelduse lisandmoodulit kasutama hakata.
+title: Alustage elektroonilise arveldusega Mehhikos
+description: Sellest teemast leiate teabe, mis aitab teil alustada elektroonilise arveldusega Mehhikos.
 author: gionoder
-manager: AnnBe
 ms.date: 09/22/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
-ms.custom: 97423
+ms.custom:
+- "97423"
+- intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 6d15a79a359b3c708b2b33893d700377a57c3eb7
-ms.sourcegitcommit: cfd84321fba38e02e270d361df369a536a48efa3
+ms.openlocfilehash: 4266d7bca163b1d6aa1261e086f10a4f0f5d7e360051db169fbcab34363c81c3
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "4512230"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6742149"
 ---
-# <a name="get-started-with-the-electronic-invoicing-add-on-for-mexico"></a>Mehhiko elektroonilise arvelduse lisandmooduli kasutamise alustamine
+# <a name="get-started-with-electronic-invoicing-for-mexico"></a>Alustage elektroonilise arveldusega Mehhikos
 
 [!include [banner](../includes/banner.md)]
 
 > [!IMPORTANT]
 > Elektroonilise arvelduse lisandmoodul Mehhiko jaoks ei pruugi praegu toetada kõiki funktsioone, mis on saadaval dokumendis Comprobante Fiscal Digital por Internet (CFDI) ja seotud integratsioonis, mis on sisse ehitatud rakendusse Microsoft Dynamics 365 Finance või Dynamics 365 Supply Chain Management.
 
-Sellest teemast leiate teabe, mis aitab teil Mehhiko elektroonilise arvelduse lisandmoodulit kasutama hakata. Selles antakse juhiseid konfiguratsioonisammude kohta, mis on teenustes Regulatory Configuration Services (RCS) ja rakenduses Finance riigipõhised. Samuti antakse teile juhised, mida peate rakenduses Finance järgima, et edastada teenuse kaudu CFDI arveid, ning selgitatakse, kuidas vaadata üle töötlemise tulemusi ja CFDI arvete olekut.
+Sellest teemast leiate teabe, mis aitab teil alustada elektroonilise arveldusega Mehhikos. Selles antakse juhiseid konfiguratsioonisammude kohta, mis on teenustes Regulatory Configuration Services (RCS) ja rakenduses Finance riigipõhised. Samuti antakse teile juhised, mida peate rakenduses Finance järgima, et edastada teenuse kaudu CFDI arveid, ning selgitatakse, kuidas vaadata üle töötlemise tulemusi ja CFDI arvete olekut.
 
 ## <a name="prerequisites"></a>Eeltingimused
 
 Enne selle teema juhiste täitmist peate järgima teemas [Elektroonilise arvelduse lisandmooduli kasutamise alustamine](e-invoicing-get-started.md) olevaid juhiseid.
 
-## <a name="rcs-setup"></a>RCS-i seadistus
+## <a name="rcs-setup"></a>RCS häälestus
 
 RCS-i seadistuse käigus teete järgmist.
 
@@ -59,7 +58,7 @@ RCS-i seadistuse käigus teete järgmist.
     > [!NOTE]
     > Kui te funktsiooni loendis ei näe, valige **Sünkrooni** ja seejärel korrake kolmandat sammu.
 
-![CFDI arvete (MX) funktsiooni importimine](media/e-Invoicing-services-get-started-MEX-Select-Import-CFDI-feature.png)
+![CFDI arvete (MX) importimise funktsioon.](media/e-Invoicing-services-get-started-MEX-Select-Import-CFDI-feature.png)
 
 Funktsiooni **CFDI arved (MX)** importimisel globaalsest hoidlast imporditakse ka kõik funktsiooni sätted, sealhulgas konfiguratsioonid ja tegevused.
 
@@ -69,13 +68,13 @@ Saate luua uue versiooni, kui URL-i on näiteks vaja värskendada. Lisateavet le
 
 - Valige lehel **E-arvelduse funktsioonid** vahekaardil **Versioonid** suvand **Uus**.
 
-![E-arvelduse funktsiooni uue versiooni lisamine](media/e-Invoicing-services-get-started-MEX-Select-New-e-Invoicing-feature.png)
+![E-arvelduse funktsiooni uue versiooni lisamine.](media/e-Invoicing-services-get-started-MEX-Select-New-e-Invoicing-feature.png)
 
 ### <a name="update-the-configuration-version"></a>Konfiguratsiooni versiooni uuendamine
 
 1. Valige lehel **E-arvelduse funktsioonid** vahekaardil **Konfiguratsioonid** suvand **Lisa** või **Kustuta**, et hallata konfiguratsiooni versioone (ER-i failivormingu konfiguratsioone).
 
-    ![E-arvelduse funktsiooni konfiguratsioonide haldamine](media/e-Invoicing-services-get-started-MEX-Manage-e-Invoicing-feature-Configurations.png)
+    ![E-arvelduse funktsiooni konfiguratsioonide haldamine.](media/e-Invoicing-services-get-started-MEX-Manage-e-Invoicing-feature-Configurations.png)
 
     Uue versiooni loomisel päritakse kõik konfiguratsioonid viimasest avaldatud versioonist. CFDI arvete töötlemiseks on vajalikud järgmised konfiguratsioonid.
 
@@ -87,17 +86,17 @@ Saate luua uue versiooni, kui URL-i on näiteks vaja värskendada. Lisateavet le
 
 2. Valige loendist konfiguratsiooni versioon ja seejärel suvand **Redigeeri** või **Kuva**, et avada leht **Vormingukujundaja**, kus saate konfiguratsiooni redigeerida või vaadata.
 
-    ![Vormingukujundaja lehe avamine](media/e-Invoicing-services-get-started-MEX-Configuration-ER-format-designer.png)
+    ![Vormingukujundaja lehe avamine.](media/e-Invoicing-services-get-started-MEX-Configuration-ER-format-designer.png)
 
-3. Kasutage ER-i vormingu failikonfiguratsioonide redigeerimiseks ja kuvamiseks lehte **Vormingukujundaja**. Lisateavet leiate jaotisest [Elektrooniliste dokumentide konfiguratsioonide loomine](../../dev-itpro/analytics/electronic-reporting-configuration.md).
+3. Kasutage ER-i vormingu failikonfiguratsioonide redigeerimiseks ja kuvamiseks lehte **Vormingukujundaja**. Lisateavet leiate jaotisest [Elektrooniliste dokumentide konfiguratsioonide loomine](../../fin-ops-core/dev-itpro/analytics/electronic-reporting-configuration.md).
 
-    ![Vormingukujundaja leht](media/e-Invoicing-services-get-started-MEX-ER-format-designer.png)
+    ![Vormingukujundaja leht.](media/e-Invoicing-services-get-started-MEX-ER-format-designer.png)
 
 ## <a name="manage-the-e-invoicing-feature-setups"></a>E-arvelduse funktsiooni seadistuste haldamine
 
 - Valige lehel **E-arvelduse funktsioonid** vahekaardil **Seadistused** suvand **Lisa**, **Kustuta** või **Redigeeri**, et hallata e-arvelduse funktsiooni seadistusi.
 
-![E-arvelduse funktsiooni seadistuste haldamine](media/e-Invoicing-services-get-started-MEX-Manage-e-Invoicing-feature-Setup.png)
+![E-arvelduse funktsiooni seadistuste haldamine.](media/e-Invoicing-services-get-started-MEX-Manage-e-Invoicing-feature-Setup.png)
 
 CFDI arvete edastamiseks autoriseerimise eesmärgil (XML-faili loomiseks, XML-faili edastamiseks ja vastuse töötlemiseks) on vajalik funktsiooniseadistus **Müügiarve**.
 
@@ -108,15 +107,15 @@ CFDI arve tühistamise edastamiseks on vajalikud funktsiooniseadistused **Tühis
 1. Valige lehe **E-arvelduse funktsioonid** vahekaardi **Seadistused** veerus **Funktsiooni seadistus** suvand **Müügiarve**.
 2. Valige **Redigeeri**, et konfigureerida tegevused, rakendatavuse reeglid ja muutujad.
 
-    ![E-arvelduse funktsiooni seadistuse redigeerimine](media/e-Invoicing-services-get-started-MEX-Edit-e-Invoicing-feature-setup.png)
+    ![E-arvelduse funktsiooni seadistuse redigeerimine.](media/e-Invoicing-services-get-started-MEX-Edit-e-Invoicing-feature-setup.png)
 
 3. Valige lehel **Funktsiooni versiooni seadistus** vahekaart **Tegevused**, et hallata tegevuste loendit. Tegevused määratlevad selliste toimingute loendi, mis tuleb käitada sündmuse täielikuks lõpetamiseks järjestikku.
 
-    ![Tegevuste vahekaart](media/e-Invoicing-services-get-started-MEX-Select-Actions.png)
+    ![Tegevuste vahekaart.](media/e-Invoicing-services-get-started-MEX-Select-Actions.png)
 
     | Tegevuse ID | Tegevus                   | Tegevuse nimi                                  | Tegevuse kirjeldus                                          |
     |-----------|--------------------------|----------------------------------------------|-------------------------------------------------------------|
-    | 1         | Teisenda dokument       | Loo CFDI e-arve digitaalallkirjata | CFDI e-arve loomine.                                |
+    | 1         | Dokumendi teisendamine       | Loo CFDI e-arve digitaalallkirjata | CFDI e-arve loomine.                                |
     | 2         | Allkirjasta dokument            | Digitaalallkiri                                 | E-arve digitaalne allkirjastamine edastamiseks.                |
     | 3         | Kutsu Mehhiko PAC teenust | Edasta CFDI e-arve                        | Windows Communication Foundationi (WCF) klient edastab CFDI e-arve. |
     | 4         | Töötle vastust         | Analüüsi veebiteenuse vastust                 | Veebiteenuse vastuse analüüsimine ja tõrkelogi tagastamine. |
@@ -136,7 +135,7 @@ CFDI arve tühistamise edastamiseks on vajalikud funktsiooniseadistused **Tühis
 3. Valige väljal **Kehtiv alates** kuupäev, mil uus keskkond peaks kehtima hakkama.
 3. Valige **Luba**.
 
-![E-arvelduse keskkonna lubamine](media/e-Invoicing-services-get-started-MEX-Enable-e-Invoicing-Environment.png)
+![E-arvelduse keskkonna lubamine.](media/e-Invoicing-services-get-started-MEX-Enable-e-Invoicing-Environment.png)
 
 ## <a name="change-the-version-status-to-completed"></a>Versiooni oleku muutmine lõpetatuks
 
@@ -152,11 +151,11 @@ CFDI arve tühistamise edastamiseks on vajalikud funktsiooniseadistused **Tühis
 1. Valige lehel **E-arvelduse funktsioonid** vahekaart **Versioonid**, et hallata funktsiooni **CFDI arved (MX)** olekut.
 2. Valige **Muuda olekut**, et muuta funktsiooni olekut.
 
-![E-arvelduse funktsiooni oleku muutmine](media/e-Invoicing-services-get-started-MEX-Change-status-of-e-Invoicing-feature.png)
+![E-arvelduse funktsiooni oleku muutmine.](media/e-Invoicing-services-get-started-MEX-Change-status-of-e-Invoicing-feature.png)
 
-## <a name="set-up-electronic-invoicing-add-on-integration-in-finance"></a>Elektroonilise arvelduse lisandmooduli integratsiooni seadistamine rakenduses Finance
+## <a name="set-up-electronic-invoicing--integration-in-finance"></a>Elektroonilise arvelduse lisandmooduli integratsiooni seadistamine rakenduses Finance
 
-Elektroonilise arvelduse lisandmooduli seadistamise käigus rakenduses Finance teete järgmist.
+Elektroonilise arvelduse lisandmooduli seadistamise Finance -is peate lõpule viima järgmised ülesanded:
 
 1. ER-i andmemudeli, ER-i andmemudeli vastenduse ja CFDI arvete jaoks vajalike vormingute importimine.
 2. Vastusetüüpide konfigureerimine CFDI arvete värskendamiseks. Vastusetüüpe kasutatakse autoriseeritud serdipakkuja (PAC) serveri vastuse jaoks.
@@ -164,7 +163,7 @@ Elektroonilise arvelduse lisandmooduli seadistamise käigus rakenduses Finance t
 ### <a name="import-the-er-data-model-er-data-model-mapping-and-context-configurations-for-cfdi-invoices"></a>ER-i andmemudeli, ER-i andmemudeli vastenduse ja CFDI arvete kontekstikonfiguratsioonide importimine
 
 1. Logige sisse rakendusse Finance.
-2. Valige tööruumi **Elektrooniline aruandlus** jaotisest **Konfiguratsioonipakkujad** pealkiri **Microsoft**. Veenduge, et konfiguratsioonipakkuja olekuks oleks seatud **Aktiivne**. Lisateavet pakkuja **aktiivseks** märkimise kohta leiate teemast [Konfiguratsioonipakkujate loomine ja nende aktiivseks märkimine](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11).
+2. Valige tööruumi **Elektrooniline aruandlus** jaotisest **Konfiguratsioonipakkujad** pealkiri **Microsoft**. Veenduge, et konfiguratsioonipakkuja olekuks oleks seatud **Aktiivne**. Lisateavet pakkuja **aktiivseks** märkimise kohta leiate teemast [Konfiguratsioonipakkujate loomine ja nende aktiivseks märkimine](../../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md).
 3. Valige **Osad**.
 4. Valige **Globaalne ressurss \> Ava**.
 5. Importige **Arvemudel**, **Arvemudeli vastendus**, **CFDI arve vorming (MX)**, **CFDI arve tühistamistaotluse vorming (MX)** ja **CFDI arve tühistamisvorming (MX)**.
@@ -174,7 +173,7 @@ Elektroonilise arvelduse lisandmooduli seadistamise käigus rakenduses Finance t
 1. Avage **Organisatsiooni haldus \> Seadistus \> Elektroonilise dokumendi parameetrid**.
 2. Märkige vahekaardil **Funktsioonid** märkeruut **Luba** funktsiooniviidete **MX-00010** ja **MX-00016** ridade puhul.
 
-![Funktsioonide sisselülitamine CFDI arvete töötlemiseks](media/e-Invoicing-services-get-started-MEX-Enable-CFDI-feature.png)
+![Funktsioonide sisselülitamine CFDI arvete töötlemiseks.](media/e-Invoicing-services-get-started-MEX-Enable-CFDI-feature.png)
 
 ### <a name="import-er-configurations-and-set-up-the-response-types-for-updating-cfdi-invoices"></a>ER-i konfiguratsioonide importimine ja vastusetüüpide seadistamine CFDI arvete värskendamiseks
 
@@ -218,16 +217,16 @@ CFDI arvete töötlemisel rakenduses Finance elektroonilise arvelduse lisandmood
 Pärast funktsiooni **Konfigureeritav elektroonilise arvelduse lisandmooduli integratsioon** sisse lülitamist pole CFDI arvete edastamiseks enam võimalik kasutada protsessi **Ekspordi/impordi elektrooniline arve** (**Müügireskontro \> Arved \> E-arved**). See asendatakse uue protsessiga **Edasta elektroonilised dokumendid**.
 
 > [!NOTE]
-> Enne uue protsessi **Edasta elektroonilised dokumendid** kasutamist veenduge, et Mehhiko e-arvete jaoks vajalik seadistus oleks lõpetatud. Lisateavet leiate teemast [CFDI paigutuse versioon 3.3](https://docs.microsoft.com/dynamics365/finance/localizations/latam-mex-cfdi-3-3).
+> Enne uue protsessi **Edasta elektroonilised dokumendid** kasutamist veenduge, et Mehhiko e-arvete jaoks vajalik seadistus oleks lõpetatud. Lisateavet leiate teemast [CFDI paigutuse versioon 3.3](./latam-mex-cfdi-3-3.md).
 
 1. Avage **Organisatsiooni haldus \> Perioodiline \> Elektroonilised dokumendid \> Edasta elektroonilised dokumendid**.
 2. Mis tahes dokumendi esimese edastamise korral seadke suvandi **Dokumentide taasedastamine** väärtuseks alati **Ei**. Kui peate dokumendi teenuse kaudu uuesti edastama, seadke selle suvandi väärtuseks **Jah**.
 3. Valige kiirkaardil **Kaasatavad kirjed** suvand **Filter**, et avada dialoogiboks **Päring**, kus saate luua päringu edastatavate dokumentide valimiseks.
 
-![CFDI dokumendi edastamine](media/e-Invoicing-services-get-started-MEX-Submit-CFDI-document.png)
+![CFDI dokumendi edastamine.](media/e-Invoicing-services-get-started-MEX-Submit-CFDI-document.png)
 
 > [!NOTE]
-> Esimesel dokumendi edastamise katsel teenuse kaudu palutakse teil kinnitada ühendus elektroonilise arvelduse lisandmooduliga. Valige **Elektroonilise dokumendi edastusteenusega ühendumiseks klõpsake siin**.
+> Kui katsetate esimest korda dokumendi esitamist teenuse kaudu, palutakse teil kinnitada ühendus elektroonilise arveldusega. Valige **Elektroonilise dokumendi edastusteenusega ühendumiseks klõpsake siin**.
 
 ### <a name="view-submission-logs"></a>Edastuslogide kuvamine
 
@@ -235,16 +234,16 @@ Saate vaadata kõigi edastatud dokumentide või ainult ühe edastatud dokumendi 
 
 #### <a name="view-all-submission-logs"></a>Kõigi edastuslogide kuvamine
 
-Pärast funktsiooni **Konfigureeritav elektroonilise arvelduse lisandmooduli integratsioon** sisse lülitamist on saadaval uus leht, mis võimaldab teil jälgida dokumendi edastamise edenemist. Selle lehe abil saate vaadata kõigi edastatud dokumentide edastuslogisid.
+Pärast funktsiooni **Konfigureeritav elektroonilise arvelduse integratsioon** sisse lülitamist on saadaval uus leht, mis võimaldab teil jälgida dokumendi edastamise edenemist. Selle lehe abil saate vaadata kõigi edastatud dokumentide edastuslogisid.
 
 1. Avage **Organisatsiooni haldus \> Perioodiline \> Elektroonilised dokumendid \> Elektroonilise dokumendi edastuslogi**.
 2. Valige väljal **Dokumenditüüp** suvand **Kliendiarve tööleht**, et kuvada vajalikud elektroonilised dokumendid.
 
-    ![Dokumendi tüübi valimine edastuslogide kuvamiseks](media/e-Invoicing-services-get-started-MEX-Select-document-type-for-viewing-submission-log.png)
+    ![Dokumendi tüübi valimine edastuslogide kuvamiseks.](media/e-Invoicing-services-get-started-MEX-Select-document-type-for-viewing-submission-log.png)
 
 3. Valige toimingupaanil **Päringud \> Edastuse üksikasjad**, et vaadata edastuse käivituslogide üksikasju.
 
-    ![Edastuslogi üksikasjade vaatamine](media/e-Invoicing-services-get-started-MEX-View-submission-log-details.png)
+    ![Edastuslogi üksikasjade vaatamine.](media/e-Invoicing-services-get-started-MEX-View-submission-log-details.png)
 
 Edastuslogide teave on jagatud kolme kiirkaardi vahel.
 
@@ -256,20 +255,20 @@ Kui edastatud CFDI arve on autoriseeritud, määratakse selle olekuks väärtus 
 
 #### <a name="view-submission-logs-from-cfdi-invoices"></a>Edastuslogide kuvamine CFDI arvetes
 
-Pärast funktsiooni **Konfigureeritav elektroonilise arvelduse lisandmooduli integratsioon** sisse lülitamist saate vaadata edastuslogisid ka CFDI arvetes.
+Pärast funktsiooni **Konfigureeritav elektroonilise arvelduse integratsioon** sisse lülitamist saate vaadata edastuslogisid ka CFDI arvetes.
 
 1. Avage **Müügireskontro \> Päringud ja aruanded \> CFDI (elektroonilised arved)**.
-2. Valige CFDI arve, mis edastati pärast funktsiooni **Konfigureeritav elektroonilise arvelduse lisandmooduli integratsioon** sisse lülitamist.
+2. Valige CFDI arve, mis edastati pärast funktsiooni **Konfigureeritav elektroonilise arvelduse integratsioon** sisse lülitamist.
 3. Valige toimingupaanil vahekaardil **Ajalugu** suvand **Elektroonilise dokumendi logi**.
 
-![Edastuslogide vaatamine CFDI arvetes](media/e-Invoicing-services-get-started-MEX-View-submission-log-from-CFDI-invoice.png)
+![Edastuslogide vaatamine CFDI arvetes.](media/e-Invoicing-services-get-started-MEX-View-submission-log-from-CFDI-invoice.png)
 
 > [!NOTE]
-> CFDI arvete puhul, mis edastati enne funktsiooni **Konfigureeritav elektroonilise arvelduse lisandmooduli integratsioon** sisse lülitamist, on saadaval nupp **Ajalugu**. CFDI arvete puhul, mis edastati pärast funktsiooni **Konfigureeritav elektroonilise arvelduse lisandmooduli integratsioon** sisse lülitamist, pole nupp **Ajalugu** saadaval.
+> CFDI arvete puhul, mis edastati enne funktsiooni **Konfigureeritav elektroonilise arvelduse integratsioon** sisse lülitamist, on saadaval nupp **Ajalugu**. Nupp **Ajalugu** ei ole saadaval CFDI arvetele, mis edastati pärast **Konfigureeritav elektroonilise arvelduse lisandmooduli integratsioon** sisse lülitamist.
 
 ### <a name="submit-cancellation-of-cfdi-invoices"></a>CFDI arvete tühistamise edastamine
 
-Pärast funktsiooni **Konfigureeritav elektroonilise arvelduse lisandmooduli integratsioon** sisse lülitamist ei saa enam vana CFDI arvete tühistamise protsessi kasutada. See asendatakse uue tühistamisprotsessiga, mis on manustatud lehel **Elektroonilise dokumendi edastuslogi**.
+Pärast funktsiooni **Konfigureeritav elektroonilise arvelduse integratsioon** sisse lülitamist ei saa enam vana CFDI arvete tühistamise protsessi kasutada. See asendatakse uue tühistamisprotsessiga, mis on manustatud lehel **Elektroonilise dokumendi edastuslogi**.
 
 1. Avage **Müügireskontro \> Päringud ja aruanded \> CFDI (elektroonilised arved)**.
 2. Kui CFDI arve olek on **Kinnitatud**, valige **Funktsioonid \> Tühista CFDI**.
@@ -285,17 +284,20 @@ Pärast funktsiooni **Konfigureeritav elektroonilise arvelduse lisandmooduli int
 
     Lehel **Seotud edastused** kuvatakse kõik asjaomase CFDI arvega seotud edastused ja nende edastamise olek. Järgmisel illustratsioonil tähistab esimene rida edastust, mis taotles CFDI arve kinnitust. Teine rida tähistab edastust, mis tühistas selle CFDI arve.
 
-    ![Tühistamise edastuslogide vaatamine](media/e-Invoicing-services-get-started-MEX-View-cancellation-submission-log.png)
+    ![Tühistamise edastuslogide vaatamine.](media/e-Invoicing-services-get-started-MEX-View-cancellation-submission-log.png)
 
 4. Valige toimingupaanil **Päringud \> Edastuse üksikasjad**, et vaadata edastuse käivituslogide üksikasju.
 
-    ![Tühistamise edastuslogi üksikasjade vaatamine](media/e-Invoicing-services-get-started-MEX-View-cancellation-submission-log-details.png)
+    ![Tühistamise edastuslogi üksikasjade vaatamine.](media/e-Invoicing-services-get-started-MEX-View-cancellation-submission-log-details.png)
 
 ## <a name="privacy-notice"></a>Privaatsusavaldus
-Funktsioonide MX-00010 ja MX-00016 (CFDI arve ja CFDI tühistamine) lubamise korral on võimalik, et saata tuleb piiratud andmeid, sealhulgas organisatsiooni maksukohustuslasena registreerimise ID. See edastatakse maksuameti volitatud kolmandatest isikutest asutustele, mille eesmärk on saata maksuametile elektroonilisi arveid eelmääratletud vormingus, mis on vajalik integratsiooniks valitsuse veebiteenusega. Administraator saab lubada ja keelata funktsioonid MX-00010 ja MX-00016 (CFDI arve ja CFDI tühistamine), avades **Organisatsiooni haldus \> Seadistus \> Elektroonilise dokumendi parameetrid**. Valige vahekaart **Funktsioonid**, valige read, mis sisaldavad funktsioone MX-00010 ja MX-00016, ning seejärel tehke sobiv valik. Nendest välissüsteemidest sellesse Dynamics 365 võrguteenusesse imporditud andmete puhul kehtib meie [privaatsusavaldus](https://go.microsoft.com/fwlink/?LinkId=512132). Lisateavet leiate riigipõhise funktsiooni dokumentatsioonis asuvatest privaatsusavalduse jaotistest.
+Lubades **Elektroonilise arvelduse lisandmooduli** võib vajada piiratud andmete saatmist, sealhulgas organisatsiooni maksukohustuslasena registreerimise ID. See edastatakse maksuameti volitatud kolmandatest isikutest asutustele, mille eesmärk on saata maksuametile elektroonilisi arveid eelmääratletud vormingus, mis on vajalik integratsiooniks valitsuse veebiteenusega. Administraator saab lubada ja keelata **CFDI Mehhiko elektroonilise arve(MX)** funktsiooni avades **Organisatsiooni haldus \> Seadistus \> Elektroonilise dokumendi parameetrid**. Valige **Funktsioonid** vahekaart, valige read, mis sisaldavad **CFDI Mehhiko elektroonilise arve(MX)** ning seejärel tehke sobiv valik. Nendest välissüsteemidest sellesse Dynamics 365 võrguteenusesse imporditud andmete puhul kehtib meie [privaatsusavaldus](https://go.microsoft.com/fwlink/?LinkId=512132). Lisateavet leiate riigipõhise funktsiooni dokumentatsioonis asuvatest privaatsusavalduse jaotistest.
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-- [Elektroonilise arvelduse lisandmooduli ülevaade](e-invoicing-service-overview.md)
-- [Elektroonilise arvelduse lisandmooduli kasutamise alustamine](e-invoicing-get-started.md)
-- [Elektroonilise arvelduse lisandmooduli seadistamine](e-invoicing-setup.md)
+- [Elektroonilise arvelduse ülevaade](e-invoicing-service-overview.md)
+- [Elektroonilise arveldusega alustamine](e-invoicing-get-started.md)
+- [Seadista elektrooniline häälestus](e-invoicing-setup.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: LedgerAccrualTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a83870c4cec4de2e51e90ff1889d4beff6c23f95
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5c021f71735e63c270e8f1998d77d4e4abcc5506
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442443"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5236693"
 ---
 # <a name="create-accrual-schemes"></a>Viitvõlaskeemide loomine
 
@@ -41,3 +40,6 @@ Selles teemas selgitatakse, kuidas luua viitvõlaskeeme. See ülesanne kasutab d
 10. Väljale **Juhtumite arv perioodide kaupa** sisestage arv.
 11. Väljal **Sisesta kanded** valige, millal kandeid peaks postitama, näiteks **Iga kuu**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

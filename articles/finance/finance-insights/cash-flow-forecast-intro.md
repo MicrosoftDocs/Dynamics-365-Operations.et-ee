@@ -1,34 +1,32 @@
 ---
-title: Rahavoo prognoos (eelversioon)
+title: Likviidsuse planeerimine
 description: See teema kirjeldab rahavoo prognoosimise võimekust.
 author: ShivamPandey-msft
-manager: AnnBe
-ms.date: 05/19/2020
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
-ms.custom: 14151
+ms.custom:
+- "14151"
+- intro-internal
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-19
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: f97b8fc0896f0f7b95bf5609f94367b3a8230ca7
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: ad568fcd126ad3dc9e5ff269cc3bc99b218e822a
+ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4645244"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7386609"
 ---
-# <a name="cash-flow-forecast-preview"></a>Rahavoo prognoos (eelversioon)
+# <a name="cash-flow-forecast"></a>Likviidsuse planeerimine
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Rahavoog on igale ärile kriitilise tähtsusega. Isegi tulusatel ettevõtetel võib tekkida maksejõuetus, kui nad ei säilita vahetute vajaduste täitmiseks rahavoogu. Finantsülevaadete rahavoo prognoosimise võimalus võib aidata ettevõtetel tõhusalt jälgida ja hallata oma sularahasaldot. See funktsioon kasutab masinõppimist, et aidata ettevõtetel prognoosida rahavoogusid täpsemalt kui varem. Samuti võib see aidata juhtidel teha otsuseid, mis optimeerivad võimalusi oma praeguse sularahajäägi kontekstis. 
 
@@ -66,5 +64,4 @@ Lehe **Rahavoo prognoosimise seadistus** uus vahekaart võimaldab teil juhtida, 
 
 Vahekaardil **Dimensioonid** tehke dimensioonide loendis filtreerimiseks valik ja kasutage nooleklahve, et liigutada need parempoolsesse veergu. Rahavoo prognoosimise andmete filtreerimiseks saab valida ainult kaks dimensiooni. 
 
-#### <a name="privacy-notice"></a>Privaatsusavaldus
-Eelvaated 1) võivad kasutada vähem privaatsus- ja turbemeetmeid kui rakenduse Dynamics 365 Finance and Operations teenus; 2) ei ole hõlmatud selle teenuse teenusetaseme leppes; 3) ei tohi olla kasutusel isiklike andmete ega muude andmete töötlemiseks, mis on seaduste või määrustega kaitstud; 4) on piiratud toega.
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,16 +2,13 @@
 title: Logo lisamine
 description: Selles teemas kirjeldatakse, kuidas lisada logo rakenduses Microsoft Dynamics 365 Commerce oma saidile.
 author: bicyclingfool
-manager: AnnBe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,20 +16,18 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f15680deb0eab763ba68f2897139c915d1f8a6a3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d9e1cba6bd07e0c3d9ed7d741d87e10837d8021c
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411622"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5797595"
 ---
 # <a name="add-a-logo"></a>Logo lisamine
 
 [!include [banner](includes/banner.md)]
 
 Selles teemas kirjeldatakse, kuidas lisada logo rakenduses Microsoft Dynamics 365 Commerce oma saidile.
-
-## <a name="overview"></a>Ülevaade
 
 Kui te loote oma saiti, on üks esimesi asju, mida te tõenäoliselt teete, lisada oma ettevõtte või kaubamärgi logo saidi päisesse. Rakenduse Dynamics 365 Commerce veebimooduliteek pakub moodulit, mis muudab selle ülesande lihtsaks.
 
@@ -74,3 +69,6 @@ Pärast värskendatud päise fragmenti avaldamist kuvatakse kõik saidi lehed, m
 
 [Telemeetria toetamiseks saidile skriptikoodi lisamine](add-telemetry.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

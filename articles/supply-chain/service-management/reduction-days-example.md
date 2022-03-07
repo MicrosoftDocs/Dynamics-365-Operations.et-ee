@@ -1,7 +1,7 @@
 ---
 title: Vähendamispäevade näide
 description: Vähendamispäevade näide,
-author: kamaybac
+author: ShylaThompson
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
@@ -15,29 +15,30 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 97fb032d02df1dbedaeccec14496cb1d63e8cf70
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 6ba0cfde66476d052f0c9a048977026341a5295c21603385c5b3774a15be5232
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567939"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6727794"
 ---
-# <a name="reduction-days-example"></a>Vähendamispäevade näide
+# <a name="reduction-days-example"></a>Vähendamispäevade näide 
 
 [!include [banner](../includes/banner.md)]
+
 
 Olete loonud kordustellimuse kande kliendi kordustellimuse haldamiseks, nagu kirjeldatud järgmises tabelis.
 
 <table>
 <colgroup>
-<col />
-<col />
-<col />
-<col />
-<col />
-<col />
-<col />
-<col />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -65,20 +66,21 @@ Olete loonud kordustellimuse kande kliendi kordustellimuse haldamiseks, nagu kir
 </tbody>
 </table>
 
+
 Klient teatab, et ei vaja teenust kahel päeval (10. ja 11. märtsil). Nõustute vähendama kordustellimust nende kahe päeva võrra.
 
 Loote uue, tüübi **Vähendamispäevad** kande, nagu kirjeldatud järgmises tabelis.
 
 <table>
 <colgroup>
-<col />
-<col />
-<col />
-<col />
-<col />
-<col />
-<col />
-<col />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -106,10 +108,16 @@ Loote uue, tüübi **Vähendamispäevad** kande, nagu kirjeldatud järgmises tab
 </tbody>
 </table>
 
+
 Kui 2011. aasta märtsi kanded arveldatakse, vähendatakse müügihinda 200 eurot 12.90 euro võrra. Kordustellimuse kande arveldatav summa on seega 187.10 eurot ja kahe kande eest esitatakse kokku arve summas 187.10 eurot.
 
 ## <a name="see-also"></a>Vt ka
 
 [Kordustellimuste tasude päevade vähendamine](reduce-the-days-on-subscription-fees.md)
+
+  
+
+
+
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

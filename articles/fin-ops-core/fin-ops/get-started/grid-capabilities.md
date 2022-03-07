@@ -1,12 +1,10 @@
 ---
 title: Ruudustiku võimalused
-description: Selles teemas kirjeldatakse ruudustiku juhtelemendi mitmeid võimsaid funktsioone. Nende võimaluste kasutamiseks tuleb uus ruudustikufunktsioon lubada.
+description: Selles teemas kirjeldatakse ruudustiku juhtelemendi mitmeid võimsaid funktsioone. Nende võimaluste kasutamiseks peate lubama uue ruudustiku funktsiooni.
 author: jasongre
-manager: AnnBe
-ms.date: 11/17/2020
+ms.date: 01/22/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: DefaultDashboard
 audience: Application User, Developer, IT Pro
@@ -15,40 +13,40 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: fb30cdded33f90bb472c8abdb70875077b1dd985
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: c8f417b3ba427104d6d0e57ac595ab7b453f48fa
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693770"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5749561"
 ---
 # <a name="grid-capabilities"></a>Ruudustiku võimalused
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Uus ruudustiku juhtelement pakub mitmeid kasulikke ja võimsaid võimalusi, mida saab kasutada kasutaja tootlikkuse suurendamiseks, teie andmetest huvitavate vaadete loomiseks ja sisukate ülevaadete hankimiseks andmete jaoks. Selles artiklis tutvustatakse järgmisi võimalusi. 
+
+Uus ruudustiku juhtelement pakub mitmeid kasulikke ja võimsaid võimalusi, mida saate kasutada kasutaja tootlikkuse suurendamiseks, teie andmetest huvitavate vaadete loomiseks ja sisukate ülevaadete hankimiseks andmete jaoks. Selles artiklis tutvustatakse järgmisi võimalusi. 
 
 -  Summade arvutamine
 -  Süsteemist eespool tippimine
 -  Matemaatiliste avaldiste hindamine 
 -  Tabeli andmete grupeerimine (lubatud eraldi kasutades **(eelvaade) grupeerimist võrkude** funktsioonis)
--  Kinnitatud süsteemiveerud
+-  Veergude külmutamine
 
 ## <a name="calculating-totals"></a>Summade arvutamine
-Rakendustes Finance and Operations on kasutajatel võimalik ruudustiku numbriveergude allosas näha kogusummasid. Need kogusummad kuvatakse ruudustiku allosas jaluse jaotises. 
+Rakendustes Finance and Operations on kasutajatel võimalik ruudustiku numbriveergude allosas näha kogusummasid. Ruudustiku allosas olev jaluse jaotis näitab neid kogusummasid. 
 
 ### <a name="showing-the-grid-footer"></a>Ruudustiku jaluse kuvamine
 Finance and Operationsi rakendustes on igas tabeliruudustikus allosas jaluse ala. Jalus näitab olulist teavet, mis on seotud ruudustikus kuvatavate andmetega. Siin on mõned näited sellest teabest.
 
-- Valitud ridade arv tabelis (kui on valitud rohkem kui üks kirje)
+- Valitud ridade arv tabelis (kui valite rohkem kui ühe kirje)
 - Konfigureeritud arvveergude allosas olevad kogusummad
 - Andmekogumi ridade arv 
 
-See jalus on vaikimisi peidetud, kuid seda saab hõlpsasti sisse lülitada. Ruudustiku jaluse kuvamiseks paremklõpsake ruudustiku veeru päist ja valige suvand **Kuva jalus**. Kui jalus on teatud ruudustiku puhul sisse lülitatud, jäetakse see säte meelde, kuni kasutaja otsustab jaluse peita. Seda saab teha, paremklõpsates veeru päises ja valides käsu **Peida jalus**.  Pange tähele, et toimingu **Kuva jalus / peida jalus** paigutust plaanitakse edasistes värskendustes muuta. 
+See jalus on vaikimisi peidetud, kuid saate selle sisse lülitada. Ruudustiku jaluse kuvamiseks paremklõpsake ruudustiku veeru päist ja valige suvand **Kuva jalus**. Kui olete konkreetse ruudustiku jaluse sisse lülitanud, peetakse see seadistus meeles, kuni kasutaja otsustab jaluse peita. Jaluse peitmiseks paremklõpsake veeru päist ja valige käsk **Peida jalus**.  (Toimingu **Kuva jalus / peida jalus** paigutus võib edasistes värskendustes liikuda uude kohta. 
 
 ### <a name="specifying-columns-with-totals"></a>Veergude määramine kogusummade abil
-Praegu ei konfigureerita kogusummade vaikimisi kuvamiseks ühtegi veergu. Selle asemel loetakse seda ühekordse häälestuse toiminguks, mis on sarnane veergude laiuste kohandamisega ruudustikes. Kui olete määranud, et soovite näha veeru kogusummasid, kuvatakse teile seda sätet järgmisel lehekülastusel.  
+Praegu ei kuva ükski veerg kogusummat vaikimisi. Selle asemel loetakse seda ühekordse häälestuse toiminguks, mis on sarnane veergude laiuste kohandamisega ruudustikes. Kui olete määranud, et soovite näha veeru kogusummasid, kuvatakse teile seda sätet järgmisel lehekülastusel.  
 
 Veeru konfigureerimiseks kogusumma kuvamiseks on kaks võimalust. 
 
@@ -122,8 +120,14 @@ Samamoodi nagu ruudustiku kõigi ridade valimiseks (või valiku tühistamiseks) 
 ### <a name="hiding-column-names"></a>Veeru nimede peitmine
 Andmete grupeerimisel kuvatakse veeru nimi grupi päisereal vaikimisi. Alates versioonist 10.0.14/Platvormi värskendusega nr 38 saate veeru nime grupi päiseridades peita, valides **Ruudustiku suvandid** > **Peida grupi veeru nimi**.
 
-## <a name="pinned-system-columns"></a>Kinnitatud süsteemiveerud
-Rea valimise veerg ja rea oleku veerg on uues ruudustikus kinnitatud või külmutatud ruudustiku vasakpoolses osas. Kui need veerud on ruudustikku kaasatud, on nad seetõttu alati kasutajale nähtavad hoolimata ruudustiku horisontaalsest kerimisasukohast.   
+## <a name="freezing-columns"></a>Veergude külmutamine
+Mõned ruudustiku veerud võivad olla piisavalt olulised konteksti jaoks, et te ei soovi neid vaatest välja kerida. Selle asemel soovite, et nende veergude väärtused oleks alati nähtaval. Versioonis 10.0.17 pakub funktsioon **Külmuta ruudustiku veerud** kasutajatele seda paindlikkust. 
+
+Veeru külmutamiseks paremklõpsake veeru päist ja valige seejärel suvand **Külmuta veerg**. Selle sammu esmakordsel lõpuleviimisel muutub valitud veerg esimeseks veeruks ja ei keri enam vaatest välja. Kõik järgmised külmutatud veerud lisatakse viimasest külmutatud veerust paremale. Saate külmutatud veergude järjestuse vastavalt vajadusele muutmiseks kasutada tavalist liigutamise funktsiooni. Samas ei saa külmutatud veerge liigutada nii, et need ilmuksid külmutamata veergude hulgas. Sarnaselt ei saa külmutamata veerge liigutada nii, et need ilmuksid külmutatud veergude hulgas.
+
+Veeru külmutamisest vabastamiseks paremklõpsake külmutatud veeru päist ja valige seejärel suvand **Vabasta veerg külmutamisest**. 
+
+Pange tähele, et uue ruudustiku rea valiku ja rea oleku veerud on esimeses kahes veerus alati külmutatud. Kui need veerud on ruudustikku kaasatud, on nad seetõttu alati kasutajatele nähtavad hoolimata ruudustiku horisontaalsest kerimisasukohast. Nende kahe veeru järjestust ei saa muuta.
 
 ## <a name="frequently-asked-questions"></a>Korduma kippuvad küsimused
 ### <a name="how-do-i-enable-the-new-grid-control-in-my-environment"></a>Kuidas lubada uut ruudustiku juhtelementi oma keskkonnas? 
@@ -159,7 +163,7 @@ Seda API-d saab kasutada kuni 2021. aasta oktoobri väljalaskeni, mil uus ruudus
 Kui arendaja seab uue ruudustiku veergude puhul atribuudi **WidthMode** väärtuseks **SizeToAvailable**, on neil veergudel esialgu sama laius, mis neil oleks siis, kui atribuudi väärtuseks oleks seatud **SizeToContent**. Sellest hoolimata venitatakse neid, et kasutada ruudustikus saadaolevat lisalaiust. Kui atribuudi väärtuseks on seatud **SizeToAvailable** mitme veeru puhul, jagavad kõik need veerud ruudustikus saadaolevat lisalaiust. Kui kasutaja muudab ühe sellise veeru suurust aga käsitsi, muutub veerg staatiliseks. Selle laius jääb samaks ja seda ei venitata, et kasutada ruudustikus saadaolevat lisalaiust.  
 
 ## <a name="known-issues"></a>Teadaolevad probleemid
-Selles jaotises on toodud uue ruudustiku juhtelemendi teadaolevate probleemide loend, kuni funktsioon on eelvaate olekus.  
+See jaotis sisaldab uue ruudustiku juhtelemendi teadaolevate probleemide loendit.  
 
 ### <a name="open-issues"></a>Lahendamata probleemid
 -  Pärast funktsiooni **Uus ruudustiku juhtelement** kasutatakse mõnel lehel jätkuvalt olemasolevat ruudustiku juhtelementi. See juhtub järgmistes olukordades.  
@@ -170,20 +174,44 @@ Selles jaotises on toodud uue ruudustiku juhtelemendi teadaolevate probleemide l
     Kui kasutaja seisab ühega neist olukordadest esimest korda silmitsi, kuvatakse teade lehe värskendamise kohta. Pärast selle teate kuvamist jätkab leht olemasoleva ruudustiku kasutamist kõigi kasutajate puhul kuni järgmise tooteversiooni värskenduseni. Nende stsenaariumide paremat käsitlemist, et uut ruudustikku saaks kasutada, kaalutakse tulevases värskenduses.    
     
 -  [KB 4582758] Kirjed on udused, kui muudate suumi 100 pealt mis tahes teisele protsendile
-    
+-  [KB 4592012] Ootamatu kliendi tõrge IE11-s mitme rea kleepimisel Excelist
+    -  Microsoft ei oma probleemile parandust
+
+### <a name="fixed-as-part-of-10016"></a>Parandatud versioonis 10.0.16
+
+-  [KB 4598335] Mitmerealise stringi juhtelemendid ei arvesta loendite/kaartide kuvamiskõrgusega 
+-  [KB 4591891] Ridade märkimise tühistamisel lähevad arve soovituse read kaduma
+-  [KB 4592104] Kirjeid ei saa pärast nupu Lahenda probleem klõpsamist redigeerida ega liikuda teisele reale kinnitusprobleemi lahendamata
+-  [KB 4594449] Kuupäeva valijas puuduvad nupud Mitte kunagi ja Tühjenda 
+-  [KB 4594448] Uues ruudustikus koheldakse kellaaja sisestust erinevalt
+-  [KB 4600059] Ootamatu kliendi tõrge meili ahendamisega
+-  [KB 4574584] Kulude manuse eelvaade pole hiirega üle kviitungi ikooni liikumisel saadaval
+
 ### <a name="fixed-as-part-of-10015"></a>Parandatud versioonis 10.0.15    
 
+-  (Kvaliteedivärskendus) [KB 4594444] Ootamatu klienditõrge segmenditud sisestamise juhtimise eelvaatega
 -  [KB 4582723] Kuvamise valikuid ei kuvata, kui need tehakse vormi elutsüklis hiljem
+-  [KB 4591988] Probleemid klaviatuuri kasutamisel otsingust ReferenceGroup väärtuse valimiseks
+-  [KB 4588958] Regression Suite Automation Tool (RSAT) test nurjub tõrkega: TypeError: määratlemata atribuuti „tekst” ei saa lugeda
+-  [KB 4591970] Ootamatu kliendi tõrge, kui Excelist kleepimine tehti kohe pärast ruudustikus klõpsamist
+-  [KB 4591904] Andmete muudatusi ei salvestata, kui pärast juhtelemendi redigeerimist kasutaja klõpsas kohe ja avas teise juhtelemendi otsingu
+-  [KB 4584752] Ootamatu kliendi tõrge projekti arve ettepanekute lehel
+-  [KB 4584540] Ruudustikku ei saa pärast üksiku rea töölehe reale kleepimist jätta
+-  [KB 4591908] Uue rea loomisel jääb fookus veergu, kus olite
 
 ### <a name="fixed-as-part-of-10014"></a>Parandatud versioonis 10.0.14
 
 -  (Kvaliteedi uuendamine) [KB 4584752] Ootamatu kliendi tõrge projekti arve ettepanekute lehel
+-  [KB 4583880] Tööriista Regression Suite Automation Tool (RSAT) katsed nurjuvad tegevuse OpenLookup puhul koos teatega „Ei saa lugeda määratlemata atribuuti RowIndex”
+-  [KB 4583847] Ootamatu kliendi tõrge läbi otsingute navigeerimisel
 
 ### <a name="fixed-as-part-of-10013"></a>Parandatud versioonis 10.0.13
 
+-  (Kvaliteedi uuendamine) [KB 4584752] Ootamatu kliendi tõrge projekti arve ettepanekute lehel
 -  (Kvaliteedi uuendamine) [KB 4583880] Tööriista Regression Suite Automation Tool (RSAT) katsed nurjuvad tegevuse OpenLookup puhul koos teatega „Ei saa lugeda määratlemata atribuuti RowIndex”
 -  (Kvaliteedi uuendamine) [KB 4583847] Ootamatu kliendi tõrge läbi otsingute navigeerimisel 
 -  (Kvaliteedi uuendamine) [Programmiviga 471777] Mobiilirakenduse redigeerimiseks või loomiseks ei saa ruudustikus välju valida
+-  [KB 4582727] Ruudustik külmub pärast seda, kui kasutaja saab dialoogi mitme kogusega kaupade jaoks
 -  [Programmiviga 474851] Viitegrupi juhtelementides ei tööta hüperlingid 
 -  [Programmiviga 474848] Ruudustikega täiustatud eelvaateid ei kuvata
 -  [KB 4582726] Atribuudiga RotateSign ei arvestata  
@@ -263,3 +291,6 @@ Selles jaotises on toodud uue ruudustiku juhtelemendi teadaolevate probleemide l
 ### <a name="quality-update-for-1009platform-update-33"></a>Versiooni 10.0.9 kvaliteedivärskendus / platvormivärskendus 33
 
 - [KB 4550367] Kellaajaväärtused ei ole õigesti vormindatud.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

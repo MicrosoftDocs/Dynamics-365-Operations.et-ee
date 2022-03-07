@@ -1,35 +1,38 @@
 ---
 title: Saate häälestada hooldustellimuse etappe.
 description: Seadistage hooldustellimuse etappe.
-author: kamaybac
+author: ShylaThompson
+manager: tfehr
 ms.date: 05/07/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf05b86fe0fd08c72351ea753a97d36604a55ac9
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 86d60a67b60b1bd3a13666b35f729f88ecfee3d3
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580284"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4425932"
 ---
 # <a name="set-up-service-order-stages"></a>Saate häälestada hooldustellimuse etappe. 
 
 [!include [banner](../includes/banner.md)]
 
 
-1.  Avage **Teenuste haldus** \> **Seadistamine** \> **Teenuse tellimused** \> **Teenuseetapid**.
+1.  Klõpsake valikut **Teenuste haldus** \> **Häälestus** \> **Hooldustellimused** \> **Teenuseetapid**.
 
-2.  Uue kirje loomiseks valige **Uus**.
+2.  Uue kirje loomiseks vajutage klahve CTRL+N.
 
 3.  Määrake väljades **Teenuse etapp** ja **Kirjeldus** teenuse etapi ID ja kirjeldus.
 
@@ -46,6 +49,3 @@ ms.locfileid: "7580284"
   
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Testimise automatiseerimine elektroonilise aruandluse abil
 description: Selles teemas selgitatakse, kuidas saate kasutada elektroonilise aruandluse (ER) raamistiku põhifunktsiooni mõnede funktsioonide testimise automatiseerimiseks.
 author: NickSelin
-manager: AnnBe
 ms.date: 07/02/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERSolutionTable, ERFormatBaselineTable, ERFormatMappingRunLogTable, ERParameters
 audience: Application User, Developer, IT Pro
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 0a2586afd56eef0f953454ad246ff3647a5b09d1
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 0d029773d9aa59b27f80d2f670984a352e163122
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681444"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5743867"
 ---
 # <a name="automate-testing-with-electronic-reporting"></a>Testimise automatiseerimine elektroonilise aruandluse abil
 
@@ -380,3 +378,6 @@ Seetõttu, nagu olete näinud, saab mis tahes ER-vormingu toimimist hinnata auto
 - [Loodud aruandetulemite jälgimine ja nende võrdlemine alusväärtustega](er-trace-reports-compare-baseline.md)
 - [Elektrooniline aruandlus. Vormingu täiendamine uue alusversiooni kasutuselevõtuga](tasks/er-upgrade-format.md)
 - [Elektroonilise aruande konfiguratsiooni importimine teenusest Lifecycle Services](tasks/er-import-configuration-lifecycle-services.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

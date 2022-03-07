@@ -2,26 +2,23 @@
 title: Arvete ja võtmeandmete audit ostureskontros
 description: See teema kirjeldab arvete ja võtmeandmete auditit ostureskontros.
 author: saraschi2
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchCreateOrder, PurchEditLines, VendEditInvoice, VendEditInvoiceDefaultQuantityForLinesDropDialog,  VendJournalMatch_PackingSlip, VendInvoiceMatchingDetails
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5bb89f0adce41b045b1f573c4c0e841f78b2248c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 783da0fed3065aebd1f5cb19c819eb0a925d1e02970433035db69c1b105bede8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442249"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6779832"
 ---
 # <a name="audit-invoices-and-key-data-in-accounts-payable"></a>Arvete ja võtmeandmete audit ostureskontros
 
@@ -62,3 +59,6 @@ See protsess kasutab demoettevõtte USMF-i andmeid. Järgmiste sammude tegemisek
 9. Klõpsake toimingupaanil valikut **Vaata üle**.
 10. Klõpsake valikut **Vastanduvad üksikasjad**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

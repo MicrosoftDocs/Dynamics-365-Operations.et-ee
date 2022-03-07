@@ -2,28 +2,25 @@
 title: Rendi sisestamise tüübid
 description: Selles teemas kirjeldatakse vara rentimise kannete jaoks kasutatavaid sisestamise tüüpe.
 author: moaamer
-manager: Ann Beebe
 ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: ceb4fbeb4dbf2f535e05a9d46c84169435d2803b
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: ddc229f3ab8e048390f27503e2c6c26bd1a6f24f
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4442575"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5841137"
 ---
 # <a name="lease-posting-types"></a>Rendi sisestamise tüübid
 
@@ -92,15 +89,6 @@ Konto on seotud kasutamisõiguse esemeks oleva vara kontrakontoga. Seda kontot k
 **Deebet:** kulumi kulu XXX<br>
 **Kreedit:** kogunenud kulum XXX
 
-## <a name="retained-earnings"></a>Jaotamata kasum
-
-Konto on seostatud kinnipeetud tuludega. Seda kontot on võimalik kas debiteerida või krediteerida ülemineku korrigeerimise töölehe kirjel, kasutades täielikku tagasiulatuvat meetodit või kumulatiivset järelkulu valiku A meetodil. Erinevus esialgse kasutamisõiguse esemeks oleva vara ja rendikohustise vahel kirjendatakse kinnipeetud tuludena. Harvadel juhtudel võib jaotamata kasumit mõjutada ka rendi muutmine, kui rendi klassifikatsioon muutub finantseerimisest kasutusele, et hinnata kasutamisõiguse esemeks olev vara üles või alla, et see oleks kapitalirendiga võrdne.
-
-**Töölehe kirjete näidis:** siirde korrigeerimine (täielikult tagasiulatuv või kumulatiivse järelkulu valiku A meetod)<br>
-**Deebet:** rendikohustis XXX<br>
-**Kreedit:** renditav vara XXX<br>
-**Kreedit:** jaotamata kasum XXX
-
 ## <a name="variable-payment"></a>Muutuv makse
 
 Konto on seotud muutuvate rendimaksetega, mis luuakse indeksi ümberhindamise poolt vastavalt standardite ASC 842, ASC 840 ja IAS 17 liisingutele. Rendi maksegraafikus on muutuvad maksed lisatud veergu **Muutuv makse**. Seda konto debiteeritakse, kui arve luuakse maksegraafiku rea suhtes, mis sisaldab muutuvat makset.
@@ -154,3 +142,6 @@ Iga kulutüübi jaoks valitud konto debiteeritakse, kui selle kulu tüübi jaoks
 
 > [!NOTE]
 > Nihkekonto valitakse täitekulu maksegraafikule rendi tasemel. Selle nihkekonto saab seostada hankija või pearaamatu konto.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

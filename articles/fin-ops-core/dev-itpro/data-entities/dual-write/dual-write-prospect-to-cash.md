@@ -2,40 +2,29 @@
 title: Potentsiaalne klient-raha ja kaksikkirjutamine
 description: See teema annab teavet potentsiaalne klient-raha kaksikkirjutamises kohta.
 author: RamaKrishnamoorthy
-manager: AnnBe
 ms.date: 01/07/2021
 ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 3f88d7249af515670c0a3e73a5ef890f04133d19
-ms.sourcegitcommit: 6af7b37b1c8950ad706e684cc13a79e662985b34
+ms.openlocfilehash: 03bfb5f97b332abb7f34e179d7b294ed2228ab474825a76271f42cc60971a645
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "4959597"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6716090"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Potentsiaalne klient-raha kaksikkirjutamises
 
 [!include [banner](../../includes/banner.md)]
 
-
-
 Enamiku ettevõtete oluline eesmärk on muuta potentsiaalsed kliendid klientideks ja seejärel säilitada nende klientidega pidev ärisuhe. Rakendustes Microsoft Dynamics 365 toimub potentsiaalne klient-raha protsess pakkumiste või tellimuste töötlemise töövoogude kaudu ning finantsid lepitakse kokku ja kinnitatakse. Potentsiaalse kliendi-raha integreerimine kaksikkirjutamisega loob töövoo, mis võtab pakkumise ja tellimuse, mis on pärit kas Dynamics 365 Salesist või Dynamics 365 Supply Chain Management-st, ja teeb pakkumise ja tellimuse kättesaadavaks mõlemas rakenduses.
 
 Rakendusliidestes pääsete juurde reaalaja töötlemisolekutele ja arveteabele. Seetõttu saate hõlpsalt hallata selliseid funktsioone nagu toote ladustamine, laoseisu käitlemine ja täitmine Supply Chain Managementis, ilma et peaksite pakkumised ja tellimused uuesti looma.
 
-![Kaksikkirjutamise andmevoog järjestuses potentsiaalne klient-raha](../dual-write/media/dual-write-prospect-to-cash[1].png)
+![Kaksikkirjutamise andmevoog järjestuses potentsiaalne klient-raha.](../dual-write/media/dual-write-prospect-to-cash[1].png)
 
 Lisateavet kliendi ja kontaktide integreerimise kohta vt [Integreeritud kliendi koondandmed](customer-mapping.md). Lisateavet toote integreerimise kohta vt [Ühendatud toote kasutusfunktsionaalsus](product-mapping.md).
 
@@ -50,7 +39,7 @@ Enne müügipakkumiste sünkroonimist peate uuendama järgmised sätted.
 
 Müükides avage jaotis **Sätted \> Administreerimine \> Süsteemisätted \> Müügid** ja veenduge, et kasutusel on järgmised sätted.
 
-- Süsteemisuvand **Kasuta süsteemi hinnaarvutust** on seatud väärtusele **Jah**.
+- Suvand **Kasuta süsteemi hinna arvutamise süsteemi** on seatud väärtusele **Jah**.
 - Veerg **Allahindluse arvutamise meetod** on seatud väärtusele **Rea kaup**.
 
 ### <a name="sites-and-warehouses"></a>Saidid ja laod
@@ -72,6 +61,7 @@ Müügipakkumised võib luua rakenduses Müügid või Supply Chain Management. K
 + Veerud **Veotingimused**, **Tarnetingimused**, **Saatmisviis** ja **Tarneviis** ei ole vaikevastenduste osa. Nende veergude vastendamiseks peate seadistama väärtuse vastenduse, mis on kohane neis organisatsioonides olevatele andmetele, mille vahel tabelit sünkroonitakse.
 
 Kui kasutate ka lahendust Field Service, veenduge, et oleksite parameetri **Pakkumisrea kiirloomine** uuesti lubanud. Parameetri uuesti lubamine võimaldab teil jätkata pakkumisridade loomist kiirloomise funktsiooni kasutades.
+
 1. Liikuge oma Dynamics 365 Sales'i rakenduse juurde.
 2. Valige ülemiselt navigeerimisribalt sätete ikoon.
 3. Valige **Täpsemad sätted**.
@@ -123,40 +113,25 @@ Järjestus Potentsiaalne klient sularahaks sisaldab kogumit põhitabeli vastendu
 
 | Finance and Operations rakendused | Klientide kaasamise rakendused | Kirjeldus |
 |-----------------------------|-----------------------------------|-------------|
-| Müügiarve päised V2    | arved                          | Tabel Müügiarve päised V2 rakenduses Finance and Operations sisaldab müügtellimuste arveid ja vabas vormis arveid. Dataverse’is rakendatakse topeltkirjutamise jaoks filter, et filtreerida välja kõik vabas vormis arvedokumendid. |
-| Müügiarve read V2      | invoicedetails                    |             |
-| CDS-i müügitellimuse päised     | müügitellimused                       |             |
-| CDS-i müügitellimuse read       | müügitellimuse üksikasjad                 |             |
-| Müügitellimuse päritolukoodid    | msdyn\_müügitellimuse päritolu          |             |
-| CDS-i müügipakkumise päis  | pakkumised                            |             |
-| CDS-i müügipakkumise read   | Pakkumise üksikasjad                      |             |
+[Kõik tooted](mapping-reference.md#138) | msdyn_globalproducts | |
+[Kliendid V3](mapping-reference.md#101) | kontod | |
+[Kliendid V3](mapping-reference.md#116) | kontaktid | |
+[Kontaktid V2](mapping-reference.md#221) | msdyn_contactforparties | |
+[CDS-i müügitellimuse päised](mapping-reference.md#217) | müügitellimused | |
+[CDS-i müügitellimuse read](mapping-reference.md#216) | müügitellimuse üksikasjad | |
+[CDS-i müügipakkumise päis](mapping-reference.md#215) | pakkumised | |
+[CDS-i müügipakkumise read](mapping-reference.md#214) | Pakkumise üksikasjad | |
+[Väljastatud tooted V2](mapping-reference.md#189) | msdyn_sharedproductdetails | |
+[Müügiarve päised V2](mapping-reference.md#118) | arved | Tabel Müügiarve päised V2 rakenduses Finance and Operations sisaldab müügtellimuste arveid ja vabas vormis arveid. Dataverse’is rakendatakse topeltkirjutamise jaoks filter, et filtreerida välja kõik vabas vormis arvedokumendid. |
+[Müügiarve read V2](mapping-reference.md#117) | invoicedetails | |
+[Müügitellimuse päritolukoodid](mapping-reference.md#186) | msdyn_salesorderorigins | |
 
-Siin on seotud põhitabeli potentsiaalne klient sularahaks vastendused.
-
-+ [Kliendi V3 kontodele](customer-mapping.md#customers-v3-to-accounts)
-+ [CDS-i kontakti V2 kontaktidele](customer-mapping.md#cds-contacts-v2-to-contacts)
-+ [Kliendi V3 kontaktidele](customer-mapping.md#customers-v3-to-contacts)
-+ [Väljastatud tooted V2 üksusele msdyn_sharedproductdetails](product-mapping.md#released-products-v2-to-msdyn_sharedproductdetails)
-+ [Kõik tooted üksusele msdyn_globalproducts](product-mapping.md#all-products-to-msdyn_globalproducts)
-+ [Hinnakiri](product-mapping.md)
+Lisateavet hinnaloendite kohta vt [Ühendatud toote kasutusfunktsionaalsus](product-mapping.md).
 
 ## <a name="limitations"></a>Kitsendused
+
 - Tagastustellimusi ei toetata.
 - Kreeditarveid ei toetata.
-- Koondandmete jaoks peavad olema määratud finantsdimensioonid (nt klient ja hankija). Kui klient lisatakse pakkumisele või müügitellimusele, liiguvad kliendikirjega seotud finantsdimensioonid automaatselt tellimusse. Praegu ei sisalda topeltkirjutus koondandmete finantsdimensioonide andmeid. 
+- Koondandmete jaoks peavad olema määratud finantsdimensioonid (nt klient ja hankija). Kui klient lisatakse pakkumisele või müügitellimusele, liiguvad kliendikirjega seotud finantsdimensioonid automaatselt tellimusse. Praegu ei sisalda topeltkirjutus koondandmete finantsdimensioonide andmeid.
 
-[!include [symbols](../../includes/dual-write-symbols.md)]
-
-[!include [sales invoice](includes/SalesInvoiceHeaderV2Entity-invoice.md)]
-
-[!include [sales invoice line](includes/SalesInvoiceLineV2Entity-invoicedetail.md)]
-
-[!include [sales order header](includes/SalesOrderHeaderCDSEntity-salesorder.md)]
-
-[!include [sales order line](includes/SalesOrderLineCDSEntity-salesorderdetails.md)]
-
-[!include [sales order origin](includes/SalesOrderOriginEntity-msdyn-salesorderorigin.md)]
-
-[!include [sales quotation header](includes/SalesQuotationHeaderCDSEntity-quote.md)]
-
-[!include [sales quotation line](includes/SalesQuotationLineCDSEntity-QuoteDetails.md)]
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

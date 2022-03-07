@@ -1,12 +1,10 @@
 ---
 title: Toote elutsükli olekud
 description: Selles teemas selgitatakse vara elutsükli olekuid ja elutsükli mudeleid varahalduses.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetLifecycleModelStateNext, EntAssetObjectLifecycleState, EntAssetLifecycleStateUpdate, EntAssetObjectLifecycleModel
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dffedfafd9d75320accf0e27f072bab6fd51f135
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
-ms.translationtype: HT
+ms.openlocfilehash: 55139c6458e569b15518f0f11f1c12c3a26cae2f26c6a2046a7ebdc1277cb144
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5016548"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6722459"
 ---
 # <a name="asset-lifecycle-states"></a>Toote elutsükli olekud
 
@@ -63,9 +61,12 @@ Pärast nõutavate vara elutsükli mudelite loomist saate seadistada elutsükli 
 
 5. Kiirkaardil **Elutsükli olekud**, valige need vara elutsükli olekud, mis peaksid olema kaasatud vara elutsükli mudelis.
 
-    - Mudeli elutsükli oleku kasutamiseks valige see jaotises **Järelejäänud elutsükli olekud** ja seejärel valige nupp ![paremnool,](media/15-setup-for-objects.png) et teisaldada see jaotisesse **Valitud elutsükli olekud**.
-    - Et kasutada kõiki mudeli saadaolevaid elutsükli olekuid, valige nupp **Kõik saadaolevad elutsükli olekud** ![Kõik saadaolevad elutsükli olekud](media/20-setup-for-objects.png). Kõik elutsükli olekud viiakse üle jaotisesse **Valitud elutsükli olekud**.
-    - Elutsükli oleku eemaldamiseks mudelist, valige see jaotises **Valitud elutsükli mudelid** ja seejärel valige nupp ![vasaknool,](media/16-setup-for-objects.png) et teisaldada see jaotisesse **Järelejäänud elutsükli olekud**.
+    - Elutsükli oleku lisamiseks lifecycle mudelisse, valige see jaotises **Järelejäänud elutsükli olekud** ja seejärel valige paremnool ![paremnool.](media/15-setup-for-objects.png) et teisaldada see valitud jaotisesse **Elutsükli valitud olekud**.
+    - Et kasutada kõiki mudeli saadaolevaid elutsükli olekuid, valige nupp **Kõik saadaolevad elutsükli olekud** nupp ![Kõik saadaolevad elutsükli olekud.](media/20-setup-for-objects.png). Kõik elutsükli olekud viiakse üle jaotisesse **Valitud elutsükli olekud**.
+    - Elutsükli oleku lisamiseks elutsükli mudelisse, valige see jaotises **Järelejäänud elutsükli olekud** ja seejärel valige vasaknool ![vasaknool.](media/16-setup-for-objects.png) et teisaldada see valitud jaotisesse **Elutsükli järelejäänud olekud**.
 
 6. Valige **Elutsükli oleku värskendused**, et määratleda, millised elutsükli olekud saavad valitud elutsükli olekut järgida.
 7. Kasutage kiirkaarti **Vara olek**, kui käsitlete remondiks saadud varasid. Jaotises **Sissetulev/väljaminev** saate valida vara elutsükli olekud, et näidata vara töövoogu, mille olete paranduseks saanud. Kui pakute klientidele või osakondadele laenuvarasid, saate jaotises **Laen** valida laenuvaradele elutsükli olekud.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

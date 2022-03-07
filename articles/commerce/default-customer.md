@@ -1,37 +1,31 @@
 ---
 title: Vaikekliendi loomine
-description: See teema kirjeldab, kuidas luua vaikeklienti, mida Microsoft Dynamics 365 Commerce'is kanali loomisel kasutada.
+description: See teema kirjeldab, kuidas luua vaikeklienti, mida Microsoft Dynamics 365 Commerce' kanali loomisel kasutada.
 author: samjarawan
-manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: ba1d10a897f349703737068d772423f7d0292944
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: ff9e5665ffd82982e09f63e34b30ae6937666231855587ad2f27c5231ead8419
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411588"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6720955"
 ---
 # <a name="create-a-default-customer"></a>Vaikekliendi loomine
 
-
 [!include [banner](includes/banner.md)]
 
-See teema kirjeldab, kuidas luua vaikeklienti, mida Microsoft Dynamics 365 Commerce'is kanali loomisel kasutada.
-
-## <a name="overview"></a>Ülevaade
+See teema kirjeldab, kuidas luua vaikeklienti, mida Microsoft Dynamics 365 Commerce' kanali loomisel kasutada.
 
 Kanali loomisel peate sisestama vaikekliendi. Vaikeklienti on lihtne luua pärast kliendigrupi ja kliendi aadressiraamatu loomist.
 
@@ -53,7 +47,7 @@ Kliendigrupi loomiseks tehke järgmist.
 
 Järgmine pilt näitab mitmeid konfigureeritud kliendigruppe.
 
-![Kliendigrupid](media/customer-groups.png)
+![Kliendigrupid.](media/customer-groups.png)
 
 ## <a name="create-a-customer-address-book"></a>Kliendi aadressiraamatu loomine
 
@@ -69,7 +63,7 @@ Kliendi aadressiraamatu loomiseks toimige järgmiselt.
 
 Järgmine pilt näitab aadressiraamatu näidet.
 
-![Aadressiraamat](media/address-book.png)
+![Aadressiraamat.](media/address-book.png)
 
 ## <a name="create-a-default-customer"></a>Vaikekliendi loomine
 
@@ -92,11 +86,11 @@ Vaikekliendi loomiseks tehke järgmist.
 
 Järgmine pilt näitab kliendi loomise näidet.
 
-![Vaikekliendi loomine](media/default-customer-creation.png)
+![Vaikekliendi loomine.](media/default-customer-creation.png)
 
 Järgmine pilt näitab vaikekliendi konfiguratsiooni.
 
-![Kliendi konfiguratsiooni näide](media/default-customer-configuration1.png)
+![Kliendi konfiguratsiooni näide.](media/default-customer-configuration1.png)
 
 Enamik kliendiandmete kuva vaikeväärtusi võib jääda, kuid muuta tuleb kaht väärtust.
 
@@ -106,10 +100,13 @@ Enamik kliendiandmete kuva vaikeväärtusi võib jääda, kuid muuta tuleb kaht 
 
 Järgmine pilt näitab kliendi konfiguratsiooni näidet.
 
-![Kliendi konfiguratsiooni näide](media/default-customer-configuration2.png)
+![Kliendi konfiguratsiooni näide.](media/default-customer-configuration2.png)
 
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Kanalite ülevaade](channels-overview.md)
 
-[Kanali seadistamise eeltingimused](channels-prerequisites.md)
+[Kanali häälestuse eeltingimused](channels-prerequisites.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

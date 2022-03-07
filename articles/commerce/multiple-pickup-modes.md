@@ -1,6 +1,6 @@
 ---
 title: Klienditellimuste korral mitme järeletulemisega tarneviisi lubamine
-description: Selles teemas selgitatakse Microsoft Dynamics 365 Commerce'i funktsioone, mis võimaldavad teil luua klienditellimusi, mille korral saab kaubale poodi järele tulla.
+description: Selles teemas selgitatakse rakenduse Microsoft Dynamics 365 Commerce funktsioone, mis võimaldavad teil luua klienditellimusi, mille korral saab kaubale poodi järele tulla.
 author: hhainesms
 manager: annbe
 ms.date: 11/17/2020
@@ -10,22 +10,21 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 768b20ecc8d15353258c9b3af69b897957d3de60
-ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
+ms.openlocfilehash: 38413f96eec97e93beb6998871a40c7ef755073c
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4594956"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5251279"
 ---
 # <a name="enable-multiple-pickup-delivery-modes-for-customer-orders"></a>Klienditellimuste korral mitme järeletulemisega tarneviisi lubamine
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
+
 
 Microsoft Dynamics 365 Commerce'i versioonis 10.0.16 ja uuemates versioonides saavad organisatsioonid määratleda mitu tarneviisi, mille vahel ostjad või müügipartnerid saavad valida, kui nad loovad tellimuse, millele poodi järele tullakse. Sel viisil saavad organisatsioonid pakkuda oma ostjatele mitut järeletulemisvõimalust. Näiteks pakuvad paljud jaemüüjad ostjatele nüüd võimalust tulla oma tellimusele järele poodi või see peale võtta. Commerce toetab nende erinevate järeletulemisega tarneviiside konfigureerimist. Kasutajad saavad neid siis ära kasutada, kui nad loovad klienditellimusi mis tahes toetatud Commerce'i kanalis (e-kaubandus, kõnekeskus või pood).
 
@@ -86,3 +85,6 @@ Kui kanali jaoks on saadaval mitu järeletulemisega tarneviisi, pakutakse klient
 ## <a name="considerations-for-distributed-order-management"></a>Hajutatud tellimuste haldamisega seotud kaalutlused
 
 Commerce'i [hajutatud tellimuste haldamise (DOM)](https://docs.microsoft.com/dynamics365/commerce/dom) funktsioonidega ignoreeritakse müügiridu, mis on märgitud poodi järeletulemiseks. Neid funktsioone värskendati tagamaks, et konfigureeritud järeletulemisega tarneviisidega lingitud müügiread eiraksid DOM-i loogikat ning et neid ei eraldataks laos uueks täitmiseks.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

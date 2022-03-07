@@ -2,28 +2,27 @@
 title: Töötaja liitmine fikseeritud hüvitusplaaniga
 description: Lisatasu ja eeliste haldur saab määrata töötajad põhipalga plaani nende põhipalga haldamiseks.
 author: andreabichsel
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HRMCompFixedEmpl, HRMCompFixedEmplActionDialog, HcmPositionLookup, HRMCompRefPointLookup, HcmCompensationWorkspace
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3029e52a7cc1fb6dfda390f5d892c89f1eda8509
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e5f0862c86234495c89b2a6ad947cc78e687de37
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418136"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6054232"
 ---
 # <a name="enroll-an-employee-in-a-fixed-compensation-plan"></a>Töötaja liitmine fikseeritud hüvitusplaaniga
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Lisatasu ja eeliste haldur saab määrata töötajad põhipalga plaani nende põhipalga haldamiseks. See protseduur eeldab, et fikseeritud plaan on loodud ja aktiivne ning plaani sobivuse reeglid on seadistatud. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid. Protseduuri alustamiseks avage Inimressursid > Töötajad > Töötajad > Hüvitus > Fikseeritud plaan
 
@@ -39,3 +38,6 @@ Lisatasu ja eeliste haldur saab määrata töötajad põhipalga plaani nende põ
     * Kui Põhipalgaplaan on etapiplaan, valige etapp, mis sisaldab töötaja õiget palgamäära. Kui põhipalgaplaan on taseme- või palgaastmiku plaan, sisestage töötaja palgamäär. Palgamäära kontrollitakse plaani kõikumise sätetega ja töö lisatasu taseme minimaalsete ja maksimaalsete viitepunktidega.  
 8. Klõpsake nuppu OK.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

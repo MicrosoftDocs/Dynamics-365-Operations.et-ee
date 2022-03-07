@@ -2,35 +2,30 @@
 title: Ülesannete halduse ülevaade
 description: Selles teemas antakse ülevaade ülesannete haldusest juhtidele ja töötajatele rakenduses Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
-manager: annbe
 ms.date: 02/10/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 3891d846f51b5335809876a6557dfb5a031272c8
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 7cdcc0ba6a9f5a3d9dd4ea781adc9e81c45e3d02
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411738"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985389"
 ---
-# <a name="task-management-overview"></a>Ülesannete halduse ülevaade
+# <a name="task-management-overview"></a>Ülesandehalduse ülevaade
 
 [!include [banner](includes/banner.md)]
 
 Selles teemas antakse ülevaade ülesannete haldusest juhtidele ja töötajatele rakenduses Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Ülevaade
 
 Jaemüügi keskkonnas on alati raske kindlustada, et õige inimene teostab õige ülesande õigel ajal. Jaemüüjad peavad olema võimelised teavitama töötajaid tulevastest ülesannetest ja pakkuma seotud ärikonteksti, et ülesanded saaks õigesti ja õigeaegselt täita.
 
@@ -42,14 +37,17 @@ Poejuhatajad saavad kasutada ülesannete haldust, et määrata ülesandeid indiv
 
 Järgmisel joonisel on kujutatud ülesannete halduse kontseptuaalne arhitektuur rakenduses Commerce.
 
-![Ülesannete halduse kontseptuaalne arhitektuur](media/Tasks-management-conceptual-architecture.png)
+![Ülesannete halduse kontseptuaalne arhitektuur.](media/Tasks-management-conceptual-architecture.png)
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-[Ülesannete halduse konfigureerimine](task-mgmt-configure.md)
+[Ülesandehalduse konfigureerimine](task-mgmt-configure.md)
 
-[Ülesandeloendite loomine ja ülesannete lisamine](task-mgmt-create-lists.md)
+[Tööülesannete loendite loomine ja ülesannete lisamine](task-mgmt-create-lists.md)
 
 [Ülesandeloendite määramine poodidele või töötajatele](task-mgmt-assign-lists.md)
 
 [Ülesannete haldus kassas](task-mgmt-POS.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

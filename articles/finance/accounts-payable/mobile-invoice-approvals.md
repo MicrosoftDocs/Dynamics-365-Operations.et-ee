@@ -2,27 +2,24 @@
 title: Mobiilsed arvete heakskiidud
 description: See teema on mõeldud praktilise lähenemise pakkumiseks mobiilistsenaariumide kujundamisele, võttes mobiilse hankija arvete kinnitamise kasutusnäiteks.
 author: abruer
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 262034
 ms.assetid: 9db38b3f-26b3-436e-8449-7ff243568a18
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 88ba96b1d9d2f722528a4a920eabe4ab64304a7a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9e6138ccd92019f52afab0d8ed4b8cf64d66ff24
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442319"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897692"
 ---
 # <a name="mobile-invoice-approvals"></a>Mobiilsed arvete heakskiidud
 
@@ -35,7 +32,7 @@ Mobiilsed võimalused võimaldavad ärikasutajatel mobiilikogemusi kujundada. T�
 
 | Eeltingimus                                                                                            | Kirjeldus                                                                                                                                                          |
 |---------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Mobiili käsiraamat eelnevaks lugemiseks                                                                                |[Mobiiliplatvorm](../../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md)                                                                                                  |
+| Mobiili käsiraamat eelnevaks lugemiseks                                                                                |[Mobiiliplatvorm](../../fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page.md)                                                                                                  |
 | Dynamics 365 Finance                                                                              | Keskkond, millesse on installitud versioon 1611 ja platvormivärskendus 3 (november 2016)                   |
 | Installige kiirparandus KB 3204341.                                                                              | Tegevuse salvestaja võib kogemata salvestada rippdialoogidele kaks sulgemiskäsku platvormi värskenduses 3 (2016. aasta novembri värskendus). |
 | Installige kiirparandus KB 3207800.                                                                              | See kiirparandus võimaldab vaadata manuseid mobiilikliendil, mis sisaldub platvormi värskenduses 3 (2016. aasta novembri värskendus).           |
@@ -216,7 +213,7 @@ Arve üksikasjade lehe kujundamiseks mobiiliversioonile kasutage lehte **VendMob
 
 11. Kui kõik väljad eelmisest kahest toimingust on lisatud, klõpsake nuppu **Valmis**. Leht peab sarnanema järgmisele illustratsioonile.
     
-    [![Leht pärast väljade lisamist](./media/mobile-invoice-approvals05.png)](./media/mobile-invoice-approvals05.png)
+    [![Lisatud lisavälju kujutav illustratsioon](./media/mobile-invoice-approvals05.png)](./media/mobile-invoice-approvals05.png)
 
 12. Redigeerimisrežiimist väljumiseks klõpsake nuppu **Valmis**.
 
@@ -535,3 +532,6 @@ Avage rakendus oma mobiilses seadmes ja looge ühendus oma eksemplariga. Veendug
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

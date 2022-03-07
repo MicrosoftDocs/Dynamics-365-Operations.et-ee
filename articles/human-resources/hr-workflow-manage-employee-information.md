@@ -2,29 +2,29 @@
 title: Töövoogude kasutamine töövõtja teabe haldamiseks
 description: See artikkel selgitab, kuidas saate töötaja teabe haldamiseks kasutada inimressursside töövoo võimalust. Näiteks saate seostada töövoo positsiooniga ja konfigureerida kinnitamise töövoo, mis käivitatakse, kui töötajad muudavad oma kirjet.
 author: andreabichsel
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 269074
 ms.assetid: 426c6127-42ee-4163-8dd0-b2867f95581d
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 250b214372a12f99d2ababc97c5edf4456cadcad
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b76adc228a949d334213eda605972f062aa0e46b
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418201"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5791265"
 ---
 # <a name="use-workflows-to-manage-employee-information"></a>Töövoogude kasutamine töövõtja teabe haldamiseks
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 See artikkel selgitab, kuidas saate töötaja teabe haldamiseks kasutada inimressursside töövoo võimalust. Näiteks saate seostada töövoo positsiooniga ja konfigureerida kinnitamise töövoo, mis käivitatakse, kui töötajad muudavad oma kirjet.
 
@@ -73,3 +73,6 @@ Konfigureerimaks põhitöövoogu, mis käivitatakse siis, kui töötajad nõuava
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

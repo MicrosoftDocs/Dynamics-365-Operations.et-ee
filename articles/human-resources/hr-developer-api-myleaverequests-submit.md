@@ -2,11 +2,9 @@
 title: Puhkusetaotluse edastamine töövoogu
 description: Rakenduses Microsoft Dynamics 365 Human Resources saate kasutada rakenduse programmeerimisliidest (API) MyLeaveRequests submit(), et esitada töövoole puhkusetaotlusi.
 author: andreabichsel
-manager: AnnBe
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,14 +16,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7552a4c921dc4a88034b5d2c87d5a9b47d699ae3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: bd82bef29e5d1d33c1dc1aa3a039833741c1fdaf
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418084"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5793629"
 ---
 # <a name="submit-a-leave-request-to-workflow"></a>Puhkusetaotluse edastamine töövoogu
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Rakenduses Microsoft Dynamics 365 Human Resources saate kasutada rakenduse programmeerimisliidest (API) MyLeaveRequests submit(), et esitada töövoole puhkusetaotlusi. Seda API-d pakutakse OData üksuse MyLeaveRequests tegevusena.
 
@@ -108,3 +108,5 @@ API esitamise kutsumise osana teostab rakendus Human Resources enne esitamist ä
 
 - [MyLeaveRequestsi ülevaade](hr-developer-api-myleaverequests-overview.md)
 - [Autentimine](hr-developer-api-authentication.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

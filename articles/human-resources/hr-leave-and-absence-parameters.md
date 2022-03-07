@@ -1,33 +1,35 @@
 ---
 title: Puhkuste ja puudumiste parameetrite konfigureerimine
-description: Määratlege rakenduses Dynamics 365 Human Resources puhkuste ja puudumiste inimressursside parameetrid.
-author: andreabichsel
-manager: tfehr
-ms.date: 11/02/2020
+description: Selles teemas kirjeldatakse, kuidas määratleda inimressursside parameetreid puhkuse ja puudumise jaoks Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e1b2de94f9d9ac1ada16b6ef0e7628edbc9d683f
-ms.sourcegitcommit: ffb5998e611b83c2e4f98323f39e3e8f6419c652
-ms.translationtype: HT
+ms.openlocfilehash: 7bd1aebd633af0530c550f8ec7510a0c09985ca1
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/02/2020
-ms.locfileid: "4418243"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067348"
 ---
 # <a name="configure-leave-and-absence-parameters"></a>Puhkuste ja puudumiste parameetrite konfigureerimine
 
-Enne puhkuste ja puudumiste plaanide seadistamist rakenduses Dynamics 365 Human Resources on hea mõte kontrollida kõigi seostuvate inimressursside parameetrite sätteid, sealhulgas järgnev.
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+Enne puhkuse- ja puudumisplaanide seadistamist rakenduses Dynamics 365 Human Resources on hea kontrollida kõigi seotud **inimressursside parameetrite** sätteid, sealhulgas järgmist.
 
 - Puhkusetaotluste numbriseeria
 - Perekonna meditsiinialase ja puhkuseseaduse (FMLA) sätted
@@ -75,7 +77,7 @@ Enne puhkuste ja puudumiste plaanide seadistamist rakenduses Dynamics 365 Human 
 
     - Saldode kuvamiseks alates tänasest või viitvõlaperioodi algusest valige **Saldo arvutamine**. Kui valite **Saldo alates tänasest**, kuvatakse saldos kõigi viitvõlgade, korrigeerimiste ja taotluste kogusumma alates tänasest. Kui valite **Saldo alates viitvõlaperioodist**, kuvatakse saldos kõigi viitvõlgade, korrigeerimiste ja taotluste kogusumma alates puhkuseplaani sagedusega määratletud viitvõlaperioodist. 
 
-    - Saate seadistada pakett-töö edasikandmise aegumise algusaja.  
+    - Määrake pakett-töö **Edasikandmise aegumisaja algusaeg** **·**.  
     
     - Valige **Jah** suvanditele **Luba töötajatele puhkuse ostmine** ja **Luba töötajatele puhkuse müümine**. Kui valite nende suvandite jaoks **Jah**, saate luua puhkuse ostu- ja müügipoliitikad ja võimaldada töövõtjatel esitada puhkuse ostu-ja müügitaotlusi.
 
@@ -92,3 +94,6 @@ Enne puhkuste ja puudumiste plaanide seadistamist rakenduses Dynamics 365 Human 
 ## <a name="see-also"></a>Vt ka
 
 - [Puhkuste ja puudumiste ülevaade](hr-leave-and-absence-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

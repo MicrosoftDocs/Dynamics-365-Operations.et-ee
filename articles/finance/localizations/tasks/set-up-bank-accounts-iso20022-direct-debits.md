@@ -2,26 +2,23 @@
 title: Klientide ja kliendi pangakontode seadistamine ISO20022 otsekorralduste jaoks
 description: See ülesanne annab ülevaate kliendi pangakonto ja kliendi otsekorralduse loa seadistamise kohta, mis on nõutav ISO20022 otsekorralduse kliendi maksefaili loomiseks.
 author: mrolecki
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustTable, CustBankAccounts, CustDirectDebitMandate, BankAccountTableLookUp,  LogisticsAddressCityLookup
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0b09d7d203f1bb58fad26a109962005affa6d307
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 78523e6f221973194560466e006639f4bb53614b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442289"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5819502"
 ---
 # <a name="set-up-customers-and-customer-bank-accounts-for-iso20022-direct-debits"></a>Klientide ja kliendi pangakontode seadistamine ISO20022 otsekorralduste jaoks
 
@@ -69,3 +66,6 @@ See on neljas viiest protseduurist, mis näitab kliendi makseprotsessi, kasutade
 8. Klõpsake nuppu OK.
 9. Klõpsake nuppu Salvesta.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

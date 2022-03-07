@@ -2,26 +2,25 @@
 title: Kauba saabumise ülevaateprofiili seadistamine
 description: Selles teemas keskendutakse saabumise ülevaate profiilile.
 author: ShylaThompson
-manager: tfehr
 ms.date: 07/30/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WMSArrivalOverviewProfile
 audience: Application User
 ms.reviewer: kamaybac
+ms.custom: intro-internal
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5ecfe132d9b0e096c5fdf015f80a6efb34c9b178
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: e0ffcef15515a81aecbf1f1257f8fa7f46a2b876
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4961424"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6335446"
 ---
 # <a name="set-up-an-item-arrival-overview-profile"></a>Kauba saabumise ülevaateprofiili seadistamine
 
@@ -53,3 +52,6 @@ Selles teemas keskendutakse saabumise ülevaate profiilile. Saabumisülevaate pr
 17. Valige käsk **Salvesta**.
 18. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

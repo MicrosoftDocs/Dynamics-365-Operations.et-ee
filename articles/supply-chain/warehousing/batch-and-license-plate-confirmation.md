@@ -2,33 +2,30 @@
 title: Partii ja litsentsiplaadi kinnitus
 description: Selles teemas kirjeldatakse, kuidas seadistada ja rakendada partii ning litsentsiplaadi kinnitust mobiilselt seadmelt.
 author: Mirzaab
-manager: tfehr
 ms.date: 11/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSRFAutoConfirm
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 269384
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a953b677b1188750241772d7ae966a1dba77b92e
-ms.sourcegitcommit: 9f32389715b226c11e74c53547527e0a8b51e300
-ms.translationtype: HT
+ms.openlocfilehash: 13e246f9a496dcc38829eef788d09c50300c99fb95daffad134012733341e4af
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "4514298"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6726533"
 ---
 # <a name="batch-and-license-plate-confirmation"></a>Partii ja litsentsiplaadi kinnitus
 
 [!include [banner](../includes/banner.md)]
 
-Partii kinnitamine võimaldab kontrollida, kas mobiilselt seadmelt võetakse õige partii. Algsel töö komplekteerimisel ainult eespool oleva partii kaupadest, kus eespool olev partii näitab partiivahemikke, mis on kõrgemal kui asukoht otsinguhierarhias, peate kontrollima, et komplekteeritav partii vastaks töö real olevale partiile.
+Partii kinnitamine võimaldab kontrollida, kas mobiilselt seadmelt võetakse õige partii. Algsel töö komplekteerimisel ainult *eespool oleva partii\[asukoht\]* kaupadest, kus eespool olev partii näitab, et see on kõrgemal kui asukoht otsinguhierarhias, peate kontrollima, et komplekteeritav partii vastaks töö real olevale partiile.
 
 Litsentsiplaadi kinnitamine võimaldab kontrollida, kas mobiilselt seadmelt võetakse õige litsentsiplaat. Töö komplekteerimisel etapi asukohast peate kontrollima, et komplekteeritav litsentsiplaat vastaks tööga seostatud litsentsiplaadile. Kui tööd alustatakse litsentsiplaadi skannimisega, siis jäetakse see kinnitamise etapp vahele.
 
@@ -48,3 +45,6 @@ Partii ja litsentsiplaadi kinnitust saab konfigureerida mobiilse seadme menüüe
 
 1. Sisenege mobiilse seadme menüüelementidest töö kinnitamise seadistusse.  
 1. Valige partii või litsentsiplaadi kinnitamine. Mõlemad valikud on saadaval töö tüübi komplekteerimiste puhul, millel pole automaatne kinnitamine lubatud.  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

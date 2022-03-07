@@ -2,15 +2,12 @@
 title: Eemalda eksemplar
 description: See artikkel selgitab proovi- või tootmiskeskkonna eemaldamise protsessi rakenduse Microsoft Dynamics 365 Human Resources puhul.
 author: andreabichsel
-manager: AnnBe
 ms.date: 08/07/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -18,14 +15,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0a8eac74f0d840251ab56445dd5af4d19d3c0490
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 72a5b99150e5ccdf9a542b569c94c64cb95923fd
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418189"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6053607"
 ---
 # <a name="remove-an-instance"></a>Eemalda eksemplar
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 See artikkel selgitab proovi- või tootmiskeskkonna eemaldamise protsessi rakenduse Microsoft Dynamics 365 Human Resources puhul.
 
@@ -81,7 +80,10 @@ Keskkonna taastamiseks tehke järgmist.
 
 1. Järgige teemas [Power Appsi keskkonna taastamine](/power-platform/admin/recover-environment.md) toodud juhiseid.
 
-2. Human Resourcesi keskkonna taastamiseks võtke ühendust tugiteenusega. Lisateavet leiate teemast [Toe hankimine](hr-admin-troubleshooting-support.md).
+2. Human Resourcesi keskkonna taastamiseks võtke ühendust tugiteenusega. Lisateavet leiate teemast [Toe hankimine](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md).
 
 > [!Warning]
 > Power Appsi keskkondi salvestatakse ainult seitse päeva pärast kustutamist. Peate taastama keskkonna seitsme päeva jooksul.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

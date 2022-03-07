@@ -1,17 +1,14 @@
 ---
-title: Näita allahindlusi kassas
-description: Selle teema all selgitatakse, kuidas Microsoft Dynamics 365 Commerce aitab müügipartneritel õppida tundma kampaaniaid ja seda, kuidas neid saab kasutada ristmüümis- ja edasimüümisiikumisteks.
+title: Allahindluste näitamine kassas
+description: Selle teema all selgitatakse, kuidas Microsoft Dynamics 365 Commerce aitab müügipartneritel õppida tundma kampaaniaid ja seda, kuidas neid saab kasutada ristmüümis- ja edasimüümisliikumisteks.
 author: ShalabhjainMSFT
-manager: AnnBe
 ms.date: 07/29/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-Commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail, Commerce
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,24 +16,24 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-02-28
 ms.dyn365.ops.version: Application update 10.0.10
-ms.openlocfilehash: 7531e250580019a1e9892d22fc7761770227c61f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 9e3fa5030cb684c01153d255ca2bd34d9be7dc9945f0c7ec26985cf74540b73d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411678"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6731663"
 ---
 # <a name="show-discounts-in-pos"></a>Näita allahindlusi kassas
 
 [!include [banner](includes/banner.md)]
 
-Kampaaniad mängivad olulist rolli nende klientide motiveerimisel, kes teevad ostuotsuseid. Näiteks võivad pühad anda jaemüüjatele suurima müükide arvu, sest kogu jaemüügiturg on üle ujutatud ahvatlevate kampaaniate ja allahindlustega. Kui kaupluse kaastöötajad teavad ja mõistavad olemasolevaid kampaaniaid, saavad nad neid kampaaniaid kasutades teha hõlpsalt kaupade rist- ja edasimüüki. Selle teema all selgitatakse, kuidas Microsoft Dynamics 365 Commerce aitab müügipartneritel õppida tundma kampaaniaid ja seda, kuidas neid saab kasutada ristmüümis- ja edasimüümisiikumisteks.
+Kampaaniad mängivad olulist rolli nende klientide motiveerimisel, kes teevad ostuotsuseid. Näiteks võivad pühad anda jaemüüjatele suurima müükide arvu, sest kogu jaemüügiturg on üle ujutatud ahvatlevate kampaaniate ja allahindlustega. Kui kaupluse kaastöötajad teavad ja mõistavad olemasolevaid kampaaniaid, saavad nad neid kampaaniaid kasutades teha hõlpsalt kaupade rist- ja edasimüüki. Selle teema all selgitatakse, kuidas Microsoft Dynamics 365 Commerce aitab müügipartneritel õppida tundma kampaaniaid ja seda, kuidas neid saab kasutada ristmüümis- ja edasimüümisliikumisteks.
 
 ## <a name="learn-about-store-discounts"></a>Lisateave kaupluse allahindluste kohta
 
 Kaubandus sisaldab operatsiooni, mida nimetatakse "Kuva kõik allahindlused". Selle operatsiooniga kuvatakse kõik kaupluses praegu kehtivad allahindlused. Operatsiooni "Kuva kõik allahindlused" saab vastendada nupuga kassas (POS) ja selle nupu saab lisada lehele **Tervitus** või lehele **Kanne** . Järgneval pildil kuvatakse näidet avatud lehest **Kõik allahindlused** .
 
-![Leht Kõik allahindlused](./media/View_all_discounts.png "Leht Kõik allahindlused")
+![Leht Kõik allahindlused.](./media/View_all_discounts.png "Leht Kõik allahindlused")
 
 Allahindluste kuvamiseks otsib süsteem kõiki allahindlusi, mis vastavad ühele või mitmele järgmistest tingimustest:
 
@@ -64,8 +61,11 @@ Järgmised pildid näitavad loogikat, mis määrab, millised allahindlused kuvat
 
 Järgmisel pildil on kujutatud loogikat, mida kasutatakse juhul, kui allahindluse konkureerimiskontroll on seatud **Parimale hinnale ja seosele prioriteedi piires, mitte kunagi seosele üle prioriteetide**.
 
-![Loogika Parima hinna ja seose prioriteedi piires, mitte kunagi seos üle prioriteetide](./media/Model_1.png "Loogika Parim hind ja seos prioriteedi piires, mitte kunagi seos üle prioriteetide").
+![Loogika Parima hinna ja seose prioriteedi piires, mitte kunagi seos üle prioriteetide.](./media/Model_1.png "Loogika Parim hind ja seos prioriteedi piires, mitte kunagi seos üle prioriteetide").
 
 Järgmisel pildil on kujutatud loogikat, mida kasutatakse juhul, kui allahindluse konkureerimiskontroll on seatud **Parimale hinnale ainult prioriteedi piires, alati seos üle prioriteedi**.
 
-![Loogika Parim hind ainult prioriteedi piires, alati seos üle prioriteedi](./media/Model_2.png "Loogika Parim hind ainult prioriteedi piires, alati seos üle prioriteedi").
+![Loogika Parim hind ainult prioriteedi piires, alati seos üle prioriteedi.](./media/Model_2.png "Loogika Parim hind ainult prioriteedi piires, alati seos üle prioriteedi").
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,28 +1,28 @@
 ---
 title: Ostutellimuse ülevaade
 description: Selles artiklis antakse üldist teavet ostutellimuste (PO-de) kohta ja lingid täiendavate artiklite juurde, mis on seotud mitmesuguste etappidega, mille PO läbib.
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 06/20/2017
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, PurchLineOpenOrder, PurchConfirmationRequestJournal
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 93083
+ms.custom:
+- "93083"
+- intro-internal
 ms.assetid: e9b7bc5b-1d7e-4ec2-97be-d655274b0613
 ms.search.region: Global
-ms.author: riluan
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fef4eaa9563647b8878e0d0fb0bc185fdc4ed319
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
-ms.translationtype: HT
+ms.openlocfilehash: b2e01f73aa78c0fabf0f5a1e0acd3bbc4f69cfc4
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5022227"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982300"
 ---
 # <a name="purchase-order-overview"></a>Ostutellimuse ülevaade
 
@@ -43,7 +43,7 @@ Järgmistes artiklites antakse ülevaade mitmesuguste etappide kohta, mille ostu
 -   [Ostutellimuste loomine](purchase-order-creation.md)
 -   [Ostutellimuste kinnitamine](purchase-order-approval-confirmation.md)
 -   [Toote sissetulek ostutellimuste suhtes](product-receipt-against-purchase-orders.md)
--   [Hankija arvete ülevaade](../../financials/accounts-payable/vendor-invoices-overview.md)
+-   [Hankija arvete ülevaade](../../finance/accounts-payable/vendor-invoices-overview.md)
 
 ## <a name="types-of-purchase-orders"></a>Ostutellimuste tüübid
 Ostutellimusi on kolme tüüpi. Ostutellimuse loomisel tuleb määrata tüüp. Uute tellimuste kohta saab seadistada tellimuse vaiketüübi lehel **Hankeparameetrid**.
@@ -78,8 +78,7 @@ Välja **Kinnitamise olek** kasutatakse, kui ostutellimus läbib töövoo üleva
 -   **Kinnitatud** – see olek määratakse pärast tellimuse kinnitamist. Tavaliselt on see olek viimane tellimusele määratud kinnitusolek.
 
 
-<a name="additional-resources"></a>Lisaressursid
---------
+## <a name="additional-resources"></a>Lisaressursid
 
 [Ostutellimuste loomine](purchase-order-creation.md)
 
@@ -87,7 +86,10 @@ Välja **Kinnitamise olek** kasutatakse, kui ostutellimus läbib töövoo üleva
 
 [Toote sissetulek ostutellimuste suhtes](product-receipt-against-purchase-orders.md)
 
-[Hankija arvete ülevaade](../../financials/accounts-payable/vendor-invoices-overview.md)
+[Hankija arvete ülevaade](../../finance/accounts-payable/vendor-invoices-overview.md)
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: FinanicalReports
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 12274
 ms.assetid: 52f78229-f531-4d16-b337-e2628994acb6
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e96552447182f3692a19d4cfd962afbcb28e5508
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: bcfb8e8fd28224ac9fe9a4919f4252dcd01ce360
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442435"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5212393"
 ---
 # <a name="balance-sheet-financial-reports"></a>Bilansi finantsaruanded
 
@@ -82,3 +81,6 @@ Veeru definitsioonid sisaldavad eri tüüpi veerge üksikasjade ja finantsandmet
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

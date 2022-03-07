@@ -2,15 +2,12 @@
 title: Töörühma kalendri loomine
 description: Vaadake ja looge töörühma kalendreid rakenduses Dynamics 365 Human Resources.
 author: andreabichsel
-manager: tfehr
 ms.date: 11/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: EssWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -18,14 +15,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2ec767a868d5c76b57465c451b8cc893b8b0a56b
-ms.sourcegitcommit: d02fae79d5c02a4bc4f4b16a410c2f5ce026c204
+ms.openlocfilehash: cedff4031c6455b446af9c56a770a00f3b2efc80
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "4962261"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6052093"
 ---
 # <a name="view-team-and-company-calendars"></a>Meeskonna ja ettevõtte kalendrite kuvamine
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Rakenduses Dynamics 365 Human Resources saate vaadata töörühma ja ettevõtte kalendreid. Töörühma kalendrites kuvatakse ainult otsesed aruanded, nagu on rea hierarhias määratletud.
 
@@ -72,3 +71,6 @@ Kalendreid saate filtreerida ka halduri või osakonna alusel. Esmase ametikoha m
 
 Lisateavet kalendri sätete kohta vt teemast [Kalendri parameetrite konfigureerimine](hr-leave-and-absence-parameters.md?configure-calendar-parameters).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,28 +2,25 @@
 title: Algse kliendimakse prognoosimise mudeli hindamine (eelversioon)
 description: See teema kirjeldab samme, mida saate teha kliendimakse prognoosimise mudeli mõistmiseks ja selle tõhususe hindamiseks.
 author: ShivamPandey-msft
-manager: AnnBe
-ms.date: 05/28/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: d761e31c4e4169b09711e351948390d2d40f3739
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 872f4cfd968b70cb8a2087822870dcc76e83e92b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4644965"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349006"
 ---
 # <a name="evaluate-the-initial-customer-payment-prediction-model-preview"></a>Algse kliendimakse prognoosimise mudeli hindamine (eelversioon)
 
@@ -36,32 +33,32 @@ See teema selgitab, kuidas hinnata prognoosimise mudelit pärast seda, kui olete
 
 Rakenduse Microsoft Dynamics 365 Finance lehel **Finantsülevaadete parameetrid** ilmub täpsuse skoori kõrval link **Mudeli täpsuse parandamine**.
 
-[![Mudeli täpsuse parandamise link](./media/prediction-model.png)](./media/prediction-model.png)
+[![Mudeli täpsuse parandamise link.](./media/prediction-model.png)](./media/prediction-model.png)
 
 See link viib teid AI Builderisse, kus saate lisateavet praeguse mudeli kohta ja võtta lisaks meetmeid selle parandamiseks. Järgmisel joonisel näidatakse avatud lehte.
 
-[![AI Builder](./media/what-to-predict.png)](./media/what-to-predict.png)
+[![AI Builder.](./media/what-to-predict.png)](./media/what-to-predict.png)
 
 Avaneb leht kuvab järgmist teavet.
 
-- Jaotises **Jõudlus** annab mudeli jõudluse klass mudeli kvaliteedi kohta perspektiivi. Lisateavet selle klassi kohta vt AI Builderi dokumentatsiooni teemast [Prognoosi mudeli jõudlus](https://docs.microsoft.com/ai-builder/prediction-performance).
+- Jaotises **Jõudlus** annab mudeli jõudluse klass mudeli kvaliteedi kohta perspektiivi. Lisateavet selle klassi kohta vt AI Builderi dokumentatsiooni teemast [Prognoosi mudeli jõudlus](/ai-builder/prediction-performance).
 - Jaotis **Kõige mõjukamad andmed** näitab, kui olulised olid teie mudeli jaoks eri andmete sisestustüübid. Saate hinnata seda loendit ja vastavaid protsente, et teha kindlaks, kas teave on kooskõlas sellega, mida te oma ettevõtte ja turu kohta teate.
 
-    [![Prognoosi mudeli jaotised Jõudlus ja Kõige mõjukamad andmed](./media/models.png)](./media/models.png)
+    [![Prognoosi mudeli jõudluse ja kõige mõjukamate andmete jaotised.](./media/models.png)](./media/models.png)
 
 - Valige jaotises **Jõudlus** suvand **Kuva üksikasjad**, et saada lisateavet klassi ja teiste kaalutluste kohta. Järgmisel illustratsioonil näitavad üksikasjad, et mudel kasutab soovitatust vähem teavet. Seetõttu on süsteem loonud hoiatusteate.
 
-    [![Hoiatused mudeli jõudluse kohta](./media/details.png)](./media/details.png)
+    [![Hoiatused mudeli jõudluse kohta.](./media/details.png)](./media/details.png)
 
 ## <a name="digging-deeper"></a>Süvitsi minemine
 
 Kuigi täpsus on mudeli hindamiseks hea lähtepunkt ja jõudluse klass lisab perspektiivi, pakub AI Builder üksikasjalikumaid mõõdikuid, mida saate oma hinnangus kasutada. Üksikasjade allalaadimiseks valige jaotises **Jõudlus** kolmikpunkti nupp (**…**), mis asub nupu **Kasuta mudelit** kõrval, ja valige seejärel käsk **Laadi alla üksikasjalikud mõõdikud**.
 
-[![Üksikasjalike mõõdikute allalaadimise käsk](./media/performance.png)](./media/performance.png)
+[![Üksikasjalike mõõdikute allalaadimise käsk.](./media/performance.png)](./media/performance.png)
 
 Järgmine illustratsioon näitab vormingut, milles saate andmed alla laadida.
 
-[![Allalaaditud andmete vorming](./media/data-format.png)](./media/data-format.png)
+[![Allalaaditud andmete vorming.](./media/data-format.png)](./media/data-format.png)
 
 Tulemuste põhjalikumaks analüüsiks on hea lähtepunkt vaadata läbi mõõdik „Segiajamise maatriks”. Näiteks siin on andmed, mis kuvatakse selle mõõdiku jaoks eelmisel illustratsioonil.
 
@@ -69,7 +66,7 @@ Tulemuste põhjalikumaks analüüsiks on hea lähtepunkt vaadata läbi mõõdik 
 
 Saate neid andmeid laiendada järgmisel viisil.
 
-|                          | Prognoositud õigel ajal | Prognoositud hilja | Prognoositud väga hilja |
+| &nbsp;                   | Prognoositud õigel ajal | Prognoositud hilja | Prognoositud väga hilja |
 |--------------------------|-------------------|----------------|---------------------|
 | Tegelikud õigeaegsed maksed   | **71**            | 0              | 21                  |
 | Tegelikud hilinenud maksed      | 5                 | **0**          | 27                  |
@@ -99,5 +96,4 @@ Pärast oma esimese mudeli tulemuste paremini mõistmist võite tahta oma mudeli
 
 Lisateavet prognooside mudelite hindamise kohta vt teemast [Masinõppemudelite tulemid](/confusion-matrix.md)
 
-#### <a name="privacy-notice"></a>Privaatsusavaldus
-Eelvaated 1) võivad kasutada vähem privaatsus- ja turbemeetmeid kui rakenduse Dynamics 365 Finance and Operations teenus; 2) ei ole hõlmatud selle teenuse teenusetaseme leppes; 3) ei tohi olla kasutusel isiklike andmete ega muude andmete töötlemiseks, mis on seaduste või määrustega kaitstud; 4) on piiratud toega.
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

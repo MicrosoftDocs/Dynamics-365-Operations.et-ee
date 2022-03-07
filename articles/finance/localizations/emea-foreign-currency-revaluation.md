@@ -10,18 +10,17 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 11464
 ms.search.region: Czech Republic, Estonia, Latvia, Lithuania, Poland
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ad77b65f38b5f3b792e61634f09da916470d2d1d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 86d62d5d281eaf243b61d2d86591257f758d5d3d
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407850"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5264980"
 ---
 # <a name="foreign-currency-revaluation-for-bank-accounts"></a>Välisvaluuta ümberarvutamine pangakontode jaoks
 
@@ -72,3 +71,6 @@ Teil tuleb ümber hinnata ja reguleerida pangakontosid, kui arvestusvaluuta ja a
 
 > [!NOTE]
 > Pearaamatus saate vaadata kahte eraldiseisvat kannet: üks on arvestusvaluuta ja teine aruandlusvaluuta jaoks.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

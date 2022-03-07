@@ -1,534 +1,386 @@
 ---
 title: Commerce Analytics (eelvaade)
-description: See teema kirjeldab, kuidas installida ja kasutada analüüsi võimalusi Microsoft Dynamics 365 Commerce.
+description: Selles teemas üksikasjad analüüsivõimaluste installist ja kasutamisest selles Dynamics 365 Commerce.
 author: AamirAllaq
-ms.date: 11/23/2021
+ms.date: 11/15/2021
 audience: Application user
 ms.reviewer: sericks
 ms.search.region: Global
 ms.author: aamiral
 ms.search.validFrom: 2021-11-12
-ms.openlocfilehash: 8cfe2af756315b5be3eb22d99376a96166fffc52
-ms.sourcegitcommit: f9fca3d55b47e615e5ef64669dab184e057ec234
-ms.translationtype: MT
+ms.openlocfilehash: 7f3e51cc3f7314bd33bca9e598bd0b1c9118caef
+ms.sourcegitcommit: 9f8da0ae3dcf3861e8ece2c2df4f693490563d5e
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7862769"
+ms.lasthandoff: 11/16/2021
+ms.locfileid: "7817454"
 ---
 # <a name="commerce-analytics-preview"></a>Commerce Analytics (eelvaade)
 
 [!include [banner](includes/banner.md)]
 
-See teema kirjeldab Commerce'i analüüsi (Eelvaade) installimist, mis sisaldab funktsionaalse analüüsi võimalusi Microsoft Dynamics 365 Commerce.
+Commerce'i analüüs on rakendusesse kaasatud funktsionaalne analüüs Dynamics 365 Commerce. See teema kirjeldab üksikasjalikult Commerce'i analüüsi ja selgitab selle installimist. 
 
-## <a name="commerce-analytics-preview-live-demo"></a>Commerce Analyticsi (eelvaade) reaalajas demo
-
-Saate vaadata commerce [Analyticsi reaalajas demo (eelvaade)](https://aka.ms/CommerceAnalyticsDemo).
-
-![Commerce Analytics (eelvaade) Kokkuvõte](media/CommerceAnalytics_Summary.png)
-![Commerce Analytics (Eelvaade) Maksed](media/CommerceAnalytics_Payments.png)
-![Commerce Analytics (eelvaade) veebitegevus](media/CommerceAnalytics_WebActivity.png)
-
-
-## <a name="commerce-analytics-preview-system-architecture"></a>Commerce Analyticsi (eelvaade) süsteemi ülesehitus
-
+## <a name="system-architecture"></a>Süsteemi ülesehitus
 ### <a name="key-components"></a>Põhikomponendid
-
-Commerce Analytics (Eelvaade) koosneb järgmistest võtmekomponentidest:
-
-- Valmis kasutama interaktiivseid Power BI aruandeid
+Commerce Analytics koosneb järgmistest võtmekomponentidest:
+- Interaktiivsete aruannete kasutamiseks Power BI valmis
 - SQL-i vaated Azure Synapse analüüsis
 - Üksus ja ontoloogiaandmed teenuses Azure DataEtt
-- Toorandmed andmetes
+- Toorandmed Azure Data Azure'is
 
-![Commerce Analyticsi süsteemi arhitektuuri võtmekomponendid](media/CommerceAnalyticsArchitecture_v2.png)
+![Commerce Analyticsi süsteemiarhitektuur](media/CommerceAnalytics.png)
 
 ### <a name="data-flow"></a>Andmevoog
-
 #### <a name="step-1-data-generation"></a>1. etapp: andmete loomine
-
 Andmed pärinevad kas kandeandmetena või käitumusandmetena ühest järgmistest allikatest:
-
-- Kõnekeskuse seostaja kasutab müügitellimuste töötlemiseks Commerce HQ klienti.
-- Kassa kassapidaja töötleb müügikandeid.
-- Müüke luuakse kohandatud rakendustes, kasutades Headless Commerce'i (Commerce Scale Unit).
-- E-kaubanduse ostja sirvib teie e-äri veebisaiti.
-- E-äri ostja edab tellimuse teie e-äri veebisaidil.
-- Andmeid toodetakse teistes süsteemides, Dynamics 365 Connected Spaces nt.
+- Kõnekeskuse seostamine Commerce HQ kliendi abil müügitellimuste töötlemiseks
+- Kassapidaja müügikohas (POS) müügikannete töötlemine
+- Kohandatud rakendustes loodud müük, kasutades Headless Commerce'i (Commerce Scale Unit)
+- E-commerce'i ostleja sirvimine oma e-äri veebisaidi sirvimisel 
+- E-commerce'i ostleja, kes paigutab tellimuse teie e-äri veebisaidile
+- Teiste süsteemidega, nagu näiteks süsteemiga < a1/& loodud andmed Dynamics 365 Connected Spaces
 
 #### <a name="step-2-ingestion-and-pre-processing"></a>2. etapp: sisseseadmine ja eeltöötlus
+Kandeandmed sisestavad Commerce HQ kas otse (otse Commerce HQ-kliendis hõivatud tellimused) või Commerce Scale Unitilt (kassas, e-kaubanduses või kohandatud klientarvutites hõivatud tellimused, kasutades Headless Commerce'i). 
 
-Kandeandmed lähevad Commerce HQ-sse kas otse (kui tellimused kogutakse otse Commerce HQ kliendis) või Commerce Scale Uniti kaudu (kassas, e-kaubanduses või Kohandatud klientarvutis, mis kasutavad Peakontorit hõivatud tellimuste korral).
+Kandeandmed kopeeritakse seejärel funktsiooniGa Ekspordi Data Feature toorandmetena Azure Data Ülekandesse ja andmed talletatakse **·** kausta "Tabelid". E-äri veebitegevuse andmed saadetakse otse andmetesse.
 
-Funktsiooni Andmetesse eksportimine kasutatakse siis kandeandmete kopeerimiseks toorandmetena teie andmetele. Toorandmed talletatakse andmekaustas Tabelid.
-
-E-äri veebitegevuse andmed saadetakse otse andmetesse. Teiste süsteemide toodetud andmed, nagu näiteks, saadetakse nende süsteemide Dynamics 365 Connected Spaces kaudu otse andmesüsteemi.
+Teiste süsteemide toodetud andmed, nagu Dynamics 365 Connected Spaces näiteks, saadetakse otse andmetesse.
 
 #### <a name="step-3-transformation-and-aggregation"></a>3. etapp: teisendamine ja liitmine
-
-Kui toorandmed on teie andmes, loeb Commerce Analytics Service selle, teisendab ja koondab need tagasi andmesilt loogiliste olemite kujul (üksuste kaustas) ja koondmõõdulistena (kaustas Ontologies).
+Kui toorandmed on andmekaustas, loeb Commerce Analytics Service andmeid, teisendab ja koondab need tagasi andmeüksusesse kausta "Üksused" loogiliste olemite kujul ja koondab meetermõõdud kaustas "Ontologies". 
 
 #### <a name="step-4-querying"></a>4. etapp: päringud
-
-Azure Synapse Analüüsi kasutatakse andmete päringuks transact-SQL-i (T-SQL) liidese kaudu. Liides hõlmab SQL-vaateid. SQL-vaated võimaldavad andmete liitpäringuid kas otse T-SQL-i kliendi (sihtanalüüsi) või sellise visualiseerimistööriista kaudu nagu Power BI.
+Liidese T-SQL kaudu päringusse tiksatud andmeid Azure Synapse analüüsi abil. Liides hõlmab SQL-i vaadei, mis võimaldavad andmete liitpäringuid kas otse T-SQL-i klienti sihtanalüüsiks kasutades või sellise visualiseerimistööriista nagu Power BI.
 
 #### <a name="step-5-modeling-and-serving"></a>5. etapp: modelleerimine ja teenimine
-
-Analüüsi esitatud päringu andmed Azure Synapse lähevad Power BI semantilisele mudelile. Olenevalt andmetüübist on see perioodiliselt imporditud mälust käitusajal või otse Power BI päringusse.
-
-Lõpuks renderdatakse andmeid Power BI visuaalsetes andmetes, nii et kasutajad saaksid neid vaadata ja nendega suhelda.
-
-## <a name="commerce-analytics-preview-functional-overview"></a>Commerce Analyticsi (Eelvaade) funktsionaalne ülevaade
-
-### <a name="summary"></a>Kokkuvõte
-
-Commerce Analyticsi malli rakendus sisaldab järgmisi põhiaruande lehekülgi:
-
-1. [Ülemise taseme filtrid](#TopLevelFilters)
-2. [Tooted](#ProductsPage)
-3. [Kliendid](#CustomersPage)
-4. [Kanalid](#ChannelsPage)
-5. [Müük](#SalesPage)
-6. [Veerised](#MarginsPage)
-7. [Tagastused](#ReturnsPage)
-8. [Allahindlused](#DiscountsPage)
-9. [Maksed](#PaymentsPage)
-10. [Kliendid](#CustomersPage)
-11. [Võrdlus](#ComparisonPage)
-12. [Veebitegevus](#WebActivityPage)
-13. [Veebitegevus – ülataseme filter](#WebActivityTopLevelFilters)
-
-####  <a name="top-level-filters"></a><a name="TopLevelFilters"></a> Ülemise taseme filtrid
-
-- Kuupäevasätted
-
-    - Aasta
-    - Kvartal
-    - Kuu
-    - Nädal
-    - Päev
-
-- Kanali sätted
-
-    - Juriidiline isik
-    - Kanali tüüp
-    - Kliendi tüüp
-    - Müügi tüüp
-    - Kanal
-    - Organisatsiooni hierarhia
-
-- Tootesätted
-
-    - Kategooriahierarhia
-    - Kategooria
-
-####  <a name="products"></a><a name="ProductsPage"></a> Tooted
-
-- Müük
-- Marginaal
-- Tagastused
-
-####  <a name="customers"></a><a name="CustomersPage"></a> Külalised
-
-- Müük
-- Marginaal
-- Tagastused
-
-#### <a name="channels"></a><a name="ChannelsPage"></a> Kanalite
-
-- Müük
-- Marginaal
-- Tagastused
-
-### <a name="sales"></a>Müük<a name="SalesPage"></a>
-
-- Tarne asukoha järgi
-- Kanali/kaupluse/terminali järgi
-- Töövõtja alusel
-- Kuupäeva järgi
-- Tunni järgi
-- Tootekategooria alusel
-
-### <a name="margins"></a><a name="MarginsPage"></a> Veerised
-
-- Tarne asukoha järgi
-- Kõrvalsaadus
-- Kuupäeva järgi
-
-### <a name="returns"></a><a name="ReturnsPage"></a> Tagastab
-
-- Tagastus summa järgi
-
-    - Kaupluse alusel
-    - Kõrvalsaadus
-    - Kuupäeva järgi
-
-- Tagastus kande alusel
-
-    - Kaupluse alusel
-    - Kõrvalsaadus
-    - Kuupäeva järgi
-
-### <a name="discounts"></a><a name="DiscountsPage"></a> Allahindlused
-
-- Kaupluse alusel
-- Kõrvalsaadus
-- Kuupäeva järgi
-- Eraldamine
-
-    - Juriidiline isik
-    - Kauplus
-    - Allahindluse tüüp
-    - Allahindluse nimi
-    - Toode
-
-### <a name="payments"></a><a name="PaymentsPage"></a> Maksed
-
-- Kanali/terminali järgi
-- Makseviisi/-tüübi alusel
-- Kuupäeva järgi
-- Eraldamine
-
-    - Juriidiline isik
-    - Kanali tüüp
-    - Kauplus
-    - Terminal
-    - Makseviis
-
-### <a name="customers"></a><a name="CustomersPage"></a> Külalised
-
-- Eluea väärtus (LTV)
-
-    LTV arvutatakse kogusumma alusel, mille klient kulutab kõikidesse müügikanalitesse (kaasa arvatud Dynamics 365 Commerce POS, e-kaubandus ja kõnekeskus).
-
-- Recency
-
-    Recency arvutatakse päevade arvu alusel, mis on möödunud kliendi viimasest tehingust organisatsiooniga. Hiljutisuse (recency) puhul ei arvestata kandeväliseid sõltuvusi (nt e-kaubanduse sirvimistegevus).
-
-- Sagedus
-
-    Sagedus arvutatakse kliendi tehingupõhise seotuse alusel organisatsiooniga. Praegu ei arvesta sagedus mittekandeväliseid lekse märguandeid, nt e-kaubanduse sirvimistegevus.
-
-- Seose pikkus
-
-    Suhte pikkus arvutatakse päevade arvu põhjal alates kliendi kirje loomisest süsteemis.
-
-- Kannete arv
-
-### <a name="comparison"></a><a name="ComparisonPage"></a> Võrdlus
-
-- Toote võrdlus ajaperioodi alusel
-
-    - Müügi- ja müügierinevus
-    - Marginaali ja marginaali erinevus
-
-- Klient ajaperioodi alusel
-
-    - Müügi- ja müügierinevus
-    - Marginaali ja marginaali erinevus
-
-### <a name="web-activity"></a><a name="WebActivityPage"></a> Veebitegevus
-
-#### <a name="top-level-filters"></a><a name="WebActivityTopLevelFilters"></a> Ülemise taseme filtrid
-
-- Kuupäevavahemik
-- Kanali tüüp
-- Kanal
-- Kategooriahierarhia
-
-#### <a name="acquisitions"></a>Soetamised
-
-- Lehekülje vaated
-
-    - Riigi või regiooni järgi
-    - Kõrvalsaadus
-    - Kasutaja sisse logitud olek
-    - Kuupäeva järgi
-
-- E-äri tellimused
-- Valuutakurss
-
-    - Kuupäeva järgi
-
-- Teisenduse leht
-
-    - Lehevaade lehe tüübi järgi (avaleht, kategooria lehekülg või toote üksikasjade leht)
-    - Lisa korvi
-    - Maksmine
-    - Ost
-
-#### <a name="sessions"></a>Seansid
-
-Seanss on kasutaja külastus e-äri veebisaidile. Seanss loetakse lõpetatuks pärast 30 minutit passiivsust või 24 tundi aktiivset kasutamist.
-
-- Riigi või regiooni järgi
-- Päritolu järgi (väline viitaja)
-- Kasutaja sisse logitud olek
-- Seansiloendus
-
-    - Kuupäeva järgi
-    - Sisestuslehe järgi
-
-- Tellimus seansi kohta
-
-    - Kuupäeva järgi
-
-- Seansi käivitamismäär
-
-    Sessioon on seanss, kus kasutaja lahkub kohe pärast teie e-äri veebisaidi külastust. Lisateavet vt [vahetuskurssi](https://en.wikipedia.org/wiki/Bounce_rate).
-
-- Klõpsab seansi kohta
-
-#### <a name="visitors"></a>Külastajaid
-
-Teie e-kaubanduse saidi anonüümne nimi tuvastatakse kordumatult konkreetse brauseri ja konkreetse kasutaja kasutatava seadme alusel. Ärianalüüsis ei jälgita anonüümseid vihjeid erinevate brauserite või seadmete vahel. Anonüümne vihje, kes kasutab sama brauserit samal seadmel määratakse kordumatult mitme kasutajaseansi lõikes, kuni brauseri vahemällu talletatud andmed on tühjendatud või kui üks periood (tavaliselt 12 kuud) läbib, mis toimub esimesena.
-
-Kui poodide sirvivad sisse logides oma e-kaubanduse saiti, saab Commerce Analytics nende kohta lisateavet anda. See teave põhineb olemasolevatel suhetel, mis on teie organisatsioonil oma eelnevate ostude tulemusel kõikides müügikanalites Dynamics 365 Commerce (sh kassa, e-äri ja kõnekeskus). Lisateave hõlmab hiljutisuse, seose pikkuse, eluea väärtuse ja sageduse andmeid.
-
-- Veeris
-- Keskmised ligemahinnaga tellimused
-- Keskmine keskmine müügisumma
-- E-commerce'i countus
-
-    - Kuupäeva järgi
-    - Asukoha järgi
-
-        Praegu saab Commerce'i analüüs anda ainult riigi/regiooni tasandi granulaarsust e-kaubanduse vihjete asukohaülevaadete jaoks.
-
-    - Recency järgi
-
-        Recency arvutatakse päevade arvu alusel, mis on möödunud kliendi viimasest tehingust organisatsiooniga. Hiljutisuse (recency) puhul ei arvestata kandeväliseid sõltuvusi (nt e-kaubanduse sirvimistegevus).
-
-    - Seose pikkuse järgi
-
-        Suhte pikkus arvutatakse päevade arvu põhjal alates kliendi kirje loomisest süsteemis.
-
-    - Eluea väärtuse alusel (LTV)
-
-        LTV arvutatakse kogusumma alusel, mille klient kulutab kõikidesse müügikanalitesse (kaasa arvatud Dynamics 365 Commerce POS, e-kaubandus ja kõnekeskus).
-
-    - Sageduse järgi
-
-        Sagedus arvutatakse kliendi tehingupõhise seotuse alusel organisatsiooniga. Praegu ei arvesta sagedus mittekandeväliseid lekse märguandeid, nt e-kaubanduse sirvimistegevus.
-
-#### <a name="impressions"></a>Muljed
-
-Esmamulje on toote visuaalne vaade e-kaubanduse kaudu. Näiteks viib rakendus e-commerce commerce oma e-äri veebisaidi avalehele ja vaadete kohta kursuste mati toote top **müügiloendi** moodulis. Seejärel vaadetakseallikas sama mati toode **loendimoodulis Valik** teie jaoks. Sel juhul on kaks tootemuljet. 
-
-Praegu jälgitakse esmamuljet järgmistel pinnal:
-
-- Loendid (nt **Soovitatav**, **Tippmüümine**, **Valikuid teile** ja **Trendimine)**
-- Ostukorvimoodul
-- Otsingutulemuse konteiner
-- Kategooria otsingutulemuse konteiner
-
-Praegu ei arvestata neid tooteid, mida renderdatakse puus või kohandatud visuaalis, esmamuljega seotud meetermõõdulistes toodetes.
+Analüüsi kaudu Azure Synapse päringusse tehtud andmed lähevad siis Power BI semantilisele mudelile. Olenevalt andmetüübist imporditakse see kas perioodiliselt mälus või on see Power BI käitusaja jooksul otse päringusse esitatud. 
+
+Viimane etapp on andmete renderdamine visuaalsetes Power BI andmetes, mida kasutajad saavad vaadata ja nendega suhelda. 
+
+## <a name="commerce-analytics-functional-overview"></a>Commerce Analyticsi funktsionaalne ülevaade
+### <a name="1-summary"></a>1. Kokkuvõte
+#### <a name="top-level-filters"></a>Ülemise taseme filtrid
+1.  Kuupäevasätted
+    1. Aasta
+    2. Kvartal    
+    3. Kuu    
+    4. Nädal    
+    5. Päev
+2. Kanali sätted
+    1. Juriidiline isik    
+    2. Kanali tüüp    
+    3. Kliendi tüüp    
+    4. Müügi tüüp    
+    5. Kanal    
+    6. Organisatsioonihierarhia
+3. Tootesätted
+    1. Kategooriahierarhia    
+    2. Kategooria
+
+#### <a name="a-product"></a>a. Toode
+1. Müük
+2. Marginaal
+3. Tagastused
+
+#### <a name="b-customer"></a>b. Klient
+1. Müük
+2. Marginaal
+3. Tagastused
+
+#### <a name="c-channel"></a>c. Kanal
+1. Müük
+2. Marginaal
+3. Tagastused
+
+### <a name="2-sales"></a>2. Müük
+1. Tarne asukoha järgi
+2. Kanali/kaupluse/terminali järgi
+3. Töövõtja alusel
+4. Kuupäeva järgi
+5. Tunni järgi
+6. Tootekategooria alusel
+
+### <a name="3-margin"></a>3. Veeris
+1. Tarne asukoha järgi
+2. Kõrvalsaadus
+3. Kuupäeva järgi
+
+### <a name="4-return"></a>4. Tagastamine
+1. Tagastus summa järgi
+    1. Kaupluse alusel    
+    2. Kõrvalsaadus    
+    3. Kuupäeva järgi
+2. Tagastus kande alusel
+    1. Kaupluse alusel    
+    2. Kõrvalsaadus    
+    3. Kuupäeva järgi
+
+### <a name="5-discount"></a>5. Allahindlus
+1. Kaupluse alusel
+2. Kõrvalsaadus
+3. Kuupäeva järgi
+4. Eraldamine
+    1. Juriidiline isik    
+    2. Kauplus    
+    3. Allahindluse tüüp    
+    4. Allahindluse nimi    
+    5. Toode
+
+### <a name="6-payment"></a>6. Makse
+1. Kanali/terminali järgi
+2. Makseviisi/-tüübi alusel
+3. Kuupäeva järgi
+4. Eraldamine
+    1. Juriidiline isik    
+    2. Kanali tüüp    
+    3. Kauplus    
+    4. Terminal    
+    5. Makseviis
+
+### <a name="7-customer"></a>7. Klient
+1. Eluea väärtus (LTV): eluaja väärtus arvutatakse kliendi poolt kõikide Äriregistri kanalite (POS, e-commerce ja kõnekeskus) kogu kulutatud summa põhjal.
+2. Recency – recency arvutatakse päevade arvu põhjal, mis on möödunud kliendi viimasest tehingust organisatsiooniga. Recency ei arvesta kandeväliseid teenuse tugevusi, nagu näiteks e-kaubanduse sirvimistegevus.
+3. Sagedus: sagedus arvutatakse kliendi kandepõhise seotuse alusel organisatsiooniga. Sagedus ei arvesta kandeväliseid teenuse annab signaali, nagu näiteks e-kaubanduse sirvimistegevus.
+4. Seose pikkus: seose pikkus arvutatakse päevade arvu põhjal alates kliendikirje loomisest süsteemis. 
+5. Kannete arv
+
+### <a name="8-comparison"></a>8. Võrdlus
+1. Toote võrdlus ajaperioodi alusel
+    1. Müügi- ja müügierinevus
+    2. Marginaali ja marginaali erinevus
+2. Klient ajaperioodi alusel
+    1. Müügi- ja müügierinevus
+    2. Marginaali ja marginaali erinevus
+
+### <a name="9-web-activity"></a>9. Veebitegevus
+
+#### <a name="top-level-filters"></a>Ülemise taseme filtrid
+1. Kuupäevavahemik
+2. Kanali tüüp
+3. Kanal
+4. Kategooriahierarhia
+
+#### <a name="a-acquisition"></a>a. Soetus
+1. Lehekülje vaated
+    1. Riigi/regiooni järgi    
+    2. Kõrvalsaadus    
+    3. Kasutaja sisse logitud olek    
+    4. Kuupäeva järgi
+2. E-äri tellimused
+3. Valuutakurss
+    1. Kuupäeva järgi
+4. Teisenduse leht
+    1. Lehevaade lehe tüübi järgi (avaleht, kategooria lehekülg, toote üksikasjade leht)  
+    2. Lisa korvi    
+    3. Maksmine   
+    4. Ost
+
+#### <a name="b-session"></a>b. Seanss
+Seanss on määratletud kasutaja külastuste seansina teie e-äri veebisaidile. Seanss loetakse lõpetatuks pärast 30 minutit passiivsust või pärast 24 tundi aktiivset kasutamist.
+1. Riigi/regiooni järgi
+2. Päritolu järgi (väline viitaja)
+3. Kasutaja sisse logitud olek
+4. Seansiloendus
+    1. Kuupäeva järgi    
+    2. Sisestuslehe järgi
+5. Tellimus seansi kohta
+    1. Kuupäeva järgi
+6. Seansi määra määraks on seanss määratletud kui seanss, kus kasutaja lahkub kohe pärast teie e-äri veebisaidi külastamist. 
+7. Klõpsab seansi kohta
+
+#### <a name="c-visitor"></a>c. Külastaja
+Teie e-kaubanduse saidi anonüümne nimi määratakse kordumatu ID põhjal selle konkreetse seadme brauseri piires. Commerce Analytics ei jälgi anonüümseid kasutajaid eri brauserites või seadmetes. Anonüümne kasutaja, kes kasutab sama brauserit samal arvutil määratakse kordumatult mitme kasutajaseansi lõikes, kuni brauseri vahemälu andmed on tühjendatud või tavaliselt kuni 12 kuu perioodini, olenevalt sellest, kumb toimub esimesena.
+
+Commerce analytics võib anda teile rohkem teavet oma e-äri saiti sisse loginud meiliaadresside sirvimise kohta. Teave põhineb olemasolevatel suhetel nende kasutajatega, kaasa arvatud ostud, mida kasutajad on teie organisatsioonist sooritanud kõigis Commerce'i müügikanalites (POS, kõnekeskus ja e-commerce) ning kaasab hiljutisuse, seose pikkuse, eluea väärtuse ja sageduse.
+
+1. Veeris
+2. Keskmised ligemahinnaga tellimused
+3. Keskmine keskmine müügisumma
+4. E-commerce'i countus
+    1. Kuupäeva järgi
+    2. Asukoha alusel: ärianalüüs saab anda riigi/regiooni tasemel ainult e-kaubanduse vihjete jaoks granulaarsust.     
+    3. Hiljutisuse (recency) puhul arvutatakse Recency päevade arvu alusel, mis on möödunud kliendi viimasest tehingust organisatsiooniga. Recency ei arvesta kandeväliseid teenuse tugevusi, nagu näiteks e-kaubanduse sirvimistegevus.    
+    4. Seose pikkuse alusel: seose pikkus arvutatakse päevade arvu põhjal alates kliendikirje loomisest süsteemis.     
+    5. Eluea väärtuse (LTV) alusel: eluea väärtus arvutatakse kliendi kulutatud kogusumma alusel kõigis Commerce'i müügikanalites (POS, e-commerce ja kõnekeskus).
+    6. Sageduse järgi– sagedus arvutatakse kliendi organisatsiooniga seotud kandepõhise seotuse põhjal. Sagedus ei arvesta kandeväliseid teenuse annab signaali, nagu näiteks e-kaubanduse sirvimistegevus.
+
+#### <a name="d-impression"></a>p Mulje
+Esmamulje määratletakse iga toote visuaalse vaatena e-kaubanduse kaudu. Näiteks kui e-kaubanduse vihje navigeerib teie veebisaidi avalehele ja vaadete põhjal vaadete mati toode ülemise müügiloendi moodulis ning samuti kuvatakse sama mati toode valikus teie loendimoodulile, loetakse need suhtlused kaheks tootemuljeks. Näitamised jälgivad tootevaateid järgmistel pinnal:
+1. Loendid (nt soovitatav, tippmüümine, teile valikuid valiv, trendid)
+2. Ostukorvimoodul
+3. Otsingutulemuse konteiner
+4. Kategooria otsingutulemuse konteiner
+    
+Värvimoodulis või kohandatud visuaalis renderdatud tooteid ei arvestata näitamismõõdikutes.
 
 **Näitamise** aruandeleht sisaldab järgmisi mõõdulehti:
+1. Näitamiste arv
+    1. Lehekülje tüübi ja mooduli järgi: lehe tüüp on üldine lehetüüp, mis on määratletud iga lehe jaoks teie e-äri veebisaidil. Mooduli tüüp määratleb e-kaubanduse visuaalse mooduli tüübi, milles toode kuvatakse. Teil võib tekkida vajadus minna süvitsi leheküljel ja moodulis visuaalselt, et vaadata teateid moodulite järgi.    
+    2. Kõrvalsaadus    
+    3. Kasutaja sisse logitud olek    
+    4. Kuupäeva järgi
+2. Näitamise klõpsamiste arv: esmamulje klõpsamine on määratletud kui e-kaubanduse ikoonil klõpsamine toote visuaalsel valikul, mis tavaliselt navigeerib kasutajaid selle toote toote üksikasjade lehele.     
+3. Näitamise läbimismäär (CTR): läbim klõpsamismäär on määratletud kui kuvamisk klõpsamiste koguarv, mis on jagatud kuvamiste koguarvu arvuga.
 
-- Näitamiste arv
-
-    - Lehe tüübi ja mooduli järgi
-
-        Lehe tüüp on üldine lehe tüüp, mis on määratud iga lehe kohta teie e-äri veebisaidil. Mooduli tüüp on selle e-kaubanduse visuaalse mooduli tüüp, kus toode kuvatakse.
-
-        Selleks, et vaadata esmamuljeid moodulite järgi, peate võib-olla süvitsi minna lehekülje- ja mooduli visuaaliks.
-
-    - Kõrvalsaadus
-    - Kasutaja sisse logitud olek
-    - Kuupäeva järgi
-
-- Näitamist klõpsamiste arv
-
-    Esmamulje klõpsake, kui e-äri portaal valib toote visuaalse. Harilikult võetakse koosnemine seejärel toote üksikasjade lehele.
-
-- Näitamist läbiv määr (CTR)
-
-    CTR arvutatakse esmamuljekide koguarvu jagatuna esmamuljete koguarvu jagatuna.
-
-## <a name="commerce-analytics-preview-installation"></a>Commerce Analyticsi (Eelvaade) installimine
+## <a name="install-commerce-analytics"></a>Commerce Analyticsi installimine
 
 > [!NOTE]
-> Commerce analytics (Preview) on eelvaade Ameerika Ühendriikides, Kanadas, Ühendkuningriigis, Euroopas, Lõuna-Ida-Aasias, Ida-Aasias, Austraalias ja Jaapanis. Kui teie keskkond asub mis tahes regioonis, saate lubada selle funktsiooni oma keskkonnas, kasutades Finance and Operations Microsoft Dynamics elutsükli teenuseid (LCS). Enne selle funktsiooni kasutamist vaadake teemat Ekspordi [konfigureerimine Azure Data Sisestasse.](../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md)
+> Commerce analytics on eelvaate faasis Ameerika Ühendriikides, Kanadas, Ühendkuningriigis, Euroopas, Lõuna-Ida-Aasias, Ida-Aasias, Austraalias ja Jaapanis. Kui teie keskkond asub mingis nimetatud regioonis, saate oma keskkonnas lubada Commerce Analyticsi koos Microsoft Dynamics elutsükli teenustega (LCS). Enne Commerce Analyticsi kasutamist vaadake teemat [Eksportimise konfigureerimine azure Data Commerce'i](../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md).
 
-### <a name="enable-and-configure-commerce-analytics-preview"></a><a name="enableCommerceAnalytics"></a> Commerce Analyticsi lubamine ja konfigureerimine (eelvaade)
+### <a name="enable-and-configure-commerce-analytics"></a>Commerce Analyticsi lubamine ja konfigureerimine
+Commerce Analyticsi installimiseks on vaja luba ressursside loomiseks Azure'i kordustellimuses ja luba lisandmoodulite installimiseks LCS-is. Commerce Analyticsi lubamiseks ja konfigureerimiseks läbige allpool kirjeldatud etapid.
+1. [Commerce Analyticsi (eelvaade) eelvaate vormi esitamine](#submit-the-preview-intake-form-for-commerce-analytics).
+2. [Lubage ja konfigureerige Eksport Andmetesse](#enable-and-configure-export-to-data-lake).
+3. [Lubage ja konfigureerige Commerce Analyticsi (Eelvaade) lisandmoodul](#enable-and-configure-commerce-analytics-add-in).
+4. [Saate luua ladustamiskonto SAS-i](#generate-storage-account-sas-token) loa.
+5. [Laadi vaadete jaoks alla Azure Synapse juurutusskriptid.](#download-deployment-scripts-for-azure-synapse-views)
+6. [Installige ja konfigureerige Azure Synapse](#install-and-configure-azure-synapse-workspace) tööruum.
+7. [Installi Power BI](#install-power-bi-template-app) mallirakendus. 
 
-Commerce Analyticsi (Eelvaade) installimiseks peavad teil olema luba Azure'i kordustellimuses ressursside loomiseks. Samuti peavad teil olema LCS-i lisandmoodulite installimise õigused. Siin antakse ülevaade sammudest:
+### <a name="submit-the-preview-intake-form-for-commerce-analytics"></a>Commerce Analyticsi eelvaate vormi esitamine
+Vormi Commerce [analytics (Preview) täielik ja esitamine](https://forms.office.com/r/vW5VLJGXZ2) Lubage taotluse töötlemiseks kuni kolm tööpäeva. Kui vorm on töödeldud, saadetakse kinnitusmeil vormil antud meiliaadressile.
 
-1. [Commerce Analyticsi eelvaatevormi esitamine](#joinPreview) (eelvaade)
-2. [Lubage ja konfigureerige export to Data](#enableExportToDataLake) Seejärel.
-3. [Commerce Analyticsi (Preview) lisandmooduli lubamine ja](#enableCommerceAnalyticsAddin) konfigureerimine.
-4. [Looge oma ladustamiskontole ühiskasutuses juurdepääsu allkirja (SAS)](#getSASToken) luba.
-5. [Laadige vaadete jaoks alla Azure Synapse juurutusskriptid.](#downloadSynapseDeploymentScripts)
-6. [Installige ja konfigureerige Azure Synapse](#configureAzureSynapse) tööruum.
-7. [Installige Power BI malli](#powerbi) rakendus.
+### <a name="enable-and-configure-export-to-data-lake"></a>Andmetesse eksportimise lubamine ja konfigureerimine Selle teabega
+Commerce analytics toetub rakenduse Commerce HQ andmete eksportimiseks Azure Data Azure'i funktsiooni ekspordiga ja säilitab **·** andmed värskena. Enne Commerce'i analüüsi konfigureerimist lubage ja konfigureerige AndmeteSeosse eksportimine, järgides **·** Azure Data [Analyticsi eksportimise konfigureerimise](../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md) etappe. Funktsiooni Ekspordi **andmetesse** konfigureerimisel pange tähele järgmist teavet. Selle teabe peate sisestama järgmistesse etappidesse.
+1. Võtme vault DNS-i nimi ja salanimed, kuhu te rakenduse ID ja rakenduse saladuse salvestate. Lisateavet vt jaotisest [Turvahoidlasse saladuste](../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md#addsecrets) lisamine.
+2. Ladustamiskonto nimi eksemplari Azure Data Azure'i jaoks. Lisateavet vt oma [kordustellimuses konto Data Storage (Gen2)](../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md#createsubscription) loomine.
 
-### <a name="submit-the-preview-intake-form-for-commerce-analytics-preview"></a><a name="joinPreview"></a> Commerce Analyticsi eelvaate vormi esitamine (eelvaade)
+### <a name="enable-and-configure-commerce-analytics-add-in"></a>Commerce Analyticsi lisandmooduli lubamine ja konfigureerimine
+Commerce Analyticsi lisandmooduli installimiseks LCS-i peate olema LCS-i keskkonnaadministraator keskkonnas, mida plaanite kasutada.
 
-Commerce [Analyticsi eelvaatevormi esitamine (eelvaade)](https://forms.office.com/r/vW5VLJGXZ2) Lubage vormi töötlemiseks kuni kolm tööpäeva. Pärast selle töötlemist saadetakse kinnitusmeil meiliaadressile, mille vormis edastasite.
+Commerce Analyticsi lisandmooduli konfigureerimiseks vajate järgmist teavet. 
 
-### <a name="enable-and-configure-export-to-data-lake"></a><a name="enableExportToDataLake"></a> Andmetesse eksportimise lubamine ja konfigureerimine Selle teabega
+|Field | Teabeallikas| Näide|
+|----|----|----|
+|Azure AD Rentniku ID teie keskkonna jaoks| Teie Azure AD rentniku ID Azure'i portaalis. Logige sisse **Azure'i portaali** ja avage **Azure Active Directory** teenus. Avage lehekülg **·** Atribuudid ja kopeerige väärtus väljale Kausta **·** ID.| 72f988bf-0000-0000-00000-2d7cd011db47|
+|Teie võtme VAUlt DNS-i nimi|Sisestage [oma võtme](#enable-and-configure-export-to-data-lake) vault'i DNS-i nimi.| `https://contosod365datafeedpoc.vault.azure.net/`|
+|Avalduse ID-d sisaldav saladus| Sisestage [avalduse](#enable-and-configure-export-to-data-lake) ID talletamissaladuse nimi. See on sama väärtus, mida kasutasite **Data Lisamise lisamise installimisel Data Lisamise** installimisel.|app-id|
+|Rakendussaladust sisaldav saladus| Sisestage [avalduse](#enable-and-configure-export-to-data-lake) saladust talletav salanimi. See on sama väärtus, mida kasutasite **Data Lisamise lisamise installimisel Data Lisamise** installimisel.| app-secret|
 
-Commerce analytics (Eelvaade) põhineb funktsioonil Ekspordi Data Excelisse, et eksportida Commerce HQ-andmed Data Excelisse ja hoida andmed värskena. Enne commerce analyticsi (Eelvaade) konfigureerimist lubage ja konfigureerige Andmete Loendisse eksportimine, järgides [azure Data Tõrketeadese eksportimise konfigureerimise etappe.](../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md)
+1. Logige sisse [elutsükli](https://lcs.dynamics.com/) teenustesse ja navigeerige oma keskkonda.
+2. Valige **lehel** Keskkond vahekaart Keskkonna **·** lisandmoodulid.
+3. Valige **suvand Installi uus lisandmoodul ja valige dialoogiboksis** **Ärianalüüs (eelvaade).** Kui **ärianalüüsi (Preview)** loendis pole, kontrollige, et olete Insider Programiga ühendatud.
+4. Sisestage **dialoogiboksis** Seadistuse lisandmoodul nõutud teave, nagu ülaltoodud tabelis kirjeldatakse.
+5. Nõustuge pakkumise tingimustega, märkides ruudu ja seejärel valige **·** Installi.
 
-Andmetesse Ekspordi konfigureerimisel tehke märkus järgmise teabe kohta, sest peate selle sisestama hiljem:
+Süsteem installib ja konfigureerib keskkonna Commerce Analyticsi (Eelvaade). Toiminguks võib olla mõni minut. Pärast installi ja konfigureerimise lõpetamist **on Commerce Analytics (Preview) loetletud lehel Keskkond ja olek on** **·** **Installitud**.
 
-- <a name="keyVault"></a> Võtme hoidla domeeninimede süsteemi (DNS) nimi ja rakenduse ID ja rakenduse salanimed, kuhu te rakenduse ID salvestate. Lisateavet vt jaotisest [Turvahoidlasse saladuste](../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md#addsecrets) lisamine.
-- <a name="storageAccount"></a> Ladustamiskonto nimi Eksemplari Data Saate jaoks. Lisateavet vt tellimuses [konto Data Storage (Gen2) loomine](../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md#createsubscription).
-
-### <a name="enable-and-configure-the-commerce-analytics-preview-add-in"></a><a name="enableCommerceAnalyticsAddin"></a> Commerce Analyticsi (Preview) lisandmooduli lubamine ja konfigureerimine
-
-Commerce Analyticsi (Preview) lisandmooduli LCS-i installimiseks peate olema kasutust planeeriva keskkonna puhul LCS-i keskkonnaadministraator.
-
-Commerce Analyticsi (Preview) lisandmooduli installimiseks ja konfigureerimiseks järgige neid samme.
-
-1. Logige [LCS-i](https://lcs.dynamics.com/) sisse ja minge keskkonda.
-2. Valige **keskkonna** lehe vahekaardil Keskkonna **lisandmoodulid suvand Installi uus** **lisandmoodul**.
-3. Valige dialoogiboksis commerce **analytics (Preview)** (eelvaade).
-
-    Kui **ärianalüüsi** (Eelvaade) loendis pole, veenduge, et olete Insider Programmiga ühendatud.
-
-4. Sisestage **dialoogiboksis** Häälestusprogrammi lisandmoodul järgmise teabe.
-
-    | Teave | Allikas | Näidisväärtus |
-    |---|---|---|
-    | Azure AD Rentniku ID teie keskkonna jaoks | Logige sisse [Azure'i portaali](https://portal.azure.com/) ja avage **Azure Active Directory** teenus. Seejärel avage **lehekülg Atribuudid ja** kopeerige väärtus väljale Kausta **ID**. | 72f988bf-0000-0000-00000-2d7cd011db47 |
-    | Teie võtme VAUlt DNS-i nimi | Sisestage [oma võtme](#keyVault) vault'i DNS-i nimi. Oleks pidanud eelmises jaotises selle väärtuse kohta märkuse tegema. | `https://contosod365datafeedpoc.vault.azure.net/` |
-    | Avalduse ID-d sisaldav saladus | Sisestage [avalduse ID talletamissaladuse](#keyVault) nimi. Oleks pidanud eelmises jaotises selle väärtuse kohta märkuse tegema. | app-id |
-    | Rakendussaladust sisaldav saladus | Sisestage [rakendussaladust talletav](#keyVault) salanimi. Oleks pidanud eelmises jaotises selle väärtuse kohta märkuse tegema. | app-secret |
-
-5. Nõustuge pakkumise tingimustega, märkides ruudu ja seejärel valige **Installi**.
-
-    Süsteem installib ja konfigureerib commerce analyticsi (Preview) lisandmooduli keskkonna jaoks. Selleks protsessiks võib olla mõni minut. Kui see on lõpetatud, tuleks commerce analytics (Preview) loetleda lehel Keskkond ja olek **tuleks** **·** **installida**.
-
-### <a name="generate-a-sas-token-for-your-storage-account"></a><a name="getSASToken"></a> Ladustamise konto JAOKS SAS-i loa loomine
-
-SAS-i luba võimaldab välisüksustel pääseda juurde teie ladustamiskontole ja omab kindlaid privileegide kogumeid piiratud aja jooksul. Azure Synapse kasutab SAS-i luba, et pääseda juurde Data Varade aluseks olevatele andmetele.
-
+### <a name="generate-storage-account-sas-token"></a>Ladustamise konto SAS-i loa loomine
 > [!NOTE]
-> Ärianalüüsi (Preview) teadaoleva piirangu tõttu kaotab eksemplar juurdepääsu SAS-i loa Azure Synapse aegumisel andmetele. Seepärast peaksite SAS-i loa loomisel seadistama maksimaalse aegumiskuupäeva, mida teie organisatsiooni turvapoliitika lubab.
+> Commerce Analyticsi (Eelvaade) tuntud piirang on see, et kui SAS-i luba aegub, kaotab eksemplar juurdepääsu Azure Synapse andmele. Peate seadistama oma organisatsiooni turvapoliitikas lubatud maksimaalse aegumiskuupäeva, kui genereerite sastud ühiskasutusega juurdepääsu allkirja (SAS) loa.
 
-SAS-i loa loomiseks järgige neid samme.
+SAS-i luba võimaldab välisüksustel pääseda juurde teie ladustamiskontole koos kindla privileegide komplektiga piiratud aja jooksul. Azure Synapse kasutab SAS-i luba, et pääseda juurde Azure Data Azure'i andmete põhiandmetele. SAS-i loa loomiseks täitke alltoodud juhised.
+1. Minge andmete eksportimise konfigureerimisel Loodud Azure'i portaali ladustamiskontole, nagu on välja toodud kordustellimuses andmete **·** Storage [(Gen2) konto](../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md#createsubscription) loomisel.
+2. Vasakul **oleval** suvandite paanil salvestuskonto all valige **ühiskasutusega juurdepääsu allkiri.**
+3. Valige SAS-i valikute lehel järgmised valikud:
 
-1. Azure'i portaalis minge [laokontole, mille](#storageAccount) lõite AndmeteSse eksportimise konfigureerimisel.
-2. Valige vasakul paanil ladustamiskonto all **ühiskasutusega juurdepääsu allkiri.**
-3. Seadke **SAS-i** valikute lehel järgmised väljad.
-
-    | Field | Väärtus |
-    |---|---|
+    | Valiku nimi | Suvandi väärtus |
+    |-------------|--------------|
     | Lubatud teenused | Valige **bloobi** valik. |
-    | Lubatud ressursitüübid | Valige **teenus**, **konteiner** ja **objekt**. |
-    | Lubatud õigused | Valige **lugemine**, **kirjutamine**, **kustutamine**, **·** **loend**, lisamine ja **loomine**. |
+    | Lubatud ressursitüübid | Valige **·** teenus, **konteiner** ja **·** objekt.|
+    | Lubatud õigused | Valige **·** lugemine, **·** kirjutamine, **·** kustutamine, **·** **·** loend, lisamine ja **·** loomine. |
     | Bloobiversioonide õigused | Lubab **versioonide** kustutamise. |
-    | Alguskuupäev ja aegumiskuupäev/-kellaaeg | Seadistage VASTAVALT vajadusele SAS-loa algus- ja lõppkuupäev ning kellaaeg. |
-    | Lubatud IP-aadressid | Jätke see väli tühjaks. |
+    | Alguskuupäev ja aegumiskuupäev/-kellaaeg | Seadistage sass-loa lõppkuupäev ja -kellaaeg vastavalt vajadusele. |
+    | Lubatud IP-aadressid | Jäta tühjaks. |
     | Lubatud protokollid | Valige **ainult** HTTPS. |
     | Eelistatud protsessikiht | Valige **baas** (vaikimisi). |
-    | Allkirjastamisvõti | Valige **vastavalt** vajadusele võti **1 või** võti2. |
+    | Allkirjastamisvõti | Valige **vastavalt** vajadusele võti **1 või** klahv2. |
 
 4. Valige **Loo SAS ja ühendusstring.**
-5. Kopeerige väärtus **SAS-i loa** väljalt ja kleepige see tekstiredaktorisse nagu Notepad.
+5. Kopeerige väärtus **SAS-i loa** tekstiboksi tekstiredaktorisse nagu Notepad.
 
-### <a name="download-the-deployment-scripts-for-azure-synapse-views"></a><a name="downloadSynapseDeploymentScripts"></a> Laadi vaate jaoks alla Azure Synapse juurutusskriptid
+### <a name="download-deployment-scripts-for-azure-synapse-views"></a>Laadi vaadete jaoks alla Azure Synapse juurutusskriptid
+Vajalike vaadete loomiseks ja Azure Synapse avaldamiseks tööruumis peate laadima alla ja käivitama skriptide komplekti. Skriptide allalaadimiseks viige lõpule järgmised sammud.
+1. Avage rakendus [microsoft/Dynamics365Commerce.Solutions](https://github.com/microsoft/Dynamics365Commerce.Solutions) GitHub repo. Skriptid on saadaval repongis.
+2. Skriptide alla laadimiseks kohalikku arvutisse saate skripte kasutada nii rakenduse tele, kui ka skript on sihtfailina alla laaditud.
 
-Nõutud vaadete loomiseks ja Azure Synapse avaldamiseks tööruumis peate käitama skriptide komplekti. Skriptide allalaadimiseks järgige neid samme.
+### <a name="install-and-configure-azure-synapse-workspace"></a>Tööruumi installimine ja Azure Synapse konfigureerimine
+Tööruumi installimiseks ja Azure Synapse konfigureerimiseks läbige alltoodud juhised.
+1. Installige Azure Synapse tööruum oma Azure'i kordustellimuses, järgides [QuickStartis toodud etappe: looge Sünonüüm.](/azure/synapse-analytics/quickstart-create-workspace)
+2. Avage Notepadis setupSapse.sql-skriptifail kohaliku arvuti kaustast, kus te laadisite või laadisite alla Dynamics365Commerce.Solutionsi uuesti. Lisateavet vaadake jaotisest [Kuvade juurutusskriptide Azure Synapse](#download-deployment-scripts-for-azure-synapse-views) allalaadimine. Skriptifail asub kaustas "/Pipeline/CommerceAnalyticsexiapse/". Redigeerige skripti, et asendada kohatäite tekst allolevate väärtustega.
 
-1. Minge GitHub-is [microsoft/Dynamics365Commerce.Solutionsi](https://github.com/microsoft/Dynamics365Commerce.Solutions) hoidlasse (repo).
-2. Laadige skriptid alla kohalikku arvutisse, laadides selle uuesti sisse või laadides sihtfailina alla.
+   | Kohatäite tekst | Asendusväärtus |
+   |------------------|-------------------|
+   | placeholder_storageaccount | Asendage andmete eksportimise konfigureerimisel loodud ladustamiskonto nimega, nagu on kirjeldatud tellimuses Data **·** Storage [(Gen2) konto](../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md#createsubscription) loomisel. |
+   | <a name="phContainer"></a> placeholder_container | Asendage pärast LCS-ist andmeekspordi lisandmooduli **LCS-i eksportimist Teie Azure Data Azure'i eksemplaris loodud ladustamisümbrise** nimega. Konteineri nime saamiseks peate talletuskonto sirvimiseks kasutama Azure'i portaalis lao explorer. |
+   | placeholder_sastoken | Asenda ladustamise konto SAS-i loaga kopeeritud [SAS-i](#generate-storage-account-sas-token) loaga. Eemaldage kindlasti **"?"** SAS-i loa väärtuse algusest. |
+   | <a name="phUserPwd"></a> placeholder_password | Asendage oma valiku tugeva parooliga. Tehke parooli kohta märkus. Parool seadistatakse skriptis loodud uue kasutaja reportreadonlyuser paroolina. **ÄRGE** sisestage siia konto sqladminuser parooli.  |
 
-### <a name="install-and-configure-an-azure-synapse-workspace"></a><a name="configureAzureSynapse"></a> Tööruumi installimine ja Azure Synapse konfigureerimine
+3. Minge uuele tööruumile Azure Synapse Azure'i portaalis. Valige **ülevaate lehel suvand Ava Sünapse** **·** Studio.
+4. Kopeerige selle `SetupSynapse.sql` sisu, mida uuendas ülal sammus 2. Valige Sünapse Studios Azure'i portaalis **> SQL-skripti jaoks** uus. Kleebi sisu SQL-skripti redaktorisse Sünapse Studios.
+5. **Kontrollige, kas andmebaasi kasutamine on seatud** väärtusele **·** Koond. Skripti **·** käivitamiseks valige käsk Käita.
+6. Oodake, kuni skript lõpetatakse. Skript loob andmebaasi Commerce Analyticsi jaoks, mandaadi juurdepääsuks Azure DataAatidele ja kirjutuskaitstud kasutajakonto, mida kasutatakse eksemplariga Power BI ühenduse Azure Synapse loomiseks.
+7. Avage kohalikus arvutis PowerShell haldusrežiimis. Minge kausta "/Pipeline/CommerceAnalyticsSapiapse/" kaustas, kuhu te kogusite või laadisite alla Dynamics365Commerce.Solutionsi uuesti, nagu on kirjeldatud vaadete allalaadimise [Azure Synapse juurutusskriptis.](#download-deployment-scripts-for-azure-synapse-views)
+8. PowerShelli käivitamispoliitika häälestamiseks käivitage PowerShelli aknas järgmine käsk:
 
-Tööruumi installimiseks ja Azure Synapse konfigureerimiseks järgige neid samme.
+   ```powershell
+   Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+   ```
+   
+9. Installige SQL Server PowerShelli moodul, käivitades PowerShelli aknas järgmise käsu:
 
-1. Installige Azure Synapse tööruum oma Azure'i kordustellimuses. Lisateavet vt [Kiirkäivitus: Sünonapse tööruumi](/azure/synapse-analytics/quickstart-create-workspace) loomine.
-2. Notepadis või mõnes muus tekstiredaktoris avage oma kohaliku arvuti kaustast fail **SetupSapse.sql, kuhu te olete Dynamics365Commerce.Solutionsi uuesti vastu võtnud või alla** laadinud. Skriptifail asub kaustas /Pipeline/CommerceAnalyticsSexiapse/. Asendage skriptis kohatäite tekst järgmises tabelis näidatud väärtustega.
-
-    | Kohatäite tekst | Asendusväärtus |
-    |---|---|
-    | placeholder_storageaccount | Ladustamise konto [nimi,](#storageAccount) mille lõite Andmete eksportimist konfigureerides. |
-    | <a name="phContainer"></a> placeholder_container | Hoidla ümbrise nimi, mis loodi teie Data Sql Serveri eksemplaris pärast seda, kui installisite edukalt LCS-i lisandmooduli Ekspordi dataKasutaja. Konteineri nime saamiseks peate talletuskonto sirvimiseks Kasutama Azure'i portaalis storage Explorerit. |
-    | placeholder_sastoken | Loodud [SAS](#getSASToken)-i luba. Eemaldage kindlasti **küsimärk** (?) SAS-i loa väärtuse algusest. |
-    | <a name="phUserPwd"></a> placeholder_password | Teie valitud kindel parool. Tehke selle parooli kohta märkus. See seadistatakse skripti loodud uue **kasutajaaruande kasutaja** parooliks. Ärge **sisestage** **sqladminuser konto** parooli. |
-
-3. Kopeerib skriptifaili uuendatud sisu.
-4. Minge Azure'i portaalis uude Azure Synapse tööruumi. Valige **ülevaate lehel** Suvand Ava **Sünapse** Studio.
-5. Sünapse Studios valige uus SQL-skript ja kleepige **\>** skriptifaili sisu SQL-skripti redaktorisse.
-6. Veenduge, et väli **Kasuta andmebaasi oleks seatud** **koondiks.**
-7. Valige **Käsk Käivita ja** oodake, kuni skript töötab. Skripti edukas käivitamine loob Commerce Analyticsi jaoks andmebaasi, mandaatide juurdepääsuks andmete pääsuks andmetega ja kirjutuskaitstud kasutajakonto, mida kasutatakse eksemplariga Power BI Azure Synapse ühenduse loomiseks.
-8. Avage oma kohalikus arvutis Windows PowerShell haldusrežiimis ja minge kausta /Pipeline/CommerceAnalyticsSapiapse/ kaustas, kuhu dynamics365Commerce.Solutions uuesti vastu võtnud või alla laadisite.
-9. Windows PowerShelli käivitamispoliitika häälestamiseks käivitage järgmine käsk.
-
-    ```powershell
-    Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
-    ```
-
-10. Kui SQL Server PowerShelli moodulit pole veel installitud, installige see, käivitades järgmise käsu.
-
-    ```powershell
-    Install-Module sqlserver
-    ```
-
-    > [!NOTE]
-    > Mooduli installimise ajal võidakse teilt küsida pakkuja NuGet installimist. Sellisel juhul valige pakkuja **installimiseks** NuGet Y. Teil võidakse paluda ka kinnitada, et installite moodulid ebausalduse hoidlast uuesti. Sellisel juhul valige **installiga** jätkamiseks Y. Võite valikuliselt käivitada **parameetri Set-PSRepository** cmdleti, et usaldada **PSHoidlat**.
-
-11. Avaldage Azure Synapse vaated, kasutades järgmist käsku.
+   ```powershell
+   Install-Module sqlserver
+   ```
+   
+   > [!NOTE]
+   > Kui teil on juba SQL Serveri moodul installitud, võite selle sammu vahele jätta. Selle mooduli installimise ajal võidakse teilt küsida pakkuja NuGet installimist. Vajutage **pakkuja** installimise jätkamiseks klahvi NuGet Y. Võite saada ka teate, et installite moodulid ebausaldusväärsest hoidlast. Installi **jätkamiseks vajutage klahvi Y.** Võite hoidlat usaldamiseks `Set-PSRepository` käivitada ka `PSGallery` cmdlet-käsu.
+   
+10. Avaldage Azure Synapse vaated, kasutades PowerShelli aknas järgmist käsku:
 
     ```powershell
     .\PublishSynapseViews.ps1 -serverName SERVER_NAME -password PASSWORD -storageAccount STORAGE_ACCOUNT -containerName CONTAINER_NAME -datarootpath DATA_ROOT_PATH
     ```
-
-    Selle käsu käivitamisel asendage kohatäite väärtused, nagu näidatud järgmises tabelis.
-
+    
+    Asendage käsu kohatäiteväärtused järgmiselt:
+    
     | Kohatäite väärtus | Asendusväärtus |
-    |---|---|
-    | SERVER_NAME | Serverita Azure Synapse SQL-i lõpp-punkti nimi. Selle väärtuse saate **Azure'i** portaali tööruumi lehele Azure Synapse Ülevaade. |
-    | PAROOL | **Sqladminuseri konto** parool. |
-    | STORAGE_ACCOUNT | Talletuskonto nimi DataSalvestile. |
-    | CONTAINER_NAME | Konteineri nimi, mille lõi funktsioon Ekspordi andmetesse. See konteiner on sama konteiner, mille määras [sammus 2 placeholder_container](#phContainer) väärtuseks. |
-    | DATA_ROOT_PATH | Kogu andmeid sisaldava konteineri all kausta nimi. |
+    |-------------------|-------------------|
+    | SERVER_NAME | Asenda serverita Azure Synapse SQL-i lõpp-punkti nimega. Selle väärtuse saate Azure'i Azure Synapse portaali **tööruumi ülevaate** lehelt. |
+    | PAROOL | Asendage sqladminuseri parooliga. |
+    | STORAGE_ACCOUNT | Asendage laokonto nimega Azure Data Azure'i jaoks. |
+    | CONTAINER_NAME | Asendab konteineri nimega, mis loodi **ekspordiga Data Theo.** Nimi on samale konteinerile, mille määrasid [ülalma placeholder_container](#install-and-configure-azure-synapse-workspace) väärtuses. |
+    | DATA_ROOT_PATH | Asendab kausta nimega konteineri all, mis sisaldab kõiki andmeid. |
 
     > [!NOTE]
-    > Talletuskonto nime, konteineri nime ja andmete juurtee leiate Azure'i salvestusbrauselija ja Andmete Seli salvestuskonto abil Azure'i portaalist.
+    > Talletuskonto nime, konteineri nime ja andmete juurtee leiate Azure'i portaalist, kasutades Azure'i laobrauseli oma Azure Data Azure'i salvestuskontoga.
 
-12. Oodake, kuni skript töötab. Skripti edukas käivitamine loob serverita SQL-i Azure Synapse eksemplaris SQL-i vaated.
+11. Oodake, kuni skript lõpetatakse. Skript loob serverita SQL-i Azure Synapse eksemplaris SQL-vaated.
 
-### <a name="install-the-power-bi-template-app"></a><a name="powerbi"></a> Mallirakenduse Power BI installimine
-
-Commerce Power BI Analyticsi mallirakenduse installimiseks (eelvaade) järgige neid samme.
-
+### <a name="install-power-bi-template-app"></a>Installi Power BI mallirakendus
+Commerce Power BI Analyticsi mallirakenduse installimiseks läbige järgmised sammud.
 1. Logige oma organisatsiooni [Power BI](https://powerbi.microsoft.com/) ID abil portaali sisse.
-2. Installige rakenduse Commerce analytics (Preview) Power BI mall, niues [https://aka.ms/cdireport-installapp](https://aka.ms/cdireport-installapp). Võite saada hoiatuse, mis hoiatab, et rakendust ei ole loendis AppSource. Valige **Installi**.
-3. Kui installite rakenduse esmakordselt uuesti, minge edasi sammuni 5. Kui olete rakenduse enne installinud, kuvatakse rakenduse uuendamiseks järgmised valikud:
+2. Installige rakenduse Commerce Power BI analytics mall, st [https://aka.ms/cdireport-installapp](https://aka.ms/cdireport-installapp). Võite saada hoiatuse rakenduse loetlemata AppSource kohta. Valige **Installi**.
+3. Kui te installite rakenduse esmakordselt, jätkake sammuga 5. Kui rakendus on juba installitud, esitatakse teile rakenduse uuendamiseks järgmised valikud.
+   1. Värskendage tööruumi ja rakendust: see suvand värskendab olemasolevat mallirakendust ja kirjutab üle rakenduse sätted, nagu rakenduse eksemplari nimi ja õiguste konfiguratsioonid.
+   2. Värskendage tööruumi sisu ilma rakendust värskendamata: see suvand värskendab olemasolevat mallirakendust ja säilitab rakenduse sätted. See on **·** rakenduse uuendamiseks soovitatav valik.
+   3. Installige rakenduse teine koopia uude tööruumi. See suvand loob rakenduse uue koopia uude tööruumi, mis luuakse teie jaoks. Olemasolev tööruum on alles.      
+4. Valige üks neist suvanditest ja seejärel **·** installi.
+5. Avage installitud rakendus, **valides** vasakul paanil menüü Apps (Rakendused) üksuse ja valides seejärel rakenduse.
+6. Ühendage rakendus andmeallikaga, valides **·** ühenduse. Kui see pole rakenduse esmakordsel installimisel, valige **suvand Ühenda andmed** kollasel teaberibal.
+7. Sisestage järgmised parameetriväärtused:
 
-    - **Värskendage tööruumi ja rakendust – värskendage olemasolevat mallirakendust ja kirjutake üle olemasolevad rakendusesätted, nt rakenduse eksemplari** nimi ja õiguste konfiguratsioonid.
-    - **Värskendage ainult tööruumi sisu ilma rakendust** värskendamata – värskendage olemasolevat mallirakendust, kuid säilitage olemasolevad rakendusesätted. *See valik on rakenduse uuenduste soovitatav valik.*
-    - **Installige rakenduse teine koopia uude tööruumi – looge uus tööruum ja seejärel looge seal** olemasolevast mallirakendusest koopia. Olemasolev tööruum jääb alles.
+   | Parameetri nimi | Väärtus |
+   |----------------|-------|
+   | Server       | Sisestage jaotistes Installi ja Konfigureeri tööruum loodud serverita Azure Synapse [SQL-lõpp-punkti Azure Synapse](#install-and-configure-azure-synapse-workspace) nimi. Selle väärtuse leiate Azure Synapse Azure'i portaali tööruumi ülevaate **·** lehelt. |
+   | Andmebaas | Sisestage väärtus CommerceAnalytics.
+   | Keel | Valige ripploendist soovitud väärtus. Sätet kasutatakse teie lokaliseeritud toote- ja kategoorianimede jaoks. Väärtus on case-tundlik. |
+   | Kuupäevavahemik | Valige ripploendist soovitud väärtus. Valitud kuude arvu andmed imporditakse Power BI andmekomplekti. Andmekomplekti suurus ja sünkroonimiseks vajalik aeg sõltuvad valitavast väärtusest. |
 
-4. Valige üks värskendusvalikust ja seejärel **installi**.
-5. Avage installitud rakendus, **valides** vasakul paanil valiku Rakendused ja valides seejärel rakenduse.
-6. Ühendage rakendus andmeallikaga, valides **ühenduse**. Kui olete rakenduse varem installinud, valige **kollases teateribal** suvand Ühenda oma andmelink.
-7. Seadistage järgmised väljad.
+8. Valige **Edasi**. Teil palutakse sisestada mandaadid SQL-andmebaasiga ühenduse Azure Synapse loomiseks. Sisestage järgmised väärtused:
 
-    | Field | Väärtus |
-    |---|---|
-    | Server | Sisestage eelmises Azure Synapse jaotises loodud Serverita SQL-i lõpp-punkti nimi. Selle väärtuse saate **Azure'i** portaali tööruumi lehele Azure Synapse Ülevaade. |
-    | Andmebaas | Sisestage **CommerceAnalytics.** |
-    | Keel | Valige loendist väärtus. Seda välja kasutatakse lokaliseeritud toote- ja kategoorianimede puhul. Väärtus on case-tundlik. |
-    | Kuupäevavahemik | Valige loendist väärtus. Valitud kuude arvu andmed imporditakse Power BI andmekomplekti. Teie valitud väärtus mõjutab andmekomplekti suurust ja sünkroonimiseks vajalikku aega. |
-
-8. Valige **Edasi**. Teil palutakse sisestada mandaadid SQL-andmebaasiga ühenduse Azure Synapse loomiseks. Seadke väljad nii, nagu näidatud järgmises tabelis.
-
-    | Field | Väärtus |
-    |---|---|
-    | Autentimismeetod | Valige **põhiline**. |
-    | Kasutajanimi | Sisestage **reportreadonlyuser.** |
-    | Parool | Sisestage väärtus, mille asendate [placeholder_password](#phUserPwd) SetupSexiapse.sql skriptis. See parool on kasutaja **reportreadonlyuser** parooliks. |
+   | Parameetri nimi | Väärtus |
+   |----------------|-------|
+   |Autentimismeetod|Valige **·** põhiline.|
+   |Kasutajanimi| Sisestage "reportreadonlyuser".|
+   |Parool|Sisestage väärtus, mida kasutate placeholder_password [...](#install-and-configure-azure-synapse-workspace) SetupSexiapse.sql skriptis. See on kasutaja reportreadonlyuser konto parool.| 
 
 9. Valige **sisselogimine ja looge** ühendus.
-10. Oodake, kuni andmekomplekti on edukalt uuendatud. Seejärel valige nupp **Redigeeri** rakendust, et avada rakenduse tööruum, kus saate vaadata andmekomplekti värskenduse olekut. Rakenduse tööruumis saate soovi korral seadistada oma andmekomplektile automaatsed uuendusgraafikud, hallata õigusi ja rakenduseeksemplari ümber nimetada.
+10. Oodake, kuni andmekomplekti värskendatakse. Seejärel minge rakenduse tööruumi, valides **ikooni Redigeeri** rakendust. Saate kontrollida tööruumi andmekomplekti värskendusolekut. Saate ka oma andmekomplektile automaatvärskenduse graafikuid seadistada, õigusi hallata ja rakenduseeksemplari ümber nimetada.
 
-### <a name="privacy"></a><a name="privacy"></a>Privaatsus
-
-Teie privaatsus on meie jaoks oluline. Lisateabe saamiseks lugege meie [privaatsusavaldust](https://go.microsoft.com/fwlink/?LinkId=521839).
+### <a name="privacy"></a>Privaatsus
+Teie privaatsus on meie jaoks oluline. Lisateavet privaatsuse kohta leiate meie [privaatsusavaldusest.](https://go.microsoft.com/fwlink/?LinkId=521839)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

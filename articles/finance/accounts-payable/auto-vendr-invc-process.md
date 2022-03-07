@@ -2,27 +2,25 @@
 title: Automatiseeritud hankijaarveldusprotsesside ülevaade
 description: Selles teemas kirjeldatakse hankijaarveldusprotsesside automatiseerimise võimalust ja automatiseeritud protsessi kasutamise eeliseid.
 author: abruer
-manager: AnnBe
-ms.date: 11/06/2020
+ms.date: 02/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 677760ec15630a11bf691be4cd8af9cf5549ddf9
-ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
+ms.openlocfilehash: c409b460df4c6a8b2f7811083e8c13c8fdfc186c09f859ecb91e2f3cc0b8b59f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4665318"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6749122"
 ---
 # <a name="automated-vendor-invoicing-processes-overview"></a>Automatiseeritud hankijaarveldusprotsesside ülevaade
 
@@ -43,29 +41,46 @@ Automatiseeritud protsesse saab kasutada järgmiste ülesannete täitmiseks.
 - Hankija arvete töötlemise automatiseerimise tulemuste kuvamine ja analüüsimine.
 - Mitme arve automatiseeritud töötluse jätkamine.
 
-## <a name="vendor-invoice-automation--submit-imported-vendor-invoices-to-the-workflow-system"></a>Hankija arvete automatiseerimine – imporditud hankija arvete edastamine töövoosüsteemile
+## <a name="submit-imported-vendor-invoices-to-the-workflow-system"></a>Imporditud arvete automaatne edastamine töövoosüsteemile
 
 Täiesti automaatse ostureskontro arveldusprotsessi osana saate lasta süsteemil automaatselt edastada imporditud arveid töövoosüsteemi. Protsess käivitub taustal sagedusel, mille määrate teie (kas iga tund või iga päev). Võimalus esitada imporditud arveid automaatselt töövoosüsteemile nõuab, et teie protsess algaks imporditud arvega. Tagamaks, et arvet saaks töödelda algusest lõpuni automaatselt, tuleb töövookonfiguratsiooni kaasata automatiseeritud sisestamisülesanne.
 
-Töövoosüsteemile saab automaatselt edastada ostutellimustega (PO-d) seotud arveid ning arveid, mis sisaldavad ostutellimusega mitteseotud hankekategooriat ja mitteladustatavaid ridasid. Käsitsi sisestatud arved ja tööruumi **Hankija koostöö arveldus** kaudu loodud arved tuleb töövoosüsteemile käsitsi edastada.
+
+Töövoosüsteemile saab automaatselt edastada ostutellimustega seotud arveid ning arveid, mis sisaldavad ostutellimusega mitteseotud hankekategooriat ja mitteladustatavaid ridasid. Käsitsi sisestatud arved ja tööruumi **Hankija koostöö arveldus** kaudu loodud arved tuleb töövoosüsteemile käsitsi edastada. Ettemaksu avalduse töötlemine tuleb imporditud arvete puhul käsitsi läbi viia. Ettemakseid saate rakendada käsitsi enne või pärast imporditud arve sisestamist. Hankijaarvete lehte kasutades saate sisestamata standardarvetele **ettemakseid käsitsi** rakendada. Pärast sisestamist on tasakaalustatud ettemakse saadaval, et rakendada käsitsi teistele selle hankija arvetele leheküljel **Hankijad** lehel (**Ostureskontro \> Üld \> Hankijate \> hankijad vahekaart \> Arved \> Rakenda**).
 
 Automatiseerimisfunktsioon pakub paindlikku raamistikku, mis võimaldab teil määratleda ettevõttespetsiifilisi reegleid imporditud hankija arvete edastamiseks töövoosüsteemile ja sisestatud toote sissetuleku ridade vastavusseviimiseks hankija arve ootel ridadega.
 
-## <a name="vendor-invoice-automation--match-product-receipts-to-invoice-lines-that-have-a-three-way-matching-policy"></a>Hankija arvete automatiseerimine – toote sissetulekute vastavusseviimine arve ridadega, millel on kolmesuunaline vastavusse viimise poliitika
+## <a name="match-product-receipts-to-invoice-lines-that-have-a-three-way-matching-policy"></a>Toote sissetulekute vastavusseviimine arve ridadega, millel on kolmesuunaline vastavusse viimise poliitika
 
 Süsteem saab sisestatud toote sissetulekuid viia automaatselt vastavusse arve ridadega, mille jaoks on määratletud kolmesuunaline vastavusse viimise poliitika. Protsess töötab seni, kuni vastavusse viidud toote sissetuleku kogus võrdub arve kogusega. Selle protsessi osana saate määrata, mitu korda peaks süsteem maksimaalset üritama viia toote sissetulekuid vastavusse arve ridadega, enne kui jõuab järeldusele, et protsess nurjus. Protsess töötab taustal, kas iga tund või iga päev. Saate käivitada automatiseeritud vastavusseviimise protsessi osana arvete edastamise protsessist töövoosüsteemi. Teise võimalusena saate selle käivitada eraldiseisva protsessina.
 
-## <a name="vendor-invoice-automation--pre-validate-vendor-invoice-posting"></a>Hankija arvete automatiseerimine – hankija arve sisestamise eelkinnitamine
+## <a name="pre-validate-vendor-invoice-posting"></a>Hankija arve sisestamise eelinstallimine
 
 Sisestamise jäljendamise käigus viiakse lõpule kinnitamisetapid, mis tehakse hankija arvete puhul sisestamisprotsessi käigus, kuid ühtki kontot ei värskendata. Protsessi käivitamiseks saate valida kas ühe arve või mitu arvet lehel **Ootel hankija arved**.
 
-## <a name="vendor-invoice-automation--enhanced-experience-for-viewing-workflow-and-automation-historical-information-for-vendor-invoices"></a>Hankija arvete automatiseerimine – täiustatud kogemus töövoo ja automatiseerimise ajaloolise teabe vaatamiseks hankija arvete puhul
+## <a name="enhanced-experience-for-viewing-workflow-and-automation-historical-information-for-vendor-invoices"></a>Hankija arvete automatiseerimine – täiustatud kogemus töövoo ajaloolise teabe vaatamiseks hankija arvete puhul
 
 Pakutakse hõlpsasti loetavat hankija arvete töövoo ajalugu. Hankija arvete töövoo ajaloo juurde pääseb otse hankija arvelt. Seetõttu on selle teabe leidmiseks vaja vähem klõpse. Kui teie organisatsioon on lubanud võimaluse edastada automaatselt imporditud hankija arveid töövoogu, pakutakse imporditud arvete jaoks automatiseerimise ajalugu. Automatiseerimise ajalugu aitab teil tuvastada praeguse protsessi etapi ja etapid, mis on juba lõpetatud. Kui etapp on ebaõnnestunud, pakub süsteem üksikasjalikku teavet, mis aitab teil mõista tõrke põhjuseid.
 
-## <a name="vendor-invoice-automation--analytics-and-metrics"></a>Hankija arvete automatiseerimine – analüüs ja mõõdikud
+## <a name="analytics-and-metrics"></a>Telemeetria ja analüüs
 
 Tööruum **Hankija arve sisestamine** võimaldab teil keskenduda hankija arvetele, mis ei jõudnud automatiseeritud protsessis lõpuni. Tööruumi paanidel on teave hankija arvete kohta, mida ei edastatud edukalt töövoosüsteemile, ei imporditud või ei viidud toote sissetulekutega vastavusse. Microsoft Power BI mõõdikud on samuti saadaval, et anda ostureskontro halduritele ülevaade hankija arvete automatiseerimise tõhususest.
 
+
+## <a name="resume-automation-processing-for-multiple-invoices"></a>Mitme arve automatiseeritud töötluse jätkamine
+
+Kui imporditud arve töövoogu edastamine automatiseeritud toimingu kaudu ei õnnestu, eemaldab süsteem selle edasisest automatiseeritud töötlusest. Ostureskontro ametnik saab arve läbi vaadata ja seda redigeerida, enne kui automatiseeritud protsess selle töövoogu uuesti esitab. Kui tõrke põhjuse saab lahendada mitme arve jaoks sama parandusega, saate taaskäivitada automatiseeritud protsessi lehel **Arve automatiseeritud töötluse jätkamine**. 
+
+## <a name="tracking-the-invoice-received-date-value"></a>Arve saatmiskuupäeva väärtuse jälgimine
+
+Arve **saatmiskuupäeva** väärtus näitab kuupäeva, mil ettevõte sai hankijalt arve. See pakub lähtepunkti arve edenemise jälgimiseks automatiseeritud protsesside kaudu. Selle väärtuse saab hankija arve imporditud andmetesse kaasata. Käsitsi loodud arvete jaoks saate määrata kuupäeva. Kui ühtegi väärtust ei sisestata, kasutatakse vaikimisi praegust kuupäeva.
+
+
+## <a name="tracking-the-imported-invoice-amount-and-imported-sales-tax-amount-values"></a>Imporditud arvesumma ja imporditud käibemaksusumma väärtuste jälgimine
+
+Hankija arvete impordifailis saab esitada **imporditud arve summa** ja **imporditud käibemaksus** summa väärtused hankija arvete impordifailis. Tavaliselt on need väärtused pärit arvelt, mida skannis väline pakkuja ja mis kaasati impordifaili. Kuna arvet töödeldakse ostureskontros, arvutab süsteem väärtused arveandmete alusel. Arve saab sisestada ainult siis, kui imporditud väärtused ühtivad arvutatud väärtustega. Vastendamise väärtused tagavad, et arve kajastab täpselt summat, mille peab hankijale tagama. Kui teie organisatsioon lubab imporditud arveid töövoo süsteemile automaatselt esitada, saate valikuliselt nõuda, et imporditud kogusummad vastaksid arvutatud kogusummadele, enne kui arve saab töövoo süsteemile esitada.
+
 ## <a name="vendor-invoice-automation---resume-automation-processing-for-multiple-invoices"></a>Hankija arve automatiseerimine – mitme arve automatiseerimistoimingu jätkamine
 Kui imporditud arve töövoogu edastamine automatiseeritud toimingu kaudu ei õnnestu, eemaldab süsteem selle edasisest automatiseeritud töötlusest. Ostureskontro ametnik saab arve läbi vaadata ja seda redigeerida, enne kui automatiseeritud protsess selle töövoogu uuesti esitab. Kui tõrke põhjuse saab lahendada mitme arve jaoks sama parandusega, saate taaskäivitada automatiseeritud protsessi lehel **Arve automatiseeritud töötluse jätkamine**. 
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,12 +1,10 @@
 ---
 title: Konfiguratsiooni importimine teenusest Lifecycle Services
-description: Selles teemas selgitatakse, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rolli määratud kasutajad saavad importida elektroonilise aruandluse (ER) konfiguratsiooni uue versiooni teenusest Microsoft Dynamics Lifecycle Services (LCS).
+description: Selles teemas kirjeldatakse, kuidas importida elektroonilise aruandluse (ER) konfiguratsiooni uus versioon teenusest Microsoft Dynamics Lifecycle Services (LCS).
 author: NickSelin
-manager: AnnBe
-ms.date: 09/14/2020
+ms.date: 06/17/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERSolutionRepositoryTable, ERSolutionImport
 audience: Application User
@@ -15,18 +13,21 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5c43cdce8d073f04a3158c8beb13a5376e669a4c
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: 05a8ad127df177c54e67ff1f2ddcd8b3a3f51ea12b6e11d087105bd74b6bdb3f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684447"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6712588"
 ---
 # <a name="import-a-configuration-from-lifecycle-services"></a>Konfiguratsiooni importimine teenusest Lifecycle Services
 
 [!include [banner](../../includes/banner.md)]
 
 Selles teemas selgitatakse, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rolli määratud kasutajad saavad importida [elektroonilise aruandluse (ER) konfiguratsiooni](../general-electronic-reporting.md#Configuration) uue versiooni teenuse Microsoft Dynamics Lifecycle Services (LCS) [projekti tasandi varade teegist](../../lifecycle-services/asset-library.md).
+
+> [!IMPORTANT]
+> LCS kasutamine elektroonilise aruandluse (ER) konfiguratsiooni talletushoidlana on [aegunud](../../../../finance/get-started/removed-deprecated-features-finance.md#features-removed-or-deprecated-in-the-finance-10017-release). Lisateavet vt jaotisest [Regulatory Configuration Service (RCS) – Lifecycle Services (LCS) ladustamise amortiseerimine](../../../../finance/localizations/rcs-lcs-repo-dep-faq.md).
 
 Selles näites valite soovitud ER-i konfiguratsiooni ja impordite selle näidisettevõttele Litware, Inc. Neid etappe saab läbida mis tahes ettevõttes, kuna ER-konfiguratsioonid on ettevõtete seas ühiskasutuses. Etappide lõpule viimiseks, peate esmalt läbima protseduuri [Konfiguratsiooni üleslaadimine teenusesse Lifecycle Services](er-upload-configuration-into-lifecycle-services.md) etapid. Samuti on nõutav juurdepääs LCS-ile.
 
@@ -103,3 +104,6 @@ Selles näites valite soovitud ER-i konfiguratsiooni ja impordite selle näidise
     Valige selles näites selle konfiguratsiooni versioon, mille olek on **Ühiskasutuses**.
 
     Pange tähele, et nüüd on saadaval ka valitud andmemudeli konfiguratsiooni ühiskasutatav versioon 1.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

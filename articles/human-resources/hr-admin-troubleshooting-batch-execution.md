@@ -7,6 +7,7 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
@@ -14,17 +15,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2021-03-19
 ms.dyn365.ops.version: Platform update 42
-ms.openlocfilehash: 859f039a928cdc57c9f227885d0f00ef79980f28
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: 906a391b3c28d15445f6ddf0fc547ebcf842ba19
+ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070396"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5881756"
 ---
 # <a name="reset-stuck-batch-jobs"></a>Kinni jäänud pakett-tööde lähtestamine
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -49,7 +47,7 @@ Kui pakett-töö on jäänud kinni **Teostamise** või **Tühistamise** olekusse
 
 5. Lehel **Vali uus olek** valige **Ootamine** ja seejärel valige **OK**.
 
-   ![Valige uus pakett-töö olek.](./media/hr-admin-reset-batch-job-status.png)
+   ![Valige uus pakett-töö olek](./media/hr-admin-reset-batch-job-status.png)
 
 ## <a name="see-also"></a>Vt ka
 

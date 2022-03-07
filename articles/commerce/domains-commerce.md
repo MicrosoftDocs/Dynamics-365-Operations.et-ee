@@ -1,30 +1,27 @@
 ---
-title: Domeenid teenuses Dynamics 365 Commerce
+title: Domeenid Dynamics 365 Commerce'is
 description: Selles teemas kirjeldatakse, kuidas käsitsetakse domeene teenuses Microsoft Dynamics 365 Commerce.
 author: BrShoo
-manager: AnnBe
-ms.date: 09/03/2020
+ms.date: 03/17/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: ''
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: BrShoo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: cb2b003168d32d05387bd45796d313736b11a41f
-ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
+ms.openlocfilehash: 0a494a36d1d8fa55521c416efd4262d860e1a708
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "4517351"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6022832"
 ---
-# <a name="domains-in-dynamics-365-commerce"></a>Domeenid teenuses Dynamics 365 Commerce
+# <a name="domains-in-dynamics-365-commerce"></a>Domeenid Dynamics 365 Commerce'is
 
 [!include [banner](includes/banner.md)]
 
@@ -41,7 +38,7 @@ E-kaubanduse keskkonna ettevalmistamisel teenuses [Microsoft Dynamics Lifecycle 
 
 Järgmisel joonisel on kujutatud LCS-i e-kaubanduse ettevalmistamise ekraan, kus on esile tõstetud väli **Toetatud hostinimed**. 
 
-![LCS-i e-kaubanduse ettevalmistamise ekraan koos esiletõstetud väljaga **Toetatud hostinimed**](./media/Domains_ProvisioningeCommerceScreen.png)
+![LCS-i e-kaubanduse ettevalmistamise ekraan koos esiletõstetud väljaga **Toetatud hostinimed**](./media/Domains_ProvisioningeCommerceScreen_publish.png)
 
 Kui ettevalmistamine on juba toimunud, saate luua hooldustaotluse lisadomeenide keskkonda lisamiseks. Teenusetaotluse loomiseks LCS-is tehke oma keskkonnas valikud **Tugi \> Toeprobleemid** ja valige **Edasta juhtum**.
 
@@ -154,13 +151,13 @@ Commerce'i esitatud Azure'i sisenemispunkti eksemplar ei toeta tippdomeene (juur
 
   [Uue e-kaubanduse rentniku juurutamine](deploy-ecommerce-site.md)
 
-  [Võrgupoe kanali häälestamine](online-stores.md)
+  [Võrgupoe kanali häälestamine](./channel-setup-online.md)
 
   [E-kaubanduse saidi loomine](create-ecommerce-site.md)
 
   [Dynamics 365 Commerce'i saidi seostamine võrgukanaliga](associate-site-online-store.md)
 
-  [robots.txt-failide haldamine](manage-robots-txt-files.md)
+  [Robots.txt-failide haldamine](manage-robots-txt-files.md)
 
   [Üleslaadimise URL suunab ümber hulgi](upload-bulk-redirects.md)
 
@@ -173,3 +170,6 @@ Commerce'i esitatud Azure'i sisenemispunkti eksemplar ei toeta tippdomeene (juur
   [Sisuedastusvõrgu (CDN) toe lisamine](add-cdn-support.md)
 
   [Asukohapõhise poetuvastuse lubamine](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

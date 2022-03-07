@@ -1,5 +1,5 @@
 ---
-title: Ostureskontro ja Müügireskontro välisvaluuta ümberarvutamine
+title: Ostureskontro ja müügireskontro valuuta ümberarvutamine
 description: Vahetuskursside kõikumised põhjustavad välisvaluutades avatud kannete teoreetilise väärtuse (raamatupidamisliku väärtuse) erinevusi ajas. See artikkel annab teavet välisvaluuta ümberarvutamise protsessi kohta, mida kasutatakse avatud kannete väärtuse uuendamiseks Ostureskontros ja Müügireskontros.
 author: kweekley
 manager: AnnBe
@@ -11,21 +11,20 @@ ms.technology: ''
 ms.search.form: CustExchRateAdjustment, VendExchRateAdjustment
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14211
 ms.assetid: defb1ea5-1f3e-4859-87d8-3f9954d3f388
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fb7a101fa9ef84ec3873bcd8054b8198db8d58c9
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ec17572612da7152ca0737cbd9f327d29dc54f8c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442504"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4985233"
 ---
-# <a name="foreign-currency-revaluation-for-accounts-payable-and-accounts-receivable"></a>Ostureskontro ja Müügireskontro välisvaluuta ümberarvutamine
+# <a name="currency-revaluation-for-accounts-payable-and-accounts-receivable"></a>Ostureskontro ja müügireskontro valuuta ümberarvutamine
 
 [!include [banner](../includes/banner.md)]
 

@@ -2,25 +2,27 @@
 title: Kasutage hankija arvete importimiseks elektroonilist arveldamisteenust
 description: See teema annab teavet selle kohta, kuidas importida hankijaarveid elektroonilise arvelduse teenuse abil.
 author: gionoder
-ms.date: 09/03/2021
+ms.date: 08/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: intro-internal
+ms.custom:
+- "97423"
+- intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: f3b3a27436d32cf25d09f368e4a32018d7559bf6
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: 434bf1f6a5a727a71592493b85ab166cbeff2f0980c2c968c99973a03f4dc660
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983819"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6751248"
 ---
 # <a name="use-the-electronic-invoicing-service-to-import-vendor-invoices"></a>Kasutage hankija arvete importimiseks elektroonilist arveldamisteenust
 
@@ -43,21 +45,13 @@ Konfigureerige e-posti konto kanal, kui teie loodud elektroonilise arveldamise f
 
 1. RCS-is valige loodud elektroonilise arvelduse funktsioon. Veenduge, et valite versiooni olekuga **Mustand**.
 2. Vahekaardil **Häälestus** ruudustikus valige päringu seadistus ja seejärel valige **Redigeeri**.
-3. Sisestage **Andmekanal** vahekaardi **Parameetrid** väljagrupi **Andmekanal** väljal kanali nimi. Kanali nimi ei tohi olla suurem kui kümme tähemärki.
-4. Väljale **Serveri aadress** sisestage konto pakkuja meiliaadress. Näiteks serveri aadress **https://outlook.live.com/** jaoks on **imap-mail.outlook.com**.
-5. Valige **serveri port** väli ja sisestage meilikonto pakkuja kasutatav port. Näiteks serveri port **https://outlook.live.com/** jaoks on **993**.
-6. Väljal **kasutajanime saladus** sisestage võtmehoidla saladus, mis sisaldab meili kasutajakonto ID-d. See saladus tuleb luua Azure'i võtme hoidlas ja seadistada oma teenuse keskkonnas. 
-7. Väljal **kasutaja salasõna saladus** sisestage võtmehoidla saladus, mis sisaldab meili kasutajakonto salasõna.
-8. Valikuline - Sisestage väärtused **Filtrist**, **Teema filter** ja **Kuupäevafilter**.
-9. Sisestage nende meiliboksikaustade nimed, kus e-kirjad saavad olla:
-
-    - Imporditud: **põhikaustast**
-    - Salvestatud pärast edukat töötlemist: **arhiivikaust**
-    - Salvestatud pärast mitte edukat töötlemist: **Veakaust** Nende kaustade loomiseks meiliboksis pole vaja. Kaustad luuakse automaatselt pärast e-arve esmast importimist ja töötlemist. 
-   
-10. Lisage **manusefiltri** väljagrupile faili filtreerimisteave. Töödeldakse ainult neid manuseid, mis rahuldavad määratletud filtrit. Näiteks saate seadistada "\*.xml-laiendiga manuste jaoks. Manuse nime kasutatakse seadistuses Dynamics 365 Finance või Dynamics 365 Supply Chain Management selle ajal. 
-11. Vahekaardil **Kohaldatavusreeglid** vaadake kriteeriumid üle ja vajadusel värskendage neid. Väli **Kanal** peab võrdne olema varem antud **andmekanaliga**. Lisateavet vt jaotisest [Kohaldatavuse reeglid](e-invoicing-configuration-rcs.md#applicability-rules).
-12. Valige **Salvesta** ja sulgege leht.
+3. vahekaardil **Andmekanal** väljal **Parameetrid** valige **Serveri aadress** ja sisestage e-posti konto pakkuja.
+4. Valige **serveri port** ja sisestage meilikonto pakkuja kasutatav port.
+5. Valige **kasutajanime saladus** ja sisestage võtmehoidla saladus, mis sisaldab meili kasutajakonto ID-d.
+6. Valige **kasutajanime saladus** ja sisestage võtmehoidla saladus, mis sisaldab meili kasutajakonto parooli.
+7. Valige **teemafilter**. Vaadake üle ja värskendage stringi, mis sisaldab vaikemeili, et tuvastada meil, mis sisaldab importimiseks elektroonilist hankija arvet.
+8. Vahekaardil **Kohaldatavusreeglid** vaadake kriteeriumid üle ja vajadusel värskendage neid. Lisateavet vt jaotisest [Kohaldatavuse reeglid](e-invoicing-configuration-rcs.md#applicability-rules).
+9. Valige **Salvesta** ja sulgege leht.
 
 ### <a name="configure-a-microsoft-sharepoint-channel"></a>Microsoft SharePoint kanali konfigureerimine
 
@@ -77,10 +71,10 @@ Konfigureerige Microsoft SharePoint kanal, kui elektroonilise arveldamise funkts
 
 Elektroonilise arveldamise funktsiooni juurutamiseks vaata [Juurutage elektroonilise arvelduse lisandmoodul teenuse keskkonda](e-invoicing-get-started.md#deploy-the-electronic-invoicing-feature-to-service-environment).
 
-## <a name="set-up-vendor-invoice-import-in-finance-or-supply-chain-management"></a>Hankija arve impordi seadistamine rakendustes Finance või Supply Chain Management
+## <a name="set-up-vendor-invoice-import-in-finance-and-supply-chain-management"></a>Hankija arve impordi seadistamine rakendustes Finance ja Supply Chain Management
 Viige järgmised kaks jaotist läbi erinevate hankijaarvete impordi tüüpide häälestamiseks.
 
-### <a name="import-brazilian-nf-e-from-email"></a>Brasiilia NF-e import meilist
+### <a name="import-vendor-invoices-from-email"></a>Hankija arvete importimine meilist
 
 1. Logige oma Finance või Supply Chain Management keskkonda sisse ja veenduge, et oleksite õiges juriidilises isikus.
 2. Avage **Organisatsiooni halduses** > **Seadistus** > **Elektroonilise dokumendi parameetrid**.
@@ -104,43 +98,30 @@ Viige järgmised kaks jaotist läbi erinevate hankijaarvete impordi tüüpide h�
 ### <a name="import-peppol-electronic-vendor-invoices"></a>PEPPOL elektroonilise hankija arvete importimine
 
 1. Tööruumis **Elektrooniline aruandlus** valige paan **Aruandluse konfiguratsioonid**.
-2. Valige **kliendiarve kontekstimudel** ja seejärel valige tuletatud konfiguratsiooni loomiseks suvand **Loo konfiguratsioon** > **Tuletatud nimest: kliendiarve kontekstimudel, Microsoft**.
-3. **Mustand** versioonis valige **Kujundaja** ja **Andmemudel** puus valige seejärel **andmeallikale vastendamismudel**.
-4. Valige **definitsioonid** puus **Andmekanal** ja seejärel käsk **Kujundaja**.
-5. **Andmeallikate** puus laiendage **$Context\_Kanal** konteiner. Valige **Väärtus** väljal suvand **Redigeeri** ja sisestage andmekanali nimi. Sisestage väljale kanal antud elektroonilise arveldamise funktsiooni andmekanali konfiguratsiooniks RCS-s. 
+2. Valige **kliendiarve kontekstimudel** ja looge tuletatud konfiguratsioon.
+3. Valige **mustand** versioonis suvand **Kujundaja**.
+4. Valige **andmemudeli** puus **kliendiarve** ja seejärel valige **andmeallikale vastendamismudel**.
+5. Valige **definitsiooni** puus **KliendiArve** ja seejärel käsk **Kujundaja**.
+6. Puus **Andmeallikad** valige suvand **Väli\_Kanal**. Valige **väärtus** väljal **PEPPOL**. Sisestage väljale kanal antud elektroonilise arveldamise funktsiooni andmekanali konfiguratsiooniks RCS-s. 
 7. Valige **Salvesta** ja sulgege leht.
 8. Sulgege leht.
-9. Valige äsja loodud tuletatud konfiguratsioon ja valige **kliendiarve kontekstimudelist** ja **Versioonid** kiirkaardilt valige **Muutke olekut** > **lõpetatud**.
+9. Valige **kliendiarve kontekstimudel** ja valige **Versioonid** kiirkaardil suvand **Muuda olekut** > **lõpetatud**.
 10. Minge **organisatsiooni halduse** > **seadistus** > **elektroonilise dokumendi parameetrid** ja **Funktsioonid** vahekaardil veenduge, et **PEPPOL Globaalne elektrooniline arveldus** on valitud. 
 11. Valige **Väliskanalid** vahekaardil **Kanalid** väljagrupis suvand **Lisa**.
-12. Sisestage andme kanali nimetus **Kanal** väljale ja lisage kirjeldus **Kirjeldus** väljale.
-13. Väljas **Ettevõte** valige juriidiline isik. 
-14. Valige **dokumendi konteksti** väljal uus tuletatud konfiguratsioon **kliendiarve kontekstimudelis**. Vastendamise kirjeldus peaks olema **andmekanali kontekst**.
-15. Väljagrupis **Impordi allikad** valige käsk **Lisa**.
-16. Väljale **Nimi** sisestage **Manuste filtri nimi** ja valige **andmeüksuse nime** väljal **Hankija arve päis**.
-17. Valige **mudeli vastendamise** väljal **hankija arve import - importige hankija arve**.
-18. Klõpsake nuppu **Salvesta** ja sulgege seejärel leht.
+12. Sisestage **Kanal** väljale **PEPPOL**. Väljale **Kirjeldus** sisestage kirjeldus.
+13. Väljas **Ettevõte** valige juriidiline isik. Valige väljal **Dokumendi kontekst** suvand **Kliendi arve sisu – kliendi arve konteksti mudel**.
+14. Valige **Salvesta** ja sulgege seejärel leht.
 
 
 ## <a name="receive-electronic-invoices"></a>Elektrooniliste arvete vastuvõtmine
-
-Elektroonilise arveldamise teenus täidab kaks sammu arve importimise ajal andmekanalitest:
-
-1. Pääseb e-kirja boksi ja loeb e-posti.
-2. Töötleb e-kirjad. 
-    
-Nende kahe etapi sooritamiseks peab klient teenuse iga sammu jaoks käsitsi välja kutsuma. Siiski soovitame seadistada partii elektrooniliste dokumentide vastuvõtuks.
-
 Et saada elektrooniisi arveid, järgige neid samme:
 
 1. Avage **Organisatsiooni haldus** > **Perioodiline** > **Elektroonilised dokumendid** > **Võta vastu elektroonilised dokumendid**.
 2. Valige **Ok** ja sulgege seejärel leht.
 
-
 ## <a name="view-receive-logs-for-electronic-invoices"></a>Elektrooniliste arvete vastuvõtulogide kuva
 
 Elektrooniliste arvete vastuvõtulogide vaatamiseks minge **organisatsiooni administreerimise** > **perioodiline** > **Elektroonilised dokumendid** > **Elektrooniliste dokumentide vastuvõtu logi**.
-Kui te ei näe edukalt töödeldud arveid, eemaldage tabelifilter.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

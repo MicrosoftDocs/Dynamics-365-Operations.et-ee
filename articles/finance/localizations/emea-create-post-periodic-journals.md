@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: LedgerJournalTable
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 261354
 ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 5ea11e94c188c04c6d3d8ab0173fcc2ba56335c3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 976175671ec5ee36f80ba2b2c787a67c18a9b769
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407861"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5236302"
 ---
 # <a name="split-periods-in-periodic-journals"></a>Perioodide tükeldamine perioodilistes töölehtedes
 
@@ -48,3 +47,6 @@ Näiteks kvartalipõhiste sisestuste loomiseks sisestage väljale **Perioodide a
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

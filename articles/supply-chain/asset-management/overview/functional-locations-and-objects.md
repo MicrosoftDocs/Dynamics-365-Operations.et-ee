@@ -1,12 +1,10 @@
 ---
 title: Funktsionaalsed asukohad ja varad
 description: Selles teemas kirjeldatakse funktsionaalseid asukohti ja varasid varahalduses. Varahaldus on täpsem moodul varade ja hooldustööde haldamiseks rakenduses Dynamics 365 Supply Chain Management.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 06/24/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2f93a68f19b0b952eb2964b404bb957865c625cd
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
-ms.translationtype: HT
+ms.openlocfilehash: e0bf90d99a8bd093817f9e804e8075e779428f1fadb3128c5a455ca839dece55
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5018042"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6750144"
 ---
 # <a name="functional-locations-and-assets"></a>Funktsionaalsed asukohad ja varad
 
@@ -36,13 +34,13 @@ Selles teemas kirjeldatakse funktsionaalseid asukohti ja varasid varahalduses. V
 
 Varahaldus on integreeritud sujuvalt mitme mooduliga koos muude Finance and Operationsi rakendustega. Järgmisel joonisel on kujutatud liidesed teiste moodulitega.
 
-![Diagramm, mis näitab, kuidas varahaldus liidestub teiste moodulitega](media/01-overview-image.png)
+![Diagramm, mis näitab, kuidas varahaldus liidestub teiste moodulitega.](media/01-overview-image.png)
 
 Varahaldus võimaldab teil tõhusalt hallata ja sooritada kõiki ülesandeid, mis on seotud teie ettevõtte mitut tüüpi seadmete haldamise ja hooldamisega. See varustus hõlmab masinaid, tootmisseadmeid ja sõidukeid. Varahaldus toetab lahendusi paljudes tööstusharudes.
 
 Järgmisel joonisel on ülevaade varahalduse põhifunktsioonidest.
 
-![Diagramm, mis näitab varahalduse põhifunktsioone](media/02-overview-image.png)
+![Diagramm, mis näitab varahalduse põhifunktsioone.](media/02-overview-image.png)
 
 ## <a name="functional-locations-and-assets"></a>Töö asukohad ja varad
 
@@ -52,8 +50,11 @@ Varakulud järgivad alati vara asukohta. Teisisõnu, kui installite vara uuele f
 
 Funktsionaalsete asukohtade hierarhia ehitamine sõltub teie ettevõtte nõuetest sisemise varustuse hoidmise või kliendiseadmete teenindamise jaoks. Järgmisel joonisel on näide funktsionaalsetest asukohtadest, mis põhinevad geograafilistel asukohtadel.
 
-![Diagramm, mis näitab töö asukohti geograafiliste asukohtade põhjal](media/03-overview-image.png)
+![Diagramm, mis näitab töö asukohti geograafiliste asukohtade põhjal.](media/03-overview-image.png)
 
 Järgmisel joonisel on näide funktsionaalsetest asukohtadest, mis põhinevad kliendid.
 
-![Diagramm, mis näitab töö asukohti klientide põhjal](media/04-overview-image.png)
+![Diagramm, mis näitab töö asukohti klientide põhjal.](media/04-overview-image.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

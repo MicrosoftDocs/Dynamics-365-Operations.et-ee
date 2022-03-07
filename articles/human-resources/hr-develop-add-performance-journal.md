@@ -2,7 +2,7 @@
 title: Jõudluse töölehele kirje lisamine ja teistele tänu saatmine
 description: Jõudluse töölehel on teave, mis on seotud sellega, kuidas olete oma eesmärke saavutanud või millised on teie tulemused mingil perioodil.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -11,19 +11,21 @@ ms.technology: ''
 ms.search.form: EssWorkspace, HcmPerfJournal, HcmPerfJournalAddLink, HcmPerfPraise, HcmWorkerLookUpByPerson, HcmPerfJournalAdd, HcmEmployeeDevelopmentWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a2a90a5f746e49e1a5df9910867e8cd35feb1147
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a865ee37ed650c564961f6b3dd8773eea4f7b9ea
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418094"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5465626"
 ---
 # <a name="add-to-your-performance-journal-and-send-praise-to-someone"></a>Jõudluse töölehele kirje lisamine ja teistele tänu saatmine
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Jõudluse töölehel on teave, mis on seotud sellega, kuidas olete oma eesmärke saavutanud või millised on teie tulemused mingil perioodil. Töölehe kaudu saab ka kolleegi tegevusi kiita. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid. See protseduur on funktsiooni kohta, mis lisati rakenduse Dynamics 365 for Operations versioonis 1611.
 
@@ -54,3 +56,6 @@ Jõudluse töölehel on teave, mis on seotud sellega, kuidas olete oma eesmärke
 20. Sisestage väljale Kirjeldus tekst „Aitäh abi eest konverentsil!”.
 21. Klõpsake käsku Saada.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

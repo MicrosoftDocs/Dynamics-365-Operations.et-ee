@@ -2,27 +2,24 @@
 title: Jaemüügi hinna haldamine
 description: Selles teemas kirjeldatakse müügihindade loomise ja haldamise põhimõtteid rakenduses Dynamics 365 Commerce.
 author: ShalabhjainMSFT
-manager: AnnBe
 ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-retail
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a90f5706c87d398f495fae40f42f6c2d408b1c2a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 85f6188bff4d3535369e4af145f8f55a3263c4a3
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411550"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5794159"
 ---
 # <a name="retail-sales-price-management"></a>Retaili müügihinna haldamine
 
@@ -240,3 +237,6 @@ Peale selle toetab järgmisi hinnakujunduse funktsioone **ainult** hinnakujundus
 Hind on üks kõige tähtsamaid tegureid, mis juhivad klientide ostuotsuseid, ja paljud kliendid võrdlevad enne ostu sooritamist hindu eri veebisaitidel. Selleks, et tagada konkurentsivõimeliste hindade pakkumine, jälgivad jaemüüjad hoolikalt oma konkurente ning korraldavad sageli kampaaniaid. Aitamaks jaemüüjatel kliente ligi meelitada, on seega väga oluline, et toote otsingu lehel, sirvimise funktsiooni puhul ning toote üksikasjade lehel kuvataks kõige täpsemaid hindu.
 
 Rakenduse Commerce tulevases väljalaskes esitab rakenduse programmeerimisliides (API) **GetActivePrices** hindu, mis kaasavad lihtsaid allahindlusi (näiteks ühe rea allahindlused, mis ei sõltu muudest ostukorvis olevatest kaupadest). Sellisel moel on kuvatud hinnad sarnasemad tegeliku summaga, mida kliendid kaupade eest maksavad. See API kaasab kõiki lihtsate allahindluste tüüpe: alluvus-, püsikliendi-, kataloogi- ja kanalipõhised allahindlused. Peale selle esitab see API rakendatud allahindluste nimed ja kehtivusteabe, nii et jaemüüjad saavad pakkuda üksiksasjalikumat hinnakirjeldust ning rõhutada kiireloomulisust, kui allahindluse kehtivus peagi aegub.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

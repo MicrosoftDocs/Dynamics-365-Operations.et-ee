@@ -2,16 +2,13 @@
 title: Demoandmete ekraanipaigutused kaasaegses kassas (MPOS) ja pilve kassas
 description: See teema sisaldab teavet ekraanipaigutuste kohta, mis on kaasas Dynamics 365 Commercei kassa demoandmetega.
 author: josaw1
-manager: AnnBe
 ms.date: 10/05/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailTillLayout
 audience: Application user
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +16,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2017-10-05
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 935e1a550160515e2c325c39eab86be3b9fa5394
-ms.sourcegitcommit: d82f319cf7dd26c93a3fd342de4fd537272fa8d2
-ms.translationtype: HT
+ms.openlocfilehash: c141325580d698cccc7d186496a0902913961d47764b93fa73c64c3eddf6e791
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "4411830"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6761658"
 ---
 # <a name="demo-data-screen-layouts-in-modern-pos-mpos-and-cloud-pos"></a>Demoandmete ekraanipaigutused kaasaegses kassas (MPOS) ja pilve kassas
 
@@ -36,13 +33,13 @@ See teema sisaldab teavet ekraanipaigutuste kohta, mis on kaasas Dynamics 365 Co
 
 Commerce'i demoandmetega kaasas olevad ekraanipaigutuste näidised hõlmavad sisu, mis on optimeeritud mitmesuguste kaubandussegmentide, kaupluse töötajate rollide ja seadmete jaoks. Üks paigutus võib sisaldada eri suuruses paigutusi ja nupupaneelide kombinatsioone, et tagada ühilduvus, kui kaupluse töötajad kasutavad eri seadmeid ja jaamu. Teemas tõstetakse esile paigutuste erinevused, üldine kasutuskogemus ja nendes saadaolevad operatsioonid.
 
-![Seadmeüleste demoandmete paigutused](../commerce/media/demo-screen-layouts-fig-1-1.png)
+![Seadmeüleste demoandmete paigutused.](../commerce/media/demo-screen-layouts-fig-1-1.png)
 
 ## <a name="anatomy-of-a-screen-layout-id"></a>Ekraanipaigutuse ID anatoomia
 
 Ekraanipaigutuste leidmiseks avage jaotis **Jaemüük ja kaubandus** \> **Kanali seadistus** \> **Kassa seadistus** \> **Kassa** \> **Ekraanipaigutused**.
 
-![Ekraanipaigutuste leht](../commerce/media/demo-screen-layouts-fig-2-1.png)
+![Ekraanipaigutuste leht.](../commerce/media/demo-screen-layouts-fig-2-1.png)
 
 Ekraanipaigutuse ID võib sisaldada kuni 10 märki. ID on string, mis koosneb kolme tüüpi teabest järgmises järjekorras.
 
@@ -55,7 +52,7 @@ Ekraanipaigutuse ID võib sisaldada kuni 10 märki. ID on string, mis koosneb ko
 | Kiri | Ettevõte         |
 |--------|-----------------|
 | A      | Adventure Works |
-| F      | Fabrikam        |
+| R      | Fabrikam        |
 | C      | Contoso         |
 
 ### <a name="layout-version"></a>Paigutuse versioon
@@ -82,7 +79,7 @@ F4MGR
 
 Järgmisel joonisel on Fabrikami kaupluse juhataja tervitusekraani näide.
 
-![Fabrikami kaupluse juhataja tervitusekraan](../commerce/media/demo-screen-layouts-fig-2-2.png)
+![Fabrikami kaupluse juhataja tervitusekraan.](../commerce/media/demo-screen-layouts-fig-2-2.png)
 
 ## <a name="layout-sizes"></a>Paigutuse suurused
 
@@ -111,7 +108,7 @@ Järgmine tabel näitab paigutuste suurusi, mis on saadaval ekraani tüüpiliste
 > [!TIP]
 > POS valib paigutuste suurused automaatselt olenevalt sellest, milline suurus on lähim rakenduse praeguse akna eraldusvõimele. Praegu kasutatava ekraanipaigutuse ID ja paigutuse eraldusvõime leidmiseks avage kaasaegses kassaas või Retail'i pilve kassas leht **Sätted** ja vaadake jaotist **Seansi teave**. Samuti näete praeguse rakenduse või brauseripaneeli akna tegelikku eraldusvõimet. Pärast selle teabe hankimist võite jaotises Retaili paigutuse sisu allika leidmiseks avada jaotise **Kanali seadistus** \> **Kassa seadistus** \> **Kassa** \> **Ekraanipaigutused**.
 
-![Ekraanipaigutused ja paigutuste eraldusvõimed/suurused Commerce'is ja kassas](../commerce/media/demo-screen-layouts-fig-3-1.png)
+![Ekraanipaigutused ja paigutuste eraldusvõimed/suurused Commerce'is ja kassas.](../commerce/media/demo-screen-layouts-fig-3-1.png)
 
 ## <a name="companies-and-brands"></a>Ettevõtted ja kaubamärgid
 
@@ -132,19 +129,19 @@ Järgmised joonised hõlmavad kolme fiktiivse ettevõtte tervituslehe ja kandele
 
 ### <a name="adventure-works"></a>Adventure Works
 
-![Adventure Worksi tervituslehe demoandmed](../commerce/media/demo-screen-layouts-fig-4-1a.png)
+![Adventure Worksi tervituslehe demoandmed.](../commerce/media/demo-screen-layouts-fig-4-1a.png)
 
-![Adventure Worksi kandelehe demoandmed](../commerce/media/demo-screen-layouts-fig-4-1b.png)
+![Adventure Worksi kandelehe demoandmed.](../commerce/media/demo-screen-layouts-fig-4-1b.png)
 
 ### <a name="fabrikam"></a>Fabrikam
 
-![Fabrikami tervituslehe demoandmed](../commerce/media/demo-screen-layouts-fig-4-2a.png)
+![Fabrikami tervituslehe demoandmed.](../commerce/media/demo-screen-layouts-fig-4-2a.png)
 
-![Fabrikami kandelehe demoandmed](../commerce/media/demo-screen-layouts-fig-4-2b.png)
+![Fabrikami kandelehe demoandmed.](../commerce/media/demo-screen-layouts-fig-4-2b.png)
 
 ### <a name="contoso"></a>Contoso
 
-![Contoso demoandmete paigutused](../commerce/media/demo-screen-layouts-fig-4-3.png)
+![Contoso demoandmete paigutused.](../commerce/media/demo-screen-layouts-fig-4-3.png)
 
 ## <a name="user-sign-in-matrix"></a>Kasutaja sisselogimise maatriks
 
@@ -171,8 +168,11 @@ Ekraanipaigutuste jaoks on lisatud kasutajad. Järgmise tabeli abil peaksite saa
 
 <!-- The screen layouts, button grids, and visual profiles were created using images and icons that can be found in **Retail and Commerce \> Channel setup \> POS setup \> POS \> Images**. -->
 
-<!-- ![Images in Dynamics 365 Commerce](../commerce/media/demo-screen-layouts-fig-5-1.png) -->
+<!-- ![Images in Dynamics 365 Commerce.](../commerce/media/demo-screen-layouts-fig-5-1.png) -->
 
 <!-- Use the [POS Icon and Image Mapping](../commerce/media/POS_Icon_and_Image_Mapping.xlsx) reference spreadsheet to locate operation icons, reference photos, swap logos, or provide new images of your own that can be referenced in custom designs. -->
 
 <!-- END HIDDEN CONTENT -->
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

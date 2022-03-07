@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: EcoResCategorySearchList, EcoResAttribute, COODualUseCategories, EcoResProductCategory, EcoResCategoryAddProduct, EcoResAttributeValue
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: ''
 ms.assetid: c7ed2ba5-87c6-4d99-9728-2a83e6d95ca9
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2017-09-01
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 9d47a866703b830e84e3f2e37a02d9d58f73987b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 95a4bac6beeaf5fad449027d93132fc1499288a0
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411641"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5215482"
 ---
 # <a name="manage-product-categories-and-products"></a>Tootekategooriate ja toodete haldamine
 
@@ -57,3 +56,6 @@ Lisaks saab tootejuht täiustatud tootekategooria struktuuris määrata nüüd v
 Saate uut tooteatribuutide täiustatud struktuuri kasutada selleks, et valida, millised värskendatud tooteatribuudid tuleb seotud toodetele tõugata. Valige lehe **Commerce'i tootehierarhia** tegumiribalt **Kategooria** ja seejärel dialoogiboksi **Värskenda tooteid** avamiseks **Värskenda tooteid**.
 
 ![Dialoogiboks Värskenda tooteid](media/NewUpdateProductsEnhancedView.PNG)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

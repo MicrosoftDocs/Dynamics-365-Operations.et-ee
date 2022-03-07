@@ -2,36 +2,30 @@
 title: 4xx/5xx olekukoodi tõrgete jaoks kohandatud vastuselehtede loomine
 description: Selles teemas kirjeldatakse, kuidas luua kohandatud vastuse lehekülgi 4xx ja 5xx olekukoodi tõrgete jaoks, kasutades rakenduse Microsoft Dynamics 365 Commerce autoriseerimise tööriistu.
 author: v-chgri
-manager: annbe
 ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
-ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 060f5e5616624279711f61f582e6a898c7eb7785
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 16cd6c3dab5502826119b6a517414d23e168e79708e306897b04c7ba8c80404b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411643"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6741137"
 ---
 # <a name="build-custom-response-pages-for-4xx5xx-status-code-errors"></a>4xx/5xx olekukoodi tõrgete jaoks kohandatud vastuselehtede loomine
-
 
 [!include [banner](includes/banner.md)]
 
 Selles teemas kirjeldatakse, kuidas luua kohandatud vastuse lehekülgi 4xx ja 5xx olekukoodi tõrgete jaoks, kasutades rakenduse Microsoft Dynamics 365 Commerce autoriseerimise tööriistu.
-
-## <a name="overview"></a>Ülevaade
 
 Kui taotlus ei ole edukas, väljastab server HTTP olekukoodi tõrkevastused. Kui lehte ei leita, hõivatakse ja tagastatakse olekukood 404, ning serveritõrke ilmnemisel hõivatakse ja tagastatakse olekukood 500. Rakenduses Dynamics 365 Commerce saavad rakenduse kasutajad luua kohandatud olekukoodi tõrkevastuse lehti, mis kuvatakse nende olekukoodi tõrkevastuste kasutajatele.
 
@@ -83,3 +77,6 @@ Olekukoodi tõrkevastuse lehe ümbersuunamise määramiseks toimige järgmiselt.
 [Uue saidilehe lisamine](add-new-page.md)
 
 [Lehe URL-i loomine](create-page-url.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,29 +1,28 @@
 ---
 title: Käibemaksu ülevaade
 description: Selles teemas antakse ülevaade käibemaksu süsteemist. Selgitatakse käibemaksu seadistamise elemente ja kuidas need koos töötavad.
-author: ShylaThompson
-manager: AnnBe
+author: kailiang
 ms.date: 10/28/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxAuthority, TaxPeriod, TaxTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
-ms.custom: 13111
+ms.custom:
+- "13111"
+- intro-internal
 ms.assetid: fe5fdc7f-9834-49fb-a611-1dd9c289619d
 ms.search.region: Global
-ms.author: roschlom
+ms.author: kailiang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a3dacc755b3d4d3b5c7f51f6bac7c2e9c62773ba
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2aa1f3f261459bca9321e0f71ac328ac0734b96f
+ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442418"
+ms.lasthandoff: 10/31/2021
+ms.locfileid: "7726831"
 ---
 # <a name="sales-tax-overview"></a>Käibemaksu ülevaade
 
@@ -31,14 +30,13 @@ ms.locfileid: "4442418"
 
 Selles teemas antakse ülevaade käibemaksu süsteemist. Selgitatakse käibemaksu seadistamise elemente ja kuidas need koos töötavad.
 
-<a name="overview"></a>Ülevaade
---------
+## <a name="overview"></a>Ülevaade
 
 Käibemaksuraamistik toetab mitmeid kaudsete maksude tüüpe, nt müügimaksu, käibemaksu (KM), kaupade ja teenuste maksu (GST), ühikupõhiseid tasusid ja kinnipeetavat maksu. Need maksud arvutatakse ja dokumenteeritakse ostu- ja müügikande tegemise ajal. Nende kohta tuleb regulaarselt aruandeid esitada ja neid maksuametile tasuda. 
 
 Järgmisel diagrammil on näidatud maksuseadistuse üksused ja nendevahelised seosed.
 
-[![Maksuseadistuste üksuste ülevaadet näitav diagramm](./media/taxoverview1-300x209.jpg)](./media/taxoverview1.jpg) 
+[![Maksuseadistuste üksuste ülevaadet näitav diagramm.](./media/taxoverview1-300x209.jpg)](./media/taxoverview1.jpg) 
 
 Iga käibemaksu puhul, mille kohta ettevõte peab aru andma, tuleb määratleda käibemaksukood. Käibemaksukood talletab maksumäärad ja käibemaksu arvutamise reeglid. 
 
@@ -97,3 +95,6 @@ Kuid kui kasutate tingimuslikku käibemaksu, siis tasakaalustatakse summa maksuh
 Kui kasutate makse loomisel makseviisina hilisema kuupäevaga dateeritud tšekki, siis pangakontot ei seota. Mõnes riigis muutub käibemaks "realiseeritud" kohustiseks, kui makse seob panga, mis tähendab, et hilisema kuupäevaga dateeritud tšekk on tasakaalustatud. Saate selle lubada, kui valite **Tingimusliku maksu realiseerimine hilisema kuupäevaga dateeritud tšeki mahaarvamisel** asukohas **Sularaha- ja pangahaldus > Seadistus > Sularaha- ja pangahalduse parameetrid > Hilisema kuupäevaga dateeritud tšekid**.
 
 Lisateavet leiate teemast [Kinnipeetava maksu määramine](tasks/set-up-withholding-tax.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

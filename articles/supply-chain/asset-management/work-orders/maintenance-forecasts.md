@@ -1,12 +1,10 @@
 ---
 title: Hooldusprognoosid
 description: Selles teemas tutvustatakse hooldusprognoose varahalduses.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderForecastToJournals, EntAssetWorkOrderForecast
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c60834a1f818b142a0f2f022d66fe1f42edeb536
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: dd652af3100f8de59e06490443baeebca58a4dd3
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5020857"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5838534"
 ---
 # <a name="maintenance-forecasts"></a>Hooldusprognoosid
 
@@ -123,3 +121,6 @@ Kui tunnikulud, üksuse kulud ja kulud värskendatakse Microsoft Dynamics 365 fo
 Alloleval joonisel kuvatakse dialoogi **Töökäsu prognooside värskendamine** näide.
 
 ![Joonis 2](media/07-work-orders.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

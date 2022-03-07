@@ -1,12 +1,10 @@
 ---
 title: Elektrooniline aruandlus. Dokumendihalduse failide kasutamine vormingu väljundites (5. osa – vormingu muutmine ja käivitamine)
-description: Järgmistes etappides selgitatakse, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rolli määratud kasutaja saab konfigureerida elektroonilise aruandluse (ER) vormingu dokumendihalduse failide (manuste) kasutamiseks elektroonilise aruandluse väljundis.
+description: Selles teemas kirjeldatakse, kuidas konfigureerida elektroonilise aruandluse (ER) vormingut kasutama ER-i väljundis dokumendihalduse faile (manused). (5. osa)
 author: NickSelin
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERSolutionTable, EROperationDesigner, ERComponentTypeDropDialog, ERExpressionDesignerFormula, SysQueryForm
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8b949c2629df0e9db8c11322c9d0d090b200edc2
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: 48175de4e58f9def15bf2bf8b10a1348036c88a1af284eb2a3e5f9fbefd649c1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681753"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6748396"
 ---
 # <a name="er-use-document-management-files-in-format-outputs-part-5---modify-and-run-format"></a>Elektrooniline aruandlus. Dokumendihalduse failide kasutamine vormingu väljundites (5. osa – vormingu muutmine ja käivitamine)
 
@@ -96,3 +94,6 @@ See protseduur on funktsiooni kohta, mis lisati rakenduse Dynamics 365 for Opera
 7. Klõpsake nuppu OK.
     * Vaadake loodud väljundit. Pange tähele, et lisaks XML-vormingus arve sõnumile on igale manusele loodud üks fail. Manuse failidele lisatakse zip-väljund binaarvormingus.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

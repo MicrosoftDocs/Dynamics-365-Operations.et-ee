@@ -2,7 +2,7 @@
 title: Adventure Worksi kujunduse installimine
 description: See teema kirjeldab, kuidas installida Adventure Worksi kujundust rakenduses Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 12/10/2021
+ms.date: 07/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: d9d0d04c1a698c765b5effcca88624e6fb99da64
-ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
-ms.translationtype: MT
+ms.openlocfilehash: ad704c6c3b95abcfd52e449a0ffbb4b82b236498ae8d2775c4e65811de3ef503
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/11/2021
-ms.locfileid: "7913698"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6763832"
 ---
 # <a name="install-the-adventure-works-theme"></a>Adventure Worksi kujunduse installimine
 
@@ -32,7 +32,7 @@ See teema kirjeldab, kuidas installida Adventure Worksi kujundust rakenduses Mic
 
 ## <a name="prerequisites"></a>Eeltingimused
 
-Enne Adventure Worksi kujunduse installimist peab teil olema Dynamics 365 Commerce keskkond (Commerce version 10.0.20 või uuem), mis sisaldab Retail Cloud Scale Unit (RCSU), Commerce online tarkvara arenduskomplekti (SDK) ja Commerce mooduli teeki. Lisateavet Commerce SDK ja moodulteegi installimise kohta vt [arenduskeskkonna seadistus.](e-commerce-extensibility/setup-dev-environment.md) 
+Enne Adventure Worksi kujunduse installimist peab teil olema Dynamics 365 Commerce keskkond (Commerce version 10.0.20 või uuem), mis sisaldab Retail Cloud Scale Unit (RCSU), Commerce online tarkvara arenduskomplekti (SDK) ja Commerce mooduli teeki. Lisateavet Commerce SDK ja moodulteegi installimise kohta vt [SDK- ja mooduliteegi uuendused](e-commerce-extensibility/sdk-updates.md). 
 
 ## <a name="installation-steps"></a>Installimisetapid
 
@@ -48,19 +48,11 @@ Adventure Worksi teemapakett on saadaval feedis **dynamics365-commerce** kui **@
 
     `"@msdyn365-commerce-theme:registry" "https://pkgs.dev.azure.com/commerce-partner/Registry/_packaging/dynamics365-commerce/npm/registry/"`  
     
-Paketi installimiseks kohalikus keskkonnas käivitage käsuviibalt käsk, THEME_PACKAGE on teemapakett `yarn add THEME_PACKAGE@VERSION`**·** (@msdyn365-commerce-theme/adventureworks-theme-kit) ja VERSIOON on kasutatava moodulteegi **versiooninumber**. On oluline, et kujunduspaketi ja moodulteegi versioonid ühtiksid. Õige moodulteegi versiooninumbri leidmiseks avage fail package.json ja leidke sõltuvuste sektsioonist **algutaja** **pakkeväärtus**. Järgmises näites kasutab fail package.json versiooni 9.32 moodulteegist, mis vastendab Dynamics 365 Commerce versiooni 10.0.22 väljalaskega.  
+Paketi installimiseks kohalikus keskkonnas käivitage käsuviibalt järgmine käsk. See käsk uuendab faili package.json automaatselt nii, et see sisaldaks sõltuvust.
 
-```json
-"dependencies": {
-    "@msdyn365-commerce-modules/starter-pack": "9.32",
-}
-```
+`yarn add @msdyn365-commerce-theme/adventureworks-theme-kit`
 
-Järgmine näide näitab, kuidas käitada käsku Lisada Adventure Worksi kujunduse `yarn add` versiooni 9.32. Käsk uuendab faili package.json automaatselt nii, et see hõlmab sõltuvust.
-
-`yarn add @msdyn365-commerce-theme/adventureworks-theme-kit@9.32`
-
-Lisateavet moodulteegi versiooni uuendamise kohta vt [SDK- ja moodulteegi](e-commerce-extensibility/sdk-updates.md) värskendustest. 
+Failis **package.json** peaksite värskendama kujunduse versiooni konkreetseks versiooniks.
 
 > [!IMPORTANT]
 > - Kujunduse versioon peab vastama moodulteegi versioonile, et tagada kõigi funktsioonide eeldatav töö. 

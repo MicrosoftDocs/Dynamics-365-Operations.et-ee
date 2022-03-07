@@ -2,15 +2,12 @@
 title: Suhtlussaidil jagamise moodul
 description: See teema hõlmab suhtlussaidil jagamise mooduleid ja kirjeldab, kuidas neid rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
 author: anupamar-ms
-manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,20 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 82a8795360f453cdee19fa6e9e376a42e8276849
-ms.sourcegitcommit: 510ca8b14d8b5334e50aca1b15d636c65fcc9888
+ms.openlocfilehash: c34410a8c817de9fed350bf2cd2dd918a37c230f
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4411804"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5795353"
 ---
-# <a name="social-share-module"></a>Suhtlussaidil jagamise moodul
+# <a name="social-share-module"></a>Sotsiaalmeedias jagamise moodul
 
 [!include [banner](includes/banner.md)]
 
 See teema hõlmab suhtlussaidil jagamise mooduleid ja kirjeldab, kuidas neid rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
-
-## <a name="overview"></a>Ülevaade
 
 Suhtlussaidil jagamise moodulid võimaldavad kasutajatel jagada e-kaubanduse saidi URL-e sotsiaalmeedias (nt Facebook, Twitter, Pinterest ja LinkedIn). Saidi URL-e saab jagada ka meili teel. Suhtlussaidil jagamise mooduleid kasutatakse tavaliselt toote üksikasjade lehtedel (PDP-d), et aidata kasutajatel toote teavet jagada.
 
@@ -82,3 +77,6 @@ Suhtlussaidil jagamise mooduli lisamiseks ostukasti moodulile tehke järgmist.
 [Ostukastimoodul](add-buy-box.md)
 
 [Küpsise vastavus](cookie-compliance.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

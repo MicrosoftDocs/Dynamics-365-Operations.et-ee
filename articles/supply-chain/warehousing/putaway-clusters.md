@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: d5aa579394a0e3bd4c27cd44c9ff98951b3bfe1c
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
-ms.translationtype: MT
+ms.openlocfilehash: c3496d43fa3791f765abfb1eb25c45f1f21b972f
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103659"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7573005"
 ---
 # <a name="putaway-clusters"></a>Ladustatavad kogumid
 
@@ -25,9 +25,12 @@ ms.locfileid: "8103659"
 
 Kogumite ladustamine pakub võimalust komplekteerida mitu identifitseerimisnumbrit samal ajal ja seejärel neid erinevates asukohtades ladustada. Seda protsessi nimetatakse sageli *veoringiks*. Ladustatavad kogumid võivad olla väga kasulikud jaemüügi ettevõtetele, kus identifitseerimisnumbrid ei ole tavaliselt täielikult täis kaubaalused. 
 
-## <a name="turn-the-cluster-putaway-feature-on-or-off"></a>Kogumi panemisfunktsiooni sisse- või väljalülitamine
+## <a name="turn-on-the-cluster-putaway-feature"></a>Kogumite ladustamise funktsiooni sisselülitamine
 
-Selles teemas kirjeldatud funktsioonide kasutamiseks peab *kogumi panemisfunktsioon* olema teie süsteemi jaoks sisse lülitatud. Tarneahela halduse 10.0.25 puhul on see funktsioon kohustuslik ja seda ei saa välja lülitada. Kui käitate versiooni, mis on *vanem kui 10.0.25, saavad administraatorid selle funktsiooni sisse või välja lülitada, otsides kogumi panemisfunktsiooni*[tööruumis](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Enne selle funktsiooni kasutamist peate selle oma süsteemis sisse lülitama. Administraatorid saavad kasutada [funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) tööruumi, et kontrollida funktsiooni olekut ja vajadusel selle sisse lülitada. Seega on funktsioon loetletud järgmisel viisil.
+
+- **Moodul:** *laohaldus*
+- **Funktsiooni nimi:** *Kogumi ladustamise funktsioon*
 
 ## <a name="setup-for-the-example-scenario"></a>Näite seadistamine
 

@@ -3,34 +3,31 @@ title: Meediumigalerii moodul
 description: See teema hõlmab meediumigalerii mooduleid ja selles kirjeldatakse, kuidas neid rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
 author: anupamar-ms
 manager: annbe
-ms.date: 09/15/2020
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 647387bafe8866cb1bee8c57675629af796f33e6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: de0bc650393b035adea4570c5e64ecb76283117e
+ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411770"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5937382"
 ---
-# <a name="media-gallery-module"></a>Meediumigalerii moodul
+# <a name="media-gallery-module"></a>Meediumigaleriimoodul
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 See teema hõlmab meediumigalerii mooduleid ja selles kirjeldatakse, kuidas neid rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
-
-## <a name="overview"></a>Ülevaade
 
 Meediumigalerii moodulites kuvatakse galeriivaates üks pilt või mitu. Meediumigalerii moodulid toetavad pisipilte, mida saab paigutada kas horisontaalselt (reana pildi all) või vertikaalselt (veeruna pildi kõrval). Meediumigalerii moodulid pakuvad ka võimalust pilte suumida (suurendada) või täisekraanirežiimis vaadata. Meediumigalerii moodulis renderdamiseks peab pilt olema saadaval Commerce'i saidiehitaja meediumiteegis. Praegu toetavad meediumigalerii moodulid ainult pilte.
 
@@ -54,11 +51,13 @@ Järgmisel illustratsioonil on toodud näide toote üksikasjade lehel olevast os
 |---------------|--------|-------------|
 | Pildi allikas | **Lehe kontekst** või **Toote ID** | Vaikeväärtus on **Lehe kontekst**. Kui valitud on **Lehe kontekst**, eeldab moodul, et lehel pakutakse toote ID teavet. Kui valitud on **Toote ID**, peab pildi toote ID olema esitatud atribuudi **Toote ID** väärtusena. See võimalus on saadaval Commerce'i versioonis 10.0.12. |
 | Toote ID | Toote ID | See atribuut on vajalik ainult juhul, kui atribuudi **Pildi allikas** väärtus on **Toote ID**. |
-| Pildi suum | **Tekstisisene** või **Konteiner** | See atribuut võimaldab kasutajal meediumigalerii moodulis pilte suumida. Pilti saab suumida kas tekstisiseselt või pildi kõrval olevas eraldi konteineris. See võimalus on saadaval versioonis 10.0.12 |
-| Suumiskaala | Kümnendarv | See atribuut määrab teisendusteguri piltide suumimiseks. Näiteks kui väärtuseks on seatud **2.5**, suurendatakse pilte 2,5 korda.|
-| Täisekraan | **Tõene** või **Väär** | See atribuut määrab, kas pilte saab täisekraanirežiimis vaadata. Täisekraanirežiimis saab pilte veelgi suurendada, kui suumimise võimalus on sisse lülitatud. See võimalus on saadaval Commerce'i versioonis 10.0.13. |
+| Pildi suum | **Tekstisisene** või **Konteiner** | See atribuut võimaldab kasutajal meediumigalerii moodulis pilte suumida. Pilti saab suumida kas tekstisiseselt või pildi kõrval olevas eraldi konteineris. See võimalus on saadaval versioonis 10.0.12. |
+| Suumitegur | Kümnendarv | See atribuut määrab teisendusteguri piltide suumimiseks. Näiteks kui väärtuseks on seatud **2.5**, suurendatakse pilte 2,5 korda. |
+| Täisekraan | **Tõene** või **Väär** | See atribuut määrab, kas pilte saab täisekraanirežiimis vaadata. Täisekraanirežiimis saab pilte veelgi suurendada, kui suumimise võimalus on sisse lülitatud. See võimalus on saadaval Commerce'i versiooni 10.0.13 väljalaskes. |
+| Suumitud pildi kvaliteet | Arv 1-st kuni 100-ni, mis tähistab protsenti ja mis valitakse juhtriba juhtelemendi abil | See atribuut määratleb sissesuumitud piltide pildi kvaliteedi. Selle väärtuseks saab seada 100 protsenti kindlustamaks, et suumitud pilt kasutaks alati kõrgeimat võimalikku eraldusvõimet. See atribuut ei kehti PNG-failide puhul, sest need kasutavad kadudeta vormingut. See võimalus on saadaval alates Commerce'i versiooni 10.0.19 väljalaskest. |
 | Pildid | Saidiehitaja meediumiteegist valitud pildid | Lisaks tootest tuletamisele saab pilte ka meediumigalerii mooduli jaoks valida. Need pildid lisatakse kõikide saadaolevate tootepiltide lõppu. See võimalus on saadaval Commerce'i versioonis 10.0.12. |
 | Pisipildi paigutus | **Vertikaalne** või **Horisontaalne** | See atribuut määrab, kas pisipilte tuleb kuvada vertikaalse või horisontaalse ribana. |
+| Peida variandi põhitoote pildid | **Tõene** või **Väär** | Kui see atribuut on seatud väärtusele **Tõene**, siis on variandi valimisel põhitoote pildid peidetud, kui variandil ei ole pilte. See atribuut ei mõjuta variantideta tooteid. |
 
 Järgmisel illustratsioonil on näha meediumigalerii mooduli näide, mille puhul on saadaval täisekraanirežiimi ja suumimise suvandid.
 
@@ -104,3 +103,6 @@ Meediumigalerii mooduli lisamiseks turunduslehel tehke järgmist.
 [Konteinermoodul](add-container-module.md)
 
 [Piltide üleslaadimine](dam-upload-images.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

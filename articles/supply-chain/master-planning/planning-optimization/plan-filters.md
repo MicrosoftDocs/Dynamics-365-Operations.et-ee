@@ -2,11 +2,9 @@
 title: Plaanile filtrite rakendamine
 description: Selles teemas selgitatakse, kuidas kasutada filtreid plaaniga, kui kasutatakse planeerimise optimeerimise funktsiooni.
 author: ChristianRytt
-manager: tfehr
 ms.date: 01/08/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 0e65d04b7b5261ffe72e67ef5321967f7af0ca20
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: 3612dd45a3f4b8c3597c81962a66c21ed14fb206
+ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4970377"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "7729023"
 ---
 # <a name="apply-filters-to-a-plan"></a>Plaanile filtrite rakendamine
 
@@ -45,7 +43,7 @@ Plaani filter on seadistatud hõlmama kaupu A, B ja C. Koondplaneerimise käitam
 - **Käitusaja filter, mis sisaldab kõiki kaupu (tühi filter)** : kaubad A, B ja C kaasatakse planeerimise käivitamisse ning kaupade A ja B eelmine planeerimise väljund kirjutatakse üle.
 
 > [!NOTE]
-> Peaksite vältima plaani filtri seadmist plaanile, mis on valitud kui **Praegune dünaamiline koondplaan** lehel **Koondplaneerimise parameetrid**. Vastasel juhul on dünaamilise koondplaani funktsioon piiratud filtreeritud kaupadega. Näiteks kui uuendatakse kauba netonõudeid, mis ei ole plaani filtri osaks, tulemusi ei looda.
+> Kui seadistate plaanile filtri plaanil, mis on valitud koondplaneerimise parameetrite lehel praeguse dünaamilise koondplaanina, piirdub dünaamilise koondplaani funktsioon filtreeritud **·** **·** kaupadega. Näiteks kui uuendatakse kauba netonõudeid, mis ei ole plaani filtri osaks, tulemusi ei looda.
 
 ## <a name="related-resources"></a>Seotud ressursid
 
@@ -58,3 +56,6 @@ Plaani filter on seadistatud hõlmama kaupu A, B ja C. Koondplaneerimise käitam
 [Plaani ajaloo ja plaanimise logide vaatamine](plan-history-logs.md)
 
 [Planeerimistöö tühistamine](cancel-planning-job.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

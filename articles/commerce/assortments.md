@@ -2,25 +2,22 @@
 title: Sortimendi haldus
 description: Selles teemas selgitatakse sortimendi halduse põhikontseptsioone rakenduses Dynamics 365 Commerce ja esitatakse juurutamise kaalutlusi teie projekti jaoks.
 author: jblucher
-manager: AnnBe
 ms.date: 03/12/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
-ms.search.scope: Retail, Operations
 ms.search.region: Global
 ms.author: jeffbl
 ms.search.validFrom: 2017-11-21
 ms.dyn365.ops.version: Application update 5
-ms.openlocfilehash: e1b177989065740eef0bd917a7ce1e0a2c79088b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 1ff4929e8789748433f4e9386397431e174a85f81518d2e0a1d8f9ea68211fa6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411600"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6717767"
 ---
 # <a name="assortment-management"></a>Sortimendi haldus
 
@@ -38,27 +35,27 @@ Kanali üldine tootevalik määratletakse kanalile määratud avaldatud sortimen
 
 Järgmises näites on iga kaupluse jaoks konfigureeritud kordumatu sortiment. Sel juhul on kaupluses 1 saadaval ainult toode 1 ja kaupluses 2 on saadaval ainult toode 2.
 
-![Iga toode on ühes kaupluses saadaval](./media/Managing-assortments-figure1.png)
+![Iga toode on ühes kaupluses saadaval.](./media/Managing-assortments-figure1.png)
 
 Et toode 2 oleks saadaval kaupluses 1, saate toote lisada sortimenti 1.
 
-![Toode 2 lisati sortimenti 1](./media/Managing-assortments-figure2.png)
+![Toode 2 lisati sortimenti 1.](./media/Managing-assortments-figure2.png)
 
 Teise võimalusena saate lisada kaupluse 1 sortimenti 2.
 
-![Kauplus 1 lisati sortimenti 2](./media/Managing-assortments-figure3.png)
+![Kauplus 1 lisati sortimenti 2.](./media/Managing-assortments-figure3.png)
 
 ### <a name="organization-hierarchies"></a>Organisatsiooni hierarhiad
 
 Olukordades, kus mitu kanalit jagavad samu tootesortimente, saate sortimentide konfigureerimiseks kasutada Commerce'i sortimendi organisatsiooni hierarhiat. Kui hierarhia sõlmed on lisatud, kaasatakse kõik vastavas sõlmes ja selle alamsõlmedes olevad kanalid.
 
-![Organisatsiooni hierarhia](./media/Managing-assortments-figure4.png)
+![Organisatsiooni hierarhia.](./media/Managing-assortments-figure4.png)
 
 ### <a name="product-categories"></a>Tootekategooriad
 
 Samuti saate toote poolel lisada tootegruppe, kasutades tootekategooria hierarhiaid. Saate konfigureerida sortimente, lisades ühe või mitu kategooria hierarhia sõlme. Sel juhul sisaldab sortiment kõiki tooteid, mis on selles kategooriasõlmes ja selle alamsõlmedes.
 
-![Tootekategooriad](./media/Managing-assortments-figure5.png)
+![Tootekategooriad.](./media/Managing-assortments-figure5.png)
 
 ### <a name="excluded-products-or-categories"></a>Välja jäetud tooted või kategooriad
 
@@ -67,7 +64,7 @@ Lisaks toodete ja kategooriate kaasamisele sortimentidesse saate kasutada suvand
 > [!NOTE]
 > Kui toode on määratluse järgi ühte või mitmesse sortimenti korraga nii kaasatud kui ka sortimendist välja jäetud, loetakse toode alati välja jäetuks.
 
-![Välistatud tooted](./media/Managing-assortments-figure6.png)
+![Välistatud tooted.](./media/Managing-assortments-figure6.png)
 
 ### <a name="global-and-released-products"></a>Üldised ja väljastatud tooted
 
@@ -107,3 +104,6 @@ Kui plaanite ja haldate oma Commerce'i juurutuse jaoks sortimente, arvestage jä
 - **Müük ja tagastused väljaspool sortimente** – see võimalus aitab jaemüüjatel oma sortimente tõhusalt hallata, võimaldades piirata saadaolevate toodete arvu toodetega, mis kuuluvad kaupluse peamisse tootevalikusse. See võimalus aitab jaemüüjatel käsitleda olukordi, kus toode jäeti ekslikult sortimendist välja või kus toode tagastati väljaspool sortimendi kehtivuskuupäevi.
 
 Kui toote andmeid pole kanali andmebaasis, teeb kassa vajaliku teabe hankimiseks reaalajas kõnesid peakontorisse, et toodet saaks müüa, tagastada või panna klienditellimusse. Sel viisil hangitav tooteteave on saadaval ainult selle kande käitlemise ajal. Seda toodet ei lisata sortimendi määratlusse. Seetõttu tehakse järgnevad reaalajas kõned vastavalt vajadusele.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

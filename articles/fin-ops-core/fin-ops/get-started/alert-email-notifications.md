@@ -1,26 +1,24 @@
 ---
 title: Klienditeatiste edastamine meili teel
 description: Selles teemas selgitatakse, kuidas seadistada reegleid, mis saadavad eelmääratletud sündmuste toimumisel meiliteatisi.
-author: tjvass
-manager: AnnBe
+author: RichdiMSFT
 ms.date: 09/20/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EventCreateRule
 audience: Application user
 ms.reviewer: sericks
 ms.search.region: Global
-ms.author: tjvass
+ms.author: richdi
 ms.search.validFrom: 2019-1-29
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: a1d520584e331631bb5a6a88ba6c9a8b50b3d29e
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: d132ed979a84c2906298c05708cef1ee87f47078
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798619"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5752910"
 ---
 # <a name="client-alert-notifications-by-email"></a>Kliendi teatiste teatamine meili teel
 
@@ -50,3 +48,6 @@ Teenus saadab meiliteatised eelmääratletud meilimalle kasutades, mis edastavad
 Järgmisel pildil on näidatud teatiste struktuur, kui need on meili teel vastu võetud.
 
 [![Mallipõhised teatised kirje loomise, välja muutmise ja malli kustutamise kohta](./media/Alert-email-templates.png)](./media/Alert-email-templates.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

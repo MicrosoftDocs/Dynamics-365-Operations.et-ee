@@ -2,28 +2,25 @@
 title: Pearaamatu töölehe tüübid
 description: Selles teemas kirjeldatakse töölehe tüüpe, mille saate finantstöölehtede jaoks seadistada.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 10/10/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalSetup
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 15631
 ms.assetid: 81613b31-bc3c-43a0-8474-e01c9a482c40
 ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2b9ab4eeacc54d2d0ea8e7dc9eb3dd846ffc9e29
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f5370c69c2bd8ddc2fcd58f437c15e3c9ac01e474f557ee7473b54abd8562f7e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442280"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6719218"
 ---
 # <a name="ledger-journal-types"></a>Pearaamatu töölehe tüübid
 
@@ -68,3 +65,6 @@ Selles teemas kirjeldatakse töölehe tüüpe, mille saate finantstöölehtede j
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

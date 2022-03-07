@@ -11,18 +11,19 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e1b9fc2f51e92a4760a612d778b65cfc1b4e2a9e
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: e81ea13a3463965c6e4785dac32f536d2e94a7ba
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017363"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4426160"
 ---
 # <a name="schedule-work-order-on-specific-date-and-time"></a>Töökäsu plaanimine konkreetsele kuupäevale ja kellaajale
 

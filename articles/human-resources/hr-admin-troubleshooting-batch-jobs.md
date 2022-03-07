@@ -2,31 +2,33 @@
 title: Jõudluse optimeerimine pakett-tööde ajastamisel töövälisele ajale
 description: Selles teemas selgitatakse, kuidas lahendada Microsoft Dynamics 365 Human Resourcesi jõudluse probleeme, ajastades pakett-tööd töövälisele ajale.
 author: andreabichsel
-manager: AnnBe
 ms.date: 06/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Human Resources
+ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-06-23
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: 452a87cf5ba6c1ac73636584d75b2ec2ac555e02
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
-ms.translationtype: HT
+ms.openlocfilehash: 14354ba9454b8837246b75cd413497553423511e
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527761"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065422"
 ---
 # <a name="optimize-performance-by-scheduling-batch-jobs-after-hours"></a>Jõudluse optimeerimine pakett-tööde ajastamisel töövälisele ajale
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+
 
 ## <a name="issue"></a>Väljastus
 
@@ -52,11 +54,11 @@ Järgmised pakett-tööd peaksid töötama öösiti või töövälisel ajal. Kon
 
 3. Valige suvand **Käivita taustal** ja seejärel valige **Kordumine**.
 
-   ![Seadistage kordumine](media/talent-batch-history-cleanup-recurrence.png)
+   ![Kordumise seadistamine.](media/talent-batch-history-cleanup-recurrence.png)
 
 4. Valikus **Määratle kordumine** seadistage **Alguskuupäev** ja **Algusaeg** töövälisele ajale või nädalavahetusele. Valige **Lõppkuupäev puudub**. 
 
-   ![Määratlege korduse alguskuupäev ja -kellaaeg](media/talent-batch-history-cleanup-define-recurrence.png)
+   ![Määratlege korduse alguskuupäev ja -kellaaeg.](media/talent-batch-history-cleanup-define-recurrence.png)
 
 5. Valige nupp **OK**.
 
@@ -65,3 +67,6 @@ Järgmised pakett-tööd peaksid töötama öösiti või töövälisel ajal. Kon
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Jõudluse optimeerimine automaatsete puhastamisülesannetega](hr-admin-troubleshooting-batch-history.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

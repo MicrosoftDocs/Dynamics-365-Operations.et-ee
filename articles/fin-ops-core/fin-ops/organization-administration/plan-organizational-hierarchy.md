@@ -2,11 +2,9 @@
 title: Organisatsiooni hierarhia kavandamine
 description: Enne organisatsioonide ja organisatsiooni hierarhiate seadistamist peate kindlasti mõistma, kuidas oma ettevõtte mudelit kõige paremini kujundada.
 author: sericks007
-manager: AnnBe
-ms.date: 08/28/2017
+ms.date: 02/19/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: OMHierarchyManager, OMLegalEntity, OMOperatingUnit
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 986d8986375aac9454483d89c46c1b2b6f52e68e
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
-ms.translationtype: HT
+ms.openlocfilehash: ef906c0d60639da763f2a9c1e1adf508b0849b8978dff17cd0e7b3936fc4779e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694685"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6771868"
 ---
 # <a name="plan-your-organizational-hierarchy"></a>Organisatsiooni hierarhia kavandamine
 
@@ -166,7 +164,7 @@ Tootmisüksused kasutavad peamise juriidilise isiku riigi konteksti. Sama juriid
 
 #### <a name="if-the-organization-is-modeled-as-a-legal-entity"></a>Kui organisatsiooni mudel on juriidiline isik
 
-Riikide/piirkondade puhul, mida toetatakse, saab koostada enamikku seaduslikke aruandeid. Teavet selle kohta, millised aruanded iga riigi/piirkonna puhul saadaval on, leiate rakenduse [Microsoft Dynamics lokaliseerimisportaalist](https://mbs.microsoft.com/customersource/global/ax/support/support-news/GFMLocalizationPortalMC). (Nõutav on CustomerSource’i sisselogimine.)
+Riikide/piirkondade puhul, mida toetatakse, saab koostada enamikku seaduslikke aruandeid. 
 
 > [!NOTE]
 > Pearaamatu sisestamiskiht võimaldab teha korrigeerimiskirjeid emaettevõttele, mis kasutab tütarettevõttest erinevat raamatupidamisstandardit. Näiteks ettevõtte puhul, mis kasutab Ühendkuningriigis üldiselt aktsepteeritud raamatupidamispõhimõtteid (UK GAAP), saate teha korrigeerimiskirjeid sisestamiskihis. Need kirjed saab konsolideerida emaettevõttesse, mis kasutab Ameerika Ühendriikides üldiselt aktsepteeritud raamatupidamispõhimõtteid (GAAP). Korrigeerimiskirjed ei mõjuta UK GAAP aruandlust.
@@ -241,3 +239,6 @@ Arvestage organisatsiooni hierarhia juurutamisel järgmisi parimaid praktikaid.
 - Enne suuremate ümberstruktureerimise stsenaariumide mudeli kasutuselevõttu kasutage hierarhia kehtivuskuupäevi mõju analüüsi ja kontrolltesti sooritamiseks.
 - Kasutage mustandirežiimi hierarhia muutmiseks enne tootmiskeskkonnas uue versiooni avaldamist.
 - Piirake inimeste arvu, kes tohivad organisatsioone tootmiskeskkonnas hierarhiasse lisada või neid sealt eemaldada. Väiksem arv vähendab kulukate eksimuste tekkimise ohtu ja vajadust paranduste järele.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

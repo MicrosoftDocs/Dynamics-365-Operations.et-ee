@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: 3721416ce720167a6f78e26583de84af9c8d086b
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 4fe97ca8e1eecdc064ad4d21d5acdeade9f33d9c
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798423"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4694491"
 ---
 # <a name="create-alert-rules"></a>Teatisereeglite loomine
 
@@ -40,7 +40,7 @@ Andmete pakett-tööd muutuvad ja tähtajateatised peavad töötama, et teatise 
 
 Teatisereeglit käivitav sündmus saab olla kas saabuv kuupäev või teatud toimuv muudatus. Sündmuste käivitajad on määratud dialoogiboksi **Loo teatise reegel** kiirkaardil **Teavita mind, kui**. Konkreetsel väljal saadaolevad sündmused sõltuvad valitud käivitajast.
 
-Näiteks, kui seadistate teatisereegli väljale **Alguskuupäev**, on tähtajalised sündmused asjakohased. Seetõttu on selle välja puhul saadaval sündmuse tüüp `is due in`. Samas näiteks välja **Kulukeskus** puhul pole tähtajaline sündmus asjakohane. Seetõttu pole saadaval sündmuse tüüpi `is due in`. Selle asemel on saadaval sündmuse tüüp `has changed`.
+Näiteks, kui seadistate teatisereegli väljale **Alguskuupäev**, on tähtajalised sündmused asjakohased. Seetõttu on selle välja puhul saadaval sündmuse tüüp **tähtaeg on**. Samas näiteks välja **Kulukeskus** puhul pole tähtajaline sündmus asjakohane. Seetõttu pole saadaval sündmuse tüüpi **tähtaeg on**. Selle asemel on saadaval sündmuse tüüp **on muutunud**.
 
 ## <a name="event-types"></a>Sündmuste tüübid
 
@@ -77,7 +77,7 @@ Dialoogiboksi **Loo teatise reegel** kiirkaardil **Teavita mind järgmisega** sa
 
 ## <a name="alerts-as-business-events"></a>Teatised ärisündmustena
 
-Saate saata teatisi väliselt ärisündmuste raamistikku kasutades. Teatise loomisel seadke suvand **Organisatsiooniülene** valikule **Ei** ja määrake suvand **Saada väliselt** väärtusele **Jah**. Pärast seda, kui teatis käivitab ärisündmuse, saate käivitada teenusesse Power Automate ehitatud voo, kasutades päästikut **Kui ärisündmus leiab aset** rakenduskomplekti Finance and Operations konnektoris, või saata sündmuse eraldi suvandi **Ärisündmuste kataloog** kaudu otse ärisündmuste lõpp-punktile.
+Teatisi saab saata väliselt ärisündmuste raamistikku kasutades. Teatise loomisel seadke suvand **Organisatsiooniülene** valikule **Ei** ja määrake suvand **Saada väliselt** väärtusele **Jah**. Pärast seda, kui teatis käivitab ärisündmuse, saate käivitada teenusesse Power Automate ehitatud voo, kasutades päästikut **Kui ärisündmus leiab aset** rakenduskomplekti Finance and Operations konnektoris, või saata sündmuse eraldi suvandi **Ärisündmuste kataloog** kaudu otse ärisündmuste lõpp-punktile.
 
 ## <a name="create-an-alert-rule"></a>Teatisereegli loomine
 
@@ -86,16 +86,16 @@ Saate saata teatisi väliselt ärisündmuste raamistikku kasutades. Teatise loom
 2. Valige toimingupaani vahekaardil **Suvandid** rühmas **Anna ühiskasutusse** suvand **Teavita mind järgmisega**.
 3. Valige jälgitav väli dialoogiboksi **Loo teatise reegel** väljal **Väli**.
 4. Valige sündmuse tüüp väljal **Sündmus**.
-5. Valige soovitud suvand kiirkaardil **Teavita mind järgmisel juhul**. Kui soovite saata teatise ärisündmusena, määrake suvandi **Organisatsiooniülene** väärtuseks **Ei**.
+5. Valige soovitud suvand kiirkaardil **Teavita mind järgmisel juhul**. Kui soovite saata teatise ärisündmusena, veenduge, et suvand **Organisatsiooniülene** oleks seatud valikule **Ei**.
 6. Kui teatisereegel peaks passiivseks muutuma kindlal kuupäeval, määrake lõppkuupäev kiirkaardil **Teavita mind kuni**.
-7. Kinnitage meilisõnumi teema vaikepealkiri või sisestage uus teema kiirkaardi **Teavita mind järgmisega** väljal **Teema**. Tekst muutub meilisõnumi teema pealkirjaks, mille saate teatise käivitamisel. Kui soovite saata teatise ärisündmusena, seadke suvand **Saada väliselt** valikule **Jah**.
-8. Sisestage valikuline teade väljale **Teade**. Tekst muutub sõnumiks, mille saate teatise käivitamisel.
+7. Kinnitage meilisõnumi teema vaikepealkiri või sisestage uus teema kiirkaardi **Teavita mind järgmisega** väljal **Teema**. Teksti kasutatakse meilisõnumi teema pealkirjana, mille saate teatise käivitamisel. Kui soovite saata teatise ärisündmusena, seadke suvand **Saada väliselt** valikule **Jah**.
+8. Sisestage valikuline teade väljale **Teade**. Teksti kasutatakse sõnumina, mille saate teatise käivitamisel.
 9. Valige **OK**, et salvestada sätted ja luua teatisereegel.
 
 ## <a name="limitations-and-workarounds"></a>Piirangud ja lahendused
 
 ### <a name="workaround-for-creating-alerts-for-the-secondary-data-sources-of-a-form"></a>Lahendus vormi teiseste andmeallikate jaoks teatiste loomiseks
-Saate luua teatisi osade vormi teisaste andmeallikate jaoks. Näiteks kui teatisi luuakse kliendi või hankija sisestusreeglite vormil, on saadaval ainult päise (CustLedger või VendLedger) väljad, mitte dimensioonikontod. Selle piirangu lahendus on kasutada üksust **SysTableBrowser**, avada see tabel esmase andmeallikana. 
+Mõne vormi teisese andmeallika jaoks ei saa teatisi luua. Näiteks kui teatisi luuakse kliendi või hankija sisestusreeglite vormil, on saadaval ainult päise (CustLedger või VendLedger) väljad, mitte dimensioonikontod. Selle piirangu lahendus on kasutada üksust **SysTableBrowser**, avada see tabel esmase andmeallikana. 
 1. Avage tabel vormis **SysTableBrowser**.
     ```
         https://<EnvironmentURL>/?cmp=USMF&mi=SysTableBrowser&TableName=<TableName>

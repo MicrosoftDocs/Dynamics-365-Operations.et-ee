@@ -2,11 +2,9 @@
 title: EUR-00002 Laadimisaadressi määramine ühendusesisesele kandele
 description: See protseduur näitab, kuidas määrata ühendusesisese kaubanduskande puhul laadimisaadressi.
 author: v-oloski
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchCreateOrder, InventItemIdLookupPurchase, TransportationDocument, LogisticsPostalAddress, SysLookupMultiSelectGrid,  VendEditInvoice, VendEditInvoiceDefaultQuantityForLinesDropDialog, Intrastat, SysQueryForm
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 634f6cd840262895e6593c12dbe43923598241a5
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ddc47efd610f8a96259b562148d182a3f02e8cb9
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4962481"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5822586"
 ---
 # <a name="eur-00002-specifying-a-lading-address-for-an-intra-community-transaction"></a>EUR-00002 Laadimisaadressi määramine ühendusesisesele kandele
 
@@ -72,3 +70,6 @@ See protseduur kohaldub kõigile Euroopa riikidele/piirkondadele. Ülesande loom
 37. Klõpsake vahekaarti Üldine.
     * Otsige üles äsja loodud rida ja veenduge, et saatja saatis kaubad Itaaliast.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

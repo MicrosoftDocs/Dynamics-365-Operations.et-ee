@@ -2,11 +2,9 @@
 title: Allesjäänud eluea lineaarne kulum
 description: Selles artiklis antakse ülevaade kulumiarvestusmeetodist Allesjäänud lineaarne eluiga.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d2414ea97fefbec1e975498e171496e33057541c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: bd7bc6d773d85a1ba02151b96bf80f970845d4a9
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969000"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5818508"
 ---
 # <a name="straight-line-life-remaining-depreciation"></a>Allesjäänud eluea lineaarne kulum
 
@@ -57,9 +55,9 @@ Kuiv alite väljal **Kulumiarvestusaasta** suvandi **Rahandusaasta**, kasutataks
 ## <a name="example-of-straight-line-depreciation-of-an-unchanged-fixed-asset"></a>Muutmata põhivara lineaarse kulumi näide
 Põhivaral on järgmised näitajad.
 
-|                     |        |
+| Field               | Väärtus  |
 |---------------------|--------|
-| Soetusmaksumus    | 11 000 |
+| Soetusmaksumus    | 11,000 |
 | Jääkväärtus       | 1000  |
 | Kulumiarvestuse alus   | 10 000 |
 | Kasutusea aastad  | 5      |
@@ -79,3 +77,6 @@ Kulumisumma on igal aastal sama: (soetusmaksumus – jääkväärtus) ÷ kasulik
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

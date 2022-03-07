@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 Commerce'i hindamiskeskkonna ettevalmistamine
-description: Selles teemas selgitatakse, kuidas valmistada ette Microsoft Dynamics 365 Commerce’i hindamiskeskkond.
+title: Dynamics 365 Commerce'i hindamisekeskkonna ettevalmistamine
+description: Selles teemas selgitatakse, kuidas valmistada ette rakenduses Microsoft Dynamics 365 Commerce hindamiskeskkond.
 author: psimolin
 manager: annbe
 ms.date: 12/17/2020
@@ -17,25 +17,23 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8cda79a6be1aca7ad3826b9409e110524e6560e3
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: a57cc02c6d62f288f14b65191c2f4927a019963c
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969897"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5478160"
 ---
-# <a name="provision-a-dynamics-365-commerce-evaluation-environment"></a>Dynamics 365 Commerce'i hindamiskeskkonna ettevalmistamine
+# <a name="provision-a-dynamics-365-commerce-evaluation-environment"></a>Dynamics 365 Commerce'i hindamisekeskkonna ettevalmistamine
 
 [!include [banner](includes/banner.md)]
 
-Selles teemas selgitatakse, kuidas valmistada ette Microsoft Dynamics 365 Commerce’i hindamiskeskkond.
+Selles teemas selgitatakse, kuidas valmistada ette rakenduses Microsoft Dynamics 365 Commerce hindamiskeskkond.
 
 Enne alustamist soovitame teil see teema kiiresti läbi vaadata, et saada protsessi nõudmistest aimu.
 
 > [!NOTE]
 > Commerce'i hindamiskeskkonnad pole üldiselt kättesaadavad ja antakse partneritele ning klientidele taotluse alusel. Lisateabe saamiseks pöörduge oma Microsofti partneri kontakti poole.
-
-## <a name="overview"></a>Ülevaade
 
 Oma Commerce’i hindamiskeskkonna edukaks ettevalmistamiseks peate looma projekti, millel on kindel toote nimi ja tüüp. Keskkonnal ja Commerce Scale Unitil (CSU) on samuti mõned konkreetsed parameetrid, mida peate kasutama, kui loodate hiljem e-kaubandust ette valmistada. Selle teema juhised kirjeldavad kõiki vajalikke etappe, mida on vaja ettevalmistamise lõpuleviimiseks, ja milliseid parameetreid peate kasutama.
 
@@ -191,3 +189,6 @@ Oma Commerce’i hindamiskeskkonna ettevalmistamise ja konfigueerimise protsessi
 [Microsoft Azure'i portaal](https://azure.microsoft.com/features/azure-portal)
 
 [Dynamics 365 Commerce veebisait](https://aka.ms/Dynamics365CommerceWebsite)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,16 +2,13 @@
 title: Osaline asukoha tsükliline inventuur
 description: Tsüklilise inventuuri plaanid juhivad tegelikke inventuuritoimingud. Saate nõuda, et asukohas loendataks kogu vaba kaubavaru asemel ainult konkreetseid tooteid ja tootevariante.
 author: perlynne
-manager: tfehr
 ms.date: 09/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSCycleCountPlan, WHSWorkLineCycleCount, WHSWorkTemplateLineGroup, WHSWorkTemplateTable, WHSRFMenuItemCycleCount, WHSCycleCountPlanListPage
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a541818a72f5c24db8784071f447c83a2aa4edfd
-ms.sourcegitcommit: 95f90ac3f248716abdab16d5de6ccbf059616e4b
-ms.translationtype: HT
+ms.openlocfilehash: 9f06b39f3c2d2f5a0bdfef1da9395c71686ed46968a1143305b5a10787f7e85f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4666742"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6778430"
 ---
 # <a name="partial-location-cycle-counting"></a>Osaline asukoha tsükliline inventuur
 
@@ -49,7 +46,7 @@ Enne osalise tsüklilise inventuuri töö töötlemist peab tegema tsüklilise i
 Osalise tsüklilise inventuuri protsessi korral ei uuendata asukoha kuupäeva/kellaaega **Viimane tsükliline inventuur**, kuigi loendatakse kõik antud asukohas olevad üksused. Osaline tsükliline inventuur ei arvesta lehel **Tsüklilise inventuuri plaanid** parameetrit **Päevi tsükliliste inventuuride vahel**. Osaline tsükliline inventuur ei toeta mitme üksuse samaaegset loendamist samas asukohas. Osalise tsüklilise inventuuri funktsioon võib põhjustada kauba korral sama asukoha loendamist mitu korda, kui käitatakse käsk **Töötle tsüklilise inventuuri plaani**. Selle stsenaariumi vältimiseks määrake filtrid väljal **Vali asukohad**.
 
 > [!NOTE]
-> Osalise tsüklilise inventuuri protsessi käigus ei paku laorakendus nuppu **Lisa LP või kaup**.
+> Osalise tsüklilise inventuuri protsessi käigus ei paku laohalduse mobiilirakendus Warehouse Management nuppu **Lisa LP või kaup**.
 
 ## <a name="example"></a>Näide
 
@@ -62,3 +59,6 @@ Selle näite puhul tuleb laos 61 loendada ainult kaup koodiga A0001.
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Tsükliline inventuur](cycle-counting.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

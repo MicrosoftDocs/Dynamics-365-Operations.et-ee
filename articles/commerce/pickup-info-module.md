@@ -2,27 +2,24 @@
 title: Järeletulemisteabe moodul
 description: See teema hõlmab järeletulemisteabe moodulit ja kirjeldab, kuidas seda rakenduses Microsoft Dynamics 365 Commerce maksmise lehtedele lisada.
 author: anupamar-ms
-manager: annbe
 ms.date: 11/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-09021
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 61b97d72b6a397737c10476cd6c02764e60f10b1
-ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
-ms.translationtype: HT
+ms.openlocfilehash: 52015fb973642bfc6f45901e7c1a265f0ccfc415b1324bc62ef77a5fc72550bb
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4665344"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6764557"
 ---
 # <a name="pickup-information-module"></a>Järeletulemise teabe moodul
 
@@ -43,7 +40,7 @@ Kui mitmele kaubale tullakse järele mitmesse poodi, võimaldab järeletulemiste
 
 Järgmisel joonisel on kujutatud ajavahemiku valiku näide maksmise lehel järeletulemisteabe mooduli kaudu.
 
-![Järeletulemisteabe mooduli näide maksmise lehel](./dev-itpro/media/Curbside_timeslot_eCommerce.PNG)
+![Järeletulemisteabe mooduli näide maksmise lehel.](./dev-itpro/media/Curbside_timeslot_eCommerce.PNG)
 
 ## <a name="module-properties"></a>Mooduli atribuudid
 
@@ -59,14 +56,17 @@ Juhiste saamiseks järeletulemisteabe mooduli lisamiseks maksmise lehele ja nõu
 
 Järgmisel joonisel on kujutatud näide e-kaubanduse maksmise lehest, mis sisaldab reaüksuste jaoks järeletulemise ajavahemikke.
 
-![Näide e-kaubanduse maksmise lehest, mis sisaldab reaüksuste jaoks järeletulemise ajavahemikke](./dev-itpro/media/Curbside_timeslot_eCommerce_checkoutsummary.PNG)
+![Näide e-Commerce maksmise lehest, mis sisaldab reaüksuste jaoks järeletulemise ajavahemikke.](./dev-itpro/media/Curbside_timeslot_eCommerce_checkoutsummary.PNG)
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-[Kliendi järeletulemise ajavahemike loomine ja värskendamine](dev-itpro/pickup-timeslots.md)
+[Ajavahemike loomine ja värskendamine klientide järeletulemiste jaoks](dev-itpro/pickup-timeslots.md)
 
 [Maksmismoodul](add-checkout-module.md)
 
 [Tellimuse kinnituse moodul](order-confirmation-module.md)
 
 [Tellimuse üksikasjade moodul](account-management.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: RetailTerminalTable, RetailDevice, RetailHardwareProfile
 audience: Application User, IT Pro
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 268444
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: dd2ce6b223c99d890691d5fdb9f93a5ceaf33a0d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 7ab4ab4d04433ca03ac90acc583afceea2014e8e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411794"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4989525"
 ---
 # <a name="peripherals"></a>Välisseadmed
 
@@ -763,7 +762,6 @@ Järgmisi välisseadmeid testiti, kasutades ühist IIS-i riistvarajaama koos Mod
 | Epson        | TM-T88V  | OPOS      |                           |
 | Epson        | TM-T88   | Kohandatud    | Võrgu kaudu ühendatud     |
 | Star         | TSP650II | Kohandatud    | Võrgu kaudu ühendatud     |
-| Star         | TSP100   | OPOS      | Nõuab TSP650II draivereid |
 | HP           | F7M67AA  | OPOS      | USB-toitel               |
 
 #### <a name="payment-terminal"></a>Makseterminal

@@ -2,11 +2,9 @@
 title: ER-konfiguratsioonide värskendatud versioonide importimine
 description: Selles teemas selgitatakse, kuidas importida konfiguratsiooniteenuse globaalsest hoidlast elektroonilise aruandluse (ER) konfiguratsioonide värskendatud versioone.
 author: NickSelin
-manager: AnnBe
 ms.date: 06/09/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERSolutionImport, ERWorkspace, ERSolutionRepositoryTable
 audience: Application User, IT Pro
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 897663998c6c95ff6d7172de2abc4d4dd6ec5f12
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: 712bccbd48775cadc069ef5e8a04f9aae3c9f223137bcd394ff1815a720393b5
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679506"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6734884"
 ---
 # <a name="import-updated-versions-of-er-configurations"></a>ER-konfiguratsioonide värskendatud versioonide importimine
 
@@ -30,7 +28,7 @@ ms.locfileid: "4679506"
 
 Elektroonilise aruandluse (ER) [hoidlaid](general-electronic-reporting.md#Repository) kasutatakse [ER-konfiguratsioonide](general-electronic-reporting.md#Configuration) ühiskasutusse andmiseks. Saate [importda](download-electronic-reporting-configuration-lcs.md) ER-konfiguratsioone erinevatest hoidlatest oma Microsoft Dynamics 365 Finance'i eksemplari. ER-konfiguratsioonide importimisel saavad [konfiguratsioonipakkujad](general-electronic-reporting.md#Provider) avaldada hoidlate uusi [versioone](general-electronic-reporting.md#component-versioning), et neid saaks ühiskasutusse anda.
 
-Selles teemas selgitatakse, kuidas importida konfiguratsiooniteenuse globaalsest hoidlast ER-konfiguratsioonide värskendatud versioone. Lisateavet vt teemast [Microsoft Dynamics 365 for Finance and Operations – Regulatory Services, konfiguratsiooniteenus](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration).
+Selles teemas selgitatakse, kuidas importida konfiguratsiooniteenuse globaalsest hoidlast ER-konfiguratsioonide värskendatud versioone. Lisateavet vt teemast [Microsoft Dynamics 365 for Finance and Operations – Regulatory Services, konfiguratsiooniteenus](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration).
 
 ## <a name="review-the-available-updated-versions"></a>Saadaolevate värskendatud versioonide ülevaatamine
 
@@ -43,11 +41,11 @@ Selles teemas selgitatakse, kuidas importida konfiguratsiooniteenuse globaalsest
 2. Avage **Organisatsiooni haldamine** \> **Tööruumid** \> **Elektrooniline aruandlus**.
 3. Valige lehe **Lokaliseerimise konfiguratsioonid** jaotises **Seostatud lingid** paan **Konfiguratsioonide versioonide värskenduste importimine**.
 
-    ![Lokalisatsiooni konfiguratsioonide leht](./media/er-download-updated-versions-global-repo1.png)
+    ![Lokalisatsiooni konfiguratsioonide leht.](./media/er-download-updated-versions-global-repo1.png)
 
 4. Valige dialoogiboksi **Elektroonilise aruandluse konfiguratsioonide versioonide värksenduste importimine** väljal **Käitusrežiim** suvand **Kuva ainult saadaolevad värskendused**. Seejärel valige **OK**. 
 
-    ![Käitusrežiimi välja väärtuseks on seatud Kuva ainult saadaolevad värskendused](./media/er-download-updated-versions-global-repo2.png)
+    ![Käitusrežiimi välja väärtuseks on seatud Kuva ainult saadaolevad värskendused.](./media/er-download-updated-versions-global-repo2.png)
 
 5. Vaadake üle vastuvõetud teated. Need teated annavad järgmist teavet praeguse Finance'i eksemplari ER-konfiguratsioonide kohta võrreldes globaalse hoidla sisuga.
 
@@ -74,14 +72,14 @@ Selles teemas selgitatakse, kuidas importida konfiguratsiooniteenuse globaalsest
 4. Valige dialoogiboksi **Elektroonilise aruandluse konfiguratsioonide versioonide värskenduste importimine** väljal **Käitusrežiim** suvand **Impordi uusimad värskendused**, et importida ER-konfiguratsioonide uusimad versioonid globaalsest hoidlast praegusesse Finance'i eksemplari.
 5. Importimise jaoks pakett-töö plaanimiseks määrake kiirkaardi **Käivita taustal** suvandi **Pakktöötlus** väärtuseks **Jah**. Kui soovite korrata importimist regulaarselt, konfigureerige nõutav kordumine.
 
-    ![Käitusrežiimi välja väärtuseks on seatud Impordi uusimad värskendused](./media/er-download-updated-versions-global-repo5.png)
+    ![Käitusrežiimi välja väärtuseks on seatud Impordi uusimad värskendused.](./media/er-download-updated-versions-global-repo5.png)
 
 6. Valige nupp **OK**.
 7. Et teada saada, millised konfiguratsiooni versioonid on imporditud, järgige ühte järgmistest etappidest.
 
     - Kui käivitate importimise pakett-töö kasutamise asemel interaktiivselt, vaadake üle vastuvõetud teated.
 
-        ![Interaktiivse importimise käitamise ajal vastuvõetud teated](./media/er-download-updated-versions-global-repo6.png)
+        ![Interaktiivse importimise käitamise ajal vastuvõetud teated.](./media/er-download-updated-versions-global-repo6.png)
 
     - Kui käivitate importimise partiirežiimis, toimige järgmiselt.
 
@@ -89,7 +87,7 @@ Selles teemas selgitatakse, kuidas importida konfiguratsiooniteenuse globaalsest
         2. Otsige üles ja valige töö **Elektroonilise aruandluse konfiguratsiooni versioonide värskenduste importimine** ja seejärel valige toimingupaani vahekaardil **Pakett-töö** töö ajaloo kuvamiseks suvand **Pakett-töö ajalugu**.
         3. Valige lehel **Pakett-töö ajalugu** suvand **Logi**. Seejärel valige töölogi kuvamiseks vastuvõetud teatest link **Teade üksikasjad**.
 
-        ![Töölogi](./media/er-download-updated-versions-global-repo7.png)
+        ![Töölogi.](./media/er-download-updated-versions-global-repo7.png)
 
 > [!IMPORTANT]
 > Me ei soovita korduva pakett-töö plaanimist, et importida ER-konfiguratsioonide värskendatud versioone globaalsest hoidlast otse töökeskkonda, kuna imporditud versioonid on kasutamiseks kohe saadaval. Selle asemel kasutage seda lähenemist ER-konfiguratsioonide versioonide juurutamiseks liivakastikeskkonda. Seejärel saab neid kõigepealt liivakastikeskkonnas hinnata enne töökeskkonda juurutamist.
@@ -98,3 +96,6 @@ Selles teemas selgitatakse, kuidas importida konfiguratsiooniteenuse globaalsest
 
 - [Elektroonilise aruandluse (ER) ülevaade](general-electronic-reporting.md)
 - [Elektroonilise aruandluse konfiguratsioonide allalaadimine konfiguratsiooniteenuse globaalsest hoidlast](er-download-configurations-global-repo.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

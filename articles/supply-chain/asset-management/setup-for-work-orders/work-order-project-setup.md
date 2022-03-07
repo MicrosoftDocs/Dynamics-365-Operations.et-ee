@@ -1,12 +1,10 @@
 ---
 title: Töökäsu projekti seadistus
 description: Selles teemas selgitatakse töökäskude projekti seadistamist varahalduses.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/13/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderProjectSetup
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 031e61549474745360ac00f9a66bef7a9dbaaf96
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 071c73f9295ad7911037cbd10a48b46b044eebda
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021550"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5808228"
 ---
 # <a name="work-order-project-setup"></a>Töökäsu projekti seadistus
 
@@ -85,3 +83,6 @@ Seadistus võimaldab täielikku integreerumist mooduliga **Projektihaldus ja raa
 > Iga kord, kui luuakse töökäsu rida, otsib varahaldus projektigrupi, mis peaks olema seotud töökäsu tööprojektiga. Otsing põhineb selles teemas kirjeldatud seadistusel. Igal projektigrupil on seotud projektitüüp. Projektigrupid, millel on projektitüüp **Aja- ja materjalikulu** või **Fikseeritud hind**, kehtivad ainult kliendi kontoga seotud varade puhul.
 >
 > Põhiprojektide ja projektigruppide puhul, kui süsteem valib saadaoleva töökäsu projekti või projektigrupi, põhineb valik kirjetel, mille lõite eelmise protseduuri abil. Varahaldus läbib kirjeid, mis on seotud töökäsu projektiga, et kontrollida võimalikku vastet. Varahaldus kontrollib alati kõige spetsiifilisemat kombinatsiooni esimesena. Teisisõnu kontrollib varahaldus töökäsu põhiprojektile esmalt võimalikku vastet väljale **Vara**. Kui vastet ei leita, otsib see vastet väljale **Varatüüp**. Kui vastet ei leita, kontrollib see vastet väljale **Funktsionaalne asukoht**. Nagu näete lehe **Töökäsu projekti seadistus** paigutuses, tähendab see käitumine, et kõige spetsiifilisema kombinatsiooni leidmiseks kontrollib varahaldus vaste leidmiseks iga kirjet paremalt vasakule. Kui vastet ei leita, kasutatakse vaikimisi kirjet, kus on valitud ainult projekti ID. Seotud projektigrupi leidmise protsess on sarnane. Varahaldus kontrollib esmalt välja **Vara** võimalikku vastet, seejärel välja **Varatüüp** ja seejärel välja **Töökäsu tüüp**. Kui vastet ei leita, kasutatakse vaikimisi kirjet, kus on valitud ainult projektigruppi.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

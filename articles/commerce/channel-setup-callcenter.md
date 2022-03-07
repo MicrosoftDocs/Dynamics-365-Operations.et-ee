@@ -2,29 +2,26 @@
 title: Kõnekeskuse kanali seadistamine
 description: Selles teemas kirjeldatakse, kuidas luua rakenduses Microsoft Dynamics 365 Commerce uus kõnekeskus.
 author: samjarawan
-manager: annbe
 ms.date: 03/13/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 3f8c47c00b920dae01213d1d241ac8ee6a18d4e3
-ms.sourcegitcommit: 4c6d31f3ebd88212d3d1497a4bba9c64c5300444
-ms.translationtype: HT
+ms.openlocfilehash: 3b21d5e57058fee5bb77beb6731c18967ed11cacc1925e44d2f7d8cdb26d7bcb
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "4411826"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6744530"
 ---
-# <a name="set-up-a-call-center-channel"></a>Kõnekeskuse kanali seadistamine
+# <a name="set-up-a-call-center-channel"></a>Kõnekeskuse kanali häälestus
 
 
 [!include [banner](includes/banner.md)]
@@ -57,11 +54,11 @@ Uue kõnekeskuse kanali loomiseks ja konfigureerimiseks toimige järgmiselt.
 
 Järgmine pilt näitab uue kõnekeskuse kanali loomist.
 
-![Uus kõnekeskuse kanal](media/channel-setup-callcenter-1.png)
+![Uus kõnekeskuse kanal.](media/channel-setup-callcenter-1.png)
 
 Järgmine pilt näitab kõnekeskuse kanali näidet.
 
-![Kõnekeskuse kanali näide](media/channel-setup-callcenter-2.png)
+![Kõnekeskuse kanali näide.](media/channel-setup-callcenter-2.png)
 
 ## <a name="additional-channel-setup"></a>Täiendava kanali seadistamine
 
@@ -69,7 +66,7 @@ Kõnekeskuse kanali häälestamiseks nõutavad täiendavad toimingud hõlmavad m
 
 Järgmine pilt näitab seadistuste **Tarneviisid** ja **Makseviisid** suvandeid vahekaardil **Seadistus**.
 
-![Täiendavad kõnekeskuse kanali seadistamise toimingud](media/channel-setup-callcenter-3.png)
+![Täiendavad kõnekeskuse kanali seadistamise toimingud.](media/channel-setup-callcenter-3.png)
 
 ### <a name="set-up-payment-methods"></a>Seadistada maksemeetodid
 
@@ -84,7 +81,7 @@ Kõigi selles kanalis toetatud maksetüüpide makseviiside seadistamiseks toimig
 
 Järgmine pilt näitab sularaha makseviisi näidet.
 
-![Makseviiside näited](media/channel-setup-callcenter-payments.png)
+![Makseviiside näited.](media/channel-setup-callcenter-payments.png)
 
 ### <a name="set-up-modes-of-delivery"></a>Tarneviiside häälestamine
 
@@ -100,7 +97,7 @@ Selleks, et muuta või lisada tarneviis, mis on seotud kõnekeskuse kanaliga, to
 
 Järgmine pilt näitab tarneviisi näidet.
 
-![Tarneviiside häälestamine](media/channel-setup-retail-7.png)
+![Tarneviiside häälestamine.](media/channel-setup-retail-7.png)
 
 ### <a name="set-up-channel-users"></a>Kanali kasutajate seadistamine
 
@@ -136,3 +133,6 @@ Hinnarühma seadistamiseks tehke järgmist.
 [Pettuseteatiste seadistamine ja nendega töötamine](set-up-fraud-alerts.md)
 
 [Kõnekeskuste järjepidevusprogrammide seadistamine](set-up-continuity-program.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

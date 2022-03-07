@@ -2,9 +2,11 @@
 title: Tootmisjõudluse Power BI sisu
 description: See teema kirjeldab, mida hõlmab tootmisjõudluse Power BI sisu.
 author: AndersGirke
+manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ProductionPerformancePowerBI
 audience: Application User, IT Pro
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 940e49b43ec1dba0917c67ad6ef4562351d175bcb1c0be7f98d00e73371e5346
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c815a2e37f9882d695bf170a806301a3145d0f06
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761412"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5094208"
 ---
 # <a name="production-performance-power-bi-content"></a>Tootmisjõudluse Power BI sisu
 
@@ -126,6 +128,3 @@ Järgmises tabelis olevaid põhidimensioone kasutatakse filtritena koondmõõtmi
 | Üksused                  | ID ja nimi                                                   |
 | Ressursid                 | Ressursi ID, ressursi nimi, ressursitüüp ja ressursigrupp |
 | Tooted                  | Tootenumber, toote nimi, kauba ID ja kaubagrupp         |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

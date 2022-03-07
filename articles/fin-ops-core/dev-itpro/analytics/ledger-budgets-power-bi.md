@@ -1,32 +1,30 @@
 ---
 title: Power BI sisu Tegelik võrreldes eelarvega
-description: Selles teemas kirjeldatakse Power BI sisu Tegelik võrreldes eelarvega. See selgitab juurdepääsu sisus sisalduvatele aruannetele ning annab teavet andmemudeli ja olemite kohta, mida sisu loomiseks kasutati.
-author: ryansandness
-manager: AnnBe
+description: Selles teemas kirjeldatakse Power BI sisu Tegelik võrreldes eelarvega. See selgitab, kuidas aruannetele juurde pääseda, ja annab andmemudeli kohta teavet.
+author: panolte
 ms.date: 12/18/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetTrackingWorkspace
 audience: Application user, IT Pro
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: ryansand
+ms.author: panolte
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 6a185da5055741ac30c7e237ef72d07084644651
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 9cc52f4cdab3084c9ac43078b0b0d534119ab514
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685268"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5744235"
 ---
 # <a name="actual-vs-budget-power-bi-content"></a>Power BI sisu Tegelik võrreldes eelarvega
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas kirjeldatakse Microsoft Power BI sisu **Tegelik võrreldes eelarvega**. See selgitab ka seda, kuidas pääseda juurde Power BI aruannetele, ning annab teavet andmemudeli ja üksuste kohta, mida kasutatakse sisu loomiseks.
+Selles teemas kirjeldatakse **Tegelik võrreldes eelarvega** Microsoft Power BI sisu. See selgitab ka seda, kuidas pääseda juurde Power BI aruannetele, ning annab teavet andmemudeli ja üksuste kohta, mida kasutatakse sisu loomiseks.
 
 ## <a name="overview"></a>Ülevaade
 
@@ -57,3 +55,6 @@ Järgmises tabelis on üksikasjad Power BI sisu **Tegelik võrreldes eelarvega**
 | Pearaamatud                   | Pearaamatud, mida saab kasutada praeguse pearaamatu aruande filtreerimiseks              |
 | Eelarvekoodid              | Eelarvekoodid, mille alusel aruandeid filtreerida                                                |
 | Juriidilised isikud            | Juriidilised isikud, mida saab kasutada praeguse juriidilise isiku aruande filtreerimiseks |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

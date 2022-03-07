@@ -1,26 +1,29 @@
 ---
 title: Toote töötsükli olekute ülevaade
 description: Toote elutsükli olek dokumenteerib väljastatud toote või tootevariandi elutsükli oleku.
-author: t-benebo
+author: cvocph
+manager: tfehr
 ms.date: 01/06/2020
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductLifecycleState, EcoResReleasedProductLifecycleStateChanges
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: benebotg
+ms.author: kamaybac
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: f71ce701adbe60b69b25e41810dda7adeec1d390
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: cff4ee39d4c27e9a0dfc891e0f95278040ede877
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983790"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4999777"
 ---
 # <a name="product-lifecycle-state-overview"></a>Toote töötsükli olekute ülevaade
 
@@ -105,6 +108,3 @@ Väljastatud toodete ja tootevariantide valimiseks ja värskendamiseks saate kas
 - [Toote elutsükli oleku määramine väljastatud tootele](tasks/product-lifecycle-state-released-product.md)
 - [Aegunud tootevariantide leidmine ja neile toote elutsükli oleku määramine](tasks/obsolete-product-variants.md)
 - [Toote elutsükli oleku loomine toodete välistamiseks koondplaneerimisest](tasks/exclude-products-master-planning.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,7 +1,7 @@
 ---
 title: Toodete ja tootevariantide otsimine tellimuse sisestamise käigus
 description: Kasutage välja **Kaubakood**, et otsida tooteid ja tootevariante, kui loote käsitsi müügi- või ostutellimuse rea. See võimaldab teil kiiresti leida tootevariante, kui teil on ainult konfiguratsiooni string või üks saadaolevatest tootedimensioonidest.
-author: t-benebo
+author: cvocph
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 248534
 ms.assetid: 99dd5ce1-0029-4f06-90e7-865e6d46d86e
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: benebotg
+ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9fea7f82ac7723d4cb83c5c8224251fd6c43a315
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 8867eabde5fb0999e0a67f11cfa29e1e4fbc6855
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565688"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359977"
 ---
 # <a name="search-for-products-and-product-variants-during-order-entry"></a>Toodete ja tootevariantide otsimine tellimuse sisestamise käigus
 

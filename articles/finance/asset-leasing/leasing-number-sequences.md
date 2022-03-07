@@ -2,28 +2,25 @@
 title: Numbriseeriate määramine
 description: See teema selgitab, kuidas luua rendi ID-de jaoks numbriseeriaid. Lisaks selgitab see, kuidas luua ainulaadseid ID-sid, mida kasutatakse indeksi ümberhindamise protsessis.
 author: moaamer
-manager: Ann Beebe
-ms.date: 10/28/2020
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: AssetLeasePostingAccounts
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 66b48723bbff7f176ef192924e8ea2b96641ba56
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
-ms.translationtype: HT
+ms.openlocfilehash: 5235979532524a55ddc586b2872ebb28ebd486a280edfcc214e0c3ee0da80bad
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4442572"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6733657"
 ---
 # <a name="assign-number-sequences"></a>Numbriseeriate määramine
 
@@ -36,3 +33,7 @@ See teema selgitab, kuidas luua rendi ID-de jaoks numbriseeriaid. Lisaks selgita
 3. Valige külgmisel ribal **Numbriseeriad**.
 4. Valige viite **Rendi ID** jaoks numbriseeria. Seda numbriseeriat kasutatakse iga rendi jaoks kordumatu ID loomiseks.
 5. Valige viite **Protsessi ID** jaoks numbriseeria. Seda numbriseeriat kasutatakse iga indeksi uuesti hindamise protsessi jaoks kordumatu ID loomiseks.
+6. Valige viite **Lõpetamispakkumise** jaoks numbriseeria. Seda numbriseeriat kasutatakse iga lõpetamispakkumise jaoks kordumatu ID loomiseks.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

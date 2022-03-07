@@ -2,11 +2,9 @@
 title: Töö tükeldamine
 description: Selles teemas kirjeldatakse töö jaotamise funktsiooni. See funktsioon võimaldab teil tükeldada suured töötellimused mitmeks väiksemaks töötellimuseks, mille saate määrata mitmele lao töötajale. Sel viisil saab sama tööd üheaegselt komplekteerida mitu lao töötajat.
 author: mirzaab
-manager: tfehr
 ms.date: 10/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,15 +12,17 @@ ms.search.region: Global
 ms.search.industry: WHSWorkTableListPage
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-15
-ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 8a530f3887c3c66295177d480a8c486dd0984153
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.dyn365.ops.version: 10.0.8
+ms.openlocfilehash: 8b06164a81a18548cf9d98ea2f577b5783145100
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965523"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778253"
 ---
 # <a name="work-split"></a>Töö tükeldamine
+
+[!include [banner](../includes/banner.md)]
 
 Töö jaotamise funktsioon võimaldab teil tükeldada suured töö ID-d (mitmete ridadega töötellimused) mitmeks väiksemaks töö ID-deks, mille saate määrata mitmele lao töötajale. Sel viisil saab sama töönumbrit üheaegselt komplekteerida mitu lao töötajat.
 
@@ -33,7 +33,7 @@ Töö jaotamise funktsioon võimaldab teil tükeldada suured töö ID-d (mitmete
 
 Enne töö tükeldamise funktsiooni kasutamist peate oma süsteemis sisse lülitama funktsiooni ja selle eeltingimuse funktsiooni. Administraatorid saavad kasutada [funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sätteid, et kontrollida funktsioonide olekut ja vajadusel neid sisse lülitada.
 
-Esmalt lülitage sisse eeltingimuste *Organisatsiooniülene töö blokeerimise* funktsioon, kui see ei ole juba sisse lülitatud. Tööruumis **Funktsioonihaldus** loetletakse seda funktsiooni järgneval viisil.
+Esmalt lülitage sisse eeltingimuste *Organisatsiooniülene töö blokeerimise* funktsioon, kui see ei ole juba sisse lülitatud. Tarneahela halduse versiooni 10.0.21 puhul on see funktsioon kohustuslik, seega on see vaikimisi sisse lülitatud ja seda ei saa enam välja lülitada. Kuid see funktsioon on siiski [funktsioonihalduses](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) loetletud järgmisel viisil:
 
 - **Moodul:** *laohaldus*
 - **Funktsiooni nimi:** *Organisatsiooniülene töö blokeerimine*
@@ -53,7 +53,7 @@ Funktsioon *Töö tükeldamine* lisab järgmised kaks nuppu tegumiriba **Töö**
 - **Töö tükeldamine** – Tükeldage käesolev töö ID mitmeks väiksemaks töö ID-ks, mida saavad töödelda erinevad töötajad.
 - **Tühista töö tükeldamise seanss** – Tühistage töö tükeldamise seanss ja tehke töö töötlemiseks saadaolevaks.
 
-![Töö tükeldamise ja töö tükeldamise seansi tühistamise nupud](media/Work_split_buttons.png "Töö tükeldamise ja töö tükeldamise seansi tühistamise nupud")
+![Töö tükeldamise ja töö tükeldamise seansi tühistamise nupud.](media/Work_split_buttons.png "Töö tükeldamise ja töö tükeldamise seansi tühistamise nupud")
 
 > [!IMPORTANT]
 > **Töö tükeldamise** nupp ei ole saadaval, kui on täidetud mõni järgmistest tingimustest:
@@ -69,7 +69,7 @@ Funktsioon *Töö tükeldamine* lisab järgmised kaks nuppu tegumiriba **Töö**
 >
 > - Töö on hetkel tükeldatud teise kasutaja poolt. Kui proovite avada tükeldamise lehte töö jaoks, mida teine kasutaja juba tükeldab, kuvatakse järgmine tõrketeade: "Töö ID-ga \#\#\#\# on hetkel tükeldatud. Proovige mõne minuti pärast uuesti. Kui saate pidevalt seda teadet, võtke ühendust juhendajaga."
 
-Uus töö blokeerimise põhjus, *Tükeldatud töö*, näitab, millal on töö ID tükeldamise protsessis. See kuvatakse **Töö tükeldamise** lehel kui ka laorakenduses, kui kasutaja proovib tööd teha. Blokeerimise põhjuste kasutamisel muudetakse **Blokeeritud voo** välja nimi töö ID-lt olekusse **Blokeeritud**.
+Uus töö blokeerimise põhjus, *Tükeldatud töö*, näitab, millal on töö ID tükeldamise protsessis. See kuvatakse **Töö tükeldamise** lehel kui ka mobiilirakenduses Warehouse Management, kui kasutaja proovib tööd teha. Blokeerimise põhjuste kasutamisel muudetakse **Blokeeritud voo** välja nimi töö ID-lt olekusse **Blokeeritud**.
 
 ## <a name="initiate-a-work-split"></a>Alusta töö tükeldamist
 
@@ -96,7 +96,7 @@ Töö tükeldamiseks toimige järgmiselt.
 
     **Töö blokeerimise põhjuse** väli praeguse töö jaoks seatakse olekusse *Töö tükeldamine* ja töö blokeeritakse.
 
-    ![Blokeerimise põhjus](media/Blocking_reason.png "Blokeerimise põhjus")
+    ![Blokeerimise põhjus.](media/Blocking_reason.png "Blokeerimise põhjus")
 
 1. Valige praeguse töö ID-lt eemaldatav rida ja lisage uus töö ID. Toimub järgmine:
 
@@ -147,10 +147,13 @@ Töö tükeldamise lõpetamiseks tuleb eemaldada *Töö tükeldamise* blokeerimi
 
 Pärast *Töö tükeldamise* blokeerimise põhjuse eemaldamist saab tööd mobiilsel seadmel käitada tingimusel, et Töö ID **Blokeeritud** olekuks on määratud *Ei*.
 
-## <a name="user-blocking-on-the-warehouse-app"></a>Kasutaja blokeerimine lao rakenduses
+## <a name="user-blocking-on-the-warehouse-management-mobile-app"></a>Laohalduse mobiilirakenduse kasutaja blokeerimine
 
-Kui proovite laorakenduses avada tükeldamise lehte töö ID-ga, mida teine kasutaja juba tükeldab, kuvatakse järgmine tõrketeade: "Töö ID \#\#\#\# on hetkel tükeldatud." Kui kuvatakse järgneb sõnum, vajutage **Tühista**. Seejärel saate jätkata teiste tööde töötlemist.
+Kui proovite mobiilirakenduses Warehouse Management avada tükeldamise lehte töö ID-ga, mida teine kasutaja juba tükeldab, kuvatakse järgmine tõrketeade: "Töö ID \#\#\#\# on hetkel tükeldatud." Kui kuvatakse järgneb sõnum, vajutage **Tühista**. Seejärel saate jätkata teiste tööde töötlemist.
 
 ## <a name="other-blocked-operations"></a>Muud blokeeritud toimingud
 
 Toimingud, mis muudavad tööridu, töö laokandeid või täiendamise linke, mis on seotud tööga, mis on tükeldatud, nurjuvad ja kuvatakse järgmine tõrketeade: "Töö ID-ga \#\#\#\# on praegu tükeldatud."
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

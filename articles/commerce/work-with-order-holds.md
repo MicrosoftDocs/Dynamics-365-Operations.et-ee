@@ -2,16 +2,13 @@
 title: Konfigureerimine ja töötamine kõnekeskuse tellimuste ootelolekutega
 description: Selles teemas kirjeldatakse, kuidas töötada tellimuste ootelolekutega rakenduses Dynamics 365 Commerce.
 author: josaw1
-manager: AnnBe
 ms.date: 05/14/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: MCRHoldCodeTable, MCRSalesTableOrderHistory, MCRHoldCodeTrans, MCROrderEventSetup, MCROrderEventTable
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 79132
 ms.assetid: 7c00dc35-73e5-400a-8587-22f37ddfc0e0
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: b11dd48ac629910a82b4d5bfdf9889809b0d829d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: f474b5936f2ae154ad54185becd91865642e8efe3cf10e7dcdbb650c6c833b21
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411690"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6762592"
 ---
 # <a name="configure-and-work-with-call-center-order-holds"></a>Kõnekeskuse tellimuse ootelolekute konfigureerimine ja nendega töötamine
 
@@ -56,7 +53,7 @@ Kui ooteloleku teave on sisestatud ja salvestatud, saab kasutaja lehe **Ootelole
 
 Kui kõnekeskuse kanalil on lipp **Tellimuse lõpetamise lubamine** sisse lülitatud, ei tule ootele pandud tellimusele makset rakendada. Kuid müügitellimuse korral, mis pole ootele pandud, ei saa kasutajad müügitellimuse sisestamise lehelt lahkuda enne, kui makse on rakendatud. Muidugi tuleb makse rakendada enne, kui tellimuse ootel olek vabastatakse.
 
-Lisaks saavad kõnekeskuse kasutajad mingil põhjusel kahtlaseid tellimusi pettuse ohu tõttu käsitsi ootele panna. Tellimusi saab ka automaatselt ootele panna, kui need vastavad aktiivsetele pettuse kriteeriumidele ja reeglitele. Lisateavet tellimuse ooteloleku selle tüübi kohta vt teemast [Pettuseteatiste seadistamine](https://docs.microsoft.com/dynamics365/unified-operations/retail/set-up-fraud-alerts).
+Lisaks saavad kõnekeskuse kasutajad mingil põhjusel kahtlaseid tellimusi pettuse ohu tõttu käsitsi ootele panna. Tellimusi saab ka automaatselt ootele panna, kui need vastavad aktiivsetele pettuse kriteeriumidele ja reeglitele. Lisateavet tellimuse ooteloleku selle tüübi kohta vt teemast [Pettuseteatiste seadistamine](/dynamics365/unified-operations/retail/set-up-fraud-alerts).
 
 ## <a name="viewing-and-managing-orders-that-are-on-hold"></a>Ootel olevate tellimuste vaatamine ja haldamine
 
@@ -103,3 +100,6 @@ Kui kasutajad soovivad ooteloleku tühjendada, kuid teevad tellimusele enne sell
 ## <a name="reporting-options"></a>Aruandlusvalikud
 
 Avage **Jaemüük ja kaubandus** \> **Päringud ja aruanded** \> **Kõnekeskuse aruanded** \> **Tellimuse ootelolekute aruanne**, et käivitada aruanne tellimuste ooteloleku kohta kuupäevavahemiku, ooteloleku koodi või muude valitud kriteeriumide alusel.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

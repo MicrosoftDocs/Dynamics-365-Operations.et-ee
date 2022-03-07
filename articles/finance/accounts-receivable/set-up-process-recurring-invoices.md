@@ -2,28 +2,25 @@
 title: Korduvate arvete seadistamine ja töötlemine
 description: Selles artiklis selgitatakse, kuidas seadistada ja töödelda korduvaid arveid. Saate kasutada korduvaid arveid, kui peate klientidega tuleb arveldada regulaarselt sama summa.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustInvoiceTemplate
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14011
 ms.assetid: 9cc37003-adf1-413d-b2b2-2badcf512e3b
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4b443630d1612b5095fefa74b5ed6d057be534b7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 76dd6b21207b61dfb96e4d9538b5e6ffc1c6b02d
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442264"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835120"
 ---
 # <a name="set-up-and-process-recurring-invoices"></a>Korduvate arvete seadistamine ja töötlemine
 
@@ -67,3 +64,6 @@ Kui korduvad arved on sisestatud, saate printida arved vabas vormis arvete loend
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

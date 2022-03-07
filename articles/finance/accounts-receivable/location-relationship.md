@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 13991
 ms.assetid: 2a0a4789-8619-4974-bef9-0923cc848420
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2018-05-02
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: e38d0bd75ad865b7885182f798beb43551576beb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 13157700b9311e93aa035162ed89ed006e1453b5
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442395"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5228169"
 ---
 # <a name="add-location-and-party-relationship-types"></a>Asukoha ja osapoole seosetüüpide lisamine 
 
@@ -74,3 +73,6 @@ Uue seosetüübi lisamiseks on kaks võimalust.
     3.  Uue seosetüübi katseasustamiseks saate luua käitatava klassi ja kutsuda atribuudi DirDataPopulation::insertDirRelationshipTypes() asukohas Main(). Peaksite uut seosetüüpi nägema tabelis **DirRelationshipTypeTable** ja uus seosetüüp on saadaval lehel **Seosetüübid**.
 
         ![Käitatav klass](media/Runnable.PNG)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

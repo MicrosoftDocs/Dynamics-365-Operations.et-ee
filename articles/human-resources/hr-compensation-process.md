@@ -2,29 +2,29 @@
 title: Tasu töötlemine
 description: Tasu töötlemise abil saate arvutada omakapitali kohanduste, teenetel põhineva palgatõusu sihtväärtuste ja tulemuste põhjal töötajate uusi põhipalga summasid.
 author: andreabichsel
-manager: AnnBe
 ms.date: 11/01/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 979a4f311d59cb51cdf0fc6ce85d5b3338ffa870
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 59627edd4503d9d4d5a87d8eb09b4be4f855c112
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418150"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5800923"
 ---
 # <a name="process-compensation"></a>Tasu töötlemine
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Tasu töötlemise abil saate arvutada omakapitali kohanduste, teenetel põhineva palgatõusu sihtväärtuste ja tulemuste põhjal töötajate uusi põhipalga summasid. See artikkel käsitleb tasude töötlemise põhivoogu põhipalga plaanide puhul ilma töötaja tulemusi arvesse võtmata.
 
@@ -77,3 +77,6 @@ Kui töötaja tasusummad on üle vaadatud ja soovitud väärtused korrigeeritud,
 Kui vähemalt ühe töötaja olek on muutunud olekuks Kinnitatud, saab need laadida töötaja põhipalga kirjetesse. Seda saab teha, valides ühekaupa kõik töötaja sündmused ja klõpsates lehel **Töötaja tulemused** nuppu **Laadi töötaja tasu** või klõpsates nuppu **Laadi tasu** lehel **Protsessi tulemused** kõigi kinnitatud töötaja sündmuste korraga laadimiseks.
 
 Kui klõpsata nuppu **OK** dialoogis **Laadi tasu**, lisatakse nullist erinevad tasutegevuse read lehele **Töötaja põhipalk**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

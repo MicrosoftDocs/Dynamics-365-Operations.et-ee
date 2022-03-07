@@ -10,18 +10,17 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.assetid: ''
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: a5c14f9529d11898e43f128c26859fc17fac9b73
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 72581a6d852fe6eb5b4ad894027c1f5a3b5363e5
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442477"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5250598"
 ---
 # <a name="electronic-reporting-sample-vendor-checks"></a>Elektroonilise aruandluse hankija näidistšekid
 
@@ -44,3 +43,6 @@ Microsoft Dynamics 365 Finance sisaldab ka näidisvormingut, kus tšekk on ülal
 - Maksetöölehel konfigureeritud pangakontole maksete loomisel prinditakse tšekid, kasutades määratud vormingut.
 
 Lisateavet leiate jaotisest [Elektroonilise aruandluse vormingu muutmine](../../dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

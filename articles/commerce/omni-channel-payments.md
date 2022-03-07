@@ -2,15 +2,12 @@
 title: Omnikanali maksete ülevaade
 description: Selles teemas antakse ülevaade omnikanali maksetest rakenduses Dynamics 365 Commerce.
 author: rubendel
-manager: AnnBe
 ms.date: 09/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
-ms.search.scope: Operations, Retail
 ms.custom: 141393
 ms.assetid: ''
 ms.search.region: Global
@@ -18,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: AX 8.1.3
-ms.openlocfilehash: 80eaf36fb382e0ebe0a66383ea17ab76faa07dfa
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 07d8e740e8f20533272c403446d5e8294c9f37a1
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411795"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5791122"
 ---
 # <a name="omni-channel-payments-overview"></a>Omnikanali maksete ülevaade
 
@@ -238,3 +235,6 @@ Kui järele minnakse tellimusele, millel on mitu maksevahendid ja mitu rida, esi
 - [Dynamics 365 maksekonnektor Adyeni jaoks](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3)
 - [BOPIS-e konfigureerimine Dynamics 365 Commerce'i hindamiskeskkonnas](https://docs.microsoft.com/dynamics365/commerce/cpe-bopis)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Tagasimaksete töötlemine kõnekeskustes
 description: Selles teemas kirjeldatakse, kuidas genereeritakse kõnekeskuste kaudu maksete tagasimaksed, kui luuakse tagastused või tühistatakse tellimused või tellimusread.
 author: hhainesms
+manager: annbe
 ms.date: 01/05/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -12,12 +14,12 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8d5bcf3a0d36e323ee96c1f37829a95b60f529bc
-ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
-ms.translationtype: MT
+ms.openlocfilehash: fd49835a24dc6ec429ac4b01f363f1be937628ac
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7944709"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5214719"
 ---
 # <a name="refund-payment-processing-in-call-centers"></a>Tagasimaksete töötlemine kõnekeskustes
 
@@ -33,14 +35,11 @@ Kõnekeskuse loogika määrab tagasimakse rea makseviisi, mis põhineb algses te
 
 Kõnekeskus lähtub tagastustellimusele rakendatava makseviisi määramisel algse tellimuse makseviisist. Allpool on teave selle kohta, kuidas toimib see protsess järgmiste algsete makseviiside korral.
 
-- **Tavaline** (sularaha) või **Tšekk** – kui loodud tagastustellimus viitab algsele tellimusele, mille eest maksmiseks kasutati tavalist (sularaha) või tšekipõhist makseviisi, viitab kõnekeskuse rakendus konfiguratsioonidele lehel **Kõnekeskuse tagasimakseviisid**. See leht võimaldab organisatsioonidel määrata tellimuse vääringu alusel seda, kuidas väljastatakse tagasimakseid klientidele tellimuste eest, mille eest algselt tasumiseks kasutati tavalist või tšekipõhist maksetüüpi. Kõnekeskuse **tagasimakse meetodite leht võimaldab** organisatsioonil valida ka selle, kas kliendile tuleb saata süsteemi loodud tagasimakse kontroll. Nendes stsenaariumides viitab kõnekeskuse loogika tagastustellimuse vääringule ja kasutab seejärel tagastamise müügitellimuse tagasimakse rea loomiseks väljal **Jaemüügi makseviis** toodud väärtust selle vääringu kohta. Hiljem lingitakse vääringuga müügireskontro (AR) kliendi maksetööleht, mis kasutab vastendatud AR-makseviisi.
+- **Tavaline** (sularaha) või **Tšekk** – kui loodud tagastustellimus viitab algsele tellimusele, mille eest maksmiseks kasutati tavalist (sularaha) või tšekipõhist makseviisi, viitab kõnekeskuse rakendus konfiguratsioonidele lehel **Kõnekeskuse tagasimakseviisid**. See leht võimaldab organisatsioonidel määrata tellimuse vääringu alusel seda, kuidas väljastatakse tagasimakseid klientidele tellimuste eest, mille eest algselt tasumiseks kasutati tavalist või tšekipõhist maksetüüpi. Samuti võimaldab leht **Kõnekeskuse tagasimakseviisid** organisatsioonidel valida, kas saata kliendile süsteemi genereeritud tagasimaksetšekk või luua ettevõttesisesel kliendikonto bilansil kliendikonto kreedit. Nendes stsenaariumides viitab kõnekeskuse loogika tagastustellimuse vääringule ja kasutab seejärel tagastamise müügitellimuse tagasimakse rea loomiseks väljal **Jaemüügi makseviis** toodud väärtust selle vääringu kohta. Hiljem lingitakse vääringuga müügireskontro (AR) kliendi maksetööleht, mis kasutab vastendatud AR-makseviisi.
 
     Järgmisel joonisel on toodud konfiguratsioon sellise stsenaariumi korral, kus klient tagastab tooted, mis pärinevad USD vääringuga lingitud müügitellimusest, ja mille eest algselt tasumiseks kasutati tavalist või tšekipõhist maksetüüpi. Selles stsenaariumis väljastatakse kliendile tagasimakse süsteemi genereeritud tagasimaksetšeki kaudu. AR-makseviis **REF-CHK** on konfigureeritud tagasimaksetšeki maksetüübina.
 
-    ![Kõnekeskuse tagasimakseviiside konfigureerimine tavaliste ja tšekipõhiste algsete maksete korral.](media/callcenterrefundmethods.png)
-
-    > [!NOTE]
-    > Kliendi konto ei ole sularaha- või tšekimaksete tagasimakseviis.
+    ![Kõnekeskuse tagasimakseviiside konfigureerimine tavaliste ja tšekipõhiste algsete maksete korral](media/callcenterrefundmethods.png)
 
 - **Krediitkaart** – kui loodud tagastustellimus viitab algsele tellimusele, mille eest maksmiseks kasutati krediitkaarti, rakendab kõnekeskuse tagasimakseloogika tagastustellimusele sama algse krediitkaardi.
 - **Kliendikaart** – kui loodud tagastustellimus viitab algsele tellimusele, mille eest maksmiseks kasutati kliendikaarti, rakendab kõnekeskuse tagasimakseloogika tagasimakse samale algsele kliendikaardile.

@@ -2,25 +2,22 @@
 title: Tellimuse tagasikutsumise toiming kassas
 description: Selles teemas selgitatakse funktsioonivõimalusi, mis on saadaval kassas täiustatud tellimuse tagasikutsumise lehtedel.
 author: hhainesms
-manager: annbe
-ms.date: 10/09/2020
+ms.date: 03/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 42b11ff16757d633b868dfdf248341193a44378f
-ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
-ms.translationtype: HT
+ms.openlocfilehash: 43d6b2e4e5d923b16b02337432fc5259f66c0bf1a8ba1dbf311fb76cb3f085e1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4665294"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6737600"
 ---
 # <a name="recall-order-operation-in-pos"></a>Tellimuse tagasikutsumise toiming kassas
 
@@ -32,7 +29,7 @@ Selle funktsiooni lubamiseks lülitage sisse funktsioon **Täiustatud tellimuse 
 
 Toimingu **Tellimuse tagasikutsumine** nupp võimaldab organisatsioonidel teha toimingut eelnevalt määratletud kuva kaudu.
 
-![Nupuruudustiku konfiguratsioon](media/recallorderbuttongrid.png)
+![Nupuruudustiku konfiguratsioon.](media/recallorderbuttongrid.png)
 
 Kuvasuvandid on järgmised.
 - **Puudub** – see suvand käivitab toimingu ilma kindla kuvata. Kui kasutaja avab toimingu selle konfiguratsiooniga, palutakse neil tellimusi otsida ja leida või valida eelnevalt määratud tellimuse filtri seast.
@@ -45,22 +42,28 @@ Kui kassas käivitatakse toiming **Tellimuse tagasikutsumine** ja kuva väärtus
 - Valige rakenduseribalt ikoon **Otsi tellimusi** või **Otsi ja filtreeri**, et kasutada kriteeriumidele vastavate tellimuste leidmiseks filtreerimist.
 - Valige eelmääratletud filtri kaudu rippmenüüst **Kuva tellimused** (täidetavad tellimused, pealevõetavad tellimused või lähetatavad tellimused).
 
-![RecallOrderMainMenu](media/recallordermain.png)
+![RecallOrderMainMenu.](media/recallordermain.png)
 
-Pärast otsingukriteeriumide rakendamist kuvatakse rakenduses ühtivate müügitellimuste loend.
+Pärast otsingukriteeriumide rakendamist kuvatakse rakenduses ühtivate müügitellimuste loend. Otsingu-/filtrisuvandite kasutamisel ei pea toodud tellimused olema kasutaja praeguse kauplusega lingitud tellimused. See otsinguprotsess toob ja kuvab kõik otsingukriteeriumitele vastavad klienditellimused, isegi kui tellimus on loodud või seatud täidetuks teise kaupluse/kanali või lao asukoha poolt.
 
-![RecallOrderDetail](media/orderrecalldetail.png)
+![RecallOrderDetail.](media/orderrecalldetail.png)
 
 Kasutaja saab valida loendist tellimuse, et vaadata täiendavaid üksikasju. Ekraani paremas servas oleval teabepaanil kuvatakse valitud tellimuse üksikasjad, sh tellimuse rea üksikasjad, tarne üksikasjad ja täitmise üksikasjad.
 
 Rakendusepaanilt saab kasutaja valida toimingu. Sõltuvalt tellimuse olekust ei pruugi kindlad toimingud lubatud olla.
 
-- **Tagasta** – käivitab valitud klienditellimusega seotud ühe või mitme arve tagastamise.
+- **Tagastus** – käivitab valitud klienditellimusel arveldatud toodete tagastuse loomise protsessi.
 
-- **Tühista** – tühistab valitud müügitellimuse täielikult.
+- **Tühista** – tühistab valitud müügitellimuse täielikult. See valik pole kõnekeskuse kanali kaudu algatatud tellimuste puhul saadaval ja seda ei saa kasutada tellimuse osaliseks tühistamiseks.
 
 - **Täida** – viib kasutaja tellimuse täitmise lehele, mis on valitud tellimuse jaoks eelfiltreeritud. Kuvatakse ainult tellimuse read, mida saab valitud tellimuse puhul kasutaja kaupluses täita.
 
-- **Redigeeri** – lubab kasutajatel valitud klienditellimust muuta.
+- **Redigeeri** – lubab kasutajatel valitud klienditellimust muuta. Tellimusi saab redigeerida ainult [teatud stsenaariumide puhul](customer-orders-overview.md#edit-an-existing-customer-order).
 
-- **Pealevõtmine** – käivitab pealevõtmise voo, mis võimaldab kasutajal valida peale võtavad tooted ning loob pealevõtmise müügitehingu.
+- **Pealeregistreerimine** – see suvand on saadaval, kui tellimusel on üks või mitu rida määratud kasutaja praegusesse kauplusesse järele. Pealevõtmine – käivitab pealevõtmise voo, mis võimaldab kasutajal valida peale võtavad tooted ning loob pealevõtmise müügitehingu.
+
+## <a name="add-notifications-to-the-recall-order-operation"></a>Lisage teatised tagasikutsumistellimuse toimingusse
+
+Versioonis 10.0.18 ja uuemates versioonides saate konfigureerida müügikoha teatised ja reaalajas paani teatised **tellimuse tagasikutsumise** toimingu jaoks, kui soovite. Lisateavet vt [müügikohas tellimuse teatiste näitamiseks](notifications-pos.md).  
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

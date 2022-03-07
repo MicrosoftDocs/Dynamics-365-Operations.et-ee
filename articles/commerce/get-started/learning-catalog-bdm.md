@@ -6,7 +6,6 @@ ms.date: 07/27/2020
 ms.topic: article
 ms.author: margoc
 ms.prod: ''
-ms.service: Dynamics365Operations
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
@@ -14,12 +13,12 @@ ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 4402759b3bf0cc61fded697c66eab6dc6b429664
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: d6d9dab85a5756d86051db52f16e6e0a46e20dcb
+ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411698"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "7402420"
 ---
 # <a name="learning-catalog-for-business-and-technical-decision-makers-considering-dynamics-365-commerce"></a>Õppekataloog äri- ja tehniliste otsuste tegijatele, kes kaaluvad Dynamics 365 Commerce'i ostmist
 
@@ -33,6 +32,9 @@ Koolitused, milles käsitletakse funktsioone, mis on ka teistes Finance and Oper
 
 | Sisu   | Kirjeldus   | Vorming    | Pikkus    |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-----------|
-| [Microsoft Dynamics 365 ja Power Platformi äriväärtustega tutvumine](https://docs.microsoft.com/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | Selle õppeprotsessi käigus näitame teile, kuidas digitaalne teisendus ja ärirakenduste võimsus võivad teie ettevõtet arendada. Kirjeldame seda, kuidas Dynamics 365 ja Power Platform aitavad teil teha teie ettevõtte vajadustest ja eesmärkidest lähtuvaid teadlikke otsuseid nelja digitaalse teisenduse koosteüksuse (tänapäevane, ühtlustatud, intelligentne ja kohandatav) kaudu.                  | Tasuta iseläbitav internetipõhine õppetee                                          | 6.5 tundi   |
-| [Dynamics 365 Commercei kasutamise alustamine](https://docs.microsoft.com/learn/paths/get-started-dynamics-365-commerce/)                                                       | Teenuse Dynamics 365 Retail tõestatud funktsioonidel põhinev Dynamics 365 Commerce pakub ulatuslikku mitmekanalilist lahendust, mis ühendab endas kontori-, poe-, kõnekeskuse ja digifunktsionaalsuse. Dynamics 365 Commerce võimaldab teil luua tootemargi lojaalsust läbi isikustatud kliendi kaasamiste, suurendada tulu parandatud töötajate produktiivsusega, optimeerida toiminguid kulude vähendamiseks ja juhtida tarneahela efektiivsust, pakkudes lõpuks paremaid ettevõtte tulemusi. | Tasuta iseläbitav internetipõhine õppetee                                          | 2 tundi   |
-| [Dynamics 365 Fraud Protectioni kasutamise alustamine](https://docs.microsoft.com/learn/modules/get-started-fraud-protection/)| Dynamics 365 Fraud Protection on pilvepõhine lahendus, mis on mõeldud e-kaubanduse, füüsiliste kaupluste ja omnikanali kaupmeeste jaoks, et aidata kaitsta nende tulu ning mainet, pakkudes tööriistu ja võimalusi pettuste ning kuritarvitamise vähendamiseks, tegevuskulude langetamiseks ja nõustumismäärade suurendamiseks, kaitstes samal ajal kasutajakontosid pettuste eest. | Tasuta iseläbitav internetipõhine õppetee | 35 minutit |
+| [Microsoft Dynamics 365 ja Power Platformi äriväärtustega tutvumine](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | Selle õppeprotsessi käigus näitame teile, kuidas digitaalne teisendus ja ärirakenduste võimsus võivad teie ettevõtet arendada. Kirjeldame seda, kuidas Dynamics 365 ja Power Platform aitavad teil teha teie ettevõtte vajadustest ja eesmärkidest lähtuvaid teadlikke otsuseid nelja digitaalse teisenduse koosteüksuse (tänapäevane, ühtlustatud, intelligentne ja kohandatav) kaudu.                  | Tasuta iseläbitav internetipõhine õppetee                                          | 6.5 tundi   |
+| [Dynamics 365 Commercei kasutamise alustamine](/learn/paths/get-started-dynamics-365-commerce/)                                                       | Teenuse Dynamics 365 Retail tõestatud funktsioonidel põhinev Dynamics 365 Commerce pakub ulatuslikku mitmekanalilist lahendust, mis ühendab endas kontori-, poe-, kõnekeskuse ja digifunktsionaalsuse. Dynamics 365 Commerce võimaldab teil luua tootemargi lojaalsust läbi isikustatud kliendi kaasamiste, suurendada tulu parandatud töötajate produktiivsusega, optimeerida toiminguid kulude vähendamiseks ja juhtida tarneahela efektiivsust, pakkudes lõpuks paremaid ettevõtte tulemusi. | Tasuta iseläbitav internetipõhine õppetee                                          | 2 tundi   |
+| [Dynamics 365 Fraud Protectioni kasutamise alustamine](/learn/modules/get-started-fraud-protection/)| Dynamics 365 Fraud Protection on pilvepõhine lahendus, mis on mõeldud e-kaubanduse, füüsiliste kaupluste ja omnikanali kaupmeeste jaoks, et aidata kaitsta nende tulu ning mainet, pakkudes tööriistu ja võimalusi pettuste ning kuritarvitamise vähendamiseks, tegevuskulude langetamiseks ja nõustumismäärade suurendamiseks, kaitstes samal ajal kasutajakontosid pettuste eest. | Tasuta iseläbitav internetipõhine õppetee | 35 minutit |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

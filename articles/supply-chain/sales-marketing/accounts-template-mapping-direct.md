@@ -1,39 +1,36 @@
 ---
 title: Rakenduse Sales kontode sünkroonimine otse rakenduse Supply Chain Management klientidega
 description: Selles teemas käsitletakse malle ja aluseks olevaid ülesandeid, mida kasutatakse kontode sünkroonimiseks rakendusest Dynamics 365 Sales rakendusse Supply Chain Management.
-author: ChristianRytt
-manager: tfehr
+author: Henrikan
 ms.date: 10/25/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: crytt
+ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 8aa03f94e0fb89a6d34ce014dbb6004a1a666327
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
-ms.translationtype: HT
+ms.openlocfilehash: b3257f4582ede6cd1be8e593a5ed99f5ffd0ca6f
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4529206"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063081"
 ---
 # <a name="synchronize-accounts-directly-from-sales-to-customers-in-supply-chain-management"></a>Rakenduse Sales kontode sünkroonimine otse rakenduse Supply Chain Management klientidega
 
 [!include [banner](../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 > [!NOTE]
-> Enne kui saate kasutada lahendust Potentsiaalne klient sularahaks, tutvuge [andmete integreerimisega teenusesse Common Data Service for Apps](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+> Enne kui saate kasutada lahendust Potentsiaalne klient sularahaks, tutvuge [andmete integreerimisega teenusesse Microsoft Dataverse for Apps](/powerapps/administrator/data-integrator).
 
 Selles teemas käsitletakse malle ja aluseks olevaid ülesandeid, mida kasutatakse kontode sünkroonimiseks otse rakendusest Dynamics 365 Sales rakendusse Dynamics 365 Supply Chain Management.
 
@@ -41,7 +38,7 @@ Selles teemas käsitletakse malle ja aluseks olevaid ülesandeid, mida kasutatak
 
 Lahendus Potentsiaalne klient sularahaks kasutab andmete integreerimise funktsiooni andmete sünkroonimiseks rakenduste Supply Chain Management ja Sales vahel.  Andmete integratsiooniga saadaolevad lahenduse Potentsiaalne klient sularahaks mallid võimaldavad kontode, kontaktide, toodete, müügipakkumiste, müügitellimuste ja müügiarvete andmete liikumist rakenduste Supply Chain Management ja Sales. Järgmine illustratsioon näitab, kuidas sünkroonitakse andmeid rakenduste Supply Chain Management ja Sales vahel.
 
-[![Andmevoog lahenduses Potentsiaalne klient sularahaks](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
+[![Andmevoog lahenduses Potentsiaalne klient sularahaks.](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
 ## <a name="templates-and-tasks"></a>Mallid ja ülesanded
 
@@ -66,11 +63,11 @@ Kontosid hallatakse rakenduses Sales ja need sünkroonitakse rakendusega Supply 
 
 ## <a name="prospect-to-cash-solution-for-sales"></a>Lahendus Potentsiaalne klient sularahaks rakendusele Sales
 
-Väli **Konto number** on saadaval lehel **Konto**. See on loomulik ja kordumatu võti, et toetada integratsiooni. Kliendisuhete halduse (CRM) lahenduse loomuliku võtme funktsioon võib mõjutada kliente, kes juba kasutavad välja **Konto number**, kuid ei kasuta iga konto puhul atribuudi **Konto number** kordumatuid väärtusi. Praegu ei toeta integratsioonilahendus seda juhtumit.
+Veerg **Konto number** on saadaval lehel **Konto**. See on loomulik ja kordumatu võti, et toetada integratsiooni. Kliendisuhete halduse (CRM) lahenduse loomuliku võtme funktsioon võib mõjutada kliente, kes juba kasutavad veergu **Konto number**, kuid ei kasuta iga konto puhul atribuudi **Konto number** kordumatuid väärtusi. Praegu ei toeta integratsioonilahendus seda juhtumit.
 
 Kui uue konto loomisel ei ole atribuudi **Konto number** väärtust veel olemas, luuakse see automaatselt numbriseeriat kasutades. Väärtus sisaldab sõnet **ACC**, millele järgneb suurenev numbriseeria ja seejärel kuuest tähemärgist koosnev järelliide. Näide: **ACC-01000-BVRCPS**
 
-Kui rakendatakse integratsioonilahendust rakendusele Sales, seab täiendusskript välja **Konto number** olemasolevatele kontodele rakenduses Sales. Kui ühtki atribuudi **Konto number** väärtust ei ole, kasutatakse varem mainitud numbriseeriat.
+Kui rakendatakse integratsioonilahendust rakendusele Sales, seab täiendusskript veeru **Konto number** olemasolevatele kontodele rakenduses Sales. Kui ühtki atribuudi **Konto number** väärtust ei ole, kasutatakse varem mainitud numbriseeriat.
 
 ## <a name="preconditions-and-mapping-setup"></a>Eeltingimused ja vastendamise seadistamine
 
@@ -95,14 +92,14 @@ Kui rakendatakse integratsioonilahendust rakendusele Sales, seab täiendusskript
 ## <a name="template-mapping-in-data-integration"></a>Malli vastendamine andmete integratsioonis
 
 > [!NOTE]
-> Väljad **Maksetingimused**, **Veosetingimused**, **Tarnetingimused**, **Saatmisviis** ja **Tarneviis** ei ole vaikevastenduste osa. Nende väljade vastendamiseks peate seadistama väärtuskaardi, mis on kohane neis organisatsioonides olevatele andmetele, mille vahel üksust sünkroonitakse.
+> Veerud **Maksetingimused**, **Veosetingimused**, **Tarnetingimused**, **Saatmisviis** ja **Tarneviis** ei ole vaikevastenduste osa. Nende veergude vastendamiseks peate seadistama väärtuskaardi, mis on kohane neis organisatsioonides olevatele andmetele, mille vahel tabelit sünkroonitakse.
 
 Järgmisel joonisel on toodud näide malli vastendusest andmete integratsioonis. 
 
 > [!NOTE]
-> Vastendamine näitab, millise välja teave sünkroonitakse rakendusest Sales rakendusse Supply Chain Management.
+> Vastendamine näitab, millise veeru teave sünkroonitakse rakendusest Sales rakendusse Supply Chain Management.
 
-![Malli vastendamine andmete integratsioonis](./media/accounts-direct-template-mapping-data-integrator-1.png)
+![Malli vastendamine andmete integratsioonis.](./media/accounts-direct-template-mapping-data-integrator-1.png)
 
 ## <a name="related-topics"></a>Seotud dokumendid
 
@@ -117,3 +114,6 @@ Järgmisel joonisel on toodud näide malli vastendusest andmete integratsioonis.
 
 [Rakenduse Supply Chain Management arve päiste ja ridade sünkroonimine otse rakendusega Sales](sales-invoice-template-mapping-direct.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

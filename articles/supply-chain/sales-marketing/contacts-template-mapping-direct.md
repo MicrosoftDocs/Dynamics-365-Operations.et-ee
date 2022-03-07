@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: a252c3ecb12cb6a4dc429f35c8aeab6bd3914d03
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 8cbc2909c3f4533b4ea68e522f0874873989f3ce
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528945"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4994040"
 ---
 # <a name="synchronize-contacts-directly-from-sales-to-contacts-or-customers-in-supply-chain-management"></a>Rakenduse Sales kontaktide sünkroonimine otse rakenduse Supply Chain Management kontaktide või klientidega
 
@@ -33,9 +32,9 @@ ms.locfileid: "4528945"
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 > [!NOTE]
-> Enne kui saate kasutada lahendust Potentsiaalne klient sularahaks, tutvuge [andmete integreerimisega teenusesse Common Data Service for Apps](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+> Enne kui saate kasutada lahendust Potentsiaalne klient sularahaks, tutvuge [andmete integreerimisega teenusesse Microsoft Dataverse for Apps](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 
-Selles teemas käsitletakse malle ja aluseks olevaid ülesandeid, mida kasutatakse üksuste Kontakt (kontaktid) ja Kontakt (kliendid) sünkroonimiseks rakendusest Dynamics 365 Sales otse rakendusse Dynamics 365 Supply Chain Management.
+Selles teemas käsitletakse malle ja aluseks olevaid ülesandeid, mida kasutatakse tabelites Kontakt (kontaktid) ja Kontakt (kliendid) sünkroonimiseks rakendusest Dynamics 365 Sales otse rakendusse Dynamics 365 Supply Chain Management.
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Andmevoog lahenduses Potentsiaalne klient sularahaks
 
@@ -47,7 +46,7 @@ Lahendus Potentsiaalne klient sularahaks kasutab andmete integreerimise funktsio
 
 Saadaolevatele mallidele juurdepääsemiseks avage [PowerAppsi administreerimiskeskus](https://preview.admin.powerapps.com/dataintegration). Valige **Projektid** ja seejärel paremas ülanurgas **Uus projekt**, et valida avalikud mallid.
 
-Rakenduse Sales kontaktide (kontaktid) sünkroonimiseks rakenduse Supply Chain Management kontaktidega (kliendid)kasutatakse järgmisi malle ja aluseks olevaid ülesandeid.
+Rakenduse Sales tabeli Kontaktid (kontaktid) sünkroonimiseks rakenduse Supply Chain Management tabelisse Kontaktid (kliendid) kasutatakse järgmisi malle ja aluseks olevaid ülesandeid.
 
 - **Mallide nimed andmeintegratsioonis**
 
@@ -65,7 +64,7 @@ Enne kontakti sünkroonimist on nõutav järgmine sünkroonimisülesanne: kontod
 
 | Müük    | Supply Chain Management |
 |----------|------------------------|
-| Kontaktid | CDS-i kontaktid           |
+| Kontaktid | Dataverse’i kontaktid           |
 | Kontaktid | Kliendid V2           |
 
 ## <a name="entity-flow"></a>Üksuse voog
@@ -79,13 +78,13 @@ Kontakt rakenduses Sales võib olla rakenduses Supply Chain Management kontakt v
 
 ## <a name="prospect-to-cash-solution-for-sales"></a>Lahendus Potentsiaalne klient sularahaks rakendusele Sales
 
-Kontaktile on lisatud uus väli **On aktiivne klient**. Seda välja kasutatakse müügitegevusega kontaktide eristamiseks müügitellimuseta kontaktidest. Suvandi **On aktiivne klient** sätteks on seatud **Jah** ainult kontaktide puhul, kellel on seotud pakkumisi, tellimusi või arveid. Ainult need kontaktid sünkroonitakse rakendusega Supply Chain Management klientidena.
+Kontaktile on lisatud uus veerg **On aktiivne klient**. Seda veergu kasutatakse müügitegevusega kontaktide eristamiseks müügitellimuseta kontaktidest. Suvandi **On aktiivne klient** sätteks on seatud **Jah** ainult kontaktide puhul, kellel on seotud pakkumisi, tellimusi või arveid. Ainult need kontaktid sünkroonitakse rakendusega Supply Chain Management klientidena.
 
-Kontaktile on lisatud uus väli **IsCompanyAnAccount**. See väli näitab, kas kontakt on lingitud ettevõttega (peakonto/kontakt), mille tüüp on **Konto**. Seda teavet kasutatakse kontaktide tuvastamiseks, kes tuleb sünkroonida rakendusega Supply Chain Management kontaktidena.
+Kontaktile on lisatud uus veerg **IsCompanyAnAccount**. See veerg näitab, kas kontakt on lingitud ettevõttega (peakonto/kontakt), mille tüüp on **Konto**. Seda teavet kasutatakse kontaktide tuvastamiseks, kes tuleb sünkroonida rakendusega Supply Chain Management kontaktidena.
 
-Kontaktile on lisatud uus väli **Kontakti number**, et tagada integratsiooni jaoks loomulik ja kordumatu võti. Kui uus kontakt on loodud, luuakse numbriseeria abil automaatselt väärtus **Kontakti number**. Väärtus sisaldab sõnet **CON**, millele järgneb suurenev numbriseeria ja seejärel kuuest tähemärgist koosnev järelliide. Näide: **CON-01000-BVRCPS**
+Kontaktile on lisatud uus veerg **Kontakti number**, et tagada integratsiooni jaoks loomulik ja kordumatu võti. Kui uus kontakt on loodud, luuakse numbriseeria abil automaatselt väärtus **Kontakti number**. Väärtus sisaldab sõnet **CON**, millele järgneb suurenev numbriseeria ja seejärel kuuest tähemärgist koosnev järelliide. Näide: **CON-01000-BVRCPS**
 
-Kui rakendusele Sales on lisatud integratsioonilahendus, seab täiendusskript välja **Kontakti number** olemasolevatele kontaktidele, kasutades eespool mainitud numbriseeriat. Täiendusskript seab ka välja **On aktiivne klient** sätteks **Jah** kõigi müügitegevusega kontaktide puhul.
+Kui rakendusele Sales on lisatud integratsioonilahendus, seab täiendusskript veeru **Kontakti number** olemasolevatele kontaktidele, kasutades eespool mainitud numbriseeriat. Täiendusskript seab ka veeru **On aktiivne klient** sätteks **Jah** kõigi müügitegevusega kontaktide puhul.
 
 ## <a name="in-supply-chain-management"></a>Rakenduses Supply Chain Management
 
@@ -95,7 +94,7 @@ Kontaktid sildistatakse atribuuti **IsContactPersonExternallyMaintained** kasuta
 
 ### <a name="contact-to-customer"></a>Kontakt kliendiga
 
-- **CustomerGroup** on nõutav Supply Chain Managementis. Sünkroonimistõrgete vältimiseks saate määrata vastenduses vaikeväärtuse. Sel juhul kasutatakse seda vaikeväärtust, kui väli on rakenduses Sales tühjaks jäetud.
+- **CustomerGroup** on nõutav Supply Chain Managementis. Sünkroonimistõrgete vältimiseks saate määrata vastenduses vaikeväärtuse. Sel juhul kasutatakse seda vaikeväärtust, kui veerg on rakenduses Sales tühjaks jäetud.
 
     Malli vaikeväärtus on **10**.
 
@@ -118,7 +117,7 @@ Kontaktid sildistatakse atribuuti **IsContactPersonExternallyMaintained** kasuta
 Järgmisel joonisel on toodud näide malli vastendusest andmete integratsioonis. 
 
 > [!NOTE]
-> Vastendamine näitab, millise välja teave sünkroonitakse rakendusest Sales rakendusse Supply Chain Management.
+> Vastendamine näitab, millise veeru teave sünkroonitakse rakendusest Sales rakendusse Supply Chain Management.
 
 ### <a name="contact-to-contact"></a>Kontakt kontaktiga
 

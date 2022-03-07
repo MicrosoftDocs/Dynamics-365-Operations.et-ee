@@ -1,31 +1,28 @@
 ---
-title: Hankija makse arvutatud skontost suurema skonto võtmine
+title: Rohkem kui arvestatud allahindluse võtmine hankija maksel
 description: See artikkel juhatab teid läbi stsenaariumi, kus skonto võetakse summast, mis on suurem kui algselt arvel olev allahindlus. See stsenaarium võib ilmneda juhul, kui organisatsioon lepib müüjaga kokku arvel väiksema summa maksmises.
 author: abruer
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14281
 ms.assetid: 7f0a4197-95dd-4969-ade9-154815cf659e
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b84b3d6ef1a86d8174823345a5ee9181c701c151
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 52e18e75cfad34829dc78486d2b78b8e4211bb948bc5ddd0be85552bd914010b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442206"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6736941"
 ---
-# <a name="take-a-discount-that-is-more-than-the-calculated-discount-for-a-vendor-payment"></a>Hankija makse arvutatud skontost suurema skonto võtmine
+# <a name="take-more-than-the-calculated-discount-for-a-vendor-payment"></a>Rohkem kui arvestatud allahindluse võtmine hankija maksel
 
 [!include [banner](../includes/banner.md)]
 
@@ -39,10 +36,10 @@ Hankija 3051 annab Fabrikamile 4% skontot, kui arve tasutakse seitsme päeva joo
 
 Teave märgitud arve allahindluse kohta kuvatakse lehe **Kannete tasakaalustamine** allosas.
 
-|                              |           |
+| Field                        | Väärtus     |
 |------------------------------|-----------|
 | Skonto kuupäev           | 12.07.2015 |
-| Skonto summa         | 60,00     |
+| Skonto summa         | 60.00     |
 | Kasuta skontot            | Tavaline    |
 | Võetud skonto          | 0,00      |
 | Skonto summa võtmiseks | 60,00     |
@@ -51,3 +48,6 @@ April sisestab maksetöölehe. Arve on täielikult tasakaalustatud maksega summa
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

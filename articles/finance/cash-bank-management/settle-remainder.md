@@ -1,24 +1,26 @@
 ---
 title: Jäägi tasakaalustus
 description: Võite tasakaalustada tasakaalustamistegevusest järelejäänud summa kandes selle summa pearaamatukontole.
-author: twheeloc
-ms.date: 02/16/2022
+author: mikefalkner
+manager: aolson
+ms.date: 10/16/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym, LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: roschlom
 ms.search.validFrom: 2018-12-01
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 881b46774d3ca6a9b91d4dc06babb30c8677183a
-ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
-ms.translationtype: MT
+ms.openlocfilehash: db7f296a99da0eb106e8a10158340eef5642ef39
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8182400"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5208867"
 ---
 # <a name="settle-remainder"></a>Jäägi tasakaalustus
 
@@ -27,13 +29,13 @@ ms.locfileid: "8182400"
 Võite tasakaalustada tasakaalustamistegevusest järelejäänud summa kandes selle summa pearaamatukontole või teisele kliendile. Võite ülejäägi tasakaalustada, kui tasakaalustate töölehele sisestatud summasid või kui tasakaalustate ainult avatud kandeid.
 
 ## <a name="setting-up-defaults"></a>Vaikesätete seadistamine 
-Enne jäägi tasakaalustamist **peate** lubama funktsiooni Tasakaalusta jääk ja seadistama **vaikesätted**.
+Peate lubama funktsiooni Tasakaalusta jääk ja enne jäägi tasakaalustamise kasutamist seadistama vaikesötted
 
 1)  Klõpsake **Müügireskontro > Parameetrid > Tasakaalustused** või **Ostureskontro > Parameetrid > Tasakaalustused**
-2)  Valige vahekaart Tasakaalustamine **ja** klõpsake käsku Luba **tasakaalustamise jääk**.
+2)  Valige vahekaart **Tasakaalustamine** ja klõpsake **Luba jäägi tasakaalustus**
 3)  Jaotises **Põhjuse vaikekood** valige põhjuse vaikekood. Põhjusekoodid peavad olema juba seadistatud jaotises **Müügireskontro > Seadistus > Kliendi mahakandmise põhjuse koodid** või **Ostureskontro > Seadistus > Kliendi mahakandmise põhjuse koodid**. **Jäägi tasakaalustamise vaikekonto** lähtestatakse mahakandmise põhjusekoodi kontole.
 3)  Värskendage **Jäägi tasakaalustamise vaikekontot** vastavalt vajadusele.
-4)  Valige vaiketöölehe **nimes** maksetööleht, mida kasutatakse, kui soovite luua maksetöölehte ainult avatud kannete tasakaalustamisel. Kui lubate jäägi tasakaalustuse funktsiooni, peate lisama töölehe vaikenime.
+4)  Valige **Vaiketöölehe nimi** alt maksetööleht, mida kasutatakse siis, kui soovite luua maksetöölehe, kui te vaid tasakaalustate avatud kandeid. Kui lubate jäägi tasakaalustuse funktsiooni, peate lisama töölehe vaikenime.
 
 ## <a name="settle-remainder-from-a-journal"></a>Tasakaalustage jääk töölehelt
 Kuil te ei luba funktsiooni **Jäägi tasakaalustamine**, võite siiski sisestada kande töölehele ja seejärel tasakaalustada see kannetega, nagu olete teinud varem. Kui klõpsate nupule **OK**, vähendatakse arve avatud saldot sularaha summa võrra. Kui sularaha arvet täielikult ei tasakaalusta, jäetakse arve avatuks ning ülejäänud summa tasakaalustatakse hiljem.
@@ -58,8 +60,8 @@ Saate jääki tasakaalustada ka siis, kui tasakaalustate avatud kandeid ilma tö
 
 Jäägi tasakaalustamiseks toimige järgmiselt.
 
-1)  Märkige leheküljel **Tasakaalustamine** arved või kanded, mida soovite tasakaalustada.
-2)  Klõpsake tasakaalustamise **jääki**.
+1)  Märkige leheküljel **Tasakaalustamine** arved või kanded, mida soovite tasakaalustada
+2)  Klõpsake valikul **Jäägi tasakaalustamine**
 3)  Kuvatakse dialoogiboks, mis näitab summat, mida pearaamatu vastu tasakaalustatakse, jäägei tasakaalustamisel kasutatavat kuupäeva, põhjuse vaikekoodi parameetritest ja vaikekontot parameetritest. 
 4)  Kui sooviti vaikepõhjust muuta, valige uus tasakaalustuse põhjus. Tasakaalustuskonto muudetakse põhjusekoodiga seotud kontoks.
 5)  Redigeerige **tasakaalutuskontot**, kui soovite seda muuta.

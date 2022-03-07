@@ -1,6 +1,6 @@
 ---
-title: Kontsernisiseste tellimuste filtreerimine tellimuse ja tellimuseridade sünkroonimise vältimiseks
-description: See teema kirjeldab, kuidas filtreerida kontsernisiseseid tellimusi nii, et tellimuste ja tellimuseridade üksused ei oleks sünkroonitud.
+title: Kontsernisiseste tellimuste filtreerimine üksuste Orders ja OrderLines sünkroonimise vältimiseks
+description: See teema kirjeldab, kuidas filtreerida kontsernisiseseid tellimusi üksuste Orders (Tellimused) ja OrderLines (Tellimuse read) sünkroonimise vältimiseks.
 author: negudava
 manager: tfehr
 ms.date: 11/09/2020
@@ -11,6 +11,7 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -18,51 +19,49 @@ ms.search.industry: ''
 ms.author: negudava
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-09-20
-ms.openlocfilehash: 342db8c1b4337145bfd61f5698ff6de25434a400
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 6c5e1e2467673badd20366d3bd8e1b93b8078b26
+ms.sourcegitcommit: 0eb33909a419d526eb84b4e4b64d3595d01731ef
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4796602"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4701029"
 ---
-# <a name="filter-intercompany-orders-to-avoid-syncing-orders-and-orderlines"></a>Kontsernisiseste tellimuste filtreerimine tellimuse ja tellimuseridade sünkroonimise vältimiseks
+# <a name="filter-intercompany-orders-to-avoid-synchronizing-orders-and-orderlines"></a>Kontsernisiseste tellimuste filtreerimine üksuste Orders ja OrderLines sünkroonimise vältimiseks
 
 [!include [banner](../../includes/banner.md)]
 
-Saate filtreerida kontsernisiseseid tellimusi nii, et tabeleid **Tellimused** ja **Tellimuseread** ei sünkroonita. Mõningatel juhtudel ei ole kontsernisiseste tellimuste üksikasjad klientide kaasamise rakenduses nõutavad.
+Saate filtreerida kontsernisiseseid tellimusi, et vältida üksuste **Orders** ja **OrderLines** sünkroonimist. Mõningatel juhtudel ei ole kontsernisiseste tellimuste üksikasjad klientide kaasamise rakenduses vajalikud.
 
-Kõik standardsed teenuse Dataverse tabelid on laiendatud viidetega veerule **IntercompanyOrder** ja topeltkirjutamise kaardid on muudetud, et need viitaksid filtrites täiendavatele veergudele. Seega kontsernisiseseid tellimusi enam ei sünkroonita. See protsess aitab ennetada tarbetuid andmeid klientide kaasamise rakenduses.
+Kõiki standardsed teenuse Common Data Service üksused on laiendatud viidetega väljale **IntercompanyOrder** ja topeltkirjutamise kaardid on muudetud, et need viitaksid filtrites täiendavatele väljadele. Selle tulemuseks on, et kontsernisiseseid tellimusi enam ei sünkroonita. See protsess väldib tarbetuid andmeid klientide kaasamise rakenduses.
 
-1. Laiendage tabelit **CDS-i müügitellimuse päised**, lisades viite veerule **IntercompanyOrder**. See veerg täidetakse ainult kontsernisiseste tellimuste puhul. Veerg **IntercompanyOrder** on saadaval tabelis **SalesTable**.
+1. Lisage üksuse **IntercompanyOrder** viide suvandile **CDS-i müügitellimuse päised**. See on täidetud ainult kontsernisiseste tellimuste puhul. Väli **IntercompanyOrder** on saadaval üksuses **SalesTable**.
 
-    :::image type="content" source="media/filter-sales-order-header-field-display.png" alt-text="CDS-i müügitellimuse päisete vastendamine kaardil sihtkohaks":::
+    :::image type="content" source="media/filter-sales-order-header-field-display.png" alt-text="Sihtmärgini ajastamise kaardistamine, SalesOrderHeader":::
+    
+2. Pärast suvandi **CDS-i müügitellimuse päised** laiendamist on väli **IntercompanyOrder** vastendamiseks saadaval. Rakendage filter atribuudiga `INTERCOMPANYORDER == ""` päringu stringina.
 
-2. Pärast suvandi **CDS-i müügitellimuse päised** laiendamist on veerg **IntercompanyOrder** vastendamiseks saadaval. Rakendage filter, millel on `INTERCOMPANYORDER == ""`, päringu stringina.
+    :::image type="content" source="media/filter-sales-order-header.png" alt-text="Müügitellimuste päised, päringu redigeerimine":::
 
-    :::image type="content" source="media/filter-sales-order-header.png" alt-text="CDS-i müügitellimuse päisete päringu dialoogiboksi redigeerimine":::
+3. Lisage viide üksusest **IntercompanyInventTransId** suvandisse **CDS-i müügitellimuste read**.  See on täidetud ainult kontsernisiseste tellimuste puhul. Väli **InterCompanyInventTransID** on saadaval üksuses **SalesLine**.
 
-3. Laiendage tabelit **CDS-i müügitellimuse read**, lisades viite veerule **IntercompanyInventTransId**. See veerg täidetakse ainult kontsernisiseste tellimuste puhul. Veerg **InterCompanyInventTransId** on saadaval tabelis **SalesLine**.
+    :::image type="content" source="media/filter-sales-order-line-field-display.png" alt-text="Sihtmärgini ajastamise kaardistamine, SalesOrderLine":::
 
-    :::image type="content" source="media/filter-sales-order-line-field-display.png" alt-text="CDS-i müügitellimuse ridade vastendamine kaardil sihtkohaks":::
+4. Pärast suvandi **CDS-i müügitellimuse read** laiendamist on väli **IntercompanyInventTransId** vastendamiseks saadaval. Rakendage filter atribuudiga `INTERCOMPANYINVENTTRANSID == ""` päringu stringina.
 
-4. Pärast suvandi **CDS-i müügitellimuse read** laiendamist on veerg **IntercompanyInventTransId** vastendamiseks saadaval. Rakendage filter, millel on `INTERCOMPANYINVENTTRANSID == ""`, päringu stringina.
+    :::image type="content" source="media/filter-sales-order-lines.png" alt-text="Müügitellimuse read, päringu redigeerimine":::
 
-    :::image type="content" source="media/filter-sales-order-lines.png" alt-text="CDS-i müügitellimuse ridade päringu dialoogiboksi redigeerimine":::
+5. Laiendage suvandid **müügitellimuse päis V2** ja **müügiarve read V2** samal viisil, nagu laiendasite teenuse Common Data Service olemid etappides 1 ja 2. Seejärel lisage filtri päringud. Filtri string suvandi **müügiarve päis V2** jaoks on `(INTERCOMPANYORDER == "") && (SALESORDERNUMBER != "")`. Filtri string suvandi **müügiarve read V2** jaoks on `INTERCOMPANYINVENTTRANSID == ""`.
 
-5. Korrake samme 1 ja 2, et laiendada tabelit **Müügiarve päis V2**, ja lisage filtripäring. Sellisel juhul kasutage filtri päringustringina atribuuti `(INTERCOMPANYORDER == "") && (SALESORDERNUMBER != "")`.
+    :::image type="content" source="media/filter-sales-invoice-header-field-display.png" alt-text="Sihtmärgini ajastamise kaardistamine, müügiarve päised":::
 
-    :::image type="content" source="media/filter-sales-invoice-header-field-display.png" alt-text="Müügiarve päise V2 vastendamine kaardil sihtkoha lehele":::
+    :::image type="content" source="media/filter-sales-invoice-header-filter.png" alt-text="Müügiarve päised, päringu redigeerimine":::
 
-    :::image type="content" source="media/filter-sales-invoice-header-filter.png" alt-text="Müügiarve päise V2 päringu dialoogiboksi redigeerimine":::
+    :::image type="content" source="media/filter-sales-invoice-lines-filter.png" alt-text="Müügiarve read, päringu redigeerimine":::
 
-6. Korrake samme 3 ja 4, et laiendada tabelit **Müügiarve read V2**, ja lisage filtripäring. Sellisel juhul kasutage filtri päringustringina atribuuti `INTERCOMPANYINVENTTRANSID == ""`.
+6. Olemil **Pakkumised** puudub kontsernisisene suhe. Kui keegi loob ühe teie kontsernisisese kliendi jaoks pakkumise, saate panna kõik need kliendid ühte kliendigrupi, kasutades välja **CustGroup**.  Päist ja ridu saab laiendada, et lisada väli **CustGroup** ja seejärel filtreerida, et see grupp ei oleks kaasatud.
 
-    :::image type="content" source="media/filter-sales-invoice-lines-filter.png" alt-text="Müügiarve read V2 päringu dialoogiboksi redigeerimine":::
+    :::image type="content" source="media/filter-cust-group.png" alt-text="Sihtmärgini ajastamise kaardistamine, müügipakkumise päis":::
 
-7. Tabelil **Pakkumised** puudub kontsernisisene suhe. Kui keegi loob ühe teie kontsernisisese kliendi jaoks pakkumise, saate kasutada veergu **CustGroup**, et panna kõik need kliendid ühte kliendigruppi. Saate laiendada päist ja ridu, lisades veeru **CustGroup** ja seejärel filtreerida nii, et gruppi ei kaasata.
+7. Pärast olemi **Pakkumised** laiendamist rakendage filter koos atribuudiga `CUSTGROUP !=  "<company>"` päringu stringina.
 
-    :::image type="content" source="media/filter-cust-group.png" alt-text="CDS-i müügipakkumise päise vastendamine kaardil sihtkoha lehele":::
-
-8. Pärast olemi **Pakkumised** laiendamist rakendage filter, millel on atribuut `CUSTGROUP != "<company>"`, päringu stringina.
-
-    :::image type="content" source="media/filter-cust-group-edit.png" alt-text="CDS-i müügipakkumise päise päringu dialoogiboksi redigeerimine":::
+    :::image type="content" source="media/filter-cust-group-edit.png" alt-text="Müügipakkumise päis, päringu redigeerimine":::

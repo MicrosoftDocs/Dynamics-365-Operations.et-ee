@@ -1,12 +1,10 @@
 ---
 title: Manuspiltidega aruannete loomine Office’i vormingus
-description: Järgmistes etappides selgitatakse, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rolli määratud kasutajad saavad luua elektroonilise aruandluse (ER) konfiguratsioone manuspilte sisaldavate elektrooniliste dokumentide loomiseks MS Office'i vormingutes (Excel ja Word).
+description: Selles teemas kirjeldatakse, kuidas kujundada elektroonilise aruandluse (ER) konfiguratsioone luues Excelis ja Wordis manuspilte sisaldavaid elektroonilisi dokumente.
 author: NickSelin
-manager: AnnBe
 ms.date: 06/13/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 78dcdbd83dc717104d437662f7f451c9ecb714cf
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 81b93c14fc4819fffd322a1b364feac3d25a0d24
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684375"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5751554"
 ---
 # <a name="generate-reports-in-office-format-that-have-embedded-images"></a>Manuspiltidega aruannete loomine Office’i vormingus
 
@@ -100,7 +98,7 @@ Selles näites kasutate näidisettevõtte Litware, Inc. jaoks loodud elektroonil
 5. Valige puus „Model for cheques\Cheques printing format“.
 6. Klõpsake valikut Kujundaja.
 7. Klõpsake suvandit Manused.
-8. Klõpsake  Kustuta.
+8. Klõpsake Kustuta.
 9. Klõpsake nuppu Jah.
 10. Klõpsake valikut Uus.
 11. Klõpsake suvandit Fail.
@@ -119,3 +117,6 @@ Selles näites kasutate näidisettevõtte Litware, Inc. jaoks loodud elektroonil
 23. Klõpsake nuppu OK.
     * Vaadake loodud väljund üle. Väljund on loodud manuspiltidega Wordi dokumendina, kus on ettevõtte logo, volitatud isiku allkiri ning vesimärgi jaoks valitud tekst.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

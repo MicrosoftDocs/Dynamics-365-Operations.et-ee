@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: f5b46748ad2f780bfd56078631f3ac66814df9cc
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 4f5ac2403b5d47f5443e8166fd2bd69d20924628
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5018844"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5225702"
 ---
 # <a name="customer-invoices-and-return-sales-orders-in-eastern-european-countries"></a>Kliendiarved ja tagastuse müügitellimused Ida-Euroopa riikides
 
@@ -41,3 +41,6 @@ Saate seadistada Retail POS-is loodud kliendiarvete ja tagastatavate müügitell
 
     * Valige **Organisatsiooni haldus \> Numbriseeriad \> Loendurite haldamine**. Olemas peab olema kirje, kus **Moodul** = **Müük** ja **Tüüp** = **Arve**.
     * Valige **Organisatsiooni haldus \> Numbriseeriad \> Arvete numeratsiooni seadistus**. Märkige **Kaubanduse** märkeruut kliendiarvete nummerdamiseks kasutatava numbriseeria real.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

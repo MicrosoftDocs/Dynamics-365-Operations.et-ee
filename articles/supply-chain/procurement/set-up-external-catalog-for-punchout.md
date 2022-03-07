@@ -1,12 +1,10 @@
 ---
 title: Väliskataloogi häälestamine e-hanke väljaregistreerimiseks
 description: Selles teemas kirjeldatakse välise kataloogi või väljaregistreeritava kataloogi kasutamist hankijalt hinnapakkumise teabe kogumiseks ja selle lisamiseks ostutaotlusele.
-author: RichardLuan
-manager: tfehr
+author: kamaybac
 ms.date: 11/02/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, PurchVendorPortalRequests, CatExternalCatalogConfiguration, CatCXMLCartLogList
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 30211
 ms.assetid: 3c7e0e1c-703c-4bbf-b90c-84d29a131360
 ms.search.region: Global
-ms.author: riluan
+ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1f6e551f9d3d181674595e945bf1fb4c62a70ed5
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 9267047b4bf1ab4185efca9980e0f517f4b05096
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5016373"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5812516"
 ---
 # <a name="set-up-an-external-catalog-for-punchout-e-procurement"></a>Väliskataloogi häälestamine e-hanke väljaregistreerimiseks
 
@@ -112,3 +110,5 @@ Kui välises hankija kataloogis olev toode on taotletud, siis ei saa välist han
 
 - [cXML-i täiustuste ostmine](purchasing-cxml-enhancements.md)
 - [Väliskataloogide kasutamine e-hanke väljaregistreerimiseks](use-external-catalogs-for-punchout.md)
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,28 +2,26 @@
 title: Kuluhalduse koduleht
 description: Kuluhaldus võimaldab teil tegeleda toormaterjalide, poolvalmiskaupade, valmiskaupade ja lõpetamata toodangu hindamise ja raamatupidamisega.
 author: AndersGirke
-manager: tfehr
 ms.date: 04/25/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dc146f8a3707e830ff574964c5a8865271e69b50
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: 83881e6b3bb588dad61fd14aa4db28aa76305925aab3ee08e2ebe7e001f2aff2
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4967679"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6739103"
 ---
 # <a name="cost-management-home-page"></a>Kuluhalduse koduleht
 
@@ -45,7 +43,7 @@ Laoarvestuse ja tootmise raamatupidamise juurde pääsete tööruumidest **Kuluh
 
 Tootmise raamatupidamine võimaldab teil tootmis- ja partiitellimuste puhul [tööülesannetele kulusid jagada](production-order-cost-analysis.md) ning lean manufacturingi puhul teha [omahinna tagasiarvestust](backflush-costing.md).
 
-[Kuluhalduse Power BI sisu](../../dev-itpro/analytics/cost-management-content-pack.md) pakub juhtimisülevaadet varudest ja pooleliolevatest (WIP) varudest ning neist aja jooksul kategooriate kaupa läbivoolavast kulust. Teavet saab kasutada ka finantsaruande üksikasjaliku lisana.
+[Kuluhalduse Power BI sisu](../../fin-ops-core/dev-itpro/analytics/cost-management-content-pack.md) pakub juhtimisülevaadet varudest ja pooleliolevatest (WIP) varudest ning neist aja jooksul kategooriate kaupa läbivoolavast kulust. Teavet saab kasutada ka finantsaruande üksikasjaliku lisana.
 
 ### <a name="additional-resources"></a>Lisaressursid
 
@@ -59,8 +57,10 @@ Tehniline ülevaade [Koosluse arvutamine kuluarvutustabeli abil](https://www.mic
 
 #### <a name="blogs"></a>Ajaveebid
 
-[Dynamics AX-i tootmise uurimis- ja arendustöörühma ajaveebist](https://blogs.msdn.microsoft.com/axmfg) ning [Dynamics AX-i Supply Chain Managementi uurimis- ja arendustöörühma ajaveebist](https://blogs.msdn.microsoft.com/dynamicsaxscm) leiate arvamusi, uudiseid ja muud teavet kuluhalduse kohta. Kuigi mõni neist sisestustest on kirjutatud kuluhalduse eelmise versiooni jaoks, kehtivad samad mõisted sellegipoolest ja protseduurid on praeguses versioonis sarnased.
+[Dynamics AX-i tootmise uurimis- ja arendustöörühma ajaveebist](/archive/blogs/axmfg/) ning [Dynamics AX-i Supply Chain Managementi uurimis- ja arendustöörühma ajaveebist](https://blogs.msdn.microsoft.com/dynamicsaxscm) leiate arvamusi, uudiseid ja muud teavet kuluhalduse kohta. Kuigi mõni neist sisestustest on kirjutatud kuluhalduse eelmise versiooni jaoks, kehtivad samad mõisted sellegipoolest ja protseduurid on praeguses versioonis sarnased.
 
 #### <a name="task-guides"></a>Tegevusjuhised
 
 Täiendav spikker on saadaval ülesandejuhistena. Tegevuse juhistele juurdepääsemiseks klõpsake ükskõik millisel lehel nuppu Spikker.
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

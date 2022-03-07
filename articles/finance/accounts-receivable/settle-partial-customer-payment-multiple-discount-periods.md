@@ -2,28 +2,25 @@
 title: Mitme allahindlusperioodiga osalise kliendimakse tasakaalustamine
 description: See artikkel näitab, kuidas mitme allahindlusperioodi korral osalisi kliendi makseid tasakaalustatakse.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14471
 ms.assetid: b633a7c4-c18d-42e7-91cc-adcdc8a3ba98
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6f4d5178aeb3294fd3b40815bb294a7f2ff08b71
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 5d0d517524add5e18b1f0795b2ee2fd7f5b7686b26919a7e8f2e20ac1d243fe9
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442262"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6740118"
 ---
 # <a name="settle-a-partial-customer-payment-that-has-multiple-discount-periods"></a>Mitme allahindlusperioodiga osalise kliendimakse tasakaalustamine
 
@@ -34,7 +31,7 @@ See artikkel näitab, kuidas mitme allahindlusperioodi korral osalisi kliendi ma
 Fabrikam pakub kliendile 4031 kahte skontoperioodi. Klient saab 2-protsendilise skonto, kui arve tasutakse viie päeva jooksul ja 1-protsendilise skonto, kui arve tasutakse 14 päeva jooksul. Fabrikam pakub osalistele maksetele ka skontosid. Tasakaalustamise parameetrid asuvad lehel **Müügireskontro parameetrid**.
 
 ## <a name="invoice"></a>Arve
-25. juunil sisestab Arnie kliendile 4031 arve summas 1000,00. Selle arve skontode ülevaatamisel näeb Arnie, et klient 4031 saab allahindlust 20,00, kui ta tasub arve 30. juuniks. Kui arve tasutakse 9. juuliks, saab klient 10,00 allahindlust.
+25. juunil sisestab Arnie kliendile 4031 arve summas 1000,00. Selle arve sularahakontode ülevaatamisel näeb Arnie, et klient 4031 saab allahindlust 20.00, kui ta tasub arve 30. juuniks. Kui arve tasutakse 9. juuliks, saab klient 10,00 allahindlust.
 
 | Skonto kuupäev | Skonto summa | Summa kandevaluutas |
 |--------------------|----------------------|--------------------------------|
@@ -57,7 +54,7 @@ Arnie saab vaadata seda kannet lehel **Kliendi kanded**.
 
 Teave märgitud arve allahindluse kohta kuvatakse lehe **Avatud kannete tasakaalustamine** allosas. Kui te ei muuda suvandi **Tasakaalustatav summa** väärtuseks **294,00**, erinevad suvandi **Skonto summa** kuvatavad väärtused. Siiski arvestatakse makse sisestamisel skontona 6,00, kuna tasakaalustamine korrigeerib suvandi **Tasakaalustatav summa** väärtust automaatselt teie eest.
 
-|                              |           |
+| &nbsp;                       | &nbsp;    |
 |------------------------------|-----------|
 | Skonto kuupäev           | 30.06.2015 |
 | Skonto summa         | 20,00     |
@@ -76,7 +73,7 @@ Pärast Arnie makse sisestamist on arve saldo 700,00.
 
 Teave märgitud arve allahindluse kohta kuvatakse lehe **Avatud kannete tasakaalustamine** allosas.
 
-|                              |           |
+| &nbsp;                       | &nbsp;    |
 |------------------------------|-----------|
 | Skonto kuupäev           | 09.07.2015 |
 | Skonto summa         | 30,00     |
@@ -98,3 +95,6 @@ Arve saldo on nüüd 0,00. Arnie vaatab seda teavet lehel **Kliendi kanded**.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

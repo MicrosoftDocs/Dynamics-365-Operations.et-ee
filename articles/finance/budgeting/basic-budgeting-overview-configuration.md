@@ -1,38 +1,36 @@
 ---
 title: Eelarve koostamise ülevaade
-description: Peaaegu igal ettevõttel, mis kasutab Microsoft Dynamics 365 Finance'is funktsiooni Finantsid, on võimalik luua aruandeid, milles võrreldakse eelarvet tegelike näitajatega. See artikkel selgitab minimaalset konfiguratsiooni, mis on nõutav rakenduses Finance and Operations eelarvete loomiseks või nende laadimiseks kolmanda osapoole programmist.
-author: ShylaThompson
-manager: AnnBe
-ms.date: 01/11/2018
-ms.topic: article
+description: Peaaegu igal ettevõttel, mis kasutab Microsoft Dynamics 365 Finance'is funktsiooni Finantsid, on võimalik luua aruandeid, milles võrreldakse eelarvet tegelike näitajatega. See artikkel selgitab minimaalset konfiguratsiooni, mis on nõutav Finance and Operationsis eelarvete loomiseks või nende laadimiseks kolmanda osapoole programmist.
+author: panolte
+ms.date: 04/29/2021
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetParameters
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
-ms.custom: 60113
+ms.custom:
+- "60113"
+- intro-internal
 ms.assetid: 28a9793e-d376-47af-a345-69046bad17df
 ms.search.region: global
-ms.author: sigitac
+ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 36144474defc4849a112a180247f37796de00a27
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 8e881a878265062dc5ce8cec68a45237711f385d
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442377"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7986506"
 ---
-# <a name="budgeting-overview"></a>Eelarve koostamise ülevaade
+# <a name="budgeting-overview"></a>Eelarve koostamise ülevaade 
 
 [!include [banner](../includes/banner.md)]
 
-Peaaegu igal ettevõttel, mis kasutab Microsoft Dynamics 365 Finance'is funktsiooni Finantsid, on võimalik luua aruandeid, milles võrreldakse eelarvet tegelike näitajatega. See artikkel selgitab minimaalset konfiguratsiooni, mis on nõutav rakenduses Finance and Operations eelarvete loomiseks või nende laadimiseks kolmanda osapoole programmist.
+Peaaegu igal ettevõttel, mis kasutab Microsoft Dynamics 365 Finance'is funktsiooni Finantsid, on võimalik luua aruandeid, milles võrreldakse eelarvet tegelike näitajatega. See artikkel selgitab minimaalset konfiguratsiooni, mis on nõutav Finance and Operationsis eelarvete loomiseks või nende laadimiseks kolmanda osapoole programmist.
 
-<a name="overview"></a>Ülevaade
---------
+## <a name="overview"></a>Ülevaade
 
 Juriidilise isiku kinnitatud eelarve talletatakse dokumendis, mida nimetatakse *eelarveregistri kandeks*. Eelarveregistri kirje dokumendi ridu nimetatakse *eelarvekonto* kirjeteks ning need sisaldavad finantsdimensiooni teavet, kuupäevi ja kinnitatud eelarve summasid. Eelarveregistri kirje dokument on integreeritud põhifinantsaruannetega ja päringulehtedega, kus pearaamatu tegelikke summasid võrreldakse eelarvesummadega. 
 
@@ -40,7 +38,7 @@ Eelarveregistri kirjete loomiseks on mitu võimalust.
 
 -   Sisestage käsitsi dokumendi teave lehele **Eelarveregistri kirjed**.
 -   Kasutage Microsoft Exceli malli, mille saate avada, klõpsates nuppu **Ava Excelis** lehel **Eelarveregistri kirjed**.
--   Kasutage eelarveregistri kirjete importimiseks andmeüksust **Eelarvekonto kirjed** jaotises Andmehaldus. Kaaluge selle meetodi kasutamist ja parameetri **Komplektil põhinev** **töötlemine** sisselülitamist, kui peate importima süsteemi palju eelarvekonto kirjeid.
+-   Kasutage eelarveregistri kirjete importimiseks andmeüksust **Eelarvekonto kirjed** jaotises Andmehaldus. Kaaluge selle meetodi kasutamist ja parameetri **Komplektil põhinev töötlemine** sisselülitamist, kui peate importima süsteemi palju eelarvekonto kirjeid.
 -   Kui ettevõte kasutab eelarve andmete ettevalmistamiseks funktsiooni Eelarve plaanimine, saate kasutada perioodilist protsessi **Loo eelarveregistri kirje**.
 
 Eelarveregistri kirje loetakse lõpetatuks, kui eelarvesaldosid on värskendatud. Klõpsake lehel **Eelarveregistri kirjed** valikut **Eelarvesaldode värskendamine** valitud eelarveregistri kirje või mitme kirje jaoks. Pärast eelarvesaldode värskendamist saab eelarveregistri olekuks **Lõpule viidud**. Lõpule viidud eelarveregistri kirjet ei saa redigeerimiseks uuesto avada. Seega kui eelarveandmeid tuleb korrigeerida, peate looma uue eelarveregistri kirje, mitte parandama andmeid lõpetatud eelarveregistri kirjet.
@@ -52,7 +50,7 @@ Kui on poliitikaid, mis juhivad eelarveregistri kirjete kinnitamist eelarve tü�
 
 Lehel **Eelarvestamise dimensioonid** peate valima finantsdimensioonid, mida kasutatakse eelarvestamiseks kontoplaanis kasutatavate dimensioonide alusel. Saate eelarvestamiseks valida kõik finantsdimensioonid või dimensioonid alamkogumi.
 
-Määratlege *eelarvemudel*, mis vastab kõigile või mõnele eelarvele. Saate kasutada ühte eelarvemudelit kõikide eelarveregistri kirjete puhul. Teise võimalusena saate luua eraldi mudelid, mis põhinevad eelarvetüübil, geograafilisel asukohal või muul, mille järgi saab eelarvet klassifitseerida. 
+Määratlege *eelarvemudel* mis vastab kõigile või mõnele eelarvele. Saate kasutada ühte eelarvemudelit kõikide eelarveregistri kirjete puhul. Teise võimalusena saate luua eraldi mudelid, mis põhinevad eelarvetüübil, geograafilisel asukohal või muul, mille järgi saab eelarvet klassifitseerida. 
 
 > [!NOTE] 
 > Kui kasutatakse eelarve juhtimist, saate kindla eelarvetsükli perioodiga seostada ainult ühe eelarvemudeli. 
@@ -74,7 +72,7 @@ Funktsioon, mis võeti kasutusele tarkvara Microsoft Dynamics 365 Finance versio
 
 Funktsioon **Eelarve registrikirjed ainult koguse kohta** võimaldab teil sisestada eelarve registrikirje ainult kogustega. Näiteks saate sisestada eelarvekirje kogusega 32 ja nullihinnaga, mille tulemuseks on nullsumma. Seejärel saate seda kogust kasutada finantsaruande kontekstis, et määrata hind koguse kohta. Pidage meeles, et selle funktsiooni osana ei värskendatud ühtegi päringut ega aruannet. See funktsioon lihtsalt võimaldab teil sisestada nullsumma.
 
-Funktsioon **Eelarve registrikirjed vaikesummatüübiga** võimaldab sisestada eelarve registrikirjena vaikimesummatüübi, mis ei ole kulu. Kui põhikonto tüüp on kulu, siis on eelarve registrikirje rea vaikeväärtus kulu; kui põhikonto tüüp on kulu, siis on vaikeväärtus tulu; ja kõigi muude kontotüüpide korral on vaikeväärtus kulu.
+Funktsioon **Eelarve registrikirjed vaikesummatüübiga** võimaldab sisestada eelarve registrikirjena vaikimesummatüübi, mis ei ole kulu. Kui põhikonto tüüp on kulu, siis on eelarve registrikirje rea vaikeväärtus kulu; kui põhikonto tüüp on tulu, siis on vaikeväärtus tulu; ja kõigi muude kontotüüpide korral on vaikeväärtus kulu.
 
 ## <a name="using-workspaces-and-inquiry-pages-to-track-budget-vs-actuals"></a>Tööruumide ja päringulehtede kasutamine eelarve vs tegelike kulude jälgimiseks
 Eelarvehaldur saab praguse eelarve oleku üle vaadata tööruumis **Pearaamatu eelarved ja prognoosid**. Vahekaardid **Kulu ületab eelarve** ja **Tulu on eelarvest väiksem** annavad kiire ülevaate finantsdimensiooni kombinatsioonidest, kui eelarve eesmärke ei täideta või kui need lähenevad lävile. Saate isikupärastada eelarvelävi protsenti ja finantsdimenesioonide komplekte, mida nende vahekaartidega kasutatakse, klõpsates suvandit **Minu tööruumi konfigureerimine**. Saate klõpsata suvandit **Üksuse juhid**, et näha töötajaid, kes vastutavad kindla finantsdimensioonide kombinatsioonide eest, mis valitakse nendel vahekaartidel. Näiteks kui näete, et operatsiooniosakonna kulueelarve ületab eelarvelävi, leiate hõlpsasti operatsiooniosakonna juhi, võtate temaga ühendust ja arutate probleemi. 
@@ -88,3 +86,6 @@ Funktsiooni Eelarve planeerimine kasutav ettevõte saab luua *eelarveprognoose* 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

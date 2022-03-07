@@ -2,9 +2,11 @@
 title: Tootmistellimuste väljastamine
 description: Väljastatud tootmistellimus on tellimus, millele on antud tootmiseks luba. Mõistet „väljastatud” kasutatakse tootmistellimuse töötsükli sellise oleku kirjeldamiseks, kus tootmistellimus on saadaval saadaval tootmistöödel ja laoprotsessides täitmiseks.
 author: johanhoffmann
+manager: tfehr
 ms.date: 03/02/2021
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProdParmRelease
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 740ac516ffa01d8930aedabb9873834b07b7debf700dc61b14d93ac8d6dcd086
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4ee20983209b9900037a46d56b6213d47bf852e4
+ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718866"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5487695"
 ---
 # <a name="release-production-orders"></a>Tootmistellimuste väljastamine
 

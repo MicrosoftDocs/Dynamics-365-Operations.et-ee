@@ -2,30 +2,28 @@
 title: Värbamistaotluse haridus
 description: Selles teemas kirjeldatakse olemit värbamistaotluse haridus rakenduse Dynamics 365 Human Resources jaoks.
 author: jaredha
+manager: tfehr
 ms.date: 02/05/2021
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9fe1a99debac3dc784ba82b711143337d4077be0
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: 1767edfe67f9c3af4ac67eb5403d63a7f54dcac8
+ms.sourcegitcommit: 33b5c8bc4f9461e290513aa22de1ec1fba3b0742
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067122"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "5126070"
 ---
 # <a name="recruiting-request-education"></a>Värbamistaotluse haridus
-
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Selles teemas kirjeldatakse olemit värbamistaotluse haridus rakenduse Dynamics 365 Human Resources jaoks.
 
@@ -76,6 +74,3 @@ Kirjeldab haridusnõudeid värbamistaotluse jaoks.
 [Kandidaadi jälgimissüsteemi integreerimise API tutvustus](hr-admin-integration-ats-api-introduction.md)<br>
 [Värbamistaotluse näidispäring](hr-admin-integration-ats-api-recruiting-request-example-query.md)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

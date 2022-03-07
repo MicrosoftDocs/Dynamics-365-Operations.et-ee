@@ -11,16 +11,17 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-09-03
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 382814eb3d4322ed52bd39fcb22740201335614e
-ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
-ms.translationtype: MT
+ms.openlocfilehash: 1fcea155f330fa1eced8035f11f7cf204d3b2de8
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7679001"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7575699"
 ---
 # <a name="scheduling-with-resource-selection-based-on-capability"></a>Plaanimine võimaluse põhjal ressursivalikuga
 
 [!include [banner](../../includes/banner.md)]
+[!INCLUDE [preview-banner](../../includes/preview-banner.md)]
 
 Määrates tootmisprotsessi toimingu ressursinõuded, määratlete, mis on vajalik selle operatsiooni sooritamiseks. Näiteks võib toiming vajada konkreetset ressurssi või ressursigruppi või oskuste või võimaluste kombinatsiooni. See teema kirjeldab ressursside valikut piiramatu võimsuse planeerimise ajal, kui määrate operatsioonile võimalusi ressursi nõuetena.
 

@@ -2,11 +2,9 @@
 title: Valemikoostaja elektroonilises aruandluses (ER)
 description: See teema sisaldab teavet selle kohta, kuidas kasutada elektroonilises aruandluses (ER) valemikoostajat.
 author: NickSelin
-manager: kfend
 ms.date: 12/05/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d96fe041fd0ffb292909c1e724068efebe0184b9
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: eec63fb1782c5afed0320eb841b6bfc92af31a691731ef6bac5d00ed442c0dcd
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682645"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6777400"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>Valemikoostaja elektroonilises aruandluses (ER)
 
@@ -60,11 +58,11 @@ ER-i valemikoostajat saab kasutada määratlemaks avaldist, mis teisendab andmei
 
 Järgmisel joonisel on seda tüüpi avaldise kujundus. Selles näites ümardab avaldis tabelis Intrastat välja **Intrastat.AmountMST** väärtuse kahe kümnendkohani ja annab siis ümardatud väärtuse.
 
-[![Andmete sidumise avaldis](./media/picture-expression-binding.jpg)](./media/picture-expression-binding.jpg)
+[![Andmete sidumise avaldis.](./media/picture-expression-binding.jpg)](./media/picture-expression-binding.jpg)
 
 Järgmine joonis näitab, kuidas seda tüüpi avaldist saab kasutada. Selles näites on koostatud avaldise tulem sisestatud andmemudeli **Maksu aruandluse mudel** komponendile **Transaction.InvoicedAmount**.
 
-[![Kasutatav andmete sidumise avaldis](./media/picture-expression-binding2.jpg)](./media/picture-expression-binding2.jpg)
+[![Kasutatav andmete sidumise avaldis.](./media/picture-expression-binding2.jpg)](./media/picture-expression-binding2.jpg)
 
 Käitusajal ümardab koostatud valem `ROUND (Intrastat.AmountMST, 2)` välja **AmountMST** väärtuse tabeli Intrastat iga kirje puhul kahe kümnendkohani. Seejärel sisestab see ümardatud väärtuse andmemudeli **Maksu aruandlus** komponenti **Transaction.InvoicedAmount**.
 
@@ -74,17 +72,17 @@ ER-i valemikoostajat saab kasutada määratlemaks avaldist, mis vormindab andmei
 
 Järgmisel joonisel on seda tüüpi teisenduse kujundus. Selles näites kärbib teisendus **TrimmedString** andmetüübi *String* sissetulevad andmed, eemaldades algus- ja lõputühikud. Seejärel tagastab see kärbitud stringiväärtuse.
 
-[![Teisendus](./media/picture-transformation-design.jpg)](./media/picture-transformation-design.jpg)
+[![Teisendus.](./media/picture-transformation-design.jpg)](./media/picture-transformation-design.jpg)
 
 Järgmine joonis näitab, kuidas seda tüüpi teisendust saab kasutada. Selles näites saadavad mitu vormingu komponenti teksti käitusajal väljundina loodavale elektroonilisele dokumendile. Kõik need vormingukomponendid viitavad teisendusele **TrimmedString** nime järgi.
 
-[![Kasutatav teisendamine](./media/picture-transformation-usage.jpg)](./media/picture-transformation-usage.jpg)
+[![Kasutatav teisendamine.](./media/picture-transformation-usage.jpg)](./media/picture-transformation-usage.jpg)
 
 Kui vormingu komponendid (näiteks komponendi **partyName** puhul eelmises näites) viitavad teisendusele **TrimmedString**, saadab teisendus teksti väljundina loodavasse elektroonilisse dokumenti. See tekst ei sisalda algus- ega lõputühikuid.
 
 Kui teil on vorming, mida tuleb rakendada eraldi, saab selle kasutusele võtta kindla vormingu komponendi sidumise üksiku avaldisena. Järgmisel joonisel on seda tüüpi avaldis. Selles näites on vormingu komponent **partyType** seotud andmeallikaga avaldise kaudu, mis teisendab sissetulevad andmeallika andmed väljalt **Model.Company.RegistrationType** suurtäheliseks tekstiks. Seejärel saadab avaldis selle teksti väljundina elektroonilisse dokumenti.
 
-[![Vorminduse rakendamine üksikule komponendile](./media/picture-binding-with-formula.jpg)](./media/picture-binding-with-formula.jpg)
+[![Vorminduse rakendamine üksikule komponendile.](./media/picture-binding-with-formula.jpg)](./media/picture-binding-with-formula.jpg)
 
 ## <a name="process-flow-control"></a><a name="Validation"></a>Protsessi voo juhtimine
 
@@ -100,7 +98,7 @@ Iga protsessi voo juhtimise reegel on koostatud üksiku kinnitusena. Järgmisel 
 - Kui kannete loend on tühi, lõpetab kinnitamine käivitamisprotsessi ja tagastab väärtuse **FALSE**.
 - Kinnitamine annab tõrketeate, mis sisaldab SYS70894 teksti kasutaja eelistatud keeles.
 
-[![Kinnitamine](./media/picture-validation.jpg)](./media/picture-validation.jpg)
+[![Kinnitamine.](./media/picture-validation.jpg)](./media/picture-validation.jpg)
 
 ER-i valemikoostajat saab kasutada ka faili nime loomiseks loodavale elektroonilisele dokumendile ja faili loomise protsessi juhtimiseks. Järgmisel joonisel on seda tüüpi protsessi voo juhtimise kujundus. Siin on selles näites oleva konfiguratsiooni selgitus.
 
@@ -109,7 +107,7 @@ ER-i valemikoostajat saab kasutada ka faili nime loomiseks loodavale elektroonil
 - Avaldis annab vastuseks failinime loodavatele elektroonilistele dokumentidele, liites faili nime ja failinime laiendi. Teise partii ja kõikide järgnevate partiide puhul sisaldab faili nimi järelliitena partii ID-d.
 - Avaldis lubab (andes vatuseks väärtuse **TRUE**) faili loomise protsessi partiidele, mis sisaldavad vähemalt ühte kirjet.
 
-[![Protsessi voo juhtimine](./media/picture-file-control.jpg)](./media/picture-file-control.jpg)
+[![Protsessi voo juhtimine.](./media/picture-file-control.jpg)](./media/picture-file-control.jpg)
 
 ## <a name="document-content-control"></a><a name="Enabled"></a>Dokumendi sisu juhtelement
 
@@ -123,18 +121,18 @@ Järgmisel joonisel on näidatud seda tüüpi avaldised. (Näitena on kasutatud 
 - Komponenti **PaymentNotes** kasutatakse maksemärkmete teksti loomiseks.
 - Komponent **DelimitedSequence** loob komaga eraldatud arve numbreid, mida kasutatakse praeguse krediidiedastuse tasakaalustamiseks.
 
-[![Komponendid PaymentNotes ja DelimitedSequence](./media/GER-FormulaEditor-ControlContent-1.png)](./media/GER-FormulaEditor-ControlContent-1.png)
+[![Komponendid PaymentNotes ja DelimitedSequence.](./media/GER-FormulaEditor-ControlContent-1.png)](./media/GER-FormulaEditor-ControlContent-1.png)
 
 > [!NOTE]
 > Komponendid **PaymentNotes** ja **DelimitedSequence** sildistatakse küsimärki kasutades. Küsimärk näitab, et komponendi kasutamine on tingimuslik. Sellisel juhul põhineb komponentide kasutamine järgmistel kriteeriumitel.
 >
 > - Väljend `@.PaymentsNotes <> ""`, mis on määratletud komponendi **PaymentNotes** võimaldab (annab tulemuse **TRUE**) XML elemendi **Ustrd** täitmist maksemärkmete tekstiga, kui see tekst pole praeguse krediidiedastuse jaoks tühi.
 >
->    [![Komponendi PaymentNotes avaldis](./media/GER-FormulaEditor-ControlContent-2.png)](./media/GER-FormulaEditor-ControlContent-2.png)
+>    [![Komponendi PaymentNotes avaldis.](./media/GER-FormulaEditor-ControlContent-2.png)](./media/GER-FormulaEditor-ControlContent-2.png)
 >
 > - Avaldis `@.PaymentsNotes = ""`, mis määratletakse komponendi **DelimitedSequence** jaoks, võimaldab (annab tulemuse **TRUE**) XML elemendi **Ustrd** täitmist komaga eraldatud arve numbrite loendiga, mida kasutatakse praeguse krediidiedastuse arveldamiseks, kui selle krediidiedastuse maksemärkmete tekst on tühi.
 >
->    [![Komponendi DelimitedSequence avaldis](./media/GER-FormulaEditor-ControlContent-3.png)](./media/GER-FormulaEditor-ControlContent-3.png)
+>    [![Komponendi DelimitedSequence avaldis.](./media/GER-FormulaEditor-ControlContent-3.png)](./media/GER-FormulaEditor-ControlContent-3.png)
 > 
 > Vastavalt sellele seadistusele sisaldab iga deeboitori makse (XML-elemendi **Ustrd**) jaoks loodud sõnum kas maksemärkmete teksti või sellise teksti puudumisel komaga eraldatud arve numbreid, mida kasutatakse makse arveldamiseks.
 
@@ -142,7 +140,7 @@ Järgmisel joonisel on näidatud seda tüüpi avaldised. (Näitena on kasutatud 
 
 Lehel **Valemi kujundaja** valige suvand **Katse**, et valideerida konfigureeritud valemi töötamisviis.
 
-[![Valemi valideerimiseks suvandi Katse valimine](./media/ER-FormulaTest-Start.png)](./media/ER-FormulaTest-Start.png)
+[![Valemi valideerimiseks suvandi Katse valimine.](./media/ER-FormulaTest-Start.png)](./media/ER-FormulaTest-Start.png)
 
 Kui nõutavad on valemi argumentide väärtused, saate avada dialoogiboksi **Testavaldis** lehelt **Valemikoostaja**. Enamikul juhtudel tuleb need argumendid käsitsi määratleda, kuna konfigureeritud sidumisi kujundamise ajal ei käitata. Vahekaart **Katsetulemus** lehel **Valemi kujundaja** näitab konfigureeritud valemi käivitamise tulemust.
 
@@ -150,17 +148,20 @@ Järgmine näide näitab, kuidas saate testida väliskaubanduse domeeni jaoks ko
 
 Selle valemi testimisel saate kasutada dialoogiboksi **Testavaldis**, et määrata testimiseks Intrastati kaubakoodi väärtus.
 
-[![Testimiseks Intrastati kaubakoodi määramine](./media/ER-FormulaTest-Start-EnterArguments.png)](./media/ER-FormulaTest-Start-EnterArguments.png)
+[![Testimiseks Intrastati kaubakoodi määramine.](./media/ER-FormulaTest-Start-EnterArguments.png)](./media/ER-FormulaTest-Start-EnterArguments.png)
 
 Pärast seda, kui määrate Intrastati kaubakoodi ja valite **OK**, kuvatakse vahekaardil **Katsetulemus** lehel **Valemi koostaja** konfigureeritud valemi käivitamise tulemus. Seejärel saate hinnata, kas tulemus on vastuvõetav. Kui tulemus ei ole vastuvõetav, saate valemit värskendada ja seda uuesti katsetada.
 
-[![Katsetulemus](./media/ER-FormulaTest-Result.png)](./media/ER-FormulaTest-Result.png)
+[![Katsetulemus.](./media/ER-FormulaTest-Result.png)](./media/ER-FormulaTest-Result.png)
 
 Osasid valemeid ei saa kujundamise ajal testida. Näiteks võib valem tagastada andmetüübi tulemuse, mida ei saa vahekaardil **Katsetulemus** kuvada. Sellisel juhul kuvatakse tõrketeade, mis teatab, et valemit ei saa katsetada.
 
-[![Tõrketeade](./media/ER-FormulaTest-Error.png)](./media/ER-FormulaTest-Error.png)
+[![Tõrketeade.](./media/ER-FormulaTest-Error.png)](./media/ER-FormulaTest-Error.png)
 
 ## <a name="additional-resources"></a>Lisaressursid
 
 - [Elektroonilise aruandluse ülevaade](general-electronic-reporting.md)
 - [Elektroonilise aruandluse valemi keel](er-formula-language.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

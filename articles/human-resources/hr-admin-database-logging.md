@@ -1,31 +1,33 @@
 ---
 title: Andmebaasi logimise konfigureerimine ja haldamine
 description: Andmebaasi logimise abil saate jälgida rakenduses Microsoft Dynamics 365 Human Resources tabelite ja väljade muudatusi.
-author: Darinkramer
-manager: AnnBe
-ms.date: 06/10/2020
+author: twheeloc
+ms.date: 12/15/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3dc4658a0a13af95978c66f5aab882902f754a2d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 3cbe4c105b14935db6803e4bded0d891c564fb81
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418152"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066436"
 ---
 # <a name="configure-and-manage-database-logging"></a>Andmebaasi logimise konfigureerimine ja haldamine
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Andmebaasi logimise abil saate jälgida rakenduses Microsoft Dynamics 365 Human Resources tabelite ja väljade muudatusi. Selles teemas käsitletakse järgmist.
 
@@ -66,7 +68,22 @@ Jõudluse parandamiseks piirake logikirjeid, valides logimiseks tervete tabelite
 Andmebaasi logimise seadistamiseks saate kasutada viisardit **Andmebaasi muudatuste logimine**. Viisard pakub paindlikku viisi tabelite või väljade logimise seadistamiseks.
 
 1. Avage **Süsteemihaldus > Lingid > Andmebaas > Andmebaasilogi seadistus**. Valige **Uus**, et käivitada viisard **Andmebaasi muudatuste logimine**.
-2. Täitke viisardi juhised.
+2. Valige **Edasi**. 
+3. Viisardi **Tabelite ja väljade** lehel valige tabelid ja väljad, millel soovite andmebaasi logimist toetada ja valige **Edasi**.
+
+   > [!Note]
+   > Andmebaasi logimine ei ole saadaval kõigis inimressursside andmebaasi tabelites. Valides **Näita kõiki tabeleid** loendi all laiendab tabelite ja väljade loendit, et näidata kõiki andmebaasi tabeleid, mille jaoks andmebaasi logimine on kättesaadav, aga see on täieliku andmebaasi tabelite alamkogum.
+
+4. Viisardi **Muutuse tüübid** lehel valige andmeoperatsioonid mille jaoks te soovite iga tabeli ja välja jaoks muudatusi jälgida ja valige **Edasi**. Logimiseks saadavalolevate andmetoimingute kirjeldusi vt järgmisest tabelist.
+5. Lehel **Lõpeta** vaadake tehtud muudatused üle ja valige **Lõpeta**.
+
+| Toiming | Kirjeldus |
+| -- | -- |
+| Jälgi uusi kandeid | Looge logi uutele tabelis loodud kirjetele. |
+| Värskendus | Looge logi tabelikirjete uuenduste jaoks või värskendage tabeli üksikult valitud väljad. Kui valite tabeli uuenduste logimise, luuakse logikirje iga kord, kui uuendatakse mis tahes tabeli kirje välja. Kui valite logi uuendused konkreetsetele väljadele, luuakse logikirje ainult siis, kui neid tabelikirjete välju uuendatakse. |
+| Kustutamine | Looge tabelist kustutatud kirjete logi. |
+| Nimeta võti ümber | Logikirje loomine tabelivõtme ümbernimetamise korral. |
+
 
 ## <a name="clean-up-database-logs"></a>Andmebaasilogide puhastamine
 
@@ -79,11 +96,14 @@ Järgmiste võimaluste abil saate kustutada kõik andmebaasilogid või osa neist
 Andmebaasilogi puhastamise seadistamiseks järgige neid samme. 
 
 1. Avage **Süsteemihaldus > Lingid > Andmebaas > Andmebaasilogi**. Valige **Puhasta logi**.
-
-2. Valige kustutamiseks mõeldud logide valimise meetod, sisestades ühe järgmistest valikutest.
+2. Valige jaotises **Päise** kaasamiseks olevad **kirjed Filter**.
+3. Valige meetod, mida kasutatakse kustutatavate logide valimiseks. Sisestage üks järgmistest suvanditest.
 
    - Tabeli kood
    - Logi tüüp
-   - Loomise kuupäev ja kellaaeg
+   - Loodud kuupäev ja kellaaeg
 
-3. Kasutage vahekaarti **Andmebaasilogi puhastamine**, et määrata, millal käitada logi puhastamise ülesanne. Vaikimisi on andmebaasilogid saadaval 30 päeva.
+4. Kasutage vahekaarti **Andmebaasilogi puhastamine**, et määrata, millal käitada logi puhastamise ülesanne. Vaikimisi on andmebaasilogid saadaval 30 päeva.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

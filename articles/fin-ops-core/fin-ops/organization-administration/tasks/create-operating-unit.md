@@ -2,11 +2,9 @@
 title: Tootmisüksuse loomine
 description: Tootmisüksus on organisatsioon, mida kasutatakse äri majandusressursside ja tööprotsesside juhtimise jagamiseks.
 author: sericks007
-manager: AnnBe
 ms.date: 08/14/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: OMOperatingUnit, OMInternalOrganizationSelector
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 70a57741340df2aec5c20dc576672b6acc8343dd
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
-ms.translationtype: HT
+ms.openlocfilehash: dcfcd64ae24297c8e11f36629490ebe7cd063de53c717559e1b73743ccc61664
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4796726"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6758989"
 ---
 # <a name="create-an-operating-unit"></a>Tootmisüksuse loomine
 
@@ -41,3 +39,6 @@ Tootmisüksus on organisatsioon, mida kasutatakse äri majandusressursside ja t�
     + Sisestage teave selliste sidepidamisviiside kohta nagu meiliaadressid, URL-id ja telefoninumbrid. Uue sidekirje sisestamiseks klõpsake suvandit Uus. Olemasoleva sidekirje muutmiseks klõpsake suvandeid **Rohkem suvandeid > Täpsem**.   
 6. Muutke valikut **Tootmisüksuse number** vastavalt vajadusele. Pange tähele, et see number on ainuidentifikaator, mis vastab kirjele **Osapool** ja see ei saa olla sama ühegi teise tootmisüksusega.
 7. Valige käsk **Salvesta**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

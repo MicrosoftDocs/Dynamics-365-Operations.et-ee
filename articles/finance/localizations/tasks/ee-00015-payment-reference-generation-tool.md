@@ -2,26 +2,23 @@
 title: EE-00015 Makseviite loomise tööriist
 description: See protseduur juhatab teid läbi makseviidete koostamise protseduuri.
 author: v-oloski
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: MainAccount, LedgerJournalTable, LedgerJournalTransDaily
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Estonia
 ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0b07fd531bce8b29376dbdd3f89030a581d428a2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 4f6a424fbfece3e787b64bba962371ba0bf0f787
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407867"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5822619"
 ---
 # <a name="ee-00015-payment-reference-generation-tool"></a>EE-00015 Makseviite loomise tööriist
 
@@ -44,3 +41,6 @@ See protseduur juhatab teid läbi makseviidete koostamise protseduuri. Ülesande
     * Juba klientidele määratud viitenumbrite kustutamiseks valige käsk "Kustuta maksete viitenumbrid". Võite piirata klientide hulka, kellelt soovite eemaldada või kellele lisada viitenumbri. Selleks kasutage jaotist "Kirjenda kaasamiseks" ja määrake klientidele või kliendirühmadele kriteeriumid.  
 3. Klõpsake nuppu OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,25 +1,27 @@
 ---
 title: Mõõtühiku teisendus tootevariandi kohta
 description: See teema kirjeldab, kuidas seadistada tootevariantide mõõtühikute teisendusi. See sisaldab seadistuse näidet.
-author: t-benebo
+author: johanhoffmann
+manager: tfehr
 ms.date: 05/11/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: UnitOfMeasureConversion
 ROBOTS: noindex, nofollow
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: benebotg
+ms.author: johanho
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: c02252abcaf82cb2aab928949827e25ef7cce8c2
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 5f327d1d0b38ad724da6a302cefc115262317812
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579564"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5001695"
 ---
 # <a name="unit-of-measure-conversion-per-product-variant"></a>Mõõtühiku teisendus tootevariandi kohta
 
@@ -56,7 +58,7 @@ Tooteetaloni konfigureerimiseks, et toetada ühikuteisendust ühe variandi kohta
     - **Toode** – selle väärtuse valimisel saate seadistada ühiku teisenduse tooteetaloni jaoks. Seda ühiku teisendust kasutatakse varuvariandina kõigi tootevariantide puhul, millele pole ühiku teisendust määratletud.
     - **Tootevariant** – selle väärtuse valimisel saate seadistada ühiku teisenduse kindla tootevariandi jaoks. Variandi valimiseks kasutage välja **Tootevariant**.
 
-    ![Uue ühiku teisenduse lisamine.](media/uom-new-conversion.png "Uue ühiku teisenduse lisamine")
+    ![Uue ühiku teisenduse lisamine](media/uom-new-conversion.png "Uue ühiku teisenduse lisamine")
 
 1. Ühiku teisenduse seadistamiseks kasutage teisi saadaolevaid välju.
 1. Uue ühiku teisenduse salvestamiseks valige **OK**.
@@ -103,7 +105,4 @@ Kui tootel on palju erinevate ühiku teisendustega tootevariante, oleks hea eksp
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-[Mõõtühikute haldamine](tasks/manage-unit-measure.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[Mõõtühiku haldamine](tasks/manage-unit-measure.md)

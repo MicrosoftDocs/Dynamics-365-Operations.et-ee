@@ -1,12 +1,10 @@
 ---
 title: Töökäsu aruanne
 description: Selles teemas kirjeldatakse töökäskude aruandeid varahalduses.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 93544f0459641c5e72ec6a0af10f0db9718ad799
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 3d2aff88880f27d50f3795e97aadf95a86a90cab
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5022353"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344588"
 ---
 # <a name="work-order-report"></a>Töökäsu aruanne
 
@@ -44,9 +42,12 @@ Saate luua töökäsu aruande, mis näitab üksikasjalikku teavet ühe või enam
 
 Järgmine joonis kujutab aruande parameetrite võimalikku näidusseadistust.
 
-![Joonis 1](media/20-work-orders.png)
+![Joonis 1.](media/20-work-orders.png)
 
 Järgmisel joonisel on kujutatud selle seadistuse põhjal koostatud töökäsu aruande näidis.
 
-![Joonis 2](media/21-work-orders.png)
+![Joonis 2.](media/21-work-orders.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

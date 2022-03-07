@@ -1,12 +1,10 @@
 ---
 title: Üksus, kus on kasutatud
 description: Selles teemas kirjeldatakse, kuidas saada ülevaadet, kuidas üksust kasutatakse varahalduses.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/23/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetItemWhereUsed, EntAssetItemWhereUsedCalculate
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: db0932c5a52030c1a7f0411163aee120e2173ca0
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
-ms.translationtype: HT
+ms.openlocfilehash: 2308fc4fabe541b8affeba5860a3154f81e8903e4853fd36d777f15a503d9dd8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021135"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6752822"
 ---
 # <a name="item-where-used"></a>Üksus, kus on kasutatud
 
@@ -60,7 +58,7 @@ Saate arvutada kindlat üksust, et saada ülevaade, kus vara halduses seda üksu
 
 5. Arvutuse alustamiseks klõpsake **OK**.
 
-6. Valige vahekaardi **Üksus, kus kasutatud** nupud  **Rühmitusalus**, et näidata arvutuse nõutavate andmete taset. Valitud nupud **Rühmitusalus** on esile tõstetud. Nupu aktiveerimiseks või inaktiveerimiseks klõpsake sellel.
+6. Valige vahekaardi **Üksus, kus kasutatud** nupud **Rühmitusalus**, et näidata arvutuse nõutavate andmete taset. Valitud nupud **Rühmitusalus** on esile tõstetud. Nupu aktiveerimiseks või inaktiveerimiseks klõpsake sellel.
 
 7. Kui tahate näidata üksusega seotud dimensioone, klõpsake **Näita dimensioone** ja valige näidatavad dimensioonid.
 
@@ -68,5 +66,8 @@ Saate arvutada kindlat üksust, et saada ülevaade, kus vara halduses seda üksu
 
 Alloleval kuvatõmmisel on näide üksuse numbri „1000“ „Üksus, kus kasutatud“ arvutusest.
 
-![„Üksus, kus kasutatud“ arvutuse näide](media/12-controlling-and-reporting.png)
+![Näide üksusest, kus on kasutatud arvutust.](media/12-controlling-and-reporting.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

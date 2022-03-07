@@ -1,12 +1,10 @@
 ---
-title: Loo uus toode Kaubanduses
+title: Uue toote loomine Commerce'is
 description: Selles teemas kirjeldatakse, kuidas luua rakenduses Microsoft Dynamics 365 Commerce uus toode.
 author: samjarawan
-manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -16,14 +14,14 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 3b578c1bdfe1c6b4bf66cc85cc09ed906fb812a8
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: 73911d9d8e3fdc6d72eadb8d071382e15dd5375eae8274f88d88b1078e7720f6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965303"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6753718"
 ---
-# <a name="create-a-new-product-in-commerce"></a>Loo uus toode Kaubanduses
+# <a name="create-a-new-product-in-commerce"></a>Uue toote loomine Commerce'is
 
 
 [!include [banner](includes/banner.md)]
@@ -51,13 +49,13 @@ Toodet defineeritakse peamiselt toote numbri, nime ja kirjeldusega. Kuid toote v
 
 Järgmine pilt näitab näidistoote lisamist.
 
-![Toote loomine](media/create-new-product.png)
+![Toote loomine.](media/create-new-product.png)
 
 Kui toode on lisatud, saab sellele seadistada täiendavaid andmeid, nagu **Toote kirjeldus**, **Variandigrupid**, **Dimensioonigrupid**, **Toote atribuudid** ja **Seotud tooted**.
 
 Järgmine pilt näitab toote täiendavaid üksikasju.
 
-![Toote üksikasjad](media/create-new-product-2.png)
+![Toote üksikasjad.](media/create-new-product-2.png)
 
 ### <a name="create-product-variants"></a>Tootevariantide loomine
 
@@ -76,23 +74,23 @@ Toote müümiseks tuleb see kõigepealt juriidilisele isikule väljastada.
 
 1. Valige toote lehel **Väljasta tooteid**.
 
-    ![Toote väljastamine](media/create-new-product-3.png)
+    ![Toote väljastus.](media/create-new-product-3.png)
 
 1. Valige väljastatav toode ja seejärel valige **Edasi**.
 
-    ![Valige väljastatav toode](media/create-new-product-4.png)
+    ![Valige väljastatav toode.](media/create-new-product-4.png)
 
 1. Valige väljastatav toote variantide komplekt ja seejärel valige **Edasi**.
 
-    ![Valige väljastatavad variandid](media/create-new-product-5.png)
+    ![Valige väljastatavad variandid.](media/create-new-product-5.png)
 
 1. Valige juriidiline isik ja seejärel valige **Edasi**.
 
-    ![Valige juriidiline isik](media/create-new-product-6.png)
+    ![Valige juriidiline isik.](media/create-new-product-6.png)
 
 1. Valige **Lõpeta**.
 
-    ![Toote väljastamise lõpetamine](media/create-new-product-7.png)
+    ![Toote väljastamise lõpetamine.](media/create-new-product-7.png)
 
 ## <a name="configure-a-released-product"></a>Väljastatud toote konfigureerimine
 
@@ -107,10 +105,13 @@ Kui toode on vabastatud, siis on vajab see täiendavat konfiguratsiooni, mis sis
 
 Järgmine pilt näitab väljastatud toote konfiguratsiooni näidet.
 
-![Väljastatud toote konfigureerimine](media/create-new-product-8.png)
+![Väljastatud toote konfigureerimine.](media/create-new-product-8.png)
 
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Juriidiliste isikute loomine](channels-legal-entities.md)
 
-[Variandi grupi loomine](create-variant-group.md) 
+[Variandigrupi loomine](create-variant-group.md) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

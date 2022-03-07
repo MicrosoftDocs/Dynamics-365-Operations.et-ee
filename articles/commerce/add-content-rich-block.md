@@ -2,35 +2,30 @@
 title: Tekstiploki moodul
 description: See teema hõlmab tekstiploki mooduleid ja kirjeldab, kuidas neid rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
 author: anupamar-ms
-manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c6527ad00e74fa105f3873036eb56557b98b05aa
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 9068c35eaeee68f97d81d168983d7281da09491cb0afd70cb8196010ce771b0d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411609"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6723307"
 ---
 # <a name="text-block-module"></a>Tekstiploki moodul
 
 [!include [banner](includes/banner.md)]
 
 See teema hõlmab tekstiploki mooduleid ja kirjeldab, kuidas neid rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
-
-## <a name="overview"></a>Ülevaade
 
 Tekstiploki moodul on moodul, mida kasutatakse tekstilise sisu lisamiseks. See sisu võib olla kas teavitav või kampaaniaga seotud.
 
@@ -47,7 +42,7 @@ Tekstiploki mooduleid saab kasutada järgmistel viisidel.
 
 Järgmisel pildil on näide tekstiploki moodulist, mida kasutatakse avalehel.
 
-![Tekstiploki mooduli näide](./media/ecommerce-textblock.PNG)
+![Tekstiploki mooduli näide.](./media/ecommerce-textblock.PNG)
 
 ## <a name="text-block-module-properties"></a>Tekstiploki mooduli omadused
 
@@ -89,3 +84,6 @@ Uuele lehele tekstiploki mooduli lisamiseks ja vajalike atribuutide seadistamise
 
 [Videopleierimoodul](add-video-player.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

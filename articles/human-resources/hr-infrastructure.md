@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 Human Resources infrastruktuuri ühendamine – versiooni 10.0.25 värskendus
-description: See teema pakub teavet Microsofti kohta Dynamics 365 Human Resources väljalase 10.0.25, mis toob kaasa esimese infrastruktuuri ühendamise võimaluste laine.
+title: Dynamics 365 Human Resources infrastruktuuri ühendamine – väljast 10.0.25 värskendus
+description: See teema annab teavet Microsoft Release 10.0.25 kohta, mis toob kaasa infrastruktuuri ühendamise esimese Dynamics 365 Human Resources võimaluste voo.
 author: twheeloc
 ms.date: 01/19/2022
 ms.topic: article
@@ -15,65 +15,66 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a80bedd0224f1e31dfec4e9f4c39ad1ed75d7f2f
-ms.sourcegitcommit: 948978183a1da949e35585b28b8e85a63b6c12b1
-ms.translationtype: MT
+ms.openlocfilehash: b785248c31c2cc4feb5cedd77264f36bfe927e0e
+ms.sourcegitcommit: 10b85a09e8a550155a69aa2a8877a7c88b887242
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "8024563"
+ms.lasthandoff: 01/20/2022
+ms.locfileid: "8014489"
 ---
-# <a name="dynamics-365-human-resources-infrastructure-merge---release-10025-update"></a>Dynamics 365 Human Resources infrastruktuuri ühendamine – versiooni 10.0.25 värskendus
+# <a name="dynamics-365-human-resources-infrastructure-merge---release-10025-update"></a>Dynamics 365 Human Resources infrastruktuuri ühendamine – väljast 10.0.25 värskendus
 
-Versioon 10.0.25 toob kaasa esimese infrastruktuuri ühendamise võimaluste laine. Taristu ühendamise käigus Microsoft Dynamics 365 Human Resources liidetakse Finance and Operationsi infrastruktuuriga. Siiski jätkatakse selle litsentsimist iseseisva rakendusena, nagu Dynamics 365 Finance ja Dynamics 365 Supply Chain Management. Lisateabe saamiseks infrastruktuuri ühendamise kohta vt [Dynamics 365 Human Resources infrastruktuuri ühendamise KKK](../human-resources/hr-infrastructure-merge-faq.md).
+10.0.25 vabastamine toob infrastruktuuri ühendamiseks esimese võimaluste voo. Infrastruktuuri ühendamise ajal Dynamics 365 Human Resources ühendatakse Microsoft Finantside ja Toimingute infrastruktuuriga. Kuid seda litsentsitakse siiski ka edaspidi sõltumatu Dynamics 365 Finance rakendusena Dynamics 365 Supply Chain Management. Lisateavet infrastruktuuri ühendamise kohta vt infrastruktuuri ühendamise [Dynamics 365 Human Resources KKK-st](../human-resources/hr-infrastructure-merge-faq.md).
 
-Ühendamine tagab personaliteenuste kasutajatele järjepidevuse järgmistel viisidel.
+Ühendamine tagab inimressursside kasutajate jaoks järjepidevuse järgmistel viisidel:
 
-- [Keskkonnajuhtimine ja integratsioonid on personali- ning finants- ja tegevusrakenduste vahel kooskõlas.](/dynamics365-release-plan/2021wave2/human-resources/dynamics365-human-resources/consistent-environment-management-integrations-between-human-resources-finance-operations-apps)
+- [Keskkonnahaldus ja integratsioonid on inimressursside ning finantside ja toimingute rakenduste vahel järjepidevad.](/dynamics365-release-plan/2021wave2/human-resources/dynamics365-human-resources/consistent-environment-management-integrations-between-human-resources-finance-operations-apps)
 
-    - Hallake keskkondi Microsoft Dynamics Elutsükli teenused, probleemide otsing ja Regression Suite Automation Tool.
-    - Seal on üks koodibaas, kus tavapärase One Version värskendusprotsessi osana vabastatakse personaliosakonna uued funktsioonid.
-    - Viis, kuidas täiendusi, värskendusi ja kiirparandusi keskkondadele rakendatakse, on ühtlane.
+    - Hallake keskkondi Microsoft Dynamics elutsükli teenustes, väljastamisotsingus ja Regression Suite Automation Tool.
+    - On olemas üks koodibaas, kus Inimressursid uued funktsioonid vabastatakse osana tavalisest ühe versiooni uuendamise protsessist.
+    - Täienduste, värskenduste ja kiirparanduste rakendamist keskkondades on kooskõlaline.
 
-- [Laiendatavuse võimalusi on täiustatud.](/dynamics365-release-plan/2021wave2/human-resources/dynamics365-human-resources/improve-extensibility-options.md)
+- [Laiendatavusvalikud on täiustatud.](/dynamics365-release-plan/2021wave2/human-resources/dynamics365-human-resources/improve-extensibility-options.md)
 
-    - Saate jätkata kasutamist Microsoft Power Platform tööriistu vastavalt vajadusele pikendada.
-    - Funktsionaalsust saate laiendada vormide, tabelite, meetodite ja rakendusliideste (API-de) kaudu.
-    - Saate luua ja laiendada üksusi.
+    - Saate vajadusel jätkata Microsoft Power Platform tööriistade kasutamist, et laiendada.
+    - Funktsiooni saate laiendada vormide, tabelite, meetodite ja rakendusliideste (API-d) kaudu.
+    - Saate üksuseid luua ja laiendada.
 
-    Saadaolevate laiendusvalikute kohta lisateabe saamiseks vt [Ülevaade Dynamics 365 laiendatavusest](../fin-ops-core/dev-itpro/extensibility/extensibility-home-page.md).
+    Lisateavet saadaoleva laiendusvalikute kohta vt Dynamics [365 laiendatavusest](../fin-ops-core/dev-itpro/extensibility/extensibility-home-page.md) ülevaadet.
 
-- [Looge Dynamics 365-s üks inimressursi võimaluste komplekt.](/dynamics365-release-plan/2021wave2/human-resources/create-one-set-human-resources-capabilities-within-dynamics-365.md)
+- [Dynamics 365-is luuakse üks inimressursside võimaluste kogum.](/dynamics365-release-plan/2021wave2/human-resources/create-one-set-human-resources-capabilities-within-dynamics-365.md)
 
-    Versiooni 10.0.25 versioonis on Finance and Operationsi infrastruktuuris kättesaadavaks tehtud funktsionaalsed võimalused, mis eksisteerisid ainult personaliosakonnas. Selleks, et kliendid saaksid neid võimalusi Finance and Operationsi keskkonnas kasutada, peavad funktsioonide halduses olema lubatud järgmised personalifunktsioonid.
+    Väljaandes 10.0.25 on funktsionaalsed võimalused, mis eksisteerisid ainult Inimressurssides, teha kättesaadavaks Finantside ja Toimingute infrastruktuuris. Et kliendid neid võimalusi finantside ja toimingute keskkonnas ära kasutaks, peavad funktsioonihalduses olema lubatud järgmised inimressursside funktsioonid.
 
     | Funktsiooni nimi | Ülevaade | Väljastamise olek | 
     |--------------|----------|----------------| 
-    | Tööaastate arvutamine | Seadistussuvand võimaldab teil valida kuupäeva, mida kasutatakse **Tööaastaid** arvutus. | Üldiselt saadaval | 
-    | Töövootoimingute täiustused | See funktsioon pakub töövoo esitamiseks ja kinnitamiseks täiustatud kasutuskogemust. | Üldiselt saadaval | 
-    | Jõudluse ülevaadete printimine | Jõudlusülevaateid saate printida PDF-vormingus. | Üldiselt saadaval | 
-    | Kohandatud lingid sisse **Juhataja iseteenindus** | Saate luua kohandatud linke, mis kuvatakse rakenduses **Seotud lingid** osa **Juhataja iseteenindus**. | Üldiselt saadaval | 
-    | Ettevõtteülene hüvitusevaade | Kasutajad saavad hüvitise plaane vaadata **Juhataja iseteenindus** kõigis juriidilistes isikutes, ilma et peaks ettevõtet vahetama. | Üldiselt saadaval | 
-    | Konfigureerige mitu hüvitise taset töökoha järgi\*&dagger; | Töökohad toetavad nüüd mitut hüvitise taset. | Eelversioon | 
-    | Ülesannete haldamine\* | Saate luua sisse-, välja- ja üleminekuprotsessi jaoks kontrollnimekirju ja ülesandeid. | Eelversioon | 
-    | Sujuvam töövõtjate sisestamine | See funktsioon pakub värskendatud kasutuskogemust olemasoleval **Tööline** lehel. | Eelversioon | 
-    | Inimressursside kasutuskogemuse täiustused | Vaadake tabelit järgmises jaotises.  | Eelversioon | 
+    | Tööaastate arvutamine | Seadistussuvand võimaldab teil valida kuupäeva, mida kasutatakse **teenuseaastate** arvutamiseks. | Üldiselt saadaval | 
+    | Töövootoimingute täiustused | See funktsioon pakub täiustatud kasutajakogemust töövoo esitamiseks ja kinnitamiseks. | Üldiselt saadaval | 
+    | Jõudluse ülevaadete printimine | Jõudluse ülevaate saate printida PDF-vormingus. | Üldiselt saadaval | 
+    | Kohandatud lingid **halduri iseteeninduses** | Saate luua kohandatud linke, mis kuvatakse halduri **iseteeninduse** jaotises Seotud **lingid**. | Üldiselt saadaval | 
+    | Ettevõtteülene hüvitusevaade | Kasutajad saavad vaadata tasuplaane **juhataja iseteeninduses kõigi juriidiliste isikute** lõikes, ilma et oleks vaja ettevõtteid vahetada. | Üldiselt saadaval | 
+    | Mitme hüvitustaseme konfigureerimine töö järgi\*&dagger; | Nüüd toetavad tööd mitut hüvitustaset. | Üldiselt saadaval | 
+    | Ülesandehaldus\* | Saate luua kontroll-loendeid ja ülesandeid põhi- ja maharegistreerimise ning üleminekuprotsessi jaoks. | Eelversioon | 
+    | Sujuvam töövõtjate sisestamine | See funktsioon pakub värskendatud kasutajakogemust olemasoleval **lehel** Töötaja. | Eelversioon | 
+    | Inimressursside kasutuskogemuse täiustused | Vt järgmise jaotise tabelit.  | Eelversioon | 
 
-\* See funktsioon peab olema sisse lülitatud enne **Inimressursside kasutajakogemuse täiustused** tunnusjoon.
+\* See funktsioon peab olema sisse lülitatud enne inimressursside **kasutajakogemuse täiustuste** funktsiooni.
 
 &dagger; Seda funktsiooni ei saa pärast lubamist keelata.
 
-## <a name="human-resource-user-experience-enhancements"></a>Inimressursi kasutajakogemuse täiustused
+## <a name="human-resource-user-experience-enhancements"></a>Inimressursside kasutajakogemuse täiustused
 
 | Funktsiooni nimi | Ülevaade | 
 |--------------|----------| 
-| Kustuta töösuhe | Saate töötaja töösuhte kustutada. | 
-| Tööpered | Saate jälgida tööde rühma, mis hõlmavad sarnast tööd ja nõuavad sarnast koolitust, oskusi, teadmisi ja teadmisi. | 
-| Täiendavad töövaldkonnad | Lisati järgmised väljad: **Tööhõive kategooria**, **tüüp**, ja **Tööalane staatus**. | 
-| **Töötajad ilma tööta** lehel | Lehel kuvatakse nimekiri töötajatest, kellel pole tööandmeid. | 
-| Positsiooni dimensiooni kasutajakogemuse värskendus | Juriidilise isiku kohta positsiooni mõõtmete määramiseks on täiustatud kasutajakogemus. | 
-| Aadressi muutus **Personali juhtimine** tööruum | See funktsioon annab loendi kõigist aadressimuudatustest, mis toimusid teatud arvu päevade jooksul, nagu on määratletud **Inimressursi parameetrid** lehel. | 
-| Kirjed aeguvad **Personali juhtimine** tööruum | See funktsioon pakub loetelu üksustest, mis on aegunud või aeguvad sertifikaatide, identifitseerimise, katseaja, läbivaatuste või testide jaoks. | 
-| **Positsioonihierarhia kinnitamine** lehel | Positsiooniridade hierarhias kontrollitakse ringikujulisi viiteid. | 
-| Riigipõhine palgaarvestus | Täiendavad palgaväljad on saadaval aadressil **Töötaja tööhõive** lehel, olenevalt selle juriidilise isiku riigist või piirkonnast, kus töötajad töötavad. | 
-| Vastavuse aruandluse täiustused | Täiendavad aruandlusvalikud on saadaval EEO-1, Vets 4212 ja OSHA300a jaoks. | 
-| Värskendused **Personali juhtimine** tööruum | Aadresside muudatuste ja aeguvate kirjete jälgimiseks on tehtud värskendusi. Lisaks loetlevad uued vahekaardid töötajate ja ametikohtade toimingud. | 
+| Täpsem juurdepääs | Juurdepääs töötajatele on juriidilise isiku alusel piiratud. | 
+| Kustuta töösuhe | Saate kustutada töötaja töösuhte. | 
+| Töö pered | Saate jälgida gruppi sarnaseid töid, mis hõlmavad sarnaseid töid ja mis nõuavad sarnast koolitus-, oskus-, teadmisi ja oskusteavet. | 
+| Täiendavad tööhõiveväljad | Lisati järgmised väljad: **Tööhõive** kategooria, **Tööhõive tüüp ja** Tööhõive **olek**. | 
+| **Tööletööleheta** töötajad | Lehel kuvatakse töötajate loend, kellel pole tööhõivekirjet. | 
+| Ametikoha dimensiooni kasutajakogemuse värskendus | Täiustatud kasutajakogemus on olemas ametikoha dimensioonide määramiseks juriidilise isiku kohta. | 
+| Personalihalduse tööruumi **aadressimuutused** | See funktsioon loendab kõik aadressimuudatused, mis toimusid määratud arvu päevade jooksul, nagu määratud **inimressursside parameetrite** lehel. | 
+| Aeguvad kirjed **personalihalduse** tööruumis | See funktsioon annab loendi kaupadest, mis on aegunud või aeguvad sertide, tunnuste, katseaja, skriiningute või testide jaoks. | 
+| **Ametikoha hierarhia kinnitamise** leht | Ringviidete kontroll positsioonirea hierarhias. | 
+| Riigipõhine palgateave | Täiendavad palgaväljad on saadaval töötaja tööhõive lehel, sõltuvalt selle juriidilise isiku riigist või regioonist, **kus** töötajad on palgatud. | 
+| Vastavuse aruandluse täiustused | Täiendavad aruandlusvalikud on saadaval rakendustele EEO-1, Vets 4212 ja OSHA300a. | 
+| Personalihalduse **tööruumi** värskendused | Aadressimuudatuste ja aegumiskirjete jälgimiseks on uuendused tehtud. Lisaks loetletakse uute vahekaartide abil töötaja ja ametikoha tegevused. | 

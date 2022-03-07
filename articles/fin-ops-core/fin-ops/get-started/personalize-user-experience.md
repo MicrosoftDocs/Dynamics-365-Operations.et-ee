@@ -2,11 +2,9 @@
 title: Kasutuskogemuse isikupärastamine
 description: Selles teemas selgitatakse, kuidas isikupärastada rakendust.
 author: jasongre
-manager: AnnBe
-ms.date: 09/11/2020
+ms.date: 01/28/2022
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysUserSetup, DefaultDashboard
 audience: Application User, IT Pro
@@ -17,16 +15,20 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 734f6499753d74b0bac8b2df1381ece4a7824142
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 840a68d506664043c9affb67e801429e0594f0bd
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797486"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075418"
 ---
 # <a name="personalize-the-user-experience"></a>Kasutuskogemuse isikupärastamine
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Selles teemas selgitatakse, kuidas saate rakendust isikupärastada, ning see hõlmab järgmisi teemasid. 
 
@@ -87,7 +89,7 @@ Mõned tüüpilisimad ja olulisimad muudatused, mille lehele saab teha, on saada
 
 Lisaks sellele on enamik isikupärastamistüüpe saadaval, kui paremklõpsate elemendil ja valite käsu **Isikupärastamine**. (Arvestage sellega, et kõiki lehel olevaid elemente ei saa isikupärastada.) Kui valite selle isikupärastamise viisi, ilmub elemendi *atribuudiaken*.
 
-![Elemendi atribuutide isikupärastamine](./media/cli-element-property-window.png)
+![Elemendi atribuutide isikupärastamine.](./media/cli-element-property-window.png)
 
 Atribuudiakna kaudu on elemendi isikupärastamiseks järgmised võimalused.
 
@@ -100,7 +102,7 @@ Atribuudiakna kaudu on elemendi isikupärastamiseks järgmised võimalused.
 
 Atribuudiaken võib sisaldada ka muid isikupärastamisvõimalusi olenevalt elemendist. Näiteks võib paani atribuudiaken lubada teil ülendada selle paani armatuurlauaks ning vaikearmatuurlaua elementide atribuudiaknad võib lubada teil luua uue kohandatud tööruumi.
 
-### <a name="the-personalization-toolbar"></a>Isikupärastamise tööriistariba
+### <a name="personalization-toolbar"></a>Isikupärastamise tööriistariba
 
 Kui soovite teha lehel mitu muudatust või teha muudatusi, mis pole muude mehhanismide kaudu saadaval (nt kui soovite elemente ümber järjestada), saate kasutada tööriistariba **Isikupärastamine**. Tööriistariba **Isikupärastamine** avamiseks toimige järgmiselt.
 
@@ -109,7 +111,7 @@ Kui soovite teha lehel mitu muudatust või teha muudatusi, mis pole muude mehhan
 - Valige mistahes lehe vahekaardi **Suvandid** jaotise **Isikupärastamine** tegumiribal **Isikupärasta seda lehte**.
 - Valige navigeerimisribal nupp **Sätted** (hammasrattasümbol) ja valige **Isikupärasta**.
 
-[![Isikupärastamise tööriistariba](./media/restyledPersonalizationToolbar.png)](./media/restyledPersonalizationToolbar.png)
+[![Isikupärastamise tööriistariba.](./media/restyledPersonalizationToolbar.png)](./media/restyledPersonalizationToolbar.png)
 
 #### <a name="navigating-the-page"></a>Lehel liikumine
 
@@ -121,7 +123,10 @@ Tööriistaribal **Isikupärastamine** on saadaval järgmised tööriistad.
 
 - Tööriistaga **Vali** saate valida ja muuta elemendi atribuute. Selle tööriista kasutamiseks valige tööriistaribal nupp **Vali** ja seejärel valige soovitud element. Kuvatakse elemendi atribuudiaken, kus te saate muuta selle elemendi kõiki atribuute. Saate protsessi selle lehe muude isikupärastatavate elementide puhul korrata. Võtke arvesse, et mõned isikupärastamise atribuudid ei pruugi mõne stsenaariumi puhul saadaval olla. Näiteks ei saa te nõutavat välja lukustada.
 - Tööriistaga **Peida** saate elemendi lehel peita. Selle tööriista kasutamiseks valige tööriistaribal nupp **Peida** ja seejärel valige peidetav element. Tööriista **Peida** kasutamisel muudetakse kõik parasjagu peidetud elemendid nähtavaks, kuid need kuvatakse varjutatud konteineris. Elemendi saate nähtavaks muuta, kui valite selle. Selleks, et vaadata, milline leht välja näeb, kui elemendid on peidetud, aktiveerige muu isikupärastamistööriist või sulgege isikupärastamistööriist.
-- Väljade lisamiseks oma lehele kasutage tööriista **Lisa välju**. Selle tööriista kasutamisel saate lisada ainult välju, mis on osa lehekülje määratlusest. Teavet selle kohta, kuidas luua uusi välju, mis ei ole osa praeguse lehe määratlusest, vt jaotisest [Kohandatud väljade loomine ja nendega töötamine](user-defined-fields.md). Nupu **Lisa välju** valimisel tööriistaribal peate esmalt valima ruudustiku või jaotise, kuhu soovite välja lisada. Dialoogiboksis kuvatakse valitud ruudustiku või jaotisega seotud väljade loend. Valige dialoogiboksis lisamiseks üks või mitu välja ja seejärel valige käsk **Värskenda**. Varem lisatud välja eemaldamiseks korrake protsessi, kuid tühjendage dialoogiboksis välja valik.
+- Väljade lisamiseks oma lehele kasutage tööriista **Lisa välju**. Selle tööriista kasutamisel saate lisada ainult välju, mis on osa lehekülje määratlusest. Teavet selle kohta, kuidas luua uusi välju, mis ei ole osa praeguse lehe määratlusest, vt jaotisest [Kohandatud väljade loomine ja nendega töötamine](user-defined-fields.md). Nupu **Lisa välju** valimisel tööriistaribal peate esmalt valima ruudustiku või jaotise, kuhu soovite välja lisada. Dialoogiboksis kuvatakse valitud ruudustiku või jaotisega seotud väljade loend. Valige dialoogiboksis üks või mitu välja, mida lisada kas **Soovitatud väljade** või **Kõigi väljade** loendist. Pärast soovitud väljade valimist valige **Uuendamine**. Varem lisatud välja eemaldamiseks korrake protsessi, kuid tühjendage dialoogiboksis välja valik.
+
+    **Soovitatud väljade** loendis kuvatakse väljad, mis on eelnevalt teie organisatsiooni teiste kasutajate poolt lisatud. Seda väljaloendit uuendatakse vastavalt **Soovitatava partii töö** kordumissagedusele. Sarnane kogemus eksisteerib uute filtriväljade lisamisel lehekülje paani „Filtreeri” abil.
+
 - Tööriistaga **Teisalda** saate nihutada elemendi praeguses elemendirühmas teise asukohta. Võtke arvesse, et elementi ei saa teisaldada emagrupist väljapoole. Selle tööriista kasutamiseks valige tööriistaribal nupp **Teisalda** ja seejärel valige teisaldatav element. Elemendi valimisel määratleb rakendus asukohad, kuhu elementi saab teisaldada. Neid asukohti tuntakse *pukseerimistsoonidena*. Elemendi lohistamisel praeguses rühmas kuvatakse iga pukseerimistsoon värvilisena ja paksu joonega selle ala kõrval, kuhu elemendi saab pukseerida.
 - Tööriistaga **Jäta vahele** saate eemaldada elemendi lehe klaviatuuri vahekaardijärjestusest. Nupu **Jäta vahele** valimisel tööriistaribal kuvatakse kõik parasjagu vahelejäetud elemendid varjutatud konteineris. Välju saate interaktiivselt vahekaardi järjestusest eemaldada või neid sinna lisada.
 - Tööriistaga **Kuva päis** saate kuvada välja kiirkaardi kokkuvõttejaotises. Tööriistariba nupu **Kuva päises** valimisel kuvatakse kõik kokkuvõtteväljadena valitud väljad varjutatud konteineris. Saate välju interaktiivselt kiirkaardi kokkuvõttesse lisada ja välju sealt eemaldada, valides soovitud väljad.
@@ -149,11 +154,14 @@ Mõned lehed, milles on loendid, on isikupärastamisfunktsioon **Lisa tööruumi
 > [!NOTE]
 > Kui funktsioon [Salvestatud vaated](saved-views.md) on sisse lülitatud, on tööruumi lükatud sisu vaatega otse lingitud. Vaate päringut kasutatakse andmeid tööruumi tuua ning tööruumi asjaomane paan või link avab selle vaate lehe, nii et selle puhul rakendatakse vaate päring ja isikupärastamised. Kui vaadet uuendatakse, kohandatakse asjaomaseid tööruumi elemente uue vaate järgi.
 
-[![Lisa tööruumi](./media/personalization-addtoworkspace.png)](./media/personalization-addtoworkspace.png)
+[![Lisa tööruumi.](./media/personalization-addtoworkspace.png)](./media/personalization-addtoworkspace.png)
 
 - Tööruumile loendi lisamiseks tööruumi sortige või filtreerige esmalt lehel loend, et see kuvaks teavet nii, nagu soovite seda tööruumis kuvada. (Kui funktsioon **Salvestatud vaated** on sisse lülitatud, ei saa te jätkata enne, kui salvestate nende tingimustega vaate.) Seejärel valige **Lisa tööruumi**. Valige tööruum ja seejärel valige väljal **Esitlus** suvand **Loend**. Pärast suvandi **Konfigureeri** valimist ilmub dialoogiboks, kus saate valida veerud, mis peaks tööruumis loendis ilmuma. Saate ka määrata tööruumis olevale loendile sildi.
 - Tööruumile paani lisamiseks filtreerige esmalt lehel loendit, et see kuvaks andmed, mida tuleks kokku võtta või millele soovite kiirelt juurdepääsu. (Kui funktsioon **Salvestatud vaated** on sisse lülitatud, ei saa te jätkata enne, kui salvestate nende tingimustega vaate.) Seejärel valige **Lisa tööruumi**. Valige tööruum ja seejärel valige väljal **Esitlus** suvand **Paan**. Kui olete valinud suvandi **Konfigureeri**, ilmub dialoogiboks, kus saate määrata tööruumis olevale paanile sildi. Saate ka määrata, kas paanil kuvatakse arv. Pärast seda, kui paan on tööruumi lisatud, saate selle valida praeguse lehe avamiseks tööruumist. Seejärel saate vaadata paaniga seotud filtreeritud loendit.
-- Tööruumile lingi lisamiseks filtreerige esmalt lehel loend, nii et see kuvaks andmeid, millest olete huvitatud. (Kui funktsioon **Salvestatud vaated** on sisse lülitatud, ei saa te jätkata enne, kui salvestate nende tingimustega vaate.) Seejärel valige **Lisa tööruumi**. Valige tööruum ja seejärel valige väljal **Esitlus** suvand **Link**. Kui olete valinud suvandi **Konfigureeri**, ilmub dialoogiboks, kus saate määrata tööruumis olevale lingile sildi. Samuti saate valikuliselt määrata sildi uuele jaotisele, mis seda linki sisaldab.
+- Tööruumile lingi lisamiseks filtreerige esmalt lehel loend, nii et see kuvaks andmeid, millest olete huvitatud. (Kui funktsioon **Salvestatud vaated** on sisse lülitatud, ei saa te jätkata enne, kui salvestate nende tingimustega vaate.) Seejärel valige **Lisa tööruumi**. Valige tööruum ja seejärel valige väljal **Esitlus** suvand **Link**. Kui olete valinud suvandi **Konfigureeri**, ilmub dialoogiboks, kus saate määrata tööruumis olevale lingile sildi. Soovi korral saate määrata ka selle jaotise sildi, kuhu seda linki saab paigutada. Kui seda jaotist pole olemas, luuakse uus jaotis.
+
+> [!NOTE]
+> Alates versioonist 10.0.25 peate loendi, paani või lingi konfigureerimisel võib-olla valima ka tööruumivaated, millele soovite elemendi lisada, kui **funktsioon (Eelvaade) Salvestatud** vaadete tugi tööruumide jaoks on lubatud. Saadaolevad tööruumivaated kuvatakse **dialoogiboksi Konfigureeri** jaotises **Tööruumisuvandid**. 
 
 Kui loend, paan või link on tööruumile lisatud, saate selle tööruumi avada ja elemendid soovitud viisil ümberkorraldada.
 
@@ -171,11 +179,97 @@ Armatuurlaud on tihti esimene leht, mida näete rakenduse avamisel. Seda saab is
 Üks armatuurlaual saadaolev ainulaadne isikupärastamise võimalus on võime lisada paane. 
 
 - Kui funktsioon **Täisleheküljelised rakendused** on välja lülitatud, saate lisada uue paani, kui paremklõpsate armatuurlaua elemendil ja valite **Lisa tööruum**. Uus tööruumipaan luuakse armatuurlaua alaserva. Saate selle uue tööruumipaani soovitud viisil ümber nimetada. Samuti saate lisada tööruumi loendeid, paane ja linke, nagu on kirjeldatud selle teema jaotises [Paanide, loendite ja linkide lisamine tööruumi](personalize-user-experience.md#adding-tiles-lists-and-links-to-a-workspace).
-- Kui funktsioon **Täisleheküljelised rakendused** on sisse lülitatud, saate lisada uue paani, kui paremklõpsate armatuurlaua elemendil ja valite **Lisa rakendus**. Valige dialoogiboksis, kas soovite lisada paani uue tööruumi jaoks või paani, mis sisaldab sisu Power Appsist või veebisaidilt. Seejärel järgige valitud suvandi konfigureerimiseks juhiseid. Uus paan luuakse armatuurlaua alaserva. 
+- Kui funktsioon **Täisleheküljelised rakendused** on sisse lülitatud, saate lisada uue paani, kui paremklõpsate armatuurlaua elemendil ja valite **Lisa rakendus**. Valige dialoogiboksis, kas soovite lisada paani uue tööruumi jaoks või paani, mis sisaldab sisu Power Appsist või veebisaidilt. Seejärel järgige valitud suvandi konfigureerimiseks juhiseid. Uus paan luuakse armatuurlaua alaserva. Lisateavet nende manustatud rakenduste lisamise, redigeerimise, kustutamise ja jagamise kohta vt jaotisest [Lõuendirakenduste manustamine Power Appsist](embed-power-apps.md) ja [Kolmanda osapoole rakenduste manustamine](embed-website.md).
 
 ## <a name="sharing-personalizations"></a>Isikupärastamiste ühiskasutamine
 
-Pärast lehe isikupärastamist võite oma isikupärastamisi oma isikupärastatud lehe eksportimise teel teiste kasutajatega jagada. Seejärel saate paluda teistel kasutajatel isikupärastamisfail importida. Teine võimalus on anda oma isikupärastamised administraatoriõigustega kasutajale. Seejärel saab rakendada teie iskupärastamise faili samaaegselt paljudele kasutajatele, kasutades halduslehte **Isikupärastamine**.
+Pärast lehe isikupärastamist saate oma isikupärastatud lehte mitmel viisil teiste kasutajatega jagada. Järgmises loendis on meetodid korraldatud järjekorras kõige rohkem soovitatud meetodilt kuni kõige vähem soovitatud meetodile.
+
+1. Avaldada kasutajatele vaated.
+2. Kopeerige vaateid või isikupärastamiseid kasutajatele.
+3. Eksportige ja importige vaated või isikupärastamiseid.
+
+### <a name="publish-views-to-users"></a>Avaldage kasutajatele vaated
+
+Kui [Salvestatud vaadete](saved-views.md) funktsioon on sisse lülitatud ja kui leht toetab vaateid, siis on parim viis isikupärastamiste jagamiseks teiste kasutajatega avaldada vaated kasutajatele, kel on üks või mitu turberolli. Lisateavet leiate teemast [avaldatud vaated](saved-views.md#publishing-views).
+
+### <a name="copy-views-or-personalizations-to-users"></a>Kopeerige vaated või isikupärastamised kasutajatele
+
+Kui [Salvestatud vaadete](saved-views.md) funktsioon on välja lülitatud või kui leht ei toeta vaatamisi, siis on soovituslik viis isikupärastamiste jagamiseks need kasutajate vahel kopeerida. See meetod on saadaval ainult privilegeeritud kasutajatele (nt süsteemi administraatoritele). Kuigi administraatorid võivad süsteemis otsida konkreetse kasutaja isikupärastamist (k.a kasutaja isiklik vaade, kui salvestatud vaated on lubatud) ja kopeerida konfiguratsiooni teistele kasutajatele.
+
+Kui salvestatud vaated on lubatud, järgige isikupärastamise kopeerimiseks neid samme.
+
+1. Minge **Süsteemi administratsioon \> Seadistus \> Isikustamine**.
+2. Isiklike vaadete kopeerimiseks järgige neid samme:
+
+    1. Valige **Isiklikud vaated**.
+    2. Valige loendist soovitud vaated.
+    3. Valige **Kopeeri kasutajatele**.
+    4. Vaadete jaotamiseks valige kasutajad.
+
+    Järgige neid samme isikupärastamise kopeerimiseks lehtedel, mis ei toeta vaateid.
+
+    1. **Kasutajasätete valimine**.
+    2. Valige kasutaja, kellel on isikupärastamine, mida soovite jaotada.
+    3. Valige **Halda kõiki isikupärastamiseid**.
+    4. Valige loendist soovitud isikustamised.
+    5. Valige **Kopeeri kasutajatele**.
+    6. Isikustamiste jaotamiseks valige kasutajad.
+
+Kui salvestatud vaated ei ole lubatud, järgige isikupärastamise kopeerimiseks neid samme.
+
+1. Minge **Süsteemi administratsioon \> Seadistus \> Isikustamine**.
+2. Valige **Rakendamine**.
+3. Isikustamiste jaotamiseks valige kasutajad.
+4. Valige **Valige olemasolev isikupärastamine**.
+5. Otsige ja valige (üksik) isikupärastamine, mida teid soovite.
+6. Valige nupp **OK**.
+
+### <a name="export-and-import-views-or-personalizations"></a>Eksportige ja importige vaateid või isikupärastamiseid
+
+Teine viis isikupärastamise jagamiseks on läbi ekspordi ja impordi. Üksikud kasutajad või administraator, kes tegutseb enda nimel, saavad seda meetodit kasutada oma isikupärastamise või vaadete eksportimiseks ja seejärel anda eksporditud faili teistele kasutajatele importimiseks. Teise võimalusena saavad kasutajad anda eksporditud isikupärastamised haldusõigusi omavale kasutajale ja see kasutaja saab seejärel kasutada **Isikupärastamise** halduslehte et rakendada isikupärastamise fail paljudele kasutajatele samaaegselt.
+
+> [!IMPORTANT]
+> Kuna isikupärastamine püsib värskenduste lõikes, ei ole kõigi isikupärastamiste uuesti importimine pärast teenuse värskendamist või muul ajal tarbetu ja väga heidutatud.
+
+#### <a name="export"></a>Eksport
+
+Üldiselt saate eksportida ühe oma vaadetest või isikupärastamist, avades sobiva lehekülje, avades **isikupärastamise** tööriistariba ja valides seejärel **Ekspordi**. Lisateavet tööriistariba kohta vt [Tööriistariba isikupärastamise](#personalization-toolbar) jaotisest varasemalt selles teemas. Kui [salvestatud vaated](saved-views.md) on lubatud, saate minna ka **Sätted \> Kasutaja võimalused \> Isikustamine** et vaadata kõigi isikustamiste loendit süsteemis. Sealt saate valida eksportimiseks vaateid või isikupärastamiseid ja seejärel valida **Ekspordi**.
+
+Lisaks saavad administraatorid eksportida teiste kasutajate isikupärastamiseid järgides neid samme.
+
+1. Minge **Süsteemi administratsioon \> Seadistus \> Isikustamine**.
+2. Vahekaardil **Kasutajad** valige soovitud kasutaja.
+3. Otsige ja valige vaade või isikupärastamine, mida teid soovite.
+4. Valige **Ekspordi**.
+
+#### <a name="import"></a>Importimine
+
+Vaate või isikupärastamise importimiseks avage **Isikupärastamise** tööriistariba ja valige **Impordi**. Lisaks saavad administraatorid faili importida ja anda selle kohe ühele või mitmele kasutajale.
+
+Kui salvestatud vaated on lubatud, järgige neid samme.
+
+1. Minge **Süsteemi administratsioon \> Seadistus \> Isikustamine**.
+2. Toimingupaanil valige **Impordi vaated \> Kasutaja vaated**.
+3. Valige impordimudel:
+
+    - **Valige kindlad kasutajad** – Andke vaade või isikupärastamine valitud kasutajatele.
+    - **Impordi vastavalt vajadusel** – importige vaade või isikupärastamine samale kasutajale, kes selle eksportis.
+
+4. Valige **Sirvi** ja otsige ja valige isikustamine importimiseks.
+5. Valige **Edasi**.
+6. Kui valisite **Valige kindlad kasutajad** 3. sammus, valige kasutajad, kes isikupärastamise impordite.
+7. Valige **Impordi**.
+8. Lahenda konfliktid vastavalt vajadusele.
+
+Kui salvestatud vaated ei ole lubatud, järgige neid samme.
+
+1. Minge **Süsteemi administratsioon \> Seadistus \> Isikustamine**.
+2. Valige **Rakendamine**.
+3. Isikustamiste jaotamiseks valige kasutajad.
+4. Valige **Impordi isikupärastamised failist**.
+5. Valige **Sirvi** ja otsige ja valige isikustamine importimiseks.
+6. Valige nupp **OK**.
 
 ## <a name="administration-of-personalizations"></a>Isikupärastamiste haldamine
 
@@ -195,3 +289,6 @@ Klientidele, kes pole funktsiooni [Salvestatud vaated](saved-views.md) veel siss
 Lehel varude dimensioonide häälestuse isikupärastamisel võtke arvesse suvandi **Kuva dimensiooni** abil loodud sätteid. Näiteks saate isikupärastamise abil peita partiinumbri varude dimensiooni veeru, kuid veerg kuvatakse järgmine kord, kui leht avatakse. Selle põhjuseks on asjaolu, et suvandi **Dimensiooni kuvamine** sätted juhivad kuvatavaid varude dimensiooni veerge. **Dimensiooni kuva** sätted rakenduvad kõigile lehtede ja alistavad eraldi lehtedel varude dimensiooniväljade isikupärastatud sätted.
 
 Seega, kui te eeltoodud näites ei soovi partiinumbri varude dimensiooni veergu lehel kuvada, peate selle dimensiooni selle lehe suvandi **Kuva dimensioonid** osana eemaldama.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

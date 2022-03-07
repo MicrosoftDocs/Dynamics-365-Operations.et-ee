@@ -1,7 +1,7 @@
 ---
 title: Tellimuse vaikesätted dimensioonide ja tootevariantide puhul
 description: Tellimuse vaikesätted määratlevad koha ja lao, kust kaupu hangitakse või hoitakse, miinimum-, maksimum-, mitmik- ja standardkogused, mida kasutatakse kaubanduse või varude halduse jaoks, täitmisajad, peatamislipu ja tellimuse lubamise meetodi.
-author: johanhoffmann
+author: t-benebo
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 223084
 ms.assetid: fbfbcd7b-dc75-44ab-bffc-8bad576804a4
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: johanho
+ms.author: benebotg
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: dca0aba081321dff5ae061ebe4bddcae0e42bc54
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
-ms.translationtype: MT
+ms.openlocfilehash: 73e6a45dedba0831c15d70ad35676c62a14acabb
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102759"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5809154"
 ---
 # <a name="default-order-settings-for-dimensions-and-product-variants"></a>Dimensioonide ja tootevariantide tellimuse vaikesätted
 
@@ -115,9 +115,9 @@ Saate määratleda tellimuse sätete reeglid mis tahes aktiivsele toote dimensio
 
 Arvestage järgmist näidistoodet.
 
-| Kaup                                                | Väärtus                                   |
+|                                                     |                                         |
 |-----------------------------------------------------|-----------------------------------------|
-| **Toote nimetus**                                    | Fotoelektriline andur                    |
+| **Toote nimi**                                    | Fotoelektriline andur                    |
 | **Kaubakood**                                     | XW56                                    |
 | **Konfiguratsioon** (kasutatakse valguse tüübi modelleerimiseks) | C1-nähtav punane tuli, C2 infrapunavalgus |
 | **Versioon** | V1, V2, V3                              |
@@ -186,9 +186,12 @@ Saate valida, kui range peaks süsteem olema, kui kontrollitakse koguseid, mis o
 
 Range kontrollimine rakendub **Standardse tellimuse koguse** väärtustele, mis on määratud kiirkaartidel **Ostutellimus**, **Varud** ja **Müügitellimus** lehel **Tellimuse vaikesätted**. Igal kiirkaardil on oma säte **Tegur**, mida kasutatakse selle kiirkaardi jaoks määratud väärtuse **Standardne tellimuse kogus** kontrollimiseks.
 
-### <a name="turn-the-strict-validation-option-on-or-off"></a>Range kontrolli suvandi sisse- või väljalülitamine
+### <a name="enable-the-strict-validation-option"></a>Range kontrollimise suvandi lubamine
 
-Täpse kontrolli kasutamiseks tuleb süsteemi *puhul sisse lülitada* tellimuse vaikekoguste täpse kinnitamise funktsioon. Tarneahela halduse versiooni 10.0.21 puhul on see funktsioon vaikimisi sisse lülitatud. Tarneahela halduse 10.0.25 puhul on see funktsioon kohustuslik ja seda ei saa välja lülitada. Kui käitate versiooni, mis [on](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)*vanem* kui 10.0.25, saate selle funktsiooni sisse või välja lülitada, kui lülitute funktsioonihalduse juurde ja otsite tellimuse koguste vaikefunktsiooni ranget kinnitamist.
+Enne range kontrollimise funktsiooni kasutamist peab see teie süsteemis olema sisse lülitatud. Administraatorid saavad kasutada [funktsioonide halduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) lehte, et kontrollida funktsiooni olekut ja vajaduse korral see lubada. Siin on funktsioon loetletud järgmiselt.
+
+- **Moodul** - *Tooteteabe haldus*
+- **Funktsiooni nimi** - *Tellimuse vaikekoguste range kontrollimine*
 
 ### <a name="set-the-validation-option"></a>Kontrollimissuvandi määramine
 

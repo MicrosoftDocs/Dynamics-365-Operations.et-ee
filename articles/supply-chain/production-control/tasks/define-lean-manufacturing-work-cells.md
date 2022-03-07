@@ -1,25 +1,27 @@
 ---
 title: 'Töörakkude määratlemine: lean manufacturing'
 description: Töörakk on konkreetne ressursigruppide vorm, mida saab lean manufacturingi protsessi tegevustes kasutada.
-author: johanhoffmann
+author: cvocph
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WrkCtrResourceGroup, InventLocationIdLookup, UnitOfMeasureLookup, DimensionLookup
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: johanho
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5f1144bd9f99fef44210c2a01f71a39488354ccf
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 068f87d4fcbee95227bb51ea6b7fdcbef8547d06
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576780"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5257263"
 ---
 # <a name="define-lean-manufacturing-work-cells"></a>Töörakkude määratlemine: lean manufacturing
 

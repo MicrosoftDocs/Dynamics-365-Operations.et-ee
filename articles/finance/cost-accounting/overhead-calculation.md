@@ -2,16 +2,13 @@
 title: Üldkulude arvutus
 description: Selles teemas kirjeldatakse tüüpilisi üldkulude arvutamise ja eraldamise protsesse.
 author: AndersGirke
-manager: AnnBe
 ms.date: 10/04/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMActualVersion, CAMBudgetVersion, CAMOverheadCalculation, CAMOverheadRateCalculationJournalEntry, CAMFormulaAllocationBase
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 272163
 ms.assetid: 93119afb-47ed-4786-ba44-ba93576d3e28
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 923e6e38a664e17ec3349d839c4b77ec903c5dc2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 09d4516c40833771d27db13eac8228bd8c5e0e4a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442476"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355031"
 ---
 # <a name="overhead-calculation"></a>Üldkulude arvutus
 
@@ -32,8 +29,7 @@ ms.locfileid: "4442476"
 
 Selles teemas kirjeldatakse tüüpilisi üldkulude arvutamise ja eraldamise protsesse.
 
-<a name="term-definition"></a>Mõiste määratlus
----------------
+## <a name="term-definition"></a>Mõiste määratlus
 
 Üldkulud on kulud, mis kaasnevad ettevõtte käitamisega, kuid mida ei saa seostada otseselt ühegi kindla äritegevuse, toote ega teenusega. Üldkulud pakuvad kriitilist tuge kasumit andavate tegevuste loomisele. Siin on mõned näited üldkuludest.
 
@@ -52,7 +48,7 @@ Selles teemas kirjeldatakse tüüpilisi üldkulude arvutamise ja eraldamise prot
 
 Üldkulude arvutus käivitatakse versioonist sõltumatult. Seetõttu saate arvutada eelarveversiooni enne tegelikku versiooni. Üldkulude arvutus koosneb neljast etapist, nagu näha alltoodud joonisel. Igas etapis luuakse töölehe päis, millel on töölehe kanded. See töölehe päis säiiltab sisendandmeid iga arvutusetapi kohta. Igale töölehe reale rakendatakse poliitikad ja reeglid ning väljundina luuakse kulukirjed. Seega on teil alati olemas põhjalik ülevaade. 
 
-[![Üldkulude arvutus](./media/period-cost-calculation.png)](./media/period-cost-calculation.png)
+[![Üldkulude arvutus.](./media/period-cost-calculation.png)](./media/period-cost-calculation.png)
 
 ## <a name="calculate-and-allocate-the-electricity-overhead-cost"></a>Elektri üldkulude arvutamine ja eraldamine
 Finantsaruandluses on mõned kulud, näiteks elekter, registreeritud põhisummana. Seetõttu ei pakuta kuluarvestuseks üksikasjalikku juhtimisülevaadet. Kuluarvestuses peavad kulud liikuma läbi organisatsiooniüksuste, et pakkuda korrektset juhtimisülevaadet kõigi organisatsiooniüksuste ja -tasemete kohta. See voog peab põhinema tarbimise või õiglase hindamise täpsel kirjendamisel. Pearaamatus, saab elektrikulu sisestada nii, nagu on näidatud järgmises tabelis.
@@ -622,7 +618,7 @@ Lisateavet vt teemast [Üldkulude arvutamine](cost-rollup.md#perform-overhead-ca
 
 Eraldamist kasutatakse kuluobjekti saldo eraldamiseks teistele kuluobjektidele, rakendades eraldamisalust. Finance toetab vastastikuse eraldamise meetodit. Vastastikuse eraldamise meetodi puhul tuvastatakse täiendavate kuluobjektide vahetatavad vastastikused teenused. Süsteem määrab automaatselt eraldamiste tegemise õige järjekorra. Kuluobjekti saldo eraldatakse üksiku eraldamisalusena. Toetatakse eraldamisi kuluobjektide dimensioonide ja nende vastavate liikmete seas. Eraldamisjärjekorda reguleerib kulujuhtseade. 
 
-[![Vastastikune meetod](./media/reciprocal-method.png)](./media/reciprocal-method.png)
+[![Vastastikune meetod.](./media/reciprocal-method.png)](./media/reciprocal-method.png)
 
 #### <a name="define-the-cost-allocation"></a>Kulueraldamise määratlemine
 
@@ -1415,3 +1411,6 @@ Finantsaruandluses sisestatakse elektrikulu 10 000,00 fiktiivse kulukeskuse ID-l
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

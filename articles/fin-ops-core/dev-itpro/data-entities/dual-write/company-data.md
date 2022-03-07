@@ -2,28 +2,19 @@
 title: Ettevõtte mõiste teenuses Dataverse
 description: Selles teemas kirjeldatakse ettevõtte andmete integreerimist rakenduse Finance and Operations ja teenuse Dataverse vahel.
 author: RamaKrishnamoorthy
-manager: AnnBe
 ms.date: 08/04/2020
 ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: tfehr
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: bbe634b87b3cb30ed993f9b3afeb4321d70f07e6
-ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
+ms.search.validFrom: 2020-01-06
+ms.openlocfilehash: 25bd2cc0df4940f02313b3a61f69b2273e835639
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4744875"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7782081"
 ---
 # <a name="company-concept-in-dataverse"></a>Ettevõtte mõiste teenuses Dataverse
 
@@ -36,16 +27,16 @@ Rakenduses Finance and Operations on mõiste *ettevõte* nii juriidiline kui ka 
 
 Teenuses Dataverse pole ei ole samaväärset mõistet. Lähim mõiste on *äriüksus*, mis on peamiselt kasutajaandmete turvalisuse ja nähtavuse piir. Sellel mõistel pole sama juriidilist ega ärimõju nagu ettevõtte mõistel.
 
-Kuna äriüksus ja ettevõte ei ole samaväärsed mõisted, ei ole võimalik jõustada üks-ühele (1:1) vastendust nende vahel teenuse Dataverse integratsiooni eesmärgil. Kuid kuna kasutajad peavad vaikimisi nägema samu ridu rakenduses ja teenuses Dataverse, on Microsoft võtnud teenuses Dataverse kasutusele uue tabeli nimega CDM\_Company. See tabel on samaväärne rakenduse tabeliga Ettevõte. Selleks, et ridade nähtavus oleks valmislahendusena rakenduse ja teenuse Dataverse vahel samaväärne, soovitame teenuse Dataverse andmete järgmist seadistust.
+Kuna äriüksus ja ettevõte ei ole samaväärsed mõisted, ei ole võimalik jõustada üks-ühele (1:1) vastendust nende vahel teenuse Dataverse integratsiooni eesmärgil. Kuid kuna kasutajad peavad vaikimisi nägema samu ridu rakenduses ja teenuses Dataverse, on Microsoft võtnud teenuses Dataverse kasutusele uue tabeli nimega CDM\_ Company. See tabel on samaväärne rakenduse tabeliga Ettevõte. Selleks, et ridade nähtavus oleks valmislahendusena rakenduse ja teenuse Dataverse vahel samaväärne, soovitame teenuse Dataverse andmete järgmist seadistust.
 
-+ Igale Finance and Operationsi ettevõtte reale, millele on topeltkirjutus lubatud, luuakse seotud rida cdm\_Company.
-+ Kui rida CDM\_Company on loodud ja lubatud kahesuguse kirjutuse jaoks, luuakse samanimeline vaikeäriüksus. Kuigi selle äriüksuse jaoks luuakse automaatselt vaiketöörühm, ei kasutata äriüksust.
++ Igale Finance and Operations i ettevõtte reale, millele on topeltkirjutus lubatud, luuakse seotud rida cdm\_ Company.
++ Kui rida CDM\_ Company on loodud ja lubatud kahesuguse kirjutuse jaoks, luuakse samanimeline vaikeäriüksus. Kuigi selle äriüksuse jaoks luuakse automaatselt vaiketöörühm, ei kasutata äriüksust.
 + Luuakse eraldi omaniku töörühm, millel on sama nimi. See on samuti äriüksusega seostatud.
 + Mistahes rea omanik, mis on loodud ja kahesuguselt kirjutatud teenusesse Dataverse, on vaikimisi määratud väärtuseks „DW omanikust töörühm, mis on lingitud seostatud äriüksusega.
 
 Järgmisel joonisel on näide seda tüüpi andmete seadistamise kohta teenuses Dataverse.
 
-![Andmete seadistus teenuses Dataverse](media/dual-write-company-1.png)
+![Andmete seadistus teenuses Dataverse.](media/dual-write-company-1.png)
 
 Selle konfiguratsiooni tõttu kuulub kõigi USMF-i ettevõttega seotud rea töörühmale, mis on seotud USMF-i äriüksusega teenuses Dataverse. Seetõttu saab iga kasutaja, kellel on juurdepääs sellele äriüksusele turberolli kaudu, mis on määratud äriüksuse tasemel nähtavusele, nüüd näha neid ridu. Järgnev näide näitab, kuidas töörühmi saab kasutada neile ridadele õige juurdepääsu pakkumiseks.
 
@@ -54,21 +45,21 @@ Selle konfiguratsiooni tõttu kuulub kõigi USMF-i ettevõttega seotud rea töö
 + Töörühm "USMF müük" on seotud varem mainitud USMF-i äriüksusega.
 + Seetõttu saavad töörühma „USMF Sales” liikmed vaadata mistahes kontot, mis kuulub „USMF DW” kasutajale, mis oleks tulnud USMF ettevõtte tabelist rakenduses Finance and Operations.
 
-![Töörühmade kasutamine](media/dual-write-company-2.png)
+![Töörühmade kasutamine.](media/dual-write-company-2.png)
 
 Vastavalt eespool toodud joonisele, on see 1:1 vastendamine äriüksuse, ettevõtte ja töörühma vahel vaid alguspunkt. Selles näites luuakse teenuses Dataverse uus "Euroopa" äriüksus käsitsi ülataseme üksusena nii DEMF-i kui ka ESMF-i jaoks. See uus juuräriüksus pole kahesuguse kirjutamisega seotud. Siiski saab seda kasutada "EUR Sales" töörühmale juurdepääsu andmiseks kontoandmetele nii DEMF-is kui ka ESMF-is, määrates seostatud turberollis andmete nähtavuseks **Ülataseme/alataseme äriüksus**.
 
-Viimaseks aruteluteemaks on, kuidas kahesugune kirjutamine määrab, millisele omanikust töörühmale tuleks read määrata. Seda käitumist juhib veerg **Omanikust vaiketöörühm** real CDM\_Company. Kui rida cdm\_Company on kahesuguseks kirjutamiseks lubatud, loob lisandmoodul automaatselt seostatud äriüksuse ja omaniktöörühma (kui seda veel pole) ja seadistab veeru **Omanikust vaiketöörühm**. Administraator saab selle veeru muuta muuks väärtuseks. Kuid administraator ei saa tühjendada veergu seni, kuni tabel on lubatud kahesuguseks kirjutamiseks.
+Viimaseks aruteluteemaks on, kuidas kahesugune kirjutamine määrab, millisele omanikust töörühmale tuleks read määrata. Seda käitumist juhib veerg **Omanikust vaiketöörühm** real CDM\_ Company. Kui rida cdm\_ Company on kahesuguseks kirjutamiseks lubatud, loob lisandmoodul automaatselt seostatud äriüksuse ja omaniktöörühma (kui seda veel pole) ja seadistab veeru **Omanikust vaiketöörühm**. Administraator saab selle veeru muuta muuks väärtuseks. Kuid administraator ei saa tühjendada veergu seni, kuni tabel on lubatud kahesuguseks kirjutamiseks.
 
 > [!div class="mx-imgBorder"]
-![Omanikust vaiketöörühma veerg](media/dual-write-default-owning-team.jpg)
+![ Omanikust vaiketöörühma veerg.](media/dual-write-default-owning-team.jpg)
 
 ## <a name="company-striping-and-bootstrapping"></a>Ettevõtte segmentimine ja eellaadimine
 
-Teenuse Dataverse integreerimine toob kaasa ettevõtte paarsuse, kasutades ettevõtte identifikaatorit andmete segmentimiseks. Järgmine illustratsioon näitab, et kõik ettevõttekohased tabelid laiendatakse nii, et neil onleks mitu-ühele (N : 1) seos tabeliga CDM\_Company.
+Teenuse Dataverse integreerimine toob kaasa ettevõtte paarsuse, kasutades ettevõtte identifikaatorit andmete segmentimiseks. Järgmine illustratsioon näitab, et kõik ettevõttekohased tabelid laiendatakse nii, et neil onleks mitu-ühele (N : 1) seos tabeliga CDM\_ Company.
 
 > [!div class="mx-imgBorder"]
-![Seos N : 1 ettevõttekohase tabeli ja tabeli cdm_Company vahel](media/dual-write-bootstrapping.png)
+![ Seos N:1 ettevõttekohase tabeli ja tabeli cdm_Company vahel.](media/dual-write-bootstrapping.png)
 
 + Ridade puhul muutub väärtus pärast ettevõtte lisamist ja salvestamist kirjutuskaitstuks. Seetõttu peaksid kasutajad veenduma, et nad valivad õige ettevõtte.
 + Ainult read, millel on ettevõtte andmed on kahesuguse kirjutamise õigused rakenduse ja teenuse Dataverse vahel.
@@ -91,7 +82,7 @@ Ettevõtte nime automaatseks asustamiseks klientide kaasamise rakendustes on mit
 
     :::image type="content" source="media/autopopulate-company-name-3.png" alt-text="Rea valimine muudab vaikeettevõtet.":::
 
-+ Kui olete süsteemikonfigureerija või -administraator, ja soovite kohandatud vormil automaatselt ettevõtte andmeid asustada, saate kasutada [vormisündmusi](https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/events-forms-grids). Lisage JavaScripti viide failile **msdyn_/DefaultCompany.js** ja kasutage järgmisi sündmusi. Saate kasutada valmisvormi, näiteks vormi **Konto**.
++ Kui olete süsteemikonfigureerija või -administraator, ja soovite kohandatud vormil automaatselt ettevõtte andmeid asustada, saate kasutada [vormisündmusi](/powerapps/developer/model-driven-apps/clientapi/events-forms-grids). Lisage JavaScripti viide failile **msdyn_/DefaultCompany.js** ja kasutage järgmisi sündmusi. Saate kasutada valmisvormi, näiteks vormi **Konto**.
 
     + Vormi sündmus **OnLoad**: määrake veerg **defaultCompany**.
     + Veeru **Ettevõte** sündmus **OnChange**: määrake veerg **updateDefaultCompany**.
@@ -100,5 +91,8 @@ Ettevõtte nime automaatseks asustamiseks klientide kaasamise rakendustes on mit
 
 Filtreerimise rakendamiseks ettevõtte konteksti põhjal kohandatud vormidele või standardvormidele lisatud otsinguveergudele avage vorm ja kasutage ettevõtte filtri rakendamiseks jaotist **Seotud kirjete filtreerimine**. Selle peate määrama igale otsinguveerule, mis antud real nõuab filtreerimist aluseksoleva ettevõtte põhjal. Säte kuvatakse järgmisel joonisel suvandi **Konto** jaoks.
 
-:::image type="content" source="media/apply-company-context.png" alt-text="Ettevõtte konteksti rakendamine":::
+:::image type="content" source="media/apply-company-context.png" alt-text="Ettevõtte konteksti rakendamine.":::
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

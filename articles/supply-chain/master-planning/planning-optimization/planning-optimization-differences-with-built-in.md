@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-07-30
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: e271ddd3331d7b5de78f00a02b60a0479879c172
-ms.sourcegitcommit: f8b597b09157d934b62bd5fb9a4d05b8f82b5a0e
-ms.translationtype: MT
+ms.openlocfilehash: 9972c5761a8445c6802f58b0ffad6226cf8ee38c
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "7700001"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7568683"
 ---
 # <a name="differences-between-built-in-master-planning-and-planning-optimization"></a>Integreeritud koondplaneerimise ja planeerimise optimeerimise vahelised erinevused
 
@@ -29,7 +29,7 @@ Plaanimise optimeerimise tulemused võivad erineda integreeritud koondplaneerimi
 | Laiendatavad dimensioonid | Laiendatavad dimensioonid on plaanitud tellimustel tühjad, isegi kui märkeruut **Laovarude planeerimine dimensioonide kaupa** on lehel **Laoala dimensioonigrupid** või **Jälgimisdimensioonigrupid** valitud. |
 | Filtreeritud tootmiste käitamised | Lisateavet vt jaotisest [Tootmise planeerimine - filtrid](production-planning.md#filters). |
 | Eelarveplaanimine | Prognooside planeerimist ei toetata. Soovitame teil kasutada koondplaneerimist seal, kus koondplaanile on määratud prognoosimudel. |
-| Numbrijada plaanitud tellimustele | Numbrijadasid plaanitud tellimustele ei toetata. Plaanitud tellimuste numbrid luuakse teeninduse poolel. Plaanitud tellimuse numbrit näidatakse tavaliselt 10 numbriga, kuid järjestus on tegelikult üles ehitatud 20 tähemärgile, 10 numbrid tähistavad planeerimiste arvu ja ülejäänud 10 numbrit plaanitud tellimuste arvu. |
+| Numbrijada plaanitud tellimustele | Numbrijadasid plaanitud tellimustele ei toetata. Plaanitud tellimuste numbrid luuakse teeninduse poolel. |
 | Plaani kopeerimine, plaani kustutamine ja plaani versiooni puhastamine | <p>Järgmised üksused on navigeerimispaani jaotises **Koondplaneerimine \> Koondplaneerimine \> Plaanide haldamine** keelatud.</p><ul><li>Plaani koopia</li><li>Kustuta plaan</li><li>Plaani versiooni puhastamine</li></ul> |
 | Tagastustellimused | Tagastustellimusi ei arvestata. |
 | Planeerimisega seotud funktsioonid | Üksikasju vt teemast [Planeerimine lõpmatu võimsusega](infinite-capacity-planning.md#limitations). |
@@ -41,6 +41,5 @@ Plaanimise optimeerimise tulemused võivad erineda integreeritud koondplaneerimi
 
 - [Planeerimise optimeerimise sobivuse analüüs](planning-optimization-fit-analysis.md)
 - [Parameetrid, mida planeerimise optimeerimine ei kasuta](not-used-parameters.md)
-- [Kuupäeva ja kellaaja parameetrid, mida planeerimise optimeerimine ei kasuta](date-time-used.md)
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

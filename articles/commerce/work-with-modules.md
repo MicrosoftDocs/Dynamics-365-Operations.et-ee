@@ -2,35 +2,30 @@
 title: Moodulitega töötamine
 description: Selles teemas kirjeldatakse, kuidas ja millal kasutada mooduleid rakenduses Microsoft Dynamics 365 Commerce.
 author: phinneyridge
-manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 301eb6206fb9e02c3aa7d3c07cf368ba800a1ab9
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: ce16aa98a37cd5dec60bcdbf86f59f74810da9755a6d3514bdd3e38a21afb748
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411691"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6728260"
 ---
 # <a name="work-with-modules"></a>Moodulitega töötamine
 
 [!include [banner](includes/banner.md)]
 
 Selles teemas kirjeldatakse, kuidas ja millal kasutada mooduleid rakenduses Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Ülevaade
 
 Moodulid on loogilised koosteüksused, mis moodustavad teie lehe struktuuri, neil on mitmesuguseid eesmärke ja ulatusi. Mõni moodul on kõrgetasemeline konteiner ning nende ainus eesmärk on hoida ja korraldada teisi mooduleid (alammooduleid). Teistel moodulitel, näiteks lihtsal pildipaigutusmoodulil, on väga konkreetne eesmärk. Teised moodulid, nt karussellmoodul, jäävad kusagile nende kahe kategooria vahele.
 
@@ -58,7 +53,7 @@ Suurem osa tüüpilistest igapäevastest lehe ja sisu loomise tegevustest hõlma
 
 Järgmisel joonisel on näha, kuidas moodulid on pesastatud konteineri ülemmooduli pesadesse.
 
-![Moodulite pesastamine](../commerce/media/basic-module-nesting.png)
+![Moodulite pesastamine.](../commerce/media/basic-module-nesting.png)
 
 ## <a name="add-or-remove-modules"></a>Moodulite lisamine või eemaldamine
 
@@ -173,3 +168,6 @@ Konteineri mooduli konfigureerimiseks lehel tehke järgmist.
 
 [Avaldamisrühmadega töötamine](publish-groups.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

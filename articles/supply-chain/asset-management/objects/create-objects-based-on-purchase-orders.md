@@ -1,12 +1,10 @@
 ---
 title: Ostutellimusel põhinevate varade loomine
 description: Selles teemas selgitatakse, kuidas luua vara üksuste loendit, mida saab kasutada varade loomisel hooldustööde jaoks varahalduses.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetObjectItem, EntAssetPendingAssets
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 83419fa5c6b6aee0b321c526565c3518deaf4bd0
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
-ms.translationtype: HT
+ms.openlocfilehash: c5068712a7ea1e0d940d4a05a411fb3e1b6f6d9bb9be924d5375b16676561ea1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5016980"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6754103"
 ---
 # <a name="create-assets-based-on-purchase-orders"></a>Ostutellimusel põhinevate varade loomine
 
@@ -69,3 +67,6 @@ Ootel varade kontrollimiseks käivitage **Ootel varade loendus**. Näiteks saab 
 3. Selle töö saate seadistada pakett-tööna, nt üks kord päevas.
 
 **Ettevaatust:** kui andmeid muudetakse ostutellimusel *pärast* seda, kui olete loonud seotud kauba põhjal vara, ei kajastu need muudatused varas.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

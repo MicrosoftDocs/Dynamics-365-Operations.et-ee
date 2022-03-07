@@ -2,7 +2,7 @@
 title: Varude nähtavuse konfigureerimine
 description: Selles teemas kirjeldatakse, kuidas Varude nähtavust konfigureerida.
 author: yufeihuang
-ms.date: 12/09/2021
+ms.date: 08/02/2021
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,17 +11,17 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 8ba478fef424a6c4688191ed4e5375bbce52de0c
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
-ms.translationtype: MT
+ms.openlocfilehash: 27dfc3f431fdfc1ec5c2cad2c3458b11c94189c3
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060997"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474672"
 ---
 # <a name="configure-inventory-visibility"></a>Varude nähtavuse konfigureerimine
 
 [!include [banner](../includes/banner.md)]
-
+[!INCLUDE [cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
 See teema kirjeldab Inventory Visibility konfigureerimist ja Inventory Visibility kasutamist rakenduses Power Apps.
 
@@ -58,10 +58,10 @@ Kui konfiguratsioon on lõpule viidud, valige kindlasti rakenduses **Konfigurats
 
 ## <a name="data-source-configuration"></a>Andmeallika konfiguratsioon
 
-Iga andmeallikas tähistab süsteemi, millest teie andmed tulevad. Andmeallika näidisnimed on (`fno` mis tähendab "Dynamics 365 Finance ja Operationsi rakendused) ja `pos` (mis tähendab "müügikohta"). Vaikimisi on rakenduse Varude nähtavus andmeallikaks (`fno`) seadistatud Supply Chain Management.
+Iga andmeallikas tähistab süsteemi, millest teie andmed tulevad. Andmeallikate näidete hulka kuuluvad näiteks `fno` (mis tähistab rakendusi "Dynamics 365 Finance and Operations rakendus) ja `pos` (mis tähistab "kassat"). Vaikimisi on rakenduse Varude nähtavus andmeallikaks (`fno`) seadistatud Supply Chain Management.
 
 > [!NOTE]
-> Andmeallikas `fno` on reserveeritud tarneahela juhtimisele. Kui teie varude nähtavuse lisandmoodul on integreeritud tarneahela halduse keskkonnaga, soovitame teil andmeallikas konfiguratsioonid mitte kustutada`fno`.
+> Andmeallikas `fno` on reserveeritud rakendusele Dynamics 365 Supply Chain Management.
 
 Andmeallika lisamiseks toimige järgmiselt.
 
@@ -273,17 +273,17 @@ Selle arvutusvalemi kasutamisel sisaldab uus päringutulemus kohandatud mõõdet
 
 ## <a name="partition-configuration"></a><a name="partition-configuration"></a>Sektsiooni konfiguratsioon
 
-Praegu koosneb sektsiooni konfiguratsioon kahest põhimõõtmest (`SiteId` ja `LocationId`), mis näitavad, kuidas andmeid jaotatakse. Sama sektsiooni all olevad toimingud võivad pakkuda suuremat jõudlust madalamate kuludega. Järgmises tabelis kuvatakse varude nähtavuse lisandmooduli esitatud sektsiooni vaikekonfiguratsioon.
+Sektsiooni konfiguratsioon koosneb põhidimensioonide kombinatsioonist. See määratleb andmejaotuse mustri. Andmetoimingud samas sektsioonis toetavad kõrget jõudlust ja ei maksa liiga palju. Seetõttu võivad head sektsioonimustrid anda märkimisväärseid eeliseid.
+
+Varude nähtavus annab järgmise sektsiooni vaikekonfiguratsiooni.
 
 | Põhidimensioon | Hierarhia |
 |---|---|
 | `SiteId` | 1 |
 | `LocationId` | 2 |
 
-Lahendus sisaldab vaikimisi seda sektsiooni konfiguratsiooni. Seetõttu *ei pea te seda ise määratlema*.
-
-> [!IMPORTANT]
-> Ärge kohandage sektsiooni vaikekonfiguratsiooni. Kui kustutate või muudate seda, põhjustate tõenäoliselt ootamatu tõrke.
+> [!NOTE]
+> Sektsiooni vaikekonfiguratsioon on ainult viiteks. Te ei pea seda Varude nähtavuses määratlema. Sektsiooni konfiguratsiooni täiendust praegu ei toetata.
 
 ## <a name="product-index-hierarchy-configuration"></a><a name="index-configuration"></a>Tooteindeksi hierarhia konfiguratsioon
 
@@ -366,12 +366,16 @@ Indeks võimaldab teil teha vaba kaubavaru kohta päringuid järgmistel viisidel
 
 ## <a name="reservation-configuration-optional"></a><a name="reservation-configuration"></a>Reserveeringu konfiguratsioon (valikuline)
 
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+
 Kui soovite kasutada esialgse reserveerimise funktsiooni, on vajalik reserveeringu konfiguratsioon. Konfiguratsioon koosneb kahest põhiosast.
 
 - Esialgse reserveerimise vastendus
 - Esialgse reserveeringu hierarhia
 
 ### <a name="soft-reservation-mapping"></a>Esialgse reserveerimise vastendus
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Reserveerides võite soovida teada, kas vaba kaubavaru on praegu reserveerimiseks saadaval. Kinnitamine on seotud arvutatud mõõtmega, mis esindab füüsiliste mõõtmete kombinatsiooni arvutusvalemit.
 
@@ -442,6 +446,8 @@ Seetõttu, kui püüate teha `iv.SoftReservOrdered` reserveeringuid ja kogus on 
 > Kui kutsute reserveerimise API, saate kontrollida reserveerimise kinnitamist, määrates `ifCheckAvailForReserv` kahendmuutuja parameetri taotluse kehas. Väärtus `True` tähendab, et kinnitamist nõutakse, samas kui väärtus `False` tähendab, et kinnitamist ei nõuta. Vaikeväärtus on `True`.
 
 ### <a name="soft-reservation-hierarchy"></a>Esialgse reserveeringu hierarhia
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Reserveerimishierarhia kirjeldab dimensioonide järjestust, mis tuleb reserveeringute tegemisel määratleda. See toimib samamoodi, nagu toote indeksi hierarhia töötab vaba kaubavaru päringute puhul.
 
@@ -741,6 +747,8 @@ Järgmine tabel näitab indeksi vaikekonfiguratsiooni.
 Selles jaotises kirjeldatakse reserveeringu vaikekonfiguratsiooni.
 
 #### <a name="reservation-mapping"></a>Reserveeringu vastendus
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Järgmine tabel näitab reserveeringu vaikevastendust.
 

@@ -2,26 +2,23 @@
 title: ISO20022 otsekorralduse konfiguratsiooni importimine
 description: See protseduur näitab, kuidas importida kliendi makse elektroonilise aruandluse konfiguratsiooni.
 author: mrolecki
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERVendorPart, ERSolutionRepositoryTable, ERSolutionImport
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e5d4256b155d3e06d63e425fab63b4025ef2577f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 7f89e49f8647f69443b789ea4f32ca6e8d4786f698911609e78e6d6a9ade11ca
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442410"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6743747"
 ---
 # <a name="import-iso20022-direct-debit-configuration"></a>ISO20022 otsekorralduse konfiguratsiooni importimine
 
@@ -49,3 +46,6 @@ See on esimene viiest protseduurist, mis näitab kliendi makseprotsessi, kasutad
     * Kui nupp Impordi pole saadaval, tähendab see, et see konfiguratsioon on juba imporditud.  
 9. Klõpsake nuppu Jah.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

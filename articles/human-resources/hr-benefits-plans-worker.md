@@ -2,7 +2,7 @@
 title: Töötaja soodustuse plaanide loomine
 description: Saate luua rakenduses Microsoft Dynamics 365 Human Resources töötaja soodustuse plaanid, et valida töövõtjate jaoks soodustuse plaanid ja kinnitada soodustuse plaani valikud.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0ebd19cba8dd7cac8ccf6d17d4206731be87a225
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5ac357bbef4bf84b9eaf153834bc7a609240c45e
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418105"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5464222"
 ---
 # <a name="create-worker-benefit-plans"></a>Töötaja soodustuse plaanide loomine
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Saate luua rakenduses Microsoft Dynamics 365 Human Resources töötaja soodustuse plaanid, et valida töövõtjate jaoks soodustuse plaanid ja kinnitada soodustuse plaani valikud. Tavaliselt valivad töötajad soodustuse plaanid ise, kasutades töötaja iseteenindust, ja seejärel kinnitab soodustuste haldur valikud. 
 
@@ -49,3 +51,6 @@ Saate luua rakenduses Microsoft Dynamics 365 Human Resources töötaja soodustus
    | Plaanid | Kiirkaart Plaanid sisaldab plaane, mis vastavad teie määratud filtri kriteeriumitele. Seotud konfigureerimise suvandid, mille personaliosakond on määranud, ja registreerimise valikud, mille töövõtjad valisid, on igal real kaasatud. Väli Kvalifitseeritud määrab, kas plaani valikuga on seotud kinnitamise konflikt. |
 
 4. Valige käsk **Salvesta**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

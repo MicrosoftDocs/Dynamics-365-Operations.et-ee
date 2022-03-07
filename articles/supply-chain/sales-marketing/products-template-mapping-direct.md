@@ -2,16 +2,13 @@
 title: Rakenduse Supply Chain Management toodete sünkroonimine otse rakenduse Sales toodetega
 description: Selles teemas käsitletakse malle ja aluseks olevaid ülesandeid, mida kasutatakse toodete sünkroonimiseks rakendusest Dynamics 365 Supply Chain Management otse rakendusse Dynamics 365 Sales.
 author: ChristianRytt
-manager: tfehr
 ms.date: 06/10/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 6ffd55585ff43f993876de6c669eb61e74a9fd79
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 29bb9d05aa939ec82595e153faf03f290e219589
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527310"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5817817"
 ---
 # <a name="synchronize-products-directly-from-supply-chain-management-to-products-in-sales"></a>Rakenduse Supply Chain Management toodete sünkroonimine otse rakenduse Sales toodetega
 
@@ -33,7 +30,7 @@ ms.locfileid: "4527310"
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 > [!NOTE]
-> Enne kui saate kasutada lahendust Potentsiaalne klient sularahaks, tutvuge [andmete integreerimisega teenusesse Common Data Service for Apps](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+> Enne kui saate kasutada lahendust Potentsiaalne klient sularahaks, tutvuge [andmete integreerimisega teenusesse Microsoft Dataverse for Apps](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 
 Selles teemas käsitletakse malle ja aluseks olevaid ülesandeid, mida kasutatakse toodete sünkroonimiseks rakendusest Dynamics 365 Supply Chain Management otse rakendusse Dynamics 365 Sales.
 
@@ -80,7 +77,7 @@ Väliselt hallatavad tooted lisatakse automaatselt esimesse kehtivasse hinnakirj
 
 > [!NOTE]
 > - Toote sünkroonimine ei õnnestu, kui vastava valuutaga hinnakiri puudub.
-> - Saate kontrollida integratsioonis kasutatud hinnakirja, vastendades andmeintegratsiooni projektis atribuudi pricelevelid.name [Vaikehinnakiri (nimi)]. Sisend peab olema väiketähtedes. Näiteks oleksid rakenduses Sales hinnakirja „Standard” vaikeväärtused järgmised: Sihtväli: pricelevelid.name [Vaikehinnakiri (nimi)] ja vastenduse tüüp: [ { "transformType": "Vaikimisi", "defaultValue": "Standard" } ].
+> - Saate kontrollida integratsioonis kasutatud hinnakirja, vastendades andmeintegratsiooni projektis atribuudi pricelevelid.name [Vaikehinnakiri (nimi)]. Sisend peab olema väiketähtedes. Näiteks oleksid rakenduses Sales hinnakirja „Standard” vaikeväärtused järgmised: sihtväli: pricelevelid.name [Vaikehinnakiri (nimi)] ja vastenduse tüüp: [ { "transformType": "Default", "defaultValue": "standard" } ].
 
 ## <a name="preconditions-and-mapping-setup"></a>Eeltingimused ja vastendamise seadistamine
 
@@ -124,3 +121,6 @@ Järgmistel joonistel on toodud näide malli vastendusest andmete integreerimise
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

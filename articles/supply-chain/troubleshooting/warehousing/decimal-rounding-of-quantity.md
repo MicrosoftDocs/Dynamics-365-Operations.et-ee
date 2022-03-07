@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: v-gfedorova
 ms.search.validFrom: 2021-05-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: a9e0475aab452daa9e1a6f012e17a59e611010da
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
-ms.translationtype: MT
+ms.openlocfilehash: ddfac7106eb0e8b934516ca10e3950891d10910a2ccdef1868faf25812243159
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920469"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6726557"
 ---
 # <a name="decimal-rounding-of-the-physical-updating-quantity-is-incorrect"></a>Füüsilise värskenduskoguse ümardamine kümnendkohtade kaupa on vale
 
@@ -49,10 +49,10 @@ Kasutage järgmist protseduuri, et vaadata üle oma koormusread ja tehke kohandu
 
 1. Avage **Laohaldus \> Koormad \> Kõik koormad**.
 1. Saate valida koormuse, mille jaoks saatelehte ei saa luua.
-1. Valige tegevuspaani vahekaardil **Läheta ja võta vastu grupi Tühista** **saadetis** käsku Tühista saadetise **kinnitus**.
-1. Valige **vahekaardil Koorma** read väljaminek põhjust põhjus oleva kauba koormarida.
+1. Valige toimingupaani vahekaardi  **Saatmine ja vastuvõtmine** jaotises  **Ümberpööramine** suvand  **Pööra saadetise kinnitus ümber**.
+1. Vahekaardil  **Koormusread** valige probleemi põhjustava üksuse koormusrida.
 1. Komplekteeritud koguse täpsustamiseks valige **Vähenda komplekteeritud kogust**.
-1. Valige **vahekaardil Rea** üksikasjad suvand **Tellimus**.
+1. Vahekaardil  **Liini detailid** valige **Tellimus**.
 1. Seadke väljal **Kogus** väärtus komplekteeritud kogusele (st **Tööga loodud kogus** välja väärtusele), et saatelehe loomine saaks toimuda.
 
 ### <a name="review-your-load-lines-and-make-adjustments-to-ensure-that-the-unit-and-quantity-are-aligned-with-the-decimal-precision-of-the-unit"></a>Vaadake üle oma koormusread ja tehke kohandused, et tagada ühiku ja koguse teisendus kümnendtäpsusega

@@ -2,11 +2,9 @@
 title: Graafiku töökoormuse võimsus
 description: Selles teemas kirjeldatakse, kuidas seadistada ja planeerida töökoormuse võimsust lao töötajatele või kogu laole.
 author: MarkusFogelberg
-manager: tfehr
 ms.date: 05/26/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WMSWorkloadCapacity
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8db243949b2aeee0a8263276234d439652905449
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 004abe379004d0dc8d0bff526872312bfa7a994b0f7422d1c415927bbecc90ec
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965573"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6780478"
 ---
 # <a name="schedule-workload-capacity"></a>Töökoormuse võimsuse plaanimine
 
@@ -79,3 +77,6 @@ Kui seda teavet pole õigesti määratud, saate aruande **Töökoormuse võimsus
 3. Valige väljas **Tellimuse tüüp** suvand **Plaanitud ja kinnitatud**, **Plaanitud** või **Kinnitatud**, et näidata, mis tüüpi tellimusi aruandes kavandada.
 4. Valige väljal **Koondplaan** koormuse tüüp, et määrata, kas töökoormuse võimsus tuleb kavandada mahule või kaalule.
 5. Valige väljal **Koondplaan** töökoormuse võimsuse seadistus.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,942 +1,110 @@
 ---
-title: Finantsülevaadete konfigureerimine (eelversioon)
+title: Finance'i statistika konfiguratsioon
 description: See teema selgitab konfiguratsiooni samme, mis võimaldavad teie süsteemil kasutada finantsülevaatuses saadaolevaid võimalusi.
 author: ShivamPandey-msft
-manager: AnnBe
-ms.date: 11/25/2020
+ms.date: 01/27/2022
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 38cdeb9110691e594b4b90fc5bc79e369c9f4707
-ms.sourcegitcommit: 1cfd6e0c808341b0f5bafbde7d04b0255b27352f
-ms.translationtype: HT
+ms.openlocfilehash: b9bad6445e9e77688f66c6c4186422d7a898edd7
+ms.sourcegitcommit: 7fc0a9a6440ac087292e9e76c26c67f56154b9e6
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "4664086"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "8051366"
 ---
-# <a name="configuration-for-finance-insights-preview"></a>Finantsülevaadete konfigureerimine (eelversioon)
+# <a name="configuration-for-finance-insights"></a>Finance'i statistika konfiguratsioon
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Finantsülevaated kombineerivad rakenduse Microsoft Dynamics 365 Finance funktsioonid teenustega Common Data Service, Azure ja AI Builder, et pakkuda võimsaid prognoosimise tööriistu teie organisatsioonile. See teema selgitab konfiguratsiooni samme, mis võimaldavad teie süsteemil kasutada finantsülevaatuses saadaolevaid võimalusi.
+Finance Insights ühendab Microsofti Dynamics 365 Finance Dataverse funktsioonid Azure'iga ja AI Builder pakub teie asutusele võimsaid prognoosimisvahendeid. See teema selgitab konfiguratsiooni samme, mis võimaldavad teie süsteemil kasutada finantsülevaatuses saadaolevaid võimalusi. Selle teema protseduuride edukaks lõpuleviimiseks peab teil olema süsteemiadministraator ja süsteemikohandaja juurdepääs [Power Portali halduskeskuses](https://admin.powerplatform.microsoft.com/), süsteemiadministraatori juurdepääs rakenduses Dynamics 365 Finance ja juurdepääs elutsükliliste teenuste (LCS) keskkondade Microsoft Dynamics loomisele.
 
-## <a name="deploy-dynamics-365-finance"></a>Rakenduse  Dynamics 365 Finance juurutamine
+> [!NOTE]
+> Järgmised protseduurid Finance Insightsi häälestamiseks kehtivad versiooni 10.0.21 ja uuemate Dynamics 365 Finance versioonide puhul.
+
+## <a name="deploy-dynamics-365-finance"></a>Rakenduse Dynamics 365 Finance juurutamine
 
 Keskkonna juurutamiseks tehke järgmist.
 
-1. Looge teenuses Microsoft Dynamics Lifecycle Services (LCS) või värskendage Dynamics 365 Finance’i keskkonda. Keskkond vajab rakenduse versiooni 10.0.11 / Platform värskendust 35 või uuemat.
-2. Keskkond peab olema hea kättesaadavusega (HA) liivakasti keskkond. (Seda tüüpi keskkond on tuntud ka kui järgu 2 keskkond.) Lisateavet vt teemast [Keskkonna kavandamine](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
-3. Kui kasutate Contoso demoandmeid, vajate Contoso makse prognoosimise kasutamiseks, rahavoo prognoosimiseks ja eelarve prognoosimise funktsioonideks täiendavaid näidisandmeid. 
+1. Looge või värskendage Dynamics 365 Finance LCS-is keskkonda. Keskkond nõuab rakenduse versiooni 10.0.21 või uuemat versiooni.
 
-## <a name="configure-common-data-service"></a>Common Data Service konfigureerimine
+    > [!NOTE]
+    > Keskkond peab olema kõrge kättesaadavusega (HA) keskkond. (Seda tüüpi keskkond on tuntud ka kui järgu 2 keskkond.) Lisateavet vt teemast [Keskkonna kavandamine](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
 
-Saate lõpetada järgmised konfigureerimise etapid käsitsi või saate kiirendada konfigureerimisprotsessi, kasutades esitatud Windows PowerShelli skripti. Kui PowerShelli skript on töötamise lõpetanud, annab see teile väärtused, mida kasutada finantsülevaadete konfigureerimiseks. 
+2. Kui konfigureerite finance'i ülevaateid liivakastikeskkonnas, peate võib-olla enne prognooside töötamist kopeerima tootmisandmed sellesse keskkonda. Ennustuse mudel kasutab prognooside koostamiseks mitmeid aastaid andmeid. Contoso demoandmed ei sisalda piisavalt ajaloolisi andmeid ennustusmudeli adekvaatseks koolitamiseks. 
 
-> [!NOTE]
-> Skripti käivitamiseks avage arvutis PowerShell. Võite vajada PowerShelli versiooni 5. Microsoft Azure CLI valik „Proovi seda” ei pruugi töötada.
+## <a name="configure-your-azure-ad-tenant"></a>Rentniku konfigureerimine Azure AD
 
-# <a name="manual-configuration-steps"></a>[Käsitsi konfigureerimise etapid](#tab/configuration-steps)
+Azure Active Directory(Azure AD) peab olema konfigureeritud nii, et seda saaks kasutada ja Dataverse rakendusi kasutada Microsoft Power Platform. See konfiguratsioon nõuab, et LCS-i väljal Projekti turberoll **määratakse kasutajale** kas **projekti omaniku** roll või **keskkonnahalduri** roll.
 
-1. Avage [Power Platformi halduskeskus](https://admin.powerplatform.microsoft.com/) ja järgige neid samme, et luua uus Common Data Service’i keskkond samas Active Directory rentnikus.
+Veenduge, et järgmine häälestus on lõpule viidud.
 
-    1. Avage leht **Keskkonnad**.
+- Power Portali halduskeskuses on **juurdepääs süsteemiadministraatori** ja **süsteemikohandaja** juurdepääsule.
+- Dynamics 365 Finance Lisandmoodulit Finance insights installivale kasutajale rakendatakse või samaväärset litsentsi.
 
-        [![Keskkondade leht](./media/power-pltfrm-admin-center.png)](./media/power-pltfrm-admin-center.png)
+Järgmised Azure AD rakendused on registreeritud rakenduses Azure AD.
 
-    2. Valige **Uus keskkond**.
-    3. Väljal **Tüüp** valige **Liivakast**.
-    4. Määrake suvand **Andmebaas** valikule **Jah**.
-    5. Valige **Edasi**.
-    6. Valige oma organisatsiooni keel ja valuuta.
-    7. Võtke vastu teiste väljade vaikeväärtused.
-    8. Valige käsk **Salvesta**.
-    9. Värskendage lehte **Keskkonnad**.
-    10. Oodake, kuni välja **Olek** väärtus uuendatakse olekuks **Valmis**.
-    11. Märkige üles rakenduse Common Data Service organsisatsiooni ID.
-    12. Valige uus keskkond ja seejärel valige suvand **Sätted**.
-    13. Valige **Ressursid \> Kõik pärandsätted**.
-    14. Ülemisel navigeerimisribal valige **Sätted** ja valige seejärel **Kohandamised**.
-    15. Valige **Arendaja ressursid**.
-    16. Määrake välja **Eksemplari viiteteabe ID** rakenduse Common Data Service organisatsiooni ID väärtus, mille varem kirja panite.
-    17. Märkige üles brauseri aadressiribal olev Common Data Service’i organisatsiooni URL. Näiteks URL võib olla `https://org42b2b3d3.crm.dynamics.com`.
+|  Avaldus                             | Rakenduse kood                               |
+|------------------------------------------|--------------------------------------|
+| Microsoft Dynamics ERP Microservices CDS | 703e2651-d3fc-48f5-942c-74274233dba8 |
+    
+## <a name="configure-dataverse"></a>Dataverse konfigureerimine
 
-2. Kui kavatsete kasutada rahavoo prognoosimise või eelarve prognoosimise funktsiooni, toimige järgmiselt, et värskendada oma organisatsiooni marginaali limiiti vähemalt 50 megabaidini (MB).
+Kasutage järgmisi samme Finance Insights Dataverse konfigureerimiseks.
 
-    1. Avage [Power Apps'i portaal](https://make.powerapps.com).
-    2. Valige vastloodud keskkond ja seejärel valige **Täpsemad sätted**.
-    3. Valige **Sätted \>Meili konfiguratsioon**.
-    4. Muute välja **Maksimaalne faili suurus** väärtuseks **51 200**. (Väärtus on väljendatud kilobaitides \[KB\].)
-    5. Muudatuste salvestamiseks klõpsake nuppu **OK**.
+- Avage keskkonnaleht LCS-is ja kontrollige, et **Power Platform integreerimisjaotis** on juba seadistatud.
 
-# <a name="windows-powershell-configuration-script"></a>[Windows PowerShelli konfiguratsiooni skript](#tab/powershell-configuration-script)
+    - Kui Dataverse see on juba seadistatud, Dataverse tuleks loetleda finantskeskkonnaga lingitud keskkonnanimi.
+    - Kui Dataverse pole veel häälestatud, valige **Häälestus**. Keskkonna seadistamine Dataverse võib võtta kuni tund. Kui seadistus on edukalt lõpule viidud, Dataverse tuleks loetleda keskkonnanimi, mis on lingitud rahanduskeskkonnas.
+    - Kui see integratsioon on seadistatud olemasoleva Microsoft Power Platform keskkonnaga, võtke ühendust oma administraatoriga, et veenduda, et lingitud keskkond pole keelatud olekus.
 
-```azurecli-interactive
-Write-Output 'The following modules need to be present for execution of this script:'
-Write-Output '  Microsoft.PowerApps.Administration.PowerShell'
-Write-Output '  Microsoft.PowerApps.PowerShell'
-Write-Output '  Microsoft.Xrm.Tooling.CrmConnector.PowerShell'
+        Lisateavet vt teemast [Integrationi lubamine Power Platform](../../fin-ops-core/dev-itpro/power-platform/enable-power-platform-integration.md). 
 
-try {
-    $moduleConsent = Read-Host 'Is it ok to install or update these modules as needed? (yes/no)'
-    if ($moduleConsent -ne 'yes' -and $moduleConsent -ne 'y') {
-        Write-Warning 'User declined to install required modules.'
-        return
-    }
+        Haldussaidile Microsoft Power Platform juurdepääsemiseks minge veebisaidile <https://admin.powerplatform.microsoft.com/environments>.
 
-    $module = 'Microsoft.PowerApps.Administration.PowerShell'
-    if (-not (Get-InstalledModule -Name $module -MinimumVersion '2.0.61' -ErrorAction SilentlyContinue)) {
-        Install-Module -Name $module -MinimumVersion '2.0.61' -Force
-        Write-Output ('Installed {0} module.' -f $module)
-    }
-    else {
-        Write-Output ('{0} module found.' -f $module)
-    }
+## <a name="configure-the-finance-insights-add-in"></a>Finance insights lisandmooduli konfigureerimine
 
-    $module = 'Microsoft.PowerApps.PowerShell'
-    if (-not (Get-InstalledModule -Name $module -MinimumVersion '1.0.9' -ErrorAction SilentlyContinue)) {
-        Install-Module -Name $module -MinimumVersion '1.0.9' -AllowClobber -Force
-        Write-Output ('Installed {0} module.' -f $module)
-    }
-    else {
-        Write-Output ('{0} module found.' -f $module)
-    }
-
-    $module = 'Microsoft.Xrm.Tooling.CrmConnector.PowerShell'
-    if (-not (Get-InstalledModule -Name $module -MinimumVersion '3.3.0.892' -ErrorAction SilentlyContinue)) {
-        Install-Module -Name $module -MinimumVersion '3.3.0.892' -Force
-        Write-Output ('Installed {0} module.' -f $module)
-    }
-    else {
-        Write-Output ('{0} module found.' -f $module)
-    }
-
-    Write-Output '================================================================================='
-
-    $useMfa = $false
-    $useMfaPrompt = Read-Host "Does your organization require the use of multi-factor authentication? (yes/no)"
-    if ($useMfaPrompt -eq 'yes' -or $useMfaPrompt -eq 'y') {
-        $useMfa = $true
-    }
-    if(-not $useMfa) {
-        $credential = Get-Credential -Message 'Power Apps Credential'
-    }
-
-    $orgFriendlyName = Read-Host "Enter the name of the CDS Organization to use or create: (blank for 'FinanceInsightsOrg')"
-    if ($orgFriendlyName.Trim() -eq '') {
-        $orgFriendlyName = 'FinanceInsightsOrg'
-    }
-
-    $isDefaultOrgPrompt = Read-Host ("Is '" + $orgFriendlyName + "' the default organization for your tenant? (yes/no)")
-    if ($isDefaultOrgPrompt -eq 'yes' -or $isDefaultOrgPrompt -eq 'y') {
-        $isDefaultOrg = $true
-    }
-
-    if ($credential) {
-        Add-PowerAppsAccount -Username $credential.UserName -Password $credential.Password
-    }
-    else {
-        Add-PowerAppsAccount
-    }
-
-    if ($isDefaultOrg) {
-        $orgMatch = ('(default)')
-        $environment = (Get-AdminPowerAppEnvironment | Where-Object { $_.IsDefault -eq $true })
-    }
-    else {
-        $orgMatch = ('{0} (*)' -f $orgFriendlyName)
-        $environment = (Get-AdminPowerAppEnvironment | Where-Object { ($_.IsDefault -eq $false -and ($_.DisplayName -eq $orgFriendlyName -or $_.DisplayName -like $orgMatch)) })
-    }
-
-    $getCrmOrgParams = @{ 'OnlineType' = 'Office365' }
-    if ($credential) {
-        $getCrmOrgParams.Credential = $credential
-    }
-
-    if ($null -eq $environment) {
-        Write-Output '================================================================================='
-        Write-Output 'PowerApps environment not found. A new one will be provisioned.'
-
-        $invalid = 'invalid'
-
-        $location = $invalid
-        $cdsLocations = (Get-AdminPowerAppEnvironmentLocations | Select-Object LocationName).LocationName
-        while (-not ($location -in $cdsLocations)) {
-            $location = (Read-Host -Prompt "Enter the location in which to create the new PowerApps environment: ('help' to see values)")
-            if ($location -eq 'help') {
-                $cdsLocations
-            }
-        }
-
-        $currency = $invalid
-        $cdsCurrencies = (Get-AdminPowerAppCdsDatabaseCurrencies -Location $location | Select-Object CurrencyName).CurrencyName
-        while ($currency -ne '' -and -not ($currency -in $cdsCurrencies)) {
-            $currency = (Read-Host -Prompt "Enter the currency to use for the new PowerApps environment: ('help' to see values, blank for default)")
-            if ($currency -eq 'help') {
-                $cdsCurrencies
-            }
-        }
-
-        $language = $invalid
-        $cdsLanguages = (Get-AdminPowerAppCdsDatabaseLanguages -Location $location | Select-Object LanguageName, LanguageDisplayName)
-        while ($language -ne '' -and -not ($language -in $cdsLanguages.LanguageName)) {
-            $language = (Read-Host -Prompt "Enter the language name to use for the new PowerApps environment: ('help' to see values, blank for default)")
-            if ($language -eq 'help') {
-                $cdsLanguages | Format-Table -Property LanguageName, LanguageDisplayName
-            }
-        }
-
-        Write-Output 'Provisioning PowerApps environment. This may take several minutes.'
-
-        $sleep = 15
-
-        $envParams = @{ 'DisplayName' = $orgFriendlyName; 'EnvironmentSku' = 'Sandbox'; 'ProvisionDatabase' = $true; 'Location' = $location; 'WaitUntilFinished' = $true }
-        if ($language.Trim() -ne '') {
-            $envParams.LanguageName = $language
-        }
-        if ($currency.Trim() -ne '') {
-            $envParams.CurrencyName = $currency
-        }
-        $newEnvResult = New-AdminPowerAppEnvironment @envParams
-        if (($null -eq $newEnvResult) -or ($newEnvResult.CommonDataServiceDatabaseProvisioningState -ne 'Succeeded')) {
-            Write-Warning 'Failed to create to PowerApps environment'
-            if ($null -ne $newEnvResult) {
-                $newEnvResult
-            }
-        }
-        else {
-            $environment = $null
-            $retryCount = 0
-            while (($null -eq $environment) -and ($retryCount -lt 5)) {
-                Start-Sleep -Seconds $sleep
-                $environment = (Get-AdminPowerAppEnvironment | Where-Object { ($_.DisplayName -like $orgMatch) })
-            }
-            Write-Output ("Provisioned PowerApps environment with name: '" + $environment.DisplayName + "'")
-        }
-
-        Write-Output 'Waiting for CDS organization provisioning. This may take several minutes.'
-        if (-not $credential) {
-            $sleep = 120
-            Write-Output 'You may be prompted for credentials multiple times while checking the status of the provisioning.'
-        }
-
-        while ($null -eq $crmOrg) {
-            Start-Sleep -Seconds $sleep
-            $crmOrg = (Get-CrmOrganizations @getCrmOrgParams) | Where-Object { $_.FriendlyName -eq $orgFriendlyName }
-        }
-    }
-    else {
-        $crmOrgs = Get-CrmOrganizations @getCrmOrgParams
-        if ($UseDefaultOrganization -eq $true) {
-            $crmOrg = $crmOrgs | Where-Object { $_.FriendlyName -match $orgMatch }
-        }
-        else {
-            $crmOrg = $crmOrgs | Where-Object { $_.FriendlyName -eq $orgFriendlyName }
-        }
-    }
-
-    Write-Output '================================================================================='
-    Write-Output 'Values for PowerAI LCS Add-In:'
-    Write-Output ("  CDS organization url:             " + $crmOrg.WebApplicationUrl)
-    Write-Output ("  CDS organization ID:              " + $crmOrg.OrganizationId)
-}
-catch {
-    Write-Error $_.Exception.Message
-    Write-Warning $_.Exception.StackTrace
-    $inner = $_.Exception.InnerException
-    while ($null -ne $inner) {
-        Write-Output 'Inner Exception:'
-        Write-Error $_.Exception.Message
-        Write-Warning $_.Exception.StackTrace
-        $inner = $inner.InnerException
-    }
-}
-```
----
-
-## <a name="configure-the-azure-setup"></a>Azure'i häälestamise konfigureerimine
-
-### <a name="enter-the-common-data-service-directory-id-and-the-users-azure-ad-object-id"></a>Sisestage Common Data Service’i kausta ID ja kasutaja Azure AD objekti ID
-
-1. Sisestage Common Data Service’i kausta ID.
-
-    1. Avage [Azure portaal](https://portal.azure.com).
-    2. Logige sisse, kasutades kasutaja ID-d, mida kasutati Common Data Service’i keskkonna loomiseks.
-    3. Avage **Azure Active Directory**.
-    4. Kopeerige väärtus **Rentniku ID**.
-
-2. Sisestage kasutaja Azure Active Directory (Azure AD) objekti ID.
-
-    1. [Azure portaalis](https://portal.azure.com) avage suvand **Kasutajad** ja otsige kasutajat meiliaadressi järgi.
-    2. Valige kasutajanimi.
-    3. Kopeerige väärtus **Objekti ID**.
-
-### <a name="use-azure-cloud-shell-to-set-up-finance-insights-data-lake-resources"></a>Kasutage Azure Coud Shelli, et seadistada finantsplevaadete andmejärve ressursid
-
-# <a name="use-a-windows-powershell-script"></a>[Windows PowerShelli skripti kasutamine](#tab/use-a-powershell-script)
-
-Windows PowerShelli skript on esitatud, seega saate hõlpsalt häälestada Azure’i ressursse, mida kirjeldatakse teemas [Azure Data Lake’i ekspordi konfigureerimine](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/configure-export-data-lake). Kui eelistate käsitsi häälestust, jätke see protseduur vahele ja jätkake protseduuriga jaotises [Käsitsi häälestus](#manual-setup).
+Kui olete varem installinud lisandmooduli Finance Insights, desinstallige see enne järgmise toimingu sooritamist.
 
 > [!NOTE]
-> PowerShelli skripti käitamiseks järgige allolevaid samme. Azure CLI valik „Proovi seda” või arvutis skripti käitamine ei pruugi töötada.
+> Kui olete andmejärve lisandmooduli LCS-i juba installinud, kasutab Finance Insights seda prognooside jaoks vajalike andmete salvestamiseks. Kui te pole veel LCS-i andmejärve lisandmoodulit installinud, loob lisandmoodul Finance insights teile hallatava andmejärve.
 
-Järgige neid samme, et konfigureerida Azure Windows PowerShelli skripti abil. Teil peavad olema õigused Azure’i ressursigrupi, Azure’ii ressursside ja Azure AD rakenduse loomiseks. Lisateavet nõutavate õiguste kohta vt [Azure AD õiguste kontrollimine](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal#permissions-required-for-registering-an-app).
-
-1. Avage [Azure’i portaalis](https://portal.azure.com) oma sihtkoha Azure’i tellimus. Valige nupp **Cloud Shell** väljast **Otsing** paremal.
-2. Valige **PowerShell**.
-3. Looge salvestusruum, kui teil palutakse seda teha. Seejärel laadige Windows PowerShelli skript seansile.
-4. Käivitage skript.
-5. Järgige skripti käivitamiseks viipasid.
-6. Kasutage skripti väljundi teavet, et installida LCS-i lisandmoodul **Data Lake’i eksportimine**.
-7. Kasutage skripti väljundi teavet, et lubada üksuse salvestusruum rakenduse Finance lehel **Andmeühendused** (**Süsteemi haldus \> Süsteemi parameetrid \> Andmeühendused**).
-
-### <a name="manual-setup"></a>Käsitsi häälestus
-
-#### <a name="add-applications-to-the-azure-ad-tenant"></a>Lisage Azure AD rentnikule rakendused
-
-1. Avage [Azure’i portaalis](https://portal.azure.com) suvand **Azure Active Directory**.
-2. Valige käsk **Halda \> Ettevõtte rakendused**.
-3. Otsige rakenduse ID järgi järgmisi rakendusi.
-
-    | Avaldus                              | Rakenduse kood                               |
-    |------------------------------------------|--------------------------------------|
-    | Microsoft Dynamics ERP Microservices     | 0cdb527f-a8d1-4bf8-9436-b352c68682b2 |
-    | Microsoft Dynamics ERP Microservices CDS | 703e2651-d3fc-48f5-942c-74274233dba8 |
-    | AI Builderi autoriseerimise teenus         | ad40333e-9910-4b61-b281-e3aeeb8c3ef3 |
-
-Kui te ei leia ühtegi eelnevat rakendust, proovige järgmisi samme.
-
-1. Oma kohalikus arvutis valige menüü **Start** ja otsige suvandit **PowerShell**.
-2. Valige ja hoidke (või paremklõpsake) suvandit **Windows PowerShell** ja valige seejärel käsk **Käivita administraatorina**.
-3. Mooduli **AzureAD** installimiseks käivitage järgmine käsk.
-
-    `Install-Module -Name AzureAD`
-
-4. Kui NuGeti pakkuja on kohustatud jätkama, valige selle installimiseks suvand **Y**.
-5. Kui ilmub teade „Ebausaldusväärne hoidla”, valige jätkamiseks **Y**.
-6. Iga rakenduse jaoks, mis tuleb lisada, käivitage järgmised käsud rakenduse lisamiseks Azure AD-sse. Kui teilt küsitakse, logige sisse Azure AD administraatorina.
-
-    `Connect-AzureAD`
-
-    `New-AzureADServicePrincipal –AppId <AppId>`
-
-#### <a name="create-azure-resources"></a>Azure'i ressursside loomine
-
-> [!NOTE]
-> Veenduge, et looksite Azure AD eksemplaris ja Common Data Service’i keskkonnas samad ressursid. Te ei saa kasutada ressursse erinevast Azure AD eksemplarist.
-
-1. Looge uus salvestamise konto.
-
-    1. Looge [Azure’i portaalis](https://portal.azure.com) salvestamise konto.
-    2. Dialoogiboksis **Salvestamise konto loomine** määrake järgmised väljad.
-
-        - **Asukoht** – valige andmekeskuse, kus teie keskkond asub.
-        - **Jõudlus** – soovitame valida suvandi **Standardne**.
-        - **Konto liik** – peate valima **StorageV2**.
-
-    3. Dialoogiaknas **Täpsemad suvandid** valige suvandi **Data Lake storage Gen2** valik **Luba** jaotises **Hierarhilised nimeruumide**. Kui te selle funktsiooni keelate, ei saa te tarbida andmeid, mida Finance and Operationsi rakendused kirjutavad, kasutades selliseid teenuseid nagu Power BI andmevoog.
-    4. Valige **Läbivaatus ja loomine**. Kui juurutamine on lõpule viidud, kuvatakse Azure’i portaalis uus ressurss.
-    5. Avage loodud salvestusruumi konto.
-    6. Valige vasakpoolses menüüs **Juurdepääsuvõtmed**.
-    7. Kopeerige ja salvestage ühenduse string kas **Võti1** või **Võti2** jaoks.
-    8. Kopeerige ja salvestage salvestuskonto nimi.
-
-2. Looge uus võtmehoidla.
-
-    1. Looge [Azure’i portaalis](https://portal.azure.com) võtmehoidla.
-    2. Valige dialoogiboksis **Võtmehoidla** väljal **Asukoht** andmekeskus, kus teie keskkond asub.
-    3. Kui võtmehoidla on loodud, valige see loendist ja seejärel valige suvand **Saladused**.
-    4. Valige **Loo/impordi**.
-    5. Valige dialoogiboksis **Saladuse loomine** väljal **Üleslaadimissuvandid** väärtus **Käsitsi**.
-    6. Sisestage saladuse nimi. Märkige üles nimi, sest peate selle hiljem esitama.
-    7. Sisestage väljale **Väärtus** ühenduse string, mille olete eelmise protseduuri savestamisekontolt saanud.
-    8. Valige **Luba** ja seejärel **Loo**. Saladus on loodud ja lisatud võtmehoidlasse.
-    9. Avage suvand **Võtmehoidla ülevaade** ja märkige üles DNS-i nimi.
-
-3. Looge ja registreerige Azure AD rakendus.
-
-    1. Avage [Azure’i portaalis](https://portal.azure.com) suvand **Azure Active Directory** ja valige **Rakenduse registreerimised**.
-    2. Valige **Uus rakenduse registreerimine** ja määrake järgmised väljad.
-
-        - **Nimi** – sisestage rakenduse nimi.
-        - **Rakenduse tüüp** – valige **Web API**.
-        - **URI häälestuse ümbersuunamine** – sisestage oma Dynamics 365 eksemplari URL, nt `https://yourdynamicsinstance.dynamics.com/auth`.
-
-    3. Avage äsja loodud rakendus ja kopeerige ja salvestage selle **rakenduse (kliendi) ID** väärtus. Peate selle väärtuse hiljem sisestama, kui seadistate võtmehoidla.
-    4. Avage **API load** ja järgige järgmisi samme.
-
-        1. Valige **Lisa luba**.
-        2. Valige **Azure võtmehoidla**.
-        3. Kui olete valinud delegeeritud õigused, valige **kasutaja\_isik**.
-        4. Valige **Lisa load**.
-
-    5. Valige rakenduse menüüs **Serdid \& saladused** ja seejärel järgige võtmehoidla saladuse loomiseks järgmisi samme.
-
-        1. Valige **Uus kliendi saladus**.
-        2. Väljale **Võtme kirjeldus** sisestage nimi.
-        3. Valige kestus ja valige seejärel **Lisa**. Väljale **Väärtus** luuakse saladus.
-        4. Kopeerige ja salvestage salajane väärtus.
-
-4. Võtmehoidla saladuste loomine.
-
-    1. Minge võtmehoidla, mille varem lõite, ja valige **Saladused**.
-    2. Järgmise tabeli iga salajase nime puhul järgige neid samme.
-
-        1. Valige **Loo/impordi**.
-        2. Valige dialoogiboksis **Saladuse loomine** väljal **Üleslaadimissuvandid** väärtus **Käsitsi**.
-        3. Looge järgmisest tabelist salajane nimi ja väärtus.
-        4. Valige **Luba** ja seejärel **Loo**. Saladus on loodud ja lisatud võtmehoidlasse.
-
-        | Salajane nimi                       | Salajane väärtus                                                                                |
-        |-----------------------------------|---------------------------------------------------------------------------------------------|
-        | app-id                            | Varasemalt loodud rakenduse ID                                      |
-        | app-secret                        | Kliendi saladus, mille varem salvestasite                                                    |
-        | storage-account-name              | Varem loodud salvestamiskonto nimi, nt **storageaccount1**       |
-        | storage-account-connection-string | Ühenduse string, mille kopeerisite lehelt **Juurdepääsuvõtmed** salvestuskonto jaoks |
-
-5. Andke rakendusele juurdepääs võtmehoidlale.
-
-    1. Avage [Azure’i portaalis](https://portal.azure.com) võtmehoidla, mille varem lõite.
-    2. Valige juurdepääsu poliitika.
-    3. Järgmise tabeli iga rakenduse puhul järgige neid samme.
-
-        1. Valige juurdepääsupoliitika loomiseks **Lisa juudepääsupoliitika**.
-        2. Väljal **Salajased load** valige õigused järgmisest tabelist.
-        3. Väljal **Põhimõtte valimine** otsige järgmisest tabelist rakenduse kuvatav nimi.
-        4. Valige käsk **Vali**.
-        5. Valige **Lisa**.
-        6. Valige käsk **Salvesta**.
-
-        | Avaldus                                              | Õigused |
-        |----------------------------------------------------------|-------------|
-        | Teie loodud uue rakenduse kuvatav nimi | Hangi, loend   |
-        | **Microsoft Dynamics ERP Microservices**                 | Hangi, loend   |
-
-6. Määrake rollid salvestamiskontole juurdepääsuks.
-
-    1. Avage [Azure’i portaalis](https://portal.azure.com) salvestamisekonto, mille varem lõite.
-    2. Valige **Juurdepääsu juhtimine (iam)** ja seejärel valige **Rolli määramised**.
-    3. Valige **Lisa, rolli määramise lisamine**.
-    4. Järgmise tabeli iga rakenduse puhul järgige neid samme.
-
-        1. Valige järgmisest tabelist roll.
-        2. Jätke välja **Määra juurdepääs** väärtuseks **Azure AD kasutaja, grupp või teenusesubjekt**.
-        3. Väljal **Valimine** sisestage järgmisest tabelist rakendused.
-        4. Valige käsk **Salvesta**.
-
-        | Avaldus                                              | Roll                        |
-        |----------------------------------------------------------|-----------------------------|
-        | Teie loodud uue rakenduse kuvatav nimi | Omanik                       |
-        | Teie loodud uue rakenduse kuvatav nimi | Kaasautor                 |
-        | Teie loodud uue rakenduse kuvatav nimi | Salvestamiskonto toetaja |
-        | Teie loodud uue rakenduse kuvatav nimi | Salvestamise bloobimälu andmete omanik     |
-        | **AI Builderi autoriseerimise teenus**                     | Salvestamise bloobimälu andmete lugeja    |
-
-# <a name="azure-cli"></a>[Azure CLI](#tab/azure-azure-cli)
-
-```
-function New-FinanceDataLakeAzureResources {
-    $defaultSecretExpiryInYear = 1
-
-    $MicrosoftDynamicsERPMicroservicesAppId = '0cdb527f-a8d1-4bf8-9436-b352c68682b2'
-    $MicrosoftDynamicsERPMicroservicesCDSAppId = '703e2651-d3fc-48f5-942c-74274233dba8'
-    $AIBuilderAuthorizationServiceAppId = 'ad40333e-9910-4b61-b281-e3aeeb8c3ef3'
-    $KeyVaultServicePrincipalAppId = 'cfa8b339-82a2-471a-a3c9-0fc0be7a4093'
-    $GraphServicePrincipalAppId = '00000003-0000-0000-c000-000000000000'
-
-    Import-Module AzureAD.Standard.Preview
-    $connectAzureADParameters = @{ 'Identity' = $true; 'TenantId' = $env:ACC_TID }
-    $azContext = AzureAD.Standard.Preview\Connect-AzureAD @connectAzureADParameters
-    $userContext = ConvertFrom-Json ((az ad signed-in-user show) -join '')
-    $user = Get-AzureADUser -Filter ("UserPrincipalName eq '" + $userContext.UserPrincipalName + "'")
-
-    $subscriptionId = (Read-Host -Prompt "Enter the Azure Subscription ID: (blank for default)")
-    if ($subscriptionId.Trim() -ne '') {
-        $azSubscription = Select-AzSubscription -SubscriptionId $subscriptionId
-    }
-
-    $resourceGroupName = (Read-Host -Prompt "Enter the Azure Resource Group name: (blank for 'FinanceDataLake')")
-    if ($null -eq $resourceGroupName -or $resourceGroupName.Trim() -eq '') {
-        $resourceGroupName = 'FinanceDataLake'
-    }
-    $resourceGroup = Get-AzResourceGroup -Name $resourceGroupName -ErrorAction SilentlyContinue
-
-    if (-not ($resourceGroup)) {
-        $resourceLocation = ''
-        $azResourceLocations = (Get-AzLocation | Select-Object Location).Location
-        while ($resourceLocation.Trim() -eq '' -or (-not ($resourceLocation -in $azResourceLocations))) {
-            $resourceLocation = (Read-Host -Prompt "Enter the location in which to create the Azure Resource Group: ('help' to see values)")
-            if ($resourceLocation -eq 'help') {
-                $azResourceLocations
-                $resourceLocation = ''
-            }
-        }
-        $resourceGroup = New-AzResourceGroup -Name $resourceGroupName -Location $resourceLocation
-    }
-    else {
-        $resourceLocation = $resourceGroup.Location
-    }
-
-    $clientAppName = (Read-Host -Prompt "Enter the name of the application registration: (blank for 'Finance Data Lake Application')")
-    if ($clientAppName.Trim() -eq '') {
-        $clientAppName = 'Finance Data Lake Application'
-    }
-
-    Write-Output '================================================================================='
-
-    $service = Get-AzureADServicePrincipal -Filter ("AppId eq '" + $MicrosoftDynamicsERPMicroservicesAppId + "'")
-    if (-not $service) {
-        New-AzureADServicePrincipal -AppId $MicrosoftDynamicsERPMicroservicesAppId | Format-Table -AutoSize
-        $service = Get-AzureADServicePrincipal -Filter ("AppId eq '" + $MicrosoftDynamicsERPMicroservicesAppId + "'")
-        Write-Output ("Added AAD Enterprise Application 'Microsoft Dynamics ERP Microservices' with Application ID {0}" -f $MicrosoftDynamicsERPMicroservicesAppId)
-    }
-    else {
-        Write-Output ("Found AAD Enterprise Application 'Microsoft Dynamics ERP Microservices' with Application ID {0}" -f $MicrosoftDynamicsERPMicroservicesAppId)
-    }
-    $MicrosoftDynamicsERPMicroservicesAppObjectId = $service.ObjectId
-
-    $service = Get-AzureADServicePrincipal -Filter ("AppId eq '" + $MicrosoftDynamicsERPMicroservicesCDSAppId + "'")
-    if (-not $service) {
-        New-AzureADServicePrincipal -AppId $MicrosoftDynamicsERPMicroservicesCDSAppId | Format-Table -AutoSize
-        Write-Output ("Added AAD Enterprise Application 'Microsoft Dynamics ERP Microservices CDS' with Application ID {0}" -f $MicrosoftDynamicsERPMicroservicesCDSAppId)
-    }
-    else {
-        Write-Output ("Found AAD Enterprise Application 'Microsoft Dynamics ERP Microservices CDS' with Application ID {0}" -f $MicrosoftDynamicsERPMicroservicesCDSAppId)
-    }
-
-    $service = Get-AzureADServicePrincipal -Filter ("AppId eq '" + $AIBuilderAuthorizationServiceAppId + "'")
-    if (-not $service) {
-        New-AzureADServicePrincipal -AppId $AIBuilderAuthorizationServiceAppId | Format-Table -AutoSize
-        $service = Get-AzureADServicePrincipal -Filter ("AppId eq '" + $AIBuilderAuthorizationServiceAppId + "'")
-        Write-Output ("Added AAD Enterprise Application 'AI Builder Authorization Service' with Application ID {0}" -f $AIBuilderAuthorizationServiceAppId)
-    }
-    else {
-        Write-Output ("Found AAD Enterprise Application 'AI Builder Authorization Service' with Application ID {0}" -f $AIBuilderAuthorizationServiceAppId)
-    }
-    $aibuilderAuthorizationServiceObjectId = $service.ObjectId
-
-    Write-Output '================================================================================='
-
-    $clientAppSPN = Get-AzureADServicePrincipal -Filter ("DisplayName eq '" + $clientAppName + "'")
-    if (-not ($clientAppSPN)) {
-        $keyVaultPrincipal = Get-AzureADServicePrincipal -Filter ("AppId eq '" + $KeyVaultServicePrincipalAppId + "'")
-        if (-not $keyVaultPrincipal)
-        {
-            New-AzureADServicePrincipal -AppId $KeyVaultServicePrincipalAppId | Format-Table -AutoSize
-            Write-Output "Added Key Vault principal to AAD"
-            $keyVaultPrincipal = Get-AzureADServicePrincipal -Filter ("AppId eq '" + $KeyVaultServicePrincipalAppId + "'")
-        }
-        $keyVaultAccess = New-Object -TypeName "Microsoft.Open.AzureAD.Model.RequiredResourceAccess"
-        $keyVaultAccess.ResourceAppId = $keyVaultPrincipal.AppId
-        $keyVaultAccess.ResourceAccess = (New-Object -TypeName "microsoft.open.azuread.model.resourceAccess" -ArgumentList $keyVaultPrincipal.Oauth2Permissions.Id, "Scope")
-
-        $graphPrincipal = Get-AzureADServicePrincipal -Filter ("AppId eq '" + $GraphServicePrincipalAppId + "'")
-        if (-not $graphPrincipal)
-        {
-            New-AzureADServicePrincipal -AppId $GraphServicePrincipalAppId | Format-Table -AutoSize
-            Write-Output "Added Graph principal to AAD"
-            $graphPrincipal = Get-AzureADServicePrincipal -Filter ("AppId eq '" + $GraphServicePrincipalAppId + "'")
-        }
-        $userRead = $graphPrincipal.Oauth2Permissions | Where-Object { $_.Type -eq "User" -and $_.Value -eq "User.Read" }
-        $graphAccess = New-Object -TypeName "Microsoft.Open.AzureAD.Model.RequiredResourceAccess"
-        $graphAccess.ResourceAppId = $graphPrincipal.AppId
-        $graphAccess.ResourceAccess = (New-Object -TypeName "microsoft.open.azuread.model.resourceAccess" -ArgumentList $userRead.Id, "Scope")
-
-        $clientApp = New-AzureADApplication -DisplayName $clientAppName -RequiredResourceAccess @($keyVaultAccess, $graphAccess)
-        $clientAppSPN = New-AzureADServicePrincipal -AppId $clientApp.AppId -Tags @($clientAppName)
-        $clientAppId = $clientApp.AppId
-        Write-Output ('Created App Registration "' + $clientAppName + '" with Application Id: ' + $clientAppId)
-    }
-    else {
-        $clientApp = Get-AzureADApplication -Filter ("DisplayName eq '" + $clientAppName + "'")
-        $clientAppId = $clientApp.AppId
-        Write-Output ('Found App Registration "' + $clientAppName + '" with Application Id: ' + $clientAppId)
-    }
-            
-    $clientAppSecretCredential = New-AzureADApplicationPasswordCredential -ObjectId $clientApp.ObjectId -CustomKeyIdentifier "ClientAppAccessKey" -EndDate (get-date).AddYears($defaultSecretExpiryInYear)
-    $ClientAppSecret = $clientAppSecretCredential.Value
-    $clientAppSpId = $clientAppSPN.ObjectId
-
-    Write-Output ('Generated application secret: ' + $ClientAppSecret)
-    Write-Output '================================================================================='
-
-    $templateObject = ConvertFrom-Json $azureTemplate -AsHashtable
-    $templateObject.{$schema} = "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#"
-    Write-Output 'Provisioning Azure resources. This may take a few minutes.'
-    $deployment = New-AzResourceGroupDeployment -ResourceGroupName $resourceGroupName -TemplateObject $templateObject -aibuilderAppObjectId $aibuilderAuthorizationServiceObjectId -clientAppId $clientAppId -clientAppSecret $ClientAppSecret -clientAppSpObjectId  $clientAppSpId -microserviceSpObjectId $MicrosoftDynamicsERPMicroservicesAppObjectId -userSpObjectId $user.ObjectId
-
-    if ($deployment.ProvisioningState -eq 'Succeeded') {
-        Write-Output "Successfully deployed the following resources to Azure:"
-        Write-Output ("  Key Vault:                         " + $deployment.Outputs.keyVaultName.Value)
-        Write-Output ("  Storage Account:                   " + $deployment.Outputs.storageAccountName.Value)
-    }
-    else {
-        Write-Output ("Provisioning Azure resources failed with the following state: " + $deployment.ProvisioningState)
-        Write-Output ("Some of the resources may have been created in resource group: " + $resourceGroupName)
-    }
-
-    Write-Output '================================================================================='
-
-    $keyVault = Get-AzKeyVault -VaultName $deployment.Outputs.keyVaultName.Value
-    Write-Output "Values for LCS Data Lake Add-In:"
-    Write-Output ("  Tenant ID:                         " + $subscriptionContext.Context.Subscription.TenantId)
-    Write-Output ("  DNS Name:                          " + $keyVault.VaultUri)
-    Write-Output "  Storage account secret name:       storage-account-name"
-    Write-Output "  Application ID secret name:        app-id"
-    Write-Output "  Application Secret secret name:    app-secret"
-    Write-Warning "Copy this information for the LCS Add-in as it is not saved. Azure Cloud Shell will eventually time out and close."
-
-    Write-Output '================================================================================='
-    Write-Output "Values for System parameters > Data connections:"
-    Write-Output ("  Application ID:                    " + $clientAppId)
-    Write-Output ("  Application Secret:                " + $ClientAppSecret)
-    Write-Output ("  DNS name:                          " + $keyVault.VaultUri)
-    Write-Output "  Secret name:                       storage-account-connection-string"
-    Write-Warning "Copy this information for the System parameters as it is not saved. Azure Cloud Shell will eventually time out and close."
-}
-
-$azureTemplate = @"
-{
-    "contentVersion": "1.0.0.0",
-    "parameters": {
-      "aibuilderAppObjectId": {
-        "type": "string",
-        "metadata": {
-          "description": "Specifies the object ID of the AI Builder application."
-        }
-      },
-      "clientAppId": {
-        "type": "string",
-        "metadata": {
-          "description": "Specifies the application ID of client application."
-        }
-      },
-      "clientAppSecret": {
-        "type": "String",
-        "metadata": {
-          "description": "Specifies the Azure App ID client secret to in azure key vault."
-        }
-      },
-      "clientAppSpObjectId": {
-        "type": "string",
-        "metadata": {
-          "description": "Specifies the object ID of a client application service principal."
-        }
-      },
-      "userSpObjectId": {
-        "type": "string",
-        "metadata": {
-          "description": "Specifies the object ID of tenant admin service principal."
-        }
-      },
-      "microserviceSpObjectId": {
-        "type": "string",
-        "metadata": {
-          "description": "Specifies the object ID of Microsoft Dynamics ERP Microservices service principal."
-        }
-      },
-      "storageAccountType": {
-        "type": "string",
-        "defaultValue": "Standard_LRS",
-        "allowedValues": [
-          "Standard_LRS",
-          "Standard_GRS",
-          "Standard_ZRS",
-          "Premium_LRS"
-        ],
-        "metadata": {
-          "description": "Storage Account type"
-        }
-      }
-    },
-    "variables": {
-      "storageAccountApiVersion": "2019-06-01",
-      "keyVaultApiVersion": "2018-02-14",
-      "secretsPermissions": [
-        "list",
-        "get"
-      ],
-      "location": "[resourceGroup().location]",
-      "storageAccountName": "[concat('store', uniquestring(resourceGroup().id))]",
-      "keyVaultName": "[concat('keyvault', uniquestring(resourceGroup().id))]",
-      "owner": "[concat('/subscriptions/', subscription().subscriptionId, '/providers/Microsoft.Authorization/roleDefinitions/', '8e3af657-a8ff-443c-a75c-2fe8c4bcb635')]",
-      "contributor": "[concat('/subscriptions/', subscription().subscriptionId, '/providers/Microsoft.Authorization/roleDefinitions/', 'b24988ac-6180-42a0-ab88-20f7382dd24c')]",
-      "storageAccountContributor": "[concat('/subscriptions/', subscription().subscriptionId, '/providers/Microsoft.Authorization/roleDefinitions/', '17d1049b-9a84-46fb-8f53-869881c3d3ab')]",
-      "storageBlobDataOwner": "[concat('/subscriptions/', subscription().subscriptionId, '/providers/Microsoft.Authorization/roleDefinitions/', 'b7e6dc6d-f1e8-4753-8033-0f276bb0955b')]",
-      "storageBlobDataReader": "[concat('/subscriptions/', subscription().subscriptionId, '/providers/Microsoft.Authorization/roleDefinitions/', '2a2b9908-6ea1-4ae2-8e65-a410df84e7d1')]"
-    },
-    "resources": [
-      {
-        "type": "Microsoft.Storage/storageAccounts",
-        "apiVersion": "[variables('storageAccountApiVersion')]",
-        "name": "[variables('storageAccountName')]",
-        "location": "[variables('location')]",
-        "sku": {
-          "name": "[parameters('storageAccountType')]"
-        },
-        "kind": "StorageV2",
-        "properties": {
-          "accessTier": "Hot",
-          "supportsHttpsTrafficOnly": true,
-          "isHnsEnabled": true
-        },
-        "resources": [
-          {
-            "type": "Microsoft.Storage/storageAccounts/providers/roleAssignments",
-            "apiVersion": "2018-09-01-preview",
-            "name": "[concat(variables('storageAccountName'), '/Microsoft.Authorization/', guid(uniqueString(variables('storageAccountName'),'1')))]",
-            "dependsOn": [
-              "[variables('storageAccountName')]"
-            ],
-            "properties": {
-              "roleDefinitionId": "[variables('owner')]",
-              "principalId": "[parameters('clientAppSpObjectId')]"
-            }
-          },
-          {
-            "type": "Microsoft.Storage/storageAccounts/providers/roleAssignments",
-            "apiVersion": "2018-09-01-preview",
-            "name": "[concat(variables('storageAccountName'), '/Microsoft.Authorization/', guid(uniqueString(variables('storageAccountName'),'2')))]",
-            "dependsOn": [
-              "[variables('storageAccountName')]"
-            ],
-            "properties": {
-              "roleDefinitionId": "[variables('contributor')]",
-              "principalId": "[parameters('clientAppSpObjectId')]"
-            }
-          },
-          {
-            "type": "Microsoft.Storage/storageAccounts/providers/roleAssignments",
-            "apiVersion": "2018-09-01-preview",
-            "name": "[concat(variables('storageAccountName'), '/Microsoft.Authorization/', guid(uniqueString(variables('storageAccountName'),'3')))]",
-            "dependsOn": [
-              "[variables('storageAccountName')]"
-            ],
-            "properties": {
-              "roleDefinitionId": "[variables('storageAccountContributor')]",
-              "principalId": "[parameters('clientAppSpObjectId')]"
-            }
-          },
-          {
-            "type": "Microsoft.Storage/storageAccounts/providers/roleAssignments",
-            "apiVersion": "2018-09-01-preview",
-            "name": "[concat(variables('storageAccountName'), '/Microsoft.Authorization/', guid(uniqueString(variables('storageAccountName'),'4')))]",
-            "dependsOn": [
-              "[variables('storageAccountName')]"
-            ],
-            "properties": {
-              "roleDefinitionId": "[variables('storageBlobDataOwner')]",
-              "principalId": "[parameters('clientAppSpObjectId')]"
-            }
-          },
-          {
-            "type": "Microsoft.Storage/storageAccounts/providers/roleAssignments",
-            "apiVersion": "2018-09-01-preview",
-            "name": "[concat(variables('storageAccountName'), '/Microsoft.Authorization/', guid(uniqueString(variables('storageAccountName'),'5')))]",
-            "dependsOn": [
-              "[variables('storageAccountName')]"
-            ],
-            "properties": {
-              "roleDefinitionId": "[variables('storageBlobDataReader')]",
-              "principalId": "[parameters('aibuilderAppObjectId')]"
-            }
-          }
-        ]
-      },
-      {
-        "type": "Microsoft.KeyVault/vaults",
-        "apiVersion": "[variables('keyVaultApiVersion')]",
-        "name": "[variables('keyVaultName')]",
-        "location": "[variables('location')]",
-        "dependsOn": [
-          "[resourceId('Microsoft.Storage/storageAccounts', variables('storageAccountName'))]"
-        ],
-        "tags": {
-        },
-        "properties": {
-          "enabledForDeployment": false,
-          "enabledForTemplateDeployment": false,
-          "enabledForDiskEncryption": false,
-          "enableRbacAuthorization": false,
-          "accessPolicies": [
-            {
-              "objectId": "[parameters('clientAppSpObjectId')]",
-              "tenantId": "[subscription().tenantId]",
-              "permissions": {
-                "secrets": "[variables('secretsPermissions')]"
-              }
-            },
-            {
-              "objectId": "[parameters('microserviceSpObjectId')]",
-              "tenantId": "[subscription().tenantId]",
-              "permissions": {
-                "secrets": "[variables('secretsPermissions')]"
-              }
-            },
-            {
-              "objectId": "[parameters('userSpObjectId')]",
-              "tenantId": "[subscription().tenantId]",
-              "permissions": {
-                "secrets": "[variables('secretsPermissions')]"
-              }
-            }
-          ],
-          "tenantId": "[subscription().tenantId]",
-          "sku": {
-            "name": "Standard",
-            "family": "A"
-          },
-          "enableSoftDelete": false,
-          "networkAcls": {
-            "defaultAction": "Allow",
-            "bypass": "AzureServices"
-          }
-        }
-      },
-      {
-        "type": "Microsoft.KeyVault/vaults/secrets",
-        "name": "[concat(variables('keyVaultName'), '/', 'app-id')]",
-        "apiVersion": "[variables('keyVaultApiVersion')]",
-        "location": "[variables('location')]",
-        "dependsOn": [
-          "[resourceId('Microsoft.KeyVault/vaults', variables('keyVaultName'))]"
-        ],
-        "properties": {
-          "value": "[parameters('clientAppId')]"
-        }
-      },
-      {
-        "type": "Microsoft.KeyVault/vaults/secrets",
-        "name": "[concat(variables('keyVaultName'), '/', 'app-secret')]",
-        "apiVersion": "[variables('keyVaultApiVersion')]",
-        "location": "[variables('location')]",
-        "dependsOn": [
-          "[resourceId('Microsoft.KeyVault/vaults', variables('keyVaultName'))]"
-        ],
-        "properties": {
-          "value": "[parameters('clientAppSecret')]"
-        }
-      },
-      {
-        "type": "Microsoft.KeyVault/vaults/secrets",
-        "name": "[concat(variables('keyVaultName'), '/', 'storage-account-name')]",
-        "apiVersion": "[variables('keyVaultApiVersion')]",
-        "location": "[variables('location')]",
-        "dependsOn": [
-          "[resourceId('Microsoft.KeyVault/vaults', variables('keyVaultName'))]"
-        ],
-        "properties": {
-          "value": "[variables('storageAccountName')]"
-        }
-      },
-      {
-        "type": "Microsoft.KeyVault/vaults/secrets",
-        "name": "[concat(variables('keyVaultName'), '/', 'storage-account-connection-string')]",
-        "apiVersion": "[variables('keyVaultApiVersion')]",
-        "location": "[variables('location')]",
-        "dependsOn": [
-          "[resourceId('Microsoft.KeyVault/vaults', variables('keyVaultName'))]"
-        ],
-        "properties": {
-          "value": "[concat('DefaultEndpointsProtocol=https;AccountName=', variables('storageAccountName'), ';AccountKey=', listKeys(resourceId('Microsoft.Storage/storageAccounts', variables('storageAccountName')), variables('storageAccountApiVersion')).keys[0].value, ';EndpointSuffix=core.windows.net')]"
-        }
-      }
-    ],
-    "outputs": {
-      "storageAccountName": {
-        "type": "string",
-        "value": "[variables('storageAccountName')]"
-      },
-      "keyVaultName": {
-        "type": "string",
-        "value": "[variables('keyVaultName')]"
-      }
-    }
-  }
-"@
-
-try {
-  New-FinanceDataLakeAzureResources
-}
-catch {
-  Write-Error $_.Exception.Message
-  Write-Warning $_.Exception.StackTrace
-  $inner = $_.Exception.InnerException
-  while ($null -ne $inner) {
-    Write-Output 'Inner Exception:'
-    Write-Error $_.Exception.Message
-    Write-Warning $_.Exception.StackTrace
-    $inner = $inner.InnerException
-  }
-}
-
-```
----
-
-## <a name="configure-the-entity-store"></a>Üksuse salvestamise konfigureerimine
-
-Järgige neid samme, et seadistada üksuse salvestamine oma Finance’i keskkonnas.
-
-1. Minge jaotisse **Süsteemihaldus \> Seadistus \> Süsteemi parameetrid \>Andmeühendused**.
-2. Määrake suvandi **Luba Data Lake’i integratsioon** väärtuseks **Jah**.
-3. Seadke järgmised võtmehoidja väljad.
-
-    - **Rakenduse (klient) ID** – sisestage eelnevalt loodud rakenduse kliendi ID.
-    - **Avalduse saladus** – sisestage saladus, mille salvestasite varem loodud rakenduse jaoks.
-    - **DNS-i nimi** – domeeninime süsteemi (DNS) nime leiate varem loodud rakenduse üksikasjade lehelt.
-    - **Salajane nimi** – sisestage **storage-account-connection-string**.
-
-## <a name="configure-the-data-lake"></a>Andmejärve konfigureerimine
-
-Järgige neid samme, et kasutada LCS-i Azure Data Lake’i lisandmooduli keskkonda lisamiseks.
+Järgige neid samme Finance insights lisandmooduli installimiseks.
 
 1. Logige LCS–i sisse ja klõpsake seejärel lehe parempoolses servas oleva keskkonna nime all valikul **Kõik üksikasjad**.
 2. Valige jaotises **Keskkonna lisandmoodulid** suvand **Installi uus lisandmoodul**.
-3. Valige lisandmoodul **Data Lake’i eksportimine**.
-4. Sisestage järgmised väärtused.
+3. Valige **Finance insights** lisandmoodul.
+4. Nõustuge tingimustega ja seejärel valige **Installi**.
 
-    | Väärtus                                                              | Kirjeldus |
-    |--------------------------------------------------------------------|-------------|
-    | Azure’i tellimuse rentniku ID, kus asub võtmehoidla | Rentniku ID, kus asuvad salvestamiskonto, rakendused ja võtmehoidlad. Selle väärtuse leidmiseks avage [Azure’i portaal](https://portal.azure.com), avage **Azure Active Directory** ja kopeerige väärtus **Rentniku ID**. |
-    | Sisestage oma võtmehoidla DNS-i nimi                             | Võtmehoidla DNS-i nimi, nt `https://customkeyvault.vault.azure.net/`. (See väärtus vastab üksuse salvestamisel kasutatavale DNS-i nimele.) |
-    | Esitage saladus, mis sisaldab salvestuskonto nime   | **storage-account-name** |
-    | Data Lake’i juurdepääsuks kasutatava rakenduse ID salajane nimi          | **app-id** |
-    | Rakenduse ID-ga kasutatav salajane nimi                                 | **app-secret** |
+Lisandmooduli installimiseks võib aega kuluda mitu minutit.
 
-5. Nõustuge tingimustega ja valige **Installi**.
+## <a name="one-last-thing"></a>Veel üks asi...
 
-Lisandmoodul installitakse mõne minuti jooksul.
+Kui lisandmoodul on edukalt installitud, võib kuluda kuni tund, enne kui saate lubada rakenduse funktsioonihalduse **tööruumis** Finance Insightsi funktsioonid Dynamics 365 Finance. Kui te ei soovi nii kaua oodata, saate ülevaate ettevalmistamise olekukontrolli **protsessi käsitsi käivitada**. 
 
-## <a name="configure-ai-builder"></a>AI Builderi konfigureerimine
+1. Dynamics 365 Finance Avage jaotises **Süsteemihalduse \> häälestusprotsesside \> automatiseerimine**.
+2. peal **Taustaprotsessid** vahekaart, leia **Insightsi ettevalmistamise oleku kontroll** ja valige **Muuda**.
+3. Määrake **Järgmine hukkamine** välja 30 minutit enne praegust kellaaega.
 
-1. Logige LCS-i sisse ja avage leht **Keskkonna üksikasjad**.
-2. Kerige alla jaotiseni **Keskkonna lisandmoodulid**. Peaksite nägema lisandmooduleid, mis on juba sellesse keskkonda installitud. Kui Lisandmoodulit **Data Lake’i eksportimine** nende seas ei ole, konfigureerige see lisandmoodul.
-3. Valige lisandmoodul **Ülevaadete hankimine**.
-4. Lisandmooduli **Ülevaadete hankimine** üksikasjade lehel sisestage järgmised väärtused.
+   See muudatus peaks sundima **Insightsi ettevalmistamise oleku kontroll** protsessi kohe käivitada.
 
-    | Väärtus                                                    | Kirjeldus |
-    |----------------------------------------------------------|-------------|
-    | CDS-i organisatsiooni URL                                     | Common Data Service’i organisatsiooni URL Common Data Service’i eksemplari jaoks. Selle väärtuse leidmiseks avage [Power Appsi portaal](https://make.powerapps.com), valige ülemises parempoolses nurgas nupp **Sätted** (hammasratta sümbol), valige **Täpsemad sätted** ja kopeerige URL. (URL lõpeb liitega dynamics.com.) |
-    | CDS-i organisatsiooni ID                                               | Common Data Service’i eksemplari keskkonna ID. Selle väärtuse leidmiseks avage [Power Appsi portaal](https://make.powerapps.com), valige ülemises parempoolses nurgas nupp **Sätted** (hammasratta sümbol), valige **Kohandamised \> Arendaja ressursid \>Eksemplari viitamise teave** ja kopeerige väärtus **ID**. |
-    | CDS-i rentniku ID (kataloogi ID AAD-st)               | Common Data Service’i eksemplari rentniku ID. Selle väärtuse leidmiseks avage [Azure’i portaal](https://portal.azure.com), avage **Azure Active Directory** ja kopeerige väärtus **Rentniku ID**. |
-    | Esitage kasutaja objekti ID, kellel on süsteemi administraatori roll | Azure AD kasutaja objekti ID teenuses Common Data Service. See kasutaja peab olema Common Data Service’i eksemplari süsteemiadministraator. Selle väärtuse leidmiseks avage [Azure’i portaal](https://portal.azure.com), avage **Azure Active Directory \> Kasutajad**, valige kasutaja ja seejärel kopeerige jaotises **Identiteet** väärtus **Objekti ID**. |
-    | Kas see on rentniku vaikimisi CDS-i keskkond?      | Kui Common Data Service’i eksemplar oli esimene loodud tootmiseksemplar, märkige see märkeruut. Kui Common Data Service’i eksemplar on käsitsi loodud, tühjendage see märkeruut. |
+   Pärast **Insightsi ettevalmistamise oleku kontroll** protsess on edukalt käivitatud, saate lubada rakenduses Finance Insighti funktsioonid **Funktsioonide haldamine** tööruum.
 
+> [!NOTE]
+> Kui **Insightsi ettevalmistamise oleku kontroll** protsess ei käivitu, minge aadressile **Süsteemi haldus** > **Päringud** > **Partiitööd**. Aastal **Protsessiautomaatika küsitlussüsteem** muutke väärtuseks **Ootan** protsessi algatamiseks. 
+> 
 ## <a name="feedback-and-support"></a>Tagasiside ja tugi
 
-Kui soovite anda tagasisidet või vajate tuge, saatke meil [kliendimaksete ülevaadetele (eelversioon)](mailto:fiap@microsoft.com).
+Kui olete huvitatud tagasiside andmisest või kui vajate tuge, saatke e-kiri aadressile [Finantsstatistika (eelvaade)](mailto:fiap@microsoft.com).
 
-## <a name="privacy-notice"></a>Privaatsusavaldus
-
-Eelvaated 1) võivad kasutada vähem privaatsus- ja turbemeetmeid kui rakenduse Dynamics 365 Finance and Operations teenus; 2) ei ole hõlmatud selle teenuse teenusetaseme leppes; 3) ei tohi olla kasutusel isiklike andmete ega muude andmete töötlemiseks, mis on seaduste või määrustega kaitstud; 4) on piiratud toega.
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

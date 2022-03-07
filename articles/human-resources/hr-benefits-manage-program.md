@@ -1,39 +1,41 @@
 ---
 title: Soodustusprogrammi määratlemine ja haldamine
-description: Inimressursid pakuvad tööriistu, mida saab kasutada soodustuste, mahaarvamiste ja töötajate hüvitusplaanide seadistamiseks ja haldamiseks, mida organisatsioon oma töötajatele pakub või nende puhul töötleb. See artikkel sisaldab teavet soodustuste seadistamise ja haldamise kohta.
-author: andreabichsel
-manager: AnnBe
-ms.date: 02/03/2020
+description: Inimressursid pakuvad tööriistu, mida saab kasutada soodustuste, mahaarvamiste ja töötajate hüvitusplaanide seadistamiseks ja haldamiseks, mida organisatsioon oma töötajatele pakub või nende puhul töötleb. See teema sisaldab teavet soodustuste seadistamise ja haldamise kohta.
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HcmBenefitEligibilityDetail, HcmBenefitSelection, SysPolicyListPage, SysPolicySourceDocumentRuleType, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 15681
 ms.assetid: 6aee97ac-29f7-4b3c-8aa1-c65810de3090
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: a7fe99d4982b8f35871b15e8049c39eb806e315c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 1f2bfa901aa299a091194978ee95ff0e69f2cdbf
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418117"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065347"
 ---
 # <a name="define-and-manage-a-benefits-program"></a>Soodustusprogrammi määratlemine ja haldamine
 
-Inimressursid pakuvad tööriistu, mida saab kasutada soodustuste, mahaarvamiste ja töötajate hüvitusplaanide seadistamiseks ja haldamiseks, mida organisatsioon oma töötajatele pakub või nende puhul töötleb. See artikkel sisaldab teavet soodustuste seadistamise ja haldamise kohta.
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+Inimressursid pakuvad tööriistu, mida saab kasutada soodustuste, mahaarvamiste ja töötajate hüvitusplaanide seadistamiseks ja haldamiseks, mida organisatsioon oma töötajatele pakub või nende puhul töötleb. See teema sisaldab teavet soodustuste seadistamise ja haldamise kohta.
 
 ## <a name="benefit-setup"></a>Soodustuse seadistamine
 
 Enne kui töötajad saavad soodustuste saamiseks registreeruda, tuleb luua iga soodustuse elemendid. Need elemendid ühendavad sarnased soodustusplaanid ja määratlevad vaikesätted, nagu mahaarvamise määrad ja raamatupidamise üksikasjad. Paljusid neid sätteid saab kohandada, kui töötajad soodustuse saamiseks hiljem registreeruvad. Iga soodustusplaani puhul saab organisatsioon pakkuda mitut registreerimise võimalust või töötaja saab plaanis registreerumisest loobuda. 
 
-[![Soodustuse protsessivoog](./media/benefit-process-flow1.png)](./media/benefit-process-flow1.png)
+[![Soodustuse protsessivoog.](./media/benefit-process-flow1.png)](./media/benefit-process-flow1.png)
 
 ## <a name="benefit-elements"></a>Soodustuse elemendid
 
@@ -45,7 +47,7 @@ Enne soodustuste loomist ja töötajate registreerimist nende saamiseks peate m�
 
 Iga soodustuse tüübi, nt visiooni või hambaravi puhul saab organisatsioon pakkuda oma töötajatele ühte või enamat plaani. Iga plaani puhul saab organisatsioon pakkuda erinevaid valikuid. Näiteks saavad töötajad täiendava tähtajaga elukindlustuse katvuse osta oma ühe, kahe või kolme aastapalga ulatuses. Iga plaani ja valiku kombinatsioonist saab soodustus, mille saamiseks töötajad saavad registreeruda. 
 
-[![soodustuse pilt](./media/benefit-pic.png)](./media/benefit-pic.png)
+[![soodustuse pilt.](./media/benefit-pic.png)](./media/benefit-pic.png)
 
 ## <a name="eligibility"></a>Sobivus
 Töötaja soodustuse saamise õiguse tööandja pakutavatele eri tüüpi soodustustele määravad paljud tegurid. Soodustuse loomisel Dynamics 365 Human Resourcesis saate seadistada selle soodustuse puhul rakenduva soodustuse saamise õiguse tüübi. 
@@ -64,3 +66,6 @@ Mõnikord lõpetab organisatsioon konkreetsete soodustuste pakkumise. Sellisel j
 Samuti võimaldab hulgisoodustuse pikendamine teil pikendada nii soodustuse kui ka selle saamiseks töötajate registreerumise aegumiskuupäeva, kui otsustate soodustust pakkuda kauem kui algselt plaanitud.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

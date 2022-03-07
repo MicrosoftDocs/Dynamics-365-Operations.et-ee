@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: v-gfedorova
 ms.search.validFrom: 2021-05-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 6febc340f140d0b3a3f08ea32a59d9eb4e6e5204
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
-ms.translationtype: MT
+ms.openlocfilehash: 361b61690e9e16a690234ed9319478d864c743e7559746654e4868272de13524
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920444"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6716464"
 ---
 # <a name="picked-quantity-isnt-sufficient-during-packing-slip-generation"></a>Komplekteeritud kogus pole saatelehe loomise ajal piisav
 
@@ -66,8 +66,8 @@ Koormusrea koguse reguleerimiseks kasutage järgmist toimingut.
 
 1. Avage **Laohaldus \> Koormad \> Kõik koormad**.
 1. Saate valida koormuse, mille jaoks saatelehte ei saa luua.
-1. Valige tegevuspaani vahekaardil **Läheta ja võta vastu grupi Tühista** **saadetis** käsku Tühista saadetise **kinnitus**.
-1. Valige **vahekaardil Koorma** read väljaminek põhjust põhjus oleva kauba koormarida.
+1. Valige toimingupaani vahekaardi  **Saatmine ja vastuvõtmine** jaotises  **Ümberpööramine** suvand  **Pööra saadetise kinnitus ümber**.
+1. Vahekaardil  **Koormusread** valige probleemi põhjustava üksuse koormusrida.
 1. Komplekteeritud koguse täpsustamiseks valige **Vähenda komplekteeritud kogust**.
 1. Seadistage väli **Koormarea vähendamine**, et kajastada koormusrea korrigeerimisi.
 
@@ -79,5 +79,5 @@ Kasutage järgmist protseduuri komplekteeritud registreerimise tühistamiseks.
 
 1. Avage jaotis **Müügireskontro \> Tellimused \> Kõik tellimused**.
 1. Valige müügitellimus, millele ei saa koormuse jaoks saatelehte sisestada.
-1. Vahekaardil **Müügitellimuse read** valige müügitellimuse rida, mille jaoks registreerimine komplekteeritud oli.
+1. Vahekaardil  **Müügitellimuse read** valige müügitellimuse rida, mille jaoks registreerimine komplekteeritud oli.
 1. Valige suvand **Uuenda rida \> Vali**, et kaupade komplekt eemaldada.

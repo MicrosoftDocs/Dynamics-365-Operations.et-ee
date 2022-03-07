@@ -1,16 +1,13 @@
 ---
 title: Akordionmoodul
-description: See teema hõlmab akordionmooduleid ja selles kirjeldatakse, kuidas neid rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
+description: See teema hõlmab akordionmooduleid ja selles kirjeldatakse, kuidas neid rakenduses Microsoft Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
 author: anupamar-ms
-manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,20 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2bb18539f610e5af05f8d9a20a0ba9f34db5c94f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ba973299291276fe48d82360e203ca28f02aaffb
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411592"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5796266"
 ---
 # <a name="accordion-module"></a>Akordionmoodul
 
 [!include [banner](includes/banner.md)]
 
-See teema hõlmab akordionmooduleid ja selles kirjeldatakse, kuidas neid rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
-
-## <a name="overview"></a>Ülevaade
+See teema hõlmab akordionmooduleid ja selles kirjeldatakse, kuidas neid rakenduses Microsoft Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
 
 Akordionmoodulid on konteinerilaadsed moodulid, mis pakuvad leheküljel teabe või moodulite korrastamiseks võimalust, mis sarnaneb ahendatava sahtliga. Akordionmoodulit saab kasutada igal leheküljel.
 
@@ -87,3 +82,6 @@ KKK lehele akordionmooduli lisamiseks ja selle atribuutide seadistamiseks saidie
 [Vahekaardimoodul](add-tab.md)
 
 [Tekstiploki moodul](add-content-rich-block.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

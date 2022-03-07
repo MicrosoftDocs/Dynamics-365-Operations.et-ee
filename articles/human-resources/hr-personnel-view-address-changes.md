@@ -2,14 +2,11 @@
 title: Aadressimuudatuste vaatamine ja haldamine
 description: Selles teemas selgitatakse, kuidas vaadata ja hallata aadressimuudatusi rakenduses Dynamics 365 Human Resources.
 author: andreabichsel
-manager: tfehr
 ms.date: 08/07/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 269074
 ms.assetid: 426c6127-42ee-4163-8dd0-b2867f95581d
@@ -17,14 +14,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-08-07
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8746f449f2b30b2e2119446c1912842c420acbfc
-ms.sourcegitcommit: 2190be6c205d7d9e43bdb99b9190cc0112f9f093
+ms.openlocfilehash: 751e903b011b74fad584a1a22b574134610aa3d2
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5152049"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6051757"
 ---
 # <a name="view-and-manage-address-changes"></a>Aadressimuudatuste vaatamine ja haldamine
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Selles teemas selgitatakse, kuidas saate vaadata ja hallata aadressimuudatusi töövõtja iseteeninduse lehel **Isikuandmete redigeerimine** või **Töötaja** üksikasjade lehel rakenduses Dynamics 365 Human Resources.
 
@@ -125,6 +124,9 @@ Personaliosakonna töötajad saavad vaadata ja jälgida muudatusi tööruumis **
 Kui valite paani **Aadressimuudatused**, kuvatakse uuel leheküljel iga aadressimuudatuse üksikasjad. Soovi korral saate valida ülemises parempoolses nurgas suvandi **Kaasa tulevased aadressimuudatused**, et kuvada tulevase kuupäevaga aadressimuudatused.
 
 > [!NOTE]
-> Kui soovite aadressimuudatuste puhul saada teatist või e-kirja, saate toimingupaani vahekaardil **Suvandid** luua uue teatisereegli. Lisateavet teatisereeglite kohta leiate teemast [Teatisereeglite loomine](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/create-alerts).<br><br>
+> Kui soovite aadressimuudatuste puhul saada teatist või e-kirja, saate toimingupaani vahekaardil **Suvandid** luua uue teatisereegli. Lisateavet teatisereeglite kohta leiate teemast [Teatisereeglite loomine](../fin-ops-core/fin-ops/get-started/create-alerts.md).<br><br>
 
-> Kui soovite aadressimuudatuste jaoks konfigureerida töövoogu, saate valida oma teatisereeglis suvandi **Saada väliselt** ning kasutada seejärel ärisündmuse käivitamiseks ja töövoo konfigureerimiseks rakendust Power Automate. Lisateavet leiate teemast [Teatised ärisündmustena](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/create-alerts#alerts-as-business-events).
+> Kui soovite aadressimuudatuste jaoks konfigureerida töövoogu, saate valida oma teatisereeglis suvandi **Saada väliselt** ning kasutada seejärel ärisündmuse käivitamiseks ja töövoo konfigureerimiseks rakendust Power Automate. Lisateavet leiate teemast [Teatised ärisündmustena](../fin-ops-core/fin-ops/get-started/create-alerts.md#alerts-as-business-events).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

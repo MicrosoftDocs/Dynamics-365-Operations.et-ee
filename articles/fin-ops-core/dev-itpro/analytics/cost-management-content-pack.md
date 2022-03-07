@@ -2,11 +2,9 @@
 title: Kuluhalduse Power BI sisu
 description: Selles teemas kirjeldatakse, mida hõlmab kuluhalduse Power BI sisu.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 03/16/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace, CostObjectWithLowestAccuracy, CostVarianceChart, CostObjectWithLowestTurn
 audience: Application User, IT Pro
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bd5558c89130b48595a9b889072a18a4416b5bd7
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: 9fbdc6addc820aadc1f5469cb059a62724cfe905
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683891"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752636"
 ---
 # <a name="cost-management-power-bi-content"></a>Kuluhalduse Power BI sisu
 
@@ -32,11 +30,6 @@ ms.locfileid: "4683891"
 ## <a name="overview"></a>Ülevaade
 
 **Kuluhalduse** Microsoft Power BI sisu on mõeldud laoraamatupidajatele või organisatsioonis varude eest vastutavatele või varude olekust või lõpetamata toodangust (WIP) huvitatud üksikisikutele või neile, kes vastutavad või on huvitatud standardkulu erinevuste analüüsimisest.
-
-> [!NOTE]
-> Selles teemas kirjeldatud **kuluhalduse** Power BI sisu kehtib Dynamics 365 Finance and Operations 8.0 puhul.
-> 
-> AppSource’i saidil saadaolev **kuluhalduse** Power BI sisupakett on aegunud. Lisateavet selle kasutuselt kõrvaldamise kohta vaadake jaotisest [Rakenduse Finance and Operations funktsioonid on eemaldatud või aegunud](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
 
 See Power BI sisu pakub liigitatud vormingut, mis aitab teil jälgida varude jõudlust ja visualiseerida läbi nende kulude voogu. Pääsete juhtimisülevaadetele, nagu ringluskiirus; päevade arv, kui kaua varud on laos olnud; täpsus ja ABC-liigitus, ligi eelistatud koondtasemel (ettevõte, kaup, kaubagrupp või koht). Teavet saab kasutada ka finantsaruande üksikasjaliku lisana.
 
@@ -171,11 +164,11 @@ Järgmised tabelid annavad ülevaate **kuluhalduse** Power BI sisu visualiseerin
 
 ## <a name="understanding-the-data-model-and-entities"></a>Andmemudelid ja üksused
 
-Rakendusest pärit andmeid kasutatakse **Kuluhalduse** Power BI  sisu aruandelehtede täitmiseks. Need andmed esitatakse koondmõõtmistena, mis on koondatud üksuse kauplusse, mis on analüüsimiseks optimeeritud Microsoft SQL Serveri andmebaas. Lisateavet vt teemast [Power BI integratsioon üksuse kauplusega](power-bi-integration-entity-store.md).
+Rakendusest pärit andmeid kasutatakse **Kuluhalduse** Power BI  sisu aruandelehtede täitmiseks. Need andmed esitatakse koondmõõtmistena, mis on koondatud üksuse kauplusse, mis on analüüsimiseks optimeeritud Microsoft SQL Server i andmebaas. Lisateavet vt teemast [Power BI integratsioon üksuse kauplusega](power-bi-integration-entity-store.md).
 
 Järgmiste objektide peamisi koondmõõtmisi kasutatakse Power BI sisu alusena.
 
-| Objekt                          | Peamised koondmõõtmised | Finance and Operationsi andmeallikas | Field               |
+| Objekt                          | Peamised koondmõõtmised | Finance and Operations i andmeallikas | Field               |
 |---------------------------------|----------------------------|----------------------------------------|---------------------|
 | CostObjectStatementCacheMonthly | Summa                     | CostObjectStatementCache               | Summa              |
 | CostObjectStatementCacheMonthly | Kogus                   | CostObjectStatementCache               | Kogus                 |
@@ -186,16 +179,16 @@ Järgmises tabelis on toodud peamised arvutatud mõõtmised Power BI sisus.
 
 | Mõõt                            | Kalkulatsioon |
 |------------------------------------|-------------|
-| Algsaldo                  | Algsaldo = \[Lõppsaldo\]-\[Netomuutus\] |
-| Koguse algsaldo             | Koguse algsaldo = \[Lõppsaldo kogus\]-\[Netomuutuse kogus\] |
-| Lõppsaldo                     | Lõppsaldo = (CALCULATE(SUM(\[Summa\]), FILTER(ALL(FiscalCalendar) ,FiscalCalendar\[MONTHSTARTDATE\] \<= MAX(FiscalCalendar\[MONTHSTARTDATE\])))) |
-| Koguse lõppsaldo                | Koguse lõppsaldo = CALCULATE(SUM(\[QTY\]), FILTER(ALL(FiscalCalendar),FiscalCalendar\[MONTHSTARTDATE\] \<= MAX(FiscalCalendar\[MONTHSTARTDATE\]))) |
-| Netomuutus                         | Netomuutus = SUM(\[AMOUNT\]) |
-| Koguse netomuutuse                    | Netomuutuse kogus = SUM(\[QTY\]) |
-| Lao ringluskiirus summa järgi | Lao ringluskiirus summa järgi = if(OR(\[Varude keskmine saldo\] \<= 0, \[Inventory sold or consumed issues\] \>= 0, Müüdud või tarbitud varude väljaminekud = 0), 0, ABS(\[Müüdud või tarbitud varude väljaminekud\])/\[Varude keskmine saldo\]) |
-| Varude keskmine saldo          | Varude keskmine saldo = ((\[Lõppsaldo\] + \[Algsaldo\]) / 2) |
-| Vaba kaubavaru hoidmise päevad             | Vaba kaubavaru hoidmise päevad = 365 / CostObjectStatementEntries\[Lao ringluskiirus summa järgi\] |
-| Varude täpsus                 | Varude täpsus summa alusel = IF(\[Lõppsaldo\] \<= 0, IF(OR(\[Inventory counted amount\] \<\> 0, \[Lõppsaldo\] \< 0), 0, 1), MAX(0, (\[Lõppsaldo\] - ABS(\[Varude loetud summa\]))/\[Lõppsaldo\])) |
+| Algsaldo                  | Algsaldo = \[ Lõppsaldo\]-\[ Netomuutus\] |
+| Koguse algsaldo             | Koguse algsaldo = \[ Lõppsaldo kogus\]-\[ Netomuutuse kogus\] |
+| Lõppsaldo                     | Lõppsaldo = (CALCULATE(SUM(\[ Summa\]), FILTER(ALL(FiscalCalendar) ,FiscalCalendar\[ MONTHSTARTDATE\] \<= MAX(FiscalCalendar\[ MONTHSTARTDATE\])))) |
+| Koguse lõppsaldo                | Koguse lõppsaldo = CALCULATE(SUM(\[ QTY\]), FILTER(ALL(FiscalCalendar),FiscalCalendar\[ MONTHSTARTDATE\] \<= MAX(FiscalCalendar\[ MONTHSTARTDATE\]))) |
+| Netomuutus                         | Netomuutus = SUM(\[ AMOUNT\]) |
+| Koguse netomuutuse                    | Netomuutuse kogus = SUM(\[ QTY\]) |
+| Lao ringluskiirus summa järgi | Lao ringluskiirus summa järgi = if(OR(\[ Varude keskmine saldo\] \<= 0, \[Inventory sold or consumed issues\] \>= 0, Müüdud või tarbitud varude väljaminekud = 0), 0, ABS(\[ Müüdud või tarbitud varude väljaminekud\])/\[ Varude keskmine saldo\]) |
+| Varude keskmine saldo          | Varude keskmine saldo = ((\[ Lõppsaldo\] + \[ Algsaldo\]) / 2) |
+| Vaba kaubavaru hoidmise päevad             | Vaba kaubavaru hoidmise päevad = 365 / CostObjectStatementEntries\[ Lao ringluskiirus summa järgi\] |
+| Varude täpsus                 | Varude täpsus summa alusel = IF(\[ Lõppsaldo\] \<= 0, IF(OR(\[Inventory counted amount\] \<\> 0, \[ Lõppsaldo\] \< 0), 0, 1), MAX(0, (\[ Lõppsaldo\] - ABS(\[ Varude loetud summa\]))/\[ Lõppsaldo\])) |
 
 Järgmisi põhidimensioone kasutatakse filtritena koondmõõtmiste tükeldamiseks suurema granulaarsuse saavutamiseks ja sügavama analüütilise ülevaate andmiseks.
 
@@ -207,3 +200,6 @@ Järgmisi põhidimensioone kasutatakse filtritena koondmõõtmiste tükeldamisek
 | Juriidilised isikud                                          | Juriidilise isiku nimed                              |
 | Rahandussaasta kalendrid                                        | Rahanduskalender, aasta, kvartal, periood, kuu   |
 | Sait                                                    | ID, nimi, aadress, maakond, riik               |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

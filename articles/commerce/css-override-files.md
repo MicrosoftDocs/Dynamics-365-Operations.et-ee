@@ -2,36 +2,30 @@
 title: CSS-i alistamisfailidega töötamine
 description: See teema kirjeldab miks, millal ja kuidas kasutada Cascading Style Sheet (CSS) alistamisfaile rakendusega Microsoft Dynamics 365 Commerce.
 author: phinneyridge
-manager: annbe
 ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-12-12
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 3ec43b16b1df07400cffe597378ad4035e4d07e0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 6788481936a54bff32096dba1d0424fc52c669e4
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411677"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964600"
 ---
 # <a name="work-with-css-override-files"></a>CSS-i alistamisfailidega töötamine
-
 
 [!include [banner](includes/banner.md)]
 
 See teema kirjeldab miks, millal ja kuidas kasutada Cascading Style Sheet (CSS) alistamisfaile rakendusega Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Ülevaade
 
 Püsiva tegevuskoha laade peaks tavaliselt käsitlema saidi kujunduse kaudu. Kujundused annavad teie saidi mis tahes leheküljel olevate moodulite jaoks CSS aluselise ja stiili sätted. Kujundused luuakse Dynamics 365 Commerce’i veebitarkvara arenduse komplekti (SDK) abil ja need viiakse teie veebisaitide juurde teenuse Microsoft Dynamics Lifecycle Services (LCS) kaudu. Kujunduse silumise võimalused ja mooduli liidese konfiguratsioonid SDK-spikri saidi arendajatel loovad kohandatavad ja sidusad saidi kujunduse paketid. Kui need kujunduse paketid on saidile paigutatud, saavad saidi autorid keskenduda saidi arendamise asemel sisu loomisele, redigeerimisele ja avaldamisele.
 
@@ -107,10 +101,11 @@ Oma saidil CSS-i alistamisfaili desaktiveerimiseks toimige järgmiselt.
 
 [Leheikooni lisamine](add-favicon.md)
 
-[Tervitussõnumi lisamine](add-welcome-message.md)
-
 [Autoriõiguste teatise lisamine](add-copyright-notice.md)
 
 [Saidile keelte lisamine](add-languages-to-site.md)
 
 [Telemeetria toetamiseks saidile skriptikoodi lisamine](add-telemetry.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

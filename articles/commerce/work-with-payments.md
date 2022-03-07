@@ -2,16 +2,13 @@
 title: Makseviisid kõnekeskustes
 description: Selles teemas kirjeldatakse erinevaid makseviise, mida saate Dynamics 365 Commercei kõnekeskuses kasutada.
 author: josaw1
-manager: AnnBe
 ms.date: 03/28/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: MCRSalesTableOrderHistory, MCRCCAuthManagement
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 92163
 ms.assetid: 8e738907-870b-466c-ab0c-07f4a4aa47f3
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: e7636f5c664634c680edf2ff9d8bae5ebb9035af
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f7ab0aadb9ef99e2a8f7263434ddbc2f4813926a
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411689"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027428"
 ---
 # <a name="payment-methods-in-call-centers"></a>Makseviisid kõnekeskustes
 
@@ -52,4 +49,7 @@ Makseviiside määratlemisel tuleb need siduda pearaamatu või pangakontoga. Kui
 
 Tagasimakse töötlemise stsenaariumides kasutab kõnekeskus osasid makseviise, mis on määratletud valikus Müügireskontro. Nende makseviiside konfigureerimiseks avage **Jaemüük ja kaubandus** \> **Kanali häälestus** \> **Kõnekeskuse seadistamine** \> **Kõnekeskuse tagasimakseviisid**. Kliendi tagasimakse kontrollide töötlemiseks peate selle konfiguratsiooni lõpule viima. Näiteks, kui klient tasus algselt tellimuse eest sularahas või tšekiga, võib kasutaja soovida saata kliendile tagasimakse tšeki valiku Müügireskontro kaudu. Sel juhul tuleb sularaha ja tšekiga makseviisid kõnekeskuses vastendada õige makseviisiga valikus Müügireskontro, et tagada, et tagasimakse töödeldakse õigesti.
 
-Lisaks, kui kasutaja töötleb tagastustellimust kõnekeskuse kasutajana rakenduses Commerce, kuid ta ei saa tagastust siduda algse müügiga, tuleb kõnekeskuse parameetrites määratleda makseviis **Tagastus**. Avage **Jaemüük ja kaubandus** \> **Kanali häälestus** \> **Kõnekeskuse seadistamine** \> **Kõnekeskuse parameetrid** ja seejärel vahekaardil **RMA/Tagastus** väljal **Makseviis** veenduge, et makseviis oleks määratletud. See makseviisi on makseviis, mida kasutatakse tagastuste tegemiseks. Tavaliselt on see määratletud tšeki meetodi või kliendikonto meetodina.
+Lisaks, kui kasutaja töötleb tagastustellimust kõnekeskuse kasutajana rakenduses Commerce, kuid ta ei saa tagastust siduda algse müügiga, tuleb kõnekeskuse parameetrites määratleda makseviisiks **Tagastus**. Avage **Jaemüük ja kaubandus** \> **Kanali häälestus** \> **Kõnekeskuse seadistamine** \> **Kõnekeskuse parameetrid** ja seejärel vahekaardil **RMA/Tagastus** väljal **Makseviis** veenduge, et makseviis oleks määratletud. See makseviisi on makseviis, mida kasutatakse tagastuste tegemiseks. Tavaliselt on see määratletud tšeki meetodi või kliendikonto meetodina.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

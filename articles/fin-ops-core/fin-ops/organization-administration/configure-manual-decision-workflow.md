@@ -2,11 +2,9 @@
 title: Töövoos käsitsi otsuste konfigureerimine
 description: See teema selgitab, kuidas konfigureerida käsitsi otsuse atribuute.
 author: ChrisGarty
-manager: AnnBe
 ms.date: 06/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d351facbce02355ddb4bdf91d43d9df561e4f3b5
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 8bfe14dc96c2e20f06594808bc45a82699465bb2ab61328b1b22b663db49d98f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798848"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6754926"
 ---
 # <a name="configure-manual-decisions-in-a-workflow"></a>Töövoos käsitsi otsuste konfigureerimine
 
@@ -350,3 +348,6 @@ Kui otsus tuleb teha teatud ajaks, tehke järgmist.
     - **Aastad** – valige päev, nädal ja kuu, mis ajaks kasutaja peab otsuse tegema. Näiteks soovite võib-olla, et otsus oleks tehtud detsembri kolmanda nädala reedeks.
 
 4. Ajalimiidi ületamisel langetab otsuse süsteem. Loendist **Tegevus** valige suvand, mille süsteem peaks valima.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

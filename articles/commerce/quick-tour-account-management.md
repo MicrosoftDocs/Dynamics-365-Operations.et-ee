@@ -2,11 +2,9 @@
 title: Kontohalduse lehtede ülevaade
 description: See teema annab ülevaate kontohalduse lehtedest rakenduses Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,20 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e194004476545fb142f71aa4bd889dbbc70c6ed4
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: dc4ae56be1740f0160b4e4777f8db93a6bc4e704
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969847"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5792263"
 ---
 # <a name="account-management-pages-overview"></a>Kontohalduse lehtede ülevaade
 
 [!include [banner](includes/banner.md)]
 
 See teema annab ülevaate kontohalduse lehtedest rakenduses Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Ülevaade
 
 Kontohalduse lehed võimaldavad klientidel vaadata teavet, mis on seotud nende konto ja tellimustega. Kontohalduse lehed hõlmavad kontohalduse sihtlehte ja lehti, mis on seotud kasutaja profiili, aadresside, tellimuste ajaloo, tellimuste üksikasjade, püsikliendi punktide ja soovinimekirjadega.
 
@@ -95,3 +91,6 @@ Lisateavet kontohalduse moodulite ja nende autori kohta vt jaotisest [Kontohaldu
 
 [Ostukorvi ja väljaregistreerimise ülevaade](quick-tour-cart-checkout.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

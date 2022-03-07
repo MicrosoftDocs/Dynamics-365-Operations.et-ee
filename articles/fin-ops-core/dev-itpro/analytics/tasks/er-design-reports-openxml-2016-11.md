@@ -1,12 +1,10 @@
 ---
 title: Elektrooniline aruandlus. OPENXML-vormingus aruannete loomiseks konfiguratsiooni koostamine (november 2016)
-description: See teema selgitab, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rollis olev kasutaja saab luua uue elektroonilise aruandluse (ER) konfiguratsiooni, mis sisaldab malli elektrooniliste dokumentide genereerimiseks OPENXML-vormingus.
+description: Selles teemas kirjeldatakse, kuidas luua uut elektroonilise aruandluse konfiguratsiooni, mis sisaldab malli elektrooniliste dokumentide OPENXML-vormingus loomiseks.
 author: NickSelin
-manager: AnnBe
-ms.date: 08/12/2019
+ms.date: 04/23/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERVendorPart, ERSolutionRepositoryTable, ERSolutionRepositoryCreateDropDialog, ERSolutionImport,  ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERDataSourceAddDropDialog, ERModelGroupByFunctionEditor, VendPaymMode, LedgerJournalTable, LedgerJournalTransVendPaym
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bf909efbac5dce8e22d9713ad2e694ce624ffeb0
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: c3dfe6ce9c918b5fccbd7097096fa359facdf41bbf6fd0fab6c61153171484cd
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681897"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6753024"
 ---
 # <a name="er-design-a-configuration-for-generating-reports-in-openxml-format-november-2016"></a>Elektrooniline aruandlus. OPENXML-vormingus aruannete loomiseks konfiguratsiooni koostamine (november 2016)
 
@@ -30,7 +28,7 @@ See teema selgitab, kuidas süsteemiadministraatori või elektroonilise aruandlu
 
 Selles näites loote konfiguratsiooni näidisettevõttele Litware, Inc. Neid etappe saab teha ka GBSI ettevõttes.
 
-Etappide lõpuleviimiseks, peate esmalt läbima teemas „Pakkuja konfiguratsiooni loomine ning aktiivseks märkimine” kirjeldatudetapid. Samuti peab teil olema Exceli fail, mis imporditakse malli loomisel. Sellele failile pääseb juurde [Maksearuande mallist](https://go.microsoft.com/fwlink/?linkid=862266).
+Etappide lõpuleviimiseks, peate esmalt läbima teemas „Pakkuja konfiguratsiooni loomine ning aktiivseks märkimine” kirjeldatudetapid. Samuti peab teil olema Exceli fail, mis imporditakse malli loomisel. Sellele failile pääseb juurde [Maksearuande mallist](https://download.microsoft.com/download/3/f/0/3f0658b2-042c-43cf-a776-0f4c7f7cfe4e/SampleVendPaymWsReport.xlsx).
 
 
 ## <a name="upload-the-payments-data-model-configuration"></a>Makse andmemudeli konfiguratsiooni üleslaadimine
@@ -150,3 +148,6 @@ Etappide lõpuleviimiseks, peate esmalt läbima teemas „Pakkuja konfiguratsioo
 17. Kirjutage välja **Pangakonto** järgmist: `GBSI OPER`.
 18. Valige **OK** ja seejärel taas **OK**. Vaadake loodud tööleht üle, sh makseridade üksikasjad kui ka selles makseteates kasutatud iga valuutakoodi summad.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

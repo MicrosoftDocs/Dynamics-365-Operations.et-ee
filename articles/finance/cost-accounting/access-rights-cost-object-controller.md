@@ -2,16 +2,13 @@
 title: Kuluobjekti kontrollerite pääsuõigused
 description: See teema käsitleb kuluobjekti kontrollijate pääsuõigusi.
 author: AndersGirke
-manager: AnnBe
 ms.date: 06/24/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMCostControlWorkspace, CAMParameters
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: fd1ed875e5c6e3f8ada3b13ea8cc05f98526691d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: c30a7c2765647aad17a475ba8705b8e688d166593adf242fcd15d90e49334189
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442399"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6733025"
 ---
 # <a name="access-rights-for-cost-object-controllers"></a>Kuluobjekti kontrollerite pääsuõigused
 
@@ -65,9 +62,8 @@ Järgmine näide on selle kohta, milline dimensioonihierarhia välja võib näha
 
 Võite kasutada hierarhiakujundajas kiirkaarti **Kasutajad** vähemalt ühe kasutaja ID sisestamiseks igasse sõlme.
 
-|                                   | Kasutajad            | Dimensiooniliikmete vahemikud   |                         |
+|             Sõlmpunktid                 | Kasutajad            | Dimensiooniliikmest     |   Dimensiooniliikmeni   |
 |-----------------------------------|------------------|---------------------------|-------------------------|
-| **Sõlmed**                         | **Kasutaja ID**      | **Lähtedimensiooni liige** | **Sihtdimensiooni liige** |
 | Organisatsioon                      | Benjamin, Claire |                           |                         |
 | &nbsp;&nbsp;Administraator                 | aprill            |                           |                         |
 | &nbsp;&nbsp;&nbsp;&nbsp;Finantsid   | Alicia           | CC002                     | CC003                   |
@@ -92,17 +88,20 @@ Juurdepääsuloendi hierarhia sätteid kasutatakse järgmistel aladel kuvatavate
 
     - Saldod kaartidel
 
-- Microsoft Power BI:
+- Rakendus Microsoft Power BI:
 
     - Power BI visualiseeringutel kuvatavad andmed
     - Dynamics 365 Financei klientrakendusse manustatud Power BI andmevisualiseeringud
 
 > [!IMPORTANT]
-> - Enne kui juurdepääsuloendi hierarhia saab Power BI-s olevaid andmeid mõjutada, tuleb juurdepääsuloendi hierarhia ja rea tasemel turve Power BI-s siduda. Lisateavet leiate teemast [Kuluarvestuse sisupaketi jaoks turbe seadistamine](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
+> - Enne kui juurdepääsuloendi hierarhia saab Power BI-s olevaid andmeid mõjutada, tuleb juurdepääsuloendi hierarhia ja rea tasemel turve Power BI-s siduda. Lisateavet leiate teemast [Kuluarvestuse sisupaketi jaoks turbe seadistamine](../../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
 > - Selles teemas näidatakse eeltingimusi, mis peavad olema täidetud enne **kulude juhtimise** tööruumi kasutamist.
 
 Lisaressursid
 
 - [Kulujuhtimise tööruum](cost-control-workspace.md)
 - [Dimensioonihierarhia](dimension-hierarchy.md)
-- [Kuluarvestuse sisupaketi turbe seadistamine](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md)
+- [Kuluarvestuse sisupaketi turbe seadistamine](../../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

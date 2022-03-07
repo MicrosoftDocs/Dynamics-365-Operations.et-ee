@@ -2,11 +2,9 @@
 title: Toimingud töövoo kinnitusprotsessides
 description: Selles artiklis selgitatakse toiminguid, mida iga osaleja saab töövoo kinnitusprotsessis teha.
 author: ChrisGarty
-manager: AnnBe
 ms.date: 08/23/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -16,22 +14,25 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e622f9a0a50cd6c5dbcbaf9cd5d56b691232c849
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
-ms.translationtype: HT
+ms.openlocfilehash: 2e546dc57692e31d4501984dafa21fbae23a48fe
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797598"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070929"
 ---
 # <a name="actions-in-workflow-approval-processes"></a>Toimingud töövoo kinnitusprotsessides
 
 [!include [banner](../includes/banner.md)]
 
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
+
 Selles artiklis selgitatakse toiminguid, mida iga osaleja saab töövoo kinnitusprotsessis teha.
 
 Töövoog võib hõlmata mitut inimeste gruppi: algataja, ülesandes osalejad, otsustajad ja kinnitajad. Näiteks järgmises kuluaruande töövoos on Sam algataja, järjekorra liikmed on ülesandes osalejad, John on otsustaja ning Frank, Sue ja Ann on kinnitajad.
 
-[![Töövoog\_WithManualDecision](./media/workflow_withmanualdecision.gif)](./media/workflow_withmanualdecision.gif)
+[![Töövoog\_ManuaalseOtsusega.](./media/workflow_withmanualdecision.gif)](./media/workflow_withmanualdecision.gif)
 
 Järgmistes jaotistes selgitatakse töövoo toiminguid, mida iga grupp saab teha.
 
@@ -141,3 +142,6 @@ Kui kinnitaja taotleb dokumendi muutmist, saadetakse dokument tagasi algatajale.
 Näiteks Sam on esitanud kuluaruande väärtuses USD 12 000 ja see dokument on määratud Suele. Kui Sue soovib muutmist, saadetakse kuluaruanne tagasi Samile.
 
 Sam saab kuluaruande uuesti esitada. Ta võib teha esmalt soovitud muudatused või edastada uuesti kuluaruande algse versiooni. Kui Sam taasesitab kuluaruande, saadetakse see Frankile kinnitamiseks, sest Frank on selle kinnitamisprotsessi esimene kinnitaja.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,26 +2,23 @@
 title: Põhivara käibelt kõrvaldamine vabas vormis arve abil
 description: Siin peatükis selgitatakse, kuidas hankida põhivarade töölehe põhivara soetamise soovituse abil.
 author: saraschi2
-manager: AnnBe
 ms.date: 08/19/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetTable, AssetBook, LedgerJournalTable, LedgerJournalTransAsset, SysQueryForm
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7014e3a4384e08b0c218585a3c2110243360ec08
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 0466ef3e3077b194cb2855153192567b0f1b94a930d7744d966f633d66c5bb09
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442362"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6742973"
 ---
 # <a name="dispose-of-a-fixed-asset-using-a-free-text-invoice"></a>Põhivara käibelt kõrvaldamine vabas vormis arve abil
 
@@ -41,3 +38,6 @@ Siin peatükis selgitatakse, kuidas käibelt kõrvaldada põhivara vabas vormis 
 10. Sisestage väärtus välja **Põhivara** või valige sealne väärtus.
 11. Valige **Sisesta**. 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

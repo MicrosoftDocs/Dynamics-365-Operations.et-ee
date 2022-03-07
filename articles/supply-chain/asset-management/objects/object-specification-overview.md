@@ -1,12 +1,10 @@
 ---
 title: Vara atribuudi ülevaade
 description: Selles teemas kirjeldatakse vara atribuute varahalduses.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetObjectAttributeOverview
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a092fac4f1b8648c2c93791f1c5efb90708c44e2
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: db3dc6c89b5c12a4144a6c080540bfcb6d6bdaa2
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5020175"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5821677"
 ---
 # <a name="asset-attribute-overview"></a>Vara atribuudi ülevaade
 
@@ -39,3 +37,6 @@ Lehel **Vara atribuudi ülevaade** kuvatakse iga vara kohta eraldi rida. Real ku
 3. Valige nupp **OK**. Loendis kuvatakse kõik varad, mis kasutavad valitud vara tüüpi. Iga vara puhul kuvatakse kõik seotud vara atribuutide tüübid samal real.
 
 Lehel **Vara atribuut** kuvatakse iga vara tüübi kohta eraldi rida, mida kasutatakse vara puhul. Valige **Varahaldus**\>**Päringud**\>**Varad**\>**Vara atribuut**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

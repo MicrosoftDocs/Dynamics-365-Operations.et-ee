@@ -1,5 +1,5 @@
 ---
-title: Kontrollige, et topeltkirjutus oleks konfigureeritud Finance and Operationsi rakendustes ja Dataverse'is
+title: Kontrollige topeltkirjutuse konfiguratsiooni Finance and Operationsi rakendustes ja Dataverse’is
 description: Selles teemas selgitatakse, kuidas teha kindlaks, kas topeltkirjutus on konfigureeritud Finance and Operationsi rakendustes ja Dataverse'is.
 author: RamaKrishnamoorthy
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: f389bcf133cc7e6a086167d5e26c1b8795d0fa30
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 361d6555b60e02832c337b6f416b2b3627b6d365
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685535"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5129303"
 ---
-# <a name="verify-that-dual-write-is-configured-in-finance-and-operations-apps-and-dataverse"></a>Kontrollige, et topeltkirjutus oleks konfigureeritud Finance and Operationsi rakendustes ja Dataverse'is
+# <a name="verify-dual-write-configuration-in-finance-and-operations-apps-and-dataverse"></a>Kontrollige topeltkirjutuse konfiguratsiooni Finance and Operationsi rakendustes ja Dataverse’is
 
 [!include [banner](../../includes/banner.md)]
 
@@ -51,7 +51,7 @@ Lisateavet selle kohta, kuidas lahendada probleeme rakenduses Finance and Operat
 
 ## <a name="verify-that-dual-write-is-configured-in-dataverse"></a>Kontrollimine, kas topeltkirjutus on konfigureeritud Dataverse'is
 
-Kui andmete loomisel kuvatakse Dataverse'i lehtedel väli **Ettevõte**, on topeltkirjutus konfigureeritud.
+Kui andmete loomisel kuvatakse Dataverse’i lehtedel veerg **Ettevõte**, on topeltkirjutus konfigureeritud.
 
 ![Dataverse'i ühenduse kontrollimine](media/verify_cds.png)
 

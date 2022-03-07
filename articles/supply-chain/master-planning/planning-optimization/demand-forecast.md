@@ -2,16 +2,13 @@
 title: Koondplaneerimine koos nõudluse prognoosidega
 description: Selles teemas selgitatakse, kuidas kaasata nõudluse prognoose koondplaneerimise ajal planeerimise optimeerimise kaudu.
 author: ChristianRytt
-manager: tfehr
 ms.date: 12/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: MpsIntegrationParameters, MpsFitAnalysis
+ms.search.form: ReqPlanSched, ReqGroup, ReqReduceKey, ForecastModel
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 8b47aee41494394a32ffc0ea0c42a512e5051532
-ms.sourcegitcommit: b86576e1114e4125eba8c144d40c068025f670fc
-ms.translationtype: HT
+ms.openlocfilehash: cbac68b79b2a10f05e0e442d4f0aa716e5a04634
+ms.sourcegitcommit: ac23a0a1f0cc16409aab629fba97dac281cdfafb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4666718"
+ms.lasthandoff: 11/29/2021
+ms.locfileid: "7867243"
 ---
 # <a name="master-planning-with-demand-forecasts"></a>Koondplaneerimine koos nõudluse prognoosidega
 
@@ -89,9 +86,9 @@ Kui kaasate koondplaani eelarve, saate valida, kuidas vähendatakse eelarvevajad
 
 Selleks, et eelarve koondplaani kaasata ja eelarvevajaduste vähendamise meetod valida, valige **Koondplaneerimine \> Seadistus \> Plaanid \> Koondplaanid**. Valige väljal **Eelarvemudel** sobiv eelarvemudel. Valige väljal **Eelarvevajaduste vähendamiseks kasutatav meetod** sobiv meetod. Valikud on järgmised:
 
-- None
+- Puudub
 - Protsent – planeerimise koefitsient
-- Kanded – planeerimise koefitsient (pole veel planeerimise optimeerimise korral toetatud)
+- Kanded – planeerimise koefitsient
 - Kanded – dünaamiline periood
 
 Järgmised jaotised annavad iga suvandi kohta lisateavet.
@@ -140,32 +137,85 @@ Kui käivitate sellisel juhul eelplaneerimise 1. jaanuaril, tarbitakse nõudluse
 
 #### <a name="transactions--reduction-key"></a>Kanded – planeerimise koefitsient
 
-Kui valite suvandi **Kanded – planeerimise koefitsient**, siis vähendatakse eelarvevajadusi planeerimise koefitsiendiga määratud perioodide jooksul toimuvate kannete kohaselt.
+Kui seate välja **Eelarvenõuded vähendamiseks kasutatava meetodi** väärtuseks *Kanded – vähendamise klahv* vähendatakse eelarve vajadusi kvalifitseeritud nõudluse kannete võrra, mis toimuvad vähendamisvõtmega määratletud perioodidel.
+
+Kvalifitseeritud nõudluse määratleb **Vähenda lprognoosi** väli **Katvusgrupid** leht. Kui seate **Vähenda prognoosi** välja seadeks *Tellimused*, ainult müügitellimuse kanded kvalifitseeritud nõudluseks. Kui seadistate selle *Kõigile kannetele*, peetakse kõiki mitte kontsernisiseseid väljamineku laokandeid kvalifitseeritud nõudluseks. Kui prognoosi vähendamisel tuleks kaasata kontsernisisesed tellimused, seadke suvandi **Kaasa kontsernisisesed tellimused väärtuseks** väärtuseks *Jah*.
+
+Prognoosi vähendamine algab nõudluse esimese (varaseima) prognoosi kirjega vähendamisest võtme perioodil. Kui kvalifitseeritud laokannete kogus on suurem kui nõudluse prognoosi ridade kogus samas vähendamise võtme perioodis, kasutatakse laokannete koguse saldot nõudluse prognoosi koguse vähendamiseks eelmises perioodis (kui on kinnitamata prognoos).
+
+Kui eelmisesse vähendusvõtme perioodi ei ole jäänud ühtegi kinnitamata eelarvet, kasutatakse laokannete koguse saldot eelarve koguse vähendamiseks järgmisel kuul (kui prognoosi pole kokkuleppinud).
+
+**Protsendi** välja väärtus kui **eelarvenõuete vähendamiseks kasutatava meetodi** väli on seatud väärtusele *Kanded – vähendamisvõti*. Vähendusvõtme perioodi määratlemiseks kasutatakse ainult kuupäevi.
+
+> [!NOTE]
+> Kõiki tänasele kuupäevale või enne seda sisestatud eelarvet ignoreeritakse ja seda ei kasutata plaanitud tellimuste loomiseks. Näiteks kui teie kuu nõudluse prognoos on loodud 1. jaanuaril ja te käivitate koondplaanimise, mis hõlmab nõudluse prognoosi 2. jaanuaril, ignoreerib kalkulatsioon nõudluse prognoosi rida, mille kuupäev on 1. jaanuar.
 
 ##### <a name="example-transactions--reduction-key"></a>Näide: valik Kanded – planeerimise koefitsient
 
 See näide selgitab, kuidas vähendavad planeerimise koefitsiendiga määratletud perioodide ajal tehtavad tegelikud tellimused nõudluse prognoosi nõudeid.
 
-Selle näite jaoks valige lehe **Koondplaanid** väljal **Eelarvevajaduste vähendamiseks kasutatav meetod** suvand **Kanded – planeerimise koefitsient**.
+[![Tegelikud tellimused ja prognoosid enne koondplaneerimise käivitamist.](media/forecast-reduction-keys-1-small.png)](media/forecast-reduction-keys-1.png)
 
-1. jaanuaril on olemas järgmised müügitellimused.
+Selle näite jaoks valige lehe *Koondplaanid* väljal **Eelarvevajaduste vähendamiseks kasutatav meetod** suvand **Kanded – planeerimise koefitsient**.
 
-| Kuu    | Tellitud tükkide arv |
-|----------|--------------------------|
-| Jaanuar  | 956                      |
-| Veebruar | 1,176                    |
-| Märts    | 451                      |
-| Aprill    | 119                      |
+1. aprillil on olemas järgmised nõudluse prognoosi read.
 
-Kui kasutate sama nõudluse prognoosi (1000 tk kuus), mida kasutati eelmises näites, kantakse koondplaani üle järgmised vajaduse kogused.
+| Kuupäev     | Prognoositud tükkide arv |
+|----------|-----------------------------|
+| 5. aprill  | 100                         |
+| 12. aprill | 100                         |
+| 19. aprill | 100                         |
+| 26. aprill | 100                         |
+| 3. mai    | 100                         |
+| 10. mai   | 100                         |
+| 17. mai   | 100                         |
 
-| Kuu                | Vajalik tükkide arv |
-|----------------------|---------------------------|
-| Jaanuar              | 44                        |
-| veebruar             | 0                         |
-| märts                | 549                       |
-| aprill                | 881                       |
-| Mai kuni detsember | 1000                     |
+Järgmised müügitellimuse read on aprillis olemas.
+
+| Kuupäev     | Taotletud tükkide arv |
+|----------|----------------------------|
+| 27. aprill | 240                        |
+
+[![Aprilli tellimuste põhjal loodud plaanitud tarne.](media/forecast-reduction-keys-2-small.png)](media/forecast-reduction-keys-2.png)
+
+Koondplaanimise käivitamisel 1. aprillil kantakse koondplaani üle järgmised vajaduse kogused. Nagu näete, vähendati aprilli eelarvekandeid järjest 240 nõudluse koguse võrra, alustades esimesest nimetatud kandest.
+
+| Kuupäev     | Vajalik tükkide arv |
+|----------|---------------------------|
+| 5. aprill  | 0                         |
+| 12. aprill | 0                         |
+| 19. aprill | 60                        |
+| 26. aprill | 100                       |
+| 27. aprill | 240                       |
+| 3. mai    | 100                       |
+| 10. mai   | 100                       |
+| 17. mai   | 100                       |
+
+Oletame nüüd, et maiks imporditi uued tellimused.
+
+Järgmised müügitellimuse read on mais olemas.
+
+| Kuupäev   | Taotletud tükkide arv |
+|--------|----------------------------|
+| 4. mai  | 80                         |
+| 11. mai | 130                        |
+
+[![Aprilli ja mai tellimuste põhjal loodud plaanitud tarne.](media/forecast-reduction-keys-3-small.png)](media/forecast-reduction-keys-3.png)
+
+Koondplaanimise käivitamisel 1. aprillil kantakse koondplaani üle järgmised vajaduse kogused. Nagu näete, vähendati aprilli eelarvekandeid järjest 240 nõudluse koguse võrra, alustades esimesest nimetatud kandest. Siiski, mai prognoosikandeid vähendati aga kokku 210 võrra, alustades esimesest mai nõudluse prognoosi kandest. Kuid, perioodi kogusummad säilitatakse (400 aprillis ja 300 mais).
+
+| Kuupäev     | Vajalik tükkide arv |
+|----------|---------------------------|
+| 5. aprill  | 0                         |
+| 12. aprill | 0                         |
+| 19. aprill | 60                        |
+| 26. aprill | 100                       |
+| 27. aprill | 240                       |
+| 3. mai    | 0                         |
+| 4. mai    | 80                        |
+| 10. mai   | 0                         |
+| 11. mai   | 130                       |
+| 17. mai   | 90                        |
 
 #### <a name="transactions--dynamic-period"></a>Kanded – dünaamiline periood
 
@@ -250,7 +300,7 @@ Seega luuakse järgmised plaanitud tellimused.
 Meetodites **Kanded – planeerimise koefitsient** ja **Protsent – planeerimise koefitsient** kasutatakse eelarvevajaduste vähendamiseks eelarve planeerimise koefitsienti. Järgige neid samme, et luua ja seadistada planeerimise koefitsienti.
 
 1. Valige **Koondplaneerimine \> Seadistus \> Laovarud \> Planeerimise koefitsiendid**.
-2. Planeerimise koefitsiendi loomiseks valige käsk **Uus** või vajutage klahve **Ctrl + N**.
+2. Valige uue planeerimise koefitsiendi loomiseks **Uus**.
 3. Sisestage väljale **Planeerimise koefitsient** eelarve planeerimise koefitsiendi jaoks kordumatu identifikaator. Seejärel sisestage nimi väljal **Nimi**. 
 4. Määratlege iga perioodi jaoks perioodid ja planeerimise koefitsiendi protsent.
 
@@ -266,11 +316,78 @@ Planeerimise koefitsient peab olema määratud kauba laovarude grupile. Järgige
 2. Valige kiirkaardi **Muud** väljal **Planeerimise koefitsient** planeerimise koefitsient, mida laovarude grupile määrata. Planeerimise koefitsient rakendub seejärel kõikidele kaupadele, mis sellesse laovarude gruppi kuuluvad.
 3. Selleks, et kasutada planeerimise koefitsienti koondplaneerimise ajal prognoosi vähendamise arvutamiseks, peate määratlema selle sätte koondplaani eelarveplaani seadistuses. Minge ühele järgmistest asukohtadest.
 
-    - Koondplaneerimine \> Seadistus \> Plaanid \> Eelarveplaanid
-    - Koondplaneerimine \> Seadistus \> Plaanid \> Koondplaanid
+    - **Koondplaneerimine \> Seadistus \> Plaanid \> Eelarveplaanid**
+    - **Koondplaneerimine \> Seadistus \> Plaanid \> Koondplaanid**
 
 4. Valige lehe **Eelarveplaanid** või **Koondplaanid** kiirkaardi **Üldine** väljal **Eelarvevajaduste vähendamiseks kasutatav meetod** suvand **Protsent – planeerimise koefitsient** või **Kanded – planeerimise koefitsient**.
 
 ### <a name="reduce-a-forecast-by-transactions"></a>Eelarve vähendamine kannetega
 
 Kui valite eelarvevajaduste vähendamise meetodiks **Kanded – planeerimise koefitsient** või **Kanded – dünaamiline periood**, siis saate määrata, millised kanded eelarvet vähendavad. Valige lehe **Laovarude grupid** kiirkaardi **Muud** väljal **Prognoosi vähendamisalus:** suvand **Kõik kanded**, kui prognoosi peaks vähendama kõik kanded, või **Tellimused**, kui prognoosi peaks vähendama ainult müügitellimused.
+
+## <a name="forecast-models-and-submodels"></a>Prognoosimudelid ja alammudelid
+
+Selles jaotises kirjeldatakse, kuidas luua prognoosimudeleid ja kuidas alammudelite seadistamisega mitut prognoosimudelit kombineerida.
+
+*Prognoosimudel* nimetab ja määratleb kindla prognoosi. Pärast prognoosimudeli loomist saate sellele lisada prognoosiridu. Mitme kauba prognoosiridade lisamiseks kasutage lehte **Nõudluse prognoosi read**. Konkreetse valitud kauba prognoosiridade lisamiseks kasutage lehte **Väljastatud tooted**.
+
+Prognoosimudel võib sisaldada muudest prognoosimudelitest pärit prognoose. Selle tulemuse saavutamiseks lisate ülemtaseme prognoosimudeli *alammudeliteks* muid prognoosimudeleid. Enne kui saate selle lisada ülemtaseme prognoosimudeli alammudelina, peate looma iga asjakohase mudeli.
+
+Tulemuseks saadav struktuur annab teile prognooside juhtimiseks võimsa viisi, sest see võimaldab teil kombineerida (koondada) mitmete üksikute prognooside sisendeid. Seetõttu on planeerimise vaatepunktist prognoose lihtne simulatsioonide jaoks kombineerida. Näiteks võite seadistada simulatsiooni, mis põhineb regulaarse prognoosi kombinatsioonil kevadkampaania prognoosiga.
+
+### <a name="submodel-levels"></a>Alammudeli tasemed
+
+Ülemtaseme prognoosimudelile lisatavate alammudelite arv ei ole piiratud. Struktuur võib siiski olla ainult üks tase sügav. See tähendab, et teise prognoosimudeli alammudeliks oleval prognoosimudelil ei saa olla oma alammudeleid. Kui lisate prognoosimudelile alammudeleid, kontrollib süsteem, kas see prognoosimudel on juba mõne muu prognoosimudeli alammudel.
+
+Kui koondplaneerimisel ilmneb alammudel, millel on oma alammudelid, saate tõrketeate.
+
+#### <a name="submodel-levels-example"></a>Alammudeli tasemete näide
+
+Prognoosimudelil A on alammudelina prognoosimudel B. Seetõttu ei saa prognoosimudelil B olla oma alammudeleid. Kui proovite lisada prognoosimudelile B alammudeli, kuvatakse järgmine tõrketeade: "Prognoosimudel B on mudeli A alammudel."
+
+### <a name="aggregating-forecasts-across-forecast-models"></a>Prognooside koondamine prognoosimudelite üleselt
+
+Samal päeval toimuvad prognoosiread koondatakse nende prognoosimudeli ja selle alammudelite alusel.
+
+#### <a name="aggregation-example"></a>Koondamise näide
+
+Prognoosimudelil A on alammudeliteks prognoosimudelid B ja C.
+
+- Prognoosimudel A sisaldab nõudluse prognoosi 2 tk kohta 15. juunil.
+- Prognoosimudel B sisaldab nõudluse prognoosi 3 tk kohta 15. juunil.
+- Prognoosimudel C sisaldab nõudluse prognoosi 4 tk kohta 15. juunil.
+
+Tulemuseks olev nõudluse prognoos on üks nõudlus 9 tk (2 + 3 + 4) järele 15. juunil.
+
+> [!NOTE]
+> Iga alammudel kasutab oma parameetreid, mitte ülemtaseme prognoosimudeli parameetreid.
+
+### <a name="create-a-forecast-model"></a>Prognoosimudeli loomine
+
+Prognoosimudeli loomiseks tehke järgmist.
+
+1. Avage **Koondplaneerimine \> Seadistus \> Nõudluse prognoos \> Prognoosimudelid**.
+1. Valige toimingupaanil nupp **Uus**.
+1. Seadke uue prognoosimudeli jaoks järgmised väljad:
+
+    - **Mudel** – sisestage mudeli kordumatu identifikaator.
+    - **Nimi** – sisestage mudeli kirjeldav nimi.
+    - **Peatatud** – tavaliselt tuleks selle suvandi väärtuseks seada *Ei*. Seadke selle väärtuseks *Jah* ainult juhul, kui soovite vältida kõigi sellele mudelile määratud prognoosiridade redigeerimist.
+
+    > [!NOTE]
+    > Väli **Kaasa likviidsuse planeerimisse** ja kiirkaardi **Projekt** väljad ei ole seotud koondplaneerimisega. Seetõttu võite neid selles kontekstis eirata. Neid tuleb arvestada ainult siis, kui töötate mooduli **Projektihaldus ja -arvestus** prognoosidega.
+
+### <a name="assign-submodels-to-a-forecast-model"></a>Alammudelite määramine prognoosimudelile
+
+Alammudelite määramiseks prognoosimudelile järgige neid samme.
+
+1. Valige **Laohaldus \> Seadistus \> Prognoos \> Prognoosimudelid**.
+1. Valige loendipaanil prognoosimudel, mille jaoks soovite alammudeli seadistada.
+1. Valige kiirkaardil **Alammudel** käsk **Lisa**, et lisada uus rida tabelisse.
+1. Määrake uuel real järgmised väljad.
+
+    - **Alammudel** – valige alammudelina lisamiseks prognoosimudel. See prognoosimudel peab juba olemas olema ja sellel ei tohi olla oma alammudeleid.
+    - **Nimi** – sisestage alammudeli kirjeldav nimi. Näiteks võib see nimi näidata alammudeli seost ülemtaseme prognoosimudeliga.
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

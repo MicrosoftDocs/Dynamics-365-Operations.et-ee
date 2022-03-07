@@ -2,27 +2,29 @@
 title: Kuidas töötajad kasutavad tootmisosakonna käivitusliidest
 description: Selles teemas kirjeldatakse, kuidas kasutada tootmisosakonna käivitusliidest töötaja vaatepunktist.
 author: johanhoffmann
-ms.date: 01/24/2022
+manager: tfehr
+ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: JmgProductionFloorExecution
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
-ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 086d05b4080015f6185a083ca20963539f76619f
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
-ms.translationtype: MT
+ms.dyn365.ops.version: Release 10.0.15
+ms.openlocfilehash: 4b89e911f3c6eb8ffa0cfe049ef9bfc2ed306021
+ms.sourcegitcommit: b7a7a14f8650913f6797ae1c4a82ad8adfe415fd
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075015"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "5077627"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Kuidas töötajad kasutavad tootmisosakonna käivitusliidest
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Tootmisosakonna käivitusliides on optimeeritud puudutusega suhtluseks. Selle kujundus annab visuaalse kontrasti, mis vastab tootmisjaoskonna juurdepääsetavuse nõuetele. See pakub samasuguseid funktsionaalseid võimalusi, nagu töökaardi seade. Kuid see võimaldab ka mitme töö paralleelset alustamist tööde loendis. (See võimalus on tuntud ka kui *töödekogum*.) Lisaks saavad töötajad avada tööde loendist avada juhendi, mis loodi Microsoft Dynamics 365 juhendis. Sedasi saavad nad visuaalseid HoloLensi juhiseid.
 
@@ -32,7 +34,7 @@ Enne kui töötajad võivad hakata seadet kasutama, peab järelevaataja või teh
 
 Kui seade on ette valmistatud, kuvatakse sellel sisselogimisleht. Sellel lehel kuvatakse teave kohaliku tööraku tööde oleku kohta. Seda teavet uuendatakse regulaarselt. Lehel kasutavad töötajad oma pääsme ID-sid allkirjastamiseks. Kuigi töötajatel ei pea olema Supply Chain Managementi kasutajakontot, peab neil olema *ajaliselt registreeritud töötaja* konto, mida nad saavad kasutada sisselogimisel.
 
-![Tootmisosakonna käivitusliidese sisselogimisleht.](media/pfei-sign-in-page.png "Tootmisosakonna käivitusliidese sisselogimisleht")
+![Tootmisosakonna käivitusliidese sisselogimisleht](media/pfei-sign-in-page.png "Tootmisosakonna käivitusliidese sisselogimisleht")
 
 Selle teema järgnevates jaotistes kirjeldatakse, kuidas töötajad liidesega suhtlevad.
 
@@ -40,7 +42,7 @@ Selle teema järgnevates jaotistes kirjeldatakse, kuidas töötajad liidesega su
 
 Vahekaardil **Kõik tööd** kuvatakse tööde loend, kus on kõik tootmistööd, mille olek on *Pole alustatud*, *Peatatud* või *Käivitatud*. (Selle vahekaardi nimi on kohandatav ja võib süsteemi jaoks erineda.)
 
-![Vahekaart Kõik tööd.](media/pfei-all-jobs-tab.png "Vahekaart Kõik tööd")
+![Vahekaart Kõik tööd](media/pfei-all-jobs-tab.png "Vahekaart Kõik tööd")
 
 Tööde loendis on järgmised veerud. Numbrid vastavad eelmisel joonisel kujutatud numbritele.
 
@@ -59,7 +61,7 @@ Tööde loendis on järgmised veerud. Numbrid vastavad eelmisel joonisel kujutat
 
 **Aktiivsete tööde** vahekaardid kuvavad kõikide tööde loendi, mida sisse logitud töötaja on juba alustanud. (Selle vahekaardi nimi on kohandatav ja võib süsteemi jaoks erineda.)
 
-![Vahekaart Aktiivsed tööd.](media/pfei-active-jobs-tab.png "Vahekaart Aktiivsed tööd")
+![Vahekaart Aktiivsed tööd](media/pfei-active-jobs-tab.png "Vahekaart Aktiivsed tööd")
 
 Aktiivsete tööde loendis on järgmised veerud.
 
@@ -76,7 +78,7 @@ Aktiivsete tööde loendis on järgmised veerud.
 
 Vahekaart **Minu masin** lubab töötajatel valida vara, mis on ühendatud masina ressursiga vahekaardil **Kõik tööd** seatud filtri sees. Siis saab töötaja vaadata valitud vara olekut ja seisundit, lugedes kuni nelja valitud loenduri ning viimaste hooldustaotluste ja registreeritud ületunnitöö väärtused. Töötaja saab nõuda ka valitud vara hooldust ning registreerida ja redigeerida masina töötunde. (Selle vahekaardi nimi on kohandatav ja võib süsteemi jaoks erineda.)
  
-![Vahekaart Minu masin.](media/pfei-my-machine-tab.png "Vahekaart Minu masin")
+![Vahekaart Minu masin](media/pfei-my-machine-tab.png "Vahekaart Minu masin")
 
 Vahekaardil **Minu masin** on järgmised veerud. Numbrid vastavad eelmisel joonisel kujutatud numbritele.
 
@@ -87,17 +89,18 @@ Vahekaardil **Minu masin** on järgmised veerud. Numbrid vastavad eelmisel jooni
 
 1. **Sätted** – valige hammasrattaikoon, et avada dialoogiboks, kus saate valida, milliseid loendureid valitud masina vara puhul vaadata. Nende loendurite väärtused kuvatakse vahekaardil **Varahaldus**. Menüü **Sätted** (kuvatakse järgmisel kuvatõmmisel) võimaldab teil lubada kuni neli loendurit. Iga lubatava loenduri puhul kasutage loenduri valimiseks paani ülaosas otsinguvälja. Otsinguväljal loetletakse kõik lehe **Varahaldus** ülaosas valitud varaga seotud loendurid. Määrake iga loendur nii, et see jälgiks kas **koondväärtust** või loenduri viimast **tegelikku** väärtust. Näiteks kui seadistate loenduri, mis jälgib, kui palju tunde on masin töötanud, peaksite selle seadistama väärtusele **Liidetud**. Kui määrate loenduri viimati uuendatud temperatuuri või rühu mõõtmiseks, peaksite selle häälestama väärtusele **Tegelik**. Valige **OK**, et salvestada oma sätted ja sulgeda dialoogiboks.
 
-    ![Vahekaardi Minu masin sätted.](media/pfei-my-machine-tab-settings.png "Vahekaarsi Minu masin sätted")
+    ![Vahekaart Minu masin](media/pfei-my-machine-tab-settings.png "Vahekaart Minu masin")
 
 1. **Hooldustaotlus** – valige see nupp dialoogiboksi avamiseks, kus saate luua hooldusnõude. Saate sisestada kirjelduse ja märkuse. Supply Chain Managementi kasutaja tähelepanu juhitakse sellele, kes siis saab seejärel teisendada hooldusnõude hooldustöötellimuseks.
 1. **Seisaku registreerimine** – valige see nupp, et avada dialoogiboks, kus saate registreerida masina seisuaja. Saate valida põhjuse koodi ja sisestada seisakule kuupäeva/ajavahemiku. Masina seisuaja registreerimist kasutatakse masina vara tõhususe arvutamiseks.
 1. **Vaatamine või redigeerimine** – valige see nupp, et avada dialoogiboks, kus saate redigeerida või vaadata olemasolevaid seisuaja kirjeid.
 
+
 ## <a name="starting-and-completing-production-jobs"></a>Tootmistööde alustamine ja lõpetamine
 
 Töötajad alustavad tootmistööd, valides töö vahekaardilt **Kõik tööd** ja valides seejärel suvandi **Käivita töö** dialoogiboksi **Alusta tööd** avamiseks.
 
-![Dialoogiboks Alusta tööd.](media/pfei-start-job-dialog.png "Dialoogiboks Alusta tööd")
+![Dialoogiboks Alusta tööd](media/pfei-start-job-dialog.png "Dialoogiboks Alusta tööd")
 
 Töötajad kasutavad dialoogiboksi **Alusta tööd**, et kinnitada tootmiskogus ja seejärel alustada tööd. Töötajad saavad kogust kohandada, valides välja **Kogus** ja kasutades seejärel kuvatavat numbriklahvistikku. Seejärel valivad töötajad töö alustamiseks **Alusta**. Dialoogiboks **Alusta tööd** suletakse ja töö lisatakse vahekaardile **Aktiivsed tööd**.
 
@@ -107,96 +110,13 @@ Töötajad saavad alustada tööd, mis on mis tahes olekus. Kui töötaja alusta
 
 Kui töötaja lõpetab või osaliselt lõpetab töö, saab ta teatada õige toodetud koguse, valides töö vahekaardil **Aktiivsed tööd** ja valides seejärel **Edenemisteabe esitamine**. Seejärel sisestab töötaja dialoogiboksis **Edenemisteabe esitamine** õige koguse numbriklahvistiku abil. Kogus on vaikimisi tühi. Pärast koguse sisestamist saab töötaja uuendada töö olekuks *Käimas*, *Peatatud* või *Lõpetatud*.
 
-![Dialoogiboks Edenemisteabe esitamine.](media/pfei-report-progress-dialog.png "Dialoogiboks Edenemisteabe esitamine")
-
-## <a name="reporting-good-quantities-on-batch-orders-that-have-co-products-and-by-products"></a>Headest kogustest teatamine partiitellimuste puhul, millel on kaas- ja kõrvalsaadused
-
-Töötajad saavad kasutada partiitellimuste edenemisest teatamiseks tootmispõranda täitmisliidest. See aruandlus hõlmab kaas- ja kõrvalsaaduste aruandlust.
-
-Mõned tootjad, eriti töötlevas tööstuses, kasutavad oma tootmisprotsesside haldamiseks partiitellimusi. Partiitellimused luuakse valemitest ja neid valemeid saab määratleda nii, et nende väljundiks on kaas- ja kõrvalsaadused. Kui nende partiitellimuste kohta antakse tagasisidet, tuleb toodangu kogus registreerida valemiartiklile ning ka kaas- ja kõrvalsaadustele.
-
-Kui töötaja lõpetab partiitellimuse töö või lõpetab selle osaliselt, saab ta teatada kauba või praagi kogused iga toote kohta, mis on määratletud tellimuse väljundina. Tooted, mis on määratletud partiitellimuse väljundina, võivad olla *Valem*, *Kaastoode* või *Kõrvaltoode* tüüpi.
-
-Toodete headest kogustest teatamiseks valib töötaja vahekaardil **Aktiivsed tööd** töö ja seejärel **Edenemisteabe esitamine**.
-
-Seejärel saab töötaja dialoogiboksis **Edenemisteabe esitamine** valida toodete hulgast, mis on määratletud aruande esitamise partiitellimuse väljundina. Töötaja saab valida loendist ühe või mitu toodet ja seejärel valida **Edenemisteabe esitamine**. Iga toote puhul on kogus vaikimisi 0 ja töötaja saab koguse sisestamiseks kasutada numbriklaviatuuri. Kui toodete vahel liikumiseks saab töötaja valide nuppude **Eelmine** ja **Järgmine** vahel. Pärast iga toote koguse sisestamist saab töötaja uuendada töö olekuks *Käimas*, *Peatatud* või *Lõpetatud*.
-
-![Kaastoodete ja kõrvalsaaduste aruandlus.](media/report-co-by-products.png "Kaastoodete ja kõrvalsaaduste aruandlus")
-
-### <a name="reporting-on-batch-orders-for-planning-items"></a>Aruandlus kaupade planeerimise partiitellimuste kohta
-
-Kui töötaja lõpetab planeeritava kauba partiitellimuse töö, esitab ta kogused ainult kaas- ja kõrvalsaaduste kohta, kuna planeerimisartiklid ei sisalda *Valem* tüüpi üksust.
-
-### <a name="reporting-co-product-variation"></a>Kaastoote variatsioonist teatamine
-
-Kui partiitellimus luuakse valemiversioonist, kus suvand **Kaastoodete variatsioonid** on seatud väärtusele *Jah*, saab töötaja esitada aruande kaastoodete kohta, mis ei kuulu partiitellimuste määratlusesse. Seda funktsiooni kasutatakse stsenaariumide korral, kus tootmisprotsessis võib tekkida ootamatu tooteväljund.
-
-Sel juhul saab töötaja määrata aruandluse aluseks oleva kaastoote ja koguse, valides aruande edenemise dialoogiboksis **Kaastoodete variatsioonid**. Seejärel saab töötaja valida kõigi välja antud toodete hulgast, mis on määratletud kaastoodetena.
+![Dialoogiboks Edenemisteabe esitamine](media/pfei-report-progress-dialog.png "Dialoogiboks Edenemisteabe esitamine")
 
 ## <a name="reporting-scrap"></a>Maha kantud koguse esitamine
 
 Kui töötaja lõpetab või osaliselt lõpetab töö, saab ta teatada maha kantud koguse, valides töö vahekaardil **Aktiivsed tööd** ja valides seejärel **Maha kantud koguse esitamine**. Seejärel sisestab töötaja dialoogiboksis **Maha kantud koguse esitamine** maha kantud koguse numbriklahvistiku abil. Töötaja valib ka põhjuse (*Puudub*, *Masin*, *Operaator* või *Materjal*).
 
-![Dialoogiboks Maha kantud koguse esitamine.](media/pfei-report-scrap-dialog.png "Dialoogiboks Maha kantud koguse esitamine")
-
-## <a name="adjust-material-consumption-and-make-material-reservations"></a>Materjali tarbimise reguleerimine ja materjali reserveerimine
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-<!-- KFM: preview until further notice -->
-
-Töötajad saavad kohandada materjalitarbimist iga tootmistöö jaoks. Seda funktsiooni kasutatakse stsenaariumides, kus tootmistöö poolt tarbitud materjalide tegelik kogus oli kavandatust suurem või väiksem. Seetõttu tuleb seda kohandada, et varude tasemed oleksid ajakohased.
-
-Töötajad saavad teha ka broneeringuid materjalide partii- ja seerianumbrite kohta. Seda funktsiooni kasutatakse stsenaariumides, kus töötaja peab materjali jälgitavuse nõuete täitmiseks käsitsi määrama, millist materjalipartii või seerianumbreid tarbiti.
-
-Töötajad saavad määrata täpsustatava koguse, valides suvandi Materjali **kohandamine**. See nupp on saadaval järgmistes asukohtades.
-
-- Dialoogiboksis **Aruande vanametallist**
-- Dialoogiboksis **Edusammudest** teatamine
-- Paremal oleval tööriistaribal
-
-### <a name="adjust-material-consumption-from-the-report-scrap-and-report-progress-dialog-boxes"></a>Materjalitarbimise reguleerimine dialoogiboksidest Aruande praak ja Edusammudest teatamine
-
-Pärast seda, kui töötaja sisestab aruandearuande edenemise **või** **aruandejäägist** teatamise koguse, **muutub kättesaadavaks nupp Materjali** kohandamine. Kui kasutaja valib selle nupu, kuvatakse dialoogiboks **Materjali** reguleerimine. Selles dialoogiboksis loetletakse üksused, mida plaanitakse tarbida, kui projekti kohta esitatakse hea või mahakantud kogus.
-
-Dialoogiboksi loendis kuvatakse järgmine teave.
-
-- **Toote number** – Tooteetaloni ja tootevariant.
-- **Toote nimi** – toote nimi.
-- **Ettepanek** – hinnanguline materjalikogus, mida tarbitakse edenemise või praagi esitamisel projekti jaoks määratud koguse kohta.
-- **Tarbimine** – tegelik materjalikogus, mida tarbitakse edenemise või praagi esitamisel projekti jaoks määratud koguse kohta.
-- **Reserveeritud** – varudes füüsiliselt reserveeritud materjali kogus.
-- **Ühik** – koosluse üksus.
-
-Dialoogiboksi paremas servas kuvatakse järgmine teave.
-
-- **Toote number** – Tooteetaloni ja tootevariant.
-- **Hinnanguline** – hinnanguline tarbitav kogus.
-- **Alustatud** – tootmistööl alustatud kogus.
-- **Jääkkogus** – hinnangulisest kogusest tarbitav kogus.
-- **Vabastatud kogus** – tarbitud kogus.
-
-Teha saab järgmisi toiminguid.
-
-- Töötaja saab määrata materjali jaoks korrigeeritava koguse, valides suvandi **Kohanda tarbimist**. Pärast koguse kinnitamist uuendatakse veerus Tarbimine **olev** kogus korrigeeritud kogusega.
-- Kui töötaja valib **Materjali täpsustamise**, luuakse tootmise komplekteerimislehe tööleht. See tööleht sisaldab samu kaupu ja koguseid kui materjali **kohandamine**.
-- Kui töötaja korrigeerib kogust dialoogiboksis **Materjali** täpsustamine, **värskendatakse vastava žurnaalirea välja Ettepanek** sama kogusega. Kui töötaja valib dialoogiboksis **Materjali** **reguleerimine valiku Loobu**, kustutatakse komplekteerimisnimekiri.
-- Kui töötaja valib **OK**, siis komplekteerimisloendit ei kustutata. See konteeritakse, kui töö on teatatud dialoogiboksis **Aruande praak** või **Teata edenemisest**.
-- Kui töötaja valib dialoogiboksis **Aruande edenemine** või **Aruande praagist** suvandi **Loobu**, komplekteerimisleht kustutatakse.
-
-### <a name="adjust-material-from-the-toolbar-on-the-right"></a>Materjali reguleerimine paremal olevalt tööriistaribalt
-
-Nuppu **Materjali** reguleerimine saab konfigureerida nii, et see kuvatakse paremal tööriistaribal. (Lisateavet vt teemast [Kujundage tootmispõranda täitmise liides](production-floor-execution-tabs.md).) Töötaja saab poolelioleva tootmistöö jaoks valida **materjali** kohandamine. Sellisel juhul **kuvatakse dialoogiboks Materjali** reguleerimine, kus töötaja saab soovitud kohandusi teha. Dialoogiboksi avamisel luuakse tootmistellimuse jaoks tootmise komplekteerimisloend, mis sisaldab korrigeeritud koguste ridu. Kui töötaja valib **Konteeri kohe**, kinnitatakse täpsustus ja komplekteerimisnimekiri konteeritakse. Kui töötaja valib **Tühista**, kustutatakse komplekteerimisloend ja korrigeerimist ei tehta.
-
-### <a name="reserve-materials"></a>Reservmaterjalid
-
-**Dialoogiboksis Materjali** reguleerimine saab töötaja teha ja reguleerida materjali reserveeringuid, valides suvandi **Reserve material**. Kuvatakse **dialoogiboks Reserveeri materjal**, kus kuvatakse kauba füüsiliselt kättesaadav varu iga talletus- ja jälgimisdimensiooni jaoks.
-
-Kui materjal on täiustatud laoprotsesside jaoks lubatud, kuvatakse loendis ainult materjali tootmissisendi asukoha füüsiliselt kättesaadav varu. Tootmise sisestuskoht määratletakse ressursil, kus tootmistöö on planeeritud. Kui kauba number on partii- või seerianumbriga kontrollitav, kuvatakse füüsiliselt saadaolevate partii- ja seerianumbrite täielik loend. Reserveeritava koguse määramiseks saab töötaja valida **Reserveeri materjali**. Olemasoleva broneeringu eemaldamiseks saab töötaja valida **Eemalda broneering**.
-
-Lisateavet tootmissisendi asukoha seadistamise kohta leiate järgmisest ajaveebi postitusest: [Tootmissisendi asukoha seadistamine](/archive/blogs/axmfg/deliver-picked-materials-to-the-locations-where-the-materials-are-consumed-by-operations-in-production).
-
-> [!NOTE]
-> Broneeringud, mille töötaja teeb **Reservmaterjal** dialoogiboks jääb alles, kui töötaja valib **Tühista** aastal **Teatage edusammudest** või **Teata sissekandest** Dialoogikast.
+![Dialoogiboks Maha kantud koguse esitamine](media/pfei-report-scrap-dialog.png "Dialoogiboks Maha kantud koguse esitamine")
 
 ## <a name="completing-a-job-and-starting-a-new-job"></a>Töö lõpetamine ja uue töö alustamine
 
@@ -218,7 +138,7 @@ Töötaja valib kolmanda töö vahekaardil **Kõik tööd** ja seejärel valib s
 
 ## <a name="working-on-indirect-activities"></a>Kaudsete tegevustega töötamine
 
-Kaudsed tegevused on tegevused, mis pole tootmistellimusega otseselt seotud. Kaudseid tegevusi saab paindlikult määratleda teemas [Kaudsete tegevuste seadistamine tööaja- ja palgaarvestuse jaoks](/dynamicsax-2012/appuser-itpro/set-up-indirect-activities-for-time-and-attendance) kirjeldatud juhiste järgi.
+Kaudsed tegevused on tegevused, mis pole tootmistellimusega otseselt seotud. Kaudseid tegevusi saab paindlikult määratleda teemas [Kaudsete tegevuste seadistamine tööaja- ja palgaarvestuse jaoks](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-indirect-activities-for-time-and-attendance) kirjeldatud juhiste järgi.
 
 Näiteks Contoso töökoja töötaja Shannon soovib osaleda ettevõtte koosolekul ja koosolekud on kaudsed tegevused. Kehtib üks kahest järgmisest stsenaariumist.
 
@@ -249,6 +169,3 @@ Töötajad saavad avada tööga seotud dokumenti, valides **Juhised**. Nupp **Ju
 1. Töötaja teeb juhendi läbi, et õppida ülesannet.
 
 Lisateavet selle kohta, kuidas luua, määrata ja kasutada HoloLensi juhendeid, vt teemast [Tootmisosakonna töötajatele mõeldud hübriidreaalsuse juhendite tegemine](instruction-guides-in-production-overview.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,12 +1,10 @@
 ---
 title: Palga algsaldode sisestamine
-description: Selles teemas kirjeldatakse tulukoodide, mahaarvamiste, soodustuste ja maksude algsaldode sisestamist. See teave on partneritele väärtuslik andmete migreerimiseks või üleviimiseks uue palgajuurutuse korral teisest süsteemist.
+description: Selles teemas kirjeldatakse tulukoodide, mahaarvamiste, soodustuste ja maksude algsaldode sisestamist.
 author: andreabichsel
-manager: AnnBe
 ms.date: 11/20/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: anbichse
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8443bc5c63a90d80757ab4b7507502497c2aaa69
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
-ms.translationtype: HT
+ms.openlocfilehash: 0a5529e3268727dce022daebb853e50710e5bde84811014febe30e80afee9ed6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797780"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6721872"
 ---
 # <a name="enter-payroll-beginning-balances"></a>Palga algsaldode sisestamine
 
@@ -166,3 +164,6 @@ on võimalik kandeid tühistada ja uuesti sisestada. Kande tühistamiseks peate 
 2. Klõpsake **Jah**, kui kuvatakse teade „Selle palgaväljavõtte tühistamisel luuakse tühistav palgaväljavõte selle palgaväljavõtte tasakaalustamiseks. Kumbagi palgaväljavõtet ei saa muuta. Kas soovite selle palgaväljavõtte tühistada?” . 
 
 Kui olete palgaväljavõtte tühistanud, saate luua uue palgaväljavõtte töötaja jaoks varem loodud tuluväljavõtte põhjal. Korrigeerige kindlasti kõik tuluväljavõtte valed read, enne kui loote uue palgaväljavõtte, ja seejärel looge uued palgaväljavõtted õigete summadega. 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

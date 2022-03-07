@@ -2,28 +2,25 @@
 title: Mitme allahindlusperioodiga osalise hankijamakse tasakaalustamine
 description: See artikkel käsitleb stsenaariumi, kus mitut skontot pakkuvale hankijale tehakse mitu osalist makset.
 author: abruer
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14262
 ms.assetid: af95c48a-afd1-476c-978d-e34995100be4
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 659fb6c98b9ed0589932f8c4a67cb7b08264283c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: a0538a522733a9df9ae3b8832959c68bb0c25056694786e4b1a46a2ee7d0fcfc
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442520"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6737085"
 ---
 # <a name="settle-a-partial-vendor-payment-that-has-multiple-discount-periods"></a>Mitme allahindlusperioodiga osalise hankijamakse tasakaalustamine
 
@@ -57,7 +54,7 @@ Selle arve jaoks on saadaval järgmised skonto kuupäevad ja summad.
 
 Teave märgitud arve allahindluse kohta kuvatakse lehe **Avatud kannete tasakaalustamine** allosas.
 
-|                              |           |
+| Field                        | Väärtus     |
 |------------------------------|-----------|
 | Skonto kuupäev           | 7/02/2015 |
 | Skonto summa         | ‑20,00    |
@@ -73,7 +70,7 @@ Kuna skonto on saadaval, soovib April muuta maksesummat nii, et kogu tasakaalust
 
 Teave märgitud arve allahindluse kohta kuvatakse lehe **Avatud kannete tasakaalustamine** allosas.
 
-|                              |           |
+| Field                        | Väärtus     |
 |------------------------------|-----------|
 | Skonto kuupäev           | 7/02/2015 |
 | Skonto summa         | ‑20,00    |
@@ -106,7 +103,7 @@ April otsustab tasuda 495,00 ja saab skonto 5,00. Seetõttu on tasakaalustatav k
 
 Teave märgitud arve allahindluse kohta kuvatakse lehe **Avatud kannete tasakaalustamine** allosas.
 
-|                              |           |
+| Field                        | Väärtus     |
 |------------------------------|-----------|
 | Skonto kuupäev           | 12.07.2015 |
 | Skonto summa         | -10,00    |
@@ -140,3 +137,6 @@ Lehel **Hankija kanded** näeb April, et uus saldo on 200,00.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

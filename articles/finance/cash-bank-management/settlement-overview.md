@@ -1,33 +1,34 @@
 ---
 title: Tasakaalustuse ülevaade
 description: Selles teemas antakse üldist teavet tasakaalustamisprotsessi kohta. See kirjeldab, milliseid kandetüüpe saab tasakaalustada ning nende tasakaalustamise ajastust ja protsessi. Samuti kirjeldatakse teemas tasakaalustamisprotsessi tulemusi.
-author: kweekley
-manager: AnnBe
-ms.date: 04/10/2020
+author: panolte
+ms.date: 07/30/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym, LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
-ms.custom: 14551
+ms.custom:
+- "14551"
+- intro-internal
 ms.assetid: 0968fa71-5984-415b-8689-759a0136d5d1
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 650b0ef0123cf9acf42c2e7460693b555897744f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6b4a4fd0756a4516b0c14e136730d21d062a106a
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442353"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344807"
 ---
 # <a name="settlement-overview"></a>Tasakaalustuse ülevaade
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
+
 
 Selles teemas antakse üldist teavet tasakaalustamisprotsessi kohta. See kirjeldab, milliseid kandetüüpe saab tasakaalustada ning nende tasakaalustamise ajastust ja protsessi. Samuti kirjeldatakse teemas tasakaalustamisprotsessi tulemusi.
 
@@ -75,6 +76,25 @@ Tasakaalustused saavad luua ka kandeid. Näiteks võib arve ja makse tasakaalust
 
 Kui proovite tasakaalustada kannet, siis võite märgata sümbolit, mis viitab sellele, et kanne on märgistatud teises asukohas. Sel juhul võite valida kande lehel **Kannete tasakaalustamine** ja valida suvandi **Päringud \> Tasakaalustamine tasakaalustamise aknas**. Selle päringu vaates kuvatakse töölehed, müügitellimused, arved, maksesoovitused ja kliendi asukohad, mis võivad blokeerida kande tasakaalustamist. Probleemi lahendamiseks võite valida lingi, et minna otse päringust blokeeritud asukohta. Seejärel saate dokumenti uuendada, sisestades tasakaalustamiseks vajalikud korrektsioonid. Lisaks saate kasutada näitajat **Märgitud**, et tuvastada teised samas blokeerimisasukohas paiknevad dokumendid.
 
+## <a name="resolve-issues-with-transactions-that-cant-be-settled"></a>Kannete, mida ei saa tasakaalustada, probleemide lahendamine
+
+Mõnikord ei saa kandeid tasakaalustada, kuna dokumenti töötleb parajasti mõni muu tegevus. Kui proovite kandeid tasakaalustada, ilmneb tõrge, sest neid kandeid kasutatakse. Probleemi lahendamiseks saate kasutada lehte **Märgitud kande üksikasjad**, et leida tasakaalustamiseks märgitud kandeid ja tuvastada mis tahes muid protsesse, mis neile juurde pääsevad.
+
+Kanded märgitakse tasakaalustamiseks hankijaarvete maksmisel või siis, kui kliendid maksavad ära oma avatud arved. Mõnikord võivad need arved juba tasakaalustuseks märgitud olla. Seetõttu ei saa kasutajad neid maksmiseks valida. Arved võivad praeguses juriidilises isikus või mõnes muus juriidilises isikus olla märgitud teise kliendi maksetöölehe, müügitellimuse, hankija maksetöölehe või ostutellimuse poolt.
+
+Kui kanne on kliendimakse sisestamisel tasakaalustamiseks blokeeritud, avage leht **Kliendi märgitud kande üksikasjad** (**Müügireskontro \> Perioodilised ülesanded \> Kliendi märgitud kande üksikasjad**). Kande blokeerimise asukoha kiireks tuvastamiseks saate seadistada ühe järgmistest valikuparameetritest: **Kliendi konto**, **Kanne**, **Kuupäev** või **Arve**. Kui te valikuparameetreid ei määra, kuvab süsteem kõik praeguse ettevõtte või mõne teise valitud ettevõtte blokeeritud dokumendid. Kui tasakaalustamiseks blokeeritud kanne on tuvastatud, saate selle valida ja seejärel teha valiku **Eemalda valitud kannetelt märge**. Seejärel eemaldatakse valitud kanne mis tahes töölehelt, mis seda sisaldab. Kuid dokumenti ei eemaldata muust asukohast. Töölehelt eemaldatakse ainult märgistusteave.
+
+Kui kanne on hankijamakse sisestamisel tasakaalustamiseks blokeeritud, avage leht **Hankija märgitud kande üksikasjad** (**Ostureskontro \> Perioodilised ülesanded \> Hankija märgitud kande üksikasjad**). Kande blokeerimise asukoha kiireks tuvastamiseks saate seadistada ühe järgmistest valikuparameetritest: **Hankija konto**, **Kanne**, **Kuupäev** või **Arve**. Kui te valikuparameetreid ei määra, kuvab süsteem kõik praeguse ettevõtte või mõne teise valitud ettevõtte blokeeritud dokumendid. Kui tasakaalustamiseks blokeeritud kanne on tuvastatud, saate selle blokeeringu eemaldamiseks valida ja seejärel teha valiku **Eemalda valitud kannetelt märge**. Seejärel eemaldatakse valitud kanne mis tahes muult töölehelt, kus see on valitud. Kuid dokumenti ei eemaldata muust asukohast. Töölehelt eemaldatakse ainult märgistusteave.
+
+Kõigi blokeeritud dokumentide tuvastamiseks avage leht **Kõik märgitud kande üksikasjad** (**Müügireskontro \> Perioodilised ülesanded \> Kõik märgitud kande üksikasjad** või **Ostureskontro \> Perioodilised ülesanded \> Kõik märgitud kande üksikasjad**). Kande blokeerimise asukoha kiireks tuvastamiseks saate seadistada ühe järgmistest valikuparameetritest: **Kliendi konto**, **Hankija konto**, **Kanne**, **Kuupäev** või **Arve**. Kui te valikuparameetreid ei määra, kuvab süsteem kõik praeguse ettevõtte või mõne teise valitud ettevõtte blokeeritud dokumendid. Kui tasakaalustamiseks blokeeritud kanne on tuvastatud, saate selle blokeeringu eemaldamiseks valida ja seejärel teha valiku **Eemalda valitud kannetelt märge**. Seejärel eemaldatakse valitud kanne mis tahes muult töölehelt, kus see on valitud. Kuid dokumenti ei eemaldata muust asukohast. Töölehelt eemaldatakse ainult märgistusteave.
+
+Enne selle funktsiooni kasutamist peate selle oma süsteemis sisse lülitama. Administraatorid saavad kasutada **funktsioonihalduse** tööruumi, et kontrollida funktsiooni olekut ja vajadusel selle sisse lülitada. Seega on funktsioon loetletud järgmisel viisil.
+
+- **Moodul:** sularaha- ja pangahaldus
+- **Funktsiooni nimi:** märgitud kande üksikasjade vorm
+
 ## <a name="additional-resources"></a>Lisaressursid
 
 - [Jäägi tasakaalustus](settle-remainder.md)
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

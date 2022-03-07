@@ -3,7 +3,7 @@ title: Kassas (POS) olevad klienditellimused
 description: Selles teemas kirjeldatakse kassas (POS) olevaid klienditellimusi. Klienditellimused on teise nimega eritellimused. Teema hõlmab arutelu seotud parameetrite ja kandevoogude kohta.
 author: josaw1
 manager: AnnBe
-ms.date: 09/03/2020
+ms.date: 01/06/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailFunctionalityProfile
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 260594
 ms.assetid: 6fc835ef-d62e-4f23-9d49-50299be642ca
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 9e5770de82638e6cef6d4c1dffd1dc85549fb11f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f60e07c1faae9bc3cb6d3c843e72e6000cff7591
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411660"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5220506"
 ---
 # <a name="customer-orders-in-point-of-sale-pos"></a>Kassas (POS) olevad klienditellimused
 
@@ -52,9 +51,9 @@ Klienditellimuste kasutamiseks peate konfigureerima tarnerežiimid, mida kauplus
 
 ### <a name="set-up-fulfillment-groups"></a>Täitmisgruppide häälestamine
 
-Mõned kauplused või lao asukohad ei pruugi olla suutelised täitma klienditellimusi. Täitmisgruppide konfigureerimisega saab organisatsioon määrata, millised kauplused ja laod kuvatakse valikutena kasutajatele, kes loovad klienditellimusi kassas. Täitmisgrupid konfigureeritakse lehel **Täitmisgrupid**. Organisatsioonid saavad luua nii palju täitmisgruppe kui vaja. Pärast täitmisgrupi määratlemist lingitakse see kauplusega lehe **Kauplused** tegevuspaani vahekaardil **Häälestamine** oleva nupu abil.
+Mõned kauplused või lao asukohad ei pruugi olla suutelised täitma klienditellimusi. Täitmisgruppide konfigureerimisega saab organisatsioon määrata, millised kauplused ja laod kuvatakse valikutena kasutajatele, kes loovad klienditellimusi kassas. Täitmisgrupid konfigureeritakse lehel **Täitmisgrupid**. Organisatsioonid saavad luua nii palju täitmisgruppe kui vaja. Pärast täitmisgrupi määratlemist linkige see kauplusega, valides lehe **Kauplused** tegevuspaani vahekaardil **Seadistus** suvandi **Täitmisgrupi määramine**.
 
-Commerce'i versioonis 10.0.12 ja uuemates versioonides saavad ettevõtted määratleda, kas täitmisgruppides määratletud lao- või lao/kaupluse kombinatsioone saab kasutada lähetamiseks, järeletulemiseks või mõlema jaoks. Seetõttu on kauplusel täiendav paindlikkus juhtida lao- ja kauplusesuvandeid, mis kuvatakse kasutajatele, kes loovad järeletulemisega tellimuse, võrreldes lähetatava tellimusega. Nende konfiguratsioonisuvandite kasutamiseks peate funktsiooni **Võimalus määrata asukohti nii, et olek Lähetamine või Järeletulemine on täitmisgrupis lubatud** sisse lülitama. Kui täitmisgrupiga lingitud ladu pole kauplus, saab seda konfigureerida ainult lähetuse asukohana. Seda ei saa kasutada, kui järeletulemisega tellimused on konfigureeritud kassas.
+Commerce'i versioonis 10.0.12 ja uuemates versioonides saavad ettevõtted määratleda, kas täitmisgruppides määratletud lao- või lao/kaupluse kombinatsioone saab kasutada lähetamiseks, järeletulemiseks või mõlema jaoks. See võimaldab ettevõttel paindlikumalt määrata, milliseid ladusid saab valida, kui luuakse klienditellimus lähetatavatele kaupadele, või millised kauplusi saab valida, kui luuakse klienditellimus järeletulemisega kaupadele. Nende konfiguratsioonisuvandite kasutamiseks lülitage funktsioon **Võimalus määrata asukohti nii, et olek Lähetamine või Järeletulemine on täitmisgrupis lubatud** sisse. Kui täitmisgrupiga lingitud ladu pole kauplus, saab seda konfigureerida ainult lähetuse asukohana. Seda ei saa kasutada, kui järeletulemisega tellimused on konfigureeritud kassas.
 
 ![Täitmisgruppide leht](media/customer-order-fulfillment-group.png)
 
@@ -99,7 +98,10 @@ Veenduge, et kassa [ekraani paigutus](https://docs.microsoft.com/dynamics365/com
 
 ![Kassa kandekuva suvandid](media/customer-order-screen-layout.png)
 
-## <a name="working-with-customer-orders-in-pos"></a>Klienditellimustega töötamine kassas
+## <a name="work-with-customer-orders-in-pos"></a>Kassas klienditellimustega töötamine
+
+> [!NOTE]
+> Tulu tuvastamise funktsiooni ei toetata praegu Commerce'i kanalites (e-kaubandus, kassa, kõnekeskus). Tulu tuvastamisega konfigureeritud kaupu ei tohiks lisada Commerce'i kanalites loodud tellimustele. 
 
 ### <a name="create-a-customer-order-for-products-that-will-be-shipped-to-the-customer"></a>Klienditellimuse loomine kliendile saadetavate toodete kohta
 
@@ -118,7 +120,7 @@ Veenduge, et kassa [ekraani paigutus](https://docs.microsoft.com/dynamics365/com
 2. Lisage tooted ostukorvi.
 3. Tellimuse järeletulemise konfigureerimise alustamiseks valige **Tule valitutele järele** või **Tule kõigile järele**.
 4. Valige kaupluse asukoht, kuhu klient tuleb valitud toodetele järgi.
-5. Saate valida järeletulemise kuupäeva.
+5. Valige kaubale järeletulemise kuupäev.
 6. Tasuge kõigi tasumisele kuuluvate arvutatud summade eest maksefunktsioonide abil või kasutage tasumisele kuuluvate summade muutmiseks suvandit **Deposiidi alistamine** ja seejärel rakendage makse.
 7. Kui tellimuse kogusummat ei makstud, valige, kas klient teeb makse hiljem (järeletulemisel) või kas krediitkaardile luuakse praegu luba ning seda kasutatakse järeletulemise ajal.
 
@@ -127,12 +129,10 @@ Veenduge, et kassa [ekraani paigutus](https://docs.microsoft.com/dynamics365/com
 Võrgu- või kauplusekanalis loodud jaemüügitellimusi saab vastavalt vajadusele kassa kaudu tagasi kutsuda ja redigeerida.
 
 > [!IMPORTANT]
-> Kõnekeskuse kanalis loodud tellimusi ei saa kassas redigeerida, kui kõnekeskuse kanali jaoks on sisse lülitatud säte [Tellimuse lõpetamise lubamine](https://docs.microsoft.com/dynamics365/commerce/set-up-order-processing-options#enable-order-completion). Korrektseks maksete töötlemise tagamiseks tuleb kõnekeskuse kanalist pärinevaid tellimusi, mis kasutavad funktsiooni Tellimuse lõpetamise lubamine, redigeerida kõnekeskuse rakenduse kaudu Commerce'i peakontoris.
+> Kõiki jaemüügitellimusi ei saa kassa rakenduse kaudu redigeerida. Kõnekeskuse kanalis loodud tellimusi ei saa kassas redigeerida, kui kõnekeskuse kanali jaoks on sisse lülitatud säte [Tellimuse lõpetamise lubamine](https://docs.microsoft.com/dynamics365/commerce/set-up-order-processing-options#enable-order-completion). Korrektseks maksete töötlemise tagamiseks tuleb kõnekeskuse kanalist pärinevaid tellimusi, mis kasutavad funktsiooni Tellimuse lõpetamise lubamine, redigeerida kõnekeskuse rakenduse kaudu Commerce'i peakontoris.
 
-Commerce'i versiooni 10.0.13 ja varasemate versioonide korral saavad kasutajad redigeerida toetatud klienditellimusi kassa kaudu ainult siis, kui tellimused on täielikult avatud. Kui tellimuse ridu on juba täitmiseks töödeldud (komplekteerimine, pakkimine jne), lukustatakse tellimus, et seda ei saaks kassas redigeerida.
+Versioonis 10.0.17 ja uuemates versioonides saavad kasutajad kassa rakenduse kaudu sobilikke tellimusi redigeerida, isegi kui tellimus on osaliselt täidetud. Täielikult arveldatud tellimusi ei saa siiski kassa kaudu redigeerida. Selle võimaluse lubamiseks lülitage tööruumis **Funktsioonihaldus** sisse funktsioon **Osaliselt täidetud tellimuste redigeerimine kassas**. Kui see funktsioon ei ole lubatud või kui kasutate versiooni 10.0.16 või varasemat versiooni, saavad kasutajad kassas klienditellimusi redigeerida ainult siis, kui tellimus on täielikult avatud. Peale selle, kui see funktsioon on lubatud, saate piirata, millised kauplused saavad osaliselt täidetud tellimusi redigeerida. Suvandit selle võimaluse keelamiseks konkreetsete kaupluste puhul saab konfigureerida kiirkaardi **Üldine** jaotise **Funktsiooniprofiil** kaudu.
 
-> [!NOTE]
-> Commerce'i versiooni 10.0.14 funktsioon, mis on saadaval [avaliku eelversioonina](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-terms), võimaldab kassa kasutajatel redigeerida klienditellimusi kassa kaudu, isegi kui osa tellimusest on juba täidetud. Täielikult arveldatud tellimusi ei saa siiski kassa kaudu redigeerida. Selle eelversiooni funktsiooni testimiseks ja täiendava tagasiside esitamiseks lülitage asukohas **Funktsioonihaldus** sisse funktsioon **(Eelversioon) Osaliselt täidetud tellimuste redigeerimine kassas**. Kõnekeskuse kanalist pärinevaid ja funktsiooni Tellimuse lõpetamise lubamine kasutavaid klienditellimusi ei saa redigeerida isegi pärast selle funktsiooni lubamist.
 
 1. Valige **Tellimuse tagasikutsumine**.
 2. Selleks et leida tellimust kasutage filtrite sisestamiseks **Otsingut** ja seejärel valige **Rakenda**.
@@ -170,3 +170,6 @@ Kui suvandi **Klienditellimuse loomine asünkroonses režiimis** sätteks on val
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Hübriidkliendi tellimused](hybrid-customer-orders.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

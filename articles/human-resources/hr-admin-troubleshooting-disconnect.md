@@ -2,7 +2,7 @@
 title: Kliendi ühendus katkeb
 description: See artikkel selgitab, mida teha, kui kliendi ühendus tema keskkonnaga katkeb ja põhjus pole teada.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -17,14 +17,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2088706baf8735fa371960955a2ffc3240ccac76
-ms.sourcegitcommit: a26e4963d40796da21ce6581cfb2f4d9db4f6776
+ms.openlocfilehash: 6808132e182ea6fed4fb0605fd07c008d208e89f
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "4418239"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5468175"
 ---
 # <a name="client-disconnects"></a>Kliendi ühendus katkeb
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 **Keskkonna üksikasjad** 
 
@@ -52,3 +54,6 @@ Rakendus Microsoft Dynamics 365 Human Resources katkestab kasutajate ühendused,
 Veenduge, et korraga oleks ühes brauseritüübis avatud ainult üks keskkond. Kasutajad saavad samas keskkonnas avada mitu seanssi (s.t samas brauseris mitu vahekaarti).
 
 Kasutajad, kes soovivad korraga hüpata kahe keskkonna vahel, peavad kummagi keskkonna avama erinevas brauseritüübis. (Nt, kasutaja A saab vaadata keskkonda 1 Chrome’is ja keskkonda 2 Microsoft Edge’is.)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

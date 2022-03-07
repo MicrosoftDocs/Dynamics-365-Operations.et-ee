@@ -2,11 +2,9 @@
 title: Finantsperioodi hulgisulgemine
 description: Selles teemas näidatakse, kuidas panna periood ootele või sulgeda periood lõplikult korraga rohkem kui ühel juriidilisel isikul.
 author: aprilolson
-manager: AnnBe
 ms.date: 08/16/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerCalendar, LedgerPeriodModuleAccessControlUpdate, SysLookupPicklist, LedgerFiscalCalendarPeriodStatus
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 598c28c2fb3dd6a13f96df81189b46c4e228da7a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 54a5b16f731e850b468ea2e05e47b47774e45838
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4968725"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5826494"
 ---
 # <a name="mass-financial-period-close"></a>Finantsperioodi hulgisulgemine
 
@@ -41,3 +39,6 @@ Selles teemas näidatakse, kuidas panna periood ootele või sulgeda periood lõp
 11. Valige suvand **Värskenda perioodi olek** ja seadistage olekuks kas **Ootel**, **Avatud** või **Jäädavalt suletud**. **Avatud** näitab, et perioodi saab sisestada, kui kasutajal on juurdepääs. **Ootel** tähendab, et perioodi ei saa sisestada, aga perioodi saab uuesti avada. **Jäädavalt suletud** tähendab, et periood on suletud ja seda ei saa kunagi avada. Korrigeerimisi ei saa sisestada. Me ei soovita seadistada perioodi olekuks **Jäädavalt suletud** enne, kui kõik kohandused ja auditid on lõpetatud.  
 12. Tehke valik **Värskenda**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,27 +2,24 @@
 title: Euroopa käibemaksuaruandlus
 description: Selles teemas antakse üldine ülevaade käibemaksu (KM) aruande seadistamise ja koostamise kohta mõningates Euroopa riikides.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxAuthority, TaxReportCollection, TaxTable
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 266844
 ms.search.region: Austria, Belgium, Czech Republic, Estonia, Finland, Germany, Latvia, Lithuania, Netherlands, Sweden
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 65ea2f40171a470cab0550aecff07567be4aaa78
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 743298a1c32f5fc706ad7a47d9b559569946889b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407839"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5832660"
 ---
 # <a name="vat-reporting-for-europe"></a>Euroopa käibemaksuaruandlus
 
@@ -277,3 +274,6 @@ Iga riigi KM-aruanne peab vastama selle riigi seaduste nõuetele. Järgmises tab
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

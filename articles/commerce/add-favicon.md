@@ -2,35 +2,30 @@
 title: Faviconi lisamine
 description: See teema selgitab, kuidas lisada saidile faviconi.
 author: bicyclingfool
-manager: annbe
 ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 262e478d426fd913130b21a3434331c7d27b54b2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 080ef4da7313bd6b9d91e616f576b3ff774509d9
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411608"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964728"
 ---
-# <a name="add-a-favicon"></a>Faviconi lisamine
+# <a name="add-a-favicon"></a>Leheikooni lisamine
 
 [!include [banner](includes/banner.md)]
 
 See teema selgitab, kuidas lisada saidile faviconi.
-
-## <a name="overview"></a>Ülevaade
 
 Favicon on väike graafika fail, mis kuvatakse muu hulgas veebibrauseri vahekaardil, aadressiribal, sirvimisajaloos ja järjehoidjates või lemmikutes. Soovitame lisada saidile faviconi, kuna see esindab ja tugevdab teie kaubamärki ja aitab eristada teie saiti teistest saitidest, mida teie kliendid külastavad.
 
@@ -66,7 +61,7 @@ Teie lemmikuikooni metasilti sisaldava fragmendi loomiseks järgige neid juhisei
 1. Määrake dialoogiboksis **Uus fragment** mooduliks (millel põhineb fragment) **Metasildid**.
 1. Sisestage fragmendi nimi ja valige **OK**.
 1. Valige fragmendihierarhiapuus tütarüksus **Vaikimisi metasildid**.
-1. Valige parempoolsel paanil jaotises **Metasildid** suvand **Lisa** ja seejärel sisestage HTML-string, mille eelnevalt faviconi jaoks lõite. 
+1. Valige parempoolsel paanil jaotises **Metasildid** suvand **Lisa** ja seejärel sisestage HTML-string, mille eelnevalt faviconi jaoks lõite. 
 1. Valige **Lõpeta redigeerimine** ja seejärel valige fragmendi avaldamiseks **Avalda**.
 
 ## <a name="add-the-metatag-fragment-to-the-html-head-section-of-your-pages"></a>Metasildi fragmendi lisamine lehtede HTML-i päise jaotisse
@@ -91,11 +86,12 @@ Kui vaatate nende lehtede eelversiooni, mis põhinevad mallil, millele lisasite 
 
 [CSS-i alistusfailidega töötamine](css-override-files.md)
 
-[Tervitussõnumi lisamine](add-welcome-message.md)
-
 [Autoriõiguste teatise lisamine](add-copyright-notice.md)
 
 [Saidile keelte lisamine](add-languages-to-site.md)
 
 [Telemeetria toetamiseks saidile skriptikoodi lisamine](add-telemetry.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

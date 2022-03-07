@@ -2,28 +2,25 @@
 title: Finantsaruannete vaatamine
 description: Selles teemas kirjeldatakse, kuidas kuvada ja uurida finantsaruandeid Microsoft Dynamics 365 Financeis. See sisaldab teavet mitmesuguste võimaluste kohta, mida saate finantsaruannetele rakendada, et muuta nende välimust ja andmeid, mida need sisaldavad.
 author: kweekley
-manager: AnnBe
 ms.date: 03/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 10334
 ms.assetid: d20f435f-fb65-4068-ab09-7efc7be683a6
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c368259af9454af94da217585b2a1d01ea75d834
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2f729b1703a7703a8a604b007bd1c8d9e1f604a6
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442367"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897280"
 ---
 # <a name="view-financial-reports"></a>Finantsaruannete vaatamine
 
@@ -82,8 +79,11 @@ Finantsaruande eksportimiseks klõpsake tegumiribal käsku **Ekspordi**. Aruanne
 <a name="additional-resources"></a>Lisaressursid
 --------
 
-[Finantsaruandlus](../../dev-itpro/analytics/financial-reporting-intro.md)
+[Finantsaruandlus](../../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md)
 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,29 +2,25 @@
 title: Tootesoovituste ülevaade
 description: Selles teemas antakse üldist teavet tootesoovituste kohta. Tootesoovitused võimaldavad klientidel kergesti ja kiiresti leida tooteid, mida nad soovivad ja isegi tooteid, mida nad algselt ei kavatsenud osta.
 author: Moonma
-manager: AnnBe
 ms.date: 05/26/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Retail, Core, Operations
-ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: moonma
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5aa7db8e53906f9e1416b912fe2c3b70d5430258
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 7824de50a65370ef4f2f23b9c8e926f9bec2fcc3
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411547"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982115"
 ---
 # <a name="product-recommendations-overview"></a>Tootesoovituste ülevaade
 
@@ -35,6 +31,9 @@ Rakendust Microsoft Dynamics 365 Commerce saab kasutada tootesoovituste kuvamise
 Tootesoovitused võimaldavad klientidel lihtsalt ja kiiresti leida tooteid, mida nad soovivad, kui neil on kogemus, mis neile hästi sobib. Ristmüüki ja ülesmüüki saab kasutada isegi selleks, et suunata kliente leidma täiendavaid tooteid, mida nad algselt ei kavatsenud osta. Kui soovitusi kasutatakse toote avastuse täiustamiseks, võivad need luua rohkem konversiooni võimalusi, aidata suurendada müügitulu ja aidata veelgi suurendada kliendi rahulolu ja hoidmist.
 
 E-kaubanduses toetavad tootesoovitused suures osas Microsofti soovituste masinõppe tehnoloogiaid.
+
+Teenus on Dynamics 365 Commerce lisandmoodul. Lisateabe saamiseks laadige alla uusim [Microsoft Dynamics 365 litsentsijuhend](https://go.microsoft.com/fwlink/?LinkId=866544).
+
 
 ## <a name="recommendation-service"></a>Soovitamise teenus
 
@@ -50,7 +49,7 @@ Tootesoovitused on saadaval järgmiste stsenaariumide puhul.
 - **E-kaubanduse lehe sirvimise või sihtlehe mis tahes kaupluse lehel:** kui kliendid või kaupluse kaastöötajad külastavad kaupluse lehte, võib soovituse mootor soovitada tooteid loendites **Uus**, **Enim müüdud** ja **Populaarsed**.
 - **Lehel toote üksikasjad:** kui kliendid või kaupluse kaastöötajad külastavad lehte **Toote üksikasjad**, soovitab soovituse mootor lisakaupu, mida tõenäoliselt ka ostetakse. Need kaubad kuvatakse loendis **Inimestele meeldib ka**.
 - **Kande või kassa lehel:** soovituse mootor pakub kaupu, mis põhinevad kogu ostukorvis olevate kaupade loendil. Need kaubad kuvatakse loendis **Sageli koos ostetud**.
-- **Isikupärastatud soovitused** : turustajad võivad pakkuda sisselogitud klientidele isikupärastatud loendeid **Teile valitud** koos uue funktsiooniga, mis võimaldab olemasolevaid loendi stsenaariumeid vastavalt sellele kliendile isikupärastada. Lisateabe saamiseks vt [Isikupärastatud soovituste lubamine.](personalized-recommendations.md).
+- **Isikupärastatud soovitused:** turustajad võivad pakkuda sisselogitud klientidele isikupärastatud loendeid **Teile valitud** koos uue funktsiooniga, mis võimaldab olemasolevaid loendi stsenaariumeid vastavalt sellele kliendile isikupärastada. Lisateabe saamiseks vt [Isikupärastatud soovituste lubamine.](personalized-recommendations.md).
 
 ### <a name="types-of-product-recommendations"></a>Tootesoovituste tüübid
 
@@ -88,3 +87,6 @@ Järgmine tabel kirjeldab erinevaid automatiseeritud tootesoovituste tüüpe, mi
 [Soovituste loomine demoandmetega](product-recommendations-demo-data.md)
 
 [Tootesoovituste KKK](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

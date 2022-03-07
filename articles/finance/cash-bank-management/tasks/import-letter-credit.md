@@ -2,26 +2,23 @@
 title: Akreditiivi importimine
 description: See protseduur selgitab akreditiivi importimise protsessi.
 author: kweekley
-manager: AnnBe
 ms.date: 02/28/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendTable, VendBankAccounts, PurchTable, PurchCreateOrder, InventItemIdLookupPurchase, BankLCImport,  PurchEditLines, VendEditInvoice, SrsReportViewerForm, LedgerJournalTable, LedgerJournalTransVendPaym, VendOpenTrans, SysQueryForm, BankAccountTableLookUp
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9f9c73ec1347e72f8cd4ae8eec580bb8fe3df8ed
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6ce0a12aff70da1ec556b69198aa5210519b6af2
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442434"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5834736"
 ---
 # <a name="import-letter-of-credit"></a>Akreditiivi importimine
 
@@ -185,3 +182,6 @@ See protsess kasutab demoettevõtte USMF-i andmeid.
     * Veenduge, et aruandes oleks loetletud kanded koos pangadokumendi numbri, süsteemiteenuse limiidi, kasutatud summa ja süsteemiteenuse saldo summa.  
 8. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

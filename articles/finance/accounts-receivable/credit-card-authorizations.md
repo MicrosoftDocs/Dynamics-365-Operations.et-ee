@@ -2,28 +2,25 @@
 title: Krediitkaardi seadistamine, autoriseerimine ja hõivamine
 description: See artikkel annab ülevaate krediitkaardi autoriseerimisest rakenduses Microsoft Dynamics 365 Finance. See sisaldab teavet makseteenuse seadistamise, krediitkaardi lisamise kohta müügitellimusele ja loa tühistamise kohta.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CreditCardProcessors, CustTable, SalesTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 3041
 ms.assetid: 678f6899-bfa5-439b-aaca-b4affcc338ba
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0de35934e8bdb160f68f68dab118997d0141bf29
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 932949f31cbc4e4e8c07a2e489b8a0848843c54ad8d27d5d77f2b7031c68c30a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442231"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6769127"
 ---
 # <a name="credit-card-setup-authorization-and-capture"></a>Krediitkaardi seadistamine, autoriseerimine ja hõivamine
 
@@ -31,8 +28,7 @@ ms.locfileid: "4442231"
 
 See artikkel annab ülevaate krediitkaardi autoriseerimisest rakenduses Microsoft Dynamics 365 Finance. See sisaldab teavet makseteenuse seadistamise, krediitkaardi lisamise kohta müügitellimusele ja loa tühistamise kohta.
 
-<a name="setting-up-the-credit-card-payment-service"></a>Krediitkaardi makseteenuse seadistamine
-------------------------------------------
+## <a name="setting-up-the-credit-card-payment-service"></a>Krediitkaardi makseteenuse seadistamine
 
 Krediitkaartide kasutamiseks tuleb makseteenus lehel Makseteenused seadistada ja aktiveerida. Makseteenus toimib sillana teie juriidilise isiku ja kliendi krediitkaarditasusid töötleva panga vahel. Peaksite töötama väljal Makse ülekandmine loetletud krediitkaardi pakkujaga ja seadistama selle pakkujaga konto. Seejärel tuleks seadistada teised suvandid lehel Makseteenused, seadistada krediitkaardi tüübid American Expressi, Discoveri, MasterCardi ja Discoveri jaoks leheküljel Krediitkaardi tüübid ning aktiveerida pakkuja vaikepakkujana. Seadistuse lõpetamiseks peaksite järgima neid samme.
 -   Määrake lehel Müügireskontro parameetrid krediitkaardi kasutamise parameetrid.
@@ -42,13 +38,11 @@ Krediitkaartide kasutamiseks tuleb makseteenus lehel Makseteenused seadistada ja
 ## <a name="adding-a-new-credit-card"></a>Uue krediitkaardi lisamine
 Uusi krediitkaardi kirjeid saate luua lehel Kliendid, kasutades välju Klient, Hääletamine, Krediitkaart. Krediitkaardi kirjeid saate luua ka müügitellimusi lehel Müügitellimus sisestades, kasutades välju Haldamine, Klient, Krediitkaart, Registreerimine.
 
-<a name="adding-a-credit-card-to-a-sales-order"></a>Müügitellimusele krediitkaardi lisamine
--------------------------------------
+## <a name="adding-a-credit-card-to-a-sales-order"></a>Müügitellimusele krediitkaardi lisamine
 
 Krediitkaardi lisamiseks müügitellimusele valige krediitkaart krediitkaardi otsingust lehe Müügitellimus vahekaardil Hinnad ja allahindlused. Autoriseerimisprotsessi käivitamiseks avage tegevuspaani vahekaart Haldamine, kus valige Krediitkaart ja Autoriseerimine.
 
-<a name="authorizing-a-credit-card"></a>Krediitkaardi autoriseerimine
--------------------------
+## <a name="authorizing-a-credit-card"></a>Krediitkaardi autoriseerimine
 
 Kui krediitkaardi autoriseerimisel kontrollitakse kaardi numbrit ja kaardiomaniku nime ning olemasolev kreeditsaldo kinnitatakse. Alternatiivina võib kontrollida kaardi kontrollnumbrit ja kaardiomaniku aadressi. Seejärel vähendatakse kliendi olemasolevat kreeditsaldot arve summa võrra. Makseteenus annab teada, kas krediitkaart on kinnitatud või tagasi lükatud. Kui müügitellimus on arveldatud, võetakse krediitkaardilt tasu (hõivatakse) arve summa väärtuses.
 
@@ -80,3 +74,6 @@ Krediitkaardi autoriseerimise tühistamiseks saate muuta makseviisi teise meetod
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

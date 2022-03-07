@@ -1,12 +1,10 @@
 ---
-title: Funktsioonide haldamine
+title: Lahenduse Human Resources funktsioonide haldamine
 description: Saage teada, kuidas lülitada uusi funktsioone rakenduses Dynamics 365 Human Resources sisse või välja.
 author: andreabichsel
-manager: AnnBe
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: FeatureManagementWorkspace
 audience: Application User
@@ -18,14 +16,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9176e9519c3bf65ef7a4f1b5ae43dbeb411750f5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 80799b770f0ede9ca1175a44dd738ae635d012c2
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418193"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5793821"
 ---
-# <a name="manage-features"></a>Funktsioonide haldamine
+# <a name="manage-features-in-human-resources"></a>Lahenduse Human Resources funktsioonide haldamine
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Rakenduse Microsoft Dynamics 365 Human Resources pidevate uute võimaluste levitamise osana tahame, et kliendid saaksid proovida uusi funktsioone niipea kui võimalik. Pakume uusi eelvaatefunktsioone, mis on peaaegu valmis üldiseks kasutamiseks ja on läbinud põhjalikud kontrollid. Eelvaatefunktsioonide puhul soovime saada täiendavat kasutajate tagasidet ja kinnitust, enne kui funktsioonid üldiselt kättesaadavaks teeme.
 
@@ -94,3 +94,5 @@ Ootame teie tagasisidet teie kogemuse kohta nende eelvaatefunktsioonidega. Soovi
 
 - [Mis on rakenduses Human Resources uut?](hr-admin-whats-new.md)
 - [Dynamics 365 ja Power Platformi väljalaskeplaan](https://docs.microsoft.com/dynamics365/release-plans/#pivot=products&panel=products1)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,26 +2,23 @@
 title: Põhivara ülekandmine
 description: See tegevuse juhis kannab põhivara raamatu finantsteabe ühest finantsdimensioonist kogumist uude finantsdimensiooni kogumisse.
 author: saraschi2
-manager: AnnBe
 ms.date: 07/22/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetTable, AssetTransfer, DimensionLookup, AssetTransferConfirmation
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: eb38483d3ac61acb4513e87d8c36ddd0f8863a10
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 7588e0058713d7facf053aa269210fc88e5a3ff2
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442378"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823880"
 ---
 # <a name="transfer-a-fixed-asset"></a>Põhivara ülekandmine
 
@@ -48,3 +45,6 @@ See tegevuse juhis kannab põhivara raamatu finantsteabe ühest finantsdimensioo
     * Enne põhivara raamatu ülekandmist vaadake tulemusi.  
 10. Klõpsake **Edasta**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

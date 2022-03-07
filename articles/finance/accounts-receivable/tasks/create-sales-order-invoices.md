@@ -2,26 +2,23 @@
 title: Müügitellimuse arvete loomine
 description: Selles tegevuse juhises kirjeldatakse müügitellimuse arveldust, sh arvete ühendamine ja pakktöötlus.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 06/25/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesTableListPage, SalesEditLines,  SysQueryForm, SysRecurrence
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c504ef36f61613c7aa7db5a1e5ddba6e69cd7285
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 984bb482f357e35dcfa4c08597a6be9e39817b98
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442494"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5837101"
 ---
 # <a name="create-sales-order-invoices"></a>Müügitellimuse arvete loomine
 
@@ -68,3 +65,6 @@ Selles tegevuse juhises kirjeldatakse müügitellimuse arveldust, sh arvete ühe
 10. Klõpsake **Tühista**.
 11. Klõpsake nuppu **Jah**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

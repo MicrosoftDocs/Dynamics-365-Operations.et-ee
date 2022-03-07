@@ -2,9 +2,11 @@
 title: Tööpoliitikad
 description: Selles teemas selgitatakse, kuidas seadistada tööpoliitikat.
 author: perlynne
+manager: tfehr
 ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWorkPolicy
 audience: Application User
@@ -12,21 +14,21 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-31
-ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 1d4ee3f1bffaf00c20758f6a3f399451d3122291
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.13
+ms.openlocfilehash: 3e7814790bce0aee648421e3a69d702fd0012404
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571157"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5248543"
 ---
 # <a name="work-policies"></a>Tööpoliitikad
 
 [!include [banner](../includes/banner.md)]
 
-See teema selgitab, kuidas häälestada süsteemi ja mobiilirakendust Warehouse Management, et nad toetaksid tööpoliitikaid. Seda funktsiooni saate kasutada lao kiireks registreerimiseks, loomata ladustamistööd, kui võtate vastu ostu-või üleviimistellimusi või kui lõpetate tootmisprotsesse. See teema annab üldteavet. Üksikasjalikku teavet, mis on seotud litsentsiplaadi vastuvõtmisega, leiate teemast [Litsentsiplaadi vastuvõtmine mobiilirakenduse Warehouse Management kaudu](warehousing-mobile-device-app-license-plate-receiving.md).
+See teema selgitab, kuidas häälestada süsteemi ja rakenduse ladu, et nad toetaksid tööpoliitikaid. Seda funktsiooni saate kasutada lao kiireks registreerimiseks, loomata ladustamistööd, kui võtate vastu ostu-või üleviimistellimusi või kui lõpetate tootmisprotsesse. See teema annab üldteavet. Üksikasjalikku teavet, mis on seotud litsentsiplaadi vastuvõtmisega, leiate teemast [Litsentsiplaadi vastuvõtmine laorakenduse kaudu](warehousing-mobile-device-app-license-plate-receiving.md).
 
-Tööpoliitika kontrollib, kas lao töö on loodud, kui toodetud kaup on lõpetatuks kinnitatud või kui kaubad võetakse vastu lao mobiilirakenduse Warehouse Management abil. Seadistage iga tööpoliitika, määratledes tingimused, mille puhul see kehtib: töötellimuse tüübid ja protsessid, lao asukoht ja (valikuliselt) tooted. Näiteks peab toote *A0001* ostutellimuse vastu võtma asukohas *RECV* laos *24*. Hiljem tarbitakse toodet teises protsessi asukohas *RECV*. Sellisel juhul saate seadistada tööpoliitika, et vältida ladustatud töö loomist, kui töötaja teatab tootest *A0001*, kui see saabus asukoha *RECV*.
+Tööpoliitika kontrollib, kas lao töö on loodud, kui toodetud kaup on lõpetatuks kinnitatud või kui kaubad võetakse vastu lao rakenduse abil. Seadistage iga tööpoliitika, määratledes tingimused, mille puhul see kehtib: töötellimuse tüübid ja protsessid, lao asukoht ja (valikuliselt) tooted. Näiteks peab toote *A0001* ostutellimuse vastu võtma asukohas *RECV* laos *24*. Hiljem tarbitakse toodet teises protsessi asukohas *RECV*. Sellisel juhul saate seadistada tööpoliitika, et vältida ladustatud töö loomist, kui töötaja teatab tootest *A0001*, kui see saabus asukoha *RECV*.
 
 > [!NOTE]
 > - Selleks, et tööpoliitika oleks aktiivne, peate selle määratlema vähemalt ühes asukohas lehe **Tööpoliitikad** FastTab valikus **Lao asukohad**. 
@@ -200,7 +202,7 @@ Ostutellimus on nüüd vastu võetud, kuid sellega pole seotud ühtegi tööd. V
 
 Järgmises näites on kaks tootmistellimust: *PRD-001* ja *PRD-002*. Tootmistellimusel *PRD-001* on toiming nimega *Assembler*, kus toode *SC1* on teatatud lõpetatuks asukohale *001*. Tootmistellimusel *PRD-002* on toiming nimega *Värvimine* ja tarbib toodet *SC1* asukohast *001*. Tootmistellimus *PRD-002* tarbib ka toormaterjali *RM1* asukohast *001*. Toormaterjali *RM1* hoitakse laoasukohas *BULK-001* ja komplekteeritakse asukohale *001* laotööga toormaterjali komplekteerimiseks. Komplekteerimistöö luuakse tootmise *PRD-002* väljastamisel.
 
-[![Lao tööpoliitikad.](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png)
+[![Lao tööpoliitikad](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png)
 
 Kui plaanite selle stsenaariumi jaoks konfigureerida lao tööpoliitika, peaksite arvestama järgmisi punkte.
 
@@ -295,7 +297,7 @@ Kui tootmistellimus on lõpetatuks kuulutatud, pole ladustamiseks tööd loodud.
 
 Lisateavet mobiilse seadme menüü üksuste kohta vt teemast [Mobiilsete seadmete seadistamine laotöö jaoks](configure-mobile-devices-warehouse.md).
 
-Lisateavet, mis on seotud litsentsiplaadi vastuvõtmisega ja tööpoliitikatega, leiate teemast [Litsentsiplaadi vastuvõtmine mobiilirakenduse Warehouse Management kaudu](warehousing-mobile-device-app-license-plate-receiving.md).
+Lisateavet, mis on seotud litsentsiplaadi vastuvõtmisega ja tööpoliitikatega, leiate teemast [Litsentsiplaadi vastuvõtmine laorakenduse kaudu](warehousing-mobile-device-app-license-plate-receiving.md).
 
 Lisateavet sissetuleva koormuse halduse kohta vt teemast [Ostutellimuste sissetulevate koormate laohaldus](inbound-load-handling.md).
 

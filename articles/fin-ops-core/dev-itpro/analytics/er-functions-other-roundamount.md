@@ -2,11 +2,9 @@
 title: ER-i funktsioon ROUNDAMOUNT
 description: See teema sisaldab teavet selle kohta, kuidas kasutatakse elektroonilise aruandluse (ER) funktsiooni ROUNDAMOUNT.
 author: NickSelin
-manager: kfend
 ms.date: 12/17/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 15a84b086b324ec390d88e8b2617022ad4773977
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 7dfc7817eab68e9dd70ce84e68f26d14fd8cf1df
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683059"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5891205"
 ---
 # <a name="roundamount-er-function"></a>ER-i funktsioon ROUNDAMOUNT
 
@@ -72,7 +70,7 @@ Kui parameeter `round rule` on seatud suvandile **RoundOffType.RoundDown**, üma
 
 Kui parameeter `round rule` on seatud suvandile **RoundOffType.RoundUp**, ümardab see funktsioon nullist eemale lähima ümardatud summani.
 
-Kui parameeter `round rule` on seatud suvandile **RoundOffType.Ordinary**, käitub see funktsioon sarnaselt Exceli funktsioonile [MROUND](https://support.office.com/article/mround-function-c299c3b0-15a5-426d-aa4b-d2d5b3baf427) ja X++ funktsioonile [ROUND](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/dev-ref/xpp-math-run-time-functions#round).
+Kui parameeter `round rule` on seatud suvandile **RoundOffType.Ordinary**, käitub see funktsioon sarnaselt Exceli funktsioonile [MROUND](https://support.office.com/article/mround-function-c299c3b0-15a5-426d-aa4b-d2d5b3baf427) ja X++ funktsioonile [ROUND](../dev-ref/xpp-math-run-time-functions.md#round).
 
 ## <a name="remarks"></a>Märkused
 
@@ -91,3 +89,6 @@ Kui parameeter **model.RoundOff** on seatud suvandile **RoundOffType.RoundUp**, 
 [Muud (ettevõtte domeenipõhised) funktsioonid](er-functions-category-other.md)
 
 [Matemaatilised funktsioonid](er-functions-category-mathematical.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Töövoo kinnitusetappide konfigureerimine
 description: See teema selgitab, kuidas konfigureerida kinnitusetapi atribuute.
 author: ChrisGarty
-manager: AnnBe
 ms.date: 08/23/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -16,16 +14,19 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 09f32833d914c05a1830e2bba36ebe4c66a8a52c
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
-ms.translationtype: HT
+ms.openlocfilehash: 84ff82dcb9f4ce930b4f1122790f7989c56fac35
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797092"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070773"
 ---
 # <a name="configure-approval-steps-in-a-workflow"></a>Töövoo kinnitusetappide konfigureerimine
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 See teema selgitab, kuidas konfigureerida kinnitusetapi atribuute.
 
@@ -158,7 +159,7 @@ Järgige neid etappe, et määrata, kellele kinnitusetapp tuleb määrata.
 
     - **Üksikkinnitaja** – dokumendile rakenduva toimingu määrab esimene isik, kes vastab. Näiteks Sam on edastanud kuluaruande summale 15 000 USA dollarit. Kuluaruanne on praegu määratud Suele, Jole ja Billile. Kui Sue reageerib dokumendile esimesena, rakendatakse tema võetud meetmeid dokumendil. Kui Sue lükkab dokumendi tagasi, lükatakse dokument tagasi ja saadetakse uuesti Samile. Kui Sue kinnitab dokumendi, saadetakse see Annile kinnitamiseks.
 
-        ![Töövoog, millel on kinnitamisprotsess](./media/workflow_multipleusersinstep.gif)
+        ![Töövoog, millel on kinnitamisprotsess.](./media/workflow_multipleusersinstep.gif)
 
     - **Enamik kinnitajaid** – tegevus, mis rakendatakse dokumendile, määratakse siis, kui enamik kinnitajaid vastab. Näiteks Sam on edastanud kuluaruande summale 15 000 USA dollarit. Kuluaruanne on praegu määratud Suele, Jole ja Billile. Kui Sue ja Jo kinnitavad dokumendi esimesena, siis rakendatakse nende võetud meetmeid dokumendil.
 
@@ -276,3 +277,6 @@ Kui kasutaja ei reageeri dokumendile määratud aja jooksul, siis on dokument hi
 
 5. Korrake etappe 3 kuni 4 iga kasutaja puhul, kes tuleb laiendusteele lisada. Saate muuta kasutajate järjekorda.
 6. Kui kasutajad laiendusteel ei reageeri määratud aja jooksul, siis reageerib süsteem dokumendile automaatselt. Süsteemi tegevuse määramiseks valige rida **Tegevus** ja seejärel valige tegevus vahekaardi **Lõpptegevus**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

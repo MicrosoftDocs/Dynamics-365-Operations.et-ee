@@ -2,28 +2,25 @@
 title: Eksperimenteerimine rakenduses Dynamics 365 Commerce
 description: Eksperimenteerimine võimaldab saidiehitajas luua, redigeerida ja hallata lehe paigutust ning sisukäsitlusi. Terviklik eksperimenteerimise tugi on lubatud e-kaubanduse lehtede ja lehel olevate üksuste jaoks.
 author: sushma-rao
-manager: AnnBe
 ms.date: 10/21/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 85eb7a661cc66c42699797cca4fa6820941de7c0
-ms.sourcegitcommit: cd83f2bc0e52e13071ad306e07e4c255fc65cb03
+ms.openlocfilehash: 7641267321e1c97b3f0fa30a97c0519c76fe1b0c0223bdd196b6791d5de7cd8d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "4411813"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6747437"
 ---
 # <a name="experimentation-in-dynamics-365-commerce"></a>Eksperimenteerimine rakenduses Dynamics 365 Commerce
 Eksperimenteerige rakenduses Dynamics 365 Commerce, et kinnitada hüpoteese oma e-kaubanduse lehtede tõhususe kohta ja langetada otsuseid andmetel põhineva kindlustundega. Commerce toetab lehtede, moodulite ja fragmentide A/B-testimist ning võimaldab teil mõõta väljapakutud muudatuste mõju oma veebisaidile.
@@ -42,7 +39,7 @@ Saate luua, redigeerida ning hallata lehe- ja sisukäsitlusi, mida nimetatakse C
 ## <a name="experimentation-lifecycle"></a>Eksperimenteerimise elutsükkel
 Eksperimendi seadistamine, variatsioonide loomine ja eksperimendi käitamine on iteratiivne protsess. Allolev diagramm illustreerib eksperimendi elutsüklit rakenduses Commerce ja kolmanda osapoole teenuses. 
 
-[ ![Eksperimenteerimise elutsükkel](./media/experimentation_lifecycle.svg) ](./media/experimentation_lifecycle.svg#lightbox)
+[ ![Eksperimenteerimise elutsükkel.](./media/experimentation_lifecycle.svg) ](./media/experimentation_lifecycle.svg#lightbox)
 
 Lisateavet iga eksperimenteerimisprotsessi etapi kohta leiate järgmistest teemadest.
 - [Hüpoteesi tuvastamine ja eksperimendi mõõdikute määramine](experimentation-identify.md)
@@ -57,3 +54,6 @@ Lisateavet iga eksperimenteerimisprotsessi etapi kohta leiate järgmistest teema
 
 ## <a name="next-step"></a>Järgmine etapp
 [Hüpoteesi tuvastamine ja eksperimendi edumõõdikute määramine](experimentation-identify.md) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

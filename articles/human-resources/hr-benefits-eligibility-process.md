@@ -2,28 +2,28 @@
 title: Soodustuskõlblikkuse töötlemine
 description: See protseduur näitab, kuidas soodustuskõlblikkuse protsess töötab.
 author: andreabichsel
-manager: AnnBe
 ms.date: 02/03/2020
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysPolicySourceDocumentRuleType, SysPolicyListPage, SysPolicy, HcmBenefitEligibilityPolicy, HcmBenefit, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Version 7.0.0, Human Resources
-ms.openlocfilehash: d23dcf4a16979b14ddf58b54e812f21e6698dfc7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 55137cfa62f40713b2aed740f08ab5ead53b46d8
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418073"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5805870"
 ---
 # <a name="benefit-eligibility-process"></a>Soodustuskõlblikkuse töötlemine
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 See protseduur näitab, kuidas soodustuskõlblikkuse protsess töötab. Kui protsess on lõpule viidud, saab tulemusi vaadata. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.
 
@@ -54,3 +54,6 @@ See protseduur näitab, kuidas soodustuskõlblikkuse protsess töötab. Kui prot
 25. Avage oleku veeru filter.
 26. Sordi A-st Z-ni
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

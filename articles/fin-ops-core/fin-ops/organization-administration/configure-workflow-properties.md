@@ -2,11 +2,9 @@
 title: Töövoo atribuutide konfigureerimine
 description: See teema selgitab, kuidas konfigureerida töövoo mitmesuguseid atribuute.
 author: ChrisGarty
-manager: AnnBe
 ms.date: 07/07/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8bd3c9bea010099f83d16dad70261bc2d46a1dac
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 8fabd5a18879b54ce99a71513812fdcdba10a05c6dc91dcc95d34336c8327f4a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693278"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6715162"
 ---
 # <a name="configure-workflow-properties"></a>Töövoo atribuutide konfigureerimine
 
@@ -73,6 +71,9 @@ Võite sisestada juhised kasutajatele, kes saadavad dokumendid töötlemiseks ja
     4. Väljale **Tõlgitud tekst** sisestage tekst.
     5. Teksti isikupärastamiseks saate sisestada kohatäitjad. Vaadake kohatäitjate sisestamise juhiseid 3. toimingust.
     6. Klõpsake valikut **Sule**.
+
+> [!NOTE]
+> Kohatäiteid ei saa kopeerimise ja kleepimise abil lisada, kuna sihtteavet ei kleebita õigesti. Kasutage kohatäidete lisamiseks liidest.
 
 ## <a name="specify-when-this-workflow-is-used-through-activation-conditions"></a>Määrake, millal seda töövoogu kasutatakse aktiveerimistingimuste kaudu
 
@@ -179,3 +180,6 @@ Töövoos tehtud muudatuste kohta kommentaaride sisestamiseks tehke järgmist.
 2. Sisestage kommentaarid väljale **Sisestage kommentaarid töövoo kohta**.
 3. Vaadake kommentaarid üle. Pärast kommentaaride lisamist ei saa neid muuta.
 4. Klõpsake käsku **Lisa**, et lisada kommentaar jaotisesse **Kommentaaride ajalugu**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

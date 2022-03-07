@@ -2,11 +2,9 @@
 title: Töövoo elemendid
 description: Selles teemas kirjeldatakse mitmesuguseid elemente, millest töövoog koosneb.
 author: ChrisGarty
-manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -16,16 +14,19 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b259d733076193cda793a227bd0bb71c232339d1
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
-ms.translationtype: HT
+ms.openlocfilehash: e9491b8ee6da69ba93c830bf0721c1d58fd4385b
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797572"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070446"
 ---
 # <a name="workflow-elements"></a>Töövoo elemendid
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Selles teemas kirjeldatakse mitmesuguseid elemente, millest töövoog koosneb.
 
@@ -62,7 +63,7 @@ Töövoog koosneb elementidest. Järgmised jaotised kirjeldavad iga elemenditü�
 
 Töövoo saab luua kas dokumentide või dokumendi reakaupade töötlemiseks. Näiteks olete loonud kinnitustöövoo ajatabelite jaoks. (Viitame sellele töövoole kui *dokumenditöövoole*.) Saate sellele dokumendi töövoo elemendile lisada *rea kauba töövoo*. Rea kauba elemendi käitamisel esitatakse dokumendi iga reakaup töötlemiseks. Võite lasta kõiki rea kaupu töödelda sama rea kauba töövooga või lasta iga reakaupa töödelda eraldi rea kauba töövooga. Oletagem, et töötaja on esitanud ajatabeli, mis sarnaneb järgmisel joonisel toodule.
 
-![Töövoog rea kaupadega](./media/workflow_lineitemworkflow.gif)
+![Töövoog rea kaupadega.](./media/workflow_lineitemworkflow.gif)
 
 Selles stsenaariumis võib olla vaja luua järgmised reaüksuse töövood.
 
@@ -89,3 +90,6 @@ Järgmised elemendid võimaldavad teil kujundada töövood, mis on alternatiivse
 ### <a name="subworkflow"></a>Alamtöövoog
 
 *Alamtöövoog* on teise töövoo kontekstis käitatav töövoog.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

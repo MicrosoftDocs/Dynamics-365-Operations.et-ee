@@ -2,28 +2,25 @@
 title: Kaubastamisolemite sortimisjärjestuse muutmine
 description: Selles teemas selgitatakse mõisteid, mis on seotud erinevate kaubastamisega seotud olemite kuvamisjärjestuse juhtimisega rakenduses Dynamics 365 Commerce.
 author: josaw1
-manager: AnnBe
 ms.date: 08/05/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: Category, Retail product hierarchy, Navigation hierarchy
 audience: Application User, Merchandising manager, Catalog manager
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 268444
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b983cb5c63db171c76d34375a93a2b9086185d3a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 31798508e4cc71e31a30dc91acebfdde8226b16c
+ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411681"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5937058"
 ---
 # <a name="change-the-sort-order-for-merchandising-entities"></a>Kaubastamisolemite sortimisjärjestuse muutmine
 
@@ -87,4 +84,7 @@ Kategooriate kuvamisjärjestuse konfigureerimine kanali navigeerimise hierarhias
 ![Müügikoht kohandatud sorteeritud kategooriatega](./media/POSChannelCategoriesCustomSorted.png)
 
 > [!NOTE]
-> Kohandatud sortimisjärjestuse funktsioon on vaikimisi välja lülitatud. Selle ja paljude teiste funktsiooni sisselülitamiseks vaadake teemat [Funktsioonide haldus](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/feature-management/feature-management-overview).
+> Kohandatud sortimisjärjestuse funktsioon on vaikimisi välja lülitatud. Selle ja paljude teiste funktsiooni sisselülitamiseks vaadake teemat [Funktsioonide haldus](/dynamics365/unified-operations/fin-and-ops/get-started/feature-management/feature-management-overview).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

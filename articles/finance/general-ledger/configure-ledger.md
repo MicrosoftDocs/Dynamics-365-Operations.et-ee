@@ -2,26 +2,23 @@
 title: Pearaamatute konfigureerimine
 description: See teema annab teavet selle kohta, kuidas konfigureerida iga juriidilise isiku jaoks pearaamatuid. See hõlmab teavet valuutade, majandusaasta kalender, kontoplaani ja konto struktuuride valimise kohta, mida tuleks kasutada iga juriidilise isiku puhul.
 author: kweekley
-manager: ''
 ms.date: 09/24/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: Ledger
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: ''
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-09
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 929ab7ae66a217de836ce49373faed76325c4d3a
-ms.sourcegitcommit: ac0a676c91e3053ad7f9432d576c9af3ff98a99a
-ms.translationtype: HT
+ms.openlocfilehash: 3e6c4d966f2720339941fb848ff9ac79e4593868ce10d3712efbb1ad18a9ceea
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4442583"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6712215"
 ---
 # <a name="configure-ledgers"></a>Pearaamatute konfigureerimine
 
@@ -82,3 +79,6 @@ Kui kasutate kahte valuutat või kui kasutate ühte valuutat, kuid kanded sisest
 Realiseeritud kasumid ja kahjumid on lõpetatud kannetest saadud kasumid ja kahjumid. Need kirjendatakse kasumi- ja kahjumiaruannetes. Realiseerimata kasumid ja kahjumid on teoks saanud kasumid ja kahjumid, kuid kanne pole lõpetatud. Teisisõnu olete näiteks sisestanud arve, kuid arvet pole veel tasutud. Realiseerimata kasumid ja kahjumid kirjendatakse bilansis.
 
 Lisateavet kahe valuuta kasutamise kohta vt teemast [Topeltvaluuta](dual-currency.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

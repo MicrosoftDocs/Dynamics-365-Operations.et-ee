@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-08-19
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 438a640124e778b839c660f5e161efa22c319af0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b90ae491605bf59b93137936a2804c4b84c6e1b7
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442217"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5204878"
 ---
 # <a name="sales-tax-specification-by-ledger-transaction-report"></a>Käibemaksu täpsustus pearaamatu kannete aruande alusel
 [!include [banner](../includes/banner.md)]
@@ -58,3 +57,6 @@ Aruande loomisel on saadaval järgmised vaikeväljad. Saate neid välju kasutada
 Aruandes ainult mitte-maksukontode kuvamiseks seadistage filtri tingimus, nt asterisk (\*), nii nagu näidatud järgmisel joonisel.
 
 ![Mitte-maksukontosid näitav aruanne](media/taxspecperledgertrans.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

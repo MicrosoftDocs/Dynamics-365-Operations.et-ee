@@ -2,11 +2,13 @@
 title: Ostutaotlused
 description: See teema kirjeldab, kuidas on ostutaotlused rakenduses Planning Optimization toetatud.
 author: ChristianRytt
+manager: tfehr
 ms.date: 01/04/2021
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ReqPlanSched, ReqGroup
+ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: ''
@@ -16,16 +18,14 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2021-01-04
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 1d6fd4be0ee1913264c4a565234cfdf711365792
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 8075f8d7c3868c6d6012edbce17dbbb4749209ab
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570860"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4992340"
 ---
 # <a name="purchase-requisitions"></a>Ostutaotlused
-
-[!include [banner](../../includes/banner.md)]
 
 Koondplaneerimine saab kinnitatud ostutaotlusi täiendada. Seega ei pea kasutajad kasutama ostutaotluste katteks ostutellimuste loomise töövoogu. Selle asemel saab ostutaotlusi katta koondplaneerimisega. Selle funktsiooni tõttu saab ostutaotlus luua ostutellimuse, üleviimistellimuse või tootmistellimuse, sõltuvalt seotud tootele määratud väärtusest **Plaanitud tellimuse tüüp**.
 
@@ -44,7 +44,7 @@ Koondplaani laovarude arvutamiseks taotluse kaasamiseks tehke järgmist.
 
 ### <a name="set-the-approved-requisitions-time-fence-for-a-coverage-group"></a>Laovarude grupi kinnitatud taotluse ajapiiri määramine
 
-1. Avage **Koondplaneerimine** \> **Seadistus** \> **Laovarud** \> **Laovarude grupid**.
+1. Avage **Koondplaneerimine** \> **Seadistus** \> **Laovarud** \> **Laovarude grupp**.
 1. Looge või valige laogrupp.
 1. Määrake kiirkaardil **Muu** väli **Kinnitatud ostutaotluste ajapiir (päevades)** päevade arvule, mis ajapiiri kaasata.
 1. Korrake samme 2 ja 3 iga täiendava laovarude grupi jaoks, millele soovite kinnitatud ostutellimuste ajapiiri seadistada.
@@ -101,6 +101,3 @@ Kui koondplaneerimine töötab, luuakse kaks plaanitud tellimust: üks kolme üh
 > Pärast ostutaotlusega seotud plaanitud tellimuse kinnitamist edastab planeerimismootor sidumise ostutaotlusele. Kui hiljem leitakse, et kinnitatud tellimusel puudub mõni ostutaotluse täitmiseks vajalik kogus, loob süsteem erinevuse jaoks uue plaanitud tellimuse.
 
 Täpsemat teavet ostutaotluste kohta vt teemast [Ostutaotluste ülevaade](../../procurement/purchase-requisitions-overview.md).
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

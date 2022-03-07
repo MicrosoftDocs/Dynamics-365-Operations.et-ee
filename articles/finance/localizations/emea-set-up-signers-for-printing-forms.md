@@ -10,18 +10,17 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 263464
 ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, Russia
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 64868aa08201fa3df99cd86fa6ef5231a9347151
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6947a71992e2b30fedd7e4594fa041b459b851ff
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407868"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5236216"
 ---
 # <a name="set-up-signers-for-print-forms"></a>Prinditud vormide allkirjastajate seadistamine
 
@@ -165,3 +164,6 @@ Ametiisikute funktsioon näitab vaikimisi eelmääratud allkirjastajaid tabelis 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

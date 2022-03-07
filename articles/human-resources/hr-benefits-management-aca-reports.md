@@ -1,34 +1,34 @@
 ---
 title: Taskukohase ravikindlustuse eelnõu (ACA) aruannete koostamine soodustuste halduses
-description: Käesolevas teemas kirjeldatakse, kuidas Soodustuste haldus jälgib teavet, mis on esitatud Taskukohase ravikindlustuse eelnõu (ACA) tööandja kohustuse vormidega 1095-B ja 1095-C.
-author: twheeloc
-ms.date: 08/23/2021
+description: Käesolevas teemas kirjeldatakse, kuidas Soodustuste haldus aitab jälgida teavet, mis on esitatud Taskukohase ravikindlustuse eelnõu (ACA) tööandja kohustuse vormidega 1095-B ja 1095-C.
+author: andreabichsel
+manager: tfehr
+ms.date: 12/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-12-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 79bd8e02aeac1be94e735373740cf9508f494a06
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: 24df18f428e4ca14859bc34048a6bda5e03d1b2f
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065989"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5464370"
 ---
 # <a name="generate-aca-reports-in-benefits-management"></a>ACA-aruannete loomine soodustuste halduses
 
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Soodustuste haldus jälgib teavet, mis on esitatud Taskukohase ravikindlustuse eelnõu (ACA) tööandja kohustuse vormidega 1095-B ja 1095-C. Nagu ka ACA aruandluse võimalused vanas tööruumis **Soodustused**, kehtib see funktsioon ainult USA juriidilistele isikutele.
+Soodustuste haldus aitab jälgida teavet, mis on esitatud Taskukohase ravikindlustuse eelnõu (ACA) tööandja kohustuse vormidega 1095-B ja 1095-C. Nagu ka ACA aruandluse võimalused vanas tööruumis **Soodustused**, kehtib see funktsioon ainult USA juriidilistele isikutele.
 
 Selle funktsiooni kasutamiseks peate esmalt lülitama sisse suvandi **Täpsem soodustuste haldus**. Lisateavet, sealhulgas olulisi hoiatusi soodustuste halduse kohta leiate jaotisest [Soodustuste halduse lubamine või keelamine](hr-admin-manage-features.md#enable-or-disable-benefits-management).
 
@@ -51,11 +51,11 @@ Ravikindlustusega hõlmatud grupid aitavad teil hallata neid andmeid mitme töö
 
 1. Valige tööruumis **Soodustuste haldus** valik **Ravikindlustusega hõlmatud grupp**.
 
-    ![Ravikindlustusega hõlmatud grupi valimine.](./media/hr-benefits-management-aca-coverage-group.png)
+    ![Ravikindlustusega hõlmatud grupi valimine](./media/hr-benefits-management-aca-coverage-group.png)
 
 2. Uue ravikindlustusega hõlmatud grupi loomiseks valige **Uus** või olemasoleva grupi redigeerimiseks valige **Redigeeri**.
 
-    ![Uue või Redigeerimise valik.](./media/hr-benefits-management-aca-new.png)
+    ![Uue või Redigeerimise valik](./media/hr-benefits-management-aca-new.png)
 
 3. Seadistage järgmised väljad.
 
@@ -70,7 +70,7 @@ Ravikindlustusega hõlmatud grupid aitavad teil hallata neid andmeid mitme töö
     | Grupp kehtib alates | Esimene kuupäev, millal see kirje kehtib. |
     | Grupp kehtib kuni | Viimane kuupäev, millal see kirje kehtib. Kui aegumiskuupäev puudub, sisestage **Mitte kunagi**. |
 
-    ![Kindlustuskaitse grupi loomine.](./media/hr-benefits-management-aca-new-group.png)
+    ![Kindlustuskaitse grupi loomine](./media/hr-benefits-management-aca-new-group.png)
 
 4. Valige käsk **Salvesta**.
 
@@ -80,7 +80,7 @@ Ravikindlustusega hõlmatud grupid aitavad teil hallata neid andmeid mitme töö
 2. Valige grupp, millele töötajaid määrata.
 3. Valige **Massiline määramine**.
 
-    ![Massilise määramise valimine.](./media/hr-benefits-management-aca-mass-assignment.png)
+    ![Massilise määramise valimine](./media/hr-benefits-management-aca-mass-assignment.png)
 
 4. Valige loendist töötajad ja seejärel valige käsk **Määra**.
 
@@ -114,12 +114,12 @@ Ravikindlustusega hõlmatud grupi mistahes väärtustele erandite sisestamiseks 
 2. Valige loendist töötaja.
 3. Valige vahekaardi **Tööhõive** jaotises **Lisateave** suvand **Ravikindlustuskaitse**.
 
-    ![Ühe töötaja valikute muutmine.](./media/hr-benefits-management-aca-change-single-employee.png)
+    ![Ühe töötaja valikute muutmine](./media/hr-benefits-management-aca-change-single-employee.png)
 
 4. Valige suvand **Redigeeri**.
 5. Iga kuu puhul, mis nõuab muudatusi, valige märkeruut **Vaikesätete alistamine** ja seejärel muutke vajadusel muid väärtusi.
 
-    ![Vaikeväärtuste ülekirjutamine.](./media/hr-benefits-management-aca-override-default.png)
+    ![Vaikeväärtuste alistamine](./media/hr-benefits-management-aca-override-default.png)
 
 6. Valige käsk **Salvesta**.
 
@@ -134,7 +134,7 @@ Et näidata, kas soodustusplaanist tuleb teatada, järgige neid samme.
 3. Valige suvand **Redigeeri**.
 4. Seadke suvandi **Taskukohase ravikindlustuse eelnõu aruanne** väärtuseks **Jah**.
 
-    ![Tervisekindlustuse registreerimine.](./media/hr-benefits-management-aca-report-coverage.png)
+    ![Tervisekindlustuse registreerimine](./media/hr-benefits-management-aca-report-coverage.png)
 
 5. Valige käsk **Salvesta**.
 
@@ -148,25 +148,25 @@ Saate luua ka vormid 1095-B ja 1095-C ning jaotada need igale töötajale. Võit
 2. Muutke parameetreid vastavalt vajadusele ja valige **OK**.
 
     > [!NOTE]
-    > Rohkem kui 500 töötaja 1095-C vormi printimisel saate rohkem kui ühe PDF-faili. Soovitame suurendada välja **Maksimaalne failisuurus megabaitides** väärtust lehel **Dokumendihalduse parameetrid** väärtusele **150**. (Selle lehe kiireks avamiseks kasutage navigeerimisriba otsinguvälja.)
+    > Rohkem kui 500 töötaja 1095-C vormi printimisel saate rohkem kui ühe PDF-faili. Soovitame suurendada välja **Maksimaalne failisuurus megabaitides** väärtust lehel **Dokumendihalduse parameetrid** väärtusele **150**. (Selle lehe kiireks avamiseks saate kasutada navigeerimisriba otsinguvälja.)
     >
-    > ![Maksimaalse failisuuruse muutmine.](./media/hr-benefits-management-aca-maximum-file-size.png)
+    > ![Maksimaalse failisuuruse muutmine](./media/hr-benefits-management-aca-maximum-file-size.png)
 
 3. Aruannete oleku kontrollimiseks ja nende vaatamiseks kasutage navigeerimisriba otsinguvälja, et avada leht **Elektroonilise aruandluse tööd**.
 
-    ![Elektroonilise aruandluse tööde lehe otsing.](./media/hr-benefits-management-aca-search-electronic-reporting-jobs.png)
+    ![Elektroonilise aruandluse tööde lehe otsing](./media/hr-benefits-management-aca-search-electronic-reporting-jobs.png)
 
 4. Valige vaatamiseks aruanne ja seejärel klõpsake käsku **Kuva failid**.
 
-    ![Failide kuvamine.](./media/hr-benefits-management-aca-show-files.png)
+    ![Failide kuvamine](./media/hr-benefits-management-aca-show-files.png)
 
 5. Valige **Avamine**.
 
-    ![Faili avamine.](./media/hr-benefits-management-aca-open-file.png)
+    ![Faili avamine](./media/hr-benefits-management-aca-open-file.png)
 
 6. Avage brauseriakna allosas kuvatav teavitusriba, avage zip-fail ja seejärel valige aruanne. Saate PDF-faili vaadata või printida.
 
-    ![Vormi 1095-C näidis.](./media/hr-benefits-management-aca-1095-c-form.png)
+    ![Vormi 1095-C näidis](./media/hr-benefits-management-aca-1095-c-form.png)
 
 ## <a name="view-aca-coverage-information"></a>ACA kindlustuskaitse teabe vaatamine
 
@@ -181,7 +181,7 @@ Selle teabe vaatamiseks toimige järgmiselt.
 1. Valige tööruumis **Soodustuste haldus** valik **Töötaja ravikindlustuskaitse**.
 2. Valige grupp väljal **Grupi nimi**.
 
-    ![ACA kindlustuskaitse vaatamine.](./media/hr-benefits-management-aca-view-coverage.png)
+    ![ACA kindlustuskaitse vaatamine](./media/hr-benefits-management-aca-view-coverage.png)
 
 Kui mõni väärtus taskukohase ravikindlustuse grupist on alistatud, kuvatakse muudetud väärtuse kõrval tärn. Kui kõigi 12 kuu väärtused on samad ja neid pole alistatud, kuvatakse väärtus veerus **Kõik 12 kuud**.
 
@@ -201,11 +201,11 @@ Loendite eksportimiseks rakendusse Microsoft Excel järgi neid samme.
 
 Kui peate kindlustuskaitsega inimestest teatama, sest pakute isekindlustuskaitset, saate vaadata ülalpeetavaid, kes on soodustusplaanidega kaitstud ja märgitud kui **ACA-aruandele lisatavad**. Valige toimingupaanil nupp **Vaata ülalpeetavate kindlustuskaitset**.
 
-![Ülalpeetavate kindlustuskaitse vaatamine.](./media/hr-benefits-management-aca-view-dependent-coverage.png)
+![Ülalpeetavate kindlustuskaitse vaatamine](./media/hr-benefits-management-aca-view-dependent-coverage.png)
 
 Kuvatakse töötaja ülalpeetavate kindlustuskaitse teave.
 
-![Ülalpeetavate kindlustus.](./media/hr-benefits-management-aca-dependents.png)
+![Sõltuv kindlustus](./media/hr-benefits-management-aca-dependents.png)
 
 > [!NOTE]
 > Lehel kuvatakse ainult soodustusplaanid, mis on märgitud kui **ACA-aruandele lisatavad**.

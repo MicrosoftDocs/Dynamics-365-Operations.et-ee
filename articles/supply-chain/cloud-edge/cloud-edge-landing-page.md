@@ -1,40 +1,39 @@
 ---
-title: Skaala ühikud jaotatud topoloogias
+title: Skaalaüksuste kasutamine Supply Chain Management töökoormuse suurendamiseks
 description: Selles teemas antakse teavet tootmis- ja laohalduse töökoormuste pilv- ja perimeeterskaalaüksuste kohta.
 author: cabeln
-ms.date: 04/22/2021
+ms.date: 04/13/2021
 ms.topic: article
-ms.search.form: ScaleUnitWorkloadsWorkspace
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: ef81ef7ad726ebe0cc6a0acd58cb68d07e222a42
-ms.sourcegitcommit: 0d14c4a1e6cf533dd20463f1a84eae8f6d88f71b
-ms.translationtype: MT
+ms.openlocfilehash: c47088edd89413d196e904bc7eaa115585bf8464
+ms.sourcegitcommit: 639175a39da38edd13e21eeb5a1a5ca62fa44d99
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/14/2022
-ms.locfileid: "8119183"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "5899139"
 ---
-# <a name="scale-units-in-a-distributed-hybrid-topology"></a>Skaala ühikud jaotatud topoloogias
+# <a name="use-scale-units-to-help-increase-resilience-for-supply-chain-management-workloads"></a>Skaalaüksuste kasutamine Supply Chain Management töökoormuse suurendamiseks
 
 [!include [banner](../includes/banner.md)]
 
 > [!IMPORTANT]
 > Microsofti Dynamics 365 Supply Chain Management mastaabiühiku võimalus tehakse teile kättesaadavaks teenuse kasutamist reguleerivate tingimuste alusel. Lisateavet leiate [Microsoft Dynamics'i juriidilise teabest](https://go.microsoft.com/fwlink/?LinkID=290927).
 >
-> Lubades pilv- ja perimeeterskaalaüksused, palutakse teil kinnitada, et saate aru, et mõned pilv- ja perimeeterskaalaüksuste konfiguratsiooni ja töötlemisega seotud andmed võidakse talletada Ameerika Ühendriikides asuvas andmekeskuses. Lisateavet pilve- ja servaskaalaüksuste andmetöötluse kohta leiate käesoleva teema jaotisest [Andmetöötlus mastaabiühikute haldamisel](#data-processing-management).
+> Lubades pilv- ja perimeeterskaalaüksused, kinnitate, et saate aru, et mõned pilv- ja perimeeterskaalaüksuste konfiguratsiooni ja töötlemisega seotud andmed võidakse talletada Ameerika Ühendriikides asuvas andmekeskuses. Lisateavet pilve- ja servaskaalaüksuste andmetöötluse kohta leiate käesoleva teema jaotisest [Andmetöötlus mastaabiühikute haldamisel](#data-processing-management).
 
-## <a name="core-value-proposition-for-a-distributed-hybrid-topology"></a>Jaotatud hübriid-topoloogia põhiväärtuste ettepanekuks
+## <a name="core-value-proposition-for-scale-units"></a>Skaalaühikute põhiväärtuse töö
 
-Tootmise ja jaotamisega töötavad ettevõtted peavad olema võimelised käivitama olulisi äriprotsesse 24/7, katkestusteta ja nõutud ulatuses. Jaotatud hübriid-topoloogia võimaldab ettevõtetel käitada peamisi olulise tootmis- ja laoprotsesse ilma katkestusteta, isegi siis, kui ilmnevad juhuslikud probleemid internetiühenduse või latentsusega.
+Tootmise ja jaotamisega töötavad ettevõtted peavad olema võimelised käivitama olulisi äriprotsesse 24/7, katkestusteta ja nõutud ulatuses. Pilv- ja perimeeterskaalaüksused võimaldavad ettevõtetel käitada peamisi olulise tootmis- ja laoprotsesse ilma katkestusteta, isegi siis kui ilmnevad juhuslikud probleemid internetiühenduse või latentsusega.
 
-Jaotatud hübriid-topoloogias tutvustatakse *kaaluühikute* mõisteid, mis võimaldavad tööde ja laotäitmiskoormuste jaotamist erinevate keskkondade vahel. See funktsioon aitab parandada jõudlust, ennetada teenuse katkestusi ja maksimeerida tööaega. Mõõtühikud pakutakse Supply Chain Management tellimuse jaoks järgmiste lisandmoodulite kaudu:
+Pilv- ja perimeeterskaalaüksused võimaldavad tootmisjaoskonna ja täideviidavate laotööde töökoormust erikeskkondade vahel jagada. See funktsioon aitab parandada jõudlust, ennetada teenuse katkestusi ja maksimeerida tööaega. Mõõtühikud pakutakse Supply Chain Management tellimuse jaoks järgmiste lisandmoodulite kaudu:
 
-- Pilvskaalaüksuse lisandmoodul rakenduse Dynamics 365 Supply Chain Management jaoks
-- Perimeeterskaalaüksuse lisandmoodul Dynamics 365 Supply Chain Managementi jaoks
+- Dynamics 365 Supply Chain Management Cloud Scale Unit Add-in lisandmoodul ( *saadaval aprillist 2021*)
+- Dynamics 365 Supply Chain Management Edge Scale Unit Add-in lisandmoodul (*saadaval peagi*)
 
 Töökoormuse võimalusi vabastatakse pidevalt astmelise täiustamise kaudu.
 
@@ -42,7 +41,7 @@ Töökoormuse võimalusi vabastatakse pidevalt astmelise täiustamise kaudu.
 
 Skaalaüksused laiendavad teie keskse rakenduse Supply Chain Management keskuse keskkonda, lisades spetsiaalse töötlemise võimsuse. Skaala üksused võivad töötada pilves. Teise võimalusena saavad nad töötada oma kohaliku asutuse ruumide serval.
 
-:::image type="content" source="./media/cloud_edge-HeroDiagram.png" alt-text="Dynamics 365 koos skaala üksustega.":::
+:::image type="content" source="./media/cloud_edge-HeroDiagram.png" alt-text="Dynamics 365 koos skaala üksustega":::
 
 Skaalaüksused pakuvad määratud töökoormustele vastupidavust, töökindlust ja skaalat. Servaskaala üksusi saab pilvejaoturi keskkonnast ajutiselt lahti ühendada. Töötajad jätkavad tööd määratud töökoormusega pilveserval.
 
@@ -52,11 +51,21 @@ Saate konfigureerida keskuse keskkonna ja valitud töökoormus pilve skaala üks
 
 ### <a name="dedicated-warehouse-management-workload-capabilities-in-a-scale-unit"></a>Spetsiaalsed laohalduse töökoormuse võimalused skaala üksuses
 
-Laohalduse töökoormus võimaldab teie laotoimingutel eristatud hooldusaknaid kasutades kaaluda ja käitada paindlikus keskkonnas. Laohalduse töökoormus toetab enamikke ettevõtte keskuse laohaldusprotsesse. Lisateavet vt [Laohalduse töökoormused pilv- ja perimeeterskaalaüksuste jaoks](cloud-edge-workload-warehousing.md).
+Laohalduse töökoormus on esimene skaalaühikute hajutatud töökoormus, mis on üldiseks kättesaadavuseks välja antud.
+
+Laohalduse jaoks pakuvad mastaabiühikud järgmisi võimalusi:
+
+- Süsteem saab töödelda valitud voogmeetodeid müügitellimuste ja nõudluse täiendamise puhul.
+- Laotöötajad saavad teostada müüki ja nõudluse täiendamise lao tööd, kasutades mobiilirakendust Warehouse Management.
+- Laotöötajad saavad teha päringuid vaba kaubavaru kohta, kasutades mobiilirakendust Warehouse Management.
+- Laotöötajad saavad luua ja teostada inventuuri kasutades mobiilirakendust Warehouse Management.
+- Laotöötajad saavad registreerida ostutellimused ja teha ära eeltöö mobiilirakenduse Warehouse Management abil. 
+
+Lisateavet vt [Laohalduse töökoormused pilv- ja perimeeterskaalaüksuste jaoks](cloud-edge-workload-warehousing.md).
 
 ### <a name="dedicated-manufacturing-execution-workload-capabilities-in-a-scale-unit"></a>Spetsiaalsed tootmise käivitamise töökoormuse võimalused skaala üksuses
 
-Tootmise töökoormus pakub järgmisi võimalusi.
+Tootmise töökoormuse esmakordne väljalase on praegu eelvaates ja pakub järgmisi võimalusi:
 
 - Masina operaatorid ja tööde juhtimise haldurid pääsevad ligi operatiivsele tootmisplaanile.
 - Masina operaatorid saavad plaani ajakohasena hoida, töötades eraldi ja menetledes tootmise töid.
@@ -93,7 +102,7 @@ Praegune tootmiskeskkond peab olema märgitud LCS-is **iseteenindus** tüübiga.
 > [!IMPORTANT]
 > Keskkonnatüüpe, mis töötavad infrastruktuuri teenusena (IaaS), ei toetata. Need keskkonnad on tavaliselt sildistatud LCS-is tüübiga **Microsofti hallatud**. Kui teil on seda tüüpi keskkondi, tehke oma Microsofti kontaktiga koostööd, et mõista oma **iseteeninduse** tüübile ülemineku migreerumise ajaskaalat.
 
-Microsoft on üle minemas kõigile Supply Chain Management pilvekeskkondadele IaaS-mudelilt topoloogiale, mida majutatakse asukohas Service Fabric. See samm toob kaasa parema skaleeritavuse ja aitab muuta teenusehalduse lihtsamaks. Seetõttu on juurutamine ja hooldustoimingud kiiremad. Lisaks viiakse teenuse komponendid üle mikroteenuste kontseptsioonile ja teenuse hostimise mudel [läheb](/virtualization/windowscontainers/about/containers-vs-vm) virtuaalse masina (VM) mudelilt üle kergele konteinerarhitektuurile.
+Microsoft on üle minemas kõigile Supply Chain Management pilvekeskkondadele IaaS-mudelilt topoloogiale, mida majutatakse asukohas Service Fabric. See samm toob kaasa parema skaleeritavuse ja aitab muuta teenusehalduse lihtsamaks. Seetõttu on juurutamine ja hooldustoimingud kiiremad. Lisaks viiakse teenuse komponendid üle mikroteenuste kontseptsioonile ja teenuse hostimise mudel [läheb](https://docs.microsoft.com/virtualization/windowscontainers/about/containers-vs-vm) virtuaalse masina (VM) mudelilt üle kergele konteinerarhitektuurile.
 
 Lõppkokkuvõttes toidab sama Service Fabricil põhinev konteinerteenuse infrastruktuur nii teenuse pilve- kui ka servaeksemplare, olenemata sellest, kas eksemplar on pilvejagu või mastaabiühik pilves või pilveservas.
 
@@ -148,7 +157,7 @@ Mastaabiühikuid pakutakse mitmes laohoiuühikus (SKU) ja hinnakujundusvõimalus
 
 Algtaseme SKU on tuntud kui *Peamine* ja jõulisem SKU on tuntud kui *Standardne*. Iga SKU on eellaaditud kindla arvu igakuiste tehingutega. Siiski saate igakuist kandeeelarvet suurendada, lisades iga SKU jaoks ülekulu lisandmoodulid.
 
-:::image type="content" source="media/SKUs-highlevel.png" alt-text="Pilvskaalaüksuse lisandmoodulid.":::
+:::image type="content" source="media/SKUs-highlevel.png" alt-text="Pilvskaalaüksuse lisandmoodulid":::
 
 > [!TIP]
 > Teie vajadustele kõige paremini vastava suuruse tuvastamiseks tehke koostööd oma partneri ja Microsoftiga, et mõista igakuist tehingumahtu, mida vajate.
@@ -172,68 +181,30 @@ Kui teie otsitavat üürnikku ei ole loendis, minge [LCS](https://lcs.dynamics.c
 
 Iga üürniku kohta kuvatakse loendis juurutamise olek.
 
-:::image type="content" source="media/cloud_edge-EnableHybrid1.png" alt-text="Rentnike loend vahekaardil Dynamics 365 Tenants.":::
+:::image type="content" source="media/cloud_edge-EnableHybrid1.png" alt-text="Rentnike loend vahekaardil Dynamics 365 Tenants":::
 
 LCS-rentniku juurutamise taotlemiseks valige suvand **Alustamiseks klõpsake siin**. Peate tingimustega nõustuma. Peate sisestama ka ettevõtte meiliaadressi, kuhu Microsoft saab saata teateid, mis on seotud juurutamise protsessiga.
 
-:::image type="content" source="media/cloud_edge-EnableHybrid2.png" alt-text="Registreerumise ettepanek üürnikule.":::
+:::image type="content" source="media/cloud_edge-EnableHybrid2.png" alt-text="Registreerumise ettepanek üürnikule":::
 
 Microsoft vaatab teie taotluse läbi ja teavitab teid järgmisest sammudest, saates e-kirja aadressile, kust saatsite registreerimise vormi. Microsoft teeb teiega tihedat koostööd, et lubada äristsenaariumi hübriidtopoloogias skaalaühikud.
 
 Kui juurutamine on lõpule jõudnud, saate pordi abil konfigureerida mastaabiühikuid ja töökoormusi.
 
-### <a name="manage-scale-units-and-workloads-by-using-the-scale-unit-manager-portal"></a><a name="scale-unit-manager-portal"></a> Kaaluühikute ja töökoormuste haldamine kaaluühiku halduri portaali abil
+### <a name="manage-cloud-scale-units-and-workloads-by-using-the-scale-unit-manager-portal"></a><a name="scale-unit-manager-portal"></a>Hallake pilve skaala üksuseid ja töömahtei, kasutades Scale Unit Manageri portaali
 
 Avage [Scale Unit Manageri portaal](https://aka.ms/SCMSUM) ja logige sisse oma rentniku konto abil. Lehel **Skaalaüksuste konfigureerimine** saate lisada keskse keskkonna, kui see ei ole juba loetletud. Seejärel saate valida keskuse, mida soovite konfigureerida koos skaala ühikute ja töömahuga.
 
-:::image type="content" source="media/cloud_edge-Manage.png" alt-text="Kaaluühiku halduri portaal, skaala ühikute konfigureerimise leht.":::
+:::image type="content" source="media/cloud_edge-Manage.png" alt-text="Skaala üksuse ja töömahu haldamise kogemus":::
 
 Ühe või mitme skaala üksuste lisamiseks, mis on saadaval teie tellimustel, valige **Lisa skaala ühikud**.
 
 Vahekaardil **Määratletud töömahud** Kasutage **nuppu Loo töökoormus,** et lisada laohalduse töömaht ühte teie skaalajaotise üksustest. Iga töömahu puhul peate määrama töömahule kuuluvate protsesside konteksti. Laohalduse töökoormuste puhul on kontekst konkreetne ladu kindlas tegevuskohas ja juriidiline üksus.
 
-:::image type="content" source="media/cloud_edge-DefineWorkload.png" alt-text="Töökoormuste dialoogi määratlemine.":::
-
-#### <a name="manage-workloads"></a><a name="manage-workloads"></a> Töökoormuste haldamine
-
-Kui üks või mitu töökoormust on lubatud, kasutage suvandit Halda töökoormusi **selliste protsesside käivitamiseks ja haldamiseks, nagu need,** mis on loetletud järgmises tabelis.
-
-| Töötle | Kirjeldus |
-|---|---|
-| Peata kaaluüksuse side | Peatage müügivõimaluste sõnumid keskuse ja kaaluühiku vahel. See protsess peatab kommunikatsiooni ja lõpetage andmevõimaluste töö keskuse ja kaalu üksuste vahel. Enne hankeahela halduse hooldamistoimingu käivitamist kas keskusel või kaaluühikul peate käitama seda protsessi, kuid võite seda kasutada ka teistes olukordades. |
-| Jätka kaaluühiku sidet | Jätkake müügivõimaluste teateid keskuse ja kaaluühiku vahel. Teil võib olla vaja seda protsessi kasutada näiteks pärast tarneahela haldamise hooldamistoimingu käivitamist kas keskusel või kaaluühikul. |
-| Töökoormuste täiendamine | Sünkroonige uued funktsioonid keskuse ja kaalu ühiku töökoormuste vahel. Seda protsessi võib olla vaja kasutada näiteks siis, kui selle hooldamine on põhjustanud andmevahetuspäringute muutmise ja/või on töökoormusse lisanud uued tabelid või väljad. |
-| Töökoormuste ülekandmine kaaluühikusse | Planeerige töökoormus, mis töötab hetkel keskusel ja mis teisaldatakse kaaluühikusse. Selle protsessi käivitamisel toimub andmete sünkroonimine ning seadistatakse nii keskus kui ka kaaluühik, et muuta töökoormuse omandust. |
-| Kanna kaaluühik keskusesse | Planeerige töökoormus, mis töötab praegu keskusesse teisaldamiseks kaaluühikul. Selle protsessi käivitamisel toimub andmete sünkroonimine ning seadistatakse nii keskus kui ka kaaluühik, et muuta töökoormuse omandust.
-| Hädaolukorra siiret keskusesse | <p>Kandke olemasolev töökoormus kohe keskusesse. *See protsess muudab ainult hetkel keskuses saadaolevate andmete omameid.*</p><p><strong>Hoiatus.</strong> See protsess võib põhjustada sünkroonimata andmete andmekadu ja äritöötlemise nurjumise. Seetõttu tuleks seda kasutada ainult tootmisprotsessides, kus äriprotsesse tuleb keskuse puhul töödelda, kuna kaaluühikul on väljaminekuid, mida ei saa mõistlike aja jooksul leevendada.</p> |
-| Lahtijätmise jaotatud topoloogia | Eemaldage kaaluühiku juurutamine ja käivitage see ainult keskusel ilma töökoormuse töötlemiseta. |
-
-:::image type="content" source="media/sum-manage-workloads.png" alt-text="Skaala üksuse ja töömahu haldamise kogemus.":::
+:::image type="content" source="media/cloud_edge-DefineWorkload.png" alt-text="Töömahu loomine":::
 
 > [!TIP]
-> Aja jooksul lisatakse skaala üksusehalduri kogemusele astmelised täiustused, mis aitavad elutsükli haldamise toiminguid lihtsustada. Praeguse väljaande konkreetsed võimalused on dokumenteeritud põhiraamatus, mis on saadaval klientidele, kes on tarneahela haldamise jaotava topoloogiaga kooskõlas. <!-- KFM: Add a link to the handbook when it is published -->
-
-## <a name="feature-management-considerations-for-workloads"></a>Funktsioonihalduse kaalutlused töökoormuste puhul
-
-See jaotis selgitab mõningaid olulisi aspekte, mida peaksite arvestama töökoormuste installimisel, funktsioonide lisamisel või jaotatud topoloogia juurutamisel funktsioonide eemaldamisel. Mitmed stsenaariumid võivad mõjutada seda, kas peate pärast muudatuste [tegemist käivitama](#manage-workloads) töökoormuse täienduse. Tavaliselt tuleb seda teha siis, kui uuendate või lisate uusi andmevahetuspäringuid ja/või kui lisate uued tabelid või väljad eelnevalt installitud töökoormusse.
-
-### <a name="mandatory-features-for-installing-a-workload"></a>Kohustuslikud funktsioonid töökoormuse installimiseks
-
-Töökoormuse installimisel loob installiprotsess töökoormuse definitsiooni, mis sisaldab teavet andmetabelite kohta, mida kasutatakse andmete sünkroonimisel kahe juurutuse vahel. Töökoormuse definitsiooni loomist käsitletakse automaatselt funktsioonide põhjal, mis on funktsioonihalduses praegu [lubatud](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). Järgmises tabelis loetletakse funktsioonid, mis peavad olema lubatud lao või tootmise töökoormuse käivitamiseks vajalike töökoormuse määratluste loomiseks.
-
-| Kohustuslik funktsioon | Töökoormus |
-|---|---|
-| Juhendite automaatne määramine WHS-i kasutaja loomisel | Ladu |
-| Organisatsiooniülene töö blokeerimine | Ladu |
-| Saadetise voo sildi üksikasjad | Ladu |
-| Laorakenduse tööloendite skaalaüksuse tugi | Ladu |
-| Tootmisosakonna täideviimine | Tootmine |
-
-Kui juurutate töökoormuse, [...](https://github.com/microsoft/SCMScaleUnitDevTools)[kasutades ühe boksi arenduskeskkonna kaalu ühiku juurutamise tööriistu või kaaluühiku juhi portaali](https://sum.dynamics.com), lubatakse kõik kohustuslikud funktsioonid automaatselt. Kui te aga teete testjuurutuse käsitsi, kus puudub üks või mitu kohustuslikku funktsioone, nurjub töökoormuse installimine ja te saate teate, mis loetleb puuduvad funktsioonid. Seejärel peate need funktsioonid käsitsi lubama ja töökoormuse installi uuesti läbi tegema.
-
-### <a name="enabling-or-disabling-features-that-have-data-synchronization-dependencies"></a>Andmete sünkroonimise sõltuvuste lubamis- või keelamisfunktsioonid
-
-Funktsioonid, mis mõjutavad andmete valimist, mida sünkroonitakse keskuse ja selle kaalu ühikute vahel, mõjutavad ka töökoormuse definitsiooni loomist. Seetõttu on oluline, et need funktsioonid oleks enne töökoormuse installimist lubatud. Kui lubate töökoormuse ajal seda tüüpi funktsiooni, tuleb töökoormuse definitsioon uuesti käivitada, käivitades töökoormuse [täienduse](#manage-workloads) pärast selle funktsiooni lubamist. Sarnaselt, kui keelate funktsiooni, mille puhul andmete sünkroonimise sõltuvusi käitatakse töökoormuse käivitamisel, peate käivitama töökoormuse täienduse, [et](#manage-workloads) eemaldada vastav andmete sünkroonimise teave töökoormuse definitsioonist.
+> Aja jooksul lisatakse skaala üksusehalduri kogemusele astmelised täiustused, mis aitavad elutsükli haldamise toiminguid lihtsustada. Praeguse väljalaske konkreetsed võimalused on dokumenteeritud juurutamise käsiraamatus, mis on saadaval klientidele, kes on käimas Supply Chain Management hajutatud hübriidtopoloogia juurutamisega. <!-- KFM: Add a link to the handbook when it is published -->
 
 [!INCLUDE [cloud-edge-privacy-notice](../../includes/cloud-edge-privacy-notice.md)]
 
