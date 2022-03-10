@@ -2,25 +2,25 @@
 title: Hankija arve kuupäevad
 description: See teema kirjeldab hankija arvetel kuvatavaid kuupäevi. Lisaks selgitatakse, kuidas süsteemi seadistada nii, et see kohandaks automaatselt postitamiskuupäeva.
 author: sunfzam
-ms.date: 08/30/2021
+ms.date: 2/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-08-30
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: a066f828b47f297b8ad520b9eb0f4f311d49b111
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
-ms.translationtype: HT
+ms.openlocfilehash: 064a125d448ebb3511db2d9b1f4228380805dc44
+ms.sourcegitcommit: f2a78e0d7d461ca843ac2f9abff7690275db9196
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647884"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8105459"
 ---
 # <a name="vendor-invoice-dates"></a>Hankija arve kuupäevad
 
@@ -50,6 +50,9 @@ Järgige neid samme, et võimaldada süsteemil hankija arvete konteerimiskuupäe
     - **Muuda alati postitamiskuupäev süsteemi kuupäevaks** – süsteem muudab postitamise ajal automaatselt postitamiskuupäeva süsteemi kuupäevaks.
     - **Muutke postitamiskuupäev süsteemikuupäevaks, kui postitamiskuupäeva periood on suletud või ootel** – süsteem muudab postitamise ajal postitamiskuupäeva süsteemi kuupäevaks, kuid ainult siis, kui postitamiskuupäeva vastava perioodi olek on **Suletud** või **Ootel**.
     - **Muutke postitamiskuupäev uue perioodi esimeseks päevaks, kui postitamiskuupäeva periood on suletud või ootel** – süsteem muudab postitamiskuupäeva uue avatud perioodi esimeseks päevaks, kuid ainult siis, kui postitamiskuupäeva vastava perioodi olek on **Suletud** või **Ootel**.
+
+> [!NOTE]
+> Kui uus automaatselt korrigeeritud sisestuskuupäev on uues rahandusaastas, siis arve sisestuskuupäeva ei uuendata. Kasutajale kuvatakse tõrge "Finantsaasta on muutunud. Palun kontrollige sisestuskuupäeva ja sisestage see uuesti." Arve sisestamise kuupäev tuleb sisestamiseks uuendada uuele finantsaasta kuupäevale.
 
 ## <a name="impact-of-posting-date-changes"></a>Postituskuupäeva muutmise mõju
 

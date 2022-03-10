@@ -1,26 +1,24 @@
 ---
 title: Tegevuskoha jaoks graafiku loomine
 description: See protseduur selgitab, kuidas ajastada tootmistellimusi, mida ei ole tegevuskoha jaoks veel alustatud.
-author: ShylaThompson
-manager: tfehr
+author: ChristianRytt
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProdTableListPage, ProdSchedule, ProdRouteJob
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: crytt
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 442826d6611ea4aaedee2e9bae5649ada1cc846d
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 146531217f7f596a5cb98e271b0356ffeb3d5547
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5007887"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7567243"
 ---
 # <a name="create-a-schedule-for-a-site"></a>Tegevuskoha jaoks graafiku loomine
 
@@ -55,3 +53,6 @@ See protseduur selgitab, kuidas ajastada tootmistellimusi, mida ei ole tegevusko
 4. Klõpsake suvandit Materjalid.
     * Sellel lehel saate vaadata tootmistellimuse toimingute eeldatavat materjalikulu ja praegust saadaolevat kaubavaru.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

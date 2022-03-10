@@ -1,26 +1,24 @@
 ---
 title: Lisakulumi seadistamine
 description: See protseduur kirjeldab kulumi erihüvitise loomist ja selle seostamist põhivararaamatuga.
-author: saraschi2
-manager: AnnBe
+author: moaamer
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetBonus, AssetGroup, AssetGroupBookSetup, AssetGroupSetupBonus
 audience: Application User
 ms.reviewer: roschlom
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6627e7fa9a1eb1a9131ec7e2c3cc823b49b286cc
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.openlocfilehash: 6bfa433c07a2acb37c8e73dfa5db7d1e1715cd1d
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5257557"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883666"
 ---
 # <a name="set-up-bonus-depreciation"></a>Lisakulumi seadistamine
 

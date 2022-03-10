@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 67240491bba5a81455bff00be22908670880803c3e08091d76e037fa0b5f49ec
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: ef6b7c619cfce70c2f0b3f676d3cae988674c858
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760510"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474598"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10017-april-2021"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 Supply Chain Management 10.0.17 (aprill, 2021)?
 
@@ -99,10 +99,6 @@ Suurem osa neist funktsioonidest tuleb enne kasutamist [Funktsioonihalduse](../.
 
 Oleme hiljuti lisanud või oluliselt uuendanud järgmisi abiteemasid. Need ei ole tingimata seotud sellele väljalaskele lisatud uute funktsioonidega, nagu on loetletud eelmises jaotises, kuid need võivad aidata teil olemasolevatest funktsioonidest rohkem kasu saada.
 
-### <a name="cost-management"></a>Kuluhaldus
-
-- [Kuluhalduse tõrkeotsing](../cost-management/troubleshoot-costmanagement.md)
-
 ### <a name="asset-management"></a>Varahaldus
 
 - [Varahalduse mobiilse tööruumi häälestamine](../asset-management/set-up-asset-management-mobile.md)
@@ -114,8 +110,6 @@ Oleme hiljuti lisanud või oluliselt uuendanud järgmisi abiteemasid. Need ei ol
 - [Osaline asukoha tsükliline inventuur](../warehousing/partial-location-cycle-counting.md)
 
 - [Komplekteerimisridade grupeerimine](../warehousing/pick-line-grouping.md)
-
-- [Varude toimingute tõrkeotsing](../inventory/troubleshoot-inventory-operations.md)
 
 - [Lao ruumi leidmine](../warehousing/warehouse-slotting.md)
 

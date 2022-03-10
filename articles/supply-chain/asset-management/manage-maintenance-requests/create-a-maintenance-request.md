@@ -1,12 +1,10 @@
 ---
 title: Hooldustaotluste loomine
 description: Selles teemas selgitatakse, kuidas luua hooldustaotlust varahalduses.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 10/01/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetRequestTableCreate
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a85125853b3b69d33f07249e0d2aa7592de1cc8a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.openlocfilehash: 4b48a0504b79d2edf7815296312c7839052092e7d6773b7ebd5d38cbb59c9428
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5253418"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6714976"
 ---
 # <a name="create-maintenance-requests"></a>Hooldustaotluste loomine
 
@@ -32,7 +30,7 @@ ms.locfileid: "5253418"
 
 Hooldustaotlusi saab kasutada juhul, kui hooldustöötajad või tootmistöötajad avastavad, et seadmed vajavad parandamist, kuid parandustööd ei saa kohe ära teha.
 
-**Näide:** kui hooldustöötaja teeb remonti ja avastab, et samas kohas peab hooldama ka teist vara. Hooldustöötajal ei ole aga aega ega vajalikke varuosi parandustöö jaoks. Seetõttu loob ta vara hooldustaotluse ja sisestab probleemi lühikirjelduse.
+**Näide:** kui hooldustöötaja teeb remonti ja avastab, et samal aadressil peab hooldama ka teist vara. Hooldustöötajal ei ole aga aega ega vajalikke varuosi parandustöö jaoks. Seetõttu loob ta vara hooldustaotluse ja sisestab probleemi lühikirjelduse.
 
 Jaotis **Aktiivsed hoolduse taotlused** paanil **Seotud teave** lehe **Kõik varad** paremal küljel või lehel **Aktiivsed varad** (**Varahaldus**\>**Üldine**\>**Varad**\>**Kõik varad** või **Aktiivsed varad**) näitab aktiivseid hooldustaotlusi, mis on seotud valitud varaga.
 
@@ -54,7 +52,7 @@ Jaotis **Aktiivsed hoolduse taotlused** paanil **Seotud teave** lehe **Kõik var
 11. Sisestage väljale **Märkmed** kõik nõutavad täiendavad märkused.
 12. Valige nupp **OK**.
 
-![Hooldusnõude loomine](media/03-manage-maintenance-requests.png)
+![Hooldusnõude loomine.](media/03-manage-maintenance-requests.png)
 
 ## <a name="subsequent-processing-of-maintenance-requests"></a>Hoolduse taotluste hilisem töötlemine
 
@@ -69,7 +67,7 @@ Kui hooldustaotlus on loodud, kuid see on enne teisendatud töötellimuseks, tul
 - Valige hooldustöö tüüp ja kui see teave on asjakohane, seotud hooldustöö variant ja töökaubandus.
 - Väljadele **Laius** ja **Pikkus** sisestage geograafilised koordinaadid. Kõik hooldustaotlusele lisatud koordinaadid kantakse automaatselt üle seotud töötellimusele. 
 
-![Hooldustaotluse uuendamine](media/04-manage-maintenance-requests.png)
+![Hooldustaotluse uuendamine.](media/04-manage-maintenance-requests.png)
 
 > [!NOTE]
 > Kui valite hooldustaotluse loomisel vara, saate sellele varale lisada ühe vea. Pärast hooldustaotluse loomist saate lisada rohkem vigu, kui vajate. Vigade lisamiseks valige **Vara viga** lehel **Kõik hoolduspäringud**.

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 541e6c42ae1fa7d803b5becc1b52e34860777594
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
-ms.translationtype: HT
+ms.openlocfilehash: 527bd24d7f2e9a05f6e617c222005186520f9968
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920594"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103784"
 ---
 # <a name="wave-allocation"></a>Vooeraldus
 
@@ -67,7 +67,7 @@ Paralleeltöötluse seadistamiseks toimige järgmiselt.
 
 ## <a name="enable-or-disable-parallelization-across-all-legal-entities"></a>Paralleelsuse lubamine või keelamine kõigi juriidiliste isikute lõikes
 
-Soovitame seadistada meetodi `allocateWave` käivituma paralleelselt kõigi juriidiliste isikute vahel, sest see aitab parandada voo töötluse jõudlust. Alates Supply Chain Managementi versioonist 10.0.17 lubatakse funktsiooni *Voo eraldamise meetodi voo paralleeliseerimine* jaoks vaikimisi kõigi uute ja uuendatud installide puhul ning seda ei saa enam välja lülitada. Pärast selle funktsiooni lubamist leiab aset järgmine.
+Soovitame seadistada meetodi `allocateWave` käivituma paralleelselt kõigi juriidiliste isikute vahel, sest see aitab parandada voo töötluse jõudlust. Hankeahela halduse versioonis 10.0.17 *käivitatakse* voo paralleelsuse funktsioon Voo eraldamise meetodi funktsiooni jaoks vaikimisi sisse lülitatud kõigi uute ja uuendatud installide puhul ning seda ei saa enam välja lülitada. Pärast selle funktsiooni lubamist leiab aset järgmine.
 
 - `allocateWave` meetodit värskendatakse, et kaasata ülesande konfiguratsiooni säte, mis võimaldab teil kasutada lehte **Vooprotsessi meetodid**, et määrata üheaegselt käitatud ülesannete arv, mis on võrdne paralleelprotsesside arvuga. Seetõttu vähendatakse voo eraldamise sammus kasutatud aega (mis on tavaliselt 30% kuni 60% kogu töötlemisajast) ülesannete arvuga ligikaudselt võrdse teguri võrra. Võimalik on valida ka, milline partii määratakse nende ülesannete töötlemiseks. Oluline on märkida, et kõik teie juriidilised isikud konfigureeritakse töötlema voogusid pakktöötluseks. Ladude puhul, mis on juba konfigureeritud töötlema laineid partiitöötlusena ja ladude puhul, mis on juba konfigureeritud kasutama meetodit `allocateWave` paralleelselt, säilitatakse olemasolev konfiguratsioon.
 - Vaikimisi konfigureeritakse kõik uued juriidilised isikud töötlema voogusid partiitöötlusena. Kõigil uutel **laohaldusprotsesside** suvandiga lubatud ladudel on meetod `allocateWave` konfigureeritud käivituma vaikimisi paralleelselt.

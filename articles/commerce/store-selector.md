@@ -3,14 +3,12 @@ title: Kaupluse valija moodul
 description: See teema hõlmab kaupluse valija moodulit ja kirjeldab, kuidas seda rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
 author: anupamar-ms
 manager: annbe
-ms.date: 09/15/2020
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,34 +16,53 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5400a2e743a78124dca4bf9be3ccaf7870ea8b7d
-ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
-ms.translationtype: HT
+ms.openlocfilehash: 0ee9d3cec9c524f73472929052d46d87f8270ba67568314eceb462b1803cf149
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4665268"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6772152"
 ---
-# <a name="store-selector-module"></a>Kaupluse valija moodul
+# <a name="store-selector-module"></a>Kaupluse valimise moodul
 
 [!include [banner](includes/banner.md)]
 
 See teema hõlmab kaupluse valija moodulit ja kirjeldab, kuidas seda rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
 
-## <a name="overview"></a>Ülevaade
-
 Kliendid saavad kasutada kaupluse valija moodulit, et komplekteerida toode valitud poes pärast Internetis ostlemist. Commerce versioonis 10.0.13 sisaldab kaupluse valija moodul ka täiendavaid võimalusi, mis võivad näidata lehekülge **Leia kauplus**, mis näitab lähedalasuvate kauplusi.
 
 Kaupluse valija moodul võimaldab kasutajatel sisestada asukoha (linn, maakond, aadress jne), et otsida kauplusi otsinguraadiuse piires. Mooduli esmakordsel avamisel kasutab see kaupluste otsimiseks kliendi brauseri asukohta (kui nõusolek on saadud).
 
-## <a name="store-selector-module-usage-in-e-commerce"></a>Kaupluse valija mooduli kasutamine e-kaubanduses
+## <a name="store-selector-module-usage"></a>Kaupluse valimise mooduli kasutus
 
 - Kaupluse valija moodulit saab kasutada toote üksikasjade lehel (PDP), et valida kauplus järele tulemiseks.
 - Kaupluse valija moodulit saab kasutada ostukorvi lehel, et valida kauplus järele tulemiseks.
 - Kaupluse valija moodulit saab kasutada eraldiseisval lehel, kus kuvatakse kõik saadaolevad kauplused.
 
+## <a name="fulfillment-group-setup-in-commerce-headquarters"></a>Täitmisgruppide seadistamine Commerce Headquarters`is
+
+Kaupluse valija saadaolevate kaupluste kuvamiseks peab täitmisgrupp olema seadistatud Commerce'i peakorteris. Lisateabe saamiseks vt [Täitmisgruppide seadistamine](customer-orders-overview.md#set-up-fulfillment-groups).
+
+Lisaks tuleb iga täitmisgruppi kuuluva kaupluse laius- ja pikkuskraad määratleda peakorteris.
+
+Commerce'i peakorteris asuva poe asukoha laius- ja pikkuskraadi väärtuste sisestamiseks toimige järgmiselt.
+
+1. Avage **Varude haldus \> Seadistus \> Laovarude jaotamine**.
+1. Valige vasakpoolsel paanil lao asukoht.
+1. Kiirkaardil **Aadressid** valige **Täpsemalt**.
+
+    ![Kaupluse üksikasjade näide peakorteris.](./media/Store-address.png)
+
+1. Valige Toimingupaanil nupp **Redigeeri**.
+1. Kiirkaardil **Üldine** sisestage **laius-** ja **pikkuskraadide** väärtused.
+
+    ![Peakorteri kaupluse laius- ja pikkuskraadide häälestuse näide.](./media/Store-latitude-longitude.png)
+
+1. Valige toimingupaanil nupp **Salvesta**. 
+
 ## <a name="bing-maps-integration"></a>Bing Maps integratsioon
 
-Kaupluse valija moodul on integreeritud [Bing Maps REST-rakenduse programmeerimise liidestega (API)](https://docs.microsoft.com/bingmaps/rest-services/) Bingi geokodeerimise ja automaatse soovitamise funktsioonide kasutamiseks. Vajalik on Bing Maps kaartide API võti ja see tuleb lisada jagatud parameetrite lehele rakenduses Commerce peakontorid. Geokodeerimise API-d kasutatakse asukoha teisendamiseks laius-ja pikkuskraadideks. Autosuggest API-ga integreerimist kasutatakse otsingusoovituste näitamiseks, kui kasutajad sisestavad asukohad otsinguväljale.
+Kaupluse valija moodul on integreeritud [Bing Maps REST-rakenduse programmeerimise liidestega (API)](/bingmaps/rest-services/) Bingi geokodeerimise ja automaatse soovitamise funktsioonide kasutamiseks. Vajalik on Bing Maps kaartide API võti ja see tuleb lisada jagatud parameetrite lehele rakenduses Commerce peakontorid. Geokodeerimise API-d kasutatakse asukoha teisendamiseks laius-ja pikkuskraadideks. Autosuggest API-ga integreerimist kasutatakse otsingusoovituste näitamiseks, kui kasutajad sisestavad asukohad otsinguväljale.
 
 Autosuggest REST API puhul peate tagama, et järgmised URL-id on lubatud saidi sisu turbepoliitikat (CSP) arvestades. Seadistus toimub Commerce'i saidiehitajas, lisades lubatud URL-id erinevatele saidi CSP-direktiividele (nt **img-src**). Lisateavet leiate teemast [Sisu turbepoliitika](manage-csp.md). 
 
@@ -53,21 +70,21 @@ Autosuggest REST API puhul peate tagama, et järgmised URL-id on lubatud saidi s
 - Lisage direktiivile **img-src** väärtus **&#42;.virtualearth.net**.
 - Lisage direktiivile **script-src** väärtused **&#42;.bing.com, &#42;.virtualearth.net**.
 - Lisage direktiivile **script style-src** väärtus **&#42;.bing.com**.
- 
+
 ## <a name="pickup-in-store-mode"></a>Järgi tulemine kauplusesse režiim
 
 Kaupluse valijate moodul toetab **Järgi tulemine kauplusse** režiimis, mis kuvab kaupluste loendit, kus toode on järgi tulemuseks saadaval. See näitab ka kaupluse lahtioleku aegasid ja iga kaupluse toote laoseisu loendina. Kaupluse valija moodul eeldab toote sisu toote saadavuse kuvamiseks ja kasutaja toote ostukorvi lisamise lubamiseks, kui toote tarneviis on **järgitulemine** valitud kaupluses. Lisateavet vt teemast [Varude sätted](inventory-settings.md). 
 
 Kaupluse valija moodulit saab lisada PDP-l ostukasti moodulisse, et kuvada kauplusi, kus toode on järele tulemiseks saadaval. Seda saab lisada ka ostukorvi moodulisse. Sellisel juhul on kaupluse valija moodulis näidatud järele tulemise suvandid iga ostukorvi rea kohta. Kauplise valija moodulit saab lisada ka teistele lehtedele või moodulitele laienduste ja kohanduste kaudu.
 
-Selleks, et see stsenaarium töötaks, tuleb toodete tarneviisiks konfigureerida **järgi tulemine**. Vastasel juhul ei kuvata moodulit tootelehtedel. Lisateavet tarneviisi konfigureerimise kohta vaadake teemast [Tarneviiside häälestamine](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery).
+Selleks, et see stsenaarium töötaks, tuleb toodete tarneviisiks konfigureerida **järgi tulemine**. Vastasel juhul ei kuvata moodulit tootelehtedel. Lisateavet tarneviisi konfigureerimise kohta vaadake teemast [Tarneviiside häälestamine](/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery).
 
 Järgmisel pildil on näide, kuidas kasutatakse kaupluse valija moodulit PDP-s.
 
-![Kaupluse valija mooduli näide PDP-s](./media/BOPIS.PNG)
+![Kaupluse valija mooduli näide PDP-s.](./media/BOPIS.PNG)
 
 > [!NOTE]
-> Versioonis 10.0.16 ja uuemates versioonides saab lubada uue funktsiooni, mis võimaldab organisatsioonil määratleda klientide jaoks mitu vastuvõtuviisi.  Kui see funktsioon on lubatud, täiustatakse kaupluse valijat ja teisi e-kaubanduse mooduleid, et võimaldada ostjal valida potentsiaalselt mitme pealevõtmise võimaluse vahel, kui see on konfigureeritud.  Lisateavet selle funktsiooni kohta leiate [sellest dokumentatsioonist](https://docs.microsoft.com/dynamics365/commerce/multiple-pickup-modes). 
+> Versioonis 10.0.16 ja uuemates versioonides saab lubada uue funktsiooni, mis võimaldab organisatsioonil määratleda klientide jaoks mitu vastuvõtuviisi.  Kui see funktsioon on lubatud, täiustatakse kaupluse valijat ja teisi e-kaubanduse mooduleid, et võimaldada ostjal valida potentsiaalselt mitme pealevõtmise võimaluse vahel, kui see on konfigureeritud.  Lisateavet selle funktsiooni kohta leiate [sellest dokumentatsioonist](./multiple-pickup-modes.md). 
 
 ## <a name="find-stores-mode"></a>Leia kauplused režiim
 
@@ -75,7 +92,7 @@ Kaupluse valija moodul toetab ka režiimi **Leia kauplused**. Seda režiimi saab
 
 Järgmisel joonisel on kujutatud kaupluse valija mooduli näide, mida kasutatakse koos kaardi mooduliga kaupluse asukohtade lehel.
 
-![Kaupluse valija mooduli ja kaardimooduli näide kaupluse asukohtade lehel](./media/ecommerce-Storelocator.PNG)
+![Kaupluse valija mooduli ja kaardimooduli näide kaupluse asukohtade lehel.](./media/ecommerce-Storelocator.PNG)
 
 ## <a name="render-a-map"></a>Kaardi renderdamine
 
@@ -93,6 +110,10 @@ Kaupluse valija moodulit saab kasutada koos kaardi mooduliga, et näidata kauplu
 | Autosuggest valikud: maksimaalne tulemus | Number | See atribuut määratleb Autosuggest tulemuste maksimaalse arvu, mida saab kuvada Bingi Autosuggest API kaudu. |
 | Otsinguraadius | Number | See atribuut määratleb kaupluste otsinguraadiuse miilides. Kui väärtust pole määratud, kasutatakse vaikimisi 50-miilist otsinguraadiust. |
 | Teenusetingimused | URL |  See atribuut määrab teenusetingimuste URL-i, mis on vajalikud Bing Mapsi teenuse kasutamiseks. |
+
+## <a name="site-settings"></a>Saidi sätted
+
+Kauplusevalija moodul võtab arvesse toote [ostukorvi lisamise sätteid](add-cart-settings.md). Pärast kauba ostukorvi lisamist kauplusevalija moodulist näeb saidi kasutajad sobivaid konfigureeritud töövooge.
 
 ## <a name="add-a-store-selector-module-to-a-page"></a>Kaupluse valija mooduli lehele lisamine
 
@@ -139,10 +160,13 @@ Kaupluse valija mooduli konfigureerimiseks, et näidata kaupluse asukohtade lehe
 
 [Ostukorvi ja väljaregistreerimise lühiülevaade](quick-tour-cart-checkout.md)
 
-[Tarneviiside häälestamine](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery)
+[Tarneviiside häälestamine](/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery)
 
 [Organisatsiooni Bingi kaartide haldamine](dev-itpro/manage-bing-maps.md)
 
-[Bing Maps REST API-d](https://docs.microsoft.com/bingmaps/rest-services/)
+[Bing Maps REST API-d](/bingmaps/rest-services/)
 
 [Kaardimoodul](map-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

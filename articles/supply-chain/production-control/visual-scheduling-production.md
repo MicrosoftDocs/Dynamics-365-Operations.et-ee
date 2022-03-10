@@ -2,11 +2,9 @@
 title: Gantti diagramm tööde plaanimiseks
 description: Tootmise plaanijad saavad juhtida ja optimeerida tootmisplaane Gantti diagrammide abil.
 author: johanhoffmann
-manager: tfehr
 ms.date: 11/03/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgShopSupervisorWorkspace, ProdTable, ProdTableListPage, GanttColorTable, GanttReqExplosionColor, GanttReqExplosionSetup, GanttTable, GanttTimescaleSetup, GanttWrkCtr, GanttWrkCtrColor, GanttWrkCtrJobInfo, GanttWrkCtrLoadResources, GanttWrkCtrMoveJob, GanttWrkCtrSetup, GanttWrkCtrView
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ecc3a95fb422ca0ce95258b7ffe349eaba07233c
-ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
-ms.translationtype: HT
+ms.openlocfilehash: 180fb7b31ea826c546aa8472a7ef4025a3b8865a783a5b662ed30b69f98acf92
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5154247"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6730198"
 ---
 # <a name="gantt-chart-for-job-scheduling"></a>Gantti diagramm tööde plaanimiseks
 
@@ -47,10 +45,10 @@ Gantti diagrammi saab avada kahes vaates: **Tellimuse vaade** ja **Ressursivaade
 
 ## <a name="order-view"></a>Tellimusevaade
 
-[![Tellimusevaade](./media/orderview.png)](./media/orderview.png)
+[![Tellimuse vaade.](./media/orderview.png)](./media/orderview.png)
 
 ## <a name="resource-view"></a>Ressursivaade
-[![Ressursivaade](./media/resview.png)](./media/resview.png)
+[![Ressursivaade.](./media/resview.png)](./media/resview.png)
 
 ## <a name="activities"></a>Tegevused
 Tegevused kuvatakse ribadena ja need on paigutatud ajaskaala tabelisse koos plaanitud alguse ja lõpu ajaga, mis muudab ribade pikkuse proportsionaalseks tegevuse lõpuleviimiseks vajaliku ajaga. Tegevused kuvatakse vastavalt ajaskaalale. Ajaskaalat saab kohandada menüüs, kus tuleb valida alguse ja lõpu kuupäev ning ajaühik, nt tunnid või päevad. Ajaskaalat kohandades saate määrata fookuse ajavahemikule, milles soovite tegevusi hallata. 
@@ -104,25 +102,25 @@ Tööd ei saa plaanida väljaspool Gantti diagrammil määratletud ajavahemikku.
 
 Tegevuste võrgus, nt samasse tootmistellimusse kuuluvate tööde puhul, saab kasutada funktsiooni **Eelmiste tööde plaanimine** võrgus valitud tööle eelnevate tööde plaanimiseks. Järgmises näites on esile tõstetud tegevus valitud töö. Diagramm kuvatakse enne eelmise töö plaanimist ja pärast eelmise töö plaanimist. 
 
-[![Eelmise töö plaanimine](./media/schprevjob3.png)](./media/schprevjob3.png)
+[![Eelmise töö plaanimine.](./media/schprevjob3.png)](./media/schprevjob3.png)
 
 ### <a name="schedule-next-jobs"></a>Planeeri järgmised tööd
 
 Võite kasutada funktsiooni **Järgmiste tööde plaanimine** valitud tööle tegevuste võrgus eelnevate tööde plaanimiseks. Järgmises näites on esile tõstetud tegevus valitud töö. Diagramm kuvatakse enne järgmise töö plaanimist ja pärast järgmise töö plaanimist. 
 
-[![Järgmise töö plaanimine](./media/schnxtjob.png)](./media/schnxtjob.png)
+[![Järgmise töö plaanimine.](./media/schnxtjob.png)](./media/schnxtjob.png)
 
 ### <a name="schedule-around-job"></a>Plaani töö ümber
 
 Võite kasutada funktsiooni **Plaani töö ümber** valitud tööle tegevuste võrgus järgnevate ja eelnevate tööde plaanimiseks. Järgmises näites on esile tõstetud tegevus valitud töö. Diagramm kuvatakse enne töö plaanimist ja pärast töö plaanimist. 
 
-[![Plaani töö ümber](./media/scharoundjob1.png)](./media/scharoundjob1.png)
+[![Plaani töö ümber.](./media/scharoundjob1.png)](./media/scharoundjob1.png)
 
 ### <a name="arrange-jobs"></a>Korrasta tööd
 
 Funktsiooni **Korrasta** abil saab korrastada valitud tegevused samal ressursil. Need tegevused võivad olla samas tegevuste võrgus, kuid võivad kuuluda ka erinevatesse võrkudesse. Kui kasutate korrastamise funktsiooni, siis eemaldatakse valitud tegevuste vahelised ajaerinevused. Võite kasutada seda funktsiooni ressursside võimsuse kasutuse optimeerimiseks. Diagramm kuvatakse enne töö plaanimist ja pärast töö plaanimist. 
 
-[![Töö korraldamine](./media/arrangejobs1.png)](./media/arrangejobs1.png)
+[![Töö korraldamine.](./media/arrangejobs1.png)](./media/arrangejobs1.png)
 
 ### <a name="reassign-activities-from-one-resource-to-another"></a>Tegevuste ümbermääramine ühelt ressursilt teisele
 
@@ -157,5 +155,8 @@ Gantti diagrammi saab avada järgmistelt lehtedelt.
 ## <a name="additional-resources"></a>Lisaressursid  
 [Tootmis- ja partiitellimuste visuaalne plaanimine Gantti diagrammiga (video)](https://youtu.be/BtbuShkGj4I)
 
-[Tootmistellimuste visuaalne plaanimine (demoskript)](https://docs.microsoft.com/dynamics/s-e/)
+[Tootmistellimuste visuaalne plaanimine (demoskript)](/dynamics/s-e/)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -13,13 +13,13 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-08
-ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: d6b24446a5944eb82334dc5dc1f0b15656f83a12
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
-ms.translationtype: HT
+ms.dyn365.ops.version: 10.0.16
+ms.openlocfilehash: cb5a4195d94750fcbee00e7301bd250f653cb347
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6358022"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7576084"
 ---
 # <a name="small-parcel-shipping"></a>Väikepaki saatmine
 

@@ -3,7 +3,7 @@ title: Plaani tüübi ülevaade
 description: Plaani tüüp rakenduses Microsoft Dynamics 365 Human Resources on kindlate soodustuste tüüpide kõrgetasemeline rühmitamine.
 author: twheeloc
 ms.date: 08/24/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
@@ -15,14 +15,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2eb8ecdd849aa2f583202ac2ec7c3e1bb06698a1
-ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
-ms.translationtype: HT
+ms.openlocfilehash: b247b3a044a073c2a4d2d9c2ab8507fa2ebe864c
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7431388"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067550"
 ---
 # <a name="plan-type-overview"></a>Plaanitüübi ülevaade
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 

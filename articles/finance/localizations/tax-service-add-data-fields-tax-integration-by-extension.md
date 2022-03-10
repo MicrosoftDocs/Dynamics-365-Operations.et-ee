@@ -2,10 +2,9 @@
 title: Maksuintegratsiooni andmeväljade lisamine laiendite abil
 description: See teema kirjeldab X++ laiendite kasutamist maksuintegratsioonile andmeväljade lisamiseks.
 author: qire
-ms.date: 03/26/2021
+ms.date: 02/17/2022
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -16,18 +15,17 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: fdf112bbdd5245d19ab1d07cfcf94c58bf8208c5
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
-ms.translationtype: HT
+ms.openlocfilehash: acbe8070424febf24883362448ea56857d9d72d9
+ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830336"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323574"
 ---
 # <a name="add-data-fields-in-the-tax-integration-by-using-extension"></a>Maksuintegratsiooni andmeväljade lisamine laiendite abil
 
 [!include [banner](../includes/banner.md)]
 
-[!include [banner](../includes/preview-banner.md)]
 
 See teema kirjeldab X++ laiendite kasutamist maksuintegratsioonile andmeväljade lisamiseks. Neid välju saab laiendada maksuteenuse maksuandmete mudelile ja kasutada maksukoodide määramiseks. Lisateavet vt teemast [Maksukonfiguratsioonides andmeväljade lisamine](tax-service-add-data-fields-tax-configurations.md).
 
@@ -43,7 +41,7 @@ Suurimad objektid on järgmised.
 
 Järgmine illustratsioon näitab, kuidas need objektid on seotud.
 
-[![Andmemudeli objekti seos](./media/tax-service-customize-image1.png)](./media/tax-service-customize-image1.png)
+[![Andmemudeli objekti seos.](./media/tax-service-customize-image1.png)](./media/tax-service-customize-image1.png)
 
 **Dokumendi** objekt võib sisaldada palju **reaobjekte**. Iga objekt sisaldab maksuteenuse metaandmeid.
 
@@ -355,15 +353,77 @@ final static class TaxIntegrationCalculationActivityOnDocument_CalculationServic
 }
 ```
 
-Selles koodis `_destination` on ümbrisobjekt, mida kasutatakse järeltaotluse loomiseks ja `_source` on objekt `TaxIntegrationLineObject`. 
+Selles koodis `_destination` on ümbrisobjekt, mida kasutatakse järeltaotluse loomiseks ja `_source` on objekt `TaxIntegrationLineObject`.
 
 > [!NOTE]
-> * Määratlege võti, mida kasutatakse taotluse vormil kui käsku `private const str`.
-> * Määrake meetodi `copyToTaxableDocumentLineWrapperFromTaxIntegrationLineObjectByLine` väli, kasutades meetodit `SetField`. Teise parameetri andmetüüp peab olema `string`. Kui andmetüüp ei ole `string`, teisendage see tüübiks `string`.
+> Määratlege võti, mida kasutatakse taotluse vormil privaatse **konstnatuurina**. String peab olema täpselt sama, mis teemas " [Lisa maksukonfiguratsioonidele andmeväljad" lisatud mõõtude nimi](tax-service-add-data-fields-tax-configurations.md).
+> Seadke väli meetodis copyToTaxableDocumentLineWraümbrisFromTaxIntegrationLineObjectByLine **meetodiga** SetField **.** Teise parameetri andmetüüp peaks olema **string**. Kui andmetüüp ei ole **string**, teisendage see.
+> Kui X++ enum **tüüpi laiendatakse**, märkige erinevus selle väärtuse, sildi ja nime vahel.
+> 
+>   - Enum väärtus on täisarv.
+>   - Andmesildid võivad eri keeltes olla erinevad. Ärge kasutage enum2Str-i **enum** tüübi teisendamiseks stringiks.
+>   - Enum nimi on soovitatav, kuna see on fikseeritud. **enum2Symbolit** saab kasutada enum nime teisendamiseks. Maksukonfiguratsioonis lisatud loeteluväärtus peab olema täpselt sama mis loetelu nimi.
+
+## <a name="model-dependency"></a>Mudeli sõltuvus
+
+Projekti edukaks loomiseks lisage mudeli sõltuvuste jaoks järgmised viitemudelid:
+
+- Vormi ApplicationPlatform
+- Application Kuupäev
+- Maksumootor
+- Dimensioonid, kui kasutatakse finantsdimensiooni
+- Teised koodis viidatud vajalikud mudelid
+
+## <a name="validation"></a>Kinnitus
+
+Pärast eelmiste sammude lõpule viimist saate oma muudatused kinnitada.
+
+1. Finantsis minge ostureskontrosse **ja** lisage **URL-ile &debug=vsCconfirmExit%2&**. Näiteks. https://usnconeboxax1aos.cloud.onebox.dynamics.com/?cmp=DEMF&mi=PurchTableListPage&debug=vs%2CconfirmExit& Lõpp on **&** oluline.
+2. Avage ostutellimuse **leht** ja valige **ostutellimuse** loomiseks uus.
+3. Seadke kohandatud väljale väärtus ja seejärel valige **käibemaks**. Eesliitega tõrkeotsingu fail **TaxServiceTroubleshootingLog** laaditakse automaatselt alla. See fail sisaldab maksuarvutuse teenusesse sisestatud kandeteavet. 
+4. Kontrollige, kas kohandatud väli on maksuteenuse arvutuse **sisendis JSON-i** jaotises olemas ja kas selle väärtus on õige. Kui väärtus ei ole õige, topeltkontrollige selle dokumendi samme.
+
+Faili näide:
+
+```
+===Tax service calculation input JSON:===
+{
+  "TaxableDocument": {
+    "Header": [
+      {
+        "Lines": [
+          {
+            "Line Type": "Normal",
+            "Item Code": "",
+            "Item Type": "Item",
+            "Quantity": 0.0,
+            "Amount": 1000.0,
+            "Currency": "EUR",
+            "Transaction Date": "2022-1-26T00:00:00",
+            ...
+            /// The new fields added at line level
+            "Cost Center": "003",
+            "Project": "Proj-123"
+          }
+        ],
+        "Amount include tax": true,
+        "Business Process": "Journal",
+        "Currency": "",
+        "Vendor Account": "DE-001",
+        "Vendor Invoice Account": "DE-001",
+        ...
+        // The new fields added at header level, no new fields in this example
+        ...
+      }
+    ]
+  },
+}
+...
+```
 
 ## <a name="appendix"></a>Lisa
 
-Selles lisas kuvatakse reatasemel finantsdimensioonide (**Kulukeskus** ja **Projekt**) integreerimise täielik näidiskood.
+Selles lisas kuvatakse täielik näidiskood finantsdimensioonide, **kulukeskuse ja projekti** **integreerimiseks** rea tasemel.
 
 ### <a name="taxintegrationlineobject_extensionxpp"></a>TaxIntegrationLineObject_Extension.xpp
 

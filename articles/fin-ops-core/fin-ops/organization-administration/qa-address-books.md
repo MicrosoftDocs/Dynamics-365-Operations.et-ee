@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: brking
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 57462e673a5f2a13f1b4a74d44482df3d0dab08f
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
-ms.translationtype: HT
+ms.openlocfilehash: d429639f52c745a737567419b6012884ab20d43d
+ms.sourcegitcommit: b294840b8e12aaa2775dd73b2ba9481ecc3d91d5
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5747557"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "7463614"
 ---
 # <a name="address-books-faq"></a>Aadressiraamatute KKK
 
 [!include [banner](../includes/banner.md)]
-[!include [preview-banner](../includes/preview-banner.md)]
 
 ## <a name="how-do-i-check-for-duplicate-records"></a>Kuidas topeltkirjeid kontrollida?
 
@@ -67,10 +66,12 @@ Saate sisestada osapoole kirjeid globaalsesse aadressiraamatusse või vastava ü
 
 Saate seadistada aadressiteabe tõlkeid, nii et teave kuvatakse programmis teie kasutajakeeles (süsteemikeeles), kuid dokumentidel (nt müügitellimustel) muus keeles. Saate sisestada riigi/piirkonna nimede, aadressi eesmärkide ja nimeseeriate tõlkeid. Näiteks oletame, et teie süsteemikeel on taani keel ja loote müügitellimuse Prantsusmaal asuvale kliendile. Sel juhul saate vaadata kliendikirjet programmis taani keeles, kuid kuvada prinditud müügitellimusel aadressiteabe prantsuse keeles. Tõlgete seadistamisel tuleb sisestada iga loendis oleva üksuse tõlke. Kõik üksused, millele te tõlget ei sisesta, kuvatakse süsteemikeeles. Näiteks oletame, et teie süsteemikeel on taani keel ja saadate dokumendi Hispaanias asuvale kliendile. Kui te pole sisestanud aadressiteabele hispaaniakeelseid (ESP) tõlkeid, kuvatakse see teave taani keeles nii programmis kui ka prinditud dokumendil.
 
-## <a name="after-importing-addresses-when-i-access-the-records-why-am-i-unable-to-edit-imported-addresses"></a>Pärast aadresside importimist, kui pääsen juurde kirjetele, miks ma ei saa imporditud aadresse redigeerida?
+## <a name="after-i-import-addresses-why-cant-i-edit-the-records"></a>Pärast aadresside importimist, miks ei saa kirjeid redigeerida?
 
-Aadresside importimisel on olemas väli sildiga **IsLocationOwner**, mis näitab, kas asukohaga seotud osapool (aadress) on aadressi omanik. Kui osapool on aadressi omanik, saab aadressi redigeerida, kui pääseb juurde globaalse aadressiraamatu osapoole kaudu või koondkirje vormilt (nt klient, hankija või töötaja). Kui osapool ei ole aadressi omanik, ei saa kirjet varem loetletud vormidelt redigeerida. Aadresside importimisel peaks **isLocationOwner** olema seadistatud väärtusele **Jah** kui soovite, et aadress oleks seostatud osapoole abil redigeeritav. Siiski on aegu, mil see väli võib olla valesti imporditud. Probleemi lahendamiseks saab asukoha omanikku globaalses aadressiraamatus värskendada osapoole kirjest või **kinnita asukoha omanik** lehelt. Üksiku osapoole kirje värskendamiseks minge **Globaalne aadressiraamat > Aadress**. Valige **Redigeeri** et käivitada leht **Redigeeri aadress**, et muuta omaniku asukohta. Valige **Asukoha omaniku muutmine** et näha eelmise asukoha omanikku, kus praegu valitud osapool on uus asukoha omanik. Kui eelmise asukoha omanik on tühi, tähendab see, et asukoha omanikku ei loodud. Suvandi **Täpsemalt** valimine avab lehe **Halda aadresse** kus saab seada ka asukoha omaniku. Valige uuendatav asukoht ja seejärel valige **Määra asukoha omanik** käsk menüüst. Mitme kirje asukoha omaniku värskendamiseks minge **Globaalne aadressiraamat > Asukohad > Kinnitage asukoha omanikud**. Loend sisaldab asukohti, mis on lingitud ühe osapoolega, kuid see osapool pole omanik. Kui valite **Kinnita omanik** määratakse seotud aadressi **omanikuks pakutud omava osapoole ID** et olla seotud aadressi omanik. Kui osapool on määratud omanikuks, on lingitud aadress osapoole kirjest redigeeritav. Asukoha omaniku muutmiseks peate lehel **Turvalisuse konfiguratsioon** määrama privileegi **Määra asukoha omanik**.  Vaikimisi on antud süsteemiadministraatorile see privileeg.
+Aadresside importimisel on olemas väli nimega **IsLocationOwner**. See väli näitab, kas asukohaga (aadressiga) seotud osapool on aadressi omanik. Kui osapool on aadressi omanik, saab aadressi redigeerida, kui pääseb juurde globaalse aadressiraamatu osapoole kaudu või koondkirje vormilt (nt klient, hankija või töötaja). Kui osapool ei ole aadressi omanik, ei saa kirjet redigeerida. 
 
+Aadresside importimisel peaks **isLocationOwner** väli olema seadistatud väärtusele **Jah** kui soovite, et aadress oleks seostatud osapoole abil redigeeritav. Kui see väli on valesti imporditud, saab asukoha omaniku globaalses aadressiraamatus uuendada.
+
+Lisateavet imporditud aadressi asukoha omaniku muutmise kohta vt [asukoha omanike haldamine](./global-address-book-location-owner.md).
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
-

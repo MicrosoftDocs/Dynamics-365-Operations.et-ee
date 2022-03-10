@@ -1,12 +1,10 @@
 ---
 title: Kliendikonto makseviisi konfigureerimine B2B e-kaubanduse saitide jaoks
-description: Selles teemas kirjeldatakse, kuidas konfigureerida kliendikonto makseviisi ettevõtetevahelise (B2B) e-kaubanduse saitide jaoks.
+description: See teema kirjeldab, kuidas konfigureerida kliendikonto makseviisi moodulis Microsoft Dynamics 365 Commerce. See kirjeldab ka seda, kuidas krediidilimiidid mõjutavad ettemaksete hõivamist ettevõtete vahel (B2B) e-kaubanduse saitidel.
 author: josaw1
-manager: AnnBe
-ms.date: 01/20/2021
+ms.date: 02/16/2022
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailOperations
 audience: Application User, IT Pro
@@ -16,26 +14,29 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 754e2f83d6c8ff5d3698d98062e54bba7ccd9836
-ms.sourcegitcommit: f9df202aefef761be52c0360b0e22da88773914c
-ms.translationtype: HT
+ms.openlocfilehash: 0366f7b51ac138cc7305f98d5607c554440e6d34
+ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "5035896"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323351"
 ---
 # <a name="configure-the-customer-account-payment-method-for-b2b-e-commerce-sites"></a>Kliendikonto makseviisi konfigureerimine B2B e-kaubanduse saitide jaoks
 
 [!include [banner](../../includes/banner.md)]
 
-Selles teemas kirjeldatakse, kuidas konfigureerida kliendikonto makseviisi ettevõtetevahelise (B2B) e-kaubanduse saitide jaoks.
+See teema kirjeldab, kuidas konfigureerida kliendikonto makseviisi moodulis Microsoft Dynamics 365 Commerce. See kirjeldab ka seda, kuidas krediidilimiidid mõjutavad ettemaksete hõivamist ettevõtete vahel (B2B) e-kaubanduse saitidel.
 
-Jaemüüjad võivad võtta e-kaubanduse kanalis müüdavate toodete ja teenuste eest tasu erinevat tüüpi maksemeetoditega. Kõik jaemüüja aktsepteeritavad maksetüübid tuleb konfigureerida süsteemi seadistamisel rakenduses Microsoft Dynamics 365 Commerce. B2B e-kaubanduse saitidel peab toetama kliendikonto (või "ettemaksi") makseviisi. 
+Jaemüüjad võivad võtta e-kaubanduse kanalis müüdavate toodete ja teenuste eest tasu erinevat tüüpi maksemeetoditega. Kõik jaemüüja aktsepteeritavad maksetüübid tuleb konfigureerida süsteemi seadistamisel rakenduses Dynamics 365 Commerce. Kliendikonto (või "ettemaks") makseviisi peab toetama B2B e-commerce'i saitidel. 
 
 ## <a name="prerequisites"></a>Eeltingimused
 
 1. Lisage kliendikonto makseviis Commerce'i peakontoris.
 2. Siduge kliendikonto makseviis e-kaubanduse kanaliga.
-3. Veenduge, et säte **Luba kontol** on kliendi jaoks Commerce'i peakontori jaotises **Jaemüük ja kaubandus \> Kliendid \> Kõik kliendid \> Makse vaikesätted** lubatud. Veenduga ka, et parameetrid **Krediidilimiit** on kliendi jaoks õigesti seadistatud Commerce'i peakontori jaotises **Jaemüük ja kaubandus \> Kliendid \> Kõik kliendid \> Krediit ja võlanõuded**. 
+3. Veenduge, et **atribuudi Luba kontol** on **kliendile rakenduse Retail ja Commerce \> Customers \> kõigi klientide \> makse vaikesätted commerce headquartersis** lubatud.
+
+    > [!NOTE]
+    > Kui kõigil klientidel peaks **olema** **lubatud lubatud kasutada ettemakse makseviisi,** saate B2B-saidiga seotud kanali vaikekliendi jaoks seada atribuudi Luba kontol väärtuseks Jah. 
 
 ## <a name="enable-the-customer-account-payment-method-in-commerce-site-builder"></a>Kliendikonto makseviisi lubamine Commerce'i saidiehitajas 
 
@@ -65,14 +66,48 @@ Kinnitamiseks, et kliendikonto makseviis on lubatud ja avaldatud, toimige järgm
 1. Lisage toode ostukorvi.
 1. Minge kassa lehele. Peaksite nägema uut makseviisi **Kliendikonto**.
 
+## <a name="work-with-credit-limits"></a>Krediidilimiidiga töö
+
+Kui kliendi konto maksete võimalused on B2B-saidil lubatud, soovivad organisatsioonid tavaliselt tellimuse hõivamise protsessi käigus näidata teavet krediidilimiitide ja krediidilimiidi saldode kohta. Kliendi krediidilimiit on **määratud** **Commerce** Headquartersi kliendikirje krediidi ja sissenõuete kiirkaardi krediidilimiidi atribuudiga. B2B stsenaariumi puhul tuleb siiski sageli esitada tellimus, mille alusel kliendi kohad arveldatakse selle organisatsiooni kontole, kuhu klient kuulub. Seetõttu peate arve konto atribuudi **kliendikirje** **arve** ja tarne kiirkaardil seadistama organisatsiooni kliendikonto ID-le. Seejärel, kui klient sisestab tellimuse B2B saidile, arveldatakse tellimus organisatsioonile. B2B-sait kasutab ka organisatsiooni krediidilimiiti kliendikirjes määratletud krediidilimiidi asemel.
+
+B2B-veebisaidil kuvatava krediidilimiidi arvutamine ja saldo sõltuvad **Commerce Headquartersi krediidilimiidi tüübi** atribuudi sättest. Selle atribuudi asukoht on erinev sõltuvalt sellest, kas funktsioonihalduse **tööruumis** on krediidihalduse **funktsioon lubatud**.
+
+- Kui krediidihalduse **funktsioon** on lubatud, **·** **\>\> asub atribuut krediidilimiidi kiirkaardil krediidi ja sissenõuete seadistamise krediidi ja sissenõuete parameetrite krediidis.\>** 
+- Kui krediidihalduse **funktsioon** on keelatud, **·** **asub atribuut krediidireitingu all Müügireskontro seadistuse \>\> müügireskontro parameetrid Krediidireiting \>**.
+
+Väärtused, mida krediidilimiidi **tüübi** **atribuut toetab, on Pole**, Saldo **,** Saldo **+ saateleht või toote sissetulek** ja Saldo **+ Kõik**. Lisateavet nende väärtuste kohta vt krediidilimiidi [tüübi väärtustest](/dynamics365/supply-chain/sales-marketing/credit-limits-customers).
+
+> [!NOTE]
+> Soovitame teil seada krediidilimiidi **tüübi** atribuudiks **Saldo +** saateleht või tootekviitung, nii et avatud müügitellimused ei panustaks saldo arvutamisse. Sel juhul, kui teie kliendid teevad tulevasi tellimusi, ei pea nad sidjagama, et need tellimused mõjutaksid nende praegust saldot.
+
+Teine atribuut, mis mõjutab **järeltellimusi**, on kohustuslik krediidilimiidi atribuut, mis asub **kliendikirje** krediidi ja kollektsioonide kiirkaardil. Kui määrate **selle** atribuudi kindlatele klientidele väärtuseks Jah, saate sundida süsteemi kontrollima nende krediidilimiiti, isegi kui krediidilimiidi tüübi atribuudi väärtuseks on määratud Pole **,** **et** määrata, et krediidilimiiti ei tuleks ühegi kliendi puhul kontrollida.
+
+Praegu on B2B-saitidel, kus **on lubatud kohustuslik krediidilimiidi** atribuut, lisafunktsioone. Kui atribuut on kliendi kirjel lubatud, siis takistab B2B-sait kliendi kirjel neid kasutamast ettemakse makseviisi, et maksta rohkem, kui järelejäänud kreeditsaldo. Näiteks kui kliendi järelejäänud kreeditsaldo on $1,000, kuid tellimuse väärtus $1,200, saab klient maksta $1,000 ainult ettemaksmeetodil. Nad peavad saldo maksmiseks kasutama mõnda muud makseviisi. Kui kohustuslik **krediidilimiidi atribuut** on kliendikirjel keelatud, saab klient maksta mis tahes summa, kasutades ettemakse makseviisi. Ent kuigi klient saab tellimusi esitada, ei luba süsteem neid tellimusi täita, kui nad ületavad krediidilimiiti. Kui krediidilimiiti tuleb kontrollida kõikide klientide puhul, kes on valmis ettemaksete tegemiseks, **·** **soovitame krediidilimiidi tüübi atribuudi seada väärtusele Saldo +** **saateleht või tootekviitung ja atribuut Kohustuslik** **krediidilimiit väärtusele Ei.**
+
+Krediidi **- ja sissenõuete moodulil** on uued krediidihalduse võimalused. Nende võimaluste sisse lülitamiseks lubage funktsioonihalduse **tööruumis** krediidihalduse **funktsioon**. Üks uutest võimalustest võimaldab müügitellimusi blokeerimisreeglite järgi ootele panna. Seejärel saab krediidihaldur persona tellimused vabastada või tagasi lükata pärast edasist analüüsi. Siiski ei kehti müügitellimuste ootele panemise võimalus Commerce Ordersi puhul, **kuna** müügitellimustel on sageli ettemakse ja krediidihalduse funktsioon ei toeta täielikult ettemaksestsenaariume. 
+
+Vaatamata sellele, kas **krediidihalduse** funktsioon on lubatud ja kui kliendi saldo läheb tellimuse täitmise ajal krediidilimiidist üle, ei jää müügitellimused ootele. Selle asemel loob Commerce kas hoiatusteate või tõrketeate, **·** **sõltuvalt teate väärtusest krediidilimiidi välja ületamisel krediidilimiitide** kiirkaardil.
+
+Atribuut **Välista krediidihaldusest**, mis takistab Äri müügitellimuste ootele jäämist, asub müügitellimuse päises (**Jaemüügi ja \> ärikliendid \> Kõik müügitellimused**). Kui äri müügitellimuste **puhul on** selle atribuudi väärtuseks seatud Jah (vaikeväärtus), jäetakse tellimused krediidihalduse ootel oleku töövoost välja. Võtke arvesse, et kuigi atribuudi nimi on **Välista krediidihaldusest**, kasutatakse tellimuse täitmise ajal siiski määratletud krediidilimiiti. Tellimused ei jää ootele.
+
+Võimalus panna Commerce'i müügitellimused blokeerimisreeglite alusel ootele on plaanitud tulevasteks Commerce'i väljalaseteks. Kuni seda toetatakse, kui peate rakenduse Commerce müügitellimused läbima uued krediidihalduse vood, saate kohandada järgmisi XML-faile oma lahenduses Visual Studio. Muutke failides loogikat nii, et **CredManExcludeSalesOrderi** lipu väärtuseks oleks seatud **Ei**. Nii määratakse äri müügitellimuste **puhul atribuut** Välista **krediidihaldusest** väärtuseks Ei vaikimisi.
+
+- RetailCreateCustomerOrderExtensions_CredMan_Extension.xml
+- RetailCallCenterOrderExtensions_CredMan_Extension.xml
+
+Võtke arvesse, **et kui lipu CredManExcludeSalesOrder** **väärtuseks on seatud Ei** ja B2B klient saab kauplustest osta müügikoha rakenduse abil, võib sularaha ja kannete sisestamine nurjuda. Näiteks on olemas blokeerimisreegel sularahamakse tüübile ja B2B-klient ostis sularaha abil kauplusest kaupu. Sellisel juhul ei arveldata tulemuseks saadud müügitellimust edukalt, kuna see jääb ootele. Seetõttu sisestamine nurjub. Seetõttu soovitame pärast selle kohandamise juurutamist teha lõpp-lõpu testimist.
+
 ## <a name="additional-resources"></a>Lisaressursid
 
-[B2B e-kaubanduse saidi seadistamine](set-up-b2b-site.md)
+[B2B e-kaubandussaidi häälestamine](set-up-b2b-site.md)
 
-[B2B organisatsioonidele organisatsiooni modelleerimise hierarhiate loomine.](org-model.md)
+[B2B-äripartnerite haldamine kliendi hierarhiaid kasutades](partners-customer-hierarchies.md)
 
-[Äripartnerist kasutajate haldamine B2B e-kaubanduse saitidel](manage-b2b-users.md)
+[Äripartnerkasutajate haldamine B2B e-kaubandussaitidel](manage-b2b-users.md)
 
 [Toote koguse piirangute määramine B2B e-kaubanduse saitide jaoks](quantity-limits.md)
 
 [SDK ja mooduliteegi värskendused](../e-commerce-extensibility/sdk-updates.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

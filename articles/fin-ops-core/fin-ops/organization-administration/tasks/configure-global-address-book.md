@@ -2,7 +2,6 @@
 title: Globaalse aadressiraamatu konfigureerimine
 description: Kasutage seda protseduuri globaalse aadressiraamatu vaikeväärtuste ja turbepoliitikate määramiseks.
 author: msftbrking
-manager: AnnBe
 ms.date: 07/23/2019
 ms.topic: business-process
 ms.prod: ''
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: brking
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0c9b622be242669a08690cd1d026fa043855ff5b
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
-ms.translationtype: HT
+ms.openlocfilehash: 34b0ab8b2d3ffa840e20d73716265c445e77189044840fd6850c5bffb3e3365b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5560647"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6759061"
 ---
 # <a name="configure-the-global-address-book"></a>Globaalse aadressiraamatu konfigureerimine
 

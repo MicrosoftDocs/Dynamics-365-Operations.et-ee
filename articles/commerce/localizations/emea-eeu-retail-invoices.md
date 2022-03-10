@@ -2,11 +2,9 @@
 title: Kliendiarved ja tagastuse müügitellimused Ida-Euroopa riikides
 description: See teema kirjeldab, kuidas sedistada teavet kliendiarvete ja tagastatavate müügitellimuste jaoks Ida-Euroopa riikides.
 author: epopov
-manager: annbe
 ms.date: 10/01/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
@@ -15,12 +13,12 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 4f5ac2403b5d47f5443e8166fd2bd69d20924628
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.openlocfilehash: 38d1708f6b113c4915b208941e1ebab70b07323f7523d742c54f3acb32b40569
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5225702"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6750687"
 ---
 # <a name="customer-invoices-and-return-sales-orders-in-eastern-european-countries"></a>Kliendiarved ja tagastuse müügitellimused Ida-Euroopa riikides
 

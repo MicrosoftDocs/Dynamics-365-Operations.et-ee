@@ -1,9 +1,9 @@
 ---
-title: Teatiste ülevaade
+title: Teatiste ülevaade (sisaldab videot)
 description: See teema annab üldteavet teatiste kohta. Teatisi saate kasutada, et olla kursis sündmustega, mida soovite tööpäeva jooksul jälgida.
 author: RichdiMSFT
 ms.date: 09/04/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: EventCreateRule
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: 5a92d84a5e8eaa2477d90df5065c0941d90dad5a
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
-ms.translationtype: HT
+ms.openlocfilehash: c3332bdf7f2edb693c95a4d5a6f95906e14c0a42
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5749848"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984964"
 ---
 # <a name="alerts-overview"></a>Teatiste ülevaade
 
@@ -77,13 +77,13 @@ Teatisereegel koosneb viiest osast.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3DWZ3]
 
-Video [Kuidas kasutada teatisi filtreeritud andmete jälgimiseks](https://youtu.be/ZYKMcv6kl9s) (eespool näidatud) on lisatud [Finance and Operationsi esitusloendisse](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW), mis on saadaval YouTube'is.
+Video [Kuidas kasutada teatisi filtreeritud andmete jälgimiseks](https://youtu.be/ZYKMcv6kl9s) (eespool näidatud) on lisatud [Finance and Operationsi esitusloendisse](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW), mis on saadavalYouTube'is.
 
 ### <a name="alert-rule-options"></a>Teatise reegli valikud
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3E4PV]
 
-Video [Teatise reegli valikud](https://youtu.be/cpzimwOjicM) (eespool näidatud) on lisatud [Finance and Operationsi esitusloendisse](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW), mis on saadaval YouTubeis.
+Video [Teatise reegli valikud](https://youtu.be/cpzimwOjicM) (eespool näidatud) on lisatud [Finance and Operationsi esitusloendisse](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW), mis on saadaval YouTube'is.
 
 
 

@@ -1,20 +1,20 @@
 ---
 title: Itaalia Intrastat
 description: See teema sisaldab teavet Itaalia Intrastat-aruandluse kohta.
-author: andosip
-ms.date: 7/9/2021
+author: anasyash
+ms.date: 09/09/2021
 ms.topic: article
 audience: Application User
-ms.reviewer: kfender
+ms.reviewer: kfend
 ms.search.region: Global
-ms.author: v-aosipov
+ms.author: anasyash
 ms.search.validFrom: ''
-ms.openlocfilehash: cd0d9569055d14822a728aeb2c629387de8ecfb1
-ms.sourcegitcommit: 8fb79920bea14746a71551a4456236a6386bfcea
-ms.translationtype: HT
+ms.openlocfilehash: 3b676ba754cded03fdc6d566ffbfbb35c204b03a
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "6538983"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7488255"
 ---
 # <a name="italian-intrastat"></a>Itaalia Intrastat
 
@@ -597,13 +597,10 @@ Peate saatma asutusele kaks aruannet. Üks aruanne on ühendusesisese lähetuste
 
 - **Tiitelleht**
 
-- **1. jaotis. Kaubad** – see jaotis sisaldab teavet tavakannete ja kreeditarvete kohta, mis on seotud Intrastat-deklaratsiooniperioodiga samas aruandlusperioodis kaupade arvetega.
-
-- **2. jaotis. Kaupade parandused** – see jaotis sisaldab teavet paranduste ja kreeditarvete kohta, mis on seotud eelmiste Intrastati aruandeperioodide kaupade arvetega.
-
-- **3. jaotis. Teenused** – see jaotis sisaldab teavet tavakannete ja kreeditarvete kohta, mis on seotud Intrastat-deklaratsiooniperioodiga samas aruandlusperioodis teenuste arvetega.
-
-- **4. jaotis. Teenuste parandused** – see jaotis sisaldab teavet paranduste ja kreeditarvete kohta, mis on seotud eelmiste Intrastati aruandeperioodide teenuste arvetega.
+- **Jaotis 1. Kaubad**: See jaotis sisaldab teavet tavakannete ja kreeditarvete kohta, mis on seotud Intrastat-deklaratsiooniperioodiga samas aruandlusperioodis kaupade arvetega.
+- **Jaotis 2. Kaupade parandused**: See jaotis sisaldab teavet paranduste ja kreeditarvete kohta, mis on seotud eelmiste Intrastati aruandeperioodide kaupade arvetega.
+- **Jaotis 3. Teenused**: see jaotis sisaldab teavet tavakannete ja kreeditarvete kohta, mis on seotud Intrastat-deklaratsiooniperioodiga samas aruandlusperioodis teenuste arvetega.
+- **Jaotis 4. Teenuste parandused**: See jaotis sisaldab teavet paranduste ja kreeditarvete kohta, mis on seotud eelmiste Intrastati aruandeperioodide teenuste arvetega.
 
 ## <a name="set-up-intrastat"></a>Intrastati seadistamine
 
@@ -611,21 +608,14 @@ Peate saatma asutusele kaks aruannet. Üks aruanne on ühendusesisese lähetuste
 
 Enne Intrastatiga töö käivitamist tuleb seadistada järgmine üldteave:
 
--   Kaubaartiklite koodid. Teenuste puhul peaksite määratlema kuuekohalise artiklikoodi.
-
--   Kandekoodid. Arvestage, et Itaalia kasutab ühekohalist kandekoodi.
-
--   Transpordimeetodid.
-
--   Statistikaprotseduurid.
-
--   Väliskaubanduse parameetrid.
-
--   Ladustamine.
-
--   Väljastatud toote üksikasjad.
-
--   Agendi kontaktandmed.
+   - Kaubaartiklite koodid. Teenuste puhul peaksite määratlema kuuekohalise artiklikoodi.
+   - Kandekoodid. Arvestage, et Itaalia kasutab ühekohalist kandekoodi.
+   - Transpordimeetodid.
+   - Statistikaprotseduurid.
+   - Väliskaubanduse parameetrid.
+   - Ladustamine.
+   - Väljastatud toote üksikasjad.
+   - Agendi kontaktandmed.
 
 Lisateavet leiate jaotisest [Intrastati ülevaade](emea-intrastat.md).
 
@@ -633,97 +623,68 @@ Lisateavet leiate jaotisest [Intrastati ülevaade](emea-intrastat.md).
 
 Itaalia-spetsiifiliste valikute seadistamiseks saate intrastatiga töötada järgmiste sammude abil.
 
-1.  [Microsoft Dynamics Lifecycle Services (LCS)](https://lcs.dynamics.com/Logon/Index) ühiskasutusega varateegis laadige Intrastati deklaratsiooni jaoks alla järgmiste elektrooniliste aruannete (ER) konfiguratsioonide viimane versioon.
+1. [Microsoft Dynamics Lifecycle Services (LCS)](https://lcs.dynamics.com/Logon/Index) ühiskasutusega varateegis laadige Intrastati deklaratsiooni jaoks alla järgmiste elektrooniliste aruannete (ER) konfiguratsioonide viimane versioon.
 
-    -   Intrastati mudel
+    - Intrastati mudel
+    - Intrastat-aruanne
+    - Intrastat (IT)
 
-    -   Intrastat-aruanne
+    Lisateavet leiate jaotisest [Elektroonilise aruandluse konfiguratsioonide allalaadimine teenusest Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
 
-    -   Intrastat (IT)
+2. Rakenduses Dynamics 365 Finance avage **Maks** > **Seadistus** > **Väliskaubanduse parameetrid**.
+3. Seadke vahekaardi **Intrastat** kiirkaardil **Üldine** järgmised väljad.
 
-Lisateavet leiate jaotisest [Elektroonilise aruandluse konfiguratsioonide allalaadimine teenusest Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
+    - **Lähte-/sihtriik**: Valige oma ettevõtte maakond. Seda maakonda kasutatakse lähetamisel.
+    - **Kande kood**: Valige varaülekannete kandekood. Seda koodi kasutatakse tehingute jaoks, mis põhjustavad vara tegeliku või kavandatud üleandmise hüvitise eest, ja ka paranduste tegemiseks.
 
-2.  Rakenduses Dynamics 365 Finance avage **Maks** &gt; **Seadistus** &gt; **Väliskaubanduse parameetrid**.
+    - **Kreeditarve**: Valige kandekood kaupade tagastamiseks.
+    - **Müügiaruandluse periood**: valige ekspordideklaratsiooni aruandlusperiood: **kuu** või **kvartal**. Kvartalideklaratsioonid eksporditakse lihtsustatud vormingus.
+    - **Ostuaruandluse periood**: Valige impordideklaratsiooni aruandlusperiood: **kuu** või **kvartal**. Kvartalideklaratsioonid eksporditakse lihtsustatud vormingus.
 
-3.  Seadke vahekaardi **Intrastat** kiirkaardil **Üldine** järgmised väljad.
+4. Määrake kiirkaardil **Elektrooniline aruandlus** järgmised väljad.
 
-    - **Lähte-/sihtriik** – valige oma ettevõtte maakond. Seda maakonda kasutatakse lähetamisel.
+    - **Failivormingu vastendamine**: Valige **Intrastat (IT)**.
+    - **Aruandevormingu vastendamine**: Valige **Intrastati aruanne**.
 
-    <!-- -->
+5. Valige kiirkaardi **Kaubaartikli hierarhia** väljal **Kategooriahierarhia** väärtus **Intrastat**.
+6. Seadke kiirkaardi **Statistiline väärtus** suvandi **Prindi ja ekspordi statistilised andmed** väärtuseks **Jah**, kui vajalik. See säte aktiveerib statistilise sektsiooni ülekandmise. Statistiline jaotis koosneb andmetest kaalude, lisaühikute, statistiliste väärtuste, tarnetingimuste, tarnegraafikute, transpordiviiside ja lähtepiirkondade kohta.
 
-    - **Kande kood** – valige varaülekannete kandekood. Seda koodi kasutatakse tehingute jaoks, mis põhjustavad vara tegeliku või kavandatud üleandmise hüvitise eest, ja ka paranduste tegemiseks.
+    > [!NOTE]
+    > Kvartaliaruande puhul ei lisa Intrastat-aruanne statistilist jaotist ega teavet tarnetingimuste ja transpordiviiside kohta. Lisateavet leiate selle teema jaotise tabelist [Ülevaade](#overview).
 
-    - **Kreeditarve** - valige kandekood kaupade tagastamiseks. Seda koodi kasutatakse kaupade tagastamisel pärast seda, kui algne kanne on kandekoodi all kirjendatud.
+7. **Riigi/regiooni atribuutide** vahekaardil loetlege kõik riigid või regioonid, millega teie organisatsioonil on ärisuhted. Määrake igale riigile või regioonile järgmised väljad.
 
-    - **Müügiaruandluse periood** – valige ekspordideklaratsiooni aruandlusperiood: **kuu** või **kvartal**. Kvartalideklaratsioonid eksporditakse lihtsustatud vormingus.
+    - **Osapoole riik/regioon**: Valige riigi/regiooni kood.
+    - **Intrastati kood**: Sisestage kahekohaline Intrastati kood.
+    - **Valuuta**: Määrake riigi või regiooni riigivaluuta. Kui müüja asub EL riigis, mis eurot ei kasuta, esitatakse arve summad nii müüja valuutas kui eurodes. Kui müüja asub näiteks Taanis, on impordideklaratsioonis esitatud summad nii Taani kroonides (DKK) kui ka eurodes (EUR).
+    - **Riigi/regiooni tüüp**: Valige oma organisatsiooniga seotud riigi või regiooni tüüp. Intrastati töölehe jaoks kantakse üle ainult **EL**-i ja **spetsiaalse kodumaise** tüübiga riigid või regioonid.
 
-    - **Ostuaruandluse periood** – valige impordideklaratsiooni aruandlusperiood: **kuu** või **kvartal**. Kvartalideklaratsioonid eksporditakse lihtsustatud vormingus.
+    > [!NOTE]
+    > Riigi või regiooni puhul, mille **kodumaine eri** tüüp on, jäetakse Intrastat-aruandefailist välja järgmised väljad: **Kaal**, **Lisaühikud**, **Statistiline väärtus**, **Tarnetingimused**, **Transpordikood**, **Lähte-/sihtriik või regioon** ja **Lähte-/sihtmaakond**. Näiteks väljal **Osapoole riik/regioon** valige **SMR (San Marino)** ja seejärel valige väljal **Riigi/regiooni tüüp** suvand **Spetsiaalne kodumaine**.
 
-4.  Määrake kiirkaardil **Elektrooniline aruandlus** järgmised väljad.
-
-    - **Failivormingu vastendamine** - valige **Intrastat (IT)**.
-
-    <!-- -->
-
-    - **Aruandevormingu vastendamine** -valige **Intrastati aruanne**.
-
-5.  Valige kiirkaardi **Kaubaartikli hierarhia** väljal **Kategooriahierarhia** väärtus **Intrastat**.
-
-6.  Seadke kiirkaardi **Statistiline väärtus** suvandi **Prindi ja ekspordi statistilised andmed** väärtuseks **Jah**, kui vajalik. See säte aktiveerib statistilise sektsiooni ülekandmise. Statistiline jaotis koosneb andmetest kaalude, lisaühikute, statistiliste väärtuste, tarnetingimuste, tarnegraafikute, transpordiviiside ja lähtepiirkondade kohta.
-
->[!NOTE]
->
->Kvartaliaruande puhul ei lisa Intrastat-aruanne statistilist jaotist ega teavet tarnetingimuste ja transpordiviiside kohta. Lisateavet leiate selle teema jaotise tabelist [Ülevaade](#overview).
-
-7.  **Riigi/regiooni atribuutide** vahekaardil loetlege kõik riigid või regioonid, millega teie organisatsioonil on ärisuhted. Määrake igale riigile või regioonile järgmised väljad.
-
-- **Osapoole riik/regioon** - valige riigi/regiooni kood.
-
-- **Intrastati kood** – sisestage kahekohaline Intrastati kood.
-
-- **Valuuta** – määrake riigi või regiooni riigivaluuta. Kui müüja asub EL riigis, mis eurot ei kasuta, esitatakse arve summad nii müüja valuutas kui eurodes. Kui müüja asub näiteks Taanis, on impordideklaratsioonis esitatud summad nii Taani kroonides (DKK) kui ka eurodes (EUR).
-
-- **Riigi/regiooni tüüp** – valige oma organisatsiooniga seotud riigi või regiooni tüüp. Intrastati töölehe jaoks kantakse üle ainult **EL**-i ja **spetsiaalse kodumaise** tüübiga riigid või regioonid.
-
->[!NOTE]
->
->Riigi või regiooni puhul, mille **kodumaine eri** tüüp on, jäetakse Intrastat-aruandefailist välja järgmised väljad: **Kaal**, **Lisaühikud**, **Statistiline väärtus**, **Tarnetingimused**, **Transpordikood**, **Lähte-/sihtriik või regioon** ja **Lähte-/sihtmaakond**. Näiteks väljal **Osapoole riik/regioon** valige **SMR (San Marino)** ja seejärel valige väljal **Riigi/regiooni tüüp** suvand **Spetsiaalne kodumaine**.
-
-8.  Avage **Ostureskontro** &gt; **Seadistamine** &gt; **Tarnetingimused**.
-
-9.  Valige ruudustikus tarnetingimused.
-
+8. Avage **Ostureskontro** > **Seadistamine** > **Tarnetingimused**.
+9. Valige ruudustikus tarnetingimused.
 10. Kiirkaardil **Üldine** sisestage väljale **Intrastati kood** Intrastati aruandes kasutatav ühenumbriline kood.
-
 11. Määrake klientidele ja müüjatele maksukohuslase koode, järgides neid samme. Need arvud kuvatakse Intrastati aruandes.
+12. Minge **Maksud** > **Seadistamine** > **Käibemaks** > **Maksuvabastuse numbrid** ja loetlege oma klientide ja müüjate kõik maksukohuslase numbrid. Määrake igale partnerile järgmised väljad.
 
--   Minge **Maks** &gt; **Seadistamine** &gt; **Käibemaks** &gt; **Maksuvabastuse numbrid** ja loetlege oma klientide ja müüjate kõik maksukohuslase numbrid. Määrake igale partnerile järgmised väljad.
+    - **Riik/regioon**: Valige partneri riik/regioon.
+    - **Maksukohuslase kood**: Sisestage partneri maksukohuslase kood.
+    - **Ettevõtte nimi**: Sisestage partneri nimi.
 
-    - **Riik/regioon** - valige partneri riik/regioon.
+13. Minge **Tasumata arved** > **Kliendid** > **Kõik kliendid** ja järgige iga kliendi puhul järgmisi samme:
 
-    - **Maksukohuslase kood** – sisestage partneri maksukohuslase kood.
+    1. Valige klient.
+    2. Valige kiirkaardi **Arve ja tarne** jaotises **Käibemaks** väljal **Maksukohuslase kood** valik **Kõik**.
+    3. Valige kliendi maksuvabastuse kood.
 
-    - **Ettevõtte nimi** - sisestage partneri nimi.
+14. Minge **Võlad** > **Müüjad** > **Kõik müüjad** ja järgige iga müüja puhul järgmisi samme:
 
-<!-- -->
+    1. Valige hankija.
+    2. Valige kiirkaardi **Arve ja tarne** jaotises **Käibemaks** väljal **Maksukohuslase kood** valik **Kõik**.
+    3. Valige müüja maksuvabastuse kood.
 
--   Minge **Müügireskonto** &gt; **Kliendid** &gt; **Kõik kliendid** ja järgige iga kliendi puhul järgmisi samme.
-
-    1.  Valige klient.
-
-    2.  Valige kiirkaardi **Arve ja tarne** jaotises **Käibemaks** väljal **Maksukohuslase kood** valik **Kõik**.
-
-    3.  Valige kliendi maksuvabastuse kood.
-
--   Minge **Võlgnevused** &gt; **Müüjad** &gt; **Kõik müüjad** ja järgige iga müüja puhul järgmisi samme.
-
-    1.  Valige hankija.
-
-    2.  Valige kiirkaardi **Arve ja tarne** jaotises **Käibemaks** väljal **Maksukohuslase kood** valik **Kõik**.
-
-    3.  Valige müüja maksuvabastuse kood.
-
-12. Minge **Maks** &gt; **Seadistamine** &gt; **Väliskaubandus** &gt; **Intrastati kompressioon** ja valige väljad, mida tuleb Intrastati teabe summeerimisel võrrelda. Itaalia jaoks valige **Maksukohuslase kood**, **Kande kood**, **Kaup**, **Tarnetingimused**, **Transport**, **Riik/regioon**, **Lähteriik/-regioon**, **Lähtemaakond**, **Lähte-/sihtmaakond**, **Valuuta**, **Kuu**, **Kvartal** ja **Paranduse aasta**.
+15. Minge **Maks** > **Seadistamine** > **Väliskaubandus** > **Intrastati kompressioon** ja valige väljad, mida tuleb Intrastati teabe summeerimisel võrrelda. Itaalia jaoks valige **Maksukohuslase kood**, **Kande kood**, **Kaup**, **Tarnetingimused**, **Transport**, **Riik/regioon**, **Lähteriik/-regioon**, **Lähtemaakond**, **Lähte-/sihtmaakond**, **Valuuta**, **Kuu**, **Kvartal** ja **Paranduse aasta**.
 
 ## <a name="italian-vendor-invoice-journal-for-foreign-trade"></a>Itaalia müüja arvete tööleht väliskaubanduse jaoks
 
@@ -762,10 +723,10 @@ Intrastat-töölehe avamiseks minge **Maks** &gt; **Deklaratsioonid** &gt; **Vä
 >
 >Kui saate aruandeperioodiga samal perioodil negatiivse paranduse (kreeditarve), peate Intrastati töölehe käsitsi muutma, järgides neid samme.
 >
->1.  Avage **Maks** &gt; **Deklaratsioonid** &gt; **Väliskaubandus** &gt; **Intrastat**.
->2.  Otsige ja kustutage kanne, mis on märgitud parandusena.
->3.  Otsige originaalkanne ja muutke välja **Arve summa** väärtust vastavalt vajadusele.
->Näiteks on teil arve summaga 10 000 ja saate kreeditarve summaga -2000. Sel juhul peate avama Intrastat töölehe ning leidma ja kustutama kande väärtusega -2000. Seejärel leidke algne tehing väärtusega 10 000 ja määrake arve summaks 8000 (= 10 000 - 2000).
+> 1. Avage **Maks** > **Deklaratsioonid** > **Väliskaubandus** > **Intrastat**.
+> 2. Otsige ja kustutage kanne, mis on märgitud parandusena.
+> 3. Otsige originaalkanne ja muutke välja **Arve summa** väärtust vastavalt vajadusele.
+> Näiteks on teil arve summaga 10 000 ja saate kreeditarve summaga -2000. Sel juhul peate avama Intrastat töölehe ning leidma ja kustutama kande väärtusega -2000. Seejärel leidke algne tehing väärtusega 10 000 ja määrake arve summaks 8000 (= 10 000 - 2000).
 
 ### <a name="intrastat-transfer"></a>Intrastati ülekanne
 
@@ -773,235 +734,30 @@ Toimingupaanil saate valida tegevuspaanil valiku **Ülekanne**, et edastada auto
 
 Teise võimalusena saate kandeid käsitsi sisestada, valides tegevuspaanil valiku **Uus**.
 
-Iga kande kohta saate vahekaardil **Üldine** seadistada mitu Itaalia-spetsiifilist parameetrit.
+Iga kande kohta saate vahekaardil **Üldine** seadistada mitu Itaalia-spetsiifilist parameetrit. Järgmine tabel annab lisateavet väljade kohta.
 
-<table>
-<tbody>
-<tr>
-<td>
-<p><strong>Field</strong></p>
-</td>
-<td>
-<p><strong>Kirjeldus</strong></p>
-</td>
-</tr>
-<tr>
-<td colspan="2">
-<p style="text-align: center;">Jaotis <strong>Üldine</strong></p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Kauba tüüp</p>
-</td>
-<td>
-<p>Selle välja väärtuseks saab seada <strong>Kaubad</strong> või <strong>Teenused</strong>.</p>
-<p>Selleks, et kannet loetakse teenuseks, tuleb arverida seadistada ühel järgmistest viisidest.</p>
-<p>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sellel pole kaubakoodi.</p>
-<p>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sellel on kuuekohaline kaubakood.</p>
-</td>
-</tr>
-<tr>
-<td colspan="2">
-<p style="text-align: center;"><strong>Lähteriik/-regioon</strong> jaotis</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Päritolumaakond</p>
-</td>
-<td>
-<p>Toote või teenuse päritolumaakond. See väärtus on määratud lehel <strong>Väljastatud tooted</strong>.</p>
-</td>
-</tr>
-<tr>
-<td colspan="2">
-<p style="text-align: center;"><strong>Koodid</strong> jaotis</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Tarneviis</p>
-</td>
-<td>
-<p>Tarneviis. Tarneviisi määratlemiseks minge <strong>Müük ja turundus</strong> &gt; <strong>Seadistamine</strong> &gt; <strong>Turustus</strong> &gt; <strong>Tarneviisid</strong>.</p>
-</td>
-</tr>
-<tr>
-<td colspan="2">
-<p style="text-align: center;"><strong>Parandused</strong> jaotis</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Kuu</p>
-</td>
-<td>
-<p>Esialgse kande kuu.</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Kvartal</p>
-</td>
-<td>
-<p>Esialgse kande kvartal.</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Paranduse aasta</p>
-</td>
-<td>
-<p>Esialgse kande aasta.</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Algne intrastati kirje</p>
-</td>
-<td>
-<p>Teenuse paranduste puhul sisestage algse Intrastati kirje number.</p>
-</td>
-</tr>
-<tr>
-<td colspan="2">
-<p style="text-align: center;"><strong>Arve väärtus</strong> jaotis</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Currency</p>
-</td>
-<td>
-<p>Partneri riiklik vääring.</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Arve summa kandevaluutas</p>
-</td>
-<td>
-<p>Arve summa partneri riiklikus vääringus.</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Arve tasude summa kandevaluutas</p>
-</td>
-<td>
-<p>Arve võetakse partneri riiklikus vääringus.</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Arve väärtus kandevaluutas</p>
-</td>
-<td>
-<p>Arve väärtus partneri riiklikus vääringus.</p>
-</td>
-</tr>
-</tbody>
-</table>
+| Field | Kirjeldus |
+|-------|-------------|
+| Kauba tüüp | Selle välja väärtuseks saab seada **Kaubad** või **Teenused**.<br> Selleks, et kannet loetakse teenuseks, tuleb arverida seadistada ühel järgmistest viisidest.<br>- Sellel pole kaubakoodi.<br>- Sellel on kuuekohaline kaubakood.  |
+| Päritolumaakond | Toote või teenuse päritolumaakond. See väärtus on määratud lehel **Väljastatud tooted**. |
+| Tarneviis | Tarneviis. <br>Tarneviisi määratlemiseks minge **Müük ja turundus** > **Seadistamine** > **Turustus** > **Tarneviisid**. |
+| Kuu | Esialgse kande kuu. |
+| Kvartal | Esialgse kande kvartal. |
+| Paranduse aasta | Esialgse kande aasta. |
+| Algne intrastati kirje | Teenuse paranduste puhul sisestage algse Intrastati kirje number. |
+| Currency | Partneri riiklik vääring. |
+| Arve summa kandevaluutas | Arve summa partneri riiklikus vääringus. |
+| Arve tasude summa kandevaluutas | Arve võetakse partneri riiklikus vääringus. |
+| Arve väärtus kandevaluutas | Arve väärtus partneri riiklikus vääringus. |
 
 Lisateavet partneri riiklikus vääringus esitatud arvete tasude kohta vt [Intrastati ülevaate eeldused (Lisakulud)](emea-intrastat.md).
 
 ### <a name="generate-an-intrastat-report"></a>Looge Intrastati aruanne
 
-1.  Intrastati aruande loomiseks minge **Maks** &gt; **Deklaratsioonid** &gt; **Väliskaubandus** &gt; **Intrastat**.
-
-2.  Toimingupaanil valige suvandid **Väljund** &gt; **Aruanne**.
-
-3.  Määrake dialoogiboksis **Intrastati aruanne** järgmised väljad.
-
-<table>
-<tbody>
-<tr>
-<td>
-<p><strong>Field</strong></p>
-</td>
-<td>
-<p><strong>Kirjeldus</strong></p>
-</td>
-</tr>
-<tr>
-<td colspan="2">
-<p><strong>Kuupäev</strong> jaotis</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Alates kuupäevast</p>
-</td>
-<td>
-<p>Valige aruande alguskuupäev.</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Lõppkuupäev</p>
-</td>
-<td>
-<p>Valige aruande lõppkuupäev.</p>
-</td>
-</tr>
-<tr>
-<td colspan="2">
-<p><strong>Ekspordisuvandid</strong> jaotis</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Loo fail</p>
-</td>
-<td>
-<p>Tekstifaili genereerimiseks määrake suvandi väärtuseks <strong>Jah</strong>.</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Faili nimi</p>
-</td>
-<td>
-<p>Sisestage oma Intrastati aruande jaoks .txt-faili nimi.</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Aruande loomine</p>
-</td>
-<td>
-<p>XLSX-faili genereerimiseks määrake suvandi väärtuseks <strong>Jah</strong>.</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Aruandefaili nimi</p>
-</td>
-<td>
-<p>Sisestage oma Intrastati aruande jaoks .xlsx-faili nimi.</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Direction</p>
-</td>
-<td>
-<p>Valige ühendusesiseste saabumiste aruande jaoks <strong>Saabumised</strong>. Valige ühendusesiseste lähetuste aruande jaoks <strong>Lähetused</strong>.</p>
-</td>
-</tr>
-<tr>
-<td colspan="2">
-<p><strong>Failivormingu vastendamine </strong> jaotis</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Viitenumber</p>
-</td>
-<td>
-<p>Sisestage dokumendi number. See väärtus mõjutab <strong>faili numbri</strong>koodi Intrastat-failiaruandel. Lisateavet leiate jaotises Failivorming.</p>
-</td>
-</tr>
-</tbody>
-</table>
+1. Intrastati aruande loomiseks minge **Maksud** > **Deklaratsioonid** > **Väliskaubandus** > **Intrastat**.
+2. Toimingupaanil valige suvandid **Väljund** > **Aruanne**.
+3. Dialoogiboksis **Intrastati aruanne** valige aruande algus- ja lõppkuupäevad.
+4. Väljal **Loo fail** valige **Jah**, et luua .txt fail ja sisestage faili nimi.
+5. Väljal **Loo aruanne** valige **Jah**, et luua .xlsx fail ja sisestage faili nimi.
+6. Valige **Saabumised** või **Lähetused** selle põhjal, millest aruanne räägib.
+7. Sisestage dokumendinumber väljale **Viitenumber**. See väärtus mõjutab faili numbrikoodi Intrastat-failiaruandel. 

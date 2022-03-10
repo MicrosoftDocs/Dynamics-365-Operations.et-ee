@@ -13,14 +13,17 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 450872a38c833de9d37e2c6224839f2bca7cb4c6
-ms.sourcegitcommit: 4d11061f5de0ddba1f968bd5c3fd694a8b104ccc
-ms.translationtype: HT
+ms.openlocfilehash: e853a8a5730d397f253c8ce3a330794594dfd907
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "7429225"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068480"
 ---
 # <a name="payroll-employee"></a>Palgaarvestuse töövõtja
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -50,17 +53,17 @@ See üksus annab teavet töötaja kohta. Peate häälestama [palga integreerimis
 | **ID-tüübi ID**</br>mshr_identificationtypeid</br>*String* |Kirjutuskaitstud | Töötaja jaoks määratletud ID-tüüp. |
 | **ID-number**</br>mshr_identificationnumber</br>*String* | Kirjutuskaitstud |Töötaja jaoks määratletud ID-number. |
 | **Maksmiseks valmis**</br>mshr_readytopay</br>[suvandikomplekt mshr_noyes](hr-admin-integration-payroll-api-no-yes.md) | Kirjutuskaitstud | Näitab, kas töötaja on märgitud kui maksmiseks valmis. |
-| **Palgatöötaja olemi ID**</br>mshr_payrollemployeeentityid</br>*GUID* | Nõutav</br>Süsteemi loodud | Süsteemi loodud GUID-väärtus töötaja kordumatuks tuvastamiseks. |
+| **Palgatöötaja olemi ID**</br>mshr_payrollemployeeentityid</br>*GUID* | Süsteemi loodud | Süsteemi loodud globaalse ainuidentifikaatori (GUID) väärtus töövõtja unikaalseks tuvastamiseks. |
 
 ## <a name="relations"></a>Seosed
 
 |Atribuudi väärtus | Seotud üksus | Navigeerimise atribuut | Kogumi tüüp |
 | --- | --- | --- | --- |
-| _mshr_fk_employment_id_value | mshr_hcmemploymentdetailentity | mshr_FK_Employment_id | - |
+| _mshr_fk_employment_id_value | mshr_hcmemploymentdetailentity | mshr_FK_Employment_id | mshr_FK_HcmEmploymentDetailEntity_PayrollEmployee |
 | _mshr_fk_fixedcompplan_id_value | [mshr_payrollfixedcompensationplanentity](hr-admin-integration-payroll-api-payroll-fixed-compensation-plan.md) | mshr_FK_FixedCompPlan_id | mshr_FK_PayrollFixedCompensationPlanEntity_Employee |
 | _mshr_fk_name_id_value | mshr_dirpersonnamehistoricalentity | mshr_FK_Name_id | - |
-| _mshr_fk_worker_id_value | mshr_hcmworkerbaseentity | mshr_FK_Worker_id | - |
-| _mshr_fk_workerbankaccount_id_value | mshr_hcmworkerbankaccountentity | mshr_FK_WorkerBankAccount_id | - |
+| _mshr_fk_worker_id_value | mshr_hcmworkerbaseentity | mshr_FK_Worker_id | mshr_FK_HcmWorkerBaseEntity_PayrollEmployee |
+| _mshr_fk_workerbankaccount_id_value | mshr_hcmworkerbankaccountentity | mshr_FK_WorkerBankAccount_id | mshr_FK_HcmWorkerBankAccountEntity_PayrollEmployee |
 | _mshr_fk_variablecompaward_id_value | [mshr_palgaarvestusehüvitiseplaanidüksus](hr-admin-integration-payroll-api-payroll-variable-compensation-plan.md) | mshr_FK_VariableCompAward_id | mshr_FK_PayrollVariableCompensationAwardEntity_töötaja |
 | _mshr_fk_address_id_value | [mshr_payrollworkeraddressentity](hr-admin-integration-payroll-api-payroll-worker-address.md) | mshr_FK_Address_id | mshr_FK_PayrollWorkerAddressEntity_Töötaja |
 

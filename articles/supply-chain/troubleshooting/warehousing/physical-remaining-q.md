@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: v-gfedorova
 ms.search.validFrom: 2021-05-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 187363db3030ee0741f0c7e7746295b88320162c156120112332bb78593bb673
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: d767fdce861ccb481a3fe289480a51a7534dc207
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744650"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920220"
 ---
 # <a name="physical-remaining-quantity-in-the-unit-must-not-be-zero"></a>Ühikus olev füüsiline jääkkogus ei tohi olla null
 
@@ -63,10 +63,10 @@ Kasutage järgmist protseduuri, et vaadata üle oma koormusread ja tehke kohandu
 
 1. Avage **Laohaldus \> Koormad \> Kõik koormad**.
 1. Saate valida koormuse, mille jaoks saatelehte ei saa luua.
-1. Valige toimingupaani vahekaardi  **Saatmine ja vastuvõtmine** jaotises  **Ümberpööramine** suvand  **Pööra saadetise kinnitus ümber**.
-1. Valige vahekaardil  **Koormaread** koorma rida kauba jaoks, mis ületab ületarnet.
+1. Valige tegevuspaani vahekaardil **Läheta ja võta vastu grupi Tühista** **saadetis** käsku Tühista saadetise **kinnitus**.
+1. Valige **vahekaardil Koorma** read kauba jaoks koorma rida, mis ületab ületarne.
 1. Komplekteeritud koguse täpsustamiseks valige **Vähenda komplekteeritud kogust**.
-1. Vahekaardil  **Liini detailid** valige **Tellimus**.
+1. Valige **vahekaardil Rea** üksikasjad suvand **Tellimus**.
 1. Seadke väljal **Kogus** väärtus komplekteeritud kogusele (st **Tööga loodud kogus** välja väärtusele), et saatelehe loomine saaks toimuda.
 
 ### <a name="review-your-load-lines-and-make-adjustments-to-ensure-that-the-unit-and-quantity-are-aligned-with-the-decimal-precision-of-the-unit"></a>Vaadake üle oma koormusread ja tehke kohandused, et tagada ühiku ja koguse teisendus kümnendtäpsusega

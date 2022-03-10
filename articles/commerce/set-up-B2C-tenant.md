@@ -2,7 +2,7 @@
 title: B2C rentniku seadistus Kaubanduses
 description: Selles teemas kirjeldatakse kuidas seadistada Azure Active Directory (Azure AD) ettevõtja ja tarbija vahelisi (B2C) rentnikke kasutaja saidi autentimiseks rakenduses Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 03/17/2021
+ms.date: 02/11/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 84b3a3630d3809c05f87242784207c3c4af160ce
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
-ms.translationtype: HT
+ms.openlocfilehash: d4cbb117e47940491266134fb1e2dbe87374d4a3
+ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018576"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8109882"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>B2C rentniku seadistus Kaubanduses
 
@@ -35,42 +35,67 @@ Dynamics 365 Commerce kasutab Azure AD B2C'd kasutaja mandaadi ja autentimise vo
  > [!NOTE]
  > Commerce'i hindamiskeskkonnad on eellaaditud Azure AD B2C rentnikuga demo eesmärgil. Oma Azure AD B2C rentniku laadimine alltoodud juhiste alusel ei ole hindamiskeskkondade jaoks vajalik.
 
-## <a name="create-or-link-to-an-existing-aad-b2c-tenant-in-the-azure-portal"></a>Olemasoleva AAD B2C rentniku loomine või linkimine Azure'i portaalis
+> [!TIP]
+> Saate oma saidi kasutajaid täiendavalt kaitsta ja suurendada oma Azure AD B2C rentnike turvalisust Azure AD identiteedikaitse ja tingimusliku juurdepääsu abil. Azure AD B2C Premium P1 ja Premium P2 rentnikele pakutavate võimaluste ülevaatamiseks vt [Azure AD B2C identiteedikaitse ja tingimuslik juurdepääs](/azure/active-directory-b2c/conditional-access-identity-protection-overview).
+
+## <a name="dynamics-environment-prerequisites"></a>Dynamics keskkonna eeltingimused
+
+Enne alustamist veenduge, et teie Dynamics 365 Commerce keskkond ja e-äri kanal konfigureeritakse õigesti, täites järgmised eeltingimused.
+
+- Seadke kassatoimingute **AllowAnonymousAccess** väärtuseks "1" Commerce headquarters`is:
+    1. Minge **kassatoimingutesse**.
+    1. Tehke paremklõps ruudustikul ja siis klõpsake **Isikupärasta**.
+    1. Valige **Lisa väli**.
+    1. Valige saadaoleva veeru loendist veerg **AllowAnonymousAccess** et see lisada.
+    1. Tehke valik **Värskenda**.
+    1. Toimingu **612** "Kliendi lisamine" jaoks muutke **AllowAnonymousAccessiks** "1".
+    1. Käitage **1090 (Registrid)** töö.
+- Häälestage numbriseeria kliendikonto atribuut **Käsitsi** väärtusele **Ei** Commerce headquarters`is:
+    1. Valige suvandid **Jaemüük ja Kaubandus \> Peakontori seadistamine \> Parameetrid \> Nõuete parameetrid**.
+    1. Valige **numbriseeria**.
+    1. Topeltklõpsake **kliendikonto** real **numbriseeria koodi** väärtust.
+    1. Numbriseeria **Üldises** kiirkaardis määrake olekuks **Käsitsi** väärtuseks **Ei**.
+
+Pärast teie keskkonna Dynamics 365 Commerce juurutamist on soovitatav [lähtestada ka algandmed](enable-configure-retail-functionality.md) keskkonnas.
+
+## <a name="create-or-link-to-an-existing-azure-ad-b2c-tenant-in-the-azure-portal"></a>Looge või linkige olemasoleva B2C Azure AD rentnikuga Azure'i portaalis.
+
+See jaotis hõlmab B2C rentniku loomist Azure AD või seostamist ärisaidil kasutamiseks. Lisateavet vt teemast B2C [rentniku Azure Active Directory loomine](/azure/active-directory-b2c/tutorial-create-tenant).
 
 1. Logige sisse [Azure’i portaali](https://portal.azure.com/).
 1. Valige Azure'i portaali menüüst käsk **Loo ressurss**. Veenduge, et kasutate tellimust ja kataloogi, mis on seotud teie Commerce'i keskkonnaga.
 
-    ![Ressursi loomine Azure'i portaalis](./media/B2CImage_1.png)
+    ![Ressursi loomine Azure'i portaalis.](./media/B2CImage_1.png)
 
 1. Avage **Identiteedi \> Azure Active Directory B2C**.
 1. Kui olete lehel **Uue B2C üürniku loomine või olemasoleva rentnikuga linkimine**, kasutage ühte valikutest, mis sobib kõige paremini teie ettevõtte vajadustega.
 
-    - **Loo uus Azure AD B2C rentnik**: kasutage seda valikut uue AAD B2C rentniku loomiseks.
+    - **Loo uus Azure AD B2C rentnik**: kasutage seda suvandit uue Azure AD B2C rentniku loomiseks.
         1. Valige käsk **Loo uus Azure AD B2C rentnik**.
         1. Sisestage organisatsiooni nimi jaotises **Organisatsiooni nimi**.
         1. Sisestage algne domeeninimi jaotises **Algne domeeninimi**.
         1. Valige riik ja piirkond jaotises **Riik või piirkond**.
         1. Rentniku loomiseks valige **Loo**.
 
-     ![Uue Azure AD rentniku loomine](./media/B2CImage_2.png)
+     ![Uue Azure AD rentniku loomine.](./media/B2CImage_2.png)
 
      - **Olemasoleva Azure AD B2C rentniku linkimine minu Azure'i tellimusega**: kasutage seda suvandit, kui teil on Azure AD B2C rentnik, mida soovite linkida.
         1. Valige **Olemasoleva Azure AD B2C rentniku linkimine minu Azure'i tellimusega**.
         1. Jaotises **Azure AD B2C rentnik** valige sobiv B2C rentnik. Kui valikukastis kuvatakse teade „Ei leitud ühtegi sobilikku B2C rentnikku”, pole teil kehtivat sobilikku B2C rentnikku ja teil on vaja luua uus.
         1. Tehke jaotises **Ressursigrupp** valik **Loo uus**. Sisestage ressursirühmale **Nimi**, mis sisaldab rentnikku ja valige **Ressursigrupi asukoht** ning seejärel **Loo**.
 
-    ![Olemasoleva Azure AD B2C rentniku linkimine minu Azure'i tellimusega](./media/B2CImage_3.png)
+    ![Olemasoleva Azure AD B2C rentniku linkimine minu Azure'i tellimusega.](./media/B2CImage_3.png)
 
 1. Kui uus Azure AD B2C kaust on loodud (see võib võtta mõne hetke), kuvatakse armatuurlaual link uuele kaustale. See link juhatab teid lehele „Tere tulemast Azure Active Directory B2C-sse”.
 
-    ![Uue AAD kausta link](./media/B2CImage_4.png)
+    ![Link uude kausta Azure AD](./media/B2CImage_4.png)
 
 > [!NOTE]
 > Kui teie Azure'i kontol on mitu tellimust või olete seadistanud B2C rentniku aktiivsele tellimusele linkimata, suunab ribareklaam **Tõrkeotsing** rentnikku tellimusega linkima. Valige tõrkeotsingu teade ja järgige tellimuse probleemi lahendamiseks juhiseid.
 
 Järgmine pilt on Azure AD B2C ribareklaami **Tõrkeotsing** näide.
 
-![Kuvatav hoiatus Kataloogist puudub aktiivne tellimus](./media/B2CImage_5.png)
+![Kuvatav hoiatus Kataloogist puudub aktiivne tellimus.](./media/B2CImage_5.png)
 
 ## <a name="create-the-b2c-application"></a>B2C rakenduse loomine
 
@@ -81,11 +106,11 @@ B2C rakenduse loomiseks toimige järgmiselt.
 1. Avage Azure’i portaalis suvand **Rakenduse registreerimised** ja valige **Uus registreerimine**.
 1. Sisestage selle Azure AD B2C-rakenduse jaoks nimi väljas **Nimi**.
 1. **Toetatud kontotüüpide** all valige **kontod mis tahes identiteedipakkujas või organisatsioonikaustas (kasutajavoogudega kasutajate autentimiseks)**.
-1. **Ümbersuunamise URI** puhul sisestage oma sihtotstarbeline vastuse URL-id tüübina **Veeb**. Lisateavet vastuse URL-ide ja nende vormindamise kohta leiate allpool jaotisest [Vastuse URL-id](#reply-urls).
+1. **Ümbersuunamise URI** puhul sisestage oma sihtotstarbeline vastuse URL-id tüübina **Veeb**. Lisateavet vastuse URL-ide ja nende vormindamise kohta leiate allpool jaotisest [Vastuse URL-id](#reply-urls). Kasutaja autendimisel ümbersuunamiste lubamiseks B2C-st tagasisuunas peate sisestama ümbersuunamise URI/vastuse URL-i Azure AD. Vastuse URL-i saab lisada registreerimisprotsessi ajal või hiljem lisada, **valides B2C** rakenduse ülevaate jaotisest Ülevaade **lingi Lisa ümbersuunamise URI** **link**.
 1. **Õiguste** puhul valige suvand **Hüvitise administraatori nõustumine openID-offline_access õigustega**.
 1. Valige suvand **Registreeri**.
-1. Valige vastloodud rakendus ja liikuge menüüsse **Autentimine**. Siia saate vajadusel (praegu või hiljem) lisada täiendavaid **ümbersuunamise URL-e**. Kui seda pole praegu vaja, jätkake järgmise sammuga.
-1. Valige valiku **Vaikimisi hüvitis** all nii **Juurdepääsutookenid** kui ka **ID tookenid** nende lubamiseks rakenduses. Valige käsk **Salvesta**.
+1. Valige vastloodud rakendus ja liikuge autentimise **menüüsse**. 
+1. Vastuse URL-i **·** **·** **sisestamisel valige valiku Vaikimisi hüvitise ja rahavoo all nii juurdepääsu lubade kui ka ID-lubade** suvandid nende lubamiseks rakenduses ja seejärel valige **salvesta.** Kui registreerimise ajal ei sisestatud vastuse URL-i, saab **selle** lisada ka sellele lehele, valides suvandi Lisa platvorm, valides veebi ja **sisestades** seejärel rakenduse ümbersuunamise URI. Siis **on vaikimisi hüvitise ja rahavoo** jaotis saadaval **, et valida nii juurdepääsulubasid kui** **ka ID-pääsu suvandeid**.
 1. Minge Azure'i portaali menüüsse **Ülevaade** ja kopeerige **Rakenduse (kliendi) ID**. Pange see ID hilisemate seadistusetappide jaoks üles (mida hiljem viidatakse kui **Kliendi GUID**).
 
 Täiendavat viidet rakenduse registreerimiste kohta Azure AD B2C-s vt [Uue rakenduse registreerimiste kogemust Azure Active Directory B2C-ga](/azure/active-directory-b2c/app-registrations-training-guide)
@@ -108,7 +133,7 @@ Azure AD B2C pakub kolme peamist kasutajavoo tüüpi.
 - Profiili redigeerimine
 - Parooli lähtestamine
 
-Saate valida, kas soovite kasutada Azure AD pakutavaid vaikimisi kasutajavooge, mis kuvavad AAD B2C poolt hallatavat lehekülge. Saate ka luua HTML-lehe, et juhtida nende kasutajavoo kogemuste välimust ja olemust. 
+Võite kasutada vaikimisi antud kasutajavoogusid Azure AD, mis kuvavad B2C majutatud Azure AD lehe. Saate ka luua HTML-lehe, et juhtida nende kasutajavoo kogemuste välimust ja olemust. 
 
 Kasutajapoliitika lehtede kohandamiseks Dynamics 365 Commerce'is ehitatud lehtedega vaadake teemat [Kohandatud lehtede häälestamine kasutaja sisselogimisteks](custom-pages-user-logins.md). Lisateavet leiate teemast [Azure Active Directory B2C kasutuskogemuse liidese kohandamine](/azure/active-directory-b2c/tutorial-customize-ui).
 
@@ -120,9 +145,9 @@ Registreerimise ja sisselogimise kasutajavoo poliitika loomiseks toimige järgmi
 1. Lehel **Azure AD B2C – kasutajavood (poliitikad)** valige **Uus kasutajavoog**.
 1. Valige poliitika **Registreerimine ja sisselogimine** ja seejärel **Soovitatud** versioon.
 1. Sisestage poliitika nimi väljale **Nimi**. See nimi kuvatakse hiljem koos eesliitega, mille portaal määrab (nt „B2C_1_”).
-1. Märkige sobiv ruut jaotises **Identiteedipakkujad**.
+1. Jaotise **Identiteedi pakkujad** jaotises Kohalikud **kontod** valige e-kirjaga **registreerimine**. Meili autentimist kasutatakse Rakenduse Commerce kõige tavalisemates stsenaariumides. Kui kasutate ka isiku identiteedipakkuja autentimist, saab neid ka praegu valida.
 1. Valige sobiv ettevõtte valik jaotises **Mitmikautentimine**. 
-1. Jaotises **Kasutaja atribuudid ja nõuded** valige suvandid atribuutide kogumiseks või nõuete tagastamiseks vastavalt vajadusele. Commerce nõuab järgmisi vaikesätteid.
+1. Jaotises **Kasutaja atribuudid ja nõuded** valige suvandid atribuutide kogumiseks või nõuete tagastamiseks vastavalt vajadusele. Valige **käsk Kuva rohkem ...** atribuutide ja nõuete suvandite täieliku loendi saamiseks. Commerce nõuab järgmisi vaikesätteid.
 
     | **Atribuudi kogumine** | **Nõude tagastamine** |
     | ---------------------- | ----------------- |
@@ -136,11 +161,8 @@ Registreerimise ja sisselogimise kasutajavoo poliitika loomiseks toimige järgmi
 
 Järgmine pilt on Azure AD B2C registreerumise ja sisselogimise kasutajavoo näide.
 
-![Registreerimise ja sisselogimise poliitika sätted](./media/B2CImage_11.png)
+![Registreerimise ja sisselogimise poliitika sätted.](./media/B2CImage_11.png)
 
-Järgmine pilt näitab valikut **Kasutajavoo käitamine** Azure AD B2C registreerumise ja sisselogimise kasutajavoos.
-
-![Kasutajavoo suvandi käitamine poliitika voos](./media/B2CImage_23.png)
    
 ### <a name="create-a-profile-editing-user-flow-policy"></a>Profiili loomine kasutajavoo poliitika redigeerimisel
 
@@ -150,18 +172,22 @@ Profiili redigeerimise kasutajavoo poliitika loomiseks toimige järgmiselt.
 1. Lehel **Azure AD B2C – kasutajavood (poliitikad)** valige **Uus kasutajavoog**.
 1. Valige **Profiili redigeerimine** ja seejärel valige **soovitatav** versioon.
 1. Jaotises **Nimi** sisestage profiil kasutajavoogu redigeerides. See nimi kuvatakse hiljem koos eesliitega, mille portaal määrab (nt „B2C_1_”).
-1. Valige jaotises **Identiteedipakkujad** suvand **Emaili sisselogimine**.
+1. Jaotise **Identiteedi pakkujad** jaotises Kohalikud **kontod** valige Meiliaadress **SignIn**.
 1. Jaotises **Kasutaja atribuudid** märkige järgmised ruudud.
-    - **Meiliaadress** (ainult **Tagastuse nõue**)
-    - **Eesnimi** (**Atribuudi kogumine** ja **Tagastuse nõue**)
-    - **Identiteedipakkuja** (ainult **Tagastuse nõue**)
-    - **Perekonnanimi** (**Atribuudi kogumine** ja **Tagastuse nõue**)
-    - **Kasutaja objekti ID** (ainult **Tagastuse nõue**)
+    
+    | **Atribuudi kogumine** | **Nõude tagastamine** |
+    | ---------------------- | ----------------- |
+    |                        | Meiliaadressid   |
+    | Eesnimi             | Eesnimi        |
+    |                        | Identiteedipakkuja |
+    | Perekonnanimi                | Perekonnanimi           |
+    |                        | Kasutaja objekti ID  |
+    
 1. Valige **Loo**.
 
 Järgmine pilt on Azure AD B2C profiili redigeerimise kasutajavoo näide.
 
-![Profiili redigeerimise kasutajavoo loomine](./media/B2CImage_12.png)
+![Azure AD Näide B2C-profiili redigeerimise kasutajavoost](./media/B2CImage_12.png)
 
 ### <a name="create-a-password-reset-user-flow-policy"></a>Parooli lähtestamise kasutajavoo poliitika loomine
 
@@ -225,18 +251,18 @@ Sotsiaalse identiteedipakkuja lisamiseks ja seadistamiseks toimige järgmiselt.
 
 Järgmisel pildil kuvatakse näited akende **Identiteedipakkuja lisamine** ja **Sotsiaalse identiteedipakkuja häälestamine** kohta Azure AD B2C-s.
 
-![Sotsiaalse identiteedipakkuja lisamine rakendusse](./media/B2CImage_14.png)
+![Sotsiaalse identiteedipakkuja lisamine rakendusse.](./media/B2CImage_14.png)
 
 Järgmisel pildil kuvatakse näide, kuidas valida identiteedipakkujaid Azure AD B2C lehel **Identiteedipakkujad**.
 
-![Valige kõik enda poliitika jaoks lubatavad sotsiaalse identiteedipakkujad](./media/B2CImage_16.png)
+![Valige kõik enda poliitika jaoks lubatavad sotsiaalse identiteedi pakkujad.](./media/B2CImage_16.png)
 
 Järgmisel pildil kuvatakse näide vaikimisi sisselogimisaken, millel on sotsiaalse identiteedipakkuja sisselogimisnupp.
 
 > [!NOTE]
 > Kui kasutate oma kasutajavoogude jaoks teenuses Commerce sisseehitatud kohandatud lehti, tuleb sotsiaalse identiteedi pakkujate nupud lisada Commerce'i mooduli teegi laiendamisfunktsioonide abil. Lisaks, kui seadistate avaldusi kindla isiku identiteedi pakkujaga, võib mõnel juhul URL või konfiguratsioonistring olla tõstutundlik. Lisateabe saamiseks vaadake oma isiku identiteedi pakkuja ühendusjuhiseid.
  
-![Näide vaikimisi sisselogimisaknast sotsiaalse identiteedipakkuja sisselogimisnupuga](./media/B2CImage_17.png)
+![Näide vaikimisi sisselogimisaknast sotsiaalse identiteedipakkuja sisselogimisnupuga.](./media/B2CImage_17.png)
 
 ## <a name="update-commerce-headquarters-with-the-new-azure-ad-b2c-information"></a>Commerce'i peakontori värskendamine uue Azure AD B2C teabega
 
@@ -246,7 +272,7 @@ Peakontori väsrkendamiseks uue Azure AD B2C teabega toimige järgmiselt.
 
 1. Avage Commerce'i jaotis **Commerce'i jagatud parameetrid** ja valige vasakpoolsest menüüst **Identiteedipakkujad**.
 1. Jaotises **Identiteedipakkujad** toimige järgmiselt.
-    1. Sisestage identiteedipakkuja väljaandja URL lahtrisse **Väljaandja**. Oma väljaandja URL-i saamiseks avage teema [Väljaandja URL-i hankimine](#obtain-issuer-url).
+    1. Sisestage **väljale Väljastaja** identiteedipakkuja väljastaja string. Oma väljastajastringi otsimiseks vt allolevat [peakontori häälestamise väljastaja stringi](#obtain-issuer-string-for-headquarters-setup).
     1. Sisestageoma väljaandja kirje nimi väljale **Nimi**.
     1. Väljale **Tüüp** sisestage **Azure AD B2C (id_token)**.
 1. Jaotises **Sõltuvad osapooled**, kui eelpool mainitud B2C identiteedipakkuja üksus on valitud, tehke järgmist.
@@ -258,14 +284,15 @@ Peakontori väsrkendamiseks uue Azure AD B2C teabega toimige järgmiselt.
 1. Lehe **Jaotusegraafik** vasakpoolses navigeerimismenüüs valige töö **1110 globaalne konfiguratsioon**.
 1. Valige toimingupaanil käsk **Käivita kohe**.
 
-### <a name="obtain-issuer-url"></a>Väljaandja URL-i hankimine
+### <a name="obtain-issuer-string-for-headquarters-setup"></a>Hangi halduse häälestuse jaoks väljastaja string
 
-Oma identiteedipakkuja väljaandja URL-i hankimiseks toimige järgmiselt.
+Oma identiteedipakkuja väljastaja stringi hankimiseks järgige neid samme.
+
 1. Liikuge Azure'i portaali Azure AD B2C lehel oma kasutajavoosse **Sisselogimine ja registreerimine**.
 1. Valige **Lehe paigutused** vasakul navigeerimismenüüs, valige **Paigutuse nimi** suvand **Ühtne sisselogimine või registreerimine** lehel ja seejärel valige **Käivita kasutajavoog**.
-1. Veenduge, et teie rakendus on seatud ülal loodud kavandatud Azure AD B2C-rakendusele ja valige seejärel link jaotises **Käivita kasutajavoog** päis, mis sisaldab ``.../.well-known/openid-configuration?p=<B2CSIGN-INPOLICY>``.
-1. Metaandmete leht kuvatakse brauseri vahekaardil. Kopeerige identiteedipakkuja väljastaja URL  (**"väljastaja"** väärtus).
-   - Näide: ``https://login.fabrikam.com/011115c3-0113-4f43-b5e2-df01266e24ae/v2.0/``.
+1. Veenduge, et teie rakendus on seatud Azure AD ülal loodud kavandatud B2C-rakendusele ja valige seejärel kasutajavoo link, **mis kuvatakse pakett-töö Käivita kasutajavoo** päises ``.../.well-known/openid-configuration?p=<B2CSIGN-INPOLICY>``. (Ärge valige **Käivita kasutajavoog**.) Uus vahekaart avaneb kuvab metaandmed poliitika jaoks väljastaja stringi kogumiseks.
+1. Brauseri vahekaardil kuvataval metaandmete lehel kopeerige identiteedipakkuja väljastaja string (**väljastaja** väärtus, alustades väärtusega "https://" ja lõpetades väärtusega "/v2.0/"), mis sarnaneb järgmise näitega.
+   - ``https://login.fabrikam.com/011115c3-0113-4f43-b5e2-df01266e24ae/v2.0/``.
  
 **VÕI**: sama metaandmete URL-i käsitsi loomiseks tehke järgmist.
 
@@ -283,29 +310,25 @@ Kui teie Azure AD B2C rentniku häälestus on lõpule viidud, tuleb konfigureeri
 
 Nõutava rakenduseteabe kogumiseks toimige järgmiselt.
 
-1. Avage Azure'i portaalis jaotis **Avaleht \> Azure AD B2C - rakendused**.
-1. Valige oma rakendus ja seejärel valige valige vasakpoolsel navigeerimispaanil **Atribuudid** rakenduse üksikasjade hankimiseks.
-1. Väljalt **Rakenduse ID** hankige rakenduse ID oma B2C rentnikus loodud B2C rakendusest. See sisestatakse hiljem saidiehitajas väärtuseks **Kliendi GUID**.
-1. Hankige vastuse URL jaotisest **Vastuse URL**.
-1. Avage jaotis **Avaleht \> Azure AD B2C – kasutajavood (poliitikad)** ja seejärel hankige kõigi kasutajavoo poliitikate nimed.
+1. Avage Azure'i portaalis **Home \>Azure AD B2C – rakenduse registreerimised**.
+1. Valige oma rakendus ja seejärel valige vasakul navigeerimispaanil **Rakenduse** üksikasjade saamiseks Ülevaade.
+1. Koguge **rakenduse (kliendi) ID viitest teie B2C rentnikus loodud B2C-rakenduse rakenduse ID**. See sisestatakse hiljem saidiehitajas väärtuseks **Kliendi GUID**.
+1. Valige **ümbersuunamise URL-id** ja koguge oma saidi kohta kuvatud vastuse URL (häälestusel sisestatud vastuse URL).
+1. Minge avalehele **\>Azure AD B2C – kasutajavood** ja koguge seejärel iga kasutajavoo poliitika täisnimed.
 
-Järgmisel pildil kuvatakse näide lehest **Azure AD B2C – rakendused**.
+Järgmine pilt näitab näidet **Azure AD B2C - rakenduse registreerimiste ülevaatelehe** kohta.
 
-![Oma rentnikus B2C rakendusse liikumine](./media/B2CImage_19.png)
-
-Järgmisel pildil kuvatakse näide rakenduse lehest **Atribuudid** Azure AD B2C-s. 
-
-![Rakenduse ID kopeerimine B2C rakenduse atribuutidest](./media/B2CImage_21.png)
+![Azure AD B2C – rakenduse registreerimiste ülevaateleht, kus on esile tõstetud rakenduse (kliendi) ID](./media/ClientGUID_Application_AzurePortal.png)
 
 Järgmisel pildil kuvatakse näide kasutajavoo poliitikatest lehel **Azure AD B2C – kasutajavood (poliitikad)**.
 
-![Kõigi B2C poliitikavoo nimede kogumine](./media/B2CImage_22.png)
+![Kõigi B2C poliitikavoo nimede kogumine.](./media/B2CImage_22.png)
 
-### <a name="enter-your-aad-b2c-tenant-application-information-into-commerce"></a>Oma AAD B2C üürniku rakenduse teabe sisestamine Commerce'i
+### <a name="enter-your-azure-ad-b2c-tenant-application-information-into-commerce"></a>Sisestage oma Azure AD B2C rentniku rakenduse teave rakendusse Commerce
 
 Enne B2C rentniku seostamist oma saitidega, peate sisestama Azure AD B2C rentniku andmed kaubanduse saidiehitajasse.
 
-AAD B2C rentniku rakenduse teabe lisamiseks Commerce'i toimige järgmiselt.
+Oma B2C Azure AD rentniku rakenduse teabe lisamiseks Commerce'ile järgige neid samme.
 
 1. Logige sisse administraatorina oma keskkonna kaubanduse saidiehitajasse.
 1. Vasakpoolsel navigeerimispaanil valige suvand **Rentniku sätted** selle laiendamiseks.
@@ -337,7 +360,7 @@ B2C rakenduse seostamiseks teie saidi ja kanaliga toimige järgnevalt.
 1. Vasakpoolsel navigeerimispaanil valige suvand **Saidi sätted** selle laiendamiseks.
 1. Jaotises **Saidi sätted** valige **Kanalid**.
 1. Valige oma kanal põhiakna jaotises **Kanalid**.
-1. Parempoolsel kanali atribuutide paanil valige oma B2C rakenduse nimi rippmenüüst **B2C rakenduse valimine**.
+1. Valige paremal kanali atribuutide paanil oma B2C-rakenduse nimi **rippmenüüst Vali B2C-rakendus**.
 1. Valige **Sule** ja seejärel valige **Salvesta ja avalda**.
 
 ## <a name="additional-b2c-information"></a>Lisateave B2C kohta

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 248de8e12703a84482b67d0899857a6efb33531c
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
-ms.translationtype: HT
+ms.openlocfilehash: da835306e523129fb667153ff6a5fbe574f2769649639595c90af603f1258e4a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023174"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6757995"
 ---
 # <a name="update-certificate-numbers-and-dates-for-tds-transactions"></a>TDS-i kannete sertifikaadinumbrite ja kuupäevade uuendamine
 
@@ -33,7 +33,7 @@ TDS-tehingute sertifikaatide numbrite ja kuupäevade värskendamiseks toimige j�
 
 1. Minge **Maks \> Deklaratsioonid \> Kinnipeetav maks \> Värskenda sertifikaat**.
 
-    [![Serdilehe värskendamine](./media/apac-ind-TDS-45.png)](./media/apac-ind-TDS-45.png)
+    [![Serdilehe värskendamine.](./media/apac-ind-TDS-45.png)](./media/apac-ind-TDS-45.png)
 
 2. Valige **Serdi värskendamine** lehel **Vali** väljal **Maksu tüüp** **TDS**.
 3. Väljal **Sertifikaadi number** valige kliendi või hankija TDS-i serdi number.
@@ -60,4 +60,4 @@ TDS-tehingute sertifikaatide numbrite ja kuupäevade värskendamiseks toimige j�
 8. Valige **Värskenda** et värskendada **Serdi numbrit** ja **Serdi kuupäev** väljal TDS-kannete jaoks alumises ruudustikus.
 10. Minge **Maks \> Kaudsed maksud \> Kinnipeetav maks \> Taastatav sert** ja valige **Päring**, et vaadata värskendatud kanderidu, milles on uus serdi number **Serdikannete** lehel.
 
-    [![Serdi kannete leht](./media/apac-ind-TDS-46.png)](./media/apac-ind-TDS-46.png)
+    [![Serdi kannete leht.](./media/apac-ind-TDS-46.png)](./media/apac-ind-TDS-46.png)

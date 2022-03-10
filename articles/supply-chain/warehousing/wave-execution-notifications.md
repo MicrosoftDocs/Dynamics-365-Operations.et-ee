@@ -11,32 +11,28 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
-ms.search.validFrom: 2022-04-01
+ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: fee112d3211f619b2146dd21c4f8a52ad33667d6
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
-ms.translationtype: HT
+ms.openlocfilehash: af3983db1a96116a88914411a26f1ac5d4857ae9
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019150"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103235"
 ---
 # <a name="wave-execution-notifications"></a>Voo täitmise teatised
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 *Voo käivitamisteatised* funktsioon kasutab ärisündmusi ja tegevuskeskust voo käivitamisega seotud teatiste esitamiseks. See võimaldab teil määratleda teatisi loovad sündmuste tüübid, neid loovad laod ja neid saavad kasutajad.
 
 **Teadete näitamise** nupp (kellukesümbol) navigeerimisriba paremal pool näitab, millal tegevuskeskuse sõnum on praegusele kasutajale saadaval. Kasutaja saab tegevuskeskuse avamiseks ja sõnumite ülevaatamiseks valida nupu **Näita teateid**.
 
-Ärisündmused toimuvad äriprotsesside käivitamisel. Äriprotsessid valmistatud ülesannetest. Äriprotsessi ajal sooritavad seda osalevad kasutajad nende ülesannete täitmiseks äritoiminguid. Ärisündmused on mehhanism, mis võimaldab välissüsteemidel saada Finance and Operations rakendustelt teatisi. Sel viisil saavad süsteemid sooritada äritoiminguid ja reageerida ärisündmustele. Lisateavet leiate teemast [Ärisündmuste ülevaade](../../fin-ops-core/dev-itpro/business-events/home-page.md).
+Ärisündmused toimuvad äriprotsesside käivitamisel. Äriprotsessid valmistatud ülesannetest. Äriprotsessi ajal sooritavad seda osalevad kasutajad nende ülesannete täitmiseks äritoiminguid. Ärisündmused on mehhanism, mis võimaldab välissüsteemidel saada teatisi finants- ja operatsioonide rakendustelt. Sel viisil saavad süsteemid sooritada äritoiminguid ja reageerida ärisündmustele. Lisateavet leiate teemast [Ärisündmuste ülevaade](../../fin-ops-core/dev-itpro/business-events/home-page.md).
 
-## <a name="turn-on-the-wave-execution-notifications-feature"></a>Voo käitamise teatiste funktsiooni sisselülitamine
+## <a name="turn-the-wave-execution-notifications-feature-on-or-off"></a>Voo käivitamise teatiste funktsiooni sisse- või väljalülitamine
 
-Enne funktsiooni *Voo käitamise teatised* kasutamist peate selle oma süsteemis sisse lülitama. Administraatorid saavad kasutada [funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) tööruumi, et kontrollida funktsiooni olekut ja vajadusel selle sisse lülitada. Seega on funktsioon loetletud järgmisel viisil.
-
-- **Moodul:** *laohaldus*
-- **Funktsiooni nimi:** *voo käitamise teatised*
+Tarneahela halduse versiooni 10.0.25 puhul lülitatakse see funktsioon vaikimisi sisse. Administraatorid saavad selle funktsiooni sisse või välja lülitada, otsides funktsioonihalduse *tööruumis* voo käivitamise [teatiste](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) funktsiooni.
 
 ## <a name="scenario-send-wave-batch-execution-notifications-to-the-action-center"></a>Stsenaarium: voo partii käivitamise teatiste saatmine tegevuskeskusele
 

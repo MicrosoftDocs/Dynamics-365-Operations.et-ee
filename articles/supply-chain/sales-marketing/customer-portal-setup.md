@@ -1,48 +1,47 @@
 ---
 title: Kliendiportaali installimine, seadistamine ja värskendamine
 description: See teema hõlmab kliendiportaali litsentside üksikasju ja seadistamise juhiseid.
-author: dasani-madipalli
-manager: tfehr
+author: Henrikan
 ms.date: 06/08/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: damadipa
+ms.author: henrikan
 ms.search.validFrom: 2020-04-22
-ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: fa95995320a0f81c040eeebe6fd796200fbff13f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.dyn365.ops.version: 10.0.13
+ms.openlocfilehash: 187efe1372bf2400241f3d65751189247c001447
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5255033"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060609"
 ---
 # <a name="install-set-up-and-update-the-customer-portal"></a>Kliendiportaali installimine, seadistamine ja värskendamine
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+[!include [banner](../includes/banner.md)]
+
 
 ## <a name="licensing-requirements"></a>Litsentsimisnõuded
 
 Kliendiportaali kasutamiseks peavad teil olema järgmised litsentsid.
 
-- **Power Appsi portaalid** – see litsents on vajalik kliendiportaali majutamiseks. Portaalide litsentsid põhinevad kasutusel. Lisateavet vt teemast [Power Appsi portaalide litsentsimisnõuded](https://docs.microsoft.com/power-platform/admin/powerapps-flow-licensing-faq#portals).
+- **Power Appsi portaalid** – see litsents on vajalik kliendiportaali majutamiseks. Portaalide litsentsid põhinevad kasutusel. Lisateavet vt teemast [Power Appsi portaalide litsentsimisnõuded](/power-platform/admin/powerapps-flow-licensing-faq#portals).
 - **Topeltkirjutus** – teil peavad olema vajalikud litsentsid, et võimaldada Supply Chain Managementi tabelite topeltkirjutust. Lisateavet vt teemast [topeltkirjutuse süsteeminõuded](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-system-req.md).
 
 ## <a name="dependencies-on-dual-write-and-power-apps-portals"></a>Topeltkirjutuse ja Power Appsi portaalide sõltuvused
 
 Kliendiportaal sõltub Power Appsi portaalidest ja topeltkirjutusest, nagu on näidatud järgmisel pildil.
 
-![Kliendiportaali sõltuvused](media/customer-portal-elements.png "Kliendiportaali sõltuvused")
+![Kliendiportaali sõltuvused.](media/customer-portal-elements.png "Kliendiportaali sõltuvused")
 
 Erinevalt teenuse Supply Chain Management teistest funktsioonidest paikneb kliendiportaali mall Power Appsi portaalides. Seega on kliendiportaali funktsionaalsus ja võimalused piiratud Power Appsi portaalide ning topeltkirjutuse tabelites pakutavatega.
 
 ## <a name="required-setup-to-enable-the-customer-portal"></a><a name="required-setup"></a>Vajalikud seadistused kliendiportaali lubamiseks
 
-Kui olete veendunud, et teil on vajalikud litsentsid, siis võite seadistada topeltkirjutamise, nagu on kirjeldatud jaotises [topeltkirjutamise esmase sünkroonimise juhised](../../fin-ops-core/dev-itpro/data-entities/dual-write/initial-sync.md).
+Kui olete veendunud, et teil on vajalikud litsentsid, siis võite seadistada topeltkirjutamise, nagu on kirjeldatud jaotises [topeltkirjutamise esmase sünkroonimise juhised](../../fin-ops-core/dev-itpro/data-entities/dual-write/enable-entity-map.md).
 
 Veenduge, et topeltkirjutamise puhul oleksid lubatud järgmised tabeli vastendused.
 
@@ -76,14 +75,14 @@ Kliendiportaalile võidakse hiljem lisada uusi funktsioone. Kõik Microsofti teh
 
 Kliendiportaali seadistamise ja kohandamise lähemalt tundma õppimiseks peaksite alustama alltoodud alustehnoloogiaid käsitleva dokumentatsiooni läbivaatamisest.
 
-- [Power Appsi portaalide dokumentatsioon](https://docs.microsoft.com/powerapps/maker/portals/overview)
+- [Power Appsi portaalide dokumentatsioon](/powerapps/maker/portals/overview)
 - [Topeltkirjutuse dokumentatsioon](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page.md)
 
 Portaalide tõhusaks haldamiseks peate mõistma Power Appsi portaalide ja Microsoft Dataverse'i töötsüklit. Lisateavet vt järgmistest allikatest.
 
-- [Portaali töötsükkel](https://docs.microsoft.com/powerapps/maker/portals/admin/portal-lifecycle)
-- [Portaali uuendamine](https://docs.microsoft.com/powerapps/maker/portals/admin/upgrade-portal)
-- [Portaali konfiguratsiooni migreerimine](https://docs.microsoft.com/powerapps/maker/portals/admin/migrate-portal-configuration)
+- [Portaali töötsükkel](/powerapps/maker/portals/admin/portal-lifecycle)
+- [Portaali uuendamine](/powerapps/maker/portals/admin/upgrade-portal)
+- [Portaali konfiguratsiooni migreerimine](/powerapps/maker/portals/admin/migrate-portal-configuration)
 - [Lahenduse töötsükli haldus: Dynamics 365 for Customer Engagementi rakendused](https://www.microsoft.com/download/details.aspx?id=57777)
 
 

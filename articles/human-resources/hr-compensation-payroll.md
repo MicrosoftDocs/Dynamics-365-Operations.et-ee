@@ -2,7 +2,7 @@
 title: Maksmiseks valmis
 description: See teema näitab, kuidas märkida töötaja maksmiseks valmis rakenduses Dynamics 365 Human Resources.
 author: marcelbf
-ms.date: 07/13/2020
+ms.date: 08/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,19 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-07-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f9aa9e60b51b1801c07981ad120cb77f65fee286
-ms.sourcegitcommit: baad2723291774f610324a8054fc14abf3287fe1
-ms.translationtype: HT
+ms.openlocfilehash: 825aa327cc1530675fad57be6fc1b4313f0cf998
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/14/2021
-ms.locfileid: "6560101"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068966"
 ---
 # <a name="ready-to-pay"></a>Maksmiseks valmis
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [preview feature](./includes/preview-feature.md)]
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 > [!NOTE]
 > Kui soovite märkida töötaja maksmiseks valmis olevaks, peate esmalt lubama funktsioonihalduses **(Eelvaate) palgaarvestuse integratsiooni** funktsiooni. Lisateavet funktsioonide eelversioonide lubamise kohta vt [Funktsioonide haldamine](hr-admin-manage-features.md).
@@ -39,7 +40,7 @@ Töötaja teabe kogumine ja kontroll võib olla aeganõudev ja täis rohkeid tõ
 
 Töötaja staatuse muutmiseks kui "valmis makseks" tehke järgmist.
 
-1. Avage **Tasuhaldus**. Tööruumis on kaks paani 
+1. Avage **Tasuhaldus**. Tööruumis on kaks paani: 
     - **Töötajad on maksmiseks valmis**
     - **Töötajad, kes pole maksmiseks valmis**
     ![Tasuhalduse tööruum.](./media/hr-ready-to-pay-1-workspace.png)
@@ -53,31 +54,28 @@ Töötaja staatuse muutmiseks kui "valmis makseks" tehke järgmist.
 
 ## <a name="validation"></a>Valideerimine
 
-Enne töötaja märkimist maksmiseks valmis olevaks teeb süsteem profiili täielikkuse põhikontrolli.
+Enne töötaja maksevalmiduse märkimist kinnitatakse töötaja profiili täielikkus.
 
 ![Kinnita tulemused.](./media/hr-ready-to-pay-3-results.png)
 
-Järgmine tabel sisaldab teavet iga teostatud valideerimise kohta. 
-
 | Valideerimine | Details |
 | --- | --- |
-| Aadressi eesmärgi parameeter | Kontrollib, kas parameeter **Kasuta palgaarvestuse aadresse** on sees. |
-| Palgaarvestuse aadress | Kinnitatakse, kui töötaja profiilil on vähemalt üks aadress, mille eesmärk on „Palgaarvestuse elukoht” või „Palgaarvestuse töökoht”, ja iga eesmärgi jaoks on ainult üks aadress. |
-| Töösuhe | Kontrollige, kas töötajal on vähemalt üks tööleping (praegune, eelmine või tulevane). |
-| ID-number | Kinnitab, kas parameeter "Kasuta palgatöötluses identifitseerimistüüpe" on jah ja kas parameetris näidatud identifitseerimistüüp on täidetud töötajaprofiilis. |
-| Ees- ja perekonnanimi | Kinnitab, kas töötaja profiil on kehtiv, kontrollige, kas väljad **Nimi** ja **Perekonnanimi** on täidetud.|
-| Asend | Kontrollige, kas töötajale on määratud ametikoht. |
-| Sünnikuupäev | Kinnitab, kas töötaja profiil on kehtiv, kontrollides, kas väli **Sünnipäev** on täidetud. |
-| Hüvitus | Kontrollige, kas töötaja on registreeritud fikseeritud hüvituskavasse. |
+| **Aadressi eesmärgi parameeter** | Kinnitab, et parameeter **Kasuta palgaarvestuse aadresse** oleks valitud. |
+| **Palgaarvestuse aadress** | Kinnitab, et töötaja profiilil on vähemalt üks aadress, mille eesmärk on **Palgaarvestuse elukoht** või **Palgaarvestuse töökoht**, ja iga eesmärgi jaoks on ainult üks aadress. |
+| **Töösuhe** | Kinnitab, et töötajal oleks vähemalt üks tööleping (praegune, eelmine või tulevane). |
+| **ID-number** | Kinnitab, et parameeter **Kasuta palgatöötluses identifitseerimistüüpe** oleks **Jah** lehel **Inimressursid** ja kas parameetris näidatud identifitseerimistüüp on täidetud töötaja profiilis. |
+| **Ees- ja perekonnanimi** | Kinnitab, et väljad **Nimi** ja **Perekonnanimi** on täidetud.|
+| **Asend** | Kinnitab, et töötajale oleks määratud ametikoht. |
+| **Sünnikuupäev** | Kinnitab, et **Sünnipäeva** väli oleks täidetud |
+| **Hüvitus** | Kinnitab, et töötaja oleks registreeritud fikseeritud kompensatsioonikavasse. |
 
 Kui üks neist kinnitustest ebaõnnestub, ei saa te töötajat maksevalmis märkida.
 
 Kui väli **Maksmiseks valmis** on **Ei**, näitab see, et peate töötaja profiili lõpuleviimiseks midagi tegema. See ei peata andmete avatud saatmist üheski andmeüksuses. 
 
-## <a name="known-issues"></a>Teadaolevad probleemid
+## <a name="process-automation"></a>Protsesside automatiseerimine
 
-- Funktsiooni **Sujuv töötajate sisenemine** tuleb funktsioonihalduses keelata. Selle funktsiooni kasutamisel ei tööta hüvitise haldamise tööruumi paanid korralikult.
-- Töötaja vormil **Palgaarvestuse vahekaart** on grupp **Maksmiseks valmis** on saadaval igale kasutajarollile. 
+Saate automatiseerida kõikide töötajate kinnitamise [Protsessi automatiseerimise](/dynamics365/fin-ops-core/dev-itpro/sysadmin/process-automation)abil. **Kompensatsiooni halduse** tööruumis minge **Lingid** \> **Parameetrid** \> **Prostsessi automatiseerimine**.
 
 ## <a name="see-also"></a>Vt ka
 

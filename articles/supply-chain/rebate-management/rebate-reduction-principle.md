@@ -5,7 +5,6 @@ author: sherry-zheng
 ms.date: 02/19/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TAMRebateCategory
 audience: Application User
@@ -14,18 +13,17 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
-ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 79f7e481b65ec40f0fb7e259037cd4988b3b5c07
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
-ms.translationtype: HT
+ms.dyn365.ops.version: 10.0.18
+ms.openlocfilehash: e6b178704fde18036d526e7a645cb9b4f8bd66c7
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5831694"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7579060"
 ---
 # <a name="rebate-reduction-principles"></a>Tagasimakse vähendamise põhimõtted
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Saate grupeerida Tagasimaksehalduse tehinguid *vähendamispõhimõtetesse*, et vähendada muid kaubaga seotud sätteid ja/või vähendada tagasimakse arvutuste tulemuseks tulenevaid väärtusi. Pärast tagasimakse vähendamise põhimõtete kehtestamist saate need soovi korral omistada oma tagasimakse haldamise tehingute ridadele.
 

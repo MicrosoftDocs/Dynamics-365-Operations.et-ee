@@ -1,29 +1,29 @@
 ---
 title: Kvaliteedijuhtimise kauba valim
 description: Selles teemas kirjeldatakse, kuidas seadistada kauba valimeid.
-author: rachel-profitt
-manager: tfehr
+author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventItemSampling
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: raprofit
+ms.author: yufeihuang
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 495bef32d63738e367167ee69f2028bc77945cc4
-ms.sourcegitcommit: 8362f3bd32ce8b9a5af93c8e57daef732a93b19e
-ms.translationtype: HT
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: ea749c470ab1d80f1f3974596a2cd4a1f5b7b32d
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "5956617"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7578484"
 ---
 # <a name="quality-management-item-sampling"></a>Kvaliteedijuhtimise kauba valim
+
+[!include [banner](../includes/banner.md)]
 
 Kauba valimit kasutatakse kvaliteediseose osana. See määratleb praeguse füüsilise laovaru summa, mida tuleb kontrollida. Valimi aluseks võib olla fikseeritud kogus, protsent või terve litsentsiplaat.
 

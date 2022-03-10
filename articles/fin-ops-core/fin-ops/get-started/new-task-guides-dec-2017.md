@@ -2,11 +2,9 @@
 title: Uued või värskendatud tegevusjuhised (detsember 2017)
 description: Selles teemas on esitatud uued või värskendatud tegevusjuhised, mis väljastati Microsoftile (detsember 2016 – kõik keeled) Microsoft Dynamics 365 for Operationsi APQC ühendatud teegis. Ühtegi uut teeki Alustamine ei antud välja.
 author: josaw1
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -14,12 +12,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: c24fed0027f1c1f6aeab823b22bc3b36b814f814
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
-ms.translationtype: HT
+ms.openlocfilehash: 42bf8e4a1264b67ff11dad7417d16b6273e6feb36294596014faf562a4a0ef3c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4799058"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6723051"
 ---
 # <a name="new-or-updated-task-guides-december-2017"></a>Uued või värskendatud tegevusjuhised (detsember 2017)
 
@@ -368,3 +366,6 @@ BPM-i rea kustutamisel kustutatakse ka kõik BPM-i reaga seostatud tegevusjuhise
 **BPM-i rea kustutamine**
 
 - Ajastatud kanban-tööde teisaldamine
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

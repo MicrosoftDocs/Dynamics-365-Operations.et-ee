@@ -2,7 +2,7 @@
 title: Otsingutulemuste moodul
 description: See teema hõlmab otsingutulemuste mooduleid ja kirjeldab, kuidas neid rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
 author: anupamar-ms
-ms.date: 05/28/2021
+ms.date: 10/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,17 +14,17 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: c3fce73b1827de12bc8d40e1abb43ad000b8aa1c38812221dfae95010513ede1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: bae825ed7093494c48abac119c480be0dba4f951
+ms.sourcegitcommit: 9c2bc045eafc05b39ed1a6b601ccef48bd62ec55
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712401"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7919470"
 ---
 # <a name="search-results-module"></a>Otsingutulemuste moodul
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
+
 
 See teema hõlmab otsingutulemuste mooduleid ja kirjeldab, kuidas neid rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
 
@@ -83,6 +83,58 @@ Otsingutulemuste mooduli lisamiseks kategoorialehele toimige järgmiselt.
 1. Avage **Lehed** ja seejärel valige uue lehe loomiseks **Uus**.
 1. Valige dialoogiboksis **Malli valik** loodud **Otsingutulemuste** mall, sisestage **Kategooria leht** üksuse **Lehekülje nimi** jaoks ja seejärel valige **OK**. Kuna kõik väärtused on mallis seadistatud, on lehekülg avaldamiseks valmis.
 1. Valige lehe registreerimiseks **Lõpeta redigeerimine** ja seejärel selle avaldamiseks **Avalda**.
+
+## <a name="enable-inventory-awareness-for-the-search-results-module"></a>Lubage otsingutulemuste mooduli jaoks varude teadlikkus
+
+Kliendid eeldavad üldiselt, et e-kaubanduse sait on kogu sirvimiskogemuse jooksul laoseisust teadlik, et nad saaksid otsustada, mida teha, kui toote laoseis puudub. Otsingutulemuste moodulit saab täiustada nii, et see hõlmaks laoandmeid ja pakuks järgmisi kasutuskogemusi.
+
+- Näidake koos toodetega varude saadavuse silti.
+- Peida laost otsas olevad tooted.
+- Kuvage otsingutulemuste loendi lõpus laost otsas olevad tooted.
+    
+Nende kasutuskogemuste lubamiseks peate Commerce'i peakorteris konfigureerima järgmised eeltingimusesätted.
+
+### <a name="enable-the-enhanced-e-commerce-product-discovery-to-be-inventory-aware-feature"></a>Lubage täiustatud e-kaubanduse tootetuvastuse funktsioon, et olla varude suhtes teadlik
+
+> [!NOTE]
+> Funktsioon **Täiustatud e-kaubanduse tootetuvastus, et olla laoseisust teadlik** on saadaval alates Commerce'i versiooni 10.0.20 väljalaskest.
+
+Et lubada Commerce'i peakorteris **Täiustatud e-kaubanduse tootetuvastuse funktsioon laoseisust teadlikuks**, järgige neid samme.
+
+1. Avage **Tööruumid \> Funktsioonihaldus**.
+1. Otsige funktsiooni **Täiustatud e-kaubanduse tootetuvastuse** ja lubage see.
+
+### <a name="configure-the-populate-product-attributes-with-inventory-level-job"></a>Konfigureerige toote atribuutide täitmine laotaseme tööga
+
+Töö **Tooteatribuutide täitmine laotasemega** loob varude saadavuse jäädvustamiseks uue tooteatribuudi ja määrab seejärel selle atribuudi iga põhitoote uusimale laotaseme väärtusele. Kuna müüdava toote või sortimendi laovarude saadavus muutub pidevalt, soovitame tungivalt ajastada töö partiiprotsessina.
+
+Töö **Tooteatribuutide täitmine laotasemega** konfigureerimiseks Commerce'i peakorteris toimige järgmiselt.
+
+1. Avage **Jaemüük ja kaubandus \> Jaemüügi ja kaubanduse IT \> Tooted ja varud**.
+1. Valige **Toote atribuutide täitmine laotaseme tööga**.
+1. Dialoogiaknas **Tooteatribuutide täitmine laotasemega** toimige järgmiselt.
+
+    1. Määrake jaotises **Parameetrid** väljal **Toote atribuut ja tüübi nimi** nimi spetsiaalsele tooteatribuudile, mis luuakse varude saadavuse jäädvustamiseks.
+    1. Valige jaotises **Parameetrid** väljal **Laovarude saadavus** kogus, millel laoseisu arvutamine peaks põhinema (nt **Saadaval füüsiliselt**).
+    1. Jaotises **Käita taustal** konfigureerige töö taustal töötama ja soovi korral lülitage sisse valik **Partiitöötlus**. 
+
+> [!NOTE]
+> Oma e-kaubanduse saidi PDP-de ja tooteloendi lehtede järjepidevaks varude taseme arvutamiseks valige kindlasti sama koguse valik nii Commerce'i peakorteri sätte **Varude saadavuse põhjal** kui ka **Varude taseme jaoks, mis põhineb** säte Commerce saidiehitajas. Saidiehitaja kohta lisateabe saamiseks vt teemat [Varude sätete rakendamine](inventory-settings.md).
+
+### <a name="configure-the-new-product-attribute"></a>Seadistage uue toote atribuut
+
+Pärast töö **Tooteatribuutide täitmine laotasemega** käivitamist peate konfigureerima äsja loodud tooteatribuudi e-kaubanduse saidil, kus soovite otsingutulemuste mooduli jaoks lubada laoseisu.
+
+Uue tooteatribuudi konfigureerimiseks Commerce'i peakorteris toimige järgmiselt.
+
+1. Avage **Jaemüük ja kaubandus \> Kanali seadistus \> Kanali kategooriad ja toote atribuudid** ja valige e-kaubanduse sait.
+1. Valige ja avage seotud atribuutide rühm, lisage sellele äsja loodud tooteatribuut ja seejärel sulgege leht.
+1. Valige **Määra atribuudi metaandmed**, valige äsja lisatud tooteatribuut ja seejärel lülitage sisse **Kuva atribuut kanalil**, **Laaditav**, **Saab täpsustada** ja **Saab küsida** valikud.
+
+> [!NOTE]
+> Otsingutulemuste moodulis kuvatavate toodete puhul sisestatakse varude tase põhitoote tasemel, mitte üksiku variandi tasemel. Sellel on ainult kaks võimalikku väärtust: "saadaval" ja "laost otsas". Väärtuste tegelik tekst hangitakse [laotaseme profiili](inventory-buffers-levels.md) definitsioonist. Meistritoode loetakse laost lõppenuks ainult siis, kui kõik selle variandid on otsas. Variandi varude tase määratakse toote laotaseme profiili definitsiooni alusel. 
+
+Kui kõik eelnevad konfiguratsioonietapid on lõpule viidud, kuvavad otsingutulemuste lehtede täpsustajad varudepõhist filtrit ja otsingutulemuste moodul hangib laoandmed kulisside taga. Seejärel saate Commerce saidi koostajas konfigureerida sätte **Tooteloendi lehtede laosätted**, et juhtida seda, kuidas otsingutulemuste moodul kuvab laost otsas tooteid. Lisateavet vt teemast [Varude sätete rakendamine](inventory-settings.md).
 
 ## <a name="additional-resources"></a>Lisaressursid
 

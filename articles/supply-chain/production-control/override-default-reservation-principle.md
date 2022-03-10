@@ -2,11 +2,9 @@
 title: Tootmises olevate materjalide vaikimisi reserveerimise põhimõtte alistamine
 description: See teema kirjeldab, kuidas määrata igale kauba mudeligrupile vaikimisi reserveerimise põhimõte, nii et igale kaubale, mis on tootmiskoosluse (BOM) või partiitellimuse valemi osa, saab automaatselt rakendada erinevaid reserveerimise põhimõtteid.
 author: johanhoffmann
-manager: tfehr
 ms.date: 12/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventModelGroup
 audience: Application User
@@ -16,17 +14,16 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-10
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 2391ec11bd497c69ddb19e29533f5441d7374877
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
-ms.translationtype: HT
+ms.openlocfilehash: b12740e58b2bf8667bee8a2c51917d69771779f2
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5501098"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103359"
 ---
 # <a name="override-the-default-reservation-principle-for-materials-in-production"></a>Tootmises olevate materjalide vaikimisi reserveerimise põhimõtte alistamine
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 *Vaikimisi tootmise broneerimise alistamise* funktsioon võimaldab teil määrata vaikimisi reserveerimise põhimõtte igale kauba mudeligrupile. Seega saab igale tootmiskoosluse või partiitellimuse valemi osaks olevale kaubale rakendada erinevaid reserveerimise põhimõtteid. Saate valida, kas iga kauba mudeligrupp peaks alistama tellimusele määratud vaikimisi reserveerimise põhimõtte ning millist reserveerimise põhimõtet tuleks selle asemel kasutada (*käsitsi*, *hinnang*, *planeerimine*, *väljastamine* või *alustamine*).
 
@@ -34,12 +31,9 @@ Uue tootmistellimuse või partiitellimuse loomisel palutakse teil valida reserve
 
 Näiteks kui teil on toormaterjale või koostisosi, mis nõuavad nende toodete jaoks loodud komplekteerimistööd, koosluse või valemiridu, vajavad füüsilist reserveerimist, kuna füüsiline reserveerimine on eeltingimuseks laotöö loomisele. Tavaliselt kui soovite, et reserveering toimuks automaatselt, valite ühe järgmistest reserveerimise põhimõtetest: *hindamine*, *planeerimine*, *vabastamine* või *alustamine*. Samas kui teil on materjale või koostisosi, mis ei vaja komplekteerimise tööd, sest need tarbitakse otse asukohast, valite tavaliselt *käsitsi* reserveerimise põhimõtte, mis ei tee mingeid füüsilisi reserveeringuid ega ei loo ühtegi komplekteerimise tööd.
 
-## <a name="turn-on-the-feature"></a>Funktsiooni sisselülitamine
+## <a name="turn-the-override-default-production-reservation-feature-on-or-off"></a>Tootmise reserveerimise vaikefunktsiooni alistamise sisse- või väljalülitamine
 
-Enne selle funktsiooni kasutamist peate selle oma süsteemis sisse lülitama. Administraatorid saavad kasutada [funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sätteid, et kontrollida funktsiooni olekut ja selle sisse lülitada. Tööruumis **Funktsioonihaldus** loetletakse funktsiooni järgneval viisil.
-
-- **Moodul:** *tootmise juhtimine*
-- **Funktsiooni nimi:** *(Eelversioon) Vaikimisi tootmise broneerimise alistamine*
+Tarneahela halduse versiooni 10.0.25 puhul lülitatakse see funktsioon vaikimisi sisse. Administraatorid saavad selle funktsiooni sisse või välja lülitada, otsides *funktsioonihalduse* tööruumis tootmise vaikereserveeringu [alistamise funktsiooni](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="assign-a-production-reservation-policy-to-an-item-model-group"></a>Tootmise reserveerimise poliitika määramine kauba mudeligrupile
 

@@ -2,7 +2,7 @@
 title: Varude nähtavuse avalikud API-d
 description: Selles teemas kirjeldatakse Varude nähtavuse pakutavaid avalikke API-sid.
 author: yufeihuang
-ms.date: 09/30/2021
+ms.date: 12/09/2021
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,17 +11,17 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 43fa94118c4d76e021bb635d720208d5f971db19
-ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
-ms.translationtype: HT
+ms.openlocfilehash: f74bb4bd4ed66520c04261bd9f82faad7775817e
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7592484"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062107"
 ---
 # <a name="inventory-visibility-public-apis"></a>Varude nähtavuse avalikud API-d
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 
 Selles teemas kirjeldatakse Varude nähtavuse pakutavaid avalikke API-sid.
 
@@ -41,13 +41,15 @@ Järgmises tabelis on toodud hetkel saadaolevad API-d.
 | /api/environment/{environmentId}/setonhand/{inventorySystem}/bulk | Postita | [Vabade kaubavarude koguste seadistamine/ülekirjutamine](#set-onhand-quantities) |
 | /api/environment/{environmentId}/onhand/reserve | Postita | [Ühe reserveerimissündmuse loomine](#create-one-reservation-event) |
 | /api/environment/{environmentId}/onhand/reserve/bulk | Postita | [Mitme reserveerimissündmuse loomine](#create-multiple-reservation-events) |
-| /api/environment/{environmentId}/onhand/indexquery | Hangi | [Päring sisestamismeetodi abil](#query-with-post-method) |
-| /api/environment/{environmentId}/onhand/indexquery | Postita | [Päring hankimismeetodi abil](#query-with-get-method) |
+| /api/environment/{environmentId}/onhand/indexquery | Postita | [Päring sisestamismeetodi abil](#query-with-post-method) |
+| /api/environment/{environmentId}/onhand | Hangi | [Päring hankimismeetodi abil](#query-with-get-method) |
 
 Microsoftil on valmiskujul nõudekogum *Postman*. Saate importida selle kogumi oma tarkvarasse *Postman*, kasutades järgmist ühiskasutuses olevat linki: <https://www.getpostman.com/collections/90bd57f36a789e1f8d4c>.
 
 > [!NOTE]
 > Tee {environmentId} osa on keskkonna ID rakenduses Microsoft Dynamics Lifecycle Services (LCS).
+> 
+> Api võib iga taotluse kohta tagastada maksimaalselt 512 kirjet.
 
 ## <a name="find-the-endpoint-according-to-your-lifecycle-services-environment"></a>Lõpp-punkti leidmine vastavalt Lifecycle Services keskkonnale
 
@@ -249,7 +251,7 @@ Järgmises näites on toodud näidissisu ilma `dimensionDataSource`. Sel juhul, 
 
 ### <a name="create-multiple-change-events"></a><a name="create-multiple-onhand-change-events"></a>Mitme muutmise sündmuse loomine
 
-See API võib luua korraga mitu kirjet. Ainsad erinevused selle API ja [üksiksündmuse API](#create-one-onhand-change-event) vahel on väärtused `Path` ja `Body`. Selle API puhul annab `Body` palju kirjeid.
+See API võib luua korraga mitu kirjet. Ainsad erinevused selle API ja [üksiksündmuse API](#create-one-onhand-change-event) vahel on väärtused `Path` ja `Body`. Selle API puhul annab `Body` palju kirjeid. Maksimaalne kirjete arv on 512, mis tähendab, et on-olla muuta lahtiselt API saab toetada kuni 512 muuta sündmusi korraga.
 
 ```txt
 Path:
@@ -375,8 +377,6 @@ Järgmises näites on toodud näidissisu. Selle API käitumine erineb nende API-
 
 ## <a name="create-reservation-events"></a>Reserveerimissündmuste loomine
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-
 API *Reserveerimine* kasutamiseks peate avama reserveerimisfunktsiooni ja viima lõpuni reserveerimise konfiguratsiooni. Lisateavet vt teemast [Reserveerimise konfigureerimine (valikuline)](inventory-visibility-configuration.md#reservation-configuration).
 
 ### <a name="create-one-reservation-event"></a><a name="create-one-reservation-event"></a>Ühe reserveerimissündmuse loomine
@@ -478,7 +478,7 @@ Body:
 
 ## <a name="query-on-hand"></a>Vaba kaubavaru päring
 
-API-d _Vaba kaubavaru päring_ kasutatakse teie toodete praeguste vaba kaubavaru andmete toomiseks.
+_Kasutage vaba kaubavaru_ API-d, et tuua oma toodetele praegused vaba kaubavaru andmed. API toetab praegu päringute võtte kuni 100 üksiku üksuse väärtuse järgi `ProductID`. Igas päringus saab määrata ka mitu `SiteID` ja `LocationID` väärtusi. Maksimaalne piirmäär on määratletud kui `NumOf(SiteID) * NumOf(LocationID) <= 100`.
 
 ### <a name="query-by-using-the-post-method"></a><a name="query-with-post-method"></a>Päring sisestusmeetodi abil
 
@@ -553,7 +553,7 @@ Järgmised näited näitavad, kuidas teha päringuid kõigi toodete kohta konkre
 
 ```txt
 Path:
-    /api/environment/{environmentId}/onhand/indexquery
+    /api/environment/{environmentId}/onhand
 Method:
     Get
 Headers:
@@ -570,7 +570,7 @@ Query(Url Parameters):
 Siin on hankimise URL-i näidis. See hankimise taotlus on täpselt sama, mis varem antud sisestamise näide.
 
 ```txt
-/api/environment/{environmentId}/onhand/indexquery?organizationId=usmf&productId=T-shirt&SiteId=1&LocationId=11&ColorId=Red&groupBy=ColorId,SizeId&returnNegative=true
+/api/environment/{environmentId}/onhand?organizationId=usmf&productId=T-shirt&SiteId=1&LocationId=11&ColorId=Red&groupBy=ColorId,SizeId&returnNegative=true
 ```
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

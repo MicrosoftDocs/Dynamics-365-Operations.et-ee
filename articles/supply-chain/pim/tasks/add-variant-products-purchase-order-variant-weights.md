@@ -1,7 +1,7 @@
 ---
 title: Varianditoodete lisamine ostutellimustele, kasutades variandi kaalu
 description: See protseduur selgitab variandimasside kasutamist ostutellimuse ridade automaatseks täitmiseks iga tootevariandi puhul.
-author: ShylaThompson
+author: t-benebo
 ms.date: 11/14/2016
 ms.topic: business-process
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: PurchTable, PurchTablePart
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: benebotg
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 70e8cddd37127865debfc51eb1c2f39926e49f54
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
-ms.translationtype: HT
+ms.openlocfilehash: 4f9523410447c102481dd2c709b1fa3dd69d03e8
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812567"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7565638"
 ---
 # <a name="add-variant-products-to-purchase-orders-using-variant-weights"></a>Varianditoodete lisamine ostutellimustele, kasutades variandi kaalu
 

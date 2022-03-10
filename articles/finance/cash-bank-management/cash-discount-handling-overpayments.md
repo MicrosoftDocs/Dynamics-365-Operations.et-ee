@@ -2,11 +2,9 @@
 title: Skontod ülemakseteks
 description: Selles artiklis on stsenaariumid, mis nöitavad, kuidas makset käsitletakse, kui klient võtab skonto, kuid maksab üle.
 author: panolte
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustOpenTrans, CustParameters, LedgerJournalTransCustPaym, LedgerJournalTransVendPaym, VendOpenTrans, VendParameters
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6bd0d95bc9b57b63a889afdaad7db136abc5036f
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: c7e2e3a6805e1c668de8a3fb62e7190ded6fc20d754ecfca23245e2861f6c2cb
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4985333"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6715959"
 ---
 # <a name="cash-discounts-for-overpayments"></a>Skontod ülemakseteks
 
@@ -138,3 +136,6 @@ Skonto summat 10,50 vähendatakse 10,00-ni. Makse ja arve loetakse tasakaalustat
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

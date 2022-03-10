@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2882eca5c0823d413ca3242069c5ba47b985c2a8
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
-ms.translationtype: HT
+ms.openlocfilehash: 0bea115ed111d1309e19631c1cc08fdbab0dca3f
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6051157"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062030"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-march-19-2020"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 Human Resources (19. märts 2020)
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Selles artiklis kirjeldatakse Dynamics 365 Human Resourcesi uusi või muutunud funktsioone. Muudatused rakenduvad versioonile number 8.1.3014. Sulgudes olevad numbrid mõnedes pealkirjades viitavad toenumbritele teenuses Lifecycle Services (LCS).
 

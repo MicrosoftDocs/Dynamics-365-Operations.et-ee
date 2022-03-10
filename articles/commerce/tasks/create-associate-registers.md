@@ -1,28 +1,25 @@
 ---
 title: " Registrite loomine ja seostamine"
 description: See protseduur näitab, kuidas luua kassaregistrit.
-author: rubencdelgado
-manager: AnnBe
+author: BrianShook
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RetailTerminalTable
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: rubendel
+ms.author: brshoo
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 001bdd61f9266798dadae2ac7c96a4f4c19dbb94
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 48ad1891955b15d22f3cecac128a831adabdac87
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411733"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779423"
 ---
 # <a name="create-and-associate-registers"></a> Registrite loomine ja seostamine
 
@@ -44,3 +41,6 @@ See protseduur näitab, kuidas luua kassaregistrit. Protseduur kasutab demoettev
     * EFT kassaregistri numbrit kasutatakse makse töötleja teavitamiseks selle kohta, milline makseterminal autoriseerimistaotlusi saadab. Seda väärtust nimetatakse sageli terminali ID-ks või TID-ks. TID on üldjuhul leitav makseseadme kleebiselt.  
 9. Klõpsake nuppu Salvesta.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

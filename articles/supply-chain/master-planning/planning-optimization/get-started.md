@@ -9,19 +9,19 @@ ms.technology: ''
 ms.search.form: MpsIntegrationParameters, MpsFitAnalysis
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: d12e1908e234c841fb705266b2255c6c5e2140e1
-ms.sourcegitcommit: 365092f735310990e82516110141d42aaf04e654
-ms.translationtype: HT
+ms.openlocfilehash: 8e6328902cec840b98b401fe8dd46c2a6f18cb54
+ms.sourcegitcommit: 88f8a0369ce66b82314db9639491b695e18a7e5c
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "6103589"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "7902555"
 ---
 # <a name="get-started-with-planning-optimization"></a>Planeerimise optimeerimisega alustamine
 
@@ -40,7 +40,7 @@ Enne planeerimise optimeerimise sisselülitamist soovitame teil hinnata planeeri
 
 ## <a name="availability"></a>Kättesaadavus
 
-Planeerimise optimeerimine on hetkel kättesaadav järgmistes Azure’i geograafilistes piirkondades: Ameerika Ühendriigid, Kanada, Euroopa, Ühendkuningriik, Austraalia ning Aasia ja Vaikse ookeani piirkond. Kui proovite lisandmoodulit installida muus geograafilises piirkonnas, siis kuvab LCS teate, et seda geograafilist piirkonda ei toetata.
+Plaanimise optimeerimine on praegu saadaval järgmistes Azure'i geograafilistes asukohtades: USA, Kanada, Euroopa, Ühendkuningriik, Austraalia, Aasia Vaikse ookeani, Jaapan ja India. Kui proovite lisandmoodulit installida muus geograafilises piirkonnas, siis kuvab LCS teate, et seda geograafilist piirkonda ei toetata. Lisateavet Azure'i piirkondade ja seotud piirkondade kohta vt [Azure'i piirkonnad](https://azure.microsoft.com/global-infrastructure/geographies/#geographies).
 
 Pange tähele, et planeerimise optimeerimine ei toeta Dynamics 365 Supply Chain Management-i kohapealseid juurutusi.
 
@@ -109,6 +109,8 @@ Suvandi **Planeerimise optimeerimise kasutamine** säte määrab, millist planee
 
 - **Jah** – planeerimise optimeerimist kasutatakse koondplaneerimiseks.
 - **Ei** – koondplaneerimise jaoks kasutatakse sisseehitatud tarneahela halduse planeerimise mootorit.
+
+See säte kehtib kõigi juriidiliste isikute (ettevõtete) kohta. Mõnedes juriidilistes isikutes ei saa kasutada plaanimise optimeerimist ja teiste juriidiliste isikute integreeritud koondplaanimist.
 
 > [!NOTE]
 > Kui olemasoleva planeerimise paketi tööd, mis sisseehitatud tarneahela halduse planeerimismootori jaoks loodi, käivitatakse sel ajal, kui suvandi **Planeerimise optimeerimise kasutamine** väärtuseks on seatud **Jah**, siis need tööd nurjuvad.

@@ -2,11 +2,9 @@
 title: Töövoos tingimuslike otsuste konfigureerimine
 description: Kasutage järgmist protseduuri, et konfigureerida tingimusliku otsuse atribuudid.
 author: ChrisGarty
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -16,16 +14,19 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 957246ac9a758de9f420b9c672520dcb07c43a69
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
-ms.translationtype: HT
+ms.openlocfilehash: 0fa708b4ac1f17a9ed6852a9eeb3e764b750a4a4
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693950"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070954"
 ---
 # <a name="configure-conditional-decisions-in-a-workflow"></a>Töövoos tingimuslike otsuste konfigureerimine
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Kasutage järgmist protseduuri, et konfigureerida tingimusliku otsuse atribuudid.
 
@@ -52,3 +53,6 @@ Süsteem määrab, haru kasutada, hinnates edastatud dokumenti ja otsustades, ka
     2. Valige vormi alal kirje **Kontrolli tingimust**.
     3. Klõpsake nuppu **Test**. Süsteem hindab kirjet otsustamaks, kas see vastab teie määratud tingimustele.
     4. Klõpsake valikut **OK** või **Tühista**, et naasta vormile **Atribuudid**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Kliendile kuuluvate varade hooldamise arve
 description: Selles teemas selgitatakse, kuidas luua, töödelda ja esitada arve hooldustöö eest, mis tehakse varadele, mis kuuluvad teie klientidele.
 author: johanhoffmann
-manager: tfehr
 ms.date: 01/28/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectContractsListPage, ProjInvoiceTable, ProjProjectsListPage, ProjTable, EntAssetWorkOrderType, EntAssetWorkOrderProjectSetup, EntAssetObjectTable, EntAssetWorkOrderTable
 audience: Application User
@@ -17,17 +15,16 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-01-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: a93436d101e6201c9d86279ea5b1a37fcc644fd1
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
-ms.translationtype: HT
+ms.openlocfilehash: a48e681da1801ef3c0d1c9c03cebaa5eecd37d76349a7b1c3cfe53e892fae489
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500450"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6774941"
 ---
 # <a name="bill-for-maintenance-on-customer-owned-assets"></a>Kliendile kuuluvate varade hooldamise arve
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../../includes/preview-banner.md)]
 
 Funktsioon *Töökäsu arveldamine* võimaldab teil luua, töödelda ja esitada arve hooldustöö eest, mis tehakse teie klientidele kuuluvatele varadele. See funktsioon võimaldab teil teha järgmisi toiminguid.
 

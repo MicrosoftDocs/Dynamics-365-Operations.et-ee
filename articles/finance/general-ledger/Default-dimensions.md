@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 7783c22659c5a2b070648c82a8b72e49e17b8e34
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
-ms.translationtype: HT
+ms.openlocfilehash: 9e7416c1ed69fa9783694e2adee7ada4e25e14054daeb1761428855690eb522f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823856"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6778962"
 ---
 # <a name="financial-dimensions-and-posting"></a>Finantsdimensioonid ja sisestamine 
 
@@ -71,29 +71,29 @@ Erinevate komponentide käitamisjärjekord tekitab sageli küsimusi. On oluline 
 
 Järgmisel joonisel kujutatakse põhikontole 401100 seadistatud fikseeritud vaikedimensiooni.
 
-[![Vaikimisi finantsdimensioonid](./media/default-dimensions.png)](./media/default-dimensions.png)
+[![Vaikimisi finantsdimensioonid.](./media/default-dimensions.png)](./media/default-dimensions.png)
 
 Käesolevas lihtsas näiteks sisestatakse üldin tööraamat, mille Osakonna dimensioon on häälestatud kasutama vaikeväärtust **023** (Operatsioonid). Koostatakse ja sisestatakse pearaamatukonto. Järgmisel joonisel kujutatakse vaikimisi finantsdimensiooni pearaamatu päises.
 
-[![Päevaraamatud](./media/general-journal.png)](./media/general-journal.png)
+[![Päevaraamatud.](./media/general-journal.png)](./media/general-journal.png)
 
 Töölehe päises oleva vaikedimensiooni tõttu rakendatakse müügikonto real vaikimisi osakonda 023. Järgmisel joonisel kujutatakse üldise tööraamatu rida, kus rakendatakse päisest pärit dimensiooni vaikeväärtust **023**.
 
-[![Töölehe kanne](./media/journal-voucher.png)](./media/journal-voucher.png)
+[![Töölehe kanne.](./media/journal-voucher.png)](./media/journal-voucher.png)
 
 Rea sisestamisel kasutatakse siiski fikseeritud dimensiooni ja rida sisestatakse osakonnale 022. Järgmisel joonisel kujutatakse sisestatud kannet, mille puhul rakendatakse müügikontole fikseeritud dimensiooni.
 
-[![Pearaamatu kanded](./media/voucher-transactions.png)](./media/voucher-transactions.png)
+[![Rakendatud fikseeritud dimensiooniga vautšeri kanded.](./media/voucher-transactions.png)](./media/voucher-transactions.png)
 
 ### <a name="example-2"></a>Näide 2
 
 See näide kasutab esimesega sama malli. Küll aga on siia lisatud veel üks komponent: Osakonna dimensioon tasakaalustava dimensioonina. Järgmisel joonisel on dimensioon **Osakond** määratletud USMF-i pearaamatu tasakaalustava finantsdimensioonina.
 
-[![Pearaamat](./media/ledger.png)](./media/ledger.png)
+[![Illustratsioon, mis näitab Deparatment`i kui tasakaalustavat finantsmõõdet.](./media/ledger.png)](./media/ledger.png)
 
 Kui kasutada sama töölehe päise seadistust ja sisestada sama kanne, siis rakendatakse esmalt fikseeritud dimensiooni. Sellisel juhul rakendatakse tasakaalustamise loogikat, et igal osakonnal oleks taskaalustatud sissekanne. Järgmisel joonisel kujutatakse kirjekandeid, milles sisaldub pärast fikseeritud dimensiooni rakendamist ka tasakaalustav kirje.
 
-[![Pearaamatu kanded](./media/voucher-transactions2.png)](./media/voucher-transactions2.png)
+[![Vautšer kanded pärast korrespondentkande rakendamist.](./media/voucher-transactions2.png)](./media/voucher-transactions2.png)
 
 ### <a name="example-3"></a>Näide 3
 
@@ -101,11 +101,11 @@ Selles näites lisatakse täpsem reegel. Täpsema reegli kohaselt peab süsteem 
 
 See näite on järjekorra tõttu oluline. Konto struktuur määratletakse pärast põhikonto sisestamist. Konto struktuuri häälestusele viitamise korral käsitleb süsteem põhikontot, äriüksust, osakonda ja kulukeskust asjakohastena. Praegu ei ole täpsemat reeglit veel rakendatud, sest enne fikseeritud dimensioone rakendatakse tööraamatu kande sisestamisel vaikedimensioone. Järgmises näites puudub segment Klient, sest täpsema reegli kriteeriumid pole täidetud.
 
-[![Pearaamatukonto](./media/drop-down.png)](./media/drop-down.png)
+[![Pearaamatukonto.](./media/drop-down.png)](./media/drop-down.png)
 
 Sisestamine ei õnnestu, sest fikseeritud dimensiooni rakendati protsessi lõpus. Dimensiooni kontrollimise käigus selgub, et põhikonto 401100 ja osakonna 022 korral on nõutav Kliendi segment. Kontrolli käigus leitud tõrke tõttu ei saa sisestamine toimuda. Järgmisel joonisel kujutatakse pärast dimensiooni kontrolli kuvatavat teadet selle kohta, et Klient on nõutud segment.
 
-[![Teate üksikasjad](./media/message.png)](./media/message.png)
+[![Teate üksikasjad.](./media/message.png)](./media/message.png)
 
 Selle näite puhul tuleb vaikeväärtus täpsema reegli käivitamiseks ja segmenti Klient sisestamiseks üle kirjutada. Siiski ei saa seda lahendust alati kasutada ja mõned kasutajad ei teagi midagi sisestamisreeglite kohta. Seetõttu on oluline mõista, millises järjekorras vaikedimensioone kontoplaani häälestamisel rakendatakse.
 
@@ -119,11 +119,11 @@ Mõnedes järgmistest teabematerjalidest viidatakse meie tarkvara varasemale vä
 
 [Kontoplaanide plaanimine](plan-chart-of-accounts.md) 
 
-[Kontoplaani plaanimine AX 2012 ajaveebis](https://blogs.msdn.microsoft.com/axsa/2014/06/12/planning-your-chart-of-accounts-in-ax-2012-part-1-of-7/) – link viib seitsmeosalise seeria esimese osa juurde.
+[Kontoplaani plaanimine AX 2012 ajaveebis](/archive/blogs/axsa/planning-your-chart-of-accounts-in-ax-2012-part-1-of-7) – link viib seitsmeosalise seeria esimese osa juurde.
 
-[Dimensiooni vaikeväärtused arvestuse jaotustes](https://blogs.msdn.microsoft.com/ax_gfm_framework_team_blog/2013/12/16/dimension-defaulting-in-accounting-distributions-part-1-introduction/)
+[Dimensiooni vaikeväärtused arvestuse jaotustes](/archive/blogs/ax_gfm_framework_team_blog/dimension-defaulting-in-accounting-distributions-part-1-introduction)
 
-[Dimensiooni vaikeväärtused dimensiooniraamistikus](https://docs.microsoft.com/archive/blogs/ax_gfm_framework_team_blog/dimension-defaulting-part-1-financial-dimensions-discovery)
+[Dimensiooni vaikeväärtused dimensiooniraamistikus](/archive/blogs/ax_gfm_framework_team_blog/dimension-defaulting-part-1-financial-dimensions-discovery)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

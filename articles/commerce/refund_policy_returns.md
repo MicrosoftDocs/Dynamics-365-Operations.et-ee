@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-01-21
 ms.dyn365.ops.version: Retail 10.0.9 update
-ms.openlocfilehash: 5c32156aea5f43d41b51f34b45b5b6dfedb5cad0f948924ecea9b3d89e6bb402
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 4346f9eefa04688c80ce2512a7972bfd4627942c
+ms.sourcegitcommit: 53fad4d4b5fb67aa75550956ec205f456a5be01d
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763688"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "7388929"
 ---
 # <a name="create-and-update-a-returns-and-refunds-policy-for-a-channel"></a>Kanali tagastuste ja tagasimaksete poliitika loomine ja värskendamine
 
@@ -42,15 +42,6 @@ Kanali tagastuspoliitika funktsionaalsuse lubamiseks Commerce peakorteris toimig
 1. Otsige funktsiooni nimede loendist funktsiooni **Luba kanali tagastuspoliitikad**.
 1. Valige **Luba kohe**.
 1. **Jaotusgraafiku** lehel käitage **1110** (globaalne konfiguratsioon) funktsioonimuutuse tööks.
-
-## <a name="initialize-the-commerce-scheduler"></a>Commerce ajasti lähtestamine
-
-Pärast **Luba kanali tagastuspoliitikad** funktsiooni lubamist peate rakenduse Commerce ajasti lähtestama, et tagada uute funktsiooniandmebaasi muudatuste lisamine Commerce Data Exchange (CDX) sünkroonimise kaudu. 
-
-Commerce ajasti lähtestamiseks Commerce peakontoris toimige järgmiselt.
-
-- Avage **Jaemüük ja kaubandus \> Peakontori seadistamine \> Kaubanduse ajasti \> Kaubanduse ajasti lähtestamine**. Teise võimalusena võite otsida fraasi "Käivita Comemrce ajasti".
-- Dialoogiboksis **Kaubanduse ajasti lähtestamine** veenduge, et suvand **Kustuta olemasolev konfiguratsioon** oleks määratud valikule **Ei** ja seejärel valige nupp **OK**.
 
 ## <a name="configure-return-policy"></a>Tagastuspoliitika konfigureerimine
 

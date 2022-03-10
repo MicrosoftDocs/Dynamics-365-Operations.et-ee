@@ -1,8 +1,7 @@
 ---
-title: Täpsema filtreerimise ja päringu süntaks
-description: See artikkel kirjeldab filtreerimis- ja päringuvalikuid, mis on saadaval, kui kasutate Filtripaanil või ruudustiku veerupäisefiltrites dialoogi Täpsem filter/sortimine või võrdusoperaatorit.
+title: Täpsem filtreerimine ja päringusüntaks
+description: See artikkel kirjeldab filtreerimis- ja päringuvalikuid Täpsema filtri/ sortimisdialoogi ja võrdusoperaatorite jaoks filtripaanil või ruudustiku veerupäisefiltrites.
 author: jasongre
-manager: AnnBe
 ms.date: 03/09/2020
 ms.topic: article
 ms.prod: ''
@@ -16,16 +15,19 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 15805e24c46603afd34d40c5f94c1422b01cab4c
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
-ms.translationtype: HT
+ms.openlocfilehash: c0fefac5a7a2b299ba606a854824ee456c572487
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5566062"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070005"
 ---
 # <a name="advanced-filtering-and-query-syntax"></a>Täpsema filtreerimise ja päringu süntaks
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 See artikkel kirjeldab filtreerimis- ja päringuvalikuid, mis on saadaval, kui kasutate Filtripaanil või ruudustiku veerupäisefiltrites dialoogi Täpsem filter/sortimine või **võrdusoperaatorit** .
 
@@ -120,9 +122,9 @@ See artikkel kirjeldab filtreerimis- ja päringuvalikuid, mis on saadaval, kui k
 <td>Kaks järjestikust kahekordset jutumärki (<strong>"</strong>") leiab ilma väärtuseta ridu käesoleva veeru jaoks.</td>
 </tr>
 <tr>
-<td>(<span class="code">Finance and Operations päring</span>) (Finance and Operations päring sulgudes)</td>
+<td>(<span class="code">Finance and Operationsi päring</span>) (sulgude vaheline finants- ja toimingute päring)</td>
 <td>Kirjeldatud päringule vastav</td>
-<td>Sisestage päring sulgude vahele SQL-lausena, kasutades päringukeelt Finance and Operations .</td>
+<td>Tippige päring SQL-lausena sulgude vahel, kasutades päringu keelt Finance and Operations.</td>
   <td><strong><span class="code">((AccountNum NAGU "US *") & & (DirPartyTable.Name NAGU "CONT*"))</span></strong><br><br> 
        filtritingimuse süntaksi näitena väljal juurandmeallikast, samuti väljal teisest andmeallikast (kõigi klientide lehel)</td>
 </tr>

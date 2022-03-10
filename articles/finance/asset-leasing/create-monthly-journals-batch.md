@@ -2,13 +2,11 @@
 title: Igakuiste töölehe kannete loomine partiis
 description: See teema selgitab, kuidas luua töölehe kandeid partiina, et aidata suurendada igakuiste rendikulude kirjendamisel tõhusust.
 author: moaamer
-manager: Ann Beebe
-ms.date: 10/28/2020
+ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: Dialog
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 4464
@@ -17,16 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 6fd1815620095909e290fd03c404d964baa04a94
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.openlocfilehash: 22e2892a6866123ecf0e72511bdce19fe12895df
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5241558"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344849"
 ---
 # <a name="create-monthly-journal-entries-in-a-batch"></a>Igakuiste töölehe kannete loomine partiis
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
+
 
 See teema selgitab, kuidas luua töölehe kandeid partiina, et aidata suurendada igakuiste rendikulude kirjendamisel tõhusust. Mitmest ajakavast pärinevate töölehtede kirjete loomiseks saab kasutada partiina töötlemist. Need töölehe kanded võivad sisaldada rendimakseid, kohustise amortiseerumist, kasutamisõiguse esemeks oleva vara amortiseerumist ja täitekulude kulusid. Samuti saate kasutada partiina töötlemist, et teha samal ajal mitme rendikirje esialgne tuvastus või teha mitmele rendikirjele sama ajal ülemineku korrigeerimisi.
 
@@ -37,5 +37,6 @@ Pakett-töö häälestamiseks või mitme rendikirje maksuarvete, kulumi või int
 >
 > Töölehe kirjed luuakse, kuid neid ei sisestata enne, kui valite käsu **Käivita**.
 
+Algse tunnustustöölehe sisestamiseks kuupäeval, mis ei ole rendi alguskuupäev, märkige ruut **Määra esmase tuvastamise sisestuskuupäev**. Kuvatakse **Kuupäev** väli, mis võimaldab teil määrata õige sisestuskuupäeva.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

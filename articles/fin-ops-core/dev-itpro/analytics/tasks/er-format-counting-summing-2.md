@@ -1,12 +1,10 @@
 ---
 title: Elektrooniline aruandlus. Vormingu konfigureerimine loendamiseks ja liitmiseks (2. osa – arvutuste konfigureerimine)
-description: Järgmistes etappides selgitatakse, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rolli määratud kasutaja saab konfigureerida elektroonilise aruandluse (ER) vormingu loendamiseks ja liitmiseks juba loodud tekstiväljundi andmete põhjal.
+description: Selles teemas kirjeldatakse, kuidas konfigureerida elektroonilise aruandluse vormingut juba loodud tekstiväljundi andmete põhjal loendama ja liitma. (2. osa)
 author: NickSelin
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERDataSourceAddDropDialog, ERExpressionDesignerFormula
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9314a8cd5838333a20dd59dfb52f80a43d89b8c6
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: 66b911a7cec6bc1506edb0e4cd6757cb6834a9e977c5e43052725cfa58c1342e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684687"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6770833"
 ---
 # <a name="er-configure-format-to-do-counting-and-summing-part-2---configure-computations"></a>Elektrooniline aruandlus. Vormingu konfigureerimine loendamiseks ja liitmiseks (2. osa – arvutuste konfigureerimine)
 
@@ -116,7 +114,7 @@ See protseduur on funktsiooni kohta, mis lisati rakenduse Dynamics 365 for Opera
 61. Klõpsake nuppu Salvesta.
 62. Sulgege leht.
 63. Laiendage puul valikut Intrastat \ Andmed: seeria \ Lähetused: seeria?.
-64. Laiendage puul valikut Intrastat \ Andmed: seeria \ Lähetused: seeria? \ Kirje =  Intrastat.CommodityRecord.
+64. Laiendage puul valikut Intrastat \ Andmed: seeria \ Lähetused: seeria? \ Kirje = Intrastat.CommodityRecord.
 65. Klõpsake vahekaarti Vorming.
 66. Valige puult Intrastat \ Andmed \ Lähetused \ Kirje \ Arve summa EUR.
 67. Klõpsake vahekaarti Vastendus.
@@ -127,7 +125,7 @@ See protseduur on funktsiooni kohta, mis lisati rakenduse Dynamics 365 for Opera
 72. Sulgege leht.
     * Liitke selle järjestuse ridade arveldatud summade väärtused. Tulemusi kasutatakse nimega „InvoicedAmountEUR” erinevate intrastati suundade ja kaubakoodide puhul eraldi. Vaadake seda kui virtuaalset loomingut Exceli arvutustabelis. Iga kande puhul täidetakse rida, mille esimene veerg on „plokk”, vastavalt väärtustega „Import” ja „Eksport”. Teine plokk „kirje” täidetakse kaubakoodi väärtusega ja kolmas veerg „InvoicedAmountEUR” täidetakse arve summa väärtusega.  
 73. Laiendage puul valikut Intrastat \ Andmed \ Saabumised?.
-74. Laiendage puul valikut Intrastat \ Andmed \ Saabumised? \ Kirje =  Intrastat.CommodityRecord.
+74. Laiendage puul valikut Intrastat \ Andmed \ Saabumised? \ Kirje = Intrastat.CommodityRecord.
 75. Klõpsake vahekaarti Vorming.
 76. Valige puult Intrastat \ Andmed \ Saabumised \ Kirje \ Arve summa EUR.
 77. Klõpsake vahekaarti Vastendus.
@@ -139,3 +137,6 @@ See protseduur on funktsiooni kohta, mis lisati rakenduse Dynamics 365 for Opera
 83. Klõpsake nuppu Salvesta.
 84. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

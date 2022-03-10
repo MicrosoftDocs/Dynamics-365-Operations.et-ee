@@ -1,25 +1,23 @@
 ---
 title: Krediidihalduse parameetrite seadistus
 description: See teema kirjeldab suvandeid, mida saate kasutada krediidihalduse konfigureerimiseks teie ettevõtte vajaduste täitmiseks.
-author: mikefalkner
-manager: AnnBe
-ms.date: 08/03/2020
+author: JodiChristiansen
+ms.date: 12/10/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 98ea865812a0ef187697fadbfc6f576df6595db4
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: d8bc4f0a981b75c1b65d51aa1d8fada9c2187e22
+ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4971749"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323406"
 ---
 # <a name="credit-management-parameters-setup"></a>Krediidihalduse parameetrite seadistus
 
@@ -33,7 +31,7 @@ Jaotises **Krediit** on neli kiirkaarti, kus saate muuta parameetreid, mis kontr
 
 ### <a name="credit-holds"></a>Kreediti ootelolekud
 
-- Seadistage suvand **Müügitellimuste väärtuse redigeerimise lubamine pärast tellimuse ooteloleku vabastamist** väärtusele **Ei**, et nõuda sisestamise reeglite uuesti kontrollimist, kui müügitellimuse väärtus (laiendatud hind) on pärast müügitellimuse ootelolekust vabastamist tõusnud. .
+- Seadistage suvand **Müügitellimuste väärtuse redigeerimise lubamine pärast tellimuse ooteloleku vabastamist** väärtusele **Ei**, et nõuda sisestamise reeglite uuesti kontrollimist, kui müügitellimuse väärtus (laiendatud hind) on pärast müügitellimuse ootelolekust vabastamist tõusnud.
 - Valige väljal **Tühistatud tellimuste põhjused** vabastamise põhjus, mida kasutatakse vaikimisi siis, kui tühistatakse müügitellimus, mis oli krediidihaldusega seotud ooteloendis.
 - Seadistage suvand **Kontrolli kliendi krediidigruppide krediidilimiiti** väärtuseks **Jah**, et kontrollida kliendi kreeditigrupi krediidilimiiti, kui müügitellimuse klient kuulub kliendi krediidigruppi. Grupi krediidilimiiti kontrollitakse ja kui see on piisav, kontrollitakse kliendi krediidilimiiti.
 - Määrake suvand **Kontrolli krediidilimiiti, kui maksetingimused on suurenenud** väärtusele **Jah**, et kontrollida maksetingimuste reitingut, et teha kindlaks, kas müügitellimuse maksetingimused erinevad kliendi vaikimisi maksetingimustest. Kui uutel maksetingimustel on kõrgem reiting kui algsetel maksetingimustel, pannakse tellimus krediidihaldusega seotult ootele.
@@ -52,7 +50,8 @@ Samuti saate määratleda ajapikenduse päevade arvu, enne kui krediidi reegleid
 
 Kui te ei määra ajapikenduse päevade arvu, siis kontrollitakse krediidi reegleid igal sisestamise etapil, mis on seadistatud krediidihalduse reegleid käivitama. Kui vabastate müügitellimuse sisestamata ja käitate sama tellimuse töötlemise sammu uuesti, kontrollitakse krediidi reegleid uuesti. Näiteks pannakse tellimus pärast kinnitamist ootele ja te vabastate selle kas sisestamisega või ilma. Sellisel juhul pannakse tellimus uuesti ootele, kui selle uuesti kinnitate. Kasutage ajapikendust, kui tellimus peaks edasi liikuma järgmisesse töötluse etappi, ilma et seda jälle ootele pannakse.
 
-Te ei saa määrata ajapikenduse päevi ainult osadele sisestamise kontrollpunktidele. Peate seadistama kõik sisestamise kontrollpunktid nii, et neil on ajapikenduse päevad, või seadistama need nii, et neil ei ole ajapikenduse päevi.
+> [!Note]
+> Kui ühele sisestuse kontrollpunktile on sisestatud ajapikenduse päev, peavad kõigil sisestamiseks märgitud kontrollpunktidel olema ajapikenduspäevad.
 
 - Märkige ruut **Sisestamine**, et käitada krediidihalduse reegleid siis kui käivitatakse real näidatud sisestamise kontrollpunkt. Kui te märkeruutu ei märgi, kontrollitakse reegleid ainult üks kord kogu sisestamise protsessi jooksul.
 - Kui märgite ruudu **Sisestamine**, määrake ajapikenduse päevade arv, mis peaksid mööduma enne blokeerimise reeglite uuesti kontrollimist. Kui märkeruut **Sisestamine** on tühjendatud, ei saa te ajapikenduse päevi lisada.
@@ -74,7 +73,14 @@ Te ei saa määrata ajapikenduse päevi ainult osadele sisestamise kontrollpunkt
 
 - Kreeditihalduses kuvatakse kliendi krediidilimiit kliendi valuutas. Peate määratlema krediidilimiidi vahetuskursi tüübi kliendi valuutas. Väljal **Krediidilimiiti vahetuskursi tüüp** valige vahetuskursi tüüp, mida tuleks kasutada esmase krediidilimiidi teisendamiseks kliendi krediidilimiidiks.
 - Seadke suvand **Luba krediidilimiitide käsitsi redigeerimine** väärtusele **Ei** et takistada kasutajatel muuta krediidilimiiti lehel **Klient**. Kui see valik on seadistatud väärtusele **Ei**, saab kliendi krediidilimiidi muudatusi teha ainult krediidilimiidi korrigeerimise kannete sisestamisega.
+- Kui krediidihalduse **blokeerimisreeglid on** märgitud, **eirake** varude reserveeringute ignoreerimiseks varude reserveeringuid. Sel juhul kontrollib süsteem rea kogust ja võimaldab kontrollpunkti ajapikenduse perioodid, sõltumata varude reserveeringu kogusest.
+- Kui krediidihaldus on lubatud, kasutatakse **krediidilimiidi** ületamisel teate sätet ainult vabas vormis arvete töötlemiseks. Kuigi teated lisatakse müügitellimustele alles siis, kui kliendid on ületanud krediidilimiidi, ei blokeeri nende teadete olemasolu kinnitust, komplekteerimislehtede ja saatelehtede printimist või arvete sisestamist.
+
+    Krediidihaldus on vaikimisi lubatud, kuid te saate selle keelata. Kui see on lubatud, kasutate krediidihalduse blokeerimisreeglit ja kontrollpunkte, et tuvastada, millal kliendid on ületanud krediidilimiiti. Kui see on keelatud, saavad teated, mis lisatakse müügitellimustele krediidilimiidi ületamisel teate sätte põhjal, aidata teil tuvastada, kui kliendid on **ületanud** oma krediidilimiiti.
 
 ### <a name="number-sequences-and-shared-number-sequence-parameters"></a>Numbriseeriad ja jagatud numbriseeria parameetrid
 
 Krediidilimiidi korrektsioonide töötlemiseks on vajalik töölehe ID. Peate lisama krediidilimiidi korrigeerimise numbri, mida tuleks kasutada töölehe ID loomiseks.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

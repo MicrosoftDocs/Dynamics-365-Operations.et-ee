@@ -1,32 +1,30 @@
 ---
-title: Põhivara sisestusreeglite seadistamine
-description: See ülesande juhend seadistab Põhivara sisestusreeglid.
-author: saraschi2
-manager: AnnBe
+title: Põhivara sisestusreeglite häälestus
+description: See protseduur näitab, kuidas seadistada põhivara sisestusreeglid.
+author: moaamer
 ms.date: 07/22/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetPosting
 audience: Application User
 ms.reviewer: roschlom
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2041a8cb36d106bfe3b5a858725c83d278f666a3
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.openlocfilehash: ee0006c9588a22d720687e7aceb49acc756b83e1
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5219911"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883764"
 ---
-# <a name="set-up-fixed-asset-posting-profiles"></a>Põhivara sisestusreeglite seadistamine
+# <a name="set-up-fixed-asset-posting-profiles"></a>Põhivara sisestusreeglite häälestus
 
 [!include [banner](../../includes/banner.md)]
 
-See ülesande juhend seadistab Põhivara sisestusreeglid.  See kasutab USMF-i juriidilise isiku puhul raamatupidaja rolli ja demoandmeid.  Ülesande juhendis esitatud näited kehtivad üldiste sisestusreeglite kohta, kuigi sisestusreeglid tuleb luua teie kindla kontoplaani ja finantsaruandluse nõuete puhul.
+See protseduur näitab, kuidas seadistada põhivara sisestusreeglid. Teemas toodud näited on peamised sisestusreeglid, ehkki sisestusreeglid tuleb luua teie kontoplaani ja finantsaruandluse nõuete jaoks.
 
 1. Avage navigeerimispaanil **Moodulid > Põhivarad > Häälestus > Põhivarade sisestusreeglid**.
 2. Klõpsake valikut **Uus**.

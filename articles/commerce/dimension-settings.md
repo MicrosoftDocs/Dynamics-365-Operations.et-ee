@@ -15,17 +15,17 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b901622bbfc8d6b3066879f6456a4ab618ca4076
-ms.sourcegitcommit: 53b797ff1b524f581046b48cdde42f50b37495bc
-ms.translationtype: HT
+ms.openlocfilehash: 80a0861c51ea14ddb6bce02d757667adac34e740cd04311e26211d9bdbae4ed8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6117219"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6716218"
 ---
 # <a name="apply-display-settings-for-product-dimensions"></a>Tootedimensioonidele kuvasätete rakendamine
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
+
 
 See teema hõlmab tootedimensioonide kuvasätteid ja kirjeldab, kuidas neid rakendada rakenduses Microsoft Dynamics 365 Commerce.
 
@@ -33,7 +33,7 @@ Dynamics 365 Commerce toetab suurust, stiili ja värvimõõtmeid tootevariantide
 
 Commerce site ehitajas määratletakse varude sätted saidiehitaja jaotises **Saidi sätted \> Laiendused \> Varude haldus**. Järgmisel joonisel on toodud saidikoosturi dimensioonisätete näide.
 
-![Ärisaidi koostaja saidisätete näide](./dev-itpro/media/swatch_site_settings.PNG)
+![Commerce saidi koostaja saidisätete näide.](./dev-itpro/media/swatch_site_settings.PNG)
 
 Saadaval on kaks dimensioonisätet:
 
@@ -41,13 +41,13 @@ Saadaval on kaks dimensioonisätet:
 
     Järgmisel joonisel on kujutatud näide, kus e-kaubanduse saidi PDP sisaldab värvi- ja suuruse näiteid. Selles näites on värvidimensiooni jaoks konfigureeritud heksi kood. Seetõttu kuvatakse näited värvidena. Kuid ei hex-kood ega pildi URL pole suuruse dimensiooni jaoks konfigureeritud. Seetõttu kuvatakse teksti.
 
-    ![Näide e-kaubanduse toote üksikasjade lehel näietena kuvatud värvidimensioonist](./dev-itpro/media/swatch_pdp.png)
+    ![Näide e-kaubanduse toote üksikasjade lehel näitena kuvatud värvidimensioonist.](./dev-itpro/media/swatch_pdp.png)
 
 - **Tootekaardil kuvatavad dimensioonid** – määrake, millised dimensioonid tuleks kuvada loendites ja loendilehtedel kuvatavatel tootekaartidel. Enne dimensiooni kuvamist tootekaardil peab see säte olema selle dimensiooni puhul lubatud. Lubatud peaksid olem ka **Pildisättena kuvatavad dimensioonid**. Tootekaartide näidise valiku käitumine on optimeeritud värvidimensiooni jaoks. Muude dimensioonide puhul võib näidise valiku käitumise kohandamiseks olla vaja vaatelaiendit.
 
     Järgmisel joonisel on kujutatud näide, kus e-kaubanduse saidi loendileht sisaldab värvinäidistega tootekaarte.
 
-    ![Näide e-kaubanduse toote üksikasjade lehel näidetena kuvatud värvidimensioonist](./dev-itpro/media/swatch_searchresults.PNG)
+    ![Näide e-kaubanduse toote üksikasjade lehel näidetena kuvatud värvidimensioonist.](./dev-itpro/media/swatch_searchresults.PNG)
 
 Lisateavet selle kohta, kuidas konfigureerida tootedimensioone nii, et neid kuvataks saidilehtedel kelladena, leiate teemast [Tootedimensiooniväärtuste konfigureerimine näidistena kuvamiseks](./dev-itpro/dimensions-swatch.md).
 

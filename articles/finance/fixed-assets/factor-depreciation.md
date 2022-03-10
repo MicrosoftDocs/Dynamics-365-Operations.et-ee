@@ -1,12 +1,10 @@
 ---
 title: Kulumiarvestus kordaja alusel
 description: Selles artiklis antakse ülevaade teguripõhisest kulumiarvestusmeetodist.
-author: ShylaThompson
-manager: AnnBe
+author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: roschlom
 ms.custom: 13831
 ms.assetid: 2b6c4fe4-02ff-4191-bcad-32f1f34c15f2
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 87cca8b3472f572cd1c4ba3d894269f7ba0f248a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.openlocfilehash: aab5ab518f2806e1b27f352e354dc9280fd27def
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5241070"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674451"
 ---
 # <a name="factor-depreciation"></a>Kulumiarvestus kordaja alusel
 
@@ -30,7 +28,7 @@ ms.locfileid: "5241070"
 
 Selles artiklis antakse ülevaade teguripõhisest kulumiarvestusmeetodist.
 
-Tegurid on põhivarade kulumiarvestuses kasutatavad protsendimäärad. Kui valite põhivara kulumireegli seadistamisel lehe **Kulumireeglid** väljal **Meetod** suvandi **Tegur**, saate seadistada progresseeruva, degressiivse või lineaarse kulumi.
+Tegurid on põhivarade kulumiarvestuses kasutatavad protsendimäärad. Kui valite põhivara kulumireegli seadistamisel lehe **Kulumisreeglid** väljal **Meetod** suvandi **Tegur**, saate seadistada progresseeruva, degressiivse või lineaarse kulumi.
 
 -   Progresseeruva kulumi puhul suureneb kulumi summa igal kulumiperioodil.
 -   Degressiivse kulumi puhul väheneb perioodide kulumisumma aja jooksul.

@@ -14,17 +14,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: e70bc01d4c662d08a9171a9d2feb0e2f7901ccbb
-ms.sourcegitcommit: 7e976059118938b0089e40bef948029a8c088b38
-ms.translationtype: HT
+ms.openlocfilehash: c9c0ed18e3d5fd2521d63f8aa5b0ea668979c57d4de738b9d51a05a1cc0b6e72
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "6479445"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6730919"
 ---
 # <a name="subscribe-module"></a>Tellimise moodul
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 See teema hõlmab tellimise mooduleid ja kirjeldab, kuidas neid rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
 

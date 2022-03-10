@@ -1,24 +1,21 @@
 ---
 title: Tööriista Regression Suite Automation Tool õpiku kasutamine
 description: Selles teemas näidatakse, kuidas kasutada tööriista Regression suite automation tool (RSAT). Selles kirjeldatakse mitmesuguseid funktsioone ja esitatakse näited, kus kasutatakse täpsemat skriptimist.
-author: robinarh
-ms.date: 01/15/2021
+author: FrankDahl
+ms.date: 09/23/2021
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
 audience: Application User, Developer, IT Pro
-ms.reviewer: rhaertle
-ms.custom: 21761
+ms.reviewer: tfehr
 ms.search.region: Global
-ms.author: rhaertle
+ms.author: fdahl
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: d70b2e7cf497fbf165a452f7977a14a98b9e1956e5a964d42c7bf8a6c3abe0bd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 2f31009424629221a8e4f130b0ec1879c6c6e3d4
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714545"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7781959"
 ---
 # <a name="regression-suite-automation-tool-tutorial"></a>Tööriista Regression Suite Automation Tool õpiku kasutamine
 
@@ -82,13 +79,19 @@ Pärast testjuhtumi käivitamist võrreldakse teadet Exceli parameetrifailis kuv
 
 See funktsioon teeb kuvatõmmise etappidest, mis läbiti tegevuse salvestamise ajal. See on kasulik auditeerimiseks või silumiseks.
 
-- Selle funktsiooni kasutamiseks avage fail **Microsoft.Dynamics.RegressionSuite.WindowsApp.exe.config** RSAT installikaustas (nt **C:\\Program Files (x86)\\Regression Suite Automation Tool**) ja muutke elemendi väärtus **väär** väärtusele **tõene**.
+- Selle funktsiooni kasutamiseks RSAT-i kasutajaliidesega töötamise ajal avage fail **Microsoft.Dynamics.RegressionSuite.WindowsApp.exe.config** RSAT installikaustas (nt **C:\\ Program Files (x86)\\Regression Suite Automation Tool**) ja muutke elemendi väärtus **väär** väärtusele **tõene**.
 
     ```xml
     <add key="VerboseSnapshotsEnabled" value="false" />
     ```
 
-Kui käivitate testjuhtumi, teeb RSAT hetktõmmised (pildid) töökaustas oleva testjuhtumite taasesitusekausta etappidest. Kui kasutate RSAT-i vanemat versiooni, salvestatakse pildid kausta **C:\\Kasutajad\\\<Username\>\\AppData\\Roaming\\regressionTool\\playback**, iga käitatud testjuhtumi korral luuakse eraldi kaust.
+- Selle funktsiooni kasutamiseks RSAT-i kasutajaliidesega CLI poolt (näiteks Azure DevOps), avage töötamise ajal fail **Microsoft.Dynamics.RegressionSuite.ConsoleApp.exe.config** RSAT installikaustas (nt **C:\\ Program Files (x86)\\Regression Suite Automation Tool**) ja muutke elemendi väärtus **väär** väärtusele **tõene**.
+
+    ```xml
+    <add key="VerboseSnapshotsEnabled" value="false" />
+    ```
+
+Kui käivitate testjuhtumid, teeb RSAT hetktõmmised (pildid) etappidest ja salvestab need töökaustas oleva testjuhtumite taasesitusekausta. Soovitud kaustas luuakse eraldi alamkaust nimega **StepSnapshots**. See kaust sisaldab hetketõmmiseid käitatud testjuhtumite jaoks.
 
 ## <a name="assignment"></a>Määramine
 
@@ -145,7 +148,7 @@ Järgmisel joonisel on kujutatud LCS-i äriprotsesside modelleerija selle stsena
 RSAT saab käivitada aknast **Käsuviip** või **PowerShell**.
 
 > [!NOTE]
-> Veenduge, et keskkonnamuutuja **TestRoot** oleks seatud RSAT installiteele. (Avage Microsoft Windowsis suvand **Juhtpaneel**, valige **Süsteem ja turvalisus \> Süsteem \> Täpsemad süsteemisätted** ja seejärel valige suvand **Keskkonnamuutujad**.)
+> Veenduge, et keskkonnamuutuja **TestRoot** oleks seatud RSAT installiteele. (Avage Microsoft Windows is suvand **Juhtpaneel**, valige **Süsteem ja turvalisus \> Süsteem \> Täpsemad süsteemisätted** ja seejärel valige suvand **Keskkonnamuutujad**.)
 
 1. Avage administraatorina aken **Käsuviip** või **PowerShell**.
 2. Navigeerige RSAT-i installikausta.
@@ -521,7 +524,7 @@ for ($i = $start; $i -lt $start + $nr; $i++ )
 
 Järgmises näites kasutatakse kutset Open Data Protocol (OData) ostutellimuse tellimuse oleku leidmiseks. Kui olek ei ole **arveldatud**, võite näiteks käivitada RSAT testjuhtumi, mis arve sisestab.
 
-```xpp
+```powershell
 function Odata_Get
 {
     Param ( [string] $environment, [string] $cmd )
