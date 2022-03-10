@@ -2,25 +2,27 @@
 title: Elektroonilise arvelduse teenusehaldusega alustamine
 description: Selles teemas selgitatakse, kuidas elektroonilise arveldusega alustada.
 author: gionoder
-ms.date: 05/24/2021
+ms.date: 08/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 97423
+ms.custom:
+- "97423"
+- intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 7c4d69edd4a8f7c7acc2ac1bc22c1ba6eaba25ae
-ms.sourcegitcommit: 90a289962598394ad98209026013689322854b7b
-ms.translationtype: HT
+ms.openlocfilehash: f77c8fd1696b74f852d04cc0a696d4816ef9af1f
+ms.sourcegitcommit: 5033d42a2aac852916d726e40bd98a164d1a837d
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "6092402"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "7984824"
 ---
 # <a name="get-started-with-electronic-invoicing-service-administration"></a>Elektroonilise arvelduse teenusehaldusega alustamine
 
@@ -31,7 +33,7 @@ ms.locfileid: "6092402"
 Enne selles teemas kirjeldatud protseduuride lõpetamist peavad täidetud olema järgmised eeltingimused.
 
 - Teil peab olema juurdepääs oma Microsoft Dynamicsi teenuse Lifecycle Services (LCS) kontole.
-- Teil peab olema LCS-projekt, mis hõlmab Microsofti teenuste Dynamics 365 Finance ja Dynamics 365 Supply Chain Management versiooni 10.0.17 või uuemat versiooni. Peale selle peavad need rakendused olema juurutatud ühes järgmistest Azure'i geograafilistest piirkondadest.
+- Teil peab olema LCS-projekt, mis hõlmab Microsofti teenuste Dynamics 365 Finance või Dynamics 365 Supply Chain Management versiooni 10.0.17 või uuemat versiooni. Peale selle peavad need rakendused olema juurutatud ühes järgmistest Azure'i geograafilistest piirkondadest.
 
     - Ameerika Ühendriigid
     - Euroopa
@@ -45,20 +47,20 @@ Enne selles teemas kirjeldatud protseduuride lõpetamist peavad täidetud olema 
 ## <a name="install-the-add-in-for-microservices-in-lifecycle-services"></a>Installi Lifecycle Services-is lisandmodul mikroteenuste jaoks
 
 1. Logige sisse oma LCS-i kontole ja valige LCS-i projekti juhtpaneelil LCS-i projekt.
-2. LCS-i projekti LCS-i keskkonna armatuurlaudal valige oma LCS-i juurutusprojekt. Valitav projekt peab töötama.
+2. Valige projektis **Keskkonnad** armatuurlaual oma juurutatud keskkond. Teie valitud keskkond peab töötama.
 3. Valige **Power Platform Integratsioon** vahekaardil **Keskkonna lisandmoodulid** väljagrupis **Installi uus lisandmoodul**.
 4. Valige **Elektrooniline arveldamine**.
 5. Väljale **AAD-rakenduse ID** sisestage **091c98b0-a1c9-4b02-b62c-7753395ccabe**. See väärtus ei muutu.
-6. Sisestage väljale **AAD rentniku ID** oma Azure'i tellimuse konto ID.
+6. Sisestage väljale **AAD rentniku ID** oma Azure'i tellimuse konto ID. Teie Azure Active Directory (Azure AD) rentnik peaks olema sama rentnik, mida kasutatakse RCS-is.
 7. Tingimustega nõustumiseks valige märkeruut.
-8. Valige **Installi**.
+8. Valige **Installi**. Install võib kesta kuni mitu minutit.
 
 
 ## <a name="set-up-the-parameters-for-rcs-integration-with-electronic-invoicing"></a>Määrake parameetrid RCS integratsioonile koos Elekrtoonilise arveldusega
 
 1. Logige oma RCS-i kontole sisse.
-2. Tööruumis **Elektrooniline aruandlus** jaotisest **Seotud lingid** valige suvand **Elektroonilise aruandluse parameetrid**.
-3. Sisestage vahekaardil **E-arvelduse teenus** väljale **Teenuse lõpp-punkti URL** teie Azure'i geograafilise piirkonna jaoks sobiv teenuse lõpp-punkt, nagu järgmises tabelis näidatud.
+2. Tööruumi **Globaliseerimisfunktsioonid** jaotisest **Seotud sätted** valige **Elektroonilise aruandluse parameetrid**.
+3. Sisestage vahekaardil **E-arveldus** väljale **Teenuse lõpp-punkti URL** teie Azure'i geograafilise piirkonna jaoks sobiv teenuse lõpp-punkt, nagu järgmises tabelis näidatud.
 
     | Azure'i andmekeskuse geograafiline piirkond | Teenuse lõpp-punkti URI                                                       |
     |----------------------------|----------------------------------------------------------------------------|
@@ -111,12 +113,14 @@ Enne selles teemas kirjeldatud protseduuride lõpetamist peavad täidetud olema 
 8. Sisestage väljale **Kasutaja ID** kasutaja pseudonüüm. Sisestage väljale **E-post** kasutaja e-posti aadress.
 9. Valige käsk **Salvesta**.
 10. Kui teie riigi-/regioonipõhiste arvete puhul on digiallkirjade rakendamiseks vaja serdiahelat, valige toimingupaanil suvand **Võtmehoidla parameetrid** ja seejärel valige **Serdiahel** ning toimige järgmiselt.
+
     1. Serdiahela loomiseks valige **Uus**.
     2. Sisestage väljale **Nimi** serdiahela nimi. Väljale **Kirjeldus** sisestage kirjeldus.
     3. Valige jaotises **Serdid** käsk **Lisa**, et ahelale sert lisada.
     4. Kasutage nuppu **Üles** või **Alla**, et ahelas serdi asukohta muuta.
     5. Valige **Salvesta** ja sulgege seejärel leht.
     6. Sulgege leht.
+
 11. Valige lehe **Teenusekeskkond** toimingupaanil käsk **Avalda**, et keskkond pilves avaldada. Välja **Olek** väärtuseks määratakse **Avaldatud**.
 
 ## <a name="create-a-connected-application"></a>Ühendatud rakenduse loomine
@@ -147,7 +151,7 @@ Enne selles teemas kirjeldatud protseduuride lõpetamist peavad täidetud olema 
 ### <a name="set-up-the-service-endpoint-url"></a>Teenuse lõpp-punkti URL-i seadistamine
 
 1. Avage **Organisatsiooni haldus \> Seadistus \> Elektroonilise dokumendi parameetrid**.
-2. Sisestage vahekaardil **Edastusteenus** väljale **Teenuse lõpp-punkti URL** teie Azure'i geograafilise piirkonna jaoks sobiv teenuse lõpp-punkt, nagu järgmises tabelis näidatud.
+2. Sisestage vahekaardil **E-arveldus** väljale **Lõpp-punkti URL** teie Azure'i geograafilise piirkonna jaoks sobiv teenuse lõpp-punkt, nagu järgmises tabelis näidatud.
 
     | Azure'i andmekeskuse geograafiline piirkond | Teenuse lõpp-punkti URI                                                       |
     |----------------------------|----------------------------------------------------------------------------|
@@ -159,9 +163,8 @@ Enne selles teemas kirjeldatud protseduuride lõpetamist peavad täidetud olema 
 3. Väljale **Keskkond** sisestage teenusekeskkonna nimi, mis on avaldatud Elektroonilises arvelduses.
 4. Valige **Salvesta** ja sulgege seejärel leht.
 
-### <a name="enable-flighting-keys"></a>Lennuvõtmete lubamine
+### <a name="enable-flighting-keys-for-finance-or-supply-chain-management-version-10017"></a>Lubage Flighting võtmed Finance jaoks või Supply Chain Management versioon 10.0.17
 
-Lubage Lennuvõtmed Microsoft Dynamics 365 Finance -ile või Microsoft Dynamics 365 Supply Chain Management versioonidele 10.0.17 või varasematele. 
 1. Käivitage järgmine SQL-i käsk.
 
     INSERT INTO SYSFLIGHTING (FLIGHTNAME, ENABLED) VALUES ('BusinessDocumentSubmissionServiceEnabled', 1)

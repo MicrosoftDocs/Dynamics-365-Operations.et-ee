@@ -1,8 +1,8 @@
 ---
 title: Elektroonilise arvelduse ülevaade
-description: See teema pakub teavet Elektroonilise arvelduse kohta Microsoft Dynamics 365 Finance -is and Dynamics 365 Supply Chain Management- is.
+description: See teema annab ülevaate Elektroonilise arveldamise kohta Microsoftis ja Dynamics 365 Finance Dynamics 365 Supply Chain Management.
 author: gionoder
-ms.date: 03/29/2021
+ms.date: 01/21/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 6983abeb4d0fdd1a595a53ea0fd9cd840b24030b
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: HT
+ms.openlocfilehash: 23a98706bc2ab0abc2c72e9f20d8e8fbff56b2b9
+ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983846"
+ms.lasthandoff: 03/02/2022
+ms.locfileid: "8371450"
 ---
 # <a name="electronic-invoicing-overview"></a>Elektroonilise arvelduse ülevaade
 
 [!include [banner](../includes/banner.md)]
 
-Elektrooniline arveldus Microsoft Dynamics 365 Finance ja Dynamics 365 Supply Chain Management -i jaoks on hüperskaleeritav mitme rentnikuga teenus, mis võimaldab konfigureerida elektrooniliste arvedokumentide töötlemist ja dokumendivahetust. Töötlemis- ja integratsioonireeglid on täielikult konfigureeritavad ning loogikat käitatakse väljaspool rakendusi Finance ja Supply Chain Management. Teenus on mõeldud peamiselt e-arvete töötlemiseks ettevõtete ja valitsuse vahelistes stsenaariumides, kuid seda saab kohandada ka muuks otstarbeks.
+Microsofti elektrooniline arveldamine Dynamics 365 Finance ja Dynamics 365 Supply Chain Management on microsoftile skaleeritav mitme andmebaasi teenus, mis võimaldab konfigureeritavat elektrooniliste arvete töötlemist ja konfigureeritavat elektroonilise dokumendivahetust. Töötlemis- ja integratsioonireeglid on täielikult konfigureeritavad ning loogikat käitatakse väljaspool rakendusi Finance ja Supply Chain Management. Teenus on suunatud peamiselt elektrooniliste arvedokumentide töötlemisele ettevõtete vahel ettevõtete vahel. Kuid seda saab konfigureerida ka muudel eesmärkidel, nt ettevõtete vahel eri tüüpi dokumentide puhul.
 
 Elektrooniline arveldus aitab teil saavutada järgmisi eesmärke:
 
@@ -37,80 +37,49 @@ Elektrooniline arveldus aitab teil saavutada järgmisi eesmärke:
 - Dokumendiajaloo täiustatud jälgitavus
 - Lühem juurutustsükkel
 - Väiksem omanduse kogukulu (TCO)
-- Kergesti kohandatavad konfiguratsioonid, mille jaoks pole vaja koodi muuta
+- Kohandatavad konfiguratsioonid, mis ei nõua koodimuudatust
 - Lihtsustatud konfiguratsioonipakett
-- Sisseehitatud eksportimine, importimine ja integratsioon ning e-arve dokumentide töötlemise lihtne laiendatavus
+- Integreeritud eksport, import ja integratsioon ning lihtne laiendatavus elektrooniliste arvedokumentide töötlemisel
 - Ekspordi-, impordi- ja integratsioonikonfiguratsioonide lihtne taaskasutamine ettevõtete vahel
 
-Elektroonilise arvelduse kasutamiseks peate selle installima oma projektis Microsoft Dynamics Lifecycle Services (LCS). Järgmiseks järgige seadistusjuhiseid, et lülitada sisse integratsioon rakendusega Finance või Supply Chain Management. Lisateavet leiate teemast [Elektroonilise arvelduse kasutamise alustamine](e-invoicing-get-started.md).
+## <a name="service-availability"></a>Teenuse saadavus
 
-## <a name="service-availability"></a><a name="availability"></a>Teenuse saadavus
+Praegu on elektroonilise arvelduse funktsioon saadaval finants- ja tarneahela halduse klientidele. Lisateavet vaadake rakenduse litsentsitingimustest.
 
-Praegu on elektrooniline arveldus saadaval klientidele eelvaateprogrammi kaudu ja järgmises faasis muutub teenus üldiselt kättesaadavaks. Kuna riigi-/regioonipõhiste nõuetega seotud funktsioonid võivad olla väljalaske eri faasides piiratud, peaksite alati lugema kõige ajakohasemat dokumentatsiooni, milles käsitletakse toetatud riigi-/regioonipõhiste lahenduste ulatust.
+Kuna funktsioon, mis aadressib riigi-/regioonispetsiifilisi nõudeid, võib olla piiratud vabastamise erinevates etappides, peaksite alati üle vaatama kõige ajaomased dokumendid, mis tõstavad esile toetatud riigi-/regioonispetsiifiliste lahenduste laovarude ja ulatuse.
 
 Elektrooniline arveldus juurutatakse järgmistes Azure'i geograafilistes piirkondades:
 
 - Ameerika Ühendriigid
 - Euroopa
-- Ühendkuningriik
 - Aasia
 
 > [!NOTE]
 > Elektrooniline arveldus ei toeta kohapealseid juurutusi.
 
-## <a name="extended-configurability"></a>Laiendatud konfigureeritavus
-
-Elektroonilist arveldust saab kasutada olukordades, kus te peate looma elektroonilise dokumendi ja saatma selle määratud pooltele. See on spetsiaalselt loodud töötlemistegevuste konfigureeritava voo käivitamiseks saadud andmete põhjal. Rakendustes Finance ja Supply Chain Management saadaval konfigureerimissuvandid piirduvad dokumendi teisendamisega. See teenus laiendab neid suvandeid, lisades selles saadaolevad konfigureeritavad integratsioonid. Lisaks kasutavad kõik varem saadaval olnud elektroonilise arve funktsioonid (näiteks Brasiilia Nota fiscal eletrônica (NF-e), Mehhiko Comprobante Fiscal Digital por Internet (CFDI) või muu Lääne-Euroopa Universal Business Language (UBL) / Euroopa-ülene Public Procurement OnLine (PEPPOL)) konfiguratsioone eksportimiseks ja importimiseks ning integratsiooni lubamiseks väliste veebiteenustega.
-
 ## <a name="feature-highlights"></a>Esiletõstetud funktsioonid
 
-- Valmiskujul integratsioon rakendustega Finance ja Supply Chain Management
-- Järjekindel kasutajakogemus e-arvete protsessi konfigureerimisel ja jälgimisel kõigi riikide või regioonide puhul
+- Boksist välja integreerimine finants- ja tarneahelahaldusega
+- Järjepidev kasutajakogemus elektroonilise arve protsessi konfigureerimisel ja jälgimisel kõigi riikide ja piirkondade puhul
 - Kiirema, lihtsama ja odavama Elektroonilise arvelduse lahenduse kohandamine uutele riikidele või piirkondadele
-- Teenuse konfigureerimine teenuse Regulatory Configuration Service (RCS) kaudu ja globaliseerimisfunktsiooni seadistamine
-- Äriandmete teisendamine mitmesse e-arve vormingusse (XML, JavaScript Object Notation \[JSON\], TXT ja komaeraldusega väärtused \[CSV\]) RCS-is määratletud konfiguratsioonide abil.
+- Teenuse konfiguratsioon regulatiivsete konfiguratsiooniteenuste (RCS) ja globaliseerimisfunktsiooni seadistuse kaudu
+- Äriandmete teisendamine mitmeks elektroonilise arve vorminguks (XML, JavaScripti objekti notation \[JSON\], TXT ja komaga eraldatud väärtused CSV\[) RCS-is \] määratletud konfiguratsioonide abil:
 
-    - Elektroonilise aruandluse vormingud, mis on saadaval riikides või regioonides, kus e-arve teisendamise konfigureerimine pole saadaval
+    - Elektroonilise aruandluse (ER) vormingud, mis on saadaval riikide ja regioonide jaoks, kus konfigureeritavus elektroonilise arve teisendamiseks pole saadaval
 
-- E-arvete konfigureeritav edastamine välistele veebiteenustele, sh sertide haldamine digitaalallkirjade kaudu.
+- Konfigureeritav elektrooniliste arvete esitamine välistele veebiteenustele, sh sertifikaadi töötlemine digitaalallkirjade kaudu:
 
-    - Sisseehitatud, kergesti laiendatav ja konfigureeritav integratsioon täiendava sisuga mitme riigi jaoks
+    - Integreeritud, hõlpsasti laiendatav ja konfigureeritav integratsioon mitme riigi ja regiooni lisasisuga
 
-    > [!NOTE]
-    > Praegu toetatakse piiratud arvu otseedastusi. Lisateavet leiate selle teema varasemast jaotisest [Teenuse saadavus](#availability). Toetust laiendatakse tulevikus.
-
-- Veebiteenuste vastuste haldamine, sh konfigureeritav eranditeadete haldamine
-- Elektrooniliste allkirjade tugi (nt allkirjastamise algoritmi XMLDSig abil)
-- E-arve teadete pakktöötlus
-
-## <a name="architecture-and-data-flow"></a>Arhitektuur ja andmevoog
-
-Kui elektrooniline arveldus on LCS-ist installitud ja vajalik seadistus on lõpetatud kõikides vajalikes rakendustes, luuakse turvaline ühendus. Teenus asub praegu Ameerika Ühendriikides ja Euroopas asuvates andmekeskustes. Seetõttu võib teenuse asukoht erineda seotud rakenduse Finance või Supply Chain Management eksemplari asukohast. Pärast elektroonilise arvelduse lisandmooduli seadistamise lõpetamist ja integratsiooni sisselülitamist saadetakse elektroonilise arve saatmise korral kindla dokumendiga seotud põhi- ja kandeandmed elektroonilise arvelduse lisandmoodulisse.
-
-> [!NOTE]
-> Kui teie elektrooniline arve või muu dokument sisaldab isikuandmeid, kontrollige, kas selle funktsiooni kasutamine vastab isikuandmete kaitse üldmääruse (GDPR) ja muude isikuandmete edastamisega seotud määruste nõuetele.
-
-### <a name="high-level-description-of-the-data-flow"></a>Andmevoo kõrgetasemeline kirjeldus
-
-1. Klient saadab teenusele kanoonilise äridokumendi.
-2. Kliendist saadud kontekstiteabe põhjal valib teenus sobiva töötlusvoo.
-3. Teenus käivitab töötlustegevused. Need tegevused võivad hõlmata äridokumendi teisendamist elektrooniliseks arveks, digitaalallkirja rakendamist ja dokumendi edastamist välisele veebiteenusele.
-4. Kõik saadud ja töödeldud dokumendid talletatakse kliendi Azure'i bloobimälus.
-5. Kõik töötlemiseks kasutatud rentnikusaladused ja serdid talletatakse kliendi Azure'i võtmehoidlas.
-6. Teenus saadab nõudmisel klienti teavet saadetud äridokumendi töötlemise oleku kohta.
-7. Klient võtab vastu teabe lõpetatud töötlemise kohta ja teeb kogu logiteabe kättesaadavaks. Samuti teeb see kättesaadavaks dokumendi, mis loodi või saadi voo töötlemise käigus.
-
-Järgmine illustratsioon näitab, kuidas andmed elektroonilisse arveldusse sisenevad ja sealt väljuvad.
-
-![Elektroonilise arvelduse lisandmooduli andmevoog.](media/e-invoicing-service-data-flow-diagram-overview.png)
+- Veebiteenuste vastuste töötlemine, sh erandteadete konfigureeritav käsitsemine
+- Digitaalallkirjade tugi (nt digitaalallkirjad, mis kasutavad XMLDSig allkirjastamisalgoritmi)
+- Võimalus saata dokumente e-kirjadele ja salvestada need SharePoint
+- Elektrooniliste arveteadete pakktöötlus
+- Konfigureeritav sissetulevate dokumentide teisendamine ja nende dokumentide töötlemine finants- ja tarneahela halduses
+- Võime vastu võtta sissetulevaid dokumente kanalitest, nagu meil ja SharePoint
 
 ## <a name="privacy-notice"></a>Privaatsusavaldus
-Elektroonilise arvelduse lubamise ja kasutamise korral on võimalik, et saata tuleb piiratud andmeid, sealhulgas organisatsiooni maksukohustuslasena registreerimise ID. See edastatakse maksuameti volitatud kolmandatest isikutest asutustele, mille eesmärk on saata elektroonilisi arveid eelmääratletud vormingutes, mis on vajalikud integratsiooniks valitsuse veebiteenustega. Nendest välissüsteemidest sellesse Dynamics 365 võrguteenusesse imporditud andmete puhul kehtib meie [privaatsusavaldus](https://go.microsoft.com/fwlink/?LinkId=512132). Lisateavet leiate riigipõhise funktsiooni dokumentatsioonis asuvatest privaatsusavalduse jaotistest.
 
-## <a name="additional-resources"></a>Lisaressursid
-- [Teenuse haldus](e-invoicing-service-administration.md)
-- [Elektrooniliste arvete konfigureerimine RCS-is](e-invoicing-configuration-rcs.md)
-- [Elektroonilise arvete väljastamine teenustes Finance ja Supply Chain Management](e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md)
-
+Elektroonilise arveldamise lubamine ja kasutamine võib nõuda piiratud andmete saatmist. Need andmed hõlmavad organisatsiooni maksuregistreerimise ID-d. Need andmed edastatakse kolmanda osapoole asutused, mille maksuametid on volitanud saatma elektroonilisi arveid eelmääratletud vormingutes, mida on vaja integratsiooniks valitsuse veebiteenustega. Andmed, mis imporditakse nendest välissüsteemidest sellesse Dynamics 365 võrguteenusse, kuuluvad meie [privaatsusavaldusele](https://go.microsoft.com/fwlink/?LinkId=512132). Lisateavet vt jaotisest "Privaatsusteatis" riigi-/regioonispetsiifilises funktsioonidokumentatsioonis.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

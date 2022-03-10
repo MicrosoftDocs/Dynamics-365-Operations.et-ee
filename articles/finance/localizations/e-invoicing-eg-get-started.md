@@ -1,82 +1,106 @@
 ---
-title: Elektroonilise arvelduse lisandmooduli kasutamise alustamine Egiptuses
-description: See teema pakub teavet, mis aitab teil alustada elektroonilise arveldusega Egiptuses Finants ja Supply Chain Management -is.
+title: Elektrooniline arveldus Egiptuse kohta
+description: See teema annab teavet, mis aitab teil alustada Microsofti Egiptuse elektroonilise Dynamics 365 Finance arveldusega Dynamics 365 Supply Chain Management.
 author: gionoder
-ms.date: 03/29/2021
+ms.date: 02/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 97423
+ms.custom:
+- "97423"
+- intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: f6175a50a88d2d636bfafc5988265b8657630758
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
-ms.translationtype: HT
+ms.openlocfilehash: 6fe1dd4254db8b390c17558320a6eaff2b0dcd19
+ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840192"
+ms.lasthandoff: 03/02/2022
+ms.locfileid: "8371352"
 ---
-# <a name="get-started-with-electronic-invoicing-for-egypt"></a>Elektroonilise arvelduse lisandmooduli kasutamise alustamine Egiptuses
+# <a name="electronic-invoicing-for-egypt"></a>Elektrooniline arveldus Egiptuse kohta
 
 [!include [banner](../includes/banner.md)]
 
-[!include [banner](../includes/preview-banner.md)]
+Sellest teemast leiate teabe, mis aitab teil alustada elektroonilise arveldusega Egiptuses. See juhib teid läbi konfiguratsioonietappide, mis sõltuvad riigist regulatiivses konfiguratsiooniteenuses (RCS). Need sammud täiendavad sammud, mida kirjeldatakse elektroonilise [arvelduse häälestamisel](e-invoicing-set-up-overview.md).
 
-Sellest teemast leiate teabe, mis aitab teil alustada elektroonilise arveldusega Egiptuses. See teema juhatab teid läbi riigist sõltuvate konfiguratsioonietappide Regulatory Configuration Services (RCS) ja täiendab teemas kirjeldatud samme [Alustage elektroonilise arveldamisega](e-invoicing-get-started.md).
+## <a name="prerequisites"></a>Eeltingimused
 
-## <a name="country-specific-configuration-for-egyptian-electronic-invoice-eg-electronic-invoicing-feature"></a>Egiptuse elektroonilise arveldamise (EG) funktsiooni riigispetsiifiline konfiguratsioon
+Enne selles teemas protseduuride alustamist viige lõpule järgmised eeltingimused:
 
-Mõned parameetrid **Egiptuse elektroonilise arve (EG) Elektroonilise arvelduse funktsioonist** avaldatakse vaikeväärtustega. Vaadake üle ja vajadusel uuendage väärtusi, et need sobiksid paremini teie äritegevuse vajadustega, enne kui juurutate elektroonilise arveldamise funktsiooni teenuse keskkonda.
+- Tutvuge elektroonilise arveldamisega, nagu seda kirjeldatakse elektroonilise [arveldamise ülevaates](e-invoicing-service-overview.md).
+- Registreerige RCS-ile ja seadistage elektrooniline arveldus. Lisateavet vt järgmistest teemadest:
 
-See jaotis täiendab **Elektroonilise arveldamise riigispetsiifilist funktsiooni** jaotist teemas [Alusta elektroonilise arveldusega](e-invoicing-get-started.md).
+    - [Registreerige elektroonilise arve teenus ja installige see](e-invoicing-sign-up-install.md)
+    - [Häälestage Azure'i ressursid elektrooniliseks arveldamiseks](e-invoicing-set-up-azure-resources.md)
+    - [Installi Lifecycle Services-is lisandmodul mikroteenuste jaoks](e-invoicing-install-add-in-microservices-lcs.md)
+    
+- Aktiveerige integratsioon Microsofti või rakenduse Dynamics 365 Finance ja Dynamics 365 Supply Chain Management elektroonilise arveldamise teenuse vahel, nagu on kirjeldatud jaotises Aktiveeri [ja seadista elektroonilise arveldamise integreerimine](e-invoicing-activate-setup-integration.md).
+- Looge digitaalserdi saladus azure Key Vault-s ja seadistage see nii, nagu on kirjeldatud kliendi [sertides ja saladustes](e-invoicing-customer-certificates-secrets.md). Testimiseks annab Egiptuse maksuamet kindlad testi digitaalsed sertifikaadid, mida tuleb kasutada ainult testimise ja lahenduse valideerimise faasides. Lisateabe saamiseks minge Egiptuse maksuameti [veebisaidile, kasutades Linki, mis on esitatud Egiptuse e-arve SDK-s](https://sdk.sit.invoicing.eta.gov.eg/faq/).
 
-### <a name="prerequisites"></a>Eeltingimused
+## <a name="country-specific-configuration-for-the-egyptian-electronic-invoice-eg-feature"></a>Egiptuse elektroonilise arve (SOOVI) funktsiooni riigispetsiifiline konfiguratsioon
 
-Enne selle protseduuri lõpetamist, tuleb:
+Mõned parameetreid Egiptuse elektroonilise arve **(KREEDITARVE)** elektroonilise arveldamise funktsioonist avaldatakse vaikeväärtustega. Enne elektroonilise arveldamise funktsiooni juurutamist teenuse keskkonda vaadake üle vaikeväärtused ja uuendage neid vastavalt vajadusele, et need paremini kajastaksid teie äritoimingut.
 
-- Looge digitaalsertifikaadi saladus, nagu on kirjeldatud **Digitaalse sertifikaadi saladuse loomine** jaotises [Alustage elektroonilise arveldamise lisandmooduli teenuse administratsiooniga](e-invoicing-get-started-service-administration.md). Testimiseks annab Egiptuse maksuamet kindlad testi digitaalsed sertifikaadid, mida tuleb kasutada ainult testimise ja lahenduse valideerimise faasides. Lisateabe saamiseks vaadake Egiptuse maksuameti veebisaiti, kasutades linki [Egiptuse e-arve SDK](https://sdk.sit.invoicing.eta.gov.eg/faq/).
-
-1. RCS-i jaotises **Funktsioonid** tööruumis **Globaliseerimisfunktsioonid** valige paan **Elektrooniline arveldus** .
-2. Lehel **Elektroonilise arveldamise lisateenused** veenduge, et **Egiptuse elektrooniline arve (EG)** on valitud loodud elektroonilise arveldamise funktsioon.
+1. Importige Egiptuse elektroonilise arve **(UUENDUS) globaliseerimisfunktsiooni** uusim versioon, nagu on kirjeldatud [jaotises Impordi funktsioonid globaalsest hoidlast](e-invoicing-import-feature-global-repository.md).
+2. Looge imporditud globaliseerimisfunktsiooni koopia ja valige selle jaoks oma konfiguratsioonipakkuja, nagu kirjeldatud jaotises [Globaliseerimisfunktsiooni loomine](e-invoicing-create-new-globalization-feature.md).
 3. Vahekaardil **Versioon** kontrollige, et oleks valitud versioon **Mustand**.
-4. Valige **Häälestus** vahekaardil, ruudustikus **Müügiarve** funktsioon häälestus.
-5. Valige **Redigeeri** ja vahekaardil **Tegevused** väljagrupist **Tegevused**, valige **Allkirjasta json Egiptuse maksudokument**.
-6. Väljagrupis **Parameetrid** valige parameeter **Serdi nimi** ja valige elektronarvelduse funktsiooniga kasutamiseks loodud nimi elektroonilise arve funktsioonis.
-7. Väljagrupis **Tegevused** valige **integreerimine Egiptuse ETA teenusega**. Korrake seda sammu toimingu kahe esinemiskorra puhul.
-8. Valige **Parameetrid** väljagrupis **Veebiteenuse URL** ja **Sisselogimise teenuse URL** ning vajadusel vaadake üle URL-i parameetrid. Lisateabe saamiseks vaadake Egiptuse maksuameti veebisaiti, kasutades linki [Egiptuse e-arve SDK](https://sdk.sit.invoicing.eta.gov.eg/faq/).
-9. Valige **Salvesta** ja sulgege leht.
-10. Elektroonilise arveldamise funktsiooni juurutamiseks Teenusse keskkonda vt [Alustage elektroonilise arvelduse lisandmooduliga](e-invoicing-get-started.md).
+4. Valige vahekaardi **Seadistused** ruudustikus müügiarve **tuletatud funktsiooniseadistus**.
+5. Valige suvand **Redigeeri**.
+6. Konveieri **töötlemise** vahekaardil jaotises Müügivõimaluste **töötlemine** valige Egiptuse **maksuameti jaoks suvand Allkirjasta jasoni dokument**.
+7. **Valige jaotises Parameetrid** väärtus **Serdi nimi** ja seejärel valige loodud digitaalsertifikaadi nimi.
+8. Jaotises Müügivõimaluste **töötlemine** valige integreerimine **Egiptuse ETA teenusega**. Korrake seda sammu toimingu kahe esinemiskorra puhul.
+9. Valige jaotises **Parameetrid veebiteenuse** **URL** ja sisselogimise **teenuse URL**. Seejärel vaadake üle URL-i parameetrid. Testimise ja tootmise URL-i loomiseks minge [Egiptuse maksuameti veebisaidile, kasutades linki, mis on esitatud Egiptuse e-arve SDK-s](https://sdk.sit.invoicing.eta.gov.eg/faq/).
+10. Valige **Salvesta** ja sulgege leht.
+11. Korrake projektiarve tuletatud funktsiooniseadistuse jaoks **samme 4 kuni** 10.
 
-## <a name="country-specific-configuration-of-the-application-setup-for-the-egyptian-electronic-invoice-eg-electronic-invoicing-feature"></a>Egiptuse elektroonilise arveldamise (EG) funktsiooni riigispetsiifiline konfiguratsioon
+## <a name="country-specific-configuration-for-the-egyptian-electronic-invoice-eg-application-setup"></a>Egiptuse elektroonilise arve (ELECTRONIC Invoice) rakenduse häälestuse riigispetsiifiline konfiguratsioon
 
-Viige need sammud lõpule enne rakenduse häälestuse juurutamist ühendatud finants- või Supply Chain Management rakendusse.
+On parameetreid, mis tuleb seadistada teie finantside või tarneahela halduskeskkonnas. Selle seadistuse saate lõpule viia kahel kohas:
 
-See jaotis täiendab **Rakenduse seadistamise riigispetsiifilist funktsiooni** jaotist teemas [Alusta elektroonilise arveldusega](e-invoicing-get-started.md).
+- Otse oma finantside või tarneahela halduskeskkonnas, Lisateavet vt elektroonilise arveldamise [parameetrite seadistamisest](e-invoicing-set-up-parameters.md).
+- RCS-s. Elektroonilise arveldamise funktsiooni häälestuse ulatuses saate määrata kõik parameetrid ja seejärel juurutada need elektroonilise arveldamise funktsiooni juurutamisel otse oma finantside või tarneahela halduskeskkonnas.
 
-1. RCS-i jaotises **Funktsioonid** tööruumis **Globaliseerimisfunktsioonid** valige paan **Elektrooniline arveldus** .
-2. Lehel **Elektroonilise arveldamise Funktsioon** veenduge, et **Egiptuse elektrooniline arve (EG)** on valitud loodud elektroonilise arveldamise funktsioon.
-3. Vahekaardil **Versioon** kontrollige, et oleks valitud versioon **Mustand**.
-4. Vahekaardil **Seadistused** valige **rakenduse häälestus** ja **Ühendatud rakendus** väljal, valige rakendus, kuhu soovite juurutada.
-5. Kontrollige **Tabeli nimi** väljal, et kliendiarve tööleht on valitud.
-6. Valige **Vastuse tüübid** ja seejärel **Uus**.
-7. Väljale **Vastuse tüüp** sisestage "Vastus" fikseeritud väärtusena ja väljale **Kirjeldus** sisestage "Kirjeldus".
-8. Valige väljal **Edastuse olek** suvand **Ootel**.
-9. Väljal **Mudeli kaardistamine** valige **Mudeli vastendamine vastusesõnumist** koos **(Eelvaade) Vastuse sõnumi impordivorming** ja siis valige **Salvesta**.
-10. Valige **Uus** ja sisestage siis väljale **Vastusetüüp** väärtus "Vastuse andmed" fikseeritud väärtusena. Väljale **Kirjeldus** sisestage "kirjeldus".
-11. Valige väljal **Edastuse olek** suvand **Ootel**.
-12. Väljal **andmeüksuse nimi** valige **müügiarve päised V2**.
-13. Väljal **Mudeli kaardistamine** valige **Egiptuse vastuse andmete import** koos **(Eelvaade) Egiptuse vastuse andmed** ja siis valige **Salvesta**.
-14. Rakenduse seadistuse juurutamiseks finants- või Supply Chain Management -iga seotud rakendusse vt [Alustamine elektroonilise arveldamisega](e-invoicing-get-started.md).
+Mõlema valiku parameetrid on samad. Kui seadistate elektroonilise arveldamise teenuse esimese funktsiooni, on soovitatav järgida neid samme RCS-i parameetrite seadistamiseks ja seejärel juurutada need ühendatud rakendusse.
+
+> [!NOTE]
+> Mõned elektroonilise arveldamise funktsiooniversioonid võivad sisaldada eelmääratletud rakendusespetsiifilisi parameetreid finants- või tarneahela halduse jaoks. Sel juhul peaksite kontrollima, et andmed on õiged. Vastasel juhul seadistage parameetrid käsitsi.
+
+1. Otsige üles egiptuse elektroonilise arve **(NT) loodud** globaliseerimisfunktsiooni koopia.
+2. Vahekaardil **Versioon** kontrollige, et oleks valitud versioon **Mustand**.
+3. Tehke vahekaardil **Seadistused** valik **Rakenduse seadistus**.
+4. **Väljal Ühendatud rakendused** valige rakendus, kus soovite parameetreid juurutada.
+5. **Elektrooniliste dokumenditüüpide lehel** valige kirje **loomiseks** käsk Lisa.
+6. Lisage väljale **Tabeli nimi custInvoiceJour** **.**
+7. Lisage kontekstiväljale **viide** kliendiarve konteksti vastendamise **nimele**. Konfiguratsioon on kliendiarve **kontekstimudel**.
+8. Lisage elektroonilise **dokumendi vastendamise** väljale viide kliendiarve vastendamise **nimele**. Konfiguratsioon on Arve **mudeli vastendamine**.
+9. Valige käsk **Salvesta**.
+10. Valige **leheküljel Vastuse** tüübid suvand **Lisa**.
+11. Väljal **Vastuse tüüp** sisestage **Vastus**.
+12. Väljale Kirjeldus **sisestage** Protsessi **vastus**.
+13. Valige väljal **Edastuse olek** suvand **Ootel**.
+14. Valige väljal **Mudeli vastendamine** suvand Vastusesõnumi **importimine**. Konfiguratsiooniks on **Egiptuse vastuseteate import (VASTAVALT).**
+15. Valige käsk **Salvesta**.
+16. Valige **Lisa**.
+17. Väljale Vastuse **tüüp** sisestage **ResponseData**.
+18. Väljale Kirjeldus **sisestage** protsessi **vastuse andmed**.
+19. Valige väljal **Edastuse olek** suvand **Ootel**.
+20. Valige andmeüksuse **nime väljal** **SalesInvoiceHeaderV2Entity**.
+21. Valige väljal **Mudeli vastendamine** suvand **Vastuseandmete import**. Konfiguratsioon on Egiptuse **vastuse andmeimpordivorming (SAMA).**
+22. Valige **Salvesta** ja sulgege leht.
+23. Sulgege leht.
+
+Funktsiooni juurutamiseks teeninduskeskkonda ja [rakenduse häälestuse juurutamiseks finantside või tarneahelate halduse ühendatud rakendusse vt Vii lõpule, avalda ja juuruta globaliseerimisfunktsioon](e-invoicing-complete-publish-deploy-globalization-feature.md)
 
 ## <a name="privacy-notice"></a>Privaatsusavaldus
 
-Lubades **Egiptuse elektroonilise arvelduse (EG)** lisandmoodul võib vajada piiratud andmete saatmist, sealhulgas organisatsiooni maksukohustuslasena registreerimise ID. See info edastatakse maksuameti volitatud kolmandatest isikutest asutustele, mille eesmärk on saata maksuametile elektroonilisi arveid eelmääratletud vormingus, mis on vajalik integratsiooniks valitsuse veebiteenusega. Administraator saab lubada ja keelata funktsiooni avades **Organisatsiooni haldus** > **Seadistus** > **Elektroonilise dokumendi parameetrid**. Valige **Funktsioonid** vahekaart, valige read, mis sisaldavad **Egiptuse elektroonilise arve (EG)** lisandmoodul ning seejärel tehke sobiv valik. Nendest välissüsteemidest sellesse Dynamics 365 võrguteenusesse imporditud andmete puhul kehtib meie [privaatsusavaldus](https://go.microsoft.com/fwlink/?LinkId=512132). Lisateavet leiate riigipõhise funktsiooni dokumentatsioonis asuvatest privaatsusavalduse jaotistest.
+Egiptuse elektroonilise **arve (THE) funktsiooni** lubamine võib nõuda piiratud andmete saatmist. Need andmed hõlmavad organisatsiooni maksuregistreerimise ID-d. Andmed edastatakse kolmanda isiku asutused, mille maksuamet on volitanud saatma sellele maksuametile elektroonilisi arveid eelmääratletud vormingus, mis on vajalik integratsiooniks valitsuse veebiteenusega. Administraator saab funktsiooni lubada ja keelata, kui läheb organisatsiooni haldamise **seadistuse** \> **·** \> **elektroonilise dokumendi parameetritesse.** Valige **Funktsioonid** vahekaart, valige read, mis sisaldavad **Egiptuse elektroonilise arve (EG)** lisandmoodul ning seejärel tehke sobiv valik. Välissüsteemidest sellesse Dynamics 365 võrguteenusse imporditud andmed allutavad meie [privaatsusavaldusele](https://go.microsoft.com/fwlink/?LinkId=512132). Lisateavet vt riigispetsiifilise funktsioonidokumentatsiooni jaotisest "Privaatsusteatis".
 
 ## <a name="additional-resources"></a>Lisaressursid
 
@@ -84,6 +108,5 @@ Lubades **Egiptuse elektroonilise arvelduse (EG)** lisandmoodul võib vajada pii
 - [Elektroonilise arvelduse lisandmooduli teenusehalduse kasutamise alustamine](e-invoicing-get-started-service-administration.md)
 - [Elektroonilise arveldusega alustamine](e-invoicing-get-started.md)
 - [Kliendi elektroonilised arved Egiptuses](emea-egy-e-invoices.md)
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

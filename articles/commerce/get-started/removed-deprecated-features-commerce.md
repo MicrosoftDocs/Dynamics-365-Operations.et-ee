@@ -2,7 +2,7 @@
 title: Dynamics 365 Commercei eemaldatud või aegunud funktsioonid
 description: See teema kirjeldab funktsioone, mis on eemaldatud või plaanitakse eemaldada Dynamics 365 Commerce'ist.
 author: josaw
-ms.date: 09/27/2021
+ms.date: 03/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: b582b8b95fcf2ad45aa1bb49eb5594d30874e0f4
-ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
-ms.translationtype: HT
+ms.openlocfilehash: 7b06f8ca65e4fac13f322f8d72b8ad4f9db8ccd7
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/28/2021
-ms.locfileid: "7559555"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384603"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Dynamics 365 Commercei eemaldatud või aegunud funktsioonid
 
@@ -31,7 +31,7 @@ See teema kirjeldab funktsioone, mis on eemaldatud või plaanitakse eemaldada Dy
 See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võtta. 
 
 > [!NOTE]
-> Üksikasjalikku teavet rakenduse Finance and Operationsi rakenduste objektide kohta leiate teemast [Tehnilise teabe aruanded](/dynamics/s-e/). Saate võrrelda nende aruannete eri versioone, et õppida objektide kohta, mida on igas Finance and Operationsi rakenduste versioonis muudetud või eemaldatud.
+> Finantside ja toimingute rakenduste objektide üksikasjaliku teabe leiate tehnilistest [viitearuannetest](/dynamics/s-e/). Saate võrrelda nende aruannete erinevaid versioone, et saada teavet objektide kohta, mida on igas Finantsi ja operatsioonide rakenduste versioonis muudetud või eemaldatud.
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10021-release"></a>Commerce'i väljalaskest 10.0.21 eemaldatud või aegunud funktsioonid
 
@@ -59,7 +59,7 @@ Retail SDK saadetakse teenusega Lifecycle Services (LCS). See jaotusviis aegus v
 | **Asendatud teise funktsiooniga?**   |  [Laadige Retail SDK näidised ja viitepaketid alla teenusest GitHub ja NuGet](../dev-itpro/retail-sdk/sdk-github.md) |
 | **Mõjutatud tootealad**         | Retail SDK |
 | **Juurutamissuvand**              | Kõik |
-| **Olek**                         | Aegunud: alates väljalaskest 10.0.21 eemaldatakse LCS-i VM-i kaudu saadetav SDK (oktoobris 2022). |
+| **Olek**                         | Taunitav: alates väljalaskest 10.0.21 eemaldatakse LCS-i VMsi kaudu saadetud SDK aprillis 2023. |
 
 ### <a name="retail-deployable-package-and-combined-pos-hardware-station-and-cloud-scale-unit-installers"></a>Retaili juurutatav pakett ja koondkassa, riistvarajaam ning pilvskaalaüksuse installerid
 
@@ -82,9 +82,9 @@ Lisateabe saamiseks vt:
     + [Pilvskaalaüksus](https://github.com/microsoft/Dynamics365Commerce.ScaleUnit)
     + [Kassa, CSU ja riistvarajaam](https://github.com/microsoft/Dynamics365Commerce.InStore)
 
-### <a name="modernpossln-and-cloudpossln-in-the-retail-sdk"></a>ModernPos.Sln ja CloudPOs.sln rakenduses Retail SDK
+### <a name="modernpossln-and-cloudpossln-in-the-retail-sdk"></a>ModernPos.Sln ja CloudPos.sln jaemüügi SDK-s
 
-Kassalaiendi juurutus ModernPos.sln, CloudPOs.sln, POS.Extension.csproj ja kassakausta abil aegus väljalaskes 10.0.21. Edaspidi kasutage kassalaiendite jaoks kassast sõltumatut pakendamise SDK-d.
+Müügikoha laienduse arendus kasutades ModernPos.sln, CloudPos.sln, POS. Extension.csproj ja kassakaust on väljalaskes 10.0.21 ebatäpne. Edaspidi kasutage kassalaiendite jaoks kassast sõltumatut pakendamise SDK-d.
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
@@ -92,7 +92,7 @@ Kassalaiendi juurutus ModernPos.sln, CloudPOs.sln, POS.Extension.csproj ja kassa
 | **Asendatud teise funktsiooniga?**   | [Kassa sõltumatu pakendamise SDK](../dev-itpro/pos-extension/pos-extension-getting-started.md) |
 | **Mõjutatud tootealad**         | Rakenduse Dynamics 365 Commerce kassalaiend ja juurutamine |
 | **Juurutamissuvand**              | Kõik |
-| **Olek**                         | Aegunud: alates väljalaskest 10.0.21, eemaldatakse tugi kassa koondpakettidelt ja laiendimudelilt, mis kasutavad rakenduses Retail SDK üksusi ModernPos.Sln, CloudPOs.sln ja POS.Extensons.csproj (oktoobris 2022). |
+| **Olek**                         | Taunitud: alates väljalaskest 10.0.21, toe kombineeritud kassapakettide ja laiendusmudeli jaoks, kasutades ModernPos.Sln-i, CloudPOs.sln-i ja kassat. Retail SDK extensons.csproj eemaldatakse aprillis 2023. |
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10017-release"></a>Commerce'i väljalaskest 10.0.17 eemaldatud või aegunud funktsioonid
 

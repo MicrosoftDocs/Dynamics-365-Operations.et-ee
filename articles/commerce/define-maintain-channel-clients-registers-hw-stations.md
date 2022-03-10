@@ -1,12 +1,10 @@
 ---
 title: Välisseadmete ühendamine kassaga (POS)
 description: See teema käsitleb välisseadmete ühendamist Retail POS-iga.
-author: rubencdelgado
-manager: AnnBe
-ms.date: 06/20/2017
+author: BrianShook
+ms.date: 03/01/2022
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailTerminalTable, RetailDevice
 audience: Application User
@@ -15,15 +13,15 @@ ms.custom: 92383
 ms.assetid: 83f31ea6-f0a2-4501-9d4d-a37b6eec2599
 ms.search.region: global
 ms.search.industry: Retail
-ms.author: rubendel
+ms.author: brshoo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 03a77306f17fbf76a4bcd1ecd682a4e2f199d330
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.openlocfilehash: f1c53c7215d3a5a182f345d5e040274ae06f9b12
+ms.sourcegitcommit: 116898def829c0f78bda8a117242aa308793465d
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5213718"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8370947"
 ---
 # <a name="connect-peripherals-to-the-point-of-sale-pos"></a>Välisseadmete ühendamine kassaga (POS)
 
@@ -60,58 +58,49 @@ Cloud POS on brauseripõhine kassa. Kuna see töötab brauseris, ei nõua Cloud 
 
 ### <a name="hardware-profile"></a>Riistvaraprofiil
 
-Navigeerimine: klõpsake valikuid **Kaubandus** &gt; **Kanali häälestus** &gt; **Kassa häälestus** &gt; **Kassaprofiilid** &gt; **Riistvaraprofiilid**.
+Navigeerimine: minge jaemüügi ja **ärikanali häälestamise \> kassa häälestuse \>\> kassaprofiilide \> riistvaraprofiilidele**.
 
-Riistvaraprofiil tähistab riistvara, mis on ühendatud kassaregistri või riistvarajaamaga. Riistvaraprofiili abil määratakse ka makseprotsessori parameetrid, mida tuleb maksetarkvara arenduskomplektiga (SDK) suhtlemisel kasutada. (Makse SDK juurutatakse riistvarajaama osana.)
+Riistvaraprofiil tuvastab riistvara, mis on ühendatud kassaregistriga integreeritud või ühiskasutatava riistvarajaama kaudu. Riistvaraprofiili abil määratakse ka makseprotsessori parameetrid, mida tuleb maksetarkvara arenduskomplektiga (SDK) suhtlemisel kasutada. Makse SDK juurutatakse riistvarajaama osana.
 
-### <a name="hardware-station"></a>Hardware station
+### <a name="hardware-station"></a>Riistvarajaam
 
-Navigeerimine: klõpsake **Jaemüük ja kaubandus** &gt; **Kanalid** &gt; **Poed** &gt; **Kõik poed**. Valige kauplus ja klõpsake siis kiirkaarti **Riistvarajaamad**.
+Navigeerimine: minge jaemüügi **ja äri kanalite \>\> juurde, \>** valige kauplus ja seejärel valige **kiirkaart Riistvara** kiirkaart.
 
 Riistvarajaam on äriloogika eksemplar, mis juhib kassa välisseadmeid. Riistvarajaam paigaldatakse automaatselt koos MPOS-iga. Teine võimalus on paigaldada riistvarajaam eraldi komponendina ja kasutada seda siis MPOS-i või Cloud POS-i jaoks veebiteenuse kaudu. Riistvarajaam tuleb määratleda kanali tasemel.
-
-### <a name="hardware-station-profile"></a>Riistvarajaama profiil
-
-Navigeerimine: klõpsake valikuid **Kaubandus** &gt; **Kanali häälestus** &gt; **Kassa häälestus** &gt; **Kassaprofiilid** &gt; **Riistvarajaama profiilid**.
-
-Kui kanali tasemel määratletud riistvarajaam ise sisaldab eksemplaripõhist teavet nagu riistvarajaama URL, sisaldab riistvarajaama profiil teavet, mis võib olla staatiline või mida võidakse jagada mitme riistvarajaama vahel. Staatiline teave sisaldab porti, mida tuleks kasutada, riistvarajaama paketti ja riistvaraprofiili. Staatiline teave sisaldab ka juurutatava riistvarajaama tüübi kirjeldust (nt **Maksmine** või **Tagastused**), olenevalt riistvarast, mida iga konkreetse riistvarajaama puhul vaja on.
 
 ## <a name="scenarios"></a>Stsenaariumid
 
 ### <a name="mpos-with-connected-peripheral-devices"></a>Ühendatud välisseadmetega MPOS
 
-[![Tavapärane fikseeritud kassa](./media/traditional-300x279.png)](./media/traditional.png)
+[![Tavapärane, fikseeritud kassa.](./media/traditional-300x279.png)](./media/traditional.png)
 
 MPOS-i ühendamiseks POS-i välisseadmetega tavapärases, fikseeritud kassa stsenaariumis liikuge kõigepealt registri enda juurde ja määrake sellele riistvaraprofiil. Leiate kassaregistrid, valides **Jaemüük ja kaubandus** &gt; **Kanali seadistus** &gt; **Kassa seadistus** &gt; **Registrid**. 
 
 Kui olete riistvaraprofiili määranud, sünkroonige muudatused kanali andmebaasis, kasutades jaotusgraafikut **Registrid**. Jaotusgraafikud leiate, valides **Jaemüük ja kaubandus** &gt; **Jaemüügi ja kaubanduse IT** &gt; **Jaotusgraafik**. 
 
-Järgmisena seadistage kanalil „kohalik” riistvarajaam. Klõpsake **Jaemüük ja kaubandus** &gt; **Kanalid** &gt; **Poed** &gt; **Kõik poed** ja valige pood. 
+Seejärel seadistage kanalile sihtotstarbeline riistvarajaam. Minge jaemüügi **ja äri kanalite \> kõikidesse \>\> kauplustesse** ja valige kauplus. 
 
-Seejärel klõpsake kiirkaardil **Riistvarajaamad** käsku **Lisa** riistvarajaama lisamiseks. Sisestage kirjeldus, sisestage hosti nimeks **localhost** ja sünkroonige siis kanali muudatused, kasutades jaotusgraafikut **Kanali konfigureerimine**. Jaotusgraafikud leiate, valides **Jaemüük ja kaubandus** &gt; **Jaemüügi ja kaubanduse IT** &gt; **Jaotusgraafik**. 
+Seejärel valige kiirkaardil **Riistvara** kiirkaart Riistvarajaama **lisamiseks** suvand Lisa. Valige **riistvarajaama** tüübiks sihtotstarbeline ja sisestage seejärel kirjeldus. Riistvaraprofiili **väli** võib olla tühi, sest selles stsenaariumis kasutatav riistvaraprofiil tuleb kassaregistrist endast. Seejärel sünkroonige muudatused kanaliga, kasutades kanali konfiguratsiooni **jaotuse** graafikut. Jaotusgraafikud leiate jaemüügi ja rakenduse **Commerce Retail ja Commerce \> IT jaotusgraafikust \>**. 
 
-Lõpuks kasutage MPOS-is toimingut **Riistvarajaama valimine** riistvarajaama **localhost** valimiseks. Määrake riistvarajaama olekuks **Aktiivne**. Selles stsenaariumis kasutatav riistvaraprofiil peaks pärinema kassaregistrist enesest. Selle stsenaariumi puhul pole riistvarajaama profiil vajalik.
+Lõpuks kasutage MPOS-i riistvarajaama valimiseks riistvarajaama toimingut, **mis** vastab kirjelduse jaoks sisestatud väärtusele, ja määrake riistvarajaama **väärtuseks Aktiivne**. 
 
 > [!NOTE]
-> Mõned riistvaraprofiili muudatused (nt kassasahtlite vahetused) nõuavad uue vahetuse avamist pärast muudatuste sünkroonimist kanaliga.
->
-> Cloud POS peab kasutama välisseadmetega suhtlemiseks eraldiseisvat riistvarajaama.
+> - Mõned riistvaraprofiili muudatused (nt kassasahtlite vahetused) nõuavad uue vahetuse avamist pärast muudatuste sünkroonimist kanaliga.
+> - Cloud POS peab kasutama välisseadmetega suhtlemiseks eraldiseisvat riistvarajaama.
 
 ### <a name="mpos-or-cloud-pos-with-a-stand-alone-hardware-station"></a>MPOS või Cloud POS koos eraldi riistvarajaamaga
 
-[![Ühiskasutusega välisseadmed](./media/shared-300x254.png)](./media/shared.png)
+[![Ühiskasutusega välisseadmed.](./media/shared-300x254.png)](./media/shared.png)
 
-Selles stsenaariumis jagavad MPOS-i ja Cloud POS-i kliendid eraldiseisvat riistvarajaama. See stsenaarium nõuab riistvarajaama profiili loomist allalaadimispaketi, pordi ja riistvaraprofiili määramiseks, mida riistvarajaam kasutab. Riistvarajaama profiili leiate asukohast **Jaemüük ja kaubandus** &gt; **Kanali seadistus** &gt; **Kassa seadistus** &gt; **Kassa profiilid** &gt; **Riistvarajaama profiilid**. 
+Selles stsenaariumis jagatakse eraldi riistvarajaam MPOS- ja Cloud POS-i klientide vahel. See stsenaarium nõuab, et loote ühise riistvarajaama ja määrate allalaaditava paketi, pordi ja riistvaraprofiili, mida riistvarajaam kasutab. Uue riistvarajaama määratlemiseks **valige** kindlas kanalis kiirkaart Riistvara kiirkaart (**Jaemüügi \>\>\>**- ja ärikanalite kauplused kõik kauplused) **ja lisage uus ühiskasutatava tüübiga riistvarajaam.** 
 
-Pärast riistvarajaama profiili loomist minge konkreetse jaemüügikanali juurde (**Jaemüük ja kaubandus** &gt; **Kanalid** &gt; **Poed** &gt; **Kõik poed**) ja lisage uus riistvarajaam. Vastendage see uus riistvarajaam varem loodud riistvarajaama profiiliga. 
+Järgmiseks sisestage kirjeldus, mis aitab kassiiril riistvarajaama tuvastada. Sisestage väljale **Hosti nimi** hostseadme URL järgmises vormingus: `https://<MachineName:Port>/HardwareStation`. (Asenda **&lt; MachineName:port&gt;** riistvarajaama tegeliku masinanimega.) Eraldi riistvarajaama jaoks peaksite määrama ka elektroonilise ülekande (EFT) terminali ID. See väärtus tähistab EFT terminali, mis on riistvarajaamaga ühendatud, kui makseühendus maksepakkujaga suhtleb. 
 
-Järgmiseks sisestage kirjeldus, mis aitab kassiiril riistvarajaama tuvastada. Sisestage väljale **Hosti nimi** hostseadme URL järgmises vormingus: `https://<MachineName:Port>/HardwareStation`. (Asendage **&lt;MachineName:Port&gt;** riistvarajaama tegeliku seadmenime ja pordiga, mis on määratud riistvarajaama profiilis.) Eraldi riistvarajaama puhul tuleks täpsustada ka elektroonilise rahaülekande (EFT) terminali ID-d. See väärtus tähistab EFT terminali, mis on riistvarajaamaga ühendatud, kui makseühendus maksepakkujaga suhtleb. 
-
-Järgmiseks minge tegelikust riistvarajaamast kanali juurde ja valige riistvarajaam. Siis klõpsake valikut **Allalaadimine** ja installige riistvarajaam. 
+Edasi, masinast, mis hostib riistvarajaama, minge peakontori kanalisse ja valige riistvarajaam. Seejärel valige **laadi** alla riistvarajaama installeri allalaadimiseks ja installige riistvarajaam. Lisateavet riistvarajaama installimise kohta vt [jaemüügi riistvarajaama konfigureerimine ja installimine](retail-hardware-station-configuration-installation.md). 
 
 Järgmiseks kasutage MPOS-i või Cloud POS-i toimingut **Riistvarajaama valimine** varem installitud riistvarajaama valimiseks. Valige **Seo** turvalise seose loomiseks kassa ja riistvarajaama vahel. See toiming tuleb teha iga kassa ja riistvarajaama kombinatsiooni puhul üks kord. 
 
-Pärast riistvarajaama sidumist kasutatakse sama toimingut riistvarajaama aktiveerimiseks selle kasutamise ajal. Selle stsenaariumi puhul tuleks määrata riistvaraprofiil riistvarajaama profiilile, mitte registrile endale. Kui mingil põhjusel pole riistvarajaamale otse riistvaraprofiili määratud, kasutatakse registrile määratud riistvaraprofiili.
+Pärast riistvarajaama sidumist kasutatakse sama toimingut riistvarajaama aktiveerimiseks selle kasutamise ajal. Selle stsenaariumi puhul tuleb riistvaraprofiil määrata ühiskasutatava riistvarajaama, mitte kassaaparaat ise. Kui mingil põhjusel ei ole riistvarajaamale määratud ühtegi riistvaraprofiili, kasutatakse kassaaparaati määratud riistvaraprofiili.
 
 ## <a name="client-maintenance"></a>Kliendi hooldus
 
@@ -160,19 +149,19 @@ Funktsiooni profiil määratakse kaupluse tasandil. Seda kasutatakse kaupluseül
 
 - Kiirkaart **Kviitungi nummerdamine**.
 
-    - Saate määrata kviitungite nummerdamise maskid, mis võivad sisaldada segmente kaupluse numbri, terminali numbri, konstantide jaoks ning seda, kas müük, tagastused, müügitellimused ja hinnapakkumised prinditakse eraldi seeriatena või kas nad kõik põhinevad ühel seerial.
+    - Määrake kviitungi nummerdamise maskid, mis võivad sisaldada segmente kaupluse numbri, terminali numbri, konstantide ja kas müük, tagastused, müügitellimused ja pakkumised prinditakse eraldi seeriates või kas need kõik järgivad sama seeriat.
 
 #### <a name="receipt-profiles"></a>Kviitungi profiilid
 
-Kviitungite profiilid määratakse printeritele riistvaraprofiilis. Neid kasutatakse konkreetsest printerist prinditavate kviitungitüüpide määramiseks. Profiilid hõlmavad kviitungivormingute sätteid ja sätteid, mis määravad, kas kviitung prinditakse alati või küsitakse kassiirilt, kas kviitung tuleb printida. Erinevates printerites võidakse samuti kasutada erinevaid kviitungiprofiile. Näiteks 1. printer on tavaline termopaberiga kviitungiprinter ja seetõttu on selle kviitungivormingud väiksemad. Kuid 2. printer on täissuuruses kviitungiprinter, mida kasutatakse ainult klienditellimuste kviitungite printimiseks, mis nõuavad rohkem ruumi.
+Kviitungi profiilid määratakse printeritele riistvaraprofiilis. Neid kasutatakse konkreetsest printerist prinditavate kviitungitüüpide määramiseks. Profiilid hõlmavad kviitungivormingute sätteid ja sätteid, mis määravad, kas kviitung prinditakse alati või küsitakse kassiirilt, kas kviitung tuleb printida. Erinevates printerites võidakse samuti kasutada erinevaid kviitungiprofiile. Näiteks 1. printer on tavaline termopaberiga kviitungiprinter ja seetõttu on selle kviitungivormingud väiksemad. Kuid 2. printer on täissuuruses kviitungiprinter, mida kasutatakse ainult klienditellimuste kviitungite printimiseks, mis nõuavad rohkem ruumi. Lisateavet vt kviitungi [profiili konfigureerimine](configure-emailed-receipt-formats.md#configure-a-receipt-profile).
 
 #### <a name="hardware-profiles"></a>Riistvara profiilid
 
-Riistvaraprofiile selgitatakse kliendi seadistuse komponendina selles artiklis eespool. Riistvaraprofiilid määratakse otse kassaregistrile või riistvarajaama profiilile. Neid kasutatakse seadmetüüpide määramiseks, mida konkreetne kassaregister või riistvarajaam kasutab. Riistvaraprofiilide abil määratakse ka makse SDK-ga suhtlemiseks kasutatavad EFT sätted.
+Riistvaraprofiile kirjeldatakse selles teemas varasema kliendi häälestuse komponendina. Riistvaraprofiilid on määratud otse kassaregistrisse või ühiskasutatavasse riistvarajaama ja neid kasutatakse teatud kassaregistri või riistvarajaama kasutatavate seadmete tüüpide määramiseks. Riistvaraprofiilide abil määratakse ka makse SDK-ga suhtlemiseks kasutatavad EFT sätted.
 
 #### <a name="visual-profiles"></a>Visuaalsed profiilid
 
-Visuaalsed profiilid määratakse registri tasandil. Neid kasutatakse konkreetse registri kujunduse määramiseks. Profiilid hõlmavad kasutatava rakenduse tüübi sätteid (MPOS või Cloud POS), rõhuvärvi ja kujundust, fondiskeemi, sisselogimise tausta ja kassa tausta.
+Visuaalseid profiile kasutatakse konkreetse registri kujunduse määramiseks ja need määratakse registri tasemel. Profiilid sisaldavad kasutatava rakenduse tüübi sätteid (MPOS või Cloud POS), rõhuvärvi ja kujundust, fondi skeemi, sisselogimise lehekülje tausta ja kassa tausta. Lisateavet vt müügikoha [(POS) visuaalsete profiilide loomine](tasks/create-pos-visual-profile-2016-02.md). 
 
 ### <a name="custom-fields"></a>Kohandatud väljad
 
@@ -181,10 +170,6 @@ Saate luua kohandatud välju, et lisada välju, mida kassal valmiskujul pole. Li
 ### <a name="language-text"></a>Keeletekst
 
 Saate kassas keele tekstisisestuse abil vaikestringe alistada. Stringi alistamiseks kassas lisage uus keele tekstirida. Seejärel määrake ID, vaikestring, mis tuleks alistada, ja tekst, mis tuleks vaikestringi asemel kassas kuvada.
-
-### <a name="hardware-station-profiles"></a>Riistvarajaama profiilid
-
-Riistvarajaama profiile selgitatakse selles artiklis eespool. Neid kasutatakse mitte-eksemplaripõhise teabe määramiseks riistvarajaamadele.
 
 ### <a name="channel-reports-configuration"></a>Kanali aruannete konfiguratsioon
 
@@ -203,7 +188,11 @@ Aktiveerimist puudutav lisateave hõlmab töötajat, kes seadme aktiveerimisolek
 
 ### <a name="client-data-synchronization"></a>Kliendi andmete sünkroonimine
 
-Kõik kassa kliendi muudatused, v.a seadme aktiveerimisoleku muudatused, tuleb nende jõustumiseks kanali andmebaasiga sünkroonida. Muudatuste sünkroonimiseks kanali andmebaasiga avage **Jaemüük ja kaubandus** &gt; **Jaemüügi ja kaubanduse IT** &gt; **Jaotusgraafik**  ja käivitage vajalik jaotusgraafik. Kliendi muudatuste puhul tuleks käivitada jaotusgraafikud **Registrid** ja **Kanali konfiguratsioon**.
+Kõik kassa kliendi muudatused, v.a seadme aktiveerimisoleku muudatused, tuleb nende jõustumiseks kanali andmebaasiga sünkroonida. Muudatuste sünkroonimiseks kanali andmebaasiga avage **Jaemüük ja kaubandus** &gt; **Jaemüügi ja kaubanduse IT** &gt; **Jaotusgraafik** ja käivitage vajalik jaotusgraafik. Kliendi muudatuste puhul tuleks käivitada jaotusgraafikud **Registrid** ja **Kanali konfiguratsioon**.
+
+## <a name="additional-resources"></a>Lisaressursid
+
+[Retail Hardware Stationi konfigureerimine ja installimine](retail-hardware-station-configuration-installation.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

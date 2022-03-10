@@ -2,7 +2,7 @@
 title: Tarnevalikute moodul
 description: See teema hõlmab tarnevalikute mooduleid ja kirjeldab, kuidas neid rakenduses Microsoft Dynamics 365 Commerce konfigureerida.
 author: anupamar-ms
-ms.date: 04/23/2021
+ms.date: 02/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 69d3da5cbee5d7b921b0b0b422d838b9821e9c877d6f1951e85aeb49474bd4bc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 9b9a7ad05974b98511cfc582af62c19c5fb4dbf5
+ms.sourcegitcommit: d2e5d38ed1550287b12c90331fc4136ed546b14c
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760896"
+ms.lasthandoff: 02/25/2022
+ms.locfileid: "8349790"
 ---
 # <a name="delivery-options-module"></a>Tarnevalikute moodul
 
@@ -55,6 +55,9 @@ Järgmisel illustratsioonil on näide tarnevalikute moodulist maksmise lehel.
 ## <a name="add-a-delivery-options-module-to-a-checkout-page-and-set-the-required-properties"></a>Maksmise lehele tarnevalikute mooduli lisamine ja vajalike atribuutide seadistamine
 
 Tarnevalikute moodulit saab lisada ainult maksmise moodulisse. Lisateavet selle kohta, kuidas konfigureerida tarnevalikute moodulit ja lisada seda maksmise lehele, leiate teemast [Maksmise moodul](add-checkout-module.md).
+
+> [!NOTE]
+> Võite esineda vastuoluliste tarnete käsitlemist või te ei pruugi näha oma e-äri kanalis järjestatud päisetasandil tasusid. Nende probleemide lahendamise juhiste leiate teemast Luba [e-äri kanalites tarnerežiimi järjepidev käsitsemine](consistent-delivery-mode-handling.md).
 
 ## <a name="additional-resources"></a>Lisaressursid
 

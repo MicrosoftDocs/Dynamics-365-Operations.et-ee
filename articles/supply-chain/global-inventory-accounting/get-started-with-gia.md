@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 07d3222680d9d9bff639f34eca5fea64d753ffd1
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
-ms.translationtype: HT
+ms.openlocfilehash: 88f1e9ef8c8b2aa494c44ea3b33713adc470eb96
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6336975"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384793"
 ---
 # <a name="get-started-with-global-inventory-accounting"></a>Global Inventory Accounting kasutamise alustamine
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!--KFM: Preview until 4/30/2022 -->
 
 Global Inventory Accounting võimaldab teil teha mitut laoarvestust teie seadistatud Global Inventory Accounting pearaamatutes. Te seostate iga Global Inventory Accounting pearaamatu *reegliga*. Reegel on järgmist tüüpi raamatupidamispoliitikate kogumik.
 
@@ -42,7 +43,7 @@ Global Inventory Accounting laoarvestus ei toeta praegu kõiki Supply Chain Mana
 > [!IMPORTANT]
 > Global Inventory Accounting laoarvestuse kasutamiseks peab teil olema LCS-iga lubatud kõrge saadavuskeskkond (mitte OneBoxi keskkond). Lisaks peate käitama Supply Chain Management versiooni 10.0.19 või uuema.
 
-Global Inventory Accounting avalikku eelvaatesse registreerumiseks saatke oma LCS-i keskkonna ID meiliga [Global Inventory Accounting töörühmale](mailto:GlobalInventoryAccounting@service.microsoft.com). Kui olete programmi heaks kiidetud, saadab meeskond teile järeltegevuse meili, mis sisaldab Global Inventory Accounting beetavõtit ja teie teenuse lõpp-punkte. Pärast beetavõtme saamist saate [installida lisandmooduli](#install).
+Global Inventory Accounting avalikku eelvaatesse registreerumiseks saatke oma LCS-i keskkonna ID meiliga [Global Inventory Accounting töörühmale](mailto:GlobalInvAccount@microsoft.com). Kui olete programmi heaks kiidetud, saadab meeskond teile järeltegevuse meili, mis sisaldab Global Inventory Accounting beetavõtit ja teie teenuse lõpp-punkte. Pärast beetavõtme saamist saate [installida lisandmooduli](#install).
 
 ## <a name="licensing"></a>Litsentsimine
 
@@ -60,9 +61,9 @@ Enne lisandfunktsiooni lubamist tuleb teil need sammud Microsoft Power Platform 
 1. Märkige ruut **Power Platform platvormi keskkonna seadistus** dialoogiboksis ja valige seejärel **Seadistamine**. Tavaliselt võtab seadistus aega 60 kuni 90 minutit.
 1. Pärast Microsoft Power Platform keskkonna seadistuse lõpuleviimist kuvatakse lehel teie keskkonna nimi. Lisaks kuvatakse jaotises **Power Platform integratsioon** lause "Power Platform keskkonna seadistus on lõpule viidud." Global Inventory Accounting laoarvestus ei nõua topeltkirjutuse rakendust.
 
-Lisateavet vt teemast [Häälestamine peale keskkonna juurutamist](../../fin-ops-core/dev-itpro/power-platform/overview.md#set-up-after-environment-deployment).
+Lisateavet vt teemast [Luba peale keskkonna juurutamist](../../fin-ops-core/dev-itpro/power-platform/enable-power-platform-integration.md#enable-after-deploy).
 
-### <a name="set-up-dataverse"></a>Dataverse'i häälestamine
+### <a name="set-up-dataverse"></a>Üksuse Dataverse häälestus
 
 Enne Dataverse seadistamist järgmiste sammude abil lisage oma rentnikule Global Inventory Accounting laoarvestuse põhimõtted.
 
@@ -120,7 +121,7 @@ Järgige neid samme Global Inventory Accounting ja Supply Chain Management vahel
 1. Logige sisse rakendusse Supply Chain Management.
 1. Avage **Süsteemihaldus \> Funktsioonihaldus**.
 1. Valige **Otsi värskendusi**.
-1. Vahekaardil **Kõik** otsige funktsiooni nimega *Globaalne laoarvestus*.
+1. Vahekaardil Kõik **otsige** funktsiooni nimega (Eelvaade *) globaalset varude arvestust*.
 1. Valige **Luba kohe**.
 1. Minge **Globaalne laoarvestus \> Seadistamine \>Globaalse laoarvestuse parameetrid \> Integratsiooniparameetrid**.
 1. **Andmeteenuse lõpp-punkti** ja **Globaalse laoarvestuse lõpp-punkti** väljadele sisestage URL-id meilist, mille Global Inventory Accounting meeskond saatis eelvaate jaoks registreerumisel.

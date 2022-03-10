@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-13
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 6c8aa0338ab30e6366601e3759141c7e41bf99fb
-ms.sourcegitcommit: ab1455c67f6ee6ca36bec148bea0dbb0f7704eda
-ms.translationtype: HT
+ms.openlocfilehash: 3269bf3f8a5475fb85e6b51514db29006be9aab1
+ms.sourcegitcommit: b52ff5dfd32580121f74a5f262e5c2495e39d578
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "7428923"
+ms.lasthandoff: 03/03/2022
+ms.locfileid: "8376204"
 ---
 # <a name="release-to-warehouse"></a>Lattu väljastamine
 
@@ -125,6 +125,7 @@ Müügitellimusi vabastava pakett-töö häälestamiseks tehke järgmist.
     - **Vabastav kogus** - Valige, kas partiina tuleks väljastada terve kogus või füüsiliselt reserveeritud kogus.
     - **Luba osaliselt väljastatud tellimuste väljalase** - määrake, kas osaliselt väljastatud tellimuste järelejäänud kogused tuleb lattu välja vabastada.
     - **Säilita vabastuse tõrke reserveerimised** – Määrake, kas müügitellimuse jaoks automaatselt reserveeritud kogused tuleb reserveeridakui lattu vabastamise protsess nurjub.
+    - **Väljalasete grupeerimine** klientide kaupa – määrake, kas süsteem peaks iga kliendi puhul töötlema väljalaset eraldi lattu või vabastama samaaegselt kõik müügitellimused. Kui see suvand on seatud *valikule* Jah, kogub süsteem kõik valitud kliendi müügitellimuse read, vabastab need tellimused lattu ja töötleb seejärel järgmise kliendi. Kui see suvand on seatud valikule *Ei*, vabastab süsteem kõik saadaolevad müügitellimuse read ühe laotoiminguna. Selle suvandi lubamisega saate aidata parandada laosse vabastamise protsessi jõudlust ja soovitud tulemusi. Peate olema siiski ettevaatlik, kui kasutate seda suvandit koos voomallidega, mis on konfigureeritud töötlema laineid lattu vabastamisel, sest see kombinatsioon võib luua palju ühe kliendi laineid, millest igaühel on töö, mis on loodud ainult sellele kliendile. Kui soovite luua töö, mis ühendab saadetisi mitmele kliendile, *peate* kas välja lülitama grupi väljaminekud kliendi suvandi järgi või konfigureerima oma voomallid edasilükatud töötluse kasutamiseks.
     - **Lukustatud tellimuste käsitsemine** – Valige, kuidas süsteem peaks käsitlema praegu lukustatud müügitellimusi, kuna neid redigeerivad teised kasutajad või protsessid:
 
         - *Oota, kuni tellimused vabastatakse* - Süsteem peaks ootama, kuni tellimused vabastatakse, enne kui see need lattu vabastab. Sel juhul võib lattu vabastamise protsess võtta rohkem aega.

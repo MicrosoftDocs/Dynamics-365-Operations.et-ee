@@ -2,13 +2,13 @@
 title: Hankija arvete ülevaade
 description: Selles teemas antakse üldteavet hankija arvete kohta.
 author: abruer
-ms.date: 06/03/2021
+ms.date: 02/25/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: VendorInvoiceWorkspace, VendInvoiceInfoListPage
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom:
 - "13971"
 - intro-internal
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 22535f4bc320bde096214e2044cfeb00d4e9fbbc
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: HT
+ms.openlocfilehash: b54a60ac3b1868ea7cc5ed88d5a31203b4bd29d3
+ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985333"
+ms.lasthandoff: 02/26/2022
+ms.locfileid: "8358413"
 ---
 # <a name="vendor-invoices-overview"></a>Hankija arvete ülevaade
 
@@ -51,10 +51,10 @@ Järgmises arutelus on lisateave lehtede **Avatud hankija arved** või **Ootel h
 
 Kui avate hankija arve seotud ostutellimusest, loob süsteem ostutellimusest arve read. Vaikimisi võtab süsteem kogused toote sissetuleku koguselt. Kuid saate kasutada ka ühte järgmistest vaikekäitumistest.
 
-- **Kohe tarnitav kogus** – kasutage seda valikut osaliste tarnete puhul. Välja **Kogus** vaikeväärtuse määrab süsteem koguselt, mis on määratud ostutellimuse väljal **Kohe tarnitav**.
-- **Tellitud kogus** – kasutage seda valikut terviksaadetiste puhul. Välja **Kogus** vaikeväärtuse määrab süsteem koguselt, mis on määratud ostutellimuse väljal **Tellitud**.
+- **Kohe tarnitav kogus** – kasutage seda valikut osaliste tarnete puhul. Vaikeväärtus väljal Kogus **seatakse** ostutellimuse väljal **Tarni kohe** määratud kogusele.
+- **Tellitud kogus** – kasutage seda valikut terviksaadetiste puhul. Vaikeväärtus väljal Kogus **seatakse** ostutellimuse väljal **Tellitud** määratud kogusele.
 - **Registreeritud kogus** – kasutage seda valikut, kui kaup nõuab registreerimist, nagu on määratud lehel **Kauba mudeligrupid**. Vaikeväärtus väljal **Kogus** on füüsiline uuendamiskogus, mis on registreeritud.
-- **Toote sissetuleku kogus** – kasutage seda valikut, kui toote sissetulek on tellimuse puhul juba saabunud. Süsteem võtab vaikeväärtuse väljal **Kogus** saadaolevate toote sissetulekute täielikust kogusest.
+- **Toote sissetuleku kogus** – kasutage seda valikut, kui toote sissetulek on tellimuse puhul juba saabunud. Vaikeväärtus väljal Kogus **on** saada tavate toote sissetulekute kogusumma.
 - **Registreeritud kogus ja teenused** – kasutage seda valikut, kui ladustatavate kaupade saabumistöölehtedel või mitteladustatavate kaupade puhul on registreeritud kogused. See võimalus hõlmab ka teenuseid, olenemata sellest, kas need on registreeritud.
 
 Kui teie juriidiline isik kasutab arvete võrdlemist, saate vaadata koguse võrdlemise tulemusi veerus **Toote sissetuleku koguse vastavusseviimine**. Saate kasutada koguse vastavusseviimise tulemuste vaatamiseks ka nuppu **Vastavusseviimise üksikasjad**, mis asub toimingupaani vahekaardil **Ülevaatus**.
@@ -65,7 +65,7 @@ Saate hankija arvele lisada ostutellimuses puuduva rea. Peate valima kaubakoodi 
 
 ## <a name="submitting-a-vendor-invoice-for-review"></a>Hankija arve esitamine läbivaatuseks
 
-Teie organisatsioon võib kasutada töövoogusid, et hallata hankijaarvete läbivaatamise protsessi. Töövoo läbivaatamine võib olla vajalik ostuarve päise, arverea või mõlema jaoks. Töövoo juhtelemendid rakenduvad päisele või reale olenevalt sellest, mis on juhtelemendi valimise ajal aktiivne. Nupu **Sisesta** asemel kuvatakse nuppu **Edasta**, mida saate kasutada hankija arve läbivaatamisprotsessi saatmiseks.
+Teie organisatsioon võib kasutada töövoogusid, et hallata hankijaarvete läbivaatamise protsessi. Töövoo läbivaatamine võib olla vajalik ostuarve päise, arverea või mõlema jaoks. Töövoo juhtelemendid rakenduvad päisele või reale olenevalt sellest, mis on juhtelemendi valimise ajal aktiivne. Nupu Sisesta **asemel** saadetakse nupp **Edasta** hankija arve ülevaatusprotsessi kaudu.
 
 ### <a name="preventing-invoice-from-being-submitted-to-workflow"></a>Arve töövoogu edastamise takistamine 
 
@@ -102,7 +102,7 @@ Saate määratleda partiisse kaasatavate arvete arvu ja partii ümberplaneerimis
 
 ## <a name="working-with-multiple-invoices"></a>Mitme arvega töötamine
 
-Saate töötada mitme arvega samal ajal ja pärast need kõik korraga sisestada. Kui soovite luua mitu arvet, kasutage lehte **Ootel hankija arved**. Kui peate sisestama ja printima mitu hankija arvet, kasutage arve kinnitamise töölehte. Kui kasutate arve kinnitamise töölehte, tuleb ostutellimusele sisestada vähemalt üks toote sissetulek ja ostutellimuse arve tuleb sisestada arveregistrisse. Arve finantsiline teave tuleb arvelt, mis sisestati registrisse.
+Saate töötada mitme arvega samal ajal ja pärast need kõik korraga sisestada. Kui soovite luua mitu arvet, kasutage lehte **Ootel hankija arved**. Kui peate sisestama ja printima mitu hankijaarvet, kasutage arve **kinnitamise töölehte**. Kui kasutate arve **kinnitamise** töölehte, peab ostutellimuse jaoks olema sisestatud vähemalt üks toote sissetulek ja ostutellimuse arve tuleb sisestada arveregistrisse. Arve finantsiline teave tuleb arvelt, mis sisestati registrisse.
 
 ## <a name="recovering-vendor-invoices-that-are-being-used"></a>Kasutuses olevate hankija arvete taastamine
 

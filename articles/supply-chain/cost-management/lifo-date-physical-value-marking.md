@@ -1,159 +1,152 @@
 ---
-title: LIFO kuupäev füüsilise väärtuse ja märgistusega
-description: Laomudel Viimasena sisse, esimesena välja (LIFO) põhineb LIFO põhimõttel. Laost väljastamine tasakaalustatakse viimaste sissetulekutega lattu, laokande kuupäeva alusel. Kui LIFO-kuupäeva kasutamisel enne väljaminekut sissetulekut pole, tasakaalustatakse väljaminek mis tahes sissetulekuga, mis toimub pärast väljamineku kuupäeva. Mitmed väljaminekud samal päeval tasakaalustatakse viimase väljamineku, viimase sissetuleku järjekorras.
+title: LIFO kuupäev füüsilise väärtuse ja märkimisega
+description: Viimasena sisse, esimesena välja (LIFO) on LIFO-põhimõttel põhinev laomudel. Laost väljastamine tasakaalustatakse viimaste sissetulekutega lattu, laokande kuupäeva alusel. Kui enne väljaminek ei ole sissetulekut, siis LIFO kuupäeva kasutades tasakaalustatakse väljaminek mis tahes sissetulekutega, mis toimuvad pärast väljaminek kuupäeva. Mitmed väljaminekud samal päeval tasakaalustatakse viimase väljamineku, viimase sissetuleku järjekorras.
 author: AndersGirke
-manager: tfehr
-ms.date: 06/20/2017
+ms.date: 02/21/2022
 ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations, Retail
 ms.custom: 51592
-ms.assetid: d9f13274-3268-444f-85c8-b686fd39286d
 ms.search.region: Global
-ms.search.industry: Retail
-ms.author: kamaybac
+ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1fed3de8741b375cf4992578db3e57d6e5a35a93
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: f6f5f447724ace473bece3007a96c4b56e90a908
+ms.sourcegitcommit: addae271ddfc5a8b0721c23337f69916153db4cd
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4426314"
+ms.lasthandoff: 02/21/2022
+ms.locfileid: "8330272"
 ---
-# <a name="lifo-date-with-physical-value-and-marking"></a>LIFO kuupäev füüsilise väärtuse ja märgistusega
+# <a name="lifo-date-with-physical-value-and-marking"></a>LIFO kuupäev füüsilise väärtuse ja märkimisega
 
 [!include [banner](../includes/banner.md)]
 
-Laomudel Viimasena sisse, esimesena välja (LIFO) põhineb LIFO põhimõttel. Laost väljastamine tasakaalustatakse viimaste sissetulekutega lattu, laokande kuupäeva alusel. Kui LIFO-kuupäeva kasutamisel enne väljaminekut sissetulekut pole, tasakaalustatakse väljaminek mis tahes sissetulekuga, mis toimub pärast väljamineku kuupäeva. Mitmed väljaminekud samal päeval tasakaalustatakse viimase väljamineku, viimase sissetuleku järjekorras. 
+Viimasena sisse, esimesena välja (LIFO) on varude haldus ja hinna määramise meetod, kus viimati toodetud või hangitud varusid müüakse, kasutatakse või likvideeritakse esimesena. Microsoft lao sulgemise protsessi Dynamics 365 Supply Chain Management ajal loob süsteem tasakaalustused, kus viimane sissetulek on vastendatud iga antud kuupäeva esimese väljaminek, alustades vanimast kuupäevast, jne. Kui kasutate laomudelit Viimasena sisse, esimesena välja (LIFO kuupäev) ja kui väljaminek puudub, tasakaalustatakse väljaminek mis tahes sissetulekutega, mis toimuvad pärast väljaminek kuupäeva. Tasakaalustuste ja sobitamise põhimõte põhinevad laokannete finantskuupäeval. Kui samal kuupäeval on mitu väljaminek, tasakaalustatakse need viimase väljamineu, viimase sissetuleku järjekorras. Tasakaalustuste ja korrigeerimiste eelhindamist saab läbi viia lao ümberarvutamise protsessi käivitades.
 
-Kui kasutate laomudelit Viimasena sisse, esimesena välja (LIFO kuupäev) ja enne väljastamist sissetulekut pole, tasakaalustatakse väljastus mis tahes sissetulekuga, mis toimub pärast väljastamise kuupäeva. Mitu sama päeva väljastust saab tasakaalustada viimase väljastuse, viimase sisseetuleku järjestuses. LIFO kuupäeva kasutamisel ei pea te kasutama LIFO kuupäeva reeglit. Selle asemel saate märkida laokanded nii, et konkreetse kauba sissetulek tasakaalustatakse konkreetse kauba suhtes. 
+Saate LIFO kuupäevapõhimõtte alistada, märgistades laokanded nii, et konkreetse kauba sissetulek tasakaalustatakse konkreetse väljaminek. Perioodiline lao sulgemine on vajalik siis, kui kasutate LIFO kuupäeva laomudelit tasakaalustuste loomiseks ja väljaminevate kaupade väärtuse korrigeerimiseks vastavalt LIFO põhimõttele. Lao sulgemise protsessi käivitamiseni väärtussaatakse väljaminek jooksva keskmiseni, kui toimusid füüsilised ja finantsilist uuendused. Kui te ei kasuta märkimist, arvutatakse füüsilise või finantsilise uuendamise ajal jooksev keskmine.
 
-Kui kasutate LIFO kuupäeva laomudelit, soovitame perioodilist lao sulgemist. 
+Kui kasutate LIFO kuupäeva laomudelit, soovitame perioodilist lao sulgemist.
 
-Järgmised näited selgitavad LIFO kuupäeva kasutamise mõju kolmes konfiguratsioonis.
+Järgmised näited näitavad LIFO kuupäeva kasutamise mõju kolmes konfiguratsioonis:
 
--   LIFO kuupäev valikuta **Kaasa füüsiline väärtus**
--   LIFO kuupäev valikuga **Kaasa füüsiline väärtus**
--   LIFO kuupäev märkimisega
+- LIFO kuupäev füüsilise väärtuse **valiku kaasamata**
+- LIFO kuupäev füüsilise väärtuse **valiku kaasamine**
+- LIFO kuupäev märkimisega
 
-## <a name="lifo-date-without-the-include-physical-value-option"></a>LIFO kuupäev füüsilise väärtuse valiku kaasamiseta
+## <a name="lifo-date-without-the-include-physical-value-option"></a>LIFO kuupäev füüsilise väärtuse valiku kaasamata
+
 Selles näites pole kauba mudeligrupil füüsilise väärtuse kaasamine märgitud. Alloleval joonisel on kuvatud järgmised kanded.
 
--   1a. Lao füüsiline sissetulek kogusele 1 hinnaga 10,00 USD tükk.
--   1b. Lao finantsiline sissetulek kogusele 1 hinnaga 10,00 USD tükk.
--   2a. Lao füüsiline sissetulek kogusele 1 hinnaga 20,00 USD tükk.
--   2b. Lao finantsiline sissetulek kogusele 1 hinnaga 20,00 USD tükk.
--   3a. Lao füüsiline sissetulek kogusele 1 hinnaga 25,00 USD tükk.
--   4a. Varude füüsiline väljastus koguse 1 puhul omahinnaga 15,00 USA dollarit (finantsiliselt värskendatud kannete jooksev keskmine).
--   4b. Varude finantsiline väljastus koguse 1 puhul omahinnaga 15,00 USA dollarit (finantsiliselt värskendatud kannete jooksev keskmine).
--   5a. Lao füüsiline sissetulek kogusele 1 hinnaga 30,00 USD tükk.
--   5b. Lao finantsiline sissetulek kogusele 1 hinnaga 30,00 USD tükk.
--   6. Teostatakse lao sulgemine. LIFO kuupäeva meetodi põhjal tasakaalustatakse viimane finantsiliselt värskendatud väljastus viimase finantsiliselt värskendatud sissetulekuga kuupäeva kaupa. Korrigeerimine 5,00 USA dollarit tehakse väljastamise kandel. Need kanded tasakaalustatakse üksteisega.
+- 1a. Lao füüsiline sissetulek kogusele 1 hinnaga 10,00 USD tükk.
+- 1b. Lao finantsiline sissetulek kogusele 1 hinnaga 10,00 USD tükk.
+- 2a. Lao füüsiline sissetulek kogusele 1 hinnaga 20,00 USD tükk.
+- 2b. Lao finantsiline sissetulek kogusele 1 hinnaga 22,00 USD tükk.
+- 3a. Lao füüsiline väljastus, kogus 1, omahind USD 16.00 (finantsiliselt sisestatud kannete jooksev keskmine).
+- 3b. Lao finantsiliselt väljaminev kogus 1 omahinnaga USD 16.00 (finantsiliselt sisestatud kannete jooksev keskmine).
+- 4a. Lao füüsiline sissetulek kogusele 1 hinnaga 25,00 USD tükk.
+- 5a. Lao füüsiline sissetulek kogusele 1 hinnaga 30,00 USD tükk.
+- 5b. Lao finantsiline sissetulek kogusele 1 hinnaga 30,00 USD tükk.
+- 6a. Lao füüsiline väljastus, kogus 1 omahinnaga USD 23.00 (finantsiliselt sisestatud kannete jooksev keskmine)
+- 7\. Teostatakse lao sulgemine. LIFO kuupäeva meetodil põhinedes tasakaalustatakse esimene finantsiliselt värskendatud väljaminek viimase finantsiliselt värskendatud sissetulekuga alates esimesest kuupäevast jne. Selles näites luuakse üks tasakaalustus vahemikus 3b kuni 2b. Korrigeeritakse USD 6.00 3b-ks ja tulemuseks saadav lõplik kulu USD 22.00.
 
-Uus jooksev keskmine omahind kajastab finantsiliselt värskendatud kannete keskmist 15,00 USD juures 
+Järgmine näide näitab LIFO kuupäeva laomudeli efekti, kui **valikut** Füüsilise väärtuse hulka ei kasutata.
 
-Järgmisel joonisel on kujutatud laomudeli LIFO kuupäev mõju, kui valikut **Kaasa füüsiline väärtus** ei kasutata. ![LIFO kuupäev valikuga Kaasa füüsiline väärtus](./media/lifodatewithoutincludephysicalvalue.gif) 
+![LIFO kuupäev füüsilise väärtuse valiku kaasamata.](media/lifo-date-without-include-physical-value.png)
 
 **Diagrammi võti**
 
 - Laokandeid tähistavad vertikaalsed nooled.
-- Sissetulekuid laovarudesse tähistavad vertikaalsed nooled ajajoone kohal.
-- Väljaminekuid laovarudest tähistavad vertikaalsed nooled ajajoone all.
-- Iga vertikaalse noole kohal (või all) on laokande väärtus määratletud vormingus Quantity@Unitprice.
-- Sulgudes laokande väärtus näitab, et laokanne on füüsiliselt varudesse sisestatud.
-- Sulgudes mitteolev laokande väärtus näitab, et laokanne on finantsiliselt varudesse sisestatud.
+- Füüsilisi kandeid esindavad lühemad helehallid nooled.
+- Finantskandeid esindavad pikemad mustad nooled.
+- Sissetulekuid laovarudesse esindavad vertikaalsed nooled telje kohal.
+- Väljaminek laovarudest on esindatud vertikaalnooltega telje all.
 - Iga uus sissetuleku või väljamineku kanne on tähistatud uue sildiga.
 - Iga vertikaalne nool on sildistatud jadaidentifikaatoriga, nt *1a*. Identifikaatorid näitavad laokannete sisestuste järjestust ajajoonel.
-- Lao sulgemisi tähistab punane vertikaalne kriipsjoon ja silt *Lao sulgemine*.
+- Iga diagrammi kuupäev on eraldatud mustade vertikaalsete joontega. Kuupäev on märgitud diagrammi allservas.
+- Lao sulgemisi tähistab punane vertikaaljoon.
 - Tasakaalustusi, mida teeb lao sulgemine, tähistatakse punaste diagonaalsete katkendnooltega, mis suunduvad sissetulekust väljaminekuni.
 
-## <a name="lifo-date-with-the-include-physical-value-option"></a>LIFO kuupäev füüsilise väärtuse valiku kaasamisega
-Saate märkida kauba puhul ruudu **Kaasa füüsiline väärtus** lehel **Kauba mudeligrupid**. Sellisel juhul kasutab süsteem jooksva keskmise omahinna arvutamiseks nii füüsilisi kui ka finantsilisi sissetulekukandeid. Kohaldatavusel korrigeerib süsteem ka füüsiliselt värskendatud väljastuskandeid. Ruudu **Kaasa füüsiline väärtus** tühjendamisel teeb lao sulgemine, mis kasutab laomudelit LIFO kuupäev, tasakaalustusi ainult finantsiliselt värskendatud kannetele. 
+## <a name="lifo-date-with-the-include-physical-value-option"></a>LIFO kuupäev füüsilise väärtuse valiku kaasamine
+
+Kui kauba **puhul on** **lehel** Kauba mudeligrupid märgitud ruut Kaasa füüsiline väärtus, kasutab süsteem nii füüsilisi kui finantsilisi sissetulekukandeid jooksva keskmise omahinna arvutamiseks. Vajadusel korrigeerib süsteem ka füüsiliselt värskendatud väljaminekkannet. Kui märkeruut **Kaasa füüsiline väärtus on** tühjendatud, teeb LIFO kuupäeva laomudelit kasutav lao sulgemine tasakaalustusi ainult kannetele, mis on finantsiliselt uuendatud.
 
 Selles näites on kauba mudeligrupil füüsilise väärtuse kaasamine märgitud. 
 
 Alloleval joonisel on kuvatud järgmised kanded.
 
--   1a. Lao füüsiline sissetulek kogusele 1 hinnaga 10,00 USD tükk.
--   1b. Lao finantsiline sissetulek kogusele 1 hinnaga 10,00 USD tükk.
--   2a. Lao füüsiline sissetulek kogusele 1 hinnaga 20,00 USD tükk.
--   2b. Lao finantsiline sissetulek kogusele 1 hinnaga 20,00 USD tükk.
--   3a. Lao füüsiline sissetulek kogusele 1 hinnaga 25,00 USD tükk.
--   4a. Lao füüsiline väljaminek kogusele 1 omahinnaga 18,33 USA dollarit tükk (finantsiliselt värskendatud kannete jooksev keskmine).
--   4b. Varude finantsiline väljastus koguse 1 puhul omahinnaga 18,33 USA dollarit tk (finantsiliselt värskendatud kannete jooksev keskmine).
--   5a. Lao füüsiline sissetulek kogusele 1 hinnaga 30,00 USD tükk.
--   5b. Lao finantsiline sissetulek kogusele 1 hinnaga 30,00 USD tükk.
--   6. Teostatakse lao sulgemine. LIFO kuupäeva meetodi põhjal tasakaalustatakse viimasena värskendatud väljastus viimasena värskendatud sissetulekuga kuupäeva kaupa. Neid kandeid ei tasakaalustata üksteisega, sest finantsiline sissetulekukanne korrigeeritakse füüsilise värskendamise kandele. Selle asemel tehakse korrigeerimine 6,67 USA dollarit väljastuskandel.
+- 1a. Lao füüsiline sissetulek kogusele 1 hinnaga 10,00 USD tükk.
+- 1b. Lao finantsiline sissetulek kogusele 1 hinnaga 10,00 USD tükk.
+- 2a. Lao füüsiline sissetulek kogusele 1 hinnaga 20,00 USD tükk.
+- 2b. Lao finantsiline sissetulek kogusele 1 hinnaga 22,00 USD tükk.
+- 3a. Lao füüsiline väljastus, kogus 1 omahinnaga USD 16.00 (füüsiliselt ja finantsiliselt sisestatud kannete jooksev keskmine).
+- 3b. Lao finantsiline väljaminev kogus 1 omahinnaga USD 16.00 (füüsiliselt ja finantsiliselt sisestatud kannete jooksev keskmine).
+- 4a. Lao füüsiline sissetulek kogusele 1 hinnaga 25,00 USD tükk.
+- 5a. Lao füüsiline sissetulek kogusele 1 hinnaga 30,00 USD tükk.
+- 5b. Lao finantsiline sissetulek kogusele 1 hinnaga 30,00 USD tükk.
+- 6a. Lao füüsiline väljastus, kogus 1 omahinnaga USD 23.67 (füüsiliselt ja finantsiliselt sisestatud kannete jooksev keskmine).
+- 7\. Teostatakse lao sulgemine. LIFO kuupäeva meetodi põhjal tasakaalustatakse esimene finantsiliselt värskendatud väljaminek viimase finantsiliselt värskendatud sissetulekuga igal alguskuupäeval, jne. Selles näites luuakse üks tasakaalustus vahemikus 2b kuni 3b. Korrigeeritakse USD 6.00 3b-ks ja tulemuseks saadav lõplik kulu USD 22.00. Lisaks korrigeeritakse kanne 6a sissetulekukande kuluks 5b. Süsteem ei tasakaalusta neid kandeid, kuna sissetulek on füüsiliselt, kuid mitte finantsiliselt uuendatud. Selle asemel sisestatakse ainult USD 6.33 korrigeerimine füüsilise väljamineu kandesse ja tulemuseks saadav korrigeeritud kulu USD 30.00.
 
-Uus jooksev keskmine omahind kajastab finantsiliselt värskendatud kannete keskmist 20,00 USD juures 
+Järgmisel joonisel on kujutatud laomudeli LIFO mõju, kui kasutatakse valikut **Kaasa füüsiline väärtus**.
 
-Järgmisel joonisel on kujutatud laomudeli LIFO mõju, kui kasutatakse valikut **Kaasa füüsiline väärtus**. ![LIFO kuupäev valikuga Kaasa füüsiline väärtus](./media/lifodatewithincludephysicalvalue.gif) 
+![LIFO kuupäev valikuga Füüsilise väärtuse kaasamine.](media/lifo-date-with-include-physical-value.png)
 
 **Diagrammi võti**
 
 - Laokandeid tähistavad vertikaalsed nooled.
-- Sissetulekuid laovarudesse tähistavad vertikaalsed nooled ajajoone kohal.
-- Väljaminekuid laovarudest tähistavad vertikaalsed nooled ajajoone all.
-- Iga vertikaalse noole kohal (või all) on laokande väärtus määratletud vormingus Quantity@Unitprice.
-- Sulgudes laokande väärtus näitab, et laokanne on füüsiliselt varudesse sisestatud.
-- Sulgudes mitteolev laokande väärtus näitab, et laokanne on finantsiliselt varudesse sisestatud.
+- Füüsilisi kandeid esindavad lühemad helehallid nooled.
+- Finantskandeid esindavad pikemad mustad nooled.
+- Sissetulekuid laovarudesse esindavad vertikaalsed nooled telje kohal.
+- Väljaminek laovarudest on esindatud vertikaalnooltega telje all.
 - Iga uus sissetuleku või väljamineku kanne on tähistatud uue sildiga.
 - Iga vertikaalne nool on sildistatud jadaidentifikaatoriga, nt *1a*. Identifikaatorid näitavad laokannete sisestuste järjestust ajajoonel.
-- Lao sulgemisi tähistab punane vertikaalne kriipsjoon ja silt *Lao sulgemine*.
+- Iga diagrammi kuupäev on eraldatud mustade vertikaalsete joontega. Kuupäev on märgitud diagrammi allosas.
+- Lao sulgemisi tähistab punane vertikaaljoon.
 - Tasakaalustusi, mida teeb lao sulgemine, tähistatakse punaste diagonaalsete katkendnooltega, mis suunduvad sissetulekust väljaminekuni.
 
 ## <a name="lifo-date-with-marking"></a>LIFO kuupäev märkimisega
-Märkimine on protsess, mis võimaldab teil väljaminekukande siduda või märkida sissetulekukandega. Märkimine võib toimuda nii enne kui pärast kande sisestamist. Saate kasutada märkimist, kui soovite teada laoseisu täpset hinda kande sisestamise või lao sulgemise ajal. 
 
-Näiteks võttis teie klienditeenindusosakond oluliselt kliendilt vastu kiirtellimuse. Kuna tegemist on kiirtellimusega, peate maksma kauba eest rohkem, et täita kliendi nõudmine. Peate veenduma, et selle müügitellimuse arve puhul kajastuks selle laokauba maksumus varus või tuletusreeglis (COGS). 
+Märkimine on protsess, mis võimaldab teil väljaminekukande siduda või märkida sissetulekukandega. Märkimine võib toimuda nii enne kui pärast kande sisestamist. Saate kasutada märkimist, kui soovite teada laoseisu täpset hinda kande sisestamise või lao sulgemise ajal. Näiteks võttis teie klienditeenindusosakond oluliselt kliendilt vastu kiirtellimuse. Kuna see tellimus on kiirtellimus, peate maksma kaubale rohkem, et kliendi taotlust täita.
 
-Ostutellimuse sisestamisel saadakse laoseis maksumusega 120,00 USD. Kui see müügitellimuse dokument märgitakse ostutellimusele enne saatelehe või arve sisestamist, kasutatakse laokauba kulu (COGS) 120,00 USA dollarit, mitte kauba praegust jooksvat keskmist kulu. Kui müügitellimuse saateleht või arve sisestatakse enne märkimist, sisestatakse COGS jooksva keskmise omahinna juurde. 
+Müügitellimuse arve puhul peate veenduma, et laokauba kulu kajastub marginaalis või müüdud kaupade maksumuses (COGS). Ostutellimuse sisestamisel saadakse laoseis maksumusega 120,00 USD. Kui see müügitellimuse dokument märgitakse ostutellimusele enne saatelehe või arve sisestamist, kasutatakse laokauba kulu (COGS) 120,00 USA dollarit, mitte kauba praegust jooksvat keskmist kulu. Kui müügitellimuse saateleht või arve sisestatakse enne märkimist, sisestatakse COGS jooksva keskmise omahinna juurde.
 
-Enne lao sulgemist saab neid kahte kannet veel üksteisele märkida. 
+Enne lao sulgemist saab neid kahte kannet veel üksteisele märkida.
 
-Näiteks märgitakse sissetulekukanne väljastuskande jaoks. Sellisel juhul eiratakse kaubamudeli grupis määratletud hinna määramise meetodit ja süsteem tasakaalustab need kanded üksteisega. 
+Väljaminekukande saate sissetulekule märkida enne kande sisestamist. Seda märgistust saate teha müügitellimuse realt **müügitellimuse** **\>** **üksikasjade lehel, valides lao märkimise müügitellimuse ridade kiirkaardil.** Avatud sissetulekukandeid saate vaadata lehel **Märkimine**.
 
-Väljaminekukande saate sissetulekule märkida enne kande sisestamist. Seda saate teha müügitellimuse realt lehel **Müügitellimuse üksikasjad**. Avatud sissetulekukandeid saate vaadata lehel **Märkimine**. 
-
-Samuti saate pärast kande sisestamist märkida väljastuskande sissetulekule. Väljaminekukande saate märkida või vastendada varude korrigeerimistöölehel sisestatud laokauba avatud sissetulekukandega. 
+Samuti saate pärast kande sisestamist märkida väljastuskande sissetulekule. Väljaminekukande saate märkida või vastendada varude korrigeerimistöölehel sisestatud laokauba avatud sissetulekukandega.
 
 Alloleval joonisel on kuvatud järgmised kanded.
 
--   1a. Lao füüsiline sissetulek kogusele 1 hinnaga 10,00 USD tükk.
--   1b. Lao finantsiline sissetulek kogusele 1 hinnaga 10,00 USD tükk.
--   2a. Lao füüsiline sissetulek kogusele 1 hinnaga 20,00 USD tükk.
--   2b. Lao finantsiline sissetulek kogusele 1 hinnaga 20,00 USD tükk.
--   3a. Lao füüsiline sissetulek kogusele 1 hinnaga 25,00 USD tükk.
--   4a. Lao füüsiline sissetulek kogusele 1 hinnaga 30,00 USD tükk.
--   4b. Lao finantsiline sissetulek kogusele 1 hinnaga 30,00 USD tükk.
--   5a. Lao füüsiline väljaminek kogusele 1 omahinnaga 21,25 USD tükk (finantsiliste ja füüsiliste värskendatud kannete jooksev keskmine).
--   5b. Varude finantsiline väljastus kogusega 1 märgitakse varude sissetulekusse 2b enne kande sisestamist. See kanne sisestatakse omahinnaga 20,00 USD tükk.
--   6a. Lao füüsiline sissetulek kogusele 1 omahinnaga 21,25 USD tükk.
--   7. Teostatakse lao sulgemine. Kuna olemasolevale sissetulekule on märgitud finantsiliselt värskendatud kaubavarude hinna määramise elavjärjekorra (FIFO) kanne, tasakaalustatakse need kanded omavahel ja korrektsioone ei tehta.
+- 1a. Lao füüsiline sissetulek kogusele 1 hinnaga 10,00 USD tükk.
+- 1b. Lao finantsiline sissetulek kogusele 1 hinnaga 10,00 USD tükk.
+- 2a. Lao füüsiline sissetulek kogusele 1 hinnaga 20,00 USD tükk.
+- 2b. Lao finantsiline sissetulek kogusele 1 hinnaga 22,00 USD tükk.
+- 3a. Lao füüsiline väljastus, kogus 1, omahind USD 16.00 (finantsiliselt sisestatud kannete jooksev keskmine).
+- 3b. Lao finantsiliselt väljaminev kogus 1 omahinnaga USD 16.00 (finantsiliselt sisestatud kannete jooksev keskmine).
+- 3c. <a1/&. 3b varude finants väljastamis on märgitud 1b varude finantsi aastaseks väljaminekuks.
+- 4a. Lao füüsiline sissetulek kogusele 1 hinnaga 25,00 USD tükk.
+- 5a. Lao füüsiline sissetulek kogusele 1 hinnaga 30,00 USD tükk.
+- 5b. Lao finantsiline sissetulek kogusele 1 hinnaga 30,00 USD tükk.
+- 6a. Lao füüsiline väljastus, kogus 1 omahinnaga USD 23.00 (finantsiliselt sisestatud kannete jooksev keskmine)
+- 7\. Teostatakse lao sulgemine. Märgitud kanded tasakaalustatakse üksteise suhtes märkimispõhimõtte järgi, mis kasutab LIFO kuupäeva meetodit. Selles näites tasakaalustatakse 3b 1b-ga ja korrektsioon -6,00 USD-le sisestatakse 3b-sse, et väärtus USD 10.00. Selles näites pole rohkem tasakaalustusi tehtud, sest sulgemine loob tasakaalustusi ainult finantsiliselt uuendatud kannete puhul.
 
-Uus jooksev keskmine omahind kajastab finantsiliselt ja füüsiliselt värskendatud kannete keskmist: 27,50 USD. 
+Järgmine näide näitab LIFO kuupäeva laomudeli efektide kohta, kui kasutatakse kaupade ja sissetulekute omavahelist märkimist. 
 
-Järgmisel joonisel on kujutatud laomudeli LIFO mõju, kui kasutatakse väljastuste ja sissetulekute omavahelist märkimist. ![LIFO kuupäev valikuga Märkus](./media/lifodatewithmarking.gif) 
+![LIFO kuupäev koos märkimisega.](media/lifo-date-with-marking.png)
 
 **Diagrammi võti**
 
 - Laokandeid tähistavad vertikaalsed nooled.
-- Sissetulekuid laovarudesse tähistavad vertikaalsed nooled ajajoone kohal.
-- Väljaminekuid laovarudest tähistavad vertikaalsed nooled ajajoone all.
-- Iga vertikaalse noole kohal (või all) on laokande väärtus määratletud vormingus Quantity@Unitprice.
-- Sulgudes laokande väärtus näitab, et laokanne on füüsiliselt varudesse sisestatud.
-- Sulgudes mitteolev laokande väärtus näitab, et laokanne on finantsiliselt varudesse sisestatud.
+- Füüsilisi kandeid esindavad lühemad helehallid nooled.
+- Finantskandeid esindavad pikemad mustad nooled.
+- Sissetulekuid laovarudesse esindavad vertikaalsed nooled telje kohal.
+- Väljaminek laovarudest on esindatud vertikaalnooltega telje all.
 - Iga uus sissetuleku või väljamineku kanne on tähistatud uue sildiga.
 - Iga vertikaalne nool on sildistatud jadaidentifikaatoriga, nt *1a*. Identifikaatorid näitavad laokannete sisestuste järjestust ajajoonel.
-- Lao sulgemisi tähistab punane vertikaalne kriipsjoon ja silt *Lao sulgemine*.
-- Tasakaalustusi, mida teeb lao sulgemine, tähistatakse punaste diagonaalsete katkendnooltega, mis suunduvad sissetulekust väljaminekuni.
+- Iga diagrammi kuupäev on eraldatud mustade vertikaalsete joontega. Kuupäev on märgitud diagrammi allservas.
+- Lao sulgemisi tähistab punane vertikaaljoon.
+- Tasakaalustusi ja märgistusi, mida täidetakse lao sulgemisel, tähistavad punased diagonaalkriipsuga nooled, mis lähevad sissetulekust väljamineki.
 
-
-
-
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

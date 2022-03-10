@@ -2,11 +2,9 @@
 title: Jaluse moodul
 description: See teema hõlmab jaluse mooduleid ja kuidas neid rakenduses Dynamics 365 Commerce koostada.
 author: anupamar-ms
-manager: annbe
-ms.date: 09/15/2020
+ms.date: 03/02/2022
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 038fee32cbf1ed6b4967f440faaf3c0d4fa583f6
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: 81db5cf32f23b7ee1ca8325eeec2e6ceafda55e0
+ms.sourcegitcommit: 90a553e271e7cd471fed2e4f006d753fdb67b47d
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4979943"
+ms.lasthandoff: 03/03/2022
+ms.locfileid: "8374827"
 ---
 # <a name="footer-module"></a>Jaluse moodul  
 
@@ -29,13 +27,11 @@ ms.locfileid: "4979943"
 
 See teema hõlmab jaluse mooduleid ja kirjeldab, kuidas neid rakenduses Microsoft Dynamics 365 Commerce luua.
 
-## <a name="overview"></a>Ülevaade
-
 Jaluse moodul on erikonteiner, mida kasutatakse lehe jaluses kuvatavate moodulite majutamiseks. Näiteks võib see sisaldada linke saidi erinevatele lehtedele, nagu lehed **Võtke meiega ühendust** ja **Poe eeskirjad**.
 
 Järgmisel pildil on näide jaluse moodulist saidi lehel.
 
-![Jaluse mooduli näide](./media/ecommerce-footer.PNG)
+![Jaluse mooduli näide.](./media/ecommerce-footer.PNG)
 
 ## <a name="footer-module-properties"></a>Jaluse mooduli atribuudid 
 
@@ -43,7 +39,7 @@ Nagu enamik konteinereid, toetab jaluse moodul pealkirja ja laiuse atribuute. Sa
 
 ## <a name="modules-available-in-a-footer-module"></a>Jaluse moodulis saadaolevad moodulid
 
-**Jaluse üksused** – jaluse üksuste moodul võib sisaldada pealkirja, pilti ja linki. Pealkirja saab kasutada kas eraldi või koos pildi ja lingiga. Iga jaluse linki saab konfigureerida nii, et sellel on ainult tekst (nt lingid „Võtke meiega ühendust” „Privaatsus”), või nii, et sellel on nii tekst kui ka pilt (nt sotsiaalmeedia lingid).
+**Jaluse** üksus – jaluse kaubamoodul võib sisaldada pealkirja või linki. Päist kasutatakse tavaliselt jaluse sektsiooni pealkirjana.  Iga jaluse linki saab konfigureerida nii, et sellel on ainult tekst (nt lingid „Võtke meiega ühendust” „Privaatsus”), või nii, et sellel on nii tekst kui ka pilt (nt sotsiaalmeedia lingid). Kui on esitatud nii pealkiri kui ka link, on seosest eelistuseks pealkirja atribuut. 
 
 **Tagasi üles** – moodul tagasi üles pakub linki kiiresti tagasi lehe ülaossa navigeerimiseks. Nõutav on sihtkoht. Sihtkoha vaikeväärtus on \#, mis viib kasutaja lehekülje ülaossa.
 
@@ -86,3 +82,6 @@ Lisades lehe mallidele fragmendi, aitate tagada, et jalus renderdatakse igal leh
 [Päise moodul](author-header-module.md)
 
 [Jaluse moodul](author-footer-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

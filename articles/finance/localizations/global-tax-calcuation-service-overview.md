@@ -2,25 +2,24 @@
 title: Maksuarvutuse ülevaade
 description: Selles teemas selgitatakse maksuarvestuse võimekuse üldist ulatust ja funktsioone.
 author: wangchen
-ms.date: 11/17/2021
-ms.topic: article
+ms.date: 03/02/2022
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: TaxIntegrationTaxServiceParameters
 audience: Application user
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
-ms.custom: intro-internal
 ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 28b14eba7dd870e80a83f8d31671525b593a09c9
-ms.sourcegitcommit: e06b7d4de6d5ee7ae491d437d6c0365608a5380b
-ms.translationtype: HT
+ms.openlocfilehash: a02767e4a90fa6b7414c796d66e758afe0501cf5
+ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/06/2021
-ms.locfileid: "7892420"
+ms.lasthandoff: 03/05/2022
+ms.locfileid: "8388491"
 ---
 # <a name="tax-calculation-overview"></a>Maksuarvutuse ülevaade
 
@@ -54,11 +53,12 @@ Uute funktsioonide tarnimist jätkatakse. Kontrollige kindlasti kõige ajasemat 
 
 Maksuarvestus on juurutatud järgmistes Azure'i geograafilistes asukohtades. Vastavalt klientide vajadustele lisatakse rohkem Azure'i geograafilisi asukohti.
 
-- Aasia ja Vaikse ookeani
+- Aasia ja Vaikse ookeani regioon
 - Austraalia
 - Kanada
 - Euroopa
 - Jaapan
+- Šveits
 - Ühendkuningriik
 - Ameerika Ühendriigid
 
@@ -77,6 +77,8 @@ Soovitame teil importida ja seadistada oma maksuarvestuse konfiguratsioon versio
 | 10.0.22         | Maksu arvutamise konfiguratsioon 40.48.215 |
 | 10.0.23         | Maksu arvutamise konfiguratsioon 40.50.221 |
 | 10.0.24         | Maksu arvutamise konfiguratsioon 40.50.225 |
+| 10.0.25         | Maksu arvutamise konfiguratsioon 40.50.225 |
+| 10.0.26         | Maksu arvutamise konfiguratsioon 40.54.234 |
 
 
 ## <a name="data-flow"></a>Andmevoog
@@ -136,6 +138,11 @@ Finantsversioonis 10.0.23 toetatakse järgmisi kandeid:
 
 - Vabas vormis arve
 
+Finantsversioonis 10.0.26 toetatakse järgmisi kandeid: 
+
+- Päevaraamatud
+- Hankijaarvete tööleht
+
 ## <a name="supported-countriesregions"></a>Toetatud riigid/regioonid
 
 Maksude arvutamist saab lubada juriidiline isik. 
@@ -187,6 +194,12 @@ Versioonis 10.0.23 toetatakse järgmisi juriidilise isiku esmase aadressi riike/
 Versioonis 10.0.24 toetatakse järgmisi juriidilise isiku esmase aadressi riike/piirkondi:
 
 - Mehhiko
+
+Versioonis 10.0.26 toetatakse järgmisi juriidilise isiku esmase aadressi riike/piirkondi:
+
+- Hiina
+- Tšehhi Vabariik
+- Hispaania
 
 ## <a name="related-resources"></a>Seotud ressursid
 

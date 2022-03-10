@@ -1,27 +1,125 @@
 ---
 title: Mis on uut või muudetud Warehouse Management laohalduse mobiilirakenduses
 description: Selles teemas loetletakse Microsoft Dynamics 365 Supply Chain Management iga Warehouse Management mobiilirakenduse väljastatud versiooni uued ja muudetud funktsioonid.
-author: ivanv-microsoft
-ms.date: 07/30/2021
+author: Mirzaab
+ms.date: 02/21/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: ivanv
+ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 6d98cea29f4c25319caed6680966f61c660778f0
-ms.sourcegitcommit: 3d05bb2a423fe130700686ff73daa355d15b0e09
-ms.translationtype: HT
+ms.openlocfilehash: b146fb12f89559efcb3b0973b0dd1ce9b98ffe2a
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386095"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384364"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Mis on uut või muudetud Warehouse Management laohalduse mobiilirakenduses
 
 [!include [banner](../includes/banner.md)]
 
 Selles teemas loetletakse Microsoft Dynamics 365 Supply Chain Management iga Warehouse Management mobiilirakenduse väljastatud versiooni uued funktsioonid, parandused, täiustused ja teadaolevad vead.
+
+## <a name="version-20170"></a>Versioon 2.0.17.0
+
+See versioon tutvustab järgmisi uusi funktsioone, parandusi ja täiustusi:
+
+- Fikseeritud probleem, mille puhul vöötkoode skannitakse valesti.
+- Fikseeritud GS1-skannimise probleem kaameraskanneri puhul.
+- Fikseeritud GS1-skannimisprobleem vöötkoodiskanneri jaoks Seadmes Sisesta.
+- Täiustatud on päringuvoog, et kaardi valimine detaasse naaseks nüüd põhivoosse.
+- Lisatud tugi üldisele andmepäringu voole.
+- Lisatud teade, mis teavitab kasutajaid võrgu ühenduvuse oleku muudatustest.
+- Joondatud talletusload ladustamise privaatsuspoliitikaga Android 10-s.
+- Seda vajavate voogude jaoks sisaldab koguse muutja positsiooni, mis võimaldab kasutajatel esitada tühja arvulise väärtuse.
+- Fikseeritud väljaminek koguse kordaja suunaga.
+- Lahendage probleem, mille puhul kogusekeneja hüppaks valele väärtusele.
+- Fikseeritud probleem, mille puhul sisestus esmasele leheküljele kaotaks üksikasjade lehelt asustamisel.
+- Fikseeritud probleem, mille puhul kohatäiteteksti käsitletakse valikuloendites algselt valitud väärtusena.
+- Kinnitusetappide nupp Edasta on nüüd automaatselt lubatud, kui väärtused on eelvalitud.
+- Fikseeritud üksikasjade kaart, et kuvada nii palju ridu kui võimalik mitme reaga tekstiväljadele.
+- Fikseeritud on nuppude "Esita" ja "Veel tegevusi" kõrgus, mis võtab ekraanil rohkem ruumi.
+- Lisatud puuduvate valikuloendi pealkirjad.
+- Fikseeritud probleem, mille korral taganupp ei töötanud.
+- Lisatud mitmeid klaviatuuri navigeerimise parandusi ja täiustusi, sealhulgas järgmistel lehtedel:
+  - Kasutaja sisselogimine
+  - Ühenduse valimine
+  - Ühenduse redigeerimine
+- Fikseeritud kerimine klaviatuuri navigeerimise kasutamisel.
+- Täiustatud hõlbustusfunktsioonid, sealhulgas järgmised parendused:
+  - Fikseeritud värvi nähtavus ja vastand.
+  - Klaviatuuri fookuse takistatud kaotus hüpiklehtede sulgemisel.
+  - Lisatud tõrketeated selle kohta.
+  - Suurendas kohatäiteväärtuste suurust sammus step.
+- Fikseeritud näide kohandatud pärandlehe kohta demorežiimis.
+
+## <a name="version-20150"></a>Versioon 2.0.15.0
+
+See versioon tutvustab järgmisi uusi funktsioone, parandusi ja täiustusi:
+
+- Täiustatud jõudlus mälu mälu väljaminek.
+- Fikseeritud probleem, kus mõned väljaväärtused ei uuendatud õigesti, kui valiti üksikasjade lehel.
+
+## <a name="version-20140"></a>Versioon 2.0.14.0
+
+See versioon tutvustab järgmisi uusi funktsioone, parandusi ja täiustusi:
+
+- Saate lahendada probleemi, mis keelas nupu Edasta vaikeväärtus.
+
+## <a name="version-20130"></a>Versioon 2.0.13.0
+
+See versioon tutvustab järgmisi uusi funktsioone, parandusi ja täiustusi:
+
+- Täiustatud kerimine sujuvama meelelahutusega lehtede vahel.
+- Fikseeritud counter-intuitiivne vastused liigutuste ja juhuslike ekraanide külmutamise tõmbamiseks.
+- Täiustatud tumerežiimi tekst ja taustavärvi kombinatsioonid parema loetavuse tagamiseks.
+- Fikseeritud probleem, mille puhul mõni tekst võib rakenduse akna suuruse muutmisel muutuda väga väikeseks.
+- Lahendati probleem, mis võib vöötkoodide skannimisel mõnikord rakenduse alla anda.
+- Lisati võimalus asendada slaidli oma nupuga.
+- Fikseeritud probleem, mis võib põhjustada rakenduse tõrketeate näitamise, "AADSTS7000215: antud on sobimatu kliendisaladus."
+- Fikseeritud vihje vihje vihje, mis näitab, kuidas sulgeda lehekülge, kasutades tõmbamise ettemaks.
+- Lisatud võimalus sulgeda leht, kasutades lisandit.
+- Fikseeritud probleem, mille puhul ripploendi pealkirjad kasutajasätete lehel **ei** kuvatud.
+- Fikseeritud lokaliseerimisprobleem, mille puhul rakendusele ei määratud koma (,) komaeraldajana.
+- Paremad hõlbustusfunktsioonid.
+- Parandatud hõlbustusfunktsioonide loomiseks **parandage** navigeerimist lehel Uus ühendus.
+- Fikseeritud probleem, kus sisendvälja valimisel ei kuvata kerget (ekraanil) klaviatuuri teksti.
+- Fikseeritud probleem, mis võib rakendusele reageerida, kui kasutajad selle akna kiiresti muutsid.
+- Fikseeritud probleem, kus kiirklahvi vajutamist on vahel tõlgendatud kui pikale pressile.
+- Lahendas probleemi, mille puhul rakenduse paigutus võis tarneahela halduses tehtud väljakohanduste tõttu muutuda rikutud.
+- Lahendati probleem, mille puhul kauba asukohti ei kuvatud õigesti.
+- Tootevariandi töövoo lühikese komplekteerimisega seotud probleemi fikseeritud
+- Eemaldas eelseadistatud vaikeväärtusi sisaldavate väljade mittevajaliku kinnitamise.
+- Täiustatud jõudlus.
+- Lisatud uus säte, mis võimaldab kasutajatel valida, kuidas väljad kaardi leheküljel filtreeritakse ja tellitakse.
+
+## <a name="version-20110"></a>Versioon 2.0.11.0
+
+See versioon tutvustab järgmisi uusi funktsioone, parandusi ja täiustusi:
+
+- Lisatud tugi reklaamitavatele väljadele.
+- Lisatud on riistvaralise klaviatuuriga navigeerimise tugi.
+- Paremad hõlbustusfunktsioonid.
+- Täiustatud üksikasjade kaardid.
+- Täiustatud ümbersõidud menüü-üksuse sammude jaoks.
+- Vähesed kasutusliidese täiustused.
+- Fikseeritud probleem, mis võib vöötkoodide skannimisel rakenduse kukutamise.
+- Mitmed probleemid, mis võib põhjustada süsteemi hangumise, on parandatud.
+
+## <a name="version-20100"></a>Versioon 2.0.10.0
+
+See versioon tutvustab järgmisi uusi funktsioone, parandusi ja täiustusi:
+
+- Lisatud animatsioonid loendite ja lehtede sirvimisel.
+- Tekst pakitakse nüüd ühenduse vealehel õigesti.
+- Vaikeväärtusteta liitkastid kuvatakse nüüd õigesti.
+- Alamrubriigi ala teavet kuvatakse nüüd ainult üksikasjade lehel.
+- Tühje sisestusvälju ei kuvata enam üksikasjade kaardil.
+- Kinnitusväärtusi üksikasjade kaardil enam ei dubleerita.
+- Mitmed probleemid, mis põhjustasid süsteemi hangumise, on parandatud.
 
 ## <a name="version-2090"></a>Versioon 2.0.9.0
 

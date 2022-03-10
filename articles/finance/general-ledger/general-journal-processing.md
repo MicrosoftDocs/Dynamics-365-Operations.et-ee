@@ -1,29 +1,26 @@
 ---
 title: Üldtöölehe töötlemine
 description: Selles teemas kirjeldatakse Microsoft Dynamics 365 Finance'i võimalusi, mis lihtsustavad üldise töölehe töötlemist ja aitavad ühtlasi tagada, et jäädvustatakse õiged andmed ning sisekontrolli pole kahjustatud.
-author: ShylaThompson
-manager: AnnBe
-ms.date: 08/09/2019
+author: kweekley
+ms.date: 02/28/2022
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalSetup, LedgerJournalTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 15721
 ms.assetid: b4b406fa-b772-44ec-8dd8-8eb818a921ef
 ms.search.region: Global
-ms.author: peakerbl
+ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c067b7b6cbbcad4456df6037da8ab124776261e9
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 7096d8576cf124e5e1d814c360d96639f66a742a
+ms.sourcegitcommit: 753714ac0dabc4b7ce91509757cd19f7be4a4793
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442479"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8367876"
 ---
 # <a name="general-journal-processing"></a>Üldtöölehe töötlemine
 
@@ -45,14 +42,14 @@ Lehel **Töölehe nimed** saate seadistada järgmisi elemente.
 
 Töölehe nime võib kasutada ainult korrigeerimiseks. Sellisel juhul saate määrata, et kõigis ettevõtetes kehtib ainult konto tüüp **Pearaamat**. 
 
-[![Töölehe juhtimise kontotüübid](./media/journal-control-account-types1.png)](./media/journal-control-account-types1.png)
+[![Töölehe juhtimise kontotüübid.](./media/journal-control-account-types1.png)](./media/journal-control-account-types1.png)
 
 Töölehe nime saab kasutada ainult kindla segmendi või põhikontode vahemiku puhul. 
 
-[![Töölehe juhtimise segment](./media/journal-control-segment1.png)](./media/journal-control-segment1.png)
+[![Töölehe juhtimise segment.](./media/journal-control-segment1.png)](./media/journal-control-segment1.png)
 
 Päevaraamatutes on saadaval suvand **Automaatne tühistamine**. Näiteks viitvõlgade korrigeerimise puhul, kui tegelikku dokumenti pole veel töödeldud, nagu on näidatud järgmisel joonisel.
-[![Pearaamatu ennistamine](./media/general-journal-reversing1.png)](./media/general-journal-reversing1.png) 
+[![Pearaamatu ennistamine.](./media/general-journal-reversing1.png)](./media/general-journal-reversing1.png) 
 
 Microsoft Exceli lisandmoodul pakub töölehe sisestuse puhul automatiseerimise täiendavat taset ja lihtsustab andmesisestust. Tegevus **Ridade avamine Excelis** on saadaval lehtedel **Päevaraamat** ja **Töölehe kanne**. 
 
@@ -104,4 +101,7 @@ Töölehe lehel on saadaval nupp, et avada tööleht, mille oleku „Süsteemi p
 Töölehe tagasivõtmise võimalus töövoos, mille olek on „taastamatu”, on lubatud töölehel ja lehel **Töövoo ajalugu** nupu **Töövoog** abil. Seda lubab funktsioon nimega **Töölehtede töövoo oleku lähtestamine** lehel **Funktsioonihaldus**.
 
 ## <a name="delete-journal-lines"></a>Kustuta töölehe read
-Kõigi töölehe ridade kiire kustutamise võimalus on lubatud töölehe jaotises **Funktsioonid** > **Kustuta töölehe read**. Selle funktsiooni lubamiseks valige lehel **Funktsioonihaldus** käsk **Kustuta töölehe jõudluse optimeerimised**.
+Kõigi töölehe ridade kiire kustutamise võimalus on lubatud töölehe jaotises **Funktsioonid** > **Kustuta töölehe read**. Selle funktsiooni lubamiseks valige lehel **Funktsioonihaldus** käsk **Kustuta töölehe jõudluse optimeerimised**. See funktsioon mõjutab laiendusi **tabelis LedgerJournalTrans** **ja meetodiga Kustuta**, **kuna read eemaldatakse ilma iga rea meetodit Kustuta kutsumata**. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

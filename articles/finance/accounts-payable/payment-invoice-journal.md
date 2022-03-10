@@ -1,6 +1,6 @@
 ---
 title: Maksegraafiku rakendamine arve töölehele
-description: Selles teemas kirjeldatakse, kuidas hankija arve töölehele makset lisada.
+description: See teema kirjeldab, kuidas lisada makse hankija arve töölehele.
 author: sunfzam
 ms.date: 01/31/2022
 ms.topic: article
@@ -15,37 +15,34 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-08-30
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: bd288ac48ef59d8e2a4e0922aa652276dddb666d
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
-ms.translationtype: HT
+ms.openlocfilehash: f6481c3fc033acf4bb563bf1716789216646b60b
+ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075733"
+ms.lasthandoff: 02/26/2022
+ms.locfileid: "8358335"
 ---
 # <a name="apply-a-payment-schedule-to-the-invoice-journal"></a>Maksegraafiku rakendamine arve töölehele
 
 [!include [banner](../includes/preview-banner.md)]
 
-Microsofti Dynamics 365 Finance väljalaskes 10.0.25 toetatakse nüüd hankija arve töölehel maksegraafikut.
+Rakenduses Microsoft Dynamics 365 Finance Release 10.0.25 on nüüd hankija arve töölehel **toetatud maksegraafik**.
 
-Selle funktsiooni kasutamiseks peate funktsioonihalduse funktsioonis lubama **funktsiooni Rakenda maksegraafik arvežurnaalile**.
+Selle funktsiooni kasutamiseks peate funktsioonihalduses lubama **maksegraafiku rakendada arvetöölehe** funktsioonile.
 
-Kui funktsioon on lubatud, **lisatakse lehele Arve žurnaali** uus **maksegraafiku** väli. Arvežurnaali rea loomisel, kui hankijal säilitatakse maksetingimused ja maksegraafikus on valitud maksetingimused, **värskendatakse** välja Maksegraafik **lehel Arve**.
+Kui funktsioon on lubatud, lisatakse arve **töölehelehele** uus maksegraafiku **väli**. Arve töölehe rea loomisel, kui maksetingimused säilitatakse hankijal ja maksetingimused valitakse maksegraafikus, **·** **uuendatakse maksegraafiku väli arve töölehelehel.**
 
-Kasutatavat maksegraafikut saate muuta vastavalt oma ettevõtte vajadustele. Hankija arve töölehe konteerimisel luuakse hankija avatud kanded vastavalt maksegraafikule.
+Kasutatavat maksegraafikut saate muuta vastavalt oma äritegevuse nõuetele. Hankija arve töölehe sisestamisel luuakse hankija avatud kanded vastavalt maksegraafikule.
 
-Maksegraafikust loodud mitme hankija avatud kande ülevaatamiseks minge ostureskontro **\> arved \> Avatud hankijaarved** ja sisestage arve number või hankija konto.
+ - Mitme hankija avatud kande ülevaatamiseks, mis loodi maksegraafikust **, \>\> minge ostureskontro arvete avatud hankijaarvetele** ja sisestage arvenumber või hankija konto.
+ - Maksegraafiku ülevaatamiseks või konfigureerimiseks minge Ostureskontro **makse seadistuse maksegraafikusse \>\>.**
+ - Maksetingimuste konfigureerimiseks ja maksegraafiku määramiseks minge ostureskontro **\> makseseadistuse \> maksetingimustele**.
+ - Maksetingimuste säilitamiseks hankija **\>** puhul minge jaotisesse Ostureskontro kõik hankijad, **valige** hankija konto ja seejärel määrake vahekaardil Makse väli **Maksetingimused.**
 
-Maksegraafiku ülevaatamiseks või konfigureerimiseks minge ostureskontro makse häälestuse **maksegraafikusse.\>\>**
-
-Maksetingimuste konfigureerimiseks ja maksegraafiku määramiseks minge ostureskontro **makse seadistamise \>\> tingimustesse**.
-
-Hankija maksetingimuste säilitamiseks minge ostureskontrole **\> Kõik hankijad**, valige hankija konto ja seejärel seadke **vahekaardil** Makse **välja Maksetingimused**.
-
-Maksegraafiku funktsioon on saadaval **ka hankija arveregistri** protsessis. Kui arveregistri töölehel on valitud maksegraafik, ei **looda** arveregistri konteerimisel mitut hankija makserida. Hankija makseread luuakse arve kinnitamisel.
+Maksegraafiku funktsioon on saadaval ka hankija arve **registreerimise protsessis**. Kui arveregistri töölehel on valitud maksegraafik, siis **arveregistri** sisestamisel mitut hankija makserida ei looda. Hankija makseread luuakse siis, kui arve kinnitatakse.
 
 ## <a name="limitation"></a>Kitsendus
 
-Ootel hankija arve puhul, kui maksegraafik on arvepäises, on olemas täpsem leht, mis võimaldab kasutajatel makseridu redigeerida. (Näiteks saavad kasutajad muuta iga makserea tähtaega ja väärtust.) Arvežurnaalist loodud makseridade väärtus on maksegraafikust.
+Ootel hankija arve korral, kui maksegraafik on arve päises, on täpsem leht, mis võimaldab kasutajatel makseridu redigeerida. (Näiteks saavad kasutajad redigeerida iga makserea maksetähtaega ja väärtust.) Arve töölehelt loodud makseridadel on väärtus maksegraafikust.
 
-See funktsioon on saadaval hankija arve töölehe ja ootel arvete jaoks tulevases väljaandes.
+See funktsioon on tulevikus saadaval hankija **arve töölehe ja** **ootel** arvete jaoks.

@@ -2,11 +2,9 @@
 title: ER-i sihtkoha tüübi printer
 description: Selles teemas selgitatakse, kuidas konfigureerida printeri sihtkohta iga elektroonilise aruandluse (ER) vormingu komponendi FOLDER või FILE jaoks.
 author: NickSelin
-manager: AnnBe
-ms.date: 03/17/2020
+ms.date: 02/14/2022
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: DocuType, ERSolutionTable, ERFormatDestinationTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: c6e298f62ec69f349eb713d66313e535c7e01881
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
-ms.translationtype: HT
+ms.openlocfilehash: 2513fc4f86519c71602089cd46e9757813b1a708
+ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5094075"
+ms.lasthandoff: 03/05/2022
+ms.locfileid: "8388284"
 ---
 # <a name="printer-destination"></a><a name="PrinterDestinationType"></a>Printeri sihtkoht
 
@@ -32,7 +30,7 @@ Saate loodud dokumendi otse printimiseks otse võrguprinterisse saata.
 
 ## <a name="prerequisites"></a>Eeltingimused
 
-Enne alustamist peate installima ja konfigureerima dokumendi marsruudi agendi ning seejärel registreerima võrgu printerid. Lisateavet saate teemast [Dokumendi marsruudivaliku agendi installimine võrguprintimise lubamiseks](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/install-document-routing-agent).
+Enne alustamist peate installima ja konfigureerima dokumendi marsruudi agendi ning seejärel registreerima võrgu printerid. Lisateavet saate teemast [Dokumendi marsruudivaliku agendi installimine võrguprintimise lubamiseks](./install-document-routing-agent.md).
 
 ## <a name="make-the-printer-destination-available"></a>Printeri sihtkoha kättesaadavaks tegemine
 
@@ -41,15 +39,30 @@ Selleks, et **printeri** sihtkoht oleks saadaval Microsofti Dynamics 365 Finance
 1. Teisenda elektroonilise aruandluse väljaminevad dokumendid Microsoft Office'i vormingutest PDF-iks
 2. Dokumendi marsruudivaliku agent väljaminevate dokumentide elektroonilise aruandluse sihtkohana
 
-[![ER printeri sihtkoha funktsiooni sisselülitamine funktsioonide halduses](./media/ER_Destinations-EnablePrinterDestinationFeature.png)](./media/ER_Destinations-EnablePrinterDestinationFeature.png)
+[![ER printeri sihtkoha funktsiooni sisselülitamine funktsioonide halduses.](./media/ER_Destinations-EnablePrinterDestinationFeature.png)](./media/ER_Destinations-EnablePrinterDestinationFeature.png)
 
 ### <a name="applicability"></a>Kohaldatavus
 
-**Printeri** sihtkoha saab konfigureerida ainult faili komponentide jaoks, mida kasutatakse väljundi loomiseks kas prinditavas PDF-vormingus (PDF-i liitmine või PDF-vormingu elemendid) või Microsoft Office Excel/Word vormingus. Kui väljund luuakse PDF-vormingus, saadetakse see printerisse. Kui väljund luuakse Microsoft Office vormingus, teisendatakse see automaatselt PDF-vormingusse ja seejärel saadetakse printerisse.
+#### <a name="pdf-printing"></a>PDF-printimine
+
+Rakenduse Finance versioonides enne versiooni 10.0.18 saab printerit konfigureerida ainult failikomponentide jaoks, **mida** kasutatakse väljundi loomiseks prinditavas PDF-vormingus (**PDF-liitumine** **või PDF-failivormingu** elemendid) Microsoft Office Excel või Wordi vormingus (**Exceli failivormingu** element). Kui väljund luuakse PDF-vormingus, saadetakse see printerisse. Kui väljund luuakse Office'i vormingus Exceli **failivormingu** elemendi abil, teisendatakse see automaatselt PDF-vormingusse ja saadetakse seejärel printerisse.
+
+Versiooni 10.0.18 **·** **puhul saate siiski konfigureerida failivormingu tavaelemendile** printeri sihtkoha. Seda vorminguelementi kasutatakse enamasti väljundi loomiseks kas TXT- või XML-vormingus. Saate konfigureerida ER-vormingu, **·** **mis** sisaldab tavalise failivormingu elementi juurvormingu elemendina ja binaarsisu vormingu elementi selle all ainsa pesastatud elemendina. Sellisel juhul loob üldine failivormingu **element** väljundi vormingus, **mis on määratud kahendsisu vormingu elemendi jaoks konfigureeritud** sidumisega. Näiteks saate konfigureerida selle [sidumise](tasks/er-document-management-files-5.md#modify-the-format-to-populate-attachments-into-generating-messages-in-binary-format)[nii](../../fin-ops/organization-administration/configure-document-management.md), et see täidaks selle elemendi dokumendihalduse manuse sisuga PDF- või Office'i (Excel või Word) vormingus. Saate printida väljundi konfigureeritud printerisihtkoha **abil**. 
+
+> [!NOTE]
+> Kui valite **CommonFile'i\\** **vormingu** elemendi printeri sihtkoha konfigureerimiseks, ei ole võimalik tagada kujundusaja jooksul, kas valitud element annab väljundi PDF-vormingus või väljundi, mida saab teisendada PDF-vormingusse. Seetõttu saate järgmise hoiatusteate: "Palun veenduge, et valitud vormingukomponendi loodud väljundi saab teisendada PDF-iks. Vastasel juhul eemaldage märge suvandilt Teisenda PDF-vormingusse." Käitusaja probleemide vältimiseks peate käitusaja probleemide vältimiseks tegemata PDF-vormingus või pdf-vormingus teisendatava väljundi printimiseks käitusajal. Kui eeldate saada toodangut Office'i (Exceli või Wordi) vormingus, peab **olema valitud suvand Teisenda PDF-ina**.
+>
+> Versioonis 10.0.26 **ja uuemas versioonis peate konfigureeritud** **printeri sihtparameetri jaoks valima PDF-i.** **·** **·**
+
+#### <a name="zpl-printing"></a>ZPL-i printimine
+
+Versioonis 10.0.26 ja uuemas versioonis saate konfigureerida CommonFile'i vorminguelemendi printeri sihtkoha, **·** **valides dokumendi protsessitüübi parameetrile ZPL\\** **.** **·** Sel juhul **ignoreeritakse suvandit Teisenda PDF-ina** käitusajal ja TXT või XML-i väljund saadetakse otse valitud printerisse, kasutades Dokumendi protsessiagendi (DRA [)](install-document-routing-agent.md) ZPL-lepingut. Kasutage seda funktsiooni ER-vormingu jaoks, mis tähistab erinevate siltide printimiseks ZPL II sildipaigutust.
+
+[![Dokumendi protsessitüübi parameetri seadistamine dialoogiboksis Sihtkoha sätted.](./media/ER_Destinations-SetDocumentRoutingType.png)](./media/ER_Destinations-SetDocumentRoutingType.png)
+
+Lisateavet selle funktsiooni kohta vt Teemast Uue [ER-lahenduse loomine ZPL-siltide printimiseks](er-design-zpl-labels.md).
 
 ### <a name="limitations"></a>Kitsendused
-
-See funktsioon on eelvaate funktsioon ja seda kasutatakse tingimustes, mida on kirjeldatud teemas [Microsoft Dynamics 365 eelvaadete kasutamise täiendavad tingimused](https://go.microsoft.com/fwlink/?linkid=2105274).
 
 **Printeri** sihtkohta rakendatakse ainult pilve juurutamiseks.
 
@@ -59,7 +72,7 @@ See funktsioon on eelvaate funktsioon ja seda kasutatakse tingimustes, mida on k
 2. Valige väljal **Printeri nimi** vajalik võrguprinter.
 3. Seadke suvand **Kas soovite salvestada printimise arhiivi?** väärtusele **Jah**, et salvestada loodud väljund printimise arhiivi, nii et see on edasiseks printimiseks saadaval. Arhiveeritud väljundi juurde pääsemiseks hiljem avage **Organisatsiooni haldus** \> **Päringud ja aruanded** \> **Aruannete arhiiv**.
 
-[![Printimise sihtkoha kasutamine](./media/ER_Destinations-PrinterDestination.png)](./media/ER_Destinations-PrinterDestination.png)
+[![Printimise sihtkoha kasutamine.](./media/ER_Destinations-PrinterDestination.png)](./media/ER_Destinations-PrinterDestination.png)
 
 > [!NOTE]
 > Suvand **Teisendamine PDF-iks** ei pea **Printeri** sihtkoha konfigureerimisel olema sisse lülitatud. PDF-i teisendamine printimiseks toimub isegi siis, kui suvand on välja lülitatud.
@@ -70,3 +83,6 @@ Kindla [lehe paigutuse](electronic-reporting-destinations.md#SelectPdfPageOrient
 
 - [Elektroonilise aruandluse (ER) ülevaade](general-electronic-reporting.md)
 - [Elektroonilise aruandluse (ER) sihtkohad](electronic-reporting-destinations.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

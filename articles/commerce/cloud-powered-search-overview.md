@@ -2,24 +2,23 @@
 title: Pilvepõhise otsingu ülevaade
 description: See teema annab rakenduse Microsoft Dynamics 365 Commerce pilvepõhise otsingu ülevaate.
 author: ashishmsft
-ms.date: 06/29/2020
-ms.topic: article
+ms.date: 02/28/2022
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c78af42313d83ebec5a56f83682f394c5e9d21f08851aaa0493563163d76046b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 9116dd415d44a56fbe8c7852382c413b0a75872c
+ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722026"
+ms.lasthandoff: 03/02/2022
+ms.locfileid: "8371425"
 ---
 # <a name="cloud-powered-search-overview"></a>Pilvepõhise otsingu ülevaade
 
@@ -27,13 +26,13 @@ ms.locfileid: "6722026"
 
 See teema annab rakenduse Microsoft Dynamics 365 Commerce pilvepõhise otsingu ülevaate.
 
-Toote tuvastatavus aitab tagada, et kliendid saavad kategooriaid sirvides, otsides ja filtreerides tooteid kiiresti ja hõlpsalt leida. Jaemüüjad peavad toodete avastamist esmaseks vahendiks klientidega suhtlemisel kõigis kanalites.
+Toote tuvastatavus aitab tagada, et kliendid saavad kategooriaid sirvides, otsides ja filtreerides tooteid kiiresti ja hõlpsalt leida. Jaemüüjad kaaluvad toote tuvastamist peamiseks tööriistaks kliendiga suhtlemiseks läbi pilveskaala üksuse (CSU) toestatud kanalite, nagu e-äri ja müügikoha (POS).
 
-Kliendid on harjunud veebiotsingu mootorite peaaegu hetkelise reaktsiooniajaga, keeruliste e-kaubanduse veebisaitidega, sotsiaalsete rakendustega, otsingusõna tippimisel automaatselt ilmuvate soovitustega, mitmetahulise navigeerimisega ja esiletõstmisega. Kui kliendid ei leia ühest e-kaubanduse poest otsitavat toodet piisavalt kiiresti, siis nad ei kõhkle, et minna erinevasse e-kaupluse poodi.
+Kliendid on harjunud veebiotsingu mootorite peaaegu hetkelise reaktsiooniajaga, keeruliste e-kaubanduse veebisaitidega, sotsiaalsete rakendustega, otsingusõna tippimisel automaatselt ilmuvate soovitustega, mitmetahulise navigeerimisega ja esiletõstmisega. Kui kliendid ei leia kiiresti toodet, mida nad ühe e-kaubanduskaupluse seast otsib, ei soovi nad minna teise e-äri kauplusesse.
 
-Rakenduse Dynamics 365 Commerce pilvepõhine toote tuvastamine aitab jaemüüjatel jätkuvalt suurendada kliendi kinnipidamise ja teisendamise määrasid kõikide kanalite üleselt, nii e-kaubanduse kanalites kui ka kassa kanalites.
+Pilve toega toote leidmine äris aitab jaemüüjatel jätkata tarbijalojaalsuse ja teisendusmäärade suurendamiseks kõigis CSU kanalites.
 
-Rakenduse Dynamics 365 Commerce otsingul on parandatud võimalused, et aidata jaemüüjatel saavutada parem toodete tuvastatavus. Samal ajal pakuvad need võimalused e-kaubanduse liikluse jaoks vajalikku skaleeritavust ja jõudlust.
+Commerce'i otsingukogemus on täiustatud võimalusi, et aidata jaemüüjatel paremini tooteavastada. Samal ajal tarnivad need võimalused skaleeritavust ja jõudlust, mis on vajalik e-kaubanduse liikluseks.
 
 ## <a name="browse-and-search"></a>Sirvimine ja otsing
 
@@ -55,20 +54,20 @@ Järgmisel joonisel on kujutatud näide, kus otsingus kasutatakse mitmetahulist 
 
 ## <a name="immersive-autosuggest"></a>Kõikehõlmavad automaatsed soovitused
 
-Praegused automaatse soovituse funktsioonid näitavad ainult märksõnu, mis käivitavad vastava märksõna otsingu. Rakenduse Dynamics 365 Commerce uute täiustuste abil saavad kliendid sageli tuvastada lingid toodetele enne, kui nad on tippimise lõpetanud.
+Praeguse automaatuuendusfunktsiooniga kuvatakse märksõna, mis käivitab vastava märksõna otsingu. Äris tehtud uute täiustuste tõttu saavad kliendid sageli avastada linke toodetele, enne kui nad on tippimise lõpetanud.
 
-Dynamics 365 Commerce toetab ka erinevate kategooriate märksõnade vasteid. See funktsioon võimaldab klientidel näha kattuvate märksõnade arvu kategooriate lõikes ja käivitada märksõnade otsimise teistes kategooriates.
+Commerce toetab ka märksõna sobivusfunktsioone mitmetes kategooriates. See funktsioon võimaldab klientidel näha kattuvate märksõnade arvu kategooriate lõikes ja käivitada märksõnade otsimise teistes kategooriates.
 
 Järgmisel joonisel on kujutatud näide, kus kasutatakse kõikehõlmavaid automaatseid soovitusi.
 
 ![kõikehõlmavad automaatsed soovitused.](./media/ImmersiveAutoSuggestUX.png)
 
-## <a name="sort"></a>Tüüp
+## <a name="sort"></a>Sordi
 
-Rakenduse Dynamics 365 Commerce täiustatud sortimine võimaldab klientidel sortida, otsida ja sirvida otsingutulemusi ning täpsustada neid kriteeriumite põhjal, nagu hind, toote nimi ja tootenumber. Kliendid saavad lisaks sorteerida tulemusi selle põhjal, kas toode on uus, suurima läbimüügiga või hiljuti lisatud.
+Täiustatud sortimine Äris lubab klientidel sortida, otsida ja sirvida otsingutulemusi ning täpsustada neid selliste kriteeriumide järgi nagu hind, toote nimi ja tootenumber. Kliendid saavad lisaks sorteerida tulemusi selle põhjal, kas toode on uus, suurima läbimüügiga või hiljuti lisatud.
 
->[!NOTE]
->Need pilvepõhised otsinguvõimalused on saadaval alates versioonist 10.0.8. Veenduge, et jaotises **Kaubanduse parameetrid > konfiguratsiooniparameetrid** on kirje ProductSearch.UseAzureSearch väärtuseks määratud „tõene”. 
+> [!NOTE]
+> Need pilvepõhised otsinguvõimalused on saadaval alates versioonist 10.0.8. Veenduge, et commerce Parameters oleks jaotises ProductSearch.UseAzureSearch **kirje seatud konfiguratsiooniparameetrites väärtusele > "tõene"**. 
 ![Pilvepõhise otsingu konfiguratsiooniparameetrid.](./media/CloudPoweredSearchConfigurationParameters.png)
 
 ## <a name="additional-resources"></a>Lisaressursid
@@ -78,4 +77,4 @@ Rakenduse Dynamics 365 Commerce täiustatud sortimine võimaldab klientidel sort
 [SEO metaandmete haldamine](manage-seo-metadata.md)
 
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[!INCLUDE [footer-include](../includes/footer-banner.md)]

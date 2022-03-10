@@ -1,6 +1,6 @@
 ---
 title: Kolmanda osapoole tootmise käivitussüsteemidega integreerimine
-description: See teema kirjeldab, kuidas saate Dynamics 365 Supply Chain Management Integreerida Microsofti kolmanda osapoole tootmise käivitamissüsteemiga (MES).
+description: See teema kirjeldab, kuidas saate Integreerida Microsofti Dynamics 365 Supply Chain Management kolmanda osapoole tootmise käivitamissüsteemiga (MES).
 author: t-benebo
 ms.date: 10/01/2021
 ms.topic: article
@@ -11,24 +11,24 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-10-01
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: ea39a1fc9092aaa4622c7193f7538acc85aa0f46
-ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
-ms.translationtype: HT
+ms.openlocfilehash: 8917c9b265bc3df19517f052e28fb7644057cb46
+ms.sourcegitcommit: 19f0e69a131e9e4ff680eac13efa51b04ad55a38
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952673"
+ms.lasthandoff: 02/22/2022
+ms.locfileid: "8330697"
 ---
 # <a name="integrate-with-third-party-manufacturing-execution-systems"></a>Kolmanda osapoole tootmise käivitussüsteemidega integreerimine
 
 [!include [banner](../includes/banner.md)]
 
-Mõned tootmisorganisatsioonid, mis kasutavad Microsoft-i, kasutavad Dynamics 365-i omafunktsioone, et juhtida nende tootmistegevust Dynamics 365 Supply Chain Management masinate, seadmete ja personali puhul. Kuid teised tootmisorganisatsioonid, eriti need, kellel on täpsemad tootmisnõuded, kasutavad hoopis kolmanda osapoole tootmise käivitamise süsteemi (MES). Organisatsioonid võivad valida kolmanda isiku mes-i lahenduse, sest näiteks on see spetsiifiliselt kohandatud nende vertikaalsele majandusharule.
+Mõned tootmisorganisatsioonid, mis kasutavad Microsoft-i Dynamics 365 Supply Chain Management, kasutavad Dynamics 365-i omafunktsioone, et juhtida nende tootmistegevust masinate, seadmete ja personali puhul. Kuid teised tootmisorganisatsioonid, eriti need, kellel on täpsemad tootmisnõuded, kasutavad hoopis kolmanda osapoole tootmise käivitamise süsteemi (MES). Organisatsioonid võivad valida kolmanda isiku mes-i lahenduse, sest näiteks on see spetsiifiliselt kohandatud nende vertikaalsele majandusharule.
 
 Integreeritud lahenduses on andmevahetus täielikult automaatne ja toimub reaalaja lähedal. Seetõttu säilitatakse andmeid mõlemas süsteemis ja käsitsi andmesisestus ei ole vajalik. Näiteks kui materjalitarbimine on MES-is registreeritud, tagab integratsioon, et sama tarbimine registreeritakse ka Dynamics 365-s. Seetõttu on ajakuupäevad laokirjed saadaval teistele olulistele protsessidele, nt planeerimisele ja müügile.
 
 Lahendus muudab tarneahela halduse kasutajate jaoks kolmanda osapoole MES-iga integreerumise kiiremaks, lihtsamaks ja odavamaks. See pakub järgmisi funktsioone:
 
-- Ärisündmused ja liidesed, mis toetavad [tootmise käivitamise võtmeprotsesse](#processes-available-for-mes-integration)
+- Ärisündmused ja liidesed, mis toetavad tootmise [käivitamise võtmeprotsesse](#processes-available-for-mes-integration)
 - Tsentraliseeritud armatuurlaud, kus saate jälgida sündmuste töötlemise ajalugu ning tõrkeid sooritava protsessi tõrkeotsingut ja parandusprotsesse
 
 Järgmine näide näitab tüüpilist ärisündmuste, protsesside ja teadete kogum, mida vahetatakse integreeritud lahenduses.
@@ -40,14 +40,14 @@ Järgmine näide näitab tüüpilist ärisündmuste, protsesside ja teadete kogu
 Enne selle funktsiooni kasutamist peab administraator selle teie süsteemis sisse lülitama, nagu kirjeldatud järgmises protseduuris.
 
 1. Valige suvandid **Süsteemihaldus \> Häälestus \> Litsentsi konfiguratsioon**.
-1. Veenduge, et **kellaaja ja** kohalviibimise litsentsivõti on lubatud (kuvab märkeruudu). See litsentsivõti on vajalik, kuna see kontrollib tootmise käivitamise süsteemi funktsioone ja andmeid. Kui see ei ole lubatud, järgige järgmisi samme.
+1. Veenduge, et kellaaja **ja kohalviibimise** litsentsivõti on lubatud (kuvab märkeruudu). See litsentsivõti on vajalik, kuna see kontrollib tootmise käivitamise süsteemi funktsioone ja andmeid. Kui see ei ole lubatud, järgige järgmisi samme.
     1. Pange oma süsteem hooldusrežiimi, nagu on kirjeldatud teemas [Hooldusrežiim](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
-    1. Litsentsi **konfiguratsioonilehel** valige **märkeruut Kellaaeg ja** kohalviibimine.
-    1. Lülitage hooldusrežiim välja, nagu on kirjeldatud [hooldusrežiimis.](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md)
-1. Minge süsteemihalduse **\> tööruumide \> funktsioonihaldusesse.**
-1. Lülitage sisse järgmisel viisil loetletud funktsioon (vt ka [funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ülevaadet):
+    1. **Litsentsi konfiguratsioonilehel** valige märkeruut **Kellaaeg ja kohalviibimine**.
+    1. Lülitage hooldusrežiim välja, nagu on kirjeldatud hooldusrežiimis [.](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md)
+1. Minge süsteemihalduse **tööruumide \> funktsioonihaldusesse \>**.
+1. Lülitage sisse järgmisel viisil loetletud funktsioon (vt ka funktsioonihalduse [ülevaadet](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)):
     - **Moodul:** *tootmise juhtimine*
-    - **Funktsiooni nimi:** *tootmise käivitamissüsteemi integreerimine*
+    - **Funktsiooni nimi: tootmise** *käivitamissüsteemi integreerimine*
 
 ## <a name="processes-available-for-mes-integration"></a>MES-i integreerimiseks saadaolevad protsessid
 
@@ -64,15 +64,15 @@ Saate lubada mis tahes või kõik järgmised integratsiooniprotsessid.
 
 ## <a name="monitor-incoming-messages"></a>Saate jälgida sissetulevaid teateid.
 
-Süsteemi sissetulevate teadete jälgimiseks avage tootmise **käivitamissüsteemide integreerimise** leht. Seal saate vaadata, töödelda ja tõrkeotsingu probleeme.
+Süsteemi sissetulevate teadete jälgimiseks avage tootmise käivitamissüsteemide **integreerimise** leht. Seal saate vaadata, töödelda ja tõrkeotsingu probleeme.
 
 ## <a name="call-the-api"></a>Helista API-sse
 
-MES-i integratsiooni API kutsumiseks saatke `POST` taotlus järgmise lõpp-punkti URL-ile:
+MES-i integratsiooni API kutsumiseks saatke taotlus `POST` järgmise lõpp-punkti URL-ile:
 
 `/api/services/SysMessageServices/SysMessageService/SendMessage`
 
-Teie saatmistaotluse keha peaks sarnanema järgmise näitega. Asendage väärtused `_companyId``_messageType` väärtusega ja `_messageContent` vastavalt vajadusele. Teavet erinevate teatetüüpide kohta, mida API toetab ja kuidas nende sisu kujundada, vt järgmisest jaotisest.
+Teie saatmistaotluse keha peaks sarnanema järgmise näitega. Asendage väärtused väärtusega `_companyId``_messageType` ja vastavalt `_messageContent` vajadusele. Teavet erinevate teatetüüpide kohta, mida API toetab ja kuidas nende sisu kujundada, vt järgmisest jaotisest.
 
 ```json
 {
@@ -90,18 +90,18 @@ See jaotis kirjeldab igat tüüpi teateid, mida saab MES-i integratsiooni API ka
 
 ### <a name="start-production-order-message"></a>Käivita tootmistellimuse teade
 
-Tootmistellimuse *teate* alguseks on `_messageType` väärtus `ProdProductionOrderStart`. Järgmine tabel näitab välju, mida see teade toetab.
+Tootmistellimuse *teate alguseks* on `_messageType` väärtus .`ProdProductionOrderStart` Järgmine tabel näitab välju, mida see teade toetab.
 
 | Välja nimi | Olek | Tüüp |
 |---|---|---|
 | `ProductionOrderNumber` | Kohustuslik | String |
 | `StartedQuantity` | Valikuline | Tegelik |
 | `StartedDate` | Valikuline | Kuupäev |
-| `AutomaticBOMConsumptionRule` | Valikuline | Loetelu (FlushingPrincip \| Alati \| mitte kunagi) |
+| `AutomaticBOMConsumptionRule` | Valikuline | Loetelu (FlushingPrincip Alati \| mitte kunagi \|) |
 
 ### <a name="report-as-finished-message"></a>Teata lõpetatuna
 
-Lõpetatuna *kinnitatud* teate väärtus on `_messageType``ProdProductionOrderReportFinished`. Järgmine tabel näitab välju, mida see teade toetab.
+*Lõpetatuna kinnitatud teate* väärtus `_messageType` on `ProdProductionOrderReportFinished`. Järgmine tabel näitab välju, mida see teade toetab.
 
 | Välja nimi | Olek | Tüüp |
 |---|---|---|
@@ -114,17 +114,17 @@ Järgnev tabel näitab välju, mida sõnumi jaotise `ReportFinishedLines` iga ri
 |---|---|---|
 | `LineNumber` | Valikuline | Tegelik |
 | `ItemNumber` | Valikuline | String|
-| `ProductionType` | Valikuline | Enum (MainItem \| valemi \| Co_Product By_Product \|\|\| Puudub), laiendatav |
+| `ProductionType` | Valikuline | Enum (MainItem \| valemi \| kooslus \| Co_Product \| By_Product \| Puudub), laiendatav |
 | `ReportedErrorQuantity` | Valikuline | Tegelik|
 | `ReportedGoodQuantity` | Valikuline | Tegelik|
 | `ReportedErrorCatchWeightQuantity` | Valikuline | Tegelik |
 | `ReportedGoodCatchWeightQuantity` | Valikuline | Tegelik |
 | `AcceptError` | Valikuline |Loogiline |
-| `ErrorCause` | Valikuline | Enum \| (pole \| materjalimasina \| operatsioonisüsteemi), laiendatav |
+| `ErrorCause` | Valikuline | Enum (pole \| materjalimasina \|\| operatsioonisüsteemi), laiendatav |
 | `ExecutedDateTime` | Valikuline | DateTime |
 | `ReportAsFinishedDate` | Valikuline | Kuupäev |
-| `AutomaticBOMConsumptionRule` | Valikuline | Loetelu (FlushingPrincip \| Alati \| mitte kunagi) |
-| `AutomaticRouteConsumptionRule` | Valikuline |Enum (RouteDependent \| Alati \| mitte kunagi) |
+| `AutomaticBOMConsumptionRule` | Valikuline | Loetelu (FlushingPrincip Alati \| mitte kunagi \|) |
+| `AutomaticRouteConsumptionRule` | Valikuline |Enum (RouteDependent \| Alati mitte kunagi \|) |
 | `RespectFlushingPrincipleDuringOverproduction` | Valikuline | Loogiline |
 | `ProductionJournalNameId` | Valikuline | String |
 | `PickingListProductionJournalNameId` | Valikuline | String|
@@ -152,7 +152,7 @@ Järgnev tabel näitab välju, mida sõnumi jaotise `ReportFinishedLines` iga ri
 | `ProductionWarehouseLocationId` | Valikuline | String |
 | `InventoryDimension1` kuni `InventoryDimension12` | Valikuline | String |
 
-12 laiendatav dimensioon `InventoryDimension1``InventoryDimension12` (kuni) nõuab kohandamist ja neid ei kasutata alati. Lisateavet nende kohta vt jaotisest [Uute varude dimensioonide lisamine laiendi kaudu](../../fin-ops-core/dev-itpro/extensibility/inventory-dimensions.md).
+12 laiendatav dimensioon (`InventoryDimension1` kuni `InventoryDimension12`) nõuab kohandamist ja neid ei kasutata alati. Lisateavet nende kohta vt jaotisest Uute [varude dimensioonide lisamine laiendi kaudu](../../fin-ops-core/dev-itpro/extensibility/inventory-dimensions.md).
 
 ### <a name="material-consumption-picking-list-message"></a>Materjalitarbimise (komplekteerimisleht) teade
 
@@ -182,11 +182,12 @@ Järgnev tabel näitab välju, mida sõnumi jaotise `PickingListLines` iga rida 
 | `LineNumber` | Valikuline | Tegelik |
 | `PositionNumber` | Valikuline | String |
 | `IsConsumptionEnded` | Valikuline | Loogiline |
-| `ErrorCause` | Valikuline | Enum \| (pole \| materjalimasina \| operatsioonisüsteemi), laiendatav |
+| `ErrorCause` | Valikuline | Enum (pole \| materjalimasina \|\| operatsioonisüsteemi), laiendatav |
+| `InventoryLotId` | Valikuline | String |
 
 ### <a name="time-used-for-operation-route-card-message"></a>Operatsiooni (protsessikaardi) teate jaoks kasutatav aeg
 
-Operatsiooni *(protsessikaardi) teates kasutatava* aja väärtus `_messageType` on `ProdProductionOrderRouteCard`. Järgmine tabel näitab välju, mida see teade toetab.
+*Operatsiooni (protsessikaardi) teates kasutatava aja* väärtus `_messageType` on `ProdProductionOrderRouteCard`. Järgmine tabel näitab välju, mida see teade toetab.
 
 | Välja nimi | Olek | Tüüp |
 |---|---|---|
@@ -199,7 +200,7 @@ Järgnev tabel näitab välju, mida sõnumi jaotise `RouteCardLines` iga rida `P
 | Välja nimi | Olek | Tüüp |
 |---|---|---|
 | `OperationNumber` | Kohustuslik | Täisarv |
-| `OperationPriority` | Valikuline | Enum (esmane \| teisene \| 1. sekundaarne2 \| ... \| Teisene 20) |
+| `OperationPriority` | Valikuline | Enum (esmane \| teisene 1 \| . sekundaarne2 \| ... \| Teisene 20) |
 | `OperationId` | Valikuline | String |
 | `OperationsResourceId` | Valikuline | String |
 | `Worker` | Valikuline | String |
@@ -214,15 +215,15 @@ Järgnev tabel näitab välju, mida sõnumi jaotise `RouteCardLines` iga rida `P
 | `QuantityPrice` | Valikuline | Tegelik |
 | `ProcessingPercentage` | Valikuline | Tegelik |
 | `ConsumptionDate` | Valikuline | Kuupäev |
-| `TaskType` | Valikuline | Loend (QueueBefore \|\| häälestusprotsessi kattumine transpordi \|\|\| ootel \| seisakuga) |
-| `ErrorCause` | Valikuline | Enum \| (pole \| materjalimasina \| operatsioonisüsteemi), laiendatav |
+| `TaskType` | Valikuline | Loend (QueueBefore häälestusprotsessi \|\| kattumine \| transpordi \| ootel \| seisakuga \|) |
+| `ErrorCause` | Valikuline | Enum (pole \| materjalimasina \|\| operatsioonisüsteemi), laiendatav |
 | `OperationCompleted` | Valikuline | Loogiline |
 | `BOMConsumption` | Valikuline | Loogiline |
 | `ReportAsFinished` | Valikuline | Loogiline |
 
 ### <a name="end-production-order-message"></a>Tootmistellimuse lõpetamise teade
 
-Tootmistellimuse *lõppteate* väärtus on `_messageType``ProdProductionOrderEnd`. Järgmine tabel näitab välju, mida see teade toetab.
+Tootmistellimuse *lõppteate* väärtus `_messageType` on `ProdProductionOrderEnd`. Järgmine tabel näitab välju, mida see teade toetab.
 
 | Välja nimi | Olek | Tüüp |
 |---|---|---|
@@ -244,10 +245,10 @@ Pärast seda, kui MES on tarneahela haldusse sõnumi saatnud, võib tarneahela h
 
 Sellisel juhul saate kasutada tarneahela halduses standardset teatisefunktsiooni. Lisateavet selle kohta, kuidas standardsed teatised töötavad, vaadake järgmistest ressurssidest:
 
-- Spikriteema [teatiste ülevaade](../../fin-ops-core/fin-ops/get-started/alerts-overview.md)
+- Spikriteema teatiste [ülevaade](../../fin-ops-core/fin-ops/get-started/alerts-overview.md)
 - Video: [teatisereegli valikud Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=cpzimwOjicM&ab_channel=MicrosoftDynamics365)
 
 Näiteks võite sõnumi oleku kohta tagasiside andmiseks seadistada järgmised teatised:
 
-- Looge ärisündmus ("Väliselt saatmine), mida kasutatakse siis, kui teade *on* nurjunud.
+- Looge ärisündmus ("Väliselt saatmine")., mida kasutatakse teate *nurjumisel*.
 - Saate saata teatise ja e-kirja IT-haldus- või tootmisjuhile.

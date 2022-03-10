@@ -2,7 +2,7 @@
 title: ER-i konfiguratsioonide koostamine PDF-mallide täitmiseks
 description: Selles teemas antakse teavet selle kohta, kuidas kujundada elektroonilise aruandluse (ER) vormingut PDF-malli täitmiseks.
 author: NickSelin
-ms.date: 03/24/2021
+ms.date: 02/28/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 7c1c21015a172d7ebaa3577d5d0e55c254ef871e
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
-ms.translationtype: HT
+ms.openlocfilehash: a568ddd93bfbc7d536e951a13470b3dedb796e1b
+ms.sourcegitcommit: 753714ac0dabc4b7ce91509757cd19f7be4a4793
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753284"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8367852"
 ---
 # <a name="design-er-configurations-to-fill-in-pdf-templates"></a>ER-i konfiguratsioonide koostamine PDF-mallide täitmiseks
 
@@ -115,11 +115,11 @@ Avage mis tahes PDF-i vaaturis allalaaditud PDF-mallid. Pange tähele, et iga ma
 
 Järgmisel joonisel on kujutatud aruande esimese lehekülje PDF-malli.
 
-![Mall 1](media/rcs-ger-filloutpdf-template1.png)
+![Mall 1.](media/rcs-ger-filloutpdf-template1.png)
 
 Järgmisel joonisel on kujutatud aruande teiste lehekülgede PDF-malli.
 
-![Mall 2](media/rcs-ger-filloutpdf-template2.png)
+![Mall 2.](media/rcs-ger-filloutpdf-template2.png)
 
 1. Lehel **Konfiguratsioonid** valige suvand **Kujundaja**.
 2. Valige **Lisa juur**.
@@ -146,7 +146,7 @@ Järgmisel joonisel on kujutatud aruande teiste lehekülgede PDF-malli.
 
 12. Valige nupp **OK**.
 
-    ![Importimine PDF-i dialoogiaknast](media/rcs-ger-filloutpdf-importtemplate.png)
+    ![Importimine PDF-i dialoogiaknast.](media/rcs-ger-filloutpdf-importtemplate.png)
 
 13. Laiendage puul valikut **Väljund**.
 
@@ -176,7 +176,7 @@ Järgmisel joonisel on kujutatud aruande teiste lehekülgede PDF-malli.
 
     Pange tähele, et imporditud PDF-dokument on lisatud muudetud ER-i vormingule.
 
-    ![PDF-i manuse eelvaade](media/rcs-ger-filloutpdf-attachedtemplate.png)
+    ![PDF-i manuse eelvaade.](media/rcs-ger-filloutpdf-attachedtemplate.png)
 
 19. Jätkake selle vormingu kujundamist, importides teise PDF-malli, lisades vajalikud sidumised andmeallikatega jne.
 20. Valige käsk **Salvesta**.
@@ -215,7 +215,7 @@ Järgmisena impordite ER-i vormingu näidise, mille eelnevalt laadiste alla, et 
 1. Valige lehel **Vormingu kujundaja** vahekaart **Vastendamine**.
 2. Laiendage puul suvandit **Saalimine \> Lehed**.
 
-    ![Valemi kujundaja lehekülg, kus on laiendatud mudelipuu](media/rcs-ger-filloutpdf-reviewformat.png)
+    ![Valemi kujundaja lehekülg, kus on laiendatud mudelipuu.](media/rcs-ger-filloutpdf-reviewformat.png)
 
     Arvestage järgmist.
 
@@ -227,7 +227,7 @@ Järgmisena impordite ER-i vormingu näidise, mille eelnevalt laadiste alla, et 
         SPLITLIST (Kogusummad.CommodityRecord, 42)
 
     - **Saalimine. Lehted** andmeallikas sisaldab **Saalimine.Lehed. Loendatud** elementi, mis tagastab iga partiisse kaasatud kirje üksikasjad. Need üksikasjad hõlmavad kirje seeriat praeguses partiis ( väli **Saalimine.Lehed.Nummerdatud.Number**). Välja **Saalimine.Lehed.Nummerdatud.Number** kasutatakse **PDF-välja** vormingu elementide **nime** avaldises, et luua välja nimi dünaamiliselt, mis põhineb kande numbril partiis. Loodud välja nime kasutatakse seejärel õige PDF-i välja täitmiseks kasutatavas PDF-mallis.
-    - **PDF-grupi** tüübi elemendi **väljund \>leht N \> üksikasjad 2** vorming on seotud andmeallikaga **Saalimine. LehtN.Loendatud** (või **\@.Loendamine**, kui on kasutatud **suhtelise tee**  vaate režiimi) **kirjeloendi** tüübiga. Seetõttu täidetakse selle PDF-grupi pesastatud elemendid iga kirje puhul seotud kirjeloendist. Sel viisil luuakse eraldi PDF-read, kus igas N-is on 42 loendi **Saalimine.LehtN.Loendatud** kirjet.ja järgmised PDF-väljad on täidetud: kuupäev N, suund N, kaup N jne. Seetõttu meenutab selle **Väljagrupi** vormingu element käitumine **XML \> Seeria** ja **Teksti \> Seeria** vormingu elementide käitumist.
+    - **PDF-grupi** tüübi elemendi **väljund \>leht N \> üksikasjad 2** vorming on seotud andmeallikaga **Saalimine. LehtN.Loendatud** (või **\@.Loendamine**, kui on kasutatud **suhtelise tee** vaate režiimi) **kirjeloendi** tüübiga. Seetõttu täidetakse selle PDF-grupi pesastatud elemendid iga kirje puhul seotud kirjeloendist. Sel viisil luuakse eraldi PDF-read, kus igas N-is on 42 loendi **Saalimine.LehtN.Loendatud** kirjet.ja järgmised PDF-väljad on täidetud: kuupäev N, suund N, kaup N jne. Seetõttu meenutab selle **Väljagrupi** vormingu element käitumine **XML \> Seeria** ja **Teksti \> Seeria** vormingu elementide käitumist.
 
 3. Puul laiendage **Väljundi \> Leht N \> Üksikasjad2**.
 4. Puul valige **Väljund \> Leht N \> Üksikasjad2 \> LeheJalus**.
@@ -238,7 +238,7 @@ Järgmisena impordite ER-i vormingu näidise, mille eelnevalt laadiste alla, et 
 
     Pange tähele , et selle vormingu elemendi **Nimi** on määratletud kui **Parandus 1**. Samuti pange tähele, et vormingu elemendi avaldis **Nimi** on määratletud kui **Saalimine.FldNimi („Parandus",\@.Number)**.
 
-![Vormingu kujundaja, kus vastendamine on valitud](media/rcs-ger-filloutpdf-reviewformat2.png)
+![Vormingu kujundaja, kus vastendamine on valitud.](media/rcs-ger-filloutpdf-reviewformat2.png)
 
 Arvestage, vormingu elementi **Väli** kasutatakse täidetava PDF-dokumendi üksiku välja täitmiseks, mis on määratud **PDF-faili** emavormingu elemendi mallina. **PDF-faili** vormingu elemendi sidumine või pesastatud elemendid, kui on pesastatud elemente, määrab vastavatele PDF-väljadele sisestatavad väärtused. **Välja** vormingu elemendi erinevaid atribuute saab kasutada, et määrata, milline PDF-väli täidetakse üksiku vormingu elemendiga:
 
@@ -275,7 +275,7 @@ Järgmisena laadige **Intrastati (Impordi Excelist)** ER-i vormingu näidis. See
 
     Kui suvand **Mudeli vaikimisi vastendamine** on vaikimisi seatud väärtusele **Jah**, siis määratakse imporditud **Intrastati (imporditud Excelist)** ERi vormingule vaikimisi andmeallika **Intrastati aruande (PDF)** vormingu konfiguratsioon. Siis, kui **Intrastati aruande (PDF)** vormingu konfigureerimine on käivitatud, simuleerib Exceli töövihiku sisu, mis on sõelutud **Intrastati (importud Excelist)** ER-i vormingus, väliskaubanduse kandeid, millest tuleb teatada. Järgmisel joonisel on toodud Exceli töövihiku näide.
 
-    ![Exceli töövihik, millel on näidisandmed](media/rcs-ger-filloutpdf-excelworkbook.png)
+    ![Exceli töövihik, millel on näidisandmed.](media/rcs-ger-filloutpdf-excelworkbook.png)
 
 ### <a name="run-the-format-configuration"></a>Vormingu konfiguratsiooni käitamine
 
@@ -289,11 +289,25 @@ Järgmisena laadige **Intrastati (Impordi Excelist)** ER-i vormingu näidis. See
 
 Järgnev illustratsioon näitab aruande esimesest leheküljest loodud näidet.
 
-![Loodud aruande esimene lehekülg](media/rcs-ger-filloutpdf-generatedreport.png)
+![Loodud aruande esimene lehekülg.](media/rcs-ger-filloutpdf-generatedreport.png)
 
 Järgnev illustratsioon näitab aruande teistest lehekügedest loodud näidet.
 
-![Loodud aruande muu lehekülg](media/rcs-ger-filloutpdf-generatedreport2.png)
+![Loodud aruande muu lehekülg.](media/rcs-ger-filloutpdf-generatedreport2.png)
+
+## <a name="limitations"></a>Kitsendused
+
+Täitmisväljade nimed peaksid olema kordumatud PDF-vormingus, mida plaanite aruandemallina kasutada. Igale sellisele väljale luuakse PDF-vormi importimisel vastava nimega üksikvormingu element redigeeritavas ER-vormingus. Kui PDF-vorm sisaldab mitut sama nimega välja, luuakse üks vorminguelement väljadele, mis ei luba neid käitusajal eraldi täita.
+
+## <a name="frequently-asked-questions"></a>Korduma kippuvad küsimused
+
+### <a name="when-i-run-the-er-format-to-generate-a-report-in-pdf-format-why-do-i-get-the-following-errors--cannot-handle-iref-streams-the-current-implementation-of-pdfsharp-cannot-handle-this-pdf-feature-introduced-with-acrobat-6-and-a-pdf-name-must-start-with-a-slash-"></a>Pdf-vormingus aruande loomiseks käivitades ER-vormingu, siis kuvatakse järgmised tõrked: **ei saa käsitseda tagasijaotatud vooge. PDFSharpi praegune juurutamine ei suuda käsitseda seda Pdf-funktsiooni, mis käivitati koos Acrobat 6-ga.** Ja **PDF-nimi peavad algma kaldkriipsuga (/).**
+
+ER-raamistik kasutab nende PDF-aruannete loomiseks PDF-aruannete loomiseks PDF-teeki 1.5. Mõningaid PDF 1.5 (Adobe Reader 6.0) funktsioone ei ole selles teegis veel rakendatud. Seetõttu ei saa PDFSharp veel **avada faile, mis on märgitud pdf-vormingus 1.5** või uuem ja mille puhul võivad ilmneda tõrked. Probleemi lahendamiseks kasutage üht järgmistest lahendustest:
+
+-   Kui kasutate oma PDF-malli: alandate Adobe malli varasemasse versiooni ja alustate uue malli kasutamist ER-vormingus.
+-   Kui kasutate ER-i vormingu malli, mille teine konfiguratsioonipakkuja teile ER-lahenduse osana jagas: võtke ühendust selle ER-lahenduse omanikuga ja esitage probleemi kirjeldus.
+-   Kui kasutate ISV lahendust, mis sisaldab PDFSharpi teeki varasemat versiooni: võtke ühendust lahenduse omanikuga ja soovitage uuendada uuemat PDFSharpi versiooni.
 
 ## <a name="additional-resources"></a>Lisaressursid
 

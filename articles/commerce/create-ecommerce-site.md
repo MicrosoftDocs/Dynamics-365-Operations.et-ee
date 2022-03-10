@@ -2,7 +2,7 @@
 title: E-kaubanduse saidi loomine
 description: See teema kirjeldab vajalikke etappe ja teavet uue e-kaubanduse saidi loomiseks Dynamics 365 Commerce'i saidiehitajas.
 author: bicyclingfool
-ms.date: 02/03/2022
+ms.date: 03/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 01f22772fd8c8984a2f92c516972d6659325a18c
-ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
-ms.translationtype: HT
+ms.openlocfilehash: 5e451b1c95c3e26d1292e7b8300b62af43c81f2f
+ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8090765"
+ms.lasthandoff: 03/05/2022
+ms.locfileid: "8388207"
 ---
 # <a name="create-an-e-commerce-site"></a>E-kaubanduse saidi loomine
 
@@ -30,6 +30,19 @@ ms.locfileid: "8090765"
 See teema kirjeldab vajalikke etappe ja teavet uue e-kaubanduse saidi loomiseks Dynamics 365 Commerce'i saidiehitajas.
 
 Kui litsentsite Dynamics 365 Commerce'i võimalusi, valmistatakse saidiehitaja ette koos alustussaidiga, mida saate kasutada oma saidi alusena. Kui aga soovite alustada nullist või luua teise saidi, tuleb teil luua uus sait saidi autorluse keskkonnas. 
+
+## <a name="site-creation-prerequisites"></a>Saidi loomise eeltingimused
+
+Saidikonstruktori kasutajal peab olema Microsofti Azure Active Directory (Azure AD) Azure AD kasutajakonto, mis kuulub e-commerce'i süsteemi administraatoritele turvagruppi. Lisateavet vt teemast Uue e-äri [rentniku juurutamine](deploy-ecommerce-site.md).
+
+> [!NOTE]
+> Azure AD Külaliskasutajatel võivad olla teie rentnikus erinevad juurdepääsuõigused Azure AD. Isegi kui see Azure AD on kaasatud e-äri süsteemi administraatoritele määratud turvagruppi, Azure AD **võib** külaliskasutaja äris e-äri saidi loomiseks vajada väliste kasutajate õiguste sätete korrigeerimist. 
+
+Väliste Azure AD **kasutajate sätete korrigeerimiseks** järgige neid samme.
+
+1. Azure'i portaalis navigeerige oma rentnikuni Azure AD.
+1. Minge kasutajasätete **\> väliste kasutajate ja** valige link **Välise koostöö sätete** haldamine. See avab välise **koostöö sätete lehe**, kus saab seada külaliskasutaja juurdepääsu, külalise kutse sätteid ja koostööpiiranguid. 
+1. Korrigeerige välis koostöösätteid vastavalt teie ettevõtte turvapoliitikale. 
 
 ## <a name="set-up-your-site"></a>Saidi seadistamine
 
@@ -50,13 +63,13 @@ Oma saidi seadistamiseks tehke järgmist.
 
 Pärast saidi loomist saate kontrollida, kas see on teie võrgupoega seotud, valides vahekaardi **Tooted**. Peaksite nägema veebipoele eraldatud toodete valikut. Saate kasutada ka lehe üleval vasakul ripploendit, et pääseda kategooriate põhjal eraldatud toodete juurde.
 
-## <a name="rename-your-site"></a>Saidi ümbernimetamine
+## <a name="rename-your-site"></a>Nimetage sait ümber
 
-Saidi ümbernimetamiseks saidikoosturis tehke järgmist.
+Saidi ümbernimetamiseks saidikonstruktoris järgige neid samme.
 
-1. Saidiloendivaate avamiseks valige **paremas ülanurgas saidilüliti** ja seejärel valige **Halda saite**. 
-1. Märkige selle saidi kõrval olev ruut, mille soovite ümber nimetada, ja seejärel valige **käsuribal Nimeta ümber**.
-1. **Sisestage dialoogiboksi Uus saidi nimi** uus saidi nimi ja seejärel valige **OK**. Saidiloendit värskendatakse, et kuvada saidi uus nimi.
+1. Saidiloendi vaate avamiseks valige ülemisel **parempoolsel nurgal** saidilüliti ja seejärel valige suvand Halda **saite**. 
+1. Valige märkeruut saidi kõrval, mida soovite ümber nimetada ja seejärel valige käsuribal **ümbernimetamine**.
+1. Dialoogiaknas **Uus saidi** nimi sisestage uus saidi nimi ja seejärel valige **OK**. Saidi loend uuendab saidi uue nime näitamiseks.
 
 ## <a name="additional-resources"></a>Lisaressursid
 

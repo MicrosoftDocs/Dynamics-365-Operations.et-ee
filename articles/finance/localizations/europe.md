@@ -1,23 +1,23 @@
 ---
 title: Euroopa ülevaade
 description: See teema sisaldab linke Microsoft Dynamics 365 Finance Euroopa dokumentatsiooni ressurssidele.
-author: ShylaThompson
-ms.date: 02/24/2021
-ms.topic: article
+author: kfend
+ms.date: 01/15/2022
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: global
-ms.author: roschlom
+ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 382cfc3eaacd0610491646f32e8c7684e0451d7f
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
-ms.translationtype: HT
+ms.openlocfilehash: 1b7a3dd75f526a076b6fe696f71ec623e20abb24
+ms.sourcegitcommit: 753714ac0dabc4b7ce91509757cd19f7be4a4793
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5892369"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8367844"
 ---
 # <a name="europe-overview"></a>Euroopa ülevaade
 
@@ -36,13 +36,13 @@ See teema sisaldab teavet ja linke ressurssidele, mis aitavad teil seadistada ju
 - [Arvete ID-de redigeerimine müügitellimustel Ida-Euroopa puhul](emea-edit-invoice-id-sales-orders.md)
 - [ELi kandesertifikaadid](emea-entry-certificates.md)
 - [ELi käibearuandlus](emea-eu-sales-list.md)
+  - [Näide üldisest EL käibeloendist](emea-eu-sales-list-example.md)
 - [Vahetuskursi korrektsioonid](emea-exchange-rate-adjustments.md)
 - [Makseviiside failivormingud](emea-select-file-formats-for-the-method-of-payments.md)
 - [Finantside (globaliseerumine) juhised Brexit mõju kohta](https://businesscenter.mbs.microsoft.com/#contentdetail/GuidanceBrexitImpact)
 - [Finantsteenuse (ESR) integratsioon](emea-fiscal-service-integration.md)
 - [Põhivarade likvideerimine Eesti ja Leedu puhul](emea-credit-note-reverse-fixed-asset-sale.md)
 - [Varude sisemise üleviimise ülekandedokumendi koostamine](tasks/transfer-document-internal-inventory-transfer.md)
-- [EL-i käibearuande loomine](tasks/eur-00011-eu-sales-list-report.md)
 - ISO20022-failid
   - [ISO20022-failide importimine](emea-ISO20022-file-formats.md)
   - [ISO20022 otsekorralduse konfiguratsiooni importimine](tasks/import-iso20022-direct-debit-configuration.md)
@@ -77,7 +77,6 @@ See teema sisaldab teavet ja linke ressurssidele, mis aitavad teil seadistada ju
 - [SEPA kreeditiülekande ülevaade](../accounts-payable/sepa-credit-transfer.md)
 - [SEPA otsekorralduse ülevaade](../accounts-receivable/sepa-direct-debit-overview.md)
 - [Kliendi ja hankija hüvituse seadistamine](emea-compensation-customer-vendor-transactions.md)
-- [EL-i käibearuandluse häälestus](tasks/eur-00011-eu-sales-list-reporting.md)
 - [Maksekviitungi vormingu seadistamine projektiarvete jaoks](tasks/set-up-payment-slip-format-project-invoices.md)
 - [Allkirjastajate häälestamine prindivormide jaoks](emea-set-up-signers-for-printing-forms.md)
 - [Stornoarvestus](emea-storno.md)
@@ -93,6 +92,8 @@ See teema sisaldab teavet ja linke ressurssidele, mis aitavad teil seadistada ju
   - [KM-aruande loomine ja esitamine](tasks/create-submit-vat-report.md)
   - [Ida-Euroopa kannete vaatamine tasakaalustamisel](emea-transactions-settlement-form.md)
   - [Maksupunkti kuupäev (KM-registri kuupäev)](emea-tax-point-date.md)
+  - [Hankija KM-registri kuupäev](emea-date-vendor-VAT-register.md)
+- [Finantspõhjuse funktsiooni laiend](emea-financial-reason.md)
 
 ## <a name="additional-resources"></a>Lisaressursid
 

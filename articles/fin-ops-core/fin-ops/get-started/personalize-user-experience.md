@@ -2,7 +2,7 @@
 title: Kasutuskogemuse isikupärastamine
 description: Selles teemas selgitatakse, kuidas isikupärastada rakendust.
 author: jasongre
-ms.date: 01/28/2022
+ms.date: 03/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 840a68d506664043c9affb67e801429e0594f0bd
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
-ms.translationtype: HT
+ms.openlocfilehash: 4bdce3cd12358112e40a783c73795bd6f35545c8
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075418"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384639"
 ---
 # <a name="personalize-the-user-experience"></a>Kasutuskogemuse isikupärastamine
 
@@ -158,16 +158,20 @@ Mõned lehed, milles on loendid, on isikupärastamisfunktsioon **Lisa tööruumi
 
 - Tööruumile loendi lisamiseks tööruumi sortige või filtreerige esmalt lehel loend, et see kuvaks teavet nii, nagu soovite seda tööruumis kuvada. (Kui funktsioon **Salvestatud vaated** on sisse lülitatud, ei saa te jätkata enne, kui salvestate nende tingimustega vaate.) Seejärel valige **Lisa tööruumi**. Valige tööruum ja seejärel valige väljal **Esitlus** suvand **Loend**. Pärast suvandi **Konfigureeri** valimist ilmub dialoogiboks, kus saate valida veerud, mis peaks tööruumis loendis ilmuma. Saate ka määrata tööruumis olevale loendile sildi.
 - Tööruumile paani lisamiseks filtreerige esmalt lehel loendit, et see kuvaks andmed, mida tuleks kokku võtta või millele soovite kiirelt juurdepääsu. (Kui funktsioon **Salvestatud vaated** on sisse lülitatud, ei saa te jätkata enne, kui salvestate nende tingimustega vaate.) Seejärel valige **Lisa tööruumi**. Valige tööruum ja seejärel valige väljal **Esitlus** suvand **Paan**. Kui olete valinud suvandi **Konfigureeri**, ilmub dialoogiboks, kus saate määrata tööruumis olevale paanile sildi. Saate ka määrata, kas paanil kuvatakse arv. Pärast seda, kui paan on tööruumi lisatud, saate selle valida praeguse lehe avamiseks tööruumist. Seejärel saate vaadata paaniga seotud filtreeritud loendit.
-- Tööruumile lingi lisamiseks filtreerige esmalt lehel loend, nii et see kuvaks andmeid, millest olete huvitatud. (Kui funktsioon **Salvestatud vaated** on sisse lülitatud, ei saa te jätkata enne, kui salvestate nende tingimustega vaate.) Seejärel valige **Lisa tööruumi**. Valige tööruum ja seejärel valige väljal **Esitlus** suvand **Link**. Kui olete valinud suvandi **Konfigureeri**, ilmub dialoogiboks, kus saate määrata tööruumis olevale lingile sildi. Soovi korral saate määrata ka selle jaotise sildi, kuhu seda linki saab paigutada. Kui seda jaotist pole olemas, luuakse uus jaotis.
+    - Kui versioonis 10.0.26 **on lubatud funktsioon Luba kasutajatel paanisuurusi valida ja muuta,** **saate** uue paani jaoks valida ühe neljast saadaolevast paani suurusest paani konfigureerimise dialoogis.**·** See funktsioon võimaldab teil paani suurust korrigeerida ka pärast selle loomist otse tööruumist.   
+- Tööruumile lingi lisamiseks filtreerige esmalt lehel loend, nii et see kuvaks andmeid, millest olete huvitatud. (Kui funktsioon **Salvestatud vaated** on sisse lülitatud, ei saa te jätkata enne, kui salvestate nende tingimustega vaate.) Seejärel valige **Lisa tööruumi**. Valige tööruum ja seejärel valige väljal **Esitlus** suvand **Link**. Kui olete valinud suvandi **Konfigureeri**, ilmub dialoogiboks, kus saate määrata tööruumis olevale lingile sildi. Soovi korral saate määrata ka sektsiooni sildi, kuhu seda linki saab paigutada. Kui seda sektsiooni ei ole, luuakse uus jaotis.
 
 > [!NOTE]
-> Alates versioonist 10.0.25 peate loendi, paani või lingi konfigureerimisel võib-olla valima ka tööruumivaated, millele soovite elemendi lisada, kui **funktsioon (Eelvaade) Salvestatud** vaadete tugi tööruumide jaoks on lubatud. Saadaolevad tööruumivaated kuvatakse **dialoogiboksi Konfigureeri** jaotises **Tööruumisuvandid**. 
+> Versiooni 10.0.25 puhul tuleb loendi, paani või lingi konfigureerimisel valida ka tööruumi vaated, millele soovite elemendi lisada, **kui on lubatud tööruumi salvestatud vaadete (Eelvaade)** tugi. Saadaolevad tööruumi vaated kuvatakse iga dialoogiboksi **Konfigureeri suvandid** jaotises **Tööruumi** suvandid. 
 
 Kui loend, paan või link on tööruumile lisatud, saate selle tööruumi avada ja elemendid soovitud viisil ümberkorraldada.
 
 ### <a name="adding-a-summary-from-a-workspace-to-a-dashboard"></a>Kokkuvõtte lisamine tööruumist armatuurlauale
 
 Mõni tööruum sisaldab arvpaane (st paane, millel on arvud) ja teil on võimalik ka need paanid armatuurlaual kuvada. Tööruumis paremklõpsake inventuuripaani, valige **Isikupärasta** ja seejärel valige paani atribuutide aknas **Kinnita armatuurlauale**. Järgmine kord, kui te armatuurlaua avate ja seda värskendate, kuvatakse arv selle tööruumi navigeerimispaani all. Saate suunata selle arvu otse asjassepuutuvate andmete juurde.
+
+### <a name="changing-the-size-of-a-tile"></a>Paani suuruse muutmine
+Versiooni 10.0.26 **käivitamisel** lubab luba kasutajatel paani suuruseid valida ja muuta funktsioon võimaldab kasutajatel isikupärastamise kaudu muuta mis tahes kpI-paani suurust. Tööruumis paremklõpsake paani ja valige käsk **Isikupärasta**. Paani atribuudiaknas valige paani suurusevalikust **soovitud** suurus. Paani suurus korrigeeritakse kohe. Kui (**Eelvaate) salvestatud vaadete tugi on tööruumide** funktsiooni lubatud, saate selle isikupärastamise salvestada tööruumi vaatesse.  
 
 ### <a name="personalizing-your-dashboard"></a>Armatuurlaua isikupärastamine
 
@@ -230,9 +234,9 @@ Kui salvestatud vaated ei ole lubatud, järgige isikupärastamise kopeerimiseks 
 Teine viis isikupärastamise jagamiseks on läbi ekspordi ja impordi. Üksikud kasutajad või administraator, kes tegutseb enda nimel, saavad seda meetodit kasutada oma isikupärastamise või vaadete eksportimiseks ja seejärel anda eksporditud faili teistele kasutajatele importimiseks. Teise võimalusena saavad kasutajad anda eksporditud isikupärastamised haldusõigusi omavale kasutajale ja see kasutaja saab seejärel kasutada **Isikupärastamise** halduslehte et rakendada isikupärastamise fail paljudele kasutajatele samaaegselt.
 
 > [!IMPORTANT]
-> Kuna isikupärastamine püsib värskenduste lõikes, ei ole kõigi isikupärastamiste uuesti importimine pärast teenuse värskendamist või muul ajal tarbetu ja väga heidutatud.
+> Kuna isikupärastamised jäävad püsima kõigis uuendustes, importige kõik isikupärastamised uuesti pärast teenuse uuendamist või mis tahes muul ajal on ebavajalik ja väga laidetud.
 
-#### <a name="export"></a>Eksport
+#### <a name="export"></a>Ekspordi
 
 Üldiselt saate eksportida ühe oma vaadetest või isikupärastamist, avades sobiva lehekülje, avades **isikupärastamise** tööriistariba ja valides seejärel **Ekspordi**. Lisateavet tööriistariba kohta vt [Tööriistariba isikupärastamise](#personalization-toolbar) jaotisest varasemalt selles teemas. Kui [salvestatud vaated](saved-views.md) on lubatud, saate minna ka **Sätted \> Kasutaja võimalused \> Isikustamine** et vaadata kõigi isikustamiste loendit süsteemis. Sealt saate valida eksportimiseks vaateid või isikupärastamiseid ja seejärel valida **Ekspordi**.
 

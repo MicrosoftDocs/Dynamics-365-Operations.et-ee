@@ -2,7 +2,7 @@
 title: Tagastuste loomine müügikohas
 description: See teema kirjeldab, kuidas käivitada kassarakenduses sularaha- ja käsirahakannete tagastamine Microsoft Dynamics 365 Commerce Point of Sale (POS) rakendustes.
 author: hhainesms
-ms.date: 06/01/2021
+ms.date: 02/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-20
 ms.dyn365.ops.version: Release 10.0.20
-ms.openlocfilehash: 53cad70e2c4866a18427157bc8b7fa1c3fda4daa
-ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
-ms.translationtype: HT
+ms.openlocfilehash: 3250f702f033fb8b00763542fd8342c089b47b2e
+ms.sourcegitcommit: d2e5d38ed1550287b12c90331fc4136ed546b14c
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/17/2021
-ms.locfileid: "6638141"
+ms.lasthandoff: 02/25/2022
+ms.locfileid: "8349687"
 ---
 # <a name="create-returns-in-pos"></a>Tagastuste loomine müügikohas
 
@@ -96,6 +96,13 @@ Kui kanali poolne teave ei ole mõnel põhjusel uuendatud ja ühenduseta tagastu
 
 > [!NOTE]
 > Kui **ühtne tagastuste töötlemise kogemus kassas** funktsioon on sisse lülitatud, muutuvad kättesaadavaks uued valikulised funktsioonid, mis toetavad seeriaks jaotatud toote tagastuste kinnitamist. Lisateavet vt [müügikohas (POS) jaotisest Seerianumbriga kontrollitud toodete tagastus](POS-serial-returns.md).
+
+## <a name="version-details"></a>Versiooni üksikasjad
+
+Järgmises loendis on esitatud erinevate komponentide minimaalsed versiooninõuded.
+- Commerce headquarters: versioon 10.0.20
+- Commerce Scale Unit (CSU): versioon 9.30
+- Kassa: versioon 9.30
 
 ## <a name="enable-proper-tax-calculation-for-returns-with-partial-quantity"></a>Luba osalise kogusega tagastuste korral nõuetekohane maksuarvutus
 

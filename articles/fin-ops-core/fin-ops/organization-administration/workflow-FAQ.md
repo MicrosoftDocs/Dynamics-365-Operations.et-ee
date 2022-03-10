@@ -2,7 +2,7 @@
 title: Töövoo KKK
 description: Teemas on toodud vastused korduma kippuvatele küsimustele töövoo süsteemi kohta.
 author: ChrisGarty
-ms.date: 09/21/2020
+ms.date: 03/01/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,16 +12,19 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 11604389ff598c70e15709c9e3e04b6ec436f6a6
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
-ms.translationtype: HT
+ms.openlocfilehash: 0e9e2000684081035f35ea55e1c773a4f6976d74
+ms.sourcegitcommit: 967b93bb42413b5b38b817f924015468312a93a0
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5747197"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8370876"
 ---
 # <a name="workflow-faq"></a>Töövoo KKK
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Teemas on toodud vastused korduma kippuvatele küsimustele töövoo süsteemi kohta.
 
@@ -31,7 +34,7 @@ Tööüksuse tagasilükkamisel viiakse see tööüksus tagasilükatuna lõpuni. 
 Iga teatis on erineva tööüksuse jaoks, kuid nende sarnasus võib põhjustada segadust. Otsime võimalusi selle tulevases väljaandes parandamiseks.
 
 ## <a name="why-are-my-workflow-exports-failing"></a>Miks minu töövoo eksport nurjub?
-Praegu on töövoo ekspordi funktsioonil piirang, milles töövoo nimede pikkus ei tohi ületada 48 märki. Kasutades nime, mis on pikem kui 48 märki võib põhjustada tõrke "Server ei saanud taotlust autentida" ja/või takistada faili eksportimist failitüübita. Järgmine ajaveebipostitus sisaldab üksikasju [Töövoo ekspordi tõrkeotsingu](https://community.dynamics.com/ax/b/elandaxdynamicsaxupgradesanddevelopment/archive/2019/04/10/workflow-export-troubleshooting) kohta.
+Praegu on töövoo ekspordi funktsioonil piirang, milles töövoo nimede pikkus ei tohi ületada 48 märki. Kasutades nime, mis on pikem kui 48 märki võib põhjustada tõrke "Server ei saanud taotlust autentida" ja/või takistada faili eksportimist failitüübita. Järgmine ajaveebipostitus sisaldab üksikasju [Töövoo ekspordi tõrkeotsingu](https://community.dynamics.com/365/financeandoperations/b/elandaxdynamicsaxupgradesanddevelopment/posts/workflow-export-troubleshooting) kohta.
 
 ## <a name="can-the-submitter-of-a-workflow-also-approve-the-workflow"></a>Kas töövoo edastaja saab töövoo ka kinnitada?
 Jah, töövoo eedastaja saab töövoo ka kinnitada, kui see on nii konfigureeritud. Selle käitumise vältimiseks seadistage **Süsteemihaldus > Töövoog > Töövoo parameetrid > Üldine > Kinnitaja > Keela edastaja tehtud kinnitamine** olekule **Jah**.
@@ -45,9 +48,9 @@ Siin on mõned asjad, millele teatsite edastamiseks töövoogudele märguandeid 
     - Tulevases uuenduses lisame tegevuskeskuse teate, nii et kasutajale määratakse töövoo tööüksus. 
 - Teatiste töövoogudesse lisamine
     - Tegevuskeskuse teateid saab luua kindlatele kasutajatele, nt töövoost X++ loodud sõnum.
-    - [Töövoogudel on ärisündmused](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow), mida klient saab kasutada Flowsi käivitamiseks, et saada nende otsitavad teatised.   
+    - [Töövoogudel on ärisündmused](../../dev-itpro/business-events/business-events-workflow.md), mida klient saab kasutada Flowsi käivitamiseks, et saada nende otsitavad teatised.   
 
-Kokkuvõttes, kui kasutaja ei saa töövoo tööüksuse määramisel tegevuskeskusest nõuetekohast teatist, kasutage ära [Töövoo ärisündmuseid](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) koos Microsoft Power Automate'ga, et pakkuda täiendavad või muid teatiseid.
+Kokkuvõttes, kui kasutaja ei saa töövoo tööüksuse määramisel tegevuskeskusest nõuetekohast teatist, kasutage ära [Töövoo ärisündmuseid](../../dev-itpro/business-events/business-events-workflow.md) koos Microsoft Power Automate'ga, et pakkuda täiendavad või muid teatiseid.
 
 ## <a name="why-is-workflow-editor-not-able-to-start-under-ad-fs"></a>Miks ei saa töövoo redaktor AD FS-i all käivituda?
 Täiendatud keskkonnas teenuse Active Directory Federation Services (AD FS) all töötamisel võib töövoo redaktoril olla probleeme alustamisega. Kui jah, veenduge, et URL https://dynamicsaxworkfloweditor/ oleks ADFS-i sätetes lisatud atribuudile **Microsoft Dynamics 365 for Operations kohapeal – Töövoog – Omarakendus**.

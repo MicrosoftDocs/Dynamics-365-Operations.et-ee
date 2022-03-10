@@ -1,8 +1,8 @@
 ---
 title: Eemaldatud või aegunud platvormi funktsioonid
-description: See teema kirjeldab funktsioone, mis on eemaldatud või plaanitakse eemaldada Finance and Operationsi rakenduste platvormi uuendustest.
+description: See teema kirjeldab funktsioone, mis on eemaldatud või mida on planeeritud finantside ja toimingute rakenduste platvormivärskendustes eemaldamiseks.
 author: sericks007
-ms.date: 08/27/2021
+ms.date: 03/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,34 +12,104 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 68114989ab96d175b534a31a7115420ee4adbcfb
-ms.sourcegitcommit: b294840b8e12aaa2775dd73b2ba9481ecc3d91d5
+ms.openlocfilehash: 6b4c514d34e4afbaac4afabed6865496747c0411
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "7463615"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384716"
 ---
-# <a name="removed-or-deprecated-platform-features"></a>Eemaldatud või aegunud platvormi funktsioonid
+# <a name="removed-or-deprecated-platform-features"></a>Eemaldatud või iganenud platvormifunktsioonid
 
 [!include [banner](../includes/banner.md)]
 
-See teema kirjeldab funktsioone, mis on eemaldatud või plaanitakse eemaldada Finance and Operationsi rakenduste platvormi uuendustest.
+See teema kirjeldab funktsioone, mis on eemaldatud või mida on planeeritud finantside ja toimingute rakenduste platvormivärskendustes eemaldamiseks.
 
 - *Eemaldatud* funktsioon pole tootes enam saadaval.
 - *Aegunud* funktsioon ei ole aktiivses arenduses ja vee võidakse tulevases värskenduses eemaldada.
 
 See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võtta. 
 
-Üksikasjalikku teavet rakenduse Finance and Operationsi rakenduste objektide kohta leiate teemast [Tehnilise teabe aruanded](/dynamics/s-e/global/axtechrefrep_61). Saate võrrelda nende aruannete eri versioone, et õppida objektide kohta, mida on igas Finance and Operationsi rakenduste versioonis muudetud või eemaldatud.
+Finantside ja toimingute rakenduste objektide üksikasjaliku teabe leiate tehnilistest [viitearuannetest](/dynamics/s-e/global/axtechrefrep_61). Saate võrrelda nende aruannete erinevaid versioone, et saada teavet objektide kohta, mida on igas Finantsi ja operatsioonide rakenduste versioonis muudetud või eemaldatud.
 
+## <a name="feature-removal-effective-october-2021"></a>Funktsiooni eemaldamine jõustub 2021. aasta oktoobris
+
+### <a name="microsoft-azure-sql-reports-in-lifecycle-services-lcs"></a>Microsoft Azure Lifecycle Services’i (LCS) SQL aruanded
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Aegumise/eemaldamise põhjus** | Kõik tegevused ja seire viiakse läbi sisemiselt, platvormi kaudu, automatiseerimise abil. See ei nõua käsitsi sekkumist.|
+| **Asendatud teise funktsiooniga?**   | Jah, nüüd on olemas automatiseeritud süsteem, mis renderdab need võimalused aegunuks. |
+| **Mõjutatud tootealad**         | SQL-i aruanded: praegune DTU, praeguse DTU üksikasjad, lukustamise üksikasjad, praeguse plaani juhendi loend, päringu ID-de loendi toomine, SQL-i päringuplaani toomine antud plaani ID jaoks, päringuplaanide ja käivitamise oleku toomine, konfiguratsiooni saamine, oota statistikat, kõige kallimate päringute loend |
+| **Juurutamissuvand**              | Pilve juurutamine: Mõjutab Microsoft`i hallatud tootmiskeskkondi ja liivakastikeskkondi kihist 2 kuni kihini 5. |
+| **Olek**                         | Eemaldatud |
+
+### <a name="azure-sql-actions-in-lcs"></a>Azure SQL-i tegevused LCS-is
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Aegumise/eemaldamise põhjus** | Mõned SQL-aruanded LCS-s aeguvad. Kõik tegevused ja seire viiakse läbi sisemiselt, platvormi kaudu, automatiseerimise abil. See ei nõua käsitsi sekkumist. |
+| **Asendatud teise funktsiooniga?**   | Jah, nüüd on olemas automatiseeritud süsteem, mis renderdab need võimalused aegunuks. |
+| **Mõjutatud tootealad**         | SQL-i tegevused: plaanijuhendi loomine, et sundida plaani ID-d, luua plaanijuhend tabeli vihjete lisamiseks, plaani juhendi eemaldamine, lehelukkude keelamine/lukustamine ja lukustamise eskalatsioon, tabeli statistika värskendamine, indeksi uuesti loomine, indeksi loomine |
+| **Juurutamissuvand**              | Pilve juurutamine: Mõjutab Microsoft`i hallatud tootmiskeskkondi ja liivakastikeskkondi kihist 2 kuni kihini 5. |
+| **Olek**                         | Eemaldatud |
+
+
+## <a name="feature-deprecation-effective-october-2021"></a>Funktsiooni tugi lõpetatakse 2021. aasta oktoobris
+
+### <a name="show-related-document-attachments-feature"></a>Funktsioon "Kuva seotud dokumendimanused".
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Aegumise/eemaldamise põhjus** | Funktsioon andis ootamatuid tulemusi. |
+| **Asendatud teise funktsiooniga?**   | Ei. Kõik selle funktsiooniga seotud edasised plaanid edastatakse meie standardse väljalaskelaine avalikustamisprotsessi kaudu. |
+| **Mõjutatud tootealad**         | Veebiklient – ​​dokumentide manustamise kogemus |
+| **Juurutamissuvand**              | Kõik |
+| **Olek**                         | Aegunud  |
+
+## <a name="platform-updates-for-version-10023-of-finance-and-operations-apps"></a>Finantside ja toimingute rakenduste versiooni 10.0.23 platvormi värskendused
+
+### <a name="ondbsynchronize-event"></a>OnDBSynchronize üritus
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Aegumise/eemaldamise põhjus** | Selle sündmuse läbiviimiseks puudub kontroll. |
+| **Asendatud teise funktsiooniga?**   | Jah, teisaldage olemasolevad meetodid, mida on tellinud **sündmus OnDBSynchronize** SysSetupi laiendatud klassi. |
+| **Mõjutatud tootealad**         | Andmebaasi sünkroonimine |
+| **Juurutamissuvand**              | Kõik |
+| **Olek**                         | Aegunud. Planeeritud kolimiskuupäev on oktoober 2022. |
+
+
+### <a name="systemnotificationsmanageraddnotification-api"></a>SystemNotificationsManager.AddNotification API
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Aegumise/eemaldamise põhjus** | Microsoft nõuab teatiste lisamisel täiendavaid parameetreid. |
+| **Asendatud teise funktsiooniga?**   | Jah, API **SystemNotificationsManager.AddSystemNotification()**. See API nõuab loodud teatiste jaoks ExpirationDateTime ja RuleID selgesõnalist määramist. |
+| **Mõjutatud tootealad**         | Veebiklient |
+| **Juurutamissuvand**              | Kõik |
+| **Olek**                         | Aegunud. Planeeritud kolimiskuupäev on aprill 2023. |
+
+## <a name="platform-updates-for-version-10021-of-finance-and-operations-apps"></a>Finantside ja toimingute rakenduste versiooni 10.0.21 platvormi värskendused
+
+### <a name="skype-for-business-online-support"></a>Skype'i ärirakenduse veebiväljaande tugi
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Aegumise/eemaldamise põhjus** | Skype'i ärirakenduse veebiväljaanne on käibelt kõrvaldatud. Lisateabe saamiseks vaadake, [Skype'i ärirakenduse veebiväljaanne on käibelt kõrvaldatud](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/the-skype-for-business-online-service-has-retired/ba-p/2596601). |
+| **Asendatud teise funktsiooniga?**   | Praegu mitte, ehkki võime edaspidi kaaluda Teams'i kohaloleku lisamist.|
+| **Mõjutatud tootealad**         | Veebiklient |
+| **Juurutamissuvand**              | Kõik |
+| **Olek**                         | Aegunud. **Skype on lubatud** säte on välja lülitatud alates väljalaskest 10.0.21. Selle sätte eemaldamise eesmärk on 2022. aasta aprilliks. Kuid funktsioon lõpetab töö pärast seda, kui Skype töörühm on teenuse sulgenud. |
+ 
 ## <a name="feature-deprecation-effective-august-2021"></a>Funktsioon aegub 2021. aasta augustist
 
 ### <a name="microsoft-azure-sql-reports-in-lifecycle-services-lcs"></a>Microsoft Azure Lifecycle Services’i (LCS) SQL aruanded
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Aegumise/eemaldamise põhjus** | Mõned SQL-aruanded LCS-s aeguvad. Te ei pea enam aruandeid jälgima, kuna see funktsioon on asendatud teiste teenustega. |
-| **Asendatud teise funktsiooniga?**   | Ei |
+| **Aegumise/eemaldamise põhjus** | Kõik tegevused ja seire viiakse läbi sisemiselt, platvormi kaudu, automatiseerimise abil. See ei nõua käsitsi sekkumist.|
+| **Asendatud teise funktsiooniga?**   | Jah, nüüd on olemas automatiseeritud süsteem, mis renderdab need võimalused aegunuks. |
 | **Mõjutatud tootealad**         | SQL-i aruanded: praegune DTU, praeguse DTU üksikasjad, lukustamise üksikasjad, praeguse plaani juhendi loend, päringu ID-de loendi toomine, SQL-i päringuplaani toomine antud plaani ID jaoks, päringuplaanide ja käivitamise oleku toomine, konfiguratsiooni saamine, oota statistikat, kõige kallimate päringute loend |
 | **Juurutamissuvand**              | Pilve juurutamine: Mõjutab Microsoft`i hallatud tootmiskeskkondi ja liivakastikeskkondi kihist 2 kuni kihini 5. |
 | **Olek**                         | Aegunud: Planeeritud eemaldamise kuupäev oktoobris 2021. |
@@ -48,8 +118,8 @@ See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võ
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Aegumise/eemaldamise põhjus** | Mõned SQL-aruanded LCS-s aeguvad.  |
-| **Asendatud teise funktsiooniga?**   | Ei |
+| **Aegumise/eemaldamise põhjus** | Mõned SQL-aruanded LCS-s aeguvad. Kõik tegevused ja seire viiakse läbi sisemiselt, platvormi kaudu, automatiseerimise abil. See ei nõua käsitsi sekkumist. |
+| **Asendatud teise funktsiooniga?**   | Jah, nüüd on olemas automatiseeritud süsteem, mis renderdab need võimalused aegunuks. |
 | **Mõjutatud tootealad**         | SQL-i tegevused: plaanijuhendi loomine, et sundida plaani ID-d, luua plaanijuhend tabeli vihjete lisamiseks, plaani juhendi eemaldamine, lehelukkude keelamine/lukustamine ja lukustamise eskalatsioon, tabeli statistika värskendamine, indeksi uuesti loomine, indeksi loomine |
 | **Juurutamissuvand**              | Pilve juurutamine: Mõjutab Microsoft`i hallatud tootmiskeskkondi ja liivakastikeskkondi kihist 2 kuni kihini 5. |
 | **Olek**                         | Aegunud: Planeeritud eemaldamise kuupäev oktoobris 2021. |
@@ -75,12 +145,12 @@ See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võ
 |------------|--------------------|
 | **Aegumise/eemaldamise põhjus** | Töö, seire ja halduse üldkulude vähendamiseks ja klientide indeksihalduse säilitamiseks on see funktsioon eemaldatud. |
 | **Asendatud teise funktsiooniga?**   | Tulevikus teevad indeksihooldust Microsofti teenused. See toimub pidevalt ilma kasutaja töökoormusi mõjutamata. |
-| **Mõjutatud tootealad**         | Finance and Operations rakendused|
+| **Mõjutatud tootealad**         | Finance and Operationsi rakendused|
 | **Juurutamissuvand**              | Pilve juurutamine – mõjutab Microsofti hallatud töökeskkondi ja liivakastikeskkondi kihist 2 kuni kihini 5. |
 | **Olek**                         | See funktsioon on eemaldatud. |
 
 
-## <a name="platform-updates-for-version-10017-of-finance-and-operations-apps"></a>Rakenduste Finance and Operations Platformi versiooni 10.0.17 värskendused
+## <a name="platform-updates-for-version-10017-of-finance-and-operations-apps"></a>Finantside ja toimingute rakenduste versiooni 10.0.17 platvormi värskendused
 
 
 ### <a name="visual-studio-2015"></a>Visual Studio 2015
@@ -107,24 +177,25 @@ See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võ
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Aegumise/eemaldamise põhjus** | Dynamics AX 2012 ettevõtteportaaliga (EP) seostatud metaandmete artefaktid on aegunud, kuna EP-d pole kunagi Finance and Operationsi rakendustes toetatud. |
-| **Asendatud teise funktsiooniga?**   | Ei |
+| **Aegumise/eemaldamise põhjus** | Dynamics AX 2012 ettevõtteportaaliga (EP) seostatud metaandmete artefaktid on aegunud, kuna EP-d ei toetatud kunagi finantside ja toimingute rakendustes. |
+| **Asendatud teise funktsiooniga?**   | Nr |
 | **Mõjutatud tootealad**         | Veebiklient |
 | **Juurutamissuvand**              | Kõik |
 | **Olek**                         | Katkestatud: Kogu EP kood plaanitakse eemaldada 2021. aasta oktoobri väljalaskes. |
 
-## <a name="platform-updates-for-version-10015-of-finance-and-operations-apps"></a>Rakenduste Finance and Operations Platformi versiooni 10.0.15 värskendused
+## <a name="deprecation-effective-december-2020"></a>2020. a. detsembri seisuga tehtud kulum
 
 ### <a name="internet-explorer-11-support-for-dynamics-365-is-deprecated"></a>Internet Explorer 11 Dynamics 365 tugi on iganenud
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Aegumise/eemaldamise põhjus** | Kehtib alates 2020. detsembrist, Microsoft Internet Explorer 11 tugi kõigile Dynamics 365 toodetele on iganenud ja Internet Explorer 11 ei toetata pärast 2021. aasta augustit.<br><br>See mõjutab kliente, kes kasutavad Dynamics 365 tooteid, mis on mõeldud kasutamiseks Internet Explorer 11 liidese kaudu. Pärast 2021. aasta augustit, Internet Explorer 11 ei toetata selliste Dynamics 365 toodete puhul. |
+| **Aegumise/eemaldamise põhjus** | Kehtib 2020. aasta detsembris, Microsoft Internet Explorer 11 tugi kõigile Dynamics 365 toodetele ja Dynamicsi elutsükli teenustele (LCS) on aegunud Internet Explorer ja pärast 2021. aastat ei toetata seda 11. augusti.<br><br>See mõjutab kliente, kes kasutavad Dynamics 365 tooteid ja LCS-i Internet Explorer, mis on mõeldud kasutamiseks 11 liidese kaudu. Pärast 2021. aasta augustit ei Internet Explorer toetata selliseid Dynamics 365 tooteid ja LCS-i. |
 | **Asendatud teise funktsiooniga?**   | Soovitame klientide minna üle Microsoft Edge-le.|
-| **Mõjutatud tootealad**         | Kõik Dynamics 365 tooted |
+| **Mõjutatud tootealad**         | Kõik Dynamics 365 tooted ja LCS |
 | **Juurutamissuvand**              | Kõik|
 | **Olek**                         | Internet Explorer 11 ei toetata pärast 2021. aasta augustit.|
 
+## <a name="platform-updates-for-version-10015-of-finance-and-operations-apps"></a>Finantside ja toimingute rakenduste versiooni 10.0.15 platvormi värskendused
 
 ### <a name="visual-studio-add-in-to-apply-metadata-hotfixes"></a>Visual Studio lisandmoodul metaandmete kiirparanduste rakendamiseks
 
@@ -137,7 +208,7 @@ See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võ
 | **Olek**                         | Alates versioonist 10.0.15 ei ole lisandmoodul enam Visual Studio tööriistades. |
 
 
-## <a name="platform-updates-for-version-10014-of-finance-and-operations-apps"></a>Rakenduste Finance and Operations Platformi versiooni 10.0.14 värskendused
+## <a name="platform-updates-for-version-10014-of-finance-and-operations-apps"></a>Finantside ja toimingute rakenduste versiooni 10.0.14 platvormi värskendused
 
 ### <a name="online-users-page"></a>Võrgus viibivate kasutajate leht 
 
@@ -150,7 +221,7 @@ See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võ
 | **Olek**                         | See vorm eemaldatakse 2021. a oktoobris.   |
 
 
-## <a name="platform-updates-for-version-10013-of-finance-and-operations-apps"></a>Rakenduste Finance and Operations Platformi versiooni 10.0.13 värskendused
+## <a name="platform-updates-for-version-10013-of-finance-and-operations-apps"></a>Finantside ja toimingute rakenduste versiooni 10.0.13 platvormi värskendused
 
 
 ### <a name="custom-code-defined-in-ssrs-report-properties"></a>SSRS-aruande atribuutides määratletud kohandatud kood 
@@ -158,7 +229,7 @@ See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võ
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Aegumise/eemaldamise põhjus** | Üldiselt on kohandatud koodi pakutav kasu piiratud, samal ajal kui selle toetamiseks on vaja märkimisväärseid ressursse ja arvutusvõimsust. Kohandatud koodi kasutavad peamiselt aruande loojad, et kutsuda kohandatud koodi moodulist välja avalikke meetodeid. Siiski ei toeta pilvepõhine teenus SSRS-aruannete puhul viiteid kohandatud moodulitele. |
-| **Asendatud teise funktsiooniga?**   | Aruande loojad võivad jätkata viitamist avalikele .NET-i API-dele, et teha mistahes tekstiboksi avaldises matemaatika, teisenduse ja vorminguga seotud toiminguid. Lisateavet leiate teemast [Koodi lisamine aruandesse (SSRS)](/sql/reporting-services/report-design/add-code-to-a-report-ssrs?view=sql-server-ver15).  |
+| **Asendatud teise funktsiooniga?**   | Aruande loojad võivad jätkata viitamist avalikele .NET-i API-dele, et teha mistahes tekstiboksi avaldises matemaatika, teisenduse ja vorminguga seotud toiminguid. Lisateavet leiate teemast [Koodi lisamine aruandesse (SSRS)](/sql/reporting-services/report-design/add-code-to-a-report-ssrs).  |
 | **Mõjutatud tootealad**         | RDL-is määratletud, kohandatud koodi sisaldavate rakenduse aruande kujunduste alamhulk. |
 | **Juurutamissuvand**              | Kõik |
 | **Olek**                         | Versioonis 10.0.13 hakkab kompilaator väljastama hoiatusi selliste eksemplaride korral, mille puhul tuvastati SSRS-aruande definitsioonis kohandatud kood. Probleemi lahendamiseks avage aruande kujunduse definitsioon ja eemaldage kõik kohandatud koodi artefaktid. See hoiatus asendatakse tulevases värskenduses kompilaatori tõrkega.   |
@@ -181,7 +252,7 @@ See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võ
 | **Asendatud teise funktsiooniga?**   | [Uue tabeli juhtelement](../..//fin-ops/get-started/grid-capabilities.md) |
 | **Mõjutatud tootealad**         | Veebiklient |
 | **Juurutamissuvand**              | Kõik |
-| **Olek**                         | Versioonis 10.0.13 on uus tabeli juhtelement üldiselt saadaval ja kliendid saavad funktsiooni valikuliselt sisse lülitada. Uus tabeli juhtelement muutub kohustuslikuks 2021. aasta oktoobri väljalaskes. Kui uus tabeli juhtelement muutub kohustuslikuks ei saa **forceLegacyGrid()** API-t enam kasutada. |
+| **Olek**                         | Versioonis 10.0.13 on uus tabeli juhtelement üldiselt saadaval ja kliendid saavad funktsiooni valikuliselt sisse lülitada. Uus võrgukontroll lülitatakse vaikimisi sisse 2021. aasta oktoobri väljaandega ja praegu on plaanitud teha see kohustuslikuks 2022. aasta aprillis. Kui uus tabeli juhtelement muutub kohustuslikuks ei saa **forceLegacyGrid()** API-t enam kasutada. |
 
 ### <a name="personalization-without-saved-views"></a>Salvestatud vaadeteta isikupärastamine 
 
@@ -194,19 +265,19 @@ See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võ
 | **Olek**                         | Versioonis 10.0.13/Platvormi värskendusega nr 37 on salvestatud vaadete funktsioon üldiselt saadaval ja kliendid saavad selle valikuliselt sisse lülitada. Salvestatud vaadete funktsioon muutub kohustuslikuks 2021. aasta oktoobri väljalaskes. |
 
 
-## <a name="platform-updates-for-version-10012-of-finance-and-operations-apps"></a>Rakenduste Finance and Operations Platformi versiooni 10.0.12 värskendused
+## <a name="platform-updates-for-version-10012-of-finance-and-operations-apps"></a>Finantside ja toimingute rakenduste versiooni 10.0.12 platvormi värskendused
 
 ### <a name="grid-or-group-control-form-extensions-containing-invalid-field-references"></a>Kehtetuid väljaviiteid sisaldavad ruudustiku või grupi juhtelemendi vormilaiendused
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Aegumise/eemaldamise põhjus** | Ruudustiku või grupi juhtelementide andmegrupi atribuute kasutatakse väljagrupi kõikide väljade automaatseks kuvamiseks. Laiendusega lisatud ruudustiku või grupi juhtelement võib sisaldada välju, mis ei ole enam väljagrupis määratletud, või väljagrupis määratletud väljad võivad puududa. See võib põhjustada käitusajal vastuolulist käitumist. Rakenduste Finance and Operations Platformi versiooni 10.0.12 värskendused liigitavad nüüd selle probleemi kompilaatori *hoiatusena*. Probleemi lahendamiseks avage vormilaiendus ja salvestage see.
+| **Aegumise/eemaldamise põhjus** | Ruudustiku või grupi juhtelementide andmegrupi atribuute kasutatakse väljagrupi kõikide väljade automaatseks kuvamiseks. Laiendusega lisatud ruudustiku või grupi juhtelement võib sisaldada välju, mis ei ole enam väljagrupis määratletud, või väljagrupis määratletud väljad võivad puududa. See võib põhjustada käitusajal vastuolulist käitumist. Finantside ja toimingute rakenduste versiooni 10.0.12 platvormi värskendused liigitada nüüd selle probleemi kompilaatori *hoiatuseks*. Probleemi lahendamiseks avage vormilaiendus ja salvestage see.
 | **Asendatud teise funktsiooniga?**   | See kompilaatori hoiatus asendatakse tulevases värskenduses kompilaatori tõrkega. |
 | **Mõjutatud tootealad**         | Visual Studio arendustööriistad |
 | **Juurutamissuvand**              | Kõik |
-| **Olek**                         | Kompilaatori hoiatus on kasutusele võetud Finance and Operationsi rakenduste versiooni 10.0.12 platvormivärskendustes. |
+| **Olek**                         | Kompilaatorhoiatus sisestatakse platvormi uuendustes finantside ja toimingute rakenduste versioonile 10.0.12. |
 
-## <a name="platform-updates-for-version-10011-of-finance-and-operations-apps"></a>Rakenduste Finance and Operations Platformi versiooni 10.0.11 värskendused
+## <a name="platform-updates-for-version-10011-of-finance-and-operations-apps"></a>Finantside ja toimingute rakenduste versiooni 10.0.11 platvormi värskendused
 
 ### <a name="explicit-safe-lists-for-self-service-environments"></a>Üksikasjalikud turvalised loendid iseteeninduskeskkondade jaoks
 
@@ -232,11 +303,11 @@ See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võ
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Aegumise/eemaldamise põhjus** | Tabeli metaandmete määratluste väljagrupid võivad sisaldada kehtetuid väljaviiteid. Nende väljagruppide juurutamise korral võib see põhjustada käitusaja tõrkeid teenuses Financial Reporting ja Microsoft SQL Serveri aruandlusteenustes (SSRS). Platform update'i 23 lisati kompilaatori *hoiatus*, mis lubas selle metaandmete probleemi lahendamise. Rakenduste Finance and Operations Platformi versiooni 10.0.11 värskendused liigitavad selle probleemi kompilaatori *tõrkena*.<p>Sellep probleemi lahendamiseks tehke järgmist.</p><ol><li>Eemaldage sobimatu väljaviide tabeli väljagrupi definitsioonist.</li><li>Kompileerige uuesti.</li><li>Veenduge, et kõik tõrked oleksid lahendatud.</li></ol> |
+| **Aegumise/eemaldamise põhjus** | Tabeli metaandmete määratluste väljagrupid võivad sisaldada kehtetuid väljaviiteid. Nende väljagruppide juurutamise korral võib see põhjustada käitusaja tõrkeid teenuses Financial Reporting ja Microsoft SQL Serveri aruandlusteenustes (SSRS). Platform update'i 23 lisati kompilaatori *hoiatus*, mis lubas selle metaandmete probleemi lahendamise. Finantside ja toimingute rakenduste versiooni 10.0.11 platvormi värskendused liigitavad selle probleemi kompilaatori *tõrkena*.<p>Selle probleemi lahendamiseks tehke järgmist.</p><ol><li>Eemaldage sobimatu väljaviide tabeli väljagrupi definitsioonist.</li><li>Kompileerige uuesti.</li><li>Veenduge, et kõik tõrked oleksid lahendatud.</li></ol> |
 | **Asendatud teise funktsiooniga?**   | See kompilaatori tõrge asendab kompilaatori hoiatuse jäädavalt.  |
 | **Mõjutatud tootealad**         | Visual Studio arendustööriistad |
 | **Juurutamissuvand**              | Kõik |
-| **Olek**                         | Aegunud: kompilaatori hoiatus on Finance and Operations rakenduste versiooni 10.0.11 platvormivärskendustes kompilaatori tõrge. |
+| **Olek**                         | Taunitud: kompilaatori hoiatus on kompilaatortõrge platvormi värskendustes 10.0.11 finantside ja toimingute rakenduste versioonile. |
 
 ### <a name="isv-licenses-created-by-using-the-sha1-hashing-algorithm"></a>ISV-litsentsid, mis on loodud SHA1 räsialgoritmi abil
 
