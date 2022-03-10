@@ -1,16 +1,13 @@
 ---
 title: Piltide üleslaadimine
-description: Selle teema all kirjeldatakse, kuidas üles laadida pilte rakenduse Microsoft Dynamics 365 Commerce saidiehituses.
+description: Selle teema all kirjeldatakse, kuidas üles laadida videosid rakenduse Microsoft Dynamics 365 Commerce saidiehituses.
 author: psimolin
-manager: annbe
-ms.date: 03/03/2020
+ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,20 +15,18 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f562d3376fde6a24e6a1e1a3f7f4192cf290ae90
-ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
-ms.translationtype: HT
+ms.openlocfilehash: 3b99aeff7eafd788c19204e22dbfc61f45b25408
+ms.sourcegitcommit: 5f5a8b1790076904f5fda567925089472868cc5a
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4594280"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7891518"
 ---
 # <a name="upload-images"></a>Piltide üleslaadimine
 
 [!include [banner](includes/banner.md)]
 
-Selle teema all kirjeldatakse, kuidas üles laadida pilte rakenduse Microsoft Dynamics 365 Commerce saidiehituses.
-
-## <a name="overview"></a>Ülevaade
+Selle teema all kirjeldatakse, kuidas üles laadida videosid rakenduse Microsoft Dynamics 365 Commerce saidiehituses.
 
 Kaubanduse saidiehitaja meediumiteek võimaldab teil üles laadida pilte, kas üksikult või kaustades hulgakaupa. Te peaksite alati üles laadima kõrgeima lahutuse ja kvaliteediga pildiversiooni, sest pildi suuruse muutmise komponent optimeerib pildi automaatselt erinevate vaateportide ja nende katkestuspunktide järgi.
 
@@ -46,7 +41,8 @@ Pildi üleslaadimisel saab määrata järgmise teabe.
 - **Avalda varad pärast üleslaadimist**: kui see ruut on märgitud, avaldatakse pilt või pildid kohe pärast üleslaadimist.
 
 > [!NOTE]
-> Pildivarad, mille kategooria on määratud, sildistatakse automaatselt selle kategooriaga märksõnana, mis aitab otsida kindla kategooria varasid.
+> - Pildivarad, mille kategooria on määratud, sildistatakse automaatselt selle kategooriaga märksõnana, mis aitab otsida kindla kategooria varasid.
+> - Toote üksikasjade leheküljed loovad dünaamiliselt asetekst, kasutades toote nime, nii et tootepildi asetekst muutmine ei **mõjuta** **renderdatud** pilti.
 
 ### <a name="naming-conventions-for-omni-channel-images"></a>Omnikanali piltide nimetustavad 
 
@@ -57,9 +53,17 @@ Vaikimisi nimetava sõltub kategooriast:
 - Kategooriapildid tuleb nimetada "**/Categories/\{CategoryName\}. png**"
 - Kliendipildid peavad olema nimega "**/Customers/\{CustomerNumber\}. jpg**"
 - Töötajapildid peavad olema nimega "**/Workers/\{WorkerNumber\}. jpg**"
-- Tootepildid tuleb nimetada "**/Products/\{ProductNumber\}_000_001. png**"
+- Tootepildid tuleb nimetada "**/Toode/\{TooteNumber\}\_000_001. png**"
     - 001 on pildijärjestus ja see võib olla 001, 002, 003, 004 või 005
-- Tootevariandi pildid tuleb nimetada "**/Products/\{ProductNumber\}\_\{Size\}\_\{Color\}\_\{Style\}\_000_001.png**"
+- Tootevariandi pildid tuleb nimetada "**/Products/\{ProductNumber\} \^ \{Style\} \^ \{Size\} \^ \{Color\} \^\_000_001.png**"
+    - Näiteks: 93039 \^ &nbsp;\^ 2 \^ Black \^\_000_001.png
+- Tootevariandi kujutised, millel on konfiguratsioonimõõtmed, peaksid kandma nime "**/Tooted/\{TooteNumber\} \^ \{Konfiguratsioon\}\_000_001.png**"
+    - Näiteks: 93039 \^ LB8017_000_001.png
+
+> [!NOTE]
+> Tootevariandi piltide puhul, kui dimensiooni väärtus on tühi, peab failinimes mõõtude vahel olema kaks tühikut.
+
+Ülaltoodud näited kasutavad vaikekonfiguratsiooni. Eraldaja märk ja dimensioonid on konfigureeritavad ning täpne nime andmine võib juurutuste vahel erineda. Üks täpse nimetamistava tuvastamise viis on kasutada brauseri arendajakonsooli tootevariandi pilditaotluste üle vaatamiseks, muutes tootedimensioone kaupluse toote üksikasjade lehel (PDP).
 
 ## <a name="upload-an-image"></a>Laadi pilt üles
 
@@ -97,3 +101,6 @@ Pildikausta üleslaadimiseks saidiehitajasse toimige järgmiselt.
 [Pildi keskpunktide kohandamine](dam-custom-focal-point.md)
 
 [Staatiliste failide üleslaadimine ja kasutamine](upload-serve-static-files.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

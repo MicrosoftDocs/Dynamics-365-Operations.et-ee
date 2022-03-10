@@ -2,11 +2,9 @@
 title: Elektroonilise aruandluse kaudu elektrooniliste dokumentide loomine ja rakenduse andmete värskendamine
 description: Saate kujundada elektroonilise aruandluse (ER) vorminguid, mida saab rakenduses väljaminevate elektrooniliste dokumentide loomiseks kasutada.
 author: NickSelin
-manager: AnnBe
-ms.date: 11/01/2017
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERSolutionTable, ERVendorTable, ERWorkspace
 audience: Developer, IT Pro, Application user
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4ae3405a882ac37fd9758d8ff0902896562fa06b
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
-ms.translationtype: HT
+ms.openlocfilehash: f5f78f3b36a1aebfb263d64ccf2293097eb9af6e6de1ab49de39b18e1c318950
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5093869"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6765804"
 ---
 # <a name="generate-electronic-documents-and-update-application-data-by-using-er"></a>Elektrooniliste dokumentide loomine ja rakenduse andmete värskendamine ER-i abil
 
@@ -37,6 +35,9 @@ Selle funktsiooniga saab ühte ER-i vormingut kasutada väljaminevate elektrooni
 
 Lisateabe saamiseks selle funktsiooni kohta esitage tegevusjuhiste kogum Elektrooniline aruandlus. Dokumentide loomine rakenduse andmete uuendamisega (osa äriprotsessist 7.5.4.3 IT-teenuse/-lahenduse komponentide hankimine/arendamine (10677)), mis selgitab Intrastati aruandluse ja arhiivimise üksikasju. Teatud etappide läbimiseks nendes tegevusjuhistes on vajalikud järgmised failid. Laadige need failid alla ja salvestage kohalikku arvutisse.
 
-- [Elektroonilise aruandluse andmemudeli konfiguratsioon: Intrastat (mudel)](https://go.microsoft.com/fwlink/?linkid=849038)
-- [Elektroonilise aruandluse mudeli vastendamise konfiguratsioon: Intrastat (vastendamine)](https://go.microsoft.com/fwlink/?linkid=849038)
-- [Elektroonilise aruandluse vormingu konfiguratsioon: Intrastat (vorming)](https://go.microsoft.com/fwlink/?linkid=849038)
+- [Elektroonilise aruandluse andmemudeli konfiguratsioon: Intrastat (mudel)](https://download.microsoft.com/download/9/c/e/9ceeacbe-c13e-422e-96f2-594c4a6b45b7/Intrastatmodel.xml)
+- [Elektroonilise aruandluse mudeli vastendamise konfiguratsioon: Intrastat (vastendamine)](https://download.microsoft.com/download/2/1/d/21ddaaeb-64c5-4408-a35f-1ccb922d40a4/Intrastatmapping.xml)
+- [Elektroonilise aruandluse vormingu konfiguratsioon: Intrastat (vorming)](https://download.microsoft.com/download/8/b/b/8bbb8891-e88d-4739-b92a-2d1d2fffcb79/Intrastatformat.xml)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

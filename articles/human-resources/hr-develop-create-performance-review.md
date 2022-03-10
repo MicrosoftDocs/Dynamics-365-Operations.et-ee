@@ -1,29 +1,31 @@
 ---
 title: Jõudluse ülevaadete loomine
 description: Selles teemas selgitatakse, kuidas luua jõudluse ülevaadet ja kirjeldatakse ülevaate iga jaotise eesmärki.
-author: andreabichsel
-manager: tfehr
-ms.date: 05/05/2020
+author: twheeloc
+ms.date: 08/26/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, EssWorkspace, HcmDiscussionNewDialog, HcmDiscussion, HcmDiscussionChangeSettings, HcmDiscussionAddGoalDialog, HcmTopicCreate, HcmMeasurementDetailDialog, HcmPerfJournalAdd, HcmEmployeeDevelopmentWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e83bcf60e494e6f04387727bedf41175faa07557
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
-ms.translationtype: HT
+ms.openlocfilehash: 9c3ab4e769008bd8b401967e454aa6402f013773
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115796"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066946"
 ---
 # <a name="create-performance-reviews"></a>Jõudluse ülevaadete loomine
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 
 Selles teemas selgitatakse, kuidas luua jõudluse ülevaadet ja kirjeldatakse ülevaate iga jaotise eesmärki. Protseduuri loomisel kasutati demoettevõtte USMF andmeid.
@@ -66,15 +68,18 @@ Selles teemas selgitatakse, kuidas luua jõudluse ülevaadet ja kirjeldatakse ü
 30. Valige vahekaart **Hinnangud**.  
 
     - Kiirkaardi **Hinnangu üksikasjad** abil on töötajatel võimalik ennast hinnata ja juhatajal võimalik hinnata töötajat. Kaalude kasutamisel arvutatakse tulemuste kaalumisväärtus automaatselt.  
-    - Selle jaotise kuvamiseks lubage parameetri sätted töötaja hinnangute kuvamiseks.  
+    - Selle jaotise vaatamiseks lubage parameetrisätted töötaja hinnangute kuvamiseks inimressursside **jagatud parameetrite** lehel.  
 
-31. Valige vahekaart **Nõusolekud**. Kui ülevaates kasutatakse töövoogu, ilmuvad nõusolekud ainult siis, kui töövoog on lõpetatud. Kui töövoogu ei kasutata, on siin kirjas nii töötaja kui ka juht. Nõutav ruut on märgitud ülevaatuse tüübi sätete põhjal.  
+31. Valige vahekaart **Nõusolekud**. Kui ülevaates kasutatakse töövoogu, ilmuvad nõusolekud ainult siis, kui töövoog on lõpetatud. Kui töövoogu ei kasutata, on siin kirjas nii töötaja kui ka juht. **Nõutav** ruut on märgitud **Väljalogimised** jaoks valitud ülevaatuse tüübi sätete põhjal.  
 32. Valige vahekaart **Üldine**.
 
     - Jõudlusperiood loob alguse ja lõpu vaikekuupäevad. Neid kuupäevi saab muuta.  
-    - Olekud juhivad juurdepääsu ülevaatusele. Olek **Alustamata** lubab kõigil ülevaadet redigeerida. Olek **Pooleli** lubab ainult töötajal ülevaadet vaadata ja redigeerida. Olek **Ülevaatuseks valmis** võimaldab ainult juhil ülevaatust vaadata ja muuta. Olek **Lõplik ülevaatus** võimaldab nii töötajal kui ka juhil ülevaatust vaadata ja seda ka muuta, kui nii on ülevaatuse tüübi juures seadistatud. Olekud **Lõpetatud** ja **Tühistatud** muudavad ülevaatuse kirjutuskaitstuks. Kui ülevaatuse väärtus on **Tagasi lükatud** ja see saadetakse töövõtjale tagasi, siis saavad nii töötaja kui juht teha vajalikke parandusi, et töötaja saaks selle uuesti esitada.
+    - Olekud juhivad juurdepääsu ülevaatusele. Olek **Alustamata** lubab kõigil ülevaadet redigeerida. Olek **Pooleli** lubab ainult töötajal ülevaadet vaadata ja redigeerida. Olek **Ülevaatuseks valmis** võimaldab ainult juhil ülevaatust vaadata ja muuta. **Lõplik ülevaatuse** olek võimaldab nii töötajal kui ka juhatajal ülevaadet vaadata ja redigeerida, kui ülevaatuse tüübis on valitud suvand **Luba redigeerimine lõplikus ülevaates**. Olekud **Lõpetatud** ja **Tühistatud** muudavad ülevaatuse kirjutuskaitstuks. Kui ülevaatuse väärtus on **Tagasi lükatud** ja see saadetakse töövõtjale tagasi, siis saavad nii töötaja kui juht teha vajalikke parandusi, et töötaja saaks selle uuesti esitada.
 
 33. Sisestage väärtus väljale **Ülevaade**.
 34. Valige vahekaart **Ülevaade**. Kui ülevaade liigub olekute vahel, saavad töötaja ja juhataja lisada kommentaare iga eesmärgi või kompetentsuse kohta.  
-35. Valige vahekaart **Nõusolekud**. Töötaja ja juhataja saavad anda ülevaate nõusoleku. Kui kõik nõutud nõusolekud on lõpetatud, muudetakse olek **Lõpetatud** ja enam ei saa muudatusi teha.  
+35. Valige vahekaart **Nõusolekud**. Töötaja ja juhataja saavad anda ülevaate nõusoleku. Kui kõik nõutud nõusolekud on lõpetatud, muudetakse olek **Lõpetatuks** ja enam ei saa muudatusi teha.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

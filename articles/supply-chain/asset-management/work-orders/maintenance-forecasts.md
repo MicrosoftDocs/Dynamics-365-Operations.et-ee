@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: dd652af3100f8de59e06490443baeebca58a4dd3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
-ms.translationtype: HT
+ms.openlocfilehash: 6503d5110a4cb5e4041afa7b4e80395b2974a64e5a150eb6bfce1f32a6703e06
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838534"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6761850"
 ---
 # <a name="maintenance-forecasts"></a>Hooldusprognoosid
 
@@ -102,7 +102,7 @@ Et saada ülevaadet sellest, kus varahalduses valitud real olevat kaupa kasutata
 
 Alloleval joonisel kuvatakse lehe **Töökäsu hooldusprognoos** näide.
 
-![Joonis 1](media/06-work-orders.png)
+![Joonis 1.](media/06-work-orders.png)
 
 
 ## <a name="automatic-update-of-work-order-forecasts"></a>Töökäsu prognooside automaatne värskendamine
@@ -120,7 +120,7 @@ Kui tunnikulud, üksuse kulud ja kulud värskendatakse Microsoft Dynamics 365 fo
 
 Alloleval joonisel kuvatakse dialoogi **Töökäsu prognooside värskendamine** näide.
 
-![Joonis 2](media/07-work-orders.png)
+![Joonis 2.](media/07-work-orders.png)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

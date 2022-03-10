@@ -2,11 +2,9 @@
 title: Lehe sisu juurdepääsetavuse kontrollimine
 description: Selles teemas kirjeldatakse, kuidas kontrollida lehe sisu juurdepääsetavust rakenduses Microsoft Dynamics 365 Commerce.
 author: josaw1
-manager: annbe
 ms.date: 01/08/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,21 +14,18 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2019-12-19
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 7690f3bb17a56b9a16b6e818b675064b1979948e
-ms.sourcegitcommit: 872600103d2a444d78963867e5e0cdc62e68c3ec
-ms.translationtype: HT
+ms.openlocfilehash: 6f92d5c34896e284a40a4806cd83e469c2db4c9181c919d2d967dacc84076201
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "5097361"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6748444"
 ---
-# <a name="verify-page-content-accessibility"></a>Lehe sisu juurdepääsetavuse kontrollimine
-
+# <a name="verify-page-content-accessibility"></a>Lehe sisu hõlbustusfunktsioonide kinnitamine
 
 [!include [banner](includes/banner.md)]
 
 Selles teemas kirjeldatakse, kuidas kontrollida lehe sisu juurdepääsetavust rakenduses Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Ülevaade
 
 Kui olete lehe muutmise lõpetanud, veenduge, et sisu oleks veebis kõigile juurdepääsetav. Commerce’i autorluse tööriistades saate hõlpsalt kontrollida lehe sisu juurdepääsetavust, kasutades sisse-ehitatud teenust [Microsoft Accessibility Insights](https://accessibilityinsights.io/). See teenus kontrollib teie lehe sisu vastavalt uusimatele [World Wide Webi konsortsiumi (W3C) juurdepääsetavuse](https://www.w3.org/standards/webdesign/accessibility) juhistele.
 
@@ -86,3 +81,6 @@ Integreeritud teenuse [Microsoft Accessibility Insights](https://accessibilityin
 [Kategooria sihtlehe rikastamine](enrich-category-page.md)
 
 [Dünaamiliste e-kaubanduse lehtede loomine URL-parameetrite põhjal](create-dynamic-pages.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 220314
+ms.custom:
+- "220314"
+- intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6a3e0e4a8389fdd6580f66004d86ef4b1980dd9f
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
-ms.translationtype: HT
+ms.openlocfilehash: 36998d299e166709778bfaa7bfd0d8980890d4fe
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5891789"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323838"
 ---
 # <a name="design-a-new-er-solution-to-print-a-custom-report"></a>Uue ER-i lahenduse kujundamine kohandatud aruande printimiseks
 
@@ -123,15 +125,15 @@ Selles näites loote uue ER-i lahenduse mooduli [Küsimustik](../../../human-res
 
 1. Olemasoleva aruande käivitamiseks avage **Küsimustik** \> **Kujundus** \> **Küsimustike aruanne**.
 
-    ![Küsimustike aruande menüüelemendi valimine küsimustiku moodulis, et käivitada olemasolev SSRS-aruanne](./media/er-quick-start1-application-menu-origin.png)
+    ![Küsimustike aruande menüüelemendi valimine küsimustiku moodulis, et käivitada olemasolev SSRS-aruanne.](./media/er-quick-start1-application-menu-origin.png)
 
 2. Määrake dialoogiboksis **Küsimustike aruanne** valikukriteeriumid. Lisage filter, et aruanne sisaldaks ainult küsimustikku **SBCCrsExam**.
 
-    ![Valikukriteeriumide täpsustamine küsimustike aruande dialoogiboksis](./media/er-quick-start1-ssrs-report-dialog.png)
+    ![Valikukriteeriumide täpsustamine küsimustike aruande dialoogiboksis.](./media/er-quick-start1-ssrs-report-dialog.png)
 
 Järgmisel illustratsioonil on kujutatud SSRS-i aruande loodud versioon küsimustiku **SBCCrsExam** jaoks.
 
-![Loodud SSRS-aruanne](./media/er-quick-start1-ssrs-report.png)
+![Loodud SSRS-aruanne.](./media/er-quick-start1-ssrs-report.png)
 
 ## <a name="configure-the-er-framework"></a><a name="ConfigureFramework"></a>ER-raamistiku konfigureerimine
 
@@ -179,13 +181,13 @@ Lisateabe saamiseks ER-konfiguratsiooni pakkujate kohta vaadake teemat [Konfigur
 
 ## <a name="design-a-domain-specific-data-model"></a><a name="DesignModel"></a>Domeenipõhise andmemudeli kujundamine
 
-Peate looma uue ER-i konfiguratsiooni, mis sisaldab [andmemudeli](general-electronic-reporting.md#data-model-and-model-mapping-components) komponenti **Küsimustiku** äridomeeni jaoks. Seda andmemudelit kasutatakse hiljem andmeallikana, kui kujundate ER-i vormingut aruande **Küsimustik** loomiseks.
+Peate looma uue ER konfiguratsiooni, mis sisaldab andmemudeli komponenti küsimustiku **äridomeeni** jaoks. Seda andmemudelit kasutatakse hiljem andmeallikana, kui kujundate ER-i vormingut aruande **Küsimustik** loomiseks.
 
 Kui täidate jaotises [Uue andmemudeli konfiguratsiooni importimine](#ImportDataModel) toodud juhised, saate vajaliku andmemudeli importida esitatud XML-failist. Teise võimalusena saate täita jaotise [Uue andmemudeli konfiguratsiooni loomine](#DesignDataModel) juhised, et kujundada see andmemudel täiesti algusest.
 
 ### <a name="import-a-new-data-model-configuration"></a><a name="ImportDataModel"></a>Uue andmemudeli konfiguratsiooni importimine
 
-1. Laadige alla fail [Questionnaires model.version.1.xml](https://go.microsoft.com/fwlink/?linkid=851448) ja salvestage see oma kohalikku arvutisse.
+1. Laadige alla fail [Questionnaires model.version.1.xml](https://download.microsoft.com/download/b/6/3/b633bd34-d200-4422-96d9-8f62eb5218f8/Questionnaires_model.version.1.xml) ja salvestage see oma kohalikku arvutisse.
 2. Avage **Organisatsiooni haldamine** \> **Tööruumid** \> **Elektrooniline aruandlus**.
 3. Valige tööruumis **Elektrooniline aruandlus** suvand **Aruandluse konfiguratsioonid**.
 4. Valige toimingupaanil suvand **Vahetus** \> **Laadi XML-failist**.
@@ -271,7 +273,7 @@ Jätkamiseks jätke järgmine protseduur [Uue andmemudeli konfiguratsiooni loomi
 
     Järgmisel illustratsioonil on kujutatud lõpule viidud redigeeritav andmemudel lehel **Andmemudeli kujundaja**.
 
-    ![Konfigureeritud andmemudel ER-i andmemudeli kujundajas](./media/er-quick-start1-model2.png)
+    ![Konfigureeritud andmemudel ER-i andmemudeli kujundajas.](./media/er-quick-start1-model2.png)
 
 7. Salvestage muudatused.
 8. Sulgege leht **Andmemudeli kujundaja**.
@@ -285,7 +287,7 @@ Jätkamiseks jätke järgmine protseduur [Uue andmemudeli konfiguratsiooni loomi
 
 Selle konfiguratsiooni versiooni 1 olek muudetakse olekust **Mustand** olekusse **Lõpule viidud**. Versiooni 1 ei saa enam muuta. See versioon sisaldab konfigureeritud andmemudelit ja seda saab kasutada teiste ER-i konfiguratsioonide alusena. Luuakse selle konfiguratsiooni versioon 2, mille olek on **Mustand**. Saate seda versiooni redigeerida, et kohandada andmemudelit **Küsimustik**.
 
-![Redigeeritava ER-i konfiguratsiooni versioonid lehel „Konfiguratsioonid”](./media/er-quick-start1-model-configuration.png)
+![Redigeeritava ER-i konfiguratsiooni versioonid konfiguratsioonide lehel.](./media/er-quick-start1-model-configuration.png)
 
 Lisateavet ER-i konfiguratsioonide versioonide kohta leiate teemast [Elektroonilise aruandluse (ER) ülevaade](general-electronic-reporting.md#component-versioning).
 
@@ -294,13 +296,13 @@ Lisateavet ER-i konfiguratsioonide versioonide kohta leiate teemast [Elektroonil
 
 ## <a name="design-a-model-mapping-for-the-configured-data-model"></a><a name="DesignMapping"></a>Mudelivastenduse kujundamine konfigureeritud andmemudelile
 
-Elektroonilise aruandluse arendaja rollis kasutajana peate looma uue ER-i konfiguratsiooni, mis sisaldab [mudelivastenduse](general-electronic-reporting.md#data-model-and-model-mapping-components) komponenti andmemudeli **Küsimustik** jaoks. Kuna see komponent kasutab Finance'i jaoks mõeldud konfigureeritud andmemudelit, on see rakenduse Finance põhine. Peate konfigureerima mudelivastenduse komponendi, et määrata rakenduse objektid, mida tuleb käitusajal kasutada rakenduse andmete lisamiseks konfigureeritud andmemudelisse. Selle ülesande lõpetamiseks peate teadma Finance'is oleva äridomeeni **Küsimustik** andmestruktuuri juurutamise üksikasju.
+Kasutajana elektroonilise aruandlusarendaja rollis peate looma uue ER konfiguratsiooni, mis sisaldab küsimustiku andmemudeli mudelivastenduse **komponenti**. Kuna see komponent kasutab Finance'i jaoks mõeldud konfigureeritud andmemudelit, on see rakenduse Finance põhine. Peate konfigureerima mudelivastenduse komponendi, et määrata rakenduse objektid, mida tuleb käitusajal kasutada rakenduse andmete lisamiseks konfigureeritud andmemudelisse. Selle ülesande lõpetamiseks peate teadma Finance'is oleva äridomeeni **Küsimustik** andmestruktuuri juurutamise üksikasju.
 
 Kui täidate järgnevas jaotises [Uue mudelivastenduse konfiguratsiooni importimine](#ImportModelMapping) toodud juhised, saate vajaliku mudelivastenduse konfiguratsiooni importida esitatud XML-failist. Teise võimalusena saate täita jaotise [Uue mudelivastenduse konfiguratsiooni loomine](#CreateModelMapping) juhised, et kujundada see mudelivastendus täiesti algusest.
 
 ### <a name="import-a-new-model-mapping-configuration"></a><a name="ImportModelMapping"></a>Uue mudelivastenduse konfiguratsiooni importimine
 
-1. Laadige alla fail [Questionnaires mapping.version.1.1.xml](https://go.microsoft.com/fwlink/?linkid=851448) ja salvestage see oma kohalikku arvutisse.
+1. Laadige alla fail [Questionnaires mapping.version.1.1.xml](https://download.microsoft.com/download/7/b/2/7b258e4e-4bd5-46a4-8114-27419ae4acd8/Questionnaires_mapping.version.1.1.xml) ja salvestage see oma kohalikku arvutisse.
 2. Avage **Organisatsiooni haldamine** \> **Tööruumid** \> **Elektrooniline aruandlus**.
 3. Valige tööruumis **Elektrooniline aruandlus** suvand **Aruandluse konfiguratsioonid**.
 4. Valige toimingupaanil suvand **Vahetus** \> **Laadi XML-failist**.
@@ -366,7 +368,7 @@ Peate konfigureerima andmeallikad, et pääseda juurde küsimustiku üksikasju s
     2. Valige **Lisa**.
     3. Sisestage dialoogiboksis väljale **Nimi** väärtus **\$ResultGroup**.
     4. Valige **Valemi redigeerimine**.
-    5. Sisestage [ER-i valemiredaktoris](general-electronic-reporting-formula-designer.md) väljale **Valem** väärtus **FIRSTORNULL(\@.'\<Relations'.KMQuestionResultGroup)**, et kasutada tabelite KMCollection ja KMQuestionResultGroup vahelise üks-mitmele seose [teed](er-formula-language.md#paths).
+    5. Sisestage [ER-i valemiredaktoris](general-electronic-reporting-formula-designer.md) väljale **Valem** väärtus **FIRSTORNULL(\@.'\<Relations'.KMQuestionResultGroup)**, et kasutada tabelite KMCollection ja KMQuestionResultGroup vahelise üks-mitmele seose [teed](er-formula-language.md#Paths).
     6. Valige **Salvesta** ja sulgege seejärel valemiredaktor.
     7. Uue arvutatud välja lisamiseks valige **OK**.
 
@@ -439,7 +441,7 @@ Saate lisada ER-i silte, et konfigureerida mõned oma andmeallikad tagastama vä
 5. Sulgege dialoogiboks **Teksti tõlkimine**.
 6. Valige **Tühista**.
 
-![ER-i siltide lisamine redigeeritavale mudelivastendusele](./media/er-quick-start1-adding-labels.png)
+![ER-i siltide lisamine redigeeritavale mudelivastendusele.](./media/er-quick-start1-adding-labels.png)
 
 Sisestasite ER-i sildid ainult vaikekeele jaoks. Lisateavet selle kohta, kuidas ER-i silte saab teistesse keeltesse tõlkida, leiate teemast [Mitmekeelsete aruannete kujundamine](er-design-multilingual-reports.md).
 
@@ -473,7 +475,7 @@ Kuna peate võrdlemise tulemused eri allikate jaoks mitu korda loetelu väärtus
     8. Valige **Salvesta** ja sulgege seejärel valemiredaktor.
     9. Uue andmeallika lisamiseks valige **OK**.
 
-![Konfigureeritud mudelivastendus ER-i mudelivastenduse kujundajas](./media/er-quick-start1-added-data-sources.png)
+![Konfigureeritud mudelivastendus ER-i mudelivastenduse kujundajas.](./media/er-quick-start1-added-data-sources.png)
 
 #### <a name="bind-data-sources-to-data-model-fields"></a><a name="AddMmBindings1"></a>Andmeallikate sidumine andmemudeli väljadega
 
@@ -524,7 +526,7 @@ Peate siduma konfigureeritud andmeallikad andmemudeli väljadega, et määrata, 
 
     Järgmisel illustratsioonil on kujutatud konfigureeritud mudelivastenduse lõplik olek lehel **Mudelivastenduse kujundaja**.
 
-    ![Täiesti konfigureeritud mudelivastendus ER-i mudelivastenduse kujundajas](./media/er-quick-start1-mapping2.png)
+    ![Täiesti konfigureeritud mudelivastendus ER-i mudelivastenduse kujundajas.](./media/er-quick-start1-mapping2.png)
 
 7. Salvestage muudatused.
 8. Sulgege leht **Mudelivastenduse kujundaja**.
@@ -538,7 +540,7 @@ Peate siduma konfigureeritud andmeallikad andmemudeli väljadega, et määrata, 
 
 Selle konfiguratsiooni versiooni 1.1 olek muudetakse olekust **Mustand** olekusse **Lõpule viidud**. Versiooni 1.1 ei saa enam muuta. See versioon sisaldab konfigureeritud mudelivastendust ja seda saab kasutada teiste ER-i konfiguratsioonide alusena. Luuakse selle konfiguratsiooni versioon 1.2, mille olek on **Mustand**. Saate seda versiooni redigeerida, et kohandada konfiguratsiooni **Küsimustiku vastendamine**.
 
-![Redigeeritava ER-i konfiguratsiooni versioonid lehel „Konfiguratsioonid”](./media/er-quick-start1-mapping-configuration.png)
+![Redigeeritava ER-i konfiguratsiooni versioonid lehel „Konfiguratsioonid”.](./media/er-quick-start1-mapping-configuration.png)
 
 > [!NOTE]
 > Konfigureeritud mudelivastendus esindab äridomeeni **Küsimustik** esindava abstraktse andmemudeli rakenduse Finance põhist juurutamist.
@@ -547,32 +549,32 @@ Selle konfiguratsiooni versiooni 1.1 olek muudetakse olekust **Mustand** olekuss
 
 ER-i raamistik kasutab eelmääratletud malle, et luua aruandeid Microsoft Office'i vormingutes (Exceli töövihikud või Wordi dokumendid). Vajaliku aruande loomisel täidetakse mall konfigureeritud andmevoo järgi vajalike andmetega. Seetõttu peate esmalt kujundama oma kohandatud aruande jaoks malli. See mall peab olema kujundatud Exceli töövihikuna, mille struktuur esindab kohandatud aruande paigutust. Peate panema nime kõikidele Exceli üksustele, mida kavatsete täita vajalike andmetega.
 
-1. Laadige alla fail [Questionnaires report template.xslx](https://go.microsoft.com/fwlink/?linkid=851448) ja salvestage see oma kohalikku arvutisse.
+1. Laadige alla fail [Questionnaires report template.xlsx](https://download.microsoft.com/download/3/8/2/382c3cf0-87bb-473f-b7bb-3015b4facb74/Questionnaires_report_template.xlsx) ja salvestage see oma kohalikku arvutisse.
 2. Avage fail Excelis ja vaadake üle töövihiku struktuur.
 
 Nagu järgmisel illustratsioonil näha, on allalaaditud mall loodud printima määratud küsimustikke, mis esitavad küsimustiku küsimused koos asjakohaste vastustega.
 
-![Exceli mall määratud küsimustike printimiseks](./media/er-quick-start1-template-layout.png)
+![Exceli mall määratud küsimustike printimiseks.](./media/er-quick-start1-template-layout.png)
 
 Küsimustiku üksikasjade täitmiseks on sellele mallile lisatud Exceli nimed. Exceli nimede ülevaatamiseks saate kasutada nimehaldurit.
 
-![Nimehalduri kasutamine Exceli nimede ülevaatamiseks esitatud Exceli mallis](./media/er-quick-start1-template-names.png)
+![Nimehalduri kasutamine Exceli nimede ülevaatamiseks esitatud Exceli mallis.](./media/er-quick-start1-template-names.png)
 
 Aruande sildid on lisatud inglise keeles fikseeritud tekstina. Saate asendada aruande sildid uute Exceli nimedega, mis täidavad keelest sõltuva tekstiga sildid, kasutades ER-i vormingu [silte](#AddMmLabels), nagu tegite konfigureeritud mudelivastenduse puhul keelest sõltuvate avaldiste korral. Sel juhul tuleb ER-i sildid lisada redigeeritavas ER-i vormingus.
 
 Nagu järgmisel illustratsioonil näha, on kohandatud aruande päist muudetud, et lisada leheküljenumbrid Excelis.
 
-![Kohandatud aruande päis esitatud Exceli mallis](./media/er-quick-start1-template-header.png)
+![Kohandatud aruande päis esitatud Exceli mallis.](./media/er-quick-start1-template-header.png)
 
 ## <a name="design-a-format"></a><a name="DesignFormat"></a>Vormingu kujundamine
 
-Elektroonilise aruandluse funktsionaalse konsultandi rollis kasutajana peate looma uue ER-i konfiguratsiooni, mis sisaldab [vormingu](general-electronic-reporting.md#FormatComponentOutbound) komponenti. Peate konfigureerima vormingu komponendi, et määrata, kuidas sisestatakse vajalikud andmed käitusajal aruandemalli.
+Elektroonilise aruandluse funktsionaalse konsultandi rollis kasutajana peate looma uue ER-i konfiguratsiooni, mis sisaldab vormingu komponenti. Peate konfigureerima vormingu komponendi, et määrata, kuidas sisestatakse vajalikud andmed käitusajal aruandemalli.
 
 Kui täidate jaotises [Kujundatud vormingu konfiguratsiooni importimine](#FormatImport) toodud juhised, saate vajaliku vormingu importida esitatud XML-failist. Teise võimalusena saate täita jaotise [Uue vormingu konfiguratsiooni loomine](#FormatCreate) juhised, et kujundada see vorming täiesti algusest.
 
 ### <a name="import-a-designed-format-configuration"></a><a name="FormatImport"></a>Kujundatud vormingu konfiguratsiooni importimine
 
-1. Laadige alla fail [Questionnaires format.version.1.1.xml](https://go.microsoft.com/fwlink/?linkid=851448) ja salvestage see oma kohalikku arvutisse.
+1. Laadige alla fail [Questionnaires format.version.1.1.xml](https://download.microsoft.com/download/1/b/a/1ba39ec2-257a-44d8-972f-25bf7d18fb41/Questionnaires_format.version.1.1.xml) ja salvestage see oma kohalikku arvutisse.
 2. Avage **Organisatsiooni haldamine** \> **Tööruumid** \> **Elektrooniline aruandlus**.
 3. Valige tööruumis **Elektrooniline aruandlus** suvand **Aruandluse konfiguratsioonid**.
 4. Valige toimingupaanil suvand **Vahetus** \> **Laadi XML-failist**.
@@ -612,11 +614,11 @@ Jätkamiseks jätke järgmine protseduur [Uue vormingu konfiguratsiooni loomine]
     2. Otsige üles ja valige kohalikult salvestatud fail **Questionnaires report template.xslx** ning seejärel valige **Ava**.
     3. Malli importimiseks valige **OK**.
 
-    ![Aruandemalli importimine](./media/er-quick-start1-template-import.png)
+    ![Aruandemalli importimine.](./media/er-quick-start1-template-import.png)
 
 Vorminguelement **Excel\\File** lisatakse automaatselt juurelemendina redigeeritavasse vormingusse. Lisaks lisatakse automaatselt kõikide imporditud mallis tuvastatud Exceli nimede jaoks kas vorminguelement **Excel\\Range** või **Excel\\Cell**. Vorming **Excel\\Header**, millel on pesastatud element **String**, lisatakse automaatselt, et kajastada imporditud malli päisesätteid.
 
-![Automaatselt lisatud elemente sisaldava vormingu struktuur ER-i toimingute kujundajas](./media/er-quick-start1-template-import2.png)
+![Automaatselt lisatud elemente sisaldava vormingu struktuur ER-i toimingute kujundajas.](./media/er-quick-start1-template-import2.png)
 
 #### <a name="configure-a-format"></a><a name="ConfigureFormat"></a>Vormingu konfigureerimine
 
@@ -627,12 +629,12 @@ Vorminguelement **Excel\\File** lisatakse automaatselt juurelemendina redigeerit
 
     Lisateavet ER-i protsessi jaoks keele- ja kultuurikontekstide määramise kohta leiate teemast [Mitmekeelsete aruannete kujundamine](er-design-multilingual-reports.md).
 
-    ![Kujundatud aruande jaoks keele- ja kultuurisätete konfigureerimine ER-i toimingute kujundajas](./media/er-quick-start1-template-format-structure1.png)
+    ![Kujundatud aruande jaoks keele- ja kultuurisätete konfigureerimine ER-i toimingute kujundajas.](./media/er-quick-start1-template-format-structure1.png)
 
 5. Laiendage vormingupuul juursõlm ja valige **ResultsGroup**.
 6. Valige vahekaardil **Vorming** väljal **Edastamise suund** suvand **Edastust pole**, kuna te ei eelda, et ühe küsimustiku jaoks on mitu tulemusegruppi.
 
-    ![Edastamise suuna määramine vahemiku vorminguelementide jaoks ER-i toimingute kujundajas](./media/er-quick-start1-template-format-structure2.png)
+    ![Edastamise suuna määramine vahemiku vorminguelementide jaoks ER-i toimingute kujundajas.](./media/er-quick-start1-template-format-structure2.png)
 
 7. Valige käsk **Salvesta**.
 
@@ -652,7 +654,7 @@ Peate määrama vorminguelemendi jaoks andmesidumise, mida kasutatakse loodud ar
 
 5. Sulgege valemiredaktor.
 
-    ![Seose konfigureerimine loodud aruande pealkirja täitmiseks](./media/er-quick-start1-add-report-title-label.png)
+    ![Seose konfigureerimine loodud aruande pealkirja täitmiseks.](./media/er-quick-start1-add-report-title-label.png)
 
 Saate kasutada seda meetodit, et muuta kõik muud praeguse malli sildid keelest sõltuvaks. Lisateavet selle kohta, kuidas ühe ER-i konfiguratsiooni lisatud silte saab tõlkida kõikidesse toetatud keeltesse, leiate teemast [Mitmekeelsete aruannete kujundamine](er-design-multilingual-reports.md).
 
@@ -662,7 +664,7 @@ Saate kasutada seda meetodit, et muuta kõik muud praeguse malli sildid keelest 
 2. Valige suvand **Redigeeri**.
 3. Vaadake üle dialoogiboksis **Andmeallika atribuudid** olev teave. See andmeallikas tähistab andmeallika komponendi **Küsimustikud** versiooni 1, mis asub ER-i konfiguratsioonis **Küsimustike mudel**.
 
-![Mudeli andmeallika atribuudid ER-i toimingute kujundajas](./media/er-quick-start1-model-data-source.png)
+![Mudeli andmeallika atribuudid ER-i toimingute kujundajas.](./media/er-quick-start1-model-data-source.png)
 
 #### <a name="bind-format-elements-to-data-source-fields"></a><a name="BindFormatElements"></a>Vorminguelementide sidumine andmeallika väljadega
 
@@ -678,11 +680,11 @@ Et määrata, kuidas mall käitusajal täidetakse, peate siduma iga vorminguelem
 
     Vahemiku vorminguelement **Küsimustik** konfigureeritakse vertikaalselt edastavana. Kui see seotakse andmeallikaga, mille tüüp on **Kirjete loend**, korratakse Exceli malli asjakohast vahemikku **Küsimustik** seotud andmeallika iga kirje puhul.
  
-    ![Vahemiku vorminguelemendi „Küsimustik” sidumine asjakohaste kirjete loendi tüüpi andmeallikatega ER-i toimingute kujundajas](./media/er-quick-start1-bindings1.png)
+    ![Vahemiku vorminguelemendi „Küsimustik” sidumine asjakohaste kirjete loendi tüüpi andmeallikatega ER-i toimingute kujundajas.](./media/er-quick-start1-bindings1.png)
 
     Kuna Exceli malli vahemik **Küsimustik** on määratletud ridades 5 kuni 14, korratakse neid ridu iga esitatud küsimustiku puhul.
 
-    ![Exceli malli read, mida korratakse loodud aruandes kirjete loendi tüüpi andmeallikate kõikide kirjete puhul](./media/er-quick-start1-template-questionnaire-range.png)
+    ![Exceli malli read, mida korratakse loodud aruandes kirjete loendi tüüpi andmeallikate kõikide kirjete puhul.](./media/er-quick-start1-template-questionnaire-range.png)
 
 8. Konfigureerige samasugused seosed ülejäänud vorminguelementide jaoks, nagu kirjeldatud järgmises tabelis.
 
@@ -718,7 +720,7 @@ Et määrata, kuidas mall käitusajal täidetakse, peate siduma iga vorminguelem
 
 Järgmisel illustratsioonil on kujutatud konfigureeritud andmesidumiste lõplik olek lehel **Vormingu kujundaja**.
 
-![Konfigureeritud andmesidumised ER-i toimingute kujundajas](./media/er-quick-start1-bindings2.png)
+![Konfigureeritud andmesidumised ER-i toimingute kujundajas.](./media/er-quick-start1-bindings2.png)
 
 > [!IMPORTANT]
 > Terve määratud andmeallikate ja sidumiste kogum tähistab konfigureeritud vormingu vorminguvastenduse komponenti. Seda vorminguvastendust kutsutakse, kui käivitate aruande loomiseks konfigureeritud vormingu.
@@ -738,9 +740,9 @@ Saate nüüd kujundatud vormingu lehel **Konfiguratsioonid** testimiseks käivit
 
 [Vaikimisi](electronic-reporting-destinations.md#default-behavior) on loodud aruanne Exceli failis, mille saate alla laadida. Järgmistel illustratsioonidel on kujutatud Exceli vormingus loodud aruande kaks lehekülge.
 
-![Exceli vormingus loodud aruande näide, lehekülg 1](./media/er-quick-start1-report1a.png)
+![Exceli vormingus loodud aruande näide, lehekülg 1.](./media/er-quick-start1-report1a.png)
 
-![Exceli vormingus loodud aruande näide, lehekülg 2](./media/er-quick-start1-report1b.png)
+![Exceli vormingus loodud aruande näide, lehekülg 2.](./media/er-quick-start1-report1b.png)
 
 ## <a name="tune-a-designed-format"></a><a name="TuneFormat"></a>Kujundatud vormingu häälestamine
 
@@ -761,7 +763,7 @@ Küsimused ei ole loodud aruandes õiges järjekorras. Järjekorra muutmiseks sa
 1. Valige lehel **Vormingu kujundaja** juurüksus **Aruanne**.
 2. Laiendage vahekaardil **Vastendus** vormingupuus suvand **Report\\Questionnaire\\Question**.
 
-    ![Vahemiku tüüpi küsimuse vorminguelement ER-i toimingute kujundajas](./media/er-quick-start1-bindings3.png)
+    ![Vahemiku tüüpi küsimuse vorminguelement ER-i toimingute kujundajas.](./media/er-quick-start1-bindings3.png)
 
 3. Valige vahekaardil **Vastendus** suvand **model.Questionnaire**.
 4. Valige **Lisa** \> **Funktsioonid\\Arvutatud väli** ja seejärel sisestage väljale **Nimi** väärtus **OrderedQuestions**.
@@ -774,7 +776,7 @@ Küsimused ei ole loodud aruandes õiges järjekorras. Järjekorra muutmiseks sa
 11. Valige **Seo** ja seejärel kinnitage, et praegune tee **model.Questionnaire.Questions** vahetatakse pesastatud elementide kõikides seostes uue tee **model.Questionnaire.OrderedQuestions** vastu.
 12. Valige käsk **Salvesta**.
 
-![Küsimuse vorminguelemendi sidumine konfigureeritud andmeallikaga OrderedQuestions ER-i toimingute kujundajas](./media/er-quick-start1-bindings4.png)
+![Küsimuse vorminguelemendi sidumine konfigureeritud andmeallikaga TellitudKüsimused ER-i toimingute kujundajas.](./media/er-quick-start1-bindings4.png)
 
 ### <a name="run-a-modified-format-from-er"></a><a name="RunFormatFromER2"></a>Muudetud vormingu käivitamine ER-is
 
@@ -788,7 +790,7 @@ Nüüd saate muudetud vormingu testimiseks ER-i raamistikus käivitada.
 
 Järgmisel illustratsioonil on näha Exceli vormingus loodud aruanne, kus küsimused on õiges järjekorras.
 
-![Exceli vormingus loodud aruanne, mille küsimused on õiges järjekorras](./media/er-quick-start1-report2.png)
+![Exceli vormingus loodud aruanne, mille küsimused on õiges järjekorras.](./media/er-quick-start1-report2.png)
 
 ### <a name="complete-the-format-design"></a><a name="CompleteFormat"></a>Vormingu kujunduse lõpuleviimine
 
@@ -799,7 +801,7 @@ Järgmisel illustratsioonil on näha Exceli vormingus loodud aruanne, kus küsim
 
 Selle konfiguratsiooni versiooni 1.1 olek muudetakse olekust **Mustand** olekusse **Lõpule viidud**. Versiooni 1.1 ei saa enam muuta. See versioon sisaldab konfigureeritud vormingut ja seda saab kasutada kohandatud aruande printimiseks. Luuakse selle konfiguratsiooni versioon 1.2, mille olek on **Mustand**. Saate seda versiooni redigeerida, et kohandada aruande **Küsimustik** vormingut.
 
-![Redigeeritava ER-i konfiguratsiooni versioonid lehel „Konfiguratsioonid”](./media/er-quick-start1-format-configuration.png)
+![Redigeeritava ER-i konfiguratsiooni versioonid konfiguratsioonide lehel.](./media/er-quick-start1-format-configuration.png)
 
 > [!NOTE]
 > Konfigureeritud vorming moodustab aruande **Küsimustik** kujunduse ja see pole seotud Finance'i-põhiste artefaktidega.
@@ -1049,7 +1051,7 @@ Koostage oma projekt, et muuta uus menüüelement kasutajatele kättesaadavaks.
 
 1. Avage **Küsimustik** \> **Kujundus** \> **Küsimustike aruanne (ER-i põhine)**.
 
-    ![Menüüelemendi „Küsimustike aruanne (ER-i põhine)” valimine küsimustiku moodulis, et käivitada konfigureeritud ER-i vorming](./media/er-quick-start1-application-menu-modified.png)
+    ![Menüüelemendi „Küsimustike aruanne (ER-i põhine)” valimine küsimustiku moodulis, et käivitada konfigureeritud ER-i vorming.](./media/er-quick-start1-application-menu-modified.png)
 
 2. Valige dialoogiboksis **Vorminguvastendus** suvand **Küsimustike aruanne**.
 3. Valige nupp **OK**.
@@ -1057,7 +1059,7 @@ Koostage oma projekt, et muuta uus menüüelement kasutajatele kättesaadavaks.
 5. Valige filtreerimissuvandi kinnitamiseks **OK**.
 6. Aruande käivitamiseks valige **OK**.
 
-    ![Valikukriteeriumide täpsustamine elektroonilise aruande dialoogiboksis](./media/er-quick-start1-report-run-dialog-page.png)
+    ![Valikukriteeriumide täpsustamine elektroonilise aruande dialoogiboksis.](./media/er-quick-start1-report-run-dialog-page.png)
 
 7. Vaadake loodud aruanne üle.
 
@@ -1082,7 +1084,7 @@ Saate muuta konfigureeritud ER-i lahendust nii, et see kasutaks andmepakkuja kla
 
 Lisatud andmeallikas annab teavet töötava ER-i vorminguvastenduse kirje ID kohta.
 
-![Lisatud andmeallikas ER-i mudelivastenduse kujundajas](./media/er-quick-start1-mapping3.png)
+![Lisatud andmeallikas ER-i mudelivastenduse kujundajas.](./media/er-quick-start1-mapping3.png)
 
 #### <a name="add-a-data-source-to-access-er-format-mapping-records"></a><a name="AddDataSource2"></a>Andmeallika lisamine ER-i vorminguvastenduse kirjetele juurdepääsemiseks
 
@@ -1117,7 +1119,7 @@ Jätkake valitud mudelivastenduse redigeerimist, et töötava ER-i vormingu nimi
 
 Kuna kasutasite välja **FormatName**, siis paljastab konfigureeritud mudelivastendus nüüd ER-i vormingu nime, mis kutsub käivitamise ajal seda mudelivastendust.
 
-![Andmemudeli välja sidumine lisatud andmeallika meetodiga ER-i mudelivastenduse kujundajas](./media/er-quick-start1-mapping4.png)
+![Andmemudeli välja sidumine lisatud andmeallika meetodiga ER-i mudelivastenduse kujundajas.](./media/er-quick-start1-mapping4.png)
 
 #### <a name="complete-the-design-of-the-model-mapping"></a><a name="CompleteModelMapping2"></a>Mudelivastenduse kujunduse lõpuleviimine
 
@@ -1154,7 +1156,7 @@ Saate muuta konfigureeritud ER-i vormingut nii, et selle nimi kuvataks ER-i vorm
 
 Konfigureeritud vormingut on nüüd muudetud nii, et selle nimi sisestatakse loodud aruande jalusesse, kasutades elementi **Footer\\String**.
 
-![Jaluse vorminguelemendi lisamine konfigureeritud vormingusse ER-i toimingute kujundajas](./media/er-quick-start1-template-format-structure3.png)
+![Jaluse vorminguelemendi lisamine konfigureeritud vormingusse ER-i toimingute kujundajas.](./media/er-quick-start1-template-format-structure3.png)
 
 #### <a name="complete-the-format-design"></a><a name="CompleteFormat2"></a>Vormingu kujunduse lõpuleviimine
 
@@ -1176,7 +1178,7 @@ Selle konfiguratsiooni versiooni 1.2 olek muudetakse olekust **Mustand** olekuss
 
 Pange tähele, et loodud aruande jalus sisaldab aruande loomiseks kasutatud ER-i vormingu nime.
 
-![Loodud aruanne Exceli vormingus](./media/er-quick-start1-report4.png)
+![Loodud aruanne Exceli vormingus.](./media/er-quick-start1-report4.png)
 
 ### <a name="run-a-format-from-er"></a><a name="RunFormatFromER3"></a>Vormingu käivitamine ER-is
 
@@ -1197,7 +1199,7 @@ Pange tähele, et loodud aruande jalus ei sisalda aruande loomiseks kasutatud ER
 3. Seadistage kiirkaardil **Faili sihtkoht** [sihtkoht](er-destination-type-screen.md) **Ekraan** vormingu komponendi **Aruanne** jaoks, mis on [lisatud](#AddFormatRootElement) konfigureeritud ER-i vormingu **Küsimustiku aruanne** juurelemendina.
 4. Konfigureerige kiirkaardil **PDF-i teisenduse sätted** sihtkoht, et teisendada aruanne [PDF-vormingusse](electronic-reporting-destinations.md#OutputConversionToPDF), mis kasutab lehe paigutust **Horisontaalne**.
 
-![Elektroonilise aruandluse sihtkoha lehel ER-i vormingu jaoks kohandatud sihtkoha „Ekraan” konfigureerimine](./media/er-quick-start1-destination.png)
+![Elektroonilise aruandluse sihtkoha lehel ER-i vormingu jaoks kohandatud sihtkoha „Ekraan” konfigureerimine.](./media/er-quick-start1-destination.png)
 
 ### <a name="run-a-format-from-the-application-to-preview-it-as-a-pdf-document"></a><a name="RunFormatFromApp3"></a>Vormingu käivitamine rakenduses selle eelvaatamiseks PDF-dokumendina
 
@@ -1209,12 +1211,12 @@ Pange tähele, et loodud aruande jalus ei sisalda aruande loomiseks kasutatud ER
 
     Pange tähele, et kiirkaardil **Sihtkohad** on välja **Väljund** väärtuseks seatud **Ekraan**. Kui soovite konfigureeritud sihtkohta muuta, valige **Muuda**.
 
-    ![ER-i aruande käitusaja dialoogiboks, kus saate muuta konfigureeritud sihtkohta](./media/er-quick-start1-run-settings.png)
+    ![ER-i aruande käitusaja dialoogiboks, kus saate muuta konfigureeritud sihtkohta.](./media/er-quick-start1-run-settings.png)
 
 6. Aruande käivitamiseks valige **OK**.
 7. Vaadake loodud aruanne PDF-vormingus üle.
 
-    ![PDF-vormingus loodud aruande eelvaade ekraanil](./media/er-quick-start1-preview-PDF.png)
+    ![PDF-vormingus loodud aruande eelvaade ekraanil.](./media/er-quick-start1-preview-PDF.png)
 
 ## <a name="additional-resources"></a><a name="References"></a>Lisaressursid
 

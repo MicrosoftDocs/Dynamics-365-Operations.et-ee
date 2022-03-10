@@ -1,12 +1,10 @@
 ---
 title: Plaanitud käivitamine
 description: Selles teemas selgitatakse plaanitud käivitamist varahalduses.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/13/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a6d1761202697f62421bbf288c7e22efe559a986
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
-ms.translationtype: HT
+ms.openlocfilehash: 4ace2da2c4bc3d5cc404301fc4ecef5ceeef240dae6569a4d28f621b02637930
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5022403"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6779662"
 ---
 # <a name="scheduled-execution"></a>Plaanitud käivitamine
 
@@ -41,4 +39,7 @@ Töökäskudega seotud planeeritud käivitamise seadistamine võib olla üldine 
 5. Valige ajavahemik väljal **Planeeritud käivitamine**.
 6. Valige käsk **Salvesta**.
 
-![Plaanitud käivitamine](media/20-setup-for-work-orders.png)
+![Plaanitud käivitamine.](media/20-setup-for-work-orders.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Auditipoliitika rikkumised ja juhtumid
 description: Artiklis selgitatakse, kuidas auditi poliitikareeglite rikkumistest auditijuhtumeid luuakse. See sisaldab ka teavet erinevate viiside kohta, kuidas auditireeglite kasutavad dokumendi valimise kuupäevavahemikku.
 author: panolte
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AuditPolicyAdditionalOption, AuditPolicyRule
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 170a27c55f808e11fba047186209a2b126b6a87a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.openlocfilehash: 057cb8afe0da5e0810a2d1c87f7cdbe73bc88b9819ca81631d889bfa1cc55e6c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5228835"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6758097"
 ---
 # <a name="audit-policy-violations-and-cases"></a>Auditipoliitika rikkumised ja juhtumid
 
@@ -30,8 +28,7 @@ ms.locfileid: "5228835"
 
 Artiklis selgitatakse, kuidas auditi poliitikareeglite rikkumistest auditijuhtumeid luuakse. See sisaldab ka teavet erinevate viiside kohta, kuidas auditireeglite kasutavad dokumendi valimise kuupäevavahemikku.
 
-<a name="how-audit-cases-are-generated"></a>Auditijuhtumite loomine
------------------------------
+## <a name="how-audit-cases-are-generated"></a>Auditijuhtumite loomine
 
 Auditipoliitikaid kasutatakse kuluaruannete, ostutellimuste ja hankija arvete tuvastamiseks, mis ei ole kooskõlas ärireeglitega, mille määratlete ja konfigureerite auditipoliitika reeglitena. 
 

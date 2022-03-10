@@ -2,11 +2,9 @@
 title: Kinnitamine ja üleviimine
 description: Selles teemas selgitatakse, kuidas kasutada funktsiooni Kinnitamine ja üleviimine, mis võimaldab kasutajatel koormusi laost välja saata enne, kui nad viivad lõpule kogu nende koormustega seotud töö.
 author: mirzaab
-manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLoadTemplate,WHSWorkTemplateTable,WHSLoadPlanningWorkbench
 audience: Application User
@@ -14,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6ccfbe30e9d4a0fc4580c7036d222bfca9203a21
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.dyn365.ops.version: 10.0.8
+ms.openlocfilehash: 7b487684980f60112d9af6bea02672f7e919c834
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4996322"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103585"
 ---
 # <a name="confirm-and-transfer"></a>Kinnitamine ja üleviimine
 
@@ -47,20 +45,17 @@ Saate tükeldada ainult järgmistele kriteeriumidele vastavaid koormuseid.
 
 - Ühel või mitmel koormusreal on komplekteeritud koguseid.
 - Koormuse olek on vähem kui koormatud.
-- Koormusrea andmeid pole. (Need andmed luuakse identifitseerimisnumbri konsolideerimise abil vaheasukohas ja funktsioon *Kinnitamine ja üleviimine* ei toeta identifitseerimisnumbri konsolideerimist.)
-- Komplekteerimisasukohas ei ole praegu komplekteerimise ootel varusid. (Funktsioon *Kinnitamine ja üleviimine* ei toeta varusid, mis on komplekteeritud pakkimisjaama, kuid pole veel pakitud.)
+- Koormusrea andmeid pole. (Need andmed luuakse identifitseerimisnumbri konsolideerimise abil vaheasukohas ja funktsioon Kinnitamine ja üleviimine ei toeta identifitseerimisnumbri konsolideerimist.)
+- Komplekteerimisasukohas ei ole praegu komplekteerimise ootel varusid. (*Kinnitamine ja ülekandmine* funktsioon ei toeta pakkejaama komplekteeritud, kuid veel pakkimata varusid, kui pakitud konteinerid ei ole paigutatud laadimistööga laadimisasukohta.)
 
 > [!NOTE]
 > See funktsioon erineb transpordi koormuse funktsioonist, mida tuleks kasutada ladudes, mis ei saa kunagi planeerida ja luua koormusi enne komplekteerimist, vaid koormab saadaoleva transpordiala pärast komplekteerimise lõpuleviimist.
 >
 > Kasutage funktsiooni *Kinnitamine ja üleviimine* olukordades, kus koormuseid planeeritakse ja luuakse tavaliselt ette ja, kuid kus võib vahel ilmneda erandeid, mille puhul koormus ei mahu saadaolevasse transpordivahendisse (nt veokisse).
 
-## <a name="turn-on-confirm-and-transfer"></a>Kinnitamise ja üleviimise sisselülitamine
+## <a name="turn-the-confirm-and-transfer-feature-on-or-off"></a>Kinnitamis- ja ülekandefunktsiooni sisse- või väljalülitamine
 
-Enne funktsiooni *Kinnitamine ja üleviimine* kasutamist peate selle oma süsteemis sisse lülitama. Administraatorid saavad kasutada [funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sätteid, et kontrollida funktsiooni olekut ja vajadusel selle sisse lülitada. Tööruumis **Funktsioonihaldus** loetletakse funktsiooni järgneval viisil.
-
-- **Moodul:** *laohaldus*
-- **Funktsiooni nimi:** *Kinnitamine ja üleviimine*
+Selles teemas kirjeldatud funktsioonide kasutamiseks peab kinnitamise *ja* ülekandmise funktsioon olema teie süsteemi jaoks sisse lülitatud. Tarneahela halduse 10.0.25 puhul on see funktsioon kohustuslik ja seda ei saa välja lülitada. Kui käitate versiooni, mis *on*[vanem kui 10.0.25, saavad administraatorid selle funktsiooni sisse või välja lülitada, otsides Funktsioonihalduse tööruumis kinnitamis- ja ülekandefunktsiooni.](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
 
 ## <a name="set-up-confirm-and-transfer"></a>Kinnitamise ja üleviimise häälestamine
 
@@ -229,3 +224,6 @@ Samuti saate kinnitada, et kannete seoseid on uuendatud järgmistel viisidel.
 - Suvand **Tükelda kogus uude koormusesse** toimib ka siis, kui osade järelejäänud tööpäiste oleksuks on *Töötlemisel*. Seega saate funktsiooni kasutada ka siis, kui töötajad juba käitavad tellimuste komplekteerimist.
 - Kui valite **Tühista täitmata kogus** samal ajal, kui on järelejäänud töid, mille olek on *Avatud* või *Käimas*, kuvatakse järgmine tõrketeade: „Koormuse järelejäänud kogust ei saa tühistada. Koormusel on olemasolev töö.”
 - Kui valite **Tühista täitmata kogus**, kui ei ole järelejäänud töid, kuid koormusel on vabastamata koormuseridu, kuvatakse järgmine tõrketeade: „Koormuse saadetist ei saanud kinnitada, kuna kauba kogus ületab tarnimiseks määratletud protsendimäära.” Tõrke vältimiseks saate määrata vabastamata koormuserea **Alatarne** protsendiks 100. Vabastamata ridu ei teisaldata uude koormusesse, kuid praegune koormus kinnitatakse alatarnega. Sel juhul ei saa te algset tellimust uuesti vabastada. Seetõttu tuleb teil seda mõnel muul viisil käsitleda.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

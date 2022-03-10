@@ -2,11 +2,9 @@
 title: Täpsemate reeglite loomine töölehtede jaoks
 description: See protseduur hõlmab töölehtedele täpsemate reeglite loomise etappe.
 author: aprilolson
-manager: AnnBe
 ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalSetup, LedgerJournalControl, CompanyLookup, LedgerJournalPostControl
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c06855c7a7648c5829b90bc548a7d2e400967698
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: fe26409ebaa83595885756056810a4a2037045f0f8ad312b52c507343dec3b2d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4988598"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6779466"
 ---
 # <a name="create-advanced-rules-for-journals"></a>Täpsemate reeglite loomine töölehtede jaoks
 
@@ -57,3 +55,6 @@ See protseduur hõlmab töölehtedele täpsemate reeglite loomise etappe. Muu hu
 4. Märkige puul ruut „grupp, millel lubate selle töölehe nime puhul sisestamist”.
 5. Klõpsake valikut **OK**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

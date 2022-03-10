@@ -2,11 +2,9 @@
 title: Kanali navigeerimishierarhia loomine
 description: Selles teemas kirjeldatakse, kuidas luua rakenduses Microsoft Dynamics 365 Commerce navigatsiooni hierarhia.
 author: samjarawan
-manager: annbe
-ms.date: 01/27/2020
+ms.date: 04/27/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 2e1462c10dfe1c858429e9f4cc5d720ca43df609
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.openlocfilehash: d522838bdddf6cda6d7e451b27183f733e3de53df865d49cdadf846cf99cc953
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5221325"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6749951"
 ---
 # <a name="create-a-channel-navigation-hierarchy"></a>Looge kanali navigeerimishierarhia
 
@@ -51,7 +49,7 @@ Kanali navigeerimishierarhia loomiseks toimige järgmiselt.
 
 Järgmine pilt näitab juursõlme näidet.
 
-![Juursõlme näide](media/create-channel-hierarchy-1.png)
+![Juursõlme näide.](media/create-channel-hierarchy-1.png)
 
 ## <a name="create-navigation-category-nodes"></a>Navigeerimiskategooria sõlmede loomine
 
@@ -67,7 +65,7 @@ Et luua täiendavaid navigeerimiskategooria sõlmi, mis tähistavad tootekategoo
 
 Järgmine pilt näitab lõpuleviidud kanali navigeerimishierarhia näidet.
 
-![Kanali hierarhia näide](media/create-channel-hierarchy-2.png)
+![Kanali hierarhia näide.](media/create-channel-hierarchy-2.png)
 
 ## <a name="add-products-to-category-nodes"></a>Toodete lisamine kategooria sõlmedesse
 
@@ -79,11 +77,11 @@ Toodete lisamiseks kategooria sõlmedesse toimige järgmiselt.
 1. Valige toimingupaanil nupp **Salvesta**.
 
 > [!NOTE]
-> Toodete lisamine sõlmele kanali navigeerimise hierarhia sees ei ole piisav, et tooted kuvataks valitud kanalis, tooted peavad olema ka tootele erinevad.
+> Toodete lisamisest sõlmele kanali navigeerimise hierarhia sees ei piisa selleks, et tooted kuvataks valitud kanalis, tooted peavad olema ka kanalile määratud. Sortimentide kohta lisateabe saamiseks vt [sortimendi haldust](assortments.md).
 
 Järgmine pilt näitab lisatud toodetega sõlme näidet.
 
-![Kategooria sõlme lisatud tooted](media/create-channel-hierarchy-3.png)
+![Kategooria sõlme lisatud tooted.](media/create-channel-hierarchy-3.png)
 
 ## <a name="add-product-attribute-groups-to-category-nodes"></a>Toote atribuutide gruppide lisamine kategooria sõlmedesse
 
@@ -99,7 +97,7 @@ Tootele kategooria sõlme atribuudigrupi lisamiseks toimige järgmiselt.
 
 Järgmine pilt näitab sõlme näidist koos lisatud toote atribuudigruppidega.
 
-![Sõlme toote atribuudigrupid](media/create-channel-hierarchy-4.png)
+![Sõlme toote atribuudigrupid.](media/create-channel-hierarchy-4.png)
 
 ## <a name="additional-resources"></a>Lisaressursid
 

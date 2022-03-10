@@ -1,12 +1,10 @@
 ---
 title: Eelistatud hooldustöötajate seadistus
 description: Selles teemas selgitatakse, kuidas sätestada eelistatud hooldustöötajaid varahalduses.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/19/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkerPreferred
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 102f48d1273ac91d5cb42eca11d2dec337c30528
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.openlocfilehash: 511d875baed029df9083da36baf6c48ca4b7abf866ae569038b554bf594473c8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5214958"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6734423"
 ---
 # <a name="set-up-preferred-maintenance-workers"></a>Eelistatud hooldustöötajate seadistus
 
@@ -39,7 +37,7 @@ Enne eelistatud hooldustöötajate seadistamist peate esmalt seadistama hooldust
 Eelistatud hooldustöötaja või töötajate rühm võib olla seotud ühe või mitmega järgmistest.
 
 - kaubandus  
-- Hooldustöö  tüübi variant  
+- Hooldustöö tüübi variant  
 - Hooldustöö tüüp  
 - Hooldustöö tüübi kategooria  
 - vara  
@@ -61,7 +59,7 @@ Mida rohkem valikuid te sama kirje jaoks teete, seda täpsem on teie seadistus.
 
     [!NOTE] Üldiselt, kui töötellimuse planeerimisel valitakse eelistatud hooldustöötaja, läbib Varahaldus kõik **eelistatud hooldustöötajate** kirjed, et kontrollida võimalikku vastet, kontrollides alati kõige spetsiifilisemat kombinatsiooni esimesena. Kui vastet ei leita, kasutatakse "vaikimisi" kirjet, mille valikuks on kas **Eelistatud hooldustöötajate grupi** väli või **Eelistatud hooldustöötaja** väli.
 
-![Joonis 1](media/02-work-order-scheduling.png)
+![Joonis 1.](media/02-work-order-scheduling.png)
 
 Saate seadistada ka *vastutavad* hooldustöötajad, keda saab valida hoolduse taotluse või töökäsu loomisel. **Kõigi töökäskude** ja **Kõigi hooldusnõuete** korral saate valikut vajadusel redigeerida. Lisateabe saamiseks vaadake [Vastutavad hooldustöötajad](../setup-for-maintenance-requests/responsible-workers.md).
 

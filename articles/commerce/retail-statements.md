@@ -2,11 +2,9 @@
 title: Jaemüügi väljavõtted
 description: See teema kirjeldab, kuidas väljavõtteid luuakse ja sisestatakse.
 author: ashishmsft
-manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailParameters
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Retail July 2017 update
-ms.openlocfilehash: e9162bb9b56432dbeb4638e0598dcbf436ab0b1b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: 64b6fbda9f0396eb4ee6e2e248941f1429d4485278180d5c70dac6dd837a4537
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4989497"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6738692"
 ---
 # <a name="retail-statements"></a>Jaemüügi väljavõtted
 
@@ -33,7 +31,7 @@ Rakenduses Dynamics 365 Commerce kasutatakse väljavõtte sisestamise protsessi 
 
 Järgmine joonis illustreerib väljavõtte sisestamise protsessi. Selles protsessis edastatakse kassas salvestatud kanded kliendile Kaubanduse ajasti abil. Pärast seda, kui klient on kanded kätte saanud, saate luua, arvutada ja sisestada kaupluse kannete väljavõtte.
 
-[![Väljavõtte sisestamise protsess](./media/retail-statements.png)](./media/retail-statements.png)
+[![Väljavõtte sisestamise protsess.](./media/retail-statements.png)](./media/retail-statements.png)
 
 ## <a name="creating-and-posting-statements"></a>Väljavõtete loomine ja sisestamine
 
@@ -87,3 +85,6 @@ Väljavõtte sisestamisel luuakse väljavõtte müügitellimused ja arved.
 - Müük, mille puhul klient lisati kandele kassas, loob eraldi müügitellimused ja arved, üks iga kordumatu kliendi jaoks.
 
 Makse töölehed luuakse väljavõtte maksetele automaatselt ja kassa kaupluse varud uuendatakse.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

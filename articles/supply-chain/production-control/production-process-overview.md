@@ -3,7 +3,7 @@ title: Tootmisprotsessi ülevaade
 description: See teema annab ülevaate tootmisprotsessidest. Selles kirjeldatakse mitmesuguseid tootmistellimuste, partiitellimuste ja kanbanide etappe, alates tellimuse loomisest kuni rahandusperioodi sulgemiseni.
 author: johanhoffmann
 ms.date: 09/13/2019
-ms.topic: article
+ms.topic: overview
 ms.search.form: JmgShopSupervisorWorkspace, Kanban, ProdTable, ProdTableOverview, EcoResProductDiscreteManufacturingWorkspace, KanbanPrepareProductForLeanWorkspace, EcoResProductProcessManufacturingWorkspace, OpResLifecycleManagementWorkspace, ProdParmCostEstimation, ProdParmRelease, ProdSchedule, ProdTableListPage
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2a07733f7e1e830fa1c1c4c8e0cfdc5b41d10750
-ms.sourcegitcommit: efccf0838c74cf65382bb6cd852f9bc30ca69230
-ms.translationtype: HT
+ms.openlocfilehash: 8c9eac4d3f984b6fe511d7cc5ebab67e6c24c722
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/01/2021
-ms.locfileid: "7727331"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983209"
 ---
 # <a name="production-process-overview"></a>Tootmisprotsessi ülevaade
 
@@ -31,7 +31,7 @@ Toodete tootmine, protsess, mida nimetatakse ka tootmise töötsükliks, järgib
 
 Moodul **Tootmise juhtimine** on seotud teiste moodulitega, nagu **Tooteteabe haldus**, **Varude haldus**, **Pearaamat**, **Laohaldus**, **Projekti raamatupidamine** ja **Organisatsiooni administreerimine**. Selline integreeritus toetab teabevoogu, mida on vaja valmis kauba tootmiseks.
 
-Tavaliselt mõjutavad tootmisprotsessi kindla tootmisprotsessi jaoks valitud kuluarvestuse ja varude hindamise meetodid. Supply Chain Management toetab nii tegeliku kulu (esimesena sisse, esimesena välja \[ FIFO\], viimasena sisse, esimesena välja \[ LIFO\], liikuv keskmine ja perioodiline kaalutud keskmine) kui ka standardkulu meetodit. Lean manufacturingit rakendatakse omahinna tagasiarvestuse põhimõtte alusel.
+Tavaliselt mõjutavad tootmisprotsessi kindla tootmisprotsessi jaoks valitud kuluarvestuse ja varude hindamise meetodid. Supply Chain Management toetab nii tegeliku kulu (esimesena sisse, esimesena välja \[FIFO\], viimasena sisse, esimesena välja \[LIFO\], liikuv keskmine ja perioodiline kaalutud keskmine) kui ka standardkulu meetodit. Lean manufacturingit rakendatakse omahinna tagasiarvestuse põhimõtte alusel.
 
 Kulumõõtmismeetodite valik määratleb ka tootmisprotsessi materjalide ja ressursside tarbimise aruandluse nõuded. Tavaliselt nõuavad tegeliku kulu meetodid täpset aruandlust töö tasemel, samas kui perioodilise kuluarvestuse meetodid võimaldavad esitada materjalide ja ressursside tarbimise kohta üldisema aruande.
 

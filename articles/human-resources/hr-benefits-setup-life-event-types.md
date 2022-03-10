@@ -1,38 +1,35 @@
 ---
 title: Elusündmuse tüüpide konfigureerimine
-description: Microsoft Dynamics 365 Human Resources kasutab elusündmuse tüüpe sündmuste määratlemiseks, kus kehtib töövõtja soodustuste registreerimise värskendamine.
-author: andreabichsel
-ms.date: 04/06/2020
+description: Microsoft Dynamics 365 Human Resources kasutab elusündmuse tüüpe sündmuste määratlemiseks, et värskendada töövõtja soodustuste registreerimist.
+author: twheeloc
+ms.date: 08/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart, BenefitLifeEventTypes
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 44aecf003432bf803b5658f1eb89298d03f53423
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
-ms.translationtype: HT
+ms.openlocfilehash: aab35d40af43caff7010998ddce51350584228a1
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5805630"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071717"
 ---
 # <a name="configure-life-event-types"></a>Elusündmuse tüüpide konfigureerimine
 
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Dynamics 365 Human Resources kasutab elusündmuse tüüpe selliste sündmuste määratlemiseks, kus töövõtja soodustuste registreerimist saab värskendada. Näiteks abiellumine või lapse saamine. Iga elusündmuse tüübi ID võib olla seotud ainult ühe elusündmuse tüübiga. Näiteks kui loote elusündmuse ID nimega aadressi muutus, mis on seotud elusündmuse tüübiga Töövõtja aadressi muutus, ei saa te luua teist ID-d sildiga Töövõtja aadressi muutus ega seostada seda elusündmuse tüübiga Töövõtja aadressi muutus. 
-
-Pärast elusündmuse tüüpide loomist peate need seostama plaani tüüpidega. Lisateabe saamiseks vt [Plaani tüüpide loomine](hr-benefits-setup-plan-types.md).
-
-   > [!NOTE]
-   > Elusündmuse loomisel peate selle seostama plaani tüübiga. Lisateabe saamiseks vt [Plaani tüüpide loomine](hr-benefits-setup-life-event-types.md).
+Dynamics 365 Human Resources kasutab **elusündmuse tüüpe**, et määratleda sündmused, kus on asjakohane värskendada töötajate hüvitiste registreerimist, näiteks abiellumine või lapse saamine. Iga elusündmuse tüübi ID võib olla seotud ainult ühe elusündmuse tüübiga. Näiteks kui loote **elusündmuse ID** nimega **Aadressimuutus**, mis on seotud elusündmuse tüübi **töötaja aadressi muutusega**, ei saa te luua teist ID-d sildiga **Töötaja aadressi muutus** ja seostada selle elusündmuse tüübi **töötaja aadressi muutusega**. Kui elusündmuse tüüp ei ole plaani tüübiga seotud, ei käivita elusündmuse tüüp elusündmust. Lisateabe saamiseks vt [Plaani tüüpide loomine](hr-benefits-setup-plan-types.md).
 
 ## <a name="create-a-life-event-type"></a>Elusündmuse tüübi loomine
 
@@ -52,7 +49,7 @@ Pärast elusündmuse tüüpide loomist peate need seostama plaani tüüpidega. L
 
 ## <a name="view-attached-plans"></a>Lisatud plaanide kuvamine
 
-Saate vaadata valitud elusündmuse tüübile lisatud plaanide loendit. Elusündmused on lisatud plaani tüübile ja plaani tüübid on seostatud plaaniga. 
+Näete valitud **Elusündmuse tüübiga** seotud plaanide loendit. Elusündmused on lisatud plaani tüübile ja plaani tüübid on seostatud plaaniga.
 
 1. Tööruumis **Soodustuste haldus** jaotises **Seadistus** valige suvand **Elusündmuse tüübid**.
 
@@ -66,28 +63,29 @@ Elusündmuse tüübi loomisel saate valida järgmiste elusündmuste seast.
 
 | Elusündmus | Koht | Käivitus |
 | --- | --- | --- |
-| **Perekonnaseisu muutus** | Töötaja > Profiil > Isikuandmed > Perekonnaseis| Perekonnaseisu muutus |
-| **Tööhõive oleku muutus** | <ul><li>Töötaja > Tööhõive</li><li>Tööhõive ajaloo leht</li></ul> | Tööhõive oleku muutus |
-| **Töövõtja aadressi muutumine** | <ul><li>Töötaja > Profiil > Aadressid </li><li>Töötaja > Isikuandmed > Isiklikud kontaktid > Aadress</li></ul> Lisatud, redigeeritud või kustutatud aadress |
-| **Sõltuva muutus** | <ul><li>Töötaja > Profiil > Isikuandmed > Isiklikud kontaktid > Sõltuva lisamine või kustutamine</li><li>Töövõtja iseteenindus</li></ul> | Lisatud või kustutatud sõltuv. Isikliku kontakti suhe peab olema laps, abikaasa, elukaaslane või endine abikaasa. Kuupäeva **Kehtiv alates** värskendamine käivitab elusündmuse. Kui te seda kuupäeva ei uuenda, siis elusündmust ei käivitata. |
-| **Sünd või lapsendamine (sõltuv)** | <ul><li>Töötaja > Profiil > Isikuandmed > Isiklikud kontaktid > Sõltuva üksikasjad</li><li>Töövõtja iseteenindus</li></ul> | Väli **Lapsendamise kuupäev** on täidetud. Nõutav on lapse sünnikuupäev. |
+| **Perekonnaseisu muutus** | **Töötaja > Profiil > Isikuandmed > Perekonnaseis**| Perekonnaseisu muutus |
+| **Tööhõive oleku muutus** |**Töötaja > tööhõive > tööhõive ajaloo leht** | Olemasoleva tööhõive üksikasjaga töötaja jaoks käivitab uue tööhõive üksikasja ja erineva tööhõiveolekuga elusündmuse.  Olemasoleva tööhõive üksikasjade uuendamine erineva tööhõiveolekuga käivitab lisaks ka elusündmuse.  |
+| **Töövõtja aadressi muutumine** |**Töötaja > Profiil > Aadressid**</li><li>**Töötaja > Isikuandmed > Isiklikud kontaktid > Aadress**</li></ul> | Aadressi muutmine. Elusündmuse käivitamiseks peab aadress olema **Esmane**. |
+| **Sõltuva muutus** |<br><ul><li>**Töötaja > Profiil > Isikuandmed > Isiklikud kontaktid**><li>**Töövõtja iseteenindus**</li></ul> | Lisage isiklik kontakt, mis on määratletud kui sõltuv isik ja määratlege **kehtivus** alates. Värskendage isikliku kontakti sõltuvat isikut **kehtiv kuni** teavet. Isikliku kontakti suhe peab olema laps, abikaasa, elukaaslane või endine abikaasa.  |
+| **Sünd või lapsendamine (sõltuv)** |<br><ul><li>**Töötaja > Profiil > Isikuandmed > Isiklikud kontaktid**</li><li>**Töötaja iseteenindus > Isiklike andmete redigeerimine > Isiklikud kontaktid**</li></ul>| **Sünnikuupäev** või **Adopteerimiskuupäev** lisatakse või värskendatakse. Nõutav on lapse **sünnikuupäev**. |
 | **Katvuse kadumine (abikaasa/elukaaslane)** | Töötaja > Profiil > Isikuandmed > Isiklikud kontaktid > Sõltuva üksikasjad > Katvuse kadumine | **Katvuse kadumine** on valitud isiklikuks kontaktiks, koos suvandiga **Kehtivuse algus** |
-| Elukaaslase töökohavahetus | Töötaja > Profiil > Isikuandmed > Isiklikud kontaktid > Sõltuva üksikasjad > Tööle võetud. | <ul><li>Loodud sõltuva üksikasjade kirje ja lahtri **Isiklik kontakt on tööle võetud** väärtus on Jah</li><li>Välja **Isiklik kontakt on tööle võetud** muudeti (Jah või Ei)</li></ul> |
-| **Puhkus (abikaasa/elukaaslane)** | Töötaja > Profiil > Isikuandmed > Isiklikud kontaktid > Sõltuva üksikasjad > Puhkus | <ul><li>Sõltuva üksikasjade kirje on loodud ja **EhrLOAEffectiveDate** on täidetud</li><li>**personPrivateDetails.EhrIsLOA** on muudetud (Jah või Ei)</li><li>**personPrivateDetails.EhrLOAEffectiveDate** on muudetud</li></ul> |
-| **Katvuse muutus (ametikoht)** | <ul><li>Töötaja > Ametikoha määramine > Töötaja ametikoha määrangud</li><li>Ametikoht > Ametikohad</li></ul> | <ul><li>Ametikoha muutus töötaja ametikoha määrangute kirjetes</li><li>Töötaja ametikoha määrangu muutus</li></ul> |
-| **Tervisekindlustus (töövõtja/sõltuv)** | Töötaja > Profiil > Isikuandmed > Isiklikud kontaktid > Sõltuva üksikasjad > Tervisekindlustuse jõustumise kuupäev | Kui isiklik kontakt sisestab jõustumise kuupäeva, siis automaatselt ei käivitata. |
-| **Kohtuga määratud tugi** | Töötaja > Profiil > Isikuandmed > Isiklikud kontaktid > Sõltuv > Kohtuga määratud tugi (QMSCO/QDRO) ja jõustumise kuupäevad | Automaatseid värskendusi ei käivita. See ei mõjuta sobivust; see registreerib elusündmuse. |
-| **Surnud** | Töötaja > Profiil > Isikuandmed > Surmakuupäev | Sisestatud on surmakuupäev |
-| **Kindlustustõend** | <ul><li>Töötaja > Töötaja > Versioonid > Tööhõive ajalugu > Kuupäevahaldur > Soodustuse üksikasjad</li><li> Töötaja > Tööhõive > Soodustuse üksikasjad > Kinnitamise kuupäev</li></ul> | <ul><li>Töötaja sisestab kontrollimise kuupäeva</li><li>Töötaja seab välja EvidenceOfInsurability väärtusele **Jah**</li></ul> |
-| **Kasusaaja** | Töötaja > Profiil > Isikuandmed > Isiklikud kontaktid | Isiku kontakt lisatakse ja väljad **Kasusaaja** ja **Kehtivuse algus** on täidetud. Isiklik kontakt peab olema tüübiga **Laps**, **Abikaasa**, **Elukaaslane**, **Õde/vend**, **Perekondlik**, **Muu kontakt**, **Lapsevanem**, **Kasusaav kinnisvara**, **Kasusaav organisatsioon** või **Kasusaav kontsern**. |
-| **Töövõtja ravikindlustus** | Töötaja > Töötaja > Versioonid > Tööhõive ajalugu > Kuupäevahaldur > Soodustuse üksikasjad | <ul><li>Olem **EhrMedicareEligibilityDate** on muudetud</li><li>Olem **MedicareEligibile** on seatud väärtusele **Jah**</li></ul> |
-| **Sünnipäev** | Töötaja > Profiil > Isikuandmed > Isiklikud kontaktid > Sõltuva üksikasjad > Sünnikuupäev | Sünnikuupäev on lisatud või uuendatud (mitte pärast elusündmuse muudatuse töötlemist). Näide: kui lapse **Isikliku kontakti sobivuse valikud** suvandite väärtuseks on seatud Vanus: 26 suvandis Seadistus > Soodustused > Isikliku kontakti sobivuse suvandid ja kui personaliosakonna töötaja käitab elusündmuse muutmise töötluse mis tahes päeval pärast sõltuva 26-aastaseks saamist, kuvatakse neile teade, et sõltuv ei sobi enam katvuseks. |
-| **Töötaja sobivuse muudatus (mitte USA spetsiifiline)** | <ul><li>Töötaja > Tööhõive</li><li>Töötaja > Töötaja > Versioonid > Tööhõive ajalugu</li></ul> | <ul><li>Töövõtja tüüp, Tööhõive kategooria või viis kasutaja poolt määratletavat sobivuse välja muutuvad</li><li>Olem **HcmEmploymentDetail.EhrEmploymentType** muutub (töödeldakse ainult *muudetud* tööhõive üksikasjade kirjete jaoks, ei töödelda *uute* tööhõive kirjete jaoks, nagu uuesti palkamine ja lepingu lõpetamine)</li></ul> |
-| **Uus sobivuse tühistamine (mitte USA-spetsiifiline)** | Täpsustatud inimressursid > Soodustused > Plaanid > Soodustused > Sobivusreegli tühistamine | Elusündmuse töötlemise kasutamine | EhrBenefitEligibilityRuleOverride.ValidFrom |
-| **Sobivusreegli tühistamise muudatus (mitte USA-spetsiifiline)** | Täpsustatud inimressursid > Soodustused > Plaanid > Soodustused > Sobivusreegli tühistamine | Elusündmuse töötlemise kasutamine (hangib ainult suvandi Sobivusreegli tühistamine muudatused väljadel **ValidFrom** ja **ValidTo**) |
-| **Sobivusreegli tühistamise aegumine (mitte USA-spetsiifiline)** | Täpsustatud inimressursid > Soodustused > Plaanid > Soodustused > Sobivusreegli tühistamine | Elusündmuse muutuse töötlemise kasutamine. Näiteks kui redigeerite plaani sobivusreegli tühistamise aegumiskuupäeva, et see oleks täna kl 17.00, mis tahes ajal pärast kl 17.00 või järgmistel päevadel ning seejärel käivitate elusündmuse muutmise töötluse, kuvatakse teade, et sobivusreegli tühistamine on aegunud. |
-| **Uus soodustuse plaan (mitte USA-spetsiifiline)** | Täiustatud inimressursid > Soodustused > Plaanid > Uus | <ul><li>Sobivuse suvandid lisatakse praegusele plaanile</li><li>Lisatakse uus plaan, millele on lisatud sobivuse suvandid</li></ul></br></br>Inimressursside töötajad peaksid käitama selles eksemplaris elusündmuse sobivuse töötlemise. |
-| **Sobivusreegli muudatus (mitte USA-spetsiifiline)** | Täpsustatud inimressursid > Soodustused > Reeglid/suvandid > Sobivusreeglid | Elusündmuse sobivuse töötlemise kasutamine. Logitakse, kui kirjetel **EhrBenefitEligibilityRule** muudetakse järgmisi väärtusi: **UseEmplCategory**, **UseEmplStatus** või **UseEmplType**. Värskendab ainult elusündmuste kandeid, mis on muudetud reegli või sobivuse kriteeriumide jaoks juba olemas. |
+| Elukaaslase töökohavahetus | **Töötaja > Profiil > Isikuandmed > Isiklikud kontaktid > Sõltuva isiku üksikasjad > Tööle võetud** | Isikliku kontakti loomine ja säte **Tööle võetud** väärtuseks tuleb määrata **Jah**. Isikliku kontakti värskendamine ja sätte **Tööle võetud** muutmine.  |
+| **Puhkus (abikaasa/elukaaslane)** | **Töötaja > Profiil > Isikuandmed > Isiklikud kontaktid > Sõltuva üksikasjad > Puhkus** | Määratud on isiklik kontakt **ja puhkuse kehtivuse alguskuupäev**. Uuendatakse isikliku kontakti **puhkuse** teavet. Uuendatakse isikliku kontakti **puhkuse alguskuupäeva** teavet.  |
+| **Katvuse muutus (ametikoht)** |<br><ul><li>**Töötaja > Ametikoha määramine > Töötaja ametikoha määrangud**</li><li>**Ametikoht > Ametikohad**</li></ul>| Ametikoha muutus töötaja ametikoha määrangute kirjetes. Töötaja ametikoha määrangu muutus. |
+| **Kindlustuskaitse muutus (palk)** |<br><ul><li>**Töötaja > Kompensatsioon > Põhipalk**</li><li>**Töötaja > Isikuandmed > Aastased soodustused**</li></ul>| Kui **soodustuste haldamine > inimressursside jagatud parameetrid > Soodustused > soodustuste aastapalk** pole lubatud, loob töötaja > hüvitise > fikseeritud plaani **värskendamine** elusündmuse. Kui **hüvitiste haldamine > Inimressursside jagatud parameetrid > Soodustused > Hüvitised aastapalk** on lubatud, loob töötaja > isikuandmete > hüvitiste aastapalga **uuendamine** elusündmuse. |
+| **Tervisekindlustus (töövõtja/sõltuv)** | **Töötaja > Profiil > Isikuandmed > Isiklikud kontaktid > Sõltuva üksikasjad > Tervisekindlustuse jõustumise kuupäev** | **Medicare'i kehtivuse** kuupäeva lisamine või uuendamine isikliku kontakti puhul loob elusündmuse. |
+| **Kohtuga määratud tugi** | **Töötaja > Profiil > Isikuandmed > Isiklikud kontaktid > sõltuv > Kohus tellis toe** (QMSCO/QDRO) ja jõustumiskuupäevad | Isikliku kontakti loomisel luuakse elusündmus, kui **kohtuga tellitud toe** väärtus on **Jah**. **Kohtu poolt määratud toe** või **kohtu poolt määratud aegumiskuupäeva** värskendamine käivitab samuti elusündmuse. |
+| **Surnud** | **Töötaja > Profiil > Isikuandmed > Surmakuupäev** | **Surmakuupäev** on sisestatud või uuendatud. |
+| **Kindlustustõend** | **Töötaja > Töötaja > Versioonid > Tööhõive ajalugu > Kuupäevahaldur > Soodustuse üksikasjad** | **Kindlustatavuse tõendus** on seatud väärtusele **Jah**. Määratletakse **kindlustamatuse tõendamise kuupäev**. |
+| **Kasusaaja** | **Töötaja > Profiil > Isikuandmed > Isiklikud kontaktid** | Isiku kontakt lisatakse ja väljad **Kasusaaja** ja **Kehtivuse algus** on täidetud. Isiklik kontakt peab olema tüübiga **Laps**, **Abikaasa**, **Elukaaslane**, **Õde/vend**, **Perekondlik**, **Muu kontakt** või **lapsevanem**. |
+| **Töövõtja ravikindlustus** | **Töötaja > Töötaja > Versioonid > Tööhõive ajalugu > Kuupäevahaldur > Soodustuse üksikasjad** | Olem **Medicare Eligibile** on seatud väärtusele **Jah**. Olem **Medicare Eligibility Date** on muudetud. |
+| **Sünnipäev** | **Soodustuste haldus > Elusündmuse muudatuste töötlemine** | Need elusündmused luuakse **elusündmuse muudatuste töötlemisest**. Protsess analüüsib valitud perioodi ja juriidilist isikut ning leiab seostatud töötajad. See arvutab välja nende viimase sünnipäeva ja loob sünnipäeva sündmuse juhul, kui seda pole veel loodud. |
+| **Töötaja sobivuse muudatus (mitte USA spetsiifiline)** |<br><ul><li>**Töötaja > Tööhõive**</li><li>**Töötaja > Töötaja > Versioonid > Tööhõive ajalugu**</li></ul>| Elusündmuse tüübi loomine juhul, kui:<br><ul><li>Uue töösuhte loomine ja olemas on eelnev töösuhe ning töötaja tüüp muutub.</li><li>Uue töösuhte detaili loomine ja olemas on eelneva töösuhte detailteave ning tööhõive tüüp või tööhõive kategooria muutub.</li><li>Tööhõivekirje ja erineva töötajatüübi värskendamine on määratletud.</li><li>Tööhõive üksikasjade kirje ja muu tööhõive tüübi või kategooria värskendamine on määratud.</li></ul> |
+| **Uus sobivuse tühistamine (mitte USA-spetsiifiline)** | **Täpsustatud inimressursid > Soodustused > Plaanid > Soodustused > Sobivusreegli tühistamine** | Elusündmuse töötlemise kasutamine<br>Uue soodustusplaani kõlblikkuse alistamise töötaja puhul käivitab selle elusündmuse.<br>BenefitEligibilityRuleOverride.ValidFrom. |
+| **Sobivusreegli tühistamise muudatus (mitte USA-spetsiifiline)** | **Täpsustatud inimressursid > Soodustused > Plaanid > Soodustused > Sobivusreegli tühistamine** | Soodustusplaani **kehtiv alates** või **kehtiv kuni** väärtuse uuendamise alistamine käivitab selle elusündmuse. |
+| **Sobivusreegli tühistamise aegumine (mitte USA-spetsiifiline)** | Soodustuste haldus > Elusündmuse muudatuste töötlemine  | Need elusündmused luuakse **elusündmuse muudatuste töötlemisest**. Protsess analüüsib valitud perioodi ja juriidilist isikut ning leiab seostatud soodustuste plaani kehtivuse alistamised. See loob elusündmused, kui alistamised on aegunud. |
+| **Uus soodustuse plaan (mitte USA-spetsiifiline)** | **Täiustatud inimressursid > Soodustused > Plaanid > Uus** | Sobivuse suvandid lisatakse praegusele plaanile. Lisatakse uus plaan, millele on lisatud sobivuse suvandid.</br></br>Inimressursside töötajad peaksid käitama selles eksemplaris elusündmuse sobivuse töötlemise. |
+| **Sobivusreegli muudatus (mitte USA-spetsiifiline)** | **Soodustuste haldus > Sobivuse reeglid** | Elusündmuse sobivuse töötlemise kasutamine. Logitakse, kui kirjetel **BenefitEligibilityRule** muudetakse järgmisi väärtusi: **UseEmplCategory**, **UseEmplStatus** või **UseEmplType**. Värskendab ainult elusündmuste kandeid, mis on muudetud reegli või sobivuse kriteeriumide jaoks juba olemas. |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

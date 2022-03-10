@@ -2,11 +2,9 @@
 title: Intressikoodile intressimäära seadistamine
 description: Intressikoodid sisaldavad sätteid, mis määratlevad, millal intressi võetakse ja kuidas seda arvutatakse tähtaja ületanud arvete puhul.
 author: ShivamPandey-msft
-manager: AnnBe
-ms.date: 01/12/2018
+ms.date: 02/17/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: Interest
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1169a397dfdd32f728a09e2ad279842edc289c19
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: 09808433140f71bf2d7bfaaca87b6c27adb56d86c4c14ad44b37592d416fa2b9
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4971624"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6716713"
 ---
 # <a name="set-up-interest-rates-for-an-interest-code"></a>Intressikoodile intressimäära seadistamine
 
@@ -46,10 +44,19 @@ Saate seadistada intressimäärad, mis arvutavad kindlaksmääratud protsendi.
 
 - Intressimäär kehtib kõigile valuutadele.
 - Sisestada saab valikulisi intressisumma limiite.
-- <strong>Protsent</strong> valitakse väljal** <strong>**Intressi arvutusalus:</strong> lehel <strong>Intressikoodide</strong> seadistamine.
+- **Protsent** valitakse väljal **Intressi arvutusalus mis põhineb** väljal **Intressikoodide seadistamine** lehel.
 
 Näiteks intressikoodi seadistamiseks, mis määrab 5 protsenti intressi iga kahe kuu eest, mille võrra arve makse ületab kande tähtaega, tuleks sisestada 2 väljale **Arvuta intress iga** ja valida **Kuu**.
 
+> [!NOTE] 
+> Viivisearve arvutamise uus algoritm lisatakse funktsioonihalduse abil. Selle algoritmi kasutamiseks lubage **(GBL) Lubage arvutada päeva viivist iga-aastase protsendina jagatuna 365** funktsioon. Lisateavet funktsioonide lubamise kohta, vaata [Funktsioonihalduse ülevaade](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+> 
+> Viivisearve summa arvutamise valem on: 
+>  
+> Viivisearve summa = võlgnetav summa * Aastane viiviseprotsent % / 365 * Hilinemispäevade arv
+>  
+> See funktsioon on saadaval rakenduses versioonis 10.0.18 ja uuemas.    
+ 
 ## <a name="interest-rates-based-on-amounts"></a>Summal põhinevad intressimäärad
 Saate seadistada intressimäärad, mis arvutavad määratud summa valuuta kaupa.
 - Intressi summa määratakse iga intressikoodi valuuta jaoks.
@@ -83,7 +90,6 @@ Saate seadistada vahemiku andmed järgmiselt.
 
 
 ## <a name="example-2-interest-by-range--days"></a>Näide 2: Intress vahemiku järgi = päevad
---------------------------------------------------
 
 Saate seadistada intressikoodi, mis määrab intressi üks kord iga 15 päeva tagant, mil arve makse ületab kande tähtaega. Soovite arvutuse aluseks võtta summapõhise intressiväärtuse, vastavalt astmelistele päevaintervallidele. Intressi väärtus on 10.00 15 päeva kohta esimese 60 päeva jooksul, 15.00 15 päeva kohta päevadel 61 kuni 90 ja 20.00 15 päeva kohta 91. päevast edasi. Saate seadistada intressikoodi välja väärtused järgmiselt.
 
@@ -104,7 +110,6 @@ Saate seadistada vahemiku andmed järgmiselt.
 
 
 ## <a name="example-3-interest-by-range--months"></a>Näide 3: Intress vahemiku järgi = kuud
-----------------------------------------------------
 
 Saate seadistada intressikoodi, mis määrab intressi üks kord iga kuu tagant, mil arve makse ületab kande tähtaega. Soovite arvutuse aluseks võtta protsentuaalse intressiväärtuse, vastavalt astmelistele kuuintervallidele. Intressi väärtus on 1,5 protsenti kuus kolmel esimesel tähtaja ületanud kuul, 2,0 protsenti kuus järgmised kolm kuud ja 2,5 protsenti kuus kõigil järgnevatel kuudel. Saate seadistada intressikoodi välja väärtused järgmiselt.
 
@@ -130,3 +135,6 @@ Erinevate versioonide vaatamiseks võite kasutada kuupäeva valimiseks menüüva
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

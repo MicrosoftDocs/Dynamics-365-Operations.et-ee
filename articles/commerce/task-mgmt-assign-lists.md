@@ -2,11 +2,9 @@
 title: Ülesandeloendite määramine poodidele või töötajatele
 description: Selles teemas kirjeldatakse, kuidas määrata rakenduses Microsoft Dynamics 365 Commerce poodidele või töötajatele ülesandeloendeid.
 author: gvrmohanreddy
-manager: annbe
 ms.date: 02/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -15,20 +13,18 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: ee924f5bf95d47814e7ca09b392a3d10b5e9b9dc
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: 18f13fb1754b2740b8447a67f09320651b0ca4003c6f46c6d4668e5159ae1a2d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5006256"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6730823"
 ---
-# <a name="assign-task-lists-to-stores-or-employees"></a>Ülesandeloendite määramine poodidele või töötajatele
+# <a name="assign-task-lists-to-stores-or-employees"></a>Tööülesannete loendite määramine kauplustele või töötajatele
 
 [!include [banner](includes/banner.md)]
 
 Selles teemas kirjeldatakse, kuidas määrata rakenduses Microsoft Dynamics 365 Commerce poodidele või töötajatele ülesandeloendeid.
-
-## <a name="overview"></a>Ülevaade
 
 Rakenduse Dynamics 365 Commerce ülesannete haldus võimaldab teil määrata ülesandeloendeid erinevatele poodidele või töötajatele või poodide ja töötajate kombinatsioonile. Näiteks võib 20 poe piirkondlik juht soovida määrata kõigile 20 poele ülesandeloendi **Pühadeaja ettevalmistus**.
 
@@ -49,7 +45,7 @@ Rakenduse Dynamics 365 Commerce ülesannete haldus võimaldab teil määrata ül
 
 Järgmisel joonisel on toodud näide, kuidas dialoogiboksis **Alusta protsessi** otsida ja valida poode.
 
-![Poodide otsimine ja valimine dialoogiboksis Alusta protsessi](media/HQ-Assign-Tasks-Lists.png)
+![Poodide otsimine ja valimine protsessi alustamise dialoogiboksis.](media/HQ-Assign-Tasks-Lists.png)
 
 ## <a name="assign-task-lists-on-a-recurring-basis"></a>Korduva ülesandeloendi määramine
 
@@ -66,7 +62,7 @@ Jaemüüjal on mõnikord korduvad ülesanded, nagu „Neljapäevane sulgemise ko
 
 Järgmisel joonisel on toodud näidis, kuidas sisestada dialoogiboksi **Korduse määratlemine** sageduse kriteeriume.
 
-![Sageduse kriteeriumite sisestamine dialoogiboksis Korduse määratlemine](media/HQ-Assign-Tasks-Lists-Recurrently.png)
+![Sageduse kriteeriumite sisestamine korduse määratlemise dialoogiboksis.](media/HQ-Assign-Tasks-Lists-Recurrently.png)
 
 ## <a name="track-task-list-status"></a>Ülesandeloendi oleku jälgimine
 
@@ -91,3 +87,6 @@ Kõikide teile määratud ülesannete ülesandeloendi oleku jälgimiseks toimige
 [Ülesandeloendite loomine ja ülesannete lisamine](task-mgmt-create-lists.md)
 
 [Ülesannete haldus kassas](task-mgmt-POS.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

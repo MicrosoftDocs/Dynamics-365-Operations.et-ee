@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: ba973299291276fe48d82360e203ca28f02aaffb
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
-ms.translationtype: HT
+ms.openlocfilehash: fa2515a0cbc5b69a1a69e15ec9e1ba2739fa2fbeffb5b0eb22b49fd8cab18e6f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796266"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6719523"
 ---
 # <a name="accordion-module"></a>Akordionmoodul
 
@@ -34,7 +34,7 @@ Igasse akordionmoodulisse saab lisada ühe või enama akordioniüksuse mooduli. 
 
 Järgmisel pildil on näide akordionmoodulist, mida kasutatakse kaupluse korduma kippuvate küsimuste (KKK) lehe teabe korrastamiseks.
 
-![Akordionmooduli näide](./media/ecommerce-accordion.PNG)
+![Akordionmooduli näide.](./media/ecommerce-accordion.PNG)
 
 ## <a name="accordion-module-properties"></a>Akordionmooduli atribuudid
 

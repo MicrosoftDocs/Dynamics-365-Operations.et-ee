@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 62f812c7c7fa06deb5f41508044b029e6c5ca4a0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
-ms.translationtype: HT
+ms.openlocfilehash: dc0d8ec546e7455187a87ac124c5e56a93f5bafd2270bf275af950991fc4b87e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825730"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6740715"
 ---
 # <a name="maintenance-rounds"></a>Hoolduskorrad
 
@@ -59,7 +59,7 @@ ms.locfileid: "5825730"
 
 12. Valige väljal **Hooldustöö tüüp** varale hooldustöö tüüp.
 
-13. Valige vajadusel hooldustöö tüübiga seotud **Hooldustöö  tüübi variant** ja **Vaheta**.
+13. Valige vajadusel hooldustöö tüübiga seotud **Hooldustöö tüübi variant** ja **Vaheta**.
 
 14. Valige väljal **Perioodi tüüp** korduvus (päev, nädal, jne).
 
@@ -69,7 +69,7 @@ ms.locfileid: "5825730"
 
 17. Kui soovite hoolduskorrale veel varasid lisada, korrake etappe 9-16.
 
-18. Klõpsake kiirkaardil **Töö asukoha read** hoolduskorrale töö asukohta lisamiseks valikut **Lisa**. Vaadake eespoolt seotud väljade kirjeldust. Saadaval on samad väljad, mis ka vara rea loomisel, aga saate vajadusel töö asukohale valida ka **Tootja** ja **Mudeli**. Kui valite reale ainult töö asukoha aga ei tee valikuid **Vara tüüp**, **Tootja**, **Mudel**, **Hooldustöö tüüp**, **Hooldustöö  tüübi variant** ja **Vahetus**, kaasatakse hoolduskorda kõik selle töö asukohaga hoolduse ajastamise hetkel seotud töö asukohad.
+18. Klõpsake kiirkaardil **Töö asukoha read** hoolduskorrale töö asukohta lisamiseks valikut **Lisa**. Vaadake eespoolt seotud väljade kirjeldust. Saadaval on samad väljad, mis ka vara rea loomisel, aga saate vajadusel töö asukohale valida ka **Tootja** ja **Mudeli**. Kui valite reale ainult töö asukoha aga ei tee valikuid **Vara tüüp**, **Tootja**, **Mudel**, **Hooldustöö tüüp**, **Hooldustöö tüübi variant** ja **Vahetus**, kaasatakse hoolduskorda kõik selle töö asukohaga hoolduse ajastamise hetkel seotud töö asukohad.
 
 19. Klõpsake kiirkaardil **Kogumid** hoolduskorda kaasatava töökäsu kogumi valimiseks suvandit **Lisa**. Ühe hoolduskorraga saab ühendada mitu töökäsu kogumit.
 
@@ -80,7 +80,7 @@ ms.locfileid: "5825730"
 
 Alloleval joonisel on kujutatud kolme vara hõlmava hoolduskorra näide.
 
-![Joonis 1](media/13-preventive-maintenance.png)
+![Joonis 1.](media/13-preventive-maintenance.png)
 
 
 ## <a name="schedule-maintenance-rounds"></a>Hoolduskordade plaanimine
@@ -106,9 +106,9 @@ Kui olete hoolduskorra seadistanud, käivitate ajastamise töö, et ajastada kõ
 
 Kahel alloleval joonisel on kujutatud ajastamise töö dialoogis **Hoolduskordade plaanimine** ja hooldusgraafiku read, mis on loodud jaotises **Kõik hooldusgraafikud** selle ajastamise töö põhjal.
 
-![Joonis 2](media/14-preventive-maintenance.png)
+![Joonis 2.](media/14-preventive-maintenance.png)
 
-![Joonis 3](media/15-preventive-maintenance.png)
+![Joonis 3.](media/15-preventive-maintenance.png)
 
 - Kui tarnija garantii alla käivatele varadele tehakse töökäsud käsitsi, kuvatakse dialoogikasti, et teavitada kasutajat garantiist. Siis saab töökäsu loomise tühistada. Automaatselt loodud töökäskudel on garantii seose kontrollimine välja jäetud.  
 - Kiirkaardil **Taustal käitamine** saate seadistada pakett-töö regulaarsete intervallidega hoolduskordade ajastamiseks.  

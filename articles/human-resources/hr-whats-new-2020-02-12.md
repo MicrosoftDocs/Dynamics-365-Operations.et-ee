@@ -2,15 +2,12 @@
 title: Mis on uut või mida on muudetud rakenduses Dynamics 365 Human Resources (12. veebruar 2020)
 description: Selles artiklis kirjeldatakse Microsoft Dynamics 365 Human Resourcesi 12. veebruari 2020 uusi või muutunud funktsioone.
 author: andreabichsel
-manager: tfehr
 ms.date: 02/07/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
@@ -18,18 +15,18 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-02-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f03c0230949ceb974d4b4d22623c80a1509eeb32
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
-ms.translationtype: HT
+ms.openlocfilehash: ac274cc18ddb3392fb118dcc1df7813cbc5b8293
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5463810"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063025"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-12-2020"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 Human Resources (12. veebruar 2020)
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Selles artiklis kirjeldatakse Dynamics 365 Human Resourcesi uusi või muutunud funktsioone. Muudatused rakenduvad versioonile number 8.1.2867. Sulgudes olevad numbrid mõnedes pealkirjades viitavad toenumbritele teenuses Microsoft Dynamics Lifecycle Services (LCS).
 
@@ -57,7 +54,7 @@ Kursuse registreerimise töövoogu on värskendatud, et lubada mitu kinnitajat.
 
 ### <a name="platform-update-32"></a>Platvormivärskendus update 32 
 
-Platvormivärskendus 32 on peagi saadaval. [Lisateavet platvormivärskenduse 32 kohta leiate siit](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-update-32).
+Platvormivärskendus 32 on peagi saadaval. [Lisateavet platvormivärskenduse 32 kohta leiate siit](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-32.md).
 
 ### <a name="updated-dataverse-solution"></a>Värskendatud lahendus Dataverse
 
@@ -77,7 +74,7 @@ Uus lahendus Dataverse on varsti saadaval järgmiste muudatustega.
 ## <a name="see-also"></a>Vt ka
 
 [Mis on uut või mida on muudetud rakenduses Human Resources?](hr-admin-whats-new.md)</br>
-[Dynamics 365 Human Resources 2019 väljalaskevoo 2 ülevaade](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Dynamics 365 Human Resources 2019 väljalaskevoo 2 ülevaade](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Värskendamisprotsess](hr-admin-setup-update-process.md)</br>
 [Funktsioonide haldamine](hr-admin-manage-features.md)
 

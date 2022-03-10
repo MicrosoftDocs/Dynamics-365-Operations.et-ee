@@ -1,27 +1,24 @@
 ---
 title: Tootemudeli protsessi haldamine
 description: Selle protseduuri käitamine nõuab toote konfiguratsioonimudeli olemasolu.
-author: ShylaThompson
-manager: tfehr
+author: t-benebo
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductVariantMaintainWorkspace, PCProductConfigurationModelListPage, PCProductConfigurationModelDetails, PCRouteOperationDetails, WrkCtrCapabilityLookUp
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: benebotg
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cc41f99085e5f30ae29edce296a5e3752cbabd33
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 88df8b867ac7f354417add0462e7999747333451
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4426115"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577260"
 ---
 # <a name="maintain-route-for-a-product-model"></a>Tootemudeli protsessi haldamine
 
@@ -29,41 +26,44 @@ ms.locfileid: "4426115"
 
 Selle protseduuri käitamine nõuab toote konfiguratsioonimudeli olemasolu. See protseduur kasutab tipptasemel kõlari mudelit demoettevõttes USMF, et juhatada teid läbi protsessi.
 
-
 ## <a name="add-a-route-operation"></a>Lisage protsessitoiming
-1. Klõpsake valikut Tootevariandi mudeli määratlus.
-2. Klõpsake valikut Toote konfiguratsioonimudelid.
-3. Otsige loendist ja valige soovitud kirje.
+
+1. Avage **Tooteteabe haldus \> Tooted \> Tootekonfiguratsiooni mudelid**.
+1. Otsige loendist ja valige soovitud kirje.
     * Valige selle harjutuse jaoks tipptasemel kõlari mudel.  
-4. Klõpsake loendis valitud real olevat linki.
-5. Laiendage jaotist Protsessitoimingud.
-6. Klõpsake vahekaarti Lisa.
-7. Sisestage väärtus väljale Nimi.
-8. Sisestage väljale Kirjeldus soovitud väärtus.
-9. Klõpsake nuppu Salvesta.
+1. Valige loendis link valitud reas.
+1. Laiendage jaotist **Protsessitoimingud**.
+1. Valige **Lisa**.
+1. Sisestage väärtus väljale **Nimi**.
+1. Sisestage väärtus väljale **Kirjeldus**.
+1. Valige käsk **Salvesta**.
 
 ## <a name="enter-route-operation-details"></a>Sisestage protsessitoimingu üksikasjad
-1. Klõpsake valikut Protsessitoimingu üksikasjad.
-2. Sisestage või valige väärtus väljal Toiming.
-3. Sisestage väljale Toimingu Nr number.
+
+1. Valige **Protsessi operatsiooni üksikasjad**.
+1. Sisestage või valige väärtus väljal **Toiming**.
+1. Väljal **Toim. nr** number.
     * Toimingunumbrid määravad protsessi järjekorra.  
     * Iga protsessitoimingu atribuut võib saada statistilise väärtuse või olla vastendatud atribuudiga. Atribuudiga vastendamisel määratakse väärtus konfiguratsiooni osaks.  
-4. Sisestage või valige väärtus väljal Protsessigrupp.
+1. Sisestage või valige väärtus väljal **Protsessigrupp**.
     * Protsessigrupp määrab kuluarvutuse, tarbimise ja seadistuse põhikäitumise.  
-5. Klõpsake vahekaarti Seadistus.
-6. Klõpsake vahekaarti Ajad.
-7. Sisestage arv väljale Protsessi kogus.
+1. Valige vahekaart **Häälestus**.
+1. Valige vahekaart **Ajad**.
+1. Sisestage arv väljale **Protsessi kogus**.
     * Määrake, mitu ühe toimingu käigus töödeldakse.  
-8. Sisestage number väljale Tunnid/aeg.
+1. Sisestage number väljale **Tunnid/aeg**.
     * Sisestage aja suhe.  
-9. Märkige ruut Määra.
-10. Sisestage number väljale Käitusaeg.
+1. Märkige ruut **Määra**.
+1. Sisestage number väljale **Käitusaeg**.
     * Määrake määratud koguse töötlemisaeg.  
-11. Klõpsake vahekaarti Ressursinõuded.
-12. Klõpsake vahekaarti Lisa.
-13. Märkige loendis valitud rida.
-14. Valige suvand väljal Nõude tüüp.
+1. Valige vahekaart **Ressursinõuded**.
+1. Valige **Lisa**.
+1. Märkige loendis valitud rida.
+1. Valige suvand väljal **Nõude tüüp**.
     * Otsustage, kas soovite määrata konkreetseid ressursse või võimalusi, mis neil peavad olema.  
-15. Valige või sisestage väärtus väljal Nõue.
-16. Klõpsake nuppu OK.
+1. Valige või sisestage väärtus väljal **Nõue**.
+1. Valige nupp **OK**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

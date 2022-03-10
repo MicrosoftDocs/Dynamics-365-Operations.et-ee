@@ -2,7 +2,7 @@
 title: Rea definitsioonide lahtrite muutmine
 description: Selles teemas kirjeldatakse teavet, mis on finantsaruandes nõutav readefinitsiooni iga lahtri puhul, ja selgitatakse, kuidas seda teavet sisestada.
 author: ShylaThompson
-ms.date: 02/11/2019
+ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 3bf1c8081eea86fd14600174d843447b727d0226
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
-ms.translationtype: HT
+ms.openlocfilehash: 80df992ce14577ba78587648f8af2c35b382a589
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6347944"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344881"
 ---
 # <a name="modify-row-definition-cells"></a>Rea definitsioonide lahtrite muutmine
 

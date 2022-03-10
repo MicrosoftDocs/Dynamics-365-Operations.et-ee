@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 0af3e1d589fd99cc722d8aedeb9596388a9e2e8c
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
-ms.translationtype: HT
+ms.openlocfilehash: 2bf4d1ecad3e25299df7c87ffa2236736ddcac300a5ded779616b25920745d7e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018282"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6765828"
 ---
 # <a name="configure-er-formats-to-use-parameters-that-are-specified-per-legal-entity"></a>ER-vormingute konfigureerimine juriidilise isiku kohta määratud parameetrite kasutamiseks
 
@@ -78,17 +78,17 @@ Selles näites loote konfiguratsiooni näidisettevõttele Litware, Inc. Enne sel
 
     ER-vorming **Vorming parameetritega kõnede õppimiseks** on mõeldud XML-vormingus maksudeklaratsiooni loomiseks, millel kujutatakse mitut maksustamistaset (tavaline, vähendatud ja puudub). Igal tasemel on erinev arv üksikasju.
 
-    ![ER-vormingu mitu taset, vorming parameetritega kutsete saamiseks](./media/RCS-AppSpecParms-ReviewFormat.PNG)
+    ![ER-vormingu mitu taset, vorming parameetritega kutsete saamiseks.](./media/RCS-AppSpecParms-ReviewFormat.PNG)
 
 5.  Laiendage vahekaardil **Vastendamine** üksusi **Mudel**, **Andmed** ja **Kokkuvõte**.
 
     Andmeallikas **Model.Data.Summary** tagastab maksukannete loendi. Need kanded on kokku võetud maksukoodi järgi. Selle andmeallika jaoks on arvutatud väli **Model.Data.Summary.Level** konfigureeritud tagastama iga kokku võetud kirje maksustamistaseme koodi. Iga maksukoodi kohta, mida saab käitusajal tuua andmeallikast **Model.Data.Summary**, tagastab arvutatud väli maksustamistaseme koodi (**Tavaline**, **Vähendatud**, **Puudub** või **Muu**) tekstväärtusena. Arvutatud välja **Model.Data.Summary.Level** kasutatakse andmeallika **Model.Data.Summary** kirjete filtreerimiseks ja filtreeritud andmete sisestamiseks igasse XML-elementi, mis kujutavad maksustamistaset, kasutades välju **Model.Data2.Level1**, **Model.Data2.Level2** ja **Model.Data2.Level3**.
 
-    ![Mudel.Andmed.Kokkuvõte andmeallikas maksukannete loendist](./media/RCS-AppSpecParms-ReviewFormat-Data2Fld.PNG)
+    ![Mudel.Andmed.Kokkuvõte andmeallikas maksukannete loendist.](./media/RCS-AppSpecParms-ReviewFormat-Data2Fld.PNG)
 
     Arvutatud väli **Model.Data.Summary.Level** on konfigureeritud nii, et see sisaldab ER-i avaldist. Maksukoodid (**VAT19**, **InVAT19**, **VAT7**, **InVAT7**, **THIRD** ja **InVAT0**) on sellesse konfiguratsiooni püsiprogrammeeritud. Seetõttu oleneb see ER-vorming juriidilisest isikust, kus maksukoodid konfigureeriti.
 
-    ![Mudel.Andmed.Kokkuvõte.Tasandi kalkuleeritud väli koos püsiprogrammeeritud maksukoodidega](./media/RCS-AppSpecParms-ReviewFormat-LevelFld.PNG)
+    ![Mudel.Andmed.Kokkuvõte.Tasandi kalkuleeritud väli koos püsiprogrammeeritud maksukoodidega.](./media/RCS-AppSpecParms-ReviewFormat-LevelFld.PNG)
 
     Muu maksukoodide kogumi toetamiseks iga juriidilise isiku jaoks peate järgima järgmisi etappe.
 
@@ -128,7 +128,7 @@ Järgmiseks lisage uus ER-vormingu loetelu. Selle vormingu loetelu väärtused e
 12. Valige uuesti käsk **Lisa**.
 13. Väljale **Nimi** sisestage **Muu**.
 
-    ![Uus kirje Vormingu loetelude lehel](./media/RCS-AppSpecParms-ConfigureFormat-Enum.PNG)
+    ![Uus kirje Vormingu loetelude lehel.](./media/RCS-AppSpecParms-ConfigureFormat-Enum.PNG)
 
     Kuna ärikasutajad võivad kasutada erinevaid keeli juriidilisest isikust sõltuvate maksukoodide kogumite määramiseks, soovitame teil tõlkida selle loetelu väärtused keeltesse, mis on konfigureeritud eelistatud keeltena nende kasutajate jaoks Finance’is.
 
@@ -141,7 +141,7 @@ Järgmiseks lisage uus ER-vormingu loetelu. Selle vormingu loetelu väärtused e
 20. Sisestage väljale **Tõlgitud tekst** väärtus **keine Besteuerung**.
 21. Valige käsk **Tõlgi**.
 
-    ![Teksti tõlke välja libisemine](./media/RCS-AppSpecParms-ConfigureFormat-EnumTranslate.PNG)
+    ![Teksti tõlke välja libisemine.](./media/RCS-AppSpecParms-ConfigureFormat-EnumTranslate.PNG)
 
 22. Valige käsk **Salvesta**.
 23. Sulgege leht **Vormingu loetelud**.
@@ -168,13 +168,13 @@ Järgmiseks lisage uus andmeallikas määramaks, kuidas ärikasutajad määravad
 10. Valige üksus **Model.Data.Tax.Code**.
 11. Valige nupp **Lisa** (paremnool).
 
-    ![Veerud libisevad välja](./media/RCS-AppSpecParms-ConfigureFormat-Lookup1.PNG)
+    ![Veerud libisevad välja.](./media/RCS-AppSpecParms-ConfigureFormat-Lookup1.PNG)
 
     Määrasite äsja, et iga maksustamistaseme tuvastamise selles andmeallikas määratud reegli kohta peab ärikasutaja valima tingimuseks ühe maksukoodi. Maksukoodide loend, mida ärikasutaja saab valida, tagastatakse andmeallikaga **Model.Data.Tax**. Kuna see andmeallikas sisaldab välja **Nimi**, kuvatakse maksukoodi nimi iga maksukoodi väärtuse kohta otsingus, mis esitatakse ärikasutajale.
     
 12. Valige nupp **OK**.
 
-    ![Otsingukujundaja leht](./media/RCS-AppSpecParms-ConfigureFormat-Lookup2.PNG)
+    ![Otsingukujundaja leht.](./media/RCS-AppSpecParms-ConfigureFormat-Lookup2.PNG)
 
     Ärikasutajad saavad lisada selle andmeallika kirjetena mitu reeglit. Iga kirje nummerdatakse rea koodi järgi. Reegleid hinnatakse rea numbrite kasvavas järjekorras.
 
@@ -188,13 +188,13 @@ Järgmiseks lisage uus andmeallikas määramaks, kuidas ärikasutajad määravad
 
     Pange tähele, et kui lisasite uue andmeallika, tagastab see maksustamistaseme vormingu loetelu **Maksustamistasemete loend** väärtuse mis tahes maksukoodi kohta, mis edastatakse andmeallikale andmetüübi **String** parameetri **Kood** argumendina.
     
-    ![Vormingukujundaja leht koos uue andmeallikaga](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFld.PNG)
+    ![Vormingukujundaja leht koos uue andmeallikaga.](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFld.PNG)
 
     Konfigureeritud reeglite hindamine oleneb väljade andmetüübist, mis on valitud määratlema nende reeglite tingimusi. Kui valite välja, mis on konfigureeritud väljaks andmetüübile **Numbriline** või **Kuupäev**, erinevad kriteeriumid kriteeriumitest, mida kirjeldati varem andmetüübi **String** kohta. Väljade **Numbriline** ja **Kuupäev** korral tuleb reegel määrata väärtuste vahemikuna. Reegli tingimust peetakse täidetuks, kui andmeallikale edastatud väärtus jääb konfigureeritud vahemikku.
     
     Järgmisel joonisel on näide seda tüüpi seadistuse kohta. Peale välja **Model.Data.Tax.Code** andmetüübi **String** korral kasutatakse otsingu andmeallika tingimuste määramiseks välja **Model.Tax.Summary.Base** andmetüübi **Tegelik** korral.
     
-    ![Otsingukujundaja leht lisaveergudega](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFld2.PNG)
+    ![Otsingukujundaja leht lisaveergudega.](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFld2.PNG)
 
     Kuna selle otsingu andmeallika jaoks valitakse väljad **Model.Data.Tax.Code** ja **Model.Tax.Summary.Base**, konfigureeritakse selle andmeallika iga reeglit järgmiselt.
     
@@ -223,7 +223,7 @@ Kuna ärikasutajad võivad kasutada erinevaid keeli juriidilisest isikust sõltu
 9.  Valige käsk **Tõlgi**.
 10. Valige nupp **OK**.
 
-    ![Andmeallika atribuudid libisevad välja](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFldTranslate.PNG)
+    ![Andmeallika atribuudid libisevad välja.](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFldTranslate.PNG)
 
 ### <a name="add-a-new-field-to-consume-the-configured-lookup"></a>Konfigureeritud otsingu kasutamiseks uue välja lisamine
 
@@ -236,12 +236,12 @@ Kuna ärikasutajad võivad kasutada erinevaid keeli juriidilisest isikust sõltu
 7.  Sisestage väljale **Valem** väärtus **Model.Selector(Model.Data.Summary.Code)**.
 8.  Valige käsk **Salvesta**.
 
-    ![Mudeleid lisama.Valija(Mudel.Andmed.Kokkuvõte.Kood) vormingudisaineri lehele](./media/RCS-AppSpecParms-ConfigureFormat-AddLevelByLookupFld.PNG)
+    ![Mudeleid lisama.Valija(Mudel.Andmed.Kokkuvõte.Kood) vormingudisaineri lehele.](./media/RCS-AppSpecParms-ConfigureFormat-AddLevelByLookupFld.PNG)
 
 9.  Sulgege leht **Valemiredaktor**.
 10. Valige nupp **OK**.
 
-    ![Vormingukujundaja leht koos uue lisatud vorminguga](./media/RCS-AppSpecParms-ConfigureFormat-AddLevelByLookupFld2.PNG)
+    ![Vormingukujundaja leht koos uue lisatud vorminguga.](./media/RCS-AppSpecParms-ConfigureFormat-AddLevelByLookupFld2.PNG)
 
     Pange tähele, et lisatud arvutatud väli **LevelByLookup** tagastab iga kokkuvõtliku maksukande kirje kohta vormingu loetelu **Maksustamistasemete loend** väärtusena maksustamistaseme. Kirje maksukood edastatakse otsingu andmeallikale **Model.Selector** ja selle andmeallika reeglite kogumit kasutatakse õige maksustamistaseme valimiseks.
 
@@ -269,7 +269,7 @@ Järgmiseks muutke olemasolevat arvutatud välja nii, et see kasutaks konfiguree
 
 4.  Sisestage väljale **Valem** väärtus **CASE(@.LevelByLookup, TaxationLevel.'Regular taxation', "Regular", TaxationLevel.'Reduced taxation', "Reduced", TaxationLevel.'No taxation', "None", "Other")**.
 
-    ![ER-i toimingu koostaja leht](./media/RCS-AppSpecParms-ConfigureFormat-ChangeLookupFld.PNG)
+    ![ER-i toimingu koostaja leht.](./media/RCS-AppSpecParms-ConfigureFormat-ChangeLookupFld.PNG)
     
     Pange tähele, et välja **Model.Data.Summary.Level** avaldis tagastab nüüd maksustamistaseme, lähtudes praeguse kirje maksukoodist ja reeglite kogumist, mille ärikasutaja konfigureerib otsingu andmeallikas **Model.Data.Selector**.
     

@@ -2,11 +2,9 @@
 title: Kõnekeskuse kataloogid
 description: Selles teemas kirjeldatakse kõnekeskusepõhiseid funktsioone rakenduse Dynamics 365 Commerce kataloogidele.
 author: josaw1
-manager: AnnBe
 ms.date: 05/15/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailMCRChannelDetailPage, RetailCatalogDetails
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 259b68aa28aa0c84699fc6d2e691bae0af135ab7
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: 6fae877b04fdbd84e1c2508f91bbf53b5412b350c5d2c8978aafb2d7f49783f6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4997796"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6742508"
 ---
 # <a name="call-center-catalogs"></a>Kõnekeskuse kataloogid
 
@@ -41,7 +39,7 @@ Kui ile lisati kõnekeskuse kanali tugi, siis laiendati kataloogi mõistet – l
 
 Kataloogi konfigureerimiseks klõpsake valikuid **Jaemüük ja kaubandus** \> **Kataloogid ja sortimendid** \> **Kõik kataloogid**.
 
-Uue kataloogi loomisel tuleb see esmalt siduda ühe või enama kanaliga. Seda saate teha vormi **Kataloogi seadistus** kiirkaardil **Kaubanduse kanalid**. Klõpsake nuppu **Lisa** ja valige üks või mitu kanalit. Kataloogi loomiseks saab kasutada ainult kaupu, mis on seotud teie valitud kanalite [sortimentidega](https://docs.microsoft.com/dynamics365/unified-operations/retail/assortments).
+Uue kataloogi loomisel tuleb see esmalt siduda ühe või enama kanaliga. Seda saate teha vormi **Kataloogi seadistus** kiirkaardil **Kaubanduse kanalid**. Klõpsake nuppu **Lisa** ja valige üks või mitu kanalit. Kataloogi loomiseks saab kasutada ainult kaupu, mis on seotud teie valitud kanalite [sortimentidega](/dynamics365/unified-operations/retail/assortments).
 
 Toodete lisamiseks kataloogi tuleb valida navigeerimishierarhia. Navigeerimishierarhia toetab kataloogi jaoks kategooriastruktuuri. Peate valima ühe navigeerimishierarhia, mis on seotud lehe **Kataloog** kiirkaardilt **Ärikanalid** valitud jaemüügikanaliga. Kui navigeerimishierarhiat pole varem kanaliga seotud, siis valige **Jaemüük ja kaubandus** \> **Kanali seadistus** \> **Kanali kategooriad ja toote atribuudid**, et vaikimisi siduda navigeerimishierarhia iga kanaliga.
 
@@ -100,3 +98,6 @@ Vahekaardil **Kataloogid** on olemas ka võimalused suvandite **Maksegraafik** j
 ## <a name="additional-notes"></a>Lisamärkmed
 
 Kui kõnekeskuses kasutatakse müügitellimuse koostamisel lähtekoodi ID-d, siis edastatakse sellega praegu konkreetse kataloogi hindu, kampaaniaid, skripte ja üles-/kaasmüüke. Süsteem ei keela ega takista müügitellimuse kaudu toote tellimist, mis ei ole kataloogis. Kui tellitakse kaup, mida kataloogis pole, siis kasutab süsteem esmalt **hinnagruppi**, mis on määratletud kõnekeskuse kanalis (**Jaemüük ja kaubandus** \> **Kanalid** \> **Kõnekeskused** \> **Kõik kõnekeskused**) kauba hinna või kampaaniate jaoks. Kui ei leita konkreetset kanali hinda, siis kasutatakse kauba põhihinda.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

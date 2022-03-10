@@ -1,12 +1,10 @@
 ---
 title: Suhtelise tee kasutamine ER-mudelite ja -vormingute andmesidemetes
-description: Elektrooniline aruandluse (ER) tööriist võimaldab kasutajatel määratleda elektroonilise vormingu struktuurid ja seejärel kirjeldada, kuidas neid struktuure tuleb täita, kasutades rakenduses olemasolevaid andmeid ja algoritme.
+description: Elektrooniline aruandluse tööriist võimaldab teil määratleda elektroonilise vormingu struktuurid ja seejärel kirjeldada, kuidas neid struktuure tuleb täita.
 author: NickSelin
-manager: AnnBe
 ms.date: 07/03/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERSolutionTable, ERModelMappingDesigner, EROperationDesigner, ERExpressionDesignerFormula
 audience: Application User, Developer, IT Pro
@@ -15,12 +13,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5e2554dc33514185fa16868ee239c3e44ff675dd
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: af3a646e24976d50f83d8564e3006fc2c50d8e2a
+ms.sourcegitcommit: 8bcb9c13eccb14e61c39ca6578d135b64090fad2
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687457"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8313563"
 ---
 # <a name="use-a-relative-path-in-data-bindings-of-er-models-and-formats"></a>Suhtelise tee kasutamine ER-mudelite ja -vormingute andmesidemetes
 
@@ -28,25 +26,25 @@ ms.locfileid: "4687457"
 
 Elektrooniline aruandluse (ER) tööriist võimaldab kasutajatel määratleda elektroonilise vormingu struktuurid ja seejärel kirjeldada, kuidas neid struktuure tuleb täita, kasutades rakenduses olemasolevaid andmeid ja algoritme. Lisateabe saamiseks vt teemat [Elektroonilise aruandluse (ER) konfiguratsioonide loomine](electronic-reporting-configuration.md). Andmevoo määramiseks rakenduse Finance and Operations andmete toomiseks ja selle kasutamiseks elektrooniliste dokumentide loomisel, tuleb teha järgmist.
 
-- Siduge konfigureeritud andmeallikad kujundatud domeenikohase [andmemudeli](general-electronic-reporting.md#data-model-and-model-mapping-components) elementidega. Mudeli struktuur ja valitud andmeallikad võivad olla osa keerukast hierarhilisest struktuurist. Selle tõttu võivad lõplikud sidumised olla üsna suured ja sisaldada mitut erinevat tüüpi elemente (nt seosed, tabelid ja meetodid). Sidumised võivad muutuda kehvemini loetavaks ning nende ülevaatamine ja mõistmine võib muutuda üsna keeruliseks, eriti mitteomanike jaoks. 
-- Siduge andmemudeli elemendid [vormingu](general-electronic-reporting.md#FormatComponentOutbound) komponentidega, et määratleda, millised andmed sisestatakse andmemudelist loodud vormingu väljundisse.
+- Siduda konfigureeritud andmeallikad kujundatud domeenikohase andmemudeli elementidega. Mudeli struktuur ja valitud andmeallikad võivad olla osa keerukast hierarhilisest struktuurist. Selle tõttu võivad lõplikud sidumised olla üsna suured ja sisaldada mitut erinevat tüüpi elemente (nt seosed, tabelid ja meetodid). Sidumised võivad muutuda kehvemini loetavaks ning nende ülevaatamine ja mõistmine võib muutuda üsna keeruliseks, eriti mitteomanike jaoks. 
+- Siduge andmemudeli elemendid vormingu komponentidega, et määratleda, millised andmed sisestatakse andmemudelist loodud vormingu väljundisse.
 
 ER-i vastenduse kujundaja kasutatavuse parandamiseks on loodud [suhtelise teekonna](er-formula-language.md#relative-path) funktsioon. Vaikimisi on suhtelise tee esindatuse suvand sisse lülitatud kõigi rakenduse Finance and Operations uute eksemplaride jaoks, kus on lubatud ER-i kujundamise kogemus (Microsoft Dynamics 365 Finance, Microsoft Regulatory Configuration Service). Rakendasime suhtelise tee parameetri, et kasutajad saaksid selle ER-i sidumise esitlusega töötades jätkata täieliku tee kasutamist.
 
-[![Kasutaja parameetrid](./media/relative-path-01.png)](./media/relative-path-01.png)
+[![Kasutaja parameetrid.](./media/relative-path-01.png)](./media/relative-path-01.png)
 
  
 Kui suhtelise tee kasutusparameeter on sisse lülitatud, asendab üks @-märk praeguse mudeli elemendi sidumisel tee emaüksuseni. Kogu sidumise tee muutub lühemaks, mis muudab kogu vastendamise ilmsemaks ja kergemini mõistetavaks. Enamasti ei ole ER-i kujundajas vaja kõigi andmemudelite sidumiste kuvamiseks täiendavat kerimist.
 
-[![Mudelivastenduse kujundaja](./media/relative-path-02.png)](./media/relative-path-02.png)
+[![Mudelivastenduse kujundaja.](./media/relative-path-02.png)](./media/relative-path-02.png)
  
 Uue ER-i avaldise kujundamise alustamisel tuleb sisestada ainult üks märk, et määratleda seos emaüksuse väljaga.
 
-[![Valemikoostaja](./media/relative-path-03.png)](./media/relative-path-03.png)
+[![Valemikoostaja.](./media/relative-path-03.png)](./media/relative-path-03.png)
  
 Kui otsustate muuta emamudeli üksuse andmeallikat absoluutse teekasutusega, peate selle mudelkauba ja kõik pesastatud üksused uue andmeallikaga käsitsi uuesti siduma. Kui suhtelise tee kasutamine on sisse lülitatud ja te valite emaüksusele sidumiseks uue andmeallika, pakutakse teile valikut kõik selle emaüksuse pesastatud üksused automaatselt ühe klõpsuga uuesti siduda.
 
-[![Olemasoleva tee asendamise teade](./media/relative-path-04.png)](./media/relative-path-04.png)
+[![Olemasoleva tee asendamise teade.](./media/relative-path-04.png)](./media/relative-path-04.png)
  
 Kui kinnitate pesastatud üksuste uuesti sidumise, paigutatakse uus emaüksus igale olemasolevat emaüksust sisaldava pesastatud üksuse teele.
 See funktsioon ei lõhu ER-i raamistiku tagasiühilduvust. Selle uue funktsiooniga töötavad kõik varem kavandatud ER-i konfiguratsioonid ja värskendusi ega teisendusi pole vaja.
@@ -57,3 +55,6 @@ See funktsioon ei lõhu ER-i raamistiku tagasiühilduvust. Selle uue funktsiooni
 ## <a name="additional-resources"></a>Lisaressursid
 
 [ER-i valemi keel](er-formula-language.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

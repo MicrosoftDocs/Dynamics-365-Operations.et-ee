@@ -1,29 +1,28 @@
 ---
 title: Eelarvestamise avaleht
 description: Teema annab ülevaate eelarvestamise funktsionaalsuse komponentidest, eelarvestamise tööriistadest ja aruandluse võimalustest teenuses Microsoft Dynamics 365 Finance.
-author: ShylaThompson
-manager: AnnBe
-ms.date: 08/09/2017
-ms.topic: index-page
+author: panolte
+ms.date: 04/29/2021
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetPlanningWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
-ms.custom: 106043
+ms.custom:
+- "106043"
+- intro-internal
 ms.assetid: 702f692e-ad1c-4798-8d3e-c3cf8591d3fa
 ms.search.region: Global
-ms.author: roschlom
+ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8a910aa7f54905f305ed69e9dd9eea0909e5558d
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
-ms.translationtype: HT
+ms.openlocfilehash: 6ad0d055702a3801bf9fe9ac3159eba7c297b6f0
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528541"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983948"
 ---
 # <a name="budgeting-home-page"></a>Eelarvestamise avaleht
 
@@ -31,12 +30,11 @@ ms.locfileid: "4528541"
 
 Teema annab ülevaate eelarvestamise funktsionaalsuse komponentidest, eelarvestamise tööriistadest ja aruandluse võimalustest. 
 
-<a name="components-of-budgeting-functionality"></a>Eelarvestamise funktsiooni komponendid
--------------------------------------
+## <a name="components-of-budgeting-functionality"></a>Eelarvestamise funktsiooni komponendid
 
 Ettevõtte ressursi planeerimistsükkel koosneb tavaliselt plaanimisest, eelarvestamisest ja tegevuste prognoosimisest.
 
-[![Eelarve koostamise funktsiooni komponendid](./media/budgeting-functionality-components.jpg)](./media/budgeting-functionality-components.jpg)
+[![Eelarve koostamise funktsiooni komponendid.](./media/budgeting-functionality-components.jpg)](./media/budgeting-functionality-components.jpg)
 
 Pikaajalist strateegilist plaanimist ja aastase eelarve plaanimist toetatakse eelarveplaani dokumendi kaudu. Eelarveplaani dokumendid on tugevasti Microsoft Exceliga integreeritud. Kasutajad saavad konfigureerida piiramatu arvu valuuta- ja kvantitatiivseid stsenaariume ning määratleda eelarvestamise organisatsiooni hierarhia nii ülalt-alla kui ka alt-üles eelarvestamise meetodite toetamiseks. Pärast seda, kui eelarve on rakenduses loodud ja kinnitatud, teisendatakse eelarveplaan eelarveregistri kirjeks. Eelarveregistri kirjed pakuvad vahendeid eelarve haldamiseks ja summade jälgitavana hoidmiseks eelarvekoodide kaudu. Eelarve registrikirjed võimaldavad parandada algseid eelarveid, teha ülekandeid ja eelmise aasta eelarvesummasid edasi kanda. Kehtestatud eelarve põhjal saab ettevõte lubada eelarve juhtimise. Kontrolli tase oleneb organisatsiooni kultuurist ja küpsusastmest. Madala küpsusastmega organisatsioonid võivad jätta eelarve muutmata ja olla rohkem reaktiivsed kui proaktiivsed, kui eelarve ootustele ei vasta. Teised organisatsioonid võivad lubada eelarve juhtimise poliitikaid, mis takistavad kasutajatel ostmist, kui eelarvesummasid pole.
 
@@ -50,7 +48,7 @@ Lõpetuseks võivad väga küpsed organisatsioonid kehtestada organisatsiooni ku
 -   [Eelarve planeerimise mallid Exceli jaoks](budget-planning-excel-templates.md)
 
 ## <a name="budgeting-tools"></a>Eelarvestamise tööriistad
-[![Eelarvestamise tööriistad](./media/budgeting-tools.jpg)](./media/budgeting-tools.jpg) 
+[![Eelarvestamise tööriistad.](./media/budgeting-tools.jpg)](./media/budgeting-tools.jpg) 
 
 Saadaval on täiendavad plaanimis- ja eelarve koostamise võimalused ning need on integreeritud pearaamatu eelarvetega.
 
@@ -71,3 +69,6 @@ Näiteks saate määratleda, kes eelarve koostab, mille kohta eelarve koostataks
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

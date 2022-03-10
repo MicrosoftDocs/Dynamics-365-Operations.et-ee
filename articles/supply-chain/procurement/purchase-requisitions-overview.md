@@ -1,26 +1,28 @@
 ---
 title: Ostutaotluse ülevaade
 description: Teema kirjeldab ostutaotluste töövoogu ja erinevaid olekuid, mis ostutaotlusel olla võivad.
-author: kamaybac
+author: Henrikan
 ms.date: 11/02/2017
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: PurchReqConsolidation, PurchReqCreate, PurchReqCreatePurchDetails, PurchReqCreatePurchListPage, PurchReqTable, PurchReqTableListPage, PurchReqConsolidationPartByVendor, PurchReqConsolidationLineDetail, PurchReqConsolidationCreate, PurchReqConsolidationBulkEdit, PurchReqConsolidationAddLine
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 2174
+ms.custom:
+- "2174"
+- intro-internal
 ms.assetid: 77d07119-4d9f-4c0e-acbe-d319203571ab
 ms.search.region: Global
-ms.author: dabourq
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e067c9df91894c5d2ce05a6afb92d1fadc954531
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
-ms.translationtype: HT
+ms.openlocfilehash: acd0deebe79e29bd1beb32ea21cd179f5bf12c43
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188193"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982898"
 ---
 # <a name="purchase-requisition-overview"></a>Ostutaotluse ülevaade
 
@@ -47,7 +49,7 @@ Ostutaotluse töövooprotsessi saate konfigureerida selliselt, et ostutaotlus li
 
 Järgmine diagramm näitab ostutaotlusele ja ostutaotluse reale määratud olekut töövooprotsessis liikumisel.  
 
-[![Ostutaotluse päise ja rea olekud](./media/purchasereq_headerline_statuses.jpg)](./media/purchasereq_headerline_statuses.jpg)
+[![Ostutaotluse päise ja rea olekud.](./media/purchasereq_headerline_statuses.jpg)](./media/purchasereq_headerline_statuses.jpg)
 
 ### <a name="purchase-requisition-header-and-line-status-relationships"></a>Ostutaotluse päise ja rea olekute seosed
 
@@ -179,7 +181,7 @@ Ostutaotluse ridu, mis ei ole konsolideerimise jaoks sobilikud või mida ei vali
 
 Nõutud kaupade konsolideerimise protsess algab siis, kui ostutaotlus on töövoos kinnitatud ja eelarve reserveeringud ja eelpandiõigused on kirjendatud, juhul kui teie organisatsioonis on konfigureeritud eelarve juhtimine. Järgmine diagramm näitab nõutud kaupade konsolideerimise protsessi voogu.  
 
-[![Nõutud kaupade konsolideerimise protsessivoog](./media/demand-consolidation.gif)](./media/demand-consolidation.gif)  
+[![Nõutud kaupade konsolideerimise protsessivoog.](./media/demand-consolidation.gif)](./media/demand-consolidation.gif)  
 
 Kinnitatud ostutaotluse ridade konsolideerimiseks tehke järgmist.
 

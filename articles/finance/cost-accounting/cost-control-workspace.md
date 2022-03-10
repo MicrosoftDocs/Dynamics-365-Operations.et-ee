@@ -2,11 +2,9 @@
 title: Kulujuhtimise tööruum
 description: Teema annab teavet kuluhalduse tööruumi kohta. See tööruum on keskne punkt, kus juhid, kes vastutavad kuluobjekti või kuluobjektide kogumi kontrollimise eest dimensioonis või dimensioonide lõikes, aruannetele juurde pääsevad.
 author: AndersGirke
-manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMCostControlWorkspaceConfiguration, CAMCostControlWorkspace, CAMCostControlWorkspaceConfigurationPerUser
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 22f441f7dc3d53fee263ebb059679510c2e3d054
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.openlocfilehash: db587f5526e0541fc81964d510000a42a671a9bd65224e7167b9d869475c3601
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5226433"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6763186"
 ---
 # <a name="cost-control-workspace"></a>Kulujuhtimise tööruum 
 
@@ -118,7 +116,7 @@ Kiirkaardil **Eelarvestatud kulude jaoks kuvatavad veerud** määrab kuluarvesta
 
 Kasutajatele (nt juhtidele) kättesaadavate aruannete loendit juhitakse sättega valikus **Avaldatud** lehel **Kulujuhtimise tööruumi konfiguratsioonid**.
 
-![Aruanne, mida kasutajad kulujuhtimise tööruumis näevad](./media/report-cost-control.png)
+![Aruanne, mida kasutajad kulujuhtimise tööruumis näevad.](./media/report-cost-control.png)
 
 Juht saab valida kuvamiseks rahanduskalendri perioodi. Jooksva perioodi vaikeväärtuse määramiseks kasutatakse seansi kuupäeva.
 
@@ -138,11 +136,11 @@ Ruudustikus kuvatakse kuluelemendi dimensioonihierarhia sõlme ja selle väärtu
 
 Kaks diagrammi kuvavad kokkuvõtte tegelikest andmetest võrreldes eelarvega ja eelarve hälbe perioodide kaupa.
 
-![Diagrammid, mis kuvavad kokkuvõtte tegelikest andmetest võrreldes eelarvega ja eelarve hälbe perioodide kaupa](./media/cost-element-details-operations.png)
+![Diagrammid, mis kuvavad kokkuvõtte tegelikest andmetest võrreldes eelarvega ja eelarve hälbe perioodide kaupa.](./media/cost-element-details-operations.png)
 
 Kasutajad võivad klõpsata valikut **Kulukirjed** kirje andmetes vajalikul viisil süvitsi minekuks.
 
-![Kulukirjed](./media/cost-entries.png)
+![Kulukirjed.](./media/cost-entries.png)
 
 Näiteks rent on kulu, mis jagatakse kulukeskuste vahel. Kasutaja, kes soovib mõista oma kulukeskuse rendikulu, saab minna süvitsi, et näha, kuidas rent on arvutatud.
 
@@ -150,7 +148,7 @@ Kui kasutajad klõpsavad valikut **Eraldamisalus** lehel **Kulukirjed**, kuvatak
 
 Järgmises näites on eraldamisaluse tüüp **Valemi eraldamisalus** ja on kuvatud valem. Loetletud on valemit määratlevad tegurid. Lisaks on ruudustikus näha kuluobjekti kohta tehtav arvutus.
 
-![Arvutused kuluobjekti kohta](./media/cost-entries-allocation-base.png)
+![Arvutused kuluobjekti kohta.](./media/cost-entries-allocation-base.png)
 
 Lisaressursid 
 

@@ -12,20 +12,20 @@ ms.reviewer: josaw
 ms.custom: 268444
 ms.search.region: global
 ms.search.industry: Retail
-ms.author: rubendel
+ms.author: brshoo
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 31798508e4cc71e31a30dc91acebfdde8226b16c
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
-ms.translationtype: HT
+ms.openlocfilehash: 444f1ebd99cf8443181a51d93a48b6b4d1addf4d
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5937058"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779538"
 ---
 # <a name="change-the-sort-order-for-merchandising-entities"></a>Kaubastamisolemite sortimisjärjestuse muutmine
 
 
-[!include [banner](includes/banner.md)]
+[!Include [banner](includes/banner.md)]
 
 Jaemüüjad peavad toodete avastamist esmaseks vahendiks klientidega suhtlemisel kõigis kanalites. Erinevad funktsioonid aitavad klientidel tooteid hõlpsasti avastada. Näiteks saavad nad sirvida kategooriaid, otsida ja filtreerida.
 
@@ -51,9 +51,9 @@ Enne selle protseduuri lõpetamist, peate installima demoandmed oma keskkonda.
 
 Kanali navigeerimise hierarhia kuvamisjärjestus kajastub peakontoris kaubanduse tootehierarhias ja väljastatud toodetes kategooriate kaupa.
 
-![Kohandatud tootehierarhia sorteerimine negatiivsete väärtustega](./media/RetailProductHierarchyCustomSortedWithNegativeValues.png)
+![Kohandatud tootehierarhia sorteerimine negatiivsete väärtustega.](./media/RetailProductHierarchyCustomSortedWithNegativeValues.png)
 
-![Väljastatud tooted kategooriate kaupa tootehierarhia põhjal kohandatult sorteeritud](./media/ReleasedProductsByCategoryCustomSortedBasedOnRetailProductHierarchy.png)
+![Väljastatud tooted kategooriate kaupa tootehierarhia põhjal kohandatult sorteeritud.](./media/ReleasedProductsByCategoryCustomSortedBasedOnRetailProductHierarchy.png)
 
 ## <a name="configure-the-display-order-for-categories-in-the-channel-navigation-hierarchy"></a>Kategooriate kuvamisjärjestuse konfigureerimine kanali navigeerimise hierarhias
 
@@ -77,11 +77,11 @@ Enne selle protseduuri lõpetamist, peate installima demoandmed oma keskkonda.
 
 Kategooriate kuvamisjärjestuse konfigureerimine kanali navigeerimise hierarhias kajastub peakontoris, kataloogis ja kanalites.
 
-![Kohandatud sorteeritud kataloogi navigeerimise hierarhia](./media/ChannelNavCustomSorted.png)
+![Kohandatud sorteeritud kataloogi navigeerimise hierarhia.](./media/ChannelNavCustomSorted.png)
 
-![Kanali navigeerimise hierarhia põhjal kohandatud sorteeritud kataloogi navigeerimise hierarhia](./media/CatalogNavHierarchyCustomSortedBasedOnChannelNav.png)
+![Kanali navigeerimise hierarhia põhjal kohandatud sorteeritud kataloogi navigeerimise hierarhia.](./media/CatalogNavHierarchyCustomSortedBasedOnChannelNav.png)
 
-![Müügikoht kohandatud sorteeritud kategooriatega](./media/POSChannelCategoriesCustomSorted.png)
+![Müügikoht koos kohandatud sorteeritud kategooriatega.](./media/POSChannelCategoriesCustomSorted.png)
 
 > [!NOTE]
 > Kohandatud sortimisjärjestuse funktsioon on vaikimisi välja lülitatud. Selle ja paljude teiste funktsiooni sisselülitamiseks vaadake teemat [Funktsioonide haldus](/dynamics365/unified-operations/fin-and-ops/get-started/feature-management/feature-management-overview).

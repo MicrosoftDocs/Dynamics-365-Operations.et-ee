@@ -2,26 +2,26 @@
 title: Aruandlus ja analüüs Power BI avalehega
 description: Teema suunab teid ressursside juurde, mis annavad teile lisateavet saadaoleva ärianalüüsi ja aruandlustööriistade kohta.
 author: sericks007
-manager: AnnBe
 ms.date: 10/02/2019
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.custom: 27681
+ms.custom:
+- "27681"
+- intro-internal
 ms.assetid: c4624bc8-3661-49e6-9cb4-87778acdc302
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 694c1f415fd52eb9e98ace2e5787c12f7a1fed8e
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 1a1c0ee254a5300cfc84eb434e4785b6eceacf0375b983b33991445443957a33
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687269"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6712732"
 ---
 # <a name="reporting-and-analytics-with-power-bi-home-page"></a>Aruandlus ja analüüs Power BI avalehega
 
@@ -35,11 +35,11 @@ Teema suunab teid ressursside juurde, mis annavad teile lisateavet saadaoleva ä
 - [Finance and Operations: Power BI analüütika ja aruandlusteenuste ajaveeb](https://community.dynamics.com/365/financeandoperations/b/powerbianalyticsandreporting) (ajaveeb)
 
 ## <a name="analytical-workspaces"></a>Analüütikatööruumid
-Tööruumides saab kasutada rikkalikke teabegraafikuid ja visuaale, mida Microsoft Power BI toetab. Need teabegraafikud ja visuaalid sisaldavad mitmesuguseid kolmandate osapoolte pakutavaid juhtelemente. Seetõttu on tööruumide kasutamine väga visuaalne ja interaktiivne.
+Tööruumides saab kasutada rikkalikke teabegraafikuid ja visuaale, mida toetab Microsoft Power BI. Need teabegraafikud ja visuaalid sisaldavad mitmesuguseid kolmandate osapoolte pakutavaid juhtelemente. Seetõttu on tööruumide kasutamine väga visuaalne ja interaktiivne.
 
 Kasutajad saavad andmetega suhtlemiseks klõpsata või puudutada lehel olevaid visuaale. Nad saavad vaadata põhjuseid ja tagajärgi ning teha lihtsaid võimalike stsenaariumitega seotud toiminguid tööruumist lahkumata. Tänu hämmastavatele interaktiivsetele visuaalidele saavad kasutajad meeldival moel andmeid uurida ja peidetud trende avastada.
 
-![Tööruumis oleva Power BI näide](./media/Power-BI-in-D365-Workspace.png)
+![Tööruumis oleva Power BI näide.](./media/Power-BI-in-D365-Workspace.png)
 
 Lisateabe saamiseks vaadake järgmisi teemasid.
 
@@ -52,7 +52,7 @@ Lisateabe saamiseks vaadake järgmisi teemasid.
 ## <a name="business-documents-and-printing"></a>Äridokumendid ja printimine
 Aruandluslahendusi kasutatakse sageli äritehingute üksikasjade jäädvustamiseks ja edastamiseks. Seetõttu peab aruandluslahendus suutma luua äriandmetest füüsilisi koopiaid olemasolevate seadmetega, näiteks võrguprinteritega. Äridokumendid on näiteks müügiarved, kliendi koondväljavõtted ja tšekid.
 
-[![Äridokumentide näide](./media/image-of-business-documents-1024x632.png)](./media/image-of-business-documents.png)
+[![Äridokumentide näide.](./media/image-of-business-documents-1024x632.png)](./media/image-of-business-documents.png)
 
 Lisateabe saamiseks vaadake järgmisi teemasid.
 
@@ -63,7 +63,7 @@ Lisateabe saamiseks vaadake järgmisi teemasid.
 ## <a name="electronic-reporting"></a>Elektrooniline aruandlus
 Elektroonilise aruandluse (ER) tööriist võimaldab teil konfigureerida elektrooniliste dokumentide vorminguid erinevate riikide või regioonide õigusnõuete järgi. Elektroonilise aruandluse rakenduste hulgas on saadaval finantsauditite loomine, maksuaruandlus ja elektrooniline arveldus.
 
-[![Elektroonilise aruandluse näide](./media/electronic-reporting-example.png)](./media/electronic-reporting-example.png)
+[![Elektroonilise aruandluse näide.](./media/electronic-reporting-example.png)](./media/electronic-reporting-example.png)
 
 Lisateabe saamiseks vaadake järgmisi teemasid.
 
@@ -74,7 +74,7 @@ Lisateabe saamiseks vaadake järgmisi teemasid.
 ## <a name="financial-reporting"></a>Finantsaruandlus
 Esitatavad standardsed finantsaruanded põhinevad põhikonto vaikekategooriatel. Aruandekoosturiga saate luua või muuta traditsioonilisi finantsaruandeid, näiteks kasumiaruandeid ja bilansse. Seejärel saate jagada tulemusi organisatsiooni teiste liikmetega. Finantsaruandlus hõlmab näiteks bilansse, rahavoogu ja proovibilansi aastapõhist kokkuvõtet.
 
-[![Finantsaruandluse näide](./media/financial-reporting-example.png)](./media/financial-reporting-example.png)
+[![Finantsaruandluse näide.](./media/financial-reporting-example.png)](./media/financial-reporting-example.png)
 
 Lisateabe saamiseks vaadake järgmisi teemasid.
 
@@ -89,3 +89,6 @@ Järgmised aruanded sisaldavad nende objektide kohta viiteteavet.
 - [Litsentsi koodide ja konfiguratsioonivõtmete aruanne](../sysadmin/license-codes-configuration-keys-report.md)
 - [Saadaolevad SQL Serveri aruandlusteenuste (SSRS) aruanded](SSRS-report.md)
 - [Töövoo tüüpide aruanne](../../fin-ops/organization-administration/workflow-types-report.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 09d4516c40833771d27db13eac8228bd8c5e0e4a
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
-ms.translationtype: HT
+ms.openlocfilehash: 60bce611ae1f6ed5d63860793cd5d1da3c421a9e
+ms.sourcegitcommit: e3290eb58ae569a59d6ae2e6922e7d8be8f1980f
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6355031"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "7551800"
 ---
 # <a name="overhead-calculation"></a>Üldkulude arvutus
 
@@ -1328,83 +1328,12 @@ Järgmises tabelis on näidatud tulemus, kui Pakendamisteenused on rakendatud ko
 ## <a name="conclusion"></a>Lõppsõna
 Finantsaruandluses sisestatakse elektrikulu 10 000,00 fiktiivse kulukeskuse ID-le. Nii teavad kuluarvestajad, et see kulu tuleb eraldada. Kuluarvestuses liigub kulu rakendatud poliitikate ja reeglite põhjal läbi organisatsiooniüksuste ja -tasemete. Iga kulu on seostatud eraldamisalusega, mis pakub kulude eraldamiseks parimat hinnangut.
 
-<table>
-<thead>
-<tr>
-<th colspan="2" rowspan="2">Kuluelement</th>
-<th colspan="9">Kuluobjekt</th>
-<th rowspan="2">Kokku</th>
-</tr>
-<tr>
-<th>CC099</th>
-<th>CC001</th>
-<th>CC002</th>
-<th>CC003</th>
-<th>CC004</th>
-<th>Proj. 1</th>
-<th>Proj. 2</th>
-<th>Tooe 1</th>
-<th>Toode 2</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td colspan="2">10001 Elekter</td>
-<td style="text-align: right;"><strong>0,00</strong></td>
-<td style="text-align: right;"><strong>0,00</strong></td>
-<td style="text-align: right;"><strong>0,00</strong></td>
-<td style="text-align: right;"><strong>0,00</strong></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"><strong>30,00</strong></td>
-<td style="text-align: right;"><strong>10,00</strong></td>
-<td style="text-align: right;"><strong>7.770,57</strong></td>
-<td style="text-align: right;"><strong>2.189,43</strong></td>
-<td style="text-align: right;"><strong>10.000,00</strong></td>
-</tr>
-<tr>
-<td></td>
-<td style="text-align: left;">Liigitamata</td>
-<td style="text-align: right;">0,00</td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-</tr>
-<tr>
-<td style="text-align: right;"></td>
-<td style="text-align: left;">Fikseeritud kulu</td>
-<td style="text-align: right;">0,00</td>
-<td style="text-align: right;">0,00</td>
-<td style="text-align: right;">0,00</td>
-<td style="text-align: right;">0,00</td>
-<td style="text-align: right;">0,00</td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;">776.36</td>
-<td style="text-align: right;">223.64</td>
-<td style="text-align: right;"><strong>1.000,00</strong></td>
-</tr>
-<tr>
-<td style="text-align: right;"></td>
-<td style="text-align: left;">Muutuv kulu</td>
-<td style="text-align: right;">000</td>
-<td style="text-align: right;">0,00</td>
-<td style="text-align: right;">0,00</td>
-<td style="text-align: right;">0,00</td>
-<td style="text-align: right;">0,00</td>
-<td style="text-align: right;">30,00</td>
-<td style="text-align: right;">10,00</td>
-<td style="text-align: right;">6,994.21</td>
-<td style="text-align: right;">1,965.79</td>
-<td style="text-align: right;"><strong>9.000,00</strong></td>
-</tr>
-</tbody>
-</table>
+Kuluelement | Kuluobjekt<br>CC099 | Kuluobjekt<br>CC001 | Kuluobjekt<br>CC002 | Kuluobjekt<br>CC003 | Kuluobjekt<br>CC004 | Kuluobjekt<br>Proj. 1 | Kuluobjekt<br>Proj. 2 | Kuluobjekt<br>Tooe 1 | Kuluobjekt<br>Toode 2 | Kokku
+---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:
+10001 Elekter | 0,00 | 0,00 | 0,00 | 0,00 |  | 30.00 | 10.00 | 7,770.57 | 2,189.43 | 10,000.00 |
+Liigitamata | 0,00 |  |  |  |  |  |  |  |  |  |
+Fikseeritud kulu | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 |  |  | 776.36 | 223.64 | 1,000.00 |
+Muutuv kulu | 000 | 0,00 | 0,00 | 0,00 | 0,00 | 30,00 | 10,00 | 6,994.21 | 1,965.79 | 9,000.00 |
 
 > [!NOTE]
 > Selles teemas selgitatakse, kuidas esmane kuluelement, 10001 Eleter, liigub läbi kuluobjektide. Seega eraldatakse see üldkulu organisatsiooni madalaimale tasemele. Teisisõnu kannavad kulu madalaimal tasemel olevad kuluobjektid. Kui soovite saada kuluobjektide vahelisest kuluvoost visuaalset ülevaadet, saate kuluvoo visualiseerimiseks kasutada kulude kokkuvõtte poliitika reegleid. Lisateavet vt teemast [Kulukomplekti poliitika ja üldkulude arvutus](cost-rollup.md).

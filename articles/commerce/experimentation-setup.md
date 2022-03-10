@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 9976ca461f7e988c32b81565fa2d084709e5ad6e
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
-ms.translationtype: HT
+ms.openlocfilehash: 870bcb9cc63fd4dbf6d7b40d730edfad7783540d5d943896e0129d29572fa875
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792506"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6769391"
 ---
 # <a name="set-up-an-experiment"></a>Eksperimendi seadistamine
 
 Pärast [hüpoteesi määratlemist ja eksperimendi edumõõdikute kindlaks määramist](experimentation-identify.md) peate oma eksperimendi seadistama kolmanda osapoole teenuses. Järgmine diagramm näitab kõiki etappe, mis on seotud e-kaubanduse veebisaidi jaoks eksperimendi seadistamise ja käivitamisega rakenduses Dynamics 365 Commerce. Täiendavad etapid on toodud eraldi teemades.
 
-[ ![Eksperimendi kasutaja teekond – seadistamine](./media/experimentation_setup.svg) ](./media/experimentation_setup.svg#lightbox)
+[ ![Eksperimendi kasutaja teekond – seadistamine.](./media/experimentation_setup.svg) ](./media/experimentation_setup.svg#lightbox)
 
 
 ## <a name="set-up-your-experiment-in-the-third-party-service"></a>Eksperimendi seadistamine kolmanda osapoole teenuses

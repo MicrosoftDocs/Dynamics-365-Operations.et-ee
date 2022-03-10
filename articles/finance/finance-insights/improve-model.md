@@ -1,12 +1,10 @@
 ---
-title: Prognoosi mudeli parandamine (eelversioon)
+title: Prognoosimudeli parandamine
 description: See teema kirjeldab funktsioone, mida saate kasutada prognoosimise mudelite jõudluse parandamiseks.
 author: ShivamPandey-msft
-manager: AnnBe
-ms.date: 05/28/2020
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,17 +15,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 2bcdea4a2a8f4386b274077cd1e95398fb6fac37
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: 804c18c1b165fff99390db1fda22da0137249373
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5009364"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7595033"
 ---
-# <a name="improve-the-prediction-model-preview"></a>Prognoosi mudeli parandamine (eelversioon)
+# <a name="improve-the-prediction-model"></a>Prognoosimudeli parandamine
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 See teema kirjeldab funktsioone, mida saate kasutada prognoosimise mudelite jõudluse parandamiseks. Oma mudelit saate hakata täiustama tööruumis **Kliendimakse prognoosid** rakenduses Microsoft Dynamics 365 Finance. Parandamise sammud viiakse seejärel lõpule AI Builderis.
 
@@ -35,7 +32,7 @@ See teema kirjeldab funktsioone, mida saate kasutada prognoosimise mudelite jõu
 
 Esmalt valite ühe või mitu kolmest arve võimalikust tulemusest: **õigel ajal**, **hilja** ja **väga hilja**. Valida tuleb kõik kolm tulemust. Kui tühjendate mis tahes tulemuse valiku, filtreeritakse arved koolitusprotsessist välja ja prognoosi täpsus väheneb.
 
-[![Tulemuste kinnitamine](./media/confirm-3-outcomes.png)](./media/confirm-3-outcomes.png)
+[![Tulemuste kinnitamine.](./media/confirm-3-outcomes.png)](./media/confirm-3-outcomes.png)
 
 Kui teie organisatsioon nõuab ainult kaht tulemust, muutke variantide **hilja** ja **väga hilja** lävendiks null (0) päeva. Sel viisil saate ahendada prognoosid tõhusalt binaarsesse olekusse **õigel ajal** või **hilinenud**.
 
@@ -53,7 +50,7 @@ Järgmistes jaotistes on näidatud väljad, mis on arve ja kliendi üksuste jaok
 
 Järgmisel joonisel on näidatud arve tabeli jaoks saadaolevad väljad.
 
-[![Arve tabeli jaoks saadaolevad väljad](./media/available-fields.png)](./media/available-fields.png)
+[![Arve tabeli jaoks saadaolevad väljad.](./media/available-fields.png)](./media/available-fields.png)
 
 Järgmisi välju ei peaks koolituse jaoks valima.
 
@@ -68,7 +65,7 @@ Järgmisi välju ei peaks koolituse jaoks valima.
 
 Järgmisel joonisel on näidatud kliendi tabeli jaoks saadaolevad väljad.
 
-[![Kliendi tabeli jaoks saadaolevad väljad](./media/related-entities.png)](./media/related-entities.png)
+[![Kliendi tabeli jaoks saadaolevad väljad.](./media/related-entities.png)](./media/related-entities.png)
 
 Järgmist välja ei peaks koolituse jaoks valima.
 
@@ -76,9 +73,8 @@ Järgmist välja ei peaks koolituse jaoks valima.
 
 ## <a name="filters"></a>Filtrid
 
-Filtrid ei toeta praegu kliendi makse prognoosimise stsenaariumit. Seetõttu valige suvand **Jäta see samm vahele** ja jätkake kokkuvõttelehega.
+Koolituseks kasutatud arveid saate filtreerida, häälestades arvel või klienditabelites väljade filtrikriteeriumid. Näiteks saate seada läve, et kaasata ainult arved, mille kogusumma on võrdne või ületab konkreetse summa. Teise võimalusena saate välistada konkreetse kliendigrupi klientidega seotud arved.
 
-[![Filtritega mudelil keskendumine](./media/focus-model-with-filters.png)](./media/focus-model-with-filters.png)
+Lisateavet andmete filtreerimise kohta vt [ennustuse mudeli loomine](/ai-builder/prediction-create-model#filter-your-data).
 
-#### <a name="privacy-notice"></a>Privaatsusavaldus
-Eelvaated 1) võivad kasutada vähem privaatsus- ja turbemeetmeid kui rakenduse Dynamics 365 Finance and Operations teenus; 2) ei ole hõlmatud selle teenuse teenusetaseme leppes; 3) ei tohi olla kasutusel isiklike andmete ega muude andmete töötlemiseks, mis on seaduste või määrustega kaitstud; 4) on piiratud toega.
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

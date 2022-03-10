@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2019-1-29
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: d132ed979a84c2906298c05708cef1ee87f47078
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
-ms.translationtype: HT
+ms.openlocfilehash: 4e2205ba3bdf5ec2a4e6d9390007eaf1098293c3dd2a5b2ff1b3c73c7de5a83f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5752910"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6734610"
 ---
 # <a name="client-alert-notifications-by-email"></a>Kliendi teatiste teatamine meili teel
 
@@ -36,7 +36,7 @@ Lisateavet meili konfigureerimise kohta vt teemast [Meili konfigureerimine ja sa
 
 Järgmisel pildil on näidatud dialoogiboks **Teatisereegli loomine**, milles on nüüd ka valik **Saada meil**.
 
-[![Dialoogiboks Teatisereegli loomine, kus suvandi Saada meil sätteks on valitud Jah](./media/Create-alert-rule-form.png)](./media/Create-alert-rule-form.png)
+[![Dialoogiboks Teatisereegli loomine, kus suvandi Saada meil sätteks on valitud Jah.](./media/Create-alert-rule-form.png)](./media/Create-alert-rule-form.png)
 
 > [!NOTE]
 > Kui suvandi **Saada meil** sätteks on valitud **Jah**, jätkub teatiste edastamine tegevuskeskusest.
@@ -47,7 +47,7 @@ Teenus saadab meiliteatised eelmääratletud meilimalle kasutades, mis edastavad
 
 Järgmisel pildil on näidatud teatiste struktuur, kui need on meili teel vastu võetud.
 
-[![Mallipõhised teatised kirje loomise, välja muutmise ja malli kustutamise kohta](./media/Alert-email-templates.png)](./media/Alert-email-templates.png)
+[![Mallipõhised teatised kirje loomise, välja muutmise ja malli kustutamise kohta.](./media/Alert-email-templates.png)](./media/Alert-email-templates.png)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

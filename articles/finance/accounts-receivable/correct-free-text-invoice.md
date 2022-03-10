@@ -1,7 +1,7 @@
 ---
 title: Vabas vormis arve parandamine
 description: Selles artiklis selgitatakse, kuidas parandada sisestatud vabas vormis arvet ja väljastada see uuesti parandatud arvena.
-author: ShivamPandey-msft
+author: abruer
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e0d4e40e46e23766983351871634280b2d951aa9551db97092a8872a25833721
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: cf4503e3d4b200219d6b444b69c866871d21787d
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763306"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7753798"
 ---
 # <a name="correct-a-free-text-invoice"></a>Vabas vormis arve parandamine
 
@@ -41,7 +41,7 @@ Pärast parandatud arve sisestamist, on teil kolm arvet.
 Tühistamis- ja parandamisarveid saab tuvastada kahel moel.
 
 -   Lehel **Kõik vabas vormis arved** on veerg **Parandus**, kus näete, millised arved on tühistamis- ja parandusarved.
--   Vabas vormis arve päises on näha olek **Tühistusarve \[arve number\]** või **Parandusarve \[arve number\]**.
+-   Vabas vormis arve päises on näha olek **Tühistusarve \[ arve number\]** või **Parandusarve \[ arve number\]**.
 
 > [!NOTE]
 > See funktsioon on saadaval ainult juhul, kui on valitud konfiguratsioonivõti **Vabas vormis arve parandamine**. Konfiguratsioonivõtmete lubamise kohta lisateabe saamiseks vaadake jaotist Luba (või keela) konfiguratsioonivõtmed teemas [Hooldusrežiim](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md) 

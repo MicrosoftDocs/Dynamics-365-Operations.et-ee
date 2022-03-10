@@ -10,15 +10,15 @@ ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench, WHSFi
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 03150ccdaeaf48754f04a4329cb1bc14ea2b6895
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
-ms.translationtype: HT
+ms.openlocfilehash: f2705300925ae475f00861327b9cea9a97416011
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840409"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7578676"
 ---
 # <a name="configure-shipment-consolidation-policies"></a>Saadetise konsolideerimispoliitikate konfigureerimine
 
@@ -179,7 +179,7 @@ Järgige neid etappe selle ärijuhtumi jaoks saadetise konsolideerimispoliitika 
 1. Jätke suvandi **Avatud saadetistega konsolideerimine** väärtuseks *Ei*.
 1. Valige toimingupaanil nupp **Salvesta**.
 1. Valige kiirkaardi **Konsolideerimise väljad** loendist **Järelejäänud väljad** rida, mille välja **Välja nimi** väärtuseks on seatud *Tarneviis*.
-1. Valige nupp **Lisa** ![Paremanool](media/forward-button.png), et teisaldada väli loendisse **Valitud väljad**.
+1. Valige nupp **Lisa** ![Pparem nool.](media/forward-button.png) Klõpsake , et teisaldada **valitud väli** loendisse .
 1. Valige Toimingupaanil nupp **Päringu redigeerimine**.
 1. Otsige päringuredaktori dialoogiaknas vahekaardil **Vahemik** ruudustikust üles rida, kus välja **Väli** väärtuseks on seatud *Kliendi konto* ja seadke selle rea välja **Kriteeriumid** väärtuseks *US-001*.
 1. Valige **Lisa**, et lisada ruudustikule järgmiste sätetega rida.
@@ -214,7 +214,7 @@ Järgige neid etappe selle ärijuhtumi jaoks saadetise konsolideerimispoliitika 
 1. Määrake suvandi **Avatud saadetistega konsolideerimine** väärtuseks *Jah*.
 1. Valige toimingupaanil nupp **Salvesta**.
 1. Valige kiirkaardi **Konsolideerimise väljad** loendist **Järelejäänud väljad** rida, mille välja **Välja nimi** väärtuseks on seatud *Tarneviis*.
-1. Valige nupp **Lisa** ![Paremanool](media/forward-button.png), et teisaldada väli loendisse **Valitud väljad**.
+1. Valige nupp **Lisa** ![Pparem nool.](media/forward-button.png) Klõpsake , et teisaldada **valitud väli** loendisse .
 1. Valige Toimingupaanil nupp **Päringu redigeerimine**.
 1. Laiendage ja valige päringuredaktori dialoogiakna vahekaardil **Liitmised** puu valikut **Tabelid \> Koormuse üksikasjad**.
 1. Valige **Lisa tabeli liitmine**.
@@ -251,9 +251,9 @@ Järgige neid etappe selle ärijuhtumi jaoks saadetise konsolideerimispoliitika 
 1. Määrake suvandi **Avatud saadetistega konsolideerimine** väärtuseks *Jah*.
 1. Valige toimingupaanil nupp **Salvesta**.
 1. Valige kiirkaardi **Konsolideerimise väljad** loendist **Järelejäänud väljad** rida, mille välja **Välja nimi** väärtuseks on seatud *Kliendi ostutellimus*.
-1. Valige nupp **Lisa** ![Paremanool](media/forward-button.png), et teisaldada väli loendisse **Valitud väljad**.
+1. Valige nupp **Lisa** ![Pparem nool.](media/forward-button.png) Klõpsake , et teisaldada **valitud väli** loendisse .
 1. Valige loendist **Järelejäänud väljad** rida, mille välja **Välja nimi** väärtuseks on seatud *Tarneviis*.
-1. Valige nupp **Lisa** ![Paremanool](media/forward-button.png), et teisaldada väli loendisse **Valitud väljad**.
+1. Valige nupp **Lisa** ![Pparem nool.](media/forward-button.png) Klõpsake , et teisaldada **valitud väli** loendisse .
 1. Valige Toimingupaanil nupp **Päringu redigeerimine**.
 1. Otsige päringuredaktori dialoogiaknas vahekaardil **Vahemik** üles rida, kus välja **Väli** väärtuseks on seatud *Kliendi konto* ja seadke selle rea välja **Kriteeriumid** väärtuseks *US-001*.
 1. Valige dialoogiboksi sulgemiseks suvand **OK**.
@@ -283,9 +283,9 @@ Järgige neid etappe selle ärijuhtumi jaoks saadetise konsolideerimispoliitika 
 1. Jätke suvandi **Avatud saadetistega konsolideerimine** väärtuseks *Ei*.
 1. Valige toimingupaanil nupp **Salvesta**.
 1. Valige kiirkaardi **Konsolideerimise väljad** loendist **Järelejäänud väljad** rida, mille välja **Välja nimi** väärtuseks on seatud *Tarneviis*.
-1. Valige nupp **Lisa** ![Paremanool](media/forward-button.png), et teisaldada väli loendisse **Valitud väljad**.
+1. Valige nupp **Lisa** ![Pparem nool.](media/forward-button.png) Klõpsake , et teisaldada **valitud väli** loendisse .
 1. Valige Toimingupaanil nupp **Päringu redigeerimine**.
-1. Valige päringu redaktori dialoogiboksis vahekaardil **Vahemik** suvand  **Lisa**, et lisada järgmiste sätetega rida ruudustikule.
+1. Valige päringu redaktori dialoogiboksis vahekaardil **Vahemik** suvand **Lisa**, et lisada järgmiste sätetega rida ruudustikule.
 
     - **Tabel:** *Müügitellimused*
     - **Tuletatud tabel:** *Müügitellimused*
@@ -317,7 +317,7 @@ Tavaliselt saab seda ärijuhtumit lahendada [stsenaariumis 1](#scenario-1) loodu
 1. Jätke suvandi **Avatud saadetistega konsolideerimine** väärtuseks *Ei*.
 1. Valige toimingupaanil nupp **Salvesta**.
 1. Valige kiirkaardi **Konsolideerimise väljad** väljalt **Järelejäänud väljad** rida, mille välja **Välja nimi** väärtuseks on seatud *Tarneviis*.
-1. Valige nupp **Lisa** ![Paremanool](media/forward-button.png), et teisaldada väli loendisse **Valitud väljad**.
+1. Valige nupp **Lisa** ![Pparem nool.](media/forward-button.png) Klõpsake , et teisaldada **valitud väli** loendisse .
 1. Valige Toimingupaanil nupp **Päringu redigeerimine**.
 1. Otsige päringuredaktori dialoogiaknas vahekaardil **Vahemik** üles rida, kus välja **Väli** väärtuseks on seatud *Ladu* ja seadke selle rea välja **Kriteeriumid** väärtuseks *61, 63*.
 1. Valige dialoogiboksi sulgemiseks suvand **OK**.

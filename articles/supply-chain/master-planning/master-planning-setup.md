@@ -1,17 +1,14 @@
 ---
 title: Koondplaneerimise seadistamine
 description: Selles teemas kirjeldatakse mitmesuguseid olulisi strateegiaid ja parameetreid, mida kasutatakse koondplaneerimise seadistamiseks.
-author: t-benebo
-manager: tfehr
+author: ChristianRytt
 ms.date: 07/01/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: a74d2987eac7409b5f576a52eccc37cf29566c7b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 6d33fd53dd088ae4c6b4680d2604f783a3e1a5a0
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4426072"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7580716"
 ---
 # <a name="set-up-master-planning"></a>Koondplaneerimise seadistamine
 
@@ -109,11 +106,11 @@ Iga plaani jaoks peate kiirkaardil **Üldine** lehel **Koondplaanid** (**Koondpl
 
 ### <a name="operations-scheduling"></a>Operatsioonide planeerimine
 
-Operatsioonide plaanimine võimaldab anda tootmisprotsessi kohta üldise hinnangu aja jooksul. Operatsioonide plaanimine ei tükelda tootmisprotsessi operatsioone töödeks. Lisateavet operatsioonide plaanimise kohta vt teemast [Operatsioonide plaanimine](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/operations-scheduling).
+Operatsioonide plaanimine võimaldab anda tootmisprotsessi kohta üldise hinnangu aja jooksul. Operatsioonide plaanimine ei tükelda tootmisprotsessi operatsioone töödeks. Lisateavet operatsioonide plaanimise kohta vt teemast [Operatsioonide plaanimine](/dynamics365/unified-operations/supply-chain/production-control/operations-scheduling).
 
 ### <a name="job-scheduling"></a>Tööde plaanimine
 
-Tööde planimine on üksikasjalikum planeerimismeetod, kus iga operatsioon on jagatud selle üksikuteks ülesanneteks või töödeks. Tööde plaanimine hõlmab mahutavuse teavet. Seda kasutatakse tavaliselt üksikute tööde plaanimiseks tööde juhtimise moodulis kohe või lühikese ajavahemiku jooksul. Lisateavet tööde plaanimise kohta vt teemast [Tööde plaanimine](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/job-scheduling).
+Tööde planimine on üksikasjalikum planeerimismeetod, kus iga operatsioon on jagatud selle üksikuteks ülesanneteks või töödeks. Tööde plaanimine hõlmab mahutavuse teavet. Seda kasutatakse tavaliselt üksikute tööde plaanimiseks tööde juhtimise moodulis kohe või lühikese ajavahemiku jooksul. Lisateavet tööde plaanimise kohta vt teemast [Tööde plaanimine](/dynamics365/unified-operations/supply-chain/production-control/job-scheduling).
 
 ## <a name="time-fences-in-days"></a>Ajapiirid päevades
 
@@ -161,7 +158,7 @@ Tegevussoovitused soovitavad muudatusi, mida saab olemasolevasse tarneahelasse t
 
 Seades suvandi **Tegevussoovitus** valikule **Jah**, saate tühistada tegevussoovituse ajapiiri, mis oli koondplaneerimise ajal üksuse jaoks määratletud. Sellisel juhul sisestage päevade arv, mille jooksul koondplaneerimine peaks vajaduste kohta tegevussoovitusi looma. Tegevussoovituse ajapiir arvutatakse praegusest kuupäevast edasi.
 
-Lisateavet tegevussoovituste kohta vt teemast [Tegevussoovitused](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/master-planning/action-messages).
+Lisateavet tegevussoovituste kohta vt teemast [Tegevussoovitused](/dynamics365/unified-operations/supply-chain/master-planning/action-messages).
 
 > [!NOTE]
 > Tegevussoovituste arvutamine põhjustab koondplaneerimise töötamise aja pikenemise. Kui tegevussoovitusi ei analüüsita ja rakendata korrapäraselt (iga päev, nädal jne), kaaluge arvutuse väljalülitamist koondplaneerimise töötamise ajaks. Arvutuse väljalülitamiseks seadke lehel **Koondplaanid** suvandi **Tegevussoovitus** ajapiir väärtusele **0** (null) selle koondplaani jaoks, mida käitate. Veenduge ka, et suvand **Tegevussoovitus** oleks välja lülitatud kõikide laovarude gruppide jaoks.
@@ -226,4 +223,7 @@ Täitmisaeg + negatiivsed päevad + tänane kuupäev – vajaduse kuupäev
 
 Süsteem kasutab ainult selle ajapiiri piires olevaid plaanitud hanketellimusi ja loob uue plaanitud tellimuse sellest väljaspool. Dünaamilise negatiivsete päevade eeliseks on see, et need hõlmavad individuaalse toote täitmisaega, et taaskasutada olemasolevaid tellimusi ja vältida uute plaanitud tellimuste loomist, mis lõpevad täitmisaja põhjustatud hilinemise tõttu hilisema päevaga. 
 
-Lisateavet vt teemast [Negatiivsed päevad ja dünaamilised negatiivsed päevad](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/master-planning/more-about-dynamic-negative-days).
+Lisateavet vt teemast [Negatiivsed päevad ja dünaamilised negatiivsed päevad](/dynamics365/unified-operations/supply-chain/master-planning/more-about-dynamic-negative-days).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,23 +1,23 @@
 ---
 title: Tasude automaatne eraldamine
 description: Microsoft Dynamics 365 Supply Chain Managementi tasude funktsiooni abil saate automaatselt eraldada tasusid ostutellimustele või müügitellimustele.
-author: dasani-madipalli
-ms.date: 10/01/2020
+author: Henrikan
+ms.date: 09/30/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: damadipa
+ms.author: henrikan
 ms.search.validFrom: 2020-10-01
-ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 04e17947073fca63ab68f0b5d0d72eb8366a1600117f61851179e8b0ed2c8184
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.dyn365.ops.version: 10.0.15
+ms.openlocfilehash: 6032539e57961998e7130e9cb6578248aaa2843e
+ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753935"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7592536"
 ---
 # <a name="automatic-allocation-of-charges"></a>Tasude automaatne eraldamine
 
@@ -26,6 +26,16 @@ ms.locfileid: "6753935"
 Sõltuvalt kliendist, kellega töötate, või müüdavast kaubast, võite soovida rakendada kindlaid lisatasusid. Microsoft Dynamics 365 Supply Chain Managementi *tasude* funktsiooni abil saate automaatselt eraldada tasusid ostutellimustele või müügitellimustele.
 
 Automaatsed tasud või autom. tasud, rakendatakse automaatselt, kui loote müügitellimuse või ostutellimuse. Automaatsed tasud saate määratleda kindlate hankijate, klientide hankija- või kaubagruppide kohta. Saate määratleda ka automaatsed tasud, mis kehtivad kõigi hankijate, klientide või kaupade puhul.
+
+## <a name="set-up-parameters"></a>Parameetrite häälestamine
+
+Lehel **Hankeparameetrid** on mõned sätted, mis on eriti asjakohased, kui soovite makseid automaatselt jaotada. Selle seadistamise lõpetamiseks järgige järgmisi etappe.
+
+1. Minge **Hanked \> Seadistus \> Hangete parameetrid**.
+1. Avage vahekaart **Hinnad**.
+1. Looge kiirkaardil **Hinnad** järgmised sätted:
+    - **Otsi päise automaatseid makseid** – Määrab, kas kulud tuleks ostutellimuse päistele automaatselt eraldada. Seadistage see väärtusele *Jah*, et kasutada maksete automaatset eraldamist.
+    - **Otsi rea automaatseid makseid** – Määrab, kas kulud tuleks ostutellimuse ridadele automaatselt eraldada. Seadistage see väärtusele *Jah*, et kasutada maksete automaatset eraldamist.
 
 ## <a name="set-up-charges-codes"></a>Tasukoodide häälestus
 

@@ -1,7 +1,7 @@
 ---
 title: Hankija koostöö väliste hankijatega
 description: Selles teemas selgitatakse, kuidas ostuagendid saavad teha koostööd väliste hankijatega, et vahetada teavet ostutellimuste ja veose varude kohta.
-author: kamaybac
+author: Henrikan
 ms.date: 11/02/2017
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 221264
 ms.assetid: dde49743-1541-4353-a030-63ca3069cd7d
 ms.search.region: Global
-ms.author: dabourq
+ms.author: henrikan
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 5f0ed7d3344b43c477923ebd8c69acfb6630e6f4
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
-ms.translationtype: HT
+ms.openlocfilehash: 3b679f8daed1e09c832a5d138473cccba03552f6
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5910397"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7576972"
 ---
 # <a name="vendor-collaboration-with-external-vendors"></a>Hankija koostöö väliste hankijatega
 

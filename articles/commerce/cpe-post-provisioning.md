@@ -2,7 +2,7 @@
 title: Dynamics 365 Commerce'i hindamiskeskkonna konfigureerimine
 description: Selles teemas selgitatakse, kuidas konfigureerida rakenduse Microsoft Dynamics 365 Commerce hindamiskeskkonda, kui see on ette valmistatud.
 author: psimolin
-ms.date: 07/16/2020
+ms.date: 12/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 87933c57ee5f626b224b1edc92da13906e3edc2613f61c5b4a917d8cc5d1dcd3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 5883a6e68628d706fa19d7d23b68f17007c32890
+ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742436"
+ms.lasthandoff: 12/11/2021
+ms.locfileid: "7913723"
 ---
 # <a name="configure-a-dynamics-365-commerce-evaluation-environment"></a>Dynamics 365 Commerce'i hindamiskeskkonna konfigureerimine
 
@@ -39,6 +39,7 @@ Pärast seda, kui teie Commerce'i hindamiskeskkond on täielikult ettevalmistatu
 1. Valige loendist oma keskkond.
 1. Valige paremal olevast keskkonna teabest **Keskkonda sisselogimine**. Teid suunatakse Commerce'i peakontorisse.
 1. Veenduge, et **USRT** juriidiline isik on valitud ülemises parempoolses nurgas.
+2. Minge konfiguratsiooniparameetrite > ja veenduge, et **parameetri** **ProductSearch.UseAzureSearch kirje** on seatud **tõeseks**. Kui see kirje puudub, saate lisada selle kirje ja käivitada **kanali andmebaasi > Oma eCommerce'i veebisaidiga seotud Commerce Scalei üksuse** Jaoks Kanali andmebaas.
 
 Commerce'i peakontori ettevalmistusjärgsete tegevuste käigus veenduge, et juriidiline isik **USRT** oleks alati valitud.
 
@@ -106,6 +107,12 @@ Commerce’is tööde lubamiseks tehke järgmist.
     1. Tegumiribal valikus **Pakett-töö**, klõpsake **Muuda olekut**.
     1. Valige **Tühistamine** ja seejärel valige **OK**.
 
+1. Kui töö olek on **Kinnipeetud,** järgige neid samme.
+
+    1. Vali kirje.
+    1. Tegumiribal valikus **Pakett-töö**, klõpsake **Muuda olekut**.
+    1. Valige suvand **Ootel** ja seejärel nupp **OK**.
+
 Saate seadistada ka kordumise intervalli iga ühe (1) minuti järel järgmiste tööde puhul.
 
 * Jaemüügitellimuse meiliteavituse töötlemise töö
@@ -128,7 +135,7 @@ Commerce’is kõikide andmete sünkroonimise käitamiseks tehke Commerce'i peak
 Selleks, et sooritada testi kandeid saidil, saate kasutada järgmist testi krediitkaardi teavet.
 
 - **Kaardi number:** 4111-1111-1111-1111
-- **Aegumiskuupäev:** 10/20
+- **Aegumiskuupäev:** 10/30
 - **Kaardi tõendamise väärtus (CVV) kood:** 737
 
 > [!IMPORTANT]
@@ -139,6 +146,9 @@ Selleks, et sooritada testi kandeid saidil, saate kasutada järgmist testi kredi
 Pärast ettevalmistamise ja konfigureerimise etappide lõpule viimist, olete valmis oma hindamiskeskkonda kasutama. Kasutage Commerce'i saidiehitaja URL-i, et minna autorluskogemuse juurde. Kasutage Commerce'i saidi URL-i, et minna jaemüügi klientide saidikogemuse juurde.
 
 Teavet selle kohta, kuidas Commerce’i hindamiskeskkonna valikulisi funktsioone konfigureerida, vaadake teemast [Commerce’i hindamiskeskkonna valikuliste funktsioonide konfigureerimine](cpe-optional-features.md).
+
+> [!NOTE]
+> Commerce'i hindamiskeskkonnad on eellaaditud Azure Active Directory (Azure AD) ettvõttelt tarbijale (B2C) rentnikule demo eesmärgil. Oma Azure AD B2C rentniku konfigureerimine ei ole hindamiskeskkondade jaoks vajalik. Kui aga konfigureerite hindamiskeskkonda oma Azure AD B2C rentniku kasutamiseks, lisage ``https://login.commerce.dynamics.com/_msdyn365/authresp`` see Azure AD Azure Portaali kaudu B2C-rakendusele vastuse URL-ina.
 
 ## <a name="additional-resources"></a>Lisaressursid
 
@@ -159,6 +169,8 @@ Teavet selle kohta, kuidas Commerce’i hindamiskeskkonna valikulisi funktsioone
 [Microsoft Azure'i portaal](https://azure.microsoft.com/features/azure-portal)
 
 [Dynamics 365 Commerce veebisait](https://aka.ms/Dynamics365CommerceWebsite)
+
+[Jaekaubandusrentniku häälestamine Commerce'is](set-up-B2C-tenant.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

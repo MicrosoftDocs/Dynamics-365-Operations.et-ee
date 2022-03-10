@@ -1,35 +1,35 @@
 ---
 title: Registreerimise sobivuse töötlemine
-description: Selles artiklis selgitatakse, kuidas käivitada registreerimise sobivuse töötlemist.
-author: andreabichsel
-manager: tfehr
-ms.date: 04/06/2020
+description: Selles teemas selgitatakse, kuidas käivitada registreerimise sobivuse töötlemist.
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 25699d643b3e74fe7118884457ab17314d1f9132
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
-ms.translationtype: HT
+ms.openlocfilehash: e8997cf24bf24097e46a05acffef8b3839056c57
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5466298"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067625"
 ---
 # <a name="process-enrollment-eligibility"></a>Registreerimise sobivuse töötlemine
 
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Selles artiklis selgitatakse, kuidas käivitada registreerimise sobivuse töötlemist.
+Selles teemas selgitatakse, kuidas käivitada registreerimise sobivuse töötlemist.
 
 1. Tööruumis **Soodustuste haldus** jaotises **Töötlemine** valige suvand **Registreerimise sobivuse töötlemine**.
 
@@ -56,11 +56,11 @@ Selles artiklis selgitatakse, kuidas käivitada registreerimise sobivuse töötl
 
 ## <a name="view-process-results"></a>Protsessi tulemuste kuvamine
 
-Selles artiklis selgitatakse, kuidas kuvada sobivuse töötlemise tulemusi.
+Selles teemas selgitatakse, kuidas kuvada sobivuse töötlemise tulemusi.
 
 1.  Tööruumis **Soodustuste haldus** jaotises **Töötlemine** valige suvand **Protsessi tulemused**.
 
-2.  Vormil **Protsessi tulemused** on määratud järgmised väljad.
+2.  Lehel **Protsessi tulemused** on määratud järgmised väljad.
 
    | Field | Kirjeldus |
    | --- | --- |

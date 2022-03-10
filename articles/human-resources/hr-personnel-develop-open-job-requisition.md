@@ -1,27 +1,24 @@
 ---
 title: Töötaotluse loomine ja avamine
 description: Värbamisprojektid aitavad värbamisprotsessi hallata.
-author: andreabichsel
-manager: tfehr
-ms.date: 02/03/2021
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: human-resources
 ms.technology: ''
 ms.search.form: HRMRecruitingTable, HcmWorkerLookUp, HcmJobLookup, HRMRecruitingMedia, HRMRecruitingJobAd, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 858c97e1563dac59f3dd5aff7191427f104d7aed
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
-ms.translationtype: HT
+ms.openlocfilehash: 0d59ccb88b8a76de6e2f00453f185fec2f149873
+ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5467767"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7731557"
 ---
 # <a name="create-and-open-job-requisition"></a>Töötaotluse loomine ja avamine
 
@@ -42,7 +39,7 @@ Värbamisprojektid aitavad värbamisprotsessi hallata. Pärast värbamisprojekti
 6. Otsige loendist ja valige oma kirje.
 7. Valige loendis link valitud reas.
 8. Valige käsk **Vali**.
-9. Valige väljal Osakond otsingu avamiseks ripploendi nupp.
+9. Otsingu **·** avamiseks valige väljal Osakond rippnupp.
 10. Valige loendis link valitud reas.
 11. Valige otsingu avamiseks väljal **Töö** ripploendi nupp.
 12. Otsige loendist ja valige oma kirje.
@@ -61,10 +58,10 @@ Värbamisprojektid aitavad värbamisprotsessi hallata. Pärast värbamisprojekti
 25. Väljale **Lõppkuupäev** sisestage kuupäev.
 26. Valige käsk **Salvesta**.
 27. Sulgege leht.
-28. Valige töökuulutused.
+28. Saate **valida töökuulutused**.
 29. Valige käsk **Salvesta**.
 30. Sulgege leht.
-31. Märkige ruut **Kuva töötaja iseteeninduses** või eemaldage sellelt märge. Valige märkeruut ruut **Kuva töötaja iseteeninduses**. See valik muudab värbamisprojekti töötajate iseteeninduslehtedel töötajatele nähtavaks.
+31. Märkige või tühjendage **ruut Kuva töötaja** iseteeninduses. Märkige **ruut Kuva töötaja** iseteeninduses. See valik muudab värbamisprojekti töötajatele nähtavaks töötaja **iseteeninduslehe** kaudu.
 32. Valige **Värbamisprojekti olek**.
 33. Valige nupp **Alusta**. Olek **Alustatud** tähendab, et projekt on valmis avaldusi vastu võtma.  
 34. Valige nupp **OK**.

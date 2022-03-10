@@ -1,38 +1,38 @@
 ---
 title: Ostutellimuste sissetulevate koormate laohaldus
 description: Selles teemas kirjeldatakse ostutellimuste sissetulevate koormate laohaldusprotsessi.
-author: omulvad
-manager: tfehr
+author: Mirzaab
 ms.date: 03/21/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLoadTable, WHSLoadPlanningListPage, WHSLoadPlanningWorkbench, WHSRFMenu, WHSRFMenuItem
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: mirzaab
 ms.search.validFrom: 2020-03-21
-ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 991da4a1056bec933698d043fe45fe4e280f555a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.dyn365.ops.version: 10.0.10
+ms.openlocfilehash: 464d49f4e096fdd4fe47f73efc253c97200f4de3
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5004823"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778055"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Ostutellimuste sissetulevate koormate laohaldus
 
+[!include [banner](../includes/banner.md)]
+
 Selles teemas kirjeldatakse ostutellimuste sissetulevate koormate laohaldusprotsessi.
 
-Iga sissetuleva koorma kohta peaks teie süsteem juba sisaldama seotud müügitellimust ja see võib sisaldada ka seotud koorma spetsifikatsioone ja/või transpordiplaani. Lisateavet sissetulevate koormate loomise ja haldamise kohta vt teemast [Äriprotsess: sissetulevate koormate transpordi planeerimine](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/business-process-planning-transportation-for-inbound-loads).
+Iga sissetuleva koorma kohta peaks teie süsteem juba sisaldama seotud müügitellimust ja see võib sisaldada ka seotud koorma spetsifikatsioone ja/või transpordiplaani. Lisateavet sissetulevate koormate loomise ja haldamise kohta vt teemast [Äriprotsess: sissetulevate koormate transpordi planeerimine](/dynamicsax-2012/appuser-itpro/business-process-planning-transportation-for-inbound-loads).
 
 ## <a name="overview-how-inbound-loads-are-created-registered-and-received"></a>Ülevaade: sissetulevate koormate loomine, registreerimine ja vastuvõtmine
 
 Järgmisel joonisel on kujutatud tüüpilist kaubavoogu sissetulevate koormate käsitlemiseks, millel on ostutellimuse kogused, kui need saabuvad teie lattu.
 
-![Sissetuleva koorma haldusprotsess](media/inbound-process.png "Sissetuleva koorma haldusprotsess")
+![Sissetuleva koorma haldusprotsess.](media/inbound-process.png "Sissetuleva koorma haldusprotsess")
 
 1. **Hankija kinnitab ostutellimuse.**
 
@@ -40,11 +40,11 @@ Järgmisel joonisel on kujutatud tüüpilist kaubavoogu sissetulevate koormate k
 
 1. **Sissetuleva koorma kirje luuakse koorma saabumise ja selle sisu plaanimiseks.**
 
-    Sissetuleva koorma kirje tähistab ühe või mitme ostutellimuse hankija saadetist. Koorem peaks saabuma lattu ühe füüsilise transpordiüksusena (nt autokoorem). Sissetuleva koorma kirjet kasutatakse planeerimiseks ja see võimaldab logistikul jälgida koorma hankijalt saabumise teekonda. Seda kasutatakse ka tellimuserea koguste registreerimiseks ja töötlemise haldamiseks laotoimingute kaudu, nagu saabumisega seotud ja paigutustöö. Koormaid saab luua nii automaatselt kui ka käsitsi ja need võivad põhineda kas ostutellimusel või hankijalt saadud saadetise eelteatisel (ASN). Lisateavet vt teemast [Sissetuleva koorma loomine või muutmine](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/create-or-modify-an-inbound-load).
+    Sissetuleva koorma kirje tähistab ühe või mitme ostutellimuse hankija saadetist. Koorem peaks saabuma lattu ühe füüsilise transpordiüksusena (nt autokoorem). Sissetuleva koorma kirjet kasutatakse planeerimiseks ja see võimaldab logistikul jälgida koorma hankijalt saabumise teekonda. Seda kasutatakse ka tellimuserea koguste registreerimiseks ja töötlemise haldamiseks laotoimingute kaudu, nagu saabumisega seotud ja paigutustöö. Koormaid saab luua nii automaatselt kui ka käsitsi ja need võivad põhineda kas ostutellimusel või hankijalt saadud saadetise eelteatisel (ASN). Lisateavet vt teemast [Sissetuleva koorma loomine või muutmine](/dynamicsax-2012/appuser-itpro/create-or-modify-an-inbound-load).
 
 1. **Hankija kinnitab koorma lähetamise.**
 
-    Kui hankija lähetab koorma, kinnitab vastuvõtvas laos asuv logistik koorma saadetise. Kui vastuvõttev ettevõte kasutab moodulit **Transpordihaldus**, käivitab sissetuleva saadetise kinnitamine muud koorma haldusprotsessid, mis on seotud sissetulevate koormatega. Lisateavet leiate jaotisest [Koorma tarnimiseks kinnitamine](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/confirm-a-load-for-shipping).
+    Kui hankija lähetab koorma, kinnitab vastuvõtvas laos asuv logistik koorma saadetise. Kui vastuvõttev ettevõte kasutab moodulit **Transpordihaldus**, käivitab sissetuleva saadetise kinnitamine muud koorma haldusprotsessid, mis on seotud sissetulevate koormatega. Lisateavet leiate jaotisest [Koorma tarnimiseks kinnitamine](/dynamicsax-2012/appuser-itpro/confirm-a-load-for-shipping).
 
 1. **Koorem saabub lattu ja töötajad registreerivad kogused.**
 
@@ -54,7 +54,7 @@ Järgmisel joonisel on kujutatud tüüpilist kaubavoogu sissetulevate koormate k
 
     Kui koorma kogused on saabumisel registreeritud, peavad need kogused olema kantud ettevõtte lao pearaamatusse, et registreerida varude füüsiline kasv. Lisateavet vt [Toote sissetulek ostutellimuste suhtes – toote sissetulek](../procurement/product-receipt-against-purchase-orders.md#product-receipt) ja [Registreeritud toote koguste sisestamine ostutellimuste kohta](#post-registered-quantities).
 
-## <a name="register-item-quantities-that-arrive-on-an-inbound-load"></a><a name="register-item-quantities-arriving"></a>Sissetuleva koorma kaubakoguste registreerimine
+## <a name="register-item-quantities-that-arrive-on-an-inbound-load"></a><a name="register-item-quantities-arriving"></a> Sissetuleva koorma kaubakoguste registreerimine
 
 Microsoft Dynamics 365 Supply Chain Management toetab mitut toimingut tellitud toodete saabumise registreerimiseks. Seetõttu saate konfigureerida süsteemi, et see vastaks teie kindlatele ärivajadustele. Selles jaotises kirjeldatakse sissetulevate kaubakoguste registreerimist mobiilsete seadme abil, kui täpsem laohaldus on süsteemis sisse lülitatud. Siiski on olemas alternatiivne voog, mis põhineb mobiilse seadme kasutamise asemel kauba saabumistöölehe kasutamisel. Lisateavet selle voo kohta leiate teemast [Kaupade registreerimine täpsemaks ladustamiseks lubatud kauba puhul saabuva kauba töölehe abil](tasks/register-items-advanced-warehousing.md).
 
@@ -66,7 +66,7 @@ Kui sissetulev koorem saabub lattu, peavad laotöötajad registreerima saadetise
 
 - **Mobiilse seadme menüü, mis on konfigureeritud toetama koorma vastuvõtmist**
 
-    Mobiilsete seadmete jaoks mõeldud [laorakendus](install-configure-warehousing-app.md) toetab järgmisi töö loomise protsesse.
+    Mobiilsete seadmete jaoks mõeldud [mobiilirakendus Warehouse Management](../warehousing/install-configure-warehouse-management-app.md) toetab järgmisi töö loomise protsesse.
 
     - Vastuvõetav koormas olev kaup
     - Vastuvõetav ja kõrvaleseatav koormas olev kaup
@@ -113,7 +113,7 @@ Laotöötajad saavad registreerida koorma koguse sissetuleku osaliselt. Iga osal
 
 Kui koorma saabudes on kauba kogused väiksemad kui koorma kirjel märgitud kogused, saab lao vastuvõtupersonal töötada otse kliendis, et parandada see lahknevus, vähendades koorma real märgitud kogust, nii et see vastaks tegelikule saabunud ja registreeritud kogusele.
 
-#### <a name="load-over-receiving"></a><a name="load-over-receiving"></a>Planeeritust suurema koorma vastuvõtt
+#### <a name="load-over-receiving"></a><a name="load-over-receiving"></a> Planeeritust suurema koorma vastuvõtt
 
 Planeeritust suurema koorma vastuvõtt toimub siis, kui koorma saabudes ületavad kauba kogused koorma real märgitud eeldatava koguse. Saate kontrollida, kas ja millisel määral on planeeritust suurema koorma vastuvõtt koorma registreerimise ajal lubatud.
 
@@ -147,7 +147,7 @@ Kui laotöötaja on paigutamistöö lõpule viinud, salvestab ja jälitab süste
 | Nende tööde laokanded, mille jaoks seotud kogused on ladustatud | Väljad **Sissetulek** ja **Asukoht** ning muud asjakohased väljad värskendatakse, et kajastada liikumist vastuvõtvast asukohast salvestuskohta. | Ostutellimuse varude kande sätte **Sissetuleku olek** väärtuseks jääb _Registreeritud_. |
 | Lao ladustamine | Väärtus **Töö olek** on muudetud väärtuseks _Suletud_. | |
 
-## <a name="post-registered-product-quantities-against-purchase-orders"></a><a name="post-registered-quantities"></a>Registreeritud toote koguste sisestamine ostutellimuste kohta
+## <a name="post-registered-product-quantities-against-purchase-orders"></a><a name="post-registered-quantities"></a> Registreeritud toote koguste sisestamine ostutellimuste kohta
 
 Pärast seda, kui sissetulevad tootekogused on süsteemis registreeritud, muutuvad need reserveerimiseks kättesaadavaks seoses müügi ning muude väljamineku ja sissetuleku toimingutega. Kuid süsteem ei uuenda veel varude (vahepealseid) kontosid. Värskendamine saab toimuda ainult siis, kui operatsioonimeeskond sisestab registreeritud toote sissetulekud.
 
@@ -267,7 +267,7 @@ Need stsenaariumid nõuavad funktsiooni _Mitme toote sissetuleku sisestamine üh
 
 1. Avage tööruum **Funktsioonihaldus**. (Täielikku teavet selle tööruumi leidmise ja kasutamise kohta vt teemast [Funktsioonihalduse ülevaade](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).)
 
-1. Lülitage sisse funktsioon _Ostutellimuse varude kannete seostamine koormaga_, mis on loetletud järgmiselt.
+1. Veenduge, et _ostutellimuse laokannete seostamine koorma_ funktsiooniga on sisse lülitatud. Tarneahela halduse versiooni 10.0.21 puhul on see funktsioon kohustuslik, seega on see vaikimisi sisse lülitatud ja seda ei saa enam välja lülitada. Kuid see funktsioon on siiski [funktsioonihalduses](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) loetletud järgmisel viisil:
 
     - **Moodul:** _laohaldus_
     - **Funktsiooni nimi:** _ostutellimuse varude kannete seostamine koormaga_
@@ -285,17 +285,17 @@ Nende stsenaariumide kasutamiseks määratud näidiskirjete ja -väärtuste abil
 
 Enne kui lao vastuvõtuametnikud saavad koormaga seotud sissetulevate varude registreerimiseks kasutada mobiilset seadet, peate selleks looma mobiilse seadme menüükäsu.
 
-Selles jaotises loote mobiilse seadme menüükäsu ja lisate selle olemasolevasse menüüsse. Laotöötaja saab seejärel valida menüükäsu laorakenduses.
+Selles jaotises loote mobiilse seadme menüükäsu ja lisate selle olemasolevasse menüüsse. Laotöötaja saab seejärel valida menüükäsu mobiilirakenduses Warehouse Management.
 
 1. Avage **Laohaldus \> Seadistamine \> Mobiilne seade \> Mobiilse seadme menüükäsud** ja veenduge, et teie mobiilse seadme menüü sisaldab menüükäsku, millel on järgmised sätted.
 
     - **Režiim:** _töö_
-    - **Töö loomise protsess:**_vastuvõetav koormas olev kaup_
+    - **Töö loomise protsess:** _vastuvõetav koormas olev kaup_
     - **Loo litsentsiplaat:** _jah_
 
     Saate jätta kõik muud sätted nende vaikeväärtustele.
 
-    ![Mobiilse seadme menüükäsu sätted](media/inbound-mobile-menu-items.png "Mobiilse seadme menüükäsu sätted")
+    ![Mobiilse seadme menüükäsu sätted.](media/inbound-mobile-menu-items.png "Mobiilse seadme menüükäsu sätted")
 
     Lisateavet mobiilse seadme menüükäskude seadistamise kohta vt teemast [Mobiilsete seadmete seadistamine laotöö jaoks](configure-mobile-devices-warehouse.md).
 
@@ -330,7 +330,7 @@ Selles protseduuri käigus loote ostutellimuse ja seotud koorma käsitsi. Seejä
     - Kiirkaardil **Koorem** on välja **Koorma olek** väärtuseks seatud _Avatud_.
     - Jaotises **Koorma read** on üks rida, millel on välja **Kogus** väärtuseks seatud _10_ ja välja **Töö loodud kogus** väärtuseks on seatud _0_ (null).
 
-    ![Koormuse üksikasjad](media/inbound-load-details.png "Koormuse üksikasjad")
+    ![Koorma üksikasjad.](media/inbound-load-details.png "Koormuse üksikasjad")
 
 1. Tehke tegumiriba vahekaardil **Läheta ja võta vastu** valikud **Kinnita \> Sissetulev saadetis**. Pange tähele, et sätte **Koorma olek** väärtus on muutunud väärtuseks _Välja saadetud_.
 1. Tehke märge **Koorma ID** väärtuse kohta, et saaksite seda järgmises protseduuris kasutada.
@@ -424,7 +424,7 @@ Samuti saate teada, kuidas seada ostutellimuse rida nii, et saate vastu võtta k
 1. Tehke toimingupaani vahekaardil **Ostmine** valikud **Tegevused \> Kinnita**. Tellimuse olek on nüüd _Kinnitatud_.
 1. Tehke toimingupaani vahekaardil **Ladu** valikud **Tegevused \> Koorma planeerimise töölaud**.
 1. Tehke lehe **Koorma planeerimise töölaud** tegumiriba vahekaardil **Pakkumine ja nõudlus** valikud **Lisa \> Uude koormasse**.
-1. Seadke dialoogiboksis **Koorma malli määramine** välja **Koorma malli ID** väärtuseks _20' konteiner_. Muutke vahekaardil **Üksikasjad** välja **Kogus** väärtuseks  _5_ kuni _10_, et osaliselt lisada ostutellimuse rea kogus.
+1. Seadke dialoogiboksis **Koorma malli määramine** välja **Koorma malli ID** väärtuseks _20' konteiner_. Muutke vahekaardil **Üksikasjad** välja **Kogus** väärtuseks _5_ kuni _10_, et osaliselt lisada ostutellimuse rea kogus.
 1. Valige **OK**, et rakendada oma sätted ja sulgeda dialoogiboks.
 1. Teise koorma loomiseks korrake samme 8–10. Seekord peaks välja **Kogus** väärtus _5_ olema juba seatud.
 1. Valige lehe **Koorma planeerimise töölaud** ruudustikus **Koormad** välja **Koorma ID** väärtus esimese loodud koorma jaoks. Kuvatakse leht **Koorma üksikasjad** ja valitud koorem. Tehke järgmist.
@@ -477,3 +477,6 @@ Selle stsenaariumi korral registreerib vastuvõtuametnik koguse, mis ületab koo
     - **Kogus** – sisestage väärtus _7_, mis on järelejäänud kogus, mille hankija saab tarnida osana kogu ostutellimuse kogusest 12 (milles 10 on algne tellimuse kogus ja 2 on 20 protsenti lubatud ületarne kogusest). Pidage meeles, et 5 tk on juba registreeritud esimese koorma järgi.
 
 Teist koormat on nüüd värskendatud kogusele 7 ja toote sissetulekut võidakse värskendada selle koguse põhjal.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,26 +2,24 @@
 title: Kliendimaksete ülevaade
 description: Sellest tegevusejuhisest leiate ülevaate klindimaksete sisestamiseks kasutatavate eri meetodite kohta.
 author: kweekley
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTable, CustPaymEntry, CustTableLookup, LedgerJournalTransCustPaym, CustOpenTrans, BankAccountTableLookUp
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9196bedcea26a0024b3eabbbcb9c58a0155a7490
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: f3782c1dd5e326bfc8ae5c005b58d4039f32b021
+ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442350"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7394485"
 ---
 # <a name="customer-payment-overview"></a>Kliendimaksete ülevaade
 
@@ -52,3 +50,6 @@ Sellest tegevusejuhisest leiate ülevaate klindimaksete sisestamiseks kasutatava
 21. Sisestage makseviide väljale **Makseviide**. Makseviide on vajalik vaid juhul, kui märgite makse kaasamise deposiidikviitungile.  
 22. Kliendi maksete sisestamiseks klõpsake **Toimingupaanil** valikut **Sisesta**. 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

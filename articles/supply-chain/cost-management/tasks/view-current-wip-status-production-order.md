@@ -2,11 +2,9 @@
 title: Tootmistellimuse WIP praeguse oleku kuvamine
 description: See protseduur näitab, kuidas vaadata tootmistellimuse lõpetamata toodangu (WIP) aruannet.
 author: AndersGirke
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, CostAdminWorkspace, CostLastInventoryCloseCard, CostLastBackflushCostingCard, CostStatementCacheCard, CostReleasedProductsMissingCostingDataFormPart, CostCalculationPeriodTopVariancesChartFormPart, ProdTable, CostStatement
 audience: Application User
@@ -15,13 +13,13 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 21f86508da647d2527132cf96371ba996f453523
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 22f4a423a0ca9e7fc5ddc9d46a618a20c7a5ca9f
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5260691"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7568179"
 ---
 # <a name="view-current-wip-status-on-a-production-order"></a>Tootmistellimuse WIP praeguse oleku kuvamine
 

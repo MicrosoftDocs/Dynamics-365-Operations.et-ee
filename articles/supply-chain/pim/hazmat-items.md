@@ -1,7 +1,7 @@
 ---
 title: Ohtlikud materjalid toodetes, tellimustes, saadetistes ja koormates
 description: Selles teemas selgitatakse, kuidas määrata väljastatavate toodete ohtlike materjalide omadusi, kuidas panna ohtlikele kaupadele laovarude limiite ja kuidas kaasata ohtlikke materjale müügitellimusse, saadetisse või koormasse.
-author: dasani-madipalli
+author: t-benebo
 ms.date: 06/10/2020
 ms.topic: article
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: damadipa
+ms.author: benebotg
 ms.search.validFrom: 2020-06-10
-ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: b0fb2f77b4e95c90e3eb8a4c74929deead34de5c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
-ms.translationtype: HT
+ms.dyn365.ops.version: 10.0.11
+ms.openlocfilehash: 64d31cd86045ff28aa007666a3877271eecf0106
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829398"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7570701"
 ---
 # <a name="hazardous-materials-in-products-orders-shipments-and-loads"></a>Ohtlikud materjalid toodetes, tellimustes, saadetistes ja koormates
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 897133a27f9d3da2f576ce675c0949f824cde881
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: fb09e1ccd4b2be08e43784330adf4092ca25f5a6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5749485"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349156"
 ---
 # <a name="support-parameterized-calls-of-er-data-sources-of-the-calculated-field-type"></a>Arvutatud väljatüübi ER-andmeallikate parameetritega kõned
 
@@ -86,9 +86,9 @@ Selles näites loote konfiguratsiooni näidisettevõtte Litware, Inc. jaoks. Esm
 
     Selle konfiguratsiooni mudeli vastendamine rakendab põhiandmete mudelit selle mudeli jaoks loodud ER-vormingute puhul, mida kasutatakse rakenduses Finance and Operations. Selle tulemusena on **Maksu-** ja **Gr-** andmeallikate sisu avatud ER-vormingute, näiteks abstraktsete andmeallikate puhul.
 
-    ![Mudeli vastendamise kujundaja lehekülg, kus kuvatakse maksu-ja Gr-andmeallikad](media/er-calculated-field-type-01.png)
+    ![Mudeli vastendamise kujundaja lehekülg näitab maksu- ja Gr andme allikaid.](media/er-calculated-field-type-01.png)
 
-5.  Sulgege leht **Mudelivastenduse koostaja**.
+5.  Sulgege leht **Mudelivastenduse kujundaja**.
 6.  Sulgege leht **Mudelivastendus**.
 
 ### <a name="review-format"></a>Läbivaatuse vorming
@@ -101,21 +101,21 @@ Selles näites loote konfiguratsiooni näidisettevõtte Litware, Inc. jaoks. Esm
     - Esitada maksuaruandes järgmised maksustamistasemed: regulaarne, vähendatud ja pole.
     - Esitada igal maksustamistasandil mitu üksikasja, millel on igal tasandil erinev arv üksikasju.
 
-    ![Vormingu koostaja leht](media/er-calculated-field-type-02.png)
+    ![Vormingukujundaja leht.](media/er-calculated-field-type-02.png)
 
 4. Valige **Vastendamine**.
 5. Laiendage üksusi **Mudel**, **Andmed** ja **Kokkuvõte**. 
 
     Arvutatud väli **Model.Data.Summary.Level** sisaldab avaldist, mis tagastab maksutaseme koodi (**Regulaarne**, **Vähendatud**, **Pole** või **Muu**) tekstiväärtusena mis tahes maksukoodi jaoks, mida saab **Model.Data.Summary** mudelist tuua andmeallika käitusajal.
 
-    ![Vormingu kujundaja leht, kus kuvatakse andmemudeli Mudeli üksikasjad parameetriliste kõnede õppimiseks](media/er-calculated-field-type-03.png)
+    ![Vormingu kujundaja leht, kus kuvatakse andmemudeli üksikasjad parameetriliste kõnede õppimiseks.](media/er-calculated-field-type-03.png)
 
 6. Laiendage üksust **Model**.**Data2**.
 7. Laiendage üksust **Model**.**Data2.Summary2**.
    
     **Model**.**Data2. Summary2** andmeallikas on konfigureeritud grupeerima **Model.Data.Summary** andmeallika kande üksikasjad maksustamise taseme alusel (tagastab **Model.Data.Summary.Level** arvutatud väli) ja arvutama kokkuvõtted.
 
-    ![Vormingu kujundaja leht, kus kuvatakse andmeallika Model.Data2.Summary üksikasjad](media/er-calculated-field-type-04.png)
+    ![Vormingu kujundaja leht, kus kuvatakse andmeallika Model.Data2.Summary üksikasjad.](media/er-calculated-field-type-04.png)
 
 8. Vaadake üle arvutatud väljad **Model**.**Data2. Level1**, **Model**.**Data2. Level2** ja **Model**.**Data2. level3.** Neid arvutatud välju kasutatakse **Model**.**Data2. Summary2** kirjeteloendi filtreerimiseks ja ainult konkreetse maksustamistaset kajastavate kirjete tagastamiseks.
 9. Sulgege **Vormingu koostaja** leht.
@@ -155,7 +155,7 @@ Esitatud vormingut saate parandada, kui lisate ühe arvutatud välja, et filtree
 
     Ühe arvutatud välja jaoks määratud maksimaalne parameetrite arv on 8.
 
-    ![Parameetrite andmeallika loend](media/er-calculated-field-type-05.png)
+    ![Parameetrite andmeallika loend.](media/er-calculated-field-type-05.png)
 
 5. Valige nupp **OK**.
 
@@ -165,7 +165,7 @@ Selle parameetri lisamisega määratlete tingimuse, mis peab olema kasutusel sel
 
    Konfigureeritud parameeter on saadaval selle arvutatud välja andmeallikate loendis. Parameetri lisamiseks konfigureeritud avaldisse Saate klõpsata käsku **lisa andmeallikas.**
 
-   ![Andmeallika väljad](media/er-calculated-field-type-06.png)
+   ![Andmeallika väljad.](media/er-calculated-field-type-06.png)
 
 ### <a name="define-an-expression-for-adding-a-calculated-field"></a>Arvutatud välja lisamise väljendi määratlemine
 
@@ -181,7 +181,7 @@ Selle parameetri lisamisega määratlete tingimuse, mis peab olema kasutusel sel
 
 5. Valige käsk **Salvesta**.
 
-    ![Andmeallika välja teave](media/er-calculated-field-type-07.png)
+    ![Andmeallika välja teave.](media/er-calculated-field-type-07.png)
 
 6. Sulgege **Valemikoostaja** leht.
 
@@ -191,7 +191,7 @@ Selle parameetri lisamisega määratlete tingimuse, mis peab olema kasutusel sel
 
 Lehel **Vormingu koostaja** nõuab konfigureeritud parameetritega arvutatud väli **Tasemed** argumenti **String**.
 
-![Arvutatud välja tasemete laiendatud loend](media/er-calculated-field-type-08.png)
+![Arvutatud välja tasemete laiendatud loend.](media/er-calculated-field-type-08.png)
 
 ### <a name="use-the-configured-calculated-field-for-binding-format-elements"></a>Kasutage siduva vormingu elementide jaoks konfigureeritud arvutatud välja.
 
@@ -220,7 +220,7 @@ Parameetritega arvutatud välja korduvaid kõnesid ei toetata.
 
 Saate valida **Redigeeri valemit** ja muuta valitud sidumise parameetritega arvutatud välja vaikimisi rakendatud argumenti. Kui see argument on puudu, võib see põhjustada tõrkeid käitusajal — kasutajat teavitatakse sellisest olukorrast, kui on kehtiv vorming on kontrollitud.
 
-![Kinnitamise hoiatuse teatis](media/er-calculated-field-type-10.png)
+![Kinnitamise hoiatuse teatis.](media/er-calculated-field-type-10.png)
 
 ## <a name="configure-a-parameterized-calculated-field-to-return-a-record"></a>Parameetritega arvutatud välja konfigureerimine kirje tagastamiseks
 Kui parameetritega arvutatud väli tagastab kirje, peate elementide vormindamiseks toetama selle kirje üksikute väljade sidumist. Sellisel juhul puudub ülataseme sidumine, mis sisaldab parameetritega arvutatud välja kutsumise argumendi väärtust – see väärtus tuleb määratleda ühe kirje välja sidumisel.
@@ -272,7 +272,7 @@ Kui parameetritega arvutatud väli tagastab kirje, peate elementide vormindamise
 8. Valige **Valemi redigeerimine**.
 9. Muutke avaldiseks **Model.Data2.LevelRecord („Pole”).aggregated.Base**.
 
-![Värskendatud avaldis](media/er-calculated-field-type-11.png)
+![Värskendatud avaldis.](media/er-calculated-field-type-11.png)
 
 ## <a name="remove-calculated-fields-that-are-not-used"></a>Eemaldage arvutatud väljad, mida ei kasutata
 
@@ -296,7 +296,7 @@ Kui parameetritega arvutatud väli tagastab kirje, peate elementide vormindamise
 
 ## <a name="export-completed-version-of-a-derived-format"></a>Tuletatud vormingu lõpuleviidud versiooni eksportimine
 
-1. Valige konfiguratsioonipuus  **Vorminda parameetritega kõnede õppimiseks (kohandatud)**.
+1. Valige konfiguratsioonipuus **Vorminda parameetritega kõnede õppimiseks (kohandatud)**.
 2. Vahekaardil **Versioonid** valige lõpule viidud versioon 1.1.1.
 3. Valige **Exchange**.
 4. Valige **Ekspordi XML-failina**.

@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8961b7156f52e48dbfcf7efb14e50316e81fcfff
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
-ms.translationtype: HT
+ms.openlocfilehash: 22aa33135535d543eb8fe437821cab7a4865d6df
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053679"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060827"
 ---
 # <a name="copy-an-instance"></a>Kopeeri eksemplar
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Saate kasutada portaali Microsoft Dynamics Lifecycle Services (LCS), et kopeerida rakenduse Microsoft Dynamics 365 Human Resources andmebaas liivakastikeskkonda. Kui teil on teine liivakastikeskkond, saate kopeerida andmebaasi ka sellest keskkonnast sihtkohaks olevasse liivakastikeskkonda.
 
@@ -52,9 +52,9 @@ Rakenduse Human Resources andmebaasi kopeerimisel esinevad järgmised sündmused
 
 - Microsoft Azure’i bloobimälu dokumente ei kopeerita ühest keskkonnast teise. Selle tulemusena ei kopeerita ühtegi lisatud dokumenti ega malli ja need jäävad lähtekeskkonda.
 
-- Ükski kasutaja (v.a administraatorkasutajad ja teised sisemised teenusekasutajate kontod) pole saadaval. Administraatorkasutaja andmed kustutada või ebaselgeks muuta enne teiste kasutajate tagasi süsteemi lubamist.
+- Kõik kasutajad, v.a need, kellel on turberoll "Süsteemiadministraator" ja teised siseteenuse kasutajakontod, pole saadaval. Administraatorkasutaja andmed kustutada või ebaselgeks muuta enne teiste kasutajate tagasi süsteemi lubamist.
 
-- Administraatorkasutaja peab tegema vajalikud konfiguratsiooni muudatused, nagu integratsiooni lõpp-punktide uuesti ühendamine kindlate teenuste või URL-idega.
+- Iga kasutaja, kellel on turvaroll "Süsteemihaldur", peab tegema vajalikud konfiguratsioonimuudatused, näiteks ühendama integratsiooni lõpp-punktid uuesti teatud teenuste või URL-idega.
 
 ## <a name="copy-the-human-resources-database"></a>Rakenduse Human Resources andmebaasi kopeerimine
 
@@ -71,11 +71,11 @@ Selle ülesande lõpetamiseks kopeerite esmalt eksemplar ja seejärel logige oma
 
 4. Valige tööpaanil **Eksemplari kopeerimine** ülekirjutamiseks eksemplar ja seejärel valige käsk **Kopeeri**. Oodake, kuni välja **Kopeerimise olek** väärtus uuendatakse suvandile **Lõpule viidud**.
 
-   ![[Ülekirjutamiseks eksemplari valimine](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
+   ![[Valige ülekirjutamiseks eksemplar.](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
 
 5. Valige **Power Platform** ja logige Microsoft Power Platformi halduskeskusesse sisse.
 
-   ![[Power Platformi valimine](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
+   ![[Valige Power Platform .](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
 
 6. Valige kopeeritav Power Appsi keskkond eksemplar ja seejärel valige käsk **Kopeeri**.
 
@@ -111,7 +111,7 @@ Osasid neist elementidest ei kopeerita, kuna need on keskkonnale spetsiifilised.
 
 Samuti muutuvad eksemplari kopeerimisel järgmised olekud.
 
-- Kõik kasutajad peale administraatori seatakse olekusse **Keelatud**.
+- Kõik kasutajad, v.a need, kellel on turberoll "Süsteemiadministraator" on seatud olekusse **Ei ole lubatud**.
 
 - Kõik pakett-tööd, välja arvatud mõned süsteemi tööd, seatakse olekusse **Kinnipeetud**.
 

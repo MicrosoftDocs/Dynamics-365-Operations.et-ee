@@ -2,27 +2,24 @@
 title: Kassa loagruppide loomine
 description: Selles teemas tutvustatakse, kuidas luua kassa loagruppe.
 author: scott-tucker
-manager: AnnBe
 ms.date: 08/20/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RetailPosPermissionGroup, HcmJob
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2ffc64fd39a390af3ca7110178ef0999527106dc
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 362fbfb5f0cae7cc8583754b53a198eae90bc67f24a871523374c4b7997826eb
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411724"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6762292"
 ---
 # <a name="create-pos-permission-groups"></a>Kassa loagruppide loomine
 
@@ -48,3 +45,6 @@ Selles teemas tutvustatakse, kuidas luua kassa loagruppe. Selle tegevuse loomise
 16. Sisestage või valige väärtus väljal POS permission group (Kassalubade grupp). Kõik töötajad, kelle ametikohad sellele tööle vastavad, kasutavad selle kassalubade grupi sätteid, kui töötajate kassalube ei ole nende ametikoha tasemel tühistatud.  
 17. Valige käsk **Salvesta**. Pärast muudatuste salvestamist peate käivitama personali jaotusgraafiku, et muutused kanalitesse edastada.  
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

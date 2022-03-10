@@ -2,28 +2,25 @@
 title: Garantiikirjad
 description: Selles artiklis antakse teavet garantiikirjade kohta. Garantiikirjas nõustub pank maksma isikule kindla rahasumma, kui üks panga klientidest makset või kohustust sellele isikule ei täida.
 author: panolte
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankLGGuarantee
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 18291
 ms.assetid: 5c0b5e37-d51d-4a01-bb37-1882173abb9f
 ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e3dbf08679c165258a4a4027bf1cf73484d9efd3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 09e62560bda6c8167e9aab6cd8690246f94f5b3f028d67c9e41a1fbba17dc499
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442413"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6757093"
 ---
 # <a name="letters-of-guarantee"></a>Garantiikirjad
 
@@ -65,3 +62,6 @@ Lisateavet vt järgmistest teemadest:
 [Pangateenuste ja garantiikirjade sisestusreeglite seadistamine](tasks/set-up-bank-facilities-posting-profiles.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

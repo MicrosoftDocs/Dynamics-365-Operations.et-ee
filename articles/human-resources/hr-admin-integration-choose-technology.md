@@ -1,16 +1,13 @@
 ---
 title: Andme integratsioonitehnoloogia valimine
-description: Selles artiklis antakse teavet Human Resourcesis hallatud andmetega integreerimise kohta. Kirjeldatakse erinevaid integratsioonitehnoloogiaid, et aitata teil otsustada, millised tehnoloogiad teie vajadustele kõige paremini vastavad.
-author: andreabichsel
-manager: tfehr
-ms.date: 02/28/2020
+description: Selles artiklis antakse teavet personaliga hallatavate andmetega integreerimise kohta.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -18,18 +15,21 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b2bd8707d873955ec53dcaebb503a6c8e666d9f8
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
-ms.translationtype: HT
+ms.openlocfilehash: 24ddd242185d736287f61ec250c631ab65e08c95
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5465842"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065037"
 ---
 # <a name="choose-a-data-integration-technology"></a>Andme integratsioonitehnoloogia valimine
 
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Selles artiklis antakse teavet Dynamics 365 Human Resources hallatud andmetega integreerimise kohta. Kirjeldatakse erinevaid integratsioonitehnoloogiaid, et aitata teil otsustada, millised tehnoloogiad teie vajadustele kõige paremini vastavad.
 
@@ -37,8 +37,7 @@ Selles artiklis antakse teavet Dynamics 365 Human Resources hallatud andmetega i
 
 Äriandmed on oluline vara, mis muudab teie ettevõtte ainulaadseks. Teie ettevõtte andmed on väga väärtuslikud. Saate kasutada kogu oma ettevõttes kogutud andmete vahelisi seoseid äriprotsesside ja äriteabe parandamiseks kogu teie organisatsioonis. Püüame pakkuda lihtsat, turvalist ja stabiilset juurdepääsu teie äriandmetele olenemata sellest, millisest süsteemist see pärineb.
 
-Ajalooliselt on teabe integreerimine mitme süsteemi vahel olnud raske.
-Microsoft astub samme, et muuta andmeintegratsioon lihtsamaks ja üks osa selle eesmärgi täideviimisest on platvorm [Dataverse](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro).
+Ajalooliselt on teabe integreerimine mitme süsteemi vahel olnud raske. Microsoft astub samme, et muuta andmeintegratsioon lihtsamaks ja üks osa selle eesmärgi täideviimisest on platvorm [Dataverse](/powerapps/maker/common-data-service/data-platform-intro).
 
 Human Resources on muutmas rakendust Dataverse rakenduse Human Resources andmete eelistatud avalikuks liideseks. Aja jooksul eeldame, et kõik kõige olulisemad rakendusega Human Resources hallatavad andmed jõuavad ka rakendusse Dataverse. Soovitame rakendust Dataverse kui tehnoloogilist valikut suurema osa integreeritavate rakenduste jaoks.
 
@@ -50,21 +49,21 @@ Järgmised jaotised kirjeldavad erinevaid teabe integreerimise tehnoloogiaid, mi
 
 ### <a name="dataverse-tables"></a>Dataverse'i tabelid
 
-Dataverse on eelistatud avaliku teabe liides rakenduse Human Resources jaoks. See kasvas välja Dynamics 365 XRM-i platvormist, mida kasutavad [Dynamics 365 Customer Engagementi](https://docs.microsoft.com/dynamics365/#pivot=business-apps&panel=customer-engagement) lahendused.
+Dataverse on eelistatud avaliku teabe liides rakenduse Human Resources jaoks. See kasvas välja Dynamics 365 XRM-i platvormist, mida kasutavad [Dynamics 365 Customer Engagement](/dynamics365/?panel=customer-engagement#pivot=business-apps) lahendused.
 
 Dataverse pakub andmetabelitele platvormi ja API-d. Human Reasourcesi juurutamisel ühendub see Dataverse'i eksemplariga. Human Resourcesi andmeüksused juurutatakse sellesse Dataverse'i eksemplari. Tabelid ja nende andmed on saadaval mis tahes rakendusele, mida saab Dataverse'i eksemplariga ühendada. Human Resources sünkroonib andmeid Dataverse'i tabelite vahel.
 
 > [!NOTE]
-> Human Resourcesi olemid vastavad Dataverse'i tabelitele. Lisateavet Dataverse'i (varem Common Data Service) ja terminoloogiavärskenduste kohta vaadake jaotisest [Mis on Microsoft Dataverse?](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)
+> Human Resourcesi olemid vastavad Dataverse'i tabelitele. Lisateavet Dataverse'i (varem Common Data Service) ja terminoloogiavärskenduste kohta vaadake jaotisest [Mis on Microsoft Dataverse?](/powerapps/maker/data-platform/data-platform-intro)
 
-Kui teie integreerivate rakenduste jaoks nõutavad andmetabelid on olemas Dataverse'is, saate täielikult kasutada [Dataverse'it ja selle toetatud API-sid](https://docs.microsoft.com/powerapps/#pivot=home&panel=developer). Toetatud API-de hulgas on [Dynamics 365 Web API](https://docs.microsoft.com/dynamics365/customer-engagement/developer/use-microsoft-dynamics-365-web-api), mis pakub OData rakendamist Dataverse’i andmetele juurdepääsuks.
+Kui teie integreerivate rakenduste jaoks nõutavad andmetabelid on olemas Dataverse'is, saate täielikult kasutada [Dataverse'it ja selle toetatud API-sid](/powerapps/?panel=developer#pivot=home). Toetatud API-de hulgas on [Dynamics 365 Web API](/dynamics365/customer-engagement/developer/use-microsoft-dynamics-365-web-api), mis pakub OData rakendamist Dataverse’i andmetele juurdepääsuks.
 
 Dataverse’i tabelid ja nendega seotud API-d on parimad võimalused juurdepääsuks rakenduse Human Resources andmetele veebirakendustest, veebiteenustest/API-dest ja mis tahes muust OData vooge ühendavast rakendusest.
 
 > [!NOTE]
 > Kui otsustate teha Dataverse’ist eelistatud kasutajaliidese suhteliselt hiljutise rakenduse Human Resources jaoks, võite leida, et rakenduse Human Resources andmed, mida teie integreerimiseks vajate, pole veel rakenduses Dataverse saadaval.
 > </br>
-> Rakenduses Dataverse saadaolevate rakenduse Human Resources üksuste loendit vt teemast [Human Resources ja Dataverse](https://docs.microsoft.com/dynamics365/unified-operations/talent/corehrentities).
+> Rakenduses Dataverse saadaolevate rakenduse Human Resources üksuste loendit vt teemast [Human Resources ja Dataverse](/dynamics365/unified-operations/talent/corehrentities).
 > </br>
 > Kui teie integratsiooniks vajalikud rakenduse Human Resources üksused pole veel saadaval, peate ootama, kuni andmed on saadaval, või peate kasutama mõnda muud allpool kirjeldatud integratsioonitehnoloogiat.
 > </br>
@@ -72,14 +71,14 @@ Dataverse’i tabelid ja nendega seotud API-d on parimad võimalused juurdepää
 
 ### <a name="dmfdixf-entities"></a>DMF-/DIXF-i üksused
 
-Human Resources, mis on arendatud peamiselt samale platvormile kui Finance and Operationsi rakendused, pakub [andmehaldusraamistikku (DMF)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json). DMF on tuntud ka kui andmete importimise/eksportimise raamistik (DIXF). Human Resources pakub andmeüksuste kogumit, mida saate kasutada Human Resourcesi teabe importimiseks ja eksportimiseks. Kui Dataverse’i tabelid on rakenduses Human Resources eelistatud andmeintegratsiooni liideseks, on DMF-i üksused siiski mõnes olukorras kasulikud, näiteks järgmistes.
+Inimressursid, mis on ehitatud peamiselt finants- ja tegevusrakendustega samale platvormile [, pakuvad andmehaldusraamistikku (DMF)](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=%2ffin-and-ops%2ftoc.json). DMF on tuntud ka kui andmete importimise/eksportimise raamistik (DIXF). Human Resources pakub andmeüksuste kogumit, mida saate kasutada Human Resourcesi teabe importimiseks ja eksportimiseks. Kui Dataverse’i tabelid on rakenduses Human Resources eelistatud andmeintegratsiooni liideseks, on DMF-i üksused siiski mõnes olukorras kasulikud, näiteks järgmistes.
 
 - Dataverse’i tabelid pole veel saadaval.
 
 - Integratsioon vajab suuremahuliste andmete importimise/eksportimise võimalusi.
 
 > [!NOTE]
-> Human Resourcesi olemid vastavad Dataverse'i tabelitele. Lisateavet Dataverse'i (varem Common Data Service) ja terminoloogiavärskenduste kohta vaadake jaotisest [Mis on Microsoft Dataverse?](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)
+> Human Resourcesi olemid vastavad Dataverse'i tabelitele. Lisateavet Dataverse'i (varem Common Data Service) ja terminoloogiavärskenduste kohta vaadake jaotisest [Mis on Microsoft Dataverse?](/powerapps/maker/data-platform/data-platform-intro)
 
 DMF-i üksused pakuvad praegu kõige rohkem täielikke andmeid rakenduse Human Resources andmetele.
 
@@ -92,7 +91,7 @@ DMF võib olla parim valik, kui on vaja suurt läbilaskevõimet (nt tuhandete ki
 
 ### <a name="dmf-package-rest-api"></a>DMF-i pakett REST API
 
-DMF pakub andmepakettidega manipuleerimiseks valikut [REST API](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-management-api). Seda API-t saab kasutada programmiliselt DMF-iga suhtlemiseks, lubades selliseid tegevusi nagu järgmised.
+DMF pakub andmepakettidega manipuleerimiseks valikut [REST API](/dynamics365/unified-operations/dev-itpro/data-entities/data-management-api). Seda API-t saab kasutada programmiliselt DMF-iga suhtlemiseks, lubades selliseid tegevusi nagu järgmised.
 
 - Andmepaketi importimine.
 
@@ -104,36 +103,36 @@ DMF-paketi REST API on rakenduses Human Resources täielikult toetatud.
 
 ### <a name="azure-sql-db-byod"></a>Azure SQL DB (BYOD)
 
-DMF pakub lisaks võimsat funktsiooni ( tuntud kui [Bring Your Own Database](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/export-entities-to-your-own-database) või BYOD), mis võimaldab rakendusel Human Resources andmeid eksportida oma Microsoft Azure SQL-i andmebaasi. See võimalus pakub tohutut paindlikkust. Kui andmed on olemas teie enda SQL-andmebaasis, saate kasutada kõiki rakendusi või vahevarasid, mida saab SQL DataStore’i ühendada.
+DMF pakub lisaks võimsat funktsiooni ( tuntud kui [Bring Your Own Database](/dynamics365/unified-operations/dev-itpro/analytics/export-entities-to-your-own-database) või BYOD), mis võimaldab rakendusel Human Resources andmeid eksportida oma Microsoft Azure SQL-i andmebaasi. See võimalus pakub tohutut paindlikkust. Kui andmed on olemas teie enda SQL-andmebaasis, saate kasutada kõiki rakendusi või vahevarasid, mida saab SQL DataStore’i ühendada.
 
 BYOD on peamiselt kirjutuskaitstud lahendus. Samal ajal kui saate mis tahes soovitud andmeid Azure SQL-i andmebaasis manipuleerida ja salvestada (nt andmete koondamised), ei sünkroonita Azure SQL-i andmebaasi salvestatud andmeid rakendusega Human Resources.
 
-BYOD on sobiv aruandluslahenduste, andmete integreerimise ja andmete koondamise, andmeallikana [Azure Data Factory](https://docs.microsoft.com/azure/data-factory/) konveieri jaoks.
+BYOD on sobiv aruandluslahenduste, andmete integreerimise ja andmete koondamise, andmeallikana [Azure Data Factory](/azure/data-factory/) konveieri jaoks.
 
 > [!NOTE]
 > BYOD ei ole saadaval Attracti ja Onboardi jaoks.
 
 ### <a name="odata-enabled-entities"></a>OData-toega üksused
 
-Enamikul DMF-üksustel on juurdepääs ka rakendusele Human Resources andmeside teenuse (OData) kaudu. [Finance and Operationsi OData teenuse](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/odata) kohta esitatud dokumentatsiooni rakendatakse ka rakendusele Human Resources, kuigi teie enda OData üksuste loomise dokumentatsiooni ei rakendata.
+Enamikul DMF-üksustel on juurdepääs ka rakendusele Human Resources andmeside teenuse (OData) kaudu. OData teenuse [Finance and Operations OData jaoks](/dynamics365/unified-operations/dev-itpro/data-entities/odata) esitatud dokumentatsioon kehtib inimressurssidele, välja arvatud oma OData-ga kokkupuutuvate üksuste loomine.
 
-Samal ajal kui Dataverse ja OData rakendamine, mida pakub Dataverse ([Dynamics 365 veebirakendusliidese](https://docs.microsoft.com/previous-versions/dynamicscrm-2016/developers-guide/mt593051(v=crm.8)) kaudu), on eelistatud rakenduse Human Resources andmesideteenuse ees, on rakenduse Human Resources andmesideteenusel praegu suurem täielike üksuste katvus Human Resourcesi andmete jaoks.
+Samal ajal kui Dataverse ja OData rakendamine, mida pakub Dataverse ([Dynamics 365 veebirakendusliidese](/previous-versions/dynamicscrm-2016/developers-guide/mt593051(v=crm.8)) kaudu), on eelistatud rakenduse Human Resources andmesideteenuse ees, on rakenduse Human Resources andmesideteenusel praegu suurem täielike üksuste katvus Human Resourcesi andmete jaoks.
 
 ### <a name="excel-add-in"></a>Exceli lisandmoodul
 
-[Exceli lisandmoodul](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/office-integration/use-excel-add-in?toc=/dynamics365/unified-operations/talent/toc.json) saab OData võimalusega üksustest kasu. See pakub tuttava Exceli kasutajaliidese kaudu lõppkasutajale rakenduse Human Resources andmete toomiseks ja muutmiseks mugavat viisi.
+[Exceli lisandmoodul](/dynamics365/unified-operations/dev-itpro/office-integration/use-excel-add-in?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json) saab OData võimalusega üksustest kasu. See pakub tuttava Exceli kasutajaliidese kaudu lõppkasutajale rakenduse Human Resources andmete toomiseks ja muutmiseks mugavat viisi.
 
 Exceli lisandmoodul sobib ad hoc-andmete importimiseks/eksportimiseks äridomeenide ekspertide poolt. Korduvaks andmeintegratsiooniks, mis nõuab programmilist automatiseerimist, on sobivam mõni muu integratsioonitehnoloogia.
 
 ### <a name="data-integrator"></a>Andmeintegraator
 
-Saate kasutada [andmeintegraatori teenust](https://docs.microsoft.com/powerapps/administrator/data-integrator) rakenduse Dataverse andmeitegratsiooniks. Andmeintegraator võimaldab integratsiooniprojektide määratlemist sageli varem määratletud mallide põhjal, mille rakenduse arendajad on kohandanud kindla integratsiooni jaoks. Saate ajastada integratsiooniprojekte korduva graafiku põhjal automaatselt käivituma või käivitada neid käsitsi.
+Saate kasutada [andmeintegraatori teenust](/powerapps/administrator/data-integrator) rakenduse Dataverse andmeitegratsiooniks. Andmeintegraator võimaldab integratsiooniprojektide määratlemist sageli varem määratletud mallide põhjal, mille rakenduse arendajad on kohandanud kindla integratsiooni jaoks. Saate ajastada integratsiooniprojekte korduva graafiku põhjal automaatselt käivituma või käivitada neid käsitsi.
 
 Andmeintegraatori projektid sobivad rakenduse Dataverse pakktöötluse integreerimiseks. Need on suurepärane valik Dynamics 365 rakenduste pere vahelisteks integratsioonideks. Näiteks pakub Microsoft andmeintegraatori malli, mida saab kasutada rakendusest Human Resources pärinevate andmetega integreerimiseks Dynamics 365 Finance’i. Lisateavet malli kohta leiate teemast [Integreerimine rakendusest Dynamics 365 Human Resources Dynamics 365 Finance'i](hr-admin-integration-finance.md).
 
 ### <a name="power-query"></a>Power Query
 
-Andmeintegraator toetab ka [võimsuse päringut](https://docs.microsoft.com/power-query/power-query-what-is-power-query) selle [täpsema päringu funktsiooni](https://docs.microsoft.com/powerapps/administrator/data-integrator#advanced-data-transformation-and-filtering) kaudu. Võimsuse päring pakub võimsat, paindlikku andmete filtreerimise ja teisendamise võimalust, sh rikkaliku M-valemi keelt. Võimsuse päring on teile tõenäoliselt tuttav, kui olete koostanud Power BI aruandeid.
+Andmeintegraator toetab [Power Query](/power-query/power-query-what-is-power-query) seda [täiustatud päringufunktsiooni kaudu](/powerapps/administrator/data-integrator#advanced-data-transformation-and-filtering). Power Query pakub võimsat ja paindlikku andmete filtreerimist ja teisendamist, sealhulgas rikkalikku M-valemikeelt. Power Query tõenäoliselt on tuttav, kui olete välja töötanud Power BI aruanded.
 
 ## <a name="deciding-on-an-integration-technology"></a>Integratsiooni tehnoloogia otsustamine
 

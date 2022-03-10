@@ -15,14 +15,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 8265b6b2269822bcae6d573091d2994e25826d1a
-ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
-ms.translationtype: HT
+ms.openlocfilehash: dc71748a5081b90feb69ed0da936c42b4d0e572a
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/01/2021
-ms.locfileid: "7729119"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070698"
 ---
 # <a name="view-and-evaluate-the-results-of-questionnaires"></a>Küsimustike tulemuste vaatamine ja hindamine
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -31,7 +34,7 @@ See teema selgitab, kuidas saate vaadata ja hinnata vastajate täidetavate küsi
 Pärast seda, kui vastajad on küsimustiku täitnud, saate vaadata ja hinnata küsimustiku tulemusi järgmisel viisil.
 
 -   **Täidetud vastamissessioonid** – saate kuvada vastajate täidetud küsimustike üksikasjad ja koostada aruandeid vastuste ning teenitud punktide summeerimiseks.
--   **Tulemusegrupid** – saate kuvada tulemusegrupi üksikasjad ja küsimustike statistika. Tulemustegrupi statistikat saab luua kas küsimustiku üksiku vastamisseansi või kõigi vastamisseansside kohta.
+-   **Tulemusegrupid** – saate kuvada tulemusegrupi üksikasjad ja küsimustike statistika. Tulemusgrupi statistikat saab luua kas küsimustiku ühe vastuseseansi või kõigi vastuseseansside kohta.
 -   **Küsimustiku statistika** – saate määrata kriteeriumid konkreetse vastajagrupi statistika arvutamiseks.
 
 Samuti saate luua mitmesuguseid aruandeid inimese, vastamissessiooni või tulemusegrupi järgi sorditud tulemuste vaatamiseks. Saadaval on järgmised täidetud küsimustikega seotud aruanded.

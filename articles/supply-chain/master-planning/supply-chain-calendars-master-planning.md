@@ -1,12 +1,10 @@
 ---
 title: Kalendrid ja koondplaneerimine
 description: Selles teemas antakse ülevaade tarneahela kalendritest ja nende mõjust koondplaneerimisele.
-author: t-benebo
-manager: tfehr
+author: ChristianRytt
 ms.date: 08/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 64a9e356d93b42193c2992fb4029814c5fd63e7e
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.openlocfilehash: f424a2a050f917be2f0823c35ee2a47b4dd5cd0a
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5261137"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7568611"
 ---
 # <a name="calendars-and-master-planning"></a>Kalendrid ja koondplaneerimine
 
@@ -92,7 +90,7 @@ Selleks et näidata kuupäevi, millal klient saab saadetisi vastu võtta, saate 
 
 Pange tähele, et ühe kliendiga saab kaasata ainult ühe kalendri. Kui soovite kaasata kalendri kliendi igale aadressile, saate luua ühe kliendi aadressi kohta ja seejärel määrata sellele vastava kalendri. 
 
-Nõutavat sissetulekukuupäeva müügitellimuse ridadel mõjutab kliendi kalender ja tarnekuupäeva määramisviis. Lisateavet varaseima tarnekuupäeva arvutamise kohta leiate teemast [Tellimuse lubamine.](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/delivery-dates-available-promise-calculations).
+Nõutavat sissetulekukuupäeva müügitellimuse ridadel mõjutab kliendi kalender ja tarnekuupäeva määramisviis. Lisateavet varaseima tarnekuupäeva arvutamise kohta leiate teemast [Tellimuse lubamine.](/dynamics365/unified-operations/supply-chain/sales-marketing/delivery-dates-available-promise-calculations).
 
 ### <a name="shipping-calendar-for-a-legal-entity"></a>Juriidilise isiku lähetuskalender
 Selleks et näidata kuupäevi, millal juriidiline isik saab kaupu lähetada, saate seadistada lähetuskalendri jaotises **Organisatsiooni haldus > Organisatsioonid > Juriidilised isikud**. Valige juriidiline isik ja lisage kalender vahekaardi **Väliskaubandus ja logistika** väljal **Lähetuskalender**. Lähetuskalender toimib juriidilise isiku kõigi laokalendrite vaikesätete allikana. 

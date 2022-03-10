@@ -12,12 +12,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epodkolz
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: a537509fe034d85f8f4f441dc82d54efd3ed4f28
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
-ms.translationtype: HT
+ms.openlocfilehash: 326a74d0f962cf0455033b04950ded7ca26bfc77
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6348881"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7594715"
 ---
 # <a name="reverse-charge-mechanism-for-vatgst-scheme"></a>KM/GST-süsteemi pöördmaksustamise mehhanism
 
@@ -45,7 +45,6 @@ Pöördmaksu rakendamiseks tuleb teha järgmine seadistus.
 Soovitame kasutada müügi- ja ostutoimingute jaoks eraldi käibemaksukoode.
 
 <table>
-<body>
 <tr>
 <td><strong>Müügi käibemaksukood</strong></td>
 <td>Looge käibemaksukood müügi pöördmaksu toimingutele (<strong>Maks</strong> &gt; <strong>Kaudsed maksud</strong> &gt; <strong>Käibemaks</strong> &gt; <strong>Käibemaksukoodid</strong>).
@@ -62,7 +61,6 @@ See negatiivne käibemaksukood tuleb määrata kauba käibemaksugrupile ja seej�
 <p>Lisateavet leiate järgmisest jaotisest &quot;Käibemaksugruppide ja kauba käibemaksugruppide häälestamine&quot;.</p>
 </td>
 </tr>
-</tbody>
 </table>
 
 ## <a name="set-up-sales-tax-groups-and-item-sales-tax-groups"></a><a name="sales-tax-item-sales-tax-groups"></a>Käibemaksugruppide ja kauba käibemaksugruppide seadistamine

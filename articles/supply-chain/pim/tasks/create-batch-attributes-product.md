@@ -1,26 +1,24 @@
 ---
 title: Toote jaoks partiiatribuutide loomine
 description: See protseduur näitab, kuidas luua partii atribuuti, määrata vaikeväärtuse vahemikke ja kaasata atribuudi gruppi.
-author: ShylaThompson
-manager: tfehr
+author: t-benebo
 ms.date: 11/14/2016
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PdsBatchAttrib
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: benebotg
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 66757cdb93c67129c19ae226caa271a44c759206
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.openlocfilehash: 71779bf864b4dbe86d90131808014d1d08815155
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5218557"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7565602"
 ---
 # <a name="create-batch-attributes-for-a-product"></a>Toote jaoks partiiatribuutide loomine
 

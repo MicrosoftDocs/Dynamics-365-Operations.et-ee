@@ -2,11 +2,9 @@
 title: Üldise töölehe üksuse abil kannete importimine
 description: Selles teemas on näpunäited andmete päevaraamatusse importimise kohta, kasutades üksust Päevaraamat.
 author: rcarlson
-manager: AnnBe
 ms.date: 04/20/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -16,16 +14,19 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8ccb479cf7bcf86c01ed274a7a39856d538f220f
-ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
-ms.translationtype: HT
+ms.openlocfilehash: 42bc804393d050e5ff722c46c9ce50ece54c5a0b
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "5129595"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065066"
 ---
 # <a name="importing-vouchers-by-using-the-general-journal-entity"></a>Üldise töölehe üksuse abil kannete importimine
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Selles teemas on näpunäited andmete päevaraamatusse importimise kohta, kasutades üksust Päevaraamat.
 
@@ -65,3 +66,6 @@ Järgmistes jaotistes kirjeldatakse nende sätete mõju. Samuti selgitatakse, ku
 - Kui väljale **Kande number** on määratud väärtus **Automaatselt loodud**, siis importimine ei õnnestu. Seadistust **Automaatselt loodud** väljal **Kande number** ei toetata.
 
 Vaikimisi kasutab üksus Päevaraamat kogumipõhist töötlemist. Pärast oma organisatsiooni ärinõuete hindamist tuleb sätet **Kogumipõhine töötlemine** muuta, klõpsates valikut **Andmeüksused** tööruumis **Andmehaldus**. Kogumipõhist töötlemist kasutatakse impordiprotsessi kiirendamiseks. Kui te kogumipõhist töötlemist ei kasuta, on üksuse Päevaraamat importimine aeglasem.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

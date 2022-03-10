@@ -1,12 +1,10 @@
 ---
 title: Hangete töövood
 description: Mõned organisatsioonid nõuavad, et ostutaotlused ja ostutellimused kinnitaks muu kasutaja kui see, kes kande sisestas. Kinnitamisprotsessi seadistamiseks saate luua töövoo.
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 12/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WorkflowTableListPageRnr
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 2074
 ms.assetid: e54a1d59-b9fb-421b-821d-01f32878aa9b
 ms.search.region: Global
-ms.author: riluan
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e591007a1330fe11b3f586185f9daca845798908
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.openlocfilehash: a819093d9ee6f999e637281e54905968fe361566
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5218461"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7575532"
 ---
 # <a name="procurement-and-sourcing-workflows"></a>Hangete töövood
 
@@ -49,7 +47,7 @@ Jaotises Hanked on saadaval järgmised töövootüübid.
 | Hankija lisamise rakenduse töövoog | Saate luua ülevaatuse ja kinnitamise töövood uute hankijate lisamiseks hankija nõuete kaudu. |
 
 > [!IMPORTANT]
-> Uue töövoo lisamisel võidakse kuvada ka järgmised iganenud töövood, mis on loetletud dialoogiboksis **Töövoo loomine**. Need on seotud *vastuvõtukinnituse* funktsiooniga, mis oli saadaval teenuses [Dynamics AX 2012](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-procurement-and-sourcing-workflows), aga mis on nüüd iganenud. Neid töövooge praegu ei toetata.
+> Uue töövoo lisamisel võidakse kuvada ka järgmised iganenud töövood, mis on loetletud dialoogiboksis **Töövoo loomine**. Need on seotud *vastuvõtukinnituse* funktsiooniga, mis oli saadaval teenuses [Dynamics AX 2012](/dynamicsax-2012/appuser-itpro/set-up-procurement-and-sourcing-workflows), aga mis on nüüd iganenud. Neid töövooge praegu ei toetata.
 > 
 > - Tarnetähtaja teate töövoog
 > - Arve saamise teatise töövoog

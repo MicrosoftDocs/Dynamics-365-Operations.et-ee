@@ -2,26 +2,23 @@
 title: Kontostruktuuride loomine
 description: See ülesandejuhend kirjeldab konto struktuuri loomise etappe.
 author: aprilolson
-manager: AnnBe
 ms.date: 07/01/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DimensionConfigureAccountStructure, DimensionCreateAccountStructure, DimensionHierarchyAddLevel, DimensionHierarchyConstraintActivate
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b75ee76a1fb874652415a2174441f629955d763a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: e9ba43e243df4ba4b7c0eb6188629686206ff09b
+ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442444"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7394535"
 ---
 # <a name="create-account-structures"></a>Kontostruktuuride loomine
 
@@ -61,3 +58,6 @@ See ülesandejuhend kirjeldab konto struktuuri loomise etappe. Etapid kasutavad 
 29. Paanil **Toimingupaan** klõpsake käsku **Aktiveeri**.
 30. Klõpsake käsku **Aktiveeri**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

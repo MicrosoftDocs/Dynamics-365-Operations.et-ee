@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-12
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4e50855368a3fa86c38c756492fc7e6cd518f497
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
-ms.translationtype: HT
+ms.openlocfilehash: a372561b8a6cdca8e1a3dc362009379884f1a3414330f3f056d4c3af7703a132
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796095"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6736400"
 ---
 # <a name="configure-multiple-b2c-tenants-in-a-commerce-environment"></a>Mitme B2C rentniku konfigureerimine Kaubanduskeskkonnas
 
@@ -27,7 +27,7 @@ ms.locfileid: "5796095"
 
 Selle teema all kirjeldatakse, millal ja kuidas seadistada kanali kohta mitme Microsoft Azure Active Directory (Azure AD) äri-tarbija (B2C) üürnikut kasutaja autentimiseks spetsiaalses Dynamics 365 Commerce keskkonnas .
 
-Dynamics 365 Commerce kasutab Azure AD B2C pilve identiteediteenust kasutaja mandaadi ja autentimisvoogude toetamiseks. Kasutajad saavad kasutada autentimise voogusid, et registreeruda, sisse logida ja lähtestada oma parool. Azure AD B2C talletab kasutaja tundliku autentimisteabe, nt kasutajanime ja parooli. Kasutajakirje on kordumatu iga B2C rentniku jaoks ja see kasutab kasutajanime (meiliaadressi) mandaate või sotsiaalse identiteedi pakkuja mandaati.
+Dynamics 365 Commerce kasutab Azure AD B2C pilve identiteediteenust kasutaja mandaadi ja autentimisvoogude toetamiseks. Kasutajad saavad kasutada autentimise voogusid, et registreeruda, sisse logida ja lähtestada oma parool. Azure AD B2C talletab kasutaja tundliku autentimisteabe, nagu näiteks kasutajanimi ja parool. Kasutajakirje on kordumatu iga B2C rentniku jaoks ja see kasutab kasutajanime (meiliaadressi) mandaate või sotsiaalse identiteedi pakkuja mandaati.
 
 Enamikul juhtudel kasutatakse Kaubanduskeskkonnas Azure AD ühte B2C rentnikku. Kaubanduskliendid saavad seejärel luua ja avaldada mitu saiti samas Kaubanduskeskkonnas ja kõigil nendel saitidel kasutatakse sama kliendimandaati. Kui aga keskkonna saite käsitletakse erinevate kaubamärkidena ja need ilmuvad kasutajatele eraldiseisvate ettevõtetena, saab B2C rentnikku konfigureerida kanalile, mida kasutatakse saidi/kaubamärgi eristamiseks.
 
@@ -49,7 +49,7 @@ Sageli, kui iga kanalit või saiti käsitletakse eraldiseisva ettevõttena, on p
 
 Järgmisel joonisel on kujutatud mitut B2C rentnikku Kaubanduskeskkonnas.
 
-![Mitu B2C rentnikku Kaubanduskeskkonnas](media/MultiB2C_In_Environment.png)
+![Mitu B2C rentnikku Commerce keskkonnas.](media/MultiB2C_In_Environment.png)
 
 Kui otsustate, et teie ettevõte vajab kanali kohta eraldiseisvaid B2C rentnikke samas Kaubanduskeskkonnas, täitke selle funktsiooni taotlemiseks järgmiste jaotiste protseduurid.
 

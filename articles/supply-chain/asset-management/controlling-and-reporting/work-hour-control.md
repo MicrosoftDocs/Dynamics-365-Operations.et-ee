@@ -1,12 +1,10 @@
 ---
 title: Töötundide kontroll
 description: Selles teemas selgitatakse töötundide kontrolli varahalduses.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/23/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetHourControl
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 482bee9dba22763a065c8aca93745f53f06f99be
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.openlocfilehash: 90c4f649cc9ea45341ede923294a7c5a892cd68714db356c3799430d18f5de60
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5253706"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6742772"
 ---
 # <a name="work-hour-control"></a>Töötundide kontroll
 
@@ -68,7 +66,7 @@ Alltoodud kuvatõmmisel on näidatud lehe **Varatunni kontroll** näidisarvutus.
 - Väljal **Tegelikud tunnid** kuvatakse töökäskudesse sisestatud tunnid. 
 - Väli **Kooskõlastatud tunnid** näitab kogutunde, millele teie ettevõte on pühendunud seoses töökäskudega.
 
-![Varatunni kontrolli näidisarvutus](media/04-controlling-and-reporting.png)
+![Varatunni kontrolli näidisarvutus.](media/04-controlling-and-reporting.png)
 
 Teine moodus tundide arvutamiseks on valida kas **Kõik varad** või **Aktiivsed varad**. Seejärel klõpsake nuppu **Tunnikontroll** kiirkaardil **Üldine**. Valitud varad sisestatakse automaatselt välja **Varad** kiirkaardil **Kaasatavad kirjed**. Klõpsake **OK** dialoogiaknas **Varatunni kontroll** ja valitud varade arvutus kuvatakse. Sama protseduuri saab teha funktsionaalsete asukohtade puhul väljades **Kõik funktsionaalsed asukohad** või **Aktiivsed funktsionaalsed asukohad** ja ktöökäskude puhul väljades **Kõik töökäsud** või **Aktiivsed töökäsud**.
 

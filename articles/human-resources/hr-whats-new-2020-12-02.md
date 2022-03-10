@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b7d9ecea08f5095e7fa8501d690bbabbd54e6501
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
-ms.translationtype: HT
+ms.openlocfilehash: 6e02586ad3e6b4428f2ba826851db6ebc3172bdf1760b483032f5159e7864a81
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5802235"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6782655"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-december-2-2020"></a>Mis on Dynamics 365 Human Resourcesis uut või mida on muudetud (2. detsember 2020)
 
@@ -30,7 +29,7 @@ Selles teemas kirjeldatakse Dynamics 365 Human Resourcesi uusi, muutunud või pe
 
 Meie värskendamisprotsessi ja graafiku kohta lisateabe saamiseks vt teemat [Värskendamisprotsess](hr-admin-setup-update-process.md).
 
-Lisateavet uute funktsioonide ja nende eeldatava üldise kättesaadavuse kuupäevade kohta leiate teemast [Dynamics 365 Human Resourcesi 2020. aasta 2. väljalaskevoo ülevaade](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/).
+Lisateavet uute funktsioonide ja nende eeldatava üldise kättesaadavuse kuupäevade kohta leiate teemast [Dynamics 365 Human Resourcesi 2020. aasta 2. väljalaskevoo ülevaade](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/).
 
 ## <a name="in-this-release"></a>Selles väljalaskes
 
@@ -42,10 +41,10 @@ Selle väljalaskega tulevad üldiselt kättesaadavaks järgmised funktsioonid.
 
 | Funktsioon | Väljaandmisplaan | Dokumentatsioon |
 | --- | --- | --- |
-| Juhid saavad esitada ametikohtade värbamistaotlusi | [Juhid saavad esitada avatud ametikohtade värbamistaotluse](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/manager-submit-request-recruit-open-positions) | [Värbamistaotluse lisamine](https://docs.microsoft.com/dynamics365/human-resources/hr-personnel-recruit#add-a-recruiting-request) |
-| Täiustatud kandidaadi profiil personalihalduses | [Täiustatud kandidaadi profiil personalihalduses](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/enhanced-candidate-profile-personnel-management) | [Kandidaadi profiili lisamine või muutmine](https://docs.microsoft.com/dynamics365/human-resources/hr-personnel-recruit#add-or-edit-a-candidate-profile) |
-| Lihtsustatud integreerimise lubamine värbamispakkujatega | [Lihtsustatud integreerimise lubamine värbamispakkujatega](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/enable-simplified-integration-recruiting-providers) | [Kandidaatide värbamine](https://docs.microsoft.com/dynamics365/human-resources/hr-personnel-recruit) |
-| Kohandatud lingid juhi iseteeninduses | [Kohandatud lingid juhi iseteeninduses](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/custom-links-manager-self-service) | [Kohandatud lingid juhi iseteeninduses](https://aka.ms/MSSCustomLinks) |
+| Juhid saavad esitada ametikohtade värbamistaotlusi | [Juhid saavad esitada avatud ametikohtade värbamistaotluse](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/manager-submit-request-recruit-open-positions) | [Värbamistaotluse lisamine](./hr-personnel-recruit.md#add-a-recruiting-request) |
+| Täiustatud kandidaadi profiil personalihalduses | [Täiustatud kandidaadi profiil personalihalduses](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/enhanced-candidate-profile-personnel-management) | [Kandidaadi profiili lisamine või muutmine](./hr-personnel-recruit.md#add-or-edit-a-candidate-profile) |
+| Lihtsustatud integreerimise lubamine värbamispakkujatega | [Lihtsustatud integreerimise lubamine värbamispakkujatega](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/enable-simplified-integration-recruiting-providers) | [Kandidaatide värbamine](./hr-personnel-recruit.md) |
+| Kohandatud lingid juhi iseteeninduses | [Kohandatud lingid juhi iseteeninduses](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/custom-links-manager-self-service) | [Kohandatud lingid juhi iseteeninduses](./hr-employee-manager-self-service-custom-links.md) |
 
 
 ### <a name="bug-fixes"></a>Veaparandused
@@ -72,23 +71,23 @@ Järgmised uued funktsioonid on eelversioonis. Lisateavet funktsioonide sisse- v
 
 | Funktsioon | Väljaandmisplaan | Dokumentatsioon |
 | --- | --- | --- |
-| Rakendus Human Resources Microsoft Teamsis | [Töövõtja puhkuste ja puudumiste kogemus Microsoft Teamsis](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) | [Rakendus Human Resources Teamsis](https://go.microsoft.com/fwlink/?linkid=2127841)<br>[Puhkusetaotluste haldamine Teamsis](hr-teams-leave-app.md) |
-| Täiustatud töövoo taotlused ja kinnitused | [Organisatsiooni ja personalihalduse töövoo kasutuskogemuse täiustused](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements) | [Konfiguratsiooni suvand loendi „Mulle määratud tööüksused” paigutamiseks](https://docs.microsoft.com/dynamics365/human-resources/hr-whats-new-2020-09-03#configuration-option-to-position-work-items-assigned-to-me-list-477004) |
-| LinkedIn talent Hubiga integreerimine | [LinkedIn talent Hubiga integreerimine](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/integration-linkedin-talent-hub) | [LinkedIn talent Hubiga integreerimine](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-linkedin) |
-|Kogu ettevõtte puhkusete vaade juhtidele | [Kogu ettevõtte töövõtjate puhkuste vaade juhtidele](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/cross-company-view-employee-leave-managers) | [Puhkuste ja puudumiste parameetrite konfigureerimine](https://docs.microsoft.com/dynamics365/human-resources/hr-leave-and-absence-parameters) |
-|Täiendava ülevaate andmine puhkusesaldodest| [Täiendava ülevaate andmine puhkusesaldodest](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/provide-additional-insight-into-leave-balances) | [Töötaja puhkuse haldamine](https://docs.microsoft.com/dynamics365/human-resources/hr-leave-and-absence-manage-employee-leave) |
-| Juhid saavad esitada ametikohtade värbamistaotlusi | [Juhid saavad esitada avatud ametikohtade värbamistaotluse](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/manager-submit-request-recruit-open-positions) | [Värbamistaotluse lisamine](https://docs.microsoft.com/dynamics365/human-resources/hr-personnel-recruit#add-a-recruiting-request) |
-| Täiustatud kandidaadi profiil personalihalduses | [Täiustatud kandidaadi profiil personalihalduses](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/enhanced-candidate-profile-personnel-management) | [Kandidaadi profiili lisamine või muutmine](https://docs.microsoft.com/dynamics365/human-resources/hr-personnel-recruit#add-or-edit-a-candidate-profile) |
-| Lihtsustatud integreerimise lubamine värbamispakkujatega | [Lihtsustatud integreerimise lubamine värbamispakkujatega](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/enable-simplified-integration-recruiting-providers) | [Kandidaatide värbamine](https://docs.microsoft.com/dynamics365/human-resources/hr-personnel-recruit) |
+| Rakendus Human Resources Microsoft Teamsis | [Töövõtja puhkuste ja puudumiste kogemus Microsoft Teamsis](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) | [Rakendus Human Resources Teamsis](./hr-admin-teams-leave-app.md)<br>[Puhkusetaotluste haldamine Teamsis](hr-teams-leave-app.md) |
+| Täiustatud töövoo taotlused ja kinnitused | [Organisatsiooni ja personalihalduse töövoo kasutuskogemuse täiustused](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements) | [Konfiguratsiooni suvand loendi „Mulle määratud tööüksused” paigutamiseks](./hr-whats-new-2020-09-03.md#configuration-option-to-position-work-items-assigned-to-me-list-477004) |
+| LinkedIn talent Hubiga integreerimine | [LinkedIn talent Hubiga integreerimine](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/integration-linkedin-talent-hub) | [LinkedIn talent Hubiga integreerimine](./hr-admin-integration-linkedin.md) |
+|Kogu ettevõtte puhkusete vaade juhtidele | [Kogu ettevõtte töövõtjate puhkuste vaade juhtidele](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/cross-company-view-employee-leave-managers) | [Puhkuste ja puudumiste parameetrite konfigureerimine](./hr-leave-and-absence-parameters.md) |
+|Täiendava ülevaate andmine puhkusesaldodest| [Täiendava ülevaate andmine puhkusesaldodest](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/provide-additional-insight-into-leave-balances) | [Töötaja puhkuse haldamine](./hr-leave-and-absence-manage-employee-leave.md) |
+| Juhid saavad esitada ametikohtade värbamistaotlusi | [Juhid saavad esitada avatud ametikohtade värbamistaotluse](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/manager-submit-request-recruit-open-positions) | [Värbamistaotluse lisamine](./hr-personnel-recruit.md#add-a-recruiting-request) |
+| Täiustatud kandidaadi profiil personalihalduses | [Täiustatud kandidaadi profiil personalihalduses](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/enhanced-candidate-profile-personnel-management) | [Kandidaadi profiili lisamine või muutmine](./hr-personnel-recruit.md#add-or-edit-a-candidate-profile) |
+| Lihtsustatud integreerimise lubamine värbamispakkujatega | [Lihtsustatud integreerimise lubamine värbamispakkujatega](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/enable-simplified-integration-recruiting-providers) | [Kandidaatide värbamine](./hr-personnel-recruit.md) |
 
 ## <a name="coming-soon"></a>Peagi tulekul
 
-Plaanitud funktsioonide täieliku loendi ja nende kavandatud väljaannete kohta leiate teavet teemast [Dynamics 365 Human Resourcesi 2020. aasta 2. väljalaskevoo ülevaade](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/).
+Plaanitud funktsioonide täieliku loendi ja nende kavandatud väljaannete kohta leiate teavet teemast [Dynamics 365 Human Resourcesi 2020. aasta 2. väljalaskevoo ülevaade](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/).
 
 ## <a name="see-also"></a>Vt ka
 
 [Mis on uut või mida on muudetud rakenduses Human Resources?](hr-admin-whats-new.md)</br>
-[Dynamics 365 Human Resourcesi 2020. aasta väljalaskevoo 2 ülevaade](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)</br>
+[Dynamics 365 Human Resourcesi 2020. aasta väljalaskevoo 2 ülevaade](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)</br>
 [Värskendamisprotsess](hr-admin-setup-update-process.md)</br>
 [Funktsioonide haldamine](hr-admin-manage-features.md)
 

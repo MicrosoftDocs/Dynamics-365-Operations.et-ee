@@ -1,50 +1,50 @@
 ---
 title: Ühtne tootekogemus
-description: Siin peatükis kirjeldatakse toote andmete integratsiooni Finance and Operationsi rakenduste ja teenuse Dataverse vahel.
+description: Selles teemas kirjeldatakse tooteandmete integreerimist Finance and Operationsi ja teenuse Dataverse vahel.
 author: t-benebo
 ms.date: 12/12/2019
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: a2f4aeefe5fe7698d9dfaf80619102f2b753e52b
-ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
-ms.translationtype: HT
+ms.openlocfilehash: 1b3dc1d16fc34992df0c9478b8b4d163c310b67b
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "7423443"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062594"
 ---
-# <a name="unified-product-experience"></a>Ühendatud toote kasutusfunktsionaalsus
+# <a name="unified-product-experience"></a>Ühtne tootekogemus
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Kui ettevõtte ökosüsteem koosneb Dynamics 365 rakendustest (nt Finance, Supply Chain Management ja Sales), kasutavad ettevõtted sageli neid rakendusi tooteandmete hankimiseks. Selle põhjuseks on asjaolu, et need rakendused pakuvad vastupidavat tooteinfrastruktuuri, mida täiendavad keerukad hinnakujunduskontseptsioonid ja täpsed vaba kaubavaru andmed. Ettevõtted, mis kasutavad tooteandmete hankimiseks välist toote elutsükli halduse (PLM) süsteemi, saavad suunata tooteid Finance and Operationsi rakendustest teistele Dynamics 365 rakendustele. Ühtne tootekogemus viib integreeritud tooteandmete mudeli ühisesse andmeteenusesse Dataverse, nii et kõik rakenduste kasutajad, sealhulgas Power Platformi kasutajad, saavad kasutada rikkalikke tooteandmeid, mis pärinevad Finance and Operationsi rakendustest.
+
+Kui ettevõtte ökosüsteem koosneb Dynamics 365 rakendustest (nt Finance, Supply Chain Management ja Sales), kasutavad ettevõtted sageli neid rakendusi tooteandmete hankimiseks. Selle põhjuseks on asjaolu, et need rakendused pakuvad vastupidavat tooteinfrastruktuuri, mida täiendavad keerukad hinnakujunduskontseptsioonid ja täpsed vaba kaubavaru andmed. Ettevõtted, mis kasutavad tooteandmete hankimiseks välist toote elutsükli halduse (PLM) süsteemi, saavad tooteid kanalitest Finance and Operations edastada teistele Dynamics 365 rakendustele. Ühtne tootekogemus viib integreeritud tooteandmete mudeli ühisesse andmeteenusesse Dataverse, nii et kõik rakenduste kasutajad, sealhulgas teenuse Power Platform kasutajad, saavad kasutada rikkalikke tooteandmeid, mis pärinevad rakendustest Finance and Operations.
 
 Siin on toote andmemudel müügist.
 
 ![Toodete andmemudel CE-s.](media/dual-write-product-4.jpg)
 
-Siin on toote andmemudel Finance and Operationsi rakendustest.
+Siin on rakenduse Finance and Operations tooteandmete mudel
 
-![Toodete andmemudel Finance and Operations`is.](media/dual-write-products-5.jpg)
+![Finance and Operationsi toodete andmemudel.](media/dual-write-products-5.jpg)
 
 Need kaks tooteandmemudelit on integreeritud ühisesse andmeteenusesse Dataverse, nagu allpool näidatud.
 
 ![Dynamics 365 rakenduste toodete andmemudel.](media/dual-write-products-6.jpg)
 
-Toodete topeltkirjutamise tabeli kaardid on loodud andmete voogesitamiseks ainult ühesuunaliselt, reaalajas Finance and Operationsi rakendustest teenusesse Dataverse. Kuid toote infrastruktuur on tehtud avatuks, et muuta see vajadusel kahesuunaliseks. Kuid võite seda oma vastutusel kohandada, kuna Microsoft ei soovita seda lähenemist.
+Toodete topeltkirjutatavad tabelikaardid on loodud andmete edastamiseks ainult ühesuunaliselt, peaaegu reaalajas Finance and Operationsi rakendustest kuni Dataverse. Kuid toote infrastruktuur on tehtud avatuks, et muuta see vajadusel kahesuunaliseks. Kuid võite seda oma vastutusel kohandada, kuna Microsoft ei soovita seda lähenemist.
 
 ## <a name="templates"></a>Mallid
 
 Toote teave sisaldab kogu teavet, mis on seotud tootega ja selle määratlusega, nagu tootedimensioonid või jälgimis- ja laoala dimensioonid. Nagu järgmine tabel näitab, luuakse tabeli kaartide kogum, et sünkroonida tooteid ja seotud teavet.
 
-Finance and Operations rakendused | Muud Dynamics 365 rakendused | Kirjeldus
+Finance and Operationsi rakendused | Muud Dynamics 365 rakendused | Kirjeldus
 -----------------------|--------------------------------|---
-[Kõik tooted](mapping-reference.md#138) | msdyn_globalproducts | Kõikide toodete tabel sisaldab kõiki Finance and Operationsi rakendustes saadaolevaid tooteid, nii väljastatud kui ka väljastamata tooteid.
+[Kõik tooted](mapping-reference.md#138) | msdyn_globalproducts | Kõikide toodete tabel sisaldab kõiki Finance and Operationsi rakendustes saadaolevaid tooteid, nii välja antud kui ka väljastamata tooteid.
 [CDS väljastatud eristatavad tooted](mapping-reference.md#213) | Toode | Tabel **Toode** sisaldab veerge, mis määratlevad toote. See hõlmab üksikuid tooteid (alamtüübiga tooted) ja tootevariante. Järgmises tabelis on vastendused.
 [Värvid](mapping-reference.md#170) | msdyn\_productcolors
 [Konfiguratsioonid](mapping-reference.md#171) | msdyn\_productconfigurations
@@ -61,7 +61,7 @@ Finance and Operations rakendused | Muud Dynamics 365 rakendused | Kirjeldus
 [Tooteetaloni laadid](mapping-reference.md#191) | msdyn_sharedproductstyles | Tabel **Ühiskasutatava toote stiil** näitab stiili, mida konkreetne tooteetalon võib sisaldada. Andmete järjepidevuse tagamiseks on see kontseptsioon üle viidud ühisesse andmeteenusesse Dataverse.
 [Tootenumbriga tuvastatud vöötkood](mapping-reference.md#164) | msdyn\_productbarcodes | Toote vöötkoode kasutatakse toodete unikaalseks identifitseerimiseks.
 [Tootepõhised ühikute teisendused](mapping-reference.md#176) | msdyn_productspecificunitofmeasureconversions |
-[Väljastatud tooted V2](mapping-reference.md#189) | msdyn\_sharedproductdetails | Tabel **msdyn\_sharedproductdetails** sisaldab veerge Finance and Operationsi rakendustest, mis määratlevad toote ja mis sisaldavad toote finants- ja haldusteavet.
+[Väljastatud tooted V2](mapping-reference.md#189) | msdyn\_sharedproductdetails | The **msdyn\_ jagatud toote üksikasjad** tabel sisaldab Finance and Operationsi rakenduste veerge, mis määratlevad toote ning sisaldavad toote finants- ja haldusteavet.
 [Suurused](mapping-reference.md#174) | msdyn\_productsizes
 [Laoala dimensioonigrupid](mapping-reference.md#177) | msdyn_productstoragedimensiongroups | Toote laoala dimensiooni grupp tähistab meetodit, mida kasutatakse toote paigutuse määratlemiseks laos.
 [Laadid](mapping-reference.md#178) | msdyn\_productsytles
@@ -81,17 +81,17 @@ Kuna toode on esindatud SKUna, saab eristatavate toodete, tooteetalonide ja toot
 
 ![Toodete andmemudel.](media/dual-write-product.png)
 
-Kui topeltkirjutamise funktsioon on lubatud, sünkroonitakse rakenduse Finance and Operations tooted muudes Dynamics 365 toodetes olekus **Mustand**. Need lisatakse esimesele hinnakirjale, millel on sama valuuta, mida kasutatakse kliendikogemuse rakenduses ja hinnakirja nimes kasutatakse tähestikulist sortimist. Teisisõnu lisatakse need esimesele hinnakirjale Dynamics 365 rakenduses, mis vastab teie juriidilise tabeli valuutale, kus toode on välja antud rakenduses Finance and Operations. Kui antud valuuta puhul hinnakirja pole, luuakse hinnakiri automaatselt ja toode määratakse sellele.
+Kui kahekordse kirjutamise funktsioon on lubatud, sünkroonitakse Finance and Operationsi tooted teistes Dynamics 365 toodetes **Mustand** olek. Need lisatakse esimesele hinnakirjale, millel on sama valuuta, mida kasutatakse kliendikogemuse rakenduses ja hinnakirja nimes kasutatakse tähestikulist sortimist. Teisisõnu lisatakse need Dynamics 365 rakenduse esimesse hinnakirja, mis ühtib teie juriidilise tabeli valuutaga, kus toode rakenduses Finance and Operations välja antakse. Kui antud valuuta puhul hinnakirja pole, luuakse hinnakiri automaatselt ja toode määratakse sellele.
 
-Topeltkirjutuse programmi praegune rakendus, mis seostab vaikehinnaloendi üksusega rakendusega seostatud valuutat ja leiab hinnakirja nimest tähestikulises järjekorras esimese hinnakirja kliendikogemuse Finance and Operations rakendusest. Kui teil on selle valuuta jaoks mitu hinnakirja, tuleb hinnakirja nime muuta varasemaks tähestikulises järjestuses varasemaks nimeks, kui selle valuuta jaoks on mitu hinnakirja. Kui antud valuuta jaoks hinnakiri puudub, luuakse uus hinnakiri.
+Kahekirjutamise pistikprogrammide praegune rakendus, mis seovad üksusega vaikehinnakirja, otsib rakendusega Finance and Operations seotud valuutat ja leiab kliendi kaasamise rakenduses esimese hinnakirja, kasutades hinnakirja nimes tähestikulist sortimist. Kui teil on selle valuuta jaoks mitu hinnakirja, tuleb hinnakirja nime muuta varasemaks tähestikulises järjestuses varasemaks nimeks, kui selle valuuta jaoks on mitu hinnakirja. Kui antud valuuta jaoks hinnakiri puudub, luuakse uus hinnakiri.
 
 Vaikimisi sünkroonitakse Finance and Operationsi rakenduste tooteid teiste Dynamics 365 rakendustega olekus **Mustand**. Toote sünkroonimiseks olekuga **Aktiivne**, et saaksite seda kasutada näiteks otse müügitellimuse pakkumistes, tuleb valida järgmine säte: **Süsteem > Haldus > Süsteemihaldus > Süsteemi sätted > Müük** ja seejärel suvand **Loo tooteid aktiivses olekus = jah**.
 
-Kui tooted on sünkroonitud, peate rakenduses sisestama väärtuse välja **Müügiüksus** jaoks, sest see on Finance and Operationsi rakenduses Sales kohustuslik väli.
+Kui tooted on sünkroonitud, peate sisestama väärtuse **Müügiüksus** väli rakenduses Finance and Operations, sest see on müügis kohustuslik väli.
 
 Dynamics 365 Sales loodud tooteperesid ei toetata toodete topeltkirjutusega sünkroonimist.
 
-Toodete sünkroonimine toimub Finance and Operationsi rakendusest teenusesse Dataverse. See tähendab, et toote tabeli veergude väärtusi saab muuta Dataverse’is, aga kui käivitatakse sünkroonimine (kui tooteveergu muudetakse Finance and Operationsi rakenduses), alistab see väärtused Dataverse’is.
+Toodete sünkroonimine toimub rakendusest Finance and Operations kuni Dataverse. See tähendab, et tootetabeli veergude väärtusi saab muuta Dataverse, kuid kui sünkroonimine käivitatakse (kui tooteveergu muudetakse rakenduses Finance and Operations), kirjutab see väärtused üle Dataverse.
 
 Finance and Operations rakendused | Klientide kaasamise rakendused |
 ---|---
@@ -139,7 +139,7 @@ Mõõtühikud ja selle vastav teisendus on saadaval Dataverse’is, mis järgiva
 
 ![Mõõtühiku andmemudel.](media/dual-write-product-three.png)
 
-Mõõtühiku kontseptsioon on integreeritud Finance and Operationsi rakenduste ja muude Dynamics 365 rakenduste vahel. Iga ühiku klassi kohta Finance and Operationsi rakenduses luuakse ühiku grupp Dynamics 365 rakenduses, mis sisaldab ühiku klassi kuuluvaid ühikuid. Iga ühikurühma jaoks luuakse ka vaikimisi baasühik.
+Mõõtühiku kontseptsioon on integreeritud Finance and Operations rakenduste ja muude Dynamics 365 rakenduste vahel. Iga ühiku klassi kohta Finance and Operationsi rakenduses luuakse ühiku grupp Dynamics 365 rakenduses, mis sisaldab ühiku klassi kuuluvaid ühikuid. Iga ühikurühma jaoks luuakse ka vaikimisi baasühik.
 
 Finance and Operations rakendused | Klientide kaasamise rakendused |
 ---|---
@@ -151,24 +151,24 @@ Finance and Operations rakendused | Klientide kaasamise rakendused |
 
 ### <a name="initial-synchronization-of-units"></a>Ühikute esialgne sünkroonimine
 
-Kui topeltkirjutamine on lubatud, sünkroonitakse Finance and Operationsi rakenduste ühikud teiste Dynamics 365 rakendustega. Finance and Operationsi rakendustest Dataverse’is sünkroonitud ühikute gruppidel on lippude komplekt, mis tähistab, et need on väliselt hallatavad.
+Kui topeltkirjutamine on lubatud, sünkroonitakse Finance and Operationsi rakenduste tooteid teiste Dynamics 365 rakendustega. Finance and Operationsi rakendustest sünkroonitud üksuserühmad Dataverse neil on lipp, mis näitab, et need on "Väliselt hooldatud".
 
-### <a name="matching-units-and-unit-classesgroups-data-from-finance-and-operations-and-other-dynamics-365-apps"></a>Ühikute ja ühiku klasside/gruppide andmete vastavusse viimine Finance and Operationsist ja muudest Dynamics 365 rakendustest
+### <a name="matching-units-and-unit-classesgroups-data-from-finance-and-operations-and-other-dynamics-365-apps"></a>Ühikute ja ühiku klasside/gruppide andmete vastavusse viimine Finance and Operationsist ja muudest Dynamics 365 rakendusest
 
-Kõigepealt on oluline tähele panna, et ühiku integreerimisvõti on msdyn_symbol. Seetõttu peab see väärtus olema kordumatu Dataverse’is või muudes Dynamics 365 rakendustes. Kuna teistes Dynamics 365 rakendustes määrab ühiku kordumatuse paar „Ühiku grupi ID” ja „Nimi”, peate kaaluma erinevaid stsenaariume ühiku andmete vastavusse viimiseks Finance and Operationsi rakenduste ja Dataverse’i vahel.
+Kõigepealt on oluline tähele panna, et ühiku integreerimisvõti on msdyn_symbol. Seetõttu peab see väärtus olema kordumatu Dataverse’is või muudes Dynamics 365 rakendustes. Kuna teistes Dynamics 365 rakendustes määrab üksuse unikaalsuse paar "Ühikurühma ID" ja "Nimi", peate arvestama erinevate stsenaariumidega üksuse andmete sobitamiseks rakenduste Finance and Operations ja vahel.Dataverse.
 
 Ühikute vastavusse viimiseks / katmiseks Finance and Operationsi rakendustes ja teistes Dynamics 365 rakendustes tehke järgmist.
 
-+ **Ühik kuulub ühikute gruppi teistes Dynamics 365 rakendustes, mis vastavad seotud ühiku klassile Finance and Operationsi rakendustes**. Sellisel juhul tuleb veerg msdyn_symbol teistes Dynamics 365 rakendustes täita ühiku sümboliga Finance and Operationsi rakendustest. Seega kui andmed viiakse vastavusse, siis seatakse ühikute grupp teistes Dynamics 365 rakendustes väliselt hallatavaks.
++ **Ühik kuulub ühikute gruppi teistes Dynamics 365 rakendustes, mis vastavad seotud ühiku klassile Finance and Operationsi rakendustes**. Sel juhul tuleb teiste Dynamics 365 rakenduste veerg msdyn_symbol täita Finance and Operationsi rakenduste üksuse sümboliga. Seega kui andmed viiakse vastavusse, siis seatakse ühikute grupp teistes Dynamics 365 rakendustes väliselt hallatavaks.
 + **Ühiku kuulub ühikute gruppi teistes Dynamics 365 rakendustes, mis ei vasta seotud ühiku klassile Finance and Operationsi rakendustes (puudub ühiku klass Finance and Operationsi rakendustes ühiku klassile teistes Dynamics 365 rakendustes).** Sellisel juhul tuleb väli msdyn_symbol täita suvalise stringiga. Pange tähele, et see väärtus peab olema kordumatu teistes Dynamics 365 rakendustes.
 
-Finance and Operationsi ühikute ja ühiku klasside jaoks, mida teistes Dynamics 365 rakendustes ei ole, tehke järgmist.
+Ühikute ja ühiku klasside jaoks, mida teistes Dynamics 365 rakendustes ei ole, tehke järgmist.
 
-Osana topeltkirjutamisest luuakse ja sünkroonitakse ühikute grupid Finance and Operationsi rakendustest ning neile vastavad ühikud teistes Dynamics 365 rakendustes ja Dataverse’is ning ühikute grupp määratakse väliselt hallatavaks. Täiendavat alglaadimist pole vaja.
+Topeltkirjutamise osana luuakse ja sünkroonitakse rakenduste Finance and Operations üksuste rühmad ja sellele vastavad üksused ning sünkroonitakse neid teistes Dynamics 365 rakendustes ja Dataverse ja üksuserühmaks määratakse "Väliselt hooldatud". Täiendavat alglaadimist pole vaja.
 
 Ühikute jaoks teistes Dynamics 365 rakendustes, mida pole Finance and Operationsi rakendustes, tehke järgmist.
 
-Veerg msdyn_symbol tuleb täita kõikide ühikute kohta. Ühikuid saab alati luua Finance and Operationsi rakendustes vastavas ühiku klassis (kui see on olemas). Kui ühiku klassi pole olemas, tuleb kõigepealt luua ühiku klass (pange tähele, et ühiku klassi ei saa luua Finance and Operationsi rakendustes muud moodi kui läbi laienduse, kui laiendate loetelu), mis vastab teiste Dynamics 365 rakenduste ühiku grupile. Seejärel saate luua ühiku. Pange tähele, et ühiku sümbol Finance and Operationsi rakendustes peab olema varem teistes Dynamics 365 rakendustes ühikuks määratud msdyn_symbol.
+Veerg msdyn_symbol tuleb täita kõikide ühikute kohta. Ühikuid saab alati luua Finance and Operationsi rakendustes vastavas ühiku klassis (kui see on olemas). Kui ühikuklassi pole olemas, tuleb esmalt luua ühikuklass (pidage meeles, et te ei saa Finance and Operationsi rakendustes üksuseklassi luua, välja arvatud laienduse kaudu, kui laiendate loendit), mis sobib teise Dynamics 365 rakenduste üksuserühmaga. Seejärel saate luua ühiku. Pange tähele, et ühiku sümbol Finance and Operationsi rakendustes peab olema varem teistes Dynamics 365 rakendustes ühikuks määratud msdyn_symbol.
 
 ## <a name="product-policies-dimension-tracking-and-storage-groups"></a>Tootepoliitika: dimensioon, jälgimise ja laoala grupid
 
@@ -191,27 +191,27 @@ Finance and Operations rakendused | Klientide kaasamise rakendused |
 ## <a name="integration-key-for-products"></a>Toodete integreerimisvõti
 
 Toodete kordumatuks tuvastamiseks Dynamics 365 for Finance and Operationsi ja Dataverse’i toodete vahel kasutatakse integreerimisvõtmeid.
-Toodete integreerimisvõti on **(productnumber)**, millega tuvastatakse toode Dataverse’is. Selles on liidetud järgmised üksused: **(ettevõte, msdyn_productnumber)**. Üksus **ettevõte** tähistab juriidilist isikut rakenduses Finance and Operations ja **msdyn_productnumber** tähistab määratud toote tootenumbrit rakenduses Finance and Operations.
+Toodete integreerimisvõti on **(productnumber)**, millega tuvastatakse toode Dataverse’is. Selles on liidetud järgmised üksused: **(ettevõte, msdyn_productnumber)**. Üksus **ettevõte** tähistab juriidilist isikut Finance and Operationsis ja **msdyn_productnumber** tähistab määratud toote tootenumbrit Finance and Operationsis.
 
 Teiste Dynamics 365 rakenduste kasutajate jaoks tuvastatakse toode kasutajaliideses veeruga **msdyn_productnumber** (pange tähele, et välja silt on **Tootenumber**). Toote vormil kuvatakse nii ettevõte kui ka msydn_productnumber. Kuid veergu (productnumber), toote kordumatut võtit, ei kuvata.
 
 Kui koostate rakendusi teenuses Dataverse, peaksite olema tähelepanelik, et kasutaksite integratsiooni võtmena suvandit **productnumber** (kordumatu toote ID). Ärge kasutage varianti **msdyn_productnumber**, kuna see pole kordumatu.
 
-## <a name="initial-synchronization-of-products-and-migration-of-data-from-dataverse-to-finance-and-operations"></a>Toodete esialgne sünkroonimine ja andmete migreerimine Dataverse’ist rakendusse Finance and Operations
+## <a name="initial-synchronization-of-products-and-migration-of-data-from-dataverse-to-finance-and-operations"></a>Toodete esialgne sünkroonimine ja andmete migreerimine Dataverse’ist Finance and Operationsisse
 
 ### <a name="initial-synchronization-of-products"></a>Toodete esialgne sünkroonimine
 
-Kui topeltkirjutamine on lubatud, sünkroonitakse Finance and Operationsi rakenduste tooted Dataverse’i ja teiste klientide kaasamise rakendustega. Dataverse’is ja teistes Dynamics 365 rakendustes enne topeltkirjutamise väljaandmist loodud tooteid ei värskendata ega viida vastavusse toote andmetega Finance and Operationsi rakendustest.
+Kui kahekordne kirjutamine on lubatud, sünkroonitakse Finance and Operationsi rakenduste tooted Dataverse ja klientide kaasamise rakendused. Aastal loodud tooted Dataverse ja teisi Dynamics 365 rakendusi enne kahekordse kirjutamise väljaandmist ei värskendata ega sobitata Finance and Operationsi rakenduste tooteandmetega.
 
 ### <a name="matching-product-data-from-finance-and-operations-and-other-dynamics-365-apps"></a>Toote andmete vastavusse viimine Finance and Operationsi ja teiste Dynamics 365 rakendustega
 
-Kui samu tooteid säilitatakse (kattuvad/ühtivad) Finance and Operationsis ja Dataverse’is ning teistes Dynamics 365 rakendustes, toimub Finance and Operationsi toodete sünkroonimise topeltkirjutamise lubamine ja duplikaatread kuvatakse Dataverse’is sama toote kohta.
-Kui teistes Dynamics 365 rakendustes on tooteid, mis kattuvad / on vastavuse Finance and Operationsi toodetega, peab topeltkirjutamise lubanud administraator eelmise olukorra vältimiseks alglaadima veerud **Ettevõte** (nt USMF) ja **msdyn_productnumber** (nt 1234:Black:S), enne kui toimub toodete sünkroonimine. Teisisõnu tuleb kaks veergu Dataverse’i tootes täita vastava ettevõttega Finance and Operationsis, millega toode peab ühtima, ja selle tootenumbriga.
+Kui samu tooteid hoitakse (kattuvad/sobivad) Finance and Operationsis ja in Dataverse ja teiste Dynamics 365 rakenduste puhul, kui kahekordse kirjutamise lubamine toimub, sünkroonitakse Finance and Operationsi tooted ja kuvatakse topeltread.Dataverse sama toote jaoks.
+Eelneva olukorra vältimiseks, kui teistel Dynamics 365 rakendustel on tooteid, mis kattuvad/vastavad programmiga Finance and Operations, peab kahekordset kirjutamist lubav administraator veerud alglaadima.**Ettevõte** (näide: "USMF") ja **msdyn_tootenumber** (näide: "1234:Black:S") enne toodete sünkroonimist. Teisisõnu, need kaks veergu tootes Dataverse tuleb Finance and Operationsis täita vastava ettevõttega, kellele toode tuleb sobitada ja selle tootenumbriga.
 
 Kui seejärel sünkroonimine lubatakse ja see toimub, sünkroonitakse tooteid Finance and Operationsist vastavusse viidud toodetega Dataverse’is ja teistes Dynamics 365 rakendustes. See kehtib nii eristatavate toodete kui ka tootevariantide kohta.
 
-### <a name="migration-of-product-data-from-other-dynamics-365-apps-to-finance-and-operations"></a>Toote andmete migreerimine teistest Dynamics 365 rakendustest rakendusse Finance and Operations
+### <a name="migration-of-product-data-from-other-dynamics-365-apps-to-finance-and-operations"></a>Toote andmete migreerimine teistest Dynamics 365 rakendustest Finance and Operationsisse
 
-Kui teistes Dynamics 365 rakendustes on tooteid, mida ei esine rakenduses Finance and Operations, võib administraator kõigepealt kasutada üksust **EcoResReleasedProductCreationV2Entity** nende toodete importimiseks Finance and Operationsis. Järgmiseks tuleb viia vastavusse toote andmed Finance and Operationsist ja teistest Dynamics 365 rakendustest, nagu on kirjeldatud üleval.
+Kui teistel Dynamics 365 rakendustel on tooteid, mida Finance and Operationsis pole, saab administraator esmalt kasutada **EcoResReleasedProductCreationV2Entity** nende toodete importimiseks jaotises Finance and Operations. Järgmiseks tuleb viia vastavusse toote andmed Finance and Operationsist ja teistest Dynamics 365 rakendustest, nagu on kirjeldatud üleval.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

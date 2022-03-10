@@ -1,35 +1,31 @@
 ---
 title: Tehingumeilide kohandamine tarneviisi alusel
-description: Selles teemas kirjeldatakse, kuidas seadistada kohandatud meilimalle kindlate teatisetüüpide ja tarneviiside jaoks Microsoft Dynamics 365 Commerce'is.
+description: Selles teemas kirjeldatakse, kuidas seadistada kohandatud meilimalle kindlate teatisetüüpide ja tarneviiside jaoks rakenduses Microsoft Dynamics 365 Commerce.
 author: stuharg
-manager: annbe
 ms.date: 11/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Commerce, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: faf5fba70bf9297727464e6046806696ab725001
-ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
-ms.translationtype: HT
+ms.openlocfilehash: d15e7c5c7050ad373cb45da72de59416e85a5f2034f7a11b007d497b2e2b98bd
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4594957"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6749903"
 ---
 # <a name="customize-transactional-emails-by-mode-of-delivery"></a>Tehingumeilide kohandamine tarneviisi alusel
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
-Selles teemas kirjeldatakse, kuidas seadistada kohandatud meilimalle kindlate teatisetüüpide ja tarneviiside jaoks Microsoft Dynamics 365 Commerce'is.
+Selles teemas kirjeldatakse, kuidas seadistada kohandatud meilimalle kindlate teatisetüüpide ja tarneviiside jaoks rakenduses Microsoft Dynamics 365 Commerce.
 
 Tehingumeile saab nüüd kohandada teatisetüübi (nt **Tellimus on loodud**, **Tellimus on pakitud** või **Tellimus on arveldatud**) ja tarneviisi (nt üleöö, kauplusest kättesaamine või tänaval kättesaamine) kombinatsiooni jaoks. Kohandatud tehingumeilid võimaldavad jaemüüjatel täita klientide tellimusi viisil, mis sobib tellimuse tarneviisiga. Näiteks sündmust „Tellimus on pakitud“ saab kohandada nii, et see annab juhiseid tänaval kättesaamise kohta sellistele klientidele, kes valisid tänaval kättesaamise. Teise võimalusena võib see anda kättetoimetaja ja tarnimise teavet klientidele, kes otsustavad oma tellimuse tarnida.
 
@@ -73,3 +69,6 @@ Meilimallide konfigureerimiseks kindlate tarneviiside jaoks Commerce'i peakontor
 [Kõnekeskuse tellimuste loomine](tasks/create-call-center-orders.md)
 
 [Kassas tarneviisi muutmine](pos-change-delivery-mode.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

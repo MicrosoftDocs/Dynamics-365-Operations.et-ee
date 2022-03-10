@@ -2,11 +2,9 @@
 title: Osalise makse tasumine enne allahindluse kuupäeva ja lõplik makse pärast allahindluse kuupäeva
 description: Selles artiklis läbitakse stsenaarium, kus tehakse mitu osalist makset, mõned skontoperioodil ja teised väljaspool skontoperioodi.
 author: abruer
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5a30bd1c032d27405c17388465eb813d6c87c270
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: 693339929bbdbc960afc2a5e63b3a3864bfd3ca19cd2dbc992de776836b17e50
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4971974"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6737133"
 ---
 # <a name="settle-partial-payment-before-discount-date-and-final-payment-after-discount-date"></a>Osalise makse tasumine enne allahindluse kuupäeva ja lõplik makse pärast allahindluse kuupäeva
 
@@ -48,7 +46,7 @@ Fabrikam ostab kaubad hankijalt 3057. Fabrikam saab 1 protsenti skontot, kui arv
 
 Teave märgitud arve allahindluse kohta kuvatakse lehe **Avatud kannete tasakaalustamine** allosas.
 
-|                              |           |
+| Field                        | Väärtus     |
 |------------------------------|-----------|
 | Skonto kuupäev           | 09.07.2015 |
 | Skonto summa         | -10,00    |
@@ -73,7 +71,7 @@ April maksab ülejäänud arve 15. juulil, mis on pärast allahindluse perioodi.
 
 Teave märgitud arve allahindluse kohta kuvatakse lehe **Kannete tasakaalustamine** allosas. April näeb, et ta on juba kasutanud allahindlust summas 3.00.
 
-|                              |           |
+| Field                        | Väärtus     |
 |------------------------------|-----------|
 | Skonto kuupäev           | 09.07.2015 |
 | Skonto summa         | 0,00      |
@@ -99,10 +97,10 @@ Kui hankija laseb Aprilil võtta soodustust isegi siis, kui April tasub pärast 
 
 Teave märgitud arve allahindluse kohta kuvatakse lehe **Kannete tasakaalustamine** allosas.
 
-|                              |           |
+| Field                        | Väärtus     |
 |------------------------------|-----------|
 | Skonto kuupäev           | 09.07.2015 |
-| Skonto summa         | 7,00      |
+| Skonto summa         | 7.00      |
 | Kasuta skontot            | Alati    |
 | Võetud skonto          | –3.00     |
 | Skonto summa võtmiseks | –7.00     |
@@ -121,3 +119,6 @@ Seejärel sisestab April makse. Kui ta avab lehe **Hankija kanded**, näeb ta, e
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,29 +1,26 @@
 ---
 title: Teenindustase ja kirjeldus
 description: Selles teemas selgitatakse teenindustaset ja kirjeldust varahalduses.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/13/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetObjectServiceLevel, EntAssetWorkOrderStandardDescription, EntAssetWorkOrderServiceLevel, EntAssetServiceLevelLookup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 647358fcdd53ba95b571185ae269bc8d6b869c18
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 32e6dd6ba7291e8ea1cb78eeed2d8e2fcec0f6dd3cbd039336be0169730101ba
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4426309"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6758684"
 ---
 # <a name="service-level-and-description"></a>Teenindustase ja kirjeldus
 
@@ -48,7 +45,7 @@ Kui loote töökäsu, võite soovida määratleda selle teenindustasemeid ja lis
 8. Töökäsu lõppkellaaja seadistamiseks seadistage lisaks lõpp-päevale suvand **Määra lõppkellaaeg** olekusse **Jah**. Siis sisestage lõppkellaaeg väljale **Lõppkellaaeg**. Kui seadistasite suvandi olekusse **Ei**, kasutatakse praegust kellaaega.
 9. Valige käsk **Salvesta**.
 
-![Töökäskude teenusetaseme leht](media/19-setup-for-work-orders.png)
+![Töökäskude teenusetaseme leht.](media/19-setup-for-work-orders.png)
 
 ## <a name="create-a-description"></a>Kirjelduse loomine
 
@@ -56,3 +53,6 @@ Kui loote töökäsu, võite soovida määratleda selle teenindustasemeid ja lis
 2. Valige suvand **Uus**.
 3. Sisestage kirjeldus väljale **Kirjeldus**.
 4. Valige käsk **Salvesta**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

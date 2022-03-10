@@ -2,11 +2,9 @@
 title: Konfiguratsioonide loomine rakendusandmetega dokumentide loomiseks
 description: Selles teemas kirjeldatakse, kuidas kujundada elektroonilise aruandluse (ER) konfiguratsioone elektroonilise dokumendi loomiseks. (1. osa – konfiguratsioonide importimine).
 author: NickSelin
-manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 417c419dc6925bac337fe74a2f057395316ec75d
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
-ms.translationtype: HT
+ms.openlocfilehash: 3f335721ee97919af20e73fc9da6c9bf07dcae50aca8f8904d144d75c2f4d7b1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5092918"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6726257"
 ---
 # <a name="design-configurations-to-generate-documents-that-have-application-data"></a>Konfiguratsioonide loomine rakendusandmetega dokumentide loomiseks
 
@@ -58,3 +56,6 @@ Enne alustamist asendage DEMF-ettevõtte riigikontekst DEU (Saksamaa) kontekstig
 10. Sulgege leht.
 11. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Elektrooniline aruandlus Dokumendihalduse failide kasutamine vormingu väljundites (4. osa – vormingu käivitamine)
 description: Selles teemas kirjeldatakse, kuidas konfigureerida elektroonilise aruandluse vormingut kasutama ER-i väljundis dokumendihalduse faile. (4. osa)
 author: NickSelin
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustOpenInvoicesListPage, CustInvoiceJournal, SalesTable, ERSolutionTable
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d437b31b8a55f345ebc3567bc8c6a2c5ecfd2eec
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
-ms.translationtype: HT
+ms.openlocfilehash: 11b446d21a7ae57ffa2cccf983777beb882bf77de6b54c2d1aef810028a6d343
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5092512"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6727457"
 ---
 # <a name="er-use-document-management-files-in-format-outputs-part-4---run-format"></a>Elektrooniline aruandlus Dokumendihalduse failide kasutamine vormingu väljundites (4. osa – vormingu käivitamine)
 
@@ -69,3 +67,6 @@ See protseduur on funktsiooni kohta, mis lisati rakenduse Dynamics 365 for Opera
 11. Klõpsake nuppu OK.
     * Vaadake loodud väljundit. Pange tähele, et igale manusele on loodud üks XML-sõlm. Manuse sisu lisatakse XML-väljundile tekstivormingus MIME (base64).  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

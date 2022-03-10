@@ -1,7 +1,7 @@
 ---
 title: Väliskataloogi häälestamine e-hanke väljaregistreerimiseks
 description: Selles teemas kirjeldatakse välise kataloogi või väljaregistreeritava kataloogi kasutamist hankijalt hinnapakkumise teabe kogumiseks ja selle lisamiseks ostutaotlusele.
-author: kamaybac
+author: Henrikan
 ms.date: 11/02/2017
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 30211
 ms.assetid: 3c7e0e1c-703c-4bbf-b90c-84d29a131360
 ms.search.region: Global
-ms.author: dabourq
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9267047b4bf1ab4185efca9980e0f517f4b05096
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
-ms.translationtype: HT
+ms.openlocfilehash: 9f1065c68723baa395bc06be6313e45a44661ea3
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812516"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7566908"
 ---
 # <a name="set-up-an-external-catalog-for-punchout-e-procurement"></a>Väliskataloogi häälestamine e-hanke väljaregistreerimiseks
 
@@ -40,7 +40,7 @@ Väline kataloog peaks võimaldama suunata ostutaotlusse siseneva töötaja tood
 
 1. Hankekategooria hierarhia seadistamine. Lisateavet leiate jaotisest [Hankekategooria hierarhiate poliitikate seadistamine](tasks/set-up-policies-procurement-category-hierarchies.md).
 2. Registreerige tarnija rakenduses Supply Chain Management. Enne kui saate seadistada konfiguratsioone välisesse hankija kataloogi pääsemiseks, peate seadistama Microsoft Dynamics 365-s hankija ja hankija kontakti. Välise kataloogi hankija tuleb lisada ka valitud hankekategooriasse. Lisateavet hankijate registreerimise kohta vt teemast [Hankija koostöö kasutajate haldamine](manage-vendor-collaboration-users.md). Teavet hankijate määramise kohta hankekategooriasse leiate jaotisest [Konkreetsetele hankekategooriatele hankijate kinnitamine](tasks/approve-vendors-specific-procurement-categories.md).
-3. Veenduge, et oleks seadistatud mõõtühikud ja valuuta, mida hankija kasutab. Teavet mõõtühiku loomise kohta vaadake jaotisest [Mõõtühiku haldamine](../pim/tasks/manage-unit-measure.md).
+3. Veenduge, et oleks seadistatud mõõtühikud ja valuuta, mida hankija kasutab. Teavet mõõtühiku loomise kohta vaadake jaotisest [Mõõtühikute haldamine](../pim/tasks/manage-unit-measure.md).
 4. Konfigureerige väline hankija kataloog, kasutades oma hankija välise kataloogisaidi nõudeid. Lisateavet selle ülesande kohta vt teemast [Välise hankija kataloogi konfigureerimine](#configure-the-external-vendor-catalog).
 5. Testige hankija välise kataloogi konfiguratsioone, et kontrollida, kas sätted kehtivad ja te pääsete hankija välisesse kataloogi. Kasutage toimingut **Sätete valideerimine** määratletud taotluse seadistusteatise valideerimiseks. See sõnum peab põhjustama hankija välise kataloogisaidi avamise brauseriaknas. Valideerimise ajal ei saa sellelt hankijalt kaupu ja teenuseid tellida. Kaupade ja teenuste tellimiseks peate minema ostutaotlusest hankija kataloogi.
 6. Aktiveerige väline kataloog, kasutades nuppu **Aktiveeri kataloog** lehel **Välised kataloogid**. Väline kataloog tuleb aktiveerida, enne kui töövõtjad saavad seda kasutada. Välise kataloogi saab alati inaktiveerida.

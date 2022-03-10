@@ -2,11 +2,8 @@
 title: ER-i funktsioon SUMIFS
 description: See teema sisaldab teavet selle kohta, kuidas kasutatakse elektroonilise aruandluse (ER) funktsiooni SUMIFS.
 author: NickSelin
-manager: kfend
 ms.date: 12/04/2019
-ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -17,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d9d9ef51f3c8cb090f940670c4c3afae104268ed
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: 6d650509bc534eb3944e1d91d536060c8852bdc9d95ea27f75025e80d6c5f23c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687958"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6749772"
 ---
 # <a name="sumifs-er-function"></a>ER-i funktsioon SUMIFS
 
@@ -89,3 +86,6 @@ Lisateavet selle funktsiooni kasutamise kohta vaadake tegevuse juhisest [ER-i lo
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Andmete kogumise funktsioonid](er-functions-category-data-collection.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

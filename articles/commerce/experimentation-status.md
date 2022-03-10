@@ -2,11 +2,9 @@
 title: Eksperimendi oleku ülevaatamine
 description: Selles teemas selgitatakse, millises olekus on eksperiment oma elutsüklis rakenduses Dynamics 365 Commerce.
 author: sushma-rao
-manager: AnnBe
 ms.date: 10/21/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +15,12 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: ae459ddaf947db6c3de2602a706390edab49efa1
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.openlocfilehash: af19a1c2e6a3205cd76c9fe998d1c8268f9077661b96c43b9aa9733286bd32d9
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5250854"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6777520"
 ---
 # <a name="review-the-status-of-an-experiment"></a>Eksperimendi oleku ülevaatamine
 Eksperimendi seadistamine ja käitamine rakenduses Dynamics 365 Commerce hõlmavad palju samme. Lisateavet eksperimendi elutsükli kohta leiate teemast [Eksperimenteerimine rakenduses Dynamics 365 Commerce](experimentation-overview.md).
@@ -43,7 +41,7 @@ Sarnaselt võidakse veerus **kolmanda osapoole olek** kuvada järgmiseid väärt
 
 Allolevas diagrammis on toodud mõlemat olekute kogumid ja see, kuidas need üksteisega seotud on.
 
-[ ![Eksperimenteerimise olekud](./media/experimentation_statuses.svg) ](./media/experimentation_statuses.svg#lightbox)
+[ ![Eksperimenteerimise olekud.](./media/experimentation_statuses.svg) ](./media/experimentation_statuses.svg#lightbox)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

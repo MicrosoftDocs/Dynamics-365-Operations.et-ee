@@ -2,26 +2,23 @@
 title: Kulujuhtimise tööruumi parameetrite konfigureerimine
 description: Selle protseduuri abil saate konfigureerida kulude juhtimise tööruumi nii, et organisatsiooni erinevate tasemete haldurid saavad ülevaate oma kuluobjektidest, nt kulukeskustest ja tootegruppidest.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/27/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMCostControlWorkspaceConfigurationPerUser
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ca05f6174541a6e97ec94db209a99424a87550eb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 8ecc775019445bbe97dd5a0e9198b9c605b1c65322006d912a95a5bb1fbdf879
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442514"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6766930"
 ---
 # <a name="configure-cost-control-workspace-parameters"></a>Kulujuhtimise tööruumi parameetrite konfigureerimine
 
@@ -59,3 +56,6 @@ Selle protseduuri abil saate konfigureerida kulude juhtimise tööruumi nii, et 
 27. Sisestage või valige väärtus väljal Kuluobjekti dimensioonihierarhia sõlm.
     * Pärast kuluobjekti dimensiooni hierarhia valimist laiendage kuluelemendi dimensioon, et vaadata soovitud kuluväärtusi. Näiteks saate väärtuse kuvamiseks laiendada hierarhiat tootmise üldkuluni.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

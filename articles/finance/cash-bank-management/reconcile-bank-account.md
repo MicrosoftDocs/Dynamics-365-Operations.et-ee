@@ -2,11 +2,9 @@
 title: Pangakonto vastavusseviimine
 description: See teema kirjeldab, kuidas pangakontot vastavusse viia.
 author: panolte
-manager: AnnBe
 ms.date: 07/01/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -16,12 +14,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: da8558f42bcd9daf95cacb17cebf4d9371dd514c
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.openlocfilehash: e06a38a19a16a07d77d0c9aceaa4e3206646dd0561996681b417b785058f3938
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5262858"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6739355"
 ---
 # <a name="reconcile-a-bank-account"></a>Pangakonto vastavusseviimine
 

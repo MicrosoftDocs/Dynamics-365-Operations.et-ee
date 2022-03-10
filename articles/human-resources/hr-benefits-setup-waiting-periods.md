@@ -1,31 +1,31 @@
 ---
 title: Ooteperioodide konfigureerimine
 description: Rakenduses Microsoft Dynamics 365 Human Resources moodustavad ootepäevad vahe-eesmärgid, mida soodustuse plaanide jaoks kasutada.
-author: andreabichsel
-manager: tfehr
-ms.date: 04/06/2020
+author: twheeloc
+ms.date: 08/25/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0e08c0c02393506e1e292676c954bdf3850029f7
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
-ms.translationtype: HT
+ms.openlocfilehash: 3df65a89ca4b18de2c823ca02fd8daa3da1e9ea6
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5468295"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066871"
 ---
 # <a name="configure-waiting-periods"></a>Ooteperioodide konfigureerimine
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -41,7 +41,7 @@ Rakenduses Microsoft Dynamics 365 Human Resources moodustavad ootepäevad vahe-e
    | --- | --- |
    | **Ootekood** | Ooteaja kordumatu identifikaator. |
    | **Kirjeldus** | Ooteaja kirjeldus. |
-   | **Ootemeetod** | Valige väärtuste ripploendist sobiv ootemeetod. Valikud on neto, see kuu, see kvartal, see aasta ja see nädal. |
+   | **Ootemeetod** | Valige väärtuste ripploendist sobiv ootemeetod. Valikud on **neto**, **see kuu**, **see kvartal**, **see aasta** ja **see nädal**. |
    | **Kuud** | Sisestage oodatava kuupäeva arvutamiseks ootemeetodile lisatavate kuude arv. |
    | **Päevad** | Sisestage oodatava kuupäeva arvutamiseks ootemeetodile lisatavate päevade arv. |
    | **Ootepäev** | Valige ootamise päev, mida kasutatakse ootamise kuupäeva arvutamiseks. |

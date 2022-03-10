@@ -1,25 +1,25 @@
 ---
 title: IoT iseõppimisvõime stsenaariumi seadistamine
 description: Selles teemas selgitatakse, kuidas konfigureerida stsenaariume IoT iseõppimisvõime jaoks rakenduses Microsoft Dynamics 365 Supply Chain Management.
-author: robinarh
+author: tonyafehr
 ms.date: 08/16/2019
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.custom: ''
 ms.search.region: Global
-ms.author: rhaertle
+ms.author: tfehr
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 2927a976c38e9ed8166c62b030d665a159119ae1
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
-ms.translationtype: HT
+ms.openlocfilehash: b8e8c65cebe64f86dcf158668e8a4f5600c158a1
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826415"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7782423"
 ---
 # <a name="scenario-setup-for-iot-intelligence"></a>IoT iseõppimisvõime stsenaariumi seadistamine
 
@@ -42,7 +42,7 @@ Stsenaariumil **Seadmete seisakuaeg** on järgmised sõltuvused.
 Stsenaariumi konfigureerimiseks tehke järgmist.
 
 1. Logige sisse rakendusse Supply Chain Management.
-2. Lubage IoT iseõppimisvõime funktsiooni lipp. Lisateavet vt [Funktsioonihalduse ülevaatest](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
+2. Lubage IoT iseõppimisvõime funktsiooni lipp. Lisateavet vt [Funktsioonihalduse ülevaatest](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 3. Konfigureerige mõõdikud. Vaadake lisateavet teemast [Kuidas konfigureerida mõõdikuid](iot-metrics-setup.md#configure-metrics).
 4. Avage **Tootmise juhtimine \> Seadistus \> IoT iseõppimisvõime \> Stsenaariumihaldus**.
 6. Valige paanil **Seadmete seisakuaeg** suvand **Konfigureeri**, et avada viisard.

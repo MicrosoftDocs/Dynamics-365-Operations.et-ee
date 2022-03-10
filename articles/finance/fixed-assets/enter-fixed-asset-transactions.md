@@ -1,8 +1,8 @@
 ---
-title: Põhivara kande valikud
+title: Põhivarakande valikud
 description: Selles teemas kirjeldatakse põhivara kannete loomiseks saadaolevaid erinevaid viise.
-author: ShylaThompson
-ms.date: 02/07/2019
+author: moaamer
+ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,17 +12,17 @@ ms.reviewer: roschlom
 ms.custom: 23061
 ms.assetid: 338c495b-a4d8-461e-b85b-a83faf673730
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2f9cd8846688e6b70f3ac2034caa1a9e3015355e
-ms.sourcegitcommit: f9b40df70a77136529fbc790325ed657eb203731
-ms.translationtype: HT
+ms.openlocfilehash: 2c5530bb7b0472aad75ec04c00ba828b8efb877d
+ms.sourcegitcommit: 5f5a8b1790076904f5fda567925089472868cc5a
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/20/2021
-ms.locfileid: "6645368"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7891568"
 ---
-# <a name="fixed-asset-transaction-options"></a>Põhivara kande valikud
+# <a name="fixed-asset-transaction-options"></a>Põhivarakande valikud
 
 [!include [banner](../includes/banner.md)]
 
@@ -58,14 +58,16 @@ Kõiki põhivara kandetüüpe saab sisestada lehele Päevaraamat. Samuti saate p
 | Kulum                        | Põhivarad             | Põhivarad                              |
 |                                     | Pearaamat           | Päevaraamat                           |
 | Likvideerimine                            | Põhivarad             | Põhivarad                              |
-| ** **                               | Pearaamat           | Päevaraamat                           |
-| ** **                               | Müügireskontro      | Vabas vormis arve                         |
+|                                     | Pearaamat           | Päevaraamat                           |
+|                                     | Müügireskontro      | Vabas vormis arve                         |
 
 Kulumiperioodide põhivara järelejäänud väärtust ei värskendata kulumikande tüüpi tööleherea käsitsi loomisel või importimisel andmeüksuse kaudu. Seda väärtust värskendatakse, kui töölehe rea loomiseks kasutatakse kulumisoovituste protsessi.
 
 Lisateavet leiate jaotisest [Põhivarade integreerimine](fixed-asset-integration.md).
 
-### <a name="transactions-that-require-different-voucher-numbers"></a>Kanded, mille vautšeri numbrid on erinevad
+Süsteem väldib kulumi sisestamist samasse perioodi kaks korda. Näiteks kui kaks kasutajat loovad kulumisoovitusi jaanuariks eraldi, sisestatakse esimese kasutaja kulum esimesele töölehele. Kui teine kasutaja sisestab kulumi teisele töölehele, kontrollib süsteem viimast kulumiarvestust ega sisesta sama perioodi kulumit teist korda.
+
+### <a name="transactions-that-require-a-different-voucher-number"></a>Kanded, mille vautšeri numbrid on erinevad
 
 Järgmistes põhivarakannetes kasutatakse erinevaid kandenumbreid:
 

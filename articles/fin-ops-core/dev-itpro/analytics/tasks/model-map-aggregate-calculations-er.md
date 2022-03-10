@@ -1,12 +1,10 @@
 ---
 title: Mudelivastenduse konfiguratsioonide kasutamine koondarvutusteks andmebaasi tasemel
-description: See protseduur annab teavet selle kohta, kuidas kujundada uue elektroonilise aruandluse (ER) mudeli vastendamise konfiguratsiooni ja kasutada sisseehitatud ER-i funktsioone tõhusate koondarvutuste jaoks.
+description: Selles teemas kirjeldatakse, kuidas kujundada uue elektroonilise aruandluse mudeli vastendamise konfiguratsiooni ja kasutada sisseehitatud ER-i funktsioone tõhusate koondarvutuste jaoks.
 author: NickSelin
-manager: AnnBe
 ms.date: 12/12/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f1c4ddf0fac5ba962c3dab545bfa7e0df4afa948
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: 9f4ca926414e36e04e6e908a55eebeca8c24a696da4bca0c1c3a6f836373627d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684111"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6745860"
 ---
 # <a name="use-model-mapping-configurations-for-aggregate-calculations-at-the-database-level"></a>Mudelivastenduse konfiguratsioonide kasutamine koondarvutusteks andmebaasi tasemel
 
@@ -116,3 +114,6 @@ Protseduur on loodud kasutajatele, kellele on määratud süsteemiadministraator
 68. Klõpsake nuppu Salvesta.
     * Pange tähele, et väli „Käivitamine:” näitab, et grupeerimine toimub käitusajal mälus, isegi kui ükski kogum ei ole määratud ja valitud andmeallikas tüübiga „Tabeli kirjed” viitab samale tabelile „Intrastat”. Põhjuseks on see, et andmeallikas sisaldab mõningaid arvutatud välju, mida ei saa veel SQL-i andmebaasi tasemele üle kanda.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

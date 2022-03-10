@@ -1,12 +1,10 @@
 ---
 title: Makseviisid
 description: Kõik jaemüüja aktsepteeritavad maksetüübid tuleb konfigureerida süsteemi seadistamisel. Selles artiklis kirjeldatakse seadistatavaid makse tüüpe ja kirjeldatakse nende seadistamise protsessi.
-author: rubencdelgado
-manager: AnnBe
-ms.date: 06/17/2020
+author: BrianShook
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailTenderTypeTable
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: yabinl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 681672e19feb5b3bada126c67cd600ee6328da04
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.openlocfilehash: 0450dbaa37365705ca59fd2223c9d3866054c12a
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5257021"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779566"
 ---
 # <a name="payment-methods"></a>Makseviisid
 
@@ -31,7 +29,7 @@ ms.locfileid: "5257021"
 
 Kõik jaemüüja aktsepteeritavad maksetüübid tuleb konfigureerida süsteemi seadistamisel. Selles artiklis kirjeldatakse seadistatavaid makse tüüpe ja kirjeldatakse nende seadistamise protsessi.
 
-Jaemüüjad võivad võtta müüdavate toodete ja teenuste eest tasu erinevat tüüpi maksemeetoditega. Kuigi levinuim maksemeetod on sularaha, võivad jaemüüjad võtta tasu ka tšekkide, kaartide, kannetega jne. Kõik jaemüüja aktsepteeritavad maksetüübid tuleb konfigureerida süsteemi seadistamisel Dynamics 365 Commerceis. Järgmises loendis kirjeldatakse kõiki maksetüüpe, mille saab seadistada.
+Jaemüüjad võivad võtta müüdavate toodete ja teenuste eest tasu erinevat tüüpi maksemeetoditega. Kuigi levinuim maksemeetod on sularaha, võivad jaemüüjad võtta tasu ka tšekkide, kaartide, kannetega jne. Kõik jaemüüja aktsepteeritavad maksetüübid tuleb konfigureerida süsteemi seadistamisel Dynamics 365 Commerce is. Järgmises loendis kirjeldatakse kõiki maksetüüpe, mille saab seadistada.
 
 - **Sularaha** – raha valuuta füüsilises vormis (nt paberraha ja mündid). Valuuta võib olla ettevõtte valuuta või kaupluse kohalik valuuta.
 - **Tšekk** – käibiv vahend, mille alusel saab määratud pangas välja võtta kindlas valuutas kindla summa. Tšekk kehtib tavaliselt kas tähtajatult või kuus kuud pärast väljaandmist, kui ei ole määratud muud kehtivusaega. See periood on erinev olenevalt tšeki koostanud pangast. Tšekke on erinevat tüüpi, nt tellimustšekid, vahetustšekid, esitajatšekid ja krosseeritud tšekid. Saate seadistada tšekid makseviisidena iga poe puhul. Tšekke saab vastu võtta valuutas, mis on määratletud kas ettevõtte või poe tasemel. Peate tšekid makseviisina seadistama, enne kui saate poes tšekki makseviisina aktsepteerida.
@@ -49,5 +47,10 @@ Makseviiside seadistamiseks täitke järgmised ülesanded.
 3. Seadistage kaupluse makseviis. Seostage makseviisid iga kauplusega ja seejärel sisestage iga kaupluse makseviisile kauplusepõhised sätted.
 4. Seadistage kauplustele kaardimakseviisid. Tehke kaardiseadistus kõikidele kaardimakseviisidele, mida kauplus aktsepteerib.
 
+## <a name="handle-change-tendering-for-payment-methods"></a>Käsitse makseviiside muutmise muudatusi
+
+Mõned makseviisid ei toeta otsest muudatust, kui vahendid muutuvad klientidele müügikannete ajal tagasi. Maksevahendi **·** muutmiseks saab kasutada ainult sularaha ja **·** valuuta maksemeetodeid. 
+
+Kui soovite käsitseda juhtumeid, kus kande ajal on nõutav vahetamine, kuid makseviis seda ei toeta, saate määratleda makseviisi Vaheta **·** maksevahend. Kui häälestate kauplusele kaupluse makseviisid, valige kasutamiseks makseviis. Seejärel sisestage **·** jaotise Muuda maksevahendi **vahetamine maksevahendi väljale** maksevahendi muutmise valik. Näiteks saate sisestada **1,** näitamaks, et sularaha saab kasutada maksevahendi muutmise valikuna.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

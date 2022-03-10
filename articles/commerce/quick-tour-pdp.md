@@ -3,7 +3,7 @@ title: Toote üksikasjade lehe ülevaade
 description: See teema annab ülevaate toote üksikasjade lehtedest (PDP-dest) rakenduses Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 01/23/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e4a61383c790b63aa1c07f7004f264495171441a
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
-ms.translationtype: HT
+ms.openlocfilehash: 48b4e5d66b86e0b1198bd6ff7ce1e7de33f8fde0
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792215"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7986197"
 ---
 # <a name="product-details-pages-overview"></a>Toote üksikasjade lehe ülevaade
 
@@ -31,7 +31,7 @@ PDP annab toote kohta üksikasjalikku teavet ja laseb klientidel valida toote su
 
 Järgmisel joonisel on toodud PDP näide.
 
-![Toote üksikasjade lehe näide](./media/pdp.PNG)
+![Toote üksikasjade lehe näide.](./media/pdp.PNG)
 
 ## <a name="header-and-footer-modules"></a>Päise ja jaluse moodulid
 

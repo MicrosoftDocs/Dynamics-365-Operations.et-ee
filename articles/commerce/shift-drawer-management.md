@@ -13,15 +13,15 @@ ms.custom: 105011
 ms.assetid: 49a0fcc9-d4db-45ad-8c4b-213ccaced82b
 ms.search.region: global
 ms.search.industry: Retail
-ms.author: rubendel
+ms.author: brshoo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 9d6fa36d7bb45e1cd9f8c3fbc1e60ac521f1f9b0
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
-ms.translationtype: HT
+ms.openlocfilehash: 2ac42c92d38299c20bfcb293ac062aa9e4b1c628
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795449"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779740"
 ---
 # <a name="shift-and-cash-drawer-management"></a>Vahetuse ja sularahasahtli haldamine
 
@@ -154,7 +154,7 @@ Avage **Jaemüük ja kaubandus \> Kanalid \> Kauplused \> Kõik kauplused \> Vä
 
 See häälestus aitab tagada, et kontori väljevõtted sisaldavad samu kandeid, mis vahetused kassas ja et selle vahetuse andmed summeeritakse.
 
-Lisateavet väljavõtte ja sulgemisviiside kohta vt [Jaemüügi väljavõtete kauplusekonfiguratsioonid](https://docs.microsoft.com/dynamics365/unified-operations/retail/tasks/store-configurations-retail-statements).
+Lisateavet väljavõtte ja sulgemisviiside kohta vt [Jaemüügi väljavõtete kauplusekonfiguratsioonid](/dynamics365/unified-operations/retail/tasks/store-configurations-retail-statements).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

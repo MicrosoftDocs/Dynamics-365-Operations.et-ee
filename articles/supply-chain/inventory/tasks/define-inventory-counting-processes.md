@@ -1,28 +1,25 @@
 ---
 title: Inventuuriprotsesside määratlemine
 description: Selles teemas kirjeldatakse peamiste inventuuriprotsesside konfigureerimist inventuurigrupi ja inventuuritöölehe loomise abil.
-author: MarkusFogelberg
-manager: tfehr
+author: yufeihuang
 ms.date: 07/26/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventCountGroup, InventJournalName, InventParameters, EcoResProductDetailsExtended, InventItemLocation, InventLocationIdLookup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: mafoge
+ms.author: yufeihuang
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9df5db0e71f550e82820e15b1597d9e287071f83
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: ee47b04ba7ec9f3d74230b7a41b1c295eaea9313
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4426521"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7580836"
 ---
 # <a name="define-inventory-counting-processes"></a>Inventuuriprotsesside määratlemine
 
@@ -85,3 +82,6 @@ Selles teemas kirjeldatakse peamiste inventuuriprotsesside konfigureerimist inve
 5. Välja **Inventuurigrupp** rippmenüüst valige inventuurigrupp. Saate valida konkreetse inventuurigrupi, mis peaks rakenduma kaubale konkreetses laos, mille olete valinud. Selles laos inventuuri tegemisel alistab see inventuuripoliitika kauba üldise inventuuripoliitika.  
 6. Valige käsk **Salvesta**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

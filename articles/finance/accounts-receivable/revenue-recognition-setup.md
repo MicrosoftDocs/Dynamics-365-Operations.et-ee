@@ -2,11 +2,9 @@
 title: Tulu tuvastamise seadistus
 description: Selles teemas kirjeldatakse tulude tuvastamise seadistamise suvandeid ja nende mõjusid.
 author: kweekley
-manager: aolson
-ms.date: 08/24/2018
+ms.date: 11/24/2021
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: Customer
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: ba9f58bc21bed25a5e86cb0c9133507a83371d83
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e8e29ec1ca5a02db67bb4baf522da96ec23c740f
+ms.sourcegitcommit: ac23a0a1f0cc16409aab629fba97dac281cdfafb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5245660"
+ms.lasthandoff: 11/29/2021
+ms.locfileid: "7867216"
 ---
 # <a name="revenue-recognition-setup"></a>Tulu tuvastamise seadistus
 [!include [banner](../includes/banner.md)]
@@ -28,9 +26,9 @@ ms.locfileid: "5245660"
 Lisatud on moodul **Tulu tuvastamine**, mis sisaldab kõiki seadistamiseks vajalikke menüü-üksusi. Selles teemas kirjeldatakse seadistamise suvandeid ja nende mõjusid.
 
 > [!NOTE]
-> Tulu tuvastamise funktsiooni ei saa funktsioonihalduse kaudu sisse lülitada. Praegu peate selle sisselülitamiseks kasutama konfiguratsioonivõtmeid.
-
-> Tulu tuvastamise, sh kogumifunktsiooni kasutamist ei toetata Commerce'i kanalites (e-kaubandus, kassa, kõnekeskus). Tulu tuvastamisega konfigureeritud kaupu ei tuleks Commerce'i kanalites loodud tellimustele või kannetele lisada.
+> Tulu tuvastamise funktsiooni on nüüd funktsioonihalduse kaudu vaikimisi sisse lülitatud. Kui teie organisatsioon ei kasuta seda funktsiooni, saate selle tööruumis **Funktsioonihaldus** välja lülitada.
+>
+> Tulu tuvastamise, sh kogumifunktsiooni kasutamist ei toetata Commerce'i kanalites (e-kaubandus, kassa ja kõnekeskus). Tulu tuvastamiseks konfigureeritud kaupu ei tuleks Commerce'i kanalites loodud tellimustele või kannetele lisada.
 
 Moodulil **Tulu tuvastamine** on järgmised seadistussuvandid.
 
@@ -42,12 +40,16 @@ Moodulil **Tulu tuvastamine** on järgmised seadistussuvandid.
     - Kaubagrupid ja väljastatud tooted
     - Tulugraafiku määratlemine
     - Tulu hinna määratlemine
+    - Varude seadistamine
 
-        - Sisestusreeglid
-        - Kogumid
+        - Tulugraafiku määratlemine
+        - Tulu hinna määratlemine
 
-    - Kogumi komponendid
-    - Kogumi kaup
+    - Sisestusreeglid
+    - Kogumid
+
+        - Kogumi komponendid
+        - Kogumi kaup
 
 - Projekti seadistus
 
@@ -59,7 +61,7 @@ Esimene stsenaarium leiab aset pärast kõigi lepinguliste kohustuste täitmist,
 
 Teine stsenaarium leiab aset siis, kui pärast ümberjaotamist luuakse tööleht. Ümberjaotamine toimub siis, kui müügitellimuse rida lisatakse eelnevalt arveldatud müügitellimusele või kui luuakse uus müügitellimus, mis sisaldab rida, mis on algse lepingu osa. Kui arve sisestati enne uue müügitellimuse rea lisamist, tuleb sisestatud kliendiarvele luua korrigeeriv raamatupidamise kirje.
 
-Tööleht seadistatakse lehel **Töölehe nimed** (**Tulu tuvastamise \> Seadistus \> Töölehe nimed**). Töölehe tüübiks peab olema määratud **Tulu tuvastamine**. Tulu tuvastamise töölehel saate valida sisestamiskihi, kuhu sisestada.
+Tööleht seadistatakse lehel **Töölehe nimed** (**Tulu tuvastamise \> Seadistus \> Töölehe nimed**). Töölehe tüübiks peab olema määratud **Tulu tuvastamine**. 
 
 ## <a name="parameters-for-revenue-recognition"></a>Tulu tuvastamise parameetrid
 
@@ -74,7 +76,7 @@ Tulu tuvastamise sätted konfigureeritakse lehe **Pearaamatu parameetrid** vahek
     - Määrake see suvand olekusse **Ei**, et piirata korrigeeriva kande sisestamist pearaamatusse. Kui see suvand on määratud olekusse **Ei**, siis ei looda raamatupidamise sisekorrektsiooniks müügireskontros täiendavaid dokumente. Arve tasumisel kasutab tasakaalustusprotsess vana raamatupidamise kirjet, et sisestada kõik skontod või realiseeritud kasumid või kahjumid.
     - Määrake see suvand olekusse **Jah**, et luua müügireskontros korrigeerimiskande jaoks automaatselt stornodokument ja uus arve. Kuna see korrigeerimine on raamatupidamise sisekorrektsioon, siis uusi dokumente ei saadeta ega edastata kliendile. Stornodokument tasakaalustatakse algse arvega ja klient tasub uue korrigeeritud arve. Arvestage, et kõik kolm dokumenti kuvatakse aruannetes, nt kliendi väljavõttel.
 
-[![Seadistusteave](./media/revenue-recognition-setup-info.png)](./media/revenue-recognition-setup-info.png)
+[![Häälestusteave.](./media/revenue-recognition-setup-info.png)](./media/revenue-recognition-setup-info.png)
 
 ## <a name="revenue-schedules"></a>Tulugraafikud
 
@@ -82,9 +84,9 @@ Tulugraafik tuleb luua igal juhtumil, mil tulu saab edasi lükata. Näiteks, kui
 
 Kui tuvastate tulu vahe-eesmärkide järgi, soovitame teil luua vahe-eesmärkidele tulu tuvastamise graafikud, sõltumata tuvastamiskuupäevadest. Pärast graafikute loomist saate neid redigeerida nii, et need kajastaksid eeldatavaid vahe-eesmärkide kuupäevi. Need kirjed saab panna ootele, kuniks olete saanud teate vahe-eesmärgi täitmisest ja tulu saab tuvastada.
 
-Tulugraafikud luuakse lehel **Tulugraafikud** (**Tulu tuvastamine \> Seadistus \> Tulugraafikud**).
+Tulugraafikud luuakse lehel **Tulugraafikud** (**Tulu tuvastamine \> Häälestus \> Tulugraafikud**).
 
-[![Tulugraafikud](./media/revenue-recognition-revenue-schedules.png)](./media/revenue-recognition-revenue-schedules.png)
+[![Tulugraafikud.](./media/revenue-recognition-revenue-schedules.png)](./media/revenue-recognition-revenue-schedules.png)
 
 Sisestage kirjeldavad väärtused väljadesse **Tulugraafik** ja **Kirjeldus**. Järgmisi lisasätteid kasutatakse tulugraafiku loomiseks arve sisestamisel.
 
@@ -93,20 +95,27 @@ Sisestage kirjeldavad väärtused väljadesse **Tulugraafik** ja **Kirjeldus**. 
 - **Automaatsed lepingutingimused** – märkige see ruut, kui lepingu algus- ja lõppkuupäevad tuleks määrata automaatselt. Need kuupäevad määratakse automaatselt ainult tulu tüübiga **Lepingujärgne tugi** väljastatud toodetele. Lepingu alguskuupäevaks määratakse automaatselt müügitellimuse rea nõutud lähetuskuupäev ja lepingu lõppkuupäevaks määratakse automaatselt kuupäev, mis saadakse, kui alguskuupäevale liidetakse tulugraafiku seadistamisel määratletud kuude või esinemiste arv. Näiteks müügitellimuse real oleval tootel on üheaastane garantii. Vaikimisi on tulugraafik **12 k** (12 kuud) ja selle tulugraafiku märkeruut **Automaatsed lepingutingimused** on valitud. Kui müügitellimuse real on nõutav lähetuskuupäev 16. detsember 2019, siis vaikimisi on lepingu alguskuupäev on 16. detsember 2019 ja lepingu lõppkuupäev 15. detsember 2020.
 - **Tuvastamise alus** – tuvastamise alus määratleb, kuidas tulu hind esinemiste lõikes eraldatakse.
 
-    - **Igakuiselt kuupäevade järgi** – summa eraldatakse iga kuu tegelike päevade alusel.
+    - **Igakuiselt päevade järgi** – summa eraldatakse iga kalendrikuu tegelike päevade alusel.
     - **Igakuiselt** – summa eraldatakse võrdselt esinemistes määratletud kuude arvu lõikes.
     - **Esinemised** – summa eraldatakse võrdselt esinemiste lõikes, kuid see võib hõlmata lisaperioodi, kui valite tuvastamisreegliks **Tegelik alguskuupäev**.
+    - **Rahandusperiood päevade järgi** – summa eraldatakse iga rahandusperioodi tegelike päevade alusel. 
 
-- **Tuvastamisreegel** – tuvastamisreegel määratleb arvele tulugraafikus määratavad vaikekuupäevad.
+    Kui rahandusperioodid järgivad kalendrikuid, on tulemused **Igakuiselt päevade järgi** ja **Rahandusperiood päevade järgi** samad. Ainus erand on see, kui tuvastamisreegli väärtuseks seatakse **Kuu/perioodi lõpp** ning müügitellimuse real jäetakse väljad **Lepingu alguskuupäev** ja **Lõppkuupäev** tühjaks.
+
+- **Tuvastamisreegel** – tuvastamisreegel määratleb arvele tulugraafikus määratavad kuupäevad.
 
     - **Tegelik alguskuupäev** – graafiku loomisel kasutatakse kas lepingu alguskuupäeva (lepingujärgse toe \[TK\] kaupade korral) või arve kuupäeva (oluliste ja ebaoluliste kaupade korral).
-    - **Kuu esimene** – lepingu alguskuupäevaks (või arve kuupäevaks) on graafiku esimese rea kuupäev. Kuid kõigi järgnevate graafikute read luuakse kuu esimese jaoks.
+    - **Kuu/perioodi esimene päev** – lepingu alguskuupäevaks (või arve kuupäevaks) on graafiku esimese rea kuupäev. Kuid kõigi järgnevate graafikute read luuakse kuu või rahandusperioodi esimese päeva jaoks.
     - **Tükeldamine kuu keskel** – graafiku esimese rea kuupäev sõltub arve kuupäevast. Kui arve sisestatakse esimesest kuni viieteistkümnenda kuupäevani, luuakse tulugraafik kuu esimese päeva alusel. Kui arve sisestatakse alates kuueteistkümnendast kuupäevast, luuakse tulugraafik järgmise kuu esimese päeva alusel.
-    - **Järgmise kuu esimene** – graafiku kuupäevaks on järgmise kuu esimene päev.
 
-Klõpsake nuppu **Tulugraafiku üksikasjad**, et vaadata üldisi perioode ja igas perioodis tuvastatud protsente. Vaikimisi on **Tuvastamise protsendi** väärtus jaotatud perioodide arvu lõikes võrdselt. Kui tuvastamise aluseks on kas **Igakuine** või **Esinemised**, saab tuvastamise protsenti muuta. Tuvastamise protsendi muutmisel teavitab hoiatusteade teid, et koguväärtus ei võrdu 100 protsendiga. Kui saate teate, saate jätkata ridade redigeerimist. Kuid enne lehe sulgemist peab koguväärtus võrduma 100 protsendiga.
+        Rida **Tükeldamine kuu keskel** ei saa valida, kui tuvastamise aluse väärtuseks on seatud **Rahandusperiood päevade järgi**.
 
-[![Tulugraafiku andmed](./media/revenue-recognition-revenue-schedule-details.png)](./media/revenue-recognition-revenue-schedule-details.png)
+    - **Järgmise kuu/perioodi esimene päev** – graafiku alguskuupäevaks on järgmise kuu või rahandusperioodi esimene päev.
+    - **Kuu/perioodi lõpp** – lepingu alguskuupäevaks (või arve kuupäevaks) on graafiku esimese rea kuupäev. Kuid kõik järgnevad graafikuread luuakse kuu või rahandusperioodi viimase päeva jaoks. 
+
+Klõpsake nuppu **Tulugraafiku üksikasjad**, et vaadata üldisi perioode ja igas perioodis tuvastatud protsente. Vaikimisi on **Tuvastamise protsendi** väärtus jaotatud perioodide arvu lõikes võrdselt. Kui tuvastamise aluseks on määratud **Igakuine**, saab tuvastamise protsenti muuta. Tuvastamise protsendi muutmisel teavitab hoiatusteade teid, et koguväärtus ei võrdu 100 protsendiga. Selle teate saamise korral saate jätkata ridade redigeerimist. Kuid enne lehe sulgemist peab koguväärtus võrduma 100 protsendiga.
+
+[![Tulugraafiku andmed.](./media/revenue-schedule-details-2nd-scrn.png)](./media/revenue-schedule-details-2nd-scrn.png)
 
 ## <a name="inventory-setup"></a>Varude seadistamine
 
@@ -141,7 +150,7 @@ Kaubagrupid ja väljastatud tooted saab seadistada kas keskmise hinna meetodil v
 
 Kui olete väljastatud toote sätete konfigureerimise lõpetanud, peate käsitsi määratlema tulu hinna, sisestades õiglase väärtuse hinna või keskmise hinna (kui kasutate keskmise hinna meetodit) lehel **Tulu hinnad** (avage **Tulu tuvastamine \> Seadistus \> Varude seadistus \> Väljastatud tooted** ning seejärel valige tegumiribal vahekaardil **Müük** grupis **Tulu tuvastamine** suvand **Tulu hinnad**).
 
-[![Tulu hinnad](./media/revenue-recognition-revenue-prices.png)](./media/revenue-recognition-revenue-prices.png)
+[![Tulu hinnad.](./media/revenue-recognition-revenue-prices.png)](./media/revenue-recognition-revenue-prices.png)
 
 Sellel lehel käsitsi määratud tulu hinda kasutatakse iga müügitellimuse tulu hinna eraldamise määratlemiseks määratud kriteeriumite alusel. Iga kriteerium vastendatakse müügitellimuse reaga, et määrata tulu hind, mida tuleks eraldamise protsessis kasutada.
 
@@ -183,7 +192,7 @@ Kogumi kauba seadistamisel tuleb lehel **Väljastatud tooted** määrata kaks v�
 
 Seejärel tuleb komponendid lehel **Koosluse versioonid** määrata kogumi/koosluse emakaubale (avage **Tulu tuvastamine \> Seadistus \> Varude ja toote seadistus \> Väljastatud tooted** ning seejärel valige tegumiribal vahekaardil **Projekteeri** grupis **Kooslus** üksus **Koosluse versioonid**). Lisateabe saamiseks vt koosluste seadistamise dokumentatsiooni.
 
-[![Väljastatud tooted, koosluse graafikud](./media/revenue-recognition-bom-scheduleds.jpg)](./media/revenue-recognition-bom-scheduleds.jpg)
+[![Väljastatud tooted, koosluse graafikud.](./media/revenue-recognition-bom-scheduleds.jpg)](./media/revenue-recognition-bom-scheduleds.jpg)
 
 Kui kogumi emakaup ja kogumi komponendid on määratud eraldama, jaotatakse kogumi tulu hind komponentidele nende tulupanuse protsendi alusel.
 

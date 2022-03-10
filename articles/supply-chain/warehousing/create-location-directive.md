@@ -2,26 +2,23 @@
 title: Asukohakorraldustega töötamine
 description: See teema kirjeldab, kuidas töötada asukohakorraldustega. Asukohakorraldused on kasutaja määratud reeglid, mis aitavad tuvastada komplekteerimise ja ladustamise asukohti varude liigutamisel.
 author: Mirzaab
-manager: tfehr
 ms.date: 11/13/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocDirTable, WHSLocDirHint, WHSLocDirTableUOM, WHSLocDirFailure
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-11-13
-ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: f56257fd3f2f681bbd514843d8ddafa2395648d3
-ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
-ms.translationtype: HT
+ms.dyn365.ops.version: 10.0.15
+ms.openlocfilehash: 84ff0a466c037db05aecaff14aa2e17990ce8799
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "4517472"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103134"
 ---
 # <a name="work-with-location-directives"></a>Asukohakorraldustega töötamine
 
@@ -47,14 +44,14 @@ Enne asukohakorralduse loomist peate järgima neid samme, et veenduda, et eeltin
 1. Avage **Laohaldus \> Seadistus \> Ladu \> Laod**.
 1. Looge ladu.
 1. Seadke kiirkaardil **Ladu** suvandi **Kasuta laohaldusprotsesse** väärtuseks *Jah*.
-1. Looge asukohad, asukohatüübid, -profiilid ja -vormingud. Lisateavet lugege teemast [Asukohtade konfigureerimine WMS-loaga laos](https://docs.microsoft.com/dynamics365/supply-chain/warehousing/tasks/configure-locations-wms-enabled-warehouse).
-1. Looge kohad, tsoonid ja tsoonigrupid. Lisateavet lugege teemadest [Lao seadistamine](https://docs.microsoft.com/dynamics365/commerce/channels-setup-warehouse) ja [Asukohtade konfigureerimine WMS-loaga laos](https://docs.microsoft.com/dynamics365/supply-chain/warehousing/tasks/configure-locations-wms-enabled-warehouse).
+1. Looge asukohad, asukohatüübid, -profiilid ja -vormingud. Lisateavet lugege teemast [Asukohtade konfigureerimine WMS-loaga laos](./tasks/configure-locations-wms-enabled-warehouse.md).
+1. Looge kohad, tsoonid ja tsoonigrupid. Lisateavet lugege teemadest [Lao seadistamine](../../commerce/channels-setup-warehouse.md) ja [Asukohtade konfigureerimine WMS-loaga laos](./tasks/configure-locations-wms-enabled-warehouse.md).
 
 ## <a name="work-order-types-for-location-directives"></a>Asukohakorralduste töökäsutüübid
 
 Paljud asukohakorralduste jaoks määratud väljad on ühised kõigi töökäsutüüpide puhul. Kuid teised väljad on määratud kindlatele töökäsutüüpidele.
 
-![Asukohakorralduste töökäsutüübid](media/Location_Directives_Work_Order_Types.png "Asukohakorralduste töökäsutüübid")
+![Asukohakorralduste töökäsutüübid.](media/Location_Directives_Work_Order_Types.png "Asukohakorralduste töökäsutüübid")
 
 > [!NOTE]
 > Kahte töökäsutüüpi, *Tühistatud töö* ja *Tsükliline inventuur*, kasutab ainult süsteem. Asukohakorraldusi ei saa nende töökäsutüüpide jaoks luua.
@@ -146,14 +143,14 @@ Kiirkaardi **Asukohakorraldused** väljad on omased töökäsutüübile, mis on 
 - **Korralduse kood** – valige korralduse kood töömalli või täiendamismalliga seostamiseks. Lehel **Korralduse kood** saate luua uusi koode, mida saab kasutada töömalli või täiendamismalli ühendamiseks asukohakorraldusega. Korralduse koode saab kasutada ka seose loomiseks mis tahes töömalli rea ja asukohakorralduse vahel (nagu laadimisuks või vaheasukoht).
 
     > [!TIP]
-    > Kui korralduse kood on määratud, siis ei otsi süsteem töö loomisel asukohakorraldusi järjekorranumbri järgi. Selle asemel otsib see korralduse koodi järgi. Sel moel saate määrata täpsemalt asukohamalli, mida kasutatakse töömallis kindla etapi jaoks, nt materjalide ettevalmistamise etapi jaoks.
+    > Kui korralduse kood on määratud, siis ei otsi süsteem töö loomisel asukohakorraldusi järjekorranumbri järgi. Selle asemel otsib see korralduse koodi järgi. Sel moel saate määrata täpsemalt asukohadirektiivi, mida kasutatakse töömallis kindla etapi jaoks, nt materjalide ettevalmistamise etapi jaoks.
 
 - **Mitu SKU-d** – seadke selle suvandi väärtuseks *Jah*, et kasutada asukohas mitut varude arvestusühikut (SKU). Näiteks peab laadimisukse asukoha puhul olema lubatud mitu SKU-d. Mitme SKU lubamisel määratakse ladustamise asukoht töös ootuspäraselt. Kuid ladustamise asukoht saab käsitleda ainult mitme kaubaga ladustamist (kui töö hõlmab erinevaid SKU-sid, mis tuleb komplekteerida ja ladustada). See ei saa hakkama ühe SKU ladustamisega. Kui seate selle suvandi väärtuseks *Ei*, määratakse ladustamise asukoht ainult juhul, kui ladustamine hõlmab vaid üht tüüpi SKU-d.
 
     > [!IMPORTANT]
     > Selleks, et ladustada nii mitmeid kaupu kui ka üht SKU-d, peate määrama kaks rida, millel on sama struktuur ja seadistus, kuid peate seadma ühe rea korral suvandi **Mitu SKU-d** väärtuseks *Jah* ja teise rea korral *Ei*. Ladustamistoimingute jaoks peavad teil olema identsed asukohakorraldused, isegi kui te ei pea eristama töö ID-s üht ja mitut SKU-d. Kui te ei seadista mõlemat asukohakorraldust, siis on rakendatud asukohakorralduse loodud äriprotsesside asukohad ootamatud. Peate kasutama sarnast seadistust asukohakorralduste jaoks, mille **Töö tüüp** on *Komplekteerimine* , kui teil on vaja töödelda tellimusi, mis sisaldavad mitut SKU-d.
 
-    Kasutage suvandit **Mitu SKU-d** tööridade puhul, mis hõlmavad rohkem kui üht kaubakoodi. (Kaubakood võib jääda töö üksikasjades tühjaks ja see kuvatakse laorakenduse töötluslehtedel kui **Mitu**.)
+    Kasutage suvandit **Mitu SKU-d** tööridade puhul, mis hõlmavad rohkem kui üht kaubakoodi. (Kaubakood võib jääda töö üksikasjades tühjaks ja see kuvatakse mobiilirakenduse Warehouse Management töötluslehtedel kui **Mitu**.)
 
     Tüüpilises näitestsenaariumis on töömall seadistatud nii, et sellel on mitu komplekteerimise/ladustamise paari. Sellisel juhul võite soovida otsida kindlat vaheasukohta, et kasutada ridu, mille **Töö tüüp** on *Ladustamine*.
 
@@ -167,12 +164,12 @@ Kiirkaardi **Asukohakorraldused** väljad on omased töökäsutüübile, mis on 
     > [!NOTE]
     > See väli on saadaval ainult valitud töökäsutüüpide puhul, kus täiendamine on lubatud. Täieliku loendi leiate selle teema varasemast jaotisest [Töökäsutüüpidele omased väljad](#fields-specific-types).
 
-- **Leidmisalus** – täpsustage, kas ladustamise kogus peaks olema terve litsentsiplaadi kogus või peaks see olema kaup kauba põhjal. Kasutage seda välja, et tagada, et kogu litsentsiplaadi sisu ladustatakse ühte asukohta ja et süsteem ei soovitaks jagada sisu mitmesse asukohta vastuvõtmisprotsesside **ASN** (litsentsiplaadi vastuvõtmine), **Kombineeritud litsentsiplaat** ja **Kogum** korral. (Vastuvõtmisprotsessi **Kogum** korral on vaja, et funktsioon *Kogumi ladustamise funktsioon* oleks sisse lülitatud.) Asukohakorralduse päringu, ridade ja tegevuste käitumine sõltub valitud väärtusest. Kiirkaarti **Read** kasutatakse ainult siis, kui **Leidmisalus** on seatud väärtusele *Kaup*.
+- **Leidmisalus** – täpsustage, kas ladustamise kogus peaks olema terve litsentsiplaadi kogus või peaks see olema kaup kauba põhjal. Kasutage seda välja, et tagada, et kogu litsentsiplaadi sisu ladustatakse ühte asukohta ja et süsteem ei soovitaks jagada sisu mitmesse asukohta vastuvõtmisprotsesside **ASN** (litsentsiplaadi vastuvõtmine), **Kombineeritud litsentsiplaat** ja **Kogum** korral. (Vastuvõtmisprotsessi **Kogum** korral on vaja, et funktsioon [Kogumi ladustamise funktsioon](putaway-clusters.md) oleks sisse lülitatud.) Asukohakorralduse päringu, ridade ja tegevuste käitumine sõltub valitud väärtusest. Kiirkaarti **Read** kasutatakse ainult siis, kui **Leidmisalus** on seatud väärtusele *Kaup*.
 
     > [!NOTE]
     > See väli on saadaval ainult valitud töökäsutüüpide puhul, kus täiendamine on lubatud. Täieliku loendi leiate jaotisest [Töökäsutüüpidele omased väljad](#fields-specific-types).
 
-- **Likvideerimiskood** – seda välja kasutatakse asukohakorralduste puhul, mille töökäsutüüp on *Ostutellimus*, *Lõpetatud kaupade ladustamine* või *Tagastustellimused* ning töö tüüp *Ladustamine*. Kasutage seda, et voog kasutaks kindlat asukohakorraldust sõltuvalt likvideerimiskoodist, mille töötaja on laorakenduses valinud. Näiteks saate suunata tagastatud kauba tagasi kontrolliasukohta enne, kui need lattu tagastatakse. Likvideerimiskoodi saab seostada varude olekuga. Sel viisil saab seda kasutada varude oleku muutmiseks vastuvõtmisprotsessi osana. Näiteks on teil likvideerimiskood, *QA*, mis määrab varude olekuks *QA*. Seejärel saate luua eraldi asukohakorralduse, et teisaldada need varud karantiiniasukohta.
+- **Likvideerimiskood** – seda välja kasutatakse asukohakorralduste puhul, mille töökäsutüüp on *Ostutellimus*, *Lõpetatud kaupade ladustamine* või *Tagastustellimused* ning töö tüüp *Ladustamine*. Kasutage seda, et voog kasutaks kindlat asukohakorraldust sõltuvalt likvideerimiskoodist, mille töötaja on mobiilirakenduses Warehouse Management valinud. Näiteks saate suunata tagastatud kauba tagasi kontrolliasukohta enne, kui need lattu tagastatakse. Likvideerimiskoodi saab seostada varude olekuga. Sel viisil saab seda kasutada varude oleku muutmiseks vastuvõtmisprotsessi osana. Näiteks on teil likvideerimiskood, *QA*, mis määrab varude olekuks *QA*. Seejärel saate luua eraldi asukohakorralduse, et teisaldada need varud karantiiniasukohta.
 
     > [!NOTE]
     > See väli on saadaval ainult valitud töökäsutüüpide puhul, kus täiendamine on lubatud. Täieliku loendi leiate jaotisest [Töökäsutüüpidele omased väljad](#fields-specific-types).
@@ -240,7 +237,7 @@ Saate määratleda igale reale mitu asukoha korralduse tegevust. Järjekorranumb
     - **Ümarda täieliku LP-ni ja FEFO partii** – see strateegia ühendab endas strateegiad *FEFO partii reserveering* ja *Ümarda täieliku LP-ni*. See kehtib ainult partiiloaga kaupade ning asukohakorralduste puhul, mille töötüüp on *Komplekteerimine*. Rida peab olema partiiloaga, et kasutada strateegiat *FEFO partii reserveering*, ning strateegiat *Ümarda täieliku LP-ni* saab kasutada ainult täiendamiseks. Kui see strateegia konfigureeritakse koos asukoha ladustamispiiranguga, võib see valitud ladustamistöö asukoha üle koormata ja põhjustada ladustamispiirangute eiramist.
     - **Täieliku LP-ni ümardamine** – seda strateegiat kasutatakse varude koguse ümardamiseks, et see vastaks litsentsiplaadi kogusele, mis on määratud komplekteeritavatele kaupadele. Saate seda strateegiat kasutada ainult täiendamise asukohakorralduste jaoks, mille tüüp on *Komplekteerimine*. Kui see strateegia konfigureeritakse koos asukoha ladustamispiiranguga, võib see valitud ladustamistöö asukoha üle koormata ja põhjustada ladustamispiirangute eiramist.
     - **Litsentsiplaadi põhjal juhitav** – kasutage seda strateegiat, kui väljastate tellimuse komplekteerimise ja ladustamise töö loomiseks lattu. Seda saate teha mitme litsentsiplaadi korral. See strateegia üritab reserveerida ja luua komplekteerimistööd nende asukohtade põhjal, milles asuvad üleviimistellimuse ridadega seotud nõutud litsentsiplaadid. Kui neid tegevusi ei saa lõpule viia, kuid soovite siiski komplekteerimistööd luua, peaksite valima asukohakorralduse tegevuste jaoks teise strateegia. Sõltuvalt teie äriprotsessi nõuetest võite soovida otsida ka varusid teisest lao piirkonnast.
-    - **Tühi asukoht ilma sissetuleva tööta** – kasutage seda strateegiat tühjade asukohtade leidmiseks. Asukoht loetakse tühjaks, kui sel ei ole füüsilisi varusid ja eeldatavat sissetulevat tööd. Saate seda strateegiat kasutada ainult asukohakorralduste jaoks, mille töötüüp on *Komplekteerimine*.
+    - **Tühi asukoht ilma sissetuleva tööta** – kasutage seda strateegiat tühjade asukohtade leidmiseks. Asukoht loetakse tühjaks, kui sel ei ole füüsilisi varusid ja eeldatavat sissetulevat tööd. Saate seda strateegiat kasutada ainult asukohakorralduste jaoks, mille töötüüp on *Paigutamine*.
     - **Asukoha aegumise FIFO** – kasutage esimesena-sisse-esimesena-välja-strateegiat (FIFO), et lähetada nii partiijälgimisega kui ka partiijälgimiseta kaupu kuupäeva alusel, mil varud lattu jõudsid. See võimalus võib olla eriti kasulik partiijälgimiseta varude puhul, mille korral ei saa sortimiseks kasutada aegumiskuupäeva. FIFO-strateegia leiab üles asukoha, mis sisaldab vanimat aegumiskuupäeva ja planeerib komplekteerimise selle aegumiskuupäev põhjal.
     - **Asukoha aegumise LIFO** – kasutage viimasena-sisse-viimasena-välja-strateegiat (LIFO), et lähetada nii partiijälgimisega kui ka partiijälgimiseta kaupu kuupäeva alusel, mil varud lattu jõudsid. See võimalus võib olla eriti kasulik partiijälgimiseta varude puhul, mille korral ei saa sortimiseks kasutada aegumiskuupäeva. LIFO-strateegia leiab üles asukoha, mis sisaldab uusimat aegumiskuupäeva ja planeerib komplekteerimise selle aegumiskuupäev põhjal.
 
@@ -252,9 +249,12 @@ Selle stsenaariumi puhul peate määratlema kaks asukohakorralduse toimingut. Es
 
 ## <a name="next-step"></a>Järgmine samm
 
-Pärast asukohakorralduste loomist saate töö loomiseks seostada iga korraldusekoodi töömalli koodiga. Lisateavet vaadake teemast [Laotöö juhtimine töömallide ja asukohadirektiividega](https://docs.microsoft.com/dynamics365/supply-chain/warehousing/control-warehouse-location-directives).
+Pärast asukohakorralduste loomist saate töö loomiseks seostada iga korraldusekoodi töömalli koodiga. Lisateavet vaadake teemast [Laotöö juhtimine töömallide ja asukohadirektiividega](./control-warehouse-location-directives.md).
 
 ## <a name="additional-resources"></a>Lisaressursid
 
 - Video: [laohalduse konfiguratsiooni üksikasjalik juhis](https://community.dynamics.com/365/b/techtalks/posts/warehouse-management-configuration-deep-dive-october-14-2020)
 - Spikriteema: [laotöö juhtimine töömallide ja asukohakorraldustega](control-warehouse-location-directives.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

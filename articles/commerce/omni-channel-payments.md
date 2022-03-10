@@ -1,26 +1,28 @@
 ---
 title: Omnikanali maksete ülevaade
 description: Selles teemas antakse ülevaade omnikanali maksetest rakenduses Dynamics 365 Commerce.
-author: rubendel
+author: BrianShook
 ms.date: 09/17/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
-ms.custom: 141393
+ms.custom:
+- "141393"
+- intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: rubendel
+ms.author: brshoo
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: AX 8.1.3
-ms.openlocfilehash: 07d8e740e8f20533272c403446d5e8294c9f37a1
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
-ms.translationtype: HT
+ms.openlocfilehash: 593a647caeaf7d06aa1f2067954466db7dac6a1d
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791122"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984162"
 ---
 # <a name="omni-channel-payments-overview"></a>Omnikanali maksete ülevaade
 
@@ -43,11 +45,11 @@ Selles teemas antakse ülevaade omnikanali maksetest rakenduses Dynamics 365 Com
 
 Üldiselt kirjeldab tingimus *omnikanali maksed* võimet luua tellimus ühes kanalis ja täita see teises kanalis. Omnikanali makse toe põhiomadus on säilitada makse üksikasju koos ülejäänud makse üksikasjadega ja seejärel kasutada neid makse üksikasju, kui tellimus teises kanalis tagasi kutsutakse või seda seal töödeldakse. Klassikaline näide on veebist tellimise ja kauplusest kättesaamise stsenaarium. Selles stsenaariumis lisatakse makse üksikasjad, kui tellimus veebis luuakse. Seejärel kutsutakse need tagasi kassasse, et kliendi maksekaardilt kättesaamisel tasu võtta. 
 
-Kõiki selles teemas kirjeldatud stsenaariume saab juurutada, kasutades Commerce’is olevat standardset maksete tarkvaraarenduse komplekti (SDK). [Dynamics 365 maksekonnektor Adyeni jaoks](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3) annab valmis juurutuse iga siin kirjeldatud stsenaariumi kohta. 
+Kõiki selles teemas kirjeldatud stsenaariume saab juurutada, kasutades Commerce’is olevat standardset maksete tarkvaraarenduse komplekti (SDK). [Dynamics 365 maksekonnektor Adyeni jaoks](/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3) annab valmis juurutuse iga siin kirjeldatud stsenaariumi kohta. 
 
 ### <a name="prerequisites"></a>Eeltingimused
 
-Iga stsenaariumi jaoks, mida selles teemas kirjeldatakse, on vaja maksekonnektorit, mis toetab omnikanali makseid. Valmis Adyeni konnektorit saab samuti kasutada, kuna see toetab stsenaariume, mis on tehtud saadavaks maksete SDK kaudu. Lisateavet maksekonnektorite juurutamise ja Retaili SDK kohta üldiselt vaadake teemast [Avaleht Retail IT-professionaalidele ja arendajatele](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/dev-retail-home-page#payment-connectors).
+Iga stsenaariumi jaoks, mida selles teemas kirjeldatakse, on vaja maksekonnektorit, mis toetab omnikanali makseid. Valmis Adyeni konnektorit saab samuti kasutada, kuna see toetab stsenaariume, mis on tehtud saadavaks maksete SDK kaudu. Lisateavet maksekonnektorite juurutamise ja Retaili SDK kohta üldiselt vaadake teemast [Avaleht Retail IT-professionaalidele ja arendajatele](/dynamics365/unified-operations/retail/dev-itpro/dev-retail-home-page#payment-connectors).
 
 #### <a name="supported-versions"></a>Toetatud versioonid
 
@@ -57,14 +59,14 @@ Selles teemas kirjeldatud omnikanali maksevõimalused väljastati osana rakendus
 
 Maksete SDK tugineb kahel rakenduse programmeerimisliidese (API) komplektil maksete jaoks. Esimene API-de komplekt kannab nime **iPaymentProcessor**. Seda kasutatakse maksekonnektorite Kaarti pole juurutamiseks, mida saab kasutada kõikides kõnekeskustes ja rakenduse Microsoft Dynamics e-kaubanduse platvormiga. Lisateavet liidese **iPaymentProcessor** kohta vaadake tehnilisest ülevaatest [Maksekonnektori ja -seadme juurutamine](https://download.microsoft.com/download/e/2/7/e2735c65-1e66-4b8d-8a3c-e6ef3a319137/The%20Guide%20to%20Implementing%20Payment%20Connector%20and%20Payment%20Device_update.pdf) maksete kohta. 
 
-Teine API-de komplekt kannab nime **iNamedRequestHandler**. See toetab makse integratsioonide Kaart on olemas juurutamist, mis kasutavad makseterminali. Lisateavet liidese **iNamedRequestHandler** kohta vaadake teemast [Makse integreerimise loomine makseterminali jaoks](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/end-to-end-payment-extension). 
+Teine API-de komplekt kannab nime **iNamedRequestHandler**. See toetab makse integratsioonide Kaart on olemas juurutamist, mis kasutavad makseterminali. Lisateavet liidese **iNamedRequestHandler** kohta vaadake teemast [Makse integreerimise loomine makseterminali jaoks](/dynamics365/unified-operations/retail/dev-itpro/end-to-end-payment-extension). 
 
 ### <a name="setup-and-configuration"></a>Seadistamine ja konfigureerimine
 
 Vajalikud on järgmised komponendid ja seadistustoimingud.
 
-- **eCommerce’i integratsioon:** stsenaariumide toetamiseks, kus tellimus pärineb veebipoe fassaadist, on vajalik integratsioon Commerce’iga. Lisateavet Retaili e-kaubanduse SDK kohta vaadake teemast [E-kaubanduse platvormi tarkavaraarenduse komplekt (SDK)](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/ecommerce-platform-sdk). Demokeskkonnas toetab viite fassaad omnikanali makse stsenaariume. 
-- **Veebimaksete konfiguratsioon:** veebikanali seadistus peab hõlmama maksekonnektorit, mis on uuendatud toetama omnikanali makseid. Võib ka kasutada valmis maksekonnektorit. Lisateavet Adyeni maksekonnektori konfigureerimise kohta veebipoodide jaoks vaadake teemast [Adyeni maksekonnektor](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3#e-commerce). Peale selles kirjeldatud e-kaubanduse seadistustoimingute peab parameeter **Luba makseteabe salvestamine e-kaubanduses** olema Adyeni konnektori sätetes olema seatud väärtusele **Tõene**. 
+- **eCommerce’i integratsioon:** stsenaariumide toetamiseks, kus tellimus pärineb veebipoe fassaadist, on vajalik integratsioon Commerce’iga. Lisateavet Retaili e-kaubanduse SDK kohta vaadake teemast [E-kaubanduse platvormi tarkavaraarenduse komplekt (SDK)](/dynamics365/unified-operations/retail/dev-itpro/ecommerce-platform-sdk). Demokeskkonnas toetab viite fassaad omnikanali makse stsenaariume. 
+- **Veebimaksete konfiguratsioon:** veebikanali seadistus peab hõlmama maksekonnektorit, mis on uuendatud toetama omnikanali makseid. Võib ka kasutada valmis maksekonnektorit. Lisateavet Adyeni maksekonnektori konfigureerimise kohta veebipoodide jaoks vaadake teemast [Adyeni maksekonnektor](/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3#e-commerce). Peale selles kirjeldatud e-kaubanduse seadistustoimingute peab parameeter **Luba makseteabe salvestamine e-kaubanduses** olema Adyeni konnektori sätetes olema seatud väärtusele **Tõene**. 
 - **Omnikanali maksete konfiguratsioon:** tehke kontoris valikud **Jaemüük ja kaubandus \> Peakontori seadistamine \> Parameetrid \> Commerce’i ühiskasutuses parameetrid**. Seejärel seadistage vahekaardil **Omnikanali maksed** suvand **Kasuta omnikanali makseid** valikule **Jah**. Commerce'i versioonis 10.0.12 ja hilisemates on see säte tööruumis **Funktsioonihaldus**. Valige funktsioon **Omnikanali maksed** ja klõpsake **Luba kohe**. 
 - **Makseteenused:** kõnekeskus kasutab vaikimisi maksekonnektorit lehel **Makseteenused** maksete töötlemiseks. Niisuguste stsenaariumide nagu Kõnekeskusesse tellimine ja kättesaamine kauplusest toetamiseks peab see vaikimisi maksekonnektor olema Adyeni maksekonnektor või maksekonnektor, mis vastab omnikanali maksete juurutamise nõuetele.
 - **EFT-teenus:** maksed läbi makseterminali tuleb seadistada riistvaraprofiili kiirkaardil **EFT-teenus**. Adyeni konnektor toetab omnikanali maksete stsenaariume valmis kujul. Kasutada saab ka muid maksekonnektoreid, mis toetavad liidest **iNamedRequestHandler**, kui need toetavad omnikanali makseid.
@@ -219,7 +221,7 @@ Mõnda kaarti ei saa kasutada omnikanali maksete jaoks, kuna need ei toeta kordu
 
 ### <a name="using-a-different-card"></a>Teise kaardi kasutamine
 
-Kauplusesse tellimuse järele tulev klient saab kasutada teist kaarti. Kui kassapidaja saab tellimuse kättesaamisel viiba **Saadaoleva makseviisi kasutamine**, saab ta kliendilt küsida, kas ta soovib kasutada sama kaarti. Kui klient on tellimuse loomiseks kasutatud kaardi ära kaotanud ja soovib maksta tellimuse eest teise kaardiga, saab kassapidaja valida suvandi **Kasutage muud makseviisi**. Kui klient tuleb hiljem tagasi järele sama tellimuse teistele kaupadele ja algne kaardi autoriseerimine kehtib endiselt, võib kassapidaja uuesti küsida, kas klient soovib kasutada seda kaarti.
+Kauplusesse tellimuse järele tulev klient saab kasutada teist kaarti. Kui kassapidaja saab tellimuse kättesaamisel viiba **Saadaoleva makseviisi kasutamine** saab ta kliendilt küsida, kas see soovib kasutada sama kaarti. Kui klient on tellimuse loomiseks kasutatud kaardi ära kaotanud ja soovib maksta tellimuse eest teise kaardiga, saab kassapidaja valida suvandi **Kasutage muud makseviisi**. Kui klient tuleb hiljem tagasi järele sama tellimuse teistele kaupadele ja algne kaardi autoriseerimine kehtib endiselt, võib kassapidaja uuesti küsida, kas klient soovib kasutada seda kaarti.
 
 ### <a name="invalid-authorizations"></a>Kehtetud autoriseerimised
 
@@ -231,9 +233,9 @@ Kui järele minnakse tellimusele, millel on mitu maksevahendid ja mitu rida, esi
 
 ## <a name="related-topics"></a>Seotud dokumendid
 
-- [Maksete KKK](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/payments-retail)
-- [Dynamics 365 maksekonnektor Adyeni jaoks](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3)
-- [BOPIS-e konfigureerimine Dynamics 365 Commerce'i hindamiskeskkonnas](https://docs.microsoft.com/dynamics365/commerce/cpe-bopis)
+- [Maksete KKK](/dynamics365/unified-operations/retail/dev-itpro/payments-retail)
+- [Dynamics 365 maksekonnektor Adyeni jaoks](/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3)
+- [BOPIS-e konfigureerimine Dynamics 365 Commerce'i hindamiskeskkonnas](./cpe-bopis.md)
 
 
 

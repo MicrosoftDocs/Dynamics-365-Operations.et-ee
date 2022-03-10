@@ -2,11 +2,9 @@
 title: Välisvaluuta ümberarvutamine pangakontode jaoks
 description: Selles teemas kirjeldatakse välisvaluuta ümberarvutamist pangakontode jaoks.
 author: panolte
-manager: AnnBe
 ms.date: 03/28/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.region: Czech Republic, Estonia, Latvia, Lithuania, Poland
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 86d62d5d281eaf243b61d2d86591257f758d5d3d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.openlocfilehash: b5739869dde52ae81e725584e18008a4b6f30ee5f827aba8fc8ee8523fce1b39
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5264980"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6723748"
 ---
 # <a name="foreign-currency-revaluation-for-bank-accounts"></a>Välisvaluuta ümberarvutamine pangakontode jaoks
 

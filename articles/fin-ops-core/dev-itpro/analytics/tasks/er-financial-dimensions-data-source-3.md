@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 74c845cf5ce361b0e9594863cdfca98d9cb9b0ca
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
-ms.translationtype: HT
+ms.openlocfilehash: c854e9d30006dfa2deed63983a3a6b67f6ae9717
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6356315"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605181"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-3---design-the-report"></a>Elektrooniline aruandlus. Finantsdimensioonide kasutamine andmeallikana (3. osa – aruande koostamine)
 
@@ -92,7 +92,7 @@ Nende etappide lõpule viimiseks peate esmalt viima lõpule etapid protseduuris 
 59. Klõpsake valikut Lisa atribuut.
 60. Tippige Desc väljale Nimi.
 61. Klõpsake nuppu OK.
-![ER-i toimingute koostaja leht.](../media/er-financial-dimensions-guides-format1.png)
+![Vormingukujundaja lehe puu.](../media/er-financial-dimensions-guides-format1.png)
 
 ## <a name="map-report-elements-to-data-sources"></a>Aruande elementide vastendamine andmeallikatega
 1. Klõpsake vahekaarti Vastendus.
@@ -141,7 +141,7 @@ Nende etappide lõpule viimiseks peate esmalt viima lõpule etapid protseduuris 
 44. Klõpsake valikut Seo.
 45. Klõpsake nuppu Salvesta.
 46. Sulgege leht.
-![ER-i toimingute koostaja leht.](../media/er-financial-dimensions-guides-format2.png)
+![Vormingukujundaja leht, andmeallikatega vastendatud aruande elemendid.](../media/er-financial-dimensions-guides-format2.png)
 
 
 

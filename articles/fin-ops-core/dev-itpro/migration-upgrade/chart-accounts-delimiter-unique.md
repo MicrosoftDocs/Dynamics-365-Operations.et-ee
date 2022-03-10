@@ -2,8 +2,7 @@
 title: Kontoplaani eraldaja kordumatuks muutmine
 description: Selles teemas selgitatakse, kuidas kontoplaani ja dimensiooniväärtuste eraldaja ei saa sama olla. Pärast versiooniuuendust peate eraldaja väärtusi muutma.
 author: panolte
-manager: AnnBe
-ms.date: 03/30/2018
+ms.date: 09/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,23 +14,18 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 8
-ms.openlocfilehash: 183980651a811ef30a49461ff5a5f649d94b079c
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
-ms.translationtype: HT
+ms.openlocfilehash: a19dc8926df0efeac242e2e42ac37fdad91df9f8
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5565258"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500499"
 ---
 # <a name="make-the-chart-of-accounts-delimiter-unique"></a>Kontoplaani eraldaja kordumatuks muutmine
 
 [!include [banner](../includes/banner.md)]
 
 Rakenduses Microsoft Dynamics AX 2012 saate kasutada kontoplaani ja dimensiooniväärtuste puhul sama eraldajat. Rakenduse Finance and Operations praeguses versioonis ei saa kontoplaani ja dimensiooniväärtuste eraldaja olla samad. Topelteraldaja korral saate seda pärast versiooniuuendust muuta. 
-
-Seda funktsiooni ei saa järgmistes versioonides kasutada.
-- Finance and Operationsi versioon 8.0
-- Finance and Operationsi versiooni 7.1, KB 4094701 puhul ei saa finantsdimensioone sisestada, kui dimensiooniväärtused sisaldavad kontoplaani eraldajat
-- Finance and Operationsi versiooni 7.2 KB 4092967 puhul ei saa valida alamprojekti dimensioonina, kui alamprojekti vorming sisaldab dimensiooni eraldajat
 
 ## <a name="update-delimiter"></a>Eraldaja värskendamine
 Kontoplaani konflikti korral saab muuta kontoplaani eraldaja ja projekti/alamprojekti ID vormingut. Ühtegi teist dimensiooni eraldajat muuta ei saa. 

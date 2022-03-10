@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d9e1cba6bd07e0c3d9ed7d741d87e10837d8021c
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
-ms.translationtype: HT
+ms.openlocfilehash: 583462755838e51b4c988b8da057dbeeee773e0b
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797595"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964575"
 ---
 # <a name="add-a-logo"></a>Logo lisamine
 
@@ -60,8 +60,6 @@ Pärast värskendatud päise fragmenti avaldamist kuvatakse kõik saidi lehed, m
 [CSS-i alistusfailidega töötamine](css-override-files.md)
 
 [Leheikooni lisamine](add-favicon.md)
-
-[Tervitussõnumi lisamine](add-welcome-message.md)
 
 [Autoriõiguste teatise lisamine](add-copyright-notice.md)
 

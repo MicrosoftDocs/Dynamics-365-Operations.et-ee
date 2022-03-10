@@ -1,7 +1,7 @@
 ---
 title: Kauba saabumise ülevaateprofiili seadistamine
 description: Selles teemas keskendutakse saabumise ülevaate profiilile.
-author: ShylaThompson
+author: yufeihuang
 ms.date: 07/30/2019
 ms.topic: business-process
 ms.prod: ''
@@ -12,19 +12,19 @@ ms.reviewer: kamaybac
 ms.custom: intro-internal
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: kamaybac
+ms.author: yufeihuang
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e0ffcef15515a81aecbf1f1257f8fa7f46a2b876
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
-ms.translationtype: HT
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a9a98c84c0dcc86e58b74f53a9061c4a0518ecbf
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6335446"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964802"
 ---
 # <a name="set-up-an-item-arrival-overview-profile"></a>Kauba saabumise ülevaateprofiili seadistamine
 
-[!include [banner](../../includes/banner.md)]]
+[!include [banner](../../includes/banner.md)]
 
 Selles teemas keskendutakse saabumise ülevaate profiilile. Saabumisülevaate profiil on kogumik reegleid, mida rakendatakse, kui kasutaja avaneb lehe Saabumisülevaade. Saate seda protseduuri kasutada demoandmete ettevõttes USMF. Seda protseduuri viib tavaliselt läbi vastuvõtuametnik.
 

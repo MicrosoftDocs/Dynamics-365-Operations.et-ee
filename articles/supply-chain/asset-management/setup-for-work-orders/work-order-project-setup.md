@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 071c73f9295ad7911037cbd10a48b46b044eebda
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
-ms.translationtype: HT
+ms.openlocfilehash: bb897ca0a7e9c45ee55244189bb1b487fbddf0714ad3ea0cac26eb7bac36a07f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808228"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6754079"
 ---
 # <a name="work-order-project-setup"></a>Töökäsu projekti seadistus
 
@@ -69,7 +69,7 @@ Seadistus võimaldab täielikku integreerumist mooduliga **Projektihaldus ja raa
 
     Vaikimisi on alguskuupäevaks seadistatud kuupäev, mil lisate lehele töökäsu projekti. Seda kontrollib väli **Kehtiv alates**, mis on vaikimisi peidetud. Välja **Kehtiv alates** kuvamiseks valige **Kuva** \> **Kõik**. Seejärel saate välja **Kehtiv alates** kasutada koos väljaga **Lõppkuupäev**, et seadistada töökäsu projektile piiratud kehtivusaeg.
 
-    ![Töökäskude projekti seadistuse leht](media/17-setup-for-work-orders.png)
+    ![Töökäskude projekti seadistuse leht.](media/17-setup-for-work-orders.png)
 
 6. Valige lehel **Põhiprojekt** valik **Lisa**.
 7. Väljal **Töökäsu tüüp** valige töökäsu tüüp.
@@ -77,7 +77,7 @@ Seadistus võimaldab täielikku integreerumist mooduliga **Projektihaldus ja raa
 9. Valige väljal **Projektigrupp** projektigrupp, mis peaks olema seotud töökäsu tüübiga. Näiteks töökäsu tüüp, mille nimi on **Ennetav hooldus**, võib olla seotud projektigrupiga nimega **Eelmine hooldus** või **Sisemine**. Teise võimalusena võidakse töökäsu tüüpi **Investeering**, mida kasutatakse investeeringute ja põhivaraga seotud töökäskude puhul, seostada projektigrupi nimega **Invest** või **Investeering**.
 10. Valige käsk **Salvesta**.
 
-![Töökäskude projekti seadistuse leht, töökäsu lisamine](media/18-setup-for-work-orders.png)
+![Töökäskude projekti seadistuse leht, töökäsu lisamine.](media/18-setup-for-work-orders.png)
 
 > [!NOTE]
 > Iga kord, kui luuakse töökäsu rida, otsib varahaldus projektigrupi, mis peaks olema seotud töökäsu tööprojektiga. Otsing põhineb selles teemas kirjeldatud seadistusel. Igal projektigrupil on seotud projektitüüp. Projektigrupid, millel on projektitüüp **Aja- ja materjalikulu** või **Fikseeritud hind**, kehtivad ainult kliendi kontoga seotud varade puhul.

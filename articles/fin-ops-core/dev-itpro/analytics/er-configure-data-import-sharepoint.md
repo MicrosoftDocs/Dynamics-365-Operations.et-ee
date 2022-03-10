@@ -2,7 +2,7 @@
 title: SharePointist andmete importimise konfigureerimine
 description: Selles teemas selgitatakse, kuidas importida andmeid Microsoft SharePointist.
 author: NickSelin
-ms.date: 11/19/2020
+ms.date: 01/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 6cd717c0c599d68574a5a064761c8d6777418515
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
-ms.translationtype: HT
+ms.openlocfilehash: 9ac328e660c7a8a3b4a4f34a650062a0fa974771
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7675341"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8074762"
 ---
 # <a name="configure-data-import-from-sharepoint"></a>SharePointist andmete importimise konfigureerimine
 
@@ -140,7 +140,7 @@ Saate lehe **Allikate failiolekud** avada ka, valides suvandid **Organisatsiooni
 
 4. Mudelivastendust saab käitada pakettrežiimis [järelevalveta](#limitations). Sellisel juhul imporditakse igal selle elektroonilise aruandluse vormingu pakettkäitusel üks fail konfigureeritud failiallikatest.
 
-    Kui fail on SharePointi kaustast edukalt imporditud, kustutatakse see sellest kaustast ja teisaldatakse edukalt imporditud failide kausta või hoiatustega imporditud failide kausta. Vastasel juhul teisaldatakse see ebaõnnestunud failide kausta või jääb sellesse kausta, kui ebaõnnestunud failide kausta ei ole loodud. 
+    Kui fail on SharePointi kaustast edukalt imporditud, kustutatakse see sellest kaustast ja teisaldatakse edukalt imporditud failide kausta või hoiatustega imporditud failide kausta. Vastasel juhul teisaldatakse see nurjunud failide kausta või jääb sellesse kausta, kui nurjunud failide kaust pole häälestatud. 
 
 5. Sisestage kande ID, nt **V-00001**, ja seejärel valige **OK**.
 
@@ -192,11 +192,11 @@ Saate lehe **Allikate failiolekud** avada ka, valides suvandid **Organisatsiooni
 
 ## <a name=""></a><a name="limitations">Kitsendused</a>
 
-ER-i raamistik ei paku võimalust algatada uut pakett-tööd, mis käivitab mudeli vastendamise andmete importimiseks järelevalveta režiimis. Selleks peate arendama uue loogika, et konfigureeritud ER-i mudeli vastendust saaks kutsuda rakenduse kasutajaliidesest (UI), et importida andmeid sissetulevatest failidest. Seetõttu on vaja teha natuke tehnilist tööd. 
+Enne versiooni 10.0.25 versioonides Dynamics 365 Finance ei paku ER-raamistiku kasutajaliides (UI) võimalust algatada uut pakett-tööd, mis käivitab järelevalveta režiimis andmeimpordi mudelivastenduse. Selle asemel peate välja töötama uue loogika, et konfigureeritud ER-mudeli vastendust saaks rakenduse kasutajaliidesest kutsuda andmete importimiseks sissetulevatest failidest. Selle loogika arendamiseks on vaja mõningaid inseneritöid. 
 
-Asjakohase ER-i API kohta lisateabe saamiseks vt teemat [Andmete importimiseks vastendamise vormingu käitamise kood](er-apis-app73.md#code-to-run-a-format-mapping-for-data-import) või [ER-i raamistiku API muudatused rakenduse värskenduse 7.3 jaoks](er-apis-app73.md).
+Lisateavet asjakohase ER API kohta leiate [teemast Kood andmeimpordi](er-apis-app73.md#code-to-run-a-format-mapping-for-data-import) jaotise vormingu vastendamise käivitamiseks ER-i raamistiku API muudatustes [rakenduse värskenduse 7.3 jaoks](er-apis-app73.md). Vaadake kood läbi klassi `BankImport_RU` mudelis `Application Suite`, et näha, kuidas teie kohandatud loogikat saab rakendada. Klass `BankImport_RU` laiendab `RunBaseBatch` klassi. Eelkõige vaadake üle `runER()` meetod, kus `ERIModelMappingDestinationRun` objekt luuakse ER-mudeli vastenduse jooksjana.
 
-Vaadake kood läbi klassi `BankImport_RU` mudelis `Application Suite`, et näha, kuidas teie kohandatud loogikat saab rakendada. See klass laiendab klassi `RunBaseBatch`. Täpsemalt vaadake läbi meetod `runER()`, kus objekt `ERIModelMappingDestinationRun` on loodud ER-i mudeli vastendamise käitajana.
+Finance'i versioonis 10.0.25 ja uuemas versioonis pakub ER-i raamistiku kasutajaliides võimalust algatada uus pakett-töö, mis käivitab järelevalveta režiimis andmeimpordi mudelivastenduse. Lisateavet selle protsessi kohta leiate teemast [Andmete importimine partiirežiimis käsitsi valitud failidest](er-configure-data-import-batch.md).
 
 ## <a name="additional-resources"></a>Lisaressursid
 
@@ -205,6 +205,8 @@ Vaadake kood läbi klassi `BankImport_RU` mudelis `Application Suite`, et näha,
 [ER-i raamistiku API muudatused rakenduse värskenduse 7.3 puhul](er-apis-app73.md)
 
 [ER-i raamistiku API muudatused rakenduse värskenduse 10.0.23 puhul](er-apis-app10-0-23.md)
+
+[ER-i raamistiku API muudatused rakenduse värskenduse 10.0.25 puhul](er-apis-app10-0-25.md)
 
 
 

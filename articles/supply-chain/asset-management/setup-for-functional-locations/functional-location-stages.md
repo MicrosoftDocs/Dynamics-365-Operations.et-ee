@@ -1,29 +1,26 @@
 ---
 title: Funktsionaalse asukoha elutsükli olekud
 description: Selles teemas kirjeldatakse, kuidas seadistada funktsionaalseid asukoha olekuid ja elutsükli mudeleid varahalduses.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 06/24/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetFunctionalLocationLifecycleModel, EntAssetFunctionalLocationLifecycleState
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3eedc21dde32671b4f5539ac4e798a8e1329c191
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3a9893ad497bbe442d74f5212153fa466d2c85eb
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4426557"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360966"
 ---
 # <a name="functional-location-lifecycle-states"></a>Funktsionaalse asukoha elutsükli olekud
 
@@ -59,7 +56,10 @@ Kui olete loonud oma funktsionaalsete asukohtade jaoks vajalikud elutsükli olek
 1. Valige **Varahaldus** > **Sätestamine** > **Funktsionaalsed asukohad** > **Elutsükli mudelid**.
 2. Valige uue elutsükli mudeli loomiseks **Uus**.
 3. Sisestage elutsükli mudeli ID väljale **Elutsükli mudel** ja elutsükli mudeli nimi väljale **Nimi**. Väljadel **Funktsionaalsed asukoha tüübid** ja **Elutsükli olekud** näete elutsükli mudelit kasutatavate funktsionaalsete asukoha tüüpide arvu ja elutsükli mudelis valitud olekute arvu.
-4. Kiirkaardil **Elutsükli olekud** valige olekud, mis peaksid olema mudelisse kaasatud. Seda saab teha klõpsates olekul jaotises **Ülejäänud elutsükli olekud** ja klõpsake nuppu ![edasi nool](media/02-setup-for-functional-locations.png).
-5. Kui soovite valida mudeli jaoks kõik saadaolevad olekud, klõpsake nupul ![Vali kõik saadaolevad etapid](media/03-setup-for-functional-locations.png). Kõik olekud viiakse üle jaotisesse **Valitud elutsükli olekud**.
-6. Kui soovite valitud olekut mudelist eemaldada, valige soovitud olek jaotises **Valitud elutsükli olekud** ja seejärel valige nupp ![tagasi nool](media/04-setup-for-functional-locations.png).
+4. Kiirkaardil **Elutsükli olekud** valige olekud, mis peaksid olema mudelisse kaasatud. Seda saab teha klõpsates olekul jaotises **Ülejäänud elutsükli olekud** ja klõpsake nuppu ![edasi nool.](media/02-setup-for-functional-locations.png) nupp.
+5. Kui soovite valida mudeli jaoks kõik saadaolevad olekud, klõpsake nupul ![Vali kõik saadaolevad etapid.](media/03-setup-for-functional-locations.png) nupp. Kõik olekud viiakse üle jaotisesse **Valitud elutsükli olekud**.
+6. Kui soovite valitud olekut mudelist eemaldada, valige soovitud olek jaotises **Valitud elutsükli olekud** ja seejärel valige nupp ![tagasi nool.](media/04-setup-for-functional-locations.png). nupp.
 7. Valige **Elutsükli oleku värskendused**, et määratleda, millised elutsükli olekud saavad valitud olekut järgida.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

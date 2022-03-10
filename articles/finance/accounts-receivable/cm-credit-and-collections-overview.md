@@ -1,12 +1,10 @@
 ---
 title: Krediidi ja võlanõuete ülevaade
 description: Selles teemas antakse ülevaade krediidi ja võlanõuete funktsionaalsusest.
-author: mikefalkner
-manager: AnnBe
+author: JodiChristiansen
 ms.date: 09/04/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschloma
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: ade76b822904f49135e07dfe0a39d2227dd1dd77
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: 293a6c507c6abd6009a23403384c3b58a1a55a52
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4992984"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982608"
 ---
 # <a name="credit-and-collections-overview"></a>Krediidi ja võlanõuete ülevaade
 
@@ -76,3 +74,6 @@ Nende kontseptsioonide kirjeldused leiate jaotisest [Võlanõuete halduse võtme
 [Müügitellimuste krediidi ootelolekud](./cm-sales-order-credit-holds.md)
 
 [Perioodilised kliendi krediidihalduse ülesanded](./cm-periodic-tasks.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

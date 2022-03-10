@@ -2,11 +2,9 @@
 title: Põhivaragrupi muutmine
 description: Põhivara tuleb määrata õigele põhivaragrupile.
 author: saraschi2
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetTable, AssetChangeGroup
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8aa5a30083259c364a1eddda6a3fc5834d7afebc
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.openlocfilehash: 133998905dd2e7b4d5bfe39333e159757e908bc5aaea609fbf4b465a7f04c7bc
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5209971"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6762087"
 ---
 # <a name="change-a-fixed-asset-group"></a>Põhivaragrupi muutmine
 

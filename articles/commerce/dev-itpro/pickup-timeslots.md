@@ -2,11 +2,9 @@
 title: Kliendi järeletulemise ajavahemike loomine ja värskendamine
 description: See teema kirjeldab kliendi järeletulemise ajavahemike loomist, konfigureerimist ja värskendamist Commerce Headquartersis.
 author: anupamar-ms
-manager: AnnBe
-ms.date: 11/06/2020
+ms.date: 01/05/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -16,12 +14,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-09-20
 ms.dyn365.ops.version: Retail 10.0.15 update
-ms.openlocfilehash: f86eb47ec64dff230223ed0ecbe792373aca649f
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: a9ee1356bfcaeee881c28cf0361b34b2c65acbc7a3b57347fa2581a8a935da42
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681538"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6713417"
 ---
 # <a name="create-and-update-time-slots-for-customer-pickup"></a>Kliendi järeletulemise ajavahemike loomine ja värskendamine
 
@@ -32,11 +30,11 @@ See teema kirjeldab kliendi järeletulemise ajavahemike loomist, konfigureerimis
 Ajavahemiku funktsioon annab jaemüüjatele võimaluse määratleda ajavahemiku kaupadele, mille jaoks kliendi järeletulemisega tarneviis on sisse lülitatud. Ajavahemikud võimaldavad jaemüüjatel määratleda päevad ja kellaajad, kui tellimustele saab poodi järele tulla. Jaemüüjad saavad määratleda ka tellimuste arvu, millele saab kindla perioodi jooksul järele tulla. Sel viisil saavad jaemüüjad piirata selliste tellimuste arvu, millele saab kindlal päeval ja kindlal kellaajal järele tulla. Tulemuseks on kvaliteetsem klienditeenindus.
 
 > [!NOTE]
-> Ajavahemiku funktsioon on saadaval Microsoft Dynamics 365 Commerce'i versioonis 10.0.15 ja uuemates versioonides.
+> Ajavahemiku funktsioon on saadaval rakenduse Microsoft Dynamics 365 Commerce versioonis 10.0.15 ja uuemates versioonides.
 
 Järgmisel joonisel on näidatud ajavahemiku valiku näide e-kaubanduse kassas.
 
-![Ajavahemiku valiku näide e-kaubanduse kassas](../dev-itpro/media/Curbside_timeslot_eCommerce.PNG)
+![Ajavahemiku valiku näide e-commerce kassas.](../dev-itpro/media/Curbside_timeslot_eCommerce.PNG)
 
 ## <a name="time-slot-properties"></a>Ajavahemike atribuudid
 
@@ -49,9 +47,7 @@ Ajavahemik määratletakse järgmiste atribuutide abil.
 
     Atribuut **Minimaalne kuupäev** tagab, et jaemüüjal on piisavalt aega tellimuse töötlemiseks, enne kui see on järeletulemiseks valmis. Atribuut **Maksimaalne kuupäev** tagab, et kasutaja ei saa valida kuupäeva, mis on liiga kauges tulevikus. Näiteks, kui minimaalseks väärtuseks määratakse **1** ja tellimus esitati 20. septembril, on tellimusele võimalik järele tulla kõige varem järmisel sobival päeval (21. septembril). Sarnaselt saate maksimaalse väärtuse määramisega määratleda maksimaalse päevade arvu, mille jooksul tellimusele järele tulla saab. Kui miinimum- ja maksimumväärtus on määratletud, saavad saidi kasutajad kassat kasutades kuvada ja valida vaid kindla hulga päevi.
 
-    Saate määrata minimaalse väärtuse kümnendkoha väärtusele, mis on väiksem kui 1. Näiteks kui järeletulemine on saadaval neli tundi pärast tellimuse esitamist, määrake minimaalseks väärtuseks **0,17** (= 4 ÷ 24, ümardatuna kahe kümnendkohani). Kuid kui määrate minimaalse väärtuse kümnendkoha väärtusele, mis on suurem kui 1, ümardatakse see alati lähima täisarvuni (üles või alla).
-
-    Kui määrate maksimaalse väärtuse kümnendkoha väärtusele, ümardatakse see alati ülespoole. Näiteks väärtus **1,2** ümardatakse väärtuseni **2**.
+    Saate määrata minimaalse väärtuse kümnendkoha väärtusele, mis on väiksem kui 1. Näiteks kui järeletulemine on saadaval neli tundi pärast tellimuse esitamist, määrake minimaalseks väärtuseks **0,17** (= 4 ÷ 24, ümardatuna kahe kümnendkohani). Kuid kui määrate minimaalse väärtuse kümnendkoha väärtusele, mis on suurem kui 1, ümardatakse see alati üles lähima täisarvuni. Näiteks väärtus **1,2** ümardatakse väärtuseni **2**. Samamoodi, kui määrate maksimaalse väärtuse kümnendkoha väärtusele, ümardatakse see alati üles lähima täisarvuni. 
 
 - **Alguskuupäev** ja **Lõppkuupäev** – määrake ajavahemiku algus- ja lõppkuupäev. Igal ajavahemiku kirjel on alguskuupäev ja lõppkuupäev. Seega saate aasta jooksul lisada erinevaid ajavahemikke (näiteks järeletulemine puhkuse ajal). Kui ajavahemiku algust ja kuupäevi muudetakse pärast tellimuse esitamist, ei rakendata selle tellimuse puhul muudatusi. Kui määrate algus- ja lõppkuupäevad, tuleb arvestada kaupluse sulgemise kuupäevadega (nt jõulupühaga) ja tagada, et ajavahemikke nende päevade jaoks ei määrata.
 - **Aktiivne järeletulemisaeg** – määrake periood, kus järeletulemine on lubatud. Näiteks võib järeletulemise aeg olla iga päev kella 14.00 ja 17.00 vahel. See atribuut võimaldab järeletulemise aja poe lahtiolekuajaks sõltumatuks teha. Seetõttu saab jaemüüja konfigureerida järeletulemise ajad, mis vastavad kindla ettevõtte vajadustele. Kui määrate aktiivse järeletulemisaja, tuleb arvestada poe lahtiolekuajaga ja tagada, et järeletulemine ei ole määratud ajale, kui pood on suletud.
@@ -59,12 +55,12 @@ Ajavahemik määratletakse järgmiste atribuutide abil.
     > [!NOTE]
     > Poodi järeletulemise ajad tuleb määratleda vastava poe ajavööndis.
 
-- **Ajavahemiku intervall** – määrake igale ajavahemikule antav kestus. Näiteks võib iga ajavahemiku kestus olla 15 minutit, 30 minutit või üks tund.
+- **Ajavahemiku intervall** – määrake igale ajavahemikule antav kestus. Näiteks võib iga ajavahemiku kestus olla 15 minutit, 30 minutit või üks tund. Kui ajavahemiku väärtus on 0, on ajavahemik saadaval kogu kestuse jooksul algusajast kuni lõpuajani.
 - **Vahemikud intervalli kohta** – määrake klientide või tellimuste arv, keda või mida saab iga ajavahemiku intervalli jooksul järeletulemisega teenindada. Näiteks sisestage **1**, **2**, **3** või mõni muu täisarv.
 - **Aktiivsed päevad** – määrake nädalapäevad, kui järeletulemise ajavahemikud on aktiivsed. See atribuut võimaldab jaemüüjal määratleda päevad, mil ta soovib järeletulemisega tellimusi toetada.
 - **jaemüügikanalid** – saate määrata jaemüügikanalid. Iga ajavahemikku saab seostada ühe või mitme jaekauplusega. Sõltuvalt iga poe lahtiolekuajast saab luua ja kanaliga seostada vähemalt ühe ajavahemikukande. 
 
-<!-- ![HQ Timeslot overview](../dev-itpro/media/Curbside_timeslot_Settings_overview.PNG) -->
+<!-- ![HQ Timeslot overview.](../dev-itpro/media/Curbside_timeslot_Settings_overview.PNG) -->
 
 Kanali kohta saab konfigureerida ainult ühe ajavahemiku malli. Need kanalid hõlmavad tellis-ja mördi kauplusi, kõnekeskusi, mobiiliseadmeid ja e-kaubanduse saite.
 
@@ -84,19 +80,19 @@ Ajavahemiku funktsiooni konfigureerimiseks Commerce'i peakontoris tehke järgmis
 1. Valige kiirkaardil **Tellimusele järeletulemine – kellaaja sätted** nupp **Lisa**.
 1. Määrake dialoogiboksis **Tellimusele järeletulemine – kellaaja sätted** kuupäevavahemik, tarneviis, aktiivne järeletulemisaeg, aktiivsed päevad, ajavahemikku intervall, ajavahemikud intervalli kohta ja muud sätted.
 
-    Kui ajavahemikud on prognoosi kohaselt muutumatud, jätke väli **Lõppkuupäev** tühjaks.
+    Kui ajavahemikud on prognoosi kohaselt muutumatud, seadistage väli **Lõpukuupäev** väärtusele **Mitte kunagi**.
 
     > [!NOTE]
     > Saate luua mitu malli, kuid ühe kanali või poega saab seostada ainult ühe malli.
 
-    ![Dialoogiboks Tellimusele järeletulemine – kellaaja sätted](../dev-itpro/media/Curbside_timeslot_Settings_Page.PNG)
+    ![Tellimusele järeletulemine - kellaaja sätete dialoogiboks.](../dev-itpro/media/Curbside_timeslot_Settings_Page.PNG)
 
 1. Kui olete lõpetanud, valige **OK**.
 1. Kui ajavahemikud päeva jooksul varieeruvad, looge kiirkaardil **Tellimusele järeletulemine – kellaaja sätted** veel kirjeid, et kuupäevad ja kellaajad ei kattuks.
 1. Valige kiirkaardil **jaemüügikanalid** nupp **Lisa**, et seostada ajavahemiku mall nende poodide või kanalitega, kus seda kasutatakse.
 1. Kasutage dialoogiboksis **Organisatsiooni sõlmede valimine** poodide, regioonide ja organisatsioonide, millega mall peaks seotud olema, valimiseks (või valiku tühistamiseks) noolenuppe.
 
-    <!-- ![HQ Timeslot overview](../dev-itpro/media/Curbside_timeslot_Settings_overview.PNG) -->
+    <!-- ![HQ Timeslot overview.](../dev-itpro/media/Curbside_timeslot_Settings_overview.PNG) -->
 
 1. Kui olete lõpetanud, valige **OK**.
 1. Käivitage lehel **Jaotusgraafik** tööd **1070** ja **1135**, et sünkroonida andmed kanalitega.
@@ -107,7 +103,7 @@ Kui kassas määratakse kindlaks järeletulemisega tellimuse rida, saab kassapid
 
 Järgmisel joonisel on näidatud ajavahemiku valiku näide kassatellimuses.
 
-![Ajavahemiku valiku näide kassatellimuse jaoks](../dev-itpro/media/Curbside_timeslot_POS.png)
+![Ajavahemiku valiku näide kassatellimuse jaoks.](../dev-itpro/media/Curbside_timeslot_POS.png)
 
 ## <a name="time-slot-selection-for-e-commerce-orders"></a>E-kaubanduse ajavahemike valimine
 
@@ -118,8 +114,17 @@ Lisateavet selle kohta, kuidas valida e-kaubanduse tellimuste jaoks ajavahemikku
 
 Järgmisel joonisel on kujutatud e-kaubanduse tellimuse näide, kus järeletulemise ajavahemik on valitud.
 
-![Näoide e-kaubanduse tellimust, kus järeletulemise ajavahemik on valitud](../dev-itpro/media/Curbside_timeslot_eCommerce_checkoutsummary.PNG)
+![Näide e-commerce tellimusest, kus järeletulemise ajavahemik on valitud.](../dev-itpro/media/Curbside_timeslot_eCommerce_checkoutsummary.PNG)
+
+## <a name="time-slot-selection-for-call-center-orders"></a>Kõnekeskuse tellimustele ajavahemiku valimine
+
+Kõnekeskuse rakenduses saavad kõnekeskuse agendid valida järeletulemise poe või asukoha ning ka kuupäeva ja ajavahemiku, nii nagu välja toodud järgmisel joonisel.
+
+![Näide kõnekeskuse tellimusest, kus järeletulemise ajavahemik on valitud.](../dev-itpro/media/Curbside_timeslot_callcenter.png)
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-[Järeletulemisteabe moodul](../pickup-info-module.md)
+[Järeletulemise teabe moodul](../pickup-info-module.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

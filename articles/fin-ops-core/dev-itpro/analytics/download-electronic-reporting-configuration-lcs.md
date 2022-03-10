@@ -2,11 +2,9 @@
 title: Elektroonilise aruandluse konfiguratsioonide allalaadimine teenusest Lifecycle Services
 description: Selles teemas selgitatakse, kuidas laadida teenusest Microsoft Dynamics Lifecycle Services (LCS) alla elektroonilise aruandluse (ER) konfiguratsioone.
 author: NickSelin
-manager: AnnBe
 ms.date: 08/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERSolutionImport, ERWorkspace
 audience: Application User, IT Pro
@@ -17,18 +15,21 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 719b277fb828ea2085ea80bc4a36c2af3412f66b
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: ea603d01d05e98ac69d5a0d12802b5f23ee34793bf4c9b4f885f0e4303f77d2b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683301"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6762268"
 ---
 # <a name="download-electronic-reporting-configurations-from-lifecycle-services"></a>Elektroonilise aruandluse konfiguratsioonide allalaadimine teenusest Lifecycle Services
 
 [!include [banner](../includes/banner.md)]
 
 Selles teemas selgitatakse, kuidas teenuse Microsoft Dynamics Lifecycle Services (LCS) [ühiste vahendite teegist](../lifecycle-services/asset-library.md) laadida alla [elektroonilise aruandluse (ER) konfiguratsioonide](general-electronic-reporting.md#Configuration) uusimat versiooni.
+
+> [!IMPORTANT]
+> LCS kasutamine elektroonilise aruandluse (ER) konfiguratsiooni talletushoidlana on [aegunud](../../../finance/get-started/removed-deprecated-features-finance.md#features-removed-or-deprecated-in-the-finance-10017-release). Lisateavet vt jaotisest [Regulatory Configuration Service (RCS) – Lifecycle Services (LCS) ladustamise amortiseerimine](../../../finance/localizations/rcs-lcs-repo-dep-faq.md).
 
 1. Logige rakendusse sisse, kasutades üht järgmistest rollidest.
 
@@ -40,7 +41,7 @@ Selles teemas selgitatakse, kuidas teenuse Microsoft Dynamics Lifecycle Services
 3. Valige jaotises **Konfiguratsiooni pakkujad** paan **Microsoft**.
 4. Valige paanil **Microsoft** suvand **Hoidlad**.
 
-    [![Paan Microsoft lokaliseerimise konfiguratsioonide lehel](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)
+    [![Microsoft`i paan lokaliseerimise konfiguratsioonide lehel.](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)
 
 5. Valige lehel **Konfiguratsioonihoidlad** ruudustikus olemasolev hoidla tüübiga **LCS**. Kui hoidlat ei kuvata ruudustikus, tehke järgmist.
 
@@ -54,7 +55,7 @@ Selles teemas selgitatakse, kuidas teenuse Microsoft Dynamics Lifecycle Services
 
 6. Valitud hoidla elektroonilise aruandluse konfiguratsioonide loendi vaatamiseks valige käsk **Ava**.
 
-    [![Konfiguratsioonihoidlate leht](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)
+    [![Konfiguratsioonihoidlate leht.](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)
 
     > [!TIP]
     > Kui teil on probleeme LCS-i hoidlasse juurde pääsemisega konfiguratsioonide allalaadimiseks LCS-i ühiste vahendite teegist, saate selle asemel laadida konfiguratsioonid alla [globaalsest hoidlast](er-download-configurations-global-repo.md).
@@ -66,7 +67,7 @@ Selles teemas selgitatakse, kuidas teenuse Microsoft Dynamics Lifecycle Services
     > [!NOTE]
     > Nupp **Impordi** ei ole saadaval ER-i konfiguratsiooni versioonide puhul, mis on juba praeguses eksemplaris olemas.
 
-    [![Konfiguratsioonihoidla leht](./media/update-er-from-lcs-for-ms-download-configuration.png)](./media/update-er-from-lcs-for-ms-download-configuration.png)
+    [![Konfiguratsioonihoidla leht.](./media/update-er-from-lcs-for-ms-download-configuration.png)](./media/update-er-from-lcs-for-ms-download-configuration.png)
 
 > [!NOTE]
 > Olenevalt ER-i sätetest kontrollitakse konfiguratsioone pärast importimist. Võib-olla teavitatakse teid leitud vasturääkivustest. Probleemid tuleb enne imporditud konfiguratsiooni versiooni kasutamist lahendada. Lisateavet vaadake selle teemaga seotud teemade loendist.
@@ -76,3 +77,6 @@ Selles teemas selgitatakse, kuidas teenuse Microsoft Dynamics Lifecycle Services
 [Elektroonilise aruandluse (ER) ülevaade](general-electronic-reporting.md)
 
 [Elektroonilise aruandluse konfiguratsioonide allalaadimine konfiguratsiooniteenuse globaalsest hoidlast](er-download-configurations-global-repo.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,12 +1,10 @@
 ---
 title: Elektrooniline aruandlus. Nõutavate konfiguratsioonide loomine andmete importimiseks välisest failist
-description: Järgmised juhised selgitavad, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rollis olev kasutaja saab kujundada elektroonilise aruandluse (ER) konfiguratsioone, et importida andmeid välisest failist rakendusse Microsoft Dynamics 365 Finance.
+description: Selles teemas kirjeldatakse, kuidas kujundada elektroonilise aruandluse konfiguratsioone andmete importimiseks välisest failist rakendusse Microsoft Dynamics 365 Finance.
 author: NickSelin
-manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 03/24/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, ERWorkspace, ERSolutionTable, ERDataModelDesigner, ERSolutionCreateDropDialog, EROperationDesigner, ERModelMappingTable, ERModelMappingDesigner, ERExpressionDesignerFormula, Tax1099Summary, VendSettlementTax1099
 audience: Application User
@@ -15,18 +13,25 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d9b26f4963f32be34ae1d954a3f363be7ea28d41
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: 7eaa35baae8e030d8a8b7ce903554c4876c874b48cfd72d6ac278cf4c0e8a6e8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684278"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6720852"
 ---
 # <a name="er-create-required-configurations-to-import-data-from-an-external-file"></a>Elektrooniline aruandlus. Nõutavate konfiguratsioonide loomine andmete importimiseks välisest failist
 
 [!include [banner](../../includes/banner.md)]
 
-Järgmised juhised selgitavad, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rollis olev kasutaja saab kujundada elektroonilise aruandluse (ER) konfiguratsioone, et importida andmeid välisest failist rakendusse. Juhendit järgides loote näidisettevõtte Litware, Inc. jaoks vajalikud ER-i konfiguratsioonid. Juhendis ülesannete lõpetamiseks peab esmalt täitma juhises „ER Konfiguratsiooni pakkuja loomine ja selle märkimine aktiivseks” toodud toimingud. Need toimingud saab lõpule viia USMF-i andmekomplekti abil. Samuti peate alla laadima ja kohalikult salvestama järgmised failid, kasutades elektroonilise aruandluse ülevaate teemas olevaid linke (https://go.microsoft.com/fwlink/?linkid=852550): 1099model.xml, 1099format.xml, 1099entries.xml, 1099entries.xlsx.
+Järgmised juhised selgitavad, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rollis olev kasutaja saab kujundada elektroonilise aruandluse (ER) konfiguratsioone, et importida andmeid välisest failist rakendusse. Juhendit järgides loote näidisettevõtte Litware, Inc. jaoks vajalikud ER-i konfiguratsioonid. Juhendis ülesannete lõpetamiseks peab esmalt täitma juhises „ER Konfiguratsiooni pakkuja loomine ja selle märkimine aktiivseks” toodud toimingud. Need toimingud saab lõpule viia USMF-i andmekomplekti abil. Samuti peate alla laadima ja kohalikult talletama järgmised failid. 
+
+| Sisu kirjeldus                       | Faili nimi                                     |
+|-------------------------------------------|-----------------------------------------------|
+| ER-i andmemudeli konfiguratsioon- 1099 | [1099mudel,xml](https://download.microsoft.com/download/b/d/9/bd9e8373-d558-4ab8-aa9b-31981adc97ea/1099model.xml)                  |
+| ER vormingu konfiguratsioon - 1099    | [1099vorming.xml](https://download.microsoft.com/download/e/8/7/e87154b0-b53f-431f-8e1e-0b7f7c9805a9/1099format.xml)                  |
+| CSV-vormingus sissetuleva dokumendi näidis                          | [1099sissekanded.xml](https://download.microsoft.com/download/4/0/3/403a4958-df24-476a-b8b0-6843a9fa7f89/1099entries.xml)        |
+| Sissetuleva dokumendi andmete haldamise töövihiku näidis                          | [1099sissekanded.xlsx](https://download.microsoft.com/download/6/0/0/6001abab-a331-48db-a939-41851fb0f5d0/1099entries.xlsx) |
 
 Elektrooniline aruandlus pakub ärikasutajatele võimalust konfigureerida väliste XML- või TXT-vormingus andmefailide importimisprotsessi. Esmalt tuleb imporditavate andmete tähistamiseks kujundada abstraktse andmemudeli ja elektroonilise aruandluse andmemudeli konfiguratsioon. Järgmisena peate määratlema imporditava faili struktuuri ja meetodi, mida kasutate andmete portimiseks failist abstraktseks andmemudeliks. Abstraktse andmemudeli jaoks tuleb luua elektroonilise aruandluse vormingu konfiguratsioon, mis vastendab kujundatud andmemudelile. Seejärel tuleb andmemudeli konfiguratsiooni laiendada vastendamisega, mis kirjeldab, kuidas imporditud andmed püsivad abstraktse andmemudelina ja kuidas seda kasutatakse tabelite värskendamiseks.  Elektroonilise aruandluse andmemudeli konfiguratsiooni tuleb täiendada uue mudeli vastendusega, mis kirjeldab andmemudeli sidumist rakenduse sihtkohtadega.  
 
@@ -254,3 +259,6 @@ Käivitage selle vormingu vastendamine testimisotstarbel. Kasutage varsemalt all
 27. Sulgege leht.
 28. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -1,60 +1,59 @@
 ---
 title: Jõudluse töölehele kirje lisamine ja teistele tänu saatmine
-description: Jõudluse töölehel on teave, mis on seotud sellega, kuidas olete oma eesmärke saavutanud või millised on teie tulemused mingil perioodil.
-author: andreabichsel
-manager: tfehr
-ms.date: 08/29/2018
+description: Jõudluse tööleht sisaldab teavet selle kohta, kuidas töötajad oma eesmärke täitsid või kuidas nad teatud aja jooksul toiminud on.
+author: twheeloc
+ms.date: 08/25/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EssWorkspace, HcmPerfJournal, HcmPerfJournalAddLink, HcmPerfPraise, HcmWorkerLookUpByPerson, HcmPerfJournalAdd, HcmEmployeeDevelopmentWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a865ee37ed650c564961f6b3dd8773eea4f7b9ea
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
-ms.translationtype: HT
+ms.openlocfilehash: 65cfa5be344c14c466dc07799259ef8d8a018b39
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5465626"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065788"
 ---
 # <a name="add-to-your-performance-journal-and-send-praise-to-someone"></a>Jõudluse töölehele kirje lisamine ja teistele tänu saatmine
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Jõudluse töölehel on teave, mis on seotud sellega, kuidas olete oma eesmärke saavutanud või millised on teie tulemused mingil perioodil. Töölehe kaudu saab ka kolleegi tegevusi kiita. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid. See protseduur on funktsiooni kohta, mis lisati rakenduse Dynamics 365 for Operations versioonis 1611.
 
-1. Avage Kõik tööruumid > Töötaja iseteenindus.
-2. Klõpsake valikut Jõudluse tööraamat.
-3. Klõpsake valikut Uus.
-4. Sisestage väärtus väljale Pealkiri.
-5. Sisestage väljale Kirjeldus soovitud väärtus.
+1. Avage **Kõik tööruumid** > **Töötaja iseteenindus**.
+2. Klõpsake valikut **Jõudluse tööraamat**.
+3. Klõpsake valikut **Uus**.
+4. Sisestage väärtus väljale **Pealkiri**.
+5. Sisestage väärtus väljale **Kirjeldus**.
     * Jõudluse töölehe kuupäev on töölehe loomise kuupäev.  
-    * Allikas näitab, kust jõudluse tööleht pärineb. Kui teie selle loote, on selle lähtekoht Minu tööleht. Kui selle loob teie juht, on selle lähtekoht Juhi tööleht.  
-    * Saate seda töölehte oma juhiga jagada või muuta selle nähtavaks ainult endale.  
-6. Sisestage kuupäev väljale Alguskuupäev.
-7. Sisestage kuupäev väljale Lõpetamiskuupäev.
-8. Valige Jah väljalt Arenguplaan.
-9. Tippige väärtus väljale Märksõnad.
-10. Klõpsake valikut Lisa väline link.
-11. Tippige väljale Kirjeldus väärtus Envision.
-12. Sisestage internetiaadressi väljale väärtus https://www.microsoft.com/en/envision/default.
-13. Klõpsake nupu Salvesta all olevat selgitust „Jõudluse tööleht” ruudustikku naasmiseks.
-    * Valitud töölehe või töölehed saab lisada eesmärgile, nii et see kuvatakse, kui eesmärgi avad. Kiirkaardile Lingid lisatakse link. Kui lisate eesmärgile töölehe ja seejärel lisate eesmärgi hindamisse, kuvatakse tööleht automaatselt hindamises.  
-    * Valitud töölehe või töölehed saab lisada hindamisele, nii et see kuvatakse, kui hindamise avad.    Kiirkaardile Lingid lisatakse link.  
-14. Klõpsake nuppu Kiirlisamine.
-15. Sisestage väärtus väljale Pealkiri.
-16. Sisestage väljale Kirjeldus soovitud väärtus.
-17. Klõpsake nuppu Salvesta.
-18. Klõpsake nuppu Saada kiitus.
+    * Allikas näitab, kust jõudluse tööleht pärineb. Kui teie selle loote, on selle lähtekoht Minu tööleht. Kui selle loob teie juht, on selle lähtekoht Juhi tööleht.      * Saate seda töölehte oma juhiga jagada või muuta see nähtavaks ainult endale.  
+6. Väljale **Alguskuupäev** sisestage kuupäev.
+7. Väljale **Lõpetamiskuupäev** sisestage kuupäev.
+8. Valige väärtus **Jah** väljal **Arenguplaan**.
+9. Sisestage väärtus väljale **Märksõnad**.
+10. Klõpsake valikut **Lisa väline link**.
+11. Tippige väljale **Kirjeldus** "Envision".
+12. Sisestage **Internetiaadressi** väljale "https://www.microsoft.com/en/envision/default".
+13. Klõpsake nupu **Salvesta** all olevat selgitust **Jõudluse tööleht** ruudustikku naasmiseks.
+    * Valitud töölehe või töölehed saab lisada eesmärgile, nii et see kuvatakse, kui eesmärgi avad. Kiirkaardile **Lingid** lisatakse link. Kui lisate eesmärgile töölehe ja seejärel lisate eesmärgi hindamisse, kuvatakse tööleht automaatselt hindamises.  
+    * Valitud töölehe või töölehed saab lisada hindamisele, nii et see kuvatakse, kui hindamise avad. Kiirkaardile **Lingid** lisatakse link.  
+14. Klõpsake nuppu **Kiire** lisamine.
+15. Sisestage väärtus väljale **Pealkiri**.
+16. Sisestage väärtus väljale **Kirjeldus**.
+17. Klõpsake nuppu **Salvesta**.
+18. Klõpsake nuppu **Saada kiitus**.
 19. Valige ettevõtte töötajate nimekirjas olev inimene.
-20. Sisestage väljale Kirjeldus tekst „Aitäh abi eest konverentsil!”.
-21. Klõpsake käsku Saada.
+20. Sisestage väljale **Kirjeldus** tekst **Aitäh abi eest konverentsil!**.
+21. Klõpsake käsul **Saada**.
 
 
 

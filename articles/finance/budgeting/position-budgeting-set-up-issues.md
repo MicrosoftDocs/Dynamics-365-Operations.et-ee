@@ -2,11 +2,9 @@
 title: Ametikoha eelarvestamise tõrkeotsing
 description: Selles artiklis on vastused küsimustele, mis võivad teil ametikoha eelarvestuse konfigureerimisel tekkida. Käsitletud on korduma kippuvaid küsimusi selle kohta, kuidas luua eelarve kuluelemente, hüvitusgruppe ja hüvitusruudustikke.
 author: panolte
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmBudgetPurposeType, HcmPositionForecast
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0f03ab1437d7b4af38b3594892310e27771c829d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.openlocfilehash: 492a0798d1934b0fe1adf4f0546013f394beab06948f02f92358bae408e7748f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5241438"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6726058"
 ---
 # <a name="position-budgeting-troubleshooting"></a>Ametikoha eelarvestamise tõrkeotsing
 
@@ -30,8 +28,7 @@ ms.locfileid: "5241438"
 
 Selles artiklis on vastused küsimustele, mis võivad teil ametikoha eelarvestuse konfigureerimisel tekkida. Käsitletud on korduma kippuvaid küsimusi selle kohta, kuidas luua eelarve kuluelemente, hüvitusgruppe ja hüvitusruudustikke. 
 
-<a name="why-cant-i-find-the-forecast-position-page-in-human-resources"></a>Miks ma ei leia inimressursside moodulis prognoositavat ametikohta?
----------------------------------------------------------------
+## <a name="why-cant-i-find-the-forecast-position-page-in-human-resources"></a>Miks ma ei leia inimressursside moodulis prognoositavat ametikohta?
 
 Prognoositavad ametikohad on teisaldatud eelarvestamise moodulisse.
 

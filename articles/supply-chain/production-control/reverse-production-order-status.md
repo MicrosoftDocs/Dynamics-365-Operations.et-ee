@@ -2,11 +2,9 @@
 title: Tootmistellimuse oleku ennistamine
 description: Selles teemas kirjeldatakse tootmistellimuse oleku ennistamist.
 author: johanhoffmann
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProdParmStatusDecrease, ProdSetupStatusDecrease
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e92a8032abb0695ed0efbd109459e85af88d2dc9
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.openlocfilehash: 0dd17bc48bfb6c78e1baca4faf78d6bc5b3ce426c5f0530174eccd95536a5859
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5262089"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6760414"
 ---
 # <a name="reverse-the-production-order-status"></a>Tootmistellimuse oleku ennistamine
 

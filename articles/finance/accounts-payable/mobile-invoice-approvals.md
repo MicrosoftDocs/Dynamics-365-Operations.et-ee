@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9e6138ccd92019f52afab0d8ed4b8cf64d66ff24
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
-ms.translationtype: HT
+ms.openlocfilehash: 83d95ef6d9fcff060ac992b11ab5773af075fea5409e43430b4826dc097570c7
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897692"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6737351"
 ---
 # <a name="mobile-invoice-approvals"></a>Mobiilsed arvete heakskiidud
 
@@ -27,8 +27,7 @@ ms.locfileid: "5897692"
 
 Mobiilsed võimalused võimaldavad ärikasutajatel mobiilikogemusi kujundada. Täpsemate stsenaariumide puhul võimaldab platvorm arendajatel võimalusi oma soovi kohaselt laiendada. Kõige tulemuslikum viis mõningaid neist uutest mobiilikontseptsioonidest tundma õppida on läbi mõne stsenaariumi kujundamise protsessis. See teema on mõeldud praktilise lähenemise pakkumiseks mobiilistsenaariumide kujundamisele, võttes mobiilse hankija arvete kinnitamise kasutusnäiteks. See teema aitab teil kujundada stsenaariumide muid variatsioone ja seda saab rakendada ka muudele stsenaariumidele, mis pole hankija arvetega seotud.
 
-<a name="prerequisites"></a>Eeltingimused
--------------
+## <a name="prerequisites"></a>Eeltingimused
 
 | Eeltingimus                                                                                            | Kirjeldus                                                                                                                                                          |
 |---------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -137,7 +136,7 @@ Esimene mobiilne leht, mis vajab kujundamist, on kasutajale ülevaatamiseks mä�
 
 1.  Asendage URL-is menüüelemendi nimi stringiga **VendMobileInvoiceAssignedToMeListPage**, et avada loendilehe **Mulle määratud ootel hankija arved** mobiiliversioon moodulis **Ostureskontro**. Olenevalt sellest, kui palju arveid on teile teie süsteemis määratud, kuvatakse sellel lehel need arved. Konkreetse arve otsimiseks võib kasutada vasakul olevat filtrit. Kuid selle näite puhul pole meil konkreetset arvet vaja. Meil on lihtsalt vaja, et teile oleks määratud mõni arve, mis võimaldaks teil mobiilset lehte kujundada. Uued saadaolevad lehed on kujundatud spetsiaalselt hankija arve mobiilistsenaariumide väljatöötamiseks. Seega tuleb kasutada neid lehti. URL peab sarnanema järgmisele URL-ile ja kui olete selle sisestanud, peab avanema joonisel näidatud leht: https://&lt;yourURL&gt;/?cmp=usmf&mi=**VendMobileInvoiceAssignedToMeListPage**&mode=mobile 
 
-    Leht [![Mulle määratud hankija ootel arved](./media/mobile-invoice-approvals01-1024x281.png)](./media/mobile-invoice-approvals01.png)
+    [![Mulle määratud hankija minu lehel ootel arved.](./media/mobile-invoice-approvals01-1024x281.png)](./media/mobile-invoice-approvals01.png)
     
 2.  Klõpsake nuppu **Sätted** (hammasratas) lehe ülemises paremas osas ja seejärel valikut **Mobiilirakendus**
 3.  Valige oma tööruum ja klõpsake nuppu **Redigeeri**
@@ -146,7 +145,7 @@ Esimene mobiilne leht, mis vajab kujundamist, on kasutajale ülevaatamiseks mä�
 6.  Klõpsake nuppu **Valmis**.
 7.  Klõpsake mobiilse kujundaja vahekaardil **Väljad** nuppu **Vali väljad**. Loendilehe veerud peavad sarnanema järgmisele illustratsioonile. 
 
-    [![Veerud lehel Mulle määratud ootel hankija arved](./media/mobile-invoice-approvals02-1024x117.png)](./media/mobile-invoice-approvals02.png)
+    [![Veerud lehel Mulle määratud ootel hankija arved minu lehel.](./media/mobile-invoice-approvals02-1024x117.png)](./media/mobile-invoice-approvals02.png)
     
 8.  Lisage vajalikud veerud loendilehelt, mis tuleb mobiililehel kasutajatele kuvada. Väljad kuvatakse lõppkasutajatele lisamise järjekorras. Ainus võimalus väljade järjestust muuta on kõik väljad uuesti valida. Selle stsenaariumi nõuete põhjal on vaja järgmist kaheksat välja. Kuid mõned kasutajad võivad leida, et kaheksa välja on mobiilsel seadmel liiga palju teavet. Seega näitame mobiili loendivaates ainult kõige olulisemaid välju. Ülejäänud väljad kuvatakse üksikasjavaates, mille kujundame hiljem. Praegu lisame järgmised väljad. Klõpsake plussmärki (**+**) nende veergude mobiililehele lisamiseks.
     - Hankija nimi
@@ -157,7 +156,7 @@ Esimene mobiilne leht, mis vajab kujundamist, on kasutajale ülevaatamiseks mä�
 
     Pärast väljade lisamist peab mobiilileht sarnanema järgmisele illustratsioonile. 
     
-    [![Leht pärast väljade lisamist](./media/mobile-invoice-approvals03.png)](./media/mobile-invoice-approvals03.png)
+    [![Leht pärast väljade lisamist.](./media/mobile-invoice-approvals03.png)](./media/mobile-invoice-approvals03.png)
 
 9.  Nüüd tuleb lisada ka järgmised väljad, et hiljem saaks töövootoimingud lubada.
     - Kuva lõpetamise ülesanne
@@ -176,7 +175,7 @@ Esimene mobiilne leht, mis vajab kujundamist, on kasutajale ülevaatamiseks mä�
 
 Arve üksikasjade lehe kujundamiseks mobiiliversioonile kasutage lehte **VendMobileInvoiceHeaderDetails**. Pange tähele, et olenevalt sellest, kui palju arveid on teile teie süsteemis määratud, kuvatakse sellel lehel vanim arve (esimesena koostatud arve). Konkreetse arve otsimiseks võib kasutada vasakul olevat filtrit. Kuid selle näite puhul pole meil konkreetset arvet vaja. Meil on lihtsalt vaja mõningaid arveandmeid, et saaksime mobiilset lehte kujundada. 
 
-[![Töövoo leht](./media/mobile-invoice-approvals04-1024x425.png)](./media/mobile-invoice-approvals04.png)
+[![Töövoo leht.](./media/mobile-invoice-approvals04-1024x425.png)](./media/mobile-invoice-approvals04.png)
 
 1. Asendage URL-is menüüelemendi nimi stringiga **VendMobileInvoiceHeaderDetails** vormi avamiseks
 
@@ -213,7 +212,7 @@ Arve üksikasjade lehe kujundamiseks mobiiliversioonile kasutage lehte **VendMob
 
 11. Kui kõik väljad eelmisest kahest toimingust on lisatud, klõpsake nuppu **Valmis**. Leht peab sarnanema järgmisele illustratsioonile.
     
-    [![Lisatud lisavälju kujutav illustratsioon](./media/mobile-invoice-approvals05.png)](./media/mobile-invoice-approvals05.png)
+    [![Lisatud lisavälju kujutav illustratsioon.](./media/mobile-invoice-approvals05.png)](./media/mobile-invoice-approvals05.png)
 
 12. Redigeerimisrežiimist väljumiseks klõpsake nuppu **Valmis**.
 
@@ -319,11 +318,11 @@ Töövootoimingute lisamiseks kasutage lehte **VendMobileInvoiceHeaderDetails**.
 
 2. Klõpsake tööruumis redigeerimisrežiimi käivitamiseks nuppu **Redigeeri**.
 
-3. Valige eelnevalt loodud leht <strong>Arve üksikasjad **ja klõpsake siis nuppu **Redigeeri</strong>.
+3. Valige eelnevalt loodud leht <strong>Arve üksikasjad** ja klõpsake siis nuppu **Redigeeri</strong>.
 
 4. Määrake valiku **Dokumendihaldus** sätteks **Jah**, nagu allpool näidatud. **Märkus.** Kui puuduvad nõuded mobiilsel seadmel manuste näitamiseks, võite jätta selle valiku sätteks **Ei**, mis on vaikesäte.
    
-   ![Dokumendihaldus](./media/docmanagement-216x300.png)
+   ![Dokumendihaldus.](./media/docmanagement-216x300.png)
 
 5. Redigeerimisrežiimist väljumiseks klõpsake nuppu **Valmis**.
 
@@ -340,7 +339,7 @@ Selle stsenaariumi nõudmised kinnitavad, et olemas on ainult rea tasemel jaotus
 
 1.  Asendage menüüelemendi nimi URL-is nii, nagu enne tegite. Kuvatav leht peab sarnanema järgmisele illustratsioonile.
 
-    [![Kõigi jaotuste leht](./media/mobile-invoice-approvals06.png)](./media/mobile-invoice-approvals06.png)
+    [![Kõigi jaotuste leht.](./media/mobile-invoice-approvals06.png)](./media/mobile-invoice-approvals06.png)
 
 2.  Avage mobiilne kujundaja nupult **Sätted** (hammasratas).
 

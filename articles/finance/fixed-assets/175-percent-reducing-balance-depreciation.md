@@ -1,12 +1,10 @@
 ---
 title: 175 protsenti väheneva saldoga kulum
-description: Selles teemas antakse ülevaade 175% väheneva jääkväärtuse kulumiarvestusmeetodi kohta.
-author: saraschi2
-manager: AnnBe
+description: Selles teemas antakse ülevaade 175-protsendise vähenevsaldo kulumimeetodist.
+author: moaamer
 ms.date: 10/30/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
@@ -14,21 +12,21 @@ ms.reviewer: roschlom
 ms.custom: 13911
 ms.assetid: cc5d001f-bcfe-4602-9ec1-9e265e9fd188
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 82af2a810df4ea0ab8880eb2215e22e5818e178d
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: 99bd47192d389c373b29a98f5344e1e0c1ab04e6
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4995036"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883259"
 ---
 # <a name="175-percent-reducing-balance-depreciation"></a>175 protsenti väheneva saldoga kulum
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas antakse ülevaade 175% väheneva jääkväärtuse kulumiarvestusmeetodi kohta.
+Selles teemas antakse ülevaade 175-protsendise vähenevsaldo kulumimeetodist.
 
 Kui valite põhivara kulumireeglite seadistamisel lehe **Kulumireeglid** väljal **Meetod** suvandi **175% vähenev saldo**, on sellele kulumireeglile määratud põhivarade kulumiprotsent kõigil kulumiperioodidel ühesuurune. 
 
@@ -66,9 +64,9 @@ Kui valite kulumiarvestusaasta **Rahandusaasta**, on väljal **Perioodi sagedus*
 
 ## <a name="example-of-175-reducing-balance-depreciation"></a>175% väheneva saldoga kulumireegli näide
 
-|                                |        |
+| Field                          | Väärtus  |
 |--------------------------------|--------|
-| Soetusmaksumus               | 11 000 |
+| Soetusmaksumus               | 11,000 |
 | Jääkväärtus                  | 1000  |
 | Kulumiarvestuse alus              | 10 000 |
 | Kasutusea aastad             | 5      |
@@ -87,3 +85,6 @@ Kui valite kulumiarvestusaasta **Rahandusaasta**, on väljal **Perioodi sagedus*
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

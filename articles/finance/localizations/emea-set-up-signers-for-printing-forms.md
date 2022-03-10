@@ -2,11 +2,9 @@
 title: Prinditud vormide allkirjastajate seadistamine
 description: Juriidiliste isikute puhul Tšehhi Vabariigis, Eestis, Ungaris, Leedus, Lätis, Poolas ja Venemaal saate seadistada allkirjastajaid ja õigusi klientidele ning hankijatele, kes prindivad dokumente nagu arved ja kassaorderid.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, R
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6947a71992e2b30fedd7e4594fa041b459b851ff
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.openlocfilehash: e5e80699f3ac2faaf947e0ce93e9408e3d0811265ec70d41c2a8b93e0f0d358a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5236216"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6717452"
 ---
 # <a name="set-up-signers-for-print-forms"></a>Prinditud vormide allkirjastajate seadistamine
 
@@ -28,8 +26,7 @@ ms.locfileid: "5236216"
 
 Juriidiliste isikute puhul Tšehhi Vabariigis, Eestis, Ungaris, Leedus, Lätis, Poolas ja Venemaal saate seadistada allkirjastajaid ja õigusi klientidele ning hankijatele, kes prindivad dokumente nagu arved ja kassaorderid.
 
-<a name="set-up-default-values"></a>Vaikeväärtuste seadistamine
----------------------
+## <a name="set-up-default-values"></a>Vaikeväärtuste seadistamine
 
 Ettevõtte prinditavate dokumentide allkirjastajate seadistamiseks kasutage lehte **Ametiisikud**. Saate seadistada allkirjastajaid ja nende õigusi nii ettevõtte kui ka klientide või hankijate puhul, olenevalt dokumendi tüübist. Järgmises tabelis kirjeldatakse lehe **Ametiisikud** vahekaarte.
 

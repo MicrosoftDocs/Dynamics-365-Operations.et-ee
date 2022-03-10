@@ -1,32 +1,31 @@
 ---
-title: Rakenduse Finance and Operations dokumentatsioon
-description: Finance and Operationsi rakenduste dokumentatsioon.
-author: robinarh
-manager: AnnBe
-ms.date: 07/25/2019
+title: Rakenduse Rahandus ja toimingud dokumentatsioon
+description: Rahanduse ja toimingute rakenduste dokumentatsioon.
+author: tonyafehr
+ms.date: 04/13/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
 ms.search.form: DefaultDashboard
 audience: Application User
-ms.reviewer: rhaertle
-ms.custom: 62303
+ms.reviewer: tfehr
+ms.custom: intro-internal
 ms.search.region: Global
-ms.author: rhaertle
+ms.author: tfehr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d9421cbe9eeb44fcd0d0f0c688e84ae2043610ac
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: cf2278cbf47c5fd2937e7da55c8777709ab7d356
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5562357"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075393"
 ---
-# <a name="finance-and-operations-application-documentation"></a>Rakenduse Finance and Operations dokumentatsioon
+# <a name="finance-and-operations-application-documentation"></a>Rakenduse Rahandus ja toimingud dokumentatsioon
 
 [!include [banner](includes/banner.md)]
 
-Vaadake, kuidas rakendused Finance and Operations oma ettevõtte heaks tööle panna, kasutades selle teema ressursse lõppkasutajate, arendajate ja IT-professionaalide jaoks suurepärase sisu leidmiseks. 
+Vaadake, kuidas rakendused Rahandus ja toimingud oma ettevõtte heaks tööle panna, kasutades selle teema ressursse lõppkasutajate, arendajate ja IT-professionaalide jaoks suurepärase sisu leidmiseks. 
 
 Suur osa sellest sisust kehtib ka seotud toodete – Dynamics 365 Commerce'i ja Dynamics 365 Human Resourcesi puhul. 
 
@@ -45,7 +44,7 @@ Suur osa sellest sisust kehtib ka seotud toodete – Dynamics 365 Commerce'i ja 
  <p><a href="get-started/purchase-on-premises.md">Rakenduse Finance and Operations (on-premises) ostmine</a></p>
 
 <h3><a href="imp-lifecycle/implementation-lifecycle.md">Juurutamise elutsükkel</a></h3>
-<p><a href="get-started/fasttrack-dynamics-365-overview.md">FastTrack for Dynamics 365</a></p>
+<p><a href="/dynamics365/fasttrack/">FastTrack for Dynamics 365</a></p>
 <p><a href="imp-lifecycle/onboard.md">Projekti kasutuselevõtt</a></p>
 <p><a href="imp-lifecycle/prepare-go-live.md">Ettevalmistamine süsteemi Go-Live jaoks</a></p>
 
@@ -77,20 +76,22 @@ Suur osa sellest sisust kehtib ka seotud toodete – Dynamics 365 Commerce'i ja 
 <p><a href="../../finance/cost-accounting/cost-accounting-home-page.md">Kuluarvestus</a></p>
 <p><a href="../../finance/fixed-assets/fixed-assets.md">Põhivarad</a></p>
 <p><a href="../../finance/general-ledger/general-ledger.md">Pearaamat</a></p>
-<p><a href="../../finance/project-management/overview-project-management-accounting.md">Projektihaldus</a></p>
+<p><a href="/dynamics365/project-operations/prod-pma/overview-project-management-accounting">Projektihaldus</a></p>
 <p><a href="../../finance/public-sector/public-sector-functionality.md">Avalik sektor</a></p>
 <p><a href="../dev-itpro/lcs-solutions/country-region.md">Regionaalsed regulatiivsed funktsioonid</a></p>
 
 <h3><a href="hr/hr-landing-page.md">Inimressursid</a></h3>
+<p><a href="../../human-resources/hr-employee-manager-self-service-overview.md">Töövõtja iseteenindus</a></p>
+<p><a href="../../human-resources/hr-personnel-departments-jobs-positions.md">Personalihaldus</a></p>
+<p><a href="../../human-resources/hr-leave-and-absence-overview.md">Puhkused ja puudumine</a></p>
 <p><a href="../../human-resources/hr-benefits-manage-program.md">Soodustused</a></p>
-<p><a href="../../human-resources/hr-develop-performance-management-overview.md">Töövõtja areng ja koolitused</a></p>
-<p><a href="../../human-resources/hr-learning-questionnaires.md">Küsimustikud</a></p>
-<p><a href="hr/manage-recruiting-process.md">Värbamine</a></p>
-<p><a href="hr/localizations/noam-usa-payroll.md">USA palk</a></p>
+<p><a href="../../human-resources/hr-develop-performance-management-overview.md">Töötajate areng</a></p>
+<p><a href="../../human-resources/hr-learning-courses.md">Õpe</a></p>
+ <p><a href="hr/localizations/noam-usa-payroll.md">USA palk</a></p>
 
 </td>
 <td>
-<h3><a href="../../supply-chain/index.md">Hankeahela haldamine</a></h3>
+<h3><a href="../../supply-chain/index.md">>Tarneahela juhtimine</a></h3>
 <p><a href="../../supply-chain/cost-management/costing-sheets.md">Kuluhaldus</a></p>
 <p><a href="../../supply-chain/inventory/inventory-home-page.md">Varude haldus</a></p>
 <p><a href="../../supply-chain/master-planning/master-plans.md">Koondplaneerimine</a></p>
@@ -127,16 +128,11 @@ Suur osa sellest sisust kehtib ka seotud toodete – Dynamics 365 Commerce'i ja 
 </td>
 <td>
 <h3>Seotud tooted</h3>
-<h4><a href="../../retail/index.md">Dynamics 365 Commerce</a></h4>
-<p><a href="../../retail/call-center-functionality.md">Kõnekeskus</p>
-<p><a href="../../retail/define-maintain-retail-channels.md">Kanali seadistus ja haldamine</p>
-<p><a href="../../retail/retail-peripherals-overview.md">MPOS ja Cloud POS</p>
-<p><a href="../../retail/dev-itpro/dev-retail-home-page.md">Kaubanduse arendaja ja haldus</p>
-
-<h4><a href="../../human-resources/hr-welcome.md">Dynamics 365 Human Resources</a></h4>
-<p><a href="../../human-resources/hr-admin-overview.md">Administraatori juhend</a></p>
-<p><a href="../../human-resources/hr-developer-overview.md">Arendaja juhend</a></p>
-<p><a href="../../human-resources/hr-hrpro-overview.md">Kasutusjuhend</a></p>
+<h4><a href="/dynamics365/commerce/">Dynamics 365 Commerce</a></h4>
+<p><a href="../../commerce/call-center-functionality.md">Kõnekeskus</p>
+<p><a href="../../commerce/define-maintain-retail-channels.md">Kanali seadistus ja haldamine</p>
+<p><a href="../../commerce/retail-peripherals-overview.md">MPOS ja Cloud POS</p>
+<p><a href="../../commerce/dev-itpro/dev-retail-home-page.md">Kaubanduse arendaja ja haldus</p>
 
 
 </td>

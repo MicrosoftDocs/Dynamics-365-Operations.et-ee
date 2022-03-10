@@ -2,11 +2,9 @@
 title: EEU-00047 Töötajale avansi maksmine
 description: See protseduur näitab, kuidas seadistada ja registreerida avansisaaja kandeid.
 author: v-oloski
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RCashTable, LedgerJournalSetup, HcmWorkerGroup_RU, EmplPosting_RU, VendParameters, RCashPosting, BankParameters, PaymTerm, HcmWorker, HcmWorkerNewWorker, HcmWorkerAdvHolderTableListPage_RU, HcmWorkerAdvHolderTable_RU, PurchTable, PurchCreateOrder, HcmAdvHolderLookup_RU, InventItemIdLookupPurchase, VendEditInvoice, VendEditInvoiceDefaultQuantityForLinesDropDialog, EmplTrans_RU, EmplBalance_RU
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, R
 ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 98152c9a0b471977a00ef875dba5d102c1de80f9
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: e4742071dbf8ea4e312ab7f9f068b68c0ece6c2bff4c8533f1fdbb904c26b0dd
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4990043"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6744912"
 ---
 # <a name="eeu-00047-advance-payment-to-employee"></a>EEU-00047 Töötajale avansi maksmine
 
@@ -170,3 +168,6 @@ See protseduur näitab, kuidas seadistada ja registreerida avansisaaja kandeid. 
 12. Sulgege leht.
 13. Klõpsake suvandit Kanded.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

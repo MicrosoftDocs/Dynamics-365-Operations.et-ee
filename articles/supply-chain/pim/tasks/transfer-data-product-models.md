@@ -1,7 +1,7 @@
 ---
 title: Tootemudelite andmete ülekandmine
 description: Toote konfiguratsioonimudeli andmete eksportimine nõuab, et saadaval oleks vähemalt üks tootemudel.
-author: ShylaThompson
+author: t-benebo
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: DefaultDashboard, EcoResProductVariantMaintainWorkspace, PCProdu
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: benebotg
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 94372960c7478ec07540edb6bce9ca8bc68ec39f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
-ms.translationtype: HT
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 9e1720b3b07f206e2601c24e0719238111774837
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825490"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7565539"
 ---
 # <a name="transfer-data-for-product-models"></a>Tootemudelite andmete ülekandmine
 
@@ -26,14 +26,12 @@ ms.locfileid: "5825490"
 
 Toote konfiguratsioonimudeli andmete eksportimine nõuab, et saadaval oleks vähemalt üks tootemudel. See protseduur kasutab tipptasemel kõlari mudelit demoettevõttes USMF, et näidata teile, kuidas selle mudeli puhul andmeid eksportida.
 
-1. Klõpsake valikut Tootevariandi mudeli määratlus.
-2. Klõpsake valikut Toote konfiguratsioonimudelid.
-3. Otsige loendist ja valige soovitud kirje.
+1. Avage **Tooteteabe haldus \> Tooted \> Tootekonfiguratsiooni mudelid**.
+1. Otsige loendist ja valige soovitud kirje.
     * Valige selle protseduuri jaoks tipptasemel kõlari mudel.  
-4. Klõpsake tegumiribal valikut Mudel.
-5. Klõpsake valikut Ekspordi tootemudel.
+1. Valige toiminguplaanil **Mudel**.
+1. Valige **Ekspordi tootemudel**.
     * Allalaadimiskäitumine erineb brauserite lõikes, olenevalt sellest, kuidas turbesätted seadistatud on.  
-
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Lao ruumi leidmine
 description: Selles teemas antakse teavet lao ruumi leidmise kohta. Lao ruumi leidmise abil saate konsolideerida nõudlust kauba ja mõõtühiku järgi tellimustest, mille olek on tellitud, reserveeritud või väljastatud. See aitab laohalduritel nutikalt planeerida komplekteerimise asukohti enne tellimuse lattu väljatamist ja komplekteerimistöö loomist.
 author: mirzaab
-manager: tfehr
 ms.date: 11/13/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSInventFixedLocation, WHSSlotDemandLocated, WHSSlotDemand, WHSSlotUOMTier, WHSSlotTemplate, WHSLocDirHint, WHSLocDirTable
 audience: Application User
@@ -14,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: fb39daba393944471ee5d412b1eb61754843926f
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.dyn365.ops.version: 10.0.9
+ms.openlocfilehash: 36903bc7ce4164e42d191156b7d9e04bec84d4f6
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4993749"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7575143"
 ---
 # <a name="warehouse-slotting"></a>Lao ruumi leidmine
 
@@ -383,3 +381,6 @@ Kui kõik vajalikud elemendid on paigas, saate häälestada ruumi leidmise autom
 1. Soovi korral saate määrata kordumise automaatselt käivituma.
 
 Selle stsenaariumi harjutuste jaoks **ärge** seadistage automaatset ruumi leidmist.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

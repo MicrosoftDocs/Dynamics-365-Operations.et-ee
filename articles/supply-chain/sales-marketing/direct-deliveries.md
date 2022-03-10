@@ -1,29 +1,26 @@
 ---
 title: Otsetarned
 description: Artikkel sisaldab teavet otsetarnete kohta. Otsetarned on tarned, mis saadetakse hankijalt otse teie kliendile.
-author: ShylaThompson
-manager: tfehr
+author: Henrikan
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchCreateFromSalesOrder, SalesTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 9704
 ms.assetid: 64c51384-8a4e-45d0-83c1-12cea22902f9
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 540f7514a152cfba48d00a3cf863b24d23b4c30e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: a7dd562a67f891c6943db00a6f8cf514bec19677
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4426422"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7572573"
 ---
 # <a name="direct-deliveries"></a>Otsetarned
 
@@ -53,3 +50,6 @@ Kui loote otsetellimuse, ei saabu kaup, mida müüte, kunagi füüsiliselt teie 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

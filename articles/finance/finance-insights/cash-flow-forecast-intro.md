@@ -1,8 +1,8 @@
 ---
-title: Likviidsuse planeerimine
+title: Rahaprognoos
 description: See teema kirjeldab rahavoo prognoosimise võimekust.
 author: ShivamPandey-msft
-ms.date: 07/16/2021
+ms.date: 12/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,20 +17,20 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-19
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: ad568fcd126ad3dc9e5ff269cc3bc99b218e822a
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
-ms.translationtype: HT
+ms.openlocfilehash: 62e30e382d94e4eff73789b3e884c6b81afce6c1
+ms.sourcegitcommit: c8dc60bb760553f166409c2e06dd2377f601c006
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386609"
+ms.lasthandoff: 12/23/2021
+ms.locfileid: "7945825"
 ---
-# <a name="cash-flow-forecast"></a>Likviidsuse planeerimine
+# <a name="cash-forecast"></a>Rahaprognoos
 
 [!include [banner](../includes/banner.md)]
 
 Rahavoog on igale ärile kriitilise tähtsusega. Isegi tulusatel ettevõtetel võib tekkida maksejõuetus, kui nad ei säilita vahetute vajaduste täitmiseks rahavoogu. Finantsülevaadete rahavoo prognoosimise võimalus võib aidata ettevõtetel tõhusalt jälgida ja hallata oma sularahasaldot. See funktsioon kasutab masinõppimist, et aidata ettevõtetel prognoosida rahavoogusid täpsemalt kui varem. Samuti võib see aidata juhtidel teha otsuseid, mis optimeerivad võimalusi oma praeguse sularahajäägi kontekstis. 
 
-Enamiku ettevõtete puhul on rahavoo haldamine ja rahavoo prognoosimine tüütu, korduv ja käsitsi protsess. Enamik ettevõtteid tuginevad Microsoft Exceli lahendustele, mis võib olla erineva keerukuse astmega. Rahavoogude täpse prognoosimise väljakutsed hõlmavad järgmist.
+Enamiku ettevõtete puhul on rahavoo haldamine ja rahavoo prognoosimine tüütu, korduv ja käsitsi protsess. Enamik ettevõtteid tuginevad Microsoft Exceli lahendustele, mis võib olla erineva keerukuse astmega. Likviidsuse täpse prognoosimise maakond hõlmab järgmisi punkte:
 
 - Andmed ei ole otsustajate jaoks kättesaadavad, kuna need on mitmes kohas hajutatud, sealhulgas järgnevates kohtades. 
   - Raamatupidamise või ettevõtte ressursside planeerimise süsteem
@@ -43,25 +43,17 @@ Enamiku ettevõtete puhul on rahavoo haldamine ja rahavoo prognoosimine tüütu,
 ## <a name="details-of-the-cash-flow-forecasts-capability"></a>Rahavoo prognoosimise võimaluse üksikasjad
 Rahavoo prognoosimise funktsioon sisaldab järgmisi võimalusi. 
 
-- Muudab rahavoo andmete integreerimise välistest süsteemidest rakendusse Dynamics 365 Finance lihtsaks. Rahavoo prognoosid võivad kasutada ka andmete importimise ja eksportimise raamistikku. Selle raamistiku abil on Exceli ODataga integreerimine lihtne. Samuti saate kombineerida mitmest allikast pärinevaid andmeid, et luua terviklik rahavoo lahendus. 
-
-- Tutvustab nutikat sularahajääki. Sularahajääl luuakse kliendi maksekäitumise põhjal, et prognoosida aja, millal ettevõte võib oodata sularaha saabumist oma kontodele. Samuti analüüsitakse maksvate hankijate ajaloolisi mustreid, et ennustada tulevaste arvete ja tellimuste eest tasumist. 
-
 - Tutvustab nutikat rahavoo prognoosimist pikaajaliseks prognoosimiseks, kasutades ajaseeriate prognoosimist läbi automaatset integreerimist AI Builderiga.
 
-- Võimaldab salvestada kindla rahavoo positsiooni või prognoosid, neid redigeerida ning seejärel lihtsalt võrrelda ja mõõta prognoosi jõudlust võrreldes tegelike finantsnäitajatega.
+- Võimaldab salvestada kindlaid likviidsuse positsioone või prognoose, neid redigeerida ning seejärel lihtsalt võrrelda ja mõõta prognoosi jõudlust tegelike finantside tulemustega.
 
 - Võimaldab põhjuste ja tagajärgede analüüsi hetktõmmise võrdluse kaudu. Näiteks saate luua mitu hetktõmmist, mis esindavad teie rahavoogude optimistlikke, pessimistlikke ja kõige realistlikumaid vaateid ning võrrelda ja vaadata seejärel erinevusi.
 
-- Pakub võimalust vaadata rahavoo prognoosi mitmes valuutas, erinevates juriidilistes olemites ning filtreerida ja vaadata rahavoogu konkreetsel pangakontol. 
+- Võimaldab teil vaadata likviidsuse prognoosi mitmes valuutas, juriidilistes isikutes ning filtreerida ja vaadata pangakontoga seotud rahavoog. 
 
 - Võimaldab filtreerida ja vaadata finantsdimensiooniga seotud pangakontosid.
 
 Rakenduse Dynamics 365 Finance rahavoo prognoosimise funktsioon võimaldab teie organisatsioonil muuta tüütu, keeruline ja korduv rahavoo prognoosimine lihtsaks automatiseeritud protsessiks. Rahavoo prognoosimise kõige tüütumate aspektide automatiseerimine võimaldab teil keskenduda kriitilise otsuse tegemisele, et saavutada soovitud äritulemusi.
 
-## <a name="setting-up-dimensions-for-cash-flow-forecasting"></a>Rahavoo prognoosimise jaoks dimensioonide seadistamine
-Lehe **Rahavoo prognoosimise seadistus** uus vahekaart võimaldab teil juhtida, milliseid finantsdimensioone tööruumis **Rahavoo prognoosimine** kasutada. See vahekaart ilmub ainult siis, kui rahavoo prognoosimise funktsioon on lubatud. 
-
-Vahekaardil **Dimensioonid** tehke dimensioonide loendis filtreerimiseks valik ja kasutage nooleklahve, et liigutada need parempoolsesse veergu. Rahavoo prognoosimise andmete filtreerimiseks saab valida ainult kaks dimensiooni. 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

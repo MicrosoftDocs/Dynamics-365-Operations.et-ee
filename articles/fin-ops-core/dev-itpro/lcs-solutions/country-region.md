@@ -1,40 +1,38 @@
 ---
 title: Globaliseerimisressursid
 description: See teema sisaldab loetelu ressurssidest, mis aitavad teil riigi-/regioonipõhiste funktsioonide ja pakkumiste kohta rohkem teada saada.
-author: ShylaThompson
-manager: AnnBe
-ms.date: 10/02/2019
+author: kfend
+ms.date: 02/19/2021
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace
 audience: Application User
 ms.reviewer: sericks
 ms.custom: 104173
 ms.search.region: Global
-ms.author: sericks
+ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8ee422b2bdc8b94c2a465d0e48f5da983a410674
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 822f00c21715b928027a7656f299a693686bf5dfc01f1f5a1738d5eb8d4bf124
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685049"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6747511"
 ---
 # <a name="globalization-resources"></a>Globaliseerimisressursid
 
 ## <a name="local-and-regional-deployments"></a>Kohalikud ja regioonipõhised juurutused
 Kui teie riiklike õigusaktidega nõutakse andmete teistsugust talletamist või haldamist kui teistes riikides/regioonides, peate juurutamisel võib-olla arvestama oma riigi/regiooni nõuetega. Võtke arvesse järgmisi ressursse, mis võivad teie jaoks asjakohased olla.
 
-[Finance and Operationsi rakendused, mida käitab 21Vianet Hiinas](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/deployment/china-local-deployment)
+[Finance and Operations rakendused, mida käitab 21Vianet Hiinas](../deployment/china-local-deployment.md)
 
 ## <a name="localization-and-regulatory-features"></a>Lokaliseerimine ja regulatiivsed funktsioonid
 
 [!include [banner](../includes/banner.md)]
 
-Finance and Operationsi rakendused sisaldavad funktsioone artiklis [Toote lokaliseerimise ja tõlke saadavaloleku juhend](https://aka.ms/dynamics_365_international_availability_deck) esitatud riikide/regioonide jaoks. Need funktsioonid aktiveeritakse aktiivse juriidilise isiku esmase aadressi põhjal. 
+Finance and Operations rakendused sisaldavad funktsioone dokumendis [toote lokaliseerimise ja tõlke saadavaloleku juhend](https://aka.ms/dynamics_365_international_availability_deck) esitatud riikide/regioonide kohta. Need funktsioonid aktiveeritakse aktiivse juriidilise isiku esmase aadressi põhjal. 
 
 See teema sisaldab ressursside loetelusid, mis aitavad teil teha järgmist: 
 - saada lisateavet riigi-/regioonikohaste lahenduste arendamise kohta;
@@ -55,7 +53,6 @@ Järgmised ressursid sisaldavad teavet plaanitud ja uute lokaliseerimisfunktsioo
 
 #### <a name="regulatory-updates"></a>Regulatiivsed värskendused
 -   [Regulatiivsed värskendused](../../../finance/localizations/regulatory-updates.md)
--   [Lokaliseerimise portaal](https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/GFMLocalizationPortalMC) (värskendatakse kord nädalas)
 -   [Lifecycle Servicesi (LCS) teema otsing](../lifecycle-services/issue-search-lcs.md) (värskendatakse iga päev)
 
 #### <a name="communication-and-alerts"></a>Suhtlus ja teatised
@@ -63,7 +60,7 @@ Järgmised ressursid sisaldavad teavet plaanitud ja uute lokaliseerimisfunktsioo
 -   [Teatiste edastamine riigi/regiooni-spetsiifiliste regulatiivsete funktsioonide kohta](submit-localization-alerts.md)
 
 #### <a name="dynamics-365-release-plans"></a>Dynamics 365 väljalaskeplaanid
-[Dynamics 365 väljalaskeplaanid](https://docs.microsoft.com/business-applications-release-notes/) sisaldavad kirjeldust täiustatud ja uute võimaluste kohta, mida plaanitakse Dynamics 365 ärirakenduste ja rakendusplatvormide jaoks. 
+[Dynamics 365 väljalaskeplaanid](/business-applications-release-notes/) sisaldavad kirjeldust täiustatud ja uute võimaluste kohta, mida plaanitakse Dynamics 365 ärirakenduste ja rakendusplatvormide jaoks. 
 
 #### <a name="finance-and-operations-apps-whats-new"></a>Finance and Operations rakendused – mis on uut?
 Teemast [Mis on uut või muutunud Finance and Operationsi veebilehel](../../fin-ops/get-started/whats-new-changed.md) leiate rakenduste Finance and Operations konkreetsetesse versioonidesse lisatud funktsioonid.
@@ -133,3 +130,6 @@ Lisateabe saamiseks vt [Spikrisüsteem](../../fin-ops/get-started/help-overview.
 
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

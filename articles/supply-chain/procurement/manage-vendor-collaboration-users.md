@@ -1,29 +1,26 @@
 ---
 title: Hankija koostöö kasutajate haldamine
 description: See teema kirjeldab, kuidas saate taotleda uue hankija koostöö kasutajate ettevalmistamist ja kuidas lisada uue hankija koostöö kontakte.
-author: mkirknel
-manager: tfehr
+author: Henrikan
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: smmContactPerson, VendVendorContactPerson, VendVendorPortalUser
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 220744
 ms.assetid: edc19ad0-3565-4d47-98ac-dda6098f63ac
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: henrikan
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 29930fdb65f96e281e0f0f01db41ec1475ad81c2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: ff0d11bf2c42f7ae63e3db5f31f3ffea2c28f693
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4426542"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7578124"
 ---
 # <a name="manage-vendor-collaboration-users"></a>Hankija koostöö kasutajate haldamine
 
@@ -65,7 +62,7 @@ Enne kui saate taotleda uue kasutaja ettevalmistamist, tuleb see isik seadistada
 4. Jaotises **Kasutaja rollide määramine** valige märkeruut **Määra** turberollidele, mis uuel kasutajal peaks olema.
 5. Klõpsake **Edasta**.
 
-Hankija-kasutaja taotluse edastamisel seatakse valitud hankija konto väli **Hankija koostöö juurdepääs on lubatud** olekusse **Jah** ja käivitatakse kasutajataotluse töövoog. Osana töövoost luuakse uus kasutaja ja määratakse turberollid. Lisaks aktiveeritakse Azure B2B teenus, mis käivitab suhtluse Azure'i portaaliga ja seostab uut või olemasolevat AAD kontot Supply Chain Managementi kasutajakontoga. Lisateavet vt teemast [Mis on Azure AD B2B koostöö?](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b).
+Hankija-kasutaja taotluse edastamisel seatakse valitud hankija konto väli **Hankija koostöö juurdepääs on lubatud** olekusse **Jah** ja käivitatakse kasutajataotluse töövoog. Osana töövoost luuakse uus kasutaja ja määratakse turberollid. Lisaks aktiveeritakse Azure B2B teenus, mis käivitab suhtluse Azure'i portaaliga ja seostab uut või olemasolevat AAD kontot Supply Chain Managementi kasutajakontoga. Lisateavet vt teemast [Mis on Azure AD B2B koostöö?](/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b).
 
 ### <a name="inactivate-a-user"></a>Kasutaja inaktiveerimine
 
@@ -94,3 +91,6 @@ Kasutaja turberollide muutmise taotlemiseks tehke järgmist.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

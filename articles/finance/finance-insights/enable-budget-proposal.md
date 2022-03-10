@@ -1,8 +1,8 @@
 ---
-title: Eelarvesoovituste lubamine (eelversioon)
+title: Luba eelarvesoovitus
 description: Selles teemas selgitatakse, kuidas lülitada finantsülevaadetes sisse eelarvesoovituste funktsioon.
 author: ShivamPandey-msft
-ms.date: 06/03/2021
+ms.date: 02/11/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,32 +15,28 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 948a3e051e5964c5c773cefd90c8587cf833a450
-ms.sourcegitcommit: 655b0e16c7aef6182cd58bc816b901470e1bb2ce
-ms.translationtype: HT
+ms.openlocfilehash: cd0ba4307f93148c241810759df9a95578592ba9
+ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "6222530"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8109550"
 ---
-# <a name="enable-budget-proposals-preview"></a>Eelarvesoovituste lubamine (eelversioon)
+# <a name="enable-budget-proposal"></a>Luba eelarvesoovitus
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Selles teemas selgitatakse, kuidas lülitada finantsülevaadetes sisse eelarvesoovituste funktsioon.
 
-1. Kasutage teavet teenuse Microsoft Dynamics Lifecycle Services (LCS) lehelt, et ühendada Azure SQL-i esmane eksemplar selle keskkonnaga. Käivitage järgmine Transact-SQL (T-SQL) käsk, et lülitada liivakasti keskkonna eelväljaanded sisse. (Enne rakendusobjekti serveriga \[AOS\] eemalt ühenduse loomist võib olla vajalik, et peate LCS-is lülitama oma IP-aadressi juurdepääsu sisse.)
-
-    `INSERT INTO SYSFLIGHTING (FLIGHTNAME, ENABLED) VALUES ('BudgetIntelligentBudgetRegisterProposalFeature', 1)`
-
-    > [!NOTE]
-    > Jätke see samm vahele, kui kasutate 10.0.20 või uuemat versiooni või kui kasutate Service Fabric juurutamist. Finantsülevaadete meeskond peaks olema väljaande juba teie jaoks sisse lülitanud. Kui te funktsiooni tööruumis **Funktsioonihaldus** ei näe või kui selle sisselülitamisel esineb probleeme, võtke ühendust aadressil <fiap@microsoft.com>.
-
-2. Avage tööruum **Funktsioonide haldus** ja järgige järgmisi etappe.
+1. Avage tööruum **Funktsioonide haldus** ja järgige järgmisi etappe.
 
     1. Valige **Otsi värskendusi**.
-    2. Otsige suvandit **Eelarve soovitus** ja lülitage see funktsioon sisse.
+    2. Otsige vahekaardil **Kõik** eelarvesoovitust **·**. Kui te seda funktsiooni ei leia, otsige **(eelvaade) eelarvesoovitust**. 
+    3. Lülitage funktsioon sisse.
 
-3. Avage suvand **Eelarvestamine \> Seadistus \> Põhiline eelarvestamine \> Eelarvesoovitus (eelversioon)** ja valige suvand **Luba funktsioon**.
+2. Avage eelarve **seadistamise peamine \>\> eelarvesoovitus \> ja** valige luba **funktsioon**.
+
+> [!NOTE]
+> Eelarvesoovitusfunktsiooni **puhul** peab eelarve või tegelike andmete jaoks olema vähemalt kolm aastat. See funktsioon kasutab projektsioonides kolme kuni kümne aasta andmeid. Rohkem kui kolm aastat andmeid annab paremad tulemused. Andmed töötavad väärtuste variatsioonide puhul kõige paremini. Kui andmed sisaldavad kõiki püsiandmeid, nt liisimiskulu, võib koolitus nurjuda, sest variatsioonide puudumine ei nõua AI-d summade projektis.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

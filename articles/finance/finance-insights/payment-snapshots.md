@@ -3,7 +3,7 @@ title: Hetktõmmiste ülevaade
 description: Selles teemas kirjeldatakse hetktõmmiste funktsiooni, mis võimaldab teil salvestada likviidsuse prognoosi hilisemaks analüüsimiseks või tegelikkusega võrdlemiseks. Likviidsuse prognoosi loomisel saate selle prognoosi salvestada hetktõmmisena. Seejärel saate kasutada hetktõmmiseid, et redigeerida prognoosi kaasatud kontosid või võrrelda hetktõmmise prognoosi tegelike näitajatega.
 author: ShivamPandey-msft
 ms.date: 11/03/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
@@ -17,17 +17,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-19
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: a91300ac17b36d890840e6c0c3104fad5fce68f0
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
-ms.translationtype: HT
+ms.openlocfilehash: f9b6d44b7381817a40b86c17ee4eaf3dbfc46b67
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752753"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983513"
 ---
 # <a name="snapshots-overview"></a>Hetktõmmiste ülevaade
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Hetktõmmised lasevad organisatsioonidel redigeerida ja salvestada oma teatud ajahetke sularahajääki ja sularaha prognoose. Saate hetktõmmist võrrelda tegeliku finantssüsteemiga, uurida hälvet ja kasutada seda teavet likviidsuse planeerimise parandamiseks aja jooksul. Täpsemalt saab hetktõmmiseid kasutada järgmistel viisidel.
 

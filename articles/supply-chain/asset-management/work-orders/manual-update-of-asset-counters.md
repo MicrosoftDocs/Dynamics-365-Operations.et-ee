@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4618ff2d6880f478683fbed0ed716af5ab8d4d9c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
-ms.translationtype: HT
+ms.openlocfilehash: 74d840cbb064018560a6abc2823f520c2f3179ac42b149c0507c9421a4e73391
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5842245"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6776430"
 ---
 # <a name="manual-update-of-asset-counters"></a>Varaloendurite käsitsi värskendamine
 
@@ -54,7 +54,7 @@ Pidage meeles järgmiseid punkte.
 
 Alloleval joonisel on esitatud lehe **Varaloendurid** näide.
 
-![Joonis 1](media/11-work-orders.png)
+![Joonis 1.](media/11-work-orders.png)
 
 Lehel **Varaloendurid** (**Varahaldus** > **Päringud** > **Varad** > **Varaloendurid**), saate vajadusel korraga teha mitme vara loenduri registreeringuid.
 

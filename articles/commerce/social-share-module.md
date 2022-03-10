@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: c34410a8c817de9fed350bf2cd2dd918a37c230f
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
-ms.translationtype: HT
+ms.openlocfilehash: 2e997cad97d45949c8f542764126a08fb6daa73551079eb2d400d7edfb98ca2b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795353"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6730943"
 ---
 # <a name="social-share-module"></a>Sotsiaalmeedias jagamise moodul
 
@@ -36,7 +36,7 @@ Iga sotsiaalmeedia platvorm võib küpsiseid jälgida, nii et see moodul nõuab 
 
 Järgmisel illustratsioonil on toodud näide toote üksikasjade lehel kasutatavast suhtlussaidil jagamise moodulist.
 
-![Suhtlussaidil jagamise mooduli näide](./media/ecommerce-socialshare.png)
+![Suhtlussaidil jagamise mooduli näide.](./media/ecommerce-socialshare.png)
 
 ## <a name="social-share-module-properties"></a>Suhtlussaidil jagamise mooduli atribuudid
 

@@ -2,11 +2,9 @@
 title: Dimensioonide loomine ja dimensiooniliikmete importimine
 description: Kuluarvestus on sõltumatu moodul, mis nõuab koondandmeid teistest moodulitest.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 09/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMDimension
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 610a9302610af7a074a91dfc2a8c87725b0a1a82
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: 6febb8a48cf6496fb7f4c2ee9f5281d47aa1ccae1a8ecc51c908b3810302e11c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5009489"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6775118"
 ---
 # <a name="create-dimensions-and-import-dimension-members"></a>Dimensioonide loomine ja dimensiooniliikmete importimine
 
@@ -38,7 +36,7 @@ Kuluarvestus on sõltumatu moodul, mis nõuab andmeid teistest moodulitest. Need
 
 Järgnev diagramm illustreerib kuluarvestuses kasutatavaid dimensioone.
 
-[![Kuluarvestuse dimensioonid](./media/cost-eos-dimensions.png)](./media/cost-eos-dimensions.png)
+[![Kuluarvestuse dimensioonid.](./media/cost-eos-dimensions.png)](./media/cost-eos-dimensions.png)
 
 Kui andmed on kuluarvestusse imporditud, saab neid kasutada mitmesuguste vaatenurkade koostamiseks, mis annavad ülevaateid kõigi organisatsiooni tasandite juhtidele. Järgmistes teemades antakse teavet dimensioonide loomise ja dimensiooniliikmete importimise kohta. 
 
@@ -54,3 +52,6 @@ Kui andmed on kuluarvestusse imporditud, saab neid kasutada mitmesuguste vaatenu
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

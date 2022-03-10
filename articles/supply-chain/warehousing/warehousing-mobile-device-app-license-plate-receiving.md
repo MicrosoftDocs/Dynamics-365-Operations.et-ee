@@ -1,12 +1,10 @@
 ---
-title: Identifitseerimisnumbri vastuvõtmine laorakenduse kaudu
-description: Selles teemas selgitatakse, kuidas häälestada laorakendust, et toetada identifitseerimisnumbri vastuvõtmisprotsessi füüsiliste varude vastuvõtmiseks.
+title: Identifitseerimisnumbri vastuvõtmine laohalduse mobiilirakenduse kaudu
+description: Selles teemas selgitatakse, kuidas häälestada ladustamise mobiilirakendust Warehouse Management, et toetada identifitseerimisnumbri vastuvõtmisprotsessi füüsiliste varude vastuvõtmiseks.
 author: perlynne
-manager: tfehr
 ms.date: 04/29/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSParameters, WHSRFMenuItem, WHSLicensePlate, WHSPackingStructure
 audience: Application User
@@ -14,19 +12,19 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-03-31
-ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: f921d08572038d2ac53948825a8ca2459103b7f7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.dyn365.ops.version: 10.0.11
+ms.openlocfilehash: 6663188334c70035906f924c7850a0dc5002f306
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5245150"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103059"
 ---
-# <a name="license-plate-receiving-via-the-warehouse-app"></a>Identifitseerimisnumbri vastuvõtmine laorakenduse kaudu
+# <a name="license-plate-receiving-via-the-warehouse-management-mobile-app"></a>Identifitseerimisnumbri vastuvõtmine laohalduse mobiilirakenduse kaudu
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas selgitatakse, kuidas häälestada laorakendust, et see toetaks identifitseerimisnumbri vastuvõtmisprotsessi füüsiliste varude vastuvõtmiseks.
+Selles teemas selgitatakse, kuidas häälestada ladustamise mobiilirakendust Warehouse Management, et see toetaks identifitseerimisnumbri vastuvõtmisprotsessi füüsiliste varude vastuvõtmiseks.
 
 Selle funktsiooni abil saate kiiresti kirjendada sissetulevate varude vastuvõtmist, mis on seotud saadetise eelteatisega (ASN). Süsteem loob automaatselt ASN-i, kui üleviimistellimuse saatmiseks kasutatakse laohaldusprotsesse. Ostutellimuse protsessi puhul saab ASN-i käsitsi kirjendada või automaatselt importida sissetuleva ASN-i andmeüksuse protsessi abil.
 
@@ -72,22 +70,20 @@ Funktsiooni oma süsteemis kättesaadavaks muutmiseks peate lülitama [funktsioo
 
 ## <a name="show-or-skip-the-receiving-summary-page"></a>Kuva või jäta vastuvõtmise kokkuvõte leht
 
-Saate kasutada funktsiooni *Kokkuvõtte lehe vastuvõtmise juhtimine mobiilses seadmes*, et kasutada täiendava üksikasjaliku lao rakenduse voogu identifitseerimisnumbri vastuvõtmisprotsessi osana.
+Saate kasutada funktsiooni *Kokkuvõtte lehe vastuvõtmise juhtimine mobiilses seadmes*, et kasutada täiendava üksikasjaliku lao mobiilirakenduse Warehouse Management voogu identifitseerimisnumbri vastuvõtmisprotsessi osana.
 
 Kui see funktsioon on sisse lülitatud, annavad identifitseerimisnumbri vastuvõtmise või identifitseerimisnumbri vastuvõtmise ja ladustamise menüü üksused mobiilses seadmes sätte **Kuva vastuvõttev kokkuvõtte leht**. Sellel sättel on järgmised suvandid.
 
 - **Kuva üksikasjalik kokkuvõte** – identifitseerimisnumbri vastuvõtmise ajal kuvatakse töötajatele täiendav leht, mis sisaldab täielikku ASN-i teavet.
 - **Jäta kokkuvõte vahele** – töötajatele ei kuvata täielikku ASN-i teavet. Lao töötajad ei saa määrata ka likvideerimiskoodi või lisada erandeid vastuvõtu protsessi ajal.
 
-Funktsiooni oma süsteemis kättesaadavaks muutmiseks peate lülitama [funktsioonihalduses](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sisse funktsiooni *Kokkuvõtte lehe vastuvõtmise juhtimine mobiilses seadmes*.
+Selle funktsiooni kasutamiseks peab juhtelement, *kas kuvada mobiilse seadme funktsiooni vastuvõtu kokkuvõtete* lehekülg, olema süsteemi jaoks sisse lülitatud. Tarneahela halduse versiooni 10.0.21 puhul on see funktsioon vaikimisi sisse lülitatud. Tarneahela halduse 10.0.25 puhul on see funktsioon kohustuslik ja seda ei saa välja lülitada. Kui käitate versiooni, mis *on*[vanem kui 10.0.25, saavad administraatorid selle funktsiooni sisse või välja lülitada, otsides Juhtelementi, kas kuvada vastuvõtu kokkuvõtteleht mobiilsete seadmete funktsioonis Funktsioonihalduse tööruumis.](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
 
 ## <a name="prevent-transfer-ordershipped-license-plates-from-being-used-at-warehouses-other-than-the-destination-warehouse"></a>Takista üleviimistellimuse – saadetud identifitseerimisnumbrite kasutamist muudes ladudes, mis ei ole sihtkoha ladu
 
 Identifitseerimisnumbri vastuvõtmisprotsessi ei saa kasutada, kui ASN sisaldab juba olemasolevat identifitseerimisnumbri ID-d ja sellel on füüsiline vaba kaubavaru muus lao asukohas, kus identifitseerimisnumbri registreerimine toimub.
 
-Üleviimistellimuste olukorras, kus transiitlaos ei jälgita identifitseerimisnumbreid (ja seega ei jälgita ka füüsilist vaba kaubavaru identifitseerimisnumbri kohta), saate kasutada funktsiooni *Takista üleviimistellimuse – saadetud identifitseerimisnumbrite kasutamist muudes ladudes, mis ei ole sihtkoha ladu*, et vältida transiidis olevate identifitseerimisnumbrite füüsilise vaba kaubavaru värskendamist.
-
-Funktsiooni oma süsteemis kättesaadavaks muutmiseks peate lülitama [funktsioonihalduses](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sisse funktsiooni *Takista üleviimistellimuse saadetud identifitseerimisnumbrite kasutamist muudes ladudes, mis ei ole sihtkoha ladu*.
+Üleviimistellimuste olukorras, kus transiitlaos ei jälgita identifitseerimisnumbreid (ja seega ei jälgita ka füüsilist vaba kaubavaru identifitseerimisnumbri kohta), saate kasutada funktsiooni *Takista üleviimistellimuse – saadetud identifitseerimisnumbrite kasutamist muudes ladudes, mis ei ole sihtkoha ladu*, et vältida transiidis olevate identifitseerimisnumbrite füüsilise vaba kaubavaru värskendamist. Et see funktsioon oleks saadaval, *peab teie süsteemi jaoks olema sisse lülitatud funktsioon Takista üleviimistellimuse* saadetud litsentsiplaate kasutamast muudes ladudes kui sihtlao funktsioon. Tarneahela halduse 10.0.25 puhul on see funktsioon kohustuslik ja seda ei saa välja lülitada. Kui käitate versiooni, mis on vanem kui 10.0.25, saavad administraatorid selle funktsiooni sisse või välja lülitada, otsides seda Funktsioonihalduse [tööruumis](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 Selle funktsiooni haldamiseks, kui see on saadaval, toimige järgmiselt.
 

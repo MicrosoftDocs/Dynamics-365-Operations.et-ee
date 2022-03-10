@@ -2,7 +2,6 @@
 title: Elektroonilise aruandluse vormingute muutmine Exceli malle uuesti rakendades
 description: Selles teemas kirjeldatakse, kuidas muuta ettevõtte dokumentide loomiseks kasutatava elektroonilise aruandluse (ER) vormingut, rakendades muudetud Exceli malli uuesti.
 author: NickSelin
-manager: AnnBe
 ms.date: 06/01/2017
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f28760f42d16b6ffcd301f121e583542bce0fac0
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
-ms.translationtype: HT
+ms.openlocfilehash: 57f0db12657878fa34c86c55925d62100c26cad8799e5e6ace7e7dd81d91cd9f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5559286"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6737871"
 ---
 # <a name="modify-electronic-reporting-formats-by-reapplying-excel-templates"></a>Elektroonilise aruandluse vormingute muutmine Exceli malle uuesti rakendades
 

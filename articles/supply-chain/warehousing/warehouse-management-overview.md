@@ -1,25 +1,24 @@
 ---
 title: Laohalduse ülevaade
 description: Laohalduse abil laotoimingute jälgimine ja automatiseerimine.
-author: ShylaThompson
+author: Mirzaab
 ms.date: 04/20/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: WHSParameters, WHSWorkPool
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: intro-internal
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3778a95fbc459e927cc97711f3e3d06bd4917dc5
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
-ms.translationtype: HT
+ms.openlocfilehash: aa2b62a0bfda57879850771488e6576592fbb894
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6337548"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982848"
 ---
 # <a name="warehouse-management-overview"></a>Laohalduse ülevaade
 

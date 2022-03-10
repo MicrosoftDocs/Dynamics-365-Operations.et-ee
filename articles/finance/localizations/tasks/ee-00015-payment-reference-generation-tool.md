@@ -13,12 +13,12 @@ ms.search.region: Estonia
 ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4f6a424fbfece3e787b64bba962371ba0bf0f787
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
-ms.translationtype: HT
+ms.openlocfilehash: 437ad29e3004672c378e8db3cb57b72b8ce8d4afd5937d921f70c9e186d4ab31
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822619"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6729528"
 ---
 # <a name="ee-00015-payment-reference-generation-tool"></a>EE-00015 Makseviite loomise tööriist
 

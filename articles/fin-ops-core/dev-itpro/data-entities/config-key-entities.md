@@ -1,7 +1,7 @@
 ---
 title: Konfiguratsioonivõtmed ja andmeüksused
 description: Selles teemas kirjeldatakse konfiguratsioonivõtmete ja andmeüksuste vahelist seost.
-author: Sunil-Garg
+author: peakerbl
 ms.date: 05/10/2019
 ms.topic: article
 ms.prod: ''
@@ -11,19 +11,22 @@ ms.reviewer: sericks
 ms.custom: 25341
 ms.assetid: 8e214c95-616b-4ee1-b5a4-fa5ce5147f2c
 ms.search.region: Global
-ms.author: sunilg
+ms.author: peakerbl
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: 72204c0a454c9893b05f2cf37a3d43c49f06532faba48f344644ba83e3351110
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: e9cc92563c426136b2543511ad943fd64b335b70
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737847"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065735"
 ---
 # <a name="configuration-keys-and-data-entities"></a>Konfiguratsioonivõtmed ja andmeüksused
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Enne andmete importimiseks või eksportimiseks andmeüksuste kasutamist soovitame teil määratleda konfiguratsioonivõtmete mõju andmeteüksustele, mida plaanite kasutada.
 

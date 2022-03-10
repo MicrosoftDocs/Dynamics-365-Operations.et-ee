@@ -1,7 +1,7 @@
 ---
 title: Kliendi tagasimaksete genereerimine ja töötlemine
 description: See protseduur näitab, kuidas töödelda kliendi tagasimakseid nõude loomisest kuni nende edastamiseni viitvõlgadena müügireskontrole.
-author: omulvad
+author: Henrikan
 ms.date: 06/25/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: PdsRebateAgreement, SalesTableListPage, SalesCreateOrder, SalesT
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 450d630c133f2ef9ce10bbf199c3c125a9cdf4bc09d23180f956190096265654
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a85c027571a6d77ed61cd874bb9d97221b099967
+ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779586"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7969083"
 ---
 # <a name="generate-and-process-customer-rebates"></a>Kliendi tagasimaksete genereerimine ja töötlemine
 
@@ -69,7 +69,7 @@ See protseduur näitab, kuidas töödelda kliendi tagasimakseid nõude loomisest
 2. Klõpsake suvandit **Kumuleeri**.
 3. Sisestage või valige väärtus väljal **Klient**.
 4. Valige tänane kuupäev **Alguskuupäev**.
-5. Klõpsake valikut **OK**. Funktsiooni **Kumuleeri** käitamise tagajärjel on nüüd hinnanguline nõudesumma korrigeeritud, et võtta arvesse fakti, et kliendi kogu müügimaht vastaval perioodil on suurem kui esimese tagasimakse loomisel. Täpsemalt öeldes, kuna ostetud täielik kogus on jõudnud 100 ühikuni, kvalifitseerub klient nüüd 40 USA dollarile ühiku kohta (leppe teise kogusekatkestuse järgi) või 400 USA dollarile tagasimakse kogusummana. See erinevus salvestatakse uue nõude korrigeerimisena täiendavale 800 USA dollarile. Kumulatiivsesse värskendusse kaasatud tagasimaksenõuete olek on nüüd Arvutatud. 
+5. Klõpsake valikut **OK**. Funktsiooni **Kumuleeri** käitamise tagajärjel on nüüd hinnanguline nõudesumma korrigeeritud, et võtta arvesse fakti, et kliendi kogu müügimaht vastaval perioodil on suurem kui esimese tagasimakse loomisel. Täpsemalt öeldes, kuna ostetud täielik kogus on jõudnud 100 ühikuni, kvalifitseerub klient nüüd 40 USA dollarile ühiku kohta (leppe teise kogusekatkestuse järgi) või 4,000 USA dollarile tagasimakse kogusummana. See erinevus salvestatakse uue nõude korrigeerimisena täiendavale 800 USA dollarile. Kumulatiivsesse värskendusse kaasatud tagasimaksenõuete olek on nüüd Arvutatud. 
 6. Märkige loendis kõik read.
 7. Klõpsake nuppu **Kinnita**.
 8. Klõpsake nuppu **Töötle**.

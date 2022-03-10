@@ -2,7 +2,7 @@
 title: Käibemaksukoodide seadistamine
 description: Selles teemas selgitatakse, kuidas seadistada käibemaksukoode rakenduses Dynamics 365 Finance.
 author: twheeloc
-ms.date: 08/29/2018
+ms.date: 09/27/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6c7208fa65905fcc902d9c08b5b90178745e76d4
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
-ms.translationtype: HT
+ms.openlocfilehash: 2539d701dda4ef5e1484d095b2d86d1f68a0dc98
+ms.sourcegitcommit: 86f0574363fb869482ef73ff294f345f81d17c5b
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815040"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7562098"
 ---
 # <a name="set-up-sales-tax-codes"></a>Käibemaksukoodide seadistamine
 
@@ -38,11 +38,19 @@ See ülesanne kasutab demoettevõtte USMF andmeid.
 8. Valige liidese ülaosas **Toimingupaanil** valik **Käibemaksukood**.
 9. Valige **Väärtused**.
 10. Sisestage väärtus sellele käibemaksukoodile veerus **väärtus**.
-    - Kui päritolu välja kiirkaardil **Arvutused** on valitud summa üksuse kohta, korrutatakse väärtust kande kogusega, et arvutada käibemaksu summa.  Kui maksukood pole ühikupõhine maks, on väärtus protsent, mis rakendatakse selle maksukoodi päritolule käibemaksu summa arvutamiseks.     
+
+    Kui **Päritolu** välja kiirkaardil **Arvutused** on valitud **Summa üksuse kohta** , korrutatakse väärtust kande kogusega, et arvutada käibemaksu summa.  Kui maksukood pole ühikupõhine maks, on väärtus protsent, mis rakendatakse selle maksukoodi päritolule käibemaksu summa arvutamiseks.     
+
 11. Valige käsk **Salvesta**.
 12. Sulgege leht.
 13. Valige käsk **Salvesta**.
 
+Microsoft Dynamics 365 Finance versiooni 10.0.22 puhul kasutades [Maksuteenust ja](../../localizations/global-tax-calcuation-service-overview.md) kui **Funktsioonihalduse** tööruumis on lubatud [**Mitme KM-i registreerimisnumbrite toe**](../../localizations/emea-multiple-vat-registration-numbers.md) funktsioon, saate **Maksukoodi tüübi** välja kasutada maksukoodi tüübi määramiseks. Saadaval on järgmised väärtused:
 
+- Standardne KM
+- Alandatud KM
+- KM 0%
+- Aktsiis
+- Muud
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

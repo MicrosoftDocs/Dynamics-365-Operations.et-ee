@@ -2,28 +2,28 @@
 title: Täiendamise ülevaade
 description: Selles teemas kirjeldatakse täiendamisstrateegiaid, mis on saadaval ladude puhul, milles seda laohalduse moodulis saadaolevat funktsiooni kasutatakse.
 author: Mirzaab
-manager: tfehr
 ms.date: 02/19/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSReplenishmentTemplates, WHSReplenishmentTemplates, WHSInventFixedLocation, WHSRequestType
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 90043
+ms.custom:
+- "90043"
+- intro-internal
 ms.assetid: 49fa97eb-8e10-49a5-9261-1e393159f178
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d554a6d415ca3e720c71387e218e50215c288991
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: 7681294c1c05f1ca93330c948fc454b6460cb41c
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4996069"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985780"
 ---
 # <a name="replenishment-overview"></a>Täiendamise ülevaade
 
@@ -78,3 +78,6 @@ Selle asemel, et võtta nõudlus eraldamisprotsessi lõppemisel kokku ja täiend
 |   Asukoha korraldus   |                                                       Asukohakorraldusi on vaja selleks, et juhtida töö asukohtadesse, kus täiendamine on vajalik, ja asukohtadesse, kust varusid hangitakse.                                                        |
 |     Töömallid      |                                                   Töömallid tüübiga <strong>Täiendamine</strong> on vajalikud täiendamistöö loomiseks, et varud saaks soovitud asukohtadesse viia.                                                    |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

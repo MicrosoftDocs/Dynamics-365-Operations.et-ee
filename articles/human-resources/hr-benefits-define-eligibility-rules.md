@@ -1,71 +1,74 @@
 ---
 title: Soodustuskõlblikkuse reeglite ja poliitikate määratlemine
-description: Selles artiklis näidatakse, kuidas luua soodustuse kõlblikkuse reegleid ja poliitikaid ning seejärel soodustustele reegleid määrata.
-author: andreabichsel
-manager: AnnBe
-ms.date: 02/03/2020
+description: Selles teemas selgitatakse, kuidas luua soodustuse kõlblikkuse reegleid ja poliitikaid ning seejärel soodustustele reegleid määrata.
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysPolicySourceDocumentRuleType, SysPolicyListPage, SysPolicy, HcmBenefitEligibilityPolicy, HcmBenefit, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Version 7.0.0, Human Resources
-ms.openlocfilehash: f46437fef342ab1a4e368063d8b74205ca8e8c05
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: c2595e40f6f9d1f75a94a3339735cc06bdabd14a
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418146"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067650"
 ---
 # <a name="define-benefit-eligibility-rules-and-policies"></a>Soodustuskõlblikkuse reeglite ja poliitikate määratlemine
 
-Selles artiklis näidatakse, kuidas luua soodustuse kõlblikkuse reegleid ja poliitikaid ning seejärel soodustustele reegleid määrata.  
 
-Selle kirje loomisel kasutati demoettevõtte USMF-i andmeid.
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+Selles teemas selgitatakse, kuidas luua soodustuse kõlblikkuse reegleid ja poliitikaid ning seejärel soodustustele reegleid määrata.  
 
 ## <a name="create-benefit-eligibility-policy-rule-type"></a>Soodustuskõlblikkuse poliitika reegli tüübi loomine
-1. Avage Inimressursid > Soodustused > Kõlblikkus > Soodustuskõlblikkuse poliitika reeglitüübid.
-2. Klõpsake valikut Uus.
-3. Sisestage väärtus väljale Reegli nimi.
-4. Sisestage väljale Kirjeldus soovitud väärtus.
-5. Klõpsake väljal Päringu nimi otsingu avamiseks ripploendi nuppu.
-6. Klõpsake loendis valitud real olevat linki.
-7. Klõpsake nuppu Salvesta.
+
+1. Avage **Inimressursid > Soodustused > Kõlblikkus > Soodustuskõlblikkuse poliitika reeglitüübid**.
+2. Valige suvand **Uus**.
+3. Sisestage väljale **Reegli nimi** väärtus.
+4. Sisestage väärtus väljal **Kirjeldus**.
+5. Valige väljal **Päringu nimi** ripploendi nupp otsingu avamiseks.
+6. Valige loendis link valitud reas.
+7. Valige käsk **Salvesta**.
 8. Sulgege leht.
 
 ## <a name="benefit-eligibility-policy"></a>Sooduskõlblikkuse poliitika
-1. Avage Inimressursid > Soodustused > Kõlblikkus > Soodustuskõlblikkuse poliitikad.
+
+1. Avage **Inimressursid > Soodustused > Kõlblikkus > Soodustuskõlblikkuse poliitikad**.
 2. Valige olemasolev soodustuse poliitika.
-3. Klõpsake loendis valitud real olevat linki.
-4. Laiendage jaotisi Poliitika organisatsioonid.  Siin saate lisada või eemaldada mis tahes organisatsioone, mida soovite poliitikasse kaasata.
-5. Laiendage või ahendage jaotist Poliitika reeglid.
+3. Valige loendis link valitud reas.
+4. Laiendage jaotisi **Poliitika organisatsioonid**. Saate lisada või eemaldada mis tahes organisatsioone, mida soovite poliitikasse kaasata.
+5. Laiendage või ahendage jaotist **Poliitika reeglid**.
 6. Leidke loendist varem loodud poliitika reegel.
-7. Klõpsake valikut Loo poliitika reegel.
-8. Sisestage väljale Jõustumiskuupäev kuupäev, alates millest soovite muuta poliitika jõustuvaks.
-    * Jõustumis- ja lõppkuupäevade seadistamine võimaldab teil poliitika reegleid edaspidi muuta ja kõrvaldab vajaduse poliitika juurde naasta, kui soovite, et need muudatused jõustuksid.  
-9. 
-    * Näiteks kui soovisite reeglit rakendada ainult müügijuhtidele, saite luua Kui tingimuse, mis ütleb järgmist: kui ametikoha kirjeldus võrdub müügijuhi omaga.  Saate operaatoritega And või Or kaasata reeglisse mitu Kui tingimust.  
-10. Klõpsake nuppu OK.
+7. Valige **Poliitika reegli loomine**.
+8. Sisestage väljale **Jõustumiskuupäev** kuupäev, alates millest soovite muuta poliitika jõustuvaks.
+    * Jõustumis- ja lõppkuupäevade seadistamine võimaldab teil poliitika reegleid edaspidi muuta ja et teil pole vaja poliitika juurde naasta, kui soovite, et need muudatused jõustuksid.  
+9. Vajadusel lisage väljale **Lisa tingimus** kui-tingimus.
+    * Näiteks kui soovisite reeglit rakendada ainult müügijuhtidele, saite luua Kui tingimuse, mis ütleb järgmist: kui ametikoha kirjeldus võrdub müügijuhi omaga. Saate reeglisse lisada mitu kui-tingimust koos.  
+10. Valige nupp **OK**.
 11. Sulgege leht.
-12. Sulgege leht.
 
 ## <a name="assign-rule-to-benefit"></a>Reegli määramine soodustusele
-1. Avage Personaliarvestus > Soodustused > Soodustused.
+
+1. Avage **Personaliarvestus > Soodustused > Soodustused**.
 2. Otsige loendist ja valige soovitud kirje.
-3. Klõpsake loendis valitud real olevat linki.
-4. Laiendage või ahendage jaotist Sobivuse reeglid.
-5. Klõpsake nuppu Redigeeri.
-6. Valige väljal Sobivus reegel loendi alusel.
-7. Klõpsake väljal Reegli tüüp otsingu avamiseks ripploendi nuppu.
-8. Leidke ja valige loendist varem loodud reegel.
-9. Klõpsake loendis valitud real olevat linki.
-10. Klõpsake nuppu Salvesta.
+3. Valige loendis link valitud reas.
+4. Laiendage või ahendage jaotist **Sobivuse reeglid**.
+5. Valige suvand **Redigeeri**.
+6. Valige väljal **Sobivus** väärtus reegel.
+7. Valige väljal **Reegli tüüp** varem loodud reegel.
+9. Valige loendis link valitud reas.
+10. Valige käsk **Salvesta**.
 11. Sulgege vorm.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

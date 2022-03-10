@@ -2,7 +2,7 @@
 title: Kinkekaardi moodul
 description: See teema hõlmab kinkekaardi mooduleid ja kirjeldab, kuidas neid rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
 author: anupamar-ms
-ms.date: 04/29/2021
+ms.date: 08/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 7fc35c67a2d9b641f03f11ed5d06913e10d8e25b
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
-ms.translationtype: HT
+ms.openlocfilehash: 5a4aaf8e072f6547fe1dcf6fa156d2e144fd03ed806a2dc809a2cedb991461f7
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6347490"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6728335"
 ---
 # <a name="gift-card-module"></a>Kinkekaardi moodul
 
@@ -48,11 +48,17 @@ Järgmisel pildil on näide kinkekaardi moodulist maksmise lehel.
 
 - **Kuva lisavälju** – see atribuut määratleb, millised kinkekaardi väljad tuleks kuvada peale kinkekaardi numbri, mida kuvatakse vaikimisi alati. Näiteks osad kinkekaardid toetavad isikliku ID-numbri (PIN-koodi) kuvamist ja osad toetavad PIN-koodi ja aegumiskuupäeva kuvamist. Selle atripuudi väärtuseks võib määrata ka „Puudub”, mis tähendab, et kuvatakse ainult kinkekaardi number ilma täiendavate väljadeta.
 
-Toetatud väärtused.
--   PIN
--   Aegumiskuupäev
--   PIN-kood ja aegumiskuupäev 
--   None
+    Toetatud on järgmised väärtused:
+
+    - PIN
+    - Aegumiskuupäev
+    - PIN-kood ja aegumiskuupäev 
+    - None
+
+- **Luba külaliskasutajatele** – kui see atribuut on lubatud, saavad külaliskasutajad kinkekaarte lunastada või saldosid kontrollida. See atribuut nõuab, et Commerce'i peakorteris lubataks kinkekaartidele anonüümne (külalis)juurdepääs. Lisateavet leiate teemast [Kinkekaardimaksete lubamine külaliste väljaregistreerimiseks](#enable-gift-card-payments-for-guest-checkout).
+
+> [!IMPORTANT]
+> Atribuut **Luba külaliskasutajatele** on saadaval alates Commerce'i versiooni 10.0.21 väljalaskest. See nõuab Commerce mooduli teegi paketi versiooni 9.31 installimist.
 
 ## <a name="site-settings-for-gift-card-modules"></a>Kinkekaardi moodulite saidisätted
 

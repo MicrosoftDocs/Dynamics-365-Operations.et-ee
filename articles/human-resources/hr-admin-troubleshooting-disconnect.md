@@ -1,30 +1,30 @@
 ---
 title: Kliendi ühendus katkeb
-description: See artikkel selgitab, mida teha, kui kliendi ühendus tema keskkonnaga katkeb ja põhjus pole teada.
-author: andreabichsel
-manager: tfehr
-ms.date: 02/03/2020
+description: See teema selgitab, mida teha, kui kliendi ühendus tema keskkonnaga katkeb.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6808132e182ea6fed4fb0605fd07c008d208e89f
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
-ms.translationtype: HT
+ms.openlocfilehash: b15c5db19f1b07e3d469986ac700138ecb1d1525
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5468175"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071131"
 ---
 # <a name="client-disconnects"></a>Kliendi ühendus katkeb
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -34,7 +34,7 @@ Probleem võib esineda kõigis keskkondades.
  
 **Sümptom** 
 
-Kliendi ühendus tema keskkonnaga katkeb ja põhjus pole teada. Klient saab ühe järgmistest tõrketeadetest:
+Kliendi ühendus keskkonnaga katkeb ja selle põhjus pole teada. Klient saab ühe järgmistest tõrketeadetest:
 
 - Teie ühendus on katkenud. Töötamiseks jätkamises klõpsake nuppu Sule.
 - Näib, et olete kaotanud võrguühenduse. Uuesti proovimiseks klõpsake nuppu Proovi uuesti.

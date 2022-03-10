@@ -1,26 +1,28 @@
 ---
 title: SEPA kreeditiülekande ülevaade
 description: See artikkel annab üldist teavet ISO 20022 krediidiedastuste kohta, mis hõlmab ühtse euromaksete piirkonna (SEPA) kreeditiülekandeid ja mis tahes muid hankijatele mõeldud elektroonilisi makseid. SEPA kreeditiülekanne on ühe ettevõtte või isiku spetsiifiline makse tüüp eurodes teisele ettevõttele või isikule. Teema selgitab ka, kuidas kreeditiülekande maksefaili seadistada ja edastada.
-author: ShylaThompson
+author: sunfzam
 ms.date: 06/20/2017
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendInvoice, LedgerJournalTransVendPaym, VendPaymMode
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 11124
+ms.custom:
+- "11124"
+- intro-internal
 ms.assetid: 36b0f870-16d4-4bbb-8da5-e747e69b970d
 ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 158d96e748b982c87be3f8b08f68d1fdb919aeeb
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
-ms.translationtype: HT
+ms.openlocfilehash: fc37dde8829abdd26a224adbd788538834f4d320
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897158"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984023"
 ---
 # <a name="sepa-credit-transfer-overview"></a>SEPA kreeditiülekande ülevaade
 
@@ -30,7 +32,7 @@ See artikkel annab üldist teavet ISO 20022 krediidiedastuste kohta, mis hõlmab
 
 ## <a name="what-is-a-credit-transfer-message"></a>Mis on kreeditiülekande sõnum?
 Kreeditiülekande sõnum on taotlus, mille algatav osapool (teie ettevõte) saadab fondide liigutamiseks oma enda kontolt kreeditorile. On palju kreeditiülekande sõnumite riigi-/piirkonna- ja pangaspetsiifilisi rakendusi. Mõnda neist kasutatakse ühe riigi/piirkonna piires ja mõned muutuvad standarditeks. Üks hästi loodud globaalne standard on ISO 20022 ja selle algatamise sõnumid, nagu kreeditiülekanne. Järgmine joonis näitab valitud kreeditiülekande sõnumite seoseid ja hõlmavust. 
-![Kreeditiülekanne](./media/credit-transfer.jpg) Kreeditiülekande sõnumid 
+![Kreeditiülekanne.](./media/credit-transfer.jpg) Kreediti ülekandeteated 
 
 ## <a name="what-are-iso-20022-and-sepa-payments"></a>Mis on ISO 20022 ja SEPA-maksed?
 Ühtse euromaksete piirkonna (SEPA) on määranud Euroopa Komisjon, kelle korraldusel tuleb kõiki elektroonilisi makseid käsitleda kodumaistena, olenemata riigist/piirkonnast, kus üksikisik, ettevõte või organisatsioon ja pank asuvad. Riiklikel maksetel ja riikidevahelistel maksetel pole mingit vahet. SEPA hõlmab 28 Euroopa Liidu liikmesriiki ning samuti Islandit, Liechtensteini, Norrat, Šveitsi, Monacot ja San Marinot. SEPA aitab Euroopa majanduspiirkonnas (EMP) luua maksekannete jaoks ühtse turu. Lõppkokkuvõttes eeldatakse, et SEPA vähendab maksevormingute arvu, millega pangad, ettevõtted ja üksiksikud peavad tegelema. Euroopa Komisjon määras SEPA maksetele juriidilise aluse makseteenuste direktiiviga (PSD). Euroopa Maksenõukogu (EPC) toetab SEPA-d läbi järgmiste tegevuste.

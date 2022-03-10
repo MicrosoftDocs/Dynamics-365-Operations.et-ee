@@ -1,8 +1,8 @@
 ---
 title: Kupongide seadistamine jaemüügi jaoks
-description: Selles teemas antakse ülevaade kupongidest ja selgitatakse, kuidas neid seadistada.
-author: scott-tucker
-ms.date: 06/04/2020
+description: Selles teemas antakse ülevaade kupongidest ja selgitatakse, kuidas neid seadistada rakenduses Dynamics 365 Commerce.
+author: josaw1
+ms.date: 10/05/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,17 +12,17 @@ ms.reviewer: josaw
 ms.custom: ''
 ms.search.region: Global
 ms.search.industry: retail
-ms.author: scotttuc
+ms.author: josaw
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 9d8b9977d733c87566249bcb9658b80c4350c17d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
-ms.translationtype: HT
+ms.openlocfilehash: 6a2ee38139f20b883bdfa5f0776951246f763f5f
+ms.sourcegitcommit: f699dbc21a06dbfb3fb299b789b428ea8d643868
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792021"
+ms.lasthandoff: 10/05/2021
+ms.locfileid: "7603119"
 ---
-# <a name="set-up-coupons-for-retail-sales"></a>Kupongide seadistamine jaemüügi jaoks
+# <a name="set-up-coupons-for-retail-sales"></a>Kupongide häälestus jaemüügi jaoks
 
 [!include [banner](includes/banner.md)]
 
@@ -38,6 +38,10 @@ Kupongi loomiseks tuleb luua allahindlus ja kupong eraldi. Seejärel tuleb need 
 
 > [!NOTE]
 > Kui kupong on allahindlusega lingitud, muutub rakenduses Commerce mitu allahindluse välja kirjutuskaitstuks, kuna neid hallatakse kupongi sätetega. Nende väljade hulka kuuluvad oleku ja standardsete kuupäevavahemike väljad.
+> 
+> Kõnekeskuse kanali kupongi kasutamisel peate valima nupu **Arvuta ümber** **(Müü vahekaart > Arvuta > Arvuta ümber)**, et kupongiga seotud allahindlust saaks rakendada. See täiendav samm eemaldatakse tulevases versioonis.
+
+Kupongi rakendamiseks müügikandele kassas saate kasutada **kupongikoodi** või **kupongi vöötkoodi**. **Kupongi koodi** kasutamiseks peab toiming **Kupongikoodi lisamine** olema konfigureeritud kassa **Kandes** [ekraani paigutus](pos-screen-layouts.md). Valige käsk **Lisa kupongikood** ja sisestage kupongikood. Võite **kupongi vöötkoodi** kasutamiseks skannida vöötkoodi või sisestada vöötkoodi, kasutades numbriklaviatuuri ekraanil **Kanne**.
 
 ### <a name="limited-use-coupons"></a>Piiratud kasutusega kupongid
 

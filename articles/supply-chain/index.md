@@ -2,27 +2,25 @@
 title: Supply Chain Managementi avaleht
 description: Sel lehel on teenuse Supply Chain Management funktsioonide spikriteemade ja muude ressursside loend.
 author: kamaybac
-manager: tfehr
-ms.date: 01/08/2021
+ms.date: 09/15/2021
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ad2a889a-acfd-4b59-a3b3-4017dd374c7b
 ms.search.region: global
 ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 1e3c95520ca83f151e91e10073f82a1a9541f02f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 4ea45b238200d4d9d43d563e160e8574271a8ce7
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5252842"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7487859"
 ---
 # <a name="supply-chain-management-home-page"></a>Supply Chain Managementi avaleht
 
@@ -64,8 +62,7 @@ See lühivideo võtab kokku uued tarneahela halduse funktsioonid, mis on lisatud
 
 Need lühivideod võtavad kokku uued tarneahela halduse funktsioonid, mis on lisatud Microsoft Dynamics 365 for Finance and Operations Enterprise editionile 7.3 (detsember 2017).
 
-- [Potentsiaalse kliendi sularahaks integreerimine](https://youtu.be/AVV9x5x-XCg) 
-- [Optimeerimise nõustaja](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
+- [Optimeerimisnõunik](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
 - [Laomalli kasutamine konfiguratsiooni kopeerimiseks](https://www.youtube.com/watch?v=K2WIfFlqJYs&feature=youtu.be)
 
 Need lühivideod võtavad kokku uued tarneahela halduse funktsioonid, mis on lisatud Microsoft Dynamics 365 for Finance and Operations Enterprise editionile (juuli 2017).
@@ -83,7 +80,7 @@ Järgmised tehnilise konverentsi salvestised arutlevad tarneahela halduse funkts
 - **Koondplaneerimine:**
   - [Nõudluse prognoosi funktsiooni pikendamine](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
   - [Koondplaneerimine – vihjed ja näpunäited tõrkeotsinguks](https://youtu.be/7v8BPmEs9Dg)
-  - [Mida teha? MRP on aeglane.](https://youtu.be/RLXybx20B5o)
+  - [MRP jõudluse häälestamine](https://youtu.be/RLXybx20B5o)
 - **Tooteteabe haldus:**
   - [Toote konfiguraator teenuses Microsoft Dynamics AX](https://youtu.be/zotrj3SbCl4)
 - **Laohaldus:**
@@ -96,16 +93,16 @@ Järgmised tehnilise konverentsi salvestised arutlevad tarneahela halduse funkts
 
 ## <a name="blogs"></a>Ajaveebid
 
-[Dynamics AX-i tootmise uurimis- ja arendustöörühma ajaveebist](https://blogs.msdn.microsoft.com/axmfg/) ja [Dynamics AX-i Supply Chain Managementi uurimis- ja arendustöörühma ajaveebist](https://blogs.msdn.microsoft.com/dynamicsaxscm/) leiate palju teemasid tootmise ja tarneahela juhtimise kohta. Enamik neist on kirjutatud eelmise versiooni jaoks, kuid samad mõisted kehtivad sellegipoolest ja protseduurid on praeguses versioonis sarnased.
+[Dynamics AX-i tootmise uurimis- ja arendustöörühma ajaveebist](/archive/blogs/axmfg/) ja [Dynamics AX-i Supply Chain Managementi uurimis- ja arendustöörühma ajaveebist](https://blogs.msdn.microsoft.com/dynamicsaxscm/) leiate palju teemasid tootmise ja tarneahela juhtimise kohta. Enamik neist on kirjutatud eelmise versiooni jaoks, kuid samad mõisted kehtivad sellegipoolest ja protseduurid on praeguses versioonis sarnased.
 
 ## <a name="white-papers"></a>Tehniline ülevaade
 
-- [Lean manufacturing: funktsioon „võimeline lubama“ ja kanban-tööde planeerimine](https://docs.microsoft.com/dynamics/s-e/)
+- [Lean manufacturing: funktsioon „võimeline lubama“ ja kanban-tööde planeerimine](/dynamics/s-e/)
 - [Koosluse arvutamine kuluarvutustabeli abil](https://www.microsoft.com/download/details.aspx?id=101937/)
 
 ## <a name="elearning-courses"></a>E-õppe kursused
 
-Veebikursuste ja koolituse kohta leiate teavet [Microsoft Learni jaotisest Dynamics 365 Supply Chain Management](https://docs.microsoft.com/learn/browse/?products=dynamics-scm&resource_type=learning%20path).
+Veebikursuste ja koolituse kohta leiate teavet [Microsoft Learni jaotisest Dynamics 365 Supply Chain Management](/learn/browse/?products=dynamics-scm&resource_type=learning+path).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

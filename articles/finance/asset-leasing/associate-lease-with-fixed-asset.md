@@ -2,32 +2,30 @@
 title: Põhivara seostamine rendiga
 description: See teema selgitab, kuidas seostada olemasolev põhivara uue rendikirjega.
 author: moaamer
-manager: Ann Beebe
-ms.date: 10/28/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: AssetLeaseDetail
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: d627633e43c2e6f5cad90dfe4100ff95a71541f7
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
-ms.translationtype: HT
+ms.openlocfilehash: bd55d433b0961b8b210b9c28d7340ff880635a85
+ms.sourcegitcommit: 3af457fc216bd0020843291ca57fd379acb53c96
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4442571"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "7392470"
 ---
 # <a name="associate-fixed-assets-with-leases"></a>Põhivara seostamine rendiga
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 See teema selgitab, kuidas seostada olemasolev põhivara uue rendikirjega. Kui seostate põhivara rendikirjega, on põhivara soetusmaksumuseks kasutamisõiguse esemeks oleva vara väärtus esialgsel tuvastamisel.
 
@@ -52,5 +50,18 @@ Pärast esialgse tuvastuse töölehe kirje sisestamist kuvatakse kanne põhivara
 
 Põhivara saab nüüd amortiseerida põhivarade standardse kulumi funktsiooni abil. Lisateavet kulumiarvestuse kohta leiate jaotisest [Kulumimeetodid ja kulumiarvestusreeglid](../fixed-assets/depreciation-methods-conventions.md).
 
+Kui rent on seotud põhivaraga, uuendatakse põhivararaamatu **Teenusea** väli nii, et see ühtiks väikseima väärtusega järgmistest kriteeriumidest: 
+
+ - Vara kasulik tööiga
+ - Rendi tähtaeg seotud rendiraamatust
+
+Kui välja **Omandiõiguse üleminek** väärtuseks on rendiraamatu puhul määratud **Jah**, on välja **Kasutusiga** väärtus alati vara kasulik tööiga. 
+ 
+Kasutusiga uuendatakse iga kord, kui renti korrigeeritakse, et tagada vara kasutusaja amortiseerimine tähtajalise rendi korral, nagu oleks see amortiseeritud Varade kulumis.
+
 > [!NOTE]
 > Kui seostate põhivara rendiga, on nupud **Vara kulum** ja **Rendi väärtuse langus** põhivara rentimises keelatud. Vara kulumist ja rendi väärtuse languse tehinguid saate vaadata püsivaradest. Nupp **Vara kanded**, mis avab päringu vormi, on samuti keelatud. Saate avada päringu **Vara tehingud** ka põhivaradest.  
+
+Lehekülgedel **Põhivarad** ja **põhivararaamat** kuvatakse põhivaraga seostatud liisingu ID. Kui põhivara on seotud rendiga, kuvatakse liisimise ID ja liisingu kirjeldus põhivarade lehel **renditeabe** kiirkaardil **Põhivara** lehel. Liisinguraamatutega seotud põhivararaamatute puhul kuvatakse väljadel **Liisingu ID**, **Liisingu kirjeldus** ja **Raamatu tüüp** valitud põhivararaamatu teave **Liisinguteabe** kiirkaardil, näitamaks, et see on seotud rendiraamatuga.
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

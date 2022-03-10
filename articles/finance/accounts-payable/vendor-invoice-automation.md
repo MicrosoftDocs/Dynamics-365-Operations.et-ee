@@ -2,11 +2,9 @@
 title: Arve automatiseerimine skannitud dokumentide korral
 description: Selles teemas selgitatakse funktsioone, mis on saadaval hankija arvete täielikuks automatiseerimiseks, isegi manuseid sisaldavate arvete puhul.
 author: abruer
-manager: AnnBe
-ms.date: 05/22/2020
+ms.date: 03/24/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendEditInvoiceHeaderStagingListPage
 audience: Application User
@@ -15,18 +13,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0e5c08fc09439ce3889ade4f1da44120275ee075
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: f407d42fe624206e32a2f58fe8c7fcaf2df52c729a1d945d3d801f450b6ed129
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4993287"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6722763"
 ---
 # <a name="invoice-automation-for-scanned-documents"></a>Arve automatiseerimine skannitud dokumentide korral
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas selgitatakse funktsioone, mis on saadaval hankija arvete täielikuks automatiseerimiseks, isegi manuseid sisaldavate arvete puhul.
+Selles teemas selgitatakse andmeüksusi, mis on saadaval hankijaarvete täielikuks automatiseerimiseks, sh manuseid sisaldavad arved.
 
 Organisatsioonid, kus soovitakse ostureskontro protsesse sujuvamaks muuta, käsitlevad arvete töötlemist sageli ühe peamise protsessivaldkonnana, mis peaks olema tõhusam. Paljudel juhtudel annavad need organisatsioonid paberarvete töötlemise üle optilise märgituvastusega (OCR) tegelevatele teenusepakkujatele. Siis saavad nad masinloetavad arve metaandmed koos iga arve skannitud kujutisega. Automatiseerimisel abistamiseks koostatakse siis viimase etapi jaoks lahendus, mis võimaldab neid üksusi siis arveldussüsteemis kasutada. Selle viimase etapi automatiseerimine on nüüd valmislahenduses lubatud, kasutades arve automatiseerimislahendust.
 
@@ -36,7 +34,7 @@ Arve automatiseerimislahendus võimaldab kasutada standardliidest, mis suudab v�
 
 Järgmisel illustratsioonil on integratsiooni näidisstsenaarium, kus Contoso on sõlminud hankija arvete töötlemiseks partnerluse OCR-teenuse pakkujaga. Contoso hankijad saadavad teenusepakkujale meili teel arveid. OCR-i töötluse kaudu genereerib teenusepakkuja arve metaandmed (päise ja/või read) ja arve skannitud kujutise. Seejärel teisendab integratsioonikiht need üksused, et neid saaks tarbida.
 
-![Integreerimise näidisstsenaarium](media/vendor_invoice_automation_01.png)
+![Integreerimise näidisstsenaarium.](media/vendor_invoice_automation_01.png)
 
 Kui on vajalik arve integreerimine, on võimalikus mitu eelmise stsenaariumi variatsiooni. Andmete migreerimine on teine kasutusviis, kus seda liidest saab kasutada arvete ja manuste loomiseks.
 
@@ -90,11 +88,11 @@ Andmepakettide kaudu imporditud arved saab seostada juriidilise isikuga, mille j
 
 Stsenaariumide korral, kus hankija arved tulevad Finance and Operationsisse integreerimise kaudu, peab olema Ostureskontro töörühma liikmel lihtne võimalus erandite või nurjunud arvete töötlemiseks ja ootel arvete loomiseks nurjunud arvetest. See hankija arvete erandite töötlemine on nüüd Finance and Operationsi osa.
 
-### <a name="exceptions-list-page"></a>Erandite loendileht
+### <a name="vendor-invoices-that-failed-to-import-list-page"></a>Hankijaarved, mille loendilehele importimine ei õnnestunud
 
-Uus arve erandite loendileht on saadaval jaotises **Ostureskontro** > **Arved** > **Impordi nurjumised** > **Hankija arved, mille importimine nurjus**. Sellel lehel kuvatakse kõik hankija arve päisekirjed hankija arve päise andmeüksuse vahetabelist. Pange tähele, et saate vaadata samu kirjeid tööruumis **Andmehaldus**, kus saate teha ka samad toimingud, mis on antud erandi käsitlemise funktsioonis. Kuid kasutajaliides, mida erandi käsitlemise funktsioon pakub, on optimeeritud funktsionaalse kasutaja jaoks.
+Uus arve erandite loendileht on saadaval jaotises **Ostureskontro** > **Arved** > **Impordi nurjumised** > **Hankija arved, mille importimine nurjus**. Sellel lehel kuvatakse kõik hankija arve päisekirjed hankija arve päise andmeüksuse vahetabelist. Pange tähele, et saate vaadata samu kirjeid tööruumis **Andmehaldus**. Tööruumis **Andmehaldus** saate teha ka samu toiminguid, mis on antud erandi käsitlemise funktsioonis. Erandite käsitlemise funktsioon on optimeeritud funktsiooni kasutaja jaoks, mis lihtsustab kasutamist.
 
-![Erandite loendileht](media/vendor_invoice_automation_02.png)
+![Erandite loendileht.](media/vendor_invoice_automation_02.png)
 
 See loendileht sisaldab järgmisi välju, mis tulevad sisse voo kaudu.
 
@@ -118,24 +116,17 @@ See loendileht sisaldab järgmisi välju, mis tulevad sisse voo kaudu.
 Loendilehel on ka eelvaatepaan, mida saab kasutada järgmiselt.
 
 + Kogu tõrketeate kuvamiseks, et tabelis poleks vaja veergu **Tõrketeade** laiendada.
-+ Kogu arve manuste loendi kuvamiseks, kui arvega tuli kaasa manuseid.
 
 Loendileht toetab järgmisi tegevusi.
 
 + **Redigeerimine** – avage erandi kirje redigeerimisrežiimis, et saaksite probleemid kõrvaldada.
 + **Valikud** – juurdepääs loendilehtedel olevatele standardvalikutele. Saate kasutada valikut **Lisa tööruumi** erandite loendilehe kinnitamiseks tööruumi loendi või paanina.
 
-### <a name="exception-details-page"></a>Erandi üksikasjade leht
+### <a name="vendor-invoices-that-failed-to-import-details-page"></a>Hankijaarved, mille üksikasjade lehele importimine ei õnnestunud
 
-Kui käivitate redigeerimisrežiimi, kuvatakse probleemidega arve erandi üksikasjade leht. Kui on manuseid, kuvatakse arve ja vaikemanus erandi üksikasjade lehel kõrvuti.
+Kui käivitate redigeerimisrežiimi, avaneb **väljaminevate arvete hankijaarvete leht, mille üksikasjade importimine ebaõnnestus**. Kui on probleeme arvega, millel on manus, siis manust ei kuvata. Manus tuleb uuesti arvele lisada.
 
-![Erandi üksikasjade leht](media/vendor_invoice_automation_03.png)
-
-Eelneval illustratsioonil ei olnud sisse tulnud hankija arve päises ridu. Seetõttu on ridade osa tühi.
-
-Erandi üksikasjade leht toetab järgmist toimingut.
-
-+ **Ootel arve loomine** – kui olete erandi töötlemise käigus arvel olevad probleemid kõrvaldanud, võite klõpsata seda nuppu ootel arve loomiseks. Ootel arvete loomine toimub taustal (asünkroonse toiminguna).
+Lehel **hankijaarvete kohta, mille üksikasjade importimine ebaõnnestus**, saate luua ootel arve. Kui olete erandi töötlemise käigus arvel olevad probleemid kõrvaldanud, valige nupp **Ootel arve loomine** ootel arve loomiseks. Ootel arve luuakse taustal. 
 
 ### <a name="shared-service-vs-organization-based-exception-processing"></a>Jagatud teenus võrreldes organisatsioonipõhise erandi töötlemisega
 
@@ -145,11 +136,11 @@ Erandite loendileht toetab standardseid turbekonstruktsioone, mida **andmehaldus
 + Kasutaja järgi
 + Juriidilise isiku järgi
 
-![Imporditöö, mida kaitstakse kasutaja rolli ja juriidilise isiku järgi](media/vendor_invoice_automation_04.png)
+![Imporditöö, mida kaitstakse kasutaja rolli ja juriidilise isiku järgi.](media/vendor_invoice_automation_04.png)
 
 Kui arve imporditöö jaoks on konfigureeritud turvalisus, arvestab erandite loendileht neid sätteid. Kasutajad näevad ainult neid arve erandi kirjeid, mida see seadistus neil näha lubab.
 
-Näiteks Contoso on otsustanud töödelda arve erandeid juriidilise isiku järgi. Seetõttu konfigureeritakse turvalisus arve imporditöö puhul sellisel viisil, et kasutaja juriidilises isikus A näeb ainult arve erandeid juriidilises isikus A, samas kui kasutaja juriidilises isikus B näeb ainult arve erandeid juriidilises isikus B. Selline seadistus võimaldab arve erandite haldamise kohustusi jagada.
+Näiteks on Contoso otsustanud töödelda arve erandeid juriidilise isiku järgi. Seetõttu konfigureeritakse turvalisus arve imporditöö puhul sellisel viisil, et kasutaja juriidilises isikus A näeb ainult arve erandeid juriidilises isikus A, samas kui kasutaja juriidilises isikus B näeb ainult arve erandeid juriidilises isikus B. Selline seadistus võimaldab arve erandite haldamise kohustusi jagada.
 
 Contoso võib otsustada ka turvalisust mitte kehtestada, et samad kasutajad saaksid töödelda arve erandeid kõigi juriidiliste isikute puhul. See seadistus lubab jagatud teenuste stsenaariumi arve erandite haldamiseks.
 
@@ -187,7 +178,7 @@ Vaikemanuseks saab määrata ainult ühe dokumendi. Pärast dokumendi määramis
 
 Uus nupp, mis on saadaval päringulehtedel **Erandi töötlemine**, **Ootel arve** ja **Arve tööleht**, võimaldab manusevaaturit kuvada või peita.
 
-### <a name="security"></a>Turvalisus
+## <a name="security"></a>Turvalisus
 
 Rollipõhise turvalisuse kaudu juhitakse järgmisi tegevusi manusevaaturis.
 
@@ -212,7 +203,7 @@ Järgmised rollid annavad manusevaaturile kirjutuskaitstud juurdepääsu või lu
 + **Ostureskontro ametnik** ja **Ostureskontro juht** – nendele rollidele määratakse kohustus Hankija arvete haldamine.
 + **Ostureskontro ametnik**, **Ostureskontro juht**, **Ostureskontro tsentraliseeritud maksuametnik** ja **Ostureskontro maksuametnik** – nendele rollidele määratakse kohustus Hankija arve oleku kohta päringu esitamine.
 
-### <a name="invoice-exception-details-page"></a>Arve erandi üksikasjade leht
+### <a name="vendor-invoice-attachment"></a>Hankija arve manused
 
 Järgmised õigused annavad manusevaaturile kirjutuskaitstud juurdepääsu või lugemise/kirjutamise juurdepääsu esiletõstmise, blokeerimise ja kommenteerimise toimingute jaoks.
 
@@ -231,3 +222,6 @@ Järgmised rollid annavad manusevaaturile kirjutuskaitstud juurdepääsu järgmi
 + **Ostureskontro ametnik** ja **Ostureskontro juht** – nendele rollidele määratakse kohustus Hankija arvete haldamine.
 
 Vaikimisi, kui kasutaja roll annab mõnel lehel redigeerimisõigused, on kasutajal redigeerimisõigused ka manusevaaturis esiletõstmise, blokeerimise ja kommenteerimise toiminguteks. Kuid kui on stsenaariume, mille puhul konkreetsel rollil peaksid olema redigeerimisõigused lehel, kuid mitte manusevaaturis, saab sel puhul kasutada sobivaid privileege eespool antud loendist.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

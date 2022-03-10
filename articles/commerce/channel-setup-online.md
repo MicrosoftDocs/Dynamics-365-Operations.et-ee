@@ -2,7 +2,7 @@
 title: Võrgukanali häälestamine
 description: Selles teemas kirjeldatakse, kuidas luua rakenduses Microsoft Dynamics 365 Commerce uus veebikanal.
 author: samjarawan
-ms.date: 07/02/2020
+ms.date: 02/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,21 +14,18 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: f0f1e0f3e7145c66b8f2b082b44ad7035c57d947
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
-ms.translationtype: HT
+ms.openlocfilehash: f32872fcc27e2e74300c4f18dfa08d666e4ad8a8
+ms.sourcegitcommit: fefe93f3f44d8aa0b7e6d54cc4a3e5eca6e64feb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5936940"
+ms.lasthandoff: 02/04/2022
+ms.locfileid: "8092108"
 ---
 # <a name="set-up-an-online-channel"></a>Võrgukanali häälestamine
-
 
 [!include [banner](includes/banner.md)]
 
 Selles teemas kirjeldatakse, kuidas luua rakenduses Microsoft Dynamics 365 Commerce uus veebikanal.
-
-## <a name="overview"></a>Ülevaade
 
 Dynamics 365 Commerce toetab mitut jaemüügikanalit. Jaemüügikanalid hõlmavad võrgupoode, kõnekeskusi ja jaekauplusi (neid nimetatakse ka füüsilisteks kauplusteks). Võrgupoed annavad kliendile võimaluse osta tooteid lisaks oma jaekauplustele ka jaemüüja veebipoest.
 
@@ -55,15 +52,19 @@ Uue võrgukanali loomiseks ja konfigureerimiseks toimige järgmiselt.
 
 Järgmine pilt näitab uue võrgukanali loomist.
 
-![Uus võrgukanal](media/channel-setup-online-1.png)
+![Uus võrgukanal.](media/channel-setup-online-1.png)
 
 Järgmine pilt näitab võrgukanali näidet.
 
-![Võrgukanali näide](media/channel-setup-online-2.png)
+![Võrgukanali näide.](media/channel-setup-online-2.png)
+
+## <a name="assign-the-channel-to-a-commerce-scale-unit"></a>Kanali määramine kaubandusskaala üksusele
+
+Teie uus kanal tuleb määrata Commerce Scale Unitile. Juhised leiate teemast [Kanalite konfigureerimine Commerce Scale Uniti kasutamiseks](../fin-ops-core/dev-itpro/deployment/initialize-retail-channels.md#configure-channels-to-use-commerce-scale-unit).
 
 ## <a name="set-up-languages"></a>Keelte seadistamine
 
-Kui teie e-kaubanduse sait toetab mitut keelt, laiendage jaotist **Keeled** ja lisage vajadusel täiendavaid keeli.
+Kui teie e-kaubanduse sait toetab mitut keelt, laiendage jaotist **Keeled** ja lisage vastavalt vajadusele täiendavaid keeli.
 
 ## <a name="set-up-payment-account"></a>Maksekonto seadistamine
 
@@ -75,7 +76,7 @@ Veebikanali häälestamiseks nõutavad täiendavad toimingud hõlmavad makseviis
 
 Järgmine pilt näitab seadistuste **Tarneviisid**, **Makseviisid** ja **Täitmisgurpi määramine** suvandeid vahekaardil **Seadistus**.
 
-![Täiendavad võrgukanali seadistamise toimingud](media/channel-setup-online-3.png)
+![Täiendavad võrgukanali seadistamise toimingud.](media/channel-setup-online-3.png)
 
 ### <a name="set-up-payment-methods"></a>Seadistada maksemeetodid
 
@@ -90,7 +91,7 @@ Kõigi selles kanalis toetatud maksetüübi makseviiside seadistamiseks toimige 
 
 Järgmine pilt näitab sularaha makseviisi näidet.
 
-![Makseviiside näited](media/channel-setup-retail-5.png)
+![Makseviiside näited.](media/channel-setup-retail-5.png)
 
 ### <a name="set-up-modes-of-delivery"></a>Tarneviiside häälestamine
 
@@ -104,7 +105,7 @@ Tarneviisi muutmiseks või lisamiseks toimige järgmiselt.
 
 Järgmine pilt näitab tarneviisi näidet.
 
-![Tarneviiside häälestamine](media/channel-setup-retail-7.png)
+![Tarneviiside häälestamine.](media/channel-setup-retail-7.png)
 
 ### <a name="set-up-a-fulfillment-group-assignment"></a>Täitmisgrupi määramise seadistamine
 
@@ -118,13 +119,13 @@ Täitmisgrupi määramise seadistamiseks tehke järgmist.
 
 Järgmine pilt näitab täitmisgrupi määramise seadistuse näidet.
 
-![Täitmisgrupi määramiste seadistamine](media/channel-setup-retail-9.png)
+![Täitmisgrupi määramiste seadistamine.](media/channel-setup-retail-9.png)
 
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Kanalite ülevaade](channels-overview.md)
 
-[Kanali seadistamise eeltingimused](channels-prerequisites.md)
+[Kanali häälestuse eeltingimused](channels-prerequisites.md)
 
 [Jaemüügikanali seadistamine](channel-setup-retail.md)
 

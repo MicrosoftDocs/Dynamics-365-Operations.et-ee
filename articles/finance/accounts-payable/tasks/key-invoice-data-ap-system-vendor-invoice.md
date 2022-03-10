@@ -2,11 +2,9 @@
 title: AP arve põhiandmed, kasutades hankija arvet
 description: Selle tegevusejuhise abil saate ostutellimuse põhjal luua hankija arve ja vaadata ostutellimuse, sissetuleku ja arve (kolmesuunaline vastavusseviimine) vastavusseviimise tulemusi.
 author: abruer
-manager: AnnBe
 ms.date: 07/22/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchCreateOrder, InventItemIdLookupPurchase, PurchEditLines, VendEditInvoice, InventItemIdLookupSimple, VendInvoiceMatchingDetails
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 74065fa3177c8add29e64ce0f77461df036c8fe5
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: b3e27ed41ff1fa44d5e8779cb5e81e45d02110eb3b37be3a3b9938cabfc395bd
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4979309"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6777284"
 ---
 # <a name="key-invoice-data-in-ap-using-a-vendor-invoice"></a>AP arve põhiandmed, kasutades hankija arvet
 
@@ -72,3 +70,6 @@ Selle tegevusejuhise abil saate ostutellimuse põhjal luua hankija arve ja vaada
 19. Klõpsake käsku **Sisesta**.
 20. Sulgege vorm. Võtke arvesse, et ostutellimus pole loendis enam „vastu võetud“, vaid „arveldamata“.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -8,7 +8,6 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -16,20 +15,19 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: efcac2bd82956015eb822c6a493b8625a35cd194
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
-ms.translationtype: HT
+ms.openlocfilehash: fb75c391809f1ce5c7d48728a735f347ef1784ed
+ms.sourcegitcommit: 696796ca5635863850ae9ef16fc1fb0fc46ce8f0
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5805054"
+ms.lasthandoff: 08/28/2021
+ms.locfileid: "7441261"
 ---
 # <a name="integrate-with-linkedin-talent-hub"></a>LinkedIn talent Hubiga integreerimine
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [banner](includes/preview-feature.md)]
-
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+> [!IMPORTANT]
+> Selles teemas kirjeldatud integratsioon Dynamics 365 Human Resources ja LinkedIn Talent keskus kustutatakse 31. detsembril 2021. Integreerimisteenus ei ole pärast seda kuupäeva enam saadaval. Organisatsioonid, mis ei kasuta juba integreerimisteenust, ei saa teenust enne pensionile minekut rakendada.
 
 [LinkedIn Talent Hub](https://business.linkedin.com/talent-solutions/talent-hub) on kandidaadi jälgimise süsteemi (ATS) platvorm. See võimaldab teil leida, hallata ja palgata töötajaid ühest kohast. Microsoft Dynamics 365 Human Resourcesi integreerimisel LinkedIn Talent Hubiga saate Human Resourcesis hõlpsalt luua töövõtja kirjed kandidaatide jaoks, kes on palgatud ametikohale.
 
@@ -49,7 +47,7 @@ Süsteemiadministraator peab lõpule viima seadistustoimingud, et lubada integre
 
 5. Valige lehel **Dynamics 365 Human Resources** keskkond, millega soovite LinkedIn Talent Hubi linkida ja seejärel valige **Lingi**.
 
-    ![LinkedIn Talent Hubi sisseelamine](./media/hr-admin-integration-talent-hub-onboarding.jpg)
+    ![LinkedIn Talent Hubi sisseelamine.](./media/hr-admin-integration-talent-hub-onboarding.jpg)
 
     > [!NOTE]
     > Saate linkida ainult keskkondadega, kus teie kasutajakontol on administraatori juurdepääs nii Human Resourcesi keskkonnale kui ka seostatud Power Appsi keskkonnale. Kui Human Resourcesi linkide lehel pole loetletud ühtegi keskkonda, veenduge, et teie rentnikus oleks litsentsitud Human Resourcesi keskkond ja et kasutajal, millega olete linkide lehele sissetogitud, oleks administraatori õigused nii Human Resourcesi keskkonnale kui ka Power Appsi keskkonnale.
@@ -92,7 +90,7 @@ Rakenduse kasutaja tuleb luua LinkedIn Talent Hubi adapteris, et anda adapterile
 
 6. Kasutage ülal olevat ripploendit, et muuta vaikimisi vaade **Lubatud kasutad** vaateks **Rakenduse kasutajad**.
 
-    ![Rakenduse kasutajate vaade](./media/hr-admin-integration-power-apps-application-users.jpg)
+    ![Rakenduse kasutajate vaade.](./media/hr-admin-integration-power-apps-application-users.jpg)
 
 7. Valige tööriistaribal **Uus**.
 
@@ -130,7 +128,7 @@ Pärast eelmises jaotises uue rakenduse kasutaja salvestamist ja sulgemist naase
 ### <a name="create-the-table-in-dataverse"></a>Tabeli loomine Dataverse'is
 
 > [!IMPORTANT]
-> LinkedIn Talent Hubiga integreerimine sõltub Dataverse for Human Resourcesi virtuaalsetest tabelites. Selle seadistamisetapi eeltingimusena peate konfigureerima virtuaalsed tabeleid. Lisateavet virtuaalsete tabelite konfigureerimise kohta leiate teemast [Dataverse'i virtuaalsete tabelite konfigureerimine](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-common-data-service-virtual-entities).
+> LinkedIn Talent Hubiga integreerimine sõltub Dataverse for Human Resourcesi virtuaalsetest tabelites. Selle seadistamisetapi eeltingimusena peate konfigureerima virtuaalsed tabeleid. Lisateavet virtuaalsete tabelite konfigureerimise kohta leiate teemast [Dataverse'i virtuaalsete tabelite konfigureerimine](./hr-admin-integration-common-data-service-virtual-entities.md).
 
 1. Avage rakenduses Human Resources leht **Dataverse integratsioon**.
 
@@ -164,7 +162,7 @@ Kui kandidaat on liikunud värbamisprotsessist edasi ja on palgatud, saate ekspo
     - Sisestage väljale **Asukoht** asukoht, kus töövõtja hakkab töötama.
     - Sisestage või kinnitage töövõtja meiliaadress.
 
-![HRIS-i paanile eksportimine LinkedIn Talent Hubis](./media/hr-admin-integration-linkedin-talent-hub-export.jpg)
+![HRIS-i paanile eksportimine LinkedIn Talent Hub`is.](./media/hr-admin-integration-linkedin-talent-hub-export.jpg)
 
 ## <a name="complete-onboarding-in-human-resources"></a>Sisseelamise lõpule viimine Human Resourcesis
 
@@ -189,7 +187,7 @@ Imporditakse järgmised üksikasjad ja lisatakse uue töötaja kirjesse.
 ## <a name="see-also"></a>Vt ka
 
 [Dataverse'i virtuaalsete tabelite konfigureerimine](./hr-admin-integration-common-data-service-virtual-entities.md)<br>
-[Mis on Microsoft Dataverse?](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)
+[Mis on Microsoft Dataverse?](/powerapps/maker/common-data-service/data-platform-intro)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

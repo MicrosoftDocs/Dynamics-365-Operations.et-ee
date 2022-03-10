@@ -1,12 +1,10 @@
 ---
 title: Varade kriitilisuse tüübid
 description: Teemas selgitatakse varade kriitilisuse tüüpe varahalduses.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetCriticality, EntAssetObjectCriticality
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c9d2c5e8b6676abf03fe0d3de8b23f125713d6f2
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
-ms.translationtype: HT
+ms.openlocfilehash: f9edf55c22375a66fda04ae7ff76d7a0a191140e5ffb3a377b9ac1a7ba604a8d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021700"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6776916"
 ---
 # <a name="asset-criticality-types"></a>Varade kriitilisuse tüübid
 
@@ -42,7 +40,7 @@ Kriitilisuse seadistamiseks looge esmalt kriitilisuse tüübid, mida tuleks kasu
 4. Väljale **Nimi** sisestage kriitilisuse tüübi nimi.
 5. Väljale **Tegur** sisestage tegur. Seda tegurit kasutatakse töökäsu plaanimise arvutamisel, et määrata kriitilisuse kirje, mida tuleks kasutada. (Suurima teguriga kirjet kasutatakse alati.) See säte on asjakohane, juhul kui nagu on näidatud järgmisel joonisel, luuakse kriitilisuse read, millel on sama kriitilisuse väärtus.
 
-    ![Kriitilisuse tüüpide leht](media/23-setup-for-objects.png)
+    ![Kriitilisuse tüüpide leht.](media/23-setup-for-objects.png)
 
 ## <a name="set-up-asset-criticalities"></a>Vara kriitilisuse häälestus
 
@@ -61,3 +59,6 @@ Kriitilisuse seadistamiseks looge esmalt kriitilisuse tüübid, mida tuleks kasu
 - Töökäsu kriitilisus arvutatakse ümber iga kord, kui töökäsu rida lisatakse või kustutatakse töökäsult.
 - Kui töökäsk sisaldab mitut töökäsu tööd, kasutatakse töökäsu puhul alati kõrgeimat kriitilisust vastavalt väljale **Faktor** lehel **Kriitilisuse tüübid**.
 - Üldiselt võib vara kriitilisus perioodi jooksul muutuda. Kriitilisust võivad mõjutada uute seadmete ostmine, renoveerimine jne. Kaaluge oma varade kriitilisuse ümberhindamist regulaarsete ajavahemike järel (näiteks kord aastas või igal teisel aastal), et veenduda, kas teie kriitilisuse määratlused vastavad teie praegusele tootmisseadistusele.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

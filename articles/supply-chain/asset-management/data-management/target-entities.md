@@ -1,12 +1,10 @@
 ---
 title: Sihtüksused
 description: Selles teemas selgitatakse, kuidas saada varade halduses olevate sihtüksuste ülevaadet.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 09/26/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 00e9acea04252207a3715744ec5c9d7da141d4b5
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.openlocfilehash: c2d08781ff75b2435e9b71531ce77a59dbee2d90e647087d7c2c58bb4b1227e1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5253674"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6772564"
 ---
 # <a name="target-entities"></a>Sihtüksused
 
@@ -36,13 +34,13 @@ Tööruumis **Andmehaldus** saate ülevaate sihtüksustest, seotud üksuste tü�
 
 2. Jaotises **Import/eksport** klõpsake valikut **Andmed.** 
 
-    ![Joonis 1](media/01-data-management.png)
+    ![Joonis 1.](media/01-data-management.png)
 
 3. Otsige lehelt **Sihtüksused** üles filter "Varahaldus" ja vajutage sisestusklahvi (ENTER), et vaadata varahaldusega seotud üksuste loendit.
 
     Alltoodud joonis näitab mõningaid varahalduse üksusi.
 
-   ![Joonis 2](media/02-data-management.png)
+   ![Joonis 2.](media/02-data-management.png)
 
 4. Valige üksus ja klõpsake käsku **Muuda sihtmärgi vastendust**.
 
@@ -50,7 +48,7 @@ Tööruumis **Andmehaldus** saate ülevaate sihtüksustest, seotud üksuste tü�
 
     Alltoodud joonisel kuvatakse varatüüpidega seotud väljade näit.
 
-    ![Joonis 3](media/03-data-management.png)
+    ![Joonis 3.](media/03-data-management.png)
 
 
 

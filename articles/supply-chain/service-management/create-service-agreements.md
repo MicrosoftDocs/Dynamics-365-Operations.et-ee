@@ -1,29 +1,26 @@
 ---
 title: Hoolduslepete loomine
 description: See teema kirjeldab, kuidas kasutada funktsioone moodulites Hooldushaldus ning Projektihaldus ja raamatupidamine hoolduslepete loomiseks.
-author: ShylaThompson
-manager: tfehr
+author: kamaybac
 ms.date: 02/19/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAAgreementTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7a1a47761869a4190eac6dc9e069a6b520bf7a1d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: c9a5d580b0bb146bf5d445823b37f607e507f7eb
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4426448"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7569139"
 ---
 # <a name="create-service-agreements"></a>Hoolduslepete loomine
 
@@ -34,8 +31,8 @@ See teema kirjeldab, kuidas kasutada funktsioone moodulites Hooldushaldus ning P
 ## <a name="create-a-service-agreement-from-service-management"></a>Hooldusleppe loomine hooldushaldusest
 
 1. Navigeerige jaotisesse **Hooldushaldus**.
-2. Klõpsake valikut **Hoolduslepped** uue hooldusleppe rea loomiseks lehe päises. 
-3. Klõpsake valikut **Uus**. Sisestage kirjeldus, valige viide projektile väljal **Projekti ID** ja täitke hooldusleppe ülejäänud väljad ja read. Klõpsake valikut **Salvesta**.
+2. Valige **Hoolduslepped** uue hooldusleppe rea loomiseks lehe päises. 
+3. Valige suvand **Uus**. Sisestage kirjeldus, valige viide projektile väljal **Projekti ID** ja täitke hooldusleppe ülejäänud väljad ja read. Valige käsk **Salvesta**.
 4. Vahekaardil **Seosed** klõpsake valikuid **Hooldusobjektid** või **Hooldustoimingud**, et luua hooldusleppe jaoks hooldusobjekti seosed või hooldusetoimingu seosed. Hooldusobjekte ja ülesandeid, millele olete loonud seosed, saab kinnitada hooldusleppe ridadele.
 5. Lehe alumises pooles looge hooldusleppe ridu, kopeerides hooldusmalli või teise hooldusleppe ridu või looge neid käsitsi.
 
@@ -46,14 +43,14 @@ See teema kirjeldab, kuidas kasutada funktsioone moodulites Hooldushaldus ning P
 
 1. Lisage lehelt **Hoolduslepped** ridade ruudistikku hooldusleppe rida. 
 2. Sisestage hooldusleppe rea vajalik teave. 
-3. Rea salvestamiseks vajutage klahve **CTRL+S** ja sulgege leht.
+3. Rea salvestamiseks valige **Salvesta** ja seejärel sulgege leht.
 
 ## <a name="create-a-service-agreement-from-project"></a>Projektist hooldusleppe loomine
 
-1. Klõpsake valikut **Projektihaldus ja raamatupidamine**.
-2. Klõpsake valikut **Kõik projektid**.
+1. Valige **Projektihaldus ja -arvestus**.
+2. Valige **Kõik projektid**.
 3. Valige loendist soovitud projekt.
-4. Klõpsake **tegumireal** valikut **Haldamine**. Tegevusgrupis **Uus** klõpsake valikut **Hooldus** ja seejärel **Hoolduslepe**.
+4. Valige **toimingupaanil** **Haldus**. Valige tegevusgrupis **Uus** üksus **Hooldus** ja seejärel **Hoolduslepe**.
 5. Projekti viite sisestamiseks järgige jaotises **Hooldusleppe loomine** kirjeldatud protsessi.
 
 
@@ -62,3 +59,6 @@ See teema kirjeldab, kuidas kasutada funktsioone moodulites Hooldushaldus ning P
 [Hoolduslepete arendamise ja loomise ülevaade](service-agreements.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

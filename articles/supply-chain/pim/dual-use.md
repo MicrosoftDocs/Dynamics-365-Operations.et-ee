@@ -1,27 +1,24 @@
 ---
 title: Topeltkasutusega kaubad
 description: Selles teemas selgitatakse, kuidas saada ülevaadet topeltkasutusega kaupadest, talletada iga asjakohase toote ja sihtriigi sertifikaadi numbreid ning printida kehtivaid sertifikaadi numbreid vastavatele arvetele, saatelehtedele ja/või müügitellimustele.
-author: dasani-madipalli
-manager: tfehr
+author: t-benebo
 ms.date: 07/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: COODualUseCerts, COORules, COODualUseCountries
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: damadipa
+ms.author: benebotg
 ms.search.validFrom: 2020-07-15
-ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 8f2b738fd87219be383b103eaf5fafeb971fc702
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.dyn365.ops.version: 10.0.9
+ms.openlocfilehash: 21910c61cc330e0c9292990b7b1914f56bac844c
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4426457"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7570749"
 ---
 # <a name="dual-use-goods"></a>Topeltkasutusega kaubad
 
@@ -108,3 +105,6 @@ Kasutage lehte **Topeltkasutuse sertifikaadid** iga toote ja riigi jaoks nõutav
     | Arvele printimine | Märkige see ruut, et printida sertifikaadi number arvetele, mis on adresseeritud määratud riigile kindlal kuupäevavahemikul. |
     | Saatelehele printimine | Märkige see ruut, et printida sertifikaadi number saatelehtedele, mis on adresseeritud määratud riigile kindlal kuupäevavahemikul. |
     | Müügitellimusele printimine | Märkige see ruut, et printida sertifikaadi number müügitellimustele, mis on adresseeritud määratud riigile kindlal kuupäevavahemikul. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

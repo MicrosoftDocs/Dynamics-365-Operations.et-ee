@@ -2,11 +2,9 @@
 title: Topeltvaluuta
 description: Selles teemas antakse teavet topeltvaluuta kohta, kui kasutatakse rakenduses Microsoft Dynamics 365 Finance kasutatakse teise arvestusvaluutana aruandlusvaluutat.
 author: kweekley
-manager: AnnBe
 ms.date: 04/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTable, Ledger, AssetTransReportingCurrencyAmountsWizard,BankAccountTransReportingCurrencyAmountsWizard, LedgerTrialBalanceListPage
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 9202bc5009539e5f5b538b5625418ed227984462
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.openlocfilehash: b20c45952d2c0c28a1b785fd92bf47cfb25251fa3a3308d14130ad0f1c78305d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5212177"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6762063"
 ---
 # <a name="dual-currency"></a>Topeltvaluuta
 

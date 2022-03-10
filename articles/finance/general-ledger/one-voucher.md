@@ -2,11 +2,9 @@
 title: Üks kanne
 description: Ühe kandega finantstöölehtede jaoks (üldine tööleht, põhivara tööleht, hankija maksete tööleht jne) saate sisestada mitu alampearaamatu kannet ühes kandes.
 author: kweekley
-manager: AnnBe
 ms.date: 11/05/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalSetup, LedgerParameters, AssetProposalDepreciation
 audience: Application User
@@ -17,16 +15,17 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: cada62078b71dd304e90951ab0f4c1643beaa48c
-ms.sourcegitcommit: bd4763cc6088e114818e80bb1c27c6521b039743
-ms.translationtype: HT
+ms.openlocfilehash: 978d0dc28f86860335a782bd2ddaa141ed639fe5
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "5107716"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344054"
 ---
 # <a name="one-voucher"></a>Üks kanne
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 
 ## <a name="what-is-one-voucher"></a>Mis on funktsioon Üks kanne?
@@ -35,30 +34,30 @@ Olemasoleva funktsiooniga finantstöölehtede jaoks (üldine tööleht, põhivar
 
 - Seadistage töölehe nimi (**Pearaamat** \> **Töölehe seadistus** \> **Töölehe nimed**), nii et välja **Uus kanne** väärtus oleks **Ainult üks kande number**. Iga töölehele lisatud rida lisatakse nüüd samale kandele. Seetõttu saab kande sisestada mitmerealise kandena, konto/vastaskonto samal real või kombinatsioonina.
 
-    [![Üks rida](./media/same-line.png)](./media/same-line.png)
+    [![Üksik rida.](./media/same-line.png)](./media/same-line.png)
 
     > [!IMPORTANT]
     > Sätte Üks kanne definitsioon **ei** kata juhtumeid, kus töölehe nimed seadistatakse valikule **Üks kande number**, kuid kasutaja sisestab seejärel kande, mis sisaldab ainult pearaamatukonto tüüpe. Selles teemas tähendab Üks kanne, et olemas on üks kanne, mis sisaldab rohkem kui üht hankijat, klienti, panka, põhivara või projekti.
 
 - Sisestage mitmerealine kanne, kus vastaskonto puudub.
 
-    [![Mitmerealine kanne](./media/Multi-line.png)](./media/Multi-line.png)
+    [![Mitmerealine kviitung.](./media/Multi-line.png)](./media/Multi-line.png)
 
 - Sisestage kanne, kus nii konto kui ka vastaskonto sisaldavad alampearaamatu konto tüüpi, näiteks **Hankija**/**Hankija**, **Klient**/**Klient**, **Hankija**/**Klient**, või **Pank**/**Pank**.
 
-    [![Alampearaamatu kanne](./media/subledger.png)](./media/subledger.png)
+    [![Alampearaamatu kviitung.](./media/subledger.png)](./media/subledger.png)
 
 ## <a name="issues-with-one-voucher"></a>Ühe kande probleemid
 
-Ühe kande funktsioon tekitab probleeme tasakaalustamise, maksuarvestuse, kande tühistamise, alampearaamatu ja pearaamatu vastavusseviimise, finantsaruandluse ja muu ajal. (Lisateavet probleemide kohta, mis tekivad tasakaalustamise ajal, vt näiteks jaotisest [Üksik mitme kliendi- või hankijakirjega kanne](https://docs.microsoft.com/dynamics365/finance/accounts-payable/single-voucher-multiple-customer-vendor-records).) Õigeks toimimiseks ja aruandluseks on nende protsesside ja aruannete jaoks vaja kande üksikasju. Kuigi mõni stsenaarium võib olenevalt organisatsiooni seadistusest siiski õigesti toimida, esineb sageli probleeme, kui ühte kandesse sisestatakse mitu kannet.
+Ühe kande funktsioon tekitab probleeme tasakaalustamise, maksuarvestuse, kande tühistamise, alampearaamatu ja pearaamatu vastavusseviimise, finantsaruandluse ja muu ajal. (Lisateavet probleemide kohta, mis tekivad tasakaalustamise ajal, vt näiteks jaotisest [Üksik mitme kliendi- või hankijakirjega kanne](../accounts-payable/single-voucher-multiple-customer-vendor-records.md).) Õigeks toimimiseks ja aruandluseks on nende protsesside ja aruannete jaoks vaja kande üksikasju. Kuigi mõni stsenaarium võib olenevalt organisatsiooni seadistusest siiski õigesti toimida, esineb sageli probleeme, kui ühte kandesse sisestatakse mitu kannet.
 
 Näiteks sisestate järgmise kande.
 
-[![Mitmerealise kande näide](./media/example.png)](./media/example.png)
+[![Mitmerealise kviitungi näide.](./media/example.png)](./media/example.png)
 
 Seejärel loote aruande **Kulud hankija järgi** tööruumi **Finantsülevaated**. Selles aruandes grupeeritakse kulukonto saldo hankijagrupi ja seejärel hankija järgi. Kui aruanne on loodud, ei suuda süsteem määrata, millised hankijagrupid/hankijad sisestasid kulu 250.00. Kuna kande üksikasjad on puudu, eeldab süsteem, et kogu 250.00 kulu on sisestanud esimene kandes leiduv hankija. Seega kuvatakse see 250.00 kulu, mis sisaldub põhikonto 600120 saldol, selle hankijagrupi/hankija all. Kuid on väga tõenäoline, et kande esimene hankija ei ole õige hankija. Seetõttu on aruanne ilmselt vale.
 
-[![Kulud hankija aruande järgi](./media/expenses.png)](./media/expenses.png)
+[![Kulud hankija aruande järgi.](./media/expenses.png)](./media/expenses.png)
 
 ## <a name="the-future-of-one-voucher"></a>Ühe kande tulevik
 
@@ -83,7 +82,7 @@ Klientidega peetud vestluste põhjal on Microsoft koostanud järgmise loendi sts
 
 Järgmiseid stsenaariume on võimalik täita ainult ühe kande funktsiooni kasutades. Kui teie organisatsioonil on mõni neist stsenaariumitest, peate lubama mitme kande sisestamist ühte kandesse, muutes parameetrit **Luba ühe kande raames mitu kannet** lehel **Pearaamatu parameetrid**. Need funktsionaalsed vahemikud täidetakse teiste funktsioonidega hilisemates väljaannetes.
 
-> [!Note]
+> [!NOTE]
 > [Iga järgneva stsenaariumi jaoks peab väli **Luba ühe kande raames mitu kannet** olema määratud väärtusele „Jah” kiirkaardil **Üldine** lehel **Üldised pearaamatu parameetrid**.]
 
 ### <a name="post-vendor-or-customer-payments-in-summary-form-to-a-bank-account"></a>Hankija või kliendi maksete sisestamine pangakonto kokkuvõttevormi
@@ -117,15 +116,7 @@ Selles stsenaariumis on ühe kande kliendid üks ja sama klient, sest kanne simu
 Kui korvamise perioodiline ülesanne käivitatakse Müügireskontro mooduli, loob see kande, et viia saldo kliendilt hankijale. Selles stsenaariumis tuleb kliendile tagasi maksmiseks kasutada Ühe kande funktsiooni.
 
 ### <a name="fixed-asset-maintenance-catch-up-depreciation-split-asset-calculate-depreciation-on-disposal"></a>Põhivara hooldus: järelkulum, vara tükeldamine, likvideerimise kulumi arvutamine
-Järgmised põhivara kanded loovad samuti ühes kandes mitu kannet.
-
-- Varale tehakse täiendav soetamine ja arvutatakse järelkulum.
-- Vara tükeldatakse.
-- Likvideerimise kulumi arvutamiseks kasutatav parameeter on sisse lülitatud ja vara likvideeritakse.
-- Vara teenuse kuupäev on enne soetamiskuupäeva. Seega sisestatakse kulumi korrigeerimine.
-
-> [!Note]
-> Kannete sisestamisel veenduge, et kõik kanded oleksid seotud sama põhivaraga. Kannet ei sisestata, kui see hõlmab rohkem kui ühte põhivara, isegi kui väli **Uus kanne** on määratud pearaamatu lehel **Töölehe nimed** valikule Ainult üks kande number. Kui kaasate kandesse rohkem kui ühe põhivara, kuvatakse teade **Kandel võib olla ainult üks põhivarakanne** ja te ei saa kannet sisestada.  
+Versiooniga 10.0.21 ja hilisema versiooniga luuakse põhivarakanded lisakulumi, põhivara tükeldamise ja vara likvideerimise kulumi arvutamiseks, kasutades erinevaid kandenumbreid.
 
 ### <a name="bills-of-exchange-and-promissory-notes"></a> Käskveksel ja võlatähed
 Käskvekslid ja võlatähed nõuavad Ühe kande kasutamist, sest kanded viivad kliendi või hankija saldo ühelt Müügireskontro/ostureskontro pearaamatukontolt teisele, olenevalt makse olekust.
@@ -186,3 +177,6 @@ Kui parandus on vaja teha Müügireskontro või Ostureskontro pearaamatukontole,
 ### <a name="the-system-allows-it"></a>„Süsteem lubab seda”
 
 Organisatsioonid kasutavad sageli ühe kande funktsiooni lihtsalt seetõttu, et süsteem lubab neil seda kasutada, mõistmata selle mõju.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

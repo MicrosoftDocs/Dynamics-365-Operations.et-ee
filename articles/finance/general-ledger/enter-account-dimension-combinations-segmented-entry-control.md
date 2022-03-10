@@ -2,11 +2,9 @@
 title: Konto ja dimensioonide kombinatsioonide sisestamine (segmenditud sisestamise juhtimine)
 description: Selles artiklis kirjeldatakse, kuidas sisestada konto ja dimensiooni kombinatsioone või pearaamatukontosid. Kande kogemust nimetatakse sageli segmenditud sisestuse juhtelemendiks.
 author: aprilolson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DimensionConfigureAccountStructure
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0bed6a13a721269550fa72c495e7ecfddadf9d8b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.openlocfilehash: 6aad3c6044141c80103fe05706d77af52245432f0374223a75b2ba63b2c9a89b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5260777"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6778914"
 ---
 # <a name="enter-account-and-dimension-combinations-segmented-entry-control"></a>Konto ja dimensioonide kombinatsioonide sisestamine (segmenditud sisestamise juhtimine)
 

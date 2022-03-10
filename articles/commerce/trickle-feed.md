@@ -1,8 +1,8 @@
 ---
 title: Vähehaaval toimuv tellimuse loomine kaupluse kannete jaoks
 description: Selles teemas kirjeldatakse vähehaaval toimuvat tellimuse loomist kaupluse kannete jaoks Microsoft Dynamics 365 Commerce'is.
-author: josaw1
-ms.date: 09/04/2020
+author: analpert
+ms.date: 01/11/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -15,43 +15,53 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: e0686b1b3113440808ea195683e15fb2c66b4558
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 67b66cd4bf2a77f3ab7f33f691156e38cc13770a
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5801839"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964625"
 ---
 # <a name="trickle-feed-based-order-creation-for-retail-store-transactions"></a>Vähehaaval toimuv tellimuse loomine kaupluse kannete jaoks
 
 [!include [banner](includes/banner.md)]
 
-Dynamics 365 Retaili versioonis 10.0.4 ja varasemates versioonides on väljavõtte sisestamine päevalõpu toiming ja kõik kanded sisestatakse raamatutesse päeva lõpus. Mahukaid kandeid tuleb seejärel töödelda piiratud ajavahemikus, mis mõnikord põhjustab suurt koormust, lukustusi ja väljavõtte sisestamise tõrkeid. Lisaks ei saa jaemüüjad tuvastada päeva jooksul oma raamatutes tulu ega makseid.
+Versioonis Microsoft Dynamics 365 Commerce 10.0.5 ja uuemas on soovitatav viia kõik väljavõtte sisestamisprotsessid üle vähehaaval toimuvale väljavõtte sisestusprotsessile. Vähehaaval toimuva funktsiooni kasutamisega on seotud olulised jõudluse ja ärieelised. Müügikandeid töödeldakse kogu päeva jooksul. Makse- ja sularahahalduse kandeid töödeldakse finantsaruandes päeva lõpus. Vähehaaval toimuv funktsioon võimaldab müügitellimuste, arvete ja maksete pidevat töötlemist. Seetõttu uuendatakse ja tuvastatakse varusid, tulu ja makseid peaaegu reaalajas.
 
-Retaili versioonis 10.0.5 kasutusele võetud vähehaaval toimuva tellimuse loomisel töödeldakse kandeid kogu päeva jooksul ja päeva lõpus töödeldakse ainult maksevahendite finantsvastavusseviimist ja muid kassahalduse kandeid. See funktsioon jaotab müügitellimuste, arvete ja maksete loomise koormuse päeva peale ära, pakkudes suuremat jõudlust ning võimaldades tulu ja makseid kajastada raamatutes peaaegu reaalajas. 
+## <a name="use-trickle-feed-based-posting"></a>Vähehaaval toimuva sisestamise kasutamine
 
+> [!IMPORTANT]
+> Enne vähehaaval toimuva sisestamise lubamist peate kontrollima, et ei oleks arvutatud ja sisestamata väljavõtteid. Enne funktsiooni lubamist sisestage kõik väljavõtted. Avatud väljavõtteid saate kontrollida tööruumis **Kaupluse finantsandmed**.
 
-## <a name="how-to-use-trickle-feed-based-posting"></a>Vähehaaval toimuva sisestamise kasutamine
-  
-1. Jaemüügikannete vähehaaval toimuva sisestamise lubamiseks lubage funktsioonihalduse abil funktsioon **Retaili väljavõtted – vähehaaval toimuv**.
+Jaemüügikannete vähehaaval toimuva sisestamise lubamiseks lubage tööruumis **Funktsooonihaldus** funktsioon **Retaili väljavõtted – vähehaaval toimuv**. Väljavõtted tükeldatakse kaheks tüübiks: kandeväljavõtted ja finantsaruanded.
 
-    > [!IMPORTANT]
-    > Enne funktsiooni lubamist veenduge, et ükski väljavõte pole sisestamise ootel.
+### <a name="transactional-statements"></a>Kandeväljavõtted
 
-2. Praegune väljavõttedokument tükeldatakse kaheks tüübiks: kandeväljavõte ja finantsaruanne.
+Kandeväljavõtete töötlemise eesmärk on nende käitamine suurel sagedusel kogu päeva jooksul, et dokumendid loodaks siis, kui kanded laaditakse Commerce’i peakontorisse. Kanded laaditakse kauplustest Commerce'i peakontorisse **P-töö** käivitamisel. Peate käitama ka töö **Kinnita kaupluse kanded**, et kandeid kinnitatakse nii, et kandeväljavõte saab need kätte.
 
-      - Kandeväljavõte kogub kõik sisestamata ja kinnitatud kanded ning loob müügitellimused, müügiarved, maksete ja allahindluste töölehed ning tulu-/kulukanded teie konfigureeritaval sagedusel. Peaksite selle protsessi konfigureerima nii, et seda käitataks suurel sagedusel, et dokumendid loodaks siis, kui kanded laaditakse peakontori P-töö kaudu. Selle kandeväljavõtte korral, mis juba loob müügitellimusi ja müügiarveid, pole tegelikult vaja konfigureerida pakett-tööd **Sisesta varud**. Saate oma võimalike ärinõuete täitmiseks seda siiski kasutada.  
-      
-     - Finantsaruanne on mõeldud loomiseks päeva lõpus ja see toetab ainult sulgemisviisi **Vahetus**. See aruanne piiratakse finantsvastavusseviimisega ja see loob töölehed ainult loendatud summa ja kandesumma vaheliste erinevuste summade jaoks eri maksevahendite puhul, samuti loob töölehed muude sularahahalduse kannete jaoks.   
+Ajastage järgmised tööd suure sagedusega käivituma.
 
-3. Kandeväljavõtte arvutamiseks avage **Retail ja Commerce > Retaili ja Commerce'i IT > Kassa sisestamine > Kandeväljavõtete arvutamine partiina**. Kandeväljavõtete sisestamiseks partiina valige **Retail ja Commerce > Retaili ja Commerce'i IT > Kassa sisestamine > Kandeväljavõtete sisestamine partiina**.
+- Kandeväljavõtte arvutamiseks käivitage töö **Kandeväljavõtete arvutamine partiina** (**Retail ja Commerce \> Retaili ja Commerce'i IT \> Kassa sisestamine \> Kandeväljavõtete arvutamine partiina**). See töö saab kätte kõik sisestamata ja kinnitatud kanded ning lisab need uuele kandeväljavõttele.
+- Kandeväljavõtte sisestamiseks partiina käivitage töö **Kandeväljavõtete sisestamine partiina** (**Retail ja Commerce \> Retaili ja Commerce'i IT \> Kassa sisestamine \> Kandeväljavõtete sisestamine partiina**). See töö käivitab tõrkeid mittesisaldavate sisestamata väljavõtete sisestamisprotsessi ja loob müügitellimused, müügiarved, maksete ja allahindluste töölehed ning tulu-/kulukanded. 
 
-4. Finantsaruande arvutamiseks valige **Retail ja Commerce > Retaili ja Commerce'i IT > Kassa sisestamine > Finantsaruande arvutamine partiina**. Finantsaruannete partiina sisestamiseks valige **Retail ja Commerce > Retaili ja Commerce'i IT > Kassa sisestamine > Finantsaruande sisestamine partiina**.
+### <a name="financial-statements"></a>Finantsaruanded
 
-> [!NOTE]
-> Menüükäsud **Retail ja Commerce > Retaili ja Commerce'i IT > Kassa sisestamine > Väljavõtete arvutamine partiina** ja **Retail ja Commerce > Retaili ja Commerce'i IT > Kassa sisestamine > Väljavõtete sisestamine partiina** eemaldatakse selle uue funktsiooniga.
+Finantsaruande töötlemine on mõeldud päeva lõpetamise protsessina. Seda tüüpi väljavõtte töötlemine toetab ainult **Vahetuse** sulgemismeetodit ja tuvastab ainult suletud vahetused. Väljavõtted on piiratud finantstehingute vastavusseviimisega. Need loovad töölehed ainult loendatud summa ja kandesumma vaheliste erinevuste summade jaoks maksete ja töölehtede jaoks muude sularahahalduse kannete puhul.
 
-Lisaks saab kandeväljavõtte ja finantsaruande tüüpe luua käsitsi. Avage **Retail ja Commerce > Kanalid > Kauplused** ja klõpsake valikut **Väljavõtted**. Klõpsake valikut **Uus** ja valige, millist tüüpi väljavõtte soovite luua. Lehel **Väljavõtted** olevad väljad ja lehe jaotises **Väljavõttegrupp** olevad tegevused kuvavad valitud väljavõttetüübi põhjal asjakohased andmed ja tegevused.
+Finantsaruanded võimaldavad ka järgmiste kannete ülevaatamist: päevakassa kanded, maksete kanded, panka hoiustatud maksevahendi kanded ja seifi hoiustatud maksevahendi kanded. Maksevahendi üksikasjade leht on nähtav ainult siis, kui on valitud finantsaruanne.
 
+![Pilt, kus kuvatakse sisestatud väljavõtete vormi maksevahendi üksikasjade jaotis ainult siis, kui on valitud finantsaruanne.](./media/Trickle-feed-posted-statements-transaction-view.png)
+
+Ajastage järgmiste finantsaruande tööde algus- ja lõppajad päeva eeldatava lõpu alusel.
+
+- Finantsaruande arvutamiseks käivitage töö **Finantsaruannete arvutamine partiina** (**Retail ja Commerce \> Retaili ja Commerce'i IT \> Kassa sisestamine \>Finantsaruannete arvutamine partiina**). See töö kogub kõik sisestamata finantskanded ja lisab need uude finantsaruandesse.
+- Finantsaruannete sisestamiseks partiina käivitage töö **Finantsaruannete sisestamine partiina** (**Retail ja Commerce \> Retaili ja Commerce'i IT \> Kassa sisestamine \>Finantsaruannete sisestamine partiina**).
+
+### <a name="manually-create-statements"></a>Väljavõtete käsitsi loomine
+
+Kandeväljavõtte ja finantsaruande tüüpe saab luua ka käsitsi. 
+
+1. Avage **Retail ja Commerce \> Kanalid \> Kauplused** ja klõpsake valikut **Väljavõtted**. 
+2. Valige **Uus** ja seejärel valige loodav väljavõtte tüüp. Lehel **Väljavõtted** kuvatakse valitud väljavõtte tüübi kohta asjakohased andmed ja jaotises **Väljavõttegrupp** olevad tegevused kuvavad asjakohased tegevused.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

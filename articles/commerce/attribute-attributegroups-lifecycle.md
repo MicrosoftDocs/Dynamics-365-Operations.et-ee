@@ -2,11 +2,9 @@
 title: Atribuutide ja atribuudigruppide haldamine
 description: Selles teemas kirjeldatakse, kuidas kasutada atribuute, et võimaldada kasutaja määratletud väljade kaudu toote ja selle omaduste kirjeldamist.
 author: ashishmsft
-manager: AnnBe
 ms.date: 04/28/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: EcoResCategoryAttribute, EcoResProductEntityAttributeTableFieldAssociation, EcoResCategorySearchList, EcoResAttribute, COODualUseCategories, EcoResAttributeType, EcoResAttributeValue, EcoResCategoryAttributeGroup, EcoResCategoryFriendlyName
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
-ms.openlocfilehash: 70e2b52dd140660fe98c6ff07248a033ba4bd635
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: b3960f0877bdf68dd2f511ad283961b2a92db6a60078e84be55f071a00eae927
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4979969"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6727650"
 ---
 # <a name="manage-attributes-and-attribute-groups"></a>Atribuutide ja atribuudigruppide haldamine
 
@@ -72,7 +70,7 @@ Atribuudid põhinevad *atribuuditüüpidel*. Atribuudi tüüp tuvastab andmete t
     - Andke ühele atribuuditüübile nimeks **Läätse kuju** ja lisage järgmised väärtused: **Ovaalne**, **Ruudukujuline** ja **Ristkülikukujuline**.
     - Andke teisele atribuuditüübile nimeks **Päikeseprillide kaubamärk** ja lisage järgmised väärtused: **Ray ban**, **Aviator** ja **Oakley**.
 
-![Atribuuditüübid](media/AttributeType.png)
+![Atribuuditüübid.](media/AttributeType.png)
 
 ### <a name="set-up-an-attribute"></a>Saate häälestada atribuudi.
 
@@ -81,7 +79,7 @@ Atribuudid põhinevad *atribuuditüüpidel*. Atribuudi tüüp tuvastab andmete t
 3. Looge atribuut nimega **Lääts**.
 4. Määrake välja **Atribuudi tüüp** väärtuseks **Läätse kuju**.
 
-![Atribuudid](media/Attribute.png)
+![atribuudid.](media/Attribute.png)
 
 ## <a name="attribute-metadata"></a>Atribuudi metaandmed
 
@@ -103,7 +101,7 @@ Siin on ülejäänud atribuudi metaandmete suvandid lehel **Atribuudid**:
 
 Need suvandid olid algselt ette nähtud veebipoe fassaadi otsingufunktsiooni täiustamiseks. Kuigi Commerce ei sisalda valmiskujul veebipoe fassaadi, sisaldab see lahendust eCommerce Publishing Software Development Kit (SDK). Kliendid saavad seda SDK-d kasutada toodete panemiseks enda valitud otsinguindeksisse. Kuigi tooteandmed imporditakse, peaksid kliendid siiski saama eristada otsitavaid andmeid, andmeid, mille kohta saab esitada päringuid jne. Sel viisil saavad nad luua optimaalse indeksi veendumaks, et nad indekseerivad ainult atribuute, mida *nende hinnangul* tuleb indekseerida.
 
-Teavet ülejäänud suvandite otstarbe kohta vt teemast [SharePoint Server 2013 otsinguskeemi ülevaade](https://technet.microsoft.com/library/jj219669.aspx).
+Teavet ülejäänud suvandite otstarbe kohta vt teemast [SharePoint Server 2013 otsinguskeemi ülevaade](/SharePoint/search/search-schema-overview).
 
 ## <a name="filter-settings-for-attributes"></a>Atribuutide filtrisätted
 
@@ -136,7 +134,7 @@ Leht **Filtri kuvamise eelistused** sisaldab järgmisi välju.
     - 200–500
     - 500 või rohkem
 
-![Atribuudi filtrisätted](media/AttributeFilterSettings.PNG)
+![Atribuudi filtrisätted.](media/AttributeFilterSettings.PNG)
 
 ## <a name="attribute-groups"></a>Atribuudigrupid
 
@@ -144,7 +142,7 @@ Kui atribuudid on määratletud, saab need määrata atribuudigruppidesse. *Atri
 
 Saate ka määrata vaikeväärtusi atribuutidele, mis kuuluvad atribuudigruppi. Näiteks saate atribuudigruppi lisada värvi atribuudi ja valida atribuudi vaikeväärtuseks **Sinine**. Sel juhul, kui atribuudigrupp lisatakse tootele, mis sisaldab ühe atribuudina värvi, on selle toote vaikevärv **sinine**.
 
-![Atribuudigrupid](media/AttributeGroup.png)
+![Atribuudigrupid.](media/AttributeGroup.png)
 
 ### <a name="create-an-attribute-group"></a>Looge atribuudigrupp
 
@@ -157,7 +155,7 @@ Saate ka määrata vaikeväärtusi atribuutidele, mis kuuluvad atribuudigruppi. 
 
 Järgmist tüüpi kategooriahierarhiates saab kategooriasõlmedega seostada ühe või mitu atribuudigruppi: Commerce'i tootehierarhia, kanali navigeerimiskategooria hierarhia ja täiendav tootekategooria hierarhia. Seejärel pärivad tooted kategoriseerimisel atribuudigruppidesse kaasatud atribuudid.
 
-![Tootehierarhia – toote atribuudigrupid](media/AGRetailProdHierarchy.PNG)
+![Tootehierarhia – toote atribuudigrupid.](media/AGRetailProdHierarchy.PNG)
 
 Järgige neid samme, et määrata atribuudigruppe Commerce'i tootehierarhias gruppidesse.
 
@@ -202,7 +200,7 @@ Kaupluse hierarhia ühe või mitme kauplusega saab seostada ühe või mitu atrib
     3. Valige kategooriasõlm **Moeaksessuaarid**, valige kategooria **Moekad päikeseprillid** ja seejärel valige kiirkaardil **Kanali toote atribuudid** iga atribuudi jaoks suvand **Atribuudi kaasamine**.
     4. Valige kategooriasõlm **Meeste rõivad**, valige kategooria **Püksid** ja seejärel valige kiirkaardil **Kanali toote atribuudid** iga atribuudi jaoks suvand **Atribuudi kaasamine**.
 
-![Kanali kategooriad ja toote atribuudid – atribuudigrupid](media/CCPAttrGrp.png)
+![Kanali kategooriad ja toote atribuudid – atribuudigrupid.](media/CCPAttrGrp.png)
 
 ## <a name="overriding-attribute-values"></a>Atribuudi väärtuste alistamine
 
@@ -216,7 +214,7 @@ Atribuutide vaikeväärtused saab toote tasemel individuaalsete toodete puhul al
 4. Valige ruudustikust nõutav toode. Seejärel tehke tegumiriba vahekaardil **Toode** grupis **Häälesta** valik **Toote atribuudid**.
 5. Valige vasakpoolsel paanil atribuut ja seejärel värskendage parempoolsel paanil selle väärtust.
 
-![Toote üksikasjade leht – toote atribuudigrupid](media/ProdDetailsProdAttrValues.png)
+![Toote üksikasjade leht – toote atribuudigrupid.](media/ProdDetailsProdAttrValues.png)
 
 ### <a name="override-the-attribute-values-of-products-in-a-catalog"></a>Kataloogis olevate toodete atribuudiväärtuste alistamine
 
@@ -235,7 +233,7 @@ Atribuutide vaikeväärtused saab toote tasemel individuaalsete toodete puhul al
     > [!NOTE]
     > Kui luuakse ühiskasutuses tootemeedium ja ühised toote atribuudid, kehtivad need kõigile toodetele.
 
-![Kataloogi toote atribuudigrupid](media/CatalogProdAttrValues.png)
+![Kataloogi toote atribuudigrupid.](media/CatalogProdAttrValues.png)
 
 ### <a name="override-the-attribute-values-of-products-in-a-channel"></a>Kanalil olevate toodete atribuudiväärtuste alistamine
 
@@ -256,3 +254,6 @@ Atribuutide vaikeväärtused saab toote tasemel individuaalsete toodete puhul al
 
     > [!NOTE]
     > Kui luuakse ühiskasutuses tootemeedium ja ühised toote atribuudid, kehtivad need kõigile toodetele.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

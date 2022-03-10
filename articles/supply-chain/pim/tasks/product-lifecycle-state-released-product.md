@@ -1,25 +1,23 @@
 ---
 title: Toote elutsükli oleku määramine väljastatud tootele
 description: See protseduur näitab, kuidas määrata toote elutsükli olek väljastatud tootele.
-author: cvocph
-manager: tfehr
+author: t-benebo
 ms.date: 12/05/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: benebotg
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0454b173c720ee80d89f960f81502a13a15a5662
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 02a1a32213d9b44574ed47bc32a1683c205024a6
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4986800"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7566979"
 ---
 # <a name="assign-a-product-lifecycle-state-to-a-released-product"></a>Toote elutsükli oleku määramine väljastatud tootele
 
@@ -36,3 +34,6 @@ See protseduur näitab, kuidas määrata toote elutsükli olek väljastatud toot
 5. Väljal Toote elutsükli olek sisestage või valige väärtus.
 6. Klõpsake nuppu Salvesta.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

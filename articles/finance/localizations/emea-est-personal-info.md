@@ -2,25 +2,22 @@
 title: Isikuandmete taotlused Eesti puhul
 description: Selles teemas kirjeldatakse isikuandmete taotlusi Eesti puhul.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 03/26/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Estonia
 ms.author: roschlom
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 10c5e903ce5ffe802a7721e91659d1199162b539
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 1b595729398af24dbfa52a31e443ba0c0b9edd2999b63eb4b8a2810c34618b36
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407854"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6779382"
 ---
 # <a name="personal-information-requests-for-estonia"></a>Isikuandmete taotlused Eesti puhul
 
@@ -38,4 +35,7 @@ Kõik ettevõtted peavad koguma teavet töötajate, klientide ja hankijate kohta
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-- [Ressursid GDPR-i andmetaotlusele vastamiseks](../../dev-itpro/gdpr/gdpr-home-page.md)
+- [Ressursid GDPR-i andmetaotlusele vastamiseks](../../fin-ops-core/dev-itpro/gdpr/gdpr-home-page.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

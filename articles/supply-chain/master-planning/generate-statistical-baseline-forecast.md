@@ -1,12 +1,10 @@
 ---
 title: Statistilise alusprognoosi loomine
 description: Selles teemas on esitatud teave nõudluse prognoosimise arvutamisel kasutatavate parameetrite ja filtrite kohta.
-author: roxanadiaconu
-manager: tfehr
+author: ChristianRytt
 ms.date: 07/08/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqDemPlanCreateForecastDialog
 audience: Application User
@@ -15,15 +13,15 @@ ms.custom: 72683
 ms.assetid: 42190463-2a64-4f63-b653-10cac3df0692
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9257f54080eed6c066f10eeb0cddb12a96e08817
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.openlocfilehash: 8f34f1721b6215ac09173a346c1f3f1e6b262247
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5204660"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577524"
 ---
 # <a name="generate-a-statistical-baseline-forecast"></a>Statistilise alusprognoosi loomine
 
@@ -69,8 +67,7 @@ Kui prognoosi ei looda korraga suure hulga kaupade jaoks, vaid näiteks ühele k
 > [!NOTE]
 > Potentsiaalselt lameda väljanägemisega prognoos võib olla tingitud ajaloolistest andmetest, mis peab pärinema pikemast ajaloolisest ajavahemikust (minimaalselt 3 ajaperioodi mustrite valimiseks, nt 3 aastat kuu prognoosiga). Paremate tulemuste saamiseks võite proovida muuta ajavahemiku teralisust või suurendada ajavahemikku.
 
-<a name="additional-resources"></a>Lisaressursid
---------
+## <a name="additional-resources"></a>Lisaressursid
 
 - [Nõudluse prognoosi häälestus](demand-forecasting-setup.md)
 

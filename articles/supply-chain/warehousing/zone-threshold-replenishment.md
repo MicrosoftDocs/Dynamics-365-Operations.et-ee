@@ -12,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: d0a97ed7b01a32e9276433713448a672f83f7d02
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
-ms.translationtype: HT
+ms.dyn365.ops.version: 10.0.8
+ms.openlocfilehash: f3e94cc79f0daac9107f9876ac8414d2c4cff366
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814364"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7568987"
 ---
 # <a name="zone-threshold-replenishment"></a>Tsooniläve täiendamine
 

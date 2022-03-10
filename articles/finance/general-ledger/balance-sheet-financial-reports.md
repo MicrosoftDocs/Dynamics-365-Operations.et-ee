@@ -2,11 +2,9 @@
 title: Bilansi finantsaruanded
 description: Selles artiklis kirjeldatakse bilansside vaikearuandeid. Samuti kirjeldatakse nende aruannetega seotud koosteüksusi.
 author: jcart1106
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: FinanicalReports
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bcfb8e8fd28224ac9fe9a4919f4252dcd01ce360
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.openlocfilehash: b0fae7ccb216ced0cbcbdb69980b3bae754a4980ecaf9314893368ae89459fa0
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5212393"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6734510"
 ---
 # <a name="balance-sheet-financial-reports"></a>Bilansi finantsaruanded
 
@@ -30,8 +28,7 @@ ms.locfileid: "5212393"
 
 Selles artiklis kirjeldatakse bilansside vaikearuandeid. Samuti kirjeldatakse nende aruannetega seotud koosteüksusi. 
 
-<a name="default-balance-sheet-reports"></a>Bilansi vaikearuanded
------------------------------
+## <a name="default-balance-sheet-reports"></a>Bilansi vaikearuanded
 
 Bilansi vaikearuandeid on kaks. Ühes aruandes on jaotised virnastatud. Teises aruandes on jaotised kõrvuti.
 
@@ -70,8 +67,7 @@ Veeru definitsioonid sisaldavad eri tüüpi veerge üksikasjade ja finantsandmet
 
 
 
-<a name="additional-resources"></a>Lisaressursid
---------
+## <a name="additional-resources"></a>Lisaressursid
 
 [Finantsaruandluse ülevaade](financial-reporting-getting-started.md)
 

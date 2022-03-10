@@ -1,7 +1,7 @@
 ---
 title: Saabumise ülevaade
 description: Selles teemas kirjeldatakse funktsiooni saabumisülevaade. Saabumisülevaate leht on selle funktsiooni osa ja annab ülevaate kõikidest kaupadest, mille saabumist sissetuleva kaubana eeldatakse.
-author: perlynne
+author: yufeihuang
 ms.date: 11/02/2017
 ms.topic: article
 ms.prod: ''
@@ -15,15 +15,15 @@ ms.custom:
 ms.assetid: 375807b2-a426-4f1b-bc1f-2fe00fd48413
 ms.search.region: global
 ms.search.industry: Distribution
-ms.author: perlynne
+ms.author: yufeihuang
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
-ms.openlocfilehash: fdd2995da04aa4752868a84499c81c2c01d80c16
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
-ms.translationtype: HT
+ms.openlocfilehash: 1248156ba9081fe4afbffd480b45cf9326d14a6c
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6360444"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7567435"
 ---
 # <a name="arrival-overview"></a>Saabumise ülevaade
 

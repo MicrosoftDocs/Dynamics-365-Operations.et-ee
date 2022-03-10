@@ -1,12 +1,10 @@
 ---
 title: Finantsperioodi sulgemise tööruum
 description: Selles artiklis antakse ülevaade finantsperioodi sulgemise tööruumist ja sellega seotud konfiguratsioonist.
-author: ShylaThompson
-manager: AnnBe
+author: kweekley
 ms.date: 11/29/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerPeriodCloseProjectWorkspace
 audience: Application User
@@ -14,21 +12,21 @@ ms.reviewer: roschlom
 ms.custom: 13791
 ms.assetid: 6ee51758-639b-448e-9cb2-56cf1d804273
 ms.search.region: Global
-ms.author: saraschi
+ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c83c8f6ecc72d4d04eae9707ad4066754ab5af48
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.openlocfilehash: 8ab203a18229cd426f8483ed6d0483c98614af9c
+ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5249335"
+ms.lasthandoff: 10/31/2021
+ms.locfileid: "7727060"
 ---
 # <a name="financial-period-close-workspace"></a>Finantsperioodi sulgemise tööruum
 
 [!include [banner](../includes/banner.md)]
 
-Selles artiklis antakse ülevaade finantsperioodi sulgemise tööruumist ja sellega seotud konfiguratsioonist.
+Selles artiklis antakse ülevaade **finantsperioodi sulgemise** tööruumist ja sellega seotud konfiguratsioonist.
 
 Finantsperioodi sulgemise tööruum
 

@@ -1,5 +1,5 @@
 ---
-title: Masinõppemudelite tulemused (eelversioon)
+title: Masinõppemudelite tulemused
 description: Selles teemas käsitletakse segaduse maatrikseid, klassifitseerimisprobleeme ja täpsust masinõppe (ML) mudelites. Eesmärk on parandada oma arusaamist ML-i prognoosimise tulemuste täpsusest.
 author: ShivamPandey-msft
 ms.date: 07/16/2021
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-14
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: f766303f0592dec917a23339511a957fcdc940d6
-ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
-ms.translationtype: HT
+ms.openlocfilehash: 2545f7d043e139606c51bc559e3aacbe73abccfc
+ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/17/2021
-ms.locfileid: "6638676"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7386633"
 ---
-# <a name="results-of-machine-learning-models-preview"></a>Masinõppemudelite tulemused (eelversioon)
+# <a name="results-of-machine-learning-models"></a>Masinõppemudelite tulemused
 
 [!include [banner](../includes/banner.md)]
 

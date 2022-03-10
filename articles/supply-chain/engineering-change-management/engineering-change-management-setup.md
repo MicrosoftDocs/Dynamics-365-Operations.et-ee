@@ -2,26 +2,23 @@
 title: Tehnilise muudatuse haldamise jaoks ühiste väärtuste loomine
 description: Selles teemas kirjeldatakse, kuidas luua ühiseid väärtusi, mida kasutatakse tehnilise muudatuse haldamise eri osade parameetrite korral.
 author: t-benebo
-manager: tfehr
 ms.date: 09/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EngChgProductParameters, EngChgEcmSeverityTable, EngChgEcmSeverityRuleSet, EngChgEcmSeverityLookup,EngChgEcmSeverityChart,EngChgEcmRequestSeverityChart,EngChgEcmPriorityTable, EngChgEcmPriorityLookup, EngChgEcmPriorityChart, EngChgEcmMaterialDisposition, EngChgEcmEH
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
-ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 86de050ef4110e3485a77099440f3402e46cc498
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
-ms.translationtype: HT
+ms.dyn365.ops.version: 10.0.15
+ms.openlocfilehash: c2ff21490dc71859d75923dd757e264096d4fcba
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4426712"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7565923"
 ---
 # <a name="establish-common-values-for-engineering-change-management"></a>Tehnilise muudatuse haldamise jaoks ühiste väärtuste loomine
 
@@ -91,3 +88,6 @@ Seadistage iga reeglistiku korral järgmine väli.
 - **Raskusaste** – valige raskusaste, mille jaoks reeglid luuakse. Astmete loomiseks ja neile nime panemiseks saate kasutada lehte **Tehnilise muudatuse raskusastmed**. (Lisateavet leiate eelmisest jaotisest.)
 
 Kasutage kiirkaardil **Reeglid** olevaid nuppe, et lisada või eemaldada reegel praeguse raskusastme sätte jaoks. Igal reeglil on väljad **Reegel** ja **Nimi**. Reeglid kehtestab süsteem ja need näitavad muudatuste tüüpe, mida toode võib hõlmata. Nimi näitab muudatuse tüüpi.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

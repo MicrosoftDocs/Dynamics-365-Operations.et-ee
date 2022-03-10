@@ -1,12 +1,10 @@
 ---
 title: Kooslused ja valemid
 description: See teema annab teavet koosluste ja valemite kohta, mis on toodete ja tootevariantide määratlemise keskne osa.
-author: cvocph
-manager: tfehr
+author: johanhoffmann
 ms.date: 11/03/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BOMConsistOf, BOMDesigner, BOMTable, EcoResProductProcessManufacturingWorkspace, ProdBOM, ProdJournalTransBOM, ProdBOMCurrent, PmfBOMDesignerEditCoBy, ProdJournalPickingListLineSummary, ProdBOMOverview, PmfCoReqPlanning, EcoResProductProdTypeFormulaNoActiveFormulaFormPart, EcoResItemsMissingActiveRouteVersionFormPart, EcoResItemsProdTypeBOMExpiringBOMFormPart, BOMDesignerBOMVersion, BOMExpandPurch, BOMChangeLine, BOMExpandSales, EcoResItemsProdTypeBOMExpiringRouteFormPart, EngChgEcmBomDesigner, EngChgEcmProductBOMItemIdLookup, EngChgEcmProductBOMConsistOf, EngChgEcmBOMCopyDialog, EngChgEcmBomDesignerEditBom, BOMDesignerFilterDialog, BOMDesignerFilterDialog, BOMPartOf, BOMSetupReportFinish, EcoResItemsMissingActiveBOMVersionFormPart, BOMIdLookup, EcoResProductProdTypeFormulaNoActiveRouteFormPart, BOMExpandPurchRFQ, EngChgCaseRouteTablePart
 audience: Application User
@@ -15,15 +13,15 @@ ms.custom: 19331
 ms.assetid: c19b437a-2de2-4728-9477-2bcb0c2b1f5e
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8c9d261d5a458732f807c32042a0b3ed975104c8
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.openlocfilehash: 12a70720775d9903a875dd1759ea2372f1f3b122
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5246425"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7578004"
 ---
 # <a name="bills-of-materials-and-formulas"></a>Kooslused ja valemid
 
@@ -31,8 +29,7 @@ ms.locfileid: "5246425"
 
 See teema annab teavet koosluste ja valemite kohta, mis on toodete ja tootevariantide määratlemise keskne osa. Kooslused ja valemid määravad kindla toote jaoks nõutavad materjalid või koostisosad. Valemid määravad ka kindla tootmise kontekstis vastuvõetavad kaastooted ja kõrvalsaadused. 
 
-<a name="bills-of-materials"></a>Kooslused
-------------------
+## <a name="bills-of-materials"></a>Kooslused
 
 Kooslus (BOM) määratleb komponendid, mida on toote tootmiseks vaja. Komponendid võivad olla toormaterjalid, pooltooted või koostisosad. Mõnel juhul võidakse koosluses viidata ka teenustele. Kuid tavaliselt kirjeldavad kooslused vajalikke *materjaliressursse*.  
 

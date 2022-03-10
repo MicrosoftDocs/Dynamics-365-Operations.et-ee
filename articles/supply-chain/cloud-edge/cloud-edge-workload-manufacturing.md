@@ -16,20 +16,23 @@ ms.search.industry: SCM
 ms.author: cabeln
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: da19066f647c17e934a11e4dab7cb370baabfb5c
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
-ms.translationtype: HT
+ms.openlocfilehash: 633740ee1e26d2e4ed2ea7031ef298fb11c2ab58
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6352732"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068840"
 ---
 # <a name="manufacturing-execution-workloads-for-cloud-and-edge-scale-units"></a>Tootmise täideviimise töökoormused pilv- ja perimeeterskaalaüksuste jaoks
 
 [!include [banner](../includes/banner.md)]
 
-> [!WARNING]
-> Tootmise käivitamise töökoormus on praegu eelvaates saadaval.
+> [!IMPORTANT]
+> Tootmise teostamise töökoormus on praegu saadaval ainult eelvaates.
+>
 > Mõni ettevõtte funktsionaalsus ei ole avalikus eelvaates täielikult toetatud juhul, kui kasutatakse töökoormuse skaalaüksusi.
+>
+> Te ei saa käitada eelvaate valmistamise töökoormust mastaabiüksuses, kuhu on installitud ka lao täitmise töökoormus.
 
 Tootmise käivitamisel pakuvad mastaabiüksused järgmisi võimalusi:
 
@@ -44,7 +47,7 @@ See teema kirjeldab, kuidas tootmise läbiviimise töömahud töötavad koos pil
 
 Nagu järgnev illustratsioon näitab, on tootmise elutsükkel jagatud kolmeks faasiks: *Planeeri*, *Käivita* ja *Lõpeta*.
 
-[![Tootmise käivitamise faasid üksiku keskkonna kasutamisel](media/mes-phases.png "Tootmise käivitamise faasid üksiku keskkonna kasutamisel."](media/mes-phases-large.png)
+[![Ühe keskkonna kasutamisel on tootmise käivitamise faasid](media/mes-phases.png "Tootmise täideviimisfaasid ühe keskkonna kasutamisel.")](media/mes-phases-large.png)
 
 _Planeerimise_ faas hõlmab toote määratlust, planeerimist, tellimuse loomist ja ajastamist ning müügile laskmist. Müügile laskmise etapp näitab üleminekut _planeerimise_ faasist _käivitamise_ faasi. Kui tootmistellimus on müügile lastud, on tootmistellimuse tööd tootmiskorrusel nähtavad ja valmis täitmiseks.
 
@@ -54,7 +57,7 @@ Kui tootmistöö on märgitud lõpetatuks, liigub see käivitamise _Käivitamise
 
 Nagu järgmine illustratsioon näitab, kui kasutatakse astmiku ühikuid, tükeldatakse _Käivitamise_ faas eraldi töökoormusena.
 
-[![Tootmise käivitamise faasid, kui kasutatakse kaaluühikuid](media/mes-phases-workloads.png "Tootmise käivitamise faasid, kui kasutatakse kaaluühikuid."](media/mes-phases-workloads-large.png)
+[![Tootmise käivitamise faasid, kui kasutatakse astmiku ühikuid](media/mes-phases-workloads.png "Tootmise käivitamise faasid, kui kasutatakse astmiku ühikuid.")](media/mes-phases-workloads-large.png)
 
 Mudel läheb nüüd kohesest installist mudelile, mis põhineb keskusel ja skaala ühikutel. Faasid _Plaanimine_ ja _Lõpetamine_ käivitatakse keskuses tagatoatoimingutena ja tootmise täideviimise töökoormus käivitatakse skaalaüksustes. Andmed edastatakse asünkroonselt keskuse ja astmiku ühikute vahel.
 
@@ -128,6 +131,22 @@ Selles väljaandes teavitatakse lõpp- ja varjatud toimingutest (valmistoodete, 
 ### Customize report as finished and putaway functionality
 
  -->
+
+## <a name="enable-and-use-the-start-operation-on-a-scale-unit"></a>Lubage ja kasutage skaalaüksuse käivitustoimingut
+
+Praeguses versioonis toetab tootmis- ja partiitellimuste käivitamist [lao teostamise töökoormus](cloud-edge-workload-warehousing.md) (mitte tootmise teostamise töökoormus). Seetõttu peate selle funktsiooni kasutamiseks, kui olete skaalaseadmega ühendatud, täitma järgmised toimingud.
+
+- Installige oma kaaluühikusse nii lao käivitamise töökoormus kui ka tootmise käivitamise töökoormus.
+- Lubage *Alustage pilve- ja servamastaabiüksuse laohalduse töökoormuse tootmistellimust* funktsioon sisse [Funktsioonide haldamine](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+- Kasutage tootmis- või partiitellimuse alustamiseks laohalduse mobiilirakendust.
+
+## <a name="enable-and-use-material-consumption-on-a-scale-unit"></a>Lubage ja kasutage materjalikulu skaalaühikul
+
+Praeguses versioonis toetab laohalduse mobiilirakenduse voogu materjali tarbimise registreerimiseks [lao teostamise töökoormus](cloud-edge-workload-warehousing.md) (mitte tootmise teostamise töökoormus). Seetõttu peate selle funktsiooni kasutamiseks, kui olete skaalaseadmega ühendatud, täitma järgmised toimingud.
+
+- Installige oma kaaluühikusse nii lao käivitamise töökoormus kui ka tootmise käivitamise töökoormus.
+- Lubage *Registreerige materjalikulu mobiilirakenduses skaalaühikul* funktsioon sisse [Funktsioonide haldamine](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+- Materjalikulu registreerimiseks kasutage Laohalduse mobiilirakendust.
 
 [!INCLUDE [cloud-edge-privacy-notice](../../includes/cloud-edge-privacy-notice.md)]
 

@@ -1,12 +1,10 @@
 ---
-title: Töö stiili eelseadistustega
+title: Laadide eelsätetega töötamine
 description: Selles teemas kirjeldatakse, kuidas töötada stiili eelseadistustega rakenduse Microsoft Dynamics 365 Commerce saidiehitajas.
 author: phinneyridge
-manager: annbe
 ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,20 +14,18 @@ ms.search.region: Global
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1bd8f6e31afa300c5e7687a657ae2807995af8d3
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: 63e11b718a2b5221c722a11de3a8df6d9d0e3d6b
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5006306"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964849"
 ---
-# <a name="work-with-style-presets"></a>Töö stiili eelseadistustega
+# <a name="work-with-style-presets"></a>Laadide eelsätetega töötamine
 
 [!include [banner](includes/banner.md)]
 
 Selles teemas kirjeldatakse, kuidas töötada stiili eelseadistustega rakenduse Microsoft Dynamics 365 Commerce saidiehitajas.
-
-## <a name="overview"></a>Ülevaade
 
 Stiili eelseadistus kujutab endast kõikide autoriliste stiiliväärtuste kogumit üle kogu saidi teema. Seda saab kasutada selleks, et muuta kohe saidiehitaja kaudu saidi välimust. Stiili eelseadistused võimaldavad saidiehitaja autoritel muuta kiiresti kogu oma saidi stiiliväärtuste kogumit, seda eelvaates kuvada ja aktiveerida, pidamata seejuures kasutama kaskaadlaadistikke (CSS) ega juurutama teemasid. Fondi stiilid, nuppude stiilid ja saidi värvid on tüüpilised stiilimuutujate näited ning neid saab hallata stiili eelseadistuste kaudu.
 
@@ -120,10 +116,11 @@ Eelseadistuse stiiliväärtused muudetakse aktiivseks üle kogu avalikkusele suu
 
 [Leheikooni lisamine](add-favicon.md)
 
-[Tervitussõnumi lisamine](add-welcome-message.md)
-
 [Autoriõiguste teatise lisamine](add-copyright-notice.md)
 
 [Saidile keelte lisamine](add-languages-to-site.md)
 
 [Telemeetria toetamiseks saidile skriptikoodi lisamine](add-telemetry.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

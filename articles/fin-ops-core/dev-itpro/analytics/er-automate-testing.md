@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 0d029773d9aa59b27f80d2f670984a352e163122
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
-ms.translationtype: HT
+ms.openlocfilehash: da69cc903197dbfae536c8494f126074c51aa77f9522d57f2673c97b1e682d9d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5743867"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6749796"
 ---
 # <a name="automate-testing-with-electronic-reporting"></a>Testimise automatiseerimine elektroonilise aruandluse abil
 
@@ -59,7 +59,7 @@ Enne selles teemas kirjeldatud ülesannete lõpetamist peate täitma järgmised 
 - Rakendage topoloogiat, mis toetab testimise automatiseerimist. **Süsteemi administraatori** rolli jaoks peab teil olema juurdepääs selle topoloogia eksemplarile. See topoloogia peab sisaldama demo andmeid, mida selles näites kasutatakse. Lisateavet vt [Pideva koostamise ja testimise automaatikat toetavate keskkondade juurutamine ja kasutamine](../perf-test/continuous-build-test-automation.md).
 - Kasutaja vastuvõtu ja integreerimise testide automaatseks teostamiseks peate paigaldama RSATi topoloogiasse, mida kasutate, ja selle sobivalt konfigureerima. Lisainfot RSATi installimise ja konfigureerimise kohta, et see töötaks Finance and Operationsi rakendustega ja Azure DevOpsiga, vaadake: [Regression Suite Automation Tool](https://www.microsoft.com/download/details.aspx?id=57357). Pöörake tähelepanu tööriista kasutamise eeltingimustele. Järgmisel joonisel on näide RSATi seadistuste kohta. Sinine ristkülik ümbritseb parameetrid, mis määravad juurdepääsu Azure DevOps-ile. Roheline ristkülik ümbritseb parameetrid, mis määravad juurdepääsu eksemplarile.
 
-    ![RSAT sätted](media/GER-Configure.png "RSAT-i sätete dialoogiboksi kuvatõmmis")
+    ![RSAT sätted.](media/GER-Configure.png "RSAT-i sätete dialoogiboksi kuvatõmmis")
 
 - Testjuhtumite õige käivitusjärjestuse tagamiseks komplektidesse sorteerimiseks, et saaksite koguda testkäivituste logisid edasiseks aruandluseks ja uurimiseks, peab teil olema rakendatud topoloogiast juurdepääs Azure DevOps-ile.
 - Selle teema näite lõpetuseks soovitame teil alla laadida [ER-i kasutamine RSAT-testideks](https://go.microsoft.com/fwlink/?linkid=874684). See zip-fail sisaldab järgmisi tegevusjuhiseid.
@@ -78,7 +78,7 @@ Enne selles teemas kirjeldatud ülesannete lõpetamist peate täitma järgmised 
     - **Maksemudeli vastendamine 1611** ER-mudeli vastendamise konfiguratsioon
     - **BACS (UK)** ER-vormingu konfiguratsioon
 
-    ![Elektroonilise aruandluse konfiguratsioonid](media/GER-Configurations.png "Elektroonilise aruandluse konfiguratsioonide lehe kuvatõmmis")
+    ![Elektroonilise aruandluse konfiguratsioonid.](media/GER-Configurations.png "Elektroonilise aruandluse konfiguratsioonide lehe kuvatõmmis")
 
 3. Valige **GBSI** demo andmete ettevõte, millel on riigi-/piirkonna kontekst Suurbritannias.
 4. Ostureskontro parameetrite konfigureerimine.
@@ -90,7 +90,7 @@ Enne selles teemas kirjeldatud ülesannete lõpetamist peate täitma järgmised 
         1. Seadistage kiirkaardil **Failivormingud** suvand **Üldine elektrooniline ekspordivorming** valikule **Jah**.
         2. Valige väljal **Vormingu konfiguratsiooni eksportimine** **BACS (UK)**.
 
-    ![Makseviiside leht](media/GER-APParameters.png "Makseviiside lehe kuvatõmmis")
+    ![Makseviiside leht.](media/GER-APParameters.png "Makseviiside lehe kuvatõmmis")
 
     > [!NOTE]
     > Kui teil on selle ER-vormingu tuletatud versioon, mis loodi kohanduste toetamiseks, saate valida selle konfiguratsiooni makseviisi **Elektrooniline** alt.
@@ -100,7 +100,7 @@ Enne selles teemas kirjeldatud ülesannete lõpetamist peate täitma järgmised 
     1. Avage **Ostureskonto \> Maksed \> Maksete tööleht**.
     2. Veenduge, et te ei ole maksete töölehte sisestanud.
 
-        ![Maksete töölehe leht](media/GER-APJournal.png "Maksete töölehe lehe kuvatõmmis")
+        ![Maksete töölehe leht.](media/GER-APJournal.png "Maksete töölehe lehe kuvatõmmis")
 
     3. Valige **Read** ja sisestage rida, millel on järgmised andmed.
 
@@ -113,7 +113,7 @@ Enne selles teemas kirjeldatud ülesannete lõpetamist peate täitma järgmised 
         | Vastaskonto      | GBSI OPER       |
         | Makseviis   | Elektrooniline      |
 
-    ![Hankija maksete leht](media/GER-APJournalLines.png "Hankija maksete lehe kuvatõmmis")
+    ![Hankija maksete leht.](media/GER-APJournalLines.png "Hankija maksete lehe kuvatõmmis")
 
 ## <a name="prepare-the-er-framework-to-test-vendor-payment-processing"></a>Valmistage ER-raamistik hankija maksete töötlemise testimiseks ette
 
@@ -122,7 +122,7 @@ Enne selles teemas kirjeldatud ülesannete lõpetamist peate täitma järgmised 
 1. Avage **Organisatsiooni haldamine \> Elektrooniline aruandlus \> Elektroonilise aruandluse parameetrid**.
 2. Vali vahekaardi **Manused** väljal **Alus** selleks dokumenditüübiks **Fail**, mida dokumendihalduse (DM) raamistik kasutab DM-manustena alusfunktsiooniga seotud dokumentide hoidmiseks.
 
-    ![Elektroonilise aruandluse parameetrite leht](media/GER-ERParameters.png "Elektroonilise aruandluse parameetrite lehe kuvatõmmis")
+    ![Elektroonilise aruandluse parameetrite leht.](media/GER-ERParameters.png "Elektroonilise aruandluse parameetrite lehe kuvatõmmis")
 
 ### <a name="generate-baseline-copies-of-vendor-paymentrelated-documents"></a>Handkija maksetega seotud dokumentide algkoopiate loomine
 
@@ -139,7 +139,7 @@ Enne selles teemas kirjeldatud ülesannete lõpetamist peate täitma järgmised 
     - **Fail** maksefail tekstivormingus
     - **ERVendOutPaymControlReport** kontrollaruande fail XLSX-vormingus
 
-    ![Ekstraktitud failid](media/GER-APJournalProcessed.png "Kuvatõmmis ekstraktitud failide nimedest Windows Exploreris")
+    ![Ekstraktitud failid.](media/GER-APJournalProcessed.png "Kuvatõmmis ekstraktitud failide nimedest Windows Exploreris")
 
 ### <a name="turn-on-the-er-baseline-feature"></a>ER-alusfunktsiooni sisselülitamine
 
@@ -177,7 +177,7 @@ Lülitades parameetri **Käivita silumisrežiimis** sisse, sunnite ER-raamistiku
     3. Sirvige, et valida kohalikult salvestatud **ERVendOutPaymControlReport** kontrollaruanne XLSX vormingus.
     4. Sisestage väljale **Kirjeldus** **Makse XLSX kontrollaruanne**.
 
-    ![Hankija makse faili ja kontrollaruande algväärtused](media/GER-BaselineAttachments.png "Kuvatõmmis valitud makse XLSX kontrollaruandega konfiguratsioonilehest")
+    ![Hankija makse faili ja kontrollaruande algväärtused.](media/GER-BaselineAttachments.png "Kuvatõmmis valitud makse XLSX kontrollaruandega konfiguratsioonilehest")
 
 8. Sulgege leht.
 9. Valige kiirkaardil **Algväätused** suvand **Uus**, et konfigureerida maksefaili algväärtus.
@@ -196,7 +196,7 @@ Lülitades parameetri **Käivita silumisrežiimis** sisse, sunnite ER-raamistiku
     4. Sisestage väljale **Failinime mask** **\*.XLSX**, et rakendada seda algväärtust ainule neile vormingu **ERVendOutPaymControlReport** komponentide väljunditele, mille failinime laiendiks on **.xslx**.
     5. Valige väljal **Algväärtus** suvand **Makse XLSX kontrollaruanne**, et seda algväärtust kasutataks loodud väljundiga võrdlemiseks.
 
-    ![Kiirkaart Algväärtused konfiguratsioonide lehel](media/GER-BaselineRules.png "Kuvatõmmis kiirkaardist Väärtused konfiguratsioonide lehel")
+    ![Kiirkaart Algväärtused konfiguratsioonide lehel.](media/GER-BaselineRules.png "Kuvatõmmis kiirkaardist Väärtused konfiguratsioonide lehel")
 
 ## <a name="record-tests-to-validate-vendor-payment-processing"></a>Kirjendab testid hankija maksete töötlemise kinnitamiseks
 
@@ -226,15 +226,15 @@ Selle tegevuse salvestamine sooritab järgmised tegevused.
 
 1. Seadke töödeldud makse rea olek väärtusele **Puudub**.
 
-    ![Tegevuse salvestamise etapid 3 kuni 4](media/GER-Recording1Review1.png "Kuvatõmmis tegevuse salvestamise etappidest 3 kuni 4")
+    ![Tegevuse salvestamise etapid 3 kuni 4.](media/GER-Recording1Review1.png "Kuvatõmmis tegevuse salvestamise etappidest 3 kuni 4")
 
 2. Lülitage elektroonilise aruandluse kasutaja parameeter **Käivita silumisrežiimis** sisse.
 
-    ![Tegevuse salvestamise etapid 9 kuni 10](media/GER-Recording1Review2.png "Kuvatõmmis tegevuse salvestamise etappidest 9 kuni 10")
+    ![Tegevuse salvestamise etapid 9 kuni 10.](media/GER-Recording1Review2.png "Kuvatõmmis tegevuse salvestamise etappidest 9 kuni 10")
 
 3. Puhastage see elektroonilise aruandluse silumislogi, mis sisaldab loodud failide ja algväärtuste võrdluse tulemusi.
 
-    ![Tegevuse salvestamise etapid 13 kuni 15](media/GER-Recording1Review3.png "Kuvatõmmis tegevuse salvestamise etappidest 13 kuni 15")
+    ![Tegevuse salvestamise etapid 13 kuni 15.](media/GER-Recording1Review3.png "Kuvatõmmis tegevuse salvestamise etappidest 13 kuni 15")
 
 ### <a name="record-the-steps-to-test-vendor-payment-processing"></a>Kirjendage hankija maksete töötlemise testimise etapid
 
@@ -253,21 +253,21 @@ Selle tegevuse salvestamine sooritab järgmised tegevused.
 1. Hankija maksete töötlemise käivitamine.
 2. Valige õiged käitamisaja parameetrid ja lülitage kontrollaruande loomine sisse.
 
-    ![Tegevuse salvestamise etapid 3 kuni 8](media/GER-Recording2Review1.png "Kuvatõmmis tegevuse salvestamise etappidest 3 kuni 8")
+    ![Tegevuse salvestamise etapid 3 kuni 8.](media/GER-Recording2Review1.png "Kuvatõmmis tegevuse salvestamise etappidest 3 kuni 8")
 
 3. Avage see elektroonilise aruandluse silumislogi, et kirjendada loodud väljundite ja vastavate algväärtuste võrdluse tulemusi.
 
     Elektroonilise aruandluse silumislogis kuvatakse võrdlustulemusi väljal **Loodud tekst**. Väljad **Vormingu komponent** ja **Logikande põhjustanud vormingutee** viitavad faili komponendile, millele loodud väljundit on võrreldud algväärtusega.
 
-    ![Elektroonilise aruandluse käitamise logide lehe kirjed](media/GER-ERDebugLog.png "Elektroonilise aruandluse käitamise logide lehe kirjete kuvatõmmis")
+    ![Elektroonilise aruandluse käitamise logide lehe kirjed.](media/GER-ERDebugLog.png "Elektroonilise aruandluse käitamise logide lehe kirjete kuvatõmmis")
 
 4. Praeguse väljundi võrdlemine algväärtusega on kirjendatud kasutades tegevuse salvestaja suvandit **Kinnita** ja valides suvandi **Praegune väärtus**.
 
-    ![Kinnitamise suvandi kasutamine praeguse väärtusega võrdlemiseks](media/GER-TRRecordValidation.png "Kuvatõmmis kinnitamise suvandi kasutamisest praeguse väärtusega võrdlemiseks")
+    ![Kinnitamise suvandi kasutamine praeguse väärtusega võrdlemiseks.](media/GER-TRRecordValidation.png "Kuvatõmmis kinnitamise suvandi kasutamisest praeguse väärtusega võrdlemiseks")
 
     Järgmisel joonisel on näha, millised salvestatud kinnitamise etapid tegevuse salvestises välja näevad.
 
-    ![Tegevuse salvestamise etapid 13 ja 15](media/GER-Recording2Review2.png "Kuvatõmmis tegevuse salvestamise etappidest 13 ja 15")
+    ![Tegevuse salvestamise etapid 13 ja15.](media/GER-Recording2Review2.png "Kuvatõmmis tegevuse salvestamise etappidest 13 ja 15")
 
 ## <a name="add-the-recorded-tests-to-azure-devops"></a>Lisage salvestatud testid Azure DevOps-i
 
@@ -284,7 +284,7 @@ Selle tegevuse salvestamine sooritab järgmised tegevused.
     1. Pane testjuhtumi nimeks **Hankija maksete testtöötlemine kasutades ER-vormingut BACS (UK)**.
     2. Manustage fail **Recording.xml** kaustast **Töötlemine**, mille varem alla laadisite.
 
-    ![Uued testjuhtumid valitud katseplaani jaoks](media/GER-RSAT-DevOps-Tests-Passed.png "Kuvatõmmis uutest testjuhtumitest valitud katseplaani jaoks")
+    ![Uued testjuhtumid valitud katseplaani jaoks.](media/GER-RSAT-DevOps-Tests-Passed.png "Kuvatõmmis uutest testjuhtumitest valitud katseplaani jaoks")
 
 > [!NOTE]
 > Pöörake tähelepanu lisatud testide õigele käivitamisjärjekorrale.
@@ -296,14 +296,14 @@ Selle tegevuse salvestamine sooritab järgmised tegevused.
 1. Avab kohalik RSATi rakendus praeguses topoloogias.
 2. Valige **Lae**, et laadida praegu Azure DevOps-is olevad testid RSAT-sse.
 
-    ![RSAT-sse laetud testid](media/GER-RSAT-RSAT-Tests-Loaded.png "Kuvatõmmis RSAT-sse laetud testidest")
+    ![RSAT-sse laetud testid.](media/GER-RSAT-RSAT-Tests-Loaded.png "Kuvatõmmis RSAT-sse laetud testidest")
 
 ### <a name="create-automation-and-parameters-files"></a>Automatiseerimise ja parameetrite failide loomine
 
 1. Valige RSAT-is testid, mida soovite Azure DevOps-ist laadida.
 2. Valige RSAT-i automatiseerimise ja parameetrite failide loomiseks **Uus**.
 
-    ![RSAT-is loodud RSAT-i automatiseerimise ja parameetrite failid](media/GER-RSAT-RSAT-Tests-Initiated.png "Kuvatõmmis RSAT-is loodud RSAT-i automatiseerimise ja parameetrite failidest")
+    ![RSAT-is loodud RSAT-i automatiseerimise ja parameetrite failid.](media/GER-RSAT-RSAT-Tests-Initiated.png "Kuvatõmmis RSAT-is loodud RSAT-i automatiseerimise ja parameetrite failidest")
 
 ### <a name="modify-the-parameters-files"></a>Parameetrite failide muutmine
 
@@ -315,7 +315,7 @@ Selle tegevuse salvestamine sooritab järgmised tegevused.
 6. Muutke avatud Exceli töövihikus töölehel **Üldine** ettevõtte koodiks **GBSI**.
 7. Pange tähele töölehel **ERFormatMappingRunLogTable**, et lahtrid A:3 ja C:3 sisaldavad elektroonilise aruandluse silumislogi tabeli väljade teksti, mida kasutatakse tulemuste kinnitamiseks võrreldes algväärtuse väljundiga. Neid tekste kasutatakse nende elektroonilise aruandluse silumislogi kirjete hindamiseks, mis katse käigus loodi.
 
-    ![ERFormatMappingRunLogTable tööleht](media/GER-RSAT-RSAT-ExcelParameters.png "Kuvatõmmis ERFormatMappingRunLogTable töölehest")
+    ![ERFormatMappingRunLogTable tööleht.](media/GER-RSAT-RSAT-ExcelParameters.png "Kuvatõmmis ERFormatMappingRunLogTable töölehest")
 
 ## <a name="run-the-tests-and-analyze-the-results"></a>Testide teostamine ja tulemuste analüüs
 
@@ -330,11 +330,11 @@ Pange tähele, et testjutumid käivitatakse rakenduses automaatselt veebibrauser
 
 Testitulemused salvestatakse RSATis. Pange tähele, et mõlemad testid on läbitud.
 
-![RSAT-i läbinud testid](media/GER-RSAT-RSAT-Tests-Passed.png "Kuvatõmmis RSAT-i läbinud testidest")
+![RSAT-i läbinud testid.](media/GER-RSAT-RSAT-Tests-Passed.png "Kuvatõmmis RSAT-i läbinud testidest")
 
 Pange tähele, et testitulemused saadetakse ka rakendusse Azure DevOps et saaksite teha edasisi analüüse.
 
-![Testitulemused rakenduses Azure DevOps](media/GER-RSAT-DevOps-Tests-Added.png "Kuvatõmmis testitulemustest rakenduses Azure DevOps")
+![Testitulemused rakenduses Azure DevOps.](media/GER-RSAT-DevOps-Tests-Added.png "Kuvatõmmis testitulemustest rakenduses Azure DevOps")
 
 ### <a name="simulate-a-situation-where-tests-fail"></a>Testide ebaõnnestumise simuleerimine
 
@@ -357,15 +357,15 @@ Pange tähele, et testjutumid käivitatakse rakenduses automaatselt veebibrauser
 
 Testitulemused salvestatakse RSATis. Pange tähele, et teine katse nurjus teise käivitamise ajal.
 
-![Nurjunud testi tulemused RSAT-is](media/GER-RSAT-RSAT-Tests-Failed.png "Kuvatõmmis nurjunud testi tulemustest RSAT-is")
+![Nurjunud testi tulemused RSAT-is.](media/GER-RSAT-RSAT-Tests-Failed.png "Kuvatõmmis nurjunud testi tulemustest RSAT-is")
 
 Pange tähele, et testitulemused saadetakse ka rakendusse Azure DevOps et saaksite teha edasisi analüüse.
 
-![Nurjunud testi tulemused rakenduses Azure DevOps](media/GER-RSAT-DevOps-Tests-Failed.png "Kuvatõmmis nurjunud testi tulemustest rakenduses Azure DevOps")
+![Nurjunud testi tulemused rakenduses Azure DevOps.](media/GER-RSAT-DevOps-Tests-Failed.png "Kuvatõmmis nurjunud testi tulemustest rakenduses Azure DevOps")
 
 Saade juurdepääsu iga testi olekule. Saate juurdepääsu ka käivitamise logile, et saaksite analüüsida mistahes nurjumise põhjuseid. Järgmisel joonisel näitab käivitamis elogi, et tõrge tekkis seetõttu, et loodud makse faili ja selle algväärtuse sisu oli erinev.
 
-![Käivitumise logi rakenduses Azure DevOps nurjumise analüüsimiseks](media/GER-RSAT-DevOps-Tests-Failed-Log.png "Kuvatõmmis käivituse logist rakenduses Azure DevOps nurjumise analüüsimiseks")
+![Käivitumise logi rakenduses Azure DevOps nurjumise analüüsimiseks.](media/GER-RSAT-DevOps-Tests-Failed-Log.png "Kuvatõmmis käivituse logist rakenduses Azure DevOps nurjumise analüüsimiseks")
 
 Seetõttu, nagu olete näinud, saab mis tahes ER-vormingu toimimist hinnata automaatselt, kasutades RSAT testimise platvormina ja kasutades tegevuse salvestajal põhinevaid testjuhtumeid, mis kasutavad ER-i algväärtuse funktsiooni.
 

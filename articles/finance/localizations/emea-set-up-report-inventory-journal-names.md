@@ -1,7 +1,7 @@
 ---
 title: Varude töölehe aruanded
 description: Kui kasutate elektroonilisel aruandlusel põhinevaid konfigureeritavaid varude aruandeid, siis peate seadistama seose konkreetse aruande ja töölehe tüübi vahel.
-author: ShylaThompson
+author: anasyash
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kfend
 ms.custom: 265144
 ms.search.region: Estonia, Hungary, Latvia, Lithuania, Poland
-ms.author: v-lenest
+ms.author: anasyash
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e05f9f79d13793eaf847264ba7f5ce7266fbadcf
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
-ms.translationtype: HT
+ms.openlocfilehash: c2e1f8c534cf63ee65d29ccaa797c8a5a339a87b
+ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894682"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7592461"
 ---
 # <a name="inventory-journal-reports"></a>Varude töölehe aruanded
 
