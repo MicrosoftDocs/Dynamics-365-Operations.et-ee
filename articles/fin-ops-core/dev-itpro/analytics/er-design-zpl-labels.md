@@ -15,16 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2022-02-01
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: 8e5fb1515d4bdf36c22f617b6bfd2fa3ce3efa36
-ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
-ms.translationtype: HT
+ms.openlocfilehash: 4fb89f4b56ce8189482bf1a86582ef7e3684b15a
+ms.sourcegitcommit: 411874545d7c326fc4aa877948a059371f0ccb3c
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "8389138"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "8392959"
 ---
 # <a name="design-a-new-er-solution-to-print-zpl-labels"></a>Uue ER-lahenduse kujundamine ZPL-siltide printimiseks
 
 [!include [banner](../includes/banner.md)]
+
+[!include [banner](../includes/preview-banner.md)]
 
 See teema selgitab, kuidas kasutaja süsteemiadministraatoris, elektroonilise aruandluse arendajas või elektroonilise aruandluse funktsionaalne nõustaja rollis saab konfigureerida elektroonilise aruandluse (ER) [raamistiku parameetreid, kujundada uue ER-lahenduse nõutud ER](general-electronic-reporting.md) konfiguratsioone, et pääseda juurde laohalduse süsteemi andmetele, ja luua kohandatud lao asukoha silte Rakenduste [programmeerimiskeele](general-electronic-reporting.md#Configuration) (ZPL) II vormingus. Neid toiminguid saab teha ettevõttes **USRT**.
 
@@ -137,7 +139,7 @@ Selle `model.Location.Label` vormingu andmeallikas on konfigureeritud looma silt
 
 Järgmises näites kasutatakse ZPL-siltide printeri emulaatori rakendust loodud siltide eelvaate kuvamiseks ekraanil. Järgige neid samme selle suvandi lubamiseks.
 
-1. Lisage lao [asukoha sildi](er-destination-type-print.md) ER-vormingule printeri **ER**[sihtkoht ja konfigureerige see finantside loodud siltide saatmiseks dokumendi protsessiagendisse (DRA)](install-document-routing-agent.md).
+1. Lisage lao [asukoha sildi](er-destination-type-print.md) ER-vormingule printeri **ER**[sihtkoht ja konfigureerige see finantside loodud siltide saatmiseks dokumendi protsessiagendisse (DRA).](install-document-routing-agent.md)
 2. Installige ja konfigureerige DRA finantside loodud siltide protsessi jaoks kohalikuks printeriks, millele on juurdepääs praegusest tööjaamast.
 3. Lisage praegusele tööjaamale kohalik printer ja konfigureerige see mööduma DRA-st loodud sildid printeri emulaatori rakendusele.
 4. Installige printeri emulaatori rakendus Kroomitud veebibrauseri laiendina ja konfigureerige see mööduma kohalikust printerist genereeritud sildid veebiteenusele, mis renderdab loodud sildid ja tagastab need eelvaateks printeri emulaatorile.
@@ -314,7 +316,7 @@ Saate muuta oma lao asukoha siltide praegust kavandit. Järgmine näide näitab,
 ## <a name="encoding"></a>Kodeerimine
 
 > [!NOTE]
-> Redigeeritava ER-vormingu **CommonFile\\** komponendi kodeerimissätt ja kujundatava sildi sobiv säte tuleb sünkroonida. **[...](er-suppress-bom-characters.md)** CommonFile'i **\\ komponendi** kodeerimisvälja väärtus ei tohi vastuolus olla ZPL-käsuga, mida kasutatakse sildi kodeerimise juhtimiseks (nt `^CI` käsk). ER ei kontrolli nende sätete sünkroonimist.
+> Redigeeritava ER-vormingu **Common\\File** komponendi kodeerimissätt ja kujundatava sildi sobiv säte tuleb sünkroonida. **[...](er-suppress-bom-characters.md)** CommonFile'i **\\ komponendi** kodeerimisvälja väärtus ei tohi vastuolus olla ZPL-käsuga, mida kasutatakse sildi kodeerimise juhtimiseks (nt `^CI` käsk). ER ei kontrolli nende sätete sünkroonimist.
 
 ## <a name="additional-resources"></a>Lisaressursid
 

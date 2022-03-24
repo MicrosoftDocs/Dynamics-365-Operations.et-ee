@@ -2,7 +2,7 @@
 title: Mis on uut või muudetud Warehouse Management laohalduse mobiilirakenduses
 description: Selles teemas loetletakse Microsoft Dynamics 365 Supply Chain Management iga Warehouse Management mobiilirakenduse väljastatud versiooni uued ja muudetud funktsioonid.
 author: Mirzaab
-ms.date: 02/21/2022
+ms.date: 03/11/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,18 +10,33 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: b146fb12f89559efcb3b0973b0dd1ce9b98ffe2a
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
-ms.translationtype: HT
+ms.openlocfilehash: c4731c5f0b0a1553deb53753d82d29a34e5525df
+ms.sourcegitcommit: 399d0d3f8e2ebb81b6b9d640365ebe182690bab2
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384364"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "8418636"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Mis on uut või muudetud Warehouse Management laohalduse mobiilirakenduses
 
 [!include [banner](../includes/banner.md)]
 
 Selles teemas loetletakse Microsoft Dynamics 365 Supply Chain Management iga Warehouse Management mobiilirakenduse väljastatud versiooni uued funktsioonid, parandused, täiustused ja teadaolevad vead.
+
+## <a name="version-20190"></a>Versioon 2.0.19.0
+
+See versioon tutvustab järgmisi uusi funktsioone, parandusi ja täiustusi:
+
+- Täiendati üldist andmepäringu voogu.
+- Parandatud probleem tööloendis **ja kauba** päringulehtedel **·**
+- Vähendatud aku tarbimine.
+- Eemaldas töökaartide väljade arvu limiidi.
+- Korrigeeris töökaartide kõrgust nii, et kõigil neil oleks sama suurus, sõltumata iga väljade arvust.
+- Fikseeritud probleem, mille puhul vöötkoodide tühikumärgid kärbitakse.
+- Lisatud on **nupu laadisäte**, mis võimaldab teil vahetada vahetust kõikide seadmetüüpide slaid vahetamisvaate ja nupuvaate vahel.
+- Fikseeritud probleemid, mis võivad põhjustada rakenduse avarii.
+- Seadke fookus kohandatud lehtede esimesele tekstiboksile automaatselt.
+- Juurdepääsu parendused, mis on seotud kasutajasuse, vastandi, liigutamise ja puuduvate kohatäitetekstidega.
 
 ## <a name="version-20170"></a>Versioon 2.0.17.0
 

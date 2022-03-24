@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-07-30
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: e271ddd3331d7b5de78f00a02b60a0479879c172
-ms.sourcegitcommit: f8b597b09157d934b62bd5fb9a4d05b8f82b5a0e
+ms.openlocfilehash: 575aef709a0ac3b0cf8150f1e816dac04c069814
+ms.sourcegitcommit: ddcab9726e9dbcf3296cb0988b97a3ae7ccb3dfb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "7700001"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "8396495"
 ---
 # <a name="differences-between-built-in-master-planning-and-planning-optimization"></a>Integreeritud koondplaneerimise ja planeerimise optimeerimise vahelised erinevused
 
@@ -36,6 +36,7 @@ Plaanimise optimeerimise tulemused võivad erineda integreeritud koondplaneerimi
 | Puhvervaru täitmine | Planeerimise optimeerimine kasutab alati *Tänane kuupäev + hankeaeg* valikut **Täitke minimaalselt** välja **Toode katvus** lehe jaoks. See aitab vältida soovimatuid planeeritud tellimusi ja muid probleeme, sest kui turvavarude hankimise aega ei arvestata, lükkuvad väheste varude jaoks loodud kavandatud tellimused alati tähtaja tõttu edasi. |
 | Ohutusvaru sidumine ja võrgunõuded | *Turvavarud* nõude tüüp ei kuulu komplekti ja seda ei kuvata lehel **Võrgu nõuded**. Turvavarud ei kujuta endast nõudlust ega ole seotud nõude kuupäevaga. Selle asemel seab see piirangu sellele, kui palju laoseisu peab alati olema. Planeeritud tellimuste arvutamisel üldplaneerimisel võetakse siiski arvesse välja väärtust **Minimum**. Soovitame teil vaadata lehe **Võrgu nõuded** veergu **Kogunenud kogus**, et näha, kas seda väärtust arvestati. |
 | Transpordikalendrid | Väärtust lehe **Tarneviisid** veerus **Transpordikalender** eiratakse. |
+| Min/max kattekood ilma väärtusteta| Kui kasutate integreeritud plaanimismootorit min/max laovarude koodi, kus pole seadistatud minimaalseid või maksimaalseid väärtusi, käsitleb planeerimismootor kattekoodi vajadusena ja loob iga vajaduse kohta ühe tellimuse. Planeerimise optimeerimise puhul loob süsteem ühe tellimuse päeva kohta, et katta kogu selle päeva summa.  |
 
 ## <a name="additional-resources"></a>Lisaressursid
 

@@ -2,7 +2,7 @@
 title: Dynamics 365 Supply Chain Management 10.0.25 (aprill 2022) eelversioon
 description: Selles teemas kirjeldatakse Microsoft Dynamics 365 Supply Chain Management 10.0.25 uusi või muutunud funktsioone.
 author: kamaybac
-ms.date: 02/01/2022
+ms.date: 03/14/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 068e65d0bd76d7a9af36c6c3539d0c813efd528a
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: 26f67be72948e33738cf805b541d3c7e701f8dba
+ms.sourcegitcommit: a8f4d7d21d9af17d80b1213e5e1a81f42fb8b928
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384534"
+ms.lasthandoff: 03/14/2022
+ms.locfileid: "8414116"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10025-april-2022"></a>Dynamics 365 Supply Chain Management 10.0.25 (aprill 2022) eelversioon
 
@@ -39,6 +39,7 @@ Järgmises tabelis on loetletud selles versioonis sisalduvad funktsioonid. Võim
 | Varud&nbsp;ja&nbsp;logistika | [Skannige vöötkoode laos, kasutades GS1-vormingu standardeid](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/scan-barcodes-warehouse-using-gs1-format-standards) | [GS1 vöötkoodid ja QR-koodid](../warehousing/gs1-barcodes.md) | Funktsioonihaldus:<br>*GS1 vöötkoodide skannimine* |
 | Tootmine | [Materjali tarbimine ja reserveerimised tootmispinna käivitamise liideses](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/material-consumption-reservations-production-floor-execution-interface) | [Kuidas töötajad kasutavad tootmisosakonna käivitusliidest](../production-control/production-floor-execution-use.md) | Funktsioonihaldus:<br>*(Eelversioon) Materjali tarbimise registreerimine tootmisosakonna täideviimisliideses (mitte-WMS)*<br><br>Ja/või:<br><br>Funktsioonihaldus:<br>*(Eelvaade) Materjalikulu registreerimine tootmisosakonna käivitusliideses (WMS-loaga)* |
 | Tootmine | [Registreeri materjali tarbimine kaaluühikutes](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/register-material-consumption-scale-units) | [Tootmise täideviimise töökoormused pilv- ja perimeeterskaalaüksuste jaoks](../cloud-edge/cloud-edge-workload-manufacturing.md) | Funktsioonihaldus:<br>*Materjalikulu registreerimine mobiilirakenduse skaalaüksuses* |
+| Planeerimine | [Optimeerimise tsentraliseeritud kalendri hoolduse plaanimine](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-centralized-calendar-maintenance) | [Kalendrid ja koondplaneerimine](../master-planning/supply-chain-calendars-master-planning.md) | Vaikimisi lubatud |
 | Planeerimine | [Optimeerimise soovituste plaanimine olemasoleva tarne optimeerimiseks](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-suggestions-optimize-existing-supply) | [Tegevusteated](../master-planning/action-messages.md) | Vaikimisi lubatud |
 | Planeerimine | Plaanitud tellimuste lihtsustamine | [Plaanitud tellimuste lihtsustamine](../master-planning/planning-optimization/planned-orders-simplified.md ) | Funktsioonihaldus:<br>*Plaanitud tellimuste lihtsustamine* |
 
@@ -54,7 +55,7 @@ Kui soovite mõne neist funktsioonidest sisse ja välja lülitada, peate seda fu
 | Hanked | Mitme ostutaotluse konsolideerimine üheks ostutellimuseks aruandluskuupäeva järgi | See funktsioon võimaldab mitme ostutaotluse konsolideerimist ühele ostutellimusele, kui erinevatel ostutaotlustel on erinevad raamatupidamiskuupäevad. Ostutellimuse loomise ja nõudluse konsolideerimise ostupoliitika reeglid saab seadistada nii, et see automatiseeriks otsuse taotluse ridade grupeerimiseks raamatupidamiskuupäeva järgi ostutellimuse tasemel. Ostutellimuse konsolideerimist raamatupidamiskuupäeva järgi ei toetata, kui eelarve juhtimine on lubatud, kuna raamatupidamise kuupäeva kasutatakse eelarvereserveeringute ja pandiõiguse jaoks. Seetõttu tuleb see säilitada üleminekul ostutaotluselt ostutellimusele. |
 | Hanked | Kuva pärandi vaikimisi pakkumiskutse vastuse välja sätted | See funktsioon ennistada pärandi pakkumiskutse vastusevälja sätted, mis eemaldati eelnevalt kasutajaliidesest. Need sätted ei paku boksist funktsionaalsust, kuid neid saab vajaduse järgi kohandada. Lubage see funktsioon, kui teie organisatsioon on juba lisanud funktsioonid pakkumiskutse vastusevälja vaikesätetele või kui plaanite seda teha. Kui see funktsioon on lubatud, pääsete sätete juurde, **avades** hankeparameetrite lehe, **·** **avades vahekaardi Pakkumiskutse ja valides vaikimisi pakkumiskutse vastuseväljad**. |
 | Hanked | Hankija finantsdimensioonide ühendamine ostutellimuse aktiivse dimensioonilingi finantsdimensiooniga | See funktsioon võimaldab teil ühendada aktiivse dimensiooni lingiga finantsdimensioonide hankijad pärast ostutaotluse kinnitust, kui seadistate lingi rahalise dimensiooni ja saidi varude dimensiooni vahel. Ostutellimuse loomise ja nõudluse konsolideerimise ostupoliitika reegleid saab seadistada, et juhtida otsuse rahalisi dimensioone ühendama aktiivse dimensioonilingi finantsdimensiooniga hankijate ostutellimuse päise tasemel. |
-| Tootmise juhtimine | (Venemaa) Luba tootmise valemi/koosluse jaoks asukoha vaikeseadistus ja automaatne GTD reserveerimine/tarbimine tootmises | See funktsioon võimaldab lisavalikuid tootmisele imporditud toormaterjalidest (ainult Venemaa lokaliseerimine):<ul><li>Tootmisvalemite ja koosluste automaatse vaikeasukoha seadistamine nii ressursigruppides kui ka ladudes.</li><li>Toormaterjalide automaatne reserveerimine *GTD-numbridimensiooni järgi* WMS-aktiveeritud ladudes vastavalt mitte-WMS-i reserveerimisalgoritmile. See kehtib juhul, *·* **·** *kui* toormaterjali komplekteerimise tööpoliitika eksisteerib siis, kui töö loomise meetodiks on määratud Mitte kunagi ning ladu, asukoha ja kaubakoodi häälestus vastab tootmistellimuste (partii) laokannetele.</li><li>Toormaterjalide automaatne tarbimine *GTD-numbri* dimensiooni järgi komplekteerimislehe sisestamisel vastavalt eelnevalt kirjeldatud soetatud reserveeringule.</li></ul> |
+| Tootmise juhtimine | (Venemaa) Tootmise valemi/koosluse asukoha vaikeseadistuse lubamine ja automaatse GTD reserveerimise/tarbimise lubamine tootmises | See funktsioon võimaldab lisavalikuid tootmisele imporditud toormaterjalidest (ainult Venemaa lokaliseerimine):<ul><li>Tootmisvalemite ja koosluste automaatse vaikeasukoha seadistamine nii ressursigruppides kui ka ladudes.</li><li>Toormaterjalide automaatne reserveerimine *GTD-numbridimensiooni järgi* WMS-aktiveeritud ladudes vastavalt mitte-WMS-i reserveerimisalgoritmile. See kehtib juhul, *·* **·** *kui* toormaterjali komplekteerimise tööpoliitika eksisteerib siis, kui töö loomise meetodiks on määratud Mitte kunagi ning ladu, asukoha ja kaubakoodi häälestus vastab tootmistellimuste (partii) laokannetele.</li><li>Toormaterjalide automaatne tarbimine *GTD-numbri* dimensiooni järgi komplekteerimislehe sisestamisel vastavalt eelnevalt kirjeldatud soetatud reserveeringule.</li></ul> |
 | Laohaldus | (Eelvaade) Skaalaüksuse tugi sissetulevate ja väljaminevate laotellimuste jaoks | Selle funktsiooniga loob süsteem väljaminevad laotellimused lattu vabastamise protsessi ajal ja loob sissetulevad laotellimused, kui üleviimistellimused sisestatakse lähetatuna. Süsteem sünkroonib seejärel iga sissetuleva või väljamineva lao tellimuse tellimuse saatmise või vastuvõtmise eest vastutava kaaluüksusega. Pange tähele, et pärast selle funktsiooni lubamist tuleb lao käivitamise töökoormused täiendada. Lisateavet vt [Laohalduse töökoormused pilv- ja perimeeterskaalaüksuste jaoks](../cloud-edge/cloud-edge-workload-warehousing.md).<br><br>See funktsioon nõuab *dekodeerimistööd ASN-funktsioonist* ja võimaldab üleviimistellimuste vastuvõtmise võimalust, kasutades litsentsiplaadi vastuvõtuprotsessi laohalduse mobiilirakenduses. |
 
 ## <a name="feature-state-changes-in-this-release"></a>Funktsiooni oleku muudatused selles väljalaskes

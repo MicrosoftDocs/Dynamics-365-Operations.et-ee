@@ -2,7 +2,7 @@
 title: Finantsdimensioonikomplektid
 description: See teema kirjeldab finantsdimensioonide komplekte ja annab näpunäiteid nende kasutamise optimeerimiseks.
 author: yukonpeegs
-ms.date: 03/23/2021
+ms.date: 03/07/2022
 ms.topic: article
 ems.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: epegors
 ms.search.validFrom: 2021-03-23
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 415a41100cc5be740f064d52598cd256c0aa2ae1d45473c8039bdc6e22381b3c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 9274e7f85005ab27d9f2b35fbb0be42e216941c9
+ms.sourcegitcommit: 411874545d7c326fc4aa877948a059371f0ccb3c
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739974"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "8392932"
 ---
 # <a name="financial-dimension-sets"></a>Finantsdimensioonikomplektid
 
@@ -61,6 +61,11 @@ Saldode nullist uuesti loomiseks kasutage nuppu **Loo saldod uuesti**. Sel viisi
 ## <a name="clear-balances"></a>Saldode tasaarvestus
 
 Saldode eemaldamiseks ja edasiste värskenduste peatamiseks kasutage nuppu **Tühjenda saldod**. Dimensioonikomplekt ei mõjuta enam pearaamatu konteerimistegevusi.
+
+## <a name="delete-a-dimension-set"></a>Dimensioonikogumi kustutamine
+
+Ärge kustutage **ega looge uuesti dimensioonikomplekte** mis tahes lahenduse vormina, et lahendada konkreetse dimensioonikogumi potentsiaalseid probleeme bilansiandmetega. Dimensioonikogumi taasloomine on kulukas. Lisateabe saamiseks probleemide korral võtke ühendust klienditoega. 
+
 
 Lisateavet leiate jaotisest [Finantsdimensioonid](financial-dimensions.md).
 

@@ -2,7 +2,7 @@
 title: Kliendiarve loomine
 description: Müügitellimuse kliendiarve on arve, mis on seotud müügiga, ja mille organisatsioon kliendile annab.
 author: ShivamPandey-msft
-ms.date: 02/01/2022
+ms.date: 03/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d408ca5265802cf17a53dd5cb004f707f6f7855b
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
-ms.translationtype: HT
+ms.openlocfilehash: 9ffb2c42748678ae265a706a00db327a160cc9f5
+ms.sourcegitcommit: 411874545d7c326fc4aa877948a059371f0ccb3c
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087419"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "8392907"
 ---
 # <a name="create-a-customer-invoice"></a>Kliendiarve loomine
 
@@ -43,22 +43,22 @@ Lisateavet vt
 
 **Esialgne arve** on arve, mis on vormistatud hinnanguliste arvesummadega enne arve sisestamist. Saate printida esialgse arve nii müügitellimuse kliendiarve kui ka vabas vormis arve kohta.
 
-## <a name="using-sales-order-customer-invoice-data-entities"></a>Müügitellimuse kliendiarve andmeolemite kasutamine
-Andmeolemite abil saate importida ja eksportida teavet müügitellimuse kliendiarve kohta. Müügiarve päise ja müügiarve ridade teabe jaoks on erinevad olemid.
+## <a name="using-sales-order-customer-invoice-data-entities"></a>Müügitellimuse kliendiarve andmeüksuste kasutamine
+Saate kasutada andmeüksuseid müügitellimuse kliendiarve kohta teabe importimiseks ja eksportimiseks. Müügiarve päisel ja müügiarve ridadel oleva teabe jaoks on erinevaid üksusi.
 
-Müügiarve päise teabe jaoks on saadaval järgmised olemid.
+Müügiarve päise teabe jaoks on saadaval järgmised üksused:
 
-- **Müügiarve töölehe päise** olem (SalesInvoiceJournalHeaderEntity)
-- **Müügiarve päised V2** olem (Entity SalesInvoiceHeaderV2)
+- **Müügiarve töölehe päise** üksus (SalesInvoiceJournalHeaderEntity)
+- **Müügiarve päiste V2 üksus** (SalesInvoiceHeaderV2Entity)
 
-Soovitame kasutada **olemit Müügiarve žurnaali päis**, kuna see pakub müügipäise importimiseks ja eksportimiseks esinejalikumat kasutuskogemust. See olem ei sisalda **veergu Käibemaksu summa** (INVOICEHEADERTAXAMOUNT), mis tähistab käibemaksu väärtust müügiarve päises. Kui teie äristsenaarium nõuab seda teavet, kasutage **müügiarve päise teabe importimiseks ja eksportimiseks olemit Müügiarve päised V2**.
+Soovitame kasutada müügiarve **töölehe päise üksust**, sest see pakub müügipäise importimise ja eksportimise kohta rohkem kogemust. Üksus ei sisalda **käibemaksusummat** (INVOICEHEADERTAMOUNT) veergu, mis näitab müügiarve päise käibemaksuväärtust. Kui teie äristsenaarium nõuab seda teavet, kasutage **müügiarve päisete V2** üksust müügiarve päise teabe importimiseks ja eksportimiseks.
 
-Müügiarve ridadel oleva teabe jaoks on saadaval järgmised olemid.
+Müügiarve ridade teabe jaoks on saadaval järgmised üksused:
 
-- **Kliendiarve ridade** olem (BusinessDocumentSalesInvoiceLineItemEntity)
-- **Müügiarve read V3** olem (olem SalesInvoiceLineV3)
+- **Kliendiarve ridade** üksus (BusinessDocumentSalesInvoiceLineItemEntity)
+- **Müügiarve ridade V3 üksus** (SalesInvoiceLineV3Entity)
 
-Kui määrate, millist reaüksust ekspordiks kasutada, kaaluge, kas kasutatakse täielikku tõuget või järkjärgulist tõuget. Lisaks kaaluge andmete koostist. Olem **Müügiarve read V3** toetab keerukamaid stsenaariume (nt varude väljadega vastendamine). Samuti toetab see täieliku tõuke ekspordi stsenaariume. Astmeliste tõukete puhul soovitame kasutada **olemit Kliendi arve read**. See olem sisaldab palju lihtsamat andmekoostise kui **olem Müügiarve read V3** ja on eelistatud, eriti kui varude välja integreerimine pole vajalik. Reaolemite **vastendustoe erinevuste tõttu on olemil Kliendiarve read** tavaliselt kiirem jõudlus kui **olemil Müügiarve read V3**.
+Eksportimiseks kasutatava reaüksuse määratlemisel kaaluge, kas kasutatakse täis- või astmelist tõugamist. Lisaks kaaluge andmete koostist. Müügiarve **ridade V3** üksus toetab keerukamaid stsenaariume (nt vastendamist laoväljadega). Samuti toetab see täistööajaga ekspordi stsenaariume. Astmeliste liinide puhul on soovitatav kasutada kliendiarve **ridade üksust**. Üksus sisaldab palju lihtsamat andmekoostist **kui müügiarve ridade V3** üksus ja seda eelistatakse eriti juhul, kui laovälja integreerimine ei nõuta. Rea üksuste vastendamise toe **erinevuste tõttu on kliendiarve** **ridade üksuse jõudlus tavaliselt kiirem kui müügiarve ridade V3 üksus**.
 
 ## <a name="post-and-print-individual-customer-invoices-that-are-based-on-sales-orders"></a>Eraldi müügitellimustel põhinevate kliendiarvete sisestamine ja printimine
 Selle protsessi abil saate koostada müügitellimusel põhineva arve. Seda võib teha, kui otsustate arve kliendile esitada enne kaupade või teenuste tarnimist. 
@@ -82,6 +82,9 @@ Müügitellimuste olekut saab vaadata loendilehel **Kõik müügitellimused**.
 Kasutage seda protsessi, kui vähemalt üks müügitellimus on arveldamiseks valmis ja soovite need ühele arvele konsolideerida. 
 
 Saate valida mitu arvet loendilehelt **Müügitellimus** ja kasutage siis nende konsolideerimiseks valikut **Loo arved**. Lehel **Arve sisestamine** saate muuta valiku **Koondtellimus** sätet, et summeerida tellimuse numbri alusel (kui ühe müügitellimuse kohta on mitu saatelehte) või arvekonto alusel (kui ühe arvekonto kohta on mitu müügitellimust). Kasutage nuppu **Korrasta** müügitellimuste konsolideerimiseks ühele arvele valiku **Koondtellimus** sätete põhjal.
+
+## <a name="post-to-revenue-account-for-sales-order-lines-that-have-no-price"></a>Sisesta tulukontole müügitellimuse ridadel, kus hind puudub
+Teil on võimalus uuendada Pearaamatus **tulukonto** **müügitellimuse** ridade jaoks, mille hind puudub. Selle teabe häälestamiseks või vaatamiseks **minge** **·** **tulukonto sisestamisele nullhinnaga müügitellimuse arve ridade parameetri korral pearaamatu ja käibemaksu vahekaardil müügireskontro parameetrite lehel.** (Müügireskontro **> seadistus > Müügireskontro parameetrid**). Valige **Jah**, et uuendada **tulukonto** müügitellimuse arve ridadele, mille hind puudub. Tulukonto määratletakse vahekaardi Müügitellimuse **konto** määratlus lehel Varude **sisestamise** parameeter. Kui see suvand pole valitud, ei sisestata hinnateabeta ridu **tulukontole**.
 
 ## <a name="additional-settings-that-change-the-posting-behavior"></a>Sisestamiskäitumist muutvad lisasätted
 Järgmised väljad muudavad sisestamisprotsessi käitumist.

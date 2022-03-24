@@ -2,7 +2,7 @@
 title: E-kaubanduse saidi loomine
 description: See teema kirjeldab vajalikke etappe ja teavet uue e-kaubanduse saidi loomiseks Dynamics 365 Commerce'i saidiehitajas.
 author: bicyclingfool
-ms.date: 03/04/2022
+ms.date: 03/10/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5e451b1c95c3e26d1292e7b8300b62af43c81f2f
-ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
-ms.translationtype: HT
+ms.openlocfilehash: 37734e2ceea3a50c70a2f7945329d4a9cf660cc6
+ms.sourcegitcommit: 9c19898e1f41495f804c7f07e2636b53a098c4c1
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "8388207"
+ms.lasthandoff: 03/10/2022
+ms.locfileid: "8402771"
 ---
 # <a name="create-an-e-commerce-site"></a>E-kaubanduse saidi loomine
 
@@ -70,6 +70,14 @@ Saidi ümbernimetamiseks saidikonstruktoris järgige neid samme.
 1. Saidiloendi vaate avamiseks valige ülemisel **parempoolsel nurgal** saidilüliti ja seejärel valige suvand Halda **saite**. 
 1. Valige märkeruut saidi kõrval, mida soovite ümber nimetada ja seejärel valige käsuribal **ümbernimetamine**.
 1. Dialoogiaknas **Uus saidi** nimi sisestage uus saidi nimi ja seejärel valige **OK**. Saidi loend uuendab saidi uue nime näitamiseks.
+
+## <a name="delete-a-site"></a>Saidi kustutamine
+
+Saidi kustutamiseks saidikonstruktorist järgige neid samme.
+
+1. Saidiloendi vaate avamiseks valige ülemises **parempoolses nurgas** saidilüliti ja seejärel valige suvand Halda **saite**.
+1. Valige sait, mida soovite kustutada ja seejärel valige **käsuribal** Kustuta.
+1. **Dialoogiboksis Kustutamine \<site name\>** sisestage saidi nimi ja seejärel valige **kustutamisnimi**.
 
 ## <a name="additional-resources"></a>Lisaressursid
 

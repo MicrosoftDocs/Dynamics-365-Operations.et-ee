@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-29
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 01edccbf1a50264b3867e303cbca44eb1b1d7dd9
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.openlocfilehash: 32e5ceb607d2c4f3d9794421db5382441ac30467
+ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087495"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "8408226"
 ---
 # <a name="parameters-not-used-by-planning-optimization"></a>Parameetrid, mida Planning Optimization ei kasuta
 
@@ -60,7 +60,7 @@ Planning Optimization ei kasuta lehel järgmisi parameetreid või valikuid **Kat
 
 - Kiirkaart **Üldine**.
 
-  - **Positiivsed päevad** – *positiivsete päevade* väärtust ei kasutata. Planeerimise optimeerimisega peetakse positiivseid päevi lõpmatuks.
+  - **Positiivsed** päevad – *positiivsete* päevade väärtust ei kasutata. Planeerimise optimeerimise puhul loetakse positiivsed päevad lõpmatuks.
   - **Tarbi vaba kaubavaru** – vaba *kaubavaru toe ootel* tarbimine.
   - **Kasutage määratud koosluse või valemi versiooni** – ootel *valemiversioonid koos kaastoote/tootega* toega.
   - **Kasuta määratud protsessi versiooni** – ootel *nõudlus kindla koosluse või protsessi nõuete määratud* toega.
@@ -161,9 +161,9 @@ Planning Optimization ei kasuta lehel järgmisi parameetreid või valikuid **Koo
   - **Lisage arvutatud viivitus vajaduse kuupäevale** (jaotises **Plaanitud kanne** jaotis) – ootel *arvutatud viivitused* tugi.
   - **Lisage arvutatud viivitus vajaduse kuupäevale** (jaotises **Plaanitud kanban** jaotis) – ootel *arvutatud viivitused* tugi.
 
-- **Kiirkaart** Tegevusteade:
+- **Tegevussõnumi** kiirkaart:
 
-  - **Värskendage edasilükatud kuupäeva nõudekuupäevana** – see parameeter lõpetatakse plaanimise optimeerimisega.
+  - **Edasilükatud kuupäeva uuendamine vajaduse kuupäevana –** see parameeter on planeerimise optimeerimise puhul peatatud.
 
 - **Sageduse** kiirkaart:
 
@@ -194,12 +194,6 @@ Planning Optimization ei kasuta lehel järgmisi parameetreid või valikuid **Vai
   - **Tarnekuupäeva kontroll** – planeerimise optimeerimine ei toeta *CTP* valikut, ootel *CTP* tuge.
   - **Varude juhtimise aeg** - Planning Optimization teenuse versioonides, mis on vanemad kui väljalase 6. august 2021, kasutab Planning Optimization seda parameetrit õige tellimuse ja tarnekuupäeva arvutamiseks, kuid see ei salvesta arvutatud täitmisaega ennast plaanitud. Hilisemates versioonides kasutab teenus ka arvutatud täitmisaega, et seadistada **täitmisaja** väli ja **tööpäevade valik** nagu on plaanitud tellimuse puhul.
   - **Tööpäevad** - Planning Optimization teenuse versioonides, mis on vanemad kui väljalase 6. august 2021, kasutab Planning Optimization seda parameetrit õige tellimuse ja tarnekuupäeva arvutamiseks, kuid see ei salvesta arvutatud täitmisaega ennast plaanitud. Hilisemates versioonides kasutab teenus ka arvutatud täitmisaega, et seadistada **täitmisaja** väli ja **tööpäevade valik** nagu on plaanitud tellimuse puhul.
-
-## <a name="working-time-calendars-page"></a>Töögraafikute leht
-
-Planning Optimization ei kasuta lehel järgmisi parameetreid või valikuid **Töötamise kalnedri** lehel:
-
-- **Põhikalender** – ootel *põhikalendri* tugi.
 
 ## <a name="batch-disposition-master-page"></a>Partii likvideerimise koond leht
 

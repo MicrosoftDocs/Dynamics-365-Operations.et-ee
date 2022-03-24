@@ -2,41 +2,40 @@
 title: Sisestatud töölehekirjete töölehele paigutamine
 description: See protseduur näitab, kuidas sisestatud töölehe kandeid töölehele paigutada.
 author: aprilolson
-ms.date: 08/09/2019
+ms.date: 03/09/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerParameters, SysQueryForm
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 519431684cd26d566ae4c9dd75010d5c98881b602681211908c0c70215448fea
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 8d8fca167563b14c825ebe29874c6488ddfb4d9a
+ms.sourcegitcommit: 06acdfbccd7bd213a2397ea7b85d104f01914437
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738451"
+ms.lasthandoff: 03/10/2022
+ms.locfileid: "8400871"
 ---
 # <a name="journalize-posted-journal-entries"></a>Sisestatud töölehekirjete töölehele paigutamine
 
 [!include [banner](../../includes/banner.md)]
 
-See protseduur näitab, kuidas sisestatud töölehe kandeid töölehele paigutada. Protseduur kasutab demoettevõtte USMF andmeid.
+Pearaamatu töölehele sisestamise protsess võimaldab grupeerida ja teatada teie pearaamatu sisestatud kandekirjetest. Teie antud kriteeriumile toetudes loob töötlemine kandeloendi kannetest, **mis** kasutavad kordumatut numbriseeriat ja mille viiteks on pearaamatu töölehenumbri väärtus.
 
-1. Minge **navigeerimispaanil** jaotisesse **Moodulid > Pearaamat > Pearaamatu seadistamine > Pearaamatu parameetrid**.
-2. Välja **Laiendatud pearaamatu leht** väärtuseks saab seada Jah või Ei. Kui see on Jah, on aruande väljund teistsugune.
-3. Valige, kas perioodi saab sulgeda, kui töölehele paigutamise protsessi pole käivitatud. Kui selle suvandi säte on Jah, ei saa perioodi sulgeda enne, kui selle perioodi puhul on töölehele paigutamise protsess lõpule viidud.  
+Järgige neid samme sisestatud töölehe sisestuste töölehele sisestamiseks. See protseduur kasutab **USMF-i** demoandmete ettevõtet.
+
+1. Avage **Pearaamat** \> **Pearaamatu seadistamine** \> **Pearaamatu parameetrid**.
+2. **Valige väärtus väljal Laiendatud** pearaamatu tööleht. Kui valite **Jah**, on aruande väljund erinevad.
+3. Valige, kas perioodi saab sulgeda, kui töölehele paigutamise protsessi pole käivitatud. Kui valite **Jah**, ei saa perioodi sulgeda enne, kui selle perioodi töölehele sisestamise protsess on lõpetatud.
 4. Sulgege leht.
-5. Paanil **Navigeerimispaan** avage **Moodulid > Pearaamat > Perioodilised ülesanded > Töölehele kandmine**.
-6. Klõpsake käsku **Filtreeri**.
-7. Tõstke esile rida, mille filtri kriteeriume soovite määratleda.
-8. Väljal **Kriteeriumid** sisestage või valige filtrikriteeriumid.
-9. Klõpsake **OK**, et sulgeda filtrileht.
-10. Klõpsake **OK**, et alustada töölehele kandmist. Pärast protsessi lõpetamist koostatakse aruanne.  
-
-
+5. Minge pearaamatu **perioodiliste ülesannete** \> **töölehele** \> **sisestamisele** ja valige suvand **Filtreeri.**
+6. Valige rida filtrikriteeriumi jaoks, mida soovite määratleda.
+7. Sisestage **või** valige filtrikriteerium väljal Kriteeriumid.
+8. Lehe sulgemiseks valige **OK**.
+9. Töölehele **sisestamise protsessi käivitamiseks valige OK**. Aruanne luuakse pärast protsessi lõpetamist.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

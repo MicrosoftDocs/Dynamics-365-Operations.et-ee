@@ -1,23 +1,23 @@
 ---
 title: Vabas vormis arve loomine
 description: Selles teemas kirjeldatakse vabas vormis arvete loomist.
-author: mikefalkner
-ms.date: 08/24/2018
+author: abruer
+ms.date: 02/15/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: e5ca9e00ec881707248d966470288fd3ddba4e785127f30bd0e6dd4e7186c7e6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 6e9578d9b2d61f241ab5e92fc9740b88b80969f6
+ms.sourcegitcommit: 411874545d7c326fc4aa877948a059371f0ccb3c
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763282"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "8392881"
 ---
 # <a name="create-a-free-text-invoice"></a>Vabas vormis arve loomine
 
@@ -68,6 +68,7 @@ Selles teemas kirjeldatakse vabas vormis arvete loomist. Selle protseduuri jaoks
 
     * Saate muuta arve printimise aega. Valige **Praegune**, et printida arve pärast värskendamist. Valige **Pärast**, et printida pärast kõikide arvete uuendamist.
     * Muutke väärtust väljas **Krediidilimiidi tüüp**, et muuta seda, kuidas kliendi krediidilimiiti enne arve sisestamist kontrollitakse.
+    * Saate valida **vabas** **vormis** arve sisestamise peatamise, kui lehel Müügireskontro parameetrid (**Müügireskontro > Müügireskontro parameetritega > ilmneb tõrge).** Valige **Jah** vabas **vormis arvete sisestamise peatamiseks esimesel tõrkeparameetril**, et peatada vabas vormis arvete sisestamine tõrke ilmnemisel. Partiisse sisestamisel peatab tõrge sisestamisprotsessi ja partii olekuks seatakse **Tõrge**. Kui see suvand pole valitud, jätab sisestamisprotsess arve sisestamisveaga vahele ja jätkab lisaarvete sisestamist. Partiisse sisestamisel ei takista sisestamistõrge teiste arvete sisestamist. Partii olek **lõpetatakse**. Üksikasjalik sisestusprotsessi aruanne on pakett-tööde ajaloos läbivaatamiseks saadaval.
     * Arve printimiseks määrake suvand valikule **Jah**.
     * Arve sisestamiseks määrake suvand valikule **Jah**. Saate arve ilma sisestamata printida.
 
@@ -82,6 +83,12 @@ Pärast ridade kopeerimist saate redigeerida teavet vajaduse järgi.
 Saate luua vabas vormis arve mallist. Kui valite suvandi **Uus mallist** vahekaardil **Arve**, saate uue vabas vormis malli jaoks valida malli nime ja kliendikonto. Vaikeväärtusi, nt maksetingimused ja makseviisi, saab automaatselt kliendi põhjal täita või võite kasutada malli salvestatud väärtusi.
 
 Luuakse uus vabas vormis arve, mille väärtusi saate vajaduse järgi redigeerida.
+
+## <a name="resetting-the-workflow-status-for-free-text-invoices-from-unrecoverable-to-draft"></a>Vabas vormis arvete töövoo oleku lähtestamine väärtuselt Parandamatu väärtusele Mustand
+Taastamatu tõrke tõttu peatatud töövoo eksemplaril on töövoo olekuks **Parandamatu**. Kui kliendi vabas vormis arve töövoo **olek on Taastamatu**, saate selle lähtestada olekuks Mustand **,** valides töövoo **tegevustest** tagasikutsumise. Seejärel saate redigeerida kliendi vabas vormis arvet. See funktsioon on saadaval, **kui funktsioonihalduse lehel on** vabas **vormis arvete töövoo oleku lähtestamine parandamatust mustandparameetriks** sisse lülitatud.
+
+Saate kasutada lehte **Töövoo ajalugu**, et lähtestada töövoo olekuks **Mustand**. Selle lehe saate avada vabas vormis **arvelt** või töövoo **> Kliendi > kaudu**. Töövoo oleku lähtestamiseks olekusse **Mustand**, valige **Tagasikutsumine**. Samuti saate lähtestada töövoo oleku Olekuks **Mustand**, **·** **valides** leheküljel Vabas vormis arve või Kõik **vabas vormis arved tegevuse Tagasikutsumine.** Kui töövoo olek on lähtestatud olekusse **Mustand**, muutub see redigeerimiseks kättesaadavaks vabas **vormis arve lehel**.
+
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

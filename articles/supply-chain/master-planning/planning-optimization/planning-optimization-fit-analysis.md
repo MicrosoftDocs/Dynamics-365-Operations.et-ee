@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: fd0fdd677824db823f9bc42f0ad1bdd90cf3b16d
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 440cddca11df8d705757c6f6adf01e08626c5158
+ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344974"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "8408011"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Planeerimise optimeerimise sobivuse analüüs
 
@@ -58,7 +58,7 @@ Järgmises tabelis on toodud tulemused, mida võidakse kuvada pärast sobivuse a
 | Funktsioon | Nimetatud probleem | Selgitus | Eeldatav saadavus |
 | --- | --- | --- | --- |
 | Tegevused | Laovarude grupp, mille tegevuste arvutamine on lubatud: _\#_ | See funktsioon on ootel. Sellest sättest hoolimata ei looda praegu koondplaneerimise ajal tegevusi, kui planeerimise optimeerimine on lubatud. Tegevuste peamine eesmärk on pakkuda soovitusi olemasolevate tellimuste muutmiseks. Hinnake, kas teie äriprotsessi osana rakendatakse tegevusi aktiivselt või piisab tellimustega seotud viivituste teabest. | 2022. aprill |
-| Põhikalendrid | Põhikalendrit kasutavad kalendrid: _\#_ | See funktsioon on ootel. Praegu eiratakse põhikalendrit, kui planeerimise optimeerimine on lubatud. Hinnake, kas teie äriprotsesside jaoks on vajalik põhikalender või piisab kalendrite otsesest seadistusest. | 2022. aprill | 
+| Põhikalendrid | Põhikalendrit kasutavad kalendrid: _\#_ | Seda funktsiooni nüüd toetatakse. | 2022. märts | 
 | Partii likvideerimiskoodid | Tasaarveldamatu partii likvideerimise koondandmed: _\#_ | See funktsioon on ootel. Praegu eiratakse partii likvideerimiskoode, kui planeerimise optimeerimine on lubatud. | 2022 oktoobris või uuem värskendus |
 | Võimeline lubama (CTP) | Tellimuse vaikesätted, milles tarnekuupäeva kontrolliks on seatud CTP: _\#_ | See funktsioon on ootel. Sellest sättest hoolimata eiratakse praegu CTP-d, kui planeerimise optimeerimine on lubatud. | 2022. oktoober |
 | Staatilise plaani kopeerimine dünaamilisse plaani | Koondplaneerimise parameetrites on lubatud staatilise plaani kopeerimine dünaamilisse plaani. | Sellest sättest hoolimata ei kopeeri planeerimise optimeerimine staatilist plaani dünaamilisse plaani. Üldiselt on see kontseptsioon vähem oluline kiiruse ja täieliku taasloomise tõttu, mida planeerimise optimeerimine võimaldab. Kui kasutatakse kaht või enamat plaani, tuleb iga plaani jaoks käivitada koondplaneerimine. | 2022. oktoober |

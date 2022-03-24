@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 43e57b75933a67c1ee3fb0a59400b0d1bdab931cec5826346247cc361a0206df
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: e7350e697beec42b349082df06b77a89d526c27c
+ms.sourcegitcommit: ddcab9726e9dbcf3296cb0988b97a3ae7ccb3dfb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720416"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "8396520"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-supply-chain-management"></a>Dynamics 365 Supply Chain Managementi eemaldatud või aegunud funktsioonid
 
@@ -31,7 +31,7 @@ See teema uuendatakse, kui uued eemaldatud või aegunud funktsioonid on Dynamics
 See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võtta.
 
 > [!NOTE]
-> Üksikasjalikku teavet rakenduse Finance and Operationsi rakenduste objektide kohta leiate teemast [Tehnilise teabe aruanded](/dynamics/s-e/). Saate võrrelda nende aruannete eri versioone, et õppida objektide kohta, mida on igas Finance and Operationsi rakenduste versioonis muudetud või eemaldatud.
+> Finantside ja toimingute rakenduste objektide üksikasjaliku teabe leiate tehnilistest [viitearuannetest](/dynamics/s-e/). Saate võrrelda nende aruannete erinevaid versioone, et saada teavet objektide kohta, mida on igas Finantsi ja operatsioonide rakenduste versioonis muudetud või eemaldatud.
 
 
 ## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10019-release"></a>Supply Chain Managementi väljalaskest 10.0.19 eemaldatud või aegunud funktsioonid
@@ -52,7 +52,7 @@ See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võ
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Aegumise/eemaldamise põhjus** | Kehtib 2021. aasta aprillil, *Dynamics 365 for Finance and Operations – ladustamine* (laorakendus) on iganenud ja seda ei toetata pärast 2022. aasta aprilli. See asendati nüüd *mobiilirakendusega Warehouse Management*, mis anti välja Supply Chain Management versiooniga 10.0.17. Uus rakendus on täielik asendus, kuid kasutab sama alusraamistikku, mis muudab migreerimise lihtsaks. Vajadusel saab neid kahte rakendust kõrvuti kasutada, et aidata kasutajatel uue rakenduse õppimisel järk-järgult kohaneda.<br><br>Lisateavet uue laohalduse mobiilirakenduse Warehouse Management kohta vt jaotisest [Mobiilirakenduse Warehouse Management](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-application) ja [Mobiilirakenduse Warehouse Management installimine ja ühendamine](../warehousing/install-configure-warehouse-management-app.md). |
+| **Aegumise/eemaldamise põhjus** | Kehtib 2021. aasta aprillil *,* Dynamics 365 finantside ja toimingute – ladustamise (laorakendus) puhul on taunitav ja seda ei toetata pärast 2022. aasta aprilli. See asendati nüüd *mobiilirakendusega Warehouse Management*, mis anti välja Supply Chain Management versiooniga 10.0.17. Uus rakendus on täielik asendus, kuid kasutab sama alusraamistikku, mis muudab migreerimise lihtsaks. Vajadusel saab neid kahte rakendust kõrvuti kasutada, et aidata kasutajatel uue rakenduse õppimisel järk-järgult kohaneda.<br><br>Lisateavet uue laohalduse mobiilirakenduse Warehouse Management kohta vt jaotisest [Mobiilirakenduse Warehouse Management](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-application) ja [Mobiilirakenduse Warehouse Management installimine ja ühendamine](../warehousing/install-configure-warehouse-management-app.md). |
 | **Asendatud teise funktsiooniga?**   | Jah, asendatud uue laohalduse mobiilirakendusega Warehouse Management. |
 | **Mõjutatud tootealad**         | Supply Chain Management – lao rakendus |
 | **Juurutamissuvand**              | Pilves ja kohapealne |
@@ -78,7 +78,7 @@ See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võ
 | **Asendatud teise funktsiooniga?**   | Jah, planeerimise optimeerimine asendab Supply Chain Managementi olemasoleva sisseehitatud koondplaneerimise mootori. |
 | **Mõjutatud tootealad**         | Supply Chain Management – Koondplaneerimine |
 | **Juurutamissuvand**              | Ainult pilv. Kohapealsed juurutamised ei toeta planeerimise optimeerimist. |
-| **Olek**                         | Aegunud. Alates 2022. aasta 1. aprillist ei toeta tootmisstsenaariumid enam Dynamics 365 Supply Chain Management-i sisseehitatud koondplaneerimise mootorit. Kliendid peavad tootmisstsenaariumite puhul kasutama koondplaneerimise arvutustes planeerimise optimeerimist. Lisateavet vt [Planeerimise optimeerimise dokumentatsioon](../master-planning/planning-optimization/planning-optimization-overview.md). Kliendid, kellel on Dynamics 365 Supply Chain Management-i kohapealsed juurutused, võivad jätkata Supply Chain Managementi koondplaneerimise mootori kasutamist tootmisstsenaariumite jaoks ka pärast 2022. aasta aprilli. Funktsioonitäiustusi aga enam tulevikus ei pakuta. |
+| **Olek**                         | Aegunud. 1. aprilliks 2022 ei toetata tootmisstsenaariume enam integreeritud tarneahela halduse koondplaneerimise mootori puhul. Alates sellest kuupäevast peatab Microsoft kõik aktiivsed arendused tootmisstsenaariumites integreeritud plaanimismootori jaoks, ei vabasta uusi funktsioone ja vabastab ainult kriitilised vigaparandused. Pärast seda kuupäeva peavad kõik tootmisstsenaariume vajavad ettevõtted koondplaneerimise arvutustes kasutama plaanimise optimeerimist. Plaanimise optimeerimine peaks tootmisstsenaariume täielikult toetama 2022. aasta oktooberks. Lisateavet vt planeerimise optimeerimise [dokumentatsioonist](../master-planning/planning-optimization/planning-optimization-overview.md).<br><br>Ettevõtted, kus on tarneahela halduse valdustes juurutamised, võivad jätkata pärast 2022. aasta aprilli tootmisstsenaariumide integreeritud koondplaneerimise mootori kasutamist. Funktsioonitäiustusi aga enam tulevikus ei pakuta. |
 
 ## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10011-release"></a>Supply Chain Managementi väljalaskest 10.0.11 eemaldatud või aegunud funktsioonid
 

@@ -15,21 +15,20 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 86322fdf14bdefb5c9d4793a69e95ca913843e53
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
-ms.translationtype: HT
+ms.openlocfilehash: d8f0d91667d22ddd1dd7131ca3d03bb2fa70659c
+ms.sourcegitcommit: 1819a11ae22019f1de6991d233c1c51e9950d7a3
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087520"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "8457447"
 ---
 # <a name="whats-new-or-changed-in-human-resources"></a>Mis on uut või mida on muudetud rakenduses Human Resources?
 
 > [!IMPORTANT]
-> Selles teemas märgitud funktsioon on praegu eraldiseisvatele klientidele saadaval Dynamics 365 Human Resources. Osa või kõik funktsioonid on saadaval osana Finance infrastruktuuri tulevasest väljalasest pärast Finance'i versiooni 10.0.25.  
+> Selles teemas märgitud funktsioonid on hetkel saadaval eraldiseisev klientide jaoks Dynamics 365 Human Resources. Osa või kõik funktsioonid on saadaval osana Finance'i taristu tulevasest väljalaskest pärast Finance'i versiooni 10.0.25.  
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Iga kahe nädala tagant esitame rakenduse Microsoft Dynamics 365 Human Resources jaoks uue väljaande. Teemad selles loendis kirjeldavad igas väljaandes tehtud muudatusi.
 
 Lisateavet rakenduse Human Resources tulevaste funktsioonide või värskendamisprotsessi kohta leiate järgmistest artiklitest. 
 
