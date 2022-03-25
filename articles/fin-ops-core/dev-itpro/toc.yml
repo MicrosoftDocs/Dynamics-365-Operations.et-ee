@@ -242,6 +242,8 @@
               href: data-entities/finance-data-azure-data-lake.md
             - name: Üksusesalve Data Lake’i üksusena saadavaks muutmine
               href: data-entities/entity-store-data-lake.md
+            - name: 'Ärisündmused, mis on saadud teenusesse Azure Data Lake eksportimise teel (eelversioon)'
+              href: data-entities/Azure-Data-Lake-Generates-Biz-events.md
             - name: Andmete muutmine Azure Data Lake'is
               href: data-entities/Azure-data-lake-Change-feeds.md
         - name: Andmebaasi teisaldamistoimingud
@@ -1068,6 +1070,8 @@
                       href: data-entities/dual-write/sales-status-map.md
                     - name: Kontsernisiseste tellimuste filtreerimine tellimuse ja tellimuseridade sünkroonimise vältimiseks
                       href: data-entities/dual-write/filtering-intercompany-orders.md
+                    - name: Topeltkirjutusega rakenduste orkestratsioonilahenduste desinstallimine
+                      href: data-entities/dual-write/uninstall-solutions.md
                 - name: Topeltkirjutuse haldamine
                   items:
                     - name: Üksuse- ja väljavastenduste kohandamine

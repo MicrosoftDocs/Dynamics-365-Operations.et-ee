@@ -1020,6 +1020,8 @@
                   href: unit-of-measure.md
                 - name: Tootedimensioonide kuvasätete rakendamine
                   href: dimension-settings.md
+                - name: E-commerce'i hooldusrežiimi lubamine ja aktiveerimine
+                  href: enable-maintenance-mode.md
             - name: Saidi sisu haldamine
               items:
                 - name: Sisu lisamise viisid
@@ -2100,9 +2102,13 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-data-collection-data-sources.md?toc=/dynamics365/commerce/toc.json
                     - name: Andmeallikate silumine
                       href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/commerce/toc.json
+                - name: Andmemudelite konfigureerimine
+                  items:
+                    - name: ER-andmemudelite parametriseeritud kutsete toetamine
+                      href: ../fin-ops-core/dev-itpro/analytics/er-data-model-parameterized-calls.md?toc=/dynamics365/commerce/toc.json
                 - name: Mudelivastenduste konfigureerimine
                   items:
-                    - name: Riigi kontekstist sõltuva ER-mudeli vastenduste konfigureerimine
+                    - name: Riigi kontekstist sõltuva ER-mudelivastenduste konfigureerimine
                       href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/commerce/toc.json
                     - name: Elektroonilise aruandluse (ER) mudelivastenduse haldamine eraldi ER-i konfiguratsioonides
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/commerce/toc.json
@@ -2760,6 +2766,8 @@
                           href: e-commerce-extensibility/clone-starter-module.md
                         - name: Mooduli definitsiooni laiendamine
                           href: e-commerce-extensibility/extend-module-definition.md
+                        - name: Mooduliteegi staatiliste stringide muutmine
+                          href: e-commerce-extensibility/change-module-library-strings.md
                     - name: Andmetegevused
                       items:
                         - name: Alistav andmetegevus
@@ -2774,6 +2782,8 @@
                           href: e-commerce-extensibility/override-theme-component.md
                         - name: Kujunduse laiendamine põhiteemast
                           href: e-commerce-extensibility/extend-theme.md
+                        - name: Kujunduse mooduli stringide muutmine
+                          href: e-commerce-extensibility/change-theme-module-strings.md
                 - name: Pakkimine ja juurutamine
                   items:
                     - name: Paketikonfiguratsioonid ja nende juurutamine veebikeskkonnas
@@ -2798,6 +2808,8 @@
                           href: e-commerce-extensibility/page-caching.md
                         - name: Andmetegevuse eksemplari vahemälu
                           href: e-commerce-extensibility/instance-cache.md
+                        - name: Mooduli CSS optimeerimine
+                          href: e-commerce-extensibility/module-css-optimization.md
                     - name: Telemeetria ja analüüs
                       items:
                         - name: Telemeetria logija

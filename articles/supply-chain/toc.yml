@@ -747,8 +747,32 @@
                   href: cost-management/simulate-cost-changes-costing-version-planned-costs.md
                 - name: Võrrelge ladustamisarundes toodete hindu
                   href: cost-management/compare-item-price.md
+            - name: Kuluarvestuse meetodid
+              items:
+                - name: Keskmine jooksev omahind
+                  href: cost-management/running-average-cost-price.md
+                - name: Jooksvate keskmiste kulude jälgimine varude dimensiooni alusel
+                  href: cost-management/track-running-average-cost-per-inventory-dimension.md
+                - name: FIFO füüsilise väärtuse ja märkimisega
+                  href: cost-management/fifo-physical-value-marking.md
+                - name: LIFO kuupäev füüsilise väärtuse ja märkimisega
+                  href: cost-management/lifo-date-physical-value-marking.md
+                - name: LIFO füüsilise väärtuse ja märkimisega
+                  href: cost-management/lifo-physical-value-marking.md
+                - name: Kaalutud keskmine füüsilise väärtuse ja märgistusega
+                  href: cost-management/weighted-average-physical-value-marking.md
+                - name: Kaalutud keskmine kuupäev füüsilise väärtuse ja märgistusega
+                  href: cost-management/weighted-average-date.md
+                - name: Liikuv keskmine
+                  href: cost-management/moving-average.md
+                - name: Liikuva keskmise varukulu järjestus
+                  href: cost-management/moving-average-fallback.md
             - name: Laoarvestus
               items:
+                - name: Füüsilised ja finantsilised värskendused
+                  href: cost-management/physical-financial-updates.md
+                - name: Kaasab füüsilist väärtust
+                  href: cost-management/include-physical-value.md
                 - name: Kuluobjektid
                   href: cost-management/cost-object.md
                 - name: Kuluobjekti saldo kuvamine
@@ -761,30 +785,8 @@
                   href: cost-management/tasks/view-cost-entries-cost-object.md
                 - name: Kulugrupid
                   href: cost-management/cost-groups.md
-                - name: FIFO füüsilise väärtuse ja märkimisega
-                  href: cost-management/fifo-physical-value-marking.md
-                - name: Füüsilise väärtuse kaasamine
-                  href: cost-management/include-physical-value.md
                 - name: Varuobjekti väärtused
                   href: cost-management/physical-quantity.md
-                - name: LIFO kuupäev füüsilise väärtuse ja märkimisega
-                  href: cost-management/lifo-date-physical-value-marking.md
-                - name: LIFO füüsilise väärtuse ja märkimisega
-                  href: cost-management/lifo-physical-value-marking.md
-                - name: Liikuv keskmine
-                  href: cost-management/moving-average.md
-                - name: Liikuva keskmise varukulu järjestus
-                  href: cost-management/moving-average-fallback.md
-                - name: Füüsilised ja finantsilised värskendused
-                  href: cost-management/physical-financial-updates.md
-                - name: Keskmine jooksev omahind
-                  href: cost-management/running-average-cost-price.md
-                - name: Jooksvate keskmiste kulude jälgimine varude dimensiooni alusel
-                  href: cost-management/track-running-average-cost-per-inventory-dimension.md
-                - name: Kaalutud keskmine kuupäev
-                  href: cost-management/weighted-average-date.md
-                - name: Kaalutud keskmine füüsilise väärtuse ja märgistusega
-                  href: cost-management/weighted-average-physical-value-marking.md
                 - name: Lao sulgemine
                   href: cost-management/inventory-close.md
                 - name: Vaba kaubavaru kuluväärtuste korrigeerimine
@@ -1431,9 +1433,13 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-data-collection-data-sources.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Andmeallikate silumine
                       href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Andmemudelite konfigureerimine
+                  items:
+                    - name: ER-andmemudelite parametriseeritud kutsete toetamine
+                      href: ../fin-ops-core/dev-itpro/analytics/er-data-model-parameterized-calls.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Mudelivastenduste konfigureerimine
                   items:
-                    - name: Riigi kontekstist sõltuva ER-mudeli vastenduste konfigureerimine
+                    - name: Riigi kontekstist sõltuva ER-mudelivastenduste konfigureerimine
                       href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Elektroonilise aruandluse (ER) mudelivastenduse haldamine eraldi ER-i konfiguratsioonides
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/supply-chain/toc.json
@@ -3855,6 +3861,8 @@
               items:
                 - name: Warehouse mobile app
                   items:
+                    - name: Ootamatu erinevus nõude ja seansi andmete vahel testimisel
+                      href: troubleshooting/warehousing/request-session-data-difference.md
                     - name: Rakenduse ühenduse seadistamisel ei leitud sertifikaadi tee usaldusankrut
                       href: troubleshooting/warehousing/certification-path-app-connection-error.md
                     - name: Värskendamisel ja LHS-i migreerimisel ei leitud sertifikaadi tee usaldusankrut
