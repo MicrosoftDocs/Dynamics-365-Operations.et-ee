@@ -2,7 +2,7 @@
 title: Andmevaka lähtestamise KKK
 description: Selles teemas antakse vastused mõnele korduma kippuvatele küsimustele andmevaka lähtestamise kohta.
 author: jinniew
-ms.date: 02/14/2022
+ms.date: 03/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-05-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 53f45f469c39f9e389763aa0daed658e5a62d377
-ms.sourcegitcommit: 6a269db08e8bb3bb3405c9f4a512091d13c80faa
-ms.translationtype: HT
+ms.openlocfilehash: ab6417a739e9a7b67b9e67d93f3bef654e55e5e4
+ms.sourcegitcommit: 2c2ef3e312e7221006a9e230c9378bb4c1b4cd33
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/14/2022
-ms.locfileid: "8119508"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8466407"
 ---
 # <a name="data-mart-resets-faq"></a>Andmevaka lähtestamise KKK
 
@@ -47,10 +47,14 @@ Kui teie olukorras kehtib üks või mitu järgnevat lauset, võib teie organisat
 Siin on mõned olukorrad, kus me ei soovita andmevakka lähtestada.
 
 - Teil esineb andmete integreerimise jõudlusprobleeme.
+- Teie finants aru reporteri integreerimine pole lubatud. 
+
+    - See tähendab, et pearaamatu andmeid ei sünkroonita enam teie finantsaruandluse andmekooslusega. Võimalik, et teie finants aru anda teie finantsaruannete jaoks ei pruugi teie finants aru anda ajaja numbreid. See juhtub tavaliselt siis, kui te pole finantsreporterit kaua kasutada.
+    - Teil palutakse integratsioon lubada, lähtestades data marti. Jätkamiseks valige **Jah**. Võite valida ka andmete marti hilisema lähtestamise. Kui integratsioon on lubatud, sünkroonitakse teie pearaamatu andmed uuesti Finantsaruandes. 
 - Teil on mõne järgmise põhjuse tõttu korduv lähtestamise muster.
 
     - **Aruandes puuduvad või ootamatud andmed** – kui teate, et andmed puuduvad, avage tugipilet Microsoftiga, et vaadata üle oma aruande vorming ja võimalikud andmete sünkroonimise probleemid.
-    - **Kinnise integratsiooni olek**
+    - **Kinnise integratsiooni** olek – kui märkate, et integratsiooni olek on käivitatud, võib selle põhjuseks olla suur kannete hulk süsteemis. See olek lahendab enda. Kui aga teate, et intregratsiooni olek on kleebitud rohkem kui neljaks tunniks, avage Microsofti tugipilet. 
    
 ## <a name="if-i-reset-the-data-mart-will-i-lose-reports-that-ive-already-designed"></a>Kui lähtestan andmed marti, kas kaotan aruanded, mis ma juba kujundanud olen?
 

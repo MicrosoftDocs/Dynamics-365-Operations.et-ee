@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: fae25eb1cb9dd4059b9d49e47cbb0060e717c9bc
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
-ms.translationtype: MT
+ms.openlocfilehash: 2b39eef816aaa383f0f8cbf1b2c308a6eafebd8f
+ms.sourcegitcommit: a3b121a8c8daa601021fee275d41a95325d12e7a
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8386916"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8524433"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10026-may-2022"></a>Dynamics 365 Supply Chain Management 10.0.26 (mai 2022) eelversioon
 
@@ -35,7 +35,7 @@ Järgmises tabelis on loetletud selles versioonis sisalduvad funktsioonid. Võim
 | Funktsiooniala | Funktsioon | Lisateave | Lubaja:   |
 |---|---|---|---|
 | Varud ja logistika | [Laovarude nähtavuse vaba kaubavaru päring täpsema laohalduse kaupade toetamiseks](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/inventory-visibility-support-advanced-warehouse-management) | Peagi tulekul | Funktsioonihaldus:<br>*Laokauba lubamine varude nähtavuses* |
-| Varud ja logistika | [Saadaval-lubadus varude nähtavuse lisandmooduli jaoks](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/available-to-promise-inventory-visibility-add-in) | Peagi tulekul | Lubatud teenuse konfiguratsiooni järgi |
+| Varud ja logistika | [Saadaval-lubadus varude nähtavuse lisandmooduli jaoks](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/available-to-promise-inventory-visibility-add-in) | [Varude nähtavuse laoseisu muudatuste graafikud ja lubaduse andmiseks saadaval](../inventory/inventory-visibility-available-to-promise.md) | Lubatud teenuse konfiguratsiooni järgi |
 | Tootmine | [Tootmispinna täitmisliidese tegeliku kaalu kaubad](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/catch-weight-items-production-floor-execution-interface) | [Kuidas töötajad kasutavad tootmisosakonna käivitusliidest](../production-control/production-floor-execution-use.md) | Funktsioonihaldus:<br>*(Eelversioon) Aruanne tegeliku kaalu üksuste kohta tootmisosakonna täideviimisliidesest* |
 | Tootmine | Tootmisosakonna täideviimisliidese vahekaart Minu tööd <!-- KFM: Add link to release plan when available --> | [Kuidas töötajad kasutavad tootmisosakonna käivitusliidest](../production-control/production-floor-execution-use.md) | Funktsioonihaldus:<br>*Tootmisosakonna täideviimisliidese vahekaart Minu tööd* |
 

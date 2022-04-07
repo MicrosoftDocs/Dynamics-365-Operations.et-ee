@@ -9,17 +9,16 @@ ms.reviewer: josaw
 ms.search.region: Global
 ms.author: analpert
 ms.search.validFrom: 2018-04-30
-ms.openlocfilehash: 6ee0cea76be05634aa21643acef5b341f19d75ef
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
-ms.translationtype: HT
+ms.openlocfilehash: d7c7c330695cbcd18a44db5b3f4e28411d8de4f3
+ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087599"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8462546"
 ---
 # <a name="improvements-to-statement-posting-functionality"></a>Väljavõtte sisestamise funktsiooni täiustused
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Selles teemas kirjeldatakse väljavõtte sisestamise esimest täiustuste kogumit. Need täiustused on saadaval rakenduses Microsoft Dynamics 365 for Finance and Operations7.3.2.
 
@@ -51,23 +50,23 @@ Väljavõtte sisestamise funktsiooni täiustuste osana on lehe **Commerce’i pa
 - **Inventuuri keelamine on nõutav** – kui see suvand on seatud valikule **Jah**, jätkub väljavõtte sisestamise protsess, isegi kui väljavõttel oleva loendatud summa ja kandesumma vaheline erinevus jääb väljapoole läve, mis on määratud poe kiirkaardil **Väljavõte**.
 
 > [!NOTE]
-> Alates Commerce'i versiooni 10.0.14 väljalaskest, kui **funktsioon Retail-statements - Trickle feed** funktsioon on lubatud, **pole pakett-töö Varude** sisestamine enam kohaldatav ja seda ei saa käitada.
+> Rakenduse Commerce version 10.0.14 **vabastamisel, kui jaemüügiväljavõtted –** kaupluste kanali funktsioon on lubatud, **ei** ole varude sisestamise pakett-töö enam rakendatav ja seda ei saa käitada.
 
 Lisaks on kiirkaardil **Pakktöötlus** vahekaardil **Sisestamine** lehel **Parameetrid** kasutusele võetud järgmised parameetrid. 
 
 - **Paralleelselt sisestatavate väljavõtete maksimumarv** – see väli määratleb mitme väljavõtte sisestamiseks kasutatavate pakett-ülesannete arvu. 
 - **Lõimede maksimumarv tellimuse töötlemisel väljavõtte kohta** – see väli näitab maksimaalset lõimede arvu, mida kasutatakse väljavõtte sisestamisel pakett-töös, et luua ja arveldada müügitellimusi ühe väljavõtte jaoks. Väljavõtete sisestamise protsessi kasutatav lõimede koguarv arvutatakse selle parameetri väärtuse alusel, mis korrutatakse parameetri **Paralleelselt sisestatavate väljavõtete maksimumarv** väärtusega. Selle parameetri väärtuse liiga kõrgeks määramine võib negatiivselt mõjutada väljavõtte sisestamise protsessi jõudlust.
-- **Kogumisse kaasatud kanderidade maksimumarv** – see väli määrab kanderidade arvu, mis kaasatakse ühte kandekogumisse enne uue loomist. Koondatud kanded luuakse erinevate koondamiskriteeriumide alusel, nagu näiteks klient, ärikuupäev või finantsdimensioonid. Oluline on märkida, et ühest kandest pärinevaid ridu ei tükeldata erinevate koondatud kannete vahel. See tähendab, et on olemas võimalus, et liide arv koondtehingus on veidi suurem või väiksem, tuginedes sellistele teguritele nagu erinevate toodete arv.
+- **Kogumisse kaasatud kanderidade maksimumarv** – see väli määrab kanderidade arvu, mis kaasatakse ühte kandekogumisse enne uue loomist. Koondatud kanded luuakse erinevate koondamiskriteeriumide alusel, nagu näiteks klient, ärikuupäev või finantsdimensioonid. Oluline on märkida, et ühest kandest pärinevaid ridu ei tükeldata erinevate koondatud kannete vahel. See tähendab, et selliste tegurite nagu eristatavate toodete arvul põhinev ridade arv koondkandes on veidi suurem või väiksem.
 - **Maksimaalne lõimede arv poe kannete kinnitamiseks** – see väli määratleb nende lõimede arvu, mida kasutatakse kannete kontrollimiseks. Kannete kinnitamine on nõutud etapp, mis peab toimuma enne kannete sisestamist väljavõtetesse. Peate ka määratlema suvandi **Kingekaardi toode** kiirkaardil **Kinkekaart** vahekaardil **Sisestamine** lehel **Commerce’i, parameetrid**. See tuleb määrata isegi siis, kui organisatsioon ei kasuta kinkekaarte.
 
-Järgmises tabelis on loetletud eelmiste parameetrite soovitatavad väärtused. Neid väärtusi tuleks testida ja kohandada vastavalt kasutuselevõtu konfiguratsioonile ja olemasolevale infrastruktuurile. Soovitatud väärtuste suurenemine võib kahjustada muud partii töötlemist ja see tuleks valideerida.
+Järgmises tabelis loetletakse eelnevate parameetrite soovitatavad väärtused. Neid väärtusi tuleb testida ja kohandada juurutuse konfiguratsioonile ja saadaolevale infrastruktuurile. Mis tahes soovitatud väärtuste tõus võib ebasoodsalt mõjutada teist pakktöötlust ja tuleks kinnitada.
 
 | Parameeter | Soovitatav väärtus | Üksikasjad |
 |-----------|-------------------|---------|
-| Paralleelselt sisestatavate väljavõtete maksimumarv | <p>Määrake see parameeter töö Väljavõtet **käitava** partiirühma jaoks saadaolevate partiiülesannete arvule.</p><p>**Üldreegel:** korrutage rakendusobjekti serveri (AOS) virtuaalserverite arv AOS-i virtuaalserveri kohta saadaolevate partiiülesannete arvuga.</p> | See parameeter pole rakenduse **Retail statements – Trickle kanali** funktsioon lubatud. |
-| Tellimuse töötlemise lõimede maksimum väljavõtte kohta | Alustage väärtuste testimist kell **4**. Tavaliselt ei tohiks väärtus ületada **8**. | See parameeter määrab niitide arvu, mida kasutatakse müügitellimuste loomiseks ja konteerimiseks. See tähistab väljavõtete kohta sisestamiseks saadaolevate lõimede arvu. |
-| Kogumisse kaasatavate kanderidade maksimumarv | Alustage väärtuste testimist kell **1000**. Sõltuvalt peakontori konfiguratsioonist võivad väiksemad tellimused olla jõudlusele kasulikumad. | See parameeter määrab ridade arvu, mis kaasatakse igasse müügitellimusse väljavõtte konteerimise ajal. Pärast selle numbri saavutamist jagatakse read uude järjekorda. Kuigi müügiridade arv ei ole täpne, kuna tükeldamine toimub müügitellimuse tasemel, on see seatud arvu lähedal. Seda parameetrit kasutatakse müügitellimuste loomiseks jaemüügikannete jaoks, millel pole nimega klienti. |
-| Maksimaalne lõimede arv kaupluse kannete kinnitamiseks | Soovitame seada selle parameetri 4-le **ja** suurendada seda ainult siis, kui te ei saavuta vastuvõetavat jõudlust. Selle protsessi kasutatud lõimede arv ei tohi ületada pakett-serveris saadaolevate protsessorite arvu. Kui määrate siin liiga palju lõime, võite mõjutada muud partii töötlemist. | See parameeter kontrollib kannete arvu, mida saab antud kaupluse puhul samal ajal valideerida. |
+| Paralleelselt sisestatavate väljavõtete maksimumarv | <p>Seadistage see parameeter pakett-tööde arvule, mis on saadaval pakett-tööde grupile, mis käitab **väljavõtte** tööd.</p><p>**Üldine reegel:** korrutage rakendusobjekti serveri (AOS) virtuaalserverite arv partiiülesannete arvuga, mis on saadaval AOS-i virtuaalserveri kohta.</p> | See parameeter ei ole rakendatav, kui jaemüügi väljavõtete **– kaupluste söötmise funktsioon** on lubatud. |
+| Tellimuse töötlemise lõimede maksimum väljavõtte kohta | Alustage katseväärtustele **4**. Tavaliselt ei tohi väärtus ületada **8**. | See parameeter määrab müügitellimuste loomiseks ja sisestamiseks kasutatavate lõimede arvu. See näitab väljavõtte kohta sisestamiseks saadaolevaid lõimede arvu. |
+| Kogumisse kaasatavate kanderidade maksimumarv | Alustage katseväärtustele **1000** juures. Sõltuvalt peakontori konfiguratsioonist võivad väiksemad tellimused olla jõudluse jaoks rohkem läbisaadvaid tellimusi. | See parameeter määratleb ridade arvu, mis kaasatakse väljavõtte sisestamisel igasse müügitellimusse. Kui see number on saavutatud, tükeldatakse read uude tellimusse. Kuigi müügiridade arv ei ole täpne, kuna tükeldamine toimub müügitellimuse tasemel, on see seadistatud arvule lähedal. Seda parameetrit kasutatakse nende jaemüügikannete müügitellimuste loomiseks, kus pole nimetatud klienti. |
+| Maksimaalne lõimede arv kaupluse kannete kinnitamiseks | Soovitatav on seada selle parameetri väärtuseks **4** ja suurendada seda üksnes juhul, kui te ei saavuta aktsepteeritavat jõudlust. Lõimede arv, mida see protsess kasutab, ei saa ületada pakktöötluse serverile saadaval protsessorite arvu. Kui määrate siin liiga palju lõime, võite mõjutada teist pakktöötlust. | See parameeter reguleerib kannete arvu, mida saab antud kaupluses samal ajal kinnitada. |
 
 > [!NOTE]
 > Kõik väljavõtte sisestamisega seotud ja poodide lehel ning lehel **Commerce’i parameetrid** määratud sätted ja parameetrid kehtivad väljavõtte sisestamise täiustatud funktsioonile.
@@ -125,17 +124,17 @@ Väljavõte läbib mitu toimingut (nt loomine, arvutamine, tühjendamine ja sise
 
 ### <a name="aggregated-transactions"></a>Koondatud kanded
 
-Konteerimisprotsessi käigus koondatakse sularaha- ja kandekanded kliendi ja toote järgi. Seetõttu vähendatakse loodavate müügitellimuste ja ridade arvu. Koondkanded salvestatakse süsteemi ja neid kasutatakse müügitellimuste loomiseks. Iga koondatud kanne loob süsteemis ühe vastava müügitellimuse. 
+Sisestusprotsessi käigus koondatakse sularaha- ja kandekanded kliendi ja toote järgi. Seega vähendatakse müügitellimuste ja loodud ridade arvu. Koondkanded talletatakse süsteemis ja kasutatakse müügitellimuste loomiseks. Iga koondatud kanne loob süsteemis ühe vastava müügitellimuse. 
 
-Kui väljavõte pole täielikult sisestatud, saate väljavõttes vaadata koondkandeid. Valige toimingupaani menüü Avaldus jaotises Täitmise üksikasjad **suvand** Summeeritud kanded **.** **·**
+Kui väljavõtet ei sisestata täielikult, saate väljavõttes vaadata koondkandeid. Valige tegevuspaani vahekaardil **Väljavõte** grupi Käivitamise üksikasjad **suvand** Liidetud **kanded**.
 
-![Täielikult sisestamata väljavõtte koondkannete nupp.](media/aggregated-transactions.png)
+![Koondkannete nupp väljavõtte jaoks, mis ei ole täielikult sisestatud.](media/aggregated-transactions.png)
 
-Sisestatud väljavõtete puhul saate vaadata koondkandeid **lehel Konteeritud väljavõtted**. Valige toimingupaanil **Päringud** ja seejärel suvand **Liitkanded**.
+Sisestatud väljavõtete puhul saate vaadata liidetud kandeid **lehel Sisestatud väljavõtted**. Tegevuspaanil valige **Päringud ja** seejärel valige Liidetud **kanded**.
 
 ![Sisestatud väljavõtete koondkannete käsk.](media/aggregated-transactions-posted-statements.png)
 
-Liitkande **kiirkaardil Müügitellimuse üksikasjad** kuvatakse järgmine teave.
+Liidetud **kande müügitellimuse** üksikasjade kiirkaart näitab järgmist teavet:
 
 - **Kirje ID** – koondatud kande ID.
 - **Väljavõtte number** – väljavõte, mille juurde koondatud kanne kuulub.
@@ -144,33 +143,33 @@ Liitkande **kiirkaardil Müügitellimuse üksikasjad** kuvatakse järgmine teave
 - **Koondatud ridade arv** – koondatud kande ja müügitellimuse ridade koguarv.
 - **Olek** – koondatud kande viimane olek.
 - **Arve ID** – kui koondatud kande müügitellimuse kohta koostatakse arve, on see müügiarve ID. Kui see väli on tühi, ei ole müügitellimuse kohta arvet veel sisestatud.
-- **Tõrkekood** – see väli on seatud, kui liitmine on tõrkeolekus.
-- **Tõrketeade** – see väli on seatud, kui liitmine on tõrkeolekus. See näitab üksikasju selle kohta, mis põhjustas protsessi ebaõnnestumise. Probleemi lahendamiseks saate kasutada tõrkekoodis olevat teavet ja seejärel protsessi käsitsi taaskäivitada. Olenevalt lahenduse tüübist tuleb liitmüük kustutada ja töödelda uuel väljavõttel.
+- **Tõrkekood** – see väli seatakse, kui liitmisel on vea olek.
+- **Veateade** – see väli seatakse, kui liitmisel on vea olek. See näitab üksikasju protsessi nurjumise põhjuste kohta. Probleemi lahendamiseks saate kasutada tõrkekoodi teavet ja seejärel taaskäivitage protsess käsitsi. Olenevalt otsuse tüübist võib olla vaja koondmüük kustutada ja töödelda uuel väljavõttel.
 
-![Liitkande kiirkaardi Müügitellimus üksikasjad väljad.](media/aggregated-transactions-error-message-view.png)
+![Koondkande müügitellimuse üksikasjade kiirkaardi väljad](media/aggregated-transactions-error-message-view.png)
 
-Liitkande **kiirkaardil Kanne üksikasjad** kuvatakse kõik summeeritud kandesse tõmmatud kanded. Koondatud kande koondread kuvavad kannete koondatud kirjed. Koondread kuvavad ka üksikasjad, näiteks kauba, variandi, koguse, hinna, netosumma, ühiku ja lao. Põhimõtteliselt vastab iga koondrida ühele müügitellimuse reale.
+Liidetud **kande** kande üksikasjade kiirkaart näitab kõiki kandeid, mis on koondkandesse võetud. Koondatud kande koondread kuvavad kannete koondatud kirjed. Koondread kuvavad ka üksikasjad, näiteks kauba, variandi, koguse, hinna, netosumma, ühiku ja lao. Põhimõtteliselt vastab iga koondrida ühele müügitellimuse reale.
 
-![Koondkande kiirkaart Kande üksikasjad.](media/aggregated-transactions-sales-details.png)
+![Liidetud kande kande üksikasjade kiirkaart](media/aggregated-transactions-sales-details.png)
 
-Mõnel juhul ei pruugi koondkanded konsolideeritud müügitellimust konteerida. Sellistel juhtudel seostatakse väljavõtte olekuga tõrkekood. Ainult vigadega koondkannete vaatamiseks saate lubada **koondkannete vaates filtri Näita ainult tõrkeid**, märkides märkeruudu. Selle filtri lubamisega piirate tulemid koondkannetega, millel on lahendamist nõudvaid vigu. Nende tõrgete parandamise kohta leiate teavet teemast [Veebitellimuse ja asünkroonsete klienditellimuse kannete](edit-order-trans.md) redigeerimine ja auditeerimine.
+Mõnel juhul võib konsolideeritud müügitellimuse sisestamine koondkannetega nurjuda. Sellises olukorras seostatakse tõrkekood väljavõtte olekuga. Ainult tõrgetega koondkannete vaatamiseks **saate ruudu märkimisega lubada kuvada ainult tõrgete kuvamise filtri koondkannete vaates**. Selle filtri lubamisega piirate tulemusi liidetud kannetega, mille tõrked vajavad lahendamist. Teavet nende tõrgete lahendamise kohta vt võrgutellimuse [redigeerimine ja auditeerimine ning asünkroonsed klienditellimuse kanded](edit-order-trans.md).
 
-![Märkeruut Kuva ainult tõrked filter koondkannete vaates.](media/aggregated-transactions-failure-view.png)
+![Ainult tõrgete kuvamise filtri märkeruut koondkannete vaates.](media/aggregated-transactions-failure-view.png)
 
-**Lehel Koondkanded** saate XML-i alla laadida kindla koondkande jaoks, valides suvandi **Ekspordi koondandmed**. XML-i saate vaadata mis tahes XML-vormingus, et näha tegelikke andmeandmeid, mis hõlmavad müügitellimuse loomist ja konteerimist. Koondatud kannete XML-i allalaadimise funktsioon ei ole saadaval sisestatud väljavõtete jaoks.
+Liidetud **kannete lehel** saate alla laadida konkreetse liidetud kande XML-i, valides ekspordi **liitmisandmed**. XML-i saate üle vaadata mis tahes XML-i vormindajaga, et vaadata tegelikke andme üksikasju, mis hõlmavad müügitellimuse loomist ja sisestamist. Koondatud kannete XML-i allalaadimise funktsioon ei ole saadaval sisestatud väljavõtete jaoks.
 
-![Ekspordi liitmisandmete nupp lehel Koondkanded.](media/aggregated-transactions-export.png)
+![Liitmisandmete nupu eksportimine lehel Liidetud kanded](media/aggregated-transactions-export.png)
 
-Kui viga ei saa parandada müügitellimuse andmete või müügitellimust toetavate andmete parandamisega, **on saadaval nupp Kustuta klienditellimus**. Tellimuse kustutamiseks valige nurjunud koondkanne ja seejärel valige **Kustuta klienditellimus**. Kustutatakse nii koondkanne kui ka vastav müügitellimus. Nüüd saate kanded üle vaadata redigeerimis- ja auditeerimisfunktsiooni abil. Teise võimalusena saab neid uue avalduse kaudu ümber töödelda. Pärast kõigi tõrgete parandamist saate jätkata väljavõtte konteerimist, käivitades vastava väljavõtte väljavõtte funktsiooni.
+Kui te ei saa tõrget parandada, parandades müügitellimuse andmeid või müügitellimust toetavaid andmeid, **on** saadaval nupp Kustuta kliendi tellimus. Tellimuse kustutamiseks valige nurjunud liidetud kanne ja seejärel valige suvand **Kustuta klienditellimus**. Nii liidetud kanne kui ka vastav müügitellimus kustutatakse. Nüüd saate kandeid üle vaadata, kasutades redigeerimise ja auditeerimise funktsioone. Teise võimalusena saab neid uue väljavõtte kaudu uuesti töödelda. Kui kõik tõrked on parandatud, saate väljavõtte sisestamist jätkata, käivitades vastava väljavõtte jaoks funktsiooni Väljavõtte sisestamine.
 
-![Klienditellimuse nupu kustutamine koondkannete vaates.](media/aggregated-transactions-delete-cust-order.png)
+![Kliendi tellimuse nupu kustutamine koondkannete vaates](media/aggregated-transactions-delete-cust-order.png)
 
-Koondkannete vaates on järgmised eelised.
+Koondatud kannete vaade pakub järgmisi soodustusi.
 
 - Kasutajal on ülevaade koondatud kannetest, mis nurjusid müügitellimuse loomise ajal, ja müügitellimustest, mis nurjusid arve koostamise ajal.
 - Kasutaja näeb, kuidas kandeid koondatakse.
 - Kasutajal on täielik kontrolljälg kannetest müügitellimuste ja müügiarveteni. See kontrolljälg ei olnud saadaval väljavõtte sisestamise pärandfunktsioonis.
-- Koond-XML-fail lihtsustab probleemide tuvastamist müügitellimuse loomise ja arvete esitamise ajal.
+- Liidetud XML-fail lihtsustab probleemide tuvastamist müügitellimuse loomise ja arveldamise ajal.
 
 ### <a name="journal-vouchers"></a>Töölehe kanded
 

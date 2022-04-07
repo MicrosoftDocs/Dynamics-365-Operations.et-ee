@@ -1,8 +1,8 @@
 ---
 title: Teadlikkus pearaamatu tasakaalustamise ja aastalõpu sulgemise vahel
-description: See teema annab teavet täiustuste kohta, mis mõjutavad pearaamatu tasakaalustusi ja pearaamatu aastalõpu sulgemist.
+description: Sellest teemast leiate teavet täiustuste kohta, mis mõjutavad pearaamatu tasakaalustusi ja pearaamatu aasta lõpu sulgemist.
 author: kweekley
-ms.date: 01/31/2022
+ms.date: 03/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,200 +13,199 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-01-31
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: acfbcf1467363262769884063efbc1a6d6e21eb1
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
-ms.translationtype: HT
+ms.openlocfilehash: e18f77d73239de23000b5310d9342c6db95bc524
+ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075730"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8462348"
 ---
 # <a name="awareness-between-ledger-settlement-and-year-end-close"></a>Teadlikkus pearaamatu tasakaalustamise ja aastalõpu sulgemise vahel
 
 [!include [banner](../includes/banner.md)]
 
-[!include [banner](../includes/preview-banner.md)]
 
-Microsofti Dynamics 365 Finance versioonis 10.0.25 **on pearaamatu tasakaalustuse ja aastalõpu sulgemisfunktsiooni** vaheline teadlikkus saadaval **funktsioonihalduse** tööruumis. See funktsioon lisab kaks peamist täiustust, mis mõjutavad pearaamatu tasakaalustuse ja pearaamatu aastalõpu sulgemist.
+Microsofti versioonis Dynamics 365 Finance 10.0.25 **on pearaamatu tasakaalustuse** ja aasta lõpu sulgemise funktsioon saadaval funktsioonihalduse **tööruumis**. See funktsioon lisab kaks peamist täiustust, mis mõjutavad pearaamatu tasakaalustust ja pearaamatu aasta lõpu sulgemist.
 
-Pearaamatu aastalõpu sulgemisel ei kaasata tasakaalustatud pearaamatukandeid enam järgmise finantsaasta algsaldosse. See täiustus tagab, et algsaldosse kaasatakse ainult lahendamata pearaamatukanded. See on oluline pearaamatu välisvaluuta ümberhindamise käivitamisel. Välisvaluuta ümberhindamist käitatakse ainult pearaamatukannete puhul, mille olek **pole tasakaalustatud**. Kuid enne **pearaamatu tasakaalustuse ja aastalõpu sulgemisfunktsiooni** teadlikkuse avaldamist võttis algsaldo kokku nii tehingu, mille olek **on Arveldatud**, kui ka need, mille olek **pole tasakaalus**, kui ka summeeritud summa olekuks **Määrati Tasakaalustamata**.
+Pearaamatu aasta sulgemise jooksul ei kaasata tasakaalustatud pearaamatukandeid enam järgmise rahandusaasta algsaldosse. See täiustus tagab, et algsaldosse kaasatakse ainult tasakaalustamata pearaamatukanded. On oluline pearaamatu välisvaluuta ümberarvutamise käivitamisel. Välisvaluuta ümberarvutamine käivitatakse ainult pearaamatu kannete puhul, mille olek on **Tasakaalustata**. Kuid enne pearaamatu **tasakaalustamise ja aasta lõpu sulgemise funktsiooni vahelist teadmist summeeriti algsaldo nii kandes,** **·** **mille olek on Tasakaalustatud kui ka need, mille olek on Tasakaalustamata ja** summeeritud summa olekuks seadistati Tasakaalustamata.**·**
 
-Teine täiustus võimaldab teil pearaamatu aasta lõpus sulgeda üksikasjalikud algsaldo kanded. **Kui suvandi Säilita üksikasjad aastalõpu sulgemise** ajal väärtuseks **on seatud Jah**, luuakse iga tasakaalustamatud andmikukande jaoks eraldi algsaldo. See säte on määratletud iga pearaamatu tasakaalustuse häälestuse põhikonto jaoks. Hoides algsaldo üksikasjalikke kandeid, parandate oluliselt võimet tasakaalustada järgmisel finantsaastal lahendamata pearaamatukandeid.
+Teine täiustus võimaldab teil pearaamatu aasta lõpu sulgemise ajal sisestada üksikasjalikud algsaldo kanded. Kui aasta **lõpu sulgemisel üksikasjade säilitamine** suvandi **väärtuseks** on seatud Jah, luuakse iga tasakaalustamata pearaamatukande jaoks eraldi algsaldo. See säte määratletakse pearaamatu tasakaalustuse seadistuses igale põhikontole. Säilitades algsaldo üksikasjalikke kandeid, parandate oluliselt tasakaalustamata pearaamatukannete tasakaalustamisvõimet järgmisel rahandusaastal.
 
-Uute täiustuste toetamiseks tehti pearaamatu tasakaalustuses ja aastalõpu sulgemises muudatusi.
+Uute täienduste toetamiseks tehti pearaamatu tasakaalustusse ja aasta lõpu sulgemisse muudatusi.
 
-### <a name="changes-to-ledger-settlement"></a>Pearaamatu tasakaalustuse muudatused
+### <a name="changes-to-ledger-settlement"></a>Pearaamatu tasakaalustamise muudatused
 
-- Pearaamatu tasakaalustus peab toimuma finantsaasta jooksul.
-- Pearaamatu tasakaalustamine tuleb teha ühel põhikontol tehtavate kannete puhul. Põhikonto on nüüd nõutav filter **lehel Pearaamatu tasakaalustus**.
-- Pearaamatu tasakaalustuse ja pearaamatu tasakaalustuse ümberpööramist ei saa teha suletud finantsaasta jooksul konteeritud kannete puhul (teisisõnu on aastalõpu sulgemine käivitatud).
+- Pearaamatu tasakaalustamine peab olema rahandusaasta sees.
+- Pearaamatu tasakaalustamine peab olema tehtud ühe põhikonto kannete puhul. Põhikonto on nüüd pearaamatu tasakaalustuse lehel nõutav **filter**.
+- Pearaamatu tasakaalustamist ja pearaamatu tasakaalustuse tagasipööramist ei saa teha kannete puhul, mis sisestatakse suletud rahandusaastasse (teisisõnu on aasta lõpu sulgemine käitatud).
 
-### <a name="changes-to-year-end-close"></a>Muudatused aastalõpu sulgemises
+### <a name="changes-to-year-end-close"></a>Aasta lõpu sulgemise muudatused
 
-- Aastalõpu sulgemist ei saa tagasi pöörata, kui järgmisel finantsaastal on tasakaalustatud avasaldo tehinguid. See muudatus rakendub siis, kui aastalõpu sulgemine on tühistatud või kui aastalõpu sulgemine kordub ja **suvand Kustuta olemasolevad aastalõpukanded aasta** sulgemisel on pearaamatu parameetrites seatud **jah**.
-- Kui suvandi **Säilita üksikasjad aastalõpu sulgemise** ajal on pearaamatu tasakaalustuse mis tahes bilansikonto puhul seatud **Jah**, luuakse selle põhikonto jaoks üksikasjalikumad algsaldo kanded.
+- Aasta lõpu sulgemist ei saa tagasi pöörata, kui järgmises rahandusaastas on tasakaalustatud mis tahes algsaldo kandeid. See muudatus kehtib aasta lõpu sulgemise tühistamisel **või** **aasta** lõpu sulgemise uuestikäivitusel ja olemasolevate aasta lõpu kirjete kustutamisel aasta sulgemisel on aasta sulgemisel seatud suvandile Jah pearaamatu parameetrites.
+- Kui aasta **lõpu sulgemisel üksikasjade säilitamine** **valik** on pearaamatu tasakaalustuses mis tahes bilansikonto puhul seatud väärtusele Jah, luuakse sellele põhikontole üksikasjalikumad algsaldo kanded.
 
 ## <a name="before-you-enable-the-feature"></a>Enne funktsiooni lubamist
 
-Funktsionaalsuse ja andmemudeli muutuste tõttu on oluline enne funktsiooni lubamist arvestada järgmiste punktidega.
+Funktsiooni ja andmemudeli muudatuste tõttu on oluline arvestada enne funktsiooni lubamist järgmisi punkte:
 
-- Kõik kanded, mis on märgitud tasakaalustamiseks, kuid pole tasakaalustatud, märgitakse funktsiooni lubamisel automaatselt märkimata. Töökaotuse vältimiseks tasakaalustage kõik märgitud kanded enne funktsiooni lubamist.
-- Mõned organisatsioonid käivitavad sama finantsaasta aasta sulgemist mitu korda. Ärge lubage funktsiooni, kui aastalõpu sulgemine on juba üks kord käivitatud ja seda käitatakse uuesti samal finantsaastal. Funktsioon peab olema lubatud enne esimese aastalõpu sulgemist või pärast finantsaasta viimase aasta lõpu sulgemist.
+- Kui funktsioon on lubatud, tühjendatakse automaatselt kõik tasakaalustamiseks märgitud, kuid tasakaalustamata kanded. Töö kaotsimineku vältimiseks tasakaalustage kõik märgitud kanded enne funktsiooni lubamist.
+- Mõned organisatsioonid käitavad aasta lõpu sulgemist mitu korda samale rahandusaastale. Ärge lubage funktsiooni, kui aasta lõpu sulgemine on juba kord käitatud ja see käivitatakse uuesti sama rahandusaasta kohta. See funktsioon peab olema lubatud enne esimese aasta lõpu sulgemise või pärast finantsaasta eelmise aasta lõpu sulgemise protsessi.
 
-  Kui soovite funktsiooni lubada, kuid aastalõpu sulgemine on juba üks kord käivitatud, peate enne funktsiooni lubamist aastalõpu sulgema.
+  Kui soovite funktsiooni lubada, kuid aasta lõpu sulgemist on juba korra käitatud, peate enne funktsiooni lubamist aasta lõpu sulgemise tühistama.
 
-- Kuna tasakaalustamine eelarveaastate lõikes pole enam lubatud, soovitame selle funktsiooni enne aastalõpu sulgemisprotsessi alustamist lubada. Selleks, et tagada, et eelmised finantsaastatevahelised arveldused ei mõjutaks järgmise majandusaasta algsaldosid, tuleks algsaldo kanne tasakaalustada lõpetatava finantsaasta jaoks.
-- Kuna põhikontode tasakaalustamine pole enam lubatud, kohandage oma kontoplaani või protsesse vastavalt vajadusele, et pearaamatu tasakaalustamist saaks teha samal põhikontol.
-- Funktsiooni ei saa lubada, kui kasutatakse avaliku sektori aastalõpu sulgemisprotsessi.
+- Kuna tasakaalustus rahandusaastate vahel pole enam lubatud, on soovitatav see funktsioon enne aasta lõpetamise sulgemisprotsessi alustamist lubada. Seejärel, kindlustamaks, et eelmised rist-rahandusaasta tasakaalustused ei mõjutaks järgmise rahandusaasta algsaldosid, tuleks algsaldo kanne tasakaalustada suletuks finantsaastaks.
+- Kuna tasakaalustamine põhikontode vahel pole enam lubatud, korrigeerige vastavalt vajadusele oma kontoplaani või protsesse, et tagada pearaamatu tasakaalustamine sama põhikontoga.
+- Seda funktsiooni ei saa lubada, kui kasutatakse avaliku sektori aasta lõpetamise protsessi.
 
-## <a name="set-up-ledger-settlement"></a>Pearaamatu tasakaalustuse häälestamine
+## <a name="set-up-ledger-settlement"></a>Seadista pearaamatu tasakaalustamine
 
-Pärast funktsiooni lubamist ja enne järgmise aastalõpu sulgemist peab iga organisatsioon kindlaks tegema, kas ta hoiab tehingu üksikasjad aasta lõpus lähedal. Valik ei mõjuta eelmiste aastalõpu sulgemisprotsesside algsaldo postitusi.
+Pärast funktsiooni lubamist ja enne järgmise aasta lõpu sulgemise käivitamist peab iga organisatsioon otsustama, kas kande üksikasjad aasta lõpus suletakse. Valik ei mõjuta algsaldo sisestamisi eelmistest aasta lõpu sulgemisprotsessidest.
 
-Suvand **Säilita üksikasjad aastalõpu sulgemise** ajal on seatud igale põhikontole **lehel Pearaamatu tasakaalustuse häälestus**.
+Aasta **lõpu sulgemisel üksikasjade alles seadmine** on seadistatud igale pearaamatu tasakaalustuse häälestuse lehel olevale **põhikontole**.
 
-1.  **Avage pearaamatu** > **ledger setupGeneral** > **ledger parameters**.
-2.  Valige vahekaardil **Pearaamatu tasakaalustused** suvand **Pearaamatu tasakaalustuskontod**.
+1.  Minge pearaamatu **pearaamatu pearaamatu** > **seadistuseGeneral** > **pearaamatu parameetritesse**.
+2.  Valige vahekaardil **Pearaamatu tasakaalustused** suvand Pearaamatu **tasakaalustuskontod**.
 
 - või -
 
-1.  **Avage pearaamatPeriodsed** > **ülesandedLedgeri** > **tasakaalustused**.
-2.  Valige **Pearaamatu tasakaalustuskontod**.
+1.  Minge general **ledgerPeriodic** > **tasksLedger** > **tasakaalustustele**.
+2.  Saate valida **pearaamatu tasakaalustuskontod**.
 
-Lehele Pearaamatu tasakaalustused **on lisatud** kaks veergu.
+Pearaamatu tasakaalustuste lehele on lisatud **kaks veergu**:
     
-- **Peamine konto tüüp** – see veerg on mõeldud ainult informatiivsetel eesmärkidel. See näitab põhikontole määratud tüüpi.
-- **Hoidke aasta lõpus üksikasjad lähedal** – vaikimisi on suvandi väärtuseks **seatud Ei**. Seda saab seadistada **Jah** ainult siis, kui väärtus on **Põhikonto tüüp** veerg on **Eelarve**, **·**, või **Vastutus**. Kui suvand on seatud **Ei**, postitatakse algsaldod kokkuvõttes, nagu tavaliselt aastalõpu sulgemisel. Kui see on seatud **Jah**, luuakse algsaldod üksikasjalikult iga peakonto tehingu kohta, mida põhikontol ei arveldata.
+- **Põhikonto** tüüp – see veerg on ainult teabelise eesmärgiga. See näitab põhikontole määratud tüüpi.
+- **Säilita üksikasjad aasta lõpus sulgemisel** – vaikimisi on suvandi väärtuseks **Ei**. Väärtuseks saab seada **Jah** ainult juhul, kui põhikonto **tüübi veerus on** **väärtus Bilanss**, **Vara** või **Kohustus**. Kui valiku väärtuseks on määratud **Ei**, sisestatakse algsaldod kokkuvõttena, nagu seda tüüpiline aasta lõpu sulgemisel. Kui see on seatud väärtusele **Jah**, luuakse üksikasjalikult algsaldod iga pearaamatukande kohta, mis pole põhikonto puhul tasakaalustatud.
 
 ## <a name="year-end-close"></a>Aastalõpu sulgemine
 
-Kui jooksed aastalõpu lähedale minnes **Pearaamat** > **Periood sulgub** > **Aasta lõpp**, loob protsess põhikontode algsaldod, mis on määratletud pearaamatu arveldamiseks. Algsaldod luuakse kas kokkuvõtlikult või üksikasjalikult, olenevalt pearaamatu arvelduse seadistusest. Protsess välistab arveldatud pearaamatutehingud, olenemata sellest, kas konteerite iga põhikonto algsaldo kokkuvõtlikult või üksikasjalikult.
+Kui käivitate aasta lõpu sulgemise **, sulgedes aasta lõpus General ledgerPeriodYeari** > **·** > **sulgemise**, loob protsess pearaamatu tasakaalustamiseks määratletud põhikontode algsaldod. Algsaldod luuakse kas kokkuvõttena või üksikasjadena, sõltuvalt pearaamatu tasakaalustuse seadistusest. Protsess ei hõlma tasakaalustatud pearaamatukandeid, sõltumata sellest, kas sisestate iga põhikonto algsaldo kokkuvõttena või üksikasjalikult.
 
-Näiteks 2021. eelarveaastal postitatakse mitu tehingut põhikontole 130100.
+Näiteks sisestatakse mitu tehingut põhikontole 130100 2021.
 
-| Töölehe kood | Vautšer  | Kuupäev       | Tüüp      | Pearaamatukonto | Konto nimi        | Kirjeldus       | Valuuta | Summa kandevaluutas | Summa  | Summa aruandlusvaluutas |
+| Töölehe number | Vautšer  | Kuupäev       | Tüüp      | Pearaamatukonto | Konto nimi        | Kirjeldus       | Valuuta | Summa kandevaluutas | Summa  | Summa aruandlusvaluutas |
 |----------------|----------|------------|-----------|----------------|---------------------|-------------------|----------|--------------------------------|---------|------------------------------|
-| 20853          | FTV-3000 | 3.12.2021  | Kasutusel | 130100-001-    | Müügireskontro | Teenustasu       | USA dollar      | 100                            | 100     | 100                          |
-| 20855          | FTV-3004 | 5.12.2021  | Kasutusel | 130100-002-    | Müügireskontro | Kommunaalteenused         | USA dollar      | 175                            | 175     | 175                          |
-| 20854          | CMV-4000 | 16.12.2021 | Kasutusel | 130100-001-    | Müügireskontro | Tagasimakse            | USA dollar      | -100                           | -100    | -100                         |
-| 20851          | ARP‑8000 | 20.12.2021 | Kasutusel | 130100-002-    | Müügireskontro |                   | USA dollar      | -0,88                          | -0,88   | -0,88                        |
-| 20853          | ARPM0004 | 20.12.2021 | Kasutusel | 130100-002-    | Müügireskontro |                   | EUR      | -127.11                        | -174.12 | -174.12                      |
-| 20856          | CMV-4010 | 21.12.2021 | Kasutusel | 130100-002-    | Müügireskontro | Krediit arvel | USA dollar      | -175                           | -175    | -175                         |
-| 20857          | FTV-3011 | 28.12.2021 | Kasutusel | 130100-001-    | Müügireskontro | Kommunaalteenused         | USA dollar      | 400                            | 400     | 400                          |
-| 20910          | FTV-3020 | 29.12.2021 | Kasutusel | 130100-002-    | Müügireskontro | Teenindus           | USA dollar      | 300                            | 300     | 300                          |
+| 20853          | FTV-3000 | 12/3/2021  | Kasutusel | 130100-001-    | Müügireskontro | Teenustasu       | USA dollar      | 100                            | 100     | 100                          |
+| 20855          | FTV-3004 | 12/5/2021  | Kasutusel | 130100-002-    | Müügireskontro | Utilities         | USA dollar      | 175                            | 175     | 175                          |
+| 20854          | CMV-4000 | 12/16/2021 | Kasutusel | 130100-001-    | Müügireskontro | Tagasimakse            | USA dollar      | -100                           | -100    | -100                         |
+| 20851          | ARP‑8000 | 12/20/2021 | Kasutusel | 130100-002-    | Müügireskontro |                   | USA dollar      | -0.88                          | -0.88   | -0.88                        |
+| 20853          | ARPM0004 | 12/20/2021 | Kasutusel | 130100-002-    | Müügireskontro |                   | EUR      | -127.11                        | -174.12 | -174.12                      |
+| 20856          | CMV-4010 | 12/21/2021 | Kasutusel | 130100-002-    | Müügireskontro | Krediit kontol | USA dollar      | -175                           | -175    | -175                         |
+| 20857          | FTV-3011 | 12/28/2021 | Kasutusel | 130100-001-    | Müügireskontro | Utilities         | USA dollar      | 400                            | 400     | 400                          |
+| 20910          | FTV-3020 | 12/29/2021 | Kasutusel | 130100-002-    | Müügireskontro | Teenindus           | USA dollar      | 300                            | 300     | 300                          |
 
-Nendest tehingutest kolm arveldatakse pearaamatu arvelduse käigus.
+Nendest kannetest tasakaalustatakse pearaamatu tasakaalustamisel kolm.
 
-Olemas arve 175 USA dollarit (175 USD). See arve tasuti eurodes (EUR) maksega ja võeti sularahasoodustus.
+On olemas arve 175 USD-le (175 USD- d). See arve tasuti maksega eurodes (EUR) ja skonto võeti.
 
-| Töölehe kood | Vautšer  | Kuupäev       | Tüüp      | Pearaamatukonto | Konto nimi        | Kirjeldus | Valuuta | Summa kandevaluutas | Summa  | Summa aruandlusvaluutas |
+| Töölehe number | Vautšer  | Kuupäev       | Tüüp      | Pearaamatukonto | Konto nimi        | Kirjeldus | Valuuta | Summa kandevaluutas | Summa  | Summa aruandlusvaluutas |
 |----------------|----------|------------|-----------|----------------|---------------------|-------------|----------|--------------------------------|---------|------------------------------|
-| 20855          | FTV-3004 | 5.12.2021  | Kasutusel | 130100-002-    | Müügireskontro | Kommunaalteenused   | USA dollar      | 175                            | 175     | 175                          |
-| 20851          | ARP‑8000 | 20.12.2021 | Kasutusel | 130100-002-    | Müügireskontro |             | USA dollar      | -0,88                          | -0,88   | -0,88                        |
-| 20853          | ARPM0004 | 20.12.2021 | Kasutusel | 130100-002-    | Müügireskontro |             | EUR      | -127.11                        | -174.12 | -174.12                      |
+| 20855          | FTV-3004 | 12/5/2021  | Kasutusel | 130100-002-    | Müügireskontro | Utilities   | USA dollar      | 175                            | 175     | 175                          |
+| 20851          | ARP‑8000 | 12/20/2021 | Kasutusel | 130100-002-    | Müügireskontro |             | USA dollar      | -0.88                          | -0.88   | -0.88                        |
+| 20853          | ARPM0004 | 12/20/2021 | Kasutusel | 130100-002-    | Müügireskontro |             | EUR      | -127.11                        | -174.12 | -174.12                      |
 
-Põhikonto 130100 tulemused sõltuvad sellest, kas funktsioon on lubatud enne aastalõpu sulgemist. Kui funktsioon on lubatud, sõltub tulemus ka suvandi Säilita detail aastalõpu sulgemise ajal sättest.
+Põhikonto funktsiooni tulemused 130100 sellest, kas funktsioon on lubatud enne aasta lõpu sulgemise käivitamist. Kui see funktsioon on lubatud, sõltub tulemus ka aasta lõpu sulgemisel üksikasjade säilita üksikasjade sättest.
 
 ### <a name="the-feature-isnt-enabled"></a>Funktsioon pole lubatud
-Aastalõpu sulgemine loob 2022. aastal põhikonto 130100 kolm algsaldo tehingut. Arvestusvaluutas tehtud tehingute summa on USD 525.
+Aasta lõpu sulgemine loob 2022. aastal põhikonto jaoks 130100 algsaldo kande. Kannete summa arvestusvaluutas on USD 525.
 
-| Töölehe kood | Vautšer  | Kuupäev     | Tüüp    | Pearaamatukonto | Konto nimi        | Kirjeldus | Valuuta | Summa kandevaluutas | Summa  | Summa aruandlusvaluutas |
+| Töölehe number | Vautšer  | Kuupäev     | Tüüp    | Pearaamatukonto | Konto nimi        | Kirjeldus | Valuuta | Summa kandevaluutas | Summa  | Summa aruandlusvaluutas |
 |----------------|----------|----------|---------|----------------|---------------------|-------------|----------|--------------------------------|---------|------------------------------|
 | 20910          | YEC_2021 | 1.1.2022 | Algsaldo | 130100-002-    | Müügireskontro |             | USA dollar      | 299.12                         | 299.12  | 299.12                       |
 | 20910          | YEC_2021 | 1.1.2022 | Algsaldo | 130100-001-    | Müügireskontro |             | USA dollar      | 400                            | 400     | 400                          |
 | 20910          | YEC_2021 | 1.1.2022 | Algsaldo | 130100-002-    | Müügireskontro |             | EUR      | -127.11                        | -174.12 | -174.12                      |
 
-Kuigi maksetehing summas -127,11 eurot arveldati, tuleb tehing siiski algsaldo.
+Isegi kui makse kanne -127,11 eurot-11-ks tasakaalustati, jääb kanne algsaldoks edasi.
 
-### <a name="feature-is-enabled-and-keep-detail-during-year-end-close--no"></a>Funktsioon on lubatud ja Säilita üksikasju aastalõpu sulgemise ajal = Ei
+### <a name="feature-is-enabled-and-keep-detail-during-year-end-close--no"></a>Funktsioon on lubatud ja säilita üksikasjad aasta lõpus sulgemisel = Ei
 
-Aastalõpu sulgemine loob 2022. aastal põhikonto 130100 kaks algsaldo tehingut. Arvestusvaluutas tehtud tehingute summa on endiselt USD 525, kuid pearaamatus arveldatud tehingud jäetakse algsaldost välja. Konto 130100-002- kogusumma on USD 299.12 asemel USD 125 ja tehing 127,11 EUR/174,12 USD on täielikult välistatud.
+Aasta lõpu sulgemine loob 2022. aastal põhikonto jaoks 130100 algsaldo kande. Kannete summa arvestusvaluutas on endiselt USD 525, kuid pearaamatuga tasakaalustatud kanded jäetakse algsaldost välja. Konto kogusumma on 130100-002- USD 125 asemel USD 299.12 ja 127,11 EUROT 174,12 eurot kanne on täielikult välja jäetud.
 
-| Töölehe kood | Vautšer  | Kuupäev     | Tüüp    | Pearaamatukonto | Konto nimi        | Kirjeldus | Valuuta | Summa kandevaluutas | Summa | Summa aruandlusvaluutas |
+| Töölehe number | Vautšer  | Kuupäev     | Tüüp    | Pearaamatukonto | Konto nimi        | Kirjeldus | Valuuta | Summa kandevaluutas | Summa | Summa aruandlusvaluutas |
 |----------------|----------|----------|---------|----------------|---------------------|-------------|----------|--------------------------------|--------|------------------------------|
 | 20910          | YEC_2021 | 1.1.2022 | Algsaldo | 130100-002-    | Müügireskontro |             | USA dollar      | 125                            | 125    | 125                          |
 | 20910          | YEC_2021 | 1.1.2022 | Algsaldo | 130100-001-    | Müügireskontro |             | USA dollar      | 400                            | 400    | 400                          |
 
-### <a name="feature-is-enabled-and-keep-detail-during-year-end-close--yes"></a>Funktsioon on lubatud ja Säilita üksikasju aastalõpu sulgemise ajal = Jah
+### <a name="feature-is-enabled-and-keep-detail-during-year-end-close--yes"></a>Funktsioon on lubatud ja säilita üksikasjad aasta lõpus sulgemisel = Jah
 
-Aastalõpu sulgemine loob 2022. aastal põhikontole 130100 viis algsaldo tehingut. Iga viie arveldamata tehingu jaoks luuakse eraldi algsaldo tehing. Arvestusvaluutas tehtud tehingute summa on endiselt USD 525.
+Aasta lõpu sulgemine loob 2022. aastal põhikonto jaoks 130100 algsaldo kande. Viie tasakaalustamata kande jaoks luuakse eraldi algsaldo kanne. Arvestusvaluutas kannete summa pole veel USD 525.
 
-| Töölehe kood | Vautšer  | Kuupäev     | Tüüp    | Pearaamatukonto | Konto nimi        | Kirjeldus       | Valuuta | Summa kandevaluutas | Summa | Summa aruandlusvaluutas |
+| Töölehe number | Vautšer  | Kuupäev     | Tüüp    | Pearaamatukonto | Konto nimi        | Kirjeldus       | Valuuta | Summa kandevaluutas | Summa | Summa aruandlusvaluutas |
 |----------------|----------|----------|---------|----------------|---------------------|-------------------|----------|--------------------------------|--------|------------------------------|
 | 20910          | YEC_2021 | 1.1.2022 | Algsaldo | 130100-001-    | Müügireskontro | Teenustasu       | USA dollar      | 100                            | 100    | 100                          |
 | 20910          | YEC_2021 | 1.1.2022 | Algsaldo | 130100-001-    | Müügireskontro | Tagasimakse            | USA dollar      | -100                           | -100   | -100                         |
-| 20910          | YEC_2021 | 1.1.2022 | Algsaldo | 130100-002-    | Müügireskontro | Krediit arvel | USA dollar      | -175                           | -175   | -175                         |
-| 20910          | YEC_2021 | 1.1.2022 | Algsaldo | 130100-001-    | Müügireskontro | Kommunaalteenused         | USA dollar      | 400                            | 400    | 400                          |
+| 20910          | YEC_2021 | 1.1.2022 | Algsaldo | 130100-002-    | Müügireskontro | Krediit kontol | USA dollar      | -175                           | -175   | -175                         |
+| 20910          | YEC_2021 | 1.1.2022 | Algsaldo | 130100-001-    | Müügireskontro | Utilities         | USA dollar      | 400                            | 400    | 400                          |
 | 20910          | YEC_2021 | 1.1.2022 | Algsaldo | 130100-002-    | Müügireskontro | Teenindus           | USA dollar      | 300                            | 300    | 300                          |
 
-Kui tehingu üksikasjad säilitatakse, ei mõjuta see esialgseid üksikasjalikke tehinguid. Need jäävad suletaval eelarveaastal postitatud ja lahendamata. Nende tehingute koopia luuakse algsaldo jaoks. Algsaldo tehingutesse kopeeritakse järgmised algsete tehingute väärtused.
+Kui kande üksikasjad säilitatakse, siis algseid üksikasjalikke kandeid ei mõjutata. Need jäävad suletuks finantsaastal sisestatud ja tasakaalustamata. Nende kannete koopia luuakse algsaldo jaoks. Järgmised väärtused originaalkannetest kopeeritakse algsaldo kannetesse.
 
 - Pearaamatukonto (põhikonto ja kõik finantsdimensioonid)
-- Summad tehingu-, raamatupidamis- ja aruandlusvaluutas
+- Summad kandes, raamatupidamises ja aruandlusvaluutades
 - Kirjeldus
 - Sisestamiskiht
 - Sisestamistüüp
 
    > [!NOTE]
-   > Ühelegi teisele algsaldo tehingule ei ole määratud konteerimistüüpi. Seetõttu saab konteerimistüüpi kasutada üksikasjalikult esile toodud avamistehingute eristamiseks.
+   > Ühelegi muule algsaldo kandele pole sisestustüüpi määratud. Seetõttu saab sisestamistüüpi kasutada üksikasjades edasi suunatud eristamiseks avamiskannetest.
 
-Algsaldo üksikasjalikes tehingutes peavad mõned algsete tehingute väljad muutuma. Algsaldo tehingute kuupäev on alati järgmise eelarveaasta esimene päev. Ajakirja number peab muutuma ja vautšeri number muutub aastalõpu sulgemise dialoogiboksi sisestatud väärtuseks.
+Mõned algsete kannete väljad peavad algsaldo üksikasjalikes kannetes muutma. Algsaldo kannete kuupäev on alati järgmise rahandusaasta esimene päev. Töölehe kood peab olema muutunud ja kande number muutub aasta lõpu sulgemise dialoogiboksis sisestatud väärtuseks.
 
-Teavet algsete tehingute kohta leiate aadressilt **Pearaamatu arveldus** lehel. Iga üksikasjalik algsaldo tehing näitab **Algne tehingukuupäev** veerus ruudustikus. See veerg aitab teil uue eelarveaasta tehinguid sobitada. Saate valida **Vaata originaalvoucherit** naasmiseks täieliku originaalvautšeri juurde.
+Teavet algsete kannete kohta leiate pearaamatu tasakaalustuste **lehelt**. Iga üksikasjalik algsaldo kanne näitab **ruudustikus algse** kande kuupäeva veergu. See veerg aitab vastendada kandeid uuel rahandusaastal. Saate valida vaate **originaalkande, et** minna tagasi algse kande juurde.
 
 ## <a name="settle-transactions"></a><a name="settle-transactions"></a>Kannete tasakaalustamine
 Pearaamatu kannete tasakaalustamiseks toimige järgmiselt.
 
-1. **Avage pearaamatPeriodsed** > **ülesandedLedgeri** > **tasakaalustused**.
-2.  Määrake lehe ülaosas olevad filtrid.
+1. Minge general **ledgerPeriodic** > **tasksLedger** > **tasakaalustustele**.
+2.  Seadke lehekülje ülaosas filtrid.
 
-    1. Kuupäevavahemiku valimine. Teise võimalusena valige kuupäevavahemiku automaatseks täitmiseks kuupäevavahemiku kood.
+    1. Kuupäevavahemiku valimine. Teise võimalusena valige kuupäevavahemiku kood, et kuupäevavahemik automaatselt täita.
 
-       - Kuupäevavahemik ei tohi ületada eelarveaastaid. Kui kuupäevavahemik ületab eelarveaastaid, siis valiku tegemisel tehinguid ei kuvata **Kuva tehingud**.
-       - Kui kuupäevavahemik on avatud eelarveaastal, saab tehinguid arveldada ja arvelduse tühistada. Kui kuupäevavahemik on suletud eelarveaastal või kui aastalõpu sulgemine on lõppenud, näidatakse tehinguid, kuid neid ei saa arveldada ega arveldamata. Tehingute märgistuse saate tühistada ainult suletud eelarveaastal. Kui kuupäevavahemik on suletud eelarveaastasse, **Märgi valituks**, **märgitud tehingud**, ja **Pöördmärgistatud tehingud** nupud pole saadaval.
+       - Kuupäevavahemik ei saa finantsaastaid ületada. Kui kuupäevavahemik ületab rahandusaastad, siis kuva kannete kuvamisel kandeid ei **kuvata**.
+       - Kui kuupäevavahemik on avatud rahandusaastas, saab kandeid tasakaalustada ja tasakaalustuse saab tühistada. Kui kuupäevavahemik on suletud rahandusaastas või kui aasta lõpu sulgemine on lõpetatud, siis kuvatakse kanded, kuid neid ei saa tasakaalustada ega tasakaalustamata. Kannete märke saate eemaldada ainult suletud rahandusaastal. Kui kuupäevavahemik on suletud rahandusaastas, **ei** ole nupud Märgi valitud, **·** **Tasakaalusta märgitud kanded ja Tühistatud** märgitud kanded saadaval.
 
-    2. Valige põhikonto, millega tehinguid näidata. See väli on kohustuslik. Otsing näitab ainult peamisi kontosid, mis on valitud **Pearaamatu arveldus** lehekülg ettevõtte kontoplaani jaoks.
-    3. Valige postitamiskiht. Te ei saa arveldada tehinguid, mis on erinevates postitamiskihtides.
-    4. Põhikonto ja dimensioonide kuvamiseks eraldi veergudes valige finantsdimensioonide komplekt.
+    2. Valige põhikonto, mille kandeid kuvada. See väli on kohustuslik. Otsing näitab ainult põhikontosid, mis on **valitud pearaamatu tasakaalustuse** lehel ettevõtte kontoplaani jaoks.
+    3. Valige sisestamiskiht. Te ei saa tasakaalustada kandeid, mis on erinevates sisestamiskihtides.
+    4. Põhikonto ja dimensioonide näitamiseks eraldi veergudes valige finantsdimensioonide kogum.
 
-3.  Valige **Kuva tehingud** et kuvada kõik tehingud, mis vastavad teie määratud filtritele. Filtrite või dimensioonikogumite muutmisel peate uuesti valima **Kuva kanded**.
-4.  Valige arveldamiseks read. Väärtus **Valitud summa** lehe ülaosas olev väli suureneb või väheneb, et kajastada valitud ridade kogusummat.
-5.  Kui olete tehingute valimise lõpetanud, valige **Märgi valituks**. Iga valitud tehingu kohta kuvatakse linnuke **Märgitud** veerg. Lisaks väärtus **Märgitud summa** ruudustiku kohal olev väli suureneb või väheneb, et kajastada märgitud joonte kogusummat.
-6.  Kui väärtus on **Märgitud summa** väli on **0** (null), valige **Arveldage märgitud tehingud**.
+3.  Valige **kuvamiskanded**, et näidata kõiki seadistatud filtritele vastavad kanded. Filtrite või dimensioonikogumite muutmisel peate uuesti valima **Kuva kanded**.
+4.  Valige tasakaalustuse read. Lehekülje ülaosas oleva **valitud summa** välja väärtus suureneb või väheneb, et kajastada valitud ridade kogusummat.
+5.  Kui olete kannete valimise lõpetanud, valige suvand **Märgi valituna**. Iga valitud kande puhul kuvatakse märge veerus **Märgitud**. Lisaks suureneb või väheneb **märgitud summa** välja väärtus ruudustiku kohal, et kajastada märgitud ridade kogusummat.
+6.  Kui väärtus väljal Märgitud summa **on** **0** (null), valige suvand Tasakaalusta **märgitud kanded.**
 
-    - Osaline arveldamine pole lubatud. Näiteks ei saa te arveldada $100 deebettehingut $90 krediiditehinguga. Arveldusse kaasamiseks tuleb märkida ka ülejäänud $10 krediiditehing.
-    - Sisesta arvelduskuupäev. Kuupäev peab olema arveldamiseks märgitud tehingute viimasel kuupäeval või hilisem.
+    - Osaline tasakaalustus pole lubatud. Näiteks ei saa te tasakaalustada $100 tehingukandeid $90 kreeditkandega. Järelejääv $10 kreeditkanne tuleb märkida ka tasakaalustusse kaasamiseks.
+    - Sisestage tasakaalustuse kuupäev. Kuupäev peab olema tasakaalustuse jaoks märgitud kannete hiimaks või pärast seda.
 
 Märgistatud kannete olek uuendatakse olekule **Tasakaalustatud**.
 
 > [!IMPORTANT]
-> Kõik tehingud, mille olete aktiivse juriidilise isiku ja valitud põhikonto jaoks arveldamiseks märkinud, arveldatakse. Tehingud ei pea lehel ilmuma. Need lahendatakse isegi siis, kui need on filtri tõttu peidetud.
+> Tasakaalustatakse kõik kanded, mille olete märkinud tasakaalustamiseks aktiivse juriidilise isiku puhul ja valitud põhikonto. Kanded ei pea lehel ilmuma. Need tasakaalustatakse isegi siis, kui nad on filtri tõttu peidetud.
 
-Mõned protsessid, näiteks tehingu tühistamine, arveldavad pearaamatu tehingud automaatselt. Näiteks arveldatakse makse ja arve jaotises Debitoorsed arved ning arveldamine tekitab realiseeritud kasumi/kahjumi. Makse ja arve arveldamisel ei arveldata ühtegi pearaamatu tehingut, nt debitoorsete arvete pearaamatu konto tehinguid. Kui aga Debitoorses arvelduses on makse ja arve arveldamata, siis debitoorse võlgnevuste arvelduse tühistamise käigus konteeritud pöördarvestuskanne põhjustab algsed ja pöördarvestuse kanded pearaamatus arveldamise. Kui **Teadlikkus pearaamatu arvelduse ja aastalõpu sulgemise vahel** Kui funktsioon on lubatud, ei toimu tühistamise pearaamatu arveldust automaatselt, kui tühistamise kuupäev on muul eelarveaastal.
+Mõned protsessid, nt kande tühistamine, tasakaalustavad automaatselt pearaamatukanded. Näiteks makse ja arve tasakaalustatakse Müügireskontros ja tasakaalustus loob realiseeritud kasumi/kahjumi. Makse ja arve tasakaalustus ei tasakaalusta ühtegi pearaamatu kannet, nt pearaamatu müügireskontro kanded. Kui aga makse ja arve müügireskontros tasakaalustamata on, põhjustab müügireskontro tasakaalustuse tagasipööratud raamatupidamiskirje algse ja tühistava raamatupidamiskirje pearaamatus tasakaalustamise. Kui pearaamatu **tasakaalustuse** ja aasta lõpu sulgemise vahelised teadmised on lubatud, siis ei ilmu tagasipööramise pearaamatu tasakaalustamine automaatselt, kui tagasipööramise kuupäev on teises finantsaastas.
 
-## <a name="use-excel-for-ledger-settlement"></a>Kasutage pearaamatu arveldamiseks Excelit
+## <a name="use-excel-for-ledger-settlement"></a>Kasuta pearaamatu tasakaalustamiseks Excelit
 
-Tehingud, mis on näidatud **Pearaamatu arveldus** lehe saab eksportida Excelisse. Excelis saate tehinguid täiendavalt filtreerida, et määrata, millised tehingud arveldamiseks märkida.
-Mõlemad pearaamatu arveldusüksused ekspordivad pearaamatu tehinguid ainult sellel põhikontol, mis on valitud **Pearaamatu arveldus** lehel. Kuigi suletud eelarveaastate tehinguid saab Exceli abil endiselt märgistada või märgistamata jätta, ei saa neid arveldada. Lisaks ei saa arveldatud tehinguid sellel eelarveaastal tagasi võtta.
+Pearaamatu tasakaalustuse lehel kuvatavaid **kandeid** saab eksportida Excelisse. Excelis saate kandeid veelgi filtreerida, et määrata, millised kanded tasakaalustuse jaoks märkida.
+Mõlemad pearaamatu tasakaalustusüksused ekspordivad pearaamatukandeid ainult põhikonto jaoks, mis on valitud pearaamatu **tasakaalustuse** lehel. Kuigi suletud rahandusaastate kandeid saab Exceli abil siiski märkida või eemaldada, ei saa neid tasakaalustada. Lisaks ei saa tasakaalustatud kandeid sel rahandusaastal tühistada.
 
 ## <a name="make-transactions-easier-to-find"></a>Muudke kannete leidmine lihtsamaks
 
-The **Pearaamatu arveldused** leht sisaldab võimalusi, mis hõlbustavad arveldamiseks vajalike tehingute vaatamist.
+Pearaamatu **tasakaalustuste** leht sisaldab võimalusi, mis lihtsustavad tasakaalustuse jaoks vajaminev kannete vaatamist.
 
-• Kasuta **Märgitud** filter tehingute filtreerimiseks selle alusel, kas **Märgitud** nende jaoks on märgitud märkeruut.
-• Kasuta **Olek** filter tehingute filtreerimiseks nende oleku alusel.
-• Valige **Sorteeri absoluutsumma järgi** sorteerida summad absoluutväärtuse järgi. Sel viisil saate rühmitada deebeteid ja krediite, millel on sama summa.
+• Kasutage märgitud **filtrit**, et filtreerida kandeid selle **põhjal**, kas nende puhul on märgitud ruut märgitud.
+• Kasutage olekufiltrit **kannete** filtreerimiseks nende oleku alusel.
+• Valige kogusumma **järgi sortimine** kogusumma järgi, et sortida summad absoluutväärtuse alusel. Sel viisil saate grupeerida deebeteid ja kreediteid, mis on ühesuguse summaga.
 
 ## <a name="reverse-a-settlement"></a>Tasakaalustuse tühistamine
 
 Saate tühistada ekslikult tehtud tasakaalustuse.
 
-1.  Järgige samme 1 kuni 3 jaotises [Arvelda tehingud](#settle-transactions) Teid huvitavate tehingute kuvamiseks.
+1.  Järgige jaotises Kannete tasakaalustamine samme 1 kuni [3](#settle-transactions), et näidata kandeid, mille suhtes olete huvitatud.
 2.  Valige **Oleku** filtris valik **Tasakaalustatud**.
-3.  Valige ümberpööramiseks read.
-4.  Valige **Pöördmärgistatud tehingud**. Kõigi sama arveldus-ID-ga tehingute olekut värskendatakse **Ei lahendatud**.
+3.  Valige read, mida tagasipööramiseks valida.
+4.  Valige Märgitud **kannete tagasipööramine**. Kõigi sama tasakaalustuse ID-ga kannete olek uuendatakse olekuks **Tasakaalusta pole.**
 
 > [!IMPORTANT]
-> Kõik sama arveldus-ID-ga tehingud tühistatakse, isegi kui need pole märgitud. Näiteks märgiti ja arveldati neli rida. Kõigil neljal real on sama asula ID. Kui märgite ühe neist neljast reast ja seejärel valige **Pöördmärgistatud tehingud**, pööratakse kõik neli rida ümber.
+> Kõik sama tasakaalustuse ID-ga kanded tühistatakse, isegi kui neid pole märgitud. Näiteks märgitakse ja tasakaalustati neli rida. Kõigil neljal real on sama tasakaalustuse ID. Kui märgite neljast reast ühe ja valite siis **märgitud kannete ümberpööramise**, tühistatakse kõik neli rida.
 
 
 

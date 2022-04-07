@@ -15,17 +15,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8ee39f35f9d81f47c5438ddf48451d24ab0c0ed3
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 963df35247285ad764a814daa4b51eff35207d97
+ms.sourcegitcommit: 67c4ed957e43d4d60bb609d93921a0be9619e675
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065248"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8509356"
 ---
-# <a name="view-team-and-company-calendars"></a>Meeskonna ja ettevõtte kalendrite kuvamine
+# <a name="view-team-and-company-calendars"></a>Töörühma ja ettevõtte kalendrite kuvamine
 
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
+>[!Important]
+>Selles teemas märgitud funktsioone saavad kliendid praegu kasutada eraldiseisvas teenuses Dynamics 365 Human Resources. Osa või kõik funktsioonid on saadaval osana Finance'i taristu tulevasest väljalaskest pärast Finance'i versiooni 10.0.26.
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 

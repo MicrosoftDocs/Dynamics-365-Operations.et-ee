@@ -1,7 +1,7 @@
 ---
 title: Dataverse'i virtuaalsete tabelite päringute optimeerimine
 description: Dataverse virtuaalsete tabelipäringute jõudluse optimeerimine ja tõrkeotsing
-author: andreabichsel
+author: twheeloc
 ms.date: 04/02/2021
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: jaredha
+ms.author: twheeloc
 ms.search.validFrom: 2021-04-02
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1857d2e35e369bcd0c8f02a059a307f31da8b3b9
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 4057740fc4c6ddd696b37b6373dcfcd43881305e
+ms.sourcegitcommit: d67f7edaf1a50077c2a7dd105e774f86fc586495
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067450"
+ms.lasthandoff: 04/02/2022
+ms.locfileid: "8534213"
 ---
 # <a name="optimize-dataverse-virtual-table-queries"></a>Dataverse'i virtuaalsete tabelite päringute optimeerimine
 
@@ -50,12 +50,12 @@ Personaliosakonna Dataverse virtuaaltabelite aeglase jõudluse üheks põhjuseks
 Näide, kus seda mõju võite näha, on päringutes olemi Töötaja ( **mshr_hcmworkerentity**) või Baastöötaja (**mshr_hcmworkerbaseentity**) vastu. Jõudluse probleem võib ilmneda mitmel erineval viisil:
 
 - **Aeglane päringu tegevus**: virtuaaltabeli vastane päring võib tagastada oodatud tulemused, kuid päringu täitmise lõpuleviimiseks kulub oodatust kauem aega.
-- **Päringu ajalõpud**: päring võib aja maha võtta ja tagastada järgmise tõrke: "Finance and Operationsi helistamiseks saadi luba, kuid Finance and Operations tagastas vea tüübiga InternalServerError."
+- **Päringu ajalõpp**: päring võib ajalõppu ja tagastada järgmise tõrke: "Luba saadi finantside ja toimingute kutsumiseks, kuid finantsid ja toimingud tagastasid tõrke tüübiga InternalServerError."
 - **Ootamatu tõrge**: päring võib tagastada tõrketüübi 400 järgmise teatega: "Ilmnes ootamatu tõrge."
 
   ![Vea tüüp 400 HcmWorkerBaseEntity.](./media/HcmWorkerBaseEntityErrorType400.png)
 
-- **Ahendamine**: päring võib serveri ressursse üle kasutada ja muutuda ahendamiseks. Sellisel juhul tagastab päring järgmise vea: "Luba saadi finance and Operationsi helistamiseks, kuid Finance and Operations tagastas vea tüübiga 429." Lisateavet personaliosakonna ahendamise kohta leiate teemast [Ahendamise KKK](./hr-admin-integration-throttling-faq.md).
+- **Ahendamine**: päring võib serveri ressursse üle kasutada ja muutuda ahendamiseks. Sel juhul tagastab päring järgmise tõrke: "Finantside ja toimingute kutsumiseks saadi luba, kuid finantsid ja toimingud tagastasid vea tüübiga 429." Lisateavet personaliosakonna ahendamise kohta leiate teemast [Ahendamise KKK](./hr-admin-integration-throttling-faq.md).
 
   ![Vea tüüp 429 HcmWorkerBaseEntity.](./media/HcmWorkerBaseEntityErrorType429.png)
 
@@ -104,7 +104,7 @@ Kui teil tekib Power BI aruande Dataverse virtuaalse tabeli suhtes aruande üles
 4. Laiendage aknas Navigator sõlm **Olemid**.
 5. Otsinguboksis sisestage **mshr_hcmworkerbaseentity** ja valige olem.
 6. Valige **Andmete transformeermine**.
-7. Valige aknas Power Query Toimetaja suvand **Täpsem redaktor**.
+7. Power Query Valige redaktori aknas täpsem **redaktor**.
 8. Aknas **Täpsem redaktor** uuendage päringut nii, et see otsiks välja järgmisena, lisades või eemaldades kõik vajalikud veerud massiivile.
 
    ```
@@ -116,14 +116,14 @@ Kui teil tekib Power BI aruande Dataverse virtuaalse tabeli suhtes aruande üles
    in
      selectedWorkerBaseEntityColumns
    ```
-   ![Värskendage päringut redaktori täpsemas redaktoris Power Query.](./media/HcmWorkerBaseEntityPowerQueryEditor.png)
+   ![Saate päringut uuendada redaktori täpsemas redaktoris Power Query.](./media/HcmWorkerBaseEntityPowerQueryEditor.png)
 
 9. Valige suvand **Valmis**.
 
    > [!NOTE]
    > Kui olete enne päringu värskendamist päringult saanud tõrke tüübist 429, peate võib-olla enne päringu värskendamist ootama uuesti prooviperioodi, et see saaks täielikult lõpule viia.
 
-10. Klõpsake toimingul Toimetaja nuppu **Sule** ja rakenda Power Query.
+10. Klõpsake **nuppu Sule ja rakenda** redaktori Power Query tegevusribal.
 
 Siis saate alustada Power BI aruande ülesehimist virtuaaltabelist valitud veergude suhtes.
 

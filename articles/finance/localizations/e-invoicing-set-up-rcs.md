@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 33aab6f0a482ce3d90a7e9828015a8e7bebb7827
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: 6aed74656ceb8edd0e88adf53b61fcae81241f54
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371908"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8470160"
 ---
 # <a name="set-up-regulatory-configuration-service-rcs"></a>Saate häälestada regulatiivset konfiguratsiooniteenust (RCS).
 
@@ -50,6 +50,13 @@ Globaliseerimisfunktsiooni tööruumi **paan** peaks nüüd ilmuma RCS-i põhipa
     | Ühendkuningriik             | <p>`https://gw.uk-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.uk-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
     | Aasia                       | <p>`https://gw.as-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.as-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
     | Jaapan                      | <p>`https://gw.jp-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | Šveits                | <p>`https://gw.ch-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | Brasiilia                     | <p>`https://gw.br-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> <p>`https://gw.br-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | Araabia Ühendemiraadid       | <p>`https://gw.ae-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | Austraalia                  | <p>`https://gw.au-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> <p>`https://gw.au-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | Kanada                     | <p>`https://gw.ca-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> <p>`https://gw.ca-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | Prantsusmaa                     | <p>`https://gw.fr-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | India                      | <p>`https://gw.in-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
 
 3. Veenduge, et välja **Rakenduse ID** väärtuseks oleks määratud **0cdb527f-a8d1-4bf8-9436-b352c68682b2**. See väärtus ei muutu. Kontrollige, et sisestatud oleks ainult globaalselt kordumatu kood (GUID) ja et väärtus ei sisaldaks muid sümboleid, nt tühikuid, komasid, punkte või jutumärke.
 4. Sisestage **LCS-i keskkonna ID väljale oma elutsükli** teenuste (LCS) keskkonna ID Microsoft Dynamics. See väärtus on viide finants- või tarneahela halduskeskkonnale, mida kasutate elektroonilise arveldamise teenusega. ID [saamiseks logige LCS-i](https://lcs.dynamics.com/) sisse, **avage projekt ja seejärel vaadake vahekaardi Keskkonna** **·** **haldamine jaotises Keskkonna üksikasjad välja Keskkonna ID.**

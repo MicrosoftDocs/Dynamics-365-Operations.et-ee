@@ -2,7 +2,7 @@
 title: Omnikanali täpsemad automaatsed kulud
 description: See teema kirjeldab võimalusi Commerce kanali tellimuste täiendavate tellimuskulude haldamise kohta, kasutades täpsemate automaatsete kulude funktsioone.
 author: hhaines
-ms.date: 03/30/2020
+ms.date: 03/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: ef6396ec66a0f96ba97b176c46bf70d83a080883cf496312398f14dce3ad9758
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 69432e13424b08b75e8ce7c88eaf6be66db59e65
+ms.sourcegitcommit: 94ebdaae6dc996b205ac78ed546e38f91f4f46ed
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743427"
+ms.lasthandoff: 03/28/2022
+ms.locfileid: "8489614"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>Omnikanali täpsemad automaatsed kulud
 
@@ -187,6 +187,9 @@ Kui ülekirjutatud kulude kohta on põhjusekoodid sisestatud, on nende tühistus
 ### <a name="refunding-charges-on-a-pos-return-transaction"></a>Kulude tagastamine kassa tagastuskandes
 
 Kui parameetri **Kasuta täpsemaid automaatseid kulusid** sätteks on valitud **Jah**, ei kohaldu suvandile **Saatekulu tagastamine** enam olemasolev Kaubanduse parameeter. Selleks et näidata, millised kulud tuleb süstemaatiliselt kliendile tagastada, kui kasutatakse täpsemaid automaatseid kulusid, veenduge, et seotud kulukood oleks suvandi **Kulukood** seadistuslehel konfigureeritud kui **Tagastatav**. Veenduge, et sätted oleksid jaotusgraafiku protsessi kaudu sünkroonitud teie Commerce’i kanali andmebaasiga.
+
+> [!TIP]
+> Juhised, mis aitavad teil tagada, et reatasandil hüvitatavad kulud arvutatakse tagastatud koguse alusel, [vt Tagastatavaid kulusid ei arvutata tagastatud koguse alusel](/troubleshoot/Refund-charges-miscalculated-for-partial-quantity-returned.md).
 
 ### <a name="refunding-charges-on-a-return-order-transaction"></a>Kulude tagastamine tagastustellimuse kandes
 

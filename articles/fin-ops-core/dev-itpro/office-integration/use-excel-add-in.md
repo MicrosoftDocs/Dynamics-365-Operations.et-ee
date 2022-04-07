@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d1593206e8e22aed518ebca9bee0772c6620bec9
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 3b97c585009b50c6623036d10f54e78a65a89cea
+ms.sourcegitcommit: 3cb1f49a02e4a849fc34ffeb81fe507f0608b35e
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068788"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8464933"
 ---
 # <a name="view-and-update-entity-data-with-excel"></a>Üksuse andmete vaatamine ja värskendamine Exceliga 
 
@@ -31,7 +31,7 @@ ms.locfileid: "8068788"
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 
-See teema selgitab, kuidas avada üksuse andmeid Microsoft Excelis ning neid seejärel vaadata, värskendada ja redigeerida Microsoft Dynamicsi Excelile lisandmooduli abil. Olemiandmete avamiseks saate alustada exceli või finance and Operationsi rakendustest.
+See teema selgitab, kuidas avada üksuse andmeid Microsoft Excelis ning neid seejärel vaadata, värskendada ja redigeerida Microsoft Dynamicsi Excelile lisandmooduli abil. Üksuse andmete avamiseks saate käivitada Excelist või Finantside ja toimingute rakendustest.
 
 Kui avate üksuse andmed Excelis, saate neid kiiresti ja hõlpsasti vaadata ja redigeerida, kasutades Exceli lisandmoodulit. See lisandmoodul nõuab rakendust Microsoft Excel 2016 või uuemat.
 
@@ -40,15 +40,15 @@ Kui avate üksuse andmed Excelis, saate neid kiiresti ja hõlpsasti vaadata ja r
 
 Exceli lisandmooduli kasutamise juhiste kohta lisateabe saamiseks vaadake lühivideot [Exceli malli loomine päise ja reamustrite jaoks](https://youtu.be/RTicLb-6dbI).
 
-## <a name="open-entity-data-in-excel-when-you-start-from-a-finance-and-operations-app"></a>Olemiandmete avamine Excelis rakendusest Finance and Operations käivitamisel
-1. Valige **rakenduse Finance and Operations lehel Ava rakenduses Microsoft Office**.
+## <a name="open-entity-data-in-excel-when-you-start-from-a-finance-and-operations-app"></a>Avage üksuse andmed Excelis, kui alustate finantside ja toimingute rakendusest
+1. Rakenduse Finantsid ja toimingud lehel valige suvand **Ava Microsoft Office**.
 
     Kui lehe juurandmete allikas (tabel) on sama kui mis tahes üksuste juurandmeallikas, luuakse lehe jaoks vaikesuvandid **Ava Excelis**. Suvandid **Ava Excelis** on leitavad sagedasti kasutatavatel lehtedel, nagu **Kõik hankijad** ja **Kõik kliendid**.
  
 2. Valige käsk **Ava Excelis** ja avage loodav töövihik. Sellel töövihikul on üksuse jaoks sidumisteave, osuti teie keskkonnale ja osuti Exceli lisandmoodulile.
 3. Valige Excelis käsk **Luba redigeerimine**, et lubada Exceli lisandmooduli käivitamine. Exceli lisandmoodul töötab Exceli akna paremal küljel olevas paanis.
 4. Kui käivitate Exceli lisandmooduli esimest korda, valige käsk **Usalda seda lisandmoodulit**.
-5. Kui teil palutakse sisse logida, valige **sisselogimine** ja seejärel logige sisse, kasutades samu mandaate, mida kasutasite rakendusse Finance and Operations sisselogimiseks. Exceli lisandmoodul kasutab varasemat brauseri sisselogimise konteksti ja logib teid võimaluse korral automaatselt sisse. (Lisateavet operatsioonisüsteemil põhineva brauseri kohta vt teemast [Office’i lisandmoodulite kasutatavad brauserid](/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins.) Veendumaks, et sisselogimine õnnestus, kontrollige kasutajanime Exceli lisandmooduli ülemises parempoolses nurgas. 
+5. Kui teil palutakse sisse logida, **valige** sisselogimine ja logige sisse samu mandaate kasutades, mida kasutati Finantside ja toimingute rakendusse sisselogimiseks. Exceli lisandmoodul kasutab varasemat brauseri sisselogimise konteksti ja logib teid võimaluse korral automaatselt sisse. (Lisateavet operatsioonisüsteemil põhineva brauseri kohta vt teemast [Office'i lisandmoodulid kasutatavad brauserid](/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins). Veendumaks, et sisselogimine õnnestus, kontrollige kasutajanime Exceli lisandmooduli ülemises parempoolses nurgas. 
 
 Exceli lisandmoodul loeb automaatselt valitud üksuse andmeid. Pange tähele, et töövihikus ei ole andmeid, kuni Exceli lisandmoodul loeb need sisse.
 
@@ -57,7 +57,7 @@ Exceli lisandmoodul loeb automaatselt valitud üksuse andmeid. Pange tähele, et
 2. Office Store’is otsige märksõna **Dynamics** ja seejärel valige käsk **Lisa**, mis asub valiku **Microsoft Dynamics Office’i lisandmoodul** (Exceli lisandmoodul) kõrval.
 3. Kui käivitate Exceli lisandmooduli esimest korda, valige käsk **Usalda seda lisandmoodulit**, et lubada Exceli lisandmooduli käivitamine. Exceli lisandmoodul töötab Exceli akna paremal küljel olevas paanis.
 4. Valige suvand **Serveriteabe lisamine**, et avada paan **Suvandid**.
-5. Kopeerige brauseris oma rakenduse Finance and Operations URL, kleepige see väljale **Serveri URL** ja kustutage seejärel kõik pärast hostinime. Tulemuseks saadav URL peaks sisaldama ainult hostinime.
+5. Kopeerige brauseris oma finantside ja toimingute rakenduse sihteksemplari URL, **kleepige see serveri URL-i** väljale ja seejärel kustutage kõik pärast hostinime. Tulemuseks saadav URL peaks sisaldama ainult hostinime.
 
     Näiteks kui URL on `https://xxx.dynamics.com/?cmp=usmf&amp;mi=CustTableListPage`, kustutage kõik peale `https://xxx.dynamics.com`.
 
@@ -76,7 +76,7 @@ Exceli lisandmoodul loeb automaatselt valitud üksuse andmeid. Pange tähele, et
 Pärast seda, kui Exceli lisandmoodul loeb üksuse andmed töövihikusse, saate värskendada andmeid igal ajal, valides Exceli lisandmoodulis nupu **Värskenda**.
 
 ## <a name="edit-entity-data-in-excel"></a>Üksuse andmete redigeerimine Excelis
-Olemiandmeid saate vastavalt vajadusele muuta ja seejärel avaldada need tagasi finance and Operationsi rakendustesse, valides **Exceli lisandmoodulis avalda**. Kirje redigeerimiseks valige töölehel lahter ja muutke seejärel lahtri väärtust. Uue kirje lisamiseks järgige üht järgmist juhist.
+Saate üksuse andmeid vajaduse järgi muuta ja seejärel avaldada need tagasi Finantside ja toimingute rakendustes, **valides** Exceli lisandmoodulis Avalda. Kirje redigeerimiseks valige töölehel lahter ja muutke seejärel lahtri väärtust. Uue kirje lisamiseks järgige üht järgmist juhist.
 
 - Klõpsake andmeallikate tabelis mis tahes kohas ja seejärel valige Exceli lisandmoodulis nupp **Uus**.
 - Klõpsake andmeallikate tabeli viimases reas ja seejärel vajutage tabulaatoriklahvi, kuni kursor liigub selle rea viimasest veerust välja ja luuakse uus rida.

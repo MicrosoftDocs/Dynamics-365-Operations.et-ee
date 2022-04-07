@@ -1,32 +1,33 @@
 ---
 title: Puhkuse ja puudumise plaanide juurdekasv
 description: Rakenduses Dynamics 365 Human Resources saate koondada puhkuseid ja puudumisi mitme töövõtja või ühe jaoks.
-author: andreabichsel
+author: twheeloc
 ms.date: 05/04/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
-ms.reviewer: anbichse
+ms.reviewer: twheeloc
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a5f3ae95d0670369ac63e5a5d521885fe55ce8af
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 7f765e7cfd97170bd144dfff12c18ced96e3332a
+ms.sourcegitcommit: d67f7edaf1a50077c2a7dd105e774f86fc586495
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070648"
+ms.lasthandoff: 04/02/2022
+ms.locfileid: "8533708"
 ---
 # <a name="accrue-leave-and-absence-plans"></a>Puhkuse ja puudumise plaanide juurdekasv
 
+>[!Important]
+>Selles teemas märgitud funktsioone saavad kliendid praegu kasutada eraldiseisvas teenuses Dynamics 365 Human Resources. Osa või kõik funktsioonid on saadaval osana Finance'i taristu tulevasest väljalaskest pärast Finance'i versiooni 10.0.26.
 
-[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 

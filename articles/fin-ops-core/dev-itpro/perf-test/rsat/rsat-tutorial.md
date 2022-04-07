@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 2f31009424629221a8e4f130b0ec1879c6c6e3d4
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: e2273aefb98880a1ae746ef7ec65b4f2262f3560
+ms.sourcegitcommit: 49c97b0c94e916db5efca5672d85df70c3450755
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781959"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "8492916"
 ---
 # <a name="regression-suite-automation-tool-tutorial"></a>Tööriista Regression Suite Automation Tool õpiku kasutamine
 
@@ -43,7 +43,7 @@ Järgmises näites näete, kuidas kasutada seda funktsiooni kinnitamaks, kas vab
     5. Märkige loendis valitud rida.
     6. Kinnitage, et välja **Kokku saadaval** väärtus on **411,0000000000000000**.
 
-2. Salvestage tegevuse salvestis **arendaja salvestisena** ja lisage see oma testi juhtumile Azure DevOpsis.
+2. Salvestage ülesande salvestamine arendaja **salvestusna** ja lisage see oma testjuhtumi juurde Azure DevOps.
 3. Lisage testjuhtum katseplaani ja laadige testjuhtum RSAT-sse.
 4. Avage Exceli parameetrifail ja minge vahekaardile **TestCaseSteps**.
 5. Et kontrollida, kas vaba kaubavaru on alati suurem kui **0**, minge etappi **Kinnita saada saadav kokku** ja muutke selle väärtus väärtuselt **411** väärtusele **0**. Muutke välja **Operaator** väärtust võrdusmärgi (**=**) ja märgiga suurem kui (**\>**).
@@ -79,19 +79,19 @@ Pärast testjuhtumi käivitamist võrreldakse teadet Exceli parameetrifailis kuv
 
 See funktsioon teeb kuvatõmmise etappidest, mis läbiti tegevuse salvestamise ajal. See on kasulik auditeerimiseks või silumiseks.
 
-- Selle funktsiooni kasutamiseks RSAT-i kasutajaliidesega töötamise ajal avage fail **Microsoft.Dynamics.RegressionSuite.WindowsApp.exe.config** RSAT installikaustas (nt **C:\\ Program Files (x86)\\Regression Suite Automation Tool**) ja muutke elemendi väärtus **väär** väärtusele **tõene**.
+- Selle funktsiooni kasutamiseks RSAT-i kasutajaliidesega töötamise ajal avage fail **Microsoft.Dynamics.RegressionSuite.WindowsApp.exe.config** RSAT installikaustas (nt **C:\\Program Files (x86)\\Regression Suite Automation Tool**) ja muutke elemendi väärtus **väär** väärtusele **tõene**.
 
     ```xml
     <add key="VerboseSnapshotsEnabled" value="false" />
     ```
 
-- Selle funktsiooni kasutamiseks RSAT-i kasutajaliidesega CLI poolt (näiteks Azure DevOps), avage töötamise ajal fail **Microsoft.Dynamics.RegressionSuite.ConsoleApp.exe.config** RSAT installikaustas (nt **C:\\ Program Files (x86)\\Regression Suite Automation Tool**) ja muutke elemendi väärtus **väär** väärtusele **tõene**.
+- Selle funktsiooni kasutamiseks RSAT-i kasutajaliidesega CLI poolt (näiteks Azure DevOps), avage töötamise ajal fail **Microsoft.Dynamics.RegressionSuite.ConsoleApp.exe.config** RSAT installikaustas (nt **C:\\Program Files (x86)\\Regression Suite Automation Tool**) ja muutke elemendi väärtus **väär** väärtusele **tõene**.
 
     ```xml
     <add key="VerboseSnapshotsEnabled" value="false" />
     ```
 
-Kui käivitate testjuhtumid, teeb RSAT hetktõmmised (pildid) etappidest ja salvestab need töökaustas oleva testjuhtumite taasesitusekausta. Soovitud kaustas luuakse eraldi alamkaust nimega **StepSnapshots**. See kaust sisaldab hetketõmmiseid käitatud testjuhtumite jaoks.
+Testjuhtumite käivitamisel loob RSAT sammude hetktõmmised (pildid) ja salvestab need töökausta testjuhtumite kausta. Soovitud kaustas luuakse eraldi alamkaust nimega **StepSnapshots**. See kaust sisaldab hetketõmmiseid käitatud testjuhtumite jaoks.
 
 ## <a name="assignment"></a>Määramine
 
@@ -148,7 +148,7 @@ Järgmisel joonisel on kujutatud LCS-i äriprotsesside modelleerija selle stsena
 RSAT saab käivitada aknast **Käsuviip** või **PowerShell**.
 
 > [!NOTE]
-> Veenduge, et keskkonnamuutuja **TestRoot** oleks seatud RSAT installiteele. (Avage Microsoft Windows is suvand **Juhtpaneel**, valige **Süsteem ja turvalisus \> Süsteem \> Täpsemad süsteemisätted** ja seejärel valige suvand **Keskkonnamuutujad**.)
+> Veenduge, et keskkonnamuutuja **TestRoot** oleks seatud RSAT installiteele. (Avage Microsoft Windowsis suvand **Juhtpaneel**, valige **Süsteem ja turvalisus \> Süsteem \> Täpsemad süsteemisätted** ja seejärel valige suvand **Keskkonnamuutujad**.)
 
 1. Avage administraatorina aken **Käsuviip** või **PowerShell**.
 2. Navigeerige RSAT-i installikausta.
@@ -172,6 +172,7 @@ RSAT saab käivitada aknast **Käsuviip** või **PowerShell**.
         about
         cls
         download
+        downloadsuite
         edit
         generate
         generatederived
@@ -181,11 +182,13 @@ RSAT saab käivitada aknast **Käsuviip** või **PowerShell**.
         list
         listtestplans
         listtestsuite
+        listtestsuitebyid
         listtestsuitenames
         playback
         playbackbyid
         playbackmany
         playbacksuite
+        playbacksuitebyid
         quit
         upload
         uploadrecording
@@ -194,17 +197,17 @@ RSAT saab käivitada aknast **Käsuviip** või **PowerShell**.
 
 #### <a name=""></a>?
 
-Kuvab kõigi saadaolevate käskude ja nende parameetrite spikri.
+Loetleb kõik käsud või kuvab konkreetse käsu spikri koos saadaval parameetritega.
 
 ``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``?``**``[command]``
 
 ##### <a name="-optional-parameters"></a>?: Valikulised parameetrid
 
-`command`: kus ``[command]`` on üks allpool määratud käskudest.
+`command`– koht ``[command]``, kus on üks eelnevas loendis nimetatud käskudest.
 
 #### <a name="about"></a>teave
 
-Kuvab praeguse versiooni.
+Kuvab installitud RSAT-i versiooni.
 
 ``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``about``**
 
@@ -216,23 +219,59 @@ Tühjendab ekraani.
 
 #### <a name="download"></a>laadi alla
 
-Laadib alla määratud testjuhtumi manused väljundkausta.
-Saate kasutada käsku ``list``, et hankida kõik saadaolevad testjuhtumid. Kasutage esimese veeru mis tahes väärtust parameetrina **test_case_id**.
+Laadib määratud testjuhtumi manused (salvestamine, käivitamine ja parameetrifailid) väljundkaustast Azure DevOps alla. Käsu abil saate ``list`` saada kõik saadaolevad testjuhtumid ja kasutada **parameetrina mis tahes esimese test_case_id** väärtust.
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``download``**``[test_case_id] [output_dir]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``download``**``[/retry[=<seconds>]] [test_case_id] [output_dir]``
+
+##### <a name="download-optional-switches"></a>allalaadimine: valikulised lülitid
+
++ `/retry[=seconds]`: kui see lüliti on määratud ja kui mõni muu RSAT-i eksemplar on testjuhtumid blokeerinud, ootab allalaadimisprotsess määratud sekundite arvu ja proovib siis veel ühte sekundit. Sekundite vaikeväärtus \[on\] 120 sekundit. Ilma selle lülitita tühistatakse protsess kohe, kui katsejuhtumid on blokeeritud.
 
 ##### <a name="download-required-parameters"></a>download: nõutavad parameetrid
 
 + `test_case_id`: tähistab testjuhtumi ID-d.
-+ `output_dir`: tähistab väljundkausta. Kaust peab olemas olema.
+
+##### <a name="download-optional-parameters"></a>allalaadimine: valikulised parameetrid
+
++ `output_dir`– näitab väljundi töökausta. Kaust peab olemas olema. Kui seda parameetrit ei määrata, kasutatakse sätetest pärit töökausta.
 
 ##### <a name="download-examples"></a>download: näited
 
 `download 123 c:\temp\rsat`
 
-`download 765 c:\rsat\last`
+`download /retry=240 765`
 
-#### <a name="edit"></a>redigeerimine
+#### <a name="downloadsuite"></a>Laadi alla
+
+Laadib alla manused (salvestamise, käivitamise ja parameetrifailid) kõigi määratud testsviite Azure DevOps korral väljundkaustast. Käsu abil saate ``listtestsuitenames`` saada kõik saadaolevad test ja kasutada iga väärtust **test_suite_name parameetrina**.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``downloadsuite``**``[/retry[=<seconds>]] ([test_suite_name] | [/byid] [test_suite_id]) [output_dir]``
+
+##### <a name="downloadsuite-optional-switches"></a>downloadlüliti: valikulised lülitid
+
++ `/retry[=seconds]`: kui see lüliti on määratud ja kui mõni muu RSAT-i eksemplar on testjuhtumid blokeerinud, ootab allalaadimisprotsess määratud sekundite arvu ja proovib siis veel ühte sekundit. Sekundite vaikeväärtus \[on\] 120 sekundit. Ilma selle lülitita tühistatakse protsess kohe, kui katsejuhtumid on blokeeritud.
++ `/byid`: see lüliti näitab, et soovitud test komplekt tuvastatakse Azure DevOps test komplekt nime asemel selle ID-ga.
+
+##### <a name="downloadsuite-required-parameters"></a>downloadmeeter: nõutavad parameetrid
+
++ `test_suite_name`: tähistab testkomplekti nime. Kui /byid-lülitit pole määratud, on see parameeter **vajalik**. See nimi on testsviidi Azure DevOps nimi.
++ `test_suite_id`: tähistab testkomplekti ID-d. Kui /byid-lüliti on määratud, on see **parameeter** vajalik. See ID on testsviidi Azure DevOps ID.
+
+##### <a name="downloadsuite-optional-parameters"></a>downloadmeeter: valikulised parameetrid
+
++ `output_dir`– näitab väljundi töökausta. Kaust peab olemas olema. Kui seda parameetrit ei määrata, kasutatakse sätetest pärit töökausta.
+
+##### <a name="downloadsuite-examples"></a>Download tõmbamine: näited
+
+`downloadsuite NameOfTheSuite c:\temp\rsat`
+
+`downloadsuite /byid 123 c:\temp\rsat`
+
+`downloadsuite /retry=240 /byid 765`
+
+`downloadsuite /retry=240 /byid 765 c:\temp\rsat`
+
+#### <a name="edit"></a>redigeeri
 
 Võimaldab teil avada parameetrite faili Exceli programmis ja seda redigeerida.
 
@@ -244,7 +283,7 @@ Võimaldab teil avada parameetrite faili Exceli programmis ja seda redigeerida.
 
 ##### <a name="edit-examples"></a>edit: näited
 
-`edit c:\RSAT\TestCase_123_Base.xlsx`
+`edit c:\RSAT\123\TestCase_123_Base.xlsx`
 
 `edit e:\temp\TestCase_456_Base.xlsx`
 
@@ -252,24 +291,41 @@ Võimaldab teil avada parameetrite faili Exceli programmis ja seda redigeerida.
 
 Loob testkäivitamise ja parameetrifailid väljundkataloogi määratud testjuhtumi jaoks. Saate kasutada käsku ``list``, et hankida kõik saadaolevad testjuhtumid. Kasutage esimese veeru mis tahes väärtust parameetrina **test_case_id**.
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generate``**``[test_case_id] [output_dir]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generate``**``[/retry[=<seconds>]] [/dllonly] [/keepcustomexcel] [test_case_id] [output_dir]``
+
+##### <a name="generate-optional-switches"></a>loomine: valikulised lülitid
+
++ `/retry[=seconds]`: kui see lüliti on määratud ja kui mõni muu RSAT-i eksemplar on testjuhtumid blokeerinud, ootab loomisprotsess määratud sekundite arvu ja proovib siis veel ühte sekundit. Sekundite vaikeväärtus \[on\] 120 sekundit. Ilma selle lülitita tühistatakse protsess kohe, kui katsejuhtumid on blokeeritud.
++ `/dllonly`– saate luua ainult testkäivitamisfaile. Ärge looge Uuesti Exceli parameetrifaili.
++ `/keepcustomexcel`: täiendage olemasolevaid parameetrite faili. Saate käivitamisfailid ka uuesti käivitada.
 
 ##### <a name="generate-required-parameters"></a>generate: nõutavad parameetrid
 
 + `test_case_id`: tähistab testjuhtumi ID-d.
-+ `output_dir`: tähistab väljundkausta. Kaust peab olemas olema.
+
+##### <a name="generate-optional-parameters"></a>loomine: valikulised parameetrid
+
++ `output_dir`– näitab väljundi töökausta. Kaust peab olemas olema. Kui seda parameetrit ei määrata, kasutatakse sätetest pärit töökausta.
 
 ##### <a name="generate-examples"></a>generate: näited
 
 `generate 123 c:\temp\rsat`
 
-`generate 765 c:\rsat\last`
+`generate /retry=240 765 c:\rsat\last`
+
+`generate /retry=240 /dllonly 765`
+
+`generate /retry=240 /keepcustomexcel 765`
 
 #### <a name="generatederived"></a>generatederived
 
-Loob uue testjuhtumi, mis tulenevad esitatud testjuhtumist. Saate kasutada käsku ``list``, et hankida kõik saadaolevad testjuhtumid. Kasutage esimese veeru mis tahes väärtust parameetrina **test_case_id**.
+Loob esitatud katsejuhtumi uue tuletatud katsejuhtumi (alamtesti juhtumi). Määratud testsviiti lisatakse ka uus katsejuhtum. Käsu abil saate ``list`` saada kõik saadaolevad testjuhtumid ja kasutada **parameetrina mis tahes esimese test_case_id** väärtust.
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generatederived``**``[parent_test_case_id] [test_plan_id] [test_suite_id]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generatederived``**``[/retry[=<seconds>]] [parent_test_case_id] [test_plan_id] [test_suite_id]``
+
+##### <a name="generatederived-optional-switches"></a>genereeritud: valikulised lülitid
+
++ `/retry[=seconds]`: kui see lüliti on määratud ja kui mõni muu RSAT-i eksemplar on testjuhtumid blokeerinud, ootab loomisprotsess määratud sekundite arvu ja proovib siis veel ühte sekundit. Sekundite vaikeväärtus \[on\] 120 sekundit. Ilma selle lülitita tühistatakse protsess kohe, kui katsejuhtumid on blokeeritud.
 
 ##### <a name="generatederived-required-parameters"></a>generatederived: nõutavad parameetrid
 
@@ -281,39 +337,63 @@ Loob uue testjuhtumi, mis tulenevad esitatud testjuhtumist. Saate kasutada käsk
 
 `generatederived 123 8901 678`
 
+`generatederived /retry 123 8901 678`
+
 #### <a name="generatetestonly"></a>generatetestonly
 
-Loob väljundkataloogi määratud testjuhtumi jaoks ainult testkäivitamise faili. Saate kasutada käsku ``list``, et hankida kõik saadaolevad testjuhtumid. Kasutage esimese veeru mis tahes väärtust parameetrina **test_case_id**.
+Loob ainult määratud testjuhtumi testkäivitamisfailid See ei loo Exceli parameetrifaili. Failid luuakse määratud väljundkaustas. Käsu abil saate ``list`` saada kõik saadaolevad testjuhtumid ja kasutada **parameetrina mis tahes esimese test_case_id** väärtust.
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generatetestonly``**``[test_case_id] [output_dir]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generatetestonly``**``[/retry[=<seconds>]] [test_case_id] [output_dir]``
+
+##### <a name="generatetestonly-optional-switches"></a>generatetestonly: valikulised lülitid
+
++ `/retry[=seconds]`: kui see lüliti on määratud ja kui mõni muu RSAT-i eksemplar on testjuhtumid blokeerinud, ootab loomisprotsess määratud sekundite arvu ja proovib siis veel ühte sekundit. Sekundite vaikeväärtus \[on\] 120 sekundit. Ilma selle lülitita tühistatakse protsess kohe, kui katsejuhtumid on blokeeritud.
 
 ##### <a name="generatetestonly-required-parameters"></a>generatetestonly: nõutavad parameetrid
 
 + `test_case_id`: tähistab testjuhtumi ID-d.
-+ `output_dir`: tähistab väljundkausta. Kaust peab olemas olema.
+
+##### <a name="generatetestonly-optional-parameters"></a>generatetestonly: valikulised parameetrid
+
++ `output_dir`– näitab väljundi töökausta. Kaust peab olemas olema. Kui seda parameetrit ei määrata, kasutatakse sätetest pärit töökausta.
 
 ##### <a name="generatetestonly-examples"></a>generatetestonly: näited
 
 `generatetestonly 123 c:\temp\rsat`
 
-`generatetestonly 765 c:\rsat\last`
+`generatetestonly /retry=240 765`
 
 #### <a name="generatetestsuite"></a>generatetestsuite
 
-Loob kõik väljundkataloogi määratud komplekti testjuhtumid. Saate kasutada käsku ``listtestsuitenames``, et hankida kõik saadaolevad testkomplektid. Kasutage veeru mis tahes väärtust parameetrina **test_suite_name**.
+Loob testautomatiseeritud failid kõigile määratud test komplekt testjuhtumitele. Käsu abil saate ``listtestsuitenames`` saada kõik saadaolevad test ja kasutada iga väärtust **test_suite_name parameetrina**.
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generatetestsuite``**``[test_suite_name] [output_dir]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generatetestsuite``**``[/retry[=<seconds>]] [/dllonly] [/keepcustomexcel] ([test_suite_name] | [/byid] [test_suite_id]) [output_dir]``
+
+##### <a name="generatetestsuite-optional-switches"></a>Generatetest nii: valikulised lülitid
+
++ `/retry[=seconds]`: kui see lüliti on määratud ja kui mõni muu RSAT-i eksemplar on testjuhtumid blokeerinud, ootab loomisprotsess määratud sekundite arvu ja proovib siis veel ühte sekundit. Sekundite vaikeväärtus \[on\] 120 sekundit. Ilma selle lülitita tühistatakse protsess kohe, kui katsejuhtumid on blokeeritud.
++ `/dllonly`– saate luua ainult testkäivitamisfaile. Ärge looge Uuesti Exceli parameetrifaili.
++ `/keepcustomexcel`: täiendage olemasolevate parameetrite faili. Saate käivitamisfailid ka uuesti käivitada.
++ `/byid`: see lüliti näitab, et soovitud test komplekt tuvastatakse Azure DevOps test komplekt nime asemel selle ID-ga.
 
 ##### <a name="generatetestsuite-required-parameters"></a>generatetestsuite: nõutavad parameetrid
 
-+ `test_suite_name`: tähistab testkomplekti nime.
-+ `output_dir`: tähistab väljundkausta. Kaust peab olemas olema.
++ `test_suite_name`: tähistab testkomplekti nime. Kui /byid-lülitit pole määratud, on see parameeter **vajalik**. See nimi on testsviidi Azure DevOps nimi.
++ `test_suite_id`: tähistab testkomplekti ID-d. Kui /byid-lüliti on määratud, on see **parameeter** vajalik. See ID on testsviidi Azure DevOps ID.
+
+##### <a name="generatetestsuite-optional-parameters"></a>Generatetest nii: valikulised parameetrid
+
++ `output_dir`– näitab väljundi töökausta. Kaust peab olemas olema. Kui seda parameetrit ei määrata, kasutatakse sätetest pärit töökausta.
 
 ##### <a name="generatetestsuite-examples"></a>generatetestsuite: näited
 
 `generatetestsuite Tests c:\temp\rsat`
 
-`generatetestsuite Purchase c:\rsat\last`
+`generatetestsuite /retry Purchase c:\rsat\last`
+
+`generatetestsuite /dllonly /byid 121`
+
+`generatetestsuite /keepcustomexcel /byid 121`
 
 #### <a name="help"></a>spikker
 
@@ -321,7 +401,7 @@ Identne [?](#section) käsk.
 
 #### <a name="list"></a>loend
 
-Loetleb kõik saadaolevad testjuhtumid.
+Loetleb kõik praeguse katseplaani saadaolevad katsejuhtumid.
 
 ``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``list``**
 
@@ -333,13 +413,13 @@ Loetleb kõik saadaolevad katseplaanid.
 
 #### <a name="listtestsuite"></a>listtestsuite
 
-Loetleb määratud testkomplekti testjuhtumid. Saate kasutada käsku ``listtestsuitenames``, et hankida kõik saadaolevad testkomplektid. Kasutage esimese veeru mis tahes väärtust parameetrina **suite_name**.
+Loetleb määratud testkomplekti testjuhtumid. Selle käsu abil ``listtestsuitenames`` saate saada kogu saadaoleva testnime ning kasutada loendis salvestatud parameetrina **suite_name** väärtust.
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``listtestsuite``**``[suite_name]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``listtestsuite``**``[test_suite_name]``
 
 ##### <a name="listtestsuite-required-parameters"></a>listtestsuite: nõutavad parameetrid
 
-+ `suite_name`: soovitud komplekti nimi.
++ `test_suite_name`: soovitud komplekti nimi.
 
 ##### <a name="listtestsuite-examples"></a>listtestsuite: näited
 
@@ -347,39 +427,67 @@ Loetleb määratud testkomplekti testjuhtumid. Saate kasutada käsku ``listtests
 
 `listtestsuite NameOfTheSuite`
 
+#### <a name="listtestsuitebyid"></a>listtestrnobyid
+
+Loetleb määratud testkomplekti testjuhtumid.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``listtestsuitebyid``**``[test_suite_id]``
+
+##### <a name="listtestsuitebyid-required-parameters"></a>listtestrnobyid: nõutavad parameetrid
+
++ `test_suite_id`– soovitud komplekti ID.
+
+##### <a name="listtestsuitebyid-examples"></a>listtestrnobyid: näited
+
+`listtestsuitebyid 12345`
+
 #### <a name="listtestsuitenames"></a>listtestsuitenames
 
-Loetleb kõik saadaolevad testkomplektid.
+Loetleb kõik praeguse katseplaani saadaolevad testplaanid.
 
 ``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``listtestsuitenames``**
 
 #### <a name="playback"></a>playback
 
-Taasesitab Exceli faili abil testjuhtumi.
+Esitatakse tagasi määratud Exceli parameetrifailiga seotud katsejuhtumi. See käsk kasutab olemasolevaid kohaliku automatiseeritud faile ja ei laadi faile alla asukohast Azure DevOps. Seda käsku ei toetata kassa äri testijuhtumite puhul.
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playback``**``[excel_file]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playback``**``[/retry[=<seconds>]] [/comments[="comment"]] [excel_parameter_file]``
+
+##### <a name="playback-optional-switches"></a>Valikulised lülitid
+
++ `/retry[=seconds]`: kui see lüliti on määratud ja kui mõni muu RSAT-i eksemplar on testjuhtumid blokeerinud, ootab protsessi protsess määratud sekundite arvu ja proovib siis veel ühte sekundit. Sekundite vaikeväärtus \[on\] 120 sekundit. Ilma selle lülitita tühistatakse protsess kohe, kui katsejuhtumid on blokeeritud.
++ `/comments[="comment"]`: sisestage kohandatud teabestring, mis kaasatakse **katsejuhtumi** käitamisel kokkuvõtte ja katsetulemuse lehtede kommentaaride Azure DevOps väljale.
 
 ##### <a name="playback-required-parameters"></a>playback: nõutavad parameetrid
 
-+ `excel_file`: Exceli faili täielik tee. Fail peab olemas olema.
++ `excel_parameter_file`: Exceli parameetrifaili täielik tee. Fail peab olemas olema.
 
 ##### <a name="playback-examples"></a>playback: näited
 
-`playback c:\RSAT\TestCaseParameters\sample1.xlsx`
+`playback c:\RSAT\2745\attachments\Create_Purchase_Order_2745_Base.xlsx`
 
-`playback e:\temp\test.xlsx`
+`playback /retry e:\temp\test.xlsx`
+
+`playback /retry=300 e:\temp\test.xlsx`
+
+`playback /comments="Payroll solution 10.0.0" e:\temp\test.xlsx`
 
 #### <a name="playbackbyid"></a>playbackbyid
 
-Taasesitab korraga mitu testjuhtumit. Saate kasutada käsku ``list``, et hankida kõik saadaolevad testjuhtumid. Kasutage esimese veeru mis tahes väärtust parameetrina **test_case_id**.
+Esitab korraga mitu katsejuhtumi tagasi. Katsejuhtumid tuvastatakse nende ID järgi. See käsk laadib alla failid asukohast Azure DevOps. Käsu abil saate ``list`` saada kõik saadaolevad testjuhtumid ja kasutada mis tahes esimese veeru väärtuseid test_case_id **parameetrina**.
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbackbyid``**``[test_case_id1] [test_case_id2] ... [test_case_idN]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbackbyid``**``[/retry[=<seconds>]] [/comments[="comment"]] [test_case_id1] [test_case_id2] ... [test_case_idN]``
+
+##### <a name="playbackbyid-optional-switches"></a>Parameetrid <a0/&; – valikulised lülitid
+
++ `/retry[=seconds]`: kui see lüliti on määratud ja kui mõni muu RSAT-i eksemplar on testjuhtumid blokeerinud, ootab protsessi protsess määratud sekundite arvu ja proovib siis veel ühte sekundit. Sekundite vaikeväärtus \[on\] 120 sekundit. Ilma selle lülitita tühistatakse protsess kohe, kui katsejuhtumid on blokeeritud.
++ `/comments[="comment"]`: sisestage kohandatud teabestring, mis kaasatakse **katsejuhtumi** käitamisel kokkuvõtte ja katsetulemuse lehtede kommentaaride Azure DevOps väljale.
 
 ##### <a name="playbackbyid-required-parameters"></a>playbackbyid: nõutavad parameetrid
 
-+ `test_case_id1`: olemasoleva testjuhtumi ID.
-+ `test_case_id2`: olemasoleva testjuhtumi ID.
-+ `test_case_idN`: olemasoleva testjuhtumi ID.
++ `test_case_id1`: olemasoleva katsejuhtumi ID.
++ `test_case_id2`: olemasoleva katsejuhtumi ID.
++ `test_case_idN`: olemasoleva katsejuhtumi ID.
 
 ##### <a name="playbackbyid-examples"></a>playbackbyid: näited
 
@@ -387,75 +495,132 @@ Taasesitab korraga mitu testjuhtumit. Saate kasutada käsku ``list``, et hankida
 
 `playbackbyid 2345 667 135`
 
+`playbackbyid /comments="Payroll solution 10.0.0" 2345 667 135`
+
+`playbackbyid /retry /comments="Payroll solution 10.0.0" 2345 667 135`
+
 #### <a name="playbackmany"></a>playbackmany
 
-Taasesitab korraga mitu testjuhtumit, kasutades Exceli faile.
+Esitab korraga mitu katsejuhtumi tagasi. Testjuhtumid on identifitseeritud Exceli parameetrifailidega. See käsk kasutab olemasolevaid kohaliku automatiseeritud faile ja ei laadi faile alla asukohast Azure DevOps.
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbackmany``**``[excel_file1] [excel_file2] ... [excel_fileN]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbackmany``**``[/retry[=<seconds>]] [/comments[="comment"]] [excel_parameter_file1] [excel_parameter_file2] ... [excel_parameter_fileN]``
+
+##### <a name="playbackmany-optional-switches"></a>Rõhk <a0/&: valikulised lülitid
+
++ `/retry[=seconds]`: kui see lüliti on määratud ja kui mõni muu RSAT-i eksemplar on testjuhtumid blokeerinud, ootab protsessi protsess määratud sekundite arvu ja proovib siis veel ühte sekundit. Sekundite vaikeväärtus \[on\] 120 sekundit. Ilma selle lülitita tühistatakse protsess kohe, kui katsejuhtumid on blokeeritud.
++ `/comments[="comment"]`: sisestage kohandatud teabestring, mis kaasatakse **katsejuhtumi** käitamisel kokkuvõtte ja katsetulemuse lehtede kommentaaride Azure DevOps väljale.
 
 ##### <a name="playbackmany-required-parameters"></a>playbackmany: nõutavad parameetrid
 
-+ `excel_file1`: Exceli faili täielik tee. Fail peab olemas olema.
-+ `excel_file2`: Exceli faili täielik tee. Fail peab olemas olema.
-+ `excel_fileN`: Exceli faili täielik tee. Fail peab olemas olema.
++ `excel_parameter_file1`: Exceli parameetrifaili täielik tee. Fail peab olemas olema.
++ `excel_parameter_file2`: Exceli parameetrifaili täielik tee. Fail peab olemas olema.
++ `excel_parameter_fileN`: Exceli parameetrifaili täielik tee. Fail peab olemas olema.
 
 ##### <a name="playbackmany-examples"></a>playbackmany: näited
 
-`playbackmany c:\RSAT\TestCaseParameters\param1.xlsx`
+`playbackmany c:\RSAT\2745\attachments\Create_Purchase_Order_2745_Base.xlsx`
 
-`playbackmany e:\temp\test.xlsx f:\rsat\sample1.xlsx c:\RSAT\sample2.xlsx`
+`playbackmany e:\temp\test.xlsx f:\RSAT\sample1.xlsx c:\RSAT\sample2.xlsx`
+
+`playbackmany /retry=180 /comments="Payroll solution 10.0.0" e:\temp\test.xlsx f:\rsat\sample1.xlsx c:\RSAT\sample2.xlsx`
 
 #### <a name="playbacksuite"></a>playbacksuite
 
-Taasesitab konkreetse testkomplekti kõik testjuhtumid.
-Saate kasutada käsku ``listtestsuitenames``, et hankida kõik saadaolevad testkomplektid. Kasutage esimese veeru mis tahes väärtust parameetrina **suite_name**.
+Esitab tagasi ühe või mitme määratud testjuhtumi kõik katsejuhtumid. Kui /local lüliti on määratud, kasutatakse manus korral kohalikke manuseid. Vastasel juhul laaditakse manused alla asukohast Azure DevOps. Selle käsu abil ``listtestsuitenames`` saate saada kogu saadaoleva testdiagrammi ning **kasutada parameetrina mis tahes esimese suite_name** väärtust.
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbacksuite``**``[suite_name]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbacksuite``**``[/updatedriver] [/local] [/retry[=<seconds>]] [/comments[="comment"]] ([test_suite_name1] .. [test_suite_nameN] | [/byid] [test_suite_id1] .. [test_suite_idN])``
+
+##### <a name="playbacksuite-optional-switches"></a>lisalüliti: valikulised lülitid
+
++ `/updatedriver`: kui see lüliti on määratud, uuendatakse veebibrauseri veebiaadressi enne protsessi käivitamist vastavalt vajadusele.
++ `/local`: see lüliti näitab, et manusfailide allalaadimise asemel asukohast tuleks kasutada kohalikke manuseid Azure DevOps.
++ `/retry[=seconds]`: kui see lüliti on määratud ja kui mõni muu RSAT-i eksemplar on testjuhtumid blokeerinud, ootab protsessi protsess määratud sekundite arvu ja proovib siis veel ühte sekundit. Sekundite vaikeväärtus \[on\] 120 sekundit. Ilma selle lülitita tühistatakse protsess kohe, kui katsejuhtumid on blokeeritud.
++ `/comments[="comment"]`: sisestage kohandatud teabestring, mis kaasatakse **katsejuhtumi** käitamisel kokkuvõtte ja katsetulemuse lehtede kommentaaride Azure DevOps väljale.
++ `/byid`: see lüliti näitab, et soovitud test komplekt tuvastatakse Azure DevOps test komplekt nime asemel selle ID-ga.
 
 ##### <a name="playbacksuite-required-parameters"></a>playbacksuite: nõutavad parameetrid
 
-+ `suite_name`: soovitud komplekti nimi.
++ `test_suite_name1`: tähistab testkomplekti nime. Kui /byid-lülitit pole määratud, on see parameeter **vajalik**. See nimi on testsviidi Azure DevOps nimi.
++ `test_suite_nameN`: tähistab testkomplekti nime. Kui /byid-lülitit pole määratud, on see parameeter **vajalik**. See nimi on testsviidi Azure DevOps nimi.
++ `test_suite_id1`: tähistab testkomplekti ID-d. Kui /byid-lüliti on määratud, on see **parameeter** vajalik. See ID on testsviidi Azure DevOps ID.
++ `test_suite_idN`: tähistab testkomplekti ID-d. Kui /byid-lüliti on määratud, on see **parameeter** vajalik. See ID on testsviidi Azure DevOps ID.
 
 ##### <a name="playbacksuite-examples"></a>playbacksuite: näited
 
 `playbacksuite suiteName`
 
-`playbacksuite sample_suite`
+`playbacksuite suiteName suiteNameToo`
+
+`playbacksuite /updatedriver /local /retry=180 /byid 151 156`
+
+`playbacksuite /updatedriver /local /comments="Payroll solution 10.0.0" /byid 150`
+
+#### <a name="playbacksuitebyid"></a>Tema kood <a0/&;
+
+Käivitab määratud testsviite kõik Azure DevOps testjuhtumid.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbacksuitebyid``**``[/updatedriver] [/local] [/retry[=<seconds>]] [/comments[="comment"]] [test_suite_id]``
+
+##### <a name="playbacksuitebyid-optional-switches"></a>Valikulised lülitid
+
++ `/retry[=seconds]`: kui see lüliti on määratud ja kui mõni muu RSAT-i eksemplar on testjuhtumid blokeerinud, ootab protsessi protsess määratud sekundite arvu ja proovib siis veel ühte sekundit. Sekundite vaikeväärtus \[on\] 120 sekundit. Ilma selle lülitita tühistatakse protsess kohe, kui katsejuhtumid on blokeeritud.
++ `/comments[="comment"]`: sisestage kohandatud teabestring, mis kaasatakse **katsejuhtumi** käitamisel kokkuvõtte ja katsetulemuse lehtede kommentaaride Azure DevOps väljale.
++ `/byid`: see lüliti näitab, et soovitud test komplekt tuvastatakse Azure DevOps test komplekt nime asemel selle ID-ga.
+
+##### <a name="playbacksuitebyid-required-parameters"></a>Parameetrid <a0/&;
+
++ `test_suite_id`: näitab test komplekt ID-d, nagu see on olemas Azure DevOps.
+
+##### <a name="playbacksuitebyid-examples"></a>rnobaid: näited
+
+`playbacksuitebyid 2900`
+
+`playbacksuitebyid /retry 2099`
+
+`playbacksuitebyid /retry=200 2099`
+
+`playbacksuitebyid /retry=200 /comments="some comment" 2099`
 
 #### <a name="quit"></a>quit
 
-Sulgeb rakenduse.
+Sulgeb rakenduse. See käsk on kasulik ainult siis, kui rakendused töötavad interaktiivses režiimis.
 
 ``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``quit``**
 
+##### <a name="quit-examples"></a>lahku: näited
+
+`quit`
+
 #### <a name="upload"></a>upload
 
-Laadib üles kõik määratud testkomplekti või testjuhtumitesse kuuluvad failid.
+Laadib üles manusfailid (salvestamine, käivitamine ja parameetrifailid), mis kuuluvad määratud test komplekt või testjuhtumid.Azure DevOps
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``upload``**``[suite_name] [testcase_id]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``upload``**``([test_suite_name] | [test_case_id1] .. [test_case_idN])``
 
-#### <a name="upload-required-parameters"></a>upload: nõutavad parameetrid
+##### <a name="upload-required-parameters"></a>upload: nõutavad parameetrid
 
-+ `suite_name`: kõik määratud testkomplekti kuuluvad failid laaditakse üles.
-+ `testcase_id`: kõik määratud testjuhtumi(te)sse kuuluvad failid laaditakse üles.
++ `test_suite_name`: üles laaditakse kõik määratud test komplekti kuuluvad failid.
++ `test_case_id1`: näitab esimest testjuhtumi ID-d, mis tuleb üles laadida. Kasutage seda parameetrit ainult juhul, kui test komplekt nime pole antud.
++ `test_case_idN`: näitab viimast testjuhtumi ID-d, mis tuleb üles laadida. Kasutage seda parameetrit ainult juhul, kui test komplekt nime pole antud.
 
 ##### <a name="upload-examples"></a>upload: näited
 
 `upload sample_suite`
 
-`upload 123`
+`upload 2900`
 
 `upload 123 456`
 
 #### <a name="uploadrecording"></a>uploadrecording
 
-Laadib üles ainult määratud testjuhtumitesse kuuluva salvestamisfaili.
+Laadib üles ainult salvestusfaili, mis kuulub ühte või mitmesse määratud testjuhtumi Azure DevOps.
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``uploadrecording``**``[testcase_id]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``uploadrecording``**``[test_case_id1] .. [test_case_idN]``
 
 ##### <a name="uploadrecording-required-parameters"></a>uploadrecording: nõutavad parameetrid
 
-+ `testcase_id`: määratud testjuhtumitesse kuuluv salvestamisfail laaditakse üles.
++ `test_case_id1`– näitab esimese testjuhtumi ID-d salvestuse jaoks, mis tuleb üles laadida Azure DevOps.
++ `test_case_idN`– näitab viimase katsejuhtumi ID-d salvestuse jaoks, mis tuleb üles laadida Azure DevOps.
 
 ##### <a name="uploadrecording-examples"></a>uploadrecording: näited
 
@@ -465,9 +630,21 @@ Laadib üles ainult määratud testjuhtumitesse kuuluva salvestamisfaili.
 
 #### <a name="usage"></a>usage
 
-Näitab selle rakenduse kahte käivitamisviisi: üks kasutab vaikimisi seadistusfaili, teine esitab seadistusfaili.
+Sellel väljal kuvatakse rakenduse kolm kasutusviisi.
 
 ``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``usage``**
+
+Rakenduse käivitamine interaktiivselt:
+
++ ``Microsoft.Dynamics.RegressionSuite.ConsoleApp``
+
+Rakenduse käivitamine, määrates käsu:
+
++ ``Microsoft.Dynamics.RegressionSuite.ConsoleApp ``**``[command]``**
+
+Rakenduse käivitamine sätetefailiga:
+
++ ``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``/settings [drive:\Path to\file.settings] [command]``**
 
 ### <a name="windows-powershell-examples"></a>Windows PowerShelli näited
 

@@ -2,25 +2,27 @@
 title: Finantsaruandluse ülevaade
 description: Selles teemas kirjeldatakse, kus pääseda juurde rakenduse Microsoft Dynamics 365 Finance finantsaruandlusele ja kasutada finantsaruandluse võimalusi.
 author: aprilolson
-ms.date: 07/27/2021
+ms.date: 03/31/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: intro-internal
+ms.custom:
+- "10444"
+- intro-internal
 ms.assetid: 3eae6dc3-ee06-4b6d-9e7d-1ee2c3b10339
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1fbdab1f4f81bbdb8b0b5cb3e6a5237196d7dc76
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: e1db676024f5ec0f254500bd2ceee85ab2150502
+ms.sourcegitcommit: 777f9581dccc0f963c6a04c95b85e00e68573db5
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983973"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8527309"
 ---
 # <a name="get-started-with-financial-reporting"></a>Finantsaruandlusega alustamine 
 
@@ -174,7 +176,7 @@ Mõned tavalisemad juhud, mis võivad põhjustada probleeme aruande kujundaja av
 * Valige Internet Exploreris **Sätted** ja seejärel valige **Interneti suvandid**. Valige vahekaart **Turve**. Valige Usaldusväärsed saidid ja seejärel valige **Saidid**. Sisestage jaotisesse **Lisa see veebisait tsooni** väärtus „\*\.dynamics.com” (jutumärkideta) ja seejärel valige **Lisa**. 
 * Valige Internet Exploreris **Sätted** ja seejärel valige **Interneti suvandid**. Valige vahekaart **Turve**. Valige Usaldusväärsed saidid. Muutke alal, mille silt on Selle tsooni turbetase suvandi väärtuseks **Keskmine-madal**.
 * Keelake hüpikakende blokeerija oma brauseris.
-* Tööjaamad peavad installima Microsoft .NET Frameworki versiooni 4.6.2 või uuema. Selle Microsoft .NET Frameworki versiooni saab laadida alla ja installida [Microsofti allalaadimiskeskusest](https://www.microsoft.com/download/details.aspx?id=53345).
+* Tööjaamad peavad installima Microsoft .NET Frameworki versiooni 4.7.2 või uuema. Selle Microsoft .NET Frameworki versiooni saab laadida alla ja installida [Microsofti allalaadimiskeskusest](https://dotnet.microsoft.com/download/dotnet-framework/net472).
 * Kui kasutate Chrome’i brauserit, peate aruande koostaja kliendi allalaadimiseks installima laienduse ClickOnce. Kui töötate Chrome’is inkognito-režiimis, siis veenduge, et laiendus ClickOnce oleks inkognito-režiimi jaoks aktiveeritud. Lisateavet Chrome’i laiendi ClickOkone kohta vt teemast [Pilvjuurutuste süsteeminõuded](../../fin-ops-core/fin-ops/get-started/system-requirements.md).
 * Kui kasutate Microsoft Edge’i Chrome’i brauseriga, ei pea te Edge Chromiumi jaoks laiendust ClickOnce installima. Samas aruandekoosturi klientrakenduse allalaadimiseks peate suvandi ClickOnce lubama. Kui töötate inkognito-režiimis, siis veenduge, et laiendus ClickOnce oleks inkognito-režiimi jaoks aktiveeritud.
 

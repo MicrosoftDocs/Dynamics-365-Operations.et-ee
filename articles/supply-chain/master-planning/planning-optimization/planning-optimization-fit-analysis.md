@@ -1,7 +1,7 @@
 ---
 title: Planeerimise optimeerimise sobivuse analüüs
 description: Selles teemas selgitatakse, kuidas kontrollida praegust seadistust ja andmeid planeerimise optimeerimise funktsiooni võimaluste suhtes.
-author: ChristianRytt
+author: t-benebo
 ms.date: 07/07/2021
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 440cddca11df8d705757c6f6adf01e08626c5158
-ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
-ms.translationtype: HT
+ms.openlocfilehash: dccc955492d33e9e0156f2a5feb6b33387d80af3
+ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/12/2022
-ms.locfileid: "8408011"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "8487638"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Planeerimise optimeerimise sobivuse analüüs
 
@@ -84,7 +84,7 @@ Järgmises tabelis on toodud tulemused, mida võidakse kuvada pärast sobivuse a
 | Tootmine | Ressursipõhise tarbimisega koosluse-/valemiread: _\#_ | See funktsioon on ootel. Praegu eiratakse ressursipõhise tarbimisega koosluse-/valemiridasid, kui planeerimise optimeerimine on lubatud. Selle funktsiooni toetamisel kasutatakse materjalinõude korral tootmise alguskuupäeva. Kuni seda funktsiooni toetatakse, ei looda nõudeid materjalide jaoks, mis on märgitud ressursitarbimise lipuga. | 2022. oktoober |
 | Tootmine | Etapipõhise tarbimisega koosluse-/valemiread: _\#_ | See funktsioon on ootel. Praegu eiratakse koosluse-/valemiridadel etapipõhist tarbimist, kui planeerimise optimeerimine on lubatud. | 2022. oktoober |
 | Tootmine | Püsiva või muutuva praagiga määratletud kooslused: _\#_ | See funktsioon on ootel. Praegu eiratakse kooslustele määratud püsivat või muutuvat praaki, kui planeerimise optimeerimine on lubatud. | 2022. oktoober |
-| Tootmine | Allhankega kooslused: _\#_ | See funktsioon on ootel. Sellest sättest hoolimata eiratakse praegu koosluste allhankeseadistust, kui planeerimise optimeerimine on lubatud. | 2022. aprill |
+| Tootmine | Allhankega kooslused: _\#_ | Seda funktsiooni nüüd toetatakse. | Toetatud |
 | Tootmine | Kooslused ilma saidita: _\#_ | Seda funktsiooni nüüd toetatakse. Lisateavet vt jaotisest [Tootmise plaanimine](production-planning.md) | Toetatud |
 | Tootmine | Kindla koosluse või marsruudinõuetega nõudlus: _\#_ | See funktsioon on ootel. Praegu eiratakse nõudlusele määratud kindlaid koosluse või marsruudinõudeid (nt müügitellimuse alamkooslust või -marsruuti), kui planeerimise optimeerimine on lubatud. Sellest sättest hoolimata kasutatakse standardset kooslust või marsruuti. | 2022. oktoober |
 | Tootmine | Kaastoote/kõrvalsaadusega valemiversioonid: _\#_ | See funktsioon on ootel. Praegu eiratakse valemiversiooniga seotud kaastooteid ja kõrvalsaadusi, kui planeerimise optimeerimine on lubatud. | 2022. oktoober |

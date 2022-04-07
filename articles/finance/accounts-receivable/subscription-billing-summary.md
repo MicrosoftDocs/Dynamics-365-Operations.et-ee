@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2022-02-09
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: b94ac36e49d55ad42909877d77903cd40cb22cbe
-ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
-ms.translationtype: HT
+ms.openlocfilehash: 2796e25ec783941de381fb5ae96145eeba870bde
+ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8182708"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8462465"
 ---
 # <a name="subscription-billing-overview"></a>Kordustellimuse arvelduse ülevaade
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Kordustellimuse arveldamine võimaldab organisatsioonidel hallata kordustellimuste tuluvõimalusi ja korduvat arveldust arveldusgraafikute kaudu. Komplekshinna ja arveldusmudelid ning tulu eraldamine on hõlpsasti hallatavad ning neid arveldatakse ja tuvastatakse rea tasemel. Mitme elemendiga tulu eraldamine võimaldab tulu jaotamist vastama rahvusvahelistele raamatupidamisstandarditele (rahvusvaheline finantsaruandluse standard 15 IFRS 15\[\]) ja usa aktsepteeritud raamatupidamistavade (US GAAP) standarditele (raamatupidamisstandardite kodeerimise teema 606 \[ASC 606\]).
 

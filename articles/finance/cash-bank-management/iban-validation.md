@@ -1,23 +1,23 @@
 ---
 title: Rahvusvahelise pangakonto numbri (IBAN) konto valideerimise haldamine
 description: Selles teemas selgitatakse, kuidas hallata rahvusvahelise pangakonto numbri (IBAN) konto valideerimist.
-author: roschlom
+author: twheeloc
 ms.date: 08/24/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 210d2f57e21ec5ac38ba8ca07195e40ff507e2b9
-ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
-ms.translationtype: HT
+ms.openlocfilehash: 89d6c38088e43f0f24fa41accecaa262a64006cf
+ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7860815"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8462760"
 ---
 # <a name="manage-international-bank-account-number-iban-account-validation"></a>Rahvusvahelise pangakonto numbri (IBAN) konto valideerimise haldamine
 
@@ -25,13 +25,13 @@ ms.locfileid: "7860815"
 
 Rahvusvahelise pangakonto numbri (IBAN) valideerimine suurendab valideerimise hulka, mis tehakse IBAN-i lisamisel pangakontole.
 
-Teavet IBAN-i struktuuri kohta talletatakse rakenduses Microsoft Dynamics 365 Finance. See teave laaditakse automaatselt, kui kasutate pangakontodel esmakordselt IBAN-i. See sisaldab IBAN-i pikkust, pangakonto numbri ja protsessinumbri alguspositsioone ning pangakonto numbri ja protsessinumbri pikkuseid.
+Teave IBAN-i struktuuri kohta on Talletatud Microsoftis Dynamics 365 Finance ja see laaditakse automaatselt, kui kasutate esimest korda IBAN-i pangakontol. See sisaldab IBAN-i pikkust, pangakonto numbri ja protsessinumbri alguspositsioone ning pangakonto numbri ja protsessinumbri pikkuseid.
 
 ## <a name="set-up-iban-structures"></a>IBAN-i struktuuride seadistamine
 
 1. Minge jaotisse **Sularaha- ja pangahaldus \> Seadistus \> IBAN-i struktuurid**.
 2. Pange tähele, et iga riigi või piirkonna IBAN-i struktuurid on automaatselt seadistatud.
-3. Kui tahate struktuure konkreetse riigi või piirkonna jaoks kohandada, saate neid redigeerida.
+3. Kui teatud **riigi** või regiooni struktuuri on vaja uuendada, valige nupp Redigeeri.
 4. Struktuuri definitsioonid on osa igast uuest väljaandest. Pärast iga uuendust uusimate definitsioonide laadimiseks võite kasutada menüüd **Lähtesta struktuurid**.
 
 ## <a name="validate-the-iban-structure-in-a-bank-account"></a>IBAN-i struktuuri valideerimine pangakontol

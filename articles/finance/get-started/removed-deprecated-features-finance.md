@@ -1,23 +1,23 @@
 ---
 title: Dynamics 365 Financei eemaldatud või aegunud funktsioonid
 description: See teema kirjeldab funktsioone, mis on eemaldatud või plaanitakse eemaldada Dynamics 365 Finance'ist.
-author: roschlom
-ms.date: 12/03/2021
+author: kfend
+ms.date: 03/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User, Developer, IT Pro
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
-ms.author: roschlom
+ms.author: kfend
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: ad3df2ee9c10972dac8258b6ee41ae0a6eabfbea
-ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
+ms.openlocfilehash: 6df84e5c2d530e708560495bceaeb23e2ee0dd4b
+ms.sourcegitcommit: acac5e59be7c8f4e9a7ae9be58c636c70342e784
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7890949"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8466830"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Dynamics 365 Financei eemaldatud või aegunud funktsioonid
 
@@ -31,7 +31,21 @@ See teema kirjeldab funktsioone, mis on eemaldatud või plaanitakse eemaldada Dy
 See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võtta. 
 
 > [!NOTE]
-> Üksikasjalikku teavet rakenduse Finance and Operationsi rakenduste objektide kohta leiate teemast [Tehnilise teabe aruanded](/dynamics/s-e/global/axtechrefrep_61). Saate võrrelda nende aruannete eri versioone, et õppida objektide kohta, mida on igas Finance and Operationsi rakenduste versioonis muudetud või eemaldatud.
+> Finantside ja toimingute rakenduste objektide üksikasjaliku teabe leiate tehnilistest [viitearuannetest](/dynamics/s-e/global/axtechrefrep_61). Saate võrrelda nende aruannete erinevaid versioone, et saada teavet objektide kohta, mida on igas Finantsi ja operatsioonide rakenduste versioonis muudetud või eemaldatud.
+
+## <a name="features-removed-or-deprecated-in-the-finance-10026-release"></a>Finance'i väljalaskest 10.0.26 eemaldatud või aegunud funktsioonid
+
+### <a name="sales-tax-report-for-finland-design-based-on-reporting-codes"></a>Soome käibemaksuaruanne (aruandluskoodide põhjal põhinev kujundus)
+
+[Soome käibemaksu aruanne](../localizations/emea-fin-sales-tax-payment-report-finland.md)
+
+| &nbsp; | &nbsp; |
+|------------|--------------------|
+| **Aegumise/eemaldamise põhjus** | Asendatud uue KM-i deklaratsiooni kujundusega KM-i [deklaratsiooniga Soome jaoks](../localizations/emea-fin-vat-declaration.md) |
+| **Asendatud teise funktsiooniga?**   | Jah |
+| **Mõjutatud tootealad**         | Avaldus |
+| **Juurutamissuvand**              | Kõik |
+| **Olek**                         | Taunitud: 1. märtsiks 2023 ei toeta me enam Soome käibemaksuaruannet (Soome aruande küljendus). Uus **KM-deklaratsiooni TXT (FI**) **ja KM-deklaratsiooni Exceli (FI)** elektroonilise aruandluse (ER) vormingud tuuakse sisse maksudeklaratsiooni **mudeli** alusel. |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10024-release"></a>Finance'i väljalaskest 10.0.24 eemaldatud või aegunud funktsioonid
 
@@ -45,7 +59,7 @@ See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võ
 | **Asendatud teise funktsiooniga?**   | Jah |
 | **Mõjutatud tootealad**         | Avaldus |
 | **Juurutamissuvand**              | Kõik |
-| **Olek**                         | Taunitud: 1. detsembriks 2022 ei toeta me enam Rootsi käibemaksuaruannet (Rootsi aruande küljendus). Maksudeklaratsiooni mudelis tutvustatakse uut KM-deklaratsiooni XML-i (SE) ja KM-deklaratsiooni **Exceli** **·** (SE) elektroonilise aruandluse (ER) **vormingut**. |
+| **Olek**                         | Taunitud: 1. detsembriks 2022 ei toeta me enam Rootsi käibemaksuaruannet (Rootsi aruande küljendus). Maksudeklaratsiooni **mudelis tutvustatakse uut KM-deklaratsiooni XML-i (SE** **) ja KM-deklaratsiooni Exceli (SE)** elektroonilise aruandluse (ER) **vormingut**. |
 
 ### <a name="vat-statement-for-austria-design-based-on-reporting-codes"></a>Austria KM-aruanne (aruandluskoodide põhjal kujundus)
 
@@ -57,13 +71,13 @@ See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võ
 | **Asendatud teise funktsiooniga?**   | Jah |
 | **Mõjutatud tootealad**         | Avaldus |
 | **Juurutamissuvand**              | Kõik |
-| **Olek**                         | Taunitud: 1. detsembriks 2022 ei toeta me enam KM-i deklaratsiooni **(AT) elektroonilise aruandluse (ER) vormingut KM-i deklaratsiooni** **mudeli** all. Uus **KM-deklaratsiooni XML-i (AT)** **ja KM-deklaratsiooni Exceli (AT)** vormingud tuuakse sisse **maksudeklaratsiooni mudeli** alusel. |
+| **Olek**                         | Taunitud: 1. detsembriks 2022 **ei toeta me enam KM-i deklaratsiooni (AT) elektroonilise aruandluse (ER)** **vormingut KM-i deklaratsiooni mudeli all**. Uus **KM-deklaratsiooni XML-i (AT)** **ja KM-deklaratsiooni Exceli (AT)** vormingud tuuakse sisse maksudeklaratsiooni **mudeli** alusel. |
 
 ### <a name="elster-declaration-for-germany-design-based-on-reporting-codes"></a>ELSTER-i deklaratsioon Saksamaa jaoks (aruandluskoodide põhjal kujundus)
 
 [KM-aruanne](../localizations/emea-de-vat-declaration.md)</br>
 [Saate häälestada saksamaa elektroonilist maksudeklaratsiooni.](../../fin-ops-core/dev-itpro/analytics/tasks/setup-electronic-tax-declaration-germany.md)</br>
-[KM-i deklaratsiooni (ELSTER) elektrooniline edastamine](../localizations/tasks/de-00003-electronic-transmission-elster.md)
+[KM-deklaratsiooni (ELSTER) elektrooniline edastamine](../localizations/tasks/de-00003-electronic-transmission-elster.md)
 
 | &nbsp; | &nbsp; |
 |------------|--------------------|
@@ -71,7 +85,7 @@ See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võ
 | **Asendatud teise funktsiooniga?**   | Jah |
 | **Mõjutatud tootealad**         | Avaldus |
 | **Juurutamissuvand**              | Kõik |
-| **Olek**                         | Taunitud: 1. detsembriks 2022 ei plaani me enam **Elsteri (DE) ja Elsteri mudeli elektroonilise aruandluse** **·** (ER) vorminguid toetada. Uus **KM-deklaratsiooni XML-i (DE)** **ja KM-deklaratsiooni Exceli (DE)** vormingud tuuakse sisse **maksudeklaratsiooni mudeli** alusel. |
+| **Olek**                         | Taunitud: 1. detsembriks 2022 **ei plaani me enam Elsteri (DE)** **ja Elsteri** mudeli elektroonilise aruandluse (ER) vorminguid toetada. Uus **KM-deklaratsiooni XML-i (DE)** **ja KM-deklaratsiooni Exceli (DE)** vormingud tuuakse sisse maksudeklaratsiooni **mudeli** alusel. |
 
 ### <a name="ob-declaration-for-netherlands-design-based-on-reporting-codes"></a>OB-deklaratsioon Hollandi jaoks (aruandluskoodide põhjal kujundus)
 
@@ -83,7 +97,7 @@ See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võ
 | **Asendatud teise funktsiooniga?**   | Jah |
 | **Mõjutatud tootealad**         | Avaldus |
 | **Juurutamissuvand**              | Kõik |
-| **Olek**                         | Taunitud: 1. detsembriks 2022 ei plaani me enam toetada OB-deklaratsiooni (NL) ja OB-deklaratsioonimudeli elektroonilise **aruandluse** **·** (ER) vorminguid. Uue **KM-deklaratsiooni XML-i (NL)** **ja KM-deklaratsiooni Exceli (NL)** vormingud tuuakse sisse **maksudeklaratsiooni mudeli** alusel. |
+| **Olek**                         | Taunitud: 1. detsembriks 2022 **ei plaani me enam toetada OB-deklaratsiooni (NL)** **ja OB-deklaratsioonimudeli** elektroonilise aruandluse (ER) vorminguid. Uue **KM-deklaratsiooni XML-i (NL)** **ja KM-deklaratsiooni Exceli (NL)** vormingud tuuakse sisse maksudeklaratsiooni **mudeli** alusel. |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10020-release"></a>Finance'i väljalaskest 10.0.20 eemaldatud või aegunud funktsioonid
 

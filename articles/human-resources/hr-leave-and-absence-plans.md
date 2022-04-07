@@ -1,6 +1,6 @@
 ---
 title: Puhkuse ja puudumise plaani loomine
-description: Selles teemas kirjeldatakse, kuidas luua puhkuseplaane Dynamics 365 Human Resources erinevat tüüpi puhkuse jaoks.
+description: See teema kirjeldab, kuidas luua erinevat tüüpi Dynamics 365 Human Resources puhkuseplaane.
 author: twheeloc
 ms.date: 10/28/2021
 ms.topic: article
@@ -15,17 +15,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9267b4d4025ef0e5cec2d3e995785a6291c850e5
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 47a0db91a1c27e1c0b1117da79d9f8d2abc665cb
+ms.sourcegitcommit: 67c4ed957e43d4d60bb609d93921a0be9619e675
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070246"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8509580"
 ---
 # <a name="create-a-leave-and-absence-plan"></a>Puhkuse ja puudumise plaani loomine
 
+> [!Important]
+> Selles teemas märgitud funktsioone saavad kliendid praegu kasutada eraldiseisvas teenuses Dynamics 365 Human Resources. Osa või kõik funktsioonid on saadaval osana Finance'i taristu tulevasest väljalaskest pärast Finance'i versiooni 10.0.26.
 
-[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 

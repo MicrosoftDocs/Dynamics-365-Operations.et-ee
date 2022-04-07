@@ -2,7 +2,7 @@
 title: Euroopa käibemaksuaruandlus
 description: Selles teemas antakse üldine ülevaade käibemaksu (KM) aruande seadistamise ja koostamise kohta mõningates Euroopa riikides.
 author: ShylaThompson
-ms.date: 06/20/2017
+ms.date: 03/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Estonia, Finland, Germany, L
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b028c5a185b4e7626dd9258630cc469c4439fc37d1c9d1cd7d42007b0ec85736
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a1f7611dcf713e80f637a4b3f5542763050ac4a6
+ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741485"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "8487749"
 ---
 # <a name="vat-reporting-for-europe"></a>Euroopa käibemaksuaruandlus
 
@@ -39,6 +39,25 @@ See teema käsitleb üldiselt KM-aruande seadistamist ja koostamist. See lähene
 -   Leedu
 -   Holland
 -   Rootsi
+
+> [!IMPORTANT]
+> Selles teemas kirjeldatud funktsioonid Austria, Tšehhi Vabariigi, Saksamaa, Hollandi ja Rootsi puhul on taunitav. Lisateavet vt jaotisest Eemaldatud [ja aegunud funktsioonid](../get-started/removed-deprecated-features-finance.md).
+> Kasutage järgmise tabeli linke, et saada lisateavet km-i deklaratsiooni uue kujunduse kohta vastavates riikides.
+> 
+>
+> | Riik        | Lisateave                                                          |
+> |----------------|---------------------------------------------------------------------------------|
+> | Austria        | [KM-i deklaratsioon (Austria)](emea-aut-vat-declaration-austria.md)       |                                                                           
+> | Tšehhi Vabariik | [KM-deklaratsioon (Tšehhi Vabariik](emea-cze-vat-declaration-tax-declaration-model.md) |
+> | Taani        | [KM-deklaratsioon (Taani)](emea-dnk-vat-declaration-denmark.md)         |
+> | Prantsusmaa         | [KM-i deklaratsioon (Prantsusmaa)](emea-fra-vat-declaration-preview-france.md)       |
+> | Saksamaa        | [KM-i deklaratsioon (Saksamaa)](emea-deu-vat-declaration-germany.md)           |
+> | Holland    | [KM-deklaratsioon (Holland)](emea-nl-vat-declaration-netherlands.md)    |
+> | Norra         | [Käibemaksutagastus otseedastusega Altinnile](emea-nor-vat-return.md) |
+> | Hispaania          | [KM-i deklaratsioon (Hispaania)](emea-esp-vat-declaration-spain.md)              |
+> | Rootsi         | [KM-i deklaratsioon (Rootsi)](emea-swe-vat-declaration-sweden.md)          |
+> | Šveits    | [KM-deklaratsioon (Šveits)](emea-che-vat-declaration-switzerland.md) |
+> | UK             | [Ettevalmistamine INTEGREERIMISEks MRD-ga KM jaoks](emea-gbr-mtd-vat-integration.md) |
 
 ## <a name="vat-statement-overview"></a>KM-aruande ülevaade
 KM-aruanne põhineb maksukannete summadel. KM-aruande koostamise protsess kuulub käibemaksu tasumise protsessi juurde, mida rakendatakse funktsiooni Käibemaksu tasakaalustamine ja sisestamine kaudu. See funktsioon arvutab käibemaksu, mille tähtaeg jääb antud perioodi sisse. Tasakaalustuse arvutamine sisaldab maksukannete valitud tasakaalustusperioodil sisestatud käibemaksu. KM-aruande andmete arvutusprotsess põhineb käibemaksukoodide ja käibemaksuaruandluse koodide vahelisel seosel, mille alusel käibemaksuaruandluse koodid vastavad käibemaksuaruannete väljadele (või XML-i siltidele). Iga käibemaksukoodi puhul tuleb seadistada igale kandetüübile (nt maksustatav müügikäive, maksustatavad ostud, maksustatav import) käibemaksuaruandluse koodid. Seda liiki kandeid on kirjeldatud selle teema edasises jaotises KM-koodid KM-aruandluse jaoks.
@@ -258,10 +277,10 @@ Iga riigi KM-aruanne peab vastama selle riigi seaduste nõuetele. Järgmises tab
 
 | Riik        | Lisateave                                                          |
 |----------------|---------------------------------------------------------------------------------|
-| Austria        |  [KM-aruande üksikasjad Austria puhul](emea-aut-vat-statement-details.md)         |
+| Austria        | [KM-aruande üksikasjad Austria puhul](emea-aut-vat-statement-details.md)         |
 | Belgia        |                                                                                 |
-| Tšehhi Vabariik |  [KM-aruanne Tšehhi Vabariigis](emea-cze-vat-statement-details.md)   |
-| Eesti        |  [KM-aruande üksikasjad Eesti puhul](emea-est-vat-statement-details.md) |
+| Tšehhi Vabariik | [KM-aruanne Tšehhi Vabariigis](emea-cze-vat-statement-details.md)   |
+| Eesti        | [KM-aruande üksikasjad Eesti puhul](emea-est-vat-statement-details.md) |
 | Soome        | [Soome käibemaksu aruanne](emea-fin-sales-tax-payment-report-finland.md)          |
 | Saksamaa        | [Saksamaa KM-i deklaratsioon](emea-de-vat-declaration.md)                       |
 | Itaalia          | [KM-aruannete üksikasjad Itaalias](emea-ita-vat-statements-details.md)            |

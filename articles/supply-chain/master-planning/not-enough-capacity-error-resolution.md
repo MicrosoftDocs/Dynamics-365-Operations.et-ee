@@ -1,22 +1,22 @@
 ---
 title: Parandage plaanimismootori tõrge ja piiratud võimsus, et ei leitud piisavalt võimsust
 description: Selles teemas antakse teavet tootmistellimuse põhjuste ja käskude %1 kohta, mida ei saa planeerida. Ajastamismootori tõrge ei leitud' pole piisav.
-author: ChristianRytt
+author: t-benebo
 ms.date: 7/29/2021
 ms.topic: article
 ms.search.form: ProdTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: crytt
+ms.author: benebotg
 ms.search.validFrom: 2021-07-19
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: becd537d37a8ba8931f2598dccbae8554a4d168e
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: a3c08dc72c7133a2ebb148a2f88f83fee282717b
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985026"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8469837"
 ---
 # <a name="fix-the-not-enough-capacity-could-be-found-scheduling-engine-error"></a>Ajastamismootori tõrke 'Ei leitud piisavalt võimsust' lahendamine
 

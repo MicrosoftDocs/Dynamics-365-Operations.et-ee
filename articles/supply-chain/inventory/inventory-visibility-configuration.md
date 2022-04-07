@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 8ba478fef424a6c4688191ed4e5375bbce52de0c
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
-ms.translationtype: MT
+ms.openlocfilehash: adab5ee3f626390355f4bab1227efd5fe58c2fcf
+ms.sourcegitcommit: a3b121a8c8daa601021fee275d41a95325d12e7a
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060997"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8524517"
 ---
 # <a name="configure-inventory-visibility"></a>Varude nähtavuse konfigureerimine
 
@@ -39,29 +39,32 @@ Enne kui alustate Varude nähtavusega tööd, peate lõpuni viima järgmise konf
 
 Enne alustamist installige ja seadistage Inventory Visibility lisandmoodul, nagu on kirjeldatud jaotises [Inventory Visibility installimine ja seadistamine](inventory-visibility-setup.md).
 
-## <a name="enable-inventory-visibility-features-in-power-apps-feature-management"></a><a name="feature-switch"></a>Inventory Visibility funktsioonide lubamine Power Apps funktsioonihalduses
-
-Inventory Visibility lisandmoodul lisab teie installile mitu uut Power Apps funktsiooni. Vaikimisi on need funktsioonid välja lülitatud. Nende kasutamiseks avage Power Apps`i leht **Konfiguratsioon** ja seejärel lülitage vahekaardil **Funktsioonihaldus** sisse järgmised lisad.
-
-- *OnHandReservation*
-- *OnHandMostSpecificBackgroundService*
-
-## <a name="find-the-service-endpoint"></a><a name="get-service-endpoint"></a>Teenuse lõpp-punkti leidmine
-
-Kui te ei tea õiget Varude nähtavuse teenuse lõpp-punkti, avage Power Appsi leht **Konfiguratsioon** ja seejärel valige paremast ülanurgast **Kuva teenuse lõpp-punkti**. Lehel kuvatakse õige teenuse lõpp-punkt.
-
 ## <a name="the-configuration-page-of-the-inventory-visibility-app"></a><a name="configuration"></a>Inventory Visibility rakenduse konfiguratsioonileht
 
 Power Apps rakenduses **Konfiguratsioon** lehel [Inventory Visibility rakendus](inventory-visibility-power-platform.md) aitab teil seadistada konfiguratsiooni ja tarkvara reserveerimise konfiguratsiooni. Pärast lisandmooduli installimist sisaldab vaikekonfiguratsioon Microsoft Dynamics 365 Supply Chain Management-i väärtust (`fno` andmeallikas). Vaikesätted on võimalik üle vaadata. Lisaks sellele saate vastavalt teie äritegevuse nõuetele ja välise süsteemi lao sisestusnõuetele muuta konfiguratsiooni lahenduses , et ühtlustada viisi, kuidas saab erinevates süsteemides varude muudatusi sisestada, korraldada ja nende kohta päringuid esitada. Selle teema ülejäänud jaotised selgitavad, kuidas kasutada iga **konfiguratsiooni** lehe osa.
 
 Kui konfiguratsioon on lõpule viidud, valige kindlasti rakenduses **Konfiguratsiooni värskendamine**.
 
+## <a name="enable-inventory-visibility-features-in-power-apps-feature-management"></a><a name="feature-switch"></a>Inventory Visibility funktsioonide lubamine Power Apps funktsioonihalduses
+
+Inventory Visibility lisandmoodul lisab teie installile mitu uut Power Apps funktsiooni. Vaikimisi on need funktsioonid välja lülitatud. Nende kasutamiseks avage **konfiguratsioonileht** ja lülitage **seejärel vahekaardil Funktsioonihaldus** sisse järgmised funktsioonid vastavalt vajadusele.
+
+| Funktsioonihalduse nimi | Kirjeldus |
+|---|---|
+| OnHandReservation | See funktsioon võimaldab varude nähtavust kasutades luua reserveeringuid, tarbida reserveeringuid ja/või reserveerimata laokoguseid. Lisateavet vt teemast [Varude nähtavuse reserveeringud](inventory-visibility-reservations.md). |
+| OnHandMostSpecificBackgroundService | See funktsioon annab kaubavarude kokkuvõtte toodetele koos kõigi dimensioonidega. Lao koondandmed sünkroonitakse perioodiliselt laovarude nähtavuse väljalt. Lisateavet vt laovarude [kokkuvõttest](inventory-visibility-power-platform.md#inventory-summary). |
+| Sõlm OnhandChangeSchedule | See funktsioon võimaldab vaba kaubavaru muutmise graafikut ja on saadaval lubamiseks (atp) funktsioone (valikuline). Lisateavet vt varude nähtavuse [vaba kaubavaru muutmise graafikutest ja lubaduse andmiseks saadaval](inventory-visibility-available-to-promise.md). |
+
+## <a name="find-the-service-endpoint"></a><a name="get-service-endpoint"></a>Teenuse lõpp-punkti leidmine
+
+Kui te ei tea õiget Varude nähtavuse teenuse lõpp-punkti, avage Power Appsi leht **Konfiguratsioon** ja seejärel valige paremast ülanurgast **Kuva teenuse lõpp-punkti**. Lehel kuvatakse õige teenuse lõpp-punkt.
+
 ## <a name="data-source-configuration"></a>Andmeallika konfiguratsioon
 
-Iga andmeallikas tähistab süsteemi, millest teie andmed tulevad. Andmeallika näidisnimed on (`fno` mis tähendab "Dynamics 365 Finance ja Operationsi rakendused) ja `pos` (mis tähendab "müügikohta"). Vaikimisi on rakenduse Varude nähtavus andmeallikaks (`fno`) seadistatud Supply Chain Management.
+Iga andmeallikas tähistab süsteemi, millest teie andmed tulevad. Andmeallikate nimede näited `fno` on (st "Dynamics 365 Finance ja toimingute rakendused") `pos` ja (st müügikohad"). Vaikimisi on rakenduse Varude nähtavus andmeallikaks (`fno`) seadistatud Supply Chain Management.
 
 > [!NOTE]
-> Andmeallikas `fno` on reserveeritud tarneahela juhtimisele. Kui teie varude nähtavuse lisandmoodul on integreeritud tarneahela halduse keskkonnaga, soovitame teil andmeallikas konfiguratsioonid mitte kustutada`fno`.
+> Andmeallikas `fno` on reserveeritud tarneahela haldamiseks. Kui varude nähtavuse lisandmoodul on integreeritud tarneahela halduskeskkonnaga, on soovitatav mitte kustutada andmeallikaga `fno` seotud konfiguratsioone.
 
 Andmeallika lisamiseks toimige järgmiselt.
 
@@ -178,15 +181,21 @@ Kohandatud arvutatud mõõtme seadistamiseks toimige järgmiselt.
 
 1. Logige keskkonda Power Apps sisse ja avage **Varude nähtavus**.
 1. Avage lehekülg **Konfiguratsioon**.
-1. Tehke arvutatud mõõtme lisamiseks vahekaardil **Arvutatud mõõde** valik **Uus arvutatud mõõde**. Seejärel häälestage järgmises tabelis kirjeldatud väljad.
+1. Tehke arvutatud mõõtme lisamiseks vahekaardil **Arvutatud mõõde** valik **Uus arvutatud mõõde**.
+1. Seadke uuele arvutatud mõõtudele järgmised väljad:
 
-    | Field | Väärtus |
-    |---|---|
-    | Uue arvutatud mõõtme nimi | Sisestage arvutatud mõõtme nimi. |
-    | Andmeallikas | Päringusüsteem on andmeallikas. |
-    | Muutuja andmeallikas | Sisestage muutuja andmeallikas. |
-    | Muutuja | Sisestage muutuja nimi. |
-    | Muutuja tüüp | Valige muutuja tüüp (*Liitmine* või *Lahutamine*). |
+    - **Uus arvutatud mõõtunimi** – sisestage arvutatud mõõtu nimi.
+    - **Andmeallikas** : valige uue muutujaga seostatud andmeallikas. Päringusüsteem on andmeallikas.
+
+1. Valige **lisa**, et lisada uuele arvutatud mõõtu muutja.
+1. Seadke uuele muutujale järgmised väljad:
+
+    - **Modifikaatoriga**: valige muutuja tüüp (liitmine *või* *lahutamine*).
+    - **Andmeallikas** : valige andmeallikas, kust tuleks leida muutuja väärtusega mõõt.
+    - **Mõõt**: valige mõõtu nimi (valitud andmeallikast), mis annab muutujale väärtuse.
+
+1. Korrake juhiseid 5–6, kuni olete kõik vajalikud modifikaatorid lisanud.
+1. Valige käsk **Salvesta**.
 
 Näiteks on teil järgmised päringutulemused.
 
@@ -273,17 +282,17 @@ Selle arvutusvalemi kasutamisel sisaldab uus päringutulemus kohandatud mõõdet
 
 ## <a name="partition-configuration"></a><a name="partition-configuration"></a>Sektsiooni konfiguratsioon
 
-Praegu koosneb sektsiooni konfiguratsioon kahest põhimõõtmest (`SiteId` ja `LocationId`), mis näitavad, kuidas andmeid jaotatakse. Sama sektsiooni all olevad toimingud võivad pakkuda suuremat jõudlust madalamate kuludega. Järgmises tabelis kuvatakse varude nähtavuse lisandmooduli esitatud sektsiooni vaikekonfiguratsioon.
+Sektsiooni konfiguratsioon koosneb praegu kahest põhidimensioonist (`SiteId``LocationId` ja ) sellest, kuidas andmeid jaotatakse. Sama sektsiooni toimingutega saab madalama hinnaga jõudlust parandada. Järgmine tabel näitab vaikimisi sektsiooni konfiguratsiooni, mille pakub varude nähtavuse lisandmoodul.
 
 | Põhidimensioon | Hierarhia |
 |---|---|
 | `SiteId` | 1 |
 | `LocationId` | 2 |
 
-Lahendus sisaldab vaikimisi seda sektsiooni konfiguratsiooni. Seetõttu *ei pea te seda ise määratlema*.
+Lahendus sisaldab vaikimisi seda sektsiooni konfiguratsiooni. Seetõttu ei *pea te seda ise määratlema*.
 
 > [!IMPORTANT]
-> Ärge kohandage sektsiooni vaikekonfiguratsiooni. Kui kustutate või muudate seda, põhjustate tõenäoliselt ootamatu tõrke.
+> Ärge kohandage sektsiooni vaikekonfiguratsiooni. Selle kustutamisel või muutmisel võib põhjustada ootamatu tõrge.
 
 ## <a name="product-index-hierarchy-configuration"></a><a name="index-configuration"></a>Tooteindeksi hierarhia konfiguratsioon
 
@@ -465,6 +474,10 @@ Selles näites saate reserveerida järgmisi dimensioonide järjestusi. Reserveer
 - `(SiteId, LocationId, ColorId, SizeId, StyleId)`
 
 Kehtiv dimensioonijärjestus peaks rangelt järgima reserveerimise hierarhiat dimesnioonide kaupa. Näiteks hierarhia järjestus `(SiteId, LocationId, SizeId)` ei kehti, kuna `ColorId` puudub.
+
+## <a name="available-to-promise-configuration-optional"></a>Saadaval konfiguratsiooni lubaduse jaoks (valikuline)
+
+Saate seadistada varude nähtavuse, et lubada teil planeerida tulevasi vaba kaubavaru muudatusi ja arvutada saadaolevaid (ATP) koguseid. ATP on kauba kogus, mis on saadaval ja mida saab kliendile järgmisel perioodil lubada. Selle arvutuse kasutamine võib tellimuse täitmise võimalusi oluliselt suurendada. Selle funktsiooni kasutamiseks peate selle lubama vahekaardil **Funktsioonihaldus** ja seejärel seadistama selle **ATP sätte vahekaardil** . Lisateavet vt varude nähtavuse [vaba kaubavaru muutmise graafikutest ja lubaduse andmiseks saadaval](inventory-visibility-available-to-promise.md).
 
 ## <a name="complete-and-update-the-configuration"></a>Lõpetage ja värskendage konfiguratsioon
 

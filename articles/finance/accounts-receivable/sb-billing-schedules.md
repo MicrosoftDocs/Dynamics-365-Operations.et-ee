@@ -1,5 +1,5 @@
 ---
-title: Arveldusgraafiku ülevaade
+title: Arveldusgraafikute loomine
 description: See teema kirjeldab, kuidas arveldusgraafikuid luua, kustutada ja redigeerida.
 author: JodiChristiansen
 ms.date: 02/09/2022
@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: e42be3f359e96f0861354ebc8e1e9c87478a5d89
-ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
-ms.translationtype: HT
+ms.openlocfilehash: 2c4e3c0edadd00fd3a3f2ae9968248a226147996
+ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8182711"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8462583"
 ---
-# <a name="billing-schedule-overview"></a>Arveldusgraafiku ülevaade
+# <a name="create-billing-schedules"></a>Arveldusgraafikute loomine
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Arveldusgraafiku **lehel** saate arveldusgraafikuid luua, kustutada või redigeerida. Saate ka vaadata arveldusgraafikute loendit. Kui loote arveldusgraafiku, määravad sellega seotud arveldusgrupi vaikeväärtused. Lisateave on häälestatud korduva lepingu **arveldusparameetrite lehel**.
 
@@ -91,7 +90,7 @@ Kauba eemaldamiseks arveldusgraafikust järgige neid samme.
 
 Arveldusgraafiku ridade kiirkaardi **nupud** lasevad teil rakendada tegevusi üksikutele ridadele.
 
-| Nööp | Kirjeldus |
+| Nupp | Kirjeldus |
 |--------|-------------|
 | Lisa rida | Lisage arveldusgraafikule rida. |
 | Kaupade loendist lisamine | Lisage arveldusgraafikusse mitu üksust, valides need loendist. |
@@ -135,7 +134,7 @@ Järgmine teave on saadaval vahekaardil **Üldine**.
 
 Järgmine teave on saadaval vahekaardil **Aadress**.
 
-| Field | Kirjeldus |
+| Väli | Kirjeldus |
 |-------|-------------|
 | Tarneaadress | <p>Valige reaüksuse tarneaadress. Vaikimisi on tarneaadress esmane tarneaadress aadressi **kiirkaardilt**.</p><p>Aadressi muutmisel saate valida järgmiste aadressivalikute vahel:</p><ul><li>**Aadressid** – valige praeguse kliendi aadress.</li><li>**Kasutusel**: valige aadress, mida praegu praeguse kliendi jaoks kasutatakse.</li><li>**Muu aadress** – valige aadress iga kliendikirje jaoks.</li></ul><p>Kaupade puhul, mis kasutavad tulu tükeldamist, saab redigeerida ainult emakauba aadressi. Tütarüksuste aadress vastab emaüksuse aadressile ja seda ei saa eraldi redigeerida.</p> |
 | Maksja aadress | <p>Valige reaüksusele maksja aadress. Vaikimisi on tarneaadress esmane tarneaadress aadressi **kiirkaardilt**. Aadressi saate olemasolevate aadresside eesmärgi alusel vastavalt vajadusele muuta.</p><ul><li>Kui ühelgi aadressil puudub **arve eesmärk**, on vaikimisi maksja aadress kliendi esmane aadress, sõltumata eesmärgist.</li><li>Kui ühel või rohkemal aadressil on arve **eesmärk**, on vaikimisi maksja aadress aadress, mis viimati sisestati.</li><li>Kui ühel või **rohkemal** aadressil on arve eesmärk ja üks arve aadressidest on seadistatud esmaseks aadressiks, on maksja vaikeaadress **aadress**, mis on arve eesmärk ja seadistatud esmaseks aadressiks.</li><li>Kaupade puhul, mis kasutavad tulu tükeldamist, saab redigeerida ainult emakauba aadressi. Tütarüksuste aadress vastab emaüksuse aadressile ja seda ei saa eraldi redigeerida.</li></ul> |
@@ -153,7 +152,7 @@ Järgmine teave on saadaval vahekaardil **Toode**.
 
 Järgmine teave on saadaval vahekaardil **Konto**.
 
-| Field | Kirjeldus |
+| Väli | Kirjeldus |
 |-------|-------------|
 | Põhikonto | Müügireal loodud põhikonto. Vaikeväärtus tuleb müügitellimuselt. Välja võib tühjaks jätta. |
 | Kauba finantsdimensioonid | <p>Vaikimisi finantsdimensiooni väärtused, mis põhinevad kliendi ja kauba kirjel.</p><p>Kaupade puhul, mis kasutavad tulu tükeldamist, kasutavad tütarüksused kliendi ja kauba kirjete finantsdimensiooni väärtusi, nagu varem kirjeldatud. Kui peate alamüksuste finantsdimensiooni väärtuseid uuendama, saate andmeüksuse importida.</p> |
@@ -162,16 +161,16 @@ Järgmine teave on saadaval vahekaardil **Konto**.
 
 Järgmine teave on saadaval vahekaardil **Uuendamised**.
 
-| Field | Kirjeldus |
+| Väli | Kirjeldus |
 |-------|-------------|
 | Uuenda automaatselt | <p>Väärtus, mis näitab, kas arveldusgraafiku rida värskendatakse automaatselt järgmisele arveldusperioodile:</p><ul><li>**Jah** – arve loomisel uuendatakse arveldusgraafiku rida järgmise arveldusperioodi jaoks automaatselt.</li><li>**Ei** – arveldusgraafiku rida ei värskendata automaatselt. Peate arveldusgraafikut käsitsi uuendama.</li></ul> |
 | Lisatavad read uuenduse kohta | Ridade arv, mida lisada arveldusgraafiku uuendamisele. |
 
 Lisaks on vahekaardil Uuendamised saadaval järgmised **nupud**.
 
-| Nööp | Kirjeldus |
+| Nupp | Kirjeldus |
 |--------|-------------|
-| Segmentimata tulu töölehe sisestuse audit | Vaadake kõiki muudatusi kaupade puhul, mis kasutavad kulumata tulu funktsiooni. |
+| Arveldamata tulu töölehe sisestuse audit | Vaadake kõiki muudatusi kaupade puhul, mis kasutavad kulumata tulu funktsiooni. |
 | Uuendamise tingimuse lisamine | Lisage kaubale uuendamistermin. Uue uuendamistermini alguskuupäev on järgmine kuupäev pärast eelmise perioodi lõppkuupäeva. Väljad **Uuendamise lõppkuupäev**, **Viitvõla alguskuupäev**, **Viitvõla lõppkuupäev**, **Kauba** **kogus** ja Ühiku hind saab värskendada. |
 | Uuendamise tähtaja muutmine | <p>Uuendamistermini muutmine. Esialgseks termin võib muuta viitvõla algus- ja lõppkuupäevi enne algse töölehe sisestuse loomist. Järgmiste tingimuste puhul ei saa alguskuupäeva muuta. See on alati järgmine kuupäev pärast eelmise tähtaja lõppu.</p><p>Kui uuendamistermin on olemas pärast muutmist, ei saa selle kuupäeva muuta. Sel juhul saab uuendada **ainult** uuendatava **kauba** välju Kogus ja Ühiku hind.</p><p>Näiteks on olemas kolm terminit. <ul><li>Esimest terminit ei saa muuta, kuna see on juba alanud.</li><li>Teise termini puhul saab muuta ainult kogust ja ühikuhinda.</li><li>Kolmanda termini puhul saab muuta kõiki väärtusi, v.a alguskuupäev. Lisaks võimaldab mallist **plaanimine** luua viitvõlagraafiku, mis põhineb tasumata tulu kauba mallil. Kui see suvand on seatud väärtusele **Jah**, **valige** malliväljal viitvõla mall ja muutke vajaduse järgi viitvõla algus- ja lõppkuupäevi. Järgnevad uuendamistingimused kasutavad sama viitvõlamalli. Kuid viitvõla malli saab muuta.</p></li></ul> |
 
@@ -179,7 +178,7 @@ Lisaks on vahekaardil Uuendamised saadaval järgmised **nupud**.
 
 Järgnev teave on saadaval vahekaardil **Lõpetamine**.
 
-| Field | Kirjeldus |
+| Väli | Kirjeldus |
 |-------|-------------|
 | Lõpetamiskuupäev | Kuupäev, millal arveldusgraafiku rida lõpetatakse. Vaikeväärtus põhineb päise väljal **Lõpetamiskuupäev**. Väärtust saate vajaduse korral muuta. |
 | Lõpetamise tüüp | Lõpetamise tüüp. Vaikeväärtus kuvatakse päise väljalt **Lepingu** lõpetamise tüüp. |
@@ -192,7 +191,7 @@ Kui kasutatakse tulu- ja kulu viitvõlgu, **kuvatakse** vahekaardil Ootel viitv�
 
 Järgmine teave on saadaval vahekaardil Laiendus **ja allahindlus**.
 
-| Field | Kirjeldus |
+| Väli | Kirjeldus |
 |-------|-------------|
 | Laiendus | <p>Valige, kas eskalatsioonid on arveldusgraafiku rea puhul lubatud. Mis tahes päise eskalatsioonirida rakendatakse arveldusgraafiku rea loomisel.</p><ul><li>**Jah** – eskalatsioone saab reale rakendada. Kui see suvand on **valitud, saate seadistada laiendused arveldusgraafiku ridade jaoks laienduse ja allahindluse** lehel.</li><li>**Ei** – laiendusi ei saa reale rakendada.</li></ul><p>Vaikesäte põhineb valitud arveldusgraafiku **grupil**.</p> |
 

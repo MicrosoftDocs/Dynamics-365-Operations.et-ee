@@ -1,5 +1,5 @@
 ---
-title: Dynamics 365 Supply Chain Management 10.0.25 (aprill 2022) eelversioon
+title: Mis on uut või mida on muudetud rakenduses Dynamics 365 Supply Chain Management 10.0.25 (aprill, 2022)?
 description: Selles teemas kirjeldatakse Microsoft Dynamics 365 Supply Chain Management 10.0.25 uusi või muutunud funktsioone.
 author: kamaybac
 ms.date: 03/14/2022
@@ -10,19 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 26f67be72948e33738cf805b541d3c7e701f8dba
-ms.sourcegitcommit: a8f4d7d21d9af17d80b1213e5e1a81f42fb8b928
-ms.translationtype: HT
+ms.openlocfilehash: 27f3233ebb3363abcbfc5b98b3786865fa32366c
+ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/14/2022
-ms.locfileid: "8414116"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8462435"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10025-april-2022"></a>Dynamics 365 Supply Chain Management 10.0.25 (aprill 2022) eelversioon
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10025-april-2022"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 Supply Chain Management 10.0.25 (aprill, 2022)?
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Selles teemas loetletakse rakenduse Microsoft Dynamics 365 Supply Chain Management eelversiooni 10.0.25 uued või muutunud funktsioonid. Selle versiooni number on 10.0.1149 ja see on saadaval järgmiselt:
+Selles teemas loendatakse Microsoft Dynamics 365 Supply Chain Managementi versiooni 10.0.25 uusi või muutunud funktsioone. Selle versiooni number on 10.0.1149 ja see on saadaval järgmiselt:
 
 - **Väljaande eelversioon:** veebruar 2022
 - **Väljalaske üldine kättesaadavus (iseseisev värskendamine):** märts 2022

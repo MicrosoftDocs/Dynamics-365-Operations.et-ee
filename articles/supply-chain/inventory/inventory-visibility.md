@@ -2,52 +2,74 @@
 title: Varude nähtavuse lisandmooduli ülevaade
 description: See teema selgitab mis Varude nähtavus on ja kirjeldab selle funktsioone.
 author: yufeihuang
-ms.date: 10/26/2020
+ms.date: 03/18/2022
 ms.topic: overview
-ms.prod: ''
-ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 8871d10dac9103f17780989bc547b6c20ba79b76
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: 9ee6229937ea27adf231dcd1c9921878e53bd981
+ms.sourcegitcommit: a3b121a8c8daa601021fee275d41a95325d12e7a
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985541"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8524489"
 ---
 # <a name="inventory-visibility-add-in-overview"></a>Varude nähtavuse lisandmooduli ülevaade
 
 [!include [banner](../includes/banner.md)]
 
-Varude nähtavuse lisandmoodul (mida nimetatakse ka *Varude nähtavuseks*) on sõltumatu ja väga muutuv mikroteenus, mis võimaldab reaalajas vaba kaubavaru jälgimist. Seega annab see varudest globaalse ülevaate.
+Varude nähtavuse lisa (*mida* nimetatakse ka varude nähtavuse teenuseks) pakub iseseisvat ja väga skaleeritavat mikroteenust, mis võimaldab reaalajas vaba kaubavaru muudatuste sisestusi ja nähtavuse jälgimist läbi kõigi andmeallikate ja kanalite. See pakub platvormi, mis võimaldab teil hallata oma globaalset kaubavaru, kasutades funktsioone, mis sisaldavad (kuid ei ole piiratud) järgmist loendit:
 
-Välised süsteemid pääsevad teenusesse läbi RESTful API-de. Sel viisil saavad nad teha päringuid antud dimensioonikomplektide vaba kaubavaru kohta või teha laoseisus muudatusi erinevates kohandatud andmeallikates.
+- Jälgige kõigi andmeallikate, ladude ja asukohtade viimast varude olekut (nt laoseis, tellitud, ostetud, transiidis, tagastatud ja vahelattu) läbi kõigi andmeallikate, ladude ja asukohtade, ühendades oma hankeahela halduse või kolmanda osapoole logistika andmeallikad (nt tellimuse haldussüsteemid, \[kolmanda osapoole ettevõtte ressursside plaanimise ERP-süsteem\], \[\] müügi kassasüsteem ja laohaldussüsteem) varude nähtavuse teenusega.
+- Tehke päring vaba laovaru saadavuse ja puudujäägi kohta ning hankige kohesed vastused, kutsudes otse lao nähtavuse teenuse.
+- Vältige ülemüüdamist, eriti siis, kui teie nõudlus pärineb erinevatest kanalitest, tehes reaalaja soft reserveerimised varude nähtavuse teenuses.
+- Parem hallake lubatud tellimusi ja kliendi ootusi, pakkudes täpseid praeguseid või järgmiseid saadaolevaid kuupäevi, nii et lubaduse andmiseks saadaolev (ATP) funktsioon saab arvutada eeldatava tellimuse täitmiskuupäevi.
 
-Microsoft Dataverse'ile loodud mikroteenusena pakub Varude nähtavus laiendatavust. Saate rakenduste loomiseks kasutada Power Appsi. Saate rakendada ka Power BI-d, et pakkuda teie ärivajadustele vastavat kohandatud funktsionaalsust.
+## <a name="extensibility"></a>Laiendatavus
 
-Varude nähtavuse saate integreerida mitme kolmanda osapoole süsteemiga, seadistades standardiseeritud varude dimensioonide konfiguratsiooni valikud ja seadistades kandetüübid. Varude nähtavus toetab ka kohandatud laiendatavust konfigureeritavate arvutatud koguste kaudu.
+Varude nähtavuse teenus on väga laiendatav, kuna andmete sisestus ja väljund pole piiratud Microsofti rakendustega. Välissüsteemidel on juurdepääs teenusele RESTful-rakenduse programmeerimisliideste (API-d) kaudu. Lisaks boksist väljas vastendustele, mida antakse tarneahela halduse andmeallikale ja dimensioonidele, saate integreerida varude nähtavuse mitme kolmanda osapoole süsteemiga, seadistades täiendavad andmeallikad, varude oleku mõõdud (*mida* nimetatakse füüsilisteks mõõtudeks varude nähtavuse teenuses) ja varude dimensioone konfiguratsioonirakenduse kaudu. Sel viisil saate teha päringuid ja muuta mitmeid andmeallikaid ning eelmääratletud varude dimensioone.
 
-## <a name="inventory-visibility-integration-with-dynamics-365-supply-chain-management"></a>Inventory Visibility integratsioon rakendusega Dynamics 365 Supply Chain Management
+Peale selle saab varude nähtavuse loonud Microsoft Dataverse andmete põhjal luua ja integreerida neid andmetega Power Apps. Samuti saate luua kohandatud Power BI armatuurlaudu, mis vastavad teie äritegevuse vajadustele.
 
-Integreeritud lahendus tõmbab varude andmeid rakendusest Dynamics 365 Supply Chain Management ja jälgib pidevalt varude muutusi. Lisateabe saamiseks vt [Inventory Visibility installimine ja seadistamine](inventory-visibility-setup.md) ning [Inventory Visibility konfigureerimine](inventory-visibility-configuration.md).
+## <a name="scalability"></a>Mastaapsuse
 
-## <a name="get-a-global-view-of-inventory"></a>Varude globaalse ülevaate saamine
+Varude nähtavuse teenust saab sõltuvalt andmemahust kas üles või alla astaabida. Skaleeritavus on enamasti tõrgeteta ja Microsofti platvormi meeskond viib seda läbi kannete andmemahtu automaatse tuvastamise ja hindamise alusel.
 
-Integreeritud lahendus võimaldab teil määratleda oma andmeallikad ja tsentraliseerida varude andmed. Lisateavet vt teemast [Inventory Visibility konfigureerimine](inventory-visibility-configuration.md).
+## <a name="feature-highlights"></a>Esiletõstetud funktsioonid
 
-Varude vaatamisele on kaks lähenemist.
+### <a name="get-a-global-view-of-real-time-inventory"></a>Reaalajas lao globaalvaate saamine
 
-- Päringu esitamine suure jõudlusega API kaudu. See API võib tagastada peaaegu reaalajas laoandmed otse vahemällu talletatud eksemplarist. Lepinguid ja näidiseid leiate varude jaotisest [Varude nähtavuse avalikud APId](inventory-visibility-api.md).
-- Vaba kaubavaru loendi vaatamine. See loend sünkroonitakse perioodiliselt vahemällu talletatud eksemplarist ja see on nähtav Dataverse'is. Lisateavet vt teemast [Varude nähtavuse rakendus](inventory-visibility-power-platform.md).
+Lao nähtavus tagab selle, et teil on juurdepääs ajakohastele laokogustele kogu aeg, läbi kõigi kanalite, asukohtade ja ladude. Seda kasutatakse kõige rohkem igapäevaste tööteenuste toetamiseks alati, kui teil tuleb saada laokirjeid. Füüsiline vaba kaubavaru, müüdud kogused ja ostetud kogused on kõik boksist saadaval. Samuti saate konfigureerida teisi füüsilise laovaru dimensioone (nt tagastatud, vahelattu ja sisestatud andmed), nagu vajate, et saada need üksikasjad reaalajas. Lao nähtavus saab tõhusalt töödelda miljonites lao muutmise sisestamist. Neid andmeid saab koondada ja kajastada teenuse viimastes laokogusdes kohe, sekundi või minuti kohta, sõltuvalt andmete sisestamisintervallist. Lisateavet vt varude nähtavuse avalikud [API-d](inventory-visibility-api.md).
 
-## <a name="soft-reservations"></a>Esialgsed reserveeringud
+### <a name="soft-reservation-to-avoid-overselling-across-all-order-channels"></a>Soft reservation, et vältida ülemüümist kõigis tellimuskanalites
 
-Esialgne reserveerimine kehtib juhul, kui ettevõte peab reserveerima konkreetse koguse tooteid, et toetada näiteks müügitellimuse täitmist, mis väldib ülemüümist. Kui müügitellimus luuakse ja kinnitatakse rakenduses Supply Chain Management või muudes tellimuste halduse süsteemides, saadetakse Varude nähtavusse taotlus koguse reserveerimiseks. Varude nähtavus võimaldab teil reserveerida tooted, millel on dimensiooni üksikasjad ja konkreetsed kandetüübid. (Lisateavet vt teemast [Varude nähtavuse rakendus](inventory-visibility-power-platform.md).) Pärast koguse edukat reserveerimist tagastatakse reserveerimise ID. Selle reserveeringu ID abil saate linkida tagasi originaaltellimusele rakenduses Supply Chain Management või muudele tellimuste halduse süsteemidele.
+*Spetsiifiline reserveerimine* võimaldab teil määrata või lipuga märgistada kindlad kogused tellimuse või nõudluse täitmiseks. Kerge reserveerimine ei mõjuta füüsilisi laovarusid, *kuid* see arvatakse varude reserveerimiseks saadaolevast kogusest maha ja esitab tulevase tellimuse täitmise jaoks uuendatud koguse. See funktsioon on kasulik, kui müügitaotlused või -tellimused tulevad teie ettevõttesse ühest või enamast kanalist või andmeallikast, mis on väljaspool teie ettevõtte ressursiplaanimise (ERP) süsteemi.
 
-Funktsionaalsus on loodud nii, et Varude nähtavuse reserveering ei muuda kogust. Selle asemel reserveeritud kogus ainult märgistatakse. (Seetõttu nimetatakse seda *esialgseks reserveerimiseks*.) Esialgse reserveeringu kogust saab tasakaalustada, kui rakenduses Supply Chain Management või kolmanda osapoole süsteemis tooteid tarbitakse, kutsudes API uuesti koguse lahutamiseks ja Varade nähtavuses koguse värskendamiseks. Lisateavet vt teemast [Varude nähtavuse reserveeringud](inventory-visibility-reservations.md).
+Kui te ei kasuta varude nähtavuse teenuses kergeid reserveeringuid, peate füüsilise laokoguse uuendamiseks ootama, kuni tellimus on sünkroonitud ja teie ERP süsteem töötleb seda. Sellel protsessil on tavaliselt väga suur latentsus. Kuid pehmed reserveerimised jõustuvad müügitaotluse või -tellimuse loomisel müügikanalites iga kord kohe. Seega aitavad need ennetada olukorda, kindlustades, et teie kaubatellimused ei vaja üksteisega, kui nad lõpuks ERP süsteemi jõuab. Softreserveeringud tagavad ka selle, et saate täita kõik lubatud tellimused. Seetõttu aitavad need teil vastata kliendi ootustele ja säilitada kliendi lojaalsust. Lisateavet vt teemast [Varude nähtavuse reserveeringud](inventory-visibility-reservations.md).
+
+### <a name="immediate-response-of-atp-dates-confirmation"></a>ATP kuupäevade kinnituse kohene vastus
+
+Nähtavus on teie lähedalasuva kaubavaru (sh pakkumine, nõudlus ja laovaru prognoositud üksikasjad) nähtavus on oluline, sest see aitab teie ettevõttel saavutada järgmised eesmärgid:
+
+- Minimeerige kaubavarude tasemed laohalduse kulude vähendamiseks.
+- Hõlbustage tellimuse sisemist töötlemist, et müügiisikud saaksid tellitud toodete saadavusel põhinevalt arvutada saatmis- ja tarnekuupäevi.
+- Pakuge kust kliendid võivad eeldada, et laost väljas kaup muutub kättesaadavaks, pakkudes järgmist saadaolevat kuupäeva.
+
+ATP funktsiooni on lihtne oma igapäevase tellimuse täitmisprotsessi vastu võtta. Kõige olulisem - nagu teised varude nähtavuse pakkumistel - on ATP funktsioon globaalne *ja reaalajas*. Seetõttu saate seadistada mitmeid ATP arvutusvalemeid, et saada täielikke varude saadavuspäringuid, mis katavad kõik teie ärikanalid ja andmeallikad. Lisateavet vt varude nähtavuse [vaba kaubavaru muutmise graafikutest ja lubaduse andmiseks saadaval](inventory-visibility-available-to-promise.md).
+
+### <a name="compatibility-with-advanced-warehouse-management-items"></a>Ühilduvus täpsemate laohalduse kaupadega
+
+Microsoft püüab pakkuda ladu välja integreerimist täpsema laohaldusega (WHS), et laohalduse kliendid saaksid ka varude nähtavuse teenuse eeliseid kasutada. 2022 voo 1 väljalaske kohta (avalik eelvaade märtsis) toetab laoteenus WHS-i kauba laoseisu päringuid ja ATP-d. Järgmises voos laoala kliendi puhul toetatakse kerget reserveerimise ja eraldamise funktsiooni. <!-- KFM: Add this link when target is published: For more information, see [Inventory Visibility support for WHS items](inventory-visibility-whs-support.md). -->
+
+## <a name="licensing"></a>Litsentsimine
+
+Varude nähtavuse teenus on saadaval järgmistes versioonides.
+
+- **Varude nähtavuse lisandmoodul Microsofti jaoks Dynamics 365 Supply Chain Management** – kehtiva tarneahela haldamise litsentsiga ettevõtetele on varude nähtavus saadaval ilma lisalitsentsikuludeta. Võite alustada täna proovimist. Installi üksikasjad leiate jaotisest Varude [nähtavuse installimine ja seadistamine](inventory-visibility-setup.md).
+- **Varude nähtavuse teenus IOM-i** komponendina – see versioon on kas nutika tellimusehalduse (IOM) klientidele või ettevõtetele, kes ei kasuta tarneahela haldust oma ERP-süsteemina. Litsents kaasatakse IOM-i kogumisse. Lisateavet vt nutika tellimusehalduse [ülevaatest](/dynamics365/intelligent-order-management/overview).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

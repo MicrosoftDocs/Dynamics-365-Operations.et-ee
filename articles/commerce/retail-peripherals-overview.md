@@ -12,17 +12,16 @@ ms.custom:
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: fa9b8c79d1b3b5ed04a7d277bf09cd05dbd332d2
-ms.sourcegitcommit: 116898def829c0f78bda8a117242aa308793465d
-ms.translationtype: HT
+ms.openlocfilehash: 76ce17777a2d13b46e5faed96dbde5e0d93782eb
+ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8370972"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8462237"
 ---
 # <a name="peripherals"></a>Välisseadmed
 
 [!include[banner](includes/banner.md)]
-[!include[banner](includes/preview-banner.md)]
 
 Selles teemas selgitatakse mõisteid, mis on seotud poe välisseadmetega. See kirjeldab mitmesuguseid viise, kuidas välisseadmed saab kassaga ühendada, ja kassaga ühenduse haldamise eest vastutavaid komponente.
 
@@ -64,7 +63,7 @@ Navigeerimine: minge jaemüügi ja **äri kanalite kauplustesse \>\> Kõik \> ka
 
 ### <a name="hardware-profile"></a>Riistvaraprofiil
 
-Navigeerimine: minge jaemüügi ja **ärikanali häälestamise \> kassa häälestuse \>\> kassaprofiilide \> riistvaraprofiilidele**. Riistvaraprofiil on kassaregistri või riistvarajaama jaoks konfigureeritud seadmete loend. Riistvaraprofiili saab vastendada otse kassaregistri või riistvarajaamaga.
+Navigeerimine: minge jaemüügi ja ärikanali häälestamise **kassa häälestuse \>\> kassaprofiilide \> riistvaraprofiilidele \>.** Riistvaraprofiil on kassaregistri või riistvarajaama jaoks konfigureeritud seadmete loend. Riistvaraprofiili saab vastendada otse kassaregistri või riistvarajaamaga.
 
 ## <a name="devices-classes"></a>Seadmete klassid
 Kassa välisseadmed on tavaliselt jagatud klassidesse. Selles jaotises kirjeldatakse seadmeid, mida Modern POS toetab, ja antakse neist ülevaade.

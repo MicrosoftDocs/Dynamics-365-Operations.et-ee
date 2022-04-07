@@ -1,6 +1,6 @@
 ---
 title: Puhkuste ja puudumiste parameetrite konfigureerimine
-description: Selles teemas kirjeldatakse, kuidas määratleda inimressursside parameetreid puhkuse ja puudumise jaoks Dynamics 365 Human Resources.
+description: See teema kirjeldab inimressursside parameetrite määratlemist puhkusel ja puudumisel Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 10/28/2021
 ms.topic: article
@@ -15,21 +15,22 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7bd1aebd633af0530c550f8ec7510a0c09985ca1
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: e2bc672fd352fea088db356a6fc2b8eedebe5920
+ms.sourcegitcommit: 67c4ed957e43d4d60bb609d93921a0be9619e675
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067348"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8509108"
 ---
 # <a name="configure-leave-and-absence-parameters"></a>Puhkuste ja puudumiste parameetrite konfigureerimine
 
+>[!Important]
+>Selles teemas märgitud funktsioone saavad kliendid praegu kasutada eraldiseisvas teenuses Dynamics 365 Human Resources. Osa või kõik funktsioonid on saadaval osana Finance'i taristu tulevasest väljalaskest pärast Finance'i versiooni 10.0.26.
 
-[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Enne puhkuse- ja puudumisplaanide seadistamist rakenduses Dynamics 365 Human Resources on hea kontrollida kõigi seotud **inimressursside parameetrite** sätteid, sealhulgas järgmist.
+Enne puhkuse ja puudumiste plaanide Dynamics 365 Human Resources **seadistamist** on hea mõte kontrollida kõikide seotud inimressursside parameetrite sätteid, sealhulgas:
 
 - Puhkusetaotluste numbriseeria
 - Perekonna meditsiinialase ja puhkuseseaduse (FMLA) sätted
@@ -77,7 +78,7 @@ Enne puhkuse- ja puudumisplaanide seadistamist rakenduses Dynamics 365 Human Res
 
     - Saldode kuvamiseks alates tänasest või viitvõlaperioodi algusest valige **Saldo arvutamine**. Kui valite **Saldo alates tänasest**, kuvatakse saldos kõigi viitvõlgade, korrigeerimiste ja taotluste kogusumma alates tänasest. Kui valite **Saldo alates viitvõlaperioodist**, kuvatakse saldos kõigi viitvõlgade, korrigeerimiste ja taotluste kogusumma alates puhkuseplaani sagedusega määratletud viitvõlaperioodist. 
 
-    - Määrake pakett-töö **Edasikandmise aegumisaja algusaeg** **·**.  
+    - Määrake aegumise **edasikaatmise** pakett-töö **algusaeg**.  
     
     - Valige **Jah** suvanditele **Luba töötajatele puhkuse ostmine** ja **Luba töötajatele puhkuse müümine**. Kui valite nende suvandite jaoks **Jah**, saate luua puhkuse ostu- ja müügipoliitikad ja võimaldada töövõtjatel esitada puhkuse ostu-ja müügitaotlusi.
 

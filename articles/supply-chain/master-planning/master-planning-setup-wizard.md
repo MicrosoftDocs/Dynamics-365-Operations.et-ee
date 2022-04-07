@@ -1,7 +1,7 @@
 ---
 title: Koondplaneerimise häälestusviisard (sisaldab videot)
 description: See teema kirjeldab koondplaneerimise häälestusviisardi käivitamist koondplaneerimise seadistamiseks.
-author: ChristianRytt
+author: t-benebo
 ms.date: 10/21/2019
 ms.topic: article
 ms.prod: ''
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 453184a3fed567b3a09e5e45e7f904bcf855dd6d
-ms.sourcegitcommit: ef0dd4245fc499907ffe00e2a32f59a6cd96e45d
+ms.openlocfilehash: a5914f63de654acd076048240c6e37d5b67f4ffa
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/18/2021
-ms.locfileid: "7937629"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8470201"
 ---
 # <a name="master-planning-setup-wizard"></a>Koondplaneerimise häälestusviisard
 
@@ -31,7 +31,7 @@ Selles teemas antakse **Koondplaneerimise installiviisardi** juhiseid. Selles se
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3YnSB]
 
-Video [Koondplaneerimise häälestusviisard rakenduses Dynamics 365 Supply Chain Management](https://youtu.be/c-e6n-8rZb4) (näha eespool) on lisatud [Finance and Operationsui esitusloendisse](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW), mis on saadaval YouTube’is.
+[Koondplaneerimise häälestusviisard rakenduses Dynamics 365 Supply Chain Management](https://youtu.be/c-e6n-8rZb4) (näha allpool) on lisatud [Finance and Operationsi esitusloendisse](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW), mis on saadaval YouTube’is.
 
 
 ## <a name="specific-requirements-of-your-company"></a>Teie ettevõtte erinõuded

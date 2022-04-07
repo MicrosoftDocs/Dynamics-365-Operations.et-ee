@@ -1,21 +1,21 @@
 ---
 title: Planeerimise optimeerimise väljaandmise protsess ja väljalaske ajalugu
 description: Sellest teemast leiate teavet optimeerimise plaanimise väljalaskeprotsessi ja väljalaskeajaloo kohta.
-author: ChristianRytt
+author: t-benebo
 ms.date: 09/21/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: crytt
+ms.author: benebotg
 ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: fd6ecb0b7bc1fcf85feab2588622a96cf43b6155
-ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
-ms.translationtype: HT
+ms.openlocfilehash: 673543ff2c9abefbca0529f35ce20bb26156acc4
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/12/2022
-ms.locfileid: "8407840"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8469697"
 ---
 # <a name="planning-optimization-release-process-and-release-history"></a>Planeerimise optimeerimise väljaandmise protsess ja väljalaske ajalugu
 
@@ -33,7 +33,7 @@ Kuna teatisi ei kuvata, kui plaanimise optimeerimist teie keskkonnas värskendat
 
 | Muutused | Funktsioonihalduse üksikasjad | Väljalaske kuupäevad |
 |---|---|---|
-| <p>Üldjõudluse, kvaliteedi ja stabiilsuse täiustused.<p>Optimeerimise tsentraliseeritud kalendri hoolduse plaanimine<p>Optimeerimise soovituste plaanimine olemasoleva tarne optimeerimiseks | Funktsioonihaldust pole vaja. | 7. märts 11.2022 |
+| <p>Üldjõudluse, kvaliteedi ja stabiilsuse täiustused.<p>[Optimeerimise tsentraliseeritud kalendri hoolduse plaanimine](../supply-chain-calendars-master-planning.md)<p>[Optimeerimise soovituste plaanimine olemasoleva tarne optimeerimiseks](../action-messages.md)<p>[Plaanimise optimeerimise tugi allhankeks](../../production-control/manage-subcontract-work-production.md) | Funktsioonihaldust pole vaja. | 7. märts 11.2022 |
 | <p>Lisatud plaanimise prioriteedi tugi tootmistellimustele. | Saadaval versiooniga 10.0.25 *funktsiooni nimega Prioriteedipõhine MRP tugi plaanimise optimeerimise osana*. | 12. november 18, 2021 |
 | <p>Üldjõudluse, kvaliteedi ja stabiilsuse täiustused. | Funktsioonihaldust pole vaja. | 12. november 18, 2021 |
 | <p>Lisatud tugi protsessiaja arvutamise valemitele, kattuvale tootmisprotsessile ja vajadusekannete tootmisoperatsiooni numbrile.</p><p>Täiustatud tõrketeated tootmise planeerimisel, mis on seotud ajalõpuga, võimsust ei leitud ja tsükliline protsess.</p><p>Täiustatud ühtsus sissetuleku- ja väljaminekkuupäevade arvutamisel nii plaanitud kui ka kindla tellimuse puhul.</p><p>Üldjõudluse, kvaliteedi ja stabiilsuse täiustused. | Funktsiooni nimi: *Planeerimise optimeerimise lõpmatu võimsuse ajastamine* | 22. oktoober 27.09.2021 |

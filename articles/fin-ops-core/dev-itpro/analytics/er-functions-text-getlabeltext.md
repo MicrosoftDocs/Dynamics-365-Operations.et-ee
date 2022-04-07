@@ -1,8 +1,8 @@
 ---
-title: Funktsioon GETLABELTEXT ER
-description: See teema annab teavet selle kohta, kuidas funktsiooni GETLABELTEXT elektroonilist aruandlust (ER) kasutatakse.
+title: FUNKTSIOON GETLABELTEXT ER
+description: See teema annab teavet selle kohta, kuidas kasutatakse funktsiooni GETLABELTEXT Electronic reporting (ER).
 author: NickSelin
-ms.date: 01/04/2022
+ms.date: 03/18/2022
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -14,20 +14,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2022-01-01
 ms.dyn365.ops.version: AX 10.0.25
-ms.openlocfilehash: 911567a94b80c2b762a37e83d37fc500132edb18
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
-ms.translationtype: HT
+ms.openlocfilehash: 2ce66c9410abeee16bbd074204262edf79bf6d68
+ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075743"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8462407"
 ---
-# <a name="getlabeltext-er-function"></a>Funktsioon GETLABELTEXT ER
+# <a name="getlabeltext-er-function"></a>FUNKTSIOON GETLABELTEXT ER
 
 [!include [banner](../includes/banner.md)]
 
-[!include [banner](../includes/preview-banner.md)]
-
-Funktsioon `GETLABELTEXT` otsib kindlat silti, et tagastada *[stringi](er-formula-supported-data-types-primitive.md#string)* väärtus, mis tähistab määratud sildi tõlget määratud keeles.
+Funktsioon `GETLABELTEXT` otsib konkreetset silti, et tagastada *[stringi](er-formula-supported-data-types-primitive.md#string)* väärtus, mis tähistab määratud sildi tõlget määratud keeles.
 
 ## <a name="syntax"></a>Süntaks
 
@@ -39,44 +37,44 @@ GETLABELTEXT (label id, language)
 
 ### <a name="label-id"></a>Sildi ID
 
-`label id`: *Stringi* või *sildi ID*
+`label id`: *stringi* või *sildi ID*
 
-Ühe järgmiste silditüüpide kehtiv ID:
+Ühe järgmise silditüübi kehtiv ID:
 
 - [Elektroonilise aruandluse (ER)](general-electronic-reporting.md) silt
 - Microsofti Dynamics 365 Finance silt
 
 #### <a name="usage-notes"></a>Kasutamise märkused
 
-Seda argumenti saab määratleda ainult konstandina, kasutades ühte järgmistest toetatud mustritest.
+Seda argumenti saab määratleda ainult konstandina, kasutades üht järgmistest toetatud mustritest:
 
-- ER-i siltide puhul:
+- ER-siltidele:
 
     - `@"GER_LABEL:<LABEL ID>"`
     - `"GER_LABEL:<LABEL ID>"`
 
-- Finantssiltide puhul:
+- Finantssiltide jaoks:
 
     - `@"<LABEL ID>"`
     - `"<LABEL ID>"`
 
 > [!NOTE]
-> Kujundusajal kuvatakse **[valemikujundaja](er-advanced-formula-editor.md)** lehel valideerimisvea teade, kui esitatud sildi ID abil silti ei leita.
+> Kui silti ei leita **[...](er-advanced-formula-editor.md)** antud sildi ID abil, kuvatakse konstruktsiooni ajal valemikujundaja lehel valideerimise tõrketeade.
 
 ### <a name="language"></a>Keel
 
 `language`: *string*
 
-String, mis tähistab keelekoodi.
+Keelekoodi tähistav string.
 
 #### <a name="usage-notes"></a>Kasutamise märkused
 
 Seda argumenti saab määratleda kas tekstikonstandina või andmeallika välja teena, mis tagastab *stringiväärtuse*.
 
 > [!NOTE]
-> Kujundusajal kuvatakse valideerimistõrke teade, kui esitatud `language` argumendi abil ei leita ühtegi keelekoodi, kui see on määratletud tekstikonstandina.
+> Konstruktsiooni ajal kuvatakse valideerimise tõrketeade `language`, kui keelekoodi ei leita esitatud argumenti kasutades, kui see on määratletud tekstikonstandina.
 >
-> Käitusajal tagastatakse süsteemikeele tõlge `EN-US` määratud sildile, kui esitatud `language` argumendi abil pole keelekoodi leitud.
+> Käitusajal tagastatakse süsteemikeele `EN-US` tõlge määratud sildile, kui antud argumenti kasutades pole keelekoodi `language` leitud.
 
 ## <a name="return-values"></a>Tagastusväärtused
 
@@ -86,11 +84,11 @@ Tulemiks saadud teksti väärtus.
 
 ## <a name="example-1-system-label"></a><a name=example-1></a> Näide 1: süsteemi silt
 
-Väljendid `GETLABELTEXT (@"SYS70894", "en-us")` ja `GETLABELTEXT ("SYS70894", "en-us")` tagastage rakenduse sildi ingliskeelne tõlge "Pole midagi printida" `@SYS70894`.
+Avaldised `GETLABELTEXT (@"SYS70894", "en-us")` ja `GETLABELTEXT ("SYS70894", "en-us")` tagastage avalduse sildi jaoks inglise tõlge "Pole midagi `@SYS70894` printida".
 
 ## <a name="example-2-er-label"></a><a name=example-2></a> Näide 2: ER-silt
 
-Te hakkate redigeerima ISO20022 kreeditülekande (DE) konfiguratsioonist tuletatud ER-i [konfiguratsiooni](general-electronic-reporting.md#Configuration)[, sisestage](er-quick-start2-customize-report.md#DeriveProvidedFormat) välja arvutatud **uue andmeallika ja konfigureerige selle andmeallika avaldis**.*[...](er-calculated-field-ds-performance.md)*`GETLABELTEXT(@"GER_LABEL:VendorName", "de")` Sellisel juhul tagastab andmeallikas käitusajal saksakeelse tõlke "Kreditorenname" ER-märgise jaoks`@GER_LABEL:VendorName`, mis oli algselt konfigureeritud ISO20022 krediidiülekande (DE) **ER-i põhikonfiguratsioonis**.
+Alustate ISO20022 krediidiülekande (DE) konfiguratsioonist tuletatud ER-konfiguratsiooni [...](general-electronic-reporting.md#Configuration)[...](er-quick-start2-customize-report.md#DeriveProvidedFormat)**redigeerimist,** *[...](er-calculated-field-ds-performance.md)* sisestate väljatüübi Arvutatud uue andmeallika ja konfigureerite selle andmeallika avaldise.`GETLABELTEXT(@"GER_LABEL:VendorName", "de")` Sel juhul tagastab andmeallikas `@GER_LABEL:VendorName` käitusajal saksa tõlke "Kreditorenname" **ER-sildi jaoks, mis algselt konfigureeriti iso20022 baaskrediidiülekande (DE)** ER-i konfiguratsioonis.
 
 ## <a name="additional-resources"></a>Lisaressursid
 

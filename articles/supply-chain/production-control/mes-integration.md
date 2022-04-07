@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-10-01
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 8917c9b265bc3df19517f052e28fb7644057cb46
-ms.sourcegitcommit: 19f0e69a131e9e4ff680eac13efa51b04ad55a38
-ms.translationtype: HT
+ms.openlocfilehash: 9ec0bedcf1a3a2888a91158ea0353283660d3266
+ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/22/2022
-ms.locfileid: "8330697"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "8487577"
 ---
 # <a name="integrate-with-third-party-manufacturing-execution-systems"></a>Kolmanda osapoole tootmise käivitussüsteemidega integreerimine
 
@@ -64,7 +64,9 @@ Saate lubada mis tahes või kõik järgmised integratsiooniprotsessid.
 
 ## <a name="monitor-incoming-messages"></a>Saate jälgida sissetulevaid teateid.
 
-Süsteemi sissetulevate teadete jälgimiseks avage tootmise käivitamissüsteemide **integreerimise** leht. Seal saate vaadata, töödelda ja tõrkeotsingu probleeme.
+Süsteemi sissetulevate teadete jälgimiseks avage tootmise käivitamissüsteemide **integreerimise** leht. Saate vaadata, töödelda ja tõrkeotsingu probleeme.
+
+Kõik konkreetse tootmistellimuse teated töödeldakse saadud järjestuses. Erinevate tootmistellimuste sõnumeid ei tohi vastuvõetud seerias töödelda, kuna pakett-töid töödeldakse paralleelselt. Tõrke korral proovib pakett-töö töödelda kõiki teateid kolm korda, enne kui selle olekuks seatakse *Nurjunud*.
 
 ## <a name="call-the-api"></a>Helista API-sse
 
@@ -119,13 +121,13 @@ Järgnev tabel näitab välju, mida sõnumi jaotise `ReportFinishedLines` iga ri
 | `ReportedGoodQuantity` | Valikuline | Tegelik|
 | `ReportedErrorCatchWeightQuantity` | Valikuline | Tegelik |
 | `ReportedGoodCatchWeightQuantity` | Valikuline | Tegelik |
-| `AcceptError` | Valikuline |Loogiline |
+| `AcceptError` | Valikuline | Enum (Jah \| Ei) |
 | `ErrorCause` | Valikuline | Enum (pole \| materjalimasina \|\| operatsioonisüsteemi), laiendatav |
 | `ExecutedDateTime` | Valikuline | DateTime |
 | `ReportAsFinishedDate` | Valikuline | Kuupäev |
 | `AutomaticBOMConsumptionRule` | Valikuline | Loetelu (FlushingPrincip Alati \| mitte kunagi \|) |
 | `AutomaticRouteConsumptionRule` | Valikuline |Enum (RouteDependent \| Alati mitte kunagi \|) |
-| `RespectFlushingPrincipleDuringOverproduction` | Valikuline | Loogiline |
+| `RespectFlushingPrincipleDuringOverproduction` | Valikuline | Enum (Jah \| Ei) |
 | `ProductionJournalNameId` | Valikuline | String |
 | `PickingListProductionJournalNameId` | Valikuline | String|
 | `RouteCardProductionJournalNameId` | Valikuline | String |
@@ -133,11 +135,11 @@ Järgnev tabel näitab välju, mida sõnumi jaotise `ReportFinishedLines` iga ri
 | `ToOperationNumber` | Valikuline | Täisarv|
 | `InventoryLotId` | Valikuline | String |
 | `BaseValue` | Valikuline | String |
-| `EndJob` | Valikuline | Loogiline |
-| `EndPickingList` | Valikuline | Loogiline |
-| `EndRouteCard` | Valikuline | Loogiline |
-| `PostNow` | Valikuline | Loogiline |
-| `AutoUpdate` | Valikuline | Loogiline |
+| `EndJob` | Valikuline | Enum (Jah \| Ei) |
+| `EndPickingList` | Valikuline | Enum (Jah \| Ei) |
+| `EndRouteCard` | Valikuline | Enum (Jah \| Ei) |
+| `PostNow` | Valikuline | Enum (Jah \| Ei) |
+| `AutoUpdate` | Valikuline | Enum (Jah \| Ei) |
 | `ProductColorId` | Valikuline | String|
 | `ProductConfigurationId` | Valikuline | String |
 | `ProductSizeId` | Valikuline | String |
@@ -156,7 +158,7 @@ Järgnev tabel näitab välju, mida sõnumi jaotise `ReportFinishedLines` iga ri
 
 ### <a name="material-consumption-picking-list-message"></a>Materjalitarbimise (komplekteerimisleht) teade
 
-Materjalitarbimise *(komplekteerimislehe)* teate puhul on `_messageType` väärtus `ProdProductionOrderPickingList`. Järgmine tabel näitab välju, mida see teade toetab.
+Materjalitarbimise *(komplekteerimislehe)* teate puhul on `_messageType` väärtus .`ProdProductionOrderPickingList` Järgmine tabel näitab välju, mida see teade toetab.
 
 | Välja nimi | Olek | Tüüp |
 |---|---|---|
@@ -181,7 +183,7 @@ Järgnev tabel näitab välju, mida sõnumi jaotise `PickingListLines` iga rida 
 | `OperationNumber` | Valikuline | Täisarv |
 | `LineNumber` | Valikuline | Tegelik |
 | `PositionNumber` | Valikuline | String |
-| `IsConsumptionEnded` | Valikuline | Loogiline |
+| `IsConsumptionEnded` | Valikuline | Enum (Jah \| Ei) |
 | `ErrorCause` | Valikuline | Enum (pole \| materjalimasina \|\| operatsioonisüsteemi), laiendatav |
 | `InventoryLotId` | Valikuline | String |
 
@@ -217,9 +219,9 @@ Järgnev tabel näitab välju, mida sõnumi jaotise `RouteCardLines` iga rida `P
 | `ConsumptionDate` | Valikuline | Kuupäev |
 | `TaskType` | Valikuline | Loend (QueueBefore häälestusprotsessi \|\| kattumine \| transpordi \| ootel \| seisakuga \|) |
 | `ErrorCause` | Valikuline | Enum (pole \| materjalimasina \|\| operatsioonisüsteemi), laiendatav |
-| `OperationCompleted` | Valikuline | Loogiline |
-| `BOMConsumption` | Valikuline | Loogiline |
-| `ReportAsFinished` | Valikuline | Loogiline |
+| `OperationCompleted` | Valikuline | Enum (Jah \| Ei) |
+| `BOMConsumption` | Valikuline | Enum (Jah \| Ei) |
+| `ReportAsFinished` | Valikuline | Enum (Jah \| Ei) |
 
 ### <a name="end-production-order-message"></a>Tootmistellimuse lõpetamise teade
 
@@ -230,9 +232,13 @@ Tootmistellimuse *lõppteate* väärtus `_messageType` on `ProdProductionOrderEn
 | `ProductionOrderNumber` | Kohustuslik | String |
 | `ExecutedDateTime` | Valikuline | DateTime |
 | `EndedDate` | Valikuline | Kuupäev |
-| `UseTimeAndAttendanceCost` | Valikuline | Loogiline |
-| `AutoReportAsFinished` | Valikuline | Loogiline |
-| `AutoUpdate` | Valikuline | Loogiline |
+| `UseTimeAndAttendanceCost` | Valikuline | Enum (Jah \| Ei) |
+| `AutoReportAsFinished` | Valikuline | Enum (Jah \| Ei) |
+| `AutoUpdate` | Valikuline | Enum (Jah \| Ei) |
+
+## <a name="other-production-information"></a>Muu tootmisteave
+
+Sõnumid toetavad tegevusi või sündmusi, mis toimuma tööde juhtimises. Neid töödeldakse selles teemas kirjeldatud MES-i integreerimisraamistiku abil. Kujundus eeldab, et konkreetses tootmistellimuses kasutatav muu viiteteave (nt tootega seotud teave, kooslus või protsess (koos selle konkreetse seadistuse ja konfigureerimisaegadega)) tuuakse süsteemist, kasutades andmeüksuseid [faili](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md#data-entities) ülekande või OData kaudu.
 
 ## <a name="receive-feedback-about-the-state-of-a-message"></a>Võta sõnumi oleku kohta tagasisidet
 

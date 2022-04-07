@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-09-15
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: f3a930814a1fb98e3b1611adf309c10e66b49b9d
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
-ms.translationtype: HT
+ms.openlocfilehash: c4cb36160e692cc12140b57037d2c9739f7b2ebd
+ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902093"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8462666"
 ---
 # <a name="mobile-device-user-accounts"></a>Mobiilse seadme kasutaja kontod
 
@@ -90,8 +90,8 @@ Kui töötaja logib Warehouse Management mobile rakenduse sisse, muutub keel, nu
 1. Tegevuspaanil valige **Kasutaja suvandid**.
 1. Vahekaardil **Eelistuses** määrake järgmised väljad:
 
-    - **Keel** - valige keel, mida töötaja eelistab. See väli kontrollib ka lao rakenduses kuvatavat kuupäevavormingut.
-    - **Kuupäev, kellaaeg ja numbrivorming** – valige keel, mis määrab laorakenduses kuvatavad numbrivormingud. Pange tähele, et laorakenduses kuvatavad kuupäeva ja kellaaja vormingud on tegelikult määratud **Keel** väljaga, mitte selle väljaga.
+    - **Keel** - valige keel, mida töötaja eelistab. See väli juhib ka lao rakenduses kuvatavat numbrivormingut.
+    - **Kuupäev, kellaaeg ja numbrivorming** – valige kuupäeva ja kellaaja vorming, mida töötaja eelistab. Lao rakendus kasutab selle sätte asemel väljal Keel valitud keelega **seostuvat** numbrivormingut.
     - **Ajavöönd** – valige ajavöönd, kus töötaja töötab. See väli mõjutab ajatemplit kõigile registreerimistele, mida töötaja rakenduse abil teeb.
 
 > [!NOTE]

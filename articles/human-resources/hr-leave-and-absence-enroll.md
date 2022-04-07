@@ -1,7 +1,7 @@
 ---
 title: Puhkuseplaanile töötajate määramine
 description: Rakenduses Dynamics 365 Human Resources töötajate ja töövõtjate puhkuseplaanidele määramine.
-author: andreabichsel
+author: twheeloc
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -12,20 +12,21 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8e0253c6122d736e311ea65d6228cbaabecff8dc
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: fd32b90be381f467d8cc5860e60db87356bc30b0
+ms.sourcegitcommit: d67f7edaf1a50077c2a7dd105e774f86fc586495
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070623"
+ms.lasthandoff: 04/02/2022
+ms.locfileid: "8533989"
 ---
 # <a name="assign-workers-to-a-leave-plan"></a>Puhkuseplaanile töötajate määramine
 
+> [!Important]
+> Selles teemas märgitud funktsioone saavad kliendid praegu kasutada eraldiseisvas teenuses Dynamics 365 Human Resources. Osa või kõik funktsioonid on saadaval osana Finance'i taristu tulevasest väljalaskest pärast Finance'i versiooni 10.0.26.
 
-[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 

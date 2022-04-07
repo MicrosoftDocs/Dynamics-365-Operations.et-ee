@@ -1,5 +1,5 @@
 ---
-title: Tuvasta mahajäetud ostukorvid ja saada klientidele teatised
+title: Hüljatud ostukorvide tuvastamine ja teatiste saatmine klientidele
 description: See teema kirjeldab, kuidas kohandada hülgatud Microsoft Dynamics 365 Commerce ostukorvi konnektori näidisrakendust, et tuvastada mahajäetud ostukorvid ja saata klientidele meeldetuletuse meiliteatis.
 author: bicyclingfool
 ms.date: 02/25/2022
@@ -9,14 +9,14 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 82848f1ff068cea0adfc6ec1b33fc4bb035f78dc
-ms.sourcegitcommit: 374bbdde90fc9a68c0799158a50409bfbe8ca64e
+ms.openlocfilehash: 1db4e988653aa55db2b18fb201edeafc4d16a1bc
+ms.sourcegitcommit: ab690bc897699ff8a4c489e749251fe0367050ca
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "8353372"
+ms.lasthandoff: 03/26/2022
+ms.locfileid: "8489026"
 ---
-# <a name="detect-abandoned-carts-and-send-notifications-to-customers"></a>Tuvasta mahajäetud ostukorvid ja saada klientidele teatised
+# <a name="detect-abandoned-carts-and-send-notifications-to-customers"></a>Hüljatud ostukorvide tuvastamine ja teatiste saatmine klientidele
 
 [!include [banner](../includes/banner.md)]
 
@@ -52,7 +52,7 @@ Järgmine näide näitab ostukorvi konnektori näidisrakenduse komponente.
 
 ## <a name="obtain-the-code-sample"></a>Hangi koodi näidis
 
-Mahajäetud ostukorvi konnektori näidisrakendus sisaldub Retail SDK versioonis 10.0.16. Koodi leiate jaotisest **\\ RetailSDKCodeSampleExtensionsRetailServerExtensions.AbandonedCartSample \\\\\\\\**. Lisateavet Retail SDK kohta ja selle hankimise [kohta vt jaemüügi tarkvara arenduskomplektist (SDK).](retail-sdk/retail-sdk-overview.md)
+Mahajäetud ostukorvi konnektori näidisrakendus sisaldub Retail SDK versioonis 10.0.16. Koodi leiate jaotisest **\\RetailSDK\\Code\\SampleExtensions\\RetailServer\\Extensions.AbandonedCartSample**. Lisateavet Retail SDK kohta ja selle hankimise [kohta vt jaemüügi tarkvara arenduskomplektist (SDK).](retail-sdk/retail-sdk-overview.md)
 
 > [!NOTE]
 > Kuigi näidiskood tehti esimest korda kättesaadavaks versioonis 10.0.16, ühildub see jaemüügiserveri versiooniga 10.0.13 ja hilisema versiooniga.
@@ -127,7 +127,7 @@ Ostukorvi konnektori näidisrakenduse **konfigureerimiseks muutke kausta Abandon
 
 ### <a name="azurecosmosoptions"></a>AzureCosónOptions
 
-Korvi allajäetud toomise töö olek, ostukorvi ID-d ja muudetud ajatemplid talletatakse Azure'is Cosmos DB. Vaikimisi konfiguratsioonifaili sätted giidvad Azure'i kohaliku emulaatori eksemplarile Cosmos DB. Kui juurutate konnektori tootmisele, peate need sätted värskendama nii, et need vadaavad Azure'i Cosmos DB eksemplarile teie Azure'i kordustellimuses. Kohaliku või kasti testimiseks saate kasutada [Azure'i Azure'i emulaatorit](/azure/cosmos-db/local-emulator).
+Korvi allajäetud toomise töö olek, ostukorvi ID-d ja muudetud ajatemplid talletatakse Azure'is Cosmos DB. Vaikimisi konfiguratsioonifaili sätted giidvad Azure'i kohaliku emulaatori eksemplarile Cosmos DB. Kui juurutate konnektori tootmisele, peate need sätted värskendama nii, et need vadaavad Azure'i Cosmos DB eksemplarile teie Azure'i kordustellimuses. Kohaliku või kasti testimiseks saate kasutada Azure'i [Cosmos DB emulaatorit](/azure/cosmos-db/local-emulator).
 
 | Atribuut    | Kirjeldus |
 | ----------- | ----------- |

@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: f74bb4bd4ed66520c04261bd9f82faad7775817e
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: cbd33b16a4b21e8e1931bc61cb55e376e7d73179
+ms.sourcegitcommit: a3b121a8c8daa601021fee275d41a95325d12e7a
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062107"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8524461"
 ---
 # <a name="inventory-visibility-public-apis"></a>Varude nähtavuse avalikud API-d
 
@@ -41,15 +41,17 @@ Järgmises tabelis on toodud hetkel saadaolevad API-d.
 | /api/environment/{environmentId}/setonhand/{inventorySystem}/bulk | Postita | [Vabade kaubavarude koguste seadistamine/ülekirjutamine](#set-onhand-quantities) |
 | /api/environment/{environmentId}/onhand/reserve | Postita | [Ühe reserveerimissündmuse loomine](#create-one-reservation-event) |
 | /api/environment/{environmentId}/onhand/reserve/bulk | Postita | [Mitme reserveerimissündmuse loomine](#create-multiple-reservation-events) |
-| /api/environment/{environmentId}/onhand/indexquery | Postita | [Päring sisestamismeetodi abil](#query-with-post-method) |
+| /API/keskkond/{environmentId} vaba/muudatused ule | Sisesta | [Ühe plaanitud vaba kaubavaru muudatuse loomine](inventory-visibility-available-to-promise.md) |
+| /API/keskkond/{environmentId} vaba/muudatuste sõlm/hulgi | Sisesta | [Mitme plaanitud vaba kaubavaru muudatuste loomine](inventory-visibility-available-to-promise.md) |
+| /api/environment/{environmentId}/onhand/indexquery | Sisesta | [Päring sisestamismeetodi abil](#query-with-post-method) |
 | /api/environment/{environmentId}/onhand | Hangi | [Päring hankimismeetodi abil](#query-with-get-method) |
-
-Microsoftil on valmiskujul nõudekogum *Postman*. Saate importida selle kogumi oma tarkvarasse *Postman*, kasutades järgmist ühiskasutuses olevat linki: <https://www.getpostman.com/collections/90bd57f36a789e1f8d4c>.
 
 > [!NOTE]
 > Tee {environmentId} osa on keskkonna ID rakenduses Microsoft Dynamics Lifecycle Services (LCS).
 > 
-> Api võib iga taotluse kohta tagastada maksimaalselt 512 kirjet.
+> Hulgi-API saab tagastada maksimaalselt 512 kirjet iga taotluse kohta.
+
+Microsoftil on valmiskujul nõudekogum *Postman*. Saate importida selle kogumi oma tarkvarasse *Postman*, kasutades järgmist ühiskasutuses olevat linki: <https://www.getpostman.com/collections/90bd57f36a789e1f8d4c>.
 
 ## <a name="find-the-endpoint-according-to-your-lifecycle-services-environment"></a>Lõpp-punkti leidmine vastavalt Lifecycle Services keskkonnale
 
@@ -251,7 +253,7 @@ Järgmises näites on toodud näidissisu ilma `dimensionDataSource`. Sel juhul, 
 
 ### <a name="create-multiple-change-events"></a><a name="create-multiple-onhand-change-events"></a>Mitme muutmise sündmuse loomine
 
-See API võib luua korraga mitu kirjet. Ainsad erinevused selle API ja [üksiksündmuse API](#create-one-onhand-change-event) vahel on väärtused `Path` ja `Body`. Selle API puhul annab `Body` palju kirjeid. Maksimaalne kirjete arv on 512, mis tähendab, et on-olla muuta lahtiselt API saab toetada kuni 512 muuta sündmusi korraga.
+See API võib luua korraga mitu kirjet. Ainsad erinevused selle API ja [üksiksündmuse API](#create-one-onhand-change-event) vahel on väärtused `Path` ja `Body`. Selle API puhul annab `Body` palju kirjeid. Maksimaalne kirjete arv on 512, mis tähendab, et vaba kaubavaru muudatuse hulgi-API võib toetada korraga kuni 512 muutuse sündmust.
 
 ```txt
 Path:
@@ -478,7 +480,7 @@ Body:
 
 ## <a name="query-on-hand"></a>Vaba kaubavaru päring
 
-_Kasutage vaba kaubavaru_ API-d, et tuua oma toodetele praegused vaba kaubavaru andmed. API toetab praegu päringute võtte kuni 100 üksiku üksuse väärtuse järgi `ProductID`. Igas päringus saab määrata ka mitu `SiteID` ja `LocationID` väärtusi. Maksimaalne piirmäär on määratletud kui `NumOf(SiteID) * NumOf(LocationID) <= 100`.
+Kasutage päringu _vaba laoseisu_ API-d oma toodetele praeguste vaba kaubavaru andmete toomiseks. API toetab praegu päringuid kuni 100 üksiku üksuse kohta väärtuse `ProductID` alusel. Iga `SiteID` päringu `LocationID` puhul saab määrata ka mitu väärtust. Maksimaalne limiit on määratletud kui `NumOf(SiteID) * NumOf(LocationID) <= 100`.
 
 ### <a name="query-by-using-the-post-method"></a><a name="query-with-post-method"></a>Päring sisestusmeetodi abil
 
@@ -516,6 +518,9 @@ Taotluse kehaosa, `dimensionDataSource` on siiski valikuline parameeter. Kui see
 Parameeter `groupByValues` peaks järgima indekseerimiseks teie konfiguratsiooni. Lisateavet leiate teemast [Tooteindeksi hierarhia konfiguratsioon](./inventory-visibility-configuration.md#index-configuration).
 
 Parameeter `returnNegative` kontrollib, kas tulemused sisaldavad negatiivseid kandeid.
+
+> [!NOTE]
+> Kui olete lubanud vaba muutmise graafiku ja lubaduse andmiseks saadaolevad funktsioonid, `QueryATP` võib teie päring sisaldada ka Boole'i parameetrit, mis kontrollib, kas päringu tulemused sisaldavad ATP teavet. Lisateavet ja näiteid vt Varude nähtavuse [vaba kaubavaru muutmise graafikutest ja on saadaval lubaduse andmiseks](inventory-visibility-available-to-promise.md).
 
 Järgmises näites on toodud näidissisu.
 
@@ -572,5 +577,9 @@ Siin on hankimise URL-i näidis. See hankimise taotlus on täpselt sama, mis var
 ```txt
 /api/environment/{environmentId}/onhand?organizationId=usmf&productId=T-shirt&SiteId=1&LocationId=11&ColorId=Red&groupBy=ColorId,SizeId&returnNegative=true
 ```
+
+## <a name="available-to-promise"></a>Lubaduse andmiseks saadaval
+
+Saate seadistada varude nähtavuse, et teil planeerida tulevasi vaba kaubavaru muudatusi ja arvutada ATP koguseid. ATP on kauba kogus, mis on saadaval ja mida saab kliendile järgmisel perioodil lubada. ATP arvutuse kasutamine võib tellimuse täitmise võimalusi oluliselt suurendada. Teavet selle kohta, kuidas seda funktsiooni lubada ja kuidas suhelda varude nähtavusega oma API kaudu pärast funktsiooni lubamist, [vt varude nähtavuse vabade kaubavarude muudatuste graafikuid ja lubaduse andmiseks saadaval graafikuid](inventory-visibility-available-to-promise.md).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

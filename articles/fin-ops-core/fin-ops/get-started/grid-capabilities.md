@@ -2,7 +2,7 @@
 title: Ruudustiku võimalused
 description: Selles teemas kirjeldatakse ruudustiku juhtelemendi mitmeid võimsaid funktsioone. Nende võimaluste kasutamiseks peate lubama uue ruudustiku funktsiooni.
 author: jasongre
-ms.date: 03/03/2022
+ms.date: 03/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 58a05f893549a8b9e2e5cb83d02475d0fb5b7277
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
-ms.translationtype: HT
+ms.openlocfilehash: 81577f54bd7fdc7d683c760dd4410f27da8ee1f0
+ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384425"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8462788"
 ---
 # <a name="grid-capabilities"></a>Ruudustiku võimalused
 
@@ -151,7 +151,7 @@ Sarnaselt Excel`iga saavad kasutajad automaatselt veeru suurust muuta, võttes a
 
 Funktsioon **Uus ruudustiku juhtelement** on kõikides keskkondades saadaval otse funktsioonihalduses. Pärast funktsioonihalduse funktsiooni lubamist kasutavad kõik järgnevad kasutajaseansid uut ruudustiku juhtelementi. 
 
-See funktsioon lubatakse vaikimisi versioonis 10.0.21 ja see on mõeldud kohustuslikuks versiooniga 10.0.25. 
+See funktsioon lubatakse vaikimisi versioonis 10.0.21 ja selle eesmärk on muutuda kohustuslikuks oktoober 2022.  
 
 ## <a name="developer-opting-out-individual-pages-from-using-the-new-grid"></a>[Arendajatele] Üksikutelt lehtedelt ruudustiku eemaldamine 
 Kui teie organisatsioon avastab lehekülje, millel on uue ruudustiku kasutamisega probleeme, saate kasutada API-t, et lubada üksikul vormil kasutada ruudustiku pärandjuhtelementi ja samas lubada ülejäänud süsteemil kasutada uut ruudustiku juhtelementi. Et eemaldada ruudustik üksikult lehelt, lisage kutse `super()` vormi meetodile `run()`.

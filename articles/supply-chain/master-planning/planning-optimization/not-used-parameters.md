@@ -1,22 +1,22 @@
 ---
 title: Parameetrid, mida Planning Optimization ei kasuta
 description: Selles teemas loetletakse Planning Optimization, mida planeerimise optimeerimist praegu selle toimingu ajal ei arvestata.
-author: ChristianRytt
+author: t-benebo
 ms.date: 09/02/2021
 ms.topic: article
 ms.search.form: ReqParameters, ReqGroup, ReqItemTable, ReqPlanSched, EcoResProductDetailsExtended, InventItemOrderSetup, WorkCalendarTable, PdsDispositionMaster
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: crytt
+ms.author: benebotg
 ms.search.validFrom: 2021-06-29
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 32e5ceb607d2c4f3d9794421db5382441ac30467
-ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
-ms.translationtype: HT
+ms.openlocfilehash: 82bdd522b5b6ca1cf149f9fea508d8d6a96a1466
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/12/2022
-ms.locfileid: "8408226"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8469110"
 ---
 # <a name="parameters-not-used-by-planning-optimization"></a>Parameetrid, mida Planning Optimization ei kasuta
 
@@ -65,18 +65,6 @@ Planning Optimization ei kasuta lehel järgmisi parameetreid või valikuid **Kat
   - **Kasutage määratud koosluse või valemi versiooni** – ootel *valemiversioonid koos kaastoote/tootega* toega.
   - **Kasuta määratud protsessi versiooni** – ootel *nõudlus kindla koosluse või protsessi nõuete määratud* toega.
 
-- **Tegevuse** kiirkaart:
-
-  - **Tegevusteade** – ootel *tegevuste* tugi.
-  - **Tegevusaja teade** – ootel *tegevuste* tugi.
-  - **Lükka edasi marginaal** - ootel *tegevuste* tugi.
-  - **Täiendatud marginaal** - ootel *tegevuste* tugi.
-  - **Aluskuupäev** – ootel *tegevused* tugi.
-  - **Täiendatud** - ootel *tegevuste* tugi.
-  - **Lükka edasi** - ootel *tegevuste* tugi.
-  - **Vähenda** - ootel *tegevuste* tugi.
-  - **Suurenda** - ootel *tegevuste* tugi.
-  - **Tuletatud tegevused** – ootel *tegevuste* tugi.
 
 - **Muu** kiirkaart:
 
@@ -149,7 +137,6 @@ Planning Optimization ei kasuta lehel järgmisi parameetreid või valikuid **Koo
   - **Eelarveplaan** – ootel lisa *Eelarve* tugi.
   - **Võimsus** – ootel *planeerimise* tugi.
   - **Järjepidevusplaan** – ootel *järjepidevuse plaanimise* tugi.
-  - **Tegevusteade** – ootel *tegevuste* tugi.
   - **Arvuta viivitus** – ootel lisa *arvutatud viivituste* tugi.
   - **Sagedus** – ootel *Tootmise* tugi.
 
