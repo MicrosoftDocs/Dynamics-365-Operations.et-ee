@@ -20,8 +20,6 @@
                   href: get-started/whats-new-platform-updates-10-0-25.md
                 - name: Platvormivärskendused versioonile 10.0.24 (veebruar 2022)
                   href: get-started/whats-new-platform-updates-10-0-24.md
-                - name: Platvormivärskendused versioonile 10.0.23 (jaanuar 2022)
-                  href: get-started/whats-new-platform-updates-10-0-23.md
             - name: Eemaldatud või iganenud funktsioonid
               items:
                 - name: Eemaldatud või iganenud funktsioonide avaleht
@@ -240,6 +238,8 @@
               href: data-entities/configure-export-data-lake.md
             - name: Finants- ja äritoimingute rakendused Azure Data Lake’is
               href: data-entities/finance-data-azure-data-lake.md
+            - name: Azure Data Lake'i salvestatud andmed ja metaandmed
+              href: data-entities/Azure-Data-Lake-Enhanced-Metadata.md
             - name: Üksusesalve Data Lake’i üksusena saadavaks muutmine
               href: data-entities/entity-store-data-lake.md
             - name: 'Ärisündmused, mis on saadud teenusesse Azure Data Lake eksportimise teel (eelversioon)'
@@ -410,6 +410,8 @@
                       href: deployment/onprem-remove-reinstall-AOS-node.md
                     - name: Mitme keskkonna puhul sama AD FS-i eksemplari korduv kasutamine
                       href: deployment/onprem-reuseadfs.md
+                    - name: Windows Serveri täiendus teie lahenduse Microsoft Dynamics 365 Finance + Operations (on-premises) keskkondades
+                      href: deployment/onprem-upgrade-os.md
                     - name: Lahenduse Microsoft Dynamics 365 Finance + Operations (on-premises) keskkondade SQL Serveri eksemplari täiendamine
                       href: deployment/onprem-upgrade-sqlserver.md
                 - name: Kohalik esindaja
@@ -932,6 +934,8 @@
                   href: lifecycle-services/lcs-works-lcs.md
                 - name: LCS partneritele
                   href: lifecycle-services/getting-started-lcs.md
+                - name: Toetatud veebibrauserid
+                  href: lifecycle-services/web-browsers.md
                 - name: ReSTful API-d
                   items:
                     - name: Keskkondade käivitamine ja lõpetamine
@@ -1490,6 +1494,8 @@
               href: perf-test/rsat/rsat-derived-test-cases.md
             - name: Parameetrifailide uuendamine
               href: perf-test/rsat/rsat-upgrade-parameter-files.md
+            - name: Proovirežiim ilma Azure DevOpsita
+              href: perf-test/rsat/rsat-trial-without-devops.md
             - name: Regression Suite Automation Tooli õpik
               href: perf-test/rsat/rsat-tutorial.md
             - name: Mitteadministraatorist kasutajate konfigureerimine

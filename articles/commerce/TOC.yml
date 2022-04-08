@@ -390,7 +390,7 @@
                   href: tasks/worker.md
                 - name: 'Modern Point of Sale (MPOS), Cloud POS ja Store Commerce'
                   items:
-                    - name: Rakendus Store Commerce Microsoft Dynamics 365 Commerce'is (eelversioon)
+                    - name: Rakendus Store Commerce
                       href: dev-itpro/store-commerce.md
                     - name: Seadmehalduse juurutamise juhised
                       href: implementation-considerations-devices.md
@@ -2872,6 +2872,8 @@
               items:
                 - name: Tagastustellimuse tagasimakse on tagasi lükatud
                   href: troubleshoot/refund-declined.md
+                - name: Tagastatavaid tasusid arvutatakse tagastatud koguse alusel valesti
+                  href: troubleshoot/refund-miscalculated-partial-return.md
                 - name: Dynamics 365 Payment Connector Adyeni jaoks
                   items:
                     - name: Adyeni jaoks ette nähtud Dynamics 365 Payment Connectori probleemide tõrkeotsing
