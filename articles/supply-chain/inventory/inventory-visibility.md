@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 9ee6229937ea27adf231dcd1c9921878e53bd981
-ms.sourcegitcommit: a3b121a8c8daa601021fee275d41a95325d12e7a
-ms.translationtype: HT
+ms.openlocfilehash: 9eb8a135d2415c867c746a1c40a80cdb84819c0e
+ms.sourcegitcommit: d475dea4cf13eae2f0ce517542c5173bb9d52c1c
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8524489"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "8547897"
 ---
 # <a name="inventory-visibility-add-in-overview"></a>Varude nähtavuse lisandmooduli ülevaade
 
@@ -63,7 +63,7 @@ ATP funktsiooni on lihtne oma igapäevase tellimuse täitmisprotsessi vastu võt
 
 ### <a name="compatibility-with-advanced-warehouse-management-items"></a>Ühilduvus täpsemate laohalduse kaupadega
 
-Microsoft püüab pakkuda ladu välja integreerimist täpsema laohaldusega (WHS), et laohalduse kliendid saaksid ka varude nähtavuse teenuse eeliseid kasutada. 2022 voo 1 väljalaske kohta (avalik eelvaade märtsis) toetab laoteenus WHS-i kauba laoseisu päringuid ja ATP-d. Järgmises voos laoala kliendi puhul toetatakse kerget reserveerimise ja eraldamise funktsiooni. <!-- KFM: Add this link when target is published: For more information, see [Inventory Visibility support for WHS items](inventory-visibility-whs-support.md). -->
+Microsoft püüab pakkuda ladu välja integreerimist täpsema laohaldusega (WHS), et laohalduse kliendid saaksid ka varude nähtavuse teenuse eeliseid kasutada. 2022 voo 1 väljalaske kohta (avalik eelvaade märtsis) toetab laoteenus WHS-i kauba laoseisu päringuid ja ATP-d. Järgmises voos laoala kliendi puhul toetatakse kerget reserveerimise ja eraldamise funktsiooni. Lisateavet vt laovarude nähtavuse [tugi laotöölehe kaupade puhul](inventory-visibility-whs-support.md).
 
 ## <a name="licensing"></a>Litsentsimine
 

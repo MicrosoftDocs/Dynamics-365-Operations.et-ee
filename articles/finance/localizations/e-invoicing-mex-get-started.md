@@ -17,19 +17,19 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: f512a6208bc85cd5796ce9515d2bc440f92ea79f
-ms.sourcegitcommit: 5033d42a2aac852916d726e40bd98a164d1a837d
+ms.openlocfilehash: 6fc8a9eaf6c6e4c82719e7c1ebccd4272548e73f
+ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "7986354"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8565995"
 ---
 # <a name="get-started-with-electronic-invoicing-for-mexico"></a>Alustage elektroonilise arveldusega Mehhikos
 
 [!include [banner](../includes/banner.md)]
 
 > [!IMPORTANT]
-> Elektroonilise arvelduse lisandmoodul Mehhiko jaoks ei pruugi praegu toetada kõiki funktsioone, mis on saadaval dokumendis Comprobante Fiscal Digital por Internet (CFDI) ja seotud integratsioonis, mis on sisse ehitatud rakendusse Microsoft Dynamics 365 Finance või Dynamics 365 Supply Chain Management.
+> Mehhiko elektrooniline arveldamine ei pruugi praegu toetada kõiki funktsioone, mis on saadaval Comprobante Fiscal Digital por Internet (CFDI) dokumendis, ja seotud integratsioonis, Microsoft Dynamics mis on üles ehitatud 365 Finantsid või Dynamics 365 Supply Chain Management.
 
 Sellest teemast leiate teabe, mis aitab teil alustada elektroonilise arveldusega Mehhikos. Selles antakse juhiseid konfiguratsioonisammude kohta, mis on teenustes Regulatory Configuration Services (RCS) ja rakenduses Finance riigipõhised. Samuti antakse teile juhised, mida peate rakenduses Finance järgima, et edastada teenuse kaudu CFDI arveid, ning selgitatakse, kuidas vaadata üle töötlemise tulemusi ja CFDI arvete olekut.
 
@@ -141,7 +141,7 @@ CFDI arve tühistamise edastamiseks on vajalikud funktsiooniseadistused **Tühis
 1. Funktsiooni versiooni **seadistamise lehel** vahekaardil Muutujad **valige** muutuja nimi, **DigitalSignatureXSLT**.
 2. Sisestage **väärtuste** väljale: {"containerUrl":"https://&lt; AccountStorageName&gt;.blob.core.windows.net/&lt; ContainerName&gt;", "tee":"&lt; RelativePath&gt;"}
    
-    kus: <RelativePath> = folderfolderfilename\\\\ kahe kaldkriipsuga, ContainerName peab tähistama teenuses kasutatavat konteinerit.
+    kus: \<RelativePath\> = folderfolderfilename\\\\ kahe kaldkriipsuga, ContainerName peab tähistama teenuses kasutatavat konteinerit.
    
     Muutuja näide oleks:
     

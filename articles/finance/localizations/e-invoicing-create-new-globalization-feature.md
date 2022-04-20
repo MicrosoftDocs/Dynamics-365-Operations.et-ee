@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dkalyuzh
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 197a5b983b307758425b1acc1f354d0a8bfbf8a1
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: 94038b0eb412632c348081bbf467f44310d9e955
+ms.sourcegitcommit: 6109fc2fe5f407363bb6f240d64b7214657f5914
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371901"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "8603021"
 ---
 # <a name="create-a-globalization-feature"></a>Globaliseerimisfunktsiooni loomine
 
@@ -47,7 +47,7 @@ Elektroonilise arveldamise funktsiooni loomiseks järgige neid samme.
 8. Sirvige **konfiguratsiooniruudustikus** vormingu konfiguratsioonide leidmiseks, mis on nõutavad konveieri töötlemiseks (nt elektrooniliste arvefailide loomiseks või väliste veebiteenuste vastuste töötlemiseks).
 9. Valige nupp **OK**. Konfiguratsioone saate nüüd kasutada müügivõimaluste töötlemise tegevustes. Lisateavet vt teemast Konfiguratsioonide [abil töötada](e-invoicing-work-configurations.md).
 10. Elektroonilise arveldamise funktsiooniseadistuse lisamiseks looge see uue **funktsiooni lehe** seadistuste **vahekaardil**. Lisateavet vt Töö [funktsiooniseadistustega](e-invoicing-feature-setup.md).
-11. Viige seadistus lõpule ja juurutage elektroonilise arveldamise funktsioon teenuse keskkonda. Lisateavet vt teemast Globaliseerimisfunktsiooni [lõpule viimine, avaldamine ja juurutamine](e-invoicing-complete-publish-deploy-globalization-feature).
+11. Viige seadistus lõpule ja juurutage elektroonilise arveldamise funktsioon teenuse keskkonda. Lisateavet vt teemast Globaliseerimisfunktsiooni [lõpule viimine, avaldamine ja juurutamine](e-invoicing-complete-publish-deploy-globalization-feature.md).
 
 ### <a name="create-file-format-configurations-that-are-derived-from-the-existing-invoice-model"></a>Looge failivormingu konfiguratsioonid, mis on tuletatud olemasolevast arvemudelist.
 
@@ -91,4 +91,4 @@ Uued failivormingu konfiguratsioonid tuleb jagada Microsofti domeeniga, enne kui
     - Vaadake konfiguratsioonid üle, kui teil tuleb kohandada ER-vormingud ja nende sidumine funktsiooni versiooni vorminguvastendustega.
     - Vaadake seadistus üle, kui peate kohandama vahekaardil **Toimingud**, **Kohaldatavusreeglid** või **funktsiooni** versiooni jaoks vahekaardil Muutujad.
 
-9. Viige seadistus lõpule ja juurutage elektroonilise arveldamise funktsioon teenuse keskkonda. Lisateavet vt teemast Globaliseerimisfunktsiooni [lõpule viimine, avaldamine ja juurutamine](e-invoicing-complete-publish-deploy-globalization-feature).
+9. Viige seadistus lõpule ja juurutage elektroonilise arveldamise funktsioon teenuse keskkonda. Lisateavet vt teemast Globaliseerimisfunktsiooni [lõpule viimine, avaldamine ja juurutamine](e-invoicing-complete-publish-deploy-globalization-feature.md).

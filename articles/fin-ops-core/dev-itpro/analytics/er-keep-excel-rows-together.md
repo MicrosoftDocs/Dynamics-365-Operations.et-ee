@@ -1,5 +1,5 @@
 ---
-title: ER-vormingu loomine ridade kokku hoiamiseks samal Exceli lehel
+title: Elektroonilise aruandluse vormingu loomine ridade samal Exceli lehel kooshoidmiseks
 description: See teema kirjeldab, kuidas kujundada elektroonilise aruandluse (ER) vormingut, mis hoiab read kokku samal Microsoft Excel leheküljel.
 author: NickSelin
 ms.date: 02/28/2022
@@ -15,18 +15,17 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2022-03-01
 ms.dyn365.ops.version: Version 10.0.26
-ms.openlocfilehash: 711681ab38fb24b57a83f008f86a8261176aa5a5
-ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
+ms.openlocfilehash: 06782a4933fb5c3e86ad436b853f207fd3d5cddb
+ms.sourcegitcommit: 2977e92a76211875421e608555311c363cfbdc25
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "8389135"
+ms.lasthandoff: 04/16/2022
+ms.locfileid: "8612344"
 ---
-# <a name="design-an-er-format-to-keep-rows-together-on-the-same-excel-page"></a>ER-vormingu loomine ridade kokku hoiamiseks samal Exceli lehel
+# <a name="design-an-er-format-to-keep-rows-together-on-the-same-excel-page"></a>Elektroonilise aruandluse vormingu loomine ridade samal Exceli lehel kooshoidmiseks
 
 [!include [banner](../includes/banner.md)]
 
-[!include [banner](../includes/preview-banner.md)]
 
 See teema selgitab [, kuidas kasutaja süsteemiadministraatoris või elektroonilise aruandluse funktsiooninõustaja rollis](general-electronic-reporting.md) saab konfigureerida elektroonilise aruandluse (ER) [...](er-overview-components.md#format-component)Microsoft Excel vormingut, mis loob väljaminevaid dokumente ja hallata dokumendi lehekülgede saalimise funktsiooni nii, et loodud read hoitakse samal lehel.
 
@@ -55,7 +54,7 @@ Minimaalsete [ER-i parameetrite konfigureerimine](er-quick-start2-customize-repo
 
 ## <a name="import-the-standard-er-format-configuration"></a>Standardse ER‑vormingu konfiguratsiooni importimine
 
-Praegusele eksemplarile [standardse ER-vormingu konfiguratsiooni lisamiseks](er-quick-start2-customize-report.md#ImportERSolution1) järgige standardse ER-vormingu konfiguratsiooni Dynamics 365 Finance samme. Näiteks saate importida versiooni **252.116** vabas **vormis arve (Exceli) vormingu** konfiguratsioonist. Arve põhimudeli **konfiguratsiooni baasversioon 252** **imporditakse** automaatselt hoidlast koos nõutava arvemudeli vastendamise **konfiguratsiooniga**.
+Järgige standardse ER-vormingu [konfiguratsiooni importimise etappe](er-quick-start2-customize-report.md#ImportERSolution1), et lisada praegusele Dynamics 365 Finance'i eksemplarile standardsed ER-konfiguratsioonid. Näiteks saate importida versiooni **252.116** vabas **vormis arve (Exceli) vormingu** konfiguratsioonist. Arve põhimudeli **konfiguratsiooni baasversioon 252** **imporditakse** automaatselt hoidlast koos nõutava arvemudeli vastendamise **konfiguratsiooniga**.
 
 ## <a name="set-up-print-management-to-use-the-standard-er-format"></a>Seadista prindihaldus standardse ER-vormingu kasutamiseks
 

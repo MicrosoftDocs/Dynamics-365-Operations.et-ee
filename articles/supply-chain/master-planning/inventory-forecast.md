@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: abc827139c71f7942335cd2b7e2c7502f7fc1cfe
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
-ms.translationtype: HT
+ms.openlocfilehash: 1446928c2f5fe606d1d0732764a2a4460643afcf
+ms.sourcegitcommit: 4c8223c9540fbc1c1e554962938058d432e4c681
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469366"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "8548163"
 ---
 # <a name="inventory-forecasts"></a>Varude prognoosid
 
@@ -39,7 +39,7 @@ Eelarveridade loomiseks on ka teisi viise:
 - [Statistilise alusprognoosi loomine](generate-statistical-baseline-forecast.md).
 - [Nõudluse prognooside ajalooliste andmete importimine](import-historical-data.md).
 - [Prognoosi loomiseks kasuta Microsoft Azure masinõppe veebiteenust](demand-forecasting-setup.md).
-- [Importige nõudluse või pakkumise prognoosi read andmehalduse raamistiku abil (ForecastDemandForecastEntryStaging ja ForecastSupplyForecastEntryStagingi andmeüksused)](../../dev-itpro/data-entities/data-entities-data-packages.md).
+- [Importige nõudluse või pakkumise prognoosi read andmehalduse raamistiku abil (ForecastDemandForecastEntryStaging ja ForecastSupplyForecastEntryStagingi andmeüksused)](/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities-data-packages).
 
 Nagu 1. sammu tabel näitab, on kasutusel lehtedele juurdepääsuks eri viise.
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 50b6f306da1d32b1fd98da68bd997de1f1c23ffb
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 996a8b62b59dd27691a1eaa5ed619f94e899e8cf
+ms.sourcegitcommit: 197e6ddee84522fd587c6e4ee4f9089101e301c2
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570942"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8570418"
 ---
 # <a name="manage-voyages"></a>Teekondade haldamine
 
@@ -66,9 +66,9 @@ Järgmises tabelis kirjeldatakse toimingupaani vahekaardil **Haldamine** olevaid
 | Transiidis | Seadke väljale **Teekonna olek** transiidis oleku olek, mis on määratud lehel **[Väljalaadimiskulu parameetrid](landed-cost-parameters.md)**. Sellel protsessil puudub täiendav loogika. Teekonna saab transiidis oleku olekusse värskendada ka automaatselt, jaotise [Jälgimise juhtimiskeskus](delivery-information-setup.md) sätete alusel.
 | Kuluarvutuse jaoks valmis | Seadke väljale **Teekonna olek** kuluarvestuseks valmisoleku olek, mis on määratud lehel **[Väljalaadimiskulu parameetrid](landed-cost-parameters.md)**. Teekonna kuluarvutuse saab teha siis, kui kõik arved on töödeldud (nii laovaru arved kui teekonnakulu arved) ja kaubad on vastu võetud. Kui teekonnaga seotud eeldatavad kulud pole arvutatud, ilmneb tõrge, kui püüate teekonna kuluarvutust töödelda. |
 | Arvutatud kulu | Kõigi kuluarvutuse ebakorrapärasuste puhastamine pärast seda, kui kõigi ostutellimuste ja teekonnakulude kohta on arve olemas. Selle nupu valimisel kuvatakse dialoogiaken **Teekonna värskendamine - arvutatud kulu**. Seal saate valida, kas sisestada standardsel finantskuupäeval või määrata sisestuskuupäev, ja seejärel käivitada tegevuse. Saate tegevuse uuesti käivitada nii palju kordi kui soovite. Dialoogiaknas **Teekonna värskendamine - arvutatud kulu** saate ka määrata graafiku tegevuse käivitamiseks perioodilise ülesandena (pakett-töö). Soovitame tegevust regulaarselt käitada, seadistades selle pakett-tööna. |
-| Kviitungite loendi sisestamine | Sisestage sissetulekute loend teekonna kõigi ostutellimuse ridade jaoks. Kui kasutatakse mitut ettevõtet hõlmavaid teekondi, avatakse iga ettevõtte jaoks uus sissetulekute loendi sisestuse dialoogiaken, mida tuleb iga juriidilise isiku korral töödelda. |
-| Toote sissetuleku sisestamine | Sisestage toote sissetulek teekonna kõigi ostutellimuse ridade jaoks. Teekonnaga seostatud ostutellimuse ridade toote sissetuleku protsessi kasutatakse ainult siis, kui kaubad **ei** läbi transiidis olevate kaupade töötlust. Kui kaubad läbivad transiidis olevate kaupade töötluse, kuvatakse tõrketeade, kui püüate ostutellimuse rea jaoks sisestada toote sissetulekut. Kui kasutatakse mitut ettevõtet hõlmavaid teekondi, avatakse iga ettevõtte jaoks uus tarneteate sisestamise dialoogiaken. |
-| Sisesta arve | Sisestage arve teekonna kõigi ostutellimuse ridade jaoks. Kui teekonna kaubad läbivad transiidis olevate kaupade töötluse, arveldatakse ostutellimuse read enne vastuvõtuprotsessi läbimist. Kui algne ostutellimus on arveldatud, luuakse algsete ostutellimuse ridadega seostatud transiidis olevate kaupade tellimused. Seejärel saab ladu tellimused vastu võtta. Kui kasutatakse mitut ettevõtet hõlmavaid saadetisi, avatakse iga ettevõtte jaoks uus arve sisestamise dialoogiaken. |
+| Kviitungite loendi sisestamine | Sisestage sissetulekute loend teekonna kõigi ostutellimuse ridade jaoks.  |
+| Toote sissetuleku sisestamine | Sisestage toote sissetulek teekonna kõigi ostutellimuse ridade jaoks. Teekonnaga seostatud ostutellimuse ridade toote sissetuleku protsessi kasutatakse ainult siis, kui kaubad **ei** läbi transiidis olevate kaupade töötlust. Kui kaubad läbivad transiidis olevate kaupade töötluse, kuvatakse tõrketeade, kui püüate ostutellimuse rea jaoks sisestada toote sissetulekut.  |
+| Sisesta arve | Sisestage arve teekonna kõigi ostutellimuse ridade jaoks. Kui teekonna kaubad läbivad transiidis olevate kaupade töötluse, arveldatakse ostutellimuse read enne vastuvõtuprotsessi läbimist. Kui algne ostutellimus on arveldatud, luuakse algsete ostutellimuse ridadega seostatud transiidis olevate kaupade tellimused. Seejärel saab ladu tellimused vastu võtta.  |
 | Lähetuse üleviimistellimus | Sisestage üleviimistellimuse teekond teekonna kõigi üleviimistellimuse ridade jaoks. Selle nupu valimisel on värskendamiseks saadaval ainult üleviimistellimused. |
 | Võta üleviimistellimus vastu | Sisestage üleviimistellimuse sissetulek teekonna kõigi üleviimistellimuse ridade jaoks. |
 | Võta transiidis olevad kaubad vastu | Võtke vastu kõik teekonna transiidis olevad tellimuseread. See nupp on üks kolmest valikust, mis on saadaval teekonna transiidis olevate kaupade vastu võtmiseks. (Ülejäänud kaks valikut on nupp **Loo saabumistööleht**, mida kirjeldatakse selles tabelis hiljem, ja mobiilirakendus Warehouse Management.) See suvand on lihtsaim suvand ja töötleb transiidis olevad kaubad transiidis olevate kaupade laost välja ja lõppsihtlattu sisse. Kui soovite protsessi täpsemini juhtida, kasutage kaupade sissetuleku töötlemiseks saabumise töölehte või mobiilset seadet. |
@@ -84,7 +84,7 @@ Järgmises tabelis kirjeldatakse toimingupaani vahekaardil **Üldine** olevaid n
 
 | Nupp | Kirjeldus |
 |---|---|
-| Saabunud kaupade loend | Avatakse toote sissetulekute loend teekonna kõigi ostutellimuse ridade jaoks. Kui kasutatakse mitut ettevõtet hõlmavaid teekondi, avatakse uus sissetulekute loend iga ettevõtte jaoks. Kui ühtegi toote sissetuleku loendit pole töödeldud, ei ole see nupp saadaval. |
+| Saabunud kaupade loend | Avatakse toote sissetulekute loend teekonna kõigi ostutellimuse ridade jaoks.  Kui ühtegi toote sissetuleku loendit pole töödeldud, ei ole see nupp saadaval. |
 | Toote sissetulek | Avatakse toote sissetuleku kirje nende ostutellimuse ridade jaoks, mis on teekonnaga seotud, kui seda kirjet kasutatakse. Kui ühtegi toote sissetulekut pole sisestatud, ei ole see nupp saadaval. Kui kasutate transiidis olevate kaupade töötlemist, ei kasutata toote sissetuleku protsessi. |
 | Kauba saabumine | Avatakse kauba saabumise tööleht, kui seda kasutatakse. |
 | Jälitamine | Avatakse leht **Sissetulevate jälgimine**, kus saate värskendada saatmiskonteineris ja teekonnal olevate kaupade eeldatavat tarnekuupäeva ning värskendada ostutellimuse ridade eeldatavaid tarnekuupäevi. |

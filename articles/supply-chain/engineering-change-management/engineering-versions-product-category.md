@@ -2,7 +2,7 @@
 title: Tehnilised versioonid ja tehniliste toodete kategooriad
 description: See teema annab teavet tehniliste versioonide kontseptsiooni kohta. Tehnilised versioonid tagavad, et toote eri olekud ja selle andmed oleksid ajakohased ja selged ning et neid saaks süsteemis visualiseerida.
 author: t-benebo
-ms.date: 09/28/2020
+ms.date: 04/07/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 42faa9e5f073d718c18422e37212c2ae8a28b28d
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: a4d057c603e6592e491af7597e50fce2497860ec
+ms.sourcegitcommit: b96e0c70553bca9b3f5eb65105a52cb71d978a36
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572885"
+ms.lasthandoff: 04/07/2022
+ms.locfileid: "8553358"
 ---
 # <a name="engineering-versions-and-engineering-product-categories"></a>Tehnilised versioonid ja tehniliste toodete kategooriad
 
@@ -137,7 +137,7 @@ Iga ruudustiku lisatava rea jaoks määrake järgmised väljad.
 |---|---|
 | Nimi | Valige lisatav atribuut. |
 | Väärtus | Valige atribuudi vaikeväärtus. |
-| Kohustuslik | Kui sellele suvandile määratakse väärtus *Jah* atribuutide korral, mille tüüp on *Boolean*, peavad kasutajad määrama atribuudile väärtuse *Jah*. Kui selle suvandi väärtuseks määratakse *Ei*, saavad kasutajad atribuudile määrata kas väärtuse *Jah* või *Ei*. Teiste andmetüüpide puhul on selle suvandi säte lihtsalt teave. |
+| Kohustuslik | Valige, kas atribuut on kohustuslik. See tähendab, et kasutajad peavad atribuudile määrama kehtiva väärtuse, enne kui nad saavad toote salvestada. Selle sätte mõju sõltub valitud atribuudi andmetüübist, nagu määratletud järgmises loendis.<ul><li>**Kahendmuutuja: määrake see väärtuseks Jah, et atribuudi väärtus oleks Jah** (süsteem keeldub salvestamast toodet, kus atribuudi väärtuseks on määratud *Ei*).*·* *·* Seadke väärtuseks *Ei,* et aktsepteerida väärtus Jah *või* *Ei*. (Tüübi atribuudid *Kahendmuutuja* väärtus ei saa olla tühi.)</li><li>**Täisarv või kümnendkoht** – määrake see väärtuseks *Jah,* et nõuda kasutajatelt selle atribuudi mittenullväärtuse sisestamist. Seadistage see *väärtusele* Ei, et lubada kasutajatel salvestada väärtusega null.  (Seda tüüpi atribuutide väärtus ei saa olla tühi.)</li><li>**Loend** : loendite andmetüüp on *Tekst*, kuid hõlmab ka võimalike väärtuste eelmääratletud loendit. Seetõttu ei saa seda tüüpi atribuutide puhul tühja väärtust sisestada, seega ei ole see säte mõju ja on lihtsalt teabeline.</li><li>**Kõik muud andmetüübid** – atribuudi kohustuslikuks *miseks* määrake selle väärtuseks Jah. Määrake see väärtusele *Ei*, et lubada kasutajatel toodet salvestada ilma sellele atribuudile väärtust lisamata.</li></ul> |
 | Partii atribuut | Valige, kas atribuut tuleb paljundada pakkfunktsiooni kaudu. |
 
 ### <a name="readiness-policy-fasttab"></a>Kiirkaart Valmisolekupoliitika

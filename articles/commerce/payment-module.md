@@ -2,7 +2,7 @@
 title: Maksemoodul
 description: See teema hõlmab maksemoodulit ja kirjeldab, kuidas konfigureerida seda rakenduses Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 01/07/2022
+ms.date: 04/12/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: de92e137815cb79944a2793fc4841c949ed43346
-ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
+ms.openlocfilehash: ba95386143ca830aeb1b50b31b4bbd2b54f53a40
+ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952465"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8565725"
 ---
 # <a name="payment-module"></a>Maksemoodul
 
@@ -52,7 +52,7 @@ Järgmisel illustratsioonil on näide kinkekaardi, boonuspunktide ja Aydeni maks
 
 Alates Commerce'i versioonist 10.0.14 integreeriti maksemoodul ka Dynamics 365 PayPali maksekonnektoriga. Lisateavet selle maksekonnektori häälestamise ja konfigureerimise kohta leiate teemast [Dynamics 365 maksekonnektor PayPali jaoks](paypal.md).
  
-Maksmise lehel võivad olla konfigureeritud nii Adyeni kui ka PayPali konnektorid. Maksemoodulit on täiustatud lisaatribuutidega, et teha kindlaks, millise konnektoriga see peaks töötama. Üksikasju vaadake järgmises **tabelis toetatud** maksevahendi **tüüpidest** ja mooduli On esmane maksemoodul atribuutidest.
+Maksmise lehel võivad olla konfigureeritud nii Adyeni kui ka PayPali konnektorid. Maksemoodulit on täiustatud lisaatribuutidega, et teha kindlaks, millise konnektoriga see peaks töötama. Üksikasju vaadake järgmises tabelis toetatud **maksevahendi** **tüüpidest ja** mooduli On esmane maksemoodul atribuutidest.
   
 Kui maksemoodul on konfigureeritud kasutama PayPali maksekonnektorit, kuvatakse maksmise lehel PayPali nupp. Maksemoodul renderdab PayPali teabega IFrame'i, kui klient selle käivitab. Klient saab oma tehingu lõpuleviimiseks sisse logida ja esitada selle IFrame'i kaudu oma PayPali teabe. Kui klient otsustab tasuda PayPali abil, võetakse tellimuse jääksumma PayPali kaudu.
 
@@ -74,6 +74,8 @@ Järgmisel joonisel on toodud näide PayPal IFrame'ist, mida käivitatakse PayPa
 | Makse stiili tühistamine | Kaskaadlaadistiku (CSS) kood | Kuna maksemoodulit majutatakse iFrame'is, on laadi muutmine piiratud. Selle atribuudi abil saate laadi veidi muuta. Saidi laadide alistamiseks peate kleepima CSS-koodi selle atribuudi väärtusena. Selle mooduli puhul ei rakendu saidiehitaja CSS-i alistused ja laadid. |
 |Toetatud maksevahendi tüübid| String| Kui on konfigureeritud mitu makseühendust, peate andma toetatud maksevahendi tüübi stringi, nagu on määratletud Commerce headquartersi maksekonnektori konfiguratsioonis (vt järgmist pilti). Kui see on tühi, määratakse vaikimisi Adyeni maksekonnektor. Lisatud Commerce'i väljalaskesse 10.0.14.|
 |On esmane makse|  **Tõene** või **Väär** | Kui see on **Tõene**, koostatakse tõrketeated maksmise lehel esmase maksekonnektori põhjal. Kui Aydeni ja PayPali maksekonnektorid on konfigureeritud, määrake Adyeni väärtuseks **Tõene**, mis lisati Commerce'i versioonis 10.0.14.|
+|Kasuta konnektori ID-d| **Tõene** või **Väär** | Kasutage seda atribuuti, kui saidile on konfigureeritud mitu makseühendust. Kui **see** on tõene, peavad konnektorid kasutama maksete korrelatsiooniks konnektori ID-d.|
+|Kasuta brauserikomplekti keelekoodi <a0/& jaoks iFrame|  **Tõene** või **Väär** | (Ainult Omaen) Kui **see** on tõene, renderdab Portaal iFrame keele saidi kasutaja brauserikonteksti alusel, selle asemel et kasutada saidi jaoks konfigureeritud Ärikanali keelekoodi. Lisatud Commerce'i väljalaskesse 10.0.27.|
 
 Järgmisel joonisel on kujutatud näide, kus atribuudi **Toetatud maksevahenditüübid** jaoks on määratud väärtus „PayPal“ Commerce'i peakontori maksekonnektori konfiguratsioonis.
 ![Commerce'i peakontori toetatud maksevahenditüüpide näide.](./media/ecommerce-paymenttendertypes.png)
@@ -96,18 +98,18 @@ Kui teie saidi jaoks kasutatakse nii Puhvri kui ka PayPali makseühendusi, järg
 
 1. PayPal maksemooduli atribuutide paanil järgige neid samme.
 
-    1. Sisestage toetatud **maksevahendi tüüpide** atribuudi väljale **PayPal**.
-    1. Tühjendage ruut peamise **makse atribuudi** jaoks.
-    1. Märkige ruut atribuudi Kasuta **konnektori ID** jaoks.
+    1. Sisestage toetatud maksevahendi **tüüpide atribuudi** väljale **PayPal**.
+    1. Tühjendage ruut peamise makse **atribuudi** jaoks.
+    1. Märkige ruut atribuudi Kasuta konnektori **ID jaoks**.
 
 1. Maksemooduli Korrake atribuutide paanil järgmisi samme.
 
-    1. Jätke toetatud maksevahendi **tüüpide atribuudi** väli tühjaks.
-    1. Märkige ruut peamise **makse atribuudi** jaoks.
-    1. Märkige ruut atribuudi Kasuta **konnektori ID** jaoks.
+    1. Jätke toetatud maksevahendi **tüüpide atribuudi väli** tühjaks.
+    1. Märkige ruut peamise makse **atribuudi** jaoks.
+    1. Märkige ruut atribuudi Kasuta konnektori **ID jaoks**.
 
 > [!NOTE]
-> Kui konfigureerite Puhvri ja PayPali konnektorid nii, et neid koos kasutatakse, peab **Dynamics 365 Payment Connector Puhvri konfiguratsioonile olema võrgukanali Maksekontode konnektori konfiguratsioonis Commerce headquartersis esimene** **positsioon**. Ühendustellimuse kinnitamiseks või muutmiseks minge **võrgupoodidesse** ja valige oma saidi kanal. Seejärel veenduge konnektori all maksekontode kiirkaardi vahekaardil Seadistamine, et Dynamics 365 Maksekonnektor Omakonfiguratsioon on esimeses positsioonis (st ülemisel real) ja et **Dynamics** **·** **·** **·** **365 Payment Connector PayPali konfiguratsiooni jaoks** on teisel real. Lisage konnektorid ümberjärjesaamiseks vastavalt vajadusele või eemaldage need.
+> Kui konfigureerite Puhvri ja PayPali konnektorid nii, et neid koos kasutatakse, **peab Dynamics 365 Payment Connector Puhvri konfiguratsioonile** **olema** võrgukanali Maksekontode konnektori konfiguratsioonis Commerce headquartersis esimene positsioon. Konnektori tellimuse kinnitamiseks või muutmiseks minge võrgupoodidesse **ja** valige oma saidi kanal. **Seejärel** veenduge konnektori all maksekontode kiirkaardi vahekaardil Seadistamine, **·** **et Dynamics 365 Maksekonnektor Omakonfiguratsioon** on **esimeses** positsioonis (st ülemisel real) **ja Et Dynamics 365 Payment Connector PayPali** konfiguratsiooni jaoks on teisel real. Lisage konnektorid ümberjärjesaamiseks vastavalt vajadusele või eemaldage need.
 
 ## <a name="additional-resources"></a>Lisaressursid
 

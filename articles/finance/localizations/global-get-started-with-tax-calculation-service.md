@@ -2,7 +2,7 @@
 title: Maksuarvutusega alustamine
 description: Selles teemas selgitatakse, kuidas seadistada maksuarvestusi.
 author: wangchen
-ms.date: 01/05/2022
+ms.date: 03/25/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: ae2c20fe79c2f8fd8d102740441230ae443f16a3
-ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
-ms.translationtype: HT
+ms.openlocfilehash: 61ee15901a091ee733b83c8cbaa5b84801fa8e5d
+ms.sourcegitcommit: 4afd1e0b325d27cd7c4e0d9a198400b038262ac7
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952517"
+ms.lasthandoff: 04/09/2022
+ms.locfileid: "8558309"
 ---
 # <a name="get-started-with-tax-calculation"></a>Maksuarvutusega alustamine
 
 [!include [banner](../includes/banner.md)]
 
-See teema annab teavet selle kohta, kuidas alustada maksuarvestusega. Selle teema jaotised juhendavad teid läbi kõrgema taseme kujunduse ja konfigureerimisetappide elutsükli Microsoft Dynamics teenustes (LCS), Regulatory Configuration Service (RCS) Dynamics 365 Finance ja Dynamics 365 Supply Chain Management. 
+See teema annab teavet selle kohta, kuidas alustada maksuarvestusega. Selle teema jaotised juhendavad teid läbi kõrgema taseme kujunduse ja konfigureerimise etapid elutsükli teenustes (LCS), regulatiivses konfiguratsiooniteenuses Microsoft Dynamics (RCS), Dynamics 365 finantsis ja Dynamics 365 Supply Chain Management. 
 
 Seadistus koosneb kolmest põhi astmest.
 
@@ -36,17 +36,17 @@ Seadistus koosneb kolmest põhi astmest.
 
 ## <a name="high-level-design"></a>Kõrgtaseme kujundus
 
-### <a name="runtime-design"></a>Käitusaja kujundus
+### <a name="runtime-design"></a><a name="runtime"></a> Käitusaja kujundus
 
 Järgmine näide näitab maksuarvestuse kõrgema taseme käitusaja kujundust. Kuna maksuarvutust saab integreerida mitme Dynamics 365 rakendusega, kasutab näide integratsiooni finantsiga.
 
 1. Finantsis luuakse kanne, nt müügitellimus või ostutellimus.
 2. Finantsid kasutavad automaatselt käibemaksugrupi ja kauba käibemaksugrupi vaikeväärtusi.
-3. Kui **kandel** on valitud nupp Käibemaks, käivitatakse maksu arvutamine. Finantsid saadab siis lasti maksuarvutuse teenusesse.
+3. **Kui kandel** on valitud nupp Käibemaks, käivitatakse maksu arvutamine. Finantsid saadab siis lasti maksuarvutuse teenusesse.
 4. Maksuarvestuse teenus sobitab tasu koormuse eelmääratletud reeglitega maksufunktsioonis, et leida täpsem käibemaksugrupp ja kauba käibemaksugrupp samaaegselt.
 
-    - Kui tasukoormust saab vastendada maksugrupi kohaldatavusmaatriksiga, alistab see käibemaksugrupi väärtuse vastendatud maksugrupi **väärtusega** kohaldatavusreeglis. Muidu jätkatakse finantside käibemaksugrupi väärtuse kasutamist.
-    - Kui last on vastendatud kauba maksugrupi kohaldatavusmaatriksiga, alistab see kauba käibemaksugrupi väärtuse ja kohaldatavusreeglis vastendatud kauba **maksugrupi** väärtuse. Muidu jätkatakse finantside kauba käibemaksugrupi väärtuse kasutamist.
+    - Kui tasukoormust saab vastendada **maksugrupi** kohaldatavusmaatriksiga, alistab see käibemaksugrupi väärtuse vastendatud maksugrupi väärtusega kohaldatavusreeglis. Muidu jätkatakse finantside käibemaksugrupi väärtuse kasutamist.
+    - Kui last on **vastendatud** kauba maksugrupi kohaldatavusmaatriksiga, alistab see kauba käibemaksugrupi väärtuse ja kohaldatavusreeglis vastendatud kauba maksugrupi väärtuse. Muidu jätkatakse finantside kauba käibemaksugrupi väärtuse kasutamist.
 
 5. Maksuarvestuse teenus määrab lõplikud maksukoodid, kasutades käibemaksugrupi ja kauba käibemaksugrupi ristvalikut.
 6. Maksuarvestuse teenus arvutab maksu lõplike maksukoodide alusel, mille ta määratles.
@@ -59,8 +59,8 @@ Järgmine näide näitab maksuarvestuse kõrgema taseme käitusaja kujundust. Ku
 Järgmised sammud annavad kõrgel tasemel ülevaate maksuarvestuse teenuse konfiguratsiooniprotsessist.
 
 1. Installige LCS-i **oma** LCS-projekti maksuarvutuse lisandmoodul.
-2. RCS-s looge **käibemaksu arvutamise** funktsioon.
-3. RCS-s seadistage **maksuarvestuse** funktsioon:
+2. RCS-s looge käibemaksu **arvutamise** funktsioon.
+3. RCS-s seadistage maksuarvestuse **funktsioon**:
 
     1. Valige maksu konfiguratsiooni versioon.
     2. Loo maksukoodid.
@@ -70,7 +70,7 @@ Järgmised sammud annavad kõrgel tasemel ülevaate maksuarvestuse teenuse konfi
     6. Valikuline: looge kaubagrupi kohaldatavus, kui soovite kauba koondandmetest sisestatud kauba käibemaksu vaikegrupi alistada.
 
 4. RCS-s täitke ja avaldage **maksuarvestuse** funktsioon.
-5. Valige finantsides avaldatud **maksuarvutuse** funktsioon.
+5. Valige finantsides avaldatud maksuarvutuse **funktsioon**.
 
 Pärast nende sammude sooritamist sünkroonitakse järgmised seadistused automaatselt RCS-st finantsidesse.
 
@@ -96,6 +96,14 @@ Enne kui saate selles teemas järelejäänud protseduurid lõpule viia, peavad o
 
     - Globaliseerimisfunktsioonid
 
+- Järgmised rollid tuleb määrata nii, nagu need on teie RCS-keskkonnas kasutajatele sobivad:
+
+    - Elektroonilise aruandluse arendaja
+    - Üleilmastumisfunktsiooni arendaja
+    - Maksumootori arendaja
+    - Maksumootori funktsionaalne konsultant
+    - Maksuteenuse arendaja
+
 ## <a name="set-up-tax-calculation-in-lcs"></a>LCS-is maksuarvestuse seadistamine
 
 1. Logige sisse [LCS](https://lcs.dynamics.com)
@@ -115,7 +123,7 @@ Selle jaotise sammud ei ole seotud kindla juriidilise üksusega. Seda protseduur
 5. Väljalt **Tüüp** valige **Globaalne**.
 6. Valige **Avamine**.
 7. Minge **Maksu andmemudelisse**, laiendage failipuud ja valige seejärel **Maksukonfiguratsioon**.
-8. Valige õige [maksukonfiguratsiooni](global-tax-calcuation-service-overview.md#versions) versioon, mis põhineb teie finantsversioonil, ja seejärel valige **käsk** Impordi.
+8. Valige õige maksu [konfiguratsiooni versioon](global-tax-calcuation-service-overview.md#versions), mis põhineb teie finantsversioonil, ja seejärel valige käsk **Impordi**.
 9. Minge tagasi **Globaliseerimisfunktsioonide** tööruumi, valige **Funktsioonid**, valige **maksuarvutuse** paan ja seejärel valige **Lisa**.
 10. Saate valida ühe järgmistest funktsioonitüüpidest:
 
@@ -203,15 +211,21 @@ Selle jaotise sammud ei ole seotud kindla juriidilise üksusega. Seda protseduur
     | Müük            | DEU       | FRA     | DEU_EL       |
     | Müük            | BEL       | BEL     | BEL_Domestic |
     | Müük            | BEL       | FRA     | BEL_EL       |
+    
+    > [!NOTE]
+    > Kui vaike käibemaksugrupp on maksustatava dokumendi ridadel õige, jätke see maatriks tühjaks. Lisateavet vt selle teema käitusaja [kujunduse](#runtime) jaotisest.
 
 22. Vahekaardil **Maksukoodide kohaldatavus** valige veerud, mis on nõutavad õige maksugrupi määramiseks, ja seejärel valige **Lisa**. Sisestage või valige väärtused iga veeru jaoks. **Maksugrupi üksus** väli on selle maatriksi väljund. Kui see vahekaart ei ole konfigureeritud, kasutatakse kandereal käibemaksugruppi.
 
     Siin on näide.
 
-    | Kauba kood | Kauba käibemaksugrupp |
+    | Üksuse kood | Kauba maksugrupp |
     | --------- | -------------- |
     | D0001     | Täis           |
     | D0003     | Alandatud        |
+
+    > [!NOTE]
+    > Kui kauba käibemaksugrupi vaikeväärtus maksustatava dokumendi ridadel on õige, jätke see maatriks tühjaks. Lisateavet vt selle teema käitusaja [kujunduse](#runtime) jaotisest.
 
     Lisateavet maksukoodide määramise kohta maksu arvutuses vt [käibemaksugrupi ja kauba käibemaksugrupi määramise loogika](global-sales-tax-group-determination.md).
 

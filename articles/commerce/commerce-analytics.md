@@ -8,12 +8,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: aamiral
 ms.search.validFrom: 2021-11-12
-ms.openlocfilehash: 7e3721421e15bc3e5937691cdbaee51e4d3cdd17
-ms.sourcegitcommit: d2e5d38ed1550287b12c90331fc4136ed546b14c
-ms.translationtype: HT
+ms.openlocfilehash: 63d6e5ef7e883578106495d5ec778bbd686ee92d
+ms.sourcegitcommit: 722854cb0d302d01ce3d9580ac80dc7c23d19bf5
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "8349739"
+ms.lasthandoff: 04/06/2022
+ms.locfileid: "8550003"
 ---
 # <a name="commerce-analytics-preview"></a>Commerce‘i analüütika (eelversioon)
 
@@ -53,7 +53,7 @@ Andmed pärinevad kas kandeandmetena või käitumusandmetena ühest järgmistest
 - Müüke luuakse kohandatud rakendustes, kasutades Headless Commerce'i (Commerce Scale Unit).
 - E-kaubanduse ostja sirvib teie e-äri veebisaiti.
 - E-äri ostja edab tellimuse teie e-äri veebisaidil.
-- Andmeid toodetakse teistes süsteemides, nt.Dynamics 365 Connected Spaces
+- Andmeid toodetakse teistes süsteemides, nt Dynamics 365 Connected Spaces.
 
 #### <a name="step-2-ingestion-and-pre-processing"></a>2. etapp: sisseseadmine ja eeltöötlus
 
@@ -352,15 +352,20 @@ Näitamise **aruandeleht** sisaldab järgmisi mõõdulehti:
 
 ### <a name="enable-and-configure-commerce-analytics-preview"></a><a name="enableCommerceAnalytics"></a> Commerce Analyticsi lubamine ja konfigureerimine (eelvaade)
 
-Commerce Analyticsi (Eelvaade) installimiseks peavad teil olema luba Azure'i kordustellimuses ressursside loomiseks. Samuti peavad teil olema LCS-i lisandmoodulite installimise õigused. 
+Commerce Analyticsi (Eelvaade) installimiseks peavad teil olema luba Azure'i kordustellimuses ressursside loomiseks. Samuti peavad teil olema LCS-i lisandmoodulite installimise õigused.
 
 Commerce Analyticsi (Eelvaade) lubamiseks ja konfigureerimiseks järgige neid samme.
 
-1. [Lubage ja konfigureerige andmetesse eksportimise lisandmoodul](#enableExportToDataLake).
-1. [Installige ja konfigureerige Azure Synapse tööruum](#configureAzureSynapse).
-1. [Lisage võtme hoidlasse saladusi](#addSecrets).
-1. [Lubage ja konfigureerige Commerce Analyticsi (Eelvaade) lisandmoodul](#enableCommerceAnalyticsAddin).
-1. [Installige Power BI malli rakendus](#powerbi).
+1. [Commerce Analyticsi eelvaate vormi esitamine (eelvaade)](#joinPreview)
+2. [Lubage ja konfigureerige andmetesse eksportimise lisandmoodul](#enableExportToDataLake).
+3. [Installige ja konfigureerige Azure Synapse tööruum](#configureAzureSynapse).
+4. [Lisage võtme hoidlasse saladusi](#addSecrets).
+5. [Lubage ja konfigureerige Commerce Analyticsi (Eelvaade) lisandmoodul](#enableCommerceAnalyticsAddin).
+6. [Installige Power BI malli rakendus](#powerbi).
+
+### <a name="submit-the-preview-intake-form-for-commerce-analytics-preview"></a><a name="joinPreview"></a> Commerce Analyticsi eelvaate vormi esitamine (eelvaade)
+
+[Commerce Analyticsi eelvaate vormi esitamine (eelvaade).](https://forms.office.com/r/vW5VLJGXZ2) Pärast teie taotluse töötlemist saadetakse kinnitusmeil meiliaadressile, mille vormis edastasite.
 
 ### <a name="enable-and-configure-the-export-to-data-lake-add-in"></a><a name="enableExportToDataLake"></a> Andmetesse eksportimise lisandmooduli lubamine ja konfigureerimine
 
@@ -456,7 +461,7 @@ Commerce Analyticsi Power BI mallirakenduse installimiseks (eelvaade) järgige n
     | Väli | Väärtus |
     |---|---|
     | Autentimismeetod | Valige **baas**. |
-    | Kasutajanimi | Sisestage **kasutaja reportreadonlyuser**. |
+    | Kasutaja nimi | Sisestage **kasutaja reportreadonlyuser**. |
     | Parool | Sisestage võtmehoidlasse [sql-i kirjutuskaitstud kasutaja jaoks salvestatud parool](#roUser). |
 
 1. Valige **sisselogimine ja looge ühendus**.

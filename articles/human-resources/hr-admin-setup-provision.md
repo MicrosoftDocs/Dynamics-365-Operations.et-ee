@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0c856bca32c3dee44469c098961d85b4d8cb70a6
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
-ms.translationtype: MT
+ms.openlocfilehash: 65891e380f740f4a1fa404d57789a6f50506d3b5
+ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060411"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8565624"
 ---
 # <a name="provision-human-resources"></a>Human Resourcesi ettevalmistus
 
@@ -40,6 +40,10 @@ Enne uue tootmiskeskkonna ettevalmistamise alustamist peavad olema täidetud jä
 
 ## <a name="provision-a-human-resources-trial-environment"></a>Human Resources proovikeskkonna ettevalmistamine
 
+>[!NOTE]
+> Alates 2022. aasta aprillist pole Inimressursside proovikeskkonnad saadaval eraldi rakenduses. Potentsiaalsed kliendid, kes on huvitatud inimressursside võimaluste hindamisest Finantside ja toimingute rakendustes, saavad seda teha, kasutades tasuta 30-päevast prooviversiooni koos demoandmetega. Dynamics 365 Finance hõlmab inimressursside võimalusi, mis on toodud finantside infrastruktuuri autonoomse rakenduse ühendamise kaudu. Lisateavet vt [jaotisest](https://cloudblogs.microsoft.com/dynamics365/it/2021/09/15/merging-of-hr-offerings-brings-capabilities-together-for-customers) Inimressursside pakkumiste ühendamine toob klientide võimalused kokku. Lisateavet Dynamics 365 Finantside katsete kohta leiate samm-sammulisest [juhendist](/fin-ops/get-started/before-you-buy). 
+
+
 Enne oma esimese kausta või tootmiskeskkonna ressursi ressursiks saatmist võite soovida Human Resources funktsionaalsuse kinnitamiseks ette võtta [Human Resources proovikeskkonna](https://go.microsoft.com/fwlink/p/?LinkId=2115962). Proovikeskkonnad sisaldavad fiktiivseid andmeid, mis võimaldavad programmiga turvaliselt tutvuda. Kuigi proovikeskkonna omanikuks on kasutaja, kes seda taotles, saab sinna kutsuda teisi kasutajaid läbi rakenduse Human Resources süsteemiadministratsiooni kogemuse. 
 
 Proovikeskkonnad pakuvad võimalust hinnata inimressursside funktsioone üksikisikute puhul, kellel pole veel juurdepääsu Inimressursside keskkonnale. Kui kasutate proovikeskkonda ja autenditud kasutajal on juba juurdepääs ühele või mitmele olemasolevale Inimressursside keskkonnale, suunatakse kasutaja ümber olemasolevasse keskkonda või keskkondade loendisse.
@@ -58,7 +62,7 @@ Enne oma esimese Human Resourcesi keskkonna loomist peaksite hoolikalt planeerim
 Kaalutlused täiendavatele keskkondadele:
 
 - **Andmete migratsioon**: teil võib olla tarvis kaaluda andmete migreerimise tegevuste jaoks lisakeskkonda, et võimaldada liivakastikeskkonna testimiseks kasutamist kogu projekti vältel. Lisakeskkonna omamine võimaldab andmete migreerimise toimingute jätkumist testimisega ja konfigureerimisega samaaegselt teises keskkonnas.
-- **Integratsioon**: täiendavaid keskkondi peaksite kaaluma testintegreerimiste konfigureerimiseks. See võib hõlmata põhiintegratsioone, nagu Ceridan Dayforce LinkedIn Anne'i talendikeskuse integratsioonid, või kohandatud integratsioonid, nagu palgaarvestuse, kandidaadi jälgimissüsteemide või soodustussüsteemide ja pakkujate integratsioonid.
+- **Integratsioon**: täiendavaid keskkondi peaksite kaaluma testintegreerimiste konfigureerimiseks. See võib hõlmata emaintegratsioone, nagu Ceridani päevajõud või LinkedIn Anne'i keskuse integratsioonid, või kohandatud integratsioonid, nagu palgaarvestuse, kandidaadi jälgimissüsteemide või soodustussüsteemide ja pakkujate jaoks.
 - **Koolitus**: teil võib olla vaja eraldi keskkonda, mis on konfigureeritud koolitusandmete komplektiga, et koolitada oma töötajaid uut süsteemi kasutama. 
 - **Mitmefaasiline projekt**: teil võib täiendavad keskkonna olla vaja konfiguratsiooni, andmete migratsiooni, testimise või muude tegevuste jaoks projektifaasis, mis on planeeritud pärast esialgset projekti käivitamist.
 

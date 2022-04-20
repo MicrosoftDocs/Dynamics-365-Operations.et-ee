@@ -1,6 +1,6 @@
 ---
-title: Käibemaksukoodide seadistamine
-description: Selles teemas selgitatakse, kuidas seadistada käibemaksukoode rakenduses Dynamics 365 Finance.
+title: Saate häälestada käibemaksukoode.
+description: See teema kirjeldab käibemaksukoodide seadistamist Dynamics 365 Finances.
 author: twheeloc
 ms.date: 09/27/2021
 ms.topic: business-process
@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: TaxTable, TaxData
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
-ms.author: roschlom
+ms.author: kfend
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2539d701dda4ef5e1484d095b2d86d1f68a0dc98
-ms.sourcegitcommit: 86f0574363fb869482ef73ff294f345f81d17c5b
+ms.openlocfilehash: 69e2cf9a16fe0e694154cccf9b49944b49c79b90
+ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7562098"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8565849"
 ---
-# <a name="set-up-sales-tax-codes"></a>Käibemaksukoodide seadistamine
+# <a name="set-up-sales-tax-codes"></a>Saate häälestada käibemaksukoode.
 
 [!include [banner](../../includes/banner.md)]
 
@@ -45,7 +45,7 @@ See ülesanne kasutab demoettevõtte USMF andmeid.
 12. Sulgege leht.
 13. Valige käsk **Salvesta**.
 
-Microsoft Dynamics 365 Finance versiooni 10.0.22 puhul kasutades [Maksuteenust ja](../../localizations/global-tax-calcuation-service-overview.md) kui **Funktsioonihalduse** tööruumis on lubatud [**Mitme KM-i registreerimisnumbrite toe**](../../localizations/emea-multiple-vat-registration-numbers.md) funktsioon, saate **Maksukoodi tüübi** välja kasutada maksukoodi tüübi määramiseks. Saadaval on järgmised väärtused:
+Microsoft Dynamics Finantsversiooni 365 10.0.22 [...](../../localizations/global-tax-calcuation-service-overview.md)[**·**](../../localizations/emea-multiple-vat-registration-numbers.md)**puhul**, kui kasutate maksuteenust ja funktsioonihalduse tööruumis on lubatud mitme käibemaksu registreerimisnumbri toe funktsioon, **saate** maksukoodi tüübi määramiseks kasutada maksuvälja Tüüpi. Saadaval on järgmised väärtused:
 
 - Standardne KM
 - Alandatud KM

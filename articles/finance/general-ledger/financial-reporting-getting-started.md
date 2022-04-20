@@ -1,6 +1,6 @@
 ---
 title: Finantsaruandluse ülevaade
-description: Selles teemas kirjeldatakse, kus pääseda juurde rakenduse Microsoft Dynamics 365 Finance finantsaruandlusele ja kasutada finantsaruandluse võimalusi.
+description: See teema kirjeldab, kuhu pääseb Microsoft Dynamics juurde finantsaruandluses 365 Finantsid ja kuidas kasutada finantsaruandluse võimalusi.
 author: aprilolson
 ms.date: 03/31/2022
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e1db676024f5ec0f254500bd2ceee85ab2150502
-ms.sourcegitcommit: 777f9581dccc0f963c6a04c95b85e00e68573db5
+ms.openlocfilehash: fcdb5a934818468e00be960f9afe541966e5eabf
+ms.sourcegitcommit: e8a2a1e34fa48a42afac9724828f4ec72b6d7085
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8527309"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8573646"
 ---
 # <a name="get-started-with-financial-reporting"></a>Finantsaruandlusega alustamine 
 
@@ -138,7 +138,7 @@ Kui valite menüü **Finantsaruandlus**, kuvatakse ettevõtte vaike-finantsaruan
 
 ## <a name="creating-and-modifying-financial-reports"></a>Finantsaruannete koostamine ja muutmine
 
-Finantsaruannete loendist saate luua uue aruande või muuta olemasolevat aruannet. Kui teil on olemas vastavad load, saate koostada uue finantsaruande, valides toimingupaanil suvandi **Uus**. Aruande koostamise programm laaditakse teie seadmesse. Kui aruandekoostur on käivitunud, saate koostada uue aruande. Pärast uue aruande salvestamist kuvatakse see finantsaruannete loendis. Loendis kuvatakse ainult need aruanded, mis on loodud ettevõttele, mida Dynamics 365 Finance'is kasutate. 
+Finantsaruannete loendist saate luua uue aruande või muuta olemasolevat aruannet. Kui teil on olemas vastavad load, saate koostada uue finantsaruande, valides toimingupaanil suvandi **Uus**. Aruande koostamise programm laaditakse teie seadmesse. Kui aruandekoostur on käivitunud, saate koostada uue aruande. Pärast uue aruande salvestamist kuvatakse see finantsaruannete loendis. Loendis kuvatakse ainult aruanded, mis loodi ettevõttele, mida te Dynamics 365 Finances kasutate. 
 
 ## <a name="reporting-tree-definitions"></a>Aruandluspuu definitsioonid
 
@@ -150,9 +150,9 @@ Oma organisatsiooni andmete eri viisil kuvamiseks saate luua piiramatu arvu arua
 
 Finantside ja toimingute rakendusi uuendatakse igal kuul. Finantsaruandlust ei uuendata siiski tingimata selle sagedusega. Lisaks on klientidel rohkem suvandeid finantside ja toimingute rakenduste värskenduste rakendamise kohta. Finantsaruandluse uuendused installitakse automaatselt. Finantsaruandluses on määratud versioon, mida tarbitakse kliendi keskkonnas siis, kui teenuse värskendust rakendatakse, kui käivitatakse ületunnitöö või kui kliendi keskkond on hooldusrežiimis. Seda protsessi nimetatakse *sissevooluks* või *tõeseks*, kuna kõigile kliendi rakendustele on määratud finantsaruandluse sama versioon.
 
-Muudatused, mis igas versioonis vabastatakse, leiate väljadelt [Mis on uut või muutunud Dynamics 365 Finance](../../finance/get-started/whats-new-home-page.md). Platvormi värskendused ja vigade parandused leiate lehekülje allservas olevast jaotisest "Lisaressursid" iga väljaande kohta.
+Kõikides versioonides väljastatud muudatused leiate dynamics [365 Financei uutest või muutunud muudatustest](../../finance/get-started/whats-new-home-page.md). Platvormi värskendused ja vigade parandused leiate lehekülje allservas olevast jaotisest "Lisaressursid" iga väljaande kohta.
 
-Valitud sissepööratud versioon on tootmiseks valmis finantsaruandluse üle vaadatud ja kinnitatud versioon. See ühildub mõne varasema või tulevase rakenduse Dynamics 365 Finance versiooniga. Näiteks võib finantsaruandlus olla 10.0.19 värskeim järgus, kui klient on veel rakenduse versioonis 10.0.16.
+Valitud sissepööratud versioon on tootmiseks valmis finantsaruandluse üle vaadatud ja kinnitatud versioon. See ühildub mis tahes Dynamics 365 Finance'i varasema või tulevase versiooniga. Näiteks võib finantsaruandlus olla 10.0.19 värskeim järgus, kui klient on veel rakenduse versioonis 10.0.16.
 
 > [!NOTE]
 > Ainus valik, kus kliendid saavad eelmisele versioonile liikuda (alandatud stsenaarium), toimub siis, kui Microsoft peatab probleemi tõttu tegeliku ümberpööramise. Kui parandus on saadaval, rakendatakse see automaatselt.
@@ -212,7 +212,7 @@ Siin on mõned sammud, mida saate teha, et muuta oma vestlus Microsoft`i toega t
 Järgmised sammud läbivad sündmusevaaturi teadete sisselutusprotsessi Financial aruandluses. Sündmustevaaturi loodud logid aitavad insenere ühenduse probleemi kiires tuvastamises. Esitage nende logide koopiad koos oma piletiga toe saamiseks.
 
 
-1. Kopeerib faili RegisterETW.zip kliendi tööjaama (eelistatult töölauale) ja ekstraktib [RegisterETW.zip](https://dev.azure.com/msdyneng/e6f12261-a46a-4af1-ac0c-e22bc2c5a478/_apis/git/repositories/ff923027-67f0-43fb-b63c-6d6b6423840f/Items?path=%2F.attachments%2FRegisterETW-c1a35291-6aa6-4462-a2bc-4ba117fd5f8e.zip&download=false&resolveLfs=true&%24format=octetStream&api-version=5.0-preview.1&sanitize=true&versionDescriptor.version=wikiMaster).
+1. Kopeerib faili RegisterETW.zip kliendi tööjaama (eelistatult töölauale) ja ekstraktib [RegisterETW.zip](https://mbs2.microsoft.com/fileexchange/?fileID=60b1106b-d5f8-4e0f-8041-039102505122).
 2. Veenduge, et Windows Event vaatur on suletud.
 3. Avage administraatori PowerShell käsuviip ja minge kataloogi, kus asub RegisterETW.ps1.
 4. Käivitage järgmine käsk: .\RegisterETW.ps1
@@ -242,7 +242,7 @@ Probleem: kuvatakse tõrge "Ei saa ühendust finantsaruandluse serveriga".
 * Kui saate ühenduse veateate, valige ühenduse testimiseks **Test** katsetus, et näha, milline teade kuvatakse. 
 * Probleem võib olla tingitud teisest kasutajast, kellel pole Financial aruandlusele juurdepääsu. Kui kasutajal ei ole juurdepääsu, saab ta teate, et tal pole luba.
 * Kui probleem ilmneb mitmes brauseris, veenduge, et tööjaama kella väärtuseks oleks seatud automaatne.
-* Töötage kasutajaga, kellel on turvaadministraatori õigused rakenduses Dynamics 365 Finance  ja võrgudomeenis administraatoriõigused, et logida sisse oma tööjaama, et näha, kas nad on ühendatud. Kui nad saavad ühendust, võib probleem olla seotud võrguõigustega.
+* Töötage kasutajaga, kellel on turvaadministraatori õigused Dynamics 365 Finances ja administraatoriõigused võrgudomeenile, et sisse logida oma tööjaama, et näha, kas nad on ühendatud. Kui nad saavad ühendust, võib probleem olla seotud võrguõigustega.
 * Keelake tööjaamas ajutiselt tulemüür. Kui saate siis rakendusega Report Designer ühenduse luua, oli probleem seotud tulemüüriga. Probleemi lahendamiseks tehke koostööd oma organisatsiooni IT-osakonnaga.
 
 ## <a name="additional-resources"></a>Lisaressursid

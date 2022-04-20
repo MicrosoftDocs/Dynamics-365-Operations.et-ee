@@ -1,33 +1,33 @@
 ---
-title: Topeltkirjutusprobleemide tõrkeotsing Finance and Operationsi rakendustes
-description: Selles teemas on tõrkeotsinguteave, mis aitab teil lahendada probleeme topeltkirjutamise mooduliga finance and Operationsi rakendustes.
+title: Topeltkirjutusprobleemide tõrkeotsing finants- ja äritoiminguterakendustes
+description: See teema pakub tõrkeotsingu teavet, mis aitab teil lahendada finantside ja toimingute rakenduste topeltkirjutuse mooduli probleemid.
 author: RamaKrishnamoorthy
-ms.date: 08/10/2021
+ms.date: 04/12/2022
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: db49c6a4555f39800362a5b248f9757b07ee5481
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
-ms.translationtype: MT
+ms.openlocfilehash: 58b20e38269922203b54173509e31c5e6f30c25b
+ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061804"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8565962"
 ---
-# <a name="troubleshoot-dual-write-issues-in-finance-and-operations-apps"></a>Topeltkirjutusprobleemide tõrkeotsing Finance and Operationsi rakendustes
+# <a name="troubleshoot-dual-write-issues-in-finance-and-operations-apps"></a>Topeltkirjutusprobleemide tõrkeotsing finants- ja äritoiminguterakendustes
 
 [!include [banner](../../includes/banner.md)]
 
 
 
-See teema pakub tõrkeotsinguteavet finance and Operationsi rakenduste ja rakenduse kahe kirjutamise integreerimiseks Dataverse. Täpsemalt pakub see teavet, mis aitab teil lahendada probleeme topeltkirjutusmooduliga **finance** and Operations rakendustes.
+Selles teemas antakse tõrkeotsingu teavet topeltkirjutuse integreerimiseks finantside ja toimingute rakenduste ning rakenduste vahel Dataverse. See annab teavet, mis aitab teil lahendada probleeme topeltkirjutuse **mooduliga** finantside ja toimingute rakendustes.
 
 > [!IMPORTANT]
 > Mõne selles teemas käsitletava probleemi korral on nõutav kas süsteemiadministraatori roll või Microsoft Azure Active Directory (Azure AD) rentniku administraatori mandaat. Kõigis probleeme kirjeldavates jaotistes täpsustatakse, kas konkreetne roll või mandaat on nõutav.
 
-## <a name="you-cant-load-the-dual-write-module-in-a-finance-and-operations-app"></a>Topeltkirjutusmoodulit ei saa laadida rakendusse Finance and Operations
+## <a name="you-cant-load-the-dual-write-module-in-a-finance-and-operations-app"></a>Finantside ja toimingute rakenduses ei saa topeltkirjutuse moodulit laadida.
 
 Kui te ei saa avada lehte **Topeltkirjutus**, valides tööruumis **Andmehaldus** paani **Topeltkirjutus**, on andmete integratsiooni teenus tõenäoliselt maas. Looge tugiteenusepilet andmete integratsiooni teenuse taaskäivitamise taotlemiseks.
 
@@ -49,7 +49,7 @@ Probleemi lahendamiseks logige sisse Microsoft Edge InPrivate-aknas, Chromiumi i
 
 ## <a name="error-when-you-link-the-environment-for-dual-write-or-add-a-new-table-mapping"></a>Tõrge keskkonna linkimisel topeltkirjutusega või uue tabeli vastendamisel
 
-**Probleemi lahendamiseks vajalik roll:** süsteemiadministraator nii finance and Operationsi rakendustes kui ka Dataverse.
+**Probleemi lahendamiseks on nõutav roll: süsteemiadministraator** nii finantside ja toimingute rakendustes kui ka rakenduses <a0/&Dataverse.
 
 Vastenduste linkimisel või loomisel võib ilmneda järgmine tõrge.
 
@@ -59,7 +59,7 @@ Session ID: \<your session id\>
 Root activity ID: \<your root activity\> id
 ```
 
-See tõrge võib ilmneda juhul, kui teil pole topeltkirjutuse või vastenduste loomiseks piisavaid lube. See tõrge võib ilmneda ka siis, kui teenuse Dataverse keskkond lähtestati ilma topeltkirjutuse linkimist tühistamata. Iga kasutaja, kellel on süsteemiadministraatori roll nii finance' kui ka operationsi rakendustes ja Dataverse kes saab keskkonnad linkida. Uusi tabeli vastendusi saavad lisada ainult kasutajad, kes seadistasid topeltkirjutuse ühenduse. Pärast seadistamist saab iga süsteemiadministraatori rolliga kasutaja olekut jälgida ja vastendusi redigeerida.
+See tõrge võib ilmneda juhul, kui teil pole topeltkirjutuse või vastenduste loomiseks piisavaid lube. See tõrge võib ilmneda ka siis, kui teenuse Dataverse keskkond lähtestati ilma topeltkirjutuse linkimist tühistamata. Iga kasutaja, kellel on süsteemiadministraatori roll nii finantside kui ka toimingute rakendustes, Dataverse ja saab keskkondi linkida. Uusi tabeli vastendusi saavad lisada ainult kasutajad, kes seadistasid topeltkirjutuse ühenduse. Pärast seadistamist saab iga süsteemiadministraatori rolliga kasutaja olekut jälgida ja vastendusi redigeerida.
 
 ## <a name="error-when-you-stop-the-table-mapping"></a>Tõrge tabeli vastendamise peatamisel
 
@@ -70,6 +70,21 @@ Kui proovite peatada tabeli vastendust, võidakse kuvada järgmine tõrketeade.
 See tõrge ilmneb siis, kui lingitud Dataverse'i keskkond ei ole saadaval.
 
 Probleemi lahendamiseks looge andmeintegratsiooni meeskonnale pilet. Manustage võrgujälitus, et andmeintegratsiooni meeskond saaks märgistada vastendused olekusse **Ei tööta** tagaserveris.
+
+## <a name="enable-parallel-processing-in-finance-and-operations-apps-to-improve-performance"></a>Lubage paralleeltöötlus finantside ja toimingute rakendustes jõudluse parandamiseks.
+
+Paralleeltöötluse lubamine võib vähendada aega, mis on vajalik andmete importimiseks finantside ja toimingute rakendustest kliendikogemuse rakendustesse ja Microsoft Dataverse. 
+
+Finantside ja toimingute rakendustes paralleeltöötluse lubamiseks viige lõpule järgmised sammud.
+
+1. Logige sisse oma finantside ja toimingute keskkonda.
+2. Minge andmehalduse **> parameetritesse**.
+3. Valige **Üksuse sätted ja** valige suvand **Konfigureeri üksuse käivitamise parameetrid**.
+4. Lisage paralleeltöötluse parameetrid:
+    - **Impordi piirmäära kirjete arv** – kirjete arv, mis tuleb enne paralleeltöötluse lubamist täita.
+    - **Impordi ülesannete arv** – lõimede (ülesannete) arv, mis tuleb paralleelselt käitada.
+5. Valige käsk **Salvesta**.
+
 
 ## <a name="errors-while-trying-to-start-a-table-mapping"></a>Tabeli vastendamise alustamise katsel ilmnesid tõrked
 
@@ -82,7 +97,7 @@ Andmete esialgse sünkroonimise käivitamisel võidakse kuvada järgmine tõrket
 Kui proovite seada vastenduse olekut väärtusele **Töötab**, võite saada järgmise tõrketeate. Selle tõrke parandus sõltub tõrke põhjusest:
 
 + Kui vastendusel on sõltuvaid vastendusi, siis veenduge, et selle tabeli vastendusest sõltuvad vastendused oleksid lubatud.
-+ Vastendusel võivad puududa lähte- või sihtveerud. Kui rakenduse Finance and Operations veerg puudub, järgige kaartidel jaotises Puuduvad tabeliveerud [juhiseid](dual-write-troubleshooting-finops-upgrades.md#missing-table-columns-issue-on-maps). Kui veerg on teenuses Dataverse puudu, klõpsake vastendusel nuppu **Värskenda tabeleid**, et veerud täidetaks vastenduses automaatselt.
++ Vastendusel võivad puududa lähte- või sihtveerud. Kui finantside ja toimingute rakenduse veerg puudub [,](dual-write-troubleshooting-finops-upgrades.md#missing-table-columns-issue-on-maps) järgige kaartide väljaminek Puuduva tabeli veergude juhiseid. Kui veerg on teenuses Dataverse puudu, klõpsake vastendusel nuppu **Värskenda tabeleid**, et veerud täidetaks vastenduses automaatselt.
 
 ### <a name="version-mismatch-error-and-upgrading-dual-write-solutions"></a>Versiooni lahknevuse tõrge ja topeltkirjutuslahenduste täiendamine
 

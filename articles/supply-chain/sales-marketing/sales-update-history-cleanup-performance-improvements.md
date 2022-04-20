@@ -1,8 +1,8 @@
 ---
-title: Müügiajaloo puhastamise jõudluse täiustused
-description: Selles teemas kirjeldatakse müügiajaloo jõudluse parenduste funktsiooni ja selle lubamist.
+title: Müügiajaloo andmete puhastamise plaanimine
+description: See teema kirjeldab, kuidas aidata parandada süsteemi jõudlust, planeerides müügi uuendamisajaloo perioodilise puhastuse perioodilise ülesande regulaarseks käitamiseks korrapärase intervalliga.
 author: myvakalo
-ms.date: 10/05/2021
+ms.date: 03/21/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,16 +11,26 @@ ms.search.region: Global
 ms.author: myvakalo
 ms.search.validFrom: 2021-09-29
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 3c8ad7b0bd46c49fc989be091f44630a6a3eebc1
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 6c6c1e08d45f2a7d1e1267010b286111bad01a6c
+ms.sourcegitcommit: 197e6ddee84522fd587c6e4ee4f9089101e301c2
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985907"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8570362"
 ---
-# <a name="sales-history-cleanup-performance-improvements"></a>Müügiajaloo puhastamise jõudluse täiustused
+# <a name="schedule-sales-history-data-cleanup"></a>Müügiajaloo andmete puhastamise plaanimine
 
 [!include [banner](../includes/banner.md)]
+
+Standardse toimingu osana loob ja talletab Dynamics 365 Supply Chain Management Microsoft müügiajaloo uuendamisandmed jooksvalt. Aja jooksul võib süsteemi akumuleerida suur hulk aegunud müügiajaloo andmeid. Need akumuleeritud andmed võivad müügitellimustega seotud dokumentide sisestamisel põhjustada jõudlust ja funktsionaalsed väljaminek. (Need dokumendid hõlmavad müügitellimuse kinnitusi, müügi saatelehti, müügi komplekteerimislehti ja arveid). Seetõttu tuleb teil seadistada ja planeerida müügi *uuenduste ajaloo puhastamine*, et käitada perioodiline ülesanne regulaarse intervalliga. See ülesanne eemaldab kõik müügiajaloo uuendusandmed, mida enam ei vajata.
+
+Kui kasutate müügi uuendamisajaloo *perioodilist* puhastusülesannet, *soovitame* teil lubada müügiajaloo jõudluse parendusfunktsiooni, mis muudab ülesande töö tõhusamaks. (Sellest hoolimata saate ülesande käivitada ka seda funktsiooni lubamata.)
+
+## <a name="turn-on-the-sales-history-cleanup-features"></a>Lülita müügiajaloo puhastamisfunktsioonid sisse
+
+*Et* seadistada ja kasutada müügi värskendusajaloo perioodilist puhastusülesannet koos kõigi selles teemas kirjeldatud funktsioonidega, *·* *peate lubama müügiajaloo puhastamisjõudluse parendused ja puhastama müügi värskendamise ajaloo, mis põhineb* funktsioonihalduse vanuse funktsioonidel, nagu kirjeldatud järgmistes alamjaotistes.
+
+### <a name="sales-history-cleanup-performance-improvements"></a>Müügiajaloo puhastamise jõudluse täiustused
 
 **Müügi värskenduste ajaloo puhastamise** perioodiline töö võib võtta kaua aega, kui seda käitatakse harva suure müügiuuendustega keskkondades. Sellises olukorras võib funktsioon *Müügiajaloo puhastamisjõudluse parendamine* vähendada käituskestust ja parandada usaldusväärsust.
 
@@ -32,9 +42,41 @@ See funktsioon parandab olemasolevat puhastustööd järgmistel viisidel:
 
 Pärast funktsiooni lubamist käitatakse partiitöö **Müügi värskendamise ajaloo puhastamine** (**Müük ja turundus \> Perioodi ülesanded \> Puhastamine \> Müügi värskendamiste ajaloo puhastamine**) nii, nagu seda enne, kuid parema jõudluse ja maksimaalselt 2 tunni jooksul. See tähendab, et teatud andmete säilitamiseks teatud ajavahemiku jooksul võib vaja minna mitut käivitamist.
 
-## <a name="turn-on-the-sales-history-cleanup-performance-improvements-feature"></a>Lülitage müügiajaloo puhastamisjõudluse parendusfunktsioon sisse.
-
 Enne selle funktsiooni kasutamist peate selle oma süsteemis sisse lülitama. Administraatorid saavad kasutada [funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sätteid, et kontrollida funktsiooni olekut ja selle sisse lülitada. Tööruumis **Funktsioonihaldus** loetletakse funktsiooni järgneval viisil.
 
 - **Moodul:** *Müük ja turundus*
 - **Funktsiooni nimi:** *Müügiajaloo puhastamise jõudluse täiustused*
+
+### <a name="clean-up-sales-update-history-based-on-age"></a>Müügi värskendamise ajaloo puhastamine vanuse põhjal
+
+Vanuse *funktsioonil põhinev müügi värskendamise* ajaloo puhastamine võimaldab *teil* määrata kirjete maksimaalse vanuse, kui käitatakse müügi värskendamise ajaloo puhastamist. Vanemad kirjed kustutatakse. See funktsioon on vajalik siis, kui seadistate ülesande perioodiliselt käivituma, kuna vanus arvutatakse alati vastavalt ülesande käituskuupäevale. Kui te seda funktsiooni ei kasuta, saate vanimatele säilitamiskirjetele seada ainult kindla kuupäeva.
+
+Enne selle funktsiooni kasutamist peate selle oma süsteemis sisse lülitama. Administraatorid saavad kasutada [funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sätteid, et kontrollida funktsiooni olekut ja selle sisse lülitada. Tööruumis **Funktsioonihaldus** loetletakse funktsiooni järgneval viisil.
+
+- **Moodul:** *Müük ja turundus*
+- **Funktsiooni nimi:** *müügi värskendamise ajaloo puhastamine vanuse alusel*
+
+## <a name="set-up-and-schedule-the-sales-history-cleanup-periodic-task"></a>Müügiajaloo perioodilise puhastuse ülesande häälestamine ja plaanimine
+
+Müügiajaloo perioodilise puhastusülesande *seadistamiseks ja* plaanimiseks järgige neid samme.
+
+1. Analüüsige oma ettevõtet, et määrata, mitu päeva algse müügitellimuse sisestusandmetest peate kinni pidama. Tavaliselt on soovitatav käivitada puhastusülesanne iga kolme kuu järel ja kuni iga kuue kuu järel.
+1. Minge müügi **ja turundusperioodi \> ülesannetele \> müügi uuendamisajaloo \> puhastuse puhastamine**.
+1. **Seadke dialoogiboksi Müügi värskendamise ajaloo** puhastamine kiirkaardil **Parameetrid** järgmised väljad:
+
+    - **Puhasta** – valige puhastatav kirjetüübi määramiseks üks järgmistest väärtustest:
+
+        - **Käivitatud**: kustutage ainult täielikult töödeldud kirjed. Kuna teil pole nende kirjete puhul edaspidist kasutamist, on see valik kõige turvalisem.
+        - **Teostatud ja vigased** – kustutage nii täielikult töödeldud kirjed kui ka kirjed, kus ilmnes tõrge. See suvand on kõige sagedamini kasutatav. Te soovite ehk kontrollida ja isegi parandada vigaseid kirjeid, selle asemel et neid automaatselt puhastada. Paljud ettevõtted valivad siiski nende kirjete puhastamise ka pärast kuut, sest need pole enam selleks ajaks asjakohased.
+        - **Kõik** – kustutage teostatud, vigased ja ootel kirjed. Ootel kirjed on kehtivad, kuid need ei ole veel täielikult töödeldud. Enamasti ei soovi te tõenäoliselt neid automaatselt kustutada. Mõnel juhul võite siiski valida nende automaatse kustutamise pärast teatud aja möödumist.
+
+    - **Säilita vanusel põhinevad** kirjed – määrake, kas soovite puhastada kirjed nende vanuse alusel ülesande käivitamisel või enne fikseeritud kuupäeva loodud kirjete kustutamist. Kui planeerite puhastust korduva ülesandena, *peaksite selle suvandi seadistama väärtusele Jah*, kuna ajaline vanus arvutatakse alati ülesande käitamise kuupäeva suhtes.
+
+        - Määrake väärtuseks Jah *,* et lubada välja **Maksimaalne vanus**. Kasutage seda välja, et määrata kirjete maksimaalne vanus iga kord, kui ülesannet käitatakse. Välja **Loodud kuni** ignoreeritakse.
+        - Seadke see valik valikule *Ei,* et lubada **välja Loodud kuni**. Kasutage seda välja, et määrata kirjete vanim loomiskuupäev, mida ülesande käivitamisel säilitada. Maksimaalse **vanuse välja** ignoreeritakse.
+
+    - **Loodud kuni** – see säte rakendub ainult siis, kui suvandi **Säilita vanusel** põhinevad kirjed väärtuseks on seatud *Ei*. Saate määrata ülesande käivitamisel säilitamiskirjete vanima loomiskuupäeva. Kirjed, mis loodi enne seda kuupäeva, kustutatakse.
+    - **Maksimaalne** vanus – see säte rakendub ainult siis, kui **suvandi Säilita** vanusel põhinevad kirjed väärtuseks on seatud *Jah*. Saate määrata kirjete maksimaalse vanuse (päevades), mis tuleb iga kord ülesande käivitamisel säilitada. Vanemad kirjed kustutatakse.
+
+1. **Määrake kiirkaardil Käivita taustal**, kuidas, millal ja kui sageli ülesannet käitatakse. Kasutage neid sätteid, et rakendada graafikut, mille määratlesid sammus 1. Väljad töötavad samuti nagu tarneahela halduses teist [tüüpi](../../fin-ops-core/dev-itpro/sysadmin/batch-processing-overview.md) pakett-tööde puhul.
+1. Valige **OK**, et rakendada oma sätted ja sulgeda dialoogiboks.

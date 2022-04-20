@@ -1,5 +1,5 @@
 ---
-title: Uue ER-lahenduse kujundamine ZPL-siltide printimiseks
+title: Uue elektroonilise aruandluse lahenduse kujundamine ZPL-siltide printimiseks
 description: See teema kirjeldab, kuidas kujundada uut elektroonilise aruandluse (ER) lahendust Spikribra Programming Language (ZPL) siltide printimiseks.
 author: NickSelin
 ms.date: 02/28/2022
@@ -15,24 +15,23 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2022-02-01
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: 4fb89f4b56ce8189482bf1a86582ef7e3684b15a
-ms.sourcegitcommit: 411874545d7c326fc4aa877948a059371f0ccb3c
+ms.openlocfilehash: c1bedf1184b45741102000fa68c8d662c7383301
+ms.sourcegitcommit: 2977e92a76211875421e608555311c363cfbdc25
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "8392959"
+ms.lasthandoff: 04/16/2022
+ms.locfileid: "8612349"
 ---
-# <a name="design-a-new-er-solution-to-print-zpl-labels"></a>Uue ER-lahenduse kujundamine ZPL-siltide printimiseks
+# <a name="design-a-new-er-solution-to-print-zpl-labels"></a>Uue elektroonilise aruandluse lahenduse kujundamine ZPL-siltide printimiseks
 
 [!include [banner](../includes/banner.md)]
 
-[!include [banner](../includes/preview-banner.md)]
 
 See teema selgitab, kuidas kasutaja süsteemiadministraatoris, elektroonilise aruandluse arendajas või elektroonilise aruandluse funktsionaalne nõustaja rollis saab konfigureerida elektroonilise aruandluse (ER) [raamistiku parameetreid, kujundada uue ER-lahenduse nõutud ER](general-electronic-reporting.md) konfiguratsioone, et pääseda juurde laohalduse süsteemi andmetele, ja luua kohandatud lao asukoha silte Rakenduste [programmeerimiskeele](general-electronic-reporting.md#Configuration) (ZPL) II vormingus. Neid toiminguid saab teha ettevõttes **USRT**.
 
 ## <a name="business-scenario"></a>Äristsenaarium
 
-Te esindate ettevõtet, mis rakendas Microsofti laohaldust Dynamics 365 Finance. Igale lao asukohale peab olema sildistatud eneselevitatav silt, mis sisaldab vöötkoodi. Laotöötajad kasutavad vöötkoodi skannimiseks pihuseadmega vöötkoodi lugejaid.
+Te esindate ettevõtet, mis rakendas laohaldust Microsoft Dynamics 365 Finantsis. Igale lao asukohale peab olema sildistatud eneselevitatav silt, mis sisaldab vöötkoodi. Laotöötajad kasutavad vöötkoodi skannimiseks pihuseadmega vöötkoodi lugejaid.
 
 Kõik lao asukohad on eelinstallimistegevuste ulatusele märgistatud. Kuid kui olemasolevad sildid muutuvad vigasteks või lao riiulid on ümber seadistatud, peab teil olema ka võimalik printida lao asukoha silte. Hiljuti väljastatud ER-i funktsiooni kasutades saate konfigureerida uue ER-lahenduse, mis võimaldab lao ülevaatajal printida sildid otse sildiprinterile.
 
@@ -69,7 +68,7 @@ Konfigureeritud andmemudeli redigeeritavat versiooni saate vaadata andmemudeli *
 
 ## <a name="design-a-model-mapping-for-the-configured-data-model"></a>Mudelivastenduse kujundamine konfigureeritud andmemudelile
 
-Kasutajana elektroonilise aruandluse arendaja rollis peate looma uue ER-i konfiguratsiooni, mis sisaldab lao [andmemudeli](er-overview-components.md#model-mapping-component) mudelivastenduse komponenti. See komponent juurutab selle rakenduse konfigureeritud Dynamics 365 Finance andmemudeli ja on sellele rakendusele omane. Peate selle konfigureerima, et määrata rakendusobjektid, mida kasutatakse konfigureeritud andmemudeli täitmiseks käitusajal rakenduse andmetega. Selle ülesande lõpuleviimiseks peate aru saama, kuidas laohalduse äridomeeni andmestruktuuri finantsidesse rakendatakse.
+Kasutajana elektroonilise aruandluse arendaja rollis peate looma uue ER-i konfiguratsiooni, mis sisaldab lao [andmemudeli](er-overview-components.md#model-mapping-component) mudelivastenduse komponenti. Komponent juurutab Dynamics 365 Finance'i konfigureeritud andmemudeli ja on selle rakenduse spetsiifiline. Peate selle konfigureerima, et määrata rakendusobjektid, mida kasutatakse konfigureeritud andmemudeli täitmiseks käitusajal rakenduse andmetega. Selle ülesande lõpuleviimiseks peate aru saama, kuidas laohalduse äridomeeni andmestruktuuri finantsidesse rakendatakse.
 
 ### <a name="import-a-model-mapping-configuration"></a>Mudeli vastendamise konfiguratsiooni importimine
 
@@ -139,7 +138,7 @@ Selle `model.Location.Label` vormingu andmeallikas on konfigureeritud looma silt
 
 Järgmises näites kasutatakse ZPL-siltide printeri emulaatori rakendust loodud siltide eelvaate kuvamiseks ekraanil. Järgige neid samme selle suvandi lubamiseks.
 
-1. Lisage lao [asukoha sildi](er-destination-type-print.md) ER-vormingule printeri **ER**[sihtkoht ja konfigureerige see finantside loodud siltide saatmiseks dokumendi protsessiagendisse (DRA).](install-document-routing-agent.md)
+1. Lisage lao [asukoha sildi](er-destination-type-print.md) ER-vormingule printeri **ER**[sihtkoht ja konfigureerige see finantside loodud siltide saatmiseks dokumendi protsessiagendisse (DRA)](install-document-routing-agent.md).
 2. Installige ja konfigureerige DRA finantside loodud siltide protsessi jaoks kohalikuks printeriks, millele on juurdepääs praegusest tööjaamast.
 3. Lisage praegusele tööjaamale kohalik printer ja konfigureerige see mööduma DRA-st loodud sildid printeri emulaatori rakendusele.
 4. Installige printeri emulaatori rakendus Kroomitud veebibrauseri laiendina ja konfigureerige see mööduma kohalikust printerist genereeritud sildid veebiteenusele, mis renderdab loodud sildid ja tagastab need eelvaateks printeri emulaatorile.

@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 5b84237844ec1d8f6c0716a0a13b05c83b358901
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: d414ed7ac55afbbc58b8f5542c713f56392f9bc7
+ms.sourcegitcommit: 197e6ddee84522fd587c6e4ee4f9089101e301c2
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575772"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8570432"
 ---
 # <a name="manage-folios"></a>Fooliote haldamine
 
 [!include [banner](../../includes/banner.md)]
 
-Foolio määratakse sageli kindlaks tollieeskirjadega. See võib koosneda ühe hankija kaubast ühe üksuse või ettevõtte ja saadetise kohta. Kaubad foolios võivad olla ühes konteineris või need võivad olla jagatud mitme konteineri vahel.
+Foolio määratakse sageli kindlaks tollieeskirjadega. See võib koosneda ühe hankija kaubast ühe üksuse või ettevõtte ja saadetise kohta. Foolio kaupu hallatakse ühes konteineris.
 
 Lehe **Kõik fooliod** avamiseks valige **Väljalaadimiskulu \> Fooliod \> Kõik fooliod**. Sellel lehel kuvatakse kõikide praeguste fooliote loend. Toimingupaani nuppude abil saate foolioid luua, kustutada ja nendega töötada. Valige loendist mõni foolio, et vaadata selle üksikasju lehel **Fooliod**.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2021-08-01
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 1e06fafe8d8bbe92ddf4fcd94d7271a1fbb6362a
-ms.sourcegitcommit: 7e32e5e39e762a4b1606161cb603a450d13b5251
+ms.openlocfilehash: 4cd99b1d2c0dbbf48e7eee7e1233e3b078d14ba3
+ms.sourcegitcommit: 6109fc2fe5f407363bb6f240d64b7214657f5914
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "7413589"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "8603050"
 ---
 # <a name="configure-print-management-record-specific-er-destinations"></a>Prindihalduse kirjepõhise ER-i sihtkoha konfigureerimine
 
@@ -35,9 +35,9 @@ Protseduurid saab lõpule viia USMF -i ettevõttes. Koodi pole vaja kirjutada.
 
 ## <a name="introduction"></a>Sissejuhatus
 
-Saate konfigureerida [sihtkohad](electronic-reporting-destinations.md) iga failiväljundi komponendi kausta jaoks ER [vormingu](general-electronic-reporting.md#FormatComponentOutbound) [konfiguratsioon](general-electronic-reporting.md#Configuration) , mida kasutatakse väljamineva dokumendi jaoks. Kasutajad, kes kasutavad seda tüüpi ER-vormingut ja kellel on vastavad pääsuõigused, saavad muuta konfigureeritud sihtkoha sätteid ka käitusajal.
+Saate konfigureerida [sihtkohad](electronic-reporting-destinations.md) iga failiväljundi komponendi kausta jaoks ER [vormingu](general-electronic-reporting.md) [konfiguratsioon](general-electronic-reporting.md#Configuration) , mida kasutatakse väljamineva dokumendi jaoks. Kasutajad, kes kasutavad seda tüüpi ER-vormingut ja kellel on vastavad pääsuõigused, saavad muuta konfigureeritud sihtkoha sätteid ka käitusajal.
 
-Rakenduse Microsoft Dynamics 365 Finance **versioonis 10.0.17 ja uuemas** saab tegevuskoodi [seadistada](er-apis-app10-0-17.md) ER-vormingu jaoks, et et määrata toiming, mida kasutajad selle ER-vormingu käivitamisel sooritavad. Näiteks moodulis **Müügireskontro**, saate prindihalduse sätetes valida ER-vormingu, mis loob kindla äridokumendi, nt vabas vormis arve. Seejärel saate arve eelvaate kuvamiseks valida nupu **Kuva** või printerisse saatmiseks nupu **Prindi**. Kui kasutaja tegevus edastatakse töötavasse ER-vormingusse käitusajal, saate [konfigureerida erinevate ER sihtkohtadde erinevatele kasutajatoimingutele](er-action-dependent-destinations.md).
+Finantsversioonis Microsoft Dynamics 365.0.17 **ja** uuemas versioonis saab ER-vormingu jaoks häälestada tegevuskoodi, et määratleda tegevus, [mida](er-apis-app10-0-17.md) kasutajad selle ER-vormingu käivitades teevad. Näiteks moodulis **Müügireskontro**, saate prindihalduse sätetes valida ER-vormingu, mis loob kindla äridokumendi, nt vabas vormis arve. Seejärel saate arve eelvaate kuvamiseks valida nupu **Kuva** või printerisse saatmiseks nupu **Prindi**. Kui kasutaja tegevus edastatakse töötavasse ER-vormingusse käitusajal, saate [konfigureerida erinevate ER sihtkohtadde erinevatele kasutajatoimingutele](er-action-dependent-destinations.md).
 
 Finants **versioonis 10.0.21 ja uuemas** saab nimelise sihtkoha [seadistada](er-apis-app10-0-21.md) ER-vormingu jaoks ja määrata prindihalduse kirjele, mis töödeldakse ER-vormingu käivitamisel. Näiteks moodulis **Müügireskontro** prindihalduse sätetes kui soovite konfigureerida **Algse** kirje, et sooritama järgmisi toiminguid:
 

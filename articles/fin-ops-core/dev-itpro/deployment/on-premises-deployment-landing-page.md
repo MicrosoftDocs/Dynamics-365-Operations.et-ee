@@ -4,7 +4,8 @@ description: See teema pakub teavet ja linke sisule kohapealsete juurutuste koht
 author: sericks007
 ms.date: 07/01/2021
 ms.topic: article
-ms.prod: ''
+ms.prod: dynamics-365
+ms.service: ''
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -16,24 +17,24 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 93ed4e81db18cd02c097ff188003569e7bb391c511fd93fcab0961c14029dc96
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b57183a0c06f4735757c3c0c8d9e355879585e7a
+ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712564"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8566035"
 ---
-# <a name="on-premises-deployment-home-page"></a>Asutusesisese juurutuse avaleht
+# <a name="on-premises-deployment-home-page"></a>Kohapealse juurutuse avaleht
 
 [!include [banner](../includes/banner.md)]
 
-Saab juurutada rakendusele Dynamics 365 Finance + Operations (on-premises). Asutusesisese juurutustüübi valimisel erinevad süsteeminõuded, riistvara suurus ja funktsionaalsus pilvejuurutusest. See teema pakub linke sisule, mis sisaldab kohapealsete juurutuste kohast teavet.
+Saate juurutada Dynamics 365 Finance + Operations (on-premises). Asutusesisese juurutustüübi valimisel erinevad süsteeminõuded, riistvara suurus ja funktsionaalsus pilvejuurutusest. See teema pakub linke sisule, mis sisaldab kohapealsete juurutuste kohast teavet.
 
 ## <a name="get-started"></a>Alustamine
 - [Asutusesisese juurutuse ülevaade](on-premises-overview.md)
 - [Kohapealsete juurutuste plaanimine ja ettevalmistamine](plan-onprem-deployment.md)
 - [Asutusesiseste juurutuste süsteeminõuded](../../fin-ops/get-started/system-requirements-on-prem.md)
-- [Microsoft Dynamics 365 Finance + operatsioonid (kohapeal) toetatav tarkvara](onprem-compatibility.md)
+- [Microsoft Dynamics 365 Finance + Operations (on-premises) toetatud tarkvara](onprem-compatibility.md)
 - [Riistvara suuruse muutmise nõuded kohapealsetes keskkondades](../../fin-ops/get-started/hardware-sizing-on-premises-environments.md)
 - [Rakenduse Finance + Operations (on-premises) ostmine](../../fin-ops/get-started/purchase-on-premises.md)
 - [Pilvepõhiste ja kohapealsete funktsioonide võrdlus](../../fin-ops/get-started/cloud-prem-comparison.md)
@@ -52,7 +53,7 @@ Saab juurutada rakendusele Dynamics 365 Finance + Operations (on-premises). Asut
 - [Elektroonilise aruandluse (ER) konfiguratsioonide importimine](../analytics/electronic-reporting-import-ger-configurations.md)
 - [Dokumentide loomine, avaldamine ja printimine kohapealsetes keskkondades](../analytics/printing-capabilities-on-premises.md)
 - [Puhverserverite konfigureerimine kohapealsete keskkondade jaoks](onprem-reverseproxy.md)
-- [Tehnilise toe seadistamine rakenduste Finance and Operations jaoks](../lifecycle-services/support-experience.md)
+- [Tehnilise toe seadistamine Finance and Operationsi rakenduste jaoks](../lifecycle-services/support-experience.md)
 - [Kliendi Interneti-ühendus](../user-interface/client-disconnected.md)
 - [Värskenduste rakendamine kohapealsetesse juurutamistesse](apply-updates-on-premises.md)
 - [Kohapealsete keskkondade taasjuurutamine](redeploy-on-prem.md)
@@ -72,7 +73,7 @@ Saab juurutada rakendusele Dynamics 365 Finance + Operations (on-premises). Asut
 - [Asutusesiseses keskkonnas probleemide lahendamise skriptid](onprem-tsg-implementations.md)
 - [Sertide roteerimine](certificate-rotation-on-prem.md)
 - [Kohapealsed diagnostikad](on-premises-diagnostics.md)
-- [Eemaldatud või aegunud funktsioonid rakenduses Finance and Operations](../migration-upgrade/deprecated-features.md)
+- [Rakenduse Finance and Operations eemaldatud või aegunud funktsioonid.](../migration-upgrade/deprecated-features.md)
 - [Tarkvara elutsükli poliitika ja asutusesisesed väljalasked](../migration-upgrade/on-prem-version-update-policy.md)
  
 

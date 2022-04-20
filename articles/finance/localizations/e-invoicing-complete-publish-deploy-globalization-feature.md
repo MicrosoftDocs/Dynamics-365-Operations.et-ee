@@ -1,5 +1,5 @@
 ---
-title: Globaliseerimisfunktsiooni lõpule viimine, avaldamine ja juurutamine
+title: Globaliseerumise funktsiooni lõpuleviimine, avaldamine ja juurutamine
 description: See teema annab teavet globaliseerimisfunktsiooni elutsükli kohta.
 author: dkalyuzh
 ms.date: 12/15/2021
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: dkalyuzh
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a842a3ba31c0a8e0d80ad1856d9d6d861a8514ea
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
-ms.translationtype: HT
+ms.openlocfilehash: 21e03660387c7e715bc0f4cb1dbcd3ec9ec6cee2
+ms.sourcegitcommit: 1843235766b6f8cf950a13a310e9f4f2f53c59a4
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371889"
+ms.lasthandoff: 04/07/2022
+ms.locfileid: "8554557"
 ---
-# <a name="complete-publish-and-deploy-a-globalization-feature"></a>Globaliseerimisfunktsiooni lõpule viimine, avaldamine ja juurutamine
+# <a name="complete-publish-and-deploy-a-globalization-feature"></a>Globaliseerumise funktsiooni lõpuleviimine, avaldamine ja juurutamine
 
 [!include [banner](../includes/banner.md)]
 
@@ -59,7 +59,7 @@ RCS-i puhul kasutate käsku **Deploy**, et avaldada elektrooniline arveldamise f
 2. **Lehe paremal** küljel oleval vahekaardil Versioonid valige elektroonilise arveldamise funktsiooni versioon, mida soovite juurutada teenuse keskkonda või ühendatud rakendusele. Valitud versiooni olek peab olema Lõpetatud **või** Avaldatud **·**.
 3. Valige **juurutamine** ja seejärel valige üks või mõlemad järgmistest suvanditest juurutamise sihtmärgi määratlemiseks:
 
-    - **Seotud rakendus** – rakenduse seadistusega antud konfiguratsioon kirjutatakse Microsofti Dynamics 365 Finance eksemplari või on Dynamics 365 Supply Chain Management sellega eelnevalt seostatud.
+    - **Seotud rakendus** – rakenduse seadistuses antud konfiguratsioon kirjutatakse Microsoft Dynamics 365 Finantside Dynamics 365 Supply Chain Management eksemplari või on sellega eelnevalt seostatud.
     - **Teenuse keskkond** – elektroonilise arveldamise funktsiooni versioon juurutatakse teenuse keskkonda. Elektrooniline arveldamine on seejärel valmis vastu saama ja töötlema finants- või tarneahela haldus saadavad elektroonilisi dokumente.
 
 > [!NOTE]

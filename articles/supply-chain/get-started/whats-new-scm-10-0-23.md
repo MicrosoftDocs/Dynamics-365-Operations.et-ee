@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 83d19f92984c9f67242946aa8faf445d9d2bd881
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: 876f5a5f8ebf77a65ba3aa6271a2957b7dc2cb96
+ms.sourcegitcommit: 197e6ddee84522fd587c6e4ee4f9089101e301c2
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920196"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8570474"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10023-january-2022"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 Supply Chain Management 10.0.23. (jaanuar 2022)
 
@@ -36,9 +36,9 @@ Järgmises tabelis on loetletud selles versioonis sisalduvad funktsioonid. Veerg
 | Globaalne aadressiraamat | Määrake aadressi seadistuses iga riigi/piirkonna jaoks vaikeosariik/provints | Nüüd saate globaalse aadressiraamatu aadressi seadistuses määratleda iga riigi/piirkonna jaoks vaikeosariigi/provintsi. Kui vaikeosariik/provints on määratud, on see osariigi/provintsi väljadele sisestatud vaikeväärtus, kui loote selle riigi/piirkonna jaoks uue maakonna või linna kirje. Vaata ka [Aadressi häälestamine](../../fin-ops-core/fin-ops/organization-administration/global-address-book-address-setup.md?toc=/dynamics365/supply-chain/toc.json) | Vaikimisi lubatud. |
 | Varud&nbsp;ja&nbsp;logistika | [Warehouse Management mobiilirakenduse ülesannete peatamine](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/park-tasks-warehouse-management-mobile-app) | [Mobiilse seadme menüükäskude sammude ümbersuunamise konfigureerimine](../warehousing/warehouse-app-detours.md) | Funktsioonide haldamine (*Warehouse management rakenduse ümbersuunamised*) |
 | Varud&nbsp;ja&nbsp;logistika | [Laorakenduse ülendatud väljad](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-app-step-instructions) | [Mobiilseadmes sammude jaoks esiletoodud väljade konfigureerimine](../warehousing/warehouse-app-promoted-fields.md)| Funktsioonide haldamine (*Laohalduse rakenduse esiletoodud väljad*) |
-| Tootmine | [Tootmise käivitamissüsteemide integreerimine](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/manufacturing-execution-systems-integration) | [Kolmanda osapoole tootmise käivitussüsteemidega integreerimine](../production-control/mes-integration.md) | Funktsioonihaldus *(Tootmise käivitamissüsteemi* integreerimine) |
+| Tootmine | [Tootmise käivitamissüsteemide integreerimine](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/manufacturing-execution-systems-integration) | [Kolmanda osapoole tootmise käivitussüsteemidega integreerimine](../production-control/mes-integration.md) | Funktsioonihaldus (Tootmise *käivitamissüsteemi integreerimine*) |
 | Tootmine | [Tootmisosakonna täideviimisliidese kaas- ja kõrvalsaaduste aruanne](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/enhanced-production-floor-execution-interface-process-manufacturing) | [Kuidas töötajad kasutavad tootmisosakonna käivitusliidest](../production-control/production-floor-execution-use.md) | Funktsioonide haldamine (*Kaas- ja kõrvalsaaduste aruanne tootmispõranda täitmisliidesest*) |
-| Planeerimine | [Optimeerimise toetuse plaanimine prioriteedipõhiseks planeerimiseks](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-priority-based-planning) | [Prioriteedipõhine planeerimine](../master-planning/planning-optimization/priority-based-planning.md) | Funktsioonihaldus *(prioriteedipõhine MRP tugi optimeerimise* planeerimisel) |
+| Planeerimine | [Optimeerimise toetuse plaanimine prioriteedipõhiseks planeerimiseks](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-priority-based-planning) | [Prioriteedipõhine planeerimine](../master-planning/planning-optimization/priority-based-planning.md) | Funktsioonihaldus (prioriteedipõhine *MRP tugi optimeerimise planeerimisel*) |
 
 ## <a name="feature-enhancements-included-in-this-release"></a>Selles väljalaskes sisalduvad funktsioonid
 
@@ -53,11 +53,11 @@ Kui soovite mõnda neist funktsioonidest sisse või välja lülitada, peate seda
 | Varude ja laohaldus | \[Venemaa\] Postitage storno finantsinventari tehingud müügitellimuste finantsvautšeril oleva paranduslipu järgi | See funktsioon mõjutab Venemaa kreeditarvete korrigeerimise funktsioone. See võimaldab müügiarvete laotehingud konteerida vastavalt pearaamatu parandusvõimalusele. Kui see funktsioon on lubatud, ei esine enam lahknevusi laotehingu finantskviitungil oleva lipu **Parandus** ja laotehingutel oleva lipu **Storno** vahel. |
 | Varude ja laohaldus | (Venemaa) Varde saldo käibearuande arvutamise käitamine partiidena | Supply Chain Management haldamise venekeelsete tõlgete puhul annab see funktsioon võimaluse käitada *Varude saldo käibe* aruannet partiidena, seda salvestada ja vaadata varem koostatud aruandeid. |
 | Varude ja laohaldus | (Venemaa) Laohalduses riigile või regioonile omastes peamistes vormides kohaliku keele tõlke kasutamine | Supply Chaing Managementi venekeelsete tõlgete puhul võimaldab see funktsioon kasutada toodete/kaubanimede ja mõõtühikute venekeelseid tõlkeid järgmistel venekeelsetel varude väljatrükkidel: loendusloend (INV-3), loendusloend (INV-5), ja loendusloend (INV-6). |
-| Koondplaneerimine | Teenus Azure Machine Learning nõudluse prognoosi jaoks | See funktsioon võimaldab Azure'i masinaõppimisteenusel luua ajaloolistel andmetel põhinevaid nõudluse prognoose. Lisateavet vt nõudluse [prognoosimise](../master-planning/demand-forecasting-setup.md) häälestusest. |
+| Koondplaneerimine | Teenus Azure Machine Learning nõudluse prognoosi jaoks | See funktsioon võimaldab Azure'i masinaõppimisteenusel luua ajaloolistel andmetel põhinevaid nõudluse prognoose. Lisateavet vt nõudluse prognoosimise [häälestusest](../master-planning/demand-forecasting-setup.md). |
 | Hanked | Ostutellimuse värskendamise ajaloo puhastamine | See funktsioon võimaldab teil puhastada ostutellimuse värskendustega seotud ajutisi ajaloolisi kirjeid. See lisab lehel **Kõik ostutellimused** toimingupaanile uue nupu nimega **Ostuvärskenduste ajaloo puhastamine**. Funktsioon on vaikimisi lubatud. |
 | Tootmise juhtimine | (Eelversioon) Laos lubatud materjalide automaatne valimine automaatselt sisestatud komplekteerimislehtede jaoks | See funktsioon võimaldab teil automaatselt valida ja lahendada varude dimensioone automaatselt postitatud, tuletatud ja tagasilõigatud komplekteerimisloendi töölehtede jaoks. |
 | Tootmise juhtimine | Kinnitage tooraine aegumiskuupäev kavandatud tarbimiskuupäeva suhtes | See funktsioon muudab partii aegumiskuupäevade valideerimist, kui reserveeritakse toormaterjali partii tootmiseks kasutamiseks. Kui see funktsioon on lubatud, kontrollitakse partii aegumiskuupäeva kavandatud tarbimiskuupäeva (tooraine kuupäeva) suhtes, mis on kehtestatud tootmismaterjalide rea või partiitellimuse valemi real. Kui see funktsioon on keelatud, kontrollitakse partii aegumiskuupäeva tootmis- või partiitellimuse kavandatud tarnekuupäeva suhtes (nagu varem). |
-| Müük ja turundus | Müügi värskendamise ajaloo puhastamine vanuse põhjal | See funktsioon võimaldab teil seada kirjete maksimaalse vanuse, kui käitatakse müügi **uuendamisajaloo perioodilist** puhastusülesannet. Vanemad kirjed kustutatakse. See on kasulik, kui seadistate ülesande perioodiliseks käivitumiseks, kuna iga arvutatakse alati vastavalt ülesande käituskuupäevale. Ilma selle funktsioonita saate määrata ainult konkreetse kuupäeva vanimatele säilitamiskirjetele. |
+| Müük ja turundus | Müügi värskendamise ajaloo puhastamine vanuse põhjal | See funktsioon võimaldab teil seada kirjete maksimaalse vanuse, kui käitatakse müügi uuendamisajaloo **perioodilist puhastusülesannet**. Vanemad kirjed kustutatakse. See on kasulik, kui seadistate ülesande perioodiliseks käivitumiseks, kuna iga arvutatakse alati vastavalt ülesande käituskuupäevale. Ilma selle funktsioonita saate määrata ainult konkreetse kuupäeva vanimatele säilitamiskirjetele. Lisateavet vt müügiajaloo [andmete puhastamise plaanimine](../sales-marketing/sales-update-history-cleanup-performance-improvements.md). |
 | Müük ja turundus | Parandage klientide aruande „100 esimest” jõudlust | See funktsioon parandab **Top 100** klientide aruande toimivust, käitades aruannet alati kõigi klientide kohta (see on selle kavandatud kasutus), mitte lubades kohandatud päringuid. Kui see funktsioon on lubatud, on kõik **Kaasatavad kirjed** sätted **Top 100** aruandedialoogis keelatud. |
 | Laohaldus | Skaalaüksuse tugi väljaminevate tellimuste laole vabastamiseks | Kui see funktsioon on lubatud, saab väljaminevad tellimused jaoturist vabastada otse skaalaüksusesse, kus tellimused täidetakse. |
 
@@ -79,9 +79,9 @@ Oleme hiljuti lisanud või oluliselt uuendanud järgmisi abiteemasid. Need teema
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Teenuse Finance and Operations rakenduste platvormivärskendused
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Finantside ja toimingute rakenduste platvormi värskendused
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.23 sisaldab platvormivärskendusi. Lisateavet leiate teemast [Platvormivärskendused Finance and Operations rakenduste versiooni 10.0.23 jaoks (veebruar 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-23.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.23 sisaldab platvormivärskendusi. Lisateavet vt platvormi värskendustest [versioonile 10.0.23 Finance and Operations rakendustest (november 2021).](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-23.md)
 
 ### <a name="bug-fixes"></a>Veaparandused
 

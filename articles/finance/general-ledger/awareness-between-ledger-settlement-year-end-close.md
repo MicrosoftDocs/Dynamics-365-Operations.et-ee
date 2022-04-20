@@ -2,7 +2,7 @@
 title: Teadlikkus pearaamatu tasakaalustamise ja aastalõpu sulgemise vahel
 description: Sellest teemast leiate teavet täiustuste kohta, mis mõjutavad pearaamatu tasakaalustusi ja pearaamatu aasta lõpu sulgemist.
 author: kweekley
-ms.date: 03/18/2022
+ms.date: 04/06/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,19 +13,19 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-01-31
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: e18f77d73239de23000b5310d9342c6db95bc524
-ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
-ms.translationtype: HT
+ms.openlocfilehash: 13d0a0a11a8f31e4ba647ccc23906f6b137051c2
+ms.sourcegitcommit: b96e0c70553bca9b3f5eb65105a52cb71d978a36
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8462348"
+ms.lasthandoff: 04/07/2022
+ms.locfileid: "8553328"
 ---
 # <a name="awareness-between-ledger-settlement-and-year-end-close"></a>Teadlikkus pearaamatu tasakaalustamise ja aastalõpu sulgemise vahel
 
 [!include [banner](../includes/banner.md)]
 
 
-Microsofti versioonis Dynamics 365 Finance 10.0.25 **on pearaamatu tasakaalustuse** ja aasta lõpu sulgemise funktsioon saadaval funktsioonihalduse **tööruumis**. See funktsioon lisab kaks peamist täiustust, mis mõjutavad pearaamatu tasakaalustust ja pearaamatu aasta lõpu sulgemist.
+Finantside Microsoft Dynamics versioonis 10.0.25 **on** pearaamatu tasakaalustuse ja aasta lõpu sulgemise funktsiooni vaheline teave saadaval funktsioonihalduse **tööruumis**. See funktsioon lisab kaks peamist täiustust, mis mõjutavad pearaamatu tasakaalustust ja pearaamatu aasta lõpu sulgemist.
 
 Pearaamatu aasta sulgemise jooksul ei kaasata tasakaalustatud pearaamatukandeid enam järgmise rahandusaasta algsaldosse. See täiustus tagab, et algsaldosse kaasatakse ainult tasakaalustamata pearaamatukanded. On oluline pearaamatu välisvaluuta ümberarvutamise käivitamisel. Välisvaluuta ümberarvutamine käivitatakse ainult pearaamatu kannete puhul, mille olek on **Tasakaalustata**. Kuid enne pearaamatu **tasakaalustamise ja aasta lõpu sulgemise funktsiooni vahelist teadmist summeeriti algsaldo nii kandes,** **·** **mille olek on Tasakaalustatud kui ka need, mille olek on Tasakaalustamata ja** summeeritud summa olekuks seadistati Tasakaalustamata.**·**
 
@@ -48,12 +48,16 @@ Uute täienduste toetamiseks tehti pearaamatu tasakaalustusse ja aasta lõpu sul
 
 Funktsiooni ja andmemudeli muudatuste tõttu on oluline arvestada enne funktsiooni lubamist järgmisi punkte:
 
+- Kuna algsaldosse tuuakse edasi ainult tasakaalustatud kanded, peate tühistama praeguse rahandusaasta kanded, mis tasakaalustatakse eelmise rahandusaasta kannetega. Kanded tuleb lähtestada praeguse rahandusaasta kannete suhtes. Seda saab teha korrigeeriva kirje kaudu jooksvas rahandusaastas. Korrektsioon tühistab summeeritud algsaldod ja vastaskontod üksikasjaliku kandega, mis on vajalik pearaamatu kannete tasakaalustamiseks praegusel aastal. 
+
+  > [!IMPORTANT]
+  > Kui seda ei tehtud, kuvatakse jooksva **rahandusaasta** aasta sulgemisel tasakaalustatusest väljas tõrge. Kui pearaamatukandeid ei saa tasakaalustada ja lähtestada sama finantsaastaga, siis ärge seda funktsiooni enne aasta lõpu sulgemist lubage. Lubage funktsioon kohe pärast aasta lõpu sulgemist ja enne uute pearaamatukannete tasakaalustamist järgmises rahandusaastas. 
+  
 - Kui funktsioon on lubatud, tühjendatakse automaatselt kõik tasakaalustamiseks märgitud, kuid tasakaalustamata kanded. Töö kaotsimineku vältimiseks tasakaalustage kõik märgitud kanded enne funktsiooni lubamist.
 - Mõned organisatsioonid käitavad aasta lõpu sulgemist mitu korda samale rahandusaastale. Ärge lubage funktsiooni, kui aasta lõpu sulgemine on juba kord käitatud ja see käivitatakse uuesti sama rahandusaasta kohta. See funktsioon peab olema lubatud enne esimese aasta lõpu sulgemise või pärast finantsaasta eelmise aasta lõpu sulgemise protsessi.
 
   Kui soovite funktsiooni lubada, kuid aasta lõpu sulgemist on juba korra käitatud, peate enne funktsiooni lubamist aasta lõpu sulgemise tühistama.
 
-- Kuna tasakaalustus rahandusaastate vahel pole enam lubatud, on soovitatav see funktsioon enne aasta lõpetamise sulgemisprotsessi alustamist lubada. Seejärel, kindlustamaks, et eelmised rist-rahandusaasta tasakaalustused ei mõjutaks järgmise rahandusaasta algsaldosid, tuleks algsaldo kanne tasakaalustada suletuks finantsaastaks.
 - Kuna tasakaalustamine põhikontode vahel pole enam lubatud, korrigeerige vastavalt vajadusele oma kontoplaani või protsesse, et tagada pearaamatu tasakaalustamine sama põhikontoga.
 - Seda funktsiooni ei saa lubada, kui kasutatakse avaliku sektori aasta lõpetamise protsessi.
 
