@@ -18,8 +18,6 @@
                   href: get-started/whats-new-platform-updates-10-0-26.md
                 - name: Platvormivärskendused versioonile 10.0.25 (aprill 2022)
                   href: get-started/whats-new-platform-updates-10-0-25.md
-                - name: Platvormivärskendused versioonile 10.0.24 (veebruar 2022)
-                  href: get-started/whats-new-platform-updates-10-0-24.md
             - name: Eemaldatud või iganenud funktsioonid
               items:
                 - name: Eemaldatud või iganenud funktsioonide avaleht
@@ -396,6 +394,8 @@
                       href: deployment/onprem-SSRSHA.md
                     - name: Puhverserverite konfigureerimine kohapealsete keskkondade jaoks
                       href: deployment/onprem-reverseproxy.md
+                    - name: Võrguprinteri seadmete installimine kohapealsetesse keskkondadesse
+                      href: analytics/install-network-printer-onprem.md
                     - name: Kohapealsed diagnostikad
                       href: deployment/on-premises-diagnostics.md
                     - name: Kohapealse avariijärgse taaste konfiguratsioon
@@ -496,6 +496,8 @@
                   href: dev-tools/configure-developer-vm.md
                 - name: Administraatori juurdepääsu keelavate VM-ide arendamise ja koostamise KKK
                   href: sysadmin/VMs-no-admin-access.md
+                - name: Allalaaditava VHD häälestamine esimeseks kasutamiseks
+                  href: dev-tools/vhd-setup.md
                 - name: Kohalike keskkondade ümbernimetamine Azure DevOps’ile juurdepääsuks
                   href: migration-upgrade/vso-machine-renaming.md
                 - name: Arendussüsteemi nõuded
@@ -1028,7 +1030,9 @@
                   href: lifecycle-services/use-translation-service-tm.md
                 - name: Azure DevOpsi laiend (avalik eelversioon)
                   href: lifecycle-services/dts-devops-extension.md
-        - name: Microsoft Power Platformi integratsioon
+                - name: Azure DevOpsi laiendi õpik (avalik eelversioon)
+                  href: lifecycle-services/dts-ado-tutorial.md
+        - name: Microsoft Power Platformi integreerimine
           items:
             - name: Ülevaade
               href: power-platform/overview.md
@@ -1506,6 +1510,8 @@
               href: ../fin-ops/get-started/recommendation-data-agnostic-testing-rsat.md
             - name: Regression Suite Automation Tooli (RSAT) käitamine paralleelkäivitusega
               href: perf-test/rsat/rsat-parallel-execution.md
+            - name: RSAT-i integreerimine Azure DevOpsi konveieritega
+              href: perf-test/rsat/rsat-devops-extension.md
             - name: Tõrkeotsing
               href: perf-test/rsat/rsat-troubleshooting.md
         - name: Lahenduste väljaandmine teenuse Lifecycle Services abil

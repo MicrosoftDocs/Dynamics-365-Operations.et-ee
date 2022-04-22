@@ -199,7 +199,7 @@
                 - name: Finants- ja äritoimingute rakenduste arhitektuur
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/architecture-overview.md?toc=/dynamics365/commerce/toc.json
                 - name: Microsoft FastTrack
-                  href: 'https://docs.microsoft.com/dynamics365/fasttrack/'
+                  href: /dynamics365/fasttrack/
                 - name: Juurutusprojekti kasutuselevõtt
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/onboard.md?toc=/dynamics365/commerce/toc.json
                 - name: Keskkonna planeerimine
@@ -2257,7 +2257,7 @@
                 - name: Kulude juhtimine
                   href: ../finance/cost-accounting/cost-controlling-mobile-workspace.md?toc=/dynamics365/commerce/toc.json
                 - name: Kulude haldus
-                  href: ../finance/expense-management/expense-management-mobile-workspace.md?toc=/dynamics365/commerce/toc.json
+                  href: /dynamics365/project-operations/prod-exp/expense-management-mobile-workspace?toc=%2fdynamics365%2fcommerce%2ftoc.json
                 - name: Vaba kaubavaru
                   href: ../supply-chain/inventory/inventory-on-hand-mobile-workspace.md?toc=/dynamics365/commerce/toc.json
                 - name: Arve kinnitamised
@@ -2265,11 +2265,11 @@
                 - name: Minu töörühm
                   href: ../fin-ops-core/dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?toc=/dynamics365/commerce/toc.json
                 - name: Projecti mobiilirakenduste ülevaade
-                  href: ../finance/project-management/project-mobile-application-overview.md?toc=/dynamics365/commerce/toc.json
+                  href: /dynamics365/project-operations/prod-pma/project-mobile-application-overview?toc=%2fdynamics365%2fcommerce%2ftoc.json
                 - name: Projekti ajakirje
-                  href: ../finance/project-management/project-time-entry-mobile-workspace.md?toc=/dynamics365/commerce/toc.json
+                  href: /dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace?toc=%2fdynamics365%2fcommerce%2ftoc.json
                 - name: Project Timesheet
-                  href: ../finance/project-management/project-timesheet.md?toc=/dynamics365/commerce/toc.json
+                  href: /dynamics365/project-operations/prod-pma/project-timesheet?toc=%2fdynamics365%2fcommerce%2ftoc.json
                 - name: Ostutellimuse heakskiitmine
                   href: ../supply-chain/procurement/purchase-order-mobile-workspace.md?toc=/dynamics365/commerce/toc.json
                 - name: Müügitellimused
@@ -2914,7 +2914,7 @@
               items:
                 - name: E-kaubanduse arenduskeskkonna häälestamine 1. järgu Retail Serveri VM suhtes silumiseks
                   href: troubleshoot/set-up-dev-environment-debugging.md
-    - name: Finantside ja toimingute rakenduste juurutamine ja haldamine
+    - name: Finants- ja äritoimingute rakenduste juurutamine ja haldamine
       href: ../fin-ops-core/dev-itpro/index.md
     - name: Dynamics 365 Finance
       href: ../finance/index.md

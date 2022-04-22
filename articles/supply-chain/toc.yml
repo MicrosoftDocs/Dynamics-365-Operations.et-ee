@@ -1697,23 +1697,25 @@
                   href: cost-management/track-running-average-cost-per-inventory-dimension.md
             - name: Laokannete arhiivimine
               href: inventory/archive-inventory-transactions.md
-            - name: Varude nähtavuse lisandmoodul
+            - name: Inventory Visibility lisandmoodul
               items:
-                - name: Varude nähtavuse lisandmooduli ülevaade
+                - name: Inventory Visibility lisandmooduli ülevaade
                   href: inventory/inventory-visibility.md
-                - name: Varude nähtavuse installimine ja häälestamine
+                - name: Inventory Visibility installimine ja häälestamine
                   href: inventory/inventory-visibility-setup.md
-                - name: Varude nähtavuse konfigureerimine
+                - name: Inventory Visibility konfigureerimine
                   href: inventory/inventory-visibility-configuration.md
-                - name: Varude nähtavuse rakenduse kasutamine
+                - name: Inventory Visibility WHS-i kaupade tugi
+                  href: inventory/inventory-visibility-whs-support.md
+                - name: Inventory Visibility rakenduse kasutamine
                   href: inventory/inventory-visibility-power-platform.md
-                - name: Varude nähtavuse reserveeringud
+                - name: Inventory Visibility reserveeringud
                   href: inventory/inventory-visibility-reservations.md
-                - name: Varude nähtavuse vaba muutmise graafik ja saadaval lubamiseks
+                - name: Inventory Visibility vaba muutmise graafik ja saadaval lubamiseks
                   href: inventory/inventory-visibility-available-to-promise.md
-                - name: Varude nähtavuse avalikud API-d
+                - name: Inventory Visibility avalikud API-d
                   href: inventory/inventory-visibility-api.md
-                - name: Varude nähtavuse nõuanded
+                - name: Inventory Visibility nõuanded
                   href: inventory/inventory-visibility-tips.md
         - name: IoT iseõppimisvõime
           items:
@@ -2927,7 +2929,7 @@
               href: sales-marketing/trade-allowance.md
             - name: Uue kaubandusleppe loomine
               href: sales-marketing/tasks/create-new-trade-agreement.md
-            - name: Müügiajaloo puhastamise jõudluse täiustused
+            - name: Müügiajaloo andmete puhastamise plaanimine
               href: sales-marketing/sales-update-history-cleanup-performance-improvements.md
         - name: Teenuse haldus
           items:
@@ -4011,7 +4013,7 @@
                   href: troubleshooting/warehousing/work-remains-blocked.md
                 - name: Kasutajale määratud tööd ei saa tühistada
                   href: troubleshooting/warehousing/you-cannot-cancel-wo.md
-    - name: Finantside ja toimingute rakenduste juurutamine ja haldamine
+    - name: Finants- ja äritoimingute rakenduste juurutamine ja haldamine
       href: ../fin-ops-core/dev-itpro/index.md
     - name: Dynamics 365 Finance
       href: ../finance/index.md
