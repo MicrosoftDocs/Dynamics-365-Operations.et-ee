@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7f765e7cfd97170bd144dfff12c18ced96e3332a
-ms.sourcegitcommit: d67f7edaf1a50077c2a7dd105e774f86fc586495
-ms.translationtype: MT
+ms.openlocfilehash: 3c9b9602e5c219be5756f5987b0497f2ce5c269d
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/02/2022
-ms.locfileid: "8533708"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644298"
 ---
 # <a name="accrue-leave-and-absence-plans"></a>Puhkuse ja puudumise plaanide juurdekasv
 
@@ -105,8 +105,10 @@ Kustutage kindla plaani ja kuupäevavahemiku lisandumise kirjed. Lisandumise kuu
 **Puhkuse viitvõla audit** kuvatakse iga kord, kui käivitate või kustutate ühe või kõigi töövõtjate viitvõlad. Kuvatakse ka toimingu kuupäev ja selle teinud isik.
 
 1. Lehel **Puhkused ja puudumised** valige vahekaart **Lingid**.
-
 2. Jaotises **Puhkuse haldamine** valige suvand **Puhkuse viitvõla auditi kustutamine**.
+
+## <a name="leave-accrual-rounding"></a>Puhkuse lisandumise ümardamine
+Kui töötaja on registreeritud või tagasi pööramata, jagatakse järge ümardamine. Eelnevalt oli ümardamine lubatud ainult siis, kui puhkuseplaan oli seatud ergastada ja töötaja registreeriti/tühistati vaheperioodi jooksul. Puhkuse viitvõlad ümardatakse sõltumata registreerimisest/registreerimisest perioodi keskel või perioodi alguses.
 
 ## <a name="leave-accrual-transaction-auditing"></a>Puhkuse tekkepõhise kande auditeerimine
 

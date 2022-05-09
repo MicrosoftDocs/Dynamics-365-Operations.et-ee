@@ -1,26 +1,26 @@
 ---
-title: Rakenduse Finance and Operations teenuse kirjeldus
-description: Selles teemas antakse Finance and Operations rakenduste teenuse kirjeldus.
+title: Finantside ja toimingute rakenduste teenuse kirjeldus
+description: Selles teemas antakse finantside ja toimingute rakenduste teenuse kirjeldus.
 author: tomhig
-ms.date: 01/05/2022
+ms.date: 04/27/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.region: Global
 ms.author: whigginb
 ms.search.validFrom: 2021-09-03
-ms.openlocfilehash: 85f82a863f0bde4c0414760fa2477651242538f2
-ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
-ms.translationtype: MT
+ms.openlocfilehash: cd033cfc3df21ddac5572aa70c18db5ffe26f54e
+ms.sourcegitcommit: 0abc777986112ea2332f5bf0e815b303b952356c
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952362"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8656799"
 ---
-# <a name="service-description-for-finance-and-operations-apps"></a>Rakenduse Finance and Operations teenuse kirjeldus
+# <a name="service-description-for-finance-and-operations-apps"></a>Finantside ja toimingute rakenduste teenuse kirjeldus
 
 [!include[banner](../includes/banner.md)]
 
-Finance and Operations rakenduseks on ettevõtte ressursiplaanimise (ERP) tarkvara kui teenuse (SaaS) pakkumine, mis on üles ehitatud ja mis on[Microsoft Azure](https://azure.microsoft.com/overview/what-is-azure/) jaoks. Teenus Finance and Operations pakub organisatsioonidele ERP-funktsiooni, mis toetab nende kordumatuid vajadusi ja aitab neil kohaneda ärikeskkonna muutmisega, ilma et nad nõuaks infrastruktuuride haldamise nõudmist. Finance and Operations rakendus võib sisaldada ühte või enamat järgmistest lahendusealadest:
+Finantside ja toimingute rakendused on ettevõtte ressursiplaanimise (ERP) tarkvara teenusena (SaaS) pakkumistena, mis on üles ehitatud ja mille jaoks [Microsoft Azure](https://azure.microsoft.com/overview/what-is-azure/). Finantside ja toimingute teenus pakub organisatsioonidele ERP-funktsiooni, mis toetab nende kordumatuid vajadusi ning aitab neil kohaneda ärikeskkonna muutmisega, ilma et nad nõuaks infrastruktuuride haldamist. Finantside ja toimingute rakendused võivad sisaldada ühte või enamat järgmist lahendusevaldkonda:
 
 - [Dynamics 365 Finance](/dynamics365/finance/)
 - [Dynamics 365 Human Resources](/dynamics365/human-resources/)
@@ -32,25 +32,25 @@ Koos [äriteabega](/power-bi/fundamentals/power-bi-service-overview), [infrastru
 
 - Integreeritud [isikupärastamise kogemus](personalize-user-experience.md)
 - [Microsoft Power Platform](../../dev-itpro/power-platform/overview.md) tööriistad
-- [Visual Studio](https://visualstudio.microsoft.com) põhine [Finance and Operations tarkvara arenduskomplekt (SDK)](../../dev-itpro/dev-tools/developer-home-page.md) ja [Azure DevOps koostamis automatiseerimine](../../dev-itpro/dev-tools/developer-home-page.md#build-automation-using-azure)
+- [Visual Studio](https://visualstudio.microsoft.com)–põhine [finants- ja toimingute tarkvara arenduskomplekt (SDK) ja koostamis](../../dev-itpro/dev-tools/developer-home-page.md)[Azure DevOps automatiseerimine](../../dev-itpro/dev-tools/developer-home-page.md#build-automation-using-azure)
 - Sõltumatud tarkvara hankija (ISV) lahendused asukohast [AppSource](https://appsource.microsoft.com/partners)
 
 Nõuete põhjal valivad kliendid oma lahenduse lähenemise. Nad töötavad koos oma rakenduspartneriga lahenduse määratlemiseks, arendamiseks ja testimiseks, kasutades parimaid praktikaid, mida pakub rakendus [Microsoft Dynamics Lifecycle Services (LCS)](../../dev-itpro/lifecycle-services/lcs.md). On olemas neli tavalist stsenaariumi:
 
-- Standard Finance and Operations rakenduste "kastist välja" konfiguratsioon (laiendusi pole)
-- Finance and Operations rakenduste konfiguratsioon, mis sisaldab üht või enamat ISV-lahendust
-- Finance and Operations rakenduste konfiguratsioon, mis sisaldab ühte või enamat kliendiomast laiendust
-- Finance and Operations rakenduste konfiguratsioon, mis sisaldab kliendispetsiifiliste laienduste ja ühe või mitme ISV lahenduse kombinatsiooni
+- Standardsete finantside ja toimingute rakendused konfiguratsioonist väljas (laiendusi pole)
+- Finantside ja toimingute rakenduste konfiguratsioon, mis sisaldab üht või enamat ISV-lahendust
+- Finantside ja toimingute rakenduste konfiguratsioon, mis sisaldab ühte või enamat kliendiomast laiendust
+- Finantside ja toimingute rakenduste konfiguratsioon, mis sisaldab kliendispetsiifiliste laienduste kombinatsiooni ja üht või enamat ISV-lahendust
 
 Organisatsioonid saavad viia vastavusse oma äritegevuse kasvuga, lisades lihtsa, selge kordustellimuse mudeli kaudu lihtsalt kasutajaid ja äriprotsesse. Lisateavet vaata [Dynamics 365 litsentsensijuhend](https://www.microsoft.com/licensing/docs/view/Microsoft-Dynamics-365).
 
 ## <a name="operating-model"></a>Töömudel
 
-Rakenduste Finance and Operations töömudel määrab kindlaid rolle ja kohustusi kliendile, rakenduse partnerile ja Microsoftile kogu teenuse elutsükli jooksul. Lisateavet vt [pilvetoimingud ja nende hooldamine](../../dev-itpro/lifecycle-services/cloud-operations-servicing.md).
+Finantside ja toimingute rakenduste tegevusmudel määrab kliendile, rakendusepartnerile ja Microsoftile teenuse töötsükli jooksul kindlad rollid ja kohustused. Lisateavet vt [pilvetoimingud ja nende hooldamine](../../dev-itpro/lifecycle-services/cloud-operations-servicing.md).
 
 ### <a name="customer-activities"></a>Kohandatud tegevused
 
-Kliendid töötavad koos oma partneri ja Microsoft FastTrackiga, järgides [Dynamics](/dynamics365/fasttrack/) [365 rakendusjuhendit, raamistikku ning töötsükli teenustes antud tööriistu ja heade tavade malle oma](https://community.dynamics.com/365/dynamics-365-fasttrack/p/dynamics365implementationguide) lahenduse [Success by Design](/dynamics365/fasttrack/success-by-design-overview)[rakendamiseks](../../dev-itpro/lifecycle-services/lcs.md). Tavalised tegevused hõlmavad:
+Kliendid töötavad koos oma partneri [ja Microsoft FastTrackiga](/dynamics365/fasttrack/)[, järgides Dynamics 365](https://community.dynamics.com/365/dynamics-365-fasttrack/p/dynamics365implementationguide) rakendusjuhendit, [Success by Design](/dynamics365/fasttrack/success-by-design-overview)[raamistikku](../../dev-itpro/lifecycle-services/lcs.md) ning töötsükli teenustes antud tööriistu ja heade tavade malle oma lahenduse rakendamiseks. Tavalised tegevused hõlmavad:
 
 - Kasutaja identiteet ja turvahaldus
 - Äriprotsesside määratlemine, arendamiseks ja käitamine
@@ -59,9 +59,9 @@ Kliendid töötavad koos oma partneri ja Microsoft FastTrackiga, järgides [Dyna
 - Halda rakenduse värskendusi ja kinnita laiendusi
 - ISV-lahenduste ja 3nda osapoole integratsioonide haldamine
 
-### <a name="microsoft-responsibilities"></a>Microsoft`i vastutusalad
+### <a name="microsoft-responsibilities"></a>Microsoft`i vastutused
 
-Microsoft haldab Finance and Operations teenust, juurutades, jälgides ja hooldades aktiivselt kliendiinfot ja tootmiskeskkondasid Microsoft SaaS-i kordustellimuses. See haldus hõlmab nõutud süsteemi infrastruktuuri jaotamist teenuse käivitamiseks ja ennetavalt sidet klientidega teenuse seisundi kohta. Kohustuste hulka kuuluvad:
+Microsoft haldab finantside ja toimingute teenust, juurutades, jälgides ja hooldades klientide märkeruutu ja tootmiskeskkondasid Microsoft SaaS-i kordustellimuses. See haldus hõlmab nõutud süsteemi infrastruktuuri jaotamist teenuse käivitamiseks ja ennetavalt sidet klientidega teenuse seisundi kohta. Kohustuste hulka kuuluvad:
 
 **Infrastruktuuri haldus**
 - Turvalisus ja isolatsioon
@@ -79,7 +79,7 @@ Microsoft haldab Finance and Operations teenust, juurutades, jälgides ja hoolda
 
 ## <a name="system-configuration"></a>Süsteemi konfiguratsioon
 
-Finance and Operations rakenduse skaala vastavalt kande mahule ja kasutaja koormusele. Iga kliendi rakendus loob kordumatu lahenduse, mis koosneb järgmistest elementidest:
+Finantside ja toimingute rakenduste skaala vastavalt kande mahule ja kasutaja koormusele. Iga kliendi rakendus loob kordumatu lahenduse, mis koosneb järgmistest elementidest:
 
 - **Andmete koosseis** – Unikaalne parameetrite kogum, mis kontrollib käitumist, organisatsiooni paigutust, koondandmete struktuuri (nt finants- ja varude dimensioonid) ning kannete jälgimise detailsust.
 - **Laiend ja konfiguratsioon** - koodilaiendeid, ISV-lahendusi ja kordumatuid konfiguratsioone kasutavad laiendusmehhanismid, mis hõlmavad töövooge, integratsioone ja aruande konfiguratsioone.
@@ -89,11 +89,11 @@ Microsoft konfigureerib kliendi tootmiskeskkonnad, mille suurusega kogused käsi
 
 - Tootmiskeskkondade ressursside õige jaotamine, mis põhineb kliendi profileerimisteabel [LCS-i kordustellimuse allutajas](../../dev-itpro/lifecycle-services/subscription-estimator.md)
 - Tootmiskeskkondade teenuse kättesaadavuse pidev jälgimine ja diagnoosimine
-- Süsteemi jõudlusprobleemide analüüsimine ja tõrkeotsing Finance and Operations rakendustega
+- Finantside ja toimingute rakendustega süsteemi jõudlusprobleemide analüüsimine ja tõrkeotsing
 
 Kindlustamaks, et rakendus on konfigureeritud kõrge jõudluse jaoks, peavad kliendid need ülesanded lõpule viima:
 
-- Esitage täpne kasutusteave Finance and Operations juurutamise kohta [LCS-i kordustellimuse hindaja](../../dev-itpro/lifecycle-services/subscription-estimator.md).
+- Esitage täpne kasutusteave LCS-i kordustellimuste hindaja finantside [ja toimingute rakendamise kohta](../../dev-itpro/lifecycle-services/subscription-estimator.md).
 - Jõudluse ja ulatuse laiendite ehitamine ja testimine.
 - Testige andmekonfiguratsioonid sobivalt jõudluse jaoks.
 - Tagage skaleeritavus [tehes jõudluse testimist](https://community.dynamics.com/365/b/techtalks/posts/performance-testing-approach-april-30-2018) enne otseülekannet.
@@ -112,17 +112,17 @@ Lisateavet vt teemast [Rakendusprojekti juurutamine](../imp-lifecycle/onboard.md
 
 ## <a name="globalization"></a>Globaliseerimine
 
-Finance and Operations rakendusi pakutakse mitmes Azure'i piirkonnas üle terve maailma. Finance and Operations rakendused pakuvad funktsioone eri riikide/regioonide ja emakeelte toetamiseks. Lisateavet vt [lokaliseerimine ja regulatiivsed funktsioonid](../../dev-itpro/lcs-solutions/country-region.md#localization-and-regulatory-features).
+Finantside ja toimingute rakendusi pakutakse mitmetest Azure'i aladelt üle terve maailma. Finantside ja toimingute rakendused pakuvad funktsioone eri riikide/regioonide ja emakeelte toetamiseks. Lisateavet vt [lokaliseerimine ja regulatiivsed funktsioonid](../../dev-itpro/lcs-solutions/country-region.md#localization-and-regulatory-features).
 
 ### <a name="countryregion-specific-considerations"></a>Riigi-/regioonikohane kaalutlused
 
-- Kliendid reguleeritud tööstuses või äriorganisatsioonides, mil on ärisuhted Prantsusmaa üksustega, mis nõuavad kohalikke andmeid, peaksid üle vaatama [Finance and Operations Prantsusmaal](../../dev-itpro/deployment/france-local-deployment.md).
-- Kliendid, kes käitavad Hiina operatsioone, peaksid üle vaatama Azure China Playbooki ja [käitavad](/azure/china/)[Finance and Operations 21Vianet](../../dev-itpro/deployment/china-local-deployment.md) Hiinas.
+- Kliendid reguleeritud tööstusharus või äriorganisatsioonides, mis on ärisuhted [Prantsusmaa üksustega, mis nõuavad kohalikke andmeid, peaksid läbi vaatama Finantsid ja Toimingud Prantsusmaal](../../dev-itpro/deployment/france-local-deployment.md).
+- Kliendid, kes käitavad Hiina operatsioone, peaksid üle vaatama [Azure China Playbooki](/azure/china/) ja [Finantsid ning Operatsioonid, mida käitab 21Vianet Hiinas](../../dev-itpro/deployment/china-local-deployment.md).
 - Kliendid, kel on operatsioone Venemaal, peaksid üle vaatama [Venemaa isikuandmete lokaliseerimise seaduse](/business-applications-release-notes/october18/dynamics365-finance-operations/russian-regulations-on-prem#when-will-the-cloud-deployment-option-of-dynamics-365-for-finance-and-operations-be-generally-available-for-russia).
 
 ### <a name="general-data-protection-regulation-gdpr"></a>Isikuandmete kaitse üldmäärus (GDPR)
 
-Finance and Operations rakenduste puhul käitub Microsoft protsessorina. Andmeprotsessorina pakub Finance and Operations protsesse ja funktsioone, mis aitavad klientidel järgida GDPR-kohustusi andmekontrollerina. Lisateavet vt teemast [GDPR ülevaade](../../dev-itpro/gdpr/gdpr-guide.md).
+Finantside ja toimingute rakenduste puhul tegutseb Microsoft protsessorina. Andmeprotsessorina pakub Finants ja Toimingud protsesse ja funktsioone, mis aitavad klientidel GDPR-kohustustele andmekontrollerina vastama. Lisateavet vt teemast [GDPR ülevaade](../../dev-itpro/gdpr/gdpr-guide.md).
 
 ## <a name="environment-and-data-management"></a>Keskkond ja andmete haldus
 
@@ -182,7 +182,7 @@ LCS pakub [iseteenindustööriistu](../../dev-itpro/deployment/infrastructure-st
 
 ## <a name="data-backup-and-retention"></a>Andmete varundamine ja säilitamine
 
-Finance and Operations SaaS-i kordustellimuse keskkonnaandmebaasid on automaatsete varundustega kaitstud. Tootmiskeskkondades säilitatakse automaatseid varusid 28 päevaks, kui Microsoft ei tee tagasipööramist. Liivakasti (Tier 2+) keskkondades säilitatakse neid seitsmeks päevaks. Tootmiskeskkonna tagasipööramine on võimalik juhul, kui mis tahes planeeritud hoolduse uuendamise käigus ilmneb tõrge.
+SaaS-i kordustellimuse finants- ja toimingute keskkondade andmebaasid on automaatsete varundustega kaitstud. Tootmiskeskkondades säilitatakse automaatseid varusid 28 päevaks, kui Microsoft ei tee tagasipööramist. Liivakasti (Tier 2+) keskkondades säilitatakse neid seitsmeks päevaks. Tootmiskeskkonna tagasipööramine on võimalik juhul, kui mis tahes planeeritud hoolduse uuendamise käigus ilmneb tõrge.
 
 Lisateavet automaatsete varunduste kohta vt [automaatsetest varundustest – Azure SQL-andmebaas & SQL-i hallatud eksemplar](/azure/azure-sql/database/automated-backups-overview?tabs=single-database).
 
@@ -228,13 +228,13 @@ Järgmises tabelis kirjeldatakse teenuse tavalisi stsenaariume ja tegevusi. Samu
 
 ## <a name="service-update-strategy"></a>Teenusevärskenduste strateegia
 
-Vastavalt [tarkvara töötsükli poliitikale](../../dev-itpro/migration-upgrade/versions-update-policy.md), Finance and Operations järgivad rakendused Microsoft [Modern Lifecycle poliitikat](../../dev-itpro/migration-upgrade/versions-update-policy.md#modern-lifecycle-policy), mis hõlmab pidevat hooldust ja toetatud tooteid. 
+Vastavalt tarkvara töötsükli [poliitikale](../../dev-itpro/migration-upgrade/versions-update-policy.md) järgivad finantside ja toimingute rakendused Microsofti [tänapäevast](../../dev-itpro/migration-upgrade/versions-update-policy.md#modern-lifecycle-policy) elutsükli poliitikat, mis hõlmab pidevat hooldust ja toetatud tooteid. 
 
-Microsoft vabastab rakendustele kaheksa Finance and Operations teenusevärskendust igal aastal järgmiste kuude jooksul:
+Microsoft pakub finantside ja toimingute rakendustele igal aastal järgmiste kuude kohta kaheksa teenusevärskendust:
 
-- Jaanuar
-- Veebruar
-- Aprill
+- jaanuar
+- veebruar
+- aprill
 - Mai
 - Juuli
 - August
@@ -255,7 +255,7 @@ Lisateabe saamiseks vaata järgmisi teemasid:
 
 ## <a name="security-and-administrative-access"></a>Turvalisus ja administraatori juurdepääs
 
-Haldusjuurdepääs Finance and Operations tootmiskeskkonnale on rangelt kontrollitud ja logitud. Kliendiandmeid käsitletakse vastavalt [Microsoft`i võrguteenuste tingimustele](https://www.microsoft.com/licensing/terms/productoffering). 
+Finantside ja toimingute tootmiskeskkonna haldusjuurdepääs on rangelt kontrollitud ja logitud. Kliendiandmeid käsitletakse vastavalt [Microsoft`i võrguteenuste tingimustele](https://www.microsoft.com/licensing/terms/productoffering). 
 
 ### <a name="customer-administrative-access"></a>Kliendi haldusjuurdepääs
 
@@ -264,7 +264,7 @@ Kliendi rentnikuadministraator pääseb juurde tootmiseksemplaridele või mittet
 | Keskkonna tüüp | Eesmärk | Kliendi juurdepääsu tase |
 |---|---|---|
 | **Mitte-tootmine**<br>Järgu 1 liivakast | Mittetootmiskeskkond, mida kliendid juurutavad arendus-, demo- või koolitusotstarbel. | Järgu 1 liivakast (mida nimetatakse ka pilve hostimise keskkonnaks) on kliendi hallatud VM, mis juurutatakse kliendi Azure'i kordustellimusele LCS-is. Kuna see on VM kliendi Azure'i kordustellimuses, on kliendil kaugtöölaua kaudu täielik haldusjuurdepääs keskkonnale. |
-| **Mitte-tootmine**<br>2. järgu (või uuem) liivakast | Mittetootmiskeskkond, mille kliendid juurutavad kasutaja aktsepteerimise testimiseks, integratsiooni testimiseks, koolituseks, paigutamiseks või muuks eeltootmisstsenaariumiks. | Järgu 2 ja kõrgemad kaustad juurutatakse Finance and Operations SaaS-i kordustellimusele. Juurdepääs Azure SQL-andmebaasidele mis on seotud mittetootmiskeskkonnaga, antakse [reaalajas juurdepääsu kaudu](../../dev-itpro/database/database-just-in-time-jit-access.md). Kaugtöölaua juurdepääs pole saadaval. |
+| **Mitte-tootmine**<br>2. järgu (või uuem) liivakast | Mittetootmiskeskkond, mille kliendid juurutavad kasutaja aktsepteerimise testimiseks, integratsiooni testimiseks, koolituseks, paigutamiseks või muuks eeltootmisstsenaariumiks. | Järgu 2 ja kõrgemad kaustad juurutatakse Finantside ja toimingute SaaS-i kordustellimusele. Juurdepääs Azure SQL-andmebaasidele mis on seotud mittetootmiskeskkonnaga, antakse [reaalajas juurdepääsu kaudu](../../dev-itpro/database/database-just-in-time-jit-access.md). Kaugtöölaua juurdepääs pole saadaval. |
 | **Tootmine** | Tootmiskeskkond juurutatakse siis, kui projekt [on valmis esialgseks otseülekanneks](/imp-lifecycle/environment-planning.md#production-system-readiness). | Tootmiskeskkonnad juurutatakse SaaS-i kordustellimusele. Kogu juurdepääs läbib brauseri, teenuse lõpp-punktid või LCS-i. |
 
 ### <a name="microsoft-administrative-access"></a>Microsoft`i haldusjuurdepääs
@@ -296,7 +296,7 @@ Lisateavet tõsidusastmete kohta vt [sellest tõsidustabelist](/power-platform/a
 
 ## <a name="business-continuity-through-high-availability-and-disaster-recovery"></a>Talitluspidevus suure kättesaadavuse ja õnnetuse taastamise kaudu 
 
-Microsoft pakub äri järjepidevust ja sündmuste taastamist Finance and Operations rakenduste tootmiseksemplaride jaoks Azure'i regiooni hõlmavate rakenduste korral. Lisateavet vt jaotisest [Talitluspidevus ja katastroofist taastumine](../../dev-itpro/sysadmin/business-continuity-disaster-recovery.md).
+Microsoft pakub äri järjepidevust ja sündmuste taastamist finantside ja toimingute rakenduste tootmiseksemplaride jaoks Azure'i regiooni hõlmavate ülekatkestuste korral. Lisateavet, k.a teenuse taastamise ajaeesmärk (TOOL) ja taastepunkti eesmärk (RPO), vt [talitlus järjepidevust ja katastroofide taastamist](../../dev-itpro/sysadmin/business-continuity-disaster-recovery.md).
 
 - **Kõrge saadavus:** HA-funktsioon pakub võimalusi, et vältida ületunnitöö, mille põhjustajaks on ühe sõlme nurjumine Azure'i andmekeskuses. Iga teenuse pilve arhitektuur kasutab Azure'i kättesaadavuse komplekte andmetöötlusjärgu jaoks, et ennetada tõrkeid. Andmebaaside HA-d pakutakse [Azure SQL HA funktsioonide kaudu](/azure/azure-sql/database/high-availability-sla).
 - **Õnnetusejärgne taastamine** – [Azure'i õnnetuse taaste funktsioonid](/azure/best-practices-availability-paired-regions) kaitsevad iga teenust, mis mõjutavad laias laastus tervet Azure`i andmekeskust. Mõned neist funktsioonidest:
@@ -305,28 +305,19 @@ Microsoft pakub äri järjepidevust ja sündmuste taastamist Finance and Operati
     - Azure Blob Storage'i (sisaldab dokumendimanuseid) geograafiliselt üleliigsed koopiad teistes Azure'i piirkondades.
     - Sekundaarne piirkond Azure SQL-i ja Azure Blob Storage replikatsioonide jaoks.
 
-Andmeedastus toetab esmaste andmekaupluste salvestamist. Seetõttu kasutage iga teenuse komponente, nt Management Reporter ja üksuseladu, esmasest andmebaasist üle saadetud andmeid. Need andmed tuleb luua pärast seda, kui taastamise sait on häälestatud ja teenus on käivitatud. Kliendikoodide artefaktide ja taastatud andmekaupluste abil saab saiti uuesti kasutada. Uuestiehtmine võimaldab andmetöötlussõlmede oleku andmeedastust koos oleku ja muude komponentidega kasutada taastatud andmesalvi teisese saidi häälestamiseks. Kui kliendile tootmiseksemplari taastamiseks kasutatakse eksemplari, vastavad Microsoft ja klient oma [juhtumihalduse](service-description.md#incident-management) kohustustele.
+Kui kliendile tootmiseksemplari taastamiseks kasutatakse eksemplari, vastavad Microsoft ja klient oma [juhtumihalduse](service-description.md#incident-management) kohustustele.
 
-Microsoft`i katastroofidest taastamise plaane ja protseduure kontrollitakse regulaarselt System and Organization Controls (SOC) auditi kaudu. Need vastavuse auditid kinnitavad Microsoft`i DR-i, kaasa arvatud Dynamics 365 Finance and Operations rakenduste tehnilist ja protseduurilist protsessi. [SOC vastavus](/compliance/regulatory/offering-soc-2) auditi aruanded ja kõik muud vastavusaruanded on saadaval Microsoft`i [Microsoft Trust Center Compliance Offerings](/compliance/regulatory/offering-home).
+Microsoft`i katastroofidest taastamise plaane ja protseduure kontrollitakse regulaarselt System and Organization Controls (SOC) auditi kaudu. Need vastavuse auditid testivad Microsofti tehnilise ja protseduuriprotsessi, sealhulgas Dynamics 365 finantside ja toimingute rakendusi. [SOC vastavus](/compliance/regulatory/offering-soc-2) auditi aruanded ja kõik muud vastavusaruanded on saadaval Microsoft`i [Microsoft Trust Center Compliance Offerings](/compliance/regulatory/offering-home).
 
-| Microsoft`i vastutused | Kliendi vastutused |
-|---|---|
-| Microsoft sisaldab esmase tootmiseksemplari juurutamisel Azure'i paaristatud andmekeskuse teisese keskkonna. Lisateavet vt jaotisest [Talitluspidevus ja katastroofist taastamine (BCDR): Azure paaritud piirkonnad](/azure/best-practices-availability-paired-regions). | None |
-| Microsoft võimaldab esmase tootmiseksemplari juurutamisel kasutada Azure SQL-i ja Azure Blob Storage`i geokoondamist. | None |
-| Microsoft võimaldab automaatset Azure SQL-i andmebaaside varundamist. | None |
-| <p>Sidekatkestuse ilmnemisel määrab Microsoft, kas kliendi puhul tuleb teha üleminekut ja kas toimub andmekadu. Sõltuvalt tegevuse olemusest ja ajast võivad kliendid esineda kuni 15-minutilise andmekadu. | Andmekadu korral peab klient võib-olla esitama kirjaliku allkirja, et käivitada ülemineku nurjumine. |
-| Tõrke korral töötab rakendatav teenus piiratud režiimis. Uuenduste hooldust ei saa käivitada tõrkesiirderežiimis. | Klient ei saa tõrkerežiimis taotleda paketi juurutamist ega muid regulaarse hoolduse taotlusi. |
-| Kui andmekeskus muutub tööks, ebaõnnestub Microsoft tagasi tootmiseksemplari juurde esmases Azure'i regioonis. Normaalsed toimingud jätkuvad. | Võimalik, et klient peab esmases Azure'i regioonis tootmiseksemplari tagasi logima. |
+## <a name="finance-and-operations-support-offerings"></a>Finantside ja toimingute tugiteenustega seotud tegevused
 
-## <a name="finance-and-operations-support-offerings"></a>Finance and Operations tugiteenuste pakkumine
-
-Tehniline tugi on saadaval turul, kus Finance and Operations teenuseid pakutakse. [Tugikogemusi](../../dev-itpro/lifecycle-services/lcs-support.md) pakutakse LCS-s või Finance and Operations rakendustes. Järgmisena on toodud mõned näited.
+Tehniline tugi on saadaval turus, kus pakutakse finants- ja operatsiooniteenuseid. [Tugikogemusi](../../dev-itpro/lifecycle-services/lcs-support.md) pakutakse LCS-s või finants- ja toimingute rakendustes. Järgmisena on toodud mõned näited.
 
 - [Teema otsing](../../dev-itpro/lifecycle-services/issue-search-lcs.md) LCS-is
-- [Integreeritud tehniline tugi](../../dev-itpro/lifecycle-services/support-experience.md) rakenduses Finance and Operations
+- [Integreeritud tehniline tugi finantside](../../dev-itpro/lifecycle-services/support-experience.md) ja toimingute rakendustes
 - [Pilve-põhine tugi](../../dev-itpro/lifecycle-services/cloud-powered-support-lcs.md) LCS-s
 
-Microsoft pakub Finance and Operations klientidele kolme tugiplaani: esmane, professionaalne ja kordustellimuses sisalduv tugi. Toetuse tase on plaaniti erinev. Järgnev tabel näitab kolme plaani võrdlust.
+Microsoft pakub finantside ja toimingute kliente kolme tugiplaani:Rendi, Professional Direct ja abonemendis kaasatud tugi. Toetuse tase on plaaniti erinev. Järgnev tabel näitab kolme plaani võrdlust.
 
 | Tugifunktsioon | Peamine | Professional Direct | Kordustellimus |
 |---|---|---|---|
@@ -341,7 +332,7 @@ Lisateavet leiate jaotisest [Toe ülevaade](/power-platform/admin/support-overvi
 
 ### <a name="process-to-engage-support"></a>Tugiteenuste kaasamisprotsess
 
-Rakendustega seotud juhtumite korral Finance and Operations rakendustes, esitavad kliendid Microsoft`ile LCS kaudu tugipileteid. CSS tegeleb juhtumitega vastavalt kliendi tugiplaanile ja õnnetusjuhtumi tõsidusastmele, mille on CSS määranud.
+Juhtumite korral, mis hõlmavad finantside ja toimingute rakendusi, vad kliendid LCS-i kaudu Microsoftile tugipileteid. CSS tegeleb juhtumitega vastavalt kliendi tugiplaanile ja õnnetusjuhtumi tõsidusastmele, mille on CSS määranud.
 
 ### <a name="service-level-agreement"></a>Teenindustaseme leping
 
@@ -349,14 +340,14 @@ Microsoft kooskõlastatud kättesaadavuse määraga 99,9 protsenti teenuse kuu k
 
 ## <a name="important-resources"></a>Olulised ressursid
 
-- **[Usalduskeskus](https://www.microsoft.com/trust-center)** – saate teavet selle kohta, kuhu Finance and Operations andmed on talletatud, ning täiendavat teavet privaatsuse, vastavuse ja turvaprotseduuride kohta.
+- **[Usalduskeskus](https://www.microsoft.com/trust-center)** – saate teavet finantside ja toimingute andmete talletustingimuste kohta ning täiendavat teavet privaatsuse, vastavuse ja turvaprotseduuride kohta.
 - **[Litsentsitingimused ja dokumentatsioon](https://www.microsoftvolumelicensing.com/)** – pääsege kiiresti juurde litsentsitingimustele, tingimustele ja täiendavale teabele, mis on oluline Microsoft`i hulgilitsentsiprogrammi kaudu litsentsitud toodete ja teenuste kasutamisel.
 - **[Litsentsitingimused](https://www.microsoft.com/licensing/product-licensing/)** – selle lehe ressursid määravad tingimused tarkvarale ja võrguteenuste toodetele, mida ostate Microsoft`i litsentsiprogrammi kaudu.
 - **[Microsofti elutsükli poliitika](/lifecycle/)**– see leht annab järjepidevad ja prognoositavad juhised toe saadavaloleku kohta kogu toote eluea jooksul.
 - **[Litsentsimise juhend](https://www.microsoft.com/licensing/docs/view/Microsoft-Dynamics-365)**– kasutage seda juhendit, et saada lisateavet Rakenduse Dynamics 365 litsentsi kohta.
 - **[Klienditugi](https://dynamics.microsoft.com/support/)** – hankige valdkonna juhtiv tugi Dynamics 365 rakendustele.
 - **[Dynamics Lifecycle Services](https://lcs.dynamics.com/)** – hallake oma rakenduse töötsüklit ja liiguge prognoositavate, korratavate, kõrge kvaliteedi rakenduste suunas.
-- **[Dynamics 365 rakendusjuhend – Dynamics 365 rakendusjuhend dokumenteerib aja jooksul läbiproovitud põhimõtted ja annab arhitektile, koostada, katsetada ja juurutada](https://aka.ms/D365ImplementationGuideFlip)** Success by Design Dynamics 365 lahendusi.
+- **[Dynamics 365](https://aka.ms/D365ImplementationGuideFlip)** rakendusjuhend – Dynamics 365 Success by Design rakendusjuhend dokumenteerib aja jooksul läbiproovitud põhimõtted ja annab arhitektile, koostada, katsetada ja juurutada Dynamics 365 lahendusi.
 
 ## <a name="definitions"></a>Definitsioonid
 
@@ -366,7 +357,7 @@ Geograafiline piirkond, kus on üks või mitu Azure'i andmekeskust. Näited hõl
 
 ### <a name="business-process-modeler-bpm"></a>[Äriprotsesside modelleerija (BPM)](../../dev-itpro/lifecycle-services/bpm-overview.md)
 
-Tööriist LCS-s, mis aitab täita antud rakenduse sobivuse vahe analüüsi, kasutades rakendustes toetatud äriprotsesside definitsioone American Productivity & Quality Center-ist (APQC), mida toetavad Finance and Operations rakendused.
+Tööriist LCS-s, mis aitab täita antud rakenduse sobivuse vahe analüüsi, kasutades Ameerika tööviljakuse & kvaliteedikeskuse (APQC) äriprotsesside definitsioone, mida toetab Finance and Operationsi rakendused.
 
 ### <a name="cloud-solution-provider"></a>Pilve lahenduse pakkuja
 
@@ -374,9 +365,9 @@ Partner, mis on osa Microsoft Cloud Solution Provider (CSP) programmist ja mis p
 
 ### <a name="customer"></a>Klient
 
-Äriüksus, mis Finance and Operations tarbib rakendusi ja mida esindab rentnik Office 365 üksuses.
+Äriüksus, mis tarbib finantside ja toimingute rakendusi ja mida esindab rentnik üksuses Office 365.
 
-### <a name="development-environment"></a>Arenduskeskkonnad
+### <a name="development-environment"></a>Arenduskeskkond
 
 Tootmisvälise tootmiskausta keskkond, mida kasutatakse laiendite arendamiseks. Kliendid juurutavad seda keskkonda oma LCS-ist pärit Azure'i kordustellimusse. Seda keskkonda saab kasutada ka demonstreerimiseks, koolitusteks või muudeks testimisülesanneteks. Seda nimetatakse ka [Tase 1 liivakast](../imp-lifecycle/environment-planning.md#tier-1-vs-tier-2-and-higher).
 
@@ -386,19 +377,19 @@ Mis tahes periood, mille jooksul kasutajad ei saa oma aktiivsesse rentnikusse si
 
 ### <a name="implementation-partner"></a>Juurutuspartner
 
-Partner, mille klient valib oma lahenduste kohandamiseks, konfigureerimiseks, juurutamiseks ja Finance and Operations lahenduste haldamiseks.
+Partner, mille klient valib oma finantside ja toimingute lahenduste kohandamiseks, konfigureerimiseks, rakendamiseks ja haldamiseks.
 
 ### <a name="incident"></a>Juhtum
 
-Probleem, millega kliendid Finance and Operations teenuse kasutamisel kokku puutuvad ja mille kohta nad LCS-i kaudu pileti esitavad.
+Klientide jaoks finants- ja toimingute teenuse kasutamisel ilmnes probleem ja LCS-i kaudu pileti esitamine.
 
 ### <a name="microsoft-customer-support-services-css"></a>Microsoft`i Customer Support Services (CSS)
 
-Microsoft`i globaalne tugimeeskond, mis on mõeldud Finance and Operations rakendustele kvaliteediteenuse pakkumiseks.
+Microsofti globaalne tugimeeskond, mis on mõeldud finantside ja toimingute rakenduste kvaliteediteenuse pakkumiseks.
 
 ### <a name="microsoft-dynamics-lifecycle-services-lcs"></a>Microsoft Dynamics Lifecycle Services (LCS)
 
-Finance and Operations rakenduste elutsükli haldamise haldusportaal alates prooviperioodist kuni juurutamiseni, tootmisjärgse haldamise ja toeni. Lisateabe saamiseks vt [Lifecycle Services ressursid](../../dev-itpro/lifecycle-services/lcs.md).
+Finantside ja toimingute rakenduste elutsükli haldamise haldusportaali kaudu proovist versioonini, tootmisejärgse halduse ja toeni. Lisateabe saamiseks vt [Lifecycle Services ressursid](../../dev-itpro/lifecycle-services/lcs.md).
 
 ### <a name="non-production-instance"></a>Mittetootmiseksemplarid
 
@@ -412,15 +403,15 @@ Lisateavet järgud 2 kuni 5 kohta vt õige [järguga 2 või kõrgema keskkonna v
 
 ### <a name="production-instance"></a>Tootmisjuhtum
 
-Finance and Operations keskkond, mida klient kasutab oma "reaalajas" igapäevaste kannete ja äriprotsesside haldamiseks.
+Finantside ja toimingute keskkond, mida klient kasutab oma "reaalajas" igapäevaste kannete ja äriprotsesside haldamiseks.
 
 ### <a name="sandbox-environment"></a>Liivakastikeskkond
 
 Mittetootmiskeskkond, mida klient kasutab demo-, koolitus-, kasutaja kinnituse testimiseks, laienduste valideerimiseks ja muudeks testimisülesanneteks.
 
-### <a name="service"></a>Teenus
+### <a name="service"></a>Teenindus
 
-Mis tahes tuumteenused, mis on Finance and Operations rakendustes kaasatud.
+Mis tahes tuumteenused, mis sisalduvad Finantside ja toimingute rakendustes.
 
 ### <a name="service-level-agreement-sla-for-microsoft-online-services"></a>Microsoft`i võrguteenuste teenusetaseme leping (SLA)
 
@@ -428,7 +419,7 @@ SLA kehtib Microsoft`i võrguteenuste kohta. Lisateavet vt teemast [Service Leve
 
 ### <a name="service-update"></a>Teenusevärskendus
 
-Microsoft`i teenuste Finance and Operations keskkonnad on teenusevärskenduste kaudu järjepidevad. Kliendid seadistavad oma teenuse värskenduskalendri ärivajaduste alusel. Lisateavet vt teemast [Ühe versiooni teenuse värskendused](../../dev-itpro/lifecycle-services/oneversion-overview.md).
+Microsoft Services Finance and Operationsi keskkonnad on teenusevärskenduste kaudu järjekindlalt saadaval. Kliendid seadistavad oma teenuse värskenduskalendri ärivajaduste alusel. Lisateavet vt teemast [Ühe versiooni teenuse värskendused](../../dev-itpro/lifecycle-services/oneversion-overview.md).
 
 ### <a name="success-by-design"></a>[Success by Design](/dynamics365/fasttrack/success-by-design-overview)
 
@@ -436,4 +427,4 @@ Raamistik, mis juhendab süsteemselt rakendust kriitilise järguga hindamise see
 
 ### <a name="user"></a>Kasutaja
 
-Üksik isik, kes Finance and Operations keskkondi kasutab ja on seotud kliendi rentnikuga.
+Üksik isik, kes kasutab Finants- ja Toimingute keskkondi ning on seotud kliendi rentnikuga.

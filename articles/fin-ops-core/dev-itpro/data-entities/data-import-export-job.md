@@ -2,7 +2,7 @@
 title: Andmeimpordi ja -ekspordi tööde ülevaade
 description: Kasutage andmeimpordi ja -ekspordi tööde jaoks andmehalduse tööruumi.
 author: peakerbl
-ms.date: 10/21/2021
+ms.date: 04/25/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e63daad6f206500bfa21c28635648c717f5bbdde
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 74430aadc661a49e330960135ce7b0912079f79b
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071081"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644455"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Andmete importimis- ja eksportimistööde ülevaade
 
@@ -74,8 +74,11 @@ Kui valite üksuse, peate valima eksporditavate või imporditavate andmete vormi
 > [!NOTE]
 > Oluline on valida õige väärtus , veerueraldaja ja teksti täpifikaatori jaoks, kui failivormingu suvand on **reaeraldaja**, **veerueraldaja**, ja **teksti täpifikaatori** jaoks kui **Faili vormaat** väärtus on seatud väärtusele **Eraldatud**. Kontrollige, et teie andmed ei sisaldaks eraldajana või täpindina kasutatavat märki, kuna see võib importimise ja eksportimise ajal põhjustada tõrkeid.
 
+> [!NOTE]
+> XML-põhiste failivormingute puhul kasutage kindlasti ainult õigusmärke. Lisateavet kehtivate märkide kohta vt XML [1.0 kehtivast märgist](https://www.w3.org/TR/2006/REC-xml-20060816/Overview.html#charsets/). XML 1.0 ei luba juhtmärke peale vahekaartide, tagastuste ja rea söötmete. Lubamatute märkide näited on nurksulud, curly sulgud ja kaldkriipsud. 
+
 ### <a name="sequence-the-entities"></a>Üksuste järjestamine
-Üksusi saab järjestada andmemallis või impordi- ja eksporditöödes. Kui käivitate mitut andmeüksust sisaldava töö, peate veenduma, et andmeüksused oleksid õiges järjestuses. Üksused järjestatakse peamiselt nii, et saaksite käsitleda funktsionaalseid sõltuvusi üksuste vahel. Kui üksustel pole ühtegi funktsionaalset sõltuvust, saab need plaanida paralleelseks impordiks või ekspordiks.
+Üksusi saab järjestada andmemallis või impordi- ja eksporditöödes. Kui käivitate mitut andmeüksust sisaldava töö, peate veenduma, et andmeüksused oleksid õiges järjestuses. Üksused järjestatakse peamiselt nii, et saaksite käsitleda funktsionaalseid sõltuvusi üksuste vahel. Kui üksustel pole ühtegi funktsionaalset sõltuvust, saab need plaanida paralleelseks impordiks või ekspordiks. 
 
 #### <a name="execution-units-levels-and-sequences"></a>Käivitamise ühikud, tasemed ja järjestused
 Üksuse käivitamise ühik, tase käivitamise ühikus ja järjekord aitavad juhtida andmete eksportimise või importimise järjekorda.
@@ -206,7 +209,7 @@ Puhastamise protsessi planeerimisel tuleb täpsustada puhastuse kriteeriumite j�
 ## <a name="job-history-clean-up-and-archival"></a>Tööajaloo puhastamine ja arhiivimine 
 Tööde ajaloo puhastamise ja arhiveerimise funktsioon asendab puhastamise funktsioonide varasemad versioonid. Selles jaotises selgitatakse neid uusi võimalusi.
 
-Üks põhilistest puhastamise funktsiooni muudatustest on ajaloo puhastamiseks süsteemi pakett-töö kasutamine. Süsteemi pakett-töö kasutamine võimaldab Finance and Operationsi rakendustel puhastuspaketti automaatselt planeerida ja töötada kohe, kui süsteem on valmis. Pakett-tööd ei pea enam käsitsi planeerima. Selle vaikimisi käivitamise režiimis käivitub pakett-töö iga tund alates keskööl ja säilitab viimase seitsme päeva käivitamise ajaloo. Likvideeritud ajalugu arhiveeritakse tulevikus toomiseks. Alates versioonist 10.0.20 on see funktsioon alati sees.
+Üks põhilistest puhastamise funktsiooni muudatustest on ajaloo puhastamiseks süsteemi pakett-töö kasutamine. Süsteemi pakett-töö kasutamine võimaldab finantside ja toimingute rakendustel puhastada pakett-töö automaatselt ja käivituda niipea, kui süsteem on valmis. Pakett-tööd ei pea enam käsitsi planeerima. Selle vaikimisi käivitamise režiimis käivitub pakett-töö iga tund alates keskööl ja säilitab viimase seitsme päeva käivitamise ajaloo. Likvideeritud ajalugu arhiveeritakse tulevikus toomiseks. Alates versioonist 10.0.20 on see funktsioon alati sees.
 
 Puhastustoimingu protsessi teine muudatus on likvideeritud käivitamise ajaloo arhiveerimine. Puhastamise töö arhiveerib kustutatud kirjed bloobimällu, mida DIXF kasutab regulaarsete integratsioonide jaoks. Arhiveeritud fail on DIXF-i paketi vormingus ja see on bloobimälus 7 päeva jooksul saadaval, mille jooksul saab selle alla laadida. Arhiivitud faili vaikimisi säilimisaega 7 päeva saab muuta parameetrites maksimaalselt 90 päevaks.
 

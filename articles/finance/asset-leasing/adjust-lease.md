@@ -2,7 +2,7 @@
 title: Rendikirjete korrigeerimine
 description: Teema selgitab, kuidas korrigeerida rendikirjet. Korrigeerimine võib olla vajalik, kui rendiperioodi muudetakse, renti pikendatakse või muud asjaolud muutuvad.
 author: moaamer
-ms.date: 10/28/2020
+ms.date: 03/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 1016b69fd59bbe90924996f5c931cb5d0f779253de66f5f3821a8c3001d3313b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: MT
+ms.openlocfilehash: 7d7151c28d124420638dc4e69a8ab5359ecf443c
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729650"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644551"
 ---
 # <a name="adjust-leases"></a>Rendikirjete korrigeerimine
 
@@ -134,5 +134,19 @@ Kui rendikirjet on korrigeeritud, saate vaadata selle erinevaid versioone. Lisak
 2. Ajalooliste graafikute vaatamiseks avage muudetud rendikirje lehelt **Rendi kokkuvõte**, valige soovitud raamat ja valige seejärel tegevuspaanil suvand **Raamatu versiooni ajalugu**.
 3. Valige lehel **Raamatu versioon** versioon ja ajakava, mida kuvada.
 
+## <a name="adjust-a-lease-book"></a>Rendiraamatu korrigeerimine
+
+Järgige neid samme ainult rendiraamatu korrigeerimiseks.
+
+1. Minge varade **liisingute** \> **liisingu kokkuvõttesse.** \> **·**
+2. Valige ja avage rent.
+3. Valige lehel **Liisingu üksikasjad suvand Raamatud** **.**
+4. **Märkige tegevuspaani** lehel Raamatute üksikasjad grupis Haldamine **ruut** Korrigeeri **raamatut**. 
+5. Eemaldage maksegraafiku read.
+6. Sisestage **muutmiskuupäev väljale** Rendi muutmise kuupäev. Seejärel kaaluge kõigi täiendavate varade/kohustuste kaalutluste eemaldamist (algne otsene kulu, rendi lisatasu, rendi ettemakse, demonteerimise kulu ja jääkväärtuse garantii) olemasolul. 
+7. Et vältida liisimise korrigeerimise ebatäpseid arvutusi, lisage uued maksegraafiku read uutele maksekuupäevale, mis kattuvad muutmiskuupäevaga. 
+
+> [!NOTE] 
+> Soovitame kasutada rendi korrigeerimise **viisardit** liisingu korrigeerimiseks. Viisard vähendab käsitsi sammude arvu, tagab korrigeerimise järel saldode eelvaate ja võimaldab summasid enne sisestamist muuta.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

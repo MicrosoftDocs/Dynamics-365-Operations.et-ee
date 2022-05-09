@@ -2,7 +2,7 @@
 title: SEO metaandmete haldamine
 description: See teema kirjeldab, kuidas hallata rakenduses Microsoft Dynamics 365 Commerce otsingumootori optimeerimise (SEO) metaandmeid.
 author: psimolin
-ms.date: 04/14/2020
+ms.date: 04/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 06d2da60695be499971904451fd56fb8a64dfd64c9192d93f87ababb349e9378
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3d6f56968e9adfe90142955cba8e6c7ecc50fc92
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6751563"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644755"
 ---
 # <a name="manage-seo-metadata"></a>SEO metaandmete haldamine
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 See teema kirjeldab, kuidas hallata rakenduses Microsoft Dynamics 365 Commerce otsingumootori optimeerimise (SEO) metaandmeid.
 
@@ -62,17 +63,21 @@ Dynamics 365 Commerce võimaldab teil hallata individuaalsete lehtede SEO metaan
 ### <a name="modify-page-metadata"></a>Lehe metaandmete muutmine
 
 Lehe metaandmete muutmiseks toimige järgmiselt.
-
 1. Jaotises **Saidid** valige suvand **Fabrikam** (või oma saidi nimi).
 1. Valige navigeerimispaanilt vasakult suvand **Lehed**.
 1. Valige avaleht, et avada see lehe redaktoris.
 1. Klõpsake käsuribal käsku **Redigeeri**.
-1. Parempoolsel atribuutide paanil laiendage suvandit **Vaikimisi metasildid**.
-1. Uue metasildi lisamiseks valige suvand **Lisa** ja sisestage seejärel silt väljale. Olemasoleva metasildi eemaldamiseks valige selle kõrval paremal prügikasti sümbol.
+1. Leheredaktoris lehe ülaosas kuvatakse liigenduskontroll vasakul, **valige** suvand Liigendusrežiim (käigu sümbol) ja seejärel valige liigendusvaade **Täpsem**.
+1. Laiendage liigendusvaates puu juhtelemente HTML-peapesa **sisu kuvamiseks**.
+1. **Valige HTML-peapesast** soovitud SEO-moodul (**nt Lehe** kokkuvõte, **Tootelehe kokkuvõte**, **Kategoorialehe kokkuvõte** või **Metatagid**).
+1. Redigeerige atribuutide paanil paremal soovitud SEO-andmeid valitud SEO-mooduli jaoks (nt Pealkiri **, Kirjeldus** **või Ühiskasutuse pilt** **).**
 1. Valige nupp **Salvesta** ja seejärel suvand **Lõpeta redigeerimine**.
-1. Sisestage väljale **Kommentaarid** suvand **Uuendatud metasildid** ja valige seejärel **OK**.
+1. Sisestage **väljale** Kommentaarid uuendatud **SEO-andmed** ja seejärel valige **OK**.
 1. Lehe eelvaate kuvamiseks valige suvand **Eelvaade**. Kui olete lõpetanud, sulgege eelvaate vahekaart, et naasta autorluse tööriista.
 1. Valige **Avalda**.
+
+> [!TIP]
+> Autorid saavad leheredaktoris **kasutada** vasaku liigendusredaktori ülaosas liigendusrežiimi suvandit (käigusümbolit), **et lülitada üldise liigendusvaate ja täpsema** **liigendusvaate vahel.** **Üldine liigendusvaade** on vaikesäte ja filtreerib **liigenduse nii, et see näitab lehekülje keha** HTML-pesas ainult mooduleid. **Täpsem liigendusvaade** näitab tervet lehemoodulit, sh **HTML-i pea**, **kehaosa algus** ja keha **lõpupesad**. See vaade on kasulik, kui autorid peavad redigeerima konkreetsed SEO või skripti mooduli sätted lehekülje jaoks.
 
 ## <a name="additional-resources"></a>Lisaressursid
 

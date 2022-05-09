@@ -9,17 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: b41ff8a112f801cd9bf5ebad3aed588ccb40e1f8
-ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
+ms.openlocfilehash: 826c1cb0fba7025b16dadbfa6157683392945103
+ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "8388359"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "8614147"
 ---
 # <a name="fiscal-registration-service-integration-sample-for-austria"></a>Fiskaalüksuse registreerimisteenuse integratsiooni näide Austria jaoks
 
 [!include[banner](../includes/banner.md)]
-[!include[banner](../includes/preview-banner.md)]
 
 Selles teemas antakse Ülevaade Austria fiskaalintegratsiooni näidistest Microsoft Dynamics 365 Commerce.
 
@@ -119,7 +118,7 @@ Lehel Kõik **kauplused** värskendage kaupluse üksikasju. Konkreetselt määra
 - Seadke välja **Nimi** väärtuseks ettevõtte nimi. See muudatus aitab tagada, et ettevõtte nimi ilmub müügikviitungil. Teise võimalusena saate ettevõtte nime lisada müügikviitungi kavandile vabas vormis tekstina.
 - Seadistage **maksu ID-koodi (TIN)** väli ettevõtte ID-koodile. See muudatus aitab tagada, et ettevõtte ID-number ilmub müügikviitungil. Teise võimalusena saate vabas vormis tekstina lisada müügikviitungi kavandile ettevõtte ID-koodi.
 
-### <a name="set-up-functionality-profiles"></a>Funktsiooniprofiilide seadistamine
+### <a name="set-up-functionality-profiles"></a>Funktsiooniprofiilide häälestus
 
 Kassa funktsiooniprofiilide seadistamine:
 
@@ -135,14 +134,14 @@ Lisage tabelist keeleteksti müügikoha **jaotisse** **järgmised müügikoha** 
 
 | Keele ID | Teksti ID | Tekst                      |
 |-------------|---------|---------------------------|
-| en-US       | 900001  | QR-kood                   |
-| en-US       | 900002  | Pidev number         |
-| en-US       | 900003  | Maksu jaemüügi prindikood     |
-| en-US       | 900004  | Kokku (müük)             |
-| en-US       | 900005  | Maks kokku (müük)         |
-| en-US       | 900006  | Summa kaasa maks (müük) |
-| en-US       | 900007  | Maksusumma (müük)        |
-| en-US       | 900008  | Maksu alus (müük)         |
+| et       | 900001  | QR-kood                   |
+| et       | 900002  | Pidev number         |
+| et       | 900003  | Maksu jaemüügi prindikood     |
+| et       | 900004  | Kokku (müük)             |
+| et       | 900005  | Maks kokku (müük)         |
+| et       | 900006  | Summa kaasa maks (müük) |
+| et       | 900007  | Maksusumma (müük)        |
+| et       | 900008  | Maksu alus (müük)         |
 
 **Lisage kviitungi** kavandite kohandatud väljade jaoks kohandatud väljadele järgmised kirjed lehel Kohandatud väljad. Pange tähele **, et pealdise teksti ID** väärtused peavad vastama **teksti ID** väärtustele, mille määrate keele **tekstilehel**:
 

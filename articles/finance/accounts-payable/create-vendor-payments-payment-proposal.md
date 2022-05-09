@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 14312
 ms.assetid: 585d5b0b-1b79-4a03-ab18-528918070377
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 71e87b1102e21e035c25af4c63245eaaa59e4babb82bcf59c5cfba48f7d114f3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 101cbcc77b2e1eab9fb4b6724fc5e3e8925a54c5
+ms.sourcegitcommit: 836695c0e95d366ba993f34eee30f57191f356d8
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749048"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "8629704"
 ---
 # <a name="create-vendor-payments-by-using-a-payment-proposal"></a>Hankija maksete loomine maksesoovituse abil
 
@@ -48,7 +48,7 @@ Maksesoovituse päring sisaldab mitmeid vahekaarte, millest igaühel on erinevad
 - **Lisa hankija arve teistelt juriidilistelt isikutelt** – kui teie organisatsioonil on tsentraliseeritud makseprotsess ja maksesoovitus peaks sisaldama arveid teistelt otsingukriteeriumisse kaasatud juriidilistelt isikutelt, määrake suvandi väärtuseks **Jah**.
 - **Soovita iga juriidilise isiku jaoks eraldi hankija makset** – kui suvandi väärtuseks on määratud **Jah**, luuakse eraldi makse igale juriidilisele isikule hankija kohta. Maksel olev hankija on iga juriidilise isiku arvel olev hankija. Kui suvandi väärtuseks on määratud **Ei** ja samal hankijal on arveid mitmete juriidiliste isikute juures, luuakse üks makse valitud arvete kogusummas. Maksel olev hankija on antud juriidilise isiku hankija. Kui antud juriidilisel isikul hankija konto puudub, kasutatakse esimese tasutava arve hankija kontot.
 - **Makse valuuta** – see väli määrab valuuta, milles kõik maksed luuakse. Kui valuuta pole määratletud, tasutakse iga arve selle valuutas.
-- **Makse nädalapäev** – saate sisestada makse tegemise nädalapäeva. Seda välja kasutatakse ainult siis, kui makseviisiks on seatud arvete kogusumma makse jaoks kindlal nädalapäeval.
+- **Makse nädalapäev** – sisestage nädalapäev, millal makse tuleb teha; seda välja kasutatakse ainult siis, kui makseviisiks on määratud **Nädal**. Maksearvete summad summeeritakse maksmiseks määratud nädalapäeval.
 - **Vastaskonto tüüp** ja **Vastaskonto** – nende väljadega saate määratleda kindla kontotüübi (nt **Pearaamat** või **Pank**) ja vastaskonto (nt kindel pangakonto). See arve makseviis määratleb vastaskonto vaiketüübi ja vastaskonto, kuid saate nende väljade abil ka alistada vaikeväärtused.
 - **Maksekuupäeva kokkuvõte** – seda kasutatakse ainult siis, kui välja **Periood** väärtus makseviisis on **Kokku**. Kuupäev on määratletud, luuakse kõik maksed sellel kuupäeval. Välja **Varaseim maksekuupäev** ignoreeritakse.
 - **Lisafiltrid** – kiirkaardil **Kaasatavad kirjed** saate määratleda täiendavad kriteeriumivahemikud. Näiteks kui soovite maksta ainult teatud hankijatele, saate määratleda nende hankijate jaoks filtri. Seda funktsiooni kasutatakse sageli kindla maksemeetodi jaoks arvete valimiseks. Näiteks kui määratlete filtri, kus **Makseviis** = **Tšekk**, valitakse makseks ainult selle makseviisiga arved, eeldusel, et need vastavad ka teistele päringus määratud kriteeriumidele.

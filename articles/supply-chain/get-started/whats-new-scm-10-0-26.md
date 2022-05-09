@@ -1,5 +1,5 @@
 ---
-title: Dynamics 365 Supply Chain Management 10.0.26 (mai 2022) eelversioon
+title: Mis on uut või mida on muudetud rakenduses Dynamics 365 Supply Chain Management 10.0.26 (mai 2022)
 description: Selles teemas kirjeldatakse Microsoft Dynamics 365 Supply Chain Management 10.0.26 uusi või muutunud funktsioone.
 author: kamaybac
 ms.date: 03/01/2022
@@ -10,19 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: 996988b1a4d59ae9ad7b4031e492824c0a6abc95
-ms.sourcegitcommit: d475dea4cf13eae2f0ce517542c5173bb9d52c1c
+ms.openlocfilehash: 0724045824f39f316c8b3dbb06a48eb6ca6dbef3
+ms.sourcegitcommit: 1050e58e621d9a0454895ed07c286936f8c03320
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/05/2022
-ms.locfileid: "8547869"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "8625247"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10026-may-2022"></a>Dynamics 365 Supply Chain Management 10.0.26 (mai 2022) eelversioon
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10026-may-2022"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 Supply Chain Management 10.0.26 (mai 2022)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Selles teemas loetletakse funktsioonid, mis on Microsofti eelvaateversiooni Dynamics 365 Supply Chain Management 10.0.26 uued või muutunud. Selle versiooni number on 10.0.1192 ja see on saadaval järgmiselt:
+Selles teemas loendatakse Microsoft Dynamics 365 Supply Chain Managementi versiooni 10.0.26 uusi või muutunud funktsioone. Selle versiooni number on 10.0.1192 ja see on saadaval järgmiselt:
 
 - **Väljalaske eelversioon:** märts 2022
 - **Väljalaske üldine kättesaadavus (automaatne värskendamine):** aprill 2022
@@ -34,7 +33,7 @@ Järgmises tabelis on loetletud selles versioonis sisalduvad funktsioonid. Võim
 
 | Funktsiooniala | Funktsioon | Lisateave | Lubaja:   |
 |---|---|---|---|
-| Varud ja logistika | [Laovarude nähtavuse vaba kaubavaru päring täpsema laohalduse kaupade toetamiseks](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/inventory-visibility-support-advanced-warehouse-management) | [Lao nähtavuse tugi laotöölehe kaupade puhul](../inventory/inventory-visibility-whs-support.md) | Funktsioonihaldus:<br>*Laokauba lubamine varude nähtavuses* |
+| Varud ja logistika | [Laovarude nähtavuse vaba kaubavaru päring täpsema laohalduse kaupade toetamiseks](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/inventory-visibility-support-advanced-warehouse-management) | [Inventory Visibility WHS-i kaupade tugi](../inventory/inventory-visibility-whs-support.md) | Funktsioonihaldus:<br>*Laokauba lubamine varude nähtavuses* |
 | Varud ja logistika | [Saadaval-lubadus varude nähtavuse lisandmooduli jaoks](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/available-to-promise-inventory-visibility-add-in) | [Varude nähtavuse laoseisu muudatuste graafikud ja lubaduse andmiseks saadaval](../inventory/inventory-visibility-available-to-promise.md) | Lubatud teenuse konfiguratsiooni järgi |
 | Tootmine | [Tootmispinna täitmisliidese tegeliku kaalu kaubad](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/catch-weight-items-production-floor-execution-interface) | [Kuidas töötajad kasutavad tootmisosakonna käivitusliidest](../production-control/production-floor-execution-use.md) | Funktsioonihaldus:<br>*(Eelversioon) Aruanne tegeliku kaalu üksuste kohta tootmisosakonna täideviimisliidesest* |
 | Tootmine | Tootmisosakonna täideviimisliidese vahekaart Minu tööd <!-- KFM: Add link to release plan when available --> | [Kuidas töötajad kasutavad tootmisosakonna käivitusliidest](../production-control/production-floor-execution-use.md) | Funktsioonihaldus:<br>*Tootmisosakonna täideviimisliidese vahekaart Minu tööd* |

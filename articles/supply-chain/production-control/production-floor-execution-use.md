@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: a677eb71f97a953c625a1f667b055e5b7696fbe6
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: f163b8feb906470f31a648bf09abf5647c5f1bab
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384415"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644986"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Kuidas töötajad kasutavad tootmisosakonna käivitusliidest
 
@@ -74,9 +74,9 @@ Aktiivsete tööde loendis on järgmised veerud.
 
 ## <a name="my-jobs-tab"></a>Vahekaart Minu tööd
 
-Vahekaart **Minu** tööd lubab töötajatel hõlpsasti vaadata kõiki just neile määratud lugemata ja lõpetamata töid. See on kasulik ettevõtetele, kus tööd on mõnikord või alati määratud teatud töötajatele (inimressurssidele), mitte teist tüüpi ressurssidele (nt masinatele). 
+Vahekaart **Minu** tööd lubab töötajatel hõlpsasti vaadata kõiki just neile määratud lugemata ja lõpetamata töid. See on kasulik ettevõtetele, kus tööd on mõnikord või alati määratud teatud töötajatele (inimressurssidele), mitte teist tüüpi ressurssidele (nt masinatele).
 
-Planeerimissüsteem määrab iga tootmistöö automaatselt kindlale ressursikirjele ja igal ressursikirjel on tüüp (nt masin või inimene). Kui seadistate töötaja tootmistöötajana, saate seostada töötaja konto kordumatu inimressursside kirjega. 
+Planeerimissüsteem määrab iga tootmistöö automaatselt kindlale ressursikirjele ja igal ressursikirjel on tüüp (nt masin või inimene). Kui seadistate töötaja tootmistöötajana, saate seostada töötaja konto kordumatu inimressursside kirjega.
 
 Vahekaardil **Minu** tööd loetletakse kõik sisselogitud töötaja inimressursside kirjele määratud lugemata ja lõpetamata tööd, kui mõni töötaja on sisse logitud. See ei loetle kunagi töid, mis on määratud masinasse või muud tüüpi ressursile, isegi kui sisse logitud töötaja on alustanud tööd.
 
@@ -87,7 +87,7 @@ Kõikide sisse logitud töötaja alustatud tööde vaatamiseks, olenemata ressur
 ## <a name="my-machine-tab"></a>Vahekaart Minu masin
 
 Vahekaart **Minu masin** lubab töötajatel valida vara, mis on ühendatud masina ressursiga vahekaardil **Kõik tööd** seatud filtri sees. Siis saab töötaja vaadata valitud vara olekut ja seisundit, lugedes kuni nelja valitud loenduri ning viimaste hooldustaotluste ja registreeritud ületunnitöö väärtused. Töötaja saab nõuda ka valitud vara hooldust ning registreerida ja redigeerida masina töötunde. (Selle vahekaardi nimi on kohandatav ja võib süsteemi jaoks erineda.)
- 
+
 ![Vahekaart Minu masin.](media/pfei-my-machine-tab.png "Vahekaart Minu masin")
 
 Vahekaardil **Minu masin** on järgmised veerud. Numbrid vastavad eelmisel joonisel kujutatud numbritele.
@@ -202,9 +202,9 @@ Sooritada saab järgmisi toiminguid:
 - Kui töötaja valib **OK**, siis komplekteerimislehte ei kustutata. See sisestatakse, kui töö aruanne on aruandes praagist või **edenemise** **aruande dialoogiboksis**.
 - Kui töötaja valib dialoogiaknas **Aruande** edenemine **või** Praagi **aruanne** valiku Tühista, siis komplekteerimisleht kustutatakse.
 
-### <a name="adjust-material-from-the-toolbar-on-the-right"></a>Korrigeeri materjali paremalt tööriistaribalt
+### <a name="adjust-material-from-the-primary-or-secondary-toolbar"></a>Materjali korrigeerimine esmaselt või teiseselt tööriistaribalt
 
-Nuppu **Korrigeeri** materjali saab konfigureerida nii, et see ilmub tööriistaribal paremal. (Lisateavet vt teemast [Kujundage tootmispinna täitmisliides](production-floor-execution-tabs.md).) Töötaja saab valida **korrigeerida materjali** pooleli toodangu jaoks. Sel juhul kuvatakse dialoogiboks **Materjali korrigeerimine**, kus töötaja saab teha soovitud korrigeerimisi. Kui dialoogiboks on avatud, luuakse tootmistellimusele tootmise komplekteerimisleht, mis sisaldab korrigeeritud koguste ridu. Kui töötaja valib suvandi **Sisesta kohe**, kinnitatakse korrigeerimine ja komplekteerimisleht sisestatakse. Kui töötaja valib suvandi **Tühista**, kustutatakse komplekteerimisleht ja korrigeerimist ei tehakse.
+Materjali **korrigeerimise nuppu** saab konfigureerida nii, et see ilmub esmasel või teisese tööriistaribal. (Lisateavet vt teemast [Kujundage tootmispinna täitmisliides](production-floor-execution-tabs.md).) Töötaja saab valida **korrigeerida materjali** pooleli toodangu jaoks. Sel juhul kuvatakse dialoogiboks **Materjali korrigeerimine**, kus töötaja saab teha soovitud korrigeerimisi. Kui dialoogiboks on avatud, luuakse tootmistellimusele tootmise komplekteerimisleht, mis sisaldab korrigeeritud koguste ridu. Kui töötaja valib suvandi **Sisesta kohe**, kinnitatakse korrigeerimine ja komplekteerimisleht sisestatakse. Kui töötaja valib suvandi **Tühista**, kustutatakse komplekteerimisleht ja korrigeerimist ei tehakse.
 
 ### <a name="adjust-material-consumption-for-catch-weight-items"></a>Korrigeeri tegeliku kaaluga kaupade materjali tarbimist
 
@@ -260,6 +260,42 @@ Mõlemal juhul läheb Shannon pärast valiku kinnitamist kas sisselogimislehele 
 Töötajad saavad pause registreerida. Pause saab paindlikult määratleda, nagu on kirjeldatud teemas [Tasu registreerimiste põhjal](pay-based-on-registrations.md).
 
 Töötaja registreerib pausi, valides suvandi **Paus** ja valides seejärel kaardi, mis tähistab pausi tüüpi (nt lõunasöök). Kui töötaja kinnitab valiku, kuvab seade kas sisselogimislehe või lehe, mis ootab töötaja kinnitust, et ta on pausilt naasnud. Kuvatav leht sõltub tootmisosakonna käivitusliidese konfiguratsioonist. (Lisateavet leiate teemast [Tootmisosakonna käivitusliidese konfigureerimine](production-floor-execution-configure.md).)
+
+## <a name="view-the-my-day-dialog"></a>Dialoogi "Minu päev" kuvamine
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: preview until 10.0.27 GA -->
+
+Dialoogiaken **Minu** päev annab töötajatele ülevaate nende registreerimistest ja saldodest. Dialoog on jagatud kolme järgmise jaotise vahel:
+
+- Põhijaos loetletakse registreerimised, mis praegune töötaja valitud kuupäeval teeb. Avaneb praeguse päeva registreerimised ja kuvatakse kuupäeva valija, mis võimaldab töötajal teisi päevi vaadata.
+- Viimane **arvutatud päevasaldo jaotis** näitab töötaja jooksvaid saldosid tasustatud aja, tasustatud ületunnitöö, puudumise ja tasustatud puudumise kohta. Need väärtused põhinevad registreerimistel, mis on kal arvutatud kinnitusprotsessi käigus.
+- Jaotis **Saldod** annab ülevaate saldodest määratletud perioodi jooksul valitud registreerimiste kategooriate kohta (nt puhkus, standardaeg ja ületunnitöö). Need saldod põhinevad viisil, kuidas statistilised saldod seadistatakse Kellaaja **ja kohalviibimise moodulis**. Lisateavet selle kohta, kuidas seda seadistada, vt tootmispinna [täitmisliideses puhkusesaldode näitamist](production-floor-execution-payroll-stats.md).
+
+Administraatorid saavad selle funktsiooni liidesele lisada, **·**[asetades nupu Minu päev tööriistaribale iga vastava vahekaardi jaoks, nagu on kirjeldatud tootmispinna käivitamise liidese kujunduses.](production-floor-execution-tabs.md)
+
+## <a name="working-in-teams"></a>Töörühmades töötamine
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: preview until 10.0.27 GA -->
+
+Kui samale tootmistööle on määratud mitu töötajat, saavad nad moodustada meeskonna. Meeskond võib määrata ühe töötaja piloodiks. Ülejäänud töötajatest saavad seejärel automaatselt selle piloodi abilised. Tulemuseks saadud meeskonna puhul peab ainult piloot registreerima töö oleku. Ajakirjed kehtivad kõigi töörühma liikmete kohta.
+
+### <a name="prerequisites"></a>Eeltingimused
+
+Töörühmade kasutamiseks peab administraator lubama **tootmispinna** käivitamise **liidese vahekaardi Kõik** tööd esmase tööriistariba abilise tegevuse. Juhiseid vt tootmispinna [käivitamise liidese kujundusest](production-floor-execution-tabs.md).
+
+### <a name="form-a-new-team-that-has-a-pilot-and-an-assistant"></a>Loo uus meeskond, omab pilooti ja abi
+
+Töötaja saab registreeruda abilisena, valides abilise **vahekaardil** **Kõik tööd**. Seejärel saab **kuvatavas dialoogiaknas** Valige töötaja abistamiseks valida piloodi töötajate loendist, kes aktiivselt tööga töötavad. Pärast seda, kui töötaja on oma valiku kinnitanud, saavad nad valitud töötaja assistendiks, kellest saab uue meeskonna piloot.
+
+### <a name="assign-a-new-pilot-to-an-existing-team"></a>Olemasolevale töörühmale uue piloodi määramine
+
+Kui meeskond soovib valida uue piloodi, peab praegune piloot määrama meeskonnas uueks piloodiks teise töötaja. Uue piloodi idendimiseks valib praegune piloot vahekaardil **Kõik** **tööd assistendi**. Seejärel saab **piloot kuvatavas** dialoogiboksis Muuda pilooti valida uue piloodi juba meeskonnas olnud töötajate loendist. Kui praegune piloot on oma valiku kinnitanud, on nad meeskonnast täielikult loobutud. Kuid nad saavad meeskonda uuesti meeskonda astudes, nagu nad vajavad.
+
+### <a name="assistant-clocks-out"></a>Abiline väljaregistreerimine
+
+Kui töötaja, kes töötab assistendina välja, lahkub ta meeskonnast. Kui püsimeeskonnad ja Uuesti **sisseregistreerimise** **suvanditeks on seatud Jah, siis väljaregistreerinud töötaja taaskäivitub töörühma järgmisel sisseregistreerimisel automaatselt.** *·* Need suvandid leiate kellaaja **ja** kohalviibimise parameetrite **lehe vahekaardilt** Üldine.
 
 ## <a name="opening-instructions"></a>Juhiste avamine
 

@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3e9bc4fefb6aabc0b93d4d96f5930590ef99235b
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: MT
+ms.openlocfilehash: 38bf1f9f201e7f34e6a7ea76fbef399ba94caafa
+ms.sourcegitcommit: 367e323bfcfe41976e5d8aa5f5e24a279909d8ac
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567652"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8660375"
 ---
 # <a name="set-up-shipping-carriers"></a>Vedajate seadistamine
 
@@ -27,8 +27,8 @@ ms.locfileid: "7567652"
 
 See teema näitab, kuidas seadistada tarne vedaja ja määratleda üksikasjad, nt teenus, saadetise režiim, transpordi maksevahend, transpordi piirangud ja tarnekulu. Transpordi koordinaator saab seejärel määrata saadetise vedaja sissetulevale või väljaminevale koormale.
 
-
 ## <a name="create-a-new-shipping-carrier"></a>Uue kättetoimetaja loomine
+
 1. Valige **Navigeerimispaneel > Moodulid > Transpordi haldus > Seadistus > Vedajad > Kättetoimetajad**.
 2. Valige Toimingupaanil suvand **Uus**.
 3. Sisestage väärtus väljale **Kättetoimetaja**.
@@ -36,6 +36,7 @@ See teema näitab, kuidas seadistada tarne vedaja ja määratleda üksikasjad, n
 5. Valige väljal **Režiim** ripploendist suvand.
 
 ## <a name="fill-in-the-general-information-for-the-shipping-carrier"></a>Kättetoimetaja üldise teabe sisestamine
+
 1. Laiendage jaotist **Ülevaade**.
 2. Märkige või tühjendage ruut **Aktiveeri saadetise vedaja**.
 3. Valige väljal **Hankija konto** ripploendist suvand. Valige hankija konto, millele tarne vedaja määrata.  
@@ -43,13 +44,16 @@ See teema näitab, kuidas seadistada tarne vedaja ja määratleda üksikasjad, n
 5. Märkige või tühjendage ruut **Aktiveeri vedaja hinnang** .
 
 ## <a name="create-the-necessary-services-for-the-shipping-carrier"></a>Kättetoimetaja vajalike teenuste loomine
+
 1. Laiendage jaotist **Teenused**.
 2. Valige suvand **Uus**.
 3. Sisestage väärtus väljale **Vedaja teenus**.
 4. Sisestage väärtus väljale **Nimi**.
-5. Valige väljal **Transpordimeetod** ripploendist suvand.
+5. Väljal Koorma **malli ID** valige teenusega seostamiseks koormuse mall. Koormuse mall määratleb kogu koormuse kaalu ja mahu maksimaalsed mõõtmised. Näiteks võib koorma mall tähistada konteineri või veoauto suurust. Koormamalli ID-d on määratud ka [koormate](load-building-workbench.md) loomise mallides ja koormate loomise töölaual, mis aitab rakendada koormate loomiseks koormate loomise strateegiaid. Seetõttu saab süsteem vastendada iga uue koorma sobiva vedaja teenusega, võrreldes määratletud koormamalli ID-sid.
+6. Valige väljal **Transpordimeetod** ripploendist suvand.
 
 ## <a name="set-up-the-address-for-the-carrier-optional"></a>Vedaja aadressi seadistamine (valikuline)
+
 1. Lülitage ümber jaotis **Aadressid**.
 2. Valige suvand **Uus**.
 3. Sisestage väärtus väljale **Nimi või kirjeldus**.
@@ -59,6 +63,7 @@ See teema näitab, kuidas seadistada tarne vedaja ja määratleda üksikasjad, n
 7. Valige nupp **OK**.
 
 ## <a name="set-up-the-rating-profile-for-the-shipping-carrier"></a>Kättetoimetaja hinnanguprofiili seadistamine
+
 1. Laiendage jaotist **Hinnanguprofiilid**.
 2. Valige suvand **Uus**.
 3. Sisestage väärtus väljale **Hinnanguprofiil**.

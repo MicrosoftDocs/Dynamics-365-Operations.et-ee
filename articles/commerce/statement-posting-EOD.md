@@ -2,19 +2,19 @@
 title: Väljavõtte sisestamise funktsiooni täiustused
 description: Selles teemas kirjeldatakse väljavõtte sisestamise täiustusi.
 author: analpert
-ms.date: 01/31/2022
+ms.date: 04/27/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
 ms.search.region: Global
 ms.author: analpert
 ms.search.validFrom: 2018-04-30
-ms.openlocfilehash: d7c7c330695cbcd18a44db5b3f4e28411d8de4f3
-ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.openlocfilehash: be9aa68aec1fd7deff315234a6dbf41edc3d6819
+ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8462546"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8649015"
 ---
 # <a name="improvements-to-statement-posting-functionality"></a>Väljavõtte sisestamise funktsiooni täiustused
 
@@ -52,26 +52,7 @@ Väljavõtte sisestamise funktsiooni täiustuste osana on lehe **Commerce’i pa
 > [!NOTE]
 > Rakenduse Commerce version 10.0.14 **vabastamisel, kui jaemüügiväljavõtted –** kaupluste kanali funktsioon on lubatud, **ei** ole varude sisestamise pakett-töö enam rakendatav ja seda ei saa käitada.
 
-Lisaks on kiirkaardil **Pakktöötlus** vahekaardil **Sisestamine** lehel **Parameetrid** kasutusele võetud järgmised parameetrid. 
-
-- **Paralleelselt sisestatavate väljavõtete maksimumarv** – see väli määratleb mitme väljavõtte sisestamiseks kasutatavate pakett-ülesannete arvu. 
-- **Lõimede maksimumarv tellimuse töötlemisel väljavõtte kohta** – see väli näitab maksimaalset lõimede arvu, mida kasutatakse väljavõtte sisestamisel pakett-töös, et luua ja arveldada müügitellimusi ühe väljavõtte jaoks. Väljavõtete sisestamise protsessi kasutatav lõimede koguarv arvutatakse selle parameetri väärtuse alusel, mis korrutatakse parameetri **Paralleelselt sisestatavate väljavõtete maksimumarv** väärtusega. Selle parameetri väärtuse liiga kõrgeks määramine võib negatiivselt mõjutada väljavõtte sisestamise protsessi jõudlust.
-- **Kogumisse kaasatud kanderidade maksimumarv** – see väli määrab kanderidade arvu, mis kaasatakse ühte kandekogumisse enne uue loomist. Koondatud kanded luuakse erinevate koondamiskriteeriumide alusel, nagu näiteks klient, ärikuupäev või finantsdimensioonid. Oluline on märkida, et ühest kandest pärinevaid ridu ei tükeldata erinevate koondatud kannete vahel. See tähendab, et selliste tegurite nagu eristatavate toodete arvul põhinev ridade arv koondkandes on veidi suurem või väiksem.
-- **Maksimaalne lõimede arv poe kannete kinnitamiseks** – see väli määratleb nende lõimede arvu, mida kasutatakse kannete kontrollimiseks. Kannete kinnitamine on nõutud etapp, mis peab toimuma enne kannete sisestamist väljavõtetesse. Peate ka määratlema suvandi **Kingekaardi toode** kiirkaardil **Kinkekaart** vahekaardil **Sisestamine** lehel **Commerce’i, parameetrid**. See tuleb määrata isegi siis, kui organisatsioon ei kasuta kinkekaarte.
-
-Järgmises tabelis loetletakse eelnevate parameetrite soovitatavad väärtused. Neid väärtusi tuleb testida ja kohandada juurutuse konfiguratsioonile ja saadaolevale infrastruktuurile. Mis tahes soovitatud väärtuste tõus võib ebasoodsalt mõjutada teist pakktöötlust ja tuleks kinnitada.
-
-| Parameeter | Soovitatav väärtus | Üksikasjad |
-|-----------|-------------------|---------|
-| Paralleelselt sisestatavate väljavõtete maksimumarv | <p>Seadistage see parameeter pakett-tööde arvule, mis on saadaval pakett-tööde grupile, mis käitab **väljavõtte** tööd.</p><p>**Üldine reegel:** korrutage rakendusobjekti serveri (AOS) virtuaalserverite arv partiiülesannete arvuga, mis on saadaval AOS-i virtuaalserveri kohta.</p> | See parameeter ei ole rakendatav, kui jaemüügi väljavõtete **– kaupluste söötmise funktsioon** on lubatud. |
-| Tellimuse töötlemise lõimede maksimum väljavõtte kohta | Alustage katseväärtustele **4**. Tavaliselt ei tohi väärtus ületada **8**. | See parameeter määrab müügitellimuste loomiseks ja sisestamiseks kasutatavate lõimede arvu. See näitab väljavõtte kohta sisestamiseks saadaolevaid lõimede arvu. |
-| Kogumisse kaasatavate kanderidade maksimumarv | Alustage katseväärtustele **1000** juures. Sõltuvalt peakontori konfiguratsioonist võivad väiksemad tellimused olla jõudluse jaoks rohkem läbisaadvaid tellimusi. | See parameeter määratleb ridade arvu, mis kaasatakse väljavõtte sisestamisel igasse müügitellimusse. Kui see number on saavutatud, tükeldatakse read uude tellimusse. Kuigi müügiridade arv ei ole täpne, kuna tükeldamine toimub müügitellimuse tasemel, on see seadistatud arvule lähedal. Seda parameetrit kasutatakse nende jaemüügikannete müügitellimuste loomiseks, kus pole nimetatud klienti. |
-| Maksimaalne lõimede arv kaupluse kannete kinnitamiseks | Soovitatav on seada selle parameetri väärtuseks **4** ja suurendada seda üksnes juhul, kui te ei saavuta aktsepteeritavat jõudlust. Lõimede arv, mida see protsess kasutab, ei saa ületada pakktöötluse serverile saadaval protsessorite arvu. Kui määrate siin liiga palju lõime, võite mõjutada teist pakktöötlust. | See parameeter reguleerib kannete arvu, mida saab antud kaupluses samal ajal kinnitada. |
-
-> [!NOTE]
-> Kõik väljavõtte sisestamisega seotud ja poodide lehel ning lehel **Commerce’i parameetrid** määratud sätted ja parameetrid kehtivad väljavõtte sisestamise täiustatud funktsioonile.
-
-## <a name="processing"></a>Teostamine
+## <a name="processing"></a>Töötlemisel
 
 Väljavõtteid saab arvutada ja sisestada partiina, kasutades menüükäske **Väljavõtete arvutamine partiina** ja **Väljavõtete sisestamine partiina**. Väljavõtteid on võimalik ka arvutada ja sisestada, kasutades menüükäsku **Väljavõtted**, mida väljavõtte sisestamise täiustatud funktsioon pakub.
 

@@ -2,7 +2,7 @@
 title: Kliendikonto makseviisi konfigureerimine B2B e-kaubanduse saitide jaoks
 description: See teema kirjeldab, kuidas konfigureerida kliendikonto makseviisi moodulis Microsoft Dynamics 365 Commerce. See kirjeldab ka seda, kuidas krediidilimiidid mõjutavad ettemaksete hõivamist ettevõtete vahel (B2B) e-kaubanduse saitidel.
 author: josaw1
-ms.date: 02/16/2022
+ms.date: 04/19/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 0366f7b51ac138cc7305f98d5607c554440e6d34
-ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
-ms.translationtype: MT
+ms.openlocfilehash: a8fdeb109204557f0e44457e23a60224e662474f
+ms.sourcegitcommit: 96e2fb26efd2cd07bbf97518b5c115e17b77a0a8
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323351"
+ms.lasthandoff: 04/20/2022
+ms.locfileid: "8616828"
 ---
 # <a name="configure-the-customer-account-payment-method-for-b2b-e-commerce-sites"></a>Kliendikonto makseviisi konfigureerimine B2B e-kaubanduse saitide jaoks
 
@@ -80,28 +80,28 @@ Väärtused, mida krediidilimiidi **tüübi** **atribuut toetab, on Pole**, Sald
 > [!NOTE]
 > Soovitame teil seada krediidilimiidi **tüübi** atribuudiks **Saldo +** saateleht või tootekviitung, nii et avatud müügitellimused ei panustaks saldo arvutamisse. Sel juhul, kui teie kliendid teevad tulevasi tellimusi, ei pea nad sidjagama, et need tellimused mõjutaksid nende praegust saldot.
 
-Teine atribuut, mis mõjutab **järeltellimusi**, on kohustuslik krediidilimiidi atribuut, mis asub **kliendikirje** krediidi ja kollektsioonide kiirkaardil. Kui määrate **selle** atribuudi kindlatele klientidele väärtuseks Jah, saate sundida süsteemi kontrollima nende krediidilimiiti, isegi kui krediidilimiidi tüübi atribuudi väärtuseks on määratud Pole **,** **et** määrata, et krediidilimiiti ei tuleks ühegi kliendi puhul kontrollida.
+Teine atribuut, mis mõjutab **järeltellimusi**, on kohustuslik krediidilimiidi atribuut, mis asub **kliendikirje** krediidi ja kollektsioonide kiirkaardil. Kui määrate **selle** atribuudi kindlatele klientidele väärtuseks Jah, saate sundida süsteemi kontrollima nende krediidilimiiti, isegi kui krediidilimiidi tüübi atribuudi väärtuseks on määratud Pole **,** **et** määrata, et krediidilimiiti ei kontrollita iga kliendi puhul.
 
-Praegu on B2B-saitidel, kus **on lubatud kohustuslik krediidilimiidi** atribuut, lisafunktsioone. Kui atribuut on kliendi kirjel lubatud, siis takistab B2B-sait kliendi kirjel neid kasutamast ettemakse makseviisi, et maksta rohkem, kui järelejäänud kreeditsaldo. Näiteks kui kliendi järelejäänud kreeditsaldo on $1,000, kuid tellimuse väärtus $1,200, saab klient maksta $1,000 ainult ettemaksmeetodil. Nad peavad saldo maksmiseks kasutama mõnda muud makseviisi. Kui kohustuslik **krediidilimiidi atribuut** on kliendikirjel keelatud, saab klient maksta mis tahes summa, kasutades ettemakse makseviisi. Ent kuigi klient saab tellimusi esitada, ei luba süsteem neid tellimusi täita, kui nad ületavad krediidilimiiti. Kui krediidilimiiti tuleb kontrollida kõikide klientide puhul, kes on valmis ettemaksete tegemiseks, **·** **soovitame krediidilimiidi tüübi atribuudi seada väärtusele Saldo +** **saateleht või tootekviitung ja atribuut Kohustuslik** **krediidilimiit väärtusele Ei.**
+Seda ettemaksemeetodit kasutav klient ei saa praegu maksta tellimuse järelejäänud kreeditsaldost rohkem. Näiteks kui kliendi järelejäänud kreeditsaldo on $1,000 kuid tellimuse väärtus $1,200, saab klient arveid $1,000 ainult ettemaksmeetodil. Sel juhul peab klient saldo maksmiseks kasutama mõnda muud makseviisi. Tulevikus võimaldab ärikonfiguratsioon kasutajatel tellimuste paigutamisel kulutada peale oma krediidilimiidi.
 
 Krediidi **- ja sissenõuete moodulil** on uued krediidihalduse võimalused. Nende võimaluste sisse lülitamiseks lubage funktsioonihalduse **tööruumis** krediidihalduse **funktsioon**. Üks uutest võimalustest võimaldab müügitellimusi blokeerimisreeglite järgi ootele panna. Seejärel saab krediidihaldur persona tellimused vabastada või tagasi lükata pärast edasist analüüsi. Siiski ei kehti müügitellimuste ootele panemise võimalus Commerce Ordersi puhul, **kuna** müügitellimustel on sageli ettemakse ja krediidihalduse funktsioon ei toeta täielikult ettemaksestsenaariume. 
 
 Vaatamata sellele, kas **krediidihalduse** funktsioon on lubatud ja kui kliendi saldo läheb tellimuse täitmise ajal krediidilimiidist üle, ei jää müügitellimused ootele. Selle asemel loob Commerce kas hoiatusteate või tõrketeate, **·** **sõltuvalt teate väärtusest krediidilimiidi välja ületamisel krediidilimiitide** kiirkaardil.
 
-Atribuut **Välista krediidihaldusest**, mis takistab Äri müügitellimuste ootele jäämist, asub müügitellimuse päises (**Jaemüügi ja \> ärikliendid \> Kõik müügitellimused**). Kui äri müügitellimuste **puhul on** selle atribuudi väärtuseks seatud Jah (vaikeväärtus), jäetakse tellimused krediidihalduse ootel oleku töövoost välja. Võtke arvesse, et kuigi atribuudi nimi on **Välista krediidihaldusest**, kasutatakse tellimuse täitmise ajal siiski määratletud krediidilimiiti. Tellimused ei jää ootele.
+Atribuut **Välista krediidihaldusest**, mis takistab Äri müügitellimuste ootele jäämist, asub müügitellimuse päises (**Jaemüügi ja \> ärikliendid \> Kõik müügitellimused**). Kui äri müügitellimuste **puhul on** selle atribuudi väärtuseks seatud Jah (vaikeväärtus), jäetakse tellimused krediidihalduse ootel oleku töövoost välja. Kuigi atribuudi nimi on Välista **krediidihaldusest**, kasutatakse tellimuse täitmise ajal siiski määratletud krediidilimiiti. Tellimused ei jää ootele.
 
 Võimalus panna Commerce'i müügitellimused blokeerimisreeglite alusel ootele on plaanitud tulevasteks Commerce'i väljalaseteks. Kuni seda toetatakse, kui peate rakenduse Commerce müügitellimused läbima uued krediidihalduse vood, saate kohandada järgmisi XML-faile oma lahenduses Visual Studio. Muutke failides loogikat nii, et **CredManExcludeSalesOrderi** lipu väärtuseks oleks seatud **Ei**. Nii määratakse äri müügitellimuste **puhul atribuut** Välista **krediidihaldusest** väärtuseks Ei vaikimisi.
 
 - RetailCreateCustomerOrderExtensions_CredMan_Extension.xml
 - RetailCallCenterOrderExtensions_CredMan_Extension.xml
 
-Võtke arvesse, **et kui lipu CredManExcludeSalesOrder** **väärtuseks on seatud Ei** ja B2B klient saab kauplustest osta müügikoha rakenduse abil, võib sularaha ja kannete sisestamine nurjuda. Näiteks on olemas blokeerimisreegel sularahamakse tüübile ja B2B-klient ostis sularaha abil kauplusest kaupu. Sellisel juhul ei arveldata tulemuseks saadud müügitellimust edukalt, kuna see jääb ootele. Seetõttu sisestamine nurjub. Seetõttu soovitame pärast selle kohandamise juurutamist teha lõpp-lõpu testimist.
+**Kui lipu CredManExcludeSalesOrder** **väärtuseks on seatud Ei** ja B2B klient saab kauplustest osta müügikoha rakendust kasutades, võib sularaha ja kannete sisestamine nurjuda. Näiteks on sularahamakse tüübil blokeerimisreegel ja B2B klient ostis sularaha abil kauplusest kaupu. Sellisel juhul ei arveldata tulemuseks saadud müügitellimust edukalt, kuna see jääb ootele. Seetõttu sisestamine nurjub. Seetõttu soovitame pärast selle kohandamise juurutamist teha lõpp-lõpu testimist.
 
 ## <a name="additional-resources"></a>Lisaressursid
 
 [B2B e-kaubandussaidi häälestamine](set-up-b2b-site.md)
 
-[B2B-äripartnerite haldamine kliendi hierarhiaid kasutades](partners-customer-hierarchies.md)
+[B2B äripartnerite haldamine kliendihierarhiaid kasutades](partners-customer-hierarchies.md)
 
 [Äripartnerkasutajate haldamine B2B e-kaubandussaitidel](manage-b2b-users.md)
 

@@ -2,19 +2,19 @@
 title: Üldine tõrkeotsing
 description: Selles teemas antakse üldist tõrkeotsingu teavet topeltkirjutuse integreerimiseks finantside ja toimingute rakenduste ning rakenduste vahel Dataverse.
 author: RamaKrishnamoorthy
-ms.date: 04/07/2020
+ms.date: 04/18/2022
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 8b5951f9f40179ca0bf31f5cccf1f05a0f968213
-ms.sourcegitcommit: 1843235766b6f8cf950a13a310e9f4f2f53c59a4
-ms.translationtype: HT
+ms.openlocfilehash: 5896b031229c7fe7e02c8ccf038dd2b1a4f2de05
+ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/07/2022
-ms.locfileid: "8554595"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "8614091"
 ---
 # <a name="general-troubleshooting"></a>Üldine tõrkeotsing
 
@@ -131,6 +131,29 @@ Vormisuvandi **Teave** uuesti lubamiseks tehke järgmist.
 2. Leidke vormide sõlme alt vorm **Teave**.
 3. Valige vorm **Teave** ja klõpsake **Luba turberollid**.
 4. Seadke turbesäte väärtusele **Kuva kõigile**.
+
+## <a name="how-to-ensure-data-integration-is-using-the-most-current-finance-and-operations-schema"></a>Kuidas tagada andmete integratsioon kasutab kõige praegust finantside ja toimingute skeemi?
+
+Võite oma andmete integreerimisel esineda andmeprobleeme, kui ajalist skeemi ei kasutata. Järgmised sammud aitavad teil värskendada üksuste loendit Finantside ja toimingute rakendustes ja andmete integraatori üksustes.
+
+### <a name="refresh-entity-list-in-finance-and-operations-environment"></a>Üksuseloendi värskendamine finantside ja toimingute keskkonnas
+1.  Logige sisse oma finantside ja toimingute keskkonda.
+2.  Valige **andmehaldus**.
+3.  Valige andmete halduse sees raamistiku **parameetrid**.
+4.  Valige andmete **importimise/eksportimise raamistiku parameetrite lehel** vahekaart **Üksuse sätted ja** valige üksuseloendi **värskendamine**. Sõltuvalt kaasatud üksuste arvust võib värskendamiseks aega võtta üle 30 minuti.
+5.  Liikuge andmehaldusele **ja** valige **andmeüksused, et** kontrollida, kas eeldatud üksused on loendis. Kui eeldatud üksusi loendis ei ole, kontrollige, et üksused ilmuvad teie Finantsid ja Toimingud keskkonnas ning taastage puuduvad üksused vastavalt vajadusele.
+
+#### <a name="if-the-refresh-fails-to-resolve-the-issue-delete-and-re-add-the-entities"></a>Kui värskendus ei suuda probleemi lahendada, kustutage ja lisage üksused uuesti.
+
+> [!NOTE]
+> Teil võib tekkida vajadus peatada mis tahes töötlemisgrupid, mis kasutavad neid üksusi enne kustutamist aktiivselt.
+
+1.  Valige **andmehaldus** oma finants- ja toimingute keskkonnas ja valige **andmeüksused**.
+2.  Otsige üksuseid, kellel on probleeme, ja tehke märkus sihtüksusele, paigutamistabelile, üksuse nimele ja muudele sätetele. Kustutage üksus või üksused loendist.
+3.  Valige **uus** ja lisage üksus või üksused uuesti, kasutades andmeid sammust 2. 
+
+#### <a name="refresh-entities-in-data-integrator"></a>Värskenda üksuseid andmete integraatoris
+Logige halduskeskusesse Power Platform sisse ja valige andmete **integratsioon**. Avage projekt, kus probleemid esinevad, ja valige värskenda **üksused**.
 
 ## <a name="how-to-enable-and-save-network-trace-so-that-traces-can-be-attached-to-support-tickets"></a>Kuidas lubada ja salvestada võrgujälgi nii, et jälge saab siduda piletipiletite toega
 

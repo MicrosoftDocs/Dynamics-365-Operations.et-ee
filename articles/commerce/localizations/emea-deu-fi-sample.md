@@ -9,17 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2020-5-29
-ms.openlocfilehash: 65315a9fd6bc1af26bc225220e096aee4da09be2
-ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
+ms.openlocfilehash: 16079ba5ca830625c4f18df9fe6b5b307217183d
+ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "8388155"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "8614040"
 ---
 # <a name="fiscal-registration-service-integration-sample-for-germany"></a>Fiskaalüksuse registreerimisteenuse integratsiooni näide Saksamaa jaoks
 
 [!include[banner](../includes/banner.md)]
-[!include[banner](../includes/preview-banner.md)]
 
 Selles teemas antakse ülevaade Fiskaalintegratsiooni näidistest Saksamaa jaoks Microsoft Dynamics 365 Commerce.
 
@@ -156,7 +155,7 @@ Lehel Kõik **kauplused** värskendage kaupluse üksikasju. Konkreetselt määra
 - Seadke välja **Nimi** väärtuseks ettevõtte nimi. See muudatus aitab tagada, et ettevõtte nimi ilmub müügikviitungil. Teise võimalusena saate ettevõtte nime lisada müügikviitungi kavandile vabas vormis tekstina.
 - Seadistage **maksu ID-koodi (TIN)** väli ettevõtte ID-koodile. See muudatus aitab tagada, et ettevõtte ID-kood ilmub müügikviitungil. Teise võimalusena saate vabas vormis tekstina lisada müügikviitungi kavandile ettevõtte ID-koodi.
 
-### <a name="set-up-functionality-profiles"></a>Funktsiooniprofiilide seadistamine
+### <a name="set-up-functionality-profiles"></a>Funktsiooniprofiilide häälestus
 
 Kassa funktsiooniprofiilide seadistamine. Kiirkaardil **Kviitungi** nummerdamine seadistage kviitungite **nummerdamine**, luues või värskendades kirjeid kandetüüpide Müük, **Müügitellimus** ja Tagastatud **sissetulek** jaoks.
 
@@ -170,17 +169,17 @@ Lisage keele tekstilehe müügikoha **jaotisse** järgmised **müügikoha sildid
 
 | Keele ID | Teksti ID | Tekst                                  |
 |-------------|---------|---------------------------------------|
-| en-US       | 900001  | QR-kood                               |
-| en-US       | 900002  | Kande ID                        |
-| en-US       | 900003  | Maksu jaemüügi prindikood                 |
-| en-US       | 900004  | Maksusumma (müük)                    |
-| en-US       | 900005  | Maksu alus (müük)                     |
-| en-US       | 900006  | Kande alguskuupäeva kellaaeg           |
-| en-US       | 900007  | Kande lõppkuupäeva kellaaeg             |
-| en-US       | 900008  | Turbeelemendi seerianumber |
-| en-US       | 900009  | Allkirjaloendur                     |
-| en-US       | 900010  | Kontrolli väärtust                           |
-| en-US       | 900011  | Teabeteade                          |
+| et       | 900001  | QR-kood                               |
+| et       | 900002  | Kande ID                        |
+| et       | 900003  | Maksu jaemüügi prindikood                 |
+| et       | 900004  | Maksusumma (müük)                    |
+| et       | 900005  | Maksu alus (müük)                     |
+| et       | 900006  | Kande alguskuupäeva kellaaeg           |
+| et       | 900007  | Kande lõppkuupäeva kellaaeg             |
+| et       | 900008  | Turbeelemendi seerianumber |
+| et       | 900009  | Allkirjaloendur                     |
+| et       | 900010  | Kontrolli väärtust                           |
+| et       | 900011  | Teabeteade                          |
 
 **Lisage kviitungi** kavandite kohandatud väljade jaoks kohandatud väljadele järgmised kirjed lehel Kohandatud väljad. Pange tähele, **et pealdise teksti ID** väärtused peavad vastama teksti **ID** väärtustele, mille määrate keele **teksti** lehel.
 

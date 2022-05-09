@@ -2,7 +2,7 @@
 title: Dynamics 365 Commercei eemaldatud või aegunud funktsioonid
 description: See teema kirjeldab funktsioone, mis on eemaldatud või plaanitakse eemaldada Dynamics 365 Commerce'ist.
 author: josaw
-ms.date: 03/04/2022
+ms.date: 04/27/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 7b06f8ca65e4fac13f322f8d72b8ad4f9db8ccd7
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: 213ed2091b1f2359f2481b162cba07812b3ffe90
+ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384603"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8649071"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Dynamics 365 Commercei eemaldatud või aegunud funktsioonid
 
@@ -32,6 +32,20 @@ See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võ
 
 > [!NOTE]
 > Finantside ja toimingute rakenduste objektide üksikasjaliku teabe leiate tehnilistest [viitearuannetest](/dynamics/s-e/). Saate võrrelda nende aruannete erinevaid versioone, et saada teavet objektide kohta, mida on igas Finantsi ja operatsioonide rakenduste versioonis muudetud või eemaldatud.
+
+## <a name="features-removed-or-deprecated-in-the-commerce-10025-release"></a>Commerce'i väljalaskest 10.0.25 eemaldatud või aegunud funktsioonid
+
+### <a name="modern-point-of-sale-mpos"></a>Modernne kassa (MPOS)
+
+Modern Point of Sale'i (MPOS) rakendus on Commerce'i versioonis 10.0.25 aegunud ja asendatud Store Commerce'i rakendusega.
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Aegumise/eemaldamise põhjus** | Kaupluse rakendused on kaupluste pakkumise Dynamics 365 Commerce nurgakivi. Tänapäevaste ja nutikate kauplusekogemuste loomiseks ning lahenduse edasiseks kaasajasamiseks uuendame pidevalt uusi muudatusi, mis parandab oluliselt IT-operatsioone ja kasutajakogemusi Windowsi olemasolevate kaupluse rakendustega. Uus Store Commerce'i rakendus on olemasoleva MPOS-i tehnoloogiatäiendus. See pakub Windowsi platvormil suuremat jõudlust, usaldusväärsust ja pikaajalist tuge ja kõrvaldab vajaduse rakenduse iga värskendusega uuesti pakkida. |
+| **Asendatud teise funktsiooniga?**   |  [Store Commerce](../dev-itpro/store-commerce.md) |
+| **Mõjutatud tootealad**         | Tänapäevane müügipunkt |
+| **Juurutamissuvand**              | Kõik |
+| **Olek**                         | Taunitav: alates Äriversioonist 10.0.25 eemaldatakse LCS-i virtuaalmasina (VMs) kaudu saadetud MPOS-i installer Töölt 2023. |
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10021-release"></a>Commerce'i väljalaskest 10.0.21 eemaldatud või aegunud funktsioonid
 
@@ -59,7 +73,7 @@ Retail SDK saadetakse teenusega Lifecycle Services (LCS). See jaotusviis aegus v
 | **Asendatud teise funktsiooniga?**   |  [Laadige Retail SDK näidised ja viitepaketid alla teenusest GitHub ja NuGet](../dev-itpro/retail-sdk/sdk-github.md) |
 | **Mõjutatud tootealad**         | Retail SDK |
 | **Juurutamissuvand**              | Kõik |
-| **Olek**                         | Taunitav: alates väljalaskest 10.0.21 eemaldatakse LCS-i VMsi kaudu saadetud SDK aprillis 2023. |
+| **Olek**                         | Aegunud: alates väljalaskest 10.0.21 eemaldatakse LCS-i VM-i kaudu saadetav SDK (oktoobris 2023). |
 
 ### <a name="retail-deployable-package-and-combined-pos-hardware-station-and-cloud-scale-unit-installers"></a>Retaili juurutatav pakett ja koondkassa, riistvarajaam ning pilvskaalaüksuse installerid
 
@@ -92,7 +106,7 @@ Müügikoha laienduse arendus kasutades ModernPos.sln, CloudPos.sln, POS. Extens
 | **Asendatud teise funktsiooniga?**   | [Kassa sõltumatu pakendamise SDK](../dev-itpro/pos-extension/pos-extension-getting-started.md) |
 | **Mõjutatud tootealad**         | Rakenduse Dynamics 365 Commerce kassalaiend ja juurutamine |
 | **Juurutamissuvand**              | Kõik |
-| **Olek**                         | Taunitud: alates väljalaskest 10.0.21, toe kombineeritud kassapakettide ja laiendusmudeli jaoks, kasutades ModernPos.Sln-i, CloudPOs.sln-i ja kassat. Retail SDK extensons.csproj eemaldatakse aprillis 2023. |
+| **Olek**                         | Aegunud: alates väljalaskest 10.0.21, eemaldatakse tugi kassa koondpakettidelt ja laiendimudelilt, mis kasutavad rakenduses Retail SDK üksusi ModernPos.Sln, CloudPOs.sln ja POS.Extensons.csproj (oktoobris 2023). |
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10017-release"></a>Commerce'i väljalaskest 10.0.17 eemaldatud või aegunud funktsioonid
 

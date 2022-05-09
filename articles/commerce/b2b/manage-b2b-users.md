@@ -2,7 +2,7 @@
 title: Äripartnerist kasutajate haldamine B2B e-kaubanduse veebisaitidel
 description: See teema kirjeldab, kuidas lisada, kustutada ja redigeerida Microsoft Dynamics 365 Commerce äripartneri kasutajaid ettevõtete vahel (B2B) e-kaubanduse veebisaitidel ja Commerce Headquartersis.
 author: josaw1
-ms.date: 02/17/2022
+ms.date: 04/19/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: def8d4de082ceb4be77ed7e8898cbef82d52b749
-ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
-ms.translationtype: MT
+ms.openlocfilehash: c2fb4846a8457296a2ce758198ade5f4b0df8124
+ms.sourcegitcommit: 96e2fb26efd2cd07bbf97518b5c115e17b77a0a8
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323451"
+ms.lasthandoff: 04/20/2022
+ms.locfileid: "8616853"
 ---
 # <a name="manage-business-partner-users-on-b2b-e-commerce-websites"></a>Äripartnerist kasutajate haldamine B2B e-kaubanduse veebisaitidel
 
@@ -28,7 +28,8 @@ ms.locfileid: "8323451"
 See teema kirjeldab, kuidas lisada, kustutada ja redigeerida Microsoft Dynamics 365 Commerce äripartneri kasutajaid ettevõtete vahel (B2B) e-kaubanduse veebisaitidel ja Commerce Headquartersis.
 
 > [!NOTE]
-> Dokumendi [eeltingimuseks on B2B-äripartnerite](partners-customer-hierarchies.md) haldamine, kasutades kliendi hierarhiate teemat. 
+> - Dokumendi [eeltingimuseks on B2B-äripartnerite](partners-customer-hierarchies.md) haldamine, kasutades kliendi hierarhiate teemat.
+> - Veenduge, et lähtestate dokumenditüüpide üksuse Commerce Headquartersis, avades **dokumenditüüpide** vormi Organisatsioonihalduse **dokumendihalduse \> dokumenditüüpides \>**.
 
 B2B e-kaubanduse veebisaidid nõuavad, et organisatsioonide äripartneriks saamiseks registreeruksid. Pärast seda, kui organisatsioon esitab registreerimisandmed B2B e-äri veebisaidile, läbib registreerimistaotlus kvalifikatsiooniprotsessi. Kui organisatsioon on edukalt kvalifitseeritud, võetakse see äripartnerina vastu.
 
@@ -93,7 +94,7 @@ Kui kliendikirje on sünkroonitud, on B2B e-äri **veebisaidi kasutaja olekuks s
 Administraator saab vajadusel eemaldada äripartneri organisatsiooni olemasoleva kasutajad nende kasutajate loendist, kellel on juurdepääs B2B e-kaubanduse veebisaidile.
 Äripartneri kasutaja eemaldamiseks toimige järgmiselt.
 - Logige B2B e-kaubanduse veebisaidile administraatorina sisse.
-- Minge jaotisesse **Minu konto > Organisatsiooni kasutajad \> vaadake** üksikasju ja valige nupp **Eemalda** (sümbol X). Kui kuvatakse kinnitusteade, kinnitage, et soovite kasutaja eemaldada. Muudatus jõustub ainult pärast seda **, kui P-0001**, **·** **klientide ja kanali taotluste sünkroonimine ja 1010 (kliendid)** tööd on käitatud.
+- Minge vormile **Minu konto > Organisatsiooni kasutajad \> vaadake** üksikasju ja valige nupp **Eemalda** (sümbol X). Kui kuvatakse kinnitusteade, kinnitage, et soovite kasutaja eemaldada. Muudatus jõustub ainult pärast seda **, kui P-0001**, **·** **klientide ja kanali taotluste sünkroonimine ja 1010 (kliendid)** tööd on käitatud.
 
 > [!NOTE]
 > Kui eemaldate kasutaja B2B e-kaubanduse veebisaidile juurdepääsu omavate kasutajate hulgast, eemaldatakse vastav kasutajakirje äripartneri kliendi hierarhia kirjest. Kuid kliendikirjet ennast Commerce'i peakontorist ei kustutata.
@@ -129,7 +130,7 @@ Administraatorid saavad äripartnereid ja kasutajaid otse Commerce'i peakontoris
 
 [B2B e-kaubandussaidi häälestamine](set-up-b2b-site.md)
 
-[B2B-äripartnerite haldamine kliendi hierarhiaid kasutades](partners-customer-hierarchies.md)
+[B2B äripartnerite haldamine kliendihierarhiaid kasutades](partners-customer-hierarchies.md)
 
 [Kliendikonto makseviisi konfigureerimine B2B e-kaubanduse saitide jaoks](payment-method.md)
 

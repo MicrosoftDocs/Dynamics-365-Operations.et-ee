@@ -10,17 +10,16 @@ ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-4-1
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: cb9679bd02c5400fc015c6807407b01e9bf55343
-ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
+ms.openlocfilehash: 1c764de42f727bb72adbb8b015745599f428656e
+ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "8388232"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "8613905"
 ---
 # <a name="fiscal-registration-service-integration-sample-for-the-czech-republic"></a>Fiskaalregistreerimisteenuse integreerimise näidis Tšehhi Vabariigi jaoks
 
 [!include[banner](../includes/banner.md)]
-[!include[banner](../includes/preview-banner.md)]
 
 Selles teemas antakse ülevaade Tšehhi Vabariigi fiskaalintegratsiooni näidistest Microsoft Dynamics 365 Commerce.
 
@@ -104,7 +103,7 @@ Lehel Kõik **kauplused** värskendage kaupluse üksikasju. Konkreetselt seadke 
 - Seadke välja **Nimi** väärtuseks ettevõtte nimi. See muudatus aitab tagada, et ettevõtte nimi ilmub müügikviitungil. Teise võimalusena saate ettevõtte nime lisada müügikviitungi kavandile vabas vormis tekstina.
 - Seadistage **maksu ID-koodi (TIN)** väli ettevõtte ID-koodile. See muudatus aitab tagada, et ettevõtte ID-number ilmub müügikviitungil. Teise võimalusena saate vabas vormis tekstina lisada müügikviitungi kavandile ettevõtte ID-koodi.
 
-### <a name="set-up-functionality-profiles"></a>Funktsiooniprofiilide seadistamine
+### <a name="set-up-functionality-profiles"></a>Funktsiooniprofiilide häälestus
 
 Kassa funktsiooniprofiilide seadistamine.
 
@@ -130,12 +129,12 @@ Lisage tabelist keeleteksti müügikoha **jaotisse** **järgmised müügikoha** 
 
 | Keele ID | Teksti ID | Tekst                   |
 |-------------|---------|------------------------|
-| en-US       | 900001  | ID prov selle provania id/poklad id |
-| en-US       | 900002  | BKP                    |
-| en-US       | 900003  | PKP                    |
-| en-US       | 900004  | FIK                    |
-| en-US       | 900005  | Teave                   |
-| en-US       | 900006  | Järjekorranumber        |
+| et       | 900001  | ID prov selle provania id/poklad id |
+| et       | 900002  | BKP                    |
+| et       | 900003  | PKP                    |
+| et       | 900004  | FIK                    |
+| et       | 900005  | Teave                   |
+| et       | 900006  | Järjekorranumber        |
 
 **Lisage kviitungi** kavandite kohandatud väljade jaoks kohandatud väljadele järgmised kirjed lehel Kohandatud väljad. Pange tähele **, et pealdise teksti ID** väärtused peavad vastama **teksti ID** väärtustele, mille määrate keele **tekstilehel**:
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 5a0ead85eaeb6b96b80716614990af8c8e5e70f7
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: 083f5a30323cdc813116af7462563c3b8dd5e4f5
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384743"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644340"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Tootmisosakonna käivitusliidese konfigureerimine
 
@@ -111,17 +111,67 @@ Selle funktsiooni kasutamiseks lülitage funktsioonihalduses sisse järgmine [fu
 
 - *(Eelversioon) Aruanne tegeliku kaalu üksuste kohta tootmisosakonna täideviimisliidesest*
 
+### <a name="enable-the-my-day-dialog"></a>Dialoogi Minu päev lubamine
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: preview until 10.0.27 GA -->
+
+Dialoogiaken **Minu** päev annab töötajatele ülevaate nende igapäevastest registreerimistest ja jooksvatest saldodest tasustatud aja, tasustatud ületunnitöö, puudumiste ja tasustatud puudumiste kohta.
+
+Selle funktsiooni kasutamiseks lülitage funktsioonihalduses sisse järgmine [funktsioon](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+
+- *Tootmisosakonna täideviimisliidese vaade Minu päev*
+
+### <a name="enable-teams"></a>Töörühmade lubamine
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: preview until 10.0.27 GA -->
+
+Kui samale tootmistööle on määratud mitu töötajat, saavad nad moodustada meeskonna. Meeskond võib määrata ühe töötaja piloodiks. Ülejäänud töötajatest saavad seejärel automaatselt selle piloodi abilised. Tulemuseks saadud meeskonna puhul peab ainult piloot registreerima töö oleku. Ajakirjed kehtivad kõigi töörühma liikmete kohta.
+
+Selle funktsiooni kasutamiseks lülitage funktsioonihalduses sisse järgmine [funktsioon](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+
+- *Tootmistöörühmad tootmisosakonna täideviimisliideses*
+
+### <a name="enable-additional-configuration-in-the-production-floor-execution-interface"></a>Lubab lisakonfiguratsiooni tootmispinna käivitamise liideses
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: preview until 10.0.27 GA -->
+
+See funktsioon lisab tootmise juhtimise lehe konfigureerimisele järgmiste **funktsioonide** sätted:
+
+- Kui otsing on **lõpule viidud**, avaneb automaatselt dialoogiboks Alusta tööd.
+- Kui otsing on **lõpetatud**, avaneb automaatselt dialoogiboks Aruande edenemine.
+- Järelejäänud koguse eeltäitmine dialoogiboksi **Aruande edenemine**.
+- Lubage materjalitarbimise korrigeerimised dialoogiboksis **Edenemise** aruanne. (See funktsioon nõuab ka funktsiooni *Registreerige materjalitarbimine tootmispinna käivitamise liidese (non-WMS) funktsioonis* .)
+- Lubage otsingud projekti ID järgi.
+
+Teavet sätete kasutamise kohta antakse hiljem selles teemas.
+
+Selle funktsiooni kasutamiseks lülitage funktsioonihalduses sisse järgmine [funktsioon](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+
+- *Tootmisosakonna täideviimisliidese täiendav konfiguratsioon*
+
+
 ## <a name="work-with-production-floor-execution-configurations"></a>Tootmisosakonna käivituskonfiguratsioonidega töötamine
 
 Tootmispinna käivitamise konfiguratsioonide loomiseks ja säilitamiseks minge Tootmise juhtimise seadistuse **\>\>\> tootmise käivitamise konfigureerimiseks tootmispinna käivitamisele.** Lehel **Tootmisosakonna käivituste konfigureerimine** kuvatakse olemasolevate konfiguratsioonide loend. Sellel lehel saate teha järgmisi toiminguid.
 
 - Saate valida kuvamiseks ja redigeerimiseks mis tahes vasakus veerus loetletud tootmisosakonna konfiguratsiooni.
-- **Uue** konfiguratsiooni lisamiseks loendisse valige tegevuspaanil uus. Seejärel sisestage uue konfiguratsiooni tuvastamiseks nimi väljale **Konfiguratsioon**. Sisestatav nimi peab olema kõigi konfiguratsioonide seas kordumatu ja te ei saa seda hiljem redigeerida.
+- Tegevuspaanil valige **uus**, et lisada loendisse uus konfiguratsioon. Seejärel sisestage uue konfiguratsiooni tuvastamiseks nimi väljale **Konfiguratsioon**. Sisestatav nimi peab olema kõigi konfiguratsioonide seas kordumatu ja te ei saa seda hiljem redigeerida. **Väljale Kirjeldus** saate valikuliselt sisestada konfiguratsiooni kirjelduse.
 
-Seejärel konfigureerige valitud konfiguratsiooni erinevad sätted. Saadaval on järgmised väljad.
+Seejärel konfigureerige valitud konfiguratsiooni erinevad sätted, nagu kirjeldatud järgmistes alamjaotistes.
 
-- **Ainult sisse- ja väljaregistreerimine** – määrake selle suvandi väärtuseks *Jah*, et luua lihtsustatud liides, mis pakub ainult sisse- ja väljaregistreerimise funktsiooni. See keelab enamiku muid suvandeid sellel lehel. Enne selle suvandi lubamist peate eemaldama kõik read kiirkaardil **Vahekaardi valimine**.
-- **Luba otsing** - Seadke see suvand valikule *Jah* et kaasata tööde loendis otsinguväli. Töötajad saavad leida konkreetse töö, sisestades töö ID või otsides kõik konkreetse tellimuse tööd, sisestades tellimuse ID. Töötajad saavad sisestada ID võtmeklahvistikuga või vöötkoodi skannides.
+### <a name="the-general-fasttab"></a>Kiirkaart Üldine
+
+Järgmised sätted on saadaval kiirkaardil **Üldine**:
+
+- **Ainult sisse- ja väljaregistreerimine** – määrake selle suvandi väärtuseks *Jah*, et luua lihtsustatud liides, mis pakub ainult sisse- ja väljaregistreerimise funktsioone. See säte keelab enamiku teistest selle lehe valikutest. Enne selle suvandi lubamist peate eemaldama kõik read kiirkaardil **Vahekaardi valimine**.
+- **Otsingu lubamine** : määrake see suvand valikule *Jah*, et kaasata tööde loendis otsinguväli. Töötajad saavad leida konkreetse töö, sisestades töö ID või nad saavad leida kõik konkreetse tellimuse tööd, sisestades tellimuse ID. Töötajad saavad sisestada ID võtmeklahvistikuga või vöötkoodi skannides.
+- **Luba otsing projekti ID** järgi : *seadistage* see valik valikule Jah, et lubada töötajatel otsida projekti ID järgi (lisaks töö ID-le ja tellimuse ID-le) tootmisjuhtimise käivitamise liidese otsinguväljal. Saate selle suvandi seada väärtusele *Jah* ainult siis, kui suvandi **Luba** otsing väärtuseks on samuti seatud *Jah*.
+- **Automaatavamiseks avanev dialoogiaken** – kui see *valik* on seatud väärtusele Jah, avatakse automaatselt dialoogiaken Alusta tööd, **kui** töötajad kasutavad töö otsimiseks otsinguriba.
+- **Automaatavamiseks aruande edenemise dialoog** – kui see *valik on seatud väärtusele Jah*, avaneb automaatselt aruande edenemise dialoogiboks, **kui** töötajad kasutavad töö otsimiseks otsinguriba.
+- **Materjali korrigeerimise lubamine**: seadke see valik valikule *Jah,* et lubada nuppu **Materjali korrigeerimine** dialoogiaknas **Aruande** edenemine. Töötajad saavad selle nupu valida, et korrigeerida töö materjali tarbimist.
 - **Koguse teatamine väljaregistreerimisel** – määrake suvandi väärtuseks *Jah*, et paluda töötajatel anda käimasolevate tööde kohta väljaregistreerimisel tagasisidet. Kui suvandi väärtuseks on seatud *Ei*, siis töötajatel seda teha ei paluta.
 - **Lukusta töövõtja** – kui selle suvandi väärtuseks on seatud *Ei*, siis registreeritakse töötajad välja kohe pärast registreerimist (nt uus töö). Liides naaseb siis sisselogimislehele. Kui see valik on seatud valikule *Jah*, siis jäävad töötajad tootmispinna käivitamise liidesesse sisse. Kuid töötaja saab käsitsi välja logida, nii et teine töötaja saab sisse logida ajal, kui tootmispinna käivitamise liides töötab sama süsteemi kasutajakonto all. Lisateavet nende kontotüüpide kohta leiate jaotisest [Määratud kasutajad](config-job-card-device.md#assigned-users).
 - **Tegeliku registreerimisaja kasutamine** – seadke suvandi väärtuseks *Jah*, et iga uue registreeringu aeg oleks samaväärne täpse ajaga, mil töötaja registreeringu esitas. Kui selle suvandi väärtuseks on seatud *Ei*, kasutatakse selle asemel sisselogimisaega. Tavaliselt võiks selle väärtuseks olla *Jah*, kui olete seadnud suvandite **Lukusta töötaja** ja/või **Üksik töötaja** väärtuseks *Jah* juhul, töötajad jäävad sageli pikemaks ajaks sisselogituks.
@@ -130,7 +180,17 @@ Seejärel konfigureerige valitud konfiguratsiooni erinevad sätted. Saadaval on 
 - **Ekraaniluku kestus** – kui suvandi **Luba puuteekraani lukustamine** väärtuseks on seatud *Jah*, siis kasutage seda suvandit, et määratleda, mitu sekundit peaks puuteekraan puhastamiseks lukustatud olema. Kestus peab olema vahemikus 5–120 sekundit.
 - **Loo litsentsiplaat** : määrake see valik väärtusele *Jah*, et luua uus litsentsiplaat iga kord, kui töötaja kasutab tootmise juhtimise liidest lõpetatuna näitamiseks. Identifitseerimisnumber luuakse lehel **Laohalduse parameetrid** seadistatud numbriseeria alusel. Kui suvandi väärtuseks on seatud *Ei*, siis peavad töötajad määratlema lõpetamisest teatamisel olemasoleva litsentsiplaadi.
 - **Prindi silt**: määrake see valik valikule *Jah*, et printida litsentsiplaadi silt, kui töötaja kasutab tootmise juhtimise liidest lõpetatuna näitamiseks. Sildi konfiguratsioon on seadistatud dokumendi marsruudivalikus, nagu on kirjeldatud teemas [Identifitseerimisnumbri siltide dokumendi marsruudivaliku paigutus](../warehousing/document-routing-layout-for-license-plates.md).
-- **Vahekaartide valimine**  – Kasutage selles jaotises olevaid sätteid, et valida, millised vahekaardid tootmisosakonna käivitusliides kuvab, kui see konfiguratsioon on aktiivne. Saate kujundada nii palju vahekaarte kui vaja ja seejärel lisada ja korraldada neid siin vastavalt vajadusele. Üksikasjalikumat teavet selle kohta, kuidas kujundada vahekaarte ja siinseid sätteid kasutada, leiate teemast [Tootmisosakonna käivitusliidese kujundamine](production-floor-execution-tabs.md).
+
+### <a name="the-tab-selection-fasttab"></a>Vahekaardi valiku kiirkaart
+
+Kasutage vahekaardi valiku kiirkaardi **sätteid,** et valida, milliseid vahekaarte tootmise juhtimise liides peaks näitama, kui praegune konfiguratsioon on aktiivne. Saate kujundada nii palju vahekaarte kui vaja ning seejärel lisada ja järjestada neid vastavalt vajadusele, kasutades nuppe kiirkaardi tööriistaribal. Lisateavet vahekaartide kujundamise ja selle sätetega töö kohta vt [Tootmise juhtimise käivitamise liidese kujundamine](production-floor-execution-tabs.md).
+
+### <a name="the-report-progress-fasttab"></a>Aruande edenemise kiirkaart
+
+Järgmised sätted on saadaval kiirkaardil **Aruande edenemine**:
+
+- **Materjali korrigeerimise lubamine**: seadke see suvand valikule *Jah,* et kaasata **nupp Materjali korrigeerimine** **dialoogiaknas** Aruande edenemine. Töötajad saavad selle nupu valida, et korrigeerida töö materjali tarbimist.
+- **Järelejääv** vaikekogus: määrake see *suvand* suvandile Jah, et täita tootmistöö eeldatav järelejäänud kogus aruande **edenemise dialoogiaknas**.
 
 ## <a name="clean-up-job-configurations"></a>Töökonfiguratsioonide puhastamine
 

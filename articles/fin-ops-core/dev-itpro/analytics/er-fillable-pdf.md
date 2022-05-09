@@ -2,7 +2,7 @@
 title: ER-i konfiguratsioonide koostamine PDF-mallide täitmiseks
 description: Selles teemas antakse teavet selle kohta, kuidas kujundada elektroonilise aruandluse (ER) vormingut PDF-malli täitmiseks.
 author: NickSelin
-ms.date: 02/28/2022
+ms.date: 03/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: a568ddd93bfbc7d536e951a13470b3dedb796e1b
-ms.sourcegitcommit: 753714ac0dabc4b7ce91509757cd19f7be4a4793
+ms.openlocfilehash: 706256300cf0b64bc5b5e1e7adb77c1da500d16f
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8367852"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8645103"
 ---
 # <a name="design-er-configurations-to-fill-in-pdf-templates"></a>ER-i konfiguratsioonide koostamine PDF-mallide täitmiseks
 
 [!include[banner](../includes/banner.md)]
 
-Selle teemas esitatud protseduurid on näited, mis näitavad, kuidas kasutaja kas **Süsteemiadministraatori** või **Elektroonilise aruandluse arendaja** rollis saab konfigureerida elektroonilise aruandluse (ER) vormingu, mis loob aruandeid PDF-failidena, kasutades täidetavaid PDF-dokumente aruandemallidena. Neid etappe saab teha mis tahes ettevõte, mis kasutab Dynamics 365 Financei või Regulatory Configuration Services (RCS).
+Selle teemas esitatud protseduurid on näited, mis näitavad, kuidas kasutaja kas **Süsteemiadministraatori** või **Elektroonilise aruandluse arendaja** rollis saab konfigureerida elektroonilise aruandluse (ER) vormingu, mis loob aruandeid PDF-failidena, kasutades täidetavaid PDF-dokumente aruandemallidena. Neid samme saab teha mis tahes Dynamics 365 Finance või Regulatory Configuration Services (RCS) ettevõttes.
 
 ## <a name="prerequisites"></a>Eeltingimused
 
@@ -252,10 +252,14 @@ Kuna mõlemad atribuudid on vormingu elemendi **Väli** puhul kohustuslikud, rak
 - Kui atribuut **Nimi** on määratud ja avaldis **Nimi** on konfigureeritud, siis täidetakse PDF-i väli, millel on sama vormingu elemendi avaldise **Nime** tagastatud väärtus.
 
 > [!NOTE]
-> PDF-i märkeruutu saab täita valituna järgmisel viisil:
+> Kui PDF-malli märkeruut ei kuulu märkeruutede gruppi, on see esitatud redigeeritavas ER-vormingus **·** **PDF-faili elemendi alla pesastatud väljaelemendina**. Seda tüüpi PDF-märkeruutu saab valida järgmistel viisidel:
 >
-> - kui vastava vormingu elemendi **Väli** on seotud andmeallika välja **Kahendmuutuja** andmetüübiga, millel on väärtus **Tõene**;
-> - kui vastava vormingu elemendi **Väli** sisaldab pesastatud vormingu elemendi **Stringi** , mis on seotud andmeallika väljaga, millel on teksti väärtus **1**, **Tõene** või **Jah**.
+> - Vastav väljavormingu **element** on seotud andmeallika väljaga *[boole'i](er-formula-supported-data-types-primitive.md#boolean)* andmetüübis, mille väärtus on **Tõene**.
+> - Vastav välja **vorminguelement** sisaldab pesastatud **stringivormingu** elementi **, mis on seotud andmeallika väljaga, mille tekstiväärtus on 1**, Tõene **või** **Jah**.
+>
+> Teie mall võib sisaldada märkeruute, kus korraga saab valida ainult ühe märkeruudu. Need märkeruudud on esitatud PDF-mallis mitme ruudutüüpi *vormiväljana*. Igal väljal on sama nimi, kuid erinev ekspordiväärtus. Kui impordite malli redigeeritavasse ER-vormingusse, **tähistab** iga märkeruutu vormingu hierarhilises struktuuris märkeruudugrupi kaubaelement **, mis on pesastatud sama märkeruudugrupi elemendi** alla. Märkeruudugrupi **elemendi** nimi võrdub PDF-malli märkeruuduväljade nimega. Iga märkeruudugrupi **kaubaelemendi** nimi võrdub vastava märkeruudu välja ekspordiväärtusega PDF-mallis.
+>
+> Saate siduda märkeruudu **grupi kauba** elemendi ainult Kahendmuutuja *andmetüübi* andmeallika väljaga.
 
 ## <a name="run-the-format-configuration"></a>Vormingu konfiguratsiooni käitamine
 

@@ -2,7 +2,7 @@
 title: Eelarve juhtimise ülevaade
 description: Selles teemas tutvustatakse eelarvekontrolli funktsiooni ja antakse teavet, mis aitab teil eelarvekontrolli konfigureerida organisatsiooni finantsressursside haldamise optimeerimiseks.
 author: panolte
-ms.date: 11/08/2021
+ms.date: 03/28/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 14b852bb4aeca927adeeb2665b9887e467b71158
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: 7019b3546b83047e91fa129d8d92f209f131c993
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986052"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644843"
 ---
 # <a name="budget-control-overview"></a>Eelarve juhtimise ülevaade
 
@@ -31,7 +31,7 @@ ms.locfileid: "7986052"
 
 Selles teemas tutvustatakse eelarvekontrolli funktsiooni ja antakse teavet, mis aitab teil eelarvekontrolli konfigureerida organisatsiooni finantsressursside haldamise optimeerimiseks.
 
-Eelarve juhtimine toetab organisatsiooni rahaliste vahendite kaudu kontoplaani, töövoogude, kasutajagruppide, lähtedokumentide ja töölehtede, saadaolevate fondide konfigureeritava arvutuse, eelarvetsüklite ning lävede haldamist. Rakendatud juhtimisega saab organisatsioon plaanida, mõõta, hallata ja prognoosida oma rahalisi vahendeid kogu rahandusaasta jooksul. 
+Eelarve juhtimine toetab organisatsiooni finantsressursside haldamist kontoplaani, töövoogude, kasutajagruppide, lähtedokumentide ja töölehtede, saadaoleva raha konfigureeritava arvutamise, eelarvetsüklite ja lävede kaudu. Rakendatud juhtimisega saab organisatsioon plaanida, mõõta, hallata ja prognoosida oma rahalisi vahendeid kogu rahandusaasta jooksul. 
 
 Pärast eelarve heakskiitmist süsteemis saate kasutada eelarveplaane, et luua eelarve registrikandeid organisatsiooni kulude eelarve salvestamiseks. Teise võimalusena saate luua või importida eelarve registrikandeid kolmanda osapoole programmist, selle asemel, et kasutada eelarve planeerimise funktsiooni. 
 
@@ -78,9 +78,11 @@ Vahekaardil **Eelarve ületamise load** saate määrata kasutajagrupid. Samuti s
 Vahekaardil **Saadaolevad eelarvefondid** saate määratleda saadaolevate eelarvefondide arvutamiseks kasutatava valemi. Olenevalt sellest, kui konservatiivselt organisatsioon oma rahalisi vahendeid haldab või olenevalt eeskirjadest või valdkonna nõuetest võidakse arvutamisse kaasata mustand või sisestamata dokumendid. 
 
 > [!NOTE]
-> Kui kalkulatsiooni on eelarvetsükli jooksul muudetud, ei mõjuta muudatused ühtegi dokumenti, mis on eelnevalt läbinud eelarvekontrolli kontrollid ja need sisestati või lõpetati. Funktsioon, mille nimi on Ainult jälgige summasid saadaolevas eelarvefondide arvutuses, võimaldab teil muuta, milliseid andmeid **BudgetSourceTracking** tabelites jälgitakse. Kui see funktsioon on sisse lülitatud, talletatakse summad ainult siis, kui need on valitud kasutamiseks saadaoleva eelarvefondide arvutamisel. Lisateavet vt saadaolevad [eelarvefondid](budget-funds-available.md).
+> Kui kalkulatsiooni on eelarvetsükli jooksul muudetud, ei mõjuta muudatused ühtegi dokumenti, mis on eelnevalt läbinud eelarvekontrolli kontrollid ja need sisestati või lõpetati. Funktsioon, mille nimi on Ainult **jälgige** summasid saadaolevas eelarvefondide arvutuses, võimaldab teil muuta, milliseid andmeid BudgetSourceTracking tabelites jälgitakse. Kui see funktsioon on sisse lülitatud, talletatakse summad ainult siis, kui need on valitud kasutamiseks saadaoleva eelarvefondide arvutamisel. Lisateavet vt saadaolevad [eelarvefondid](budget-funds-available.md).
 
-Vahekaardil **Dokumendid ja töölehed** saate valida, millised lähtedokumendid ja töölehed eelarve juhtimise kontrollid läbivad ning kas kontrollitakse rea sisestamise või kogu dokumendi tasemel. 
+### <a name="documents-and-journals"></a>Dokumendid ja töölehed
+
+**Vahekaardil Dokumendid ja töölehed** saate valida, millised lähtedokumendid ja töölehed kuuluvad eelarve juhtimise kontrolli alla, ning kas tšekid toimuvad rea kirje või kogu dokumendi tasemel. Lisaks sisaldab uus eelarve juhtimise dokumendi filtreerimise täiustusfunktsioon, **·** Microsoft Dynamics mis on saadaval alates 365 Finantsversioonist 10.0.27, iga eelarve juhtimisse kaasatud dokumendi päringupõhise filtri valiku. Seetõttu saate määrata eelarve juhtimise dokumentide eelarvekontrolli. Sel viisil võimaldab see funktsioon eelarvet kontrollida vaid dokumenditüübi alamkogumit. Näiteks saate kontrollida ainult ostutellimusi, mille välja **Pool väärtuseks** on seatud **01**. Vahekaardile Dokumendid ja töölehed lisatud **uus veerg näitab**, kas valitud dokumenditüübi jaoks on päring määratletud. Lisaks sellele saate lisada kaks uut nuppe, mis on lisatud tööriistaribale dokumendi ruudustiku kohal, lisada, redigeerida või kustutada filtreerimist. 
 
 Peate valitud lähtedokumendid viima vastavusse saadaolevate eelarvevahendite arvutusse kaasatud saldode märkeruutudega. Näiteks kui valisite **Pandiõiguste eelarve reserveerimised**, peaksite valima suvandi **Ostutellimused**. Kui eelarvekontroll tehakse osturea summade ja kontode kohta, on reserveeringule määratud eelarve juhtimise kategooriaks **Pandiõigus**. Kui eelarvekontroll tehakse ostutaotluse summade ja kontode kohta, on reserveeringule määratud eelarve juhtimise kategooriaks **Eelpandiõigus**. 
 

@@ -1,6 +1,6 @@
 ---
 title: Elektrooniline arveldus Egiptuse kohta
-description: See teema annab teavet, mis aitab teil alustada Microsofti Egiptuse elektroonilise Dynamics 365 Finance arveldusega Dynamics 365 Supply Chain Management.
+description: See teema annab teavet, mis aitab teil alustada Egiptuse elektroonilise arveldusega Microsoft Dynamics 365 Finants ja Dynamics 365 Supply Chain Management.
 author: gionoder
 ms.date: 02/09/2022
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 6fe1dd4254db8b390c17558320a6eaff2b0dcd19
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: e21c4ce4d676c3194665672a078dc1e3d0492799
+ms.sourcegitcommit: 5f7177b9ab192b5a6554bfc2f285f7cf0b046264
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371352"
+ms.lasthandoff: 04/30/2022
+ms.locfileid: "8661718"
 ---
 # <a name="electronic-invoicing-for-egypt"></a>Elektrooniline arveldus Egiptuse kohta
 
@@ -38,11 +38,11 @@ Enne selles teemas protseduuride alustamist viige lõpule järgmised eeltingimus
 - Registreerige RCS-ile ja seadistage elektrooniline arveldus. Lisateavet vt järgmistest teemadest:
 
     - [Registreerige elektroonilise arve teenus ja installige see](e-invoicing-sign-up-install.md)
-    - [Häälestage Azure'i ressursid elektrooniliseks arveldamiseks](e-invoicing-set-up-azure-resources.md)
-    - [Installi Lifecycle Services-is lisandmodul mikroteenuste jaoks](e-invoicing-install-add-in-microservices-lcs.md)
+    - [Azure'i ressursside häälestamine elektroonilise arvelduse jaoks](e-invoicing-set-up-azure-resources.md)
+    - [Lifecycle Servicesi mikroteenuste lisandmooduli installimine](e-invoicing-install-add-in-microservices-lcs.md)
     
-- Aktiveerige integratsioon Microsofti või rakenduse Dynamics 365 Finance ja Dynamics 365 Supply Chain Management elektroonilise arveldamise teenuse vahel, nagu on kirjeldatud jaotises Aktiveeri [ja seadista elektroonilise arveldamise integreerimine](e-invoicing-activate-setup-integration.md).
-- Looge digitaalserdi saladus azure Key Vault-s ja seadistage see nii, nagu on kirjeldatud kliendi [sertides ja saladustes](e-invoicing-customer-certificates-secrets.md). Testimiseks annab Egiptuse maksuamet kindlad testi digitaalsed sertifikaadid, mida tuleb kasutada ainult testimise ja lahenduse valideerimise faasides. Lisateabe saamiseks minge Egiptuse maksuameti [veebisaidile, kasutades Linki, mis on esitatud Egiptuse e-arve SDK-s](https://sdk.sit.invoicing.eta.gov.eg/faq/).
+- Aktiveerige integratsioon oma Microsoft Dynamics 365 Finantsi Dynamics 365 Supply Chain Management või rakenduse ja Elektroonilise arveldamise teenuse [vahel, nagu kirjeldatud jaotises Aktiveeri ja seadista elektroonilise arveldamise integreerimine](e-invoicing-activate-setup-integration.md).
+- Looge digitaalserdi saladus azure Key Vault-s ja seadistage see nii, nagu on kirjeldatud kliendi [sertides ja saladustes](e-invoicing-customer-certificates-secrets.md). Testimiseks annab Egiptuse maksuamet kindlad testi digitaalsed sertifikaadid, mida tuleb kasutada ainult testimise ja lahenduse valideerimise faasides. Lisateabe saamiseks minge Egiptuse maksuameti [veebisaidile, kasutades Linki, mis on esitatud Egiptuse e-arve SDK-s](https://sdk.invoicing.eta.gov.eg/faq/).
 
 ## <a name="country-specific-configuration-for-the-egyptian-electronic-invoice-eg-feature"></a>Egiptuse elektroonilise arve (SOOVI) funktsiooni riigispetsiifiline konfiguratsioon
 
@@ -56,7 +56,7 @@ Mõned parameetreid Egiptuse elektroonilise arve **(KREEDITARVE)** elektroonilis
 6. Konveieri **töötlemise** vahekaardil jaotises Müügivõimaluste **töötlemine** valige Egiptuse **maksuameti jaoks suvand Allkirjasta jasoni dokument**.
 7. **Valige jaotises Parameetrid** väärtus **Serdi nimi** ja seejärel valige loodud digitaalsertifikaadi nimi.
 8. Jaotises Müügivõimaluste **töötlemine** valige integreerimine **Egiptuse ETA teenusega**. Korrake seda sammu toimingu kahe esinemiskorra puhul.
-9. Valige jaotises **Parameetrid veebiteenuse** **URL** ja sisselogimise **teenuse URL**. Seejärel vaadake üle URL-i parameetrid. Testimise ja tootmise URL-i loomiseks minge [Egiptuse maksuameti veebisaidile, kasutades linki, mis on esitatud Egiptuse e-arve SDK-s](https://sdk.sit.invoicing.eta.gov.eg/faq/).
+9. Valige jaotises **Parameetrid veebiteenuse** **URL** ja sisselogimise **teenuse URL**. Seejärel vaadake üle URL-i parameetrid. Testimise ja tootmise URL-i loomiseks minge [Egiptuse maksuameti veebisaidile, kasutades linki, mis on esitatud Egiptuse e-arve SDK-s](https://sdk.invoicing.eta.gov.eg/faq/).
 10. Valige **Salvesta** ja sulgege leht.
 11. Korrake projektiarve tuletatud funktsiooniseadistuse jaoks **samme 4 kuni** 10.
 

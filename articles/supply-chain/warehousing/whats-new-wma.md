@@ -2,7 +2,7 @@
 title: Mis on uut või muudetud Warehouse Management laohalduse mobiilirakenduses
 description: Selles teemas loetletakse Microsoft Dynamics 365 Supply Chain Management iga Warehouse Management mobiilirakenduse väljastatud versiooni uued ja muudetud funktsioonid.
 author: Mirzaab
-ms.date: 03/11/2022
+ms.date: 04/25/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,18 +10,33 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 2544c30afe18f290b681efed1705f7cef0cb7620
-ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
-ms.translationtype: MT
+ms.openlocfilehash: 679222005fe12009004921fa75a56145ae94c3ba
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "8487832"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644728"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Mis on uut või muudetud Warehouse Management laohalduse mobiilirakenduses
 
 [!include [banner](../includes/banner.md)]
 
 Selles teemas loetletakse Microsoft Dynamics 365 Supply Chain Management iga Warehouse Management mobiilirakenduse väljastatud versiooni uued funktsioonid, parandused, täiustused ja teadaolevad vead.
+
+## <a name="version-20210"></a>Versioon 2.0.21.0
+
+See versioon tutvustab järgmisi uusi funktsioone, parandusi ja täiustusi:
+
+- Fikseeritud mitmed kokkukukkumise probleemid.
+- Lahendati probleem, mille puhul teatud märke vaikelehel skannimisel või tippimisel ei tuvastatud.
+- Fikseeritud probleem, mille puhul vaikelehele backspace'i tippimine kustutaks korraga kaks märki.
+- Fikseeritud probleem, **mille puhul** kuvaks **tööloendi** lehe väli Sortimis alusel vale väärtuse, mis ei vastanud kaartide tegelikule sortimisjärjekorrale.
+- Fikseeritud probleem, kus vale paigutus kuvatakse pärast rakenduse akna suuruse muutmise töötades Microsoft Windows.
+- Fikseeritud probleem, mille puhul hüpikloendis kerimine võib põhjustada mõne loendiüksuse peidetud üksuste peitmise või soovitud soovitud saada.
+- Kujundas sisselogimislehe ümber, et kuvada suurematel kuvadel kasutajanime ja parooli väljad samal lehel.
+- Täiustatud viis, kuidas juhtelemendid reageerivad kiirtellimusele.
+- Lisas rakenduse tõrkelogi vaate.
+- Lisatud on mitmed juurdepääsu parendused (täiustatud kuupäevad, Android fikseeritud puuduvad kohatäited edasi, lubatud klaviatuuri sisestus slaider juhtelementide jaoks jne).
 
 ## <a name="version-20200"></a>Versioon 2.0.20.0
 

@@ -1,6 +1,6 @@
 ---
 title: Regulatiivsed värskendused
-description: Selles teemas on toodud loend rakenduse Microsoft Dynamics 365 Finance plaanitud ja väljastatud regulatiivsetest värskendustest.
+description: Selles teemas antakse plaanitud ja väljastatud regulatiivsete uuenduste loend Microsoft Dynamics 365 Finantside jaoks.
 author: VStamberg
 ms.date: 01/20/2022
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: vastrup
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 19aadf844f239ef06ca4d9dbe60b597228d72e52
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
-ms.translationtype: MT
+ms.openlocfilehash: 734a4abf4559d05b1f96bcfbde151b49bba8e827
+ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8470089"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8649125"
 ---
 # <a name="regulatory-updates"></a>Regulatiivsed värskendused
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas on toodud loend regulatiivsetest värskendustest, mis on plaanitud rakenduse Dynamics 365 Finance toetatud lokaliseeringute väljalaskesse. Väljaandmise tähtajad võivad muutuda ja kavandatud funktsioonid võivad olla erinevad või ei pruugita neid väljastada. Lisateavet leiate jaotisest [Microsofti poliitika](https://go.microsoft.com/fwlink/p/?linkid=2007332). 
+Selles teemas loetletakse regulatiivsed uuendused, mis on Dynamics 365 Finance'i toetatud lokaliseerimistes plaanitud ja väljastatud. Väljaandmise tähtajad võivad muutuda ja kavandatud funktsioonid võivad olla erinevad või ei pruugita neid väljastada. Lisateavet leiate jaotisest [Microsofti poliitika](https://go.microsoft.com/fwlink/p/?linkid=2007332). 
 
 Regulatiivsed värskendused on funktsioonid, mida juurutatakse, et toetada uusi või muudetud riigikohaseid õigusakte. Lisateavet plaanitud ja väljastatud riigispetsiifiliste funktsioonide kohta vt [Dynamics 365 ja väljalaskeplaanidest Power Platform](/business-applications-release-notes/index).
 
@@ -39,26 +39,26 @@ Uusimate plaanitud regulatiivsete värskenduste aegade jaoks vaadake järgmist t
 
 |Riik|Väljalaske kuupäev|Vabasta versioon|Regulatiivne värskendus|
 |--------------------|---------------|-------|-------| 
-|      Brasiilia         |   2021. detsember         | 10.0.24, 10.0.25         |    SPED-i fiskaalpaigutus 2022  |
-|      Brasiilia         |   2022. märts    | 10.0.24 hF, 10.0.25 hF         |    ICMS-DIMOODULI kogum operatsioonides, mis on suunatud mittemaksusaavatele maksumaksjatele (täiendav seadus nr. 190/22)  |
+|      Brasiilia         |   2021. detsember         | 10.0.25         |    SPED-i fiskaalpaigutus 2022  |
+|      Brasiilia         |   2022. märts    | 10.0.25hF, 10.0.26 hF, 10.0.27        |    ICMS-DIMOODULI kogum operatsioonides, mis on suunatud mittemaksusaavatele maksumaksjatele (täiendav seadus nr. 190/22)  |
+|      Brasiilia         |   2022. märts         | 10.0.26 hF         |    Sped fiscal – uued väljad kirjes C500 (34-40) sissetulevate finantsdokumentide jaoks  |
+|      Brasiilia         |   2022. märts         | 10.0.27         |    NF-e NT2021.004 v1.00 – paigutuse ja kinnitusreeglite uuendused  |
+|      Brasiilia         |   2022. märts         | 10.0.27         |    NF-e NT2021.004 v1.00 – paigutuse ja kinnitusreeglite uuendused – jaemüük  |
 |      Taani         |   2022. jaanuar  | 10.0.25 hF         |    KM-i deklaratsiooni eelvaade Excelis |
+|      Soome         |   2022. jaanuar  | 10.0.26         |    KM-i deklaratsioon TXT-is ja eelvaates Excelis |
 |      Prantsusmaa   |   November 2021 | 10.0.25         |    Prantsuse andmete arhiveerimise eksport (FEC) – "Puuduvate arvude põhjendus" lisa |
-|      Itaalia         |   November 2021         | 10.0.24         |    Elektrooniline arveldus piiriüleste kannete jaoks  |
-|      Itaalia         |   2022. veebruar | 10.0.24 hF, 10.0.25 hF| Kordumatu sertifikaat – 2022 Dynamics 365 Finance  |
-|      Leedu|   2022. veebruar | 10.0.24 hF, 10.0.25 hF | i.SAF-i 2022-01-01: Dynamics 365 Finance  |
-|      Mehhiko         |   2021. detsember      | 10.0.24      |   Carta de Porte täienduse versioon 2.0  |
-|      Norra        |   November 2021      | 10.0.24      |   KM-i deklaratsiooni vorming 2022 otseedastusega – Dynamics 365 Finance |
-|      Poola          |   2021. oktoober     | 10.0.24     |   JPK_V7M – uus skeemiversioon alates 2022. jaanuarist |
-|      Poola          |   November 2021     | 10,0,24 hF     |   Kaubanduskannete maksekuupäevade aastaaruanne |
-|      Poola          |   2021. oktoober     | 10.0.24     |   EL käibenimekirja elektrooniline vorming (VAT-UE) |
-|      Venemaa          |   2021. oktoober     | 10.0.24    |   Müügi-, osturaamatute ja faktuurarve töölehtede muutused|
-|      Venemaa          |   2021. oktoober     | 10,0,24 hF    |   KM-i deklaratsiooni ja lisade vormingute muutmine|
-|      Venemaa          |   November 2021     | 10.0.24    |   Föderaalarvestuse standardid 6/2020 (põhivarad)|
-|      Venemaa          |   2022. jaanuar     | 10.0.24 hF, 10.0.25    |   Luba elektroonilise aruandluse (ER) sihtkoht Venemaa raamatupidamisdokumentide talletamiseks (esmased dokumendid ja raamatupidamisaruanded)|
+|      Itaalia         |   2022. veebruar | 10.0.25 hF, 10.0.26| Kordumatu sertifikaat – 2022 Dynamics 365 finances  |
+|      Leedu|   2022. veebruar | 10.0.25hF, 10.0.26 hF, 10.0.27 | i.SAF-i 2022-01-01 Dynamics 365 Finantsid  |
+|      Malaisia|   2022. veebruar |10.0.26 hF | SST-02 maksutagas deklareerimist. Väljade muutused  |
+|      Mehhiko         |   2022. jaanuar      | 10.0.26      |   MX – CFDI versioon 4.0 (tühistamine)  |
+|      Mehhiko         |   2022. märts      | 10.0.25, 10.0.26, 10.0.26      |   CFDI-vormingute versioon 4.0 (arved ja maksed)  |
+|      Mehhiko         |   2022. veebruar      | 10.0.27      |   1. jaanuarist 2022 jõustub CFDI versioon 4.0, versiooni 3.3 ja 4.0 versiooni vahel kooseksisteerimise periood, mis algab 1. jaanuarist kuni 30. juunini 2022.  |
+|      Mehhiko         |   2022. märts      | 10.0.25, 10.0.26, 10.0.27      |   CFDI-vormingute versioon 4.0 (kinnipidamine)  |
+|      Poola          |   2022. aprill     | 10.0.25hF, 10.0.26 hF, 10.0.27hF     |   JPK_FA 4. aprillist alates 1. 2022JPK_V7M – uus skeemiversioon alates 2022. jaanuarist |
+|      Venemaa          |   2022. jaanuar     | 10.0.25    |   Luba elektroonilise aruandluse (ER) sihtkoht Venemaa raamatupidamisdokumentide talletamiseks (esmased dokumendid ja raamatupidamisaruanded)|
 |      Venemaa          |   2021. detsember     | 10.0.25    |   Põhivara (Venemaa) integreerimine varahalduse mooduliga|
-|      Venemaa          |   2022. veebruar     | 10.0.24 hF, 10.0.25    |  Transpordiarve uus vorming (valitsusele määratud N 2116 30.11.2021)|
-|      Saudi Araabia          |   November 2021     | 10.0.24    |   Jaemüügi – elektrooniline arveldamine Saudi Araabias – faas 1|
-|      Hispaania      |   2022. märts| 10.0.24 hF, 10.0.25 hF | Hispaania: KM-i deklaratsiooni mudel 303 muutub 1. jaanuarist 2022 Dynamics 365 Finance|
+|      Venemaa          |   Märts – aprill 2022     | 10.0.25, 10.0.26    |  Transpordiarve uus vorming (valitsusele määratud N 2116 30.11.2021)|
+|      Hispaania      |   2022. märts| 10.0.25hF, 10.0.26 hF, 10.0.27 | KM-deklaratsiooni mudel 303 muutub 1. jaanuaris 2022 Dynamics 365 Finances|
 
 
 

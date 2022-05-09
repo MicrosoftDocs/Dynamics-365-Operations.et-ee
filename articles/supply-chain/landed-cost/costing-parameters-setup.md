@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 1bcce7af0a15add63f1d9c3b32563de0ab6698bd
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: MT
+ms.openlocfilehash: 335bed49b05bf64547d7ded885f365a30487484f
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577644"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644634"
 ---
 # <a name="costing-parameter-values-setup"></a>Kuluarvutusparameetri väärtuste häälestus
 
@@ -123,9 +123,9 @@ Järgmises tabelis kirjeldatakse iga malli jaoks saadaolevaid sätteid.
 
 ## <a name="volumetric-divisors"></a>Mahupõhised jagajad
 
-Mahukaalu arvutamiseks kasutatakse mahulisi jagajaid. Iga saatmis-/kaubaveoettevõte koostab oma mahujagajad. Lisaks varieeruvad ettevõtte jagajad tavaliselt sõltuvalt tarneviisist. Näiteks õhu- ja meretranspordil on sageli väga erinevad jagajad. Ettevõte võib sõltuvalt saatmiskohast muuta oma reeglid ka keerulisemaks.
+Mahukaalu arvutamiseks kasutatakse mahulisi jagajaid. Iga saatmis-/kaubaveoettevõte koostab oma mahujagajad. Lisaks varieeruvad ettevõtte jagajad tavaliselt sõltuvalt tarneviisist. Näiteks õhu- ja meretranspordil on sageli väga erinevad jagajad. Ettevõte võib sõltuvalt saatmiskohast muuta oma reeglid ka keerulisemaks. Süsteem kasutab järgmist valemit mahulise kaalu leidmiseks: mahuline kaal = mahu ÷ MahulineDivisor.
 
-Näiteks õhu kaudu saadetava paki maht on 3 kuupmeetrit (m³). Ettevõte võtab tasu mahukaalu järgi ja rakendab mahulist jagajat 6. See jagaja korrutatakse mahukaalu määramiseks mahuga. Seetõttu on selle näite mahukaal 3 × 6 = 18 kilogrammi (kg).
+Näiteks õhu kaudu saadetava paki maht on 3 kuupmeetrit (m³). Ettevõte võtab tasu mahukaalu järgi ja rakendab mahulist jagajat 6. See jagaja jagatakse mahuga mahulise kaalu määratlemiseks. Seega on selle näite mahuline kaal 3 kg÷ 6 = 0,5 kilogramm (kg).
 
 Mahuliste jagajate häälestamiseks valige **Väljalaadimiskulu \> Kuluarvutuse häälestamine \> Mahulised jagajad**. Lehel **Mahulised jagajad** on ruudustik, kus on loetletud kõik olemasolevad mahulised jagajad. Toimingupaani nuppude abil saate ruudustiku ridu lisada, eemaldada ja redigeerida.
 
@@ -136,4 +136,7 @@ Järgmises tabelis kirjeldatakse ruudustiku igal real saadaolevaid välju.
 | Saatmisettevõte | Saate valida mahulise jagaja seostatud saatmisettevõtte hankija konto. |
 | Kulutüübi kood | Saate valida mahulise jagajaga seostatud kulutüübi koodi. Sellel väljal saate paigutada kulutüüpe aruandlusvahemikesse. Aruandeid saab printida kas aruandluskategooriate või kulutüüpide kaupa. |
 | Lähtesadam | Saate valida lähtesadama, millele mahuline jagaja rakendub. |
-| Mahupõhine jagaja | Saate sisestada reale rakendatava mahulise jagaja väärtuse. Sisestatud väärtus *korrutatakse* iga paketi mahuga, et määrata kindlaks selle paketi mahukaal. |
+| Mahupõhine jagaja | Saate sisestada reale rakendatava mahulise jagaja väärtuse. Iga paki maht jagatakse sellele väljale salvestatud väärtusega, et määrata pakendi mahuline kaal. |
+
+> [!NOTE]
+> Süsteem kasutab maksimaalset väärtust tegeliku kaalu **ja mahulise** **kaalu vahel**.

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-02-18
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 4eb8f6aee50d74127ecc816af691a96bb1d8966b
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: bb837a38485bad2b9b76a5e4f20d311c0281e192
+ms.sourcegitcommit: 1050e58e621d9a0454895ed07c286936f8c03320
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469138"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "8625422"
 ---
 # <a name="planning-with-negative-on-hand-quantities"></a>Negatiivsete vabade kogustega plaanimine
 
@@ -75,7 +75,7 @@ Tulemuseks on plaanitud tellimus 25 tk (= 25 tk &minus; 0 tk), et täita ladu 13
 
 ## <a name="planning-when-there-is-a-reservation-against-negative-on-hand-inventory"></a>Plaanimine negatiivse vaba kaubavaru reserveerimise korral
 
-Kui korrigeerite varusid füüsilise reserveerimise ajal, saate põhjustada olukorra, kus tellimus reserveeritakse füüsiliselt negatiivse kaubavaru suhtes. Sel juhul, kuna füüsiline reserveering on olemas, eeldab planeerimise optimeerimine, et seda toetab olemasolev laoseis, isegi kui varude vastuvõtmine pole veel süsteemis registreeritud. Seega eeldab see, et varude registreerimine pole nõutav ja ei loo plaanitud tellimust tellimuse koguse täiendamiseks.
+Kui korrigeerite varusid füüsilise reserveerimise ajal, saate põhjustada olukorra, kus tellimus reserveeritakse füüsiliselt negatiivse kaubavaru suhtes. Sellisel juhul peab teil reserveeritud koguse katteks olema tarne, kuna on olemas füüsiline reserveering. Varude täiendamist on seega vaja, seega loob süsteem kas plaanitud tellimuse koguse täiendamiseks, mida olemasolev vaba kaubavaru ei saanud katta, või katab selle kauba olemasoleva tellimusega.
 
 Seda illustreerib järgmine näidisstsenaarium.
 
@@ -88,7 +88,7 @@ Süsteem on konfigureeritud järgmiselt.
 - Müügitellimus on olemas kogusele *10* tk. toodet *FG*.
 - Müügitellimuse kogus reserveeritakse füüsiliselt olemasoleva vaba kaubavaru suhtes.
 
-Seejärel korrigeerite toote *FG* kogust nii, et vaba kaubavaru väärtus oleks 0 (null). Kuna vaba kaubavaru on null, reserveeritakse nüüd müügitellimuse kogus negatiivsete varude suhtes. Sel juhul, kuna füüsiline reserveering on olemas, eeldab planeerimise optimeerimine, et seda kasutada olemasoleva laoseis, isegi kui varude vastuvõtmine pole veel süsteemis registreeritud.
+Seejärel korrigeerite toote FG kogust *nii*, et vaba kaubavaru saab 5. Kuna vaba kaubavaru on 5, reserveeritakse müügitellimuse kogus nüüd kogusega, mis ei ole vaba (oleks sarnane, kui vaba kaubavaru oleks 0 ja sel juhul reserveeritakse müügitellimus negatiivse laovaru suhtes). Kui käivitate nüüd koondplaneerimise, luuakse müügitellimuse tarnimiseks plaanitud tellimus kogusega 5 *FG* jaoks, sest planeerimise optimeerimine kasutab alati olemasolevat tarnet või loob füüsilise reserveerimise tarnimiseks uue plaanitud tellimuse.
 
 ## <a name="related-resources"></a>Seotud ressursid
 

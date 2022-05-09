@@ -2,7 +2,7 @@
 title: Maksuintegratsiooni andmeväljade lisamine laiendite abil
 description: See teema kirjeldab X++ laiendite kasutamist maksuintegratsioonile andmeväljade lisamiseks.
 author: qire
-ms.date: 02/17/2022
+ms.date: 04/27/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: acbe8070424febf24883362448ea56857d9d72d9
-ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
-ms.translationtype: MT
+ms.openlocfilehash: 79b51812eac354072ebf2a0ef6fe8d39610c6385
+ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323574"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8649097"
 ---
 # <a name="add-data-fields-in-the-tax-integration-by-using-extension"></a>Maksuintegratsiooni andmeväljade lisamine laiendite abil
 
@@ -334,9 +334,10 @@ Laiendage meetodit `copyToTaxableDocumentHeaderWrapperFromTaxIntegrationDocument
 [ExtensionOf(classStr(TaxIntegrationCalculationActivityOnDocument_CalculationService))]
 final static class TaxIntegrationCalculationActivityOnDocument_CalculationService_Extension
 {
-    // Define key for the form in post request
+    // Define the field name in the request
     private const str IOCostCenter = 'Cost Center';
     private const str IOProject = 'Project';
+    // private const str IOEnumExample = 'Enum Example';
 
     /// <summary>
     /// Copies to <c>TaxableDocumentLineWrapper</c> from <c>TaxIntegrationLineObject</c> by line.
@@ -349,20 +350,24 @@ final static class TaxIntegrationCalculationActivityOnDocument_CalculationServic
         // Set the field we need to integrated for tax service
         _destination.SetField(IOCostCenter, _source.getCostCenter());
         _destination.SetField(IOProject, _source.getProjectId());
+
+        // If the field to be extended is an enum type, use enum2Symbol to convert an enum variable exampleEnum of ExampleEnumType to a string
+        // _destination.SetField(IOEnumExample, enum2Symbol(enumNum(ExampleEnumType), _source.getExampleEnum()));
     }
 }
 ```
 
-Selles koodis `_destination` on ümbrisobjekt, mida kasutatakse järeltaotluse loomiseks ja `_source` on objekt `TaxIntegrationLineObject`.
+Selles koodis `_destination` on ümbrisobjekt, mida kasutatakse taotluse loomiseks ja `_source` milleks on `TaxIntegrationLineObject` objekt.
 
 > [!NOTE]
-> Määratlege võti, mida kasutatakse taotluse vormil privaatse **konstnatuurina**. String peab olema täpselt sama, mis teemas " [Lisa maksukonfiguratsioonidele andmeväljad" lisatud mõõtude nimi](tax-service-add-data-fields-tax-configurations.md).
-> Seadke väli meetodis copyToTaxableDocumentLineWraümbrisFromTaxIntegrationLineObjectByLine **meetodiga** SetField **.** Teise parameetri andmetüüp peaks olema **string**. Kui andmetüüp ei ole **string**, teisendage see.
-> Kui X++ enum **tüüpi laiendatakse**, märkige erinevus selle väärtuse, sildi ja nime vahel.
+> Määratlege välja nimi, mida kasutatakse taotluses privaatse **konstnatuurina**. String peab olema täpselt sama mis maksukonfiguratsioonides andmeväljade lisamise teemas lisatud sõlme nimi ([mitte silt)](tax-service-add-data-fields-tax-configurations.md).
 > 
+> Seadke väli meetodis copyToTaxableDocumentLineWraümbrisFromTaxIntegrationLineObjectByLine **meetodiga** SetField **.** Teise parameetri andmetüüp peaks olema **string**. Kui andmetüüp ei ole **string**, teisendage see stringiks.
+> Kui andmetüüp on X++ **enum** tüüp, **soovitame kasutada meetodit enum2Symbol**, et teisendada andmetüübiks string. Maksukonfiguratsioonis lisatav enum väärtus peab olema täpselt sama mis enum nimel. Järgnev on loetelu väärtuse, sildi ja nime erinevuste loend.
+> 
+>   - Enum nimi on koodis sümboelne nimi. **enum2Symbol()** võib teisendada enum väärtus selle nimeks.
 >   - Enum väärtus on täisarv.
->   - Andmesildid võivad eri keeltes olla erinevad. Ärge kasutage enum2Str-i **enum** tüübi teisendamiseks stringiks.
->   - Enum nimi on soovitatav, kuna see on fikseeritud. **enum2Symbolit** saab kasutada enum nime teisendamiseks. Maksukonfiguratsioonis lisatud loeteluväärtus peab olema täpselt sama mis loetelu nimi.
+>   - Andmesildid võivad eri keeltes olla erinevad. **enum2Str()** saab teisendada enum enum väärtuse sildiks.
 
 ## <a name="model-dependency"></a>Mudeli sõltuvus
 
@@ -526,7 +531,7 @@ final class TaxIntegrationPurchTableDataRetrieval_Extension
 [ExtensionOf(classStr(TaxIntegrationCalculationActivityOnDocument_CalculationService))]
 final static class TaxIntegrationCalculationActivityOnDocument_CalculationService_Extension
 {
-    // Define key for the form in post request
+    // Define the field name in the request
     private const str IOCostCenter = 'Cost Center';
     private const str IOProject = 'Project';
 

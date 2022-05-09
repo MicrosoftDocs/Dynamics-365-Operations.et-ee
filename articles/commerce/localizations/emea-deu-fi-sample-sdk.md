@@ -9,17 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: c578420783a8d19fe4a1522486e0b0146a390722
-ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
+ms.openlocfilehash: c49e6cedcce1d336486e9fbcc0620bcdf455cc9d
+ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "8388180"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "8614120"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-registration-service-integration-sample-for-germany-legacy"></a>Fiskaalregistreerimisteenuse integreerimise näidisjuhised Saksamaa jaoks (pärand)
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 See teema annab juhised Microsoft Dynamics 365 Commerce Fiskaalregistreerimise teenuse integreerimise näidiste juurutamiseks Saksamaa jaoks jaemüügi tarkvara arenduskomplektist (SDK) arendaja virtuaalmasinas (VM) Microsoft Dynamics elutsükli teenustes (LCS). Lisateavet fiskaalintegratsiooni näidiste kohta vt Saksamaa [fiskaalteenuste integreerimise näidist](emea-deu-fi-sample.md). 
 
@@ -128,7 +127,7 @@ Pärand-SDK-s kassa laienduse näidiste kasutamiseks järgige neid samme.
 1. Nimetage kausta **Pos.Extension koopia** **PosFiscalConnectori ümber**.
 1. Eemaldage kaustast **PosFiscalConnector** järgmised kaustad ja failid:
 
-    - Bin
+    - koht
     - DataService
     - devDependencies
     - Teegid

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 65891e380f740f4a1fa404d57789a6f50506d3b5
-ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
+ms.openlocfilehash: 7ce30b64bc7c3889347bec94186614bd6cc337f4
+ms.sourcegitcommit: 1050e58e621d9a0454895ed07c286936f8c03320
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8565624"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "8625415"
 ---
 # <a name="provision-human-resources"></a>Human Resourcesi ettevalmistus
 
@@ -41,7 +41,7 @@ Enne uue tootmiskeskkonna ettevalmistamise alustamist peavad olema täidetud jä
 ## <a name="provision-a-human-resources-trial-environment"></a>Human Resources proovikeskkonna ettevalmistamine
 
 >[!NOTE]
-> Alates 2022. aasta aprillist pole Inimressursside proovikeskkonnad saadaval eraldi rakenduses. Potentsiaalsed kliendid, kes on huvitatud inimressursside võimaluste hindamisest Finantside ja toimingute rakendustes, saavad seda teha, kasutades tasuta 30-päevast prooviversiooni koos demoandmetega. Dynamics 365 Finance hõlmab inimressursside võimalusi, mis on toodud finantside infrastruktuuri autonoomse rakenduse ühendamise kaudu. Lisateavet vt [jaotisest](https://cloudblogs.microsoft.com/dynamics365/it/2021/09/15/merging-of-hr-offerings-brings-capabilities-together-for-customers) Inimressursside pakkumiste ühendamine toob klientide võimalused kokku. Lisateavet Dynamics 365 Finantside katsete kohta leiate samm-sammulisest [juhendist](/fin-ops/get-started/before-you-buy). 
+> Alates 2022. aasta aprillist pole Inimressursside proovikeskkonnad saadaval eraldi rakenduses. Potentsiaalsed kliendid, kes on huvitatud inimressursside võimaluste hindamisest Finantside ja toimingute rakendustes, saavad seda teha, kasutades tasuta 30-päevast prooviversiooni koos demoandmetega. Dynamics 365 Finance hõlmab inimressursside võimalusi, mis on toodud finantside infrastruktuuri autonoomse rakenduse ühendamise kaudu. Lisateavet vt [jaotisest](https://cloudblogs.microsoft.com/dynamics365/it/2021/09/15/merging-of-hr-offerings-brings-capabilities-together-for-customers) Inimressursside pakkumiste ühendamine toob klientide võimalused kokku. Lisateavet Dynamics 365 Finantside katsete kohta leiate samm-sammulisest [juhendist](../fin-ops-core/fin-ops/get-started/before-you-buy.md). 
 
 
 Enne oma esimese kausta või tootmiskeskkonna ressursi ressursiks saatmist võite soovida Human Resources funktsionaalsuse kinnitamiseks ette võtta [Human Resources proovikeskkonna](https://go.microsoft.com/fwlink/p/?LinkId=2115962). Proovikeskkonnad sisaldavad fiktiivseid andmeid, mis võimaldavad programmiga turvaliselt tutvuda. Kuigi proovikeskkonna omanikuks on kasutaja, kes seda taotles, saab sinna kutsuda teisi kasutajaid läbi rakenduse Human Resources süsteemiadministratsiooni kogemuse. 

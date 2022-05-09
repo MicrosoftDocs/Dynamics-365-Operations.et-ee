@@ -2,7 +2,7 @@
 title: ER-vormingu parameetrite seadistamine juriidilise isiku kohta
 description: Selles teemas selgitatakse, kuidas seadistada elektroonilise aruandluse (ER) vormingu parameetreid juriidilise isiku kohta.
 author: NickSelin
-ms.date: 10/22/2021
+ms.date: 03/25/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: cb600c55cb2d40129d1b29ab989bc8f7cf3f4686
-ms.sourcegitcommit: a5861c2fef4071e130208ad20e26cb3a42a45cf1
+ms.openlocfilehash: f72ce72e9cbd268efc6ab09dbec7009794d69613
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7927450"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644495"
 ---
 # <a name="set-up-the-parameters-of-an-er-format-per-legal-entity"></a>ER-vormingu parameetrite seadistamine juriidilise isiku kohta
 
@@ -30,7 +30,7 @@ ms.locfileid: "7927450"
 
 Nende etappide lõpetamiseks peate kõigepealt läbima etapid teemas [ER-vormingute konfigureerimine juriidilise isiku kohta määratud parameetrite kasutamiseks](er-app-specific-parameters-configure-format.md).
 
-Selles teemas toodud näidete läbimiseks peab teil olema juurdepääs rakendusele Microsoft Dynamics 365 Finance ühega järgmistest rollidest:
+Selle teema näidete lõpuleviimiseks peab teil olema juurdepääs Microsoft Dynamics 365 Finantside kohta ühe järgmise rolli puhul:
 
 - Elektroonilise aruandluse arendaja
 - Elektroonilise aruandluse funktsionaalne konsultant
@@ -226,7 +226,7 @@ Kui konfigureerite rakendusepõhised parameetrid ER-vormingu ühe versiooni jaok
 Pidage ka meeles, et kui valite importimiseks faili, võrreldakse selle faili rakendusekohaseid parameetreid importimiseks valitud ER-vormingu tüübi **Otsing** vastava andmeallika struktuuriga. Vaikimisi viiakse importimine lõpule ainult siis, kui iga rakendusepõhise parameetri struktuur ühtib impordiks valitud ER-vormingus vastava andmeallika struktuuriga. Kui struktuurid ei kattu, kuvatakse hoiatusteade, et importimist ei toimu. Kui sunnite importimise, tühistatakse valitud ER-vormingu olemasolevad rakendusekohased parameetrid ja peate need uuesti algusest peale seadistama.
 
 
-Alustades Dynamics 365 Finance versioonis 10.0.24 saate muuta vaikekäitumist ja vältida hoiatusteate saamist, lubades  **joondamise ER-rakenduse funktsiooni importimise** parameetrid spetsiifilise **funktsioonihalduse** tööruumis. Kui see funktsioon on lubatud ja imporditavate rakendusepõhiste parameetrite struktuur erineb importimiseks valitud siht-ER-vormingus vastavate andmeallikate struktuurist, õnnestub importimine järgmistel juhtudel.
+Finantsversiooni 10.0.24 puhul saate muuta vaikekäitumist ja vältida hoiatusteate saamist, **lubades funktsioonihalduse tööruumis** **funktsiooni** importimisel ER-rakendusepõhised parameetrid. Kui see funktsioon on lubatud ja imporditavate rakendusepõhiste parameetrite struktuur erineb importimiseks valitud siht-ER-vormingus vastavate andmeallikate struktuurist, õnnestub importimine järgmistel juhtudel.
 
 - Sihtkoha ER-vormingu struktuuri on muudetud, lisades uusi tingimuse veerge mis tahes olemasolevatele **otsingu** tüübi andmeallikatele. Kui import on lõpetatud, uuendatakse rakendusepõhised parameetrid. Kõikides rakendusspetsiifiliste parameetrite imporditud kirjetes lähtestatakse iga lisatud tingimuse veeru väärtused selle veeru vaikeväärtusega [andmetüübi jaoks](er-formula-supported-data-types-primitive.md).
 - Sihtkoha ER-vormingu struktuuri on muudetud, eemaldades mõned veerud olemasolevatelt **otsingu** tüübi andmeallikatelt. Kui import on lõpetatud, uuendatakse rakendusepõhised parameetrid. Rakendusespetsiifiliste parameetrite imporditud kirjetes kustutatakse iga eemaldatud tingimuse veeru väärtused.
@@ -235,9 +235,33 @@ Alustades Dynamics 365 Finance versioonis 10.0.24 saate muuta vaikekäitumist ja
 
 Kui import on lõpule viidud, muudetakse lisaks äsja kirjeldatud muudatustele imporditud rakendusspetsiifiliste parameetrite olekuks **Pooleli**. Hoiatusteade teavitab teid, et automaatselt korrigeeritud rakenduseomased parameetrid tuleb käsitsi redigeerida.
 
+#### <a name="replicate-parameters"></a>Kopeeri parameetrid
+
+Finantsversiooni 10.0.27 järgi saate kopeerida ühes ettevõttes konfigureeritud parameetrid samaaegselt teistele ettevõtetele.
+
+Parameetrite kopeerimiseks viige lõpule järgmised sammud.
+
+1. Avage **Organisatsiooni haldamine** \> **Tööruumid** \> **Elektrooniline aruandlus**.
+2. Valige **Aruandluse konfiguratsioonid**.
+3. Valige konfiguratsioonipuust vorming **Vorming LE-andmete otsingu õppimiseks**.
+4. Tehke tegumiriba vahekaardil **Konfiguratsioonid** grupis **Rakendusekohased parameetrid** valik **Seadistus**.
+5. Valige ER-vormingu versioon **1.1.1**.
+6. Tegevuspaanil valige **käsk Kopeeri**.
+7. **Valige dialoogiboksi Andmed** vahekaardil Ettevõtted **ettevõtted**, millele soovite parameetreid kopeerida.
+
+    > [!NOTE]
+    > Sihtettevõtete loendit pakutakse ainult kasutajatele, kellele [on](../sysadmin/role-based-security.md#security-roles) määratud turvaroll, mis on konfigureeritud andma juurdepääsu kõikidele organisatsioonidele.
+
+8. Valige nupp **OK**.
+
+    > [!NOTE]
+    > Kinnitusdialoog teavitab teid, kas mõned sihtettevõtted sisaldavad varem konfigureeritud parameetreid ER-vormingu valitud versiooni jaoks. Parameetrite **alistamiseks** kopeerides need praegusest ettevõttest valige Jah.
+
+    Rakendusespetsiifiliste parameetrite konfigureeritud kogum kopeeritakse nüüd valitud ettevõtetesse.
+
 ### <a name="reuse-existing-parameters"></a>Olemasolevate parameetrite taaskasutamine
 
-Alates Dynamics 365 Finance versioonist 10.0.23 saate sama vorminguga kõrgema versiooni käivitamisel kasutada uuesti rakenduseomaseid parameetreid, mis on konfigureeritud ER-vormingu ühe versiooni jaoks. Selleks lubage **ER-vormingute eelmiste versioonide rakendusespetsiifiliste parameetrite** kasutamine **funktsioonihalduse** tööruumis. Kui see funktsioon on lubatud ja käivitate ühe versiooni ER-vormingust, mis proovib lugeda rakendusomaseid parameetreid, proovib ER leida rakendusespetsiifilisi parameetreid, mis on konfigureeritud selle vormingu jooksva versiooni jaoks. Või kui need pole saadaval, selle vormingu lähima madalama versiooni jaoks.
+Finantsversiooni 10.0.23 puhul saate sama vorminguga kõrgema versiooni käivitamisel taaskasutada rakendusespetsiifilisi parameetreid, mis on konfigureeritud ER-vormingu ühe versiooni jaoks. Olemasolevate parameetrite taaskasutusse lubamiseks lubage funktsioonihalduse **tööruumis funktsioonihalduse funktsiooni eelmistes versioonides kasutada ER-vormingute** eelmistest versioonidest pärit **rakendusespetsiifilisi parameetreid**. Kui see funktsioon on lubatud ja käivitate ühe versiooni ER-vormingust, mis proovib lugeda rakenduseomasi parameetreid, proovib ER leida rakendusespetsiifilisi parameetreid, mis on konfigureeritud vormingu jooksva versiooni jaoks. Kui need pole saadaval, proovib ER leida need vormingu lähima madalama versiooni jaoks.
 
 > [!NOTE]
 > Rakendusepõhiseid parameetreid saate taaskasutada ainult praeguse juriidilise isiku ulatuse puhul.

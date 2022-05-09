@@ -2,7 +2,7 @@
 title: Eemaldatud või aegunud platvormi funktsioonid
 description: See teema kirjeldab funktsioone, mis on eemaldatud või mida on planeeritud finantside ja toimingute rakenduste platvormivärskendustes eemaldamiseks.
 author: sericks007
-ms.date: 03/08/2022
+ms.date: 04/26/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 27be0e720b7eca5883c5d73dfe312c09fcd22c65
-ms.sourcegitcommit: ddcab9726e9dbcf3296cb0988b97a3ae7ccb3dfb
+ms.openlocfilehash: 0cf0d4b3ff108645c8542ce10a0be58d29cc68ed
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "8396545"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644603"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Eemaldatud või iganenud platvormifunktsioonid
 
@@ -32,17 +32,29 @@ See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võ
 
 Finantside ja toimingute rakenduste objektide üksikasjaliku teabe leiate tehnilistest [viitearuannetest](/dynamics/s-e/global/axtechrefrep_61). Saate võrrelda nende aruannete erinevaid versioone, et saada teavet objektide kohta, mida on igas Finantsi ja operatsioonide rakenduste versioonis muudetud või eemaldatud.
 
-## <a name="feature-removal-effective-march-14-2022"></a>Funktsiooni eemaldamine kehtib 14. märtsil 2022.
+## <a name="feature-deprecation-effective-april-2022"></a>Funktsiooni amortiseerimine kehtib aprillis 2022.
+
+### <a name="xml-url-resolution-in-data-management"></a>XML-i URL-i lahendus andmehalduses 
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Aegumise/eemaldamise põhjus** | Eemaldame XML-i URL-i lahenduse toe, kuna see on tuvastatud potentsiaalse turvakaebna. See tähendab, et XML-failidega seotud välisressursse enam ei lahendata.  |
+| **Asendatud teise funktsiooniga?**   | Ei. |
+| **Mõjutatud tootealad**         | Finance and Operationsi rakendused |
+| **Juurutamissuvand**              | Kõik |
+| **Olek**                         | Aegunud. |
+
+## <a name="feature-deprecation-effective-march-14-2022"></a>Funktsiooni amortiseerumine kehtib 14. märtsil 2022
 
 ### <a name="xslt-scripting-in-data-management"></a>XSLT-skriptimine andmehalduses
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Aegumise/eemaldamise põhjus** | Andmehalduse XSLT-skriptimise tugi ei ole oluline turvalisuse ja andmekaitse täiustamiseks finantside ja toimingute rakendustes.  |
+| **Aegumise/eemaldamise põhjus** | Andmehalduse XSLT-skriptimise tugi ei ole oluline finantside ja toimingute rakenduste turvalisuse ja andmekaitse parandamiseks.  |
 | **Asendatud teise funktsiooniga?**   | Ei. Kliendid ja ISV-d peaksid XSLT-skriptimise asemel kaaluma XSLT-keelel põhinevate lahenduste taaskasutust. |
-| **Mõjutatud tootealad**         | Finantside ja toimingute rakendused. |
-| **Juurutamissuvand**              | Kõik. |
-| **Olek**                         | Taunitav – planeeritud eemaldamise kuupäev on 14. märts 2022.<br><br>Erand: kliendid, kes kasutavad praegu XLST-skriptimist. Nad saavad seda tööd kuni versioonini 10.0.30 või uuema versiooni uuendamiseni jätkata. Selle erandiga kliendid on saanud halduskeskuses saadaolevas teatekeskuses Microsoft 365 teatise. |
+| **Mõjutatud tootealad**         | Finance and Operationsi rakendused |
+| **Juurutamissuvand**              | Kõik |
+| **Olek**                         | Aegunud <br><br>**Erand:** kliendid, kes kasutavad praegu XLST-skriptimist. Nad saavad seda tööd kuni versioonini 10.0.30 või uuema versiooni uuendamiseni jätkata. Varasemate versioonide puhul aegub erand 31. jaanuar 2023. Selle erandiga kliendid on saanud halduskeskuses saadaolevas teatekeskuses Microsoft 365 teatise. |
 
 ## <a name="feature-removal-effective-october-2021"></a>Funktsiooni eemaldamine jõustub 2021. aasta oktoobris
 

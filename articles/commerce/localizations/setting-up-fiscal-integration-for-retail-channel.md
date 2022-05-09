@@ -2,27 +2,42 @@
 title: Commerce’i kanalite fiskaalüksuse integreerimise seadistamine
 description: Sellest teemast leiate juhised kaubanduse kanalite fiskaalüksuse integratsiooni funktsiooni seadistamise kohta.
 author: EvgenyPopovMBS
-ms.date: 03/04/2022
+ms.date: 04/28/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: e4b0b9f7eb4fb0ffab3237459d85ea92c83dd206
-ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.openlocfilehash: 51a75ce03b0ae6b744ec56df35bd3fdb1f40cf3a
+ms.sourcegitcommit: 5f7177b9ab192b5a6554bfc2f285f7cf0b046264
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8462153"
+ms.lasthandoff: 04/30/2022
+ms.locfileid: "8661745"
 ---
 # <a name="set-up-the-fiscal-integration-for-commerce-channels"></a>Commerce’i kanalite fiskaalüksuse integreerimise seadistamine
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Sellest teemast leiate juhised kaubanduse kanalite fiskaalüksuse integratsiooni funktsiooni seadistamise kohta. Lisateavet fiskaalüksuse integratsiooni kohta vt teemast [Kaubanduse kanalite fiskaalüksuse integratsiooni ülevaade](fiscal-integration-for-retail-channel.md).
 
+## <a name="enable-features-in-commerce-headquarters"></a>Commerce Headquartersi funktsioonide lubamine
+
+Ärikanalite finantsintegratsiooni funktsiooniga seotud funktsioonide lubamiseks järgige neid samme.
+
+1. Avage Commerce'i peakorteris **Süsteemihaldus \> Tööruumid \> Funktsioonihaldus**.
+1. Otsige ja lubage järgmised funktsioonid:
+
+    - **Otsene fiskaalintegratsioon** kassaregistritest – see funktsioon laiendab fiskaalintegratsiooni raamistikku, lisades võimaluse luua kassas käitatav fiskaalühendus. Seda tüüpi konnektor suhtleb fiskaalseadme või teenusega, mis pakub HTTP rakenduse programmeerimisliidest (API) ja ei vaja kaupluses spetsiaalset füüsilist masinat. Näiteks võimaldab see funktsioon mobiilsete seadmete fiskaalintegratsiooni ilma ühiskasutatava riistvarajaama nõudeta.
+    - **Fiskaalintegratsiooni tehnilised** profiilide alistamised – see funktsioon võimaldab laiendada fiskaalintegratsiooni konfiguratsiooni ja lisab võimaluse kontrollida ühenduse parameetreid kassaregistri sätete lehel. Kui see funktsioon on lubatud, saate alistada tehnilised profiili parameetrid.
+    - **Kassaregistrite fiskaalregistreerimise** olek – kui see funktsioon on lubatud, saate keelata fiskaalregistreerimise protsessi kindlate kassaregistrite jaoks. Kui kassaregistri jaoks on fiskaalregistreerimine keelatud, ei saa müügikandeid selles registris lõpetada.
+    - **Fiskaalintegratsiooni kohaliku** salvestuse varundamine – see funktsioon laiendab fiskaalintegratsiooni raamistiku tõrke käsitlemise võimalusi. See võimaldab ka fiskaalregistreerimise andmete automaatset varundamist andmekao korral, nii et seadme aktiveerimisel taastatakse andmed kohalikus mälus.
+
 ## <a name="set-up-commerce-parameters"></a>Äriparameetrite seadistamine
+
+Äriparameetrite häälestamiseks järgige neid samme.
 
 1. Valige lehel **Kaubanduse ühisparameetrid** vahekaardil **Üldine** suvandi **Luba fiskaalüksuse integratsioon** sätteks **Jah**.
 1. Määratlege vahekaardil **Numbriseeriad** järgmiste viidete jaoks numbriseeriad.
@@ -33,8 +48,8 @@ Sellest teemast leiate juhised kaubanduse kanalite fiskaalüksuse integratsiooni
 
 1. Määratlege lehel **Kaubanduse parameetrid** fiskaalüksuse funktsiooniprofiili numbri jaoks numbriseeria.
 
-    > [!NOTE]
-    > Numbriseeriad on valikulised. Kõigi fiskaalüksuse integratsiooniüksuste puhul saab numbrid luua kas numbriseeriate põhjal või käsitsi.
+> [!NOTE]
+> Numbriseeriad on valikulised. Kõigi fiskaalüksuse integratsiooniüksuste puhul saab numbrid luua kas numbriseeriate põhjal või käsitsi.
 
 ## <a name="set-up-a-fiscal-registration-process"></a>Fiskaalüksuse registreerimisprotsessi seadistamine
 
@@ -43,7 +58,7 @@ Fiskaalüksuse integratsiooni seadistamise protsess hõlmab järgmisi ülesandei
 - Fiskaalüksuse registreerimiseks kasutatavaid fiskaalseadmeid või -teenuseid tähistavate fiskaalkonnektorite, nt fiskaalprinterid, konfigureerimine.
 - Fiskaalseadmetes või -teenustes fiskaalkonnektorite abil registreeritavaid fiskaaldokumente loovate dokumendipakkujate konfigureerimine.
 - Fiskaalüksuse registreerimise registreerimisetappide jada ning iga etapi puhul kasutatavate fiskaalkonnektoreid ja fiskaaldokumendi pakkujaid määratleva fiskaalüksuse registreerimisprotsessi konfigureerimine.
-- Fiskaalüksuse registreerimisprotsessi määramine kassa funktsiooniprofiilidele.
+- Määrake fiskaalregistreerimise protsess kassa funktsiooniprofiilidele.
 - Konnektori tehniliste profiilide määramine riistvaraprofiilidele.
 - Määrake konnektori tehnilised profiilid müügikoha riistvarale või funktsiooniprofiilidele.
 
@@ -176,7 +191,7 @@ Fiskaalregistreerimise voo määrab fiskaalregistreerimise protsess ja ka mõned
 - Sündmuste ja kannete tellimus fiskaalüksuse registreerimisele on eelmääratletud fiskaaldokumendi pakkujas.
 - Fiskaaldokumendi pakkuja vastutab ka fiskaalüksuse registreerimiseks kasutatava fiskaalkonnektori tuvastamise eest. See vastab konnektori funktsiooniprofiilidele, mis on kaasatud fiskaalüksuse registreerimise protsessi praeguse etapi jaoks määratud fiskaalkonnektorite gruppi koos konnektori tehnilise profiiliga, mis on määratud kassaga seotud riistvarajaama riistvaraprofiilile.
 - Fiskaaldokumendi pakkuja kasutab fiskaaldokumendi pakkuja konfiguratsiooni andmetüüpide vastenduse sätteid kannete/sündmuste andmete, nagu maksud ja maksed, teisendamiseks fiskaaldokumendi loomise ajal.
-- Kui fiskaaldokumendi pakkuja loob fiskaaldokumendi, võib fiskaalkonnektor saata selle samal kujul fiskaalseadmele või selle sõeluda ja teisendada seadme rakendusliidese (API) käskude jadaks olenevalt sellest, kuidas kommunikatsiooni käsitletakse.
+- Kui fiskaaldokumendi pakkuja loob finantsdokumendi, saab fiskaalühendus selle saata fiskaalseadmesse nii, nagu see on, või sõeluda selle ja teisendada see seadme API käskude seeriaks, sõltuvalt suhtluse käsitsemisest.
 
 ### <a name="set-up-registers-with-fiscal-registration-restrictions"></a>Saate häälestada fiskaalregistreerimise piirangutega kassaaparaate.
 
@@ -283,4 +298,21 @@ Edasi lükatud fiskaalüksuse registreerimise käsitsi käivitamise lubamiseks p
     1. Käivitage lehel **Jaotusgraafik** töö **1090**, et edastada teie muudatused kanali andmebaasile.
 
 
+## <a name="view-connection-parameters-and-other-information-in-pos"></a>Vaadake ühenduse parameetreid ja muud kassateavet
+
+Ühenduse parameetrite ja muu kassateabe vaatamiseks järgige neid samme.
+
+1. Avage Modern POS (MPOS) või Cloud POS (CPOS).
+1. Valige **Sätted**. Kui fiskaalintegratsioon on **lubatud**, kuvatakse paremal olevas jaotises Fiskaalintegratsioon järgmine teave:
+
+    - Fiskaalregistreerimise olek
+    - Viimase finantskande olek
+    - Ootel auditisündmuste arv
+
+1. Valige **üksikasjad** järgmise teabe vaatamiseks:
+
+    - Registreerimisprotsessi etapid
+    - Konnektori parameetrid
+    - Auditi sündmuste üksikasjad
+ 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

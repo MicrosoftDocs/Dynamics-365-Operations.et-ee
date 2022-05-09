@@ -2,7 +2,7 @@
 title: Salvestatud vaated
 description: Selles teemas kirjeldatakse, kuidas kasutada salvestatud vaadete funktsioone.
 author: jasongre
-ms.date: 09/13/2021
+ms.date: 04/25/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: bd1b034ebb66b996e20173c2ad4f958e643f9c2e
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: e10137ff5d11ed06c32613e601e2fa7423e270ac
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065702"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644783"
 ---
 # <a name="saved-views"></a>Salvestatud vaated
 
@@ -45,7 +45,7 @@ Pärast seda, kui vaated on keskkonna jaoks saadaval, kasutab iga vaateid toetav
 
 Vaate valijal on kaks suurust. 
 
-- **Suured vaate valijad** — lehtedel, millel on olulisel kohal loend, on mõne põhjuse tõttu suuremad vaate valijad. Kõige tähtsam põhjus on, et suurem vaate valija näitab lehti, kus vaade võib sisaldada kasutaja määratletud filtreid. Kuna filtrid on vaadetesse kaasatud, on suurem valija suurus samuti õigustatud, kuna vaate nimi on sageli ekraanil kuvatud andmete parim kirjeldus ja eeldatakse, et kasutajad kasutavad nende lehetüüpide puhul eri vaateid sagedamini.
+- **Suured vaate valijad** — lehtedel, millel on olulisel kohal loend, on mõne põhjuse tõttu suuremad vaate valijad. Kõige olulisemana näitab suurem vaatevalija lehekülgi, kus vaade võib sisaldada kasutaja määratud filtreid ja sortimist. Kuna vaatesse on kaasatud filtrid ja sortimised, on suurem valija suurus samuti soovitud, kuna vaate nimed on sageli ekraanile kuvatavate andmete parim kirjeldus ja eeldatakse, et kasutajad vahetavad neid lehetüüpe sageli vaadete vahel. Grupeerimist ruudustikus saab salvestada ka vaadetele suure vaategavalijatega lehel. 
 - **Väikese vaate valijad** — kõigil muudel täisekraani lehekülgedel (välja arvatud tööruumid ja armatuurlaud) on väiksem vaatevalija, mis kuvatakse lehe pealdise kõrval. Nende lehtede vaated hõlmavad ainult isikupärastamisi ja mitte kasutaja määratletud filtreid. Nendel lehtedel on pealdis või kirje pealkiri sageli kõige olulisem teave lehe ülaosas. Vaate valija Väiksem suurus tähendab ka seda, et nendel lehtedel eeldatakse vähem eri vaadete vahel lülitamist. 
  
 Kui valite vaate nime, avaneb vaate valija ja kuvatakse lehe jaoks saadaolevate vaadete loend.
@@ -215,7 +215,7 @@ Salvestatud vaadetega teadaolevate probleemide loendi leiate jaotisest [Koostevo
 ### <a name="how-do-i-enable-saved-views-in-my-environment"></a>Kuidas lubada salvestatud vaateid minu keskkonnas?
 
 > [!NOTE]
-> Funktsioon **Salvestatud vaated** nõuab finance and Operationsi isikupärastamissüsteemi lubamist. Kui kogu keskkonnale on isikupärastamine välja lülitatud, keelatakse vaated isegi siis, kui järgite alltoodud juhiseid. 
+> **Salvestatud vaadete** funktsioon nõuab finantside ja toimingute isikupärastamise süsteemi lubamist. Kui kogu keskkonnale on isikupärastamine välja lülitatud, keelatakse vaated isegi siis, kui järgite alltoodud juhiseid. 
 
 Saate funktsiooni **Salvestatud vaade** sisse ja välja lülitada mis tahes keskkonna funktsioonihalduses. Kui see on sisse lülitatud, on salvestatud vaated kõigil järgnevatel kasutajaseanssidele kättesaadavad.
 

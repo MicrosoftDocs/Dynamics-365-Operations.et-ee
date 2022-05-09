@@ -2,7 +2,7 @@
 title: Konfiguratsiooni kujundamine dokumentide loomiseks Exceli vormingus
 description: Selles teemas kirjeldatakse, kuidas kujundada elektroonilise aruandluse (ER) vormingut Exceli malli täitmiseks ja seejärel luua väljaminevaid Exceli vormingus dokumente.
 author: NickSelin
-ms.date: 02/28/2022
+ms.date: 03/25/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1b2f38aa9e5eff9366697afd57ceefd06f026096
-ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
+ms.openlocfilehash: ec25065f2e3cc3b5dd3c9004d5330447f7b2ac61
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "8388259"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8645131"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Konfiguratsiooni kujundamine dokumentide loomiseks Exceli vormingus
 
@@ -141,7 +141,12 @@ Te saate konfigureerida oma Exceli malli, et kasutada lahtrid tekstiandmete esit
 > [!NOTE]
 > [Teadaoleva](https://support.microsoft.com/topic/you-cannot-use-the-autofit-feature-for-rows-or-columns-that-contain-merged-cells-in-excel-34b54dd7-9bfc-6c8f-5ee3-2715d7db4353) Exceli piirangu tõttu, isegi kui konfigureerite lahtrid teksti vormindama ja konfigureerite neid lahtriid sisaldavad read korrigeerima automaatselt nende kõrgust nii, et need sobiksid tekstiga, **·** **ei** pruugi te ühendatud lahtrite ja neid sisaldavate ridade puhul kasutada automaatset ja vormindatud Exceli funktsioone. 
 
-Dynamics 365 Finance Versiooni 10.0.23 puhul saate sundida ER-i arvutama loodud dokumendis iga rea kõrgus, mis on konfigureeritud automaatselt sobima selle kõrgusega pesastatud lahtrite sisuga, kui see rida sisaldab vähemalt üht ühendatud lahtrit, mis oli konfigureeritud selle sisse vormindama. Arvutatud kõrgust kasutatakse siis rea suuruse muutmiseks, kindlustamaks, et kõik rea lahtrid on loodud dokumendis nähtavad. Selle funktsiooni kasutamiseks, kui käitate mis tahes ER-vormingut, mis on konfigureeritud kasutama Exceli malle väljaminevate dokumentide loomiseks, järgige neid samme.
+Dynamics 365 Finantsversiooni 10.0.23 puhul saate loodud dokumendiga töötamisel sundida ER-i arvutama iga rea kõrgust, mis on konfigureeritud automaatselt mahtuma selle kõrgusega pesastatud lahtrite sisule, kui see rida sisaldab vähemalt üht ühendatud lahtrit, mis selles teksti sees vormindati. Arvutatud kõrgust kasutatakse siis rea muutmiseks, kindlustamaks, et kõik rea lahtrid on loodud dokumendis nähtavad.
+
+> [!NOTE]
+> Võtke arvesse, et see funktsioon ei pruugi ühendatud lahtri vormindamisel kohandatud fondi kasutamisel õigesti töötada. Kuna Excel ei kaasa kohandatud fonte, ei anna see teavet kohandatud fondi suuruse kohta. Seega saab ühendatud lahtri suurust valesti hinnata.
+
+Selle funktsiooni kasutamiseks, kui käitate mis tahes ER-vormingut, mis on konfigureeritud kasutama Exceli malle väljaminevate dokumentide loomiseks, järgige neid samme.
 
 1. Avage **Organisatsiooni haldamine** \> **Tööruumid** \> **Elektrooniline aruandlus**.
 2. Valige lehe **Lokaliseerimise konfiguratsioonid** jaotises **Seostatud lingid** paan **Elektroonilise aruandluse parameetrid**.
@@ -224,7 +229,7 @@ Exceli **Lehekülgede** nummerdamiseks lehekülje komponendi kasutamisel ei saa 
 > [!TIP]
 > Selle tulemuse saavutamiseks Exceli päises või jaluses, kasutades spetsiaalset Exceli [vormingut](/office/vba/excel/concepts/workbooks-and-worksheets/formatting-and-vba-codes-for-headers-and-footers) päiste ja jaluste jaoks.
 
-Konfigureeritud **Lehekülje** komponente ei peeta Exceli malli uuendamisel versiooni Dynamics 365 Finance 10.0.22 redigeeritavas vormingus. Seda funktsiooni kaalutakse finantside täiendavateks väljalaseteks.
+Konfigureeritud **lehe** komponente ei peeta Exceli malli värskendamisel Redigeeritavas vormingus Dynamics 365 Finantside versioonis 10.0.22. Seda funktsiooni kaalutakse finantside täiendavateks väljalaseteks.
 
 Kui konfigureerite Exceli malli [tingimusliku vormingu](/office/dev/add-ins/excel/excel-add-ins-conditional-formatting) kasutamiseks, ei pruugi see mõnel juhul nii hästi töötada.
 

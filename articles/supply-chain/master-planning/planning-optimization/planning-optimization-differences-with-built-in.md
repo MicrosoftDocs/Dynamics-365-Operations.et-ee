@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-30
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 642ba812156a95e9b0be2e996d4a93096a5809a9
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: c73587015d6714c409819ab19ad68685aaa71cf7
+ms.sourcegitcommit: 70289a33b0a6ff3f9418d91a928db452cfd815bd
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468324"
+ms.lasthandoff: 04/20/2022
+ms.locfileid: "8618256"
 ---
 # <a name="differences-between-built-in-master-planning-and-planning-optimization"></a>Integreeritud koondplaneerimise ja planeerimise optimeerimise vahelised erinevused
 
@@ -37,6 +37,7 @@ Plaanimise optimeerimise tulemused võivad erineda integreeritud koondplaneerimi
 | Ohutusvaru sidumine ja võrgunõuded | *Turvavarud* nõude tüüp ei kuulu komplekti ja seda ei kuvata lehel **Võrgu nõuded**. Turvavarud ei kujuta endast nõudlust ega ole seotud nõude kuupäevaga. Selle asemel seab see piirangu sellele, kui palju laoseisu peab alati olema. Planeeritud tellimuste arvutamisel üldplaneerimisel võetakse siiski arvesse välja väärtust **Minimum**. Soovitame teil vaadata lehe **Võrgu nõuded** veergu **Kogunenud kogus**, et näha, kas seda väärtust arvestati. |
 | Transpordikalendrid | Väärtust lehe **Tarneviisid** veerus **Transpordikalender** eiratakse. |
 | Min/max kattekood ilma väärtusteta| Kui kasutate integreeritud plaanimismootorit min/max laovarude koodi, kus pole seadistatud minimaalseid või maksimaalseid väärtusi, käsitleb planeerimismootor kattekoodi vajadusena ja loob iga vajaduse kohta ühe tellimuse. Planeerimise optimeerimise puhul loob süsteem ühe tellimuse päeva kohta, et katta kogu selle päeva summa.  |
+| Netonõuded ja käsitsi loodud plaanitud tellimused | Integreeritud plaanimismootoriga kuvatakse kaubale käsitsi loodud tarnetellimused selle kauba netonõuete hulgas automaatselt. Näiteks ostutellimuse loomisel müügitellimusest kuvatakse ostutellimus netonõuete lehel, **ilma** et oleks vaja eelnevaid tegevusi. Seda seetõttu, et integreeritud plaanimismootor logib `inventLogTTS` tabelisse laokanded ja **näitab muudatusi dünaamiliste plaanide** netonõuete lehel. Kuid planeerimise optimeerimise puhul ei kuvata käsitsi loodud tellimusi kauba netonõuete hulgas enne, kui optimeerimine on **\> käitatud (kasutades plaani, mis sisaldab kaupa),** **või** kuni valite netonõuete lehel tegevuspaanil koondplaneerimise värskendamine, mis käivitab kauba koondplaanimise. Lisateavet selle kohta, kuidas netonõuete lehega **töötada**, [vt Netonõuded ja sidumisteave planeerimise optimeerimisega](net-requirements.md). |
 
 ## <a name="additional-resources"></a>Lisaressursid
 

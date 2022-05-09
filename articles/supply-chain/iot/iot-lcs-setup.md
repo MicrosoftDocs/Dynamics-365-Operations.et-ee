@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: ebf11b55f1034b9a84dda9ada77c2f1b7f587a58
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
-ms.translationtype: MT
+ms.openlocfilehash: 89d2f53a761085949885c987d664654c3423524b
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781585"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8645073"
 ---
 # <a name="install-the-iot-intelligence-add-in-in-lcs"></a>IoT iseõppimisvõime lisandmooduli installimine LCS-is
 
@@ -27,9 +27,18 @@ ms.locfileid: "7781585"
 
 Selles teemas selgitatakse, kuidas installida IoT iseõppimisvõime lisandmoodulit teenuses Microsoft Dynamics Lifecycle Services (LCS). Pange tähele, et lisandmooduleid ei saa installida demo/prooviversiooni keskkonnas. Enne lisandmooduli installimist peate [looma Azure'i ressursid](iot-azure-setup.md).
 
+Saate seadistada ja konfigureerida IoT-iseõppimise ilma koodi kirjutamata. Siin on põhietapid.
+
+1. [Seadistage Azure'i ressursid](iot-azure-setup.md)– looge IoT keskus, Redis-vahemälu ja võtmehoidla, mida saab kasutada Supply Chain Management rakenduses.
+2. [IoT keskuse teateskeemi vormingud](iot-schema-format.md) – konfigureerige seadmeid sõnumite saatmiseks IoT keskusesse ja määratlege JavaScript Object Notation (JSON) teatevorming.
+3. Funktsioonihalduses lubage IoT iseõppimise funktsiooni lipp.
+4. Installige IoT-teabe Microsoft Dynamics lisandmoodul elutsükli teenustes (LCS) – installige lisandmoodul LCS-is ja konfigureerige Azure'i saladused (nagu teemas kirjeldatud).
+5. [Seadistage mõõdikud](iot-metrics-setup.md) – seadistage mõõdikud rakenduses Supply Chain Management.
+6. [Stsenaariumi häälestus](iot-scenario-setup.md) - seadistage stsenaariumid rakenduses Supply Chain Management.
+
 ## <a name="set-up-the-lcs-environment"></a>LCS-i keskkonna seadistamine
 
-1. Avage LCS ja minge oma Microsoft Dynamics 365 Supply Chain Management i keskkonda.
+1. Avage LCS ja minge oma Microsoft Dynamics 365 Supply Chain Managementi keskkonda.
 2. Kerige alla jaotiseni **Keskkonna lisandmoodulid**.
 3. Valige **Installi uus lisandmoodul**, et kuvada selle keskkonna jaoks lubatud lisandmoodulite loend.
 4. Valige dialoogiboksis **Installitava lisandmooduli valimine** suvand **IoT iseõppimisvõime**.
@@ -47,7 +56,7 @@ Selles teemas selgitatakse, kuidas installida IoT iseõppimisvõime lisandmoodul
 
 LCS-i seadistamine on nüüd lõpule viidud. Järgmine etapp on [stsenaariumide seadistamine](iot-scenario-setup.md).
 
-## <a name="uninstall-the-add-in"></a><a id="uninstall-addin"></a> Lisandmooduli desinstallimine
+## <a name="uninstall-the-add-in"></a><a id="uninstall-addin"></a>Lisandmooduli desinstallimine
 
 1. [Keelake stsenaariumid](iot-scenario-setup.md#disable-a-scenario) Supply Chain Managementis.
 2. Avage LCS-is teenuse Supply Chain Management keskkonna üksikasjad.

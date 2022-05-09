@@ -2,7 +2,7 @@
 title: Ruudustiku võimalused
 description: Selles teemas kirjeldatakse ruudustiku juhtelemendi mitmeid võimsaid funktsioone. Nende võimaluste kasutamiseks peate lubama uue ruudustiku funktsiooni.
 author: jasongre
-ms.date: 03/21/2022
+ms.date: 04/25/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 08348185a424d20b6da1563189496b7dd51944d9
-ms.sourcegitcommit: edc887e0526c415466e9691e642028ecd97cdbe7
+ms.openlocfilehash: 57133a853d1700b2d8ebb938f93af475410b82cb
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8602958"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644353"
 ---
 # <a name="grid-capabilities"></a>Ruudustiku võimalused
 
@@ -106,7 +106,7 @@ Selle funktsiooni kasutamiseks paremklõpsake veergu, mille alusel soovite rühm
 - Selles grupis olevate andmeridade arv
 - Kogusummade kuvamiseks konfigureeritud veergude vahesummad
 
-Kui [Salvestatud vaated](saved-views.md) on lubatud, saab selle rühmitamise isikupärastamisena järgmiseks lehekülastuseks salvestada, et saada kiirjuurdepääs.
+Kui [salvestatud](saved-views.md) vaated on lubatud, saate grupeerimise salvestada osana lehtede vaatest, mis võimaldab päringuid vaadetesse salvestada. Näiteks suure vaatevalijatega. Lisateavet vt [jaotisest Vaadete](saved-views.md#switching-between-views) vahetamine. 
 
 ### <a name="multiple-levels-of-grouping"></a>Rühmitamise mitu taset
 Kui olete andmed ühe veeru kaupa rühmitanud, saate andmed rühmitada erineva veeru alusel, valides soovitud veerus suvandi **Rühmita selle veeru järgi**. Seda protsessi saab korrata seni, kuni teil on 5 pesastatud rühmitamise taset, mis on maksimaalne toetatud sügavus. Praegusel hetkel ei saa te enam täiendavate veergude alusel rühmitada.

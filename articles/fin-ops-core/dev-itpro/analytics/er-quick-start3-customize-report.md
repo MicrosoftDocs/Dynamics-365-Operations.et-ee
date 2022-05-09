@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2c8cf4866b6a8c239359d726d8cd4f03a9eb4137
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: a7353d7d8149ff1316fbc0adc55b7e1050f443a8
+ms.sourcegitcommit: 5f7177b9ab192b5a6554bfc2f285f7cf0b046264
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8324083"
+ms.lasthandoff: 04/30/2022
+ms.locfileid: "8661654"
 ---
 # <a name="customize-electronic-reporting-configurations-to-generate-an-electronic-document"></a>Elektroonilise aruandluse konfiguratsioonide kohandamine elektroonilise dokumendi loomiseks
 
 [!include[banner](../includes/banner.md)]
 
-[Elektroonilise aruandluse (ER) raamistik](general-electronic-reporting.md) võimaldab teil laadida üles ER-i [konfiguratsioone](general-electronic-reporting.md#Configuration), mida Microsoft edastab teie Microsoft Dynamics 365 Finance'i eksemplari. Sel viisil on Microsofti pakutud konfiguratsioonid ER-i lahenduseks, mida kasutatakse elektrooniliste kliendiarvete (e-arvete) loomiseks. Saate kasutada seda ER-i lahendust oma kohandatud ER-i lahenduse konfigureerimiseks, et pääseda juurde oma kohandatud andmebaasi väljadele ja luua e-arveid, mis vastavad teie konkreetsetele nõuetele, ilma lähtekoodi redigeerimata.
+Elektroonilise [aruandluse (ER) raamistik](general-electronic-reporting.md) võimaldab teil laadida üles Microsofti 365 finantseksemplari [pakutavad ER-i](general-electronic-reporting.md#Configuration)Microsoft Dynamics konfiguratsioonid. Sel viisil on Microsofti pakutud konfiguratsioonid ER-i lahenduseks, mida kasutatakse elektrooniliste kliendiarvete (e-arvete) loomiseks. Saate kasutada seda ER-i lahendust oma kohandatud ER-i lahenduse konfigureerimiseks, et pääseda juurde oma kohandatud andmebaasi väljadele ja luua e-arveid, mis vastavad teie konkreetsetele nõuetele, ilma lähtekoodi redigeerimata.
 
 ## <a name="overview"></a>Ülevaade
 
@@ -61,7 +61,7 @@ Elektroonilise aruandluse funktsionaalse konsultandi või elektroonilise aruandl
 ### <a name="configure-er-parameters"></a>Elektroonilise aruandluse parameetrite konfigureerimine
 
 1. Avage **Organisatsiooni haldamine** \> **Tööruumid** \> **Elektrooniline aruandlus**.
-2. Valige lehe **Lokaliseerimise konfiguratsioonid** jaotises **Seostatud lingid** paan **Elektroonilise aruandluse parameetrid**.
+2. Lokaliseerimise **kavandi lehel** jaotises Seotud lingid **valige** elektroonilise **aruandluse parameetrid**.
 3. Valige lehel **Elektroonilise aruandluse parameetrid** vahekaardil **Üldine** suvandi **Luba kujundusrežiim** sätteks **Jah**.
 4. Valige vahekaardi **Manused** väljal **Konfiguratsioonid** suvand **Fail**.
 5. Valige väljadel **Töö arhiiv**, **Ajutine**, **Alus** ja **Muud** tüüp **Fail**.
@@ -78,13 +78,13 @@ Kõigile lisatud ER-konfiguratsioonidele on märgitud omanikuks ER-konfiguratsio
 #### <a name="review-the-list-of-er-configuration-providers"></a>ER-konfiguratsiooni pakkujate loendi ülevaatamine
 
 1. Avage **Organisatsiooni haldamine** \> **Tööruumid** \> **Elektrooniline aruandlus**.
-2. Valige lehe **Lokaliseerimise konfiguratsioonid** jaotises **Seostatud lingid** paan **Konfiguratsioonipakkujad**.
+2. Lokaliseerimise **kavandi lehel**, mis asub jaotises Seotud **lingid**, valige konfiguratsiooni **pakkujad**.
 3. Lehel **Konfiguratsioonipakkuja tabel** on igal pakkuja kirjel kordumatu nimi ja URL. Vaadake üle selle lehe sisu. Kui üksuse **Litware, Inc.** (`https://www.litware.com`) kirje on juba olemas, jätke järgmine protseduur vahele [Uue ER-konfiguratsiooni pakkuja lisamine](#AddProvider).
 
 #### <a name="add-a-new-er-configuration-provider"></a><a id="AddProvider"></a>Uue ER-konfiguratsiooni pakkuja lisamine
 
 1. Avage **Organisatsiooni haldamine** \> **Tööruumid** \> **Elektrooniline aruandlus**.
-2. Valige lehe **Lokaliseerimise konfiguratsioonid** jaotises **Seostatud lingid** paan **Konfiguratsioonipakkujad**.
+2. Lokaliseerimise **kavandi lehel**, mis asub jaotises Seotud **lingid**, valige konfiguratsiooni **pakkujad**.
 3. Lehel **Konfiguratsioonipakkujad** valige suvand **Uus**.
 4. Väljale **Nimi** sisestage väärtus **Litware, Inc.**
 5. Sisestage väljale **Interneti-aadress** `https://www.litware.com`.
@@ -93,7 +93,7 @@ Kõigile lisatud ER-konfiguratsioonidele on märgitud omanikuks ER-konfiguratsio
 #### <a name="activate-an-er-configuration-provider"></a>ER-konfiguratsiooni pakkuja aktiveerimine
 
 1. Avage **Organisatsiooni haldamine** \> **Tööruumid** \> **Elektrooniline aruandlus**.
-2. Vailge lehe **Lokaliseerimise konfiguratsioonid** jaotises **Konfiguratsioonipakkujad** paan **Litware, Inc.** ja seejärel valige **Määra aktiivne**.
+2. Lokaliseerimise **kavandi lehel** jaotises Konfiguratsioonipakkujad **valige** **paani Litware, Inc.** ja seejärel valige käsk **Määra aktiivseks**.
 
 Lisateabe saamiseks ER-konfiguratsiooni pakkujate kohta vaadake teemat [Konfiguratsioonipakkujate loomine ja nende aktiivseks märkimine](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
@@ -102,7 +102,7 @@ Lisateabe saamiseks ER-konfiguratsiooni pakkujate kohta vaadake teemat [Konfigur
 Oma praegusesse Finance'i eksemplari standardsete ER-i konfiguratsioonide lisamiseks peate importima need selle eksemplari jaoks konfigureeritud ER-i [hoidlast](general-electronic-reporting.md#Repository).
 
 1. Avage **Organisatsiooni haldamine** \> **Tööruumid** \> **Elektrooniline aruandlus**.
-2. Valige lehe **Lokaliseerimise konfiguratsioonid** jaotises **Konfiguratsioonipakkujad** paan **Microsoft** ja seejärel valige pakkuja Microsoft hoidlate loendi kuvamiseks **Hoidlad**.
+2. Lokaliseerimise **kavandi** lehel jaotises **Konfiguratsioonipakkujad** valige **Microsofti** **paanid** ja seejärel valige hoidlad, et vaadata Microsofti pakkuja hoidlate loendit.
 3. Valige lehel **Konfiguratsioonihoidlad** hoidla tüübiga **Globaalne** ja seejärel valige käsk **Ava**. Kui teilt küsitakse autoriseerimist ühenduse loomiseks Regulatory Configuration Service'iga, järgige autoriseerimise juhiseid.
 4. Valige lehel **Konfiguratsioonihoidla** vasakpoolselt paanilt konfiguratsioonipuult vormingu **PEPPOL-i müügiarve** konfiguratsioon.
 5. Kiirkaardil **Versioonid** valige versioon **11.2.2**.
@@ -116,7 +116,7 @@ Oma praegusesse Finance'i eksemplari standardsete ER-i konfiguratsioonide lisami
 ### <a name="review-the-imported-er-configurations"></a>Imporditud ER-konfiguratsioonide ülevaatamine
 
 1. Avage **Organisatsiooni haldamine** \> **Tööruumid** \> **Elektrooniline aruandlus**.
-2. Valige lehe **Lokaliseerimise konfiguratsioonid** jaotises **Konfiguratsioonid** paan **Aruandluse konfiguratsioonid**.
+2. Lokaliseerimise **kavandi lehel** jaotises Konfiguratsioonid **valige** aruandluse **konfiguratsioonipaan**.
 3. Laiendage lehel **Konfiguratsioonid** kiirkaarti **Konfiguratsiooni komponendid**.
 4. Laiendage vasakpoolse paani konfiguratsioonipuus suvandit **Arvemudel** ja seejärel laiendage suvandit **UBL-i müügiarve**.
 
