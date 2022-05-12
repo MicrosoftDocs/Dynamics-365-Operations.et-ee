@@ -2,7 +2,7 @@
 title: Tulu tuvastamise seadistus
 description: Selles teemas kirjeldatakse tulude tuvastamise seadistamise suvandeid ja nende mõjusid.
 author: kweekley
-ms.date: 11/24/2021
+ms.date: 04/28/2022
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: e8e29ec1ca5a02db67bb4baf522da96ec23c740f
-ms.sourcegitcommit: ac23a0a1f0cc16409aab629fba97dac281cdfafb
+ms.openlocfilehash: 5f72ebd743763db7c68340a833c2501d47d27081
+ms.sourcegitcommit: 0abc777986112ea2332f5bf0e815b303b952356c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/29/2021
-ms.locfileid: "7867216"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8656717"
 ---
 # <a name="revenue-recognition-setup"></a>Tulu tuvastamise seadistus
 [!include [banner](../includes/banner.md)]
@@ -100,7 +100,7 @@ Sisestage kirjeldavad väärtused väljadesse **Tulugraafik** ja **Kirjeldus**. 
     - **Esinemised** – summa eraldatakse võrdselt esinemiste lõikes, kuid see võib hõlmata lisaperioodi, kui valite tuvastamisreegliks **Tegelik alguskuupäev**.
     - **Rahandusperiood päevade järgi** – summa eraldatakse iga rahandusperioodi tegelike päevade alusel. 
 
-    Kui rahandusperioodid järgivad kalendrikuid, on tulemused **Igakuiselt päevade järgi** ja **Rahandusperiood päevade järgi** samad. Ainus erand on see, kui tuvastamisreegli väärtuseks seatakse **Kuu/perioodi lõpp** ning müügitellimuse real jäetakse väljad **Lepingu alguskuupäev** ja **Lõppkuupäev** tühjaks.
+         - Kui rahandusperioodid järgivad kalendrikuid, on tulemused **Igakuiselt päevade järgi** ja **Rahandusperiood päevade järgi** samad. Ainus erand on see, kui tuvastamisreegli väärtuseks seatakse **Kuu/perioodi lõpp** ning müügitellimuse real jäetakse väljad **Lepingu alguskuupäev** ja **Lõppkuupäev** tühjaks.
 
 - **Tuvastamisreegel** – tuvastamisreegel määratleb arvele tulugraafikus määratavad kuupäevad.
 
@@ -108,7 +108,7 @@ Sisestage kirjeldavad väärtused väljadesse **Tulugraafik** ja **Kirjeldus**. 
     - **Kuu/perioodi esimene päev** – lepingu alguskuupäevaks (või arve kuupäevaks) on graafiku esimese rea kuupäev. Kuid kõigi järgnevate graafikute read luuakse kuu või rahandusperioodi esimese päeva jaoks.
     - **Tükeldamine kuu keskel** – graafiku esimese rea kuupäev sõltub arve kuupäevast. Kui arve sisestatakse esimesest kuni viieteistkümnenda kuupäevani, luuakse tulugraafik kuu esimese päeva alusel. Kui arve sisestatakse alates kuueteistkümnendast kuupäevast, luuakse tulugraafik järgmise kuu esimese päeva alusel.
 
-        Rida **Tükeldamine kuu keskel** ei saa valida, kui tuvastamise aluse väärtuseks on seatud **Rahandusperiood päevade järgi**.
+        - Rida **Tükeldamine kuu keskel** ei saa valida, kui tuvastamise aluse väärtuseks on seatud **Rahandusperiood päevade järgi**.
 
     - **Järgmise kuu/perioodi esimene päev** – graafiku alguskuupäevaks on järgmise kuu või rahandusperioodi esimene päev.
     - **Kuu/perioodi lõpp** – lepingu alguskuupäevaks (või arve kuupäevaks) on graafiku esimese rea kuupäev. Kuid kõik järgnevad graafikuread luuakse kuu või rahandusperioodi viimase päeva jaoks. 

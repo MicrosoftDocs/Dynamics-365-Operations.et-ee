@@ -10,6 +10,8 @@
               href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
             - name: Mis on uut või mida on muudetud rakenduses Human Resources?
               items:
+                - name: Human Resources 10.0.27 (ühendatud taristu)
+                  href: ./get-started/hr-whats-new-changed-10-0-27.md
                 - name: Human Resources 10.0.26 (ühendatud taristu)
                   href: ./get-started/hr-whats-new-changed-10-0-26.md
                 - name: Human Resources 10.0.25 (ühendatud taristu)
@@ -972,7 +974,7 @@
                   href: hr-admin-integration-payroll-api-benefit-plan-type-cover.md
                 - name: Soodustuse töövõtja plaani olek
                   href: hr-admin-integration-payroll-api-benefit-employee-plan-status.md
-    - name: Finantside ja toimingute rakenduste juurutamine ja haldamine
+    - name: Finants- ja äritoimingute rakenduste juurutamine ja haldamine
       href: ../fin-ops-core/dev-itpro/index.md
     - name: Dynamics 365 Finance
       href: ../finance/index.md

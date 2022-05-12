@@ -12,14 +12,12 @@
               items:
                 - name: Mis on uut või mida on muudetud Commerce'i avalehel?
                   href: get-started/whats-new-home-page.md
+                - name: Commerce 10.0.27 (juuli 2022)
+                  href: get-started/whats-new-commerce-10-0-27.md
                 - name: Commerce 10.0.26 (mai 2022)
                   href: get-started/whats-new-commerce-10-0-26.md
                 - name: Commerce 10.0.25 (aprill 2022)
                   href: get-started/whats-new-commerce-10-0-25.md
-                - name: Commerce 10.0.24 (veebruar 2022)
-                  href: get-started/whats-new-commerce-10-0-24.md
-                - name: Commerce 10.0.23 (jaanuar 2022)
-                  href: get-started/whats-new-commerce-10-0-23.md
             - name: Eemaldatud või iganenud funktsioonid
               items:
                 - name: Eemaldatud või iganenud funktsioonide avaleht
@@ -356,6 +354,8 @@
                           href: tax-exempt-price-inclusive.md
                         - name: Käibemaksu konfigureerimine veebitellimuste jaoks
                           href: sales-tax-config.md
+                        - name: Maksude jaotuse teabe peitmine tellimuse kokkuvõtetes
+                          href: hide-taxes-breakup.md
                     - name: Meiliteatise profiili seadistamine
                       href: email-notification-profiles.md
                     - name: Numbriseeriad
@@ -394,7 +394,7 @@
                       href: dev-itpro/store-commerce.md
                     - name: Seadmehalduse juurutamise juhised
                       href: implementation-considerations-devices.md
-                    - name: Valimine MPOS-i ja Cloud POS-i vahel
+                    - name: Store Commerce'i ja Cloud POS-i vahel valimine
                       href: MPOS-or-CPOS.md
                     - name: Ühendusega ja ühenduseta kassatoimingud
                       href: pos-operations.md
@@ -496,6 +496,8 @@
                   href: tasks/configure-functionality-profile-sales-representative.md
                 - name: Jaemüügikanalite jaoks finantsdimensioonide loomine ja kauplustes väärtuste konfigureerimine
                   href: tasks/create-financial-dimensions-retail-channels.md
+                - name: Jaemüügi väljavõtete numbriseeriate häälestamine
+                  href: retail-statements-number-sequences.md
                 - name: Ühtse tarnerežiimi käsitlemise lubamine e-kaubanduse kanalites
                   href: consistent-delivery-mode-handling.md
             - name: Võrgukanali häälestamine
@@ -884,6 +886,8 @@
           items:
             - name: Väljavõtete ülevaade
               href: retail-statements.md
+            - name: Commerce'i sisestusparameetrid
+              href: commerce-posting-parameters.md
             - name: Kaupluse kannete kinnitamine väljavõtte arvutamiseks
               href: valid-checker.md
             - name: Jaemüügikande süsteemsuskontrolli reeglite keelamine
@@ -1100,6 +1104,8 @@
                       href: adventure-works-theme.md
                     - name: Adventure Worksi kujunduse installimine
                       href: install-adventure-works.md
+                - name: Commerce'i lokaliseerimisjuhend
+                  href: e-commerce-localization-guide.md
             - name: Digitaalsete varade haldamine
               items:
                 - name: Digitaalsete varade haldamise ülevaade
@@ -1312,6 +1318,14 @@
               href: b2b/payment-method.md
             - name: Toote kogusepiirangute määramine B2B e-kaubandussaitidel
               href: b2b/quantity-limits.md
+            - name: B2B-saitide Commerce'i kataloogid
+              items:
+                - name: B2B-saitide Commerce'i kataloogide loomine
+                  href: catalogs-b2b-sites.md
+                - name: B2B-kohanduste Commerce'i kataloogide laiendatavus
+                  href: catalogs-b2b-sites-dev.md
+                - name: B2B-saitide Commerce'i kataloogide KKK
+                  href: catalogs-b2b-sites-FAQ.md
         - name: Jälgimine ja analüüs
           items:
             - name: Müügi ja marginaali jõudluse jälgimine
@@ -2474,13 +2488,17 @@
                       href: dev-itpro/extension-resource-localization.md
             - name: Kaugadministreeritav Commerce
               items:
+                - name: Ülevaade
+                  items:
+                    - name: Sissejuhatus Commerce Scale Uniti (CSU) põhifunktsioonidesse
+                      href: dev-itpro/CSU-core.md
                 - name: API-d ja viide
                   items:
                     - name: Commerce Scale Uniti kliendi ja tarbija API-d
                       href: dev-itpro/retail-server-customer-consumer-api.md
                     - name: Retail Server API-de kasutamine välisrakendustes
                       href: dev-itpro/consume-retail-server-api.md
-                    - name: Typescript ja C# puhvrid Retail POS-i jaoks
+                    - name: TypeScript ja C# puhvrid Retail POS-i jaoks
                       href: dev-itpro/typescript-proxy-retail-pos.md
                     - name: Commerce Runtime'i (CRT) ülesehitus ja konfiguratsioon
                       href: dev-itpro/commerce-runtime-overview.md
@@ -2528,7 +2546,9 @@
                       href: dev-itpro/extensions-shipping-carrier-integration.md
                 - name: Pakkimine ja juurutamine
                   items:
-                    - name: Pilvskaalaüksuse laienduste eemaldamine
+                    - name: Cloud Scale Uniti laienduspaketi loomine
+                      href: dev-itpro/CSU-packaging.md
+                    - name: Cloud Scale Uniti laienduste eemaldamine
                       href: dev-itpro/retail-sdk/remove-csu-package.md
             - name: Store Commerce
               items:
@@ -2540,6 +2560,8 @@
                       href: dev-itpro/pos-extension/pos-extension-basics.md
                     - name: Kassa laienduste Commerce SDK-sse migreerimine
                       href: dev-itpro/pos-extension/migrate-pos-extension.md
+                    - name: Store Commerce'i laienduste silumine VS-koodi abil
+                      href: dev-itpro/sc-debug.md
                 - name: Keskkonna häälestus
                   items:
                     - name: Kohalik arenduskeskkond
@@ -2614,6 +2636,8 @@
                       href: dev-itpro/pos-extension/mpos-extension-signing.md
                     - name: Cloud POS-i laienduspaketi loomine
                       href: dev-itpro/pos-extension/cpos-extension-package.md
+                    - name: Store Commerce'i laienduse installipaketi loomine
+                      href: dev-itpro/store-comm-extension-installer.md
             - name: E-kaubandus
               items:
                 - name: Ülevaade
@@ -2814,8 +2838,12 @@
                       items:
                         - name: Telemeetria logija
                           href: e-commerce-extensibility/telemetry-logger.md
-            - name: Commerce HQ
+            - name: Commerce Headquarters
               items:
+                - name: CDX-i paketi laiendus
+                  items:
+                    - name: Kliendi CDX-paketi laiendamine kohandatud andmete lisamiseks
+                      href: dev-itpro/extend-customer-CDX-package.md
                 - name: Pakkimine ja juurutamine
                   items:
                     - name: Finants- ja äritoimingute juurutamisele Commerce’i maksepaketi loomine

@@ -12,6 +12,8 @@
               items:
                 - name: Mis on uut või mida on muudetud Finance'i avalehel?
                   href: get-started/whats-new-home-page.md
+                - name: Finance 10.0.27 (juuli)
+                  href: get-started/whats-new-changed-10-0-27.md
                 - name: Finance 10.0.26 (mai)
                   href: get-started/whats-new-changed-10-0-26.md
                 - name: Finance 10.0.25 (aprill)
@@ -412,6 +414,8 @@
                   href: accounts-receivable/subscription-billing-summary.md
                 - name: Korduva lepingu arveldamine
                   items:
+                    - name: Korduva lepingu arveldamise häälestamine
+                      href: accounts-receivable/sb-recur-bill-parameters.md
                     - name: Arveldusgraafikute loomine
                       href: accounts-receivable/sb-billing-schedules.md
                     - name: Arveldusgraafiku kopeerimine
@@ -420,22 +424,26 @@
                       href: accounts-receivable/sb-schedule-billing-features.md
                     - name: Etapiviisiline arveldus
                       href: accounts-receivable/sb-milestonebilling.md
+                    - name: Tulu eraldamine
+                      href: accounts-receivable/sb-rev-allocation.md
                     - name: Toe ja uuendamise protsess
                       href: accounts-receivable/sb-support-renewals.md
+                    - name: Arveldamata tulu
+                      href: accounts-receivable/sb-unbilled-revenue.md
                     - name: Tarbijahinna indeksi graafikud
                       href: accounts-receivable/cpischedules.md
                     - name: Arveldusgraafikute lõpetamine
                       href: accounts-receivable/terminate-billing-schedule.md
+                    - name: Joondamiskuupäeva stsenaariumid
+                      href: accounts-receivable/sb-alignment-date-examples.md
                 - name: Tulude ja kulude edasilükkamised
                   items:
                     - name: Tulude ja kulude edasilükkamiste seadistamine
                       href: accounts-receivable/sb-deferrals.md
-                    - name: Edasilükkamise graafikud
-                      items:
-                        - name: Edasilükkamise graafikute loomine
-                          href: accounts-receivable/sb-deferrals-schedules.md
-                        - name: Edasilükkamise vaiketehingud
-                          href: accounts-receivable/sb-deferral-transactions.md
+                    - name: Edasilükkamise graafikute loomine
+                      href: accounts-receivable/sb-deferrals-schedules.md
+                    - name: Edasilükkamise vaiketehingud
+                      href: accounts-receivable/sb-deferral-transactions.md
                 - name: Mitme elemendiga tulu eraldamine
                   items:
                     - name: Mitme elemendiga tulu eraldamise seadistamine
@@ -1429,7 +1437,7 @@
                             - name: Azure'i ressursside häälestamine elektroonilise arvelduse jaoks
                               href: localizations/e-invoicing-set-up-azure-resources.md?toc=/dynamics365/finance/toc.json
                             - name: Azure'i võtmehoidla loomine Azure'i portaalis
-                              href: localizations/e-invoicing-create-azure-storage-account-azure-portal.md?toc=/dynamics365/finance/toc.json
+                              href: localizations/e-invoicing-create-azure-key-vault-azure-portal.md?toc=/dynamics365/finance/toc.json
                             - name: Azure'i salvestusruumi konto loomine Azure'i portaalis
                               href: localizations/e-invoicing-create-azure-storage-account-azure-portal.md
                             - name: SharePointi ühenduse konfigureerimine
@@ -1460,6 +1468,8 @@
                           href: localizations/e-invoicing-complete-publish-deploy-globalization-feature.md?toc=/dynamics365/finance/toc.json
                         - name: Teiste organisatsioonidega jagamine
                           href: localizations/e-invoicing-share-other-organizations.md?toc=/dynamics365/finance/toc.json
+                        - name: Kasutuse halduse armatuurlaud
+                          href: localizations/e-invoicing-usage-management-dashboard.md?toc=/dynamics365/finance/toc.json
                         - name: Sissetulevate elektrooniliste dokumentide töötlus
                           items:
                             - name: Sissetulevate elektrooniliste dokumentide töötlemine
@@ -1468,12 +1478,12 @@
                               href: localizations/e-invoicing-configure-email.md?toc=/dynamics365/finance/toc.json
                             - name: SharePointi kanali konfigureerimine
                               href: localizations/e-invoicing-configure-sharepoint-channel.md
-                        - name: Elektroonilise arvelduse häälestamine ja kasutamine Finance'i ja Supply Chain Managementis
-                          items:
-                            - name: Elektroonilise arvelduse integreerimise aktiveerimine ja häälestamine
-                              href: localizations/e-invoicing-activate-setup-integration.md?toc=/dynamics365/finance/toc.json
-                            - name: Elektroonilise arvelduse parameetrite häälestamine
-                              href: localizations/e-invoicing-set-up-parameters.md?toc=/dynamics365/finance/toc.json
+                    - name: Elektroonilise arvelduse häälestamine ja kasutamine Finance'i ja Supply Chain Managementis
+                      items:
+                        - name: Elektroonilise arvelduse integreerimise aktiveerimine ja häälestamine
+                          href: localizations/e-invoicing-activate-setup-integration.md?toc=/dynamics365/finance/toc.json
+                        - name: Elektroonilise arvelduse parameetrite häälestamine
+                          href: localizations/e-invoicing-set-up-parameters.md?toc=/dynamics365/finance/toc.json
                         - name: Elektroonilise arveldusega töötamine
                           items:
                             - name: Elektrooniliste dokumentide esitamine elektroonilisele arveldusele
@@ -1486,12 +1496,6 @@
                       items:
                         - name: Elektroonilise arvelduse funktsioonide saadavus
                           href: localizations/e-invoicing-country-specific-availability.md?toc=/dynamics365/finance/toc.json
-                        - name: Elektroonilise arvelduse teenusehalduse kasutamise alustamine
-                          href: localizations/e-invoicing-get-started-service-administration.md?toc=/dynamics365/finance/toc.json
-                        - name: Elektroonilise arvelduse kasutamise alustamine
-                          href: localizations/e-invoicing-get-started.md?toc=/dynamics365/finance/toc.json
-                        - name: Uue elektroonilise arveldamise funktsiooni loomine
-                          href: localizations/e-invoicing-create-new-e-invoicing-feature.md
                         - name: Elektroonilise arvelduse kasutamise alustamine Brasiilias
                           href: localizations/e-invoicing-bra-get-started.md?toc=/dynamics365/finance/toc.json
                         - name: Elektroonilise arvelduse kasutamise alustamine Egiptuses
@@ -1504,10 +1508,6 @@
                           href: localizations/e-invoicing-ita-fatturapa-get-started.md
                         - name: Elektroonilise arveldamise teenuse kasutamine hankija arvete importimiseks
                           href: localizations/e-invoicing-get-started-import-vendor-invoices.md
-                        - name: Elektroonilise arvelduse häälestus
-                          href: localizations/e-invoicing-setup.md?toc=/dynamics365/finance/toc.json
-                        - name: Power Platformi lisandmooduli administraatori viide
-                          href: localizations/e-invoicing-power-platform-plug-in.md
                     - name: Elektroonilise arvelduse KKK
                       href: localizations/e-invoicing-faq.md?toc=/dynamics365/finance/toc.json
                 - name: Maksuarvutus
@@ -1618,6 +1618,12 @@
                           href: localizations/tcs-troubleshooting-failed-access-tax-service.md
                         - name: Maksuarvestuse parameetrites on tühi maksufunktsioonide loend
                           href: localizations/tcs-troubleshooting-tax-feature-list-empty-tax-calculation-parameter.md
+                        - name: Maksukoodi ei saa määrata
+                          href: localizations/tcs-troubleshooting-tax-code-cannot-be-determined.md
+                        - name: Vastavaid tulemusi ei leitud
+                          href: localizations/tcs-troubleshooting-no-matching-result.md
+                        - name: Luba maksuarvutusteenuse silumisrežiim
+                          href: localizations/tcs-troubleshooting-enable-debug-mode.md
                     - name: Maksuarvutuse KKK
                       href: localizations/global-tax-calcuation-service-faq.md?toc=/dynamics365/finance/toc.json
             - name: Maks
@@ -3725,6 +3731,8 @@
                   href: ../fin-ops-core/dev-itpro/analytics/recruiting-analysis-power-bi-content-pack.md?toc=/dynamics365/finance/toc.json
                 - name: Müügi ja tulususe jõudlus
                   href: ../fin-ops-core/dev-itpro/analytics/sales-profitability-performance-content-pack.md?toc=/dynamics365/finance/toc.json
+                - name: Kordustellimuse arvelduse Power BI sisu
+                  href: accounts-receivable/sub-bill-power-bi.md
                 - name: Hankija maksed
                   href: accounts-payable/Vendor-payments-workspace.md
                 - name: Tööjõu mõõdikud

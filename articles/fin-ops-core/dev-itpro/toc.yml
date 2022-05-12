@@ -14,6 +14,8 @@
               items:
                 - name: Mis on uut või mida on muudetud platvormivärskenduste avalehel?
                   href: get-started/whats-new-home-page.md
+                - name: Platvormi versiooni 10.0.27 värskendused (juuli 2022)
+                  href: get-started/whats-new-platform-updates-10-0-27.md
                 - name: Platvormi versiooni 10.0.26 värskendused (mai 2022)
                   href: get-started/whats-new-platform-updates-10-0-26.md
                 - name: Platvormivärskendused versioonile 10.0.25 (aprill 2022)
@@ -66,6 +68,8 @@
                   href: data-entities/odata.md
                 - name: Kohandatud teenuse arendamine
                   href: data-entities/custom-services.md
+                - name: Teenusetaotlus jälgimine
+                  href: data-entities/service-request-tracing.md
                 - name: Korduvad integreerimised
                   href: data-entities/recurring-integrations.md
                 - name: Teenuste testimine kolmandate osapoolte utiliitide abil
@@ -1714,6 +1718,22 @@
                       href: migration-upgrade/migrate-upgraded-cube-entity-store.md
                     - name: Eelarve plaanimise täiendamine
                       href: migration-upgrade/upgrade-budget-planning.md
+                - name: Versiooniuuenduse tõrkeotsing
+                  items:
+                    - name: Arenduskeskkondade tõrkeotsing versiooniuuenduse ajal
+                      href: migration-upgrade/troubleshoot-dev-env.md
+                    - name: Iseteeninduskeskkondade versiooniuuenduste tõrkeotsing
+                      href: migration-upgrade/troubleshoot-self-service-env.md
+                    - name: PreSynci ja PostSynci versiooniuuenduse skriptide tõrkeotsing
+                      href: migration-upgrade/pre-post-upgrade-scripts.md
+                - name: Keskkonna toimingud
+                  items:
+                    - name: Dokumendimanuste migreerimine
+                      href: migration-upgrade/migrate-doc-attachments-ax-2012.md
+                    - name: Versiooniuuenduse lähteandmete puhastamine
+                      href: migration-upgrade/clean-up-source-data-upgrade.md
+                    - name: Tabelite tihendamine Dynamics AX 2012 keskkondades
+                      href: migration-upgrade/compress-tables-ax-2012.md
             - name: Andmete migreerimine versioonist AX 2009
               items:
                 - name: Andmete migreerimine AX 2009-st rakendusse Rahandus ja toimingud
@@ -2000,3 +2020,5 @@
       href: ../../finance/index.md
     - name: Dynamics 365 Commerce
       href: ../../commerce/index.md
+    - name: Dynamics 365 Human Resources
+      href: ../../human-resources/index.md

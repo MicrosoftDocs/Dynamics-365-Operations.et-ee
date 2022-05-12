@@ -12,14 +12,12 @@
               items:
                 - name: Mis on uut või mida on muudetud Supply Chain Managementi avalehel?
                   href: get-started/whats-new-home-page.md
+                - name: Supply Chain Management 10.0.27 (juuli 2022)
+                  href: get-started/whats-new-scm-10-0-27.md
                 - name: Supply Chain Management 10.0.26 (mai 2022)
                   href: get-started/whats-new-scm-10-0-26.md
                 - name: Supply Chain Managementi 10.0.25 (aprill 2022)
                   href: get-started/whats-new-scm-10-0-25.md
-                - name: Supply Chain Management 10.0.24 (veebruar 2022)
-                  href: get-started/whats-new-scm-10-0-24.md
-                - name: Supply Chain Management 10.0.23 (jaanuar 2022)
-                  href: get-started/whats-new-scm-10-0-23.md
             - name: Eemaldatud või iganenud funktsioonid
               items:
                 - name: Eemaldatud või iganenud funktsioonide avaleht
@@ -1725,8 +1723,6 @@
               href: iot/iot-azure-setup.md
             - name: Sõnumiskeemivormingud IoT-keskuse jaoks
               href: iot/iot-schema-format.md
-            - name: Lisandmooduli installimine LCS-is
-              href: iot/iot-lcs-setup.md
             - name: Mõõdikute häälestus
               href: iot/iot-metrics-setup.md
             - name: Stsenaariumi häälestus
@@ -2757,6 +2753,8 @@
                   href: production-control/production-floor-execution-setup.md
                 - name: Kuidas töötajad kasutavad tootmisosakonna käivitusliidest
                   href: production-control/production-floor-execution-use.md
+                - name: Kuva puhkusesaldod tootmisosakonna täideviimisliideses
+                  href: production-control/production-floor-execution-payroll-stats.md
                 - name: Tootmisosakonna käivitusliidese laadide määramine
                   href: production-control/production-floor-execution-styles.md
                 - name: Tootmisosakonna täideviimisliidese kohandamine
