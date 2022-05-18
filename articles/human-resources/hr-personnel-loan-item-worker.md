@@ -8,17 +8,16 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: HcmPersonLoan, HcmPersonLookup, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6356b50e0e3c337c88de86d271bc4438fdd451db
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: d6e0833eed3a423938ecc76957d18cccad2ca9b0
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070212"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8686963"
 ---
 # <a name="loan-item-to-a-worker"></a>Kauba laenamine töötajale
 
@@ -29,23 +28,23 @@ ms.locfileid: "8070212"
 
 
 
-See protseduur näitab, kuidas laenata töötajale eset ja registreerida töötaja poolt laenukauba tagastamine. Töötajad saavad laenukaupu taotleda ka nende kaudu **Töötaja iseteenindus** lehel. The **USMF** Selle protseduuri loomiseks kasutati demoandmete ettevõtet.
+See protseduur näitab, kuidas laenata töötajale kaupa ja registreerida töötaja laenu artikli tagastamine. Töötajad saavad laenuüksusi taotleda ka oma töötaja **iseteeninduslehe** kaudu. Selle **protseduuri loomiseks kasutati USMF-i** demoandmete ettevõtet.
 
 
-## <a name="loan-an-item-to-a-worker"></a>Laenutage töötajale eset
+## <a name="loan-an-item-to-a-worker"></a>Kauba laenamine töötajale
 
-1. Minema **Inimressursid \> Töölised \> Laenuesemed \> Laenatud varustus**.
+1. Avage inimressursside **töötajate laenatud \>\> kaupade laenatud \> seadmed**.
 2. Valige suvand **Uus**.
-3. Aastal **Isik** väljale, sisestage või valige väärtus.
-4. Aastal **Laenuartikkel** väljale, sisestage või valige väärtus.
-5. Aastal **Planeeritud tagasitulek** väljale sisestage kuupäev, millal töötaja peab laenukauba tagastama.
+3. Sisestage **või** valige väärtus väljal Isik.
+4. Sisestage **või** valige väärtus väljal Laenuüksus.
+5. Väljale Planeeritud **tagastus** sisestage kuupäev, millal töötaja peab laenu artikli tagastama.
 6. Valige käsk **Salvesta**.
 7. Sulgege leht.
 
 ## <a name="return-a-loan-item"></a>Laenuartikli tagastamine
 
-1. Minema **Inimressursid \> Töölised \> Laenuesemed \> Laenatud varustus**.
+1. Avage inimressursside **töötajate laenatud \>\> kaupade laenatud \> seadmed**.
 2. Valige suvand **Redigeeri**.
-3. Aastal **Tegelik tulu** väljale, sisestage kuupäev.
+3. Sisestage **väljale** Tegelik tagastus kuupäev.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

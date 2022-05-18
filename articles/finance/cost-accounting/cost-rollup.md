@@ -8,20 +8,20 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CAMCostRollupRule, CAMDimensionHierarchy, CAMOverheadRatePolicy
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f86529359f548bf48fdef8817bd2e2260235561cce57cac28158739687ade2c1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c9c36587294ff157266e354e06d107000f198061
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779952"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734425"
 ---
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>Kulukomplekti poliitika ja üldkulude arvutus 
 
@@ -30,9 +30,7 @@ ms.locfileid: "6779952"
 Kuluarvestuse abil saate ülevaate, kuidas kuluvoog on seotud organisatsioonis edastatavate toodete ja teenustega. Kulude läbipaistvuse tagamiseks on oluline saavutada sobival eraldamisalusel põhinev kulude jagamine kuluobjektide vahel. Vaikimisi saavutatakse kulude eraldamine esmase kuluelemendi jaoks, mis on mõnes olukorras vajalik, kuid sellel on mõningaid nüansse, mida peaks arvestama.
 
 -   Täiendavad kuluobjektid jäävad pärast üldkulude arvutamist esmase kuluelemendi jaoks nullsaldoga.
-
 -   Üldkulude arvutuse loodud kulukirjete maht võib olla väga suur.
-
 -   Kuluobjektide vahelist kuluvoogu pole võimalik jälgida.
 
 Nende mõjude vältimiseks võimaldab kuluarvestus konfigureerida kulude eraldamist nii, et see vastaks teie organisatsiooni juhtimisaruandluse vajadustele. See teema selgitab, kuidas saate määrata õige teiseste kuluelementide taseme ja luua kulu ümberarvestusreeglid, mis sobivad organisatsiooni aruandluse ja kulu jälgitavusega.

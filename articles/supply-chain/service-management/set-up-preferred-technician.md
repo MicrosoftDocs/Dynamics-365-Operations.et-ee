@@ -1,7 +1,7 @@
 ---
 title: Eelistatud tehniku seadistamine
 description: Saate teenusleppe või teenuse tellimuse jaoks eelistatud tehnikuna valida mis tahes töötaja.
-author: kamaybac
+author: sorenva
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dac9af5b0b83875d362f1a9db60c99436d1bb699
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: e59271771a5f332ad8470b0b8f8f54b52a25543d
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574999"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8671670"
 ---
 # <a name="set-up-a-preferred-technician"></a>Eelistatud tehniku seadistamine 
 

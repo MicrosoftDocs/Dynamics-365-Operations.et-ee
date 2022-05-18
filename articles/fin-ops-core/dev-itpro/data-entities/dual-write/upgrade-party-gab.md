@@ -9,12 +9,12 @@ ms.reviewer: josaw
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-31
-ms.openlocfilehash: 95d272d9076f1ab25230e4efa98e321bdd618062
-ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
+ms.openlocfilehash: 22b31b46b247ca5f2d6b8b93f58c090b03a2b38c
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/12/2022
-ms.locfileid: "8407790"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8688370"
 ---
 # <a name="upgrade-to-the-party-and-global-address-book-model"></a>Üleminek osapoole ja globaalse aadressiraamatu mudelile
 
@@ -110,7 +110,7 @@ Uuendus vajab järgmist ettevalmistust:
     | Juurutamistüüp | Võrgus |
     | Teenuse Uri | `https://<organization-name>.crm[x].dynamics.com` |
     | Autentimise tüüp | Office365 |
-    | Kasutajanimi | |
+    | Kasutaja nimi | |
     | Parool või Azure'i võtmehoidla | Parool |
     | Parool | |
 
@@ -198,54 +198,54 @@ See jaotis kirjeldab seadistust, mida nõutakse enne osapoole postiaadressi ja o
 
     + Customeraddress
 
-        + Loo
+        + Loomine
 
             + Microsoft.Dynamics.GABExtended.Kirje.CreatePartyAddress: kliendiaddressi loomine
 
-        + Värskendus
+        + Värskenda
 
             + Microsoft.Dynamics.GABExtended.Kirje.CreatePartyAddress: kliendiaddressi uuendamine
 
-        + Kustuta
+        + Kustutusklahv
 
             + Microsoft.Dynamics.GABExtended.Kirje.DeleteCustomerAddress: kliendiaddressi kustutamine
 
     + msdyn_partypostaladdress
 
-        + Loo
+        + Loomine
 
             + Microsoft.Dynamics.GABExtended.Malli.CreateCustomerAddress: msdyn_partypostaladdress
             + Microsoft.Dynamics.GABExtended.Identifikaator.PartyPostalAddress: loodud msdyn_partypostaladdress
 
-        + Värskendus
+        + Värskenda
 
             + Microsoft.Dynamics.GABExtended.Malli.CreateCustomerAddress: kliendi msdyn_partypostaladdress
             + Microsoft.Dynamics.GABExtended.Identifikaator.PartyPostalAddress: toote msdyn_partypostaladdress
 
     + msdyn_postaladdress
 
-        + Loo
+        + Loomine
 
             + Microsoft.Dynamics.GABExtended.Saate.PostalAddress: msdyn_postaladdress
             + Microsoft.Dynamics.GABExtended.Saate.PostalAddressPostCreate: msdyn_postaladdress
             + Microsoft.Dynamics.GABExtended.UuendusCustomerAddress: loo msdyn_postaladdress
 
-        + Värskendus
+        + Värskenda
 
             + Microsoft.Dynamics.GABExtended.Update.PostalAddressUpdate: kliendi msdyn_postaladdress
             + Microsoft.Dynamics.GABExtended.UuendusCustomerAddress: kliendi msdyn_postaladdress
 
     + msdyn_partyelectronicaddress
 
-        + Loo
+        + Loomine
 
             + Microsoft.Dynamics.GABExtended.Elec.PartyElectronicAddressSync: kauba msdyn_partyelectronicaddress
 
-        + Värskendus
+        + Värskenda
 
             + Microsoft.Dynamics.GABExtended.Elec.PartyElectronicAddressSync: toote msdyn_partyelectronicaddress
 
-        + Kustuta
+        + Kustutusklahv
 
             + Microsoft.Dynamics.GABExtended.Elec.DeletePartyElectronicAddressSync: msdyn_partyelectronicaddress
 
@@ -281,7 +281,7 @@ See jaotis kirjeldab seadistust, mida nõutakse enne osapoole postiaadressi ja o
 
     ![Osapoole postiaadressi ja osapoole elektroonilise aadressi mallide käitamine](media/ADF-7.png)
 
-10. Finantside ja toimingute rakenduse värskendamiseks nende andmetega peate teisendama .CSV-failid Exceli [töövihikusse ja importima selle Finantside ja Toimingute rakendusse](/data-entities/data-import-export-job). Kui CSV-import teie eest töötab, saate importida .csv-failid otse. Olenevalt mahust võib selle lõpule viimine võtta mitu tundi.
+10. Finantside ja toimingute rakenduse värskendamiseks nende andmetega peate teisendama .CSV-failid Exceli [töövihikusse ja importima selle Finantside ja Toimingute rakendusse](../data-import-export-job.md). Kui CSV-import teie eest töötab, saate importida .csv-failid otse. Olenevalt mahust võib selle lõpule viimine võtta mitu tundi.
 
     ![Õnnestunud import.](media/ADF-8.png)
 
@@ -307,40 +307,40 @@ See jaotis kirjeldab seadistust, mida nõutakse enne osapoole postiaadressi ja o
 
     + msdyn_partypostaladdress
 
-        + Loo
+        + Loomine
 
             + Microsoft.Dynamics.GABExtended.Malli.CreateCustomerAddress: msdyn_partypostaladdress
             + Microsoft.Dynamics.GABExtended.Identifikaator.PartyPostalAddress: loodud msdyn_partypostaladdress
 
-        + Värskendus
+        + Värskenda
 
             + Microsoft.Dynamics.GABExtended.Malli.CreateCustomerAddress: kliendi msdyn_partypostaladdress
             + Microsoft.Dynamics.GABExtended.Identifikaator.PartyPostalAddress: toote msdyn_partypostaladdress
 
     + msdyn_postaladdress
 
-        + Loo
+        + Loomine
 
             + Microsoft.Dynamics.GABExtended.Saate.PostalAddress: msdyn_postaladdress
             + Microsoft.Dynamics.GABExtended.Saate.PostalAddressPostCreate: msdyn_postaladdress
             + Microsoft.Dynamics.GABExtended.UuendusCustomerAddress: loo msdyn_postaladdress
 
-        + Värskendus
+        + Värskenda
 
             + Microsoft.Dynamics.GABExtended.Update.PostalAddressUpdate: kliendi msdyn_postaladdress
             + Microsoft.Dynamics.GABExtended.UuendusCustomerAddress: kliendi msdyn_postaladdress
  
     + msdyn_partyelectronicaddress
 
-        + Loo
+        + Loomine
 
             + Microsoft.Dynamics.GABExtended.Elec.PartyElectronicAddressSync: kauba msdyn_partyelectronicaddress
 
-        + Värskendus
+        + Värskenda
 
             + Microsoft.Dynamics.GABExtended.Elec.PartyElectronicAddressSync: toote msdyn_partyelectronicaddress
 
-        + Kustuta
+        + Kustutusklahv
 
             + Microsoft.Dynamics.GABExtended.Elec.DeletePartyElectronicAddressSync: msdyn_partyelectronicaddress
 

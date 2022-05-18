@@ -1,7 +1,7 @@
 ---
 title: Kuluarvutustabelid
 description: Kuluarvutustabeli seadistus täidab kahte eesmärki. Esimese sihina määrate müüdud kaupade maksumuse teabe kuvamise vormingu toodetud kauba või tootmistellimuse kohta. Vormindatud kuva nimetatakse kuluarvutustabeliks. Teise sihina määrate kaudse kulu arvutamise alused. Kuluarvutustabeli seadistus põhineb kulugrupi teabekuvamise funktsioonil ja kaudse kulu arvutamise valemitel. Selles artiklis on kirjeldatud kuluarvutustabeli seadistuse kahte eesmärki.
-author: AndersGirke
+author: JennySong-SH
 ms.date: 11/18/2021
 ms.topic: article
 ms.search.form: CostSheetDesigner, CostSheetCalculationFactor
@@ -9,15 +9,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 53201
 ms.search.region: Global
-ms.author: aevengir
+ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 64b8a9b8b29193f25e706e52424de2af3454aec8
-ms.sourcegitcommit: f11ad8d7ee8a4d2ee1a1bb601622b50e14955c4a
+ms.openlocfilehash: 6891fc4472e714133a7d0cdf77f2908becc0547c
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/18/2021
-ms.locfileid: "7825354"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8672426"
 ---
 # <a name="costing-sheets"></a>Kuluarvutustabelid
 
@@ -30,8 +30,8 @@ Järgmises tabelis loetletakse boksist väljas turberollid, mis pääsevad juurd
 | Roll | Juurdepääs
 |---|---|
 | Pearaamatupidaja | Redigeeri |
-| Varude arveametnik | Vaade |
-| Varude raamatupidaja | Vaade |
+| Varude arveametnik | Kuva |
+| Varude raamatupidaja | Kuva |
 
 Kuluarvutustabel on vormindatud kuva teabest toodetud kaupade või tootmistellimuse jaoks müüdud kaupade kulu kohta. Kuluarvutustabeli seadistamisel saate määratleda teabe vormingu ja ka kaudsete kulude arvutamise aluse. Kuluarvutustabeli seadistus põhineb kulugrupi teabe kuvamise funktsioonil ja kaudse kulu arvutamiseks kasutatavatel valemitel. Siin leiate kuluarvutustabeli seadistamise kahe eesmärgi kohta lisateavet.
 

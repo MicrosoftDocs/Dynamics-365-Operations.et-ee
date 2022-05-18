@@ -1,6 +1,6 @@
 ---
 title: Hilisema kuupäevaga dateeritud tšekid
-description: Selles artiklis antakse teavet hilisema kuupäevaga tšekkide toe kohta Microsoft Dynamics 365 Finance'is. Hilisema kuupäevaga dateeritud tšekid on tšekid, mis väljastatakse tulevasel kuupäeval maksete tegemise ja vastuvõtmise eesmärgil. Seetõttu ei saa tšekki enne määratud kuupäeva sularahaks vahetada.
+description: See artikkel annab teavet postitatud tšekkide toe kohta jaotises Microsoft Dynamics 365 Finantsid. Hilisema kuupäevaga dateeritud tšekid on tšekid, mis väljastatakse tulevasel kuupäeval maksete tegemise ja vastuvõtmise eesmärgil. Seetõttu ei saa tšekki enne määratud kuupäeva sularahaks vahetada.
 author: panolte
 ms.date: 01/12/2018
 ms.topic: article
@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: VendPostDatedChecks, CustPostDatedChecks
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 21741
 ms.assetid: 4eb7c7da-1e6b-4d35-9f41-373b66103229
 ms.search.region: Global
-ms.author: leguo
+ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3f5c4d641a3d3ccc326ee56ce7bd05c891b3fa8a
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 33de0d5180962f52ddb0770f8729ed147d144e6d
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7595458"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8722851"
 ---
 # <a name="postdated-checks"></a>Hilisema kuupäevaga dateeritud tšekid
 
@@ -28,7 +28,7 @@ ms.locfileid: "7595458"
 
 Selles artiklis antakse teavet hilisema kuupäevaga tšekkide toe kohta. Hilisema kuupäevaga dateeritud tšekid on tšekid, mis väljastatakse tulevasel kuupäeval maksete tegemise ja vastuvõtmise eesmärgil. Seetõttu ei saa tšekki enne määratud kuupäeva sularahaks vahetada.
 
-Dynamics 365 Finance toetab hilisema kuupäevaga dateeritud tšekkide täielikku haldustsüklit nii müügireskontros kui ka ostureskontros, nagu on näidatud järgmises tabelis.
+Dynamics 365 Finance toetab järelndekseeritud tšekkide täielikku haldustsüklit nii müügireskontros kui ka ostureskontros, nagu näha järgmises tabelis.
 <table>
 <colgroup>
 <col width="50%" />

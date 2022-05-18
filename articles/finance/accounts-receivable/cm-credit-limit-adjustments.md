@@ -7,17 +7,17 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschloma
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c171ab99a434e529c48f39be9147ac411fb08b9b
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: 4d96f50db4379a44ad8f2b06725db654a27393f9
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7753894"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734799"
 ---
 # <a name="credit-limit-adjustments"></a>Krediidilimiidi korrektsioonid 
 
@@ -27,7 +27,7 @@ Krediidilimiidi korrigeerimised lasevad krediidihalduritel värskendada ühe kli
 
 ## <a name="set-up-credit-limit-adjustments"></a>Krediidilimiidi korrigeerimiste seadistamine
 
-Saate luua krediidilimiidi korrigeerimise töölehele kandeid lehel **Krediidilimiidi korrigeerimine** (**Krediidihaldus \> Krediidilimiidi korrigeerimine \> Krediidilimiidi korrigeerimine**).
+Krediidilimiidi korrigeerimise lehel (**krediidihalduse** krediidilimiidi korrigeerimised **) saate** **luua kirjeid krediidilimiidi \> korrigeerimise töölehel \>.**
 
 1. Valige suvand **Uus**. Luuakse uus kirjete grupp, millel on krediidilimiidi korrigeerimise number.
 2. Krediidilimiidi korrigeerimise tüübi valik.

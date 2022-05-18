@@ -2,25 +2,25 @@
 title: Esialgse kliendimakse prognoosimudeli hindamine
 description: See teema kirjeldab samme, mida saate teha kliendimakse prognoosimise mudeli mõistmiseks ja selle tõhususe hindamiseks.
 author: ShivamPandey-msft
-ms.date: 07/16/2021
+ms.date: 05/02/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 874c6e938681537a0420eece6835a4c2124e11fc
-ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
+ms.openlocfilehash: c0951c8dcf6205ebbb15baf86b1272af4e95547f
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7969108"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8677950"
 ---
 # <a name="evaluate-the-initial-customer-payment-prediction-model"></a>Esialgse kliendimakse prognoosimudeli hindamine
 
@@ -30,17 +30,17 @@ See teema selgitab, kuidas hinnata prognoosimise mudelit pärast seda, kui olete
 
 ## <a name="getting-details-about-the-model"></a>Mudeli üksikasjade hankimine
 
-Rakenduse Microsoft Dynamics 365 Finance lehel **Finantsülevaadete parameetrid** ilmub täpsuse skoori kõrval link **Mudeli täpsuse parandamine**.
+**365 Finance** Microsoft Dynamics finantsülevaate **parameetrite** lehel kuvatakse täpsuse punktisumma kõrval mudeli täpsuse parandamise link.
 
 [![Mudeli täpsuse parandamise link.](./media/prediction-model.png)](./media/prediction-model.png)
 
-See link viib teid AI Builder lehele, kus saate praeguse mudeli kohta lisateavet saada ja selle parandamiseks samme teha. Järgmisel joonisel näidatakse avatud lehte.
+See link viib teid lehele AI Builder, kus saate praeguse mudeli kohta lisateavet saada ja selle parandamiseks samme teha. Järgmisel joonisel näidatakse avatud lehte.
 
 [![AI Builder.](./media/what-to-predict.png)](./media/what-to-predict.png)
 
 Avaneb leht kuvab järgmist teavet.
 
-- Jaotises **Jõudlus** annab mudeli jõudluse klass mudeli kvaliteedi kohta perspektiivi. Lisateavet selle taseme kohta vt [dokumentatsioonist Ennustuse](/ai-builder/prediction-performance) mudeli AI Builder jõudlust.
+- Jaotises **Jõudlus** annab mudeli jõudluse klass mudeli kvaliteedi kohta perspektiivi. Lisateavet selle taseme kohta vt dokumentatsioonist [Ennustuse](/ai-builder/prediction-performance) mudeli jõudlust AI Builder.
 - Jaotis **Kõige mõjukamad andmed** näitab, kui olulised olid teie mudeli jaoks eri andmete sisestustüübid. Saate hinnata seda loendit ja vastavaid protsente, et teha kindlaks, kas teave on kooskõlas sellega, mida te oma ettevõtte ja turu kohta teate.
 
     [![Prognoosi mudeli jõudluse ja kõige mõjukamate andmete jaotised.](./media/models.png)](./media/models.png)
@@ -51,7 +51,7 @@ Avaneb leht kuvab järgmist teavet.
 
 ## <a name="digging-deeper"></a>Süvitsi minemine
 
-Ehkki täpsus on hea alguspunkt mudeli hindamisel ja jõudluse aste annab perspektiivi, pakub see üksikasjalikumaid mõõdukaid, mida AI Builder saate kasutada oma hindamisel. Üksikasjade allalaadimiseks valige jaotises **Jõudlus** kolmikpunkti nupp (**…**), mis asub nupu **Kasuta mudelit** kõrval, ja valige seejärel käsk **Laadi alla üksikasjalikud mõõdikud**.
+Ehkki täpsus on hea alguspunkt mudeli hindamisel ja jõudluse aste annab perspektiivi, pakub see üksikasjalikumaid mõõdukaid, AI Builder mida saate kasutada oma hindamisel. Üksikasjade allalaadimiseks valige jaotises **Jõudlus** kolmikpunkti nupp (**…**), mis asub nupu **Kasuta mudelit** kõrval, ja valige seejärel käsk **Laadi alla üksikasjalikud mõõdikud**.
 
 [![Üksikasjalike mõõdikute allalaadimise käsk.](./media/performance.png)](./media/performance.png)
 
@@ -89,10 +89,10 @@ Sel juhul näitab F1 makro skoor ligikaudu 49,3 protsenti, et olenemata küllalt
 
 ## <a name="improving-the-model"></a>Mudeli parandamine
 
-Pärast oma esimese mudeli tulemuste paremini mõistmist võite tahta oma mudelit parandada, lisades või eemaldades funktsioonide veerge või filtreerides mis tahes andmekomplektide osi, mis ei toeta täpseid prognoose. Sulgege ja kasutage seejärel protsessi taaskäivitamiseks linki AI Builder Parandada **·** Dynamics 365 Finance AI Builder mudelit. Saate eksperimenteerida erinevate omadustega ilma avaldatud mudelit mõjutamata. Avaldatud mudel on mõjutatud ainult siis, kui valite nupu **Avalda**. Pidage meeles, et teie rakenduse Dynamics 365 Finance eksemplari jaoks kasutatakse ühte mudelit. Seega peate enne selle avaldamist hoolikalt vaatama läbi kõik uued mudelid.
+Pärast oma esimese mudeli tulemuste paremini mõistmist võite tahta oma mudelit parandada, lisades või eemaldades funktsioonide veerge või filtreerides mis tahes andmekomplektide osi, mis ei toeta täpseid prognoose. Sulgege AI Builder ja kasutage protsessi taaskäivitamiseks **Dynamics** 365 Finance mudeli täiustamise linki AI Builder. Saate eksperimenteerida erinevate omadustega ilma avaldatud mudelit mõjutamata. Avaldatud mudel on mõjutatud ainult siis, kui valite nupu **Avalda**. Pidage meeles, et teie Dynamics 365 Finance eksemplari jaoks kasutatakse ühte mudelit. Seega peate enne selle avaldamist hoolikalt vaatama läbi kõik uued mudelid.
 
 ## <a name="for-more-information"></a>Lisateave
 
-Lisateavet prognooside mudelite hindamise kohta vt teemast [Masinõppemudelite tulemid](/confusion-matrix.md)
+Lisateavet prognooside mudelite hindamise kohta vt teemast [Masinõppemudelite tulemid](confusion-matrix.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

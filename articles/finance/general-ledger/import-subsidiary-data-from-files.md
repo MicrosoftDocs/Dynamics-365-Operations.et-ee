@@ -1,6 +1,6 @@
 ---
 title: Failidest allettevõtte andmete importimine
-description: Selles teemas kirjeldatakse, kuidas ette valmistada andmeid välissüsteemidest, nii et neid saab importida rakendusse Microsoft Dynamics 365 Finance.
+description: See teema kirjeldab, kuidas ette valmistada andmeid välissüsteemidest, nii et seda saab importida süsteemi Microsoft Dynamics 365 Finance.
 author: jinniew
 ms.date: 10/09/2020
 ms.topic: article
@@ -8,28 +8,28 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 4be1e748724331c4e2089da8a08a9ac7e5cf88a2ac6d3d89b37b9fcd4480f516
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 045ecd6dfb95ccf38773293d44834531668ac1ff
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727296"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8733815"
 ---
 # <a name="import-subsidiary-data-from-files"></a>Failidest allettevõtte andmete importimine
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas kirjeldatakse, kuidas ette valmistada andmeid välissüsteemidest, nii et neid saab importida rakendusse Microsoft Dynamics 365 Finance. Kasutate lehte **Konsolideeri impordiga** (**Konsolideerimised \> Konsolideeri impordiga**), et valmistada ette allettevõtte andmete edastamiseks välissüsteemidest.
+See teema kirjeldab, kuidas ette valmistada andmeid välissüsteemidest, nii et seda saab importida süsteemi Microsoft Dynamics 365 Finance. Kasutate lehte **Konsolideeri impordiga** (**Konsolideerimised \> Konsolideeri impordiga**), et valmistada ette allettevõtte andmete edastamiseks välissüsteemidest.
 
 1. Allettevõtte juriidilise isiku loomine konsolideerimiseks. Lisateavet juriidiliste isikute loomise kohta leiate jaotisest [Juriidilise isiku loomine](../../fin-ops-core/fin-ops/organization-administration/tasks/create-legal-entity.md). Lisateavet leiate jaotisest [Juriidilise isiku ettevalmistamine konsolideerimisprotsessis kasutamiseks](prepare-company-for-consolidation.md) ja [Allettevõtte juriidilise isiku seadistamine konsolideerimiseks](set-up-subsidiary-company-for-consolidation.md).
 
 2. Valmistage ette fail, mis sisaldab imporditud andmeid. Lisateavet importimise protsessi kohta leiate jaotisest [Andmete importimis- ja eksportimistööde ülevaade](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md).
-3. Eksportige andmed faili, järgides protseduuri "Andmete importimise/eksportimise protsess" jaotises [Andmete importimis- ja eksportimistööde ülevaade](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md). Seda protseduuri saate kasutada andmete konsolideerimiseks kas teisest rakenduse Dynamics 365 Finance eksemplarist või rakendusest Dynamics 365 Business Central. Kui impordite andmeid välissüsteemidest, peavad andmed olema vormingus, mis on kirjeldatud jaotises [Allandmete eksportimine failidesse](export-subsidiary-data-to-file.md).
+3. Eksportige andmed faili, järgides protseduuri "Andmete importimise/eksportimise protsess" jaotises [Andmete importimis- ja eksportimistööde ülevaade](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md). Seda protseduuri saate kasutada andmete konsolideerimiseks kas dynamics 365 finantside teisest eksemplarist või rakendusest Dynamics 365 Business Central. Kui impordite andmeid välissüsteemidest, peavad andmed olema vormingus, mis on kirjeldatud jaotises [Allandmete eksportimine failidesse](export-subsidiary-data-to-file.md).
 4. Avage **Konsolideerimised \> Konsolideeri impordiga**. Määratlege lehe **Konsolideeri impordiga** vahekaardil **Kriteeriumid** aruande ja/või impordi üksikasjad, seadistades järgmised väljad.
 
     | Field                                 | Aruande väärtus | Impordi väärtus |

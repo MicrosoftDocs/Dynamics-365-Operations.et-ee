@@ -2,7 +2,7 @@
 title: Laokannete arhiivimine
 description: Selles teema kirjeldatakse, kuidas arhiveerida laokannete andmeid süsteemi jõudluse parandamiseks.
 author: yufeihuang
-ms.date: 03/01/2021
+ms.date: 05/10/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 99a7b61d9bd5e1e2bd8d2c7df34882646bb51270
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 8b766d306f31fc531f33aa29e1f96048bbd90085
+ms.sourcegitcommit: e18ea2458ae042b7d83f5102ed40140d1067301a
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567459"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8736057"
 ---
 # <a name="archive-inventory-transactions"></a>Laokannete arhiivimine
 
@@ -116,3 +116,110 @@ Ruudustiku kohal tööriistaribal on järgmised nupud, mida saate kasutada valit
 - **Peata arhiivimine** – saate peatada praegu töödeldava valitud arhiivi. Peatamine jõustub alles pärast arhiivimisülesande loomist. Seega võib peatamise jõustumine toimuda viivitusega. Kui arhiiv on peatatud, kuvatakse väljal **Peata praegune uuendus** märge.
 - **Jätka arhiivimist** – saate jätkata praegu peatatud valitud arhiivi töötlemist.
 - **Pööra tagasi** – saate valitud arhiivi tagasi pöörata. Arhiivi saate tagasi pöörata ainult siis, kui selle välja **Olek** väärtuseks on seatud *Lõpetatud*. Kui arhiiv on tagasi pööratud, kuvatakse väljal **Tagasipööratud** märge.
+
+## <a name="extend-your-code-to-support-custom-fields"></a>Koodi laiendamine kohandatud väljade toetamiseks
+
+Kui tabel `InventTrans` sisaldab ühte või mitut kohandatud välja, peate võib-olla koodi nende toetamiseks laiendama, sõltuvalt nende nimest.
+
+- Kui tabeli kohandatud väljadel `InventTrans` on samad välja nimed `InventtransArchive`, mis tabelis, tähendab see, et need on vastendatud 1:1. Seetõttu saate kohandatud väljad lihtsalt tabeli `InventoryArchiveFields` väljagruppi `inventTrans` panna.
+- Kui tabeli kohandatud väljade `InventTrans` nimed ei ühti `InventtransArchive` tabeli väljanimedega, peate nende vastendamiseks lisama koodi. Näiteks kui `InventTrans.CreatedDateTime` teil on süsteemiväli kutsutud, `InventTransArchive` peate looma tabelis välja teise nimega (`InventtransArchive.InventTransCreatedDateTime` nt) ja lisama laiendeid klassidele, nagu näidatud järgmises näidiskoodis `InventTransArchiveProcessTask``InventTransArchiveSqlStatementHelper`.
+
+Järgmine näidiskood näitab näidet, kuidas lisada klassile nõutav `InventTransArchiveProcessTask` laiend.
+
+```xpp
+[ExtensionOf(classStr(InventTransArchiveProcessTask))]
+Final class InventTransArchiveProcessTask_Extension
+{
+
+    protected void addInventTransFields(SysDaSelection _selectionObject)
+    {
+        _selectionObject.add(fieldStr(InventTrans, ModifiedBy))
+            .add(fieldStr(InventTrans, CreatedBy)).add(fieldStr(InventTrans, CreatedDateTime));
+
+        next addInventTransFields(_selectionObject);
+    }
+
+
+    protected void addInventTransArchiveFields(SysDaSelection _selectionObject)
+    {
+        _selectionObject.add(fieldStr(InventTransArchive, InventTransModifiedBy))
+            .add(fieldStr(InventTransArchive, InventTransCreatedBy)).add(fieldStr(InventTransArchive, InventTransCreatedDateTime));
+
+        next addInventTransArchiveFields(_selectionObject);
+    }
+}
+```
+
+Järgmine näidiskood näitab näidet, kuidas lisada klassile nõutav `InventTransArchiveSqlStatementHelper` laiend.
+
+```xpp
+[ExtensionOf(classStr(InventTransArchiveSqlStatementHelper))]
+final class InventTransArchiveSqlStatementHelper_Extension
+{
+    private str     inventTransModifiedBy;  
+    private str     inventTransCreatedBy;
+    private str     inventTransCreatedDateTime;
+
+    protected void initialize()
+    {
+        next initialize();
+        inventTransModifiedBy = new SysDictField(tablenum(InventTrans), fieldNum(InventTrans, ModifiedBy)).name(DbBackend::Sql);
+        inventTransCreatedDateTime = new SysDictField(tablenum(InventTrans), fieldNum(InventTrans, CreatedDateTime)).name(DbBackend::Sql);
+        inventTransCreatedBy = new SysDictField(tablenum(InventTrans), fieldNum(InventTrans, CreatedBy)).name(DbBackend::Sql);
+    }
+
+    protected str buildInventTransArchiveSelectionFieldsStatement()
+    {
+        str     ret;
+
+        ret = next buildInventTransArchiveSelectionFieldsStatement();
+        
+        if (inventTransModifiedBy)
+        {
+            ret += ',';
+            ret += strFmt('%1',  new SysDictField(tablenum(InventTransArchive), fieldNum(InventTransArchive, InventTransModifiedBy)).name(DbBackend::Sql));
+        }
+
+        if (inventTransCreatedBy)
+        {
+            ret += ',';
+            ret += strFmt('%1',  new SysDictField(tablenum(InventTransArchive), fieldNum(InventTransArchive, InventTransCreatedBy)).name(DbBackend::Sql));
+        }
+
+        if (inventTransCreatedDateTime)
+        {
+            ret += ',';
+            ret += strFmt('%1',  new SysDictField(tablenum(InventTransArchive), fieldNum(InventTransArchive, InventTransCreatedDateTime)).name(DbBackend::Sql));
+        }
+
+        return ret;
+    }
+
+    protected str buildInventTransTargetFieldsStatement()
+    {
+        str     ret;
+
+        ret = next buildInventTransTargetFieldsStatement();
+
+        if (inventTransModifiedBy)
+        {
+            ret += ',';
+            ret += strFmt('%1', inventTransModifiedBy);
+        }
+
+        if (inventTransCreatedBy)
+        {
+            ret += ',';
+            ret += strFmt('%1', inventTransCreatedBy);
+        }
+
+        if (inventTransCreatedDateTime)
+        {
+            ret += ',';
+            ret += strFmt('%1', inventTransCreatedDateTime);
+        }
+
+        return ret;
+    }
+}
+```

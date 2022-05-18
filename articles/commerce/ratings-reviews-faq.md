@@ -8,17 +8,16 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-09-03
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: c6356f7c085b93e3e3f292e72f813f823e924487
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.openlocfilehash: f8d79697aaf17e2860d2c47e7d1bf6b4352f0089
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968173"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8691051"
 ---
 # <a name="ratings-and-reviews-faq"></a>Hinnangud ja arvustused KKK
 
@@ -48,10 +47,10 @@ Juhiseid hinnangute ja hinnangute käsitsi avaldamise lubamiseks ja jõustamisek
 
 [Toote hinnangute sünkroonimine](sync-product-ratings.md)
 
-[Lubage hinnangute ja ülevaadete käsitsi avaldamine moderaatori poolt](manual-publish-rating-reviews.md)
+[Moderaatori hinnangute ja ülevaadete käsitsi avaldamise lubamine](manual-publish-rating-reviews.md)
 
-[Hinnangute ja kommentaaride importimine ja eksportimine](import-export-reviews.md)
+[Hinnangute ja arvustuste importimine ja eksportimine](import-export-reviews.md)
 
-[Teenusepõhise autentimise konfigureerimine](service-to-service-auth.md)
+[Teenusest teenusesse autentimise konfigureerimine](service-to-service-auth.md)
 
 [Hinnangute täpsustaja kuvatakse otsingutulemustel ja kategoorialehtedel, kui hinnang ja ülevaatelahendus pole lubatud](troubleshoot/hide-ratings-refiner.md)

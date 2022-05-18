@@ -9,18 +9,17 @@ ms.technology: ''
 ms.search.form: HcmJob, HcmJobFunction, HcmJobTask, HcmTitle, HcmPersonnelManagementWorkspace, HCMJobFamily
 audience: Application User
 ms.author: twheeloc
-ms.search.scope: Human Resources
 ms.custom: 269054
 ms.assetid: 889a8fab-0eef-45c2-91fc-ff2f4d44d54f
 ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7e2c9421646dacc5523f40b28b550881dc4b25dd
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: de828bc1ab764a8a1bd084a508f38ff19a3947d5
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068155"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8693580"
 ---
 # <a name="set-up-the-components-of-a-job"></a>Töö komponentide seadistamine
 
@@ -63,7 +62,7 @@ Tööfunktsioonid kirjeldavad kõrgetasemelisi funktsioonikategooriaid ja seotud
 Tööfunktsioone saate hallata lehel **Tööfunktsioonid**. Sisestage lehel **Tööfunktsioonid** tööfunktsiooni ID-kood ja lühikirjeldus.
 
 ## <a name="compensation"></a>Hüvitus
-Fikseeritud tasuplaani määramiseks töötajale, kellel on töö positsioon, peate tööle seadistama hüvitustasemed. Hüvitise **taset** kasutatakse siis, kui miinimum-, keskpunkt- ja maksimumsummad on määratud kompensatsioonistruktuuris (kompensatsiooniruudustikus). Kui põhitasu plaan on loodud, valitakse tasustruktuur. Tasustruktuur hõlmab ka hüvitustaset. Kui valite töötajale fikseeritud tasuplaani, sõltuvad valimiseks saadaolevad tasutasemed tööst, millega töötaja ametikoht on seotud. Lisateavet kompensatsiooni seadmise kohta leiate artiklist [Kompensatsiooniplaanid](hr-compensation-overview.md).
+Fikseeritud tasuplaani määramiseks töötajale, kellel on töö positsioon, peate tööle seadistama hüvitustasemed. Hüvituse **taset** kasutatakse siis, kui miinimum-, keskpunkti- ja maksimumsummad on seadistatud tasustruktuuris (tasuruudustik). Kui põhitasu plaan on loodud, valitakse tasustruktuur. Tasustruktuur hõlmab ka hüvitustaset. Kui valite töötajale fikseeritud tasuplaani, sõltuvad valimiseks saadaolevad tasutasemed tööst, millega töötaja ametikoht on seotud. Lisateavet kompensatsiooni seadmise kohta leiate artiklist [Kompensatsiooniplaanid](hr-compensation-overview.md).
 
 ## <a name="job-skills"></a>Töö oskused
 Tööoskused kirjeldavad oskusi, mis on vajalikud töö sooritamiseks. Oskuste tase tuleb seostada iga tööoskusega. Oskuste tasemed on kasutaja määratud. Need näitavad oskusele vajaliku teadmiste või oskustaseme taset. Näiteks võivad ettevõtted seadistada numbrilisi tasemeid, nt 1–5, kus **1** näitab algajat ja **5** näitab spetsialisti. Teise võimalusena võivad ettevõtted seadistada tasemed, mille sildiks on **Algaja**, **Edasijõudnu** või **Ekspert**. Pärast oskuste taseme seadmist saab seada ka oskuse tähtsuse. Näiteks kui raamatupidaja peab omama tugevaidd teadmisi, saab Microsoft Excel`is luua oskuse, mille nimi on **Exceli oskus**. Seejärel saab oskuste tasemeks seada **Edasijõudnu** ja selle tähtsus seada väärtusele **Enamik**.

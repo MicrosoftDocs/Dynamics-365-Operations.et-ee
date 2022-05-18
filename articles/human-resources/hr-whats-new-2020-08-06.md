@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-08-06
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: dbcf854330b7c5ba6ca812a5aed384584c05ce8d
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: a8058c1acdde20a1b48130fa1e8b75aa415bafce
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062182"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8691970"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-august-06-2020"></a>Mis on uut ja mida on muudetud rakenduses Dynamics 365 Human Resources (06. august 2020)?
 
@@ -32,7 +31,7 @@ Selles teemas kirjeldatakse Dynamics 365 Human Resourcesi uusi või muutunud fun
 
 ## <a name="platform-update-1001236-is-now-available"></a>Platvormivärskendus 10.0.12(36) on nüüd saadaval
 
-Lisateavet leiate teemast [Finance and Operationsi rakenduste versiooni 10.0.12 platvormi värskendused (august 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-10-0-12.md).
+Lisateavet vt Platvormi värskendustest [versioonile 10.0.12 Finance and Operations rakendustest (august 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-10-0-12.md).
 
 ## <a name="data-management-framework-dmf-entities-for-benefits-management"></a>Andmehaldusraamistiku (DMF) üksused soodustuste haldamiseks
  

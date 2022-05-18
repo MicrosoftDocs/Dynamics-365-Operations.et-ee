@@ -1,6 +1,6 @@
 ---
 title: Topeltvaluuta
-description: Selles teemas antakse teavet topeltvaluuta kohta, kui kasutatakse rakenduses Microsoft Dynamics 365 Finance kasutatakse teise arvestusvaluutana aruandlusvaluutat.
+description: Selles teemas antakse teavet topeltvaluuta kohta, kus aruandlusvaluutat kasutatakse teise arvestusvaluutana Microsoft Dynamics 365 finantside puhul.
 author: kweekley
 ms.date: 04/17/2020
 ms.topic: article
@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerJournalTable, Ledger, AssetTransReportingCurrencyAmountsWizard,BankAccountTransReportingCurrencyAmountsWizard, LedgerTrialBalanceListPage
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: b20c45952d2c0c28a1b785fd92bf47cfb25251fa3a3308d14130ad0f1c78305d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 04738d2fe88fef5c0e96a39febfec86fab3bee7d
+ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6762063"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8713566"
 ---
 # <a name="dual-currency"></a>Topeltvaluuta
 
@@ -199,7 +199,7 @@ Lisaks tehti olulisi muudatusi kulumiarvestuse protsessis. Need muudatused nõua
     
 ### <a name="consolidations"></a>Konsolideerimised
     
-Dynamics 365 Finance versioonis 10.0.5 (2019. aasta oktoober) saab funktsioone hallata funktsioonide halduse kaudu, et konsolideerimine ja topeltvaluuta oleksid veelgi paindlikumad. Selle funktsiooni lubamiseks minge tööruumi **Funktsioonide haldus** ja valige **Luba topeltvaluuta pearaamatu konsolideerimisel**.
+Dynamics 365 Finance versioonile 10.0.5 (oktoober 2019) tutvustatud funktsioon võimaldab funktsioone funktsioonihalduse kaudu, mis võimaldab konsolideerimise ja topeltvaluuta täiustatud paindlikkust. Selle funktsiooni lubamiseks minge tööruumi **Funktsioonide haldus** ja valige **Luba topeltvaluuta pearaamatu konsolideerimisel**.
 
 Pearaamatu konsolideerimisel on nüüd võimalik konsolideerida lähteettevõtete arvestus- või aruandlusvaluuta summasid. Kui arvestus- või aruandlusvaluuta on sama, mis konsolideeritava ettevõte arvestus- või aruandlusvaluuta, siis summad kopeeritakse, selmet ümber arvutada.
 

@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: PersonnelIntegrationConfiguration
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7e2043e75aa647e21f3e0816247dcf651be64730
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: a4e95a78364fcee2c03614e110f9b5983abfde37
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067072"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8691328"
 ---
 # <a name="configure-integration-with-dayforce"></a>Integratsiooni konfigureerimine Dayforce’iga
 
@@ -42,7 +41,7 @@ See teema kirjeldab samme, mida peate järgima integratsiooni lubamiseks ja selg
 
 ## <a name="enable-the-integration"></a>Integratsiooni lubamine
 
-Dayforce’iga ühendamiseks peate rakenduses Human Resources sisse lülitama integratsiooni ja sisestama konfigureerimisteabe. Kui soovite, et loodav pearaamatu kanne imporditaks rakendusse Microsoft Dynamics 365 Finance, siis peate seadistama Microsoft Azure’i salvestuskonto ja sisestama Azure’i salvestusruumi ühendusstringi rakendusse Finance.
+Dayforce’iga ühendamiseks peate rakenduses Human Resources sisse lülitama integratsiooni ja sisestama konfigureerimisteabe. Kui soovite, et Microsoft Dynamics toodetud pearaamatukanne imporditakse finantsidesse 365, Microsoft Azure peate häälestama ka ladustamiskonto ja sisestama finances Azure'i ladustamise ühenduse stringi.
 
 Integratsiooni sisselülitamiseks rakenduses Human Resources järgige neid samme.
 

@@ -1,7 +1,7 @@
 ---
 title: Töö tükeldamine
 description: Selles teemas kirjeldatakse töö jaotamise funktsiooni. See funktsioon võimaldab teil tükeldada suured töötellimused mitmeks väiksemaks töötellimuseks, mille saate määrata mitmele lao töötajale. Sel viisil saab sama tööd üheaegselt komplekteerida mitu lao töötajat.
-author: mirzaab
+author: Mirzaab
 ms.date: 10/15/2020
 ms.topic: article
 ms.prod: ''
@@ -13,12 +13,12 @@ ms.search.industry: WHSWorkTableListPage
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-15
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 8b06164a81a18548cf9d98ea2f577b5783145100
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: b9914958684d552f0b45ddca641238124ade3454
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778253"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8669456"
 ---
 # <a name="work-split"></a>Töö tükeldamine
 
@@ -33,7 +33,7 @@ Töö jaotamise funktsioon võimaldab teil tükeldada suured töö ID-d (mitmete
 
 Enne töö tükeldamise funktsiooni kasutamist peate oma süsteemis sisse lülitama funktsiooni ja selle eeltingimuse funktsiooni. Administraatorid saavad kasutada [funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sätteid, et kontrollida funktsioonide olekut ja vajadusel neid sisse lülitada.
 
-Esmalt lülitage sisse eeltingimuste *Organisatsiooniülene töö blokeerimise* funktsioon, kui see ei ole juba sisse lülitatud. Tarneahela halduse versiooni 10.0.21 puhul on see funktsioon kohustuslik, seega on see vaikimisi sisse lülitatud ja seda ei saa enam välja lülitada. Kuid see funktsioon on siiski [funktsioonihalduses](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) loetletud järgmisel viisil:
+Esmalt lülitage sisse eeltingimuste *Organisatsiooniülene töö blokeerimise* funktsioon, kui see ei ole juba sisse lülitatud. Tarneahela halduse versiooni 10.0.21 puhul on see funktsioon kohustuslik, seega on see vaikimisi sisse lülitatud ja seda ei saa enam välja lülitada. Kuid see funktsioon on siiski funktsioonihalduses [loetletud](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) järgmisel viisil:
 
 - **Moodul:** *laohaldus*
 - **Funktsiooni nimi:** *Organisatsiooniülene töö blokeerimine*

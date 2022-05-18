@@ -1,6 +1,6 @@
 ---
 title: Eelarve plaanimine
-description: Selle ülesande eesmärk on anda juhendatud ülevaade Microsoft Dynamics 365 Finance'i funktsioonivärskendustest eelarve plaanimise alal. Selle ülesande eesmärk on illustreerida kiiret eelarve plaanimise mooduli konfigureerimise näidet ja näidata, kuidas selle konfiguratsiooni abil on võimalik eelarvet plaanida.
+description: Selle projekti eesmärk on pakkuda eelarve plaanimise ala Microsoft Dynamics 365 finantsfunktsiooni värskenduste juhendatud vaadet. Selle ülesande eesmärk on illustreerida kiiret eelarve plaanimise mooduli konfigureerimise näidet ja näidata, kuidas selle konfiguratsiooni abil on võimalik eelarvet plaanida.
 author: panolte
 ms.date: 06/25/2018
 ms.topic: article
@@ -8,25 +8,25 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: BudgetPlanningConfiguration
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 10763
 ms.assetid: 0f2ba752-1f6d-4f28-b9e9-b2e97d10b6d1
 ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0420887c35bbb07aaf8cce05a68173ab6c534f92
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 65ebfddb1baf39e20c22d3ed9bb26dbb33765e20
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7595330"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8712000"
 ---
 # <a name="budget-planning"></a>Eelarve plaanimine
 
 [!include [banner](../includes/banner.md)]
 
-Selle ülesande eesmärk on anda juhendatud ülevaade Microsoft Dynamics 365 Finance'i funktsioonivärskendustest eelarve plaanimise alal. Selle ülesande eesmärk on illustreerida kiiret eelarve plaanimise mooduli konfigureerimise näidet ja näidata, kuidas selle konfiguratsiooni abil on võimalik eelarvet plaanida.  See ülesanne keskendub konkreetselt järgmistele äriprotsessidele või ülesannetele.
+Selle projekti eesmärk on pakkuda eelarve plaanimise ala Microsoft Dynamics 365 finantsfunktsiooni värskenduste juhendatud vaadet. Selle ülesande eesmärk on illustreerida kiiret eelarve plaanimise mooduli konfigureerimise näidet ja näidata, kuidas selle konfiguratsiooni abil on võimalik eelarvet plaanida.  See ülesanne keskendub konkreetselt järgmistele äriprotsessidele või ülesannetele.
 - Organisatsiooni hierarhia loomine eelarve plaanimise jaoks ja kasutaja turvalisuse konfigureerimine
 - Eelarveplaani stsenaariumide, eelarveplaani veergude, paigutuste ja Exceli mallide määratlemine
 - Eelarve plaanimise protsessi loomine ja aktiveerimine
@@ -36,7 +36,7 @@ Selle ülesande eesmärk on anda juhendatud ülevaade Microsoft Dynamics 365 Fin
 
 ## <a name="prerequisites"></a>Eeltingimused 
 
-Selle õppetüki saamiseks vajate juurdepääsu Microsoft Dynamics 365 Finance keskkonda Contoso demoandmetega ja peate olema eksemplaris administraatori õigustega. Ärge kasutage selle ülesande puhul privaatbrauseri režiimi – vajaduse korral logige brauseri muult kontolt välja ja logige sisse administraatori mandaatidega. Sisselogimisel **PEATE** märkima ruudu Hoia mind sisselogituna. See loob püsiva küpsise, mida Exceli rakendus praegu vajab. Kui logite rakendusse sisse muu brauseriga kui IE, siis palutakse teil Exceli rakenduses sisse logida. Exceli rakenduses suvandi Sisselogimine klõpsamine avab IE hüpikakna ja sisselogimisel **PEATE** märkima ruudu Hoia mind sisselogituna. Kui Exceli rakenduses suvandi Sisselogimine klõpsamine midagi ei tee, peaksite IE küpsiste vahemälu tühjendama.
+Selle juhendi puhul peate pääsema Microsoft Dynamics juurde 365 Finantskeskkonnale Contoso demoandmetega ja olema eksemplari administraatoriks. Ärge kasutage selle ülesande puhul privaatbrauseri režiimi – vajaduse korral logige brauseri muult kontolt välja ja logige sisse administraatori mandaatidega. Sisselogimisel **PEATE** märkima ruudu Hoia mind sisselogituna. See loob püsiva küpsise, mida Exceli rakendus praegu vajab. Kui logite rakendusse sisse muu brauseriga kui IE, siis palutakse teil Exceli rakenduses sisse logida. Exceli rakenduses suvandi Sisselogimine klõpsamine avab IE hüpikakna ja sisselogimisel **PEATE** märkima ruudu Hoia mind sisselogituna. Kui Exceli rakenduses suvandi Sisselogimine klõpsamine midagi ei tee, peaksite IE küpsiste vahemälu tühjendama.
 
 ## <a name="scenario-overview"></a>**Stsenaariumi ülevaade**
 Julia töötab Saksamaa ettevõttes Contoso Entertainment Systems (DEMF) finantshaldurina. FY2016 lähenemisel peab ta töötama eelseisva aasta ettevõtte eelarve seadistamise osas. Eelarve koostamine näeb välja järgmine.

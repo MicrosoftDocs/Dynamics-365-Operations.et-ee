@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: HierarchyDesigner, OMOperatingUnit, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 63213
 ms.assetid: 5dbc62fc-0184-4c0e-9856-e735fc68799e
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 8571b254a3dcdeaf562a97f165b8124f04ae7e6d
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: cdc0440c02d0e66eaa89bfd875d8c8edf8d99c96
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068890"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8688597"
 ---
 # <a name="create-departments-and-include-them-in-the-department-hierarchy"></a>Osakondade loomine ja nende kaasamine osakonnahierarhiasse
 
@@ -40,7 +39,7 @@ Osakond võib sisaldada kulukeskuste gruppi. Ametikohti saab määrata osakondad
 | **Otsingunimi**         | Sisestage nimi või lühend, mida osakonna otsimiseks kasutada.                                                                                                                                            |
 | **Memo**                | Sisestage kogu lisateave siia.                                                                                                                                                                            |
 | **Hierarhias**        | Valitud ruut näitab, et osakond on lisatud osakonnahierarhiasse. Lisateavet osakonna lisamise kohta osakonnahierarhiasse vt järgnevat artikli teavet. |
-| **DUNS-kood**         | DUNS tähendab andmete universaalset nummerdussüsteemi. See on üheksakohaline number, mille väljastab Dun & Bradstreet.                                                                                                     |
+| **DUNS-number**         | DUNS tähendab andmete universaalset nummerdussüsteemi. See on üheksakohaline number, mille väljastab Dun & Bradstreet.                                                                                                     |
 | **Juhataja**             | Sisestage isik, kes osakonda juhib.                                                                                                                                                                    |
 | **Aadressid**           | Lisage osakonna aadress. Näiteks lisage hoone postiaadress, kus osakond asub.                                                                          |
 | **Kontaktteave** | Lisage osakonna kontakkteave. Näiteks lisage osakonna kasutajatoe telefoninumber.                                                                                           |

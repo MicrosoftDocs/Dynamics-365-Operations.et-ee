@@ -1,7 +1,7 @@
 ---
 title: Töörea üksikasjad
 description: Selles teemas antakse teavet lehe Töörea üksikasjade lehe kohta, mis näitab teie süsteemi üksikute tööridade põhjalikku, sorditavat ja filtreeritavat loendit.
-author: mirzaab
+author: Mirzaab
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: f37d161bf3d27e15eaaf1230c05270f3769f9901
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 4d7c6991c0171b0e09752b3305e0fa11a25b7833
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778277"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8674106"
 ---
 # <a name="work-line-details"></a>Töörea üksikasjad
 
@@ -28,7 +28,7 @@ Leht **Töörea üksikasjad** näitab teie süsteemi üksikute tööridade põhj
 
 ## <a name="turn-on-the-work-line-details-feature"></a>Töörea üksikasjade funktsiooni sisselülitamine
 
-Tarneahela halduse versiooni 10.0.21 puhul on see funktsioon vaikimisi sisse lülitatud. Administraatorid saavad funktsioonihalduse [lehte](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) kasutada, et kontrollida funktsiooni olekut ja lubada või keelata see, kui vaja. Siin on funktsioon loetletud järgmiselt.
+Tarneahela halduse versiooni 10.0.21 puhul on see funktsioon vaikimisi sisse lülitatud. Administraatorid saavad funktsioonihalduse [lehte kasutada](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), et kontrollida funktsiooni olekut ja lubada või keelata see, kui vaja. Siin on funktsioon loetletud järgmiselt.
 
 - **Moodul:** *laohaldus*
 - **Funktsiooni nimi:** *Töörea üksikasjad*

@@ -1,7 +1,7 @@
 ---
 title: Hankija koostöö seadistamine ja haldamine
 description: Selles teemas selgitatakse, kuidas seadistada hankija koostööd rakenduses Dynamics 365 Supply Chain Management. Samuti selgitatakse, kuidas varustada uusi tarnijate koostöökasutajaid ja hallata nende kasutajate turberolle.
-author: Henrikan
+author: GalynaFedorova
 ms.date: 12/03/2018
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 220774
 ms.assetid: 69d05e8b-7dc2-48ea-bc24-bea9ac963579
 ms.search.region: Global
-ms.author: henrikan
+ms.author: gfedorova
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b635255fffa6fd3c6612cd248dc692df204aa76d
-ms.sourcegitcommit: 614d79cba238e466d445767a7d0a012e785a9861
+ms.openlocfilehash: 4b59513d86426d3c1bfd759b9aabc331e58d5423
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/19/2021
-ms.locfileid: "7651978"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8677558"
 ---
 # <a name="set-up-and-maintain-vendor-collaboration"></a>Hankija koostöö seadistamine ja haldamine
 
@@ -31,7 +31,7 @@ Tarnija koostööliides pakub välistele hankija kasutajatele piiratud hulga tea
 Selles teemas selgitatakse, kuidas seadistada hankija koostööd rakenduses Dynamics 365 Supply Chain Management. Samuti selgitatakse, kuidas seadistada töövoogu uute tarnijate koostöökasutajate loomiseks ja kuidas hallata nende kasutajate turberolle.
 
 > [!NOTE]
-> Teave turberollide seadistamise kohta tarnija koostöö jaoks kehtib ainult Finance and Operationsi praeguse versiooni kohta. Microsoft Dynamics AX 7.0 (veebruar 2016) ja rakenduse Microsoft Dynamics AX versiooni 7.0.1 (mai 2016) puhul saate hankijatega koostööd teha, kasutades moodulit **Hankija portaal**. Lisateavet Microsoft Dynamics AX-i hankija portaali kasutajaõiguste kohta leiate artiklist [Hankija portaali kasaja turvalisus](configure-security-vendor-portal-users.md).
+> Hankija koostöö turberollide häälestamise teave rakendub ainult finantside ja toimingute praegusele versioonile. Microsoft Dynamics AX 7.0 (veebruar 2016) ja rakenduse Microsoft Dynamics AX versiooni 7.0.1 (mai 2016) puhul saate hankijatega koostööd teha, kasutades moodulit **Hankija portaal**. Lisateavet Microsoft Dynamics AX-i hankija portaali kasutajaõiguste kohta leiate artiklist [Hankija portaali kasaja turvalisus](configure-security-vendor-portal-users.md).
 
 ## <a name="set-up-vendor-collaboration-security-roles"></a>Seadistage hankija koostöö turberollid
 

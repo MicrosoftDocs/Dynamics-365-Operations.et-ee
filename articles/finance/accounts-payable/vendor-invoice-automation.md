@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: VendEditInvoiceHeaderStagingListPage
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f407d42fe624206e32a2f58fe8c7fcaf2df52c729a1d945d3d801f450b6ed129
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 02fcb6ce49156c32f23bfb37478a1076f62aa868
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722763"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8716390"
 ---
 # <a name="invoice-automation-for-scanned-documents"></a>Arve automatiseerimine skannitud dokumentide korral
 
@@ -58,7 +58,7 @@ Andmepakett on tööühik, mis tuleb saata arvete päiste, ridade ja manuste loo
 
 Hankija arve dokumendi manus on uus andmeüksus, mis selle funktsiooni osana kasutusele võetakse. Hankija arve päiseüksust on muudetud nii, et see toetab manuseid. Selle funktsiooni jaoks pole hankija arve reaüksust muudetud.
 
-Üksikasjalikku teavet andmepakettide kohta vaadake teemast [Andmehalduse ülevaade](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md). Lisateavet andmepakettide loomise kohta andmehalduse tööruumi abil, vaadake teemast [Andmepakettide töötlemine ja kasutamine rakenduste Dynamics 365 Finance and Operations lahenduses](../../fin-ops-core/dev-itpro/lcs-solutions/process-data-packages-lcs-solutions.md).
+Üksikasjalikku teavet andmepakettide kohta vaadake teemast [Andmehalduse ülevaade](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md). Lisateavet andmepakettide loomise kohta andmehalduse tööruumi kasutades vaadake jaotisest Andmepakettide [töötlemine ja kasutamine Dynamics 365 finantside ja toimingute rakenduste lahenduses](../../fin-ops-core/dev-itpro/lcs-solutions/process-data-packages-lcs-solutions.md).
 
 Arveid ja manuseid sisaldavate testandmete kiireks genereerimiseks tehke järgmist.
 
@@ -140,7 +140,7 @@ Erandite loendileht toetab standardseid turbekonstruktsioone, mida **andmehaldus
 
 Kui arve imporditöö jaoks on konfigureeritud turvalisus, arvestab erandite loendileht neid sätteid. Kasutajad näevad ainult neid arve erandi kirjeid, mida see seadistus neil näha lubab.
 
-Näiteks on Contoso otsustanud töödelda arve erandeid juriidilise isiku järgi. Seetõttu konfigureeritakse turvalisus arve imporditöö puhul sellisel viisil, et kasutaja juriidilises isikus A näeb ainult arve erandeid juriidilises isikus A, samas kui kasutaja juriidilises isikus B näeb ainult arve erandeid juriidilises isikus B. Selline seadistus võimaldab arve erandite haldamise kohustusi jagada.
+Näiteks Contoso on otsustanud töödelda arve erandeid juriidilise isiku järgi. Seetõttu konfigureeritakse turvalisus arve imporditöö puhul sellisel viisil, et kasutaja juriidilises isikus A näeb ainult arve erandeid juriidilises isikus A, samas kui kasutaja juriidilises isikus B näeb ainult arve erandeid juriidilises isikus B. Selline seadistus võimaldab arve erandite haldamise kohustusi jagada.
 
 Contoso võib otsustada ka turvalisust mitte kehtestada, et samad kasutajad saaksid töödelda arve erandeid kõigi juriidiliste isikute puhul. See seadistus lubab jagatud teenuste stsenaariumi arve erandite haldamiseks.
 

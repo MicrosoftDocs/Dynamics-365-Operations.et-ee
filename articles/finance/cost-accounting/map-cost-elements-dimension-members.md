@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CAMDimension, CAMDimensionMember, CAMDimensionMapping
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 223234
 ms.assetid: 4c66a231-aed2-48b5-9727-b3eb4fe6e6aa
 ms.search.region: global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b9ac59f305afd55edfcfb3b47bf38ddd44d92a706904f55a069a6a9fc9050825
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7654f748fb0cfc70d76718f03a235c5d4d13a908
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728027"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8735460"
 ---
 # <a name="map-cost-element-dimension-members-to-a-common-set-of-dimension-members"></a>Kuluelemendi dimensiooniliikmete vastendamine dimensiooniliikmete ühtse mudeliga
 
@@ -33,12 +33,12 @@ Kui olete globaalne ettevõtte ja järgite seadusjärgseid raamatupidamisnõudei
 ## <a name="map-cost-element-dimension-members-to-a-common-format"></a>Kuluelemendi dimensiooni liikmete vastendamine ühisele vormingule
 Järgmine näide näitab teile, kuidas teie kulukontrollerina saate luua kuluarvestuses uue kuluelemendi dimensiooni, mis vastendab kuluelemendi dimensiooni liikmed USA ja Prantsuse kontoplaani struktuurist kuluelemendi dimensiooni liikmete ühisele kogumile. Seejärel saate kasutada kuluelemendi dimensiooni liikmete ühist kogumit, et analüüsida kahe juriidilise isiku kuluandmeid kuluarvestuse pearaamatus.
 
-| Allikas: USA kontoplaan                                          | Allikas: Prantsuse kontoplaan                                          | Uus kuluelemendi dimensiooni liikmete ühine kogum                        |
-|-----------------------------------------------------------------------|---------------------------------------------------------------------------|-------------------------------------------------------------------------|
+| Allikas: USA kontoplaan          | Allikas: Prantsuse kontoplaan           | Uus kuluelemendi dimensiooni liikmete ühine kogum                        |
+|------------------------------------|----------------------------------------------|-------------------------------------------------------------------------|
 | Imporditud kuluelemendi dimensiooni liikmed USA kontoplaanilt | Imporditud kuluelemendi dimensiooni liikmed Prantsuse kontoplaanilt | USA ja Prantsuse kuluelemendi dimensiooni liikmete vastendamine ühisele kogumile |
-| 5001: Müük                                                           | 5001: Müük ja turundus                                               | 5000: Müük ja turundus                                             |
-| 5030: Reklaam                                                     | 6390: Lao ost\*                                                    | 7000: Puhastuskulud                                                 |
-| 7001: Puhastuskulud                                               | 7001: Reisikulu                                                      | 7001: Reisikulud                                                   |
+| 5001: Müük                   | 5001: Müük ja turundus                      | 5000: Müük ja turundus                               |
+| 5030: Reklaam             | 6390: Lao ost\*                          | 7000: Puhastuskulud                                   |
+| 7001: Puhastuskulud              | 7001: Reisikulu                     | 7001: Reisikulud                                                   |
 
 \*Lao ostu Prantsuse kuluelemendi dimensiooni liiget ei vastendata.
 

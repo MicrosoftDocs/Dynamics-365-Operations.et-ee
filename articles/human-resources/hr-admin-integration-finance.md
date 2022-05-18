@@ -1,6 +1,6 @@
 ---
 title: Integratsiooni konfigureerimine Finance’iga
-description: Selles teemas kirjeldatakse maksuandmete integreerimist rakenduse Dynamics 365 Human Resources ja teenuse Dynamics 365 Finance vahel.
+description: See teema kirjeldab integratsiooni Dynamics Dynamics 365 Human Resources 365 Finantside vahel.
 author: twheeloc
 ms.date: 08/19/2021
 ms.topic: article
@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0a2c5dd0ce97f33f5f8b65c801fbc15dfc65e8d4
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 3880601b40ce8ec544a1976f7f0ac7391dab32e1
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065012"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8687528"
 ---
 # <a name="configure-integration-with-finance"></a>Integratsiooni konfigureerimine Finance’iga
 
@@ -31,7 +30,7 @@ ms.locfileid: "8065012"
 
 
 
-Dynamics 365 Human Resourcesi integreerimisel Dynamics 365 Finance'iga saate kasutada rakendusest Human Resources rakendusse Finance malli [Andmeintegraator](/powerapps/administrator/data-integrator). Rakendusest Human Resources rakendusse Finance mall lubab tööde, ametikohtade ja töötajate andmevoo. Mall lubab andmevoo rakendusest Human Resources rakendusse Finance, kuid ei luba andmevoogu Finance'ist Human Resourcesisse.
+Dynamics 365 Human Resources Dynamics 365 Finance'iga integreerimiseks saate kasutada andmeintegraator malli Inimressursid [finantside jaoks](/powerapps/administrator/data-integrator). Rakendusest Human Resources rakendusse Finance mall lubab tööde, ametikohtade ja töötajate andmevoo. Mall lubab andmevoo rakendusest Human Resources rakendusse Finance, kuid ei luba andmevoogu Finance'ist Human Resourcesisse.
 
 ![Rakenduse Human Resources integratioonivoog.](./media/hr-admin-integration-finance-flow.png)
 
@@ -47,7 +46,7 @@ Rakendusest Human Resources rakendusse Finance lahendus pakub järgmist tüüpi 
 Integratsioonilahenduse jaoks on vaja rakenduste Human Resources ja Finance järgmisi versioone. 
 
 - Dynamics 365 Human Resources kuupäeval Dataverse
-- Dynamics 365 Finance’i versioon 7.2 või uuem
+- Dynamics 365 finantsversioon 7.2 ja uuem
 
 ## <a name="template-and-tasks"></a>Mall ja ülesanded
 
@@ -248,7 +247,7 @@ Järgmistes mallivastenduste tabelites sisaldab ülesande nimi igas rakenduses k
 
 Integreerimine rakendusest Human Resources rakendusse Finance püüab kirjeid ID põhjal vastendada. Kui kirjed vastavad, kirjutab andmeintegraator rakenduse Finance andmed üle rakenduse Human Resources väärtustele. Kuid probleem võib ilmneda juhul, kui loogiliselt on need erinevad kirjed ja sama ID on loodud kas rakenduses Human Resources või Finance põhjal vastava numbriseeria alusel.
 
-See probleem võib esineda üksusega **Töötaja**, kus kasutatakse sobitamiseks **Personali numbrit** ja **Ametikohti**. Tööd ei kasuta numbriseeriaid. Seega, kui sama töö ID on olemas nii rakenduses Human Resources kui ka Finance, kirjutab rakenduse Human Resources Dynamics 365 Finance’i teabe üle. 
+See probleem võib esineda üksusega **Töötaja**, kus kasutatakse sobitamiseks **Personali numbrit** ja **Ametikohti**. Tööd ei kasuta numbriseeriaid. Kui nii Inimressurssides kui finantsis on olemas sama töö ID, kirjutab inimressursside teave üle Dynamics 365 finantsteabe. 
 
 Dubleeritud ID-dega seotud probleemide vältimiseks saate lisada [numbriseeriale](/dynamics365/unified-operations/fin-and-ops/organization-administration/number-sequence-overview?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json) eesliite või määrata numbrijärjestuse algusnumbri, mis ületab teise süsteemi vahemikku. 
 

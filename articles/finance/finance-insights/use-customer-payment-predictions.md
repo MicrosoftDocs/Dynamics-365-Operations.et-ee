@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-11-16
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: ed70e133b93c783542d4669b679fc5b6d2d20240
-ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
+ms.openlocfilehash: ecc864485dfc106df22b48e92a85f2c73d58e0e8
+ms.sourcegitcommit: d70f66a98eff0a2836e3033351b482466bd9c290
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968908"
+ms.lasthandoff: 05/11/2022
+ms.locfileid: "8740620"
 ---
 # <a name="use-customer-payment-predictions"></a>Kliendimaksete prognoosimise kasutamine
 
@@ -28,15 +28,15 @@ ms.locfileid: "7968908"
 
 See teema selgitab, kuidas kasutada kliendimaksete prognoose. Enne selle funktsiooni kasutamist veenduge, et olete lõpetanud selle seadistustoimingud. Lisateabe saamiseks vt [Kliendimaksete prognooside lubamine](enable-cust-paymnt-prediction.md).
 
-Kliendi makseprognoose saate vaadata kliendi krediidi ja sissenõuete haldamise tööruumis ja kahel uuel loendile lehel: kande maksete prognoosid ja kliendi **makse** **·** **prognoosid**.
+Kliendi makseprognoose saate vaadata kliendi **krediidi ja sissenõuete haldamise tööruumis** ja kahel uuel loendile lehel: **·** **kande maksete prognoosid ja kliendi makse prognoosid**.
 
 ### <a name="manage-customer-credit-and-collections-workspace"></a>Klientide krediidi ja võlanõuete halduse tööruum
 
-Kliendi **krediidi ja sissenõuete haldamise tööruum** sisaldab kahte uut paani: **kande makseprognoosid** ja kliendi **makseprognoosid.**
+Kliendi **krediidi ja sissenõuete haldamise tööruum** sisaldab kahte uut paani: **kande makseprognoosid ja** kliendi **makseprognoosid**.
 
 ### <a name="transaction-payment-predictions-list-page"></a>Kande makseprognooside loendileht
 
-Kande makseprognooside loendilehel saate vaadata avatud kannete makse tõenäosust ajal, hilja ja väga **hilja** **·** **·** **vahemikes**. Ruudustiku iga kande puhul näitab veerg **Õigeaegsuse tõenäosus** tõenäosust, et arve makstakse tähtaegselt või enne seda. Kui tähtajalise makse tõenäosus on väiksem kui 50 protsenti, kuvatakse veeru **Õigeaegsuse tõenäosus** protsendi kõrval punast ringi, mis näitab hilinenud makse riski.
+Kande makseprognooside loendilehel saate vaadata avatud kannete makse tõenäosust ajal, **·** **hilja** **ja väga hilja vahemikes.** **·** Ruudustiku iga kande puhul näitab veerg **Õigeaegsuse tõenäosus** tõenäosust, et arve makstakse tähtaegselt või enne seda. Kui tähtajalise makse tõenäosus on väiksem kui 50 protsenti, kuvatakse veeru **Õigeaegsuse tõenäosus** protsendi kõrval punast ringi, mis näitab hilinenud makse riski.
 
 [![Leht makseprognoosid tehingu kohta.](./media/payment-predictions-per-transaction.png)](./media/payment-predictions-per-transaction.png)
 
@@ -52,7 +52,7 @@ Andmed jaotises **Peamised tegurid** ning kiirkaartidel **Kliendi ülevaated** j
 
 ### <a name="customer-payment-predictions-list-page"></a>Kliendi makseprognooside loendileht
 
-Kliendi makseprognooside loendileht näitab kogu avatud saldot ja summat, mis on prognoositud maksta õigeaegselt, hilja ja **väga** **·** **hiliseid** **vahemikke**.
+Kliendi **makseprognooside** loendileht näitab kogu avatud saldot ja summat, **mis** on prognoositud maksta õigeaegselt, **·** **hilja ja väga** hilja vahemikes.
 
 [![Leht Makseprognoosid kliendi kohta.](./media/payment-predictions-per-transaction-02.png)](./media/payment-predictions-per-transaction-02.png)
 
@@ -80,16 +80,12 @@ Lehe paremas servas asuvas jaotises **Seotud teave** kuvatakse prognooside kohta
 - Kiirkaardil **Kliendi ülevaated** kuvatakse valitud tehingu praegust kliendi arvet, makset ja võlanõuete statistikat.
 - Kiirkaardil **Kliendi ajalugu** kuvatakse kliendi makseajalugu vahemikes **Õigeaegne**, **Hilinenud** ja **Väga hilinenud**.
 
-Kliendi vihjete **ja kliendi ajaloo** kiirkaartide andmed aitavad selgitada **makseprognoose**. See võib aidata suurendada teie usaldust prognooside efektiivsuse vastu.
+Kliendi vihjete **ja kliendi ajaloo kiirkaartide** **andmed** aitavad selgitada makseprognoose. See võib aidata suurendada teie usaldust prognooside efektiivsuse vastu.
 
 ## <a name="improving-the-accuracy-of-payment-predictions"></a>Makseprognooside täpsuse parandamine
 
 Makseprognooside täpsust saate vaadata, minnes jaotisse **Krediidihaldus ja võlanõuded \> Seadistamine \> Finantsülevaated \> Finantsülevaadete parameetrid**. Vahekaardi **Kliendi maksete ülevaated** jaotises **Prognoosi mudel** kuvatakse prognoosi mudeli täpsus protsendina.
 
-[![Makseprognooside täpsus.](./media/finance-insights-parameters-accuracy-2nd.png)](./media/finance-insights-parameters-accuracy-2nd.png)
-
-Kui teid ei ole täpsusega täidetud, valige laienduse kogemuse avamiseks link Parandada **mudeli** AI Builder täpsust. Laiendikogemuses saate valida või tühistada väljade valiku seni, kuni olete valinud väljad, mis on teie jaoks kõige olulisemad makse tõenäosuste AI Builder täpseks prognoosimiseks. Kui olete lõpetanud, saate prognoosimismudelit hõlpsalt ümber koolitada ja oma muudatused avaldada. Äsja koolitatud prognoosimismudel võetakse prognooside jaoks automaatselt vastu rakenduses Dynamics 365 Finance.
-
-[![AI Builder laiendikogemus.](./media/ai-builder.png)](./media/ai-builder.png)
+Kui teid ei ole täpsusega täidetud, **valige laienduse kogemuse avamiseks** link Parandada mudeli täpsust AI Builder. Laiendikogemuses AI Builder saate valida või tühistada väljade valiku seni, kuni olete valinud väljad, mis on teie jaoks kõige olulisemad makse tõenäosuste täpseks prognoosimiseks. Kui olete lõpetanud, saate prognoosimismudelit hõlpsalt ümber koolitada ja oma muudatused avaldada. Dynamics 365 Finance prognooside jaoks komplektetakse automaatselt vastloodud ennustuse mudel.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

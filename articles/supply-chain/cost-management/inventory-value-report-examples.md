@@ -1,22 +1,22 @@
 ---
 title: Varude väärtuse aruande näited ja loogika
 description: Käesolevas teemas antakse mõned näited tulemustest, mis on esitatud iga laoväärtuse aruande tüübi puhul. Laoväärtuse aruanded annavad üksikasju teie varude füüsiliste ja finantskoguste ja -summade kohta.
-author: banluo-ms
+author: JennySong-SH
 ms.date: 10/19/2021
 ms.topic: article
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: banluo
+ms.author: yanansong
 ms.search.validFrom: 2021-10-19
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 4ad85058c8743895185d3da2e8975711f1e3bc2c
-ms.sourcegitcommit: ba10ba2cd4fb4267afb5aacae4f6a52aa2456e7e
+ms.openlocfilehash: 0d594fc18a104c434a334a5b6d1d249330a6be9a
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "7798404"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8675315"
 ---
 # <a name="inventory-value-report-examples-and-logic"></a>Varude väärtuse aruande näited ja loogika
 
@@ -24,7 +24,7 @@ ms.locfileid: "7798404"
 
 Laoväärtuse aruanded annavad üksikasju teie varude füüsiliste ja finantskoguste ja -summade kohta. Käesolevas teemas antakse mõned näited tulemustest, mis on esitatud iga laoväärtuse aruande tüübi puhul.
 
-Lisateavet iga laoväärtuse aruande tüübi loomise ja kasutamise kohta vt [laoväärtuse aruannetest](inventory-value-report-storage.md).
+Lisateavet iga laoväärtuse aruande tüübi loomise ja kasutamise kohta vt laoväärtuse [aruannetest](inventory-value-report-storage.md).
 
 ## <a name="sample-data-that-is-used-in-these-examples"></a>Näidetes kasutatavad näidisandmed
 
@@ -41,13 +41,13 @@ Näidissüsteemis on laoala dimensioonid sätestatud järgmiselt.
 
 ### <a name="inventory-model"></a>Laomudel
 
-Näiteks on väljastatud toodete laomudel FIFO ja laomudeli omahinna välja väärtuseks on seatud *·* Kaasa füüsiline **·** *väärtus*.
+Näiteks on väljastatud toodete laomudel *FIFO* **·** *ja laomudeli omahinna välja väärtuseks on seatud Kaasa füüsiline väärtus*.
 
 ### <a name="inventory-transactions"></a>Laokanded
 
-Näitesüsteem sisaldab järgmisi väljastatud toote laokandeid, mille kaubakood on *B0001.*
+Näitesüsteem sisaldab järgmisi väljastatud toote laokandeid kaubakoodiga *B0001*.
 
-| Viide | Koht | Ladu | Sissetulek | Probleem | Füüsiline kuupäev | Finantskuupäev | Kogus | Sisseostuhind | Füüsiline omahind |
+| Viide | Sait | Ladu | Sissetulek | Probleem | Füüsiline kuupäev | Finantskuupäev | Kogus | Sisseostuhind | Füüsiline omahind |
 |---|---|---|---|---|---|---|---|---|---|
 | Ostutellimus | 1 | 11 | Ostetud | | 15. märts | 15. märts | 10 | 1000 | 1000 |
 | Ostutellimus | 2 | 21 | Ostetud | | 15. märts | 15. märts | 10 | 2,000 | 2,000 |
@@ -72,28 +72,28 @@ Näiteks süsteem hõlmab varude väärtuse aruande konfiguratsiooni, milles on 
 
 Järgmine tabel ja illustratsioonid näitavad tulemusi, kui kasutate näidisandmeid ja aruande konfiguratsiooni, mida kirjeldatakse selles teemas varem.
 
-| Ressursi tüüp | Ressurss | Koht | Viide | Varud: rahaline kogus | Varud: rahaline summa | Varud: füüsiline kogus on sisestatud. | Varud: füüsiline summa on sisestatud. | Varud: kogus | Varud: summa | Keskmine ühikukulu |
+| Ressursi tüüp | Ressurss | Sait | Viide | Varud: rahaline kogus | Varud: rahaline summa | Varud: füüsiline kogus on sisestatud. | Varud: füüsiline summa on sisestatud. | Varud: kogus | Varud: summa | Keskmine ühikukulu |
 |---|---|---|---|---|---|---|---|---|---|---|
 | Materjal | B0001 (üks) | 1 | Ending balance | 9,00 | 908.33 | 5.00 | 375.00 | 14.00 | 1283,33 | 91,67 |
 | Materjal | B0001 (üks) | 2 | Ending balance | 10.00 | 2000,00 | 0,00 | 0,00 | 10.00 | 2000,00 | 200,00 |
 
 ### <a name="standard-inventory-value-report-for-example-1"></a>Standardne laoväärtuse aruanne, näiteks 1
 
-Järgmine näide näitab standardset **varude väärtuse** aruannet, nt 1. (Valige illustratsioon, et avada suurem versioon.)
+Järgmine näide näitab standardset varude **väärtuse** aruannet, nt 1. (Valige illustratsioon, et avada suurem versioon.)
 
 [![Laoväärtuse aruanne näiteks 1.](media/inventory-value-report-ex1-small.png "Laoväärtuse aruanne, näiteks 1")](media/inventory-value-report-ex1.png)
 
 ### <a name="inventory-value-report-storage-report-for-example-1"></a>Laoväärtuse aruande ladustamisaruanne, näiteks 1
 
-Järgmine joonis näitab varude **väärtuse aruande** ladustamisaruannet, nt 1. (Valige illustratsioon, et avada suurem versioon.)
+Järgmine joonis näitab varude väärtuse **aruande ladustamisaruannet**, nt 1. (Valige illustratsioon, et avada suurem versioon.)
 
 [![Laoväärtuse aruande ladustamisaruanne, näiteks 1.](media/inventory-value-report-storage-ex1-small.png "Laoväärtuse aruande ladustamisaruanne, näiteks 1")](media/inventory-value-report-storage-ex1.png)
 
 ## <a name="inventory-value-report-example-2"></a>Laoväärtuse aruande näide 2
 
-Järgnev tabel ja illustratsioonid näitavad tulemusi, kui kasutate selles teemas varem kirjeldatud näidisandmeid, kuid te muudate välja Tase väärtuse aruande konfiguratsioonis kanneteks ja määrate aruande käivitamisel välja Alates kuupäevast **·** *·* **·** *väärtuseks 15.*
+Järgnev tabel ja illustratsioonid näitavad tulemusi, **·** *kui kasutate selles teemas varem kirjeldatud näidisandmeid,* kuid te muudate välja **Tase** *väärtuse aruande konfiguratsioonis kanneteks ja määrate aruande käivitamisel välja Alates kuupäevast väärtuseks 15.*
 
-| Ressursi tüüp | Ressurss | Koht | Kuupäev | Number | Viide | Varud: rahaline kogus | Varud: rahaline summa | Varud: füüsiline kogus on sisestatud. | Varud: füüsiline summa on sisestatud. | Varud: kogus | Varud: summa |
+| Ressursi tüüp | Ressurss | Sait | Kuupäev | Number | Viide | Varud: rahaline kogus | Varud: rahaline summa | Varud: füüsiline kogus on sisestatud. | Varud: füüsiline summa on sisestatud. | Varud: kogus | Varud: summa |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | Materjal | B0001 (üks) | 1 | 3/15/2021 | 00000126 | Ostutellimus | 0,00 | 0,00 | 10.00 | 1,000.00 | **10.00** | **1,000.00** |
 | Materjal | B0001 (üks) | 1 | 3/15/2021 | 00000126 | Ostutellimus | 10.00 | 1,000.00 | -10,00 | –1000,00 | **0.00** | **0.00** |
@@ -109,13 +109,13 @@ Järgnev tabel ja illustratsioonid näitavad tulemusi, kui kasutate selles teema
 
 ### <a name="standard-inventory-value-report-for-example-2"></a>Standardne laoväärtuse aruanne, näiteks 2
 
-Järgmine näide näitab laoväärtuse **·** standardaruannet 2. (Valige illustratsioon, et avada suurem versioon.)
+Järgmine näide näitab laoväärtuse standardaruannet **2**. (Valige illustratsioon, et avada suurem versioon.)
 
 [![Laoväärtuse aruanne, näiteks 2.](media/inventory-value-report-ex2-small.png "Laoväärtuse aruanne, näiteks 2")](media/inventory-value-report-ex2.png)
 
 ### <a name="inventory-value-report-storage-report-for-example-2"></a>Laoväärtuse aruande ladustamisaruanne, näiteks 2
 
-Järgmine joonis näitab varude **väärtuse aruande** ladustamisaruannet, nt 2. (Valige illustratsioon, et avada suurem versioon.)
+Järgmine joonis näitab varude väärtuse **aruande ladustamisaruannet**, nt 2. (Valige illustratsioon, et avada suurem versioon.)
 
 [![Laoväärtuse aruande ladustamisaruanne, näiteks 2.](media/inventory-value-report-storage-ex2-small.png "Laoväärtuse aruande ladustamisaruanne, näiteks 2")](media/inventory-value-report-storage-ex2.png)
 
@@ -127,18 +127,18 @@ Järgmised alamjaotised näitavad laoväärtuse aruandeid, mis luuakse pärast l
 
 ### <a name="example-3-when-the-totals-level-is-used"></a>Näide 3, kui kasutatakse taseme Kogusummad
 
-Järgmine tabel näitab tulemusi, kui kasutate näidisandmeid ja aruande konfiguratsiooni, mida kirjeldatakse selles teemas varem. (Selles aruande konfiguratsioonis **Taseme** välja väärtuseks *on seatud* Kogusummad.)
+Järgmine tabel näitab tulemusi, kui kasutate näidisandmeid ja aruande konfiguratsiooni, mida kirjeldatakse selles teemas varem. (Selles aruande konfiguratsioonis **Taseme** välja väärtuseks on seatud *Kogusummad*.)
 
-| Ressursi tüüp | Ressurss | Koht | Viide | Varud: rahaline kogus | Varud: rahaline summa | Varud: füüsiline kogus on sisestatud. | Varud: füüsiline summa on sisestatud. | Varud: kogus | Varud: summa | Keskmine ühikukulu |
+| Ressursi tüüp | Ressurss | Sait | Viide | Varud: rahaline kogus | Varud: rahaline summa | Varud: füüsiline kogus on sisestatud. | Varud: füüsiline summa on sisestatud. | Varud: kogus | Varud: summa | Keskmine ühikukulu |
 |---|---|---|---|---|---|---|---|---|---|---|
 | Materjal | B0001 (üks) | 1 | Ending balance | 9,00 | 900.00 | 5.00 | 375.00 | 14.00 | 1275,00 | 91,07 |
 | Materjal | B0001 (üks) | 2 | Ending balance | 10.00 | 2000,00 | 0,00 | 0,00 | 10.00 | 2000,00 | 200,00 |
 
 ### <a name="example-3-when-the-transactions-level-is-used"></a>Näide 3, kui kasutatakse kannete taset
 
-Järgmine tabel näitab tulemusi, kui kasutate selles teemas varem kirjeldatud näidisandmeid, kuid te muudate välja Tase väärtuse aruande **·** *·* konfiguratsioonis kanneteks.
+Järgmine tabel näitab tulemusi, kui kasutate selles teemas varem kirjeldatud näidisandmeid, **kuid te muudate välja Tase** *väärtuse* aruande konfiguratsioonis kanneteks.
 
-| Ressursi tüüp | Ressurss | Koht | Kuupäev | Number | Viide | Varud: rahaline kogus | Varud: rahaline summa | Varud: füüsiline kogus on sisestatud. | Varud: füüsiline summa on sisestatud. | Varud: kogus | Varud: summa |
+| Ressursi tüüp | Ressurss | Sait | Kuupäev | Number | Viide | Varud: rahaline kogus | Varud: rahaline summa | Varud: füüsiline kogus on sisestatud. | Varud: füüsiline summa on sisestatud. | Varud: kogus | Varud: summa |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | Materjal | B0001 (üks) | 1 | 3/15/2021 | 00000126 | Ostutellimus | 0,00 | 0,00 | 10.00 | 1,000.00 | 10.00 | 1,000.00 |
 | Materjal | B0001 (üks) | 1 | 3/15/2021 | 00000126 | Ostutellimus | 10.00 | 1,000.00 | -10,00 | –1000,00 | 0,00 | 0,00 |

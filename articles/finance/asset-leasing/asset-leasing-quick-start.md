@@ -8,25 +8,27 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: AssetLeaseLeasingWorkspace
 audience: Application User
-ms.reviewer: roschlom
-ms.custom: intro-internal
+ms.reviewer: kfend
+ms.custom:
+- "4464"
+- intro-internal
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-09-24
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 72c362e651787d2ff120944925e3bc35523f0059
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 991685f50a00e60026331bf573561be904c7f9ab
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982005"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8710325"
 ---
 # <a name="asset-leasing-get-started"></a>Vara rentimise funktsiooni kasutamise alustamine
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas kirjeldatakse vara rentimise võimalust ja näidatakse, kuidas renditavat vara luua ja nende varade teavet vaadata. Teemas on toodud ka kasutajaliideses ja dokumentatsioonis kasutatud terminoloogia. Vara rentimine on täiustatud võimalus renditavate varade finantskannete haldamiseks, jälgimiseks ja automatiseerimiseks teenuses Microsoft Dynamics 365 Finance. Vara rentimise funktsioon vastab rahvusvahelistele raamatupidamisstandarditele (IFRS 16) ja Ameerika Ühendriikide üldaktsepteeritavate raamatupidamispõhimõtete (GAAP) standarditele (ASC 842). Vara rentimise funktsioon kogub ja töötleb renditavate varade põhiteavet ning aitab luua töölehe sisestusi terve renditava vara elutsükli jooksul alates esialgsest tuvastamisest, igakuistest töölehe sisestustest kuni renditava vara väärtuse langemiseni ja rentimise lõppemiseni. Vara rentimise funktsioon integreerub sujuvalt teiste rakenduse Dynamics 365 Finance komponentidega, sealhulgas põhivarad, ostureskontro ja pearaamat.
+Selles teemas kirjeldatakse vara rentimise võimalust ja näidatakse, kuidas renditavat vara luua ja nende varade teavet vaadata. Teemas on toodud ka kasutajaliideses ja dokumentatsioonis kasutatud terminoloogia. Varade kasutamine on täiustatud võimalus liisitud varade finantskannete haldamiseks, jälgimiseks ja automaatseks automatiseerimiseks Microsoft Dynamics 365. finantsis. Vara rentimise funktsioon vastab rahvusvahelistele raamatupidamisstandarditele (IFRS 16) ja Ameerika Ühendriikide üldaktsepteeritavate raamatupidamispõhimõtete (GAAP) standarditele (ASC 842). Vara rentimise funktsioon kogub ja töötleb renditavate varade põhiteavet ning aitab luua töölehe sisestusi terve renditava vara elutsükli jooksul alates esialgsest tuvastamisest, igakuistest töölehe sisestustest kuni renditava vara väärtuse langemiseni ja rentimise lõppemiseni. Varade integratsioon integreerub sujuvalt Dynamics 365 Finantside teiste komponentidega (sh põhivarad, ostureskontro ja Pearaamat).
 
 Enne selle funktsiooni kasutamist peate selle oma süsteemis sisse lülitama. Administraatorid saavad kasutada **funktsioonihalduse** tööruumi, et kontrollida funktsiooni olekut ja vajadusel selle sisse lülitada. Otsige tööruumis **Funktsioonihaldus** üles suvand **Vara rentimine** ja seejärel klõpsake nuppu **Luba kohe**.
 
@@ -58,7 +60,7 @@ Järgmine diagramm näitab rendiraamatut, renditeavet, arvutatud maksegraafikut,
 
 - **Rendiraamat** – rendiraamat sisaldab kogu rendilepingu teavet, nagu renditingimused, õiglane väärtus ja rendimaksed. See hõlmab ka raamatupidamisstandardit, mida te järgite, renditüüpi ja lävesid, mida arvestatakse rendi klassifikatsioonitestis. Rendiraamat sisaldab ka pearaamatusse sisestatud rendikandeid. 
   
-- **Rent** – rent sisaldab renditeavet, mis esindab vara rentimise alust. Renditeabe allikad on rendileping ja haldamisotsus, mis tehakse mõlemad väljaspool rakendust Dynamics 365 Finance. Vara õiglane väärtus on hind, mis makstaks vara eest mõõtmise päeval tehtud kandes. See väärtus võib sõltuda vara tüübist, turutingimustest ja muudest kriteeriumidest, mida saab hindamisel arvestada. Vara õiglast väärtust arvestatakse klassifikatsioonitesti võrrandis.
+- **Liisimine** - rendil on vara liisingu teave, mis esindab vara lepingu alusdokumenti, liisinguteabe allikas on rendileping ja haldus otsus, mida mõlemat tehakse väljaspool Dynamics 365 finantse. Vara õiglane väärtus on hind, mis makstaks vara eest mõõtmise päeval tehtud kandes. See väärtus võib sõltuda vara tüübist, turutingimustest ja muudest kriteeriumidest, mida saab hindamisel arvestada. Vara õiglast väärtust arvestatakse klassifikatsioonitesti võrrandis.
 
 - **Vara kasulik tööiga** – see tähistab vara kasuliku tööaja järelejäänud perioode alates rentimise alguskuupäevast. Vara kasulikku tööiga arvestatakse klassifikatsioonitesti võrrandis. See erineb põhivarades määratletud kasulikust tööeast.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5cfcfd165b5f7b97d1ee88175b3f6c9d418c30c2
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 672f24a720f48c420916c197722eb2d9599744fa
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565275"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8695559"
 ---
 # <a name="sales-returns"></a>Müügitagastused
 
@@ -76,7 +76,6 @@ Tagastustellimuse loomisel tuleb lisada järgmises tabelis sisalduv teave.
 | Tagastuse number         | Tagastustellimusele määratud ID              | Tagastuse numbrit kasutatakse tagastustellimuse protsessi jooksul alternatiivvõtmena. Määratav tagastuse number põhineb tagastuse numbriseerial, mis seadistatakse lehel **Müügireskontro parameetrid**.                                                                                                                              |
 | Lõpptähtaeg           | Viimane kuupäev, millal kauba saab tagastada               | Vaikeväärtus arvutatakse praeguse kuupäevana, millele lisandub kehtivuse periood. Näiteks kui tagastus kehtib ainult 90 päeva alates tagastustellimuse loomise kuupäevast ja tagastustellimus loodi 1. mail, on väljal olev väärtus **30. juuli**. Kehtivusperiood määratakse lehel **Müügireskontro parameetrid**. |
 | Tagastuspõhjuse kood | Kliendi põhjus toote tagastamiseks          | Põhjuse kood valitakse kasutaja määratletud põhjusekoodide loendis. Saate seda välja igal ajal värskendada.                                                                                                                                                                                                                                    |
-
 ### <a name="create-return-order-lines"></a>Tagastustellimuse ridade loomine
 
 Pärast tagastuspäise lõpuleviimist saate luua tagastusread, kasutades üht järgmistest meetoditest.
@@ -84,7 +83,8 @@ Pärast tagastuspäise lõpuleviimist saate luua tagastusread, kasutades üht j�
 -   Sisestage iga tagastusrea jaoks kauba üksikasjad, kogus ja muu teave.
 -   Looge tagastusrida, kasutades funktsiooni **Otsi müügitellimust**. Soovitame teil kasutada seda funktsiooni tagastustellimuse loomisel. Funktsioon **Otsi müügitellimust** tuvastab tagastusrealt viite arveldatud müügitellimuse reale ja toob rea üksikasjad, nagu kauba number, kogus, hind, allahindlus ja kuluväärtused müügirealt. Viide aitab tagada, et kui toode tagastatakse ettevõttele, hinnatakse seda sama ühikukuluga, millega see müüdi. Viide kinnitab ka, et tagastustellimusi ei looda kogusele, mis ületab arvel müüdud kogust.
 
->[Märkus.] Tagastusridu, millel on viide müügitellimusele, käsitletakse müügi paranduste või tühistamistena. Lisateabe saamiseks vaadake teemas allpool toodud jaotist „Pearaamatusse sisestamine”.
+>[!NOTE] 
+>Tagastusridu, mille viide on müügitellimusele, käsitletakse müügi parandusena või ümberpööramiseks. Lisateabe saamiseks vaadake teemas allpool toodud jaotist „Pearaamatusse sisestamine”.
 
 ### <a name="charges"></a>Tasud
 
@@ -189,8 +189,10 @@ Saabumisprotsessi käigus integreeritakse tagastused lao saabumiste üldise prot
 
 ### <a name="identify-products-in-the-arrival-overview-list"></a>Saabumise ülevaateloendis toodete tuvastamine
 
-Leht **Saabumise ülevaade** annab loendi plaanitud sissetulevatest saabumistest. 
->[Märkus.] Tagastustellimustelt tulenevaid saabumisi tuleb muud tüüpi saabumiskannetest eraldi töödelda. Pärast lehel **Saabumise ülevaade** sissetuleva paketi tuvastamist (nt kaasasoleva tagastusdokumendi abil) klõpsake tegumiribal nuppu **Alusta saabumistöölehte**, et luua ja käivitada saabumisega ühtiv saabumise tööleht.
+Leht **Saabumise ülevaade** annab loendi plaanitud sissetulevatest saabumistest.
+
+>[!NOTE] 
+>Tagastustellimustest saabuvaid tellimusi tuleb töödelda teist tüüpi saabumiste kannetest eraldi. Pärast lehel **Saabumise ülevaade** sissetuleva paketi tuvastamist (nt kaasasoleva tagastusdokumendi abil) klõpsake tegumiribal nuppu **Alusta saabumistöölehte**, et luua ja käivitada saabumisega ühtiv saabumise tööleht.
 
 ### <a name="edit-the-arrival-journal"></a>Saabumise töölehe redigeerimine
 
@@ -232,7 +234,8 @@ Kui tarnite kliendile asenduskauba ja kasutate tagastustellimusel olevat likvide
 
 Asenduskaup tarnitakse, kasutades sõltumatut müügitellimust ehk asendusmüügitellimust. See müügitellimus luuakse tagastustellimuse jaoks saatelehe loomisel. Tellimusepäis kasutab kliendilt teavet, millele viidatakse tagastustellimuse päises. Reateavet kogutakse teabest, mis sisestatakse lehel **Asenduskaup**. Leht **Asenduskaup** peab olema täidetud ridadele, millel on sõnaga „asendama” algavad likvideerimistegevused. Siiski pole asenduskauba kogus ega identiteet kinnitatud ega piiratud. See käitumine võimaldab juhtumeid, kus klient soovib sama kaupa, kuid erineva konfiguratsiooni või suurusega, aga ka juhtumeid, kus kliendid soovivad täiesti erinevat kaupa. Vaikimisi sisestatakse lehele **Asenduskaup** identne kaup. Siiski saate valida teise kauba, tingimusel, et funktsioon on seadistatud. 
 
->[Märkus.] Saate redigeerida ja kustutada asendusmüügitellimuse pärast selle loomist.
+>[!NOTE] 
+>Saate asendusmüügitellimust pärast selle loomist redigeerida ja kustutada.
 
 ## <a name="generate-a-packing-slip"></a>Saatelehe loomine
 Enne kui tagastatud kaupu saab varudesse vastu võtta, peate värskendama saatelehte tellimusele, millel kaubad kuuluvad. Nii nagu arve värskendamise protsess on finantskande värskendamine, on saatelehe värskendamisprotsess laokirje värskendamine. Teisiti öeldes kinnitab see protsess muudatused varudesse. Tagastuste korral rakendatakse likvideerimistegevuseks määratud etapid saatelehe värskendamise käigus. Saatelehe loomisel toimuvad järgmised sündmused.
@@ -253,8 +256,10 @@ Kuigi leht **Tagastustellimus** sisaldab teavet ja tegevusi, mis on vajalikud ta
 
 ### <a name="credit-correction"></a>Kreediti parandus
 
-Osana arvaldamisprotsessist kontrollige, kas mis tahes muud tasud on õiged. Pearaamatu sisestuste parandusteks (storno) muutumiseks kaaluge arve/kreeditarve sisestamisel lehel **Arve sisestamine** oleva vahekaardi **Muu** suvandi **Kreediti parandus** kasutamist arve/kreeditarve sisestamisel. 
->[Märkus.] Vaikimisi aktiveeritakse suvand **Kreediti parandus** siis, kui **Kreeditarve kui parandus** lehel **Müügireskontro parameetrid** on lubatud. Soovitame teil tagastusi stornoga mitte postitada.
+Osana arvaldamisprotsessist kontrollige, kas mis tahes muud tasud on õiged. Pearaamatu sisestuste parandusteks (storno) muutumiseks kaaluge arve/kreeditarve sisestamisel lehel **Arve sisestamine** oleva vahekaardi **Muu** suvandi **Kreediti parandus** kasutamist arve/kreeditarve sisestamisel.
+
+> [!NOTE]
+> Vaikimisi aktiveeritakse kreediti **parandamise** suvand, kui **lehel Müügireskontro** parameetrid on **lubatud** valik Kreeditarve kui parandus. Soovitame teil tagastusi stornoga mitte postitada.
 
 ## <a name="create-intercompany-return-orders"></a>Kontsernisiseste tagastustellimuste loomine
 Tagastustellimused saab teie organisatsioonisiseselt kahe ettevõtte vahel lõpule viia. Toetatud on järgmised stsenaariumid.
@@ -308,7 +313,8 @@ Tagastustellimus ei viita kliendiarvele. Tagastatud kaup krediteeritakse. Parame
 
 ![Tagastustellimus ei viita kliendiarvele.](./media/SalesReturn09.png)  
 
->[Märkus.] Kauba põhihinda kasutatakse parameetri **Tagastamise omahind** vaikeväärtusena. Vaikehind erineb lao väljamineku ajal omahinnast. Seetõttu on mõju see, et 3 kadu on kuludesse kantud. Täiendavalt ei hõlma tagastustellimus allahindlust, mis anti kliendile müügitellimusel. Seetõttu esineb üleliigset krediiti.
+> [!NOTE]
+> Kauba koondhinda kasutatakse vaikeväärtusna tagastamise omahinna **parameetri** puhul. Vaikehind erineb lao väljamineku ajal omahinnast. Seetõttu on mõju see, et 3 kadu on kuludesse kantud. Täiendavalt ei hõlma tagastustellimus allahindlust, mis anti kliendile müügitellimusel. Seetõttu esineb üleliigset krediiti.
 
 ### <a name="example-2-credit-correction-is-selected-for-the-return-order"></a>Näide 2. Tagastustellimuse jaoks valitakse kreediti parandus.
 
@@ -316,7 +322,8 @@ Näide 2 on sama mis näide 1, kuid parameeter **Kreediti parandus** valitakse t
 
 ![Tagastustellimus krediiditäpsustuse valimisel.](./media/SalesReturn10.png)  
 
->[Märkus.] Pearaamatu sisestused sisestatakse negatiivsete parandustena.
+>[!NOTE] 
+>Pearaamatu sisestused sisestatakse negatiivsete parandustena.
 
 ### <a name="example-3-the-return-order-line-is-created-by-using-the-find-sales-order-function"></a>Näide 3. Tagastustellimuse rea loomiseks kasutatakse funktsiooni Otsi müügitellimust.
 
@@ -324,7 +331,8 @@ Selles näites kasutatakse tagastustellimuse rea loomiseks funktsiooni **Otsi m�
 
 ![Tagastustellimuse rida, mis luuakse funktsiooni Otsi müügitellimust kasutades.](./media/SalesReturn11.png)  
 
->[Märkus.] **Allahindlus** ja **Tagastamise omahind** on korrektselt seatud. Seetõttu toimub kliendiarve täpne tühistamine.
+> [!NOTE]
+> **Allahindluse** ja **tagastamise omahind** on õigesti seatud. Seetõttu toimub kliendiarve täpne tühistamine.
 
 
 

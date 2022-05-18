@@ -8,17 +8,16 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: HRMCompVarEnrollEmpl, HcmCompensationWorkspace
 audience: Application User
-ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 49a64407778fba5669ad13f239363bffd4b0c7d6
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 11f86bfa4bfcece164755bb5d86944e0bed0fff2
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071715"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8692278"
 ---
 # <a name="enroll-an-employee-in-a-variable-compensation-plan"></a>Töötaja liitmine tulemustasu plaaniga
 
@@ -27,13 +26,13 @@ ms.locfileid: "8071715"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Lisatasu ja soodustuste haldur saab lisada töötajaid ergutussüsteemi plaanidesse töötajate rahaliste ja mitterahaliste preemiate arvutamiseks. See protseduur eeldab, et muutuva hüvitise plaan on loodud rakendusega **Luba registreerimine** väli määratud **Jah** ja et selle muutuva hüvitise plaani jaoks on loodud sobilikkuse reeglid. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid. Selle protseduuri alustamiseks minge aadressile **Inimressursid** > **Töölised** > **Töötajad** > **Hüvitis** > **Muutuva plaaniga registreerimine**.
+Lisatasu ja soodustuste haldur saab lisada töötajaid ergutussüsteemi plaanidesse töötajate rahaliste ja mitterahaliste preemiate arvutamiseks. See protseduur eeldab, **·** **et muutuva tasu plaan on loodud valikuga Luba registreerimine valikuga Jah**, ja et selle tulemustasu plaani jaoks on loodud sobivuse reeglid. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid. Selle protseduuri alustamiseks minge **InimressurssideworkersEmployeesCompensationVariable** > **·** > **·** > **·** > **plaani registreerimisele.**
 
 1. Klõpsake valikut **Uus**.
 2. Väljal **Plaan** klõpsake ripploendi nuppu, et avada otsing.
     * Plaani otsing filtritakse kuvama vaid ergutussüsteemi plaane, millele töötajal on sobivuse reeglite põhjal õigus.  
 3. Klõpsake loendis valitud real olevat linki.
-4. Lülitage laiendust **Kindral** osa.
+4. Lülitage jaotise Üldine laiendamine **sisse või** välja.
 5. Väljale **Jõustumiskuupäev** sisestage kuupäev.
 6. Klõpsake nuppu **Salvesta**.
 7. Lülitage jaotis **Ülekirjutamine**.

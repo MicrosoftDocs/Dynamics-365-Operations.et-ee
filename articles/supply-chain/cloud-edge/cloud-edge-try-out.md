@@ -1,8 +1,8 @@
 ---
-title: Proovi skaalaühikuid jaotatud topoloogias
+title: Skaalaühikute proovimine hajutatud hübriidtopoloogias
 description: See teema annab teavet, kuidas käivitada pilve- ja servaskaala ühikuid tootmis- ja laohalduse töökoormuste puhul.
 author: perlynne
-ms.date: 03/03/2022
+ms.date: 05/02/2022
 ms.topic: article
 ms.search.form: ScaleUnitWorkloadsWorkspace
 audience: Application User
@@ -11,14 +11,14 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2022-03-03
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 04fd79f3c582ae9ac51882f73410477efaa35496
-ms.sourcegitcommit: b52ff5dfd32580121f74a5f262e5c2495e39d578
+ms.openlocfilehash: 658948d94cd012b95812a786433967f5cadc3a15
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/03/2022
-ms.locfileid: "8376255"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8711882"
 ---
-# <a name="try-out-scale-units-in-a-distributed-hybrid-topology"></a>Proovi skaalaühikuid jaotatud topoloogias
+# <a name="try-out-scale-units-in-a-distributed-hybrid-topology"></a>Skaalaühikute proovimine hajutatud hübriidtopoloogias
 
 [!include [banner](../includes/banner.md)]
 
@@ -26,7 +26,7 @@ Jaotatud topoloogia proovimise protsess on lihtne. Esimese etapi jooksul peaksit
 
 ## <a name="option-1-evaluate-customizations-in-development-environments"></a>Valik 1: hinnake kohandusi arenduskeskkonnas
 
-Enne kui alustate oma sisendkausta keskkondades, soovitame teil uurida kaaluühikuid arenduse seadistuses, nagu ühe kasti keskkonnas (nimetatakse ka järgu 1 keskkonnas), et kontrollida protsesse, kohandusi ja lahendusi. Selles etapis rakendatakse andmed ja kohandused ühe lahendusega keskkondadele. Saate käitada üksikus keskkonnas, mis võib võtta rolli nii ettevõtte keskusel kui kaaluühikul. Teise võimalusena on teil kaks arenduskeskkonda, millest üks võtab keskuse rolli ja teine, mis võtab kaaluühiku rolli. See häälestus on parim viis probleemide tuvastamiseks ja lahendamiseks. Selle etapi [lõpuleviimiseks saab kasutada ka värskeimat](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxURUFWTjQzTzg0UUk5RkJHMDFEMVlSSDFEQy4u) varajast juurdepääsu (PEAP) koostet.
+Enne kui alustate oma sisendkausta keskkondades, soovitame teil uurida kaaluühikuid arenduse seadistuses, nagu ühe kasti keskkonnas (nimetatakse ka järgu 1 keskkonnas), et kontrollida protsesse, kohandusi ja lahendusi. Selles etapis rakendatakse andmed ja kohandused ühe lahendusega keskkondadele. Saate käitada üksikus keskkonnas, mis võib võtta rolli nii ettevõtte keskusel kui kaaluühikul. Teise võimalusena on teil kaks arenduskeskkonda, millest üks võtab keskuse rolli ja teine, mis võtab kaaluühiku rolli. See häälestus on parim viis probleemide tuvastamiseks ja lahendamiseks. Selle etapi [lõpuleviimiseks](../../fin-ops-core/fin-ops/get-started/one-version.md#how-can-i-get-early-access-to-non-released-platform-updates) saab kasutada ka viimast eelvaate versiooni.
 
 Keskkondade installimiseks [ja säilitamiseks peaksite kasutama ühe boksi arenduskeskkonna](https://github.com/microsoft/SCMScaleUnitDevTools) kaalu ühiku juurutamise tööriistu. Need tööriistad lasevad teil konfigureerida keskuse- ja kaaluühikud ühes või kahes ühe boksi keskkonnas. Tööriistad on saadaval nii binaarse väljaandena kui ka lähtekoodina GitHub-s. Projekti töös, mis sisaldab samm-sammulise [kasutusjuhendit](https://github.com/microsoft/SCMScaleUnitDevTools/wiki/Step-by-step-usage-guide), mis kirjeldab tööriistade kasutamist. Kui juurutate [kohaliku äriandmete (LBD) abil kohandatud riistvarale servaskaala ühikud](cloud-edge-edge-scale-units-lbd.md), peate järgima teist protsessi.
 

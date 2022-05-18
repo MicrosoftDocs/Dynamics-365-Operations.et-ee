@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: KCMCollectionType, KMAnswerCollection, KMCollection, HcmLearningWorkspace
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 17341
 ms.assetid: b27e2f12-c7a0-4a54-b8d8-17819f8a1c72
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 90dd59b605c21abd03d2e0d64a89dc787850c26e
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 7b2e1316768dc6207c82f08cef4c268ae70648ad
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065197"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8694847"
 ---
 # <a name="create-questionnaires"></a>Küsimustike loomine
 
@@ -66,7 +65,7 @@ Mõned eeltingimused peavad olema kehtestatud enne, kui saate küsimustikke, vas
 
 ### <a name="questionnaire-types"></a>Küsimustike tüübid
 
-**Küsimustiku tüübid** on nõutavad ja need tuleb küsimustiku loomisel määrata. **Küsimustiku tüübid** aitab teil küsimustikke hõlpsamini hallata ja klassifitseerida. Kasutage küsimustike tüüpe küsimustike klassifitseerimiseks ja üksteisest eristamiseks. Näiteks kui teil on mitu küsimustikku, mille vahel valida, võite neid tüübi järgi filtreerida, et konkreetset küsimustikku oleks lihtsam leida. Siin on mõned näited küsimustike tüüpide kohta.
+**Küsimustikutüübid** on nõutavad ning need tuleb määrata küsimustiku loomisel. **Küsimustikutüübid** aitavad küsimustikke hallata ja liigitada lihtsamaks. Kasutage küsimustike tüüpe küsimustike klassifitseerimiseks ja üksteisest eristamiseks. Näiteks kui teil on mitu küsimustikku, mille vahel valida, võite neid tüübi järgi filtreerida, et konkreetset küsimustikku oleks lihtsam leida. Siin on mõned näited küsimustike tüüpide kohta.
 
 -   inimressursside areng,
 -   kliendiülevaated,
@@ -74,9 +73,9 @@ Mõned eeltingimused peavad olema kehtestatud enne, kui saate küsimustikke, vas
 
 ### <a name="question-types"></a>Küsimuste tüübid
 
-**Küsimuste tüübid** on kohustuslikud ja need tuleb küsimuse loomisel määrata. 
+**Küsimuse tüübid** on nõutavad ning need tuleb küsimuse loomisel määrata. 
 
-Kasuta **Küsimuste tüübid** aruandluse küsimuste kategoriseerimiseks. **Küsimuste tüübid** hõlbustavad ka küsimuste leidmist, sest saate tüüpe kasutada filtritena **Küsimused** lehel. Siin on mõned näited küsimuste tüüpide kohta.
+Aruandluse **küsimuste** kategoriseerimiseks kasutage küsimuste tüüpe. **Küsimuste tüübid** lihtsustavad küsimuste otsimist, sest lehte Küsimused saab filtritena **kasutada**. Siin on mõned näited küsimuste tüüpide kohta.
 
 -   Inimressursid
 -   Ärijuhtimine
@@ -108,7 +107,7 @@ Võimaliku vastuste loendi esitamiseks suletud küsimustele võite luua vastused
 
 Vastusegrupid ja vastused on komponendid, mis moodustavad küsimuste aluseks oleva teabe põhiosa. Pärast vastusegrupi loomist saate seostada selle vastusegrupi küsimusega väljal **Vastusegrupp** lehel **Küsimused**. 
 
-An **Vastuste grupp** saab kasutada sama küsimustiku rohkem kui ühe küsimuse jaoks ja seda saab kasutada ka rohkem kui ühes küsimustikus. 
+Vastustegruppi **saab** kasutada samas küsimustikus rohkem kui ühe küsimuse puhul ning seda saab kasutada ka rohkem kui ühes küsimustikus. 
 
 > [!NOTE]
 > Kui muudate vastuste rühmas vastuse teksti, mida on juba kasutatud täidetud küsimustikes, võib andmete hindamine osutuda raskeks ja küsimustiku tulemused ei pruugi enam kehtida. Kui teil on vaja vastusegruppi muuta, kaaluge olemasoleva grupi muutmise asemel uue vastusegrupi loomist. Küsimuse või vastusega seotud või vastatud vastusegruppe ei saa kustutada.
@@ -174,7 +173,7 @@ Küsimustikus ei saa kustutada järgmist tüüpi küsimusi.
 
 ### <a name="result-groups"></a>Tulemustegrupid
 
-**Tulemusrühmad** on valikulised, kui lisate küsimustikule küsimusi. 
+**Tulemustegrupid** on küsimustikuga küsimuste seostamisel valikulised. 
 
 Tulemusegruppi kasutatakse punktide arvestamiseks ja küsimustiku tulemuste kategooriatesse jagamiseks. Kui kasutate tulemusegruppe, saate teha järgmist.
 

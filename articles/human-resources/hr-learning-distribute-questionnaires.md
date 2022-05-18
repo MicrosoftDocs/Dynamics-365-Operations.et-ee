@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: KMConnectionType, KMKnowledgeCollectorPlanningTabel, SysEmailParameters, HcmLearningWorkspace
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 17424
 ms.assetid: fd8d867a-2446-400a-b91f-ad4085427470
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dbb069110b46c38a994a7be6276137360b14397a
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 3a543d9b85edd493f9b5d5a0449302769c3592f7
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069525"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8695896"
 ---
 # <a name="distribute-and-schedule-questionnaires"></a>Küsimustike jaotamine ja ajastamine
 
@@ -33,7 +32,7 @@ See teema selgitab, kuidas saata laiali enda kavandatud küsimustikke, nii et ne
 
 Küsimustiku laialisaatmiseks on mitu võimalust.
 
--   Märkige küsimustik **aktiivseks**. Küsimustik on siis saadaval kõigile töötajatele, kui küsimusegrupile pole määratud piiratud juurdepääsu.
+-   Saate märkida küsimustiku **aktiivseks**. Küsimustik on siis saadaval kõigile töötajatele, kui küsimusegrupile pole määratud piiratud juurdepääsu.
 -   Saate määrata õigused küsimustike grupile. Küsimustik on siis saadaval valitud grupi liikmetele.
 -   Saate luua plaanitud vastamissessioone. Küsimustik on siis saadaval ainult kindlale isikule.
 -   Saate luua graafiku. Küsimustik võib siis olla saadaval mitmele inimesele.
@@ -88,7 +87,7 @@ Küsimustiku graafiku plaanimise tüüpe saab määrata lehel **Küsimustikugraa
 
 Võite kasutada viitetüüpe vastajate kriteeriumide sisestamiseks, mida saab küsimustiku plaanimisel valida. 
 
-Kasutage lehte **Viitetüübid** küsimustiku viitetüüpide seadistamiseks. Iga viitetüüp vastab Microsoft Dynamics 365 Finance'i tabelile. Küsimustikugraafikute loomisel saate määrata eraldi tabelikirjeid või kirjete vahemikku, millega küsimustik seostatakse. 
+Kasutage lehte **Viitetüübid** küsimustiku viitetüüpide seadistamiseks. Iga viitetüüp vastab tabelile Microsoft Dynamics 365 Finantsid. Küsimustikugraafikute loomisel saate määrata eraldi tabelikirjeid või kirjete vahemikku, millega küsimustik seostatakse. 
 
 Näiteks kui valite tabeli Kursused, saate määrata, millise konkreetse kursuse jaoks küsimustik on mõeldud. Kui seadistate viite kursuse tabelile, muutuvad mõned väljad ja nupud väljal **Kursused** kättesaadavaks.
 
@@ -111,10 +110,10 @@ Kui kasutate plaanitud vastamisseanssi, peate teavitama inimest otse (nt telefon
 
 ### <a name="notifying-respondents-about-a-scheduling"></a>Vastajate teavitamine plaanimisest
 
-Lehel **Küsimustikugraafikud** saate ette valmistada ja saata meilid kõigile vastajatele, kellele küsimustik on määratud. Sisestage meilisõnumi tekst vahekaardile **Töötaja iseteeninduse** meilisõnum. Pärast ajakava käivitamist klõpsake vastajatele meilisõnumi loomiseks ja saatmiseks nuppu **Tegevused** &gt; **Saada meilisõnum.** Vastajad saavad siis veebisaidile sisse logida ja küsimustiku täita. 
+Lehel **Küsimustikugraafikud** saate ette valmistada ja saata meilid kõigile vastajatele, kellele küsimustik on määratud. Sisestage e-kirja tekst vahekaardile **Töötaja iseteenindus**. Pärast graafiku käivitamist klõpsake suvandil **Funktsioonid** &gt; **saada meilisõnum**, et luua ja saata meil vastajatele. Vastajad saavad siis veebisaidile sisse logida ja küsimustiku täita. 
 
 > [!NOTE]
-> Enne meilifunktsiooni kasutamist peab teie IT-administraator sisestama lehel Meiliparameetrid **meilisätted**.
+> Enne meilifunktsiooni kasutamist peab IT-administraator sisestama meiliparameetrite **lehele meilisätted**.
 
 ## <a name="ending-a-scheduled-questionnaire"></a>Plaanitud küsimustiku lõpetamine
 

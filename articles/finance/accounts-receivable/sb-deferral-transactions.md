@@ -9,20 +9,19 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, Operations
 ms.custom: 539093
 ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: f66c538afc732caf3faed3cfea6c695ff7f16273
-ms.sourcegitcommit: d0e99545d722c924db57ae2bd06f72154a1f1f97
+ms.openlocfilehash: 5913308d4ee9fdcb8cf2b862171078f27f651662
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/08/2022
-ms.locfileid: "8557972"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8686012"
 ---
-# <a name="deferral-default-transactions"></a>Viitvõla vaikekanded
+# <a name="deferral-default-transactions"></a>Edasilükkamise vaiketehingud
 
 Selles teemas kirjeldatakse kandeid, mis lubavad tulu- ja kulu viitvõlgu. Viitvõlgade graafikud põhinevad alati algsel dokumendil või arveldusgraafikul ja sõltuvad sellest. Viitvõlagraafikud luuakse vaikesätete alusel ja neid ei saa eraldi sisestada ega luua.
 
@@ -123,7 +122,7 @@ Kande **viitvõla lehekülg** sisaldab järgmisi välju.
 | Kajastamise konto | Määrake tarbimise tuvastamise konto number. |
 | Esialgse kajastamise konto | <p>Määrake algse tarbimise tuvastamise summa konto. Vaikeväärtus on pärit viitvõlgade **vaikelehelt**.</p><p>See väli on saadaval ainult siis **, kui viitvõla** **sisestusmeetodi** välja väärtuseks on **lehel Tulu ja kulu viitvõlgade parameetrid seatud väärtusele Tulu ja** kulu.</p> |
 | Vastaskonto kajastamine | <p>Määrake tarbimise tuvastamise vastaskonto. Vaikeväärtus on pärit viitvõlgade **vaikelehelt**.</p><p>See väli on saadaval ainult siis **, kui viitvõla** **sisestusmeetodi** välja väärtuseks on **lehel Tulu ja kulu viitvõlgade parameetrid seatud väärtusele Tulu ja** kulu.</p> |
-| **Ajastamine** | |
+| **Graafik** | |
 | Graafiku tüüp | <p>Valige viitvõlagraafiku tüüp: lineaalne **(vaikimisi**) või **sündmusepõhine**.</p><p>Lehel kuvatavad suvandid põhinevad teie valitud viitvõlagraafiku tüübil.</p><p>Kui kanderea viitvõla vaikelehel on **vaikemall** määratud, põhineb viitvõlagraafiku tüüp valitud malli tüübil.</p> |
 | **Graafik - Line line** | |
 | Eelnevate perioodide konsolideerimine | <p>Määrake, kas soovite konsolideerida viitvõlagraafiku ridu varasemateks perioodideks:</p><ul><li>**Jah** – konsolideerige viitvõlagraafiku read varasemateks perioodideks.</li><li>**Ei** – ärge konsolideerige viitvõlagraafiku ridu varasemateks perioodideks.</li></ul><p>Vaikeväärtus on pärit leheküljelt **Tulu ja kulu viitvõla parameetrid**.</p> |

@@ -7,17 +7,17 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschloma
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 14cafa69e75d7e8a0f08fb385a8c364c0162da1ec609a4e0b3cad6178ec3f716
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2d8966f993e7ca82b10a2ef5a023256a05682980
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723963"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734329"
 ---
 # <a name="credit-holds-for-sales-orders"></a>Müügitellimuste krediidi ootelolekud
 [!include [banner](../includes/banner.md)]
@@ -33,7 +33,7 @@ See teema kirjeldab nende reeglite seadistust, mida kasutatakse müügitellimuse
 6. Müügitellimuse summa
 7. Saadaoleva krediidi kasutatud osa
 
-Lisaks on kaks parameetrit, mis juhivad täiendavaid müügitellimust blokeerivaid stsenaariume
+Lisaks on kaks parameetrit, mis kontrollivad täiendavaid stsenaariume, mis blokeerivad müügitellimuse:
 
 1. Muutus maksetingimustes
 2. Muutus tasakaalustuse allahindlustes

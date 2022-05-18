@@ -1,6 +1,6 @@
 ---
 title: Statistilise dimensiooni liikmete ja mõõtude pakkujate mallid
-description: Selles teemas antakse teavet statistilise dimensiooni liikmete ja statistilise meetme pakkuja mallide kohta. Statistilise dimensiooni liikmeid saab kasutada eraldamisalusena poliitikates nagu kulu jaotus ja kulu eraldamine. Neid saab kasutada ka mitterahalise kulu tarbimise registreerimiseks.
+description: Selles teemas antakse teavet statistilise dimensiooni liikmete ja statistilise meetme pakkuja mallide kohta.
 author: AndersGirke
 ms.date: 06/16/2017
 ms.topic: article
@@ -8,20 +8,20 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CAMCostAccountingLedgerSourceEntryProvider, CAMStatisticalDimension, CAMAXStatisticalMeasureProviderTemplate, CAMAXStatisticalMeasureProviderConfiguration, CAMStatisticalDimensionMember, CAMDataConnectorStatisticalMeasure, CAMImportedStatisticalMeasure, CAMImportedStatisticalMeasureProviderConfiguration
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c79451a5145a6e419ae0e332c67f06ca2df65996f959333a508dbf62dbf435ff
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5daac80fdc62fb996be82aa4c8bb7bb3c8dc03e9
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767643"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8733902"
 ---
 # <a name="provider-templates-for-statistical-dimension-members-and-measure-providers"></a>Statistilise dimensiooni liikmete ja mõõtude pakkujate mallid
 
@@ -69,7 +69,7 @@ Siin on mõned näited tüüpiliste statistilise dimensiooni liikmete kohta.
 
 ## <a name="statistical-measure-provider-template"></a>Statistiliste mõõtude pakkuja mall
 
-Statistilised mõõdud võivad pärineda erinevatest allikatest. Dynamics 365 Finance on suurepärane allikas, millest statistilisi mõõte hankida. Võite kasutada statistilise mõõdu pakkuja malli, et konfigureerida hõlpsasti statistilisi mõõte, mida soovite hankida.
+Statistilised mõõdud võivad pärineda erinevatest allikatest. Dynamics 365 Finance on suur allikas, millelt statistilisi võtteid ekstraktida. Võite kasutada statistilise mõõdu pakkuja malli, et konfigureerida hõlpsasti statistilisi mõõte, mida soovite hankida.
 
 Statistilise mõõdu pakkuja malli definitsioon on üldine ja seda saab kasutada uuesti mitmes statistilise dimensiooni liikmes.
 
@@ -128,13 +128,13 @@ Enne kui saate statistilised mõõdud kuluarvestusse, tuleb luua seos statistili
 > [!NOTE]
 > Selles näites loome seose ainult **tegeliku versiooni** jaoks.
 
-Avage **Kuluarvestuse pearaamat** \> **Tegelik versioon** \> **Halda** \> **Statistilised mõõdud** seose loomiseks. Selle stsenaariumi puhul valige andmekonnektor **Dynamics 365 Finance – statistilised mõõdud**, kuna soovime ekstraktida andmed rakendusest Finance.
+Avage **Kuluarvestuse pearaamat** \> **Tegelik versioon** \> **Halda** \> **Statistilised mõõdud** seose loomiseks. Valige selle stsenaariumi jaoks **Dynamics 365 Finance –** statistiline andmeühendus, sest me soovite andmeid finantsidest ekstraktida.
 
 **Andmeallikas**
 
-| Nimi        | Andmekonnektor                                                                     | Statistilise dimensiooni liige |
+| Nimi        | Andmekonnektor                                                                     | Statistiline dimensiooniliige |
 |-------------|------------------------------------------------------------------------------------|------------------------------|
-| TTE-d D365FO | Dynamics 365 Finance – statistilised mõõdud | TTE-d                         |
+| TTE-d D365FO | Dynamics 365 finantsid – statistilised meetmed | TTE-d                         |
 
 **Andmepakkuja konfiguratsioon**
 
@@ -216,13 +216,13 @@ Enne kui saate statistilised mõõdud kuluarvestusse, tuleb luua seos statistili
 > [!NOTE]
 > Selles näites loome seose ainult **tegeliku versiooni** jaoks.
 
-Avage **Kuluarvestuse pearaamat** \> **Tegelik versioon** \> **Halda** \> **Statistilised mõõdud** seose loomiseks. Selle stsenaariumi puhul valige andmekonnektor **Dynamics 365 Finance – statistilised mõõdud**, kuna soovime ekstraktida andmed rakendusest Finance.
+Avage **Kuluarvestuse pearaamat** \> **Tegelik versioon** \> **Halda** \> **Statistilised mõõdud** seose loomiseks. Valige selle stsenaariumi jaoks **Dynamics 365 Finance –** statistiline andmeühendus, sest me soovite andmeid finantsidest ekstraktida.
 
 **Andmeallikas**
 
-| Nimi           | Andmekonnektor                                                                     | Statistilise dimensiooni liige |
+| Nimi           | Andmekonnektor                                                                     | Statistiline dimensiooniliige |
 |----------------|------------------------------------------------------------------------------------|------------------------------|
-| Pakendi CC D365FO | Dynamics 365 Finance – statistilised mõõdud | Pakendi CC                      |
+| Pakendi CC D365FO | Dynamics 365 finantsid – statistilised meetmed | Pakendi CC                      |
 
 Süsteem tuvastab, et ProdRouteTrans on tabel, kus iga kirje kuulub eraldi juriidilise isiku juurde. Seetõttu palutakse teil valida juriidiline isik, kust kanded tuleks importida.
 

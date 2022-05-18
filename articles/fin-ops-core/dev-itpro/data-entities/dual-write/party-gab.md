@@ -2,19 +2,19 @@
 title: Osapool ja globaalne aadressiraamat
 description: Selles teemas kirjeldatakse osapoole ja globaalse aadressiraamatu topeltkirjutuse funktsioone.
 author: RamaKrishnamoorthy
-ms.date: 03/10/2022
+ms.date: 04/25/2022
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: josaw
+ms.reviewer: sericks
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: 2e0d16b29a71da23acc925c09c87f0bb4776759c
-ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
+ms.openlocfilehash: 1e2dcfa69308f6691e787a1ff1893f9080dcaef1
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/12/2022
-ms.locfileid: "8407761"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8717442"
 ---
 # <a name="party-and-global-address-book"></a>Osapool ja globaalne aadressiraamat
 
@@ -139,7 +139,7 @@ Ruudustik sisaldab järgmisi veerge.
 
 Ruudustiku kohal saate kasutada nuppu **Uus Elektrooniline Aadress**, et luua nii palju sihtaadresse, kui soovite.
 
-Elektronaadressid on saadaval ainult selles ruudustikus. Tulevastes väljalasetes eemaldatakse kõik elektron- ja postiaadressi väljad teistelt vahekaartidelt, näiteks vahekaartidelt **Kokkuvõte** ja **Üksikasjad**. Vahekaardil **Üksikasjad** kuvatud kontaktandmed on esmase elektroonilise aadressi kirjutuskaitstud koopiad, nagu esmane telefon, esmane meil, esmane telefon, esmane faks ja esmane Twitteri ID. Müügivihje kvalifikatsiooniprotsessi käigus saate sisestada nii ettevõtte telefoninumbri kui ka mobiiltelefoni numbri. Ettevõtte telefoninumber on esmane telefoninumber, kui **IsMobile=No** ja mobiiltelefoni numbrit loetakse teiseseks telefoninumbriks, kui **IsMobile=Yes**.
+Müügivihje kvalifikatsiooniprotsessi käigus saate sisestada nii ettevõtte telefoninumbri kui ka mobiiltelefoni numbri. Ettevõtte telefoninumber on esmane **telefoninumber, kui IsMobile=Ei** ja mobiiltelefoni numbrit peetakse teisene telefoninumber, **kui IsMobile=Yes**.
 
 > [!TIP]
 > Kasutage vahekaarte **Aadressid** ja **Elektroonilised aadressid** vormidel **Konto** ja **Kontakt** posti- ja elektrooniliste aadresside haldamiseks. See tagab, et aadressiandmed sünkroonitakse finantside ja toimingute rakendustega.
@@ -148,7 +148,7 @@ Elektronaadressid on saadaval ainult selles ruudustikus. Tulevastes väljalasete
 
 1. Avage oma Customer Engagement rakenduse keskkond.
 
-2. Installige viimane versioon (2.2.2.60 või uuem) [Topeltkirjutuslahenduse rakenduse orkestreeringulahendus](https://aka.ms/dual-write-app).
+2. Installige kõik eeltingimuse lahendused, nagu on kirjeldatud topeltkirjutusega [rakenduse orkestratsioonipaketis](separated-solutions.md).
 
 3. Installige [Topeltkirjutuse osapoole ja globaalse aadressiraamatu lahendused](https://aka.ms/dual-write-gab).
 
@@ -165,8 +165,8 @@ Elektronaadressid on saadaval ainult selles ruudustikus. Tulevastes väljalasete
 
     Vastenda | Värskendage selle versioonini | Muutused
     ---|---|---
-    `CDS Parties (msdyn_parties)`| 1.0.0.0 | See on uus kaart, mis on osaliselt lisatud sellele väljalaskele.
-    `Contacts V2 (msdyn_contactforparties)`| 1.0.0.5 | See on uus kaart, mis on osaliselt lisatud sellele väljalaskele.
+    `CDS Parties (msdyn_parties)`| 1.0.0.2 | See on uus kaart, mis on osaliselt lisatud sellele väljalaskele.
+    `Contacts V2 (msdyn_contactforparties)`| 1.0.0.6 | See on uus kaart, mis on osaliselt lisatud sellele väljalaskele.
     `Customers V3 (accounts)` | 1.0.0.5 |Eemaldatud `PartyNumber` ja teised osapoolega seotud väljad nagu nimi, isiklikud üksikasjad, postiaadressi väljad ja elektroonilise kontaktiaadressi väljad.
     `Customer V3 (contacts)` | 1.0.0.5 | Eemaldatud `PartyNumber` ja teised osapoolega seotud väljad nagu nimi, isiklikud üksikasjad, postiaadressi väljad ja elektroonilise kontaktiaadressi väljad.
     `Vendors V2 (msdyn_vendors)` | 1.0.0.6 | Eemaldatud `PartyNumber` ja teised osapoolega seotud väljad nagu nimi, isiklikud üksikasjad, postiaadressi väljad ja elektroonilise kontaktiaadressi väljad.
@@ -174,16 +174,17 @@ Elektronaadressid on saadaval ainult selles ruudustikus. Tulevastes väljalasete
     `Sales invoice headers V2 (invoices)` | 1.0.0.4 | Asendas kontaktisiku `ContactforParty` viitega.
     `CDS Sales order headers (salesorders)` | 1.0.0.5 | Asendas kontaktisiku `ContactforParty` viitega.
     `CDS Party postal address locations (msdyn_partypostaladdresses)` | 1.0.0.1  | See on uus kaart, mis on osaliselt lisatud sellele väljalaskele.
-    `CDS postal address history V2 (msdyn_postaladdresses)` | 1.0.0.1 | See on uus kaart, mis on osaliselt lisatud sellele väljalaskele.
+    `CDS postal address history V2 (msdyn_postaladdresses)` | 1.0.0.2 | See on uus kaart, mis on osaliselt lisatud sellele väljalaskele.
     `CDS postal address locations (msdyn_postaladdresscollections)` | 1.0.0.0 | See on uus kaart, mis on osaliselt lisatud sellele väljalaskele.
     `Party Contacts V3 (msdyn_partyelectronicaddresses)` | 1.0.0.0 | See on uus kaart, mis on osaliselt lisatud sellele väljalaskele.
-    `Complimentary Closings ( msdyn_compliemntaryclosings)` | 1.0.0.0 | See on uus kaart, mis on osaliselt lisatud sellele väljalaskele.
+    `Complimentary Closings (msdyn_compliemntaryclosings)` | 1.0.0.0 | See on uus kaart, mis on osaliselt lisatud sellele väljalaskele.
     `Decision making roles (msdyn_decisionmakingroles)` | 1.0.0.0 | See on uus kaart, mis on osaliselt lisatud sellele väljalaskele.
     `Loyalty levels (msdyn_loyaltylevels)` | 1.0.0.0 | See on uus kaart, mis on osaliselt lisatud sellele väljalaskele.
     `Contact person titles (msdyn_salescontactpersontitles)` | 1.0.0.0 | See on uus kaart, mis on osaliselt lisatud sellele väljalaskele.
     `Personal character types (msdyn_personalcharactertypes)` | 1.0.0.0 | See on uus kaart, mis on osaliselt lisatud sellele väljalaskele.
     `Salutations (msdyn_salutations)` | 1.0.0.0 | See on uus kaart, mis on osaliselt lisatud sellele väljalaskele.
     `Employment job functions (msdyn_employmentjobfunctions)` | 1.0.0.0 | See on uus kaart, mis on osaliselt lisatud sellele väljalaskele.
+    `CDS Address roles (msdyn_addressroles)` | 1.0.0.0 | See on uus kaart, mis on osaliselt lisatud sellele väljalaskele.
 
 8. Enne ülalolevate kaartide käitamist, peate käsitsi värskendama integratsioonivõtmeid, nagu on kirjeldatud järgnevates sammudes. Seejärel valige nupp **Salvesta**.
 
@@ -251,14 +252,15 @@ Elektronaadressid on saadaval ainult selles ruudustikus. Tulevastes väljalasete
     [CDS-i müügipakkumise päis](mapping-reference.md#215) | pakkumised
     [CDS-i müügitellimuse päised](mapping-reference.md#217) | müügitellimused
     [Müügiarve päised V2](mapping-reference.md#118) | arved
+    [CDS-aadressi rollid](mapping-reference.md#301) | msdyn_addressroles
 
 > [!NOTE]
-> Kaart `CDS Contacts V2 (contacts)` on kaart, mille peatasite sammus 1. Kui proovite käitada teisi kaarte, võivad need 2 vastekaarti ilmuda ülalpeetavate loendis. Ära käita neid kaarte.
+> Kaart `CDS Contacts V2 (contacts)` on kaart, mille peatusite sammus 1. Kui proovite käitada teisi kaarte, võivad need 2 vastekaarti ilmuda ülalpeetavate loendis. Ära käita neid kaarte.
 >
-> Kui osapool ja globaalse aadressiraamatu lahendus on installitud, peate ühenduse `Microsoft.Dynamics.SCMExtended.Plugins.Plugins.LeadPrimaryContactPostCreate: QualifyLead of lead`keelama. Kui desinstallid osapoole ja globaalse aadressiraamatu lahenduse siis peate ühenduse keelama.
+> Kui osapool ja globaalse aadressiraamatu lahendus on installitud, peate kataloogi keelama.`Microsoft.Dynamics.SCMExtended.Plugins.Plugins.LeadPrimaryContactPostCreate: QualifyLead of lead` Kui desinstallid osapoole ja globaalse aadressiraamatu lahenduse siis peate ühenduse keelama.
 >
 > `msdyn_*partynumber` välja (ühe rea tekstivälja), mis on kaasatud tabelitesse **Konto**, **Kontakt** ja **Hankija** ei tohiks kasutada edasiminekuks. Sildinimel on eesliide **Iganenud** selguse jaoks. Selle asemel kasutage **msdyn_partyid** välja. See väli on tabeli **msdyn_party** otsing.
-
+>
 > Tabeli nimi | Vana väli | Uus väli
 > --------|-------|--------
 > Konto | `msdyn_partynumber` | `msdyn_partyid`
@@ -290,21 +292,22 @@ Tabeli kaartide kogum toimib koos ning suhtluses osapoole ja globaalse aadressir
 | [Müügiarve päised V2](mapping-reference.md#118) | arved |
 | [Tervitused](mapping-reference.md#228) | msdyn\_salutations |
 | [Hankijad V2](mapping-reference.md#202) | Msdyn\_hankijad |
+| [CDS-aadressi rollid](mapping-reference.md#301) |msddressaddressroles\_|
 
 Lisateavet vt [topeltkirjutuse vastendamise viitest](mapping-reference.md).
+
+## <a name="address-roles-as-a-multi-select-drop-down-list"></a>Aadressirollid mitmetasandilise ripploendina
+Postiaadress või elektrooniline aadress võivad teenida rohkem kui üht eesmärki. Näiteks võib postiaadress olla nii arveaadressi kui ka tarneaadressina. Sellisel juhul saab kasutaja ripploendist **valida** nii **Arve** kui ka Tarne, nagu järgmisel joonisel näha. 
+
+![Eesmärgi/rolli ripploend.](media/purpose.png)
 
 ## <a name="known-issues-and-limitations"></a>Teadaolevad probleemid ja piirangud
 
 + Kui loote finantside ja toimingute rakendustes kliendi aadressiga ja salvestate selle, ei pruugi aadress aadressitabeliga **sünkroonida**. Põhjus on platvormi topeltkirjutuse järjestuse probleemis. Lahendusena looge kõigepealt klient ja salvestage see. Seejärel lisage aadress.
 + Finantside ja toimingute rakendustes, kui kliendikirjel on esmane aadress ja te loote sellele kliendile uue kontakti, pärib kontaktkirje esmase aadressi seotud kliendikirjest. See juhtub ka hankija kontakti korral. Dataverse ei toeta praegu seda käitumist. Kui topeltkirjutus on lubatud, sünkroonitakse finantside ja toimingute rakendusest esmase aadressiga päritud kliendikontaktid Dataverse koos aadressiga.
-+ Elektrooniliste aadresside vahekaardile määratud elektroonilised aadressid ei tööta **Konto**, **Kontakt** ja **Hankija** vormidel tabelist `msdyn_partyelectronicaddress` . See teave ei mõjuta seotud kandeid (nt müügitellimus, pakkumine ja ostutellimus). Plaanime selle probleemi astmelises väljalaskes lahendada. Konto elektroonilise aadressi väljadel olevad andmed ja kontaktikirjed jätkavad tööd kannetega, nagu müügitellimus, pakkumine ja ostutellimus.
 + Finantside ja toimingute rakendustes saate luua kontaktikirje vormilt **Lisa kontakt**. Kui proovite luua uut kontakti vormilt **Kuva Kontakt** tegevus nurjub. See on teadaolev probleem.
 
     ![Teadaolev probleem Kontakti Lisamisega.](media/party-gab-contact-issue.png)
 
-+ **Esialgne sünkroonimine** ei toeta **Saadaval Alates** ja **Saadaval Kuni** väljasid **OsapooleKontakt** , kuna DIXF teisendab väärtuse täisarvu asemel stringiks. Teisendus käivitab tõrke `Cannot convert the literal '<say 08:00:00>’ to the expected type edm.int32`.
-+ Kui postiaadressi kasutatakse rohkem kui ühe põhjuse jaoks, näiteks ärisidemete aadressi ja arveldusaadressi, peaks see ilmuma nii, nagu `Business;Invoice` nagu näidatud järgmisel pildil. Kui lisate väärtuste vahele ruumi, kuvatakse tõrketeade.
-
-    ![Teadaolev probleem Aadressiga.](media/party-gab-address-issue.png)
-
++ **Esialgne sünkroonimine** ei toeta **Saadaval Alates** ja **Saadaval Kuni** väljasid **OsapooleKontakt** , kuna DIXF teisendab väärtuse täisarvu asemel stringiks. Teisendus käivitab tõrke `Cannot convert the literal '<say 08:00:00>' to the expected type edm.int32`.
 + Te ei saa sisestada edasisuunas postiaadressi, kasutades finantside ja operatsioonide rakendust topeltkirjutusega, Dataverse sest ei toeta kuupäeva mõju. Kui sisestate finantside ja toimingute rakenduse abil tulevikku ajastatud postiaadressi, Dataverse sünkroonitakse see täielikult ja aadressi näete kohe kasutajaliideses. Selle kirje mis tahes uuendused tulemuseks on viga, kuna see on tulevikku ajastatud ja mitte ajastatud finantside ja toimingute rakenduses.

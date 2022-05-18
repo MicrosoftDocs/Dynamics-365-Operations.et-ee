@@ -1,7 +1,7 @@
 ---
 title: Kaalutud keskmise kuupäev koos kaasa füüsilise väärtuse ja märkimisega
 description: Kaalutud keskmine kuupäev on kaalutud keskmise põhimõttel põhinev laomudel, milles laos olevaid kaupu hinnatakse lattu sissetulevate kaupade keskmise väärtuse järgi iga lao sulgemisperioodi päeva lõikes.
-author: AndersGirke
+author: JennySong-SH
 ms.date: 03/04/2022
 ms.topic: article
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
@@ -9,15 +9,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 28991
 ms.search.region: Global
-ms.author: aevengir
+ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3cf2206863d891eceb9c65ff879da3f9f72032b1
-ms.sourcegitcommit: fcded93fc6c27768a24a3d3dc5cc35e1b4eff22b
+ms.openlocfilehash: 1497cb08f4cc5a455c832b9bf125c309cd90aa3d
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "8391997"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8672118"
 ---
 # <a name="weighted-average-date-with-include-physical-value-and-marking"></a>Kaalutud keskmise kuupäev koos kaasa füüsilise väärtuse ja märkimisega
 
@@ -116,21 +116,21 @@ Järgnev diagramm näitab järgmisi kandeid:
 - 4a. Lao füüsiline sissetulek kogusele 1 hinnaga 25,00 USD tükk.
 - 5a. Lao füüsiline sissetulek kogusele 1 hinnaga 30,00 USD tükk.
 - 5b. Lao finantsiline sissetulek kogusele 1 hinnaga 30,00 USD tükk.
-- 6a. Lao füüsiline väljastus, kogus 1 omahinnaga USD 23.00 (finantsiliselt sisestatud kannete jooksev keskmine).
+- 6a. Lao füüsiline väljastus, kogus 1, omahind USD 23.00 (finantsiliselt sisestatud kannete jooksev keskmine).
 
 **3. päev**
 
 - 7\. Teostatakse lao sulgemine.
 - 7a. Kaalutud keskmise lao sulgemise kande finantsiline väljaminek luuakse kõigi lao finantsivate sissetulekute tasakaalustuste summeerimiseks.
 
-    - Kanne 1b tasakaalustatakse kogusele 1 tasakaalustatud summaga USD 10.00.
+    - Kanne 1b tasakaalustatakse kogusele 1 tasakaalustatud USD 10.00.
     - Kanne 2b tasakaalustatakse kogusele 1 tasakaalustatud summaga USD 22.00.
     - Kanne 7a luuakse kogusele 2 tasakaalustatud summaga USD 32.00. See kanne tasakaalustab kahe selle perioodi jooksul finantsiliselt uuendatud sissetulekukande summa.
 
 - 7b. Kaalutud keskmise lao sulgemise kande finantssissetulek luuakse finantsiliselt sisestatud väljaminekul tasakaalustamiseks.
 
     - Kanne 3b tasakaalustatakse kogusele 1 tasakaalustatud USD 16.00. Seda kannet ei korrigeerita, kuna see on finantsiliselt sisestatud kannete kaalutud keskmine 1. detsembril (12.12.).
-    - Kanne 7b luuakse kogusele 2 rahalise summaga USD 32.00 ja tasakaalustatud summaga USD 16.00 vastaskandele 3b. See kanne tasakaalustab ühe väljaminekukande summa, mis on perioodi jooksul finantsiliselt uuendatud. Kanne jääb avatuks, sest vaba kaubavaru on veel üks.
+    - Kanne 7b luuakse kogusele 2 finantssummaga USD 32.00 ja tasakaalustatud summaga USD 16.00 vastaskandele 3b. See kanne tasakaalustab ühe väljaminekukande summa, mis on perioodi jooksul finantsiliselt uuendatud. Kanne jääb avatuks, sest vaba kaubavaru on veel üks.
 
 Järgmine diagramm näitab seda kannete seeriat ja kaalutud keskmise laomudeli kasutamise efektisid ja summeeritud tasakaalustuse põhimõtet, **kuid ilma valikut Kaasa füüsiline** väärtus kasutades.
 
@@ -218,14 +218,14 @@ Järgnev diagramm näitab järgmisi kandeid:
 - 7\. Teostatakse lao sulgemine.
 - 7a. Kaalutud keskmise lao sulgemise kande finantsiline väljaminek luuakse kõigi lao finantsivate sissetulekute tasakaalustuste summeerimiseks.
 
-    - Kanne 1b tasakaalustatakse kogusele 1 tasakaalustatud summaga USD 10.00.
+    - Kanne 1b tasakaalustatakse kogusele 1 tasakaalustatud USD 10.00.
     - Kanne 2b tasakaalustatakse kogusele 1 tasakaalustatud summaga USD 22.00.
     - Kanne 7a luuakse kogusele 2 tasakaalustatud summaga USD 32.00. See kanne tasakaalustab kahe selle perioodi jooksul finantsiliselt uuendatud sissetulekukande summa.
 
 - 7b. Kaalutud keskmise lao sulgemise kande finantssissetulek luuakse finantsiliselt sisestatud väljaminekul tasakaalustamiseks.
 
     - Kanne 3b tasakaalustatakse kogusele 1 tasakaalustatud USD 16.00. Seda kannet ei korrigeerita, kuna see on finantsiliselt sisestatud kannete kaalutud keskmine 1. detsembril (12.12.).
-    - Kanne 7b luuakse kogusele 2 rahalise summaga USD 32.00 ja tasakaalustatud summaga USD 16.00 vastaskandele 3b. See kanne tasakaalustab ühe väljaminekukande summa, mis on perioodi jooksul finantsiliselt uuendatud. Kanne jääb avatuks, sest vaba kaubavaru on veel üks.
+    - Kanne 7b luuakse kogusele 2 finantssummaga USD 32.00 ja tasakaalustatud summaga USD 16.00 vastaskandele 3b. See kanne tasakaalustab ühe väljaminekukande summa, mis on perioodi jooksul finantsiliselt uuendatud. Kanne jääb avatuks, sest vaba kaubavaru on veel üks.
 
 Järgmine diagramm näitab seda kannete seeriat ja kaalutud keskmise laomudeli kasutamise efektisid **ja summeeritud tasakaalustuspõhimõtet valikuta Kaasa füüsiline** väärtus.
 
@@ -250,7 +250,7 @@ Märkimine on protsess, mis võimaldab teil väljaminekukande siduda või märki
 
 Näiteks võttis teie klienditeenindus oluliselt kliendilt vastu kiirtellimuse. Kuna tegemist on kiirtellimusega, peate maksma kauba eest rohkem, et oma kliendi taotlust kätte saada. Peate olema kindel, et selle müügitellimuse arve puhul kajastub selle laokauba maksumus marginaalis või müüdud kaupade maksumuses (COGS).
 
-Ostutellimuse sisestamisel saadakse laoseis maksumusega 120,00 USD. Kui müügitellimuse dokument märgitakse ostutellimusele enne saatelehe või arve sisestamist, sisestatakse COGS USD 120.00 kauba praeguse jooksva keskmise kulu asemel. Kui märgistus toimub pärast müügitellimuse saatelehe või arve sisestamist, sisestatakse COGS jooksva keskmise omahinnaga.
+Ostutellimuse sisestamisel saadakse laoseis maksumusega 120,00 USD. Kui müügitellimuse dokument märgitakse ostutellimusele enne saatelehe või arve sisestamist, sisestatakse cogs USD 120.00 kauba praeguse jooksva keskmise kulu asemel. Kui märgistus toimub pärast müügitellimuse saatelehe või arve sisestamist, sisestatakse COGS jooksva keskmise omahinnaga.
 
 Enne lao sulgemist saab neid kahte kannet veel üksteisele märkida.
 
@@ -277,11 +277,11 @@ Järgnev diagramm näitab järgmisi kandeid:
 - 4a. Lao füüsiline sissetulek kogusele 1 hinnaga 25,00 USD tükk.
 - 5a. Lao füüsiline sissetulek kogusele 1 hinnaga 30,00 USD tükk.
 - 5b. Lao finantsiline sissetulek kogusele 1 hinnaga 30,00 USD tükk.
-- 6a. Lao füüsiline väljastus, kogus 1 omahinnaga USD 23.00 (finantsiliselt sisestatud kannete jooksev keskmine).
+- 6a. Lao füüsiline väljastus, kogus 1, omahind USD 23.00 (finantsiliselt sisestatud kannete jooksev keskmine).
 
 **3. päev**
 
-- 7\. Teostatakse lao sulgemine. Märgitud kanded tasakaalustatakse üksteise suhtes, võttes aluseks märkimise põhimõtte, mis kasutab kaalutud keskmise meetodit. Selles näites tasakaalustatakse kanne 3b kandega 2b ja kande korrigeerimine USD 6.00 3b kandesse 3b, et väärtus USD 22.00. Selles näites pole täiendavaid tasakaalustusi tehtud, sest sulgemine loob tasakaalustusi ainult finantsiliselt uuendatud kannete puhul.
+- 7\. Teostatakse lao sulgemine. Märgitud kanded tasakaalustatakse üksteise suhtes, võttes aluseks märkimise põhimõtte, mis kasutab kaalutud keskmise meetodit. Selles näites tasakaalustatakse kanne 3b kandega 2b ja USD 6.00 korrigeerimine sisestatakse kandesse 3b, et väärtus USD 22.00. Selles näites pole täiendavaid tasakaalustusi tehtud, sest sulgemine loob tasakaalustusi ainult finantsiliselt uuendatud kannete puhul.
 
 Järgnev diagramm näitab seda kannete seeriat ja kaalutud keskmise laomudeli kasutamise efektid koos märkimisega.
 

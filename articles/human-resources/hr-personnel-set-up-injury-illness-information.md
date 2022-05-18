@@ -8,17 +8,16 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: HRMInjurySetup, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 680f4cc529b6818d763730f253811a6edbe0dd76
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 03f68ca3b5d863844818c9f3489d30483f897296
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070573"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8692831"
 ---
 # <a name="set-up-injury-and-illness-information"></a>Saate häälestada vigastuste ja haiguste teavet.
 
@@ -29,35 +28,35 @@ ms.locfileid: "8070573"
 
 
 
-Tööandjad peavad teadma, kui nende töötajad saavad töökohal esinevate ohtude tõttu vigastusi või haigusi. Saate kasutada **Vigastused ja haigused** leht, et seadistada teavet, mis hõlbustab töövigastustest või -haigustest teatamist. Saate seadistada vigastuste ja haiguste tüübid, sh ravi, kulude ja tulemuste tüübid. The **USMF** Selle protseduuri loomiseks kasutati demoandmete ettevõtet.
+Tööandjad peavad töökoha vigastuste või haiguste tõttu teadma, millal nende töötajad vigastavad. Saate kasutada vigastuste ja **haiguste lehte** teabe häälestamiseks, mis hõlbustab töökoha vigastuste või haiguste aruandlust. Saate seadistada vigastuste ja haiguste tüübid, sh ravi, kulude ja tulemuste tüübid. Selle **protseduuri loomiseks kasutati USMF-i** demoandmete ettevõtet.
 
-1. Minema **Inimressursid** \> **Töölised** \> **Vigastused ja haigused** \> **Vigastuste ja haiguste seadistus**.
+1. Minge inimressursside **töötaja vigastuste** \> **ja haiguste** \> **häälestusse.** \> **·**
 2. Valige suvand **Uus**.
-3. Aastal **Vigastuse või haiguse tüüp** väljale sisestage väärtus (näiteks **Luumurd**).
-4. Aastal **Kirjeldus** väljale sisestage väärtus (näiteks **Luu murd**).
-5. Valige **Kehaosad** sakk.
+3. Sisestage **väärtus väljale Vigastuse** või haiguse tüüp (nt **Paljunemine**).
+4. Sisestage **väärtus** väljale Kirjeldus (nt **Lisa** nimi).
+5. Valige vahekaart **Kehaosad**.
 6. Valige suvand **Uus**.
-7. Aastal **Kehaosa** väljale sisestage väärtus (näiteks **Randme**).
-8. Aastal **Kirjeldus** väljale sisestage väärtus (näiteks **Randme**).
-9. Valige **Ravi tüübid** sakk.
+7. **Väljale Kehaosa** sisestage väärtus (nt Siis, **Kuisa**).
+8. Sisestage **väärtus** väljale Kirjeldus (nt Siis, Siis saate selle **sisestada**).
+9. Valige vahekaart **Ravi** tüübid.
 10. Valige suvand **Uus**.
-11. Aastal **Ravi tüüp** väljale sisestage väärtus (näiteks **Splint**).
-12. Aastal **Kirjeldus** väljale sisestage väärtus (näiteks **Pane lahas peale**).
-13. Valige **Kulu liigid** sakk.
+11. Väljale Ravi **tüüp** sisestage väärtus (nt **Splint**).
+12. **Sisestage** väärtus väljale Kirjeldus (nt Asetage **latti).**
+13. Valige vahekaart **Kulutüübid**.
 14. Valige suvand **Uus**.
-15. Aastal **Kulu tüüp** väljale sisestage väärtus (näiteks **röntgenikiirgus**).
-16. Aastal **Kirjeldus** väljale sisestage väärtus (näiteks **röntgenikiirgus**).
-17. Valige **Tulemuste tüübid** sakk.
+15. **Sisestage väärtus** väljale Kulu tüüp (nt **X-maksud**).
+16. **Sisestage** väärtus väljale Kirjeldus (nt **X-klahvid**).
+17. Valige vahekaart **Väljunditüübid**.
 18. Valige suvand **Uus**.
-19. Aastal **Tulemuse tüüp** väljale sisestage väärtus (näiteks **Teraapia**).
-20. Aastal **Kirjeldus** väljale sisestage väärtus (näiteks **Füsioteraapia**).
-21. Valige **Raskusastmed** sakk.
+19. Sisestage **väärtus** väljale Tulemuse tüüp (nt **Ravi**).
+20. Sisestage **väärtus** väljale Kirjeldus (nt Ravi **füüsiline**).
+21. Valige vahekaart **Tõsidustasemed**.
 
-    Saate luua kohandatavaid raskusastmeid. Näiteks võib raskusaste 1 viidata kergele vigastusele, raskusaste 3 aga raskele vigastusele.
+    Saate luua kohandatavaid raskusastmeid. Näiteks tõsidus 1 võib näidata väiksemat vigastust, samas kui tõsidus 3 võib tähistada rasket vigastust.
 
-22. Valige **Aruandlusasutused** sakk.
+22. Valige vahekaart **Aruandlusasutused**.
 
-    Teavitavad asutused on asutused, kellele tuleb juhtumist teatada. Valige **Vaikimisi** selle asutuse märkeruut, mis on vaikeagentuur, kellele tuleb vigastustest ja haigustest teatada.
+    Aruandlusasutused on asutused, kus tuleb juhtumist teatada. Märkige ruut **Vaikimisi** agentuurile, mis on vaikeasutus,le tuleb vigastustest ja haigustest teatada.
 
 23. Valige käsk **Salvesta**.
 

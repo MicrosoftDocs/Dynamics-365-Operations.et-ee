@@ -1,6 +1,6 @@
 ---
 title: Pearaamatu eraldamistöölehe töötlemine
-description: Selles teemas selgitatakse eraldamise taotluse töötlemist rakenduses Dynamics 365 Finance.
+description: See teema kirjeldab, kuidas rakenduses Dynamics 365 Finance eraldustaotlust töödelda.
 author: aprilolson
 ms.date: 07/26/2019
 ms.topic: business-process
@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerAllocationRequest, LedgerJournalTable, LedgerJournalTransAllocation
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7d37b1a9869cc130786d0e8fde68184e04c881bad1f64c86943174213025db82
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1ec3653085aed278eb5d13d47f345c713cd39f1f
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765664"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8722135"
 ---
 # <a name="process-ledger-allocation-journal"></a>Pearaamatu eraldamistöölehe töötlemine
 
@@ -26,7 +26,7 @@ ms.locfileid: "6765664"
 
 Selles teemas selgitatakse eraldamise taotluse töötlemist. Kasutage lehte Eraldamistaotluse töötlemine selleks, et luua eraldamistööleht, mille saab üle vaadata ja kinnitada enne pearaamatusse sisestamist või sisestada otse pearaamatusse. Eraldamistöölehe saate luua alles siis, kui on olemas vähemalt üks aktiivne töölehe eraldamisreegel. See ülesanne kasutab demoettevõtte USMF andmeid.
 
-1. Navigeerimispaanil avage **Moodulid > Pearaamat > Eraldamised > Protsessi eraldamise taotlus**.
+1. Navigeerimispaanil minge pearaamatusse ja **> eraldamised > protsessi eraldamistaotlus**.
 2. Valige väljal **Reegel** ripploendist soovitud kirje.
 3. Sisestage väljale **Kuupäevaga** kuupäev.
 

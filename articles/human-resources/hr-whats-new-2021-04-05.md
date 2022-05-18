@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-04-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d91ef244f8dd48baf65f5633357a7d81a68f84621b20d39d4e0ee771283a2bab
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 19ac856de0fed9253bf79cb4c06d4347e5a19c77
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741353"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8693468"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-april-5-2021"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 Human Resources (5. aprill, 2021)?
 
@@ -72,7 +71,7 @@ Järgmised uued funktsioonid on eelversioonis. Lisateavet funktsioonide sisse- v
 | Funktsioon | Details |
 | --- | --- |
 | Töövoog saab automaatselt heaks kiita juhataja poolt töötajate jaoks sisestatud oskused. | Peagi tulekul. |
-| Platvormi värskendus 10.0.17 (41) | Platvormi värskendus 10.0.17 peaks algama järgmise väljalaskega (19. aprill 2021). Lisateavet leiate teemast [Finance and Operationsi rakenduste versiooni 10.0.17 platvormivärskendused (aprill 2021)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-17.md). |
+| Platvormi värskendus 10.0.17 (41) | Platvormi värskendus 10.0.17 peaks algama järgmise väljalaskega (19. aprill 2021). Lisateavet vt Platvormi värskendustest [versioonile 10.0.17 Finance and Operations rakendustest (aprill 2021)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-17.md). |
 
 Plaanitud funktsioonide täieliku loendi ja nende kavandatud väljaannete kohta leiate teavet teemast [Dynamics 365 Human Resourcesi 2021. aasta 1. väljalaskevoo ülevaade](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/).
 

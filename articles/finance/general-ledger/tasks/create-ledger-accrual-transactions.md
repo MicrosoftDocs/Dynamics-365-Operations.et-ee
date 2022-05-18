@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransDaily, LedgerJournalTransAccrual, LedgerJournalTransAccrualTrans
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6500da88424ea71aa8f8836dfdb7d42ef444637b50efe4401a6f76a876e3e0cf
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d9aa546bea140fe29a97e4cda7a85f632b8cf3b0
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750384"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8716603"
 ---
 # <a name="create-ledger-accrual-transactions"></a>Pearaamatu tekkepõhiste kannete loomine
 
@@ -26,25 +26,25 @@ ms.locfileid: "6750384"
 
 See ülesandejuhend hõlmab pearaamatu tekkepõhiste kannete, mille aluseks on viitvõlgade skeemid, loomise etappe
 
-1. Avage Pearaamat > Töölehe sisestused > Päevaraamatud.
+1. Avage **Pearaamat > Töölehe kanded > Päevaraamatud**.
 2. Leidke ja valige loendist soovitud tööleht või looge uus.
-3. Klõpsake linki väljal Töölehe partiinumber.
+3. Klõpsake, et järgida linki töölehe **partiinumbri väljal**.
 4. Märkige loendis valitud rida.
-5. Täpsustage soovitud väärtusi väljal Konto.
+5. Täpsustage soovitud väärtusi väljal **Konto**.
     * Selles näites määratleme kindlustuse kulu. See muutub perioodiliseks kulusummaks.  
-6. Sisestage väljale Kirjeldus soovitud väärtus.
-7. Sisestage arv väljale Deebet.
-8. Täpsustage soovitud väärtusi väljal Vastaskonto.
-9. Klõpsake suvandit Funktsioonid.
-10. Klõpsake suvandit Pearaamatu viitvõlad.
-11. Klõpsake väljal Viitvõla ID otsingu avamiseks ripploendi nuppu.
+6. Sisestage väärtus väljale **Kirjeldus**.
+7. Sisestage arv väljale **Deebet**.
+8. Määratlega väljal **Vastaskonto** soovitud väärtused.
+9. Klõpsake suvandit **Funktsioonid**.
+10. Klõpsake **pearaamatu viitvõlgu**.
+11. **Otsingu avamiseks** klõpsake viitvõla ID väljal ripploendit.
 12. Leidke ja valige loendist viitvõlaskeem, mille soovite rakendada.
 13. Klõpsake loendis valitud real olevat linki.
-14. Sisestage kuupäev väljale Alguskuupäev.
-15. Klõpsake suvandit Kanded.
+14. Väljale **Alguskuupäev** sisestage kuupäev.
+15. Klõpsake **Kanded**.
 16. Sulgege leht.
-17. Klõpsake nuppu OK.
-18. Klõpsake valikut Sisesta.
+17. Klõpsake valikut **OK**.
+18. Klõpsake käsku **Sisesta**.
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: Andme integratsioonitehnoloogia valimine
-description: Selles artiklis antakse teavet personaliga hallatavate andmetega integreerimise kohta.
+description: See teema annab teavet Inimressursside hallatavate andmetega integreerimise kohta.
 author: twheeloc
 ms.date: 08/19/2021
 ms.topic: article
@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 24ddd242185d736287f61ec250c631ab65e08c95
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 98c1c56b445ae426103d19f96cbf1a77891221ef
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065037"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8717135"
 ---
 # <a name="choose-a-data-integration-technology"></a>Andme integratsioonitehnoloogia valimine
 
@@ -31,7 +30,7 @@ ms.locfileid: "8065037"
 
 
 
-Selles artiklis antakse teavet Dynamics 365 Human Resources hallatud andmetega integreerimise kohta. Kirjeldatakse erinevaid integratsioonitehnoloogiaid, et aitata teil otsustada, millised tehnoloogiad teie vajadustele kõige paremini vastavad.
+See teema annab teavet Dynamics 365 inimressursside hallatud andmetega integreerimiseks. Kirjeldatakse erinevaid integratsioonitehnoloogiaid, et aitata teil otsustada, millised tehnoloogiad teie vajadustele kõige paremini vastavad.
 
 ## <a name="data-integration-background"></a>Andmete integratsiooni taust
 
@@ -71,7 +70,7 @@ Dataverse’i tabelid ja nendega seotud API-d on parimad võimalused juurdepää
 
 ### <a name="dmfdixf-entities"></a>DMF-/DIXF-i üksused
 
-Inimressursid, mis on ehitatud peamiselt finants- ja tegevusrakendustega samale platvormile [, pakuvad andmehaldusraamistikku (DMF)](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=%2ffin-and-ops%2ftoc.json). DMF on tuntud ka kui andmete importimise/eksportimise raamistik (DIXF). Human Resources pakub andmeüksuste kogumit, mida saate kasutada Human Resourcesi teabe importimiseks ja eksportimiseks. Kui Dataverse’i tabelid on rakenduses Human Resources eelistatud andmeintegratsiooni liideseks, on DMF-i üksused siiski mõnes olukorras kasulikud, näiteks järgmistes.
+Inimressursid, mis on loodud peamiselt samal platvormil kui Finantside ja toimingute rakendused, pakub andmehalduse [raamistikku (DMF)](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=%2ffin-and-ops%2ftoc.json). DMF on tuntud ka kui andmete importimise/eksportimise raamistik (DIXF). Human Resources pakub andmeüksuste kogumit, mida saate kasutada Human Resourcesi teabe importimiseks ja eksportimiseks. Kui Dataverse’i tabelid on rakenduses Human Resources eelistatud andmeintegratsiooni liideseks, on DMF-i üksused siiski mõnes olukorras kasulikud, näiteks järgmistes.
 
 - Dataverse’i tabelid pole veel saadaval.
 
@@ -114,7 +113,7 @@ BYOD on sobiv aruandluslahenduste, andmete integreerimise ja andmete koondamise,
 
 ### <a name="odata-enabled-entities"></a>OData-toega üksused
 
-Enamikul DMF-üksustel on juurdepääs ka rakendusele Human Resources andmeside teenuse (OData) kaudu. OData teenuse [Finance and Operations OData jaoks](/dynamics365/unified-operations/dev-itpro/data-entities/odata) esitatud dokumentatsioon kehtib inimressurssidele, välja arvatud oma OData-ga kokkupuutuvate üksuste loomine.
+Enamikul DMF-üksustel on juurdepääs ka rakendusele Human Resources andmeside teenuse (OData) kaudu. Finantside ja toimingute [OData teenuse jaoks antud dokumentatsioon](/dynamics365/unified-operations/dev-itpro/data-entities/odata) kehtib inimressurssidele, v.a teie enda OData avatud üksuste loomisel.
 
 Samal ajal kui Dataverse ja OData rakendamine, mida pakub Dataverse ([Dynamics 365 veebirakendusliidese](/previous-versions/dynamicscrm-2016/developers-guide/mt593051(v=crm.8)) kaudu), on eelistatud rakenduse Human Resources andmesideteenuse ees, on rakenduse Human Resources andmesideteenusel praegu suurem täielike üksuste katvus Human Resourcesi andmete jaoks.
 
@@ -128,11 +127,11 @@ Exceli lisandmoodul sobib ad hoc-andmete importimiseks/eksportimiseks äridomeen
 
 Saate kasutada [andmeintegraatori teenust](/powerapps/administrator/data-integrator) rakenduse Dataverse andmeitegratsiooniks. Andmeintegraator võimaldab integratsiooniprojektide määratlemist sageli varem määratletud mallide põhjal, mille rakenduse arendajad on kohandanud kindla integratsiooni jaoks. Saate ajastada integratsiooniprojekte korduva graafiku põhjal automaatselt käivituma või käivitada neid käsitsi.
 
-Andmeintegraatori projektid sobivad rakenduse Dataverse pakktöötluse integreerimiseks. Need on suurepärane valik Dynamics 365 rakenduste pere vahelisteks integratsioonideks. Näiteks pakub Microsoft andmeintegraatori malli, mida saab kasutada rakendusest Human Resources pärinevate andmetega integreerimiseks Dynamics 365 Finance’i. Lisateavet malli kohta leiate teemast [Integreerimine rakendusest Dynamics 365 Human Resources Dynamics 365 Finance'i](hr-admin-integration-finance.md).
+Andmeintegraatori projektid sobivad rakenduse Dataverse pakktöötluse integreerimiseks. Need on suurepärane valik Dynamics 365 rakenduste pere vahelisteks integratsioonideks. Näiteks annab Microsoft andmeintegraatormalli Inimressurssidest Dynamics 365 Finance'i andmete integreerimiseks. Lisateavet malli kohta leiate integreerimisprotsessist [Dynamics 365 Human Resources Dynamics 365 Finance](hr-admin-integration-finance.md).
 
 ### <a name="power-query"></a>Power Query
 
-Andmeintegraator toetab [Power Query](/power-query/power-query-what-is-power-query) seda [täiustatud päringufunktsiooni kaudu](/powerapps/administrator/data-integrator#advanced-data-transformation-and-filtering). Power Query pakub võimsat ja paindlikku andmete filtreerimist ja teisendamist, sealhulgas rikkalikku M-valemikeelt. Power Query tõenäoliselt on tuttav, kui olete välja töötanud Power BI aruanded.
+Andmeintegraator toetab [Power Query](/power-query/power-query-what-is-power-query) seda täpsema päringu [funktsiooni kaudu](/powerapps/administrator/data-integrator#advanced-data-transformation-and-filtering). Power Query Pakub võimast, paindlikku andmete filtreerimist ja teisendamist, sh rikas M-i valemikeel. Power Query on ilmselt tutvunud, kui olete aruanded välja töötanud Power BI.
 
 ## <a name="deciding-on-an-integration-technology"></a>Integratsiooni tehnoloogia otsustamine
 

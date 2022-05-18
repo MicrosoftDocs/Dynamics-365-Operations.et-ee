@@ -8,21 +8,21 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: BudgetPlanningConfiguration
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom:
 - "17251"
 - intro-internal
 ms.assetid: a2e06633-a800-4840-a962-88fed8462104
 ms.search.region: Global
-ms.author: sigitac
+ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 391f62f42e482f79420bbe1bbd4cec4930790229
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: d69d3d1620616bd7a136645d6f28f638e8bcf199
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982061"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8711739"
 ---
 # <a name="budget-planning-overview"></a>Eelarve plaanimise ülevaade
 
@@ -32,7 +32,7 @@ Selles teemas tutvustatakse eelarve plaanimist. See teema sisaldab teavet, mis a
 
 ## <a name="overview-of-budget-planning"></a>Eelarve plaanimise ülevaade
 
-Organisatsioon saab eelarve plaanimise konfigureerida ja seejärel seadistada eelarve plaanimise protsessid, et need vastaksid eelarve ettevalmistamise poliitikatele, protseduuridele ja nõuetele. Kui mõistate Microsoft Dynamics 365 Finance-is kasutatavaid mõisteid ja terminoloogiat, on teil lihtsam oma organisatsioonis eelarve plaanimist rakendada.
+Organisatsioon saab eelarve plaanimise konfigureerida ja seejärel seadistada eelarve plaanimise protsessid, et need vastaksid eelarve ettevalmistamise poliitikatele, protseduuridele ja nõuetele. 365 Finantsis kasutatavaid mõisteid ja terminoloogiat mõisttes saate oma organisatsioonis Microsoft Dynamics eelarveplaanimist lihtsam ja tõhusamalt rakendada.
 
 ### <a name="key-terms"></a>Põhimõisted
 
@@ -57,7 +57,7 @@ Eelarve plaanimine on integreeritud teiste moodulitega. Nii saate kaasata teavet
 
 ## <a name="configuring-budget-planning"></a>Eelarve planeerimise konfigureerimine
 
-Funktsionaalsus, mis oli juurutatud Dynamics 365 Finance versiooni 10.0.9 (aprill 2020), sisaldab funktsiooni, mis aitab parandada toimimist, kui kasutate Exceli kirjete värskendamiseks nuppu **Avalda** ja seejärel saadate need kliendile tagasi. See funktsioon kiirendab värskendusprotsessi ja aitab ka vähendada tõenäosust, et värskendus blokeeritakse, kui värskendate üheaegselt palju kirjeid. Selle funktsionaalsuse lubamiseks minge tööruumi **Funktsioonide haldus** ja lülitage sisse funktsioon **Eelarve planeerimise päringu toimimise optimeerimine** jaotises **Eelarve koostamine**. Soovitame selle funktsiooni sisse lülitada.
+Dynamics 365 Finance versioonile 10.0.9 (2020. aprill) **juurutatud** funktsioon sisaldab funktsiooni, mis aitab parandada jõudlust, kui kasutate nuppu Avalda, et värskendada Exceli olemasolevaid kirjeid ja seejärel avaldada need tagasi kliendile. See funktsioon kiirendab värskendusprotsessi ja aitab ka vähendada tõenäosust, et värskendus blokeeritakse, kui värskendate üheaegselt palju kirjeid. Selle funktsionaalsuse lubamiseks minge tööruumi **Funktsioonide haldus** ja lülitage sisse funktsioon **Eelarve planeerimise päringu toimimise optimeerimine** jaotises **Eelarve koostamine**. Soovitame selle funktsiooni sisse lülitada.
 
 Leht **Eelarve plaanimise konfiguratsioon** sisaldab enamikku sätteid, mida vajate eelarve plaanimise seadistamiseks. Järgmistes jaotistes kirjeldatakse mõnd põhitegurit, millega peaksite eelarve plaanimise konfigureerimisel arvestama. Pärast konfigureerimise lõpetamist saate eelarve plaanimise protsessid seadistada.
 
@@ -87,7 +87,7 @@ Eelarve plaanimine saab kasutajaõiguste määramiseks jälgida ühte kahest tur
 
 Eelarve plaanimise töövooge kasutatakse koos eelarvestuse töövoogudega eelarveplaanide loomise ja arendamise haldamiseks.
 
-Eelarve planeerimise töövoog koosneb järjestatud etappidest, mille eelarveplaan läbib. Iga eelarve plaanimise töövoog on seotud eelarvestuse töövooga. Eelarvestuse töövood on töövoo tüüp, mida kasutatakse läbi kogu Dynamics 365 Finance. Eelarvestuse töövood suunavad eelarveplaanid koos töölehtede, põhjenduste ja manustega organisatsioonile ülevaatamiseks ja kinnitamiseks.
+Eelarve planeerimise töövoog koosneb järjestatud etappidest, mille eelarveplaan läbib. Iga eelarve plaanimise töövoog on seotud eelarvestuse töövooga. Eelarve töövood on üks töövoo tüüpe, mida kasutatakse kogu Dynamics 365 Finance'is. Eelarvestuse töövood suunavad eelarveplaanid koos töölehtede, põhjenduste ja manustega organisatsioonile ülevaatamiseks ja kinnitamiseks.
 
 Saate luua eelarve plaanimise töövoo jaotises **Töövooetapid** lehel **Eelarve plaanimise konfiguratsioon** . Seal saate valida etapid ja kasutatava eelarvestamise töövoo ja konfigureerida täiendavad sätted.
 

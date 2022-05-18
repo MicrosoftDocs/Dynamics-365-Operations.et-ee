@@ -1,6 +1,6 @@
 ---
 title: Varahalduse mobiilse tööruumi häälestamine
-description: Selles teemas kirjeldatakse, kuidas häälestada rakendus Microsoft Dynamics 365 Supply Chain Management ja mobiilirakendus Finance and Operations (Dynamics 365) käitama varahalduse mobiilset tööruumi, mida töötajad saavad kasutada varahalduse ülesannete täitmiseks.
+description: See teema kirjeldab, kuidas seadistada Microsofti Dynamics 365 Supply Chain Management ja finantside ja toimingute (Dynamics 365) mobiilirakendust, et käitada varahalduse mobiilset tööruumi, mida töötajad saavad kasutada varahalduse ülesannete tegemiseks.
 author: johanhoffmann
 ms.date: 01/15/2021
 ms.topic: article
@@ -8,23 +8,22 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-22
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 5d628f99d4fc6788ddb38590c65decb871d49f93
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: a056be417d266fd400ce1572312f327dc070cb6a
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572189"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8693496"
 ---
 # <a name="set-up-the-asset-management-mobile-workspace"></a>Varahalduse mobiilse tööruumi häälestamine
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas kirjeldatakse, kuidas häälestada rakendus Microsoft Dynamics 365 Supply Chain Management ja mobiilirakendus Finance and Operations (Dynamics 365) käitama mobiilset tööruumi **Varahaldus**, mida töötajad saavad kasutada varahalduse ülesannete täitmiseks.
+See teema kirjeldab, kuidas seadistada Microsofti Dynamics 365 Supply Chain Management ja finantside ja toimingute (Dynamics 365) **mobiilirakendust**, et käitada varahalduse mobiilset tööruumi, mida töötajad saavad kasutada varahalduse ülesannete tegemiseks.
 
 ## <a name="set-up-maintenance-worker-users-in-supply-chain-management"></a>Hooldustöötajate häälestamine teenuses Supply Chain Management
 
@@ -42,7 +41,7 @@ Iga kasutaja kes vajab juurdepääsu **varahalduse** mobiilsele tööruumile, j�
 
 ## <a name="publish-the-asset-management-mobile-workspace"></a>Varahalduse mobiilse tööruumi avaldamine
 
-Varahalduse funktsioonide mobiilirakenduses Finance and Operations (Dynamics 365) kättesaadavaks tegemiseks peate avaldama mobiilse tööruumi **Varahaldus**.
+Varahalduse funktsioonide kättesaadavaks tegemiseks finantside ja toimingute (Dynamics 365) mobiilirakenduses peate **avaldama varahalduse mobiilse** tööruumi.
 
 1. Valige teenuses Supply Chain Management nupp **Sätted** (ülemises parempoolses nurgas olev hammasratta sümbol) ja valige seejärel menüüst suvand **Mobiilirakendus**.
 1. Leidke dialoogiboksis **Mobiilirakenduse haldamine** paan **Varahaldus**. Kui see sisaldab teksti „Metaandmetes – pole avaldatud”, ei ole tööruumi veel avaldatud. Kui see sisaldab teksti „Metaandmetes - avaldatud”, on tööruum juba avaldatud ja saate selle protseduuri ülejäänud osa vahele jätta.
@@ -51,14 +50,14 @@ Varahalduse funktsioonide mobiilirakenduses Finance and Operations (Dynamics 365
 
 1. Valige paan **Varahaldus** ja valige seejärel tööriistaribal käsk **Avalda**. Mõne sekundi pärast peaksite saama teatise, mis ütleb, et tööruum on avaldatud. Lisaks peaks paanil olev tekst muutuma variandile „Metaandmetes – avaldatud”.
 
-## <a name="install-and-set-up-the-finance-and-operations-dynamics-365-mobile-app"></a>Mobiilirakenduse Finance and Operations (Dynamics 365) installimine ja häälestamine
+## <a name="install-and-set-up-the-finance-and-operations-dynamics-365-mobile-app"></a>Finantside ja toimingute (Dynamics 365) mobiilirakenduse installimine ja häälestamine
 
-1. Avage üks järgmistest rakendusepoodidest, et installida rakendus **Microsoft Finance and Operations (Dynamics 365)** oma mobiilseadmesse.
+1. Avage üks järgmistest rakenduse kauplustest, et **installida oma mobiilseadmesse Microsoft Finance and Operations (Dynamics 365)** rakendus:
 
     - [Google’i Androidi seadmed](https://go.microsoft.com/fwlink/?linkid=850662)
     - [Apple’i iOS-i seadmed](https://go.microsoft.com/fwlink/?linkid=850663)
 
-1. Avage rakendus Finance and Operations (Dynamics 365). Ilmuma peaks sisselogimisleht. Sisestage **sisselogimise** väljale oma Supply Chain Managementi URL või valige loendist **Hiljutised keskkonnad** hiljutine URL ja puudutage seejärel valikut **Ühenda**.
+1. Avage rakendus Finantsid ja toimingud (Dynamics 365). Ilmuma peaks sisselogimisleht. Sisestage **sisselogimise** väljale oma Supply Chain Managementi URL või valige loendist **Hiljutised keskkonnad** hiljutine URL ja puudutage seejärel valikut **Ühenda**.
 
     ![Sisselogimise leht.](media/mobile-app-sign-in.png "Sisselogimise leht")
 
@@ -81,7 +80,7 @@ Varahalduse funktsioonide mobiilirakenduses Finance and Operations (Dynamics 365
 
 Lisateavet selle kohta, kuidas mobiilse tööruumiga **Varahaldus** töötada, vt teemat [Varahalduse mobiilse tööruumi kasutamine](asset-management-mobile-workspace.md).
 
-Lisateavet mobiilirakenduse Finance and Operations (Dynamics 365) kohta vt [mobiilirakenduse kodulehelt](../../fin-ops-core/dev-itpro/mobile-apps/Mobile-app-home-page.md).
+Lisateavet finantside ja toimingute (Dynamics 365) mobiilirakenduse kohta vt mobiilirakenduse [kodulehelt](../../fin-ops-core/dev-itpro/mobile-apps/Mobile-app-home-page.md).
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

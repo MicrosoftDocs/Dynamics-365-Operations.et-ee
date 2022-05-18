@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-07-21
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 869832f085ee91f6c1fee53dad508cf5e54535627dadd6fb59a7586b03c8ec3b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e18caf1dbdf8191713c17b1793f5da44cf2f182b
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719729"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8724525"
 ---
 # <a name="why-cant-i-reverse-this-transaction"></a>Miks ma ei saa seda kannet tühistada?
 
@@ -35,7 +35,7 @@ Organisatsioonidel võib tekkida olukord, kus nad peavad tühistama sisestatud k
 
 ## <a name="resolution"></a>Lahendus
 
-Kanded peavad enne ümberpööramist vastama kindlatele kriteeriumidele. Selle teema ülejäänud jaotised annavad kinnituse iga mooduli jaoks. Kuigi see teema keskendub kannetele Microsoft Dynamics 365 Finance saab mõningaid mõisteid ja kinnitamist rakendada teistele rakendustele nagu näiteks Dynamics 365 Supply Chain Management.
+Kanded peavad enne ümberpööramist vastama kindlatele kriteeriumidele. Selle teema ülejäänud jaotised annavad kinnituse iga mooduli jaoks. Kuigi see teema keskendub kannetele Microsoft Dynamics 365 Finantsis, saab mõningaid mõisteid ja kinnitamist rakendada teistele rakendustele, nt Dynamics 365 Supply Chain Management.
 
 Lisaks võib see koht, kus kanne tühistatakse, mõjutada, kas seda saab tagasi võtta. Näiteks saab müüja makset, mis on sisestatud tšekina, tühistada ainult pangakontode kandelehe jaotises **Tšekid**. Seda ei saab tühistada jaotisest **Vautcheri kanded** pearaamatu lehelt.
 

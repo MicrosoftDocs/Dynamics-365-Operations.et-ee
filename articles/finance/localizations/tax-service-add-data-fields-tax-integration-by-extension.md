@@ -9,18 +9,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 79b51812eac354072ebf2a0ef6fe8d39610c6385
-ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
-ms.translationtype: HT
+ms.openlocfilehash: 64c68ef6804297f86b5d9dc1933b0c16a0d42aae
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8649097"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8695384"
 ---
 # <a name="add-data-fields-in-the-tax-integration-by-using-extension"></a>Maksuintegratsiooni andmeväljade lisamine laiendite abil
 
@@ -383,7 +382,7 @@ Projekti edukaks loomiseks lisage mudeli sõltuvuste jaoks järgmised viitemudel
 
 Pärast eelmiste sammude lõpule viimist saate oma muudatused kinnitada.
 
-1. Finantsis minge ostureskontrosse **ja** lisage **URL-ile &debug=vsCconfirmExit%2&**. Näiteks. https://usnconeboxax1aos.cloud.onebox.dynamics.com/?cmp=DEMF&mi=PurchTableListPage&debug=vs%2CconfirmExit& Lõpp on **&** oluline.
+1. Finantsis minge ostureskontrosse **ja** lisage **URL-ile &debug=vsCconfirmExit%2&**. Näiteks. `https://usnconeboxax1aos.cloud.onebox.dynamics.com/?cmp=DEMF&mi=PurchTableListPage&debug=vs%2CconfirmExit&` Lõpp on **&** oluline.
 2. Avage ostutellimuse **leht** ja valige **ostutellimuse** loomiseks uus.
 3. Seadke kohandatud väljale väärtus ja seejärel valige **käibemaks**. Eesliitega tõrkeotsingu fail **TaxServiceTroubleshootingLog** laaditakse automaatselt alla. See fail sisaldab maksuarvutuse teenusesse sisestatud kandeteavet. 
 4. Kontrollige, kas kohandatud väli on maksuteenuse arvutuse **sisendis JSON-i** jaotises olemas ja kas selle väärtus on õige. Kui väärtus ei ole õige, topeltkontrollige selle dokumendi samme.

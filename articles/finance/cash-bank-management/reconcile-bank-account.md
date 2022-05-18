@@ -7,19 +7,19 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e06a38a19a16a07d77d0c9aceaa4e3206646dd0561996681b417b785058f3938
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 75e5eb82686a0c124694ad349978f9c32482012b
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739355"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8727646"
 ---
 # <a name="reconcile-a-bank-account"></a>Pangakonto vastavusseviimine
 
@@ -35,7 +35,7 @@ Te ei saa viia pangakonto väljavõtet vastavusse pangakontoga, kui väljavõtte
 
 3.  Valige **kanded**, et avada leht **Konto vastavusse viimine**.
 
-4.  Iga kande puhul, mis kaasatakse pangakonto väljavõttesse, valige märkeuut **Tühjendatud**, kui summa rakenduses Dynamics 365 Finance vastab summale pangaväljavõttel. Väärtust saate sisestada või muuta ka väljal **Pangakande tüüp**. See on oluline teie pangakannete statistika ja mõnede aruannete jaoks.
+4.  Iga pangaväljavõttele lisatava **kande puhul märkige ruut Cleared** (Tühjendatud), kui Dynamics 365 Finance'i summa vastab pangaväljavõtte summale. Väärtust saate sisestada või muuta ka väljal **Pangakande tüüp**. See on oluline teie pangakannete statistika ja mõnede aruannete jaoks.
     
 
     > [!NOTE]

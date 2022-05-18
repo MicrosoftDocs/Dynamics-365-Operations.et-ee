@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: e012b88465e98e788f65697d95fc141d453888e3
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 31266f84270f170e172eadea75a90397c5a6e8e6
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983313"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8691914"
 ---
 # <a name="set-up-a-b2b-e-commerce-site"></a>B2B e-kaubandussaidi häälestamine
 
@@ -313,19 +313,19 @@ Hulgiostu moodul toote üksikasjade lehel (PDP) pakub maatriksipõhist kogemust,
 
 Hulgiostumooduli lisamiseks PDP-le Commerce'i saidi koostajas järgige neid samme.
 
-1. Minge **mallidele** ja valige oma saidi PDP mall.
+1. Minge mallidele **ja** valige saidi PDP mall.
 1. Valige suvand **Redigeeri**.
 1. Valige mooduli **Vaikeleht** pesas **Peamine** kolmikpunkt (**...**) ja seejärel suvand **Lisa moodul**.
 1. Valige dialoogiboksis **Lisa moodul** moodul **Konteiner** ja klõpsake seejärel **OK**.
 1. Valige pesas **Konteiner** kolmikpunkt (**…**) ja seejärel valige käsk **Lisa moodul**.
-1. **Dialoogiaknas** Lisa moodul valige **hulgiostumoodul** ja seejärel valige **OK**.
+1. Dialoogiaknas **Lisa** moodul valige hulgiostumoodul **ja** seejärel valige **OK**.
 1. Valige **Salvesta**, valige malli registreerimiseks **Lõpeta redigeerimine** ja seejärel selle avaldamiseks **Avalda**.
-1. Minge **lehekülgedele** ja valige oma saidi PDP.
+1. Minge lehtedele **ja** valige oma saidi PDP.
 1. Valige mooduli **Vaikeleht** pesas **Peamine** kolmikpunkt (**...**) ja seejärel suvand **Lisa moodul**.
 1. Valige dialoogiboksis **Lisa moodul** moodul **Konteiner** ja klõpsake seejärel **OK**.
-1. Valige konteinerimooduli atribuutide **paani** jaotises Laius suvand **Täida** **konteiner**.
+1. Valige konteinerimooduli atribuutide paani **jaotises** Laius **suvand** **Täida konteiner**.
 1. Valige pesas **Konteiner** kolmikpunkt (**…**) ja seejärel valige käsk **Lisa moodul**.
-1. **Dialoogiaknas** Lisa moodul valige **hulgiostumoodul** ja seejärel valige **OK**.
+1. Dialoogiaknas **Lisa** moodul valige hulgiostumoodul **ja** seejärel valige **OK**.
 1. Valige **Salvesta**, valige lehe registreerimiseks **Lõpeta redigeerimine** ja seejärel selle avaldamiseks **Avalda**.
 
 > [!NOTE] 

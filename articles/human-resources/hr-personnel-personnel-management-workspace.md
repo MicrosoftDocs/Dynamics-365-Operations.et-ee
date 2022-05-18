@@ -10,18 +10,17 @@ ms.search.form: HcmPosition, HcmPersonnelManagementWorkspace
 audience: Application User
 ms.author: twheeloc
 ms.reviewer: twheeloc
-ms.search.scope: Human Resources
 ms.custom: 269054
 ms.assetid: 889a8fab-0eef-45c2-91fc-ff2f4d44d54f
 ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7a83dea308e3e2eec1edebd5d619f9455e1a2268
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 8b7493aa2df65b42d0da8a451c40cccafbc1cda8
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066571"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8689462"
 ---
 # <a name="personnel-management-workspace"></a>Soodustuse halduse tööruum
 
@@ -30,7 +29,7 @@ ms.locfileid: "8066571"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-**Personalihalduse** tööruum sisaldab suurt hulka sisu. See sisaldab personali liikumist, jälgib töötajate muutusi, avatud positsioone, aadressimuutusi, aeguvaid kirjeid ja analüüsi ning pakub linke konkreetsele teabele. See teema annab teavet varahalduse tööruumi iga osa kohta.
+**Personalihalduse** tööruum sisaldab suurt hulka sisu. See sisaldab personali liikumisi, jälgib töötaja muudatusi, avatud ametikohti, aadressimuudatusi, aegumiskirjeid ja analüüsi ning annab linke konkreetsele teabele. See teema annab teavet varahalduse tööruumi iga osa kohta.
 
 ## <a name="activity-tab"></a>Tegevuse vahekaart
 
@@ -68,7 +67,7 @@ Kui kandidaadid ilmuvad **Kandidaadid palkamiseks** jaotisesse, saate kandidaadi
 Kui juhataja ei ilmu kaardile, pole töötajale ametikohta määratud.
 
 > [!NOTE] 
-> Soovitame enne kontroll-loendi rakendamist määrata töötajale ametikoha. Mõnikord määratakse pardalemineku ülesanded äsja palgatud töötaja juhile. Kui ühtegi ametikohta pole määratud, ei saa uue töötaja juhatajat määrata. Sel juhul määratakse juhatajale mõeldud põhiülesanded hoopis kontroll-loendi omanikule.
+> Soovitame teil määrata töötajale positsioon enne kontroll-loendi rakendumist. Mõnikord määratakse põhiülesanded äsja palgatud töötaja juhatajale. Kui ühtegi ametikohta pole määratud, ei saa uue töötaja juhatajat määrata. Sel juhul määratakse juhatajale mõeldud põhiülesanded hoopis kontroll-loendi omanikule.
 
 Kui töötajad ilmuvad jaotises **Alagb peatselt**, on nende jaoks saadaval järgmised tegevused:
 
@@ -88,7 +87,7 @@ Jaotises **Hiljutised palkamised** loetletakse töötajad, kelle alguskuupäev o
 Vaikimisi kuvatakse loendis töötajad, kes on palgatud viimase 7 päeva jooksul. Selle sätte muutmiseks määratlege **inimressursside parameetrite** leht, **Üldisel** vahekaardil, määratlemaks ajaplaani **Hiljutised palkamised**. Jaotises **Hiljutised palkamised** saab kuvada andmeid kindla päevade, kuude või aastate arvu kohta. Näiteks viimase 14 päeva jooksul palgatud töötajate loendi vaatamiseks seadke välja **Periood** väärtuseks **14** ja **Ühik** välja väärtuseks **Päevad**.
 
 > [!NOTE]
-> Lehel **Inimressursside parameetrid** jaotatakse sätted ettevõttepõhiselt. Seetõttu võib ajaraam, mille jooksul hiljuti palgatud on, ettevõtteti erineda. Näiteks ettevõttes USMF võite tahta vaadata kõiki viimasest seitsmest päevast pärit uusi palkamisi. Kuid USSI ettevõttes võiksite vaadata kõiki viimase 14 päeva uusi töötajaid. Sellisel juhul avage **igas ettevõttes inimressursside parameetrite** leht ja seadke parameetrid vastavalt vajadusele.
+> Lehel **Inimressursside parameetrid** jaotatakse sätted ettevõttepõhiselt. Seetõttu võib ajaraam, mille jooksul hiljuti palgatud on, ettevõtteti erineda. Näiteks ettevõttes USMF võite tahta vaadata kõiki viimasest seitsmest päevast pärit uusi palkamisi. AJAETTEVÕTTES võite siiski soovida vaadata kõiki viimase 14 päeva uusi palkamiseid. Sel juhul avage iga **ettevõtte inimressursside parameetrite** leht ja seadke parameetrid vastavalt vajadusele.
 
 Kui juhataja ei ilmu kaardile, pole töötajale ametikohta määratud.
 

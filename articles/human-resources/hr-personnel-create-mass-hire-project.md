@@ -8,17 +8,16 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: HRMMassHireProject,  HRMMassHireLineCreate, HcmJobLookup, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4f119805af275b5bcddd910325179c02ed44758e
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 32d3037c4397469e0f21efc3e78faa722b7a252e
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065110"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8692082"
 ---
 # <a name="create-a-mass-hire-project"></a>Hulgivärbamisprojekti loomine
 
@@ -29,21 +28,21 @@ ms.locfileid: "8065110"
 
 
 
-See protseduur annab ülevaate hulgivärbamisprojekti seadistamise protsessist. Värbaja saab hulgivärbamisprojekte kasutada hõlpsalt mitme ametikoha loomiseks ja nendele ametikohtadele töötajate värbamiseks. Selle protseduuri alustamiseks minge aadressile **Inimressursid** > **Värbamine** > **Massi rendiprojektid**. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.
+See protseduur annab ülevaate hulgivärbamisprojekti seadistamise protsessist. Värbaja saab hulgivärbamisprojekte kasutada hõlpsalt mitme ametikoha loomiseks ja nendele ametikohtadele töötajate värbamiseks. Selle protseduuri alustamiseks minge palkamisprojektide **loendisse InimressursidRecruitmentMass** > **·** > **·**. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.
 
 1. Klõpsake valikut **Uus**.
-2. Aastal **Massi rendiprojekt** väljale, tippige väärtus.
+2. **Tippige väärtus väljale** Hulgi palkamise projekt.
 3. Sisestage väärtus väljale **Kirjeldus**.
-4. Aastal **Projekti algus** väljale, sisestage kuupäev.
-5. Aastal **Projekti lõpp** väljale, sisestage kuupäev.
-6. Klõpsake **Avatud projekt**.
+4. Sisestage **kuupäev** väljale Projekti algus.
+5. Sisestage **kuupäev** väljale Projekti lõpp.
+6. Klõpsake **käsku Ava projekt**.
 7. Klõpsake nuppu **Jah**.
-8. Klõpsake **Loo positsioone**.
-9. Aastal **Kogus** väljale sisestage positsioonide arv, mida soovite luua
-    * Alguskuupäevaks saab **Üüri kuupäev** uutele töötajatele.  
-    * Lõppkuupäev on **Lõpetamise kuupäev** uutele töötajatele.  
-    * Täpsustage, kas uued töötajad on **Töötajad** või **Töövõtjad**.  
-10. Aastal **Töö** väljal klõpsake rippmenüü nuppu, et valida töökoht, millele ametikohad luua.
+8. Klõpsake ametikohtade **loomine**.
+9. **Sisestage** väljale Kogus ametikohtade arv, mida soovite luua.
+    * Alguskuupäevaks saab uute **töötajate** palkamise kuupäev.  
+    * Uute töötajate lõppkuupäev on **lõpetamise** kuupäev.  
+    * Määrake, kas uued töötajad on töötajad **või** töövõtjad **·**.  
+10. Väljal Töö **klõpsake** rippmenüüd, et valida töö, mille jaoks ametikohti luua.
 11. Otsige loendist ja valige soovitud kirje.
 12. Klõpsake loendis valitud real olevat linki.
     * Täistööaja vaikeväärtus tuleneb valitud tööst. Saate seda vajaduse korral muuta.  

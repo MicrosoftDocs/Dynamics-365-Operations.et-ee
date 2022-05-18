@@ -1,6 +1,6 @@
 ---
 title: Kuupäeva ja kellaaja väljade ülevaade
-description: See teema selgitab, mida oodata, kui kasutate Microsofti kuupäeva ja kellaaja välju Dynamics 365 Human Resources.
+description: See teema kirjeldab, mida eeldada, kui kasutate Microsoftis kuupäeva ja kellaaja välju Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 10/28/2021
 ms.topic: article
@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: HcmPersonnelManagementWorkspace
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7c81155f0c5150af44982f224c8eca2026a78ee7
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: f595e06d9ddc9b44e8820d814d888971444bdf6a
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060885"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8688485"
 ---
 # <a name="understand-date-and-time-fields"></a>Kuupäeva ja kellaaja väljade ülevaade
 
@@ -28,37 +27,37 @@ ms.locfileid: "8060885"
 
 
 
-**Päev ja aeg** väljad on Microsofti põhikontseptsioon Dynamics 365 Human Resources. On oluline, et mõistaksite, kuidas nendega töötada **Päev ja aeg** andmed lehtedel, sisse Dataverse ja välistest allikatest.
+**Kuupäeva ja kellaaja** väljad on Microsofti põhimõisted Dynamics 365 Human Resources. Oluline on mõista, kuidas töötada **lehekülgedel**, Dataverse välistes ja välistes allikates kuupäeva ja kellaaja andmetega.
 
 ## <a name="understanding-the-difference-between-date-and-date-and-time-field-data-types"></a>Kuupäeva ja kuupäeva ning kellaaja andmetüüpide erinevuse mõistmine
 
-**Päev ja aeg** väljad sisaldavad ajavööndi teavet, samas **Kuupäev** väljad mitte. **Kuupäev** väljad näitavad sama teavet mis tahes asukohas. Kui sisestate kuupäeva a **Kuupäev** väljale kirjutatakse sama kuupäev andmebaasi.
+**Kuupäeva- ja kellaajaväljad** sisaldavad ajavööndi teavet, kuid **kuupäevaväljad** seda ei tee. **Kuupäevaväljad** näitavad sama teavet mis tahes asukohas. Kui sisestate kuupäeva väljale **Kuupäev**, kirjutatakse andmebaasi sama kuupäev.
 
-Kui andmed kuvatakse jaotises a **Päev ja aeg** väljale kohandatakse kuupäeva ja kellaaega vastavalt kasutaja ajavööndile, mis on valitud lehel **Kasutaja valikud** leht (**Levinud \> Seadistamine \> Kasutaja valikud**). Väljale sisestatud kuupäeva ja kellaaja teave ei pruugi olla sama, mis andmebaasi kirjutatakse.
+Kui andmed on kuvatud väljal Kuupäev ja kellaaeg, korrigeeritakse kuupäeva ja kellaaega vastavalt kasutaja ajavööndile, mis on **valitud** kasutaja suvandite lehel (Üldine **seadistuse** **kasutajasuvandid \>).\>** Kuupäeva ja kellaaja teave, mille väljale sisestate, ei pruugi olla sama, mis andmebaasi kirjutatud teave.
 
-[![Kasutaja valikute leht.](./media/Useroptionsform.png)](./media/Useroptionsform.png)
+[![Kasutaja suvandite leht.](./media/Useroptionsform.png)](./media/Useroptionsform.png)
 
-## <a name="understanding-date-and-time-fields-on-pages"></a>Lehtede kuupäeva ja kellaaja väljade mõistmine 
+## <a name="understanding-date-and-time-fields-on-pages"></a>Lehtedel kuupäeva ja kellaaja väljade mõistmine 
 
 Ekraanil kuvatavad **kuupäev ja kellaaeg** ei ole andmebaasi salvestatud andmetega samad, kui kasutaja ajavööndiks ei ole seatud UTC. **Kuupäeva ja kellaaja** väljade andmed talletatakse alati UTC-s.
 
-[![Töötaja leht UTC.](./media/worker-form.png)](./media/worker-form.png)
+[![Töötaja lehekülg UTC.](./media/worker-form.png)](./media/worker-form.png)
 
 ## <a name="understand-date-and-time-fields-in-the-database"></a>Kuupäeva ja kellaaja väljadest arusaamine andmebaasis 
 
-Kui **Päev ja aeg** väärtus kirjutatakse andmebaasi, salvestatakse andmed UTC-na. Seetõttu näevad kasutajad mis tahes **Päev ja aeg** kasutaja valikutes määratud ajavööndi andmed.
+Kui andmebaasi **kirjutatakse** kuupäeva ja kellaaja väärtus, talletatakse andmed UTC-ta. Seetõttu saavad kasutajad näha mis tahes **kuupäeva ja kellaaja** andmeid oma kasutaja valikutes määratletud ajavööndi suhtes.
  
 Ülaltoodud näites on algusaeg ajahetk, mitte konkreetne kuupäev. Muutes sisselogitud kasutaja ajavööndit GMT + 12:00 kuni GMT UTC, näitab kirje 05/01/2019 12:00:00 asemel 04/30/2019 12:00:00.
 
-Allolevas näites aktiveerub töötaja 000724 töösuhe olenemata ajavööndist samal ajal. Töötaja on aktiivne 04/30/2019 GMT ajavööndis, mis on sama, mis 05/01/2019 GMT + 12:00-ajavöönd. Mõlemad viitavad samale ajale ja mitte kindlale kuupäevale. 
+Alltoodud näites on 000724 töötaja tööleping sõltumata ajavööndist samal ajal. Töötaja on aktiivne 04/30/2019 GMT ajavööndis, mis on sama, mis 05/01/2019 GMT + 12:00-ajavöönd. Mõlemad viitavad samale ajale ja mitte kindlale kuupäevale. 
 
-[![Töötaja leht GMT.](./media/worker-form2.png)](./media/worker-form2.png)
+[![Töötaja lehe GMT](./media/worker-form2.png)](./media/worker-form2.png)
 
 ## <a name="date-and-time-data-in-data-management-framework-excel-dataverse-and-power-bi"></a>Kuupäeva ja kellaaja andmed andmehaldusraamistikus, Excelis, ühises andmeteenuses Dataverse ja teenuses Power BI. 
 
-Andmehaldusraamistik (DMF), Exceli lisandmoodul,Dataverse, ja Power BI aruandlus on kõik loodud andmetega suhtlemiseks otse andmebaasi tasemel. Kuna puudub klient, kelle jaoks **kuupäeva ja kellaaja** andmeid kasutaja ajavööndiga korrigeerida, on kõik **kuupäeva ja kellaaja** väärtused UTC-s, mis võib põhjustada mõningaid valesid oletusi, kui sisestate või vaatate andmeid.
+Andmete haldusraamistik (DMF), Exceli Dataverse Power BI lisandmoodul ja aruandlus on kõik loodud suhtlema andmetega vahetult andmebaasi tasemel. Kuna puudub klient, kelle jaoks **kuupäeva ja kellaaja** andmeid kasutaja ajavööndiga korrigeerida, on kõik **kuupäeva ja kellaaja** väärtused UTC-s, mis võib põhjustada mõningaid valesid oletusi, kui sisestate või vaatate andmeid.
  
-Millal **Päev ja aeg** andmed esitatakse DMF-i, Exceli või Dataverse, eeldab andmebaas, et see on UTC-ajas. Kui aga andmeid vaatavate kasutajate ajavööndiks pole määratud UTC, esitatakse **Päev ja aeg** väärtus ei ilmu ootuspäraselt ja kasutajad võivad segadusse sattuda. 
+Kui **kuupäeva ja kellaaja** andmed esitatakse DMF-i, Dataverse Exceli või exceli kaudu, eeldab andmebaas, et see on UTC-s. Kuid kui andmeid vaatavad kasutajad ei sea oma kasutaja ajavööndiks UTC-d, **ei** kuvata esitatud kuupäeva ja kellaaja väärtus oodatuna ning kasutajad võivad segi ajada. 
  
 Sama asi võib juhtuda, kui andmeid eksporditakse vastupidiselt. Eksporditud DMF-üksuse **kuupäeva ja kellaaga** andmed võivad olla erinevad sellest, mis kuvatakse Dynamics clientis. 
  
@@ -68,11 +67,11 @@ Kui kasutate välisallikaid, nagu DMF, et vaadata või luua andmeid, pidage meel
 
 **Rakenduse Human Resources kasutaja ajavööndiks on seatud UTC**
 
-[![Töötaja leht on seatud UTC-le.](./media/worker-form3.png)](./media/worker-form3.png)
+[![Utc-le määratud töötaja leht](./media/worker-form3.png)](./media/worker-form3.png)
 
 **Rakenduse Human Resources kasutaja ajavööndiks on seatud GMT +12.00** 
 
-[![Töötaja leht on seatud GMT-le.](./media/worker-form4.png)](./media/worker-form4.png)
+[![Töötaja lehekülg seatud GMT-le.](./media/worker-form4.png)](./media/worker-form4.png)
 
 **Excel OData kaudu**
 

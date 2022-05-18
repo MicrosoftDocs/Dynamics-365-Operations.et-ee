@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bcc69cbf418131d0b1747f1c904de3188d7ba84216cb3145607b45553263244c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d81d20045c7b06de01a023d1a34ee653dd696ff1
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757215"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8711316"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Mis on uut või mida on muudetud rakenduses Dynamics AX 7.0 (veebruar 2016)
 
@@ -969,7 +969,7 @@ Iseteeninduse installimise kaudu on olemas parem „vähese puudutusega” klien
 </tr>
 <tr>
 <td>Saate jälgida süsteemi seisundit ja diagnoosida tõrkeid ning probleeme.</td>
-<td>See funktsioon nõuab <a href="https://www.microsoft.com/download/details.aspx?id=42636">System Center 2012 Management Packi rakendusele Microsoft Dynamics AX 2012 R3 CU8 Retail</a>.</td>
+<td>See funktsioon nõuab <a href="https://www.microsoft.com/en-us/download/details.aspx?id=58205">System Center 2012 Management Packi rakendusele Microsoft Dynamics AX 2012 R3 CU8 Retail</a>.</td>
 <td>Jaemüügi komponentide jälgimine ja diagnostika on nüüd saadaval LCS-i armatuurlaual <strong>Tegevusülevaated</strong>.</td>
 <td>Armatuurlaud <strong>Tegevusülevaated</strong> on pilvepõhine jälgimisportaal, mis asendab vajaduse laadida alla System Center Operations Manageri (SCOM) infrastruktuur.</td>
 </tr>
@@ -1028,7 +1028,7 @@ Uusi funktsioone ei ole lisatud.
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-[Mis on uut või muudetud Finance and Operationsi avalehel](whats-new-changed.md)
+[Mis on uut või mida on muudetud Finance and Operationsi avalehel?](whats-new-changed.md)
 
 [Uued tegevusjuhised (veebruar 2016)](new-task-guides-available-february-2016.md)
 

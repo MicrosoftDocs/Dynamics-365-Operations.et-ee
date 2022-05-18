@@ -8,26 +8,25 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-10-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: fb75c391809f1ce5c7d48728a735f347ef1784ed
-ms.sourcegitcommit: 696796ca5635863850ae9ef16fc1fb0fc46ce8f0
+ms.openlocfilehash: d14a8cb1973e0ed55ef10ddb43415eba80eb5c1b
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/28/2021
-ms.locfileid: "7441261"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8717107"
 ---
 # <a name="integrate-with-linkedin-talent-hub"></a>LinkedIn talent Hubiga integreerimine
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 > [!IMPORTANT]
-> Selles teemas kirjeldatud integratsioon Dynamics 365 Human Resources ja LinkedIn Talent keskus kustutatakse 31. detsembril 2021. Integreerimisteenus ei ole pärast seda kuupäeva enam saadaval. Organisatsioonid, mis ei kasuta juba integreerimisteenust, ei saa teenust enne pensionile minekut rakendada.
+> Selles teemas Dynamics 365 Human Resources kirjeldatud integratsioon ja LinkedIn Anne'i keskus kustutati 31. detsembril 2021. Integreerimisteenus ei ole pärast seda kuupäeva enam saadaval. Organisatsioonid, mis ei kasuta juba integreerimisteenust, ei saa teenust enne pensionile minekut rakendada.
 
 [LinkedIn Talent Hub](https://business.linkedin.com/talent-solutions/talent-hub) on kandidaadi jälgimise süsteemi (ATS) platvorm. See võimaldab teil leida, hallata ja palgata töötajaid ühest kohast. Microsoft Dynamics 365 Human Resourcesi integreerimisel LinkedIn Talent Hubiga saate Human Resourcesis hõlpsalt luua töövõtja kirjed kandidaatide jaoks, kes on palgatud ametikohale.
 

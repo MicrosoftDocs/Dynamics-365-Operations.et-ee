@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerClosingSheet
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 14091
 ms.assetid: c64eed1d-df17-448e-8bb6-d94d63b14607
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 04eeb8886d74fa8c633d2ac4e9e47aa28a12ee30
-ms.sourcegitcommit: e06b7d4de6d5ee7ae491d437d6c0365608a5380b
+ms.openlocfilehash: 247c3286124da946937c8afd248a275e5a745044
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/06/2021
-ms.locfileid: "7892473"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8725229"
 ---
 # <a name="year-end-close"></a>Aastalõpu sulgemine
 
@@ -44,7 +44,7 @@ Enne aastalõpu sulgemisprotsessi käitamist kinnitage sätted järgmisesse koht
 Lehel **Pearaamatu parameetrid** valikus **Finantsaasta sulgemine** toimige järgmiselt.
 
 - Valikut **Kustuta olemasolevad aastalõpu kanded aasta uuesti lõpetamisel** kasutatakse määramiseks, kas süsteemi loodud avamiskanne eelmisest aastalõpu sulgemisest tuleks kustutada, kui aastalõpu sulgemine käivitatakse uuesti. Kui see valik on seatud olekusse **Jah**, kustutatakse varasemad avamis- ja valikulised sulgemistehingud ning praeguste saldode põhjal luuakse uus avamis- või sulgemistehing. Kui see valik on seatud olekusse **Ei**, püsib eelmine avamis- ja valikuline sulgemiskanne ja luuakse täiendav avamis- või sulgemiskanne, et teisaldada saldod edasi pärast eelmist aastalõpu sulgemist sisestatud kannete reguleerimist.
-- Suvandit Loo sulgemiskanded ülekande ajal kasutatakse sulgemiskannete loomiseks finantsaastas, mis suletakse, et kõigi põhikontode saldod **nulliks** tuua. Kui see valik on seatud olekusse **Jah**, luuakse nii avamis- kui ka sulgemiskanne. Kui see valik on seatud olekusse **Ei**, luuakse järgmisel finantsaastal saldode üleviimiseks ainult avamiskanne. Põhikonto saldod jäävad finantsaasta lõppu.
+- Suvandit **Loo sulgemiskanded** ülekande ajal kasutatakse sulgemiskannete loomiseks finantsaastas, mis suletakse, et kõigi põhikontode saldod nulliks tuua. Kui see valik on seatud olekusse **Jah**, luuakse nii avamis- kui ka sulgemiskanne. Kui see valik on seatud olekusse **Ei**, luuakse järgmisel finantsaastal saldode üleviimiseks ainult avamiskanne. Põhikonto saldod jäävad finantsaasta lõppu.
 - Valik **Rahandusaasta oleku määramine püsivalt suletuks** kasutatakse finantsaasta seadmiseks püsivalt suletud olekusse. Kasutage seda valikut hoolikalt, sest jäädavalt suletud olekuga perioode ei saa uuesti avada. Seetõttu ei saa korrigeerimisi sisestada finantsaastasse. Parim tava näeb ette, et selle valiku väärtuseks on **Ei**.
 - Suvand **Kande number peab olema täidetud** on eemaldatud. Aasta lõpu sulgemise protsessi käivitamisel on vaja kannet. Sel ajal sisestatakse kande number käsitsi.
 

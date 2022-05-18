@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 511d875baed029df9083da36baf6c48ca4b7abf866ae569038b554bf594473c8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 38b7371ab668eb76801fbe7f15894609a846bbd8
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734423"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8687665"
 ---
 # <a name="set-up-preferred-maintenance-workers"></a>Eelistatud hooldustöötajate seadistus
 
 [!include [banner](../../includes/banner.md)]
-
- 
 
 Saate töötellimuse planeerimisel eelistada, milline hooldustööline või tööliste rühm on määratud töötellimuste läbiviimiseks. Selle funktsiooni kasutamine on valikuline, kuid see aitab teil töö läbiviimiseks valida kõige kvalifitseerituma hooldustöötaja tema oskuste ja pädevuste alusel. Planeeritakse ainult hooldustöötajaid, kes on saadaval planeerimise ajal. Kui eelistatud hooldustöötaja häälestus ühtib planeerimisel töötellimusega, kuid hooldustöötaja on määratud teistele töödele, planeeritakse töötellimus teisele, saadaolevale hooldustöötajale.
 
@@ -51,13 +49,15 @@ Mida rohkem valikuid te sama kirje jaoks teete, seda täpsem on teie seadistus.
 
 3. Alustage "vaikimisi" hooldustöötaja või töötajate rühma loomisega. See tähendab, et teete ainult valiku **Eelistatud hooldustöötajate grupi** väljal või **Eelistatud hooldustöötaja** väljal. Alltoodud kuvatõmmisel näete näidet esimesest kirjest, milles on "Taotlused" on valitud rühmaks **Eelistatud hooldustöötajate rühm**.
 
-    [!NOTE] Vaikimisi häälestust kasutatakse töökäsu planeerimisel, kui teine spetsiifilisem kombinatsioon ei vasta töökäsu sisule.
+    > [!NOTE]
+    > Vaikimisi häälestust kasutatakse töökäsu planeerimisel, kui teine spetsiifilisem kombinatsioon ei vasta töökäsu sisule.
 
 4. Uue kirje loomiseks korrake 2. etappi. Tehke nõutavad valikud sõltuvalt eelistatud töötaja või töötajate grupi üksikasjalikust tasemest. 
 
     *Näide:* alltoodud kuvatõmmisel on kuuendas kirjes hooldustöötaja Shawn Richardson valitud eelistatud töötajaks. Ta valitakse automaatselt töötellimuse planeerimisel, mis sisaldab vara "CH-BP1-03-02 ja hooldustöö tüüp "Oskuste hindamine", kui ta on planeeritud ajal saadaval.
 
-    [!NOTE] Üldiselt, kui töötellimuse planeerimisel valitakse eelistatud hooldustöötaja, läbib Varahaldus kõik **eelistatud hooldustöötajate** kirjed, et kontrollida võimalikku vastet, kontrollides alati kõige spetsiifilisemat kombinatsiooni esimesena. Kui vastet ei leita, kasutatakse "vaikimisi" kirjet, mille valikuks on kas **Eelistatud hooldustöötajate grupi** väli või **Eelistatud hooldustöötaja** väli.
+    > [!NOTE]
+    > Üldiselt, kui töötellimuse planeerimisel valitakse eelistatud hooldustöötaja, läbib Varahaldus kõik **eelistatud hooldustöötajate** kirjed, et kontrollida võimalikku vastet, kontrollides alati kõige spetsiifilisemat kombinatsiooni esimesena. Kui vastet ei leita, kasutatakse "vaikimisi" kirjet, mille valikuks on kas **Eelistatud hooldustöötajate grupi** väli või **Eelistatud hooldustöötaja** väli.
 
 ![Joonis 1.](media/02-work-order-scheduling.png)
 

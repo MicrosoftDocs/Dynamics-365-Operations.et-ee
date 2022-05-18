@@ -2,7 +2,7 @@
 title: Saidi valija moodul
 description: See teema käsitleb saidi valijamoodulit ja kirjeldab, kuidas lisada see saidi lehtedele moodulis Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 04/06/2022
+ms.date: 05/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: ad4d4d5f950d0631059d8f509e9e808a9106eb98
-ms.sourcegitcommit: 4861ec2d3ae24cc9dd4ad3ac748fd05be3d80c70
+ms.openlocfilehash: a1954f6b2fea35d5138218e6a2a23ab1fd04c8fc
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/06/2022
-ms.locfileid: "8551690"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8710299"
 ---
 # <a name="site-picker-module"></a>Saidi valija moodul
 
@@ -43,7 +43,23 @@ Saidi valija moodul peab olema konfigureeritud nende saitide loendiga (turud, re
 
 ## <a name="add-a-site-picker-module-to-a-page"></a>Saidi valijamooduli lisamine lehele
 
-Saidi valijamooduli saab lisada päisemooduli **saidi valija** pesasse [...](author-header-module.md). Pärast saidivalija mooduli lisamist saate määrata mooduli päise ja saidi valikud. Üldiselt sisaldub päisemoodul päise killus, mida saab jagada saidi e-kaubanduse lehtede vahel. Järgmises näites on saidi valijamoodul lisatud päisemooduli saidi valija pesasse, **mis** sisaldub päise fragmendis nimega **HeaderContainer**.
+Saidi valijamooduli saab lisada päisemooduli **saidi valija** pesasse [...](author-header-module.md). Pärast saidivalija mooduli lisamist saate määrata mooduli päise ja saidi valikud. Üldiselt sisaldub päisemoodul päise killus, mida saab jagada saidi e-kaubanduse lehtede vahel. 
+
+Saidi valijamooduli lisamiseks päisemoodulile järgige neid samme.
+
+1. Päise killu päisemooduli saidivalija pesas valige ellips (**...**) ja seejärel valige **lisamoodul**.**·**
+1. **Dialoogiboksis Vali moodulid** lisage saidi valija **moodul** ja seejärel valige **OK**.
+1. Saidi valija **atribuutide paanil** valige suvand Lisa **saidi suvandite loend**. Kuvatakse redigeeritava **saidi suvandite** loendi suvand.
+1. Valige **saidi suvandite loend**. Kuvatakse **saidi suvandite** loendi dialoogiboks.
+1. Sisestage **saidi** nime all saidi nime tekst, mis kuvatakse saidi valija ripploendis.
+1. Valige **jaotises Saidi ümbersuunamise** URL **suvand Lisa link**. Kuvatakse **lingi väljalõpppaan** Lisa.
+1. Valige paanil **Lingi** lisamine suvand Kohandatud **ja** seejärel suvand **Edasi**.
+1. Valige saidi URL-i loendist URL, mille lõite kanali lisamisel saidile (`www.adventure-works.com/fr-ca` nt) ja seejärel valige **rakenda**.
+1. Valige nupp **OK**.
+1. Valige nupp **Salvesta** ja seejärel suvand **Lõpeta redigeerimine**.
+1. Valige **lehe** avaldamiseks avaldamine.
+
+Järgmises näites on saidi valijamoodul lisatud päisemooduli saidi valija pesasse, **mis** sisaldub päise fragmendis nimega **HeaderContainer**.
 
 ![Näide saidi valijamoodulist päise tükis.](./media/ecommerce-sitepicker-2.png)
 

@@ -1,27 +1,27 @@
 ---
 title: Kuluarvestuse terminoloogia
 description: See teema määratleb põhimõisted, mida kasutatakse kuluarvestuses.
-author: ShylaThompson
+author: aprilolson
 ms.date: 08/31/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: CAMCostAccountingLedger
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 223114
 ms.assetid: 1c798592-77d0-4a8f-beaa-9159c75957da
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: roschlom
+ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f61ae7a6657eaad3510833c17f342b7266be247aec2a9bfe80b97172f662ae0a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f50f7849ac3c097d64a8499a19157f24d7a7b317
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774373"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8712421"
 ---
 # <a name="cost-accounting-terminology"></a>Kuluarvestuse terminoloogia
 
@@ -115,7 +115,7 @@ On kaks dimensioonihierarhiat: kategoriseerimise hierarhia ja klassifikatsiooni 
 Kuluarvestus toetab lähtesüsteemidest pärinevate andmete integreerimist andmekonnektorite kogumi kaudu. Saadaval on järgmised andmekonnektorid.
 
 -  Imporditud kanded (eelnevalt konfigureeritud)
--  Dynamics 365 Finance (eelkonfigureeritud)
+-  Dynamics 365 finantsid (eel konfigureeritud)
 -  Dynamics AX (vajalik on konfigureerimine)
 
 **Märkus.** Andmekonnektor Imporditud kanded põhineb andmeüksustel.
@@ -124,7 +124,7 @@ Kuluarvestus toetab lähtesüsteemidest pärinevate andmete integreerimist andme
 
 Enamik lähtesüsteeme suudab edastada andmeid, mis vastavad kuluarvestuses vähemalt ühele andmeallikale. Lähtesüsteemidest pärinevate andmete sobitamiseks kuluarvestuse andmeallikaga tuleb konfigureerida andmepakkuja. Järgmises tabelis on loetletud andmepakkujate saadavus andmekonnektori ja andmeallika kaupa.
 
-|  **Andmeallikad** |  **Imporditud kannete andmekonnektor** | **Dynamics 365 Financei andmekonnektor**  | **Dynamics AX-i andmekonnektor**  |
+|  **Andmeallikad** |  **Imporditud kannete andmekonnektor** | **Dynamics 365 Finance andmeühendus**  | **Dynamics AX-i andmekonnektor**  |
 |---|---|---|---|
 | Kuluelemendi dimensiooniliikmed  |  Jah | Jah  | Jah  |
 |  Kuluobjekti dimensiooniliikmed |  Jah | Jah  | Jah  |

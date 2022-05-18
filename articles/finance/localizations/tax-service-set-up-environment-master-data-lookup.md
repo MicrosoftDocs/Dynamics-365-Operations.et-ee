@@ -9,31 +9,30 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.search.region: Global
 ms.author: pashao
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 455e8becfdfa910a3733719653e1a91557b2f59a
-ms.sourcegitcommit: ac23a0a1f0cc16409aab629fba97dac281cdfafb
+ms.openlocfilehash: 7640144b1687fc64e55f659d49cdb0817c17294a
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/29/2021
-ms.locfileid: "7867348"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8686707"
 ---
 # <a name="enable-master-data-lookup-for-tax-calculation-configuration"></a>Luba koondandmete otsing maksuarvestuse konfiguratsiooni jaoks 
 
 [!include [banner](../includes/banner.md)]
 
-See teema kirjeldab, kuidas seadistada ja lubada maksu arvutamise koondandmete otsingufunktsioone. Ripploendit saab kasutada maksuarvutuse konfiguratsioonis selliste väljade väärtused nagu Juriidiline **isik**, **Hankija** konto, **Kaubakood** ja Tarne **tähtaeg**. Need väärtused tulevad andmeallikat kasutades Dynamics 365 Finance ühendatud Microsofti Microsoft Dataverse keskkonnast.
+See teema kirjeldab, kuidas seadistada ja lubada maksu arvutamise koondandmete otsingufunktsioone. Ripploendit saab kasutada maksuarvutuse **konfiguratsioonis** selliste väljade väärtused nagu Juriidiline isik, **Hankija konto**, **Kaubakood** ja **Tarne tähtaeg**. Need väärtused tulevad andmeallika abil ühendatud Microsoft Dynamics 365 finantskeskkonnast Microsoft Dataverse.
 
 > [!NOTE] 
-> Maksu arvutamise koondandmete otsingu funktsioon on valikuline funktsioon. Kui keelate maksuteenuse andmeallikate tugifunktsiooni regulatiivses konfiguratsiooniteenuses **Dataverse** (RCS), võite järgmised sammud vahele jätta. Sel juhul ei ole aga ripploend maksuarvestuse konfiguratsioonis saadaval.
+> Maksu arvutamise koondandmete otsingu funktsioon on valikuline funktsioon. Kui keelate maksuteenuse andmeallikate **Dataverse** tugifunktsiooni regulatiivses konfiguratsiooniteenuses (RCS), võite järgmised sammud vahele jätta. Sel juhul ei ole aga ripploend maksuarvestuse konfiguratsioonis saadaval.
 
 1. Seadistage Microsoft Power Platform integreerimine rakenduses Microsoft Dynamics Lifecycle Services (LCS). Lisateavet vt teemast [Microsoft Power Platform ingegratsioon - lisandmooduli ülevaade](../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md). Pärast selle toimingu sooritamist kuvatakse jaotises **Power Platform Integration** Microsoft Power Platformi keskkonna nimi.
 2. Minge [Microsoft Power Platformi halduskeskusesse](https://admin.powerplatform.microsoft.com/environments) ja valige keskkonna nimi. Keskkonna URL on esitatud.
-3. Dynamics 365 Finance ja Dataverse häälestamine. Lisateavet vt teemadest [Virtuaalse olemi lahenduse leidmine](../../fin-ops-core/dev-itpro/power-platform/admin-reference.md#get-virtual-entity-solution) ja [Autentimine ja autoriseerimine](../../fin-ops-core/dev-itpro/power-platform/admin-reference.md#authentication-and-authorization).
+3. Seadistage Dynamics 365 Finantsid ja Dataverse. Lisateavet vt teemadest [Virtuaalse olemi lahenduse leidmine](../../fin-ops-core/dev-itpro/power-platform/admin-reference.md#get-virtual-entity-solution) ja [Autentimine ja autoriseerimine](../../fin-ops-core/dev-itpro/power-platform/admin-reference.md#authentication-and-authorization).
 4. Seadistage järgmised üksused. Lisateavet vt [Microsoft Dataverse virtuaalsete olemite lubamine](../../fin-ops-core/dev-itpro/power-platform/enable-virtual-entities.md).
 
     - EttevõteInfoÜksus

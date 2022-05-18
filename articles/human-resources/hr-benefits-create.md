@@ -8,17 +8,16 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: HcmBenefitElementSetup, HcmBenefit, HcmBenefitNewBenefit, HcmBenefitPlanLookup, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Version 7.0.0, Human Resources
-ms.openlocfilehash: 222bac97d461cd0a090c3e5d99594c07724818ff
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: eb387577e4121e890a5836fdf404714eef0f0cb1
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066972"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8688256"
 ---
 # <a name="create-a-new-benefit"></a>Uue soodustuse loomine
 
@@ -32,29 +31,29 @@ Selles ülesandes näitlikustatakse, kuidas luua soodustuse elemente, mida uue s
 
 ## <a name="create-benefit-elements"></a>Soodustuse elementide loomine
 
-1. Minema **Inimressursid \> Kasu \> Seadistamine \> Kasu elemendid**.
+1. Minge inimressursside soodustuste **häälestuse \>\> soodustuselementidesse \>**.
 2. Valige suvand **Uus**.
-3. Aastal **Tüüp** väljale sisestage loodava hüve tüübi nimi.
+3. **Sisestage** väljale Tüüp teie loomisel soodustustüübi nimi.
 4. Sisestage väärtus väljal **Kirjeldus**.
-5. Aastal **Samaaegne registreerimine** valige suvand.
+5. **Valige suvand väljal Samaaegne** registreerimine.
 
-    Kui soovite piirata töötajate võimalust registreeruda mitmesse raviplaani, valige **Üks registreerimine tüübi kohta**.
+    Et piirata töötajate võimalust liituda mitmesse arstliku plaani, valige **üks registreerimine tüübi kohta**.
 
-6. Aastal **Palgaarvestuse kategooria** valige suvand.
-7. peal **Plaanid** vahekaart, valige **Uus**.
+6. **Valige suvand väljal** Palgakategooria.
+7. Valige vahekaardil **Plaanid** suvand **Uus**.
 8. Sisestage väärtus väljale **Plaan**.
 9. Sisestage väärtus väljal **Kirjeldus**.
-10. Aastal **Tüüp** väljale, sisestage või valige väärtus.
-11. Aastal **Palgaarvestuse mõju** valige suvand.
+10. Sisestage **või** valige väärtus väljal Tüüp.
+11. **Valige suvand palga** mõju väljal.
 12. Valige käsk **Salvesta**.
 
 ## <a name="create-a-benefit"></a>Soodustuse loomine
 
-1. Minema **Inimressursid \> Kasu \> Kasu**.
+1. Minge inimressursside **soodustuste \> soodustustesse \>**.
 2. Valige suvand **Uus**.
-3. Rippmenüü dialoogiboksis **Plaan** väljale, sisestage või valige väärtus.
-4. Aastal **Võimalus** väljale, sisestage või valige väärtus.
-5. Aastal **Tõhus** väljale, sisestage kuupäev ja kellaaeg.
-6. Valige **Loo kasu**.
+3. Sisestage või valige väärtus **ripploendi väljal** Plaan.
+4. Sisestage **või** valige väärtus väljal Valik.
+5. Sisestage **väljale** Jõustumiskuupäeva ja -kellaaeg.
+6. Valige suvand **Soodustuse loomine**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

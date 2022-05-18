@@ -2,7 +2,7 @@
 title: Andmete integreerimisprojekti loomine
 description: See teema kirjeldab, kuidas luua andmete integreerimisprojekti.
 author: ShivamPandey-msft
-ms.date: 02/09/2022
+ms.date: 05/06/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 50f435f9d461667a1908baa529d73766085c183a
-ms.sourcegitcommit: 6526acd0300d9c5800d3d7675d54e23090d031df
+ms.openlocfilehash: 4d69ffcb6ccfcc7bae2891f2539941f7b6bbf86e
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/10/2022
-ms.locfileid: "8107283"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8722879"
 ---
 # <a name="create-a-data-integration-project"></a>Andmete integreerimisprojekti loomine
 
@@ -28,7 +28,7 @@ ms.locfileid: "8107283"
 
 See teema kirjeldab, kuidas luua andmete integreerimisprojekti.
 
-1. Rakenduse Microsoft Dynamics 365 Finance sisselogimine.
+1. Microsoft Dynamics 365 Finantsid: sisselogimine.
 2. Minge jaotisse **Tööruumid \> Andmehaldus** ja valige suvand **Andmeüksused**. Oodake, kuni kõik andmeüksused on värskendatud, enne kui liigute järgmisele etapile.
 3. Avage [Power Appsi portaal](https://make.powerapps.com/) ja järgige järgmisi etappe.
 
@@ -55,11 +55,14 @@ See teema kirjeldab, kuidas luua andmete integreerimisprojekti.
 
 5. Avage [Power Appsi keskkonnad](https://admin.powerapps.com/environments) ja järgige järgmisi etappe.  
 
-    1. Looge järgmiste mallide jaoks andmeintegratsiooni projektid, kasutades äsja loodud ühenduse komplekti.
+    1. Looge üks andmete integreerimisprojekt iga järgmise malli jaoks, kasutades äsja loodud ühenduskomplekti:
 
         - Kliendi makse vihjete tulemus (CDS fini ja Ops 10.0.17+)
         - Rahavoo ajaseeria tulemid (CDS-ist Finance and Operationsisse)
         - Eelarve ajaseeria tulemid (CDS-ist Finance and Operationsisse)
+
+      > [!NOTE]
+      > Mitme andmete integreerimisprojekti loomine igale mallile võib põhjustada tõrkeid, mis blokeerivad uuendused.
 
     2. Määrake igale projektile sobiv ajastamine.
 

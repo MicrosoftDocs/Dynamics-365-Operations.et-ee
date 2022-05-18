@@ -9,18 +9,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, Operations
 ms.custom: 539093
 ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 2c4e3c0edadd00fd3a3f2ae9968248a226147996
-ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.openlocfilehash: ed31dd96b0115610cfb74aed69f1acc1055bfe56
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8462583"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8690441"
 ---
 # <a name="create-billing-schedules"></a>Arveldusgraafikute loomine
 
@@ -99,7 +98,7 @@ Arveldusgraafiku ridade kiirkaardi **nupud** lasevad teil rakendada tegevusi ük
 | Lõpeta | <p>Lõpetage valitud read. See nupp on saadaval ainult siis, kui valitud ridade olek on **Aktiivne**.</p><p>Kaupade puhul, mis on tulude tükeldamise osa, saate lõpetada ainult peamise kauba.</p> |
 | Lõpetamise eemaldamine | <p>Saate valitud ridadelt lepingu lõpetamise eemaldada. See nupp on saadaval ainult siis, kui valitud ridade olek on **Lõpetatud**.</p><p>Kaupade puhul, mis on tulude tükeldamise osa, saate lõpetamise eemaldada ainult põhikaubalt.</p> |
 | Koha kinnipidamine | <p>Valige valitud rea ootele panemiseks soovitud üksikasjad.</p><p>Kaupade puhul, mis on tulude tükeldamise osa, saate panna ootele ainult emakauba.</p> |
-| Kinnipidamise eemaldamine | <p>Eemaldage ootel olemine valitud realt.</p><p>Kaupade puhul, mis on tulude tükeldamise osa, saate ooteloleva ainult peakaubalt eemaldada.</p> |
+| Ooteloleku eemaldamine | <p>Eemaldage ootel olemine valitud realt.</p><p>Kaupade puhul, mis on tulude tükeldamise osa, saate ooteloleva ainult peakaubalt eemaldada.</p> |
 | Eskaleerimine ja allahindlus | See nupp ei ole saadaval kaupade puhul, mis on tulude tükeldamise osa, v.a emaüksused, kus tulu tükeldamine kasutab **eraldamise meetodit** Nullsumma. |
 | Edasilükkamised | <p>Saate sisestada valitud rea viitvõlavalikud.</p><p>Tulu tükeldamisel ei ole see nupp saadaval emaüksuste puhul.</p> |
 | Vahe-etapi eraldamine | <p>Vaadake üle ja uuendage valitud rea vahe-eesmärgi eraldusteavet.</p><p>See nupp on saadaval ainult siis, kui arveldusgraafiku rea kaup on vahe-eesmärgi kaup.</p> |

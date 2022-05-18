@@ -1,6 +1,6 @@
 ---
 title: Töökandidaatide värbamine
-description: Selles teemas kirjeldatakse, kuidas värvata kandidaate Dynamics 365 Human Resources.
+description: See teema kirjeldab, kuidas värvata kandidaate Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 10/28/2021
 ms.topic: article
@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-12-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 77d37cba84fcd6fb8f93da79b10db2db91d91db0
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: ef2f2c82708fd48055faa7546e7e0c4da51e7b6c
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066596"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8733981"
 ---
 # <a name="recruit-job-candidates"></a>Töökandidaatide värbamine
 
@@ -29,7 +28,7 @@ ms.locfileid: "8066596"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Dynamics 365 Human Resources aitab teil värbamistaotlusi hallata. Samuti aitab see teil sujuvalt kandidaadid töövõtjateks üle viia. Kui teie organisatsioon kasutab eraldi värbamisrakendust, võib teie värbamisprotsess hõlmata järgmisi etappe.
+Dynamics 365 Human Resources aitab teil värbamistaotlusi hallata. Samuti aitab see teil sujuvalt kandidaadid töövõtjateks üle viia. Kui teie organisatsioon kasutab eraldi värbamisrakendust, võib teie värbamisprotsess hõlmata järgmisi etappe.<!--note from editor: Should this be a numbered list? These steps do seem to follow a particular order.-->
 
 - Sisestate värbamistaotluse rakendusse Human Resources.
 - Saate värbamisrakenduse kaudu kandidaatide soovitused kätte rakenduses Human Resources.
@@ -38,30 +37,35 @@ Dynamics 365 Human Resources aitab teil värbamistaotlusi hallata. Samuti aitab 
 Kui te ei kasuta eraldi värbamisrakendust, saate rakenduses Human Resources kandidaate ka käsitsi hallata.
 
 > [!NOTE]
-> Kui olete administraator või arendaja ja soovite integreerida Human Resourcesi kolmanda osapoole värbamisrakendusega, vaadake jaotist [Teenuse Dataverse integreerimise konfigureerimine](hr-admin-integration-common-data-service.md) ja [Teenuse Dataverse virtuaalsete tabelite konfigureerimine](hr-admin-integration-common-data-service-virtual-entities.md)
+> Kui olete administraator või arendaja ja soovite integreerida Inimressursid kolmanda osapoole värbamisrakendusega, [Dataverse](hr-admin-integration-common-data-service.md) minge valikute Konfigureeri integratsioon ja Virtuaaltabelite konfigureerimine [Dataverse](hr-admin-integration-common-data-service-virtual-entities.md)
 >
 > Lisaks saate otsida värbamisrakendusi siit: [AppSource](https://appsource.microsoft.com/marketplace/apps?search=recruiting%20dynamics).
 >
-## <a name="enable-recruiting-requests"></a>Luba värbamistaotlused
+## <a name="enable-recruiting-requests-on-the-merged-infrastructure"></a>Värbamistaotluste lubamine ühendatud infrastruktuuris
 
-Kui soovite Human Resourcesi kaudu esitada töötajate värbamiskutseid, peate esmalt lubama funktsioonid jaotises **Human Resourcesi ühiskasutuses olevad parameetrid**.
+Kui soovite värbamistaotlusi esitada inimressursside värbamises, peate esmalt lubama inimressursside **kasutajakogemuse** **ja värbamisprotsessi haldusfunktsioonid**.
 
-1. Tööruumis **Personalihaldus** valige **Lingid**.
-2. Jaotises **Häälestus** valige suvand **Human Resourcesi ühiskasutuses parameetrid**.
-3. **Seadke vahekaardi Värbamine** jaotises **Värbamine** ruut **Luba värbamistaotlused** kuni **Jah**.
+Kui funktsioonid on sisse lülitatud, valige järgmiste sammudega funktsioon: 
+1. Avage **inimressurssidesetupHuman** > **·** > **ressursside parameetrid**.
+2. Seadke väljal  **Recruitmentment**  väli Värbamine **keelatud valikule** **Ei**.
+3. Valige värbamiskogemuse **ripploendist** inimressursside **värbamine**.   
+
+> [!Note] 
+> Kui **inimressursside värbamine** on valitud, **siis on** värbamisprojektid (pärand) kirjutuskaitstud. 
+
 
 ## <a name="add-a-recruiting-request-location"></a>Värbamistaotluse asukoha lisamine
 
 Kui teie organisatsioonil on mitu asukohta, saate need lisada, et taotluse esitajad saaksid valida asukoha, kus uus töövõtja tööle hakkab. Asukoht lisatakse töökuulutusele.
 
-1. Sisestage **otsinguribale värbamistaotluse asukoht**.
+1. Otsinguribal sisestage värbamistaotluse **asukoht**.
 2. Valige suvand **Uus**.
 3. Sisestage asukoha nimi väljale **Värbamistaotluse asukoht**.
 
     ![Värbamistaotluse asukoha lisamine.](./media/hr-recruit-0a-add-location.png)
 
-4. Sisestage väljale **Kirjeldus** asukoha kirjeldus.
-5. Valige jaotises **Asukoht** nupp **Lisa**. **Kui kuvatakse dialoogiboks Uus aadress**, sisestage asukoha aadress.
+4. **Kirjelduse** jaoks sisestage asukoha kirjeldus.
+5. Valige jaotises **Asukoht** nupp **Lisa**. Kui kuvatakse **dialoogiboks** Uus aadress, sisestage asukoha aadress.<!--note from editor: Please make the address in this image less plausible. Via the fictitious guidelines on CELAweb: For street addresses, you should use sequential numbers, common street names, and incorrect zip codes (e.g., 4567 Main St Buffalo, NY 98052). (See https://microsoft.sharepoint.com/sites/CELAWeb-Copyrights-Trademarks-And-Patents/SitePages/trademarks-fictitious-names.aspx)-->
 
     ![Sisestage aadress.](./media/hr-recruit-0b-address.png)
 
@@ -74,7 +78,7 @@ Rakenduse Human Resources saavad juhid värbamistaotlusi esitada. Kui kasutate e
 
 1. Valige **Töövõtja iseteenindus**.
 2. Valige vahekaart **Minu töörühm**.
-3. Valige **Värbamistaotlus**.
+3. Valige **värbamistaotlus**.
 
     ![Värbamistaotluse alustamine.](./media/hr-recruit-1-request-to-recruit.png)
 
@@ -83,25 +87,25 @@ Rakenduse Human Resources saavad juhid värbamistaotlusi esitada. Kui kasutate e
     ![Värbamistaotluse lõpuleviimine.](./media/hr-recruit-2-request-to-recruit.png)
 
 5. Valige nupp **Jätka**. Kuvatakse teie ametikoha värbamistaotlus.
-6. Jaotises **Üldine** valige värbaja rippmenüüst **Värbaja** ja seejärel valige asukoht rippmenüüst **Värbamistaotluse asukoht**.
+6. Valige **jaotises** Üldine värbamistaja ripploendist **värbaja** **ja seejärel valige asukoht värbamise nõude asukoha** ripploendist.
 7. Jaotises **Töö** muutke teavet vastavalt vajadusele ja seejärel valige käsk **Loo töö põhjal üksikasjad**.
 
     ![Loo töö põhjal üksikasjad.](./media/hr-recruit-3-create-details-from-job.png)
 
-    Ülejäänud värbamistaotlus täidetakse sisestatud töö vaiketeabega.
+    Ülejäänud värbamistaotlus täidetakse vaiketeabega teie sisestatud töö kohta.
 
 8. Sisestage jaotises **Väline kirjeldus** ettevõtteväline töökirjeldus.
-9. Jaotises **Ametikohad** valige nupp **Lisa** ja seejärel selle värbamistaotluse ametikoht.
+9. Jaotises **Ametikohad** valige nupp **Lisa** ja seejärel selle värbamistaotluse ametikoht.<!--note from editor: In all of these images, are they approved fictitious names, or do they come from sample data included with the app?-->
 
     ![Ametikoha lisamine.](./media/hr-recruit-4-select-position.png)
 
 10. Jaotises **Oskused** valige nupp **Lisa** ja seejärel valige oskus.
-11. Jaotises **Haridusnõuded** valige nupp **Lisa** ja seejärel valige väärtused ripploendist **Haridus** ja **Haridustase**.
+11. Valige **jaotises Haridusnõuded** **suvand** Lisa ja seejärel valige väärtused **haridus-** **ja haridustaseme** rippmenüüdest.
 
     ![Haridusnõuete lisamine.](./media/hr-recruit-5-select-educational-requirements.png)
 
 12. Jaotises **Kommenteerimine** lisage vajaduse korral kommentaarid.
-13. Jaotises **Kompensatsioon** valige tase ripploendist **Tase** ja seejärel kohandage vastavalt vajadusele väärtust **Madal lävi**, **Kontrollpunkt** ja **Kõrge lävi**.
+13. Valige **suvandi** Hüvitus all tase ripploendist **Tase** **ja** seejärel korrigeerige vastavalt vajadusele madal lävi, **kontrollpunkt** **ja kõrge** lävi.
 14. Kui teie värbamistaotlus on lõpule viidud ja olete valmis alustama värbamisprotsessi, valige menüüribalt käsk **Aktiveeri**.
 
     ![Värbamistaotluse aktiveerimine.](./media/hr-recruit-6-activate-recruit-request.png)
@@ -141,7 +145,7 @@ Kui teie organisatsioon on integreeritud mõne muu rakendusega, et hallata värb
 
 4. Kandidaadi lisamiseks valige nupp **Uus**. Olemasoleva kandidaadi redigeerimiseks valige loendist aadress ja seejärel valige **Redigeeri**. Kuvatakse kandidaadi profiil.
 5. Jaotises **Kandidaadi ülevaade** saate kandidaadi teavet vajaduse korral sisestada või redigeerida.
-6. Jaotises **Värbamistaotlus** valige kandidaadi linkimiseks värbamistaotlus. Seejärel täitke väli **Eeldatav alguskuupäev**, **Värbamisjuht**, **Ametikoht** ja **Kirjeldus** vastavalt vajadusele.
+6. Jaotises **Värbamistaotlus** valige kandidaadi linkimiseks värbamistaotlus. Seejärel täitke väljad **Hinnanguline alguskuupäev**, **Palkamise juht**,**Ametikoht** **ja** Kirjeldus vastavalt vajadusele.
 
     ![Värbamistaotluse link.](./media/hr-recruit-10-link-to-recruiting-request.png)
 
@@ -161,11 +165,11 @@ Kui teie organisatsioon on integreeritud mõne muu rakendusega, et hallata värb
 
 Kui olete kandidaadi palkamiseks valmis, järgige seda protseduuri, et muuta kandidaat töövõtjaks.
 
-1. Valige **lehel Kandidaat** käsk **Palka**.
+1. Valige leheküljel **Kandidaat** suvand **Palka**.
 
     ![Kandidaadi palkamine.](./media/hr-recruit-11-hire.png)
 
-2. **Täitke lehe Uue töötaja** palkamine jaotises **Üksikasjad** kõik väljad.
+2. Täitke kõik **väljad** lehel Uue töötaja **palkamine** jaotises Üksikasjad.
 
     ![Palgatud töövõtja üksikasjade sisestamine.](./media/hr-recruit-12-hire-new-worker.png)
 
@@ -174,13 +178,13 @@ Kui olete kandidaadi palkamiseks valmis, järgige seda protseduuri, et muuta kan
 5. Valige **Jätka**, et luua töötaja kirje.
 
     > [!NOTE]
-    > Sõltuvalt teie organisatsiooni töövoogudest võib kandidaadi kirje enne töövõtja kirje muutumist läbida täiendavaid kinnitamise etappe.
+    > Sõltuvalt teie organisatsiooni töövoogudest võib kandidaadi kirje enne töötajakirjeks muutumist läbida lisa kinnitustoiminguid.
 
 ## <a name="decide-not-to-hire-a-candidate"></a>Otsus kandidaati mitte palgata
 
 Kui otsustate kandidaati mitte palgata, järgige seda protseduuri, et eemaldada ta taustakontrollist. 
 
-1. **Valige lehel Kandidaat** suvand **Ära palka**.
+1. Valige leheküljel **Kandidaat** suvand **Ära palka**.
 
     ![Kandidaadi mittepalkamine.](./media/hr-recruit-13-do-not-hire.png)
 
@@ -191,7 +195,7 @@ Kui otsustate kandidaati mitte palgata, järgige seda protseduuri, et eemaldada 
 
 Vajaduse korral saate kandidaadist pärast tema palkamist loobuda. Näiteks võib kandidaat teie pakkumise tagasi lükata või ei ilmu esimesel päeval kohale.
 
-- Valige **lehel Kandidaat** käsk **Loobu kandidaadist**.
+- Valige kandidaadi **leheküljelt** vallandamise **kandidaat**.
 
     ![Loobu kandidaadist.](./media/hr-recruit-14-dismiss-candidate.png)
 

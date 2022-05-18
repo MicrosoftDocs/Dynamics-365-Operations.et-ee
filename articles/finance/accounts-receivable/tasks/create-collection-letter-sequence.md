@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CollectionLetterCourse
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: adeae6e20a799165e086df28b92a1357e8f2f0d3
-ms.sourcegitcommit: f82372b1e9bf67d055fd265b68ee6d0d2f10d533
+ms.openlocfilehash: af5d0a001fbe705834e116516933be67f2de8826
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7921195"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734154"
 ---
 # <a name="create-a-collection-letter-sequence"></a>Märgukirjaseeria loomine
 
@@ -26,10 +26,10 @@ ms.locfileid: "7921195"
 
 Kasutage seda protseduuri kogumistähtede jada loomiseks. See ülesanne kasutab demoettevõtte USMF andmeid.
 
-1. Avage navigeerimispaanil **Moodulid > Kreedit ja sissenõuded > Häälestus > Sätesta märgukirja seeria**.
+1. Minge moodulisse **Kreedit ja > > saate seadistada märgukirjaseeria**.
 2. Klõpsake valikut **Uus**.
 3. Sisestage seeriat tähistav seeria ID väljale **Märgukirja seeria**. Seda kasutatakse sisestusreeglite seadistamiseks.
-4. Sisestage väärtus väljale **Kirjeldus**.  Maksetingimused on valikulised. Kui sisestate väärtuse siia, kasutab märgukirja tasu arve neid maksetingimusi kliendi puhul salvestatud maksetingimuste asemel.  
+4. Sisestage väärtus väljale **Kirjeldus**. Maksetingimused on valikulised. Kui sisestate väärtuse siia, kasutab märgukirja tasu arve neid maksetingimusi kliendi puhul salvestatud maksetingimuste asemel.  
 5. **Valige märgukirja koodi** väljalt esimese märgukirja kood, mille soovite saata. Esimene märgukiri luuakse arve maksetähtaja, selle rea väljale Päevad ajapikendusperioodi puhul sisestatud väärtuse ja muu sellele reale sisestatud teabe järgi.  
 6. Sisestage väärtus väljale **Kirjeldus**. 
 7. Tasu vaikevaluuta on juriidilise isiku valuuta. Valuutakood võib arve valuutast erineda.   
@@ -52,9 +52,9 @@ Kasutage seda protseduuri kogumistähtede jada loomiseks. See ülesanne kasutab 
 22. Klõpsake loendis valitud real olevat linki.
 23. Sisestage number väljale **Minimaalne tähtaja ületanud saldo**.
 24. Sisestage number väljale **Päevad**.
-25. Valige märkeruut **Blokeering**, et peatada kliendil edasiste saadetiste ja arvete saatmine. Kontolt blokeeringu eemaldamiseks tehke lehe Kliendid väljal Arveldamine ja tarne ootel valik **Ei**.  
+25. Valige märkeruut **Blokeering**, et peatada kliendil edasiste saadetiste ja arvete saatmine. Konto blokeerimise tühistamiseks valige klientide **lehel** **Arvete koostamine ja tarne ootel** **väli** Ei.  
 26. Laiendage kiirkaarti **Märkus**.
-27. Sisestage valitud märgukirjakoodi puhul märgukirjas kuvatav tekst. Saate selle teksti tõlkida mitmesse keelde, kasutades märkuse kasti kohal olevat menüüd Tõlked.  
+27. Sisestage valitud märgukirjakoodi puhul märgukirjas kuvatav tekst. Selle teksti saate märkuseboksi kohal asuvat tõlkemenüüd **kasutades tõlkida** mitmesse keelde.  
 
 
 

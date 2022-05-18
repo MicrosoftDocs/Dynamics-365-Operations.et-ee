@@ -15,22 +15,22 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9ffb2c42748678ae265a706a00db327a160cc9f5
-ms.sourcegitcommit: 411874545d7c326fc4aa877948a059371f0ccb3c
+ms.openlocfilehash: 069ada071fe6a7d3e22ad6aa45e3c2f06a9f4b31
+ms.sourcegitcommit: 5a4b8ce4a7ae82c0ef22d2223c11c6b55f048cdd
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "8392907"
+ms.lasthandoff: 05/14/2022
+ms.locfileid: "8756959"
 ---
 # <a name="create-a-customer-invoice"></a>Kliendiarve loomine
 
 [!include [banner](../includes/banner.md)]
 
-**Müügitellimuse kliendiarve** on arve, mis on seotud müügiga, ja mille organisatsioon kliendile annab. Sellist tüüpi müügiarve luuakse müügitellimuse põhjal, mis sisaldab tellimuse ridu ja kaubakoode. Kauba koodid täpsustatakse ja sisestatakse pearaamatusse. Alammooduli töölehe kirjed pole müügitellimuse kliendiarve puhul saadaval. Lisateabe saamiseks vt [Müügitellimuse arvete loomine](tasks/create-sales-order-invoices.md).
+Müügitellimuse **kliendiarve on müügiga** seotud arve, mille organisatsioon kliendile annab. Sellist tüüpi müügiarve luuakse müügitellimuse põhjal, mis sisaldab tellimuse ridu ja kaubakoode. Kauba koodid täpsustatakse ja sisestatakse pearaamatusse. Alammooduli töölehe kirjed pole müügitellimuse kliendiarve puhul saadaval. Lisateabe saamiseks vt [Müügitellimuse arvete loomine](tasks/create-sales-order-invoices.md).
 
-**Vabas vormis arve** pole müügitellimusega seotud. See sisaldab tellimuse ridu, mille hulka kuuluvad pearaamatukontod, vaba tekstina sisestatud kirjeldused ja müügihind, mille sisestate. Seda tüüpi arvele ei saa kaubakoodi sisestada. Peate sisestama vastava käibemaksuteabe. Müügi põhikonto on näidatud igal arve real, mille saate jaotada mitmele pearaamatukontole, klõpsates valikut **Summade jaotamine** lehel **Vabas vormis arve**. Lisaks sisestatakse kliendi saldo vabas vormis arve puhul kasutatavatest sisestusreeglitest koondkontole.
+Vabas **vormis** arve ei ole seotud müügitellimusega. See sisaldab tellimuse ridu, mille hulka kuuluvad pearaamatukontod, vaba tekstina sisestatud kirjeldused ja müügihind, mille sisestate. Seda tüüpi arvele ei saa kaubakoodi sisestada. Peate sisestama vastava käibemaksuteabe. Müügi põhikonto on näidatud igal arve real, mille saate jaotada mitmele pearaamatukontole, klõpsates valikut **Summade jaotamine** lehel **Vabas vormis arve**. Lisaks sisestatakse kliendi saldo vabas vormis arve puhul kasutatavatest sisestusreeglitest koondkontole.
 
-Lisateavet vt 
+Lisateabe saamiseks vt:
 
 [Vabateksti arvete loomine](../accounts-receivable/create-free-text-invoice-new.md)
 
@@ -41,7 +41,10 @@ Lisateavet vt
 [Korduvate vabas vormis arvete genereerimine ja sisestamine](tasks/post-recurring-free-text-invoices.md)
 
 
-**Esialgne arve** on arve, mis on vormistatud hinnanguliste arvesummadega enne arve sisestamist. Saate printida esialgse arve nii müügitellimuse kliendiarve kui ka vabas vormis arve kohta.
+**Pro forma arve** on arve, mis on ettevalmistatud hinnanguna tegelike arvesummade kohta enne arve sisestamist. Saate printida kas **müügitellimuse kliendiarve** või vabas vormis arve pro forma arve. 
+
+>[!NOTE]
+> Süsteemikatkestuse korral müügi pro forma arveprotsessi käigus saab pro forma arve orvuks teha. Orvuks jäänud pro forma arve saab kustutada **perioodilise tööga Kustuta pro forma arved** käsitsi. Avage müügi **ja turunduse > perioodilised > või > käsitsi kustutama pro forma arved**.
 
 ## <a name="using-sales-order-customer-invoice-data-entities"></a>Müügitellimuse kliendiarve andmeüksuste kasutamine
 Saate kasutada andmeüksuseid müügitellimuse kliendiarve kohta teabe importimiseks ja eksportimiseks. Müügiarve päisel ja müügiarve ridadel oleva teabe jaoks on erinevaid üksusi.
@@ -70,7 +73,7 @@ Müügitellimuste olekut saab vaadata loendilehel **Kõik müügitellimused**. L
 ## <a name="post-and-print-individual-customer-invoices-that-are-based-on-packing-slips-and-the-date"></a>Saatelehtedel ja kuupäevadel põhinevate üksikute kliendiarvete sisestamine ja printimine
 Kasutage seda protsessi, kui müügitellimuse kohta on sisestatud vähemalt üks saateleht. Kliendiarve aluseks on need saatelehed ja arve näitab saatelehtedelt pärit koguseid. Finantsteave arve jaoks põhineb teabel, mis sisestatakse, kui sisestate arve. 
 
-Saate luua kliendiarve, mis põhineb saatelehe tähtajaliselt välja saadetud reakaupadel, isegi kui kõik konkreetse müügitellimuse kaubad ei ole veel välja saadetud. Seda saate teha nt siis, kui teie juriidiline isik väljastab igale kliendile ühe arve kuus, mis katab kõik selle kuu tarned. Iga saateleht esindab müügitellimusel olevate kaupade osalist või täielikku väljasaatmist. 
+Saate luua kliendiarve, mis põhineb saatelehe rea kaupadel, mis on lähetatud kuupäevani, isegi kui kõik konkreetse müügitellimuse kaubad pole lähetatud. Seda saate teha nt siis, kui teie juriidiline isik väljastab igale kliendile ühe arve kuus, mis katab kõik selle kuu tarned. Iga saateleht esindab müügitellimusel olevate kaupade osalist või täielikku väljasaatmist. 
 
 Arve sisestamisel uuendatakse iga kauba kogus väljal **Arve jääk** tarnitud kogustega valitud saatelehtedelt. Kui kõigi müügitellimuse kaupade kogus **Arve jääk** ja **Tarne jääk** on 0 (null), määratakse müügitellimuse olekuks **Arveldatud**. Kui kogus **Arve jääk** ei ole 0 (null), siis müügitellimuse olekut ei muudeta ja sellele saab sisestada täiendavaid arveid. 
 
@@ -83,8 +86,13 @@ Kasutage seda protsessi, kui vähemalt üks müügitellimus on arveldamiseks val
 
 Saate valida mitu arvet loendilehelt **Müügitellimus** ja kasutage siis nende konsolideerimiseks valikut **Loo arved**. Lehel **Arve sisestamine** saate muuta valiku **Koondtellimus** sätet, et summeerida tellimuse numbri alusel (kui ühe müügitellimuse kohta on mitu saatelehte) või arvekonto alusel (kui ühe arvekonto kohta on mitu müügitellimust). Kasutage nuppu **Korrasta** müügitellimuste konsolideerimiseks ühele arvele valiku **Koondtellimus** sätete põhjal.
 
+## <a name="split-sales-order-invoices-by-site-and-delivery-information"></a>Müügitellimuste arvete tükeldamine saidi- ja tarneteabe alusel
+Saate konfigureerida müügitellimuse kliendiarvete **tükeldamise** **saidi või tarneaadressi järgi lehe Müügireskontro parameetrid vahekaardil Koonds uuendamine.** 
+ - Valige suvand **Tükelda arve saidi alusel,** et sisestamisel luua üks arve saidi kohta. 
+ - Valige suvand **Tükelda arve tarneteabe alusel,** et luua sisestamisel müügitellimuse rea tarneaadressi kohta üks arve. 
+
 ## <a name="post-to-revenue-account-for-sales-order-lines-that-have-no-price"></a>Sisesta tulukontole müügitellimuse ridadel, kus hind puudub
-Teil on võimalus uuendada Pearaamatus **tulukonto** **müügitellimuse** ridade jaoks, mille hind puudub. Selle teabe häälestamiseks või vaatamiseks **minge** **·** **tulukonto sisestamisele nullhinnaga müügitellimuse arve ridade parameetri korral pearaamatu ja käibemaksu vahekaardil müügireskontro parameetrite lehel.** (Müügireskontro **> seadistus > Müügireskontro parameetrid**). Valige **Jah**, et uuendada **tulukonto** müügitellimuse arve ridadele, mille hind puudub. Tulukonto määratletakse vahekaardi Müügitellimuse **konto** määratlus lehel Varude **sisestamise** parameeter. Kui see suvand pole valitud, ei sisestata hinnateabeta ridu **tulukontole**.
+Teil on võimalus uuendada pearaamatu **tulukonto** **müügitellimuse** ridade jaoks, mille hind puudub. Selle teabe häälestamiseks või vaatamiseks **minge** **·** **tulukonto sisestamisele nullhinnaga müügitellimuse arve ridade parameetri korral pearaamatu ja käibemaksu vahekaardil müügireskontro parameetrite lehel.** (Müügireskontro **> seadistus > Müügireskontro parameetrid**). Valige **Jah**, et uuendada **tulukonto** müügitellimuse arve ridadele, mille hind puudub. Tulukonto määratletakse vahekaardi Müügitellimuse **konto** määratlus lehel Varude **sisestamise** parameeter. Kui seda valikut ei valita, ei sisestata hinnateavet omavad read **tulukontole**.
 
 ## <a name="additional-settings-that-change-the-posting-behavior"></a>Sisestamiskäitumist muutvad lisasätted
 Järgmised väljad muudavad sisestamisprotsessi käitumist.
@@ -152,7 +160,7 @@ Järgmised väljad muudavad sisestamisprotsessi käitumist.
 <td>Kontrolli krediidilimiiti</td>
 <td>Saate valida teabe, mida krediidilimiidi kontrollimisel tuleb analüüsida.
 <ul>
-<li><strong>Pole</strong> – krediidilimiidi kontrollimiseks pole mingit vajadust.</li>
+<li><strong>Pole</strong> – krediidilimiidi kontroll ei ole nõutav.</li>
 <li><strong>Saldo</strong> – krediidilimiiti kontrollitakse kliendi saldo suhtes.</li>
 <li><strong>Saldo + saateleht või toote sissetulek</strong> – krediidilimiiti kontrollitakse kliendi saldo ja tarnete suhtes.</li>
 <li><strong>Saldo + kõik</strong> – krediidilimiiti kontrollitakse kliendi saldo, tarnete ja avatud tellimuste suhtes.</li>

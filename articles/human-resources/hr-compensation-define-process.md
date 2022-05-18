@@ -8,17 +8,16 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: HRMCompProcess, HRMCompProcessLine, HRMCompEvent, HRMCompEventEmpl, HcmCompensationWorkspace
 audience: Application User
-ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 188a87f580c274e073710601ef306139f723c797
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 196c907521bba5440f12149abcb2fc446c2aa523
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071710"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8687047"
 ---
 # <a name="define-compensation-process-and-calculate-results"></a>Hüvitusprotsessi määratlemine ja tulemuste arvutamine
 
@@ -43,13 +42,13 @@ Tasuprotsesse kasutatakse uute tasusummade ja preemiate määramiseks põhipalga
     * Kande jõustumise kuupäev on kuupäev, millal uued tasumäärad jõustuma peaksid. Paljud ettevõtted lisavad mõned kuud tsükli lõpu ja uute tasumäärade jõustumisaja vahele. Lisaaega kasutatakse uue tasu töötlemiseks ja ülevaatamiseks.  
 8. Sisestage kuupäev väljale **Kande aktiivne kuupäev**.
     * Seda ajahetke kuupäeva kasutatakse ergutussüsteemi plaanide puhul, mis määravad töötaja preemiasumma tema tasumäära põhjal sellel ajahetkel.  
-    * Fikseeritud töötasu proportsionaalset rendikuupäeva kasutatakse fikseeritud hüvitiste plaanide puhul, mille rendireegel on **protsenti**. Töötajad, kes palgatakse tsükli alguse ja palkamise kuupäevaga proportsionaalse põhipalga kuupäeva vahel, saavad proportsionaalse protsendi asemel 100% oma arvestuslikust palgatõusust.  
+    * Fikseeritud tasu protsentuaalse palkamise kuupäeva kasutatakse fikseeritud tasu plaanide puhul palkamise reegliga **Protsent**. Töötajad, kes palgatakse tsükli alguse ja palkamise kuupäevaga proportsionaalse põhipalga kuupäeva vahel, saavad proportsionaalse protsendi asemel 100% oma arvestuslikust palgatõusust.  
 9. Sisestage kuupäev väljale **Fikseeritud palk proportsionaalselt palkamise kuupäevaga**.
     * Ülevaatamise tähtaeg on kuupäev, milleks kõik protsessi tulemused tuleb üle vaadata, et need saaks laadida töötaja tasukirjesse enne kande jõustumise kuupäeva. See väli on üksnes teavituslik.  
 10. Sisestage lõpukuupäev väljale **Ülevaatamise tähtaeg**.
 11. Klõpsake nuppu **Salvesta**.
 
-## <a name="set-up-the-compensation-plans-and-actions-for-a-compensation-process"></a>Looge hüvitamisprotsessi jaoks hüvitise plaanid ja toimingud
+## <a name="set-up-the-compensation-plans-and-actions-for-a-compensation-process"></a>Hüvitusplaanide ja tegevuste häälestamine kompensatsiooniprotsessi jaoks
 1. Klõpsake **Häälestus**.
     * **Seadistamise** lehte kasutatakse valimiseks, milliseid plaane selle tasuprotsessi raames töödelda ja milliseid toiminguid iga plaani puhul teha tuleks.  
 2. Sisestage või valige väärtus väljal **Plaan**.
@@ -59,7 +58,7 @@ Tasuprotsesse kasutatakse uute tasusummade ja preemiate määramiseks põhipalga
 6. Klõpsake käsku **Lisa**.
 7. Valige väljal **Toiming** toimingu tüüp **Väärtus**.
     * Tasutoimingud saab kokku liita, kasutades välja **Kasuta eelmist tulemust** näitamiseks, kas valitud toiming peaks kasutama selle toimingu arvutuse lähtepunktina töötajate põhipalka või eelmise toimingu tulemust.  
-8. Valige **Jah** aastal **Kasuta eelmist tulemust** valdkonnas.
+8. Valige **väljal** Kasuta eelmist **tulemust väärtus Jah**.
 9. Klõpsake käsku **Lisa**.
 10. Valige väljal **Toiming** toimingu tüüp **Üldine**.
     * Erinevad tasutoimingute tüübid aktiveerivad erinevad väljad. Üldise tasutoimingu tüübi puhul saab määrata kasvuprotsendi või kasvusumma.  
@@ -88,7 +87,7 @@ Tasuprotsesse kasutatakse uute tasusummade ja preemiate määramiseks põhipalga
 1. Klõpsake valikut **Protsessi tulemused**.
 2. Klõpsake valikut **Töötaja tulemused**.
 3. Otsige loendist ja valige soovitud kirje.
-4. Laiendage **Fikseeritud hüvitis** osa.
+4. Laiendage jaotist **Põhitasu**.
     * Laiendage protsessi tulemuste vaatamiseks kiirkaarte. Kui tasutegevuse puhul märgiti valik **Soovituste lubamine**, lubatakse selle toimingu puhul **soovituse** väljad.  
 5. Otsige loendist ja valige soovitud kirje.
     * Ühe töötaja tulemused saab kuvada, klõpsates nuppu **Tulemuste kuvamine**.  

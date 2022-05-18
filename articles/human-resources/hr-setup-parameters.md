@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: HRMParameters, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 51941
 ms.assetid: 2cfb061a-a616-4bf9-9d98-9cde00039eec
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: fd9bb907f95ba4c368871a470ca9b2bc807646ee
-ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
+ms.openlocfilehash: 1fc8ba3f69f216d66850485b6ba33cd324a57156
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7771431"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8689406"
 ---
 # <a name="configure-human-resources-parameters"></a>Human Resourcesi parameetrite konfigureerimine
 
@@ -65,13 +64,13 @@ Sätted vahekaardil **Üldine** määratlevad puudumise, vigastuste ja haiguste 
 
 Vahekaardi **Värbamine** sätted määratlevad dokumenditüübid, mida kasutatakse kandidaatidele automaatselt saadetavas kirjavahetuses. Samuti saate osutada soovimatute avalduste jaoks kasutatavale värbamisprojektile.
 
-Värbamisprojekti aegumises määratletud periood määratleb, millised värbamisprojektid **·** kaasatakse värbamishalduse tööruumi aegumisprojektide **·** **·** paanile. Perioodi, mis on määratud avalduse tähtaja hoiatuseks, kasutatakse selleks, et näidata värbamisprojekte, mis on lähenemas nende avalduse tähtajale avalduse tähtajale **läheneva** **paani puhul värbamise** tööruumis.
+Värbamisprojekti aegumises määratletud periood määratleb **, millised värbamisprojektid kaasatakse** värbamishalduse **tööruumi** aegumisprojektide paanile **.** Perioodi, mis on määratud avalduse tähtaja hoiatuseks, kasutatakse selleks, et näidata värbamisprojekte, mis on **lähenemas nende avalduse tähtajale avalduse tähtajale läheneva** paani puhul värbamise **tööruumis**.
 
 Värbamise kohta lisateabe saamiseks vt teemat [Kandidaatide värbamine](hr-personnel-recruit.md).
 
 ## <a name="compensation"></a>Hüvitus
 
-Dynamics 365 Finance'is määratlevad vahekaardil **Hüvitus** olevad sätted, kas kasutajad peavad fikseeritud või ergutussüsteemi plaani jaoks teabe salvestamise kinnitama. Ruudu **Luba salvestamise kinnitamine** märkimise korral saavad kasutajad hüvitusega seotud lehe sulgemisel teate, mis küsib, kas nad soovivad kirje salvestada. Osa hüvituste halduse lehti ei luba kasutajatel teavet kustutada. Kui palute kasutajatel kinnitada, kas nad soovivad teabe salvestada, aitab see piirata sellise salvestatud teabe hulka, mida ei saa hiljem kustutada. Märkeruudu **Luba salvestamise kinnitamine** tühjendamisel salvestatakse kirjed alati kohe (võimalik, et enne seda, kui kasutaja on selleks valmis). Jõudlushalduse kasutamisel võimaldab vahekaart **Hüvitus** teil valida ka hindamismudeli, mida tööviljakuse ehk jõudluse hindamisel kompensatsiooniplaanidele määratud mudeli asemel kasutada.
+Dynamics 365 Finance'is määravad **vahekaardi Tasu** sätted, kas kasutajad peavad kinnitama, et nad soovivad salvestada teavet fikseeritud või muutuva tasuplaani jaoks. Ruudu **Luba salvestamise kinnitamine** märkimise korral saavad kasutajad hüvitusega seotud lehe sulgemisel teate, mis küsib, kas nad soovivad kirje salvestada. Osa hüvituste halduse lehti ei luba kasutajatel teavet kustutada. Kui palute kasutajatel kinnitada, kas nad soovivad teabe salvestada, aitab see piirata sellise salvestatud teabe hulka, mida ei saa hiljem kustutada. Märkeruudu **Luba salvestamise kinnitamine** tühjendamisel salvestatakse kirjed alati kohe (võimalik, et enne seda, kui kasutaja on selleks valmis). Jõudlushalduse kasutamisel võimaldab vahekaart **Hüvitus** teil valida ka hindamismudeli, mida tööviljakuse ehk jõudluse hindamisel kompensatsiooniplaanidele määratud mudeli asemel kasutada.
 
 Inimressursside moodulis saate vahekaardi **Hüvitus** kaudu soovi korral piirata juurdepääsu kompensatsiooniplaanidele ja häälestada vaikevaluuta.
 
@@ -107,20 +106,20 @@ FMLA vahekaardil saate määrata FMLA sobivuse nõuded ja FMLA õigustatud tunni
 
 ## <a name="employee-self-service"></a>Töövõtja iseteenindus
 
-Töötaja iseteeninduse **vahekaardi sätted mõjutavad töötaja** **·** iseteeninduse kuvamist töötajatele. Sellel vahekaardil saate lõpule viia järgmised ülesanded:
+Töötaja iseteeninduse **vahekaardi sätted mõjutavad** töötaja **iseteeninduse kuvamist** töötajatele. Sellel vahekaardil saate lõpule viia järgmised ülesanded:
 
-- Sisestage töötaja **iseteeninduse tööruumi** nimi.
+- Sisestage töötaja iseteeninduse **tööruumi nimi**.
 - valida, millist teavet saab ülemus töötajate kohta sisestada;
 - lisada töötajate jaoks kasulikke linke;
 - piirata töötajatel ettevõtte kontaktteabe lisamist või redigeerimist. Lisateavet vt teemast [Isikuandmete redigeerimise piiramine](hr-employee-self-service-restrict-editing.md).
 
-Lisateavet töötaja iseteeninduse **häälestamise kohta** vt töötaja ja juhi [iseteeninduse](hr-employee-manager-self-service-overview.md) ülevaatest.
+Lisateavet töötaja iseteeninduse häälestamise **kohta vt töötaja** ja [juhi iseteeninduse ülevaatest](hr-employee-manager-self-service-overview.md).
 
 ![Töötaja iseteeninduse vahekaart.](./media/hr-setup-parameters-employee-self-service.png)
 
 ## <a name="manager-self-service"></a>Juhi iseteenindus
 
-Vahekaardil Halduri **iseteeninduse** sätted mõjutavad seda, mida juhatajad **haldurite iseteeninduses** näevad. Sellel vahekaardil saate konfigureerida järgmisi valikuid:
+Vahekaardil Halduri iseteeninduse **sätted mõjutavad** seda, mida juhatajad haldurite **iseteeninduses näevad**. Sellel vahekaardil saate konfigureerida järgmisi valikuid:
 
 - Aeguvate kirjete vahemik
 - Teabehaldurid saavad aegumiskirjetes vaadata järgmist teavet
@@ -128,13 +127,13 @@ Vahekaardil Halduri **iseteeninduse** sätted mõjutavad seda, mida juhatajad **
 - Lahkuvate töötajate vaated
 - Ülemustele kasulikud lingid
 
-Lisateavet halduri iseteeninduse **häälestamise kohta** vt töötaja ja [juhi iseteeninduse](hr-employee-manager-self-service-overview.md) ülevaatest.
+Lisateavet halduri iseteeninduse häälestamise **kohta vt** töötaja [ja juhi iseteeninduse ülevaatest](hr-employee-manager-self-service-overview.md).
 
 ![Juhi iseteeninduse vahekaart.](./media/hr-setup-parameters-manager-self-service.png)
 
 ## <a name="benefits-management"></a>Soodustuste haldus
 
-Vahekaardil Soodustuste **haldus saate konfigureerida soodustuste** halduse meilivalikud. Lisateavet soodustuste halduse häälestamise ja kasutamise kohta vt soodustuste [halduse](hr-benefits-management-overview.md) ülevaadet.
+Vahekaardil Soodustuste **haldus saate** konfigureerida soodustuste halduse meilivalikud. Lisateavet soodustuste halduse häälestamise ja kasutamise kohta vt soodustuste [halduse ülevaadet](hr-benefits-management-overview.md).
 
 ![Soodustuste halduse vahekaart.](./media/hr-setup-parameters-benefits-management.png)
 

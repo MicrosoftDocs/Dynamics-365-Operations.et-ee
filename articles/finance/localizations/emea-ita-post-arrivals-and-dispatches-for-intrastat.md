@@ -1,20 +1,20 @@
 ---
 title: Saabumiste ja lähetuste sisestamine Intrastati jaoks
 description: See teema pakub näidet, kuidas sisestada Intrastati saabumised ja lähetamised.
-author: andosip
+author: anasyash
 ms.date: 8/23/2021
 ms.topic: article
 audience: Application User
-ms.reviewer: kfender
+ms.reviewer: kfend
 ms.search.region: Global
-ms.author: v-aosipov
+ms.author: anasyash
 ms.search.validFrom: ''
-ms.openlocfilehash: f7bd1811fd0e580a6b6655244c689268915d320e
-ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
+ms.openlocfilehash: 4ab4402740d199043519773b18732bdde9a0fb2f
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7414783"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8724779"
 ---
 # <a name="post-arrivals-and-dispatches-for-intrastat"></a>Saabumiste ja lähetuste sisestamine Intrastati jaoks
 
@@ -32,7 +32,7 @@ See teema pakub näidet, kuidas sisestada Intrastati saabumised ja lähetamised.
 
     Lisateavet leiate teemast [ER konfiguratsioonide allalaadimine konfiguratsiooniteenuse globaalsest hoidlast](../../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md).
 
-2. Microsoft Dynamics 365 Finance rakenduses määrake pidevaks järgmised numbriseeriad: **Gene\_397**, **Acco\_16403**, **Gene\_407**, ja **PUR\_EU**.
+2. Määratlege Microsoft Dynamics 365 finantside puhul järgmised numbriseeriad pidevana: **\_ Gema397,** Atulu16403 **\_,** **Gene407\_** ja **PUREU.\_**
 
     1. Avage **Organisatsiooni haldus** > **Numbriseeriad** > **Numbriseeriad**.
     2. Valige ruudustikus üks numbriseeria koodidest.

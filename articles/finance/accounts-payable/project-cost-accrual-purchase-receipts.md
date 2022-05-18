@@ -1,6 +1,6 @@
 ---
 title: Projektikulu juurdekasv ostu sissetulekute korral
-description: Selles teemas kirjeldatakse, kuidas jälgida ostu sissetulekutest kogunevaid projektikulusid Microsoft Dynamics 365 Financeis.
+description: See teema kirjeldab, kuidas ostu sissetulekutest kogunenud projekti kulusid saab jälgida moodulis Microsoft Dynamics 365 Finantsid.
 author: sunfzam
 ms.date: 06/20/2017
 ms.topic: article
@@ -8,25 +8,25 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CostControlCommittedCost
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 266984
 ms.assetid: 61e7d2a3-5aab-4113-bccc-213f932885d2
 ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7ae2f57e0104a30492363f1576962d36a2a1b04b
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 7e435002bca8fd4deb58c16c50db55237a3e9053
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7595226"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8735106"
 ---
-# <a name="project-cost-accrual-on-purchase-receipts"></a>Projektikulu juurdekasv ostu sissetulekute korral
+# <a name="project-cost-accrual-on-purchase-receipts"></a>Lisandunud projektikulud ostutarnete loenditest
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas kirjeldatakse, kuidas jälgida ostu sissetulekutest kogunevaid projektikulusid Microsoft Dynamics 365 Financeis. 
+See teema kirjeldab, kuidas ostu sissetulekutest kogunenud projekti kulusid saab jälgida moodulis Microsoft Dynamics 365 Finantsid. 
 
 Projekti arved saabuvad sageli kaupade ja teenuste üleandmisest hiljem, millel võib olla märkimisväärne mõju projekti juhtimismõõdikutele (KPI-dele). Nende kannete jälgimise võimalus nii finants- kui ka projektiaruannetes on oluline.
 

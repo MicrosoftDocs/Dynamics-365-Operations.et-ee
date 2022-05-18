@@ -7,19 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 269074
 ms.assetid: 426c6127-42ee-4163-8dd0-b2867f95581d
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-08-07
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: bd7180c8f53687d561c429456387e0fe999dd508
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 819f22c58da485980c38d35dcc6dda6aebacf423
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070171"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8695840"
 ---
 # <a name="view-and-manage-address-changes"></a>Aadressimuudatuste vaatamine ja haldamine
 
@@ -28,7 +27,7 @@ ms.locfileid: "8070171"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-See teema selgitab, kuidas saate vaadata ja hallata aadressimuudatusi **Muutke isikuandmeid** leht (mille avate lehelt **Töötaja iseteenindus** tööruum) või **Tööline** üksikasjade leht Dynamics 365 Human Resources.
+See teema selgitab, **kuidas** vaadata ja hallata aadressimuudatusi lehel Isiklike üksikasjade redigeerimine (**mille** avate Töötaja iseteeninduse tööruumist) **või töötaja** üksikasjade lehel Dynamics 365 Human Resources.
 
 Paljud organisatsioonid tahavad, et töövõtjad haldaksid oma isikuandmeid iseteeninduse kaudu. Saate lubada kasutajatel tööruumis **Töövõtja iseteenindus** oma aadressi värskendada. Seejärel saate muudatusi jälgida tööruumis **Personalihaldus**. Selle funktsiooni kasutamiseks peate määrama päevade arvu, mille jooksul soovite vaadata muudatusi lehel **Inimressursside parameetrid**.
 
@@ -46,7 +45,7 @@ Et konfigureerida päevade arv, mille jooksul soovite tööruumis **Personalihal
 
 Töövõtjad saavad oma aadressi värskendada tööruumis **Töövõtja iseteenindus**. Aadressi loomiseks või muutmiseks toimige järgmiselt.
 
-1. Valige **Töötaja iseteenindus** plaat peal **Kodu** lehel.
+1. Valige Avalehelt **töötaja** iseteeninduspaan **·**.
 2. Valige **Redigeeri isikuandmeid**.
 3. Aadressi lisamiseks valige **Lisa**. Olemasoleva aadressi värskendamiseks valige loendist aadress ja seejärel valige **Redigeeri**.
 4. Sisestage **Nimi või kirjeldus**.
@@ -90,7 +89,7 @@ Mõnel juhul võite soovida värskendada aadressi tulevikus. Näiteks tuleks see
 
 ## <a name="view-and-monitor-address-changes"></a>Aadressimuudatuste vaatamine ja jälgimine
 
-Personaliosakonna töötajad saavad vaadata ja jälgida muudatusi tööruumis **Personalihaldus**. Aadressimuudatuste vaatamiseks valige **Personali juhtimine** plaat peal **Kodu** lehel. Aadressimuudatused kuvatakse paremas ülanurgas paanile. Üleval olev number **Aadressi muutused** näitab, kui palju aadressi muutusi toimus lehel määratud päevade arvu jooksul **Inimressursi parameetrid** lehel. 
+Personaliosakonna töötajad saavad vaadata ja jälgida muudatusi tööruumis **Personalihaldus**. Aadressi muudatuste vaatamiseks valige Avalehelt **personalihalduse** paani **·**. Aadressi muudatused kuvatakse paanil ülemises parempoolses nurgas. Ülaltoodud aadressi **muutmisel** kuvatakse lehel **Inimressursid määratud päevade arvu jooksul toimunud aadressimuudatuste** arv. 
 
 Kui valite paani **Aadressimuudatused**, kuvatakse uuel leheküljel iga aadressimuudatuse üksikasjad. Soovi korral saate valida ülemises parempoolses nurgas suvandi **Kaasa tulevased aadressimuudatused**, et kuvada tulevase kuupäevaga aadressimuudatused.
 

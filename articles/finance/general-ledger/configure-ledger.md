@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: Ledger
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-09
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 3e6c4d966f2720339941fb848ff9ac79e4593868ce10d3712efbb1ad18a9ceea
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 38c4364c47915cc0019cb6b3d471d3e60d413bf0
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712215"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8711544"
 ---
 # <a name="configure-ledgers"></a>Pearaamatute konfigureerimine
 
@@ -28,7 +28,7 @@ See teema annab teavet selle kohta, kuidas konfigureerida iga juriidilise isiku 
 
 ## <a name="selecting-the-chart-of-accounts"></a>Kontoplaani valimine
 
-Iga rakenduse Microsoft Dynamics 365 Finance juriidilise isiku pearaamatu üksikasjad tuleb konfigureerida. Leht **Pearaamat** võimaldab teil valida kontoplaani ja konto struktuurid, mida kasutatakse valitud juriidilise isiku puhul. Saate oma kontoplaani ja konto struktuure jagada, konfigureerides iga juriidilise isiku lehe **Pearaamat**, et kasutada sama kontoplaani ja konto struktuure. Samuti saate jagada osa iga juriidilise isiku konfiguratsioonist ja omada iga juriidilise isiku jaoks kindlaid konfiguratsioone.
+Iga juriidilise isiku jaoks rakenduses Microsoft Dynamics 365 Finance tuleb konfigureerida pearaamatu üksikasjad. Leht **Pearaamat** võimaldab teil valida kontoplaani ja konto struktuurid, mida kasutatakse valitud juriidilise isiku puhul. Saate oma kontoplaani ja konto struktuure jagada, konfigureerides iga juriidilise isiku lehe **Pearaamat**, et kasutada sama kontoplaani ja konto struktuure. Samuti saate jagada osa iga juriidilise isiku konfiguratsioonist ja omada iga juriidilise isiku jaoks kindlaid konfiguratsioone.
 
 Kui teie juriidilistel isikutel peavad olema erinevad kontoplaanid või erinevad konto struktuurid, võib olla kasu juriidilise isiku alistamise funktsioonist. Mitme juriidilise isiku jaoks sama kontoplaani ja kontode struktuuri kasutamine ning seejärel mis tahes erandite haldamine läbi juriidilise isiku alistamiste võimaldab aja jooksul haldamist lihtsustada.
 
@@ -38,7 +38,7 @@ Lisateavet kontoplaani ja põhikontode kavandamise ning konfigureerimise kohta v
 
 ## <a name="selecting-account-structures"></a>Kontostruktuuri valimine
 
-Iga rakenduse Dynamics 365 Finance juriidilise isiku saab konfigureerida kasutama ühte või mitut konto struktuuri. Iga konto struktuur määratleb finantsdimensioonid ning põhikontode ja finantsdimensioonide kombinatsioonid, mis on kannete sisestamisel lubatud. Sama konto struktuure saate kasutada rohkem kui ühes juriidilises isikus.
+Iga Dynamics 365 Finance'i juriidilist isikut saab konfigureerida kasutama üht või enamat konto struktuuri. Iga konto struktuur määratleb finantsdimensioonid ning põhikontode ja finantsdimensioonide kombinatsioonid, mis on kannete sisestamisel lubatud. Sama konto struktuure saate kasutada rohkem kui ühes juriidilises isikus.
 
 Pidage meeles, et kui teil on mitu konto struktuuri, saate valida ainult konto struktuurid, millel ei ole põhikontode ja finantsdimensioonide kattuvaid kombinatsioone. Näiteks on üks teie konto struktuuridest konfigureeritud lisama põhikontodele vahemikus 1000 ja 1999 äriüksuse. Teises konto struktuuris olete lisanud 1-ga algavatele põhikontodele osakonna finantsdimensiooni. Sellisel juhul saab samale juriidilisele isikule lisada ainult ühe konto struktuuri.
 

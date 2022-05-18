@@ -9,12 +9,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: whigginb
 ms.search.validFrom: 2021-09-03
-ms.openlocfilehash: cd033cfc3df21ddac5572aa70c18db5ffe26f54e
-ms.sourcegitcommit: 0abc777986112ea2332f5bf0e815b303b952356c
+ms.openlocfilehash: 26b2821f33ea23dde1fda1d461baa5de1b4f9efc
+ms.sourcegitcommit: d70f66a98eff0a2836e3033351b482466bd9c290
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8656799"
+ms.lasthandoff: 05/11/2022
+ms.locfileid: "8740648"
 ---
 # <a name="service-description-for-finance-and-operations-apps"></a>Finantside ja toimingute rakenduste teenuse kirjeldus
 
@@ -265,7 +265,7 @@ Kliendi rentnikuadministraator pääseb juurde tootmiseksemplaridele või mittet
 |---|---|---|
 | **Mitte-tootmine**<br>Järgu 1 liivakast | Mittetootmiskeskkond, mida kliendid juurutavad arendus-, demo- või koolitusotstarbel. | Järgu 1 liivakast (mida nimetatakse ka pilve hostimise keskkonnaks) on kliendi hallatud VM, mis juurutatakse kliendi Azure'i kordustellimusele LCS-is. Kuna see on VM kliendi Azure'i kordustellimuses, on kliendil kaugtöölaua kaudu täielik haldusjuurdepääs keskkonnale. |
 | **Mitte-tootmine**<br>2. järgu (või uuem) liivakast | Mittetootmiskeskkond, mille kliendid juurutavad kasutaja aktsepteerimise testimiseks, integratsiooni testimiseks, koolituseks, paigutamiseks või muuks eeltootmisstsenaariumiks. | Järgu 2 ja kõrgemad kaustad juurutatakse Finantside ja toimingute SaaS-i kordustellimusele. Juurdepääs Azure SQL-andmebaasidele mis on seotud mittetootmiskeskkonnaga, antakse [reaalajas juurdepääsu kaudu](../../dev-itpro/database/database-just-in-time-jit-access.md). Kaugtöölaua juurdepääs pole saadaval. |
-| **Tootmine** | Tootmiskeskkond juurutatakse siis, kui projekt [on valmis esialgseks otseülekanneks](/imp-lifecycle/environment-planning.md#production-system-readiness). | Tootmiskeskkonnad juurutatakse SaaS-i kordustellimusele. Kogu juurdepääs läbib brauseri, teenuse lõpp-punktid või LCS-i. |
+| **Tootmine** | Tootmiskeskkond juurutatakse siis, kui projekt [on valmis esialgseks otseülekanneks](../imp-lifecycle/environment-planning.md#production-system-readiness). | Tootmiskeskkonnad juurutatakse SaaS-i kordustellimusele. Kogu juurdepääs läbib brauseri, teenuse lõpp-punktid või LCS-i. |
 
 ### <a name="microsoft-administrative-access"></a>Microsoft`i haldusjuurdepääs
 
@@ -286,7 +286,7 @@ Microsoft`il on palju abivahendeid klientide tootmiseksemplaride jälgimiseks ja
 |---|---|
 | <ul><li>Saate jälgida teenuse kättesaadavust.</li><li>Jälgige ja teavitage pidevalt tervisemõõdustiku ja jälgija kaudu kriitiliste komponentide nagu Application Object Server (AOS), Batch, Data Import/Export Framework (DIXF), Commerce ja Management Reporter.</li><li>Jälgige jõudluse halvenemist, mis on põhjustatud infrastruktuuriteenustest (nagu näiteks Azure Active Directory \[Azure AD\] ja Azure SQL).</li><li>Kui Microsoft määratleb, et aberratsioone põhjustab üks protsess või pakett-töö, lõpetatakse see protsess või töö pärast kliendiga suhtlemist.</li></ul> | <ul><li>Saate jälgida rakenduse konfiguratsioonide ja laienduste muudatusi, mis võivad põhjustada funktsiooni- ja jõudlusprobleeme.</li><li>Rakendusvead tuleb seiretööriistade abil diagnoosida. Kasutage neid tööriistu kasutaja teatatud jõudluse aberratsioonide diagnoosimiseks.</li><li>Teavitage Microsoft`i, kui süsteemis on oodatud koormust peale eeldatava tippkasutuse.</li><li>Kui rakendatav teenus ei ole tootmiseksemplari puhul saadaval, saab klient kasutada LCS-i [tootmisestaaži aruandeks](../../dev-itpro/lifecycle-services/report-production-outage.md).</li></ul> |
 
-Kui soovite tugitaotlusi LCS-i kaudu võrgus esitada, saavad kliendid Microsoft`il anda kõige efektiivsemal ja tõhusal viisil kiireid ja sügavu tehnilisi teadmisi. Ehkki telefonivalik on saadaval, tuleks seda kasutada ainult siis, kui võrguvalik ei ole saadaval. Lisateabe saamiseks vt [Telefoniteenuse suvandid](/power-platform/admin/support-overview.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json#is-there-a-phone-number-i-can-call-to-contact-support).
+Kui soovite tugitaotlusi LCS-i kaudu võrgus esitada, saavad kliendid Microsoft`il anda kõige efektiivsemal ja tõhusal viisil kiireid ja sügavu tehnilisi teadmisi. Ehkki telefonivalik on saadaval, tuleks seda kasutada ainult siis, kui võrguvalik ei ole saadaval. Lisateabe saamiseks vt [Telefoniteenuse suvandid](/power-platform/admin/support-overview?toc=%2Fdynamics365%2Ffin-ops-core%2Fdev-itpro%2Ftoc.json&bc=%2Fdynamics365%2Fbreadcrumb%2Ftoc.json#is-there-a-phone-number-i-can-call-to-contact-support).
 
 ## <a name="incident-management"></a>Juhtumite haldamine
 

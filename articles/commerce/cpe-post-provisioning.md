@@ -2,7 +2,7 @@
 title: Dynamics 365 Commerce'i hindamiskeskkonna konfigureerimine
 description: Selles teemas selgitatakse, kuidas konfigureerida rakenduse Microsoft Dynamics 365 Commerce hindamiskeskkonda, kui see on ette valmistatud.
 author: psimolin
-ms.date: 12/10/2021
+ms.date: 05/12/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5883a6e68628d706fa19d7d23b68f17007c32890
-ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
+ms.openlocfilehash: d9738700ca495d54c91ad91aa9c5a3d32c95a5a5
+ms.sourcegitcommit: 4a973ac0e7af0176270a8070a96a52293567dfbf
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/11/2021
-ms.locfileid: "7913723"
+ms.lasthandoff: 05/13/2022
+ms.locfileid: "8747633"
 ---
 # <a name="configure-a-dynamics-365-commerce-evaluation-environment"></a>Dynamics 365 Commerce'i hindamiskeskkonna konfigureerimine
 
@@ -39,7 +39,9 @@ Pärast seda, kui teie Commerce'i hindamiskeskkond on täielikult ettevalmistatu
 1. Valige loendist oma keskkond.
 1. Valige paremal olevast keskkonna teabest **Keskkonda sisselogimine**. Teid suunatakse Commerce'i peakontorisse.
 1. Veenduge, et **USRT** juriidiline isik on valitud ülemises parempoolses nurgas.
-2. Minge konfiguratsiooniparameetrite > ja veenduge, et **parameetri** **ProductSearch.UseAzureSearch kirje** on seatud **tõeseks**. Kui see kirje puudub, saate lisada selle kirje ja käivitada **kanali andmebaasi > Oma eCommerce'i veebisaidiga seotud Commerce Scalei üksuse** Jaoks Kanali andmebaas.
+1. Minge Commerce'i **parameetrite \> konfiguratsiooniparameetritele** **ja veenduge, et productSearch.UseAzureSearch** oleks kirje ja et väärtuseks on seatud **Tõene**. Kui see kirje puudub, saate selle lisada, **·** **seada väärtuseks Tõene ja seejärel valida kanali \>** andmebaasi andmete täielik sünkroonimine commerce Scale Uniti jaoks, mis on seotud teie e-äri veebisaidiga.
+1. Minge rakenduse **Retail ja Commerce \> Headquarters häälestamise rakenduse \> Commerce andmeedastaja \> lähtestamiseks**. Menüüs Lähtesta **äriedastaja** väljaminek seadke suvandi **Kustuta olemasolev konfiguratsioon väärtuseks** Jah **ja** seejärel valige **OK**.
+1. Kanalite lisamiseks Commerce Scale Unitile minge **Rakenduse Retail ja Commerce \> Headquarters \> häälestamise rakenduse Commerce andmeedastaja \> kanali** andmebaasi ja valige vasakul paanil Commerce Scale Unit. Jaemüügikanali **kiirkaardil** lisage **AW-e-pood**, **AW Businesse e-pood** ja **Fabrikami laiendatud võrgupoe kanalid**. Valikuna saate lisada ka jaekauplusi, kui kasutate kassat (nt Seattle, **San Maria** ja **SanTagem**). **·**
 
 Commerce'i peakontori ettevalmistusjärgsete tegevuste käigus veenduge, et juriidiline isik **USRT** oleks alati valitud.
 
@@ -85,6 +87,7 @@ Et alustada oma hindamise saidi seadistamist Commerce'is, toimige järgmiselt.
 1. Vaikekeeleks valige **en-us**.
 1. Jätke välja **tee** väärtus nii, nagu see on.
 1. Valige nupp **OK**. Kuvatakse saidi lehtede loend.
+1. Korrake samme 2–7 **AdventureWorks** saidi puhul (**mis vastendab AW** võrgupoe kanaliga) **AdventureWorks ja Ettevõtte** saidiga (mis **vastendab AW Businessi võrgupoe kanalile**). **Kui** Fabrikami saidi tee väli on tühi, AdventureWorks peate lisama teed kahele saidile (nt awbusiness").
 
 ## <a name="enable-jobs"></a>Tööde lubamine
 
@@ -107,7 +110,7 @@ Commerce’is tööde lubamiseks tehke järgmist.
     1. Tegumiribal valikus **Pakett-töö**, klõpsake **Muuda olekut**.
     1. Valige **Tühistamine** ja seejärel valige **OK**.
 
-1. Kui töö olek on **Kinnipeetud,** järgige neid samme.
+1. Kui töö olek on Kinnipeetud **, järgige** neid samme.
 
     1. Vali kirje.
     1. Tegumiribal valikus **Pakett-töö**, klõpsake **Muuda olekut**.
@@ -149,6 +152,28 @@ Teavet selle kohta, kuidas Commerce’i hindamiskeskkonna valikulisi funktsioone
 
 > [!NOTE]
 > Commerce'i hindamiskeskkonnad on eellaaditud Azure Active Directory (Azure AD) ettvõttelt tarbijale (B2C) rentnikule demo eesmärgil. Oma Azure AD B2C rentniku konfigureerimine ei ole hindamiskeskkondade jaoks vajalik. Kui aga konfigureerite hindamiskeskkonda oma Azure AD B2C rentniku kasutamiseks, lisage ``https://login.commerce.dynamics.com/_msdyn365/authresp`` see Azure AD Azure Portaali kaudu B2C-rakendusele vastuse URL-ina.
+
+## <a name="troubleshooting"></a>Tõrkeotsing
+
+### <a name="site-builder-channel-list-is-empty-when-configuring-site"></a>Saidikonstruktori kanaliloend on saidi konfigureerimisel tühi.
+
+Kui saidikonstruktoril ei ole ühtegi võrgupoe kanalit, veenduge peakontoris, et kanalid on Commerce Scale Uniti [lisatud, nagu on kirjeldatud jaotises Enne kui alustate](#before-you-start). Samuti käivitage **Lähtesta äriajasti**, nii et Kustuta **olemasolev konfiguratsiooni** väärtus on seatud väärtusele **Jah**.  Kui need sammud on läbitud, **käivitage** Kanali andmebaasi lehel (**Retail ja Commerce \> Headquartersi \> häälestus Commerce Scheduler \> Channeli** andmebaas) **9999-töö** Commerce Scale Unitis.
+
+### <a name="color-swatches-are-not-rendering-on-the-category-page-but-are-rendering-on-the-product-details-page-pdp-page"></a>Värvitoonid ei renderda kategoorialehel, vaid renderdavad toote üksikasjade lehel (PDP).
+
+Järgige neid samme, et veenduda, et värvi- ja suuruseatriisid on võimalik täpsustada.
+
+1. Minge peakontoris jaemüügi ja **ärikanali häälestuse \> kanali kategooriatesse \> ja toote atribuutidesse**.
+1. Valige vasakul paanil võrgupoe kanal ja seejärel valige atribuudi metaandmete **komplekt**.
+1. Seadke kanali **suvandi Näita atribuuti** valikule **Jah**, seadke **valiku Saab täiustada valikuks** **Jah** ja seejärel valige suvand **Salvesta**. 
+1. Minge tagasi võrgupoe kanali lehele ja valige suvand Avalda **kanali värskendused**.
+1. Minge Rakenduse **Retail ja Commerce \> Headquarters häälestamise rakenduse \> Commerce andmeedastaja \> kanali** **andmebaasi ja käitage 9999-töö** Commerce Scale Unitis.
+
+### <a name="business-features-dont-appear-to-be-turned-on-for-the-adventureworks-business-site"></a>Ärifunktsioonid ei ole ettevõtte saidi puhul sisse lülitatud AdventureWorks.
+
+Kontrollige peakontoris, et võrgupoe kanal on konfigureeritud **B2B-le** häälestatud **klienditüübiga**. Kui kliendi **tüübiks** on seatud **B2C**, tuleb luua uus kanal, kuna olemasolevat kanalit ei saa redigeerida. 
+
+Commerce versioonis 10.0.26 tarnitud demoandmetel oli varem viga **, kus AW Businessi võrgupoe** kanal konfigureeriti valesti. Lahenduseks on luua uus kanal, **millel** on samad sätted ja konfiguratsioonid, v.a kliendi tüüp, mis tuleks seadistada **B2B-le**.
 
 ## <a name="additional-resources"></a>Lisaressursid
 

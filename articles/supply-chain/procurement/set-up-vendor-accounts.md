@@ -1,7 +1,7 @@
 ---
 title: Hankijakontode seadistamine
 description: See teema kirjeldab teabetüüpe, mida peate määrama, kui loote uue hankijakonto.
-author: Henrikan
+author: GalynaFedorova
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 191053
 ms.assetid: 06168199-7c54-40e9-a038-4eb274ca958d
 ms.search.region: Global
-ms.author: henrikan
+ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b9cbfd3a3c1afd794814bbbae07e1dc31eb9f181
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 5d524ff99cba733fdd607d9708abba440248d6cc
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565467"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8676970"
 ---
 # <a name="set-up-vendor-accounts"></a>Hankijakontode seadistamine
 
@@ -63,7 +63,7 @@ Hankija kontaktid saate luua nullist. Teise võimalusena saate kopeerida üksika
 
 Te ei saa kustutada kontaktiisiku kirjet, kui kontaktidel on dokumendis viidatud. Selle asemel saate kontakti inaktiveerida.  
 
-Rakenduses Microsoft 365 saate lisada hankija kontaktid oma isiklikesse kontaktidesse. Siiski peate enne seadistama sünkroonimise rakenduste Supply Chain Management ja Microsoft 365 vahel nii Microsoft Exchange Serveri sünkroonimises kui ka Microsoft Outlooki seadistusviisardis.
+Rakenduses Microsoft 365 saate lisada isiklikele kontaktidele hankija kontakte. Siiski peate esmalt seadistama sünkroonimise rakenduste Supply Chain Management ja Microsoft 365 vahel nii Microsoft Exchange Serveri sünrkoonimises kui ka Microsoft Outlooki seadistusviisardis.
 
 ## <a name="vendors-in-different-legal-entities"></a>Hankijad erinevates juriidilistes isikutes
 Kui hankija on registreeritud teie organisatsioonis ainult ühele juriidilisele isikule ja teised juriidilised isikud peavad registreerima sama hankija, saate kasutada lehte **Lisa hankija teise juriidilisse isikusse**, et konfigureerida hankija tegema äri teise juriidilise isikuga. Peate valima hankija grupi, valuuta ja hoidma hankija olekut valitud juriidilises isikus.  

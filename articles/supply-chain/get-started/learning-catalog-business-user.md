@@ -1,23 +1,23 @@
 ---
 title: Õppekataloog Dynamics 365 Supply Chain Managementi kasutajatele
 description: Siit leiate kõik koolitusvõimalused Dynamics 365 Supply Chain Managementi kasutajatele.
-author: margoc
+author: kamaybac
 ms.topic: article
 ms.date: 07/27/2020
-ms.author: margoc
+ms.author: kamaybac
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: margoc
+ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: fe547f6e224a072301a4d846f1a2867b70c86da3
-ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
+ms.openlocfilehash: a8324fe183efd956fa39ddd97f562e4c33630580
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "7402662"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8673182"
 ---
 # <a name="learning-catalog-for-users-of-dynamics-365-supply-chain-management"></a>Õppekataloog Dynamics 365 Supply Chain Managementi kasutajatele
 
@@ -31,7 +31,7 @@ Järgnev kataloog hõlmab üld- ja valdkonnapõhiseid teadmisi nii baas- kui ka 
 |---------|-------------|--------|--------|
 | [Microsoft Dynamics 365 ja Power Platformi äriväärtustega tutvumine](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | Kas olete huvitatud ärirakendustest? Kas te pole kindel, kuidas alustada Microsoft Dynamics 365 ja Power Platformi rakenduste kasutamist? Õppige, kuidas ärirakenduste kasutamine võib aidata teil oma ettevõtet muuta. | Tasuta iseläbitav internetipõhine õppetee | 8 tundi |
 | [Dynamics 365 ja Power Platformi põhisätted](/learn/paths/dyn-power-plat-bus-app-fundamentals/) | Kas olete huvitatud ärirakendustest? Alustage sellest õppeteest, et näha, kuidas Dynamics 365 rakendusi kasutatakse. Siit leiate teavet pilvkeskkonna kontseptsioonide, Power Platformi ja Dynamics 365 rakendustega töötamise alustamise kohta. | Tasuta iseläbitav internetipõhine õppetee | 5.5 tundi |
-| [Finance and Operationsi rakenduste kasutamise alustamine](/learn/paths/get-started-finance-operations/) | Siit leiate teavet selle kohta, kuidas Finance and Operationsi rakendused toetavad ettevõtteid globaalsete finantssüsteemide, tööprotsesside ja sujuvate tarneahelate haldamisel, et võimaldada kiirete ja teadlike otsuste tegemist. Esimese sammuna Finance and Operationsi rakendustega töötamisel peate tutvuma selle funktsioonidega, sõltumata teie rollist. | Tasuta iseläbitav internetipõhine õppetee | 2 tundi |
+| [Finantside ja toimingute rakendustega alustamine](/learn/paths/get-started-finance-operations/) | Vaadake, kuidas finantside ja toimingute rakendused toetavad ettevõtteid globaalsete finantssüsteemide, äriprotsesside ja sujuvate tarneahelate haldamiseks, et volitada inimesi tegema kiireid, teavitatud otsuseid. Esimese sammuna finantside ja toimingute rakendustega töötamise karjääri jooksul peate tutvuma selle funktsioonide ja funktsioonidega, olenemata sellest, milline on teie soovitud roll. | Tasuta iseläbitav internetipõhine õppetee | 2 tundi |
 | [Alustage Dynamics 365 Supply Chain Managementis varahalduse kasutamist](/learn/modules/get-started-asset-management/index) | Varahaldus on moodul varade ja hooldustööde haldamiseks rakenduses Dynamics 365 Supply Chain Management. Varahaldus võimaldab teil tõhusalt hallata ja täita ülesandeid, mis on seotud paljude eri tüüpi seadmete, näiteks masinate, tootmisseadmete ja sõidukite, haldamise ja hooldamisega teie ettevõttes. Varahaldus toetab lahendusi paljudes tööstusharudes. | Tasuta iseläbitav internetipõhine õppemoodul | 1 tund |
 | [Alustage tehniliste muudatuste halduse lisandmooduliga rakendusele Dynamics 365 Supply Chain Management](/learn/modules/get-started-engineering-change-management/) | Dynamics 365 Supply Chain Management annab töötajatele ja organisatsioonidele võimaluse saada ühtlustatud ülevaade varudest, laost, tootmisest, teenusest ja logistikast ennustava analüüsi abil, mis loob andmetest ülevaated paremate strateegiliste otsuste toetamiseks. | Tasuta iseläbitav internetipõhine õppemoodul | 2 tundi |
 | [Dynamics 365 Intelligent Order Managementi kasutamise alustamine](/learn/modules/get-started-intelligent-order-management/) | Dynamics 365 Intelligent Order Managementi abil saavad kliendid hallata tellimuste korraldamist täitmise kaudu. Need võimalused võimaldavad organisatsioonidel korraldada tellimuse voogusid erinevate platvormide ja rakenduste kaudu. | Tasuta iseläbitav internetipõhine õppemoodul | 4 tundi |
@@ -41,8 +41,8 @@ Järgnev kataloog hõlmab üld- ja valdkonnapõhiseid teadmisi nii baas- kui ka 
 
 | Sisu | Kirjeldus | Vorming | Pikkus |
 |---------|-------------|--------|--------|
-| [Organisatsiooni konfigureerimine Finance and Operationsi rakendustes](/learn/paths/configure-your-organization-finance-ops/) | Finance and Operationsi rakendustega töötava funktsionaalse konsultandina peate mõistma, kuidas oma kliendi organisatsiooni seadistada. See õppetee näitab teile muu hulgas, kuidas häälestada juriidilisi isikuid, rakendada turvasätteid, isikupärastada kasutajaliidest kasutajate jaoks, kujundada ja luua mobiilirakendusi ning rakendada ühiseid integratsioone. | Tasuta iseläbitav internetipõhine õppetee | 12 tundi |
-| [Analüütika ja aruandluse konfigureerimine ja nendega töötamine Finance and Operationsi rakendustes](/learn/paths/configure-analytics-reporting-finance-operations/) | Ärijuhid saavad oma ettevõttes teha olulisi otsuseid, kui neil on täpne ülevaade aluseks olevatest finants- ja tööandmetest. Ärikasutaja saab ka konfigureerida ja kasutada elektroonilise aruandluse tööriista ilma ühtegi rida koodi kirjutamata, et võtta vastu uusi regulatiivseid nõudeid ja luua äridokumente nõutavas vormingus, et vahetada elektrooniliselt teavet valitsusasutuste, pankade ja teiste osapooltega. | Tasuta iseläbitav internetipõhine õppetee | 4 tundi |
+| [Konfigureerige oma organisatsioon finantside ja toimingute rakendustes](/learn/paths/configure-your-organization-finance-ops/) | Funktsiooninõustajana, kes töötab finantside ja toimingute rakendustega, peate aru saama, kuidas oma kliendile organisatsiooni seadistada. See õppetee näitab teile muu hulgas, kuidas häälestada juriidilisi isikuid, rakendada turvasätteid, isikupärastada kasutajaliidest kasutajate jaoks, kujundada ja luua mobiilirakendusi ning rakendada ühiseid integratsioone. | Tasuta iseläbitav internetipõhine õppetee | 12 tundi |
+| [Finantside ja toimingute rakenduste analüüsi ja aruandluse konfigureerimine ja aruandlus](/learn/paths/configure-analytics-reporting-finance-operations/) | Ärijuhid saavad oma ettevõttes teha olulisi otsuseid, kui neil on täpne ülevaade aluseks olevatest finants- ja tööandmetest. Ärikasutaja saab ka konfigureerida ja kasutada elektroonilise aruandluse tööriista ilma ühtegi rida koodi kirjutamata, et võtta vastu uusi regulatiivseid nõudeid ja luua äridokumente nõutavas vormingus, et vahetada elektrooniliselt teavet valitsusasutuste, pankade ja teiste osapooltega. | Tasuta iseläbitav internetipõhine õppetee | 4 tundi |
 
 ## <a name="supply-chain-management"></a>Hankeahela haldamine<a name="supply-chain-management"></a>
 

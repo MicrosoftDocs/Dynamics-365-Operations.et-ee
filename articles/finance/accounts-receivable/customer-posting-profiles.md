@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CustPosting, CustVendExternalItem
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 24651
 ms.assetid: cb82245e-8c02-429c-b36e-8db0e3e6f7e5
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 91432a401a8f8a499e9f5e2bbe7157408faac822
-ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
+ms.openlocfilehash: 1ed5ab24e37c75222080bd242aa72a39ecb476bf
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952567"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734628"
 ---
 # <a name="customer-posting-profiles"></a>Kliendi sisestusreeglid
 
@@ -32,7 +32,7 @@ Selles teemas kirjeldatakse kliendi sisestusprofiile, mis kontrollivad kliendika
 
 Kliendi sisestusreeglid lasevad teil määrata pearaamatukontosid ja dokumendisätteid kõigile klientidele, kliendigrupile või ühele kliendile. Neid sätteid kasutatakse müügitellimuste arvete, vabas vormis arvete, projektiarvete, maksetöölehtede, märgukirjade ja viivisearvete loomisel. 
 
-Vaike-sisestusreeglid määratletakse **müügireskontro parameetrite lehe vahekaardil** **Pearaamat ja** Käibemaks. See kaasatakse seejärel automaatselt uute dokumentide päisesse. Saate seda seal muuta, kui on vaja erinevaid sisestusprofiile. 
+Vaike-sisestusreeglid määratletakse müügireskontro **parameetrite** lehe **vahekaardil Pearaamat ja** Käibemaks. See kaasatakse seejärel automaatselt uute dokumentide päisesse. Saate seda seal muuta, kui on vaja erinevaid sisestusprofiile. 
 
 Organisatsioonid, mis aktsepteerivad klientide ettemakseid, konfigureerivad sageli ettemaksete jaoks teist sisestusreeglit ja lingivad selle parameetrites ettemaksude vaike sisestusreeglina. Lisateavet vt kliendi [ettemaksetest](customer-prepayments.md).
 
@@ -47,7 +47,7 @@ Määrake kannete sisestamisel kasutatavad pearaamatukontod, mis kasutavad valit
 | Grupeeri                    | Kliendigrupp, mis on kliendile määratud | 2               |
 | Kõik                      | Tühi                                           | 3               |
 
-Kui soovite, et kõigil kliendikannetel oleks sama sisestusr reeglid, seadistage ainult üks sisestusr reeglid, kus väljale **Konto** kood sisestatakse **kõik**. Määrake sisestusreeglite seadistamiseks järgmised väärtused.
+Kui soovite, et kõigil kliendikannetel oleks sama sisestusr reeglid, seadistage ainult üks sisestusr reeglid, **kus** väljale Konto **kood sisestatakse** kõik. Määrake sisestusreeglite seadistamiseks järgmised väärtused.
 
 <table>
 <thead>
@@ -69,7 +69,7 @@ Kui soovite, et kõigil kliendikannetel oleks sama sisestusr reeglid, seadistage
 <td>Konto kood</td>
 <td>Määrake, kas sisestusreegleid rakendatakse üksikule kliendile, kliendigrupile või kõikidele klientidele.
 <ul>
-<li><b>Tabel</b> – sisestusreeglid rakenduvad ühele kliendile. Valige kliendikonto väljal <b>Konto/grupi</b> number.</li>
+<li><b>Tabel</b> – sisestusreeglid rakenduvad ühele kliendile. Valige kliendikonto väljal <b>Konto/grupi number</b>.</li>
 <li><b>Grupp</b> – sisestusreeglid rakenduvad kliendigrupile. Valige kliendigrupp väljal <b>Konto/grupi</b> number.</li>
 <li><b>Kõik</b> – sisestusreeglid rakenduvad kõigile klientidele. Jätke väli <b>Konto/grupi number</b> tühjaks.</li>
 </ul>
@@ -77,11 +77,11 @@ Kui soovite, et kõigil kliendikannetel oleks sama sisestusr reeglid, seadistage
 </tr>
 <tr>
 <td>Konto/grupi number</td>
-<td>Kui väljal Konto kood on valitud väärtus Tabel, saate <b>valida</b><b></b> sisestusreeglitega seotud kliendi kontonumbri. Kui <b>grupp</b> on valitud, valige kliendigrupp. Kui on valitud väärtus <b>Kõik</b>, jätke see väli tühjaks.</td>
+<td><b>Kui</b> väljal Konto kood on <b>valitud</b> väärtus Tabel, saate valida sisestusreeglitega seotud kliendi kontonumbri. Kui <b>grupp</b> on valitud, valige kliendigrupp. Kui on valitud väärtus <b>Kõik</b>, jätke see väli tühjaks.</td>
 </tr>
 <tr>
 <td>Summakonto</td>
-<td>Valige põhikonto, mida kasutatakse sisestusreeglitega seotud klientide Müügireskontro kaubanduskontona. See konto on kliendi saldo <b></b> sisestamistüübi konto.</td>
+<td>Valige põhikonto, mida kasutatakse sisestusreeglitega seotud klientide Müügireskontro kaubanduskontona. See konto on kliendi saldo sisestamistüübi <b></b> konto.</td>
 </tr>
 <tr>
 <td>Maksete likviidsuskonto</td>
@@ -90,7 +90,7 @@ Kui soovite, et kõigil kliendikannetel oleks sama sisestusr reeglid, seadistage
 <tr>
 <td>Käibemaksu ettemaksed</td>
 <td><p>Valige ettemaksuna saadud maksete käibemaksu jaoks kasutatav konto.</p>
-<p><strong>Märkus:</strong> kasutage lehte Müügireskontro parameetrid, et määrata sisestusreeglid, mida <b></b> kasutatakse, kui makse on märgitud ettemaksuks.</p>
+<p><strong>Märkus:</strong> kasutage lehte <b>Müügireskontro parameetrid</b>, et määrata sisestusreeglid, mida kasutatakse, kui makse on märgitud ettemaksuks.</p>
 </td>
 </tr>
 <tr>
@@ -110,12 +110,12 @@ Kui soovite, et kõigil kliendikannetel oleks sama sisestusr reeglid, seadistage
 
 ## <a name="posting-examples"></a>Sisestamisnäited
 
-Järgmine tabel näitab vaikimisi sisestamistüüpide näiteid koos näidis põhikontode ja kirjeldustega. Veerg **Deebet**/Kreedit näitab, kas kannet saab tavaliselt sisestada kas Deebet või Kreedit või mõnel juhul. **Kliiringukonto** veerg näitab, et sisestamistüüp on kliiringukonto. See tähendab, et hilisema kande sisestamisel tühistatakse kontole sisestatud summa automaatselt. 
+Järgmine tabel näitab vaikimisi sisestamistüüpide näiteid koos näidis põhikontode ja kirjeldustega. Veerg **Deebet/Kreedit** näitab, kas kannet saab tavaliselt sisestada kas Deebet või Kreedit või mõnel juhul. Kliiringukonto **veerg** näitab, et sisestamistüüp on kliiringukonto. See tähendab, et hilisema kande sisestamisel tühistatakse kontole sisestatud summa automaatselt. 
 
 | Sisestamistüüp | Põhikonto näide | Põhikonto nime näide | Konto tüüp | Deebet/krediit | Kliiringukonto | Kirjeldus |
 |--------------|----------------------|---------------------------|--------------|--------------|------------------|-------------|
-| Kliendi saldo | 130100 | Müügireskontro kaubandus | Vara | Mõlemad | Ei | Määratlege konto **summakonto** väljal.|
-| Pole | 110110 | Pangakonto | Vara | Mõlemad | Ei | Määrake maksete likviidsuskonto **väljal** põhikonto. Seda kontot ei kasutata sisestamiseks. Seda kasutatakse ainult likviidsuse prognoosimiseks. |
+| Kliendi saldo | 130100 | Müügireskontro kaubandus | Vara | Mõlemad | Nr | Määratlege konto summakonto **väljal**.|
+| Pole | 110110 | Pangakonto | Vara | Mõlemad | Nr | Määrake maksete likviidsuskonto **väljal põhikonto**. Seda kontot ei kasutata sisestamiseks. Seda kasutatakse ainult likviidsuse prognoosimiseks. |
 | Käibemaksu ettemaksed | 202900 | Käibemaksu puhastamine | Kohustus | Mõlemad | Jah | Valige ettemaksuna saadud maksete käibemaksu jaoks kasutatav konto. |
 | Passiva allahindluse kontole | 250600 | Viittulu ja allahindlused | Kohustus | Mõlemad | Jah | Valige allahindluse passiva pearaamatukonto.|     
 
@@ -127,10 +127,10 @@ Määrake sisestusreeglite seadistamiseks järgmised väärtused.
 
 | Väli                 | Kirjeldus                                           |
 |-----------------------|-------------------------------------------------------|
-| Tasakaalustus        | Tehke see valik nende sisestusreeglitega kannete automaatse tasakaalustamise lubamiseks. Kui see tumblerlüliti on tühjendatud, tuleb kanded käsitsi tasakaalustada, kasutades lehte Avatud kannete **tasakaalustamine** või **Kliendimaksete** sisestamine. |
+| Tasakaalustus        | Tehke see valik nende sisestusreeglitega kannete automaatse tasakaalustamise lubamiseks. Kui see tumblerlüliti on tühjendatud, tuleb kanded käsitsi tasakaalustada, kasutades lehte Avatud **kannete** tasakaalustamine või **Kliendimaksete sisestamine**. |
 | Viivis          | Tehke see valik, kui neid sisestusreegleid kasutavate kliendikontode puhul tuleks arvestada intressi. Kui see valik on eemaldatud, siis nende klientide puhul intressi ei arvutata.                                           |
 | Märgukiri | Tehke see valik, kui neid sisestusreegleid kasutavate kliendikontode puhul tuleks koostada märgukirjad. Kui see valik on eemaldatud, siis nende klientide puhul märgukirju ei koostata.                                                 |
-| Sule             | Valige sisestusreeglid, millele üle minna, kui nende sisestusreeglitega kanded suletakse. Kanne loetakse suletuks, kui see on täielikult tasakaalustatud.             |
+| Sulge             | Valige sisestusreeglid, millele üle minna, kui nende sisestusreeglitega kanded suletakse. Kanne loetakse suletuks, kui see on täielikult tasakaalustatud.             |
 
 
 

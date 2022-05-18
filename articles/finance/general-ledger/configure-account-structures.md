@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerEliminationRule
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 13131
 ms.assetid: 08fd46ef-2eb8-4942-985d-40fd757b74a8
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cc9219009991cce3f4df9c6f7e04903f5625dd80
-ms.sourcegitcommit: b2fe67e2fe6a99a35decb04c8d62efd1e94fe1b8
+ms.openlocfilehash: c775703047f4d2ccf2b1c35e2810c015ee1c1506
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/22/2021
-ms.locfileid: "7945537"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8722600"
 ---
 # <a name="configure-account-structures"></a>Konto struktuuride konfigureerimine
 
@@ -79,7 +79,7 @@ Töölehte sisestades ning kasumi ja kahjumi vahemikust kontot valides määrab 
 
 ## <a name="more-than-7-criteria-needed"></a>Rohkem kui 7 kriteeriumit
 
-Kui teil on vaja rohkem kui 7 kriteeriumit, saate nende lisamist jätkata järgmisel real. Kui töötate jaotises Lubatud väärtuse üksikasjad, siis teate, et pärast sisestatud seitsmes kriteeriumi sisestamist pole +Lisa uued **kriteeriumid** enam **aktiivsed**. Seda mõjutavad järgmised tegurid. 
+Kui teil on vaja rohkem kui 7 kriteeriumit, saate nende lisamist jätkata järgmisel real. Kui töötate jaotises Lubatud väärtuse **üksikasjad**, siis teate, **et pärast** sisestatud seitsmes kriteeriumi sisestamist pole +Lisa uued kriteeriumid enam aktiivsed. Seda mõjutavad järgmised tegurid. 
  - Veeru laius 
  - Kuidas andmeid talletatakse 
  - Juhtelemendi **Lubatud väärtuse üksikasjad** jõudlus

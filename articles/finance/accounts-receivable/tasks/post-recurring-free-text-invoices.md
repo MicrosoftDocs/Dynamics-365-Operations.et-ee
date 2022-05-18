@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: SysLookupMultiSelectGrid, CustRecurrenceInvoiceGroup, CustFreeInvoice, CustRecurrenceInvoiceTotals
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3d30dd5ba29ee34784921047627642644c0c4ab2
-ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
+ms.openlocfilehash: 0e9e579c0b7782e4262093a1acc0e23f4f77d6c9
+ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8182475"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8719715"
 ---
 # <a name="generate-and-post-recurring-free-text-invoices"></a>Korduvate vabas vormis arvete genereerimine ja sisestamine
 
@@ -30,7 +30,7 @@ Korduvaid arveid kasutatakse klientidele regulaarselt sama summa arveldamiseks. 
 ## <a name="generate-recurring-invoices"></a>Loo korduvad arved
 
 ## <a name="post-recurring-invoices"></a>Korduvate arvete sisestamine
-1. Avage korduvate **arvete >, > korduvad > korduvad arved**.
+1. Avage korduvate **arvete > müügireskontro >, > korduvate arvete sisestamine**.
     * Kasutage seda lehte juba loodud korduvate arvete vaatamiseks ja printimiseks.  
 2. Klõpsake loendis valitud real olevat linki.
     * Valige korduva arve grupp.  

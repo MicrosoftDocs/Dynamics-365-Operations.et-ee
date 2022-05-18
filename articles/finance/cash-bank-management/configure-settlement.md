@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CustOpenTrans, CustParameters, VendOpenTrans, VendParameters
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 14601
 ms.assetid: 6b61e08c-aa8b-40c0-b904-9bca4e8096e7
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 323a1e6d426208a880a72dd89f7be04bacbf13a8e6c5d8ab7599217cfc18f2c0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 978c99ddd3e56e6699ab128a154a5594685d5956
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720570"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8712489"
 ---
 # <a name="configure-settlement"></a>Tasakaalustuse konfigureerimine
 
@@ -28,7 +28,7 @@ ms.locfileid: "6720570"
 
 Kuidas ja millal kanded tasakaalustatakse, võib olla keeruline teema, nii et on oluline, et mõistate ja määratlete õigesti oma ärinõuetele vastavad parameetrid. Selles teemas kirjeldatakse parameetreid, mida kasutatakse nii ostu- kui ka müügireskontro tasakaalustamiseks. 
 
-Järgmised parameetrid mõjutavad, kuidas tasakaalustusi Microsoft Dynamics 365 Finance'is töödeldakse. Tasakaalustus on arve makse või kreeditarvega tasakaalustamise protsess. Need parameetrid asuvad ala **Tasakaalustus** lehtedel **Müügireskontro parameetrid** ja **Ostureskontro parameetrid**.
+Järgmised parameetrid mõjutavad tasakaalustuste töötlemist Microsoft Dynamics 365 Finantsis. Tasakaalustus on arve makse või kreeditarvega tasakaalustamise protsess. Need parameetrid asuvad ala **Tasakaalustus** lehtedel **Müügireskontro parameetrid** ja **Ostureskontro parameetrid**.
 
 - **Automaatne tasakaalustus** – määrake see suvand valikule **Jah**, kui kanne tuleks tasakaalustada teiste avatud kannetega automaatselt kande sisestamisel. Kui see suvand on seatud valikule **Ei**, saavad kasutajad kandeid käsitsi tasakaalustada maksete sisestamisel või hiljem, kasutades lehte **Kannete tasakaalustamine**.
 - **Skonto haldamine** – määrake, kuidas [skontot arve ülemaksmisel käsitletakse](cash-discount-handling-overpayments.md). Ülemakse puhul saab skontot vähendada, käsitleda erinevusena või jätta selle hankija või kliendi kontole.

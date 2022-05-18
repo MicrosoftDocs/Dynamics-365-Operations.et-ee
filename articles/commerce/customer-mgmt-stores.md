@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 29e45419f712e25092b473e34144ac1146e4ed9b
-ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
+ms.openlocfilehash: 5a352ba479ca5e635ef521b99f31bd26d5d837ac
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/11/2021
-ms.locfileid: "7913622"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8687329"
 ---
 # <a name="customer-management-in-stores"></a>Kaupluste kliendihaldus
 
@@ -48,7 +48,7 @@ Müügiesindajad saavad hõivata kliendi kohta mitu aadressi. Kliendi nimi ja te
 
 [Asünkroonne kliendi loomise režiim](async-customer-mode.md)
 
-[Asünkroonsed kliendid teisendamine sünkroonsed kliendid](convert-async-to-sync.md)
+[Asünkroonsete klientide teisendamine sünkroonseteks klientideks](convert-async-to-sync.md)
 
 [Kliendi atribuudid](dev-itpro/customer-attributes.md)
 

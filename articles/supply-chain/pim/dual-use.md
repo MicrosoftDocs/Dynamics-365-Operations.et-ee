@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 21910c61cc330e0c9292990b7b1914f56bac844c
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 787d0c4ebcf83d6bfec05943f2bb0ddc5961a93a
+ms.sourcegitcommit: e18ea2458ae042b7d83f5102ed40140d1067301a
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570749"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8736029"
 ---
 # <a name="dual-use-goods"></a>Topeltkasutusega kaubad
 
@@ -34,7 +34,7 @@ Kaaluge järgmisi stsenaariume.
 2. Toote X-100 leht **Väljastatud toote üksikasjad** näitab, et see on topeltkasutusega toode. Kood, kategooria, grupp ja režiim koos näitavad ekspordi juhtimise klassifikatsiooni, kuhu see toode kuulub.
 3. Leht **Topeltkasutuse sertifikaadid** sisaldab toote X-100 sertifikaati, kui see saadetakse Prantsusmaale. See sertifikaat aegub 1. jaanuaril 2020.
 4. 17. juunil 2020, loote müügitellimuse Prantsusmaal asuva kliendi ettevõttele ja tellimus sisaldab toodet X-100.
-5. Kui salvestate müügitellimuse, määrab süsteem järgmise teabe.
+5. Müügitellimuse kinnitamisel määrab süsteem järgmise teabe:
 
     1. Kas tellimus sisaldab tooteid, mis on topeltkasutusega kaubad?
     2. Kui tellimus sisaldab topeltkasutusega kaupu, kas sihtriik nõuab topeltkasutuse sertifikaate?

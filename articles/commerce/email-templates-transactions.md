@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 4fd46ea161fb4441d94a9e7c7f7ffbfb245eb873
-ms.sourcegitcommit: 9c2bc045eafc05b39ed1a6b601ccef48bd62ec55
+ms.openlocfilehash: 08e247bac577dc0bb8a4635d61f0082793380da9
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7919497"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8722515"
 ---
 # <a name="create-email-templates-for-transactional-events"></a>Meilimallide loomine kandesündmuste jaoks
 
@@ -64,8 +64,8 @@ Pakkimise lõpetatud teatise tüüp toetab järgmisi täiendavaid meili kohatäi
 | ------------------- | ------- |
 | `pickupstorename`     | Kaupluse nimi, kus tellimus on pealevõtuks saadaval. |
 | `pickupstoreaddress`  | Kaupluse aadress, kus tellimus on pealevõtuks saadaval. |
-| `pickupstorehourfrom` | Pealekorje kaupluse lahtiolekuaeg. |
-| `pickupstorehourto`   | Pealekorje kaupluse sulgemisaeg. |
+| `pickupstoreopenfrom` | Pealekorje kaupluse lahtiolekuaeg. |
+| `pickupstoreopento` | Pealekorje kaupluse sulgemisaeg. |
 | `pickupchannelid`     | Pealekorje kaupluse kanali ID. |
 | `packingslipid`      | Pealekorje tellimuse saatelehe ID. |
 | `confirmationid`      | Pealekorje tellimuse kinnituse ID. (Seda ID-d nimetatakse vahel kanaliviite ID-ks.) |
@@ -102,7 +102,7 @@ Kinkekaardi väljastamise teatise tüüp toetab järgmisi täiendavaid kohatäit
 | Kohatäite nimi      | Eesmärk |
 | --------------------- | ------- |
 | `giftcardnumber`        | Kinkekaardi number kinkekaardi tüübi toodete puhul. |
-| `giftcardbalance`       | Kinkekaardi saldo kinkekaardi tüübi toodete puhul. |
+| `availablebalance` | Kinkekaardi järelejäänud saldo. |
 | `giftcardmessage`       | Kinkekaardi sõnum kinkekaardi tüübi toodete puhul. |
 | `giftcardpin`         | Kinkekaardi isiklik ID-number (PIN-kood) kinkekaardi tüübi toodete puhul. (See kohatäide on omane välistele kinkekaartidele.) |
 | `giftcardexpiration`    | Kinkekaardi aegumiskuupäev kinkekaardi tüübi toodete puhul. (See kohatäide on omane välistele kinkekaartidele.) |

@@ -1,29 +1,29 @@
 ---
-title: Perioodilised krediidihalduse ülesanded
-description: See teema kirjeldab perioodilisi toiminguid, mis on vajalikud klientide krediidilimiitide haldamise protsessis.
+title: Perioodilised kreedidihalduse ülesanded
+description: Selles teemas kirjeldatakse perioodilisi toiminguid, mis on osa klientide krediidilimiitide haldamise protsessist.
 author: JodiChristiansen
 ms.date: 09/04/2019
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschloma
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 398fcd9d45ce0ddfb1f7189e0712f9dac2db012f
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: 53b7cd00b3287f18ba65391842ac259ab2434b86
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7753503"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8735432"
 ---
 # <a name="periodic-credit-management-tasks"></a>Perioodilised kreedidihalduse ülesanded
 
 [!include [banner](../includes/banner.md)]
 
-See teema kirjeldab perioodilisi toiminguid, mis on vajalikud klientide krediidilimiitide haldamise protsessis.
+Selles teemas kirjeldatakse perioodilisi toiminguid, mis on osa klientide krediidilimiitide haldamise protsessist.
 
 ## <a name="update-risk-scores"></a>Värskenda riskiskoore
 

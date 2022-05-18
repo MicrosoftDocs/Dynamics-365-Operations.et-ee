@@ -8,25 +8,25 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: AssetLeaseLeaseImportHeader
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 534584a7da494b427d48b1bc97bf6554d25f4a79d9d62f59ec5f2afb65e67431
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e3443225b5c7cb6d8f758248e538c2a427a89265
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758893"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8723163"
 ---
 # <a name="manage-leases-through-the-lease-import-framework"></a>Rendilepingute haldamine rendilepingu importimise raamistiku kaudu
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas selgitatakse, kuidas kasutada rendilepingu importimise raamistikku, et korrigeerida mitut rendilepingut ühe etapina. Seda võimalust kasutades saate säästa aega ja samuti saate tagada täpsemaid korrigeerimisi, vähendades inimliku vea tõenäosust. Lisaks saab see võimalus ühendada Microsoft Dynamics 365 Finance'i väliste andmete üksustega, et andmeid tõhusalt üles laadida.
+Selles teemas selgitatakse, kuidas kasutada rendilepingu importimise raamistikku, et korrigeerida mitut rendilepingut ühe etapina. Seda võimalust kasutades saate säästa aega ja samuti saate tagada täpsemaid korrigeerimisi, vähendades inimliku vea tõenäosust. Lisaks saab see võimalus ühendada Microsoft Dynamics 365 Finantsid väliste andmeüksustega, et andmeid efektiivselt üles laadida.
 
 Vara rentimise integreerimiseks väliste süsteemidega saab kasutada järgmisi andmeüksusi.
 

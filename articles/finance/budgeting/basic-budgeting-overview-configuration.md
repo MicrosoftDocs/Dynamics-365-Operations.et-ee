@@ -1,6 +1,6 @@
 ---
 title: Eelarve koostamise ülevaade
-description: Peaaegu igal ettevõttel, mis kasutab Microsoft Dynamics 365 Finance'is funktsiooni Finantsid, on võimalik luua aruandeid, milles võrreldakse eelarvet tegelike näitajatega. See artikkel selgitab minimaalset konfiguratsiooni, mis on nõutav Finance and Operationsis eelarvete loomiseks või nende laadimiseks kolmanda osapoole programmist.
+description: Peaaegu iga ettevõte, mis kasutab Microsoft Dynamics finantsfunktsioone rakenduses 365 Finance, peab saama luua aruandeid eelarve vs. tegelike kohta. See artikkel selgitab minimaalset konfiguratsiooni, mis on nõutav Finance and Operationsis eelarvete loomiseks või nende laadimiseks kolmanda osapoole programmist.
 author: panolte
 ms.date: 04/29/2021
 ms.topic: overview
@@ -8,7 +8,7 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: BudgetParameters
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom:
 - "60113"
 - intro-internal
@@ -17,18 +17,18 @@ ms.search.region: global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8e881a878265062dc5ce8cec68a45237711f385d
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 48fcfec7126b4835b7d05e431bbc6ad7b9176bbe
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986506"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8710409"
 ---
 # <a name="budgeting-overview"></a>Eelarve koostamise ülevaade 
 
 [!include [banner](../includes/banner.md)]
 
-Peaaegu igal ettevõttel, mis kasutab Microsoft Dynamics 365 Finance'is funktsiooni Finantsid, on võimalik luua aruandeid, milles võrreldakse eelarvet tegelike näitajatega. See artikkel selgitab minimaalset konfiguratsiooni, mis on nõutav Finance and Operationsis eelarvete loomiseks või nende laadimiseks kolmanda osapoole programmist.
+Peaaegu iga ettevõte, mis kasutab Microsoft Dynamics finantsfunktsioone rakenduses 365 Finance, peab saama luua aruandeid eelarve vs. tegelike kohta. See artikkel selgitab minimaalset konfiguratsiooni, mis on nõutav Finance and Operationsis eelarvete loomiseks või nende laadimiseks kolmanda osapoole programmist.
 
 ## <a name="overview"></a>Ülevaade
 
@@ -68,7 +68,7 @@ Eelarvetüübid võimaldavad teil kasutada kinnitatud eelarvemuudatuste kontroll
 
 Soovi korral saate seadistada ka *eelarve ülekandereegleid*. Eelarve ülekandereeglite kasutamiseks valige lehel **Eelarve parameetrid** suvand **Kasuta eelarveülekannete reegleid**. Eelarve ülekandereeglite kasutamisel, kui kasutaja loob dokumendi, kasutades eelarvekoodi tüüpi **Ülekanne**, ei värskendata eelarvesaldosid, kui eelarve ülekandereegleid on rikutud. Näiteks saate lubada eelarve ülekandedokumendid, kui kulueelarve kantakse üle põhikontode müügi- ja turundusosakondade vahel, kuid saate keelata eelarve ülekandmise sellest osakonnast või sellesse osakonda, kui seda tüüpi eelarvekonto kirjele ei ole antud töövoo kinnitust.
 
-Funktsioon, mis võeti kasutusele tarkvara Microsoft Dynamics 365 Finance versioonis 10.0.7 (jaanuar 2020), suurendas eelarve registrikirjete võimalusi ja paindlikkust. Nende täiustuste lubamiseks avage tööruum **Funktsioonihaldus** ning valige **Eelarve registrikirjed ainult koguse kohta** ja/või **Eelarve registrikirjed vaikesummatüübiga**.
+365 Microsoft Dynamics Finantsversioonis 10.0.7 (jaanuar 2020) tutvustatud funktsioon lisas eelarve registrikirjete võimalusi ja paindlikkust. Nende täiustuste lubamiseks avage tööruum **Funktsioonihaldus** ning valige **Eelarve registrikirjed ainult koguse kohta** ja/või **Eelarve registrikirjed vaikesummatüübiga**.
 
 Funktsioon **Eelarve registrikirjed ainult koguse kohta** võimaldab teil sisestada eelarve registrikirje ainult kogustega. Näiteks saate sisestada eelarvekirje kogusega 32 ja nullihinnaga, mille tulemuseks on nullsumma. Seejärel saate seda kogust kasutada finantsaruande kontekstis, et määrata hind koguse kohta. Pidage meeles, et selle funktsiooni osana ei värskendatud ühtegi päringut ega aruannet. See funktsioon lihtsalt võimaldab teil sisestada nullsumma.
 

@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: HRMParameters, EssWorkspace
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 51941
 ms.assetid: 2cfb061a-a616-4bf9-9d98-9cde00039eec
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e798646263b9939445f49a3866532cd229c668cd
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: d7e78873d0995334ac80ac22e8058b7fe0bc31ac
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071696"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8686118"
 ---
 # <a name="edit-personal-information"></a>Isiklike andmete muutmine
 
@@ -72,7 +71,7 @@ Redigeeritavate isikuandmete hulka kuulub järgnev.
     - ID-numbri lisamiseks valige **Uus**. Täitke väljad vastavalt vajadusele ja valige **Salvesta**.
     - Numbri redigeerimiseks valige **Redigeeri**. Redigeerige väljad vastavalt vajadusele ja valige **Salvesta**.
 
-7. Makseviiside muutmiseks valige **Minu makseteave** sakk. See vahekaart on saadaval ainult siis, kui makseviisid on lubatud **Personali parameetrid** lehel. Personalijuht saab lubada suvandid **Pangaveksel**, **Sularaha**, **Tšekk**, **Elektroonilise makse** või **Muu**. Personalijuht saab keelata ka elektroonilise makse kinnitamise (kasutatakse USA palga puhul) ning pangakonto ja marsruudi valiku numbri kinnitamise.
+7. Makseviiside muutmiseks, mille järgi teile makstakse, valige vahekaart **Minu makseteave** . See vahekaart on saadaval ainult siis, kui makseviisid on inimressursside **parameetrite lehel** lubatud. Personalijuht saab lubada suvandid **Pangaveksel**, **Sularaha**, **Tšekk**, **Elektroonilise makse** või **Muu**. Personalijuht saab keelata ka elektroonilise makse kinnitamise (kasutatakse USA palga puhul) ning pangakonto ja marsruudi valiku numbri kinnitamise.
 
 8. Human Resourcesis kuvatava profiilipildi muutmiseks valige vahekaart **Pilt**. Olenevalt teie organisatsiooni sätetest võivad pildid läbida kinnitamise protsessi.
 

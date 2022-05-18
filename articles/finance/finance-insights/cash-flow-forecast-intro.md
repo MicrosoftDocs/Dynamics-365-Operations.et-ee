@@ -8,7 +8,7 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom:
 - "14151"
 - intro-internal
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-19
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 62e30e382d94e4eff73789b3e884c6b81afce6c1
-ms.sourcegitcommit: c8dc60bb760553f166409c2e06dd2377f601c006
+ms.openlocfilehash: 2ed6795073b4a013df7a6a8a7a61df2c11525c51
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/23/2021
-ms.locfileid: "7945825"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8710998"
 ---
 # <a name="cash-forecast"></a>Rahaprognoos
 
@@ -43,7 +43,7 @@ Enamiku ettevõtete puhul on rahavoo haldamine ja rahavoo prognoosimine tüütu,
 ## <a name="details-of-the-cash-flow-forecasts-capability"></a>Rahavoo prognoosimise võimaluse üksikasjad
 Rahavoo prognoosimise funktsioon sisaldab järgmisi võimalusi. 
 
-- Tutvustab nutikat rahavoo prognoosimist pikaajaliseks prognoosimiseks, kasutades ajaseeriate prognoosimist läbi automaatset integreerimist AI Builderiga.
+- Tutvustab nutikat likviidsuse prognoosimist pikaajaliseks prognoosimiseks, kasutades ajaseeria prognoosimist automaatse integreerimise kaudu AI Builder.
 
 - Võimaldab salvestada kindlaid likviidsuse positsioone või prognoose, neid redigeerida ning seejärel lihtsalt võrrelda ja mõõta prognoosi jõudlust tegelike finantside tulemustega.
 
@@ -53,7 +53,7 @@ Rahavoo prognoosimise funktsioon sisaldab järgmisi võimalusi.
 
 - Võimaldab filtreerida ja vaadata finantsdimensiooniga seotud pangakontosid.
 
-Rakenduse Dynamics 365 Finance rahavoo prognoosimise funktsioon võimaldab teie organisatsioonil muuta tüütu, keeruline ja korduv rahavoo prognoosimine lihtsaks automatiseeritud protsessiks. Rahavoo prognoosimise kõige tüütumate aspektide automatiseerimine võimaldab teil keskenduda kriitilise otsuse tegemisele, et saavutada soovitud äritulemusi.
+Dynamics 365 Finance likviidsuse prognoosimise funktsioon volitab teie organisatsiooni teisendama kompleksse, kuid korduva rahavoo projektsiooni lihtsaks, automatiseeritud protsessiks. Rahavoo prognoosimise kõige tüütumate aspektide automatiseerimine võimaldab teil keskenduda kriitilise otsuse tegemisele, et saavutada soovitud äritulemusi.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

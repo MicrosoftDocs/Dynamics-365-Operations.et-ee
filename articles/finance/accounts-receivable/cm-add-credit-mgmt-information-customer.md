@@ -7,17 +7,17 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschloma
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3c8584c33b4f77b6d1f5a4dc0d62208b76b3ffa3
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: d5ced2f2bc419f18431663273236d21546c5541b
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7753966"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734453"
 ---
 # <a name="add-credit-management-information-for-customers"></a>Klientidele krediidihalduse andmete lisamine
 
@@ -32,7 +32,7 @@ Kliendi üksikasju saate lisada kiirkaardil **Krediit ja võlanõuded** lehel **
 1. Määrake suvand **Piiramatu krediidilimiit** väärtusele **Jah**, kui klienti ei tohiks piirata ühegi krediidilimiidi testiga.
 2. Määrake suvand **Välista krediidihaldusest** väärtusele **Jah**, et välistada klient mistahes tegevustest, mis tavaliselt krediidihalduse protsessides aset leiavad.
 3. Kliendile krediidihalduse grupi valimine.
-4. Krediidilimiidi arvutamiseks kliendi valuutas sisestage kliendi krediidilimiit väljale **Krediidilimiit kliendi valuutas**. Krediidilimiit ettevõtte valuutas teisendatakse, kasutades valuutakursse, mis on määratletud kreeditilimiiti vahetuskursi tüübi poolt, mis on valitud krediidihalduse parameetrites.
+4. Krediidilimiidi arvutamiseks kliendi valuutas sisestage kliendi krediidilimiit väljale **Krediidilimiit kliendi valuutas**. Ettevõtte valuuta krediidilimiit teisendatakse **, kasutades vahetuskursse, mis on määratud krediidilimiidi vahetuskursi tüübiga, mis on valitud krediidihalduse parameetrites**.
 5. Sisestage väljale **Viimase ülevaatuse kuupäev** kuupäev, millal kliendi krediidilimiit viimati krediidihalduri poolt üle vaadati.
 6. Sisestage väljale **Järgmise plaanitud ülevaatuse kuupäev** kuupäev, millal on planeeritud kliendi krediidi üle vaatamine ja värskendamine.
 7. Sisestage väljale **Lubatud krediidilimiit** kõrgeim võimalik krediidilimiit, mille saab kliendile vastavalt selle kliendi krediidiajaloo ülevaatusele määrata. Kõlblik krediidilimiit võib erineda krediidilimiidist, mis kuvatakse kiirkaardil **Krediit ja võlanõuded**.
@@ -46,7 +46,8 @@ Kliendi üksikasju saate lisada kiirkaardil **Krediit ja võlanõuded** lehel **
 15. Sisestage väljale **Klient alates** kuupäev, millal töödeldi esimesed selle kliendi kanded. Seda teavet kasutatakse riskiskooride loomisel.
 16. Sisestage märkused, mida krediidimeeskond saab kasutada kliendi krediidivõime täiendavaks hindamiseks.
 
-Võtke arvesse, et osa teabest, mis kuvatakse leheküljel **Klient** on loodud muu protsessi poolt.
+> [!Note] 
+> Osa kliendi lehel kuvatavast teabest **on** loonud teine protsess:
 
 - Väli **Krediidilimiit aegumiskuupäev** kuvab krediidilimiidi aegumise kuupäeva. Kui te seda ruutu ei seadista, siis kliendi krediidilimiit ei aegu.
 - Väli **Krediidilimiidi kuupäev** kuvab krediidilimiidi loomise kuupäeva. Seda välja uuendatakse iga kord, kui krediidilimiiti korrigeeritakse.
@@ -86,7 +87,7 @@ Kindlustuspoliise ja garantiisid saate luua lehel **Kõik kliendid** (**Müügir
     - Poliisi väärtus (B) on 50 000.
     - **Värskenda krediidilimiiti** protsent (C) on 50.00.
     
-    Sel juhul on tegelik kehtiv krediidilimiit 125 000 (= A + \[ B × C\]).
+    Sel juhul on tegelik kehtiv krediidilimiit 125 000 (= A + \[B × C\]).
 
 11. Märkige ruut **Kaasatud riski**, et vähendada krediidilimiiti, mida kasutatakse krediidilimiidi arvutustes poliisi täieliku väärtuse võrra. Kui see ruut on märgitud, ei kasutata krediidilimiidi arvutustes väärtust, mis arvutatakse, kui on määratud **Värskenda krediidilimiiti** protsent.
 
@@ -96,9 +97,9 @@ Kindlustuspoliise ja garantiisid saate luua lehel **Kõik kliendid** (**Müügir
     - Poliisi väärtus (B) on 50 000.
     - **Värskenda krediidilimiiti** protsent (C) on 50.00.
 
-    Sel juhul on tegelik kehtiv krediidilimiit 125 000 (= A + \[ B × C\]).
+    Sel juhul on tegelik kehtiv krediidilimiit 125 000 (= A + \[B × C\]).
     
-    Kui aga märgite ruudu **Kaasatud riski**, eemaldatakse **Värskenda krediidilimiiti** väärtus 50 000 (= 50.00 protsenti 100 000st) ja riski väärtus on 75 000 (= A + \[ B × C\] – B).
+    Kui aga märgite ruudu **Kaasatud riski**, eemaldatakse **Värskenda krediidilimiiti** väärtus 50 000 (= 50.00 protsenti 100 000st) ja riski väärtus on 75 000 (= A + \[B × C\] – B).
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

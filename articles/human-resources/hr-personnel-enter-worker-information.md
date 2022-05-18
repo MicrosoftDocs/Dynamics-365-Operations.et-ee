@@ -8,17 +8,16 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: HcmWorkerV2, HRMMassHireProject, HRMMassHireLine, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: abb45fe6f398de71565732dce6249daa0c39fce2
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 75bb9d5112656d36891d54af9ed9dd3c9017edf4
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069450"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8693608"
 ---
 # <a name="enter-worker-information"></a>Töötaja andmete sisestamine
 
@@ -29,16 +28,16 @@ ms.locfileid: "8069450"
 
 
 
-Pärast värbaja hulgivärbamisprojekti ja ametikohtade loomist on järgmiseks etapiks värvatavate inimeste töötaja teabe sisestamine. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid. Demoandmed sisaldavad avatud hulgivärbamise projekti. Selle protseduuri alustamiseks minge aadressile **Inimressursid** > **Värbamine** > **Massi rendiprojektid**.
+Pärast värbaja hulgivärbamisprojekti ja ametikohtade loomist on järgmiseks etapiks värvatavate inimeste töötaja teabe sisestamine. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid. Demoandmed sisaldavad avatud hulgivärbamise projekti. Selle protseduuri alustamiseks minge palkamisprojektide **loendisse InimressursidRecruitmentMass** > **·** > **·**.
 
 1. Märkige loendis valitud rida.
-2. Klõpsake nuppu **Asukoha üksikasjad**.
-    * Redigeerige **töötaja alguskuupäeva**.  
-    * Redigeerige **töötaja lõppkuupäeva**.  
-    * **Vajadusel muutke töötaja tüüpi**.  
-3. Tippige väljale **Eesnimi** väärtus.
-4. Tippige väljale **Keskmine nimi** väärtus.
-5. Tippige väljale **Perekonnanimi** väärtus.
+2. Klõpsake **valikul Ametikoha üksikasjad**.
+    * **Töötaja alguskuupäeva** redigeerimine  
+    * **Töötaja lõppkuupäeva** redigeerimine  
+    * **Vajadusel muutke töötaja** tüüpi.  
+3. **Tippige väärtus** väljale Eesnimi.
+4. **Tippige väärtus väljale** Teine nimi.
+5. **Tippige väärtus** väljale Perekonnanimi.
     * Vajaduse korral muutke töötaja puhul tööd.  
     * Vajaduse korral muutke töötaja puhul osakonda.  
     * Vajaduse korral muutke töötaja puhul täistööaja olekut.  

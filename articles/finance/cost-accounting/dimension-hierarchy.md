@@ -8,20 +8,20 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CAMDimensionHierarchy,
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 40ae7b61537cdcd1934056b9e289f342e96b57d3eebe5a6e713b2db91310ed9a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 852cfa536ed7e6985ce1f7de612b34e2a492ee07
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6766968"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8735078"
 ---
 # <a name="dimension-hierarchy"></a>Dimensioonihierarhia
 
@@ -203,13 +203,13 @@ Kui koostate Exceli või Power BI abil aruandeid, siis eksporditakse ainult esim
 Järgmises näites näidatakse, milline dimensioonihierarhia aruandlusstruktuuris välja võib näha.
 
 | Kuluobjekti dimensioonihierarhia – tase 1 | Kuluobjekti dimensioonihierarhia – tase 2 | Kuluobjekti dimensioonihierarhia – tase 3 | Kuluobjekti dimensioonihierarhia – tase 4 | Kuluobjekti dimensioonihierarhia – tase 15 |
-|-------------------------------------------|-------------------------------------------|-------------------------------------------|-------------------------------------------|--------------------------------------------|
-| Organisatsioon                              | Administraator                                     | Finantsid                                   | CC002                                     |                                            |
-| Organisatsioon                              | Administraator                                     | Finantsid                                   | CC003                                     |                                            |
-| Organisatsioon                              | Administraator                                     | Finantsid                                   | CC007                                     |                                            |
-| Organisatsioon                              | Administraator                                     | Personaliosakond                                        | CC001                                     |                                            |
-| Organisatsioon                              | Tootmine                                | Pakendamine                                 | CC005                                     |                                            |
-| Organisatsioon                              | Tootmine                                | Assembler                                  | CC006                                     |                                            |
+|----------------------------------|---------------------------------|-------------------------|-------------------------|----------------------------------------|
+| Organisatsioon              | Administraator                 | Finantsid                    | CC002              |                                            |
+| Organisatsioon              | Administraator                 | Finantsid                    | CC003              |                                            |
+| Organisatsioon              | Administraator               | Finantsid                     | CC007               |                                            |
+| Organisatsioon              | Administraator                | Personaliosakond                           | CC001              |                                            |
+| Organisatsioon              | Tootmine           | Pakendamine                    | CC005             |                                            |
+| Organisatsioon              | Tootmine          | Assembler                      | CC006            |                                            |
 
 ### <a name="update-the-dimension-hierarchies-that-are-used-for-reporting"></a>Aruandluses kasutatavate dimensioonihierarhiate uuendamine 
 
@@ -328,7 +328,7 @@ Juurdepääsuloendi hierarhia sätteid kasutatakse järgmistel aladel kuvatavate
 - Power BI:
 
     - Power BI visualiseeringutel kuvatavad andmed
-    - Dynamics 365 Financei klientrakendusse manustatud Power BI andmevisualiseeringud
+    - Dynamics Power BI 365 Finance kliendis manustatud andmete visualiseerimised
 
 > [!NOTE] 
 > - Enne kui juurdepääsuloendi hierarhia saab Power BI-s olevaid andmeid mõjutada, tuleb juurdepääsuloendi hierarhia ja rea tasemel turve Power BI-s siduda. Lisateavet leiate teemast [Kuluarvestuse sisupaketi jaoks turbe seadistamine](../../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).

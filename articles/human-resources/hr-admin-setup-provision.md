@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7ce30b64bc7c3889347bec94186614bd6cc337f4
-ms.sourcegitcommit: 1050e58e621d9a0454895ed07c286936f8c03320
-ms.translationtype: HT
+ms.openlocfilehash: 79747d0c5c4265315d1757352dfecef09c469dd8
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8625415"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8710859"
 ---
 # <a name="provision-human-resources"></a>Human Resourcesi ettevalmistus
 
@@ -144,7 +143,7 @@ Kasutage järgmisi juhiseid, kui otsustate, millisesse Power Appsi keskkonda rak
 6. Topeltkirjutuse võimalusi personaliandmete integreerimiseks Power Apps keskkonnaga saab kasutada ainult siis, kui keskkonna jaoks on valitud suvand **Luba Dynamics 365 rakendused**. Vaata [Topeltkirjutuse kodulehte](../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page.md) – lisateabe saamiseks topeltkirjutuse kohta.
 
     > [!NOTE]
-    > Suvand **Luba Dynamics 365** rakendused peab olema valitud keskkonna Power Apps loomise ajal. Kui suvandit ei ole ettevalmistamise ajal valitud, ei saa te topeltkirjutust kasutada andmete integreerimiseks Dynamics 365 Human Resources ja Power Apps keskkonna vahel ega installida Dynamics 365 rakendusi, näiteks Dynamics 365 Sales ja Field Service keskkonnale. See valik ei ole tühistatav. Lisateabe saamiseks vaata [Olulistest kaalutlustest uue keskkonna loomisel](//power-platform/admin/create-environment#some-important-considerations-when-creating-a-new-environment) Power Platform dokumentatsiooni saidil.
+    > Suvand **Luba Dynamics 365** rakendused peab olema valitud keskkonna Power Apps loomise ajal. Kui suvandit ei ole ettevalmistamise ajal valitud, ei saa te topeltkirjutust kasutada andmete integreerimiseks Dynamics 365 Human Resources ja Power Apps keskkonna vahel ega installida Dynamics 365 rakendusi, näiteks Dynamics 365 Sales ja Field Service keskkonnale. See valik ei ole tühistatav. Lisateabe saamiseks vaata [Olulistest kaalutlustest uue keskkonna loomisel](/power-platform/admin/create-environment#some-important-considerations-when-creating-a-new-environment) Power Platform dokumentatsiooni saidil.
 
 7. Kui olete määratlenud kasutatava keskkonna, saate ettevalmistamise protsessiga jätkata. 
 

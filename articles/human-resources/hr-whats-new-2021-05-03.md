@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-05-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1bfbfabc8ba9c41dfd02c205755042f82387f5e09c88722e2503316bc1cf5feb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 01babeae8ccb5af5e414cb78734ce05adf670277
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770356"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8689771"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-3-2021"></a>Mis on uus või muudetud rakenduses Dynamics 365 Human Resources (3. mai 2021)
 
@@ -71,7 +70,7 @@ Järgmised uued funktsioonid on eelversioonis. Lisateavet funktsioonide sisse- v
 
 | Funktsioon | Details |
 | --- | --- |
-| Platvormi värskendus 10.0.18 (42) | Platvormi värskendus 10.0.18 peaks tuleb välja teenuseväljalaske raames 17. mail 2021. Lisateavet leiate teemast [Finance and Operationsi rakenduste versiooni 10.0.18 platvormivärskendused (mai 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-18). |
+| Platvormi värskendus 10.0.18 (42) | Platvormi värskendus 10.0.18 peaks tuleb välja teenuseväljalaske raames 17. mail 2021. Lisateavet vt Platvormi värskendustest [versioonile 10.0.18 Finance and Operations rakendustest (mai 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-18). |
 | Kohandatud väljade toe jaoks kvalifitseerumise reeglid soodustuste halduses  | [Kohandatud välja tugi kõlblikkuse töötlemiseks](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/custom-field-support-eligibility-processing) |
 
 Plaanitud funktsioonide täieliku loendi ja nende kavandatud väljaannete kohta leiate teavet teemast [Dynamics 365 Human Resourcesi 2021. aasta 1. väljalaskevoo ülevaade](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/).

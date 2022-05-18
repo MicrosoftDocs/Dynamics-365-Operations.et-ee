@@ -8,20 +8,20 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CAMCostControlWorkspaceConfiguration, CAMCostControlWorkspace, CAMCostControlWorkspaceConfigurationPerUser
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: db587f5526e0541fc81964d510000a42a671a9bd65224e7167b9d869475c3601
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 36e94ff2cd499a827c631d6836a6c976af53dfa1
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763186"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734600"
 ---
 # <a name="cost-control-workspace"></a>Kulujuhtimise tööruum 
 
@@ -54,7 +54,7 @@ Kiirkaardil **Andmete filtreerimine** saate määratleda aruande alusandmed. Sel
 | Kuluarvestuse pearaamat                                            | **Kuluarvestuse pearaamat**, millel aruanne põhineb. Väärtus tuletatakse väljalt **Kulu juhtimisüksus**. |
 | Kulu juhtseade                                                 | Väärtus, mille valite, määrab kuluarvestuse pearaamatu ja kuluobjektid, millel see aruanne põhineb. |
 | Statistiline dimensioonihierarhia, kuluelemendi dimensioonihierarhia | **Kulujuhtimise** tööruumi konfiguratsioonikirje saab registreerida mitterahalisi või rahalisi väärtusi, kuid mitte samas paigutuses. Valige väärtus väljalt **Kuluelemendi dimensioonihierarhia** rahaliste väärtuste registreerimiseks. Valige väärtus väljalt **Statistiline dimensioonihierarhia** mitterahaliste väärtuste registreerimiseks. Valitud dimensioonihierarhia kirje määrab aruandluse ja liitmise taseme struktuuri.<blockquote>[!NOTE]<br>Mitterahaliste ja rahaliste väärtuste kõrvuti vaatamiseks võite eksportida Microsoft Power BI sisupaketi andmed Microsoft Excel`isse.</blockquote> |
-| Kuluobjekti dimensioonihierarhia                                   | Valige määratletava aruandluse eesmärgiga sobiva kuluobjekti dimensiooni dimensioonihierarhia. |
+| Kuluobjekti dimensioonihierarhia      | Valige määratletava aruandluse eesmärgiga sobiva kuluobjekti dimensiooni dimensioonihierarhia. |
 | Eelarve algne versioon                                           | Valige eelarveversiooni ID, mis toimib selle aruande kontekstis algse eelarvena. |
 | Eelarve parandatud versioon                                            | Valige eelarveversiooni ID, mis toimib selle aruande kontekstis parandatud eelarvena. |
 

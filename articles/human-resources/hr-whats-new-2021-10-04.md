@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 206c7f590b495278b7899271db0e83b3a4da3edc
-ms.sourcegitcommit: 42bd701179e664947b6eafcd1804c83a5e64abcb
+ms.openlocfilehash: 3cf83421d5385e3c95dfda6db35edfb8eb4b9336
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2021
-ms.locfileid: "7641426"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8695756"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-october-5-2021"></a>Mis on Dynamics 365 Human Resourcesis uut või mida on muudetud (5. oktoober 2021)
 
@@ -42,7 +41,7 @@ Selle väljalaskega tulevad üldiselt kättesaadavaks järgmised funktsioonid.
 
 | Funktsioon | Väljaandmisplaan | Dokumentatsioon |
 |---|---|---|
-| Platvormi värskendus 10.0.21 (45) | -- | [Finance and Operationsi platvormi versiooni 10.0.21 uuendused (oktoober 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-21) |
+| Platvormi värskendus 10.0.21 (45) | -- | [Platvormi värskendused versioonile 10.0.21 Finantside ja toimingute rakendustele (oktoober 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-21) |
 
 
 ### <a name="bug-fixes"></a>Veaparandused
@@ -87,7 +86,7 @@ Plaanitud funktsioonide täieliku loendi ja nende kavandatud väljaannete kohta 
 
 | Funktsioon | Üksikasjad |
 |---|---|
-| Platvormi värskendus 10.0.22 (46) | Platvormi värskendus 10.0.22 välja laskmine on kavandatud algama teenuseväljalaskega 1. novembril 2021. Lisateavet leiate teemast [Finance and Operationsi rakenduste versiooni 10.0.22 platvormivärskendused (november 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-22). |
+| Platvormi värskendus 10.0.22 (46) | Platvormi värskendus 10.0.22 välja laskmine on kavandatud algama teenuseväljalaskega 1. novembril 2021. Lisateavet vt Platvormi värskendustest [versioonile 10.0.22 Finance and Operations rakendustest (november 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-22). |
 
 
 

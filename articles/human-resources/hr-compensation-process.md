@@ -7,19 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 7c72f866886f320d8a7fa22d6ccfa7e43284b5bf
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: e4aa910d92c2905d54d96f656e1d3d1c36388636
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071716"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8693860"
 ---
 # <a name="process-compensation"></a>Tasu töötlemine
 
@@ -44,7 +43,7 @@ Kui protsessisündmuse parameetrid on salvestatud, võite klõpsata nuppu **Sead
 
 Klõpsake vahekaardil **Plaanid** nuppu **Lisa** tasuplaani lisamiseks protsessisündmusele. Veergusid **Kasuta muud finantsvõimendust**, **Finantsvõimenduse tegur** ja **Finantsvõimenduse kirjeldus** kasutatakse ainult ergutussüsteemi plaanide jaoks ja neid selles teemas ei käsitleta.
 
-Salvestage kirje ja klõpsake siis vahekaardil **Tegevused** nuppu **Lisa** põhipalga toimingute lisamiseks valitud plaani puhul. Kasutage valikut **Luba soovitus**, et sisestada muu summa peale tegevuse jaoks arvutatud kasvusumma. Kui soovite arvutada eelmise tegevuse tulemusel põhineva tegevuse mitme hüvitustegevuse linkimiseks, märkige valik **Kasuta eelmist tulemuse** varianti. Põhitasu tegevused on kompensatsiooniloogika tüübid, millele saate anda kirjeldavaid nimed. Sest **Hinne** ja **Bänd** plaanid, saate lisada ainult järgmist tüüpi fikseeritud hüvitistoiminguid:
+Salvestage kirje ja klõpsake siis vahekaardil **Tegevused** nuppu **Lisa** põhipalga toimingute lisamiseks valitud plaani puhul. Kasutage valikut **Luba soovitus**, et sisestada muu summa peale tegevuse jaoks arvutatud kasvusumma. Kui soovite arvutada eelmise tegevuse tulemusel põhineva tegevuse mitme hüvitustegevuse linkimiseks, märkige valik **Kasuta eelmist tulemuse** varianti. Põhitasu tegevused on kompensatsiooniloogika tüübid, millele saate anda kirjeldavaid nimed. Taseme **ja** palgaastala **plaanide** jaoks saate lisada ainult fikseeritud tasu tegevusi, mille tüübid on järgmised:
 
 | Põhipalga tegevuse tüüp | Funktsioon                  |
 |-------------------------------|-------------------------------------------------------------------------|
@@ -61,7 +60,7 @@ Astmeplaani saab lisada ainult neid tegevusi **Põhipalk**, mille tüüp on Aste
 | Etapp                           | Märkige vahekaardil **Üldine**, kas see astmetegevus peaks viima töötajad edasi 0 astme, 1 astme või kahe astme võrra.                                                                                  |
 |                                | **0 astet** – töötaja saab selle astme palgamäära, millel ta praeg on.                                                                                                                      |
 |                                | **1 aste** – süsteem kontrollib, kas töötaja on juba oma taseme viimases võrdluspunktis.                                                                                             |
-|                                | **2 sammu** - Töötaja liigub praegusel tasemel kaks sammu edasi. Töötaja võib liikuda ainult ühe või null sammu, kui ta jõuab oma taseme viimase võrdluspunktini. |
+|                                | **2 sammu** - töötaja liigub oma praegusel tasemel kaks sammu edasi. Töötaja võib liikuda ainult ühe või null sammuni, kui ta jõuab oma taseme viimasesse viitepunkti. |
 
 ## <a name="run-the-compensation-process"></a>Tasuprotsessi käitamine
 Pärast protsessisündmuse seadistamist vajalike kuupäevaväljade, plaanide ja tegevustega klõpsake lehel **Protsessisündmus** valikut **Käivita protsess**, see avab **Käivitage kompensatsiooniprotsessi sündmused** dialoogi. Klõpsake valikul **Töötlemise tulemuste näitamine**, et näha, kuidas iga töötaja puhul tasusummad arvutati. Nupu **OK** klõpsamisel käivitatakse tasuprotsess kõigi töötajate kohta, kes on tsükli lõppkuupäeva seisuga valitud tasuplaanides.

@@ -1,6 +1,6 @@
 ---
 title: Käibemaksu arvutamine ja korrigeerimine hankija arvel
-description: Selles teemas selgitatakse, kuidas kohandada müügimaksu tarnija arvel rakenduses Dynamics 365 Finance.
+description: See teema kirjeldab, kuidas korrigeerida rakenduses Dynamics 365 Finance hankijaarve käibemaksu.
 author: twheeloc
 ms.date: 07/31/2019
 ms.topic: business-process
@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransVendInvoice, VendTableLookup, TaxTmpWorkTrans
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 648d94e895a4941f5f3148134130b3ffa693a9d57e0bb4e236f5d5fb33aca48f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7d4d6a23f6f58906730c5ce00c5fe06885aaa6da
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779808"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734685"
 ---
 # <a name="calculate-and-adjust-sales-tax-on-a-vendor-invoice"></a>Käibemaksu arvutamine ja korrigeerimine hankija arvel
 
@@ -26,7 +26,7 @@ ms.locfileid: "6779808"
 
 Selles teemas selgitatakse, kuidas kohandada müügimaksu tarnija arvel. Kui algne lähtedokument kuvab erinevad arvutatud maksusummade, saate neid summasid enne sisestamist korrigeerida. See ülesanne kasutab demoettevõtte DEMF andmeid.
 
-1. Avage navigeerimispaanil **Moodulid > Ostureskontro > Arved > Arve tööleht**.
+1. Minge arve **töölehe > > ostureskontrole**.
 2. Valige suvand **Uus**.
 3. Uue veeru väljal **Nimi** valige ripploendist suvand.
 4. Toimingupaanil valige nupp **Alused**.

@@ -2,7 +2,7 @@
 title: Domeenid Dynamics 365 Commerce'is
 description: Selles teemas kirjeldatakse, kuidas käsitsetakse domeene teenuses Microsoft Dynamics 365 Commerce.
 author: BrShoo
-ms.date: 03/17/2021
+ms.date: 05/10/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: BrShoo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: bf96c47b8f5e940ffdd9241c3bdda4162a3101c42004c58c431f135f11c39d14
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: aab5e983b42aea7d8eb4f198f033634d4663f278
+ms.sourcegitcommit: 7181a022739d6107a75d84546c3379c23f722034
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733987"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8737342"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>Domeenid Dynamics 365 Commerce'is
 
@@ -28,6 +28,9 @@ ms.locfileid: "6733987"
 Selles teemas kirjeldatakse, kuidas käsitsetakse domeene teenuses Microsoft Dynamics 365 Commerce.
 
 Domeenid on veebiaadressid, mida kasutatakse veebibrauseris teenuse Dynamics 365 Commerce saitidele navigeerimiseks. Saate juhtida oma domeeni haldamist valitud domeeni nimeserveri (DNS) pakkuja abil. Domeenidele viidatakse teenuse Dynamics 365 Commerce saidiehitajas, et koordineerida seda, kuidas saidile pärast avaldamist juurde pääseb. Selles teemas antakse ülevaade sellest, kuidas domeene käsitletakse ja viidatakse kogu kaubanduse saidi arendamise ja käivitamise töötsükli jooksul.
+
+> [!NOTE]
+> 6. mai 2022- 2022 Dynamics 365 Commerce`.dynamics365commerce.ms` . aasta mais asendatakse domeeniga kõik loodud keskkonnad, asendades varasema mustri `.commerce.dynamics.com`. Domeeniga ette ettevalmistamine olemasolevad `.commerce.dynamics.com` keskkonnad jätkavad tööd.
 
 ## <a name="provisioning-and-supported-host-names"></a>Hostinimede ettevalmistamine ja toetamine
 
@@ -44,7 +47,7 @@ Kui ettevalmistamine on juba toimunud, saate luua hooldustaotluse lisadomeenide 
 
 ## <a name="commerce-generated-urls"></a>Commerce'i loodud URL-id
 
-Dynamics 365 Commerce'i e-kaubanduse keskkonna ettevalmistamisel loob Commerce URL-i, mis on keskkonna tööaadress. Sellele URL-ile viidatakse LCS-is kuvatavas e-kaubanduse saidi lingis pärast keskkonna ettevalmistamist. Commerce'i loodud URL on vormingus `https://<e-commerce tenant name>.commerce.dynamics.com`, mille korral e-kaubanduse rentniku nimi on LCS-is Commerce'i keskkonna jaoks sisestatud nimi.
+Dynamics 365 Commerce'i e-kaubanduse keskkonna ettevalmistamisel loob Commerce URL-i, mis on keskkonna tööaadress. Sellele URL-ile viidatakse LCS-is kuvatavas e-kaubanduse saidi lingis pärast keskkonna ettevalmistamist. Commerce'i loodud URL on vormingus `https://<e-commerce tenant name>.dynamics365commerce.ms`, mille korral e-kaubanduse rentniku nimi on LCS-is Commerce'i keskkonna jaoks sisestatud nimi.
 
 Tootmissaidi hostinimesid saate kasutada ka liivakastikeskkonnas. See suvand on ideaalne kasutamiseks siis, kui kopeerite saidi liivakastikeskkonnast tootmisse.
 
@@ -67,11 +70,11 @@ Välja **Tee** saab tühjaks jätta või lisada täiendava tee stringi, mis kaja
 
 Näiteks kui teil on saidiehitaja sait „fabrikam“ e-kaubanduse rentnikus nimega „xyz“ ja kui seadistate saidi tühja teega, pääsete veebibrauseris juurde avaldatud saidi sisule, avades otse Commerce'i loodud baas-URL-i.
 
-`https://xyz.commerce.dynamics.com`
+`https://xyz.dynamics365commerce.ms`
 
 Kui olete sama saidi seadistamise ajal lisanud tee nimega „fabrikam”, pääsete veebibrauseri avaldatud saidi sisule juurde järgmise URL-i abil.
 
-`https://xyz.commerce.dynamics.com/fabrikam`
+`https://xyz.dynamics365commerce.ms/fabrikam`
 
 ## <a name="pages-and-urls"></a>Lehed ja URL-id
 
@@ -92,16 +95,16 @@ Toetatud hostinime väärtused on saadaval, et neid saaks saidi seadistamisel do
 Kui töötate saidiehitaja saitidega ja teil on seadistatud kaks saiti kahe erineva domeeniga, saate lisada oma toimivale URL-ile atribuudi **?domain=**, et pääseda brauseris juurde avaldatud saidi sisule.
 
 Näiteks keskkond „xyz” on ette valmistatud ning saidiehitajas on loodud ja seostatud kaks saiti: üks domeeniga `www.fabrikam.com` ja teine domeeniga `www.constoso.com`. Iga sait seadistati tühja tee abil. Nendele kahele saidile pääseb veebibrauseri kaudu juurde järgmiselt, kasutades atribuuti **?domain=**.
-- `https://xyz.commerce.dynamics.com?domain=www.fabrikam.com`
-- `https://xyz.commerce.dynamics.com?domain=www.contoso.com`
+- `https://xyz.dynamics365commerce.ms?domain=www.fabrikam.com`
+- `https://xyz.dynamics365commerce.ms?domain=www.contoso.com`
 
-Kui domeeni päringustringi ei pakuta keskkonnas, kus on mitu domeeni, kasutab Commerce esimest teie pakutavat domeeni. Näiteks kui saidi seadistamisel esitati esmalt tee „fabrikam”, võidakse kasutada URL-i `https://xyz.commerce.dynamics.com`, et pääseda juurde saidi `www.fabrikam.com` avaldatud sisule.
+Kui domeeni päringustringi ei pakuta keskkonnas, kus on mitu domeeni, kasutab Commerce esimest teie pakutavat domeeni. Näiteks kui saidi seadistamisel esitati esmalt tee „fabrikam”, võidakse kasutada URL-i `https://xyz.dynamics365commerce.ms`, et pääseda juurde saidi `www.fabrikam.com` avaldatud sisule.
 
 ## <a name="traffic-forwarding-in-production"></a>Liikluse edastamine tootmisse
 
-Mitme domeeni simuleerimiseks saate kasutada domeeni päringustringi parameetreid saidi commerce.dynamics.com lõpp-punktis. Kuid kui teil on vaja avaldada otse tootmisse, peate oma kohandatud domeeni liikluse edastama saidi `<e-commerce tenant name>.commerce.dynamics.com` lõpp-punkti.
+Mitme domeeni simuleerimiseks saate kasutada domeeni päringustringi parameetreid saidi commerce.dynamics.com lõpp-punktis. Kuid kui teil on vaja avaldada otse tootmisse, peate oma kohandatud domeeni liikluse edastama saidi `<e-commerce tenant name>.dynamics365commerce.ms` lõpp-punkti.
 
-Saidi `<e-commerce tenant name>.commerce.dynamics.com` lõpp-punkt ei toeta kohandatud domeeni SSL-e, seega peate häälestama kohandatud domeenid, kasutades sisenemispunkti teenust või sisu edastamise võrku (CDN). 
+Saidi `<e-commerce tenant name>.dynamics365commerce.ms` lõpp-punkt ei toeta kohandatud domeeni SSL-e, seega peate häälestama kohandatud domeenid, kasutades sisenemispunkti teenust või sisu edastamise võrku (CDN). 
 
 Kohandatud domeenide seadistamiseks sisenemispunkti teenuse või CDN-i abil on teil kaks võimalust.
 

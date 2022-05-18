@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a14e485d1e02247159e1d9eb1c5d81be37626216
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: d206654dcb7964ac2ed9aa9ccf7cec709e1bd38c
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580500"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8689674"
 ---
 # <a name="price-simulation"></a>Hinnasimulatsioon
 
@@ -32,7 +32,8 @@ Pakkumise hinnasimulatsioon näitab uut koondsummat, mis põhineb uuel soovitusl
 
 Hinnasimulatsioon ei muuda pakkumise hinda. Hinnasimulatsiooni rakendamisel kogu pakkumisele käsitletakse seda pakkumise päises spetsiaalse allahindlusena. Hinnasimulatsiooni rakendamisel konkreetsetele kaupadele käsitletakse seda pakkumise ridadel spetsiaalse allahindlusena. Hinnasimulatsiooni rakendamisel ühiku müügihind loodud pakkumise real ei muutu. Selle asemel rakendatakse allahindluse protsenti, mis vastab hinna pakkumise rea hinna vähendamisele. Kui rakendatakse hinnasimulatsiooni, kantakse ühiku müügihind ja allahindluse protsent pakkumise reale või pakkumise päisesse.  
 
->[Märkus.] Hinnasimulatsiooni käigus kasutatakse simulatsiooni loomiseks ainult praegust müügivaluutat. Kui vaatate pakkumiste kokkuvõtteid, näete siiski ettevõtte valuuta ja müügivaluuta kombinatsiooni.  
+>[!NOTE]
+>Hinnasimulatsiooni käivitamisel kasutatakse simulatsiooni loomiseks ainult praegust müügivaluutat. Kui vaatate pakkumiste kokkuvõtteid, näete siiski ettevõtte valuuta ja müügivaluuta kombinatsiooni.  
 
 Pakkumise ridadele lisatavad lisakaubad võivad põhjustada rea allahindlusi või multiallahindlusi. Need võivad käivitada ka koondallahindlusi, mis muudavad pakkumise ridade brutokasumit ja kasumiprotsente ning kogu allahindlust.  
 

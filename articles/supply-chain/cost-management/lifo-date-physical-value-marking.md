@@ -1,7 +1,7 @@
 ---
 title: LIFO kuupäev füüsilise väärtuse ja märkimisega
 description: Viimasena sisse, esimesena välja (LIFO) on LIFO-põhimõttel põhinev laomudel. Laost väljastamine tasakaalustatakse viimaste sissetulekutega lattu, laokande kuupäeva alusel. Kui enne väljaminek ei ole sissetulekut, siis LIFO kuupäeva kasutades tasakaalustatakse väljaminek mis tahes sissetulekutega, mis toimuvad pärast väljaminek kuupäeva. Mitmed väljaminekud samal päeval tasakaalustatakse viimase väljamineku, viimase sissetuleku järjekorras.
-author: AndersGirke
+author: JennySong-SH
 ms.date: 02/21/2022
 ms.topic: article
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
@@ -9,15 +9,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 51592
 ms.search.region: Global
-ms.author: aevengir
+ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f6f5f447724ace473bece3007a96c4b56e90a908
-ms.sourcegitcommit: addae271ddfc5a8b0721c23337f69916153db4cd
+ms.openlocfilehash: 8ca344e6ca81814e787046f6ece97625d035346d
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/21/2022
-ms.locfileid: "8330272"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8671446"
 ---
 # <a name="lifo-date-with-physical-value-and-marking"></a>LIFO kuupäev füüsilise väärtuse ja märkimisega
 
@@ -48,7 +48,7 @@ Selles näites pole kauba mudeligrupil füüsilise väärtuse kaasamine märgitu
 - 4a. Lao füüsiline sissetulek kogusele 1 hinnaga 25,00 USD tükk.
 - 5a. Lao füüsiline sissetulek kogusele 1 hinnaga 30,00 USD tükk.
 - 5b. Lao finantsiline sissetulek kogusele 1 hinnaga 30,00 USD tükk.
-- 6a. Lao füüsiline väljastus, kogus 1 omahinnaga USD 23.00 (finantsiliselt sisestatud kannete jooksev keskmine)
+- 6a. Lao füüsiline väljastus, kogus 1, omahind USD 23.00 (finantsiliselt sisestatud kannete jooksev keskmine)
 - 7\. Teostatakse lao sulgemine. LIFO kuupäeva meetodil põhinedes tasakaalustatakse esimene finantsiliselt värskendatud väljaminek viimase finantsiliselt värskendatud sissetulekuga alates esimesest kuupäevast jne. Selles näites luuakse üks tasakaalustus vahemikus 3b kuni 2b. Korrigeeritakse USD 6.00 3b-ks ja tulemuseks saadav lõplik kulu USD 22.00.
 
 Järgmine näide näitab LIFO kuupäeva laomudeli efekti, kui **valikut** Füüsilise väärtuse hulka ei kasutata.
@@ -129,7 +129,7 @@ Alloleval joonisel on kuvatud järgmised kanded.
 - 4a. Lao füüsiline sissetulek kogusele 1 hinnaga 25,00 USD tükk.
 - 5a. Lao füüsiline sissetulek kogusele 1 hinnaga 30,00 USD tükk.
 - 5b. Lao finantsiline sissetulek kogusele 1 hinnaga 30,00 USD tükk.
-- 6a. Lao füüsiline väljastus, kogus 1 omahinnaga USD 23.00 (finantsiliselt sisestatud kannete jooksev keskmine)
+- 6a. Lao füüsiline väljastus, kogus 1, omahind USD 23.00 (finantsiliselt sisestatud kannete jooksev keskmine)
 - 7\. Teostatakse lao sulgemine. Märgitud kanded tasakaalustatakse üksteise suhtes märkimispõhimõtte järgi, mis kasutab LIFO kuupäeva meetodit. Selles näites tasakaalustatakse 3b 1b-ga ja korrektsioon -6,00 USD-le sisestatakse 3b-sse, et väärtus USD 10.00. Selles näites pole rohkem tasakaalustusi tehtud, sest sulgemine loob tasakaalustusi ainult finantsiliselt uuendatud kannete puhul.
 
 Järgmine näide näitab LIFO kuupäeva laomudeli efektide kohta, kui kasutatakse kaupade ja sissetulekute omavahelist märkimist. 

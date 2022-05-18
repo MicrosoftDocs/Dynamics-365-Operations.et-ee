@@ -1,7 +1,7 @@
 ---
 title: Kaalutud keskmine füüsilise väärtuse ja märgistusega
 description: Kaalutud keskmine on laomudel, mis põhineb kaalutud keskmise põhimõttel, kus lao väljaminekuid hinnatakse kauba keskmise väärtuse järgi, mis võetakse lattu vastu lao sulgemise perioodil, samuti iga vaba kaubavaru järgi eelmisest perioodist.
-author: AndersGirke
+author: JennySong-SH
 ms.date: 02/21/2022
 ms.topic: article
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
@@ -9,15 +9,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 65501
 ms.search.region: Global
-ms.author: aevengir
+ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6c124716b70be837573506a738ef2034397f2bda
-ms.sourcegitcommit: addae271ddfc5a8b0721c23337f69916153db4cd
+ms.openlocfilehash: 41c80dcdc08432bb68478827c8763735e644aa4a
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/21/2022
-ms.locfileid: "8330222"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8675259"
 ---
 # <a name="weighted-average-with-physical-value-and-marking"></a>Kaalutud keskmine füüsilise väärtuse ja märgistusega
 
@@ -95,7 +95,7 @@ Järgmisi kandeid illustreeritakse järgmisel joonisel:
 - 4a. Lao füüsiline sissetulek kogusele 1 hinnaga 25,00 USD tükk.
 - 5a. Lao füüsiline sissetulek kogusele 1 hinnaga 30,00 USD tükk.
 - 5b. Lao finantsiline sissetulek kogusele 1 hinnaga 30,00 USD tükk.
-- 6a. Lao füüsiline väljastus, kogus 1 omahinnaga USD 23.00 (finantsiliselt sisestatud kannete jooksev keskmine).
+- 6a. Lao füüsiline väljastus, kogus 1, omahind USD 23.00 (finantsiliselt sisestatud kannete jooksev keskmine).
 - 7\. Teostatakse lao sulgemine.
 - 7a. Kaalutud keskmise lao sulgemise kande finantsiline väljaminek luuakse kõigi lao finantsivate sissetulekute tasakaalustuste summeerimiseks.
   - Kanne 1b tasakaalustatakse kogusele 1 tasakaalustatud USD 10.00.
@@ -227,7 +227,7 @@ Järgmisi kandeid illustreeritakse järgmisel joonisel:
 - 4a. Lao füüsiline sissetulek kogusele 1 hinnaga 25,00 USD tükk.
 - 5a. Lao füüsiline sissetulek kogusele 1 hinnaga 30,00 USD tükk.
 - 5b. Lao finantsiline sissetulek kogusele 1 hinnaga 30,00 USD tükk.
-- 6a. Lao füüsiline väljastus, kogus 1 omahinnaga USD 23.00 (finantsiliselt sisestatud kannete jooksev keskmine).
+- 6a. Lao füüsiline väljastus, kogus 1, omahind USD 23.00 (finantsiliselt sisestatud kannete jooksev keskmine).
 - 7\. Teostatakse lao sulgemine. Märgitud kanded tasakaalustatakse üksteise suhtes, võttes aluseks märkimise põhimõtte, mis kasutab kaalutud keskmise meetodit. Selles näites tasakaalustatakse 3b 2b-ga ja korrigeerimine USD 6.00 sisestatakse 3b-sse, et väärtus USD 22.00. Selles näites pole täiendavaid tasakaalustusi tehtud, sest sulgemine loob tasakaalustusi ainult finantsiliselt uuendatud kannete puhul.
 
 Järgnev diagramm illustreerib seda kannete seeriat kaalutud keskmise laomudeli valimise efektidega koos märkimisega.

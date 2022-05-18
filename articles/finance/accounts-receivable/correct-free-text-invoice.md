@@ -1,6 +1,6 @@
 ---
 title: Vabas vormis arve parandamine
-description: Selles artiklis selgitatakse, kuidas parandada sisestatud vabas vormis arvet ja väljastada see uuesti parandatud arvena.
+description: See teema kirjeldab, kuidas parandada sisestatud vabas vormis arvet ja uuesti väljastama seda parandatud arvena.
 author: abruer
 ms.date: 08/22/2017
 ms.topic: article
@@ -8,25 +8,25 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CustFreeInvoice
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 13991
 ms.assetid: 2a0a4789-8619-4974-bef9-0923cc848420
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cf4503e3d4b200219d6b444b69c866871d21787d
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: 7fb535b14f4c270f914a427d09027c37b3be7b72
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7753798"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8716209"
 ---
 # <a name="correct-a-free-text-invoice"></a>Vabas vormis arve parandamine
 
 [!include [banner](../includes/banner.md)]
 
-Selles artiklis selgitatakse, kuidas parandada sisestatud vabas vormis arvet ja väljastada see uuesti parandatud arvena.
+See teema kirjeldab, kuidas parandada sisestatud vabas vormis arvet ja uuesti väljastama seda parandatud arvena.
 
 Juba sisestatud vabas vormis arve parandamiseks avage sisestatud vabas vormis arve. Valige lehel **Arve** suvand **Tühista** ja seejärel **Arve parandamine**. Valige põhjuse kood, lisage kommentaarid ja valige uue parandatud arve kuupäev. Saate parandatud arvet muuta ja selle sisestada. 
 
@@ -41,7 +41,7 @@ Pärast parandatud arve sisestamist, on teil kolm arvet.
 Tühistamis- ja parandamisarveid saab tuvastada kahel moel.
 
 -   Lehel **Kõik vabas vormis arved** on veerg **Parandus**, kus näete, millised arved on tühistamis- ja parandusarved.
--   Vabas vormis arve päises on näha olek **Tühistusarve \[ arve number\]** või **Parandusarve \[ arve number\]**.
+-   Vabas vormis arve päises on näha olek **Tühistusarve \[arve number\]** või **Parandusarve \[arve number\]**.
 
 > [!NOTE]
 > See funktsioon on saadaval ainult juhul, kui on valitud konfiguratsioonivõti **Vabas vormis arve parandamine**. Konfiguratsioonivõtmete lubamise kohta lisateabe saamiseks vaadake jaotist Luba (või keela) konfiguratsioonivõtmed teemas [Hooldusrežiim](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md) 

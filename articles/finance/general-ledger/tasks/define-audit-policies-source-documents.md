@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: SysPolicySourceDocumentRuleType, SysFieldLookUp, SysPolicyListPage, SysPolicy, AuditPolicyRule, SysQueryForm, SysQueryFieldLookUp, AuditPolicyDateSelection, AuditPolicyAdditionalOption, BatchJob, CaseDetail
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0779589a3583909984e35014a2ec0e86455cd30a3833110556f095241e7172ca
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e8698dd2c14321498d23efe1d01be274c56d5721
+ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722667"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8713778"
 ---
 # <a name="define-audit-policies-for-source-documents"></a>Lähtedokumentide jaoks auditipoliitikate määratlemine
 
@@ -39,7 +39,7 @@ Selles teemas selgitatakse, kuidas seadistada ja käivitada auditipoliitika reeg
 11. Valige suvand **Uus**.
 12. Sisestage väärtus väljale **Nimi**.
 13. Laiendage jaotist **Poliitika organisatsioonid**.
-14. Puus valige **Contoso Meelelahutuse Süsteem USA**, seejärel valige **Lisa**.
+14. Puus valige **Contoso Meelelahutussüsteem USA**, seejärel valige **Lisa**.
 15. Puus valige **Contoso Nõustamine USA**, seejärel valige **Lisa**.
 16. Puus valige **Contoso Jaemüük USA**, seejärel valige **Lisa**.
 17. Ahendage jaotist **Poliitika organisatsioonid**.

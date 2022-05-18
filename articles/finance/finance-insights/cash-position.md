@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 7d43657573ea8092f047615fc50a1a50ab97f094
-ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
+ms.openlocfilehash: 1c6d394cb192a88316beb2e8746b558eb8dd184b
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968983"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8711655"
 ---
 # <a name="cash-position"></a>Kassajääk
 
@@ -50,7 +50,7 @@ Sularahajäägi salvestamiseks ja redigeerimiseks looge hetktõmmis. Lisateavet 
 Kassa positsiooni funktsioon sisaldab järgmisi funktsioone. 
 
 - Sularaha positsiooni funktsioon näitab rahavoo süsteemi olemasolevatel dokumentidel ning välissüsteemidest imporditud sularaha sissevoolu ja väljamineku ridu.
-- Muudab rahavoo andmete integreerimise välistest süsteemidest rakendusse Dynamics 365 Finance lihtsaks. Kassapositsioon saab kasutada ka andmete importimise/eksportimise raamistikku. Selle raamistiku abil on Exceli ODataga integreerimine lihtne. Mitme allika andmeid saate kombineerida ka mitmekülgse kassa positsiooni lahenduse loomiseks.
+- Lihtsustab rahavoo andmete integreerimist välissüsteemidest Dynamics 365 Financesse. Kassapositsioon saab kasutada ka andmete importimise/eksportimise raamistikku. Selle raamistiku abil on Exceli ODataga integreerimine lihtne. Mitme allika andmeid saate kombineerida ka mitmekülgse kassa positsiooni lahenduse loomiseks.
 - Tutvustab nutikat sularahajääki. Sularaha positsioon luuakse kliendi maksekäitumise põhjal, et prognoosida, millal ettevõte võib eeldada sularaha saabumist oma kontodele.
 - Kliendi tellimuste ja arvete puhul kasutatakse kliendi makse ennustuse AI-funktsiooni, et määrata ajaloolist kliendi maksekäitumist, kui makstakse tellimust või arvet.
 - Hankija tellimuste ja arvete puhul kasutame keskmist aega lähetuse ja arve maksmise vahel hankija kohta, et määrata, millal hankija tellimusele või arvele makstakse sularaha väljaminekuorderite täpsemat tasu.

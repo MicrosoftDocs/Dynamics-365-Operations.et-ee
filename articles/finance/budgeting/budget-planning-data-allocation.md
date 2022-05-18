@@ -1,6 +1,6 @@
 ---
 title: Eelarve plaanimise andmete eraldamine
-description: Selles teemas kirjeldatakse Microsoft Dynamics 365 Finance'is saadaolevaid eraldamismeetodeid ja nende kasutamist.
+description: Selles teemas kirjeldatakse moodulis 365 Finantsid Microsoft Dynamics kasutatavaid eraldamismeetodeid ja nende kasutamist.
 author: panolte
 ms.date: 03/05/2020
 ms.topic: article
@@ -8,25 +8,25 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: BudgetPlanningConfiguration
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 15191
 ms.assetid: 89a918e8-59a4-4711-a2e9-b41989ddd0f1
 ms.search.region: Global
-ms.author: sigitac
+ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c6011c4c005a26720fd57caca0075483404f41b4
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: c07fe1363be841d42315084780a1f3146dca174a
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7595113"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8711054"
 ---
 # <a name="budget-planning-data-allocation"></a>Eelarve plaanimise andmete eraldamine
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas kirjeldatakse Microsoft Dynamics 365 Finance'is saadaolevaid eraldamismeetodeid ja nende kasutamist.  
+Selles teemas kirjeldatakse moodulis 365 Finantsid Microsoft Dynamics kasutatavaid eraldamismeetodeid ja nende kasutamist.  
 
 Saate prognoositud summade täpseks kujutamiseks eelarveplaani andmeid jaotada mitmel viisil.
 

@@ -9,16 +9,15 @@ ms.prod: ''
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 66e73ff2bd5dbff2cb0bcca8e0645c485f3a0bba
-ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
+ms.openlocfilehash: 7ea395b1514cb632b823ca62eb92c098d4e0c0ce
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "7402393"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8687355"
 ---
 # <a name="learning-catalog-for-commerce-microsoft-partner-sales-and-marketing-roles-for-dynamics-365-commerce"></a>Dynamics 365 Commerce'i õppekataloog Commerce'i Microsofti partneri müügi- ja turundusrollidele
 
@@ -26,9 +25,9 @@ Kas vastutate oma klientide abistamise eest osta õige lahendus.
 
 Järgnev kataloog hõlmab üld- ja valdkonnapõhiseid teadmisi nii baas- kui ka süvatasemel. Kui sisu on mitmes vormingus, anname teile sellest teada, et saaksite valida koolitusvormingu, mis vastab teie vajadustele kõige paremini.
 
-Koolitused, milles käsitletakse funktsioone, mis on ka teistes Finance and Operationsi rakendustes samasugused, leiate [Dynamics 365 Finance'i õppekataloogist](../../finance/get-started/learning-catalog-partner-sales.md).
+Lisateavet teiste finantside ja toimingute rakendustega ühiskasutuses funktsioonide kohta vt [Dynamics 365 finantside õppe kataloogist](../../finance/get-started/learning-catalog-partner-sales.md).
 
-## <a name="get-started"></a>Alusta<a name="get-started"></a>
+## <a name="get-started"></a>Alustage<a name="get-started"></a>
 
 | Sisu  | Kirjeldus  | Vorming  | Pikkus    |
 |---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-----------|---------------------------------------------------------------------------|

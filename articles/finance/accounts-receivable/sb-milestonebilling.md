@@ -9,20 +9,19 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, Operations
 ms.custom: 539093
 ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 863ec55c8ba2fcc9d0e624fcca06f4491ce839ac
-ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.openlocfilehash: ecc4ddbb4d22eefac36f8cf8205d3b6084bd7d9d
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8462910"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8686487"
 ---
-# <a name="milestone-billing"></a>Vahe-eesmärgi arveldamine
+# <a name="milestone-billing"></a>Etapiviisiline arveldus
 
 [!include [banner](../includes/banner.md)]
 
@@ -72,7 +71,7 @@ Vahe-eesmärgi **mallileht** sisaldab järgmisi välju.
 | **Kogusummad** | |
 | Koguprotsent | Protsentide summa. Kõigi protsentide summa peab olema 100. |
 | Kokku | Kõigi ridade **summaväärtuste** summa. See summa peab võrduma **päises** määratud kogusumma väärtusega. |
-| Ülejäänud summa | Ülejäänud summa. See väärtus arvutatakse päise kogusumma **väärtusena**, millest on lahutatud kõigi **ridade summaväärtuste** summa.|
+| Järelejäänud summa | Ülejäänud summa. See väärtus arvutatakse päise kogusumma **väärtusena**, millest on lahutatud kõigi **ridade summaväärtuste** summa.|
 
 ## <a name="milestone-allocation"></a>Vahe-etapi eraldamine
 
@@ -125,4 +124,4 @@ Vahe-eesmärgi **eraldamisleht** sisaldab järgmisi välju.
 | **Kogusummad** | |
 | Koguprotsent | Kõigi ridade **protsendiväärtuste** summa. See summa peab võrduma 100-ga. |
 | Kokku | Kõigi ridade **netosumma** väärtuste summa. See summa peab võrduma **päises** määratud laiendatud hinna väärtusega. |
-| Ülejäänud summa | Ülejäänud summa. See väärtus arvutatakse päise **laiendatud hinnaväärtusena**, millest on lahutatud kõigi **ridade netosumma** väärtuste summa. Lõppsumma peab olema 0 (null). |
+| Järelejäänud summa | Ülejäänud summa. See väärtus arvutatakse päise **laiendatud hinnaväärtusena**, millest on lahutatud kõigi **ridade netosumma** väärtuste summa. Lõppsumma peab olema 0 (null). |

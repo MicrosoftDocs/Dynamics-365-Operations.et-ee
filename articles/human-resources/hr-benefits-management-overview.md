@@ -8,18 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.search.scope: Human Resources
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 696c7632fd8adda71b2b67d59fba7f7d83193f5b
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: e53a68aed2e4b1e0b0d7797e7326e223c47443f4
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065939"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8687187"
 ---
 # <a name="benefits-management-overview"></a>Soodustuste halduse ülevaade
 
@@ -113,27 +112,27 @@ Saate kasutada paindliku krediidiga programme, et registreerida töötajad eelm�
 
 Enne eeliste andmist töötajatele peate sisestama nõutava nendega seotud teabe. 
 
-Töötajale **peab olema määratud ametikoht**. Ametikoha **saab töötajale määrata lehtedel** Töötaja **või** Positsioon **, värskendades töölähetust** **.** 
+Töötajale peab olema **määratud** positsioon. Positsiooni **saab** määrata töötajale lehekülgedel Töötaja **või** Positsioon **·**, värskendades **töötajamäärangut**. 
 
-Seejärel peavad töötajad olema registreeritud fikseeritud kompensatsiooniplaanis nende alguskuupäeva kohta või neil peab **olema aastane hüvitiste palgasumma**. Enne töötajale fikseeritud hüvitise **määramist** tuleb määrata positsioon **.** 
+Järgmisena peavad töötajad olema registreerunud põhipalga plaani alguskuupäeval või **neil peab olema iga-aastase hüvitise palgasumma**. Enne fikseeritud tasu **töötajale** määramiseks peab **positsioon** olema määratud. 
 
 > [!NOTE] 
-> **Fikseeritud hüvitise alguskuupäev** ei saa olla enne **ametikoha määramise kuupäeva**.
+> Põhitasu **alguskuupäev ei saa** olla positsiooni määramise **kuupäevast varem.**
 
-Teise võimalusena, kui teil on töötaja, kes saab täiendavat hüvitist nagu komisjonitasud, saate töötaja kirjest lisada **hüvitise aastapalga** summa. Personaliosakond kasutab **hüvitiste aastapalga** summat kindlustussummade **määramisel fikseeritud hüvitise aastasumma** asemel. **Soodustuste aastane palgasumma** peab kehtima alates töövõtja alustamise kuupäevast või soodustuse perioodi algusest, olenevalt sellest, kumb on hilisem. Hüvitiste aastapalga määramiseks **ei ole siiski vaja ametikohta**. Funktsiooni Kasu aastapalga lubamiseks **minge** menüü Soodustuste haldus **lehele** Inimressursside jagatud **parameetrid**. See funktsioon on vaikimisi välja lülitatud.
+Teise võimalusena, kui teil on töötaja, kes saab täiendavat kompensatsiooni, nagu komisjonitasu, **saate** lisada töötajakirjele soodustused iga-aastase palga summa. Inimressursid kasutavad põhipalga **iga-aastase** summa määratlemisel põhipalga **aastasumma asemel**. **Soodustuste aastane palgasumma** peab kehtima alates töövõtja alustamise kuupäevast või soodustuse perioodi algusest, olenevalt sellest, kumb on hilisem. Siiski ei ole ametikohal vaja määrata soodustuste aastase palga **määramist**. Soodustuste aastapalga funktsiooni lubamiseks minge inimressursside jagatud **parameetrite** lehele soodustuste **halduse vahekaardil**.**See** funktsioon on vaikimisi välja lülitatud.
 
 > [!IMPORTANT]
-> Kui töötajale kantakse nii fikseeritud hüvitis kui ka **hüvitiste aastapalga** summa, **kasutatakse hüvitiste aastapalka** kindlustussummade **määramisel.** **Lehe Töötaja** jaotises **Töösuhte üksikasjad** peate valima väärtuse väljal **Hüvitise maksmise sagedus**.
+> Kui töötajale on **sisestatud** nii põhipalk **kui** ka soodustused iga-aastase palga summa, **kasutatakse** kattesummade määramiseks soodustuste aastapalka. **Lehekülje Töötaja jaotises** Tööhõive üksikasjad **peate** valima väärtuse väljal **Soodustuse tasusagedus**.
 
 ## <a name="configure-optional-employee-information"></a>Valikulise töötaja teabe konfigureerimine
 Kui loote soodustusplaani, mis kasutab sool või vanusel põhinevaid määrasid, peate soodustuse maksumuse arvutamiseks sisestama töötaja sünnikuupäeva ja soo.
 
 ## <a name="process-employees-to-determine-eligibility"></a>Töödelge töötajaid abikõlblikkuse kindlakstegemiseks
-Enne, kui töötajaid saab plaanidele registreerida, käitatakse sobivuse töötlemine, et määrata, milliste plaanide jaoks nad sobilikud on. Abikõlblikkuse protsessi tulemusi saate vaadata protsessi tulemuste **vaaturis**. Lisateavet vt teemast [Protsessi registreerimise sobivus](hr-benefits-process-enrollment-eligibility.md).
+Enne, kui töötajaid saab plaanidele registreerida, käitatakse sobivuse töötlemine, et määrata, milliste plaanide jaoks nad sobilikud on. Sobivuse protsessi tulemusi saate vaadata protsessi tulemuste **vaaturis**. Lisateavet vt teemast [Protsessi registreerimise sobivus](hr-benefits-process-enrollment-eligibility.md).
 
-## <a name="employees-select-plans-using-employee-self-service-optional"></a>Töötajad valivad lepingud töötaja iseteeninduse **abil**(valikuline)
+## <a name="employees-select-plans-using-employee-self-service-optional"></a>Töötajad valivad plaanid töötaja **iseteeninduse abil** (valikuline)
 
-Kui registreerimine on avatud, töötajad on äsja tööle võetud või toimub elusündmus, saavad töötajad valida või uuendada oma eeliseid töötaja iseteeninduse **abil**. Lisateavet vt teemast [Töötaja iseteeninduse konfigureerimine](hr-benefits-setup-employee-self-service.md).
+Avatud registreerimise toimumisel, kui töötajad palgatakse uuesti või toimub elusündmus, saavad töötajad valida või uuendada oma soodustusi **Töötajate iseteeninduse abil**. Lisateavet vt teemast [Töötaja iseteeninduse konfigureerimine](hr-benefits-setup-employee-self-service.md).
 
 ## <a name="confirm-employee-plan-selections"></a>Kinnitage töötaja plaani valikud
 

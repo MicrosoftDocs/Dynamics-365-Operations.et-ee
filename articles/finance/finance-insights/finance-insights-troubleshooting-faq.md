@@ -8,21 +8,21 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom:
 - "14151"
 - intro-internal
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
-ms.author: shpandey
+ms.author: panolte
 ms.search.validFrom: 2021-08-20
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: fc616e5fce6bbfeaa3b36ccc35f1b1cf407af4a6
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: 5669b414283013ae1de095de2201df066ab588dd
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109856"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8725901"
 ---
 # <a name="troubleshoot-finance-insights-setup-issues"></a>Finance Insights häälestusprobleemide tõrkeotsing
 
@@ -34,7 +34,7 @@ Selles teemas loetletakse probleemid, mis võivad ilmneda Finance Insights võim
 
 ### <a name="resolution"></a>Lahendus
 
-Te võite kasutada malli varasema versiooni jaoks. Enne versiooni 10.0.17 väljalaset konfigureerisid eelvaate kliendid **Kliendi makseülevaadete tulemused (CDS fini ja Opsi)** andmeintegratsiooni (DI) malli, kasutades **Makse ennustuse tulemust (eelvaade)**. Pärast versiooniks 10.0.17 ja uuemaks täiendamist peaksite vastendamise lõpule viimiseks kasutama **Kliendi makseülevaate tulemusi (CDS finiks ja ops 10.0.17 ja uuemat versiooni)**. Võimalik, et te ei saa DI-malli sihtveeru vastendada enne, kui andmehalduse üksuse loend on värskendatud ja **Makse ennustuse tulemuse** üksus ilmub selles. Üksuseloendi värskendamiseks ja makseennustuse tulemuse näitamiseks läbite sammud mõlemas, Microsoft Dynamics 365 Finance kui ka Dataverse (varem tuntud kui Common Data Service \[CDS\] haldusportaal).
+Te võite kasutada malli varasema versiooni jaoks. Enne versiooni 10.0.17 väljalaset konfigureerisid eelvaate kliendid **Kliendi makseülevaadete tulemused (CDS fini ja Opsi)** andmeintegratsiooni (DI) malli, kasutades **Makse ennustuse tulemust (eelvaade)**. Pärast versiooniks 10.0.17 ja uuemaks täiendamist peaksite vastendamise lõpule viimiseks kasutama **Kliendi makseülevaate tulemusi (CDS finiks ja ops 10.0.17 ja uuemat versiooni)**. Võimalik, et te ei saa DI-malli sihtveeru vastendada enne, kui andmehalduse üksuse loend on värskendatud ja **Makse ennustuse tulemuse** üksus ilmub selles. Üksuseloendi värskendamiseks ja makseennustuse tulemuse näitamiseks läbite Microsoft Dynamics sammud nii 365 Finantsis Dataverse kui ka (Common Data Service\[varem tuntud kui CDS-i haldusportaal\]).
 
 ### <a name="in-finance"></a>Finantsides
 
@@ -58,7 +58,7 @@ Järgige neid samme [Power Platform halduskeskuses](https://admin.powerplatform.
 
 ### <a name="resolution"></a>Lahendus
 
-Dynamics 365 Finance Kasutajatel peab olema Microsoft Power Apps keskkonna kasutajakonto ja kasutajakontol peab olema süsteemi kohandaja roll. Süsteemiadministraator Microsoft Power Apps saab luua kasutajakonto ja määrata rolli. Siis saate selle kasutajakontoga <https://make.preview.powerapps.com/> sisse logida ja proovida linke uuesti proovida.
+Dynamics 365 Finance'i Microsoft Power Apps kasutajatel peab olema keskkonna kasutajakonto ja kasutajakontol peab olema süsteemi kohandaja roll. Süsteemiadministraator Microsoft Power Apps saab luua kasutajakonto ja määrata rolli. Siis saate selle kasutajakontoga <https://make.preview.powerapps.com/> sisse logida ja proovida linke uuesti proovida.
 
 ## <a name="symptom-why-doesnt-the-cash-forecast-tab-in-the-cash-flow-forecast-workspace-show-any-data"></a>Sümptom: Miks ei kuva rahaprognoosi vahekaart rahavoo prognoosi tööruumis andmeid?
 
@@ -85,7 +85,7 @@ Kui teile on määratud õige projekti turberoll, peate võib-olla brauseri aken
 Järgmised sammud peaksid olema lõpule viidud.
 
 - Veenduge, et teil on **Süsteemiadministraator** ja **Süsteemi kohandaja** juurdepääs Power Portali halduskeskusele.
-- Kontrollige, Dynamics 365 Finance kas lisandmooduli installinud kasutajale rakendatakse vastav litsents või sellega võrdne litsents.
+- Veenduge, et dynamics 365 Finance või sellega võrdväärset litsentsi rakendatakse lisandmooduli installinud kasutajale.
 - Kontrollige, et järgmine Azure AD rakendus on registreeritud:Azure AD 
 
   | Avaldus                  | Rakenduse kood           |

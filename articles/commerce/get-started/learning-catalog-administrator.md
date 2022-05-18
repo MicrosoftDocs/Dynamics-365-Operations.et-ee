@@ -9,24 +9,23 @@ ms.prod: ''
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 74d349f6c870c638ee42086e47635817366c3a1a
-ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
+ms.openlocfilehash: 57b284663021bd60dcaf83cda2e10a319b33512a
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "7402588"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8693358"
 ---
 # <a name="learning-catalog-for-dynamics-365-commerce-administrators"></a>Õppekataloog Dynamics 365 Commerce'i administraatoritele
 
 Kas peate tagama süsteemide ja andmete voogavuse, ettevalmistamise ja turvalisuse ööpäevaringselt?
 
-Järgnev kataloog hõlmab üld- ja valdkonnapõhiseid teadmisi nii baas- kui ka süvatasemel. Kui sisu on mitmes vormingus, anname teile sellest teada, et saaksite valida koolitusvormingu, mis vastab teie vajadustele kõige paremini. See kataloog hõlmab ainult Dynamics 365 Commerce'i funktsioone. Koolitused, milles käsitletakse funktsioone, mis on ka teistes Finance and Operationsi rakendustes samasugused, leiate [Dynamics 365 Finance'i õppekataloogist](../../finance/get-started/learning-catalog-administrator.md).
+Järgnev kataloog hõlmab üld- ja valdkonnapõhiseid teadmisi nii baas- kui ka süvatasemel. Kui sisu on mitmes vormingus, anname teile sellest teada, et saaksite valida koolitusvormingu, mis vastab teie vajadustele kõige paremini. See kataloog hõlmab ainult Dynamics 365 Commerce'i funktsioone. Lisateavet teiste finantside ja toimingute rakendustega ühiskasutuses funktsioonide kohta vt [Dynamics 365 finantside õppe kataloogist](../../finance/get-started/learning-catalog-administrator.md).
 
-## <a name="get-started"></a>Alusta<a name="get-started"></a>
+## <a name="get-started"></a>Alustage<a name="get-started"></a>
 
 | Sisu  | Kirjeldus  | Vorming  | Pikkus    |
 |---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-----------|---------------------------------------------------------------------------|

@@ -1,6 +1,6 @@
 ---
 title: Ülesandehaldus
-description: Selles teemas selgitatakse Microsoftis saadaolevat ülesannete haldamise funktsiooni Dynamics 365 Human Resources.
+description: See teema kirjeldab Ülesandehalduse funktsioone, mis on Microsoftis saadaval Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 12/20/2021
 ms.topic: article
@@ -8,187 +8,189 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2021-29-11
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 727e1eb75f807d84f088cf3dd139eb094aa76618
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.openlocfilehash: ae453bd57217f272038decc7e40ed373f618ae03
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087213"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8710217"
 ---
 # <a name="task-management"></a>Ülesandehaldus
 
 [!INCLUDE [PEAP](../includes/peap-1.md)]
 
-Ülesannete haldamine võimaldab teil luua ülesandeid, mis tuleb täita töötajate palkamiseks (pardal), lõpetamiseks (offboard) ja üleviimise (ülemineku) töötajateks. Ülesannete haldamisel kasutatakse kontroll-loendite mõistet. Kontroll-loend on sisse- ja väljamineku- või üleminekuülesannete loendist. Ülesandehaldus kasutab kontroll-loendeid ülesannete rühmitamiseks ja üksikisikutele või rühmadele määramiseks. Sisse- ja väljalülitamise, pardalemineku ja üleminekute kontroll-loendi funktsioon on sarnane.
+Ülesande haldus võimaldab teil luua tööülesanded, mis tuleb lõpetada töötajate palkamiseks (põhi põhitööks), töölepingu lõpetamiseks (väljaminev) ja töötajate üleviimine (üleviimine). Ülesandehaldus kasutab kontroll-loendite kontseptsiooni. Kontroll-loend on loend põhi-, ameti- või üleminekuülesannete kohta. Ülesandehaldus kasutab kontroll-loendeid ülesannete grupeerimiseks ja nende määramiseks üksikisikutele või gruppidele. Kontroll-loendi funktsioonid on sisse- ja väljalülitamine sarnased.
 
 ## <a name="checklist-overview"></a>Kontroll-loendi ülevaade
 
-Kontroll-loend on ülesannete rühm. Kontroll-loendid annavad teile paindliku viisi ülesannete rühmitamiseks ja neid saab uuesti kasutada (näiteks kui palkate täiendavaid töötajaid). Saate luua nii palju kontroll-loendeid kui vaja ja määrata samad ülesanded mitmele kontroll-loendile.
+Kontroll-loend on ülesannete grupp. Kontroll-loendid annavad teile paindliku viisi ülesannete grupeerimiseks ning neid saab uuesti kasutada (nt lisatöötajate palkamisel). Saate luua nii palju kontroll-loendeid, kui vaja ja saate määrata samad ülesanded mitmele kontroll-loendile.
 
 ### <a name="examples"></a>Näited
 
-Järgmised näited näitavad, kuidas kontrollnimekirju saab sisseelamisprotsessis kasutada. Kuna aga registreerimisnimekirja funktsioon pardalemineku, pardalemineku ja üleminekute jaoks on sarnane, kehtib teave ka pardalemineku ja ülemineku protsesside kohta.
+Järgnevad näited näitavad, kuidas kontroll-loendeid saab kasutada sisseldmisprotsessis. Kuna aga kontroll-loendi funktsioonid on tahvlile, offboardingu ja üleminekud sarnased, rakendub teave ka offboarding- ja siirdeprotsessidele.
 
-Osana pardalemineku protsessist saavad inimressursside (HR) spetsialistid luua ülesandeid, mis jälgivad sissetulevate ja hiljuti palgatud töötajate pardalemineku edenemist. Kuna sisseelamisprotsess võib sõltuvalt töötaja asukohast või geograafilisest asukohast erineda, saate luua mitu sissesõidu kontroll-loendit, et mahutada erinevaid värbamisolukordi.
+Osana vastuvõetavast protsessist saavad inimressursside spetsialistid luua ülesandeid, mis jälgivad sissetulevate ja hiljuti palgatud töötajate edenemist. Kuna sisseostmise protsess võib sõltuvalt töötaja positsioonist või geograafilisest asukohast erineda, saate erinevate palkamise situatsioonide jaoks luua mitu sisseseadmis kontroll-loendit.
 
 **Näide 1**
 
-Iga Töötaja, kes on palgatud Ameerika Ühendriikides, peab täitma selliseid ülesandeid nagu maksude kinnipidamise vormide täitmine. Kuid sellised ülesanded nagu ettevõtte auto määramine võivad olla kohaldatavad ainult täitevtasandi töötajatele. Sellisel juhul saab luua kaks pardalemineku kontrollnimekirja: **ainult USA-s asuvad töötajad** ja **juhid**. Seejärel, kui Ameerika Ühendriikides palgatakse keskastme juht, **valitakse USA-s asuv töötajate** kontrollnimekiri. Kui aga Ameerika Ühendriikides palgatakse juhtivtöötaja, valitakse mõlemad kontrollnimekirjad, et tagada kõigi nõutavate pardalemineku ülesannete täitmine.
+Iga Ameerika Ühendriikidesse palgatud töötaja peab täitma selliseid ülesandeid nagu maksude kinnipidamisvormide täitmine. Kuid ülesanded, nagu ettevõttele auto määramine, võivad olla rakendatavad ainult tegevdirektori taseme personalile. Sel juhul saab luua kaks põhilist kontroll-loendit: **ainult USA-põhised** **töötajad ja juhatajad**. Seejärel valitakse USA kesktaseme juhi palkamisel **USA-s põhinevad töötajate kontroll-loend**. Kuid kui usa-s palgatakse tegevdirektor, valitakse mõlemad kontroll-loendid, et tagada kõikide nõutud põhiülesannete täitmist.
 
 **Näide 2**
 
-Ettevõttel on nii hooajatöötajad kui ka regulaarsed täistööajaga töötajad. Kuigi mõned ülesanded (näiteks uue töötaja saabumisaja kontrollimine) kehtivad mõlemat tüüpi töötajatele, kehtivad mõned lisaülesanded ainult tavalistele täistööajaga töötajatele. Sellisel juhul saate luua kaks kontroll-loendit. Mõlemad kontrollnimekirjad sisaldavad ülesandeid, mis kehtivad nii hooajalistele kui ka tavalistele täistööajaga töötajatele, kuid ainult üks kontrollnimekiri sisaldab neid ülesandeid, mis on spetsiifilised tavalistele täistööajaga töötajatele.
+Ettevõttes on nii hooajalisi kui ka regulaarseid täiskohaga töötajaid. Kuigi teatud tööülesanded (nt uue töötaja saabumise aja kontrollimine) rakenduvad mõlemat tüüpi töötajatele, rakenduvad mõned lisaülesanded ainult regulaarsetele täiskohaga töötajatele. Sel juhul saate luua kaks kontroll-loendit. Mõlemad kontroll-loendid hõlmavad nii hooajalisi kui ka regulaarseid täistööajaga töötajate ülesandeid, kuid ainult üks kontroll-loend sisaldab seda, et regulaarsetele täiskohaga töötajatele omased ülesanded.
 
-## <a name="task-management-workspace"></a>Ülesandehalduse tööruum
+## <a name="task-management-workspace"></a>Ülesannete halduse tööruum
 
-Tööruumis **Ülesandehaldus** loetletakse kõik toimingud, mis on määratud üksikisikutele sisse- ja väljalülitamise ja ülemineku protsessides. Protsessi ülesannete vaatamiseks valige vasakus ülanurgas sobiv vahekaart: **Sisse- ja** väljaminek **, Offboarding** või **Transitions**. Vaikimisi pääsevad ülesandehalduse **tööruumile juurde** ainult personalispetsialistid.
+Ülesandehalduse **tööruum** loendab kõik ülesanded, mis on üksikisikutele määratud sisseastumisel, mahajuhtimisel ja üleminekuprotsessides. Protsessi ülesannete vaatamiseks valige vastav vahekaart ülemises vasakpoolses nurgas: **Sisse lülitatud**, **Välja lülitatud** või **Üleminekud**. Vaikimisi pääsevad ülesandehalduse tööruumile juurde ainult **personalispetsialistid**.
 
-Vahekaart **Onboarding** sisaldab loendit **Alusta varsti**, mis näitab sissetulevaid töötajaid, ja hiljuti palgatud **loendit**, mis näitab hiljuti palgatud töötajaid. Mõlemas loendis saate valida ainult ühe töötaja. Töötaja valimisel kuvatakse lehe paremal küljel kõik selle töötaja pardaleminekuga seotud ülesanded. Vahekaart **Onboarding** sisaldab ka loendit **Kõik tööülesanded**, mis näitavad kõiki sissetulevate või hiljuti palgatud töötajate ülesandeid. Lõpuks sisaldab see tähtaja ületanud ülesannete loendit ja praegusele kasutajale määratud ülesannete loendit.
+Vahekaart **Sissetulev vahekaart** sisaldab peatselt **algloendit**, mis **näitab** hiljuti palgatud töötajaid ja sissetulevate töötajate loendit. Mõlemas loendis saate valida ainult ühe töötaja. Kui valite töötaja, näidatakse kõiki selle töötajaga seotud ülesandeid lehekülje paremal küljel. Vahekaart **Sissetulev sisaldab** ka kõigi ülesannete **loendit**, mis näitab kõiki sissetulevate või hiljuti palgatud töötajate ülesandeid. Lõpuks sisaldab see tähtaja ületanud ülesannete loendit ja praegusele kasutajale määratud ülesannete loendit.
 
-Vahekaart **Offboarding** sisaldab ettevõttest lahkuvate töötajate loendit ja ettevõttest juba väljunud töötajate loendit. Mõlemas loendis saate valida ainult ühe töötaja. Töötaja valimisel kuvatakse kõik selle töötaja offboardingiga seotud ülesanded. Vahekaart **Offboarding** sisaldab ka loendit **Kõik tööülesanded**, mis näitavad kõiki väljunud või väljunud töötajate ülesandeid. Lõpuks sisaldab see tähtaja ületanud ülesannete loendit ja praegusele kasutajale määratud ülesannete loendit.
+Vahekaart **Offboarding** sisaldab ettevõttest lahkunud töötajate loendit ja ettevõttest juba väljunud töötajate loendit. Mõlemas loendis saate valida ainult ühe töötaja. Kui valite töötaja, kuvatakse kõik ülesanded, mis on seotud selle töötaja ametist väljas olemisega. Vahekaart **Offboarding** sisaldab ka kõigi ülesannete **loendit, mis** näitab kõiki ülesandeid kõigi lahkumis- või lahkumistöötajate jaoks. Lõpuks sisaldab see tähtaja ületanud ülesannete loendit ja praegusele kasutajale määratud ülesannete loendit.
 
-Vahekaart **Üleminekud sisaldab loendit** Kõik **tööülesanded**, mis kuvab kõik ülesanded kõigi töötajate jaoks, kes vahetavad positsioone või kes on hiljuti positsioone muutnud. Samuti on olemas tähtaja ületanud ülesannete loend ja praegusele kasutajale määratud ülesannete loend.
+Vahekaart **Siirded** sisaldab kõigi ülesannete **loendit**, mis näitab kõiki ülesandeid kõigi töötajate jaoks, kes ametikohti muudavad või kes on hiljuti vahetanud ametikohti. Samuti on olemas tähtaja ületanud ülesannete loend ja praegusele kasutajale määratud ülesannete loend.
 
-Kõigil kolmel vahekaardil saavad personaliassistendid ja haldurid teha järgmised tegevused.
-
-- Rakenda töötajale kontroll-loend.
-- Värskendage tööülesande olekut.
-- Ülesande ümbermääramine.
-- Värskendage ülesande tähtaega.
-
-> [!NOTE]
-> Vaikimisi kuvatakse vahekaardil Onboarding **töötajad,** kes on viimase seitsme päeva jooksul palgatud. Selle sätte muutmiseks **sisestage lehe** Inimressursside parameetrid **vahekaardi Üldine** väljale **Viimatised palgad** ajaraami. Loendis Viimatised **palgad** olevat teavet saab kuvada kindla päevade, kuude või aastate kohta. Näiteks viimase 14 päeva jooksul palgatud töötajate loendi vaatamiseks seadke **välja** Periood **14** ja **välja Ühikuks** **Päevad**.
->
-> **Lehel Inimressursside parameetrid** saate värskendada ka väljunud ja väljunud töötajate loendite kuupäevavahemikku, mis kuvatakse vahekaardil **Offboarding**.
->
-> Need sätted kehtivad ka personalihalduse **tööruumi kohta**.
-
-## <a name="setting-up-tasks"></a>Ülesannete häälestamine
-
-Saate luua ülesandeid individuaalselt ja seejärel neid mitmes kontroll-loendis uuesti kasutada. Tööülesande **loomiseks valige lehel Pardalemineku häälestus** vahekaardil **Tööülesanded** suvand **Uus**.
-
-Teise võimalusena saate ülesandeid lisada otse kontroll-loendisse. Ülesande lisamiseks kontroll-loendisse klõpsake **Sisselülitamise seadistamine** lehel **Kontrollnimekiri** looge ülesande lisamiseks uus kontroll-loend või lisage ülesanne olemasolevasse kontroll-loendisse.
+Kõigil kolmel vahekaardil saavad personali abistajad ja haldurid sooritada järgmisi toiminguid:
+- Kontroll-loendi töötajale rakendamine
+- Ülesande oleku värskendamine
+- Ülesande uuestimääramine
+- Ülesande tähtaja värskendamine
 
 > [!NOTE]
-> Kui lisate ülesande otse kontroll-loendisse, ei saa te seda teistes kontroll-loendites uuesti kasutada.
+> Vaikimisi näitab vahekaart **Sisseostja** töötajaid, kes on palgatud viimase 7 päeva jooksul. Selle sätte muutmiseks **sisestage** **·** **ajaraami lehekülje Inimressursside parameetrid vahekaardi Üldine väljale Hiljutised** palkamised. Loendis Hiljutised **palkamised** kuvatud teavet saab kuvada kindla päevade, kuude või aastate arvu kohta. Näiteks viimase 14 **päeva jooksul palgatud töötajate loendi vaatamiseks seadke välja Periood** **väärtuseks 14** **ja** välja Ühik väärtuseks Päevad.**·**
+> **Inimressursside parameetrite lehel** saate uuendada ka lahkumis- ja väljumistöötajate loendite kuupäevavahemikku, mis kuvatakse **vahekaardil Mahapaigutus**. Need sätted kehtivad ka personalihalduse **tööruumi** kohta.
 
-Järgmises tabelis kirjeldatakse välju, mis on saadaval, kui loote ülesande kummagi meetodiga.
+## <a name="setting-up-tasks"></a>Ülesannete seadistamine
 
-| Field           | Kirjeldus |
+Saate ülesandeid luua ükshaaval ja seejärel taaskasutada neid mitmes kontroll-loendis. Ülesande loomiseks tehke lehel Põhiseadistus vahekaardil Ülesanded valik **Uus**.**·** **·**
+
+Võite ülesandeid lisada ka otse kontroll-loendisse. Ülesande lisamiseks kontroll-loendile, **·** **on sisseostmise seadistuse lehel vahekaardil Kontroll-loend** looge uus kontroll-loend, et ülesanne lisada või lisage ülesanne olemasolevasse kontroll-loendisse.
+
+> [!NOTE]
+> Kui lisate ülesande otse kontroll-loendisse, ei saa te seda teistes kontroll-loendites taaskasutada.
+
+Järgmises tabelis kirjeldatakse välju, mis on saadaval, kui loote ülesande mõlema meetodiga.
+
+| Väli           | Kirjeldus |
 |-----------------|-------------|
 | Ülesanne            | Sisestage ülesande nimi. |
 | Kirjeldus     | Sisestage ülesande kirjeldus. |
-| Valikuline        | Määrake, kas ülesanne on valikuline ja ainult informatiivne. |
-| Ülesande link       | Sisestage välise veebilehe URL või rakenduses konkreetne leht, kus kasutaja peaks ülesande täitma. Lisateabe saamiseks vaadake [Ülesande lingid](#task-links) osa. |
-| Määramise tüüp | Ülesandeid saab määrata konkreetsele töötajale, ametikohale või ametikohtade rühmale, mõjutatud töötaja juhile (st töötajale, kes osaleb sisse-, välja- või üleminekuprotsessis) või mõjutatud töötajale. Valige ülesande tüüp. Lisateabe saamiseks vaadake [Ülesande tüübid](#assignment-types) osa. |
-| Määratud töötajale     | Valige konkreetne töötaja, ametikoht või ametikohtade rühm, millele ülesanne määrata. |
-| Kontaktisik  | Täpsustage isik, kelle poole tuleks pöörduda, kui ülesande kohta on küsimusi. |
-| Tähtaja nihe | Määrake päevade arv enne või pärast ülesande täitmise tähtaega liitumis-, lõpetamis- või üleminekukuupäeva. Lisateabe saamiseks vaadake [Ülesande tähtpäevad ja väli Tähtaja nihe](#task-due-dates-and-the-due-date-offset-field) osa. |
-| Juhised    | Sisestage juhised ülesande täitmiseks. Lisateabe saamiseks vaadake [Juhised](#instructions) osa. |
+| Valikuline        | Määrake, kas ülesanne on valikuline ja ainult teabeline. |
+| Ülesande link       | Sisestage välise veebilehe VÕI kindla lehe URL rakenduses, kus kasutaja peaks ülesande lõpule viima. Lisateavet vt ülesande linkide [jaotisest](#task-links). |
+| Määramise tüüp | Ülesandeid saab määrata kindlale töötajale, ametikohale või positsioonide grupile, mõjutatud töötaja juhatajale (st töötajale, kes on osa põhitööst, ametialalt või siirde protsessist) või mõjutatud töötajale. Valige määramise tüüp. Lisateavet vt jaotisest [Määrangutüübid](#assignment-types). |
+| Määratud kasutajale     | Valige konkreetne töötaja, ametikoht või positsioonide grupp, mille jaoks ülesanne määrata. |
+| Kontaktisik  | Saate määrata isiku, kellega tuleks ühendust võtta, kui ülesande kohta on küsimusi. |
+| Tähtaja vastaskonto | Määrake päevade arv enne või pärast ülesande täitmiseks lubatud põhist, lõpetamist või siirde kuupäeva. Lisateavet vt jaotisest Ülesande [tähtajad ja Tähtaja vastaskonto](#task-due-dates-and-the-due-date-offset-field) väli. |
+| Juhised    | Sisestage juhised ülesande lõpetamiseks. Lisateavet vt jaotisest [Juhised](#instructions). |
 
 ### <a name="task-links"></a>Ülesande lingid
 
-Ülesande link pakub linki välisele veebilehele või Dynamics 365 rakenduse lehele. Saate määrata ülesande lingi, kui ülesandele määratud isik peaks selle ülesande täitmiseks minema Dynamics 365 rakenduses konkreetsele veebilehele või konkreetsele lehele. Ülesande lingi loomisel saate valida ühe järgmistest valikutest.
+Ülesande link annab lingi välisele veebilehele või Dynamics 365 rakenduse leheküljele. Saate määrata ülesande lingi, kui ülesandega seotud isik peaks ülesande lõpetamiseks minge konkreetsele veebilehele või kindlale lehele Dynamics 365 rakenduses. Ülesande lingi loomisel saate valida ühe järgmistest suvanditest:
 
-- **Menüüelement** – Kui valite selle suvandi, kuvatakse kõigi Dynamics 365 rakenduse lehtede loend. Valige loendist leht.
-- **URL** – Kui valite selle suvandi, sisestage selle veebilehe URL, kuhu soovite ülesandega määratud isikul liikuda. Määratud leht võib olla leht, mis ei ole Dynamics 365 rakenduse osa.
-- **Töötaja andmed** – Kui valite selle suvandi, valige üks järgmistest valikutest.
+- **Menüükäsk** – selle suvandi valimisel kuvatakse Dynamics 365 rakenduse kõigi lehtede loend. Valige loendist lehekülg.
+- **URL** : selle suvandi valimisel sisestage selle veebilehe URL, kuhu soovite ülesandele määratud isiku üle viia. Määratud lehekülg võib olla leht, mis ei ole Dynamics 365 rakenduse osa.
+- **Töötaja üksikasjad** – selle suvandi valimisel valige üks järgmistest suvanditest:
 
-    - **Töötaja iseteenindustegevused** – See suvand näitab saadaolevate lehtede loendit **Töötaja iseteenindus**. Kasutage seda, kui kaasatud töötajale määratud ülesanne tuleb täita **Töötaja iseteenindus**. Näiteks kui soovite, et töötaja sisestaks oma isiklikud kontaktandmed, valige **Töötaja iseteenindustegevused** ja seejärel valige **Isiklikud detailid&gt; Isiklik informatsioon**.
-    - **Töötajate juhtimise toimingud** – See suvand kuvab lehtede loendi, mis on seotud töötaja kirjega, kuid mis pole töötajale juurdepääsetavad. Näiteks kui soovite, et ülesande omanik sisestaks konkreetse töötaja kohta käiva teabe, näiteks hüvitisteabe, valige **Töötajate juhtimise toimingud** ja seejärel valige **Hüvitis&gt; Fikseeritud hüvitis**.
+    - **Töötaja iseteenindustegevused** – see valik kuvab loendi lehtedest, mis on saadaval Töötaja **iseteeninduses**. Kasutage seda juhul, kui töötajale määratud ülesanne peab olema täidetud Töötaja **iseteeninduses**. Näiteks kui soovite, et töötaja sisestaks oma isikliku kontaktteabe, valige töötaja **iseteenindustegevused** ja seejärel valige **Personal DetailsPersonal&gt; Information**.
+    - **Töötaja haldustegevused** – see suvand kuvab loendi lehtedest, mis on seotud töötaja kirjega, kuid mis pole töötaja jaoks saadaval. Näiteks, kui soovite, et ülesande omanik sisestaks teabe, mis on konkreetne põhitöölisele, nt kompensatsiooni teave, **valige** Töötaja haldustegevused ja seejärel valige **Hüvitusefikseeritud&gt; kompensatsioon**.
 
-### <a name="assignment-types"></a>Ülesande tüübid
+### <a name="assignment-types"></a>Määrangutüübid
 
-Kui töötaja võetakse tööle, lõpetatakse või üle viiakse, saab valida ühe või mitu kontrollnimekirja. Pärast kontrollnimekirja valimist ja töölevõtmise, lõpetamise või üleviimise protsessi lõppu luuakse ülesanded ja määratakse kasutajatele edenemise jälgimiseks.
+Kui töötaja on palgatud, lõpetatud või üle kantud, saab valida ühe või mitu kontroll-loendit. Kui kontroll-loend on valitud ja palkamise, lõpetamise või üleviimise protsess on lõpetatud, luuakse toimingud ja määratakse edenemise jälgimiseks kasutajatele.
 
-Kui ülesanne on loodud, määratakse see konkreetsele kasutajale. Kasutaja, kellele ülesanne määratakse, sõltub selle ülesande jaoks valitud ülesande tüübist. Järgmised väärtused on saadaval **Ülesande tüüp** väli:
+Ülesande loomisel määratakse see kindlale kasutajale. Kasutaja, kellele ülesanne määratakse, sõltub ülesande jaoks valitud määramise tüübist. Väljal Määrangu tüüp on saadaval **järgmised** väärtused:
 
-- **Tööline** – Määrake ülesanne konkreetsele töötajale. Pärast selle väärtuse valimist valige jaotisest töötaja **Määratud** valdkonnas.
-- **positsioon** – Määrake ülesanne konkreetsele ametikohale. Pärast selle väärtuse valimist valige positsioonis **Määratud** valdkonnas.
+- **Töötaja** : määrake ülesanne kindlale töötajale. Pärast selle väärtuse valimist valige töötaja väljal **Määratud**.
+- **Ametikoht** – määrake ülesanne kindlale ametikohale. Pärast selle väärtuse valimist valige positsioon **väljal Määratud**.
 
-    Näiteks IT-insener vastutab alati uue töötaja sülearvuti ettevalmistamise eest. Sel juhul valige sülearvuti konfiguratsiooniülesande loomisel **positsioon** ülesande tüübina ja seejärel valige **IT insener** kui positsioon. Seejärel, kui töötaja on palgatud ja kontrollnimekiri on määratud, määratakse sülearvuti konfiguratsiooniülesanne sellele töötajale, kes on IT-inseneri ametikohal palkamistoimingu sisestamise ajal.
+    Näiteks IT-insener vastutab alati sülearvuti ettevalmistamise eest uuele töötajale. Sel juhul, kui loote sülearvuti konfiguratsiooni ülesande, valige **määramise** tüübiks positsioon ja seejärel valige **ametikohaks IT-insener**. Seejärel, kui töötaja palgatakse ja kontroll-loend on määratud, määratakse sülearvuti konfiguratsiooni ülesanne sellele, milline töötaja on IT-insener positsioonil palkamise toimingu sisestamise ajal.
 
-- **Grupp** – Määrake ülesanne ametikohtade rühmale (ülesannete grupp). Pärast selle väärtuse valimist valige loendis rühm **Määratud** valdkonnas. Lisateabe saamiseks vaadake [Ülesanderühmade seadistamine (valikuline)](#setting-up-assignment-groups-optional) osa.
-- **Juht** – Määrake ülesanne töölevõetava, töö lõpetamise või üleviimise töötaja juhile.
+- **Grupp** – ülesande määramine positsioonide grupile (määrangugrupp). Pärast selle väärtuse valimist valige grupp **väljal Määratud**. Lisateavet vt jaotisest Määramisgruppide [seadistamine (Valikuline](#setting-up-assignment-groups-optional)).
+- **Juhataja** : määrake ülesanne palgata, lõpetatud või ülekantud töötaja juhile.
 
     > [!IMPORTANT]
-    > Kontrollnimekirja rakendamisel, kui palgatud, lõpetatud või üleviidud töötajale pole praegu määratud ühtegi ametikohta, ei saa juhti määrata. Sel juhul määratakse ülesanne kontrollnimekirja omanikule. Lisateabe saamiseks vaadake [Kontrollnimekirjade koostamine](#setting-up-checklists) osa.
+    > Kui kontroll-loendit ei rakendata, ei saa juhatajat määratleda, kui palgatud, lõpetatud või üle kantud töötajale pole praegu ametikohta määratud. Sel juhul määratakse ülesanne kontroll-loendi omanikule. Lisateavet vt jaotisest [Kontroll-loendite seadistamine](#setting-up-checklists).
 
-- **Töötaja** – Määrake tööle võetav, lõpetatav või üleviidav töötaja.
+- **Töötaja** – määrake töötaja, kes palgatakse, lõpetatakse või üle viiakse.
 
-### <a name="task-due-dates-and-the-due-date-offset-field"></a>Ülesande tähtpäevad ja väli Tähtaja nihe
+### <a name="task-due-dates-and-the-due-date-offset-field"></a>Ülesande tähtajad ja tähtaja vastaskonto väli
 
-Tööülesannete tähtpäevad põhinevad töösuhte alguskuupäeval, lõpetamise kuupäeval või üleminekukuupäeval. Mõned ülesanded tuleb lõpetada enne töötaja alguskuupäeva, samas kui teised ülesanded saab lõpetada pärast seda. Ülesande määratlemisel määrate **Tähtaja nihe** väljale tähtpäeva määramiseks, mis on seotud alguskuupäeva, lõpetamise kuupäeva või üleminekukuupäevaga. Näiteks IT-insener peab uuele töötajale sülearvuti ette valmistama kaks päeva enne selle töötaja alguskuupäeva. Sel juhul määrake sülearvuti konfiguratsiooniülesande loomisel **Tähtaja nihe** väljale **-2**. Siis, kui töötaja töö alguskuupäev on 5. mai, siis ülesande täitmise tähtaeg on 3. mai.
+Ülesande tähtajad põhinevad töösuhte alguskuupäeval, lõpetamise kuupäeval või siirde kuupäeval. Mõned ülesanded peavad olema lõpetatud enne töötaja alguskuupäeva, samas kui teisi ülesandeid saab pärast lõpule viia. Ülesande määratlemisel seadistate **tähtaja** vastasvälja, et määrata alguskuupäeva, lõpetamise kuupäeva või siirde kuupäevaga seotud tähtaeg. Näiteks IT-insener peab uuele töötajale kaks päeva enne selle töötaja alguskuupäeva sülearvuti ette valmistama. Sellisel juhul, kui loote sülearvuti konfiguratsiooni ülesande, seadistage **tähtaja tasakaalustuse välja** väärtusele **-2**. Kui töötaja alguskuupäev on 5. mai, on ülesande tähtaeg 3. mai.
 
 > [!NOTE]
-> Tähtaegu saab muuta pärast ülesande loomist.
+> Tähtaegu saab pärast ülesande loomist korrigeerida.
 
-Tähtajad arvutatakse kontrollnimekirjaga seotud kalendri alusel. Lisateabe saamiseks vaadake [Kontrollnimekirjade koostamine](#setting-up-checklists) osa.
+Tähtajad arvutatakse kontroll-loendiga seotud kalendri alusel. Lisateavet vt jaotisest [Kontroll-loendite seadistamine](#setting-up-checklists).
 
 ### <a name="instructions"></a>Juhised
 
-Komplekssed ülesanded võivad nõuda mitut sammu või ülesande täitja peab andma lisateavet. Aastal **Juhised** väljale saate sisestada juhiseid või lisateavet, et aidata isikul, kellele ülesanne on määratud, seda täita.
+Kompleksülesanded võivad nõuda mitut sammu või võib isikul, kes ülesannet täidab, anda täiendavat teavet. **Väljale Juhised** saate sisestada juhised või lisateabe ülesandega seotud isiku abi saamiseks.
 
-## <a name="setting-up-checklists"></a>Kontrollnimekirjade koostamine
+## <a name="setting-up-checklists"></a>Kontroll-loendite seadistamine
 
-Kontroll-loend on ülesannete rühm. Saate luua nii palju kontroll-loendeid kui vaja ja määrata samad ülesanded mitmele kontroll-loendile. Kontrollnimekirja loomisel määrate omaniku ja kalendri.
+Kontroll-loend on ülesannete grupp. Saate luua nii palju kontroll-loendeid, kui vaja ja saate määrata samad ülesanded mitmele kontroll-loendile. Kontroll-loendi loomisel määrate omaniku ja kalendri.
 
-Kui **Ülesande tüüp** ülesande väli on seatud **positsioon**, **·**, või **Grupp**, kuid ülesande tüübist ei saa tuletada ühtegi konkreetset isikut, määratakse ülesanne kontrollnimekirja omanikule. Siin on mõned näited olukordadest, kus kontrollnimekirja omanikule määratakse ülesanded.
+Kui ülesande **määrangu** tüübi **väli** on seatud väärtusele Positsioon, **·** **Juhataja või Grupp**, kuid määramise tüübist ei saa konkreetset töötajat tuletada, määratakse ülesanne kontroll-loendi omanikule. Siin on mõned näited olukorrast, kus ülesanded määratakse kontroll-loendi omanikule:
 
-- Tööle võetavale või koondatavale töötajale ametikohta ei määrata. Kuna töötajal ei ole ametikoha määramist, ei saa tema juhti määrata.
-- The **Ülesande tüüp** väli on seatud **positsioon**, kuid ülesande loomise ajal pole sellele ametikohale määratud ühtegi töötajat. Näiteks **Sülearvuti seadistamine** ülesanne on määratud positsioonile 000876 (**Tehnilise toe spetsialist**). Töötaja töölevõtmise ajal ei määrata ühtegi töötajat ametikohale 000876. Seetõttu luuakse kontrollnimekirja omanikule ülesanne.
-- The **Ülesande tüüp** väli on seatud **Grupp**, kuid ülesande loomise ajal pole rühma ametikohtadele määratud ühtegi töötajat.
+- Palgaastatele või tööltaanud töötajale pole ühtegi positsiooni määratud. Kuna töötajale ei ole määratud ametikohta, ei saa tema juhatajat määrata.
+- Välja **Määrangu** tüüp väärtuseks on **seatud** Positsioon, kuid töötajat pole ülesande loomise ajal ametikohale määratud. Näiteks määratakse sülearvuti seadistuse **ülesanne** positsiooninumbrile 000876 (**Tehnilise toe spetsialist**). Töötaja palkamise ajal pole ühtegi töötajat määratud ametikohale 000876. Seepärast luuakse kontroll-loendi omaniku jaoks ülesanne.
+- Välja **Määrangu** tüüp väärtuseks on **seatud** Grupp, kuid töötajat pole ülesande loomise ajal grupi positsioonidele määratud.
 
-Kontrollnimekirja jaoks määratud kalendrit kasutatakse sellesse kontrollnimekirja kuuluvate ülesannete tähtpäevade arvutamiseks. Töö- ja puhkepäevad määratakse kalendri seadistuses. Tööülesannete täitmise tähtpäeva arvestamisel arvestatakse tööpäevad ja välja jäetakse vabad päevad. Töövabade päevade hulka kuuluvad nädalavahetused ja pühad. 
+Kontroll-loendi jaoks määratud kalendrit kasutatakse selle kontroll-loendiga seotud ülesannete tähtaja arvutamiseks. Töö- ja mitte tööpäevad määratletakse kalendri seadistuses. Tööpäevad kaasatakse ülesannete tähtaja arvutamisel ja mitte-tööpäevad jäetakse välja. Mittetööpäevad hõlmavad nädalavahetusi ja puhkusi. 
 
-Pärast kalendri seadistamist seostatakse see kontrollnimekirja malliga. Nii arvutatakse iga kontrollnimekirjas oleva ülesande tähtaeg samal viisil. Saate seadistada mitu kalendrit, kuid iga kontrollnimekirjaga saab seostada ainult ühe kalendri.
+Pärast kalendri seadistamist on see seotud kontroll-loendi malliga. Sel viisil arvutatakse kontroll-loendi iga ülesande tähtaeg samal viisil. Saate seadistada mitmeid kalendreid, kuid iga kontroll-loendiga saab seostada ainult ühe kalendri.
 
-## <a name="setting-up-assignment-groups-optional"></a>Ülesanderühmade seadistamine (valikuline)
+## <a name="setting-up-assignment-groups-optional"></a>Määramisgruppide seadistamine (valikuline)
 
-Mõnikord vastutab ülesande eest rühm inimesi. Näiteks võib IT-töötajate rühm vastutada sülearvutite ettevalmistamise eest uute töötajate jaoks.
+Mõnikord vastutab ülesande eest üksikisikute grupp. Näiteks grupp IT-töötajaid võib olla vastutav sülearvutite ettevalmistamise eest uuteks töötajateks.
 
-Ülesanderühma seadistamiseks järgige neid samme.
+Määrangugrupi häälestamiseks järgige neid samme.
 
-1. peal **Grupiülesanne** leht, valige **Uus**.
-1. Sisestage nimi (näiteks **IT sülearvuti**) ja rühma kirjeldus.
+1. Grupi määrangulehel **valige** uus **·**.
+1. Sisestage grupi nimi (**nt IT-sülearvuti**) ja kirjeldus.
 1. Valige käsk **Salvesta**.
-1. peal **liikmed** FastTab, valige **Lisama**.
-1. Aastal **Positsioonid** väljal valige kõik ametikohad, mis ülesande eest vastutavad.
+1. Valige kiirkaardil **Liikmed** suvand **Lisa**.
+1. Väljal Positsioonid **valige** kõik ametikohad, mis ülesande eest vastutavad.
 
-Pärast ülesannete rühma loomist on see ülesande loomisel valimiseks saadaval. Ülesande jaoks konkreetse rühma valimiseks peate valima **Grupp** aastal **Ülesande tüüp**. Teie loodud grupp on seejärel valikus saadaval **Määratud** valdkonnas.
+Kui määrangugrupp on loodud, on see saadaval valiku jaoks ülesande loomisel. Konkreetse grupi valimiseks ülesandele peate valima suvandi Grupp **tüübist** **Määramine**. Loodud grupp on seejärel saadaval valiku jaoks väljal **Määratud**.
 
 > [!IMPORTANT]
-> Kui ülesanne on määratud rühmale, märgitakse ülesanne kui **Lõpetatud** kui üks inimene rühmas selle lõpetab. Ülesanded luuakse töölevõtmise, lõpetamise või ülemineku ajal. Need luuakse kasutajatele, kes on määratud rühma kaasatud ametikohtadele.
+> Kui ülesanne on määratud grupile, märgitakse ülesanne **lõpetatuks**, kui üks gruppi täidab selle. Ülesanded luuakse palkamise, lõpetamise või ülemineku ajal. Need luuakse kasutajatele, kes on määratud gruppi kaasatud positsioonidele.
 
-## <a name="setting-up-task-groups-optional"></a>Töörühmade seadistamine (valikuline)
+## <a name="setting-up-task-groups-optional"></a>Ülesandegruppide seadistamine (valikuline)
 
-Sisse-, välja- või üleminekuprotsess võib hõlmata paljusid ülesandeid. Kõigi nõutavate ülesannete kontroll-loendisse määramise hõlbustamiseks saate seotud ülesannete kategoriseerimiseks luua valikulisi tegumirühmi. Näiteks personali-, IT- ja palgaarvestusosakond peavad uue töötaja palkamiseks täitma konkreetseid ülesandeid. Seetõttu loote järgmised töörühmad: **HR**, **·**, ja **Palgaarvestus**. Seejärel saate ülesande loomisel ühe neist töörühmadest sellega seostada.
+Põhi-, offboarding või siirde protsess võib sisaldada palju ülesandeid. Kõigi nõutud ülesannete kontroll-loendile määramise hõlbustamiseks saate luua valikulisi ülesandegruppe seotud ülesannete kategoriseerimiseks. Näiteks inimressursside, IT ja palgaosakonnad peavad uue töötaja palkamiseks täitma kõik konkreetsed ülesanded. Seetõttu loote järgmised ülesandegrupid: **HR**, **IT** ja **Palk**. Seejärel saate ülesande loomisel seostada sellega ühe neist ülesandegruppidest.
 
-Kui soovite lisada ülesande kontroll-loendisse, saate ülesannete loendit filtreerida selle töörühma järgi, millele soovitud ülesanne on määratud. Näiteks kontrollnimekirja malli loomisel saate loendit filtreerida nii, et ainult need IT-ülesanded, mis on määratud **IT** töörühmad on näitusel. Seetõttu saate tagada, et valitud on ainult asjakohased IT-ülesanded.
+Kui soovite lisada ülesande kontroll-loendisse, saate filtreerida ülesannete loendit ülesandegrupi järgi, millele on määratud soovitud ülesanne. Näiteks kontroll-loendi malli loomisel saate loendit filtreerida nii, et kuvatakse ainult IT-ülesandegrupile **määratud IT-toimingud**. Seega saate tagada, et valitakse ainult asjakohased IT-toimingud.
 
-## <a name="using-checklists"></a>Kontrollnimekirjade kasutamine
+## <a name="using-checklists"></a>Kontroll-loendite kasutamine
 
-Kui töötaja võetakse tööle, lõpetatakse või üle viiakse, saab valida ühe või mitu kontrollnimekirja. Tööülesannete tähtpäevad ja töötajate ülesanded luuakse pärast palkamise, lõpetamise või üleminekuprotsessi lõppu. Näiteks kui valite **Laenutus** või **Rentige ja lisage üksikasju** nuppu, luuakse ülesanded üksikisikutele, lähtudes ülesande tüübist.
+Kui töötaja on palgatud, lõpetatud või üle kantud, saab valida ühe või mitu kontroll-loendit. Ülesande tähtajad ja töötaja määramised luuakse pärast palkamise, lõpetamise või ülemineku protsessi lõpetamist. Näiteks kui valite nupu Palka **või** **Palka ja lisa** üksikasjad, luuakse tööülesanded üksikisikutele, võttes aluseks määramise tüübi.
 
-Igale ülesandele määratakse tähtaeg, lisades või lahutades töötaja alguskuupäevast tähtpäeva nihe. Lisateabe saamiseks vaadake [Ülesande tähtpäevad ja väli Tähtaja nihe](#task-due-dates-and-the-due-date-offset-field) osa.
+Igale ülesandele määratakse tähtaeg, lisades või lahutades töötaja alguskuupäevast tähtaja tasakaalustuse. Lisateavet vt jaotisest Ülesande [tähtajad ja Tähtaja vastaskonto](#task-due-dates-and-the-due-date-offset-field) väli.
 
-Kui kasutate personalitoiminguid, luuakse ülesanded, kui **Täielik** nupp on valitud või toiming kinnitatakse.
+Personalitoimingute kasutamisel luuakse ülesanded nupu **Lõpeta** valimisel või tegevuse heakskiidul.
 
-Aastal **Ülesannete haldamine** tööruumis saate rakendada töötajale kontrollnimekirja, valides töötaja lihtsal loendi lehel või üksikasjade lehel ja seejärel valides **Rakenda kontrollnimekiri**. Väärtus **Sihtkuupäev** välja kasutatakse ülesannete tähtpäeva arvutamiseks. Tavaliselt peaks sihtkuupäev ühtima töötaja töölevõtmise, lõpetamise või ülemineku kuupäevaga.
+Ülesandehalduse **tööruumis** saate rakendada töötajale kontroll-loendi, valides töötaja lihtsal loendilehel või üksikasjade lehel ja valides seejärel rakenda **kontroll-loendi**. Välja Sihtkuupäev **kasutatakse** ülesannete tähtaja arvutamiseks. Tavaliselt peab sihtkuupäev vastama töötaja palkamise, lõpetamise või siirde kuupäevale.
 
-Samuti saate töötajale kontrollnimekirja rakendada, avades tema **Tööline** leht ja valimine **Kontrollnimekirjad** menüüs.
+Kontroll-loendit saate rakendada ka töötajale, avades lehekülje **Töötaja** ja valides **menüüst Kontroll-loendid**.
 
-## <a name="completing-tasks"></a>Ülesannete täitmine
+## <a name="completing-tasks"></a>Ülesannete lõpuleviimine
 
-peal **Töötaja iseteenindus** lehel saab töötaja vaadata kõiki talle määratud ülesandeid. Iga määratud ülesande puhul **Ülesanne**, **·**, **·**, ja **Kontaktisik** väärtused on näidatud. Lisaks saab töötaja iga ülesande jaoks avada seotud välise veebilehe või seotud lehe rakenduses Dynamics 365.
+**Töötaja iseteeninduse** lehel saab töötaja vaadata kõiki talle määratud ülesandeid. Kuvatakse iga määratud ülesande, **ülesande**, **kirjelduse** **·**, juhiste **ja kontaktisiku** väärtused. Lisaks saab töötaja iga ülesande jaoks avada seotud välist veebilehte või seotud lehte Dynamics 365 rakenduses.
 
-Ülesandeid saab märkida kui **Pooleli**, **·**, või **Lõpetatud**. Kui ülesanne määrati rühmale, märgitakse see kui **Lõpetatud** kui üks inimene rühmas selle lõpetab.
+Ülesandeid saab kuvada ka vaike-armatuurlaudal. Vaike-armatuurlauda ülesannete kuvamiseks:
+1. Avage kasutajavalikud **– eelistused – ülesandehaldus** 
+2. Valige suvand Kuva **ülesanded vaikimisi armatuurlauda** valikule **Sees**.  
 
-Ülesandeid saab ka ümber määrata.
+>[!Note] 
+>Kasutaja **valikutes** kuvamiseks peab ülesandehalduse **funktsioon** olema funktsioonihalduses **sisse lülitatud**.
+
+Toimingud saab märkida kui **Pooleli**, Tühistatud **või** Lõpule **viidud**. Kui ülesanne määrati grupile, märgitakse **see** lõpetatuks, kui üks gruppi täidab selle.
+
+Ülesandeid saab ka uuesti määrata.

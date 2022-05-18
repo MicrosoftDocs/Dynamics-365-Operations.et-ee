@@ -1,7 +1,7 @@
 ---
 title: Ostmisega seotud cXML-i täiustused
 description: Ostmisega seotud cXML-i täiustuste funktsioon põhineb olemasoleval väliskataloogi funktsioonil „Väljaregistreerimine”, mida kasutatakse ostutaotluste puhul.
-author: Henrikan
+author: GalynaFedorova
 ms.date: 08/03/2020
 ms.topic: article
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: CatCXMLParameters, CatCXMLPurchRequest
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: gfedorova
 ms.search.validFrom: 2020-08-03
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 2942b141eb3a5b83fb39b0de721bae60c074e01c
-ms.sourcegitcommit: f5885999e008a49fe072d95f15e239905c24918a
+ms.openlocfilehash: 319079ca82ea91a4ab963a1dfa34ed256a3ddb21
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/08/2021
-ms.locfileid: "7900701"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8674277"
 ---
 # <a name="purchasing-cxml-enhancements"></a>Ostmisega seotud cXML-i täiustused
 
@@ -141,7 +141,7 @@ Kui olete väliskataloogi kõigi atribuutide seadistamise ja muude sätete konfi
 
 Nagu mainiti jaotises [Tellimuse atribuutide määramine](#set-order-properties), saate seada väliskataloogi seadistuses atribuudi **POCOMMENTS** ja/või **VENDCOMMENTS** väärtuseks _TRUE_, kui soovite, et saadetav cXML sisaldaks teksti, mis on pärit ostutellimusele ja/või hankijakirjetele lisatud märkustest. Selles jaotises antakse üksikasjalikumat teavet selle kohta, kuidas süsteem neid manuseid kasutamise korral valib ja töötleb.
 
-Märkuste tüüpide seadistamiseks, mida süsteem hakkab otsima, minge **hankevormi \> häälestuse vormi \>\> seadistusse**. Seejärel seadke vahekaardil **Ostutellimus** välja **Kaasa seda tüüpi dokumendid** väärtuseks märkuse tüüp, mida soovite kaasata. Kaasatakse ainult teksti kujul märkmed, mitte dokumendi kujul manused.
+Märkuste tüüpide seadistamiseks, mida süsteem hakkab otsima, **minge hankevormi häälestuse \> vormi \> seadistusse \>**. Seejärel seadke vahekaardil **Ostutellimus** välja **Kaasa seda tüüpi dokumendid** väärtuseks märkuse tüüp, mida soovite kaasata. Kaasatakse ainult teksti kujul märkmed, mitte dokumendi kujul manused.
 
 ![Vormi seadistuse leht.](media/cxml-form-setup.png "Vormi seadistuse leht")
 

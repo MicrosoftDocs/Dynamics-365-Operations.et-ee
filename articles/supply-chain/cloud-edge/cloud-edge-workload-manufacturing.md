@@ -1,7 +1,7 @@
 ---
 title: Tootmise täideviimise töökoormused pilv- ja perimeeterskaalaüksuste jaoks
 description: See teema kirjeldab, kuidas tootmise läbiviimise töömahud töötavad koos pilv- ja perimeeterskaalaüksustega.
-author: cabeln
+author: johanhoffmann
 ms.date: 10/06/2020
 ms.topic: article
 ms.prod: ''
@@ -13,26 +13,26 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: SCM
-ms.author: cabeln
+ms.author: johanho
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 633740ee1e26d2e4ed2ea7031ef298fb11c2ab58
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: b30e16489b0b0169f08e52c70cf4489c9bf4ce1b
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068840"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8674050"
 ---
 # <a name="manufacturing-execution-workloads-for-cloud-and-edge-scale-units"></a>Tootmise täideviimise töökoormused pilv- ja perimeeterskaalaüksuste jaoks
 
 [!include [banner](../includes/banner.md)]
 
 > [!IMPORTANT]
-> Tootmise teostamise töökoormus on praegu saadaval ainult eelvaates.
+> Tootmise käivitamise töökoormus on praegu saadaval ainult eelvaates.
 >
 > Mõni ettevõtte funktsionaalsus ei ole avalikus eelvaates täielikult toetatud juhul, kui kasutatakse töökoormuse skaalaüksusi.
 >
-> Te ei saa käitada eelvaate valmistamise töökoormust mastaabiüksuses, kuhu on installitud ka lao täitmise töökoormus.
+> Te ei saa käitada eelvaate tootmise käivitamise töökoormust kaaluühikul, kuhu on installitud ka lao käivitamise töökoormus.
 
 Tootmise käivitamisel pakuvad mastaabiüksused järgmisi võimalusi:
 
@@ -132,21 +132,21 @@ Selles väljaandes teavitatakse lõpp- ja varjatud toimingutest (valmistoodete, 
 
  -->
 
-## <a name="enable-and-use-the-start-operation-on-a-scale-unit"></a>Lubage ja kasutage skaalaüksuse käivitustoimingut
+## <a name="enable-and-use-the-start-operation-on-a-scale-unit"></a>Luba ja kasuta algoperatsiooni kaaluühikus
 
-Praeguses versioonis toetab tootmis- ja partiitellimuste käivitamist [lao teostamise töökoormus](cloud-edge-workload-warehousing.md) (mitte tootmise teostamise töökoormus). Seetõttu peate selle funktsiooni kasutamiseks, kui olete skaalaseadmega ühendatud, täitma järgmised toimingud.
-
-- Installige oma kaaluühikusse nii lao käivitamise töökoormus kui ka tootmise käivitamise töökoormus.
-- Lubage *Alustage pilve- ja servamastaabiüksuse laohalduse töökoormuse tootmistellimust* funktsioon sisse [Funktsioonide haldamine](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
-- Kasutage tootmis- või partiitellimuse alustamiseks laohalduse mobiilirakendust.
-
-## <a name="enable-and-use-material-consumption-on-a-scale-unit"></a>Lubage ja kasutage materjalikulu skaalaühikul
-
-Praeguses versioonis toetab laohalduse mobiilirakenduse voogu materjali tarbimise registreerimiseks [lao teostamise töökoormus](cloud-edge-workload-warehousing.md) (mitte tootmise teostamise töökoormus). Seetõttu peate selle funktsiooni kasutamiseks, kui olete skaalaseadmega ühendatud, täitma järgmised toimingud.
+Praeguses vabastamises toetab tootmise ja partiitellimuste [käivitustoimingut lao käivitamise töökoormus](cloud-edge-workload-warehousing.md) (mitte tootmise käivitamise töökoormus). Seetõttu, et kasutada seda funktsiooni siis, kui olete ühendatud kaaluühikuga, peate lõpule viima need ülesanded:
 
 - Installige oma kaaluühikusse nii lao käivitamise töökoormus kui ka tootmise käivitamise töökoormus.
-- Lubage *Registreerige materjalikulu mobiilirakenduses skaalaühikul* funktsioon sisse [Funktsioonide haldamine](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
-- Materjalikulu registreerimiseks kasutage Laohalduse mobiilirakendust.
+- Lubage laohalduse *töökoormuse tootmistellimuse käivitamine funktsioonihalduses pilve ja servaskaala* ühiku [funktsiooni puhul](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+- Kasutage tootmis- või partiitellimuse käivitamiseks laohalduse mobiilirakendust.
+
+## <a name="enable-and-use-material-consumption-on-a-scale-unit"></a>Luba ja kasuta materjali tarbimist kaaluühikus
+
+Praeguses väljaandes toetab [laohalduse](cloud-edge-workload-warehousing.md) mobiilirakenduse voogu materjalitarbimise registreerimiseks lao käivitamise töökoormus (mitte tootmise käivitamise töökoormus). Seetõttu, et kasutada seda funktsiooni siis, kui olete ühendatud kaaluühikuga, peate lõpule viima need ülesanded:
+
+- Installige oma kaaluühikusse nii lao käivitamise töökoormus kui ka tootmise käivitamise töökoormus.
+- Lubage materjalitarbimise *registreerimine mobiilirakenduses funktsioonihalduses kaaluühiku*[funktsioonis](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+- Kasutage laohalduse mobiilirakendust materjalitarbimise registreerimiseks.
 
 [!INCLUDE [cloud-edge-privacy-notice](../../includes/cloud-edge-privacy-notice.md)]
 

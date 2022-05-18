@@ -1,24 +1,24 @@
 ---
 title: Kulukäitumispoliitika loomine ja määramine kulujuhtimisüksusele
 description: Kulukäitumine on kulude liigitamine fikseerituks või muutuvaks.
-author: ShylaThompson
+author: twheeloc
 ms.date: 06/27/2017
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
 ms.search.form: CAMCostBehaviorRule
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 77e79b4959d546fd04c9705220c7f7a4c4a0ffd0621a66553adbe1a85b6cce39
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 653bfb69c4ca118c700755cb95a6b349d2c6bbad
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712263"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8735138"
 ---
 # <a name="create-and-assign-a-cost-behavior-policy-to-a-cost-control-unit"></a>Kulukäitumispoliitika loomine ja määramine kulujuhtimisüksusele
 
@@ -28,60 +28,60 @@ Kulukäitumine on kulude liigitamine fikseerituks või muutuvaks. Poliitika ja v
 
 
 ## <a name="create-a-cost-behavior-hierarchy"></a>Kulukäitumise hierarhia loomine
-1. Valige menüü Kuluarvestus jaotis Dimensioonid ja seejärel jaotis Dimensioonihierarhiad.
-2. Klõpsake valikut Uus.
-3. Klõpsake käsku Loo.
-4. Tippige väljale Dimensioonihierarhia nimi väärtus Kulukäitumise hierarhia.
-5. Sisestage või valige väärtus väljal Dimensioon.
+1. Minge dimensioonide **> kuluarvestusse > dimensioonihierarhiatega**.
+2. Klõpsake valikut **Uus**.
+3. Klõpsake käsku **Loo**.
+4. **Tippige dimensiooni hierarhia nime** väljale Kulukäitumise hierarhia.
+5. Sisestage **või** valige väärtus väljal Dimensioon.
     * Valige suvand Kuluelemendid.  
-6. Klõpsake nuppu Salvesta.
-7. Klõpsake käsku Kuva hierarhia.
-8. Klõpsake valikut Uus.
-9. Tippige väärtus väljale Sõlme nimi.
+6. Klõpsake nuppu **Salvesta**.
+7. Klõpsake **käsku Kuva hierarhia**.
+8. Klõpsake valikut **Uus**.
+9. **Tippige väärtus väljale Sõlme** nimi.
     * Sisestage fikseeritud omahind.  
 10. Valige puus väärtus Kulukäitumise hierarhia.
-11. Klõpsake valikut Uus.
-12. Tippige väärtus väljale Sõlme nimi.
+11. Klõpsake valikut **Uus**.
+12. **Tippige väärtus väljale Sõlme** nimi.
     * Sisestage muutuv kulu.  
-13. Klõpsake nuppu Salvesta.
+13. Klõpsake nuppu **Salvesta**.
 14. Valige puus väärtus Kulukäitumise hierarhia\Fikseeritud omahind.
-15. Klõpsake valikut Uus.
+15. Klõpsake valikut **Uus**.
 16. Märkige loendis valitud rida.
-17. Sisestage või valige väärtus väljal Lähtedimensiooni liige.
-    * Dimensiooniliikmete vahemik võib sisaldada lünki, kuid liikmed ei tohi kattuda.  
-18. Sisestage või valige väärtus väljal Sihtdimensiooni liige.
-    * Dimensiooniliikmete vahemik võib sisaldada lünki, kuid liikmed ei tohi kattuda.  
+17. Sisestage **või valige väärtus** väljal Dimensiooni liikmelt.
+    * Dimensiooni liikmete vahemik võib sisaldada tühikuid, kuid liikmed ei tohi kattuda.  
+18. Sisestage **või valige väärtus** väljal Dimensiooni liikmeni.
+    * Dimensiooni liikmete vahemik võib sisaldada tühikuid, kuid liikmed ei tohi kattuda.  
 19. Valige puus väärtus Kulukäitumise hierarhia\Muutuv kulu.
-20. Klõpsake valikut Uus.
+20. Klõpsake valikut **Uus**.
 21. Märkige loendis valitud rida.
-22. Sisestage või valige väärtus väljal Lähtedimensiooni liige.
-    * Dimensiooniliikmete vahemik võib sisaldada lünki, kuid liikmed ei tohi kattuda.  
-23. Sisestage või valige väärtus väljal Sihtdimensiooni liige.
-    * Dimensiooniliikmete vahemik võib sisaldada lünki, kuid liikmed ei tohi kattuda.  
-24. Klõpsake nuppu Salvesta.
+22. Sisestage **või valige väärtus** väljal Dimensiooni liikmelt.
+    * Dimensiooni liikmete vahemik võib sisaldada tühikuid, kuid liikmed ei tohi kattuda.  
+23. Sisestage **või valige väärtus** väljal Dimensiooni liikmeni.
+    * Dimensiooni liikmete vahemik võib sisaldada tühikuid, kuid liikmed ei tohi kattuda.  
+24. Klõpsake nuppu **Salvesta**.
 
 ## <a name="create-the-policy-and-rules"></a>Poliitika ja reeglite loomine
-1. Avage Kuluarvestus > Poliitikad > Kulukäitumise poliitikad.
-2. Klõpsake valikut Uus.
-3. Tippige väärtus väljale Poliitika nimi.
-4. Sisestage või valige väärtus väljal Kuluelemendi dimensioonihierarhia.
+1. Minge kuluarvestuse **poliitikate > > kulukäitumise poliitikate kohta**.
+2. Klõpsake valikut **Uus**.
+3. **Tippige väärtus väljale** Poliitika nimi.
+4. Sisestage **või valige väärtus väljal** Kuluelemendi dimensioonihierarhia.
     * Valige äsja loodud poliitikahierarhia.  
-5. Sisestage või valige väärtus väljal Kuluobjekti dimensioonihierarhia.
+5. Sisestage **või valige väärtus väljale** Kuluobjekti dimensioonihierarhia.
     * Valige suvand Organisatsioon.  
-6. Klõpsake nuppu Salvesta.
-7. Klõpsake valikut Uus.
+6. Klõpsake nuppu **Salvesta**.
+7. Klõpsake valikut **Uus**.
 8. Märkige loendis valitud rida.
-9. Sisestage või valige väärtus väljal Kuluelemendi dimensioonihierarhia sõlm.
+9. Sisestage **või valige väärtus väljal Kuluelemendi** dimensioonihierarhia sõlm.
     * Laiendage hierarhia, et valida väärtus Muutuv kulu.  
-10. Sisestage või valige väärtus väljal Kuluobjekti dimensioonihierarhia sõlm.
+10. Sisestage **või valige väärtus väljal Kuluobjekti** dimensioonihierarhia sõlm.
     * Vaikimisi on muutuja 100 protsenti.  
-11. Klõpskae kulu juhtseadme suvandit Poliitikamäärangud.
-12. Klõpsake valikut Uus.
+11. Klõpsake **kulujuhtimise üksuse poliitika määranguid**.
+12. Klõpsake valikut **Uus**.
 13. Märkige loendis valitud rida.
-14. Sisestage kuupäev väljale Aruandluse alguskuupäev.
+14. Sisestage **kuupäev väljale Kehtiv** raamatupidamiskuupäevast.
     * Reeglite kehtivus sõltub kuupäevast ja kasutaja või süsteem saab muuta reegli aegunuks, kui luuakse uuem versioon.  
-15. Sisestage või valige väärtus väljal Kulu juhtseade.
-16. Klõpsake nuppu Salvesta.
+15. Sisestage **või valige väärtus** väljal Kulujuhtimise ühik.
+16. Klõpsake nuppu **Salvesta**.
 
 
 

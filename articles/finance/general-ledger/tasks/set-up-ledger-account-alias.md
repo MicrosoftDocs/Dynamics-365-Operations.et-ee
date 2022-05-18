@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerAccountAlias
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 60e1dc0e61fd11e5498966031fbe7e6e65af2c6f57a820e1c99df05c6ad7f8f2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 50b486cd01850049ab3d23117d994c3db1038124
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745792"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8716883"
 ---
 # <a name="set-up-a-ledger-account-alias"></a>Pearaamatukonto pseudonüümi seadistamine
 
@@ -26,17 +26,14 @@ ms.locfileid: "6745792"
 
 Selle protseduuriga kirjeldatakse kontopseudonüümi loomist, mis pakub otseteed kontonumbri sisestamiseks. Protseduur kasutab demoettevõtte USMF andmeid.
 
-1. Minge jaotisse Pearaamat > Kontoplaan > Kontod > Pearaamatukonto pseudonüüm.
-2. Klõpsake valikut Uus.
-3. Sisestage väärtus väljale Pearaamatukonto pseudonüüm.
-4. Valige väljal Konto struktuur see struktuur, millesse konto ja dimensioonid kuuluvad.
-5. Klõpsake väljal Ettevõte otsingu avamiseks ripploendi nuppu.
-6. Leidke ja valige loendist ettevõte, millele pseudonüüm rakendub.
-7. Klõpsake loendis valitud real olevat linki.
-8. Määrake konto ja dimensioonid väljal Pearaamatukonto pseudonüümi määratlus.
+1. Avage pearaamatukonto **> kontoplaan > kontod >**, klõpsake nuppu **Uus**.
+2. **Tippige väärtus väljale Pearaamatukonto** pseudonüüm.
+3. Valige väljal **Konto** struktuur struktuur, kuhu konto ja dimensioonid kuuluvad.
+4. Valige väljal **Ettevõte** loendist ettevõte, mille suhtes alias kehtib.
+5. Määratlege **pearaamatukonto pseudonüümi** definitsiooniväljal konto ja dimensioonid.
     * Otsetee kasutamisel asustatakse konto ja dimensioonid.  
-9. Valige väljal Algne fookus see dimensioon, millele liigub fookus pseudonüümi kasutamisel.
-    * Pärast otsetee sisestamist ning konto ja dimensioonide asustamist liigub kursor või fookus väljale Algne fookus.  
+6. Valige algse **fookuse** väljal dimensioon, mis on fookuses aliase kasutamisel.
+    * Pärast otsetee tippimist ja konto ja dimensioonide asustada, on algse fookuse väli, **kuhu** kursor või fookus liigub.  
 
 
 

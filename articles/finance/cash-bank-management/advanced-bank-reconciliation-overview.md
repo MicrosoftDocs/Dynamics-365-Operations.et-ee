@@ -8,7 +8,7 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: BankReconciliationMatchRule
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom:
 - "22104"
 - intro-internal
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5ebddf6c77df227f896e6f275f741ea69fb68474
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: d6dadc5fd49a7103df8e1cacfd3be09c24a06e67
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983588"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8711404"
 ---
 # <a name="advanced-bank-reconciliation-overview"></a>Pangakonto täpsema vastavusseviimise ülevaade
 
@@ -38,7 +38,7 @@ Pangakonto täpsema vastavusseviimise funktsioon võimaldab teil pangaväljavõt
     -   Funktsiooni saab laiendada mis tahes vormingusse.
 
 2.  Pangakonto täpsema vastavusseviimise puhul kasutatava numbriseeria seadistamine ja pangakonto vastavusseviimise vastendusreeglite määratlemine.
-    -   Vastavusseviimise vastendusreegel on komplekt kriteeriume, mida kasutatakse pangaväljavõtte ja Microsoft Dynamics 365 Finance'i pangakande ridade filtreerimiseks vastavusseviimise protsessi ajal. Olenevalt oma äritavast saate vastavusseviimise protsessi automatiseerimiseks ja optimeerimiseks seadistada rohkem kui ühe vastendusreegli.
+    -   Vastavusseviimise vastavusse viimise reegel on kriteeriumite kogum, mida kasutatakse pangaväljavõtte ridade Microsoft Dynamics ja 365 Finantspanga kande ridade filtreerimiseks vastavusseviimise protsessi ajal. Olenevalt oma äritavast saate vastavusseviimise protsessi automatiseerimiseks ja optimeerimiseks seadistada rohkem kui ühe vastendusreegli.
 
 3.  Pangaväljavõtete vastavusseviimine Finance'i pangakannetega.
     -   Vastavusseviimise töölehtede automaatne võrdlemine ja loomine.
