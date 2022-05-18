@@ -7,17 +7,17 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: ''
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: elgolu
 ms.search.validFrom: 2021-06-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: a9d623c712de34afd1b38dbc6a8738ebf9613d49
-ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
+ms.openlocfilehash: 652d8684473d1c1505a80eb1d860c57a214b9488
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7860554"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734215"
 ---
 # <a name="set-up-electronic-messages"></a>Elektroonilise sõnumi häälestamine
 
@@ -72,7 +72,7 @@ Järgmises tabelis kirjeldatakse lehe **Sõnumite olekud** välju.
 
 ## <a name="additional-fields"></a><a id="additional"></a>Lisaväljad
 
-EM-funktsioon võimaldab teil sõnumiüksustena koguda Microsoft Dynamics 365 Finance kandetabelite kirjeid. Sel viisil saate kirjed aruandluseks ette valmistada ja seejärel need esitada. Mõnikord pole aga kandetabelites piisavalt teavet, et täita kirjeid aruandluse nõuetele vastaval viisil. Kogu teabe täitmiseks, mis tuleb kirje kohta esitada, saate seadistada lisaväljad. Lisaväljad saab seostada nii sõnumite kui ka sõnumiüksustega. Saate sõnumiüksuste olekud seadistada lehel **Maks** \> **Seadistamine** \> **Elektronsõnumid** \> **Lisaväljad**.
+EM-funktsioon võimaldab teil koguda kirjeid Microsoft Dynamics 365 finantside kandetabelist teate kaupadena. Sel viisil saate kirjed aruandluseks ette valmistada ja seejärel need esitada. Mõnikord pole aga kandetabelites piisavalt teavet, et täita kirjeid aruandluse nõuetele vastaval viisil. Kogu teabe täitmiseks, mis tuleb kirje kohta esitada, saate seadistada lisaväljad. Lisaväljad saab seostada nii sõnumite kui ka sõnumiüksustega. Saate sõnumiüksuste olekud seadistada lehel **Maks** \> **Seadistamine** \> **Elektronsõnumid** \> **Lisaväljad**.
 
 Järgmises tabelis kirjeldatakse lehe **Lisaväljad** üldisi välju.
 
@@ -142,35 +142,35 @@ Kiirkaardil **Andmeallikate seadistus** lisage rida iga andmeallika jaoks, mida 
 
 ## <a name="populate-records-from-multiple-companies"></a><a id="multiple-companies-populate"></a> Saate asustada mitme ettevõtte kirjed.
 
-Kui teie ettevõte peab esitama aruande mitmest sama finantsandmebaasi juriidilisest isikust, seadistage asusta kirjete tegevused kõigile juriidilistele isikutele, kelle andmed tuleb aruandesse [kaasata](#populate).
+Kui teie ettevõte peab esitama aruande mitmest sama finantsandmebaasi juriidilisest isikust, [seadistage](#populate) asusta kirjete tegevused kõigile juriidilistele isikutele, kelle andmed tuleb aruandesse kaasata.
 
 Selle võimaluse lubamiseks finantskeskkonnas järgige neid samme. 
 
-1. Avage **tööruumide** \> **funktsioonihaldus**.
-2. Otsige ja valige **loendi asusta kirjete tegevuste funktsiooni jaoks** ettevõtetevahelised päringud.
+1. Avage tööruumide **funktsioonihaldus** \> **·**.
+2. Otsige ja valige **loendi asusta kirjete tegevuste funktsiooni jaoks ettevõtetevahelised** päringud.
 3. Valige **Luba kohe**. 
 
-Et seadistada mitme [ettevõtte](#populate) asustamiskirjete tegevused, millest tuleb andmed aruandlusesse kaasata, järgige neid samme.
+Et seadistada mitme [ettevõtte asustamiskirjete](#populate) tegevused, millest tuleb andmed aruandlusesse kaasata, järgige neid samme.
 
-1. Minge maksu seadistamise **elektrooniliste** \> **teadete** \> **·** \> **asustamiskirjete** tegevustele.
+1. Minge maksu seadistamise **elektrooniliste** \> **teadete** \> **asustamiskirjete** \> **tegevustele.**
 
-    Kui ettevõtteülesed päringud asustamiskirjete tegevuste funktsiooni kohta on lubatud, sisaldab andmeallikate häälestusruudustik **tegevuslehel** **·** **Asusta** kirjed ettevõtte **välja**. Asustamiskirjete tegevuste üldise seadistuse ajal loodud olemasolevate kirjete puhul kuvatakse sellel väljal [praeguse](#populate) juriidilise isiku ID.
+    Kui ettevõtteülesed päringud asustamiskirjete **tegevuste funktsiooni kohta on lubatud,** sisaldab **andmeallikate** häälestusruudustik **tegevuslehel Asusta kirjed ettevõtte** **välja.** See väli näitab praeguse juriidilise isiku ID-d [olemasolevate](#populate) kirjete puhul, mis loodi asustamiskirjete tegevuste üldise seadistuse ajal.
 
-2. Andmeallikate häälestusruudustikus lisage rida igale all juriidilisele isikule, kes tuleb aruandlusesse kaasata **ja seadke järgmised** väljad.
+2. Andmeallikate **häälestusruudustikus** lisage rida igale all juriidilisele isikule, kes tuleb aruandlusesse kaasata ja seadke järgmised väljad.
 
     | Välja nimi             | Väärtus |
     |------------------------|-------|
-    | Nimi                   | Sisestage tekstiväärtus, mis aitab teil mõista, kust see kirje pärineb. Näiteks sisestage **andmeallika nimi - Allettevõte 1.** |
+    | Nimi                   | Sisestage tekstiväärtus, mis aitab teil mõista, kust see kirje pärineb. Näiteks sisestage **andmeallika nimi - allettevõte 1**. |
     | Sõnumiüksuse tüüp      | Valige teate kauba tüüp, mis on vajalik EM-i töötlemiseks. |
-    | Konto tüüp           | Määrake konto tüüp, mis on vajalik EM-i töötlemiseks. Kui em-töötlusel pole kindlaid kontotüüpe, valige **väärtus** Kõik. |
+    | Konto tüüp           | Määrake konto tüüp, mis on vajalik EM-i töötlemiseks. Kui teie EM-töötlusel pole kindlaid kontotüüpe, valige **väärtus Kõik**. |
     | Peatabeli nimi      | Määrake kindlaks EM-i töötlemiseks vajaliku koondtabeli nimi. |
     | Dokumendi numbriväli  | Määrake väli, mis sisaldab dokumendi numbrit teie EM-i töötlemise kirjetes. |
     | Dokumendi kuupäevaväli    | Määrake väli, mis sisaldab dokumendi kuupäeva teie EM-i töötlemise kirjetes. |
     | Dokumendi kontoväli | Määrake väli, mis sisaldab dokumendi kontot teie EM-i töötlemise kirjetes. |
     | Ettevõte                | Valige allüksuse juriidilise isiku ID. |
-    | Kasutaja päring             | See ruut valitakse kriteeriumide määratlemisel automaatselt, valides käsu **Redigeeri** päringut. |
+    | Kasutaja päring             | See ruut valitakse kriteeriumide määratlemisel automaatselt, valides käsu Redigeeri **päringut**. |
 
-3. Iga uue rea jaoks valige käsk Redigeeri päringut ja määrake rea väljal Ettevõte määratud **juriidilise** **isikuga** seotud kriteeriumid.
+3. Iga uue rea jaoks valige **käsk Redigeeri päringut** **ja määrake rea väljal Ettevõte määratud juriidilise isikuga** seotud kriteeriumid.
 
 ## <a name="web-applications"></a><a id="applications"></a>Veebirakendused
 

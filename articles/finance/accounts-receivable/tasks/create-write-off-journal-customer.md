@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CustParameters, CustPosting, DefaultDashboard, CustCollectionsPoolsListPage, CustWriteOff, LedgerJournalTable, LedgerJournalTransDaily, CustCollections, CustOpenInvoicesListPage, CustTable
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3e810badf9b43a3b0e57390b05247113021e26b6a0242cf29022274307c5fd56
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7da01759fe4aaa7beb1719ede51ac0abfc3b404c
+ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771796"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8713667"
 ---
 # <a name="create-a-write-off-journal-for-a-customer"></a>Kliendi jaoks mahakandmise töölehe loomine
 
@@ -75,7 +75,7 @@ See ülesande juhend näitab, kuidas seadistada mahakandmiste parameetreid ja se
 
 ## <a name="write-off-a-customer-balance-from-the-customer-page"></a>Kliendi saldo mahakandmine kliendi lehelt
 1. Avage **Müügireskontro > Kliendid > Kõik kliendid**.
-2. Valige kliendi konto. Näiteks, valige US-001 (Contoso Jaemüük San Diego).
+2. Valige kliendi konto. Näiteks valige US-001 (Contoso Retail San Diego).
 3. Paanil **Toimingupaan** klõpsake **Võta vastu**.
 4. Klõpsake **Kanna maha**.
 5. Klõpsake valikut **OK**.

@@ -8,7 +8,7 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom:
 - "14151"
 - intro-internal
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 04897e3a7765264ab2e664422caa928c49b9cc61
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: f3d6f328ff3fd4da6ad3e7d4f3f751d3be692736
+ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982033"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8713186"
 ---
 # <a name="customer-payment-predictions"></a>Kliendimaksete prognoosimine
 
@@ -66,6 +66,6 @@ Paljudes ettevõtetes on sissenõudmisprotsess olnud reaktiivne tegevus. Teisis�
 
 ## <a name="methodology"></a>Metoodika
 
-Minevikus on tehisintellektiga (AI) lahendust olnud keeruline arendada ja kasutusele võtta. Selleks protsessiks on olnud vaja meeskonda andmeteadlastest, valdkonna asjatundjatest ja inseneridest, kes teevad ületunde, et sõnastada, arendada, kasutada ja hallata kasutatavat tehisintellekti lahendust. Kliendi maksete prognoosid hõlbustavad AI lahenduse rakendamist ja kasutamist lahenduses Microsoft Dynamics 365 Finance. Microsoft on Microsofti üles ehitatud eelpakkimis-AI lahendused AI Builder. Seetõttu saavad kasutajad kasutada AI lahendust ühe hiireklõpsuga, et kasutada ära intelligentsete prognooside eeliseid. Kui te pole prognooside täpsusega rahul, saab võimsuse kasutaja (ühe hiireklõpsuga) uuesti sisestada laienduse kogemuse ja seejärel valida või tühjendada prognooside loomiseks kasutatavad AI Builder väljad. Kui olete valmis, saate mudelit "koolitada" ja muudatused avaldada. Äsja koolitatud prognoosimismudel võetakse kasutusele lahenduses Dynamics 365 Finance prognooside loomiseks.
+Minevikus on tehisintellektiga (AI) lahendust olnud keeruline arendada ja kasutusele võtta. Selleks protsessiks on olnud vaja meeskonda andmeteadlastest, valdkonna asjatundjatest ja inseneridest, kes teevad ületunde, et sõnastada, arendada, kasutada ja hallata kasutatavat tehisintellekti lahendust. Kliendi makseennustused lihtsustavad AI lahenduse juurutamist ja kasutamist Microsoft Dynamics 365 Finances. Microsoft on Microsofti üles ehitatud eelpakkimis-AI lahendused AI Builder. Seetõttu saavad kasutajad kasutada AI lahendust ühe hiireklõpsuga, et kasutada ära intelligentsete prognooside eeliseid. Kui te pole prognooside täpsusega rahul, saab võimsuse kasutaja (ühe hiireklõpsuga) AI Builder uuesti sisestada laienduse kogemuse ja seejärel valida või tühjendada prognooside loomiseks kasutatavad väljad. Kui olete valmis, saate mudelit "koolitada" ja muudatused avaldada. Dynamics 365 Finance prognooside loomiseks komplektetakse automaatselt just valitud mudel.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

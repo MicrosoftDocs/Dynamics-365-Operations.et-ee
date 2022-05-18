@@ -1,6 +1,6 @@
 ---
 title: Müügireskontro sissenõuded
-description: Müügireskontro sissenõuete teavet hallatakse ühes keskses vaates rakenduse Microsoft Dynamics 365 Finance lehel Sissenõuded. Krediidiosakonna juhatajad saavad kasutada seda keskset vaadet sissenõuete haldamiseks. Inkassaatorid saavad alustada sissenõudmise protsessi klientide loendist, mis luuakse eelmääratud sissenõude kriteeriumite alusel, või lehelt Kliendid.
+description: Müügireskontro sissenõuete teavet hallatakse ühes keskses vaates, kasutades Microsoft Dynamics lehekülge 365 Finantskogumid. Krediidiosakonna juhatajad saavad kasutada seda keskset vaadet sissenõuete haldamiseks. Inkassaatorid saavad alustada sissenõudmise protsessi klientide loendist, mis luuakse eelmääratud sissenõude kriteeriumite alusel, või lehelt Kliendid.
 author: ShivamPandey-msft
 ms.date: 10/26/2017
 ms.topic: article
@@ -8,25 +8,25 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CustAgingSnapshot, CustBankAccounts, CustCollections, CustCollectionsActivitiesListPage, CustCollectionsAgent, CustCollectionsCaseListPage, CustCollectionsPool, CustCollectionsPoolsListPage, CustTable
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 3061
 ms.assetid: fd851520-8d93-434b-845b-be127d6ac3a6
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b143ebead89804af57e7d2dbfa6f7d366c1ae664573776d78bff44763ddeb819
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 03d1304c39628323c6d6e15181263a73ba965930
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723915"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8710353"
 ---
 # <a name="collections-in-accounts-receivable"></a>Müügireskontro sissenõuded
 
 [!include [banner](../includes/banner.md)]
 
-Müügireskontro sissenõuete teavet hallatakse ühes keskses vaates rakenduse Microsoft Dynamics 365 Finance lehel Sissenõuded. Krediidiosakonna juhatajad saavad kasutada seda keskset vaadet sissenõuete haldamiseks. Inkassaatorid saavad alustada sissenõudmise protsessi klientide loendist, mis luuakse eelmääratud sissenõude kriteeriume kasutades, või lehelt Kliendid..
+Müügireskontro sissenõuete teavet hallatakse ühes keskses vaates, kasutades Microsoft Dynamics lehekülge 365 Finantskogumid. Krediidiosakonna juhatajad saavad kasutada seda keskset vaadet sissenõuete haldamiseks. Inkassaatorid saavad alustada sissenõudmise protsessi klientide loendist, mis luuakse eelmääratud sissenõude kriteeriume kasutades, või lehelt Kliendid..
 
 Enne sissenõuete seadistamist või nendega töötamist peaksite teadma järgmisi põhimõtteid.
 -   Kliendi aegumise hetktõmmised sisaldavad aegunud saldoteavet teatud ajahetkel
@@ -65,7 +65,7 @@ Järgmiste loendilehtede abil saate sissenõuete teavet korraldada.
 
 > [!NOTE]
 > Enne kui saate teavet neil loendilehtedel vaadata, tuleb luua aegumise hetktõmmis. Teavet kuvatakse vaid püsiklientidele, kelle jaoks on aegumise hetktõmmis loodud. Loendilehel kuvatavaid kirjeid saab täiendavalt filtreerida järgmiselt.
-> <li>Vaikimisi on Finance and Operationsi kasutajatel juurdepääs kõigile klientidele, kel on aegumise hetktõmmis.</li>
+> <li>Vaikimisi on Finance and Operationsi kasutajal juurdepääs kõigile klientidele, kel on aegumise hetktõmmis.</li>
 > <li>Kliendikaustade olemasolul peab kasutaja olema seadistatud inkasaatorina, et kasutada kaustu sissenõuete loendilehtedel oleva teabe filtreerimiseks. Teave on piiratud klientidega, kes kuuluvad valitud kliendikausta.</li>
 > <li>Kui kasutaja on seadistatud inkassaatorina, on loendilehel saadaval ainult selle inkassaatori jaoks valitud kaustad. Kui inkassaatori puhul on lehel Inkassaator märgitud ruut Luba inkassaatoril vaadata kõiki kliendikaustu, on kõik kaustad selle inkassaatori jaoks saadaval.</li>
 

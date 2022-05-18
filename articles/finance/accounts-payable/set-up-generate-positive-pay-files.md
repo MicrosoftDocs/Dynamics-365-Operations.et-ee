@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: BankPositivePayFormat
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 88433
 ms.assetid: 73f3dcf6-040a-44ad-9512-7b3e0d17a571
 ms.search.region: Global
-ms.author: shpandey
+ms.author: panolte
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 992c73b1ba1f461542873a7df97f1539b99fc015c3e6ef090993e90212993851
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: eb5a9595ea1a93a9b15348eb1b291d744f660d40
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737181"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8727758"
 ---
 # <a name="set-up-and-generate-positive-pay-files"></a>Positiivse makse failide seadistamine ja loomine
 
@@ -31,7 +31,7 @@ See teema selgitab, kuidas positiivset makset seadistada ja positiivse makse fai
 Positiivse makse seadistamine pangale edastatava elektroonilise tšekkide loendi loomiseks. Tšeki esitamisel pangale võrdleb pank seda tšekkide loendiga. Kui tšekk vastab loendis olevale tšekile, maksab pank selle välja. Kui tšekk ei vasta ühelegi loendis olevale tšekile, võtab pank selle ülevaatamiseks enda kätte.
 
 ## <a name="security-for-positive-pay-files"></a>Positiivse makse failide turve
-Positiivse makse failides võib olla tundliku loomuga teavet maksesaajate ja tšekisummade kohta. Seetõttu kasutage kindlasti vajalikke turvameetmeid alates failide loomise hetkest kuni nende panka saabumiseni. Positiivse makse failid laaditakse alla teie veebibrauseri määratud asukohta. Positiivse makse failides võib olla tundlikke andmeid, seega on tähtis, et ainult autoriseeritud kasutajatel oleks juurdepääs selle teabe loomiseks ja vaatamiseks Microsoft Dynamics 365 Financeis. Järgmise tabelis abil saate määratleda vajalikke õigusi.
+Positiivse makse failides võib olla tundliku loomuga teavet maksesaajate ja tšekisummade kohta. Seetõttu kasutage kindlasti vajalikke turvameetmeid alates failide loomise hetkest kuni nende panka saabumiseni. Positiivse makse failid laaditakse alla teie veebibrauseri määratud asukohta. Kuna positiivsed maksefailid võivad sisaldada tundliku loomuga teavet, Microsoft Dynamics on oluline, et selle teabe loomiseks ja vaatamiseks on oluline ainult volitatud kasutajatel 365 Finantsid. Järgmise tabelis abil saate määratleda vajalikke õigusi.
 
 <table>
 <colgroup>

@@ -7,19 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 308e2a538666522edf4a76be13b93c82c3f3a774
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 9b83250bdb54ea6e78709dd3a3ea434a994f6211
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071106"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8694000"
 ---
 # <a name="integration-with-finance-faq"></a>Finance’i KKK-ga integreerimine
 
@@ -30,11 +29,11 @@ ms.locfileid: "8071106"
 
 
 
-Teemas on toodud vastused peamistele küsimustele selle kohta, milliseid andmeid sünkroonitakse, kui Dynamics 365 Human Resources integreeritakse rakendusega Dynamics 365 Finance.
+See teema vastab ühistele küsimustele, mis on seotud sünkroonitud andmetega, kui neid Dynamics 365 Human Resources integreeritakse Dynamics 365 Finance-ga.
 
 ## <a name="can-i-edit-the-dynamics-365-talent-application-user-in-power-apps"></a>Kas ma saan rakenduse Dynamics 365 Talent kasutajat muuta rakenduses Power Apps?
 
-Nr Kui redigeerite rakenduse Human Resources kasutajat, võib integreerimine rakenduse Human Resources ja rakenduse Dataverse vahel nurjuda. Järgmine tabel näitab rakenduse Talent kasutaja vaikesätteid.
+Ei. Kui redigeerite rakenduse Human Resources kasutajat, võib integreerimine rakenduse Human Resources ja rakenduse Dataverse vahel nurjuda. Järgmine tabel näitab rakenduse Talent kasutaja vaikesätteid.
 
 | Täisnimi | Rakenduse ID | Azure AD Objekti ID | Rakenduse ID URI |
 | --- | --- | --- | --- |
@@ -44,7 +43,7 @@ Nr Kui redigeerite rakenduse Human Resources kasutajat, võib integreerimine rak
 
 ## <a name="is-all-data-synchronized-or-just-some-data-entities"></a>Kas sünkroonitakse kõik andmed või ainult mõned andmeüksused?
 
-Sünkroonitakse andmete alamkogum. Kõigi üksuste loendi leiate teemast [Rakendusega Dynamics 365 Finance integreerimine](hr-admin-integration-finance.md).
+Sünkroonitakse andmete alamkogum. Kõigi üksuste loendi leiate teemast Dynamics [365 Finance integreerimine](hr-admin-integration-finance.md).
 
 ## <a name="why-dont-i-see-any-data-synced-to-dataverse"></a>Miks ei kuvata andmeid, mis on sünkroonitud teenusega Dataverse?
 
@@ -89,7 +88,7 @@ Erandite töötlemiseks pole eriseadistus vajalik. Andmeintegraator jäädvustab
 
 ## <a name="can-i-set-up-bi-directional-integration"></a>Kas saan seadistada kahesuunalise integratsiooni?
 
-Ei, integratsioon on praegu ühesuunaline (Human Resources to Finance and Operations). Siiski on saadaval vaikemall andmete saatmiseks rakendusest Human Resources rakendusse Finance.
+Ei, integratsioon on praegu ühepoolene (Inimressursid finantside ja toimingute jaoks). Siiski on saadaval vaikemall andmete saatmiseks rakendusest Human Resources rakendusse Finance.
 
 ## <a name="can-i-allow-record-deletion-as-part-of-my-integration"></a>Kas saan integratsiooni osana lubada kirjete kustutamise?
 
@@ -157,7 +156,7 @@ Human Resourcesi juurutamise ajal kontrollige, et numbriseeriad poleks rakendust
 
 ## <a name="when-creating-my-connection-set-i-am-unable-to-see-the-connection-in-the-connection-drop-down-list-what-do-i-do"></a>Ühendusekogumi loomisel ei näe ma ühendust ripploendis Ühendus. Mida teha?
 
-Veenduge, et valiksite ühenduste loomisel suvandid Dynamics 365 Finance ja Dataverse.
+Veenduge, et ühendusi luues valite Dynamics 365 Finantsid ja Dataverse.
 
 ## <a name="when-syncing-employments-i-get-the-errors-companyinfo_fk-doesnt-exist-or-the-value-12312154-115959-pm-in-field-employment-end-date-is-not-found-in-the-related-table-employment-what-should-i-do"></a>Saan töösuhete sünkroonimisel tõrketeate „Atribuuti CompanyInfo_FK pole olemas” või „Väärtust 12/31/2154 23:59:59 väljal Töösuhte lõppkuupäev ei leitud seotud tabelist Töösuhe”. Mida teha?
 

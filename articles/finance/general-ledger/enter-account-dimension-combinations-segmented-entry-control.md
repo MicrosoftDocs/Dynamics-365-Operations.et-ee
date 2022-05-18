@@ -1,6 +1,6 @@
 ---
 title: Konto ja dimensioonide kombinatsioonide sisestamine (segmenditud sisestamise juhtimine)
-description: Selles artiklis kirjeldatakse, kuidas sisestada konto ja dimensiooni kombinatsioone või pearaamatukontosid. Kande kogemust nimetatakse sageli segmenditud sisestuse juhtelemendiks.
+description: See teema kirjeldab, kuidas sisestada konto- ja dimensioonikombinatsioone või pearaamatukontosid. Kande kogemust nimetatakse sageli segmenditud sisestuse juhtelemendiks.
 author: aprilolson
 ms.date: 06/20/2017
 ms.topic: article
@@ -8,25 +8,25 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: DimensionConfigureAccountStructure
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 14071
 ms.assetid: e6fce826-c403-4d91-a78b-e9a58c44ac03
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6aad3c6044141c80103fe05706d77af52245432f0374223a75b2ba63b2c9a89b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 779c455cb842fda941ce716eb644b9e3020f5e90
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778914"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8717498"
 ---
 # <a name="enter-account-and-dimension-combinations-segmented-entry-control"></a>Konto ja dimensioonide kombinatsioonide sisestamine (segmenditud sisestamise juhtimine)
 
 [!include [banner](../includes/banner.md)]
 
-Selles artiklis kirjeldatakse, kuidas sisestada konto ja dimensiooni kombinatsioone või pearaamatukontosid. Kande kogemust nimetatakse sageli segmenditud sisestuse juhtelemendiks.
+See teema kirjeldab, kuidas sisestada konto- ja dimensioonikombinatsioone või pearaamatukontosid. Kande kogemust nimetatakse sageli segmenditud sisestuse juhtelemendiks.
 
 Kasutajad sisestavad konto ja dimensiooni kombinatsioonid mitmesugustele lehtedele, nt pearaamatu, eelarvestamise ja sisestamisdefinitsioonide lehtedele. Kehtivad konto ja dimensiooni kombinatsioonid sõltuvad pearaamatule määratud kontostruktuuridest ja täpsematest kontostruktuuridele määratud reeglitest. Kui kasutajad kombinatsioone sisestavad, võivad nad tippida väärtusi käsitsi või kasutada rikast otsingukogemust. Kui väljale sisenedes tippima hakkate, siis otsitakse väärtust ja kirjeldust. Näiteks kui tipite 180, siis otsitakse igasugust selle numbrikombinatsiooniga algavat väärtust. Või tippige Raha ja otsitakse mis tahes väärtust, mille kirjeldus algab sõnaga Raha. Võite kasutada ka metamärke, nt \*Raha või \*180, et otsida, kas väärtus või kirjeldus sisaldavad otsingukriteeriume. 
 

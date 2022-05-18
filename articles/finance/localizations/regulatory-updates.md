@@ -2,7 +2,7 @@
 title: Regulatiivsed värskendused
 description: Selles teemas antakse plaanitud ja väljastatud regulatiivsete uuenduste loend Microsoft Dynamics 365 Finantside jaoks.
 author: VStamberg
-ms.date: 01/20/2022
+ms.date: 04/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: vastrup
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 734a4abf4559d05b1f96bcfbde151b49bba8e827
-ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
-ms.translationtype: HT
+ms.openlocfilehash: 4e9a74f814e6ae93fd5c12b05c4fbd00ad503fca
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8649125"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8711910"
 ---
 # <a name="regulatory-updates"></a>Regulatiivsed värskendused
 
@@ -29,11 +29,11 @@ Regulatiivsed värskendused on funktsioonid, mida juurutatakse, et toetada uusi 
 
 Microsoft püüab juurutada uusi regulatiivseid nõudeid võimalikult kiiresti. Tegelik väljalaskekuupäev sõltub seaduse väljakuulutamise päevast, nõuete üksikasjaliku teabe kättesaadavusest kohalike omavalitsuste käest, valideerimisvahendite kättesaadavusest ning muutuste ulatusest ja keerukusest.
 
-Kavatseme saata regulatiivsed värskendused ühe versiooni teenusevärskendustega, mis väljastatakse klientidele õigeks ajaks tarkvara värskendamiseks ja jõustumiskuupäevaks valmisolekuks (kannete regulatiivsete värskenduste puhul) või esimeseks kohustuslikuks aruandlustähtajaks (aruandlusega seotud regulatiivsete värskenduste puhul). Kliendid ja partnerid saavad näha uute regulatiivsete värskenduste eelvaadet Varajase juurutuse eelvaateprogrammist (PEAP ehk Preview Early Adoption Program).
+Kavatseme saata regulatiivsed värskendused ühe versiooni teenusevärskendustega, mis väljastatakse klientidele õigeks ajaks tarkvara värskendamiseks ja jõustumiskuupäevaks valmisolekuks (kannete regulatiivsete värskenduste puhul) või esimeseks kohustuslikuks aruandlustähtajaks (aruandlusega seotud regulatiivsete värskenduste puhul). Kliendid ja partnerid saavad iga teenusevärskenduse puhul eelvaates vaadata kõiki uusi regulatiivseid värskendusi eelvaatepaketis.
 
 Kui väljakuulutamise kuupäevad on hilised, nõuete üksikasjaliku teabe või valideerimisvahendite saadavus on hiline või muudatused on ulatuslikud ja keerulised, siis ei pruugi olla võimalik teha regulatiivset värskendust kättesaadavaks igakuise värskenduse üldise kättesaadavuse kuupäevaks. Sellistel juhtudel saadetakse regulatiivne uuendus kiirparandustena mõnele olemasolevale igakuisele värskendusele.
 
-Regulatiivsed uuendused, mis väljastatakse osana igakuisest uuendusest, tähistatakse ainult väljalaske versiooniga. Regulatiivsed uuendused, mis edastatakse kas kiirparanduste või väljalaske eelvaate osana, saab identifitseerida vastavalt lühendite HF ja PEAP abil. 
+Regulatiivsed uuendused, mis väljastatakse osana igakuisest uuendusest, tähistatakse ainult väljalaske versiooniga. Regulatiivseid uuendusi, mis tarnitakse kas kiirklahvidena või väljalaske eelvaate osana, saab tuvastada vastavalt LÜHENDITES VÕI eelvaates. 
 
 Uusimate plaanitud regulatiivsete värskenduste aegade jaoks vaadake järgmist tabelit.   
 

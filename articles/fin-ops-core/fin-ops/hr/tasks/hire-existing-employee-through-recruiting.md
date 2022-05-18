@@ -12,41 +12,41 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9e7343a485ae4779b075eeb48dabc39467e1a176
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: 07dae424f32281a39c3887437ac7976fb3beb8d3
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8074909"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734919"
 ---
 # <a name="hire-existing-employees-through-recruitment"></a>Olemasolevate töötajate palkamine värbamise kaudu
 
 [!include [banner](../../includes/banner.md)]
 
 > [!IMPORTANT]
-> Selles teemas märgitud funktsioonid on praegu saadaval inimressursside klientidele finance infrastruktuuris.  
+> Selle teema värbamisfunktsioone nimetatakse värbamisprojektideks ning see keskendub kandidaatidele, avaldustele ja värbamisprojektidele.  
 
 
-Mõnikord võivad avatud ametikohti täita kandidaadid, kes on juba teie organisatsiooni töötajad. See protseduur annab ülevaate olemasoleva töötaja värbamise kohta värbamisprotsessi kaudu. Selles protseduuris on värbamisprojekt juba loodud ja olemasolev töötaja on juba värbamisprojekti avalduse esitanud. The **USMF** Selle protseduuri loomiseks kasutati demoandmete ettevõtet.
+Mõnikord võivad avatud ametikohad täita kandidaadid, kes on juba teie organisatsiooni töötajad. See protseduur annab ülevaate olemasoleva töötaja värbamise kohta värbamisprotsessi kaudu. Selles protseduuris on värbamisprojekt juba loodud ja olemasolev töötaja on juba värbamisprojekti avalduse esitanud. Selle **protseduuri loomiseks kasutati USMF-i** demoandmete ettevõtet.
 
-1. Minge inimressursside **värbamistaotlustele \>\>.\>**
-2. Leidke loendist selle töötaja taotlus, keda soovite palgata. Näiteks valige **00002 John Emory**.
-3. Valige **Rakenduse olek**.
+1. Minge inimressursside **värbamis avaldustele \>\>\>**.
+2. Otsige loendist üles tööle soovitud töötaja avaldus. Näiteks valige **00002 John Emory**.
+3. Valige **avalduse olek**.
 
-    Avalduse olek näitab, millises faasis avaldus värbamisprotsessis on. Iga samm on vabatahtlik. Tavaliselt liigub rakendus läbi olekute järgmises järjekorras: **Vastu võetud**, **kinnitatud** ja **intervjueeritud**. Pärast intervjuud tehakse töölevõtmise otsus.
+    Avalduse olek näitab, millises faasis avaldus värbamisprotsessis on. Iga samm on valikuline. Tavaliselt liigub rakendus läbi olekute järgmises järjestuses: **Vastuvõetud**, **Kinnitatud** ja **Vestlustega**. Pärast vestluse protsessi tehakse tööle palkamise otsus.
 
-4. Valige **Muuda asukohta**.
+4. Valige **Muuda positsioone**.
 5. Valige ametikoht, mille jaoks te töötajat palkate.
-6. Sisestage väljale **Uus määramise alguskuupäev** kuupäev, mil töötaja hakkab uuel ametikohal töötama.
-7. Sisestage väljale **Määramise lõppkuupäev** kuupäev, mil töötaja lõpetab töötamise oma praeguses asendis.
+6. **Väljale Uus määramise alguskuupäev** sisestage kuupäev, mil töötaja hakkab tööle uuel positsioonil.
+7. **Sisestage väljale Määrangu** lõppkuupäev kuupäev, millal töötaja lõpetab töötamise oma praegusel ametikohal.
 
-    Uue positsiooni alguskuupäev ja vana positsiooni lõppkuupäev võivad kattuda. See kattumine võib tekkida siis, kui inimene täidab üleminekuperioodil mõlema ametikoha ülesandeid.
+    Uue positsiooni alguskuupäev ja vana positsiooni lõppkuupäev võivad kattuda. See kattumine võib ilmneda, kui inimene täidab üleminekuperioodi jooksul mõlema ametikohaga seotud kohustusi.
 
-8. Valikuline: valige põhjusekood. Näiteks valige **Reorganiseerimine**.
-9. Valige **Muuda asukohta**.
+8. Valikuline: valige põhjusekood. Näiteks valige käsk **Reorganiseerimine**.
+9. Valige **Muuda positsioone**.
 
-    Sel ajal saate ka hüvitist muuta. Kui te seda ei tee, saate seda hiljem muuta, valides lehe Töötaja **vahekaardil** **Hüvitis** suvandi **Fikseeritud plaan**.
+    Sel ajal saate tasu ka muuta. Kui te seda ei tee, saate seda hiljem muuta, valides **fikseeritud** **plaani** vahekaardi Töötaja **vahekaardil** Tasu.
 
-    Pärast suvandi Muuda positsiooni **valimist** värskendatakse **taotluse olekuks Töötaja**.
+    Pärast valiku **Muuda positsioone** uuendatakse avalduse olekuks Tööle **võetud**.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

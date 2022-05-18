@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-06-30
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d221e1a47dca85880fd683177ca95dd1b7766fb9
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 350fb5a00b85f28fa8aef2ca50cf1f277b8f635e
+ms.sourcegitcommit: e4cc43b06ef3f0f562849e2c960025cb244d6017
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8064918"
+ms.lasthandoff: 05/12/2022
+ms.locfileid: "8743537"
 ---
 # <a name="server-to-server-authentication-for-the-ats-integration-api"></a>Server-serveri autentimine ATS-integratsiooni API jaoks
 
@@ -89,7 +89,7 @@ Uue rolli jaoks tuleb uue rolli vahekaardil **Kohandatud üksused** määrata v�
 
 Teiseks sammuks on tagada, et rakendusele antakse inimressurssides andmete jaoks asjakohane luba, sidudes selle kasutajaga inimressursside rakenduses. Rakenduse kasutaja jaoks tehakse serverilt serverile Dataverse virtuaalsete tabelite kaudu kutseid kasutaja (rakenduse) Dataverse identiteedi kontekstis, mis toimingu käivitab. Virtuaaltabeli adapteri teenus otsib siis seotud kasutaja inimressurssidest ja käivitab päringu selle kasutaja kontekstis. See tähendab, et kasutaja tuleb luua Inimressurssides korrektsete rollidega, mis on määratud juurdepääsuks andmetele, mida integreeriv rakendus vajab.
 
-Inimressursside kasutajale tuleb määrata ka õiged õigused Inimressurssides andmete jaoks. **Värbamistaotluse** (HcmRecruitingIntegrator) roll on saadaval privileegidega esmastele üksustele, mis on vajalikud värbamisandmetega integreerimiseks. Rolli saab määrata rakenduse kasutajale lehel **Kasutajad** et anda andmetele sobiv juurdepääs. Lisateavet inimressursside turberollide kohta vaata [Rollipõhisest turbest](/fin-ops-core/dev-itpro/sysadmin/role-based-security).
+Inimressursside kasutajale tuleb määrata ka õiged õigused Inimressurssides andmete jaoks. **Värbamistaotluse** (HcmRecruitingIntegrator) roll on saadaval privileegidega esmastele üksustele, mis on vajalikud värbamisandmetega integreerimiseks. Rolli saab määrata rakenduse kasutajale lehel **Kasutajad** et anda andmetele sobiv juurdepääs. Lisateavet inimressursside turberollide kohta vaata [Rollipõhisest turbest](/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).
 
 ### <a name="set-up-the-new-user-with-appropriate-permissions"></a>Uue kasutaja häälestamine koos asjakohaste õigustega
 
