@@ -82,12 +82,10 @@
                   href: ../fin-ops-core/fin-ops/get-started/system-requirements.md?toc=/dynamics365/finance/toc.json
                 - name: Kohapealne juurutus
                   href: ../fin-ops-core/dev-itpro/deployment/on-premises-deployment-landing-page.md?toc=/dynamics365/finance/toc.json
-                - name: Asutusesiseste juurutuste süsteeminõuded
+                - name: Kohapealsete juurutuste süsteeminõuded
                   href: ../fin-ops-core/fin-ops/get-started/system-requirements-on-prem.md?toc=/dynamics365/finance/toc.json
                 - name: Rakenduse Finance + Operations (on-premises) ostmine
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/finance/toc.json
-                - name: Laorakenduse konfigureerimine kohapealseteks juurutusteks
-                  href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/finance/toc.json
             - name: Dokumentatsiooniressursid
               items:
                 - name: Spikrisüsteem
@@ -272,6 +270,8 @@
                   href: accounts-payable/tasks/research-resolve-exceptions.md
             - name: Hankija sisestusreeglid
               href: accounts-payable/vendor-posting-profiles.md
+            - name: Kulukoodide loomine
+              href: accounts-receivable/create-charges-codes.md
             - name: Hankija arve kuupäevad
               href: accounts-payable/vendor-invoice-dates.md
             - name: Ostureskontro ja müügireskontro välisvaluuta ümberarvutamine
@@ -292,6 +292,8 @@
               items:
                 - name: Ostureskontro tsentraliseeritud maksed
                   href: accounts-payable/centralized-payments-accounts-payable.md
+                - name: Vahemaksete häälestus ja töötlemine
+                  href: accounts-receivable/set-up-and-process-bridged-payments.md
                 - name: Tasakaalustuse konfigureerimine
                   href: cash-bank-management/configure-settlement.md
                 - name: Jäägi tasakaalustus
@@ -354,8 +356,12 @@
               href: accounts-receivable/set-up-process-recurring-invoices.md
             - name: Arvestuse jaotused ja alammooduli töölehekirjed vabas vormis arvete puhul
               href: accounts-receivable/accounting-distributions-subledger-journal-entries-free-text-invoices.md
+            - name: Müügireskontro sisestamine
+              href: general-ledger/accts-recvble-posting.md
             - name: Kliendi sisestusreeglid
               href: accounts-receivable/customer-posting-profiles.md
+            - name: Kulukoodide loomine
+              href: accounts-receivable/create-charges-codes.md
             - name: SEPA otsekorralduse ülevaade
               href: accounts-receivable/sepa-direct-debit-overview.md
             - name: SEPA otsedeebeti loa häälestus
@@ -436,6 +442,8 @@
                       href: accounts-receivable/terminate-billing-schedule.md
                     - name: Joondamiskuupäeva stsenaariumid
                       href: accounts-receivable/sb-alignment-date-examples.md
+                    - name: Tulujaotus
+                      href: accounts-receivable/sb-revenue-split.md
                 - name: Tulude ja kulude edasilükkamised
                   items:
                     - name: Tulude ja kulude edasilükkamiste seadistamine
@@ -452,6 +460,8 @@
               items:
                 - name: Kliendimaksete ülevaade
                   href: cash-bank-management/tasks/customer-payment-overview.md
+                - name: Vahemaksete häälestus ja töötlemine
+                  href: accounts-receivable/set-up-and-process-bridged-payments.md
                 - name: Müügireskonto tsentraliseeritud maksed
                   href: accounts-receivable/centralized-payments-accounts-receivable.md
                 - name: Kliendimaksete deponeerimine
@@ -1022,10 +1032,18 @@
                       href: general-ledger/example-posting-definitions.md
                 - name: Valuuta
                   items:
-                    - name: Impordi valuutavahetuskursid
+                    - name: Valuutavahetuskursside import
                       href: general-ledger/import-currency-exchange-rates.md
                     - name: Topeltvaluuta
                       href: general-ledger/dual-currency.md
+                - name: Sisestusreeglid
+                  items:
+                    - name: Sisestusprofiilide ülevaade
+                      href: general-ledger/pstg-prfles-ovrvw.md
+                    - name: Sisestusprofiilide soovitatavad tavad
+                      href: general-ledger/recommended-practices-pstg-prfles.md
+                    - name: Automaatsete kannete kontod
+                      href: general-ledger/accounts-for-auto-transactions.md
                 - name: Eraldusreeglid
                   items:
                     - name: Pearaamatu eraldamisreeglid

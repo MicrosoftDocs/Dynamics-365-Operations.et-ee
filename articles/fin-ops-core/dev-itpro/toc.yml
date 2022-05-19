@@ -50,10 +50,6 @@
           items:
             - name: Finants- ja äritoimingute rakenduste ja kolmanda osapoole teenuste integreerimine
               href: data-entities/integration-overview.md
-            - name: Prioriteedil põhinev ahendamine
-              hreF: data-entities/priority-based-throttling.md
-            - name: Prioriteedil põhineva ahendamise KKK
-              href: data-entities/throttling-faq.md
             - name: Andmete integratsiooni API-d
               items:
                 - name: Andmehalduse paketi REST API
@@ -74,6 +70,18 @@
                   href: data-entities/recurring-integrations.md
                 - name: Teenuste testimine kolmandate osapoolte utiliitide abil
                   href: data-entities/third-party-service-test.md
+            - name: Teenusekaitse piirangud
+              items:
+                - name: Teenusekaitse API piirangud
+                  href: data-entities/service-protection-api-limits.md
+                - name: Drosselduse prioritiseerimine
+                  href: data-entities/priority-based-throttling.md
+                - name: Proovi toiminguid korrata
+                  href: data-entities/service-protection-retry-operations.md
+                - name: Jälgi API drosseldamist
+                  href: data-entities/service-protection-monitoring.md
+                - name: Suurenda API läbilaset
+                  href: data-entities/service-protection-maximizing-api-throughput.md
             - name: Finants- ja äritoimingute konnektor
               href: data-entities/fin-ops-connector.md
             - name: Arendus integreerimiseks
@@ -360,7 +368,7 @@
               items:
                 - name: Kohapealse juurutuse avaleht
                   href: deployment/on-premises-deployment-landing-page.md
-                - name: Asutusesiseste juurutuste ettevalmistamine
+                - name: Kohapealsete juurutuste ettevalmistamine
                   items:
                     - name: Asutusesisese juurutuse ülevaade
                       href: deployment/on-premises-overview.md
@@ -398,6 +406,8 @@
                       href: deployment/onprem-SSRSHA.md
                     - name: Puhverserverite konfigureerimine kohapealsete keskkondade jaoks
                       href: deployment/onprem-reverseproxy.md
+                    - name: Laorakenduse konfigureerimine kohapealseteks juurutusteks
+                      href: deployment/warehousing-for-on-premise-deployments.md
                     - name: Võrguprinteri seadmete installimine kohapealsetesse keskkondadesse
                       href: analytics/install-network-printer-onprem.md
                     - name: Kohapealsed diagnostikad
@@ -472,16 +482,14 @@
                   href: help/language-locale.md
                 - name: 'Spikri laiendamine, kohandamine ja koostöö'
                   href: help/contributor-guide.md
-            - name: Juurutamiskaalutlused
+            - name: Finants- ja äritoimingute rakenduste piirkondlikud teenused
               items:
-                - name: Dynamics 365 Finance'i ja Dynamics 365 Supply Chain Managementi riigikohase ja kohaliku pilve juurutusvõimalused
+                - name: Kohalikud asukohad
                   href: deployment/deployment-options-geo.md
-                - name: Finance ja Supply Chain Management USA riigiasutuste ühispilvkeskkonnas (GCC)
+                - name: USA riigiasutuste ühispilvkeskkond (GCC)
                   href: deployment/us-gcc-deployment.md
-                - name: 'Finance''i ja Supply Chain Managementi rakendused, mida käitab 21Vianet Hiinas'
+                - name: Teenust käitab Hiinas 21Vianet
                   href: deployment/china-local-deployment.md
-                - name: Finants- ja äritoimingute rakendused Prantsusmaal
-                  href: deployment/france-local-deployment.md
         - name: Arendamine ja kohandamine
           items:
             - name: Avalehe arendamine ja kohandamine
@@ -559,7 +567,7 @@
                     - name: Mudelite ja andmemudeli elementide ülevaade
                       href: dev-tools/create-data-model-elements.md
                     - name: Laiendite nimejuhised
-                      href: /dynamics365/fin-ops-core/dev-itpro/naming-guidelines-extensions
+                      href: /dynamics365/fin-ops-core/dev-itpro/extensibility/naming-guidelines-extensions
                     - name: Mudeli kohandamise ja aegumisfunktsiooni väljalülitamine
                       href: dev-tools/lock-models.md
                 - name: Kliendi kohanduste analüüsi aruanne

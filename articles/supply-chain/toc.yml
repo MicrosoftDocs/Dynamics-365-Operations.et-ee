@@ -82,12 +82,10 @@
                   href: ../fin-ops-core/fin-ops/get-started/system-requirements.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Kohapealne juurutus
                   href: ../fin-ops-core/dev-itpro/deployment/on-premises-deployment-landing-page.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Asutusesiseste juurutuste süsteeminõuded
+                - name: Kohapealsete juurutuste süsteeminõuded
                   href: ../fin-ops-core/fin-ops/get-started/system-requirements-on-prem.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Rakenduse Finance + Operations (on-premises) ostmine
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Laorakenduse konfigureerimine kohapealseteks juurutusteks
-                  href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/supply-chain/toc.json
             - name: Dokumentatsiooniressursid
               items:
                 - name: Spikrisüsteem
@@ -3299,8 +3297,8 @@
                   href: warehousing/tasks/register-items-advanced-warehousing.md
                 - name: Kaupade registreerimine üldiseks ladustamiseks lubatud kauba puhul saabuva kauba töölehe abil
                   href: warehousing/tasks/register-items-basic-warehousing.md
-                - name: Sissetulevate ASN-ide importimine V2 andmeüksuse kaudu
-                  href: warehousing/import-asn-v2-data-entity.md
+                - name: Sissetulevate ASN-ide importimine V3 andmeüksuse kaudu
+                  href: warehousing/import-asn-data-entity.md
                 - name: Toodete ristlaadimine vastuvõtvast laost kauplustesse
                   href: warehousing/tasks/cross-dock-products-receiving-warehouse-stores.md
                 - name: Asukohakorralduse häälestus ostutellimuse kõrvalepaneku jaoks
