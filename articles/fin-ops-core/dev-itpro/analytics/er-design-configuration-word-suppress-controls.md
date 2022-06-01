@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: f8e74902e939355aba9bbadd8e7f8f8aa46fe5c5
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 2c2d79c9ea36c42cfc0f6ba0d3c81d063d8d9446
+ms.sourcegitcommit: 6c1bf233748c4bc70fc5a1a9711758cdfd9e07dc
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323921"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8782172"
 ---
 # <a name="suppress-word-content-controls-in-generated-reports"></a>Wordi sisu juhtelementide tühistamine loodud aruannetes
 
@@ -26,7 +26,7 @@ ms.locfileid: "8323921"
 
 Aruannete loomiseks Microsoft Word dokumentidena peate kujundama aruannete malli Wordi dokumendina. See mall peab sisaldama Wordi sisu juhtelemente käitusajal sisestatava teabe kohatäitjatena. Wordi vormingus aruannete Wordi dokumendi mallina kasutamiseks saate [konfigureerida](er-design-configuration-word.md) uue [elektroonilise aruandluse (ER)](general-electronic-reporting.md) [lahenduse](er-quick-start1-new-solution.md). Lahendus peab sisaldama ER-i konfiguratsiooni [,](general-electronic-reporting.md#Configuration) mis sisaldab ER-vormingu komponenti. See ER-vorming peab olema konfigureeritud kasutama aruande loomiseks loodud malli.
 
-Versioonis 10.0.6 ja Dynamics 365 Finance uuemates versioonides saate konfigureerida ER-vormingus valemeid, et saaks loodud dokumentides ära tõkestada Wordi sisu juhtelemente.
+Dynamics 365 Finance versiooni 10.0.6 ja uuemates versioonides saate ER-vormingus valemid konfigureerida, et blokeerida wordi sisu juhtelemendid loodud dokumentides.
 
 Järgmistes sammudes seletatakse, kuidas süsteemiadministraatori või elektroonilise aruandluse funktsiooninõustaja rolliga kasutaja saab konfigureerida ER-vormingut, mis loob aruandeid Wordi failidena, ja summutavad mõned sisu juhtelemendid loodud aruannetes, mis on konfigureeritud Wordi malli abil.
 
@@ -47,7 +47,7 @@ Kui sooritate need ülesandejuhendite sammud, et ette valmistatakse järgmised k
 
 Peate näidisaruande jaoks alla laadima ja kohalikult salvestama ka järgmised mallid:
 
-- [Maksearuande 2 piiratud mall (SampleVendPaymDocReportBounded2.docx)](https://download.microsoft.com/download/a/1/2/a126cb43-6281-4f7b-bde0-25e03ff9bc1e/SampleVendPaymDocReportBounded2.docx)
+- [Maksearuande 2 piiratud mall (SampleVendPaymDocReportBounded2.docx)](https://download.microsoft.com/download/1/9/b/19b36e39-861a-414e-9150-9880d9d2487c/SampleVendPaymDocReportBounded2.docx)
 
 ## <a name="review-the-downloaded-word-template"></a><a id="tag-control"></a>Allalaaditud Wordi malli läbivaatamine
 

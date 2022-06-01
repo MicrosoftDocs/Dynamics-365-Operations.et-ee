@@ -2,7 +2,7 @@
 title: Hankija koostöö mobiilne tööruum
 description: See teema annab teavet hankija koostöö mobiilse tööruumi kohta. See tööruum võimaldab hankijatel olla kursis ostutellimustega, mis on neile kinnitamiseks saadetud. Nad saavad vaadata teavet ka uute ja muudetud ostutellimuste ning kontaktide kohta.
 author: GalynaFedorova
-ms.date: 12/01/2017
+ms.date: 05/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,20 +14,21 @@ ms.search.region: global
 ms.author: gfedorova
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: c1e8a6589b16c4a24b151980d01929ed154bbb7b
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 97352ca89cef77b9320f17af5a1dbe6a00df2dd6
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670100"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811710"
 ---
 # <a name="vendor-collaboration-mobile-workspace"></a>Hankija koostöö mobiilne tööruum
 
 [!include [banner](../includes/banner.md)]
+[!include [mobile app deprecation](../../fin-ops-core/dev-itpro/includes/mobile-app-deprecation-banner.md)]
 
 See teema annab teavet **hankija koostöö** mobiilse tööruumi kohta. See tööruum võimaldab hankijatel olla kursis ostutellimustega, mis on neile kinnitamiseks saadetud. Nad saavad vaadata teavet ka uute ja muudetud ostutellimuste ning kontaktide kohta.
 
-See mobiilne tööruum on mõeldud kasutamiseks mobiilirakendusega Finance and Operations.
+See mobiilses tööruum on mõeldud kasutamiseks koos Rakenduse Finantsid ja toimingud (Dynamics 365) mobiilirakendusega.
 
 ## <a name="overview"></a>Ülevaade 
 **Hankija koostöö** mobiilne tööruum teavitab hankijaid uutest ostutellimustest, et nad saaks näha ostutellimusi ja neile vastata rakenduse veebikliendis. 
@@ -109,7 +110,7 @@ Kui teie organisatsioonis on juurutatud Microsoft Dynamics 365 for Operationsi v
 
 ## <a name="download-and-install-the-mobile-app"></a>Laadige alla ja installige mobiilirakendus
 
-Laadige alla ja installige Finance and Operationsi mobiilirakendus.
+Laadige alla ja installige finantside ja toimingute (Dynamics 365) mobiilirakendus:
 
 -   [Androidi telefonide puhul](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [iPhone’idele](https://go.microsoft.com/fwlink/?linkid=850663)

@@ -2,7 +2,7 @@
 title: Tootekogumi moodulid
 description: See teema annab ülevaate tootekogumi moodulitest rakenduses Microsoft Dynamics 365 Commerce.
 author: v-chgri
-ms.date: 01/28/2021
+ms.date: 05/18/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 7bc76aa8d5728005711ee8f9758532a989e3568c
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 4ff891eef79835fb4a65535ce8152e5b17023b9c
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984540"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780405"
 ---
 # <a name="product-collection-modules"></a>Tootekogumi moodulid
 
@@ -70,11 +70,14 @@ Tootekogum toetab [kiirvaate moodulit](quick-view-module.md), mis võimaldab kas
 Tootekogumi mooduli lisamiseks kategooria lehele järgige neid juhiseid.
 
 1. Avage **Lehed** ja seejärel valige uue lehe loomiseks **Uus**.
-1. Valige dialoogiboksis **Vali mall** sama mall, mida kasutab teie kategooria vaikeleht. Sisestage jaotises **Lehe nimi** sobiv nimi ja seejärel valige **OK**.
-1. Valige pesas **Alamjalus** kolmikpunkt (**…**) ja seejärel käsk **Lisa moodul**.
-1. Valige dialoogiboksis **Lisa moodul** moodul **Konteiner** ja klõpsake seejärel **OK**.
-1. Valige pesas **Konteiner** kolmikpunkt (**…**) ja seejärel valige käsk **Lisa moodul**.
-1. Valige dialoogiboksis **Lisa moodul** moodul **Tootekogum** ja klõpsake seejärel **OK**.  
+1. Sisestage **dialoogiboksi Lehe nimi** väljale Uue lehe **loomine** sobiv lehe nimi ja seejärel valige käsk **Edasi**.
+1. Valige **jaotises Vali mall** sama mall, mida kasutab teie kategooria vaikeleht, ja seejärel valige **edasi**.
+1. Valige **valiku Vali paigutus** all lehekülje paigutus (nt Paindlik **paigutus**) ja seejärel klõpsake nuppu **Edasi**.
+1. Vaadake **jaotises Ülevaade ja lõpetamine** üle lehe konfiguratsioon. Kui teil on vaja lehekülje teavet redigeerida, valige **Tagasi**. Kui lehekülje teave on õige, valige Loo **leht**. 
+1. Alamjaluse pesas valige kolmikpunkt (**...**) ja seejärel valige **lisamoodul**.**·**
+1. Dialoogiaknas **Vali** moodulid valige konteinerimoodul **ja** seejärel valige **OK**.
+1. Valige konteineri pesast kolmikpunkt (**...**) ja seejärel valige **lisamoodul**.**·**
+1. Dialoogiaknas **Vali** moodulid valige tootekogumi **moodul** ja seejärel valige **OK**.  
 1. Tootekogumi mooduli atribuutide paanil valige käsk **Lisa tooteloend**.
 1. Valige dialoogiboksis **Vali tooteloendi konfiguratsioon** loendi tüüp ja allikas ning sisestage kaupade arv. Konfigureerige kõik muud loendi tüübi puhul saadaolevad suvandid. Lisateavet loendi tüüpide kohta leiate järgnevast tabelist. 
 1. Valige nupp **OK**.

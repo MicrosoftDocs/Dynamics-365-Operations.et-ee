@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: a2f7929026f41e921b71bc5a899810695c859902
-ms.sourcegitcommit: d475dea4cf13eae2f0ce517542c5173bb9d52c1c
+ms.openlocfilehash: 7e42c0b49a4083edd0e64551f4840bd74d412fc1
+ms.sourcegitcommit: 1877696fa05d66b6f51996412cf19e3a6b2e18c6
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/05/2022
-ms.locfileid: "8547784"
+ms.lasthandoff: 05/20/2022
+ms.locfileid: "8786834"
 ---
 # <a name="configure-inventory-visibility"></a>Varude nähtavuse konfigureerimine
 
@@ -60,7 +60,7 @@ Inventory Visibility lisandmoodul lisab teie installile mitu uut Power Apps funk
 
 Kui te ei tea õiget Varude nähtavuse teenuse lõpp-punkti, avage Power Appsi leht **Konfiguratsioon** ja seejärel valige paremast ülanurgast **Kuva teenuse lõpp-punkti**. Lehel kuvatakse õige teenuse lõpp-punkt.
 
-## <a name="data-source-configuration"></a>Andmeallika konfiguratsioon
+## <a name="data-source-configuration"></a><a name="data-source-configuration"></a>Andmeallika konfiguratsioon
 
 Iga andmeallikas tähistab süsteemi, millest teie andmed tulevad. Andmeallikate nimede näited on `fno` (st Dynamics 365 Finantside ja toimingute rakendused) `pos` ja (st müügikohad). Vaikimisi on rakenduse Varude nähtavus andmeallikaks (`fno`) seadistatud Supply Chain Management.
 
@@ -141,7 +141,7 @@ Dimensioonide vastenduste lisamiseks järgige neid juhiseid.
 
 Näiteks kui andmeallikas sisaldab toote värvidimensiooni, saate selle vastendada põhidimensiooniga `ColorId`, et lisada kohandatud dimensioon `ProductColor` andmeallikasse `exterchannel`. Seejärel vastendatakse see põhidimensiooniga `ColorId`.
 
-### <a name="physical-measures"></a>Füüsilised mõõtmed
+### <a name="physical-measures"></a><a name="data-source-configuration-physical-measures"></a>Füüsilised mõõtmed
 
 Kui andmeallikas sisestab rakendusse Varude nähtavus varude muudatuse, sisestab see muudatuse, kasutades *füüsilisi mõõtmeid*. Füüsilised mõõtmed muudavad kogust ja kajastavad varude olekut. Vastavalt vajadustele saate määratleda omaenda füüsilised mõõtmed. Päringud võivad põhineda füüsilistel mõõtudel.
 
@@ -175,6 +175,9 @@ Kui andmeallikaks on rakendus Supply Chain Management, ei pea te füüsilisi vai
 ### <a name="calculated-measures"></a>Arvutatud mõõtmed
 
 Varude nähtavust saate kasutada nii varude füüsiliste mõõtmete kui *kohandatud arvutatud mõõtmete* päringu esitamiseks. Arvutatud mõõtmed annavad kohandatud arvutusvalemi, mis koosneb füüsiliste mõõtmete kombinatsioonist. See funktsioon võimaldab teil määratleda füüsiliste mõõtmete komplekti, mis liidetakse, ja füüsiliste mõõtmete komplekti, mis lahutatakse kohandatud mõõtude moodustamiseks.
+
+> [!IMPORTANT]
+> Arvutatud mõõt on füüsiliste mõõtide koostis. Selle valem võib sisaldada ainult füüsilisi arvutusi ilma duplikaatideta, arvutamata arvutab arvutab.
 
 Konfiguratsioon võimaldab teil määratleda muutujate komplekti, mis lisatakse või lahutatakse koondväljundi koguse saamiseks.
 
@@ -297,7 +300,7 @@ Lahendus sisaldab vaikimisi seda sektsiooni konfiguratsiooni. Seetõttu ei *pea 
 
 ## <a name="product-index-hierarchy-configuration"></a><a name="index-configuration"></a>Tooteindeksi hierarhia konfiguratsioon
 
-Enamasti ei ole vaba kaubavaru päring üksnes kõrgeimal "kogusumma" tasemel. Selle asemel võite soovida näha ka tulemusi, mis on koondatud varude dimensioonide alusel.
+Enamasti ei ole vaba kaubavaru päring üksnes kõrgeimal "kogusumma" tasemel. Selle asemel võite soovida näha tulemusi, mis on laodimensioonide alusel koondatud.
 
 Varude nähtavus pakub paindlikkust, võimaldades teil seadistada _indekseid_. Need indeksid põhinevad dimensioonil või dimensioonide kombinatsioonil. Indeks koosneb *määratud numbrist*, *dimensioonist* ja *hierarhiast*, nii nagu määratletud järgmises tabelis.
 

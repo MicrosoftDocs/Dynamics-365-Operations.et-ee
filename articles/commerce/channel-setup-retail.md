@@ -2,7 +2,7 @@
 title: Jaemüügikanali seadistamine
 description: Selles teemas kirjeldatakse, kuidas luua rakenduses Microsoft Dynamics 365 Commerce uus jaemüügikanal.
 author: samjarawan
-ms.date: 04/23/2021
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6a8db8bb4b42c7ad6c0c0e0c257bc03e356de7d525f524c22eab46e38c018d49
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 74a4f0f61e0bbfd73d0006d3cf45863af6fef18f
+ms.sourcegitcommit: 2b4ee1fe05792332904396b5f495d74f2a217250
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745402"
+ms.lasthandoff: 05/18/2022
+ms.locfileid: "8770217"
 ---
 # <a name="set-up-a-retail-channel"></a>Jaemüügikanali häälestus
 
@@ -90,6 +90,13 @@ Kõigi selles kanalis toetatud maksetüübi makseviiside seadistamiseks toimige 
 Järgmine pilt näitab sularaha makseviisi näidet.
 
 ![Makseviiside näited.](media/channel-setup-retail-5.png)
+
+Järgmine pilt kuvab näite sularaha makseviisi ja vahekaardil Summa **konfiguratsiooni** kohta.
+
+![Summade makseviisi seadistuse näide.](media/payment-methods-recount.png)
+
+> [!NOTE]
+> Vahekaardi Summa **väärtused** salvestatakse jaemüügiserveris vahemällu ja need ei jõustub kohe pärast jaotusgraafiku tööde käivitamist. Peate võib-olla pilveskaala ühiku taaskäivitama, et neid väärtusi testimisel kohe rakendada.
 
 ### <a name="set-up-cash-declaration"></a>Sularaha deklaratsiooni seadistamine
 

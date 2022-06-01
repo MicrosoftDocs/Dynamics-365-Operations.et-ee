@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dcfcd64ae24297c8e11f36629490ebe7cd063de53c717559e1b73743ccc61664
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bc0020a7f7aa60305bfc7c66474e0bbc26f27bef
+ms.sourcegitcommit: d38d2fe85dc2497211ba5731617f590029d07145
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758989"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "8809554"
 ---
 # <a name="create-an-operating-unit"></a>Tootmisüksuse loomine
 
@@ -37,7 +37,7 @@ Tootmisüksus on organisatsioon, mida kasutatakse äri majandusressursside ja t�
     + Sisestage aadressiteave, nt tänavanimi, majanumber, sihtnumber ja linn. Klõpsake suvandit **Lisa**, et sisestada uus aadressikirje, või suvandit Redigeeri, et muuta olemasolevat aadressikirjet.   
     + Vajaduse korral laiendage jaotist **Kontaktteave**.  
     + Sisestage teave selliste sidepidamisviiside kohta nagu meiliaadressid, URL-id ja telefoninumbrid. Uue sidekirje sisestamiseks klõpsake suvandit Uus. Olemasoleva sidekirje muutmiseks klõpsake suvandeid **Rohkem suvandeid > Täpsem**.   
-6. Muutke valikut **Tootmisüksuse number** vastavalt vajadusele. Pange tähele, et see number on ainuidentifikaator, mis vastab kirjele **Osapool** ja see ei saa olla sama ühegi teise tootmisüksusega.
+6. Muutke valikut **Tootmisüksuse number** vastavalt vajadusele. Pange tähele, et see number on vastava **osapoole** kirje kordumatu identifikaator ja ei saa olla sama mis ükski teine tootmisüksus.
 7. Valige käsk **Salvesta**.
 
 

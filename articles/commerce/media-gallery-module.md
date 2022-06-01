@@ -2,7 +2,7 @@
 title: Meediumigalerii moodul
 description: See teema hõlmab meediumigalerii mooduleid ja selles kirjeldatakse, kuidas neid rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
 author: anupamar-ms
-ms.date: 08/02/2021
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 328a56a6efbdd97c8dac32d65c65ad31953cdb4c3ce56ef818ebe8bf633f93a4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0d05129145c5d6c3967b243cb0855a1c4fd3e84e
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733193"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780864"
 ---
 # <a name="media-gallery-module"></a>Meediumigaleriimoodul
 
@@ -78,18 +78,21 @@ Kui pildi allikas tuletatakse lehe kontekstist, kasutatakse piltide toomiseks to
 Meediumigalerii mooduli lisamiseks turunduslehel tehke järgmist.
 
 1. Avage **Mallid** ja valige uue malli loomiseks **Uus**.
-1. Sisestage dialoogiboksis **Uus mall** jaotise **Malli nimi** all **Turundusmall** ja valige seejärel **OK**.
-1. Valige pesas **Keha** kolmikpunkt (**…**) ja seejärel valige käsk **Lisa moodul**.
-1. Valige dialoogiboksis **Lisa moodul** moodul **Vaikeleht** ja klõpsake seejärel **OK**.
-1. Valige vaikelehe pesas **Peamine** kolmikpunkt (**...**) ja seejärel suvand **Lisa moodul**.
-1. Valige dialoogiboksis **Lisa moodul** moodul **Konteiner** ja klõpsake seejärel **OK**.
+1. Dialoogiboksis Uus **mall** sisestage malli nime **all** turundusmall **ja** seejärel valige **OK**.
+1. Kehapesas valige kolmikpunkt (**...**) ja seejärel valige **lisamoodul**.**·**
+1. Dialoogiaknas **Vali** moodulid valige vaikelehemoodul **ja** seejärel valige **OK**.
+1. **Vaikelehe** põhipesas valige kolmikpunkt (**...**) ja seejärel valige **lisamoodul**.
+1. Dialoogiaknas **Vali** moodulid valige konteinerimoodul **ja** seejärel valige **OK**.
 1. Valige **Salvesta**, valige malli registreerimiseks **Lõpeta redigeerimine** ja seejärel selle avaldamiseks **Avalda**.
 1. Avage **Lehed** ja seejärel valige uue lehe loomiseks **Uus**.
-1. Valige dialoogiboksis **Vali mall** mall **Turundusmall**. Sisestage jaotises **Lehe nimi** väärtus **Meediumigalerii leht** ja seejärel klõpsake **OK**.
-1. Uue lehe pesas **Peamine** valige kolmikpunkt (**...**) ja seejärel valige suvand **Lisa moodul**.
-1. Valige dialoogiboksis **Lisa moodul** moodul **Konteiner** ja klõpsake seejärel **OK**.
-1. Valige pesas **Konteiner** kolmikpunkt (**…**) ja seejärel valige käsk **Lisa moodul**.
-1. Valige dialoogiboksis **Lisa moodul** moodul **Meediumigalerii** ja klõpsake seejärel **OK**.
+1. Dialoogiaknas **Loo uus lehekülg** sisestage dialoogiakna **Lehe nimi** väljale Meediagalerii **ja** seejärel valige väärtus **Edasi**.
+1. Valige **valiku Vali mall** all loodud **turundusmall** ja seejärel **edasi**.
+1. Valige **valiku Vali paigutus** all lehekülje paigutus (nt Paindlik **paigutus**) ja seejärel klõpsake nuppu **Edasi**.
+1. Vaadake **jaotises Ülevaade ja lõpetamine** üle lehe konfiguratsioon. Kui teil on vaja lehekülje teavet redigeerida, valige **Tagasi**. Kui lehekülje teave on õige, valige Loo **leht**. 
+1. Uue lehekülje põhipesas valige kolmikpunkt (**...**) ja seejärel valige **lisamoodul**.**·**
+1. Dialoogiaknas **Vali** moodulid valige konteinerimoodul **ja** seejärel valige **OK**.
+1. Valige konteineri pesast kolmikpunkt (**...**) ja seejärel valige **lisamoodul**.**·**
+1. Dialoogiaknas **Vali** moodulid valige meediamoodulis **ja** seejärel valige **OK**.
 1. Valige meediumigalerii mooduli atribuudipaanil jaotises **Pildi allikas** väärtus **Toote ID**. Seejärel sisestage toote ID väljale **Toote ID**.
 1. Valige **Salvesta** ja seejärel lehe eelvaate kuvamiseks **Eelvaade**. Te peaksite toote pilte galeriivaates nägema.
 1. Ainult valitud piltide kasutamiseks valige atribuudipaani jaotises **Pildi allikas** väärtus **Toote ID**. Seejärel valige jaotises **Pildid** suvand **Lisa pilt** nii mitu korda, kui on vaja piltide lisamiseks meediumiteegist.

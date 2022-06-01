@@ -2,7 +2,7 @@
 title: Mitmekeelsete aruannete kujundamine elektroonilises aruandluses
 description: Selles teemas selgitatakse, kuidas saate kasutada elektroonilise aruandluse (ER) silte mitmekeelsete aruannete kujundamiseks ja loomiseks.
 author: NickSelin
-ms.date: 11/30/2021
+ms.date: 04/28/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eab17635494657740fe46364bde0773dae5b9e4b
-ms.sourcegitcommit: 8bcb9c13eccb14e61c39ca6578d135b64090fad2
+ms.openlocfilehash: aa8297d4f5c56a7a20561b1a90c5852e65dbff31
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8313687"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811603"
 ---
 # <a name="design-multilingual-reports-in-electronic-reporting"></a>Mitmekeelsete aruannete kujundamine elektroonilises aruandluses
 
@@ -46,7 +46,7 @@ Saate konfigureerida keelest sõltuvaid ressursse ER-i siltidena. Seejärel saat
 
 ER-i silte saab konfigureerida igas ER-i [konfiguratsioonis](general-electronic-reporting.md#Configuration), mis sisaldab eri komponente. Silte on võimalik hallata ER-i andmemudelite, ER-i mudelivastenduste ja ER-i vormingukomponentide konfigureeritud loogikast sõltumatult.
 
-Iga ER-i silt on tuvastatav ID abil, mis on seda silti sisaldavas ER-i konfiguratsioonis kordumatu. Iga silt võib sisaldada silditeksti igas keeles, mida toetatakse praeguses Microsoft Dynamics 365 Finance'i eksemplaris. Toetatud keeled hõlmavad rakendatud kohanduste keeli.
+Iga ER-i silt on tuvastatav ID abil, mis on seda silti sisaldavas ER-i konfiguratsioonis kordumatu. Iga silt võib sisaldada sildi teksti iga keele jaoks, mida praegune Microsoft Dynamics 365 Finantsid toetab. Toetatud keeled hõlmavad rakendatud kohanduste keeli.
 
 ## <a name="entry"></a>Kirje
 
@@ -81,7 +81,7 @@ Kui ER-i andmemudel konfigureeritakse sel viisil, esitatakse selle sisu ER-i and
 
 ### <a name="model-mapping-component"></a>Mudelivastenduse komponent
 
-Kuna ER-i mudelivastendus põhineb ER-i andmemudelil, siis esitatakse viidatud andmemudeli elementide sildid mudelivastenduse kujundajas kasutaja eelistatud keeles. Järgmisel illustratsioonil on näha, kuidas selgitatakse muudetavas mudelivastenduses välja **PurchaseOrder** tähendust konfigureeritud andmemudelisse lisatud atribuudi **Kirjeldus** sildi abil. Pange tähele, et silt on esitatud kasutaja eelistatud keeles (selles näites DE-AT).
+Kuna ER-mudeli vastendamine põhineb ER-andmemudelil, kuvatakse viidatud andmemudeli elementide sildid mudeli vastendamise kujundajas kasutaja eelistatud keeles. Järgmisel illustratsioonil on näha, kuidas selgitatakse muudetavas mudelivastenduses välja **PurchaseOrder** tähendust konfigureeritud andmemudelisse lisatud atribuudi **Kirjeldus** sildi abil. Pange tähele, et silt on esitatud kasutaja eelistatud keeles (selles näites DE-AT).
 
 ![ER-i mudelivastenduse kujundaja paigutus kasutaja puhul, kes on määranud eelistatud keeleks DE-AT.](./media/er-multilingual-labels-show-mapping.png)
 
@@ -89,7 +89,7 @@ Kui andmeallika **Kasutaja sisendparameeter** atribuut **Silt** on konfiguratsio
 
 ### <a name="format-component"></a>Vormingu komponent
 
-ER-i vormingu konfigureerimisel saate sellele lisada ER-i silte. Iga konfigureeritud andmeallika atribuute **Silt** ja **Spikritekst** on võimalik siduda ER-i sildiga, mis lisatakse ER-i vormingusse. Iga <a id="LinkFormatEnum"></a>vormingu loendamisväärtuse atribuute **Silt** ja **Kirjeldus** saab samuti siduda ER-i sildiga, millele pääseb juurde muudetavas ER-i vormingus.
+ER-i vormingu konfigureerimisel saate sellele lisada ER-i silte. Iga konfigureeritud andmeallika atribuute **Silt** ja **Spikritekst** on võimalik siduda ER-i sildiga, mis lisatakse ER-i vormingusse. Iga **vormingu** loeteluväärtuse **sildi** ja kirjelduse atribuute saab linkida ka ER-sildiga, millele on juurdepääs redigeeritavast <a id="LinkFormatEnum"></a> ER-vormingust.
 
 > [!NOTE]
 > Samuti saate need atribuudid siduda sellise ER-i emaandmemudeli ER-sildiga, mis taaskasutab mudeli silte igas ER-i vormingus, mis on selle ER-i andmemudeli jaoks konfigureeritud.
@@ -218,6 +218,11 @@ Muudetava ER-i komponendi silte hoitakse koos komponendi muu sisuga ER-i konfigu
 
 ER-i aluskomponendi siltidele saab viidata ER-i komponendi tuletatud versioonis, mille te loote oma muudatuste tutvustamiseks.
 
+> [!TIP]
+> ER-lahenduse kujundamisel saate esitatud andmetest tuletada oma ER [andmemudeli](er-overview-components.md#data-model-component) komponendi. Selles tuletatud andmemudelis saate tutvustada oma ER-silte ja kasutada neid kõigis ER-vormingutes, mis kasutavad andmeallikana andmemudelit. Seejärel saate tuletatud ER-vormingu [komponendi](er-overview-components.md#format-component) tuletada antud ER-i andmemudeli asemel antud komponendist. Versioonis 10.0.28 ja uuemates versioonides saate lubada täiustatud juurdepääsu ER andmemudeli tüübi siltidele kasvava ER-i andmemudeli siltidele tuletatud ER-vormingu komponentides isegi siis, **kui tuletatud ER-i komponendi jaoks valitud ER-andmemudel** erineb sellest, mida kasutati ER-põhikomponendis.
+>
+> Kui tuletatud komponendis ja selle kasvavas komponendis kasutatakse sama sildinime, kasutatakse kõige asjakohasema sildi tõlget.
+
 ER-i versioonimine kontrollib sildi määramist ER-komponendi mis tahes atribuudile. Sildi määramise muudatused salvestatakse sellise muudetava ER-i komponendi muudatusloendisse (delta), mis on loodud antud ER-komponendi tuletatud versioonina. Need muudatused kinnitatakse, kui tuletatud versioon muutub uue alusversiooni aluseks.
 
 ## <a name="functions"></a>Funktsioonid
@@ -240,9 +245,9 @@ Kui muudate ER-i **konfiguratsiooniversiooni** **oleku** mustandist olekusse Lõ
 
 Funktsioonihalduse tööruumis pole **soovitatav lubada ER-siltide** talletamisfunktsiooni **kiirendamine**. See funktsioon aitab parandada võrgu ribalaiust ja üldist süsteemi jõudlust, sest enamasti kasutatakse üksiku ER-i konfiguratsiooniga töötades ühe keele ER-silte.
 
-Valitud ladustamisskeemi rakendamiseks kõigi ER-i konfiguratsioonide siltide säilitamiseks currenet Finance eksemplaris viige lõpule järgmised sammud.
+Valitud ladustamisskeemi rakendamiseks kõigi ER-i konfiguratsioonide siltide säilitamiseks praeguses finantseksemplaris viige lõpule järgmised sammud.
 
-1. Minge kõikide **ER konfiguratsioonide** > **valitud siltide talletamiseks organisatsiooni administreerimiskeskusessePeriodicApply** > **·**.
+1. Avage organisatsiooni **haldus perioodiline** > **rakendage** > **valitud silte, mis talletavad skeemi kõigi ER konfiguratsioonide jaoks**.
 2. Valige nupp **OK**.
 
 

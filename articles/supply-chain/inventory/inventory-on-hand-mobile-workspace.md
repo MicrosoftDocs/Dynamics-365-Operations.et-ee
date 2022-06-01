@@ -2,7 +2,7 @@
 title: Vaba kaubavaru mobiilne tööruum
 description: See teema annab teavet vaba kaubavaru mobiilse tööruumi kohta. See tööruum aitab saada alati ja kõikjal mobiilseid ülevaateid reserveeritud ning vabadest kaubavarudest.
 author: yufeihuang
-ms.date: 12/01/2017
+ms.date: 05/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,20 +15,21 @@ ms.search.industry: Manufacturing
 ms.author: yufeihuang
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 9e67e16acc8ed72d571e9010131723038c8586a9
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: b380da99b02fe9b7cd834eabac3498ee3b8e54a4
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573893"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811462"
 ---
 # <a name="inventory-on-hand-mobile-workspace"></a>Vaba kaubavaru mobiilne tööruum
 
 [!include [banner](../includes/banner.md)]
+[!include [mobile app deprecation](../../fin-ops-core/dev-itpro/includes/mobile-app-deprecation-banner.md)]
 
 See teema annab teavet **vaba kaubavaru** mobiilse tööruumi kohta. See tööruum aitab saada alati ja kõikjal ülevaateid reserveeritud ning vabadest kaubavarudest.
 
-See mobiilne tööruum on mõeldud kasutamiseks mobiilirakendusega Finance and Operations.
+See mobiilses tööruum on mõeldud kasutamiseks koos Rakenduse Finantsid ja toimingud (Dynamics 365) mobiilirakendusega.
 
 ## <a name="overview"></a>Ülevaade
 Tavaliselt on ettevõtetel iga päev mitu laosaadetist ja sissetulekut. Need liikumised muudavad pidevalt vaba kaubavaru olekut. Mobiilne tööruum **Vaba kaubavaru** aitab näha ettevõtteülest vaba kaubavaru olekut, et saaksite enda valitud mobiilsel seadmel viimaseid ülevaateid varude andmetest. Olenemata sellest, kas töötate laos, ostu- või müügiosakonnas, tootmises või juhtkonnas või teil on muud rollid, pääsete vaba kaubavaru andmetele alati ja kõikjal juurde. 
@@ -93,7 +94,7 @@ Kui teie organisatsioonis on juurutatud platvormivärskendus 3 või uuem, peab s
 
 ## <a name="download-and-install-the-mobile-app"></a>Laadige alla ja installige mobiilirakendus
 
-Laadige alla ja installige Finance and Operationsi mobiilirakendus.
+Laadige alla ja installige finantside ja toimingute (Dynamics 365) mobiilirakendus:
 
 -   [Androidi telefonide puhul](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [iPhone’idele](https://go.microsoft.com/fwlink/?linkid=850663)

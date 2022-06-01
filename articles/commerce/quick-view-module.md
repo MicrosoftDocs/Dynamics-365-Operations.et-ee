@@ -2,7 +2,7 @@
 title: Kiirvaatemoodul
 description: See teema hõlmab kiirvaatemooduleid ja kirjeldab, kuidas neid rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
 author: anupamar-ms
-ms.date: 01/28/2021
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2020-01-08
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 68808da1ad2b3474852b3544df55db948f8758cd
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 5ba42806d8f77f41ab9c5cf5e26b20ecb647aadf
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692696"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780814"
 ---
 # <a name="quick-view-module"></a>Kiirvaatemoodul
 
@@ -60,8 +60,8 @@ Kiirvaatemoodulit saab lisada tootekogumi ja otsingutulemuste moodulitele.
 Tootekogumi moodulile kiirvaatemooduli lisamisekd Commerce'i saidiehitajas toimige jägmiselt.
 
 1. Avage **Lehed** ja seejärel valige Fabrikami saidi avaleht.
-1. Avage avalehel mistahes **Tootekogum**, valige kolmikpunkt (**...**) ja seejärel valige **Lisa moodul**.
-1. Valige dialoogiboksis **Lisa moodul** moodul **Kiirvaade** ja klõpsake seejärel **OK**.
+1. Minge kodulehe **mis tahes** tootekogumi moodulisse, valige kolmikpunkt (**...**) ja seejärel valige **lisamoodul**.
+1. Dialoogiaknas **Vali** moodulid valige kiirvaate **moodul** ja seejärel valige **OK**.
 1. Valige mooduli **Kiirvaade** atribuutide paanil **Pealkiri**. Seadistage dialoogiboksis **Pealkiri** väli **Pealkirja aste** väärtusele **H2** ja seejärel valige **OK**.
 1. Valige **Salvesta**, valige lehe registreerimiseks **Lõpeta redigeerimine** ja seejärel selle avaldamiseks **Avalda**.
 

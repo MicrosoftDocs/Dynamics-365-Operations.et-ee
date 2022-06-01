@@ -2,7 +2,7 @@
 title: Varude nähtavuse laoseisu muudatuste graafikud ja lubaduse andmiseks saadaval
 description: See teema kirjeldab, kuidas planeerida tulevasi vaba kaubavaru muudatusi ja arvutada saadaolevaid ATP-koguseid.
 author: yufeihuang
-ms.date: 03/04/2022
+ms.date: 05/11/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-03-04
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: 7ce868871f093fd734a466bb8a06c5782bf83302
-ms.sourcegitcommit: a3b121a8c8daa601021fee275d41a95325d12e7a
+ms.openlocfilehash: 7456f87bede7bd0073223fa4762f96f919799e06
+ms.sourcegitcommit: 38d97efafb66de298c3f504b83a5c9b822f5a62a
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8526331"
+ms.lasthandoff: 05/17/2022
+ms.locfileid: "8763249"
 ---
 # <a name="inventory-visibility-on-hand-change-schedules-and-available-to-promise"></a>Varude nähtavuse laoseisu muudatuste graafikud ja lubaduse andmiseks saadaval
 
@@ -24,7 +24,7 @@ ms.locfileid: "8526331"
 
 See teema kirjeldab, kuidas *seadistada vabade* kaubavaru muudatuste ajakava funktsioon, et planeerida tulevasi vaba kaubavaru muudatusi ja arvutada lubamiseks saadaolevaid (ATP) koguseid. ATP on kauba kogus, mis on saadaval ja mida saab kliendile järgmisel perioodil lubada. Selle arvutuse kasutamine võib tellimuse täitmise võimalusi oluliselt suurendada.
 
-Paljude tootmiste, jaekaupluste või väljamüüdud toodete puhul ei piisa sellest, et teada, mis on praegu vaba. Neil peab olema täielik nähtavus tulevase saadavuse suhtes. Selline tulevane saadavus peaks arvestama tulevase pakkumise, tulevase nõudluse ja ATP-ga.
+Paljude tootjate, jaemüüjate võikauplejate jaoks ei piisa ainult selleks, et teada, mis praegu on saadaval. Neil peab olema täielik nähtavus tulevase saadavuse suhtes. Selline tulevane saadavus peaks arvestama tulevase pakkumise, tulevase nõudluse ja ATP-ga.
 
 ## <a name="enable-and-set-up-the-features"></a><a name="setup"></a> Funktsioonide lubamine ja seadistamine
 
@@ -32,17 +32,26 @@ Enne ATP kasutamist peate ATP koguste arvutamiseks seadistama ühe või mitu kal
 
 ### <a name="set-up-calculated-measures-for-atp-quantities"></a>ATP kogustele arvutatud kogused
 
-*ATP arvutatud mõõt* on eelmääratletud arvutatud mõõt, mida kasutatakse tavaliselt praegu saadaoleva vaba kaubavaru leidmiseks. Selle lisamise muutja koguste summa on tarnekogus ja selle lahutamise modifikaatori koguste summa on nõudluse kogus.
+*ATP arvutatud mõõt* on eelmääratletud arvutatud mõõt, mida kasutatakse tavaliselt praegu saadaoleva vaba kaubavaru leidmiseks. Tarnekogus *on nende füüsiliste väärtuste koguste* *summa, mille lisamistüüp on Muutja, ning nõudluse kogus on nende füüsiliste väärtuste koguste* summa, *mille* lahutamise tüüp on muutja *.*
 
-ATP koguste arvutamiseks saate lisada mitmeid arvutatud koguseid. Kuid kõikide ATP arvutatud measures modifikaatorite koguarv peab olema väiksem kui üheksa.
+Mitme ATP koguse arvutamiseks saate lisada mitmeid arvutatud koguseid. Erinevate füüsiliste measures kogu arv kõigis ATP arvutatud failis peab olema väiksem kui üheksa.
+
+> [!IMPORTANT]
+> Arvutatud mõõt on füüsiliste mõõtide koostis. Selle valem võib sisaldada ainult füüsilisi arvutusi ilma duplikaatideta, arvutamata arvutab arvutab.
 
 Näiteks seadistate järgmise arvutatud mõõtu:
 
-**Vaba =** (PhysicalInventOnHandUnrestrictedQualityInspectionInbound *·* + *·* + *·* + *·* + *) – (* ReservPhysicalSoftReservePhysicalOutbound) *·* + *·* + *·*
+**Vaba =** (PhysicalInvent *OnHand* + *·* + *piiranguteta QualityInspection* + *Inbound* + *) – (* ReservPhysical *SoftReservePhysical* + *Outbound* + *·*)
 
-Summa (*PhysicalInventOnHandUnrestrictedQualityInspectionInbound* + *·* + *·* + *·* + *·*) esindab pakkumist ja summa (*ReservPhysicalSoftReservePhysicalOutbound* + *·* + *·*) esindab nõudlust. Seetõttu saab arvutatud mõõtu mõista järgmisel viisil:
+Summa (*PhysicalInvent* + *OnHand* + *piiranguteta* + *QualityInspection* + *Inbound*) esindab pakkumist ja summa (*ReservPhysical* + *SoftReservePhysical* + *Outbound*) esindab nõudlust. Seetõttu saab arvutatud mõõtu mõista järgmisel viisil:
 
-**Vaba kaubavarutoe** = *–* *nõudlus*
+**Vaba pakkumine –** = *·* *nõudlus*
+
+Saate lisada teise arvutatud mõõtu, et arvutada **vaba füüsiline** ATP kogus.
+
+**Vaba füüsiline =** (PhysicalInvent *OnHand* + *·* + *piiranguteta QualityInspection* + *Inbound* + *) – (* väljaminev *·*)
+
+Nende kahe ATP arvutatud mõõdu vahel on kaheksa erinevat füüsilist mõõdu: PhysicalInvent, OnHand *, Piiranguteta,* *QualityInspection* *,* Inbound *,* ReservPhysical *,* SoftReservePhysical *ja* Outbound *.* *·*
 
 Lisateavet arvutatud measures kohta vt arvutatud [võetud dest](inventory-visibility-configuration.md#calculated-measures).
 
@@ -80,7 +89,7 @@ Näiteks te paigutate tellimuse 10 võimlemiseks ja ootate selle saabuvat homset
 
 Varude nähtavuse päringute puhul laoseisu ja ATP koguste kohta tagastab see järgmise teabe graafikuperioodi iga päeva kohta:
 
-- **Kuupäev** – kuupäev, milleni tulemus kehtib.
+- **Kuupäev** – kuupäev, milleni tulemus kehtib. Ajavöönd on koordineeritud maailmaaeg (UTC).
 - **Vaba kaubavaru kogus** – määratud kuupäeva tegelik vaba kaubavaru. See arvutus tehakse vastavalt varude nähtavuse jaoks konfigureeritud ATP arvutatud mõõtu.
 - **Plaanitud** tarne – kõigi planeeritud sissetulevate koguste summa, mis ei ole määratud kuupäeva jooksul otsetarbimiseks või lähetamiseks füüsiliselt saadaval.
 - **Plaanitud** nõudlus – kõigi planeeritud väljaminevate koguste summa, mida pole määratud kuupäevaks tarbitud või lähetatud.
@@ -108,79 +117,79 @@ Selle näite tulemused näitavad prognoositud *vaba kaubavaru* väärtust. See v
 
     | Kuupäev | Laoseis | Plaanitud tarne | Plaanitud nõudlus | Prognoositud vaba kaubavaru | ATP |
     | --- | --- | --- | --- | --- | --- |
-    | 2022/02/01 | 20 | | 3 | 17 | 17 |
-    | 2022/02/02 | 20 | | | 17 | 17 |
-    | 2022/02/03 | 20 | | | 17 | 17 |
-    | 2022/02/04 | 20 | | | 17 | 17 |
-    | 2022/02/05 | 20 | | | 17 | 17 |
-    | 2022/02/06 | 20 | | | 17 | 17 |
-    | 2022/02/07 | 20 | | | 17 | 17 |
+    | 2022-02-01 | 20 | | 3 | 17 | 17 |
+    | 2022-02-02 | 20 | | | 17 | 17 |
+    | 2022-02-03 | 20 | | | 17 | 17 |
+    | 2022-02-04 | 20 | | | 17 | 17 |
+    | 2022-02-05 | 20 | | | 17 | 17 |
+    | 2022-02-06 | 20 | | | 17 | 17 |
+    | 2022-02-07 | 20 | | | 17 | 17 |
 
 1. Käesolevaks kuupäevaks (1. veebruar 2022) esitate planeeritud tarnekoguseks 10 3. veebruaril 2022. Tulemust näitab järgmine tabel.
 
     | Kuupäev | Laoseis | Plaanitud tarne | Plaanitud nõudlus | Prognoositud vaba kaubavaru | ATP |
     | --- | --- | --- | --- | --- | --- |
-    | 2022/02/01 | 20 | | 3 | 17 | 17 |
-    | 2022/02/02 | 20 | | | 17 | 17 |
-    | 2022/02/03 | 20 | 10 | | 27 | 27 |
-    | 2022/02/04 | 20 | | | 27 | 27 |
-    | 2022/02/05 | 20 | | | 27 | 27 |
-    | 2022/02/06 | 20 | | | 27 | 27 |
-    | 2022/02/07 | 20 | | | 27 | 27 |
+    | 2022-02-01 | 20 | | 3 | 17 | 17 |
+    | 2022-02-02 | 20 | | | 17 | 17 |
+    | 2022-02-03 | 20 | 10 | | 27 | 27 |
+    | 2022-02-04 | 20 | | | 27 | 27 |
+    | 2022-02-05 | 20 | | | 27 | 27 |
+    | 2022-02-06 | 20 | | | 27 | 27 |
+    | 2022-02-07 | 20 | | | 27 | 27 |
 
 1. Jooksval kuupäeval (1. veebruar 2022) esitate järgmised planeeritud kogusemuutused:
 
     - Nõudluse kogus 15, 4. veebruar 2022
     - Tarnekogus 1. veebruaril 2022
-    - Nõudluse kogus 3. veebruaril 2022
+    - Tarnekogus 3. veebruaril 2022
 
     Tulemust näitab järgmine tabel.
 
     | Kuupäev | Laoseis | Plaanitud tarne | Plaanitud nõudlus | Prognoositud vaba kaubavaru | ATP |
     | --- | --- | --- | --- | --- | --- |
-    | 2022/02/01 | 20 | | 3 | 17 | 12 |
-    | 2022/02/02 | 20 | | | 17 | 12 |
-    | 2022/02/03 | 20 | 10 | | 27 | 12 |
-    | 2022/02/04 | 20 | | 15 | 12 | 12 |
-    | 2022/02/05 | 20 | 1 | | 13 | 13 |
-    | 2022/02/06 | 20 | 3 | | 16 | 16 |
-    | 2022/02/07 | 20 | | | 16 | 16 |
+    | 2022-02-01 | 20 | | 3 | 17 | 12 |
+    | 2022-02-02 | 20 | | | 17 | 12 |
+    | 2022-02-03 | 20 | 10 | | 27 | 12 |
+    | 2022-02-04 | 20 | | 15 | 12 | 12 |
+    | 2022-02-05 | 20 | 1 | | 13 | 13 |
+    | 2022-02-06 | 20 | 3 | | 16 | 16 |
+    | 2022-02-07 | 20 | | | 16 | 16 |
 
 1. Praegusel kuupäeval (1. veebruar 2022) lähetate planeeritud nõudluse koguseks 3. Seetõttu peate selle muudatuse tegema, et see kajastuks teie tegelikus vabas koguses. Muudatuse sisseostmiseks esitate vaba kaubavaru muudatuse sündmuse, mille väljaminev kogus on 3. Seejärel taastate planeeritud muudatuse, esitades vaba kaubavaru muudatuse graafiku, mille väljaminev kogus on -3. Tulemust näitab järgmine tabel.
 
     | Kuupäev | Laoseis | Plaanitud tarne | Plaanitud nõudlus | Prognoositud vaba kaubavaru | ATP |
     | --- | --- | --- | --- | --- | --- |
-    | 2022/02/01 | 17 | | 0 | 17 | 12 |
-    | 2022/02/02 | 17 | | | 17 | 12 |
-    | 2022/02/03 | 17 | 10 | | 27 | 12 |
-    | 2022/02/04 | 17 | | 15 | 12 | 12 |
-    | 2022/02/05 | 17 | 1 | | 13 | 13 |
-    | 2022/02/06 | 17 | 3 | | 16 | 16 |
-    | 2022/02/07 | 17 | | | 16 | 16 |
+    | 2022-02-01 | 17 | | 0 | 17 | 12 |
+    | 2022-02-02 | 17 | | | 17 | 12 |
+    | 2022-02-03 | 17 | 10 | | 27 | 12 |
+    | 2022-02-04 | 17 | | 15 | 12 | 12 |
+    | 2022-02-05 | 17 | 1 | | 13 | 13 |
+    | 2022-02-06 | 17 | 3 | | 16 | 16 |
+    | 2022-02-07 | 17 | | | 16 | 16 |
 
 1. Järgmisel päeval (2. veebruar 2022) nihutab graafiku periood edasi ühe päeva võrra. Tulemust näitab järgmine tabel.
 
     | Kuupäev | Laoseis | Plaanitud tarne | Plaanitud nõudlus | Prognoositud vaba kaubavaru | ATP |
     | --- | --- | --- | --- | --- | --- |
-    | 2022/02/02 | 17 | | | 17 | 12 |
-    | 2022/02/03 | 17 | 10 | | 27 | 12 |
-    | 2022/02/04 | 17 | | 15 | 12 | 12 |
-    | 2022/02/05 | 17 | 1 | | 13 | 13 |
-    | 2022/02/06 | 17 | 3 | | 16 | 16 |
-    | 2022/02/07 | 17 | | | 16 | 16 |
-    | 2022/02/08 | 17 | | | 16 | 16 |
+    | 2022-02-02 | 17 | | | 17 | 12 |
+    | 2022-02-03 | 17 | 10 | | 27 | 12 |
+    | 2022-02-04 | 17 | | 15 | 12 | 12 |
+    | 2022-02-05 | 17 | 1 | | 13 | 13 |
+    | 2022-02-06 | 17 | 3 | | 16 | 16 |
+    | 2022-02-07 | 17 | | | 16 | 16 |
+    | 2022-02-08 | 17 | | | 16 | 16 |
 
 1. Kuid kahe päeva pärast (4. veebruar 2022) pole 3. veebruariks planeeritud tarnekogust ikka veel saabunud. Tulemust näitab järgmine tabel.
 
     | Kuupäev | Laoseis | Plaanitud tarne | Plaanitud nõudlus | Prognoositud vaba kaubavaru | ATP |
     | --- | --- | --- | --- | --- | --- |
-    | 2022/02/04 | 17 | | 15 | 2 | 2 |
-    | 2022/02/05 | 17 | 1 | | 3 | 3 |
-    | 2022/02/06 | 17 | 3 | | 6 | 6 |
-    | 2022/02/07 | 17 | | | 6 | 6 |
-    | 2022/02/08 | 17 | | | 6 | 6 |
-    | 2022/02/09 | 17 | | | 6 | 6 |
-    | 2022/02/10 | 17 | | | 6 | 6 |
+    | 2022-02-04 | 17 | | 15 | 2 | 2 |
+    | 2022-02-05 | 17 | 1 | | 3 | 3 |
+    | 2022-02-06 | 17 | 3 | | 6 | 6 |
+    | 2022-02-07 | 17 | | | 6 | 6 |
+    | 2022-02-08 | 17 | | | 6 | 6 |
+    | 2022-02-09 | 17 | | | 6 | 6 |
+    | 2022-02-10 | 17 | | | 6 | 6 |
 
     Nagu näete, ei mõjuta planeeritud (kuid mitte kooskõlastatud) vaba kaubavaru muutmine tegelikku vaba kaubavaru kogust.
 
@@ -190,40 +199,55 @@ Saate kasutada järgmisi rakenduse programmeerimisliidese (API) URL-e, et edasta
 
 | Tee | Meetod | Kirjeldus |
 | --- | --- | --- |
-| `/api/environment/{environmentId}/on-hand/changeschedule` | `POST` | Loob ühe plaanitud vaba kaubavaru muudatuse. |
-| `/api/environment/{environmentId}/on-hand/changeschedule/bulk` | `POST` | Saate luua mitu plaanitud vaba kaubavaru muudatust. |
+| `/api/environment/{environmentId}/onhand/changeschedule` | `POST` | Loob ühe plaanitud vaba kaubavaru muudatuse. |
+| `/api/environment/{environmentId}/onhand/changeschedule/bulk` | `POST` | Saate luua mitu plaanitud vaba kaubavaru muudatust. |
 | `/api/environment/{environmentId}/onhand` | `POST` | Loo üks vaba kaubavaru muudatuse sündmus. |
 | `/api/environment/{environmentId}/onhand/bulk` | `POST` | Saate luua mitu muutuse sündmust. |
-| `/api/environment/{environmentId}/onhand/indexquery` | `POST` | Saate seda meetodit kasutades päringut `POST`. |
-| `/api/environment/{environmentId}/onhand` | `GET` | Saate seda meetodit kasutades päringut `GET`. |
+| `/api/environment/{environmentId}/onhand/indexquery` | `POST` | Saate seda meetodit kasutades päringut`POST`. |
+| `/api/environment/{environmentId}/onhand` | `GET` | Saate seda meetodit kasutades päringut`GET`. |
 
 Lisateavet vt varude nähtavuse avalikud [API-d](inventory-visibility-api.md).
 
-### <a name="submit-on-hand-change-schedules"></a>Vabade kaubavaru muudatuste graafikute edastamine
+### <a name="create-one-on-hand-change-schedule"></a>Ühe vaba kaubavaru muutmise graafiku loomine
 
-Vaba kaubavaru muudatuste graafikud `POST` tehakse taotluse esitamisega vastavale varude nähtavuse teenuse URL-ile (vt [API jaotise kaudu muudatuste graafikute esitamine, sündmuste muutmine ja ATP päringud](#api-urls)). Saate esitada ka hulgitaotlusi.
+Luuakse vaba laoseisu muudatuste `POST` graafik, esitades taotluse vastavale varude nähtavuse teenuse URL-ile (vt [API jaotise kaudu muudatuste graafikute esitamine, sündmuste muutmine ja ATP päringud](#api-urls)). Saate esitada ka hulgitaotlusi.
 
-Vaba muudatusgraafiku esitamiseks peab taotluse keha sisaldama organisatsiooni ID-d, toote ID-d, planeeritud kuupäeva ja koguseid kuupäeva järgi. Planeeritud kuupäev peab olema praeguse kuupäeva ja praeguse ajakavaperioodi lõpu vahel.
+Vaba kaubavaru muutmise graafikut saab luua ainult siis, kui planeeritud kuupäev on praeguse kuupäeva ja praeguse ajakava perioodi lõpu vahel. Kuupäeva ja kellaaja vorming peab *olema aasta-kuu-päev* (nt **2022-02-01**). Ajavorming peab olema täpne ainult päeva kohta.
 
-#### <a name="example-request-body-that-contains-a-single-update"></a>Näidistaotluse kehaosa, mis sisaldab üksikut värskendust
+See API loob ühe vaba kaubavaru muutmise graafiku.
 
-Järgmine näide näitab taotluse keha, mis sisaldab üksikut värskendust.
+```txt
+Path:
+    /api/environment/{environmentId}/onhand/changeschedule
+Method:
+    Post
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Body:
+    {
+        id: string,
+        organizationId: string,
+        productId: string,
+        dimensionDataSource: string, # optional
+        dimensions: {
+            [key:string]: string,
+        },
+        quantitiesByDate: {
+            [datetime:datetime]: {
+                [dataSourceName:string]: {
+                    [key:string]: number,
+                },
+            },
+        },
+    }
+```
+
+Järgmises näites on toodud näidissisu ilma `dimensionDataSource`.
 
 ```json
-# Url
-# replace {RegionShortName} and {EnvironmentId} with your value
-https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.com/api/environment/{EnvironmentId}/on-hand/changeschedule
-
-# Method
-Post
-
-# Header
-# Replace {access_token} with the one from your security service
-Api-version: "1.0"
-Content-Type: "application/json"
-Authorization: "Bearer {access_token}"
-
-# Body
 {
     "id": "id-bike-0001",
     "organizationId": "usmf",
@@ -232,38 +256,60 @@ Authorization: "Bearer {access_token}"
         "SiteId": "1",
         "LocationId": "11",
         "ColorId": "Red",
-        "SizeId": "Small"
+        "SizeId&quot;: &quot;Small"
     },
     "quantitiesByDate":
     {
-        "2022/02/01": // today
+        "2022-02-01": // today
         {
             "pos":{
-                "inbound": 10,
-            },
-        },
-    },
+                "inbound": 10
+            }
+        }
+    }
 }
 ```
 
-#### <a name="example-request-body-that-contains-multiple-bulk-updates"></a>Mitme (hulgi)uuendusi sisaldava nõude kehaosa näide
+### <a name="create-multiple-on-hand-change-schedules"></a>Mitme vaba kaubavaru muutmise graafiku loomine
 
-Järgmine näide näitab taotluse keha, mis sisaldab mitut (hulgi)värskendust.
+See API võib luua korraga mitu kirjet. Ainsad erinevused selle API ja üksiksündmuse API vahel on ja `Path` väärtused`Body`. Selle API puhul annab `Body` palju kirjeid. Maksimaalne kirjete arv on 512. Seetõttu võib vaba kaubavaru muutmise graafiku hulgi-API toetada korraga kuni 512 planeeritud muudatust.
+
+```txt
+Path:
+    /api/environment/{environmentId}/onhand/changeschedule/bulk
+Method:
+    Post
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Body:
+    [
+        {
+            id: string,
+            organizationId: string,
+            productId: string,
+            dimensionDataSource: string,
+            dimensions: {
+                [key:string]: string,
+            },
+            quantityDataSource: string, # optional
+            quantitiesByDate: {
+                [datetime:datetime]: {
+                    [dataSourceName:string]: {
+                        [key:string]: number,
+                    },
+                },
+            },
+        },
+        ...
+    ]
+```
+
+Järgmises näites on toodud näidissisu.
 
 ```json
-# Url
-# replace {RegionShortName} and {EnvironmentId} with your value
-https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.com/api/environment/{EnvironmentId}/on-hand/changeschedule/bulk
-
-# Method
-Post
-
-# Header
-# replace {access_token} with the one from your security service
-Api-version: "1.0"
-Content-Type: "application/json"
-Authorization: "Bearer {access_token}"
-
 [
     {
         "id": "id-bike-0001",
@@ -273,67 +319,51 @@ Authorization: "Bearer {access_token}"
             "SiteId": "1",
             "LocationId": "11",
             "ColorId": "Red",
-            "SizeId": "Small"
+            "SizeId&quot;: &quot;Small"
         },
         "quantitiesByDate":
         {
-            "2022/02/01": // today
+            "2022-02-01": // today
             {
                 "pos":{
-                    "inbound": 10,
-                },
-            },
-        },
+                    "inbound": 10
+                }
+            }
+        }
     },
     {
-        "id": "id-bike-0002",
+        "id": "id-car-0002",
         "organizationId": "usmf",
         "productId": "Car",
         "dimensions": {
             "SiteId": "1",
             "LocationId": "11",
             "ColorId": "Red",
-            "SizeId": "Small"
+            "SizeId&quot;: &quot;Small"
         },
         "quantitiesByDate":
         {
-            "2022/02/05":
+            "2022-02-05":
             {
                 "pos":{
-                    "outbound": 10,
-                },
-            },
-        },
+                    "outbound": 10
+                }
+            }
+        }
     }
 ]
 ```
 
-### <a name="submit-on-hand-change-events"></a>Vaba kaubavaru muudatussündmuste edastamine
+### <a name="create-on-hand-change-events"></a>Vaba kaubavaru muutmise sündmuste loomine
 
 Vaba kaubavaru muutmise sündmused tehakse `POST` taotluse esitamisega vastavale varude nähtavuse teenuse URL-ile (vt [API jaotise kaudu muudatusgraafikute esitamine, sündmuste muutmine ja ATP-päringud](#api-urls)). Saate esitada ka hulgitaotlusi.
 
 > [!NOTE]
-> Vaba kaubavaru muutmise sündmused pole ATP funktsioonide jaoks kordumatud, vaid on osa standardsest varude nähtavuse API-st. See näide kaasati, kuna ATP-ga töötades on olulised sündmused. Vaba kaubavaru muutuse sündmused on sarnane vaba kaubavaru muudatuse reserveeringutele, kuid sündmuse sõnumid tuleb saata erinevale API URL-ile ja `quantities``quantityByDate` sündmuste kasutamine sõnumi kehas mitte. Lisateavet vabade muudatuste sündmuste ja laovarude nähtavuse API muude funktsioonide kohta vt varude [nähtavuse avalikud API-d](inventory-visibility-api.md).
-
-Vaba kaubavaru muutuse sündmuse esitamiseks peab taotluse keha sisaldama organisatsiooni ID-d, toote ID-d, planeeritud kuupäeva ja koguseid kuupäeva järgi. Planeeritud kuupäev peab olema praeguse kuupäeva ja praeguse ajakavaperioodi lõpu vahel.
+> Vaba kaubavaru muutmise sündmused pole ATP funktsioonide jaoks kordumatud, vaid on osa standardsest varude nähtavuse API-st. See näide kaasati, kuna ATP-ga töötades on olulised sündmused. Vaba kaubavaru muutuse sündmused on sarnane vaba kaubavaru muudatuse reserveeringutele, kuid sündmuse sõnumid tuleb saata erinevale API URL-ile ja `quantities``quantityByDate` sündmuste kasutamine sõnumi kehas mitte. Lisateavet vabade muudatuste sündmuste ja laovarude nähtavuse API muude funktsioonide kohta vt varude [nähtavuse avalikud API-d](inventory-visibility-api.md#create-one-onhand-change-event).
 
 Järgmine näide näitab taotluse keha, mis sisaldab ühte vaba kaubavaru muudatuse sündmust.
 
 ```json
-# Url
-# replace {RegionShortName} and {EnvironmentId} with your value
-https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.com/api/environment/{EnvironmentId}/onhand
-
-# Method
-Post
-
-# Header
-# Replace {access_token} with the one from your security service
-Api-version: "1.0"
-Content-Type: "application/json"
-Authorization: "Bearer {access_token}"
-
-# Body
 {
     "id": "id-bike-0001",
     "organizationId": "usmf",
@@ -342,7 +372,7 @@ Authorization: "Bearer {access_token}"
         "SiteId": "1",
         "LocationId": "11",
         "SizeId": "Big",
-        "ColorId": "Red",
+        "ColorId": "Red"
     },
     "quantities": {
         "pos": {
@@ -362,46 +392,71 @@ Kui soovite teha päringuid plaanitud `QueryATP`*vaba* kaubavaru muudatuste ja A
 - Kui esitate taotluse meetodiga, seadke `POST` see parameeter taotluse kehas.
 
 > [!NOTE]
-> Olenemata sellest, kas parameeter `returnNegative`*·* *on* taotluse kehas seatud tõeseks või vääraks, sisaldab tulemus negatiivseid väärtusi, kui esitate päringuid planeeritud vaba kaubavaru muudatuste ja ATP tulemuste kohta. Need negatiivsed väärtused kaasatakse, sest kui plaanitakse ainult nõudlustellimusi või kui tarnekogused on väiksemad kui nõudluse kogused, on planeeritud vaba kaubavaru muudatuse kogused negatiivsed. Kui negatiivseid väärtusi ei kaasata, oleks tulemused segased. Lisateavet selle suvandi ja selle kohta, kuidas see toimib teist tüüpi päringute korral, vt varude nähtavuse [avalikud API-d](inventory-visibility-api.md).
+> Olenemata sellest, kas parameeter `returnNegative`*·* *on* taotluse kehas seatud tõeseks või vääraks, sisaldab tulemus negatiivseid väärtusi, kui esitate päringuid planeeritud vaba kaubavaru muudatuste ja ATP tulemuste kohta. Need negatiivsed väärtused kaasatakse, sest kui plaanitakse ainult nõudlustellimusi või kui tarnekogused on väiksemad kui nõudluse kogused, on planeeritud vaba kaubavaru muudatuse kogused negatiivsed. Kui negatiivseid väärtusi ei kaasata, oleks tulemused segased. Lisateavet selle suvandi ja selle kohta, kuidas see toimib teist tüüpi päringute korral, vt varude nähtavuse [avalikud API-d](inventory-visibility-api.md#query-with-post-method).
 
-### <a name="post-method-example"></a>POST-meetodi näide
+```txt
+Path:
+    /api/environment/{environmentId}/onhand/indexquery
+Method:
+    Post
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Body:
+    {
+        dimensionDataSource: string, # Optional
+        filters: {
+            organizationId: string[],
+            productId: string[],
+            siteId: string[],
+            locationId: string[],
+            [dimensionKey:string]: string[],
+        },
+        groupByValues: string[],
+        returnNegative: boolean,
+    }
+```
 
 Järgmine näide näitab, kuidas luua taotluse keha, mille saab meetodi abil varude nähtavusse esitada`POST`.
 
 ```json
-# Url
-# replace {RegionShortName} and {EnvironmentId} with your value
-https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.com/api/environment/{EnvironmentId}/on-hand/indexquery
-
-# Method
-Post
-
-# Header
-# replace {access_token} with the one from your security service
-Api-version: "1.0"
-Content-Type: "application/json"
-Authorization: "Bearer {access_token}"
-
-# Body
 {
     "filters": {
         "organizationId": ["usmf"],
         "productId": ["Bike"],
         "siteId": ["1"],
-        "LocationId": ["11"],
+        "LocationId": ["11"]
     },
     "groupByValues": ["ColorId", "SizeId"],
     "returnNegative": true,
-    "QueryATP":true,
+    "QueryATP":true
 }
 ```
 
 ### <a name="get-method-example"></a>GET-meetodi näide
 
+```txt
+Path:
+    /api/environment/{environmentId}/onhand
+Method:
+    Get
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Query(Url Parameters):
+    groupBy
+    returnNegative
+    [Filters]
+```
+
 Järgmine näide näitab, kuidas luua taotluse URL-i taotlusena`GET`.
 
 ```txt
-https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.com/api/environment/{EnvironmentId}/onhand?organizationId=usmf&productId=Bike&SiteId=1&groupBy=ColorId,SizeId&returnNegative=true&QueryATP=true
+https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.com/api/environment/{EnvironmentId}/onhand?organizationId=usmf&productId=Bike&SiteId=1&LocationId=11&groupBy=ColorId,SizeId&returnNegative=true&QueryATP=true
 ```
 
 Selle taotluse tulemus `GET` on täpselt sama, mis eelmise `POST` näite taotluse tulemus.

@@ -2,35 +2,32 @@
 title: URL-i parameetrite põhjal dünaamiliste e-kaubanduslehtede loomine
 description: See teema kirjeldab, kuidas seadistada Microsoft Dynamics 365 Commerce e-kaubanduse lehte, mis võib URL-i parameetrite põhjal dünaamilist sisu esitada.
 author: StuHarg
-ms.date: 01/28/2021
+ms.date: 05/27/2022
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ROBOTS: ''
-audience: Application user
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+audience: Application User, Developer, IT Pro
+ms.reviewer: v-chgriffin
 ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
-ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 348fdb30f4d0104e80bea5235c1e337b9f977311
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 3443dad9ead40b59da994c56e22fe2599f4bac82
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694336"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811027"
 ---
 # <a name="create-dynamic-e-commerce-pages-based-on-url-parameters"></a>URL-i parameetrite põhjal dünaamiliste e-kaubanduslehtede loomine
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 See teema kirjeldab, kuidas seadistada Microsoft Dynamics 365 Commerce e-kaubanduse lehte, mis võib URL-i parameetrite põhjal dünaamilist sisu esitada.
 
-E-kaubanduse lehte saab konfigureerida URL-i tee segmendi põhjal erinevat sisu esitama. Seepärast nimetatakse seda lehte dünaamiliseks leheks. Segmenti kasutatakse lehe sisu toomise parameetrina. Näiteks luuakse leht nimega **blogi\_vaatur** ja seostatakse URL-iga `https://fabrikam.com/blog`. Seejärel saab seda lehte kasutada URL-i tee viimasel segmendil põhineva erineva sisu näitamiseks. URL-i `https://fabrikam.com/blog/article-1` viimane segment on näiteks **artikkel 1**.
+E-kaubanduse lehte saab konfigureerida URL-i tee segmendi põhjal erinevat sisu esitama. Seepärast nimetatakse seda lehte dünaamiliseks leheks. Segmenti kasutatakse lehe sisu toomise parameetrina. Näiteks saidikonstruktoris loodud ja nimeline Vieweri nimeline **\_ lehekülg** vastendatakse URL-iga `https://fabrikam.com/blog`. Seejärel saab seda lehte kasutada URL-i tee viimasel segmendil põhineva erineva sisu näitamiseks. URL-i `https://fabrikam.com/blog/article-1` viimane segment on näiteks **artikkel 1**.
 
-Eraldi kohandatud lehed, mis alistavad dünaamilise lehe, saab samuti URL-i tee segmentidega seostada. Näiteks luuakse leht nimega **blogi\_kokkuvõte** ja seostatakse URL-iga `https://fabrikam.com/blog/about-this-blog`. Kui seda URL-i taotletakse, tagastatakse lehe **blogi\_vaatur** asemel parameetriga **/about-this-blog** seostatud leht **blogi\_kokkuvõte**.
+Saate ka alistada parameetrilise URL-i segmendi saidikonstruktori lehega. Näiteks saab lehe, mis luuakse saidikonstruktoris ja mille **nimeks on nimeline kokkuvõte\_**, vastendada URL-iga `https://fabrikam.com/blog/about-this-blog`. Kui URL-ile `https://fabrikam.com/blog` on lõpus segmendiks määratud, `/about-this-blog` tagastatakse sel juhul lehe **\_**`/about-this-blog` lõppsegmendi sisu, mitte lehe kasutatava parameetrina.`https://fabrikam.com/blog` 
+
+Dünaamilisele lehele edastatavate parameetrite nimede valimisel ei saa dünaamilise lehe nime, nagu see ilmub URL-is (`/blog` ülaltoodud näites), kasutada parameetri nimena või parameetri nime alamstringina. 
 
 > [!NOTE]
 > Dünaamilise lehe sisu hostimise, toomise ja näitamise funktsioon rakendatakse kohandatud mooduli abil. Lisateavet vt teemast [Võrgukanali laiendatavus](e-commerce-extensibility/overview.md).
@@ -60,7 +57,7 @@ Commerce'i saidiehitajas dünaamilise lehe marsruudi konfigureerimiseks järgige
 1. Valige jaotises **Parametriseeritud URL-i teed** käsk **Lisa** ja seejärel sisestage URL-i loomisel sisestatud URL-i tee (selles näites **/blog**).
 1. Valige käsk **Salvesta ja avalda**.
 
-Kui marsruut on konfigureeritud, tagastavad kõik parametriseeritud URL-i tee taotlused selle URL-iga seotud lehe. Kui mõni taotlus hõlmab lisasegmenti, tagastatakse seostatud leht ja lehe sisu toomiseks kasutatakse parameetrina segmenti. Näiteks `https://fabrikam.com/blog/article-1` tagastab lehe **blogi\_kokkuvõte** ja lehe sisu tuuakse parameetriga **/article-1**.
+Kui marsruut on konfigureeritud, tagastavad kõik parametriseeritud URL-i tee taotlused selle URL-iga seotud lehe. Kui mõni taotlus hõlmab lisasegmenti, tagastatakse seostatud leht ja lehe sisu toomiseks kasutatakse parameetrina segmenti. Näiteks annab `https://fabrikam.com/blog/article-1` / `https://fabrikam.com/blog` article-1 parameetri abil toodud **sisu kuvava lehe** tagasi.
 
 ## <a name="override-a-parameterized-url-with-a-custom-page"></a>Kohandatud lehega parametriseeritud URL-i alistamine
 

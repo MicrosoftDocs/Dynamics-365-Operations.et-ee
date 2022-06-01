@@ -2,7 +2,7 @@
 title: Päise moodul
 description: See teema hõlmab päise mooduleid ja kirjeldab, kuidas lehe päiseid rakenduses Microsoft Dynamics 365 Commerce luua.
 author: anupamar-ms
-ms.date: 07/08/2021
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: afdc12230ebad3d5db59c384b2f1066d2c7929339f282ed4880ff967b1fd2d8b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2707173eb4d5525437c22a2f236c7d5c588ea7c3
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712786"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780306"
 ---
 # <a name="header-module"></a>Päisemoodul
 
@@ -74,26 +74,26 @@ Adventure Worksi teemas toetab päisemoodul **mobiilse logo** atribuuti. See atr
 Päise fragmendi loomiseks tehke järgmist.
 
 1. Avage **Fragmendid** ja valige uue fragmendi loomiseks **Uus**.
-1. Valige dialoogiboksis **Uus fragment** moodul **Konteiner**, sisestage fragmendi nimi ja valige seejärel **OK**.
+1. Dialoogiaknas **Vali** tükk valige **konteinerimoodul**, sisestage killu nimi ja seejärel valige **OK**.
 1. Valige pesa **Vaikekonteiner** ja seejärel määrake parempoolsel atribuutide paanil atribuudi **Laius** väärtuseks **Täida ekraan**.
-1. Valige pesas **Vaikekonteiner** kolmikpunkt (**…**) ja seejärel valige käsk **Lisa moodul**.
-1. Valige dialoogiboksis **Lisa moodul** moodulid **Küpsistega nõustumine**, **Päis** ja **Reklaambänner** ning seejärel valige **OK**.
+1. **Valige konteineri vaikepesas** kolmikpunkt (**...**) ja seejärel valige **lisamoodul**.
+1. Dialoogiaknas **Vali moodulid** valige küpsistega **nõustumine**, **päis ja** **Kampaania lisamoodulid** ning seejärel valige **OK**.
 1. Tehke mooduli **Reklaambänner** atribuutide paanil valikud **Lisa teade** ja **Teade**.
 1. Lisage dialoogiaknas **Teade** reklaami tekst ja lingid ning klõpsake seejärel nuppu **OK**.
 1. Lisage ja konfigureerige mooduli **Küpsistega nõustumine** atribuutide paanil tekst ja link, mis suunab saidi privaatsuspoliitika lehele.
-1. Valige päise mooduli pesas **Navigeerimismenüü** kolmikpunkt (**...**) ja seejärel **Lisa moodul**.
-1. Valige dialoogiboksis **Lisa moodul** moodul **Navigeerimismenüü** ja klõpsake seejärel **OK**.
+1. Päisemooduli **navigeerimismenüü** pesas valige ellips (**...**) ja seejärel valige **lisamoodul**.
+1. Dialoogiaknas **Vali** moodulid valige navigeerimismenüü **ja** seejärel valige **OK**.
 1. Tehke navigeerimismenüü mooduli atribuudipaani jaotises **Navigeerimismenüü allikas** valik **Jaemüügiserver**.
 1. Tehke navigeerimismenüü mooduli atribuudipaani jaotises **Staatilised menüü-üksused** valikud **Lisa menüü-üksus** ja **Menüü-üksus**. 
 1. Sisestage dialoogiboksi **Menüü-üksus** jaotisse **Menüü-üksuse tekst** tekst „Kontakt”.
 1. Klõpsake dialoogiboksi **Menüü-üksus** jaotises **Menüü-üksuse lingi sihtkoht** käsku **Lisa link**.
 1. Valige dialoogiaknas **Lisa link** saidi lehe „Kontakt” URL ning seejärel valige **OK**.  
 1. Tehke dialoogiaknas **Menüü-üksus** valik **OK**.
-1. Valige päise mooduli pesas **Otsing** kolmikpunkt (**...**) ja seejärel **Lisa moodul**.
-1. Valige dialoogiboksis **Lisa moodul** moodul **Otsing** ja klõpsake seejärel **OK**.
+1. Päisemooduli **otsingupesas** valige ellips (**...**) ja seejärel valige **lisamoodul**.
+1. Dialoogiaknas **Vali** moodulid valige otsingumoodul **ja** seejärel valige **OK**.
 1. Konfigureerige otsingumooduli atribuutide paanil vajaduse järgi atribuudid.
-1. Valige päise mooduli pesas **Ostukorvi ikoon** kolmikpunkt (**...**) ja seejärel **Lisa moodul**.
-1. Valige dialoogiboksis **Lisa moodul** moodul **Ostukorvi ikoon** ja klõpsake seejärel **OK**.
+1. Päisemooduli **ostukorvi ikoonipesas valige ellips (**...**) ja seejärel valige lisamoodul** **.**
+1. Dialoogiaknas **Vali** moodulid valige ostukorvi **ikoonimoodul** ja seejärel valige **OK**.
 1. Konfigureerige ostukorvi ikooni mooduli atribuutide paanil vajaduse järgi atribuudid. Kui soovite, et ostukorvi ikoon kuvaks ostukorvi kokkuvõtet (tuntud ka kui miniostukorv), kui kasutaja hiirt selle kohal hoiab, siis valige **Kuva miniostukorv**.
 1. Valige **Salvesta**, valige fragmendi registreerimiseks **Lõpeta redigeerimine** ja seejärel selle avaldamiseks **Avalda**.
 

@@ -2,7 +2,7 @@
 title: Maksmise moodul
 description: Selles teemas kirjeldatakse, kuidas lisada lehele maksmise moodul ja määrata vajalikud atribuudid.
 author: anupamar-ms
-ms.date: 08/31/2020
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 031c70181e0dff9bc81450d2454f21e1dbaf1285d41b38ff6f7df6045923c27c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0d022ad98603b489a133a5b9f2326677e9ebb307
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715502"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780510"
 ---
 # <a name="checkout-module"></a>Maksmise moodul
 
@@ -91,14 +91,14 @@ Enamik maksmise teabest, näiteks tarneaadress ja tarnemeetod, salvestatakse ost
 Uuele lehele ostukorvi mooduli lisamiseks ja vajalike atribuutide seadistamiseks toimige järgmiselt.
 
 1. Avage **Fragmendid** ja valige uue fragmendi loomiseks **Uus**.
-1. Valige dialoogiboksis **Uus fragment** moodul **Maksma siirdumine**.
+1. Dialoogiaknas **Vali** tükk valige väljaregistreerimise **moodul**.
 1. Avage jaotis **Fragmendi nimi**, sisestage **Maksma siirdumise fragmendi** nimi ja seejärel valige **OK**.
 1. Valige pesa **Maksmise moodul**.
 1. Valige parempoolsel atribuutide paanil pliiatsisümbol, sisestage väljale pealkirja tekst ja seejärel valige märkesümbol.
-1. Valige pesas **Maksmise teave** kolmikpunkt (**...**) ja seejärel valige suvand **Lisa moodul**.
-1. Valige dialoogiboksis **Lisamoodul** moodulid **Tarneaadress**, **Tarnevalikud**, **Maksmise jaotise konteiner** ja **Kontaktteave** ning valige seejärel **OK**.
-1. Valige moodulis **Maksmise jaotise konteiner** kolmikpunkt (**...**) ja seejärel valige suvand **Lisa moodul**.
-1. Valige dialoogiboksis **Lisa moodul** moodulid **Kinkekaart**, **Püsiklient** ja **Maksmine** ning seejärel **OK**. Sel viisil saate kindlustada, et kõik maksmisviisid ilmuvad jaotises koos.
+1. Väljaregistreerimise teabe pesal **valige kolmikpunkt (**...**) ja seejärel valige lisamoodul** **.**
+1. Dialoogiaknas **Vali** moodulid valige **tarneaadress**, tarnevalikud **,** **väljaregistreerimise sektsiooni** **konteiner ja kontaktteabe** moodulid ning seejärel valige **OK.**
+1. Väljaregistreerimise jaotise konteinerimoodulis **valige kolmikpunkt (**...**) ja seejärel valige lisamoodul** **.**
+1. Dialoogiaknas **Valige** moodulid valige **kinkekaart**, **püsikliendi** ja **makse moodulid** ning seejärel valige **OK**. Sel viisil saate kindlustada, et kõik maksmisviisid ilmuvad jaotises koos.
 1. Lisage pesas **Tingimused** moodul **Maksmise tingimused**, kui see on vajalik. Konfigureerige mooduli atribuutide paanil tingimuste tekst nii nagu vaja.
 1. Valige **Salvesta** ja seejärel fragmendi eelvaate kuvamiseks **Eelvaade**. Osasid mooduleid, millel ei ole ostukorvi konteksti, ei pruugita eelvaates renderdada.
 1. Valige fragmendi registreerimiseks **Lõpeta redigeerimine** ja seejärel selle avaldamiseks **Avalda**.

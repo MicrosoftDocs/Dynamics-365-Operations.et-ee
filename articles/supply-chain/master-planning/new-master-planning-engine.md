@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.search.validFrom: 2020-11-05
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 20e48fee237615c7b1acdb564e5e524d393f8eba
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 598e29ead50e1ecb249a7338c7f0952a912b4f69
+ms.sourcegitcommit: cbe9493d479f96f271d94599ec1b85131b26169f
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469893"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "8809091"
 ---
 # <a name="migration-to-planning-optimization-for-master-planning"></a>Üleminek planeerimise optimeerimisele koondplaneerimiseks
 
@@ -47,7 +47,7 @@ Nagu öeldud, kuvatakse versioonis 10.0.16 ja uuemas versioonis tõrketeade, kui
 
 ### <a name="new-deployments"></a>Uued juurutused
 
-Planeerimise optimeerimist tuleks pidada kõigi pilvteenuse uute juurutuste puhul vaikimisi koondplaneerimise mootoriks. Üldjuhul tuleks planeerimise optimeerimist kasutada kõigi uute juurutuste puhul, mis ei loo koondplaneerimise ajal plaanitud tootmistellimusi. Kui uus juurutamine sõltub funktsionaalsusest, mida planeerimise optimeerimine praegu ei toeta, saate erandi taotleda, et saaksite jätkata sisseehitatud koondplaneerimise mootori kasutamist.
+Plaanimise optimeerimist tuleb pidada kõigi pilves juurutuste koondplaneerimise vaikemootoriks. Üldjuhul tuleks planeerimise optimeerimist kasutada kõigi uute juurutuste puhul, mis ei loo koondplaneerimise ajal plaanitud tootmistellimusi. Kui uus juurutamine sõltub funktsionaalsusest, mida planeerimise optimeerimine praegu ei toeta, saate erandi taotleda, et saaksite jätkata sisseehitatud koondplaneerimise mootori kasutamist.
 
 ### <a name="existing-deployments"></a>Olemasolevad juurutused
 
@@ -63,7 +63,7 @@ Praegu on planeerimise optimeerimise funktsiooni migreerumise erand asjakohane, 
 
 Pärast nõutavate funktsioonide kättesaadavaks muutumist annab Microsoft ajapikenduse perioodi, kuni erand aegub. Keskkonna administraatorit teavitatakse, kui nõutavad funktsioonid on saadaval ja ajapikenduse periood on alanud.
 
-Järgmine vooskeem võtab kokku selles teemas esitatud teabe, et saaksite kiiresti teada, kas peaksite erandit taotlema. Kui teil on vaja taotleda erandit, täitke ja esitage [Planning Optimization migreerimise ja erandi küsimustik](https://go.microsoft.com/fwlink/?linkid=2144962).
+Järgmine vooskeem võtab kokku selles teemas esitatud teabe, et saaksite kiiresti teada, kas peaksite erandit taotlema. Kui teil on vaja taotleda erandit, täitke ja esitage [Planning Optimization migreerimise ja erandi küsimustik](https://go.microsoft.com/fwlink/?linkid=2144962). Tootegrupp vastutab iga eranditaotluse hindamise ja kinnitamise eest, seega esitage oma taotlus otse tootegrupile, kasutades esitatud linki ja ärge looge selle jaoks tugipiletit. Kui teie taotlus lükatakse tagasi, siis ärge looge tugipiletit, kuna Microsoft Support ei saa ümber hinnata ega anda erandeid.
 
 ![Erandi vooskeem.](media/exception-diagram.png "Erandi vooskeem")
 

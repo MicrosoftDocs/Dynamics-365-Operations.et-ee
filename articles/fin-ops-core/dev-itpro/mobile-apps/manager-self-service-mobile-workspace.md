@@ -2,7 +2,7 @@
 title: Mobiilne tööruum Minu töörühm
 description: Selles teemas on teave mobiilse tööruumi Minu töörühm kohta, kus juhtidel on võimalus oma otseseid alluvaid ja laiendatud personali vaadata.
 author: ShielaSogge
-ms.date: 12/01/2017
+ms.date: 05/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,16 +12,17 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 74abb4ce77b4fc13c614e8e1b734e1b9f5f24e0a728a10b79508e6be4faf3dca
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7793bd6bb1c2dfb5f6840430914393e837242fb5
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767108"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811053"
 ---
 # <a name="my-team-mobile-workspace"></a>Minu töörühma mobiilne tööruum
 
 [!include [banner](../includes/banner.md)]
+[!include [mobile app deprecation](../includes/mobile-app-deprecation-banner.md)]
 
 Teema annab teavet **minu töörühma** mobiilse tööruumi kohta. See tööruum võimaldab juhtidel vaadata oma otseseid alluvaid ja laiendatud personali. Nad saavad ka oma aruandlusahela inimestele tänu saata.
 
@@ -49,12 +50,12 @@ Enne selle mobiilse tööruumi kasutamist peavad olema täidetud järgmised eelt
 <tbody>
 <tr class="odd">
 <td>Teie organisatsioonis peab olema juurutatud üks järgmistest toodetest.
-<ul><li>Rakendus Finance and Operations</li>
+<ul><li>Finance and Operationsi rakendus</li>
 <li>Microsoft Dynamics 365 Human Resources</li>
 </ul>
 </td>
 <td>Süsteemiadministraator</td>
-<td>Kui teie&#39; organisatsioonis veel Finance and Operationsi rakendust ei kasutata, vaadake jaotist <a href="../deployment/deploy-demo-environment.md">Demokeskkonna juurutamine</a>. Kui teie&#39; organisatsioonis veel inimressursse ei kasutata, saab süsteemiadministraator prooviversioonile juurdepääsu <a href="https://dynamics.microsoft.com/human-resources/overview/">Inimressursside veebilehelt</a>.
+<td>Kui teie organisatsioonis pol&#39;e veel rakendust Finance and Operations juurutatud, siis vt teemat <a href="../deployment/deploy-demo-environment.md">Demokeskkonna juurutamine</a>. Kui teie&#39; organisatsioonis veel inimressursse ei kasutata, saab süsteemiadministraator prooviversioonile juurdepääsu <a href="https://dynamics.microsoft.com/human-resources/overview/">Inimressursside veebilehelt</a>.
 </td>
 </tr>
 <tr class="even">

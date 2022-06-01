@@ -2,7 +2,7 @@
 title: Üksuse andmete vaatamine ja värskendamine Exceliga
 description: See teema selgitab, kuidas avada üksuse andmeid Microsoft Excelis ning neid seejärel vaadata, värskendada ja redigeerida Microsoft Dynamicsi Excelile lisandmooduli abil.
 author: jasongre
-ms.date: 10/01/2021
+ms.date: 05/16/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3b97c585009b50c6623036d10f54e78a65a89cea
-ms.sourcegitcommit: 3cb1f49a02e4a849fc34ffeb81fe507f0608b35e
+ms.openlocfilehash: f5090674fc4f7c49c55a8a12aea8c567545d519f
+ms.sourcegitcommit: 9f11ce4d24f546e96ab794a23479a43a89b742f0
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8464933"
+ms.lasthandoff: 05/16/2022
+ms.locfileid: "8762621"
 ---
 # <a name="view-and-update-entity-data-with-excel"></a>Üksuse andmete vaatamine ja värskendamine Exceliga 
 
@@ -110,7 +110,7 @@ Saate kasutada kujundajat, et reguleerida veerge, mis lisatakse automaatselt tö
 5. Kui lisasite välja (veerg), valige käsk **Värskenda**, et tõmmata sisse värskendatud andmekogum.
 
 ## <a name="change-the-publish-batch-size"></a>Avaldamispartii suuruse muutmine
-Kui kasutajad avaldavad andmekirjete muudatusi Exceli lisandmooduli abil, esitatakse värskendused pakettidena. Avaldamise vaikepartii suurus on 100 rida. Versioonis 10.0.17 ja hilisemates versioonides võimaldab funktsioon **Luba Exceli lisandmoodulis avaldamise partii suuruse konfigureerimine** teil paindlikult kontrollida avaldamise partii mahte.
+Kui kasutajad avaldavad andmekirjete muudatusi Exceli lisandmooduli abil, esitatakse värskendused pakettidena. Vaikimisi (ja maksimaalne) avaldamise partii suurus on 100 rida; Kuid luba **partii** suuruse avaldamise konfigureerimine Exceli lisandmooduli funktsioonis annab teile paindlikkust partii suuruse avaldamise läbi vaatamisel, eriti kui proovite Excelist värskendusi avaldada.
 
 Süsteemiadministraatorid saavad määrata kogu süsteemi hõlmava limiidi, määrates avaldamise partii suuruse töövihikute „Ava Excelis” jaoks, häälestades lehe **Office’i rakenduse parameetrid** jaotises **Rakenduse parameetrid** välja **Avalda partiilimiit**.
 

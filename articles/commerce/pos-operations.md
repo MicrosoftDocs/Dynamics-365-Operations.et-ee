@@ -2,7 +2,7 @@
 title: Ühendusega ja ühenduseta kassatoimingud
 description: Selles teemas kirjeldatakse üksikasjalikult Dynamics 365 Commercei kassaoperatsioone. See kirjeldab, millises rakenduse osas saab operatsioone käivitada ning kas need on saadaval ka ühenduseta režiimis.
 author: jblucher
-ms.date: 05/11/2022
+ms.date: 05/27/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: dc281a691b34731fb0b5986222b41b436912c782
-ms.sourcegitcommit: d70f66a98eff0a2836e3033351b482466bd9c290
+ms.openlocfilehash: 7e4556ad11cbea0cb8fb3c5447116a1b54576e17
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8740678"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811198"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Ühendusega ja ühenduseta kassatoimingud
 
@@ -44,7 +44,7 @@ Järgmised veerud näitavad, kus operatsioone käivitatakse.
 > [!NOTE]
 > Allpool loetletud toimingud kehtivad rakenduse Commerce uusima versiooni puhul. Mõned toimingud võivad olla muutunud või ei pruugi varasemates versioonides saadaval olla.
 
-| ID   | Toiming                                         | Kirjeldus                                                                                                                                                                                                    | Kasutajatoiming?    | Kandeekraan | Tervitusekraan | Kas see on ühenduseta saadaval? | Lokaadipõhine |
+| ID   | Toiming                                         | Kirjeldus                                                                                                                                                                                                    | Kasutajatoimingud    | Kandeekraan | Tervitusekraan | Kas see on ühenduseta saadaval? | Lokaadipõhine |
 | ---- | ------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------- | ------------------ | -------------- | ----------------- | --------------- |
 | 100  | Tootemüük                                      | Lisage konkreetne toode kandesse.                                                                                                                                                                    | Jah            | Jah                | Jah            | Jah               | Nr              |
 | 101  | Hinnakontroll                                       | Otsige määratud toote hinda.                                                                                                                                        | Jah            | Jah                | Jah            | Jah               | Nr              |
@@ -273,11 +273,11 @@ Järgmised veerud näitavad, kus operatsioone käivitatakse.
 | 1219 | URL-i avamine kassas                                   | Administraatori konfigureeritud URL-i avamine kassas.                                                                                                                                                                           | Jah            | Jah                | Jah            | Jah               | Nr              |
 | 1220 | Seifi haldamine                                       | Hallake erinevate kassaaparaatide seifi.                                                                                                                                                                       | Jah            | Jah                | Jah            | Jah               | Nr              |
 | 1221 | Peatatud kannete tühistatud                       | Peatatud kannete tühistatud.                                                                                                                                                                               | Jah            | Jah                | Jah            | Jah               | Nr              |
-| 1300 | Jäta fiskaalüksuse registreerimine vahele                          | Jäta fiskaalregistreerimine vahele.                                                                                                                                                                                       | Jah            | Jah                | Jah            | Jah               | Jah             |
-| 1301 | Märgi finantssündmus registreerituks                      |  Märgib finantssündmuse registreeritud sündmuseks.                                                                                                                                                                                  | Jah            | Jah                | Jah            | Jah               | Jah             |
-| 1302 | Vii fiskaalüksuse registreerimise protsess lõpule              | Fiskaalregistreerimisprotsessi lõpule viimine.                                                                                                                                                                           | Jah            | Jah                | Jah            | Jah               | Jah             |
-| 1303 | Jäta seisundikontrolli tõrge vahele                           | Jäta seisundikontrolli tõrge vahele.                                                                                                                                                                                        | Jah            | Jah                | Jah            | Jah               | Jah             |
-| 1304 |  Lükka fiskaalüksuse registreerimine edasi                     | Finantsregistreerimise edasilükkamine.                                                                                                                                                                                  | Jah            | Jah                | Jah            | Jah               | Jah             |
+| 1300 | Jäta fiskaalüksuse registreerimine vahele                          | Jäta fiskaalregistreerimine vahele.                                                                                                                                                                                       | Nr            | Nr                | Nr            | Jah               | Nr             |
+| 1301 | Märgi finantssündmus registreerituks                      |  Märgib finantssündmuse registreeritud sündmuseks.                                                                                                                                                                                  | Nr            | Nr                | Nr            | Jah               | Nr             |
+| 1302 | Vii fiskaalüksuse registreerimise protsess lõpule              | Fiskaalregistreerimisprotsessi lõpule viimine.                                                                                                                                                                           | Nr            | Nr                | Jah            | Jah               | Jah             |
+| 1303 | Jäta seisundikontrolli tõrge vahele                           | Jäta seisundikontrolli tõrge vahele.                                                                                                                                                                                        | Jah            | Jah                | Jah            | Jah               | Nr             |
+| 1304 |  Lükka fiskaalüksuse registreerimine edasi                     | Finantsregistreerimise edasilükkamine.                                                                                                                                                                                  | Nr            | Nr                | Nr            | Jah               | Nr             |
 | 1400 | Kontroll-loendite ja ülesannete haldamine                       | Hallake töötaja kontroll-loendit ja ülesandeid.                                                                                                                                                                        | Nr             | Nr                 | Jah            | Nr                | Nr              |
 | 2000 | Graafiku haldus                               | See toiming ei ole veel toetatud.                                                                                                                                                                           | Jah            | Jah                | Jah            | Ei                | Ei              |
 | 2001 | Graafiku taotlused                                 | See toiming ei ole veel toetatud.                                                                                                                                                                           | Jah            | Jah                | Jah            | Nr                | Nr              |

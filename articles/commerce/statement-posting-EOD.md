@@ -2,19 +2,19 @@
 title: Väljavõtte sisestamise funktsiooni täiustused
 description: Selles teemas kirjeldatakse väljavõtte sisestamise täiustusi.
 author: analpert
-ms.date: 04/27/2022
+ms.date: 05/18/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
 ms.search.region: Global
 ms.author: analpert
 ms.search.validFrom: 2018-04-30
-ms.openlocfilehash: be9aa68aec1fd7deff315234a6dbf41edc3d6819
-ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
+ms.openlocfilehash: f3937ee7b34b7204c31d922900029ae3a2c59e18
+ms.sourcegitcommit: 2b4ee1fe05792332904396b5f495d74f2a217250
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8649015"
+ms.lasthandoff: 05/18/2022
+ms.locfileid: "8770136"
 ---
 # <a name="improvements-to-statement-posting-functionality"></a>Väljavõtte sisestamise funktsiooni täiustused
 
@@ -151,6 +151,9 @@ Koondatud kannete vaade pakub järgmisi soodustusi.
 - Kasutaja näeb, kuidas kandeid koondatakse.
 - Kasutajal on täielik kontrolljälg kannetest müügitellimuste ja müügiarveteni. See kontrolljälg ei olnud saadaval väljavõtte sisestamise pärandfunktsioonis.
 - Liidetud XML-fail lihtsustab probleemide tuvastamist müügitellimuse loomise ja arveldamise ajal.
+
+> [!NOTE]
+> Kannete liitmisel ei ole **kandesse** määratud töötaja enam ülemise personali müügiaruandes saadaval, mis tähendab, **et** personali tipparuanne ei näita kõiki kandeid. Soovitame teil mitte kasutada ülemise personali müügiaruannet **koos** koondkannetega.
 
 ### <a name="journal-vouchers"></a>Töölehe kanded
 

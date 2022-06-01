@@ -1,22 +1,22 @@
 ---
-title: B2B KKK ärikataloogid
+title: B2B-saitide Commerce'i kataloogide KKK
 description: See teema annab vastuse korduma kippuvatele kataloogide Microsoft Dynamics 365 Commerce küsimustele.
 author: ashishmsft
-ms.date: 04/28/2022
+ms.date: 05/18/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2022-02-28
-ms.openlocfilehash: 776820e8e77cd0884b3df5412bb95e6e80ca4fc7
-ms.sourcegitcommit: 0abc777986112ea2332f5bf0e815b303b952356c
+ms.openlocfilehash: 5bdc7dfcb0e48aa85db2db4d178c5bf62ea0411b
+ms.sourcegitcommit: bca0cb730307948368a9aabe322cf963688ed8b1
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8657185"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8782858"
 ---
-# <a name="commerce-catalogs-for-b2b-faq"></a>B2B KKK ärikataloogid
+# <a name="commerce-catalogs-for-b2b-faq"></a>B2B-saitide Commerce'i kataloogide KKK
 
 [!include [banner](includes/banner.md)]
 [!include [banner](includes/preview-banner.md)]
@@ -25,7 +25,7 @@ See teema annab vastuse korduma kippuvatele küsimustele Microsoft Dynamics 365 
 
 ## <a name="why-cant-i-configure-a-catalog-specific-navigation-hierarchy-or-see-an-option-to-associate-a-customer-hierarchy"></a>Miks ei saa ma konfigureerida kataloogiomast navigeerimishierarhiat või näha valikut kliendi hierarhia seostamiseks?
 
-Veenduge, et rakenduse **Commerce headquarters funktsioonihalduse tööruumis on lubatud mitme kataloogi kasutamine jaemüügikanalites** **·**. Lisaks veenduge, et teie keskkond kasutab Commerce version 10.0.26 või hilisemat väljalaset.
+Veenduge, et rakenduse **Commerce headquarters funktsioonihalduse tööruumis on lubatud mitme kataloogi kasutamine jaemüügikanalites** **·**. Lisaks veenduge, et teie keskkond kasutab Commerce version 10.0.27 või hilisemat väljalaset.
 
 ## <a name="can-i-view-the-catalog-specific-hierarchy-and-enrich-category-pages-in-commerce-site-builder"></a>Kas commerce'i saidiloojas saab vaadata kataloogiomast hierarhiat ja rikastada kategoorialehti?
 
@@ -81,6 +81,6 @@ Ei. Kataloogi lähtekoodid on toetatud ainult kõnekeskuse kanalite puhul.
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-[Looge B2B-saitide jaoks ärikataloogid](catalogs-b2b-sites.md)
+[B2B-saitide Commerce'i kataloogide loomine](catalogs-b2b-sites.md)
 
-[Ärikataloogide laiendatav mõju B2B-kohandustele](catalogs-b2b-sites-dev.md)
+[B2B-kohanduste Commerce'i kataloogide laiendatavus](catalogs-b2b-sites-dev.md)

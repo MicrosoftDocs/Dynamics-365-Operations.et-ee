@@ -2,7 +2,7 @@
 title: Elektroonilise aruandluse (ER) sihtkohad
 description: See teema annab teavet elektroonilise aruandluse sihtkohtade halduse, toetatud sihtkohtade tüüpide ja turvalisuse kaalutluste kohta.
 author: nselin
-ms.date: 09/16/2021
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: e8e176b8d4e14eee2050b3c66f7547ff878b5174
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: e3154cb62531bf956365b420b454c98ead7f7335
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647089"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780456"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Elektroonilise aruandluse (ER) sihtkohad
 
@@ -45,7 +45,7 @@ Teine võimalus on installida üks järgmistest eeltingimustest. Võtke siiski a
 - Rakenduse Microsoft Dynamics AX versioon 7.0.1 (mai 2016)
 - [Elektroonilise aruandluse sihtkoha halduse rakenduse kiirparandus](https://fix.lcs.dynamics.com/issue/results/?q=3160213)
 
-Olemas on ka sihtkoha tüüp [Printimine](er-destination-type-print.md). Selle kasutamiseks peate installima Microsoft Dynamics 365 Finance'i versiooni 10.0.9 (aprill 2020).
+Olemas on ka sihtkoha tüüp [Printimine](er-destination-type-print.md). Selle kasutamiseks peate installima Microsoft Dynamics 365 Finance versiooni 10.0.9 (aprill 2020).
 
 ## <a name="overview"></a>Ülevaade
 
@@ -173,11 +173,11 @@ Finantside versioonides **enne versiooni 10.0.18** saate selle suvandi sisse lü
 
 ### <a name="limitations"></a>Kitsendused
 
-PDF-i teisenduse valik on saadaval ainult pilvejuurutustes.
+Finantsversiooniversiooni **versiooni 10.0.9** PDF-teisendussuvand saadaval ainult pilve juurutamise jaoks. Finantsversiooni 10.0.27 **käivitamisel on PDF-i teisendamise suvand saadaval mis tahes ettevõttes juurutamiseks, kus On lubatud Interneti-ühenduvus**[.](../user-interface/client-disconnected.md)
 
 Toodetud PDF-dokument on piiratud maksimaalsele pikkusele 300 lehekülge.
 
-Rakenduse Finance **versioonis 10.0.9** toetatakse Exceli väljundist loodud PDF-dokumendi juures ainult horisontaalpaigutust. Rakenduse Finance **versioonis 10.0.10 (mai 2020) ja uuemas** saate PDF-dokumendis [määrata lehepaigutuse](#SelectPdfPageOrientation), mis on loodud ER-i sihtkoha konfigureerimisel Exceli väljundi põhjal.
+Finantsversiooniversiooni **versiooni 10.0.9** Exceli väljundi põhjal loodud PDF-dokumendis toetatakse ainult horisontaalpaigutuse lehekülje paigutust. Alates finantsversiooniversioonist **10.0.10** saate [määrata](#SelectPdfPageOrientation) ER-sihtkoha konfigureerimisel EXCELI väljundis toodetud PDF-dokumendi lehepaigutuse.
 
 Väljundi teisendamisel kasutatakse ainult tavalisi Windowsi operatsioonisüsteemi süsteemifonte, mis ei sisalda manustatud fonte.
 

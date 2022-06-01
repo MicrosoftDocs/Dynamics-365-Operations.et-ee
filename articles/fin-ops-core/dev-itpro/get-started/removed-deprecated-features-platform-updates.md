@@ -2,7 +2,7 @@
 title: Eemaldatud või aegunud platvormi funktsioonid
 description: See teema kirjeldab funktsioone, mis on eemaldatud või mida on planeeritud finantside ja toimingute rakenduste platvormivärskendustes eemaldamiseks.
 author: sericks007
-ms.date: 04/26/2022
+ms.date: 05/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 0cf0d4b3ff108645c8542ce10a0be58d29cc68ed
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 3de9b9ea0bd20d1346a7cdfd2f919f50374b164c
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8644603"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811242"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Eemaldatud või iganenud platvormifunktsioonid
 
@@ -31,6 +31,33 @@ See teema kirjeldab funktsioone, mis on eemaldatud või mida on planeeritud fina
 See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võtta. 
 
 Finantside ja toimingute rakenduste objektide üksikasjaliku teabe leiate tehnilistest [viitearuannetest](/dynamics/s-e/global/axtechrefrep_61). Saate võrrelda nende aruannete erinevaid versioone, et saada teavet objektide kohta, mida on igas Finantsi ja operatsioonide rakenduste versioonis muudetud või eemaldatud.
+
+
+## <a name="feature-deprecation-effective-june-2022"></a>Funktsiooni amortiseerumine kehtib juunil 2022
+
+### <a name="finance-and-operations-dynamics-365-mobile-application-and-mobile-platform"></a>Finantsid ja toimingud (Dynamics 365) mobiilirakendus ja mobiiliplatvorm 
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Aegumise/eemaldamise põhjus** | Finantside ja toimingute (Dynamics 365) mobiilirakendus ja platvorm on taunitav ühe mobiilse platvormiga konsolideerimiseks Power Apps. |
+| **Asendatud teise funktsiooniga?**   | Jah, mobiilikogemusi finantsi ja toimingute rakenduse andmete üle saab üles ehitada koos integratsiooniga Power Platform. Üksikasjalikumat [teavet leiate teemast Mobiilikogemuste](../power-platform/build-mobile-experiences.md) ülesehimine. |
+| **Mõjutatud tootealad**         | Finance and Operationsi rakendused |
+| **Juurutamissuvand**              | Kõik |
+| **Olek**                         | Aegunud. Tugikuupäeva lõppkuupäev on mõeldud oktoober 2024. |
+
+
+## <a name="platform-updates-for-version-10029-of-finance-and-operations-apps"></a>Finantside ja toimingute rakenduste versiooni 10.0.29 platvormi värskendused
+
+### <a name="panorama-tab-style"></a>Vahekaardi mati laad
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Aegumise/eemaldamise põhjus** | Horisontaalselt keritavad leheküljed joondada uuendatud paigutuse mustritele, mis on teadaolevad kasutus- ja juurdepääsuprobleemid.  |
+| **Asendatud teise funktsiooniga?**   | Ei, kuid saadaval on ka teised vahekaardi laadid. |
+| **Mõjutatud tootealad**         | Veebiklient |
+| **Juurutamissuvand**              | Kõik |
+| **Olek**                         | Aegunud. |
+
 
 ## <a name="feature-deprecation-effective-april-2022"></a>Funktsiooni amortiseerimine kehtib aprillis 2022.
 

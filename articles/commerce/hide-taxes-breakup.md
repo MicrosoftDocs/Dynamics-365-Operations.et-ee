@@ -1,22 +1,22 @@
 ---
-title: Peida maksu katkestusteave tellimuse kokkuvõtetes
+title: Maksude jaotuse teabe peitmine tellimuse kokkuvõtetes
 description: See teema kirjeldab, kuidas peita maksu katkestusteavet tellimuse kokkuvõtetes ostukorvis, väljaregistreerimises, tellimuse kinnituses ja tellimuse üksikasjade lehtedes Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
-ms.date: 04/21/2022
+ms.date: 05/17/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2022-03-28
-ms.openlocfilehash: 9890b5cd92f8c07e6feabb26f4fdd076cb7a02bc
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 9a0bff7afaa10e49ec05f18e2b0fae7a19b5e8af
+ms.sourcegitcommit: 48d094d083c1bd45c3d72f8b666926b48ec7ae35
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8648132"
+ms.lasthandoff: 05/18/2022
+ms.locfileid: "8767810"
 ---
-# <a name="hide-tax-breakup-information-in-order-summaries"></a>Peida maksu katkestusteave tellimuse kokkuvõtetes
+# <a name="hide-tax-breakup-information-in-order-summaries"></a>Maksude jaotuse teabe peitmine tellimuse kokkuvõtetes
 
 [!include [banner](includes/banner.md)]
 [!include [banner](includes/preview-banner.md)]
@@ -33,7 +33,7 @@ Järgmine näide annab näite kahest tellimuse kokkuvõttest. Esimene näitab ma
 > - Maksueridumisteabe peitmise suvand on saadaval vaid siis, kui e-äri **kanali** suvand Hinnad sisaldavad käibemaksu on häälestatud valikule Jah äri peakontoris, **·** **\>\> kaupluses ja ärikanalites.\>** 
 > - Vaikimisi on suvand **Kuva maksude katkestus tellimuse kokkuvõttes** saidikonstruktoris lubatud.
 
-## <a name="hide-tax-breakup-information-in-order-summaries"></a>Peida maksu katkestusteave tellimuse kokkuvõtetes
+## <a name="hide-tax-breakup-information-in-order-summaries"></a>Maksude jaotuse teabe peitmine tellimuse kokkuvõtetes
 
 Et peita maksu katkestuse teave tellimuse kokkuvõtetes, järgige neid samme.
 
@@ -46,6 +46,9 @@ Maksupiiri teabe näitamiseks tellimusekokkuvõtetes märkige **ruut Kuva maksud
 Järgmine näide näitab maksude katkestuse **näitamist tellimuse kokkuvõtte märkeruudus**, mis on esile tõstetud ja saidikonstruktoris valitud.
 
 ![Kuva maksude katkestused saidikonstruktori tellimuse kokkuvõtte suvandis.](media/prices-include-sales-tax-e-Commerce-site-settings.png)
+
+> [!NOTE]
+> Kui olete kohandanud tellimuse kokkuvõtte mooduleid ja ei soovi pärida äriversiooni 10.0.27 või uuema versiooni funktsiooni "Peida maksu katkestusteave", [ei sisalda tellimuse kokkuvõtte vahesumma tasumakse, kui kasutate kohandatud tellimuse kokkuvõttemoodulit](troubleshoot/summary-taxes-custom-modules-10.0.27.md#resolution).
 
 ## <a name="additional-resources"></a>Lisaressursid
 

@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: cbd33b16a4b21e8e1931bc61cb55e376e7d73179
-ms.sourcegitcommit: a3b121a8c8daa601021fee275d41a95325d12e7a
+ms.openlocfilehash: cb02e8d10a5c673734727682436ba1b3fc996935
+ms.sourcegitcommit: 1877696fa05d66b6f51996412cf19e3a6b2e18c6
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8524461"
+ms.lasthandoff: 05/20/2022
+ms.locfileid: "8786861"
 ---
 # <a name="inventory-visibility-public-apis"></a>Varude nähtavuse avalikud API-d
 
@@ -41,17 +41,22 @@ Järgmises tabelis on toodud hetkel saadaolevad API-d.
 | /api/environment/{environmentId}/setonhand/{inventorySystem}/bulk | Postita | [Vabade kaubavarude koguste seadistamine/ülekirjutamine](#set-onhand-quantities) |
 | /api/environment/{environmentId}/onhand/reserve | Postita | [Ühe reserveerimissündmuse loomine](#create-one-reservation-event) |
 | /api/environment/{environmentId}/onhand/reserve/bulk | Postita | [Mitme reserveerimissündmuse loomine](#create-multiple-reservation-events) |
-| /API/keskkond/{environmentId} vaba/muudatused ule | Sisesta | [Ühe plaanitud vaba kaubavaru muudatuse loomine](inventory-visibility-available-to-promise.md) |
-| /API/keskkond/{environmentId} vaba/muudatuste sõlm/hulgi | Sisesta | [Mitme plaanitud vaba kaubavaru muudatuste loomine](inventory-visibility-available-to-promise.md) |
+| /API/keskkond/{environmentId}/eelnevalt/muudatused ule | Sisesta | [Ühe plaanitud vaba kaubavaru muudatuse loomine](inventory-visibility-available-to-promise.md) |
+| /API/keskkond/{environmentId}/eelnevalt/muudatused ule/hulgi | Sisesta | [Mitme plaanitud vaba kaubavaru muudatuste loomine](inventory-visibility-available-to-promise.md) |
 | /api/environment/{environmentId}/onhand/indexquery | Sisesta | [Päring sisestamismeetodi abil](#query-with-post-method) |
 | /api/environment/{environmentId}/onhand | Hangi | [Päring hankimismeetodi abil](#query-with-get-method) |
+| /API/keskkond/eraldamine{environmentId}/eraldamine | Sisesta | [Loo üks eraldav sündmus](inventory-visibility-allocation.md#using-allocation-api) |
+| /API/keskkond/{environmentId} eraldamine/unallocate | Sisesta | [Ühe unallocate sündmuse loomine](inventory-visibility-allocation.md#using-allocation-api) |
+| /API/keskkond/{environmentId} eraldamine/ümberjaotamine | Sisesta | [Loo üks ümberjaotatud sündmus](inventory-visibility-allocation.md#using-allocation-api) |
+| /API/keskkond/eraldamine{environmentId}/tarbimine | Sisesta | [Loo üks tarbitud sündmus](inventory-visibility-allocation.md#using-allocation-api) |
+| /API/keskkond/eraldamine{environmentId}/päring | Sisesta | [Päringu eraldamise tulemus](inventory-visibility-allocation.md#using-allocation-api) |
 
 > [!NOTE]
 > Tee {environmentId} osa on keskkonna ID rakenduses Microsoft Dynamics Lifecycle Services (LCS).
 > 
 > Hulgi-API saab tagastada maksimaalselt 512 kirjet iga taotluse kohta.
 
-Microsoftil on valmiskujul nõudekogum *Postman*. Saate importida selle kogumi oma tarkvarasse *Postman*, kasutades järgmist ühiskasutuses olevat linki: <https://www.getpostman.com/collections/90bd57f36a789e1f8d4c>.
+Microsoftil on valmiskujul nõudekogum *Postman*. Saate importida selle kogumi oma tarkvarasse *Postman*, kasutades järgmist ühiskasutuses olevat linki: <https://www.getpostman.com/collections/ad8a1322f953f88d9a55>.
 
 ## <a name="find-the-endpoint-according-to-your-lifecycle-services-environment"></a>Lõpp-punkti leidmine vastavalt Lifecycle Services keskkonnale
 
@@ -84,7 +89,7 @@ Microsoft on loonud kasutajaliidese (UI) rakendustekomplekti Power Apps, et saak
 
 ## <a name="authentication"></a><a name="inventory-visibility-authentication"></a>Autentimine
 
-Platvormi turbeluba kasutatakse Laovarude nähtavuse API kutsumiseks. Seepärast peate _Azure Active Directory (Azure AD) loa_ genereerima kasutades Azure AD rakendust. Seejärel peate kasutama Azure AD luba, et saada _pääsutõend_ turvateenusest.
+Platvormi turbeluba kasutatakse Laovarude nähtavuse API kutsumiseks. Seepärast peate rakenduse abil _genereerima Azure Active Directory (Azure AD)_ Azure AD loa. Seejärel peate kasutama Azure AD luba, et saada _pääsutõend_ turvateenusest.
 
 Microsoft pakub kastist välja *Postimehe* hankimismärkide kogu. Saate importida selle kogumi oma tarkvarasse *Postman*, kasutades järgmist ühiskasutuses olevat linki: <https://www.getpostman.com/collections/496645018f96b3f0455e>.
 
@@ -539,7 +544,7 @@ Järgmises näites on toodud näidissisu.
 }
 ```
 
-Järgmised näited näitavad, kuidas teha päringuid kõigi toodete kohta konkreetsel saidil ja asukohas.
+Järgmine näide näitab, kuidas teha päringuid kõigi toodete kohta konkreetsel saidil ja asukohas.
 
 ```json
 {
@@ -580,6 +585,10 @@ Siin on hankimise URL-i näidis. See hankimise taotlus on täpselt sama, mis var
 
 ## <a name="available-to-promise"></a>Lubaduse andmiseks saadaval
 
-Saate seadistada varude nähtavuse, et teil planeerida tulevasi vaba kaubavaru muudatusi ja arvutada ATP koguseid. ATP on kauba kogus, mis on saadaval ja mida saab kliendile järgmisel perioodil lubada. ATP arvutuse kasutamine võib tellimuse täitmise võimalusi oluliselt suurendada. Teavet selle kohta, kuidas seda funktsiooni lubada ja kuidas suhelda varude nähtavusega oma API kaudu pärast funktsiooni lubamist, [vt varude nähtavuse vabade kaubavarude muudatuste graafikuid ja lubaduse andmiseks saadaval graafikuid](inventory-visibility-available-to-promise.md).
+Saate seadistada varude nähtavuse, et teil planeerida tulevasi vaba kaubavaru muudatusi ja arvutada ATP koguseid. ATP on kauba kogus, mis on saadaval ja mida saab kliendile järgmisel perioodil lubada. ATP arvutuse kasutamine võib tellimuse täitmise võimalusi oluliselt suurendada. Teavet selle kohta, kuidas seda funktsiooni lubada ja kuidas suhelda varude nähtavusega oma API kaudu pärast funktsiooni lubamist, [vt varude nähtavuse vabade kaubavarude muudatuste graafikuid ja lubaduse andmiseks saadaval graafikuid](inventory-visibility-available-to-promise.md#api-urls).
+
+## <a name="allocation"></a>Eraldamine
+
+Jaotamisega seotud API-d asuvad lao nähtavuse [eraldamises](inventory-visibility-allocation.md#using-allocation-api).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

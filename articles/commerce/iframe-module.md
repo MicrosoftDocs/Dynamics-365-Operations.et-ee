@@ -2,7 +2,7 @@
 title: IFrame-moodul
 description: See teema hõlmab iframe-moodulit ja kirjeldab, kuidas seda rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
 author: anupamar-ms
-ms.date: 11/04/2021
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: bce6a50e8c145f8961bd0c839fe16c1f4d69e811
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: eeb9d76367be6b2d2153578f6358594b807382ac
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7754010"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780230"
 ---
 # <a name="iframe-module"></a>IFrame-moodul
 
@@ -53,22 +53,25 @@ Järgmisel pildil on näited iFrame-moodulitest, mis näitavad saidilehtedel vä
 Et lisada välise video kuvamiseks lehele iFrame-moodul, toimige järgmiselt.
 
 1. Avage **Mallid** ja valige uue malli loomiseks **Uus**.
-1. Sisestage dialoogiboksis **Uus mall** jaotise **Malli nimi** all **Turundusmall** ja valige seejärel **OK**.
+1. Dialoogiboksis Uus **mall** sisestage malli nime **all** turundusmall **ja** seejärel valige **OK**.
 1. Valige **Salvesta**, valige malli registreerimiseks **Lõpeta redigeerimine** ja seejärel selle avaldamiseks **Avalda**.
 1. Avage **Lehed** ja seejärel valige uue lehe loomiseks **Uus**.
-1. Valige dialoogiboksis **Vali mall** mall **Turundusmall**. Sisestage jaotises **Lehe nimi** väärtus **Turundusleht** ja seejärel valige **OK**.
-1. Uue lehe pesas **Peamine** valige kolmikpunkt (**...**) ja seejärel valige suvand **Lisa moodul**.
-1. Valige dialoogiboksis **Lisa moodul** moodul **Konteiner** ja klõpsake seejärel **OK**.
+1. Dialoogiboksi Uue **lehe loomine jaotises** Lehe nimi sisestage **turundusleht** **ja** seejärel valige **järgmine**.
+1. Valige **valiku Vali mall** all loodud **turundusmall** ja seejärel **edasi**.
+1. Valige **valiku Vali paigutus** all lehekülje paigutus (nt Paindlik **paigutus**) ja seejärel klõpsake nuppu **Edasi**.
+1. Vaadake **jaotises Ülevaade ja lõpetamine** üle lehe konfiguratsioon. Kui teil on vaja lehekülje teavet redigeerida, valige **Tagasi**. Kui lehekülje teave on õige, valige Loo **leht**. 
+1. Uue lehekülje põhipesas valige kolmikpunkt (**...**) ja seejärel valige **lisamoodul**.**·**
+1. Dialoogiaknas **Vali** moodulid valige konteinerimoodul **ja** seejärel valige **OK**.
 1. Seadke mooduli atribuutide paanil **Laiuse** väärtuseks **Täida konteiner**.
-1. Valige pesas **Konteiner** kolmikpunkt (**…**) ja seejärel valige käsk **Lisa moodul**.
-1. Valige dialoogiboksis **Lisa moodul** moodul **iFrame** ja klõpsake seejärel **OK**.
+1. Valige konteineri pesast kolmikpunkt (**...**) ja seejärel valige **lisamoodul**.**·**
+1. Dialoogiaknas **Vali** moodulid valige **iframe'i** moodul ja seejärel valige **OK**.
 1. Seadke mooduli atribuutide paanil suvandi **Siht-URL** väärtuseks video väline URL.
 1. Määrake vajaduse järgi muud atribuudid, näiteks **Pealkiri** ja **Kõrgus**.
 1. Valige **Salvesta**, valige lehe registreerimiseks **Lõpeta redigeerimine** ja seejärel selle avaldamiseks **Avalda**.
 1. Minge oma saidil turunduslehele. Peaksite nägema iFrame-moodulis renderdatavat videot.
 
 > [!NOTE]
-> Kuna IFrame'i moodul hostib välist sisu, peavad saidi autorid tagama, et iframe'i moodulis majutatud sisu ei riku sisupiirangu poliitikaid vastaval turul. Kui iframe-moodulit kasutav lehekülg sisaldab sisu rikkumise, saab saidi autor iFrame'i mooduli eemaldada, avades saidikonstruktoris lehe, valides iframe-moodulis suvandi Eemalda moodul ning salvestades ja avaldades seejärel **·** uuesti.
+> Kuna IFrame'i moodul hostib välist sisu, peavad saidi autorid tagama, et iframe'i moodulis majutatud sisu ei riku sisupiirangu poliitikaid vastaval turul. Kui iframe-moodulit kasutav lehekülg sisaldab sisu rikkumise, saab saidi autor iFrame'i mooduli eemaldada, avades saidikonstruktoris lehe, **valides** iframe-moodulis suvandi Eemalda moodul ning salvestades ja avaldades seejärel uuesti.
 
 ## <a name="additional-resources"></a>Lisaressursid
 

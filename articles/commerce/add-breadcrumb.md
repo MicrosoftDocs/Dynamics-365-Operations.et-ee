@@ -2,7 +2,7 @@
 title: Lingirea moodul
 description: See teema hõlmab akordionmooduleid ja selles kirjeldatakse, kuidas neid rakenduses Microsoft Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
 author: anupamar-ms
-ms.date: 10/20/2020
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f387b6353e58ebb454b74568ddc17ae6d25d7e36
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: aa7f6e2f2b15c3e5d89cd645b3f1cc4c83c5b8d9
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109728"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780330"
 ---
 # <a name="breadcrumb-module"></a>Lingireamoodul
 
@@ -63,12 +63,12 @@ Toote üksikasjade lehele lingirea mooduli lisamiseks ja vajalike atribuutide se
 
 1. Avage **Saidi sätted \> Laiendused** ja seejärel valige sätte **Lingirea kuvamistüüp PDP-s** jaoks **Kuva kategooriahierarhia**.
 1. Avage **Mallid** ja seejärel valige toote üksikasjade lehe mall.
-1. Valige ostukasti moodulit sisaldavas pesas **Konteiner** kolmikpunkt (**...**) ja seejärel **Lisa moodul**.
-1. Valige dialoogiboksis **Lisa moodul** moodul **Lingirida** ja klõpsake seejärel **OK**.
+1. Ostuboksi **moodulit** sisaldaval konteineripesal valige ellips (**...**) ja seejärel valige **lisamoodul**.
+1. Dialoogiaknas **Vali** moodulid valige moodul **Breadcrumb** ja seejärel valige **OK**.
 1. Valige **Salvesta**, valige malli registreerimiseks **Lõpeta redigeerimine** ja seejärel selle avaldamiseks **Avalda**.
 1. Avage **Lehed** ning avage toote üksikasjade lehe malli kasutav toote üksikasjade leht. Kui toote üksikasjade lehte ei ole veel olemas, siis looge see.
-1. Valige ostukasti moodulit sisaldavas pesas **Konteiner** kolmikpunkt (**...**) ja seejärel **Lisa moodul**.
-1. Valige dialoogiboksis **Lisa moodul** moodul **Lingirida** ja klõpsake seejärel **OK**.
+1. Ostuboksi **moodulit** sisaldaval konteineripesal valige ellips (**...**) ja seejärel valige **lisamoodul**.
+1. Dialoogiaknas **Vali** moodulid valige moodul **Breadcrumb** ja seejärel valige **OK**.
 1. Valige pesas **Lingirida** toodud atribuutide paanilt **Juur**, valige **Lingi tekst**.
 1. Valige dialoogiboksis **Lingi tekst** suvand **Avaleht** ja seejärel valige jaotises **Lingi sihtkoht** suvand **Lisa link**.
 1. Valige lingirea juure jaoks link dialoogiboksis **Lisa link** ning valige seejärel **OK**.

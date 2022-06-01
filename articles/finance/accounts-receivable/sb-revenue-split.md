@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 5c2eb6c8e18770eb149c445f662ab7a90aad81a7
-ms.sourcegitcommit: 367e323bfcfe41976e5d8aa5f5e24a279909d8ac
+ms.openlocfilehash: 73dbc2242639a54d687506e7c325fec4b9a95d12
+ms.sourcegitcommit: 2b4ee1fe05792332904396b5f495d74f2a217250
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8660513"
+ms.lasthandoff: 05/18/2022
+ms.locfileid: "8770150"
 ---
 # <a name="revenue-split-templates-in-subscription-billing"></a>Tulu tükeldamise mallid kordustellimuse arvelduses
 
@@ -99,3 +99,54 @@ Arveldusgraafiku loomiseks, mis on kaubaga, mis on seadistatud tulu tükeldamise
 > - Tütarüksused sisestatakse automaatselt müügitellimusele või arveldusgraafiku reale.
 >
 > Kui valiku **Loo tulu automaatselt tükeldamine** väärtuseks on seatud **Ei**, siis käitumine on nagu varem kirjeldatud.
+
+## <a name="additional-revenue-split-information"></a>Täiendav tulu tükeldamise teave
+
+Kui lisate kauba, mis on tulu tükeldamise osa, pange tähele järgmist teavet: 
+
+- Emasummat ei saa edasi lükata.
+- Tütarüksuste alguskuupäev, lõppkuupäev, kogus, üksus, sait ja laoväärtused põhinevad emakaubal. Neid väärtusi ei saa tütarüksuste puhul muuta. Kõik muudatused tuleb teha emaüksusele. 
+- Hinnakujundusmeetod on Lame **ja** seda ei saa muuta.
+- Alamüksusi saab lisada või eemaldada.
+- Ema- ja tütarüksused peavad kasutama sama kaubagruppi. 
+- Alamüksustel võib olla üks järgmistest seadistustest:
+
+    - Arveldussageduse **ja** **arveldusintervallide** väljad on seadistatud samale väärtusele kui emaüksusel. 
+    - Arveldussageduse **väli** on seatud väärtusele **Üks kord**. Sel juhul seatakse **arveldusintervallide** välja väärtuseks automaatselt **1**. 
+
+- Tütarüksuste netosumma võrdub emasummaga. Kui eraldamismeetod on **Nullsummad**, on tütarkauba summad ja emasumma mõlemad 0 (null). 
+
+    > [!NOTE]
+    > Kui eraldamismeetod on **emasumma** null, ei võrdu tütarüksuste (mitte null) summa emasummaga, mis on 0 (null). Seda eraldusviisi kasutatakse sisemistes eesmärkides, et töötajad saaksid näha tütarüksusi. Kliendid saavad siiski näha ainult emakaupa.
+
+- Kui müügitellimuse mitme elemendi kokkuleppe (MEA) **tüüp on Üksik**, luuakse ema- ja tütarüksuste lisatakse vastav mitme elemendi tulueraldise kande rida. 
+- Kui tulu tükeldamise eraldamismeetod on **Võrdne** summa ja emasummat muudetakse, arvutatakse summad ümber kõigi alamridade puhul. 
+- Tulu tükeldamisel, kus eraldamismeetod on **Muutuv** summa, ilmneb järgmine käitumine:
+
+    - Emaüksuse netosumma kuvatakse veerus **Emasumma**. Seda väärtust saab redigeerida. Ühiku hind, netosumma ja allahindlus on 0 (null) ning seda ei saa redigeerida.
+    - Tütarüksuste ühikuhind on 0 (null). Ühiku hinda või netosummat saate redigeerida. Ühe väärtuse muutmisel uuendatakse teine väärtus automaatselt.
+
+- Tulu tükeldamisel, kus eraldamismeetod on **Protsent**, ilmneb järgmine käitumine:
+
+    - Emaüksuse netosumma kuvatakse veerus **Emasumma**. Seda väärtust saab redigeerida. Ühiku hind, netosumma ja allahindlus on 0 (null) ning seda ei saa redigeerida. 
+    - Tütarüksuste netosumma arvutatakse emaüksuse *protsendisummana*&times;*·*.
+
+- Tulu tükeldamisel, kus eraldamismeetod on **võrdne summa**, ilmneb järgmine käitumine:
+
+    - Emaüksuse netosumma kuvatakse veerus **Emasumma**. Seda väärtust saab redigeerida. Ühiku hind, netosumma ja allahindlus on 0 (null) ning seda ei saa redigeerida. 
+    - Tütarüksuste netosumma arvutamiseks jagatakse emasumma kõigi tütarüksuste vahel võrdselt. 
+    - Kui tütarüksused eemaldatakse või lisatakse, arvutatakse netosumma ja ühikuhinnad ümber nii, et kõigil tütarridadel oleks võrdsed summad. 
+    - Kui emasummat ei saa võrdselt jagada, võib viimase alamkauba netosumma ja ühikuhind olla mõne võrra suurem või väiksem kui teiste tütarüksuste netosumma ja ühiku hind. 
+
+- Tulu tükeldamisel, kus eraldamismeetodiks on **nullsumma**, ilmneb järgmine käitumine:
+
+    - Ühiku hinda, netosummat ja allahindlust saab redigeerida. Emasumma on 0 (null) ja seda ei saa redigeerida. 
+    - Tütarüksuste kogus, ühik, lao koht ja laoväärtused põhinevad emakaubal. Neid väärtusi ei saa tütarüksuste puhul muuta. Kõik muudatused tuleb teha emaüksusele. 
+    - Tütarüksuste ühikuhind ja netohind on 0 (null) ning seda ei saa redigeerida. 
+
+- Tulu tükeldamisel, kus eraldamismeetodiks on **emasumma** null, toimub järgmine käitumine:
+
+    - Emakauba ühiku hind, emasumma ja netosumma on 0 (null).
+    - Arveldusgraafikus ilmuvad tütarread nagu käsitsi lisatud ja kõik väärtused uuendatakse valitud arveldusgraafiku grupi põhjal. Neid väärtusi saab redigeerida. Tütarüksuste puhul **pääsete** **·** **juurde** laienduse ja allahindluse ning täpsemate hinnakujunduse valikute juurde, **kasutades** arvelduse üksikasjade vaate väljadel Sisestatud kogus, **Ühiku** hind, **·** **Allahindlus ja Netosumma.** 
+    - Müügitellimusel on tütarridade allahindlus- ja allahindlusprotsent 0 (null). 
+    - Ema- ja tütarüksuste arveldussagedust saab muuta ja igal real võib olla erinev sagedus. Emakaupa uuendatakse automaatselt nii, et see kasutaks oma tütarridade seast lühimat sagedust. Näiteks on tulu tükeldamiseks kaks tütarüksust, **·** **millest üks kasutab kuu arveldussagedust ja teine, mis kasutab iga-aastase arveldussageduse**. Sel juhul värskendatakse emakauba arveldussageduse kord **kuus**.

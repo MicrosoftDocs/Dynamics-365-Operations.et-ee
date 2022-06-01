@@ -1,8 +1,8 @@
 ---
 title: Mobiilirakenduse avaleht
-description: Selles teemas kirjeldatakse mobiilirakendust Finance and Operations (Dynamics 365) ja antakse linke ressurssidele, mis aitavad teil seda oma organisatsioonis juurutada.
+description: Selles teemas kirjeldatakse Finantside ja toimingute (Dynamics 365) mobiilirakendust ning pakutakse linke ressursside juurde, mis aitavad teil seda oma organisatsioonis juurutada.
 author: ChrisGarty
-ms.date: 01/22/2020
+ms.date: 05/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,18 +14,19 @@ ms.search.region: Global
 ms.author: cgarty
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
-ms.openlocfilehash: 8a91f603b4dd058341110c59039a6d3c782e06ee768fbf0e7f94e9527a6354ba
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a6928b1fc7713b6822f53aaa77b8d1281eb6d320
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729704"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811169"
 ---
 # <a name="mobile-app-home-page"></a>Mobiilirakenduse avaleht
 
 [!include [banner](../includes/banner.md)]
+[!include [mobile app deprecation](../includes/mobile-app-deprecation-banner.md)]
 
-Selles teemas kirjeldatakse mobiilirakendust **Finance and Operations (Dynamics 365)** ja antakse linke ressurssidele, mis aitavad teil seda oma organisatsioonis juurutada.
+Selles teemas kirjeldatakse **Finantside ja toimingute (Dynamics 365)** mobiilirakendust ning pakutakse linke ressursside juurde, mis aitavad teil seda oma organisatsioonis juurutada.
 
 ## <a name="overview"></a>Ülevaade
 
@@ -76,7 +77,7 @@ Järgmises tabelis on lingid ressursside juurde, mis aitavad juurutada nii Micro
 <tr class="odd">
 <td>1</td>
 <td>Süsteemiadministraator</td>
-<td>Juurutage rakendus Finance and Operations oma organisatsioonis.</td>
+<td>Rakendage finantside ja toimingute rakendus oma organisatsioonis.</td>
 <td><ul><li>Kui te e&#39;i ole veel ühtegi Microsoft Dynamics 365 versiooni juurutanud, vt jaotist <a href="../deployment/deploy-demo-environment.md">Demokeskkonna juurutamine</a>.</li><li>Kasutatavate mobiilsete tööruumide loendi leiate jaotisest <a href="mobile-workspaces-released.md">Hiljuti välja antud mobiilsed tööruumid</a>.</li></ul></td>
 </tr>
 <tr class="even">
@@ -131,8 +132,8 @@ Järgmises tabelis on lingid ressursside juurde, mis aitavad juurutada nii Micro
 <td>Kasutaja</td>
 <td>Laadige alla ja installige mobiilirakendus.</td>
 <td>
-<a href="https://go.microsoft.com/fwlink/?linkid=850662">Rakendus Finance and Operations Androidile</a><BR/>
-<a href="https://go.microsoft.com/fwlink/?linkid=850663">Rakendus Finance and Operations iOS-ile</a><BR/>
+<a href="https://go.microsoft.com/fwlink/?linkid=850662">Rakendus Finance and Operations Androidi jaoks</a><BR/>
+<a href="https://go.microsoft.com/fwlink/?linkid=850663">Rakendus Finance and Operations iOS-i jaoks</a><BR/>
 (Windows Phone’i ei toetata)
 </td>
 </tr>

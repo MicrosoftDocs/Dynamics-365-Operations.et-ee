@@ -1,6 +1,6 @@
 ---
 title: Täpsema panga vastavusseviimise importimise häälestus elektroonilise aruandluse abil
-description: See teema kirjeldab, kuidas kasutada elektroonilist aruandlust, et seadistada täiustatud panga vastavusseviimise impordiprotsess BAI2-väljavõtete jaoks.
+description: See teema kirjeldab, kuidas kasutada elektroonilist aruandlust täiustatud panga vastavusseviimise impordiprotsessi häälestamiseks.
 author: panolte
 ms.date: 03/30/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.25
-ms.openlocfilehash: 39f1d8ba561ab0e36346f1dfb4f70df318c92a37
-ms.sourcegitcommit: cf7d4af11bf85638ee831a28ea5ee1a1e041a675
+ms.openlocfilehash: 30530a9870ba2ff0546237d2698d1675afa78104
+ms.sourcegitcommit: 2b4ee1fe05792332904396b5f495d74f2a217250
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/04/2022
-ms.locfileid: "8544549"
+ms.lasthandoff: 05/18/2022
+ms.locfileid: "8770190"
 ---
 # <a name="set-up-advanced-bank-reconciliation-import-by-using-electronic-reporting"></a>Täpsema panga vastavusseviimise importimise häälestus elektroonilise aruandluse abil
 
 [!include [banner](../includes/banner.md)]
 
-Täpsem panga vastavusseviimise funktsioon võimaldab teil importida elektroonilisi pangaväljavõtteid ja viia need automaatselt vastavusse pangakannetega Microsoft Dynamics 365 finantsis. See teema kirjeldab, kuidas seadistada bai2 pangaväljavõtte impordi funktsioone.
+Täpsem panga vastavusseviimise funktsioon võimaldab teil importida elektroonilisi pangaväljavõtteid ja viia need automaatselt vastavusse pangakannetega Microsoft Dynamics 365 finantsis. See teema kirjeldab, kuidas seadistada pangaväljavõttele impordifunktsioone. Pangaväljavõtte importimise seadistus erineb, olenevalt teie elektroonilise pangaväljavõtte vormingust. Microsoft Dynamics 365 Finantsid toetavad kolme pangaväljavõtte vormingut: ISO20022, MT940 ja BAI2. 
 
 ## <a name="set-up-the-electronic-reporting-configuration"></a>Elektroonilise aruandluse konfiguratsiooni seadistamine
 
@@ -62,3 +62,14 @@ Täpsem panga vastavusseviimise funktsioon võimaldab teil importida elektroonil
 5. Valige **sirvimine** ja valige **BAI-fail**.
 6. Valige nupp **Laadi üles**.
 7. Valitud **faili importimiseks valige OK**.
+
+
+## <a name="examples-of-bank-statement-formats-and-technical-layouts"></a>Näited pangaväljavõtte vormingutest ja tehnilistest paigutustest
+Allpool on näited täiustatud panga vastavusseviimise impordifaili tehniliste paigutuste määratlustest ja kolmest seotud pangaväljavõtte näidisfailist: [Impodifaili näited](//download.microsoft.com/download/8/e/c/8ec8d2d0-eb8c-41fb-ad8c-f01a4d670a44/Dynamics365FinanceAdvancedBankStatementLayouts.xlsx)  
+
+| Tehnilise paigutuse määratlus                             | Pangaväljavõtte näidisfail          |
+|---------------------------------------------------------|--------------------------------------|
+| DynamicsAXMT940Layout | [MT940StatementExample](//download.microsoft.com/download/2/d/c/2dcc4e55-ddc8-4a74-b79c-250fae201c3c/mt940StatementExample.txt)     |
+| DynamicsAXISO20022Layout | [ISO20022StatementExample](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdownload.microsoft.com%2Fdownload%2F1%2F5%2F5%2F155d84ed-c250-48f3-b0b1-c5a431e7855b%2FISO20022-MultipleStatements.xml&data=04%7C01%7CRobert.Schlomann%40microsoft.com%7C30d0c233cb6546547d0a08d8f4965edc%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637528273956712775%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=3VzvLZK%2BO8PjuI7XVdC6rD2j3nUJfteo7zFp%2B1s9BwM%3D&reserved=0)             |
+| DynamicsAXBAI2Layout    | [BAI2StatementExample](//download.microsoft.com/download/1/1/6/11693f57-bfc1-4993-a274-5fb978be70fa/BAI2StatementExample.txt)     |
+

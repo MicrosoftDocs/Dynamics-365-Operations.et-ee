@@ -2,7 +2,7 @@
 title: Tooteotsing ja kliendiotsing kassas
 description: Selles teemas antakse ülevaade toote ja kliendi otsingufunktsiooni täiustustest rakenduses Dynamics 365 Commerce.
 author: ShalabhjainMSFT
-ms.date: 10/26/2021
+ms.date: 05/25/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 022dcaca9bb3c9e7e749ee143702325367e5149b
-ms.sourcegitcommit: f8b597b09157d934b62bd5fb9a4d05b8f82b5a0e
+ms.openlocfilehash: 460c7d3b00421ba43414f7343887edf9b8adad9c
+ms.sourcegitcommit: 9dd2d32fc303023a509d58ec7b5935f89d1e9c6d
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "7700085"
+ms.lasthandoff: 05/26/2022
+ms.locfileid: "8806423"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>Tooteotsing ja kliendiotsing kassas
 
@@ -106,6 +106,8 @@ Otsingukriteeriumide määramiseks kiirklahvidena peab administraator rakenduses
 > Kui lisate liiga palju kiirklahve, muutub kassa otsinguriba rippmenüü ülekoormatuks ja töötajate otsingu tõhusus võib väheneda. Soovitame lisada vaid nii palju kiirklahve, kui vaja.
 
 Väli **Kuvamisjärjestus** määratleb, millises järjekorras kiirklahve kassas kuvatakse. Näidatud kriteeriumid on valmisatribuudid, mida kliendiotsingu algoritm kasutab klientide otsimiseks. Kuid partnerid saavad lisada kohandatud atribuute otsingu kiirklahvidena. Kohandatud atribuutide lisamiseks otsingu kiirklahvidena peab süsteemiadministraator laiendama laiendavat loetelu, mida kasutatase kliendiotsingu kriteeriumiks ja seejärel märkima partneri kohandatud atribuudid kiirklahvidena. Kui otsingute jaoks kasutatakse partnerite kohandatud kiirklahve, on partnerid vastutavad tulemeid leidva koodi kirjutamise eest.
+
+Kui soovite kassas otseteid renderdada, on otseteede tõlked nõutavad. Kui teie kanali keel erineb süsteemi vaikekeelest, peate määratlema iga otsetee tõlke eeldatavasse keelde. Tõlgete määratlemiseks valige iga otsetee **puhul** käsk Tõlki. 
 
 > [!NOTE]
 > Loetellu lisatud kohandatud atribuut ei mõjuta standardset kliendiotsingu algoritmi. Teisisõnu, kliendiotsingu algoritm ei otsi kohandatud atribuudist. Kasutajad saavad kohandatud atribuuti otsingute jaoks kasutada ainult siis, kui kohandatud atribuut on lisatud kiirklahvina või otsingu vaikealgoritm on alistatud.

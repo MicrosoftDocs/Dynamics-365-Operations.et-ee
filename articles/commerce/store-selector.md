@@ -3,7 +3,7 @@ title: Kaupluse valija moodul
 description: See teema hõlmab kaupluse valija moodulit ja kirjeldab, kuidas seda rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
 author: anupamar-ms
 manager: annbe
-ms.date: 05/04/2022
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 7276f25daada8286490ad7e1af2b350e4a2805bb
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 76682f26f62fe4686f5102e3099f038a50005f5e
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710776"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780635"
 ---
 # <a name="store-selector-module"></a>Kaupluse valimise moodul
 
@@ -135,26 +135,29 @@ Kauplusevalija moodul võtab arvesse toote [ostukorvi lisamise sätteid](add-car
 Kaupluse valija mooduli konfigureerimiseks, et näidata kaupluse asukohtade lehel saadaolevaid kauplusi (nagu joonisel, mis kuvatakse selles teemas) toimige järgmiselt.
 
 1. Avage **Mallid** ja valige uue malli loomiseks **Uus**.
-1. Sisestage dialoogiboksis **Uus mall** jaotise **Malli nimi** all **Turundusmall** ja valige seejärel **OK**.
+1. Dialoogiboksis Uus **mall** sisestage malli nime **all** turundusmall **ja** seejärel valige **OK**.
 1. Valige **Salvesta**, valige malli registreerimiseks **Lõpeta redigeerimine** ja seejärel selle avaldamiseks **Avalda**.
 1. Avage **Lehed** ja seejärel valige uue lehe loomiseks **Uus**.
-1. Valige dialoogiboksis **Vali mall** mall **Turundusmall**. Sisestage jaotises **Lehe nimi** väärtus **Poe asukohad** ja seejärel valige **OK**.
-1. Uue lehe pesas **Peamine** valige kolmikpunkt (**...**) ja seejärel valige suvand **Lisa moodul**.
-1. Valige dialoogiboksis **Lisa moodul** moodul **Konteiner** ja klõpsake seejärel **OK**.
-1. Valige pesas **Konteiner** kolmikpunkt (**…**) ja seejärel valige käsk **Lisa moodul**.
-1. Valige dialoogiboksis **Lisa moodul** moodul **Kahe veeruga konteiner** ja klõpsake seejärel **OK**.
+1. Dialoogiaknas **Uue lehe loomine** sisestage jaotises **Lehe nimi** kaupluse **asukohad ja** seejärel valige suvand **Edasi**.
+1. Valige **valiku Vali mall** all loodud **turundusmall** ja seejärel **edasi**.
+1. Valige **valiku Vali paigutus** all lehekülje paigutus (nt Paindlik **paigutus**) ja seejärel klõpsake nuppu **Edasi**.
+1. Vaadake **jaotises Ülevaade ja lõpetamine** üle lehe konfiguratsioon. Kui teil on vaja lehekülje teavet redigeerida, valige **Tagasi**. Kui lehekülje teave on õige, valige Loo **leht**. 
+1. Uue lehekülje põhipesas valige kolmikpunkt (**...**) ja seejärel valige **lisamoodul**.**·**
+1. Dialoogiaknas **Vali** moodulid valige konteinerimoodul **ja** seejärel valige **OK**.
+1. Valige konteineri pesast kolmikpunkt (**...**) ja seejärel valige **lisamoodul**.**·**
+1. Dialoogiaknas **Vali** moodulid valige 2 **veeruga** konteiner ja seejärel valige **OK**.
 1. Seadke mooduli atribuutide paanil **Laiuse** väärtuseks **Täida konteiner**.
 1. Määrake **X-väikese vaate pordi veeru konfiguratsiooni** väärtuseks **100%**.
 1. Määrake **Väikese vaate pordi veeru konfiguratsiooni** väärtuseks **100%**.
 1. Määrake **Keskmise vaate pordi veeru konfiguratsiooni** väärtuseks **33% 67%**.
 1. Määrake **Suure vaate pordi veeru konfiguratsiooni** väärtuseks **33% 67%**.
-1. Valige pesas **Kahe veeruga konteiner** kolmikpunkt (**…**) ja seejärel valige käsk **Lisa moodul**.
-1. Valige dialoogiboksis **Lisa moodul** moodul **Kaupluse valija** ja klõpsake seejärel **OK**.
+1. **Valige 2 veeruga konteineris** kolmikpunkt (**...**) ja seejärel valige **lisamoodul**.
+1. Dialoogiaknas **Vali** moodulid valige kauplusevalija **moodul** ja seejärel valige **OK**.
 1. Seadke mooduli atribuutide paanil **Režiim** väärtuseks **Leia kauplused**.
 1. Määrake **Otsinguraadius** väärtus miilides.
 1. Määrake muud atribuudid, nt **Määrake eelistatud kaupluseks**, **Kuva kõik kauplused** ja **Luba automaatne soovitus** vastavalt vajadusele.
-1. Valige pesas **Kahe veeruga konteiner** kolmikpunkt (**…**) ja seejärel valige käsk **Lisa moodul**.
-1. Valige dialoogiboksis **Lisa moodul** moodul **Kaart** ja klõpsake seejärel **OK**.
+1. **Valige 2 veeruga konteineris** kolmikpunkt (**...**) ja seejärel valige **lisamoodul**.
+1. Dialoogiaknas **Vali** moodulid valige kaart **ja** seejärel valige **OK**.
 1. Määrake mooduli atribuutide paanil kõik täiendavad atribuudid, mida vajate.
 1. Valige **Salvesta**, valige lehe registreerimiseks **Lõpeta redigeerimine** ja seejärel selle avaldamiseks **Avalda**.
  

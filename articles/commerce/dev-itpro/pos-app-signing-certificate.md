@@ -1,8 +1,8 @@
 ---
-title: Allkirjasta MPOS koodi allkirjastamissertifikaadiga
+title: Allkirjasta MPOS.appx-fail koodi allkirjastamistunnistusega
 description: See teema kirjeldab, kuidas MPOS-i koodi allkirjastamistunnistusega allkirjastada.
 author: mugunthanm
-ms.date: 05/11/2022
+ms.date: 05/27/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: tfehr
@@ -10,16 +10,17 @@ ms.custom: 28021
 ms.search.region: Global
 ms.author: mumani
 ms.search.validFrom: 2019-09-2019
-ms.openlocfilehash: e45961cf1ddb385d914b700d03bc95d07de47b68
-ms.sourcegitcommit: d70f66a98eff0a2836e3033351b482466bd9c290
+ms.openlocfilehash: 38c094de6f94381a809fdb68d2e76d410e406934
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8742580"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811081"
 ---
-# <a name="sign-mpos-appx-with-a-code-signing-certificate"></a>MPOS-i appx-i allkirjastamine koodi allkirjastamise serdiga
+# <a name="sign-the-mpos-appx-file-with-a-code-signing-certificate"></a>Allkirjasta MPOS.appx-fail koodi allkirjastamistunnistusega
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Modern POS-i (MPOS) installimiseks peate MPOS-rakenduse allkirjastama usaldusväärse pakkuja koodi allkirjastamise serdiga ja installima sama serdi kõigile masinatele, kus MPOS on praeguse kasutaja usaldusväärse juurkausta alla installitud.
 
@@ -42,7 +43,7 @@ Turvalise faili ülesande kasutamine on Soovitatav lähenemine Universal Windows
 ![MPOS-rakenduse allkirjastamisvoog.](media/POSSigningFlow.png)
 
 > [!NOTE]
-> Praegu toetab OOB pakend ainult appx-faili allkirjastamist, samuti ei ole erinevad iseteeninduse installijad MP ANTUD protsess alla kirjutanud, vaid ka MUUD ISEteenindussüsteemi installijad, NT MPINSTALL, TEATUDU ja HWS. Peate selle allkirjastama käsitsi SignTooli või muude allkirjastamistööriistade abil. Rakendusfaili allkirjastamiseks kasutatav sert tuleb installida masinasse, kuhu on installitud Modern POS.
+> Praegu toetab OOB pakend ainult .appx-faili allkirjastamist, sellele protsessile ei ole allakirjutatud muud iseteenindussüsteemi installijad, nagu MPRAKENDUSEd,MERAU ja HWS. Peate selle allkirjastama käsitsi SignTooli või muude allkirjastamistööriistade abil. .appx-faili allkirjastamiseks kasutatav sert tuleb installida masinasse, kuhu on installitud Modern POS.
 
 ## <a name="steps-to-configure-the-certificate-for-signing-in-azure-pipelines"></a>Serdi konfigureerimise sammud Azure Pipelines'i logimiseks
 
@@ -51,21 +52,22 @@ Turvalise faili ülesande kasutamine on Soovitatav lähenemine Universal Windows
 Laadige alla [toiming DownloadFile](/visualstudio/msbuild/downloadfile-task) ja lisage see koostamisprotsessi esimese sammuna. Turvalise faili ülesande kasutamise eeliseks on see, et fail krüptitakse ja paigutatakse kettale koostamis käigus hoolimata sellest, kas koostamisvõimaluste loomine õnnestus, nurjub või kui see tühistatakse. Fail kustutatakse allalaadimise asukohast pärast seda, kui koostamisprotsess on lõpetatud.
 
 1. Laadige alla ja lisage Secure File toiming esimese sammuna Azure'i build müügivõimalustes. Võite secure file task alla laadida downloadFile'ist [...](https://marketplace.visualstudio.com/items?itemName=automagically.DownloadFile).
-2. Laadige sert üles turvafaili ülesandele ja määrake jaotises Väljundmuutujad viite nimi, nagu järgmisel pildil näha.
+1. Laadige sert üles turvafaili ülesandele ja määrake jaotises Väljundmuutujad viite nimi, nagu järgmisel pildil näha.
     > [!div class="mx-imgBorder"]
     > ![Turvaline failiülesanne.](media/SecureFile.png)
-3. Looge uus muutuja Azure Pipelines'is, valides **vahekaardil** **Muutujad valiku Uus** muutuja.
-4. Sisestage muutujale väärtusväljal nimi, näiteks **MySigningCert**.
-5. Salvestab muutuja.
-6. **Avage RetailSDKBuildToolsi** **\\ fail Customization.settings** **ja uuendage ModernPOSPackageCertificateKeyFile** konveieris loodud muutuja nimega (etapp 3). Näide:
+1. Looge uus muutuja Azure Pipelines'is, valides **vahekaardil** **Muutujad valiku Uus** muutuja.
+1. Sisestage muutujale väärtusväljal nimi, näiteks **MySigningCert**.
+1. Salvestab muutuja.
+1. Avage **RetailSDK\\BuildToolsi** fail **Customization.settings** ja uuendage **ModernPOSPackageCertificateKeyFile** konveieris loodud muutuja nimega (etapp 3). Näide:
 
     ```Xml
     <ModernPOSPackageCertificateKeyFile Condition="'$(ModernPOSPackageCertificateKeyFile)' ==''">$(MySigningCert)</ModernPOSPackageCertificateKeyFile>
     ```
     Kui sert ei ole parooliga kaitstud, on see samm kohustuslik. Kui sert on parooliga kaitstud, jätkake järgmiste sammudega.
- 
-7. Konveieri vahekaardil Muutujad **lisage** uus turvateksti muutuja. Seadke nimi mySigningCert.secretiks **ja** määrake serdi parooli väärtus. Saate valida muutuja turvamiseks luku ikooni.
-8. Lisage Powershelli **skripti ülesanne** konveierile (pärast turvalise faili allalaadimist ja enne etapi koostet). Sisestage **kuvatav** nimi ja määrake tüüp **tekstisiseseks**. Kopeerige ja kleepige järgmine skripti jaotisse.
+    
+1. Kui soovite selle serdiga allkirjastamisel Ajatempli MPOS .appx faili, **avage retail SDK\\ Build tööriist\\ Customization.settings** **fail ja värskendage ModernPOSPackageCertificateTimestamp** muutujat ajatempli pakkujaga (näiteks`http://timestamp.digicert.com`).
+1. Konveieri vahekaardil Muutujad **lisage** uus turvateksti muutuja. Seadke nimi mySigningCert.secretiks **ja** määrake serdi parooli väärtus. Saate valida muutuja turvamiseks luku ikooni.
+1. Lisage Powershelli **skripti ülesanne** konveierile (pärast turvalise faili allalaadimist ja enne etapi koostet). Sisestage **kuvatav** nimi ja määrake tüüp **tekstisiseseks**. Kopeerige ja kleepige järgmine skripti jaotisse.
 
     ```powershell
     Write-Host "Start adding the PFX file to the certificate store."
@@ -74,7 +76,7 @@ Laadige alla [toiming DownloadFile](/visualstudio/msbuild/downloadfile-task) ja 
     Import-PfxCertificate -FilePath $pfxpath -CertStoreLocation Cert:\CurrentUser\My -Password $secureString
     ```
 
-9. **Avage RetailSDKBuildToolsi** **\\ fail Customization.settings** **ja uuendage ModernPOSPackageCertificateThumbprint** serdi sõrmejälje väärtusega.
+1. Avage **RetailSDK\\BuildToolsi** fail **Customization.settings** ja uuendage **ModernPOSPackageCertificateThumbprint** serdi sõrmejälje väärtusega.
 
     ```Xml
        <ModernPOSPackageCertificateThumbprint Condition="'$(ModernPOSPackageCertificateThumbprint)' == ''"></ModernPOSPackageCertificateThumbprint>
@@ -82,10 +84,9 @@ Laadige alla [toiming DownloadFile](/visualstudio/msbuild/downloadfile-task) ja 
  
 Üksikasju serdi jaoks sõrmejälje saamiseks vaadake serdi [sõrmejälje toomiseks](/dotnet/framework/wcf/feature-details/how-to-retrieve-the-thumbprint-of-a-certificate#to-retrieve-a-certificates-thumbprint). 
 
- 
 ## <a name="download-or-generate-a-certificate-to-sign-the-mpos-app-manually-using-msbuild-in-sdk"></a>Laadige alla või looge sert MPOS-rakenduse käsitsi allkirjastamiseks, kasutades msbuild-i SDK-s
 
-Kui allalaaditud või loodud serti kasutatakse MPOS-rakenduse allkirjastamiseks, **siis värskendage ModernPOSPackageCertificateKeyFilee** **sõlme BuildToolsCustomization.settings\\ failis**, et osutada PFX-faili asukohale (**$(SdkReferencesPath)\\ appxsignkey.pfx**). Näide:
+Kui allalaaditud või loodud serti kasutatakse MPOS-rakenduse allkirjastamiseks, **siis värskendage ModernPOSPackageCertificateKeyFile** sõlme **BuildTools Customization.settings\\ failis**, et osutada PFX-faili asukohale (**$(SdkReferencesPath)\\ appxsignkey.pfx**). Näide:
 
 ```xml
 <ModernPOSPackageCertificateKeyFile Condition="'$(ModernPOSPackageCertificateKeyFile)' ==''">$(SdkReferencesPath)\appxsignkey.pfx</ModernPOSPackageCertificateKeyFile>
@@ -95,7 +96,7 @@ Sellisel juhul on sertifikaadifaili nimi **appxsignkey.pfx**, mis asub **kaustas
 
 ## <a name="use-thumbprint-to-sign-the-mpos-app"></a>Kasutage MPOS-rakenduse allkirjastamiseks sõrmejälge
 
-Kui kasutate MPOS-rakenduse allkirjastamiseks sõrmejälge, installige sert kohalikult. Uuendage sõrmejälje väärtust ModernPOSPackageCertificateThumbprint **sõlmes** BuildToolsCustomization.settings **\\ failis.**
+Kui kasutate MPOS-rakenduse allkirjastamiseks sõrmejälge, installige sert kohalikult. Uuendage sõrmejälje väärtust **ModernPOSPackageCertificateThumbprint** sõlmes **BuildTools\\ Customization.settings** failis.
 
 See valik töötab, kui koostamiskasutaja on kohalik kasutaja. Kui aga kasutate Azure DevOps järgu loomiseks agendiid, ei pruugi agendil olla allkirjastamiseks serdi kasutamiseks juurdepääsuluba sertimispoele või ei installita koostemasinat. Sel juhul on lahenduseks muuta järgu kasutaja kohalikuks kasutajaks ja installida sert kasti. Kuid see valik ei tööta, kui teil ei ole väljale administraatori juurdepääsu.
 

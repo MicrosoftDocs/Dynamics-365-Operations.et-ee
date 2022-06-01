@@ -2,7 +2,7 @@
 title: Konteinermoodul
 description: See teema hõlmab akordionmooduleid ja selles kirjeldatakse, kuidas neid rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
 author: anupamar-ms
-ms.date: 09/15/2020
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 752d0ddc6f666a5d96a2593c8c246a82dc7e1de2fd4bd2356a275222d7abec29
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: aa4bf7523acee06e91f0ebb983dd8777dec4bac5
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715436"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780710"
 ---
 # <a name="container-module"></a>Konteinermoodul
 
@@ -98,17 +98,20 @@ Erinevate portide paigutuse optimeerimiseks saab kasutada täiendavaid atribuute
 Uuele lehele konteineri esitamise mooduli lisamiseks ja vajalike atribuutide seadistamiseks toimige järgmiselt.
 
 1. Avage **Mallid** ja valige uue malli loomiseks **Uus**.
-1. Sisestage dialoogiboksis **Uus mall** jaotise **Malli nimi** all **Konteineri mall** ja valige seejärel **OK**.
-1. Valige pesas **Keha** kolmikpunkt (**…**) ja seejärel valige käsk **Lisa moodul**.
-1. Valige dialoogiboksis **Lisa moodul** moodul **Vaikeleht** ja klõpsake seejärel **OK**.
+1. Dialoogiaknas **Uus** mall sisestage malli **nime** all **konteineri mall** ja seejärel valige **OK**.
+1. Kehapesas valige kolmikpunkt (**...**) ja seejärel valige **lisamoodul**.**·**
+1. Dialoogiaknas **Vali** moodulid valige vaikelehemoodul **ja** seejärel valige **OK**.
 1. Valige **Salvesta**, valige malli registreerimiseks **Lõpeta redigeerimine** ja seejärel selle avaldamiseks **Avalda**. 
 1. Avage **Lehed** ja seejärel valige uue lehe loomiseks **Uus**.
-1. Valige dialoogiboksis **Vali mall** teie loodud videopleieri mall. Sisestage jaotises **Lehe nimi** väärtus **Konteineri leht** ja seejärel valige **OK**.
-1. Uue lehe pesas **Peamine** valige kolmikpunkt (**...**) ja seejärel valige suvand **Lisa moodul**.
-1. Valige dialoogiboksis **Lisa moodul** moodul **Konteiner** ja klõpsake seejärel **OK**.
+1. Sisestage **dialoogiboksi Uue lehe loomine** jaotises Lehe nimi **Konteineri** leht **ja** seejärel valige väärtus **Edasi**.
+1. Valige **valiku Vali mall** all loodud **konteinerimall** ja seejärel klõpsake nuppu **Edasi**.
+1. Valige **valiku Vali paigutus** all lehekülje paigutus (nt Paindlik **paigutus**) ja seejärel klõpsake nuppu **Edasi**.
+1. Vaadake **jaotises Ülevaade ja lõpetamine** üle lehe konfiguratsioon. Kui teil on vaja lehekülje teavet redigeerida, valige **Tagasi**. Kui lehekülje teave on õige, valige Loo **leht**. 
+1. Uue lehekülje põhipesas valige kolmikpunkt (**...**) ja seejärel valige **lisamoodul**.**·**
+1. Dialoogiaknas **Vali** moodulid valige konteinerimoodul **ja** seejärel valige **OK**.
 1. Konteinermooduli atribuudipaanil määrake atribuut **Veergude arv** väärtusele **1** ja atribuut **Laius** väärtusele **Täida konteiner**.
-1. Valige pesas **Konteiner** kolmikpunkt (**…**) ja seejärel valige käsk **Lisa moodul**.
-1. Valige dialoogiboksis **Lisa moodul** moodul **Sisuplokk** ja klõpsake seejärel **OK**.
+1. Valige konteineri pesast kolmikpunkt (**...**) ja seejärel valige **lisamoodul**.**·**
+1. Dialoogiaknas **Vali** moodulid valige sisublokti **moodul** ja seejärel valige **OK**.
 1. Konfigureerige sisuploki mooduli atribuudipaani pealkiri, pilt ja paigutus.
 1. Valige **Salvesta** ja seejärel lehe eelvaate kuvamiseks **Eelvaade**. Peaksite nägema ühte funktsioonimoodulit, mis mahub konteinermooduli laiusse.
 1. Konteinermooduli atribuudipaanil muutke atribuudi **Veergude arv** väärtuseks **3**.

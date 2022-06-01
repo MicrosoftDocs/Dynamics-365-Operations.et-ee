@@ -2,7 +2,7 @@
 title: Tellimuse kinnituse moodul
 description: See teema hõlmab tellimuse kinnitamise mooduleid ja kirjeldab, kuidas neid rakenduses Microsoft Dynamics 365 Commerce kasutada.
 author: anupamar-ms
-ms.date: 11/06/2020
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6914f8c968b03c05a2311a31a4f391c828db5b8b35bc864504dad78f43b3623f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e74ffbdfe57f9220cc9ed85edae4270409165b41
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733842"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780380"
 ---
 # <a name="order-confirmation-module"></a>Tellimuse kinnituse moodul
 
@@ -49,17 +49,20 @@ Tellimuse kinnitamise lehe loomisel saate lisaks tellimuse kinnitamise moodulile
 Uuele lehele tellimuse kinnitamise mooduli lisamiseks ja vajalike atribuutide häälestamiseks toimige järgmiselt.
 
 1. Avage **Mallid** ja valige uue malli loomiseks **Uus**.
-1. Sisestage dialoogiboksis **Uus mall** jaotise **Malli nimi** all nimi **Tellimuse kinnitamise mall** ja valige seejärel **OK**.
-1. Valige pesas **Keha** kolmikpunkt (**…**) ja seejärel valige käsk **Lisa moodul**.
-1. Valige dialoogiboksis **Lisa moodul** moodul **Vaikeleht** ja klõpsake seejärel **OK**.
-1. Valige mooduli **Vaikeleht** pesas **Peamine** kolmikpunkt (**...**) ja seejärel suvand **Lisa moodul**.
-1. Valige dialoogiboksis **Lisa moodul** moodul **Tellimuse kinnitamine** ja valige seejärel **OK**.
+1. Dialoogiaknas **Uus** mall malli nime **all** sisestage nime tellimuse **kinnitusmall ja** seejärel valige **OK**.
+1. Kehapesas valige kolmikpunkt (**...**) ja seejärel valige **lisamoodul**.**·**
+1. Dialoogiaknas **Vali** moodulid valige vaikelehemoodul **ja** seejärel valige **OK**.
+1. Vaikelehe mooduli põhipesas **valige** kolmikpunkt (**...**) ja seejärel valige **lisamoodul**.**·**
+1. Dialoogiaknas **Vali** moodulid valige tellimuse **kinnitusmoodul** ja seejärel valige **OK**.
 1. Valige **Salvesta** ja seejärel malli eelvaate kuvamiseks **Eelvaade**. Tellimuse kinnituse moodulit ei renderdata, kuna see nõuab tellimuse kinnituse numbri konteksti.
 1. Valige malli registreerimiseks **Lõpeta redigeerimine** ja seejärel selle avaldamiseks **Avalda**.
 1. Avage **Lehed** ja seejärel valige uue lehe loomiseks **Uus**.
-1. Valige dialoogiboksis **Malli valimine** suvand **Tellimuse kinnitamise mall**. Sisestage jaotises **Lehe nimi** väärtus **Tellimuse kinnitamise leht** ja seejärel valige **OK**.
-1. Valige mooduli **Vaikeleht** pesas **Peamine** kolmikpunkt (**...**) ja seejärel suvand **Lisa moodul**.
-1. Valige dialoogiboksis **Lisa moodul** moodul **Tellimuse kinnitamine** ja valige seejärel **OK**.
+1. Dialoogiaknas **Uue lehe loomine** sisestage jaotises **Lehe nimi** tellimuse **kinnitusleht ja** seejärel valige **järgmine**.
+1. Valige **valiku Vali mall** all Tellimuse **kinnitusmall ja** seejärel **edasi**.
+1. Valige **valiku Vali paigutus** all lehekülje paigutus (nt Paindlik **paigutus**) ja seejärel klõpsake nuppu **Edasi**.
+1. Vaadake **jaotises Ülevaade ja lõpetamine** üle lehe konfiguratsioon. Kui teil on vaja lehekülje teavet redigeerida, valige **Tagasi**. Kui lehekülje teave on õige, valige Loo **leht**. 
+1. Vaikelehe mooduli põhipesas **valige** kolmikpunkt (**...**) ja seejärel valige **lisamoodul**.**·**
+1. Dialoogiaknas **Vali** moodulid valige tellimuse **kinnitusmoodul** ja seejärel valige **OK**.
 1. Valige tellimuse kinnitamise mooduli atribuutide paanil pliiatsisümboli kõrval olev suvand **Pealkiri**.
 1. Sisestage dialoogiboksi **Pealkiri** väljale **Pealkirja tekst** pealkirja tekst **Tellimuse kinnitamine** ja valige seejärel **OK**.
 1. Valige **Salvesta** ja seejärel lehe eelvaate kuvamiseks **Eelvaade**.

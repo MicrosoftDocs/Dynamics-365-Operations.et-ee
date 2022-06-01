@@ -9,12 +9,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: whigginb
 ms.search.validFrom: 2021-09-03
-ms.openlocfilehash: 26b2821f33ea23dde1fda1d461baa5de1b4f9efc
-ms.sourcegitcommit: d70f66a98eff0a2836e3033351b482466bd9c290
-ms.translationtype: HT
+ms.openlocfilehash: 3385edf8961d04cf8bfc4ca06299f1911b76a4f5
+ms.sourcegitcommit: 2b119aec0e6f49bfd36125d9660f49cde5394446
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8740648"
+ms.lasthandoff: 05/16/2022
+ms.locfileid: "8758765"
 ---
 # <a name="service-description-for-finance-and-operations-apps"></a>Finantside ja toimingute rakenduste teenuse kirjeldus
 
@@ -132,9 +132,9 @@ See jaotis kirjeldab mõningaid tüüpilisi keskkonna- ja andmehalduse sündmusi
 
 LCS pakub [iseteenindustööriistu](../../dev-itpro/deployment/infrastructure-stack.md) ja [andmebaasi liikumistoiminguid](../../dev-itpro/database/dbmovement-operations.md), mida kasutatakse keskkonna ja andmehalduse ülesannete sooritamiseks. Järgmisena on toodud mõned näited.
 
-**Sündmus:** [Tootmiseksemplari taotlemine](../imp-lifecycle/prepare-go-live.md#requesting-the-production-environment)
+**Sündmus:** [Tootmiseksemplari taotlemine](../imp-lifecycle/go-live-faq.md#when-can-i-configure-and-request-my-production-environment)
 
-- Lõpetage [Go-live'i kontroll-loend](../imp-lifecycle/prepare-go-live.md) ja esitage see [Microsoft FastTrack`i](/dynamics365/fasttrack/) meeskonnale.
+- Lõpetage Go-live'i [valmisoleku ülevaade](../imp-lifecycle/prepare-go-live.md) ja esitage see [Microsoft FastTracki meeskonnale](/dynamics365/fasttrack/).
 - Viige [LCS-i kordustellimuse hindaja](../../dev-itpro/lifecycle-services/subscription-estimator.md) lõpule enne, kui taotlete tootmiseksemplari.
 - Viige lõpule kõik rakendusülesanded, mis on määratud [LCS-i metodoloogias](../../dev-itpro/lifecycle-services/create-methodology.md).
 

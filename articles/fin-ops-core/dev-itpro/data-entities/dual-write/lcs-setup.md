@@ -2,19 +2,19 @@
 title: Topeltkirjutuse häälestus teenustest Lifecycle Services
 description: Selles teemas selgitatakse, kuidas häälestada topeltkirjutuse ühendust teenusest Microsoft Dynamics Lifecycle Services (LCS).
 author: laneswenka
-ms.date: 08/03/2021
+ms.date: 05/16/2022
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 825d6a4b3462077d0f4b3f4275792ea0fe5152df
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 53e82fbf8cff834c9eb0d14a0597561158b85fa1
+ms.sourcegitcommit: 6744cc2971047e3e568100eae338885104c38294
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063668"
+ms.lasthandoff: 05/20/2022
+ms.locfileid: "8783197"
 ---
 # <a name="dual-write-setup-from-lifecycle-services"></a>Topeltkirjutuse häälestus teenustest Lifecycle Services
 
@@ -26,12 +26,12 @@ Selles teemas selgitatakse, kuidas häälestada topeltkirjutuse ühendust teenus
 
 ## <a name="prerequisites"></a>Eeltingimused
 
-Integratsiooni peate lõpule Power Platform viima järgmistes teemades kirjeldatud viisil:
+Kliendid peavad integratsiooni lõpule Power Platform viima, nagu on kirjeldatud järgmistes teemades:
 
-+ [Power Platform Integreerimine – lubage keskkonna juurutamisel](../../power-platform/enable-power-platform-integration.md#enable-during-deploy)
-+ [Power Platform Integreerimine – lubage keskkonna juurutamisel](../../power-platform/enable-power-platform-integration.md#enable-after-deploy)
+- Kui te ei kasuta ja soovite oma Microsoft Power Platform finants- ja operatsioonide keskkondi laiendada platvormivõimaluste lisamisega, [Power Platform vt Integreerimine – Luba keskkonna juurutamise ajal](../../power-platform/enable-power-platform-integration.md#enable-during-deploy).
+- Kui teil on juba Dataverse olemas keskkonnad Power Platform ja soovite need ühendada Finantside ja toimingute keskkondadega, vaadake integreerimist [Power Platform – Lubage pärast keskkonna juurutamist](../../power-platform/enable-power-platform-integration.md#enable-after-deploy).
 
-## <a name="set-up-dual-write-for-new-dataverse-environments"></a>Juhised topeltkirjutuse Dataverse häälestamiseks
+## <a name="set-up-dual-write-for-new-or-existing-dataverse-environments"></a>Saate häälestada uute või olemasolevate keskkondade topeltkirjutust Dataverse.
 
 Järgige neid samme LCS-i keskkonna üksikasjade lehel **topeltkirjutuse häälestamiseks** lehel:
 
@@ -53,30 +53,21 @@ Järgige neid samme LCS-i keskkonna üksikasjade lehel **topeltkirjutuse hääle
 
     :::image type="content" source="media/powerplat_integration_step3.png" alt-text="Link Power Platform keskkonda.":::
 
-8. Kui linkimine on lõpetatud, kuvatakse hüperlink. Kasutage linki, et logida sisse topeltkirjutus administreerimisalale keskkonnas Rahandus ja Toimingud. Sealt saate seadistada üksuse vastendamised.
-
-## <a name="set-up-dual-write-for-an-existing-dataverse-environment"></a>Juhised topeltkirjutuse Dataverse häälestamiseks
-
-Olemasoleva keskkonna topeltkirjutuse Dataverse häälestamiseks peate looma Microsofti [tugipileti](../../lifecycle-services/lcs-support.md). Pilet peab sisaldama:
-
-+ Teie finants- ja tegevuskeskkonna ID.
-+ Teie keskkonna nimi rakendusest Lifecycle Services.
-+ Organisatsiooni Dataverse ID või Power Platform keskkonna ID Power Platform Halduskeskusest. Taotlege oma piletis, et ID oleks integratsiooniks kasutatav Power Platform eksemplar.
-
-> [!NOTE]
-> LCS-i abil ei saa keskkondade linkimist tühistada. Keskkonna linkimise tühistamiseks avage **andmete integreerimise** tööruum rahandus- ja operatsioonide keskkonnas ja seejärel valige **Käsk Tühista link**.
+8. Kui linkimine on lõpetatud, kuvatakse hüperlink. Logige lingi abil sisse topeltkirjutuse haldusalasse finantside ja toimingute keskkonnas. Sealt saate seadistada üksuse vastendamised.
 
 ## <a name="linking-mismatch"></a>Mittevastavuse linkimine
 
-On võimalik, et teie LCS-keskkond on lingitud ühe Dataverse eksemplariga, samas kui teie topeltkirjutuskeskkond on lingitud teise Dataverse eksemplariga. Selline seostamine võib põhjustada ootamatut käitumist ja see võib lõppeda andmete saatmisega valesse keskkonda. Topeltkirjutuse jaoks soovitatav keskkond on see, mis luuakse Power Platform integratsiooni ja pikaajalise integreerimise osana, see on ainus viis luua seos keskkondade vahel.
+Võimalik, et teie topeltkirjutuskeskkond on lingitud eksemplariga Dataverse, kui LCS ei ole seadistatud integreerimiseks Power Platform. Selline seostatav lahknevus võib põhjustada ootamatut käitumist. On soovitatav, et LCS-i keskkonna üksikasjad ühtiksid sellega, millega olete topeltkirjutuses ühendatud, nii et sama ühendust saaks kasutada ärisündmustes, virtuaalsetes tabelites ja lisandmoodulites.
 
-Kui teie keskkonnas on seostatav lahknevus, kuvab LCS hoiatuse teie keskkonna üksikasjade lehel, mis on sarnane lingile "Microsoft tuvastas, et teie keskkond on topeltkirjutuse kaudu lingitud integratsioonis määratud erinevasse sihtkohta, mis pole rakenduses Power Platform soovitatav":
+Kui teie keskkonnas on seostatav lahknevus, kuvab LCS hoiatuse, mis sarnaneb järgmise näitega teie keskkonna üksikasjade lehel: "Microsoft Power Platform tuvastas, et teie keskkond on lingitud topeltkirjutuse kaudu teise kohta, kui on määratud integratsioonis, mis pole soovitatav."
 
 :::image type="content" source="media/powerplat_integration_mismatchLink.png" alt-text="Power Platform integratsioonilink on vasta.":::
 
-Kui ilmneb see tõrge, on teie vajadustest lähtuvalt kaks võimalust:
+Kui saate selle hoiatuse, proovige ühte järgmistest lahendustest.
 
-+ [Kahekordse kirjutamise keskkondade linkimise tühistamine ja uuesti linkimine (linkimise lähtestamine või muutmine)](relink-environments.md#scenario-reset-or-change-linking) nagu on määratud teie LCS-i keskkonna üksikasjade lehel. See on ideaalvalik, kuna saate seda käivitada ilma Microsoft`i toeta.  
-+ Kui soovite linki topeltkirjutuses säilitada, võite paluda Microsoft`i tugiteenustelt abi, et muuta Power Platform integratsiooni, et kasutada olemasolevat Dataverse keskkonda vastavalt eelmises jaotises dokumenteeritud versioonile.  
+- Kui LCS-i Power Platform keskkond ei ole kunagi integreerimiseks häälestatud, Dataverse saate ühendada topeltkirjutuses konfigureeritud eksemplariga, järgides selle artikli juhiseid.
+- Kui LCS-i keskkond on integreerimiseks juba seadistatud, peate topeltkirjutuse lingi tühistama ja selle LCS-i Power Platform [määratud keskkonnaga uuesti ühendama, kasutades stsenaariumi lähtestamist või linkimist](relink-environments.md#scenario-reset-or-change-linking).
+
+Minevikus oli saadaval käsitsi toepileti valik, kuid see oli enne 1. valikut olemas.  Microsoft ei toeta enam käsitsi uuesti linkimise taotlusi tugiteenuste kaudu.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

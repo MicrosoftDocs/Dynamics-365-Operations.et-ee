@@ -2,7 +2,7 @@
 title: Konfiguratsiooni kujundamine dokumentide loomiseks Exceli vormingus
 description: Selles teemas kirjeldatakse, kuidas kujundada elektroonilise aruandluse (ER) vormingut Exceli malli täitmiseks ja seejärel luua väljaminevaid Exceli vormingus dokumente.
 author: NickSelin
-ms.date: 03/25/2022
+ms.date: 05/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ec25065f2e3cc3b5dd3c9004d5330447f7b2ac61
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 4a34f990c865aa8c82213a60c23d5a44ad75aee4
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8645131"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811416"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Konfiguratsiooni kujundamine dokumentide loomiseks Exceli vormingus
 
@@ -288,6 +288,16 @@ Saate valida Toimingupaani **Excelist värskendamine** vahekaardi **Importimine*
 
 ![Exceli vorminguelemendi Leht suvandi loomine dialoogiboksis Excelist värskendamine.](./media/er-excel-format-update-template.png)
 
+Versioonis 10.0.28 ja uuemas saate **kasutada Suvandit Värskenda Exceli päist ja Exceli vormingu elemente**.
+
+- Kui seadistate valikuks **Ei**, jäävad Exceli päise ja Exceli jaluse vormingu elemendid muutmata, isegi kui vastavad päised või jalused on uuendatud imporditud malli töölehtedel Exceli töövihiku vormingus.
+- Kui seadistate selle valiku väärtuseks **Jah**, muutuvad Exceli päise ja Exceli jaluse vormingu elemendid vastavate päiste või jaluste uuendamisel imporditud malli töölehtedel Exceli töövihiku vormingus.
+
+    - Kui töölehe päise või jaluse struktuuri pole muudetud või kui see on ainult lisatud, uuendatakse vastava Exceli päise või Exceli jaluse vormingu elemendi struktuuri. Selle Exceli päise või Exceli jaluse vorminguelemendi alla pesastatud vorminguelementide sidumised säilitatakse.
+    - Kui töölehe päise või jaluse struktuuri on muudetud, luuakse uuesti vastav Exceli päis või Exceli jaluse vormingu element. Selle Exceli päise või Exceli jaluse vorminguelemendi alla pesastatud vorminguelementide sidumised eemaldatakse.
+
+![Exceli päise ja Exceli jaluse vormingu elementide suvandi värskendamine dialoogiboksis Uuenda Excelist.](./media/er-excel-format-update-template2.png)
+
 Selle funktsiooni kohta lisateabe saamiseks järgige teemas [Elekrtoonilise aruandluse muutmine Exceli mallide uuesti rakendamise teel](modify-electronic-reporting-format-reapply-excel-template.md) toodud etappe.
 
 ## <a name="validate-an-er-format"></a>ER-vormingu kinnitamine
@@ -355,7 +365,7 @@ Kui luuakse väljaminev töövihikuvormingus Microsoft Exceli dokument, võivad 
 
 ## <a name="example-2-fixing-the-merged-cells-epplus-issue"></a><a name="example-2"></a> Näide 2: ühendatud lahtrite EP Väljamineku parandamine
 
-Väljamineva dokumendi loomiseks Exceli töövihiku vormingus saate käitada ER-vormingut. **Kui funktsioonihalduse tööruumis on lubatud EPRaamatuteegi EPRaamatu** **kasutamine** elektroonilise aruandluse raamistikus, [kasutatakse EP Andmebaasiteeki](https://www.nuget.org/packages/epplus/4.5.2.1) Exceli väljundi loomiseks. Teadaoleva Exceli käitumise ja [EP](https://answers.microsoft.com/msoffice/forum/all/deleting-a-range-of-cells-that-includes-merged/8601462c-4e2c-48e0-bd23-848eecb872a9)-teegi piirangu tõttu võib siiski tekkida järgmine erand: "Ühendatud elemente ei saa kustutada/üle kirjutada. Vahemik on osaliselt ühendatud teise ühendatud vahemikuga." Et teada saada, millised Exceli mallid võivad seda erandt põhjustada ja kuidas saate probleemi lahendada, viige järgmine näide lõpule.
+Väljamineva dokumendi loomiseks Exceli töövihiku vormingus saate käitada ER-vormingut. **Kui funktsioonihalduse tööruumis on lubatud EPRaamatuteegi EPRaamatu** **kasutamine** elektroonilise aruandluse raamistikus, [kasutatakse EP Andmebaasiteeki](https://www.nuget.org/packages/epplus/4.5.2.1) Exceli väljundi loomiseks. Teadaoleva Exceli käitumise ja [EP](https://answers.microsoft.com/en-us/msoffice/forum/all/deleting-a-range-of-cells-that-includes-merged/8601462c-4e2c-48e0-bd23-848eecb872a9)-teegi piirangu tõttu võib siiski tekkida järgmine erand: "Ühendatud elemente ei saa kustutada/üle kirjutada. Vahemik on osaliselt ühendatud teise ühendatud vahemikuga." Et teada saada, millised Exceli mallid võivad seda erandt põhjustada ja kuidas saate probleemi lahendada, viige järgmine näide lõpule.
 
 1. Looge Exceli töölauarakenduses uus Exceli töövihik.
 2. Lisage töölehele **Sheet1** lahtri **A2 ReportTitle** **nimi**.
@@ -378,7 +388,7 @@ Probleemi saate lahendada järgmistel viisidel:
     1. Muutke Exceli töölauarakenduses Exceli töövihikut ühel järgmistest viisidest.
 
         - Eemaldage **töölehel Sheet1** lahtrid **A1 ja** **A2**.
-        - Muutke atribuudi **ReportTitle nime viide väärtuselt** **=Sheet1!$A$2** **=Sheet1!$A$1**.
+        - Muutke atribuudi **ReportTitle nime viide väärtuselt** **=Sheet1!$A$2** väärtusele **=Sheet1!$A$1**.
 
         ![Viite muutmise tulemuste ülevaatamine Exceli töölauarakenduses kujundatud Exceli töövihikus.](./media/er-fillable-excel-example2-3.png)
 

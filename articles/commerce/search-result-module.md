@@ -2,7 +2,7 @@
 title: Otsingutulemuste moodul
 description: See teema hõlmab otsingutulemuste mooduleid ja kirjeldab, kuidas neid rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
 author: anupamar-ms
-ms.date: 04/21/2022
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 15b3bb50eb0b75fa19ac8e136da83cb362b4cec6
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: dcf3dedbb7c499135bbae45b917153854ecd4a28
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8644922"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780914"
 ---
 # <a name="search-results-module"></a>Otsingutulemuste moodul
 
@@ -65,23 +65,26 @@ Otsingutulemuse moodul toetab [kiirvaate moodulit](quick-view-module.md), mis v�
 
 ## <a name="add-a-search-results-module-to-a-category-page"></a>Otsingutulemuste mooduli lisamine kategoorialehele
 
-Otsingutulemuste mooduli lisamiseks kategoorialehele toimige järgmiselt.
+Otsingutulemuste mooduli lisamiseks saidikonstruktori kategoorialehele, järgige neid samme.
 
 1. Avage **Mallid** ja valige uue malli loomiseks **Uus**.
 1. Sisestage dialoogiboksi **Uus mall** nimi **Otsingutulemus** ja seejärel valige **OK**.
-1. Valige lahtris **Keha** kolmikpunkt (...) ja seejärel valige **Lisa moodul**.
-1. Valige dialoogiboksis **Lisa moodul** moodul **Vaikeleht** ja klõpsake seejärel **OK**.
-1. Valige lahtris **Peamine** moodulis **Vaikeleht** kolmikpunkt (...) ja seejärel valige **Lisa moodul**.
-1. Valige dialoogiboksis **Lisa moodul** moodul **Konteiner** ja klõpsake seejärel **OK**.
-1. Valige lahtris **Konteiner** kolmikpunkt (…) ja seejärel valige käsk **Lisa moodul**.
-1. Valige dialoogiboksis **Lisa moodul** moodul **Lingirida** ja klõpsake seejärel **OK**.
+1. Kehapesas **valige** kolmikpunkt (...) ja seejärel valige **lisamoodul**.
+1. Dialoogiaknas **Vali** moodulid valige vaikelehemoodul **ja** seejärel valige **OK**.
+1. Vaikelehe **mooduli põhipesas** **valige kolmikpunkt (...) ja seejärel valige lisamoodul** **.**
+1. Dialoogiaknas **Vali** moodulid valige konteinerimoodul **ja** seejärel valige **OK**.
+1. **Valige konteineri** pesast kolmikpunkt (...) ja seejärel valige **lisamoodul**.
+1. Dialoogiaknas **Vali** moodulid valige moodul **Breadcrumb** ja seejärel valige **OK**.
 1. Sisestage atribuutide paanile **Lingirida** väärtus **1** üksuse **Miinimum esinemiskorrad** puhul.
-1. Valige lahtris **Konteiner** kolmikpunkt (…) ja seejärel valige käsk **Lisa moodul**.
-1. Valige dialoogiboksis **Lisa moodul** moodul **Otsingutulemused** ja klõpsake seejärel **OK**.
+1. **Valige konteineri** pesast kolmikpunkt (...) ja seejärel valige **lisamoodul**.
+1. Dialoogiaknas **Vali** moodulid valige otsingutulemuste **moodul** ja seejärel valige **OK**.
 1. Sisestage atribuutide paanil **Otsingutulemused** väärtus **1** üksuse **Miiniumu esinemiskorrad** puhul ja seejärel seadistage mistahes muud vajalikud otsingutulemuste mooduli atribuudid. Mallis nende atribuutide seadmisega tagate, et konkreetse kategooria lehekülje kohandused kaasavad need sätted automaatselt.
 1. Valige **Lõpeta redigeerimine** ja seejärel valige malli avaldamiseks **Avalda**.
 1. Avage **Lehed** ja seejärel valige uue lehe loomiseks **Uus**.
-1. Valige dialoogiboksis **Malli valik** loodud **Otsingutulemuste** mall, sisestage **Kategooria leht** üksuse **Lehekülje nimi** jaoks ja seejärel valige **OK**. Kuna kõik väärtused on mallis seadistatud, on lehekülg avaldamiseks valmis.
+1. Dialoogiaknas **Uue lehe loomine** sisestage jaotises **Lehe nimi** kategooria **ja** seejärel valige väärtus **Edasi**.
+1. Valige **valiku Vali mall** all **loodud otsingutulemuste** mall ja seejärel klõpsake nuppu **Edasi**.
+1. Valige **valiku Vali paigutus** all lehekülje paigutus (nt Paindlik **paigutus**) ja seejärel klõpsake nuppu **Edasi**.
+1. Vaadake **jaotises Ülevaade ja lõpetamine** üle lehe konfiguratsioon. Kui teil on vaja lehekülje teavet redigeerida, valige **Tagasi**. Kui lehekülje teave on õige, valige Loo **leht**.
 1. Valige lehe registreerimiseks **Lõpeta redigeerimine** ja seejärel selle avaldamiseks **Avalda**.
 
 ## <a name="enable-inventory-awareness-for-the-search-results-module"></a>Lubage otsingutulemuste mooduli jaoks varude teadlikkus
@@ -102,7 +105,7 @@ Laoseisust teadmise tooteotsing kasutab tooteatribuudiid varude saadavusteabe sa
 
 Selleks, et luua sihtotstarbelised tooteatribuudid varudele teadmise otsingutulemuste mooduli toetamiseks, järgige neid samme.
 
-1. Avage **Jaemüük ja kaubandus \> Jaemüügi ja kaubanduse IT \> Tooted ja varud**.
+1. Minge peakontoris jaemüügi ja rakenduse **Commerce Retail ja Commerce \> IT Products ja \> varudesse**.
 1. Valige ja avage **asusta tooteatribuudid laotasemega**.
 1. Sisestage dialoogiboksis järgmine teave:
 
@@ -116,11 +119,11 @@ Selleks, et luua sihtotstarbelised tooteatribuudid varudele teadmise otsingutule
 
 Võrgukanali toote atribuutide konfigureerimiseks järgige neid samme. 
 
-1. Avage **Jaemüük ja kaubandus \> Kanali seadistus \> Kanali kategooriad ja toote atribuudid**.
-2. Valige võrgukanal, et lubada laoteadpõhise otsingu tulemuste moodul.
-3. Valige ja avage seostatud atribuudigrupp ning seejärel lisage vastloodud toote atribuut.
-4. Commerce'i versioonide puhul enne 10.0.27 väljalaset valige suvand Atribuudi metaandmete määramine, valige uuesti lisatud tooteatribuut ja seejärel lülitage sisse kanali atribuut Näita, **Toomine**, **·** **Saab** muuta ja neid saab **päringusse** teha.**·**
-5. Minge jaemüügi **ja rakenduse Commerce \> Retail ja Commerce IT jaotusgraafikusse \>** ja käitage **1150-töö** (kataloog). Kui planeerite **tooteatribuudid** laotaseme tööga pakktöötlusena, on soovitatav planeerida 1150-töö ka pakett-tööna, mis töötab samas sageduses.
+1. Minge peakontoris jaemüügi ja **ärikanali häälestuse \> kanali kategooriatesse \> ja toote atribuutidesse**.
+1. Valige võrgukanal, et lubada laoteadpõhise otsingu tulemuste moodul.
+1. Valige ja avage seostatud atribuudigrupp ning seejärel lisage vastloodud toote atribuut.
+1. Commerce'i versioonide puhul enne 10.0.27 väljalaset valige suvand Atribuudi metaandmete määramine, valige uuesti lisatud tooteatribuut ja seejärel lülitage sisse kanali atribuut Näita, **Toomine**, **·** **Saab** muuta ja neid saab **päringusse** teha.**·**
+1. Minge jaemüügi **ja rakenduse Commerce \> Retail ja Commerce IT jaotusgraafikusse \>** ja käitage **1150-töö** (kataloog). Kui planeerite **tooteatribuudid** laotaseme tööga pakktöötlusena, on soovitatav planeerida 1150-töö ka pakett-tööna, mis töötab samas sageduses.
 
 > [!NOTE]
 > Toodete puhul, mida näidatakse otsingutulemuste moodulis, kuvatakse varude tase üksiku varianditaseme asemel põhitoote tasemel. Sellel on ainult kaks võimalikku väärtust: "saadaval" ja "laost otsas". Väärtuse tegelik silt tuuakse laotaseme profiili [määratlusest](inventory-buffers-levels.md). Meistritoode loetakse laost lõppenuks ainult siis, kui kõik selle variandid on otsas.

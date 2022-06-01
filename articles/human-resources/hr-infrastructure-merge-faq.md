@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a905d752af2cf8397acb4927aa99edb4c23bfa6a
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 766ee49c17749841d8acac6637a0262e87e52e92
+ms.sourcegitcommit: d38d2fe85dc2497211ba5731617f590029d07145
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688116"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "8809609"
 ---
 # <a name="dynamics-365-human-resources-infrastructure-merge-faq"></a>Dynamics 365 Human Resources infrastruktuuri ühendamise KKK
 
@@ -131,6 +131,9 @@ See sõltub integratsiooni lõpp-punktist. Lisateavet finantside ja toimingute r
 Kui finantside Dynamics 365 Human Resources ja toimingute keskkonnad, mis liitutakse uue infrastruktuuri keskkonnas, on Dataverse ühendatud sama keskkonnaga, Dataverse jätkatakse kahe rakenduse ühendamist sama keskkonnaga pärast migreerimist. Dataverse'i laienduste jaoks vaja migratsiooni.
 
 Kui aga keskkonnad Dynamics 365 Human Resources Finantsid Dataverse ja Toimingud on praegu ühendatud eraldi keskkondadega, tuleb kaks keskkonda ühendada nii, Dataverse et need on ühendatud uue infrastruktuuri ühe keskkonnaga. Selle Dataverse migreerimise jaoks saab Human Resources lahenduste standardseid Dataverse tabeleid ühendada ja taassünkrooneerida uue Dataverse keskkonnaga. Kõiki Dataverse keskkonna laiendeid ei migreerita automaatselt, vaid need tuleb uues keskkonnas uuesti juurutada. Soovitame Dataverse laiendite haldamiseks kasutada hallatud lahendusi. Lisateavet vt [Sissejuhatus lahendustesse](/powerapps/developer/data-platform/introduction-solutions).
+
+### <a name="we-have-utilized-the-custom-field-functionality-within-dynamics-365-human-resources-will-those-custom-fields-migrate-automatically"></a>Oleme kasutanud kohandatud välja funktsioone sees, kas need Dynamics 365 Human Resources kohandatud väljad kandtakse automaatselt üle?
+Jah, lisatud kohandatud väljad siirdatakse uude infrastruktuuri.
 
 ### <a name="we-have-configured-microsoft-power-automate-flows-andor-microsoft-power-apps-to-work-with-dynamics-365-human-resources-will-these-microsoft-power-platform-components-be-migrated-and-work-automatically-after-the-infrastructure-change-is-completed"></a>Oleme konfigureerinud Microsoft Power Automate vooge ja/või Microsoft Power Apps, mis töötaks rakendusega Dynamics 365 Human Resources. Kas need Microsoft Power Platform komponendid migreeritakse ja töötavad automaatselt pärast infrastruktuuri muudatuse lõpetamist?
 

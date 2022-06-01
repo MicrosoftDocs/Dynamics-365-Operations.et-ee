@@ -2,7 +2,7 @@
 title: Valemikoostaja elektroonilises aruandluses (ER)
 description: See teema sisaldab teavet selle kohta, kuidas kasutada elektroonilises aruandluses (ER) valemikoostajat.
 author: NickSelin
-ms.date: 12/05/2019
+ms.date: 04/08/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eec63fb1782c5afed0320eb841b6bfc92af31a691731ef6bac5d00ed442c0dcd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 606532411aa8297654d8d20a9061472597e773da
+ms.sourcegitcommit: 6c1bf233748c4bc70fc5a1a9711758cdfd9e07dc
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777400"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8782200"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>Valemikoostaja elektroonilises aruandluses (ER)
 
@@ -41,7 +41,8 @@ ER toetab valemikoostajat. Seega saate koostamise ajal konfigureerida avaldisi, 
 - Andmeallika kaupade sidumine andmemudeli komponentidega.
 - Andmeallika kaupade sidumine vormingu komponentidega.
 - Andmeallikate osana esinevate arvutatud väljade täielik haldamine.
-- Kasutaja sisendparameetrite nähtavustingimuste määratlemine.
+- Määrake kasutaja sisestusparameetritele nähtavuse ja redigeeritavuse tingimused.
+- Saate määratleda kasutaja sisestusparameetrite vaikeväärtused.
 - Vormingu teisenduste kujundamine.
 - Vormingu komponentide lubamistingimuste määratlemine.
 - Vormingu failikomponentide failinimede määratlemine.

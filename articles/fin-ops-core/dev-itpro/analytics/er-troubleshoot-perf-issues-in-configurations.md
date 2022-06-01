@@ -2,7 +2,7 @@
 title: Jõudlusprobleemide tõrkeotsing ER-i konfiguratsioonides
 description: See teema selgitab, kuidas leida ja lahendada jõudluse probleeme elektroonilise aruandluse (ER) konfiguratsioonides.
 author: NickSelin
-ms.date: 06/08/2021
+ms.date: 05/12/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: maximbel
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: b5f5308f171b6cd4224debec897dbde133e6d8424673aabfab51e6b83b9014e2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e727e06c73ff445bf4219ac5a9eee7bec25740d9
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744382"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811676"
 ---
 # <a name="troubleshooting-performance-issues-in-er-configurations"></a>Jõudlusprobleemide tõrkeotsing ER-i konfiguratsioonides
 
@@ -55,7 +55,7 @@ Mõnikord ei põhjusta jõudlusprobleeme aruandluseks kasutatav ER-vormingu konf
 
 Valmistage ette väike näide või koguge aruande loomise jaoks juhuslikke osi.
 
-Seejärel [trace-parser`is](#trace-parser) tehke standardne alt-üles-analüüs ja vastake järgmistele küsimustele:
+Seejärel tehke [Trace parseeris](#trace-parser) standardne alt üles analüüs ja vastake järgmistele küsimustele:
 
 - Millised on ajatarbimise peamised meetodid?
 - Millist osa koguajast need meetodid kasutavad?
@@ -82,7 +82,7 @@ Seejärel avage ER-mudeli vastendamise kujundajas jälitus ja vaadake lehe allse
 
 - Kas päringute ja toodud kirjete arv vastab andmete koguhulgale? Näiteks kui dokumendil on 10 rida, kas statistika näitab, et aruanne ekstraktib 10 rida või 1000 rida? Kui teil on suur hulk tõmmatud kirjeid, kaaluge ühte järgmistest parandustest:
 
-    - [Kasutage **FILTREERI** funktsiooni **KUS** funktsiooni](#filter) asemel SQL serveri poolel andmete töötlemiseks.
+    - [Kasutage POOLandmete töötlemiseks **FUNKTSIOONI WHERE** **asemel** funktsiooni FILTER](#filter).Microsoft SQL Server
     - Samade andmete toomise vältimiseks kasutage vahemällu salvestamist.
     - [Kogutud andmefunktsioonide abil saate](#collected-data) vältida samade andmete toomist summeerimiseks.
 
@@ -191,6 +191,10 @@ Sellel lähenemisviisil on mõned piirangud. Teil peab olema administratiivne ju
 
 Kuigi vahemällu salvestamine vähendab aega, mis kulub andmete uuesti toomiseks, maksab see mälu. Kasutage vahemällu salvestamist juhtudel, kui toodud andmete hulk pole väga suur. Lisateavet ja näiteid vahemällu salvestamise kasutamise kohta leiate teemast [Mudelivastenduse täiustamine täitmisjälitusjälitusteabe põhjal](trace-execution-er-troubleshoot-perf.md#improve-the-model-mapping-based-on-information-from-the-execution-trace).
 
+#### <a name="reduce-volume-of-data-fetched"></a><a name="reduce-fetched-data"></a> Vähenda toodavad andmete mahtu
+
+Saate vähendada mälu tarbimist vahemälustusel, piirates väljade arvu rakendustabeli kirjetes, mille käitusajal toodate. Sel juhul toodate ainult neid rakenduse tabeli väljaväärtusi, mida vajate ER-mudeli vastendamiseks. Teisi selle tabeli välju ei tooda. Seetõttu vähendatakse toodavate kirjete vahemällu tallemiseks vajalikku mälumahtu. Lisateavet vt [ER-lahenduste jõudluse parandamiseks, vähendades käitusajal toodud tabeliväljade arvu](er-reduce-fetched-fields-number.md).
+
 #### <a name="use-a-cached-parameterized-calculated-field"></a><a name="cached-parameterized"></a>Vahemällu talletatud, parameeter arvutatud välja kasutamine
 
 Mõnikord tuleb väärtusi korduvalt uurida. Näited hõlmavad kontonimesid ja kontonumbreid. Aja säästmiseks saate luua arvutatud välja, millel on ülemise taseme parameetrid, ja seejärel lisada välja vahemällu.
@@ -218,4 +222,4 @@ ER võib tarbida andmeid järgmistest allikatest:
 - Klassid (**objekti** ja **klass** andmeallikad)
 - Tabelid (**tabel** ja **tabeli kirjed** andmeallikad)
 
-[ER API](er-apis-app73.md#how-to-access-internal-x-objects-by-using-erobjectsfactory) pakub ka võimalust saata kõnekoodist eelarvutatud andmeid. Rakenduskomplekt sisaldab arvukalt näiteid selle lähenemisviisi kohta.
+[ER-i rakenduse programmeerimisliides (API)](er-apis-app73.md#how-to-access-internal-x-objects-by-using-erobjectsfactory) pakub ka viisi eelarvutatud andmete saatmiseks kutsumiskoodist. Rakenduskomplekt sisaldab arvukalt näiteid selle lähenemisviisi kohta.
