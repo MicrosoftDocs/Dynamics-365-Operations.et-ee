@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4ea45b238200d4d9d43d563e160e8574271a8ce7
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: 9ae75f33d96261691eee52c963a1f1f00c75b0de
+ms.sourcegitcommit: 220101d2511a3164572226294ef090a43a1e6cdd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7487859"
+ms.lasthandoff: 05/23/2022
+ms.locfileid: "8789208"
 ---
 # <a name="supply-chain-management-home-page"></a>Supply Chain Managementi avaleht
 
@@ -46,7 +46,7 @@ Valige funktsiooniala, et selle kohta rohkem teavet saada.
 - [Tooteteabe haldus](pim/product-information.md)
 - [Tootmise juhtimine](production-control/production-process-overview.md)
 - [Müük ja turundus](sales-marketing/overview-sales-marketing.md)
-- [Teenuste haldus](service-management/service-management-home-page.md)
+- [Teenusehaldus](service-management/service-management-home-page.md)
 - [Transpordihaldus](transportation/transportation-management-overview.md)
 - [Laohaldus](warehousing/warehouse-configuration.md)
 
@@ -58,7 +58,7 @@ Lisateavet teenuse Dynamics 365 Finance kohta leiate [Finance'i avalehelt](../fi
 
 See lühivideo võtab kokku uued tarneahela halduse funktsioonid, mis on lisatud Microsoft Dynamics 365 for Finance and Operationsi versioonile 8.0 (aprill 2018).
 
-- [Töötellimuse sünkroonimine rakenduse Field Service ja rakenduse Finance and Operations vahel](https://youtu.be/hAB4TDVMjxU)
+- [Töökäsu sünkroonimine rakenduse Field Service ja rakenduse Finance and Operations vahel](https://youtu.be/hAB4TDVMjxU)
 
 Need lühivideod võtavad kokku uued tarneahela halduse funktsioonid, mis on lisatud Microsoft Dynamics 365 for Finance and Operations Enterprise editionile 7.3 (detsember 2017).
 
@@ -98,7 +98,7 @@ Järgmised tehnilise konverentsi salvestised arutlevad tarneahela halduse funkts
 ## <a name="white-papers"></a>Tehniline ülevaade
 
 - [Lean manufacturing: funktsioon „võimeline lubama“ ja kanban-tööde planeerimine](/dynamics/s-e/)
-- [Koosluse arvutamine kuluarvutustabeli abil](https://www.microsoft.com/download/details.aspx?id=101937/)
+- [Koosluse arvutamine kuluarvutustabeli abil](https://www.microsoft.com/download/details.aspx?id=101937)
 
 ## <a name="elearning-courses"></a>E-õppe kursused
 

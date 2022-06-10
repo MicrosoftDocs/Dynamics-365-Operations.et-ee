@@ -12,6 +12,8 @@
               items:
                 - name: Mis on uut või mida on muudetud Supply Chain Managementi avalehel?
                   href: get-started/whats-new-home-page.md
+                - name: Supply Chain Management 10.0.28 (august 2022)
+                  href: get-started/whats-new-scm-10-0-28.md
                 - name: Supply Chain Management 10.0.27 (juuli 2022)
                   href: get-started/whats-new-scm-10-0-27.md
                 - name: Supply Chain Management 10.0.26 (mai 2022)
@@ -711,6 +713,8 @@
           items:
             - name: Kuluhalduse avaleht
               href: cost-management/cost-management-home-page.md
+            - name: Korduma kippuvad küsimused varude kuluarvutuse kohta
+              href: cost-management/inventory-costing-faq.md
             - name: Standardkulude eeltingimused
               items:
                 - name: Standardkulude eeltingimuste ülevaade
@@ -1427,6 +1431,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-lookup-data-sources.md?toc=/dynamics365/supply-chain/toc.json
                     - name: ANDMEKOGUMI andmeallikate kasutamine ER-vormingutes
                       href: ../fin-ops-core/dev-itpro/analytics/er-data-collection-data-sources.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: 'Kasutage USER INPUT PARAMETER andmeallikaid, et määrata parameetrid aruandele, mida soovite luua'
+                      href: ../fin-ops-core/dev-itpro/analytics/er-user-input-parameter-data-sources.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Andmeallikate silumine
                       href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Andmemudelite konfigureerimine
@@ -1707,6 +1713,8 @@
                   href: inventory/inventory-visibility-power-platform.md
                 - name: Inventory Visibility reserveeringud
                   href: inventory/inventory-visibility-reservations.md
+                - name: Inventory Visibility varude eraldamine
+                  href: inventory/inventory-visibility-allocation.md
                 - name: Inventory Visibility vaba muutmise graafik ja saadaval lubamiseks
                   href: inventory/inventory-visibility-available-to-promise.md
                 - name: Inventory Visibility avalikud API-d
@@ -3285,6 +3293,18 @@
               href: landed-cost/landed-cost-inquiries.md
             - name: Väljalaadimiskulu aruanded
               href: landed-cost/landed-cost-reports.md
+            - name: Väljalaadimiskulu andmeüksused
+              items:
+                - name: Väljalaadimiskulu üksuste ülevaade
+                  href: landed-cost\landed-cost-entities-overview.md
+                - name: Reisi loomise üksused
+                  href: landed-cost\landed-cost-entities-voyage-creation.md
+                - name: Kulukande üksused
+                  href: landed-cost\landed-cost-entities-cost-transactions.md
+                - name: Konteinerite tegevuste üksused
+                  href: landed-cost\landed-cost-entities-container-activities.md
+                - name: Hankija arve üksused
+                  href: landed-cost\landed-cost-entities-vendor-invoices.md
         - name: Laohaldus
           items:
             - name: Laohalduse ülevaade

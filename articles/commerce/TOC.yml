@@ -12,6 +12,8 @@
               items:
                 - name: Mis on uut või mida on muudetud Commerce'i avalehel?
                   href: get-started/whats-new-home-page.md
+                - name: Commerce 10.0.28 (juuli 2022)
+                  href: get-started/whats-new-commerce-10-0-28.md
                 - name: Commerce 10.0.27 (juuli 2022)
                   href: get-started/whats-new-commerce-10-0-27.md
                 - name: Commerce 10.0.26 (mai 2022)
@@ -1300,7 +1302,11 @@
               items:
                 - name: 4xx/5xx olekukoodi tõrgete jaoks kohandatud vastuselehtede loomine
                   href: build-pages-400-500-errors.md
-        - name: Kaitse pettuse eest
+            - name: Teenuse integreerimine
+              items:
+                - name: Customer Voice'i integreerimine e-kaubanduse saidi lehtedele
+                  href: customer-voice-integration.md
+        - name: Fraud Protection
           items:
             - name: Dynamics 365 Fraud Protectioni integreerimine Dynamics 365 Commerce'iga
               href: dev-itpro/DFP.md
@@ -2118,6 +2124,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-lookup-data-sources.md?toc=/dynamics365/commerce/toc.json
                     - name: ANDMEKOGUMI andmeallikate kasutamine ER-vormingutes
                       href: ../fin-ops-core/dev-itpro/analytics/er-data-collection-data-sources.md?toc=/dynamics365/commerce/toc.json
+                    - name: 'Kasutage USER INPUT PARAMETER andmeallikaid, et määrata parameetrid aruandele, mida soovite luua'
+                      href: ../fin-ops-core/dev-itpro/analytics/er-user-input-parameter-data-sources.md?toc=/dynamics365/commerce/toc.json
                     - name: Andmeallikate silumine
                       href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/commerce/toc.json
                 - name: Andmemudelite konfigureerimine
@@ -2728,6 +2736,8 @@
                               href: e-commerce-extensibility/interactive-components.md
                             - name: Sisselogitud oleku mudeldamine kohaliku arenduse ajal
                               href: e-commerce-extensibility/mock-sign-in.md
+                            - name: Saate häälestada veebi API autentimisülekannet Azure Active Directory B2C abil
+                              href: e-commerce-extensibility/web-api-auth-trans-aad-b2c.md
                             - name: Kontektsipõhiselt kuvatavate mooduli atribuutide konfigureerimine
                               href: e-commerce-extensibility/configure-properties-context.md
                             - name: Moodulite globaliseerimine klassi CultureInfoFormatter abil
@@ -2944,6 +2954,8 @@
                   href: troubleshoot/items-without-inventory-checked-out.md
                 - name: 'Otsingutulemuste ja kategooriate lehtedel kuvatakse hinnangute filter, kui hinnangute ja ülevaadete lahendus pole lubatud'
                   href: troubleshoot/hide-ratings-refiner.md
+                - name: 'Tellimuse kokkuvõtte vahesumma ei sisalda makse, kui kasutatakse kohandatud tellimuse kokkuvõttemooduleid'
+                  href: troubleshoot/summary-taxes-custom-modules-10.0.27.md
             - name: Klientide haldus
               items:
                 - name: Uute klientide loomisel tervitusmeili ei saadeta
