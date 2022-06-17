@@ -1,6 +1,6 @@
 ---
 title: Tulu tuvastamise ümberjaotamine – 2. stsenaarium
-description: Selles teemas tutvustatakse ümberjaotamise stsenaariumi, kus sisestatakse kaks müügitellimust ja seejärel lisab klient pärast esimese müügitellimuse arveldamist lepingule kauba. Kui lepingule lisatakse uus kaup, siis saab selle lisada kas uuele müügitellimusele või olemasolevale müügitellimusele.
+description: Selles artiklis tutvustatakse ümberjaotamise stsenaariumi, kus sisestatakse kaks müügitellimust ja seejärel lisab klient pärast esimese müügitellimuse arveldamist lepingule kauba. Kui lepingule lisatakse uus kaup, siis saab selle lisada kas uuele müügitellimusele või olemasolevale müügitellimusele.
 author: kweekley
 ms.date: 12/21/2020
 ms.topic: index-page
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 4026b8c69e51cb33c64bcf71a62a13b28b86bd49
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: dec8dba9848b77e5c0a1007102789c8f88185fbc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726150"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904840"
 ---
 # <a name="revenue-recognition-reallocation--scenario-2"></a>Tulu tuvastamise ümberjaotamine – 2. stsenaarium
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas tutvustatakse ümberjaotamise stsenaariumi, kus sisestatakse kaks müügitellimust ja seejärel lisab klient pärast esimese müügitellimuse arveldamist lepingule kauba. Kui lepingule lisatakse uus kaup, siis saab selle lisada kas uuele müügitellimusele või olemasolevale müügitellimusele.
+Selles artiklis tutvustatakse ümberjaotamise stsenaariumi, kus sisestatakse kaks müügitellimust ja seejärel lisab klient pärast esimese müügitellimuse arveldamist lepingule kauba. Kui lepingule lisatakse uus kaup, siis saab selle lisada kas uuele müügitellimusele või olemasolevale müügitellimusele.
 
 Selles stsenaariumis määratakse lehe **Pearaamatu parameetrid** vahekaardi **Tulu tuvastamine** suvand **Arvete korrigeerimiste sisestamine müügireskontrole** olekusse **Ei** (**Tulu tuvastamine \> Häälestamine \> Pearaamatu parameetrid**).
 

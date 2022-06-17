@@ -1,6 +1,6 @@
 ---
 title: Tulu tuvastamise ümberjaotamine – 3. stsenaarium
-description: Selles teemas tutvustatakse ümberjaotamise stsenaariumi, kus olemasolevale arveldatud müügitellimusele lisatakse uus rida. Kui lepingule lisatakse uus kaup, siis saab selle lisada kas uuele müügitellimusele või olemasolevale müügitellimusele.
+description: Selles artiklis tutvustatakse ümberjaotamise stsenaariumi, kus olemasolevale arveldatud müügitellimusele lisatakse uus rida. Kui lepingule lisatakse uus kaup, siis saab selle lisada kas uuele müügitellimusele või olemasolevale müügitellimusele.
 author: kweekley
 ms.date: 12/21/2020
 ms.topic: index-page
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 3b3b41b09cc9f4c56fdb04f6a2c4156bc1637699
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 7aa62406a80eb3381206172caaae457ec71b7bf8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726573"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904812"
 ---
 # <a name="revenue-recognition-reallocation--scenario-3"></a>Tulu tuvastamise ümberjaotamine – 3. stsenaarium
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas tutvustatakse ümberjaotamise stsenaariumi, kus olemasolevale arveldatud müügitellimusele lisatakse uus rida. Kui lepingule lisatakse uus kaup, siis saab selle lisada kas uuele müügitellimusele või olemasolevale müügitellimusele. See stsenaarium selgitab ka seda, mis toimub müügireskontro uuendamisel ümberjaotamise tõttu.
+Selles artiklis tutvustatakse ümberjaotamise stsenaariumi, kus olemasolevale arveldatud müügitellimusele lisatakse uus rida. Kui lepingule lisatakse uus kaup, siis saab selle lisada kas uuele müügitellimusele või olemasolevale müügitellimusele. See stsenaarium selgitab ka seda, mis toimub müügireskontro uuendamisel ümberjaotamise tõttu.
 
 Selles stsenaariumis määratakse lehe **Pearaamatu parameetrid** vahekaardil **Tulu tuvastamine** suvand **Arvete korrigeerimiste sisestamine müügireskontrole** olekusse **Jah** (**Tulu tuvastamine \> Häälestamine \> Pearaamatu parameetrid**).
 

@@ -1,6 +1,6 @@
 ---
 title: Olekuga Tühi tšekkide loomine
-description: Selles teemas selgitatakse, kuidas luua pangakontole tühje tšekke.
+description: Selles artiklis selgitatakse, kuidas luua pangakontole tühje tšekke.
 author: abruer
 ms.date: 10/26/2017
 ms.topic: index-page
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2019-09-17
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: b3a0fbb26f135e567bf6af7b2f10b39a28be4c9e
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 834e11e0e359521c674e2b6fd78c93dcb23961a0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8717212"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861440"
 ---
 # <a name="create-checks-that-have-blank-status"></a>Olekuga Tühi tšekkide loomine
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas selgitatakse tühjade tšekkide loomist. Näiteks võite luua tühja tšeki selleks, et kirjendada tšekki, mis on kahjustatud ja mida ei saa makse tegemiseks kasutada.
+Selles artiklis selgitatakse tühjade tšekkide loomist. Näiteks võite luua tühja tšeki selleks, et kirjendada tšekki, mis on kahjustatud ja mida ei saa makse tegemiseks kasutada.
 
 Lehel **Tšekid** saate teha tšekkide hooldustoiminguid. Näiteks saate luua uusi tšekinumbreid ja tšekke kustutada. Saate luua ka tšekke, mille olek on **Tühi**. Pärast tühja tšeki loomist ei saa seda süsteemist kustutada ega uuesti kasutada.
 

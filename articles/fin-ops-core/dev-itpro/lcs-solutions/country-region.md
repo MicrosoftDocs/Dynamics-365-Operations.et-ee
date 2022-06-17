@@ -1,6 +1,6 @@
 ---
 title: Globaliseerimisressursid
-description: See teema sisaldab loetelu ressurssidest, mis aitavad teil riigi-/regioonipõhiste funktsioonide ja pakkumiste kohta rohkem teada saada.
+description: See artikkel sisaldab loetelu ressurssidest, mis aitavad teil riigi-/regioonipõhiste funktsioonide ja pakkumiste kohta rohkem teada saada.
 author: kfend
 ms.date: 02/19/2021
 ms.topic: index-page
@@ -14,27 +14,27 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 822f00c21715b928027a7656f299a693686bf5dfc01f1f5a1738d5eb8d4bf124
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4935d54a911701fda4740e3a1116c139730ceb08
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747511"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8866533"
 ---
 # <a name="globalization-resources"></a>Globaliseerimisressursid
 
 ## <a name="local-and-regional-deployments"></a>Kohalikud ja regioonipõhised juurutused
 Kui teie riiklike õigusaktidega nõutakse andmete teistsugust talletamist või haldamist kui teistes riikides/regioonides, peate juurutamisel võib-olla arvestama oma riigi/regiooni nõuetega. Võtke arvesse järgmisi ressursse, mis võivad teie jaoks asjakohased olla.
 
-[Finance and Operations rakendused, mida käitab 21Vianet Hiinas](../deployment/china-local-deployment.md)
+[Finants- ja äritoimingute rakendused, mida käitab 21Vianet Hiinas](../deployment/china-local-deployment.md)
 
 ## <a name="localization-and-regulatory-features"></a>Lokaliseerimine ja regulatiivsed funktsioonid
 
 [!include [banner](../includes/banner.md)]
 
-Finance and Operations rakendused sisaldavad funktsioone dokumendis [toote lokaliseerimise ja tõlke saadavaloleku juhend](https://aka.ms/dynamics_365_international_availability_deck) esitatud riikide/regioonide kohta. Need funktsioonid aktiveeritakse aktiivse juriidilise isiku esmase aadressi põhjal. 
+Finants- ja äritoimingute rakendused sisaldavad funktsioone artiklis [Toote lokaliseerimise ja tõlke saadavaloleku juhend](https://aka.ms/dynamics_365_international_availability_deck) esitatud riikide/regioonide jaoks. Need funktsioonid aktiveeritakse aktiivse juriidilise isiku esmase aadressi põhjal. 
 
-See teema sisaldab ressursside loetelusid, mis aitavad teil teha järgmist: 
+See artikkel sisaldab ressursside loetelusid, mis aitavad teil teha järgmist: 
 - saada lisateavet riigi-/regioonikohaste lahenduste arendamise kohta;
 - saada riigi-/regioonikohaseid värskendusi;
 - esitada ja vaadata üle regulatiivseid teatisi;
@@ -63,7 +63,7 @@ Järgmised ressursid sisaldavad teavet plaanitud ja uute lokaliseerimisfunktsioo
 [Dynamics 365 väljalaskeplaanid](/business-applications-release-notes/) sisaldavad kirjeldust täiustatud ja uute võimaluste kohta, mida plaanitakse Dynamics 365 ärirakenduste ja rakendusplatvormide jaoks. 
 
 #### <a name="finance-and-operations-apps-whats-new"></a>Finance and Operations rakendused – mis on uut?
-Teemast [Mis on uut või muutunud Finance and Operationsi veebilehel](../../fin-ops/get-started/whats-new-changed.md) leiate rakenduste Finance and Operations konkreetsetesse versioonidesse lisatud funktsioonid.
+Teemast [Mis on uut või muutunud Finance and Operationsi avalehel?](../../fin-ops/get-started/whats-new-changed.md) leiate Finance and Operationsi rakenduste konkreetsetesse versioonidesse lisatud funktsioonid.
 
 ### <a name="electronic-reporting"></a>Elektrooniline aruandlus
 Elektroonilise aruandluse (ER) tööriist võimaldab teil konfigureerida elektrooniliste dokumentide vorminguid erinevate riikide/regioonide õigusnõuete järgi. ER võimaldab hallata neid vorminguid nende elutsükli jooksul. Lisateavet vt järgmistest teemadest.

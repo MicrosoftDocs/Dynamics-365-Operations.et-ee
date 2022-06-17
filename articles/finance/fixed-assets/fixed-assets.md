@@ -1,6 +1,6 @@
 ---
 title: Põhivarade avaleht
-description: See teema annab juurdepääsu ressurssidele, mis aitavad teil kasutada Microsoft Dynamics 365 Finance'i põhivarasid.
+description: See artikkel annab juurdepääsu ressurssidele, mis aitavad teil kasutada Microsoft Dynamics 365 Finance'i põhivarasid.
 author: moaamer
 ms.date: 08/31/2017
 ms.topic: index-page
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cee27143ca005f2fa42899365933ec3014aa13f6
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: 57e81aaefd61eb9e695d8fe0d1c7cac4091bece7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720442"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880812"
 ---
 # <a name="fixed-assets-home-page"></a>Põhivarade avaleht
 
 [!include [banner](../includes/banner.md)]
 
-See teema annab juurdepääsu ressurssidele, mis aitavad teil kasutada Microsoft Dynamics 365 Finance'i põhivarasid. Põhivarad on üksikisikule või organisatsioonile kuuluvad väärtuslikud üksused. Nende hulka kuuluvad hooned, sõidukid, maa ja seadmed. 
+See artikkel annab juurdepääsu ressurssidele, mis aitavad teil kasutada Microsoft Dynamics 365 Finance'i põhivarasid. Põhivarad on üksikisikule või organisatsioonile kuuluvad väärtuslikud üksused. Nende hulka kuuluvad hooned, sõidukid, maa ja seadmed. 
 
 Põhivarade jaoks saate seadistada ja sisestada soetusteabe ning seejärel hallata varasid kulumiarvestuse ning kulumisumma määramiseks kapitaliseerimisläve seadmise kaudu. Saate arvutada põhivarade muudatusi ja neid ka likvideerida. Kui kasutate koos mooduliga Põhivarad moodulit Pearaamat, saate vaadata kõigi põhivarade praegust väärtust. Põhivarade käsitsemise viis peab vastama nii rahvusvahelistele raamatupidamisstandarditele kui ka iga riigi/regiooni maksuseadusandlusele. Nõuded võivad sisaldada põhivarade soetamis- ja likvideerimiskannete, kulumiarvestuse, kasuliku eluea ning juurde- ja allahindluse reegleid. Põhivarade funktsioon sisaldab paljusid neist standarditest ja reeglitest.
 

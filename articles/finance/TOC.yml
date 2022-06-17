@@ -56,10 +56,12 @@
                   href: ../fin-ops-core/fin-ops/get-started/public-preview-releases.md?toc=/dynamics365/finance/toc.json
                 - name: Värskenduste rakendamine pilvekeskkondadele
                   href: ../fin-ops-core/dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/finance/toc.json
-                - name: Värskenduste rakendamine kohapealsetesse juurutamistesse
+                - name: Värskenduste rakendamine kohapealsetesse juurutustesse
                   href: ../fin-ops-core/dev-itpro/deployment/apply-updates-on-premises.md?toc=/dynamics365/finance/toc.json
                 - name: Teenusevärskenduste konfigureerimine
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/configure-service-updates.md?toc=/dynamics365/finance/toc.json
+                - name: Eelhooldus ja järelhooldus
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/pre-post-servicing.md?toc=/dynamics365/finance/toc.json
                 - name: Teenusevärskenduste peatamine
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/pause-service-updates.md?toc=/dynamics365/finance/toc.json
                 - name: Teenusevärskenduste kohta teadete saamine
@@ -200,7 +202,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?toc=/dynamics365/finance/toc.json
         - name: Ostureskontro
           items:
-            - name: Ostureskontro koduleht
+            - name: Ostureskontro avaleht
               href: accounts-payable/accounts-payable.md
             - name: Hankija arvete ülevaade
               href: accounts-payable/vendor-invoices-overview.md
@@ -1190,7 +1192,7 @@
                   href: general-ledger/add-change-acctg-rprtg-crrncy.md
                 - name: Pearaamatu kalendri muutmine ja ümbermääramine
                   href: general-ledger/change-mdfy-clndr-to-ledger.md
-                - name: Storno seaded töölehtedel ja ridadel
+                - name: Storno sätted töölehtedel ja ridadel
                   href: general-ledger/rvrs-settgs-on-jrnls-lines.md
                 - name: Aastalõpu sulgemisel puuduvad algsaldod
                   href: general-ledger/yec-mssng-open-blnces.md
@@ -1618,7 +1620,7 @@
                           items:
                             - name: KM-i deklaratsioon
                               href: localizations/emea-nl-vat-declaration-netherlands.md
-                            - name: EL käibearuanne
+                            - name: EL-i käibearuanne
                               href: localizations/emea-nl-eu-sales-list.md
                         - name: Norra aruandlus
                           items:
@@ -1684,6 +1686,8 @@
                       href: general-ledger/sales-tax-calculation-methods-origin-field.md
                     - name: Kogusumma ja intervalli arvutamise valikud käibemaksukoodide puhul
                       href: general-ledger/whole-amount-interval-options-sales-tax-codes.md
+                    - name: Käibemaksu arvutamine ja ümardamine
+                      href: general-ledger/sales-tax-calculation-rounding.md
                     - name: Arvutatud käibemaks üldise töölehe ridade kohta
                       href: general-ledger/sales-tax-calculation-on-general-journal.md
                     - name: Käibemaksu arvutamine ja korrigeerimine hankija arvel
@@ -1782,7 +1786,7 @@
                   href: localizations/emea-aut-purchase-duties.md
                 - name: KM-i deklaratsioon
                   href: localizations/emea-aut-vat-declaration-austria.md
-                - name: EL käibearuanne
+                - name: EL-i käibearuanne
                   href: localizations/emea-aut-eu-sales-list.md
             - name: Bahrein
               items:
@@ -1804,7 +1808,7 @@
                   href: localizations/tasks/be-00011-create-transfer-blwi.md
                 - name: Pearaamatukannete eksportimine
                   href: localizations/emea-bel-export-ledger-transactions.md
-                - name: EL käibearuanne
+                - name: EL-i käibearuanne
                   href: localizations/emea-bel-eu-sales-list.md
                 - name: INTERVAT-i maksudeklaratsioon
                   href: localizations/emea-bel-intervat-tax-declaration.md
@@ -2124,7 +2128,7 @@
                   href: localizations/tasks/create-post-free-text-invoice-public-sector-customer.md
                 - name: Projektiarve loomine ja sisestamine avaliku sektori kliendi jaoks
                   href: localizations/tasks/create-post-project-invoice-public-sector-customer.md
-                - name: EL käibearuanne
+                - name: EL-i käibearuanne
                   href: localizations/emea-dnk-eu-sales-list.md
                 - name: OIOUBL-i elektroonilise arveldamise konfiguratsioonide importimine
                   href: localizations/tasks/import-oioubl-electronic-invoicing-configurations.md
@@ -2162,12 +2166,14 @@
               items:
                 - name: Eesti ülevaade
                   href: localizations/estonia.md
-                - name: Isiklike andmete taotlused
+                - name: Isikuandmete taotlused
                   href: localizations/emea-est-personal-info.md
                 - name: KM-aruanne
                   href: localizations/emea-est-vat-statement-details.md
                 - name: Eesti Intrastat
                   href: localizations/emea-est-intrastat.md
+                - name: EL-i käibearuanne
+                  href: localizations/emea-est-eu-sales-list.md
             - name: Euroopa
               items:
                 - name: Euroopa ülevaade
@@ -2328,7 +2334,7 @@
                   href: localizations/emea-fin-intrastat.md
                 - name: KM-i deklaratsioon
                   href: localizations/emea-fin-vat-declaration.md
-                - name: EL käibearuanne
+                - name: EL-i käibearuanne
                   href: localizations/emea-fin-eu-sales-list.md
             - name: Prantsusmaa
               items:
@@ -2370,7 +2376,7 @@
                   href: localizations/tasks/fr-00018-daily-interest.md
                 - name: Erandlik kulum
                   href: localizations/emea-fra-derogatory-depreciation.md
-                - name: EL käibearuanne
+                - name: EL-i käibearuanne
                   href: localizations/emea-fra-eu-sales-list.md
                 - name: Prantsusmaa käskvekslid ja võlatähed
                   href: localizations/tasks/fr-00004-french-bills-exchange-promissory-notes.md
@@ -2430,7 +2436,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/setup-electronic-tax-declaration-germany.md?toc=/dynamics365/finance/toc.json
                 - name: Müügist tulenevate kreeditarvete jaoks eraldi sildi printimine
                   href: localizations/emea-deu-print-separate-label-credit-memo-originating-sales.md
-                - name: EL käibearuanne
+                - name: EL-i käibearuanne
                   href: localizations/emea-deu-eu-sales-list.md
             - name: Ungari
               items:
@@ -2452,6 +2458,8 @@
                   href: localizations/emea-hun-online-invoicing.md
                 - name: Ungari käibemaksuaruanded
                   href: localizations/emea-hun-sales-tax-reports.md
+                - name: Ungari Intrastat
+                  href: localizations/emea-hun-intrastat.md
                 - name: Viivitusega käibemaksu arvutused
                   href: localizations/emea-hun-deferred-vat.md
             - name: Island
@@ -3112,6 +3120,8 @@
                   href: localizations/emea-lva-vat-statement-details.md
                 - name: Läti Intrastat
                   href: localizations/emea-lva-intrastat.md
+                - name: EL-i käibearuanne
+                  href: localizations/emea-lva-eu-sales-list.md
             - name: Leedu
               items:
                 - name: Leedu ülevaade
@@ -3130,6 +3140,8 @@
                   href: localizations/emea-ltu-saf-t.md
                 - name: Ettevõttesisese kaupade liikumise ülekandedokumentide häälestus
                   href: localizations/tasks/set-up-transfer-documents-goods-movement-inside-company.md
+                - name: EL-i käibearuanne
+                  href: localizations/emea-ltu-eu-sales-list.md
             - name: Malaisia
               items:
                 - name: Malaisia ülevaade
@@ -3212,7 +3224,7 @@
                   href: localizations/emea-nl-vat-declaration-netherlands.md
                 - name: Intrastat
                   href: localizations/emea-nl-intrastat.md
-                - name: EL käibearuanne
+                - name: EL-i käibearuanne
                   href: localizations/emea-nl-EU-sales-list.md
             - name: Uus-Meremaa
               items:
@@ -3266,7 +3278,7 @@
                   href: localizations/emea-pol-correction-notes.md
                 - name: Müügiarve duplikaadi nummerdamine
                   href: localizations/emea-pol-sales-invoice-duplicates-numbering.md
-                - name: EL käibearuanne
+                - name: EL-i käibearuanne
                   href: localizations/emea-pol-eu-sales-list.md
                 - name: Põhivara kulum
                   href: localizations/emea-pol-fixed-assets-depreciation.md
@@ -3590,7 +3602,7 @@
                   href: localizations/emea-esp-conditional-sales-tax.md
                 - name: Krediitarveldus
                   href: localizations/tasks/emea-esp-credit-invoicing.md
-                - name: EL käibearuanne
+                - name: EL-i käibearuanne
                   href: localizations/emea-esp-sales-list.md
                 - name: Arvekonto finantsandmed
                   href: localizations/emea-esp-fiscal-data-invoice-account.md
@@ -3632,7 +3644,7 @@
                   href: localizations/emea-swe-VAT-declaration-Sweden.md
                 - name: Rootsi Intrastat
                   href: localizations/emea-swe-intrastat.md
-                - name: EL käibearuanne
+                - name: EL-i käibearuanne
                   href: localizations/emea-swe-eu-sales-list.md
             - name: Šveits
               items:
@@ -3710,7 +3722,7 @@
                       href: localizations/emea-gbr-mtd-vat-integration-vat100.md
                 - name: Maksete aruande statistika
                   href: localizations/emea-gbr-statistics-on-payment-practices-report.md
-                - name: EL käibearuanne
+                - name: EL-i käibearuanne
                   href: localizations/emea-uk-eu-sales-list.md
             - name: Ameerika Ühendriigid
               items:
@@ -4483,6 +4495,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/finance/toc.json
                     - name: ER-i konfiguratsioonide jõudlusprobleemide tõrkeotsing
                       href: ../fin-ops-core/dev-itpro/analytics/er-troubleshoot-perf-issues-in-configurations.md?toc=/dynamics365/finance/toc.json
+                    - name: Käitusajal toodavate tabeliväljade arvu vähendamine
+                      href: ../fin-ops-core/dev-itpro/analytics/er-reduce-fetched-fields-number.md?toc=/dynamics365/finance/toc.json
                 - name: Äridokumentide haldus (BDM)
                   items:
                     - name: BDM-i ülevaade

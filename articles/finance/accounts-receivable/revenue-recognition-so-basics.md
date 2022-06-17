@@ -1,6 +1,6 @@
 ---
 title: Müügitellimuste tulu tuvastamine
-description: Selles teemas kirjeldatakse müügitellimuste ja arvete tulu tuvastamise põhifunktsioone. Tulu tuvastamine on saadaval müügitellimuse ja selle müügitellimuse alusel loodud arve jaoks.
+description: Selles artiklis kirjeldatakse müügitellimuste ja arvete tulu tuvastamise põhifunktsioone. Tulu tuvastamine on saadaval müügitellimuse ja selle müügitellimuse alusel loodud arve jaoks.
 author: kweekley
 ms.date: 08/24/2018
 ms.topic: index-page
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 7aaa5e7c3b568400c72a1a84b5f29082579aeeae
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 5df7341160940f5c5db0dd4c5d86e4d9698d22e2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725480"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899953"
 ---
 # <a name="revenue-recognition-on-sales-orders"></a>Müügitellimuste tulu tuvastamine
 
@@ -27,10 +27,10 @@ ms.locfileid: "8725480"
 > [!NOTE]
 > Tulu tuvastamise funktsiooni ei saa funktsioonihalduse kaudu sisse lülitada. Praegu peate selle sisselülitamiseks kasutama konfiguratsioonivõtmeid.
 
-Selles teemas kirjeldatakse müügitellimuste ja arvete tulu tuvastamise põhifunktsioone. Tulu tuvastamine on saadaval müügitellimuse ja selle müügitellimuse alusel loodud arve jaoks. Müügitellimuse saab luua ka aja- ja materjalikulu projekti kaudu.
+Selles artiklis kirjeldatakse müügitellimuste ja arvete tulu tuvastamise põhifunktsioone. Tulu tuvastamine on saadaval müügitellimuse ja selle müügitellimuse alusel loodud arve jaoks. Müügitellimuse saab luua ka aja- ja materjalikulu projekti kaudu.
 
 > [!NOTE]
-> Selle teema joonistel on veerud peidetud või lisatud ruudustikele, et mõistete näitlikustamist hõlbustada. Seetõttu võivad jooniste lehed ja andmed erineda sellest, mida teie tootes näete.
+> Selle artikli joonistel on veerud peidetud või lisatud ruudustikele, et mõistete näitlikustamist hõlbustada. Seetõttu võivad jooniste lehed ja andmed erineda sellest, mida teie tootes näete.
 
 ## <a name="enter-a-sales-order"></a>Müügitellimuse sisestamine
 

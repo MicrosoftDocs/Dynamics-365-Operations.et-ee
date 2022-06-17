@@ -410,6 +410,8 @@
                       href: deployment/onprem-reverseproxy.md
                     - name: Laorakenduse konfigureerimine kohapealseteks juurutusteks
                       href: deployment/warehousing-for-on-premise-deployments.md
+                    - name: RSAT-i lubamine rakenduse Finance + Operations (on-premises) keskkondades
+                      href: deployment/onprem-rsat-configuration.md
                     - name: Võrguprinteri seadmete installimine kohapealsetesse keskkondadesse
                       href: analytics/install-network-printer-onprem.md
                     - name: Kohapealsed diagnostikad
@@ -1048,6 +1050,8 @@
                   href: lifecycle-services/dts-devops-extension.md
                 - name: Azure DevOpsi laiendi õpik (avalik eelversioon)
                   href: lifecycle-services/dts-ado-tutorial.md
+                - name: Dynamics 365 Translation Service'i Visual Studio Code'i laiendus (avalik eelversioon)
+                  href: lifecycle-services/dts-vscode-doc.md
         - name: Microsoft Power Platformi integreerimine
           items:
             - name: Ülevaade
@@ -1798,7 +1802,7 @@
                   href: migration-upgrade/compile-considerations.md
             - name: Uusimale värskendusele täiendamine (kohapealne)
               items:
-                - name: Värskenduste rakendamine kohapealsetesse juurutamistesse
+                - name: Värskenduste rakendamine kohapealsetesse juurutustesse
                   href: deployment/apply-updates-on-premises.md
                 - name: Asutusesisese juurutuse uuesti juurutamine
                   href: deployment/redeploy-on-prem.md

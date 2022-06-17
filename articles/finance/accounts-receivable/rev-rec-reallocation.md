@@ -1,6 +1,6 @@
 ---
 title: Tulu tuvastamise ümberjaotamine
-description: Selles teemas kirjeldatakse ümberjaotamist, mis võimaldab organisatsioonidel müügilepingute tingimuste muutumisel tulu hindu ümber arvutada. See sisaldab linke teistele teemadele, milles kirjeldatakse tulu tuvastamist erinevates stsenaariumites.
+description: Selles artiklis kirjeldatakse ümberjaotamist, mis võimaldab organisatsioonidel müügilepingute tingimuste muutumisel tulu hindu ümber arvutada. See sisaldab linke teistele teemadele, milles kirjeldatakse tulu tuvastamist erinevates stsenaariumites.
 author: kweekley
 ms.date: 09/09/2021
 ms.topic: index-page
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 7528202ed140dc2c0a7fc8c595178f155c3c1f75
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: a79288fd69a2e7780ff03952b05b99db2ed88e41
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726123"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903416"
 ---
 # <a name="revenue-recognition-reallocation"></a>Tulu tuvastamise ümberjaotamine
 
@@ -58,7 +58,7 @@ Teie organisatsioon peab ise otsustama, kas ümberjaotamine on vajalik. Uue rea 
 
 Kuna ümberjaotamist saab teha müügitellimusel, mis on osaliselt või täielikult arveldatud, tuleb kõik arve varasemad raamatupidamiskirjed korrigeerida uute, ümberjaotatud tulu hindade alusel. Selliseks korrigeerimiseks tühistatakse algse arve raamatupidamiskirje ja sisestatakse uus, ümberjaotatud tulu hindadel põhinev raamatupidamiskirje.
 
-Iga organisatsioon peab ise otsustama, kas korrigeerimisega uuendatakse ainult pearaamatut või ka müügireskontrot. Langetatav otsus määrab, milline on lehe **Pearaamatu parameetrid** vahekaardi **Tulu tuvastamine** suvandi **Arvete korrigeerimiste sisestamine müügireskontrole ümberjaotamisel** kohane säte (**Tulu tuvastamine \> Häälestamine \> Pearaamatu parameetrid**). Kohane säte sõltub konkreetsest stsenaariumist. Lisateavet võimalike stsenaariumite kohta leiate käesolevas teemas allpool jaotises [Ümberjaotamise stsenaariumid](#scenarios-for-reallocation) olevate linkide kaudu.
+Iga organisatsioon peab ise otsustama, kas korrigeerimisega uuendatakse ainult pearaamatut või ka müügireskontrot. Langetatav otsus määrab, milline on lehe **Pearaamatu parameetrid** vahekaardi **Tulu tuvastamine** suvandi **Arvete korrigeerimiste sisestamine müügireskontrole ümberjaotamisel** kohane säte (**Tulu tuvastamine \> Häälestamine \> Pearaamatu parameetrid**). Kohane säte sõltub konkreetsest stsenaariumist. Lisateavet võimalike stsenaariumite kohta leiate käesolevas artiklis allpool jaotises [Ümberjaotamise stsenaariumid](#scenarios-for-reallocation) olevate linkide kaudu.
 
 [![Tulu tuvastamise vahekaart pearaamatu parameetrite lehel.](./media/01_RevRecScenarios.png)](./media/01_RevRecScenarios.png)
 
@@ -90,7 +90,7 @@ Nagu eelnevalt mainitud, saate kas uuendada ainult pearaamatut või uuendada nii
 
 [![Leht Hinna ümberjaotamine uute tellimuse ridadega.](./media/02_RevRecScenarios.png)](./media/02_RevRecScenarios.png)
 
-Lehe **Hinna ümberjaotamine uute tellimuse ridadega** ülemise ruudustiku nimi on **Müük**. Selles loetletakse kliendi müügitellimused. Valige müügitellimused, mis tuleb ümber jaotada. Kui müügitellimusel on ümberjaotamise ID, on teine kasutaja selle juba ümberjaotamisele märkinud. Kui üks või mitu müügitellimust on eelnevalt ümber jaotatud ja tuleb kaasata teise ümberjaotusse, tuleb nende müügitellimuste ümberjaotamine esmalt tagasi võtta. Seejärel saab selle kaasata uude ümberjaotamisse. Lisateavet lugege selle teema jaotistest [Ümberjaotamise tagasivõtmine](#undo-a-reallocation) ja [Mitmekordne ümberjaotamine](#reallocate-multiple-times).
+Lehe **Hinna ümberjaotamine uute tellimuse ridadega** ülemise ruudustiku nimi on **Müük**. Selles loetletakse kliendi müügitellimused. Valige müügitellimused, mis tuleb ümber jaotada. Kui müügitellimusel on ümberjaotamise ID, on teine kasutaja selle juba ümberjaotamisele märkinud. Kui üks või mitu müügitellimust on eelnevalt ümber jaotatud ja tuleb kaasata teise ümberjaotusse, tuleb nende müügitellimuste ümberjaotamine esmalt tagasi võtta. Seejärel saab selle kaasata uude ümberjaotamisse. Lisateavet lugege selle artikli jaotistest [Ümberjaotamise tagasivõtmine](#undo-a-reallocation) ja [Mitmekordne ümberjaotamine](#reallocate-multiple-times).
 
 Lehe alumise ruudustiku nimi on **Read**. Pärast ühe või mitme müügitellimuse valimist ruudustikul **Müük** kuvatakse ruudustikul **Read** müügitellimuse read. Valige müügitellimuse read, mis tuleb ümber jaotada. Kui valisite ainult ühe müügitellimuse, tuleb sama müügitellimuse read ümber jaotada. Selline olukord võib tekkida, kui üks müügitellimuse ridadest oli eelnevalt arveldatud ja seejärel lisati uus rida või olemasolev rida eemaldati või tühistati. Kui rida eemaldati, siis seda ruudustikus ei kuvata. Seetõttu ei saa seda valida. Kuid ümberjaotamise protsessi käivitamisel võetakse see siiski arvesse.
 

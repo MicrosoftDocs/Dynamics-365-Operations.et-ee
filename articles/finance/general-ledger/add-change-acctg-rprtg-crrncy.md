@@ -1,6 +1,6 @@
 ---
 title: Arvestus- või aruandlusvaluuta muutmine
-description: Selles teemas selgitatakse, kuidas muuta arvestus- või aruandlusvaluutat või lisada aruandlusvaluuta pearaamatu seadistusse.
+description: Selles artiklis selgitatakse, kuidas muuta arvestus- või aruandlusvaluutat või lisada aruandlusvaluuta pearaamatu seadistusse.
 author: kweekley
 ms.date: 05/05/2021
 ms.topic: index-page
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-05-05
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: ff5c38193e8469cb806c525b77809844847d6c92
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: b02432c8e0bdf52c2a588f67a581b78e682b1bf8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710886"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904610"
 ---
 # <a name="change-the-accounting-or-reporting-currency"></a>Arvestus- või aruandlusvaluuta muutmine
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas selgitatakse, kuidas muuta arvestus- või aruandlusvaluutat või lisada aruandlusvaluuta pearaamatu seadistusse.
+Selles artiklis selgitatakse, kuidas muuta arvestus- või aruandlusvaluutat või lisada aruandlusvaluuta pearaamatu seadistusse.
 
 ## <a name="symptom"></a>Sümptom
 
@@ -73,7 +73,7 @@ Järgige neid etappe, et kopeerida seadistus- ja koondandmed praegusest juriidil
 10. Valige alal **Valitud üksused** käsk **Lisa mall**.
 11. Valige kasutatavad mallid. Uue juriidilise isiku jaoks soovitatavate mallide hulgas on **025 – Pearaamat** ja **Finantsid**. Soovitame teil üle vaadata kõik muud saadaolevad mallid, et teha kindlaks, kas mõni neist vastab teie nõuetele.
 12. Valige **Juriidilisse isikusse kopeerimine** pakktöötluse alustamiseks, millega luuakse valitud üksused ja kopeeritakse need juriidilisse sihtisikusse.
-13. Pärast töötluse lõpule viimist, kuid enne mis tahes kande sisestamist, avage pearaamat ja uuendage arvestus- ja aruandlusvaluutasid käesolevas teemas eespool kirjeldatud viisil.
+13. Pärast töötluse lõpuleviimist, kuid enne mis tahes kande sisestamist, avage pearaamat ja uuendage arvestus- ja aruandlusvaluutasid käesolevas artiklis eespool kirjeldatud viisil.
 
 Kui lõite uue juriidilise isiku, et saaksite muuta arvestus- või aruandlusvaluutat, veenduge, et vana juriidilise isiku valuutades algsaldod teisendatakse uutesse valuutadesse.
 

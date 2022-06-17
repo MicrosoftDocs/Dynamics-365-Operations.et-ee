@@ -1,6 +1,6 @@
 ---
 title: Tulu tuvastamise kogumid
-description: Selles teemas kirjeldatakse müügireskontro tulu tuvastamise võimekuse kogumifunktsiooni. Kogum sisaldab emakaupa ja mitut koostiskaupa.
+description: Selles artiklis kirjeldatakse müügireskontro tulu tuvastamise võimaluse kogumifunktsiooni. Kogum sisaldab emakaupa ja mitut koostiskaupa.
 author: kweekley
 ms.date: 01/04/2021
 ms.topic: index-page
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-01-04
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 62a4d7f36ad0b36edeaec75e9b670e2aad143703
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 478fdfc69514fba829deb63b4e2904ff3fe1e199
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725815"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876292"
 ---
 # <a name="revenue-recognition-bundles"></a>Tulu tuvastamise kogumid
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas kirjeldatakse müügireskontro tulu tuvastamise võimekuse kogumifunktsiooni. Kogum sisaldab emakaupa ja mitut koostiskaupa. Emakaup sisestatakse müügitellimusele, et tellimuse kirje oleks tõhusam. Kuid seejärel jaotatakse see koostiskaupadeks. Sisedokumentides, nt saatelehel, loetletakse koostiskaubad. Kuid välisdokumentides näidatakse ainult emakaup.
+Selles artiklis kirjeldatakse müügireskontro tulu tuvastamise võimaluse kogumifunktsiooni. Kogum sisaldab emakaupa ja mitut koostiskaupa. Emakaup sisestatakse müügitellimusele, et tellimuse kirje oleks tõhusam. Kuid seejärel jaotatakse see koostiskaupadeks. Sisedokumentides, nt saatelehel, loetletakse koostiskaubad. Kuid välisdokumentides näidatakse ainult emakaup.
 
 > [!NOTE]
 > Microsoft Dynamics 365 Commerce'i kanalid, nt veeb, kassa (POS) ja kõnekeskused, ei toeta tulu tuvastamist (sh kogumifunktsiooni). See hõlmab Dynamics 365 Supply Chain Managementi ja Dynamics 365 Salesi lahendust Potentsiaalne klient sularahaks. Tulu tuvastamiseks konfigureeritud kaupu ei tohiks lisada tellimustele või kannetele, mis on loodud Commerce'i kanalites või lahenduses Potentsiaalne klient sularahaks.

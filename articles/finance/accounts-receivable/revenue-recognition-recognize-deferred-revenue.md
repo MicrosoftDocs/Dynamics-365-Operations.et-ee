@@ -1,6 +1,6 @@
 ---
 title: Edasilükkunud tulu tuvastamine
-description: Sellest teemast leiate teavet tulu tuvastamise kohta tulu tuvastamise funktsiooni abil.
+description: Sellest artiklist leiate teavet tulu tuvastamise kohta tulu tuvastamise funktsiooni abil.
 author: kweekley
 ms.date: 08/24/2018
 ms.topic: index-page
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 42e9aa20eb6f4a1c14f83c5a18a4699489a932a3
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 638e56c9bbbe0b377e804aa2ff55ffe4eded21f4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725928"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902540"
 ---
 # <a name="recognize-deferred-revenue"></a>Edasilükkunud tulu tuvastamine
 
@@ -27,7 +27,7 @@ ms.locfileid: "8725928"
 > [!NOTE]
 > Tulu tuvastamise funktsiooni ei saa funktsioonihalduse kaudu sisse lülitada. Praegu peate selle sisselülitamiseks kasutama konfiguratsioonivõtmeid.
 
-Selles teemas kirjeldatakse tulu tuvastamise protsessi tulu tuvastamise graafikuga. Pärast müügitellimuse arve sisestamist luuakse iga tulugraafikuga müügitellimuse rea jaoks tulu tuvastamise graafik. Real olevat tulugraafikut kasutatakse selleks, et määrata, kas rea tulu tuleks edasi lükata.
+Selles artiklis kirjeldatakse tulu tuvastamise protsessi tulu tuvastamise graafikuga. Pärast müügitellimuse arve sisestamist luuakse iga tulugraafikuga müügitellimuse rea jaoks tulu tuvastamise graafik. Real olevat tulugraafikut kasutatakse selleks, et määrata, kas rea tulu tuleks edasi lükata.
 
 ## <a name="view-revenue-recognition-schedule-details"></a>Tulu tuvastamise graafiku üksikasjade kuvamine
 

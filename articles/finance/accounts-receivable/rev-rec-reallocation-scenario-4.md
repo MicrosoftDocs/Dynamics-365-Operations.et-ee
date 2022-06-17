@@ -1,6 +1,6 @@
 ---
 title: Tulu tuvastamise ümberjaotamine – 4. stsenaarium
-description: Selles teemas tutvustatakse ümberjaotamise stsenaariumi, kus olemasolevast, osaliselt arveldatud müügitellimusest eemaldatakse rida. See stsenaarium annab ühesuguse tulemuse olenemata sellest, kas rida eemaldatakse müügitellimusest või määratakse tühistatud olekusse.
+description: Selles artiklis tutvustatakse ümberjaotamise stsenaariumi, kus olemasolevast, osaliselt arveldatud müügitellimusest eemaldatakse rida. See stsenaarium annab ühesuguse tulemuse olenemata sellest, kas rida eemaldatakse müügitellimusest või määratakse tühistatud olekusse.
 author: kweekley
 ms.date: 12/21/2020
 ms.topic: index-page
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 7d37877e914856baf5e5e38871f5b0b1c1eff526
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 06e6322ff55259b5c59d570b73199591ab46c767
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725731"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891662"
 ---
 # <a name="revenue-recognition-reallocation--scenario-4"></a>Tulu tuvastamise ümberjaotamine – 4. stsenaarium
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas tutvustatakse ümberjaotamise stsenaariumi, kus olemasolevast, osaliselt arveldatud müügitellimusest eemaldatakse rida. See stsenaarium annab ühesuguse tulemuse olenemata sellest, kas rida eemaldatakse müügitellimusest või määratakse tühistatud olekusse.
+Selles artiklis tutvustatakse ümberjaotamise stsenaariumi, kus olemasolevast, osaliselt arveldatud müügitellimusest eemaldatakse rida. See stsenaarium annab ühesuguse tulemuse olenemata sellest, kas rida eemaldatakse müügitellimusest või määratakse tühistatud olekusse.
 
 Selles stsenaariumis määratakse lehe **Pearaamatu parameetrid** vahekaardi **Tulu tuvastamine** suvand **Arvete korrigeerimiste sisestamine müügireskontrole** olekusse **Ei** (**Tulu tuvastamine \> Häälestamine \> Pearaamatu parameetrid**).
 

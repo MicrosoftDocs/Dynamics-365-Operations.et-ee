@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 649cd6ae78ef4922054f6c767255b5a1fc38b793b0bd1fd49943d4946d8025a9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 06c4c2baba00ffb074fce7bb68fd9dfc91714c4d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772298"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899143"
 ---
 > [!IMPORTANT]
-> Mõni selles teemas kirjeldatud täiustus on saadaval ainult neile kasutajatele, kes on tellinud platvormivärskendused programmi Continuous Auto-update Advantage Program (CAAP) kaudu. Lisateavet standardsete ja kindlatele kasutajatele suunatud väljaannete kohta leiate teemast [Standardsete ja suunatud väljaannete platvormiväljaanded](../../get-started/public-preview-releases.md).
+> Mõni selles artiklis kirjeldatud täiustus on saadaval ainult neile kasutajatele, kes on tellinud platvormivärskendused programmi Continuous Auto-update Advantage Program (CAAP) kaudu. Lisateavet standardsete ja kindlatele kasutajatele suunatud väljaannete kohta leiate teemast [Standardsete ja suunatud väljaannete platvormiväljaanded](../../get-started/public-preview-releases.md).

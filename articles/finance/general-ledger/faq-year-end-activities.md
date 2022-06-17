@@ -1,6 +1,6 @@
 ---
 title: Aastalõpu tegevuste KKK
-description: Selles teemas esitletakse küsimusi, mis võivad tekkida rahandusaasta sulgemisel, ja vastuseid, mis võivad aidata aasta lõpu sulgemistegevuste puhul.
+description: Selles artiklis esitletakse küsimusi, mis võivad tekkida rahandusaasta sulgemisel, ja vastuseid, mis võivad aidata aasta lõpu sulgemistegevuste puhul.
 author: moaamer
 ms.date: 12/21/2021
 ms.topic: index-page
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 19d23c2c5a8fabd6799c6240c25f3ede4064c001
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 1c5aca6180821dfc9fd1d475d4726c82acdf4d78
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725592"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865736"
 ---
 # <a name="year-end-activities-faq"></a>Aastalõpu tegevuste KKK 
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas esitletakse küsimusi, mis võivad tekkida rahandusaasta sulgemisel, ja vastuseid, mis võivad aidata aasta lõpu sulgemistegevuste puhul. Selle teema teave keskendub põhiliselt pearaamatu ja ostureskontro rahandusaasta sulgemistegevustele.
+Selles artiklis esitletakse küsimusi, mis võivad tekkida rahandusaasta sulgemisel, ja vastuseid, mis võivad aidata aasta lõpu sulgemistegevuste puhul. Selle artikli teave keskendub põhiliselt pearaamatu ja ostureskontro rahandusaasta sulgemistegevustele.
 
 ## <a name="general-ledger-year-end-enhancements"></a>Pearaamatu aastalõpu täiustused 
 Versioonis 10.0.20 avaldati aastalõpu sulgemise täiustus, mis lubatakse vaikimisi alates versioonist 10.0.25. Kui teie organisatsioon kasutab varasemat versiooni kui 10.0.25, soovitame lubada selle funktsiooni enne aastalõpu sulgemistoimingute alustamist. Enne selle funktsiooni kasutamist peate selle oma süsteemis sisse lülitama. Administraatorid saavad kasutada funktsioonihalduse tööruumi, et kontrollida funktsiooni olekut ja vajadusel selle sisse lülitada. Seega on funktsioon loetletud järgmisel viisil.
@@ -75,7 +75,7 @@ Mittevajalikud dimensioonikogumid mõjutavad ka pakett-tööd **BudgetDimensionF
 [![Finantsdimensioonikomplektid.](./media/faq-2020-yr-end-04.png)](./media/faq-2020-yr-end-04.png)
 
 ### <a name="year-end-close-template-configuration"></a>Aastalõpu sulgemise malli konfigureerimine
-Aastalõpu sulgemise mall võimaldab organisatsioonil valida finantsdimensiooni taseme, mida hoitakse kasumi- ja kahjumisaldode ülekandmisel jaotamata kasumisse. Sätted võimaldavad organisatsioonil saldode jaotamata kasumisse teisaldamisel hoida alles üksikasjalikke finantsdimensioone (**Sule kõik**) või summeerida summad ühele dimensiooniväärtusele (**Sule üks**). Selle saab määratleda iga finantsdimensiooni jaoks. Lisateavet nende sätete kohta vt teemast [Aastalõpu sulgemine](year-end-close.md).
+Aastalõpu sulgemise mall võimaldab organisatsioonil valida finantsdimensiooni taseme, mida hoitakse kasumi- ja kahjumisaldode ülekandmisel jaotamata kasumisse. Sätted võimaldavad organisatsioonil saldode jaotamata kasumisse teisaldamisel hoida alles üksikasjalikke finantsdimensioone (**Sule kõik**) või summeerida summad ühele dimensiooniväärtusele (**Sule üks**). Selle saab määratleda iga finantsdimensiooni jaoks. Lisateavet nende sätete kohta vt artiklist [Aastalõpu sulgemine](year-end-close.md).
 
 Soovitame teil hinnata oma organisatsiooni vajadusi ja jõudluse täiustamiseks sulgeda võimaluse korral nii palju dimensioone kui võimalik, kasutades aastalõpu suvandit **Sule üks**. Sulgedes ühele dimensiooniväärtusele (mis võib olla ka tühi väärtus), arvutab süsteem jaotamata kasumi konto kirjete saldode määratlemisel vähem üksikasju.
 

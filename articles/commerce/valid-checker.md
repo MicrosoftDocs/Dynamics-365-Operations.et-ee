@@ -1,6 +1,6 @@
 ---
 title: Kaupluse kannete kinnitamine väljavõtte arvutamiseks
-description: Selles teemas kirjeldatakse kaupluse kannete kinnitamist Microsoft Dynamics 365 Commerce'is.
+description: Selles artiklis kirjeldatakse kaupluse kannete kinnitamist Microsoft Dynamics 365 Commerce'is.
 author: analpert
 ms.date: 01/31/2022
 ms.topic: index-page
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: analpert
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: f51b1f39aa212fe8587761721194db7791bec5bc
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.openlocfilehash: 4be40189777a37495f185467050b61af47b684d7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087445"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890509"
 ---
 # <a name="validate-store-transactions-for-statement-calculation"></a>Kaupluse kannete kinnitamine väljavõtte arvutamiseks
 
 [!include [banner](includes/banner.md)]
 
-Selles teemas kirjeldatakse kaupluse kannete kinnitamist Microsoft Dynamics 365 Commerce'is. Kinnitamisprotsess tuvastab ja märgib kanded, mis põhjustavad sisestustõrkeid, enne kui väljavõtte sisestusprotsess need tuvastab.
+Selles artiklis kirjeldatakse kaupluse kannete kinnitamist Microsoft Dynamics 365 Commerce'is. Kinnitamisprotsess tuvastab ja märgib kanded, mis põhjustavad sisestustõrkeid, enne kui väljavõtte sisestusprotsess need tuvastab.
 
 Kui proovite väljavõtet sisestada, võib kinnitamisprotsess kaubanduse kannete tabelites olevate andmete vastuolu tõttu nurjuda. Järgnevalt on toodud mõned näidistegurid, mis võivad põhjustada neid vastuolusid.
 

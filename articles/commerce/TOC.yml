@@ -54,10 +54,12 @@
                   href: ../fin-ops-core/fin-ops/get-started/public-preview-releases.md?toc=/dynamics365/commerce/toc.json
                 - name: Värskenduste rakendamine pilvekeskkondadele
                   href: ../fin-ops-core/dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/commerce/toc.json
-                - name: Värskenduste rakendamine kohapealsetesse juurutamistesse
+                - name: Värskenduste rakendamine kohapealsetesse juurutustesse
                   href: ../fin-ops-core/dev-itpro/deployment/apply-updates-on-premises.md?toc=/dynamics365/commerce/toc.json
                 - name: Teenusevärskenduste konfigureerimine
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/configure-service-updates.md?toc=/dynamics365/commerce/toc.json
+                - name: Eelhooldus ja järelhooldus
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/pre-post-servicing.md?toc=/dynamics365/commerce/toc.json
                 - name: Teenusevärskenduste peatamine
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/pause-service-updates.md?toc=/dynamics365/commerce/toc.json
                 - name: Teenusevärskenduste kohta teadete saamine
@@ -394,6 +396,8 @@
                   items:
                     - name: Rakendus Store Commerce
                       href: dev-itpro/store-commerce.md
+                    - name: Modern POS-i migreerimine Store Commerce'i
+                      href: dev-itpro/pos-extension/migrate-mpos-store-commerce.md
                     - name: Seadmehalduse juurutamise juhised
                       href: implementation-considerations-devices.md
                     - name: Store Commerce'i ja Cloud POS-i vahel valimine
@@ -2222,6 +2226,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/commerce/toc.json
                     - name: ER-i konfiguratsioonide jõudlusprobleemide tõrkeotsing
                       href: ../fin-ops-core/dev-itpro/analytics/er-troubleshoot-perf-issues-in-configurations.md?toc=/dynamics365/commerce/toc.json
+                    - name: Käitusajal toodavate tabeliväljade arvu vähendamine
+                      href: ../fin-ops-core/dev-itpro/analytics/er-reduce-fetched-fields-number.md?toc=/dynamics365/commerce/toc.json
                 - name: Äridokumentide haldus (BDM)
                   items:
                     - name: BDM-i ülevaade
@@ -2476,6 +2482,8 @@
                       href: dev-itpro/retail-sdk/sdk-github.md
                     - name: Retail SDK pärandi migratsioon
                       href: dev-itpro/retail-sdk/migrate-commerce-sdk.md
+                    - name: 'Aegunud ja eemaldatud API-d, klassid ja meetodid'
+                      href: dev-itpro/obsolete-apis-classes-methods.md
                     - name: Commerce'i kauplusesisese tehnoloogiapinu kaasajastamine (tehniline ülevaade)
                       href: 'https://www.microsoft.com/download/details.aspx?id=103896'
                 - name: Keskkonna häälestus
@@ -2560,6 +2568,8 @@
                   items:
                     - name: Cloud Scale Uniti laienduspaketi loomine
                       href: dev-itpro/CSU-packaging.md
+                    - name: Cloud Scale Unit laienduspakettide ühendamine juurutamiseks
+                      href: dev-itpro/merge-csu-extensions.md
                     - name: Cloud Scale Uniti laienduste eemaldamine
                       href: dev-itpro/retail-sdk/remove-csu-package.md
             - name: Store Commerce
@@ -2908,9 +2918,17 @@
                       href: dev-itpro/create-retail-experience-app.md
         - name: Tõrkeotsing
           items:
+            - name: Store Commerce
+              items:
+                - name: Häälestus- ja installimisprobleemid
+                  href: troubleshoot/store-commerce-setup-installation.md
+                - name: Jõudlusprobleemid
+                  href: troubleshoot/store-commerce-performance.md
+                - name: Laienduse probleemid
+                  href: troubleshoot/store-commerce-extensions.md
             - name: Tellimuse töötlemine
               items:
-                - name: Makse tüüp peab olema krediitkaardi tõrge
+                - name: Tõrge Makse tüüp peab olema krediitkaart
                   href: troubleshoot/payment-type-credit-card-error.md
                 - name: Võrgutellimuste maksud on valesti arvutatud
                   href: troubleshoot/tax-miscalculated-online-order.md

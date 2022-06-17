@@ -1,6 +1,6 @@
 ---
 title: Partii jälgimisega kaupade täiustatud käsitlemine
-description: Selles teemas kirjeldatakse väljavõtete sisestuse käigus tehtud partii jälgimisega kaupade täiustustatud käsitlemist teenuses Microsoft Dynamics 365 Commerce.
+description: Selles artiklis kirjeldatakse väljavõtete sisestuse käigus tehtud partii jälgimisega kaupade täiustustatud käsitlemist teenuses Microsoft Dynamics 365 Commerce.
 author: josaw1
 ms.date: 09/09/2021
 ms.topic: index-page
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-05-28
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 513b6ca84fa71e851a5a3e4275e0b6572789e1eb
-ms.sourcegitcommit: a73df4ddc7f8ddc9e37269c0236dc1bb9b7c7966
+ms.openlocfilehash: 736ab8dd21f04d7119cca6d53bfeb5e408b8cbd2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "7485779"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881874"
 ---
 # <a name="improved-handling-of-batch-tracked-items"></a>Partii jälgimisega kaupade täiustatud käsitlemine
 
 [!include [banner](includes/banner.md)]
 
-Selles teemas kirjeldatakse väljavõtete sisestuse käigus tehtud partii jälgimisega kaupade täiustustatud käsitlemist teenuses Microsoft Dynamics 365 Commerce.
+Selles artiklis kirjeldatakse väljavõtete sisestuse käigus tehtud partii jälgimisega kaupade täiustustatud käsitlemist teenuses Microsoft Dynamics 365 Commerce.
 
 Dynamics 365 Commerce'i kassas (POS) ei saa partiinumbreid partii jälgimisega kaupade puhul müügi hetkel jäädvustada. Kui müügiandmed sisestatakse Commerce'i peakontoris klienditellimuste või väljavõtete sisestuse käigus, siis eeldab Commerce teatud konfiguratsioonide korral, et partii jälgimisega kaupade jaoks on olemas sobivad partiinumbrid ja neid kasutatakse arveldusprotsessis.
 

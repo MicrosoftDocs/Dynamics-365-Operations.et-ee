@@ -1,6 +1,6 @@
 ---
 title: Supply Chain Managementi avaleht
-description: Sel lehel on teenuse Supply Chain Management funktsioonide spikriteemade ja muude ressursside loend.
+description: Sel lehel on teenuse Supply Chain Management funktsioonide spikriartiklite ja muude ressursside loend.
 author: kamaybac
 ms.date: 09/15/2021
 ms.topic: index-page
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9ae75f33d96261691eee52c963a1f1f00c75b0de
-ms.sourcegitcommit: 220101d2511a3164572226294ef090a43a1e6cdd
+ms.openlocfilehash: 189239ad6142af200e41cfe9cfcdbb56be65b0b7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "8789208"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879072"
 ---
 # <a name="supply-chain-management-home-page"></a>Supply Chain Managementi avaleht
 
 [!include [banner](includes/banner.md)]
 
-Selles teemas on teenuse Dynamics 365 Supply Chain Management spikriteemade ja muude ressursside loend.
+Selles artiklis on teenuse Dynamics 365 Supply Chain Management spikriartiklite ja muude ressursside loend.
 
 ## <a name="whats-new-and-in-development"></a>Mis on uut ja mis on arendamisel?
 
@@ -93,7 +93,7 @@ Järgmised tehnilise konverentsi salvestised arutlevad tarneahela halduse funkts
 
 ## <a name="blogs"></a>Ajaveebid
 
-[Dynamics AX-i tootmise uurimis- ja arendustöörühma ajaveebist](/archive/blogs/axmfg/) ja [Dynamics AX-i Supply Chain Managementi uurimis- ja arendustöörühma ajaveebist](https://blogs.msdn.microsoft.com/dynamicsaxscm/) leiate palju teemasid tootmise ja tarneahela juhtimise kohta. Enamik neist on kirjutatud eelmise versiooni jaoks, kuid samad mõisted kehtivad sellegipoolest ja protseduurid on praeguses versioonis sarnased.
+[Dynamics AX-i tootmise uurimis- ja arendustöörühma ajaveebist](/archive/blogs/axmfg/) ja [Dynamics AX-i Supply Chain Managementi uurimis- ja arendustöörühma ajaveebist](https://blogs.msdn.microsoft.com/dynamicsaxscm/) leiate palju artikleid tootmise ja tarneahela juhtimise kohta. Enamik neist on kirjutatud eelmise versiooni jaoks, kuid samad mõisted kehtivad sellegipoolest ja protseduurid on praeguses versioonis sarnased.
 
 ## <a name="white-papers"></a>Tehniline ülevaade
 

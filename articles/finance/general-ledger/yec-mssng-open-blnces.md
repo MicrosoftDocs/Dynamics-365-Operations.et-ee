@@ -1,6 +1,6 @@
 ---
 title: Aastalõpu sulgemisel puuduvad algsaldod
-description: Selles teemas selgitatakse, miks algsaldod võivad aasta sulgemisel puududa ja kuidas neid saldosid taastada, kui need puuduvad.
+description: Selles artiklis selgitatakse, miks algsaldod võivad aasta sulgemisel puududa ja kuidas neid saldosid taastada, kui need puuduvad.
 author: kweekley
 ms.date: 05/12/2021
 ms.topic: index-page
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 582363ba6c5f6e63e695d41e73ee2f0b382cf26e
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 9b64118fc3ff368e21ea8935c1e706f2161c620f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727168"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894844"
 ---
 # <a name="year-end-close-missing-opening-balances"></a>Aastalõpu sulgemisel puuduvad algsaldod
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas selgitatakse, miks algsaldod võivad aasta sulgemisel puududa ja kuidas neid saldosid taastada, kui need puuduvad.
+Selles artiklis selgitatakse, miks algsaldod võivad aasta sulgemisel puududa ja kuidas neid saldosid taastada, kui need puuduvad.
 
 ### <a name="symptom"></a>Sümptom
 
@@ -36,7 +36,7 @@ Kui olete pearaamatus aasta sulgenud ja seejärel loonud proovibilansi, mis ei n
 
 Kui välja **Eelmise sulgemise tagasivõtmine** väärtuseks on määratud **Jah**, siis eelmine sama finantsaasta aastalõpu sulgemine tühistatakse. Aastalõpu sulgemise tühistamisprotsessi käigus kustutatakse kõik sulgemissaldo ja algsaldo kirjed, justkui aastat ei oleks kunagi suletud. Kanded kustutatakse samuti. Aastalõpu sulgemise protsessi ei käivitata automaatselt uuesti. Peate ise protsessi uuesti käivitama, seades valiku **Eelmise sulgemise tagasivõtmine** olekuks nüüd **Ei**.
 
-Seda stsenaariumit käsitletakse aastalõpu sulgemise KKK teemas. Lisateavet leiate artiklist [Aastalõpu tegevuste KKK](faq-year-end-activities.md).
+Seda stsenaariumit käsitletakse aastalõpu sulgemise KKK artiklis. Lisateavet leiate artiklist [Aastalõpu tegevuste KKK](faq-year-end-activities.md).
 
 ### <a name="symptom"></a>Sümptom
 
