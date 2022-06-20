@@ -1,6 +1,6 @@
 ---
-title: ER-i andmemudelite parameetritega seotud kutsete tugi
-description: See teema kirjeldab, kuidas rakendada elektroonilise aruandluse (ER) andmemudelite parameetriga esitatud kutseid.
+title: ER-andmemudelite parametriseeritud kutsete toetamine
+description: See artikkel selgitab, kuidas rakendada elektroonilise aruandluse (ER) andmemudelite parameetriga esitatud kutseid.
 author: NickSelin
 ms.date: 03/14/2022
 ms.topic: article
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-10-01
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 968b0769607e9fdbed57c25b727ed44988a92913
-ms.sourcegitcommit: 399d0d3f8e2ebb81b6b9d640365ebe182690bab2
+ms.openlocfilehash: 65ac81e9aa25b286640fd526e71b55de3b0695ca
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/15/2022
-ms.locfileid: "8419512"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884253"
 ---
-# <a name="support-parameterized-calls-of-er-data-models"></a>ER-i andmemudelite parameetritega seotud kutsete tugi
+# <a name="support-parameterized-calls-of-er-data-models"></a>ER-andmemudelite parametriseeritud kutsete toetamine
 
 [!include [banner](../includes/banner.md)]
 
@@ -42,31 +42,31 @@ Eelnevalt ei saanud neid mudeli vastendamise kutseid parameetereerida, et teha n
 <tr align="center">
 <td>
 <b>Vorming</b><br>
-Vormindaelement&nbsp;<br>
+Vorminda element&nbsp;<br>
 &nbsp;
 </td>
 <td>
 <i>Sidumine</i><br>
-&gt;&nbsp; Taotluse&nbsp;&gt;<br>
+&gt;&nbsp;taotlus&nbsp;&gt;<br>
 &lt;&nbsp;väärtus&nbsp;&lt;
 </td>
-<td><b>Vormindamine&nbsp;</b><br>
+<td><b>Vormingu vastendamine&nbsp;</b><br>
 Andmeallikas<br>
 &nbsp;
 </td>
 <td>
-<i>andmemudel&nbsp;</i><br>
-&gt;&nbsp; Taotluse&nbsp;&gt;<br>
+<i>Andmemudel&nbsp;</i><br>
+&gt;&nbsp;taotlus&nbsp;&gt;<br>
 &lt;&nbsp;väärtus&nbsp;&lt;
 </td>
 <td>
-<b>Modelmapping&nbsp;</b><br>
+<b>Mudeli vastendamine</b><br>
 Andmeallikas&nbsp;<br>
 &nbsp;
 </td>
 <td>
 <i>Sidumine</i><br>
-&gt;&nbsp; Taotluse&nbsp;&gt;<br>
+&gt;&nbsp;taotlus&nbsp;&gt;<br>
 &lt;&nbsp;väärtus&nbsp;&lt;
 </td>
 <td>
@@ -85,9 +85,9 @@ Versioonis 10.0.15 ja uuemates versioonides saate konfigureerida andmemudeli vä
 <tr align="center">
 <td>
 <b>Vorming</b><br>
-Vormingelement1&nbsp;&nbsp;<br>
+Vorminda&nbsp; element&nbsp; 1<br>
 <br>
-Vormingelement2&nbsp;&nbsp;<br>
+Vorminda&nbsp; element&nbsp; 2<br>
 &nbsp;<br>
 &nbsp;
 </td>
@@ -96,11 +96,11 @@ Vormingelement2&nbsp;&nbsp;<br>
 &gt;&nbsp; taotlus&nbsp; 1&nbsp;&gt;<br>
 &lt;&nbsp; väärtus&nbsp; 1&nbsp;&lt;<br>
 &gt;&nbsp; taotlus&nbsp; 2&nbsp;&gt;<br>
-&lt;&nbsp; väärtus3&nbsp;&nbsp;&lt;<br>
+&lt;&nbsp; väärtus&nbsp; 3&nbsp;&lt;<br>
 &nbsp;
 </td>
 <td>
-<b>Formatmapping&nbsp;</b><br>
+<b>Format&nbsp; vastendamine</b><br>
 Andmeallikas&nbsp;&nbsp; 1<br>
 &nbsp;<br>
 <b>value2=Func(väärtus1)</b><br>
@@ -108,15 +108,15 @@ Andmeallikas&nbsp;&nbsp; 1<br>
 &nbsp;
 </td>
 <td>
-<i>andmemudel&nbsp;</i><br>
+<i>Andmemudel&nbsp;</i><br>
 &gt;&nbsp; Väli 1&nbsp;&gt;<br>
 &lt;&nbsp; väärtus&nbsp; 1&nbsp;&lt;<br>
 <b>&gt;&nbsp; field2(väärtus2)&nbsp;&gt;</b><br>
-&lt;&nbsp; väärtus3&nbsp;&nbsp;&lt;<br>
+&lt;&nbsp; väärtus&nbsp; 3&nbsp;&lt;<br>
 &nbsp;
 </td>
 <td>
-<b>Modelmapping&nbsp;</b><br>
+<b>Mudeli vastendamine</b><br>
 Andmeallikas&nbsp;&nbsp; 1<br>
 <br>
 Andmeallikas&nbsp;&nbsp; 2<br>
@@ -128,14 +128,14 @@ Andmeallikas&nbsp;&nbsp; 2<br>
 &gt;&nbsp; taotlus&nbsp; 1&nbsp;&gt;<br>
 &lt;&nbsp; väärtus&nbsp; 1&nbsp;&lt;<br>
 &gt;&nbsp; taotlus&nbsp; 2&nbsp;&gt;<br>
-&lt;&nbsp; väärtus3&nbsp;&nbsp;&lt;<br>
+&lt;&nbsp; väärtus&nbsp; 3&nbsp;&lt;<br>
 &nbsp;
 </td>
 <td>
 <b>tabel&nbsp; 1</b><br>
 Kirje&nbsp; 1<br>
 Väli&nbsp; 1<br>
-<b>tabel2&nbsp;</b><br>
+<b>tabel&nbsp; 2</b><br>
 Kirje&nbsp; 2<br>
 Väli&nbsp; 2
 </td>
@@ -160,7 +160,7 @@ Saate määrata andmemudeli välja iga parameetri, mille kohta saab argumenti es
 > [!NOTE]
 > Andmemudeli välja parameetri vaikeväärtust ei toetata. Kui lisate andmemudeli väljale parameetri ja selle andmemudeli versioon on juba väljastatud ja avaldatud, [peate](general-electronic-reporting.md#upgrading-a-format-selecting-a-new-version-of-base-format-rebase) kõik vastavad mudelivastendused ja vormingud selle mudeli uuele versioonile tagasi põhinema, sest see andmemudeli muudatus ei ühildu tagasi.
 
-Saate konfigureerida parametriseeritud andmemudeli väljad, et teha mudeli vastendamise kutsed vormingupõhiseks. See lähenemine aitab teil vähendada mudeli vastenduste arvu, mida tuleb konfigureerida ühe andmemudeli mitme vormingu jaoks. Saate kasutada seda lähenemist ka oma vormingute täitmisjõudluse parandamiseks ja äridokumentide loomiseks kuluv aja vähendamiseks. Lisateabe saamiseks selle funktsiooni kohta läbige siinse teema näide.
+Saate konfigureerida parametriseeritud andmemudeli väljad, et teha mudeli vastendamise kutsed vormingupõhiseks. See lähenemine aitab teil vähendada mudeli vastenduste arvu, mida tuleb konfigureerida ühe andmemudeli mitme vormingu jaoks. Saate kasutada seda lähenemist ka oma vormingute täitmisjõudluse parandamiseks ja äridokumentide loomiseks kuluv aja vähendamiseks. Selle funktsiooni kohta lisateabe saamiseks viige selle artikli näide lõpule.
 
 ## <a name="example-use-parameterized-calls-of-er-data-models"></a>Näide: kasutage ER-i andmemudelite parameeteriseeritud kutseid
 
@@ -201,7 +201,7 @@ Praegu on mudel loodud kuvama ainult nõutavate üksikasjadega maksukandeid.
 
 ### <a name="design-a-model-mapping-for-the-configured-data-model"></a>Mudelivastenduse kujundamine konfigureeritud andmemudelile
 
-Kasutajana elektroonilise aruandlusarendaja rollis peate looma uue ER-i konfiguratsiooni, mis sisaldab mudeli vastendamise komponenti näidisauditi andmemudeli jaoks. See komponent juurutab Microsofti konfigureeritud andmemudeli ja Dynamics 365 Finance on sellele rakendusele omane. Peate konfigureerima mudelivastenduse komponendi, et määrata rakenduse objektid, mida tuleb käitusajal kasutada rakenduse andmete lisamiseks konfigureeritud andmemudelisse. Selle ülesande lõpetamiseks peate aru saama, kuidas maksuäridomeeni andmestruktuuri finantsis rakendatakse.
+Kasutajana elektroonilise aruandlusarendaja rollis peate looma uue ER-i konfiguratsiooni, mis sisaldab mudeli vastendamise komponenti näidisauditi andmemudeli jaoks. Komponent juurutab konfigureeritud andmemudeli Microsoft Dynamics 365 Finantside jaoks ja on rakendusele omane. Peate konfigureerima mudelivastenduse komponendi, et määrata rakenduse objektid, mida tuleb käitusajal kasutada rakenduse andmete lisamiseks konfigureeritud andmemudelisse. Selle ülesande lõpetamiseks peate aru saama, kuidas maksuäridomeeni andmestruktuuri finantsis rakendatakse.
 
 Järgige neid samme, et importida nõutud mudelivastendus Microsofti antud XML-failist.
 
@@ -243,7 +243,7 @@ ER-vorming on konfigureeritud aruande loomiseks tekstifailina komaga eraldatud v
 
 ### <a name="run-the-imported-format"></a>Imporditud vormingu käivitamine
 
-1. Valige konfiguratsioonide **lehel** auditi näidiskonfiguratsiooni **konfiguratsioon** ja seejärel valige tegevuspaanil käsk **Käivita**.
+1. Valige konfiguratsioonide lehel auditi näidiskonfiguratsiooni **konfiguratsioon** ja seejärel valige tegevuspaanil käsk **Käivita**.**·**
 2. **Valige dialoogiboksi Elektroonilise aruande** parameetrid vahekaardil Kirjed **, mida kaasata**, suvand **Filter**.
 3. Saate määrata tingimused kannete **PIV-110000004** ja **INV-10000001** kannete valimiseks.
 4. Valige nupp **OK**.

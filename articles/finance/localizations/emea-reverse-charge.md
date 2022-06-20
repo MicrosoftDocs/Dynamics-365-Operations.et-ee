@@ -1,6 +1,6 @@
 ---
 title: KM/GST-süsteemi pöördmaksustamise mehhanism
-description: See teema selgitab, kuidas seadistada Euroopa riikide ja Saudi Araabia pöördkäibemaksu (KM).
+description: See artikkel selgitab, kuidas seadistada Euroopa riikidele, Saudi-Araabiale ja Singapurile pöördtasu käibemaks (VAT).
 author: epodkolz
 ms.date: 10/05/2020
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epodkolz
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 326a74d0f962cf0455033b04950ded7ca26bfc77
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 4176f8e853b7d7c2acc1044cab33371202f10c4a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7594715"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861258"
 ---
 # <a name="reverse-charge-mechanism-for-vatgst-scheme"></a>KM/GST-süsteemi pöördmaksustamise mehhanism
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas kirjeldatakse üldist lähenemist pöördmaksustamise funktsiooni seadistamiseks riikidele/regioonidele, kes võtavad kasutusele käibemaksu või GST-skeemid.
+See artikkel kirjeldab üldist lähenemist pöördtasu funktsioonide seadistamiseks riikide/regioonide puhul, mis vastu võtavad käibemaksu või GST skeemid.
                                                                                  
 Funktsiooni riigi/regiooni kättesaadavust haldavad tööruumis **Funktsioonihaldus** järgmised funktsioonid.
 
@@ -33,7 +33,7 @@ Funktsiooni riigi/regiooni kättesaadavust haldavad tööruumis **Funktsioonihal
 | Täiendavate riikide pöördmaksustamine            | Bahrein  </br>Kuveit  </br>Omaan  </br>Katar                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | KM-/GST-skeemi jaoks pöördkäibemaksu mehhanismi lubamine | Kõik muud riigid/regioonid, välja arvatud järgnevad.  </br>Brasiilia  </br>India  </br>Venemaa                                                                                                                                                                                                                                                                                                                                                                                         |
  
- Lisateabe saamiseks vt selles teemas hiljem tuevat jaotist [KM-/GST-skeemi jaoks pöördkäibemaksu mehhanismi lubamine](#enable-reverse-charge).
+ Lisateavet vt jaotisest Luba [KM/GST skeemi funktsiooni](#enable-reverse-charge) pöördtasu mehhanism selles artiklis.
 
 Pöördmaks on maksuskeem, mis viib käibemaksu arvestamise ja registreerimise kohustuse kaupade ja/või teenuste müüjalt ostjale. Seetõttu registreerivad kaupade ja/või teenuste saajad nii arvestatud käibemaksu (müüja rollis) kui ka sisendkäibemaksu (ostja rollis) oma käibemaksuaruandes.
 

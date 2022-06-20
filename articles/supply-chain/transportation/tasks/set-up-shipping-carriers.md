@@ -1,6 +1,6 @@
 ---
-title: Vedajate seadistamine
-description: See teema näitab, kuidas seadistada tarne vedaja ja määratleda üksikasjad, nt teenus, saadetise režiim, transpordi maksevahend, transpordi piirangud ja tarnekulu.
+title: Vedajate häälestus
+description: See artikkel näitab, kuidas seadistada saadetise vedajat ja määrata sellised üksikasjad nagu teenus, saatmisviis, transpordi maksevahend, transpordipiirangud ja tarnemäär.
 author: Weijiesa
 ms.date: 07/19/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: weijiesa
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 876a3ffd94f554ef042da995311df0f8009eee12
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 48586a0ddaa7cd95a81380dadffef8f276076dd2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672650"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858968"
 ---
-# <a name="set-up-shipping-carriers"></a>Vedajate seadistamine
+# <a name="set-up-shipping-carriers"></a>Vedajate häälestus
 
 [!include [banner](../../includes/banner.md)]
 
-See teema näitab, kuidas seadistada tarne vedaja ja määratleda üksikasjad, nt teenus, saadetise režiim, transpordi maksevahend, transpordi piirangud ja tarnekulu. Transpordi koordinaator saab seejärel määrata saadetise vedaja sissetulevale või väljaminevale koormale.
+See artikkel näitab, kuidas seadistada saadetise vedajat ja määrata sellised üksikasjad nagu teenus, saatmisviis, transpordi maksevahend, transpordipiirangud ja tarnemäär. Transpordi koordinaator saab seejärel määrata saadetise vedaja sissetulevale või väljaminevale koormale.
 
 ## <a name="create-a-new-shipping-carrier"></a>Uue kättetoimetaja loomine
 

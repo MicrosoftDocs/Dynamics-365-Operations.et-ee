@@ -1,6 +1,6 @@
 ---
 title: Kohustuste jagamise konfliktide tuvastamine ja lahendamine
-description: Selles teemas kirjeldatakse, kuidas tuvastada ja lahendada konflikte kohustuste jagamisel.
+description: See artikkel selgitab, kuidas tuvastada ja lahendada kohustuste jagamise konflikte.
 author: peakerbl
 ms.date: 01/04/2021
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0638699c0e569bbe67024a87d6c55729642557cb085ee899aa98aa0022b12840
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fd36db5df2b6871d410bb1feaae825909ec9b3ff
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748308"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883473"
 ---
 # <a name="identify-and-resolve-conflicts-in-segregation-of-duties"></a>Kohustuste jagamise konfliktide tuvastamine ja lahendamine
 
 [!include [banner](../../includes/banner.md)]
 
-Selles teemas kirjeldatakse, kuidas tuvastada ja lahendada konflikte kohustuste jagamisel. Saate seadistada reeglid nende kohustuste eraldamiseks, mille peavad täitma erinevad kasutajad. Seda põhimõtet nimetatakse kohustuste jagamiseks. Kui turberolli määratlus või kasutaja rollimäärangud rikuvad reegleid, logitakse konflikt. Administraator peab kõik konfliktid lahendama. Konfliktide tuvastamiseks ja lahendamiseks kasutage järgmist protseduuri.
+See artikkel selgitab, kuidas tuvastada ja lahendada kohustuste jagamise konflikte. Saate seadistada reeglid nende kohustuste eraldamiseks, mille peavad täitma erinevad kasutajad. Seda põhimõtet nimetatakse kohustuste jagamiseks. Kui turberolli määratlus või kasutaja rollimäärangud rikuvad reegleid, logitakse konflikt. Administraator peab kõik konfliktid lahendama. Konfliktide tuvastamiseks ja lahendamiseks kasutage järgmist protseduuri.
 
 Pärast reegli lisamist kontrollige, kas kõik olemasolevad rollid ühilduvad. 
 

@@ -1,6 +1,6 @@
 ---
 title: Rendikohustise lühiajalise osa ümberklassifitseerimine
-description: Selles teemas selgitatakse, kuidas luua igakuise töölehe kirjet, rendikohustise osa lühiajaliseks ümberklassifitseerimiseks.
+description: See artikkel selgitab, kuidas luua igakuise töölehe kirje, et klassifitseerida osa rendikohustusest lühiajaliseks.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 3a71b809b4bb16c2b918b7acd4fbb8bc49278ff6
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 7c7c3f86aa5d24e9aeed89526a4b7317699e9a78
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727730"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886338"
 ---
 # <a name="reclassify-the-short-term-portion-of-lease-liability"></a>Rendikohustise lühiajalise osa ümberklassifitseerimine
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas selgitatakse, kuidas luua igakuise töölehe kirjet, rendikohustise osa lühiajaliseks ümberklassifitseerimiseks. Kui pakktöötluses valitud graafik on **Lühiajalise rendikohustise ümberklassifitseerimine**, luuakse töölehe kanne. Seda kirjet kasutatakse rendikohustise praeguse osa sisestamiseks kuu viimasel päeval. Samal ajal sisestatakse tühistamise kirje järgmise kuu esimesel päeval.
+See artikkel selgitab, kuidas luua igakuise töölehe kirje, et klassifitseerida osa rendikohustusest lühiajaliseks. Kui pakktöötluses valitud graafik on **Lühiajalise rendikohustise ümberklassifitseerimine**, luuakse töölehe kanne. Seda kirjet kasutatakse rendikohustise praeguse osa sisestamiseks kuu viimasel päeval. Samal ajal sisestatakse tühistamise kirje järgmise kuu esimesel päeval.
 
 Rendikohustise lühiajaline osa kuvatakse kohustuse amortisatsioonigraafikus. Kui töölehe kanne on sisestatud, siis on veerg **Kohustuse ümberklassifitseerimise tööleht loodud** saadaval ja töölehe ID on sisestatud ka graafikusse.
 

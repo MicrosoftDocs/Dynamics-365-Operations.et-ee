@@ -1,6 +1,6 @@
 ---
-title: Maksmise moodul
-description: Selles teemas kirjeldatakse, kuidas lisada lehele maksmise moodul ja määrata vajalikud atribuudid.
+title: Maksmismoodul
+description: See artikkel kirjeldab, kuidas lisada lehele väljaregistreerimise moodul ja seadistada nõutavad atribuudid.
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0d022ad98603b489a133a5b9f2326677e9ebb307
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: a30d56d7edf967a3afab7442338dd9f480ef7fd0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780510"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869024"
 ---
-# <a name="checkout-module"></a>Maksmise moodul
+# <a name="checkout-module"></a>Maksmismoodul
 
 [!include [banner](includes/banner.md)]
 
-Selles teemas kirjeldatakse, kuidas lisada lehele maksmise moodul ja määrata vajalikud atribuudid.
+See artikkel kirjeldab, kuidas lisada lehele väljaregistreerimise moodul ja seadistada nõutavad atribuudid.
 
 Maksmise moodul on spetsiaalne konteiner, mis majutab kõiki tellimuse loomiseks vajalikke mooduleid. See esitab samm-sammulise voo, mida klient ostu sooritamiseks kogu asjakohase teabe sisestamiseks kasutab. See hõivab tarneaadressi, tarneviisi ja arveldusteavet. Samuti esitatakse tellimuse kokkuvõte ja muud kliendi tellimusega seotud andmed.
 

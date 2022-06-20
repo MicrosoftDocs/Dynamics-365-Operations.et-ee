@@ -1,6 +1,6 @@
 ---
 title: Laohalduse vabade kirjete puhastustöö
-description: Selles teemas kirjeldatakse vabade kirjete puhastustööd, mis aitab parandada süsteemi jõudlust, tuvastades ja kustutades seotud, kuid mittevajalikud kirjed.
+description: See artikkel kirjeldab vaba kaubavaru kirjete puhastustööd, mis aitab parandada süsteemi jõudlust, tuvastades ja kustutades seotud, kuid mittevajalikke kirjeid.
 author: perlynne
 ms.date: 04/23/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-04-03
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: b2bdfb7fa0c9c4d9e1f630a41357dc405f0082bc
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 7f054f4f479affe8ca2e041c77bd6fd11d51378e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103859"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900502"
 ---
 # <a name="warehouse-management-on-hand-entries-cleanup-job"></a>Laohalduse vabade kirjete puhastustöö
 
@@ -26,7 +26,7 @@ ms.locfileid: "8103859"
 
 Vabade varude arvutamiseks kasutatavat päringute jõudlust mõjutab kaasatud tabelites sisalduvate kirjete arv. Üks viis jõudluse parandamiseks on vähendada kirjete arvu, mida andmebaas peab arvestama.
 
-Selles teemas kirjeldatakse vabade kirjete puhastustööd, mille käigus kustutatakse tabelitest InventSum ja WHSInventReserve ebavajalikud kirjed. Antud tabelid talletavad laohalduse töötlemise jaoks lubatud kaupade vabade varude teavet. (Neid kaupu nimetatakse WHS kaupadeks.) Antud kirjete kustutamine võib parandada märkimisväärselt vabade varude arvutuste jõudlust.
+See artikkel kirjeldab vaba kaubavaru kannete puhastustööd, mis kustutab mittevajalikke kirjeid tabelitest InventSum ja WHSInventReserve. Antud tabelid talletavad laohalduse töötlemise jaoks lubatud kaupade vabade varude teavet. (Neid kaupu nimetatakse WHS kaupadeks.) Antud kirjete kustutamine võib parandada märkimisväärselt vabade varude arvutuste jõudlust.
 
 ## <a name="what-the-cleanup-job-does"></a>Puhastustöö otstarve
 

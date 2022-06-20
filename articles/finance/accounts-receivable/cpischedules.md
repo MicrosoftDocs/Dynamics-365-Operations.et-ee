@@ -1,6 +1,6 @@
 ---
 title: Tarbijahinnaindeksi graafik
-description: See teema kirjeldab, kuidas luua tarbijahinna indeksi (CPI) graafikute loendit, mida saate Internetist, et määrata kordustellimuse arvelduses laiendustasu.
+description: See artikkel selgitab, kuidas luua tarbijahinna indeksi (CPI) graafikute loend, mida saate Internetist, et määrata kordustellimuse arvelduses laiendustasu.
 author: JodiChristiansen
 ms.date: 11/04/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 54114fae25565ed1aae7056ef9be5a4a159291e9
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: f08b79ee00baab3713d9ccc24a7595b1de7a7768
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686515"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904869"
 ---
 # <a name="consumer-price-index-schedule"></a>Tarbijahinnaindeksi graafik
 
 [!include [banner](../includes/banner.md)]
 
-See teema selgitab, kuidas luua, kustutada, üle vaadata ja töödelda tarbijahinna indeksi (CPI) plaane. CPI graafikut saab kasutada arveldusgraafiku ridadena lisatavate tarbekaupade ja teenuste hindade määramiseks. CPI graafikut saab seejärel kasutada koos laienduse ja allahindluse hinnakujundusega arveldusgraafikul või saab seda käsitsi töödelda arveldusgraafiku arveldussummade värskendamiseks. Saate sisestada CPI-graafikud käsitsi või importida neid CPI-graafiku liitüksuse abil.
+See artikkel selgitab, kuidas luua, kustutada, üle vaadata ja töödelda tarbijahinna indeksi (CPI) plaane. CPI graafikut saab kasutada arveldusgraafiku ridadena lisatavate tarbekaupade ja teenuste hindade määramiseks. CPI graafikut saab seejärel kasutada koos laienduse ja allahindluse hinnakujundusega arveldusgraafikul või saab seda käsitsi töödelda arveldusgraafiku arveldussummade värskendamiseks. Saate sisestada CPI-graafikud käsitsi või importida neid CPI-graafiku liitüksuse abil.
 
 CPI-graafiku lisamiseks järgige neid samme.
 

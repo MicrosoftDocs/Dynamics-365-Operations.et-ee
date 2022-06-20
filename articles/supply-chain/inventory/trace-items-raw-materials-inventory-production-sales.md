@@ -1,6 +1,6 @@
 ---
 title: Kauba ja toormaterjali jälgimine varude, tootmise ja müügi puhul
-description: Selles teemas kirjeldatakse, kuidas saate kasutada kauba jälgimist tuvastamaks, kus kaupu või toormaterjale tootmis- ja müügiprotsessides kasutatud on, kasutatakse või hakatakse kasutama.
+description: See artikkel kirjeldab, kuidas kasutada kaupade jälgimist, et tuvastada, kus kaupu või toormaterjale on kasutatud, kasutatakse või kasutatakse tootmis- ja müügiprotsessides.
 author: yufeihuang
 ms.date: 11/02/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 95f59a3eca20634d03520ad88f71a3096309e23e
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 23d860b86e2eebb520bf2fd472c5655f40dd0ca0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571805"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854409"
 ---
 # <a name="item-and-raw-material-tracing-in-inventory-production-and-sales"></a>Kauba ja toormaterjali jälgimine varude, tootmise ja müügi puhul
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas kirjeldatakse, kuidas saate kasutada kauba jälgimist tuvastamaks, kus kaupu või toormaterjale tootmis- ja müügiprotsessides kasutatud on, kasutatakse või hakatakse kasutama.
+See artikkel kirjeldab, kuidas kasutada kaupade jälgimist, et tuvastada, kus kaupu või toormaterjale on kasutatud, kasutatakse või kasutatakse tootmis- ja müügiprotsessides.
 
 Kauba jälgimise funktsioon on saadaval lehel **Kauba jälgimine**. Järgmised jaotised kirjeldavad, kuidas kauba jälgimist saab kasutada ja millised on valikud ning piirangud.
 

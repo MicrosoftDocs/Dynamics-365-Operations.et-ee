@@ -1,6 +1,6 @@
 ---
 title: Lahendaja strateegia toote konfiguratsiooni jaoks
-description: Selles teemas kirjeldatakse, kuidas kasutada lahendaja strateegiat toote konfiguratsiooni jõudluse parandamiseks.
+description: See artikkel kirjeldab, kuidas saab kasutada lahendaja strateegiat toote konfiguratsiooni jõudluse parandamiseks.
 author: t-benebo
 ms.date: 02/19/2019
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37e8f2c9557ee6fc827d60ca6dc83cd638b6378a
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 76ad64c19fe088ec85fafba4a3276a4d8c23a18c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565691"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852356"
 ---
 # <a name="solver-strategy-for-product-configuration"></a>Lahendaja strateegia toote konfiguratsiooni jaoks
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas kirjeldatakse, kuidas kasutada lahendaja strateegiat toote konfiguratsiooni jõudluse parandamiseks.
+See artikkel kirjeldab, kuidas saab kasutada lahendaja strateegiat toote konfiguratsiooni jõudluse parandamiseks.
 
 Lahendaja strateegia mõiste võeti esimest korda kasutusele rakenduse Microsoft Dynamics AX 2012 R2 kumulatiivses värskenduses 7 (CU7). Seda laiendati rakenduste Microsoft Dynamics AX 2012 R3 ja Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3 kumulatiivses värskenduses 8 (CU8).
 

@@ -1,6 +1,6 @@
 ---
 title: Isikuandmete taotlused Eesti puhul
-description: Selles teemas kirjeldatakse isikuandmete taotlusi Eesti puhul.
+description: See artikkel annab teavet Eesti isiklike andmete taotluste kohta.
 author: ShylaThompson
 ms.date: 03/26/2018
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Estonia
 ms.author: roschlom
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 1b595729398af24dbfa52a31e443ba0c0b9edd2999b63eb4b8a2810c34618b36
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 95ebd691f50cfdc24591c24636d339fb86816e1f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779382"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901229"
 ---
 # <a name="personal-information-requests-for-estonia"></a>Isikuandmete taotlused Eesti puhul
 

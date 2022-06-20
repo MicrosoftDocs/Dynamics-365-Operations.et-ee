@@ -1,6 +1,6 @@
 ---
-title: Varude nähtavuse reserveeringud
-description: See teema kirjeldab, kuidas Varude nähtavuse abil seadistada reserveerimisfunktsiooni, et luua reserveeringuid, tarbida reserveeringuid ja/või tühistada konkreetsete varude koguste reserveerinduid.
+title: Inventory Visibility reserveeringud
+description: See artikkel kirjeldab, kuidas seadistada reserveerimisfunktsiooni, et luua reserveeringuid, tarbida reserveeringuid ja/või reserveerimata määratud laokoguseid varude nähtavuse abil.
 author: yufeihuang
 ms.date: 08/02/2021
 ms.topic: article
@@ -11,19 +11,19 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 5e6752539a6381e1f7271883102391374e04f3aa
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 3b74907709ab97ddf4cc829dba324df213ca229f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061700"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895724"
 ---
-# <a name="inventory-visibility-reservations"></a>Varude nähtavuse reserveeringud
+# <a name="inventory-visibility-reservations"></a>Inventory Visibility reserveeringud
 
 [!include [banner](../includes/banner.md)]
 
 
-See teema kirjeldab, kuidas Varude nähtavuse abil seadistada reserveerimisfunktsiooni, et luua reserveeringuid, tarbida reserveeringuid ja/või tühistada konkreetsete varude koguste reserveerinduid.
+See artikkel kirjeldab, kuidas seadistada reserveerimisfunktsiooni, et luua reserveeringuid, tarbida reserveeringuid ja/või reserveerimata määratud laokoguseid varude nähtavuse abil.
 
 Reserveeringud märgivad tulevikus kasutatava varude koguse. Reserveerimise loomisel takistab süsteem teistel tellimustel reserveeritud kaupu seni reserveerida või tarbida, kuni reserveering kas tarbitakse või reserveering tühistatakse. Reserveeringud luuakse, tarbitakse ja tühistatakse Varude nähtavuse teenuse API kutsete abil.
 

@@ -1,6 +1,6 @@
 ---
 title: Kulu ülevaatajate konfigureerimine
-description: See teema kirjeldab, kuidas kasutada kulu ülevaatajad dünaamiliselt kasutaja valimiseks, kellele on määratud töövoo ülesanne, kinnitamine või käsitsi otsus.
+description: See artikkel kirjeldab, kuidas kasutada kulu ülevaatajad dünaamiliselt valima kasutaja, kellele on määratud töövoo ülesanne, kinnitamine või käsitsi otsus.
 author: rachel-profitt
 ms.date: 06/25/2021
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2021-06-24
-ms.openlocfilehash: ad980889247e0239ad743078cb013c1c5839f676
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 110edf4c2733f899368069c7d215ae5b0882f5cc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070142"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863219"
 ---
 # <a name="configure-expenditure-reviewers"></a>Kulu ülevaatajate konfigureerimine
 [!include[banner](../includes/banner.md)]
@@ -52,7 +52,7 @@ Finantsdimensioone juhitakse iga juriidilise isiku kontostruktuuridega. Iga juri
 
 ## <a name="example-1-expenditure-reviewers-based-on-organization-distributions"></a>Näide 1: organisatsiooni jaotustel põhinevad kulu ülevaatajad
 
-Töötate Contoso Appliancesis ja teie organisatsioonil on kuus osakonda ja 10 kulukeskust. Uue ostutaotluse esitamise korral peab kinnitus tulema esmalt osakonnajuhatajalt ja seejärel kulukeskuse juhilt.
+Te töötate Contoso seadmetega ja teie organisatsioonil on kuus osakonda ja 10 kulukeskust. Uue ostutaotluse esitamise korral peab kinnitus tulema esmalt osakonnajuhatajalt ja seejärel kulukeskuse juhilt.
 
 Selles näites konfigureerite kaks *ostutaotluse kulu ülevaatajat*:
 
@@ -65,7 +65,7 @@ Kui ostutaotlus on loodud, määratakse osakond ja kulukeskuse finantsdimensioon
 
 ## <a name="example-2-expenditure-reviewers-based-on-project-distributions"></a>Näide 2: projekti jaotustel põhinevad kulu ülevaatajad
 
-Te töötate Contoso Appliancesi teenuste osakonnas. Organisatsioon nõuab, et iga ostutellimuse projektijuht peab kulu kinnitama. Lisaks peab projekti kulukeskuse haldur selle kinnitama. Kinnitusi saab teha samaaegselt. Igal juhul peavad mõlemad kasutajad ostutellimuse kinnitama, enne kui töövoog saab jätkata.
+Te töötate Contoso Seadmete teenuste osakonnas. Organisatsioon nõuab, et iga ostutellimuse projektijuht peab kulu kinnitama. Lisaks peab projekti kulukeskuse haldur selle kinnitama. Kinnitusi saab teha samaaegselt. Igal juhul peavad mõlemad kasutajad ostutellimuse kinnitama, enne kui töövoog saab jätkata.
 
 Selles näites loote *ostutellimuse kulu ülevaataja* nimega **PM ja kulukeskus**. Märgistate **Projektihaldur** kasti ja seate **kulukeskuse dimensiooni** väärtuseks **Jah** **Projekti jaotamised** vahekaardil **Ostutellimuse kulu ülevaataja** lehel. Osana konfiguratsioonist peate tagama, et **projektijuhi** väli on seadistatud kõigile projektidele ja et omanik on määratud kõigile kulukeskustele **Finantsdimensiooni väärtused** lehel.
 
@@ -75,7 +75,7 @@ Ostutellimuse loomisel peab väli **Projekt** olema määratud. Kui te ei nõua 
 
 ## <a name="set-up-expenditure-reviewers"></a>Kulude ülevaatajate seadistamine
 
-Selles näites näidatakse, kuidas konfigureeritakse ostutaotluse kulu ülevaatajat. Teist tüüpi kulu ülevaatajate konfigureerimiseks asendage navigeerimistee sammus 1 vastava teega tabelist [kulu ülevaatajate tüüpide](configure-expenditure-reviewers.md#types-of-expenditure-reviewers) jaotises, nagu varasemas teemas.
+Selles näites näidatakse, kuidas konfigureeritakse ostutaotluse kulu ülevaatajat. Teist tüüpi kulu ülevaatajate konfigureerimiseks asendage navigeerimistee sammus 1 [vastava teega tabelist jaotises Kulu ülevaatajate tüübid (varasemas selles artiklis](configure-expenditure-reviewers.md#types-of-expenditure-reviewers)).
 
 1. Minge **Ostutellimused ja hanke \> häälestuse \> poliitikad \> Ostutellimuse registreerija kulu ülevaatajad**.
 2. Valige **ostutaotluse kulu ülevaatajate** lehel **uus**.

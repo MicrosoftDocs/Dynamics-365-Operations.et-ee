@@ -1,6 +1,6 @@
 ---
 title: Kuluobjekti kontrollerite pääsuõigused
-description: See teema käsitleb kuluobjekti kontrollijate pääsuõigusi.
+description: See artikkel annab teavet kuluobjekti kontrollerite juurdepääsuõiguste kohta.
 author: AndersGirke
 ms.date: 06/24/2017
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 13d562a4f42644b822c9548d1ea87d44a396b2c2
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: c40be758c5e5d1d1fb025630ed8321ae46251892
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8733874"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903185"
 ---
 # <a name="access-rights-for-cost-object-controllers"></a>Kuluobjekti kontrollerite pääsuõigused
 
@@ -38,7 +38,7 @@ Kuluarvestuses on neli kordumatut rolli.
 | Kuluarvestuse ametnik   | Operations   |
 | Kuluobjekti kontroller  | Töörühma liikmed |
 
-Selles teemas selgitatakse, kuidas määrata juhile **kuluobjekti kontrollija** rolli.
+See artikkel selgitab, kuidas määrata kuluobjekti **kontrolleri** roll haldurile.
 
 Kui juhile on määratud **kuluobjekti kontrollija** roll, saab juht teha järgmisi toiminguid.
 
@@ -95,7 +95,7 @@ Juurdepääsuloendi hierarhia sätteid kasutatakse järgmistel aladel kuvatavate
 
 > [!IMPORTANT]
 > - Enne kui juurdepääsuloendi hierarhia saab Power BI-s olevaid andmeid mõjutada, tuleb juurdepääsuloendi hierarhia ja rea tasemel turve Power BI-s siduda. Lisateavet leiate teemast [Kuluarvestuse sisupaketi jaoks turbe seadistamine](../../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
-> - Selles teemas näidatakse eeltingimusi, mis peavad olema täidetud enne **kulude juhtimise** tööruumi kasutamist.
+> - See artikkel näitab eeltingimusi, mis peavad enne kulujuhtimise tööruumi **kasutamist olema täidetud**.
 
 Lisaressursid
 

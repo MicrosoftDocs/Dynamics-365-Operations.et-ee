@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Commerce'i hindamiskeskkonna valikuliste funktsioonide konfigureerimine
-description: Selles teemas selgitatakse, kuidas konfigureerida rakenduse Microsoft Dynamics 365 Commerce hindamiskeskkonda, kui see on ette valmistatud.
+description: See artikkel selgitab, kuidas konfigureerida hindamiskeskkonna valikulisi Microsoft Dynamics 365 Commerce funktsioone.
 author: psimolin
 ms.date: 07/16/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2f4e93b7ece7652b72ae2067be4de73f45a8261ada1b0bc731e2bd2147dcccc6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: MT
+ms.openlocfilehash: 39d4784e21c4fb42ca218d507616d49eff309ee1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728287"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861910"
 ---
 # <a name="configure-optional-features-for-a-dynamics-365-commerce-evaluation-environment"></a>Dynamics 365 Commerce'i hindamiskeskkonna valikuliste funktsioonide konfigureerimine
 
 [!include [banner](includes/banner.md)]
 
-Selles teemas selgitatakse, kuidas konfigureerida rakenduse Microsoft Dynamics 365 Commerce hindamiskeskkonda, kui see on ette valmistatud.
+See artikkel selgitab, kuidas konfigureerida hindamiskeskkonna valikulisi Microsoft Dynamics 365 Commerce funktsioone.
 
 ## <a name="prerequisites"></a>Eeltingimused
 
@@ -108,7 +108,7 @@ Võite soovida kohandada meilimalle, et nad kasutaksid erinevaid pilte. Võite k
     - Pakketellimuse mall
     - Tellimuse malli valimine
 
-1. Kohandage malle teksti või HTML-redaktori abil. Vaadake selles teemas hiljem [toetatud märkide](#supported-tokens-in-the-email-template) loendit.
+1. Kohandage malle teksti või HTML-redaktori abil. Vaadake toetatud [sõnede loendit selles](#supported-tokens-in-the-email-template) artiklis hiljem.
 1. Logige Commerce’i sisse.
 1. Vasakul asuva menüü abil avage **Moodulid \> Organisatsiooni haldus \> Häälestus \> Organisatsiooni meilimallid**.
 1. Kõigi mallide nägemiseks laiendage loendit vasakul.

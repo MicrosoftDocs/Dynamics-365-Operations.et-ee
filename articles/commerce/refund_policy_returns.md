@@ -1,6 +1,6 @@
 ---
 title: Kanali tagastuste ja tagasimaksete poliitika loomine ja värskendamine
-description: See teema selgitab, kuidas seadistada kanali tagastuste ja tagasimaksete poliitikat.
+description: See artikkel selgitab, kuidas seadistada kanalile tagastuse ja tagasimakse poliitika.
 author: ShalabhjainMSFT
 ms.date: 07/13/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-01-21
 ms.dyn365.ops.version: Retail 10.0.9 update
-ms.openlocfilehash: 4346f9eefa04688c80ce2512a7972bfd4627942c
-ms.sourcegitcommit: 53fad4d4b5fb67aa75550956ec205f456a5be01d
+ms.openlocfilehash: 54dd19134aea68f73de51086fbaa096961447b62
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "7388929"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873300"
 ---
 # <a name="create-and-update-a-returns-and-refunds-policy-for-a-channel"></a>Kanali tagastuste ja tagasimaksete poliitika loomine ja värskendamine
 
@@ -27,7 +27,7 @@ ms.locfileid: "7388929"
 
 Kanali tagastuspoliitika rakenduses Dynamics 365 Commerce võimaldab jaemüüjatel määrata rakendamisi, mille alusel saab lubada maksevahendeid kassaseadmes tagastuse töötlemiseks.  
 
-See teema kirjeldab etappe, kuidas seadistada kanali tagastuste ja tagasimaksete poliitikat.
+See artikkel kirjeldab samme kanali tagastus- ja tagasimaksepoliitika loomiseks.
 
 Poliitika ulatus piirdub hetkel maksevahendi määramisega, mida saab kanali jaoks lubada. Lubatute loend põhineb ostu sooritamiseks kasutatavatel makseviisidel. Näide:
 

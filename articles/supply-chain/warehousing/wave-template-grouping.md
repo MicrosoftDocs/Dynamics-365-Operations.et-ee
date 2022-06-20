@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: b265c0d5cb43e151386fe90e3a3dea414ec0aca6
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 5eb18ce29cbd1434b2a766c2ba5d78ed1be4e72b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579900"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851242"
 ---
 # <a name="wave-template-grouping"></a>Voomalli rühmitamine
 
@@ -41,7 +41,7 @@ Enne funktsiooni *Voomalli rühmitamine* kasutamist peate selle oma süsteemis s
 Voomalli rühmitamise kättesaadavaks tegemiseks järgige neid etappe oma [voomalli](tasks/configure-wave-processing.md) seadistamiseks.
 
 1. Avage **Laohaldus \> Seadistus \> Vood \> Voomallid**.
-1. Valige vasakus paanis seadistatav voomall. Kui valmistute seda stsenaariumit demoandmete abil läbi töötama selles teemas hiljem, valige mall **62 saadetise vaikemall**.
+1. Valige vasakus paanis seadistatav voomall. Kui te olete valmis töötama stsenaariumiga hiljem selles artiklis, kasutades demoandmeid, valige **62 saadetise vaikemall**.
 1. Lehe redigeerimisrežiimi panemiseks valige **Redigeeri**.
 1. Määrake kiirkaardil **Üldine** järgmised väärtused.
 
@@ -84,7 +84,7 @@ Seda stsenaariumi saate kasutada ka juhistena funktsiooni kasutamiseks, kui tö�
 
 Selles stsenaariumis kirjeldatakse, kuidas kasutada voomalli rühmitamist mitme voo automaatseks loomiseks voomallis määratletud rühmitamiskriteeriumi põhjal. Selles stsenaariumis seadistatakse voomall süsteemis, et luua üks voog vedaja teenuse kohta.
 
-Enne alustamist valmistage voomall ette selles teemas eelnevalt kirjeldatud jaotises [Voomalli määramine voomalli rühmitamise kasutamiseks](#set-up-template) olevate juhiste põhjal. Kui te töötate demoandmetega selles stsenaariumis, kasutage kindlasti demoandmete väärtusi, mida selles protseduuris soovitatakse. See seadistus rühmitab teie vood vastavalt vedaja teenusele, mis määratakse iga müügitellimuse jaoks.
+Enne alustamist valmistage voomall ette, nagu [on](#set-up-template) kirjeldatud käesolevas artiklis eespoolses voomalli grupeerimise jaotises Laine mallide kasutamiseks. Kui te töötate demoandmetega selles stsenaariumis, kasutage kindlasti demoandmete väärtusi, mida selles protseduuris soovitatakse. See seadistus rühmitab teie vood vastavalt vedaja teenusele, mis määratakse iga müügitellimuse jaoks.
 
 #### <a name="create-sales-order-1"></a>Müügitellimuse 1 loomine
 

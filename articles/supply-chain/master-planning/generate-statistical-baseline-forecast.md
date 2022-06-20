@@ -1,6 +1,6 @@
 ---
-title: Statistilise alusprognoosi loomine
-description: Selles teemas on esitatud teave nõudluse prognoosimise arvutamisel kasutatavate parameetrite ja filtrite kohta.
+title: Statistilise alusprognoosi koostamine
+description: Selles artiklis on esitatud teave nõudluse prognoosimise arvutamisel kasutatavate parameetrite ja filtrite kohta.
 author: t-benebo
 ms.date: 07/08/2019
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9b2a71faeeb4de35e26b5a346e17caa0d8d353f8
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
-ms.translationtype: MT
+ms.openlocfilehash: c45d763a1f3d199c91f3cf6181c22f4b8130fabc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468700"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844934"
 ---
-# <a name="generate-a-statistical-baseline-forecast"></a>Statistilise alusprognoosi loomine
+# <a name="generate-a-statistical-baseline-forecast"></a>Statistilise alusprognoosi koostamine
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas on esitatud teave nõudluse prognoosimise arvutamisel kasutatavate parameetrite ja filtrite kohta. 
+Selles artiklis on esitatud teave nõudluse prognoosimise arvutamisel kasutatavate parameetrite ja filtrite kohta. 
 
 Alusprognoosi loomisel tuleb teil esmalt määratleda parameetrid ja filtrid, mida kasutatakse arvutamisel. Näiteks saate luua alusprognoosi, mis prognoosib tulevase kuu valitud kaupade nõudlust kindla ettevõtte viimase aasta kandeandmete alusel. 
 

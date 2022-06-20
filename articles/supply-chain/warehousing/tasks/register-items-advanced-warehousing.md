@@ -1,6 +1,6 @@
 ---
 title: Kaupade registreerimine täpsemaks ladustamiseks lubatud kauba puhul saabuva kauba töölehe abil
-description: See teema kirjeldab stsenaariumit, mis selgitab kaupade registreerimist, kasutades kauba saabumise töölehte täpsemate laohaldusprotsesside kasutamisel.
+description: See artikkel sisaldab stsenaariumi, mis näitab, kuidas registreerida kaupu kauba saabumise töölehel, kui kasutate täpsemaid laohaldusprotsesse.
 author: Mirzaab
 ms.date: 03/24/2021
 ms.topic: business-process
@@ -14,22 +14,22 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e753897d1e21ffebbcbfac48abab4b0549c3553f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: ac4a681484f0cd843ccd73633040f0fa0be0475e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565251"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863617"
 ---
 # <a name="register-items-for-an-advanced-warehousing-enabled-item-using-an-item-arrival-journal"></a>Kaupade registreerimine täpsemaks ladustamiseks lubatud kauba puhul saabuva kauba töölehe abil
 
 [!include [banner](../../includes/banner.md)]
 
-See teema kirjeldab stsenaariumit, mis selgitab kaupade registreerimist, kasutades kauba saabumise töölehte täpsemate laohaldusprotsesside kasutamisel. Seda teeb üldjuhul vastuvõtuametnik.
+See artikkel sisaldab stsenaariumi, mis näitab, kuidas registreerida kaupu kauba saabumise töölehel, kui kasutate täpsemaid laohaldusprotsesse. Seda teeb üldjuhul vastuvõtuametnik.
 
 ## <a name="enable-sample-data"></a>Luba näidisandmed
 
-Selle stsenaariumi läbimiseks, kasutades selles teemas määratud näidiskirjeid ja -väärtusi, peate kasutama süsteemi, kuhu on installitud standardsed demoandmed, ning enne alustamist peate valima *USMF* juriidilise isiku.
+Selle stsenaariumi läbimiseks, kasutades käesoleva artikli näidiskirjeid ja -väärtusi, peate kasutama süsteemi, kuhu on installitud standardsed demoandmed, *ja enne alustamist peate valima USMF-i* juriidilise isiku.
 
 Selle stsenaariumi saate läbi töötada, asendades väärtused oma andmetega, kui teil on saadaval järgmised andmed.
 

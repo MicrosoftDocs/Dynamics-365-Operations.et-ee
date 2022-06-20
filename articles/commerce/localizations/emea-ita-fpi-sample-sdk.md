@@ -1,6 +1,6 @@
 ---
 title: Fiskaalprinteri integratsiooni näidise juurutuse juhised Itaalia jaoks (pärand)
-description: See teema annab juhised fiskaalprinteri integreerimise näidiste juurutamiseks Itaalia jaoks jaemüügi Microsoft Dynamics 365 Commerce tarkvara arenduskomplektist (SDK).
+description: See artikkel annab juhised fiskaalprinteri integreerimise näidiste juurutamiseks Itaalia jaoks jaemüügi Microsoft Dynamics 365 Commerce tarkvara arenduskomplektist (SDK).
 author: EvgenyPopovMBS
 ms.date: 03/04/2022
 ms.topic: article
@@ -9,20 +9,20 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: 617e97272fb4bd7cea0958958ae99648bb847b56
-ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
+ms.openlocfilehash: bb07ca91c9e5bf1a79f672f9ba29b7bcc21688c6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "8614065"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848894"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-printer-integration-sample-for-italy-legacy"></a>Fiskaalprinteri integratsiooni näidise juurutuse juhised Itaalia jaoks (pärand)
 
 [!include[banner](../includes/banner.md)]
 
-See teema annab juhised fiskaalprinteri Microsoft Dynamics 365 Commerce integreerimise näidiste juurutamiseks Itaalia jaoks jaemüügi tarkvara arenduskomplektist (SDK) arendaja virtuaalmasinasse (VM) Microsoft Dynamics elutsükli teenustes (LCS). Lisateavet fiskaalintegratsiooni näidiste kohta vt Itaalia fiskaalprinteri [integratsiooni näidist](emea-ita-fpi-sample.md). 
+See artikkel annab juhised fiskaalprinteri Microsoft Dynamics 365 Commerce integreerimise näidiste juurutamiseks Itaalia jaoks jaemüügi tarkvara arenduskomplektist (SDK) arendaja virtuaalmasinasse (VM) Microsoft Dynamics elutsükli teenustes (LCS). Lisateavet fiskaalintegratsiooni näidiste kohta vt Itaalia fiskaalprinteri [integratsiooni näidist](emea-ita-fpi-sample.md). 
 
-Itaalia fiskaalintegratsiooni näidis on jaemüügi SDK osa. Lisateavet selle kohta, kuidas installida ja kasutada SDK-d, vt jaemüügi [tarkvara arenduskomplekti (SDK) ülesehitust](../dev-itpro/retail-sdk/retail-sdk-overview.md). See näidis koosneb Commerce Runtime'i (CRT) ja riistvarajaama laiendustest. Selle näidisprojekti käivitamiseks peate muutma ja ehitama CRT riistvarajaama projekte. Selles teemas kirjeldatud muudatuste vaatamiseks on soovitatav kasutada jaemüügi SDK-d, mida pole võimalik muuta. Soovitame kasutada ka allikakontrollisüsteemi, näiteks sellistena, Azure DevOps kus faile pole veel muudetud.
+Itaalia fiskaalintegratsiooni näidis on jaemüügi SDK osa. Lisateavet selle kohta, kuidas installida ja kasutada SDK-d, vt jaemüügi [tarkvara arenduskomplekti (SDK) ülesehitust](../dev-itpro/retail-sdk/retail-sdk-overview.md). See näidis koosneb Commerce Runtime'i (CRT) ja riistvarajaama laiendustest. Selle näidisprojekti käivitamiseks peate muutma ja ehitama CRT riistvarajaama projekte. Soovitame kasutada jaemüügi SDK-d, et teha selles artiklis kirjeldatud muudatused. Soovitame kasutada ka allikakontrollisüsteemi, näiteks sellistena, Azure DevOps kus faile pole veel muudetud.
 
 ## <a name="development-environment"></a>Arenduskeskkond
 
@@ -30,18 +30,18 @@ Järgige neid samme arenduskeskkonna häälestamiseks, et saate testida ja laien
 
 ### <a name="commerce-runtime-extension-components"></a>Äri käitusaja laienduse komponendid
 
-Laienduskomponendid CRT on kaasatud retail SDK-sse. Järgmiste protseduuride lõpule viimiseks avage CommerceRuntimeSamples.sln **lahendus jaotises RetailSdkSampleExtensionsCommerceRuntime** **\\.\\**
+Laienduskomponendid CRT on kaasatud retail SDK-sse. Järgmiste protseduuride sooritamiseks avage CommerceRuntimeSamples.sln **lahendus** retailSdk **SampleExtensions\\ CommerceRuntime'i all\\.**
 
 1. Leidke projekt **Runtime.Extensions.DocumentProvider.EpsonFP90IIISample ja** koostage see.
-2. **Leidke kaustas Extensions.DocumentProvider.EpsonFP90IIISamplebinDebug\\\\** **assemblerifail Contoso.Commerce.Runtime.DocumentProvider.EpsonFP90IIISample.dll.**
+2. Leidke kaustast Extensions.DocumentProvider.EpsonFP90IIISample **bin\\ Debug\\ find the** Contoso.Commerce.Runtime.DocumentProvider.EpsonFP90IIISample.dll **assemblerfail**.
 3. Kopeerige assemblerifail laiendite CRT kausta:
 
-    - **Commerce Scale Unit:** kopeerige fail **\\ binexti\\** kausta teenuse Internet Information Services (IIS) Commerce Scale Unit saidi asukoha all.
+    - **Commerce Scale Unit:** kopeerige fail **\\ bin ext\\ kausta** teenuse Internet Information Services (IIS) Commerce Scale Unit saidi asukoha all.
     - **Kohalik CRT modern POS-s:** kopeerige fail kohaliku **\\ kliendi maakleri asukoha ext-kausta** CRT.
 
 4. Leidke laiendi konfiguratsioonifail:CRT
 
-    - **Commerce Scale Unit:** faili nimi **on commerceruntime.ext.config** **ja see on binexti\\** kaustas IIS Commerce Scale Uniti saidi asukoha all.
+    - **Commerce Scale Unit:** faili nimi **on commerceruntime.ext.config** **\\ ja see on IIS Commerce Scale Uniti saidi asukoha bin ext-kaustas**.
     - **Modern CRT POS-is kohalik:** faili nimi **on CommerceRuntime.MPOSOffline.Ext.config** ja see on kohaliku kliendi maakleri CRT asukoha all.
 
 5. Registreerige CRT muudatus laiendi konfiguratsioonifailis.
@@ -57,10 +57,10 @@ Laienduskomponendid CRT on kaasatud retail SDK-sse. Järgmiste protseduuride lõ
 
 ### <a name="hardware-station-extension-components"></a>Riistvarajaama laienduse komponendid
 
-Riistvarajaama laienduse komponendid on kaasatud Jaemüügi SDK-sse. Järgmiste protseduuride sooritamiseks avage **lahendus HardwareStationSamples.sln** **jaotises RetailSdkSampleExtensionsHardwareStation\\\\**.
+Riistvarajaama laienduse komponendid on kaasatud Jaemüügi SDK-sse. Järgmiste protseduuride sooritamiseks avage **RetailSdk** SampleExtensions **HardwareStationis\\ konfiguratsioonilahendusHardwareStations.sln \\**.
 
 1. Leidke projekt **HardwareStation.Extensions.EpsonFP90IIIFiscalDeviceSample** ja koostage see.
-2. Leidke kaustast **Extensions.EpsonFP90IIIFiscalDeviceSamplebinDebug\\\\** **assemblerifail Contoso.Commerce.HardwareStation.EpsonFP90IIIFiscalDeviceSample.dll.**
+2. Leidke kaustast Extensions.EpsonFP90IIIFiscalDeviceSample **bin\\ Silumine\\** assemblerifail Contoso.Commerce.HardwareStation.EpsonFP90IIIFiscalDeviceSample.dll **·**.
 3. Kopeerige assemblerifail juurutatud riistvarajaama arvutisse:
 
     - **Kaug riistvarajaam:** kopeerige fail **IIS-i** riistvarajaama saidi asukoha bin-kausta.
@@ -86,8 +86,8 @@ Riistvarajaama laienduse komponendid on kaasatud Jaemüügi SDK-sse. Järgmiste 
 
 Commerce'i komponente sisaldavate juurutatavate pakendite loomiseks ja nende pakendite rakendamiseks tootmiskeskkonnas järgige neid samme.
 
-1. Viige lõpule selle teema varasemas teemas [kirjeldatud](#development-environment) arenduskeskkonnas kirjeldatud sammud.
-2. Tehke paketi konfiguratsioonifailides kausta **RetailSdkAssets all\\ järgmised** muudatused:
+1. Viige lõpule selle artikli varasemas arenduskeskkonna [jaotises](#development-environment) kirjeldatud sammud.
+2. Tehke paketi konfiguratsioonifailides kausta **RetailSdk Assets\\ all järgmised** muudatused:
 
     1. **Commerceruntime.ext.config** **ja CommerceRuntime.MPOSOffline.Ext.config** konfiguratsioonifailides lisage koostise jaotisele **järgmine** rida.
 
@@ -115,7 +115,7 @@ Commerce'i komponente sisaldavate juurutatavate pakendite loomiseks ja nende pak
         <ISV_HardwareStation_CustomizableFile Include="$(SdkReferencesPath)\Contoso.Commerce.HardwareStation.EpsonFP90IIIFiscalDeviceSample.dll"/>
         ```
 
-4. Juurutatavatesse pakettidesse **Itaalia ressursifailide kaasamiseks tehke kausta PackagesSharedPackagingProjectComponents** all failis **Sdk.ModernPos.Shared.csproj\_** järgmised muudatused:
+4. Tehke järgmised muudatused **Sdk.ModernPos.Shared.csproj** **failis kausta Packages SharedPackagingProjectComponents\_ all, et kaasata Itaalia ressursifailid juurutatavatesse** pakettidesse:
 
     1. Lisage jaotis **ItemGroup**, mis sisaldab sõlmpunkte, mis osutavad soovitud tõlgete ressursifailidele. Veenduge, et määrate õiged nimeruumid ja näidisnimed. Järgmises näites lisatakse selle **ja** **it-CH lokaadile ressursisõlmed**.
 
@@ -133,7 +133,7 @@ Commerce'i komponente sisaldavate juurutatavate pakendite loomiseks ja nende pak
         <Copy SourceFiles="@(ResourcesItCh)" DestinationFolder="$(OutputPath)content.folder\CustomizedFiles\ClientBroker\ext\it-CH" SkipUnchangedFiles="true" />
         ```
 
-5. Juurutatavatesse pakettidesse **Itaalia ressursifailide kaasamiseks tehke kausta PackagesSharedPackagingProjectComponents** all failis **Sdk.RetailServerSetup.proj\_** järgmised muudatused:
+5. Juurutatavatesse pakettidesse **Itaalia ressursifailide kaasamiseks tehke kaustas Packages SharedPackagingProjectComponents** failis **Sdk.RetailServerSetup.proj\_** järgmised muudatused:
 
     1. Lisage jaotis **ItemGroup**, mis sisaldab sõlmpunkte, mis osutavad soovitud tõlgete ressursifailidele. Veenduge, et määrate õiged nimeruumid ja näidisnimed. Järgmises näites lisatakse selle **ja** **it-CH lokaadile ressursisõlmed**.
 
@@ -162,7 +162,7 @@ Fiskaaldokumendi pakkujaks olemise laiend on luua printeripõhiseid dokumente ja
 
 CRT Laiend on **Runtime.Extensions.DocumentProvider.EpsonFP90IIISample**.
 
-Lisateavet fiskaalintegratsiooni lahenduse kujunduse kohta vt fiskaalregistreerimisprotsessist [ja fiskaalseadmete ja -teenuste fiskaalintegratsiooni näidised](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services).
+Lisateavet fiskaalintegratsiooni lahenduse kujunduse kohta vt fiskaalregistreerimisprotsessist [ja fiskaalseadmete ja -teenuste fiskaalintegratsiooni näidised.](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services)
 
 #### <a name="request-handler"></a>Nõudeohjur
 

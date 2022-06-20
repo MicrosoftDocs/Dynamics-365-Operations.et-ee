@@ -1,6 +1,6 @@
 ---
-title: Kuluarvestuse analüüsi Power BI sisu jaoks turbe seadistamine
-description: Selles teemas selgitatakse, kuidas saate kuluarvestuses juurdepääsutaseme turbe rakenduses Microsoft Power BI reatasemel turbeks muuta.
+title: Kuluarvestuse analüüsi Power BI sisu jaoks turbe häälestus
+description: See artikkel selgitab, kuidas saate levitada kuluarvestuse juurdepääsutaseme turvalisust reataseme turvalisusele Microsoft Power BI.
 author: ShylaThompson
 ms.date: 06/20/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f519a38b381da0efc1e91ba0f2015780d086550c3e38810e6845a0fc07976767
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bc4d72fb688733b9c1547346c520dd9d77a3b12f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6751487"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883682"
 ---
 # <a name="set-up-security-for-the-cost-accounting-analysis-power-bi-content"></a>Kuluarvestuse analüüsi Power BI sisu jaoks turbe häälestus
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas selgitatakse, kuidas saate kuluarvestuses juurdepääsutaseme turbe rakenduses Microsoft Power BI reatasemel turbeks muuta. See funktsioon aitab tagada, et kasutajad näevad ainult Power BI andmeid, millele neil on juurdepääs.
+See artikkel selgitab, kuidas saate levitada kuluarvestuse juurdepääsutaseme turvalisust reataseme turvalisusele Microsoft Power BI. See funktsioon aitab tagada, et kasutajad näevad ainult Power BI andmeid, millele neil on juurdepääs.
 
 ## <a name="overview"></a>Ülevaade
 

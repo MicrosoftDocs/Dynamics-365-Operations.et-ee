@@ -1,6 +1,6 @@
 ---
 title: Teenusekeskkonnad
-description: See teema annab teavet elektroonilise arvelduse teenusekeskkonna kohta ja selgitab nende seadistamist.
+description: See artikkel annab teavet elektroonilise arveldamise teenusekeskkonna kohta ja selgitab nende häälestamist.
 author: dkalyuzh
 ms.date: 02/28/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dkalyuzh
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a8a135098f71e1413cd20ff8ad4003f090ae3407
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: 8c743c5b2fbc7dcc3ae04fa4d7ca0e65de6c2507
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371893"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901243"
 ---
 # <a name="service-environments"></a>Teenusekeskkonnad
 
@@ -37,7 +37,7 @@ Seda tüüpi sektsioonimine aitab tagada, et e-arve protsessid kinnitatakse ja k
 
 Teenusekeskkonnad tuleb luua ja hooldada regulatiivse konfiguratsiooni teenuses (RCS). Seejärel, kui nad on valmis, tuleb need avaldada Elektroonilise arveldamise teenuses. Avaldamisprotsess saadab teenusekeskkonna parameetrid RCS-i eksemplarist elektroonilise arveldamise teenusesse.
 
-Kui te ei lõpeta avaldamisprotsessi pärast uue teenusekeskkonna loomise või olemasoleva teenusekeskkonna korrigeerimist (Microsoft Azure nt kasutajate lisamise või eemaldamise või vaultvõtme saladuste lisamisega), siis need muudatused ei jõustub. Juurde pääseb ainult avaldatud keskkondadele.Dynamics 365 Finance Dynamics 365 Supply Chain Management
+Kui te ei lõpeta avaldamisprotsessi pärast uue teenusekeskkonna loomise või olemasoleva teenusekeskkonna korrigeerimist (Microsoft Azure nt kasutajate lisamise või eemaldamise või vaultvõtme saladuste lisamisega), siis need muudatused ei jõustub. Dynamics 365 Finance või Dynamics 365 Supply Chain Management.
 
 ## <a name="service-environment-statuses"></a>Teenusekeskkonna olekud
 
@@ -57,7 +57,7 @@ Mõne stsenaariumi korral võivad muud rakendused peale finantside või tarneahe
 
 Kuna Microsoft nõuab kõrget turvakontrolli rakenduste üle, mis võivad ühenduda elektroonilise arveldamise teenusega, <DGXRegulatoryservicesengineering@service.microsoft.com> peate Ühendust Microsoftiga ja esitama oma rakendusele järgmised üksikasjad:
 
-- Azure AD’i rentniku ID
+- Azure AD-i rentniku ID
 - Microsoft Dynamics Elutsükli teenuste (LCS) keskkonna ID
 - Rakenduse ID (kliendi ID)
 - Objekti ID

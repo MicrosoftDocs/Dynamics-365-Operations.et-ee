@@ -1,6 +1,6 @@
 ---
 title: Varude ajalise jaotuse aruande näited ja loogika
-description: Selles teemas on toodud näited selle kohta, kuidas tõlgendada varude ajalise jaotuse aruande tulemusi.
+description: See artikkel sisaldab mõningaid näiteid, mis näitavad, kuidas varude aegumisaruande tulemusi tõlgendada.
 author: JennySong-SH
 ms.date: 5/29/2020
 ms.topic: article
@@ -16,24 +16,24 @@ ms.search.industry: Manufacturing
 ms.author: yanansong
 ms.search.validFrom: 2020-5-29
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4cfffa49f802c601da391617b123134c435fba92
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 40066431ddfb9644c059025eac55d1b36789882e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672342"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848016"
 ---
 # <a name="inventory-aging-report-examples-and-logic"></a>Varude ajalise jaotuse aruande näited ja loogika
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas on toodud näited selle kohta, kuidas tõlgendada **varude ajalise jaotuse** aruande tulemusi. See aruanne jagab valitud kauba või kaubagrupi laos oleva koguse ja laoväärtused mitmeks perioodiks. Teema hõlmab ka aruande sisemist loogikat.
+See artikkel sisaldab mõningaid näiteid, mis näitavad, kuidas varude aegumisaruande **tulemusi tõlgendada**. See aruanne jagab valitud kauba või kaubagrupi laos oleva koguse ja laoväärtused mitmeks perioodiks. See artikkel näitab ka aruande sisemist loogikat.
 
-Selles teemas on toodud näited, mis sisalduvad standardses **varude ajalise jaotuse** aruandes. Siiski soovitame üldiselt kasutada selle aruande versiooni [Varude ajalise jaotuse aruande talletamine](inventory-aging-report-storage.md), eriti kui te peate töötlema palju kaupu ja ladusid. Varude ajalise jaotuse aruande talletamine salvestab kõik teie loodud aruanded, kuvab tulemused interaktiivse lehena ja diagrammina ning võimaldab teil eksportida kõiki salvestatud aruandeid.
+Selle artikli näidetes kuvatakse standardses varude aegumisaruandes **esitatud** tulemused. Siiski soovitame üldiselt kasutada selle aruande versiooni [Varude ajalise jaotuse aruande talletamine](inventory-aging-report-storage.md), eriti kui te peate töötlema palju kaupu ja ladusid. Varude ajalise jaotuse aruande talletamine salvestab kõik teie loodud aruanded, kuvab tulemused interaktiivse lehena ja diagrammina ning võimaldab teil eksportida kõiki salvestatud aruandeid.
 
 ## <a name="sample-data-that-is-used-in-these-examples"></a>Näidetes kasutatavad näidisandmed
 
-Teema näited põhinevad selles jaotises kirjeldatud laokannete näidisandmetel.
+Selle artikli näited põhinevad selles jaotises kirjeldatud laokannete näidisandmetel.
 
 ### <a name="storage-dimension-setup"></a>Laoala dimensiooni seadistamine
 

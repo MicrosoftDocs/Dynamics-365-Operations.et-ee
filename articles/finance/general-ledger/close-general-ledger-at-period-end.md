@@ -1,6 +1,6 @@
 ---
 title: Pearaamatu sulgemine perioodi lõpus
-description: Selles teemas kirjeldatakse ülesandeid, mida tehakse tavaliselt pearaamatu puhul perioodi sulgemisel.
+description: See artikkel kirjeldab ülesandeid, mis tavaliselt viiakse lõpule Pearaamatus perioodi sulgemisel.
 author: aprilolson
 ms.date: 08/01/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 359e177e4ac2218c28ddd7c5ac3b71ee69e652e8
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 42a5df1cd1a73462c93012b26f9b9b5c1631f2ce
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8717526"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878037"
 ---
 # <a name="close-the-general-ledger-at-period-end"></a>Pearaamatu sulgemine perioodi lõpus
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas kirjeldatakse ülesandeid, mida tehakse tavaliselt pearaamatu puhul perioodi sulgemisel. 
+See artikkel kirjeldab ülesandeid, mis tavaliselt viiakse lõpule Pearaamatus perioodi sulgemisel. 
 
 Pearaamatus võite sulgemistoiminguid teha perioodi või aasta puhul. Sulgemisprotsessid valmistavad süsteemi uueks perioodiks ette. Uueks aastaks ettevalmistamiseks peate käivitama aasta lõpetamise sulgemise protsessi. Igal organisatsioonil on eri protsessid ja etapid, mida perioodi lõpus tehakse. Järgmiselt on toodud mõni valikuline etapp perioodi lõppude puhul.
 

@@ -1,6 +1,6 @@
 ---
 title: Uued või värskendatud tegevusjuhised (august 2016)
-description: Selles teemas on esitatud uued või värskendatud tegevusjuhised, mis väljastati Microsoftile (august 2016 – kõik keeled) Microsoft Dynamics AX-i APQC ühendatud teegis. Ühtegi uut teeki Alustamine ei antud välja.
+description: Selles artiklis loetletakse uued või värskendatud ülesandejuhendid, mis avaldati Microsoftile (august 2016 – kõik keeled) APQC Unified Library for Microsoft Dynamics AX. Ühtegi uut teeki Alustamine ei antud välja.
 author: josaw1
 ms.date: 06/20/2017
 ms.topic: article
@@ -14,22 +14,22 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: be2dbf8307baa37549e2e81ec05f067ab82bfda8e77cace6a4f4731a84f2776d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 16777901e66aeac93c8e0bbd2ee024a033fe5b52
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733073"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886546"
 ---
 # <a name="new-or-updated-task-guides-august-2016"></a>Uued või värskendatud tegevusjuhised (august 2016)
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas on esitatud uued või värskendatud tegevusjuhised, mis väljastati Microsoftile (august 2016 – kõik keeled) Microsoft Dynamics AX-i APQC ühendatud teegis. Ühtegi uut teeki Alustamine ei antud välja.
+Selles artiklis loetletakse uued või värskendatud ülesandejuhendid, mis avaldati Microsoftile (august 2016 – kõik keeled) APQC Unified Library for Microsoft Dynamics AX. Ühtegi uut teeki Alustamine ei antud välja.
 
 ## <a name="task-guides-in-the-august-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>Tegevusjuhised (august 2016 – kõik keeled) Microsoft Dynamics AX-i APQC ühendatud teegis
 
-(August 2016 – kõik keeled) APQC ühendatud teegis on tegevusjuhised, mis on mõeldud kasutamiseks Microsoft Dynamics AX-i platvormivärskenduse 2 (august 2016), Dynamics AX -i 2016. aasta maivärskenduse ja Microsoft Dynamics AX-i 2016. aasta veebruariväljaandega. Nende väljalasete kohta lisateabe saamiseks vaadake jaotist [Mida on rakenduse Finance and Operations avalehel uut või muudetud](whats-new-changed.md). Tegevusejuhiste lokaliseeritud versioonid on saadaval selles teegis. Lisateavet selle kohta, kuidas luua ühendus spikrisüsteemi ja tegevuse juhiste teegi vahel, leiate jaotisest [Spikrisüsteem](help-overview.md).
+(August 2016 – kõik keeled) APQC ühendatud teegis on tegevusjuhised, mis on mõeldud kasutamiseks Microsoft Dynamics AX-i platvormivärskenduse 2 (august 2016), Dynamics AX -i 2016. aasta maivärskenduse ja Microsoft Dynamics AX-i 2016. aasta veebruariväljaandega. Lisateavet nende väljaannete kohta leiate teemast [Mis on uut või mida on muudetud Finance and Operationsi avalehel?](whats-new-changed.md) Tegevusejuhiste lokaliseeritud versioonid on saadaval selles teegis. Lisateavet selle kohta, kuidas luua ühendus spikrisüsteemi ja tegevuse juhiste teegi vahel, leiate jaotisest [Spikrisüsteem](help-overview.md).
 
 ### <a name="data-access"></a>Juurdepääs andmetele
 

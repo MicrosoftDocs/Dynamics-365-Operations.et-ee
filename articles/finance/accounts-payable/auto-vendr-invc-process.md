@@ -1,6 +1,6 @@
 ---
 title: Automatiseeritud hankijaarveldusprotsesside ülevaade
-description: Selles teemas kirjeldatakse hankijaarveldusprotsesside automatiseerimise võimalust ja automatiseeritud protsessi kasutamise eeliseid.
+description: See artikkel kirjeldab hankija arve töötlemise automaatset automatiseerimise võimalusi ja automatiseeritud protsessi kasutamise soodustusi.
 author: abruer
 ms.date: 02/12/2021
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: f21b76bb0d30370e4ea4fdd718999d537e9ce925
-ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
+ms.openlocfilehash: d2c629ed2d064a3350ec8ffe53940098d12ab0b5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/26/2022
-ms.locfileid: "8358421"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883441"
 ---
 # <a name="automated-vendor-invoicing-processes-overview"></a>Automatiseeritud hankijaarveldusprotsesside ülevaade
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas kirjeldatakse hankijaarveldusprotsesside automatiseerimise võimalust ja automatiseeritud protsessi kasutamise eeliseid. See võimalus koosneb funktsioonidest, mis lülitatakse sisse funktsioonihalduses. Need funktsioonid rakenduvad ainult hankija arvete korral, mitte arvete puhul, mida töödeldakse lehe **Arve tööleht** või **Arveregistri tööleht** kaudu.
+See artikkel kirjeldab hankija arve töötlemise automaatset automatiseerimise võimalusi ja automatiseeritud protsessi kasutamise soodustusi. See võimalus koosneb funktsioonidest, mis lülitatakse sisse funktsioonihalduses. Need funktsioonid rakenduvad ainult hankija arvete korral, mitte arvete puhul, mida töödeldakse lehe **Arve tööleht** või **Arveregistri tööleht** kaudu.
 
 Organisatsioonid töötavad tihti koos kolmandate osapooltega, et töödelda paberarveid optilise märgituvastuse (OCR) teenuse pakkuja kaudu. Teenusepakkuja tagastab masinloetavad arve metaandmed. Automatiseerimise hõlbustamiseks võimaldavad ostureskontro automatiseerimise funktsioonid teil tarbida neid artefakte ostureskontro funktsiooni kaudu.
 

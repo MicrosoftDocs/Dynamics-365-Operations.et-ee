@@ -1,6 +1,6 @@
 ---
 title: Kassa tellimuse teatiste kuvamine
-description: Selles teemas kirjeldatakse tellimuse teatiste kuvamise lubamist kassas ja teatiste raamistikku.
+description: See artikkel kirjeldab, kuidas lubada tellimuse teatisi müügipunktis ja teatise raamistikus.
 author: ShalabhjainMSFT
 ms.date: 03/12/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 7166afdb43c7e835170c5768a0767f2943222b19c00c7d0aaf067263845651f8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a9e646d6bf48461e78dc75c8a154f2fbf1443393
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714134"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853951"
 ---
 # <a name="show-order-notifications-in-the-point-of-sale-pos"></a>Kassa tellimuse teatiste kuvamine
 
@@ -65,10 +65,10 @@ Kui kauplusele määratakse täitmiseks uusi tellimusi, muutub teatiseikoon, nä
 
 ## <a name="enable-live-content-on-pos-buttons"></a>Reaalajas sisu lubamine kassa nuppudel
 
-Kassa nupud saavad nüüd kuvada arvu, mis võimaldab töötajatel hõlpsalt näha, millised ülesanded vajavad viivitamatut tähelepanu. Selle arvu kuvamiseks kassa nupul peate lõpule viima eelnevalt selles teemas kirjeldatud teatise seadistamise (st, peate lubama toimingu teavitused, seadistama teatise intervalli ja uuendama töötaja kassaloa gruppi). Lisaks peate avama nupupaneeli koostaja, vaatama nupu atribuute ja valima märkeruudu **Luba reaalajas sisu**. Väljal **Sisu joondamine** saate valida, kas arv kuvatakse nupu parempoolses ülemises nurgas (**Üleval paremal**) või keskel (**Keskel**).
+Kassa nupud saavad nüüd kuvada arvu, mis võimaldab töötajatel hõlpsalt näha, millised ülesanded vajavad viivitamatut tähelepanu. Selle numbri kuvamiseks müügikoha nupul peate lõpule määrama teate seadistuse, mida on selles artiklis varem kirjeldatud (st et peate lubama toimingu teatised, seadistama teatise intervalli ja värskendama töötaja kassa õiguste gruppi). Lisaks peate avama nupupaneeli koostaja, vaatama nupu atribuute ja valima märkeruudu **Luba reaalajas sisu**. Väljal **Sisu joondamine** saate valida, kas arv kuvatakse nupu parempoolses ülemises nurgas (**Üleval paremal**) või keskel (**Keskel**).
 
 > [!NOTE]
-> Reaalajas sisu saab lubada toimingute jaoks ainult juhul, kui nende jaoks on lehel **Kassatoimingud** valitud märkeruut **Teatiste lubamine**, nagu kirjeldati selles teemas eespool.
+> Operatsioonide reaalajas sisu saab **lubada** ainult siis, kui kassatoimingute lehel on **nende** jaoks märgitud ruut Luba teatised, nagu on kirjeldatud käesolevas artiklis.
 
 Järgmine joonis näitab reaalajas sisu sätteid nupupaneeli koostajas.
 

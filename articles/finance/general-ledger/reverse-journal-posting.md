@@ -1,6 +1,6 @@
 ---
 title: Tühistatud sisestustööleht
-description: See teema kirjeldab võimeid, mis võimaldavad kandeid kannete loendist või finantslehtedelt tagasi võtta.
+description: See artikkel kirjeldab võimalusi, mis võimaldavad teil tühistada kandeid kande kandeloendist või finantstöölehtedelt.
 author: kweekley
 ms.date: 10/08/2019
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fb1615312e9fd1786a5a0050dda3e9e9b20fe710
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: bec7d5d0dd64a2d89b00e2aa630a4fe670feaa2b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7753774"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868398"
 ---
 # <a name="reverse-journal-posting"></a>Tühistatud sisestustööleht
 
 [!include [banner](../includes/banner.md)]
 
-See teema kirjeldab võimalusi lahenduses Microsoft Dynamics 365 Finance, mis lubavad teil kogu töölehe tagasi võtta või ühe või mitu kannet kannete loendist tagasi võtta, sõltumata nende päritolust. 
+See artikkel kirjeldab võimalusi Microsoft Dynamics 365 Finance, mis võimaldab teil tühistada terve töölehe või tühistada kande kannete loendist ühe või mitu kannet, olenemata nende päritolust. 
 
-Enne, kui saate kasutada selles teemas kirjeldatud funktsioone, peate need oma süsteemis sisse lülitama. Administraatorid saavad kasutada **funktsioonihalduse** tööruumi, et kontrollida funktsiooni olekut ja vajadusel selle sisse lülitada. Seega on funktsioon loetletud järgmisel viisil.
+Enne kui saate ühte selles artiklis kirjeldatud funktsioonidest kasutada, peab see olema süsteemist sisse lülitatud. Administraatorid saavad kasutada **funktsioonihalduse** tööruumi, et kontrollida funktsiooni olekut ja vajadusel selle sisse lülitada. Seega on funktsioon loetletud järgmisel viisil.
  - Moodul: Pearaamat
  - Funktsiooni nimi: **mitme dokumendi hulgipööramised**
 
@@ -69,7 +69,7 @@ Kui kandes on üle 100 rea, käivitatakse tühistamise protsess pakktöötluse a
 
 Kui kanderidade arv on kuni 100, käivitub tühistamise protsess kohe. Tulemused kuvatakse dialoogiboksis, kus kuvatakse mis tahes kannet, mida ei saanud tühistada, koos põhjusega. Valige dialoogiboksi sulgemiseks suvand **OK**.
 
-Kandeid saab tühistada ainult juhul, kui need vastavad nende tühistamise ärireeglitele. Hankija makseid ei saa muuta, kasutades selles teemas kirjeldatud võimalusi. Hankija maksed tuleb tagasi võtta, järgides juhiseid, mis on toodud teemas [Hankija makse storneerimine](../accounts-payable/reverse-vendor-payment.md).
+Kandeid saab tühistada ainult juhul, kui need vastavad nende tühistamise ärireeglitele. Hankijamakseid ei saa selles artiklis kirjeldatud võimaluse abil tagasi võtta. Hankija maksed tuleb tagasi võtta, järgides juhiseid, mis on toodud teemas [Hankija makse storneerimine](../accounts-payable/reverse-vendor-payment.md).
 
 
 

@@ -1,6 +1,6 @@
 ---
-title: Nõudluse prognoosi seadistus
-description: Selles teemas kirjeldatakse seadistustoiminguid, mida tuleb nõudluse prognoosimiseks valmistumiseks teha.
+title: Nõudluse prognoosi häälestus
+description: See artikkel kirjeldab seadistustoiminguid, mida peate tegema, et valmistuda nõudluse prognoosimiseks.
 author: t-benebo
 ms.date: 11/23/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c3b52b970a8040dcba5a1fc59d297dc9ce1a3c53
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
-ms.translationtype: MT
+ms.openlocfilehash: 10a211e0e20f22dfbfdb4923841808750b6ed71b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8470005"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900998"
 ---
 # <a name="demand-forecasting-setup"></a>Nõudluse prognoosi häälestus
 
 [!include [banner](../includes/banner.md)]
 
-See teema kirjeldab, kuidas seadistada nõudluse prognoosimist.  
+See artikkel kirjeldab, kuidas seadistada nõudluse prognoosimist.  
 
 ## <a name="item-allocation-keys"></a>Kauba eraldamisvõtmed
 
@@ -245,7 +245,7 @@ Kasutage järgmist protseduuri uue masina õppe tööruumi loomiseks.
 1. Viige viisard lõpule, järgides ekraanil kuvatavaid juhiseid. Pidage järgmisi punkte silmas, kui töötate:
 
     - Kasutage vaikesätteid, kui selles loendis ei soovitata erinevaid sätteid.
-    - Valige kindlasti geograafiline piirkond, mis vastab regioonile, kus teie tarneahela halduseksemplari juurutatakse. Vastasel juhul võivad mõned teie andmed läbida regiooni piirid. Lisateabe saamiseks vt selles teemas [hiljem privaatsusteatist](#privacy).
+    - Valige kindlasti geograafiline piirkond, mis vastab regioonile, kus teie tarneahela halduseksemplari juurutatakse. Vastasel juhul võivad mõned teie andmed läbida regiooni piirid. Lisateabe saamiseks vt [privaatsusteatist](#privacy) (selles artiklis).
     - Kasutage sihtotstarbeliseid ressursse, nt ressursigruppe, salvestuskontosid, konteinerite registriid, Azure'i võtme vaulte ja ressursiressursse.
     - Viisardi **lehel Azure Machine Learning Service ühenduse parameetrite** häälestamiseks peate andma talletuskonto nime. Kasutage kontot, mis on seotud nõudluse prognoosimisega. Nõudluse prognoosimise sisend- ja väljundandmed talletatakse sellel ladustamiskontol.
 
@@ -278,7 +278,7 @@ Kasutage järgmist protseduuri andmetöötlusressursi häälestamiseks Azure Mac
 1. **Vahekaardil Kogumite arvutamine** valige suvand **Uus**, et avada viisard, mis aitab teil luua uue arvutuskogumi. Järgige ekraanil toodud juhiseid. Andmetöötluskogumit kasutatakse nõudluse prognooside loomiseks. Selle sätted mõjutavad käituse jõudlust ja paralleelsuse maksimaalset taset. Seadistage järgmised väljad, kuid kasutage kõigi muude väljade vaikesätteid:
 
     - **Nimi** – sisestage *e2ecpuruluster*.
-    - **Virtuaalmasina suurus** – korrigeerige seda sätet vastavalt andmete mahule, mida eeldate kasutada sisendina nõudluse prognoosimiseks. Sõlmede arv ei tohi ületada 11, kuna nõudluse prognoosi loomise käivitamiseks on vaja ühte sõlme ja maksimumarv sõlmede arvu, mida saab seejärel prognoosi loomiseks kasutada, on 10. (Määrate sõlmede arvu ka parameters.py failis [5. etapp: konveierite sektsiooni](#create-pipelines) loomine.) Igas sõlmes on mitu töötajaprotsessi, mis käivitavad prognoosiskripte paralleelselt. Töötaja protsesside koguarv teie töös on tuumade *arv, mida* sõlmel on × *loendada*. Näiteks kui *teie arvutatud kobara tüüp on StandardD4\_* (kaheksa tuuma) ja kuni 11 sõlme ning `nodes_count`*kui parameters.py-failis on väärtuseks seatud 10*, on paralleelsuse tegelik tase 80.
+    - **Virtuaalmasina suurus** – korrigeerige seda sätet vastavalt andmete mahule, mida eeldate kasutada sisendina nõudluse prognoosimiseks. Sõlmede arv ei tohi ületada 11, kuna nõudluse prognoosi loomise käivitamiseks on vaja ühte sõlme ja maksimumarv sõlmede arvu, mida saab seejärel prognoosi loomiseks kasutada, on 10. (Määrate sõlmede arvu ka parameters.py failis [5. etapp: konveierite sektsiooni](#create-pipelines) loomine.) Igas sõlmes on mitu töötajaprotsessi, mis käivitavad prognoosiskripte paralleelselt. Töötaja protsesside koguarv teie töös on tuumade *arv, mida* sõlmel on × *loendada*. Näiteks kui *teie arvutatud kobara tüüp on Standardne\_ D4* (kaheksa tuuma) ja kuni 11 sõlme ning `nodes_count`*kui parameters.py-failis on väärtuseks seatud 10*, on paralleelsuse tegelik tase 80.
 
 ##### <a name="step-5-create-pipelines"></a><a name="create-pipelines"></a> 5. etapp: müügivõimaluste loomine
 
@@ -294,7 +294,7 @@ Müügivõimaluste abil saab käivitada tarneahela haldamisest prognoosi skripte
 1. Azure Machine Learning Studios valige **navigaator** navigatsioonistuudios Arvutid.
 1. Failide struktuuris leiate järgmise **asukoha** : kasutajad **/\[praegune kasutaja\]/src**.
 1. Laadige üles neli faili, mille alla laadisite sammus 1 eelmises sammus leitud asukohta.
-1. Avage ja vaadake üle Azure'i **parameters.py,** mille äsja üles laadisite. Veenduge, et väärtus `nodes_count` on üks väiksem [kui väärtus, mille konfigureerisid arvutuskogumi jaoks sammus 4: arvuta ressursside](#config-compute-resources) konfigureerimine. Kui väärtus `nodes_count` on suurem kui sõlmede arv arvutamiskogumis või sellega võrdne, võib müügivõimaluste käitamine olla võimeline käivituma. Kuid see lõpetab siis vastamise, kuni ootab nõutavaid ressursse. Lisateavet sõlmede arvu kohta vt sammust [4: andmetöötlusressursside konfigureerimine](#config-compute-resources).
+1. Azure'is avage ja vaadake parameters.py **fail**, mille äsja üles laadisite. Veenduge, et väärtus `nodes_count` on üks väiksem [kui väärtus, mille konfigureerisid arvutuskogumi jaoks sammus 4: arvuta ressursside](#config-compute-resources) konfigureerimine. Kui väärtus `nodes_count` on suurem kui sõlmede arv arvutamiskogumis või sellega võrdne, võib müügivõimaluste käitamine olla võimeline käivituma. Kuid see lõpetab siis vastamise, kuni ootab nõutavaid ressursse. Lisateavet sõlmede arvu kohta vt sammust [4: andmetöötlusressursside konfigureerimine](#config-compute-resources).
 1. Valige äsja **üleslaaditud api_trigger.meetri** fail ja käivitage see. See loob müügivõimaluste, mille saab API kaudu käivitada.
 
 ### <a name="set-up-a-new-active-directory-application"></a><a name="aad-app"></a> Uue Active Directory rakenduse seadistamine

@@ -1,6 +1,6 @@
 ---
 title: ER-i funktsioon VALUEINLARGE
-description: See teema sisaldab teavet selle kohta, kuidas kasutatakse elektroonilise aruandluse (ER) funktsiooni VALUEINLARGE.
+description: See artikkel annab teavet selle kohta, kuidas valueINLARGE elektroonilise aruandluse (ER) funktsiooni kasutatakse.
 author: NickSelin
 ms.date: 08/17/2020
 ms.prod: ''
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-08-01
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: 57b2246631b31cce10d086da29e76b729059a64aa6a3c2d8cf864dd70085dbfd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 977c1cd7dac75781677461b288bc8e5e79d13e6f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6725256"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888141"
 ---
 # <a name="valueinlarge-er-function"></a>ER-i funktsioon VALUEINLARGE
 
 [!include [banner](../includes/banner.md)]
 
-Funktsioon `VALUEINLARGE` määratleb, kas määratud *Int64* või *Täisarv*-tüüpi sisend vastab määratud loendis määratud üksuse mis tahes väärtusele. Funktsioon tagastab *kahendmuutuja* väärtuse **TRUE**, kui määratud sisestus ühtib määratud avaldise käivitamise tulemusega vähemalt ühe määratud loendi kirje puhul. Muidu tagastab see *kahendväärtuse* **VÄÄR**. Erinevusest funktsiooniga `VALUEIN` aru saamiseks lugege selle teema hilisemat jaotist [Kasutusmärkus](#usage_note).
+Funktsioon `VALUEINLARGE` määratleb, kas määratud *Int64* või *Täisarv*-tüüpi sisend vastab määratud loendis määratud üksuse mis tahes väärtusele. Funktsioon tagastab *kahendmuutuja* väärtuse **TRUE**, kui määratud sisestus ühtib määratud avaldise käivitamise tulemusega vähemalt ühe määratud loendi kirje puhul. Muidu tagastab see *kahendväärtuse* **VÄÄR**. Funktsiooni erinevusest aru saada `VALUEIN` vt selle artikli [jaotisest](#usage_note) Kasutusmarve.
 
 ## <a name="syntax"></a>Süntaks
 

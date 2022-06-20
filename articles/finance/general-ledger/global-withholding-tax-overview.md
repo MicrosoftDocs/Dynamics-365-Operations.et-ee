@@ -1,6 +1,6 @@
 ---
 title: Globaalne kinnipeetav maks
-description: Selles teemas antakse teavet globaalsete kinnipeetava maksu funktsionaalsuse ja selle seadistamise kohta. Globaalse kinnipeetava maksu funktsionaalsus on võimendatud hankija ja kliendi tehingute jaoks, nii et kinnipeetav maks arvutatakse kauba tasemel.
+description: See artikkel annab teavet globaalsete kinnipeetava maksu funktsioonide ja selle kohta, kuidas seda seadistada. Globaalse kinnipeetava maksu funktsionaalsus on võimendatud hankija ja kliendi tehingute jaoks, nii et kinnipeetav maks arvutatakse kauba tasemel.
 author: kailiang
 ms.date: 01/12/2021
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2020-01-12
 ms.dyn365.ops.version: AX 10.0.16
-ms.openlocfilehash: 9cb02ba77fa33c839bc2a74811131973d1e5877f
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: 49d5048b9df30e94d959cf9f22b8ae837b74abdd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720219"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846824"
 ---
 # <a name="global-withholding-tax"></a>Globaalne kinnipeetav maks
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas antakse teavet globaalsete kinnipeetava maksu funktsionaalsuse kohta ja selgitatakse selle seadistamist. Uus funktsionaalsus on saadaval versioonis 10.0.17 ja uuemates.
+See artikkel annab teavet globaalse kinnipeetava maksu funktsiooni kohta ja selgitab selle seadistamist. Uus funktsionaalsus on saadaval versioonis 10.0.17 ja uuemates.
 
 Globaalse kinnipeetava maksu funktsionaalsus on võimendatud hankija ja kliendi tehingute jaoks, nii et kinnipeetav maks arvutatakse kauba tasemel. Ostutehingutest kinnipeetava maksu konto saldot saab tasakaalustada, käitades kinnipeetava maksu töö kinnipeetava maksu tasakaalustuskonto vastu.
 

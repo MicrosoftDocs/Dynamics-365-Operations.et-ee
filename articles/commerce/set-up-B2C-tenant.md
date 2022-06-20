@@ -1,6 +1,6 @@
 ---
-title: B2C rentniku seadistus Kaubanduses
-description: Selles teemas kirjeldatakse kuidas seadistada Azure Active Directory (Azure AD) ettevõtja ja tarbija vahelisi (B2C) rentnikke kasutaja saidi autentimiseks rakenduses Dynamics 365 Commerce.
+title: Jaekaubandusrentniku häälestamine Commerce'is
+description: See artikkel kirjeldab, kuidas Azure Active Directory seadistada oma (Azure AD) ettevõtte-tarbe (B2C) rentnikud kasutajasaidi autentimiseks moodulis Dynamics 365 Commerce.
 author: BrianShook
 ms.date: 05/05/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 086128091b23ce6ab46dd2dfc0803af38de6bac7
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 4b1ee8999717d70dfe36baef95921962a1b7be65
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8714308"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853737"
 ---
-# <a name="set-up-a-b2c-tenant-in-commerce"></a>B2C rentniku seadistus Kaubanduses
+# <a name="set-up-a-b2c-tenant-in-commerce"></a>Jaekaubandusrentniku häälestamine Commerce'is
 
 [!include [banner](includes/banner.md)]
 
-Selles teemas kirjeldatakse kuidas seadistada Azure Active Directory (Azure AD) ettevõtja ja tarbija vahelisi (B2C) rentnikke kasutaja saidi autentimiseks rakenduses Dynamics 365 Commerce.
+See artikkel kirjeldab, kuidas Azure Active Directory seadistada oma (Azure AD) ettevõtte-tarbe (B2C) rentnikud kasutajasaidi autentimiseks moodulis Dynamics 365 Commerce.
 
 Dynamics 365 Commerce kasutab Azure AD B2C'd kasutaja mandaadi ja autentimise voogude toetamiseks. Kasutaja saab nende voogude kaudu registreeruda, sisse logida ja lähtestada parooli. Azure AD B2C talletab kasutaja tundliku autentimisteabe, nt kasutajanime ja parooli. B2C rentniku kasutajakirje salvestab kas kohaliku B2C kontokirje või B2C sotsiaalse identiteedi pakkuja kirje. Need B2C kirjed lingitakse Commerce'i keskkonna kliendikirjetega.
 

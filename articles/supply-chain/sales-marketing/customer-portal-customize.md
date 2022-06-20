@@ -1,6 +1,6 @@
 ---
 title: Kliendiportaali kohandamine ja kasutamine
-description: Selles teemas selgitatakse, kuidas kohandada kliendiportaali pärast teie süsteemi lisamist.
+description: See artikkel selgitab, kuidas kohandada kliendiportaali pärast selle lisamist teie süsteemi.
 author: Henrikan
 ms.date: 04/22/2020
 ms.topic: article
@@ -12,19 +12,19 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 02ad0470b7886b2e9b259682a7f8c8150d656cfb
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 85ec4beda2efe62ff5076a5ed694efbc47c6d87f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063489"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878870"
 ---
 # <a name="customize-and-use-the-customer-portal"></a>Kliendiportaali kohandamine ja kasutamine
 
 [!include [banner](../includes/banner.md)]
 
 
-Selles teemas kirjeldatakse erinevaid lehti, mis on valmiskujul kliendiportaalis saadaval. Selles seletatakse, mida lehed teevad ja kuidas saate neid kohandada.
+See artikkel kirjeldab erinevaid lehekülgi, mis on saadaval kliendi portaalis väljast. Selles seletatakse, mida lehed teevad ja kuidas saate neid kohandada.
 
 Kliendiportaal pakub valmiskujul mõningaid veebilehti ja toiminguid. Järgmine saidikaart annab ülevaate nendest veebisaitidest ja toimingutest ning samuti rollidest, mis saavad nimetatud toiminguid teha.
 
@@ -32,16 +32,16 @@ Kliendiportaal pakub valmiskujul mõningaid veebilehti ja toiminguid. Järgmine 
 
 ## <a name="typical-customizations"></a>Tavalised kohandused
 
-Järgmised teemad aitavad teil õppida Power Appsi portaalide põhitõdesid ning portaalide kohandamise viise.
+Järgmised artiklid aitavad teil saada teada portaalide põhitõed Power Apps ja kuidas saate portaale kohandada:
 
-- [Töö mallidega](/powerapps/maker/portals/work-with-templates) – selles teemas antakse üldine ülevaade sellest, kuidas Power Appsi portaalid toimivad ja kuidas saate teha portaalides lihtsamaid kohandusi.
-- [Portaali sisu haldamine](/dynamics365/portals/manage-portal-content) – selles teemas selgitatakse, kuidas saate hallata ja kohandada sisu, mida oma portaalis kasutate.
-- [CSS-i redigeerimine](/powerapps/maker/portals/edit-css) – see teema aitab teil teha oma portaali kasutajaliidese keerukamaid kohandusi.
-- [Portaali jaoks teema loomine](/dynamics365/portals/create-theme) – selles teemas aidatakse teil luua oma portaali kasutajaliidese teema.
-- [Portaali sisu lihtne loomine ja esitamine](/dynamics365/portals/create-expose-portal-content) – selles teemas aidatakse teil hallata alusandmeid ja -tabeleid, mida oma portaalis kasutate.
-- [Kontakti konfigureerimine portaalis kasutamiseks](/powerapps/maker/portals/configure/configure-contacts) – selles teemas selgitatakse, kuidas luua ja kohandada kasutajarolle ning kuidas toimivad Power Appsi portaalide turve ja autentimine.
-- [Teadete konfigureerimine portaalide tabeli- ja veebivormide jaoks](/powerapps/maker/portals/configure-notes) – selles teemas selgitatakse, kuidas lisada portaali dokumente ja täiendavat mäluruumi.
-- [Portaali veebisaidi tõrketöötlus](/powerapps/maker/portals/admin/view-portal-error-log) – selles teemas selgitatakse, kuidas kuvada portaali tõrkelogisid ja salvestada neid oma Microsoft Azure'i bloobimälu kontol.
+- [Töötada mallidega](/powerapps/maker/portals/work-with-templates) – see artikkel annab ülevaate Power Apps portaalide töö ja portaalide lihtsate kohanduste kohta.
+- [Portaali sisu haldamine](/dynamics365/portals/manage-portal-content) – see artikkel selgitab, kuidas saate hallata ja kohandada sisu, mille olete oma portaalis pinnaks.
+- [Redigeerimine CSS](/powerapps/maker/portals/edit-css) – see artikkel aitab teil teha keerukamaid portaali kasutajaliidese (UI) kohandusi.
+- [Looge oma portaali jaoks kujundus](/dynamics365/portals/create-theme) – see artikkel aitab luua portaali jaoks kasutajaliidese kujunduse.
+- [Looge ja mugavam portaali sisu –](/dynamics365/portals/create-expose-portal-content) see artikkel aitab hallata aluseks olevaid andmeid ja tabeleid, mida oma portaalis kasutate.
+- [Konfigureerige kontakt portaalis](/powerapps/maker/portals/configure/configure-contacts) kasutamiseks – see artikkel selgitab kasutajarollide loomise ja kohandamise ning turvalisuse ja autentimise tööd portaalides Power Apps.
+- [Konfigureerige märkused tabelivormidele ja veebivormidele portaalides](/powerapps/maker/portals/configure-notes) – see artikkel selgitab, kuidas lisada portaali dokumente ja täiendavat talletusruumi.
+- [Tõrkekäsitlus portaali veebisaidi puhul](/powerapps/maker/portals/admin/view-portal-error-log) – see artikkel selgitab, kuidas kuvada portaali tõrkelogisid ja salvestada need oma Microsoft Azure bloobi talletuskontole.
 
 ## <a name="customize-the-order-creation-process"></a>Tellimuse loomise protsessi kohandamine
 

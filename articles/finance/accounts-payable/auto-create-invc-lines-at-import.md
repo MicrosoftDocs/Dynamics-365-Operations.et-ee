@@ -1,6 +1,6 @@
 ---
 title: Arveridade loomine hankija arvete importimisel
-description: Selles teemas kirjeldatakse arvete importimisel hankija arvetele arveridade automaatse loomise funktsiooni.
+description: See artikkel kirjeldab arvete importimisel hankija arvetele arveridade automaatse loomise funktsiooni.
 author: sunfzam
 ms.date: 09/10/2021
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-08-30
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: e452bda02c814b78c4bb48140b07f0113ab4a571
-ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
+ms.openlocfilehash: e745ab1fb39edf69fabd147e46e1da8cc98ba6e5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/26/2022
-ms.locfileid: "8358310"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903503"
 ---
 # <a name="generate-invoice-lines-when-you-import-vendor-invoices"></a>Arveridade loomine hankija arvete importimisel
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Selles teemas kirjeldatakse arvete importimisel hankija arvetele arveridade automaatse loomise funktsiooni.
+See artikkel kirjeldab arvete importimisel hankija arvetele arveridade automaatse loomise funktsiooni.
 
 Mõnikord sisaldavad hankija arved piiratud teavet, nt saaja teavet ja vahesummasid. Need ei sisalda aga reaüksuste teavet. Arvete importimisel luuakse arveread automaatselt vastava ostutellimuse teabe alusel.
 
@@ -42,7 +42,7 @@ Arveridade automaatse loomise lubamiseks järgige neid samme.
 
 ## <a name="data-entity-changes"></a>Andmeüksuse muudatused
 
-Selles teemas kirjeldatud funktsioonide toetamiseks on täiustatud **hankija arve päise** andmeüksust. Lisatud on kolm välja:
+Selles artiklis kirjeldatud funktsioonide toetamiseks on hankija **arve päise andmeüksus** täiustatud. Lisatud on kolm välja:
 
 - **HeaderOnlyImport** – arve päiste ridade loomiseks **tuleb** selle välja väärtuseks seada Jah.
 - **PurchIdRange** – ostutellimuste numbrite loend. Arvenumbrid võivad olla vahemikus nagu näiteks **INV0001..INV0009** (kus kaks punkti eraldavad vahemiku algust ja lõppu) või diskreetsed väärtused, nagu näiteks **INV0001, INV0003, INV0006**. Kõik ostutellimused peavad kuuluma arve päises samale hankijakontole. Vastasel juhul kuvatakse järgmine tõrketeade: "Arveridade loomine nurjus. Ostutellimustel on erinevad hankijakontod."

@@ -1,6 +1,6 @@
 ---
 title: Mahaarvamise töölaual mahaarvamiste haldamine
-description: Selles teemas kirjeldatakse mahaarvamise töölaua kasutamist mahaarvamisi sisaldavate kliendimaksete töötlemiseks.
+description: See artikkel kirjeldab, kuidas kasutada mahaarvamise töölaual mahaarvamisi sisaldavad kliendi maksete töötlemiseks.
 author: sherry-zheng
 ms.date: 08/02/2021
 ms.topic: article
@@ -11,23 +11,23 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: bf98529176fbed368708ea925f542a70f2936037
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: 607ad528b56d1f0c9a78e113f67c920cdae6e620
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500398"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873604"
 ---
 # <a name="manage-deductions-using-the-deduction-workbench"></a>Mahaarvamise töölaual mahaarvamiste haldamine
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas kirjeldatakse mahaarvamise töölaua kasutamist mahaarvamisi sisaldavate kliendimaksete töötlemiseks.
+See artikkel kirjeldab, kuidas kasutada mahaarvamise töölaual mahaarvamisi sisaldavad kliendi maksete töötlemiseks.
 
 Klient, kellel on saada tagasimakse, võib otsustada tagasimakse väljamaksmist mitte oodata. Selle asemel võib klient saata makse, mis sisaldab mahaarvamist tagasimakse summa ulatuses. Seda tüüpi kannete käsitlemiseks saate kasutada mahaarvamise töölauda, et vastendada mahaarvamisi kreeditkannete avamiseks, mahaarvamiste tükeldamiseks, mahaarvamistest keeldumiseks ja nende mahakandmiseks.
 
 > [!NOTE]
-> Mahaarvamise töölaud on olnud pikk aeg Microsoft Dynamics 365 Supply Chain Management müügi ja turunduse funktsiooni osa. Nüüd on seda siiski täiustatud, nii et see töötab ka uuema **tagasimaksehalduse** mooduliga. See teema kirjeldab, kuidas kasutada mahaarvamise töölaual nii vanemaid funktsioone kui ka tagasimaksehalduse funktsioone. Kui te pole siiski [oma süsteemi jaoks **tagasimakse halduse** moodulit sisse lülitanud](rebate-management-enable.md), ei ole mõned siin kirjeldatud funktsioonid teile saadaval.
+> Mahaarvamise töölaud on olnud pikk aeg Microsoft Dynamics 365 Supply Chain Management müügi ja turunduse funktsiooni osa. Nüüd on seda siiski täiustatud, nii et see töötab ka uuema **tagasimaksehalduse** mooduliga. See artikkel kirjeldab, kuidas kasutada mahaarvamise töölaual nii vanemaid funktsioone kui ka tagasimaksehalduse funktsioone. Kui te pole siiski [oma süsteemi jaoks **tagasimakse halduse** moodulit sisse lülitanud](rebate-management-enable.md), ei ole mõned siin kirjeldatud funktsioonid teile saadaval.
 
 ## <a name="prerequisites"></a>Eeltingimused
 
@@ -159,11 +159,11 @@ Looge mahaarvamise töölauale uus mahaarvamine, järgige neid samme.
         - *Kogusel põhinev* – luuakse negatiivne müügi- või tagastamistellimus.
 
     - **Nõude kuupäev** – valige nõude kuupäev. Praegune kuupäev on vaikeväärtus.
-    - **Nõude põhjus** – valige praeguse mahaarvamisega seotud põhjusekood. Teie valitud nõude alus mõjutab valikuid, mida rakendada. Lisateavet selle kohta, kuidas luua ja konfigureerida valikuks saadaolevaid nõude põhjusi, vt selle teema varasemast jaotisest [Mahaarvamise põhjuste loomine](#deduction-reasons).
+    - **Nõude põhjus** – valige praeguse mahaarvamisega seotud põhjusekood. Teie valitud nõude alus mõjutab valikuid, mida rakendada. Lisateavet selle kohta, kuidas luua ja konfigureerida valikuks saadaolevaid nõude põhjusi, [vt selle artikli jaotisest Mahaarvamise](#deduction-reasons) põhjuste loomine.
     - **Märkused** – saate lisada mis tahes rakenduvad märkused. Kui nõue kinnitatakse, saab kinnitaja nõude märkusi redigeerida või lisada.
     - **Loo nõude tööleh** t – määrake see suvand, et määrata, kas nõude töölehe peaks looma nõude või mahaarvamise loomisel.
 
-        - *Jah* – süsteem loob ja sisestab üldise töölehe, kasutades nõude töölehte, mis on seadistatud **Müügireskontro parameetrid** lehel. (Lisateavet vt teemast sellest teemast varasemalt toodud [Konfigureerige müügireskontro ja mahaarvamised](#accounts-receivable-deductions).) Kui nõudega on seotud arve, kasutatakse rakendatava arve saldo vähendamiseks nõude töölehte. Kui nõue hiljem tagasi lükatakse, tühistatakse nõude tööleht ja tasakaalustused (kui arve lisati).
+        - *Jah* – süsteem loob ja sisestab üldise töölehe, kasutades nõude töölehte, mis on seadistatud **Müügireskontro parameetrid** lehel. (Lisateavet vt teemast [Konfigureerige selles artiklis varasemat müügireskontro](#accounts-receivable-deductions) ja mahaarvamiste jaotist.) Kui nõudega on seotud arve, kasutatakse rakendatava arve saldo vähendamiseks nõude töölehte. Kui nõue hiljem tagasi lükatakse, tühistatakse nõude tööleht ja tasakaalustused (kui arve lisati).
         - *Ei* – praegu ei looda nõude töölehte. See luuakse nõude heakskiidul. Arve saab siiski uue nõudega siduda, isegi kui nõude töölehte ei looda. Tasakaalustust ei saa siiski ilma nõude tööleheta teha.
 
 1. Valige nupp **OK**.
@@ -197,11 +197,11 @@ Kliendi tasakaalustustest mahaarvamise loomise protsess sarnaneb mahaarvamise t�
         - *Kogusel põhinev* – luuakse negatiivne müügi- või tagastamistellimus.
 
     - **Nõude kuupäev** – valige nõude kuupäev. Praegune kuupäev on vaikeväärtus.
-    - **Nõude põhjus** – valige praeguse mahaarvamisega seotud põhjusekood. Teie valitud nõude alus mõjutab valikuid, mida rakendada. Lisateavet selle kohta, kuidas luua ja konfigureerida valikuks saadaolevaid nõude põhjusi, vt selle teema varasemast jaotisest [Mahaarvamise põhjuste loomine](#deduction-reasons).
+    - **Nõude põhjus** – valige praeguse mahaarvamisega seotud põhjusekood. Teie valitud nõude alus mõjutab valikuid, mida rakendada. Lisateavet selle kohta, kuidas luua ja konfigureerida valikuks saadaolevaid nõude põhjusi, [vt selle artikli jaotisest Mahaarvamise](#deduction-reasons) põhjuste loomine.
     - **Märkused** – saate lisada mis tahes rakenduvad märkused. Kui nõue kinnitatakse, saab kinnitaja nõude märkusi redigeerida või lisada.
     - **Loo nõude tööleh** t – määrake see suvand, et määrata, kas nõude töölehe peaks looma nõude või mahaarvamise loomisel.
 
-        - *Jah* – süsteem loob ja sisestab üldise töölehe, kasutades nõude töölehte, mis on seadistatud **Müügireskontro parameetrid** lehel. (Lisateavet vt teemast sellest teemast varasemalt toodud [Konfigureerige müügireskontro ja mahaarvamised](#accounts-receivable-deductions).) Kui nõudega on seotud arve, kasutatakse rakendatava arve saldo vähendamiseks nõude töölehte. Kui nõue hiljem tagasi lükatakse, tühistatakse nõude tööleht ja tasakaalustused (kui arve lisati).
+        - *Jah* – süsteem loob ja sisestab üldise töölehe, kasutades nõude töölehte, mis on seadistatud **Müügireskontro parameetrid** lehel. (Lisateavet vt teemast [Konfigureerige selles artiklis varasemat müügireskontro](#accounts-receivable-deductions) ja mahaarvamiste jaotist.) Kui nõudega on seotud arve, kasutatakse rakendatava arve saldo vähendamiseks nõude töölehte. Kui nõue hiljem tagasi lükatakse, tühistatakse nõude tööleht ja tasakaalustused (kui arve lisati).
         - *Ei* – praegu ei looda nõude töölehte. See luuakse nõude heakskiidul. Arve saab siiski uue nõudega siduda, isegi kui nõude töölehte ei looda. Tasakaalustust ei saa siiski ilma nõude tööleheta teha.
 
 1. Valige nupp **OK**.
@@ -235,11 +235,11 @@ Kliendi lehe mahaarvamise loomise protsess sarnaneb mahaarvamise töölaua kaudu
         - *Kogusel põhinev* – luuakse negatiivne müügi- või tagastamistellimus.
 
     - **Nõude kuupäev** – valige nõude kuupäev. Praegune kuupäev on vaikeväärtus.
-    - **Nõude põhjus** – valige praeguse mahaarvamisega seotud põhjusekood. Teie valitud nõude alus mõjutab valikuid, mida rakendada. Lisateavet selle kohta, kuidas luua ja konfigureerida valikuks saadaolevaid nõude põhjusi, vt selle teema varasemast jaotisest [Mahaarvamise põhjuste loomine](#deduction-reasons).
+    - **Nõude põhjus** – valige praeguse mahaarvamisega seotud põhjusekood. Teie valitud nõude alus mõjutab valikuid, mida rakendada. Lisateavet selle kohta, kuidas luua ja konfigureerida valikuks saadaolevaid nõude põhjusi, [vt selle artikli jaotisest Mahaarvamise](#deduction-reasons) põhjuste loomine.
     - **Märkused** – saate lisada mis tahes rakenduvad märkused. Kui nõue kinnitatakse, saab kinnitaja nõude märkusi redigeerida või lisada.
     - **Loo nõude tööleh** t – määrake see suvand, et määrata, kas nõude töölehe peaks looma nõude või mahaarvamise loomisel.
 
-        - *Jah* – süsteem loob ja sisestab üldise töölehe, kasutades nõude töölehte, mis on seadistatud **Müügireskontro parameetrid** lehel. (Lisateavet vt teemast sellest teemast varasemalt toodud [Konfigureerige müügireskontro ja mahaarvamised](#accounts-receivable-deductions).) Kui nõudega on seotud arve, kasutatakse rakendatava arve saldo vähendamiseks nõude töölehte. Kui nõue hiljem tagasi lükatakse, tühistatakse nõude tööleht ja tasakaalustused (kui arve lisati).
+        - *Jah* – süsteem loob ja sisestab üldise töölehe, kasutades nõude töölehte, mis on seadistatud **Müügireskontro parameetrid** lehel. (Lisateavet vt teemast [Konfigureerige selles artiklis varasemat müügireskontro](#accounts-receivable-deductions) ja mahaarvamiste jaotist.) Kui nõudega on seotud arve, kasutatakse rakendatava arve saldo vähendamiseks nõude töölehte. Kui nõue hiljem tagasi lükatakse, tühistatakse nõude tööleht ja tasakaalustused (kui arve lisati).
         - *Ei* – praegu ei looda nõude töölehte. See luuakse nõude heakskiidul. Arve saab siiski uue nõudega siduda, isegi kui nõude töölehte ei looda. Tasakaalustust ei saa siiski ilma nõude tööleheta teha.
 
 1. Valige nupp **OK**.
@@ -280,7 +280,7 @@ Mahaarvamise sobitamiseks kreeditiga järgige neid samme.
 1. Klõpsake tegumiribal suvandeid **Haldamine \> Vastenda**. Süsteem vastendab mahaarvamise kreeditile. Kui saldo jääb mahaarvamisse, kuvatakse see vahekaardi **Mahaarvamised** väljal **Jääksumma**.
 
     > [!NOTE]
-    > Mahaarvamiste puhul, mis loodi mahaarvamise töölaual **Uus mahaarvamine** käsuga, kliendi tasakaalustuse või kliendi lehega, on käsk **Halda \> Vastenda** saadaval ainult siis, kui **Nõude olek** väli on seatud väärtusele *Aktsepteeritud*. Seda käsku saab kasutada hinna- või kogusepõhise kande käsitsi vastendamiseks seostatud kreeditiga jaotises **Avatud kanded**. See kreedit luuakse kas siis, kui mahaarvamine on kinnitatud (kasutades käsku **Halda \> Kinnita mahaarvamine**) või kui see on lisatud olemasolevale krediidile, nagu on kirjeldatud teemas [Väljaspool mahaarvamisprotsessi kinnitamist loodud kreedit](#credits-outside-approval). *Kinnitatud mahaarvamiste* perioodilise tasakaalustamise ülesannet (**Müügi turundus \> Perioodilised ülesanded \> Sea kinnitatud mahaarvamised**) saab kasutada ka mahaarvamiste ja kreeditide automaatseks vastendamiseks, kus on vastendatud **mahaarvamise ID** väärtused ja summad.
+    > Mahaarvamiste puhul, mis loodi mahaarvamise töölaual **Uus mahaarvamine** käsuga, kliendi tasakaalustuse või kliendi lehega, on käsk **Halda \> Vastenda** saadaval ainult siis, kui **Nõude olek** väli on seatud väärtusele *Aktsepteeritud*. Seda käsku saab kasutada hinna- või kogusepõhise kande käsitsi vastendamiseks seostatud kreeditiga jaotises **Avatud kanded**. See kreedit luuakse kas siis, kui mahaarvamine on kinnitatud (**\>** kasutades käsku Kinnita mahaarvamine) [või kui see on lisatud olemasolevale krediidile, nagu on kirjeldatud selles artiklis allpoolpool mahaarvamiste](#credits-outside-approval) kinnitamise protsessi loodud kreeditis. *Kinnitatud mahaarvamiste* perioodilise tasakaalustamise ülesannet (**Müügi turundus \> Perioodilised ülesanded \> Sea kinnitatud mahaarvamised**) saab kasutada ka mahaarvamiste ja kreeditide automaatseks vastendamiseks, kus on vastendatud **mahaarvamise ID** väärtused ja summad.
 
 ### <a name="split-a-deduction"></a>Mahaarvamise tükeldamine
 

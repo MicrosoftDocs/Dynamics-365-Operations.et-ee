@@ -1,6 +1,6 @@
 ---
 title: Kasutage hankija arvete importimiseks elektroonilist arveldamisteenust
-description: See teema annab teavet selle kohta, kuidas importida hankijaarveid elektroonilise arvelduse teenuse abil.
+description: See artikkel annab teavet, kuidas importida hankija arveid elektroonilise arvelduse teenuse abil.
 author: gionoder
 ms.date: 09/03/2021
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: c28adbfe532e77a52cab7625b9539d1e8e528bea
-ms.sourcegitcommit: 19f0e69a131e9e4ff680eac13efa51b04ad55a38
+ms.openlocfilehash: 2d239bbafad9292ba6cef5534e778a2824a9cc5a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/22/2022
-ms.locfileid: "7983819"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865580"
 ---
 # <a name="use-the-electronic-invoicing-service-to-import-vendor-invoices"></a>Kasutage hankija arvete importimiseks elektroonilist arveldamisteenust
 
@@ -30,7 +30,7 @@ ms.locfileid: "7983819"
 
 [!include [banner](../includes/preview-banner.md)]
 
-See teema pakub teavet, mis aitab teil alustada hankija arvete importimist elektroonilise arveldusteenuse abil. See juhib teid läbi Regulatory Configuration Services (RCS), Dynamics 365 Finance ja Dynamics 365 Supply Chain Management konfiguratsioonietappide, mida tuleb järgida hankijalt elektrooniliste arvete saamiseks.
+See artikkel annab teavet, mis aitab teil alustada hankijaarvete importimisega elektroonilise arveldamise teenuse abil. See juhib teid läbi regulatiivsete konfiguratsiooniteenuste (RCS) konfiguratsioonietappide, Dynamics 365 Financei ja Dynamics 365 Supply Chain Management järgite hankijatelt elektrooniliste hankijaarvete saamiseks.
 
 ## <a name="set-up-vendor-invoice-import-in-rcs"></a>Hankija arve impordi häälestus RCS-is
 Hankija arve importimise häälestamiseks RCS-s järgige neid samme:
@@ -57,7 +57,7 @@ Konfigureerige e-posti konto kanal, kui teie loodud elektroonilise arveldamise f
     - Salvestatud pärast edukat töötlemist: **arhiivikaust**
     - Salvestatud pärast mitte edukat töötlemist: **Veakaust** Nende kaustade loomiseks meiliboksis pole vaja. Kaustad luuakse automaatselt pärast e-arve esmast importimist ja töötlemist. 
    
-10. Lisage **manusefiltri** väljagrupile faili filtreerimisteave. Töödeldakse ainult neid manuseid, mis rahuldavad määratletud filtrit. Näiteks saate seadistada "\*.xml-laiendiga manuste jaoks. Manuse nime kasutatakse seadistuses Dynamics 365 Finance või Dynamics 365 Supply Chain Management selle ajal. 
+10. Lisage **manusefiltri** väljagrupile faili filtreerimisteave. Töödeldakse ainult neid manuseid, mis rahuldavad määratletud filtrit. Näiteks saate seadistada "\*.xml-laiendiga manuste jaoks. Manuse nime kasutatakse Dynamics 365 Finances või häälestuse Dynamics 365 Supply Chain Management ajal. 
 11. Vahekaardil **Kohaldatavusreeglid** vaadake kriteeriumid üle ja vajadusel värskendage neid. Väli **Kanal** peab võrdne olema varem antud **andmekanaliga**. Lisateavet vt jaotisest [Kohaldatavuse reeglid](e-invoicing-configuration-rcs.md#applicability-rules).
 12. Valige **Salvesta** ja sulgege leht.
 

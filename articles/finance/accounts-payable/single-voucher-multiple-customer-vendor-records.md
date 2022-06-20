@@ -1,6 +1,6 @@
 ---
 title: Üksik mitme kliendi- või hankijakirjega kanne
-description: See teema annab ülevaate sellest, mis juhtub, kui sisestate ühe mitme kliendi või hankija kirjega kande. See funktsioon katkestatakse rakenduse Microsoft Dynamics 365 Finance tulevastes versioonides, seega me ei soovita kasutada seda sisestamise meetodit raamatupidamise mõju tõttu tasakaalustamisprotsessile.
+description: See artikkel annab ülevaate sellest, mis juhtub, kui sisestate ühe kande mitme kliendi- või hankijakirjega. Microsoft Dynamics 365 Finantside tulevastes versioonides seda funktsiooni ei soovitata seetõttu kasutada seda sisestusmeetodit raamatupidamise mõju tõttu tasakaalustuse töötlemisele.
 author: abruer
 ms.date: 08/22/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8677eba2c38c6273555e1189c0153272a8ff9e005655f3846c0d7605b872ff94
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bb94d582020484d8f37eb139c037fb108894c9ee
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737037"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889087"
 ---
 # <a name="single-voucher-with-multiple-customer-or-vendor-records"></a>Üksik mitme kliendi- või hankijakirjega kanne
 
 [!include [banner](../includes/banner.md)]
 
-See teema annab ülevaate sellest, mis juhtub, kui sisestate ühe mitme kliendi või hankija kirjega kande. See funktsioon katkestatakse tulevastes versioonides, seega me ei soovita kasutada seda sisestamise meetodit raamatupidamise mõju tõttu tasakaalustamisprotsessile. 
+See artikkel annab ülevaate sellest, mis juhtub, kui sisestate ühe kande mitme kliendi- või hankijakirjega. See funktsioon katkestatakse tulevastes versioonides, seega me ei soovita kasutada seda sisestamise meetodit raamatupidamise mõju tõttu tasakaalustamisprotsessile. 
 
 Mõned levinumad süsteemid, kus üht kannet kasutatakse mitme kliendi või hakija jaoks, hõlmavad saldo ülekandeid klientide vahel ja saldode tasaarveldust klientide ja hankijate vahel samas organisatsioonis. 
 
@@ -35,7 +35,7 @@ Rohkem kui üht klienti või hankijat sisaldava kande saab sisestada, kasutades 
 -   Sellise mitmerealise kande kasutamine, kus puudub pearaamatu vastaskonto, rohkem kui ühe kliendi või hankijaga.
 -   Kontoga kande sisestamine ja vastaskonto on hankija/hankija, klient/klient, hankija/klient või klient/hankija.
 
-See teema näitab, kuidas tasakaalustust töödeldakse, kui sisestatakse üks mitme kliendi või hankijaga kanne. Lisaks pakub see teema vastukaale, et aidata teil mõista, kuidas vältida ühe kande kasutamist mitme kliendi või hankijaga. Eelkõige on näiteid, mis kirjeldavad kaht ühist tasakaalustamise stsenaariumit, mida mõjutab ühe kande kasutamine mitme kliendi või hankijaga.
+See artikkel näitab, kuidas tasakaalustust töödeldakse, kui sisestatakse üks kanne mitme kliendi- või hankijakirjega. Lisaks annab see artikkel lahendust, mis aitavad teil mõista, kuidas vältida ühe kande kasutamist mitme kliendi või hankijaga. Eelkõige on näiteid, mis kirjeldavad kaht ühist tasakaalustamise stsenaariumit, mida mõjutab ühe kande kasutamine mitme kliendi või hankijaga.
 
 -   Sularaha allahindluse raamatupidamine
 -   Ümberhindamise raamatupidamine

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: f87723ebd6684efba8464a7d64c7e1ea99f194eb
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: e52b313e0a00c04edf9003aa6292146936f837d4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102785"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889424"
 ---
 # <a name="location-license-plate-positioning"></a>Asukoha litsentsiplaadi paigutus
 
@@ -28,11 +28,11 @@ Identifitseerimisnumbri asukoha positsioneerimine võimaldab teil näha, kus ide
 
 Funktsioon lisab igale lattu paigutatavale identifitseerimisnumbrile järjekorranumbri. Seda järjekorranumbrit kasutatakse identifitseerimisnumbrite järjestamiseks laos. Seetõttu toetab funktsioon nutikalt selliseid stsenaariume, kus kliendid kasutavad gravitatsioonipõhist ladustamissüsteemi ja peavad komplekteerimise eesmärgil teadma, milline on identifitseerimisnumbri esikülg.
 
-Selles teemas esitletakse stsenaariumi, mis näitab, kuidas funktsiooni häälestada ja kasutada.
+See artikkel sisaldab stsenaariumi, mis näitab, kuidas funktsiooni seadistada ja kasutada.
 
 ## <a name="turn-the-location-license-plate-positioning-feature-on-or-off"></a>Asukoha litsentsiplaadi paigutamise funktsiooni sisse- või väljalülitamine
 
-Selles teemas kirjeldatud funktsioonide kasutamiseks peab asukoha *litsentsiplaadi paigutamise* funktsioon olema teie süsteemi jaoks sisse lülitatud. Tarneahela halduse 10.0.25 puhul on see funktsioon kohustuslik ja seda ei saa välja lülitada. Kui käitate versiooni, mis on *vanem kui 10.0.25, saavad administraatorid selle funktsiooni sisse või välja lülitada, otsides asukoha litsentsiplaadi*[paigutamise funktsiooni Funktsioonihalduse tööruumis](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Selles artiklis kirjeldatud funktsioonide kasutamiseks peab asukoha *litsentsiplaadi paigutamise* funktsioon olema teie süsteemi jaoks sisse lülitatud. Tarneahela halduse 10.0.25 puhul on see funktsioon kohustuslik ja seda ei saa välja lülitada. Kui käitate versiooni, mis on *vanem kui 10.0.25, saavad administraatorid selle funktsiooni sisse või välja lülitada, otsides asukoha litsentsiplaadi*[paigutamise funktsiooni Funktsioonihalduse tööruumis](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="example-scenario"></a>Näidisstsenaarium
 
@@ -42,7 +42,7 @@ Selle stsenaariumi kasutamiseks siin soovitatud väärtuste abil, peate kasutama
 
 ### <a name="set-up-the-feature-for-this-scenario"></a>Funktsiooni seadistamine selle stsenaariumi jaoks
 
-Viige lõpule järgmised protseduurid funktsiooni *Asukoha identifitseerimisnumbri positsioneerimine* seadistamine siin teemas esitatud stsenaariumi jaoks.
+Viige lõpule järgmised protseduurid, et seadistada *selles* artiklis esitatud stsenaariumi jaoks asukoha litsentsiplaadi paigutamise funktsioon.
 
 #### <a name="location-profiles"></a>Asukoha profiilid
 

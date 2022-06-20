@@ -1,6 +1,6 @@
 ---
 title: Tarnegraafik
-description: Selles teemas kirjeldatakse tarnete ajakava lehte ja selle võimalusi.
+description: See artikkel annab teavet tarnegraafiku lehe ja selle võimaluste kohta.
 author: t-benebo
 ms.date: 9/3/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-09
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 89b8ce96a5c34902187751cfa523ed99a94500b3
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 0e3937dd4cffc464f38b5770674364579bdb06d1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468672"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851735"
 ---
 # <a name="supply-schedule"></a>Tarnegraafik
 
@@ -28,7 +28,7 @@ ms.locfileid: "8468672"
 
 Saate avada **Tarnete ajakava** lehe järgmistel viisidel:
 
-- Avage **Koondplaneerimine \> Koondplaneerimine \> Tarnete ajakava**. Dialoogiboksis **Muuda filtrit** määrake plaan ja toode, mida otsite, sisestades filtriväärtused pakutavatele väljadele. (Selle teema ülejäänud osas nimetatakse teie sisestatud filtriväärtuste kogumit "filter" või "praegune filter".) Kui olete lõpetanud, valige **OK**.
+- Avage **Koondplaneerimine \> Koondplaneerimine \> Tarnete ajakava**. Dialoogiboksis **Muuda filtrit** määrake plaan ja toode, mida otsite, sisestades filtriväärtused pakutavatele väljadele. (Ülejäänud artikli puhul viidatakse teie salvestatud filtriväärtuste kogumile kui "filtrile" või "praegusele filtrile". Kui olete lõpetanud, valige **OK**.
 - Avage **Tooteteabe haldus \> Tooted \> Väljastatud tooted**. Valige või avage toode. Seejärel tehke tegumirea vahekaardil **Plaan** grupis **Vaade** valik **Tarnete ajakava**.
 - Avage **Koondplaneerimine \> Seadistus \> Nõudluse prognoos \> Kauba jaotamise võtmed**. Valige kauba eraldamisvõti, mida kasutatakse tooteperena. Valige toimingupaanil **Tarnete ajakava**.
 - Avage **Koondplaneerimine \> Koondplaneerimine \> Plaanitud tellimused**. Valige või avage plaanitud tellimus. Seejärel tehke tegumirea vahekaardil **Vaade** grupis **Vaade** valik **Tarnete ajakava**.

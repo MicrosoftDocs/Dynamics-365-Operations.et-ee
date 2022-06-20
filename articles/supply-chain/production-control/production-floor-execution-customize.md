@@ -1,6 +1,6 @@
 ---
 title: Tootmisosakonna täideviimisliidese kohandamine
-description: See teema selgitab, kuidas laiendada praegusi vorme või luua uusi vorme ja nuppe tootmispinna käivitamise liidesele.
+description: See artikkel selgitab, kuidas laiendada praeguseid vorme või luua uusi vorme ja nuppe tootmispinna käivitamise liidesele.
 author: johanhoffmann
 ms.date: 05/04/2022
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-11-08
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: ad5037442f27a5068b38613655591f1298808eac
-ms.sourcegitcommit: 28537b32dbcdefb1359a90adc6781b73a2fd195e
+ms.openlocfilehash: 13fa6c2f3c30a820585d1b5a758f57ec563664d1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8712939"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845978"
 ---
 # <a name="customize-the-production-floor-execution-interface"></a>Tootmisosakonna täideviimisliidese kohandamine
 

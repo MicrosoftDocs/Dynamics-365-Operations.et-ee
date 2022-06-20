@@ -1,6 +1,6 @@
 ---
 title: Mis on uut või mida on muudetud rakenduses Dynamics 365 Human Resources 22. veebruaril 2021?
-description: Selles teemas kirjeldatakse rakenduse Microsoft Dynamics 365 Human Resources 22. veebruaril 2021 lisatud uusi või muudetud funktsioone.
+description: Selles artiklis kirjeldatakse Microsoft Dynamics 365 Human Resourcesi 22. veebruari 2021 uusi või muutunud funktsioone.
 author: marcelbf
 ms.date: 02/22/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-02-22
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c0f854908f4c4bb76604665701c97724351b0120
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: d07e73ccd922e9d52a9de9260577087a50ef1da4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686879"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897831"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-22-2021"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 Human Resources 22. veebruaril 2021?
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Selles teemas kirjeldatakse Dynamics 365 Human Resourcesi uusi, muutunud või peatselt tulevaid funktsioone.
+See artikkel kirjeldab funktsioone, mis on uued, muutunud või tulevad varsti Dynamics 365 Human Resources.
 
 Meie värskendamisprotsessi ja graafiku kohta lisateabe saamiseks vt teemat [Värskendamisprotsess](hr-admin-setup-update-process.md).
 
@@ -48,9 +48,9 @@ Selle väljalaskega tulevad üldiselt kättesaadavaks järgmised funktsioonid.
 See väljalase hõlmab järgmisi veaparandusi.
 
 > [!NOTE]
-> Meie eesmärk on edastada teile see teave esimesel võimalusel. Võime värskendada seda teemat, et lisada sellesse versioonijärku pärast selle teema esialgset avaldamist tehtud veaparandusi.
+> Meie eesmärk on edastada teile see teave esimesel võimalusel. Võime seda artiklit värskendada, et kaasata vigaparandused, mis muutsid selle järku pärast selle artikli algset avaldamist.
 
-| Väljaande number | Väljasta |  Kirjeldus |
+| Väljaande number | Probleem |  Kirjeldus |
 | --- | --- | --- |
 | 529994 | Välja **Tuntud kui** muutmine vormil **Töötaja** ei käivita Dataverse'i värskendamist | Lahendatud on probleem, mille korral Dataverse'i ei värskendata välja **Tuntud kui** värskendamise korral vormil **Töötaja**. |
 | 532651 | Kompensatsiooni analüüsi PBI aruanne ei kasuta kogu ettevõtte mõõdikute arvutamisel valuutateisendust | Lahendatud on probleem, mille korral kompensatsiooni analüüsi PBI aruandes ei tehtud valuutateisendusi õigesti. |

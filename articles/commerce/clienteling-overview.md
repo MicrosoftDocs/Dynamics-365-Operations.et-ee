@@ -1,6 +1,6 @@
 ---
-title: Klientuuri ülevaade
-description: Selles teemas antakse ülevaade kaupluse rakenduses saadaolevast uuest klientuurist.
+title: Kliendisuhtluse ülevaade
+description: See artikkel annab ülevaate uutest klientarvuti võimalustest, mis on kaupluse rakenduses saadaval.
 author: bebeale
 ms.date: 02/01/2021
 ms.topic: overview
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: Version 10.0.7
-ms.openlocfilehash: b1e1b7a67141ffec01d926b7f917ebd4e1f24741
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 3d60004367840208f239d69220b3c181109f83d8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984592"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885607"
 ---
 # <a name="clienteling-overview"></a>Kliendisuhtluse ülevaade
 
@@ -81,7 +81,7 @@ Klientuuri funktsioonide sisselülitamiseks oma keskkonnas toimige järgmiselt.
     - Seadistage nende atribuutide jaoks kuvatav tellimus. See kuvatav tellimus määratleb, millised atribuudid tuleb kliendi kaardil kuvada kliendi raamatus. 1. kuvatav tellimus on suurem kui 2. kuvatav tellimus. Seetõttu kuvatakse atribuut, millel on kuvatav tellimus 1, enne atribuuti, millel on kuvatud tellimus 2.
 
     > [!NOTE]
-    > Saate teha Customer Insightsi kättesaadavaks samalt lehelt. Siiski tuleb luua Azure'i rakenduse ID ja saladus autentimise eesmärgil. (Lisateavet nõuete kohta leiate teema [Customer Insightsi integreerimine Commerce'iga](#turn-on-the-integration-of-customer-insights-with-commerce) hilisemast jaotisest.) Kui Customer Insights on sisse lülitatud ja te valite ühe või mitu meedet, mis tuleks kuvada kliendi kaardil, kuvatakse need meetmed esimesena. Seejärel kuvatakse kliendi raamatu atribuudi grupid, mis põhineb kuvatud tellimusel. Näiteks, kui valite Customer Insightsist kaks meedet, kuvatakse kliendi kaardil need kaks meedet ja üks kliendi raamatu atribuut. (Näidatud on kliendi raamatu atribuut, millel on kõrgeim kuvatav tellimus.)
+    > Saate teha Customer Insightsi kättesaadavaks samalt lehelt. Siiski tuleb luua Azure'i rakenduse ID ja saladus autentimise eesmärgil. (Nõuete kohta lisateabe saamiseks vt teemat [Lülitage sisse customer Insights'i integratsioon Commerce'iga](#turn-on-the-integration-of-customer-insights-with-commerce) (selles artiklis hiljem).) Kui kliendiülevaated on sisse lülitatud ja valite ühe või mitu teadmisi, mida tuleks kliendikaardil näidata, kuvatakse need meetmed esimesena. Seejärel kuvatakse kliendi raamatu atribuudi grupid, mis põhineb kuvatud tellimusel. Näiteks, kui valite Customer Insightsist kaks meedet, kuvatakse kliendi kaardil need kaks meedet ja üks kliendi raamatu atribuut. (Näidatud on kliendi raamatu atribuut, millel on kõrgeim kuvatav tellimus.)
 
 6. Valige lehe **Commerce'i parameetrid** vahekaardi **Klientuur** väljal **Kliendi raamatu atribuudirühm** äsjaloodud atribuudirühm.
 

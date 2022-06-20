@@ -1,6 +1,6 @@
 ---
 title: Sisu tarne võrgu rakendamise suvandid
-description: See teema annab ülevaate erinevatest võimalustest sisu tarnevõrgu (CDN) rakendamise kohta, mida saab kasutada Microsoft Dynamics 365 Commerce keskkondades. Need valikud on rakenduse Azure Front Door rakenduse Commerce antud eksemplarid ja Azure Front Door kliendi-eksemplarid.
+description: See artikkel vaadata üle erinevad suvandid sisu tarnevõrgu (CDN) rakendusse, mida saab kasutada Microsoft Dynamics 365 Commerce keskkondades. Need valikud on rakenduse Azure Front Door rakenduse Commerce antud eksemplarid ja Azure Front Door kliendi-eksemplarid.
 author: BrianShook
 ms.date: 07/22/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 944123f3afe1c869c262da3997a73d8c60bbc366
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: a63751d42ab98610904191f1c09794b2311b0189
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692721"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884413"
 ---
 # <a name="content-delivery-network-implementation-options"></a>Sisu tarne võrgu rakendamise suvandid
 
 [!include [banner](includes/banner.md)]
 
-See teema annab ülevaate erinevatest võimalustest sisu tarnevõrgu (CDN) rakendamise kohta, mida saab kasutada Microsoft Dynamics 365 Commerce keskkondades. Need valikud on rakenduse Azure Front Door rakenduse Commerce antud eksemplarid ja Azure Front Door kliendi-eksemplarid.
+See artikkel vaadata üle erinevad suvandid sisu tarnevõrgu (CDN) rakendusse, mida saab kasutada Microsoft Dynamics 365 Commerce keskkondades. Need valikud on rakenduse Azure Front Door rakenduse Commerce antud eksemplarid ja Azure Front Door kliendi-eksemplarid.
 
 Äriklientidel on mitu valikut, kui nad kaaluvad, millist CDN-teenust oma Ärikeskkonnas kasutada. Commerce on vabastatud põhilise Azure Front Door toega, mis katab baashostimis- ja kohandatud domeeninõudeid. Ettevõtete puhul, kes soovivad rohkem kontrolli ja spetsiifilisesid turvavõimeid, nagu veebirakenduse tulemüür (WAF), on parim valik kasutada kas Azure Front Doori kliendiomast eksemplari või välist CDN-teenust.
 

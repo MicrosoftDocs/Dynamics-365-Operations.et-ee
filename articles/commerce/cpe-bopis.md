@@ -1,6 +1,6 @@
 ---
 title: BOPIS-e konfigureerimine Dynamics 365 Commerce'i hindamiskeskkonnas
-description: Selles teemas selgitatakse, kuidas konfigureerida stsenaariumit „osta veebis, käi poes järel” (BOPIS) Microsoft Dynamics 365 Commerce'i keskkonnas pärast selle ettevalmistamist.
+description: See artikkel selgitab, kuidas konfigureerida ostmist võrgus, peale võtta kauplust (BOPIS) Microsoft Dynamics 365 Commerce hindamiskeskkonnas pärast selle saatmist.
 author: BrianShook
 ms.date: 07/16/2020
 ms.topic: article
@@ -14,30 +14,30 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2020-04-20
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1e0aabec196aa1ffd2e4d2f2691c03cf11326ee8
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
-ms.translationtype: MT
+ms.openlocfilehash: 379537fd490be98497b6e7c5cdfbc33798fe28ad
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779790"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861962"
 ---
 # <a name="configure-bopis-in-a-dynamics-365-commerce-evaluation-environment"></a>BOPIS-e konfigureerimine Dynamics 365 Commerce'i hindamiskeskkonnas
 
 [!include [banner](includes/banner.md)]
 
-Selles teemas selgitatakse, kuidas konfigureerida stsenaariumit „osta veebis, käi poes järel” (BOPIS) Microsoft Microsoft Dynamics 365 Commerce'i keskkonnas pärast keskkonna ettevalmistamist.
+See artikkel selgitab, kuidas konfigureerida ostmist võrgus, peale võtta poodi (BOPIS) Microsoft Dynamics 365 Commerce hindamiskeskkonnas pärast keskkonna saatmist.
 
 ## <a name="prerequisite"></a>Eeltingimus
 
-Viige selle teema protseduurid lõpule alles pärast seda, kui Commerce'i hindamiskeskkond on ette valmistatud ja konfigureeritud. Teavet selle kohta, kuidas oma keskkonda ette valmistada ja konfigureerida, vaadake teemadest [Dynamics 365 Commerce'i hindamiskeskkonna ettevalmistamine](provisioning-guide.md) ja [Dynamics 365 Commerce'i hindamiskeskkonna konfigureerimine](./cpe-post-provisioning.md).
+Viige selle artikli protseduurid lõpule alles siis, kui teie Ärihindamiskeskkond on juba ette antud ja konfigureeritud. Teavet selle kohta, kuidas oma keskkonda ette valmistada ja konfigureerida, vaadake teemadest [Dynamics 365 Commerce'i hindamiskeskkonna ettevalmistamine](provisioning-guide.md) ja [Dynamics 365 Commerce'i hindamiskeskkonna konfigureerimine](./cpe-post-provisioning.md).
 
-Pärast seda, kui teie Commerce'i keskkond on lõpuni ette valmistatud ja konfigureeritud, saate seda teemat kasutada BOPIS-i stsenaariumide lubamiseks.
+Kui teie Ärikeskkond on end eraldi ja konfigureeritud, saate selle artikli abil BOPIS-i stsenaariumid lubada.
 
 ## <a name="configure-the-pos"></a>Kassa konfigureerimine
 
 ### <a name="configure-modern-pos"></a>Modern POS-i konfigureerimine
 
-BOPIS-i stsenaariumide jaoks, mis hõlmavad krediitkaardimakseid, on vaja riistvarajaama. Riistvarajaam on integreeritud rakendusse Modern POS Windowsi ja Android i klientidele. Kui kasutate Cloud POS-i või Modern POS-i iOS-i jaoks, peab kassa (POS) klient olema ühendatud ühiskasutatava riistvarajaamaga. See teema selgitab, kuidas konfigureerida BOPIS-i Windowsi ja Android i klientide jaoks. Lisateavet ühiskasutatava riistvarajaama seadistamise kohta leiate jaotisest [Jaemüügi riistvarajaama konfigureerimine ja installimine](./retail-hardware-station-configuration-installation.md).
+BOPIS-i stsenaariumide jaoks, mis hõlmavad krediitkaardimakseid, on vaja riistvarajaama. Riistvarajaam on integreeritud rakendusse Modern POS Windowsi ja Androidi klientidele. Kui kasutate Cloud POS-i või Modern POS-i iOS-i jaoks, peab kassa (POS) klient olema ühendatud ühiskasutatava riistvarajaamaga. See artikkel selgitab, kuidas konfigureerida BOPIS-i Windowsi ja klientide Android jaoks. Lisateavet ühiskasutatava riistvarajaama seadistamise kohta leiate jaotisest [Jaemüügi riistvarajaama konfigureerimine ja installimine](./retail-hardware-station-configuration-installation.md).
 
 1. Avage **Jaemüük ja kaubandus \> Kanali seadistus \> Kassa seadistus \> Registrid**.
 2. Valige register **SANFRAN-5** ja seejärel valige **Redigeeri**.
@@ -67,7 +67,7 @@ BOPIS-i stsenaariumide jaoks, mis hõlmavad krediitkaardimakseid, on vaja riistv
 5. Kuvatakse dialoogiboks autentimiseks. Valige konto, mis kasutab e-posti aadressi, mis oli varem seotud töötajaga **000713 – Andrew Collette**.
 
     > [!NOTE]
-    > Kui te pole veel töötajat oma identiteediga seostanud, siis aktiveerimine nurjub. Sellisel juhul järgige teema [Dynamics 365 Commerce'i hindamiskeskkonna konfigureerimine](cpe-post-provisioning.md#associate-a-worker-with-your-identity) jaotises „Seosta töötaja oma identiteediga” toodud samme.
+    > Kui te pole veel töötajat oma identiteediga seostanud, siis aktiveerimine nurjub. Sellisel juhul järgige hindamiskeskkonna konfigureerimise artikli jaotise "Töötaja seostamine oma identiteediga" [Dynamics 365 Commerce all toodud etappe](cpe-post-provisioning.md#associate-a-worker-with-your-identity).
     
 6. Kui teil palutakse lasta oma organisatsioonil seadet hallata, valige **Ainult see rakendus**.
 7. Kui aktiveerimine on lõpule viidud, valige **Alustamine**.

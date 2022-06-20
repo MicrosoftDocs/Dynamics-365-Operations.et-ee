@@ -1,6 +1,6 @@
 ---
 title: Tootmistellimuse oleku ennistamine
-description: Selles teemas kirjeldatakse tootmistellimuse oleku ennistamist.
+description: See artikkel kirjeldab, kuidas tootmistellimuse olekut tühistada.
 author: johanhoffmann
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0dd17bc48bfb6c78e1baca4faf78d6bc5b3ce426c5f0530174eccd95536a5859
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1d50cbcb4031d5c9f2c814883afd1fb38777d2ba
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760414"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903952"
 ---
 # <a name="reverse-the-production-order-status"></a>Tootmistellimuse oleku ennistamine
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas kirjeldatakse tootmistellimuse oleku ennistamist. 
+See artikkel kirjeldab, kuidas tootmistellimuse olekut tühistada. 
 
 Tootmistellimuse oleku ennistamisel viiakse tellimuse ja kõik protsessidega seotud operatsioonid tootmistsüklis ühe etapi võrra tagasi. Näiteks on tootmistellimuse olek **Planeeritud** ja te muudate olekuks tagasi **Loodud**. Sellisel juhul peab süsteem esmalt muutma olekuks **Hinnanguline**, mis on olekule **Plaanitud** vahetult eelnev olek. Seejärel saate oleku muuta soovitud väärtusele – **Loodud**. **Märkus.** Kui tellimus on jõudnud olekusse **Kinnita lõpetamine**, saate selle siiski tagasi viia varasemale olekule. Siiski peate hindamise ja operatsioonide planeerimise, töö planeerimise või mõlemat tüüpi planeerimised uuesti käivitama, et tellimuse teavet värskendada. See etapp on vajalik, kuna lähtestada tuleb ka kõik allesjäänud kauba tarbimise ja operatsiooniressursi tarbimise reserveeringud. Artikli ülejäänud osas selgitatakse, mis juhtub, kui ennistate tootmistellimuse oleku järgmistel viisidel.
 

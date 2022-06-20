@@ -1,6 +1,6 @@
 ---
 title: Skaala ühikud jaotatud topoloogias
-description: Selles teemas antakse teavet tootmis- ja laohalduse töökoormuste pilv- ja perimeeterskaalaüksuste kohta.
+description: See artikkel annab teavet pilve ja servaskaala üksuste kohta tootmise ja laohalduse töökoormuste puhul.
 author: Mirzaab
 ms.date: 04/22/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 5ec846b294cd9ca62ff15a5306e012813c77e306
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 6b53822238220ccfcf538d49285e051c49c57189
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8676324"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893667"
 ---
 # <a name="scale-units-in-a-distributed-hybrid-topology"></a>Skaala ühikud jaotatud topoloogias
 
@@ -25,7 +25,7 @@ ms.locfileid: "8676324"
 > [!IMPORTANT]
 > Microsofti Dynamics 365 Supply Chain Management mastaabiühiku võimalus tehakse teile kättesaadavaks teenuse kasutamist reguleerivate tingimuste alusel. Lisateavet leiate [Microsoft Dynamics'i juriidilise teabest](https://go.microsoft.com/fwlink/?LinkID=290927).
 >
-> Lubades pilv- ja perimeeterskaalaüksused, palutakse teil kinnitada, et saate aru, et mõned pilv- ja perimeeterskaalaüksuste konfiguratsiooni ja töötlemisega seotud andmed võidakse talletada Ameerika Ühendriikides asuvas andmekeskuses. Lisateavet pilve- ja servaskaalaüksuste andmetöötluse kohta leiate käesoleva teema jaotisest [Andmetöötlus mastaabiühikute haldamisel](#data-processing-management).
+> Lubades pilv- ja perimeeterskaalaüksused, palutakse teil kinnitada, et saate aru, et mõned pilv- ja perimeeterskaalaüksuste konfiguratsiooni ja töötlemisega seotud andmed võidakse talletada Ameerika Ühendriikides asuvas andmekeskuses. Lisateavet pilve- ja servaskaala üksuste andmete töötlemise kohta [vt käesoleva artikli jaotisest Andmete töötlemine kaaluühikute](#data-processing-management) haldamise ajal.
 
 ## <a name="core-value-proposition-for-a-distributed-hybrid-topology"></a>Jaotatud hübriid-topoloogia põhiväärtuste ettepanekuks
 
@@ -48,7 +48,7 @@ Skaalaüksused pakuvad määratud töökoormustele vastupidavust, töökindlust 
 
 *Töökoormus* on määratletud ärifunktsioonide kogum, mida saab välja arvutada ja delegeerida skaala üksusele. Kuigi laohalduse töökoormus on vabastatud, on tootmise käivitamise töökoormus endiselt eelvaates.
 
-Saate konfigureerida keskuse keskkonna ja valitud töökoormus pilve skaala üksuses kasutades [Skaalaüksuse halduri portaali](https://sum.dynamics.com). Skaalaühiku kohta saate määrata ka mitu töökoormust. Lisateavet pilveskaala ühikute eeltingimuste ja piirangute kohta praeguses versioonis leiate käesoleva teema jaotisest [Pilveskaala ühikute eeltingimused ja piirangud](#cloud-scale-unit-prerequisites).
+Saate konfigureerida keskuse keskkonna ja valitud töökoormus pilve skaala üksuses kasutades [Skaalaüksuse halduri portaali](https://sum.dynamics.com). Skaalaühiku kohta saate määrata ka mitu töökoormust. Teavet pilveskaala ühiku eeltingimuste ja piirangute kohta praeguses väljaandes vt [selles artiklis olevast jaotisest Pilveskaala](#cloud-scale-unit-prerequisites) ühikute eeltingimused ja piirangud.
 
 ### <a name="dedicated-warehouse-management-workload-capabilities-in-a-scale-unit"></a>Spetsiaalsed laohalduse töökoormuse võimalused skaala üksuses
 

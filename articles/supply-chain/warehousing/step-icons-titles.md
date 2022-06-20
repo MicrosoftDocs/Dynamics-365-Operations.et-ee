@@ -1,6 +1,6 @@
 ---
 title: Warehouse Management mobiilirakendusele astmeikoonide ja pealkirjade määramine
-description: See teema kirjeldab, kuidas määrata Warehouse Management mobiilirakenduses uute või kohandatud ülesandevoogude etapiikoonid ja pealkirjad.
+description: See artikkel kirjeldab, kuidas määrata etapiikoonid ja pealkirjad uutele või kohandatud ülesande voogudele laohalduse mobiilirakenduses.
 author: Mirzaab
 ms.date: 05/17/2021
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-05-17
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: a687c26cacc0dbdaf0091b2d26277864553ca1bf
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 361ace454f7125ec86bd99cffefc7d268f81d37f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103309"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890592"
 ---
 # <a name="assign-step-icons-and-titles-for-the-warehouse-management-mobile-app"></a>Warehouse Management mobiilirakendusele astmeikoonide ja pealkirjade määramine
 
 [!include [banner](../includes/banner.md)]
 
-See teema kirjeldab, kuidas määrata Warehouse Management mobiilirakenduses uute või kohandatud ülesandevoogude etapiikoonid ja pealkirjad.
+See artikkel kirjeldab, kuidas määrata etapiikoonid ja etapi pealkirjad uute või kohandatud ülesandevoogude jaoks laohalduse mobiilirakenduses.
 
 Järgmised illustratsioonid näitavad, kuidas etapiikoonid ja pealkirjad kuvatakse Warehouse Management mobiilirakenduses.
 
@@ -29,7 +29,7 @@ Järgmised illustratsioonid näitavad, kuidas etapiikoonid ja pealkirjad kuvatak
 
 ## <a name="turn-this-feature-on-or-off"></a>Selle funktsiooni sisse- või väljalülitamine
 
-Selles teemas *kirjeldatud funktsioonide kasutamiseks peavad* uue laorakenduse funktsiooni kasutajasätted, ikoonid ja etapi pealkirjad olema teie süsteemi jaoks sisse lülitatud. Tarneahela halduse 10.0.25 puhul on see funktsioon kohustuslik ja seda ei saa välja lülitada. Kui käitate versiooni, mis on *vanem kui 10.0.25, saavad administraatorid selle funktsiooni sisse ja välja lülitada, otsides Kasutajasätteid, ikoone ja uue laorakenduse funktsiooni pealkirjad Funktsioonihalduse tööruumis*[...](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Selles artiklis kirjeldatud funktsioonide kasutamiseks *peavad uue laorakenduse funktsiooni kasutajasätted,* ikoonid ja etapi pealkirjad olema teie süsteemi jaoks sisse lülitatud. Tarneahela halduse 10.0.25 puhul on see funktsioon kohustuslik ja seda ei saa välja lülitada. Kui käitate versiooni, mis on *vanem kui 10.0.25, saavad administraatorid selle funktsiooni sisse ja välja lülitada, otsides Kasutajasätteid, ikoone ja uue laorakenduse funktsiooni pealkirjad Funktsioonihalduse tööruumis*[...](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="standard-step-ids-classes-and-icons"></a>Standardsammude ID-d, klassid ja ikoonid
 
@@ -39,9 +39,9 @@ Iga samm ülesande voos tuvastatakse etapi ID järgi ja igal sammu ID-l on vasta
 
 Järgmises tabelis loetletakse kõik praegu saadaolevad etapi ID-d ja see on vastav astmeklass. Peamise sisendvälja juhtelemendi nime kasutatakse astme ID-s.
 
-Näide, mis näitab, kuidas nende sammude ID-sid ja klasse kasutatakse `WHSMobileAppStepInfoBuilder.stepId()` meetodi rakendamist [näites: määrake selles teemas hiljem etapiikoonid ja pealkirjad kohandatud voo](#example) selgitatakse selles teemas hiljem.
+Näide, mis näitab, kuidas nende sammude ID-sid ja klasse kasutatakse, `WHSMobileAppStepInfoBuilder.stepId()`[vt meetodi rakendamist näites: määrake selles artiklis](#example) hiljem sammuikoonid ja pealkirjad kohandatud voo jaotisele.
 
-| Sammu ID | Samm klass |
+| Etapi ID | Samm klass |
 |-|-|
 | PartiiPositsioon | WhSMobileAppStepBatchDisposition |
 | Vedaja | WhSMobileAppStepCarrier |
@@ -373,7 +373,7 @@ final internal class WHSMobileAppStepContainerId extends WHSMobileAppStep
 
 Astme ikooni identifikaator salvestatakse klassi liikmele ja astme `defaultStepIcon` pealkiri talletatakse `defaultStepTitle` klassi liikmele.
 
-Astme ikooni määramiseks määrake üks ikooni ID-dest, mis on loetletud `defaultStepIcon` varasemas jaotises [Saadaolevad astme ikoonid](#step-icons) selles teemas.
+Astme ikooni määramiseks määrake üks `defaultStepIcon` ikooni ID-dest, mis on loetletud selle artikli varasemas [jaotises](#step-icons) Saadaolevad astme ikoonid.
 
 ### <a name="use-a-standard-or-custom-step-icon-and-title-for-the-weight-input"></a>Kasuta kaalusisendi jaoks standardset või kohandatud etapi ikooni ja pealkirja
 
@@ -405,7 +405,7 @@ public class WHSMobileAppStepInfoBuilderWeighContainer extends WHSMobileAppStepI
 }
 ```
 
-Seejärel loote sammule `NewWeight` astmeklassi. Kood peaks sarnanema koodiga, `ContainerId` mida selles teemas varem kuvati.
+Seejärel loote sammule `NewWeight` astmeklassi. Kood peaks sarnanema koodiga, mis `ContainerId` kuvati selles artiklis varem.
 
 #### <a name="override-the-stepinfo-method"></a>Meetodi stepId() ülekirjutamine
 

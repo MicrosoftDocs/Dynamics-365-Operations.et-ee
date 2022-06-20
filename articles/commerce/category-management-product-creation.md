@@ -1,6 +1,6 @@
 ---
 title: Tootekategooriate ja toodete haldamine
-description: Selles teemas kirjeldatakse, kuidas tootejuhid saavad kasutada tootekategooriaid Commerce'i tootehierarhia ja väljastatud toote üksikasjade vaheliste seoste haldamiseks.
+description: See artikkel kirjeldab, kuidas tootejuhid saavad tootekategooriaid kasutada Äri tootehierarhia ja väljastatud toote üksikasjade vaheliste seoste haldamiseks.
 author: ashishmsft
 ms.date: 10/23/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2017-09-01
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 101e03c053203fc92648b7024998202d782f46fb07a5b6d5647b8e2a6514ea17
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0871475e0910e0a46544c56083b505ff647fd6a9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743980"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878566"
 ---
 # <a name="manage-product-categories-and-products"></a>Tootekategooriate ja toodete haldamine
 
 [!include [banner](./includes/banner.md)]
 
-Selles teemas kirjeldatakse täiustatud viisi tootekategooriate ja toodete haldamiseks rakenduses Dynamics 365 Commerce. Täiustused võimaldavad tootejuhtidel vaadata tooteatribuutide üldist struktuuri tootehierarhia ja väljastatud toote üksikasjade vahel.
+See artikkel kirjeldab täiustatud viisi tootekategooriate ja toodete haldamiseks moodulis Dynamics 365 Commerce Täiustused võimaldavad tootejuhtidel vaadata tooteatribuutide üldist struktuuri tootehierarhia ja väljastatud toote üksikasjade vahel.
 
 Lisateavet tootekategooriate haldamise kohta vaadake tööruumi **Kategooria ja toote haldus** tööruumi paanilt **Commerce'i tootehierarhia**.
 

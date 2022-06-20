@@ -1,6 +1,6 @@
 ---
 title: Mobiilirakenduse Warehouse Management etapipealkirjade ja juhiste kohandamine
-description: See teema kirjeldab, kuidas luua ja näidata kohandatud juhiseid iga ülesandevoo etapi kohta, mille mobiilirakendusele Warehouse Management seadistate.
+description: See artikkel kirjeldab, kuidas luua ja näidata kohandatud juhiseid iga ülesandevoo sammu kohta, mille laohalduse mobiilirakenduses seadistate.
 author: Mirzaab
 ms.date: 08/11/2021
 ms.topic: article
@@ -11,19 +11,19 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-11
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: ffd433427b2c5011740a7ee54c93713689945df3
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: 289a3735133919ae7dbad05c40ba9ccf0e8f57ca
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902243"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895492"
 ---
 # <a name="customize-step-titles-and-instructions-for-the-warehouse-management-mobile-app"></a>Mobiilirakenduse Warehouse Management etapipealkirjade ja juhiste kohandamine
 
 > [!IMPORTANT]
-> Selles teemas kirjeldatud funktsioonid kehtivad ainult uue mobiilirakenduse Warehouse Management kohta. Need ei mõjuta vana laorakendust, mis on nüüdseks iganenud.
+> Selles artiklis kirjeldatud funktsioonid kehtivad ainult uuele laohalduse mobiilirakendusele. Need ei mõjuta vana laorakendust, mis on nüüdseks iganenud.
 
-See teema kirjeldab, kuidas luua ja näidata kohandatud juhiseid iga ülesandevoo etapi kohta, mille mobiilirakendusele Warehouse Management seadistate. Kui laotöötajad saavad hästi kirjutatud juhised, saavad nad alustada uute voogude kasutamist ilma eelnevat väljaõpet vajamata. See funktsioon pakub järgmisi eeliseid.
+See artikkel kirjeldab, kuidas luua ja näidata kohandatud juhiseid iga ülesandevoo sammu kohta, mille laohalduse mobiilirakenduses seadistate. Kui laotöötajad saavad hästi kirjutatud juhised, saavad nad alustada uute voogude kasutamist ilma eelnevat väljaõpet vajamata. See funktsioon pakub järgmisi eeliseid.
 
 - **Valmistab töölised kiiremini ette, lastes neil järgida ülesande iga etapi kohta käivaid lihtsaid juhiseid.** Iga voo samm annab juhised, mis võimaldavad eesliini töötajatel ülesannet mõista.
 - **Sisestage juhised, mis vastavad teie enda protsessidele.** Kirjutage oma juhised teie äri- ja laoprotsessidele vastavalt. Näiteks võite sobitada terminoloogia teie füüsilisele asukohale ja kohalikele lühenditele vastavaks.

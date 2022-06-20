@@ -1,6 +1,6 @@
 ---
 title: Voosildi printimine
-description: Selles teemas kirjeldatakse voo sildi printimist ja selgitatakse, kuidas seda seadistada.
+description: See artikkel kirjeldab voo sildi printimist ja selgitab selle seadistamist.
 author: perlynne
 ms.date: 05/01/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: 59c4c100275917f3f9bf489c7d64b276275f1872
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 18620602c5f3cf6a69a36ef7248f35e5509337b8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778079"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901817"
 ---
 # <a name="wave-label-printing"></a>Voosildi printimine
 
@@ -49,11 +49,11 @@ Voo sildi printimine pakub järgmisi täiustusi.
 Need täiustused lihtsustavad pakkide sildistamist enne kaubaalusele paigutamist. Need on eriti kasulikud ettevõtetele, kes saadavad suurtele jaemüüjatele, mis kinnitavad tellimuse sissetulekuid automaatselt, skannides igat pakki eraldi.
 
 > [!NOTE]
-> Saate rakendada selles teemas kirjeldatud konfiguratsiooni stsenaariume eraldi või koos, sõltuvalt teie ärivajadustest. Saate kujundada mitu voo sildi malli, mis töötavad järjekorras (kujutatud stsenaariumis 3). Saate näiteks kasutada stsenaariumi 1 pakkide siltide printimiseks ja stsenaarium 2 kaubaaluste siltide printimiseks (kui kaubaalused on laos erineva suuruse ja kooslusega).
+> Saate rakendada selles artiklis kirjeldatud konfiguratsioonistsenaariume kas eraldi või kombinatsioonis, sõltuvalt teie äritegevuse nõuetest. Saate kujundada mitu voo sildi malli, mis töötavad järjekorras (kujutatud stsenaariumis 3). Saate näiteks kasutada stsenaariumi 1 pakkide siltide printimiseks ja stsenaarium 2 kaubaaluste siltide printimiseks (kui kaubaalused on laos erineva suuruse ja kooslusega).
 
 ## <a name="turn-on-the-wave-label-printing-feature"></a>Voo sildi printimise funktsiooni sisselülitamine
 
-Tarneahela halduse versiooni 10.0.21 puhul on see funktsioon kohustuslik, seega on see vaikimisi sisse lülitatud ja seda ei saa enam välja lülitada. Kuid see funktsioon on siiski [funktsioonihalduses](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) loetletud järgmisel viisil:
+Tarneahela halduse versiooni 10.0.21 puhul on see funktsioon kohustuslik, seega on see vaikimisi sisse lülitatud ja seda ei saa enam välja lülitada. Kuid see funktsioon on siiski funktsioonihalduses [loetletud](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) järgmisel viisil:
 
 - **Moodul:** *laohaldus*
 - **Funktsiooni nimi:** *Voo sildi printimine*
@@ -197,7 +197,7 @@ Sildi paigutus juhib, milline teave sildil prinditakse ja kuidas see on paigutat
     ```
 
     > [!NOTE]
-    > See häälestus prindib igast sildist ühe eksemplari. Kui vajate rohkem eksemplare (nt ühte eksemplari kaubaaluse kummalegi poolele), määrake jaluse jaotise **\^ PQn** väärtuseks **n** nõutav eksemplaride arv. Näiteks igast sildist nelja eksemplari printimiseks määrake **\^ PQ4**.
+    > See häälestus prindib igast sildist ühe eksemplari. Kui vajate rohkem eksemplare (nt ühte eksemplari kaubaaluse kummalegi poolele), määrake jaluse jaotise **\^PQn** väärtuseks **n** nõutav eksemplaride arv. Näiteks igast sildist nelja eksemplari printimiseks määrake **\^PQ4**.
 
 Teie silt on nüüd kasutamiseks valmis.
 
@@ -420,7 +420,7 @@ Voomallid võimaldavad teil linkida kindlaid voo meetodite eksemplare vastava vo
     ```
 
     > [!NOTE]
-    > See häälestus prindib igast sildist ühe eksemplari. Kui vajate rohkem eksemplare (nt ühte eksemplari kaubaaluse kummalegi poolele), määrake jaluse jaotise **\^ PQn** väärtuseks **n** nõutav eksemplaride arv. Näiteks igast sildist nelja eksemplari printimiseks määrake **\^ PQ4**.
+    > See häälestus prindib igast sildist ühe eksemplari. Kui vajate rohkem eksemplare (nt ühte eksemplari kaubaaluse kummalegi poolele), määrake jaluse jaotise **\^PQn** väärtuseks **n** nõutav eksemplaride arv. Näiteks igast sildist nelja eksemplari printimiseks määrake **\^PQ4**.
 
 Teie silt on nüüd kasutamiseks valmis.
 
@@ -647,7 +647,7 @@ Selle stsenaariumiga töötamiseks peavad teil olema installitud demoandmed ja p
     ```
 
     > [!NOTE]
-    > See häälestus prindib igast sildist ühe eksemplari. Kui vajate rohkem eksemplare (nt ühte eksemplari kaubaaluse kummalegi poolele), määrake jaluse jaotise **\^ PQn** väärtuseks **n** nõutav eksemplaride arv. Näiteks igast sildist nelja eksemplari printimiseks määrake **\^ PQ4**.
+    > See häälestus prindib igast sildist ühe eksemplari. Kui vajate rohkem eksemplare (nt ühte eksemplari kaubaaluse kummalegi poolele), määrake jaluse jaotise **\^PQn** väärtuseks **n** nõutav eksemplaride arv. Näiteks igast sildist nelja eksemplari printimiseks määrake **\^PQ4**.
 
 1. Esimene silt on nüüd kasutamiseks valmis.
 1. Looge järgmiste sätetega teine paigutuse kirje.
@@ -721,7 +721,7 @@ Selle stsenaariumiga töötamiseks peavad teil olema installitud demoandmed ja p
     ```
 
     > [!NOTE]
-    > See häälestus prindib igast sildist ühe eksemplari. Kui vajate rohkem eksemplare (nt ühte eksemplari kaubaaluse kummalegi poolele), määrake jaluse jaotise **\^ PQn** väärtuseks **n** nõutav eksemplaride arv. Näiteks igast sildist nelja eksemplari printimiseks määrake **\^ PQ4**.
+    > See häälestus prindib igast sildist ühe eksemplari. Kui vajate rohkem eksemplare (nt ühte eksemplari kaubaaluse kummalegi poolele), määrake jaluse jaotise **\^PQn** väärtuseks **n** nõutav eksemplaride arv. Näiteks igast sildist nelja eksemplari printimiseks määrake **\^PQ4**.
 
 1. Teine silt on nüüd kasutamiseks valmis.
 1. Looge järgmiste sätetega kolmas paigutuse kirje.

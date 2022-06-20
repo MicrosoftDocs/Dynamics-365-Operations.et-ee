@@ -1,6 +1,6 @@
 ---
 title: Tsüklilise inventuuri näidisstsenaariumid
-description: Selles teemas antakse kogum stsenaariume, mis uurivad rakenduse Microsoft Dynamics 365 Supply Chain Management tsüklilise inventuuri funktsioone.
+description: See artikkel annab kogumi stsenaariume, mis uurivad Microsofti tsüklilise inventuuri funktsioone Dynamics 365 Supply Chain Management.
 author: GalynaFedorova
 ms.date: 06/08/2021
 ms.topic: article
@@ -11,24 +11,24 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 60be945035570634c572baaa37ae0d02e41dd0be
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 90a3f132a96081b56ab60f5b0ba5cc328b820879
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674697"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899320"
 ---
 # <a name="cycle-counting-example-scenarios"></a>Tsüklilise inventuuri näidisstsenaariumid
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas antakse kogum stsenaariume, mis uurivad rakenduse Microsoft Dynamics 365 Supply Chain Management tsüklilise inventuuri funktsioone. Kõigepealt kirjeldab see nõudeid oma olemasolevale Supply Chain Management keskkonnale. Seejärel selgitab see, kuidas konfigureerida tsüklilist inventuuri ja kirjeldab kõiki tsüklilise inventuuri etappe. Kui olete lõpetanud, peaks teil olema hea arusaam tsüklilise inventuuri, sealhulgas juhendatud tsüklilise inventuuri, pimetsüklilise inventuuri, punkttsüklilise inventuuri, tsüklilise inventuuri lävede ja tsüklilise inventuuri plaanidest.
+See artikkel annab kogumi stsenaariume, mis uurivad Microsofti tsüklilise inventuuri funktsioone Dynamics 365 Supply Chain Management. Kõigepealt kirjeldab see nõudeid oma olemasolevale Supply Chain Management keskkonnale. Seejärel selgitab see, kuidas konfigureerida tsüklilist inventuuri ja kirjeldab kõiki tsüklilise inventuuri etappe. Kui olete lõpetanud, peaks teil olema hea arusaam tsüklilise inventuuri, sealhulgas juhendatud tsüklilise inventuuri, pimetsüklilise inventuuri, punkttsüklilise inventuuri, tsüklilise inventuuri lävede ja tsüklilise inventuuri plaanidest.
 
 ## <a name="prerequisites"></a>Eeltingimused
 
 ### <a name="make-demo-data-available"></a>Demoandmete kättesaadavaks tegemine
 
-Iga stsenaarium käesolevas jaotises viitab väärtustele ja kirjetele, mis kuuluvad Supply Chain Managementis esitatud standardsete demoandmete hulka. Kui soovite kasutada siin esitatud väärtusi stsenaariumidega töötamise ajal, veenduge, et töötate keskkonnas, kuhu on demoandmed installitud ja määrake enne alustamist juriidiliseks isikuks (ettevõte) **USMF**.
+Iga stsenaarium selles artiklis viitab väärtustele ja kirjetele, mis sisalduvad tarneahela halduse standardsetes demoandmetes. Kui soovite kasutada siin esitatud väärtusi stsenaariumidega töötamise ajal, veenduge, et töötate keskkonnas, kuhu on demoandmed installitud ja määrake enne alustamist juriidiliseks isikuks (ettevõte) **USMF**.
 
 ### <a name="turn-on-support-for-the-warehouse-management-mobile-app"></a>Mobiilirakenduse Warehouse Management toe sisselülitamine
 
@@ -158,7 +158,7 @@ Järgige neid samme, et luua tsüklilise inventuuri töö kauba asukohale *01A02
 
 Pärast tsüklilise inventuuritöö loomist teete selle, loendades üksused laohoones ja seejärel mobiilseadme abil tulemuste sisestamiseks teenusesse Supply Chain Management. Järgige neid samme, et teha tsüklilise inventuuri töö mobiilirakenduses Warehouse Management.
 
-1. Logige Warehouse Management mobiilirakendusse sisse töö kasutajana, mille seadistasite selles teemas varasemas jaotises [Stsenaariumite demoandmete ettevalmistamine](#prepare-demo-data). Selle teema näiteks on kasutaja nimeks *Julia Funderburk* ja seadistatud laole *61*. (USMF-i demoandmed peaksid lubama teil sisse logida selle töö kasutajana, sisestades *61* kasutaja ID-na ja *1* parooliks.)
+1. Logige laohalduse mobiilirakenduse sisse töö kasutajana, [mille seadistasite selles artiklis varasema stsenaariumite](#prepare-demo-data) jaotises Demoandmete ettevalmistamine. Selles artikli näites on kasutaja nimeks *The Funderburk* ja seadistatud laole *61*. (USMF-i demoandmed peaksid lubama teil sisse logida selle töö kasutajana, sisestades *61* kasutaja ID-na ja *1* parooliks.)
 1. Valige peamenüüs suvand **Laovarud**.
 1. Valige **Laovarude** menüüs **Juhendatud tsükliline inventuur**.
 1. Valige väli **Kogus**, sisestage *9* kasutades numbriklahvistikku ja valige seejärel **OK** (märkeruudu nupp).
@@ -227,7 +227,7 @@ Enne tsüklilist pimeinventuuri peate looma mõne töö. Järgige neid samme, et
 
 Pärast tsüklilise inventuuri töö loomist järgige neid samme, et teha töö mobiilirakenduses Warehouse Management.
 
-1. Logige Warehouse Management mobiilirakendusse sisse töö kasutajana, mille seadistasite selles teemas varasemas jaotises [Stsenaariumite demoandmete ettevalmistamine](#prepare-demo-data). Selle teema näiteks on kasutaja nimeks *Julia Funderburk* ja seadistatud laole *61*. (USMF-i demoandmed peaksid lubama teil sisse logida selle töö kasutajana, sisestades *61* kasutaja ID-na ja *1* parooliks.)
+1. Logige laohalduse mobiilirakenduse sisse töö kasutajana, [mille seadistasite selles artiklis varasema stsenaariumite](#prepare-demo-data) jaotises Demoandmete ettevalmistamine. Selles artikli näites on kasutaja nimeks *The Funderburk* ja seadistatud laole *61*. (USMF-i demoandmed peaksid lubama teil sisse logida selle töö kasutajana, sisestades *61* kasutaja ID-na ja *1* parooliks.)
 1. Valige peamenüüs suvand **Laovarud**.
 1. Valige **Laovarude** menüüs **Tsükliline pimeinventuur**.
 1. Valige väli **Tsooni ID**, sisestage *BULK06* ja seejärel valige **OK** (märkeruudu nupp).
@@ -259,7 +259,7 @@ Vaba kaubavaru kirjes on määratud, et kauba *L0101* vaba kogus on asukohas *01
 
 Järgige neid samme, et teha tsüklilise inventuuri töö mobiilirakenduses Warehouse Management.
 
-1. Logige Warehouse Management mobiilirakendusse sisse töö kasutajana, mille seadistasite selles teemas varasemas jaotises [Stsenaariumite demoandmete ettevalmistamine](#prepare-demo-data). Selle teema näiteks on kasutaja nimeks *Julia Funderburk* ja seadistatud laole *61*. (USMF-i demoandmed peaksid lubama teil sisse logida selle töö kasutajana, sisestades *61* kasutaja ID-na ja *1* parooliks.)
+1. Logige laohalduse mobiilirakenduse sisse töö kasutajana, [mille seadistasite selles artiklis varasema stsenaariumite](#prepare-demo-data) jaotises Demoandmete ettevalmistamine. Selles artikli näites on kasutaja nimeks *The Funderburk* ja seadistatud laole *61*. (USMF-i demoandmed peaksid lubama teil sisse logida selle töö kasutajana, sisestades *61* kasutaja ID-na ja *1* parooliks.)
 1. Valige peamenüüs suvand **Laovarud**.
 1. Valige **Laovarude** menüüs **Tsükliline punktinventuur**.
 1. Valige väli **Asukoht**, sisestage *01A02R2S1B* ja seejärel valige **OK** (märkeruudu nupp).

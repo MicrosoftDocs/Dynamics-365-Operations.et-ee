@@ -1,6 +1,6 @@
 ---
 title: Mis on uut või mida on muudetud rakenduses Dynamics 365 Supply Chain Management 10.0.26 (mai 2022)
-description: Selles teemas kirjeldatakse Microsoft Dynamics 365 Supply Chain Management 10.0.26 uusi või muutunud funktsioone.
+description: See artikkel kirjeldab funktsioone, mis on Microsoft Dynamics 365 Supply Chain Management 10.0.26 uued või muutunud.
 author: kamaybac
 ms.date: 03/01/2022
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: 0724045824f39f316c8b3dbb06a48eb6ca6dbef3
-ms.sourcegitcommit: 1050e58e621d9a0454895ed07c286936f8c03320
-ms.translationtype: MT
+ms.openlocfilehash: 73f2f9a819312d8d6e111b998c68b65ba85e7818
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8625247"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850753"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10026-may-2022"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 Supply Chain Management 10.0.26 (mai 2022)
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas loendatakse Microsoft Dynamics 365 Supply Chain Managementi versiooni 10.0.26 uusi või muutunud funktsioone. Selle versiooni number on 10.0.1192 ja see on saadaval järgmiselt:
+See artikkel loetleb funktsioonid, mis on Microsofti versioonis Dynamics 365 Supply Chain Management 10.0.26 uued või muutunud. Selle versiooni number on 10.0.1192 ja see on saadaval järgmiselt:
 
 - **Väljalaske eelversioon:** märts 2022
 - **Väljalaske üldine kättesaadavus (automaatne värskendamine):** aprill 2022
@@ -29,7 +29,7 @@ Selles teemas loendatakse Microsoft Dynamics 365 Supply Chain Managementi versio
 
 ## <a name="features-included-in-this-release"></a>Selles väljalaskes sisalduvad funktsioonid
 
-Järgmises tabelis on loetletud selles versioonis sisalduvad funktsioonid. Võime värskendada seda teemat, et lisada sellesse funktsioone, mis on loodud pärast selle esialgset avaldamist tehtud veaparandusi.
+Järgmises tabelis on loetletud selles versioonis sisalduvad funktsioonid. Võime seda artiklit värskendada, et kaasata funktsioonid, mis muutsid selle koostesse pärast selle artikli algset avaldamist.
 
 | Funktsiooniala | Funktsioon | Lisateave | Lubaja:   |
 |---|---|---|---|
@@ -56,11 +56,11 @@ Kui soovite mõne neist funktsioonidest sisse ja välja lülitada, peate seda fu
 
 ## <a name="new-and-updated-documentation-resources"></a>Uued ja värskendatud dokumentatsiooni ressursid
 
-Oleme hiljuti lisanud või oluliselt uuendanud järgmisi abiteemasid. Need teemad ei ole tingimata seotud uute funktsioonidega, mis sellele väljalaskele lisati, nagu on loetletud eelmistes jaotistes. Kuid need võivad aidata teil rohkem funktsionaalsust olemasolevatest funktsioonidest kätte saada.
+Oleme hiljuti lisanud või oluliselt uuendanud järgmised spikriartiklid. Need artiklid ei pea tingimata olema seotud uute funktsioonidega, mis selle väljalaske jaoks lisati, nagu on loetletud eelmistes jaotistes. Kuid need võivad aidata teil rohkem funktsionaalsust olemasolevatest funktsioonidest kätte saada.
 
-| Funktsiooniala | Uued või värskendatud teemad |
+| Funktsiooniala | Uued või värskendatud artiklid |
 |---|---|
-| Kuluhaldus | Igale järgmisele teemale lisati värskendatud näited ja diagrammid:<ul><li>[FIFO füüsilise väärtuse ja märkimisega](../cost-management/fifo-physical-value-marking.md)</li><li>[LIFO füüsilise väärtuse ja märkimisega](../cost-management/lifo-physical-value-marking.md)</li><li>[LIFO kuupäev füüsilise väärtuse ja märgistusega](../cost-management/lifo-date-physical-value-marking.md)</li><li>[Keskmine jooksev omahind](../cost-management/running-average-cost-price.md)</li><li>[Kaalutud keskmine füüsilise väärtuse ja märgistusega](../cost-management/weighted-average-physical-value-marking.md)</li></ul> |
+| Kuluhaldus | Igale järgmisele artiklile lisati värskendatud näited ja diagrammid:<ul><li>[FIFO füüsilise väärtuse ja märkimisega](../cost-management/fifo-physical-value-marking.md)</li><li>[LIFO füüsilise väärtuse ja märkimisega](../cost-management/lifo-physical-value-marking.md)</li><li>[LIFO kuupäev füüsilise väärtuse ja märgistusega](../cost-management/lifo-date-physical-value-marking.md)</li><li>[Keskmine jooksev omahind](../cost-management/running-average-cost-price.md)</li><li>[Kaalutud keskmine füüsilise väärtuse ja märgistusega](../cost-management/weighted-average-physical-value-marking.md)</li></ul> |
 | Hanked | [Ostutellimuse reaandmete lahknevused](../troubleshooting/procurement/purchase-order-line-data-issues.md) |
 
 ## <a name="additional-resources"></a>Lisaressursid
@@ -81,12 +81,12 @@ Vaadake [Dynamics 365 ja majandusharu pilved: 2022 väljalaskevoo 1 plaan](/dyna
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Eemaldatud ja aegunud Supply Chain Managementi funktsioonid
 
-Teemas [Eemaldatud või aegunud Dynamics 365 Supply Chain Managementi funktsioonid](removed-deprecated-features-scm-updates.md) kirjeldatakse funktsioone, mis on eemaldatud või aegunud või kavandatakse eemaldada Supply Chain Managementist.
+Artikli [eemaldatud või taunitud Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) funktsioonid kirjeldavad funktsioone, mis on tarneahela halduses eemaldatud või plaaniliselt eemaldatud või taunitud.
 
 - *Eemaldatud* funktsioon pole tootes enam saadaval.
 - *Aegunud* funktsioon ei ole aktiivses arenduses ja vee võidakse tulevases värskenduses eemaldada.
 
-Enne mis tahes funktsiooni eemaldamist tootest, teavitatakse aegumisest 12 kuud ette teemas [Eemaldatud või aegunud Dynamics 365 Supply Chain Managementi funktsioonid](removed-deprecated-features-scm-updates.md).
+Enne mis tahes funktsiooni eemaldamist tootest teatatakse amortiseerumisest [Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) artikli 12 kuu jooksul enne eemaldamist eemaldatud või taunitud funktsioonides.
 
 Murranguliste muudatuste puhul, mis mõjutavad ainult kompileerimise aega, kuid on binaarselt ühilduvad liivakasti- ja tootmiskeskkondadega, on aegumise aeg vähem kui 12 kuud. Need on tavaliselt funktsionaalsed uuendused, mida tuleb teha kompilaatori jaoks.
 

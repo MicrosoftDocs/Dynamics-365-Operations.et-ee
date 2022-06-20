@@ -1,6 +1,6 @@
 ---
 title: Analüütikatööruumid
-description: Selles teemas loetletakse saadaolevad manustatud analüütilised tööruumid ja osutatakse ressurssidele, kust selle kohta lisateavet saab.
+description: Selles artiklis loetletakse manustatud analüütilised tööruumid, mis on saadaval ja osutab teile ressurssidele, kus saate nende kohta lisateavet saada.
 author: sericks007
 ms.date: 10/02/2019
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 64a960d4658fa38aa45c08c443d12202ebe8acae1cb6fa80113d0132fa226d70
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 03211aefeb1b2b9453379979f70eb547eafa8c3f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772054"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8867700"
 ---
 # <a name="analytical-workspaces"></a>Analüütikatööruumid
 [!include[banner](../includes/banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Kohalike kontoplaanide planeerimine
-description: See teema annab teavet, mis aitab teil kontoplaani planeerida, kui teil on nõuded oma organisatsiooni seaduslike/kohalike nõuetega.
+description: See artikkel annab teavet, mis aitab teil kontoplaani planeerida, kui teil on nõuded organisatsiooni seaduslikke/kohalikele nõuetele.
 author: VeselinaE
 ms.date: 10/07/2021
 ms.topic: article
@@ -10,7 +10,7 @@ ms.search.form: DimensionConfigureAccountStructure, LedgerChartOfAccounts, Ledge
 ROBOTS: ''
 audience: Application User
 ms.devlang: ''
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.tgt_pltfrm: ''
 ms.custom: 14051
 ms.assetid: 10edb129-33f0-4cf9-b2a7-4b7ffa09b229
@@ -19,18 +19,18 @@ ms.search.industry: ''
 ms.author: veneva
 ms.search.validFrom: 10/07/2021
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e224a2e24b4ba293c953c6c883307038128e2f04
-ms.sourcegitcommit: ba10ba2cd4fb4267afb5aacae4f6a52aa2456e7e
+ms.openlocfilehash: 78379fd51cf24985fce83e2b6aa9a475af7df363
+ms.sourcegitcommit: 427fe14824a9d937661ae21b9e9574be2bc9360b
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "7798292"
+ms.lasthandoff: 06/09/2022
+ms.locfileid: "8946241"
 ---
 # <a name="plan-your-local-chart-of-accounts"></a>Kohalike kontoplaanide planeerimine
 
 [!include [banner](../includes/banner.md)]
 
-See teema annab teavet, mis aitab teil kontoplaani planeerida, kui teie organisatsioonis on juriidilised isikud, kes peavad vastama konkreetsetele lokaadidele, kus neil ärisuhted on. Selles teemas kasutatakse kontoplaanide kirjeldamiseks järgmisi tingimusi:
+See artikkel annab teavet, mis aitab teil kontoplaani planeerida, kui teie organisatsioonis on juriidilised isikud, kes peavad vastama konkreetsetele lokaadidele, kus neil ärisuhted on. Kontoplaanide kirjeldamiseks kasutatakse järgmisi mõisteid:
 
 - **Globaalne** – kontoplaan, mida organisatsioon globaalselt kasutab. Enamasti konsolideerite te sellele kontoplaanile.
 - **Kohalik** – kontoplaan, mida konkreetses riigis või regioonis kasutavad juriidilised isikud.
@@ -54,7 +54,7 @@ Kui teie organisatsioon nõuab, et juriidiline isik kasutaks kohalikku kontoplaa
 
 Organisatsiooni struktuur ja aruandlusstruktuur määravad kasutatava suvandi.
 
-[![ Diagramm, mis näitab, kuidas organisatsiooni struktuur määratleb, kas kasutada globaalset või kohalikku kontoplaani](./media/local-chart-of-accounts-diagram.png)](./media/local-chart-of-accounts-diagram.png)
+[![Diagramm, mis näitab, kuidas organisatsiooni struktuur määratleb, kas kasutada globaalset või kohalikku kontoplaani](./media/local-chart-of-accounts-diagram.png)](./media/local-chart-of-accounts-diagram.png)
 
 Kui globaalne kontoplaan on määratud juriidilisele isikule, on kohalike aruandlusnõuete täitmiseks saadaval järgmised valikud:
 
@@ -154,7 +154,7 @@ See lähenemine kasutab finantsdimensiooni, kus finantsdimensiooni väärtused t
 
 ### <a name="do-external-mapping-to-the-local-chart-of-accounts"></a>Tehke välist vastendamist kohaliku kontoplaaniga
 
-Globaalse kontoplaani väljaminek eeldab, et haldate vastendamist ja lokaliseerimist väljaspool süsteemi. Selles lähenemises loote rakenduses Microsoft Dynamics 365 Finance lihtsalt ühe globaalse kontoplaani ja käsitlete nõudeid väljaspool süsteemi.
+Globaalse kontoplaani väljaminek eeldab, et haldate vastendamist ja lokaliseerimist väljaspool süsteemi. Selles lähenemises loote lihtsalt ühe globaalse Microsoft Dynamics kontoplaani 365 Finantsis ja käsitlete nõudeid väljaspool süsteemi.
 
 #### <a name="set-up-external-mapping-to-a-local-chart-of-accounts"></a>Seadistage väline vastendamine kohaliku kontoplaaniga
 

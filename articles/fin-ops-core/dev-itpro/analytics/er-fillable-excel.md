@@ -1,6 +1,6 @@
 ---
 title: Konfiguratsiooni kujundamine dokumentide loomiseks Exceli vormingus
-description: Selles teemas kirjeldatakse, kuidas kujundada elektroonilise aruandluse (ER) vormingut Exceli malli täitmiseks ja seejärel luua väljaminevaid Exceli vormingus dokumente.
+description: See artikkel kirjeldab, kuidas kujundada elektroonilise aruandluse (ER) vormingut Exceli malli täitmiseks ja seejärel luua väljaminevad Exceli vormingu dokumendid.
 author: NickSelin
 ms.date: 05/09/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4a34f990c865aa8c82213a60c23d5a44ad75aee4
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: 4660aaf438ee091eed30387d984746ac2c3b4bd7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811416"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854810"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Konfiguratsiooni kujundamine dokumentide loomiseks Exceli vormingus
 
@@ -28,7 +28,7 @@ ms.locfileid: "8811416"
 
 Saate kujundada elektroonilise [aruandluse (ER)](general-electronic-reporting.md) vormingu konfiguratsiooni, mis sisaldab ER-vormingu komponenti, mida saate konfigureerida väljamineva dokumendi loomiseks töövihiku Microsoft Excel vormingus. Sellel otstarbel tuleb kasutada kindlaid ER-vormingu komponente.
 
-Lisateabe saamiseks selle funktsiooni kohta, järgige teemas [Konfiguratsiooni kujundamine aruannete loomiseks OPENXML-vormingus](tasks/er-design-reports-openxml-2016-11.md) toodud etappe.
+Selle funktsiooni kohta lisateabe saamiseks järgige artikli samme. [Kujundage konfiguratsiooni aruannete loomiseks OPENXML-vormingus](tasks/er-design-reports-openxml-2016-11.md).
 
 ## <a name="add-a-new-er-format"></a>Uue ER-vormingu lisamine
 
@@ -263,7 +263,7 @@ Kui konfigureerite üksiku **jaluse** komponendi, saate kasutada **päise/jaluse
 
 Lisage lisatud **jaluse** komponendi alla, vajalikud pesastatud komponendid **Tekst\\Tekstiring**, **Tekst\\KuupäevKellaaeg** või muu tüüp. Konfigureerige nende komponentide sidumised, et määratleda, kuidas teie lehekülg jalus täidetakse.
 
-Loodud jaluse sisu [õigeks](/office/vba/excel/concepts/workbooks-and-worksheets/formatting-and-vba-codes-for-headers-and-footers) vormindamiseks saate kasutada ka erilisi vorminduskoode. Et teada saada, kuidas seda lähenemist kasutada, järgige selle [teema näites 1](#example-1) toodud etappe.
+Loodud jaluse sisu [õigeks](/office/vba/excel/concepts/workbooks-and-worksheets/formatting-and-vba-codes-for-headers-and-footers) vormindamiseks saate kasutada ka erilisi vorminduskoode. Et teada saada, kuidas seda lähenemist kasutada, järgige näites [1](#example-1) toodud samme selles artiklis allpool.
 
 > [!NOTE]
 > ER-vormingute konfigureerimisel arvestage kindlasti Exceli [piirangut](https://support.microsoft.com/office/excel-specifications-and-limits-1672b34d-7043-467e-8e27-269d656771c3) ja suurimat ühe päise või jaluse tähemärkide arvu.
@@ -388,7 +388,7 @@ Probleemi saate lahendada järgmistel viisidel:
     1. Muutke Exceli töölauarakenduses Exceli töövihikut ühel järgmistest viisidest.
 
         - Eemaldage **töölehel Sheet1** lahtrid **A1 ja** **A2**.
-        - Muutke atribuudi **ReportTitle nime viide väärtuselt** **=Sheet1!$A$2** väärtusele **=Sheet1!$A$1**.
+        - Muutke atribuudi **ReportTitle nime viide väärtuselt** **=Sheet1!$A$2** **=Sheet1!$A$1**.
 
         ![Viite muutmise tulemuste ülevaatamine Exceli töölauarakenduses kujundatud Exceli töövihikus.](./media/er-fillable-excel-example2-3.png)
 

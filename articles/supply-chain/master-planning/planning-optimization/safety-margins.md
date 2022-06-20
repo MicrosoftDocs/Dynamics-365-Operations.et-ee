@@ -1,6 +1,6 @@
 ---
 title: Ohutuspiirid
-description: Selles teemas kirjeldatakse, kuidas saab kasutada ohutuspiire Microsoft Dynamics 365 Supply Chain Managementi planeerimise optimeerimise lisandmooduliga.
+description: See artikkel kirjeldab, kuidas ohutusvarusid saab Microsofti jaoks optimeerimise lisandmooduliga kasutada Dynamics 365 Supply Chain Management.
 author: t-benebo
 ms.date: 09/14/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-9-14
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 4982e277dab826f546b0cbef8a66a379bb0f4d94
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: c792c33edea9a7f4e2973383b1fcce5b4e8ec998
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469613"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854235"
 ---
 # <a name="safety-margins"></a>Ohutuspiirid
 
 [!include [banner](../../includes/banner.md)]
 
-Selles teemas kirjeldatakse, kuidas saab kasutada ohutuspiire Microsoft Dynamics 365 Supply Chain Managementi planeerimise optimeerimise lisandmooduliga.
+See artikkel kirjeldab, kuidas ohutusvarusid saab Microsofti jaoks optimeerimise lisandmooduliga kasutada Dynamics 365 Supply Chain Management.
 
 ## <a name="safety-margins-overview"></a>Ohutuspiiride ülevaade
 

@@ -1,6 +1,6 @@
 ---
-title: Laotööde haldamise töökoormused pilv- ja perimeeterskaalaüksustele
-description: See teema annab teavet funktsiooni kohta, mis võimaldab skaala ühikutel hallata valitud protsesse teie laohalduse töökoormusest.
+title: Laohaldustöökoormused pilv- ja perimeeterskaalaüksuste jaoks
+description: See artikkel annab teavet funktsiooni kohta, mis võimaldab kaaluühikutel käitada valitud protsesse laohalduse töökoormusest.
 author: perlynne
 ms.date: 09/03/2021
 ms.topic: article
@@ -16,19 +16,19 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 67f78441b0914d18c2a7853bab54c6b8817be3ac
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: f9839ad9a18eb543734c2ba43a56b568460a64c3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384480"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893493"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Laohaldustöökoormused pilv- ja perimeeterskaalaüksuste jaoks
 
 [!include [banner](../includes/banner.md)]
 
 > [!WARNING]
-> Töökoormust skaalaüksuses käitavate ladude puhul pole kõik laohaldusettevõtte funktsioonid täielikult toetatud. Kasutage kindlasti ainult neid protsesse, mida see teema konkreetselt toetab.
+> Töökoormust skaalaüksuses käitavate ladude puhul pole kõik laohaldusettevõtte funktsioonid täielikult toetatud. Kasutage kindlasti ainult protsesse, mida see artikkel täpselt kirjeldab kui toetatud.
 
 ## <a name="warehouse-execution-on-scale-units"></a>Lao käivitamine skaala ühikutes
 
@@ -184,7 +184,7 @@ Muid lähtedokumendi töötlemise ega laotöö tüüpe ei toetata praegu kaaluü
 >
 > Laohalduse mobiilirakenduse häälestamiseks pilve või servaskaala ühikuga töötada on vaja mõned lisa sammud. Lisateavet vt laohalduse mobiilirakenduse [konfigureerimine pilve ja servaskaala üksuste jaoks](cloud-edge-workload-setup-warehouse-app.md).
 >
-> Kui käitate skaalaüksuses töömahu, ei saa te käitada mittetoetavaid protsesse kindla lao jaoks keskuses. Selles teemas hiljem toodud tabelid dokumenteerivad toetatud võimalusi.
+> Kui käitate skaalaüksuses töömahu, ei saa te käitada mittetoetavaid protsesse kindla lao jaoks keskuses. Hiljem selles artiklidokumendis toodud tabelid toetavad võimalusi.
 >
 > Valitud lao töötüüpe saab luua nii keskuses kui ka skaalaüksuses, kuid seda saab säilitada ainult omanikust keskus või skaalaüksus (andmed loonud juurutus).
 >

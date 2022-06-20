@@ -1,6 +1,6 @@
 ---
 title: Ümardamisreeglite häälestus
-description: Slles teemas antakse ülevaade, kuidas seadistada ümardamise reeglid rakenduses Dynamics 365 Human Resources oma organisatsiooni vajaduste rahuldamiseks.
+description: See artikkel kirjeldab, kuidas seadistada ümardamisreeglid Dynamics 365 Human Resources vastavalt teie organisatsiooni vajadustele.
 author: twheeloc
 ms.date: 08/25/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 31070d498499a380d91f681f8a8e78342f9a2120
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 76d53e6a306a930eb6a99de69cc0eac7964e299a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8696092"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861127"
 ---
 # <a name="set-up-rounding-rules"></a>Ümardamisreeglite seadistamine
 

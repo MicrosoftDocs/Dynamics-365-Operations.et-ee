@@ -1,6 +1,6 @@
 ---
 title: Rakenduse Sales kontode sünkroonimine otse rakenduse Supply Chain Management klientidega
-description: Selles teemas käsitletakse malle ja aluseks olevaid ülesandeid, mida kasutatakse kontode sünkroonimiseks rakendusest Dynamics 365 Sales rakendusse Supply Chain Management.
+description: See artikkel käsitleb malle ja aluseks olevaid ülesandeid, mida kasutatakse kontode sünkroonimiseks Dynamics 365 müügist tarneahela haldusse.
 author: Henrikan
 ms.date: 10/25/2018
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: b3257f4582ede6cd1be8e593a5ed99f5ffd0ca6f
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 8d415174f62c511626852b91f3591f907b4a85ea
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063081"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851561"
 ---
 # <a name="synchronize-accounts-directly-from-sales-to-customers-in-supply-chain-management"></a>Rakenduse Sales kontode sünkroonimine otse rakenduse Supply Chain Management klientidega
 
@@ -32,7 +32,7 @@ ms.locfileid: "8063081"
 > [!NOTE]
 > Enne kui saate kasutada lahendust Potentsiaalne klient sularahaks, tutvuge [andmete integreerimisega teenusesse Microsoft Dataverse for Apps](/powerapps/administrator/data-integrator).
 
-Selles teemas käsitletakse malle ja aluseks olevaid ülesandeid, mida kasutatakse kontode sünkroonimiseks otse rakendusest Dynamics 365 Sales rakendusse Dynamics 365 Supply Chain Management.
+See artikkel käsitleb malle ja aluseks olevaid ülesandeid, mida kasutatakse kontode sünkroonimiseks otse Dynamics 365 müügist rakendusse Dynamics 365 Supply Chain Management.
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Andmevoog lahenduses Potentsiaalne klient sularahaks
 
@@ -101,7 +101,7 @@ Järgmisel joonisel on toodud näide malli vastendusest andmete integratsioonis.
 
 ![Malli vastendamine andmete integratsioonis.](./media/accounts-direct-template-mapping-data-integrator-1.png)
 
-## <a name="related-topics"></a>Seotud dokumendid
+## <a name="related-articles"></a>Seotud artiklid
 
 
 [Potentsiaalne klient sularahaks](prospect-to-cash.md)

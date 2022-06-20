@@ -1,6 +1,6 @@
 ---
 title: ER-i funktsioonide loend tüübiteisenduse kategoorias
-description: See teema annab teavet teisendamise funktsioonide kohta, mida toetatakse elektroonilises aruandluses (ER).
+description: See artikkel annab teavet teisendusfunktsioonide kohta, mida toetab elektrooniline aruandlus (ER).
 author: NickSelin
 ms.date: 12/05/2019
 ms.prod: ''
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a6d678c2a38039285bd835abcbbaf13ec00298c0660c62e7496a5d7405db8f61
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 37516ced402e0204ebd09d5b175ff56b040b9043
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6766405"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889310"
 ---
 # <a name="list-of-er-functions-in-the-type-conversion-category"></a>ER-i funktsioonide loend tüübiteisenduse kategoorias
 
 [!include [banner](../includes/banner.md)]
 
-Elektroonilise aruandluse (ER) tüübiteisenduse funktsioone saab kasutada väärtuste teisendamiseks tüüpide vahel. See teema sisaldab järgmiste funktsioonide kokkuvõtet.
+Elektroonilise aruandluse (ER) tüübiteisenduse funktsioone saab kasutada väärtuste teisendamiseks tüüpide vahel. See artikkel annab nende funktsioonide kokkuvõtte.
 
 ## <a name="type-conversion-functions"></a>Tüübiteisenduse funktsioonid
 

@@ -1,6 +1,6 @@
 ---
 title: Aadressimuudatuste vaatamine ja haldamine
-description: Selles teemas selgitatakse, kuidas vaadata ja hallata aadressimuudatusi rakenduses Dynamics 365 Human Resources.
+description: See artikkel selgitab, kuidas vaadata ja hallata aadressi muudatusi Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 10/28/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-08-07
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 819f22c58da485980c38d35dcc6dda6aebacf423
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 744ab532fcc663f25ce376817779924bbef15432
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695840"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899581"
 ---
 # <a name="view-and-manage-address-changes"></a>Aadressimuudatuste vaatamine ja haldamine
 
@@ -27,7 +27,7 @@ ms.locfileid: "8695840"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-See teema selgitab, **kuidas** vaadata ja hallata aadressimuudatusi lehel Isiklike üksikasjade redigeerimine (**mille** avate Töötaja iseteeninduse tööruumist) **või töötaja** üksikasjade lehel Dynamics 365 Human Resources.
+See artikkel selgitab, **kuidas** vaadata ja hallata aadressi muudatusi lehel Isiklike üksikasjade redigeerimine (**mille avate töötaja iseteeninduse** tööruumist) **või töötaja** üksikasjade lehel Dynamics 365 Human Resources.
 
 Paljud organisatsioonid tahavad, et töövõtjad haldaksid oma isikuandmeid iseteeninduse kaudu. Saate lubada kasutajatel tööruumis **Töövõtja iseteenindus** oma aadressi värskendada. Seejärel saate muudatusi jälgida tööruumis **Personalihaldus**. Selle funktsiooni kasutamiseks peate määrama päevade arvu, mille jooksul soovite vaadata muudatusi lehel **Inimressursside parameetrid**.
 

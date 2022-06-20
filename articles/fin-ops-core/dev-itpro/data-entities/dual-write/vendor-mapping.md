@@ -1,6 +1,6 @@
 ---
-title: Hankija koondandmete haldamine
-description: Selles teemas kirjeldatakse hankija andmete integreerimist rakenduse Finance and Operationsi rakenduste ja teenuse Dataverse vahel.
+title: Integreeritud hankija koondandmed
+description: See artikkel kirjeldab hankija andmete integreerimist finantside ja toimingute rakenduste ning rakenduste vahel Dataverse.
 author: RamaKrishnamoorthy
 ms.date: 07/15/2019
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 7794f33aed7364b76a7d5ffd08a068342887e468
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 394bb19000076eace6377e07bb3a939c8345da8a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063158"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905311"
 ---
 # <a name="integrated-vendor-master"></a>Integreeritud hankija koondandmed
 
@@ -37,7 +37,7 @@ Kui soovite jätkata hankija andmete talletamist tabelis **Konto/kontakt**, saat
 ![Hankijaandmete laiendatud voog.](media/dual-write-vendor-detail.jpg)
 
 > [!TIP]
-> Kui kasutate Power Apps iseteeninduse hankijate portaale, võib hankija teave liikuda otse rakendusse Finance and Operations.
+> Kui kasutate iseteeninduse Power Apps hankijate portaale, saab hankija teave otse finantside ja toimingute rakendustesse.
 
 ## <a name="templates"></a>Mallid
 

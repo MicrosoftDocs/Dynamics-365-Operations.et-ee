@@ -1,6 +1,6 @@
 ---
 title: Kliendiportaali kasutajate loomine ja haldamine (sisaldab videot)
-description: Selles teemas selgitatakse, kuidas luua kliendiportaali kasutajakontosid ja seadistada neile lubasid.
+description: See artikkel selgitab, kuidas luua kliendiportaali kasutajakontosid ja seada neile õigusi.
 author: Henrikan
 ms.date: 07/31/2020
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 4615182e6c3341a376e8e55a1417480e3e3f5ea7
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 2d095b0f6ff707852b4c9e22fd9c31cf87ccbe9d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062486"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905772"
 ---
 # <a name="create-and-manage-customer-portal-users"></a>Kliendiportaali kasutajate loomine ja haldamine
 
@@ -33,7 +33,7 @@ Kasutajate iseregistreerumise korral luuakse neile automaatselt kontakti kirjed.
 ## <a name="video"></a>Video
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4ADkI]
 
-Kutsuge [kliente oma kliendiportaali](https://youtu.be/drGUYHX9QIQ) videot registreerima ja kasutama (näidatud eespool) on lisatud [finants- ja toimingute esitusloendisse](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW), mis on saadaval YouTube.
+[Kutsuda kliente oma kliendiportaali](https://youtu.be/drGUYHX9QIQ) videot registreerima ja kasutama (vt ülal kuvatud) [on kaasatud operatsioonide ja finantside](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) portaali YouTube.
 
 ## <a name="prerequisite-setup"></a>Eeltingimuste seadistamine
 

@@ -1,6 +1,6 @@
 ---
 title: Pearaamatu välisvaluuta ümberarvutamine
-description: 'Selles teemas antakse ülevaade pearaamatu välisvaluuta ümberarvutamise protsessi järgmistest toimingutest: seadistamine, protsessi käitamine, protsessi jaoks arvutamine ja vajaduse korral ümberarvutuskannete tühistamine.'
+description: Selles artiklis antakse ülevaade pearaamatu välisvaluuta ümberarvutamise protsessi kohta (seadistus, protsessi käitamine, protsessi arvutamine ja vajadusel ümberhindamiskannete storntamine).
 author: kweekley
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e4a138a26a23c804f5fd358d335b04aee3897dce
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: 1e90780ca2a33725130b261fcaf4cb08d30f3270
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720334"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904524"
 ---
 # <a name="foreign-currency-revaluation-for-general-ledger"></a>Pearaamatu välisvaluuta ümberarvutamine
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas antakse ülevaade pearaamatu välisvaluuta ümberarvutamise protsessi järgmistest toimingutest: seadistamine, protsessi käitamine, protsessi jaoks arvutamine ja vajaduse korral ümberarvutuskannete tühistamine. 
+Selles artiklis antakse ülevaade pearaamatu välisvaluuta ümberarvutamise protsessi kohta (seadistus, protsessi käitamine, protsessi arvutamine ja vajadusel ümberhindamiskannete storntamine). 
 
 Perioodi lõpu osana nõuavad raamatupidamistavad välisvaluutas pearaamatukonto saldode ümberarvutamist, kasutades erinevaid vahetuskursitüüpe (praegune, ajalooline, keskmine jne). Näiteks nõuab üks raamatupidamistava varade ja kohustuste ümberarvutamist praeguse vahetuskursi, põhivarade ümberarvutamist ajaloolise vahetuskursi ning tulu- ja kulukontode ümberarvutamist igakuise keskmise vahetuskursi alusel. Pearaamatu välisvaluuta ümberarvutamist saab kasutada bilansi ning tulu- ja kulukontode ümberarvutamiseks. 
 

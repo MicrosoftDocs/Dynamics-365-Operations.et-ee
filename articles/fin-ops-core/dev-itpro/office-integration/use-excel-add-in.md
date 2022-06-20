@@ -1,6 +1,6 @@
 ---
 title: Üksuse andmete vaatamine ja värskendamine Exceliga
-description: See teema selgitab, kuidas avada üksuse andmeid Microsoft Excelis ning neid seejärel vaadata, värskendada ja redigeerida Microsoft Dynamicsi Excelile lisandmooduli abil.
+description: See artikkel selgitab, kuidas avada üksuse Microsoft Excel andmeid Ning seejärel vaadata, Microsoft Dynamics värskendada ja redigeerida andmeid Exceli lisandmooduli abil.
 author: jasongre
 ms.date: 05/16/2022
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f5090674fc4f7c49c55a8a12aea8c567545d519f
-ms.sourcegitcommit: 9f11ce4d24f546e96ab794a23479a43a89b742f0
+ms.openlocfilehash: 8a05c34454e27244bb08bfff84f2ada6ff498f23
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/16/2022
-ms.locfileid: "8762621"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862151"
 ---
 # <a name="view-and-update-entity-data-with-excel"></a>Üksuse andmete vaatamine ja värskendamine Exceliga 
 
@@ -31,7 +31,7 @@ ms.locfileid: "8762621"
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 
-See teema selgitab, kuidas avada üksuse andmeid Microsoft Excelis ning neid seejärel vaadata, värskendada ja redigeerida Microsoft Dynamicsi Excelile lisandmooduli abil. Üksuse andmete avamiseks saate käivitada Excelist või Finantside ja toimingute rakendustest.
+See artikkel selgitab, kuidas avada üksuse Microsoft Excel andmeid Ning seejärel vaadata, Microsoft Dynamics värskendada ja redigeerida andmeid Exceli lisandmooduli abil. Üksuse andmete avamiseks saate käivitada Excelist või Finantside ja toimingute rakendustest.
 
 Kui avate üksuse andmed Excelis, saate neid kiiresti ja hõlpsasti vaadata ja redigeerida, kasutades Exceli lisandmoodulit. See lisandmoodul nõuab rakendust Microsoft Excel 2016 või uuemat.
 

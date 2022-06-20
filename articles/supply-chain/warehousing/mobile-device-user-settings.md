@@ -1,6 +1,6 @@
 ---
 title: Mobiilse seadme kasutaja sätted
-description: Selles teemas selgitatakse, kuidas hallata mobiilse seadme kasutajasätteid laotöötajate jaoks.
+description: See artikkel selgitab, kuidas hallata laotöötajate mobiilse seadme kasutajasätteid.
 author: Mirzaab
 ms.date: 02/09/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: mirzaab
 ms.search.validFrom: 2021-02-09
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 4ea0fcfa7a165587567968f95549799859edaa60
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 15f9ce1768e1ed9dc6f7e84d245082b46a7f122c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103709"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882340"
 ---
 # <a name="mobile-device-user-settings"></a>Mobiilse seadme kasutaja sätted
 
@@ -41,7 +41,7 @@ See funktsioon aitab töötajatel kiiremini alustada, kui nad hakkavad kasutama 
 
 ## <a name="turn-the-mobile-device-user-settings-feature-on-or-off"></a>Mobiilse seadme kasutajasätete funktsiooni sisse- või väljalülitamine
 
-Selles teemas *kirjeldatud funktsioonide kasutamiseks peavad* uue laorakenduse funktsiooni kasutajasätted, ikoonid ja etapi pealkirjad olema teie süsteemi jaoks sisse lülitatud. Tarneahela halduse 10.0.25 puhul on see funktsioon kohustuslik ja seda ei saa välja lülitada. Kui käitate versiooni, mis on *vanem kui 10.0.25, saavad administraatorid selle funktsiooni sisse ja välja lülitada, otsides Kasutajasätteid, ikoone ja uue laorakenduse funktsiooni pealkirjad Funktsioonihalduse tööruumis*[...](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Selles artiklis kirjeldatud funktsioonide kasutamiseks *peavad uue laorakenduse funktsiooni kasutajasätted,* ikoonid ja etapi pealkirjad olema teie süsteemi jaoks sisse lülitatud. Tarneahela halduse 10.0.25 puhul on see funktsioon kohustuslik ja seda ei saa välja lülitada. Kui käitate versiooni, mis on *vanem kui 10.0.25, saavad administraatorid selle funktsiooni sisse ja välja lülitada, otsides Kasutajasätteid, ikoone ja uue laorakenduse funktsiooni pealkirjad Funktsioonihalduse tööruumis*[...](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="create-and-manage-user-settings"></a>Kasutajasätete loomine ja haldamine
 

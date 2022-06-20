@@ -1,6 +1,6 @@
 ---
 title: Parameetrid, mida Planning Optimization ei kasuta
-description: Selles teemas loetletakse Planning Optimization, mida planeerimise optimeerimist praegu selle toimingu ajal ei arvestata.
+description: Selles artiklis loetletakse parameetrid, mida plaanimise optimeerimine praegu ei arvestata.
 author: t-benebo
 ms.date: 09/02/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-29
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 82bdd522b5b6ca1cf149f9fea508d8d6a96a1466
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 3791ac804b78a20d0051881a83cb075e56ec8639
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469110"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907344"
 ---
 # <a name="parameters-not-used-by-planning-optimization"></a>Parameetrid, mida Planning Optimization ei kasuta
 
 [!include [banner](../../includes/banner.md)]
 
-Selles teemas loetletakse Planning Optimization, mida planeerimise optimeerimist praegu selle toimingu ajal ei arvestata. Planeerimisteenus võib parameetri vahele jätta, kuna näiteks seotud funktsioone veel ei toetata. Võib-olla on see parameeter funktsioonimuudatuste tõttu aegunuks muutunud.
+Selles artiklis loetletakse parameetrid, mida plaanimise optimeerimine praegu ei arvestata. Planeerimisteenus võib parameetri vahele jätta, kuna näiteks seotud funktsioone veel ei toetata. Võib-olla on see parameeter funktsioonimuudatuste tõttu aegunuks muutunud.
 
 Järgmistes jaotistes loetletakse parameetrid, mida Planning Optimization planeerimine kindlatel lehtedel ei kasuta. Samuti selgitavad nad, miks iga parameetrit ei kasutata.
 

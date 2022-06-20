@@ -1,6 +1,6 @@
 ---
 title: TDS-i grupi, PAN-i ja TAN-i teabe häälestus hankijatele ja klientidele
-description: See teema kirjeldab, kuidas seadistada teavet maksu kohta allika (TDS) grupis, püsikonto numbri (PAN) ja maksukonto numbri (TAN) kohta hankijatele ja klientidele.
+description: See artikkel selgitab, kuidas seadistada teavet allika (TDS) juures mahaarvatud maksu, püsikonto numbri (PAN) ja hankijate ja klientide maksukonto numbri (TAN) kohta.
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 83ec532e95bde553c3a339e2ca103ebaacdb52ae
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 1a29f59e380360b6f828dcddbe84cad229b42d17
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726945"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859762"
 ---
 # <a name="tds-group-pan-and-tan-information-setup-for-vendors-and-customers"></a>TDS-i grupi, PAN-i ja TAN-i teabe häälestus hankijatele ja klientidele
 
 [!include [banner](../includes/banner.md)]
 
-See teema kirjeldab, kuidas seadistada teavet maksu kohta allika (TDS) grupis, püsikonto numbri (PAN) ja maksukonto numbri (TAN) kohta hankijatele ja klientidele.
+See artikkel selgitab, kuidas seadistada teavet allika (TDS) juures mahaarvatud maksu, püsikonto numbri (PAN) ja hankijate ja klientide maksukonto numbri (TAN) kohta.
 
 1. Minge **Ostureskontro \> Hankijatele \> Kõik hankijad** või **Müügireskontro \> kliendid \> Kõik kliendid**.
 

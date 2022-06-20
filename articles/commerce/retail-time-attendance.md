@@ -1,6 +1,6 @@
 ---
 title: Aja ja kohaloleku haldus rakenduses Retail
-description: Selles teemas kirjeldatakse rakenduse Dynamics 365 Commerce aja ja kohaloleku halduse puhul toetatud stsenaariume.
+description: See artikkel kirjeldab stsenaariume, mida toetatakse aja ja kohaloleku halduses Dynamics 365 Commerce.
 author: aamirallaqaband
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: aamiral
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 68aafc9f397333d88644bb1870bb4e65da32c265decb10e6ac420be99c1e2c4e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 75c09d9e98a08bec0697b0b522ba6e647d35b140
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6762664"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855724"
 ---
 # <a name="time-and-attendance-management-in-retail"></a>Aja ja kohaloleku haldus rakenduses Retail
 
 [!include [banner](includes/banner.md)]
 
-Selles teemas kirjeldatakse rakenduse Dynamics 365 Commerce aja ja kohaloleku halduse puhul toetatud stsenaariume.
+See artikkel kirjeldab stsenaariume, mida toetatakse aja ja kohaloleku halduses Dynamics 365 Commerce.
 
 ## <a name="manage-worker-setup-and-scheduling"></a>Töötaja seadistus ja tööaeg
 

@@ -1,6 +1,6 @@
 ---
 title: Teenusetellimusele aadressi lisamine
-description: Teemas kirjeldatakse, kuidas lisada teenusetellimusele kliendi aadressi.
+description: See artikkel kirjeldab, kuidas lisada teenuse tellimusele kliendi aadress.
 author: sorenva
 ms.date: 05/02/2018
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 560d0c58aebe652e668cc0ec3ed05d84f004872e
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
-ms.translationtype: MT
+ms.openlocfilehash: ce58ff7bbb491fd2d250b8986d02fca04bd5fad1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672874"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844731"
 ---
 # <a name="add-an-address-to-a-service-order"></a>Teenusetellimusele aadressi lisamine    
 
 [!include [banner](../includes/banner.md)]
 
 
-Teemas kirjeldatakse, kuidas lisada teenusetellimusele kliendi aadressi. Teenustellimuse loomisel edastatakse aadressiteave projektilt, millele on lisatud teenustellimus. Siiski saate valida alternatiivse asukoha klientide, hankijate, laoalade, ladude, teenusetellimuste ja projektide aadresside hulgast, mis on juba rakendusse Microsoft Dynamics AX sisestatud.
+See artikkel kirjeldab, kuidas lisada teenuse tellimusele kliendi aadress. Teenustellimuse loomisel edastatakse aadressiteave projektilt, millele on lisatud teenustellimus. Siiski saate valida alternatiivse asukoha klientide, hankijate, laoalade, ladude, teenusetellimuste ja projektide aadresside hulgast, mis on juba rakendusse Microsoft Dynamics AX sisestatud.
 
 Saate ka luua uue aadressi. Vaikimisi kantakse uus aadress projekti üle. Siiski saate määrata, et uus aadress on asjakohane vaid teenuse selle eksemplari jaoks. Sel juhul ei kanta uut aadressi projekti üle.
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4e3476f1f25ac01d8740cce0442ac48ef25101a0
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: MT
+ms.openlocfilehash: f7f15c0f15302c271fac7199b21b7bcd3dcfe88a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574301"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903865"
 ---
 # <a name="credit-limits-for-customers"></a>Klientide krediidilimiidid
 
@@ -126,7 +126,7 @@ Konkreetsele kliendile määratakse krediidilimiidi summa vormil **Kliendid**. S
 4.  Kui see on nõutav, sisestage litsentsi number või muu riiklik ID väljale **Riiklik ID**.
 
 > [!NOTE]
-> Vormil **Müügireskontro parameetrid** on tavaliselt valitud krediidilimiidi tüüp. Kuid kui krediidilimiidi tüübiks on määratud **Pole**, peate märkima ka ruudu **Kohustuslik krediidilimiit** vormil **Kliendid**, et kontrollida kliendi krediidilimiiti kliendi saldo suhtes. Lisateavet krediidilimiidi tüüpide kohta leiate jaotisest „Milliste dokumentide ja protsesside krediidilimiiti saan kontrollida?” selles teemas. 
+> Vormil **Müügireskontro parameetrid** on tavaliselt valitud krediidilimiidi tüüp. Kuid kui krediidilimiidi tüübiks on määratud **Pole**, peate märkima ka ruudu **Kohustuslik krediidilimiit** vormil **Kliendid**, et kontrollida kliendi krediidilimiiti kliendi saldo suhtes. Lisateavet krediidilimiidi tüüpide kohta leiate jaotisest „Milliste dokumentide ja protsesside krediidilimiiti saan kontrollida?” Selles artiklis 
 
 **Kuidas saan müügitellimuste puhul käsitsi krediidilimiite kontrollida?**
 

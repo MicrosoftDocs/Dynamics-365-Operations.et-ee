@@ -1,6 +1,6 @@
 ---
 title: Tagastuste loomine müügikohas
-description: See teema kirjeldab, kuidas käivitada kassarakenduses sularaha- ja käsirahakannete tagastamine Microsoft Dynamics 365 Commerce Point of Sale (POS) rakendustes.
+description: See artikkel kirjeldab, kuidas käivitada kassa rakenduse sularaha- Microsoft Dynamics 365 Commerce ja kandekannete või klienditellimuste tagastusi.
 author: hhainesms
 ms.date: 04/27/2022
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-20
 ms.dyn365.ops.version: Release 10.0.20
-ms.openlocfilehash: c8e06c0d83e3bc2f5efea1e3a8124c700706aa2e
-ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
+ms.openlocfilehash: a49e9abd0143d480cc1cafb05be5e995fb3cebdd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8648984"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856994"
 ---
 # <a name="create-returns-in-pos"></a>Tagastuste loomine müügikohas
 
 [!include [banner](includes/banner.md)]
 
-See teema kirjeldab, kuidas käivitada kassarakenduses sularaha- ja käsirahakannete tagastamine Microsoft Dynamics 365 Commerce müügikoha (POS) rakendustes.
+See artikkel kirjeldab, kuidas käivitada sularaha- Microsoft Dynamics 365 Commerce ja käsirahakannete või klienditellimuste tagastusi müügikoha rakenduses.
 
 > [!NOTE]
 > Commerce version 10.0.20 väljalaskes ja hilisemas versioonis on saadaval uus funktsioon nimega **Ühtne tagastuse töötlemise kogemus kassas**. See funktsioon pakub järjepidevama ja ühtsema tagastusprotsessi kassas, sõltumata kande tüübist (sularaha- ja kande- või klienditellimus) või algsest kanalist, kus tellimus loodi. Soovitame, et kõik organisatsioonid lülitaks selle uue funktsiooni sisse, et parandada kassa kaudu tagastamise töötlemise üldist usaldusväärsust.

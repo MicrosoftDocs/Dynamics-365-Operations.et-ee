@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: yanansong
 ms.search.validFrom: 2020-03-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: f88dd1c23153d325709e28b056f902b555f05376
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: c9e2ccbe613a4aab40a4f519bbb82a9175d46e72
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675371"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846209"
 ---
 # <a name="compare-item-prices-storage-report"></a>Kaubahindade võrdluse talletuse aruanne
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas selgitatakse, kuidas käivitada aruanne **Kaubahindade võrdluse talletus** ja muuta väljund digitaalselt kättesaadavaks kas interaktiivse lehena rakenduses Dynamics 365 Supply Chain Management või eksporditud dokumendina ühes paljudest vormingutest.
+See artikkel **selgitab**, kuidas käivitada kauba hindade võrdluse salvestusaruannet ja muuta väljundi digitaalselt kättesaadavaks, Dynamics 365 Supply Chain Management kas kasutajapõhise lehena või eksporditud dokumendina mitmes vormingus.
 
 Aruande brauseris vaatamisel reguleeritakse veerge ja koondsaldosid dünaamiliselt olenevalt konfigureeritud paigutusele. Saate sortida tulemusi, filtreerida neid, minna andmetesse süvitsi ja muud.
 

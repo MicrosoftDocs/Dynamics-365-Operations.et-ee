@@ -1,6 +1,6 @@
 ---
 title: Toote identifikaatorid
-description: Selles teemas kirjeldatakse erinevaid toote identifikaatoreid ja kirjeldatakse, kuidas lisada toote identifikaatoreid toote andmetesse.
+description: See artikkel annab teavet toote identifikaatorite tüüpide kohta ja selgitab, kuidas saate lisada toote identifikaatoreid oma tooteandmetesse.
 author: t-benebo
 ms.date: 03/27/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 638b5c3b0c83f67f3d99331b6456efd1b8f5225a
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 3fc2d5c01209f15a9cb680e3bb569087f08c08d3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063337"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851706"
 ---
 # <a name="product-identifiers"></a>Toote identifikaatorid
 
@@ -29,7 +29,7 @@ ms.locfileid: "8063337"
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas kirjeldatakse erinevaid toote identifikaatoreid ja kirjeldatakse, kuidas lisada toote identifikaatoreid toote andmetesse.
+See artikkel annab teavet toote identifikaatorite tüüpide kohta ja selgitab, kuidas saate lisada toote identifikaatoreid oma tooteandmetesse.
 
 Kui töötate rakenduses Microsoft Dynamics ERP või Microsoft Dynamics CRM kaupluses või laos olevate toodetega, peab teil nende toodete ja tootevariantide tuvastamiseks olema hea strateegia.
 
@@ -39,7 +39,7 @@ Rakenduses Dynamics 365 Supply Chain Management on toote peamine identifikaator 
 
 Paljudel juhtudel pole tootenumber algselt loodud rakenduses Dynamics 365 Supply Chain Management. Selle asemel on see seotud tootega toote elutsükli halduse (PLM) süsteemis või toote teabehalduse (PDM) süsteemis. Sel juhul saate toodete ja tootevariantide importimiseks kasutada andmeüksuseid. Tarneahela haldus kasutab seejärel kõigi operatsioonide numbreid.
 
-Kui juurutate rakendust Tarneahela haldus, peaksite pöörama erilist tähelepanu oma tootenumbrite strateegiale. Hea nummerdamissüsteem parandab logistikavoogusid ja aitab vältida vigu. Hea toote identifikaator peaks tavaliselt olema 20 tähemärki või vähem, kuid üldiselt soovitame kasutada vähem kui 10 tähemärki ja mitte rohkem kui 5 klassifitseerimine tähemärki. Samuti saate kiirotsingute lubamiseks kasutada otsingunimesid. Otsingunimi on täiendav nimi, mis tähistab toote klassifikatsioone.
+Kui juurutate rakendust Tarneahela haldus, peaksite pöörama erilist tähelepanu oma tootenumbrite strateegiale. Hea nummerdamissüsteem parandab logistikavoogusid ja aitab vältida vigu. Heal tooteidentifikaatoril peaks tavaliselt olema kuni 20 märki, kuid üldiselt soovitame kasutada alla 10 märgi ning mitte rohkem kui 5 klassifitseerivat märki. Samuti saate kiirotsingute lubamiseks kasutada otsingunimesid. Otsingunimi on täiendav nimi, mis tähistab toote klassifikatsioone.
 
 Kui kasutate teenust Microsoft Dataverse, siis on ka toote number Supply Chain Managementis ka toote number teenuses Microsoft Dataverse. Tootevariandid sünkroonitakse Dataverse’iga eristatavate toodetena.
 
@@ -125,7 +125,7 @@ Kahjuks pole standardfunktsiooni, mis võimaldaks tooteid otsida väliste koodid
 | Tooted V2 | Tootenumber, toote otsingunimi, toote nimi, toote kirjeldus | Tootenumber, toote otsingunimi, toote nimi, toote kirjeldus | Olenevalt üksuse sätetest ja tootenumbri numbriseeriast saab tootenumbri luua automaatselt importimise ajal. |
 | Tootevariandid | Tootenumber, toote otsingunimi, toote nimi, toote kirjeldus | Tootenumber, toote otsingunimi, toote nimi, toote kirjeldus | Olenevalt tootenomenklatuuri mallist saab toote numbri luua automaatselt importimise ajal. Kuid saate importida mis tahes kordumatu tootenumbri ja see tootenumber ei pea järgima tootenomenklatuuri mallide struktuuri. |
 | Toote tõlked | Toote nimi, toote kirjeldus | Toote nimi, toote kirjeldus | See üksus alistab iga keele. Kui juriidilise isiku esmase keele nimi või kirjeldus alistatakse, muutub toote nimi ja kirjeldus. |
-| Väljastatud toote loomine V2 | Kaubakood, tootenumber, kauba otsingunimi| Kaubakood, tootenumber, kauba otsingunimi, toote otsingunimi, toote nimi | See üksus võib olla väljakutse, kui uute väljastatud toodete loomise ajal kasutatakse numbriseeriaid. Seda mõjutavad nii **kaubakoodi** numbriseeria kui ka **tootenumbri** numbriseeria. Kuid **kaubakoodi** numbriseeria kehtib juriidilise isiku kohta, samal ajal kui **tootenumbri** numbriseeria on globaalne. Seetõttu pole soovitatav uute väljastatud toodete juurutamisel kasutada **kaubakoodi** numbriseeriat. Kui üksust kasutatakse olemasoleva toote väljastamiseks, tuleb üksuses esitada tootenumber. Lisateavet vaadake selle teema jaotisest „Toote ja kauba numbriseeriad”. |
+| Väljastatud toote loomine V2 | Kaubakood, tootenumber, kauba otsingunimi| Kaubakood, tootenumber, kauba otsingunimi, toote otsingunimi, toote nimi | See üksus võib olla väljakutse, kui uute väljastatud toodete loomise ajal kasutatakse numbriseeriaid. Seda mõjutavad nii **kaubakoodi** numbriseeria kui ka **tootenumbri** numbriseeria. Kuid **kaubakoodi** numbriseeria kehtib juriidilise isiku kohta, samal ajal kui **tootenumbri** numbriseeria on globaalne. Seetõttu pole soovitatav uute väljastatud toodete juurutamisel kasutada **kaubakoodi** numbriseeriat. Kui üksust kasutatakse olemasoleva toote väljastamiseks, tuleb üksuses esitada tootenumber. Lisateavet vt selle artikli jaotisest "Toote ja kauba numbriseeriad". |
 | Väljastatud tootevariandid | Kaubakood, tootedimensioonid, tootenumber | Tootenumber, toote otsingunimi, toote nimi, toote kirjeldus, tootedimensioonid | Sarnaselt **tootevariantide** üksusele saab ka seda üksust kasutada uute toodete loomiseks, mis järgivad variandi jaoks tootenomenklatuuri malli või kasutavad enda tootenumbreid. |
 | Klientide väline kaubakirjeldus | Kliendi kaubakood, kliendi kauba nimi, kliendi kirjeldus, kliendi konto | Kliendi kaubakood, kliendi kauba nimi, kliendi kirjeldus, kliendi konto | Klientide gruppi (näiteks ostjaseos) saab koondada ühte gruppi, kasutades üksust **Välise kaubakirjelduse kliendigrupid**. |
 | Hankijate väline kaubakirjeldus | Hankija kaubakood, hankija kauba nimi, hankija kirjeldus, hankija konto | Hankija kaubakood, hankija kauba nimi, hankija kirjeldus, hankija konto | Hankijate gruppi (näiteks müügiseos või tööstusorganisatsioon) saab koondada ühte gruppi, kasutades üksust **Välise kaubakirjelduse hankijagrupid**. |
@@ -184,7 +184,7 @@ Keskkonna konfigureerimiseks tehke järgmist.
 
 Nüüd saate kasutada andmeüksuseid **Tooteüksuse common data service’i identifikaatori üksus**, **Tooteüksuse identifitseerimiskood** ja **Tooteüksuse identifikaatori ulatus**, et eksportida identifikaatoreid mis tahes sihtsüsteemi jaoks.
 
-## <a name="related-topic"></a>Seotud teema
+## <a name="related-article"></a>Seostuv artikkel
 
 [Toodete ja tootevariantide otsimine tellimuse sisestamise käigus](search-products-product-variants.md)
 

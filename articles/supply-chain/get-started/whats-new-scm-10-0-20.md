@@ -1,6 +1,6 @@
 ---
 title: Mis on uut ja mida on muudetud rakenduses Dynamics 365 Supply Chain Management 10.0.20. (august 2021)?
-description: Selles teemas kirjeldatakse Dynamics 365 Supply Chain Management 10.0.20 uusi või muutunud funktsioone.
+description: See artikkel kirjeldab funktsioone, mis on uued või muutunud Dynamics 365 Supply Chain Management 10.0.20-
 author: kamaybac
 ms.date: 05/28/2021
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: a8f46165a89f064878d2e8af1b0b174b04eca37e
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: 3eadc447d8c0c443fa9d3eab220300e3eedf051d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647310"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888639"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10020-august-2021"></a>Mis on uut ja mida on muudetud rakenduses Dynamics 365 Supply Chain Management 10.0.20. (august 2021)?
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas loendatakse Microsoft Dynamics 365 Supply Chain Managementi versiooni 10.0.20 uusi või muutunud funktsioone. Selle versiooni number on 10.0.886 ja see on saadaval järgmiselt:
+See artikkel loetleb funktsioonid, mis on Microsofti versioonis Dynamics 365 Supply Chain Management 10.0.20 uued või muutunud. Selle versiooni number on 10.0.886 ja see on saadaval järgmiselt:
 
 - **Väljalaske eelversioon:** mai 2021
 - **Väljalaske üldine kättesaadavus (automaatne värskendamine):** juuli 2021
@@ -59,21 +59,21 @@ Järgmises tabelis on loetletud selle väljalaske funktsioonide täiustused. Iga
 
 ## <a name="new-and-updated-documentation-resources"></a>Uued ja värskendatud dokumentatsiooni ressursid
 
-Oleme hiljuti lisanud või oluliselt uuendanud järgmisi abiteemasid. Need ei ole tingimata seotud sellele väljalaskele lisatud uute funktsioonidega, nagu on loetletud eelmises jaotises, kuid need võivad aidata teil olemasolevatest funktsioonidest rohkem kasu saada.
+Oleme hiljuti lisanud või oluliselt uuendanud järgmised spikriartiklid. Need ei ole tingimata seotud sellele väljalaskele lisatud uute funktsioonidega, nagu on loetletud eelmises jaotises, kuid need võivad aidata teil olemasolevatest funktsioonidest rohkem kasu saada.
 
-| Funktsiooniala | Uued või värskendatud teemad |
+| Funktsiooniala | Uued või värskendatud artiklid |
 |---|---|
 | Tehnilise muudatuse haldamine | [Toote töötsükli olekud ja kanded](../engineering-change-management/product-lifecycle-state-transactions.md) |
-| Varud | [Varude nähtavuse lisandmoodul](../inventory/inventory-visibility.md)<br><br>[Kvaliteedi ja mittevastavuse juhtimise ülevaade](../inventory/quality-management-processes.md) (pluss kõik seotud kvaliteedijuhtimise teemad) |
+| Varud | [Varude nähtavuse lisandmoodul](../inventory/inventory-visibility.md)<br><br>[Kvaliteedi- ja mittevastavuse halduse ülevaade](../inventory/quality-management-processes.md) (pluss kõik seotud kvaliteedijuhtimise artiklid) |
 | Hanked | [Hankija sertide haldamine](../../finance/public-sector/manage-vendor-certification.md) |
 | Tootmise juhtimine | [Tootmisosakonna täideviimisliidese kujundamine](../production-control/production-floor-execution-styles.md) |
 | Laohaldus | [Warehouse Management mobiilirakendusele astmeikoonide ja pealkirjade määramine](../warehousing/step-icons-titles.md)<br><br>[Laovarude manuaalse liigutamise edasilükatud töötlemine](../warehousing/deferred-processing-manual-inventory-movement.md) |
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Teenuse Finance and Operations rakenduste platvormivärskendused
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Finantside ja toimingute rakenduste platvormi värskendused
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.20 sisaldab platvormivärskendusi. Lisateavet leiate teemast [Finance and Operationsi rakenduste versiooni 10.0.20 platvormivärskendused (juuli 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-20.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.20 sisaldab platvormivärskendusi. Lisateavet vt Platvormi värskendustest [versioonile 10.0.20 Finance and Operations rakendustest (juuli 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-20.md).
 
 ### <a name="bug-fixes"></a>Veaparandused
 
@@ -87,12 +87,12 @@ Vaadake teemat [Dynamics 365: 2021. aasta väljalaske 1. voo plaan](/dynamics365
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Eemaldatud ja aegunud Supply Chain Managementi funktsioonid
 
-Teemas [Eemaldatud või aegunud Dynamics 365 Supply Chain Managementi funktsioonid](removed-deprecated-features-scm-updates.md) kirjeldatakse funktsioone, mis on eemaldatud või aegunud või kavandatakse eemaldada Supply Chain Managementist.
+Artikli [eemaldatud või taunitud Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) funktsioonid kirjeldavad funktsioone, mis on tarneahela halduses eemaldatud või plaaniliselt eemaldatud või taunitud.
 
 - *Eemaldatud* funktsioon pole tootes enam saadaval.
 - *Aegunud* funktsioon ei ole aktiivses arenduses ja vee võidakse tulevases värskenduses eemaldada.
 
-Enne mis tahes funktsiooni eemaldamist tootest, teavitatakse aegumisest 12 kuud ette teemas [Eemaldatud või aegunud Dynamics 365 Supply Chain Managementi funktsioonid](removed-deprecated-features-scm-updates.md).
+Enne mis tahes funktsiooni eemaldamist tootest teatatakse amortiseerumisest [Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) artikli 12 kuu jooksul enne eemaldamist eemaldatud või taunitud funktsioonides.
 
 Murranguliste muudatuste puhul, mis mõjutavad ainult kompileerimise aega, kuid on binaarselt ühilduvad liivakasti- ja tootmiskeskkondadega, on aegumise aeg vähem kui 12 kuud. Need on tavaliselt funktsionaalsed uuendused, mida tuleb teha kompilaatori jaoks.
 

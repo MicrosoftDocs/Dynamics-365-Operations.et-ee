@@ -14,20 +14,20 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e9d937211c049b2ec4ac06ac6eddce7fd9bcb5b0
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: f4f06b7916fb2eeed802b2dce95edfce448dcd97
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8719995"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880841"
 ---
 # <a name="fixed-asset-value-model-and-depreciation-book-merge"></a>Põhivara väärtusmudeli ja kulumiraamatu ühendamine
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas kirjeldatakse põhivarade praeguse raamatu funktsioone. See funktsioon põhineb väärtusmudeli funktsionaalsusel, mis oli saadaval varasemates versioonides, kuid sisaldab ka kõiki funktsioone, mida varem pakuti ainult amortisatsiooniraamatutes.
+See artikkel kirjeldab põhivarade praeguse raamatu funktsioone. See funktsioon põhineb väärtusmudeli funktsionaalsusel, mis oli saadaval varasemates versioonides, kuid sisaldab ka kõiki funktsioone, mida varem pakuti ainult amortisatsiooniraamatutes.
 
-Raamatufunktsiooni abil saate kasutada ühtset lehekülgede, päringute ja aruannete komplekti kõigi organisatsiooni põhivaraprotsesside kohta. Selles teemas olevates tabelites kirjeldatakse kulumiraamatute ja väärtusmudelite varasemaid funktsioone koos raamatute uute funktsioonidega.
+Raamatufunktsiooni abil saate kasutada ühtset lehekülgede, päringute ja aruannete komplekti kõigi organisatsiooni põhivaraprotsesside kohta. Selle artikli tabelid kirjeldavad kulumiraamatute ja väärtusmudelite varasemaid funktsioone koos raamatute praeguste funktsioonidega.
 
 ## <a name="setup"></a>Häälestus
 Vaikimisi sisestavad raamatud nii pearaamatusse (PR) kui ka põhivara alammoodulisse. Raamatutel on uus valik **Pearaamatusse sisestamine**, mis võimaldab teil keelata pearaamatusse sisestamise ja sisestada ainult põhivara alammoodulisse. See funktsioon sarnaneb kulumiraamatute varasemale sisestamise käitumisele. Töölehe nimede seadistusel on uus sisestamiskiht, mille nimetus on Pole. Sisestamiskiht lisati spetsiifiliselt põhivara kannetele. Sisestamaks kandeid raamatutele, mis ei sisesta pearaamatusse, peate kasutama töölehe nime, mille sisestamiskiht on määratud valikul **Pole**.

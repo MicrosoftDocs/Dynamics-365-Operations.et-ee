@@ -1,6 +1,6 @@
 ---
 title: Tasakaalustuse ülevaade
-description: Selles teemas antakse üldist teavet tasakaalustamisprotsessi kohta. See kirjeldab, milliseid kandetüüpe saab tasakaalustada ning nende tasakaalustamise ajastust ja protsessi. Samuti kirjeldatakse teemas tasakaalustamisprotsessi tulemusi.
+description: Selles artiklis antakse üldist teavet tasakaalustamisprotsessi kohta. See kirjeldab, milliseid kandetüüpe saab tasakaalustada ning nende tasakaalustamise ajastust ja protsessi. Samuti kirjeldatakse teemas tasakaalustamisprotsessi tulemusi.
 author: panolte
 ms.date: 07/30/2021
 ms.topic: overview
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: e1992019570129461f3ecdd5479a87bafd8aeacb
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: a495a71a95032a0022cbab2783f356db48ee349d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8724893"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887944"
 ---
 # <a name="settlement-overview"></a>Tasakaalustuse ülevaade
 
@@ -30,7 +30,7 @@ ms.locfileid: "8724893"
 [!include [preview banner](../includes/preview-banner.md)]
 
 
-Selles teemas antakse üldist teavet tasakaalustamisprotsessi kohta. See kirjeldab, milliseid kandetüüpe saab tasakaalustada ning nende tasakaalustamise ajastust ja protsessi. Samuti kirjeldatakse teemas tasakaalustamisprotsessi tulemusi.
+Selles artiklis antakse üldist teavet tasakaalustamisprotsessi kohta. See kirjeldab, milliseid kandetüüpe saab tasakaalustada ning nende tasakaalustamise ajastust ja protsessi. Samuti kirjeldatakse teemas tasakaalustamisprotsessi tulemusi.
 
 Tasakaalustuse ajal rakendatakse ühe dokumendi kanded teise dokumendi kannetele, et suurendada või vähendada kummagi dokumendi saldot. Näiteks saate makse arvele rakendada. Erinevaid kandetüüpe saab erinevatel aegadel ja erinevate meetodite kaudu tasakaalustada. Tasakaalustamisprotsessi käigus võidakse luua ka uusi kandeid.
 

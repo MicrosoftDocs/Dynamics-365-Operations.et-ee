@@ -1,6 +1,6 @@
 ---
 title: Riskikursi määramine
-description: See teema annab teavet 365 finantside Microsoft Dynamics ristkursside kohta.
+description: See artikkel annab teavet 365 finantside Microsoft Dynamics ristkursside kohta.
 author: abruer
 ms.date: 05/16/2018
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ed1db707cf6aed7c9def76ebbbdef7032b8776b6
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: efb01948af2bcba9ca740e8bd0e12584cf021fce
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735286"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889957"
 ---
 # <a name="specify-the-cross-rate"></a>Riskikursi määramine
 
 [!include [banner](../includes/banner.md)]
 
-See teema selgitab ristkursi eesmärki ja ristkursi määramist makse tasakaalustamisel arvega. Kasutage ristkurssi, kui kehtivad järgmised kriteeriumid: 
+See artikkel selgitab ristkursi eesmärki ja seda, kuidas määratleda ristkurssi, kui tasakaalustate makse arvega. Kasutage ristkurssi, kui kehtivad järgmised kriteeriumid: 
 -   Tasakaalustate makse arvega. 
 -   Makse rida ja arve rida kasutavad erinevaid valuutasid. 
 -   Kumbki valuuta pole arvestusvaluuta. 

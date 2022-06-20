@@ -1,6 +1,6 @@
 ---
 title: Vara rentimise aruanded
-description: Selles teemas loetletakse ja kirjeldatakse lühidalt vara rentimises saadaolevaid aruandeid.
+description: See artikkel loetleb ja kirjeldab lühidalt varakirjetes saadaolevaid aruandeid.
 author: moaamer
 ms.date: 04/05/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-27
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: cb1c994fee6efff82dd1cba1e71c6af49b384208
-ms.sourcegitcommit: 722854cb0d302d01ce3d9580ac80dc7c23d19bf5
+ms.openlocfilehash: a6e6eb851b9b2dce7259a5355326dd594a940b8c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/06/2022
-ms.locfileid: "8550035"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856708"
 ---
 # <a name="asset-leasing-reports"></a>Vara rentimise aruanded
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas loetletakse ja kirjeldatakse lühidalt vara rentimises saadaolevaid aruandeid. Enamik aruandeid kuvatakse, täites need sammud või sammud, mis on väga sarnased, nagu on märgitud. 
+See artikkel loetleb ja kirjeldab lühidalt varakirjetes saadaolevaid aruandeid. Enamik aruandeid kuvatakse, täites need sammud või sammud, mis on väga sarnased, nagu on märgitud. 
 
 - Enamiku varade rentimise aruannete vaatamiseks avage suvand **Vara rentimine > Päringud ja aruanded > Rendiaruanded** ja valige vaatamiseks aruanne. Erinevat valimise teed vajavate aruannete puhul on aruande avamise sammud lisatud selle aruande kirjeldusse. 
 - Kui valite aruande printimiseks, avaneb parameetrite leht, mis võimaldab teil aruandesse kaasatavat teavet filtreerida. Sisestage filtreerimise kriteeriumid ja klõpsake seejärel aruande loomiseks nuppu **OK**. Loodud aruandes kuvatakse teave, mis kuulub teie määratud filtrite alla.

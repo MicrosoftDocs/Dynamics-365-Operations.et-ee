@@ -1,6 +1,6 @@
 ---
 title: Müügitellimuse sisestamine
-description: See teema annab teavet lao sisestusreeglite lehe vahekaardi Müügitellimus kohta.
+description: See artikkel annab teavet lao sisestusreeglite lehe vahekaardi Müügitellimus kohta.
 author: rachelprofitt
 ms.date: 04/25/2022
 ms.topic: overview
@@ -10,12 +10,12 @@ ms.search.form: InventPosting, InventItemGroup
 audience: Application User
 ms.search.region: Global
 ms.author: raprofit
-ms.openlocfilehash: 5d84723b51d6977867fa162c4a47befa61bd9ef6
-ms.sourcegitcommit: dc3053625dfe24aef64399dd1d002214e7f7619f
+ms.openlocfilehash: 5ea1c3c90b32d18243615e3ff283e1e818ac23b6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/13/2022
-ms.locfileid: "8755924"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886309"
 ---
 # <a name="sales-order-posting"></a>Müügitellimuse sisestamine
 
@@ -79,7 +79,7 @@ Järgmine tabel näitab vaikimisi sisestamistüüpide näiteid koos näidis põh
 | Tarnitud ühikute kulu | 140100</br>140101 | Materjalide laoseis</br>Saadetud, arveldamata materjalid | Vara | Krediit | Jah | P | Arveldatud ühikute kulu | Kasutatakse müügitellimuse saatelehe sisestamisel. Konto vastaskonto on müüdud ja tarnitud kaupade omahind. Selle konto summa tühistatakse müügitellimuse arve sisestamisel. Võib-olla soovite kasutada kontot Saadetud, kuid arveldamata materjalid, et tähistada füüsilist laovaru ja reserveerida materjali laokonto finantsiliseks uuendamiseks. |
 | Tarnitud tuletusreegel | 500150 | Viivitusega COGS | Kulu | Deebet | Jah | P  | Kasutatakse müügitellimuse saatelehe sisestamisel. Kontole vastaskonto on tarnitud ühikute omahind. Selle konto summa tühistatakse müügitellimuse arve sisestamisel. |
 | Arveldatud ühikute kulu | 140100 | Materjalide laoseis | Vara | Krediit | Nr | R | Tarnitud ühikute kulu | Kasutatakse müügitellimuse arve sisestamisel. Selle konto vastaskonto on müüdud ja arveldatud kaupade omahind. See konto tähistab teie bilansikonto varusid. |
-| Arveldatud tuletusreegel | 500100 | COGS-materjalid | Kulu | Deebet | Nr | R  | Kasutatakse müügitellimuse arve sisestamisel. Selle konto vastaskonto on arveldatud ühikute omahind. See konto tähistab teie PL-lause COGS-i&amp;. |
+| Arveldatud tuletusreegel | 500100 | COGS-materjalid | Kulu | Deebet | Nr | R  | Kasutatakse müügitellimuse arve sisestamisel. Selle konto vastaskonto on arveldatud ühikute omahind. See konto tähistab teie P L-lause COGS-i&amp;. |
 | Tulu (müügitellimuse tulu*) | 400100 | Tulumaterjalid | Tulu | Krediit | Nr | R   | Kasutatakse müügitellimuse arve sisestamisel. Selle konto vastaskonto on sisestusreeglites **Müügireskontro summakonto** (Kliendi saldo*·). |
 | Komisjonitasu (Müük, Komisjonitasu*) | 602150 | Komisjonitasu | Kulu | Deebet | Nr | R  | Kasutatakse siis, kui komisjonitasu on lubatud ja arvutatud müügi jaoks ja sisestatud müügitellimuse arve protsessi käigus. Selle konto vastaskontoks on tasumisele kuuluv komisjonitasu. |
 | Komisjonitasu vastaskonto (Müük, Komisjonitasu vastaskonto*) | 201110 | Maksmisele kuuluv komisjonitasu | Kohustus | Krediit | Jah | R | Kasutatakse siis, kui komisjonitasu on lubatud ja arvutatud müügi jaoks ja sisestatud müügitellimuse arve protsessi käigus. Selle konto vastaskonto on komisjonitasu kulu. |
@@ -87,7 +87,7 @@ Järgmine tabel näitab vaikimisi sisestamistüüpide näiteid koos näidis põh
 | Edasilükatud tulu vastaskonto tarnimisel (Müük – saatelehe tulu vastaskonto)* | 130400 | Müügireskontro – arveldamata | Vara | Deebet | Jah | P  | Kasutatakse siis, kui tarne viittulu on lubatud ja müügitellimuse saatelehe töötlemise käigus postitab. Selle konto vastaskonto on tarnimisel edasilükatud tulu. Selle konto summad tühistatakse müügitellimuse arve sisestamisel automaatselt. |
 | Edasilükatud käibemaks tarnimisel (müük, saatelehe maks*) | 250500 | Viitmaks | Kohustus | Krediit | Jah | P  | Kasutatakse siis, kui tarne viittulu on lubatud ja sisesta füüsiline käibemaks lubatud. Maksusumma sisestatakse müügitellimuse saatelehe töötlemise ajal. |
 
-\* Selles tabelis sulgudes kuvatud väärtused **tähistavad väärtust, mida kasutatakse kandekannete lehe väljalPosting** **·**. Sisestustüüpi saate **vaadata** vahekaardi **Üldine** lehel Kande **kanded**.
+\* Selles tabelis sulgudes kuvatud väärtused **tähistavad** väärtust, mida kasutatakse kandekannete lehe väljal **Sisestustüüp**. Sisestustüüpi saate **vaadata** vahekaardi **Üldine** lehel Kande **kanded**.
 
 ## <a name="sales-category-posting"></a>Müügikategooria sisestamine
 

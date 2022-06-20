@@ -1,6 +1,6 @@
 ---
 title: Arveldusgraafiku funktsioonid
-description: Käesolev teema selgitab arveldusgraafikute funktsioone, nt hinnameetodeid, laiendusi ja allahindlusi, joonduse kuupäevi, mõõduseadeid, tühista arveldust ja kaubagruppide tükeldamist.
+description: See artikkel selgitab arveldusgraafikute funktsioone, nt hinnameetodeid, laiendusi ja allahindlusi, joonduse kuupäevi, prorationut, tühista arveldust ja kaubagruppide tükeldamist.
 author: JodiChristiansen
 ms.date: 11/04/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 0ce323565a94e8e70d90a65b7a3143e984a1c159
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: b6cfebc2bbfe06e118bfc96f9ae0df6323805e39
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8696645"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853579"
 ---
 # <a name="billing-schedule-features"></a>Arveldusgraafiku funktsioonid
 
 [!include [banner](../includes/banner.md)]
 
-See teema selgitab arveldusgraafikute funktsioone ja arveldusgraafiku ridu. See kirjeldab erinevaid hinnakujunduses kasutatavaid meetodeid, laienduste ja allahindluste kasutamist ning arveldusperioodi tagasipööramist. See sisaldab ka proration kalkulatsioonide ja kaubagruppide tükeldamise näiteid.
+See artikkel selgitab arveldusgraafikute ja arveldusgraafiku ridade funktsioone. See kirjeldab erinevaid hinnakujunduses kasutatavaid meetodeid, laienduste ja allahindluste kasutamist ning arveldusperioodi tagasipööramist. See sisaldab ka proration kalkulatsioonide ja kaubagruppide tükeldamise näiteid.
 
 ## <a name="pricing-methods"></a>Hinnakujundusmeetodid
 

@@ -1,6 +1,6 @@
 ---
 title: Elektroonilise aruandluse konfiguratsioonide allalaadimine konfiguratsiooniteenuse globaalsest hoidlast
-description: Selles teemas selgitatakse, kuidas laadida konfiguratsiooniteenuse globaalsest hoidlast alla elektroonilise aruandluse konfiguratsioone.
+description: See artikkel selgitab, kuidas elektroonilise aruandluse (ER) konfiguratsioone konfiguratsiooniteenuse globaalsest hoidlast alla laadida.
 author: NickSelin
 ms.date: 06/02/2020
 ms.topic: article
@@ -15,22 +15,22 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 32eb5206fadefbd024f2dd2af888d166c81b950f
-ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
+ms.openlocfilehash: 4386e8fdbb2856d14d5b47ee5ab416c8d58b8d63
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7605327"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891900"
 ---
 # <a name="download-er-configurations-from-the-global-repository-of-configuration-service"></a>Elektroonilise aruandluse konfiguratsioonide allalaadimine konfiguratsiooniteenuse globaalsest hoidlast
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas selgitatakse, kuidas laadida konfiguratsiooniteenuse globaalsest hoidlast alla [elektroonilise aruandluse konfiguratsioone](general-electronic-reporting.md#Configuration). Lisateavet vt teemast [Microsoft Dynamics 365 for Finance and Operations – Regulatory Services, konfiguratsiooniteenus](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration).
+See artikkel selgitab, kuidas elektroonilise aruandluse [(ER) konfiguratsioone](general-electronic-reporting.md#Configuration) konfiguratsiooniteenuse globaalsest hoidlast alla laadida. Lisateavet vt teemast [Microsoft Dynamics 365 for Finance and Operations – Regulatory Services, konfiguratsiooniteenus](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration).
 
 ## <a name="open-configurations-repository"></a>Konfiguratsioonihoidla avamine
 
-1. Logige rakendusse Dynamics 365 Finance sisse, kasutades üht järgmistest rollidest.
+1. Rakendusse Dynamics 365 Finance sisselogimine, kasutades üht järgmistest rollidest:
 
     - Elektroonilise aruandluse arendaja
     - Elektroonilise aruandluse funktsionaalne konsultant
@@ -80,7 +80,7 @@ Selles teemas selgitatakse, kuidas laadida konfiguratsiooniteenuse globaalsest h
     ![Konfiguratsioonihoidla leht, versioonide kiirkaart, nupp Impordi.](./media/er-download-configurations-global-repo-filtered-configurations.png)
 
 > [!NOTE]
-> Olenevalt ER-i sätetest kontrollitakse konfiguratsioone pärast importimist. Võib-olla teavitatakse teid leitud vasturääkivustest. Probleemid tuleb enne imporditud konfiguratsiooni versiooni kasutamist lahendada. Lisateavet leiate selle teemaga seotud ressursside loendist.
+> Olenevalt ER-i sätetest kontrollitakse konfiguratsioone pärast importimist. Võib-olla teavitatakse teid leitud vasturääkivustest. Probleemid tuleb enne imporditud konfiguratsiooni versiooni kasutamist lahendada. Lisateavet vt selle artikli seotud ressursside loendist.
 
 > [!NOTE]
 > Elektroonilise aruandluse konfiguratsiooni saab konfigureerida teistest konfiguratsioonidest sõltuvana. Seetõttu võidakse valitud konfiguratsiooniga koos automaatselt importida ka muid konfiguratsioone. Lisateavet konfiguratsioonide sõltuvuste kohta leiate jaotisest [ER-i konfiguratsioonide sõltuvuse määramine teistest komponentidest](tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md).

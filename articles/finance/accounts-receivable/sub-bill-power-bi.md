@@ -1,6 +1,6 @@
 ---
-title: Kordustellimuse arveldussisu Power BI
-description: See teema kirjeldab, mida kaasatakse kordustellimuse arvelduse sisusse Microsoft Power BI.
+title: Kordustellimuse arvelduse Power BI sisu
+description: See artikkel kirjeldab, mida kaasatakse kordustellimuse arvelduse sisusse Microsoft Power BI.
 author: JodiChristiansen
 ms.date: 04/13/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-04-13
-ms.openlocfilehash: fad96bdaf60e7772e9ea1ff937435b0274303505
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 6cee01eb5b8bb8296b6e7f638b565c999ccc023e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8648148"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849956"
 ---
-# <a name="subscription-billing-power-bi-content"></a>Kordustellimuse arveldussisu Power BI
+# <a name="subscription-billing-power-bi-content"></a>Kordustellimuse arvelduse Power BI sisu
 
 [!include[banner](../includes/banner.md)]
 
-See teema kirjeldab, mida kaasatakse kordustellimuse arvelduse sisusse Microsoft Power BI. See selgitab ka seda, kuidas pääseda juurde Power BI aruannetele, ning annab teavet andmemudeli ja üksuste kohta, mida kasutatakse sisu loomiseks. 
+See artikkel kirjeldab, mida kaasatakse kordustellimuse arvelduse sisusse Microsoft Power BI. See selgitab ka seda, kuidas pääseda juurde Power BI aruannetele, ning annab teavet andmemudeli ja üksuste kohta, mida kasutatakse sisu loomiseks. 
 
 ## <a name="overview"></a>Ülevaade
 

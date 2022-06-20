@@ -1,6 +1,6 @@
 ---
-title: Mobiilsete seadmete seadistamine laotöö jaoks
-description: Teemas kirjeldatakse, kuidas konfigureerida menüü üksusi, mida laotöötajad kasutavad töö tegemiseks mobiilses seadmes.
+title: Mobiilsete seadmete häälestus laotöö jaoks
+description: Selles artiklis kirjeldatakse, kuidas konfigureerida menüüelemente, mida laotöötajad kasutavad töö tegemiseks mobiilses seadmes.
 author: Mirzaab
 ms.date: 03/23/2020
 ms.topic: article
@@ -15,21 +15,21 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d9e0f27839d9e6330cc8a11874a5cb1786daf8dc
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: efbf9072c3bbcb20f38e144f9a15d8178d96d708
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902175"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905569"
 ---
-# <a name="set-up-mobile-devices-for-warehouse-work"></a>Mobiilsete seadmete seadistamine laotöö jaoks
+# <a name="set-up-mobile-devices-for-warehouse-work"></a>Mobiilsete seadmete häälestus laotöö jaoks
 
 [!include [banner](../includes/banner.md)]
 
-Teemas kirjeldatakse, kuidas konfigureerida menüü üksusi, mida laotöötajad kasutavad töö tegemiseks mobiilses seadmes.
+Selles artiklis kirjeldatakse, kuidas konfigureerida menüüelemente, mida laotöötajad kasutavad töö tegemiseks mobiilses seadmes.
 
 > [!NOTE]
-> See teema kehtib laohalduse funktsioonidele. See ei kehti funktsioonidele moodulis Varude haldus. Lao mobiilse seadme menüüdes kuvatavaid menüüelemente konfigureeritakse lehel **Mobiilse seadme menüüelemendid**. Kuna menüüelemente saab panna erinevatesse menüüdesse, on menüüstruktuure lihtne konfigureerida, nii et kindlatele kasutajatele kuvatakse ainult teatud tüüpi töid. Saate menüüelemente konfigureerida järgmiste ülesannete täitmiseks.
+> See artikkel kehtib laohalduse funktsioonide kohta. See ei kehti funktsioonidele moodulis Varude haldus. Lao mobiilse seadme menüüdes kuvatavaid menüüelemente konfigureeritakse lehel **Mobiilse seadme menüüelemendid**. Kuna menüüelemente saab panna erinevatesse menüüdesse, on menüüstruktuure lihtne konfigureerida, nii et kindlatele kasutajatele kuvatakse ainult teatud tüüpi töid. Saate menüüelemente konfigureerida järgmiste ülesannete täitmiseks.
 
 - Päringu töötlemine või tegevuse teostamine, nagu sildi printimine, identifitseerimisnumbrite loomine, tootmistellimuse käivitamine või kiiresti teabe vaatamine mõnes asukohas olevate kaupade kohta.
 - Looge töö, mis tehakse läbi teise protsessi. Näiteks võib ostutellimuse jaoks kaupa vastuvõtmine luua teisele töötajale paigutamistöö.
@@ -38,7 +38,7 @@ Teemas kirjeldatakse, kuidas konfigureerida menüü üksusi, mida laotöötajad 
 Tegevuse või päringu jaoks menüüelemendi loomiseks valige välja **Režiim** sätteks **Kaudne**. Seejärel muutub kättesaadavaks loend **Tegevuskoodide suvandid** nii et saate valida selle päringu või tegevuse tüübi, mille jaoks on menüüelement mõeldud. Laotöö jaoks menüüelemendi loomiseks valige välja **Režiim** sätteks **Töö**. Seejärel muutub kättesaadavaks loend **Töö loomise protsess**. Olemasoleva laotöö töötlemise jaoks menüüelemendi loomiseks valige välja **Režiim** sätteks **Töö** ja seejärel suvandi **Kasuta olemasolevat tööd** sätteks **Jah**. 
 
 > [!NOTE]
-> Täiendavad väljad võivad menüüelementide jaoks olla saadaval, sõltuvalt menüüelemendi jaoks valitud režiimist ja sellest, kas menüüelementi kasutatakse olemasoleva töö tegemiseks. Teavet lisaväljade valikute kohta vaadake selles teemas allpool olevast teemast „Menüüelementide lisavalikud”.
+> Täiendavad väljad võivad menüüelementide jaoks olla saadaval, sõltuvalt menüüelemendi jaoks valitud režiimist ja sellest, kas menüüelementi kasutatakse olemasoleva töö tegemiseks. Teavet lisaväljade valikute kohta vaadake selles artiklis allpool olevast teemast „Menüüelementide lisavalikud”.
 
 ## <a name="configure-menu-items-for-activities-and-inquiries"></a>Menüüelemendi konfigureerimine tegevuste ja päringute jaoks
 

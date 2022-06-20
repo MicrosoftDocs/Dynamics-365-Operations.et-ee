@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Supply Chain Management 10.0.27 eelvaade (juuli 2022)
-description: Selles teemas kirjeldatakse Microsoft Dynamics 365 Supply Chain Management 10.0.27 uusi või muutunud funktsioone.
+description: See artikkel kirjeldab funktsioone, mis on Microsoft Dynamics 365 Supply Chain Management 10.0.27 uued või muutunud.
 author: kamaybac
 ms.date: 04/22/2022
 ms.topic: article
@@ -10,19 +10,19 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.27
-ms.openlocfilehash: 77c79c88b08844bf7e399a762bb9eb9746ffb71a
-ms.sourcegitcommit: 611202adaa080250636efabb3b3b32b850d92d04
-ms.translationtype: MT
+ms.openlocfilehash: a91f2cdae0fed75f07d6cae86d24aeedfca80e94
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8812940"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844492"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10027-july-2022"></a>Dynamics 365 Supply Chain Management 10.0.27 eelvaade (juuli 2022)
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Selles teemas loetletakse funktsioonid, mis on Microsofti eelvaateversiooni Dynamics 365 Supply Chain Management 10.0.27 uued või muutunud. Sellel versioonil on järgu number 10.0.1227 see on saadaval järgmises graafikus.
+See artikkel loetleb funktsioonid, mis on Microsofti eelvaate versioonis Dynamics 365 Supply Chain Management 10.0.27 uued või muutunud. Sellel versioonil on järgu number 10.0.1227 see on saadaval järgmises graafikus.
 
 - **Eelvaateversiooni välja andmine:** aprill 2022
 - **Väljalaske üldine kättesaadavus (automaatne värskendamine):** juuni 2022
@@ -30,11 +30,11 @@ Selles teemas loetletakse funktsioonid, mis on Microsofti eelvaateversiooni Dyna
 
 ## <a name="features-included-in-this-release"></a>Selles väljalaskes sisalduvad funktsioonid
 
-Järgmises tabelis on loetletud selles versioonis sisalduvad funktsioonid. Võime seda teemat uuendada, et kaasata funktsioonid, mis lisati järgule pärast selle teema algset avaldamist.
+Järgmises tabelis on loetletud selles versioonis sisalduvad funktsioonid. Võime seda artiklit värskendada, et kaasata funktsioonid, mis lisati koostesse pärast selle artikli algset avaldamist.
 
 | Funktsiooniala | Funktsioon | Lisateave | Lubaja:   |
 |---|---|---|---|
-| Varud ja logistika | [Varude eraldamine varude nähtavuse lisandmooduli jaoks](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/inventory-allocation-inventory-visibility-add-in) | [Varude nähtavuse varude eraldamine](../inventory/inventory-visibility-allocation.md) | Vaikimisi lubatud |
+| Varud ja logistika | [Varude eraldamine varude nähtavuse lisandmooduli jaoks](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/inventory-allocation-inventory-visibility-add-in) | [Inventory Visibility varude eraldamine](../inventory/inventory-visibility-allocation.md) | Vaikimisi lubatud |
 | Tootmine | Tootmisosakonna täideviimisliidese vaade Minu päev | [Kuidas töötajad kasutavad tootmispinna käivitamise liidest](../production-control/production-floor-execution-use.md) ja kuvavad [puhkusesaldosid tootmispinna käivitamise liideses](../production-control/production-floor-execution-payroll-stats.md) | Funktsioonihaldus:<br>*Tootmisosakonna täideviimisliidese vaade Minu päev* |
 | Planeerimine | [Plaanimise optimeerimise tugi allhankeks](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-subcontracting) | [Allhanketöö haldamine tootmises](../production-control/manage-subcontract-work-production.md) | Vaikimisi lubatud |
 
@@ -56,9 +56,9 @@ Kui soovite mõne neist funktsioonidest sisse ja välja lülitada, peate seda fu
 
 ## <a name="new-and-updated-documentation-resources"></a>Uued ja värskendatud dokumentatsiooni ressursid
 
-Oleme hiljuti lisanud või oluliselt värskendanud järgmised Spikriteemad. Need teemad ei ole tingimata seotud uute funktsioonidega, mis sellele väljalaskele lisati, nagu on loetletud eelmistes jaotistes. Kuid need võivad aidata teil rohkem olemasolevatest funktsioonidest välja saada.
+Oleme hiljuti lisanud või oluliselt värskendanud järgmised spikriartiklid. Need artiklid ei pea tingimata olema seotud uute funktsioonidega, mis selle väljalaske jaoks lisati, nagu on loetletud eelmistes jaotistes. Kuid need võivad aidata teil rohkem olemasolevatest funktsioonidest välja saada.
 
-| Funktsiooniala | Uued või värskendatud teemad |
+| Funktsiooniala | Uued või värskendatud artiklid |
 |---|---|
 | Kuluhaldus | [Kaalutud keskmise kuupäev koos kaasa füüsilise väärtuse ja märkimisega](../cost-management/weighted-average-date.md) |
 | Hajutatud hübriidtopoloogia | [Skaalaühikute proovimine hajutatud hübriidtopoloogias](../cloud-edge/cloud-edge-try-out.md) |
@@ -83,12 +83,12 @@ Vaadake [Dynamics 365 ja majandusharu pilved: 2022 väljalaskevoo 1 plaan](/dyna
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Eemaldatud ja aegunud Supply Chain Managementi funktsioonid
 
-Teemas [Eemaldatud või aegunud Dynamics 365 Supply Chain Managementi funktsioonid](removed-deprecated-features-scm-updates.md) kirjeldatakse funktsioone, mis on eemaldatud või aegunud või kavandatakse eemaldada Supply Chain Managementist.
+Artikli [eemaldatud või taunitud Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) funktsioonid kirjeldavad funktsioone, mis on tarneahela halduses eemaldatud või plaaniliselt eemaldatud või taunitud.
 
 - *Eemaldatud* funktsioon pole tootes enam saadaval.
 - *Aegunud* funktsioon ei ole aktiivses arenduses ja vee võidakse tulevases värskenduses eemaldada.
 
-Enne mis tahes funktsiooni eemaldamist tootest, teavitatakse aegumisest 12 kuud ette teemas [Eemaldatud või aegunud Dynamics 365 Supply Chain Managementi funktsioonid](removed-deprecated-features-scm-updates.md).
+Enne mis tahes funktsiooni eemaldamist tootest teatatakse amortiseerumisest [Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) artikli 12 kuu jooksul enne eemaldamist eemaldatud või taunitud funktsioonides.
 
 Murranguliste muudatuste puhul, mis mõjutavad ainult kompileerimise aega, kuid on binaarselt ühilduvad liivakasti- ja tootmiskeskkondadega, on aegumise aeg vähem kui 12 kuud. Need on tavaliselt funktsionaalsed uuendused, mida tuleb teha kompilaatori jaoks.
 

@@ -1,6 +1,6 @@
 ---
 title: Vara tüübid
-description: Selles teemas selgitatakse vara tüüpide loomist rakenduses Asset Management. Samuti kirjeldatakse varatüüpidega seotud elemente.
+description: See artikkel selgitab, kuidas varatüüpe varahalduses luua. Samuti kirjeldatakse varatüüpidega seotud elemente.
 author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: fc1a8d98e9a8853e2e72bfcc7415ddb9a0a3b7758504621d6fccff00a08a36be
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d3a51fdb55e9158e88e89549e3d0049e699c233e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730366"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887627"
 ---
 # <a name="asset-types"></a>Vara tüübid
 
@@ -28,7 +28,7 @@ ms.locfileid: "6730366"
 
 
 
-See teema selgitab, kuidas varatüüpe luua. Samuti kirjeldatakse varatüüpidega seotud elemente. Varatüüpe kasutatakse varade üldiste kategooriatena. Näited on CNC-seadmed, mõõteseadmed ja veokimootorid. Varatüüpe kasutatakse vara jaoks valitud hooldustöö tüüpide (hooldustööde), vara töötsükli olekute, loendurite, varade atribuutide, seisundi hindamise mallide ja varamudelite haldamiseks. Vara loomisel tuleb määrata vara tüüp.
+See artikkel selgitab, kuidas varatüüpe luua. Samuti kirjeldatakse varatüüpidega seotud elemente. Varatüüpe kasutatakse varade üldiste kategooriatena. Näited on CNC-seadmed, mõõteseadmed ja veokimootorid. Varatüüpe kasutatakse vara jaoks valitud hooldustöö tüüpide (hooldustööde), vara töötsükli olekute, loendurite, varade atribuutide, seisundi hindamise mallide ja varamudelite haldamiseks. Vara loomisel tuleb määrata vara tüüp.
 
 Iga varatüübi puhul saab luua varade tüübi seadistuse variatsioone. Näiteks kui teil on varatüüp, mille nimi **Veokid**, saate luua erinevate varatootjate ja varamudelite puhul selle varatüübi variatsioone. Igale varatüübi seadistusele saate lisada nõutavaid varuosi ja hoolduskavu.
 

@@ -1,6 +1,6 @@
 ---
 title: Elektrooniline aruandlus. OPENXML-vormingus aruannete loomiseks konfiguratsiooni koostamine (november 2016)
-description: Selles teemas kirjeldatakse, kuidas luua uut elektroonilise aruandluse konfiguratsiooni, mis sisaldab malli elektrooniliste dokumentide OPENXML-vormingus loomiseks.
+description: See artikkel kirjeldab, kuidas luua uus elektroonilise aruandluse konfiguratsioon, mis sisaldab malli ELEKTROONILISTE dokumentide loomiseks OPENXML-vormingus.
 author: NickSelin
 ms.date: 04/23/2021
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c3dfe6ce9c918b5fccbd7097096fa359facdf41bbf6fd0fab6c61153171484cd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7b2325a5389e0bfe1efff17e5cd117ad8dbcd65d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753024"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908409"
 ---
 # <a name="er-design-a-configuration-for-generating-reports-in-openxml-format-november-2016"></a>Elektrooniline aruandlus. OPENXML-vormingus aruannete loomiseks konfiguratsiooni koostamine (november 2016)
 
 [!include [banner](../../includes/banner.md)]
 
-See teema selgitab, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rollis olev kasutaja saab luua uue elektroonilise aruandluse (ER) konfiguratsiooni, mis sisaldab malli elektrooniliste dokumentide genereerimiseks OPENXML-vormingus. Seda konfiguratsiooni kasutatakse hankija maksete töötlemiseks.
+See artikkel selgitab, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rolli kasutaja saab luua uue elektroonilise aruandluse (ER) konfiguratsiooni, mis sisaldab malli ELEKTROONILISTE dokumentide loomiseks OPENXML-vormingus. Seda konfiguratsiooni kasutatakse hankija maksete töötlemiseks.
 
 Selles näites loote konfiguratsiooni näidisettevõttele Litware, Inc. Neid etappe saab teha ka GBSI ettevõttes.
 

@@ -1,6 +1,6 @@
 ---
 title: Vara vaade
-description: Selles teemas kirjeldatakse vara vaadet varahalduses.
+description: Varahalduse vara kuva kirjeldatakse selles artiklis.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4265928fc5cb899a77eee6e5b9ff0a928efbe99c99ec7fe31eecffcb0f98f752
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: MT
+ms.openlocfilehash: a416dbea0bab8f6a506ae5cfbfc4feeae8edfe29
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765534"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882717"
 ---
 # <a name="asset-view"></a>Vara vaade
 
@@ -28,7 +28,7 @@ ms.locfileid: "6765534"
 
  
 
-Selles teemas kirjeldatakse vara vaadet varahalduses. Lehel **Vara vaade** kuvatakse puuvaates aktiivsed varad ja funktsionaalsed asukohad. Seetõttu saate kergesti ülevaate varade suhetest funktsionaalsete asukohtade suhtes. Lisaks saate vaadata üksikasjalikku teavet funktsionaalsete asukohtade, varade ja seotud koosluste (BOM-ide) kohta. Samuti saate kiire ülevaate aktiivsete hooldustaotluste ja varaga seotud töökäskude kohta.
+Varahalduse vara kuva kirjeldatakse selles artiklis. Lehel **Vara vaade** kuvatakse puuvaates aktiivsed varad ja funktsionaalsed asukohad. Seetõttu saate kergesti ülevaate varade suhetest funktsionaalsete asukohtade suhtes. Lisaks saate vaadata üksikasjalikku teavet funktsionaalsete asukohtade, varade ja seotud koosluste (BOM-ide) kohta. Samuti saate kiire ülevaate aktiivsete hooldustaotluste ja varaga seotud töökäskude kohta.
 
 1. Valige **Varahaldus**\>**Ühised**\>**Varad**\>**Varavaade**.
 2. Lehel kuvatava vaate muutmiseks valige uus väärtus väljal **Vaade**.

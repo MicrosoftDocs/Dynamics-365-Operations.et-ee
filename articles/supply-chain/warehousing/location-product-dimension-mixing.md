@@ -1,6 +1,6 @@
 ---
 title: Asukoha tootedimensioonide segamine
-description: Selles teemas antakse teavet asukohatoote dimensiooni segamise kohta. See asukohaprofiili funktsioon aitab parandada asukohahaldust, kui kasutatakse tootevariante või tooteid, millel on dimensioonid, näiteks moetööstuses. See võimaldab teil otsustada, kas kindlas asukohaprofiilis saab kombineerida konfiguratsioone, värve, laade ja suurusi või kas ühte asukohta saab lisada vaid ühe neist dimensioonidest või nende kombinatsiooni.
+description: See artikkel annab teavet tootedimensiooni segamise asukoha kohta. See asukohaprofiili funktsioon aitab parandada asukohahaldust, kui kasutatakse tootevariante või tooteid, millel on dimensioonid, näiteks moetööstuses. See võimaldab teil otsustada, kas kindlas asukohaprofiilis saab kombineerida konfiguratsioone, värve, laade ja suurusi või kas ühte asukohta saab lisada vaid ühe neist dimensioonidest või nende kombinatsiooni.
 author: Mirzaab
 ms.date: 07/01/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 031b92f827979c01dbf0208ba21ae827fb13920b
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 9daf6061d56ef004753114aaffa8eb580cea1186
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103484"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885721"
 ---
 # <a name="location-product-dimension-mixing"></a>Asukoha tootedimensioonide segamine
 
@@ -28,7 +28,7 @@ Asukohatoote dimensioonide segamine on asukohaprofiili funktsioon, mis aitab par
 
 ## <a name="turn-the-location-product-dimension-mixing-feature-on-or-off"></a>Asukoha tootedimensiooni segamise funktsiooni sisse- või väljalülitamine
 
-Selles teemas kirjeldatud funktsioonide kasutamiseks peab asukoha *tootedimensiooni segamise* funktsioon olema teie süsteemi jaoks sisse lülitatud. Tarneahela halduse 10.0.25 puhul on see funktsioon kohustuslik ja seda ei saa välja lülitada. Kui käitate versiooni, mis *on*[vanem kui 10.0.25, saavad administraatorid selle funktsiooni sisse ja välja lülitada, otsides funktsioonihalduse tööruumist asukoha tootedimensioonide segamise](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) funktsiooni.
+Selles artiklis kirjeldatud funktsioonide kasutamiseks peab asukoha *tootedimensiooni segamise* funktsioon olema teie süsteemi jaoks sisse lülitatud. Tarneahela halduse 10.0.25 puhul on see funktsioon kohustuslik ja seda ei saa välja lülitada. Kui käitate versiooni, mis *on*[vanem kui 10.0.25, saavad administraatorid selle funktsiooni sisse ja välja lülitada, otsides funktsioonihalduse tööruumist asukoha tootedimensioonide segamise](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) funktsiooni.
 
 ## <a name="setup"></a>Seadistus
 
@@ -44,7 +44,7 @@ Igal asukohal laos on vaja sellega seotud asukohaprofiili, mis kirjeldab asukoha
     > [!NOTE]
     > Saate määrata selle suvandi väärtuseks *Jah* ainult juhul, kui suvandi **Luba segakaubad** väärtuseks on seatud *Ei*.
 
-1. Määrake kiirkaardi **Lubatud tootedimensioonide segamine** suvandi **Suurus** väärtuseks *Jah*. Selles teemas kirjeldatud stsenaariumis on segamine võimalik ainult nende toodete puhul, millel dimensioon **Suurus** on erinev. Kuid muud suvandid on samuti saadaval.
+1. Määrake kiirkaardi **Lubatud tootedimensioonide segamine** suvandi **Suurus** väärtuseks *Jah*. Selles artiklis kirjeldatud stsenaariumis saab segamist teha ainult erinevate suurusedimensiooniga **toodete** puhul. Kuid muud suvandid on samuti saadaval.
 1. Valige käsk **Salvesta**.
 
 ### <a name="create-a-new-product-master-and-product-variants"></a>Uue tooteetaloni ja tootevariandi loomine

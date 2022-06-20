@@ -1,6 +1,6 @@
 ---
 title: Varade installimine töö asukohtades
-description: Selles teemas kirjeldatakse, kuidas varasid moodulis Asset Management installida.
+description: See artikkel selgitab, kuidas installida vara varahalduse funktsiooniasukohtadesse.
 author: johanhoffmann
 ms.date: 06/25/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bc278564b02335b44a0b35d6a3a981125e6f456b08893be2b5886f0a55396d52
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: MT
+ms.openlocfilehash: 8a35f2494c616c2e456f92409d012cc434a32bd8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775743"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894497"
 ---
 # <a name="install-assets-on-functional-locations"></a>Varade installimine töö asukohtades
 
@@ -28,7 +28,7 @@ ms.locfileid: "6775743"
 
  
 
-Pärast töö asukoha struktuuride loomist on järgmiseks sammuks varade installimine vastavatele töö asukohtadele. Selles teemas kirjeldatakse, kuidas varasid mooduli Asset Managementi nendesse töö asukohtadesse installida. Lisateabe saamiseks varade loomise kohta lugege teemat [Varade sissejuhatus](../objects/introduction-to-objects.md).
+Pärast töö asukoha struktuuride loomist on järgmiseks sammuks varade installimine vastavatele töö asukohtadele. See artikkel selgitab, kuidas installida vara varahalduses nendesse funktsiooniasukohtadesse. Lisateabe saamiseks varade loomise kohta lugege teemat [Varade sissejuhatus](../objects/introduction-to-objects.md).
 
 Kui olete loonud varade struktuuri, peab kogu vara struktuur olema installitud töö asukohta. Seetõttu saab töö asukohas valida ainult emavarasid (ülataseme varad, mille puudub emavara). Töö asukohta installitakse ka kõik seotud tütarvarad (alamvarad). Kui installite varad töö asukohta, võidakse töö asukohas olevad finantsdimensioonid neile automaatselt üle kanda olenevalt töö asukohas valitud töö asukoha tüübi seadistusest. Lisateavet töö asukohtade tüüpide seadistamise kohta lugege teemast [Töö asukoha tüübid](../setup-for-functional-locations/functional-location-types.md).
 

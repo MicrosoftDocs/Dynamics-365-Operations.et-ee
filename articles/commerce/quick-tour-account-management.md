@@ -1,6 +1,6 @@
 ---
 title: Kontohalduse lehtede ülevaade
-description: See teema annab ülevaate kontohalduse lehtedest rakenduses Microsoft Dynamics 365 Commerce.
+description: See artikkel annab ülevaate kontohalduse lehtedest Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 09/15/2020
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b21ae257ce84034f05fa22a93a2c622ee14c0a2b
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 9cc70f48371fb90f4e3529173d30baffd6fe4e14
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984515"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868879"
 ---
 # <a name="account-management-pages-overview"></a>Kontohalduse lehtede ülevaade
 
 [!include [banner](includes/banner.md)]
 
-See teema annab ülevaate kontohalduse lehtedest rakenduses Microsoft Dynamics 365 Commerce.
+See artikkel annab ülevaate kontohalduse lehtedest Microsoft Dynamics 365 Commerce.
 
 Kontohalduse lehed võimaldavad klientidel vaadata teavet, mis on seotud nende konto ja tellimustega. Kontohalduse lehed hõlmavad kontohalduse sihtlehte ja lehti, mis on seotud kasutaja profiili, aadresside, tellimuste ajaloo, tellimuste üksikasjade, püsikliendi punktide ja soovinimekirjadega.
 

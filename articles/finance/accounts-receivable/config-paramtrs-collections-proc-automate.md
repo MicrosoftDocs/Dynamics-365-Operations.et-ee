@@ -1,6 +1,6 @@
 ---
 title: Märgukirjaprotsessi automatiseerimise parameetrite konfigureerimine
-description: Selles teemas kirjeldatakse parameetreid, mis mõjutavad automatiseeritud kogumise protsesse, ja antakse nende seadistamise juhised, et automatiseeritud protsess kajastaks teie ülesandeid ja ootusi.
+description: See artikkel kirjeldab parameetreid, mis mõjutavad automatiseeritud märgukirjaprotsesse, ja annab nende seadistamise juhised nii, et automatiseeritud protsess peegeldab teie ülesandeid ja ootusi.
 author: JodiChristiansen
 ms.date: 08/05/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-26
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: e7a7e048a371fc90456368206b91c29c4b1264d5
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: c5d0f801c47ef2d98d8ba410dc593bd7640839c1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734392"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900038"
 ---
 # <a name="configure-parameters-for-collection-process-automation"></a>Märgukirjaprotsessi automatiseerimise parameetrite konfigureerimine
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas kirjeldatakse parameetreid, mis mõjutavad automatiseeritud kogumise protsesse, ja antakse nende seadistamise juhised, et automatiseeritud protsess kajastaks teie ülesandeid ja ootusi. Lisateabe saamiseks märgukirjaprotsesside automatiseerimise kohta vaata [Protsessi automatiseerimise kogud](collections-process-automate.md).
+See artikkel kirjeldab parameetreid, mis mõjutavad automatiseeritud märgukirjaprotsesse, ja annab nende seadistamise juhised nii, et automatiseeritud protsess peegeldab teie ülesandeid ja ootusi. Lisateabe saamiseks märgukirjaprotsesside automatiseerimise kohta vaata [Protsessi automatiseerimise kogud](collections-process-automate.md).
 
 ## <a name="general"></a>Üldine
 Sisestage number lahtrisse **Klientide protsent partiiülesande kohta**, et määrata pakettülesannete arv automatiseerimisprotsessi kohta. Seadke **Märgukirjade automaatne sisestamine** väärtusele **Jah**, et märgukirja tegevuse tüüp sisestaks kirja automatiseerimise ajal. Seadistage **Automatiseerimise jaoks tegevuste loomine** väärtusele **Jah**, et luua ja sulgeda tegevused, mis pole tegevusetüübid, et vaadata kõiki kontol automatiseeritud samme. Määrake kogumiste ajaloo salvestamise päevade arv **Päevad kogumiste automatiseerimise ajaloo säilitamiseks**. Kui arve jõuab sissenõuete protsessi viimase sammuni, ei kasutata seda tulevaste protsessi automatiseerimise tegevuse tüüpide loomiseks, kui **Pärast viimase protsessi etapi aktiveerimist jäta arve välja** on seatud väärtusele **Jah**. Järgmine vanim arve määratleb järgmise protsessi automatiseerimise sammu, et tagada märgukirjaprotsessi automatiseerimistoimingute jätkamine. 

@@ -1,6 +1,6 @@
 ---
 title: Kassas (POS) olevad klienditellimused
-description: Selles teemas kirjeldatakse kassas (POS) olevaid klienditellimusi. Klienditellimused on teise nimega eritellimused. Teema hõlmab arutelu seotud parameetrite ja kandevoogude kohta.
+description: See artikkel annab müügikohas (POS) klienditellimuste teavet. Klienditellimused on teise nimega eritellimused. Artikkel sisaldab seotud parameetrite ja kandevoogude arutelu.
 author: josaw1
 ms.date: 08/02/2021
 ms.topic: overview
@@ -18,18 +18,18 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 9ebdad47d761f775cf26666dc3e2736818fb4832
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 6051e0a18823b354dd9940aac70a086a0f317002
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982814"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850378"
 ---
 # <a name="customer-orders-in-point-of-sale-pos"></a>Kassas (POS) olevad klienditellimused
 
 [!include [banner](includes/banner.md)]
 
-Selles teemas kirjeldatakse kassa (POS) rakenduses olevate klienditellimuste loomist ja haldamist. Klienditellimusi saab kasutada sellise müügi jäädvustamiseks, mille korral ostjad soovivad tooted hiljem või muust asukohast kätte saada või et kaup tarnitakse neile sobivale aadressile. 
+See artikkel annab teavet, kuidas luua ja hallata klienditellimusi kassarakenduses. Klienditellimusi saab kasutada sellise müügi jäädvustamiseks, mille korral ostjad soovivad tooted hiljem või muust asukohast kätte saada või et kaup tarnitakse neile sobivale aadressile. 
 
 Mitmekanalilises kaubandusmaailmas pakuvad paljud jaemüüjad mitmesuguste toote- ja täitmisnõuete täitmiseks klienditellimuste ehk eritellimuste võimalust. Tüüpilised stsenaariumid on näiteks järgmised.
 

@@ -1,6 +1,6 @@
 ---
-title: Sisuedastusvõrgu (CDN) toe lisamine
-description: See teema kirjeldab, kuidas lisada oma Microsoft Dynamics 365 Commerce keskkonnale sisuedastusvõrk (CDN).
+title: Sisu edastamise võrgu (CDN) toe lisamine
+description: See artikkel kirjeldab, kuidas lisada sisu tarnevõrku (CDN) oma Microsoft Dynamics 365 Commerce keskkonda.
 author: brianshook
 ms.date: 03/17/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: caed13c37c9043a2acea751c8a8b15261f26ecb2e10b6e64c0ce50f6ce9a68de
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a2ed8f66d447e1d9e890c0885fd20e9b55c66ac0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722050"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855872"
 ---
 # <a name="add-support-for-a-content-delivery-network-cdn"></a>Sisu edastamise võrgu (CDN) toe lisamine
 
 [!include [banner](includes/banner.md)]
 
-See teema kirjeldab, kuidas lisada oma Microsoft Dynamics 365 Commerce keskkonnale sisuedastusvõrk (CDN).
+See artikkel kirjeldab, kuidas lisada sisu tarnevõrku (CDN) oma Microsoft Dynamics 365 Commerce keskkonda.
 
 Kui seadistate e-kaubanduse keskkonda rakenduses Dynamics 365 Commerce, siis saate konfigureerida selle töötama koos oma CDN-i teenusega. 
 
@@ -60,7 +60,7 @@ CDN-i seadistamise protsess koosneb järgnevatest üldistest etappidest.
 
 ### <a name="add-a-front-end-host"></a>Eesserveri hosti lisamine
 
-Kasutada võib mis tahes CDN-i teenust, kuid näiteks selles teemas kasutatakse Azure’i sisenemispunkti teenust. 
+Kasutada saab kõiki CDN-teenuseid, kuid selles artiklis kasutatakse näiteks Azure Front Ukse teenust. 
 
 Teavet Azure’i sisenemispunkti teenuse seadistamise kohta vaadake teemast [Lühijuhend: suure saadavusega globaalse veebirakenduse jaoks sisenemispunkti loomine](/azure/frontdoor/quickstart-create-front-door).
 
@@ -101,7 +101,7 @@ Azure’i sisenemispunkti teenuse marsruudivaliku reegli seadistamiseks toimige 
 
 
 > [!WARNING]
-> Kui domeen, mida te kasutama hakkate, on juba aktiivne ja kasutusvalmis, looge teenuse [Microsoft Dynamics Lifecycle Services](https://lcs.dynamics.com/) paanil **Tugi** tugiteenusepilet, et saada järgmiste sammude jaoks abi. Lisateavet leiate teemast [Finance and Operationsi rakenduste või teenuse Lifecycle Services (LCS) tugi](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md).
+> Kui domeen, mida te kasutama hakkate, on juba aktiivne ja kasutusvalmis, looge teenuse [Microsoft Dynamics Lifecycle Services](https://lcs.dynamics.com/) paanil **Tugi** tugiteenusepilet, et saada järgmiste sammude jaoks abi. Lisateavet vt jaotisest Finantside [ja toimingute rakenduste või elutsükli teenuste (LCS) toe saamine](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md).
 
 Kui teie domeen on uus ja ei ole olemasolev kasutatav domeen, saate lisada oma kohandatud domeeni Azure'i sisenemispunkti teenuse konfiguratsiooni. See võimaldab suunata veebiliiklust teie saidile Azure'i sisenemispunkti teenuse kaudu. Kohandatud domeeni lisamiseks (nt `www.fabrikam.com`) peate konfigureerima domeeni kanoonilise nime (CNAME).
 

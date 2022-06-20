@@ -1,6 +1,6 @@
 ---
 title: Tulu eraldamine
-description: See teema kirjeldab, kuidas kasutada tulu eraldamist kordustellimuse arvelduses.
+description: See artikkel selgitab, kuidas kasutada tulu eraldamist kordustellimuse arvelduses.
 author: JodiChristiansen
 ms.date: 11/04/2021
 ms.topic: article
@@ -14,16 +14,16 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 09d3e9295f1fb753156aa603b00372316173721e
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 18739e0871592bc9eefcdf00f67dd4dd18f5d6f1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695242"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864364"
 ---
 # <a name="revenue-allocation"></a>Tulu eraldamine
 
-See teema kirjeldab, kuidas seadistada tulu eraldusparameetreid arveldusgraafiku jaoks. Tulu eraldamise saate seadistada või muuta arveldusgraafiku loomisel. Aktiivse või lõpetatud **arveldusgraafiku** tulueralduse lehe avamisel on väljad kirjutuskaitstud.
+See artikkel selgitab, kuidas seadistada tulu eraldusparameetreid arveldusgraafiku jaoks. Tulu eraldamise saate seadistada või muuta arveldusgraafiku loomisel. Aktiivse või lõpetatud **arveldusgraafiku** tulueralduse lehe avamisel on väljad kirjutuskaitstud.
 
 ## <a name="specify-the-revenue-allocation-for-a-billing-schedule"></a>Määrake tulu eraldamine arveldusgraafiku jaoks
 
@@ -62,7 +62,7 @@ Mitme **elemendiga sisukorra** leht sisaldab järgmisi välju.
 | Allesjäänud lepingu tulu | Lepingu järelejäänud tulu summa. See summa on kõigi nende ridade summa, mille jaoks pole arveid veel loodud. |
 | Lepingu tulu kokku | Rea kogu lepingutulu summa See summa on kõigi ridade summa, sõltumata sellest, kas arved on nende jaoks loodud. |
 | Edasi lükatud lepingu tulude konto | <p>Määratlege konto, mida kasutada töölehe sisestuste jaoks MEA lepingu arve loomisel.</p><p>See väli on saadaval ainult korduva lepingu arvelduse kasutamisel.</p> |
-| Tõrge | Tulu eraldamisel ilmnenud tõrked. |
+| Viga | Tulu eraldamisel ilmnenud tõrked. |
 
 ## <a name="use-revenue-allocation-on-a-sales-order"></a>Kasuta müügitellimusel tulu eraldust
 

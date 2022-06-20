@@ -1,6 +1,6 @@
 ---
 title: Grupeeri kirjed ja koonda kalkulatsioonid GROUPBY andmeallikate abil
-description: See teema selgitab GROUPBY-tüüpi andmeallikate kasutamist elektroonilises aruandluses (ER).
+description: See artikkel selgitab GROUPBY-tüüpi andmeallikate kasutamist elektroonilises aruandluses (ER).
 author: NickSelin
 ms.date: 03/18/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3b79dfe62122a031ae9ed7f51ea7ff578cd47358
-ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.openlocfilehash: 7b20b5db0794157560f27f15594a84083966642f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8462293"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861783"
 ---
 # <a name="group-records-and-aggregate-calculations-by-using-groupby-data-sources"></a>Grupeeri kirjed ja koonda kalkulatsioonid GROUPBY andmeallikate abil
 
@@ -69,7 +69,7 @@ Lisateabe saamiseks selle funktsiooni kohta läbige järgmine näide.
 
 See näide näitab, kuidas kasutaja süsteemiadministraatoris või elektroonilise aruandluse funktsiooninõustaja rollis saab konfigureerida ER-mudeli **vastendamist, mille andmeallikal GROUPBY** on agregaatorfunktsioonid ja grupikirjed. Mudeli vastendamist kasutatakse kontrollaruande printimiseks Intrastat-deklaratsiooni loomisel. Selle aruandega saate vaadata üle teatatud Intrastati kanded.
 
-Selles näites protseduure saab teha **Microsoft DEMF-ettevõttes** Dynamics 365 Finance. 
+Selle näite protseduurid saab DEMF-ettevõttes **lõpule** viia Microsoft Dynamics 365 Finantsid. 
 
 ### <a name="prepare-sample-data"></a>Näidisandmete ettevalmistamine
 
@@ -83,7 +83,7 @@ Minimaalsete [ER-i parameetrite konfigureerimine](er-quick-start2-customize-repo
 
 ### <a name="import-the-standard-er-format-configuration"></a>Standardse ER‑vormingu konfiguratsiooni importimine
 
-Praegusele eksemplarile [standardse ER-vormingu konfiguratsiooni lisamiseks](er-quick-start2-customize-report.md#ImportERSolution1) järgige standardse ER-vormingu konfiguratsiooni Dynamics 365 Finance samme. Saate intrastati mudelikonfiguratsiooni **versiooni** 1 hoidlast importida.
+Järgige standardse ER-vormingu [konfiguratsiooni importimise etappe](er-quick-start2-customize-report.md#ImportERSolution1), et lisada praegusele Dynamics 365 Finance'i eksemplarile standardsed ER-konfiguratsioonid. Saate intrastati mudelikonfiguratsiooni **versiooni** 1 hoidlast importida.
 
 ### <a name="create-a-custom-data-model-configuration"></a>Kohandatud andmemudeli konfiguratsiooni loomine
 

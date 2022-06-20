@@ -1,6 +1,6 @@
 ---
 title: Rendi kinnitamise töövoogude seadistamine
-description: Selles teemas selgitatakse, kuidas seadistada kinnitamise töövoogu, mis käivitub uue rendilepingu loomisel.
+description: Artikkel selgitab, kuidas seadistada kinnitamise töövoogu, mida käitatakse uue rendi loomisel.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: f7781fcb643d678fed528af947efb01911899f54
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 0162e559f8aaec248cfb9042b0152788536c9fc9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8724609"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870274"
 ---
 # <a name="set-up-lease-approval-workflows"></a>Rendi kinnitamise töövoogude seadistamine
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas selgitatakse, kuidas seadistada kinnitamise töövoogu, mis käivitub uue rendilepingu loomisel. Lisateavet töövoo kasutamise kohta vaadake jaotisest [Rendilepingu kinnitamise töövoogude kasutamine](use-create-lease-wrkflw.md). 
+Artikkel selgitab, kuidas seadistada kinnitamise töövoogu, mida käitatakse uue rendi loomisel. Lisateavet töövoo kasutamise kohta vaadake jaotisest [Rendilepingu kinnitamise töövoogude kasutamine](use-create-lease-wrkflw.md). 
 
 1. Avage **Vara rentimine \> Seadistus \> Rendi töövoog**.
 2. Valige lehel **Rendi töövoog** suvand **Uus**.

@@ -1,6 +1,6 @@
 ---
 title: Topeltkasutusega kaubad
-description: Selles teemas selgitatakse, kuidas saada ülevaadet topeltkasutusega kaupadest, talletada iga asjakohase toote ja sihtriigi sertifikaadi numbreid ning printida kehtivaid sertifikaadi numbreid vastavatele arvetele, saatelehtedele ja/või müügitellimustele.
+description: See artikkel selgitab, kuidas jälgida tooteid, mida tuvastatakse kahesuguse kasutusega kaupadena, kaupluse sertifikaadi numbreid iga asjakohase toote ja sihtriigi puhul ning printige kehtivad sertifikaadi numbrid vastavatele arvetele, saatelehtedele ja/või müügitellimustele.
 author: t-benebo
 ms.date: 07/15/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 787d0c4ebcf83d6bfec05943f2bb0ddc5961a93a
-ms.sourcegitcommit: e18ea2458ae042b7d83f5102ed40140d1067301a
+ms.openlocfilehash: 02b154b9ea849c6b905d76edb256c4106b254acd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8736029"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878899"
 ---
 # <a name="dual-use-goods"></a>Topeltkasutusega kaubad
 
@@ -42,7 +42,7 @@ Kaaluge järgmisi stsenaariume.
 
 6. Tellimus sisaldab toodet X-100, toode saadetakse Prantsusmaale ja toote jaoks on olemas prantsuse sertifikaat. Kuid see sertifikaat on aegunud. Seetõttu kuvatakse teile järgmine hoiatusteade: „Selle müügitellimuse ühe või mitme topeltkasutusega kauba sertifikaat ei kehti. Kas soovite kinnitusega jätkata?”
 
-Selles teemas selgitatakse, kuidas konfigureerida kõiki sätteid, mis on vajalikud topeltkasutusega kaupade seadistamiseks ja selle stsenaariumi toetamiseks.
+See artikkel selgitab, kuidas konfigureerida kõiki sätteid, mis on vajalikud topelt kasutuses kaupade häälestamiseks ja selle stsenaariumi toetamiseks.
 
 ## <a name="define-dual-use-requirements-for-each-relevant-country"></a>Kõigi asjakohaste riikide topeltkasutuse nõuete määratlemine
 

@@ -1,6 +1,6 @@
 ---
 title: Demoandmete ekraanipaigutused kaasaegses kassas (MPOS) ja pilve kassas
-description: See teema sisaldab teavet ekraanipaigutuste kohta, mis on kaasas Dynamics 365 Commercei kassa demoandmetega.
+description: See artikkel annab teavet ekraanipaigutuste kohta, mis kaasatakse müügikoha (POS) kogemuste demo andmekomplekti Dynamics 365 Commerce.
 author: josaw1
 ms.date: 10/05/2017
 ms.topic: article
@@ -16,22 +16,22 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2017-10-05
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: c141325580d698cccc7d186496a0902913961d47764b93fa73c64c3eddf6e791
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: eb7a288b61e8b467dd8ad6a8f7dc42b7fca0d943
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761658"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897221"
 ---
 # <a name="demo-data-screen-layouts-in-modern-pos-mpos-and-cloud-pos"></a>Demoandmete ekraanipaigutused kaasaegses kassas (MPOS) ja pilve kassas
 
 [!include [banner](includes/banner.md)]
 
-See teema sisaldab teavet ekraanipaigutuste kohta, mis on kaasas Dynamics 365 Commercei kassa demoandmetega.
+See artikkel annab teavet ekraanipaigutuste kohta, mis kaasatakse müügikoha (POS) kogemuste demo andmekomplekti Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Ülevaade
 
-Commerce'i demoandmetega kaasas olevad ekraanipaigutuste näidised hõlmavad sisu, mis on optimeeritud mitmesuguste kaubandussegmentide, kaupluse töötajate rollide ja seadmete jaoks. Üks paigutus võib sisaldada eri suuruses paigutusi ja nupupaneelide kombinatsioone, et tagada ühilduvus, kui kaupluse töötajad kasutavad eri seadmeid ja jaamu. Teemas tõstetakse esile paigutuste erinevused, üldine kasutuskogemus ja nendes saadaolevad operatsioonid.
+Commerce'i demoandmetega kaasas olevad ekraanipaigutuste näidised hõlmavad sisu, mis on optimeeritud mitmesuguste kaubandussegmentide, kaupluse töötajate rollide ja seadmete jaoks. Üks paigutus võib sisaldada eri suuruses paigutusi ja nupupaneelide kombinatsioone, et tagada ühilduvus, kui kaupluse töötajad kasutavad eri seadmeid ja jaamu. Käesolevas artiklis tõstetakse esile erinevused nende kavandite, nende pakutavate operatsioonide ja üldise kogemuse vahel, mida need pakuvad.
 
 ![Seadmeüleste demoandmete paigutused.](../commerce/media/demo-screen-layouts-fig-1-1.png)
 
@@ -52,7 +52,7 @@ Ekraanipaigutuse ID võib sisaldada kuni 10 märki. ID on string, mis koosneb ko
 | Kiri | Ettevõte         |
 |--------|-----------------|
 | A      | Adventure Works |
-| R      | Fabrikam        |
+| F      | Fabrikam        |
 | C      | Contoso         |
 
 ### <a name="layout-version"></a>Paigutuse versioon

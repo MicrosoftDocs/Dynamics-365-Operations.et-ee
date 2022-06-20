@@ -1,6 +1,6 @@
 ---
 title: Aruande komponentide korraldamine aruandekoosturis
-description: Selles teemas selgitatakse olemasolevate aruannete, koosteüksuste ja objektide korraldamist aruandekoosturis.
+description: Selles artiklis kirjeldatakse olemasolevate aruannete,koosteüksuste ja objektide korraldamist aruandekoosturis.
 author: ShylaThompson
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6b30e7e480edb50bb9509e270806224755f98e38111cda0c1cae86a0f56eb193
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 29fdb6ac6b200956383386c42ccb7627314ea7a2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763520"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898707"
 ---
 # <a name="organize-report-components-in-report-designer"></a>Aruande komponentide korraldamine aruandekoosturis
 

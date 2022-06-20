@@ -1,6 +1,6 @@
 ---
-title: Integreeritu kohad ja laod
-description: Siin peatükis kirjeldatakse koha ja lao andmete integratsiooni Finance and Operationsi ning Dataverse’i vahel.
+title: Integreeritud kohad ja laod
+description: See artikkel kirjeldab saidi ja lao andmete integreerimist Finantside ja Toimingute ning Dataverse.
 author: t-benebo
 ms.date: 10/09/2019
 ms.topic: article
@@ -9,20 +9,20 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: benebotg
 ms.search.validFrom: 2019-08-15
-ms.openlocfilehash: 66c5962933387831bbc3f17b9f29128ceaaf750b
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: cd1293094f670c43eb46bc14b8bfe0f2afe43047
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063208"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852594"
 ---
-# <a name="integrated-sites-and-warehouses"></a>Integreeritu kohad ja laod
+# <a name="integrated-sites-and-warehouses"></a>Integreeritud kohad ja laod
 
 [!include [banner](../../includes/banner.md)]
 
 
 
-Siin peatükis kirjeldatakse koha ja lao andmete integratsiooni Finance and Operationsi ning Dataverse’i vahel. Tegevuskohad ja laod on rakenduses Supply Chain Management levinud kontseptsioonid. Neid kasutatakse ettevõtte tarneahela modelleerimiseks.
+See artikkel kirjeldab saidi ja lao andmete integreerimist Finantside ja Toimingute ning Dataverse. Tegevuskohad ja laod on rakenduses Supply Chain Management levinud kontseptsioonid. Neid kasutatakse ettevõtte tarneahela modelleerimiseks.
 
 ## <a name="templates"></a>Mallid
 

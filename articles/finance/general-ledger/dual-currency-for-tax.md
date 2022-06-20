@@ -1,6 +1,6 @@
 ---
 title: Maksu topeltvaluuta tugi
-description: Selles teemas selgitatakse, kuidas laiendada maksudomeenis topeltvaluuta arvestuse funktsiooni ja maksude arvutamise ja sisestamise mõju
+description: See artikkel selgitab, kuidas laiendada topeltvaluuta raamatupidamise funktsiooni maksudomeenis ja mõju maksu arvutamisele ja sisestamisele.
 author: EricWang
 ms.date: 12/11/2020
 ms.topic: article
@@ -15,17 +15,17 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: fcd5a3afb442d9c85aba12b7782cf09f88f0e51a
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 13d70d964a83c2efba090244d549bdb38ad25af2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713040"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909036"
 ---
 # <a name="dual-currency-support-for-sales-tax"></a>Käibemaksu topeltvaluuta tugi
 [!include [banner](../includes/banner.md)]
 
-Selles teemas selgitatakse, kuidas laiendada käibemaksude topeltvaluuta arvestust ja käibemaksu arvutamise, sisestamise ja tasakaalustuste mõju.
+See artikkel selgitab, kuidas laiendada käibemaksu topeltvaluuta arvestust ja mõju käibemaksu arvutustele, sisestamisele ja tasakaalustustele.
 
 Dynamics 365 Finance topeltvaluuta funktsioon tutvustati versioonis 8.1 (oktoober 2018). See muudab raamatupidamise kirjete aruandevaluutas arvutamise viisi.
 
@@ -89,7 +89,7 @@ See funktsioon rakendub ainult uutele kannetele. Tabelis TAXTRANS juba salvestat
 
 Eelneva stsenaariumi vältimiseks soovitame muuta selle parameetri väärtust uues (puhtas) maksu tasakaalustusperioodil, mis ei sisalda ühtegi tasakaalustamata maksukannet. Selle väärtuse muutmiseks maksu tasakaalustusperioodi keskel käivitage enne selle parameetri väärtuse muutmist programm „Käibemaksu tasakaalustamine ja sisestamine” praeguse maksu tasakaalustusperioodi jaoks.
 
-See funktsioon lisab raamatupidamiskirjed, mis selgitavad valuutavahetustest saadavat kasumit ja kahjumit. Kanded tehakse realiseeritud valuuta korrigeerimise tulu ja kulu kontodel, kui ümberhindamine toimub käibemaksu tasakaalustamise ajal. Lisateabe leimiseks vaaake [Maksu tasakaalustuse automaatne saldo](#tax-settlement-auto-balance-in-reporting-currency) jaotisest selles teemas hiljem.
+See funktsioon lisab raamatupidamiskirjed, mis selgitavad valuutavahetustest saadavat kasumit ja kahjumit. Kanded tehakse realiseeritud valuuta korrigeerimise tulu ja kulu kontodel, kui ümberhindamine toimub käibemaksu tasakaalustamise ajal. Lisateavet vt selle artikli jaotisest [Maksu tasakaalustuse automaatne saldo](#tax-settlement-auto-balance-in-reporting-currency) aruandlusvaluutas.
 
 > [!NOTE]
 > Tasakaalustuse ajal võetakse finantsdimensioonide teave käibemaksukontodelt, mis on bilansikontod, ja sisestatakse valuuta korrigeerimise tulu ja kulu kontodele, mis on kasumiaruande kontod. Kuna finantsdimensioonide väärtuse piirangud erinevad bilansikontode ning kasumiaruande kontode vahel, võib müügimaksu tasakaalustamise ja sisestamise protsessis ilmneda tõrkeid. Konto struktuuride muutmise vältimiseks saate sisse lülitada funktsiooni "Rahaliste mõõtmete täitmine käibemaksu arveldamiseks realiseeritud valuutakorrigeerimise kasumi / kahjumi kontodele". See funktsioon sunnib finantsdimensioonide tuletamist valuuta korrigeerimise kasumi/kahjumi kontodele. 

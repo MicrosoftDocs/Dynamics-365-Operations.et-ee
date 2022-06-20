@@ -1,6 +1,6 @@
 ---
 title: GS1 vöötkoodid
-description: See teema kirjeldab, kuidas seadistada GS1 vöötkoode ja QR-koode nii, et silte saab laos skannida.
+description: See artikkel kirjeldab, kuidas seadistada GS1 vöötkoode ja QR-koode nii, et silte saab laos skannida.
 author: Mirzaab
 ms.date: 03/21/2022
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: ea928bc8a020035adb36ae2e7873c656e8c3985d
-ms.sourcegitcommit: 1050e58e621d9a0454895ed07c286936f8c03320
+ms.openlocfilehash: 67c54f344ff7091f4a25198fdafa745c6c84d5d0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8625274"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907141"
 ---
 # <a name="gs1-bar-codes"></a>GS1 vöötkoodid
 
@@ -30,11 +30,11 @@ GS1-tugi tarneahela halduses lihtsustab märgatavalt skannimisprotsessi ladudes,
 
 Logistikahaldurid peavad seadistama nõutava rakenduse identifikaatorite loendi ja seostama iga neist sobiva mobiilse seadme menüü-üksustega. Rakenduse identifikaatoreid saab seejärel kasutada läbi ladude globaalse sättena teisaldamisel ja pakkimisel. Seetõttu, on kõigil saadetise siltidel ühtne vorm.
 
-Kui pole teisiti määratud, kasutab *see teema terminit vöötkood* nii lineaarsele (1D) vöötkoodile kui ka 2D-vöötkoodile viitamiseks.
+Kui pole teisiti määratud, viitab *see* artikkel termini vöötkoodi abil nii lineaarsele (1D) vöötkoodile kui ka 2D-vöötkoodile.
 
 ## <a name="the-gs1-bar-code-format"></a>GS1 vöötkoodi vorming
 
-GS1 üldspetsifikatsioonid määratlevad, milliseid sümboleid saab GS1 vöötkoodide puhul kasutada ja kuidas neid vöötkoodis kodeerida. Selles jaotises antakse teema lühike sissejuhatus. Täielikku teavet vt [GS1 üldistest spetsifikatsioonidest](https://www.gs1.org/docs/barcodes/GS1_General_Specifications.pdf), mille avaldatakse GS1. GS1 spetsifikatsioonide dokumenti uuendatakse regulaarselt ja sellelt saadav teave on uuendatud GS1 üldiste spetsifikatsioonide väljaandega 22.0.
+GS1 üldspetsifikatsioonid määratlevad, milliseid sümboleid saab GS1 vöötkoodide puhul kasutada ja kuidas neid vöötkoodis kodeerida. Selles jaotises antakse lühike sissejuhatus artiklisse. Täielikku teavet vt [GS1 üldistest spetsifikatsioonidest](https://www.gs1.org/docs/barcodes/GS1_General_Specifications.pdf), mille avaldatakse GS1. GS1 spetsifikatsioonide dokumenti uuendatakse regulaarselt ja sellelt saadav teave on uuendatud GS1 üldiste spetsifikatsioonide väljaandega 22.0.
 
 GS1 vöötkoodid kasutavad järgmisi sümboleid:
 

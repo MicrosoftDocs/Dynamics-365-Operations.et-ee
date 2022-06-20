@@ -1,6 +1,6 @@
 ---
 title: Müügi ja tulususe jõudluse Power BI sisu
-description: See teema kirjeldab, mida hõlmab müügi ja tulususe jõudluse Power BI sisu.
+description: See artikkel kirjeldab, mida kaasatakse müügi ja tulususe jõudluse sisusse Power BI.
 author: ShylaThompson
 ms.date: 12/18/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9ec9ef5f4abf898100c670b1ca1cc845d6ebeeea36f21cdda3a9b7d3f1027d4e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8433250efad467e92aeaa851f0b60c3c1eced99c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6725206"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898678"
 ---
 # <a name="sales-and-profitability-performance-power-bi-content"></a>Müügi ja tulususe jõudluse Power BI sisu
 
 [!include [banner](../includes/banner.md)]
 
-See teema kirjeldab, mida hõlmab **Müügi ja tulususe jõudluse** Microsoft Power BI sisu. See selgitab ka seda, kuidas pääseda juurde Power BI aruannetele, ning annab teavet andmemudeli ja üksuste kohta, mida kasutatakse sisu loomiseks.
+See artikkel kirjeldab, mida kaasatakse müügi ja **tulususe jõudluse sisusse** Microsoft Power BI. See selgitab ka seda, kuidas pääseda juurde Power BI aruannetele, ning annab teavet andmemudeli ja üksuste kohta, mida kasutatakse sisu loomiseks.
 
 ## <a name="overview"></a>Ülevaade
 

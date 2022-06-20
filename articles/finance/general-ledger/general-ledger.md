@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bd832c32655aa52fec16852ec5550a34d06f00f4
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: 14aaf40ce64c8f8ba6277fa0883318e08505a464
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8719912"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904553"
 ---
 # <a name="general-ledger-home-page"></a>Pearaamatu avaleht
 
@@ -57,11 +57,11 @@ Lisaks tuleb reegleid regulaarselt uuendada, kui maksuasutused oma nõudeid muud
 Avage [Microsoft Dynamics 365 väljalaskeplaanid](/dynamics365/release-plans/), et näha, milliseid uusi funktsioone on kavandatud. 
 
 #### <a name="financial-reporting"></a>Finantsaruandlus
-Finantsaruannete kohta leiate teavet teemast [Rakenduse Financial Reporting ülevaade](../../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md).
+Finantsaruannete kohta [teabe saamiseks minge](../../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md) finantsaruandluse ülevaate artiklisse.
 
 #### <a name="blogs"></a>Ajaveebid
 
-Arvamusi, uudiseid ja muud teavet leiate [Microsoft Dynamics 365 ajaveebist](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) ning [ajaveebist Microsoft Dynamics 365 Finance and Operations – Financials](https://community.dynamics.com/365/financeandoperations/b/financials).
+Arvamusi, uudiseid ja muud teavet leiate [Microsoft Dynamics 365 ajaveebist](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) ning [ajaveebist Microsoft Dynamics 365 Finance and Operations – Rahandus](https://community.dynamics.com/365/financeandoperations/b/financials).
 
 [Microsoft Dynamics Operationsi partnerite kogukonna ajaveeb](https://community.dynamics.com/partner/b/operationspartnercommunityblog) on Microsoft Dynamicsi partnerite jaoks kõikehõlmav ressurss, kust nad saavad teada, mis on uut ja põnevat rakenduses Dynamics 365.
 

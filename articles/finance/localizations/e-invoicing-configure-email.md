@@ -1,6 +1,6 @@
 ---
 title: Meilikanali konfigureerimine
-description: See teema kirjeldab, kuidas konfigureerida meilikanalit elektrooniliste arvete saamiseks.
+description: See artikkel selgitab, kuidas konfigureerida meilikanalit elektrooniliste arvete saamiseks.
 author: dkalyuzh
 ms.date: 02/09/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dkalyuzh
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 6a5896a033212cf0f29f686eec0ab6fb3bc1d2a6
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: 9227b032ffe896ad6a67962e5047fd797a883ae1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371868"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902381"
 ---
 # <a name="configure-an-email-channel"></a>Meilikanali konfigureerimine
 
@@ -55,7 +55,7 @@ Kui elektroonilise arveldamise funktsioon, mille lõite impordib elektroonilist 
     | Kuupäevafilter          | Määrake kuupäev, et määrata töödeldavate teadete maksimaalne vanus päevades. Väli on valikuline. Vaikeväärtus on 30 päeva. |
     | Töötlemisrežiim      | <p>Valige üks järgmistest suvanditest, et määrata, kas kõiki meilis manuseid saab koos töödelda või kas iga manust tuleb eraldi töödelda:</p><ul><li><b>Manusena</b> – iga meilisõnumis manuse kohta luuakse uus elektrooniline dokument. Näiteks kui üks meil sisaldab mitut faili, mis sisaldavad e-arve andmeid, loetakse iga fail süsteemis uueks e-arveks.</li><li><b>Meiliga</b> – üks manus on põhimanus ja üks elektrooniline arve luuakse süsteemis. Teisi manuseid saab kasutada tugifailidena.</li></ul> |
 
-9. Lisage jaotises **Manuste** filter faili filtreerimisteave. Töödeldakse ainult määratletud filtrit rahuldavaid manuseid. Näiteks . **\* xml filtreerib** manuseid, mille nimelaiend on .xml. Manuse nime kasutatakse seadistuses Dynamics 365 Finance või Dynamics 365 Supply Chain Management selle ajal.
+9. Lisage jaotises **Manuste** filter faili filtreerimisteave. Töödeldakse ainult määratletud filtrit rahuldavaid manuseid. Näiteks . **\* xml filtreerib** manuseid, mille nimelaiend on .xml. Manuse nime kasutatakse Dynamics 365 Finances või häälestuse Dynamics 365 Supply Chain Management ajal.
 
     - Kui seate eelmises **sammus** välja **Töötlusrežiim** väärtuseks Meiliga, saate siia lisada mitu filtrit. Nimi identifitseerib konkreetse dokumendi.
     - Kui seate välja **Töötlusviis** väärtuseks **Manusega**, saate lisada ainult ühe filtri.

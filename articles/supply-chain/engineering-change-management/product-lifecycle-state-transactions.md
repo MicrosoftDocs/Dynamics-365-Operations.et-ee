@@ -1,6 +1,6 @@
 ---
 title: Toote töötsükli olekud ja kanded
-description: Selles teemas selgitatakse, kuidas saate kontrollida, millised kanded on igas töötsükli olekus lubatud, kui tehniline toode töötsüklit läbib.
+description: See artikkel selgitab, kuidas saate kontrollida, millised kanded on lubatud iga töötsükli oleku jaoks, kui tehnika toode läbib selle töötsükli.
 author: t-benebo
 ms.date: 02/17/2022
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 1e9b8a9f25edfa654a57e0ab4071cd93c8033d85
-ms.sourcegitcommit: d375ef4138e898621416754c40770d8ccca4d271
+ms.openlocfilehash: dd9155f799c66e8297b93d8ffbeeced1acd14220
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8322740"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8867952"
 ---
 # <a name="product-lifecycle-states-and-transactions"></a>Toote töötsükli olekud ja kanded
 
@@ -37,7 +37,7 @@ Toote töötsükli olekutega töötamiseks valige **Tehniline haldus \> Hääles
 - Olemasoleva töötsükli oleku kustutamiseks valige see loendipaanil ja valige seejärel toimingupaanil nupp **Kustuta**.
 
 > [!NOTE]
-> Tehnilised tooted kasutavad samu toote töötsükli olekuid nagu tavalised (mittetehnilised) tooted. Lisaks saate avada selles teemas kirjeldatud lehe **Toote töötsükli olek**, valides **Tooteteabe haldus \> Häälestus \> Toote töötsükli olek**. Lisateavet toote töötsükli olekute kohta nii tehniliste toodete kui ka tavaliste toodete korral leiate teemast [Toote töötsükli olekute ülevaade](../pim/product-lifecycle.md).
+> Tehnilised tooted kasutavad samu toote töötsükli olekuid nagu tavalised (mittetehnilised) tooted. Samuti saate avada selles artiklis **kirjeldatud** toote **elutsükli olekulehe, avades tooteteabe halduse häälestuse \> toote \> töötsükli oleku**. Lisateavet toote töötsükli olekute kohta nii tehniliste toodete kui ka tavaliste toodete korral leiate teemast [Toote töötsükli olekute ülevaade](../pim/product-lifecycle.md).
 
 ### <a name="header"></a>Päis
 

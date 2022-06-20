@@ -1,6 +1,6 @@
 ---
 title: Laovarude manuaalse liigutamise edasilükatud töötlemine
-description: See teema kirjeldab, kuidas kasutada laovarude manuaalse liigutamise edasilükatud töötlemist Dynamics 365 Supply Chain Management Microsoftis.
+description: See artikkel kirjeldab, kuidas kasutada Käsitsi lao liikumise edasilükatud töötlemist Microsoftis Dynamics 365 Supply Chain Management.
 author: Mirzaab
 ms.date: 04/27/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-04-27
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: c2e7296d77332b665e5d618d39804216f4347ca2
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 5e5d0a93a4c628d4867161d082b0f0e177ddb95c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670464"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863733"
 ---
 # <a name="deferred-processing-of-manual-inventory-movement"></a>Laovarude manuaalse liigutamise edasilükatud töötlemine
 
 [!include [banner](../includes/banner.md)]
 
-See teema kirjeldab, kuidas kasutada laovarude manuaalse liigutamise edasilükatud töötlemist Dynamics 365 Supply Chain Management Microsoftis.
+See artikkel kirjeldab, kuidas kasutada Käsitsi lao liikumise edasilükatud töötlemist Microsoftis Dynamics 365 Supply Chain Management.
 
 Edasilükatud töötlemine võimaldab laotöötajatel jätkata muude töödega, kui asetamistoiminguid taustal töödeldakse. Edasilükatud töötlemine on kasulik ka siis, kui serveris võib esineda töötlusaja kohatisi või plaanivälist suurenemist ja suurenenud töötlusaeg võib mõjutada kasutaja tootlikkust. Varude *liikumise* töötüüp on nüüd lisatud töötüüpide komplekti, mida see funktsioon toetab.
 

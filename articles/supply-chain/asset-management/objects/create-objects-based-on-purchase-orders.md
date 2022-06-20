@@ -1,6 +1,6 @@
 ---
 title: Ostutellimusel põhinevate varade loomine
-description: Selles teemas selgitatakse, kuidas luua vara üksuste loendit, mida saab kasutada varade loomisel hooldustööde jaoks varahalduses.
+description: See artikkel selgitab, kuidas luua varaüksuste loendit, mida saab kasutada varade loomise alusena varahalduses hooldustööde jaoks.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c5068712a7ea1e0d940d4a05a411fb3e1b6f6d9bb9be924d5375b16676561ea1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: MT
+ms.openlocfilehash: 8bee66e2d35af6daa8d86539e52b558bde3c79a1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754103"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893696"
 ---
 # <a name="create-assets-based-on-purchase-orders"></a>Ostutellimusel põhinevate varade loomine
 
@@ -28,7 +28,7 @@ ms.locfileid: "6754103"
 
  
 
-Selles teemas selgitatakse, kuidas luua vara üksuste loendit, mida saab kasutada varade loomisel hooldustööde jaoks varahalduses. Vara üksuste põhjal saate vaadata nende kaupade kohta loodud ostutellimuse ridade loendit. Selle funktsiooni eesmärk on hõlpsalt luua ostutellimusel põhinev vara varahalduses.
+See artikkel selgitab, kuidas luua varaüksuste loendit, mida saab kasutada varade loomise alusena varahalduses hooldustööde jaoks. Vara üksuste põhjal saate vaadata nende kaupade kohta loodud ostutellimuse ridade loendit. Selle funktsiooni eesmärk on hõlpsalt luua ostutellimusel põhinev vara varahalduses.
 
 Esmalt saate seadistada kaubad, mida kasutatakse varade loomisel ostutellimuse põhjal suvandis **Kaubagrupid**. Pärast ostutellimuse rea loomist saate luua varad suvandis **Ootel varad**. Teil on võimalik otsustada, millises ostutellimuse etapis vara luuakse.
 

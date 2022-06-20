@@ -1,6 +1,6 @@
 ---
 title: Miks ma ei saa seda kannet tühistada?
-description: Selles teemas kirjeldatakse erinevaid põhjuseid, miks kandeid ei saa ümber pöörata. Samuti loetletakse selle probleemi lahendusi.
+description: See artikkel kirjeldab erinevaid põhjusi, miks kandeid ei saa tühistada. Samuti loetletakse selle probleemi lahendusi.
 author: kweekley
 ms.date: 07/21/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-07-21
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: e18caf1dbdf8191713c17b1793f5da44cf2f182b
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 9a8b26584b1a9b82440583db693cd14daa580e22
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8724525"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876178"
 ---
 # <a name="why-cant-i-reverse-this-transaction"></a>Miks ma ei saa seda kannet tühistada?
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas kirjeldatakse erinevaid põhjuseid, miks kandeid ei saa ümber pöörata. Samuti loetletakse selle probleemi lahendusi.
+See artikkel kirjeldab erinevaid põhjusi, miks kandeid ei saa tühistada. Samuti loetletakse selle probleemi lahendusi.
 
 ## <a name="symptom"></a>Sümptom
 
@@ -35,14 +35,14 @@ Organisatsioonidel võib tekkida olukord, kus nad peavad tühistama sisestatud k
 
 ## <a name="resolution"></a>Lahendus
 
-Kanded peavad enne ümberpööramist vastama kindlatele kriteeriumidele. Selle teema ülejäänud jaotised annavad kinnituse iga mooduli jaoks. Kuigi see teema keskendub kannetele Microsoft Dynamics 365 Finantsis, saab mõningaid mõisteid ja kinnitamist rakendada teistele rakendustele, nt Dynamics 365 Supply Chain Management.
+Kanded peavad enne ümberpööramist vastama kindlatele kriteeriumidele. Selle artikli ülejäänud jaotised annavad kinnituse iga mooduli jaoks. Kuigi see artikkel keskendub kannetele Microsoft Dynamics 365 Finantsis, saab mõningaid mõisteid ja kinnitamist rakendada teistele rakendustele, nt Dynamics 365 Supply Chain Management.
 
 Lisaks võib see koht, kus kanne tühistatakse, mõjutada, kas seda saab tagasi võtta. Näiteks saab müüja makset, mis on sisestatud tšekina, tühistada ainult pangakontode kandelehe jaotises **Tšekid**. Seda ei saab tühistada jaotisest **Vautcheri kanded** pearaamatu lehelt.
 
 Kui **mitme dokumendi funktsiooni masspööramine** (tuntud ka kui masspööramise funktsioon) on sisse lülitataud **Funktsiooni halduses** mõjutab see seda, kui palju kandeid saab tagasi võtta ja kus neid saab tagasi võtta. See funktsioon pakub kahte soodustust, kui see on sisse lülitatud:
 
 - Teatud tüüpi kannete puhul saab korraga valida ja tühistada mitu kannet töölehelt, millelt see sisestati, või **Kanded** lehelt. Üksikud kanded peavad olema tühistatavad enne funktsiooni sisse lülitamist. Enne selle funktsiooni sisestamist tuleb kanded ühe korraga tühistada.
-- *Mõned* alam pearaamatukanded saab tühistada töölehel (peatööleht) või **Voucher kannete** lehel. Neid ei pea alamtöölehelt tühistama. Näiteks saab hankija arve töölehte varem tühistada ainult lehelt **Hankija kanded**. Nüüd saab seda siiski tühistada ka pearaamatu poolelt, töölehelt või kande **Voucher kannete** lehelt. Selle teema iga jaotis selgitab kannete tüüpe, mille puhul seda soodustust ei rakendata.
+- *Mõned* alam pearaamatukanded saab tühistada töölehel (peatööleht) või **Voucher kannete** lehel. Neid ei pea alamtöölehelt tühistama. Näiteks saab hankija arve töölehte varem tühistada ainult lehelt **Hankija kanded**. Nüüd saab seda siiski tühistada ka pearaamatu poolelt, töölehelt või kande **Voucher kannete** lehelt. Selle artikli iga jaotis selgitab kandetüüpe, mille puhul seda soodustust ei rakendata.
 
 Masspööramise funktsioon **ei** võimalda rohkem kandetüüpe tagasi võtta. Kui kandetüüpi ei saanud varem tühistada, ei saa seda enam tagasi võtta, kui funktsioon on sisse lülitatud. Näiteks ei saa ostutellimuse hankijaarveid tühistada, olenemata sellest, kas hulgipööramise funktsioon on sisse lülitatud.
 
@@ -189,7 +189,7 @@ Järgmist tüüpi kandeid ei saa tagasi pöörata:
 
 Mitu kandetüüpi uuendab ostureskontro alamtüüpi. Näited hõlmavad kliendiarveid müügitellimustest, kliendiarvetest, mis sisestatakse üldise töölehe kaudu, vabas vormis arveid, kliendimakseid ja mahakandmist.
 
-Kui hulgipööramise funktsioon on välja lülitatud, saab kandeid tühistada ükshaaval kas arvete **hankija kannete** lehelt või **pangakonto** hoiuste lehel. Makse tühistamise kohta lisateabe saamiseks vt selle teema jaotist [Sularaha ja panga haldus](cant-reverse-transctns.md#cash-and-bank-management).
+Kui hulgipööramise funktsioon on välja lülitatud, saab kandeid tühistada ükshaaval kas arvete **hankija kannete** lehelt või **pangakonto** hoiuste lehel. Makse tühistamise kohta lisateabe saamiseks vt selle artikli [jaotist](cant-reverse-transctns.md#cash-and-bank-management) Sularaha ja panga haldus.
 
 Kui hulgipööramise funktsioon on sisse lülitatud, saab ühe või mitu pearaamatukannet nüüd tagasi võtta **Kannete** leheküljelt ja töölehelt, millelt kanne proovibilanssi sisestati. Deposiite saab siiski tagasi võtta ainult pangakontolt ja vabas vormis arveid saab tagasi võtta ainult lähtelehelt (kui parandusi lubav funktsioon lülitatakse sisse). Lisaks, kliendikandeid ei saa tühistada **kannetest \<main account\>** jaoks pearaamatu lehel. Kuid neid saab tagasi pöörata leheküljel **Kanded**.
 

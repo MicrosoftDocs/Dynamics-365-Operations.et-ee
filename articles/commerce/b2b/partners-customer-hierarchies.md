@@ -1,6 +1,6 @@
 ---
 title: B2B äripartnerite haldamine kliendihierarhiaid kasutades
-description: See teema kirjeldab, kuidas kasutada kliendi Microsoft Dynamics 365 Commerce hierarhiaid äripartnerite haldamiseks ettevõtete ja ettevõtete (B2B) e-kaubanduse veebisaitidel.
+description: See artikkel kirjeldab, kuidas kasutada kliendi Microsoft Dynamics 365 Commerce hierarhiaid äripartnerite haldamiseks ettevõtete ja ettevõtete (B2B) e-kaubanduse veebisaitidel.
 author: josaw1
 ms.date: 02/16/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 70acdf469be2fcddd9e2bf755e958c1b20ee2fcf
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: ddd02045b5df3ce20160a4feaa23339475823d3d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686567"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864977"
 ---
 # <a name="manage-b2b-business-partners-using-customer-hierarchies"></a>B2B äripartnerite haldamine kliendihierarhiaid kasutades
 
 [!include [banner](../../includes/banner.md)]
 
-See teema kirjeldab, kuidas kasutada kliendi Microsoft Dynamics 365 Commerce hierarhiaid äripartnerite haldamiseks ettevõtete ja ettevõtete (B2B) e-kaubanduse veebisaitidel.
+See artikkel kirjeldab, kuidas kasutada kliendi Microsoft Dynamics 365 Commerce hierarhiaid äripartnerite haldamiseks ettevõtete ja ettevõtete (B2B) e-kaubanduse veebisaitidel.
 
 Commerce headquartersis kasutatakse kliendi *hierarhia* üksust äripartneri organisatsioonide esindamiseks, mis kasutavad teie B2B e-äri saiti. Enne kui saate alustada kliendi hierarhiate kasutamist äripartnerite haldamiseks, peate lubama Commerce Headquartersis B2B e-äri võimalused ja seejärel määratlema kliendi hierarhia numbriseeria.
 

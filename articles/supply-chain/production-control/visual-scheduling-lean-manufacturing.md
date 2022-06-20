@@ -1,6 +1,6 @@
 ---
 title: Lean manufacturingi visuaalne plaanimine
-description: Selles teemas antakse teavet Kanbani plaanimistahvli kohta, mida tootmise plaanija saab kasutada kanban-tööde puhul tootmisplaani juhtimiseks ja optimeerimiseks.
+description: See artikkel annab teavet Kanban-graafiku tahvli kohta, mida tootmisplaanija saab kasutada kanban-tööde tootmisplaani juhtimiseks ja optimeerimiseks.
 author: johanhoffmann
 ms.date: 06/16/2017
 ms.topic: article
@@ -16,20 +16,20 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: af5803793a4874ee73f943d0f059047458c37dc48b7d3276dadc8d8803599fb9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a743be96867c1f325e6fe01f23355c27cb4d0cc0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764808"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875184"
 ---
 # <a name="visual-scheduling-for-lean-manufacturing"></a>Lean manufacturingi visuaalne plaanimine
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas antakse teavet Kanbani plaanimistahvli kohta, mida tootmise plaanija saab kasutada kanban-tööde puhul tootmisplaani juhtimiseks ja optimeerimiseks.
+See artikkel annab teavet Kanban-graafiku tahvli kohta, mida tootmisplaanija saab kasutada kanban-tööde tootmisplaani juhtimiseks ja optimeerimiseks.
 
-Selles teemas antakse teavet Kanbani plaanimistahvli kohta, mida tootmise plaanija saab kasutada kanban-tööde puhul tootmisplaani juhtimiseks ja optimeerimiseks.
+See artikkel annab teavet Kanban-graafiku tahvli kohta, mida tootmisplaanija saab kasutada kanban-tööde tootmisplaani juhtimiseks ja optimeerimiseks.
 
 Kanbani plaanimistahvel võimaldab tootmise plaanijal kanban-tööde puhul tootmisplaani juhtida ja optimeerida. See muudab kanban-tööd läbipaistvaks ja annab tootmise plaanijale tööriista, mis optimeerib ja kohandab tootmisplaani lean manufacturingi tööraku puhul.
 

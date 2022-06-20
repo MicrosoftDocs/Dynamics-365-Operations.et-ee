@@ -1,6 +1,6 @@
 ---
 title: Vastavuse ülevaade
-description: See teema on ülevaade vastavuse juhendist, mis antakse rakendusele Microsoft Dynamics 365 Commerce et aidata teil muuta oma ettevõtte saidid nõuetele vastavaks.
+description: See artikkel on ülevaade vastavuse juhistest, mis on antud, et Microsoft Dynamics 365 Commerce aidata teil teha oma ettevõtte saidid ühilduvaks.
 author: BrianShook
 ms.date: 01/08/2020
 ms.topic: overview
@@ -13,23 +13,23 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3d90bbce5949468966d995710cdad69484aa90c9
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 2ed56da83d7207132b761c12f7ce639b225aae5b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983288"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887058"
 ---
 # <a name="compliance-overview"></a>Vastavuse ülevaade
 
 
 [!include [banner](includes/banner.md)]
 
-See teema on ülevaade vastavuse juhendist, mis antakse rakendusele Microsoft Dynamics 365 Commerce et aidata teil muuta oma ettevõtte saidid nõuetele vastavaks. Vastavus on oluline tegur kõigi ettevõtete jaoks, sest see aitab nende kasutajate baasil ühendada oma saidi sisuga. Vastavusse jäädes saate samuti aidata kaitsta oma ettevõtet kuluka juriidilise tegevuse või kopsakate trahvide eest.
+See artikkel on ülevaade vastavuse juhistest, mis on antud, et Microsoft Dynamics 365 Commerce aidata teil teha oma ettevõtte saidid ühilduvaks. Vastavus on oluline tegur kõigi ettevõtete jaoks, sest see aitab nende kasutajate baasil ühendada oma saidi sisuga. Vastavusse jäädes saate samuti aidata kaitsta oma ettevõtet kuluka juriidilise tegevuse või kopsakate trahvide eest.
 
 Vastavuse dokumentatsioon hõlmab ülevaadet valdkondadest, mida peaksite rakenduse Dynamics 365 Commerce kasutamisel silmas pidama, et aidata teil täita oma ettevõtte vastavuse nõudeid.
 
-Te vastutate oma ettevõtte vastavuse nõuete läbivaatamise ja neile vastavate saitide kontrollimise ja loomise eest. Järgmistes teemades tuuakse näiteid, mis näitavad, kuidas te saate Commerce autorluse tööriistu kasutamisel arvesse võtta.
+Te vastutate oma ettevõtte vastavuse nõuete läbivaatamise ja neile vastavate saitide kontrollimise ja loomise eest. Järgmised artiklid pakuvad näiteid, mis näitavad, kuidas te saate arvesse võtta, kui kasutate Äride autoriteet tööriistu.
 
 Lisateavet Microsoft kasutavate üldpõhimõtete kohta leiate [Microsofti usalduskeskusest.](https://www.microsoft.com/trust-center) Sellel saidil saate ka Lisateavet vastavuse valdkondade kohta.
 

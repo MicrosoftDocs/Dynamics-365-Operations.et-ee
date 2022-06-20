@@ -1,6 +1,6 @@
 ---
 title: Üldkulude arvutus
-description: Selles teemas kirjeldatakse tüüpilisi üldkulude arvutamise ja eraldamise protsesse.
+description: See artikkel kirjeldab üldkulude arvutamise ja eraldamise tüüpilisi protsesse.
 author: AndersGirke
 ms.date: 10/04/2018
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: twheeloc
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 9d704268f481fdf377033740f727e5d581a8c510
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 9322fb5237afdbf73147bb549eb3f70929c46ce2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8733930"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881987"
 ---
 # <a name="overhead-calculation"></a>Üldkulude arvutus
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas kirjeldatakse tüüpilisi üldkulude arvutamise ja eraldamise protsesse.
+See artikkel kirjeldab üldkulude arvutamise ja eraldamise tüüpilisi protsesse.
 
 ## <a name="term-definition"></a>Mõiste määratlus
 
@@ -1333,10 +1333,10 @@ Kuluelement | Kuluobjekt<br>CC099 | Kuluobjekt<br>CC001 | Kuluobjekt<br>CC002 | 
 10001 Elekter | 0,00 | 0,00 | 0,00 | 0,00 |  | 30.00 | 10.00 | 7,770.57 | 2,189.43 | 10,000.00 |
 Liigitamata | 0,00 |  |  |  |  |  |  |  |  |  |
 Fikseeritud kulu | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 |  |  | 776.36 | 223.64 | 1,000.00 |
-Muutuv kulu | 000 | 0,00 | 0,00 | 0,00 | 0,00 | 30,00 | 10,00 | 6,994.21 | 1,965.79 | 9,000.00 |
+Muutuv kulu | 000 | 0,00 | 0.00 | 0.00 | 0.00 | 30.00 | 10.00 | 6,994.21 | 1,965.79 | 9,000.00 |
 
 > [!NOTE]
-> Selles teemas selgitatakse, kuidas esmane kuluelement, 10001 Eleter, liigub läbi kuluobjektide. Seega eraldatakse see üldkulu organisatsiooni madalaimale tasemele. Teisisõnu kannavad kulu madalaimal tasemel olevad kuluobjektid. Kui soovite saada kuluobjektide vahelisest kuluvoost visuaalset ülevaadet, saate kuluvoo visualiseerimiseks kasutada kulude kokkuvõtte poliitika reegleid. Lisateavet vt teemast [Kulukomplekti poliitika ja üldkulude arvutus](cost-rollup.md).
+> See artikkel näitab, kuidas peamine kuluelement 10001 Saatel voogu läbi kuluobjektide. Seega eraldatakse see üldkulu organisatsiooni madalaimale tasemele. Teisisõnu kannavad kulu madalaimal tasemel olevad kuluobjektid. Kui soovite saada kuluobjektide vahelisest kuluvoost visuaalset ülevaadet, saate kuluvoo visualiseerimiseks kasutada kulude kokkuvõtte poliitika reegleid. Lisateavet vt teemast [Kulukomplekti poliitika ja üldkulude arvutus](cost-rollup.md).
 
 
 

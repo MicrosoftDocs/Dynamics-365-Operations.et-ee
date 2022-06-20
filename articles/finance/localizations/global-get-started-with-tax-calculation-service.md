@@ -1,6 +1,6 @@
 ---
 title: Maksuarvutusega alustamine
-description: Selles teemas selgitatakse, kuidas seadistada maksuarvestusi.
+description: See artikkel selgitab, kuidas maksuarvutust seadistada.
 author: wangchen
 ms.date: 03/25/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 0ab9c0cf974114c4fa9b673e5601e138acef534d
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: c2293102057ac055f0958c1c6b1de2a19cb331d5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8685907"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855279"
 ---
 # <a name="get-started-with-tax-calculation"></a>Maksuarvutusega alustamine
 
 [!include [banner](../includes/banner.md)]
 
-See teema annab teavet selle kohta, kuidas alustada maksuarvestusega. Selle teema jaotised juhendavad teid läbi kõrgema taseme kujunduse ja konfigureerimise etapid elutsükli teenustes (LCS), regulatiivses konfiguratsiooniteenuses Microsoft Dynamics (RCS), Dynamics 365 finantsis ja Dynamics 365 Supply Chain Management. 
+See artikkel annab teavet selle kohta, kuidas alustada maksuarvestusega. Selle artikli jaotised juhendavad teid läbi kõrgema taseme kujunduse ja konfigureerimisetappide elutsükli teenustes Microsoft Dynamics (LCS), Regulatory Configuration Service (RCS), Dynamics 365 Finance ja Dynamics 365 Supply Chain Management. 
 
 Seadistus koosneb kolmest põhi astmest.
 
@@ -77,11 +77,11 @@ Pärast nende sammude sooritamist sünkroonitakse järgmised seadistused automaa
 - Käibemaksugrupid
 - Kauba käibemaksugrupid
 
-Selle teema ülejäänud jaotised pakuvad üksikasjalikumaid konfigureerimistoiminguid.
+Selle artikli ülejäänud jaotised pakuvad üksikasjalikumaid konfigureerimistoiminguid.
 
 ## <a name="prerequisites"></a>Eeltingimused
 
-Enne kui saate selles teemas järelejäänud protseduurid lõpule viia, peavad olema täidetud järgmised eeltingimused:<!--TO HERE-->
+Enne kui saate selle artikli ülejäänud protseduurid lõpule viia, peavad olema täidetud järgmised eeltingimused:<!--TO HERE-->
 
 - Teil peab olema juurdepääs oma LCS-i kontole ja peate olema juurutanud LCS-projekti, millel on 2 või kõrgema taseme keskkond, mis käitab Dynamics 365 versiooni 10.0.21 või uuemat versiooni.
 - Peate looma oma organisatsioonile RCS-keskkonna ja teil peab olema juurdepääs oma kontole. Lisateavet RCS-keskkonna loomise kohta vt [Regulatory Configuration Service ülevaadet](rcs-overview.md).
@@ -212,7 +212,7 @@ Selle jaotise sammud ei ole seotud kindla juriidilise üksusega. Seda protseduur
     | Müük            | BEL       | FRA     | BEL_EL       |
     
     > [!NOTE]
-    > Kui vaike käibemaksugrupp on maksustatava dokumendi ridadel õige, jätke see maatriks tühjaks. Lisateavet vt selle teema käitusaja [kujunduse](#runtime) jaotisest.
+    > Kui vaike käibemaksugrupp on maksustatava dokumendi ridadel õige, jätke see maatriks tühjaks. Lisateavet vt selle artikli käitusaja [kujunduse](#runtime) jaotisest.
 
 22. Vahekaardil **Maksukoodide kohaldatavus** valige veerud, mis on nõutavad õige maksugrupi määramiseks, ja seejärel valige **Lisa**. Sisestage või valige väärtused iga veeru jaoks. **Maksugrupi üksus** väli on selle maatriksi väljund. Kui see vahekaart ei ole konfigureeritud, kasutatakse kandereal käibemaksugruppi.
 
@@ -224,7 +224,7 @@ Selle jaotise sammud ei ole seotud kindla juriidilise üksusega. Seda protseduur
     | D0003     | Alandatud        |
 
     > [!NOTE]
-    > Kui kauba käibemaksugrupi vaikeväärtus maksustatava dokumendi ridadel on õige, jätke see maatriks tühjaks. Lisateavet vt selle teema käitusaja [kujunduse](#runtime) jaotisest.
+    > Kui kauba käibemaksugrupi vaikeväärtus maksustatava dokumendi ridadel on õige, jätke see maatriks tühjaks. Lisateavet vt selle artikli käitusaja [kujunduse](#runtime) jaotisest.
 
     Lisateavet maksukoodide määramise kohta maksu arvutuses vt [käibemaksugrupi ja kauba käibemaksugrupi määramise loogika](global-sales-tax-group-determination.md).
 
@@ -243,7 +243,7 @@ Selle jaotise seadistas juriidiline üksus. Peate selle konfigureerima iga jurii
 2. Vahekaardil **Üldine** määrake järgmised väljad.
 
     - **Luba maksuarvutuse teenus** – Märkige see ruut, et lubada juriidilisele üksusele maksuarvutus. Kui see ei ole praegusele juriidilisele üksusele lubatud, kasutab juriidiline isik maksu määramiseks ja arvutamiseks olemasolevat maksumootorit.
-    - **Funktsiooni häälestus** – Valige juriidiliseüksuse avaldatud maksu funktsiooni häälestus ja versioon. Lisateavet avaldatud maksufunktsiooni seadistamis- ja lõpuleviimise kohta vt selle teema eelmisest jaotisest.
+    - **Funktsiooni häälestus** – Valige juriidiliseüksuse avaldatud maksu funktsiooni häälestus ja versioon. Lisateavet avaldatud maksufunktsiooni häälestamise ja lõpuleviimise kohta vt selle artikli eelmisest jaotisest.
     - **Äriprotsess** – valige lubatud äriprotsessid.
 
 3. Määratlege vahekaardil **Arvutus** juriidilise isiku eeldatav ümardamisreegel. Lisateavet ümardamisloogika kohta vt [maksu arvutamise ümardamisreeglid](https://go.microsoft.com/fwlink/?linkid=2166988).

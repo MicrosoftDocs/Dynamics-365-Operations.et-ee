@@ -1,6 +1,6 @@
 ---
-title: Tagasimaksehalduse sisestamise seadistus
-description: Selles teemas kirjeldatakse, kuidas seadistada sisestamisprofiile. Sisestusprofiile kasutatakse tagasimakse halduse arvutamise ridade sisestuskirjete määramiseks.
+title: Tagasimakse halduse sisestamise häälestus
+description: See artikkel kirjeldab, kuidas seadistada sisestusprofiile. Sisestusprofiile kasutatakse tagasimakse halduse arvutamise ridade sisestuskirjete määramiseks.
 author: sherry-zheng
 ms.date: 02/19/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 5ed28e99e36fafa4e1275421159420a3f3380c7c
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 7a519b7153b307bf7d8cc9093572ca2711432970
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690242"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873575"
 ---
 # <a name="rebate-management-posting-setup"></a>Tagasimaksehalduse sisestamise seadistus
 
@@ -30,7 +30,7 @@ See funktsioon töötab kõigis ettevõtetes (juriidilised isikud). Saate määr
 
 Tagasimaksehalduse sisestusreeglite seadistamiseks klientide ja müüjate jaoks minge **Tagasimaksehaldus \> Tagasimakse halduse sisestusseadistus \> Tagasimakse halduse sisestusprofiilid**. Leht **Tagasimaksehalduse sisestusprofiilid** sisaldab loendipaani, mis näitab kõiki olemasolevaid profiile. Saate kasutada tegumipaani nuppe, et lisada profiile loendisse või neid eemaldada.
 
-Selle teema ülejäänud jaotised kirjeldavad, kuidas kasutada saadaolevaid välju profiili loomisel või redigeerimisl.
+Selle artikli ülejäänud jaotised kirjeldavad, kuidas kasutada saadaolevaid välju profiili loomisel või redigeerimisl.
 
 ## <a name="posting-profile-header"></a>Profiili päise sisestamine
 

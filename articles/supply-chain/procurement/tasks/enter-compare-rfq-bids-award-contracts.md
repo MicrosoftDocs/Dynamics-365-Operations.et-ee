@@ -1,6 +1,6 @@
 ---
 title: Pakkumiskutse pakkumiste sisestamine ja võrdlemine ning lepingute määramine
-description: See protseduur näitab, kuidas sisestada pakkumiskutsele (RFQ) vastuseid, pakkumisi hinnata ja võrrelda ning seejärel määrata leping ühele hankijatest.
+description: See artikkel selgitab, kuidas sisestada pakkumiskutsele vastuseid, skoori ja võrrelda pakkumisi ning seejärel anda leping ühele hankijatele.
 author: GalynaFedorova
 ms.date: 07/09/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 50b403021c347498a9b489a34196e592a2041a11
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: d3ef754f2d5d58254a7c6f0e572115f8a2981ad9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677362"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893377"
 ---
 # <a name="enter-and-compare-rfq-bids-and-award-contracts"></a>Pakkumiskutse pakkumiste sisestamine ja võrdlemine ning lepingute määramine
 
 [!include [banner](../../includes/banner.md)]
 
-See protseduur näitab, kuidas sisestada pakkumiskutsele (RFQ) vastuseid, pakkumisi hinnata ja võrrelda ning seejärel määrata leping ühele hankijatest. Saate seda protseduuri kasutada demoandmete ettevõttes **USMF**.
+See artikkel selgitab, kuidas sisestada pakkumiskutsele vastuseid, skoori ja võrrelda pakkumisi ning seejärel anda leping ühele hankijatele. Saate seda protseduuri kasutada demoandmete ettevõttes **USMF**.
 
 Enne protseduuri alustamist peab teil olema kahe reaga pakkumiskutse, mis on saadetud vähemalt kahele hankijale. Selle RFQ loomiseks viige lõpule protseduur [Pakkumiskutse loomine](create-request-quotation.md). Peate seadistama hindamiskriteeriumid enne, kui saate seda protseduuri lõpetada.
 

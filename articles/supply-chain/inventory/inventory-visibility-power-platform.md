@@ -1,8 +1,8 @@
 ---
 title: Varude nähtavuse rakendus
-description: Selles teemas kirjeldatakse, kuidas kasutada varude nähtavuse rakendust.
+description: See artikkel kirjeldab, kuidas kasutada varude nähtavuse rakendust.
 author: yufeihuang
-ms.date: 08/02/2021
+ms.date: 05/27/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,19 +11,19 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 359f89f98ca6954a0bbafd63fffa1d505a43f0c8
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: db158e3b6ae76f69149db04096f99d3dc4251146
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060968"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895753"
 ---
-# <a name="use-the-inventory-visibility-app"></a>Kasutage Inventory Visibility rakendust
+# <a name="use-the-inventory-visibility-app"></a>Inventory Visibility rakenduse kasutamine
 
 [!include [banner](../includes/banner.md)]
 
 
-Selles teemas kirjeldatakse, kuidas kasutada varude nähtavuse rakendust.
+See artikkel kirjeldab, kuidas kasutada varude nähtavuse rakendust.
 
 Varude nähtavus annab visualiseerimiseks mudelipõhise rakenduse. Rakendus sisaldab kolme lehekülge: **Konfiguratsioon**, **Operatiivne nähtavus** ja **Varude kokkuvõte**. Sellel on järgmised funktsioonid.
 
@@ -70,7 +70,10 @@ Reserveerimistaotluse sisestamiseks peate väärtuse taotluse sisusse. Kasutage 
 
 ## <a name="inventory-summary"></a><a name="inventory-summary"></a>Varude kokkuvõte
 
-**Varude kokkuvõte** on *Vabade varude summa* olemi kohandatud vaade. See annab toodetele varude kokkuvõtte koos kõigi dimensioonidega. Lao koondandmed sünkroonitakse perioodiliselt laovarude nähtavuse väljalt. Enne, kui saate **Varude kokkuvõtte** vahekaardil andmeid vaadata, peate lülitama sisse *OnHandMostSpecificBackgroundService* funktsiooni **Funktsiooni halduse** vahekaardil.
+**Varude kokkuvõte** on *Vabade varude summa* olemi kohandatud vaade. See annab toodetele varude kokkuvõtte koos kõigi dimensioonidega. Lao koondandmed sünkroonitakse perioodiliselt laovarude nähtavuselt iga 15 minuti järel. Varude kokkuvõtte vahekaardil andmete **näeks** peate *lülitama funktsioonihalduse vahekaardil sisse funktsioonihalduse funktsiooni OnHandMostSpecificBackgroundService* **ja** valima käsu **Uuenda konfiguratsiooni**.
+
+> [!NOTE]
+> Funktsioon *OnHandMostSpecificBackgroundService* jälgib ainult toote vaba kaubavaru muudatusi, mis ilmnesid pärast funktsiooni sisse lülitamist. Nende toodete andmeid, mis pole muutunud, kuna te funktsiooni sisse lülitasite, ei sünkroonita laoteenuse vahemälust keskkonda Dataverse. Kui teie **varude** kokkuvõtte leht ei näita kogu eeldatavat vaba laoseisu teavet, **minge varude haldusse > Perioodilised ülesanded >** Varude nähtavuse integreerimine, keelake pakett-töö ja lubage see uuesti. See käivitab algse tõuke ja kõik andmed sünkroonitakse *üksusega Laovaru Vaba summa järgmise* 15 minuti pärast. Kui soovite seda funktsiooni kasutada, **on soovitatav see enne vaba kaubavaru muudatuste tegemist sisse lülitada ja lubada varude nähtavuse integreerimise pakett-töö**.
 
 Kasutades **Täpsemat filtrit**, mida Dataverse pakub, saate luua isikliku vaate, mis näitab teie jaoks olulisi ridu. Täpsema filtri võimalused lasevad teile luua mitmesuguseid vaateid, lihtsatest keerulisteni. Samuti võimaldavad nad filtritele lisada grupeeritud ja pesastatud tingimusi. Lisateabe saamiseks **Täpsema filtri** kohta, vt jaotist [Isiklike vaadete redigeerimine või loomine täpsemate ruudustiku filtrite abil](/powerapps/user/grid-filters-advanced).
 

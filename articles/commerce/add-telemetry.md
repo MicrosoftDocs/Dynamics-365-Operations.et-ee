@@ -1,6 +1,6 @@
 ---
-title: Telemeetria toetamiseks saidile skriptikoodi lisamine
-description: Selles teemas kirjeldatakse saidi lehtedele kliendipoolse skriptikoodi lisamist, et toetada kliendipoolset telemeetriat.
+title: Telemeetria toetamiseks saidilehtedele skriptikoodi lisamine
+description: See artikkel kirjeldab, kuidas lisada kliendipoolset skripti koodi oma saidi lehtedele, et toetada kliendipoolse telemeetria kogumist.
 author: bicyclingfool
 ms.date: 09/29/2020
 ms.topic: article
@@ -14,23 +14,23 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f796a3e10345da41ff461b656d88affb3adbdf9e
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 262216ee99d52e3d53f5f5dae663104bb79757c6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964525"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852837"
 ---
-# <a name="add-script-code-to-site-pages-to-support-telemetry"></a>Telemeetria toetamiseks saidile skriptikoodi lisamine
+# <a name="add-script-code-to-site-pages-to-support-telemetry"></a>Telemeetria toetamiseks saidilehtedele skriptikoodi lisamine
 
 [!include [banner](includes/banner.md)]
 
-Selles teemas kirjeldatakse saidi lehtedele kliendipoolse skriptikoodi lisamist, et toetada kliendipoolset telemeetriat.
+See artikkel kirjeldab, kuidas lisada kliendipoolset skripti koodi oma saidi lehtedele, et toetada kliendipoolse telemeetria kogumist.
 
 Veebianalüüs on oluline tööriist, kui soovite mõista, kuidas kliendid teie saidiga suhtlevad, ja teha otsuseid, mis aitavad maksimaalse teisenduse kogemust optimeerida. Saadaval on palju veebianalüüsi pakette, et aidata teid nende eesmärkide saavutamisel, nagu Google Analytics, Clicky, Moz Analytics ja KISSMetrics. Enamik veebianalüüsi pakette nõuavad, et lisaksite oma saidi kõikidele lehtedele HTML-i elemendis **\<head\>** kliendipoolse skriptikoodi.
 
 > [!NOTE]
-> Selle teema juhised rakenduvad ka teistele kohandatud kliendipoolsetele funktsioonidele, mida Microsoft Microsoft Dynamics 365 Commerce ei paku.
+> Selle artikli juhised kehtivad ka teistele kohandatud kliendipoolsetele funktsioonidele, Microsoft Dynamics 365 Commerce mis ei ole omased.
 
 ## <a name="create-a-reusable-fragment-for-your-script-code"></a>Skriptikoodi jaoks taaskasutatava fragmendi loomine
 

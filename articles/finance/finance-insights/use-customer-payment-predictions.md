@@ -1,6 +1,6 @@
 ---
 title: Kliendimaksete prognoosimise kasutamine
-description: See teema selgitab eeltingimusi ja üldisi samme, mis on vajalikud Finance'i ülevaadete prooviversiooni kasutamiseks.
+description: Selles artiklis läbitakse eeltingimused ja laiad sammud, mis on vajalikud finantside vihjete prooviversiooni kasutamiseks.
 author: ShivamPandey-msft
 ms.date: 11/03/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-11-16
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: ecc864485dfc106df22b48e92a85f2c73d58e0e8
-ms.sourcegitcommit: d70f66a98eff0a2836e3033351b482466bd9c290
+ms.openlocfilehash: 330642624b55a6772ef149b70873021401a6bd83
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8740620"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901398"
 ---
 # <a name="use-customer-payment-predictions"></a>Kliendimaksete prognoosimise kasutamine
 
 [!include [banner](../includes/banner.md)]
 
-See teema selgitab, kuidas kasutada kliendimaksete prognoose. Enne selle funktsiooni kasutamist veenduge, et olete lõpetanud selle seadistustoimingud. Lisateabe saamiseks vt [Kliendimaksete prognooside lubamine](enable-cust-paymnt-prediction.md).
+See artikkel selgitab, kuidas kasutada kliendi makseprognoose. Enne selle funktsiooni kasutamist veenduge, et olete lõpetanud selle seadistustoimingud. Lisateabe saamiseks vt [Kliendimaksete prognooside lubamine](enable-cust-paymnt-prediction.md).
 
 Kliendi makseprognoose saate vaadata kliendi **krediidi ja sissenõuete haldamise tööruumis** ja kahel uuel loendile lehel: **·** **kande maksete prognoosid ja kliendi makse prognoosid**.
 

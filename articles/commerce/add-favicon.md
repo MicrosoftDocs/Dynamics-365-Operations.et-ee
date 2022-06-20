@@ -1,6 +1,6 @@
 ---
-title: Faviconi lisamine
-description: See teema selgitab, kuidas lisada saidile faviconi.
+title: Leheikooni lisamine
+description: See artikkel selgitab, kuidas lisada oma saidile ikooni.
 author: bicyclingfool
 ms.date: 08/31/2020
 ms.topic: article
@@ -14,22 +14,22 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 080ef4da7313bd6b9d91e616f576b3ff774509d9
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 2047a0c30c9e723c717657475a111181299aaa8d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964728"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855791"
 ---
 # <a name="add-a-favicon"></a>Leheikooni lisamine
 
 [!include [banner](includes/banner.md)]
 
-See teema selgitab, kuidas lisada saidile faviconi.
+See artikkel selgitab, kuidas lisada oma saidile ikooni.
 
 Favicon on väike graafika fail, mis kuvatakse muu hulgas veebibrauseri vahekaardil, aadressiribal, sirvimisajaloos ja järjehoidjates või lemmikutes. Soovitame lisada saidile faviconi, kuna see esindab ja tugevdab teie kaubamärki ja aitab eristada teie saiti teistest saitidest, mida teie kliendid külastavad.
 
-Kuigi saate lisada oma saidile erineva suuruse ja failitüübiga favicone, näitab see teema, kuidas lisata ühte faviconi. Samas kasutatakse sama protsessi ja asukohta rohkemate faviconide lisamiseks.
+Ehkki saate saidile lisada mitmeid mitme erineva suuruse ja failitüübiga failitüüpe, näitab see artikkel, kuidas lisada üks mõõdukonteiin. Samas kasutatakse sama protsessi ja asukohta rohkemate faviconide lisamiseks.
 
 ## <a name="upload-a-favicon-to-your-sites-asset-collection"></a>Faviconi üleslaadimine saidi varade kollektsiooni
 

@@ -1,6 +1,6 @@
 ---
 title: Märgukirjade töötlemine
-description: See teema kirjeldab märgukirjade loomist, printimist ja sisestamist.
+description: See artikkel näitab, kuidas märgukirju luua, printida ja sisestada.
 author: ShivamPandey-msft
 ms.date: 07/01/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2018-12-01
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 005ed8fcb6c3c6f985f1cfa9c0a78675173fb208
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: fbca4acf30e2c58d8bb615d659b883b574a12aa7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725061"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909123"
 ---
 # <a name="process-collection-letters"></a>Märgukirjade töötlemine
 
 [!include [banner](../../includes/banner.md)]
 
-See teema kirjeldab märgukirjade loomist, printimist ja sisestamist. See ülesanne kasutab demoettevõtte USMF andmeid.
+See artikkel näitab, kuidas märgukirju luua, printida ja sisestada. See ülesanne kasutab demoettevõtte USMF andmeid.
 
 ## <a name="set-up-a-collection-letter-sequence-on-the-posting-profile"></a>Märgukirjaseeria häälestamine sisestusreeglis
 1. Minge **Navigeerimispaan > Moodulid > Kreedit ja sissenõuded > Häälestus > Kliendi postitusprofiil**.

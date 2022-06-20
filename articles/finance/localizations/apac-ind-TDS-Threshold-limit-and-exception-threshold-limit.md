@@ -1,6 +1,6 @@
 ---
 title: Lävelimiit ja erandi lävelimiit
-description: Selles teemas kirjeldatakse allikas (TDS) mahaarvatud maksude läve ja erandite piiranguid.
+description: See artikkel kirjeldab lähtekohas (TDS) mahaarvatud maksude läve ja erandi piiranguid.
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 7fa7d871fdf25f29b003a68cacd9fc0d487dce5b
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: aceebad08b5454b64059e7ef374b9634bad35c37
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726012"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877932"
 ---
 # <a name="threshold-limit-and-exception-threshold-limit"></a>Lävelimiit ja erandi lävelimiit
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas kirjeldatakse allikas (TDS) mahaarvatud maksude läve ja erandite piiranguid. Arvete ja maksete TDS arvutatakse alati, võttes arvesse läve piirmäära ja erandi piirmäära, mis on määratletud TDS-i maksu komponentidele **kinnipeetava maksu komponentide** lehel. TDS-i maksukomponendid seotakse TDS-i maksukoodidega, mis sisalduvad TDS-i maksugruppides. TDS-i maksugrupid on seotud hankijate ja klientidega, et arvutada TDS arve- või maksetasemel.
+See artikkel kirjeldab lähtekohas (TDS) mahaarvatud maksude läve ja erandi piiranguid. Arvete ja maksete TDS arvutatakse alati, võttes arvesse läve piirmäära ja erandi piirmäära, mis on määratletud TDS-i maksu komponentidele **kinnipeetava maksu komponentide** lehel. TDS-i maksukomponendid seotakse TDS-i maksukoodidega, mis sisalduvad TDS-i maksugruppides. TDS-i maksugrupid on seotud hankijate ja klientidega, et arvutada TDS arve- või maksetasemel.
 
 TDS arvutatakse juhul, kui hankija kindla TDS-grupiga sisestatud kande summa või kumulatiivsed kanded ületavad **kinnipeetava maksu komponentide** lehel määratud läve piiri. TDS-i ei arvutata enne, kui kumulatiivne kandesumma ületab määratud läve piiri.
 

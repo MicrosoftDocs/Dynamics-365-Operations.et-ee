@@ -1,6 +1,6 @@
 ---
 title: Saate parandada ER-lahenduste jõudlust, lisades parameeteriseeritud ARVUTATUD VÄLJA andmeallikad
-description: Selles teemas selgitatakse, kuidas saate elektroonilise aruandluse (ER) lahenduste jõudlust parendada, lisades parameeteriseeritud ARVUTATUD VÄLJA andmeallikad.
+description: See artikkel selgitab, kuidas saate aidata parandada elektroonilise aruandluse (ER) lahenduste jõudlust, lisades parameetrilised ARVUTATUD VÄLJA andmeallikad.
 author: NickSelin
 ms.date: 04/23/2021
 ms.topic: article
@@ -14,32 +14,32 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5fada2fc0b35e22da18f5d6a0505df077d5ada4e0221031d63c316d8c705bc79
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8c2c0499ac3d41c9bb6026cc05f971087799c28f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753666"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850110"
 ---
 # <a name="improve-the-performance-of-er-solutions-by-adding-parameterized-calculated-field-data-sources"></a>Saate parandada ER-lahenduste jõudlust, lisades parameeteriseeritud ARVUTATUD VÄLJA andmeallikad
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas selgitatakse, kuidas saate jälgida käitatud [elektroonilise aruandluse (ER)](general-electronic-reporting.md) vormingute [jõudluse jälgi](trace-execution-er-troubleshoot-perf.md) ja seejärel kasutada nende jälgede teavet, et parandada jõudlust, konfigureerides parameetri **Arvutatud välja** andmeallikat.
+See artikkel [selgitab](trace-execution-er-troubleshoot-perf.md)[, kuidas te saate käitada elektroonilise aruandluse (ER)](general-electronic-reporting.md) vormingute jõudlusjälgi ja **seejärel** kasutada nende jälgede teavet jõudluse parandamiseks, konfigureerides parameetrina arvutatud välja andmeallika.
 
 Üks osa ER-i konfiguratsioonide kujundamisest äridokumentide loomise jaoks on määratleda meetod, mida kasutatakse andmete saamiseks avaldusest, ja sisestada see loodud väljundisse. **Arvutatud välja** tüübi parameeteriseeritud ER-i andmeallika kujundamisega saate vähendada andmebaasi kutsete arvu ning vähendada oluliselt aega ja kulu, mis on seotud ER-i vormingu täitmise üksikasjade kogumisega.
 
 ## <a name="prerequisites"></a>Eeltingimused
 
-- Selles teemas toodud näidete läbimiseks peab teil olema juurdepääs ühele järgmistest [rollidest](../sysadmin/tasks/assign-users-security-roles.md).
+- Selle artikli näidete lõpuleviimiseks peab teil olema juurdepääs ühele järgmistest [rollidest](../sysadmin/tasks/assign-users-security-roles.md):
 
     - Elektroonilise aruandluse arendaja
     - Elektroonilise aruandluse funktsionaalne konsultant
     - Süsteemiadministraator
 
 - Ettevõtte sätteks peab olema seatud **DEMF**.
-- Järgige selle teema [1. lisas](#appendix1) toodud etappe, et laadida alla Microsofti ER-i näidislahenduse komponendid, mis on vajalikud selles teemas toodud näidete lõpuleviimiseks.
-- Järgige selle teema [2. lisas](#appendix2) toodud etappe, et konfigureerida ER-i parameetrite minimaalne kogum, mis on vajalikud ER-i raamistiku kasutamiseks, et aidata parandada Microsofti ER-i näidislahenduse toimivust.
+- Järgige selle artikli [lisa 1](#appendix1) samme, et laadida alla microsofti ER-i näidislahenduse komponendid, mis on vajalikud selles artiklis näidete lõpetamiseks.
+- Järgige selle [artikli 2](#appendix2) . lisa samme minimaalse ER-parameetrite komplekti konfigureerimiseks, mida on vaja ER-raamistiku kasutamiseks, et parandada Microsoft ER-i näidislahenduse jõudlust.
 
 ## <a name="import-the-sample-er-solution"></a>ER-i näidislahenduse importimine
 
@@ -47,8 +47,8 @@ Oletame, et peate kujundama uue ER-i lahenduse, et luua uus hankija kandeid esit
 
 Esimese etapina tuleb importida ER-i näidislahendus hankija kannete aruande loomiseks.
 
-1. Logige sisse Microsoft Dynamics 365 Finance'i eksemplari, mis on teie ettevõtte jaoks ette valmistatud.
-2. Selles teemas loote näidisettevõtte **Litware, Inc** jaoks konfiguratsioonid ja muudate neid. Veenduge, et see konfiguratsiooni pakkuja oleks teie Finance'i eksemplari lisatud ja on aktiivsena märgitud. Lisateabe saamiseks vaadake teemat [Konfiguratsioonipakkujate loomine ja nende aktiivseks märkimine](tasks/er-configuration-provider-mark-it-active-2016-11.md).
+1. Logige sisse teie ettevõtte jaoks ettesätestatud Microsoft Dynamics 365 Finantside eksemplari.
+2. Selles artiklis loote ja muudate konfiguratsioone **Ettevõtte Litware, Inc.** näidisettevõtte jaoks. Veenduge, et see konfiguratsiooni pakkuja oleks teie Finance'i eksemplari lisatud ja on aktiivsena märgitud. Lisateabe saamiseks vaadake teemat [Konfiguratsioonipakkujate loomine ja nende aktiivseks märkimine](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 3. Tööruumis **Elektrooniline aruandlus** valige paan **Aruandluse konfiguratsioonid**.
 4. Importige lehel **Konfiguratsioonid** ER-i konfiguratsioonid, mille eeltingimusena Finance'i alla laadisite, järgmises järjestuses: andmemudel, mudeli vastendus, vorming. Toimige iga konfiguratsiooni puhul järgmiselt.
 
@@ -220,7 +220,7 @@ Järgige järgmisi juhiseid vahemällu salvestamise ja tüübiga **Arvutatud vä
 
 ## <a name="run-the-modified-er-solution-to-trace-execution"></a>Muudetud ER-i lahenduse kasutamine täitmise jälituseks
 
-Korrake samme selle teema jaotises [ER-vormingu käivitamine](#run-format), et luua uus jõudluse jälg.
+Korrake selle artikli varasema [ER-vormingu](#run-format) sektsiooni samme uue jõudluse jälituse loomiseks.
 
 ## <a name="use-the-performance-trace-to-analyze-adjustments-to-the-model-mapping"></a>Jõudluse jälituse kasutamine mudeli vastenduse korrigeerimiste analüüsimiseks 
 

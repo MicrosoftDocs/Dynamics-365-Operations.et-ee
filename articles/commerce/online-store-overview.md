@@ -1,6 +1,6 @@
 ---
 title: E-kaubanduse saidi ülevaade
-description: Selles teemas antakse ülevaade e-kaubanduse saitide toest rakenduses Microsoft Dynamics 365 Commerce.
+description: See artikkel annab ülevaate e-äri saitide toest kohas Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
 ms.date: 11/05/2020
 ms.topic: overview
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 90f0f01115b00f231af8d4ae11be1d18d379399b
-ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
+ms.openlocfilehash: 9b7e4d09eaa4f91478d27cbca5eaea48af86e676
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "8487764"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899117"
 ---
 # <a name="e-commerce-site-overview"></a>E-kaubanduse saidi ülevaade
 
 [!include [banner](includes/banner.md)]
 
-Selles teemas antakse ülevaade e-kaubanduse saitide toest rakenduses Microsoft Dynamics 365 Commerce. See sisaldab teavet selle kohta, kuidas e-kaubanduse võrgupoode lähtestatakse ja hallatakse rakenduses Dynamics 365 Commerce. See sisaldab ka linke lisateabele võrgupoodide ja e-kaubanduse saidi häälestamise ja konfigureerimise kohta. Kuigi see teema hõlmab paljusid põhitõdesid, ei hõlma see kõike, mis on vajalik tootmise e-kaubanduse saidi loomiseks. Täpsemad teemad leiate Dynamics 365 Commerce'i dokumentatsioonist.
+See artikkel annab ülevaate e-äri saitide toest kohas Microsoft Dynamics 365 Commerce. See sisaldab teavet selle kohta, kuidas e-kaubanduse võrgupoode lähtestatakse ja hallatakse rakenduses Dynamics 365 Commerce. See sisaldab ka linke lisateabele võrgupoodide ja e-kaubanduse saidi häälestamise ja konfigureerimise kohta. Kuigi see artikkel hõlmab paljusid põhioskusi, ei hõlma see kõiki, mis on vajalik tootmise e-kaubanduse saidi häälestamiseks. Täpsemaid artikleid leiate dokumentatsioonist Dynamics 365 Commerce.
 
 ## <a name="online-store-channel"></a>Võrgupoe kanal
 
@@ -74,7 +74,7 @@ Dynamics 365 Commerce kasutab teenust Azure Active Directory (Azure AD) ettevõt
 
 ## <a name="overview-of-the-default-site-pages"></a>Saidi vaikelehtede ülevaade
 
-Saidil **Vaikimisi** ja **Fabrikam** on eelkonfigureeritud mallid, fragmendid ja lehed, mis aitavad teil alustada. Lisateavet vt järgmistest teemadest:
+Saidil **Vaikimisi** ja **Fabrikam** on eelkonfigureeritud mallid, fragmendid ja lehed, mis aitavad teil alustada. Lisateavet vt järgmistest artiklitest.
 
 - [Avalehe ülevaade](quick-tour-home-page.md)
 - [Toote üksikasjade lehe ülevaade](quick-tour-pdp.md)
@@ -83,7 +83,7 @@ Saidil **Vaikimisi** ja **Fabrikam** on eelkonfigureeritud mallid, fragmendid ja
 
 ## <a name="manage-site-settings"></a>Saidisätete haldamine
 
-Saidi sätete haldamise kohta lisateabe saamiseks vaadake järgmisi teemasid.
+Teavet selle kohta, kuidas oma saidi sätteid hallata, vaadake järgmistest artiklitest:
 
 - [E-kaubanduse kasutajate ja rollide haldamine](manage-ecommerce-users-roles.md)
 - [Saidi jaoks otsingumootori optimeerimise (SEO) kaalutlused](search-engine-optimization-considerations.md)
@@ -92,9 +92,9 @@ Saidi sätete haldamise kohta lisateabe saamiseks vaadake järgmisi teemasid.
 
 ## <a name="manage-site-content"></a>Saidi sisu haldamine
 
-Saidi sisu haldamise kohta lisateabe saamiseks vaadake järgmisi teemasid.
+Lisateavet saidi sisu haldamise kohta vt järgmistest artiklitest:
 
-- [Lehemudeli sõnastik](page-elements-overview.md)
+- [Lehe mudeli sõnastik](page-elements-overview.md)
 - [Dokumendi olekud ja töötsükkel](document-states-overview.md)
 - [Mallid ja paigutus](templates-layouts-overview.md)
 - [Fragmentidega töötamine](work-with-fragments.md)

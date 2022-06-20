@@ -1,6 +1,6 @@
 ---
 title: Üleminek osapoole ja globaalse aadressiraamatu mudelile
-description: See teema kirjeldab, kuidas uuendada kahekirjutajalisi andmeid osalise ja globaalse aadressiraamatu mudelile.
+description: See artikkel kirjeldab, kuidas täiendada topeltkirjutuse andmeid osapoolele ja globaalse aadressiraamatu mudelile.
 author: RamaKrishnamoorthy
 ms.date: 03/10/2022
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: josaw
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-31
-ms.openlocfilehash: 22b31b46b247ca5f2d6b8b93f58c090b03a2b38c
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 10c5d9eb3f98887be976c2331f4d34530628702c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688370"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895272"
 ---
 # <a name="upgrade-to-the-party-and-global-address-book-model"></a>Üleminek osapoole ja globaalse aadressiraamatu mudelile
 
@@ -40,7 +40,7 @@ Protsessi lõpus luuakse järgmised komaga eraldatud failid (.csv).
 | ImpordiFONewPostalAddress.csv | See fail aitab luua uusi **postiaadressi** kirjeid rakendusest Finantsid ja toimingud. |
 | ImpordiFONewElectronicAddress.csv | See fail aitab luua uued **elektroonilise aadressi** kirjed rakenduses Finantsid ja toimingud. |
 
-See teema kirjeldab, kuidas kasutada data factory malle ja uuendada andmeid. Kui te ühtegi kohandust ei tee, saate malle kasutada nii, nagu need on. Kuid kui teil on konto, kontakti **ja** **·** **hankija andmete kohandusi, peate malle muutma selles teemas kirjeldatud viisil.**
+See artikkel selgitab, kuidas kasutada data factory malle ja uuendada andmeid. Kui te ühtegi kohandust ei tee, saate malle kasutada nii, nagu need on. Kuid kui teil on konto, kontakti **ja** **·** **hankija andmete kohandusi, peate malle muutma selles artiklis kirjeldatud viisil.**
 
 > [!IMPORTANT]
 > Osapoole postiaadressi ja osapoole elektroonilise aadressi mallide käivitamiseks on erijuhised. Esmalt peate käivitama osapoole malli, seejärel osapoole postiaadressi malli ja seejärel osapoole elektroonilise aadressi malli. Iga mall on mõeldud impordiks eraldi andme tehas.

@@ -1,6 +1,6 @@
 ---
 title: Tööpoliitikad
-description: Selles teemas selgitatakse, kuidas seadistada tööpoliitikat.
+description: See artikkel selgitab, kuidas tööpoliitikaid seadistada.
 author: perlynne
 ms.date: 07/31/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 1d4ee3f1bffaf00c20758f6a3f399451d3122291
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 7637ef908ffa6e79f81e4ecfb8afac4e3e3fed26
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571157"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855844"
 ---
 # <a name="work-policies"></a>Tööpoliitikad
 
 [!include [banner](../includes/banner.md)]
 
-See teema selgitab, kuidas häälestada süsteemi ja mobiilirakendust Warehouse Management, et nad toetaksid tööpoliitikaid. Seda funktsiooni saate kasutada lao kiireks registreerimiseks, loomata ladustamistööd, kui võtate vastu ostu-või üleviimistellimusi või kui lõpetate tootmisprotsesse. See teema annab üldteavet. Üksikasjalikku teavet, mis on seotud litsentsiplaadi vastuvõtmisega, leiate teemast [Litsentsiplaadi vastuvõtmine mobiilirakenduse Warehouse Management kaudu](warehousing-mobile-device-app-license-plate-receiving.md).
+See artikkel selgitab, kuidas seadistada süsteemi ja laohalduse mobiilirakendust nii, et need toetavad tööpoliitikaid. Seda funktsiooni saate kasutada lao kiireks registreerimiseks, loomata ladustamistööd, kui võtate vastu ostu-või üleviimistellimusi või kui lõpetate tootmisprotsesse. See artikkel annab üldteavet. Üksikasjalikku teavet, mis on seotud litsentsiplaadi vastuvõtmisega, leiate teemast [Litsentsiplaadi vastuvõtmine mobiilirakenduse Warehouse Management kaudu](warehousing-mobile-device-app-license-plate-receiving.md).
 
 Tööpoliitika kontrollib, kas lao töö on loodud, kui toodetud kaup on lõpetatuks kinnitatud või kui kaubad võetakse vastu lao mobiilirakenduse Warehouse Management abil. Seadistage iga tööpoliitika, määratledes tingimused, mille puhul see kehtib: töötellimuse tüübid ja protsessid, lao asukoht ja (valikuliselt) tooted. Näiteks peab toote *A0001* ostutellimuse vastu võtma asukohas *RECV* laos *24*. Hiljem tarbitakse toodet teises protsessi asukohas *RECV*. Sellisel juhul saate seadistada tööpoliitika, et vältida ladustatud töö loomist, kui töötaja teatab tootest *A0001*, kui see saabus asukoha *RECV*.
 
@@ -35,7 +35,7 @@ Tööpoliitika kontrollib, kas lao töö on loodud, kui toodetud kaup on lõpeta
 
 ## <a name="activate-the-features-in-your-system"></a>Aktiveerige süsteemi funktsioonid
 
-Selleks, et kõik selles teemas kirjeldatud funktsioonid oleksid teie süsteemis saadaval, lülitage sisse järgmised kaks funktsiooni asukohas [Funktsiooni haldus](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Kõigi selles artiklis kirjeldatud funktsioonide teie süsteemis kättesaadavaks tegemaks järgmised kaks Funktsioonihalduse [funktsioonifunktsiooni](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
 
 - Litsentsiplaadi vastuvõtu täiustused
 - Sissetuleva töö tööpoliitika täiustused

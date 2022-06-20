@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 74430aadc661a49e330960135ce7b0912079f79b
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 1407c6def22b9759723e49fb2fa6d4d68f180891
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8644455"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860160"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Andmete importimis- ja eksportimistööde ülevaade
 
@@ -29,7 +29,7 @@ ms.locfileid: "8644455"
 Andmete impordi- ja eksporditööde loomiseks ning haldamiseks kasutage tööruumi **Andmehaldus**. Vaikimisi loob andmeimpordi ja -ekspordi protsess igale sihtandmebaasi üksusele koondamistabeli. Koondamistabelid võimaldavad andmeid enne teisaldamist kontrollida, puhastada või teisendada.
 
 > [!NOTE]
-> Siin teemas eeldatakse, et olete [andmeüksustega](data-entities.md) tuttav.
+> See artikkel eeldab, et olete andmeüksustega [tutvunud](data-entities.md).
 
 ## <a name="data-importexport-process"></a>Andmete importimis-/eksportimisprotsess
 Siin on toimingud andmete importimiseks või eksportimiseks.
@@ -48,7 +48,7 @@ Siin on toimingud andmete importimiseks või eksportimiseks.
 5. Kontrollige, et töö toimus õigesti, vaadates üle töö ajaloo.
 6. Puhastage koondamistabelid.
 
-Selle teema ülejäänud osades on lisateave iga protsessi etapi kohta.
+Selle artikli ülejäänud jaotised annavad rohkem üksikasju protsessi iga sammu kohta.
 
 > [!NOTE]
 > Andmete importimise/eksportimise vormi värskendamiseks ja uusima edenemise kuvamiseks kasutage vormi värskendamise ikooni. Brauseritasemel värskendamine pole soovitatav, kuna see katkestab kõik impordi- või eksporditööd, mida ei käitata partiidena.

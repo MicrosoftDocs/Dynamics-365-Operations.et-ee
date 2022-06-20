@@ -1,6 +1,6 @@
 ---
 title: Adyeni probleemide tõrkeotsing rakenduse Dynamics 365 Payment Connector
-description: See teema pakub tõrkeotsingu juhendeid, mis aitavad teil tuge saada, kui teil on Microsoft Dynamics 365 Payment Connector for Adyen rakendusega probleemid.
+description: See artikkel pakub tõrkeotsingu juhendeid, mis aitavad teil Microsoft Dynamics toe saada, kui teil on probleemid 365 Payment Connectoriga Puhvris.
 author: Reza-Assadi
 ms.date: 03/11/2021
 ms.topic: Troubleshooting
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: f40e29a17fe860440bd8192a89b0f5150f0db9ab213b2190f9deaf33a4f2aaba
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6219747e794865e602c78d7ca519340046d5effc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743931"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896871"
 ---
 # <a name="troubleshoot-dynamics-365-payment-connector-for-adyen-issues"></a>Adyeni probleemide tõrkeotsing rakenduse Dynamics 365 Payment Connector
 
 [!include [banner](../../includes/banner.md)]
 
-See teema pakub tõrkeotsingu juhendeid, mis aitavad teil tuge saada, kui teil on Microsoft Dynamics 365 Payment Connector for Adyen rakendusega probleemid.
+See artikkel pakub tõrkeotsingu juhendeid, mis aitavad teil Microsoft Dynamics toe saada, kui teil on probleemid 365 Payment Connectoriga Puhvris.
 
 ## <a name="description"></a>Kirjeldus
 

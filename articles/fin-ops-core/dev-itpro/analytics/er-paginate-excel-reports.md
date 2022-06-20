@@ -1,6 +1,6 @@
 ---
 title: Kujundage ER-vorming Excelis genereeritud dokumentide saalimiseks
-description: Selles teemas selgitatakse, kuidas kavandada elektroonilise aruandluse (ER) vormingut, mis leheküljendab loodud dokumendi Microsoft Excel rakenduses.
+description: See artikkel selgitab, kuidas kujundada elektroonilise aruandluse (ER) vormingut, milles loodud dokument saalitakse Microsoft Excel.
 author: NickSelin
 ms.date: 09/14/2021
 ms.topic: article
@@ -15,22 +15,22 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2021-08-01
 ms.dyn365.ops.version: Version 10.0.22
-ms.openlocfilehash: ce29225c4bce24adc2abefc3d3d6f20774852af4
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: e8edc8bba62f74b4f81d423cf75b5fb87c01e43f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488335"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909274"
 ---
 # <a name="design-an-er-format-to-paginate-generated-documents-in-excel"></a>Kujundage ER-vorming Excelis genereeritud dokumentide saalimiseks
 
 [!include [banner](../includes/banner.md)]
 
-See teema selgitab, kuidas kasutaja süsteemiadministraatoris või elektroonilise aruandluse funktsiooninõustaja rollis saab konfigureerida [Elektroonilise aruandluse (ER)](general-electronic-reporting.md) vormingut väljaminevate dokumentide loomiseks Microsoft Excel abil ja dokumendi saalimise haldamiseks.
+See artikkel selgitab, [kuidas kasutaja süsteemiadministraatoris või elektroonilise aruandluse funktsiooninõustaja rollis saab konfigureerida elektroonilise aruandluse (ER)](general-electronic-reporting.md)Microsoft Excel vormingu väljaminevate dokumentide loomiseks ja dokumendi saalimise haldamiseks.
 
 Selles näites muudate Microsofti esitatud ER-vormingut, mida kasutatakse kontrollaruande printimiseks Intrastat-deklaratsiooni [loomisel](../../../finance/localizations/tasks/eur-00002-eu-intrastat-declaration.md). Selle aruandega saate jälgida aruandes esitatud Intrastati kandeid. Teie muudatusted lubavad teil hallata loodud kontrollaruannete lehekülgede saalimist.
 
-Kõik selle teema ülesanded saab täita ettevõttes **DEMF**. Koodi pole vaja kirjutada. Enne alustamist laadige alla ja talletage kohalikult järgmised failid.
+Selle artikli protseduurid saab DEMF-ettevõttes **lõpule** viia. Koodi pole vaja kirjutada. Enne alustamist laadige alla ja talletage kohalikult järgmised failid.
 
 | Kirjeldus       | Faili nimi |
 |-------------------|-----------| 
@@ -43,7 +43,7 @@ Minimaalsete [ER-i parameetrite konfigureerimine](er-quick-start2-customize-repo
 
 ## <a name="import-the-standard-er-format-configuration"></a>Standardse ER‑vormingu konfiguratsiooni importimine
 
-Praegusele eksemplarile [standardse ER-vormingu konfiguratsiooni lisamiseks](er-quick-start2-customize-report.md#ImportERSolution1) järgige standardse ER-vormingu konfiguratsiooni Dynamics 365 Finance samme. Importige **Intrastati aruande** vormingu konfiguratsiooni versioon **1.9**. **Intrastati põhimudeli** konfiguratsiooni baasversioon 1 imporditakse automaatselt hoidlast.
+Järgige standardse ER-vormingu [konfiguratsiooni importimise etappe](er-quick-start2-customize-report.md#ImportERSolution1), et lisada praegusele Dynamics 365 Finance'i eksemplarile standardsed ER-konfiguratsioonid. Importige **Intrastati aruande** vormingu konfiguratsiooni versioon **1.9**. **Intrastati põhimudeli** konfiguratsiooni baasversioon 1 imporditakse automaatselt hoidlast.
 
 ## <a name="customize-the-standard-er-format"></a>Standardse ER-vormingu kohandamine
 
@@ -165,7 +165,7 @@ Seejärel kasutage kohandatud ER-vormingut Intrastati deklaratsiooni kontrollaru
 
 ### <a name="repeat-the-replacement-of-the-current-excel-template-in-the-custom-er-format"></a>Korrake praeguse Exceli malli asendamist kohandatud ER-vormingus
 
-1. Järgige selle teema kohandatud [ER-vormingu sektsioonis praeguse Exceli malli asendamise](#replace-template) etappe. Kuid sammus 7 valige fail **ERIntrastatReportDemo2.xlsx**.
+1. Järgige selle artikli kohandatud [ER-vormingu sektsioonis praeguse Exceli malli](#replace-template) asendamise etappe. Kuid sammus 7 valige fail **ERIntrastatReportDemo2.xlsx**.
 2. Lehel **Vormingu kujundaja** valige laienda **Intrastat**.
 3. Nimetage [Vahemiku](er-fillable-excel.md#range-component) vormingu komponendid, mis on lisatud redigeeritavasse ER-vormingusse, et sünkroonida struktuur rakendatud Exceli malli struktuuriga:
 
@@ -406,7 +406,7 @@ Nähtavuse muutmiseks värskendage **Aruande lehe päise** ja **Aruande lehe jal
 
 ## <a name="generate-an-intrastat-declaration-control-report-updated"></a>Intrastati deklaratsiooni kontrollaruande koostamine (uuendatud)
 
-1. Veenduge, et teie **Intrastat** lehel on 24 tehingut. Korrake selle teema [Intrastati deklaratsiooni kontrollaruande loomise](#generate-intrastat-control-report) jaotise samme kontrollaruande loomiseks ja ülevaatamiseks.
+1. Veenduge, et teie **Intrastat** lehel on 24 tehingut. Korrake selle artikli intrastati [deklaratsiooni kontrollaruande loomise](#generate-intrastat-control-report) jaotise samme kontrollaruande loomiseks ja ülevaatamiseks.
 
     Kõik kanded esitatakse esimesel lehel. Lehe kogusummad ja loendurid võrduvad aruande kogusummade ja loenduritega. Lehe päiste vahemik on esimesel lehel peidetud, kuna aruande päis sisaldab juba veergude pealkirju. Lehe päis ja jalus on teisel leheküljel peidetud, kuna see leht ei sisalda ühtegi tehingut.
 

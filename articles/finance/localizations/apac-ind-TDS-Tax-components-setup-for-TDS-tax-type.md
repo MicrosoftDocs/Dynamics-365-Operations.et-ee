@@ -1,6 +1,6 @@
 ---
 title: Maksukomponentide häälestamine TDS-i maksutüübi jaoks
-description: See teema kirjeldab, kuidas seadistada kinnipeetava maksu komponente allika (TDS) maksutüübis mahaarvatud maksu jaoks. See selgitab ka, kuidas määrata läve limiiti, mida kasutatakse iga TDS-i komponendi TDS-i arvutamiseks.
+description: See artikkel selgitab, kuidas seadistada kinnipeetava maksu komponente allika (TDS) maksutüübis mahaarvatud maksu jaoks. See selgitab ka, kuidas määrata läve limiiti, mida kasutatakse iga TDS-i komponendi TDS-i arvutamiseks.
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 9c86341f7528e2c85b813e4f825ae34f10680a9b
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: df2eb10ce9e372bb1e984f6ae1a2e889bbd90ad0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727113"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871153"
 ---
 # <a name="set-up-tax-components-for-the-tds-tax-type"></a>Maksukomponentide häälestamine TDS-i maksutüübi jaoks
 
 [!include [banner](../includes/banner.md)]
 
-See teema kirjeldab, kuidas seadistada kinnipeetava maksu komponente allika (TDS) maksutüübis mahaarvatud maksu jaoks. TDS-i komponendid on TDS, lisatasu, PE-Cess ja SHE Cess. See selgitab ka, kuidas määrata läve limiiti, mida kasutatakse iga TDS-i komponendi TDS-i arvutamiseks. Lisaks saate määratleda erandi läve, mida kasutatakse iga TDS-i komponendi TDS-i arvutamiseks.
+See artikkel selgitab, kuidas seadistada kinnipeetava maksu komponente allika (TDS) maksutüübis mahaarvatud maksu jaoks. TDS-i komponendid on TDS, lisatasu, PE-Cess ja SHE Cess. See artikkel selgitab ka TDS-i iga komponendi jaoks TDS-i arvutamiseks kasutatava läve määratlemist. Lisaks saate määratleda erandi läve, mida kasutatakse iga TDS-i komponendi TDS-i arvutamiseks.
 
 TDS komponentidde häälestamiseks tehke järgmist.
 

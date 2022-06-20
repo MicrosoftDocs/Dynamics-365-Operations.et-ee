@@ -1,6 +1,6 @@
 ---
 title: Elektroonilise arvelduse administratsioonikomponendid
-description: Sellest teemast leiate teavet komponentide kohta, mis on seotud elektroonilise arvelduse administratsiooniga.
+description: See artikkel annab teavet komponentide kohta, mis on seotud elektroonilise arvelduse haldamisega.
 author: gionoder
 ms.date: 08/31/2021
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: d187e8a03552258099d7021ff056d0726ea60ca1
-ms.sourcegitcommit: baf82100f0aa7d5f5f47c7f54bc155d8a07beab5
+ms.openlocfilehash: cdd4d6705730bca967bb1bbff528df6d83a2390d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "7463877"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875996"
 ---
 # <a name="electronic-invoicing-administration-components"></a>Elektroonilise arvelduse administratsioonikomponendid
 
 [!include [banner](../includes/banner.md)]
 
 
-Sellest teemast leiate teavet komponentide kohta, mis on seotud elektroonilise arvelduse administratsiooniga. Samuti pakub see teavet selle kohta, kuidas elektroonilise arvelduse teenust konfigureerida.
+See artikkel annab teavet komponentide kohta, mis on seotud elektroonilise arvelduse haldamisega. Samuti pakub see teavet selle kohta, kuidas elektroonilise arvelduse teenust konfigureerida.
 
 ## <a name="azure"></a>Azure
 
@@ -97,7 +97,7 @@ Hea tava on salasõnasid aegajalt vahetada. Lisateabe saamiseks vt [Salasõnade 
 
 #### <a name="users"></a>Kasutajad
 
-Iga teenusekeskkond peab loetlema kasutajad, kes saavad ühenduda Elektroonilise arvelduse jaoks Dynamics 365 Finance and Dynamics 365 Supply Chain Management -iga.
+Iga teenusekeskkond peab loetlema kasutajad, kes saavad dynamics 365 Finantsid ja Elektroonilises Dynamics 365 Supply Chain Management arveldamises ühendust luua.
 
 #### <a name="publication"></a>Avaldamine
 
@@ -123,7 +123,7 @@ Teenuste Finance ja Supply Chain Management ning elektroonilise arvelduse lisand
 
 Teenuse lõpp-punkt on elektroonilise arvelduse asukoha URL. Enne kui saab väljastada elektroonilisi arveid, tuleb teenuse lõpp-punkt konfigureerida teenustes Finance ja Supply Chain Management nii, et see lubaks teenusega suhtlemist.
 
-Teenuse lõpp-punkti konfigureerimiseks avage **Organisatsiooni haldus \> Seadistus \> Elektroonilise dokumendi parameetrid** ja seejärel sisestage vahekaardi **Elektrooniline arveldus** väljale sisestage sobiv URL tabelist **Lõpp-punkti URL** jaotises [Teenuse lõpp-punkt](#svc-endpoint-uris) nagu näidatud tabelis.
+Teenuse lõpp-punkti konfigureerimiseks minge organisatsiooni halduse elektroonilise dokumendi parameetritesse ja seejärel sisestage elektroonilise arveldamise vahekaardi lõpp-punkti URL väljale tabelist vastav URL **\>\> selles artiklis eespool olevas** **·** **teenuse lõpp-punkti jaotises.**[...](#svc-endpoint-uris)
 
 #### <a name="environments"></a>Keskkonnad
 

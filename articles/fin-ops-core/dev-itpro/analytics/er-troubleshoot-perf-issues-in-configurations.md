@@ -1,6 +1,6 @@
 ---
 title: Jõudlusprobleemide tõrkeotsing ER-i konfiguratsioonides
-description: See teema selgitab, kuidas leida ja lahendada jõudluse probleeme elektroonilise aruandluse (ER) konfiguratsioonides.
+description: See artikkel selgitab, kuidas elektroonilise aruandluse (ER) konfiguratsioonides jõudlusprobleeme leida ja parandada.
 author: NickSelin
 ms.date: 05/12/2022
 ms.topic: article
@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: maximbel
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: e727e06c73ff445bf4219ac5a9eee7bec25740d9
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: 28ff68309bad7a6c1b6009ba03ef4b20aceb5194
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811676"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847336"
 ---
 # <a name="troubleshooting-performance-issues-in-er-configurations"></a>Jõudlusprobleemide tõrkeotsing ER-i konfiguratsioonides
 
-See teema selgitab, kuidas leida ja lahendada jõudluse probleeme [elektroonilise aruandluse](general-electronic-reporting.md) (ER) [konfiguratsioonides](general-electronic-reporting.md#Configuration).
+See artikkel selgitab, kuidas elektroonilise aruandluse [(ER) konfiguratsioonides jõudlusprobleeme](general-electronic-reporting.md) leida ja [lahendada](general-electronic-reporting.md#Configuration).
 
 Tavaliselt koosneb toimivuse uurimine mitmest etapist.
 

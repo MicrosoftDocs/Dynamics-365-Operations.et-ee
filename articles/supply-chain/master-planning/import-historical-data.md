@@ -1,6 +1,6 @@
 ---
 title: Nõudluse prognooside kohta varasemate andmete importimine
-description: Täpsete nõudluse prognooside saamiseks on vaja varasemaid nõudluse andmeid kauba või kauba eraldamisvõtme kohta. Selles teemas selgitatakse, kuidas kasutada andmeüksusi varasemate nõudluse andmete importimiseks mis tahes süsteemist, et nõudluse prognoosi andmed oleksid olemas pikema perioodi kohta.
+description: Täpsete nõudluse prognooside saamiseks on vaja varasemaid nõudluse andmeid kauba või kauba eraldamisvõtme kohta. See artikkel selgitab, kuidas kasutada andmeüksuseid, et importida ajaloolisi nõudluse andmeid mis tahes süsteemist, nii et teil on nõudluse prognoosi andmete ajalugu pikem.
 author: t-benebo
 ms.date: 05/10/2017
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c52d27d6e3aa8a20d6cc1dc81e4ade981c6a8091
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: e36ea72322c31f7e0ea3377b474cd148d78bdd3d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8470397"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877591"
 ---
 # <a name="import-historical-data-for-demand-forecasts"></a>Nõudluse prognooside kohta varasemate andmete importimine
 
@@ -37,7 +37,7 @@ Tööruumis **Andmehaldus** näete ülevaadet kõigist üksuse väljadest.
 
 Andmeüksuse kasutamiseks peab teil olema Microsoft Exceli fail või komaeraldusega (CSV) fail, mis sisaldab varasema nõudluse andmeid. Järgmine näide selgitab andmete importimist CSV-failist.
 
-Lisateavet andmete importimise kohta, sh kuidas andmed pärast importimist korrastada, vt jaotisest [Andmete importimis- ja eksportimistööde ülevaade](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md) ja sellega seotud teemadest.
+Lisateavet andmete importimise kohta, k.a andmete puhastamise kohta pärast importimist, [vt andmete importimise](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md) ja eksportimise tööde ülevaadet ja selle seotud artikleid.
 
 Vt ka [Statistilise alusprognoosi loomine](generate-statistical-baseline-forecast.md).
 

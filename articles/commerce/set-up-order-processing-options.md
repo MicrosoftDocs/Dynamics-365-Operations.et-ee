@@ -1,6 +1,6 @@
 ---
-title: Kõnekeskuse kanalite seadistamine
-description: Selles teemas antakse teavet tellimuste töötlemiste kohta kõnekeskuste puhul, kasutades rakendust Dynamics 365 Commerce.
+title: Kõnekeskuse kanalite häälestus
+description: See artikkel annab teavet, kuidas kõnekeskuste tellimusi töödelda Dynamics 365 Commerce.
 author: josaw1
 ms.date: 02/04/2022
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 64669c5bf71a4f1673f5ad2c46db7d3a2eaf2a97
-ms.sourcegitcommit: 39f1455215e0363cd1449bbc6bdff489097f9ded
+ms.openlocfilehash: c6d21385d956534c799af5b9e20a54c9970da368
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8092428"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854867"
 ---
 # <a name="set-up-call-center-channels"></a>Kõnekeskuse kanalite seadistamine
 
@@ -58,7 +58,7 @@ Lisaks, kui säte **Tellimuse lõpetamise lubamine** on sisse lülitatud ning ka
 Isegi kui säte **Tellimuse lõpetamise lubamine** on välja lülitatud, saavad kasutajad siiski müügitellimusele lähtekoodi rakendada. Kuid nad peavad väljale **Allikas** juurdepääsu saamiseks esmalt avama müügitellimuse päise üksikasjad. Teisisõnu on vaja teha paar lisaklõpsu. Sama käitumine rakendub funktsioonidele, nagu Saatmine lõpetatud ja Kiirendatud tellimused. Need funktsioonid on saadaval kõigi kõnekeskuses loodud tellimuste jaoks. Kuid kui säte **Tellimuse lõpetamise lubamine** on sisse lülitatud, näevad kasutajad nende funktsioonide konfiguratsiooni müügipäises, kui nad on rea sisestamise vaates. Nad ei pea sobivate sätete ja väljade leidmiseks müügitellimuse päise üksikasjadesse süvitsi minema.
 
 > [!NOTE]
-> **Kui Omni-channel Commerce'i tellimuse maksete** funktsioon on lubatud, peidetakse kõnekeskus **Luba tellimuse lõpetamine** nupp peakorterisse teie kanali kiirkaardil **Retail** and Commerce **Channels \> Kõnekeskustes \>**.
+> **Kui Jaemüügi-kanali äritellimuse maksete** funktsioon **on** **·** **lubatud, \>\> peidetakse kõnekeskuse tellimuse lõpetamise nupp peakontoris jaemüügi ja ärikanalite kõnekeskustes kanali üldises kiirkaardis.**
 
 ### <a name="enable-direct-selling"></a>Otsemüügi lubamine
 
@@ -77,7 +77,7 @@ Kõnekeskuse kanali määratlemisel peate linkima kanali kasutajad kõnekeskuseg
 Vaikimisi on lipp **Müük** müügitellimuse päises kõigi kõnekeskuse kasutajate loodavate tellimuste jaoks sisse lülitatud. Tellimused saavad seejärel kasutada ära süsteemi kaubanduse kohast hinda ja kampaaniafunktsioone.
 
 
-Kasutajad, kes ei ole kõnekeskuse kanaliga lingitud, kasutavad rakenduse Microsoft Dynamics 365 Finance standardseid tellimuse sisestamise funktsioone. Tellimusi, mille need kasutajad sisestavad müügitellimuse sisestamise vormi kaudu, ei tuvastata süstemaatiliselt Commerce’i tellimustena. Lisaks ei kehti sellistele nende kasutajate loodud tellimustele tellimuse lõpetamise töötlemisreeglid, hinnakujunduse loogika ega muud kinnitused, mille saab määratleda kõnekeskuse kanali konfiguratsioonis või kõnekeskuse süsteemiparameetrites.
+Kasutajad, kes ei ole kõnekeskuse kanaliga lingitud, kasutavad 365 Finance'i Microsoft Dynamics standardseid tellimuse sisestamise funktsioone. Tellimusi, mille need kasutajad sisestavad müügitellimuse sisestamise vormi kaudu, ei tuvastata süstemaatiliselt Commerce’i tellimustena. Lisaks ei kehti sellistele nende kasutajate loodud tellimustele tellimuse lõpetamise töötlemisreeglid, hinnakujunduse loogika ega muud kinnitused, mille saab määratleda kõnekeskuse kanali konfiguratsioonis või kõnekeskuse süsteemiparameetrites.
 
 Kui olete lõpetanud kõnekeskuse kanali konfigureerimise ja kanali kasutajate määratlemise, veenduge soovitud süsteemikäitumise tagamiseks, et kõik vajalikud kõnekeskuse parameetrid oleksid valikus **Jaemüük ja kaubandus** \> **Kanali seadistus** \> **Kõnekeskuse seadistus** \> **Kõnekeskuse parameetrid** määratletud. Veenduge, et ka seotud numbriseeriad oleksid määratletud.
 

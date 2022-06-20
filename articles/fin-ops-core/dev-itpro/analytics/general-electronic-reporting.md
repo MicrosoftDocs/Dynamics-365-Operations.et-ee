@@ -1,6 +1,6 @@
 ---
 title: Elektroonilise aruandluse (ER) ülevaade
-description: Teema annab ülevaate elektroonilise aruandluse tööriista kohta. See kirjeldab põhimõisteid, toetatud stsenaariume ja vorminguid, mis on lahenduse osaks.
+description: See artikkel annab ülevaate elektroonilise aruandluse tööriistast. See kirjeldab põhimõisteid, toetatud stsenaariume ja vorminguid, mis on lahenduse osaks.
 author: NickSelin
 ms.date: 11/02/2021
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 976a02f51e22c513b988e1ecfcb792d5f93a4b54
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 65f7a642d3b2c2ddfca1e2d92570b49ef2f8c2b4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986143"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869253"
 ---
 # <a name="electronic-reporting-er-overview"></a>Elektroonilise aruandluse (ER) ülevaade
 
 [!include [banner](../includes/banner.md)]
 
-Teema annab ülevaate elektroonilise aruandluse (ER) tööriista kohta. Artikkel sisaldab teavet põhimõistete kohta, ER-i toetatavaid stsenaariume ja loendit vormingutest, mis on loodud ja välja antud lahenduse osana.
+Artikkel annab ülevaate elektroonilise aruandluse (ER) tööriista kohta. Artikkel sisaldab teavet põhimõistete kohta, ER-i toetatavaid stsenaariume ja loendit vormingutest, mis on loodud ja välja antud lahenduse osana.
 
 ER on konfigureeritav tööriist, mis aitab teil luua ja hallata regulatiivset elektroonilist aruandlust ja makseid. See põhineb kolmel mõistel:
 
@@ -39,7 +39,7 @@ ER on konfigureeritav tööriist, mis aitab teil luua ja hallata regulatiivset e
     - Visuaalseid redaktoreid kasutatakse ER-i konfiguratsiooni kõigi komponentide loomiseks.
     - Andmete teisendamiseks kasutatav keel sarnaneb kasutatava keelega Microsoft Excel.
 
-- Üks konfiguratsioon mitmele Dynamics 365 Finance väljalaskele:
+- Üks konfiguratsioon mitmele Dynamics 365 finantsi väljalasele:
 
     - Hallake ühte domeeniomast ärieesmärgil määratletud andmemudelit.
     - Eralda rakenduse vabastamise üksikasjad vabastamissõltuvuse andmemudeli vastendustes.
@@ -143,7 +143,7 @@ ER-i hoidla talletab ER-i konfiguratsioone. Praegu toetatakse järgmisi elektroo
 
 **LCS-i ühise teegi** hoidla annab juurdepääsu konfiguratsioonide loendile teenuse Lifecycle Services (LCS) ühiste vahendite teegis. Seda tüüpi ER-i hoidlat saab registreerida ainult Microsofti pakkuja jaoks. LCS-i ühiste varade teegist saate importida ER-i konfiguratsioonide uusimaid versioone praegusesse eksemplari.
 
-Hoidla **LCS-i projekt** võimaldab juurdepääsu konkreetsele LCS-i projekti konfiguratsiooniloendile (LCS-i projektivarade teegile), mis valiti hoidla registreerimisel. ER võimaldab ühiskasutatavate konfiguratsioonide üleslaadimist eksemplarist konkreetsesse hoidlasse **LCS-i projekt**. Konfiguratsioone saate **LCS-projektihoidlast** importida ka oma finantside ja toimingute rakenduste praegusesse eksemplari.
+Hoidla **LCS-i projekt** võimaldab juurdepääsu konkreetsele LCS-i projekti konfiguratsiooniloendile (LCS-i projektivarade teegile), mis valiti hoidla registreerimisel. ER võimaldab ühiskasutatavate konfiguratsioonide üleslaadimist eksemplarist konkreetsesse hoidlasse **LCS-i projekt**. Konfiguratsioone saate LCS-projektihoidlast **importida** ka oma finantside ja toimingute rakenduste praegusesse eksemplari.
 
 Hoidla **Failisüsteem** võimaldab juurdepääsu konfiguratsioonidele, mis asuvad XML-failidena AOS-i teenuse hostitud masina kohaliku failisüsteemi kindlas kaustas. Vajalik kaust valitakse hoidla registreerimise etapis. Saate importida konfiguratsioone hoidlast **Failisüsteem** praegusesse rakenduse eksemplari. 
 

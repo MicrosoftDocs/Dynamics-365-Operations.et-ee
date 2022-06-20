@@ -1,6 +1,6 @@
 ---
 title: Warehouse Management mobiilirakenduse sammude jaoks esiletoodud väljade konfigureerimine
-description: Selles teemas kirjeldatakse, kuidas reklaamida ja esile tõsta konkreetset teavet Warehouse Management mobiilirakenduse toiminguvoogude mis tahes etapis.
+description: See artikkel kirjeldab, kuidas propageerida ja tõsta esile konkreetset teavet mis tahes sammu kohta laohalduse mobiilirakenduse ülesannete voogudes.
 author: Mirzaab
 ms.date: 10/15/2021
 ms.topic: article
@@ -11,21 +11,21 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 0ce3fb829d349a35c6c2f29838a2c725f7b61c55
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: 5f5f24f47d0a2376be714f9208cd383cf3aacc07
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920319"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857050"
 ---
 # <a name="configure-promoted-fields-for-steps-in-the-warehouse-management-mobile-app"></a>Warehouse Management mobiilirakenduse sammude jaoks esiletoodud väljade konfigureerimine
 
 [!include [banner](../includes/banner.md)]
 
 > [!IMPORTANT]
-> Selles teemas kirjeldatud funktsioonid kehtivad ainult uue mobiilirakenduse Warehouse Management kohta. Need ei mõjuta vana laorakendust, mis on nüüdseks iganenud.
+> Selles artiklis kirjeldatud funktsioonid kehtivad ainult uuele laohalduse mobiilirakendusele. Need ei mõjuta vana laorakendust, mis on nüüdseks iganenud.
 
-Selles teemas kirjeldatakse, kuidas reklaamida ja esile tõsta konkreetset teavet Warehouse Management mobiilirakenduse toiminguvoogude mis tahes etapis. See võime aitab koondada töötajate tähelepanu kõige olulisematele valdkondadele, kui nad töövoos on. Iga protsessi iga etapi jaoks saavad administraatorid valida, milliseid välju reklaamida ja milliseid esile tõsta.
+See artikkel kirjeldab, kuidas propageerida ja tõsta esile konkreetset teavet mis tahes sammu kohta laohalduse mobiilirakenduse ülesannete voogudes. See võime aitab koondada töötajate tähelepanu kõige olulisematele valdkondadele, kui nad töövoos on. Iga protsessi iga etapi jaoks saavad administraatorid valida, milliseid välju reklaamida ja milliseid esile tõsta.
 
 ## <a name="enable-promoted-fields-in-your-system"></a>Lubage oma süsteemis reklaamitud väljad
 
@@ -44,7 +44,7 @@ Enne reklaamiväljade seadistamist peate täitma järgmise protseduuri, et lubad
     - **Moodul:** *laohaldus*
     - **Funktsiooni nimi:** *Laohalduse rakenduse esiletoodud väljad*
 
-    Seda funktsiooni kirjeldatakse selles teemas.
+    See funktsioon on funktsioon, mida kirjeldatakse selles artiklis.
 
 1. Värskendage Warehouse Management mobiilirakenduses väljade nimesid, avades **Laohaldus \> Seadistamine \> Mobiilseade \> Laorakenduse väljade nimed** ja valides **Loo vaikeseade**. Lisateavet vt [Mobiilirakenduse Warehouse Management väljade konfigureerimine](configure-app-field-names-priorities-warehouse.md).
 1. Korrake eelmist sammu iga juriidilise isiku (ettevõtte) puhul, kus kasutate Warehouse Management mobiilirakendust.
@@ -56,7 +56,7 @@ Kasutage esiletoodud väljade seadistamiseks järgmist protseduuri.
 1. Looge vastava menüü ja sammu jaoks menüüpõhine ülekirjutamine, nagu on kirjeldatud jaotises [Warehouse Management mobiilirakenduse sammude pealkirjade ja juhiste kohandamine](mobile-app-titles-instructions.md).
 1. Leidke **Etapi ID** ja **menüüelemendi nime** nende väärtuste kombinatsioon, mida soovite redigeerida, ja valige väärtus veerus **Etapi ID**.
 1. Ilmuva lehe kiirkaardil **Esiletoodud väljade valimine** valige tööriistaribal **Vali väljad**.
-1. Valige dialoogiboksis **Esiletoodud väljad** väljad, mida soovite välja tuua. Samuti saate esile tõsta kuni kaks valitud välja. Esiletõstetud väljad kuvatakse Warehouse Management mobiilirakenduses paksus kirjas. Väljade valimisel arvestage asjaoluga, et mõned ekraanid võivad olla piisavalt suured, et kuvada ainult üks või kaks ülemist esiletoodud välja. Näide, mis näitab, kuidas neid sätteid kasutada, vaadake selle teema hilisemat stsenaariumi.
+1. Valige dialoogiboksis **Esiletoodud väljad** väljad, mida soovite välja tuua. Samuti saate esile tõsta kuni kaks valitud välja. Esiletõstetud väljad kuvatakse Warehouse Management mobiilirakenduses paksus kirjas. Väljade valimisel arvestage asjaoluga, et mõned ekraanid võivad olla piisavalt suured, et kuvada ainult üks või kaks ülemist esiletoodud välja. Näide, mis näitab, kuidas neid sätteid kasutada, vaadake stsenaariumi selles artiklis hiljem.
 
     > [!NOTE]
     > Loend **Saadaolevad väljad** on piiratud väljadega, mis võivad kuvada menüüüksuse jaoks. Kuid muud tegurid (nt kauba koostis) määravad, kas väli tegelikult Warehouse Management mobiilirakenduses kuvatakse. Kui olete reklaamiväljad konfigureerinud, kuvatakse Warehouse Management mobiilirakenduse avalehel ainult valitud väljad. Töötajad saavad siiski vaadata ülejäänud välju, vajutades üksikasjade lehte.

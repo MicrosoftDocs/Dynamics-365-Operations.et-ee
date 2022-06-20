@@ -1,6 +1,6 @@
 ---
 title: Hankija sertifikaadi säilitamine
-description: See teema kirjeldab samme, mida hankijad saavad kasutada oma sertide säilitamiseks, kasutades hankija koostöö tööruumi.
+description: See artikkel kirjeldab samme, mida hankijad saavad kasutada oma sertide säilitamiseks, kasutades hankija koostöö tööruumi.
 author: v-kiarnd
 ms.date: 04/27/2021
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2021-02-09
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: b1b2cdd4389afd8997b60fe8e7a9b6851cbde199
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 37990292748c363f44d306bda0263dd117808eb1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735691"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891433"
 ---
 # <a name="maintain-vendor-certification"></a>Hankija sertifikaadi säilitamine
 
 [!include [banner](../includes/banner.md)]
 
-See teema kirjeldab samme, mille abil saavad teie hankijad oma serte säilitada, kasutades selleks **hankija koostöö tööruumi**. Sertifikaadid võivad olla näiteks Naise Äriettevõte (WBE) või energia- ja keskkonnakujunduse (LEED) ettevõtte juht. Hankijad peavad sisestama sertimisteabe **hankija teabe** tööruumi. Seejärel valivad hankijad suvandi **Veel üksikasju** ja seejärel valige suvand **sertifikaadid**.
+See artikkel kirjeldab samme, mida teie hankijad saavad kasutada oma sertide säilitamiseks, kasutades hankija **koostöö tööruumi**. Sertifikaadid võivad olla näiteks Naise Äriettevõte (WBE) või energia- ja keskkonnakujunduse (LEED) ettevõtte juht. Hankijad peavad sisestama sertimisteabe **hankija teabe** tööruumi. Seejärel valivad hankijad suvandi **Veel üksikasju** ja seejärel valige suvand **sertifikaadid**.
 
 ## <a name="turn-on-the-vendor-certification-feature"></a>Lülita hankija sertifikaadi funktsioon sisse
 

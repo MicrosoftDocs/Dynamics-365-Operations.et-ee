@@ -1,6 +1,6 @@
 ---
-title: Jaluse moodul
-description: See teema hõlmab jaluse mooduleid ja kuidas neid rakenduses Dynamics 365 Commerce koostada.
+title: Jalusemoodul
+description: See artikkel hõlmab jaluse mooduleid ja nende autorit Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 542796ffce08694954d03878cd7782b01c2c6b27
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: 4e7796d9700eabc923f2bb45187832d5993ae56e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780255"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876608"
 ---
-# <a name="footer-module"></a>Jaluse moodul  
+# <a name="footer-module"></a>Jalusemoodul  
 
 [!include [banner](includes/banner.md)]
 
-See teema hõlmab jaluse mooduleid ja kirjeldab, kuidas neid rakenduses Microsoft Dynamics 365 Commerce luua.
+See artikkel katab jaluse mooduleid ja kirjeldab, kuidas neid luua Microsoft Dynamics 365 Commerce.
 
 Jaluse moodul on erikonteiner, mida kasutatakse lehe jaluses kuvatavate moodulite majutamiseks. Näiteks võib see sisaldada linke saidi erinevatele lehtedele, nagu lehed **Võtke meiega ühendust** ja **Poe eeskirjad**.
 

@@ -1,6 +1,6 @@
 ---
 title: Rendi kasutajarollide määramine
-description: See teema kirjeldab varade rentimisel kasutatavaid turberolle. Lisaks selgitatakse, kuidas määrata nendele rollidele kasutajaid.
+description: See artikkel kirjeldab Varades kasutatavad turberollid. Lisaks selgitatakse, kuidas määrata nendele rollidele kasutajaid.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 1a9e7772448314e0c3fd101576c07a5b6508270f
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 38c859d64742d582d0709506d83600ea26a21147
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711287"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878127"
 ---
 # <a name="assign-lease-user-roles"></a>Rendi kasutajarollide määramine
 
 [!include [banner](../includes/banner.md)]
 
-See teema kirjeldab varade rentimisel kasutatavaid turberolle. Lisaks selgitatakse, kuidas määrata nendele rollidele kasutajaid.
+See artikkel kirjeldab Varades kasutatavad turberollid. Lisaks selgitatakse, kuidas määrata nendele rollidele kasutajaid.
 
 Vara rentimisele juurdepääsu eristavad kolm kasutajarolli. Üks on sobiv rentide haldamiseks, üks sobiv rentide vaatamiseks ja üks sobiv rentniku kohustuste täitmiseks. Igal rollil on iga rendi lehe jaoks kindlad õigused ja võimaldab igal kasutajal vaadata, luua, muuta või kustutada rente vastavalt oma töökohustustele.
 

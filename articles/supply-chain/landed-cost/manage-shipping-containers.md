@@ -1,6 +1,6 @@
 ---
 title: Saatmiskonteinerite haldamine
-description: Selles teemas kirjeldatakse, kuidas töötada saatmiskonteineritega. Saatmiskonteinereid kasutatakse füüsiliselt kokkurühmitatud kaupade rühmitamiseks. Neid kasutatakse ka juhul, kui kulud tuleb jagada ainult nende kaupade vahel, tavaliselt seetõttu, et need on füüsiliselt koos.
+description: See artikkel kirjeldab, kuidas töötada konteinerite saatmisega. Saatmiskonteinereid kasutatakse füüsiliselt kokkurühmitatud kaupade rühmitamiseks. Neid kasutatakse ka juhul, kui kulud tuleb jagada ainult nende kaupade vahel, tavaliselt seetõttu, et need on füüsiliselt koos.
 author: Weijiesa
 ms.date: 12/14/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: ac88f8e3b8cf305a5bd247e7ed6b14b23ad85499
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 22f2512125679f160cb658923893d5f5aa739a2d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686765"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906149"
 ---
 # <a name="manage-shipping-containers"></a>Saatmiskonteinerite haldamine
 
@@ -142,7 +142,7 @@ Vaate **Read** avamiseks avage saatmiskonteiner ja seejärel valige saatmiskonte
 
 ### <a name="information-on-the-shipping-container-fasttab"></a>Teave kiirkaardil Saatmiskonteiner
 
-Vaate **Read** kiirkaardil **Saatmiskonteiner** on kuvatud teave foolio kohta. Suurem osa sellest teabest on kuvatud ka vaates **Päis**, nagu on kirjeldatud selles teemas eespool.
+Vaate **Read** kiirkaardil **Saatmiskonteiner** on kuvatud teave foolio kohta. Suurem osa sellest teabest ilmub ka päise **vaates**, nagu on kirjeldatud selles artiklis.
 
 ### <a name="information-and-buttons-on-the-lines-fasttab"></a>Teave ja nupud kiirkaardil Read
 

@@ -1,6 +1,6 @@
 ---
 title: Järeleminemise valikut ei kuvata ostukorvi või toote üksikasjade lehtedel
-description: See teema annab tõrkeotsingu juhised, mis aitavad, kui kaupluses oleva kauba saatmisvalikut ei kuvata ostukorvi leheküljel või toote üksikasjade lehtedel.
+description: See artikkel annab tõrkeotsingu juhised, mis aitavad, kui kaupluses oleva kauba pickupsuvand ei ilmu ostukorvi lehele või toote üksikasjade lehtedele.
 author: Reza-Assadi
 ms.date: 03/11/2021
 ms.topic: Troubleshooting
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 836f767caae8e32c156a1c13d1e2864a4d3cdd92e7a11814a2585c9e907575dd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 88367e13b4d079edb0816e301901828b65c437ae
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733817"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900304"
 ---
 # <a name="pick-this-up-option-doesnt-appear-on-cart-or-product-details-pages"></a>"Järeleminemise" valikut ei kuvata ostukorvi või toote üksikasjade lehtedel
 
 [!include [banner](../../includes/banner.md)]
 
-See teema annab tõrkeotsingu juhised, mis aitavad, kui kaupluses oleva kauba saatmisvalikut ei kuvata ostukorvi leheküljel või toote üksikasjade lehtedel.
+See artikkel annab tõrkeotsingu juhised, mis aitavad, kui kaupluses oleva kauba pickupsuvand ei ilmu ostukorvi lehele või toote üksikasjade lehtedele.
 
 ## <a name="description"></a>Kirjeldus
 

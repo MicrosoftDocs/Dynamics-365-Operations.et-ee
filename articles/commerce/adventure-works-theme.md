@@ -1,6 +1,6 @@
 ---
 title: Adventure Works teema ülevaade
-description: See teema annab ülevaate Adventure Worksi kujundusest ja kirjeldab, kuidas seda rakendada saidi lehtedele teemas Microsoft Dynamics 365 Commerce.
+description: See artikkel annab ülevaate Adventure Worksi kujundusest ja kirjeldab selle rakendumist saidi lehtedele teemas Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 12/03/2021
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 34ea24e2d81a69d720973455492f9e05ed34dd81
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 4f13d6c1c4b0e2764c22dc3d7311c726fac7989d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983690"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874983"
 ---
 # <a name="adventure-works-theme-overview"></a>Adventure Works teema ülevaade
 
 [!include [banner](includes/banner.md)]
 
-See teema annab ülevaate Adventure Worksi kujundusest ja kirjeldab, kuidas seda rakendada saidi lehtedele teemas Microsoft Dynamics 365 Commerce.
+See artikkel annab ülevaate Adventure Worksi kujundusest ja kirjeldab selle rakendumist saidi lehtedele teemas Microsoft Dynamics 365 Commerce.
 
 Dynamics 365 Commerce e-kaubanduse teema nimega Adventure Works. Adventure Worksi teemas kuvatakse spordi- ja matitooted ning optimeeritakse rikaste ja täiustatud täiustatud teletellingikogemuse jaoks. See pakub tänapäevast ilmet, uusi kavandeid ja meelelahutusefektisid, et luua e-äri klientidele elev e-kaubanduse kogemus.
 

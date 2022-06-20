@@ -1,6 +1,6 @@
 ---
 title: Toote elutsükli olekud
-description: Selles teemas selgitatakse vara elutsükli olekuid ja elutsükli mudeleid varahalduses.
+description: See artikkel selgitab vara elutsükli olekuid ja töötsükli mudeleid varahalduses.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 55139c6458e569b15518f0f11f1c12c3a26cae2f26c6a2046a7ebdc1277cb144
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 43b1ff9438437e6c1ff33bab9a7ba0361029cb6d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722459"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901056"
 ---
 # <a name="asset-lifecycle-states"></a>Toote elutsükli olekud
 
@@ -28,7 +28,7 @@ ms.locfileid: "6722459"
 
  
 
-Selles teemas selgitatakse vara elutsükli olekuid ja elutsükli mudeleid varahalduses. Vara elutsükli olekuid kasutatakse määratlemaks, kas vara on aktiivne või passiivne. Näiteks saate seadistada vara elutsükli olekud, näiteks **Loodud**, **Aktiivne** ja **Lõpetatud**.
+See artikkel selgitab vara elutsükli olekuid ja töötsükli mudeleid varahalduses. Vara elutsükli olekuid kasutatakse määratlemaks, kas vara on aktiivne või passiivne. Näiteks saate seadistada vara elutsükli olekud, näiteks **Loodud**, **Aktiivne** ja **Lõpetatud**.
 
 > [!NOTE]
 > - Taotluse elutsükli olekud on seotud vara elutsükli olekuga. Seega, kui taotlus on muudetud uue taotluse elutsükli olekusse, muudetakse taotlusele lisatud vara uue vara elutsükli olekusse. Näiteks kui taotluse elutsükli olek muudetakse **Sissetulevaks**, muudetakse manustatud vara elutsükli olekut elutsükli olekusse, mis valitakse väljal **Sissetulev elutsükli olek** kiirkaardil **Vara elutsüklo olek** lehel **Vara elutsükli oleku mudelid**. 

@@ -1,6 +1,6 @@
 ---
 title: ER-i funktsioon NUMSEQVALUE
-description: See teema sisaldab teavet selle kohta, kuidas kasutatakse elektroonilise aruandluse (ER) funktsiooni NUMSEQVALUE.
+description: See artikkel annab teavet selle kohta, kuidas kasutatakse NUMSEQVALUE elektroonilise aruandluse (ER) funktsiooni.
 author: NickSelin
 ms.date: 12/17/2019
 ms.prod: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 53040d1f4b3c8089fab264a524309df909a90ed5e617bd86658704b286fabb34
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 569d9ba1497bbc6dfc0ca909207aa5a78a877fe9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758236"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879829"
 ---
 # <a name="numseqvalue-er-function"></a>ER-i funktsioon NUMSEQVALUE
 
@@ -94,7 +94,7 @@ Kui kutsutakse **NumSeq** andmeallikat, tagastatakse numbriseeria uus loodud vä
 
 Teie mudelivastenduses on määratletud järgmised andmeallikad.
 
-- Teenuse Microsoft Dynamics 365 Finance *loetelu* tüübi andmeallikas **enumScope**. See andmeallikas viitab laiendatud loetelule **ERExpressionNumberSequenceScopeType**.
+- Finantside **loetelu tüübi** 365 andmeallika Microsoft Dynamics *enumTeksti* loendus See andmeallikas viitab laiendatud loetelule **ERExpressionNumberSequenceScopeType**.
 - Tüübi *Arvutatud väli* andmeallikas **NumSeq**. See andmeallikas sisaldab avaldist `NUMSEQVALUE ("Gene_1", enumScope.Company, "")`.
 
 Kui kutsutakse **NumSeq** andmeallikat, tagastatakse numbriseeria **Gene\_1** uus loodud väärtus, mis on konfigureeritud selle ettevõtte jaoks, mis varustab ER-vormingu käitamise konteksti.

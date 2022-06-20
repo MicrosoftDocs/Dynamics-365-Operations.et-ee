@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Commerce e-äri lokaliseerimise juhend
-description: See teema kirjeldab, kuidas lokaliseerida Microsoft Dynamics 365 Commerce e-äri saiti lisakeeltesse ja konfigureerida saiti mitme kanali toetamiseks.
+description: See artikkel kirjeldab, kuidas lokaliseerida Microsoft Dynamics 365 Commerce e-äri saiti lisakeeltesse ja konfigureerida saiti mitme kanali toetamiseks.
 author: bicyclingfool
 ms.date: 04/29/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 1e9d91036ceeb9161dc8ee903532b2cf3ca435e2
-ms.sourcegitcommit: 26c726bd0b00935e3d2c31fdc5a3b2ae03a8a2b0
+ms.openlocfilehash: 955a85340f6d35f1e203d74920d07b5dc6ff8654
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/30/2022
-ms.locfileid: "8661502"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873380"
 ---
 # <a name="dynamics-365-commerce-e-commerce-localization-guide"></a>Dynamics 365 Commerce e-äri lokaliseerimise juhend
 
 [!include [banner](includes/banner.md)]
 
-See teema kirjeldab Microsoft Dynamics 365 Commerce, kuidas lokaliseerida e-äri saiti lisakeeltesse ja konfigureerida sait toetama mitut kanalit, ning käsitleb ka protsessiga seotud mõisteid ja terminoloogiat.
+See artikkel kirjeldab Microsoft Dynamics 365 Commerce, kuidas lokaliseerida e-äri saiti lisakeeltesse ja konfigureerida sait toetama mitut kanalit, ning käsitleb ka protsessiga seotud mõisteid ja terminoloogiat.
 
 E-kaubanduse Dynamics 365 Commerce võimalused on loodud selleks, et võimaldada veebikogemusi, mida saab kohandada kindlate riikide ja keelte järgi, kuid võimaldades samal ajal mallide, lehekülgede, sisu ja meedia maksimaalset taaskasutust. Saate luua ka põhisaidi ja seejärel laiendada uutele turustele, lisades aja jooksul toe täiendavatele riikidele ja keeltele.
 
@@ -79,7 +79,7 @@ Selles konfiguratsioonis arendavad kliendid ja partnerid tavaliselt välja kõik
 ![Boksist väljas Dynamics 365 Commerce e-kaubanduse sait](media/loc-guide-1.png)
 
 > [!NOTE]
-> Saate Fabrikami demosaidi konfigureerida lisakeeleks, nii et sisu arendust saab selles keeles teha. Lisateavet selle kohta, kuidas saidile ja kanalile uut keelt lisada, [vaadake jaotisest Konfigureeri](#configure-an-additional-language-for-your-site) saidi jaoks lisakeel hiljem selles teemas.
+> Saate Fabrikami demosaidi konfigureerida lisakeeleks, nii et sisu arendust saab selles keeles teha. Lisateavet selle kohta, kuidas saidile ja kanalile uut keelt lisada, [vt](#configure-an-additional-language-for-your-site) jaotisest Konfigureeri saidi jaoks lisakeel selles artiklis.
 
 Kuid e-kaubanduse saitide sisu haldussüsteem (CMS) Dynamics 365 Commerce ja lehekülje mudel on mõeldud laienduse võimaldamiseks uutesse turgudesse ja lokaadile. Seega saate üksiku e-kaubanduse saidi kaudu hallata põhivarasid võrgupoes, mis hõlmab mitut turust ja keelt.
 
@@ -117,7 +117,7 @@ Keele lisamiseks saidikonstruktori kanalile järgige neid samme.
 
 Kui naasete **Commerce'i** saidi koostaja lehtede vaatesse, on uus keel saadaval kanali ja lokaadi valija ülemisel paremal. Nüüd saate luua oma põhikeeles lokaliseeritud lehekülgede versioone.
 
-Lehtede ja killukondade sisu lokaliseerimise protsess on teema teemas teemas ["Lokaliseeri e-kaubanduse saidi](#localize-e-commerce-site-content) sisu jaotis".
+Lehtede ja killukondade sisu lokaliseerimise protsess on kaetud selles artiklis hilisemas [jaotises Lokaliseeri e-äri](#localize-e-commerce-site-content) saidi sisu.
 
 ### <a name="configure-a-new-channel-for-your-site"></a>Uue kanali konfigureerimine oma saidile
 
@@ -156,7 +156,7 @@ Järgmisi e-äri saidi varasid saab saidikonstruktoris lokaliseerida:
 
 Kanali ja keele kontekstis luuakse kõik uued lehed, killud ja meediumivarad, mis on praegu kanalis ja lokaadil valitud. See keel on tavaliselt teie "põhikeel", eeldusel, et te pole konfigureerinud täiendavaid keeli või kanaleid. Saitidel, kus on konfigureeritud mitu kanalit ja keelt, on **põhikeel** määratud kanali ja lokaadiga, mille olete määranud vaikimisi saidi kanalite lehel.
 
-Lehekülgede, killude ja meediavarade sisu lokaliseerimise sammud on sarnased. Erandeid ja erinevusi näidatakse järgnevates jaotistes. Kuid mooduli sisu lokaliseerimise sammud erinevad. Lisateavet vt selle teema jaotisest [Lokaliseeri](#localize-modules) moodulid.
+Lehekülgede, killude ja meediavarade sisu lokaliseerimise sammud on sarnased. Erandeid ja erinevusi näidatakse järgnevates jaotistes. Kuid mooduli sisu lokaliseerimise sammud erinevad. Lisateavet vt selle artikli jaotisest [Lokaliseeri](#localize-modules) moodulid.
 
 #### <a name="step-1-export-an-xliff-file"></a>1. etapp: XLIFF-faili eksportimine
 

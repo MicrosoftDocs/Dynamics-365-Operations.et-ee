@@ -1,6 +1,6 @@
 ---
 title: Arve automatiseerimine skannitud dokumentide korral
-description: Selles teemas selgitatakse funktsioone, mis on saadaval hankija arvete täielikuks automatiseerimiseks, isegi manuseid sisaldavate arvete puhul.
+description: See artikkel selgitab funktsioone, mis on saadaval hankijaarvete, isegi nende arvete, mis sisaldavad manuseid, lõpetamise lõpetamise automatiseerimiseks.
 author: abruer
 ms.date: 03/24/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 02fcb6ce49156c32f23bfb37478a1076f62aa868
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: e7d8e55fc1293e2b33b15f3862498363a6b23f1f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716390"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883412"
 ---
 # <a name="invoice-automation-for-scanned-documents"></a>Arve automatiseerimine skannitud dokumentide korral
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas selgitatakse andmeüksusi, mis on saadaval hankijaarvete täielikuks automatiseerimiseks, sh manuseid sisaldavad arved.
+See artikkel selgitab andmeüksuseid, mis on saadaval hankija arvete ja manustega arvete lõpetamise automatiseerimiseks.
 
 Organisatsioonid, kus soovitakse ostureskontro protsesse sujuvamaks muuta, käsitlevad arvete töötlemist sageli ühe peamise protsessivaldkonnana, mis peaks olema tõhusam. Paljudel juhtudel annavad need organisatsioonid paberarvete töötlemise üle optilise märgituvastusega (OCR) tegelevatele teenusepakkujatele. Siis saavad nad masinloetavad arve metaandmed koos iga arve skannitud kujutisega. Automatiseerimisel abistamiseks koostatakse siis viimase etapi jaoks lahendus, mis võimaldab neid üksusi siis arveldussüsteemis kasutada. Selle viimase etapi automatiseerimine on nüüd valmislahenduses lubatud, kasutades arve automatiseerimislahendust.
 
@@ -46,7 +46,7 @@ Lahenduse jalajälg sisaldab järgmisi komponente.
 + Erandite töötlemine arvete puhul
 + Kõrvuti manusevaatur arvetel
 
-Ülejäänud teema kirjeldab üksikasjalikult neid lahenduse komponente.
+Ülejäänud artikkel annab lahenduse komponentide üksikasjalikud kirjeldused.
 
 ## <a name="data-entities"></a>Andmeüksused
 

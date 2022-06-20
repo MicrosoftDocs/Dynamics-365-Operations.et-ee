@@ -1,6 +1,6 @@
 ---
 title: Seerianumbriga kaupadega töötamine kassas
-description: Selles teemas on selgitatud, kuidas hallata seerianumbriga kaupu kassarakenduses.
+description: See artikkel selgitab, kuidas hallata seeriaks jaotatud kaupu müügikoha rakenduses.
 author: boycezhu
 ms.date: 01/08/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: global
 ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 5725943fd249e1b5d66b08b829c2eb58b6aad3ee24db9ca83bbde9be906bbf82
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8a715a9d025f36656506daeb9e611bfacdafa102
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737574"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880025"
 ---
 # <a name="work-with-serialized-items-in-the-pos"></a>Seerianumbriga kaupadega töötamine kassas
 
 [!include [banner](includes/banner.md)]
 
-Paljud jaemüüjad müüvad kaupu, mis nõuavad seerianumbri kontrollimist. Selliseid tooteid nimetatakse *serialiseeritud kaupadeks*. Mõned jaemüüjad võivad kasutada seerianumbreid jälgimisotstarbel kaupluses või laos. Teised võivad rakendada seerianumbreid müügiprotsessi ajal teeninduse ja garantii otstarbel. Selles teemas on selgitatud, kuidas saate hallata seerianumbriga kaupu Microsoft Dynamics 365 Commerce kassarakenduses.
+Paljud jaemüüjad müüvad kaupu, mis nõuavad seerianumbri kontrollimist. Selliseid tooteid nimetatakse *serialiseeritud kaupadeks*. Mõned jaemüüjad võivad kasutada seerianumbreid jälgimisotstarbel kaupluses või laos. Teised võivad rakendada seerianumbreid müügiprotsessi ajal teeninduse ja garantii otstarbel. See artikkel selgitab, kuidas saab müügikoha rakenduses Microsoft Dynamics 365 Commerce seeriaks jaotatud kaupu hallata.
 
 ## <a name="serial-number-configurations"></a>Seerianumbrite konfiguratsioonid
 
@@ -124,7 +124,7 @@ Tulevaseks pealekorjeks või tarneks müüdud järjestatud kaupade korral võiva
 
 ### <a name="apply-serial-numbers-during-customer-order-fulfillment-or-pickup"></a>Seerianumbrite rakendamine klienditellimuse täitmisel või pealekorjel
 
-Kui täidate järjestatud toodete klienditellimuse ridu kasutades kassa toimingut **Tellimuse täitmine**, jõustab kassa enne lõplikku täitmist seerianumbri hõivamise. Seega, kui algsel tellimuse hõivamisel seerianumbrit ei antud, tuleb see kassas komplekteerimis-, pakkimis- või lähetusprotsesside ajal hõivata. Kinnitamine toimub igas etapis ja kasutajalt küsitakse seerianumbrite andmeid ainult juhul, kui need puuduvad või enam ei kehti. Näiteks kui kasutaja jätab vahele korjamise või pakkimise etapid ja käivitab kohe saadetise ning rea seerianumbrit ei ole registreeritud, nõuab kassa seerianumbri sisestamist enne viimase arve etapi lõpetamist. Kassas tellimuse täitmistoimingute ajal seerianumbri hõivamise jõustamisel kehtivad endiselt kõik selles teemas mainitud reeglid. Järjestusega kaubad, mis on konfigureeritud **Aktiivsetena** läbivad seerianumbri laovarude kontrolli. Kaupu, mis on konfigureeritud **Müügiprotsessis aktiivsetena**, ei kontrollita. Kui **Füüsiline negatiivne laovaru** on **Aktiivsete** toodete jaoks lubatud, aktsepteeritakse mistahes seerianumbrit, olenemata laovarude saadavusest. Nii **Aktiivse** kui ka **Müügiprotsessis aktiivse** kauba korral, kui **Määramata väljaminekud lubatud** on konfigureeritud, saab kasutaja jätta seerianumbrid soovi korral korjamise, pakkimise ja saatmise etappides tühjaks.
+Kui täidate järjestatud toodete klienditellimuse ridu kasutades kassa toimingut **Tellimuse täitmine**, jõustab kassa enne lõplikku täitmist seerianumbri hõivamise. Seega, kui algsel tellimuse hõivamisel seerianumbrit ei antud, tuleb see kassas komplekteerimis-, pakkimis- või lähetusprotsesside ajal hõivata. Kinnitamine toimub igas etapis ja kasutajalt küsitakse seerianumbrite andmeid ainult juhul, kui need puuduvad või enam ei kehti. Näiteks kui kasutaja jätab vahele korjamise või pakkimise etapid ja käivitab kohe saadetise ning rea seerianumbrit ei ole registreeritud, nõuab kassa seerianumbri sisestamist enne viimase arve etapi lõpetamist. Kassas tellimuse täitmistoimingute seerianumbri hõivamisel kehtivad endiselt kõik selles artiklis nimetatud reeglid. Järjestusega kaubad, mis on konfigureeritud **Aktiivsetena** läbivad seerianumbri laovarude kontrolli. Kaupu, mis on konfigureeritud **Müügiprotsessis aktiivsetena**, ei kontrollita. Kui **Füüsiline negatiivne laovaru** on **Aktiivsete** toodete jaoks lubatud, aktsepteeritakse mistahes seerianumbrit, olenemata laovarude saadavusest. Nii **Aktiivse** kui ka **Müügiprotsessis aktiivse** kauba korral, kui **Määramata väljaminekud lubatud** on konfigureeritud, saab kasutaja jätta seerianumbrid soovi korral korjamise, pakkimise ja saatmise etappides tühjaks.
 
 Seerianumbrite kontrollid tehakse ka siis, kui kasutaja teeb kassas klienditellimustega pealekorjetoiminguid. Kassarakendus või luba järjestatud toote pealekorje enne, kui see läbib varem mainitud kontrollid. Kontrollid põhinevad alati toote jälgimise dimensioonil ja müügilao konfiguratsioonidel. 
 

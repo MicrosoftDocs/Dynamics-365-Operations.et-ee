@@ -1,6 +1,6 @@
 ---
 title: Finantsülevaadete konfiguratsioon
-description: See teema selgitab konfiguratsiooni samme, mis võimaldavad teie süsteemil kasutada finantsülevaatuses saadaolevaid võimalusi.
+description: See artikkel selgitab konfiguratsiooni samme, mis võimaldavad süsteemil kasutada finantsülevaadetes saadaolevaid võimalusi.
 author: ShivamPandey-msft
 ms.date: 01/27/2022
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 6ec7e6a7e616e239128281ba669c8bbbfc5e3c7a
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: ac0f0cb078b6e202540fadbff337a01379febc8a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710610"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861412"
 ---
 # <a name="configuration-for-finance-insights"></a>Finantsülevaadete konfiguratsioon
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Finantsülevaated koondavad rakenduse Microsoft Dynamics 365 Finance Dataverse funktsioonid rakendusega Azure AI Builder ja pakuvad organisatsioonile võimast prognoosimise tööriistu. See teema selgitab konfiguratsiooni samme, mis võimaldavad teie süsteemil kasutada finantsülevaatuses saadaolevaid võimalusi. Selle teema protseduuride [edukaks lõpetamiseks peab teil olema Süsteemiadministraatori ja Süsteemi kohandaja juurdepääs Power Portali](https://admin.powerplatform.microsoft.com/) halduskeskuses, süsteemiadministraatori juurdepääs Dynamics 365 Finantsis ja juurdepääs keskkonnade loomisele elutsükli teenustes Microsoft Dynamics (LCS).
+Finantsülevaated koondavad rakenduse Microsoft Dynamics 365 Finance Dataverse funktsioonid rakendusega Azure AI Builder ja pakuvad organisatsioonile võimast prognoosimise tööriistu. See artikkel selgitab konfiguratsiooni samme, mis võimaldavad süsteemil kasutada finantsülevaadetes saadaolevaid võimalusi. Selle artikli protseduuride [edukaks lõpetamiseks peab teil olema Süsteemiadministraatori ja Süsteemi kohandaja juurdepääs Power Portali](https://admin.powerplatform.microsoft.com/) halduskeskuses, süsteemiadministraatori juurdepääs Dynamics 365 Finantsis ja juurdepääs keskkonnade loomisele elutsükli teenustes Microsoft Dynamics (LCS).
 
 > [!NOTE]
 > Finantside vihjete häälestamise järgmised protseduurid kehtivad Dynamics 365 Finance versiooni 10.0.21 ja uuemate versioonide puhul.
@@ -101,7 +101,7 @@ Kui lisandmoodul on edukalt installitud, võib selleks olla aega 1 tund, enne ku
    Kui vihjete **ettevalmistamise oleku kontrollprotsess** on edukalt käitatud, saate funktsioonihalduse tööruumi finantsülevaadete **funktsioonid lubada**.
 
 > [!NOTE]
-> Kui vihjete ettevalmistamise olekukontrolli protsessi ei käitata, minge tööde **süsteemihaldusseInquiriesBatch** **·** > **.** > **·** Muutke väljal **Automatiseerimise pollimissüsteem** väärtuseks Protsessi **käivitamiseks** ootel. 
+> Kui vihjete **vabastamise olekukontrolli** protsessi ei käitata, minge süsteemihalduse **päringute** > **pakett-töödesse** > **·**. Muutke väljal **Automatiseerimise pollimissüsteem** väärtuseks Protsessi **käivitamiseks** ootel. 
 > 
 ## <a name="feedback-and-support"></a>Tagasiside ja tugi
 

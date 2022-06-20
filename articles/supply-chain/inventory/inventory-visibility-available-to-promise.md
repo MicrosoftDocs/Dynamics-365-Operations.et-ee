@@ -1,6 +1,6 @@
 ---
 title: Varude nähtavuse laoseisu muudatuste graafikud ja lubaduse andmiseks saadaval
-description: See teema kirjeldab, kuidas planeerida tulevasi vaba kaubavaru muudatusi ja arvutada saadaolevaid ATP-koguseid.
+description: See artikkel kirjeldab, kuidas planeerida tulevasi vaba kaubavaru muudatusi ja arvutada saadaolevaid ATP-koguseid.
 author: yufeihuang
 ms.date: 05/11/2022
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-03-04
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: 7456f87bede7bd0073223fa4762f96f919799e06
-ms.sourcegitcommit: 38d97efafb66de298c3f504b83a5c9b822f5a62a
+ms.openlocfilehash: 4a0edeedfe42b43ef36c8ca091b01eef815f3632
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/17/2022
-ms.locfileid: "8763249"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856189"
 ---
 # <a name="inventory-visibility-on-hand-change-schedules-and-available-to-promise"></a>Varude nähtavuse laoseisu muudatuste graafikud ja lubaduse andmiseks saadaval
 
 [!include [banner](../includes/banner.md)]
 
-See teema kirjeldab, kuidas *seadistada vabade* kaubavaru muudatuste ajakava funktsioon, et planeerida tulevasi vaba kaubavaru muudatusi ja arvutada lubamiseks saadaolevaid (ATP) koguseid. ATP on kauba kogus, mis on saadaval ja mida saab kliendile järgmisel perioodil lubada. Selle arvutuse kasutamine võib tellimuse täitmise võimalusi oluliselt suurendada.
+See artikkel kirjeldab, kuidas *seadistada vabade* kaubavaru muudatuste graafiku funktsioon, et planeerida tulevasi vaba kaubavaru muudatusi ja arvutada lubamiseks saadaolevaid (ATP) koguseid. ATP on kauba kogus, mis on saadaval ja mida saab kliendile järgmisel perioodil lubada. Selle arvutuse kasutamine võib tellimuse täitmise võimalusi oluliselt suurendada.
 
 Paljude tootjate, jaemüüjate võikauplejate jaoks ei piisa ainult selleks, et teada, mis praegu on saadaval. Neil peab olema täielik nähtavus tulevase saadavuse suhtes. Selline tulevane saadavus peaks arvestama tulevase pakkumise, tulevase nõudluse ja ATP-ga.
 

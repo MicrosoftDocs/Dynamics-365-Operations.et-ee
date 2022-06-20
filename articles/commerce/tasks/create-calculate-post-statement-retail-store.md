@@ -1,6 +1,6 @@
 ---
 title: Jaekaupluse jaoks väljavõtete loomine, arvutamine ja sisestamine
-description: See protseduur kirjeldab kaupluse kohta väljavõtte loomise, arvutamise ja sisestamise etappe.
+description: See artikkel kirjeldab kaupluse väljavõtte loomise, arvutamise ja sisestamise käsitsi samme.
 author: jashanno
 ms.date: 08/29/2018
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0a3d82daed16c1b37d10653f04c1dc473cd5c5abc3a6443972da6e8ecf9820f1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 740857e6a902e21588855eef5e36cac68e560898
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719868"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873274"
 ---
 # <a name="create-calculate-and-post-statements-for-a-retail-store"></a>Jaekaupluse jaoks väljavõtete loomine, arvutamine ja sisestamine
 
 [!include [banner](../includes/banner.md)]
 
-See protseduur kirjeldab kaupluse kohta väljavõtte loomise, arvutamise ja sisestamise etappe. Samade ülesannete jaoks saab konfigureerida ka pakett-töid. Pakett-tööde konfigureerimise ja käitamise etapid leiate teistest teemadest. Selle protseduuri tegemiseks peavad teil olema kassas lõpule viidud ja seejärel Dynamics Dynamics 365 Commerce-i tõmmatud kanded. See salvestis kasutab demoettevõtte USRT andmeid.
+See artikkel kirjeldab kaupluse väljavõtte loomise, arvutamise ja sisestamise käsitsi samme. Samade ülesannete jaoks saab konfigureerida ka pakett-töid. Pakett-tööde konfigureerimis- ja käivitamistoiminguid leiate teistest artiklitest. Selle protseduuri tegemiseks peavad teil olema kassas lõpule viidud ja seejärel Dynamics Dynamics 365 Commerce-i tõmmatud kanded. See salvestis kasutab demoettevõtte USRT andmeid.
 
 1. Valige avalehel **Kaupluse rahandus**.
 2. **Väljavõtte** valimine

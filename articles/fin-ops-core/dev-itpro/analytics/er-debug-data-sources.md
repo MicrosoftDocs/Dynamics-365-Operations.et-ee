@@ -1,6 +1,6 @@
 ---
 title: Käivitatud ER-vormingu andmeallikate silumine andmevoo ja teisenduse analüüsimiseks
-description: Selles teemas selgitatakse, kuidas saate käivitatud ER-vormingu andmeallikaid siluda, et mõista paremini konfigureeritud andmevoogu ja teisendust.
+description: See artikkel selgitab, kuidas te saate käivitatud ER-vormingus andmeallikaid siluda, et konfigureeritud andmevoogu ja teisendust paremini mõista.
 author: NickSelin
 ms.date: 04/22/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 02aee8c6ec3b2720c2fcbb17f15791d88d688a34
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 6fca177093caf42ad27b58eaa97e3f6997289eeb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323757"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884224"
 ---
 # <a name="debug-data-sources-of-an-executed-er-format-to-analyze-data-flow-and-transformation"></a>Käivitatud ER-vormingu andmeallikate silumine andmevoo ja teisenduse analüüsimiseks
 
@@ -34,7 +34,7 @@ Vahel näevad loodud väljundi andmed välja teistsugused kui samad andmed raken
 
 Andmeallika silumisfunktsiooni sisselülitamiseks seadke ER-i kasutajaparameetrite all suvandi **Luba vormingu käitamisel andmete silumine** sätteks **Jah** . Seejärel saate alustada andmeallika silumist, kui käivitate ER-vormingu väljaminevate dokumentide loomiseks. Lisaks saate kasutada suvandit **Alusta silumist**, et käivitada [ER-i toimingukoostajas](./tasks/er-format-configuration-2016-11.md#design-the-format-of-an-electronic-document) konfigureeritud ER-vormingu andmeallika silumine.
 
-Selles teemas antakse suunised täidetud ER-vormingute andmeallika silumise käivitamiseks. See selgitab, kuidas mõista teabe abil andmevoogu ja andmete teisendusi. Käesolevas teemas toodud näidetes kasutatakse hankija maksete töötlemise äriprotsessi.
+See artikkel annab juhised täidetud ER-vormingute andmeallika silumise käivitamiseks. See selgitab, kuidas mõista teabe abil andmevoogu ja andmete teisendusi. Selles artikli näidetes kasutatakse hankija maksete töötlemiseks äriprotsessi.
 
 ## <a name="limitations"></a>Kitsendused
 
@@ -49,7 +49,7 @@ Järgmised ER-vormingute sätted ei ole hetkel andmeallikate silumiseks kättesa
 
 ## <a name="prerequisites"></a>Eeltingimused
 
-- Selles teemas toodud näidete läbimiseks peab teil olema juurdepääs ühele järgmistest [rollidest](../sysadmin/tasks/assign-users-security-roles.md).
+- Selle artikli näidete lõpuleviimiseks peab teil olema juurdepääs ühele järgmistest [rollidest](../sysadmin/tasks/assign-users-security-roles.md):
 
     - Elektroonilise aruandluse arendaja
     - Elektroonilise aruandluse funktsionaalne konsultant
@@ -57,12 +57,12 @@ Järgmised ER-vormingute sätted ei ole hetkel andmeallikate silumiseks kättesa
 
 - Ettevõtte sätteks peab olema seatud **DEMF**.
 
-- Järgige käesoleva teema [1. lisas](#appendix1) toodud etappe, et laadida alla Microsofti ER-lahenduse komponendid, mis on vajalikud hankija maksete töötlemiseks.
-- Järgige käesoleva teema [2. lisas](#appendix2) toodud etappe, et valmistada allalaaditavat ER-lahendust kasutades ostureskontro hankija maksete töötlemiseks ette.
+- Järgige selle artikli [lisa 1](#appendix1) samme hankija maksete töötlemiseks vajalike Microsoft ER-i lahenduse komponentide allalaadimiseks.
+- Järgige selle artikli [lisa 2](#appendix2) samme, et valmistada ostureskontro hankija makse töötlemiseks ette, kasutades allalaaditud ER-lahendust.
 
 ## <a name="process-a-vendor-payment-to-get-a-payment-file"></a>Maksefaili saamiseks hankija makse töötlemine
 
-1. Järgige käesoleva teema [3. lisas](#appendix3) toodud etappe, et töödelda hankija makseid.
+1. Hankijamaksete töötlemiseks [järgige selle artikli lisa 3](#appendix3) samme.
 
     ![Hankija maksete töötlemine on pooleli.](./media/er-data-debugger-process-payment.png)
 
@@ -89,7 +89,7 @@ Järgmised ER-vormingute sätted ei ole hetkel andmeallikate silumiseks kättesa
 
 ## <a name="process-a-vendor-payment-for-debugging"></a>Hankija makse töötlemine silumiseks
 
-1. Järgige käesoleva teema [3. lisas](#appendix3) toodud etappe, et töödelda hankija makseid.
+1. Hankijamaksete töötlemiseks [järgige selle artikli lisa 3](#appendix3) samme.
 2. Valige teateaknas **Jah**, et kinnitada oma soov katkestada hankija makse töötlemine ja käivitada selle asemel lehel **Andmeallikate silumine** andmeallika silumine.
 
     ![Kinnituse teateaken.](./media/er-data-debugger-start-debugging.png)
@@ -188,7 +188,7 @@ Kui soovite töödeldava hankija makse kohta loodava elektroonilise maksefaili l
 
 ![ER-maksevormingu importimine konfiguratsiooni hoidla lehel.](./media/er-data-debugger-import-from-repo.png)
 
-Lisaks valitud ER-vormingule tuleb ER-lahenduse **ISO20022 kreeditülekanne** raames automaatselt Microsoft Dynamics 365 Finance'i eksemplari importida ka järgmised [konfiguratsioonid](general-electronic-reporting.md#Configuration).
+Lisaks valitud ER-vormingule [tuleb](general-electronic-reporting.md#Configuration)Microsoft Dynamics järgmised konfiguratsioonid automaatselt importida teie 365 Finance'i **eksemplari ISO20022** krediidiülekande ER lahenduse osana.
 
 - **Maksemudeli** ER andmemudeli konfiguratsioon
 - **ISO20022 kreediti ülekande** ER-vormingu konfiguratsioon

@@ -1,6 +1,6 @@
 ---
 title: Konfiguratsioonivõtmed ja andmeüksused
-description: Selles teemas kirjeldatakse konfiguratsioonivõtmete ja andmeüksuste vahelist seost.
+description: See artikkel kirjeldab konfiguratsioonivõtmete ja andmeüksuste vahelist suhet.
 author: peakerbl
 ms.date: 05/10/2019
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: e9cc92563c426136b2543511ad943fd64b335b70
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 8083c8c053197f685985f340281c43f30053d2a5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065735"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885258"
 ---
 # <a name="configuration-keys-and-data-entities"></a>Konfiguratsioonivõtmed ja andmeüksused
 

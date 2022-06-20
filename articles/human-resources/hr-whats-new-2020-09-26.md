@@ -1,6 +1,6 @@
 ---
 title: Mis on Dynamics 365 Human Resourcesis uut või mida on muudetud (26. september 2020)
-description: Selles teemas kirjeldatakse Microsoft Dynamics 365 Human Resourcesi 26. septembri 2020 uusi või muutunud funktsioone.
+description: See artikkel kirjeldab funktsioone, mis on Dynamics 365 Human Resources microsoftis uued või muutunud 26. septembriks 2020.
 author: jcart1106
 ms.date: 09/26/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8b0260c4d1bafe271a08336ceed7dc3742f1d590
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 1b7a89ae8a2132c8548d9451aa235d1bccb88809
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061380"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874242"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-26-2020"></a>Mis on Dynamics 365 Human Resourcesis uut või mida on muudetud (26. september 2020)
 
@@ -27,7 +27,7 @@ ms.locfileid: "8061380"
 
 
 
-Selles teemas kirjeldatakse Dynamics 365 Human Resourcesi uusi, muutunud või peatselt tulevaid funktsioone. Meie värskendamisprotsessi ja graafiku kohta lisateabe saamiseks vt teemat [Värskendamisprotsess](hr-admin-setup-update-process.md).
+See artikkel kirjeldab funktsioone, mis on uued, muutunud või tulevad varsti Dynamics 365 Human Resources. Meie värskendamisprotsessi ja graafiku kohta lisateabe saamiseks vt teemat [Värskendamisprotsess](hr-admin-setup-update-process.md).
 
 Lisateavet uute funktsioonide ja nende eeldatava üldise kättesaadavuse kuupäevade kohta leiate teemast [Dynamics 365 Human Resourcesi 2020. aasta 2. väljalaskevoo ülevaade](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/).
 
@@ -39,16 +39,16 @@ See väljaanne sisaldab järgmisi uusi funktsioone ja veaparandusi. Muudatused r
 
 Selle väljalaskega tuleb üldiselt kättesaadavaks järgmine funktsioon.
 
-- **Platvormi värskendus 10.0.13 on nüüd saadaval**: lisateavet värskenduse kohta leiate [teemast Finance and Operationsi rakenduste versiooni 10.0.13 platvormi värskendused (oktoober 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-13.md).
+- **Platvormi värskendus 10.0.13** on [nüüd saadaval: uuenduste kohta leiate lisateavet rakenduse Finance and Operations rakenduste versioonist 10.0.13 platvormi värskendustest (oktoober 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-13.md).
 
 ### <a name="bug-fixes"></a>Veaparandused
 
 See väljalase hõlmab järgmisi veaparandusi.
 
 > [!NOTE]
-> Meie eesmärk on edastada teile see teave esimesel võimalusel. Seda teemat võidakse värskendada, et lisada sellesse versioonijärku pärast selle teema esialgset avaldamist tehtud veaparandusi.
+> Meie eesmärk on edastada teile see teave esimesel võimalusel. Võib olla värskendusi sellele artiklile, et kaasata parandused, mis muutsid selle pärast selle artikli algset avaldamist järguks.
 
-| Väljaande number | Väljasta | Kirjeldus |
+| Väljaande number | Probleem | Kirjeldus |
 | --- | --- | --- |
 | 469495 | Finantsdimensioonide vaikeruudustiku ja dialoogiboksi värskendamine | Finantsdimensioonide vaikeruudustik ja dialoogiboks on värskendatud Human Resourcesis. |
 | 474887 | Puhkusetaotluse tööüksus avab vale lingi käsitsi otsuses | Kui töövoo konfiguratsioon sisaldab käsitsi otsust, avaneb puhkusetaotluse vormile **Mulle määratud tööüksused** navigeerimisel vale link, mis kuvab tühja vormi või praeguse kasutaja loodud puhkusetaotlust, mitte seda, mis määrati talle käsitsi ostusega. |

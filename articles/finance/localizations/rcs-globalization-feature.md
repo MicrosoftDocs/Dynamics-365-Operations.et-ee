@@ -1,6 +1,6 @@
 ---
 title: Regulatory Configuration Services (RCS) – globaliseerimise funktsioonid
-description: Selles teemas selgitatakse, kuidas kasutada rakendust Microsoft Regulatory Configuration Services (RCS) ja globaalset hoidlat globaliseerimise funktsioonide loomiseks ja kasutamiseks.
+description: See artikkel selgitab, kuidas kasutada Microsoft Regulatory Configuration Services (RCS) ja globaalset hoidlat globaliseerimisfunktsiooni loomiseks ja kasutamiseks.
 author: JaneA07
 ms.date: 06/04/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: AX 10.0.11
-ms.openlocfilehash: e8df8a56d493e58f28699a87dd9dab1f87540a4ee327450384f89e6d426ba1a7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cf08f25f7d092e0f93284a4019096378543adb9d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760627"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888890"
 ---
 # <a name="regulatory-configuration-services-rcs---globalization-features"></a>Regulatory Configuration Services (RCS) – globaliseerimise funktsioonid
 
@@ -40,7 +40,7 @@ Enne protseduuride lõpule viimist peate lõpule viima järgmiste toimingutega s
 - Juurdepääs RCS-i eksemplarile.
 - Konfiguratsioonipakkuja loomine ja aktiveerimine. Lisateabe saamiseks vaadake teemat [Konfiguratsioonipakkujate loomine ja nende aktiivseks märkimine](../../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
-Toimige Finance and Operations-i rakenduste eksemplaris järgmiselt.
+Järgige oma finantside ja toimingute rakenduste eksemplaris neid samme.
 
 1. Avage **Organisatsiooni haldamine** \> **Tööruumid** \> **Elektrooniline aruandlus**.
 2. Kui teie ettevõtte jaoks pole RCS-i keskkonda ette valmistatud, valige **Regulatory services – konfiguratsioon** ja seejärel järgige juhised selle ettevalmistamiseks.
@@ -64,7 +64,7 @@ Globaliseerimise funktsioonide kasutamiseks peate selle esmalt importima globaal
 
 ## <a name="access-globalization-features"></a>Juurdepääs globaliseerimise funktsioonidele
 
-1. Veenduge, et funktsioon **Globaliseerimise funktsioonid** on funktsioonihalduses sisse lülitatud, nagu varasemalt käesolevas teemas kirjeldatud.
+1. Veenduge, et **globaliseerimisfunktsiooni** funktsioon on funktsioonihalduses sisse lülitatud, nagu selles artiklis varem kirjeldatud.
 2. Avage uus tööruum **Globaliseerimise funktsioonid** ja valige seejärel jaotisest **Funktsioonid** paan **E-arved**.
 
     ![Globaalsete funktsioonide tööruum.](./media/RCS_GlobalF_2%20Feature%20wrkspace.JPG)
@@ -161,7 +161,7 @@ Konfiguratsioonide puhul on saadaval järgmised tegevused.
 - **Kuvamine** – saate kuvada aluseks olevaid funktsiooni konfiguratsioone, mis ei vaja uuendamist.
 - **Redigeerimine** – saate valitud konfiguratsioonist mustandiversiooni, et saaksite redigeerida vormingut ja vorminguvastendust vormingukujundajas.
 - **Kustutamine** – saate kustutada funktsioonist valitud konfiguratsiooni.
-- **Aluse muutmine** – saate muuta funktsiooni alust. Lisateabe saamiseks vaadake allpool käesoleva teema jaotises [Tuletatud globaliseerimise funktsioonide aluse muutmine](#rebase).
+- **Aluse muutmine** – saate muuta funktsiooni alust. Lisateavet vt selle artikli jaotisest [Rebase'i tuletatud globaliseerimisfunktsioonid](#rebase).
 
 ### <a name="setups"></a>Seadistused
 
@@ -182,7 +182,7 @@ Funktsioonide seadistuste puhul on saadaval järgmised tegevused.
 
 Keskkondade puhul on saadaval järgmised tegevused.
 
-- **Lubamine** – valige valitud funktsiooniversiooni jaoks avaldatud keskkond ja valige **Kehtiv alates** kuupäev, millest alates see peaks olema kättesaadav. Lisateabe saamiseks vaadake allpool käesoleva teema jaotises [Lubamise jaoks keskkondade konfigureerimine](#configureenvironment).
+- **Lubamine** – valige valitud funktsiooniversiooni jaoks avaldatud keskkond ja valige **Kehtiv alates** kuupäev, millest alates see peaks olema kättesaadav. Lisateavet vt jaotisest Keskkonna [konfigureerimine lubamiseks (selles](#configureenvironment) artiklis).
 - **Tühistamine** – saate eemaldada funktsiooni seadistuse keskkonna.
 
 ### <a name="organizations"></a>Organisatsioonid
@@ -195,7 +195,7 @@ Globaliseerimise funktsiooni välisele organisatsioonile ühiskasutuseks andmise
 
     ![Funktsiooni organisatsiooni jaoks ühiskasutusse andmine.](./media/RCS_GlobalF_20%20Feature%20orgn_share%20with.JPG)
 
-Funktsioon on antud ühiskasutusse valitud organisatsiooniga ja on selle organisatsiooni jaoks globaalses hoidlas kättesaadav. Sealt saab funktsiooni importida kasutamiseks organisatsiooni RCS-i või Dynamics 365 Finance'i eksemplari.
+Funktsioon on antud ühiskasutusse valitud organisatsiooniga ja on selle organisatsiooni jaoks globaalses hoidlas kättesaadav. Selle kaudu saab funktsiooni importida organisatsiooni RCS-i või Dynamics 365 Finance eksemplari nii, et seda saab kasutada.
 
 ## <a name="rebase-derived-globalization-features"></a><a name="rebase"></a>Tuletatud globaliseerimise funktsioonide aluse muutmine
 

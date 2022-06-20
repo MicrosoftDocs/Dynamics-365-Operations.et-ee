@@ -1,6 +1,6 @@
 ---
 title: Varamõõdikud
-description: Teemas selgitatakse varamõõdikute tüüpe rakenduses Asset Management.
+description: Artikkel selgitab, kuidas vara mõõtutüüpe Varahalduses luua.
 author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: fc515615afaa172e1832508d79e202b166f134a9171a0a35ea4f372f9d19b7e2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1bcef89265697c1898b7d61a0b0ae6331ce1c851
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723571"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909668"
 ---
 # <a name="counters"></a>Kassad
 
 [!include [banner](../../includes/banner.md)]
 
-Teemas selgitatakse loenduritüüpe rakenduses Asset Management. Loenduritüüpe kasutatakse loendurite registreerimiseks (nt tootmistundide arv, varas toodetud kogus). Varatüübid on seotud loenduritüüpidega. See tähendab, et loendurit saab kasutada vara puhul, kui loendur on seadistatud varas kasutatud varatüübile.
+Artikkel selgitab, kuidas luua varahalduses loenduritüüpe. Loenduritüüpe kasutatakse loendurite registreerimiseks (nt tootmistundide arv, varas toodetud kogus). Varatüübid on seotud loenduritüüpidega. See tähendab, et loendurit saab kasutada vara puhul, kui loendur on seadistatud varas kasutatud varatüübile.
 
 Enne loendurite registreerimist peate esmalt looma kasutatavad loenduritüübid üksuses **Loendurid**. Järgmisena saate luua loendurite registreerimised üksuses **Loendurid**. 
 

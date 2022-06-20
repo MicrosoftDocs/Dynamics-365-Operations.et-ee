@@ -1,6 +1,6 @@
 ---
-title: Kinnipeetava maksu seadistamine
-description: Selles teemas selgitatakse, kuidas seadistada kinnipeetavat maksu.
+title: Kinnipeetava maksu häälestus
+description: See artikkel selgitab, kuidas kinnipeetavat maksu seadistada.
 author: twheeloc
 ms.date: 07/11/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c3c4992c7ab02793db3650df5624143d0ec090d0
-ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
+ms.openlocfilehash: 0cc080df587904568796a9d6794987326be3ad26
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8565580"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907940"
 ---
-# <a name="set-up-withholding-tax"></a>Kinnipeetava maksu seadistamine
+# <a name="set-up-withholding-tax"></a>Kinnipeetava maksu häälestus
 
 [!include [banner](../../includes/banner.md)]
 
-Selles teemas selgitatakse, kuidas seadistada kinnipeetavat maksu. *Kinnipeetav maks* on käibemaksu mitte loovate hankijate maks. Hankija maksetelt arvutatav kinnipeetav maks on kohustus. Seetõttu on kinnipeetava maksu sisestamisel kehtivad kontod ainult bilansikontod või kohustuste kontod. See ülesande juhend näitab, kuidas kinnipeetavat maksu seadistada.
+See artikkel selgitab, kuidas kinnipeetavat maksu seadistada. *Kinnipeetav maks* on käibemaksu mitte loovate hankijate maks. Hankija maksetelt arvutatav kinnipeetav maks on kohustus. Seetõttu on kinnipeetava maksu sisestamisel kehtivad kontod ainult bilansikontod või kohustuste kontod. See ülesande juhend näitab, kuidas kinnipeetavat maksu seadistada.
 
 1. Avage **Navigeerimispaan > Moodulid > Maks > Kaudsed maksud > Kinnipeetav maks > Kinnipeetava maksu koodid**.
 2. Valige suvand **Uus**.

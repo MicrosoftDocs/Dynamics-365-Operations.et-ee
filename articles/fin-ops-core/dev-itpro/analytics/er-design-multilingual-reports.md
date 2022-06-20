@@ -1,8 +1,8 @@
 ---
 title: Mitmekeelsete aruannete kujundamine elektroonilises aruandluses
-description: Selles teemas selgitatakse, kuidas saate kasutada elektroonilise aruandluse (ER) silte mitmekeelsete aruannete kujundamiseks ja loomiseks.
+description: See artikkel selgitab, kuidas saate kasutada elektroonilise aruandluse (ER) silte mitmekeelsete aruannete loomiseks.
 author: NickSelin
-ms.date: 04/28/2022
+ms.date: 05/31/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aa8297d4f5c56a7a20561b1a90c5852e65dbff31
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: c042d609d68544aa4be5d707109a15b2ab8d422c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811603"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845740"
 ---
 # <a name="design-multilingual-reports-in-electronic-reporting"></a>Mitmekeelsete aruannete kujundamine elektroonilises aruandluses
 
@@ -142,6 +142,9 @@ Kui konfigureerite ER-i vormingu sel viisil, luuakse aruanne ER-i siltidest võe
 
 Kui viidatud sildil ei ole vormingu käivitamise konteksti keele jaoks tõlget, kasutatakse selle asemel sildi teksti keeles EN-US.
 
+> [!TIP]
+> Väljamineva faili loomist **saate** kasutada **faili komponentide kausta** ja eristatavaid tüüpe redigeeritavas ER-vormingus. Loodud failile nime loomiseks konfigureerige komponendi failinime parameetrile [ER-avaldis.](er-formula-language.md)**·** Silte saate kasutada konfigureeritud avaldises. Kuna faili **nime** parameeter on vaikimisi keelest prognoosiv, kuvatakse kõikide selles avaldises viidatavate siltide tekst käitusajal EN-US vaikekeeles. Versioonis 10.0.28 **ja uuemates versioonides saate siiski lubada parameetri Keele-eelistuse rakendada avaldise "Faili nimi" funktsioonile**. Failinime **avaldis** võtab seejärel **arvutamisel** arvesse keele-eelistuste parameetrit.
+
 ## <a name="language"></a>Keel
 
 ER toetab eri viise, kuidas määrata loodud aruande keel. Saate valida vahekaardi **Vorming** väljal **Keele-eelistused** järgmiste väärtuste vahel.
@@ -198,7 +201,7 @@ ER-i komponente konfigureeritakse sellise ER-i konfiguratsiooni mustandiversioon
 
 ![ER-i konfiguratsioonide leht, mis annab juurdepääsu mustandi olekus konfiguratsiooni versioonile.](./media/er-multilingual-labels-configurations.png)
 
-Nagu selles teemas eespool kirjeldatud, saate lisada muudetavale ER-i komponendile vajalikud ER-i sildid. Sel viisil saate täpsustada ER-i siltide teksti keeles EN-US. Seejärel saate eksportida ER-i komponendi sildid sisseehitatud ER-i funktsiooni abil. Valige muudetavat ER-i komponenti sisaldava ER-i konfiguratsiooni mustandiversioon ja valige seejärel **Vahetus \> Ekspordi sildid**.
+Nagu selles artiklis varem kirjeldatud, saate lisada nõutavad ER-sildid redigeeritavale ER-komponendile. Sel viisil saate täpsustada ER-i siltide teksti keeles EN-US. Seejärel saate eksportida ER-i komponendi sildid sisseehitatud ER-i funktsiooni abil. Valige muudetavat ER-i komponenti sisaldava ER-i konfiguratsiooni mustandiversioon ja valige seejärel **Vahetus \> Ekspordi sildid**.
 
 ![ER-i konfiguratsioonide leht, mis võimaldab eksportida ER-i silte valitud konfiguratsiooni versioonist.](./media/er-multilingual-labels-export.png)
 
@@ -229,7 +232,7 @@ ER-i versioonimine kontrollib sildi määramist ER-komponendi mis tahes atribuud
 
 Sisseehitatud ER-i funktsioonil [LISTOFFIELDS](er-functions-list-listoffields.md) on juurdepääs ER-i siltidele, mis on konfigureeritud mõne ER-i komponendi jaoks.
 
-Nagu selles teemas eespool kirjeldatud, saab asjakohases ER-i komponendis kättesaadava ER-i sildiga siduda iga [mudeli](#LinkModelEnum) või [vormingu](#LinkFormatEnum) ER-i loendamisväärtuse atribuute **Silt** ja **Kirjeldus**. Saate konfigureerida ER-i avaldise, milles kutsute ER-i loendamist argumendina kasutades välja funktsiooni **LISTOFFIELDS**. Avaldis tagastab loendi, mis sisaldab kirjet selle funktsiooni argumendina määratletud ER-i loendi iga väärtuse kohta. Iga kirje sisaldab ER-i loendamisväärtusega seotud ER-i sildi väärtust.
+Nagu selles artiklis varem kirjeldatud, **·** **saab** iga mudeli või vormingu ER-loetelu väärtuse sildi ja kirjelduse atribuudid linkida vastavas ER-komponendis [...](#LinkModelEnum)[juurdepääsetava](#LinkFormatEnum) ER-sildiga. Saate konfigureerida ER-i avaldise, milles kutsute ER-i loendamist argumendina kasutades välja funktsiooni **LISTOFFIELDS**. Avaldis tagastab loendi, mis sisaldab kirjet selle funktsiooni argumendina määratletud ER-i loendi iga väärtuse kohta. Iga kirje sisaldab ER-i loendamisväärtusega seotud ER-i sildi väärtust.
 
 - Atribuudiga **Silt** seotud ER-i sildi väärtus salvestatakse tagastatud kirje väljale **Silt**.
 - Atribuudiga **Kirjeldus** seotud ER-i sildi väärtus salvestatakse tagastatud kirje väljale **Kirjeldus**.

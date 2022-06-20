@@ -1,6 +1,6 @@
 ---
 title: Elektrooniline aruandlus. Vormingu konfiguratsiooni loomine (november 2016)
-description: Selles teemas selgitatakse, kuidas luua elektroonilise aruandluse (ER) vormingu konfiguratsiooni.
+description: See artikkel selgitab, kuidas luua elektroonilise aruandluse (ER) jaoks vormingukonfiguratsiooni.
 author: NickSelin
 ms.date: 08/02/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5d59f0f7c914cc6d59ae441e6f6b8ff249a3e9c03c6ee4b4a75421d875f826a0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2617f33293c38b7f1aaa61fda7d8de06711c6727
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728209"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902650"
 ---
 # <a name="er-create-a-format-configuration-november-2016"></a>Elektrooniline aruandlus. Vormingu konfiguratsiooni loomine (november 2016)
 
 [!include [banner](../../includes/banner.md)]
 
-Selles teemas kirjeldatakse, kuidas rollis „Süsteemi administraator“ või „Elektroonilise aruandluse arendaja“ olev kasutaja saab luua elektroonilise aruandluse (ER) vormingu seadistuse. See vormingu konfiguratsioon määrab elektrooniliste dokumentide vormingu, mida maksete töötlemisel kasutatakse. Selles näites loote vormingu konfiguratsiooni näidisettevõtte Litware, Inc. jaoks. Nende etappide lõpuleviimiseks peate kõigepealt läbima etapid protseduuris „Andmemudeli vastendamine valitud andmeallikatega”.
+See artikkel selgitab, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rolli kasutaja saab luua elektroonilise aruandluse (ER) jaoks vormingukonfiguratsiooni. See vormingu konfiguratsioon määrab elektrooniliste dokumentide vormingu, mida maksete töötlemisel kasutatakse. Selles näites loote vormingu konfiguratsiooni näidisettevõtte Litware, Inc. jaoks. Nende etappide lõpuleviimiseks peate kõigepealt läbima etapid protseduuris „Andmemudeli vastendamine valitud andmeallikatega”.
 
 
 ## <a name="create-a-new-format-configuration"></a>Uue vormingu konfiguratsiooni loomine

@@ -1,6 +1,6 @@
 ---
 title: Tööta funktsiooniseadistustega
-description: See teema kirjeldab, kuidas seadistada elektroonilise arveldamise funktsioone.
+description: See artikkel selgitab, kuidas seadistada elektroonilise arveldamise funktsioone.
 author: dkalyuzh
 ms.date: 12/15/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dkalyuzh
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 41ffc9c7009291a55392e50c5e490d3288d122bc
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: 23466a53bb8ba597503aaa12d41395fc82b9f14e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371866"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904321"
 ---
 # <a name="work-with-feature-setups"></a>Tööta funktsiooniseadistustega
 
@@ -46,7 +46,7 @@ Saate luua nii palju funktsiooni seadistusüksusi, kui vajate erinevate stsenaar
 6. Kui valisite **viimases** sammus valiku Kohandatud seadistus, **sisestage funktsiooni seadistuskauba nimi ja kirjeldus ning seejärel valige jaotises Seadistuse** tüüp üks järgmistest suvanditest:
 
     - **Müügivõimaluste töötlemine** – valige see suvand väljaminevate elektrooniliste dokumentide loomiseks ja töötlemiseks. Selle häälestustüübi puhul loob süsteem tühja töötlusvõimaluste loendi, kohaldatavusreeglite tühja jaotise ja vaikemuutujate komplekti. Te ei saa töötada sissetulevate elektrooniliste dokumentide kanalitega.
-    - **Andmekanal** : valige see suvand, et seadistada sissetulevate elektrooniliste dokumentide vastuvõtmise protsess ühest määratud kanalist ja nende otse Microsoftile Dynamics 365 Finance Dynamics 365 Supply Chain Management või ilma lisatoiminguteta. Selle seadistustüübi puhul loob süsteem andmekanalite jaoks eelmääratletud parameetrite loendi, kohaldatavusreeglite tühja jaotise ja vaikemuutujate komplekti. Müügivõimaluste töötlemisega ei saa rohkem tegevusi lisada.
+    - **Andmekanal** : Microsoft Dynamics valige see suvand, et seadistada sissetulevate elektrooniliste dokumentide vastuvõtmise protsess ühest määratud kanalist ja need otse 365 Finance'sse Dynamics 365 Supply Chain Management või ilma lisatoiminguteta. Selle seadistustüübi puhul loob süsteem andmekanalite jaoks eelmääratletud parameetrite loendi, kohaldatavusreeglite tühja jaotise ja vaikemuutujate komplekti. Müügivõimaluste töötlemisega ei saa rohkem tegevusi lisada.
     - **Andmekanali ja konveieri** töötlemine – see seadistustüüp sarnaneb andmekanali **häälestuse** tüübiga. Kuid enne sissetuleva elektroonilise dokumendi saatmist finants- või tarneahela haldusse saate seadistada töötlemisliinis lisategevuse.
 
 7. Kui valisite viimases **sammus** **suvandi Andmekanal või Andmekanal ja Müügivõimaluste töötlemine,** **peate valima väljal Andmekanali valimine kanali, et see integreerida.**

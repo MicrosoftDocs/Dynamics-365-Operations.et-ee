@@ -1,6 +1,6 @@
 ---
-title: Mobiilne tööruum Minu töörühm
-description: Selles teemas on teave mobiilse tööruumi Minu töörühm kohta, kus juhtidel on võimalus oma otseseid alluvaid ja laiendatud personali vaadata.
+title: Minu töörühma mobiilne tööruum
+description: See artikkel annab teavet minu meeskonna mobiilse tööruumi kohta, mille kaudu saavad haldurid vaadata oma otsearuandeid ja laiendatud personali.
 author: ShielaSogge
 ms.date: 05/24/2022
 ms.topic: article
@@ -12,19 +12,19 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 7793bd6bb1c2dfb5f6840430914393e837242fb5
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: f15ac24e5c32a42863cac8a9c9754c95aa4ff734
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811053"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868694"
 ---
 # <a name="my-team-mobile-workspace"></a>Minu töörühma mobiilne tööruum
 
 [!include [banner](../includes/banner.md)]
 [!include [mobile app deprecation](../includes/mobile-app-deprecation-banner.md)]
 
-Teema annab teavet **minu töörühma** mobiilse tööruumi kohta. See tööruum võimaldab juhtidel vaadata oma otseseid alluvaid ja laiendatud personali. Nad saavad ka oma aruandlusahela inimestele tänu saata.
+See artikkel annab teavet minu töörühma **mobiilse tööruumi** kohta. See tööruum võimaldab juhtidel vaadata oma otseseid alluvaid ja laiendatud personali. Nad saavad ka oma aruandlusahela inimestele tänu saata.
 
 See mobiilne tööruum on mõeldud kasutamiseks mobiilirakendusega Finance and Operations.
 

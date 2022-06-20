@@ -1,6 +1,6 @@
 ---
 title: Moodulitega töötamine
-description: Selles teemas kirjeldatakse, kuidas ja millal kasutada mooduleid rakenduses Microsoft Dynamics 365 Commerce.
+description: See artikkel kirjeldab, kuidas ja millal mooduliid kasutada Microsoft Dynamics 365 Commerce.
 author: phinneyridge
 ms.date: 09/15/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: ce16aa98a37cd5dec60bcdbf86f59f74810da9755a6d3514bdd3e38a21afb748
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c393f1e619647795a5ae8da3a78500c1678da9f6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728260"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860188"
 ---
 # <a name="work-with-modules"></a>Moodulitega töötamine
 
 [!include [banner](includes/banner.md)]
 
-Selles teemas kirjeldatakse, kuidas ja millal kasutada mooduleid rakenduses Microsoft Dynamics 365 Commerce.
+See artikkel kirjeldab, kuidas ja millal mooduliid kasutada Microsoft Dynamics 365 Commerce.
 
 Moodulid on loogilised koosteüksused, mis moodustavad teie lehe struktuuri, neil on mitmesuguseid eesmärke ja ulatusi. Mõni moodul on kõrgetasemeline konteiner ning nende ainus eesmärk on hoida ja korraldada teisi mooduleid (alammooduleid). Teistel moodulitel, näiteks lihtsal pildipaigutusmoodulil, on väga konkreetne eesmärk. Teised moodulid, nt karussellmoodul, jäävad kusagile nende kahe kategooria vahele.
 
@@ -151,7 +151,7 @@ Konteineri mooduli konfigureerimiseks lehel tehke järgmist.
 
 1. Valige lehel konteineri moodul (nt karussell- või sujuva konteineri moodul).
 1. Laiendage paremal atribuutide paanil pesastatud juhtelemente, valides päised, ja määrake juhtelementidele vajalikud väärtused.
-1. Vasakult liigenduspaanilt valige konteineri või konteineri sees oleva pesa nime kõrvalt kolmikpunkti nupp ja seejärel valige käsk **Lisa moodul**. Seejärel lisage alammoodulid valitud konteinerile. Lisateavet vaadake jaotisest [Moodulitega töötamine](#add-a-module) selles teemas üleval.
+1. Vasakult liigenduspaanilt valige konteineri või konteineri sees oleva pesa nime kõrvalt kolmikpunkti nupp ja seejärel valige käsk **Lisa moodul**. Seejärel lisage alammoodulid valitud konteinerile. Lisateavet vt selle artikli jaotisest [Tööta](#add-a-module) moodulitega.
 1. Kui ülemmoodulis on mitu õdeüksusena eksisteerivat alammoodulit, saate muuta nende kuvamisjärjekorda ülemkonteineris. Valige mooduli kolmikpunkti nupp ja seejärel kasutage üles- ja allanoole nuppe.
 
 ## <a name="additional-resources"></a>Lisaressursid

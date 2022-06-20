@@ -1,6 +1,6 @@
 ---
 title: Teenuseobjektide ülevaade
-description: Selles teemas antakse ülevaade sellest, kuidas teenuseobjektidega töötada.
+description: See artikkel annab ülevaate, kuidas teenuseobjektidega töötada.
 author: sorenva
 ms.date: 07/25/2019
 ms.topic: overview
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3cef4cf1222c4c66991069da72e3e6f5a7040153
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 8150a94677fe38f4caa6f3e0b5fb5d1be5972eaf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677670"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862407"
 ---
 # <a name="service-objects-overview"></a>Teenuseobjektide ülevaade
 
@@ -39,9 +39,9 @@ Teenuse objektid on kliendi varad ja tooted, millega seoses saab hooldust osutad
 
 Ettevõte A haldab mitme väikeettevõtte finantsandmeid. Üks ettevõtte A klient on kohalik jalgpallimeeskond, millele ettevõte A osutab iganädalast raamatupidamise teenust ja viib kord aastas läbi klubi kontode auditi. Klubi kontod on seadistatud vormil Hooldusobjektid ja määratletud hooldusleppe objektina. Objektil on kaks hooldusleppe rida. 1. rida on nädalase intervalliga iganädalane raamatupidamine ja 2. rida on iga-aastane audit, millele on määratud aastane intervall.
 
-## <a name="related-topics"></a>Seotud teemad
+## <a name="related-articles"></a>Seotud artiklid
 
-[Hooldusobjektide loomine](create-service-objects.md)
+[Teenuseobjektide loomine](create-service-objects.md)
 
 
 

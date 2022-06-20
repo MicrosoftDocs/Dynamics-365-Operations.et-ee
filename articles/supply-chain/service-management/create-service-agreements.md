@@ -1,6 +1,6 @@
 ---
 title: Hoolduslepete loomine
-description: See teema kirjeldab, kuidas kasutada funktsioone moodulites Hooldushaldus ning Projektihaldus ja raamatupidamine hoolduslepete loomiseks.
+description: See artikkel kirjeldab, kuidas kasutada teenusehalduse funktsioone ning projektihaldust ja raamatupidamismooduleid teenuseleppe loomiseks.
 author: sorenva
 ms.date: 02/19/2018
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0a8a139d1a11cca036ace2540cba59bf2cace0db
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: d18d279cd437e98cad6495def953978cb78e723e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677250"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901759"
 ---
 # <a name="create-service-agreements"></a>Hoolduslepete loomine
 
 [!include [banner](../includes/banner.md)]
 
-See teema kirjeldab, kuidas kasutada funktsioone moodulites Hooldushaldus ning Projektihaldus ja raamatupidamine hoolduslepete loomiseks.
+See artikkel kirjeldab, kuidas kasutada teenusehalduse funktsioone ning projektihaldust ja raamatupidamismooduleid teenuseleppe loomiseks.
 
 ## <a name="create-a-service-agreement-from-service-management"></a>Hooldusleppe loomine hooldushaldusest
 
@@ -51,10 +51,10 @@ See teema kirjeldab, kuidas kasutada funktsioone moodulites Hooldushaldus ning P
 2. Valige **Kõik projektid**.
 3. Valige loendist soovitud projekt.
 4. Valige **toimingupaanil** **Haldus**. Valige tegevusgrupis **Uus** üksus **Hooldus** ja seejärel **Hoolduslepe**.
-5. Projekti viite sisestamiseks järgige jaotises **Hooldusleppe loomine** kirjeldatud protsessi.
+5. Projektiviite sisestamiseks järgige **jaotise** "Teenuselepingu loomine" etappe, nagu kirjeldatud selles artiklis.
 
 
-## <a name="related-topics"></a>Seotud dokumendid
+## <a name="related-articles"></a>Seotud artiklid
 
 [Hoolduslepete arendamise ja loomise ülevaade](service-agreements.md)
 

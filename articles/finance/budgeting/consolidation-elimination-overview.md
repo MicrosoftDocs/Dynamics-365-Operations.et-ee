@@ -1,6 +1,6 @@
 ---
 title: Konsolideerimise ja eemaldamise ülevaade
-description: See teema annab üldist teavet konsolideerimise ja eemaldamisprotsessi kohta. See sisaldab vastuseid korduma kippuvatele küsimustele.
+description: Selles artiklis anatkse üldist teavet konsolideerimis- ja eemaldamisprotsessi kohta. See sisaldab vastuseid korduma kippuvatele küsimustele.
 author: panolte
 ms.date: 01/11/2018
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 670b238580ecf800686324fe664be747c551090d
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: cd7647df49883f0e3b6cbb2d21b19ca2acb2f065
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710694"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871387"
 ---
 # <a name="consolidation-and-elimination-overview"></a>Konsolideerimise ja eemaldamise ülevaade
 
 [!include [banner](../includes/banner.md)]
 
-See teema annab üldist teavet konsolideerimise ja eemaldamisprotsessi kohta. See sisaldab vastuseid korduma kippuvatele küsimustele.
+Selles artiklis anatkse üldist teavet konsolideerimis- ja eemaldamisprotsessi kohta. See sisaldab vastuseid korduma kippuvatele küsimustele.
 
 Andmete konsolideerimisel kombineeritakse mitme tütarettevõtte finantstulemused ühe konsolideeritud ettevõtte tulemusteks. Tütarettevõtted võivad olla eri versioonides või süsteemides, need ei pruugi olla ainuomanduses ja need võivad kasutada eri valuutasid. Andmete konsolideerimiseks on mitu võimalust.
 

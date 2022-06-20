@@ -1,6 +1,6 @@
 ---
 title: ER-vormingu korrigeerimine kohandatud elektroonilise dokumendi loomiseks
-description: Selles teemas selgitatakse, kuidas korrigeerida Microsofti elektroonilise aruandluse (ER) vormingut nii, et see looks kohandatud elektroonilise dokumendi.
+description: See artikkel selgitab, kuidas kohandada Microsofti esitatud elektroonilise aruandluse (ER) vormingut nii, et see loob kohandatud elektroonilise dokumendi.
 author: NickSelin
 ms.date: 06/22/2020
 ms.topic: article
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 14976aab474b6571c2a25907f04fd4d7ae053e74
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 492964d3cea0e474a50d6d83231f33d9508b9d9d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323813"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886787"
 ---
 # <a name="adjust-an-er-format-to-generate-a-custom-electronic-document"></a>ER-vormingu korrigeerimine kohandatud elektroonilise dokumendi loomiseks
 
 [!include[banner](../includes/banner.md)]
 
-Selle teema protseduurid selgitavad, kuidas süsteemiadministraatori või elektroonilise aruandluse funktsionaalse konsultanti rolli kasutajad saavad neid ülesandeid täita.
+Selle artikli protseduurid selgitavad, kuidas süsteemiadministraatori või elektroonilise aruandluse funktsiooninõustaja rolliga kasutaja saab neid ülesandeid täita:
 
 - Parameetrite konfigureerimine [Elektroonilise aruandluse (ER) raamistiku jaoks](general-electronic-reporting.md).
 - Importige ER-konfiguratsioonid, mida pakub Microsoft ja kasutatakse maksefaili loomiseks [hankija makse](../../../finance/cash-bank-management/tasks/vendor-payment-overview.md) töötlemise ajal.
@@ -135,7 +135,7 @@ Lisateabe saamiseks ER-konfiguratsiooni pakkujate kohta vaadake teemat [Konfigur
 
 ### <a name="import-the-standard-er-configurations"></a><a id="ImportERFormat1"></a>Standardse ER-konfiguratsiooni importimine
 
-Oma praegusesse Microsoft Dynamics 365 Finance'i eksemplari standardsete ER-konfiguratsioonide lisamiseks peate importima need selle eksemplari jaoks konfigureeritud ER-[hoidlast](general-electronic-reporting.md#Repository).
+Standardsete ER-i Microsoft Dynamics konfiguratsioonide lisamiseks praegusesse 365 Finantside eksemplari, peate need importima selle eksemplari jaoks konfigureeritud ER-hoidlast [...](general-electronic-reporting.md#Repository).
 
 1. Avage **Organisatsiooni haldamine** \> **Tööruumid** \> **Elektrooniline aruandlus**.
 2. Valige lehe **Lokaliseerimise konfiguratsioonid** jaotises **Konfiguratsioonipakkujad** paan **Microsoft** ja seejärel valige pakkuja Microsoft hoidlate loendi kuvamiseks **Hoidlad**.

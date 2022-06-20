@@ -1,6 +1,6 @@
 ---
-title: Asukohakorralduse seadistamine ostutellimuse kõrvalepaneku jaoks
-description: Selles teemas selgitatakse, kuidas seadistada lihtsat asukohadirektiivi.
+title: Asukohakorralduse häälestus ostutellimuse kõrvalepaneku jaoks
+description: See artikkel selgitab, kuidas seadistada lihtasukoha direktiivi.
 author: Weijiesa
 ms.date: 08/08/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: weijiesa
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2275b2fd70e246955054930b13f29a6c0b287363
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 6d973d1cdb530a031ca8a5caf621f9bebced4842
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674134"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873488"
 ---
-# <a name="set-up-a-location-directive-for-purchase-order-put-away"></a>Asukohakorralduse seadistamine ostutellimuse kõrvalepaneku jaoks
+# <a name="set-up-a-location-directive-for-purchase-order-put-away"></a>Asukohakorralduse häälestus ostutellimuse kõrvalepaneku jaoks
 
 [!include [banner](../../includes/banner.md)]
 
-Selles teemas selgitatakse, kuidas seadistada lihtsat asukohadirektiivi. Toodud näites luuakse asukohakorraldus, mille abil määratletakse, kuhu panna ostutellimuse jaoks vastu võetud kaubad. Saate kasutada selles ülesandejuhendis demoettevõtte USMF andmeid. Eeltingimused: peate looma likvideerimiskoodi. Kasutame selles protseduuris likvideerimiskoodi Ümbersildistamine. Kui loote asukohakorralduse oma andmete põhjal, peate seadistama oma lao ja kaupade jaoks täiendava laohalduse. See protseduur on mõeldud laohaldurile.
+See artikkel selgitab, kuidas seadistada lihtasukoha direktiivi. Toodud näites luuakse asukohakorraldus, mille abil määratletakse, kuhu panna ostutellimuse jaoks vastu võetud kaubad. Saate kasutada selles ülesandejuhendis demoettevõtte USMF andmeid. Eeltingimused: peate looma likvideerimiskoodi. Kasutame selles protseduuris likvideerimiskoodi Ümbersildistamine. Kui loote asukohakorralduse oma andmete põhjal, peate seadistama oma lao ja kaupade jaoks täiendava laohalduse. See protseduur on mõeldud laohaldurile.
 
 1. Avage navigeerimispaanil **Moodulid > Laohaldus > Seadistus > Asukohadirektiivid**.
 2. Valige väljal **Töökäsu tüüp** suvand **Ostutellimused**.

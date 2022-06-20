@@ -1,6 +1,6 @@
 ---
-title: Käibemaksu tasakaalustusperioodide seadistamine
-description: See teema kirjeldab, kuidas seadistada käibemaksu tasakaalustusperioode Dynamics 365 Financeis.
+title: Käibemaksu tasakaalustusperioodide häälestamine
+description: See artikkel selgitab, kuidas seadistada käibemaksu tasakaalustusperioode Dynamics 365 Finances.
 author: twheeloc
 ms.date: 08/05/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 197b85fb88f966b0a13fc061e2e780dd84e74acb
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 3f8514494b5d3534fc236def817df0d58fe80d70
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735810"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846679"
 ---
 # <a name="set-up-sales-tax-settlement-periods"></a>Käibemaksu tasakaalustusperioodide häälestamine
 
 [!include [banner](../../includes/banner.md)]
 
-Selles teemas selgitatakse, kuidas seadistada käibemaksu tasumise perioode. Käibemaksu tasakaalustusperioodid sisaldavad teavet perioodivahemike kohta, mille puhul tuleb esitada ja maksta käibemaksu. Tasakaalustusprotsessi saab käitada konkreetse kuupäevavahemiku tasakaalustusperioodi puhul. Kõik tasakaalustusperioodiga seotud maksukoodid tasakaalustatakse. Seotud käibemaksuhalduri seadistamisest olenevalt sisestatakse maksukohustus kas hankija või pearaamatu kontole.
+See artikkel selgitab, kuidas seadistada käibemaksu tasakaalustusperioode. Käibemaksu tasakaalustusperioodid sisaldavad teavet perioodivahemike kohta, mille puhul tuleb esitada ja maksta käibemaksu. Tasakaalustusprotsessi saab käitada konkreetse kuupäevavahemiku tasakaalustusperioodi puhul. Kõik tasakaalustusperioodiga seotud maksukoodid tasakaalustatakse. Seotud käibemaksuhalduri seadistamisest olenevalt sisestatakse maksukohustus kas hankija või pearaamatu kontole.
 
 See ülesanne kasutab demoettevõtte USMF andmeid.
 

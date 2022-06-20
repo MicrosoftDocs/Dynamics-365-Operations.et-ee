@@ -1,6 +1,6 @@
 ---
 title: ER-vormingute konfigureerimine juriidilise isiku kohta määratud parameetrite kasutamiseks
-description: Selles teemas selgitatakse, kuidas saab konfigureerida elektroonilise aruandluse (ER) vorminguid juriidilise isiku kohta määratud parameetrite kasutamiseks.
+description: See artikkel selgitab, kuidas konfigureerida elektroonilise aruandluse (ER) vorminguid, et kasutada juriidilise isiku kohta määratud parameetreid.
 author: NickSelin
 ms.date: 04/02/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 2bf4d1ecad3e25299df7c87ffa2236736ddcac300a5ded779616b25920745d7e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: eb44422c4cdcc87989cdfb28dcd7d5cfea9002eb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765828"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858824"
 ---
 # <a name="configure-er-formats-to-use-parameters-that-are-specified-per-legal-entity"></a>ER-vormingute konfigureerimine juriidilise isiku kohta määratud parameetrite kasutamiseks
 
@@ -33,17 +33,17 @@ Paljudes elektroonilise aruandluse (ER) vormingutes, mida loote, peate andmeid f
 -   Mida rohkem on juriidilisi isikuid, seda rohkem ER-vormingu konfiguratsioone tuleb hooldada.
 -   ER-konfiguratsioonide hoolduseks peavad ärikasutajatel olema ER-alased teadmised.
 
-ER-i rakendusepõhiste parameetrite funktsiooniga saavad lauskasutajad konfigureerida andmete filtreerimist ER-vormingus, nii et see põhineb abstraktsete reeglite kogumil. Seda reeglite kogumit saab konfigureerida ER-vormingus saadaolevate andmeallikate kasutamiseks. Ärikasutajad saavad määrata reaalseid reegleid väljaspool ER-raamistikku, kasutades kasutajaliidest (UI), mis luuakse automaatselt vastava ER-vormingu ja praeguse juriidilise isiku andmete põhjal, millele pääseb ligi ER-vorgmingu andmeallikatega. ER-vormingu jaoks määratletud reeglite kogumit saab eksportida Dynamics 365 Finance’i (Finance) eksemplari praegusest juriidilisest isikust. Seda saab seejärel importida teise juriidilisse isikusse samas või mõnes teises Finance’i eksemplaris sama ER-vormingu reeglite kogumina.
+ER-i rakendusepõhiste parameetrite funktsiooniga saavad lauskasutajad konfigureerida andmete filtreerimist ER-vormingus, nii et see põhineb abstraktsete reeglite kogumil. Seda reeglite kogumit saab konfigureerida ER-vormingus saadaolevate andmeallikate kasutamiseks. Ärikasutajad saavad määrata reaalseid reegleid väljaspool ER-raamistikku, kasutades kasutajaliidest (UI), mis luuakse automaatselt vastava ER-vormingu ja praeguse juriidilise isiku andmete põhjal, millele pääseb ligi ER-vorgmingu andmeallikatega. ER-vormingu jaoks määratud reeglite komplekti saab eksportida praegusest Dynamics 365 Finance (Finance) eksemplari juriidilisest isikust. Seda saab seejärel importida teise juriidilisse isikusse samas või mõnes teises Finance’i eksemplaris sama ER-vormingu reeglite kogumina.
 
 ## <a name="prerequisites"></a>Eeltingimused
 
-Selle teema näidete läbimiseks peab teil ole juurdepääs teenuse Regulatory Configuration Services (RCS) eksemplarile, mis on eraldatud samale rentnikule kui rakendus Finance ühe järgmise rolli jaoks:
+Selle artikli näidete lõpuleviimiseks peab teil olema juurdepääs regulatiivsete konfiguratsiooniteenuste (RCS) eksemplarile, mis on samas rentnikus kui Finantsid, ühele järgmistest rollidest:
 
 - Elektroonilise aruandluse arendaja
 - Elektroonilise aruandluse funktsionaalne konsultant
 - Süsteemiadministraator
 
-Soovitame läbida etapid teemas [ARVUTATUD VÄLJATÜÜBI ER-andmeallikate parameetritega kõned](er-calculated-field-type.md). Kui olete need etapid juba läbinud, võite vahele jätta etapid järgmises jaotises **ER-konfiguratsioonide importimine RCS-i**.
+Soovitame viia lõpule arvutatud VÄLJA tüüpi [artikliga ER-i andmeallikate toe parameetriga esitatud kutsete sammud](er-calculated-field-type.md). Kui olete need etapid juba läbinud, võite vahele jätta etapid järgmises jaotises **ER-konfiguratsioonide importimine RCS-i**.
 
 ## <a name="import-er-configurations-into-rcs"></a>ER-konfiguratsioonide importimine RCS-i
 
@@ -58,7 +58,7 @@ Laadige alla ja salvestage kohalikult järgmised ER-i konfiguratsioonid.
 
 Järgmiseks logige sisse oma RCS-eksemplari.
 
-Selles näites loote konfiguratsiooni näidisettevõttele Litware, Inc. Enne selle protseduuri läbimist peate läbima etapid RCS-i teemas [Konfiguratsioonipakkuja loomine ja selle märkimine aktiivseks](tasks/er-configuration-provider-mark-it-active-2016-11.md).
+Selles näites loote konfiguratsiooni näidisettevõttele Litware, Inc. Enne kui saate selle protseduuri lõpule viia, peate lõpule vastama [sammud](tasks/er-configuration-provider-mark-it-active-2016-11.md) väljal Loo konfiguratsioonipakkuja ja märkima selle RCS-is aktiivseks artikliks.
 
 1.  Valige vaikimisi armatuurlaual **Elektrooniline aruandlus**.
 2.  Valige **Aruandluse konfiguratsioonid**.
@@ -300,7 +300,7 @@ Korrake selle jaotise etappe vormingu **Vorming LE-andmete otsingu õppimiseks**
 -   Mapping to learn parameterized calls.xml
 -   Model to learn parameterized calls.xml
 
-Selleks et õppida konfigureeritud ER-vormingut **Vorming LE-andmete otsingu õppimiseks** kasutama juriidilisest isikust sõltuvate maksukoodide kogumite seadistamiseks, et filtreerida maksukandeid eri maksustamistasemete järgi, läbige etapid teemas [ER-vormingu parameetrite seadistamine juriidilise isiku kohta](er-app-specific-parameters-set-up.md).
+Konfigureeritud vormingu kasutamise kohta saate teada, kuidas otsida LE-andmete ER-vormingut, et seadistada juriidilisest isikust sõltuvaid maksukoodide kogumeid maksukannete filtreerimiseks erinevate maksustamistasemete alusel, **läbige ER-vormingu**[parameetrid](er-app-specific-parameters-set-up.md) juriidilise isiku artikli kohta.
 
 ## <a name="additional-resources"></a>Lisaressursid
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fddad1fffd61ef0cf78977721bdf2da51aa4c682
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 9bee2d68a2ed2aa339ddf8232bba4541f4fe52b8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984642"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871916"
 ---
 # <a name="product-configuration-models-overview"></a>Toote konfiguratsioonimudelite ülevaade
 
@@ -75,7 +75,7 @@ Kui atribuudi tüüp on <strong>Kahendmuutuja</strong>, vahemikuga <strong>Täis
 <td>Piirangud</td>
 <td>Piirangud kirjeldavad tootemudeli konfiguratsiooni piiranguid. Piiranguid kasutatakse tagamaks, et toote konfigureerimisel valitakse ainult kehtivad väärtused. Piirangud saavad olla avaldise piirangud või tabeli piirangud.
 <ul>
-<li>Avaldise piiranguid saab kasutada ainult komponentidega, millega need seotud on. Komponendi avaldise piirangud võivad viidata komponentide alamkomponentide atribuutidele. Tootekonfiguratsiooni lahendajat kasutatakse piirangute lahendamiseks ja piirangute kirjutamisel tuleb kasutada lahendaja süntaksit. Lisateavet saate teema lingi kaudu avaldise piirangute ja tabeli piirangute kohta.</li>
+<li>Avaldise piiranguid saab kasutada ainult komponentidega, millega need seotud on. Komponendi avaldise piirangud võivad viidata komponentide alamkomponentide atribuutidele. Tootekonfiguratsiooni lahendajat kasutatakse piirangute lahendamiseks ja piirangute kirjutamisel tuleb kasutada lahendaja süntaksit. Lisateavet vt artikli lingist avaldise piirangute ja tabeli piirangute kohta.</li>
 <li>Tabeli piirangud tuleb määratleda enne nende rakendamist komponendile toote konfiguratsioonimudelis. Tabeli piirangud võivad olla kas kasutaja või süsteemi määratletud. Kasutaja määratletud tabeli piirang on teatud tüüpi maatriks, mida saab kasutada kombinatsioonide kogumi kirjeldamiseks atribuudiväärtustele, mis on määratletud atribuudi tüübiga. Näiteks kui toodetakse kõlareid, võib kasutaja määratletud tabeli piirangu maatriksil olla veerud kõlari viimistluse ja võre jaoks.</li>
 </ul>
 <strong>Näide</strong> Kõlareid on saadaval nelja viimistlusega: must, tamm, roosipuu ja valge. Kõlarite esivõre võib olla üks kolmest: must, metall või valge. Must viimistlus on saadaval kõigi võrede puhul, kuid muud viimistlused on piiratud teatud võredega. Järgmises tabelis on näide teabe kohta, mis kuvatakse vahekaardil <strong>Lubatud kombinatsioonid</strong> lehel <strong>Tabeli piirangu redigeerimine</strong>.

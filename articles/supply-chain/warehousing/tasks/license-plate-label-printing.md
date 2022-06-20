@@ -1,6 +1,6 @@
 ---
-title: Registreerimismärgi sildi printimise lubamine
-description: Selles teemas näidatakse, kuidas lubada SSCC (serial shipping conteiner code) sildi automaatne printimine pärast seda, kui viimane üksus on müügivalimise tööprotsessis laost valitud.
+title: Litsentsiplaadi sildi printimise lubamine
+description: See artikkel näitab, kuidas lubada konteineri seeriaviisi lähetamise koodi (SSCC) sildi automaatset printimist pärast seda, kui viimane kaup on laost müügi komplekteerimise tööprotsessis komplekteeritud.
 author: perlynne
 ms.date: 07/19/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8b3895961f1f682a3fd06800a83a497afaf2fa65
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: dec552cac505b3fdc24dd453dbf723fa1d009ced
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565083"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903662"
 ---
-# <a name="enable-license-plate-label-printing"></a>Registreerimismärgi sildi printimise lubamine
+# <a name="enable-license-plate-label-printing"></a>Litsentsiplaadi sildi printimise lubamine
 
 [!include [banner](../../includes/banner.md)]
 
-Selles teemas näidatakse, kuidas lubada SSCC (serial shipping conteiner code) sildi automaatne printimine pärast seda, kui viimane üksus on müügivalimise tööprotsessis laost valitud. Võite seda protseduuri käitada demoettevõtte USMF-i andmetega. Kui käitate seda omaenda andmeid kasutades, peaksite määrama litsentsiplaatide numbriseeria. Enne ülesande juurde asumist peaksite määrama sildiprinteri. Avage Organisatsiooni haldus > Seadistus > Võrguprinterid. Klõpsake Toimingupaanil Suvandid, seejärel klõpsake nuppu Laadi dokumendi marsruudivaliku agendi installer alla. Käitage installer ja veenduge enne protseduuriga jätkamist, et töötav võrguprinter on seatud olekusse Aktiivne.
+See artikkel näitab, kuidas lubada konteineri seeriaviisi lähetamise koodi (SSCC) sildi automaatset printimist pärast seda, kui viimane kaup on laost müügi komplekteerimise tööprotsessis komplekteeritud. Võite seda protseduuri käitada demoettevõtte USMF-i andmetega. Kui käitate seda omaenda andmeid kasutades, peaksite määrama litsentsiplaatide numbriseeria. Enne ülesande juurde asumist peaksite määrama sildiprinteri. Avage Organisatsiooni haldus > Seadistus > Võrguprinterid. Klõpsake Toimingupaanil Suvandid, seejärel klõpsake nuppu Laadi dokumendi marsruudivaliku agendi installer alla. Käitage installer ja veenduge enne protseduuriga jätkamist, et töötav võrguprinter on seatud olekusse Aktiivne.
 
 
 ## <a name="set-up-the-gs1-company-prefix"></a>GS1 ettevõtteprefiksi seadistus

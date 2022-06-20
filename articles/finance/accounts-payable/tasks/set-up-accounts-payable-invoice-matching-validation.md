@@ -1,6 +1,6 @@
 ---
-title: Ostureskontro arve vastenduse kinnitamise seadistamine
-description: See teema annab teavet selle kohta, kuidas seadistada ostureskontro arvete võrdlemise kinnitamine.
+title: Ostureskontro arvete võrdlemise häälestus
+description: See artikkel annab teavet, kuidas seadistada Ostureskontro arvete vastendamise kinnitamist.
 author: abruer
 ms.date: 02/14/2022
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 602666df4cf015791398939a3067a2cae85a12eb
-ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
+ms.openlocfilehash: 86cc5cf688e3b66cf976fc7f507bd8f8df757612
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8182551"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904955"
 ---
 # <a name="set-up-accounts-payable-invoice-matching-validation"></a>Ostureskontro arve vastenduse kinnitamise seadistamine
 
@@ -44,7 +44,7 @@ Saadaval on neli erinevat tüüpi võrdlemise kinnitamist.
 5. Märkige või tühjendage märkeruut **Võrdle arvesummasid**, et võrrelda tegelikke arvesummasid eeldatavate kogusummadega.
     * Valige, kas kuvada ikoon, kui erinevus ületab arvete võrdlemisel lubatud hälbe. Saate valida ikooni kuvamise, kui positiivne erinevus ületab lubatud hälbe, või kui positiivne või negatiivne erinevus ületab lubatud hälbe.  
     * Näide: hälve on 5 protsenti ja ostutellimuse arve kogusumma on 100.00. Seetõttu kuvatakse hinna vastavuse ikoon, kui arve kogusumma ületab 105.00. Kui teete valiku **Kui kõikumisest suuremad või väiksemad**, kuvatakse samuti ikoon, kui arve summa on väiksem kui 95,00.  
-6. Sisestage väljale **Arve kogusummade hälbe protsent** aktsepteeritava hälbe protsent. See väärtus on ettevõtte vaikeväärtus. Selle väärtuse saab teatud hankijate puhul alistada, kasutades lehte **Arve kogusumma hälbed**. Lisateavet selle kohta, kuidas konkreetse hankija puhul arve kogusumma hälbe protsent alistada, leiate jaotisest "Arve kogusumma võrdlemise hälbe seadistamine hankijatele".
+6. Sisestage väljale **Arve kogusummade hälbe protsent** aktsepteeritava hälbe protsent. See väärtus on ettevõtte vaikeväärtus. Selle väärtuse saab teatud hankijate puhul alistada, kasutades lehte **Arve kogusumma hälbed**. Teavet selle kohta, kuidas alistada arve kogusummade kõikumisprotsent konkreetse hankija jaoks, vt selles artiklis hiljem jaotisest "Hankijatele vastavate arve kogusummade seadistamine".
 7. Seadke **Hinna ja koguse võrdlemine**.
 8. Valige väljalt **Rea vastavusse viimise poliitika** väärtus, mida kasutada vaikepoliitikana juriidilise isiku puhul, kellega töötate. **Pole nõutav** tähendab, et üksiku arverea hindade kinnitamine ostutellimuse hinnaga või arve koguste kinnitamine saatelehe kogustega pole nõutav. **Kahesuunaline võrdlemine** tähendab, et arveridade kontrollimine on nõutav, kuid kontrollimine hõlmab ainult ostutellimust ja tarnija arve dokumente. Toote sissetulekut vastavusse viimise kontrollimisel ei arvestata. **Kolmesuunaline võrdlemine** tähendab, et arve ühiku netohinda võrreldakse ostutellimuse ühiku netohinnaga ja ühtivat toote sissetuleku kogust võrreldakse arve kogusega.
 9. Teistsuguse võrdlemise taseme rakendamise lubamiseks kauba, hankija, hankija ja kauba kombinatsiooni või ostutellimuse rea puhul valige väärtus väljalt **Luba vastavusse viimise poliitika alistamine**. Juriidilise isiku rea vastavusse viimise poliitika saab alistada kindla hankija, kauba või hankija ja kauba kombinatsiooni puhul lehel **Vastavusse viimise poliitika**
@@ -75,7 +75,7 @@ Vaikimisi on negatiivsed hinnaerinevused lubatud. Kuid te ei saa sisestada hinna
 
 ## <a name="set-up-matching-policy-override"></a>Vastavusse viimise poliitika alistamise seadistamine
 
-Minge ostureskontro **> ja > häälestage >** **·** **vastavusse viimise poliitika abil, et määrata ostutellimuse lehe ridadele vastavusse viimise poliitika välja vaikesisestus.** See on valikuline seadistus. Kasutage seda lehekülge, et seadistada kaupade, hankijate või kauba- ja hankijakombinatsioonide kahe- või kolmepooleline vastavusse viimine. Need kirjed võimaldavad teil määratleda üksikasjalikumaid vastavusse viimise poliitikaid kui lehel **Ostusreskontro parameetrid** määratud juriidilise isiku vastavusse viimise poliitika. Vaikeseadistatud juriidilise isiku rea vastavusse viimise poliitika rakendub kõigile kaupadele ja hankijatele, välja arvatud neile, millele on sel lehel määratud muu rea vastavusse viimise poliitika.
+Minge ostureskontro **> ja > häälestage vastavusse viimise poliitika >** **·** **vastavusse viimise poliitika abil, et määrata ostutellimuse lehe ridadele vastavusse viimise poliitika välja vaikesisestus.** See on valikuline seadistus. Kasutage seda lehekülge, et seadistada kaupade, hankijate või kauba- ja hankijakombinatsioonide kahe- või kolmepooleline vastavusse viimine. Need kirjed võimaldavad teil määratleda üksikasjalikumaid vastavusse viimise poliitikaid kui lehel **Ostusreskontro parameetrid** määratud juriidilise isiku vastavusse viimise poliitika. Vaikeseadistatud juriidilise isiku rea vastavusse viimise poliitika rakendub kõigile kaupadele ja hankijatele, välja arvatud neile, millele on sel lehel määratud muu rea vastavusse viimise poliitika.
 
 Valige sellel lehel **Vastavusse viimise poliitika tase**. Valige vastavusse viimise poliitika hierarhia tase, millele soovite rea vastavusse viimise poliitika seadistada.
 

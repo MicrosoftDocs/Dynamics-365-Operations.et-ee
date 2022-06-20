@@ -1,6 +1,6 @@
 ---
 title: Luba olemasolevate toodete muudatuste haldamine
-description: Selles teemas kirjeldatakse, kuidas lubada olemasolevate toodete muudatusehaldust. Selles kirjeldatakse ka juhtumeid, kus teie võime muudatusehaldust lubada on piiratud.
+description: See artikkel selgitab, kuidas lubada olemasolevate toodete muudatusehaldust. Selles kirjeldatakse ka juhtumeid, kus teie võime muudatusehaldust lubada on piiratud.
 author: t-benebo
 ms.date: 02/05/2021
 ms.topic: article
@@ -12,24 +12,24 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-05-02
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: e356ef8339f8f71965bf9313e14fed3d0810152d
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 9f99529abebdf5490f158c6f0a7be4519449e9f0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103609"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893464"
 ---
 # <a name="enable-change-management-on-existing-products"></a>Luba olemasolevate toodete muudatuste haldamine
 
 [!include [banner](../../includes/banner.md)]
 
-Selles teemas kirjeldatakse, kuidas lubada olemasolevate toodete muudatusehaldust. Selles kirjeldatakse ka juhtumeid, kus teie võime muudatusehaldust lubada on piiratud.
+See artikkel selgitab, kuidas lubada olemasolevate toodete muudatusehaldust. Selles kirjeldatakse ka juhtumeid, kus teie võime muudatusehaldust lubada on piiratud.
 
 Kui lubate olemasoleva toote muudatusehalduse, saate luua selle toote versioone ja jälgida muudatusi, mis tehakse selle kogu eluea jooksul. Seetõttu saate neid muudatusi jälgida muudatustellimuste abil. Muudatusehalduse lubamiseks peate teisendama vastavad tooted *tehnilisteks kaupadeks* (nimetatakse ka tehnilisteks toodeteks). Tehnilised tooted on tooted, mis on versioonitud ja mida hallatakse muudatusehalduse kaudu. Teisendusprotsessi juhendamiseks on ette nähtud viisard.
 
 ## <a name="turn-this-feature-on-or-off"></a>Selle funktsiooni sisse- või väljalülitamine
 
-Selles teemas kirjeldatud funktsioonid nõuavad, et nii *Tehnika muutmise haldus* *kui ka luba olemasolevate toodete* funktsioonide muudatusehaldus lülitatakse teie süsteemi jaoks sisse. Üksikasju selle kohta, kuidas neid funktsioone sisse või välja lülitada, vt tehnika [muudatusehalduse ülevaadet](product-engineering-overview.md).
+Selles artiklis kirjeldatud funktsioonid nõuavad, et nii *Tehnika muutmise haldus* *kui ka luba olemasolevate toodete* funktsioonide muudatusehaldus lülitatakse teie süsteemi jaoks sisse. Üksikasju selle kohta, kuidas neid funktsioone sisse või välja lülitada, vt tehnika [muudatusehalduse ülevaadet](product-engineering-overview.md).
 
 ## <a name="restrictions-and-limitations"></a>Piirangud
 
@@ -38,7 +38,7 @@ Kõiki tootetüüpe ei saa kõigiks muudeks tüüpideks teisendada. Kehtivad jä
 - Toote teisendamisel tehniliseks tooteks jääb see *tooteks*. See ei muutu *tooteetaloniks*.
 - Kindla dimensioonikogumiga tooteetaloni teisendamisel säilitatakse need dimensioonid pärast muudatust. Näiteks kui teisendate suurusedimensiooniga tooteetaloni, jääb see suurusedimensioon alles.
 
-Seega, kui teil on eristatav toode, saate seda muuta ainult tehniliseks tooteks, mis ei jälgi kannete tootedimensiooni (st versioonidimensiooni ei kasutata). Lisateavet nende küsimuste kohta leiate selle teema ülejäänud jaotistest.
+Seega, kui teil on eristatav toode, saate seda muuta ainult tehniliseks tooteks, mis ei jälgi kannete tootedimensiooni (st versioonidimensiooni ei kasutata). Lisateabe saamiseks nende probleemide kohta vaadake selle artikli ülejäänud jaotisi.
 
 ## <a name="prepare-for-conversion-by-creating-all-required-engineering-product-categories"></a>Valmistuge teisendamiseks, luues kõik nõutud tehnilise toote kategooriad
 
@@ -81,7 +81,7 @@ Järgige neid samme, et käivitada viisard **Teisenda tehniliseks tooteks** ja t
 
     - **Toote number** – toote number.
     - **Toote nimi** – toote nimi.
-    - **Tehniline kategooria** – valige tehnilise toote kategooria, kuhu toode peaks pärast teisendamist kuuluma. Iga toote puhul peab juba olemas olema vastav kategooria, nagu kirjeldati selle teema eelmises jaotises. Kategooria tuleb määrata igale tootele.
+    - **Tehniline kategooria** – valige tehnilise toote kategooria, kuhu toode peaks pärast teisendamist kuuluma. Igal tootel peab juba olema vastav kategooria, nagu on kirjeldatud selle artikli eelmises jaotises. Kategooria tuleb määrata igale tootele.
     - **Versioon** – sisestage igale loetletud tootele pärast teisendamist määratav tooteversioon. Näiteks võite valida numbri, mis sobib teie kategooria juba kasutatud numbriseeriasse. Igas tehnilises versioonis talletatakse tehnilisi asjakohaseid andmeid, mis on selle versiooniga seotud. Lisateavet vt teemast [Tehnilised versioonid ja tehniliste toodete kategooriad](engineering-versions-product-category.md).
     - **Toote töötsükli olek** – valige toote töötsükli olek, mis peaks tootel pärast teisendamist olema. Toote töötsükli olek võimaldab teil juhtida, millised kanded on antud tehnilise versiooni puhul lubatud. Lisateavet vt jaotisest [Toote töötsükli olekud ja kanded](product-lifecycle-state-transactions.md).
     - **Kooslusega** – valitud märkeruut näitab, et tootel on kooslus. Selle märkeruudu määramine aitab teil otsustada, kuidas määrata märkeruut **Praegune kooslus on tehnilise toote osa**.

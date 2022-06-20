@@ -1,6 +1,6 @@
 ---
 title: Soovituste loomine demoandmetega
-description: Selle teema eesmärk on anda juhiseid, kuidas võimendada omnikanali tootesoovitusi esimese järgu ühe kasti keskkondades, kasutades eeltäidetud, kohandatavaid demoandmeid.
+description: See artikkel annab juhiseid selle kohta, kuidas võimendada menüü-kanali tootesoovitusi Tier-1 ühe boksi keskkondades, kasutades eelasustatavaid, kohandatavaid demoandmeid.
 author: bebeale
 ms.date: 05/26/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 1a9592ee5cae88c6277115ed495b15ec09945e56cad0634fd246b6ee7e5dd048
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a0e6666cc163f97567cf5c6f820d436ef6ef4cca
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741034"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874891"
 ---
 # <a name="create-recommendations-with-demo-data"></a>Soovituste loomine demoandmetega
 
 [!include [banner](includes/banner.md)]
 
-Selle teema eesmärk on anda juhiseid, kuidas võimendada omnikanali tootesoovitusi esimese järgu ühe kasti keskkondades, kasutades eeltäidetud, kohandatavaid demoandmeid.
+See artikkel annab juhiseid selle kohta, kuidas võimendada menüü-kanali tootesoovitusi Tier-1 ühe boksi keskkondades, kasutades eelasustatavaid, kohandatavaid demoandmeid.
 
 Omnikanali tootesoovitused pakuvad komplekti toimetuslikult kureeritud või programmiliselt loodud toodete loendit. Neid loendeid saab kasutada mitmes stsenaariumis, sõltuvalt ettevõtte vajadusest. Lisateavet tootesoovituste funktsioonide kohta leiate jaotisest [Ülevaade tootesoovitustest](product-recommendations.md).
 

@@ -1,6 +1,6 @@
 ---
 title: Teadlikkus pearaamatu tasakaalustamise ja aastalõpu sulgemise vahel
-description: Sellest teemast leiate teavet täiustuste kohta, mis mõjutavad pearaamatu tasakaalustusi ja pearaamatu aasta lõpu sulgemist.
+description: See artikkel annab teavet täiustuste kohta, mis mõjutavad pearaamatu tasakaalustusi ja Pearaamatu aasta lõpu sulgemist.
 author: kweekley
 ms.date: 04/06/2022
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-01-31
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 13d0a0a11a8f31e4ba647ccc23906f6b137051c2
-ms.sourcegitcommit: b96e0c70553bca9b3f5eb65105a52cb71d978a36
+ms.openlocfilehash: 30d3cc0bbd97cd006f12d06cda64ee63cb42252e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/07/2022
-ms.locfileid: "8553328"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902512"
 ---
 # <a name="awareness-between-ledger-settlement-and-year-end-close"></a>Teadlikkus pearaamatu tasakaalustamise ja aastalõpu sulgemise vahel
 
@@ -67,12 +67,12 @@ Pärast funktsiooni lubamist ja enne järgmise aasta lõpu sulgemise käivitamis
 
 Aasta **lõpu sulgemisel üksikasjade alles seadmine** on seadistatud igale pearaamatu tasakaalustuse häälestuse lehel olevale **põhikontole**.
 
-1.  Minge pearaamatu **pearaamatu pearaamatu** > **seadistuseGeneral** > **pearaamatu parameetritesse**.
+1.  Minge pearaamatu **pearaamatu seadistuse** > **pearaamatu** > **parameetritele**.
 2.  Valige vahekaardil **Pearaamatu tasakaalustused** suvand Pearaamatu **tasakaalustuskontod**.
 
 - või -
 
-1.  Minge general **ledgerPeriodic** > **tasksLedger** > **tasakaalustustele**.
+1.  Minge pearaamatu perioodiliste **toimingute** > **pearaamatu** > **tasakaalustustele**.
 2.  Saate valida **pearaamatu tasakaalustuskontod**.
 
 Pearaamatu tasakaalustuste lehele on lisatud **kaks veergu**:
@@ -82,7 +82,7 @@ Pearaamatu tasakaalustuste lehele on lisatud **kaks veergu**:
 
 ## <a name="year-end-close"></a>Aastalõpu sulgemine
 
-Kui käivitate aasta lõpu sulgemise **, sulgedes aasta lõpus General ledgerPeriodYeari** > **·** > **sulgemise**, loob protsess pearaamatu tasakaalustamiseks määratletud põhikontode algsaldod. Algsaldod luuakse kas kokkuvõttena või üksikasjadena, sõltuvalt pearaamatu tasakaalustuse seadistusest. Protsess ei hõlma tasakaalustatud pearaamatukandeid, sõltumata sellest, kas sisestate iga põhikonto algsaldo kokkuvõttena või üksikasjalikult.
+Kui käivitate aasta lõpu **sulgemise** > **·** > **pearaamatu** perioodi sulgemise aasta sulgemisega, loob protsess pearaamatu tasakaalustamiseks määratletud põhikontode algsaldod. Algsaldod luuakse kas kokkuvõttena või üksikasjadena, sõltuvalt pearaamatu tasakaalustuse seadistusest. Protsess ei hõlma tasakaalustatud pearaamatukandeid, sõltumata sellest, kas sisestate iga põhikonto algsaldo kokkuvõttena või üksikasjalikult.
 
 Näiteks sisestatakse mitu tehingut põhikontole 130100 2021.
 
@@ -159,7 +159,7 @@ Teavet algsete kannete kohta leiate pearaamatu tasakaalustuste **lehelt**. Iga �
 ## <a name="settle-transactions"></a><a name="settle-transactions"></a>Kannete tasakaalustamine
 Pearaamatu kannete tasakaalustamiseks toimige järgmiselt.
 
-1. Minge general **ledgerPeriodic** > **tasksLedger** > **tasakaalustustele**.
+1. Minge pearaamatu perioodiliste **toimingute** > **pearaamatu** > **tasakaalustustele**.
 2.  Seadke lehekülje ülaosas filtrid.
 
     1. Kuupäevavahemiku valimine. Teise võimalusena valige kuupäevavahemiku kood, et kuupäevavahemik automaatselt täita.

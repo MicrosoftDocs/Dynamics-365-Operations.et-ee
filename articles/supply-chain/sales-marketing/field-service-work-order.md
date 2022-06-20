@@ -1,6 +1,6 @@
 ---
 title: Sünkroonige rakenduse Field Service töötellimused rakenduse Supply Chain Management müügitellimustega
-description: See teema käsitleb malle ja aluseks olevaid ülesandeid, mida kasutatakse rakenduse Field Service töökäskude sünkroonimiseks rakenduse Supply Chain Management müügitellimustega.
+description: See artikkel käsitleb malle ja aluseks olevaid ülesandeid, mida kasutatakse Field Service'i töötellimuste sünkroonimiseks müügitellimustega tarneahela halduses.
 author: Henrikan
 ms.date: 04/09/2018
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: b7b311701aff12d58392fc036d0f1174678b7dc3
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: e64c9a954e8f5c4410f8ba370b40b7c6e76e8ae0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061305"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860518"
 ---
 # <a name="synchronize-work-orders-in-field-service-to-sales-orders-in-supply-chain-management"></a>Sünkroonige rakenduse Field Service töötellimused rakenduse Supply Chain Management müügitellimustega
 
@@ -29,7 +29,7 @@ ms.locfileid: "8061305"
 
 
 
-Selles teemas käsitletakse malle ja aluseks olevaid ülesandeid, mida kasutatakse projekti numbriga töökäskude sünkroonimiseks rakendusest Dynamics 365 Field Service müügitellimusse rakenduses Dynamics 365 Supply Chain Management.
+See artikkel käsitleb malle ja aluseks olevaid ülesandeid, mida kasutatakse töötellimuste sünkroonimiseks Dynamics 365 Field Service müügitellimusse Dynamics 365 Supply Chain Management.
 
 [![Äriprotsesside sünkroniseerimine rakenduste Supply Chain Management ja Field Service vahel.](./media/field-service-integration.png)](./media/field-service-integration.png)
 
@@ -165,7 +165,7 @@ Töökäskudest pärinevate müügitellimuste jälgimiseks saate luua müügiall
 
 Vaikimisi valib vastendamine müügiallika jaoks kõigi töökäskudest loodud müügitellimuste puhul müügi päritolu tüübiks **Töökäsu integratsioon**. See käitumine võib olla kasulik, kui töötate müügitellimusega rakenduses Supply Chain Management. Peaksite veenduma, et töökäskudest pärinevaid müügitellimusi ei sünkroonita rakendusse Field Service tagasi töökäskudena.
 
-Üksikasju õige müügi päritolu seadistamiseks rakenduses Supply Chain Management vaadake selle teema jaotisest Eeltingimused ja vastendamise seadistamine.
+Üksikasju selle kohta, kuidas luua tarneahela halduses õige müügiallika häälestus, vt selle artikli jaotisest "Eeltingimused ja vastendamise häälestus".
 
 ### <a name="status"></a>Olek
 

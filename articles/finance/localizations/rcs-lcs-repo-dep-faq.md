@@ -1,6 +1,6 @@
 ---
 title: Regulatory Configuration Service (RCS) – Lifecycle Services (LCS) ladustamise amortiseerimine
-description: See teema annab teavet Microsoft Dynamics Lifecycle Services (LCS) talletuse amortiseerumise kohta, mis on plaanitud Regulatory Configuration Service (RCS) globaalse hoidla väljamineku osana.
+description: See artikkel annab teavet elutsükli Microsoft Dynamics teenuste (LCS) talletuse amortiseerumise kohta, mis on plaanitud regulatiivse konfiguratsiooniteenuse (RCS) globaalse hoidla väljamineku osana.
 author: JaneA07
 ms.date: 10/27/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: AX 10.0.19
-ms.openlocfilehash: 8862f42f3ceaed7e1413c49cf9b91f0449fab67b
-ms.sourcegitcommit: 4c8223c9540fbc1c1e554962938058d432e4c681
+ms.openlocfilehash: 4a35941d1521d26f95bacf29213fee42daeb42ab
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/05/2022
-ms.locfileid: "8547978"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849727"
 ---
 # <a name="regulatory-configuration-service-rcs--lifecycle-services-lcs-storage-deprecation"></a>Regulatory Configuration Service (RCS) – Lifecycle Services (LCS) ladustamise amortiseerimine
 
@@ -85,7 +85,7 @@ RCS kasutab *ühendatud rakenduse* mõisteid. Seotud rakendus moodustab ühendus
 
 ### <a name="are-there-any-examples-that-show-the-setup-and-management"></a>Kas on näiteid, mis näitavad seadistust ja haldust?
 
-Näiteid pole, kuid saate selles teemas varasemad sammud lõpule viia, et oma konfiguratsioonid üle viia RCS-i globaalsesse hoidlasse.
+Näiteid pole, kuid saate selles artiklis toodud sammud lõpule viia, et oma konfiguratsioonid üle viia RCS-i globaalsesse hoidlasse.
 
 ### <a name="is-rcs-a-prerequisite-to-configure-electronic-reporting"></a>Kas RCS on elektroonilise aruandluse konfigureerimise eeltingimus?
 

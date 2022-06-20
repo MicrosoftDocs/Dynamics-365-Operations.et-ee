@@ -1,6 +1,6 @@
 ---
 title: Tasu tasusagedus
-description: See teema annab üksikasjad ja näidispäringu kompensatsiooni maksmise sageduse üksuse kohta rakenduses Dynamics 365 Human Resources.
+description: See artikkel annab üksikasjad ja näitepäringu tasu tasu tasusageduse üksuse jaoks üksuses Dynamics 365 Human Resources.
 author: marcelbf
 ms.date: 09/01/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-09-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 171b7fb7b361bd1fe2e7e637cd555c88a81a8bcf
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 9afe27776797b2355a32226bbd7fa514b5c5d962
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066139"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894610"
 ---
 # <a name="compensation-pay-frequency"></a>Tasu tasusagedus
 
@@ -27,7 +27,7 @@ ms.locfileid: "8066139"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Selles teemas kirjeldatakse kompensatsiooni maksmise sageduse üksust rakenduses Dynamics 365 Human Resources.
+See artikkel kirjeldab tasu tasusageduse üksust üksuses Dynamics 365 Human Resources.
 
 Füüsiline nimi: mshr_hcmpayrateconversionentity.
 

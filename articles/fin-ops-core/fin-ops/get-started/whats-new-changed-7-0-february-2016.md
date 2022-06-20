@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d81d20045c7b06de01a023d1a34ee653dd696ff1
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: e92e6aeab949567e65a13ebdd92f0e5b306ccd30
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711316"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861701"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Mis on uut või mida on muudetud rakenduses Dynamics AX 7.0 (veebruar 2016)
 
@@ -320,7 +320,7 @@ See funktsioon töötab toodetud kaubale määratud kuluarvestuse meetoditest s�
 <td>Protseduuride juhendava spikri (ülesande juhised) ja mõisteid kirjeldavad teemad saate avada, klõpsates jaotist <strong>Spikker</strong>.</td>
 <td>AX 2012 spikrisüsteem osutab HTML-teemadele, mis on salvestatud kohalikku veebiserverisse. Kliendid ja partnerid saavad luua oma spikri.</td>
 <td>Dynamics AX-i praeguse versiooni spikrisüsteemi kuvab tegevusjuhised, mis on salvestatud ja Microsoft Dynamicsi teenuse Lifecycle Services (LCS) BPM-i. Spikrisüsteem kuvab ka Microsofti dokumendisaid teemasid. Lisateavet vt <a href="help-overview.md" data-raw-source="[Help system](help-overview.md)">spikrisüsteemist</a> ja <a href="new-task-guides-available-february-2016.md" data-raw-source="[New task guides (February 2016)](new-task-guides-available-february-2016.md)">uutest tegevusjuhistest (veebruar 2016)</a>.</td>
-<td>Ülesande juhised pakuvad juhendatud, interaktiivset kogemust, mis juhib teid läbi ülesande või äriprotsessi toimingute. Saate alla laadida ja kohandada Microsofti pakutavaid ülesande juhiseid. Teema pakub kiiremat ja paindlikumat viisi tootedokumentatsiooni loomiseks, edastamiseks ning värskendamiseks. Seetõttu aitab see tagada teile juurdepääsu uusimale tehnilisele teabele.</td>
+<td>Ülesande juhised pakuvad juhendatud, interaktiivset kogemust, mis juhib teid läbi ülesande või äriprotsessi toimingute. Saate alla laadida ja kohandada Microsofti pakutavaid ülesande juhiseid. Artikkel pakub kiiremat ja paindlikumat viisi tootedokumentatsiooni loomiseks, tarnimiseks ja uuendamiseks. Seetõttu aitab see tagada teile juurdepääsu uusimale tehnilisele teabele.</td>
 </tr>
 </tbody>
 </table>

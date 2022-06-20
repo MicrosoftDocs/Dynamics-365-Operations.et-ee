@@ -1,6 +1,6 @@
 ---
 title: Commerce'i pitseeritud iseteeninduskomponentide hulgijuurutus
-description: See teema kirjeldab, kuidas kasutada iseteeninduse komponendi installijate raamistikku vaikses installimis- ja teenusejuurutustes.
+description: See artikkel selgitab, kuidas kasutada iseteeninduse komponendi installijatele raamistikku installimis- ja teenuse juurutamiseks.
 author: jashanno
 ms.date: 05/11/2022
 ms.topic: article
@@ -9,20 +9,20 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: jashanno
 ms.search.validFrom: 2021-04-30
-ms.openlocfilehash: 5cb27fd0ea366d12c8bd6ee1cdb0c6d584375862
-ms.sourcegitcommit: d70f66a98eff0a2836e3033351b482466bd9c290
+ms.openlocfilehash: a679d78db3ad5bd9cccbd4ab6a7026bd07890f55
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8742583"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898575"
 ---
 # <a name="mass-deployment-of-sealed-commerce-self-service-components"></a>Commerce'i pitseeritud iseteeninduskomponentide hulgijuurutus
 
 [!include [banner](../includes/banner.md)]
 
-See teema kehtib pitseeritud raamistiku kohta, komponendi installijate kohta, mis vabastatakse igal kuul, alustades 10.0.18 Microsoft Dynamics väljalaskest ja mis tehakse kättesaadavaks elutsükli teenuste (LCS) ühises varateegis. Pange tähele, et nende uute installijate esimesed mitu väljalaset on määratud kui **(eelvaade)**. Selle määramise ainus eesmärk on eristada uusi installereid, kui Microsoft määrab, kas nende kasutamiseks on lisa funktsiooninõudeid. See ei tähenda, et installijad ei sobi tootmiseks. Tuginedes nende uute installerite väljalasele, plaanib Microsoft amortiseerida vanad (pärand) installijad 2023. aasta oktoober jooksul või selle ümber. 
+See artikkel kehtib pitseeritud raamistiku kohta, komponendi installijatele, mis vabastatakse igal kuul, alustades väljalaskega 10.0.18 Microsoft Dynamics ja mis tehakse kättesaadavaks elutsükli teenuste (LCS) ühises varateegis. Pange tähele, et nende uute installijate esimesed mitu väljalaset on määratud kui **(eelvaade)**. Selle määramise ainus eesmärk on eristada uusi installereid, kui Microsoft määrab, kas nende kasutamiseks on lisa funktsiooninõudeid. See ei tähenda, et installijad ei sobi tootmiseks. Tuginedes nende uute installerite väljalasele, plaanib Microsoft amortiseerida vanad (pärand) installijad 2023. aasta oktoober jooksul või selle ümber. 
 
-See teema kirjeldab, kuidas kasutada uusi installijad vaikse installi ja värskenduste hooldamine käsurea argumentide kaudu. Need argumendid lasevad teil teha mitmeti juurutamist mitmel viisil.
+See artikkel selgitab, kuidas kasutada uusi installijad vaikse installi ja värskenduste hooldamine käsurea argumentide kaudu. Need argumendid lasevad teil teha mitmeti juurutamist mitmel viisil.
 
 > [!NOTE]
 > Uued iseteeninduskeskuses pitseeritud installerid ei ole peakontoris saadaval ja neid saab alla laadida ainult LCS-i kaudu.
@@ -108,7 +108,7 @@ Vanade iseteeninduse raamistiku komponendi installerilt uutele raamistiku kompon
 
 ### <a name="before-you-begin"></a>Enne alustamist
 
-On kriitiline eemaldada vana iseteeninduse Modern POS-i komponent. Lisateabe saamiseks vt selle teema varasemaid migreerimistoiminguid.
+On kriitiline eemaldada vana iseteeninduse Modern POS-i komponent. Lisateabe saamiseks vt selle artikli varasemaid migreerimistoiminguid.
 
 ### <a name="examples-of-silent-deployment"></a>Vaikse juurutamise näited
 
@@ -125,7 +125,7 @@ CommerceModernPOS.exe --help install
 ```
 
 > [!NOTE]
-> Modern POS-i jaoks ei ole konfiguratsioonifail nõutav. Installeril on nüüd parameetrid (selles teemas varem näidatud) erinevatele väärtustele, mida kasutatakse seadme aktiveerimisel.
+> Modern POS-i jaoks ei ole konfiguratsioonifail nõutav. Installiprogrammil on nüüd seadme aktiveerimise ajal kasutatavate väärtuste parameetrid (mis on selles artiklis varem kuvatud).
 
 Järgmine käsk määrab kõik parameetrid, mida tuleb kasutada seadme aktiveerimisel pärast Modern POS-i rakenduse installimist. Selles näites kasutatakse **The-3** registrit, mis on demoandmetes tavaliselt Dynamics 365 Commerce kasutatav väärtus.
 
@@ -145,7 +145,7 @@ Nende mõistete segamist ja sobitamist saate kasutada soovitud installitulemuste
 
 ### <a name="before-you-begin"></a>Enne alustamist
 
-On oluline eemaldada vana iseteeninduse riistvarajaama komponent. Lisateabe saamiseks vt selle teema varasemaid migreerimistoiminguid. Kaupmehe konto teabe tööriist pole enam olemas. Selle asemel installitakse kaupmehe konto teave, kui müügikoha terminal on ühendatud riistvarajaamaga. Selle installeri esmakordsel testimisel on soovitatav käitada järgmist käsku:
+On oluline eemaldada vana iseteeninduse riistvarajaama komponent. Lisateabe saamiseks vt selle artikli varasemaid migreerimistoiminguid. Kaupmehe konto teabe tööriist pole enam olemas. Selle asemel installitakse kaupmehe konto teave, kui müügikoha terminal on ühendatud riistvarajaamaga. Selle installeri esmakordsel testimisel on soovitatav käitada järgmist käsku:
 
 ```Console
 CommerceHardwareStation.exe --help install
@@ -166,7 +166,7 @@ HardwareStation.exe install --Port 443 --StoreSystemAOSURL "https://MyDynamics36
 ```
 
 > [!NOTE]
-> Konfiguratsioonifail ei ole riistvarajaama jaoks nõutav. Installeril on nüüd parameetrid (selles teemas varem näidatud) erinevatele vajalikele väärtustele.
+> Konfiguratsioonifail ei ole riistvarajaama jaoks nõutav. Installeril on nüüd nõutavate väärtuste parameetrid (mis on selles artiklis varem kuvatud).
 
 Järgmine käsk määrab kõik parameetrid, mis on nõutavad standardse installi eeltingimuste kontrolli vahelejätmiseks. 
 
@@ -189,7 +189,7 @@ CommerceStoreScaleUnitSetup.exe --help install
 
 ### <a name="before-you-begin"></a>Enne alustamist
 
-On kriitiline eemaldada vana iseteeninduse CSU (ise hostitud) komponent. Lisateabe saamiseks vt selle teema varasemaid migreerimistoiminguid.
+On kriitiline eemaldada vana iseteeninduse CSU (ise hostitud) komponent. Lisateabe saamiseks vt selle artikli varasemaid migreerimistoiminguid.
 
 ### <a name="examples-of-silent-deployment"></a>Vaikse juurutamise näited
 

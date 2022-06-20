@@ -1,6 +1,6 @@
 ---
 title: Mobiilse seadme menüüelemendi seadistamine komplekteerimisrea ülevaate kuvamiseks
-description: Selles teemas selgitatakse, kuidas määratleda, millal kuvatakse mobiilses seadmes laotööd töötlevatele laotöötajatele kõigi tööridade loend. See võimalus võib olla kasulik laotöötajatele, kes vajavad sageli ülevaadet töökäsu komplekteerimisridadest, et nad saaksid komplekteerimisjärjekorda optimeerida.
+description: See artikkel selgitab, kuidas määrata, millal laotöötajatele, kes töötlevad mobiilses seadmes laotööd, kuvatakse kõigi tööridade loend. See võimalus võib olla kasulik laotöötajatele, kes vajavad sageli ülevaadet töökäsu komplekteerimisridadest, et nad saaksid komplekteerimisjärjekorda optimeerida.
 author: Mirzaab
 ms.date: 09/03/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 7d3a8972c5d2f4c52dddef458ebd6079118cadfe
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: 5b3bf0d94e6975f543361481b73c845ef9c56d05
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7901918"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885663"
 ---
 # <a name="set-up-a-mobile-device-menu-item-to-provide-a-pick-line-overview"></a>Mobiilse seadme menüüelemendi seadistamine komplekteerimisrea ülevaate kuvamiseks
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas selgitatakse, kuidas konfigureerida suvandeid, mis on seotud komplekteerimisrea ülevaatega mobiilse seadme menüüelementide jaoks, mida kasutatakse komplekteerimistöö töötlemiseks. Komplekteerimisrea ülevaade laseb laotöötajatel vaadata nende kõikide praeguse ülesandega seotud tööridade loendit ja seal valikuid teha. See võimalus aitab töötajatel oma komplekteerimisjärjekorda optimeerida. Funktsioon pakub suvandeid, mis asendavad standardse nupu **Jäta vahele**, mis võimaldab töötajatel read ükshaaval kindlas järjekorras läbi käia. (Selle nupu kasutamise suvand on siiski alles.)
+See artikkel selgitab, kuidas konfigureerida mobiilse seadme menüü-üksuste komplekteerimisrea ülevaatega seotud valikuid, mida kasutatakse komplekteerimistöö töötlemiseks. Komplekteerimisrea ülevaade laseb laotöötajatel vaadata nende kõikide praeguse ülesandega seotud tööridade loendit ja seal valikuid teha. See võimalus aitab töötajatel oma komplekteerimisjärjekorda optimeerida. Funktsioon pakub suvandeid, mis asendavad standardse nupu **Jäta vahele**, mis võimaldab töötajatel read ükshaaval kindlas järjekorras läbi käia. (Selle nupu kasutamise suvand on siiski alles.)
 
 Administraatorid saavad iga menüüelementi ükshaaval konfigureerida, et kontrollida, kuidas, millal ja kus mobiilirakenduses Warehouse Management komplekteerimisrea ülevaade kuvatakse.
 

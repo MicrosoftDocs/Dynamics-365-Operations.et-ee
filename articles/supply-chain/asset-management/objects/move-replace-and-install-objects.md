@@ -1,6 +1,6 @@
 ---
 title: Varade teisaldamine, asendamine ja installimine
-description: Selles teemas kirjeldatakse, kuidas varasid moodulis Asset Management teisaldada, asendada ja installida.
+description: See artikkel selgitab, kuidas varahaldusse varasid teisaldada, asendada ja installida.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aad94f17d6efadf7c520c021354963e7135d6d4da1426774925ce877f705e01a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: MT
+ms.openlocfilehash: e1454f41bb0b43e22c5278463f63aa4178696eef
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769631"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872120"
 ---
 # <a name="move-replace-and-install-assets"></a>Varade teisaldamine, asendamine ja installimine
 
@@ -28,7 +28,7 @@ ms.locfileid: "6769631"
 
  
 
-Selles teemas kirjeldatakse, kuidas varasid moodulis Asset Management teisaldada, asendada ja installida. Saate luua üksikuid varasid, millel pole seoseid muude varadega või luua vara struktuuri, mis sisaldab emavara (ülataseme vara) ja seotud tütarvarasid (alamvarasid). Moodulis Asset management on kolm võimalust vara asukoha teisaldamiseks ja muutmiseks.
+See artikkel selgitab, kuidas varahaldusse varasid teisaldada, asendada ja installida. Saate luua üksikuid varasid, millel pole seoseid muude varadega või luua vara struktuuri, mis sisaldab emavara (ülataseme vara) ja seotud tütarvarasid (alamvarasid). Moodulis Asset management on kolm võimalust vara asukoha teisaldamiseks ja muutmiseks.
 
 - **Teisalda** – saate teisaldada vara kas muusse vara struktuuri või muusse asukohta samas varastruktuuris.
 - **Asenda** – saate vara struktuurist ajutiselt eemaldada, et seda saaks parandada või remontida ja seejärel lisada remonditud vara hiljem tagasi vara struktuuri. Teise võimalusena asendada kasutatud vara püsivalt uue varaga.
@@ -42,7 +42,7 @@ Selles teemas kirjeldatakse, kuidas varasid moodulis Asset Management teisaldada
 Funktsiooni **Vara teisaldamine** saate kasutada vara teisaldamiseks kas muusse vara struktuuri või muusse asukohta samas varastruktuuris. Vara saab teisaldada ka väljapoole vara struktuuris, nii et sellest saab eraldiseisev vara, millel pole seoseid struktuuriga.
 
 > [!NOTE]
-> Ärge kasutage seda funktsiooni, kui varasid parandatakse või asendatakse ajutiselt. Selle asemel kasutage funktsiooni **Vara asendamine**, mida kirjeldatakse hiljem selles teemas.
+> Ärge kasutage seda funktsiooni, kui varasid parandatakse või asendatakse ajutiselt. Selle asemel kasutage varade **asendamise funktsiooni**, mida kirjeldatakse selles artiklis hiljem.
 
 1. Valige **Varahaldus** \> **Ühine** \> **Varad** \> **Kõik varad** või **Aktiivsed varad**.
 2. Valige loendist teisaldatav vara. Kui varal on alamarad, teisaldate ka need varad.

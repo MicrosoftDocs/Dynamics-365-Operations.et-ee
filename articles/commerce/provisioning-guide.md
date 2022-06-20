@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Commerce'i hindamisekeskkonna ettevalmistamine
-description: Selles teemas selgitatakse, kuidas valmistada ette rakenduses Microsoft Dynamics 365 Commerce hindamiskeskkond.
+description: See artikkel selgitab, kuidas hindamiskeskkonda Microsoft Dynamics 365 Commerce ette näha.
 author: psimolin
 ms.date: 12/17/2020
 ms.topic: article
@@ -15,25 +15,25 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c8241c31e82d124398189666c3a1709d25884b8acd9c8f3b1068529cbd216684
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: MT
+ms.openlocfilehash: 52a263d1ab833eb688b1049cd4e8c584e8c9a94d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777496"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868905"
 ---
 # <a name="provision-a-dynamics-365-commerce-evaluation-environment"></a>Dynamics 365 Commerce'i hindamisekeskkonna ettevalmistamine
 
 [!include [banner](includes/banner.md)]
 
-Selles teemas selgitatakse, kuidas valmistada ette rakenduses Microsoft Dynamics 365 Commerce hindamiskeskkond.
+See artikkel selgitab, kuidas hindamiskeskkonda Microsoft Dynamics 365 Commerce ette näha.
 
-Enne alustamist soovitame teil see teema kiiresti läbi vaadata, et saada protsessi nõudmistest aimu.
+Enne alustamist soovitame teil selle artikli kaudu kiiresti skannida, et saada aimu, mida protsess nõuab.
 
 > [!NOTE]
 > Commerce'i hindamiskeskkonnad pole üldiselt kättesaadavad ja antakse partneritele ning klientidele taotluse alusel. Lisateabe saamiseks pöörduge oma Microsofti partneri kontakti poole.
 
-Oma Commerce’i hindamiskeskkonna edukaks ettevalmistamiseks peate looma projekti, millel on kindel toote nimi ja tüüp. Keskkonnal ja Commerce Scale Unitil (CSU) on samuti mõned konkreetsed parameetrid, mida peate kasutama, kui loodate hiljem e-kaubandust ette valmistada. Selle teema juhised kirjeldavad kõiki vajalikke etappe, mida on vaja ettevalmistamise lõpuleviimiseks, ja milliseid parameetreid peate kasutama.
+Oma Commerce’i hindamiskeskkonna edukaks ettevalmistamiseks peate looma projekti, millel on kindel toote nimi ja tüüp. Keskkonnal ja Commerce Scale Unitil (CSU) on samuti mõned konkreetsed parameetrid, mida peate kasutama, kui loodate hiljem e-kaubandust ette valmistada. Selle artikli juhised kirjeldavad kõiki etappe, mis on vajalikud selleks, et ettevalmistamine lõpule viia, ja parameetreid, mida peate kasutama.
 
 Pärast seda, kui olete oma Commerce’i hindamiskeskkonna edukalt ette valmistanud, peate viima lõpule mõned ettevalmistamisjärgsed etapid selle kasutamiseks valmistumiseks. Mõned etapid on valikulised, olenevalt sellest, milliseid süsteemi aspekte soovite hinnata. Võite valikulised etapid alati hiljem läbida.
 

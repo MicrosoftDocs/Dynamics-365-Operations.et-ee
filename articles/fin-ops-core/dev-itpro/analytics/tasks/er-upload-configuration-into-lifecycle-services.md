@@ -1,6 +1,6 @@
 ---
 title: Konfiguratsiooni üleslaadimine teenusesse Lifecycle Services
-description: Selles teemas selgitatakse, kuidas luua uus elektroonilise aruandluse (ER) konfiguratsioon ja laadida see üles teenusesse Microsoft Dynamics Lifecycle Services (LCS).
+description: See artikkel selgitab, kuidas luua uus elektroonilise aruandluse (ER) konfiguratsioon ja laadida see üles elutsükli Microsoft Dynamics teenustesse (LCS).
 author: NickSelin
 ms.date: 06/17/2021
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b480351875c7d300db790a68d61a402218f8ee36d8247188b912762f21d035b3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b2b84fc3167b3edaf6b99fa8bb0efd373c7f57c3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720756"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885510"
 ---
 # <a name="upload-a-configuration-into-lifecycle-services"></a>Konfiguratsiooni üleslaadimine teenusesse Lifecycle Services
 
 [!include [banner](../../includes/banner.md)]
 
-Selles teemas selgitatakse, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rolli määratud kasutajad saavad luua uue [elektroonilise aruandluse (ER) konfiguratsiooni](../general-electronic-reporting.md#Configuration) ja laadida selle teenuse Microsoft Dynamics Lifecycle Services (LCS) [projekti tasandi varade teeki](../../lifecycle-services/asset-library.md).
+See artikkel selgitab [, kuidas kasutaja süsteemiadministraatoris või elektroonilise aruandluse arendaja rollis saab luua uue elektroonilise aruandluse (ER)](../general-electronic-reporting.md#Configuration)[konfiguratsiooni ja laadida selle üles projekti tasemel](../../lifecycle-services/asset-library.md)Microsoft Dynamics varateeki elutsükli teenustes (LCS).
 
 > [!IMPORTANT]
 > LCS kasutamine elektroonilise aruandluse (ER) konfiguratsiooni talletushoidlana on [aegunud](../../../../finance/get-started/removed-deprecated-features-finance.md#features-removed-or-deprecated-in-the-finance-10017-release). Lisateavet vt jaotisest [Regulatory Configuration Service (RCS) – Lifecycle Services (LCS) ladustamise amortiseerimine](../../../../finance/localizations/rcs-lcs-repo-dep-faq.md).
@@ -42,7 +42,7 @@ Selles näites loote konfiguratsiooni näidisettevõttele Litware, Inc. ja laadi
 
 <a name="accessconditions"></a>
 > [!NOTE]
-> Veenduge, et antud Dynamics 365 Finance'i kasutaja on selle LCS-i projekti liige, mis sisaldab [varade teeki](../../lifecycle-services/asset-library.md#asset-library-support), mida kasutatakse ER-konfiguratsioonide importimiseks.
+> Veenduge, et praegune Dynamics 365 Finance kasutaja on ER-i konfiguratsioonide importimiseks kasutatavat varateeki sisaldava LCS-projekti [liige](../../lifecycle-services/asset-library.md#asset-library-support).
 >
 > Te ei pääse LCS-i projektile juurde ER-hoidlast, mis esindab rakenduses Finance kasutatavast domeenist erinevat domeeni. Kui proovite, kuvatakse LCS-i projektide tühi loend ja te ei saa importida ER-konfiguratsioone LCS-i projekti tasandi varade teegist. Projekti tasandi varade teekidele juurde pääsemiseks ER-konfiguratsioonide importimiseks kasutatavast ER-hoidlast logige rakendusse Finance sisse selle kasutaja mandaadi abil, kes kuulub rentnikku (domeeni), kelle jaoks praegune rakenduse Finance eksemplar on ette valmistatud.
 

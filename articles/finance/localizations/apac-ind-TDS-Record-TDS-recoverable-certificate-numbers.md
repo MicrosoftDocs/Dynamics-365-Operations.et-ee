@@ -1,6 +1,6 @@
 ---
 title: TDS-i tagastatava sertifikaadi numbrite kirjendamine
-description: See teema selgitab, kuidas kasutada tagasisaadav sertide lehte, et kirjendada sertide numbreid ja kuupäevi allika (TDS) sertide jaoks, mis on vastu võetud kindla hankija, kliendi või pearaamatu jaoks.
+description: See artikkel selgitab, kuidas kasutada tagasisaadav sertide lehte, et kirjendada sertide numbreid ja kuupäevi allika (TDS) sertide jaoks, mis on vastu võetud kindla hankija, kliendi või pearaamatu jaoks.
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 5d62f560fe58a5fb7bd158bed9bcb111d75c7f00
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 513412e292167795fad9d80b68e6e5e14dbd13c5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726486"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853252"
 ---
 # <a name="record-tds-recoverable-certificate-numbers"></a>TDS-i tagastatava sertifikaadi numbrite kirjendamine
 
 [!include [banner](../includes/banner.md)]
 
-See teema selgitab, kuidas kasutada **tagasisaadavat sertide** lehte, et kirjendada sertide numbreid ja kuupäevi allika (TDS) sertide jaoks, mis on vastu võetud kindla hankija, kliendi või pearaamatu jaoks. TDS-i serdi numbrite ja kuupäevade värskendamiseks, mis on kirjendatud TDS-i kannete jaoks sellel leheküljel, kasutage **Uuenda serti** lehte (**Pearaamat \> Perioodiline \> Kinnipeetava maksu \> Serdi värskendamine**). Pärast TDS-i serdinumbrite värskendamist sulgege need.
+See artikkel **selgitab**, kuidas kasutada tagasisaadav sertide lehte, et kirjendada sertide numbreid ja kuupäevi allika (TDS) sertide jaoks, mis on vastu võetud kindla hankija, kliendi või pearaamatu jaoks. TDS-i serdi numbrite ja kuupäevade värskendamiseks, mis on kirjendatud TDS-i kannete jaoks sellel leheküljel, kasutage **Uuenda serti** lehte (**Pearaamat \> Perioodiline \> Kinnipeetava maksu \> Serdi värskendamine**). Pärast TDS-i serdinumbrite värskendamist sulgege need.
 
 Järgige neid samme TDS-i serdi numbrite ja kuupäevade salvestamiseks.
 

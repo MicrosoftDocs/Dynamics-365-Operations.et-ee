@@ -1,6 +1,6 @@
 ---
-title: SharePoint Ühenduse konfigureerimine
-description: See teema selgitab, kuidas konfigureerida ühendust nii, et elektrooniline arveldamine pääseks Microsofti saidile SharePoint.
+title: SharePointi ühenduse konfigureerimine
+description: See artikkel selgitab, kuidas konfigureerida ühendust nii, et elektroonilisel arveldamisel oleks juurdepääs Microsofti saidile SharePoint.
 author: dkalyuzh
 ms.date: 12/15/2021
 ms.topic: article
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: dkalyuzh
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 6b9fffc1f3525e69792517dd1c6ebdcfbe5a74d2
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: fb4258190b9480c1302060dd7b75145f80bb7f18
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371862"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856576"
 ---
-# <a name="configure-a-sharepoint-connection"></a>SharePoint Ühenduse konfigureerimine
+# <a name="configure-a-sharepoint-connection"></a>SharePointi ühenduse konfigureerimine
 
 [!include [banner](../includes/banner.md)]
 
