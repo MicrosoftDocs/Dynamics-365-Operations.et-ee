@@ -1,6 +1,6 @@
 ---
 title: Mis on uut või mida on muudetud rakenduses Dynamics 365 Human Resources (28. mai 2020)
-description: Selles teemas kirjeldatakse Microsoft Dynamics 365 Human Resourcesi 28. mai 2020 uusi või muutunud funktsioone.
+description: Selles artiklis kirjeldatakse Microsoft Dynamics 365 Human Resourcesi 28. mai 2020 uusi või muutunud funktsioone.
 author: andreabichsel
 ms.date: 05/28/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 88e0938ab9be8066d6ed4709ca2c7074ebe46dc3
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 42cb9e595c2997f17f487c31f674d1c099a3c80d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686033"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902943"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-28-2020"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 Human Resources (28. mai 2020)
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Selles teemas kirjeldatakse Dynamics 365 Human Resourcesi uusi või muutunud funktsioone. Muudatused rakenduvad versioonile number 8.1.3287. Sulgudes olevad numbrid mõnedes pealkirjades viitavad LCS-i toenumbritele viitamise jaoks.
+Selles artiklis kirjeldatakse Dynamics 365 Human Resourcesi uusi või muutunud funktsioone. Muudatused rakenduvad versioonile number 8.1.3287. Sulgudes olevad numbrid mõnedes pealkirjades viitavad LCS-i toenumbritele viitamise jaoks.
 
 ## <a name="leaverequest-entity-doesnt-work-when-you-enable-multiple-types-per-leave-plan-447498"></a>Üksus LeaveRequest ei tööta, kui lubate puhkuseplaani kohta mitu tüüpi (447498)
 

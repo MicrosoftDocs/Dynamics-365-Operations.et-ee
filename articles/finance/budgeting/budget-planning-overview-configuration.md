@@ -1,6 +1,6 @@
 ---
 title: Eelarve plaanimise ülevaade
-description: Selles teemas tutvustatakse eelarve plaanimist. See teema sisaldab teavet, mis aitab teil eelarve planeerimist konfigureerida ja eelarve planeerimise protsesse seadistada.
+description: See artikkel kirjeldab eelarve plaanimist. See teema sisaldab teavet, mis aitab teil eelarve planeerimist konfigureerida ja eelarve planeerimise protsesse seadistada.
 author: panolte
 ms.date: 01/11/2018
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d69d3d1620616bd7a136645d6f28f638e8bcf199
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 1f1ecf830953362636c8b0369586d8b76499ebb3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711739"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853550"
 ---
 # <a name="budget-planning-overview"></a>Eelarve plaanimise ülevaade
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas tutvustatakse eelarve plaanimist. See teema sisaldab teavet, mis aitab teil eelarve planeerimist konfigureerida ja eelarve planeerimise protsesse seadistada.
+See artikkel kirjeldab eelarve plaanimist. See teema sisaldab teavet, mis aitab teil eelarve planeerimist konfigureerida ja eelarve planeerimise protsesse seadistada.
 
 ## <a name="overview-of-budget-planning"></a>Eelarve plaanimise ülevaade
 
@@ -91,7 +91,7 @@ Eelarve planeerimise töövoog koosneb järjestatud etappidest, mille eelarvepla
 
 Saate luua eelarve plaanimise töövoo jaotises **Töövooetapid** lehel **Eelarve plaanimise konfiguratsioon** . Seal saate valida etapid ja kasutatava eelarvestamise töövoo ja konfigureerida täiendavad sätted.
 
-Hea tava on luua eelarve plaanimise töövoog eelarvestamise hierarhia igal tasandil. Seejärel määrake eelarvestamise töövoog, mis sisaldab eelarve plaanimise töövoo etappidele vastavaid elemente. Selle näite varem kuvatud näidisskeemis luuakse üks eelarve plaanimise töövoog Müügiosakondadele ja teine peakorterile. Eelarvestuse töövoog teisaldab eelarveplaane etappide kaupa.
+Hea tava on luua eelarve plaanimise töövoog eelarvestamise hierarhia igal tasandil. Seejärel määrake eelarvestamise töövoog, mis sisaldab eelarve plaanimise töövoo etappidele vastavaid elemente. Selles artiklis varem ilmuvas näite skeemis luuakse müügiosakonnale üks eelarve planeerimise töövoog ja teine luuakse peakontori jaoks. Eelarvestuse töövoog teisaldab eelarveplaane etappide kaupa.
 
 Saate luua eelarvestamise töövoo eelarve plaanimiseks lehel **Eelarvestuse töövood**. Protsess sarnaneb muude töövoogude loomise protsessiga. Järgmisel joonisel on toodud peakorteri töövoo näide.
 
@@ -141,7 +141,7 @@ Etapi eraldamisi kasutatakse töövoo töötlemise ajal eelarveplaani ridade aut
 
 Etapi eraldamise seadistamisel seostage eelarve planeerimise töövoog ja etapp eraldamisgraafikuga. Eelarve plaanimise töövoog tuleb seostada eelarvestuse töövooga, mis kasutab automatiseeritud töövoo ülesannet **Eelarve plaanimise etapi eraldamine** . Kui töövoog jõuab määratud etappi, toimub eraldamine automaatselt. Seda automatiseeritud ülesannet saab kasutada uues stsenaariumis eelarveplaani ridade loomiseks.
 
-Selles teema all varem kuvatud näidisskeemis tehakse eraldamine eelarveplaani summade ja peakorteri etapi "Alus"stsenaariumide üleviimiseks teise eelarveplaani ja stsenaariumidesse Müügiosakondade etapis "Hinnang". Järgmisel joonisel kuvatakse näidisskeemi asjakohane jaotis.
+Selles artiklis varem ilmuvas näites tehakse eraldamine, et kanda summad eelarveplaanist ja stsenaariumitest peakontori "Alus" etapis üle teise eelarveplaani ja müügiosakonna etapi "Hinnang" stsenaariumidesse. Järgmisel joonisel kuvatakse näidisskeemi asjakohane jaotis.
 
 [![Etapi eraldamine.](./media/stageallocation-204x300.png)](./media/stageallocation.png) 
 

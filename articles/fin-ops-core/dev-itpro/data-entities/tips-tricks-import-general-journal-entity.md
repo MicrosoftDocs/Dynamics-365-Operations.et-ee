@@ -1,6 +1,6 @@
 ---
 title: Üldise töölehe üksuse abil kannete importimine
-description: Selles teemas on näpunäited andmete päevaraamatusse importimise kohta, kasutades üksust Päevaraamat.
+description: Selles artiklis on näpunäited andmete importimise kohta päevaraamatusse, kasutades üksust Päevaraamat.
 author: rcarlson
 ms.date: 04/20/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 42bc804393d050e5ff722c46c9ce50ece54c5a0b
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 056bb860e3133bb8389410e29d20f32447799399
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065066"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8867607"
 ---
 # <a name="importing-vouchers-by-using-the-general-journal-entity"></a>Üldise töölehe üksuse abil kannete importimine
 
@@ -28,7 +28,7 @@ ms.locfileid: "8065066"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Selles teemas on näpunäited andmete päevaraamatusse importimise kohta, kasutades üksust Päevaraamat.
+Selles artiklis on näpunäited andmete importimise kohta päevaraamatusse, kasutades üksust Päevaraamat.
 
 Saate kasutada üldise töölehe üksust, et importida kandeid, millel on konto või vastaskonto tüüp **Pearaamat**, **Klient**, **Hankija** või **Pank**. Kande saab sisestada ühe reana, kasutades nii välja **Konto** kui ka välja **Vastaskonto**, või mitmerealisena kandena, kus kasutatakse ainult välja **Konto** (ja valik **Vastaskonto** jäetakse igal real tühjaks). Üldine töölehe üksus ei toeta iga konto tüüpi. Selle asemel on olemas muud üksused stsenaariumide puhul, kus on vajalikud erinevad kontotüüpide kombinatsioonid. Näiteks projektikande importimiseks kasutage projektikulu töölehe üksust. Iga üksus on loodud toetama kindlaid stsenaariume. See tähendab, et nende stsenaariumide puhul võivad olla üksustes saadaval lisaväljad. Siiski ei pruugi lisaväljad olla saadaval eri stsenaariumide puhul.
 

@@ -1,6 +1,6 @@
 ---
 title: Rendikirjete lisamine või kopeerimine (eelversioon)
-description: Selles teemas kirjeldatakse, kuidas luua uus rentimine, sisestades selle teabe vara rentimisest või kopeerides teabe olemasolevast rendikirjest.
+description: See artikkel kirjeldab, kuidas luua uus liising, sisestades selle kohta teabe Varade halduses või kopeerides teabe olemasolevast rendist.
 author: moaamer
 ms.date: 01/11/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: b09a87c7d4f5ba076647218c3586d17a13e6c558
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.openlocfilehash: 798ab3ece45ee6f21694a364cfb7a4ff14a9c8aa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7967922"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880928"
 ---
 # <a name="add-or-copy-leases-preview"></a>Rendikirjete lisamine või kopeerimine (eelversioon)
 
 [!include [banner](../includes/banner.md)]
 
-See teema selgitab, kuidas luua rentimine vara rentimisel nullist ja samuti kuidas luua rentimist kopeerides olemasolevast rendikirjest. Rendikirje nullist loomise toiming hõlmab teabe sisestamist uude rendikirjesse ja seejärel rentimise ajakava loomist. Pärast vähemalt ühe rendikirje häälestamist võib olla lihtsam kopeerida teave olemasolevast rendikirjest ja seejärel muuta seda teavet vastavalt vajadusele, et luua uus rendikirje.
+See artikkel selgitab, kuidas sisult nullist liisida, ja kuidas rendi luua, kopeerides olemasoleva rendi. Rendikirje nullist loomise toiming hõlmab teabe sisestamist uude rendikirjesse ja seejärel rentimise ajakava loomist. Pärast vähemalt ühe rendikirje häälestamist võib olla lihtsam kopeerida teave olemasolevast rendikirjest ja seejärel muuta seda teavet vastavalt vajadusele, et luua uus rendikirje.
 
 ## <a name="create-a-lease"></a>Rendi loomine
 
@@ -37,16 +37,16 @@ Vara rentimises rendikirje loomiseks tehke järgmist.
 
 Rendimakse alguskuupäev ei saa olla varasem kui rendi alguskuupäev. Kui sisestate liisingumakse alguskuupäeva, mis on varasem kui liisingu alguskuupäev, saate veateate.
 
-Vaikimisi on liisingu üksikasjade lehe üldine kiirkaardil oleva jaotuse maksesumma valik seatud suvandile Ei, kui vara parameetrilehe suvand Luba makse jaotus on **seatud** **·** **·** **·** **·** **valikule** **Jah**. 
+Vaikimisi on liisingu üksikasjade lehe üldine kiirkaardil oleva jaotuse maksesumma valik seatud suvandile **Ei** **,** **kui vara parameetrilehe suvand Luba makse jaotus on** **·** **·** **seatud** valikule **Jah.** 
 
-Kui suvandi **Jaotus** maksesumma väärtuseks **on seatud** **Jah, siis on** **maksegraafiku ridade** kiirkaardil maksesumma väli lukus. See seatakse maksesummade kogusummale, mis sisestatakse hiljem maksesumma **jaotuse** kataloogi.
+Kui suvandi **Jaotus maksesumma** väärtuseks **on** seatud Jah **,** siis on **maksegraafiku ridade kiirkaardi** väli Maksesumma lukus. See seatakse maksesummade kogusummale, mis sisestatakse hiljem maksesumma **jaotuse kataloogi**.
 
-Valige **maksesumma** jaotus, et avada leht, kus saate lisada liigendusi maksetüüpidele. **Maksesummale kogusummade** lisamise nupp teisaldab kogusummad **makse summa** väljale.
+Valige **maksesumma jaotus**, et avada leht, kus saate lisada liigendusi maksetüüpidele. Maksesummale **kogusummade lisamise** nupp teisaldab kogusummad makse **summa väljale**.
 
 > [!NOTE]
-> Kui lisate maksesumma üksikasjad ja seejärel valite paoklahvi (Esc), siis sisestatud summasid ei lisata maksegraafiku ridade kiirkaardi **väljale** **·** **Maksesumma**. Selle asemel talletatakse need **maksesumma jaotuse** dialoogiboksis. Kui soovite, et dialoogiboksis kuvatakse kogusumma, valige veerg Summa, valige ja hoidke all (või paremklõpsake) ning **seejärel valige veerg** **Kokku**. 
+> Kui lisate maksesumma **üksikasjad ja seejärel valite paoklahvi (Esc** **·** **), siis sisestatud summasid ei lisata maksegraafiku ridade kiirkaardi väljale Maksesumma.** Selle asemel talletatakse need maksesumma **jaotuse dialoogiboksis**. Kui soovite, et dialoogiboksis kuvatakse kogusumma, valige veerg Summa, **valige** ja hoidke all (või paremklõpsake) ning seejärel valige veerg **Kokku**. 
 
-Rea **kopeerimise** nupp kopeerib makse liigendust.
+Rea **kopeerimise nupp** kopeerib makse liigendust.
 
 ## <a name="create-a-lease-schedule"></a>Rendigraafiku loomine
 

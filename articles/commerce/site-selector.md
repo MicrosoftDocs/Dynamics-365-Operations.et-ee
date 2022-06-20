@@ -1,6 +1,6 @@
 ---
 title: Saidi valija moodul
-description: See teema käsitleb saidi valijamoodulit ja kirjeldab, kuidas lisada see saidi lehtedele moodulis Microsoft Dynamics 365 Commerce.
+description: See artikkel katab saidi valijamooduli ja kirjeldab, kuidas lisada see saidi lehtedele moodulis Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 05/04/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: a1954f6b2fea35d5138218e6a2a23ab1fd04c8fc
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: ef7753658f878fdf76c6a6beb82ce54e9c12e212
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710299"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884599"
 ---
 # <a name="site-picker-module"></a>Saidi valija moodul
 
 [!include [banner](includes/banner.md)]
 
-See teema käsitleb saidi valijamoodulit ja kirjeldab, kuidas lisada see saidi lehtedele moodulis Microsoft Dynamics 365 Commerce.
+See artikkel katab saidi valijamooduli ja kirjeldab, kuidas lisada see saidi lehtedele moodulis Microsoft Dynamics 365 Commerce.
 
 Kui ettevõttel on eri turgudel, piirkondadel ja lokaatidel erinevad saidid, on saidi kasutajatel vaja hõlpsasti liikuda saitide vahel ja valida enda eelistatud ostlemissait. Selle stsenaariumi järgimiseks võimaldab saidi valija moodul kasutajatel sirvida mitmel saidil. Saidi valija on [soovitatav ka siis, kui geotuvastus](geo-detection-redirection.md) ja ümbersuunamine on teie e-kaubanduse saidi puhul kasutusele võetud, nii et klientidel on võimalus alistada saidi eelistus, [mida nad riigi/regiooni komplektaatori mooduli](country-region-picker-module.md) abil näitavad. 
 

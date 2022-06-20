@@ -1,6 +1,6 @@
 ---
 title: Tootmise planeerimine
-description: Selles teemas kirjeldatakse tootmise planeerimist ja selgitatakse, kuidas muuta plaanitud tootmistellimusi Planning Optimizationi abil.
+description: See artikkel kirjeldab tootmise planeerimist ja selgitab plaanitud tootmistellimuste muutmise plaanimise optimeerimise abil.
 author: t-benebo
 ms.date: 06/01/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-12-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 8f23cb62512dfd718fe199867a4b21aaa0eca3fd
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 151aa3688c570ea6ec282c297ed18288dd886131
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469054"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873778"
 ---
 # <a name="production-planning"></a>Tootmise planeerimine
 
@@ -24,11 +24,11 @@ ms.locfileid: "8469054"
 
 Planning Optimization toetab mitut tootmisstsenaariumi. Kui migreerite olemasolevalt sisse-ehitatud koondplaneerimise mootorilt, on oluline, et teaksite mõnda muutunud käitumist.
 
-Järgmises videos antakse lühike sissejuhatus mõnedele selles teemas käsitletud mõistetele: [Dynamics 365 Supply Chain Management: optimeerimise täiustuste planeerimine](https://youtu.be/u1pcmZuZBTw).
+Järgmises videos antakse lühike sissejuhatus mõnedele selles artiklis nimetatud mõistetele: optimeerimise [Dynamics 365 Supply Chain Management optimeerimise täiustuste planeerimine](https://youtu.be/u1pcmZuZBTw).
 
 ## <a name="turn-on-this-feature-for-your-system"></a>Selle funktsiooni sisselülitamine teie süsteemi jaoks
 
-Kui teie süsteemis ei ole veel selles teemas kirjeldatud funktsioone, avage [Funktsioonihaldus](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ja lülitage funktsioon *Plaanitud optimeerimine plaanitud tootetellimustele* sisse.
+Kui teie süsteem ei kaasa juba selles artiklis kirjeldatud funktsioone, [minge](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) funktsioonihalduse ja lülitage *sisse planeeritud tootmistellimused planeerimise optimeerimise funktsiooni* jaoks.
 
 ## <a name="planned-production-orders"></a>Plaanitud tootmistellimused
 
@@ -65,7 +65,7 @@ Kui soovite muuta plaanitud tellimuse teavet ja vaadata mõju seotud materjalin�
 2. Kinnitage plaanitud tellimus.
 3. Käivitage koondplaneerimine.
 
-Koondplaneerimise käivitamisel ei tohiks kasutada filtreid, kui kaasatud on plaanitud tootmistellimused. Lisateabe saamiseks vaadake selle teema järgnevaid jaotisi [Filtrid](#filters).
+Koondplaneerimise käivitamisel ei tohiks kasutada filtreid, kui kaasatud on plaanitud tootmistellimused. Lisateavet vt selle artikli jaotisest [Filtrid](#filters).
 
 > [!NOTE]
 > Kui plaanitud tellimuse tarnekuupäev muudetakse hilisemaks kuupäevaks, võib nõudlus olla seotud uue plaanitud tellimusega. Selline käitumine ilmneb siis, kui uus tarnekuupäev põhjustab seotud nõudluse viivitusi, kuid vastavalt täitmisaja sätetele võib viivitusi vältida.

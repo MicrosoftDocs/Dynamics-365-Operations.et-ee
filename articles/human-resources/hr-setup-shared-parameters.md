@@ -1,6 +1,6 @@
 ---
 title: Ühisparameetrite konfigureerimine
-description: Käesolev teema kirjeldab inimressursside parameetrite seadistamist juriidiliste isikute lõikes.
+description: See artikkel selgitab juriidiliste isikute vahel inimressursside parameetrite seadistamist.
 author: twheeloc
 ms.date: 10/28/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e59745e01905be50e6908fb9587b8afc17604382
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: c0d8dbca302d90cc402feb4715a6fcc2b935d8b1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692110"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906178"
 ---
 # <a name="configure-shared-parameters"></a>Ühisparameetrite konfigureerimine
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Peate seadistama ühised parameetrid kirjetele, mida jagatakse ettevõtete vahel, nt Positsiooni **kirjed**. Käesolev teema kirjeldab inimressursside parameetrite seadistamist juriidiliste isikute lõikes.
+Peate seadistama ühised parameetrid kirjetele, mida jagatakse ettevõtete vahel, nt Positsiooni **kirjed**. See artikkel selgitab juriidiliste isikute vahel inimressursside parameetrite seadistamist.
 
 Teatud tüüpi kirjed, nt Positsiooni **kirjed**, on mitme ettevõtte ühiskasutuses. Nende kirjete puhul peate seadistama ühiskasutatavad parameetrid. Näiteks inimressursside jagatud **parameetrite lehte** kasutatakse inimressursside parameetrite häälestamiseks juriidiliste isikute lõikes. 
 

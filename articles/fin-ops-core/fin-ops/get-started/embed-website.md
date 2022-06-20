@@ -1,6 +1,6 @@
 ---
 title: Kolmanda osapoole rakenduste manustamine
-description: Selles teemas seletatakse, kuidas manustada kliendis kolmandate osapoolte rakendusi, et suurendada toote funktsionaalsust.
+description: See artikkel selgitab, kuidas manustada kolmanda osapoole rakendusi toote funktsionaalsuse suurendamiseks.
 author: jasongre
 ms.date: 09/13/2021
 ms.topic: article
@@ -13,20 +13,20 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2021-04-30
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 89f101bcf33080f6a73664fe7c3fe6719de04a4e
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: 3c07befc7150ff0a121fd3aaa0b5233df9f431e5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488230"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868604"
 ---
 # <a name="embed-third-party-apps"></a>Kolmanda osapoole rakenduste manustamine
 
 [!include [banner](../includes/banner.md)]
 
-Paljud kliendid kasutavad oma äritegevuses mitmesuguseid rakendusi. Mõned neist rakendustest on kolmandate osapoolte veebirakendused, mis töötavad koos Finance and Operations rakendustega. Sujuvama kasutajakogemuse võimaldamiseks saate kasutada **Täieliku lehekülje rakenduste** funktsiooni, et neid kolmanda osapoole rakendusi otse oma rakendustesse Finance and Operations manustada (eeldusel, et kolmanda osapoole rakendused võimaldavad end manustada). Sel viisil pääsevad kasutajad ligi veebisaitidele ja rakendustele, mida nad vajavad ilma, et nad vahetaks vahekaarte või aknaid.
+Paljud kliendid kasutavad oma äritegevuses mitmesuguseid rakendusi. Mõned neist rakendustest on kolmanda osapoole veebirakendused, mis töötavad koos finantside ja toimingute rakendustega. Kasutaja mugavamaks kasutamiseks saate kasutada täieliku lehekülje rakenduste funktsiooni nende kolmanda osapoole rakenduste otse oma finantside ja toimingute rakendustesse kaasamiseks (eeldusel, **et** kolmanda osapoole rakendused lubavad end manustatud olla). Sel viisil pääsevad kasutajad ligi veebisaitidele ja rakendustele, mida nad vajavad ilma, et nad vahetaks vahekaarte või aknaid.
 
-Enne kui saate kolmanda osapoole rakendused tootele manustada, peate funktsioonihalduses lülitama sisse funktsiooni **Täieliku lehekülje rakenduste** funktsioonihalduse. Seejärel saate kasutada üht järgmistest meetoditest, et manustada kolmanda osapoole rakendus või veebisait. Need meetodid on analoogsed meetoditele, mida kasutatakse Microsoft Power Apps lõuendi rakenduste rakendustesse Finance and Operations manustamiseks.
+Enne kui saate kolmanda osapoole rakendused tootele manustada, peate funktsioonihalduses lülitama sisse funktsiooni **Täieliku lehekülje rakenduste** funktsioonihalduse. Seejärel saate kasutada üht järgmistest meetoditest, et manustada kolmanda osapoole rakendus või veebisait. Need meetodid on analoogsed meetoditele, mida kasutatakse lõuendi Microsoft Power Apps rakenduste kaasamiseks rakendustest Finantsid ja Toimingud.
 
 - Manustage rakendus või veebisait olemasoleval lehel uue vahekaardina (liigendtabel, kiirkaart, rakendus või tööruumi jaotis).
 - Looge uus täislehe kasutuskogemus töölauarakenduse või veebisaidi jaoks.
@@ -53,14 +53,14 @@ Kasutage seda protseduuri, kui soovite täiendada süsteemi olemasolevat lehekü
     > - Rakendus või veebisait peab olema konfigureeritud nii, et see lubaks end manustada.
 
 6. Valige **Salvesta**, et lehele rakendus manustada. Rakendus lisatakse grupi viimase vahekaardi või jaotisena.
-7. Kinnitage, et rakendust kuvatakse nii, nagu sooviti. Kui rakendust ei renderdata, vaadake selles teemas jaotist [Tõrkeotsing](#troubleshooting).
+7. Kinnitage, et rakendust kuvatakse nii, nagu sooviti. Kui rakendust ei renderdata, vaadake selles artiklis [jaotist](#troubleshooting) Tõrkeotsingu.
 8. Avage vaatevalija ja valige suvand **Salvesta** (kui rakendus tuleks seostada praeguse vaatega) või **Salvesta nimega** (rakenduse salvestamiseks erineva vaate juurde).
 
     Kui lehel ei ole vaatevalijat (nt kui lehekülg on dialoogiboks või tööruum), võite selle sammu vahele jätta.
 
 ## <a name="embed-a-website-as-a-full-page-experience-from-the-dashboard"></a>Manusta veebisait armatuurlauda täislehekogemusena
 
-Kasutage seda protseduuri, kui rakendus, mida soovite manustada ei ole seotud olemasoleva leheküljega või kui soovite rakenduse jaoks ainult kogu lehe kogemust Finance and Operations rakenduses.
+Kasutage seda protseduuri, kui rakendus, mida soovite manustada, ei ole seotud olemasoleva lehega või kui soovite rakenduse jaoks ainult tervet lehekülge kogemust rakenduse finantside ja toimingute rakenduse sees.
 
 1. Avage armatuurlaud.
 2. Valige ja hoidke lehte all (või paremklõpsake) armatuurlaual, valige **Isikupärastamine** ja seejärel valige **Lisa lehekülg**.
@@ -75,7 +75,7 @@ Kasutage seda protseduuri, kui rakendus, mida soovite manustada ei ole seotud ol
     > - Rakendus või veebisait peab olema konfigureeritud nii, et see lubaks end manustada.
 
 5. Valige **Salvestamine**, et lisada rakendus armatuurlauale uue paanina.
-6. Valige armatuurlaual uus paan ja veenduge, et rakendust kuvatakse nii, nagu oodatud. Kui rakendust ei renderdata, vaadake selles teemas jaotist [Tõrkeotsing](#troubleshooting).
+6. Valige armatuurlaual uus paan ja veenduge, et rakendust kuvatakse nii, nagu oodatud. Kui rakendust renderdatakse, vaadake selles artiklis [hiljem](#troubleshooting) jaotist Tõrkeotsingu.
 
 ## <a name="sharing-embedded-apps"></a>Manustatud rakenduste ühiskasutusse andmine
 
@@ -89,7 +89,7 @@ Pärast rakenduse manustatud kasutamist, kasutades ühte eelmistes jaotistes kir
 
 ## <a name="viewing-embedded-apps"></a>Manustatud rakenduste kuvamine
 
-Manustatud lõuendirakenduse kuvamiseks Finance and Operationsi rakenduste lehel avage manustatud rakendust sisaldav leht. Pidage meeles, et mõndadel lehtedel on rakendustele võimalik juurde pääseda standardsel toimingupaanil asuva nupu **Power Apps** kaudu. Teise võimalusena võidakse need kuvada otse lehel uue vahekaardi, kiirkaardi või labana või tööruumis uue jaotisena.
+Manustatud rakenduse vaatamiseks finance ja toimingute rakenduste lehel avage manustatud rakendusega lehekülg. Pidage meeles, et mõndadel lehtedel on rakendustele võimalik juurde pääseda standardsel toimingupaanil asuva nupu **Power Apps** kaudu. Teise võimalusena võidakse need kuvada otse lehel uue vahekaardi, kiirkaardi või labana või tööruumis uue jaotisena.
 
 ## <a name="editing-or-removing-embedded-apps"></a>Manustatud rakenduste redigeerimine või eemaldamine
 
@@ -126,6 +126,6 @@ Kui veebisaiti ei renderdata õigesti pärast seda, kui see on manustatud finant
 
 ### <a name="developer-modeling-a-website-on-a-form"></a>[Arendaja] Veebilehe modelleerimine vormil
 
-Kuigi see teema keskendub isikupärastamise kaudu kolmanda osapoole rakenduste või veebisaitide kaasamiseks, saavad arendajad neid vormile manustada, kasutades Visual Studio arenduskogemust. Lihtsalt lisage vormile **WebsiteHostControli** juhtelement. Juhtelemendil saadaolevad metaandmete atribuudid pakuvad samu võimalusi nagu isikupärastamise kogemuski.
+Kuigi see artikkel keskendub isikupärastamise kaudu kolmanda osapoole rakenduste või veebisaitide kaasamiseks, Visual Studio saavad arendajad neid vormile manustada, kasutades arenduskogemust. Lihtsalt lisage vormile **WebsiteHostControli** juhtelement. Juhtelemendil saadaolevad metaandmete atribuudid pakuvad samu võimalusi nagu isikupärastamise kogemuski.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

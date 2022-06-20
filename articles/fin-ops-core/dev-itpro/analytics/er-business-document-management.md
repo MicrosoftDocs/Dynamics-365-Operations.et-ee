@@ -1,6 +1,6 @@
 ---
 title: Äridokumentide halduse ülevaade
-description: Siin teemas on ER-raamistiku äridokumendi halduri kasutamisõpetus.
+description: See artikkel annab teavet selle kohta, kuidas kasutada ER-raamistiku äridokumendihalduse funktsiooni.
 author: NickSelin
 ms.date: 04/23/2021
 ms.topic: overview
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: faea9d4d9b3fc8f3f1474b6bb2a8dc31cdc22511
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 9147a2e81329d5bf9103b6bfe067d166c1471835
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986247"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903613"
 ---
 # <a name="business-document-management-overview"></a>Äridokumentide halduse ülevaade
 
@@ -40,7 +40,7 @@ Praegu kasutatakse äridokumendi halduse funktsiooni vaid pilve juurutamiseks. K
 
 Äridokumentide haldusega Exceli või Wordi vormingutes mallide muutmiseks Microsoft Office’i töölauarakendustega, peab teil olema paigaldatud Microsoft Office 2010 või uuem versioon. Seda toetatakse pilvepõhistes ja asutusesisestes juurutustes.
 
-Äridokumendi halduse kasutamiseks mallide redigeerimiseks Exceli või Wordi vormingus rakenduste abil, peab teil Microsoft 365 veebi kordustellimuse Microsoft 365 jaoks olema Office. See on pilvepõhises juurutamises toetatud.
+Äridokumendi halduse kasutamiseks mallide redigeerimiseks Exceli või Wordi Microsoft 365 vormingus rakenduste abil, peab teil veebi kordustellimuse Microsoft 365 jaoks olema Office. See on pilvepõhises juurutamises toetatud.
 
 ## <a name="business-document-availability"></a>Äridokumendi saadavus
 
@@ -50,7 +50,7 @@ Kõigi 2020. aasta oktoobri väljalaske jaoks kavandatud aruannete põhjalikku l
 
 Tulevastes väljalasetes muutub veel aruandeid kättesaadavaks. Lisaaruannete eriteatised saadetakse eraldi. Teavet selle kohta, kuidas praegu saadaolevate aruannete loendit vaadata, vt allpool jaotises [Seadistatavate äridokumentide toetamiseks rakenduses Finance välja antud ER-i konfiguratsioonide loend](#list-of-configurations-cbd).
 
-Lisateabe saamiseks selle funktsiooni kohta läbige siinse teema näide.
+Selle funktsiooni kohta lisateabe saamiseks viige selle artikli näide lõpule.
 
 ## <a name="configure-er-parameters"></a>Elektroonilise aruandluse parameetrite konfigureerimine
 
@@ -60,7 +60,7 @@ Kuna äridokumendi haldus põhineb ER-raamistikul, peate sellega töötamiseks s
 
 ## <a name="import-er-solutions"></a>Impordi ER-lahendused
 
-Selle protseduuri näites on kasutatud elektroonilise aruandluse näidiskonfiguratsioone. Peate importima oma praegusesse Dynamics 365 Finance’i eksemplari elektroonilise aruandluse konfiguratsioonid, mis sisaldavad äridokumentide malle, mida saab äridokumentide haldust kasutades redigeerida. Selle protseduuri lõpule viimiseks laadige järgmised failid alla ja salvestage need seejärel seadmesse.
+Selle protseduuri näites on kasutatud elektroonilise aruandluse näidiskonfiguratsioone. Peate importima oma Dynamics 365 Finance'i praegusesse eksemplari ER-i konfiguratsioonid, mis sisaldavad äridokumendi malle, mida saab redigeerida Äridokumendihalduse abil. Selle protseduuri lõpule viimiseks laadige järgmised failid alla ja salvestage need seejärel seadmesse.
 
 **ER-näidiskliendi arveldamislahendus**
 
@@ -231,7 +231,7 @@ Järgmine joonis kujutab, mida äridokumentide halduse tööruum pakub kasutajal
 - rolli **Süsteemiadministraator** määratud kasutajad;
 - kasutajad, kes on määratud mistahes rolli, mis on seadistatud täitma seda kohustust, **Halda äridokumentide malle** (AOT nimi **ERBDManageTemplates**).
 
-Vabas tekstis arve mallide muutmiseks äridokumentide halduse tööruumis toimige järgmiselt. Enne selle toimingu lõpetamist pead lõpetama selle teema kõik eelnevad toimingud.
+Vabas tekstis arve mallide muutmiseks äridokumentide halduse tööruumis toimige järgmiselt. Enne selle protseduuri sooritamist peate olema lõpule viinud kõik selle artikli eelnevad protseduurid.
 
 1. Logige sisse kasutajana, kellel on juurdepääs Äridokumendi halduse tööruumile.
 2. Avage äridokumentide halduse tööruum.
@@ -303,7 +303,7 @@ Avaneb leht **BDM malli muutja**. Valitud malli saab muuta internetis Microsoft 
 
 ![Äridokumentide halduse malli muutmisleht.](./media/BDM-Overview-EditingLayout1.png)
 
-### <a name="edit-a-template-in-microsoft-365"></a><a name="EditInOffice365"></a>Malli muutmine teenuses Microsoft 365
+### <a name="edit-a-template-in-microsoft-365"></a><a name="EditInOffice365"></a>Malli redigeerimine rakenduses Microsoft 365
 
 Te ei saa Microsoft 365 abil malli muuta. Näiteks muuda veebilehitsejast kasutatavas Office’is malli päise välja küsimuste font **Tavaline** fondiks **Paks**. Need muudatused salvestatakse automaatselt malli peamises salvestusruumis (tavaliselt Azure bloobi salvestusruum) hoitava muudetava malli jaoks. See on konfigureeritud ER raamistiku jaoks.
 
@@ -403,11 +403,11 @@ Kui muudate praegu aktiivse pakkuja ER-vormingu malli, pakutakse võimalust tüh
 
 ## <a name="frequently-asked-questions"></a>Korduma kippuvad küsimused
 
-### <a name="i-selected-edit-document-but-instead-of-going-to-the-bdm-template-editor-page-in-finance-i-was-sent-to-the-microsoft-365-webpage"></a>Valisin dokumendi redigeerimine, kuid finantside BDM-i malliredaktori lehele saatmise asemel saadeti teid Microsoft 365 veebilehele.
+### <a name="i-selected-edit-document-but-instead-of-going-to-the-bdm-template-editor-page-in-finance-i-was-sent-to-the-microsoft-365-webpage"></a>Valisin dokumendi redigeerimine, kuid finantside BDM-i malliredaktori lehele saatmise asemel saadeti teid veebilehele Microsoft 365.
 
-See probleem on teadaolev probleem, mis hõlmab Microsoft 365 ümbersuunamist. See ilmneb, kui Microsoft 365 logite esmakordselt alla. Selle probleemi lahendamiseks valige oma brauseris **Tagasi**, et naasta eelmisele lehele.
+See probleem on teadaolev probleem, mis hõlmab Microsoft 365 ümbersuunamist. See ilmneb, kui logite Microsoft 365 esmakordselt alla. Selle probleemi lahendamiseks valige oma brauseris **Tagasi**, et naasta eelmisele lehele.
 
-### <a name="i-understand-how-to-edit-a-template-by-using-microsoft-365-in-the-first-application-session-and-how-to-use-the-template-in-the-second-application-session-and-adjust-the-template-to-see-how-my-changes-affect-the-generated-business-document-can-i-use-the-office-desktop-application-in-the-same-way"></a>Ma mõistan, kuidas redigeerida malli, kasutades esimest rakenduse seanssi, ja kuidas kasutada malli teises rakendusseansis ja korrigeerida malli, et näha, kuidas minu muudatused mõjutavad Microsoft 365 loodud äridokumenti. Kas ma saan kasutada Office’i töölauarakendust samal viisil?
+### <a name="i-understand-how-to-edit-a-template-by-using-microsoft-365-in-the-first-application-session-and-how-to-use-the-template-in-the-second-application-session-and-adjust-the-template-to-see-how-my-changes-affect-the-generated-business-document-can-i-use-the-office-desktop-application-in-the-same-way"></a>Ma mõistan, Microsoft 365 kuidas redigeerida malli, kasutades esimest rakenduse seanssi, ja kuidas kasutada malli teises rakendusseansis ja korrigeerida malli, et näha, kuidas minu muudatused mõjutavad loodud äridokumenti. Kas ma saan kasutada Office’i töölauarakendust samal viisil?
 
 Jah, saate. Esimeses rakenduse seansis valige **Avage töölauarakenduses**. Mall salvestatakse ajutisse faili salvestusruumi ja avatakse Office’i töölaua rakendusega. Järgmisena täitke järgmised etapid, et näha eelvaadet loodud äridokumendi malli muudatustest:
 

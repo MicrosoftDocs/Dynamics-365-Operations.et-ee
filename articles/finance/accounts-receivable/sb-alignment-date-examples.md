@@ -1,6 +1,6 @@
 ---
 title: Joondamiskuupäeva stsenaariumid
-description: See teema pakub näiteid, mis näitavad, kuidas joonduse kuupäevad kordustellimuse arvelduses töötavad.
+description: See artikkel pakub näiteid, mis näitavad, kuidas joonduse kuupäevad kordustellimuse arvelduses töötavad.
 author: JodiChristiansen
 ms.date: 11/04/2021
 ms.topic: article
@@ -14,16 +14,16 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 91480fecd16cf8417722df73c28bbd81d029fb07
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 102e3a104be5be287f914172160e95aff65d0b18
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690469"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872611"
 ---
 # <a name="alignment-date-scenarios"></a>Joondamiskuupäeva stsenaariumid
 
-See teema pakub näiteid, mis näitavad, kuidas joonduse kuupäevad kordustellimuse arvelduses töötavad.
+See artikkel pakub näiteid, mis näitavad, kuidas joonduse kuupäevad kordustellimuse arvelduses töötavad.
 
 Nende näidete puhul on arveldusgraafiku arvelduse üksikasja joondamise kuupäev 31. oktoober 2019. Esimene rea arvelduse üksikasi lõpeb 31. oktoober 2019 ja jagatakse sellele vastavalt. Rida uuendatakse automaatselt, kasutades 11. novembri alguskuupäeva.
 
@@ -149,7 +149,7 @@ Selle stsenaariumi puhul muudetakse joonduskuupäevaks 31. detsember 2021.
 
 | Arvelduse alguskuupäev | Arvelduse lõppkuupäev | Eelmine lugemine | Praegune näit | Kogus sisestatud | Vaba kogus | Arveldatav kogus | Ühiku hind |
 |---|---|---|---|---|---|---|---|
-| 6/22/2019 | 6/22/2019 | | | 1.00 | | 1.00 | 0,00 |
+| 6/22/2019 | 6/22/2019 | | | 1.00 | | 1.00 | 0.00 |
 | 8/1/2019 | 31.12.2020 | | | 1.00 | | 1.00 | 4,250.00 |
 
 ## <a name="scenario-8-manual-dates-and-multiple-years"></a>Stsenaarium 8: käsitsi kuupäevad ja mitu aastat
@@ -163,7 +163,7 @@ Tugi ja uuendamine on seadistatud järgmiste andmetega:
 
 | Arvelduse alguskuupäev | Arvelduse lõppkuupäev | Eelmine lugemine | Praegune näit | Kogus sisestatud | Vaba kogus | Arveldatav kogus | Ühiku hind |
 |---|---|---|---|---|---|---|---|
-| 6/22/2019 | 6/22/2019 | | | 1.00 | | 1.00 | 0,00 |
+| 6/22/2019 | 6/22/2019 | | | 1.00 | | 1.00 | 0.00 |
 | 7/1/2020 | 12/31/2021 | | | 1.00 | | 1.00 | 375.00 |
 | 1.1.2022 | 12/31/2022 | | | 1.00 | | 1.00 | 250,00 |
 | 1/1/2023 | 12/31/2023 | | | 1.00 | | 1.00 | 250,00 |
@@ -180,7 +180,7 @@ Tugi ja uuendamine on seadistatud järgmiste andmetega:
 
 | Arvelduse alguskuupäev | Arvelduse lõppkuupäev | Eelmine lugemine | Praegune näit | Kogus sisestatud | Vaba kogus | Arveldatav kogus | Ühiku hind |
 |---|---|---|---|---|---|---|---|
-| 6/22/2019 | 6/22/2019 | | | 1.00 | | 1.00 | 0,00 |
+| 6/22/2019 | 6/22/2019 | | | 1.00 | | 1.00 | 0.00 |
 | 7/1/2020 | 12/31/2021 | | | 1.00 | | 1.00 | 375.00 |
 | 1.1.2022 | 12/31/2022 | | | 1.00 | | 1.00 | 250,00 |
 | 1/1/2023 | 12/31/2023 | | | 1.00 | | 1.00 | 250,00 |

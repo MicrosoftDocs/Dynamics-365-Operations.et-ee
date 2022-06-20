@@ -1,6 +1,6 @@
 ---
 title: Mis on Dynamics 365 Human Resourcesis uut või mida on muudetud (22. oktoober 2020)
-description: Selles teemas kirjeldatakse Microsoft Dynamics 365 Human Resourcesi 22. oktoobri 2020 uusi või muutunud funktsioone.
+description: See artikkel kirjeldab funktsioone, mis on Dynamics 365 Human Resources microsoftis uued või muutunud 22. oktoober 2020 jaoks.
 author: jcart1106
 ms.date: 10/22/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b36354b14faf59aacb4a619dfb6f243335e6a297
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: d58c8d5eab86779a764cee5a3ee8ca17ade471de
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063514"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862797"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-october-22-2020"></a>Mis on Dynamics 365 Human Resourcesis uut või mida on muudetud (22. oktoober 2020)
 
@@ -27,7 +27,7 @@ ms.locfileid: "8063514"
 
 
 
-Selles teemas kirjeldatakse Dynamics 365 Human Resourcesi uusi, muutunud või peatselt tulevaid funktsioone. Meie värskendamisprotsessi ja graafiku kohta lisateabe saamiseks vt teemat [Värskendamisprotsess](hr-admin-setup-update-process.md).
+See artikkel kirjeldab funktsioone, mis on uued, muutunud või tulevad varsti Dynamics 365 Human Resources. Meie värskendamisprotsessi ja graafiku kohta lisateabe saamiseks vt teemat [Värskendamisprotsess](hr-admin-setup-update-process.md).
 
 Lisateavet uute funktsioonide ja nende eeldatava üldise kättesaadavuse kuupäevade kohta leiate teemast [Dynamics 365 Human Resourcesi 2020. aasta 2. väljalaskevoo ülevaade](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/).
 
@@ -41,7 +41,7 @@ Selle väljalaskega tulevad üldiselt kättesaadavaks järgmised funktsioonid.
 
 | Funktsioon | Väljaandmisplaan | Dokumentatsioon |
 | --- | --- | --- |
-| Platform update 10.0.14(38) | -- | [Finance and Operationsi rakenduste versiooni 10.0.14 platvormi värskendused (november 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-14.md) |
+| Platform update 10.0.14(38) | -- | [Finantside ja toimingute rakenduste versiooni 10.0.14 platvormi värskendused (november 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-14.md) |
 | Organisatsiooni ja personalihalduse töövoogude kasutuskogemuse täiustused | [Organisatsiooni ja personalihalduse töövoo kasutuskogemuse täiustused](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements) | [Konfiguratsiooni suvand loendi „Mulle määratud tööüksused” paigutamiseks](./hr-whats-new-2020-09-03.md#configuration-option-to-position-work-items-assigned-to-me-list-477004) |
 
 
@@ -50,9 +50,9 @@ Selle väljalaskega tulevad üldiselt kättesaadavaks järgmised funktsioonid.
 See väljalase hõlmab järgmisi veaparandusi.
 
 > [!NOTE]
-> Meie eesmärk on edastada teile see teave esimesel võimalusel. Võime värskendada seda teemat, et lisada sellesse versioonijärku pärast selle teema esialgset avaldamist tehtud veaparandusi.
+> Meie eesmärk on edastada teile see teave esimesel võimalusel. Võime seda artiklit värskendada, et kaasata vigaparandused, mis muutsid selle järku pärast selle artikli algset avaldamist.
 
-| Väljaande number| Väljasta  | Kirjeldus|
+| Väljaande number| Probleem  | Kirjeldus|
 | --- | --- | --- |
 | 437922 | FMLA tundide importimine DMF-üksuse abil põhjustab kirjutuskaitstud tõrke. | FMLA tundide üksuse kasutamine FMLA juhtumiga seostatud tundide importimiseks nurjus. Lisasime loogika tagamaks, et imporditud tunnid ei ületaks juhtumi järelejäänud tunde. |
 | 512019 | Vale **Viimase edasikandmise** summa. | Lehel **Vaba aeg** väärtuse **Kuupäevaga** muutmine järgmise eelarveperioodi esimesele päevale, kuvab vale **Viimase edasikandmise** summa tüübile **Iga-aastane puhkus**. Nüüd kuvatakse õige summa. |

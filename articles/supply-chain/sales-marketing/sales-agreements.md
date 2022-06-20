@@ -1,6 +1,6 @@
 ---
 title: Müügilepingute ülevaade
-description: Teema sisaldab teavet müügilepingute kohta. Müügileping on lepe, mis kohustab klienti aja jooksul kindlates kogustes või kindla summa eest tooteid ostma ja võimaldab seda teha erihinnaga või allahindlustega.
+description: Selles artiklis antakse teavet müügilepingute kohta. Müügileping on lepe, mis kohustab klienti aja jooksul kindlates kogustes või kindla summa eest tooteid ostma ja võimaldab seda teha erihinnaga või allahindlustega.
 author: Henrikan
 ms.date: 07/25/2019
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c36ace4fe61d4f3add7750c66594c0f1060f8127
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 3e84b8be597870deea3beaf1bdc4a98021b7f135
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694364"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903836"
 ---
 # <a name="sales-agreements-overview"></a>Müügilepingute ülevaade
 
 [!include [banner](../includes/banner.md)]
 
-Teema sisaldab teavet müügilepingute kohta. Müügileping on lepe, mis kohustab klienti aja jooksul kindlates kogustes või kindla summa eest tooteid ostma ja võimaldab seda teha erihinnaga või allahindlustega.
+Selles artiklis antakse teavet müügilepingute kohta. Müügileping on lepe, mis kohustab klienti aja jooksul kindlates kogustes või kindla summa eest tooteid ostma ja võimaldab seda teha erihinnaga või allahindlustega.
 
 Müügileping on leping, mis kohustab kliendi ostma tooteid konkreetses koguses või kindla summa eest teatud aja jooksul, saades selle eest erihindu, eriallahindlusi ja muid eritingimusi, nagu makse- ja tarnetingimused. Müügilepingu hinnad ja allahindlused tühistavad kõik hinnad ja allahindlused, mis on märgitud kõigis olemasolevates kaubanduslepetes.  
 

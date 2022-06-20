@@ -1,6 +1,6 @@
 ---
 title: Vara kooslused
-description: Selles teemas kirjeldatakse mooduli Asse Management vara kooslusi (BOM).
+description: Selles artiklis kirjeldatakse varahalduses vara kooslusi.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0430891607ac4558c91b86318aee318d0076007daf59a32eda65cb411d274b3a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: MT
+ms.openlocfilehash: 71b861ec31e704e001aab29245b9e24ce8beb0de
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6751981"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882775"
 ---
 # <a name="asset-boms"></a>Vara kooslused
 
@@ -28,7 +28,7 @@ ms.locfileid: "6751981"
 
  
 
-Selles teemas kirjeldatakse mooduli Asse Management vara kooslusi (BOM). Lehel **Vara kooslus** kuvatakse kõigi nende kaupade (varuosad ja muud kaubad) loend, mida vara kogu eluea jooksul kasutatakse. Uue vara loomisel peaksite kaaluma vara koosluse seadistamist seadistusprotseduuri osana. Sel viisil saate jälgida vara kaubaajalugu loomiskuupäevast alates.
+Selles artiklis kirjeldatakse varahalduses vara kooslusi. Lehel **Vara kooslus** kuvatakse kõigi nende kaupade (varuosad ja muud kaubad) loend, mida vara kogu eluea jooksul kasutatakse. Uue vara loomisel peaksite kaaluma vara koosluse seadistamist seadistusprotseduuri osana. Sel viisil saate jälgida vara kaubaajalugu loomiskuupäevast alates.
 
 Kui olete hooldustöö lõpule viinud ja kauba tarbimine on töökäsul registreeritud, saate jälgida varuosade ja muude põhivarana kasutatavate kaupade tarbimist. See funktsioon võimaldab teil hoida kõigi oma varade puhul täielikku kauba tarbimise kirjet. Näiteks saate seda kirjet kasutada, et jälgida, kas konkreetne varuosa on sageli asendatud või jälgida varuosi või muid kaupu, mida praegu varas kasutatakse.
 

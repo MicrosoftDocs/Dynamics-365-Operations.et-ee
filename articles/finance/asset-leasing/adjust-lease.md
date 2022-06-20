@@ -1,6 +1,6 @@
 ---
 title: Rendikirjete korrigeerimine
-description: Teema selgitab, kuidas korrigeerida rendikirjet. Korrigeerimine võib olla vajalik, kui rendiperioodi muudetakse, renti pikendatakse või muud asjaolud muutuvad.
+description: Artikkel selgitab, kuidas renti korrigeerida. Korrigeerimine võib olla vajalik, kui rendiperioodi muudetakse, renti pikendatakse või muud asjaolud muutuvad.
 author: moaamer
 ms.date: 03/18/2022
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 89ec876c9bd967107635eb2955209a4dcb95cde5
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 48d1a261a43d6e3a68dfc0aae6f06c0d7d6b82db
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8712170"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898323"
 ---
 # <a name="adjust-leases"></a>Rendikirjete korrigeerimine
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Teema selgitab, kuidas korrigeerida rendikirjet. Korrigeerimine võib olla vajalik, kui rendiperioodi muudetakse, renti pikendatakse või muud asjaolud muutuvad. Vara rentimine vastab raamatupidamise standardite kodeerimise teema 842 (ASC 842) ja rahvusvahelise finantsaruandluse standardi 16 (IFRS 16) ette nähtud rendikirje muutmise juhistele. ASC-842-20-15-1 määratleb rendikirje muudatused kui mis tahe lepingutingimuse muudatuse, mis põhjustab rendi ulatuse ja tasu muudatuse. IFRS 16 lõikes 39 on sätestatud, et rentnik peab rendikohustise uuesti hindama, et see vastaks rendimaksete muudatustele.
+Artikkel selgitab, kuidas renti korrigeerida. Korrigeerimine võib olla vajalik, kui rendiperioodi muudetakse, renti pikendatakse või muud asjaolud muutuvad. Vara rentimine vastab raamatupidamise standardite kodeerimise teema 842 (ASC 842) ja rahvusvahelise finantsaruandluse standardi 16 (IFRS 16) ette nähtud rendikirje muutmise juhistele. ASC-842-20-15-1 määratleb rendikirje muudatused kui mis tahe lepingutingimuse muudatuse, mis põhjustab rendi ulatuse ja tasu muudatuse. IFRS 16 lõikes 39 on sätestatud, et rentnik peab rendikohustise uuesti hindama, et see vastaks rendimaksete muudatustele.
 
 Organisatsioonide puhul, mis järgivad standardeid ASC 842 või IFRS 16, arvestatakse rent uuesti, et kajastada tulevaste rendimaksete minimaalse eelseatud väärtuse (PVFMLP) muudatus. Kui PVFMLP suureneb, debiteeritakse kasutamisõiguse esemeks oleva vara konto loodav töölehekirje ja krediteeritakse rendikohustise konto erinevus uue PVFMLP ja eelmise PVFMLP vahel. Kui PVFMLP väheneb, debiteeritakse rendikohustise konto töölehekirje ja krediteeritakse kasutusõiguse esemeks olev vara konto erinevus.
 

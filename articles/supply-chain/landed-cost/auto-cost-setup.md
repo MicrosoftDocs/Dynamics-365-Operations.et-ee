@@ -1,6 +1,6 @@
 ---
 title: Kulude automaatne häälestus
-description: Selles teema kirjeldatakse, kuidas häälestada kulureeglid erinevatele sissetulevate teekondade tasemetele. Nende reeglite alusel arvutab süsteem kulud ja lisab need automaatselt. Seetõttu ei pea kasutajad kulusid käsitsi lisama.
+description: See artikkel kirjeldab, kuidas seadistada kulureeglid erinevatele sissetulevate reisitasemetele. Nende reeglite alusel arvutab süsteem kulud ja lisab need automaatselt. Seetõttu ei pea kasutajad kulusid käsitsi lisama.
 author: Weijiesa
 ms.date: 01/21/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2021-01-21
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: ea788ea8d21c4cb6511188e937166bc3df3cd45a
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 02c78789fc7531c267cee936fa30a395e6d0b62f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695328"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852385"
 ---
 # <a name="auto-costs-setup"></a>Kulude automaatne häälestus
 
@@ -26,7 +26,7 @@ ms.locfileid: "8695328"
 
 Saate kasutada lehte **Automaatsed kulud**, et häälestada kulureeglid erinevatele kulualadele (nt teekonnad, saatmiskonteinerid, fooliod, ostutellimused, kaubad või üleviimistellimuse read). Süsteem arvutab kulud ja lisab need automaatselt reeglite ja kasutajate valitud väljade põhjal, kui nad loovad kirjeid ühe kuluala kohta. Seetõttu ei pea kasutajad kulusid käsitsi lisama.
 
-Automaatsete kuludega töötamiseks valige **Väljalaadimiskulu \> Kuluarvutuse häälestamine \> Automaatsed kulud**. Seejärel häälestage oma automaatsete kulude reeglid nii, nagu on kirjeldatud selles teemas.
+Automaatsete kuludega töötamiseks valige **Väljalaadimiskulu \> Kuluarvutuse häälestamine \> Automaatsed kulud**. Seejärel seadistage oma automaatsed kulureeglid nii, nagu on kirjeldatud selles artiklis.
 
 ## <a name="work-with-cost-areas"></a>Kulualade kasutamine
 

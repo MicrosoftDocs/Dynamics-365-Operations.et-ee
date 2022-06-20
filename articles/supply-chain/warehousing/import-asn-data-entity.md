@@ -1,6 +1,6 @@
 ---
 title: Sissetulevate ASN-ide importimine V3 andmeüksuse kaudu
-description: See teema kirjeldab, kuidas hallata sissetulevate täpsemate lähetusteatiste (ASN-ide) importi sissetulevate ASN-andmeüksuse kaudu.
+description: See artikkel selgitab, kuidas hallata sissetulevate täpsemate lähetusteatiste (ASN-ide) importi sissetulevate ASN-andmeüksuse kaudu.
 author: GalynaFedorova
 ms.date: 05/11/2022
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2021-06-04
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 44ec0230236451a413d483b3e9f3ddc58b49a0b0
-ms.sourcegitcommit: 90ffd763d18f97654b9dbc9e3f71c998e6094c6b
+ms.openlocfilehash: 0ac45e070d0473547c48da1380377de3d4bf60bd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8740054"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907112"
 ---
 # <a name="import-inbound-asns-through-the-v3-data-entity"></a>Sissetulevate ASN-ide importimine V3 andmeüksuse kaudu
 
@@ -26,7 +26,7 @@ Täpsemad saatmisteated (ASN-id) teavitavad teid hankija tarnetest. Need aitavad
 
 ASNid aitavad laotöötajatel teada saada, mis millal saabub. Seetõttu saavad nad selleks valmistuda. Lisaks saavad laotöötajad kasutada ASN-e, et sobitada saadetise üksikasjad varem loodud seotud ostutellimusega.
 
-Selles teemas kirjeldatakse hulka stsenaariumeid, mis illustreerivad näidete abil, kuidas töötada ASN-failidega.
+See artikkel sisaldab stsenaariumite kogumeid, mis näitavad näidete kaudu, kuidas ASN-failidega töötada.
 
 > [!IMPORTANT]
 > *Sissetulev ASN*-i import rakendub ainult kaupadele, mis on lubatud täpsemaks laohalduseks (WMS). Enne ASN-i saamist tuleb süsteemis registreerida ostutellimus selle hankija vastu, kes ASN-i saadab.

@@ -1,6 +1,6 @@
 ---
 title: ER-i funktsioon MOD_97
-description: See teema sisaldab teavet selle kohta, kuidas kasutatakse elektroonilise aruandluse (ER) funktsiooni MOD_97.
+description: See artikkel annab teavet selle kohta MOD_97 kuidas elektroonilise aruandluse (ER) MOD_97 kasutada.
 author: NickSelin
 ms.date: 12/17/2019
 ms.prod: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: edc29cac14014929e0672183be1c5db44fe6b5afe9543cd00942a95c79ec8897
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f57b55a9c4182b411e098ebce2f36b78ef03b6f8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734764"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898429"
 ---
 # <a name="mod_97-er-function"></a>ER-i funktsioon MOD_97
 

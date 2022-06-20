@@ -1,6 +1,6 @@
 ---
 title: CSS-i alistamisfailidega töötamine
-description: See teema kirjeldab miks, millal ja kuidas kasutada Cascading Style Sheet (CSS) alistamisfaile rakendusega Microsoft Dynamics 365 Commerce.
+description: See artikkel kirjeldab, miks, millal ja kuidas kasutada kaskaadlaadilehtede (CSS) alistamisfaile moodulis Microsoft Dynamics 365 Commerce.
 author: phinneyridge
 ms.date: 05/28/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-12-12
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6788481936a54bff32096dba1d0424fc52c669e4
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: eaeeee4c9de7293ba94cc836c4d7b62787eca81d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964600"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892856"
 ---
 # <a name="work-with-css-override-files"></a>CSS-i alistamisfailidega töötamine
 
 [!include [banner](includes/banner.md)]
 
-See teema kirjeldab miks, millal ja kuidas kasutada Cascading Style Sheet (CSS) alistamisfaile rakendusega Microsoft Dynamics 365 Commerce.
+See artikkel kirjeldab, miks, millal ja kuidas kasutada kaskaadlaadilehtede (CSS) alistamisfaile moodulis Microsoft Dynamics 365 Commerce.
 
 Püsiva tegevuskoha laade peaks tavaliselt käsitlema saidi kujunduse kaudu. Kujundused annavad teie saidi mis tahes leheküljel olevate moodulite jaoks CSS aluselise ja stiili sätted. Kujundused luuakse Dynamics 365 Commerce’i veebitarkvara arenduse komplekti (SDK) abil ja need viiakse teie veebisaitide juurde teenuse Microsoft Dynamics Lifecycle Services (LCS) kaudu. Kujunduse silumise võimalused ja mooduli liidese konfiguratsioonid SDK-spikri saidi arendajatel loovad kohandatavad ja sidusad saidi kujunduse paketid. Kui need kujunduse paketid on saidile paigutatud, saavad saidi autorid keskenduda saidi arendamise asemel sisu loomisele, redigeerimisele ja avaldamisele.
 

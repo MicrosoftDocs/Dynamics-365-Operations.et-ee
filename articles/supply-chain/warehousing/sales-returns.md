@@ -1,6 +1,6 @@
 ---
 title: Müügitagastused
-description: See teema annab teavet tagastustellimuste protsessi kohta. See hõlmab teavet klienditagastuste ning nende mõju kohta kuluarvestusele ja vaba kaubavaru kogustele.
+description: See artikkel annab teavet tagastustellimuste protsessi kohta. See hõlmab teavet klienditagastuste ning nende mõju kohta kuluarvestusele ja vaba kaubavaru kogustele.
 author: Mirzaab
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 672f24a720f48c420916c197722eb2d9599744fa
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 9e8045ec39b9caf9bf0dc2b2d331419efb54e6d6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695559"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860402"
 ---
 # <a name="sales-returns"></a>Müügitagastused
 
 [!include [banner](../includes/banner.md)]
 
-See teema annab teavet tagastustellimuste protsessi kohta. See hõlmab teavet klienditagastuste ning nende mõju kohta kuluarvestusele ja vaba kaubavaru kogustele.
+See artikkel annab teavet tagastustellimuste protsessi kohta. See hõlmab teavet klienditagastuste ning nende mõju kohta kuluarvestusele ja vaba kaubavaru kogustele.
 
 Kliendid saavad tagastada kaupu erinevatel põhjustel. Näiteks võib kaup olla defektne või see ei pruugi vastata kliendi ootustele. Tagastusprotsess käivitub, kui klient väljastab kauba tagastamiseks taotluse. Pärast kliendi taotluse vastuvõtmist luuakse tagastustellimus.
 
@@ -84,7 +84,7 @@ Pärast tagastuspäise lõpuleviimist saate luua tagastusread, kasutades üht j�
 -   Looge tagastusrida, kasutades funktsiooni **Otsi müügitellimust**. Soovitame teil kasutada seda funktsiooni tagastustellimuse loomisel. Funktsioon **Otsi müügitellimust** tuvastab tagastusrealt viite arveldatud müügitellimuse reale ja toob rea üksikasjad, nagu kauba number, kogus, hind, allahindlus ja kuluväärtused müügirealt. Viide aitab tagada, et kui toode tagastatakse ettevõttele, hinnatakse seda sama ühikukuluga, millega see müüdi. Viide kinnitab ka, et tagastustellimusi ei looda kogusele, mis ületab arvel müüdud kogust.
 
 >[!NOTE] 
->Tagastusridu, mille viide on müügitellimusele, käsitletakse müügi parandusena või ümberpööramiseks. Lisateabe saamiseks vaadake teemas allpool toodud jaotist „Pearaamatusse sisestamine”.
+>Tagastusridu, mille viide on müügitellimusele, käsitletakse müügi parandusena või ümberpööramiseks. Lisateavet vt jaotisest "Sisesta pearaamatusse" (selles artiklis).
 
 ### <a name="charges"></a>Tasud
 
@@ -179,7 +179,7 @@ Enne kui saate tagastatud kaubad saatelehe sisestamisega varudes füüsiliselt v
 
 [![Saabumisprotsess.](./media/salesreturn03.png)](./media/salesreturn03.png)  
 
-Protsessil on mitu muud variatsiooni, mida selles teemas ei käsitleta. Siin on mõned nendest variatsioonidest.
+Protsessil on mitmeid muid variatsioone, mida see artikkel ei hõlma. Siin on mõned nendest variatsioonidest.
 
 -   Ärge kasutage saabumise töölehe loomiseks loendit **Saabumise ülevaade**. Selle asemel looge käsitsi saabumise tööleht. Tagastustellimustel on viiteks **Müügitellimus**.
 -   Kui kasutate laohaldust, looge kaubaaluste transportimine. Tagastusreal on kaubaaluse transportimise käigus olek **Saabunud**.

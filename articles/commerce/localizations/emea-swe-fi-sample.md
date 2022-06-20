@@ -1,6 +1,6 @@
 ---
 title: Juhtseadme integratsiooni näidis Rootsi jaoks
-description: See teema annab ülevaate Rootsi eelarveintegratsiooni proovist Microsoft Dynamics 365 Commerce.
+description: See artikkel annab ülevaate Rootsi fiskaalintegratsiooni näidistest Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
 ms.date: 12/20/2021
 ms.topic: article
@@ -9,67 +9,67 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-10-08
-ms.openlocfilehash: ace1bd5b1a06317b6753a34779ecfa96e519a63e
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: 11ce0b146f2e64092b0d03dc7416660d76380cd0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8077009"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885398"
 ---
 # <a name="control-unit-integration-sample-for-sweden"></a>Juhtseadme integratsiooni näidis Rootsi jaoks
 
 [!include [banner](../includes/banner.md)]
 
-See teema annab ülevaate Rootsi eelarveintegratsiooni proovist Microsoft Dynamics 365 Commerce.
+See artikkel annab ülevaate Rootsi fiskaalintegratsiooni näidistest Microsoft Dynamics 365 Commerce.
 
 > [!NOTE]
-> See fiskaalse integratsiooni näidisfunktsioon asendab varasema [pos-integratsiooni valimi Rootsi juhtüksustega](retail-sdk-control-unit-sample.md). Varasem valim ei kasuta fiskaalintegratsiooni [raamistikku](./fiscal-integration-for-retail-channel.md) ja aegub hilisemates värskendustes. Lisateavet selle kohta, kuidas migreerida varasemast proovist proovi, mis vastab versioonile 10.0.22 ja varasemale Dynamics 365 Commerce versioonile **, leiate** teemast Varasema integratsioonivalimi [migreerimine.](emea-swe-fi-sample-sdk.md#migrating-from-the-earlier-integration-sample)
+> Fiskaalintegratsiooni näidisfunktsioon asendab kassa [integratsiooni varasema näidist Rootsi kontrollüksustega](retail-sdk-control-unit-sample.md). Varasem näidis ei kasuta fiskaalintegratsiooni [raamistikku](./fiscal-integration-for-retail-channel.md) ja see aegub hilisemates värskendustes. Lisateabe saamiseks selle kohta Dynamics 365 Commerce **, kuidas varasemast näidisst näidist üle siirdada, mis vastab versioonile 10.0.22 ja varasemale**, [vt varasemast integratsiooninäidandist migreerimist](emea-swe-fi-sample-sdk.md#migrating-from-the-earlier-integration-sample).
 
-Rootsi kaubandusfunktsioon hõlmab müügikoha näidisintegratsiooni Rootsi-spetsiifiliste fiskaalseadmetega, mida nimetatakse *juhtüksusteks*. See valim laiendab fiskaalintegratsiooni [funktsiooni](fiscal-integration-for-retail-channel.md). Eeldatakse, et juhtseade on füüsiliselt ühendatud riistvarajaamaga, millega kassa on seotud. Näiteks kasutab see proov Rakenduse programmeerimisliidest (API) CleanCashi A-tüüpi [juhtseadmest](https://www.retailinnovation.se/produkter) retail Innovation HTT AB poolt. Kasutatakse CleanCashi API versiooni 1.1.4.
+Rootsi Commerce'i funktsioonid hõlmavad kassa (POS) näidisintegratsiooni Rootsispetsiifiliste finantsseadmetega, mida nimetatakse *kontrollüksusteks*. See näidis laiendab fiskaalintegratsiooni [funktsioone](fiscal-integration-for-retail-channel.md). Eeldatakse, et juhtüksus on füüsiliselt ühendatud riistvarajaamaga, millega kassa on ühendatud. Näiteks kasutab see näidis Retail HTT AB CleanCash Type A [kontrollüksuse rakenduse programmeerimisliidest (API](https://www.retailinnovation.se/produkter)). Kasutatakse CleanCash API versiooni 1.1.4.
 
-Proov on esitatud lähtekoodi kujul ja see on osa jaemüügi tarkvaraarenduskomplektist (SDK).
+Näidis esitatakse lähtekoodina ja on osa jaemüügi tarkvara arenduskomplektist (SDK).
 
-Microsoft ei väljasta rakenduses Retail Innovation HTT AB riistvara, tarkvara ega dokumente. Juhtseadme hankimiseks ja käitamiseks võtke ühendust rakendusega [Retail Innovation HTT AB](https://www.retailinnovation.se/).
+Microsoft ei vabasta rakenduse Retail Retail HTT AB riistvara, tarkvara ega dokumentatsiooni. Kontrollüksuse ja selle käsitsemise kohta lisateabe saamiseks võtke ühendust [rakenduse Retail HTT ABga](https://www.retailinnovation.se/).
 
 ## <a name="scenarios"></a>Stsenaariumid
 
-Rootsi juhtüksuse integratsiooninäidis sisaldab järgmisi võimalusi.
+Rootsi kontrollüksuse integratsiooni näidis hõlmab järgmisi võimalusi.
 
-- Müügi-, tagastus- ja kviitungikoopiad registreeritakse automaatselt juhtseadmes, mis on ühendatud müügikohaga seotud riistvarajaamaga.
-- Registreeritud kande juhtseadme kontrollkood ja tootmisnumber võetakse juhtseadmest kinni ja salvestatakse tehingusse. Neid andmeid nimetatakse ka fiskaalseks *vastuseks*. Fiskaalvastust **saab vaadata lehel Poekanded**.
-- Juhtkoodi kohandatud väljad ja juhtseadme tootmisnumbri saab kviitungi paigutusele lisada. Sel viisil saate printida kande fiskaalvastuse kviitungile.
-- Kande fiskaalne vastus kuvatakse **elektroonilise töölehe (Rootsi)** kanali aruandes.
+- Müügi-, tagastuste ja kviitungikoopiad registreeritakse automaatselt kontrollüksuses, mis on ühendatud müügikohaga ühendatud riistvarajaamaga.
+- Kontrollkood ja registreeritud kande kontrollüksuse tootmisnumber fikseeritakse kontrollüksusest ja salvestatakse kandesse. Neid andmeid nimetatakse ka *fiskaalvastuseks*. Fiskaalvastust saab vaadata lehel **Kaupluse** kanded.
+- Kontrollkoodi kohandatud välju ja kontrollühiku tootmisnumbrit saab kviitungi kavandisse lisada. Sel viisil saate printida sissetulekukande fiskaalvastuse.
+- Kande fiskaalvastus kuvatakse elektroonilisel **töölehel (Rootsi) kanali** aruandes.
 - Saadaval on mitu tõrke käsitlemise võimalust. Järgmisena on toodud mõned näited.
 
-    - Kui on võimalik uuesti proovida, proovi uuesti maksu registreerimist. Kui juhtseade pole ühendatud, pole valmis või ei reageeri.
-    - Lükake finantsregistreerimine edasi.
-    - Jätke finantsregistreerimine vahele või märkige kanne registreerituks ning lisage tõrke põhjuse ja lisateabe jäädvustamiseks infokoodid.
-    - Kontrollige juhtseadme saadavust enne uue müügikande avamist või müügikande lõpuleviimist.
+    - Fiskaalregistreerimist saab uuesti teha, kui see on võimalik. Kui näiteks juhtüksus ei ole ühendatud, ei ole valmis või ei vasta sellele, saate fiskaalregistreerimist uuesti käivitada.
+    - Finantsregistreerimise edasilükkamine.
+    - Jätte fiskaalregistreerimise vahele või märgite kande registreeritud koodina ja kaasate teabekoodid, et hõivata tõrke põhjus ja lisateave.
+    - Kontrollige kontrollüksuse saadavust enne uue müügikande avamist või müügikande lõpetamist.
 
-### <a name="limitations-of-the-sample"></a>Proovi piirangud
+### <a name="limitations-of-the-sample"></a>Näidiste piirangud
 
-Rootsi juhtüksuse integratsiooninäidis ei toeta praegu klienditellimuse stsenaariume.
+Rootsi kontrollüksuse integratsiooni näidis ei toeta praegu klienditellimuse stsenaariume.
 
-## <a name="setting-up-the-integration-with-control-units"></a>Integratsiooni häälestamine juhtüksustega
+## <a name="setting-up-the-integration-with-control-units"></a>Kontrollüksustega integreerimise seadistamine
 
-Lisateavet Rootsi jaoks vajaliku seadistuse kohta leiate teemast [Rootsi kaubanduse](./emea-swe-cash-registers.md#setting-up-commerce-for-sweden) häälestamine.
+Lisateavet rootsi jaoks nõutava häälestuse kohta vt Rootsi [äri seadistamisest](./emea-swe-cash-registers.md#setting-up-commerce-for-sweden).
 
-### <a name="configuring-swedenspecific-receipts"></a>Rootsi-spetsiifiliste kviitungite konfigureerimine
+### <a name="configuring-swedenspecific-receipts"></a>Rootsi kindlate sissetulekute konfigureerimine
 
-#### <a name="configure-custom-fields-so-that-they-can-be-used-in-receipt-formats-for-sales-receipts"></a>Kohandatud väljade konfigureerimine nii, et neid saaks kasutada müügi sissetulekute vormingutes
+#### <a name="configure-custom-fields-so-that-they-can-be-used-in-receipt-formats-for-sales-receipts"></a>Kohandatud väljade konfigureerimine, et neid saaks kasutada müügikviitungite kviitungi vormingutes
 
-Saate konfigureerida keeleteksti ja kohandatud väljad, mida kasutatakse kassa kviitungi vormingutes. Kviitungi häälestuse loonud kasutaja vaikeettevõte peaks olema sama juriidiline isik, kus keeleteksti häälestus luuakse. Teise võimalusena tuleks luua samad keeletekstid nii kasutaja vaikeettevõttes kui ka selle poe juriidilises isikus, kellele häälestus on loodud.
+Saate konfigureerida keele teksti ja kohandatud väljad, mida kasutatakse kassa kviitungi vormingutes. Kviitungi häälestuse loonud kasutaja vaikeettevõte peaks olema sama juriidiline isik, kus keele teksti häälestus on loodud. Teise võimalusena tuleks samad keeletekstid luua nii kasutaja vaikeettevõttes kui ka kaupluse juriidilises isikus, mille jaoks häälestus on loodud.
 
-**Lisage lehel Keeletekst** kviitungipaigutuste kohandatud väljade siltide jaoks järgmised kirjed. Pange tähele, et **tabelis kuvatavad keele ID**, **teksti ID** ja **tekstiväärtused** on vaid näited. Saate neid vastavalt oma vajadustele muuta. Kasutatavad teksti ID **väärtused peavad siiski** olema kordumatud ja need peavad olema võrdsed või suuremad kui 900001.
+Lisage keele **teksti lehel** kviitungi kavandite kohandatud väljade siltidele järgmised kirjed. Pange tähele **, et tabelis kuvatavad** keele **-,** **teksti-ID**- ja tekstiväärtused on vaid näited. Saate neid vastavalt oma nõuetele muuta. Teksi **ID väärtused** peavad siiski olema kordumatud ning olema võrdsed või suuremad kui 900001.
 
-Lisage järgmised kassasildid **lehe** Keele teksti **jaotises Kassa**.
+Lisage keele tekstilehe müügikoha **jaotisesse** järgmised **müügikoha sildid**.
 
 | Keele ID | Teksti ID | Tekst                  |
 |-------------|---------|-----------------------|
-| EN-US       | 900001  | Registreeri kontrollkood |
-| EN-US       | 900002  | Registreeri seade       |
+| et       | 900001  | Registri kontrollkood |
+| et       | 900002  | Registreeri seade       |
 
-**Lisage lehel Kohandatud väljad** kviitungipaigutuste kohandatud väljadele järgmised kirjed. Pange tähele, et **pealdise teksti ID** väärtused peavad vastama **lehel Keele tekst** määratud teksti ID **väärtustele**.
+**Lisage kviitungi** kavandite kohandatud väljade jaoks kohandatud väljadele järgmised kirjed lehel Kohandatud väljad. Pange tähele **, et pealdise teksti ID** väärtused peavad vastama **teksti ID** väärtustele, mille määrate **keele teksti** lehel.
 
 | Nimi                         | Tüüp    | Pealdise teksti ID |
 |------------------------------|---------|-----------------|
@@ -77,71 +77,71 @@ Lisage järgmised kassasildid **lehe** Keele teksti **jaotises Kassa**.
 | SE_FISCALREGISTERID          | Sissetulek | 900002          |
 
 > [!NOTE]
-> On oluline, et määraksite ülaltoodud tabelis loetletud õiged kohandatud väljanimed. Vale kohandatud välja nimi põhjustab kviitungitel puuduvaid andmeid.
+> On oluline määrata õiged kohandatud väljanimed, nagu on loetletud ülaltoodud tabelis. Vale kohandatud välja nimi põhjustab sissetulekutes puuduvate andmete.
 
-#### <a name="configure-receipt-formats"></a>Sissetulekuvormingute konfigureerimine
+#### <a name="configure-receipt-formats"></a>Kviitungi vormingute konfigureerimine
 
-Muutke iga nõutava kviitungivormingu väärtuseks **Prindi käitumine** väärtuseks **Alati printimine**.
+Muutke iga nõutava kviitungi vormingu välja Prindikäitumine **väärtuseks** Alati **prindi**.
 
-Lisage kviitungivormingu kujundaja jaotisse **Jalus järgmised kohandatud väljad**. Pange tähele, et väljanimed vastavad selle teema eelmises jaotises määratletud keeletekstidele.
+Lisage kviitungi vormingu kujundajasse jaluse jaotisse järgmised kohandatud **väljad**. Pange tähele, et väljanimed vastavad selle artikli eelmises jaotises määratletud keeletekstidele.
 
-- **Registri kontrollkood** – see väli prindib juhtkoodi.
-- **Registriseade** – see väli prindib juhtseadme tootmisnumbri.
+- **Registri kontrollkood** – see väli prindib kontrollkoodi.
+- **Registriseade** – see väli prindib kontrollüksuse tootmisnumbri.
 
-Lisateavet kviitungivormingutega töötamise kohta leiate teemast [Kviitungimallid ja printimine](../receipt-templates-printing.md).
+Lisateavet kviitungi vormingutega töötades vt Kviitungi mallidest [ja printimisest](../receipt-templates-printing.md).
 
-### <a name="set-up-fiscal-integration-for-sweden"></a>Saate häälestada Rootsi eelarveintegratsiooni.
+### <a name="set-up-fiscal-integration-for-sweden"></a>Häälestage Rootsi finantsintegratsioon.
 
-Rootsi juhtüksuse integreerimise näidis põhineb fiskaalintegratsiooni [funktsioonil](fiscal-integration-for-retail-channel.md) ja on osa jaemüügi SDK-st. Proov asub lahenduste hoidla kaustas **src\\FiscalIntegration\\CleanCash**[Dynamics 365 Commerce (näiteks](https://github.com/microsoft/Dynamics365Commerce.Solutions/) proov väljalaskes/9.33 [).](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/CleanCash) [Näidis koosneb](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) fiskaaldokumendi pakkujast, mis on Commerce'i käitusaja CRT () laiendus, ja fiskaalse konnektori, mis on Commerce'i riistvarajaama laiendus. Lisateavet jaemüügi SDK kasutamise kohta leiate teemast [Retail SDK arhitektuur](../dev-itpro/retail-sdk/retail-sdk-overview.md) ja [Sõltumatu pakendiga SDK](../dev-itpro/build-pipeline.md) ehitustorustiku seadistamine.
+Rootsi kontrollüksuse integratsiooni näidis põhineb fiskaalintegratsiooni [funktsioonil](fiscal-integration-for-retail-channel.md) ja on osa Retail SDK-st. Näidis asub lahenduste **hoidla kaustas\\ FiscalIntegration\\ CleanCash**[Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) ([nt näidis väljalaskes/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/CleanCash)). Näidis koosneb [fiskaaldokumendi](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) pakkujast, mis on Commerce Runtime'i (CRT) laiendus, ja fiskaalühendusest, mis on Commerce Hardware Stationi laiendus. Lisateavet Retail SDK [kasutamise kohta vt Retail SDK arhitektuurist ja sõltumatult pakendatud SDK-st](../dev-itpro/retail-sdk/retail-sdk-overview.md)[koostevõimaluste häälestamise kohta](../dev-itpro/build-pipeline.md).
 
 > [!WARNING]
-> Uue sõltumatu pakendi- [ja laiendusmudeli](../dev-itpro/build-pipeline.md) piirangute tõttu ei saa seda praegu selle fiskaalse integratsiooni valimi jaoks kasutada. Peate kasutama Retail SDK eelmist versiooni arendaja virtuaalses masinas (VM) elutsükli teenustes Microsoft Dynamics (LCS). Lisateavet vt [rootsi juhtüksuse integratsioonivalimi juurutusjuhistest (pärand)](emea-swe-fi-sample-sdk.md).
+> Uue sõltumatu pakendi- ja [laiendusmudeli piirangute tõttu](../dev-itpro/build-pipeline.md) ei saa seda praegu selle fiskaalintegratsiooni näidise jaoks kasutada. Retail SDK eelmist versiooni peate kasutama arendaja virtuaalmasinas (VM) elutsükli Microsoft Dynamics teenustes (LCS). Lisateavet vt Rootsi kontrollühiku [integratsiooni näidise juurutuse juhistest (pärand).](emea-swe-fi-sample-sdk.md)
 >
-> Eelarveintegratsiooni näidiste uue sõltumatu pakendi- ja laiendusmudeli toetamine on kavandatud hilisematele versioonidele.
+> Uutesse versioonidesse planeeritakse fiskaalintegratsiooni valimite uue sõltumatu pakendi- ja laiendusmudeli tugi.
 
-Täitke fiskaalintegratsiooni häälestusetapid, nagu on kirjeldatud jaotises [Commerce'i kanalite](setting-up-fiscal-integration-for-retail-channel.md) fiskaalintegratsiooni häälestamine.
+Viige finantsintegratsiooni seadistuse etapid lõpule, nagu on kirjeldatud [Ärikanalite fiskaalintegratsiooni seadistamises](setting-up-fiscal-integration-for-retail-channel.md).
 
-1. [Saate häälestada finantsregistreerimise protsessi](setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process). Samuti märkige selle juhtüksuse integratsioonivalimile [omased finantsregistreerimise protsessi](#set-up-the-registration-process) sätted.
-1. [Saate määrata tõrkekäsitluse sätted](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
-1. [Lubage edasilükatud finantsregistreerimise käsitsi käivitamine](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-postponed-fiscal-registration).
-1. [Kanali komponentide](#configure-channel-components) konfigureerimine.
+1. [Seadistage fiskaalregistreerimise protsess](setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process). Lisaks tehke märkus fiskaalregistreerimise protsessi sätete kohta, mis on omased [sellele kontrollühiku integratsiooni näidisele](#set-up-the-registration-process).
+1. [Tõrke käsitlemise sätete seadistamine](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
+1. [Saate lubada edasilükatud fiskaalregistreerimise käsitsi käivitamise](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-postponed-fiscal-registration).
+1. [Kanali komponentide konfigureerimine](#configure-channel-components).
 
 ### <a name="set-up-the-registration-process"></a>Registreerimisprotsessi häälestamine
 
-Registreerimisprotsessi lubamiseks järgige Commerce'i peakontori seadistamiseks neid juhiseid. Lisateavet vt teemast [Fiscal Integration for Commerce channels](setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process) häälestamine.
+Registreerimisprotsessi lubamiseks järgige neid samme Commerce headquartersi häälestamiseks. Lisateavet vt Commerce'i [kanalite fiskaalintegratsiooni häälestamist](setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process).
 
-1. Laadige alla rahandusdokumendi pakkuja ja fiskaalse konnektori konfiguratsioonifailid.
+1. Laadige alla finantsdokumendi pakkuja ja fiskaalkonnektori konfiguratsioonifailid:
 
-    1. Avage lahenduste [Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) hoidla.
-    1. Valige õige väljalaskeharu versioon vastavalt oma SDK/rakenduse versioonile (nt **[release/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33)**).
-    1. Avage **src \> FiscalIntegration \> CleanCash**.
-    1. Laadige alla rahandusdokumendi pakkuja konfiguratsioonifail aadressil CommerceRuntime DocumentProvider.CleanCashSample Configuration DocumentProviderFiscalCleanCashSample.xml **(nt \> väljalaskefail/9.33 \>).\>**[...](https://github.com/microsoft/Dynamics365Commerce.Solutions/blob/release/9.33/src/FiscalIntegration/CleanCash/CommerceRuntime/DocumentProvider.CleanCashSample/Configuration/DocumentProviderFiscalCleanCashSample.xml)
-    1. Laadige fiskaalse konnektori konfiguratsioonifail alla aadressil **HardwareStation \> Connector.CleanCashSample \> Configuration \> ConnectorCleanCashSample.xml** (näiteks [väljalaskefail/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/blob/release/9.33/src/FiscalIntegration/CleanCash/HardwareStation/Connector.CleanCashSample/Configuration/ConnectorCleanCashSample.xml)).
+    1. [Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) Lahenduste hoidla avamine.
+    1. Valige õige väljalaske haruversioon vastavalt oma SDK-le/rakenduse versioonile (nt **[vabastamine/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33)**).
+    1. Saate avada **src \> FiscalIntegration \> CleanCash**.
+    1. Laadige alla finantsdokumendi pakkuja konfiguratsioonifail commerceRuntime **DocumentProvider.CleanCashSample \> Configuration \> DocumentProviderFiscalCleanCashSample.xml \> (** nt väljalaske 9.33 [fail).](https://github.com/microsoft/Dynamics365Commerce.Solutions/blob/release/9.33/src/FiscalIntegration/CleanCash/CommerceRuntime/DocumentProvider.CleanCashSample/Configuration/DocumentProviderFiscalCleanCashSample.xml)
+    1. Laadige alla fiskaalkonnektori konfiguratsioonifail HardwareStation **Connectoris.CleanCashSample \> Configuration \> ConnectorCleanCashSample.xml \> (** näiteks väljalaske fail/9.33 [).](https://github.com/microsoft/Dynamics365Commerce.Solutions/blob/release/9.33/src/FiscalIntegration/CleanCash/HardwareStation/Connector.CleanCashSample/Configuration/ConnectorCleanCashSample.xml)
 
     > [!WARNING]
-    > Uue sõltumatu pakendi- [ja laiendusmudeli](../dev-itpro/build-pipeline.md) piirangute tõttu ei saa seda praegu selle fiskaalse integratsiooni valimi jaoks kasutada. Peate kasutama Retail SDK eelmist versiooni arendaja VM-is LCS-is. Selle fiskaalse integratsiooni näidise konfiguratsioonifailid asuvad LCS-i arendaja VM-i jaemüügi SDK järgmistes kaustades.
+    > Uue sõltumatu pakendi- ja [laiendusmudeli piirangute tõttu](../dev-itpro/build-pipeline.md) ei saa seda praegu selle fiskaalintegratsiooni näidise jaoks kasutada. Retail SDK eelmist versiooni peate kasutama LCS-i arendaja VM-s. Selle fiskaalintegratsiooni näidiskonfiguratsiooni failid asuvad Retail SDK arendaja VM LCS-i kaustades:
     >
-    > - **Fiskaaldokumendi pakkuja konfiguratsioonifail:** RetailSdk\\SampleExtensions\\CommerceRuntime\\Extensions.DocumentProvider.CleanCashSample\\Configuration\\DocumentProviderFiscalCleanCashSample.xml
-    > - **Fiscal connectori konfiguratsioonifail:** RetailSdk\\SampleExtensions\\HardwareStation\\Extension.CleanCashSample\\Configuration\\ConnectorCleanCashSample.xml
+    > - **Fiskaaldokumendi pakkuja konfiguratsioonifail:** RetailSdk\\ SampleExtensions\\ CommerceRuntime\\ Extensions.DocumentProvider.CleanCashSample\\ Configuration\\ DocumentProviderFiscalCleanCashSample.xml
+    > - **Fiskaalkonnektori konfiguratsioonifail:** RetailSdk\\ SampleExtensions\\ HardwareStation\\ Extension.CleanCashSample\\ Configuration\\ ConnectorCleanCashSample.xml
     > 
-    > Eelarveintegratsiooni näidiste uue sõltumatu pakendi- ja laiendusmudeli toetamine on kavandatud hilisematele versioonidele.
+    > Uutesse versioonidesse planeeritakse fiskaalintegratsiooni valimite uue sõltumatu pakendi- ja laiendusmudeli tugi.
 
-1. Valige suvandid **Jaemüük ja kaubandus \> Headquartersi häälestus \> Parameetrid \> Commerce’i ühiskasutuses parameetrid**. peal **Kindral** vahekaardil määrake **Luba maksuintegratsioon** võimalus **Jah**.
-1. Minema **Jaemüük ja kaubandus \> Kanali seadistamine \> Fiskaalne integratsioon \> Maksudokumentide pakkujad** ja laadige varem alla laaditud maksudokumendi pakkuja konfiguratsioonifail.
-1. Minema **Jaemüük ja kaubandus \> Kanali seadistamine \> Fiskaalne integratsioon \> Fiskaalühendused** ja laadige varem alla laaditud fiskaalse konnektori konfiguratsioonifail.
-1. Minema **Jaemüük ja kaubandus \> Kanali seadistamine \> Fiskaalne integratsioon \> Konnektori funktsionaalsed profiilid**. Looge uus konnektori funktsionaalne profiil. Valige dokumendipakkuja ja varem laaditud konnektor. Värskendage andmete vastendamise [sätteid](#default-data-mapping) vastavalt vajadusele.
-1. Minema **Jaemüük ja kaubandus \> Kanali seadistamine \> Fiskaalne integratsioon \> Konnektori tehnilised profiilid**. Looge uus konnektori tehniline profiil ja valige varem laaditud fiskaalkonnektor. Värskendage [konnektori sätteid](#fiscal-connector-settings) vastavalt vajadusele.
-6. **Avage jaemüügi- ja kaubanduskanali \> häälestus \> Fiskaalintegratsioon \> Fiskaalkonnektorigrupid**. Looge varem loodud konnektori funktsionaalse profiili jaoks uus fiskaalse konnektori rühm.
-7. Minema **Jaemüük ja kaubandus \> Kanali seadistamine \> Fiskaalne integratsioon \> Fiskaalsed registreerimise protsessid**. Looge uus maksuregistreerimisprotsess ja fiskaalse registreerimise protsessi etapp ning valige varem loodud maksuühenduse rühm.
-8. Avage **Jaemüük ja kaubandus \> Kanali seadistus \> Kassa seadistus \> Kassaprofiilid \> Funktsiooniprofiilid**. Valige funktsiooniprofiil, mis on lingitud poega, kus registreerimisprotsess tuleks aktiveerida. peal **Maksustamise registreerimise protsess** FastTab, valige varem loodud maksuregistreerimisprotsess.
-9. Avage **Jaemüük ja kaubandus \> Kanali seadistus \> Kassa seadistus \> Kassaprofiilid \> Riistvaraprofiilid**. Valige riistvaraprofiil, mis on lingitud riistvarajaamaga, millega fiskaalprinter ühendatakse. Valige kiirkaardil **Fiskaalsed välisseadmed** varem loodud konnektori tehniline profiil.
-10. Avage jaotusgraafik (**jae- ja kaubandus \> - ja kaubandus-kaubanduse IT-jaotuse \> ajakava**) ning valige tööd **1070** ja **1090**, et edastada andmeid kanali andmebaasi.
+1. Valige suvandid **Jaemüük ja kaubandus \> Headquartersi häälestus \> Parameetrid \> Commerce’i ühiskasutuses parameetrid**. Seadke vahekaardil **Üldine** suvand Luba fiskaalintegratsioon **väärtusele** **Jah**.
+1. Minge jaemüügi ja **ärikanali häälestuse \> fiskaalintegratsiooni \>\> finantsdokumendi pakkujate** juurde ja laadige varem alla laaditud finantsdokumendi pakkuja konfiguratsioonifail.
+1. Minge jaemüügi- **ja ärikanali häälestuse \> fiskaalintegratsiooni \>\> fiskaalkonnektori ja laadige varem alla laaditud fiskaalkonnektori** konfiguratsioonifail.
+1. Minge jaemüügi ja **ärikanali häälestuse \> fiscal \> integration Connectori funktsiooniprofiilidesse \>**. Looge uus konnektori funktsiooniprofiil. Valige dokumendipakkuja ja ühendus, mille varem laadisite. Värskendage andmevastendussätted [vastavalt](#default-data-mapping) vajadusele.
+1. Minge jaemüügi ja **ärikanali häälestuse \> finantsintegratsiooni \> konnektori \> tehnilistesse profiilidesse**. Looge uus konnektori tehniline profiil ja valige varem laaditud fiskaalühendus. Uuendage konnektori [sätteid](#fiscal-connector-settings) vastavalt vajadusele.
+6. Minge jaemüügi ja **ärikanali häälestuse \> fiskaalintegratsiooni \> fiskaalühenduse \> gruppidesse**. Looge varem loodud konnektori funktsiooniprofiilile uus fiskaalühenduse grupp.
+7. Minge jaemüügi ja **ärikanali häälestuse \> fiskaalintegratsiooni \> fiskaalregistreerimisprotsessidesse \>**. Looge uus fiskaalregistreerimise protsess ja fiskaalregistreerimise protsessi samm ning valige varem loodud fiskaalühenduse grupp.
+8. Avage **Jaemüük ja kaubandus \> Kanali seadistus \> Kassa seadistus \> Kassaprofiilid \> Funktsiooniprofiilid**. Valige funktsiooniprofiil, mis on lingitud kauplusega, kus registreerimisprotsess tuleks aktiveerida. Valige finants **registreerimisprotsessi kiirkaardil** varem loodud fiskaalregistreerimise protsess.
+9. Avage **Jaemüük ja kaubandus \> Kanali seadistus \> Kassa seadistus \> Kassaprofiilid \> Riistvaraprofiilid**. Valige riistvaraprofiil, mis on lingitud riistvarajaamaga, millega fiskaalprinter on ühendatud. Valige kiirkaardil **Fiscal peripherals** varem loodud konnektori tehniline profiil.
+10. Avage jaotusgraafik (**Retail ja Commerce Retail ja Commerce \> IT \> Distribution schedule**) **ning valige tööd 1070** **ja 1090** andmete edastamiseks kanali andmebaasi.
 
-#### <a name="default-data-mapping"></a>Andmete vaikevastendus
+#### <a name="default-data-mapping"></a>Vaikeandmete vastendamine
 
-Rahandusdokumendi pakkuja konfiguratsioonis, mis on esitatud fiskaalse integratsiooni valimi osana, kaasatakse järgmine andmete vaikevastendus.
+Järgmine vaikeandmete vastendamine on kaasatud fiskaaldokumendi pakkuja konfiguratsiooni, mis antakse fiskaalintegratsiooni näidisosana:
 
-- **Käibemaksukoodi vastendamine** – see vastendab seadmepõhised käibemaksukoodid vastavatele käibemaksukoodidele. KM-koodi vastendusel peaks olema järgmine vorming.
+- **Käibemaksu (KM) koodi vastendamine** – see vastendab seadmepõhised käibemaksukoodid vastavatele käibemaksukoodidele. KM-koodi vastendamiseks peab olema järgmine vorming:
 
     ```
     1 : code1 ; 2 : code2
@@ -149,64 +149,64 @@ Rahandusdokumendi pakkuja konfiguratsioonis, mis on esitatud fiskaalse integrats
 
     Siin on selle vormingu kohta selgitus.
 
-    - *1* ja *2* on seadmepõhised KÄIBEMAKSUkoodid.
-    - Semikoolon (;) Kasutatakse eraldajana.
-    - *code1* ja *code2* on käibemaksukoodid, mis on konfigureeritud Commerce'i peakontoris. Näidisvastendust tuleb muuta vastavalt rakenduses konfigureeritud maksukoodidele.
+    - *1* ja *2 on* seadmepõhised KM-koodid.
+    - Semikoolon (;) - kasutatakse eraldajana.
+    - *kood1* ja *kood2* on rakenduse Commerce headquarters konfigureeritud käibemaksukoodid. Peate muutma näidisvastendust vastavalt rakenduses konfigureeritud maksukoodidele.
 
-    Juhtüksused toetavad kuni nelja erinevat KM-koodi. Seetõttu võib KM-koodi vastenduse seadistada järgmiselt.
+    Kontrollüksused toetavad kuni nelja erinevat KM-koodi. Seetõttu võib KM-koodi vastendamine olla seadistatud järgmiselt:
 
     ```
     1 : code1 ; 2 : code2 ; 3 : code3 ; 4 : code4
     ```
 
     > [!NOTE]
-    > Sama seadmepõhise KM-koodiga saab vasteda mitu käibemaksukoodi.
+    > Mitu käibemaksukoodi saab vastendada sama seadmepõhise KM-koodiga.
 
-#### <a name="fiscal-connector-settings"></a>Fiskaalse konnektori sätted
+#### <a name="fiscal-connector-settings"></a>Fiskaalühenduse sätted
 
-Fiskaalse konnektori konfiguratsiooni kuuluvad järgmised sätted, mis on esitatud fiskaalse integratsiooni valimi osana.
+Järgmised sätted on kaasatud fiskaalkonnektori konfiguratsiooni, mis on antud fiskaalintegratsiooni näidisosana:
 
-- **Ühenduste string** – Juhtseadme ühenduse seaded.
-- **Aeg maha** – Aeg millisekundites, mille jooksul juht ootab juhtseadme vastust.
+- **Ühenduste string** – juhtüksuse ühenduse sätted.
+- **Ajalõpp** – aja hulk millisekundites, mille juht ootab kontrollüksuselt vastuse ootamist.
 
-### <a name="configure-channel-components"></a>Kanali komponentide seadistamine
+### <a name="configure-channel-components"></a>Kanali komponentide konfigureerimine
 
 > [!WARNING]
-> Uue sõltumatu pakendi- [ja laiendusmudeli](../dev-itpro/build-pipeline.md) piirangute tõttu ei saa seda praegu selle fiskaalse integratsiooni valimi jaoks kasutada. Peate kasutama Retail SDK eelmist versiooni arendaja VM-is LCS-is. Lisateavet vt [rootsi juhtüksuse integratsioonivalimi juurutusjuhistest (pärand)](emea-swe-fi-sample-sdk.md).
+> Uue sõltumatu pakendi- ja [laiendusmudeli piirangute tõttu](../dev-itpro/build-pipeline.md) ei saa seda praegu selle fiskaalintegratsiooni näidise jaoks kasutada. Retail SDK eelmist versiooni peate kasutama LCS-i arendaja VM-s. Lisateavet vt Rootsi kontrollühiku [integratsiooni näidise juurutuse juhistest (pärand).](emea-swe-fi-sample-sdk.md)
 >
-> Eelarveintegratsiooni näidiste uue sõltumatu pakendi- ja laiendusmudeli toetamine on kavandatud hilisematele versioonidele.
+> Uutesse versioonidesse planeeritakse fiskaalintegratsiooni valimite uue sõltumatu pakendi- ja laiendusmudeli tugi.
 
-#### <a name="set-up-the-development-environment"></a>Seadistage arenduskeskkond
+#### <a name="set-up-the-development-environment"></a>Saate häälestada arenduskeskkonda.
 
-Näidise testimiseks ja laiendamiseks arenduskeskkonna seadistamiseks toimige järgmiselt.
+Arenduskeskkonna katsetada ja näidist laiendada, järgige neid samme.
 
-1. Kloonige või laadige alla [Dynamics 365 Commerce Lahendused](https://github.com/microsoft/Dynamics365Commerce.Solutions) hoidla. Valige õige väljalaske haru versioon vastavalt oma SDK/rakenduse versioonile. Lisateabe saamiseks vt [Laadige alla jaemüügi SDK näidised ja viitepaketid GitHubist ja NuGet](../dev-itpro/retail-sdk/sdk-github.md).
-1. Avage juhtüksuse integreerimise lahendus aadressil **Dynamics365Commerce.Solutions\\FiscalIntegration\\CleanCash\\CleanCash.sln** ja ehitage see.
-1. Installige CRT laiendused:
+1. Rakenduste hoidla leidmine [Dynamics 365 Commerce või](https://github.com/microsoft/Dynamics365Commerce.Solutions) allalaadimine. Valige õige väljalaske haruversioon vastavalt oma SDK-le/rakenduse versioonile. Lisateavet vt jaotisest Jaemüügi [SDK näidised ja viitepakendid alla laadida GitHub-st ja NuGet](../dev-itpro/retail-sdk/sdk-github.md).
+1. Avage kontrollüksuse integreerimislahendus dynamics365Commerce.Solutions **\\ FiscalIntegration\\ CleanCash CleanCash.sln\\** ja koostage see.
+1. Installi CRT laiendid:
 
-    1. Otsige üles CRT laienduse paigaldaja:
+    1. Leidke laiendi CRT installer:
 
-        - **Kaubanduse skaala üksus: leidke kaustast** **CleanCash\\ScaleUnit\\ScaleUnit.CleanCash.Installer\\bin\\Debug\\net461** installer **ScaleUnit.CleanCash.Installer**. 
-        - **Kohalik CRT kaasaegses kassas:** kaustas **CleanCash\\ModernPOS\\ModernPOS.CleanCash.Installer\\bin\\Debug\\net461** leidke **modernpos.CleanCash.Installer** installer.
+        - **Commerce Scale Unit:** **kaustas CleanCash\\ ScaleUnit ScaleUnit.CleanCash.Installer\\\\ bin\\ Debug\\ net461** leidke **ScaleUnit.CleanCash.Installer**.
+        - **Kohalik CRT modern POS-s:** **leidke kaustast CleanCash\\ ModernPOS.CleanCash.Installer\\\\ bin\\ Silumine\\ net461** **kaust ModernPOS.CleanCash.Installer.**
 
-    2. Alustage CRT laienduse installija käsurealt:
+    2. Käivitage CRT laiendiinstall käsurealt:
 
-        - **Kaubanduse mastaabiüksus:**
+        - **Commerce Scalei üksus:**
 
             ```Console
             ScaleUnit.CleanCash.Installer.exe install --verbosity 0
             ```
 
-        - **Kohalik CRT kaasaegses POS-is:**
+        - **Kohalik CRT Modern POS-s:**
 
             ```Console
             ModernPOS.CleanCash.Installer.exe install --verbosity 0
             ```
 
-1. Installige riistvarajaama laiendused:
+1. Riistvarajaama laienduste installimine:
 
-    1. Otsige kaustast **CleanCash\\HardwareStation\\HardwareStation.CleanCash.Installer\\bin\\Debug\\net461** üles **installer HardwareStation.CleanCash.Installer.**
-    1. Käivitage laienduse installija käsurealt:
+    1. Leidke kaustast CleanCash HardwareStation.CleanCash.Installer **\\ bin\\ Debug\\ net461 \\\\ kaust HardwareStation.CleanCash.Installer**.**·**
+    1. Käivitage laiendiinstall käsurealt:
 
         ```Console
         HardwareStation.CleanCash.Installer.exe install --verbosity 0
@@ -214,52 +214,52 @@ Näidise testimiseks ja laiendamiseks arenduskeskkonna seadistamiseks toimige j�
 
 #### <a name="production-environment"></a>Tootmiskeskkond
 
-Järgige juhiseid [Seadistage fiskaalintegratsiooni näidise jaoks ehituskonveier](fiscal-integration-sample-build-pipeline.md) luua ja vabastada Cloud Scale Unit ja iseteenindusega juurutatavad paketid fiskaalintegratsiooni näidise jaoks. **CleanCashi build-pipeline.yml** malli YAML-faili leiate **lahenduste\\ hoidla kaustast** Pipeline [Dynamics 365 Commerce YAML_Files](https://github.com/microsoft/Dynamics365Commerce.Solutions).
+Järgige fiskaalintegratsiooni [näidise](fiscal-integration-sample-build-pipeline.md) jaoks koostevõimaluste häälestamise etappe, et luua ja vabastada pilveskaala üksus ja iseteeninduse juurutatavad paketid fiskaalintegratsiooni näidiskomplekti jaoks. CleanCash build-pipeline.yml malli JAML **faili** leiate lahenduste hoidla YAML_Files **\\ müügivõimalustest**.[Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions)
 
 ## <a name="design-of-the-extensions"></a>Laienduste kujundus
 
-Rootsi juhtüksuse integreerimise näidis põhineb fiskaalintegratsiooni [funktsioonil](fiscal-integration-for-retail-channel.md) ja on osa jaemüügi SDK-st. Proov asub lahenduste hoidla kaustas **src\\FiscalIntegration\\CleanCash** [Dynamics 365 Commerce (näiteks](https://github.com/microsoft/Dynamics365Commerce.Solutions/) proov väljalaskes/9.33 [).](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/CleanCash) Näidis [koosneb](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) fiskaaldokumentide pakkuja, mis on laiendus CRT ja fiskaalne pistik, mis on Commerce Hardware Stationi laiendus. Lisateavet jaemüügi SDK kasutamise kohta leiate teemast [Retail SDK arhitektuur](../dev-itpro/retail-sdk/retail-sdk-overview.md) ja [Sõltumatu pakendiga SDK](../dev-itpro/build-pipeline.md) ehitustorustiku seadistamine.
+Rootsi kontrollüksuse integratsiooni näidis põhineb fiskaalintegratsiooni [funktsioonil](fiscal-integration-for-retail-channel.md) ja on osa Retail SDK-st. Näidis asub lahenduste **hoidla kaustas\\ FiscalIntegration\\ CleanCash**[Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) ([nt näidis väljalaskes/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/CleanCash)). Näidis koosneb [fiskaaldokumendi](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) pakkujast, mis on CRT laiendiks, ja fiskaalühendusest, mis on Commerce Hardware Stationi laiendus. Lisateavet Retail SDK [kasutamise kohta vt Retail SDK arhitektuurist ja sõltumatult pakendatud SDK-st](../dev-itpro/retail-sdk/retail-sdk-overview.md)[koostevõimaluste häälestamise kohta](../dev-itpro/build-pipeline.md).
 
 > [!WARNING]
-> Uue sõltumatu pakendi- [ja laiendusmudeli](../dev-itpro/build-pipeline.md) piirangute tõttu ei saa seda praegu selle fiskaalse integratsiooni valimi jaoks kasutada. Peate kasutama Retail SDK eelmist versiooni arendaja VM-is LCS-is. Lisateavet vt [rootsi juhtüksuse integratsioonivalimi juurutusjuhistest (pärand)](emea-swe-fi-sample-sdk.md). Eelarveintegratsiooni näidiste uue sõltumatu pakendi- ja laiendusmudeli toetamine on kavandatud hilisematele versioonidele.
+> Uue sõltumatu pakendi- ja [laiendusmudeli piirangute tõttu](../dev-itpro/build-pipeline.md) ei saa seda praegu selle fiskaalintegratsiooni näidise jaoks kasutada. Retail SDK eelmist versiooni peate kasutama LCS-i arendaja VM-s. Lisateavet vt Rootsi kontrollühiku [integratsiooni näidise juurutuse juhistest (pärand).](emea-swe-fi-sample-sdk.md) Uutesse versioonidesse planeeritakse fiskaalintegratsiooni valimite uue sõltumatu pakendi- ja laiendusmudeli tugi.
 
-### <a name="crt-extension-design"></a>CRT laienduse disain
+### <a name="crt-extension-design"></a>CRT laiendi kujundus
 
-Finantsdokumendi pakkuja laienduse eesmärk on luua teenusepõhiseid dokumente ja käsitleda juhtüksuse vastuseid.
+Fiskaaldokumendi pakkuja laiendi eesmärk on luua teenusepõhiseid dokumente ja käsitseda kontrollüksuse vastuseid.
 
-#### <a name="request-handler"></a>Taotluse käitleja
+#### <a name="request-handler"></a>Nõudeohjur
 
-Dokumendipakkuja jaoks on üks **documentProviderCleanCashi** päringukäsitleja. Seda käitlejat kasutatakse juhtseadmele rahandusdokumentide loomiseks.
+Dokumendipakkuja jaoks on **olemas üks DocumentProviderCleanCash** taotluseohjur. Seda ohjurit kasutatakse finantsdokumentide loomiseks kontrollühiku jaoks.
 
-See töötleja on päritud **INamedRequestHandler** liides. **Käitleja nime tagastamise eest vastutab meetod HandlerName**. Käitleja nimi peaks vastama Commerce'i peakontoris määratud konnektori dokumendipakkuja nimele.
+See ohjur on päritud **INamedRequestHandler liideselt**. Meetod **HandlerName** vastutab ohjuri nime tagastamise eest. Ohjuri nimi peab vastama Commerce Headquartersis määratud konnektori dokumendi pakkuja nimele.
 
-Konnektor toetab järgmisi taotlusi.
+Konnektor toetab järgmisi taotlusi:
 
-- **GetFiscalDocumentDocumentProviderRequest** – see taotlus sisaldab teavet selle kohta, milline dokument tuleks luua. See tagastab teenusepõhise dokumendi, mis tuleks juhtseadmes registreerida.
-- **GetSupportedRegistrableEventsDocumentProviderRequest** – See päring tagastab tellitavate sündmuste loendi. Praegu toetatakse müügiüritusi ja auditiüritusi.
-
-#### <a name="configuration"></a>Konfiguratsioon
-
-Rahandusdokumendi pakkuja konfiguratsioonifail asub aadressil **src\\FiscalIntegration\\CleanCash\\CommerceRuntime\\DocumentProvider.CleanCashSample\\Configuration\\DocumentProviderFiscalCleanCashSample.xml** lahenduste [Dynamics 365 Commerce hoidlas.](https://github.com/microsoft/Dynamics365Commerce.Solutions/) Selle faili eesmärk on lubada dokumendipakkuja sätete konfigureerimine Commerce'i peakontorist. Failivorming on joondatud fiskaalintegratsiooni konfiguratsiooni nõuetega.
-
-### <a name="hardware-station-extension-design"></a>Riistvarajaama laienduse disain
-
-Fiskaalse konnektori laienduse eesmärk on suhelda juhtseadmega. See kasutab HTTP-protokolli, et esitada juhtseadmele dokumente, mille CRT laiendus loob. Samuti tegeleb see juhtseadmelt saadud vastustega.
-
-#### <a name="request-handler"></a>Taotluse käitleja
-
-**CleanCashHandleri** päringukäitleja on juhtseadmele esitatud taotluste käsitlemise sisenemispunkt.
-
-Käitleja on päritud **INamedRequestHandler** liides. **Käitleja nime tagastamise eest vastutab meetod HandlerName**. Töötleja nimi peaks ühtima fiskaalse konnektori nimega, mis on määratud Commerce'i peakorteris.
-
-Konnektor toetab järgmisi taotlusi.
-
-- **SubmitDocumentFiscalDeviceRequest** – See päring saadab dokumendid juhtplokile ja tagastab sealt vastuse.
-- **IsReadyFiscalDeviceRequest** – Seda päringut kasutatakse juhtploki tervisekontrolliks.
-- **InitializeFiscalDeviceRequest** – Seda päringut kasutatakse juhtseadme lähtestamiseks.
+- **GetFiscalDocumentDocumentProviderRequest** – see taotlus sisaldab teavet selle kohta, milline dokument tuleks luua. See tagastab teenuseomase dokumendi, mis tuleb registreerida kontrollüksuses.
+- **GetSupportedRegistrableEventsDocumentProviderRequest** – see taotlus tagastab tellitavate sündmuste loendi. Praegu toetatakse müügisündmusi ja auditi sündmusi.
 
 #### <a name="configuration"></a>Konfiguratsioon
 
-Fiskaalse konnektori konfiguratsioonifail asub aadressil **src\\ Fiskaalintegratsioon\\ CleanCash\\ Riistvarajaam\\ Connector.CleanCashSample\\ Seadistamine\\ ConnectorCleanCashSample.xml** aastal [Dynamics 365 Commerce Lahendused](https://github.com/microsoft/Dynamics365Commerce.Solutions/) hoidla. Faili eesmärk on lubada fiskaalse konnektori sätteid Commerce'i peakorteris konfigureerida. Failivorming on joondatud fiskaalintegratsiooni konfiguratsiooni nõuetega.
+Fiskaaldokumendi pakkuja konfiguratsioonifail asub lahenduste hoidlas src **FiscalIntegration\\ CleanCash\\ CommerceRuntime\\ DocumentProvider.CleanCashSample\\ Configuration\\ DocumentProviderFiscalCleanCashSample.xml\\**[Dynamics 365 Commerce.](https://github.com/microsoft/Dynamics365Commerce.Solutions/) Selle faili eesmärk on lubada dokumendipakkuja sätted rakendusest Commerce headquarters konfigureerimist. Failivorming on joondatud fiskaalintegratsiooni konfiguratsiooni nõuetele.
+
+### <a name="hardware-station-extension-design"></a>Riistvarajaama laienduse kujundus
+
+Fiskaalühenduseks olemise laiendi eesmärk on pidada ühendust kontrollüksusega. See kasutab HTTP-protokolli, et esitada dokumente, CRT mida laiend kontrollüksusele loob. Samuti käsitletakse kontrollüksuselt saadud vastuseid.
+
+#### <a name="request-handler"></a>Nõudeohjur
+
+CleanCashHandler **taotluseohjur** on sisenemispunkt kontrollüksuse käsitsemise taotluste jaoks.
+
+Ohjur pärineb INamedRequestHandler **liideselt**. Meetod **HandlerName** vastutab ohjuri nime tagastamise eest. Ohjuri nimi peab ühtima Commerce Headquartersis määratud fiskaalühenduse nimega.
+
+Konnektor toetab järgmisi taotlusi:
+
+- **SubmitDocumentFiscalDeviceRequest** – see taotlus saadab dokumendid kontrollüksusesse ja tagastab sellelt vastuse.
+- **IsReadyFiscalDeviceRequest** – seda taotlust kasutatakse kontrollüksuse seisundikontrolliks.
+- **InitializeFiscalDeviceRequest** – seda taotlust kasutatakse kontrollüksuse lähtestamiseks.
+
+#### <a name="configuration"></a>Konfiguratsioon
+
+Fiskaalkonnektori **konfiguratsioonifail asub src\\ FiscalIntegration\\ CleanCash\\ HardwareStation\\ Connectoris.CleanCashSample\\ Configuration\\ ConnectorCleanCashSample.xml**[Dynamics 365 Commerce lahenduste](https://github.com/microsoft/Dynamics365Commerce.Solutions/) hoidlas. Faili eesmärk on lubada finantsühenduse sätete konfigureerimist rakendusest Commerce headquarters. Failivorming on joondatud fiskaalintegratsiooni konfiguratsiooni nõuetele.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

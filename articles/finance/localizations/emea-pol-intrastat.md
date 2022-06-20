@@ -1,6 +1,6 @@
 ---
 title: Poola Intrastat
-description: See teema sisaldab teavet Intrastat-aruandluse kohta Poola.
+description: See artikkel sisaldab teavet Intrastat-aruandluse kohta Poola.
 author: andosip
 ms.date: 11/09/2021
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: kfend
 ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: ''
-ms.openlocfilehash: fbacc204208e536291035c6f9bb2ef4fa4038f58
-ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
+ms.openlocfilehash: 45bd1d3c90d0a8a8ad5db6d0b80c5eed0aa489e8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8566087"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871097"
 ---
 # <a name="polish-intrastat"></a>Poola Intrastat
 
@@ -74,7 +74,7 @@ Lisateavet leiate teemast [ER konfiguratsioonide allalaadimine konfiguratsioonit
 
 Peate ettevõtte koodide jaoks looma kaks registreerimistüüpi: üks KM-i ID-le (NIP-kood) ja teine ettevõttekoodile (Regon-kood).
 
-1. Minge organisatsiooni **administratsiooniglobal** > **aadressiraamatusseRegistration** > **typesRegistration** > **.**
+1. Minge organisatsiooni **halduse globaalse** > **aadressiraamatu registreerimistüüpide** > **registreerimise** > **tüüpidele**.
 2. Tegevuspaanil valige **UUS**, et luua KM-i ID jaoks registreerimistüüp.
 3. **Sisestage uue registreerimise** tüübi nimi **dialoogiboksi Registreerimise** tüübi üksikasjad väljale Nimi. Näiteks sisestage **NIP**.
 4. Väljal **Riik/regioon** valige **POL**.
@@ -86,7 +86,7 @@ Peate ettevõtte koodide jaoks looma kaks registreerimistüüpi: üks KM-i ID-le
 
 ### <a name="match-the-registration-types-with-registration-categories"></a>Vastenda registreerimistüübid registreerimiskategooriatega
 
-1. Minge organisatsiooni **administratsiooniGlobal** > **aadressiraamatusseRegistration** > **typesRegistration** > **·**.
+1. Minge organisatsiooni **halduse globaalse** > **aadressiraamatu registreerimistüüpide** > **registreerimise kategooriatesse** > **·**.
 2. Tegevuspaanil valige **Uus**, et luua link iga loodud registreerimistüübi ja registreerimiskategooria vahel.
 
     - Käibemaksu ID (NIP-kood) registreerimistüübi jaoks valige käibemaksu **ID registreerimiskategooria**.
@@ -113,7 +113,7 @@ Peate ettevõtte koodide jaoks looma kaks registreerimistüüpi: üks KM-i ID-le
 
 ## <a name="set-up-foreign-trade-parameters"></a>Väliskaubanduse parameetrite häälestamine
 
-1. Minge kaubandusparameetritele **TaxSetupForeign** > **·** > **·**.
+1. Minge **väliskaubanduse** > **parameetrite** > **maksu seadistamisele**.
 2. **Valige Intrastati** (**PL) väljal Elektroonilise** **·** **aruandluse kiirkaardil Intrastati (PL) failivormingu vastendamine.**
 3. Sisestage või valige väärtus **Intrastati aruanne** väljal **Aruandevormingu vastendamine**.
 4. Valige kiirkaardi **Kaubaartikli hierarhia** väljal **Kategooriahierarhia** väärtus **Intrastat**.
@@ -158,7 +158,7 @@ Peate ettevõtte koodide jaoks looma kaks registreerimistüüpi: üks KM-i ID-le
 
 2.  Saate seadistada tarneviisi Intrastat-koodid.
 
-    1. Minge tarnelepingu **juurde Hanke ja hankeseSetupDistributionTerms** > **·** > **·** > **·**.
+    1. Minge hanke **häälestuse jaotuse** > **·** > **tarnetingimustesse** > **·**.
     2. Valige ruudustikus tarnetingimuste komplekt.
     3. **Intrastati** koodiväljal General **FastTab** sisestage kordumatu kood.
 
@@ -176,7 +176,7 @@ Kandeid saate sisestada ka käsitsi, valides **tegevuspaanil** valiku Uus.
 
     | Field | Kirjeldus |
     |-------------------------|-------------------------|
-    | Kehtivuse alguskuupäev | Valige aruande alguskuupäev. |
+    | Alguskuupäev | Valige aruande alguskuupäev. |
     | Loo fail | Intrastat-aruande jaoks **xml-faili** loomiseks valige väärtuseks Jah. |
     | Failinimi | Sisestage .xml-faili nimi. |
     | Aruande loomine | .xlsx faili genereerimiseks Intrastati aruande jaoks määrake suvandi väärtuseks **Jah**. |
@@ -225,7 +225,7 @@ Importige elektroonilise aruandluse (ER) konfiguratsioonide uusim versioon:
 
 ### <a name="create-registration-types-for-company-codes"></a>Ettevõttekoodide registreerimistüüpide loomine
 
-1. Minge organisatsiooni **administratsiooniglobal** > **aadressiraamatusseRegistration** > **typesRegistration** > **.**
+1. Minge organisatsiooni **halduse globaalse** > **aadressiraamatu registreerimistüüpide** > **registreerimise** > **tüüpidele**.
 2. Tegevuspaanil valige **uus**, et luua km-i ID-le (NIP-kood).
 3. Dialoogiaknas **Sisestage registreerimise** tüübi üksikasjad väljale **Nimi sisestage** **NIP**.
 4. Väljal **Riik/regioon** valige **POL**.
@@ -237,7 +237,7 @@ Importige elektroonilise aruandluse (ER) konfiguratsioonide uusim versioon:
 
 ### <a name="match-the-registration-types-with-registration-categories"></a>Vastenda registreerimistüübid registreerimiskategooriatega
 
-1. Minge organisatsiooni **administratsiooniGlobal** > **aadressiraamatusseRegistration** > **typesRegistration** > **·**.
+1. Minge organisatsiooni **halduse globaalse** > **aadressiraamatu registreerimistüüpide** > **registreerimise kategooriatesse** > **·**.
 2. Tegevuspaanil valige **Uus**, et luua link iga loodud registreerimistüübi ja registreerimiskategooria vahel.
 
     - NIP-registreerimise **tüübi** puhul valige käibemaksu **ID registreerimise** kategooria.
@@ -259,7 +259,7 @@ Importige elektroonilise aruandluse (ER) konfiguratsioonide uusim versioon:
 
 1. Avage **Organisatsiooni haldus** > **Numbriseeriad** > **Numbriseeriad**.
 2. Valige tegevuspaani vahekaardil **Numbriseeria** jaotises Uus **väärtus** **Numbriseeria**.
-3. Sisestage **Koodi** kiirkaardi väljale **Numbriseeria kood** **XMLfile\_**.
+3. Sisestage **XML-fail** ID kiirkaardi **väljale** **\_ Numbriseeria kood**.
 4. **Valige ulatuse parameetrite** kiirkaardi väljal **Ulatus** suvand **Ettevõte**.
 5. Väljal Ettevõte **valige** **DEMF**.
 6. Kiirkaardi segmendid väljale Pikkus tähe- ja numbrimärkidest **märkides** sisestage **4**.**·** **·**
@@ -281,11 +281,11 @@ Importige elektroonilise aruandluse (ER) konfiguratsioonide uusim versioon:
 11. Väljale Telefon **sisestage** **425-555-5068**.
 12. Väljale Faksinumber **sisestage** 425-555-5049 **·**.
 13. Sisestage **väljale** Meil manishc@contoso.com **·**.
-14. **Valige XML-failinumbri** viite numbriseeria **koodi väljal** **numbriseeriate vahekaardil XML-fail** **\_**.
+14. **Valige XML-failinumbri** viite numbriseeria **koodi** **väljal numbriseeriate** **vahekaardil XML-fail\_**.
 
 ### <a name="set-up-product-information"></a>Seadistage tooteteave
 
-1. Minge tooteteabe **haldusseProductsReleased** > **·** > **·** **tooted.**
+1. Minge tooteteabe halduse väljastatud **toodetele** > **·** > **·**.**·**
 2. Valige ruudustikus **D0001**.
 3. Valige kiirkaardi **Väliskaubandus** jaotise **Intrastat** väljal **Kaup** valige **100 200 30**.
 4. Kiirkaardi **Varude haldamine**  jaotise **Kaaluühikud** väljale **Netokaal** sisestage **2**.
@@ -327,7 +327,7 @@ Importige elektroonilise aruandluse (ER) konfiguratsioonide uusim versioon:
 
 4. Saate valida hankija jaoks vaikimisi tarneviisi.
 
-    1. Minge hankijatele **OstureskontroVendorsAll** > **·** > **·**.
+    1. Minge **ostureskontro** > **hankijatele** > **kõigile hankijatele**.
     2. Valige ruudustikus DE-001 **·**.
     3. Valige arve **ja tarne** kiirkaardi väljal **Tarneviis** väärtus **10**.
 
@@ -335,7 +335,7 @@ Importige elektroonilise aruandluse (ER) konfiguratsioonide uusim versioon:
 
 1. Saate tarnetingimuste jaoks seadistada Intrastat-koodi.
 
-    1. Minge tarnelepingu **juurde Hanke ja hankeseSetupDistributionTerms** > **·** > **·** > **·**.
+    1. Minge hanke **häälestuse jaotuse** > **·** > **tarnetingimustesse** > **·**.
     2. Valige ruudustikus **CIF**.
     3. Intrastati **koodi** väljal General FastTab **sisestage** **CIF**.
 
@@ -347,7 +347,7 @@ Importige elektroonilise aruandluse (ER) konfiguratsioonide uusim versioon:
 
 3. Saate valida hankija puhul vaikimisi soovitud tarnetingimused.
 
-    1. Minge hankijatele **OstureskontroVendorsAll** > **·** > **·**.
+    1. Minge **ostureskontro** > **hankijatele** > **kõigile hankijatele**.
     2. Valige ruudustikus DE-001 **·**.
     3. Valige ARVE **ja tarne** kiirkaardil tarnetingimuste **väljal** **CIF**.
 

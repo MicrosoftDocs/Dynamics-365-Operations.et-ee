@@ -1,6 +1,6 @@
 ---
 title: Välisandmed likviidsuse planeerimistes
-description: Selles teemas kirjeldatakse seadistuse etappe, mis tuleb lõpule viia, et välisandmeid saaks sisestada või importida likviidsuse prognoosi.
+description: See artikkel kirjeldab seadistuse etappe, mis tuleb lõpule viia, et välisandmeid saaks sisestada või importida likviidsuse prognoosi.
 author: RyanCCarlson2
 ms.date: 02/16/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: rcarlson
 ms.search.validFrom: 2020-06-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: f7fac80b7ad0fde273fbd33aa5df146e569be46e
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: f0cb05770dc2fbd4e13af261b5f0a0e117a2f6d7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713722"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846940"
 ---
 # <a name="external-data-in-cash-flow-forecasts"></a>Välisandmed likviidsuse planeerimistes
 
 [!include [banner](../includes/banner.md)]
 
-Välisandmeid saab sisestada või importida rahavoo prognoosidesse. See teema kirjeldab seadistuse etappe, mis on omased välisandmete kasutamisele ja võimaldavad kaasata välisandmed rahavoo prognoosimisse.
+Välisandmeid saab sisestada või importida rahavoo prognoosidesse. See artikkel kirjeldab seadistuse etappe, mis on spetsiifilised välisandmete kasutamisele ja mis võimaldavad välisandmete kaasamist likviidsuse prognoosi.
 
 ## <a name="external-data-setup"></a>Välisandmete häälestus
 

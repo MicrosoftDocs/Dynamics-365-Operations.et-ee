@@ -12,19 +12,19 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 07dae424f32281a39c3887437ac7976fb3beb8d3
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 3fdbdfc7a1a642bae2e693d1f6de0af3c08a8a6e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734919"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876469"
 ---
 # <a name="hire-existing-employees-through-recruitment"></a>Olemasolevate töötajate palkamine värbamise kaudu
 
 [!include [banner](../../includes/banner.md)]
 
 > [!IMPORTANT]
-> Selle teema värbamisfunktsioone nimetatakse värbamisprojektideks ning see keskendub kandidaatidele, avaldustele ja värbamisprojektidele.  
+> Selle artikli värbamisfunktsioone nimetatakse värbamisprojektideks ning see keskendub kandidaatidele, avaldustele ja värbamisprojektidele.  
 
 
 Mõnikord võivad avatud ametikohad täita kandidaadid, kes on juba teie organisatsiooni töötajad. See protseduur annab ülevaate olemasoleva töötaja värbamise kohta värbamisprotsessi kaudu. Selles protseduuris on värbamisprojekt juba loodud ja olemasolev töötaja on juba värbamisprojekti avalduse esitanud. Selle **protseduuri loomiseks kasutati USMF-i** demoandmete ettevõtet.

@@ -1,6 +1,6 @@
 ---
 title: Palga algsaldode sisestamine
-description: Selles teemas kirjeldatakse tulukoodide, mahaarvamiste, soodustuste ja maksude algsaldode sisestamist.
+description: Artikkel kirjeldab algsaldode sisestamise samme teenimiskoodide, mahaarvamiste, soodustuste ja maksude jaoks.
 author: andreabichsel
 ms.date: 11/20/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0a5529e3268727dce022daebb853e50710e5bde84811014febe30e80afee9ed6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d14e7e0772c5b365818d3a8a230abe9f674a077e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721872"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850014"
 ---
 # <a name="enter-payroll-beginning-balances"></a>Palga algsaldode sisestamine
 
 [!include [banner](../../includes/banner.md)]
 
-Selles teemas kirjeldatakse tulukoodide, mahaarvamiste, soodustuste ja maksude algsaldode sisestamist. See teave väärtuslik partneritele, kes viivad uue palgajuurutuse jaoks teisest süsteemist andmeid üle. Palgasaldode sisestamiseks valmistumisel kontrollime järgmisi andmeid.
+Artikkel kirjeldab algsaldode sisestamise samme teenimiskoodide, mahaarvamiste, soodustuste ja maksude jaoks. See teave väärtuslik partneritele, kes viivad uue palgajuurutuse jaoks teisest süsteemist andmeid üle. Palgasaldode sisestamiseks valmistumisel kontrollime järgmisi andmeid.
 
 - Töötajakirjed on sisestatud ja süsteemis saadaval
 - Järgmised andmed on seadistatud ja töötajatele määratud.

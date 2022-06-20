@@ -1,6 +1,6 @@
 ---
 title: Osapool ja globaalne aadressiraamat
-description: Selles teemas kirjeldatakse osapoole ja globaalse aadressiraamatu topeltkirjutuse funktsioone.
+description: See artikkel kirjeldab topeltkirjutuse osapoole ja globaalse aadressiraamatu funktsioone.
 author: RamaKrishnamoorthy
 ms.date: 04/25/2022
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: sericks
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: 1e2dcfa69308f6691e787a1ff1893f9080dcaef1
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 91b56d091f549838092bdefe1a6a763fde79a32c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8717442"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892189"
 ---
 # <a name="party-and-global-address-book"></a>Osapool ja globaalne aadressiraamat
 
@@ -292,7 +292,7 @@ Tabeli kaartide kogum toimib koos ning suhtluses osapoole ja globaalse aadressir
 | [Müügiarve päised V2](mapping-reference.md#118) | arved |
 | [Tervitused](mapping-reference.md#228) | msdyn\_salutations |
 | [Hankijad V2](mapping-reference.md#202) | Msdyn\_hankijad |
-| [CDS-aadressi rollid](mapping-reference.md#301) |msddressaddressroles\_|
+| [CDS-aadressi rollid](mapping-reference.md#301) |msdraamat\_ addressroles|
 
 Lisateavet vt [topeltkirjutuse vastendamise viitest](mapping-reference.md).
 

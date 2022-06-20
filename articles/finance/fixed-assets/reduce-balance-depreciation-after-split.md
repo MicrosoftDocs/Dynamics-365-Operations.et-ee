@@ -1,6 +1,6 @@
 ---
 title: Väheneva jääkväärtuse kuluarvestusmeetod pärast tükeldamist
-description: Selles teemas kirjeldatakse meetodit, mida kasutatakse põhivarades kulumi arvutamiseks pärast seda, kui vara tükeldatakse väheneva jääkväärtuse meetodil.
+description: See artikkel kirjeldab meetodit, mida kasutatakse põhivarades kulumi arvutamiseks pärast vara tükeldamist, kasutades vähendamissaldo meetodit.
 author: moaamer
 ms.date: 11/17/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-11-17
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 35637ac1484121232c3571d1a26132a86d69e366
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 539967a9a73da91f6b49c1bb89f404267ae0a804
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726749"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883296"
 ---
 # <a name="reduce-balance-depreciation-after-a-split"></a>Väheneva jääkväärtuse kuluarvestusmeetod pärast tükeldamist
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas kirjeldatakse meetodit, mida kasutatakse põhivarades kulumi arvutamiseks pärast seda, kui vara tükeldatakse teiseks varaks väheneva jääkväärtuse meetodil. Vararaamatus konfigureeritud kulumiaastaks on finantsaasta. Lisateavet vt teemast [Saldo kulumi vähendamine](reduce-balance-depreciation.md) ja [Põhivara tükeldamine](tasks/split-fixed-asset.md).
+See artikkel kirjeldab meetodit, mida kasutatakse põhivarades kulumi arvutamiseks pärast seda, kui vara on tükeldatud teise varaga, kasutades vähendamissaldo meetodit. Vararaamatus konfigureeritud kulumiaastaks on finantsaasta. Lisateavet vt teemast [Saldo kulumi vähendamine](reduce-balance-depreciation.md) ja [Põhivara tükeldamine](tasks/split-fixed-asset.md).
 
 Kui tükeldate põhivara eelarveperioodi jooksul, mis on vara soetamise perioodist hilisem kui periood, arvestatakse vähendatud saldoga kulumit eelmise aasta vara raamatupidamisliku jääkväärtuse (NBV) alusel. See arvestab ka soetamise ja kulumi korrigeerimise kandeid, mis loodi vara tükeldamise kandest. Selline käitumine eeldab, et vara soetati ühel finantsaastal ja tükeldatakse hilisemal finantsaastal. Summa, mis tuleb amortiseerida algse vara puhul pärast tükeldamist peegeldab vara raamatupidamislikku jääkväärtust enne vara tükeldamist ja tükeldamiseks sisestatud soetamise ja kulumi korrigeerimise kannet.
 

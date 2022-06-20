@@ -1,6 +1,6 @@
 ---
 title: Tegevusest sõltuvate ER-i sihtkohtade konfigureerimine
-description: Sellest teemast selgitatakse, kuidas konfigureerida tegevusest sõltuvad sihtkohad konfigureeritud elektroonilise aruandluse (ER) vormingu iga kausta või faili komponendi jaoks.
+description: See artikkel selgitab, kuidas konfigureerida toimingust sõltuvaid sihtkohti elektroonilise aruandluse (ER) vormingus, mis on konfigureeritud väljaminevate dokumentide loomiseks.
 author: NickSelin
 ms.date: 02/09/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: e0c836d4a0be47b753d74dc9d6d40ea7d9197176
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: b7dfd92fd9e256298c13dcbde4b6da3f07d250d8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323975"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876830"
 ---
 # <a name="configure-action-dependent-er-destinations"></a>Tegevusest sõltuvate ER-i sihtkohtade konfigureerimine
 
@@ -28,7 +28,7 @@ ms.locfileid: "8323975"
 
 Sihtkohad saate [konfigureerida](electronic-reporting-destinations.md) elektroonilise aruandluse (ER) [vormingu konfiguratsiooni igale väljundkomponendile (kaustale või failile),](general-electronic-reporting.md)[mida](general-electronic-reporting.md#Configuration) kasutatakse väljamineva dokumendi loomiseks. Kasutajad, kes kasutavad seda tüüpi ER-vormingut ja kellel on vastavad pääsuõigused, saavad muuta konfigureeritud sihtkoha sätteid ka käitusajal.
 
-Rakenduse Microsoft Dynamics 365 Finance **versioonis 10.0.17 ja uuemas** saab ER-vormingut käitada [valmistades ette](er-apis-app10-0-17.md) tegevuse koodi, mille kasutaja ER-vormingut käitades teeb. Näiteks moodulis **Müügireskontro**, saate prindihalduse sätetes valida ER-vormingu, mis loob kindla äridokumendi, nt vabas vormis arve. Seejärel saate arve eelvaate kuvamiseks valida nupu **Kuva** või printerisse saatmiseks nupu **Prindi**. Kui kasutaja tegevus edastatakse töötavasse ER-vormingusse käitusajal, saate konfigureerida eri kasutaja tegevustele erinevad ER-i sihtkohad. Selles teemas selgitatakse, kuidas konfigureerida ER-i sihtkohti seda tüüpi ER-vormingule.
+Finantsversioonis Microsoft Dynamics 365.0.17 **ja** uuemates versioonides saab ER-vormingut käivitada, kui kasutaja täidab seda ER-vormingut [käitades](er-apis-app10-0-17.md) toimingukoodi. Näiteks moodulis **Müügireskontro**, saate prindihalduse sätetes valida ER-vormingu, mis loob kindla äridokumendi, nt vabas vormis arve. Seejärel saate arve eelvaate kuvamiseks valida nupu **Kuva** või printerisse saatmiseks nupu **Prindi**. Kui kasutaja tegevus edastatakse töötavasse ER-vormingusse käitusajal, saate konfigureerida eri kasutaja tegevustele erinevad ER-i sihtkohad. See artikkel selgitab, kuidas konfigureerida ER-sihtkohti seda tüüpi ER-vormingu jaoks.
 
 ## <a name="make-action-dependent-er-destinations-available"></a>Tegevusest sõltuvate ER-i sihtkohtade kättesaadavaks tegemine
 
@@ -82,7 +82,7 @@ Järgmises näites on näidatud, kuidas saavutada samu alternatiivseid ER-i siht
 
 Kui ER-vormingu käitamisel kasutaja tegevused on valmistatud ette kasutaja poolt, kellel on vastavad [õigused](electronic-reporting-destinations.md#security-considerations) konfigureeritud sihtkohasätete muutmiseks käitusajal, kuvatakse dialoogiboks, mis annab võimaluse muuta konfigureeritud sihtkohasätteid. See dialoogiboks on valikuline ja selle ilme sõltub sellest, kuidas on ER-vormingu käitamiseks tehtud ER-ii raamistiku kutsung rakendatud. Selle dialoogiboksi kuvamisel lubatakse ER-i sihtkohad vastavalt esitatud kasutaja tegevusele.
 
-Järgmises näites on toodud dialoogiboksi **Elektroonilise aruandlse vormingu sihtkohad** näide, mis ilmub, kui vabas vomis arve [sisestatakse](../../../finance/accounts-receivable/create-free-text-invoice-new.md) ja ER-vorming **Vabas vormis arve (Excel)** käitatakse selle dokumendi loomiseks, kui tegevus **Printer** valmistati ette ja ER-i sihtkohad olid selle vormingu jaoks konfigureeritud, nagu varasemalt selles teemas on näidatud.
+Järgmine **näide**[...](../../../finance/accounts-receivable/create-free-text-invoice-new.md)**näitab elektroonilise aruandluse vormingu sihtkoha dialoogiboksi näidet, mis kuvatakse vabas vormis arve sisestamisel ja dokumendi loomiseks käivitatakse vabas vormis arve (Excel)** ER-vorming, **kui** printeri tegevus on ette arvatud ja selle vormingu jaoks konfigureeriti ER-sihtkohad, nagu selles artiklis varem näidatud.
 
 ![Dialoogiboks, mis annab võimaluse muuta täätava ER-vormingu algselt konfigureeritud ER-i sihtkohad.](./media/er-destination-action-dependent-02.gif)
 

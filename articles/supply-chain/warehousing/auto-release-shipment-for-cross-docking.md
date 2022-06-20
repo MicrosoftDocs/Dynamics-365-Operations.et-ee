@@ -1,6 +1,6 @@
 ---
 title: Saadetise automaatne vabastamine ristlaadimiseks
-description: See teemas kirjeldatakse ristlaadimise strateegiat, mille abil saate automaatselt vabastada nõudlustellimuse lattu, kui tootmistellimus, mis tarnib nõudluskoguse, on kinnitatud lõpetatuks, nii et kogus teisaldatakse otse toodangu vabastamise asukohast väljaminevasse asukohta.
+description: See artikkel kirjeldab ristlaadimise strateegiat, mis võimaldab teil automaatselt vabastada nõudluse tellimuse lattu, kui nõudluse kogust tarniv tootmistellimus on lõpetatuna kinnitatud, nii et kogus teisaldatakse otse tootmise väljastuskohast väljaminevasse asukohta.
 author: Mirzaab
 ms.date: 10/15/2019
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2019-10-1
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 1315bda1fd284eb326d4f08bf36bfea59074fde3
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 34283422bafaeabef9ac454957b60db84eb5a9c7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577932"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903778"
 ---
 # <a name="auto-release-shipment-for-cross-docking"></a>Saadetise automaatne vabastamine ristlaadimiseks
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas kirjeldatakse ristlaadimise strateegiat, mille abil saate automaatselt vabastada nõudlustellimuse lattu, kui tootmistellimus, mis tarnib nõudluskoguse, on kinnitatud lõpetatuks. Sel viisil teisaldatakse nõudlustellimuse täitmiseks vajalik kogus toodangu väljastuskohast otse väljaminevasse asukohta.
+See artikkel kirjeldab ristlaadimise strateegiat, mis võimaldab teil automaatselt vabastada nõudluse tellimuse lattu, kui nõudluse kogust tarniv tootmistellimus on lõpetatuna kinnitatud. Sel viisil teisaldatakse nõudlustellimuse täitmiseks vajalik kogus toodangu väljastuskohast otse väljaminevasse asukohta.
 
 Ristlaadimine on laohaldusvoog, kus väljamineva tellimuse täitmiseks vajalik kogus suunatakse tellimuse väljastusalale või koondusalale asukohast, kus sissetulev tellimus saadi. (Sissetulev tellimus võib olla ostutellimus, üleviimistellimus või tootmistellimus). Kui täpsem ristlaadimise funktsioon toetab kõiki tarne- ja nõudlustellimusi ning nõuab, et väljaminev nõudlus väljastatakse enne ristlaadimise tuvastamist, siis saadetise automaatse vabastamise funktsioonil on järgmised omadused:
 

@@ -1,6 +1,6 @@
 ---
 title: Tellimuste lähetamine otsetarnetena
-description: Selles teemas näidatakse, kuidas luua müügitellimuse otsetarnet.
+description: See artikkel demonstreerib, kuidas luua müügitellimusele otsetarne.
 author: Henrikan
 ms.date: 07/11/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 94890b0915a49052c298090f124cf2b91c462de8
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f5f145bacecc47a782c60335c6ff5b79f978007c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572437"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875155"
 ---
 # <a name="ship-orders-as-direct-deliveries"></a>Tellimuste lähetamine otsetarnetena
 
 [!include [banner](../../includes/banner.md)]
 
-Selles teemas näidatakse, kuidas luua müügitellimuse otsetarnet. Otsetarnet kasutatakse siis, kui soovite saata kaubad kliendile otse oma hankijalt, ilma et tarniksite need esmalt oma lattu. Saate seda protseduuri käitada demoettevõtte USMF-i andmetega või oma andmetega. Teise alamülesande „Loo töölaualt otsetarneid” edukaks lõpuleviimiseks veenduge, et kaubal, mille müügitellimuselt valite, on väljastatud tooteetaloni kiirkaardil Ost määratud vaikehankija.
+See artikkel demonstreerib, kuidas luua müügitellimusele otsetarne. Otsetarnet kasutatakse siis, kui soovite saata kaubad kliendile otse oma hankijalt, ilma et tarniksite need esmalt oma lattu. Saate seda protseduuri käitada demoettevõtte USMF-i andmetega või oma andmetega. Teise alamülesande „Loo töölaualt otsetarneid” edukaks lõpuleviimiseks veenduge, et kaubal, mille müügitellimuselt valite, on väljastatud tooteetaloni kiirkaardil Ost määratud vaikehankija.
 
 ## <a name="set-an-individual-order-for-direct-delivery"></a>Eraldi otsetarne tellimuse määramine
 1. Avage **Navigeerimispaan > Moodulid > Müügireskontro > Tellimused > Kõik müügitellimused**.

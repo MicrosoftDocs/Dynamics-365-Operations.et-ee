@@ -1,6 +1,6 @@
 ---
 title: Hoolduskavad
-description: Selles teemas tutvustatakse hoolduskavasid varahalduses.
+description: See artikkel selgitab varahalduse hooldusplaane.
 author: johanhoffmann
 ms.date: 01/20/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7c74505c1771354aba42ddd9df2b7eaff8f5bc4653675244be99c4ef8afa73f6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1f8a6de85f68a924a8d285d8cdd306ab774661fb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740739"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897802"
 ---
 # <a name="maintenance-plans"></a>Hoolduskavad
 
@@ -135,7 +135,7 @@ Selles jaotises kirjeldatakse hoolduskavade ridade seadistamist ja antakse näit
 | **Intervalitüüp: kui on jõudnud allapoole** see intervallitüüp on seotud ainult loenduritega ja seda kasutatakse hoolduskava reale määratud alumise piiri näitamiseks. Hooldusgraafiku kirjetel on loenduri registreerimise oodatav alguskuupäev ja -kellaaeg, mis tähendab, et need kirjed luuakse oodatava alguskuupäevaga, mis on võrdne või varasem süsteemi kuupäevast. | Pole kohaldatav | Loenduri intervall näitab alumist piiri. Kui see piir loenduri registreerimise ajal ületatakse, luuakse ennetava hoolduse ajastamise ajal hooldusgraafiku rida. |
 | **Intervalli tüüp: seotud alguskuupäevast** See intervalli tüüp loob hooldusgraafiku rea ainult üks kord. Hoolduskava võib sisaldada rohkem selle intervallitüübiga hoolduskava ridu ja need read on seotud. Tavaliselt loote hoolduskava, mis sisaldab ainult selle intervallitüübiga ridu. Hooldusgraafiku read luuakse selle hoolduskava rea tuvastamisel, millel on kõige esimene oodatud alguskuupäev ja -kellaaeg. | Vaadake eespool olevat kirjeldust "Üks kord alates alguskuupäevast". Näide: Loote auto hooldustöö hoolduskavas kaks rida, üks ajapõhine rida 1-aastase perioodiga ja üks loenduripõhine rida 25 000 km piiriga. Hooldusgraafiku rida luuakse piirile, mis ületatakse esimesena. Selle reatüübi jaoks loote rea 1-aastase perioodiga. | Vaadake eespool olevat kirjeldust "Üks kord alates alguskuupäevast". Näide: Loote auto hooldustöö hoolduskavas kaks rida, üks ajapõhine rida 1-aastase perioodiga ja üks loenduripõhine rida 25 000 km piiriga. Hooldusgraafiku rida luuakse piirile, mis ületatakse esimesena. Selle reatüübi jaoks loote rea 25 000 km piiriga. Kahe loenduriga rea loomise näide: võite seadistada hoolduskava ka kahe seotud, loenduripõhise reaga, kus esimesel real on piiriks 10 000 toodetud üksust ja teine rida on seotud masina või töökeskusega, mis vajab hooldust pärast 3 000 tundi kestnud tööd. |
 | **Intervalli tüüp: seotud viimasest töökäsust** See intervallitüüp loob pärast igat lõpetatud töökäsku uued hooldusgraafiku read. Hoolduskava võib sisaldada rohkem selle intervallitüübiga ja need read on seotud. Tavaliselt loote hoolduskava, mis sisaldab ainult selle intervallitüübiga hoolduskava ridu. Hooldusgraafiku read luuakse selle hoolduskava rea tuvastamisel, millel on kõige esimene oodatud alguskuupäev ja -kellaaeg. | See intervallitüüp toimib põhimõtteliselt nagu eespool kirjeldatud "Seotud alguskuupäevast". Ainuke vahe seisneb kuupäevas, millel intervallitüüp põhineb. Tegelik kasutatud kuupäev on tegeliku vara viimase töökäsu lõpetamise kuupäeva ja kellaaja *ning* hooldustöö tüübi / hooldustöö tüübi variandi / vahetuse kombinatsioon. | See intervallitüüp toimib põhimõtteliselt nagu eespool kirjeldatud "Seotud alguskuupäevast". Ainuke vahe seisneb kuupäevas, millel intervallitüüp põhineb. Tegelik kasutatud kuupäev on tegeliku vara viimase töökäsu lõpetamise kuupäeva ja kellaaja *ning* hooldustöö tüübi / hooldustöö tüübi variandi / vahetuse kombinatsioon. |
-| **Intervalli tüüp: kordub koondväärtusel (ainult loendur)** Hooldusplaani käivitamisel luuakse planeeritud hooldusrida iga kord, kui varaloenduri akumuleeritud väärtus jõuab perioodisagedusele või isegi saavutab perioodisageduse kordse väärtuse. (Perioodi sagedus määratletakse hoolduskava real.)<p>Lisateavet selle funktsiooni lubamise ja kasutamise kohta vt selle teema hilisemast jaotisest [Loenduripõhise hoolduse täiustused](#counter-based-maintenance). | Pole kohaldatav | **Näide:** tunniloendur on häälestatud vara AK-101 jaoks. Vara jaoks on häälestatud ka põhivaraplaani rida. Selle rea intervallitüüp on *Korduv liidetud väärtus (ainult loendur)* ja perioodi sagedus on *1000*. Hooldusplaani käivitamisel luuakse plaanitud hooldusrida, kui loenduri koondväärtus ületab 1000 tundi. Seejärel kui loenduri koondväärtus ületab 2000 tundi, luuakse teine planeeritud hooldusrida jne iga täiendava 1000 tunni kohta. |
+| **Intervalli tüüp: kordub koondväärtusel (ainult loendur)** Hooldusplaani käivitamisel luuakse planeeritud hooldusrida iga kord, kui varaloenduri akumuleeritud väärtus jõuab perioodisagedusele või isegi saavutab perioodisageduse kordse väärtuse. (Perioodi sagedus määratletakse hoolduskava real.)<p>Lisateavet selle funktsiooni lubamise ja kasutamise kohta vt käesolevas [artiklis eespool teemast Kassapõhise hoolduse täiustused](#counter-based-maintenance). | Pole kohaldatav | **Näide:** tunniloendur on häälestatud vara AK-101 jaoks. Vara jaoks on häälestatud ka põhivaraplaani rida. Selle rea intervallitüüp on *Korduv liidetud väärtus (ainult loendur)* ja perioodi sagedus on *1000*. Hooldusplaani käivitamisel luuakse plaanitud hooldusrida, kui loenduri koondväärtus ületab 1000 tundi. Seejärel kui loenduri koondväärtus ületab 2000 tundi, luuakse teine planeeritud hooldusrida jne iga täiendava 1000 tunni kohta. |
 | **Intervalli tüüp: üks kord koondväärtusel (ainult loendur)** Hooldusplaani käivitamisel luuakse planeeritud hooldusrida, kui varaloenduri akumuleeritud väärtus jõuab perioodisagedusele, mis on hooldusplaani real määratletud.<p>Lisateavet selle funktsiooni lubamise ja kasutamise kohta vt jaotisest [Loenduripõhise hoolduse täiustused](#counter-based-maintenance). | Pole kohaldatav | **Näide:** tunniloendur on häälestatud vara AK-101 jaoks. Vara jaoks on häälestatud ka põhivaraplaani rida. Selle rea intervallitüüp on *Ühekordne liidetud väärtus (ainult loendur)* ja perioodi sagedus on *1000*. Hooldusplaani käivitamisel luuakse plaanitud hooldusrida, kui loenduri koondväärtus ületab 1000 tundi. |
 
 >[!NOTE]
@@ -197,7 +197,7 @@ Funktsioon *Loenduripõhise hoolduse täiustused* lisab järgmised funktsioonid.
 
 - Võimalus vara loomisel automaatselt sisestada loendur, mille väärtus on *0* (null). See valik võib olla kasulik, kui kasutate loenduritel põhinevat ennustushooldust. Kui funktsiooni *Loenduripõhise hoolduse täiustused* ei kasutata, tuleb loendurid, mille väärtus on *0* (null), sisestada käsitsi.
 - Võimalus konfigureerida loendurit, et lähtestatakse töökäsu lõpuleviimisel automaatselt. See funktsioon on kasulik, kui soovite planeerida hoolduse alates viimase töökäsu lõpuleviidud koondväärtusest.
-- Uut tüüpi hooldusplaani intervall, mille nimi on *Korduv koondväärtusel (ainult loendur)*. Seda tüüpi loendur käivitab hoolduse iga kord, kui koondloendur saavutab kindla väärtuse kordse. Näiteks hoolduse saab käivitada iga 10 000 tunni järel. Lisateavet leiate selle teema varasemast jaotisest [Intervalli tüüpide ülevaade](#interval-types).
+- Uut tüüpi hooldusplaani intervall, mille nimi on *Korduv koondväärtusel (ainult loendur)*. Seda tüüpi loendur käivitab hoolduse iga kord, kui koondloendur saavutab kindla väärtuse kordse. Näiteks hoolduse saab käivitada iga 10 000 tunni järel. Lisateavet vt selle artikli varasemast [intervallitüüpide](#interval-types) ülevaate jaotisest.
 - Teist uut tüüpi hooldusplaani intervall, mille nimi on *Ühekordne koondväärtusel (ainult loendur)*. Seda tüüpi loendur käivitab hoolduse, kui koondloendur saavutab kindla väärtuse, nagu 8000 tundi. Lisateavet leiate jaotisest [Intervalli tüüpide ülevaade](#interval-types).
 
 ### <a name="turn-on-the-counter-based-maintenance-enhancements-feature"></a>Loenduripõhise hoolduse täiustuste funktsiooni sisselülitamine

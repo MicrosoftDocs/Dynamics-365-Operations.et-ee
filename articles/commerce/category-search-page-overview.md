@@ -1,6 +1,6 @@
 ---
 title: Kategooria vaikesihtlehe ja otsingutulemuste lehe ülevaade
-description: Selles teemas antakse rakenduse Dynamics 365 Commerce kategooria vaikesihtlehe ja otsingutulemuste lehe ülevaade.
+description: See artikkel annab ülevaate vaikekategooria leheküljest ja otsingutulemuste lehest Dynamics 365 Commerce.
 author: ashishmsft
 ms.date: 06/30/2020
 ms.topic: overview
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6f61ee8ec212185e195e2cf1a9d6d25c31e4f672
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 5e61db026649df8fe331d107bfbda8246fb9d5f9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982430"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881848"
 ---
 # <a name="default-category-landing-page-and-search-results-page-overview"></a>Kategooria vaikesihtlehe ja otsingutulemuste lehe ülevaade
 
 [!include [banner](includes/banner.md)]
 
-Selles teemas antakse rakenduse Microsoft Dynamics 365 Commerce e-kaubanduse kategooria vaikesihtlehe ja otsingutulemuste lehe ülevaade.
+See artikkel annab e-Commerce'i vaikimisi kategooria lehekülje ja Microsoft Dynamics 365 Commerce otsingutulemuste lehe ülevaate.
 
 ## <a name="default-category-landing-page"></a>Kategooria vaikesihtleht
 
@@ -32,7 +32,7 @@ Kategooria vaikesihtleht on leht, kuhu veebisaidi kasutajad tavaliselt navigeeri
 
 ![Kategooria vaikesihtleht.](./media/SimpleCategoryLandingDressCategory.png)
 
-Lehe ülaosas on päis, mis näitab kõiki tootekategooriaid ja teisi lehti, mida tootejuht on kategoriseerinud. Konfiguratsioon tehakse kanali navigeerimishierarhia konfiguratsiooni osana. Lehe allosas on jalus, mis sisaldab kiirlinke erinevatele teemadele, millest klient võib olla huvitatud.
+Lehe ülaosas on päis, mis näitab kõiki tootekategooriaid ja teisi lehti, mida tootejuht on kategoriseerinud. Konfiguratsioon tehakse kanali navigeerimishierarhia konfiguratsiooni osana. Lehe allosas on jalus, mis sisaldab kiirlinke erinevatele artiklitele, mis võivad ostukotta huvituda.
 
 Kategooria jaoks on olulised järgmised komponendid.
 

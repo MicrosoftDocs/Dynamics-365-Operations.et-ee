@@ -12,12 +12,12 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: a61e501d843e220259f9e26aac4309e6902d7a22
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: a9ff9cb71b08d94e45e82c2b8f81550c9f8aba64
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8669653"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897744"
 ---
 # <a name="learning-catalog-for-dynamics-365-supply-chain-management-administrators"></a>Õppekataloog Dynamics 365 Supply Chain Managementi administraatoritele
 
@@ -42,7 +42,7 @@ Järgnev kataloog hõlmab üld- ja valdkonnapõhiseid teadmisi nii baas- kui ka 
 | [Kanna andmed üle ja mine otse üle finantside ja toimingute rakendustesse](/learn/paths/migrate-data-go-live-finance-operations/) | Funktsiooninõustajana peate aru saama, kuidas valmistada oma kliendi andmeid ette siirdamiseks, töötada andmehaldusega ja sooritada kasutaja aktsepteerimise testimist, et töötada finantside ja toimingute rakendustega. | Tasuta iseläbitav internetipõhine õppetee | 4 tundi |
 | [Analüütika ja aruandlusega töötamine rakenduses Finance and Operation](/learn/modules/work-with-analytics-reporting-in-dynamics-365-finance-ops/) | Ärijuhid saavad oma ettevõttes teha olulisi otsuseid, kui neil on täpne ülevaade aluseks olevatest finants- ja tööandmetest. Ilma nähtavate andmeteta on ärijuhtidel peaaegu võimatu ülesandeid täita. Kasutades analüüsi ja aruandlust finantside ja toimingute rakendustes, saate volitada kõiki ärikasutajaid olenevalt nende turvaõigustest, et saada vihjeid, mida nad peavad nende oluliste otsuste tegemiseks. | Tasuta iseläbitav internetipõhine õppetee | 1.5 tundi |
 | [Finantside ja toimingute rakendusprojekti haldamine](/learn/paths/implement-finance-operations/) | Õppige kõige olulisemaid elemente ja parimaid tavasid eduka finants- ja operatsioonide rakendusprojekti haldamiseks. Alates esimesest sammust, mil plaanite ja kujundate oma projekti metodoloogiat, FastTracki teenuste kasutamist, arenguplaani, andmehaldust jne, kuni parimate viisideni, kuidas oma toiminguid pärast avaldamist hallata ja jälgida. | Tasuta iseläbitav internetipõhine õppetee | 11.5 tundi |
-| [Süsteemihalduse koduleht](/dynamics365/unified-operations/dev-itpro/sysadmin/system-administration-home-page) | Selles teemas käsitletakse Microsoft Dynamics 365 for Finance and Operationsi süsteemiadministraatorite sisu. See sisu aitab teil konfigureerida süsteemi nii, et see töötaks teie organisatsiooni puhul sujuvalt ning tulemuslikult. | Dokumentatsioon | |
+| [Süsteemihalduse koduleht](/dynamics365/unified-operations/dev-itpro/sysadmin/system-administration-home-page) | See artikkel viitab sisule, mille süsteemiadministraatorid on Microsoft Dynamics 365 for Finance and Operations. See sisu aitab teil konfigureerida süsteemi nii, et see töötaks teie organisatsiooni puhul sujuvalt ning tulemuslikult. | Dokumentatsioon | |
 | [Finance and Operations: Dynamics 365 kasutuselevõtt (DYN542PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-onboarding-to-dynamics-365-1-10-19) | FastTrack pakub kasutuselevõtmise teenust igale Dynamics 365 for Finance and Operationsi projektile. Selle arutelu käigus selgitame kasutuselevõtmise protsessi, tutvustame kasutuselevõtmise sessiooni etappe ja selgitame, kuidas me teeme kasutuselevõtmise protsessi lähitulevikus tõhusamaks ja mugavamaks. See seanss on kindlasti abiks kõigile, kes teevad klientidega koostööd projekti varajastes etappides, alates litsentsilepingu lõpetamisest kuni juurutusprojekti algatamiseni. | Veebikonverentsi tasuta salvestamine | 62 minutit |
 | [Asutusesisene (kohalikud äriandmed) juurutus (DYN382PAL2)](https://community.dynamics.com/365/b/techtalks/posts/on-premises-local-business-data-deployment-october-19-2017) | Liituge selle vestlusega, et saada ülevaade Dynamics 365 for Finance and Operationsi Enterprise Editioni asutusesisese juurutuse suvandist. Selle seansi käigus uurime asutusesisese juurutuse lahenduste arhitektuuri, ALM-i aspekte, süsteeminõudeid ja seda, kuidas Lifecycle Servicesi projekti ette valmistada. | Veebikonverentsi tasuta salvestamine | 48 minutit |
 | [Juriidilisse isikusse kopeerimine (DYN383PAL) ](https://community.dynamics.com/365/b/techtalks/posts/copy-into-legal-entity-october-24-2017) | Selle seansi käigus räägime andmehaldusraamistiku uuest funktsioonist Juriidilisse isikusse kopeerimine. Kõigepealt vaatame kiirelt üle tööruumi, mallide ja andmeprojektide platvormil 8 andmehaldusraamistikku lisatud uued funktsioonid ning seejärel uurime Juriidilisse isikusse kopeerimise lisafunktsioone. | Veebikonverentsi tasuta salvestus | 54 minutit |

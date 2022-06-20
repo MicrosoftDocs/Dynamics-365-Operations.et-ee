@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 857e9e023aa5648a06ae564936f06c491ea7cefc
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: ccbb9cf71ff1df7aa336deb5bf9d7dacb8004134
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678090"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862391"
 ---
 # <a name="time-windows"></a>Kellaaja aknad  
 
@@ -38,7 +38,7 @@ Ajaaken määrab, kui kaugele hooldustellimus saab oma arvutatud kuupäeva suhte
 
 Kui hooldusleppe rea jaoks ei ole kellaaja akent määratud, tuleb hooldusleppest tulenev hooldustellimuse rida teostada sellel kuupäeval, millele see oli esialgselt planeeritud.
 
-## <a name="related-topics"></a>Seotud teemad
+## <a name="related-articles"></a>Seotud artiklid
 
 [Kellaaja akende loomine](create-time-windows.md)
 

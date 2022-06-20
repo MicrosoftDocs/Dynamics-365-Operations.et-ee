@@ -1,6 +1,6 @@
 ---
-title: Loodud dokumentidele kohandatud talletuskoha määramine
-description: Selles teemas selgitatakse, kuidas laiendada talletuskohtade loendit dokumentidele, mille loovad elektroonilise aruandluse (ER) vormingud.
+title: Loodud dokumentidele kohandatud salvestuskoha määramine
+description: See artikkel selgitab, kuidas laiendada nende dokumentide ladustamiskohtade loendit, mida elektroonilise aruandluse (ER) vormingud loovad.
 author: NickSelin
 ms.date: 02/22/2019
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 61a1e46497d650e2c063a5fe7537d17cf7aa1828a5a4504bb781e84aeb88f04a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 70d9ccfac18b4cdf1ea19b3def87fc10ba9ddcb4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718497"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864742"
 ---
 # <a name="specify-a-custom-storage-location-for-generated-documents"></a>Loodud dokumentidele kohandatud talletuskoha määramine
 
 [!include[banner](../includes/banner.md)]
 
-Elektroonilise aruandluse (ER) rakenduse programmeerimisliidese (API) raamistik võimaldab teil laiendada talletuskohtade loendit ER vormingute loodavatele dokumentidele. See teema sisaldab ülevaadet põhiülesannetest, mille peate kohandatud talletuskoha lisamiseks lõpule viima.
+Elektroonilise aruandluse (ER) rakenduse programmeerimisliidese (API) raamistik võimaldab teil laiendada talletuskohtade loendit ER vormingute loodavatele dokumentidele. See artikkel sisaldab ülevaadet peamistest ülesannetest, mida peate kohandatud ladustamisasukoha lisamiseks täitma.
 
 ## <a name="prerequisites"></a>Eeltingimused
 
@@ -118,7 +118,7 @@ Sündmus **AttachingFile()** tõstatatakse järgmiste ER-i sihtkohtade töötlem
 ## <a name="configure-an-er-destination"></a>Elektroonilise aruandluse sihtkoha konfigureerimine
 
 1. Arhiivitud sihtkoha konfigureerimine ühele teie loodud või imporditud ER-i vormingu eelnevalt mainitud elemendile (fail, kaust, ühinemine või manus). Juhendit vt teemast [ER-i sihtkohtade konfigureerimine](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-destinations-2016-11).
-2. Kasutage dokumendi tüüpi, mille konfigureeritud sihtkoha jaoks varem lisasite. (Selles teemas on dokumenditüübiks näiteks **FileX**.)
+2. Kasutage dokumendi tüüpi, mille konfigureeritud sihtkoha jaoks varem lisasite. (Selles artikli näites on dokumendi tüüp **FileX**.)
 
 ![Sihtkoha sätete dialoogiboks.](media/er-extend-file-storages-destination.png)
 

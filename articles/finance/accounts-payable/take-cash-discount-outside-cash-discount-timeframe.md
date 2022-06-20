@@ -1,6 +1,6 @@
 ---
 title: Skonto võtmine väljaspool skonto perioodi
-description: Selles teemas on kaks stsenaariumi, mis näitavad, kuidas skontot saab arvestada isegi juhul, kui makse tehakse väljaspool skonto perioodi.
+description: See artikkel pakub kaht stsenaariumi, mis näitavad, kuidas skontot saab arvestada, isegi kui makse on tehtud väljaspool skontoperioodi.
 author: abruer
 ms.date: 08/22/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: daafa71dcbe46302fd7b9e8ab068d98e4925fc04
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 0b2d88b7f03a13e0e8229d7b45367f6da17390fd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716575"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879707"
 ---
 # <a name="take-a-cash-discount-outside-the-cash-discount-period"></a>Skonto võtmine väljaspool skonto perioodi
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas on kaks stsenaariumi, mis näitavad, kuidas skontot saab arvestada isegi juhul, kui makse tehakse väljaspool skonto perioodi.
+See artikkel pakub kaht stsenaariumi, mis näitavad, kuidas skontot saab arvestada, isegi kui makse on tehtud väljaspool skontoperioodi.
 
 28. juunil loob April arve hankijale 3052 summas 2000,00. Arvel on skonto 1 protsent, kui arve tasutakse 14 päeva jooksul.
 

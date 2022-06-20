@@ -1,6 +1,6 @@
 ---
 title: Elektroonilise arvelduse KKKd
-description: Selles teemas antakse teavet korduma kippuvate küsimuste kohta seoses elektroonilise arveldamisega.
+description: See artikkel annab teavet korduma kippuvate küsimuste kohta seoses elektroonilise arveldamisega.
 author: gionoder
 ms.date: 04/21/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 2d4e7c79c83b9d60469c2b87a7b9120e0d4c13a695badfb2254a85cee629c933
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fbb43438a9da567460eb744afb64dae5274f04a9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770508"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904350"
 ---
 # <a name="electronic-invoicing-faq"></a>Elektroonilise arvelduse KKK
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas antakse vastused korduma kippuvate küsimustele elektroonilise arveldamise teenuse kohta. Elektrooniline arveldamine laiendab elektroonilise arveldamise võimalusi, mis on olemas Dynamics 365 Finance, Dynamics 365 Supply Chain Management ja Dynamics 365 Project Operations. 
+See artikkel annab vastused korduma kippuvatele küsimustele elektroonilise arvelduse teenuse kohta. Elektrooniline arveldamine laiendab rakenduses Dynamics 365 Finance ja . Dynamics 365 Supply Chain Management Dynamics 365 Project Operations 
 
 ## <a name="what-is-important-about-electronic-invoicing-and-why-should-it-matter-to-my-organization"></a>Mis on elektroonilise arveldamise puhul oluline ja miks peaks see olema minu organisatsioonile oluline?
 

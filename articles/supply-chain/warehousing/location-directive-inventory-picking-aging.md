@@ -1,6 +1,6 @@
 ---
 title: Asukohakorralduse varude komplekteerimise ajaline jaotus
-description: Selles teemas selgitatakse, kuidas kasutada komplekteerimise ajal asukohakorralduse strateegiaid esimesena sisse, esimesena välja (FIFO) ja viimasena sisse, esimesena välja (LIFO).
+description: See artikkel selgitab, kuidas kasutada komplekteerimise ajal esimesena sisse, esimesena välja (FIFO) ja viimasena sisse, esimesena välja (LIFO) asukohadirektiivide strateegiaid.
 author: Mirzaab
 ms.date: 07/15/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 229dd0033e3eae4bdd33acca6736b7a9feec8c9b
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 34ce119ca70596f0e40797c4b44a8fba4d5b7e0e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8676267"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885692"
 ---
 # <a name="location-directive-inventory-picking-aging"></a>Asukohakorralduse varude komplekteerimise ajaline jaotus
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas selgitatakse, kuidas kasutada komplekteerimise ajal asukohakorralduse strateegiaid esimesena sisse, esimesena välja (FIFO) ja viimasena sisse, esimesena välja (LIFO). Need strateegiad töötavad koos aegumiskuupäevadega, mis salvestati jälgitavate asukohtadena, kui varud esmakordselt lattu sisenesid. Funktsioon *Asukohakorralduse varude komplekteerimise aegumine* kasutab aegumise määramisel asukoha kuupäeva. Funktsioon *Lao asukoha olek* värskendab asukoha kuupäeva identifitseerimisnumbri kuupäeva põhjal.
+See artikkel selgitab, kuidas kasutada komplekteerimise ajal esimesena sisse, esimesena välja (FIFO) ja viimasena sisse, esimesena välja (LIFO) asukohadirektiivide strateegiaid. Need strateegiad töötavad koos aegumiskuupäevadega, mis salvestati jälgitavate asukohtadena, kui varud esmakordselt lattu sisenesid. Funktsioon *Asukohakorralduse varude komplekteerimise aegumine* kasutab aegumise määramisel asukoha kuupäeva. Funktsioon *Lao asukoha olek* värskendab asukoha kuupäeva identifitseerimisnumbri kuupäeva põhjal.
 
 Saate kasutada FIFO- ja LIFO-strateegiaid, et saata nii partii jälgimisega kui ka partii jälgimiseta kaupu, sisestatud kuupäeva alusel, kui varud sisenesid lattu. See võimalus võib olla eriti kasulik partii jälitamiseta varude puhul, mille aegumiskuupäev pole sortimiseks kasutamiseks saadaval.
 

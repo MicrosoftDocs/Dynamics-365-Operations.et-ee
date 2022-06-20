@@ -1,6 +1,6 @@
 ---
-title: Päise moodul
-description: See teema hõlmab päise mooduleid ja kirjeldab, kuidas lehe päiseid rakenduses Microsoft Dynamics 365 Commerce luua.
+title: Päisemoodul
+description: See artikkel katab päisemoodulid ja kirjeldab, kuidas luua lehekülje päiseid moodulis Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2707173eb4d5525437c22a2f236c7d5c588ea7c3
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: 7cd53a57c16c180cb7e8958cc3a6bed1fff0512a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780306"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876634"
 ---
 # <a name="header-module"></a>Päisemoodul
 
 [!include [banner](includes/banner.md)]
 
-See teema hõlmab päise mooduleid ja kirjeldab, kuidas lehe päiseid rakenduses Microsoft Dynamics 365 Commerce luua.
+See artikkel katab päisemoodulid ja kirjeldab, kuidas luua lehekülje päiseid moodulis Microsoft Dynamics 365 Commerce.
 
 Rakenduses Dynamics 365 Commerce konfigureeritakse lehe päis lehe fragmentina, mis sisaldab päise-, reklaambänneri ja küpsistega nõustumise mooduleid. 
 

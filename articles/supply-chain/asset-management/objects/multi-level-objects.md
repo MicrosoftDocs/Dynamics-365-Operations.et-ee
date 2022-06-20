@@ -1,6 +1,6 @@
 ---
 title: Mitmetasandiline vara
-description: Selles teemas selgitatakse, kuidas luua ja kustutada mitmetasandilist vara.
+description: See artikkel selgitab, kuidas luua ja kustutada mitmetasemelised varad.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f43c7c97f8b05a1bf76b2f2c869e6868689f388d06337064f04af839f2403357
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: MT
+ms.openlocfilehash: 34ab83c9f9673c39006b3985ebaac9e17a45da82
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769607"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908768"
 ---
 # <a name="multi-level-assets"></a>Mitmetasandiline vara
 
@@ -28,7 +28,7 @@ ms.locfileid: "6769607"
 
  
 
-Selles teemas selgitatakse, kuidas luua ja kustutada mitmetasandilist vara. Hierarhilises puustruktuuris saate luua varasid ja seotud allvarasid. Sel viisil saate kuvada varade vahelisi suhteid ja sõltuvusi. Hooldustöid saab seostada kõigil puustruktuuri tasemetel. Statistikat saab luua ka üksiku taseme või kõigi alamvarade tasemete summana.
+See artikkel selgitab, kuidas luua ja kustutada mitmetasemelised varad. Hierarhilises puustruktuuris saate luua varasid ja seotud allvarasid. Sel viisil saate kuvada varade vahelisi suhteid ja sõltuvusi. Hooldustöid saab seostada kõigil puustruktuuri tasemetel. Statistikat saab luua ka üksiku taseme või kõigi alamvarade tasemete summana.
 
 Loendilehel **Kõik varad** (**Varahaldus**\>**Ühised**\>**Varad**\>**Kõik varad**), loendab veerg **Vara** varad hierarhilises järjestuses. **Emaveerg** näitab seostuvat vanemat. Lisaks, kui varad ja allvarad on juba loodud kuvatakse jaotise **Vara puu** paanil **Seotud teave** varad puustruktuuris.
 

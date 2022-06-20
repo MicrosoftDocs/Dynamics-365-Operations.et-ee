@@ -1,6 +1,6 @@
 ---
-title: Tööta konfiguratsioonidega
-description: Selles teemas antakse ülevaade põhistsenaariumi töötamiseks globaliseerimisfunktsiooni tööruumist elektroonilise aruandluse (ER) konfiguratsioonide abil.
+title: Konfiguratsioonidega töötamine
+description: See artikkel annab ülevaate peamiseks stsenaariumiks globaalsete funktsioonide tööruumist elektroonilise aruandluse (ER) konfiguratsioonide töötamiseks.
 author: dkalyuzh
 ms.date: 01/26/2022
 ms.topic: article
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: dkalyuzh
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4318399ee58ed54b29f8d360345b8930238ea9f2
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: 359f00336811efd5f21463a325627df0e01a5f3a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371905"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875938"
 ---
-# <a name="work-with-configurations"></a>Tööta konfiguratsioonidega
+# <a name="work-with-configurations"></a>Konfiguratsioonidega töötamine
 
 [!include [banner](../includes/banner.md)]
 

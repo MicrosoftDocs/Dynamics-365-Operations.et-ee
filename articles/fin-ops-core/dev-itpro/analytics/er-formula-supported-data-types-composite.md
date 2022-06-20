@@ -1,6 +1,6 @@
 ---
 title: Elektroonilise aruandluse valemite toetatud liitandmetüübid
-description: See teema annab teavet liitandmetüüpide kohta, mida toetatakse elektroonilises aruandluses (ER) valemites.
+description: See artikkel annab teavet liitandmetüüpide kohta, mida toetatakse elektroonilise aruandluse (ER) valemites.
 author: NickSelin
 ms.date: 06/02/2021
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 933c8211276c1335a6a81bf4a8cb1c3f270762d4
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: dc3fbe695d79eb0ec9796d471c4d2bb0bb7ab99d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689238"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869311"
 ---
 # <a name="supported-composite-data-types-for-electronic-reporting-formulas"></a>Elektroonilise aruandluse valemite toetatud liitandmetüübid
 
 [!include [banner](../includes/banner.md)]
 
-See teema annab teavet liitandmetüüpide kohta, mida toetatakse [elektroonilises aruandluses (ER)](general-electronic-reporting.md) valemites. Liitandmetüübid on [klass](#class), [konteiner](#container), [kirje](#record), [kirje loend](#record-list), ja [objekt](#object).
+See artikkel annab teavet liitandmetüüpide kohta, mida toetatakse elektroonilise aruandluse [(ER)](general-electronic-reporting.md) avaldistes. Liitandmetüübid on [klass](#class), [konteiner](#container), [kirje](#record), [kirje loend](#record-list), ja [objekt](#object).
 
 ## <a name="class"></a><a name="class"></a>Klass
 

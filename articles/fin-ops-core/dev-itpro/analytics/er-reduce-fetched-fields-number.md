@@ -1,6 +1,6 @@
 ---
 title: Parandada ER-lahenduste jõudlust käitusajal toodud tabeliväljade arvu vähendamise abil
-description: See teema selgitab, kuidas saate jõudlust parandada, vähendades käitusajal toodud tabeliväljade arvu.
+description: See artikkel selgitab, kuidas saate jõudlust parandada, vähendades käitusajal toodud tabeliväljade arvu.
 author: NickSelin
 ms.date: 05/12/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: dd192a7718ac4fd8bcb636ede6c005ca29ee5f08
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: eb76c415da87d421b8135a93b84f4e905f01e70d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811829"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847447"
 ---
 # <a name="improve-performance-of-er-solutions-by-reducing-the-number-of-table-fields-that-are-fetched-at-runtime"></a>Parandada ER-lahenduste jõudlust käitusajal toodud tabeliväljade arvu vähendamise abil
 
@@ -28,7 +28,7 @@ ms.locfileid: "8811829"
 
 Saate kujundada elektroonilise [aruandluse](general-electronic-reporting.md) (ER) vorminguid [,](er-overview-components.md#format-components-for-outgoing-electronic-documents) mis loovad väljaminevaid dokumente erinevates vormingutes. Dokumendi loomisel kutsub ER-vorming andmeallikaid, mis on konfigureeritud vastavas ER-mudeli [vastendamisel](er-overview-components.md#model-mapping-component). Rakenduse tabelitele, päringutele või kirjete toomise üksustele juurdepääsu konfigureerimiseks saate kasutada ER-i andmeallikaid tüübiga *Tabelikirjed*. Vaikimisi toob tabelikirjete tüübi *andmeallikas* soovitud kirjete kõigi väljade väärtused. Seda tüüpi andmeallikaid saab siiski konfigureerida nii, et toodaks ainult ER-vormingu jaoks vajalikud väljaväärtused. See konfiguratsioon aitab vähendada rakendusserveri mälu tarbimist, mis teeb andmete toomise ja edasise salvestuse vahemällu salvestuse.
 
-Lisateavet selle kohta, kuidas piirata tabelikirjete *tüübiga* Andmeallikate toodavad väljad, viige lõpule selles teemas toodud näide.
+Lisateavet selle kohta, kuidas piirata tabelikirjete *tüübiga* Andmeallikate toodavad väljad, täitke selles artiklis toodud näide.
 
 ## <a name="example-reduce-the-number-of-table-fields-that-are-fetched-at-runtime"></a>Näide: vähendage käitusajal toodud tabeliväljade arvu
 
@@ -49,7 +49,7 @@ Minimaalsete [ER-i parameetrite konfigureerimine](er-quick-start2-customize-repo
 
 ### <a name="import-the-sample-er-configurations"></a>ER-i konfiguratsioonide näidise importimine
 
-Kui te pole veel [uue ER-i](er-quick-start1-new-solution.md) lahenduse kujundamises näidet lõpule viinud, et printida kohandatud aruandeteema, laadige alla ja salvestage XML-failid järgmistesse antud ER-lahenduse konfiguratsioonidesse.
+Kui te pole veel [uue ER-i](er-quick-start1-new-solution.md) lahenduse kujundamises näidet lõpule viinud, et printida kohandatud aruande artikkel, laadige alla ja salvestage XML-failid järgmistesse antud ER-lahenduse konfiguratsioonidesse.
 
 | Sisu kirjeldus            | Failinimi |
 |--------------------------------|-----------|

@@ -1,6 +1,6 @@
 ---
-title: Ärikataloogide laiendatav mõju B2B-kohandustele
-description: Selles teemas kirjeldatakse ärikataloogide laiendatavuse mõju B2B-funktsioonile moodulis Microsoft Dynamics 365 Commerce.
+title: B2B-kohanduste Commerce'i kataloogide laiendatavus
+description: See artikkel kirjeldab rakenduse B2B funktsiooni Commerce catalogs laiendatavuse mõju Microsoft Dynamics 365 Commerce.
 author: ashishmsft
 ms.date: 04/28/2022
 ms.topic: article
@@ -9,19 +9,19 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2022-02-28
-ms.openlocfilehash: aff333bfe8003233dd5d8181aa8c5dd7eaeffcd0
-ms.sourcegitcommit: 0abc777986112ea2332f5bf0e815b303b952356c
-ms.translationtype: MT
+ms.openlocfilehash: f21d3375db69dd412325d00261bfc18e26d0c257
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8657187"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849011"
 ---
-# <a name="extensibility-impact-of-commerce-catalogs-for-b2b-customizations"></a>Ärikataloogide laiendatav mõju B2B-kohandustele
+# <a name="extensibility-impact-of-commerce-catalogs-for-b2b-customizations"></a>B2B-kohanduste Commerce'i kataloogide laiendatavus
 
 [!include [banner](includes/banner.md)]
 [!include [banner](includes/preview-banner.md)]
 
-Selles teemas kirjeldatakse ärikataloogide **laiendatavuse mõju B2B-funktsioonile** moodulis Microsoft Dynamics 365 Commerce.
+See artikkel kirjeldab rakenduse **B2B funktsiooni Commerce catalogs laiendatavuse** mõju Microsoft Dynamics 365 Commerce.
 
 Kui soovite kataloogi konteksti kohandatud stsenaariumitele laiendada, võib teie kohandusi vajada uuendada. See värskendus järgib standardset protsessi, mida kliendid peavad järgima, kuna nende kohandused ei pruugi pärast täienduste viimast funktsioone automaatselt toetada. Kui teie kohandused sisaldavad oma kogemuses mis tahes uut funktsiooni või viga parandusi, soovitame kohandamiskoodi vastavalt värskendada. See värskendus sarnaneb muudatustega, mida Microsoft võib teha tuumkoodi kohta.
 
@@ -29,7 +29,7 @@ Vaadake üle kohandusjuhtumid, mis järgnevad määramaks, kas teie kohandusi tu
 
 > [!NOTE]
 > - Kõik toote rakenduse programmeerimisliidesed (API-d) peavad olema kataloogiga kursis. Seepärast on kriitiline, et te läbite **CatalogID parameetri**.
-> - Vaikekataloog (**CatalogID0**=**·**) ei ole kehtiv kataloog sisselogitud ettevõtete vahel (B2B) kasutajatele. Seetõttu nurjuvad kõik API kutsed, mis läbivad "0" või kasutavad vaikeväärtust, sest saidi kasutajatel pole juurdepääsu kataloogile 0. Õige kogemuse saamiseks tuleb kliendi API kutsed uuendada nii, et nad läbivad kataloogi valijas valitud kataloogi ID. Kui kasutate vaikeväärtust ja kasutaja vahetab katalooge, peaks veebisait esitama andmed valitud kataloogi kohta. Seetõttu peaksid kohandatud API-d valitud kataloogi läbima, et sobida API-d, mis käitatakse rakenduse põhikoodist.
+> - Vaikekataloog (**CatalogID**=**0**) ei ole kehtiv kataloog sisselogitud ettevõtete vahel (B2B) kasutajatele. Seetõttu nurjuvad kõik API kutsed, mis läbivad "0" või kasutavad vaikeväärtust, sest saidi kasutajatel pole juurdepääsu kataloogile 0. Õige kogemuse saamiseks tuleb kliendi API kutsed uuendada nii, et nad läbivad kataloogi valijas valitud kataloogi ID. Kui kasutate vaikeväärtust ja kasutaja vahetab katalooge, peaks veebisait esitama andmed valitud kataloogi kohta. Seetõttu peaksid kohandatud API-d valitud kataloogi läbima, et sobida API-d, mis käitatakse rakenduse põhikoodist.
 
 Järgmised kohandamisjuhtumid nõuavad arenduse uuendusi:
 
@@ -65,6 +65,6 @@ Järgmised kohandamisjuhtumid nõuavad arenduse uuendusi:
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-[Looge B2B-saitide jaoks ärikataloogid](catalogs-b2b-sites.md)
+[B2B-saitide Commerce'i kataloogide loomine](catalogs-b2b-sites.md)
 
-[B2B KKK ärikataloogid](catalogs-b2b-sites-FAQ.md)
+[B2B-saitide Commerce'i kataloogide KKK](catalogs-b2b-sites-FAQ.md)

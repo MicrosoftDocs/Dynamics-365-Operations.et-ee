@@ -1,6 +1,6 @@
 ---
 title: Kindlad plaanitud tellimused
-description: See teema kirjeldab, kuidas kinnitada planeeritud tellimusi. Kui planeeritud tellimused on kinnitatud, teisendatakse need tegelikeks ostutellimusteks, ülekandekorraldusteks või tootmistellimuseks.
+description: See artikkel selgitab, kuidas plaanitud tellimusi kindlad olla. Kui planeeritud tellimused on kinnitatud, teisendatakse need tegelikeks ostutellimusteks, ülekandekorraldusteks või tootmistellimuseks.
 author: t-benebo
 ms.date: 04/22/2021
 ms.search.form: ReqTransPo, ReqTransFirmLog
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 30f3ee656b97e0337b6e3e78f0acb2300d7d85dc
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 24b5c6cb7e97924ebace8f7131a87e9bffea22e0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468464"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857514"
 ---
 # <a name="firm-planned-orders"></a>Kindlad plaanitud tellimused
 
@@ -29,11 +29,11 @@ Planeeritud tellimuste kinnitamiseks on kolm meetodit:
 - **Automaatne kinnitamine** – määratlege laovarude gruppide, üksikute kaupade ning kaupade ja üldplaanide kombinatsioonide vaike-kinnitamise ajapiir. Seejärel määratakse plaanitud tellimused üldplaneerimise käitamise ajal automaatselt, kui tellimuse kuupäev jääb kinnitamiseks määratud ajapiiri piiresse.
 - **Päringupõhine kinnitamine** – saate määratleda atribuutide põhjal päringu planeeritud tellimuste valimiseks. Saate seadistada päringu käivitamiseks pakett-töö ja regulaarsel graafikul kindlad tellimused.
 
-Selles teemas kirjeldatakse üksikasjalikult iga meetodit.
+See artikkel kirjeldab üksikasjalikult iga meetodit.
 
-## <a name="enable-the-features-that-are-described-in-this-topic"></a><a name="enable-features"></a>Luba selles teemas kirjeldatud funktsioonid
+## <a name="enable-the-features-that-are-described-in-this-article"></a><a name="enable-features"></a> Luba selles artiklis kirjeldatud funktsioonid
 
-Enamik planeeritud tellimuse funktsioone on saadaval Microsoft Dynamics 365 Supply Chain Management standardinstallide puhul, mis kasutavad planeerimise optimeerimist. Kuid mõned selles teemas kirjeldatud funktsioonid tuleb funktsioonihalduses enne nende kasutamist sisse lülitada.
+Enamik planeeritud tellimuse funktsioone on saadaval Microsoft Dynamics 365 Supply Chain Management standardinstallide puhul, mis kasutavad planeerimise optimeerimist. Mõned selles artiklis kirjeldatud funktsioonid tuleb funktsioonihalduses sisse lülitada, enne kui neid kasutada saate.
 
 ### <a name="turn-parallelized-firming-of-planned-orders-on-or-off"></a>Lülitab plaanitud tellimuste paralleelse kinnitamise sisse ja välja
 
@@ -97,7 +97,7 @@ Automaatkinnitamine võimaldab teil kinnitada planeeritud tellimused üldplaneer
 > Tuletatud tellimused (st alltöövõtulepingute ostutellimused), mis on kinnitatud, on staatuses *Ülevaatamisel*, kui muudatuste jälgimine on sisse lülitatud.
 
 > [!IMPORTANT]
-> Enne kui selles jaotises kirjeldatud funktsiooni saab kasutada plaanimise optimeerimisega, peab [*Plaanimise optimeerimise automaatne kinnitamise* funktsioon](#enable-features) olema teie süsteemis sisse lülitatud, nagu on kirjeldatud selle teema alguses. Automaatset kinnitamist saab alati kasutada integreeritud üldplaneerimise mootoriga.
+> Enne kui selles jaotises kirjeldatud funktsiooni saab kasutada planeerimise optimeerimisega, [*·*](#enable-features) peab plaanimise optimeerimise automaatne kinnitamisfunktsioon olema teie süsteemis sisse lülitatud, nagu kirjeldatud selle artikli alguses. Automaatset kinnitamist saab alati kasutada integreeritud üldplaneerimise mootoriga.
 
 ### <a name="auto-firming-with-planning-optimization-vs-the-built-in-planning-engine"></a>Automaatne kinnitamine planeerimise optimeerimise vs integreeritud planeerimise mootoriga
 
@@ -130,7 +130,7 @@ Päringupõhine kinnitamine võimaldab planeerida kinnitamist eelnevalt määrat
 Saate automaatset kinnitamist kombineerida päringupõhise kinnitamisega. Näiteks päringupõhisel kinnitamise tööl on edasisuunalise aja ajapiir, mis on sobiva automaatse kinnitamise katvuse konfiguratsiooni jaoks ajapiirist pikem. Seetõttu töötleb päringupõhine kinnitamistöö oma planeeritud tellimusi enne automaatse kinnitamise käivitamist. Seda käitumist saate kasutada konkreetsete müüjate tellimuste ajastamiseks erinevalt kui teiste hankijate sarnaste toodete tellimused.
 
 > [!IMPORTANT]
-> Enne kui selles jaotises kirjeldatud funktsiooni saab kasutada peab [*Plaanimise optimeerimise automaatne kinnitamise* funktsioon](#enable-features) olema teie süsteemis sisse lülitatud, nagu on kirjeldatud selle teema alguses.
+> Enne selles jaotises kirjeldatud [*·*](#enable-features) funktsiooni kasutamist tuleb filtreerimisfunktsiooniga plaanitud tellimuse kinnitamine sisse lülitada süsteemis, nagu on kirjeldatud selle artikli alguses.
 
 Planeeritud tellimuse kinnitamiseks päringupõhise kinnitamisprotsessi abil järgige neid samme.
 

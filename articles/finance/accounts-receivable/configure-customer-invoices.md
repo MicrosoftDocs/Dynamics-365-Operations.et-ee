@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 069ada071fe6a7d3e22ad6aa45e3c2f06a9f4b31
-ms.sourcegitcommit: 5a4b8ce4a7ae82c0ef22d2223c11c6b55f048cdd
+ms.openlocfilehash: 93d25a260cfc94e898ef50c618b2cbc640c963bc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/14/2022
-ms.locfileid: "8756959"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876321"
 ---
 # <a name="create-a-customer-invoice"></a>Kliendiarve loomine
 
@@ -32,13 +32,10 @@ Vabas **vormis** arve ei ole seotud müügitellimusega. See sisaldab tellimuse r
 
 Lisateabe saamiseks vt:
 
-[Vabateksti arvete loomine](../accounts-receivable/create-free-text-invoice-new.md)
-
-[Vabas vormis arve malli loomine](../accounts-receivable/create-free-text-invoice-template-new.md)
-
-[Vabas vormis arve malli määramine kliendile](tasks/assign-free-text-invoice-template-customer.md)
-
-[Korduvate vabas vormis arvete genereerimine ja sisestamine](tasks/post-recurring-free-text-invoices.md)
+[Vabas vormis arvete loomine Vabas vormis arve malli loomine Vabas
+](../accounts-receivable/create-free-text-invoice-new.md)[...](../accounts-receivable/create-free-text-invoice-template-new.md)[
+ vormis arve malli määramine kliendile Korduvate vabas](tasks/assign-free-text-invoice-template-customer.md)
+[vormis arvete loomine ja sisestamine](tasks/post-recurring-free-text-invoices.md)
 
 
 **Pro forma arve** on arve, mis on ettevalmistatud hinnanguna tegelike arvesummade kohta enne arve sisestamist. Saate printida kas **müügitellimuse kliendiarve** või vabas vormis arve pro forma arve. 
@@ -91,8 +88,8 @@ Saate konfigureerida müügitellimuse kliendiarvete **tükeldamise** **saidi võ
  - Valige suvand **Tükelda arve saidi alusel,** et sisestamisel luua üks arve saidi kohta. 
  - Valige suvand **Tükelda arve tarneteabe alusel,** et luua sisestamisel müügitellimuse rea tarneaadressi kohta üks arve. 
 
-## <a name="post-to-revenue-account-for-sales-order-lines-that-have-no-price"></a>Sisesta tulukontole müügitellimuse ridadel, kus hind puudub
-Teil on võimalus uuendada pearaamatu **tulukonto** **müügitellimuse** ridade jaoks, mille hind puudub. Selle teabe häälestamiseks või vaatamiseks **minge** **·** **tulukonto sisestamisele nullhinnaga müügitellimuse arve ridade parameetri korral pearaamatu ja käibemaksu vahekaardil müügireskontro parameetrite lehel.** (Müügireskontro **> seadistus > Müügireskontro parameetrid**). Valige **Jah**, et uuendada **tulukonto** müügitellimuse arve ridadele, mille hind puudub. Tulukonto määratletakse vahekaardi Müügitellimuse **konto** määratlus lehel Varude **sisestamise** parameeter. Kui seda valikut ei valita, ei sisestata hinnateavet omavad read **tulukontole**.
+## <a name="post-to-revenue-account-for-sales-order-lines-that-have-no-price-and-no-cost"></a>Tulukontole sisestamisel müügitellimuse ridadele, kus hind puudub ja kulu puudub
+Teil on võimalus värskendada pearaamatu **tulukontot** **müügitellimuse** ridadel, kus hind ja kulu puudub. Selle teabe häälestamiseks või vaatamiseks **minge** **·** **tulukontole sisestamisele nullhinnaga ja nullkuluga müügitellimuse arve ridade parameetrile pearaamatu ja müügireskontro parameetrite lehe käibemaksu vahekaardil.** (Müügireskontro **> seadistus > Müügireskontro parameetrid**). Valige **Jah**, et uuendada **tulukonto** müügitellimuse arve ridadele, mille hind ja kulu puudub. Kui see suvand on valitud, sisaldab kanne 0,00 kirjet kliendi **saldo** ja tulu sisestustüüpide **kohta**. Tulukonto määratletakse vahekaardi Müügitellimuse **konto** määratlus lehel Varude **sisestamise** parameeter. Kui seda valikut ei valita, ei sisestata hinna- või kuluteabeta ridu **tulukontole**. Selle asemel sisaldab kanne kliendi saldo sisestustüübi jaoks 0,00 **kirjet**.
 
 ## <a name="additional-settings-that-change-the-posting-behavior"></a>Sisestamiskäitumist muutvad lisasätted
 Järgmised väljad muudavad sisestamisprotsessi käitumist.

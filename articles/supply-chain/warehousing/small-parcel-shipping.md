@@ -1,6 +1,6 @@
 ---
 title: Väikepaki saatmine
-description: Sellest teemast leiate teavet väikepaki saatmise (SPS) funktsiooni kohta. See funktsioon võimaldab rakendusel Microsoft Dynamics 365 Supply Chain Management esitada üksikasju pakitud konteineri kohta vedajale ja seejärel saada sellelt vedajalt tagasi saadetise silt, tarnemäär ja jälgimisnumber.
+description: See artikkel annab teavet väikese paki saatmise (SPS) funktsiooni kohta. See funktsioon võimaldab rakendusel Microsoft Dynamics 365 Supply Chain Management esitada üksikasju pakitud konteineri kohta vedajale ja seejärel saada sellelt vedajalt tagasi saadetise silt, tarnemäär ja jälgimisnumber.
 author: Mirzaab
 ms.date: 01/08/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-08
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: e8e2bda39b9de241d17fcf3cb9acce2b8015efd2
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 7bafd4a5118de5ca6025c6bd74fe436aa6abd1c8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687612"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855899"
 ---
 # <a name="small-parcel-shipping"></a>Väikepaki saatmine
 
@@ -54,7 +54,7 @@ Määramootori demoversiooni hankimiseks tehke järgmist.
 
 #### <a name="create-and-deploy-functional-rate-engines"></a>Funktsionaalsete määramootorite loomine ja juurutamine
 
-Lisateavet selle kohta, kuidas funktsiooni määramootoreid luua ja juurutada nii, et neid saaks kasutada tootmis- või katsekeskkonnas, vaadake järgmistest teemadest.
+Lisateavet selle kohta, kuidas luua ja juurutada funktsioonimäära mootoreid nii, et neid saaks kasutada tootmis- või katsekeskkonnas, vt järgmistest artiklitest:
 
 - [Uue transpordihalduse mootori loomine](../transportation/create-new-transportation-management-engine.md)
 - [Transpordihalduse mootorite häälestamine](/dynamicsax-2012/appuser-itpro/set-up-transportation-management-engines)
@@ -77,7 +77,7 @@ Pärast SPS-i määramootori loomist ja juurutamist järgige selle häälestamis
 
 ## <a name="example-scenario"></a>Näidisstsenaarium
 
-See näidise stsenaarium näitab, kuidas SPS-i seadistada ja kasutada pärast seda, kui olete oma süsteemi selles teemas kirjeldatud viisil ette valmistanud. See stsenaarium kasutab eelnevalt mainitud määramootori demoversiooni.
+See näitestsenaarium näitab, kuidas sps-d seadistada ja kasutada pärast seda, kui olete oma süsteemi ette valmistanud selles artiklis kirjeldatud viisil. See stsenaarium kasutab eelnevalt mainitud määramootori demoversiooni.
 
 ### <a name="make-demo-data-available"></a>Demoandmete kättesaadavaks tegemine
 
@@ -147,7 +147,7 @@ Vedaja teenusekonto häälestamiseks tehke järgmist.
 
 Konteineri pakkimispoliitika häälestamiseks tehke järgmist.
 
-1. Kui te pole veel ZPL-printeri definitsiooni häälestanud, kasutage selleks dokumendi marsruudivaliku agendi rakendust. Lisateavet vt [Dokumentide printimise ülevaade](../../fin-ops-core/dev-itpro/analytics/print-documents.md).
+1. Kui te pole veel ZPL-printeri definitsiooni häälestanud, kasutage selleks dokumendi marsruudivaliku agendi rakendust. Lisateavet vt dokumendi printimise ülevaatest [ja seotud](../../fin-ops-core/dev-itpro/analytics/print-documents.md) artiklitest.
 1. Avage jaotis **Laohaldus \> Seadistus \> Konteinerid \> Konteineri pakkimise poliitikad**.
 1. Valige toimingupaanil suvand **Uus**, et lisada konteineri pakkimise poliitika.
 1. Määrake uue poliitika päises järgmised väärtused.

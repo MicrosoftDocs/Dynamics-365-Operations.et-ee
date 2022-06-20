@@ -1,6 +1,6 @@
 ---
 title: Süsteeminõuded
-description: Selles teemas on loetletud rakenduse Microsoft Dynamics 365 Human Resources süsteeminõuded.
+description: Selles artiklis loetletakse Microsofti süsteeminõuded Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 08/11/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e88006ebf174f1a416fa6d8572d439a0395f0e44
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: b07d14dfe0e6b53c9489c284520a24b97d9887fa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690858"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879333"
 ---
 # <a name="system-requirements"></a>Süsteeminõuded
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Selles teemas on loetletud rakenduse Microsoft Dynamics 365 Human Resources süsteeminõuded. Lisaks tuuakse välja riigid ja piirkonnad, kus rakendus Human Resources on saadaval ning teave keelte ja Human Resourcesi andmete lokaliseerimise kohta.
+Selles artiklis loetletakse Microsofti süsteeminõuded Dynamics 365 Human Resources. Lisaks tuuakse välja riigid ja piirkonnad, kus rakendus Human Resources on saadaval ning teave keelte ja Human Resourcesi andmete lokaliseerimise kohta.
 
 ## <a name="supported-web-browsers"></a>Toetatud veebibrauserid
 

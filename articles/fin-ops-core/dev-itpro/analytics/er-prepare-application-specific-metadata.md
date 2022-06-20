@@ -1,6 +1,6 @@
 ---
 title: Rakendusekohaste metaandmete ettevalmistamine RCS-i ja ER-i jaoks
-description: Selles teemas selgitatakse, kuidas valmistada ette rakendusespetsiifilisi metaandmeid Regulatiivse konfiguratsiooniteenuse (RCS) ja elektroonilise aruandluse (ER) jaoks.
+description: See artikkel selgitab, kuidas ette valmistada regulatiivse konfiguratsiooniteenuse (RCS) ja elektroonilise aruandluse (ER) jaoks rakendusepõhiseid metaandmeid.
 author: NickSelin
 ms.date: 04/04/2019
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 9136bd3db2aee1447d6af3b3c47b908177cee966aba630490cc6e72072525d29
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d41069cf03e9ce49a3faa4f3933d91edd3b7d360
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6735594"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864629"
 ---
 # <a name="prepare-application-specific-metadata-for-rcs-and-er"></a>Rakendusekohaste metaandmete ettevalmistamine RCS-i ja ER-i jaoks
 
 [!include[banner](../includes/banner.md)]
 
-See teema selgitab järgmiste ülesannete näiteid.
+Selles artiklis saate läbi näidete järgmistest ülesannetest:
 
 - [RCS-i jaoks kasutatavate rakenduse metaandmete ettevalmistamine](#prepare-application-metadata-that-can-be-used-in-rcs)
 - [Juurdepääs rakenduse metaandmetele ER-konfiguratsiooni abil](#access-application-metadata-by-using-an-er-configuration)
@@ -97,7 +97,7 @@ Enne selle protseduuri lõpule viimist peate esmalt viima lõpuni järgmised pro
 
 1. Avage **Kõik tööruumid \> Elektrooniline aruandlus**.
 2. Veenduge, et näidisettevõtte Litware, Inc. konfiguratsioonipakkuja on saadaval ja märgitud kui **Aktiivne**. Kui te ei näe seda konfiguratsioonipakkujat, viige lõpuni toiming [Konfiguratsiooni pakkujate loomine ja nende aktiivseks märkimine](tasks/er-configuration-provider-mark-it-active-2016-11.md). 
-3. Importige ER metaandmete konfiguratsioon, mis sisaldab metaandmeid rakendusele ja mis on konfigureeritud looma elektroonilisi dokumente väliskaubanduse äritegevuse domeenile. Lõite selle elektroonilise aruandluse metaandmete konfiguratsiooni ja eksportisite selle XML-failina varem siin teemas olnud protseduuris [RCS-i jaoks kasutatavate rakenduse metaandmete ettevalmistamine](#prepare-application-metadata-that-can-be-used-in-rcs).
+3. Importige ER metaandmete konfiguratsioon, mis sisaldab metaandmeid rakendusele ja mis on konfigureeritud looma elektroonilisi dokumente väliskaubanduse äritegevuse domeenile. Lõite selle ER-i metaandmete konfiguratsiooni ja eksportisite selle XML-failina [rakenduse metaandmete ettevalmistamine, mida saab kasutada selles artiklis varasemas RCS-protseduuris](#prepare-application-metadata-that-can-be-used-in-rcs).
 
     1. Valige **Metaandmete konfiguratsioonid**.
     2. Valige **Exchange**.
@@ -198,12 +198,12 @@ Vajadusel saate laiendada rakenduses olemas olevat metaandmete komplekti. Seejä
 
 Järgmine protseduur näitab, kuidas RCS-i kasutaja, kelle roll on kas **Süsteemiadministraator** või **Elektroonilise aruandluse arendaja**, saab kavandada uue elektroonilise aruandluse mudeli vastenduse, kasutades rakenduse metaandmeid. Rakenduse metaandmete saab online-juurdepääsu RCS-ga ühendatud rakenduse abil. Väliskaubanduse kannetele juurdepääsuks konfigureeritakse elektroonilise aruandluse mudeli vastenduse näidis.
 
-Selle protseduuri lõpuleviimiseks peate esmalt läbima RCS-is protseduuri [Konfiguratsiooni pakkujate loomine ja nende aktiivseks märkimine](tasks/er-configuration-provider-mark-it-active-2016-11.md). Kui te ei ole protseduuri [Juurdepääs rakenduse metaandmetele ER-konfiguratsiooni abil](#access-application-metadata-by-using-an-er-configuration) selles teemas varem lõpule viinud, avage leht [Elektroonilise aruandluse tegevusjuhised rakendusele Dynamics 365 for Finance and Operations 8.1](https://go.microsoft.com/fwlink/?linkid=2082739), et laadida eelnevalt alla järgmised elektroonilise aruandluse konfiguratsioonifailid ja salvestada need kohapeal: **Väliskaubanduse metaandmed.xml**, **Väliskaubanduse mudel.xml** ja **Väliskaubanduse vastendamine.xml**.
+Selle protseduuri lõpuleviimiseks peate esmalt läbima RCS-is protseduuri [Konfiguratsiooni pakkujate loomine ja nende aktiivseks märkimine](tasks/er-configuration-provider-mark-it-active-2016-11.md). [Kui te pole veel juurdepääsu rakenduse metaandmeid lõpule viinud, kasutades selles artiklis varasemat ER-i](#access-application-metadata-by-using-an-er-configuration) konfiguratsiooniprotseduuri, [minge elektroonilise aruandluse ülesandejuhendite lehele 8.1 Dynamics 365 for Finance and Operations, et alla laadida järgmised ER konfiguratsioonifailid ette ja salvestada need kohalikult](https://go.microsoft.com/fwlink/?linkid=2082739): **väliskaubanduse metaandmed.xml**, väliskaubanduse **mudel.xml** ja väliskaubanduse **vastendus.xml**.
 
 
 ### <a name="get-required-er-configurations"></a>Vajalike elektroonilise aruandluse konfiguratsioonide hankimine
 
-Kui olete varem selles teemas protseduuri [Juurdepääs rakenduse metaandmetele ER-konfiguratsiooni abil](#access-application-metadata-by-using-an-er-configuration) lõpule viinud, on teil praeguses RCS-i eksemplaris juba kõik vajalikud elektroonilise aruandluse konfiguratsioonid (väliskaubanduse metaandmete, mudeli ja vastenduse konfiguratsioonid). Sellisel juhul võite selle protseduuri vahele jätta.
+Kui olete juurdepääsu rakenduse metaandmed juba selles artiklis kirjeldatud ER-i konfiguratsiooniprotseduuri abil lõpule viinud, on praeguses RCS-i [eksemplaris juba olemas kõik nõutud ER-i](#access-application-metadata-by-using-an-er-configuration) konfiguratsioonid (väliskaubanduse metaandmed, mudel ja vastendamise konfiguratsioonid). Sellisel juhul võite selle protseduuri vahele jätta.
 
 1. Avage **Kõik tööruumid \> Elektrooniline aruandlus**.
 2. Valige **Aruandluse konfiguratsioonid**.

@@ -1,6 +1,6 @@
 ---
 title: Indeksimääraga seotud rendimaksete ümberhindamine
-description: Selles teemas kirjeldatakse korrigeerimist, mida tehakse kasutamisõiguse esemeks oleva vara rendikohustisele, kui rendimaksed indeksimäärade muutumise tõttu muutuvad.
+description: See artikkel kirjeldab korrektsiooni, mis tehakse kasutusva vara (RUB) kohustuse liisimiseks muutuvate rendimaksete muutmisel indeksi määra muutuse tõttu.
 author: moaamer
 ms.date: 01/11/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 5abd1f5d265c6e8b53903e6df5c52a06b3468880
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.openlocfilehash: 8dc2325e9f0651bea0d70d9f66e5d88b741009f8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968048"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903243"
 ---
 # <a name="revalue-lease-payments-that-are-linked-to-an-index-rate"></a>Indeksimääraga seotud rendimaksete ümberhindamine
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas kirjeldatakse korrigeerimist, mida tehakse kasutamisõiguse esemeks oleva vara rendikohustisele, kui rendimaksed indeksimäärade muutumise tõttu muutuvad. Rendikohustist ja kasutamisõiguse esemeks olevaid varasid korrigeeritakse uute maksesummade arvestamiseks. Raamatupidamise standardite kodeerimise teema 842 (ASC 842), mis on üldtunnustatud raamatupidamispõhimõtete standard USA-s (USA RAAMATUPIDAMISTAVA), kohaselt muutuvad ainult muutuvad maksed, kui makse indeksimäära muutumise tõttu suureneb või väheneb, välja arvatud juhul, kui rahavoogudes esinevad täiendavad muudatused. Need täiendavad muudatused võivad hõlmata intressimääradega seotud rendilepingu tingimuste muutmist. Lisateavet vt teemast ASC 842-10-55-225 ja rahvusvahelise finantsaruandluse standardi 16 (IFRS 16) § 42 punktist b.
+See artikkel kirjeldab korrektsiooni, mida tehakse kasutusse antud liisingukohustusele (RUB), kui muutuvad rendimaksed muutuvad indeksimäära muutuse tõttu. Rendikohustist ja kasutamisõiguse esemeks olevaid varasid korrigeeritakse uute maksesummade arvestamiseks. Raamatupidamise standardite kodeerimise teema 842 (ASC 842), mis on üldtunnustatud raamatupidamispõhimõtete standard USA-s (USA RAAMATUPIDAMISTAVA), kohaselt muutuvad ainult muutuvad maksed, kui makse indeksimäära muutumise tõttu suureneb või väheneb, välja arvatud juhul, kui rahavoogudes esinevad täiendavad muudatused. Need täiendavad muudatused võivad hõlmata intressimääradega seotud rendilepingu tingimuste muutmist. Lisateavet vt teemast ASC 842-10-55-225 ja rahvusvahelise finantsaruandluse standardi 16 (IFRS 16) § 42 punktist b.
 
 ## <a name="adjust-lease-payments"></a>Rendimaksete korrigeerimine
 
@@ -54,7 +54,7 @@ Indeksimääraga seotud rendimaksete ümberhindamiseks toimige järgmiselt.
 
 ## <a name="asc-842-leases--index-revaluation"></a>ASC 842 rendilepingud – indeksi ümberhindamine
 
-ASC 842 rendilepingute ümberhindamise mõju vaatamiseks avage rendilepingu maksegraafik. Lehel kuvatakse ainult indeksi ümberarvutamise tõttu tehtud ümberhindamise kuupäeval või pärast seda tehtud muutuvad maksed. Amortisatsiooni ja kulumi graafikuid ei muudeta. Kui loote arve, millel on muutuv makse, siis debiteeritakse muutuv makse muutuva makse sisestuskontole. Samuti lisatakse muutuvmakse summa kreeditkandele, mis konteeritakse otse hankijale või sisestatakse vastavalt rendiraamatu seadistusele võlakirju.
+ASC 842 rendilepingute ümberhindamise mõju vaatamiseks avage rendilepingu maksegraafik. Lehel kuvatakse ainult indeksi ümberarvutamise tõttu tehtud ümberhindamise kuupäeval või pärast seda tehtud muutuvad maksed. Amortisatsiooni ja kulumi graafikuid ei muudeta. Kui loote arve, millel on muutuv makse, siis debiteeritakse muutuv makse muutuva makse sisestuskontole. Samuti lisatakse muutuv maksesumma kreeditkandele, mis sisestatakse otse hankijale, või sisestatakse Märkuste ostureskontrole, sõltuvalt rendiraamatu seadistusest.
 
 Rendilepingu üksikasjade lehe maksegraafiku ridu uuendatakse automaatselt, lisades uue rea, mis näitab uut indeksimäära. Lisaks näitab veerg, kas rida loodi käsitsi või indeksi ümberhindamise protsessi kaudu.
 
@@ -67,6 +67,6 @@ Saate vaadata värskeltloodud maksegraafikut, mis algab ümberhindamise kuupäev
 Töölehe kirje sisestas korrigeerimise töölehe kirje automaatselt kontole indeksi ümberhindamisega seotud rendimaksete muutmiseks.
 
 > [!NOTE]
-> Kui **suvand Jaotusmakse summa** on lubatud lehe Liisingu üksikasjad **kiirkaardil** Üldine ja seotud raamat on **IFRS** 16, lisab indeksi ümberhindluse protsess **automaatselt kirje dialoogiboksi Maksesumma** jaotus. Summa kajastab indeksi ümberhindluse tõttu makses tehtud muudatust. Kirje märgitakse **kui Kasutatud IRFS 16 indeksi ümberhindamiseks**.
+> **Kui** liisingu üksikasjade lehe üldisel kiirkaardil on lubatud suvand Jaotuse maksesumma ja seotud raamatuks **on** **IFRS** 16, **lisab** indeksi ümberhindamise protsess automaatselt kirje makse summa katkestuse dialoogiboksis. Summa peegeldab makses tehtud muudatust indeksi ümberhindamise tõttu. Kirje märgitakse kui Kasutatud **IRFS 16 indeksi ümberhindamise jaoks**.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

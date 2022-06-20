@@ -1,6 +1,6 @@
 ---
 title: Elektroonilise aruandluse valemite toetatud primitiivsed andmetüübid
-description: See teema annab teavet primitiivsete andmetüüpide kohta, mida toetatakse elektroonilises aruandluses (ER) valemites.
+description: See artikkel annab teavet primitiivsete andmetüüpide kohta, mida toetab elektroonilise aruandluse (ER) valemid.
 author: NickSelin
 ms.date: 06/02/2021
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 96fdf33f4cc5f22015c00c57858bd438e6465764
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 41cda188e774630e96c46fba1200fd2e640f9915
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323636"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891871"
 ---
 # <a name="supported-primitive-data-types-for-electronic-reporting-formulas"></a>Elektroonilise aruandluse valemite toetatud primitiivsed andmetüübid
 
 [!include [banner](../includes/banner.md)]
 
-See teema annab teavet primitiivsete andmetüüpide kohta, mida toetatakse [elektroonilises aruandluses (ER)](general-electronic-reporting.md) valemites. Primitiivsete andmetüüpide loend on järgmine:
+See artikkel annab teavet primitiivsete andmetüüpide kohta, mida toetatakse [elektroonilise aruandluse (ER)](general-electronic-reporting.md) avaldistes. Primitiivsete andmetüüpide loend on järgmine:
 
 - [kahendmuutuja](#boolean)
 - [kuupäev](#date)

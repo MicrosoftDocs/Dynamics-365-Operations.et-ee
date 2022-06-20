@@ -1,6 +1,6 @@
 ---
 title: Eelarve juhtimise ülevaade
-description: Selles teemas tutvustatakse eelarvekontrolli funktsiooni ja antakse teavet, mis aitab teil eelarvekontrolli konfigureerida organisatsiooni finantsressursside haldamise optimeerimiseks.
+description: See artikkel tutvustab eelarve juhtimise funktsiooni ja annab teavet, mis aitab teil konfigureerida eelarve juhtimist, et optimeerida teie organisatsiooni finantsressursside haldamist.
 author: panolte
 ms.date: 03/28/2022
 ms.topic: overview
@@ -17,19 +17,19 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e36ecacc621b4ecb8cc71e42b7a306c4494f625a
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 27eb31919937e7f43a785616b547e3d6952eaaf2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711260"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898294"
 ---
 # <a name="budget-control-overview"></a>Eelarve juhtimise ülevaade
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Selles teemas tutvustatakse eelarvekontrolli funktsiooni ja antakse teavet, mis aitab teil eelarvekontrolli konfigureerida organisatsiooni finantsressursside haldamise optimeerimiseks.
+See artikkel tutvustab eelarve juhtimise funktsiooni ja annab teavet, mis aitab teil konfigureerida eelarve juhtimist, et optimeerida teie organisatsiooni finantsressursside haldamist.
 
 Eelarve juhtimine toetab organisatsiooni finantsressursside haldamist kontoplaani, töövoogude, kasutajagruppide, lähtedokumentide ja töölehtede, saadaoleva raha konfigureeritava arvutamise, eelarvetsüklite ja lävede kaudu. Rakendatud juhtimisega saab organisatsioon plaanida, mõõta, hallata ja prognoosida oma rahalisi vahendeid kogu rahandusaasta jooksul. 
 

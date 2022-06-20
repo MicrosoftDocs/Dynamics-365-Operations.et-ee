@@ -1,6 +1,6 @@
 ---
 title: Ärisaidi koostaja turbegruppi ei saa algse juurutamise ajal konfigureerida
-description: See teema annab tõrkeotsingu juhised, mis aitavad, kui Microsoft Azure Active Directory (Azure AD) ärisaidi koostaja turvagruppi ei kuvata suvandina, kui loote Lifecycle Services (LCS) e-äri komponente uue e-äri rentniku algsel Microsoft Dynamics juurutamisel.
+description: See artikkel Azure Active Directory pakub tõrkeotsingu juhiseid, mis aitavad, kui Ärisaidi koostaja Microsofti (Azure AD) turvagruppi ei kuvata suvandina, kui loote elutsükli teenustes (LCS) e-äri komponente uue e-äri Microsoft Dynamics rentniku algsel juurutamisel.
 author: Reza-Assadi
 ms.date: 03/11/2021
 ms.topic: Troubleshooting
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: f930cac61b747037b9fbecc7397a9b1b7db5dabd8a86b63a61c92ac7abe17516
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 797df828df16547eb3aef1f9865a663281fb9224
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765166"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899011"
 ---
 # <a name="cant-configure-a-security-group-for-commerce-site-builder-during-initial-deployment"></a>Ärisaidi koostaja turbegruppi ei saa algse juurutamise ajal konfigureerida
 
 [!include [banner](../../includes/banner.md)]
 
-See teema annab tõrkeotsingu juhised, mis aitavad, kui Microsoft Azure Active Directory (Azure AD) ärisaidi koostaja turvagruppi ei kuvata suvandina, kui loote Lifecycle Services (LCS) e-äri komponente uue e-äri rentniku algsel Microsoft Dynamics juurutamisel.
+See artikkel Azure Active Directory pakub tõrkeotsingu juhiseid, mis aitavad, kui Ärisaidi koostaja Microsofti (Azure AD) turvagruppi ei kuvata suvandina, kui loote elutsükli teenustes (LCS) e-äri komponente uue e-äri Microsoft Dynamics rentniku algsel juurutamisel.
 
 ## <a name="description"></a>Kirjeldus
 

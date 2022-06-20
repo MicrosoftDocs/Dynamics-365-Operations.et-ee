@@ -1,6 +1,6 @@
 ---
 title: Finantside vihjete konfiguratsioon – versioon 10.0.20 ja uuem
-description: See teema kirjeldab, kuidas konfigureerida süsteemi nii, et see kasutaks finantside vihjetes saadaolevaid võimalusi versioonis 10.0.20 ja uuemates versioonides.
+description: See artikkel selgitab, kuidas konfigureerida süsteemi nii, et see kasutaks võimalusi, mis on saadaval finantsülevaadetes versioonis 10.0.20 ja uuemas versioonis.
 author: ShivamPandey-msft
 ms.date: 06/16/2021
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-06-03
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 61cc002395ac3bc946fa03a04833a7b6d4820194
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: e6b9c34ee68a25ac9613a65cf63443751a39c576
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711600"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868514"
 ---
 # <a name="configuration-for-finance-insights---version-10020-and-later"></a>Finantside vihjete konfiguratsioon – versioon 10.0.20 ja uuem
 
@@ -29,10 +29,10 @@ ms.locfileid: "8711600"
 
 
 
-Finantsülevaated koondavad rakenduse Microsoft Dynamics 365 Finance Dataverse funktsioonid rakendusega Azure AI Builder ja pakuvad organisatsioonile võimast prognoosimise tööriistu. See teema selgitab, kuidas konfigureerida Dynamics 365 Finance versiooni 10.0.20, nii et teie süsteem saab kasutada finantside vihjetes saadaolevaid võimalusi.
+Finantsülevaated koondavad rakenduse Microsoft Dynamics 365 Finance Dataverse funktsioonid rakendusega Azure AI Builder ja pakuvad organisatsioonile võimast prognoosimise tööriistu. See artikkel selgitab, kuidas konfigureerida Dynamics 365 Finance versiooni 10.0.20, nii et teie süsteem saab kasutada finantside vihjetes saadaolevaid võimalusi.
 
 > [!NOTE]
-> Selles teemas kirjeldatud konfiguratsiooni etapid kehtivad ainult finantsversiooni 10.0.20 ja uuemate versioonide puhul. Finance insights`i seadistamiseks versioonil 10.0.19 ja uuemates versioonides vt [Finance insights vihjete konfigureerimine (eelvaade) – versioonid kuni 10.0.19](configure-for-fin-insites.md).
+> Selles artiklis kirjeldatud konfiguratsiooni etapid kehtivad ainult finantsversiooni 10.0.20 ja uuema versiooni puhul. Finance insights`i seadistamiseks versioonil 10.0.19 ja uuemates versioonides vt [Finance insights vihjete konfigureerimine (eelvaade) – versioonid kuni 10.0.19](configure-for-fin-insites.md).
 
 ## <a name="deploy-finance"></a>Finantside juurutamine
 

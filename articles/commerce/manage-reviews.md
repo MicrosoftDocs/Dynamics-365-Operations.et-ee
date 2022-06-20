@@ -1,6 +1,6 @@
 ---
 title: Hinnangute ja arvustuste haldus
-description: Selles teemas selgitatakse, kuidas hallata rakenduse Microsoft Dynamics 365 Commerce saidiehitajas hinnanguid ja arvustusi.
+description: See artikkel selgitab, kuidas hallata saidikonstruktori hinnanguid ja Microsoft Dynamics 365 Commerce ülevaateid.
 author: gvrmohanreddy
 ms.date: 10/09/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-01
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1aefa6eb93ef251778a48ba972d87e0cd5930bf0
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.openlocfilehash: 79738030d4e33ceaad105a404b8188384d5a320c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968223"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881319"
 ---
 # <a name="manage-ratings-and-reviews"></a>Hinnangute ja arvustuste haldus
 
 [!include [banner](includes/banner.md)]
 
-Selles teemas selgitatakse, kuidas hallata rakenduse Microsoft Dynamics 365 Commerce saidiehitajas hinnanguid ja arvustusi.
+See artikkel selgitab, kuidas hallata saidikonstruktori hinnanguid ja Microsoft Dynamics 365 Commerce ülevaateid.
 
 Dynamics 365 Commerce kasutab Microsoft Azure’i kognitiivset teenust, et automaatselt ebasündsaid sõnu redigeerides arvustuse teksti modereerida. Lisaks saavad moderaatorid kasutada rakenduse Dynamics 365 Commerce saidiehitajat järgmiste käsitsi tehtavate ülesannete tegemiseks.
 
@@ -130,9 +130,9 @@ Arvustuste ja hinnangute suundumuste vaatamiseks rakenduse Commerce saidiehitaja
 
 [Lubage hinnangute ja ülevaadete käsitsi avaldamine moderaatori poolt](manual-publish-rating-reviews.md)
 
-[Hinnangute ja kommentaaride importimine ja eksportimine](import-export-reviews.md)
+[Hinnangute ja arvustuste importimine ja eksportimine](import-export-reviews.md)
 
-[Teenusepõhise autentimise konfigureerimine](service-to-service-auth.md)
+[Teenusest teenusesse autentimise konfigureerimine](service-to-service-auth.md)
 
 [Hinnangud ja arvustused KKK](ratings-reviews-faq.md)
 

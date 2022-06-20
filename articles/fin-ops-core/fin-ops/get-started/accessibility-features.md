@@ -1,6 +1,6 @@
 ---
 title: Hõlbustusfunktsioonid
-description: Selles teemas kirjeldatakse funktsioone, mille eesmärk on aidata erinevate erivajadustega kasutajaid.
+description: See artikkel kirjeldab funktsioone, mis on mõeldud erinevate puuetega kasutajate abistamiseks.
 author: TLeforMicrosoft
 ms.date: 12/02/2019
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 022c51f7050d11caf5ce67c5df8f9f9040a54b98
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: af17b7933aed2a40d81fbc4e7b79e4e716aaf59b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071054"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881047"
 ---
 # <a name="accessibility-features"></a>Hõlbustusfunktsioonid
 
@@ -26,7 +26,7 @@ ms.locfileid: "8071054"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Selles teemas kirjeldatakse funktsioone, mille eesmärk on aidata erinevate erivajadustega inimesi selle rakenduse kasutamisel. Näiteks on saadaval funktsioonid inimestele, kes kasutavad nägemist abistavaid tehnoloogiaid, nagu Microsoft Windowsi jutustaja.
+See artikkel kirjeldab funktsioone, mis on loodud aitamaks kasutajaid, kellel on erinevad puuetega kasutajad seda rakendust kasutama. Näiteks on saadaval funktsioonid inimestele, kes kasutavad nägemist abistavaid tehnoloogiaid, nagu Microsoft Windowsi jutustaja.
 
 ## <a name="windows-narrator-and-keyboard-only-access"></a>Windowsi jutustaja ja juurdepääs ainult klaviatuuriga
 
@@ -49,7 +49,7 @@ Lisateavet vt teemast [Navigeerimisotsing](navigation-search.md).
 
 ## <a name="action-search-for-keyboard-only-users-or-for-heads-down-data-entry"></a>Tegevuse otsing ainult klaviatuuri kasutavate kasutajate jaoks või veatuvastuseta andmesisestuse jaoks
 
-Igale lehel esitatud tegevusele saab juurdepääsu klaviatuurilt, kasutades tabeldusjärjestust. Teave tabeldusjärjestuse kohta esitatakse käesolevas teemas allpool. Tegevuste käivitamiseks otsesemalt saate kasutada tegevuse otsimise funktsiooni.
+Igale lehel esitatud tegevusele saab juurdepääsu klaviatuurilt, kasutades tabeldusjärjestust. Teave vahekaartide järjestuse kohta antakse hiljem selles artiklis. Tegevuste käivitamiseks otsesemalt saate kasutada tegevuse otsimise funktsiooni.
 
 ### <a name="example"></a>Näide
 

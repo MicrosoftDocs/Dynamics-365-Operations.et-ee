@@ -1,6 +1,6 @@
 ---
 title: Kanaliülese ühiskasutuse lubamine ja kasutamine
-description: Selles teemas kirjeldatakse, kuidas lubada ja kasutada rakenduse Microsoft Dynamics 365 Commerce saidiehitaja kanaliülese ühiskasutuse funktsiooni.
+description: See artikkel kirjeldab, kuidas lubada ja kasutada saidikonstruktori kanaliülese Microsoft Dynamics 365 Commerce ühiskasutuse funktsiooni.
 author: psimolin
 ms.date: 10/16/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 05614b3ec14bfca9551242e5cf31aee0cb21c39a85150114af446a187fac998a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 637149c088cb87301018868e680537eb58b17852
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742412"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8866000"
 ---
 # <a name="enable-and-use-cross-channel-sharing"></a>Kanaliülese ühiskasutuse lubamine ja kasutamine
 
 [!include [banner](includes/banner.md)]
 
-Selles teemas kirjeldatakse, kuidas lubada ja kasutada rakenduse Microsoft Dynamics 365 Commerce saidiehitaja kanaliülese ühiskasutuse funktsiooni.
+See artikkel kirjeldab, kuidas lubada ja kasutada saidikonstruktori kanaliülese Microsoft Dynamics 365 Commerce ühiskasutuse funktsiooni.
 
 Kanaliülene ühiskasutus laseb jaemüüjatel taaskasutada ja jagada sisu saidi mitme kanali vahel. See võimalus on kasulik, kui saidi kanalitel on ühilduv baaskeel või kui neil on palju ühiseid sisuüksusi.
 

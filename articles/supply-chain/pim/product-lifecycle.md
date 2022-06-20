@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: f71ce701adbe60b69b25e41810dda7adeec1d390
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 5d1ea1517c75393b1c8d7c95c8aa2405042b4532
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983790"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850637"
 ---
 # <a name="product-lifecycle-state-overview"></a>Toote töötsükli olekute ülevaade
 
@@ -74,7 +74,7 @@ Andmeüksused toetavad toote elutsükli olekuid ja elutsükli oleku saab määra
 
 ## <a name="find-obsolete-products-and-products-variants"></a>Aegunud toodete ja tootevariantide leidmine
 
-Saate käivitada simulatsioonanalüüsi aegunud väljastatud toodete või tootevariantide leidmiseks ning seejärel nende toote elutsükli oleku värskendada. iganenud toodete leidmiseks lugege teemat [Iganenud tootevariantide leidmine ja toote töötsükli oleku määramine](tasks/obsolete-product-variants.md). Teema näitab, kuidas leida iganenud välja antud tooteid või tootevariante ja kuidas seostada toote tööstükli olek iganenud toodetega. See näitab ka, kuidas vaadata simulatsiooni tulemusi ja hinnata, kui palju tooteid ning tootevariante uue toote elutsükli olekuga seostatakse, kui värskendus käivitatakse ilma simulatsioonita.  
+Saate käivitada simulatsioonanalüüsi aegunud väljastatud toodete või tootevariantide leidmiseks ning seejärel nende toote elutsükli oleku värskendada. iganenud toodete leidmiseks lugege teemat [Iganenud tootevariantide leidmine ja toote töötsükli oleku määramine](tasks/obsolete-product-variants.md). See artikkel näitab, kuidas leida aegunud väljastatud tooteid või tootevariantide ning kuidas seostada toote töötsükli olekut aegunud toodetega. See näitab ka, kuidas vaadata simulatsiooni tulemusi ja hinnata, kui palju tooteid ning tootevariante uue toote elutsükli olekuga seostatakse, kui värskendus käivitatakse ilma simulatsioonita.  
 
 Käivitades analüüsi simulatsioonirežiimis, kuvatakse aegununa tuvastatud tooted ja tootevariandid kindlal vormil, kus neid saab hõlpsasti üle vaadata. Analüüs otsib kandeid ja konkreetseid koondandmeid, et tuvastada tooteid, millel puuduvad muutuval perioodil nõudlus ja koondandmed, mis võivad nõudlust põhjustada. Uued väljastatud tooted muutuval perioodil saab analüüsist välja jätta. Kui analüüsi simulatsioon tagastab oodatud tulemuse, saab kasutaja käivitada analüüsi ja määrata uue toote elutsükli oleku kõigile toodetele, mille analüüs tuvastas aegununa.  
 
@@ -97,7 +97,7 @@ Väljastatud toodete ja tootevariantide valimiseks ja värskendamiseks saate kas
 - Toote või tootetellimuse puhul pole aktiivseid ega tulevasi müüke või ostutellimuse ridu.
 - Toote või tootevarianti ei kasutata koosluses, mis on seostatud planeerimiseks aktiivse toote või tootevariandi puhul mitteaegunud kinnitatud koosluse versiooniga.
 
-## <a name="related-topics"></a>Seotud dokumendid
+## <a name="related-articles"></a>Seotud artiklid
 
 - [Toote töötsükli uue oleku loomine](tasks/new-product-lifecycle-state.md)
 - [Toote töötsükli vaikeoleku loomine](tasks/default-product-lifecycle-state.md)

@@ -1,6 +1,6 @@
 ---
 title: Saabumise ülevaade
-description: Selles teemas kirjeldatakse funktsiooni saabumisülevaade. Saabumisülevaate leht on selle funktsiooni osa ja annab ülevaate kõikidest kaupadest, mille saabumist sissetuleva kaubana eeldatakse.
+description: See artikkel annab teavet saabumise ülevaate funktsiooni kohta. Saabumisülevaate leht on selle funktsiooni osa ja annab ülevaate kõikidest kaupadest, mille saabumist sissetuleva kaubana eeldatakse.
 author: yufeihuang
 ms.date: 11/02/2017
 ms.topic: article
@@ -18,20 +18,20 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
-ms.openlocfilehash: 1248156ba9081fe4afbffd480b45cf9326d14a6c
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 8118db9469c01c43b23c64ee383ac1d383a0ba7a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567435"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874068"
 ---
 # <a name="arrival-overview"></a>Saabumise ülevaade
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas kirjeldatakse funktsiooni saabumisülevaade. Saabumisülevaate leht on selle funktsiooni osa ja annab ülevaate kõikidest kaupadest, mille saabumist sissetuleva kaubana eeldatakse.
+See artikkel annab teavet saabumise ülevaate funktsiooni kohta. Saabumisülevaate leht on selle funktsiooni osa ja annab ülevaate kõikidest kaupadest, mille saabumist sissetuleva kaubana eeldatakse.
 
-Leht **Saabumisülevaade** annab ülevaate kõikide eeldatute sissetulevate kaupade kohta. Samuti näitab see saabumisi, mida saab lähtestada ülevaate põhjal. Selles teemas käsitletakse vastuvõtmisprotsessi.
+Leht **Saabumisülevaade** annab ülevaate kõikide eeldatute sissetulevate kaupade kohta. Samuti näitab see saabumisi, mida saab lähtestada ülevaate põhjal. See artikkel keskendub tootmisprotsessile.
 
 ## <a name="business-scenario"></a>Äristsenaarium
 Kaaluge järgmist sissetulevate protsesside stsenaariumit.

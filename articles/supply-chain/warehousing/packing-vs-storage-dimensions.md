@@ -1,6 +1,6 @@
 ---
 title: Pakkimiseks ja ladustamiseks erinevate dimensioonide määramine
-description: See teema näitab, kuidas määrata, millise protsessi (pakkimine, ladustamine või pesastatud pakkimine) jaoks iga määratud dimensiooni kasutatakse.
+description: See artikkel näitab, kuidas iga määratud dimensiooni puhul määrata, millist protsessi (pakkimine, ladustamine või pesastatud pakkimine) kasutatakse.
 author: Mirzaab
 ms.date: 01/28/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 090a6f653b50d8f22a2f34354172f129624813f1
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 85e40a0768174dcdc5d0fa2647b24cddccf01bdf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687641"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905482"
 ---
 # <a name="set-different-dimensions-for-packing-and-storage"></a>Pakkimiseks ja ladustamiseks erinevate dimensioonide määramine
 
@@ -33,7 +33,7 @@ Mõned kaubad on pakitud või ladustatud nii, et teil võib tekkida vajadus jäl
 *Ladustamise* dimensioone toetatakse isegi juhul, kui funktsioon *Pakendatava toote dimensioonid* pole lubatud. Häälestate need rakenduse Supply Chain Management lehte **Füüsiline dimensioon** kasutades. Neid dimensioone kasutavad kõik protsessid, kus pakkimise ja pesastatud pakkimise dimensioonid on määramata.
 
 *Pakkimise* ja *pesastatud pakkimise* dimensioonid häälestatakse, kasutades lehte **Toote füüsilised dimensioonid**, mis lisatakse, kui lubate funktsiooni *Pakendatava toote dimensioonid*.
-See teema sisaldab stsenaariumit, mis kirjeldab selle funktsiooni kasutamist.
+See artikkel annab stsenaariumi, mis kirjeldab selle funktsiooni kasutamist.
 
 ## <a name="turn-on-the-packaging-product-dimensions-feature"></a>Lülitage pakendatavate toodete dimensioonide funktsioon sisse.
 

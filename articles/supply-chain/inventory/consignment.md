@@ -1,6 +1,6 @@
 ---
-title: Saadetise seadistamine
-description: Selles teemas selgitatakse, kuidas kasutada sissetuleva veose laoprotsesse.
+title: Saadetise häälestus
+description: See artikkel selgitab, kuidas kasutada sissetulevate veoste laoprotsesse.
 author: yufeihuang
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4a1b96d18048a1ae6e380374f32d2bfa2270ae24
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: MT
+ms.openlocfilehash: 66215811c8c48412fb137967107abca3774f5f0c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577716"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872032"
 ---
-# <a name="set-up-consignment"></a>Saadetise seadistamine
+# <a name="set-up-consignment"></a>Saadetise häälestus
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas selgitatakse, kuidas kasutada sissetuleva veose laoprotsesse.
+See artikkel selgitab, kuidas kasutada sissetulevate veoste laoprotsesse.
 
-Veose varud on varud, mis kuuluvad hankijale, kuid mida hoitakse teie tegevuskohas. Kui olete valmis tarbima või kasutama varusid, võtate varude omandiõiguse üle. See hõlmab teavet selle kohta, kuidas füüsiliselt vastu võtta hankijale kuuluvaid varusid laos ilma pearaamatu kannete loomiseta, kuidas käivitada tootmisprotsessi, kus hankijale kuuluvaid varusid saab füüsiliselt reserveerida, ning kuidas muuta toormaterjali omandiõigust, et töödelda tarbimist osana tootmistellimuse töötlemisest. On ka teavet selle kohta, kuidas hankijad saavad jälgida nende varude tarbimist, kasutades hankija koostöö liidest.
+Veose varud on varud, mis kuuluvad hankijale, kuid mida hoitakse teie tegevuskohas. Kui olete valmis tarbima või kasutama varusid, võtate varude omandiõiguse üle. See artikkel sisaldab teavet selle kohta, kuidas füüsiliselt võtta vastu hankijale omast vaba kaubavaru ilma pearaamatukandeid loomata, kuidas alustada tootmisprotsessi, kus hankijale omane ladu saab füüsiliselt reserveerida. ning kuidas muuta toormaterjali omandiõigust, et töödelda tarbimist osana tootmistellimuse töötlemisest. On ka teavet selle kohta, kuidas hankijad saavad jälgida nende varude tarbimist, kasutades hankija koostöö liidest.
 
 ## <a name="overview-of-the-consignment-process"></a>Veose töötlemise ülevaade
 

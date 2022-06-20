@@ -1,6 +1,6 @@
 ---
 title: Topeltaruandlus
-description: See teema juhendab teid läbi näite, mis näitab, kuidas saate täita nii rahvusvahelise finantsaruandluse standardi (IFRS) aruandlust kui ka vara rentimise kohustuslikku aruandlust.
+description: See artikkel juhendab teid näite kaudu, mis näitab, kuidas te saate täita nii rahvusvahelise finantsaruandluse standardi (IFRS) kui ka vara seadusega kehtestatud aruandluse nõudeid.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 9c96730bea52a69f672f8936ebbcb24449940636
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 9941d0bb251a95a71338c59f6eaa4bb9a505a5b5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713385"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886367"
 ---
 # <a name="dual-reporting"></a>Topeltaruandlus
 
 [!include [banner](../includes/banner.md)]
 
-See teema juhendab teid läbi näite, mis näitab, kuidas saate täita nii rahvusvahelise finantsaruandluse standardi (IFRS) aruandlust kui ka vara rentimise kohustuslikku aruandlust. 365 Finantside sisestamiskihtide Microsoft Dynamics tutvustamine on nõutav ja muudab näite lihtsamini mõista.
+See artikkel juhendab teid näite kaudu, mis näitab, kuidas te saate täita nii rahvusvahelise finantsaruandluse standardi (IFRS) kui ka vara seadusega kehtestatud aruandluse nõudeid. 365 Finantside sisestamiskihtide Microsoft Dynamics tutvustamine on nõutav ja muudab näite lihtsamini mõista.
 
 ## <a name="example"></a>Näide
 

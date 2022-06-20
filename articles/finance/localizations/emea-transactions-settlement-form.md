@@ -1,6 +1,6 @@
 ---
 title: Ida-Euroopa kannete vaatamine tasakaalustamisel
-description: Selles teemas käsitletakse lehe Kanded tasakaalustamisel teavet klientide ja hankijate kohta.
+description: See artikkel annab teavet klientide ja hankijate tasakaalustuse lehel tehtud kannete kohta.
 author: EvgenyPopovMBS
 ms.date: 06/20/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: ba3e168d188dfe0f808e7d7f7bab6192de25d25977023eb798a923ec97b43b82
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b45dc7a8213c753491c367cef36d7dc1111270c4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713738"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856547"
 ---
 # <a name="view-transactions-on-settlement-for-eastern-europe"></a>Ida-Euroopa kannete vaatamine tasakaalustamisel
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas käsitletakse lehe Kanded tasakaalustamisel teavet klientide ja hankijate kohta.
+See artikkel annab teavet klientide ja hankijate tasakaalustuse lehel tehtud kannete kohta.
 
 Kasutage lehte **Kanded tasakaalustamisel** teabe kuvamiseks kliendi või hankija keerukate tasakaalustuskannete kohta. See funktsioon on saadaval ainult juriidilistele isikutele esmase aadressiga Leedus, Lätis, Eestis, Tšehhi Vabariigis, Ungaris või Poolas. Leiate lehe **Kanded tasakaalustamisel** järgmistest kohtadest:
 

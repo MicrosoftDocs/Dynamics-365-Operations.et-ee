@@ -1,6 +1,6 @@
 ---
 title: ER-i funktsioon FORMAT
-description: See teema sisaldab teavet selle kohta, kuidas kasutatakse elektroonilise aruandluse (ER) funktsiooni FORMAT.
+description: See artikkel annab teavet selle kohta, kuidas vormingu elektroonilise aruandluse (ER) funktsiooni kasutatakse.
 author: NickSelin
 ms.date: 12/12/2019
 ms.prod: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9dbde3ebfd2670639a2fff19d83ea9bd8d15c22b09b43ab49ae1b9e35562625a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ce9dd95dc347416f6f9c3024b0b1de3f60f88bfb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720876"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876772"
 ---
 # <a name="format-er-function"></a>ER-i funktsioon FORMAT
 
@@ -92,7 +92,7 @@ Kui sama aruannet töödeldakse kliendi **Litware Retail** jaoks 17. detsembril 
 >[!NOTE]
 > Siltidele mõeldud ER-i valemites rakendatakse järgmist süntaksit.
 >
-> - **Rakenduse Microsoft Dynamics 365 Finance ressursside siltide puhul:** **\@X**, kus **X** on sildi ID rakendusobjektide puus (Application Object Tree (AOT))
+> - **Ressurssidest siltide jaoks Microsoft Dynamics rakenduse 365 Finance:** **\@ X jaoks,** kus X **on** sildi ID rakendusobjektide puus (AOT)
 > - **ER-i konfiguratsioonides asuvate siltide puhul:** **@„GER_LABEL:X”**, kus **X** on sildi ID ER-i konfiguratsioonis
 
 ## <a name="additional-resources"></a>Lisaressursid

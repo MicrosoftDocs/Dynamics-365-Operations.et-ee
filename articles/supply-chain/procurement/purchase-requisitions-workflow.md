@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f3381c752e4f1f723162ad314c29ab477caf635a
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 6934c1147de79c24eb66127d2e08ae8b627bc744
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675931"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849354"
 ---
 # <a name="purchase-requisition-workflow"></a>ostutaotluse töövoog
 
@@ -89,7 +89,7 @@ Selles näites töövoo protsess ostutaotluse ridadele järgib järgmiseid samme
 ## <a name="configuring-a-workflow-for-purchase-requisitions"></a>Ostutaotluste töövoo konfigureerimine
 Ostutaotluse suunamiseks ülevaatamiseks, konfigureerige ostutaotluse töövoo protsessid. Määratud töövoo konfiguratsioon juhib suhtlust kaupade taotleja (nõude esitaja) ja ülevaataja ning töövoo kinnitaja vahel. Ostutaotluse suunamine sõltub töövoo konfiguratsioonis määratletud tingimustest. Näiteks määravad need tingimused, millal tuleks ostutaotlus suunata, millisele kasutajale või rollile see tuleks suunata ja milliseid tegevusi saavad kasutajad teha.  
 
-Selles teemas olevad näited selgitavad, kuidas saab ostutaotluse suunata töövoo kaudu üksiku dokumendina või üksikute ostutaotluse ridadena. Samuti saate konfigureerida ostutaotluste jaoks töövoo, mis kajastab teie organisatsiooni jaoks määratletud ostutaotluste sisemist kontrolliülevaatust.  
+Selle artikli näited näitavad, kuidas ostutaotlust saab töövoo kaudu suunatakse üksiku dokumendina või eraldi ostutaotluse ridadena. Samuti saate konfigureerida ostutaotluste jaoks töövoo, mis kajastab teie organisatsiooni jaoks määratletud ostutaotluste sisemist kontrolliülevaatust.  
 
 Osalejad või ülevaatajad, kellele on töövoos ülesanne määratud, saavad olla konkreetse kasutajagrupi liikmed, kindla turberolliga kasutajad, juhtimishierarhias edastajaga seostatud kasutajad, nimetatud kasutajad või teatud kulukohustustega kasutajad.
 

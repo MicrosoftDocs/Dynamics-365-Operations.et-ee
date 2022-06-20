@@ -1,6 +1,6 @@
 ---
 title: Parandage plaanimismootori tõrge ja piiratud võimsus, et ei leitud piisavalt võimsust
-description: Selles teemas antakse teavet tootmistellimuse põhjuste ja käskude %1 kohta, mida ei saa planeerida. Ajastamismootori tõrge ei leitud' pole piisav.
+description: See artikkel annab teavet põhjuste ja lahenduste kohta, mida ei saanud %1 tootmistellimusele planeerida. Ajastamismootori tõrge ei leitud' pole piisav.
 author: t-benebo
 ms.date: 7/29/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-19
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: a3c08dc72c7133a2ebb148a2f88f83fee282717b
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 2db4c2606936222fcd1a97cf2814fbfbc41df113
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469837"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891027"
 ---
 # <a name="fix-the-not-enough-capacity-could-be-found-scheduling-engine-error"></a>Ajastamismootori tõrke 'Ei leitud piisavalt võimsust' lahendamine
 
@@ -26,7 +26,7 @@ Ajakava koostamisel võite saada järgmise veateate:
 
 > Tootmistellimust %1 ei saa plaanida. Piisavat võimsust ei leitud.
 
-On mitu põhjust, miks planeerimismootor võib nurjuda ja väljastada selle tõrketeate. See teema annab juhised, mis aitavad teil leida tõrke juurpõhjuse ja seejärel selle leevendada.
+On mitu põhjust, miks planeerimismootor võib nurjuda ja väljastada selle tõrketeate. See artikkel annab juhised, mis aitavad teil leida tõrke juurpõhjuse ja seejärel selle leevendada.
 
 ## <a name="review-the-applicable-resources"></a>Rakendatavate ressursside ülevaatamine
 

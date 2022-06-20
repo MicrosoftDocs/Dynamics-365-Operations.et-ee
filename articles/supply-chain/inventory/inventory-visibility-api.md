@@ -1,6 +1,6 @@
 ---
-title: Varude nähtavuse avalikud API-d
-description: Selles teemas kirjeldatakse Varude nähtavuse pakutavaid avalikke API-sid.
+title: Inventory Visibility avalikud API-d
+description: See artikkel kirjeldab varude nähtavuse pakutavaid avalikuid API-sid.
 author: yufeihuang
 ms.date: 12/09/2021
 ms.topic: article
@@ -11,19 +11,19 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: cb02e8d10a5c673734727682436ba1b3fc996935
-ms.sourcegitcommit: 1877696fa05d66b6f51996412cf19e3a6b2e18c6
+ms.openlocfilehash: 25f6539616d4567249e1d1eb4297090176526fde
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/20/2022
-ms.locfileid: "8786861"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902020"
 ---
-# <a name="inventory-visibility-public-apis"></a>Varude nähtavuse avalikud API-d
+# <a name="inventory-visibility-public-apis"></a>Inventory Visibility avalikud API-d
 
 [!include [banner](../includes/banner.md)]
 
 
-Selles teemas kirjeldatakse Varude nähtavuse pakutavaid avalikke API-sid.
+See artikkel kirjeldab varude nähtavuse pakutavaid avalikuid API-sid.
 
 Varude nähtavuse lisandmooduli avalik REST API esitab integreerimiseks mitu kindlat lõpp-punkti. See toetab nelja peamist suhtlustüüpi.
 
@@ -160,7 +160,7 @@ Turbeteenusetõendi hankimiseks tehke järgmist.
    ```
 
 > [!IMPORTANT]
-> Kui kasutate *Postimehe* taotluse kogumist, et kutsuda varude nähtavuse avalikud API-d, peate iga taotluse jaoks lisama kandjatõendi. Oma kandjaloa leidmiseks valige taotluse URL-i all **Autoriseerimise** vahekaart, valige **Kandjatõendi** tüüp ja kopeerige viimases sammus toodnud juurdepääsuluba. Selle teema hilisemates jaotistes kasutatakse `$access_token`, et esindada luba, mis eelmises sammus saadi.
+> Kui kasutate *Postimehe* taotluse kogumist, et kutsuda varude nähtavuse avalikud API-d, peate iga taotluse jaoks lisama kandjatõendi. Oma kandjaloa leidmiseks valige taotluse URL-i all **Autoriseerimise** vahekaart, valige **Kandjatõendi** tüüp ja kopeerige viimases sammus toodnud juurdepääsuluba. Selle artikli hilisemates jaotistes kasutatakse luba, `$access_token` mis tooti viimases sammus.
 
 ## <a name="create-on-hand-change-events"></a><a name="create-onhand-change-event"></a>Vaba kaubavaru muutmise sündmuste loomine
 
@@ -359,7 +359,7 @@ Body:
     ]
 ```
 
-Järgmises näites on toodud näidissisu. Selle API käitumine erineb nende API-de käitumisest, mida kirjeldatakse käesolevas teemas eespool jaotises [Vabade kaubavarude muutmise sündmuste loomine](#create-onhand-change-event). Selles näites määratakse toote *T-särk* koguseks 1.
+Järgmises näites on toodud näidissisu. Selle API käitumine erineb [API-de käitumisest, mida on kirjeldatud käesolevas artiklis eespoolses](#create-onhand-change-event) jaotises Vaba kaubavaru muutmise sündmuste loomine. Selles näites määratakse toote *T-särk* koguseks 1.
 
 ```json
 [

@@ -1,6 +1,6 @@
 ---
-title: Äridokumendi mallile uute väljade lisamine Microsoft Excelis
-description: See teema annab teavet selle kohta, kuidas lisada äridokumendi halduse funktsiooni kasutades Microsoft Excelis äridokumendi malli uusi välju.
+title: Uute väljade lisamine Microsoft Exceli äridokumendimallile
+description: See artikkel annab teavet, kuidas lisada äridokumendi mallile uusi välju Microsoft Excel Äridokumendi halduse funktsiooni abil.
 author: NickSelin
 ms.date: 11/15/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-10-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 57eebdc38fb3f74690b92c03fa60e10c7610db1fe413320a6d167f05b0658bf1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8395a87e88ebbd1942c87da0cecebe6d25bdf625
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767238"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869398"
 ---
 # <a name="add-new-fields-to-a-business-document-template-in-microsoft-excel"></a>Äridokumendi mallile uute väljade lisamine Microsoft Excelis
 
@@ -28,14 +28,14 @@ ms.locfileid: "6767238"
 
 Saate lisada uusi välju mallile, mida kasutatakse Microsoft Exceli vormingus äridokumentide koostamiseks. Neid välju saab lisada kohatäidetena, mida kasutatakse loodud dokumentide täitmiseks rakendusest nõutava teabega. Iga lisatava välja kohta saate määrata ka sidumise andmeallikatega, et määrata, millised rakenduse andmed väljale sisestatakse, kui malli kasutatakse äridokumentide loomiseks.
 
-Lisateabe saamiseks selle funktsiooni kohta läbige siinse teema näide. Selles näites kirjeldatakse, kuidas värskendada malli, et täita vabas vormis arves loodud väljad.
+Selle funktsiooni kohta lisateabe saamiseks viige selle artikli näide lõpule. Selles näites kirjeldatakse, kuidas värskendada malli, et täita vabas vormis arves loodud väljad.
 
 ## <a name="configure-business-document-management-to-edit-templates"></a>Mallide muutmiseks äridokumentide halduse konfigureerimine
 
 Kuna äridokumentide haldus (BDM) on ehitatud raamistiku [elektroonilise aruandluse (ER) ülevaade](general-electronic-reporting.md) peale, peate enne BDM-iga töötamise alustamist konfigureerima nõutud ER-i ja BDM-i parameetrid.
 
-1.  Logige Microsoft Dynamics 365 Finance’i eksemplari süsteemiadministraatorina sisse.
-2.  Läbige näidise järgmised etapid teemas [Äridokumentide halduse ülevaade](er-business-document-management.md).
+1.  Süsteemiadministraatorina logige Microsoft Dynamics sisse 365 Finance eksemplari.
+2.  Viige lõpule järgmised äridokumendi halduse ülevaate artikli [näite sammud](er-business-document-management.md).
 
     1.  Konfigureerige elektroonilise aruandluse parameetrid.
     2.  Lülitage BDM sisse.
@@ -61,10 +61,10 @@ Elektroonilise aruandluse konfiguratsioonide importimise kohta lisateabe saamise
 
 3.  Valige ruudustikus mall **Vabas vormis arve (Excel)**.
 4.  Valige parempoolsel paanil **Uus mall**, et luua uus mall, mis põhineb valitud mallil.
-5.  Väljale **Pealkiri** sisestage **vabas vormis arve (Excel) Contoso** uue malli pealkirjaks.
+5.  Sisestage väljale **Pealkiri** uue malli pealkirjaks **Contoso vabas vormis arve (Excel)**.
 6.  Muutmis alustamise kinnitamiseks valige **OK**.
 
-Kuvatakse BDM-i malli muutja leht. Saate kasutada rakendust Microsoft 365, et redigeerida valitud malli veebis manustatud juhtelemendis.
+Kuvatakse BDM-i malli muutja leht. Saate kasutada rakendust Microsoft 365 valitud malli veebis manustatud juhtelemendis redigeerimiseks.
 
 ![BDM-i malli muutja leht.](./media/BDM-AddFldExcel-EditableTemplate.png)
 
@@ -148,9 +148,9 @@ Tööruumi **Äridokumendi haldus** paremal paanil asuv vahekaart **Mall** näit
 2.  Valige arve **FTI-00000002** ja seejärel valige **Prindihaldus**.
 3.  Vasakpoolsel paanil laiendage **Moodul – müügireskontro \> Dokumendid \> Vabas vormis arve**.
 4.  Suvandis **Vabas vormis arve** valge tase **Algne dokument**, et määratleda töötlemiseks arvete ulatus.
-5.  Paremal paanil **Aruande vorming** väljal valige **Vabas vormis arve (Excel) Contoso** mall konkreetse dokumendi taseme jaoks.
+5.  Valige paremal paanil väljal **Aruande vorming** mall **Contoso vabas vormis arve (Excel)** konkreetse dokumendi taseme jaoks.
 
-    ![Vaba tekstiarve (Excel) Contoso mall valitud.](./media/BDM-AddFldExcel-PrintMngtSetting.png)
+    ![Vabas vormis arve (Excel) Contoso mall on valitud.](./media/BDM-AddFldExcel-PrintMngtSetting.png)
 
 6.  Praeguse lehe sulgemiseks vajutage **Paoklahvi (Esc)**.
 7.  Valige **Prindi \> Valitud**.

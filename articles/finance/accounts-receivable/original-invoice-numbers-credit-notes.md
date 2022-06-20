@@ -1,6 +1,6 @@
 ---
 title: Viited algsetele arvetele krediidiarvetes
-description: Selles teemas kirjeldatakse, kuidas seadistada ja printida originaalarvete numbreid seotud kreeditarvetes.
+description: See artikkel selgitab, kuidas seadistada ja printida originaalarvete numbreid seotud kreeditarvetes.
 author: ilkond
 ms.date: 10/26/2021
 ms.topic: article
@@ -13,26 +13,26 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-19
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: c1362bf41416202631dc4b966338e8166b26a67f
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: ebfeb43aaf137ef336b460f340fbda50f5918d08
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688342"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861527"
 ---
 # <a name="references-to-original-invoices-in-credit-notes"></a>Viited algsetele arvetele krediidiarvetes
 
 [!include [banner](../includes/banner.md)]
 
 
-Mõnes riigis ja regioonis on juriidiline nõue, et prinditud kreeditarved sisaldavad viiteid originaalarvetele. Selles teemas kirjeldatakse, kuidas seadistada ja printida originaalarvete numbreid seotud kreeditarvetes.
+Mõnes riigis ja regioonis on juriidiline nõue, et prinditud kreeditarved sisaldavad viiteid originaalarvetele. See artikkel selgitab, kuidas seadistada ja printida originaalarvete numbreid seotud kreeditarvetes.
 
 ## <a name="prerequisites"></a>Eeltingimused
 
 - Lülitage tööruumis **Funktsioonihaldus** sisse funktsioon **Kreeditarvete paigutus müügi ja projekti arvete aruandlusele**. Lisateavet vt [Funktsioonihalduse ülevaatest](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 - Prindihalduses tuleb konfigureerida nõutud dokumentide prinditavad vormingud.
 
-Selles teemas kirjeldatud funktsionaalsus kehtib järgmiste dokumentide puhul.
+Selles artiklis kirjeldatud funktsioonid kehtivad järgmiste dokumentide puhul:
 
 **Müügireskontro**
 

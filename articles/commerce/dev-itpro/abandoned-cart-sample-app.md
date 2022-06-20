@@ -1,6 +1,6 @@
 ---
 title: Hüljatud ostukorvide tuvastamine ja teatiste saatmine klientidele
-description: See teema kirjeldab, kuidas kohandada hülgatud Microsoft Dynamics 365 Commerce ostukorvi konnektori näidisrakendust, et tuvastada mahajäetud ostukorvid ja saata klientidele meeldetuletuse meiliteatis.
+description: See artikkel kirjeldab, kuidas kohandada hülgatud Microsoft Dynamics 365 Commerce ostukorvi konnektori näidisrakendust, et tuvastada mahajäetud ostukorvid ja saata klientidele meeldetuletuse meiliteatis.
 author: bicyclingfool
 ms.date: 02/25/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 1db4e988653aa55db2b18fb201edeafc4d16a1bc
-ms.sourcegitcommit: ab690bc897699ff8a4c489e749251fe0367050ca
+ms.openlocfilehash: 707640ca211e997533d0f5a0b4e6d52cb5be9db4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/26/2022
-ms.locfileid: "8489026"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899206"
 ---
 # <a name="detect-abandoned-carts-and-send-notifications-to-customers"></a>Hüljatud ostukorvide tuvastamine ja teatiste saatmine klientidele
 
 [!include [banner](../includes/banner.md)]
 
-See teema kirjeldab, kuidas kohandada hülgatud Microsoft Dynamics 365 Commerce ostukorvi konnektori näidisrakendust, et tuvastada mahajäetud ostukorvid ja saata klientidele meeldetuletuse meiliteatis.
+See artikkel kirjeldab, kuidas kohandada hülgatud Microsoft Dynamics 365 Commerce ostukorvi konnektori näidisrakendust, et tuvastada mahajäetud ostukorvid ja saata klientidele meeldetuletuse meiliteatis.
 
 Tulu taastamine ja klientide kinnipidamine ostukorvist loobutud teatiste kaudu on oluline Dynamics 365 Commerce tugifunktsioon. Rakenduse Commerce abandoned cart connector näidisrakenduse kohandamisel pääsevad jaemüüjad juurde jaemüügiserveris asuvattele ostukorvidele, mida ei ole ajaakna ajal muudetud, mille jaemüüjad määratlevad. Seejärel saab neid ostukorvisid tuua, toote- ja kliendiandmetega laiendada ning saata edasi kolmanda osapoole meili turunduspakkujale, kes saab luua meiliteatisi ja saata neile kliente.
 
@@ -52,7 +52,7 @@ Järgmine näide näitab ostukorvi konnektori näidisrakenduse komponente.
 
 ## <a name="obtain-the-code-sample"></a>Hangi koodi näidis
 
-Mahajäetud ostukorvi konnektori näidisrakendus sisaldub Retail SDK versioonis 10.0.16. Koodi leiate jaotisest **\\RetailSDK\\Code\\SampleExtensions\\RetailServer\\Extensions.AbandonedCartSample**. Lisateavet Retail SDK kohta ja selle hankimise [kohta vt jaemüügi tarkvara arenduskomplektist (SDK).](retail-sdk/retail-sdk-overview.md)
+Mahajäetud ostukorvi konnektori näidisrakendus sisaldub Retail SDK versioonis 10.0.16. Koodi leiate jaotisest **\\RetailSDK\\Code\\SampleExtensions\\RetailServer\\Extensions.AbandonedCartSample**. Lisateavet Retail SDK kohta ja selle hankimise kohta vt jaemüügi [tarkvara arenduskomplektist (SDK)](retail-sdk/retail-sdk-overview.md).
 
 > [!NOTE]
 > Kuigi näidiskood tehti esimest korda kättesaadavaks versioonis 10.0.16, ühildub see jaemüügiserveri versiooniga 10.0.13 ja hilisema versiooniga.
@@ -160,6 +160,6 @@ Kui kasutate rakenduse Commerce e-commerce võimalusi, saate tootepiltide toomis
 | ImageViewPorts/viewport              | Vaatepordi definitsioon. Selle atribuudi abil saate määrata vaatepordi laiusevahemikud pikslites. Näiteid, mis näitavad, kuidas seda atribuuti kasutatakse, vaadake konfiguratsioonifaili **appSettings.json**. |
 | ImageViewPorts/imageWidth            | Vaatepordi pildilaius pikslites. |
 | imageViewPorts/imageHehti           | Vaatepordi pildikõrgus pikslites. |
-| imageViewPorts/useForDefaultImageTag | Tõene **·**/**väärtus,** mis näitab, kas vaatepordiga `<picture>` määratletud pildidimensioone tuleb kasutada juhul, kui HTML-silt ei ole veebibrauseri või meilikliendi puhul toetatud. |
+| imageViewPorts/useForDefaultImageTag | Tõene **·**/**väär** väärtus, mis näitab, kas vaatepordiga `<picture>` määratletud pildidimensioone tuleks kasutada, kui HTML-silt ei ole veebibrauseri või meilikliendi jaoks toetatud. |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

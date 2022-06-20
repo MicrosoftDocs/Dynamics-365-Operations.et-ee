@@ -1,6 +1,6 @@
 ---
-title: Juurdepääs finantsilistele ja maksude viiteandmetele
-description: Sellest teemast leiate teavet finants ja maksu viiteandmetele juurde pääsemise kohta.
+title: Juurdepääs finants- ja maksuandmetele
+description: See artikkel annab teavet juurdepääsu kohta finants- ja maksu viiteandmetele.
 author: RamaKrishnamoorthy
 ms.date: 01/27/2020
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: c24f3cb6bdc9dc6e287bf2ff06792cb1c643f474
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 2762008e205f85d03bc0b675a079a073b98aa27d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061779"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858647"
 ---
 # <a name="access-to-finance-and-tax-reference-data"></a>Juurdepääs finantsilistele ja maksude viiteandmetele
 
@@ -22,7 +22,7 @@ ms.locfileid: "8061779"
 
 
 
-Iga ettevõte töötab põhilise finantsandmete kogumiga, nt rahanduskalendriaastaga, ettevõtte tehingute sooritamise valuuta, ettevõtte sissetuleva ja väljamineva rahaga majandamiseks kasutatavad kontod, maksumäärad ja rahaülekanne. Need andmed asuvad finance and Operationsi rakendustes. Kuid see on saadaval Dataverse'is, et kliendikaasamise rakendustel oleks ühine finants- ja maksuandmete allikas. Sel viisil on andmed ühtsed kogu äriökosüsteemis.
+Iga ettevõte töötab põhilise finantsandmete kogumiga, nt rahanduskalendriaastaga, ettevõtte tehingute sooritamise valuuta, ettevõtte sissetuleva ja väljamineva rahaga majandamiseks kasutatavad kontod, maksumäärad ja rahaülekanne. Need andmed asuvad finantside ja toimingute rakendustes. Kuid see on saadaval Dataverse'is, et kliendikaasamise rakendustel oleks ühine finants- ja maksuandmete allikas. Sel viisil on andmed ühtsed kogu äriökosüsteemis.
 
 Finants- ja maksuandmed integreeritakse järgmiste vastenduste abil:
 

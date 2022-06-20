@@ -1,6 +1,6 @@
 ---
 title: Logo lisamine
-description: Selles teemas kirjeldatakse, kuidas lisada logo rakenduses Microsoft Dynamics 365 Commerce oma saidile.
+description: See artikkel kirjeldab, kuidas lisada oma saidile logo Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
 ms.date: 09/15/2020
 ms.topic: article
@@ -16,22 +16,22 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 583462755838e51b4c988b8da057dbeeee773e0b
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 624cd6f7000f5038b9996eb94caf79719d07f99f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964575"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871776"
 ---
 # <a name="add-a-logo"></a>Logo lisamine
 
 [!include [banner](includes/banner.md)]
 
-Selles teemas kirjeldatakse, kuidas lisada logo rakenduses Microsoft Dynamics 365 Commerce oma saidile.
+See artikkel kirjeldab, kuidas lisada oma saidile logo Microsoft Dynamics 365 Commerce.
 
 Kui te loote oma saiti, on üks esimesi asju, mida te tõenäoliselt teete, lisada oma ettevõtte või kaubamärgi logo saidi päisesse. Rakenduse Dynamics 365 Commerce veebimooduliteek pakub moodulit, mis muudab selle ülesande lihtsaks.
 
-Logo saate lisada otse mallile, paigutusele või lehele. Sel viisil saate hõlpsasti muuta logo, mis kuvatakse kindlatel lehekülgedel või lehekülgede gruppides. See teema katab siiski kõige sagedasema stsenaariumi, kuhu lisate oma logo päise fragmenti, mida saab taaskasutada teie saidi kõigi lehtede puhul.
+Logo saate lisada otse mallile, paigutusele või lehele. Sel viisil saate hõlpsasti muuta logo, mis kuvatakse kindlatel lehekülgedel või lehekülgede gruppides. See artikkel hõlmab siiski kõige sagedasemat stsenaariumi, kus saate lisada oma logo päise killust, mida saab taaskasutada kõigi oma saidi lehtedel.
 
 ## <a name="prerequisites"></a>Eeltingimused
 

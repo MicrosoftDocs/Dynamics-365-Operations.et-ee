@@ -1,6 +1,6 @@
 ---
 title: Materjalikäitlusseadmete liides (MHAX)
-description: Selles teemas kirjeldatakse, kuidas seadistada materjalikäitlusseadmete liides (MHAX), et saaksite luua ühenduse väliste füüsiliste materjalikäitluse (MH) süsteemidega.
+description: See artikkel kirjeldab, kuidas seadistada materjali käsitlemisseadmete liidest (MHAX), nii et saate ühendada välise füüsilise materjali käsitluse (MH) süsteemidega.
 author: Mirzaab
 ms.date: 03/04/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-04
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 4c04b8a9574bb6f34b56b4a7462882f1885f1178
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: c4b0d991d320d5a679d0ed60880c56a6cb849e2d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695587"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907083"
 ---
 # <a name="material-handling-equipment-interface-mhax"></a>Materjalikäitlusseadmete liides (MHAX)
 
@@ -88,7 +88,7 @@ Kordustellimuse loomiseks avage **Materjalikäitlusseadmete liides \> Seadistami
 
 Iga kordustellimusega saab seostada päringu. See päring filtreerib tööread ja -päised, et veelgi piirata tööd, mis kasutab kordustellimust sündmuste loomiseks. Kordustellimusele päringu lisamiseks märkige lehel **Kordustellimused** asjakohase kordustellimuse juures ruut **Käivita päring** ja seejärel valige toimingupaanil **Redigeeri päringut**. Kuvatakse standardne Supply Chain Managementi päringuredaktor.
 
-Lisaks sisaldab kordustellimus *kordustellimuste kaarti*, mis vastendab kas tööpäise või töörea väljad väljamineva sündmuse mõne või kõigi 10 vaba andmeväljaga, nagu vajalik. Teabe tagastamiseks MHAX-teenusesse kaasate tavaliselt töörea kirje ID või *töörea paari ID*. (Töörea paari ID on uus atribuut, mis võimaldab süsteemil kasutada ühte tagastuskäsku komplekteerimise ja ladustamise ridade töötlemiseks.) Ülejäänud väljad sõltuvad kasutusjuhtumist. Mõned näited tuuakse selles teemas allpool.
+Lisaks sisaldab kordustellimus *kordustellimuste kaarti*, mis vastendab kas tööpäise või töörea väljad väljamineva sündmuse mõne või kõigi 10 vaba andmeväljaga, nagu vajalik. Teabe tagastamiseks MHAX-teenusesse kaasate tavaliselt töörea kirje ID või *töörea paari ID*. (Töörea paari ID on uus atribuut, mis võimaldab süsteemil kasutada ühte tagastuskäsku komplekteerimise ja ladustamise ridade töötlemiseks.) Ülejäänud väljad sõltuvad kasutusjuhtumist. Mõned näited leiate sellest artiklist hiljem.
 
 Kordustellimuste kaardi häälestamiseks valige lehel **Kordustellimused** kohane kordustellimus ja seejärel valige toimingupaanil **Kordustellimuse kaart**. Kuvatavas dialoogiaknas **Kordustellimuse kaart** saate vastavalt vajadusele määrata igale saadaolevale andmeväljale tabeli ja välja.
 
@@ -161,7 +161,7 @@ Kui on olemas töörea paari ID, käitatakse järjest kõik tööread, mis on t�
 
 Litsentsiplaadiga juhitavatest asukohtadest pärit komplekteerimisread vajavad, et **andmed03** määratleks litsentsiplaadi, millelt komplekteeritakse, olenemata sellest, kas read on märgitud töörea kirje ID-ga või töörea paari ID-ga. Väli **andmed04** peab määratlema komplekteerimise tööpäise sihtlitsentsiplaadi.
 
-Ladustamisread ei aktsepteeri lisateavet. Need käivitatakse ainult praeguse töörea asukoha ja töö sihtlitsentsiplaadi alusel. Kui ladustamine tuleb teha teises asukohas, muutke töörea asukohta vastavalt kirjeldusele jaotises [Alistamissüdnmused](#override-events) selles teemas allpool.
+Ladustamisread ei aktsepteeri lisateavet. Need käivitatakse ainult praeguse töörea asukoha ja töö sihtlitsentsiplaadi alusel. Kui panemine tuleb teha teise kohta, muutke töörea asukohta, [nagu](#override-events) on kirjeldatud selles artiklis allpool jaotises Alistamissündmused.
 
 Kohandatud tööread ei vaja ega toeta mingisugust sissetuleva sündmuse lisateavet.
 
@@ -220,7 +220,7 @@ Teatud aja jooksul hakkab sissetulev järjekord täituma juba töödeldud järje
 
 ## <a name="get-a-quick-overview-by-using-the-queue-manager"></a>Järjekorrahalduri abil kiire ülevaate saamine
 
-Kõigist sissetulevate ja väljaminevate järjekordadega seotud tegevustest kiire ülevaate saamiseks avage **Materjalikäitlusseadmete liides \> Tööruum \> Järjekorrahaldur**. Lehel **Järjekorrahaldur** on komplekt vahekaarte ja paane, mille abil saate järjekordi jälgida ja uurida. Lisaks leiate sealt kasulikud lingid enamikule teistele selles teemas mainitud lehtedele.
+Kõigist sissetulevate ja väljaminevate järjekordadega seotud tegevustest kiire ülevaate saamiseks avage **Materjalikäitlusseadmete liides \> Tööruum \> Järjekorrahaldur**. Lehel **Järjekorrahaldur** on komplekt vahekaarte ja paane, mille abil saate järjekordi jälgida ja uurida. Samuti pakutakse kasulikke linke enamikule teistele selles artiklis nimetatud lehekülgedele.
 
 ## <a name="connect-to-the-mhax-service"></a>Ühendamine MHAX-teenusega
 

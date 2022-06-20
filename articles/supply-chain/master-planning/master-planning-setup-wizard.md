@@ -1,6 +1,6 @@
 ---
 title: Koondplaneerimise häälestusviisard (sisaldab videot)
-description: See teema kirjeldab koondplaneerimise häälestusviisardi käivitamist koondplaneerimise seadistamiseks.
+description: See artikkel kirjeldab koondplaneerimise seadistamise viisardi käivitamist koondplaneerimise seadistamiseks.
 author: t-benebo
 ms.date: 10/21/2019
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: a5914f63de654acd076048240c6e37d5b67f4ffa
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 1c79e1df53dfabc33aeacb56096b113e62b765d5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8470201"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875329"
 ---
 # <a name="master-planning-setup-wizard"></a>Koondplaneerimise häälestusviisard
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas antakse **Koondplaneerimise installiviisardi** juhiseid. Selles selgitatakse, kuidas parameetrisoovitusi arvutatakse ja esitatakse ka näiteid selle kohta, kuidas erinevad ettevõtted seadistavad koondplaneerimist vastavalt oma ärivajadustele.
+See artikkel annab juhendi koondplaneerimise **häälestusviisardi kohta**. Selles selgitatakse, kuidas parameetrisoovitusi arvutatakse ja esitatakse ka näiteid selle kohta, kuidas erinevad ettevõtted seadistavad koondplaneerimist vastavalt oma ärivajadustele.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3YnSB]
 

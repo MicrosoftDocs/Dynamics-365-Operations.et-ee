@@ -1,6 +1,6 @@
 ---
 title: Uue põhivara loomine
-description: Selles teemas selgitatakse, kuidas luua uut põhivara kirjet loendilehel Põhivara.
+description: See artikkel selgitab, kuidas luua põhivara loendilehelt uus põhivara kirje.
 author: moaamer
 ms.date: 07/01/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a9394c0c7a5e2d9b417cbaee9f4e67f36ae124fb
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 00c72081d20015737aa027cee9474a54e498cef4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8714281"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868485"
 ---
 # <a name="create-a-fixed-asset"></a>Uue põhivara loomine
 
 [!include [banner](../../includes/banner.md)]
 
-Selles teemas selgitatakse, kuidas luua uut põhivara kirjet loendilehel **Põhivara**.
+See artikkel selgitab, kuidas luua põhivara loendilehelt **uus põhivara** kirje.
 
 Süsteem määrab vara numbri põhivara grupile määratud numbriseeria põhjal. Kui kasutate põhivara malli varade importimiseks Microsoft Exceli lisandmooduli kaudu või kui kasutate mõnda muud imporditööd, loob süsteem automaatselt põhivara kirjed ja suurendab vara numbrit.
 

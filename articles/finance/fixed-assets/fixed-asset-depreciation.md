@@ -1,6 +1,6 @@
 ---
 title: Põhivara kulum
-description: Selles teemas antakse ülevaade põhivara kulumiarvestusest.
+description: See artikkel annab ülevaate põhivarade kulumist.
 author: moaamer
 ms.date: 12/03/2021
 ms.topic: article
@@ -15,23 +15,23 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2442830766ef1dccc109db5569bfbbbc8182f027
-ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
+ms.openlocfilehash: b4fedee481b4066c81671cf1fca3781c8c75aaeb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7890976"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874519"
 ---
 # <a name="fixed-asset-depreciation"></a>Põhivara kulum
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Selles teemas antakse ülevaade põhivara kulumiarvestusest.
+See artikkel annab ülevaate põhivarade kulumist.
 
 Kulum on perioodiline kanne, mis tavaliselt vähendab bilansis põhivara väärtust ning mis kantakse kuluna tulu ja kulu kontole. Seetõttu kasutatakse bilansis perioodilise kulumi krediteerimiseks tavaliselt põhikontot. Vastaskonto on kontoplaani tulude ja kulude osas olev konto.
 
-Versiooni 10.0.24 järgi lubab lehe Raamatud suvand Arvuta positiivne kulumivararaamatu konfiguratsioon kulumit debiteerida negatiivse raamatupidamisväärtusega (kreedit) soetatud **·** **põhivara**.
+Versiooni 10.0.24 **järgi** lubab **lehe** Raamatud suvand Arvuta positiivne kulumivararaamatu konfiguratsioon kulumit debiteerida negatiivse raamatupidamisväärtusega (kreedit) soetatud põhivara.
 
 ## <a name="depreciation-adjustment"></a>Kulumi korrigeerimine
 Tavaliselt sisestatakse kulumi korrigeerimisena ainult sisestatud kulumikande parandus. Seetõttu seadistatakse nii põhikonto kui ka vastaskonto samamoodi kui kulumikontod. Kulumit võidakse korrigeerida nii positiivse kui ka negatiivse summa võrra, kuid põhikonto (bilansikontona) ja vastaskonto funktsionaalsus (tavaliselt kasumi ja kahjumi kontona) funktsioon jääb samaks.

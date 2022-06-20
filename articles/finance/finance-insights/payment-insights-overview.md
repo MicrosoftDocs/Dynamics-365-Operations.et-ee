@@ -1,6 +1,6 @@
 ---
 title: Kliendimaksete prognoosimine
-description: Selles teemas kirjeldatakse makse prognooside võimalust, mis aitab klientide tüüpilisi maksetavasid paremini mõista. Funktsioon aitab teil tuvastada asjaolud, mis peaksid kaasa tooma sissenõudmisprotsesside alustamise varem, kui te oleksite seda muidu teinud.
+description: See artikkel kirjeldab makseprognooside võimalusi, mis aitab teil paremini mõista kliendi makseviise. Funktsioon aitab teil tuvastada asjaolud, mis peaksid kaasa tooma sissenõudmisprotsesside alustamise varem, kui te oleksite seda muidu teinud.
 author: ShivamPandey-msft
 ms.date: 11/03/2021
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: f3d6f328ff3fd4da6ad3e7d4f3f751d3be692736
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 5d16b42b4538a18ca3dd9d3bac25ed1af1441ace
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713186"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903156"
 ---
 # <a name="customer-payment-predictions"></a>Kliendimaksete prognoosimine
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas kirjeldatakse makse prognooside võimalust, mis aitab klientide tüüpilisi maksetavasid paremini mõista. Funktsioon aitab teil tuvastada asjaolud, mis peaksid kaasa tooma sissenõudmisprotsesside alustamise varem, kui te oleksite seda muidu teinud.
+See artikkel kirjeldab makseprognooside võimalusi, mis aitab teil paremini mõista kliendi makseviise. Funktsioon aitab teil tuvastada asjaolud, mis peaksid kaasa tooma sissenõudmisprotsesside alustamise varem, kui te oleksite seda muidu teinud.
 
 ## <a name="overview"></a>Ülevaade
 

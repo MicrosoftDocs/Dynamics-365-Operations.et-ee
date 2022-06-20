@@ -1,6 +1,6 @@
 ---
-title: Mis on uut või muudetud Warehouse Management laohalduse mobiilirakenduses
-description: Selles teemas loetletakse Microsoft Dynamics 365 Supply Chain Management iga Warehouse Management mobiilirakenduse väljastatud versiooni uued ja muudetud funktsioonid.
+title: Mis on uut või mida on muudetud mobiilirakenduses Warehouse Management?
+description: Selles artiklis loetletakse Microsofti iga laohalduse mobiilirakenduse väljastatud versiooni uued ja muudetud funktsioonid Dynamics 365 Supply Chain Management.
 author: Mirzaab
 ms.date: 04/25/2022
 ms.topic: article
@@ -10,18 +10,33 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: c79b18d24c8b9cb90a570496882fdfe91dc6ba51
-ms.sourcegitcommit: a4dc7d170f1504631127c3e92af0c6b03468d375
-ms.translationtype: MT
+ms.openlocfilehash: 34ac023bc5ee44987f6a36a1636cd343576e5d90
+ms.sourcegitcommit: b666289f5113d0a3fa2220fe337d5aacf07cbd92
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/02/2022
-ms.locfileid: "8661821"
+ms.lasthandoff: 06/08/2022
+ms.locfileid: "8945719"
 ---
-# <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Mis on uut või muudetud Warehouse Management laohalduse mobiilirakenduses
+# <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Mis on uut või mida on muudetud mobiilirakenduses Warehouse Management?
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas loetletakse Microsoft Dynamics 365 Supply Chain Management iga Warehouse Management mobiilirakenduse väljastatud versiooni uued funktsioonid, parandused, täiustused ja teadaolevad vead.
+Selles artiklis loetletakse microsofti iga laohalduse mobiilirakenduse väljastatud versiooni uued funktsioonid, parandused, parendused ja teadaolevad probleemid Dynamics 365 Supply Chain Management.
+
+## <a name="version-20240"></a>Versioon 2.0.24.0
+
+See versioon tutvustab järgmisi uusi funktsioone, parandusi ja täiustusi:
+
+- Täiustatud skanneri lehed, et lubada skannimissuvand lehel **Üksikasjad**.
+- Täiustatud rakendused, nt puute-/puudutusekraan.
+- Täiustatud jõudlusprobleeme :Android
+- Mitme päise fikseeritud paigutus, et lubada päringulehel kuvada rohkem **kaarte**.
+- Täiustatud kerimine on lubatud nii, et kerimise lehekülgede saalimine on vähem kaugust.
+- Lisatud pikk vajutamine täiendava teksti kuvamiseks **päringulehel**.
+- Fikseeritud puuduva seadme ID teave.Android
+- Suurendatud stabiilsus.
+- Optimeeritud sisselogimispaigutus.
+- Lisatud tõmmake paremale ekraanile, et sulgeda dialoogi hüpiklehed numbriklahvistikul, **üksikasjade** lehel ja sisestuslehtedel.
 
 ## <a name="version-20220"></a>Versioon 2.0.22.0
 

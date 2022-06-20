@@ -1,6 +1,6 @@
 ---
 title: Aastalõpu sulgemine
-description: See teema kirjeldab nõutavat seadistust ja juhiseid pearaamatu aastalõpu sulgemise protsessi käivitamiseks.
+description: See artikkel kirjeldab pearaamatu aasta lõpu sulgemise protsessi käivitamiseks nõutavaid seadistusi ja etappe.
 author: kweekley
 ms.date: 12/06/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 247c3286124da946937c8afd248a275e5a745044
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 032c572ec7b29bb6b2823ddde0c4fa76e5f8fcf1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725229"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883209"
 ---
 # <a name="year-end-close"></a>Aastalõpu sulgemine
 
 [!include [banner](../includes/banner.md)]
 
-See teema kirjeldab nõutavat seadistust ja juhiseid pearaamatu aastalõpu sulgemise protsessi käivitamiseks.
+See artikkel kirjeldab pearaamatu aasta lõpu sulgemise protsessi käivitamiseks nõutavaid seadistusi ja etappe.
 
 Rahandusaasta lõpus peate käivitama aastalõpu sulgemisprotsessi algsaldode ülekandmiseks uude aastasse. Enamik organisatsioone käivitavad aastalõpu sulgemise protsessi mitu korda. Esimene käitus teisaldab saldod uude rahandusaastasse. Protsessi saab seejärel uuesti käivitada nii palju kordi, kui on vaja, et teisaldada saldod kirjete reguleerimisest uude finantsaastasse.
 

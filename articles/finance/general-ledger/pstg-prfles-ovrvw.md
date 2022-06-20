@@ -1,6 +1,6 @@
 ---
-title: Sisestusreeglite ülevaade
-description: See teema kirjeldab, kuidas sisestusprofiile kasutatakse kogu Microsoft Dynamics 365 rakendustes.
+title: Sisestusprofiilide ülevaade
+description: See artikkel selgitab, kuidas sisestusprofiile kasutatakse kogu Microsoft Dynamics 365 rakendustes.
 author: rachel-profitt
 ms.date: 12/03/2021
 ms.topic: article
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-01-03
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4c29597155e525638e7c2ded7d641017f2189c49
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: e7ef3be13e82ff3722fc81247b5cd581b0b571b0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734572"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876120"
 ---
-# <a name="posting-profiles-overview"></a>Sisestusreeglite ülevaade
+# <a name="posting-profiles-overview"></a>Sisestusprofiilide ülevaade
 
 Finantside ja toimingute rakendustes kasutatakse termin sisestusprofiile konfiguratsioonide kirjeldamiseks, mis kontrollivad, kuidas alammooduli kontod põhikontodeks teisendatakse, *et* neid saaks kasutada pearaamatusse sisestatud kannetes. Näiteks kontrollivad need, kuidas klient arve sisestamisel müügireskontro põhikontoks teisendatakse.
 
@@ -102,9 +102,9 @@ Kliiringukontot *kasutatakse* sageli raamatupidamises. Microsoft Dynamics Mõned
 Paljud moodulid rakenduses Dynamics 365 Finance ja neil on sisestusprofiil või lisakonfiguratsioonid, Dynamics 365 Supply Chain Management Dynamics 365 Commerce Dynamics 365 Project Operations mis kontrollivad pearaamatusse sisestamist. Kasutage järgmisi teemasid, et saada lisateavet sisestusreeglite ja sisestusseadistuse kohta igas moodulis:
 
 - [Automaatsete kannete kontod](accounts-for-auto-transactions.md)
-- [Ostureskontro sisestamine](accts-payble-posting.md)
+- [Ostureskontro – sisestamine](accts-payble-posting.md)
 - [Kontodele saab sisestada](accts-recvble-posting.md)
-- [Varade sisestamise sisestamine](../asset-leasing/set-up-lease-posting-accts.md)
+- [Vara rentimise sisestamine](../asset-leasing/set-up-lease-posting-accts.md)
 - Varahalduse sisestamine (varsti tulev)
 - Sularaha- ja pangahaldus (varsti tulev)
 - Valuuta ümberhindamise sisestuskontod (varsti tulev)

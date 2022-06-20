@@ -1,6 +1,6 @@
 ---
 title: ER-i funktsioon TABLENAME2ID
-description: See teema sisaldab teavet selle kohta, kuidas kasutatakse elektroonilise aruandluse (ER) funktsiooni TABLENAME2ID.
+description: See artikkel annab teavet selle kohta, kuidas TABELINAME2ID elektroonilise aruandluse (ER) funktsiooni kasutatakse.
 author: NickSelin
 ms.date: 12/12/2019
 ms.prod: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a500eda75fbb5867f74b56753ee45016c60803b06f508340540764a6cd0399cc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b5deea69d5c43be599ccf02c0344ba8d662a6e0f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6725230"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886845"
 ---
 # <a name="tablename2id-er-function"></a>ER-i funktsioon TABLENAME2ID
 
@@ -47,7 +47,7 @@ Tulemiks saadud numbriline väärtus.
 
 ## <a name="usage-notes"></a>Kasutamise märkused
 
-Selle funktsiooni käitamisel võivad teenuse Microsoft Dynamics 365 Finance erinevatel eksemplaridel olla erinevad tulemused, isegi kui kasutatakse sama ettevõtte nime.
+Selle funktsiooni käivitamine võib Microsoft Dynamics 365 Finantside eri eksemplarides olla erinev, isegi kui kasutatakse sama ettevõtte nime.
 
 ## <a name="example"></a>Näide
 

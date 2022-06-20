@@ -1,6 +1,6 @@
 ---
 title: TDS-i eraldamisega maksegraafikute häälestamine
-description: See teema kirjeldab, kuidas seadistada maksegraafikuid allika (TDS) eraldamisel mahaarvatud maksuga.
+description: See artikkel selgitab, kuidas seadistada maksegraafikuid allika (TDS) eraldamisel mahaarvatud maksuga.
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 63628e84da4e430df236f3afa89110b652110fcb
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 48891c32f39b743ce26e265c5682dab28ecb4b27
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726601"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868308"
 ---
 # <a name="set-up-payment-schedules-with-tds-allocation"></a>TDS-i eraldamisega maksegraafikute häälestamine
 
 [!include [banner](../includes/banner.md)]
 
-See teema kirjeldab, kuidas seadistada maksegraafikuid allika (TDS) eraldamisel mahaarvatud maksuga.
+See artikkel selgitab, kuidas seadistada maksegraafikuid allika (TDS) eraldamisel mahaarvatud maksuga.
 
 1. Avage **Ostureskontro \> Makse seadistus \> Maksegraafikud**.
 

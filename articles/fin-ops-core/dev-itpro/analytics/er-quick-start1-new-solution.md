@@ -1,6 +1,6 @@
 ---
-title: Uue ER-i lahenduse kujundamine kohandatud aruande printimiseks
-description: Selles teemas selgitatakse, kuidas kujundada elektroonilise aruandluse (ER) lahendust kohandatud aruande printimiseks.
+title: Uue elektroonilise aruandluse lahenduse kujundamine kohandatud aruande printimiseks
+description: See artikkel selgitab, kuidas kujundada elektroonilise aruandluse (ER) lahendust kohandatud aruande printimiseks.
 author: NickSelin
 ms.date: 08/10/2020
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 36998d299e166709778bfaa7bfd0d8980890d4fe
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 7194fa9243362d4eb61d6ce706e30a66c9cf3217
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323838"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847484"
 ---
 # <a name="design-a-new-er-solution-to-print-a-custom-report"></a>Uue ER-i lahenduse kujundamine kohandatud aruande printimiseks
 
@@ -292,7 +292,7 @@ Selle konfiguratsiooni versiooni 1 olek muudetakse olekust **Mustand** olekusse 
 Lisateavet ER-i konfiguratsioonide versioonide kohta leiate teemast [Elektroonilise aruandluse (ER) ülevaade](general-electronic-reporting.md#component-versioning).
 
 > [!NOTE]
-> Konfigureeritud andmemudel esindab abstraktselt äridomeeni **Küsimustik** ega ole seotud artefaktidega, mis kuuluvad rakendusse Microsoft Dynamics 365 Finance.
+> Konfigureeritud andmemudel **on** Microsoft Dynamics küsimustiku äridomeeni abstraktne esitus ega sisalda seoseid 365-le finantsidele omaste artefaktidega.
 
 ## <a name="design-a-model-mapping-for-the-configured-data-model"></a><a name="DesignMapping"></a>Mudelivastenduse kujundamine konfigureeritud andmemudelile
 

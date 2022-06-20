@@ -1,6 +1,6 @@
 ---
 title: ER-i funktsioon ORDERBY
-description: See teema sisaldab teavet selle kohta, kuidas kasutatakse elektroonilise aruandluse (ER) funktsiooni ORDERBY.
+description: See artikkel annab teavet selle kohta, kuidas KASUTATAKSE ORDERBY elektroonilise aruandluse (ER) funktsiooni.
 author: NickSelin
 ms.date: 12/12/2019
 ms.prod: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 963d55bcf98a9109c8b6ceb57edf5b55f15a2b0f
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: 1a922405ea23d2b1ff5ac062785e68626edbc8f0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075170"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883755"
 ---
 # <a name="orderby-er-function"></a>ER-i funktsioon ORDERBY
 
@@ -40,18 +40,18 @@ ORDERBY (location, list, expression 1[, expression 2, …, expression N])
 ```
 
 > [!NOTE]
-> Seda süntaksit toetatakse Microsofti Dynamics 365 Finance versiooni 10.0.25 ja uuema versiooni puhul.
+> Seda süntaksit toetab Microsoft Dynamics 365 finantsversioon 10.0.25 ja uuem versioon.
 
 ## <a name="arguments"></a>Argumendid
 
-`location`: *[String](er-formula-supported-data-types-primitive.md#string)*
+`location`: *[string](er-formula-supported-data-types-primitive.md#string)*
 
-Asukoht, kus sortimist tuleks käitada. Kehtivad järgmised suvandid.
+Asukoht, kus sortimist tuleks käitada. Kehtivad järgmised valikud:
 
-- "Päring"
-- "InMemory"
+- Päring
+- InMemory
 
-`list`: *[Kirjeloend](er-formula-supported-data-types-composite.md#record-list)*
+`list`: *[kirjeloend](er-formula-supported-data-types-composite.md#record-list)*
 
 Andmetüübi *Kirjete loend* andmeallika kehtiv tee.
 
@@ -73,76 +73,76 @@ Saadud kirjete loend.
 
 ### <a name="syntax-1"></a>Süntaks 1
 
-Andmete sorteerimine toimub alati rakenduse serveri mälus. Lisateavet leiate näitest [1](#example-1).
+Andmeid sorditakse alati rakendusserveri mälus. Lisateavet vt näitest [1](#example-1).
 
 ### <a name="syntax-2"></a>Süntaks 2
 
-### <a name="sorting-in-memory"></a>Sortimine mälus
+### <a name="sorting-in-memory"></a>Mälus sortimine
 
-Kui argumendiks `location` on määratud **InMemory**, toimub andmete sortimine rakenduseserveri mällu. Lisateavet leiate näitest [2](#example-2).
+Kui argument `location` on määratud kui **InMemory**, toimub andmete sortimine rakendusserveri mälus. Lisateavet vt näitest [2](#example-2).
 
 ### <a name="sorting-in-database"></a>Sortimine andmebaasis
 
-`location` Kui argument on määratud **päringuna**, toimub andmete sortimine andmebaasi tasemel. Sellisel juhul peab argument osutama ühele järgmistest `list` elektroonilise aruandluse (ER) [andmeallikatest,](general-electronic-reporting.md) mis täpsustab rakenduse allika, mille jaoks saab luua otsese andmebaasipäringu:
+Kui argument `location` on määratud **päringuna**, toimub andmete sortimine andmebaasi tasemel. Sellisel juhul peab argument osutama ühele järgmistest elektroonilise aruandluse (ER)`list` andmeallikatest, mis määrab rakenduse allika, [mille](general-electronic-reporting.md) jaoks on võimalik luua otseandmebaasi päring:
 
 - Tabelikirjete *tüübi andmeallikas*
-- Tabelikirjete *tüübi* andmeallika seos
-- Välja *Arvutustüübi andmeallikas*
+- Tabelikirjete tüübi andmeallika *seos*
+- Kalkulatsioonivälja *tüübi andmeallikas*
 
-Argumendid `expression 1` ja `expression N` argumendid peavad osutama ER-andmeallika väljadele, mis täpsustavad rakenduse allika asjakohased väljad, millele saab luua ka otsese andmebaasipäringu.
+Need `expression 1` ja `expression N` argumendid peavad osutama ER-i andmeallika väljadele, mis määratlevad rakenduse allika asjakohased väljad, mille kohta saab teha ka otseandmebaasi päringu.
 
-Kui otsest andmebaasipäringut ei saa luua, ilmneb ER-mudelivastenduse kujundajas [valideerimistõrge](er-components-inspections.md#i18). Teile kuvatavas teates on kirjas, et ER-i avaldist, mis sisaldav funktsiooni `ORDERBY` ei saa käitusajal käivitada.
+Kui otsese andmebaasi päringut ei saa luua, ilmneb kinnitamistõrge [ER](er-components-inspections.md#i18)-mudeli vastendamise kujundajas. Teile kuvatavas teates on kirjas, et ER-i avaldist, mis sisaldav funktsiooni `ORDERBY` ei saa käitusajal käivitada.
 
-Parema jõudluse tagamiseks soovitame kasutada **suvandit Päring**, kui sortimine on konfigureeritud rakenduse andmeallikate jaoks, mis võivad sisaldada suurt hulka kirjeid (nt tehingurakendustabelite puhul).
+Paremaks jõudluseks soovitame kasutada valikut Päring, kui sortimine on konfigureeritud rakenduse andmeallikatele, **mis** võivad sisaldada suurt hulka kirjeid (nt kande rakenduse tabelite puhul).
 
 > [!NOTE]
-> Funktsiooni `ORDEBY` ennast ei saa otseandmebaasi päringusse tõlkida. Seetõttu pole seda funktsiooni sisaldav ER-andmeallikas küsitav. Seda ei saa kasutada ka ER-funktsioonide (nt [FILTER](er-functions-list-filter.md) ja [ALLITEMSQUERY](er-functions-list-allitemsquery.md)) ulatuses, kus saab kasutada ainult päringuid kasutatavaid andmeallikaid.
+> Funktsiooni `ORDEBY` ennast ei saa otseandmebaasi päringuks tõlkida. Seetõttu ei saa seda funktsiooni sisaldava ER-i andmeallikas teha päringuid. Samuti ei saa seda kasutada selliste ER-funktsioonide [ulatuses nagu FILTER](er-functions-list-filter.md)[ja ALLITEMSQUERY](er-functions-list-allitemsquery.md), kus saab kasutada ainult päringusse kuuluvaid andmeallikaid.
 
-Lisateavet leiate näitest [3](#example-3) ja [näitest 4](#example-4).
+Lisateavet vt näitest [3](#example-3) ja [näitest 4](#example-4).
 
 ### <a name="comparability"></a>Võrreldavus
 
-Kuna SQL-andmebaasimootor ja Finance'i rakendusserver saavad ühe märgi jaoks kasutada erinevat järjestusväärtust, võib sama kirjete loendi sortimistulemus erineda, kui [sortimiseks kasutatakse stringivälja](er-formula-supported-data-types-primitive.md#string). Lisateavet leiate näitest [5](#example-5).
+Kuna SQL-andmebaasi mootor ja finantside rakendusserver saavad üksiku märgi jaoks kasutada erinevat reitinguväärtust, [võib sama kirjeloendi sortimistulemus stringivälja](er-formula-supported-data-types-primitive.md#string) sortimisel erineda. Lisateavet vt näitest [5](#example-5).
 
-## <a name="example-1-in-memory-default-execution"></a><a name="example-1"></a> Näide 1: mälus vaikekäivitus
+## <a name="example-1-in-memory-default-execution"></a><a name="example-1"></a> Näide 1: mälu vaikekäivitamine
 
 Kui sisestate tüübi *Arvutatud väli* andmeallika **DS** ja see sisaldab avaldist `SPLIT ("C|B|A", "|")`, tagastab avaldis `FIRST( ORDERBY( DS, DS. Value)).Value` teksti väärtuse **„A”**.
 
-## <a name="example-2-in-memory-explicit-execution"></a><a name="example-2"></a> Näide 2: mälus selgesõnaline täitmine
+## <a name="example-2-in-memory-explicit-execution"></a><a name="example-2"></a> Näide 2: mälus selgesõnaline käivitamine
 
-Kui **hankija** on konfigureeritud tabelikirjete *tüübi* ER andmeallikana, mis viitab tabelile **VendTable**, tagastavad nii avaldis `ORDERBY (Vendor, Vendor.'name()')` kui ka avaldis `ORDERBY ("InMemory", Vendor, Vendor.'name()')` hankijate loendi, mis on järjestatud nime järgi tõusvas järjestuses.
+Kui **hankija** on konfigureeritud VendTable-tabelile *viitavate tabelikirjete tüübi ER-andmeallikana* **·**, `ORDERBY (Vendor, Vendor.'name()')``ORDERBY ("InMemory", Vendor, Vendor.'name()')` siis on nii avaldis kui ka avaldis tagastanud kasvavas järjestuses nime alusel sorditud hankijate loendi.
 
-Avaldise `ORDERBY ("Query", Vendor, Vendor.'name()')` konfigureerimisel ER-mudelivastenduse kujundajas ilmneb valideerimisviga [kujundusajal](er-components-inspections.md#i8), kuna `Vendor.'name()'` tee viitab rakendusmeetodile, millel on loogika, mida ei saa otseandmebaasi päringusse tõlkida.
+Kui konfigureerite avaldise `ORDERBY ("Query", Vendor, Vendor.'name()')` ER-mudeli vastendamise kujundajas, [ilmneb](er-components-inspections.md#i8) kinnitamise tõrge kujunduse ajal, sest tee viitab rakendusmeetodile, `Vendor.'name()'` mille loogikat ei saa otseandmebaasi päringusse tõlkida.
 
 ## <a name="example-3-database-query"></a><a name="example-3"></a> Näide 3: andmebaasi päring
 
-Kui **TaxTransaction** on konfigureeritud tabelikirjete *tüübi* ER andmeallikana, mis viitab tabelile **TaxTrans**, sordib avaldis `ORDERBY ("Query", TaxTransaction, TaxTransaction.TaxCode)` kirjed rakenduse andmebaasi tasemel ja tagastab maksukannete loendi, mis on järjestatud maksukoodi järgi tõusvas järjestuses.
+Kui **TaxTransaction** on konfigureeritud Tabelikirjete tüübi ER *andmeallikana*, mis viitab tabelile TaxTrans **, sordib avaldis kirjed rakenduse andmebaasi tasemel ja tagastab maksukannete loendi,** mis on sorditud maksukoodi järgi kasvavas `ORDERBY ("Query", TaxTransaction, TaxTransaction.TaxCode)` järjestuses.
 
-## <a name="example-4-queryable-data-sources"></a><a name="example-4"></a> Näide 4: küsitavad andmeallikad
+## <a name="example-4-queryable-data-sources"></a><a name="example-4"></a> Näide 4: päringute andmeallikad
 
-Kui **TaxTransaction** on konfigureeritud tabelikirjete *tüübi* ER andmeallikana, mis viitab tabelile **TaxTrans**, **saab taxTransactionFiltered** ER andmeallika konfigureerida nii, et see sisaldab avaldist`FILTER(TaxTransaction, TaxCode="VAT19")`, mis toob kannete määratud maksukoodi jaoks. Kuna konfigureeritud **TaxTransactionFiltered** ER andmeallikas on päringuga, avaldis`ORDERBY ("Query", TaxTransactionFiltered, TaxTransactionFiltered.TransDate)` saab konfigureerida tagastama filtreeritud maksutehingute loendi, mis on sorteeritud tehingukuupäeva järgi kasvavas järjekorras.
+**Kui TaxTransaction** on konfigureeritud *Tabelikirjete tüübi ER* **andmeallikana**, mis viitab tabelile TaxTrans **, saab TaxTransactionFiltered** ER-i andmeallika konfigureerida nii, et see sisaldab avaldist, `FILTER(TaxTransaction, TaxCode="VAT19")` mis toob kanded määratud maksukoodi jaoks. Kuna konfigureeritud **TaxTransactionFiltered** ER-i andmeallikas on päringutav, `ORDERBY ("Query", TaxTransactionFiltered, TaxTransactionFiltered.TransDate)` saab avaldist konfigureerida, et tagastada filtreeritud maksukannete loend, mis on sorditud kande kuupäeva alusel kasvavas järjestuses.
 
-Kui konfigureerite **TaxTransactionOrdered** ER andmeallikana *Arvutatud väli* tüüp, mis sisaldab väljendit`ORDERBY ("Query", TaxTransaction, TaxTransaction.TransDate)` ja ER andmeallikas *Arvutatud väli* tüüp, mis sisaldab väljendit`FILTER(TaxTransactionOrdered, TaxCode="VAT19")`, kinnitus [viga](er-components-inspections.md#i18) toimub projekteerimise ajal ER mudeli kaardistamise kujundajas. See viga ilmneb, kuna esimene argument [FILTER](er-functions-list-filter.md#usage-notes) funktsioon peab viitama päringutavale ER-i andmeallikale, kuid **TaxTransactionOrdered** andmeallikas, mis sisaldab`ORDERBY` funktsioon ei ole küsitav.
+Kui konfigureerite **TaxTransactionOrderedi** arvutatud väljatüübi *ER*`ORDERBY ("Query", TaxTransaction, TaxTransaction.TransDate)` andmeallikana, mis sisaldab avaldist ja avaldist sisaldava arvutatud väljatüübi *ER*`FILTER(TaxTransactionOrdered, TaxCode="VAT19")` andmeallikat, [ilmneb](er-components-inspections.md#i18) ER-mudeli vastendamise kujundajas kinnitamise tõrge. See tõrge ilmneb, sest FILTER-funktsiooni [esimene argument peab viitama päringule ER andmeallikale,](er-functions-list-filter.md#usage-notes) kuid funktsiooni sisaldav TaxTransactionOrdered **andmeallikas** `ORDERBY` pole päringut võimalik teha.
 
-## <a name="example-5-comparability"></a><a name="example-5"></a> Näide 5: Võrreldavus
+## <a name="example-5-comparability"></a><a name="example-5"></a> Näide 5: võrdlus
 
 ### <a name="prerequisites"></a>Eeltingimused
 
-1. Sisestage andmeallikas **DS1** selle *Arvutatud väli* tüüp, mis sisaldab väljendit `SPLIT ("D1|_D2|D3", "|")`.
-2. Ava **[Finantsdimensiooni väärtused](../../../finance/general-ledger/financial-dimensions.md)** leht ja valige **Kulukeskus** dimensioon.
-3. Sisestage järgmised dimensioonide väärtused: **D1**,**\_ D2**, ja **D3**.
+1. Sisestage avaldist sisaldava arvutatud **välja tüübi andmeallika** *DS1*.`SPLIT ("D1|_D2|D3", "|")`
+2. Avage leht **[Finantsdimensiooni väärtused](../../../finance/general-ledger/financial-dimensions.md)** ja valige **CostCenteri** dimensioon.
+3. Sisestage järgmised dimensiooniväärtused: **D1**, **\_ D2** ja **D3**.
 
-### <a name="sorting-in-memory"></a>Sortimine mälus
+### <a name="sorting-in-memory"></a>Mälus sortimine
 
-1. Andmeallika konfigureerimine **DS2** selle *Arvutatud väli* tüüp, mis sisaldab väljendit `ORDERBY("InMemory", DS1, DS1.Value)`.
-2. Pange tähele, et väljend`FIRST(DS2).Value` tagastab teksti väärtuse **"D1"**, väljend`INDEX(DS2, COUNT(DS2)).Value` tagastab teksti väärtuse **"\_ D2"**, ja väljend`STRINGJOIN(DS2, DS2.Value, "|")` tagastab teksti väärtuse **"D1\| D3\|\_ D2"**.
+1. Saate konfigureerida avaldist sisaldava arvutatud **väljatüübi** *andmeallika DS2*.`ORDERBY("InMemory", DS1, DS1.Value)`
+2. Pange tähele `FIRST(DS2).Value`**, et avaldis tagastab tekstiväärtuse D1**, `INDEX(DS2, COUNT(DS2)).Value`**avaldis tagastab tekstiväärtuse "\_ D2"**`STRINGJOIN(DS2, DS2.Value, "|")`**ja avaldis tagastab teksti väärtuse "D1\| D3\|\_ D2"**.
 
 ### <a name="sorting-in-database"></a>Sortimine andmebaasis
 
-1. Sisestage andmeallikas **DS3** selle *Tabelikirjed* tüüp, mis viitab **FinancialDimensionValueEntity** üksus.
-2. Andmeallika konfigureerimine **DS4** selle *Arvutatud väli* tüüp, mis sisaldab väljendit `FILTER(DS3, DS3.FinancialDimension="CostCenter")`.
-3. Andmeallika konfigureerimine **DS5** selle *Arvutatud väli* tüüp, mis sisaldab väljendit `ORDERBY(DS4, DS4.DimensionValue)`.
-4. Pange tähele, et väljend`FIRST(DS5).Value` tagastab teksti väärtuse **"\_ D2"**, väljend`INDEX(DS5, COUNT(DS5)).Value` tagastab teksti väärtuse **"D3"**, ja väljend`STRINGJOIN(DS5, DS5.Value, "|")` tagastab teksti väärtuse **"\_ D2\| D1\| D3"**.
+1. Sisestage tabelikirjete **tüübi andmeallika DS3** *·*, mis viitab üksusele **FinancialDimensionValueEntity.**
+2. Saate konfigureerida avaldist sisaldava arvutatud **väljatüübi** *andmeallika DS4*.`FILTER(DS3, DS3.FinancialDimension="CostCenter")`
+3. Saate konfigureerida **avaldist sisaldava arvutatud** väljatüübi *andmeallika* DS5`ORDERBY(DS4, DS4.DimensionValue)`.
+4. Pange tähele `FIRST(DS5).Value`**\_, et avaldis tagastab tekstiväärtuse D2**, `INDEX(DS5, COUNT(DS5)).Value`**avaldis tagastab tekstiväärtuse "D3"**`STRINGJOIN(DS5, DS5.Value, "|")`**ja avaldis tagastab teksti väärtuse "\_ D2\| D1\| D3".**
 
 ## <a name="additional-resources"></a>Lisaressursid
 

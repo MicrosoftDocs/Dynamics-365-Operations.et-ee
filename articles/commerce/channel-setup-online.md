@@ -1,6 +1,6 @@
 ---
 title: Võrgukanali häälestamine
-description: Selles teemas kirjeldatakse, kuidas luua rakenduses Microsoft Dynamics 365 Commerce uus veebikanal.
+description: See artikkel kirjeldab, kuidas luua uus võrgukanal Microsoft Dynamics 365 Commerce.
 author: samjarawan
 ms.date: 02/04/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: f32872fcc27e2e74300c4f18dfa08d666e4ad8a8
-ms.sourcegitcommit: fefe93f3f44d8aa0b7e6d54cc4a3e5eca6e64feb
+ms.openlocfilehash: fe137fe0c69a5b9613086c66366b064194b9b6c4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8092108"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864925"
 ---
 # <a name="set-up-an-online-channel"></a>Võrgukanali häälestamine
 
 [!include [banner](includes/banner.md)]
 
-Selles teemas kirjeldatakse, kuidas luua rakenduses Microsoft Dynamics 365 Commerce uus veebikanal.
+See artikkel kirjeldab, kuidas luua uus võrgukanal Microsoft Dynamics 365 Commerce.
 
 Dynamics 365 Commerce toetab mitut jaemüügikanalit. Jaemüügikanalid hõlmavad võrgupoode, kõnekeskusi ja jaekauplusi (neid nimetatakse ka füüsilisteks kauplusteks). Võrgupoed annavad kliendile võimaluse osta tooteid lisaks oma jaekauplustele ka jaemüüja veebipoest.
 
@@ -58,13 +58,13 @@ Järgmine pilt näitab võrgukanali näidet.
 
 ![Võrgukanali näide.](media/channel-setup-online-2.png)
 
-## <a name="assign-the-channel-to-a-commerce-scale-unit"></a>Kanali määramine kaubandusskaala üksusele
+## <a name="assign-the-channel-to-a-commerce-scale-unit"></a>Kanali määramine Commerce Scale Uniti jaoks
 
-Teie uus kanal tuleb määrata Commerce Scale Unitile. Juhised leiate teemast [Kanalite konfigureerimine Commerce Scale Uniti kasutamiseks](../fin-ops-core/dev-itpro/deployment/initialize-retail-channels.md#configure-channels-to-use-commerce-scale-unit).
+Teie uus kanal peab olema määratud Commerce Scale Uniti. Juhiseid vt kanalite [konfigureerimine Commerce Scale Uniti kasutamiseks](../fin-ops-core/dev-itpro/deployment/initialize-retail-channels.md#configure-channels-to-use-commerce-scale-unit).
 
 ## <a name="set-up-languages"></a>Keelte seadistamine
 
-Kui teie e-kaubanduse sait toetab mitut keelt, laiendage jaotist **Keeled** ja lisage vastavalt vajadusele täiendavaid keeli.
+Kui teie e-äri sait toetab mitut keelt, laiendage **jaotist Keeled** ja lisage vajaduse korral lisakeeli.
 
 ## <a name="set-up-payment-account"></a>Maksekonto seadistamine
 

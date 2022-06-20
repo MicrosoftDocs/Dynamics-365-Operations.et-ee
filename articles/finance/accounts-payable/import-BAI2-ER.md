@@ -1,6 +1,6 @@
 ---
 title: Täpsema panga vastavusseviimise importimise häälestus elektroonilise aruandluse abil
-description: See teema kirjeldab, kuidas kasutada elektroonilist aruandlust täiustatud panga vastavusseviimise impordiprotsessi häälestamiseks.
+description: See artikkel selgitab, kuidas kasutada elektroonilist aruandlust täpsema panga vastavusseviimise impordiprotsessi häälestamiseks.
 author: panolte
 ms.date: 03/30/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.25
-ms.openlocfilehash: 30530a9870ba2ff0546237d2698d1675afa78104
-ms.sourcegitcommit: 2b4ee1fe05792332904396b5f495d74f2a217250
+ms.openlocfilehash: 2ac8811a5c10490d90f782472d3c198474c7edc0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8770190"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889116"
 ---
 # <a name="set-up-advanced-bank-reconciliation-import-by-using-electronic-reporting"></a>Täpsema panga vastavusseviimise importimise häälestus elektroonilise aruandluse abil
 
 [!include [banner](../includes/banner.md)]
 
-Täpsem panga vastavusseviimise funktsioon võimaldab teil importida elektroonilisi pangaväljavõtteid ja viia need automaatselt vastavusse pangakannetega Microsoft Dynamics 365 finantsis. See teema kirjeldab, kuidas seadistada pangaväljavõttele impordifunktsioone. Pangaväljavõtte importimise seadistus erineb, olenevalt teie elektroonilise pangaväljavõtte vormingust. Microsoft Dynamics 365 Finantsid toetavad kolme pangaväljavõtte vormingut: ISO20022, MT940 ja BAI2. 
+Täpsem panga vastavusseviimise funktsioon võimaldab teil importida elektroonilisi pangaväljavõtteid ja viia need automaatselt vastavusse pangakannetega Microsoft Dynamics 365 finantsis. Selles artiklis selgitatakse, kuidas seadistada pangaväljavõtete impordifunktsiooni. Pangaväljavõtte importimise seadistus erineb, olenevalt teie elektroonilise pangaväljavõtte vormingust. Microsoft Dynamics 365 Finantsid toetavad kolme pangaväljavõtte vormingut: ISO20022, MT940 ja BAI2. 
 
 ## <a name="set-up-the-electronic-reporting-configuration"></a>Elektroonilise aruandluse konfiguratsiooni seadistamine
 

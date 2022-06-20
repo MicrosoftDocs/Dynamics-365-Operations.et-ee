@@ -1,6 +1,6 @@
 ---
 title: Varade soetamine hankega
-description: See teema kirjeldab, kuidas seadistada integratsiooni põhivarade ja ostureskontro vahel, et luua ostutellimustest või hankija arvetest automaatselt põhivarad, või sisestada automaatselt põhivarade soetamise- ja soetamiskorrigeeringu kanded.
+description: See artikkel kirjeldab, kuidas seadistada integratsiooni Põhivarade ja Ostureskontro vahel, et luua ostutellimustest või hankija arvetest automaatselt põhivarad, või sisestada automaatselt põhivarade soetamise- ja soetamiskorrigeeringu kanded.
 author: moaamer
 ms.date: 03/05/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b654dbf97f8d91e0a3233803ee182b1383ad317d
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: ac25114fe8036a474d637e9ad9ede5e46b50d92e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8712086"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891576"
 ---
 # <a name="acquire-assets-through-procurement"></a>Varade soetamine hankega
 
 [!include [banner](../includes/banner.md)]
 
-See teema kirjeldab, kuidas seadistada integratsiooni põhivarade ja ostureskontro vahel, et luua ostutellimustest või hankija arvetest automaatselt põhivarad, või sisestada automaatselt põhivarade soetamise- ja soetamiskorrigeeringu kanded. Üks osturida loob ühe vara, olenemata ostureal olevast kogusest. Kui peate looma mitu põhivara, peate looma mitu osturida.
+See artikkel kirjeldab, kuidas seadistada integratsiooni Põhivarade ja Ostureskontro vahel, et luua ostutellimustest või hankija arvetest automaatselt põhivarad, või sisestada automaatselt põhivarade soetamise- ja soetamiskorrigeeringu kanded. Üks osturida loob ühe vara, olenemata ostureal olevast kogusest. Kui peate looma mitu põhivara, peate looma mitu osturida.
 
  Põhivarade ja ostureskontro integreerimiseks on saadaval järgmised meetodid. Kõigi põhivarade puhul tuleb kasutada sama meetodit.
 -   Enne põhivara numbri lisamist ostutellimuse või hankija arve reale looge põhivara käsitsi. Hankija arve sisestamisel sisestatakse vara soetamiskanne automaatselt. See on vaikeviis.
@@ -38,7 +38,7 @@ Kui eelistate põhivarasid käsitsi luua, valige üks kahest esimesest meetodist
 
 Ükskõik, kas loote põhivarasid käsitsi või kasutate paindlikumat lähenemist, peate otsustama, kas soetamiskannet saab sisestada üksnes jaotises Põhivarad või seda saab sisestada, kui sisestate hankija arve. Mõned organisatsioonid eelistavad varianti, kus kasutajad loovad käsitsi soetamisi ja soetamiskandeid jaotises Põhivarad, sisestades töölehe kirjeid või soovitusi käsitsi. 
 
-Siin teemas käsitletakse iga meetodi üksikasju.
+See artikkel käsitleb iga meetodi üksikasju.
 
 ## <a name="methods-for-manually-creating-fixed-assets"></a> Põhivarade käsitsi loomise meetodid
 Kui lehel Põhivarade parameetrid on valitud suvand Luba vara soetamine ostmiselt ning sisestate hankija arve, mille ridadele on sisestatud põhivarakood, sisestatakse soetamine automaatselt ja vara olekuks saab Avatud. 

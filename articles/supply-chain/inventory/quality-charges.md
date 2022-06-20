@@ -1,6 +1,6 @@
 ---
 title: Tasud mittevastavusega toimingute eest
-description: See teema kirjeldab, kuidas luua kvaliteeditasusid, mida saab kasutada mittevastavuse toimingute puhul.
+description: See artikkel kirjeldab, kuidas luua kvaliteedikulusid, mida saab kasutada mittevastavuse operatsioonide puhul.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ac3306f3f9215ab03f408b8026f335dcf496515a
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 29520afca07adee49846d1be987685a1ece8283c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580956"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850724"
 ---
 # <a name="charges-for-nonconformance-operations"></a>Tasud mittevastavusega toimingute eest
 
 [!include [banner](../includes/banner.md)]
 
-See teema kirjeldab, kuidas luua kvaliteeditasusid, mida saab kasutada mittevastavuse toimingute puhul.
+See artikkel kirjeldab, kuidas luua kvaliteedikulusid, mida saab kasutada mittevastavuse operatsioonide puhul.
 
 Kasutage lehte **Kvaliteedikulud**, et määratleda tasude klassifikatsioon, mida kasutatakse mittevastavustega seotud toimingutes. Tasud võimaldavad teil jälgida üksikasju tasude kohta, mida võlgnete kliendile nõuetele mittevastavate toodete eest või mida hankija võlgneb teile mittevastavate toodete eest. Võite kasutada ka tasusid kulude jälgimiseks, mis on vajalikud välistele hankijatele või teenustele toimingu sooritamiseks.
 

@@ -1,6 +1,6 @@
 ---
-title: Tagasimaksehalduse tehingud
-description: Selles teemas kirjeldatakse, kuidas luua tagasimaksehalduse tehinguid. Tehinguid kasutatakse tagasimaksete ja autoritasude arvutamise erinevate meetodite ja aluste kontrollimiseks. Need sisaldavad reegleid kaasamiseks ja väljajätmiseks.
+title: Tagasimakse halduse tehingud
+description: See artikkel kirjeldab, kuidas tagasimaksehalduse tehinguid luua. Tehinguid kasutatakse tagasimaksete ja autoritasude arvutamise erinevate meetodite ja aluste kontrollimiseks. Need sisaldavad reegleid kaasamiseks ja väljajätmiseks.
 author: sherry-zheng
 ms.date: 02/19/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 76cdbf21cfbc0db7b363d0fbf60a1ecd0046efc1
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 28cfff69ab4e528c146ccbf6a34548a819c99522
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689659"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851590"
 ---
 # <a name="rebate-management-deals"></a>Tagasimaksehalduse tehingud
 
 [!include [banner](../includes/banner.md)]
 
-Tagasimakse tehinguid kasutatakse tagasimaksete ja autoritasude arvutamise erinevate meetodite ja aluste kontrollimiseks. Need sisaldavad reegleid kaasamiseks ja väljajätmiseks. Tagasimaksete haldust on kolme tüüpi: kliendi tagasimaksed, kliendi autoritasud ja hankija tagasimaksed. Kõigi kolme tüübi puhul kasutatakse sarnaseid sätteid. See teema toob välja nende erinevused.
+Tagasimakse tehinguid kasutatakse tagasimaksete ja autoritasude arvutamise erinevate meetodite ja aluste kontrollimiseks. Need sisaldavad reegleid kaasamiseks ja väljajätmiseks. Tagasimaksete haldust on kolme tüüpi: kliendi tagasimaksed, kliendi autoritasud ja hankija tagasimaksed. Kõigi kolme tüübi puhul kasutatakse sarnaseid sätteid. See artikkel viitab erinevustele, kus need on olemas.
 
 ## <a name="create-a-deal"></a>Tehingu loomine
 
@@ -118,7 +118,7 @@ Kiirkaardi **Tagasimaksehalduse üksikasjad** vahekaart **Üldine** võimaldab s
 
 | Field | Kirjeldus |
 |---|---|
-| Arvutamismeetod | Valige meetod, mida kasutada, kui valitud tehingu rida on ühendatud teiste tehingu ridadega (*Etapiline*, *Kumulatiivne*, *Ümardatud* või *Kokku*). Selle välja väärtus võib dramaatiliselt mõjutada tagasimaksete arvutuste tulemusi. Iga meetodi täieliku kirjelduse ja näidete kohta, mis näitavad, kuidas see tagasimakse kalkulatsiooni mõjutab, vaadake selles teemas allpool [tehingu ridade kalkulatsiooni meetodid](#calc-methods). |
+| Arvutamismeetod | Valige meetod, mida kasutada, kui valitud tehingu rida on ühendatud teiste tehingu ridadega (*Etapiline*, *Kumulatiivne*, *Ümardatud* või *Kokku*). Selle välja väärtus võib dramaatiliselt mõjutada tagasimaksete arvutuste tulemusi. Iga meetodi täieliku kirjelduse ja näidete kohta, mis näitavad, kuidas see tagasimakse kalkulatsiooni mõjutab, [vaadake](#calc-methods) selles artiklis allpool hinnaalanduste ridade arvutamise meetodeid. |
 | Alus | Valige, kas tagasimakset rakendatakse koguse (st ostetud või müüdud ühikute koguarvu) või väärtuse (st ostetud või müüdud kaupade koguhinna) alusel. |
 | Kande tüüp | <p>Valige kalkulatsiooni toimumisprotsess.</p><ul><li>*Tellimus* – kasutage kalkulatsiooni alusena tellitud kogust või väärtust.</li><li>*Edastatud* – kasutage kalkulatsiooni alusena edastatud kogust või väärtust.</li><li>*Arve* – kasutage kalkulatsiooni alusena arvega edastatud kogust või väärtust.</li></ul> |
 | Ühik | Kui valisite väljal *Alus* **Koguse**, valige ühik, mille jaoks kogus tuleb määrata. |

@@ -1,6 +1,6 @@
 ---
 title: ER-i funktsioon DATETIMEVALUE
-description: See teema sisaldab teavet selle kohta, kuidas kasutatakse elektroonilise aruandluse (ER) funktsiooni DATETIMEVALUE.
+description: See artikkel annab teavet selle kohta, kuidas kasutatakse funktsiooni DATETIMEVALUE Electronic Reporting (ER).
 author: NickSelin
 ms.date: 09/08/2021
 ms.prod: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7a9da0b9461926b1033d6a97b37d4b43a86d8dad
-ms.sourcegitcommit: e7eeca05d738e9e46d6185d1ba349836ebafc1a4
+ms.openlocfilehash: 7e3af6a279163183546255908730ba32d790a22b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "7485518"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870431"
 ---
 # <a name="datetimevalue-er-function"></a>ER-i funktsioon DATETIMEVALUE
 

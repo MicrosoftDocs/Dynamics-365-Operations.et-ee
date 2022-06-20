@@ -1,6 +1,6 @@
 ---
 title: Tulu tükeldamise mallid kordustellimuse arvelduses
-description: See teema kirjeldab, kuidas seadistada tulu tükeldatud malle kaupadele, mida müüakse kogumina.
+description: See artikkel selgitab, kuidas seadistada tulu tükeldatud malle kaupadele, mida müüakse kogumina.
 author: JodiChristiansen
 ms.date: 04/21/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 73dbc2242639a54d687506e7c325fec4b9a95d12
-ms.sourcegitcommit: 2b4ee1fe05792332904396b5f495d74f2a217250
+ms.openlocfilehash: 145ca6e6f0673a5a09fe9a23cf5e163421617fd9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8770150"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904755"
 ---
 # <a name="revenue-split-templates-in-subscription-billing"></a>Tulu tükeldamise mallid kordustellimuse arvelduses
 

@@ -1,6 +1,6 @@
 ---
 title: Töökaardi seadmes lõpetamisest teatamine
-description: Selles teemas kirjeldatakse, kuidas konfigureerida süsteemi nii, et töökaardi seadme kasutajad saavad kanda lõpetatud tooted tootmistellimusest üle varudesse.
+description: See artikkel kirjeldab süsteemi konfigureerimisjärjestust, nii et töökaardiseadme kasutajad saavad tootmistellimuse lõpetatud toodetest teatada.
 author: johanhoffmann
 ms.date: 07/31/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 67fa97c938f091c23a41ddd5aaf34a32c5a13c93
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 3d1a45ad00e59581f27f2e822ccb47430219c501
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102806"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857369"
 ---
 # <a name="report-as-finished-from-the-job-card-device"></a>Töökaardi seadmes lõpetamisest teatamine
 
 [!include [banner](../includes/banner.md)]
 
-Töötajad kasutavad tootmistöö lõpetatud kogustest teatamiseks töökaardi seadme lehte **Edenemisest teatamine**. See teema kirjeldab, kuidas seadistada erinevaid valikuid, mis määravad, kuidas töötajad saavad selle lehe abil lõppu kinnitada ja mis järgmisena juhtub. Valikud on järgmised.
+Töötajad kasutavad tootmistöö lõpetatud kogustest teatamiseks töökaardi seadme lehte **Edenemisest teatamine**. See artikkel kirjeldab, kuidas seadistada erinevaid valikuid, mis määravad, kuidas töötajad saavad selle lehe abil lõpetatuna teatada ja mis edasi toimub. Valikud on järgmised.
 
 - Lõpetatuna teatatud toodete varudesse lisamise kindluse ja viisi kontroll.
 - Kontrollige, kas ja kuidas partiinumbreid luuakse ja rakendatakse lõpetatuna kinnitamisel.

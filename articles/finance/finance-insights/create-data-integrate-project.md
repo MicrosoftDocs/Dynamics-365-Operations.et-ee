@@ -1,6 +1,6 @@
 ---
 title: Andmete integreerimisprojekti loomine
-description: See teema kirjeldab, kuidas luua andmete integreerimisprojekti.
+description: See artikkel selgitab, kuidas luua andmete integreerimisprojekti.
 author: ShivamPandey-msft
 ms.date: 05/06/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 4d69ffcb6ccfcc7bae2891f2539941f7b6bbf86e
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 4ff4f88c6c5d55d853aebd7d437bfb107292fb2f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722879"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876236"
 ---
 # <a name="create-a-data-integration-project"></a>Andmete integreerimisprojekti loomine
 
 [!include [banner](../includes/banner.md)]
 
-See teema kirjeldab, kuidas luua andmete integreerimisprojekti.
+See artikkel selgitab, kuidas luua andmete integreerimisprojekti.
 
 1. Microsoft Dynamics 365 Finantsid: sisselogimine.
 2. Minge jaotisse **Tööruumid \> Andmehaldus** ja valige suvand **Andmeüksused**. Oodake, kuni kõik andmeüksused on värskendatud, enne kui liigute järgmisele etapile.
@@ -67,6 +67,6 @@ See teema kirjeldab, kuidas luua andmete integreerimisprojekti.
     2. Määrake igale projektile sobiv ajastamine.
 
 > [!NOTE]
-> Kui te Dataverse ei näe nõutavaid üksusi, **minge parameetrid Kreedit ja collectionsSetupFinance** > **·** > **InsightsFinance** > **vihjete** parameetrid, lubage funktsioon, **kliendimakse** prognoosid ja seejärel valige suvand **Loo ennustuse mudel.** Kui AI-mudeli juurutamine on lõpetatud, Dataverse juurutatakse integratsiooni loomiseks vajalikud üksused.
+> Kui te ei Dataverse näe nõutavaid üksusi, **minge kreediti ja sissenõuete häälestusprogrammi** > **·** > **·** > **Finance Insights** Finance vihjete parameetrid, lubage funktsioon, **kliendimakse** prognoosid ja seejärel valige suvand Loo **prognoosimudel.** Kui AI-mudeli juurutamine on lõpetatud, Dataverse juurutatakse integratsiooni loomiseks vajalikud üksused.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

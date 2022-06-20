@@ -1,6 +1,6 @@
 ---
 title: Harjutushalduri Power BI sisu
-description: See teema kirjeldab, mida hõlmab harjutushalduri Power BI sisu.
+description: See artikkel kirjeldab, mis sisaldub harjutushalduri sisus Power BI.
 author: kfend
 ms.date: 12/18/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 4acef3c595f25fa0be16945a9f41611832cfcea9
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: 31ca2841983d972194b55d91a6789fd84d62d890
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500217"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898983"
 ---
 # <a name="practice-manager-power-bi-content"></a>Harjutushalduri Power BI sisu
 
 [!include [banner](../includes/banner.md)]
 
-See teema kirjeldab, mida hõlmab **Harjutushalduri** Microsoft Power BI sisu. See selgitab ka seda, kuidas pääseda juurde Power BI aruannetele, ning annab teavet andmemudeli ja üksuste kohta, mida kasutatakse sisu loomiseks.
+See artikkel kirjeldab, mis sisaldub harjutushalduri **sisus** Microsoft Power BI. See selgitab ka seda, kuidas pääseda juurde Power BI aruannetele, ning annab teavet andmemudeli ja üksuste kohta, mida kasutatakse sisu loomiseks.
 
 ## <a name="overview"></a>Ülevaade
 

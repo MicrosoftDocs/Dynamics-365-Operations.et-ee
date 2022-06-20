@@ -1,6 +1,6 @@
 ---
 title: Eelarve planeerimise mallid Exceli jaoks
-description: See teema kirjeldab, kuidas luua Microsoft Exceli malle, mida saab kasutada eelarveplaanidega.
+description: See artikkel kirjeldab, kuidas luua Microsoft Excel malle, mida saab kasutada eelarveplaanidega.
 author: panolte
 ms.date: 01/12/2018
 ms.topic: article
@@ -15,24 +15,24 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 90691aec0ffad8d33a19a09e7bc521cd6d6a09a9
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 6bc190a48d0212e24c5bd72255ed6b6b3caf942c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711972"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872495"
 ---
 # <a name="budget-planning-templates-for-excel"></a>Eelarve planeerimise mallid Exceli jaoks
 
 [!include [banner](../includes/banner.md)]
 
-See teema kirjeldab, kuidas luua Microsoft Exceli malle, mida saab kasutada eelarveplaanidega.
+See artikkel kirjeldab, kuidas luua Microsoft Excel malle, mida saab kasutada eelarveplaanidega.
 
-Teema näitab, kuidas luua Exceli malle, mida kasutatakse eelarveplaanidega, kasutades standardset demoandmekogumit ja administraatori identimisteavet. Lisateavet eelarve plaanimise kohta vt teemast [Eelarve plaanimise ülevaade](budget-planning-overview-configuration.md). Võite järgida ka [eelarve plaanimise](budget-plan.md) õpetust, et õppida mooduli konfiguratsiooni ja kasutamise põhimõtteid.
+See artikkel näitab, kuidas luua Exceli malle, mida kasutatakse eelarveplaanidega, kasutades standardset demo andmekomplekti ja Administraatori kasutaja sisselogimist. Lisateavet eelarve plaanimise kohta vt teemast [Eelarve plaanimise ülevaade](budget-planning-overview-configuration.md). Võite järgida ka [eelarve plaanimise](budget-plan.md) õpetust, et õppida mooduli konfiguratsiooni ja kasutamise põhimõtteid.
 
 ## <a name="generate-a-worksheet-using-budget-plan-document-layout"></a>Töölehe loomine eelarveplaani dokumendi paigutusega
 
-Eelarveplaani dokumente saab vaadata ja redigeerida üht või mitut paigutust kasutades. Igal paigutusel võib olla seostatud eelarveplaani dokumendimall, et saaksite eelarveplaani andmeid vaadata ja redigeerida Exceli töölehel. Selles teemas luuakse eelarveplaani dokumendimall olemasolevat paigutuse konfiguratsiooni kasutades. 
+Eelarveplaani dokumente saab vaadata ja redigeerida üht või mitut paigutust kasutades. Igal paigutusel võib olla seostatud eelarveplaani dokumendimall, et saaksite eelarveplaani andmeid vaadata ja redigeerida Exceli töölehel. Selles artiklis luuakse olemasoleva paigutuse konfiguratsiooni abil eelarveplaani dokumendimall. 
 
 1. Avage **Eelarveplaanide loend** (**Eelarvestus** &gt; **Eelarveplaanid**). 
 2. Klõpsake uue eelarveplaani dokumendi loomiseks valikut **Uus**. 

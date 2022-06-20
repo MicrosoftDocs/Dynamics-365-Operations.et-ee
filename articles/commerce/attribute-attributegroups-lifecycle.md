@@ -1,6 +1,6 @@
 ---
 title: Atribuutide ja atribuudigruppide haldamine
-description: Selles teemas kirjeldatakse, kuidas kasutada atribuute, et võimaldada kasutaja määratletud väljade kaudu toote ja selle omaduste kirjeldamist.
+description: See artikkel kirjeldab, kuidas kasutada atribuute, et pakkuda viisi toote ja selle omaduste kirjeldamiseks kasutaja määratletud väljade kaudu.
 author: ashishmsft
 ms.date: 04/28/2018
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
-ms.openlocfilehash: b3960f0877bdf68dd2f511ad283961b2a92db6a60078e84be55f071a00eae927
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cd74cb7795366bdca80e47d79a9591af69a16daf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727650"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876660"
 ---
 # <a name="manage-attributes-and-attribute-groups"></a>Atribuutide ja atribuudigruppide haldamine
 
@@ -85,7 +85,7 @@ Atribuudid põhinevad *atribuuditüüpidel*. Atribuudi tüüp tuvastab andmete t
 
 *Atribuudi metaandmed* võimaldavad teil valida suvandid, mis määravad, kuidas iga toote atribuudid peaksid toimima. Näiteks saate määrata, kas atribuudid on vajalikud, kas neid saab kasutada otsinguteks ja kas neid kasutada filtrina.
 
-Toodete korral saab atribuudi metaandmete sätteid allutada kanali tasemel. Seda võimalust käsitletakse selles teemas allpool.
+Toodete korral saab atribuudi metaandmete sätteid allutada kanali tasemel. Seda võimalust atatakse selles artiklis hiljem.
 
 Võite märgata, et leht **Atribuudid** sisaldab suvandeid, mis on seotud atribuudi metaandmetega. Jaotises **POSi atribuudi metaandmed** mõjutab üks suvand nimega **Saab täpsustada** atribuudiväärtuste käitumist kassas või viisi, kuidas süsteem neid atribuudiväärtusi töötleb. Ainult atribuudid, mille jaoks saab suvandi **Saab täpsustada** määrata väärtusele **Jah**, kuvatakse kassas toodete täiustamise või filtreerimise jaoks.
 

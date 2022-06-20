@@ -1,6 +1,6 @@
 ---
 title: Salvestatud vaated
-description: Selles teemas kirjeldatakse, kuidas kasutada salvestatud vaadete funktsioone.
+description: See artikkel kirjeldab, kuidas kasutada salvestatud vaate funktsioone.
 author: jasongre
 ms.date: 04/25/2022
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: e10137ff5d11ed06c32613e601e2fa7423e270ac
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 1218497bbb112c9a9ebeaa4cabdcb9314c604a7f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8644783"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845409"
 ---
 # <a name="saved-views"></a>Salvestatud vaated
 
@@ -196,7 +196,7 @@ Lehe kõikide avaldatud vaadete loendi jaoks on olemas järgmised tegevused.
 
 ## <a name="managing-views-globally"></a>Vaadete globaalne haldamine
 
-Kuigi vastavalt käesolevas teemas mainitule esitatakse mõned haldusvõimalused igal lehel, siis saavad **süsteemi administraatorid** ja **salvestatud süsteemi administraatorid** hallata vaateid ka terviklikumalt lehel **Isikupärastamine**. Lehel on eelkõige järgmised jaotised ja võimalused. 
+Kuigi mõned halduse võimalused on igal leheküljel pinnaks, nagu selles **artiklis** **märgitud,** saavad süsteemi administraatorid ja salvestatud vaate administraatorid isikupärastamise lehe kaudu hallata süsteemi vaateid holistiliselt.**·** Lehel on eelkõige järgmised jaotised ja võimalused. 
 
 - **Avaldatud vaated** – jaotises on loetletud kõik teie organisatsiooni jaoks avaldatud vaated. Siin saate pärast sihtkohti kuvavate turberollide või juriidiliste isikute muutmist vaate uuesti avaldada. Saate neid vaateid ka eksportida, kustutada või avaldamise tühistada. Saate vaatest isikliku koopia loomiseks kasutada tegevust **Salvesta isiklikuna**, et saaksite vaadet uuendada või saada selle sisust parema ülevaate. 
 - **Avaldamata vaated** — selles jaotises loetletakse kõik teie süsteemi organisatsiooni vaated, mis pole praegu avaldatud. Need vaated tulevad enamasti süsteemi läbi impordi valiku. Saate neid vaateid avaldada, eksportida või kustutada. Versioonis 10.0.12 lisatud tegevus **Kiiravaldamine** võimaldab avaldada ühe tegevuse raames mitu antud jaotise vaadet, kasutades olemasolevaid turberolli ja juriidilise isiku konfiguratsioone. Saate nendest vaadetest isiklike koopiate loomiseks kasutada tegevust **Salvesta isiklikuna**, et saaksite nende sisust parema ülevaate.

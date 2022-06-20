@@ -1,6 +1,6 @@
 ---
-title: Ülesandeloendite loomine ja ülesannete lisamine
-description: Selles teemas kirjeldatakse, kuidas rakenduses Microsoft Dynamics 365 Commerce luua ülesandeloendeid ja lisada neile ülesandeid.
+title: Tööülesannete loendite loomine ja ülesannete lisamine
+description: See artikkel kirjeldab, kuidas luua ülesannete loendeid ja lisada neile ülesandeid Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 ms.date: 02/10/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 2e6bd69435ee8fe58dbbf66eb0c5eee3d2ec09ee1998ef0218cdef643522c5bf
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a299be239d911e4605ed26625a313c93bd3020b8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6756521"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881627"
 ---
 # <a name="create-task-lists-and-add-tasks"></a>Tööülesannete loendite loomine ja ülesannete lisamine
 
 [!include [banner](includes/banner.md)]
 
-Selles teemas kirjeldatakse, kuidas rakenduses Microsoft Dynamics 365 Commerce luua ülesandeloendeid ja lisada neile ülesandeid.
+See artikkel kirjeldab, kuidas luua ülesannete loendeid ja lisada neile ülesandeid Microsoft Dynamics 365 Commerce.
 
 *Ülesanne* määratleb kindla töö või tegevuse, mille keegi peab täitma määratud tähtajal või enne seda. Rakenduses Dynamics 365 Commerce võib ülesanne sisaldada üksikasjalikke juhiseid ja teavet kontaktisiku kohta. See võib sisaldada ka linke kontori toimingutele kassatoimingutele või saidi lehtedele, et aidata parandada produktiivsust ja pakkuda konteksti, mida ülesande omanik ülesande tõhusaks täitmiseks vajab.
 

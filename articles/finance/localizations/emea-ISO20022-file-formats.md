@@ -1,6 +1,6 @@
 ---
 title: ISO20022-failide importimine
-description: Selles teemas selgitatakse ISO 20022 camt.054- ja pain.002-vormingus maksefailide importimist rakendusse Microsoft Dynamics 365 Finance.
+description: See artikkel selgitab, kuidas importida ISO 20022 iso 20022 vormingute ja pain.002 Microsoft Dynamics vormingute maksefaile 365 Finantsidesse.
 author: anasyash
 ms.date: 07/27/2017
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: anasyash
 ms.search.validFrom: 2017-06-01
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 19b9e90ac42c496931c2fc936a25ee3b1b16ce58
-ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
+ms.openlocfilehash: ee16224884cce7d24f0afb9c07e6547b9b08068f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7592601"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903028"
 ---
 # <a name="import-iso20022-files"></a>ISO20022-failide importimine
 

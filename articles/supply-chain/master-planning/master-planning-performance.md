@@ -1,7 +1,7 @@
 ---
 title: Koondplaneerimise jõudluse parandamine
-description: Selles teemas kirjeldatakse mitmesuguseid võimalusi, mis võivad aidata parandada koondplaneerimise või probleemide tõrkeotsingu jõudlust.
-author: ChristianRytt
+description: See artikkel selgitab erinevaid valikuid, mis aitavad teil parandada koondplaneerimise või tõrkeotsingu probleeme.
+author: t-benebo
 ms.date: 12/18/2019
 ms.topic: article
 ms.prod: ''
@@ -16,20 +16,20 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: fcbc732fce4120268acd774cc4d42193ba95787d
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: b2c4b7e2197d312d22f9851121a9e6d4d4d03ba3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570917"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897599"
 ---
 # <a name="improve-master-planning-performance"></a>Koondplaneerimise jõudluse parandamine
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas kirjeldatakse mitmesuguseid võimalusi, mis võivad aidata parandada koondplaneerimise või probleemide tõrkeotsingu jõudlust. See sisaldab teavet nii parameetrite ja sätete kohta kui ka soovituslikke konfiguratsioone ja tegevusi. Kaasatud on ka kokkuvõte kõikidest olulistest parameetritest, mida peaksite kaaluma pikaajaliste koondplaneerimise tööde korral.
+See artikkel selgitab erinevaid valikuid, mis aitavad teil parandada koondplaneerimise või tõrkeotsingu probleeme. See sisaldab teavet nii parameetrite ja sätete kohta kui ka soovituslikke konfiguratsioone ja tegevusi. Kaasatud on ka kokkuvõte kõikidest olulistest parameetritest, mida peaksite kaaluma pikaajaliste koondplaneerimise tööde korral.
 
-See teema on mõeldud süsteemiadministraatoritele või IT-kasutajatele, kes saavad teha tõrkeotsingut. See on mõeldud ka tootmise või tarnimise plaanijatele, kuna see sisaldab teavet parameetrite kohta, mis on seotud ettevõtte plaanimise nõuetega. 
+See artikkel on mõeldud süsteemi administraatoritele või IT-kasutajatele, kellel on võimalus tõrkeotsinguks. See on mõeldud ka tootmise või tarnimise plaanijatele, kuna see sisaldab teavet parameetrite kohta, mis on seotud ettevõtte plaanimise nõuetega. 
 
 ## <a name="parameters-related-to-master-planning-performance"></a>Koondplaneerimise jõudlusega seotud parameetrid
 
@@ -151,9 +151,9 @@ Enne laovarude etapi käivitamist on laovarude eelne etapp, mille ajal töödeld
 ## <a name="performance-checklist-summary"></a>Jõudluse kontroll-loendi kokkuvõte
 
 - **Lõimede arv** – määrake väärtus, mis on suurem kui **0** (null).
-- **Ülesannete arv abilise ülesannete kogumis** – määrake väärtus, mis on suurem kui **0** (null). (Kasutage selles teemas eespool toodud valemeid.)
+- **Ülesannete arv abilise ülesannete kogumis** – määrake väärtus, mis on suurem kui **0** (null). (Kasutage selles artiklis varem antud valemeid.)
 - **Vahemälu kasutamine** – seadke väärtusele **Maksimum**, v.a siis, kui süsteemis on vähe vaba mäluruumi.
-- **Kinnituskogumi tellimuste arv** – määrake väärtus, mis on suurem kui **0** (null). (Kasutage selles teemas eespool toodud valemit.)
+- **Kinnituskogumi tellimuste arv** – määrake väärtus, mis on suurem kui **0** (null). (Kasutage selles artiklis varem antud valemit.)
 - **Ajapiirid** – kohandage oma ärivajaduste järgi.
 - **Tegevused ja tulevased** – keelake tegevused ja tulevased, kui te neid ei kasuta.
 - **Üks mahukas töö korraga** – ärge käitage koondplaneerimist koos teiste mahukate töödega.

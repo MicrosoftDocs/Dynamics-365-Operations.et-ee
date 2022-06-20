@@ -1,6 +1,6 @@
 ---
 title: Valemikoostaja
-description: Selles teemas kirjeldatakse, kuidas kasutada valemikoostajad valemite analüüsimiseks ja haldamiseks puuvaates.
+description: See artikkel selgitab, kuidas kasutada valemikujundajat puuvaate valemite analüüsimiseks ja säilitamiseks.
 author: johanhoffmann
 ms.date: 06/01/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: ''
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf45fdf44e6d060ee16edf1a6628c5ffd9920dcb
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 247f41b43030d392df67275e6e7db1bea5df1847
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566830"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849267"
 ---
 # <a name="formula-designer"></a>Valemikoostaja
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas kirjeldatakse, kuidas kasutada valemikoostajad valemite analüüsimiseks ja haldamiseks puuvaates.
+See artikkel selgitab, kuidas kasutada valemikujundajat puuvaate valemite analüüsimiseks ja säilitamiseks.
 
 Kui avate lehe **Valemikoostaja** lehelt **Väljastatud tooted**, on vasakul paanil oleval puul näha väljastatud toote kaastoodete loend ja koostisosade hierarhia. Struktuur tuletatakse valitud kauba ja selle koostisosade, kauba tellimise vaikelaoala ja tegeliku kuupäeva puhul aktiivsete ning kinnitatud valemite hierarhiast.
 

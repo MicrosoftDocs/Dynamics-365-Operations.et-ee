@@ -1,6 +1,6 @@
 ---
 title: Ühe kande KKK
-description: Teemas on toodud vastused korduma kippuvatele küsimustele ühe kande funktsionaalsuse kohta. Ühe kandega finantstöölehtede jaoks (üldine tööleht, põhivara tööleht, hankija maksete tööleht jne) saate sisestada mitu alampearaamatu kannet ühes kandes.
+description: See artikkel vastab korduma kippuvatele küsimustele ühe kande funktsiooni kohta. Ühe kandega finantstöölehtede jaoks (üldine tööleht, põhivara tööleht, hankija maksete tööleht jne) saate sisestada mitu alampearaamatu kannet ühes kandes.
 author: kweekley
 ms.date: 11/05/2018
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: beab87ad569a6009fb4a42fd19681b64dcb0bb1e
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: e7eedfd4b2914000e8fd85d977b071f44545a058
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8723102"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859791"
 ---
 # <a name="one-voucher-faq"></a>Ühe kande KKK
 
 [!include [banner](../includes/banner.md)]
 
-Teemas on toodud vastused korduma kippuvatele küsimustele ühe kande funktsionaalsuse kohta. Üks finantstöölehtede kanne võimaldab teil ühe kande kontekstis sisestada mitu alammooduli kannet. Töölehed, mida saate kandesse kaasata, võivad muuhulgas olla pearaamatud, põhivara töölehed ja hankija makse töölehed.
+See artikkel vastab korduma kippuvatele küsimustele ühe kande funktsiooni kohta. Üks finantstöölehtede kanne võimaldab teil ühe kande kontekstis sisestada mitu alammooduli kannet. Töölehed, mida saate kandesse kaasata, võivad muuhulgas olla pearaamatud, põhivara töölehed ja hankija makse töölehed.
 
 ## <a name="when-will-the-one-voucher-functionality-be-deprecated"></a>Millal ühe kande funktsioon iganeb?
 

@@ -1,6 +1,6 @@
 ---
-title: Valige teenindustase.
-description: Selles teemas selgitatakse vara teenindustasemeid varahalduses.
+title: Vara teenustasemed
+description: See artikkel selgitab varahalduses vara teenusetasemeid.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5e4f7daa10931ce406a5d2bdbbc1dced067e3de5065cdb61cce369d617709d67
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1f7429b30253f540925e67ff9239667a0a404f26
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723595"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908681"
 ---
-# <a name="asset-service-levels"></a>Valige teenindustase.
+# <a name="asset-service-levels"></a>Vara teenustasemed
 
 [!include [banner](../../includes/banner.md)]
 
  
 
-Selles teemas selgitatakse vara teenindustasemeid varahalduses. Vara teenindustasemed on seotud varadega ja need kantakse üle hooldustaotlustele ja töökäskudele. Neid kasutatakse töökäskude prioriteedi arvutamiseks töökäsu planeerimisel. Vara teenindustasemeid saab vajaduse korral muuta.
+See artikkel selgitab varahalduses vara teenusetasemeid. Vara teenindustasemed on seotud varadega ja need kantakse üle hooldustaotlustele ja töökäskudele. Neid kasutatakse töökäskude prioriteedi arvutamiseks töökäsu planeerimisel. Vara teenindustasemeid saab vajaduse korral muuta.
 
 Lisateabe saamiseks häälestuse kohta, mis on seotud töötellimuse planeerimisel reitingusummade arvutamisega, vt teemat [Varahalduse parameetrid](../setup-for-objects/enterprise-asset-management-parameters.md). Peate seadistama vähemalt ühe vaikekirje vara teenindustaseme jaoks. Seda vaikekirjet kasutatakse juhul, kui töökäsu planeerimisel ei leita muud vastet.
 

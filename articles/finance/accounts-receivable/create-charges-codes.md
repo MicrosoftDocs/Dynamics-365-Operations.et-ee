@@ -1,6 +1,6 @@
 ---
-title: Kulude koodide loomine
-description: See teema kirjeldab, kuidas konfigureerida kulude koode nii ostureskontro kui ka müügireskontro jaoks.
+title: Kulukoodide loomine
+description: See artikkel selgitab, kuidas konfigureerida kulude koode nii ostureskontro kui ka müügireskontro jaoks.
 author: rachel-profitt
 ms.date: 12/03/2021
 ms.topic: article
@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-01-03
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e8526fa0f3c6e3d1b545703f6e6ef72f558b57bd
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: d65952cb989672e4eac2dd6101ee9c7c9424daed
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735023"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8866079"
 ---
-# <a name="create-charges-codes"></a>Kulude koodide loomine
+# <a name="create-charges-codes"></a>Kulukoodide loomine
 
-See teema kirjeldab, kuidas konfigureerida kulude koode nii ostureskontro kui ka müügireskontro jaoks. Kui teie organisatsioon nõuab, et lisaks müügitellimuse või ostutellimuse rea kaupadele jälgitakse müügisummasid või ostusummasid, saate selleks kasutada kulude koode. Näiteks maksate veose ja kindlustuse ostutellimusel ning need summad esitatakse ostutellimusel eraldi. Sel juhul saate määrata, kas summad sisestatakse kulukontodele või lisatakse kaupade kuludele.
+See artikkel selgitab, kuidas konfigureerida kulude koode nii ostureskontro kui ka müügireskontro jaoks. Kui teie organisatsioon nõuab, et lisaks müügitellimuse või ostutellimuse rea kaupadele jälgitakse müügisummasid või ostusummasid, saate selleks kasutada kulude koode. Näiteks maksate veose ja kindlustuse ostutellimusel ning need summad esitatakse ostutellimusel eraldi. Sel juhul saate määrata, kas summad sisestatakse kulukontodele või lisatakse kaupade kuludele.
 
 ## <a name="set-up-charges-codes-for-accounts-receivable"></a>Müügireskontro kulude koodide seadistamine
 

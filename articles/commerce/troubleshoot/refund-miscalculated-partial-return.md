@@ -1,6 +1,6 @@
 ---
-title: Tagastatavad tasud arvutatakse tagastatud koguse alusel valesti
-description: See teema annab tõrkeotsingu juhised, mis aitavad kassapidajatel tagastatavate kaupade koguse kohta kassas (POS) valesid tagastatavaid tasusid vaadata.
+title: Tagastatavaid tasusid arvutatakse tagastatud koguse alusel valesti
+description: See artikkel annab tõrkeotsingu juhised, mis aitavad kassapidajatel tagastatavate kaupade koguse kohta kassas (POS) valesid tagastatavaid tasusid vaadata.
 author: gvrmohanreddy
 ms.date: 03/24/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: c8ecaa0cb73d06ac66b57cce815264e841a2259b
-ms.sourcegitcommit: 94ebdaae6dc996b205ac78ed546e38f91f4f46ed
+ms.openlocfilehash: 7a84207f587a826b9acdfd818c64220c5327bde1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/28/2022
-ms.locfileid: "8489724"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890239"
 ---
-# <a name="refundable-charges-are-miscalculated-based-on-the-quantity-returned"></a>Tagastatavad tasud arvutatakse tagastatud koguse alusel valesti
+# <a name="refundable-charges-are-miscalculated-based-on-the-quantity-returned"></a>Tagastatavaid tasusid arvutatakse tagastatud koguse alusel valesti
 
 [!include [banner](../../includes/banner.md)]
 
-See teema annab tõrkeotsingu juhised, mis aitavad kassapidajatel tagastatavate kaupade koguse kohta kassas (POS) valesid tagastatavaid tasusid vaadata.
+See artikkel annab tõrkeotsingu juhised, mis aitavad kassapidajatel tagastatavate kaupade koguse kohta kassas (POS) valesid tagastatavaid tasusid vaadata.
 
 ## <a name="description"></a>Kirjeldus
 

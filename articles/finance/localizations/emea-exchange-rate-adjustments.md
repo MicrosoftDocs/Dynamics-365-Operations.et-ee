@@ -1,6 +1,6 @@
 ---
 title: Vahetuskursi korrigeerimine
-description: Selles teemas antakse teavet vahetuskursi korrigeerimise funktsiooni kohta kasutajatele Eestis, Ungaris, Tšehhi Vabariigis, Lätis, Leedus, Poolas ja Venemaal.
+description: See artikkel annab teavet vahetuskursi korrigeerimise funktsioonide kohta kasutajatele Eesti, Ungari, Tšehhi Vabariik, Läti, Leedu, Poola ja Venemaa.
 author: ShylaThompson
 ms.date: 04/10/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, R
 ms.author: kfend
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 82f9d51bb882ae83c6382a424fbdff65900fd3822d70f496c0956c2e57180ebf
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cf9e047872269b8fca56c702bd9599c759b0acd6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767603"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889792"
 ---
 # <a name="exchange-rate-adjustments"></a>Vahetuskursi korrigeerimine
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas antakse teavet vahetuskursi korrigeerimise funktsiooni kohta kasutajatele Eestis, Ungaris, Tšehhi Vabariigis, Lätis, Leedus, Poolas ja Venemaal.
+See artikkel annab teavet vahetuskursi korrigeerimise funktsioonide kohta kasutajatele Eesti, Ungari, Tšehhi Vabariik, Läti, Leedu, Poola ja Venemaa.
 
 Vahetuskursi korrigeerimise funktsioon Eesti, Ungari, Tšehhi Vabariigi, Läti, Leedu, Poola ja Venemaa jaoks sisaldab järgmisi müügireskontro ja ostureskontro jaoks asjakohaseid laiendusi.
 

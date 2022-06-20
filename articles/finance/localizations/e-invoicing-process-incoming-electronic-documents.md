@@ -1,6 +1,6 @@
 ---
 title: Sissetulevate elektrooniliste dokumentide töötlemine
-description: See teema annab ülevaate sissetulevate elektrooniliste dokumentide töötlemisest.
+description: See artikkel annab ülevaate sissetulevate elektrooniliste dokumentide töötlemisest.
 author: dkalyuzh
 ms.date: 02/28/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dkalyuzh
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 9701367e1ba1f9dbd1e53deb863c10af4213a359
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: dec4c16c8ba9f0ba55f30f3944eff172cf9db724
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371863"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910004"
 ---
 # <a name="processing-of-incoming-electronic-documents"></a>Sissetulevate elektrooniliste dokumentide töötlemine
 

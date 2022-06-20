@@ -1,6 +1,6 @@
 ---
 title: Töötajate arengu Power BI sisu
-description: Selles teemas kirjeldatakse töötajate arengu Power BI sisu.
+description: See artikkel kirjeldab töötaja arenduse Power BI sisu.
 author: jcart1106
 ms.date: 12/19/2017
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 280053703a8afac15f0ae377e0d439a9bc9e918fb4c8413022cabad08431f3e4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 67fd3b5907cb52dc1f10d754e12316e21876e888
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6776603"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850983"
 ---
 # <a name="employee-development-power-bi-content"></a>Töötajate arengu Power BI sisu
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas kirjeldatakse **Töötajate arengu** Microsoft Power BI sisu.
+See artikkel kirjeldab **töötaja arenduse** Microsoft Power BI sisu.
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Power BI sisusse kuuluvad aruanded
 **Töötaja arengu** Power BI sisusse kuuluvad aruanded sisaldavad nii lisateavet andvaid diagramme kui ka tabeleid. Järgmises tabelis on kirjeldatud aruandeid.

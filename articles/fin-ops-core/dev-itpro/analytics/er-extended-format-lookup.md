@@ -1,6 +1,6 @@
 ---
 title: Elektroonilise aruandluse (ER) laiendatud vormingu otsing
-description: See teema kirjeldab, kuidas ER-vormingus viidet saab seadistada ER vormingu otsingus, kui nõutud vorming on talletatud globaalses hoidlas.
+description: See artikkel kirjeldab, kuidas ER-vormingu viidet saab ER-vormingu otsingus seadistada, kui nõutav vorming on salvestatud globaalsesse hoidlasse.
 author: NickSelin
 ms.date: 03/17/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 2b69ba1b3b27f447b58cf98b1140a481b01b735a
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: ae544b8ed4e280ffcaf58d893056a4bf5169e379
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8324134"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901644"
 ---
 # <a name="allow-users-to-set-up-an-er-format-reference-inquiring-a-format-from-the-global-repository"></a>Luba kasutajatel häälestada ER-vormingu viidet vormingu päringule globaalsest hoidlast
 
 [!include [banner](../includes/banner.md)]
 
-Saate kasutada elektroonilise [aruandluse](general-electronic-reporting.md) (ER) raamistikku, et konfigureerida väljaminevate dokumentide vorminguid vastavalt erinevate riikide/regioonide juriidilistele nõuetele. Saate kasutada ka ER raamistikku, et konfigureerida vorminguid sissetulevate dokumentide sõelumiseks ja kasutada nende dokumentide teavet, et lisada või värskendada rakenduse andmeid. Kõiki neid vorminguid saab kasutada teie rakenduse Dynamics 365 Finance eksemplaris sissetuleva või väljamineva äridokumendi käsitlemiseks teatud äriprotsessi osana.
+Saate kasutada elektroonilise [aruandluse](general-electronic-reporting.md) (ER) raamistikku, et konfigureerida väljaminevate dokumentide vorminguid vastavalt erinevate riikide/regioonide juriidilistele nõuetele. Saate kasutada ka ER raamistikku, et konfigureerida vorminguid sissetulevate dokumentide sõelumiseks ja kasutada nende dokumentide teavet, et lisada või värskendada rakenduse andmeid. Kõiki vorminguid saab kasutada dynamics 365 Finance eksemplaris sissetulevate ja väljaminevate äridokumentide töötlemiseks osana kindlast äriprotsessist.
 
 Tavaliselt peate määrama, millist ER-vormingut peab teatud äriprotsessis kasutama. Selleks valige üks ER vorming otsinguväljal, mis on konfigureeritud äriprotsessi kohaste parameetrite osana. Neid otsingu välju rakendatakse tavaliselt, kasutades ER raamistiku vastavat API-d. Lisateavet vt teemast [ER raamistiku API-kood, et kuvada vormingu vastendamise otsing](er-apis-app73.md#code-to-display-a-format-mapping-lookup).
 

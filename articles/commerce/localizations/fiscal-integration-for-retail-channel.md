@@ -1,6 +1,6 @@
 ---
 title: Ärikanalite fiskaalintegratsiooni ülevaade
-description: Selles teemas antakse ülevaade rakenduses Dynamics 365 Commerce saadaolevatest fiskaalüksuse integratsioonivõimalustest.
+description: See artikkel annab ülevaate fiskaalintegratsiooni võimalustest, mis on saadaval Dynamics 365 Commerce.
 author: EvgenyPopovMBS
 ms.date: 03/04/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 00c68155088ff2aabbe2fe0c4f431b665aebcd0a
-ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.openlocfilehash: ea1de0791a0eaffa2a8b1ac57143bdfd753f855b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8462519"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884840"
 ---
 # <a name="fiscal-integration-overview-for-commerce-channels"></a>Ärikanalite fiskaalintegratsiooni ülevaade
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas antakse ülevaade rakenduses Dynamics 365 Commerce saadaolevatest fiskaalüksuse integratsioonivõimalustest. 
+See artikkel on ülevaade fiskaalintegratsiooni võimalustest, mis on saadaval Dynamics 365 Commerce. 
 
 Fiskaalüksuse integratsioon hõlmab integratsiooni erinevate fiskaalseadmete ja -teenustega, mis võimaldavad müügi fiskaalüksuse registreerimist kooskõlas kohalike rahandusseadustega, mille eesmärk on ennetada jaemüügivaldkonna maksupettust. Tavalised stsenaariumid, mida fiskaalüksuse integratsioon hõlmab, on järgmised.
 

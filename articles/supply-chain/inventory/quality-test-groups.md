@@ -1,6 +1,6 @@
 ---
 title: Kvaliteedijuhtimise testgrupid
-description: See teema kirjeldab, kuidas luua testgruppe, nii et kvaliteettellimustega saab Microsoft Dynamics 365 Supply Chain Management kasutada mitut testi.
+description: See artikkel kirjeldab, kuidas luua katsegruppe, nii et Microsofti kvaliteettellimustega saab kasutada mitut testi Dynamics 365 Supply Chain Management.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5619be4a0724556bf0c51dcaa3adcc3725f10706
-ms.sourcegitcommit: 220101d2511a3164572226294ef090a43a1e6cdd
+ms.openlocfilehash: e7722bc92d8c2bf52d6a798a93f07af44037d4e0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "8789264"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857689"
 ---
 # <a name="quality-management-test-groups"></a>Kvaliteedijuhtimise testgrupid
 
 [!include [banner](../includes/banner.md)]
 
-See teema kirjeldab, kuidas luua testgruppe, nii et kvaliteettellimustega saab Microsoft Dynamics 365 Supply Chain Management kasutada mitut testi.
+See artikkel kirjeldab, kuidas luua katsegruppe, nii et Microsofti kvaliteettellimustega saab kasutada mitut testi Dynamics 365 Supply Chain Management.
 
 Testgruppide ja neile määratud üksikute testide seadistamiseks, muutmiseks ja vaatamiseks kasutage lehte **Testgrupid**. Ülemine paan kuvab testgruppe ja alumine paan kuvab valitud testgruppi määratud katseid.
 

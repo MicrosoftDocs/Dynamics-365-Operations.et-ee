@@ -1,6 +1,6 @@
 ---
-title: Kanalite vastendamine e-äri saitidega
-description: See teema kirjeldab mõningaid tavalisemaid kanali kaardistamise Microsoft Dynamics 365 Commerce stsenaariume, mida saab enamiku teiste ärinõuete puhul laiendada.
+title: Kanalite vastendamine e-kaubanduse saitidega
+description: See artikkel kirjeldab mõningaid tavalisemaid kanali vastendamise stsenaariume Microsoft Dynamics 365 Commerce, mida saab enamiku teiste ärinõuete puhul lisada.
 author: samjarawan
 ms.date: 05/11/2022
 ms.topic: article
@@ -14,20 +14,20 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 8ce272d63b4a37f99661333a02434708205ea19a
-ms.sourcegitcommit: e4cc43b06ef3f0f562849e2c960025cb244d6017
+ms.openlocfilehash: 94c43df26e8d6e55a5b6d459b65066d5873e1063
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/12/2022
-ms.locfileid: "8743600"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902759"
 ---
-# <a name="map-channels-to-e-commerce-sites"></a>Kanalite vastendamine e-äri saitidega
+# <a name="map-channels-to-e-commerce-sites"></a>Kanalite vastendamine e-kaubanduse saitidega
 
-See teema kirjeldab mõningaid tavalisemaid kanali kaardistamise Microsoft Dynamics 365 Commerce stsenaariume, mida saab enamiku teiste ärinõuete puhul laiendada.
+See artikkel kirjeldab mõningaid tavalisemaid kanali vastendamise stsenaariume Microsoft Dynamics 365 Commerce, mida saab enamiku teiste ärinõuete puhul lisada.
 
 Dynamics 365 Commerce toetab mitut äristsenaariumi võrgukanalite [vastendamiseks](#channels), kus on konfigureeritud toodete, [hindade ja allahindluste kogum klientide e-kaubanduse](#e-commerce-sites) saidikogemustele.
 
-Selles teemas käsitletakse järgmisi stsenaariume:
+See artikkel hõlmab järgmisi stsenaariume:
 
 - **Ühe keelega kanal, mis omab ühte e-ärisaidi kogemust.** Näiteks võib see stsenaarium sisaldada ühte kaubamärgi saiti, mis on konfigureeritud USA Inglise turu jaoks.
 - **Mitme keelega kanal, kus on ühe lokaliseeritud saidikogemus.** Näiteks võib see stsenaarium sisaldada ühte kaubamärgi saiti, mis on konfigureeritud Kanada jaoks prantsuse ja inglise keele toega. Selles stsenaariumis on eri keeltes kasutajatel sama saidikogemus, kuid see lokaliseeritakse iga kasutaja valitud keelde.
@@ -63,7 +63,7 @@ Järgmises näites on näidatud kanali konfiguratsioon rakenduses Commerce Headq
 
 ![Commerce Headquartersis esiletõstetud Adventure Worksi e-poe juriidiline isik, valuuta ja keele väärtused.](media/channel-mapping-3.png)
 
-Üksikut võrgukanalit saab saidikonstruktoris vastendada üksiku e-kaubanduse saidiga. Lisateavet uue saidi loomise ja [selle kanaliga vastendamise kohta vt selle teema saidikonstruktori](#map-a-channel-to-a-site-in-site-builder) jaotisest kanali vastendamine.
+Üksikut võrgukanalit saab saidikonstruktoris vastendada üksiku e-kaubanduse saidiga. Lisateavet uue saidi loomise ja [selle](#map-a-channel-to-a-site-in-site-builder) kanaliga vastendamise kohta vt selle artikli jaotisest Kanali vastendamine saidiga saidikonstruktoris.
 
 ### <a name="multi-language-channel-that-has-a-single-localized-site-experience"></a>Mitme keelega kanal, kus on ühe lokaliseeritud saidikogemus
 
@@ -73,7 +73,7 @@ Selle stsenaariumi piirang on see, et ühte kanalit saab konfigureerida ainult �
 
 Kanali iga keelt saab konfigureerida oma domeeninimega. Näiteks saab domeeni `www.adventure-works.ca` konfigureerida Kanada inglise versiooni jaoks `www.adventure-works-fr.ca` ja domeeni saab konfigureerida Kanada prantsuse versiooni jaoks. Teise võimalusena saab kanalis erinevaid keeli konfigureerida ühes domeenis ja siis saab iga keele jaoks kasutada erinevat teed. Näiteks saab domeeni `www.adventure-works.ca` konfigureerida Kanada inglise versiooni jaoks ja `www.adventure-works.ca/fr` seejärel teed saab kasutada Kanada prantsuse versiooni jaoks. [Geotuvastusel](geo-detection-redirection.md) võib lubada ka kasutaja automaatse ümbersuunamise õigele saidile, põhinedes kasutaja asukohale.
 
-Teavet selle kohta, kuidas lubada klientidel keelte vahel käsitsi lülituda, [vaadake selle teema jaotisest Lisa ja konfigureeri](#add-and-configure-the-site-picker-module) saidi valija moodul. Lisateavet lokaliseeritud lehtede ja killustamise kohandamise kohta vt jaotisest [Mitme kanali ja keelega saidi sisu](#manage-site-content-that-has-multiple-channels-and-languages) haldamine.
+Teavet selle kohta, kuidas lubada klientidel keelte vahel käsitsi lülituda, [vt selle artikli jaotisest Lisa ja konfigureeri](#add-and-configure-the-site-picker-module) saidi valija moodul. Lisateavet lokaliseeritud lehtede ja killustamise kohandamise kohta vt jaotisest [Mitme kanali ja keelega saidi sisu](#manage-site-content-that-has-multiple-channels-and-languages) haldamine.
 
 ### <a name="multi-language-channel-that-has-a-different-site-experience-per-language"></a>Mitme keelega kanal, mis omab keele kohta erinevat saidikogemust
 
@@ -87,7 +87,7 @@ Kaubamärgiga sait võib vajada mitut võrgukanalit regiooni kohta, et toetada e
 
 Selles stsenaariumis saab iga turu konfigureerida oma domeeninimedega. Näiteks saab domeeni `www.adventure-works.com` konfigureerida USA turu jaoks ja `www.adventure-works.de` domeeni saab konfigureerida Saksa turu jaoks. Teise võimalusena saab iga turg konfigureerida kasutama erinevat teed. Näiteks saab `www.adventure-works.com` domeeni konfigureerida USA turu jaoks ja `www.adventure-works.com/de` seejärel kasutada teed Saksa turu jaoks. [Geotuvastusel](geo-detection-redirection.md) võib lubada ka kasutajate automaatset ümbersuunamist õigele saidile, põhinedes nende piirkonnal.
 
-Võite soovida, et teie sait pakuks ripploendit, mis võimaldab kasutajatel käsitsi konkreetsele turule lülituda. Lisateavet vt selle teema jaotisest [Lisa ja konfigureeri saidi](#add-and-configure-the-site-picker-module) valija moodulit.
+Võite soovida, et teie sait pakuks ripploendit, mis võimaldab kasutajatel käsitsi konkreetsele turule lülituda. Lisateavet vt selle artikli jaotisest [Saidi valija mooduli](#add-and-configure-the-site-picker-module) lisamine ja konfigureerimine.
 
 Teavet selle kohta, kuidas konfigureerida ühe saidi jaoks mitut kanalit, [vt e-äri saidi jaotisest Mitme kanali konfigureerimine](#configure-multiple-channels-on-an-e-commerce-site).
 
@@ -180,7 +180,7 @@ Iga lehekülje ja killusta käsitsi loomise asemel saate eksportida iga lehekül
 
 Mitme kanali ja/või keelega sait talletab iga lehekülje kordumatu variandi ja killust iga kanali ja keele kombinatsiooni jaoks. Selline käitumine võimaldab lehevariantidel sisaldada lokaliseeritud andmeid, kuid võimaldab teil ka paindlikkust muuta konkreetse variandi lehe ilmet ja tunde.
 
-Teavet selle kohta, kuidas lehe variantidega töötada, vt [selle teema iga keelejao](#implement-page-variants-for-each-language) lehekülje variantide juurutamine.
+Teavet selle kohta, kuidas lehe variantidega töötada, vt [selle artikli iga keelejao](#implement-page-variants-for-each-language) lehekülje variantide juurutamine.
 
 ## <a name="configure-multiple-channels-on-an-e-commerce-site"></a>Konfigureerige e-äri saidil mitu kanalit
 

@@ -1,6 +1,6 @@
 ---
 title: Laokannete arhiivimine
-description: Selles teema kirjeldatakse, kuidas arhiveerida laokannete andmeid süsteemi jõudluse parandamiseks.
+description: See artikkel kirjeldab, kuidas arhiveerida laokannete andmeid süsteemi jõudluse parandamiseks.
 author: yufeihuang
 ms.date: 05/10/2022
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 8b766d306f31fc531f33aa29e1f96048bbd90085
-ms.sourcegitcommit: e18ea2458ae042b7d83f5102ed40140d1067301a
+ms.openlocfilehash: c63cdee862e2e22649a3eb58ae37597741770e14
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8736057"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874097"
 ---
 # <a name="archive-inventory-transactions"></a>Laokannete arhiivimine
 
 [!include [banner](../../includes/banner.md)]
 
-Laokannete tabel (`InventTrans`) kasvab aja jooksul pidevalt ja kasutab aina rohkem andmebaasiruumi. Seetõttu muutuvad tabeli kohta tehtud päringud järk-järgult aeglasemaks. Selles teemas kirjeldatakse, kuidas te saate kasutada *laokannete arhiivi* funktsiooni laokannete andmete arhiveerimiseks, et parandada süsteemi jõudlust.
+Laokannete tabel (`InventTrans`) kasvab aja jooksul pidevalt ja kasutab aina rohkem andmebaasiruumi. Seetõttu muutuvad tabeli kohta tehtud päringud järk-järgult aeglasemaks. See artikkel kirjeldab, kuidas te saate kasutada laokannete *arhiivi* funktsiooni laokannete andmete arhiveerimiseks, et parandada süsteemi jõudlust.
 
 > [!NOTE]
 > Valitud suletud pearaamatu perioodi jooksul saab arhiveerida ainult finantsiliselt värskendatud laokandeid. Arhiivimiseks peavad finantsiliselt uuendatud väljaminevate laokannete väljamineku olek olema *Müüdud* ja sissetulevate laokannete sissetuleku olek peab olema *Ostetud*.
@@ -35,7 +35,7 @@ Kui üks `itemId` ja `inventDimId` kombinatsioon sisaldab ainult ühte sissetule
 
 ## <a name="turn-on-the-feature-in-your-system"></a>Funktsiooni sisselülitamine teie süsteemis
 
-Kui teie süsteemis ei ole veel selles teemas kirjeldatud funktsioone, avage [Funktsioonihaldus](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ja lülitage funktsioon *Laokannete arhiiv* sisse. Pange tähele, et seda funktsiooni ei saa pärast lubamist enam keelata.
+Kui teie süsteem ei kaasa juba selles artiklis kirjeldatud funktsioone, [minge](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) funktsioonihaldusesse ja lülitage sisse laokannete *arhiivi* funktsioon. Pange tähele, et seda funktsiooni ei saa pärast lubamist enam keelata.
 
 ## <a name="things-to-consider-before-you-archive-inventory-transactions"></a>Mida on vaja enne laokannete arhiivimist arvesse võtta
 

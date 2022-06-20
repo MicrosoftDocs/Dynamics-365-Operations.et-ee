@@ -1,6 +1,6 @@
 ---
 title: Saksa Intrastat
-description: See teema sisaldab teavet Saksamaa Intrastat deklareerimise kohta.
+description: See artikkel sisaldab teavet Saksamaa Intrastat-deklaratsiooni kohta.
 author: anasyash
 ms.date: 09/09/2021
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: kfend
 ms.search.region: Global
 ms.author: anasyash
 ms.search.validFrom: ''
-ms.openlocfilehash: 50c412fdfd7118843d285cbb70e8e44847c9d4a5
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: 9516a4516488282820659da141fe3ad33fbe3a9d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7487921"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848456"
 ---
 # <a name="german-intrastat"></a>Saksa Intrastat
 
@@ -68,7 +68,7 @@ Järgmine tabel näitab väljasid, mis kuvatakse Saksa Intrastati deklaratsiooni
 
 3. Väliskaubanduse parameetrite häälestamine:
 
-    1. Rakenduses Dynamics 365 Finance avage **Maks** > **Seadistus** > **Väliskaubanduse parameetrid**.
+    1. Rakenduses Dynamics 365 Finance minge maksu **seadistamise** > **väliskaubanduse** > **parameetritele**.
     2. Vahekaardil **Intrastat** kiirkaardi **Elektrooniline aruandlus** väljal **Failivormingu vastendamine**, valige **Intrastat XML (DE)**.
     3. Sisestage või valige väärtus **Intrastati aruanne** väljal **Aruandevormingu vastendamine**.
     4. Valige kiirkaardi **Kaubaartikli hierarhia** väljal **Kategooriahierarhia** väärtus **Intrastat**.

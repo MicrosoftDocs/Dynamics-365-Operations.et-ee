@@ -1,6 +1,6 @@
 ---
-title: Mobiilseadmete globaalsed parameetrid
-description: Selles teemas selgitatakse, kuidas seadistada mobiili seadmeid Laohalduse parameetrite lehel.
+title: Mobiilsete seadmete globaalsed parameetrid
+description: See artikkel selgitab, kuidas häälestada mobiilse seadme sätteid laohalduse parameetrite lehel.
 author: Mirzaab
 ms.date: 08/13/2021
 ms.topic: article
@@ -11,24 +11,24 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-13
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 0ae04c86ff1eafb649fcef7c34ace66bdc3e5cb8
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: e6e03414edd9243fcc4156195928455b30a7cee9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8679161"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847755"
 ---
-# <a name="global-mobile-device-parameters"></a>Mobiilseadmete globaalsed parameetrid
+# <a name="global-mobile-device-parameters"></a>Mobiilsete seadmete globaalsed parameetrid
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas selgitatakse, kuidas seadistada globaalsed laohaldusparameetrid, mis mõjutavad süsteemi suhtlemist mobiilseadmetega.
+See artikkel selgitab, kuidas seadistada globaalseid laohalduse parameetreid, mis mõjutavad süsteemi ja mobiilsete seadmete omavaheline suhe.
 
 Lisateavet laotööliste seadistamise kohta leiate teemast [Halda laotöötajat](manage-warehouse-workers.md). Lisateavet, mis on seotud litsentsiplaadi käsitlemisega mobiilseadmetes, leiate teemast [Litsentsiplaadi vastuvõtmine mobiilirakenduse Warehouse Management kaudu](warehousing-mobile-device-app-license-plate-receiving.md). Tsüklite loendamise kohta lisateabe saamiseks vaadake [Tsüklite loendamine](cycle-counting.md) ja [Tsükli loendamise näite stsenaariumid](cycle-counting-scenarios.md).
 
 ## <a name="open-the-warehouse-management-parameters-page"></a>Avage Laohalduse parameetrite leht
 
-**Laohalduse parameetrite** lehe avamiseks minge lehele **Laohaldus \> Seadistamine \> Laohalduse parameetrid**. Seejärel saate määrata väljad, mis on seotud mobiilseadmete tööga, nagu on kirjeldatud selle teema järgmises osas.
+**Laohalduse parameetrite** lehe avamiseks minge lehele **Laohaldus \> Seadistamine \> Laohalduse parameetrid**. Seejärel saate seada mobiilse seadme tööga seotud väljad, nagu on kirjeldatud selle artikli järgmises jaotises.
 
 ## <a name="mobile-device-fasttab-on-the-general-tab"></a>Mobiilseadme kiirkaart vahekaardil Üldine
 

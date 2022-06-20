@@ -1,6 +1,6 @@
 ---
-title: Tegevustepõhised allhanked
-description: Selles teemas kirjeldatakse üksikasjalikult, kuidas kasutada allhanketegevusi kulusäästlikus tootmisvoos.
+title: Tegevuspõhine allhange
+description: Selles artiklis kirjeldatakse üksikasjalikult, kuidas kasutada lean manufacturingi puhul tootmisvoos alltöövõtu tegevusi.
 author: johanhoffmann
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1c2e1efceb800930d9f9e19a109da80d8cfebe2e
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: e53da46a27fd573ae7f7450fcf34ffd8ef43e3fe
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566788"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890737"
 ---
-# <a name="activity-based-subcontracting"></a>Tegevustepõhised allhanked
+# <a name="activity-based-subcontracting"></a>Tegevuspõhine allhange
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas kirjeldatakse üksikasjalikult, kuidas kasutada allhanketegevusi kulusäästlikus tootmisvoos.
+Selles artiklis kirjeldatakse üksikasjalikult, kuidas kasutada lean manufacturingi puhul tootmisvoos alltöövõtu tegevusi.
 
 Microsoft Dynamics 365 Supply Chain Management pakub allhangeteks kaht lähenemisviisi: tootmistellimused ja lean manufacturing (kulusäästlik tootmine). Kulusäästlikus tootmises on allhanketöö kujundatud teenusena, mis on seotud tootmisvoo tegevusega. Kasutusele on võetud kulugrupi eritüüp **Otse väljasttellimine** ja allhanketeenused ei ole enam koosluse osa. Allhanketöö kuluarvestus on täielikult integreeritud kulusäästliku tootmise kululahendusse.
 

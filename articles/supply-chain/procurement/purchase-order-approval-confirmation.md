@@ -1,6 +1,6 @@
 ---
 title: Ostutellimuste kinnitamine
-description: Selles teemas kirjeldatakse olekuid, mille ostutellimus pärast loomist läbib, ja muudatuste halduse lubamise mõju ostutellimustele.
+description: See artikkel kirjeldab olekuid, milles ostutellimus läbib pärast selle loomist ja muudatusehalduse lubamist ostutellimustes.
 author: GalynaFedorova
 ms.date: 04/02/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: ''
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d38a486c604dc761dcaf12b839d8b9b89b5e0414
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
-ms.translationtype: MT
+ms.openlocfilehash: 936fddb73a639564a136002354a4d3dff7798e0b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8676998"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907373"
 ---
 # <a name="approve-and-confirm-purchase-orders"></a>Ostutellimuste kinnitamine
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas kirjeldatakse olekuid, mille ostutellimus pärast loomist läbib, ja muudatuste halduse lubamise mõju ostutellimustele.
+Selles artiklis kirjeldatakse olekuid, mille ostutellimus pärast loomist läbib, ja muudatuste halduse lubamise mõju ostutellimustele.
 
 Pärast ostutellimuse koostamist võib olla vaja läbida heakskiitmise protsess. Kui hankija on tellimusega nõustunud, määratakse ostutellimuse olekuks **Kinnitatud**.
 

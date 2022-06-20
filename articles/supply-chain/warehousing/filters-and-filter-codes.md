@@ -1,6 +1,6 @@
 ---
 title: Laokannete tootefiltrite konfigureerimine
-description: Selles teemas kirjeldatakse, kuidas konfigureerida tootefiltreid ja filtrikoode laokaupade kategoriseerimiseks laos. Filtrite abil saate ka määratleda, millised kliendid saavad kindlat kaupa tellida ja milliseid kaupu saab kindlalt hankijalt osta.
+description: See artikkel kirjeldab, kuidas konfigureerida tootefiltreid ja filtrikoode laos laokauba kategoriseerimiseks. Filtrite abil saate ka määratleda, millised kliendid saavad kindlat kaupa tellida ja milliseid kaupu saab kindlalt hankijalt osta.
 author: Mirzaab
 ms.date: 01/04/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-04
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 021ce940a4ea6d59719d1c6bc79532832cc2f3ff
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f3d6cd373699d374c019f0db7befaffc169f4f6c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567675"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850434"
 ---
 # <a name="configure-product-filters-for-warehouse-transactions"></a>Laokannete tootefiltrite konfigureerimine
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas kirjeldatakse, kuidas konfigureerida tootefiltreid ja filtrikoode laokaupade kategoriseerimiseks laos. Filtrite abil saate ka määratleda, millised kliendid saavad kindlat kaupa tellida ja milliseid kaupu saab kindlalt hankijalt osta.
+See artikkel kirjeldab, kuidas konfigureerida tootefiltreid ja filtrikoode laos laokauba kategoriseerimiseks. Filtrite abil saate ka määratleda, millised kliendid saavad kindlat kaupa tellida ja milliseid kaupu saab kindlalt hankijalt osta.
 
 Peale selle saate seadistada ja kasutada tootefiltreid, et laokaupu laos automaatselt korraldada ning ühendada filtreeritud kaubad filtrigruppidesse. Filtreid saab kasutada kaupade käsitsemis-, ostmis- ja müügiprotsesside puhul kategooriatesse panemiseks. Võite soovida rühmitada kaubaartiklid kokku või eraldada need üksteisest, kui nende käsitsemise viis põhine kaalul või käsitsemise piirangutel. Samuti saate määrata, millistelt klientidelt või hankijatelt saab kaupa osta või kellele müüa.
 
@@ -48,7 +48,7 @@ Tootefiltrid pakuvad kuni 10 **filtri pealkirja** omadust, mis on loetelu (enum)
 
     ![Tootefiltri häälestamine.](media/Product_Filters10.png "Tootefiltri häälestamine")
 
-1. Sisestage väljale **Kirjeldus** koodi nimi. Näiteks *Kood 2* võib tähistada hankijaid. Seejärel saate luua kindla hankija või hankijate grupi jaoks tootefiltri. Lisateabe saamiseks vaadake teemas allpool toodud jaotist [Hankija filtri koodide häälestamine](#vendor-product-filters).
+1. Sisestage väljale **Kirjeldus** koodi nimi. Näiteks *Kood 2* võib tähistada hankijaid. Seejärel saate luua kindla hankija või hankijate grupi jaoks tootefiltri. Lisateabe saamiseks vt hankija filtrikoodide [seadistamise jaotist](#vendor-product-filters) (selles artiklis).
 
     ![Tootefiltrite kogum.](media/Product_Filters.png "Tootefiltrite kogum")
 

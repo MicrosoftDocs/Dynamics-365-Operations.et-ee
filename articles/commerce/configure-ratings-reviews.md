@@ -1,6 +1,6 @@
 ---
 title: Hinnangute ja arvustuste konfigureerimine
-description: Selles teemas kirjeldatakse, kuidas konfigureerida oma e-kaubanduse saiti, et kuvada rakenduses Microsoft Dynamics 365 Commerce klientide antud hinnanguid ja arvustusi.
+description: See artikkel kirjeldab, kuidas konfigureerida oma e-Commerce'i saiti, et kuvada kliendi hinnanguid ja ülevaateid moodulis Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 ms.date: 02/17/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e3f9ff4b0654ec5fa7548ac62e16ae64f44383e7
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.openlocfilehash: 56325eb0d6298f3b30316e104a4b3913ef860366
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968098"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862251"
 ---
 # <a name="configure-ratings-and-reviews"></a>Hinnangute ja arvustuste konfigureerimine
 
 [!include [banner](includes/banner.md)]
 
-Selles teemas kirjeldatakse, kuidas konfigureerida oma e-kaubanduse saiti, et kuvada rakenduses Microsoft Dynamics 365 Commerce klientide antud hinnanguid ja arvustusi.
+See artikkel kirjeldab, kuidas konfigureerida oma e-Commerce'i saiti, et kuvada kliendi hinnanguid ja ülevaateid moodulis Microsoft Dynamics 365 Commerce.
 
 Hinnangud ja arvustused e-Commerce’i veebisaitidel aitavad klientidel saada toote kohta teavet enne ostuotsuse tegemist, näidates neile, mida teised kliendid nendest toodetest arvavad. E-kaubanduse veebisaitide jaoks on hinnangud ja arvustused lisaks viis klientidelt toodete kohta tagasiside kogumiseks. 
 
@@ -91,9 +91,9 @@ Lisateavet toote üksikasjade lehtedel hinnangute ja arvustuste moodulite konfig
 
 [Lubage hinnangute ja ülevaadete käsitsi avaldamine moderaatori poolt](manual-publish-rating-reviews.md)
 
-[Hinnangute ja kommentaaride importimine ja eksportimine](import-export-reviews.md)
+[Hinnangute ja arvustuste importimine ja eksportimine](import-export-reviews.md)
 
-[Teenusepõhise autentimise konfigureerimine](service-to-service-auth.md)
+[Teenusest teenusesse autentimise konfigureerimine](service-to-service-auth.md)
 
 [Hinnangud ja arvustused KKK](ratings-reviews-faq.md)
 

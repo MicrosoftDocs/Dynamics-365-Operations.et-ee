@@ -1,6 +1,6 @@
 ---
 title: Välisseadmed
-description: Selles teemas selgitatakse mõisteid, mis on seotud Commerce’i välisseadmetega.
+description: See artikkel selgitab Commerce Peripheralsiga seotud mõisteid.
 author: BrianShook
 ms.date: 03/01/2022
 ms.topic: article
@@ -12,18 +12,18 @@ ms.custom:
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 76ce17777a2d13b46e5faed96dbde5e0d93782eb
-ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.openlocfilehash: 641b45390477c8c5e6239709f7c91887a403fbaf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8462237"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880077"
 ---
 # <a name="peripherals"></a>Välisseadmed
 
 [!include[banner](includes/banner.md)]
 
-Selles teemas selgitatakse mõisteid, mis on seotud poe välisseadmetega. See kirjeldab mitmesuguseid viise, kuidas välisseadmed saab kassaga ühendada, ja kassaga ühenduse haldamise eest vastutavaid komponente.
+See artikkel selgitab kaupluse välisseadmetega seotud mõisteid. See kirjeldab mitmesuguseid viise, kuidas välisseadmed saab kassaga ühendada, ja kassaga ühenduse haldamise eest vastutavaid komponente.
 
 ## <a name="concepts"></a>Mõisted
 
@@ -55,7 +55,7 @@ Modern POS Androidile on Modern POS-i programmi Androidi-põhine versioon, mida 
 
 ### <a name="pos-peripherals"></a>Kassa välisseadmed
 
-Kassa välisseadmed on seadmed, millel selgelt kassafunktsioone toetatakse. Need välisseadmed on tavaliselt jagatud konkreetsetesse klassidesse. Lisateavet nende klasside kohta leiate selle teema jaotisest „Seadmeklassid”.
+Kassa välisseadmed on seadmed, millel selgelt kassafunktsioone toetatakse. Need välisseadmed on tavaliselt jagatud konkreetsetesse klassidesse. Lisateavet nende klasside kohta vt selle artikli jaotisest "Seadme klassid".
 
 ### <a name="hardware-station"></a>Riistvarajaam
 
@@ -63,7 +63,7 @@ Navigeerimine: minge jaemüügi ja **äri kanalite kauplustesse \>\> Kõik \> ka
 
 ### <a name="hardware-profile"></a>Riistvaraprofiil
 
-Navigeerimine: minge jaemüügi ja ärikanali häälestamise **kassa häälestuse \>\> kassaprofiilide \> riistvaraprofiilidele \>.** Riistvaraprofiil on kassaregistri või riistvarajaama jaoks konfigureeritud seadmete loend. Riistvaraprofiili saab vastendada otse kassaregistri või riistvarajaamaga.
+Navigeerimine: minge jaemüügi ja **ärikanali häälestamise \> kassa häälestuse \>\> kassaprofiilide \> riistvaraprofiilidele**. Riistvaraprofiil on kassaregistri või riistvarajaama jaoks konfigureeritud seadmete loend. Riistvaraprofiili saab vastendada otse kassaregistri või riistvarajaamaga.
 
 ## <a name="devices-classes"></a>Seadmete klassid
 Kassa välisseadmed on tavaliselt jagatud klassidesse. Selles jaotises kirjeldatakse seadmeid, mida Modern POS toetab, ja antakse neist ülevaade.
@@ -213,8 +213,8 @@ Teavet vt [Rakenduse POS Hybrid seadistamine Androidis ja iOS-is](./dev-itpro/hy
 
 Lisateavet OPOS-i komponentide kohta leiate selle dokumendi jaotisest „Toetatud liidesed”. Tavaliselt annab OPOS-i draiverid seadme tootja. Kui OPOS-i seadme draiver on installitud, lisab see Windowsi registrisse ühte järgmisse asukohta võtme.
 
--   **32-bitine süsteem:** HKEYLOCALMACHINE\_\_\SOFTWARE\MACHIEforRetail\ServiceOPOS
--   **64-bitine süsteem:** HKEYLOCALMACHINE\_\_\SOFTWARE\OMA6432Node\KIRJEEforRetail\ServiceOPOS
+-   **32-bitine süsteem:** HKEY\_ LOCAL\_ MACHINE\SOFTWARE\KIRJEEforRetail\ServiceOPOS
+-   **64-bitine süsteem:** HKEY\_ LOCAL\_ MACHINE\SOFTWARE\OTSTARBEL6432Node\KIRJEEforRetail\ServiceOPOS
 
 Registri asukoha ServiceOPOS puhul korraldatakse konfigureeritud seadmed OPOS-i seadmeklassi järgi. Salvestatakse mitu seadmedraiverit.
 

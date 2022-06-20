@@ -1,6 +1,6 @@
 ---
 title: Hooldustöötajad ja töötajate rühmad
-description: Selles teemas selgitatakse hooldustöötajaid ja töötajate rühmi varahalduses.
+description: See artikkel selgitab töötajate ja töötajagruppide hooldust varahalduses.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e976a28349a4bc7a371d23eb4df724e0ffd36a0553aec2deeb2ff07d0a63579
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3a24c880ee76af1490824aef07976b998d9225d0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750120"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860895"
 ---
 # <a name="maintenance-workers-and-worker-groups"></a>Hooldustöötajad ja töötajate rühmad
 
@@ -28,7 +28,7 @@ ms.locfileid: "6750120"
 
  
 
-Selles teemas selgitatakse hooldustöötajaid ja töötajate rühmi varahalduses. Varahalduses saate ühendada hooldustöötajaid funktsionaalsete asukohtadega. (Lisateavet funktsionaalsete asukohtade kohta leiate jaotisest [Funktsionaalsete asukohtade loomine](../functional-locations/create-functional-locations.md).)See funktsioon võib olla kasulik, kui näiteks plaanite hooldustöid masinas, mis asub funktsionaalses asukohas 01 ja soovite selle töö jaoks eraldada samast asukohast hooldustöötajad.
+See artikkel selgitab töötajate ja töötajagruppide hooldust varahalduses. Varahalduses saate ühendada hooldustöötajaid funktsionaalsete asukohtadega. (Lisateavet funktsionaalsete asukohtade kohta leiate jaotisest [Funktsionaalsete asukohtade loomine](../functional-locations/create-functional-locations.md).)See funktsioon võib olla kasulik, kui näiteks plaanite hooldustöid masinas, mis asub funktsionaalses asukohas 01 ja soovite selle töö jaoks eraldada samast asukohast hooldustöötajad.
 
 Saate luua ka hooldustöötajate rühmi ja seostada nendega hooldustöötajaid. See funktsioon on kasulik siis, kui teete lihtsat töökäsu planeerimist ja soovite planeerida töökäsule hooldustöötajate rühma. Võite kasutada hooldustöötajaid ja hooldustöötajate rühmi eelistatud hooldustöötajate ja vastutavate hooldustöötajate seadistamiseks. 
 

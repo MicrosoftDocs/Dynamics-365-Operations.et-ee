@@ -1,8 +1,8 @@
 ---
-title: Varude nähtavuse varude eraldamine
-description: See teema selgitab, kuidas seadistada ja kasutada varude eraldamise funktsiooni, mis võimaldab teil kõrvale panna sihtotstarbeline inventuur, et tagada teie kõige tulusam kanalite või klientide täitmine.
+title: Inventory Visibility varude eraldamine
+description: See artikkel selgitab, kuidas seadistada ja kasutada varude eraldamise funktsiooni, mis võimaldab teil kõrvale panna sihtotstarbeline inventuur, et tagada teie kõige tulusam kanalite või klientide täitmine.
 author: yufeihuang
-ms.date: 05/20/2022
+ms.date: 05/27/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,14 +11,14 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-05-13
 ms.dyn365.ops.version: 10.0.27
-ms.openlocfilehash: 4293ead4ccfc9ba04e8b9da437134b4e97569026
-ms.sourcegitcommit: 1877696fa05d66b6f51996412cf19e3a6b2e18c6
+ms.openlocfilehash: ccc3a8c4b3d0649397b1d1f9139f7feebf39b02f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/20/2022
-ms.locfileid: "8787467"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852501"
 ---
-# <a name="inventory-visibility-inventory-allocation"></a>Varude nähtavuse varude eraldamine
+# <a name="inventory-visibility-inventory-allocation"></a>Inventory Visibility varude eraldamine
 
 [!include [banner](../includes/banner.md)]
 
@@ -98,7 +98,7 @@ Siin on esialgsed arvutatud meetmed:
 
 ### <a name="add-other-physical-measures-to-the-available-to-allocate-calculated-measure"></a>Lisa muud füüsilised mõõtmised arvutatud mõõtu eraldamiseks saadaolevale
 
-Eraldamise kasutamiseks peate seadistama arvutatud mõõtu (.) eraldamiseks saadaolevaid`@iv` mõõte `@available_to_allocate`. Näiteks on teil andmeallikas `fno` ja mõõt, `onordered``pos` andmeallikas ja mõõt ning te soovite teha vabale kaubavarule eraldamise summa ja `inbound` summa alusel`fno.onordered`.`pos.inbound` Sellisel juhul peaks see `@iv.@available_to_allocate` sisaldama `pos.inbound` valemit `fno.onordered` või seda valemis. Siin on näide.
+Eraldamise kasutamiseks peate seadistama arvutatud mõõtu (eraldamiseks saadaoleva).`@iv.@available_to_allocate` Näiteks on teil andmeallikas `fno` ja mõõt, `onordered``pos` andmeallikas ja mõõt ning te soovite teha vabale kaubavarule eraldamise summa ja `inbound` summa alusel`fno.onordered`.`pos.inbound` Sellisel juhul peaks see `@iv.@available_to_allocate` sisaldama `pos.inbound` valemit `fno.onordered` või seda valemis. Näide:
 
 `@iv.@available_to_allocate` = `fno.onordered` + `pos.inbound`– `@iv.@allocated`
 
@@ -110,11 +110,12 @@ Seadistage grupinimed varude nähtavuse **Power App konfiguratsioonilehel**. Sel
 
 Näiteks kui kasutate \[`channel``customerGroup` nelja grupinime ja seadistate need väärtusele,, `region``orderType`\] kehtivad need nimed konfiguratsiooni värskenduse API kutsumisel eraldamisega seotud taotlustele.
 
-### <a name="allcoation-using-tips"></a>Allutuse kasutamine näpunäidete abil
+### <a name="allocation-using-tips"></a>Eraldus näpunäidete abil
 
-- Iga toote puhul peaks eraldamisfunktsioon kasutama sama dimensiooni tasemel vastavalt tooteindeksi hierarhiale, mille seate tooteindeksi [hierarhia konfiguratsioonis](inventory-visibility-configuration.md#index-configuration). Indeksihierarhiaks on näiteks Sait, Asukoht, Corruse, Suurus. Kui eraldate teatud koguse ühele tootele saidil, asukohas, värvi tasemel. Järgmisel eraldamisel peaks andmed olema ka saidil, asukohas, värvi tasemel, kui kasutate saiti, asukohta, värvi, suuruse taset või saiti, asukoha tasemel, ei ole andmed kooskõlas.
+- Iga toote puhul peaks eraldamisfunktsioon kasutama sama *dimensiooni* tasemel vastavalt tooteindeksi hierarhiale, mille seate tooteindeksi [hierarhia konfiguratsioonis](inventory-visibility-configuration.md#index-configuration). Oletagem näiteks, et teie indekshierarhia on \[`Site`, `Location`, `Color`. `Size`\] Kui eraldate \[`Site``Location` teatud koguse ühele tootele dimensiooni tasemel, `Color`\] ja järgmisel korral, kui soovite seda toodet eraldada, peate eraldama ka samal \[`Site` tasemel, `Location`. `Color`\] Kui kasutate taset\[`Site`, `Location` või `Color``Size`\]\[`Site`, on `Location`\] andmed vastuolus.
 - Eraldusgrupi nime muutmine ei mõjuta teenuses salvestatud andmeid.
 - Eraldamine peaks toimuma pärast seda, kui tootel on positiivne laokogus.
+- Toodete eraldamiseks kõrge eraldamise taseme *grupist* alamgruppi kasutage API-d `Reallocate`. Näiteks on teil eraldamisgrupi \[`channel` hierarhia, `customerGroup`, `region``orderType`\]\[ja soovite eraldada mõned tooted eraldusgrupist Online, VIP\] alameraldusgruppi \[Võrgus, VIP, EU\], `Reallocate` kasutage koguse teisaldamiseks API-d. API kasutamisel eraldab `Allocate` see koguse virtuaal ühiskaustast.
 
 ### <a name="using-the-allocation-api"></a><a name="using-allocation-api"></a> Eralduse API kasutamine
 
@@ -267,7 +268,7 @@ Näiteks on kaheksa eraldatud kogumit, mille dimensioonide sait = 1, asukoht = 1
 
 Kaheksa kogust eraldatakse mõõtu `pos.inbound`.
 
-Nüüd müüakse kolm kogust ja need võetakse eraldamiskaustast. Selle teisaldamise registreerimiseks võite teha kõne, mis omab järgmist taotluse keha.
+Nüüd müüakse kolm päeva ja need võetakse eraldamiskaustast. Selle teisaldamise registreerimiseks võite teha kõne, mis omab järgmist taotluse keha.
 
 ```json
 {
@@ -295,9 +296,9 @@ Nüüd müüakse kolm kogust ja need võetakse eraldamiskaustast. Selle teisalda
 
 Pärast seda kõnet vähendatakse tootele eraldatud kogust 3 võrra. Lisaks loob varude nähtavus vaba kaubavaru muudatuse sündmuse, kus `pos.inbound` = *-3*. Võite väärtuse säilitada ka nii `pos.inbound`, nagu see on, ja lihtsalt kasutada eraldatud kogust. Sel juhul peate siiski looma kas teise füüsilise mõõtu tarbitud koguste alles hoida või kasutama eelmääratletud mõõtu `@iv.@consumed`.
 
-Pange sellele taotlusele tähele, et füüsiline mõõt, mida kasutate comsume reqeust kehas, peaks kasutama vastupidist modifer tüüpi (Liitmine või Lahutamine), võrreldes arvutatud mõõtus kasutatud muutja tüübiga. Seega on selles tarbitud kehas `iv.inbound` väärtus `Subtraction`, mitte `Addition`
+Pange sellele taotlusele tähele, et füüsiline mõõt, mida tarbitavas nõude kehas kasutate, peaks kasutama vastupidist muutujatüüpi (Liitmine või Lahutamine), võrreldes arvutatud mõõtus kasutatava muutja tüübiga. Seega on selles tarbitud kehas `iv.inbound` väärtus`Subtraction`, mitte `Addition`
 
-`fno` Andmeallikat ei saa tarbitavas kehas kasutada, sest oleme alati nõudnud, et varude nähtavus ei saa muuta andmeallika `fno` andmeid. Andmevoog on ühene viis, mis tähendab `fno`, et kõik andmeallika koguse muudatused peavad tulema teie tarneahela halduse keskkonnast.
+Andmeallikat `fno` ei saa tarbitavas kehas kasutada, nagu me alati nõudsime, et varude nähtavus ei saa muuta andmeallika `fno` andmeid. Andmevoog on ühene viis, mis tähendab `fno`, et kõik andmeallika koguse muudatused peavad tulema teie tarneahela halduse keskkonnast.
 
 #### <a name="consume-as-a-soft-reservation"></a><a name="consume-to-soft-reserved"></a> Tarbi kerge reserveerimisena
 
@@ -343,7 +344,7 @@ Selles taotluses pange tähele`iv.softreserved`, et väärtus on`Addition`, mitt
 
 #### <a name="query"></a>Päring
 
-`Query` Kasutage API-d, et tuua mõnede toodete jaoks eraldamisega seotud teavet. Tulemuste kitsendamiseks saate kasutada dimensioonifiltreid ja eraldusgrupi filtreid. Dimensioonid peavad vastetult vastama sellele, mida soovite tuua, \[näiteks saidil =1, asukohal =11\] on mitteseotud \[tulemusi võrreldes saidiga =1, asukoht =11, värv=punane \].
+`Query` Kasutage API-d, et tuua mõnede toodete jaoks eraldamisega seotud teavet. Tulemuste kitsendamiseks saate kasutada dimensioonifiltreid ja eraldusgrupi filtreid. Dimensioonid peavad vastama täpselt samale, mida soovite tuua, \[näiteks saidil =1, asukohal =11\]\[on mitteseotud tulemusi võrreldes saidiga =1, asukohaga=11, värv=punane \].
 
 ```json
 {

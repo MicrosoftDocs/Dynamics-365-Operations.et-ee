@@ -1,6 +1,6 @@
 ---
-title: Teenusekeskkonna ja ühendatud rakenduste konfigureerimine
-description: See teema annab teavet, kuidas konfigureerida oma teenuse keskkondi ja ühendatud rakendusi.
+title: Teenusekeskkondade ja ühendatud rakenduste konfigureerimine
+description: See artikkel annab teavet, kuidas konfigureerida oma teenuse keskkondi ja ühendatud rakendusi.
 author: dkalyuzh
 ms.date: 02/09/2022
 ms.topic: article
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: c3366e75b4a6d3f33a1aac9e444236d9ae57c829
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: c1bb3f784148f04c01223ac4e280a18bacfe0e51
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371864"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853218"
 ---
-# <a name="configure-service-environments-and-connected-applications"></a>Teenusekeskkonna ja ühendatud rakenduste konfigureerimine
+# <a name="configure-service-environments-and-connected-applications"></a>Teenusekeskkondade ja ühendatud rakenduste konfigureerimine
 
 [!include [banner](../includes/banner.md)]
 
-See teema annab teavet, kuidas konfigureerida oma teenuse keskkondi ja ühendatud rakendusi. Selles protsessis on kolm sammu. 1. etapp on kohustuslik ning sammud 2 ja 3 on valikulised.
+See artikkel annab teavet, kuidas konfigureerida oma teenuse keskkondi ja ühendatud rakendusi. Selles protsessis on kolm sammu. 1. etapp on kohustuslik ning sammud 2 ja 3 on valikulised.
 
 ## <a name="step-1-create-a-service-environment"></a>1. etapp: teenusekeskkonna loomine
 
@@ -44,6 +44,6 @@ Selle sammu lõpuleviimiseks vt kliendi [serte ja saladusi](e-invoicing-customer
 
 ## <a name="step-3-configure-connected-applications"></a>3. etapp: ühendatud rakenduste konfigureerimine
 
-Kommunikatsiooni Dynamics 365 Finance Dynamics 365 Supply Chain Management ja rakenduste vahelise ja elektroonilise arveldamise häälestamiseks peate konfigureerima finants- või tarneahelahalduse, et koostada kõne elektroonilise arveldamise teenusele ja valmistada äriandmed ette ühtses struktuuris, mida saab nõutud elektroonilisele vormingule edastada. Avaldused peavad teenuse vastused korrektselt töötlema. Selle konfiguratsiooni saate lõpetada otse oma finantside või tarneahela halduskeskkonnas või viia selle lõpule Regulatiivse konfiguratsiooni teenuses (RCS). Kui lõpetate konfiguratsiooni RCS-s, saate selle seejärel juurutada oma finantside või tarneahela haldamise keskkonda. Selles etapis registreerite ühendatud rakenduse parameetri juurutamiseks.
+Dynamics 365 Dynamics 365 Supply Chain Management Finantside või rakenduste ja elektroonilise arveldamise vahelise kommunikatsiooni häälestamiseks peate konfigureerima finants- või tarneahelahalduse, et koostada kõne elektroonilise arveldamise teenusele ja valmistada äriandmed ette ühtses struktuuris, mida saab ülendada nõutud elektroonilisele vormingule. Avaldused peavad teenuse vastused korrektselt töötlema. Selle konfiguratsiooni saate lõpetada otse oma finantside või tarneahela halduskeskkonnas või viia selle lõpule Regulatiivse konfiguratsiooni teenuses (RCS). Kui lõpetate konfiguratsiooni RCS-s, saate selle seejärel juurutada oma finantside või tarneahela haldamise keskkonda. Selles etapis registreerite ühendatud rakenduse parameetri juurutamiseks.
 
 Selle sammu lõpuleviimiseks vaadake ühendatud [rakendusi](e-invoicing-connected-applications.md).

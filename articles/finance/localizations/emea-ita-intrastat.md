@@ -1,6 +1,6 @@
 ---
 title: Itaalia Intrastat
-description: See teema sisaldab teavet Itaalia Intrastat-aruandluse kohta.
+description: See artikkel sisaldab teavet Itaalia Intrastat-aruandluse kohta.
 author: anasyash
 ms.date: 09/09/2021
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: kfend
 ms.search.region: Global
 ms.author: anasyash
 ms.search.validFrom: ''
-ms.openlocfilehash: 3b676ba754cded03fdc6d566ffbfbb35c204b03a
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: a4531baf29759607c877c815b849067f718851b5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488255"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874359"
 ---
 # <a name="italian-intrastat"></a>Itaalia Intrastat
 
@@ -631,7 +631,7 @@ Itaalia-spetsiifiliste valikute seadistamiseks saate intrastatiga töötada jär
 
     Lisateavet leiate jaotisest [Elektroonilise aruandluse konfiguratsioonide allalaadimine teenusest Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
 
-2. Rakenduses Dynamics 365 Finance avage **Maks** > **Seadistus** > **Väliskaubanduse parameetrid**.
+2. Rakenduses Dynamics 365 Finance minge maksu **seadistamise** > **väliskaubanduse** > **parameetritele**.
 3. Seadke vahekaardi **Intrastat** kiirkaardil **Üldine** järgmised väljad.
 
     - **Lähte-/sihtriik**: Valige oma ettevõtte maakond. Seda maakonda kasutatakse lähetamisel.
@@ -650,7 +650,7 @@ Itaalia-spetsiifiliste valikute seadistamiseks saate intrastatiga töötada jär
 6. Seadke kiirkaardi **Statistiline väärtus** suvandi **Prindi ja ekspordi statistilised andmed** väärtuseks **Jah**, kui vajalik. See säte aktiveerib statistilise sektsiooni ülekandmise. Statistiline jaotis koosneb andmetest kaalude, lisaühikute, statistiliste väärtuste, tarnetingimuste, tarnegraafikute, transpordiviiside ja lähtepiirkondade kohta.
 
     > [!NOTE]
-    > Kvartaliaruande puhul ei lisa Intrastat-aruanne statistilist jaotist ega teavet tarnetingimuste ja transpordiviiside kohta. Lisateavet leiate selle teema jaotise tabelist [Ülevaade](#overview).
+    > Kvartaliaruande puhul ei lisa Intrastat-aruanne statistilist jaotist ega teavet tarnetingimuste ja transpordiviiside kohta. Lisateavet vt selle artikli ülevaate [jaotisest](#overview).
 
 7. **Riigi/regiooni atribuutide** vahekaardil loetlege kõik riigid või regioonid, millega teie organisatsioonil on ärisuhted. Määrake igale riigile või regioonile järgmised väljad.
 

@@ -1,6 +1,6 @@
 ---
-title: Elektroonilise aruandluse hankija näidistšekid
-description: Selles teemas antakse üldist teavet selle kohta, kuidas kasutada elektroonilise aruandluse tšekkide näidisvorminguid.
+title: Hankija näidistšekid elektroonilise aruandluse korral
+description: See artikkel annab üldist teavet selle kohta, kuidas kasutada elektroonilise aruandluse näidiskontrolli vorminguid.
 author: sunfzam
 ms.date: 06/14/2017
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 38a037903a994f6212f4ccce10e10c795eb7364d
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: d2b26a083540924d2368a298632aea90ecf95e9b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734540"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908179"
 ---
 # <a name="electronic-reporting-sample-vendor-checks"></a>Elektroonilise aruandluse hankija näidistšekid
 
@@ -28,7 +28,7 @@ Elektroonilise aruandluse (ER) abil saab hankija tšekke vormindada. Turul on sa
 
 ## <a name="what-check-formats-are-currently-supported"></a>Milliseid tšekivorminguid praegu toetatakse?
 
-Saate alati minna teenuses Microsoft Dynamics Lifecycle Services (LCS) olevasse ühiste varade teeki ja vaadata ajakohast loendit saadaolevatest failidest, mille vara tüüp on **GER-i konfiguratsioon**. Järgmine jaotis „Mida pean seadistamiseks tegema?” sisaldab linki teema juurde, mis selgitab, kuidas luua LCS-hoidlat, et saadaolevaid konfiguratsioone üle vaadata ja valitud konfiguratsioone importida.
+Saate alati minna teenuses Microsoft Dynamics Lifecycle Services (LCS) olevasse ühiste varade teeki ja vaadata ajakohast loendit saadaolevatest failidest, mille vara tüüp on **GER-i konfiguratsioon**. Järgmine lõik "Mida ma peaks häälestama?" sisaldab linki artiklile, mis selgitab LCS-i hoidla loomise viise, nii et saate üle vaadata saadaolevad konfiguratsioonid ja importida valitud konfiguratsioonid.
 
 Microsoft Dynamics Finantsid 365 sisaldavad näidisvormingut, kus tšekk on ülemisel, millele järgnevad kaks rahaülekande sektsiooni. See sisaldab ka näidisvormingut, kus tšekk on keskel, kahe ülekande jaotise vahel. Need näidisvormingud vastavad Deluxe-tšekivormingutele.
 

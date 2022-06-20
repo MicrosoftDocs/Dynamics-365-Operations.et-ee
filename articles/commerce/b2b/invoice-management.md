@@ -1,6 +1,6 @@
 ---
 title: Arvehaldus B2B e-kaubanduse veebisaitide jaoks
-description: Selles teemas kirjeldatakse ettevõtete-ettevõtete Microsoft Dynamics 365 Commerce (B2B) e-kaubanduse veebisaitide arvehalduse võimalusi.
+description: See artikkel kirjeldab ettevõtete-ettevõtte (Microsoft Dynamics 365 Commerce B2B) e-kaubanduse veebisaitide arvehalduse võimalusi.
 author: shajain
 ms.date: 02/16/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 60cb0c8aaede4a0eaeed80cf5ebe41068da57836
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: fa6b81187481a6b7f47ea02291e5a581052d6c7b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686296"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854922"
 ---
 # <a name="invoice-management-for-b2b-e-commerce-websites"></a>Arvehaldus B2B e-kaubanduse veebisaitide jaoks
 
 [!include [banner](../../includes/banner.md)]
 
-Selles teemas kirjeldatakse ettevõtete-ettevõtete Microsoft Dynamics 365 Commerce (B2B) e-kaubanduse veebisaitide arvehalduse võimalusi.
+See artikkel kirjeldab ettevõtete-ettevõtte (Microsoft Dynamics 365 Commerce B2B) e-kaubanduse veebisaitide arvehalduse võimalusi.
 
 B2B-kandeid käitlevad ettevõtted on tavaks aktsepteerida kliendikrediidi tellimusi ja seejärel saata klientidele arve pärast tellimuse täitmist. Maksetingimused on määratud klientidele ja võivad olla mõned allahindlused, et motiveerida kliente maksma õigeaegselt või enne aega. Maksete õigeaegselt laekumise tõenäosuse suurendamiseks lasevad B2B e-äri veebisaidid klientidel vaadata kõiki oma arveid. Klient saab arveid hõlpsasti filtreerida, et vaadata nii makstud, maksmata kui ka osaliselt makstud arveid koos maksetähtaegadega.
 

@@ -1,6 +1,6 @@
 ---
 title: Allhanketöö haldamine tootmises
-description: Selles teemas selgitatakse, kuidas hallatakse Dynamics 365 Supply Chain Managementis allhanketööd. Teisisõnu selgitab see, kuidas hankija haldab ressursile määratud tootmisoperatsioone.
+description: See artikkel selgitab, kuidas alltöövõtu toiminguid hallatakse Dynamics 365 Supply Chain Management. Teisisõnu selgitab see, kuidas hankija haldab ressursile määratud tootmisoperatsioone.
 author: johanhoffmann
 ms.date: 11/03/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7e80efc751ccf9243163d23ed48fd17923326f89
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: a0021d409f9f4a9b36effbd80a99766812572d5b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579375"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863791"
 ---
 # <a name="manage-subcontracting-work-in-production"></a>Allhanketöö haldamine tootmises
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas selgitatakse, kuidas hallatakse Dynamics 365 Supply Chain Managementis allhanketööd. Teisisõnu selgitab see, kuidas hankija haldab ressursile määratud tootmisoperatsioone.
+See artikkel selgitab, kuidas alltöövõtu toiminguid hallatakse Dynamics 365 Supply Chain Management. Teisisõnu selgitab see, kuidas hankija haldab ressursile määratud tootmisoperatsioone.
 
 [Tootmisprotsessides](production-process-overview.md) võivad tööd teha ressursid, mille omanikud on või mida haldavad hankijad. Tavaliselt kasutatakse hankija ressursse perioodilise liigse nõudluse tasakaalustamiseks, kui see ületab ettevõtte oma ressursside mahtu. Võib-olla saab hankija pakkuda ka konkreetseid [ressursivõimalusi](resource-capabilities.md)või ressursse madalama hinnaga.  
 
@@ -63,7 +63,7 @@ Selle konfiguratsiooni kasutamisel koostatakse seotud teenusetootele ostutellimu
 Tootmistellimusel võib olla mitu operatsiooni ja iga operatsiooni saab määrata erinevale hankijale. Seega võib terve tootmistellimus käivitada mitu ostutellimust.
 
 ## <a name="subcontracting-of-production-flow-activities"></a>Tootmisvoo tegevuste allhange
-[Lean manufacturingi](lean-manufacturing-overview.md) lahendus modelleerib allhanketööd teenusena, mis on seotud [tootmisvoo](tasks/create-production-flow-version.md) tegevusega (tegevuse juhise teema). Seetõttu nimetatakse seda tüüpi allhanget ka [tegevusepõhiseks allhankeks.](activity-based-subcontracting.md) Kasutusele on võetud kulugrupi eritüüp **Otse sisseostmine** ja allhanketeenused ei ole enam valmis kauba koosluse osa. Lean manufacturingi kasutamisel määratletakse kõik tegevused kanbanidega, mille saab seostada vähemalt ühe tootmisvoo tegevusega. Siiamaani kõlab see selgitud täpselt nagu tootmistellimuste selgitus. Kuid kui tootmistellimused peavad alati lõppema valmis tootega, siis kanbane saab luua pooltoote tarnimiseks. Uut toodet ja koosluse taset pole vaja tekitada.  
+Lean [manufacturingi](lean-manufacturing-overview.md) lahenduse mudelid alltöövõtutöö kui teenus, mis on seotud tootmisvoo [tegevusega](tasks/create-production-flow-version.md) (ülesande juhendi artikkel). Seetõttu nimetatakse seda tüüpi allhanget ka [tegevusepõhiseks allhankeks.](activity-based-subcontracting.md) Kasutusele on võetud kulugrupi eritüüp **Otse sisseostmine** ja allhanketeenused ei ole enam valmis kauba koosluse osa. Lean manufacturingi kasutamisel määratletakse kõik tegevused kanbanidega, mille saab seostada vähemalt ühe tootmisvoo tegevusega. Siiamaani kõlab see selgitud täpselt nagu tootmistellimuste selgitus. Kuid kui tootmistellimused peavad alati lõppema valmis tootega, siis kanbane saab luua pooltoote tarnimiseks. Uut toodet ja koosluse taset pole vaja tekitada.  
 
 Kuna kanbani reeglid võivad olla väga dünaamilised, saate modelleerida sama toote jaoks tootmisvoos erinevaid tarnevariante. Säästliku allhanke kasutamisel on materjalivoog ja finantsvoog rangelt eraldatud. Kogu materjalivoog kajastatakse kanban-tegevustega. Teenusetoodete ostutellimused ja nende teenuste kviitungite sisestamised saab automatiseerida, tuginedes kanban-tööde olekule tootmisvoos. Kanban-töid saab alustada ja lõpetada isegi enne ostutellimuste loomist. Allhankedokumendid (ostutellimus ja teenuse ostukviitung) saab koondada perioodi ja teenuse järgi. Seega saab ostudokumentide ja ridade arvu väiksena hoida, isegi rohkete korduvate operatsioonide puhul, kui hankijad osutavad allhanketeenuseid üheosalises voos.
 

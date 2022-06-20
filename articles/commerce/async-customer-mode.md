@@ -1,6 +1,6 @@
 ---
 title: Asünkroonne kliendi loomise režiim
-description: See teema kirjeldab asünkroonset kliendi loomise režiimi moodulis Microsoft Dynamics 365 Commerce
+description: See artikkel kirjeldab asünkroonset kliendi loomise režiimi moodulis Microsoft Dynamics 365 Commerce
 author: gvrmohanreddy
 ms.date: 12/10/2021
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-12-17
-ms.openlocfilehash: ca7cceb066d30b7bba82265a3654f3bfb26f57f6
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 4ca63fe06a804035e976a3432454078c1cca0020
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689098"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880136"
 ---
 # <a name="asynchronous-customer-creation-mode"></a>Asünkroonne kliendi loomise režiim
 
 [!include [banner](includes/banner.md)]
 
-See teema kirjeldab asünkroonset kliendi loomise režiimi moodulis Microsoft Dynamics 365 Commerce
+See artikkel kirjeldab asünkroonset kliendi loomise režiimi moodulis Microsoft Dynamics 365 Commerce
 
 Äris on kliendi loomiseks kaks režiimi: sünkroonne (või sünkroonitud) ja asünkroonne (või async). Vaikimisi luuakse kliendid sünkroonselt. See tähendab, et need luuakse Commerce Headquarters`is reaalajas. Sünkroonitud kliendi loomise režiim on kohe tellitav, kuna uued kliendid on kanalites kohe otsitavad. Ent sellel on ka puudusi. Kuna see loob [Commerce Data Exchange: Real-time Service'i](dev-itpro/define-retail-channel-communications-cdx.md#realtime-service) kutsed Commerce Headquarters`isse, võib see mõjutada jõudlust, kui tehakse mitu samaaegset kliendi loomise kutset.
 

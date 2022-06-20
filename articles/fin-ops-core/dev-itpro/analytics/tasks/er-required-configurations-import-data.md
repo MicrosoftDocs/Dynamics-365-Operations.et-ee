@@ -1,6 +1,6 @@
 ---
 title: Elektrooniline aruandlus. Nõutavate konfiguratsioonide loomine andmete importimiseks välisest failist
-description: Selles teemas kirjeldatakse, kuidas kujundada elektroonilise aruandluse konfiguratsioone andmete importimiseks välisest failist rakendusse Microsoft Dynamics 365 Finance.
+description: See artikkel kirjeldab, kuidas kujundada elektroonilise aruandluse konfiguratsioone Microsoft Dynamics, et importida andmeid välisest failist rakendusesse 365 Finance.
 author: NickSelin
 ms.date: 03/24/2021
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7eaa35baae8e030d8a8b7ce903554c4876c874b48cfd72d6ac278cf4c0e8a6e8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: aa1dc55e8cdee7d61e5ababe92e8a9234788664f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720852"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865889"
 ---
 # <a name="er-create-required-configurations-to-import-data-from-an-external-file"></a>Elektrooniline aruandlus. Nõutavate konfiguratsioonide loomine andmete importimiseks välisest failist
 
@@ -241,7 +241,7 @@ Käivitage selle vormingu vastendamine testimisotstarbel. Kasutage varsemalt all
 19. Sulgege leht.
 20. Klõpsake nuppu Redigeeri.
 
-    Kui installisite kiirparanduse „KB 4012871 GER-i mudeli vastenduste tugi eraldi konfiguratsioonides võimalusega määrata erinevat tüüpi eeltingimused nende juurutamiseks erinevates rakenduse Dynamics 365 Finance versioonides” ([KB 4012871](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871)), käivitage sisestatud vormingu konfiguratsiooni puhul järgmine etapp „Lülita lipp Mudelivastenduse vaikeväärtus sisse”. Vastasel juhul jätke järgmine etapp vahele.  
+    Kui installisite kiirparanduse KB 4012871 MODEL vastenduste toe eraldatud konfiguratsioonides, kus on võimalik määrata erinevaid eeltingimusi nende juurutamiseks Dynamics 365 finantside eri versioonides ([KB 4012871), käivitage](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871) järgmine samm "Lülita lipp mudeli vastendamise vaikesäte" sisestatud vormingu konfiguratsiooni jaoks. Vastasel juhul jätke järgmine etapp vahele.  
 
 21. Väljal Mudelivastenduse vaikeväärtus valige Jah.
 22. Puuvaates valige „1099 maksete mudel”.

@@ -1,6 +1,6 @@
 ---
 title: Akordionmoodul
-description: See teema hõlmab akordionmooduleid ja selles kirjeldatakse, kuidas neid rakenduses Microsoft Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
+description: See artikkel käsitleb igioonmooduliid ja kirjeldab, kuidas lisada neid saidile lehekülgedele moodulis Microsoft Dynamics 365 Commerce
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: e17476d745da6f498b4f3ed90d55b0d13a0264b6
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: 4d5c56ea1a54e105b0c616958a18fd61077bca39
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780685"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853820"
 ---
 # <a name="accordion-module"></a>Akordionmoodul
 
 [!include [banner](includes/banner.md)]
 
-See teema hõlmab akordionmooduleid ja selles kirjeldatakse, kuidas neid rakenduses Microsoft Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
+See artikkel käsitleb igioonmooduliid ja kirjeldab, kuidas lisada neid saidile lehekülgedele moodulis Microsoft Dynamics 365 Commerce
 
 Akordionmoodulid on konteinerilaadsed moodulid, mis pakuvad leheküljel teabe või moodulite korrastamiseks võimalust, mis sarnaneb ahendatava sahtliga. Akordionmoodulit saab kasutada igal leheküljel.
 

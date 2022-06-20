@@ -1,6 +1,6 @@
 ---
 title: Euroopa käibemaksuaruandlus
-description: Selles teemas antakse üldine ülevaade käibemaksu (KM) aruande seadistamise ja koostamise kohta mõningates Euroopa riikides.
+description: See artikkel annab üldist teavet mõne Euroopa riigi käibemaksuaruande seadistamise ja loomise kohta.
 author: ShylaThompson
 ms.date: 03/24/2022
 ms.topic: article
@@ -14,20 +14,20 @@ ms.search.region: Austria, Belgium, Czech Republic, Estonia, Finland, Germany, L
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a1f7611dcf713e80f637a4b3f5542763050ac4a6
-ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
+ms.openlocfilehash: e25b01133bfaa84186faf82c80f24a119b40ac2e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "8487749"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856537"
 ---
 # <a name="vat-reporting-for-europe"></a>Euroopa käibemaksuaruandlus
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas antakse üldine ülevaade käibemaksu (KM) aruande seadistamise ja koostamise kohta mõningates Euroopa riikides.
+See artikkel annab üldist teavet mõne Euroopa riigi käibemaksuaruande seadistamise ja loomise kohta.
 
-See teema käsitleb üldiselt KM-aruande seadistamist ja koostamist. See lähenemine on tavapärane kasutajate puhul järgmiste riikide/regioonide juriidiliste isikute puhul:
+See artikkel pakub üldist lähenemist KM-aruande seadistamisele ja loomisele. See lähenemine on tavapärane kasutajate puhul järgmiste riikide/regioonide juriidiliste isikute puhul:
 
 -   Austria
 -   Belgia
@@ -41,7 +41,7 @@ See teema käsitleb üldiselt KM-aruande seadistamist ja koostamist. See lähene
 -   Rootsi
 
 > [!IMPORTANT]
-> Selles teemas kirjeldatud funktsioonid Austria, Tšehhi Vabariigi, Saksamaa, Hollandi ja Rootsi puhul on taunitav. Lisateavet vt jaotisest Eemaldatud [ja aegunud funktsioonid](../get-started/removed-deprecated-features-finance.md).
+> Selles artiklis kirjeldatud funktsioonid Austria, Tšehhi Vabariigi, Saksamaa, Hollandi ja Rootsi puhul on taunitav. Lisateavet vt jaotisest Eemaldatud [ja aegunud funktsioonid](../get-started/removed-deprecated-features-finance.md).
 > Kasutage järgmise tabeli linke, et saada lisateavet km-i deklaratsiooni uue kujunduse kohta vastavates riikides.
 > 
 >
@@ -60,7 +60,7 @@ See teema käsitleb üldiselt KM-aruande seadistamist ja koostamist. See lähene
 > | UK             | [Ettevalmistamine INTEGREERIMISEks MRD-ga KM jaoks](emea-gbr-mtd-vat-integration.md) |
 
 ## <a name="vat-statement-overview"></a>KM-aruande ülevaade
-KM-aruanne põhineb maksukannete summadel. KM-aruande koostamise protsess kuulub käibemaksu tasumise protsessi juurde, mida rakendatakse funktsiooni Käibemaksu tasakaalustamine ja sisestamine kaudu. See funktsioon arvutab käibemaksu, mille tähtaeg jääb antud perioodi sisse. Tasakaalustuse arvutamine sisaldab maksukannete valitud tasakaalustusperioodil sisestatud käibemaksu. KM-aruande andmete arvutusprotsess põhineb käibemaksukoodide ja käibemaksuaruandluse koodide vahelisel seosel, mille alusel käibemaksuaruandluse koodid vastavad käibemaksuaruannete väljadele (või XML-i siltidele). Iga käibemaksukoodi puhul tuleb seadistada igale kandetüübile (nt maksustatav müügikäive, maksustatavad ostud, maksustatav import) käibemaksuaruandluse koodid. Seda liiki kandeid on kirjeldatud selle teema edasises jaotises KM-koodid KM-aruandluse jaoks.
+KM-aruanne põhineb maksukannete summadel. KM-aruande koostamise protsess kuulub käibemaksu tasumise protsessi juurde, mida rakendatakse funktsiooni Käibemaksu tasakaalustamine ja sisestamine kaudu. See funktsioon arvutab käibemaksu, mille tähtaeg jääb antud perioodi sisse. Tasakaalustuse arvutamine sisaldab maksukannete valitud tasakaalustusperioodil sisestatud käibemaksu. KM-aruande andmete arvutusprotsess põhineb käibemaksukoodide ja käibemaksuaruandluse koodide vahelisel seosel, mille alusel käibemaksuaruandluse koodid vastavad käibemaksuaruannete väljadele (või XML-i siltidele). Iga käibemaksukoodi puhul tuleb seadistada igale kandetüübile (nt maksustatav müügikäive, maksustatavad ostud, maksustatav import) käibemaksuaruandluse koodid. Seda tüüpi kandeid kirjeldatakse selles artiklis allpool olevates käibemaksuaruandluse jaotistes Käibemaksukoodid.
 
 Iga käibemaksuaruandluse koodi puhul tuleb määrata konkreetne aruande paigutus. Samal ajal on käibemaksukoodid seotud käibemaksu tasakaalustamise perioodide kaudu konkreetse käibemaksuasutusega. Iga käibemaksuasutuse puhul tuleb määrata aruande paigutus. Seega saab käibemaksukoodi aruande seadistuses valida ainult sama aruande paigutusega KM-aruandluse koode, mis on seadistatud käibemaksuasutuse jaoks käibemaksukoodi käibemaksu tasakaalustusperioodil. Tellimuse või töölehe sisestamisel loodud käibemaksukanne sisaldab käibemaksukoodi, käibemaksu allikat, käibemaksu suunda ja kandesummasid (maksu põhisumma ja maksusumma arvestusvaluutas, käibemaksu valuuta ja kande valuuta). Maksukannete atribuutide kombinatsiooni põhjal koostavad kandesummad käibemaksukoodidele määratud käibemaksuaruandluse koodide koondsummad. Järgmine illustratsioon näitab andmete seost.
 

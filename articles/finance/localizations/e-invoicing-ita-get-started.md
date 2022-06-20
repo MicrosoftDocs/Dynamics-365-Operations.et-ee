@@ -1,6 +1,6 @@
 ---
 title: Elektroonilise arvelduse lisandmooduli kasutamise alustamine Itaalias
-description: Sellest teemast leiate teabe, mis aitab teil alustada elektroonilise arveldusega Itaalias.
+description: See artikkel annab teavet, mis aitab teil alustada Itaalia elektroonilise arveldusega.
 author: gionoder
 ms.date: 09/22/2020
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: c0197ff9d93833aa50fef56ec597fa0c904d792d
-ms.sourcegitcommit: 8bcb9c13eccb14e61c39ca6578d135b64090fad2
+ms.openlocfilehash: a04866cef56aaa6f52a0177fae8c1e4f8fc6e70e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8313640"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908978"
 ---
 # <a name="get-started-with-electronic-invoicing-for-italy"></a>Elektroonilise arvelduse lisandmooduli kasutamise alustamine Itaalias
 
@@ -30,13 +30,13 @@ ms.locfileid: "8313640"
 
 
 > [!IMPORTANT]
-> Itaalia elektroonilise arvelduse lisandmoodul ei pruugi praegu toetada kõiki elektrooniliste arvete jaoks saadaolevaid funktsioone rakendustes Microsoft Dynamics 365 Finance ja Dynamics 365 Supply Chain Management. 
+> Itaalia elektrooniline arveldamine ei pruugi praegu toetada kõiki funktsioone, mis on saadaval elektrooniliste arvete jaoks Microsoft Dynamics 365 Finantsis ja Dynamics 365 Supply Chain Management. 
 
-Sellest teemast leiate teabe, mis aitab teil alustada elektroonilise arveldusega Itaalias. Selles antakse juhiseid konfiguratsioonisammude kohta, mis on teenustes Regulatory Configuration Services (RCS) ja rakenduses Finance riigipõhised. Samuti antakse juhiseid selle kohta, kuidas edastada teenuse kaudu elektroonilisi arveid, mis on loodud Itaalia-põhises vormingus **FatturaPA**, ja selgitatakse, kuidas töötlemise tulemusi üle vaadata.
+See artikkel annab teavet, mis aitab teil alustada Itaalia elektroonilise arveldusega. Selles antakse juhiseid konfiguratsioonisammude kohta, mis on teenustes Regulatory Configuration Services (RCS) ja rakenduses Finance riigipõhised. Samuti antakse juhiseid selle kohta, kuidas edastada teenuse kaudu elektroonilisi arveid, mis on loodud Itaalia-põhises vormingus **FatturaPA**, ja selgitatakse, kuidas töötlemise tulemusi üle vaadata.
 
 ## <a name="prerequisites"></a>Eeltingimused
 
-Enne selle teema juhiste täitmist peate järgima teemas [Elektroonilise arvelduse lisandmooduli kasutamise alustamine](e-invoicing-get-started.md) olevaid juhiseid.
+Enne selle artikli sammude sooritamist peate lõpule viima sammud [jaotises Alusta elektroonilise arveldamisega](e-invoicing-get-started.md).
 
 ## <a name="rcs-setup"></a>RCS häälestus
 
@@ -203,7 +203,7 @@ Pärast funktsiooni **Konfigureeritav elektroonilise arvelduse lisandmooduli int
 Dokumente saate edastada käsitsi sõltuvalt nõudlusest e-arve dokumentide järele.
 
 > [!NOTE]
-> Enne jätkamist veenduge, et Itaalia e-arvete jaoks vajalik seadistus oleks lõpetatud. Lisateavet leiate teemast [Kliendi elektroonilised arved](./emea-ita-e-invoices.md). Pange tähele, et mõni selles teemas kirjeldatud seadistusetapp ei pruugi olla elektroonilise arvelduse lisandmooduli aktiveerimise tõttu saadaval.
+> Enne jätkamist veenduge, et Itaalia e-arvete jaoks vajalik seadistus oleks lõpetatud. Lisateavet leiate teemast [Kliendi elektroonilised arved](./emea-ita-e-invoices.md). Pange tähele, et mõned selles artiklis kirjeldatud seadistuse sammud ei pruugi elektroonilise arveldamise aktiveerimise tõttu saadaval olla.
 
 1. Avage **Organisatsiooni haldus \> Perioodiline \> Elektroonilised dokumendid \> Edasta elektroonilised dokumendid**.
 2. Mis tahes dokumendi esimese edastamise korral seadke suvandi **Dokumentide taasedastamine** väärtuseks **Ei**. Kui peate dokumendi teenuse kaudu uuesti edastama, seadke selle suvandi väärtuseks **Jah**.

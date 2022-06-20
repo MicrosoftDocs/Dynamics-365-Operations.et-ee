@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 Financei eemaldatud või aegunud funktsioonid
-description: See teema kirjeldab funktsioone, mis on eemaldatud või plaanitakse eemaldada Dynamics 365 Finance'ist.
+title: Dynamics 365 Finance'i eemaldatud või aegunud funktsioonid
+description: See artikkel kirjeldab funktsioone, mis on eemaldatud või plaanitud rakendusest Dynamics 365 Finance eemaldamiseks.
 author: kfend
 ms.date: 03/21/2022
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 6df84e5c2d530e708560495bceaeb23e2ee0dd4b
-ms.sourcegitcommit: acac5e59be7c8f4e9a7ae9be58c636c70342e784
+ms.openlocfilehash: 0278b57ccfa2da9dba6b5ea77821fdc47ad2d078
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8466830"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846650"
 ---
-# <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Dynamics 365 Financei eemaldatud või aegunud funktsioonid
+# <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Dynamics 365 Finance'i eemaldatud või aegunud funktsioonid
 
 [!include [banner](../includes/banner.md)]
 
-See teema kirjeldab funktsioone, mis on eemaldatud või plaanitakse eemaldada Dynamics 365 Finance'ist.
+See artikkel kirjeldab funktsioone, mis on eemaldatud või plaanitud rakendusest Dynamics 365 Finance eemaldamiseks.
 
 - *Eemaldatud* funktsioon pole tootes enam saadaval.
 - *Aegunud* funktsioon ei ole aktiivses arenduses ja vee võidakse tulevases värskenduses eemaldada.
@@ -129,7 +129,7 @@ See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võ
 |------------|--------------------|
 | **Aegumise/eemaldamise põhjus** | Asendatud uue regulatiivse konfiguratsiooniteenuse (RCS) globaalse hoidlaga |
 | **Asendatud teise funktsiooniga?**   | Jah |
-| **Mõjutatud tootealad**         | Dynamics 365 Finance, Supply Chain Management, ja Project Operations tooted|
+| **Mõjutatud tootealad**         | Dynamics 365 finantside, tarneahela halduse ja projektitoimingute tooted|
 | **Juurutamissuvand**              | Kõik |
 | **Olek**                         | Aegumine: 01. aprilliks 2022 ei plaani me enam Lifecycle Services (LCS) hoidlat elektroonilise aruandluse Microsoft Dynamics (ER) konfiguratsioonide talletusvalikuna toetada. Uued Microsofti ER-i konfiguratsioonid avaldatakse allalaadimiseks ainult globaalsest hoidlast. Globaalsele hoidlale pääseb juurde Dynamics 365 toodetest ja RCS-ist. Lisateavet vt [ER-i konfiguratsioonide importimine RCS-st](../../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md) ja [Regulatory Configuration Service – Lifecycle Services salvestuse aegumine](../localizations/rcs-lcs-repo-dep-faq.md). |
 

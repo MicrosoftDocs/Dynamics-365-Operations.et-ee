@@ -1,6 +1,6 @@
 ---
 title: Varude ajalise jaotuse aruande talletamine
-description: Selles teemas kirjeldatakse funktsiooni, mis võimaldab teil käitada varude ajalise jaotuse aruannet ja muuta tulemus kättesaadavaks nii vormi kui ka diagrammi kujul.
+description: See artikkel kirjeldab funktsioone, mis võimaldab teil käivitada varude aegumisaruande ning muuta toodangu kättesaadavaks vormi ja diagrammina.
 author: JennySong-SH
 ms.date: 11/11/2019
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: yanansong
 ms.search.validFrom: 2019-01-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fe9e91c33c782c319245b9e8c667f5db6a0e929c
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 1d810ec90c85f2f7758ec01ef4b24611e026cc80
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672370"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875564"
 ---
 # <a name="inventory-aging-report-storage"></a>Varude ajalise jaotuse aruande talletamine
 

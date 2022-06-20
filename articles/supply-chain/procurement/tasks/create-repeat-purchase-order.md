@@ -1,6 +1,6 @@
 ---
 title: Korduva ostutellimuse loomine
-description: Selles teemas näidatakse, kuidas luua korduvat ostutellimust, kopeerides read varasemast ostutellimust dokumendist uude ostutellimusse või olemasolevasse ostutellimusse.
+description: See artikkel näitab, kuidas luua korduvat ostutellimust (PO), kopeerides ridu varasema ostutellimuse dokumendist uude ostutellimusesse või olemasolevasse ostutellimusse.
 author: GalynaFedorova
 ms.date: 07/29/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: be4eca824794b8d45c7a6f40cb68aff7c4a53cd0
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 42bfbc7a10d21a475055ee87e76c89db0ad64165
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8671109"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865088"
 ---
 # <a name="create-a-repeat-purchase-order"></a>Korduva ostutellimuse loomine
 
 [!include [banner](../../includes/banner.md)]
 
-Selles teemas näidatakse, kuidas luua korduvat ostutellimust, kopeerides read varasemast ostutellimust dokumendist uude ostutellimusse või olemasolevasse ostutellimusse. Korduvate tellimuste koostamiseks on kaks meetodit. Saate kasutada dokumendi tasandil saadaolevaid toiminguid tegumiribalt või kasutada rea üksikasjade toiminguid. Dokumendi tasandi toimingud on peamiselt mõeldud uue ostutellimuse loomiseks, lisades ridu ja päise andmeid teisest tellimusest, samas kui rea üksikasjade toiming on peamiselt mõeldud olemasolevale tellimusele ridade lisamiseks. Selles juhendis toodud näidet saab kasutada demoandmete ettevõtte USMF puhul. Seda ülesannet täidab üldjuhul ostuagent.
+See artikkel näitab, kuidas luua korduvat ostutellimust (PO), kopeerides ridu varasema ostutellimuse dokumendist uude ostutellimusesse või olemasolevasse ostutellimusse. Korduvate tellimuste koostamiseks on kaks meetodit. Saate kasutada dokumendi tasandil saadaolevaid toiminguid tegumiribalt või kasutada rea üksikasjade toiminguid. Dokumendi tasandi toimingud on peamiselt mõeldud uue ostutellimuse loomiseks, lisades ridu ja päise andmeid teisest tellimusest, samas kui rea üksikasjade toiming on peamiselt mõeldud olemasolevale tellimusele ridade lisamiseks. Selles juhendis toodud näidet saab kasutada demoandmete ettevõtte USMF puhul. Seda ülesannet täidab üldjuhul ostuagent.
 
 
 ## <a name="create-a-new-repeat-purchase-order"></a>Uue korduva ostutellimuse loomine

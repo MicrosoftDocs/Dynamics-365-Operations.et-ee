@@ -1,6 +1,6 @@
 ---
 title: Ostukorvi ja väljaregistreerimise ülevaade
-description: See teema annab ülevaate ostukorvi ja kassa lehtedest rakenduses Microsoft Dynamics 365 Commerce.
+description: See artikkel annab ülevaate ostukorvi ja väljaregistreerimise lehtedest Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 09/15/2020
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3e450192025b29c655be49050aa3e61fc8acd898
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: e911a1be1f06fcb3c2af08bab835a2b1ab5590f4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982964"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853763"
 ---
 # <a name="cart-and-checkout-pages-overview"></a>Ostukorvi ja väljaregistreerimise ülevaade
 
 [!include [banner](includes/banner.md)]
 
-See teema annab ülevaate ostukorvi ja kassa lehtedest rakenduses Microsoft Dynamics 365 Commerce.
+See artikkel annab ülevaate ostukorvi ja väljaregistreerimise lehtedest Microsoft Dynamics 365 Commerce.
 
 E-kaubanduse veebisaidi ostukorvi lehel kuvatakse kõik kaubad, mille klient on ostukorvi lisanud. Ostukorvi lehekülg on ehitatud ostukorvi mooduli abil. Ostukorvi moodul on konteiner, mis majutab kõiki mooduleid, mis on vajalikud ostukorvis olevate kaupade esitlemiseks. Ostukorvi moodul saab kasutada ka teisi mooduleid, et näidata tellimuse kokkuvõtet ja kõiki kliendi tellimusele rakendatud kampaania koode.
 

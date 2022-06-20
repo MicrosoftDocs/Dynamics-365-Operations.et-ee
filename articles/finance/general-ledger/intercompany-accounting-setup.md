@@ -1,6 +1,6 @@
 ---
-title: Kontsernisisese raamatupidamise seadistus
-description: Selles teemas selgitatakse, kuidas seadistada kontsernisisest raamatupidamist nii, et saaksite kasutada kontsernisiseseid töölehti pearaamatueraldiste ja finantstöölehtede (nt igapäevaste töölehtede, hankija arve töölehtede ja maksetöölehtede) jaoks.
+title: Kontsernisisese raamatupidamise häälestus
+description: See artikkel selgitab, kuidas seadistada kontserni raamatupidamist nii, et saate kasutada kontsernisiseseid töölehti pearaamatueraldiste ja finantstöölehtede, nt igapäevaste töölehtede, hankijaarvete töölehtede ja maksetöölehtede jaoks.
 author: kweekley
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9c9914d9fff3407d8d469fe2ed27a9bfd6b26a50
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: 309c121c1ef4b3814d676cad6f3c2b6826b59843
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720361"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871213"
 ---
-# <a name="intercompany-accounting-setup"></a>Kontsernisisese raamatupidamise seadistus
+# <a name="intercompany-accounting-setup"></a>Kontsernisisese raamatupidamise häälestus
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas selgitatakse, kuidas seadistada kontsernisisest raamatupidamist nii, et saaksite kasutada kontsernisiseseid töölehti pearaamatueraldiste ja finantstöölehtede (nt igapäevaste töölehtede, hankija arve töölehtede ja maksetöölehtede) jaoks.
+See artikkel selgitab, kuidas seadistada kontserni raamatupidamist nii, et saate kasutada kontsernisiseseid töölehti pearaamatueraldiste ja finantstöölehtede, nt igapäevaste töölehtede, hankijaarvete töölehtede ja maksetöölehtede jaoks.
 
 Kontserni töölehed saab luua mitmesugustes stsenaariumides, näiteks igapäevaste töölehtede, hankija arve töölehtede, pearaamatu eraldiste ja tsentraliseeritud maksete jaoks. Nende stsenaariumide lubamiseks peate seadistama kontsernisisese raamatupidamise.
 

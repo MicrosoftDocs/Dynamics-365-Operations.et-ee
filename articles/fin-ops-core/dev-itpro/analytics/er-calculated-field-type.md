@@ -1,8 +1,8 @@
 ---
 title: Arvutatud väljatüübi ER-andmeallikate parameetritega kõned
-description: See teema annab teavet selle kohta, kuidas kasutada arvutatud väljatüüpi ER-andmeallikate puhul.
+description: See artikkel annab teavet, kuidas kasutada ER-i andmeallikate puhul välja Arvutatud tüüpi.
 author: NickSelin
-ms.date: 08/06/2020
+ms.date: 01/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,21 +14,21 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: fb09e1ccd4b2be08e43784330adf4092ca25f5a6
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
-ms.translationtype: HT
+ms.openlocfilehash: 4a4933c429982d1371c7c9a9412789ae08e08f43
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6349156"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934722"
 ---
 # <a name="support-parameterized-calls-of-er-data-sources-of-the-calculated-field-type"></a>Arvutatud väljatüübi ER-andmeallikate parameetritega kõned
 
 [!include [banner](../includes/banner.md)]
 
-See teema selgitab, kuidas saate kujundada elektroonilise aruandluse (ER) andmeallikat, kasutades tüüpi **Arvutatud väli**. See andmeallikas võib sisaldada ER-avaldist, mida käivitamisel saab juhtida seda andmeallikat nimetavas sidumises konfigureeritud parameetriargumentide väärtustega. Sellise andmeallika parameeteriseeritud kõnede konfigureerimisega saate ühte andmeallikat mitmes sidumises uuesti kasutada, mis vähendab ER-mudeli vastendustes või ER-vormingutes konfigureeritavate andmeallikate koguarvu. See lihtsustab ka konfigureeritud ER-komponenti, mis vähendab hoolduskulusid ja teiste tarbijate kasutuskulusid.
+See artikkel selgitab, kuidas kujundada elektroonilise aruandluse (ER) andmeallikat, kasutades välja **tüüpi Arvutatud**. See andmeallikas võib sisaldada ER-avaldist, mida käivitamisel saab juhtida seda andmeallikat nimetavas sidumises konfigureeritud parameetriargumentide väärtustega. Sellise andmeallika parameeteriseeritud kõnede konfigureerimisega saate ühte andmeallikat mitmes sidumises uuesti kasutada, mis vähendab ER-mudeli vastendustes või ER-vormingutes konfigureeritavate andmeallikate koguarvu. See lihtsustab ka konfigureeritud ER-komponenti, mis vähendab hoolduskulusid ja teiste tarbijate kasutuskulusid.
 
 ## <a name="prerequisites"></a>Eeltingimused
-Selles teemas näidete lõpuleviimiseks peavad teil olema järgmised juurdepääsuõigused.
+Selle artikli näidete lõpetamiseks peab teil olema järgmine juurdepääs:
 
 - Juurdepääs ühele neist rollidest:
 
@@ -36,7 +36,7 @@ Selles teemas näidete lõpuleviimiseks peavad teil olema järgmised juurdepää
     - Elektroonilise aruandluse funktsionaalne konsultant
     - Süsteemiadministraator
 
-- Juurdepääs teenustele Regulatory Configuration Services (RCS), mis on ette valmistatud sama rentniku jaoks, nagu rakendus Finance and Operations, ühe järgmise rolli jaoks.
+- Juurdepääs teenuse Regulatory Configuration Services (RCS) eksemplarile, mis on ette valmistatud sama rentniku jaoks, nagu rakendus Finance and Operations, ühe järgmise rolli jaoks:
 
     - Elektroonilise aruandluse arendaja
     - Elektroonilise aruandluse funktsionaalne konsultant
@@ -46,10 +46,10 @@ Samuti peate alla laadima ja kohalikult talletama järgmised failid.
 
 | **Sisu**                           | **Faili nimi**                                        |
 |---------------------------------------|------------------------------------------------------|
-| ER-i andmemudeli konfiguratsiooni näide    | [Mudel parameetritega calls.version.1.xml õppimiseks](https://mbs.microsoft.com/customersource/global/AX/downloads/hot-fixes/365optelecrepeg)     |
-| ER-i metaandmete konfiguratsiooni näide      | [Metaandmed parameetritega calls.version.1.xml õppimiseks](https://mbs.microsoft.com/customersource/global/AX/downloads/hot-fixes/365optelecrepeg)  |
-| ER-i mudelivastenduse konfiguratsiooni näide | [Vastendamine parameetritega calls.version.1.xml õppimiseks](https://mbs.microsoft.com/customersource/global/AX/downloads/hot-fixes/365optelecrepeg) |
-| ER-vormingu konfiguratsiooni näide        | [Vorming parameetritega calls.version.1.xml õppimiseks](https://mbs.microsoft.com/customersource/global/AX/downloads/hot-fixes/365optelecrepeg)  |
+| ER-i andmemudeli konfiguratsiooni näide    | [Mudel parameetritega calls.version.1.xml õppimiseks](https://download.microsoft.com/download/e/5/c/e5c0d3f9-1818-47c7-ae75-46efcbb1314f/Modeltolearnparameterizedcallsversion.1.xml)     |
+| ER-i metaandmete konfiguratsiooni näide      | [Metaandmed parameetritega calls.version.1.xml õppimiseks](https://download.microsoft.com/download/8/3/a/83a910a5-bf65-4509-bec4-6737a81ecc45/Metadatatolearnparameterizedcalls.version.1.xml)  |
+| ER-i mudelivastenduse konfiguratsiooni näide | [Vastendamine parameetritega calls.version.1.xml õppimiseks](https://download.microsoft.com/download/b/f/d/bfd8cbd8-0370-44d1-a1b1-66d021c580ca/Mappingtolearnparameterizedcalls.version.1.1.xml) |
+| ER-vormingu konfiguratsiooni näide        | [Vorming parameetritega calls.version.1.xml õppimiseks](https://download.microsoft.com/download/8/1/d/81deb6d8-a768-4fcf-bbbe-8f84d2dac3eb/Formattolearnparameterizedcalls.version.1.1.xml)  |
 
 ## <a name="sign-in-to-your-rcs-instance"></a>Logige sisse oma RCS-eksemplari.
 Selles näites loote konfiguratsiooni näidisettevõtte Litware, Inc. jaoks. Esmalt peate RCS-is täitma teemas [Konfiguratsiooni pakkujate loomine ja nende aktiivseks märkimine](tasks/er-configuration-provider-mark-it-active-2016-11.md) toodud juhised.
@@ -84,7 +84,7 @@ Selles näites loote konfiguratsiooni näidisettevõtte Litware, Inc. jaoks. Esm
             - Maksuväärtuste summa.
             - Kohaldatava maksumäära miinimumväärtus.
 
-    Selle konfiguratsiooni mudeli vastendamine rakendab põhiandmete mudelit selle mudeli jaoks loodud ER-vormingute puhul, mida kasutatakse rakenduses Finance and Operations. Selle tulemusena on **Maksu-** ja **Gr-** andmeallikate sisu avatud ER-vormingute, näiteks abstraktsete andmeallikate puhul.
+    Selle konfiguratsiooni mudeli vastendamine rakendab põhiandmete mudelit selle mudeli jaoks loodud ning rakenduse Finance and Operations puhul. Selle tulemusena on **Maksu-** ja **Gr-** andmeallikate sisu avatud ER-vormingute, näiteks abstraktsete andmeallikate puhul.
 
     ![Mudeli vastendamise kujundaja lehekülg näitab maksu- ja Gr andme allikaid.](media/er-calculated-field-type-01.png)
 
@@ -306,7 +306,7 @@ Kui parameetritega arvutatud väli tagastab kirje, peate elementide vormindamise
 Saate käivitada algsed ja täiustatud ER-vormingud veendumaks, et konfigureeritud parameetritega arvutatud väljad töötavad õigesti.
 
 ### <a name="import-er-configurations"></a>Elektroonilise aruandluse konfiguratsioonide importimine
-Läbivaadatud konfiguratsioone saate RCS-ist importida tüübi **RCS** ER-hoidla abil. Kui te juba läbisite teemas toodud juhised [Elektroonilise aruandluse (ER) konfiguratsioonide importimine teenusest Regulatory Configuration Services (RCS)](rcs-download-configurations.md), kasutage konfigureeritud ER-hoidlat, et importida selles teemas varem arutatud konfiguratsioonid oma keskkonda. Muul juhul toimige järgmiselt.
+Läbivaadatud konfiguratsioone saate RCS-ist importida tüübi **RCS** ER-hoidla abil. Kui läbisite juba artikli sammud, [importige elektroonilise aruandluse (ER) konfiguratsioonid regulatiivsetest konfiguratsiooniteenustest (RCS)](rcs-download-configurations.md), kasutage konfigureeritud ER-i hoidlat, et importida varem selles artiklis toodud konfiguratsioonid teie keskkonda. Muul juhul toimige järgmiselt.
 
 1. Valige ettevõte **DEMF** ja valige vaikearmatuurlaual **Elektrooniline aruandlus**.
 2. Valige **Aruandluse konfiguratsioonid**.

@@ -1,6 +1,6 @@
 ---
 title: Kontoplaanide plaanimine
-description: Selles teemas antakse teavet, mis aitab teil planeerida organisatsiooni kontoplaane.
+description: Selles artiklis antakse teavet, mis aitab teil planeerida organisatsiooni kontoplaane.
 author: aprilolson
 ms.date: 04/02/2018
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0734276a736cfdb91ec3a129c83dae1c0a6d3955
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 6e797117199ff57cb4d3beae187ae7649579d33b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722460"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853344"
 ---
 # <a name="plan-your-chart-of-accounts"></a>Kontoplaanide plaanimine
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas antakse teavet, mis aitab teil planeerida organisatsiooni kontoplaane.
+Selles artiklis antakse teavet, mis aitab teil planeerida organisatsiooni kontoplaane.
 
 Organisatsiooni finantsteabe jälgimiseks ja säilitamiseks saate seadistada kontoplaani. Kontoplaan on finantsraamistikku määratlevate kontode kogum. Nende kontode kannete edasiseks jälgimiseks saate lisada segmente. Neid segmente nimetatakse finantsdimensioonideks. Näiteks võib kulukonto sisaldada finantsdimensioone nimedega Osakond, Kulukeskus ja Eesmärk. Kasutaja määratud reeglid määravad, kuidas finantsdimensioonid on seotud põhikontode ja muude finantsdimensioonidega ning kuidas kandeid sisestatakse. Neid kasutaja määratud reegleid nimetatakse konto struktuurideks ja täpsemateks reegliteks.
 

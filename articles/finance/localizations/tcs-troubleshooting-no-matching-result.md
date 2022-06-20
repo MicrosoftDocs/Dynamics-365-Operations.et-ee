@@ -1,6 +1,6 @@
 ---
-title: Vastavat tulemust ei leitud.
-description: See teema kirjeldab, kuidas sooritada maksuarvutuse teenuses tõrke "Vastavat tulemust ei leita" tõrkeotsingut.
+title: Vastavaid tulemusi ei leitud
+description: See artikkel selgitab, kuidas teha maksuarvutuse teenuses tõrke "Vastavat tulemust ei leita" tõrkeotsingut.
 author: hangwan
 ms.date: 03/25/2022
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: hangwan
 ms.search.validFrom: 03/23/2022
 ms.dyn365.ops.version: Version 10.0.21
-ms.openlocfilehash: c1a343b0b74645d40b0a2582749968cc0a56afd7
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: d3bbc76741fdd018d1b2987538b8de7f6d92ee53
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8648140"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845140"
 ---
-# <a name="no-matching-result-could-be-found"></a>Vastavat tulemust ei leitud.
+# <a name="no-matching-result-could-be-found"></a>Vastavaid tulemusi ei leitud
 
 [!include [banner](../includes/banner.md)]
 
-See teema selgitab tõrkeotsingu samme, mida võite ette võtta, kui saate maksu arvutamise teenuses tõrke "Vastavat tulemust ei leitud".
+See artikkel selgitab tõrkeotsingu samme, mida võite ette võtta, kui saate maksu arvutamise teenuses tõrke "Vastavustulemust ei leitud".
 
 ## <a name="symptom"></a>Sümptom
 

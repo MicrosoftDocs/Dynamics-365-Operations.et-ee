@@ -1,6 +1,6 @@
 ---
 title: B2B-saitide Commerce'i kataloogide loomine
-description: See teema kirjeldab, kuidas luua äriettevõtetele Microsoft Dynamics 365 Commerce (B2B) saitide ärikatalooge.
+description: See artikkel kirjeldab, kuidas luua äriettevõtetele Microsoft Dynamics 365 Commerce (B2B) saitide ärikatalooge.
 author: ashishmsft
 ms.date: 05/18/2022
 ms.topic: article
@@ -9,22 +9,22 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2022-02-28
-ms.openlocfilehash: 7382062706c2de01c499ee05aeb0b45ff6fb37cb
-ms.sourcegitcommit: bca0cb730307948368a9aabe322cf963688ed8b1
-ms.translationtype: MT
+ms.openlocfilehash: 7d87b6c64a6038c4518eeec178f9e139ef6f5ae2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8782833"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848985"
 ---
 # <a name="create-commerce-catalogs-for-b2b-sites"></a>B2B-saitide Commerce'i kataloogide loomine
 
 [!include [banner](includes/banner.md)]
 [!include [banner](includes/preview-banner.md)]
 
-See teema kirjeldab, kuidas luua äriettevõtetele Microsoft Dynamics 365 Commerce (B2B) saitide jaoks äritootekatalooge. Vastuseid korduma kippuvatele küsimustele B2B-saitide ärikataloogide kohta [vt B2B PVQ ärikataloogidest](catalogs-b2b-sites-FAQ.md).
+See artikkel kirjeldab, kuidas luua äriettevõtetele Microsoft Dynamics 365 Commerce (B2B) saitide jaoks äritootekatalooge. Vastuseid korduma kippuvatele küsimustele B2B-saitide ärikataloogide kohta [vt B2B PVQ ärikataloogidest](catalogs-b2b-sites-FAQ.md).
 
 > [!NOTE]
-> See teema kehtib versiooni Dynamics 365 Commerce 10.0.27 ja hilisemate väljalasete kohta.
+> See artikkel kehtib versioonile Dynamics 365 Commerce 10.0.27 ja hilisematele väljalasetele.
 
 Ärikataloogide abil saate tuvastada tooted, mida soovite oma B2B võrgupoodides pakkuda. Kui loote kataloogi, tuvastate e-poed, kuhu tooteid pakutakse, lisate tooteid, mida soovite kaasata ja täiustate tooteostmist, lisades toote üksikasjad. Iga B2B e-poe jaoks saate luua mitu kataloogi.
 

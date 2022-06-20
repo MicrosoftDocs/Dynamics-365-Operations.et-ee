@@ -1,6 +1,6 @@
 ---
-title: Ostutellimuste jaoks töömalli seadistamine
-description: See teema keskendub lihtsa töömalli seadistamisele, mida saab kasutada saadud kaupade paigutamiseks.
+title: Ostutellimuste jaoks töömalli häälestamine
+description: See artikkel kirjeldab, kuidas seadistada lihttöömalli, mida kasutatakse vastuvõetud kaupade äraseadmisel.
 author: Mirzaab
 ms.date: 08/08/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 32dbdd8243c6b37cfe0c42d2e7b06adfa32a947a
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: ee6bc896a979c326001e1596e4a463753005fabf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572285"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877359"
 ---
-# <a name="set-up-a-work-template-for-purchase-orders"></a>Ostutellimuste jaoks töömalli seadistamine
+# <a name="set-up-a-work-template-for-purchase-orders"></a>Ostutellimuste jaoks töömalli häälestamine
 
 [!include [banner](../../includes/banner.md)]
 
-See teema keskendub lihtsa töömalli seadistamisele, mida saab kasutada saadud kaupade paigutamiseks. Töömallid määravad juhiste kogumi, mis esitatakse laotöötajale mobiilsel seadmel, kui kaupu vastuvõtualalt ära viiakse. Saate kasutada seda protseduuri demoettevõttes USMF nimetatud andmetega. Enne selle juhendi käivitamist looge töökausta ID. Selles näites kasutatakse töökausta ID-d nimega Sissetulev. See protseduur on mõeldud laohaldurile.
+See artikkel kirjeldab, kuidas seadistada lihttöömalli, mida kasutatakse vastuvõetud kaupade äraseadmisel. Töömallid määravad juhiste kogumi, mis esitatakse laotöötajale mobiilsel seadmel, kui kaupu vastuvõtualalt ära viiakse. Saate kasutada seda protseduuri demoettevõttes USMF nimetatud andmetega. Enne selle juhendi käivitamist looge töökausta ID. Selles näites kasutatakse töökausta ID-d nimega Sissetulev. See protseduur on mõeldud laohaldurile.
 
 1. Avage navigeerimispaneelil **Moodulid > Laohaldus > Seadistus > Töö > Töömallid**.
 2. Valige väljal **Töökäsu tüüp** suvand **Ostutellimused**.

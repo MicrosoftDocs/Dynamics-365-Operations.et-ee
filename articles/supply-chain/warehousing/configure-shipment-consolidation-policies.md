@@ -1,6 +1,6 @@
 ---
 title: Saadetise konsolideerimispoliitikate konfigureerimine
-description: Selles teemas selgitatakse, kuidas seadistada vaikimisi ja kohandatud saadetise konsolideerimispoliitikaid.
+description: See artikkel selgitab, kuidas seadistada saadetise vaike- ja kohandatud konsolideerimispoliitikaid.
 author: Mirzaab
 ms.date: 05/12/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 0a575648c0e6f5d0e3b9fb03ea6f47252837bf9c
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: f793cb71ff52e49534e1f11b06132f2e20610d7c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672566"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845920"
 ---
 # <a name="configure-shipment-consolidation-policies"></a>Saadetise konsolideerimispoliitikate konfigureerimine
 
@@ -26,12 +26,12 @@ ms.locfileid: "8672566"
 
 Saadetise konsolideerimisprotsess, mis kasutab saadetise konsolideerimispoliitikaid, lubab automatiseeritud saadetise konsolideerimist automaatsel ja käsitsi väljastamisel lattu. Pärast selle funktsiooni sisselülitamist peate konfigureerima oma algsed poliitikad. Kui ühtegi poliitikat ei konfigureerita, loob iga müügirida eraldi saadetise, millel on üksik koormuse rida.
 
-Selles teemas esitatud stsenaariumid näitavad, kuidas seadistada vaikimisi ja kohandatud saadetise konsolideerimispoliitikaid.
+Selles artiklis esitatud stsenaariumid näitavad, kuidas seadistada vaike- ja kohandatud saadetise konsolideerimispoliitikaid.
 
 ## <a name="turn-on-the-shipment-consolidation-policies-feature"></a>Saadetise konsolideerimispoliitikate funktsiooni sisselülitamine
 
 > [!IMPORTANT]
-> Selles teemas kirjeldatud [esimeses stsenaariumis](#scenario-1) seadistate esmalt lao, et see kasutaks varasemat saadetise konsolideerimise funktsiooni. Seejärel teete saadetise konsolideerimispoliitikad kättesaadavaks. Sedasi saate proovida, kuidas täiendamise stsenaarium töötab. Kui kavatsete kasutada esimese stsenaariumi läbimiseks demoandmete keskkonda, ärge lülitage funktsiooni enne stsenaariumi tegemist sisse.
+> Esimeses stsenaariumis [,](#scenario-1) mida kirjeldatakse selles artiklis, seadistate esmalt lao nii, et see kasutab varasemat saadetise konsolideerimise funktsiooni. Seejärel teete saadetise konsolideerimispoliitikad kättesaadavaks. Sedasi saate proovida, kuidas täiendamise stsenaarium töötab. Kui kavatsete kasutada esimese stsenaariumi läbimiseks demoandmete keskkonda, ärge lülitage funktsiooni enne stsenaariumi tegemist sisse.
 
 Enne funktsiooni *Saadetise konsolideerimispoliitikad* kasutamist peate selle oma süsteemis sisse lülitama. Administraatorid saavad kasutada [funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sätteid, et kontrollida funktsiooni olekut ja selle sisse lülitada. Tööruumis **Funktsioonihaldus** loetletakse funktsiooni järgneval viisil.
 
@@ -40,7 +40,7 @@ Enne funktsiooni *Saadetise konsolideerimispoliitikad* kasutamist peate selle om
 
 ## <a name="make-demo-data-available"></a>Demoandmete kättesaadavaks tegemine
 
-Selle teema iga stsenaarium viitab väärtustele ja kirjetele, mis kuuluvad Microsoft Dynamics 365 Supply Chain Managementile esitatud standardsete demoandmete hulka. Kui soovite kasutada siin esitatud väärtusi harjutuste tegemise ajal, veenduge, et töötate keskkonnas, kuhu on demoandmed installitud ja määrake enne alustamist juriidiliseks isikuks **USMF**.
+Iga selle artikli stsenaarium viitab väärtustele ja kirjetele, mis sisalduvad Microsofti standardsetes demoandmetes Dynamics 365 Supply Chain Management. Kui soovite kasutada siin esitatud väärtusi harjutuste tegemise ajal, veenduge, et töötate keskkonnas, kuhu on demoandmed installitud ja määrake enne alustamist juriidiliseks isikuks **USMF**.
 
 ## <a name="scenario-1-configure-default-shipment-consolidation-policies"></a><a name="scenario-1"></a>1. stsenaarium: saadetise vaikimisi konsolideerimispoliitikate konfigureerimine
 
@@ -339,7 +339,7 @@ Kui olete kõik oma poliitikad loonud, tuleb teil määrata nende rakendamise j�
 
 ## <a name="example-scenarios-of-how-to-use-shipment-consolidation-policies"></a><a name="example-scenarios"></a> Näidisstsenaariumid saadetise konsolideerimispoliitikate kasutamiseks
 
-Järgmised stsenaariumid illustreerivad, kuidas kasutada selle teema lugemise käigus loodud saadetise konsolideerimispoliitikaid. Iga stsenaarium selgitab saadetise konsolideerimisprotsessi, mis kasutab saadetise konsolideerimispoliitikaid automaatsel või käsitsi väljastamisel lattu.
+Järgmised stsenaariumid illustreerivad, kuidas kasutada saadetise konsolideerimispoliitikaid, mille selle artikli lugemise ajal lõite. Iga stsenaarium selgitab saadetise konsolideerimisprotsessi, mis kasutab saadetise konsolideerimispoliitikaid automaatsel või käsitsi väljastamisel lattu.
 
 - 1. stsenaarium: [saadetiste konsolideerimine, kui need on müügitellimuste automaatse väljastamise abil lattu väljastatud](../warehousing/consolidate-shipments-automatic.md)
 - 2. stsenaarium: [saadetiste konsolideerimine, kui saadetise konsolideerimispoliitika alistatakse lattu väljastamise lehe kaudu](../warehousing/consolidate-shipments-release-to-warehouse-override.md)

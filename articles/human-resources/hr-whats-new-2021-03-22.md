@@ -1,6 +1,6 @@
 ---
 title: Mis on uut või mida on muudetud rakenduses Dynamics 365 Human Resources 22. märtsil 2021?
-description: Selles teemas kirjeldatakse Microsoft Dynamics 365 Human Resourcesi 22. märtsil 2021 lisatud uusi või muudetud funktsioone.
+description: Selles artiklis kirjeldatakse Microsoft Dynamics 365 Human Resourcesi 22. märtsi 2021 uusi või muutunud funktsioone.
 author: marcelbf
 ms.date: 03/22/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-03-22
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 13520ca55c98fb1acb6185af393550b12fbc2072
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 2cfdd0fc1ca7ba206b0f447ecabd801a5a4e8c57
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8693524"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859484"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-march-22-2021"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 Human Resources 22. märtsil 2021?
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Selles teemas kirjeldatakse Dynamics 365 Human Resourcesi uusi, muutunud või peatselt tulevaid funktsioone.
+See artikkel kirjeldab funktsioone, mis on uued, muutunud või tulevad varsti Dynamics 365 Human Resources.
 
 Meie värskendamisprotsessi ja graafiku kohta lisateabe saamiseks vt teemat [Värskendamisprotsess](hr-admin-setup-update-process.md).
 
@@ -49,9 +49,9 @@ Selle väljalaskega tulevad üldiselt kättesaadavaks järgmised funktsioonid.
 See väljalase hõlmab järgmisi veaparandusi.
 
 > [!NOTE]
-> Meie eesmärk on edastada teile see teave esimesel võimalusel. Võime värskendada seda teemat, et lisada sellesse versioonijärku pärast selle teema esialgset avaldamist tehtud veaparandusi.
+> Meie eesmärk on edastada teile see teave esimesel võimalusel. Võime seda artiklit värskendada, et kaasata vigaparandused, mis muutsid selle järku pärast selle artikli algset avaldamist.
 
-| Väljaande number | Väljasta |  Kirjeldus |
+| Väljaande number | Probleem |  Kirjeldus |
 | --- | --- | --- |
 | 554239 | Jõudluse parandamine üksustele, mis on seotud **ÄriProtsessiÜlesandeÜlesandega** tabel | Paranda jõudlust üksustes, mis on seotud **ÄriPotsessiÜlesandeÜlesande** tabeliga lisades tabelile soovituslikud indeksid. |
 | 566061 | V2 üksuse varukoodi eemaldamine öiselt sünkroonimiselt | Saate eemaldada V2 varukoodi öiselt Dataverse -i  sünkroonimise jaoks. Taane ei ole enam vajalik ja takistab filtreeritud sünkroonimise töötamist nii, nagu oodatud. Muudatus parandab andmete sünkroonimise Dataverse ühtsust. |

@@ -1,42 +1,42 @@
 ---
 title: Mobiilsed arvete heakskiidud
-description: See teema on mõeldud praktilise lähenemise pakkumiseks mobiilistsenaariumide kujundamisele, võttes mobiilse hankija arvete kinnitamise kasutusnäiteks.
+description: Selle artikli eesmärk on pakkuda mobiilsete stsenaariumite kujundamisel praktilist lähenemist, võttes mobiilsete hankijaarvete kinnitusi kasutusjuhtumiks.
 author: abruer
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User, IT Pro
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 262034
 ms.assetid: 9db38b3f-26b3-436e-8449-7ff243568a18
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 83d95ef6d9fcff060ac992b11ab5773af075fea5409e43430b4826dc097570c7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f635891e3d92fbd5978e10fe01eb67c0a28542c5
+ms.sourcegitcommit: 427fe14824a9d937661ae21b9e9574be2bc9360b
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737351"
+ms.lasthandoff: 06/09/2022
+ms.locfileid: "8946270"
 ---
 # <a name="mobile-invoice-approvals"></a>Mobiilsed arvete heakskiidud
 
 [!include [banner](../includes/banner.md)]
 
-Mobiilsed võimalused võimaldavad ärikasutajatel mobiilikogemusi kujundada. Täpsemate stsenaariumide puhul võimaldab platvorm arendajatel võimalusi oma soovi kohaselt laiendada. Kõige tulemuslikum viis mõningaid neist uutest mobiilikontseptsioonidest tundma õppida on läbi mõne stsenaariumi kujundamise protsessis. See teema on mõeldud praktilise lähenemise pakkumiseks mobiilistsenaariumide kujundamisele, võttes mobiilse hankija arvete kinnitamise kasutusnäiteks. See teema aitab teil kujundada stsenaariumide muid variatsioone ja seda saab rakendada ka muudele stsenaariumidele, mis pole hankija arvetega seotud.
+Mobiilsed võimalused võimaldavad ärikasutajatel mobiilikogemusi kujundada. Täpsemate stsenaariumide puhul võimaldab platvorm arendajatel võimalusi oma soovi kohaselt laiendada. Kõige tulemuslikum viis mõningaid neist uutest mobiilikontseptsioonidest tundma õppida on läbi mõne stsenaariumi kujundamise protsessis. Selle artikli eesmärk on pakkuda mobiilsete stsenaariumite kujundamisel praktilist lähenemist, võttes mobiilsete hankijaarvete kinnitusi kasutusjuhtumiks. See artikkel peaks aitama teil kujundada teisi stsenaariumivariatsioone ja seda saab rakendada ka teistele stsenaariumitele, mis ei ole seotud hankija arvetega.
 
 ## <a name="prerequisites"></a>Eeltingimused
 
-| Eeltingimus                                                                                            | Kirjeldus                                                                                                                                                          |
-|---------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Eeltingimus                                                                                            | Kirjeldus                       |
+|---------------------------------------------------------------------------------------------------------|--------------------------------------------|
 | Mobiili käsiraamat eelnevaks lugemiseks                                                                                |[Mobiiliplatvorm](../../fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page.md)                                                                                                  |
 | Dynamics 365 Finance                                                                              | Keskkond, millesse on installitud versioon 1611 ja platvormivärskendus 3 (november 2016)                   |
 | Installige kiirparandus KB 3204341.                                                                              | Tegevuse salvestaja võib kogemata salvestada rippdialoogidele kaks sulgemiskäsku platvormi värskenduses 3 (2016. aasta novembri värskendus). |
 | Installige kiirparandus KB 3207800.                                                                              | See kiirparandus võimaldab vaadata manuseid mobiilikliendil, mis sisaldub platvormi värskenduses 3 (2016. aasta novembri värskendus).           |
 | Installige kiirparandus KB 3208224.                                                                              | Rakenduse kood mobiilse hankija arve kinnitamise rakenduse jaoks, mis sisaldub versioonis 7.0.1 (mai 2016).                          |
-| Androidi, iOS-i või Windowsi seade, millesse on installitud mobiilirakendus. | Otsige rakendust vastavast rakenduste poest.                                                                                                                     |
+| Androidi, iOS-i või Windowsi seade, millesse on installitud mobiilirakendus. | Otsige rakendust vastavast rakenduste poest.                            |
 
 ## <a name="introduction"></a>Sissejuhatus
 Hankija arvete mobiilsed kinnitused nõuavad kolme kiirparandust, mis on nimetatud jaotises „Eeltingimused”. Need kiirparandused ei paku tööruumi arvete kinnitamiseks. Seda, mis on mobiili kontekstis tööruum, saate lugeda jaotises „Eeltingimused” nimetatud mobiili käsiraamatust. Arvete kinnitamise tööruum vajab kujundamist. 
@@ -51,11 +51,11 @@ Iga organisatsioon korraldab ja määratleb hankija arvete äriprotsessi erineva
     -   Kas arvete päises on ka arvestuse jaotused? Kui nii, siis kas need arvestuse jaotused peaksid seadmel kättesaadavad olema?
 
     > [!NOTE]
-    > Selles teemas ei selgitata, kuidas arvestuse jaotusi redigeerida, kuna seda funktsiooni ei toetata praegu mobiilistsenaariumide puhul.
+    > See artikkel ei selgita, kuidas redigeerida arvestuse jaotusi, sest praegu ei toetata seda funktsiooni mobiilistsenaariumide puhul.
 
 -   Kas kasutajad soovivad seadmel arve manuseid näha?
 
-Arvete kinnitamise mobiiliversioon on erinev, olenevalt nende küsimuste vastustest. Eesmärk on optimeerida organisatsioonis kasutaja äriprotsessi kogemust mobiilil. Ülejäänud teemas vaatame kahte stsenaariumivarianti, mis põhinevad erinevatel vastustel eelnevatele küsimustele. 
+Arvete kinnitamise mobiiliversioon on erinev, olenevalt nende küsimuste vastustest. Eesmärk on optimeerida organisatsioonis kasutaja äriprotsessi kogemust mobiilil. Ülejäänud osas soovitame otsida kahte varianti, mis põhinevad eelnevate küsimuste erinevatel vastustel. 
 
 Üldise juhisena veenduge mobiilikujundajaga töötamisel, et avaldaksite muudatused, et vältida nende kaotsiminekut.
 

@@ -1,6 +1,6 @@
 ---
 title: Pearaamatu töölehe tüübid
-description: Selles teemas kirjeldatakse töölehe tüüpe, mille saate finantstöölehtede jaoks seadistada.
+description: Selles artiklis kirjeldatakse töölehe tüüpe, mille saate finantstöölehtede jaoks seadistada.
 author: kweekley
 ms.date: 10/10/2018
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3e49d101bbbe576e0fcf2e9b243f4f29124fbd85
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 883c54b84ed31384a28c31c8b814c75d340d020e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722265"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901309"
 ---
 # <a name="ledger-journal-types"></a>Pearaamatu töölehe tüübid
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas kirjeldatakse töölehe tüüpe, mille saate finantstöölehtede jaoks seadistada. Kasutage töölehe **nimede lehte** töölehtede häälestamiseks, mida saate kasutada kogu Dynamics 365 Finance'is.
+Selles artiklis kirjeldatakse töölehe tüüpe, mille saate finantstöölehtede jaoks seadistada. Kasutage töölehe **nimede lehte** töölehtede häälestamiseks, mida saate kasutada kogu Dynamics 365 Finance'is.
 
 | Töölehe tüüp                      | Eesmärk                       | Sisestage kanded sellel lehel                                |
 |-----------------------------------|-------------------------------|----------------------------------------------------------------|

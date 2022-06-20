@@ -1,6 +1,6 @@
 ---
 title: Laotöö juhtimine töömallide ja asukohadirektiividega
-description: Selles teemas kirjeldatakse, kuidas kasutada töömalle ja asukohakorraldust määramaks, kuidas ja kus laos tööd tehakse.
+description: Selles artiklis kirjeldatakse, kuidas kasutada töömalle ja asukoha korraldust määramaks, kuidas ja kus laos tööd tehakse.
 author: perlynne
 ms.date: 10/20/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a7e955fba12e963a443c0304f0a8a0e395c46909dd34de12cd51fa9788491786
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 65675d8a99d023176e3e66e92cd3d634750bdb0e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770140"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877417"
 ---
 # <a name="control-warehouse-work-by-using-work-templates-and-location-directives"></a>Laotöö juhtimine töömallide ja asukohadirektiividega
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas kirjeldatakse, kuidas kasutada töömalle ja asukohakorraldust määramaks, kuidas ja kus laos tööd tehakse.
+Selles artiklis kirjeldatakse, kuidas kasutada töömalle ja asukoha korraldust määramaks, kuidas ja kus laos tööd tehakse.
 
 Juhised, mille laotöötajad mobiilsesse seadmesse saavad, määravad töömallid, mille seadistate Dynamics 365 Supply Chain Managementis, et määratleda erinevad laoprotsessid ja ülesanded. Töömallid määravad, kuidas igas laoprotsessis tööd tehakse. Linkides töömallidega asukohakorralduse, saate tagada, et töö toimub ladude kindlatel füüsilistel aladel.
 
@@ -73,7 +73,7 @@ Asukohakorraldused määravad, *kus* tuleb kaubad komplekteerida ja *kuhu* need 
 ## <a name="additional-resources"></a>Lisaressursid
 
 - Video: [laohalduse konfiguratsiooni üksikasjalik juhis](https://community.dynamics.com/365/b/techtalks/posts/warehouse-management-configuration-deep-dive-october-14-2020)
-- Abiteema [Asukohakorraldustega töötamine](create-location-directive.md)
+- Spikri artikkel: [töö asukohadirektiividega](create-location-directive.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Kuidas töötajad kasutavad tootmisosakonna käivitusliidest
-description: Selles teemas kirjeldatakse, kuidas kasutada tootmisosakonna käivitusliidest töötaja vaatepunktist.
+description: See artikkel kirjeldab, kuidas kasutada tootmispinna käivitamise liidest töötaja vaatepunktist.
 author: johanhoffmann
 ms.date: 01/24/2022
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: f163b8feb906470f31a648bf09abf5647c5f1bab
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
-ms.translationtype: MT
+ms.openlocfilehash: 9c0d87dfb4c432f9cff0f1172139dbcda6308275
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8644986"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860663"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Kuidas töötajad kasutavad tootmisosakonna käivitusliidest
 
@@ -34,7 +34,7 @@ Kui seade on ette valmistatud, kuvatakse sellel sisselogimisleht. Sellel lehel k
 
 ![Tootmisosakonna käivitusliidese sisselogimisleht.](media/pfei-sign-in-page.png "Tootmisosakonna käivitusliidese sisselogimisleht")
 
-Selle teema järgnevates jaotistes kirjeldatakse, kuidas töötajad liidesega suhtlevad.
+Selle artikli ülejäänud jaotised kirjeldavad, kuidas töötajad liidesega suhtlevad.
 
 ## <a name="all-jobs-tab"></a>Vahekaart Kõik tööd
 

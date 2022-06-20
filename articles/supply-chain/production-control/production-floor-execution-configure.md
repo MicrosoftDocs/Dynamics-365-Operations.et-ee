@@ -1,6 +1,6 @@
 ---
-title: Tootmisosakonna käivitusliidese konfigureerimine
-description: Selles teemas kirjeldatakse, kuidas luua ühte või mitut konfiguratsiooni tootmisosakonna käivitusliidesele. Tootmisosakonna käivitusliidese avamisel laadib see automaatselt valitud konfiguratsiooni ja tööfiltri, mis vastavad brauserile ja seadmele. Konfiguratsioonis seadistate poliitikad, mis peavad vastama konkreetsele kasutusele.
+title: Tootmisosakonna täideviimisliidese konfigureerimine
+description: See artikkel kirjeldab, kuidas luua tootmispinna täitmisliidesele üks või mitu konfiguratsiooni. Tootmisosakonna käivitusliidese avamisel laadib see automaatselt valitud konfiguratsiooni ja tööfiltri, mis vastavad brauserile ja seadmele. Konfiguratsioonis seadistate poliitikad, mis peavad vastama konkreetsele kasutusele.
 author: johanhoffmann
 ms.date: 10/05/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 083f5a30323cdc813116af7462563c3b8dd5e4f5
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
-ms.translationtype: MT
+ms.openlocfilehash: 9eefde163473e11b01bfa0adf9b3694c830f1488
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8644340"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899407"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Tootmisosakonna käivitusliidese konfigureerimine
 
@@ -31,15 +31,15 @@ Tootmisosakonna käivitusliidese avamisel laadib see automaatselt valitud konfig
 - Ettevõtte fuajees olevas seadmes registreerivad töötajad end tööle tulles sisse ja töölt lahkudes välja.
 - Tootmisjaoskonnas oleval seadmel registreerivad operaatorid, kui nad alustavad ja lõpetavad tööd. Samuti registreerivad nad vaheajad ja kaudsed tegevused.
 
-See teema kirjeldab erinevaid valikuid tootmispinna täitmisliidese konfigureerimiseks iga teie juures kasutusel seadme jaoks.
+See artikkel kirjeldab erinevaid valikuid tootmispinna täitmisliidese konfigureerimiseks igale seadmele, mida teie saidil kasutatakse.
 
 ## <a name="turn-on-the-production-floor-execution-interface-and-its-related-optional-features"></a>Tootmisosakonna käivitusliidese ja sellega seotud valikuliste funktsioonide sisselülitamine
 
-Tootmisosakonna käivitusliides ja mitmed selles teemas kirjeldatud valikulised sätted tuleb süsteemis enne kasutamist sisse lülitada. Kasutage [funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) lehte, et lülitada sisse vajaduse järgi mõned või kõik järgmistes jaotistes kirjeldatud funktsioonidest.
+Tootmispinna täitmisliides ja mitmed selles artiklis kirjeldatud valikulised sätted tuleb enne nende kasutamist süsteemi sisse lülitada. Kasutage [funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) lehte, et lülitada sisse vajaduse järgi mõned või kõik järgmistes jaotistes kirjeldatud funktsioonidest.
 
 ### <a name="the-production-floor-execution-interface"></a>Tootmisosakonna käivitusliides
 
-See on selles teemas kirjeldatud peamine funktsioon, mis on kõigi selles jaotises mainitud funktsioonide eeltingimus. Tarneahela halduse 10.0.25 puhul on see kohustuslik ja seda ei saa välja lülitada. Kui käitate versiooni, mis *on*[vanem kui 10.0.25, saavad administraatorid selle funktsiooni sisse või välja lülitada, otsides Tootmispinna käivitamise funktsiooni Funktsioonihalduse tööruumis.](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
+See on selles artiklis kirjeldatud peamine funktsioon, mis on kõigi selles jaotises mainitud funktsioonide eeltingimus. Tarneahela halduse 10.0.25 puhul on see kohustuslik ja seda ei saa välja lülitada. Kui käitate versiooni, mis *on*[vanem kui 10.0.25, saavad administraatorid selle funktsiooni sisse või välja lülitada, otsides Tootmispinna käivitamise funktsiooni Funktsioonihalduse tööruumis.](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
 
 ### <a name="generate-license-plates"></a>Litsentsiplaatide loomine
 
@@ -146,7 +146,7 @@ See funktsioon lisab tootmise juhtimise lehe konfigureerimisele järgmiste **fun
 - Lubage materjalitarbimise korrigeerimised dialoogiboksis **Edenemise** aruanne. (See funktsioon nõuab ka funktsiooni *Registreerige materjalitarbimine tootmispinna käivitamise liidese (non-WMS) funktsioonis* .)
 - Lubage otsingud projekti ID järgi.
 
-Teavet sätete kasutamise kohta antakse hiljem selles teemas.
+Teave sätete kasutamise kohta antakse hiljem selles artiklis.
 
 Selle funktsiooni kasutamiseks lülitage funktsioonihalduses sisse järgmine [funktsioon](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
 

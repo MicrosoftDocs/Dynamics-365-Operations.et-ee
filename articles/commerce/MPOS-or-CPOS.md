@@ -1,6 +1,6 @@
 ---
-title: Valige poe äri ja pilve kassa vahel
-description: See teema selgitab võtmeerinevusi poe äri ja pilve kassa vahel ning kirjeldab erinevaid tegureid, Dynamics 365 Commerce mida juurutavad jaemüüjad peaksid tegema oma nõuete jaoks parim valik.
+title: Store Commerce'i ja Cloud POS-i vahel valimine
+description: See artikkel selgitab võtmeerinevusi poe äri ja pilve kassa vahel ning kirjeldab erinevaid tegureid, Dynamics 365 Commerce mida juurutavad jaemüüjad peaksid nende nõuete jaoks parima valiku tegema.
 author: jblucher
 ms.date: 04/21/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-10-12
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: b62e1737bc9e3b9d9e25a7a88e693a9aece80776
-ms.sourcegitcommit: 836695c0e95d366ba993f34eee30f57191f356d8
+ms.openlocfilehash: 26f6e94b13b3058ac42c4c7b83dcf7179bae18e3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8629286"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854002"
 ---
-# <a name="choose-between-store-commerce-and-cloud-pos"></a>Valige poe äri ja pilve kassa vahel
+# <a name="choose-between-store-commerce-and-cloud-pos"></a>Store Commerce'i ja Cloud POS-i vahel valimine
 
 [!include [banner](includes/banner.md)]
 
-See teema selgitab võtmeerinevusi poe äri ja pilve kassa vahel ning kirjeldab erinevaid tegureid, Dynamics 365 Commerce mida juurutavad jaemüüjad peaksid tegema oma nõuete jaoks parim valik. See annab ka juurutajatele täiendava tausta, näpunäidete ja juhendid teguritele, mida nad peaks juurutamisel kaaluma Dynamics 365 Commerce. Kui juurutajad vaatavad üle ja järgivad juurutusprotsessi osana neid juhiseid, saavad nad vältida probleeme, mis võivad mõjutada kasutaja rahulolu või jõudlust.
+See artikkel selgitab võtmeerinevusi poe äri ja pilve kassa vahel ning kirjeldab erinevaid tegureid, Dynamics 365 Commerce mida juurutavad jaemüüjad peaksid nende nõuete jaoks parima valiku tegema. See annab ka juurutajatele täiendava tausta, näpunäidete ja juhendid teguritele, mida nad peaks juurutamisel kaaluma Dynamics 365 Commerce. Kui juurutajad vaatavad üle ja järgivad juurutusprotsessi osana neid juhiseid, saavad nad vältida probleeme, mis võivad mõjutada kasutaja rahulolu või jõudlust.
 
 ## <a name="insights"></a>Ülevaated
 
@@ -44,7 +44,7 @@ Commerce toetab järgmisi kassavalikuid.
 Kõigil juhtudel jagab kassa (Store Commerce ja CPOS) sama põhirakenduse koodi. See punkt on oluline järgmistel põhjustel.
 
 - Kasutajaliides (UI) on järjepidev, olenemata platvormist või vormitegurist.
-- Enamik võimalusi on samad, olenemata platvormist või vormitegurist. Kuid on ka olulisi erinevusi. Need erinevused on selles teemas välja toodud.
+- Enamik võimalusi on samad, olenemata platvormist või vormitegurist. Kuid on ka olulisi erinevusi. Need erinevused on selles artiklis märgitud.
 - Igas kaupluses saab kassa variatsioone kombineerida ja samaaegselt käitada. Näiteks võib jaemüüja oma peamiste registrite jaoks kasutada Store Commerce'i Windowsit kasutatavates arvutites. Kuid jaemüüja saab neid registreid täiendada brauseripõhiste terminalide või mobiilsete seadmetega.
 - Kohandamisi ja laiendeid saab hõlpsalt kasutada erinevatel platvormidel ja vormitegurites. Kuna tuumrakenduse kood on jagatud, saab enamikku kohandamisi juurutada ühe korraga, mitte ei pea seda tegema mitu korda.
 

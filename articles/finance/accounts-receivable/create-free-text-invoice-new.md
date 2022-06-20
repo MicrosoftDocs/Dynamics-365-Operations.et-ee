@@ -1,6 +1,6 @@
 ---
 title: Vabas vormis arve loomine
-description: Selles teemas kirjeldatakse vabas vormis arvete loomist.
+description: See artikkel selgitab, kuidas vabas vormis arveid luua.
 author: abruer
 ms.date: 02/15/2022
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 6e9578d9b2d61f241ab5e92fc9740b88b80969f6
-ms.sourcegitcommit: 411874545d7c326fc4aa877948a059371f0ccb3c
+ms.openlocfilehash: 87dc6334baa83ace23b77d94da4d1e464cb0b574
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "8392881"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878156"
 ---
 # <a name="create-a-free-text-invoice"></a>Vabas vormis arve loomine
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas kirjeldatakse vabas vormis arvete loomist. Selle protseduuri jaoks kasutage demoettevõtte **USMF** andmeid.
+See artikkel selgitab, kuidas vabas vormis arveid luua. Selle protseduuri jaoks kasutage demoettevõtte **USMF** andmeid.
 
 ## <a name="create-a-free-text-invoice"></a>Vabas vormis arve loomine
 
@@ -37,7 +37,7 @@ Selles teemas kirjeldatakse vabas vormis arvete loomist. Selle protseduuri jaoks
     * Kui kasutate ühtse euromaksete piirkonna (SEPA) lubasid, sisestatakse kliendikonto valimisel otsekorralduse luba automaatselt.
 
 4. Sisestage väärtus väljal **Kirjeldus**.
-5. Määrake dimensioonideta kontonumber väljal **Põhikonto**. Selles teemas saate hiljem sisestada ka dimensioonid.
+5. Määrake dimensioonideta kontonumber väljal **Põhikonto**. Dimensioone sisestate selles artiklis hiljem.
 
     Samuti saate konto leidmiseks kasutada otsingut, sisestades põhikonto kohta ühe või mitu märki.
 

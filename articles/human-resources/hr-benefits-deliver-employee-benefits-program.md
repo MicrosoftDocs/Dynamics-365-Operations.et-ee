@@ -1,6 +1,6 @@
 ---
 title: Töötaja soodustuste programmi pakkumine
-description: Selles teemas selgitatakse, kuidas luua soodustuse elemente, mida uue soodustuse loomisel kasutakse.
+description: See artikkel selgitab, kuidas luua soodustuselemente, mida kasutatakse uue hüvitise loomisel.
 author: twheeloc
 ms.date: 08/23/2021
 ms.topic: business-process
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Version 7.0.0, Human Resources
-ms.openlocfilehash: c2ca6712346295454fd0d516816c596d4b010abb
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: cc063c42ba0b627eb4711b44533c745925d718af
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688284"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877826"
 ---
 # <a name="deliver-employee-benefits-program"></a>Töötaja soodustuste programmi pakkumine
 
@@ -26,7 +26,7 @@ ms.locfileid: "8688284"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Selles teemas selgitatakse, kuidas luua soodustuse elemente, mida uue soodustuse loomisel kasutakse. Selle tegevuse loomisel kasutati demoettevõtte USMF-i andmeid. See ülesanne on mõeldud hüvitise ja eeliste haldurile.
+See artikkel selgitab, kuidas luua soodustuselemente, mida kasutatakse uue hüvitise loomisel. Selle tegevuse loomisel kasutati demoettevõtte USMF-i andmeid. See ülesanne on mõeldud hüvitise ja eeliste haldurile.
 
 
 ## <a name="create-benefit-elements"></a>Soodustuse elementide loomine

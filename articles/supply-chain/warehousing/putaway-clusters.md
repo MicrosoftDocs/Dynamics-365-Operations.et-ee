@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: d5aa579394a0e3bd4c27cd44c9ff98951b3bfe1c
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 559ca80976955d6328cb4d6b2020d5662460cef9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103659"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863646"
 ---
 # <a name="putaway-clusters"></a>Ladustatavad kogumid
 
@@ -27,7 +27,7 @@ Kogumite ladustamine pakub võimalust komplekteerida mitu identifitseerimisnumbr
 
 ## <a name="turn-the-cluster-putaway-feature-on-or-off"></a>Kogumi panemisfunktsiooni sisse- või väljalülitamine
 
-Selles teemas kirjeldatud funktsioonide kasutamiseks peab *kogumi panemisfunktsioon* olema teie süsteemi jaoks sisse lülitatud. Tarneahela halduse 10.0.25 puhul on see funktsioon kohustuslik ja seda ei saa välja lülitada. Kui käitate versiooni, mis on *vanem kui 10.0.25, saavad administraatorid selle funktsiooni sisse või välja lülitada, otsides kogumi panemisfunktsiooni*[tööruumis](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Selles artiklis kirjeldatud funktsioonide kasutamiseks peab *kogumi panemisfunktsioon* olema teie süsteemi jaoks sisse lülitatud. Tarneahela halduse 10.0.25 puhul on see funktsioon kohustuslik ja seda ei saa välja lülitada. Kui käitate versiooni, mis on *vanem kui 10.0.25, saavad administraatorid selle funktsiooni sisse või välja lülitada, otsides kogumi panemisfunktsiooni*[tööruumis](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="setup-for-the-example-scenario"></a>Näite seadistamine
 

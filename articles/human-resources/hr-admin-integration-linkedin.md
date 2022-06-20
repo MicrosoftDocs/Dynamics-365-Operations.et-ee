@@ -1,6 +1,6 @@
 ---
 title: LinkedIn talent Hubiga integreerimine
-description: Selles teemas kirjeldatakse, kuidas seadistada Microsoft Dynamics 365 Human Resourcesi ja LinkedIn Talent Hubi vahelist intgratsiooni.
+description: See artikkel selgitab, kuidas seadistada integratsiooni Microsofti ja Dynamics 365 Human Resources LinkedIn Anne'i keskuse vahel.
 author: jaredha
 ms.date: 10/20/2020
 ms.topic: article
@@ -14,19 +14,19 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d14a8cb1973e0ed55ef10ddb43415eba80eb5c1b
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: df4a0a4dec078392ba835318450f5983a6e95c97
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8717107"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887743"
 ---
 # <a name="integrate-with-linkedin-talent-hub"></a>LinkedIn talent Hubiga integreerimine
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 > [!IMPORTANT]
-> Selles teemas Dynamics 365 Human Resources kirjeldatud integratsioon ja LinkedIn Anne'i keskus kustutati 31. detsembril 2021. Integreerimisteenus ei ole pärast seda kuupäeva enam saadaval. Organisatsioonid, mis ei kasuta juba integreerimisteenust, ei saa teenust enne pensionile minekut rakendada.
+> Selles artiklis Dynamics 365 Human Resources kirjeldatud integratsioon ja LinkedIn Anne'i keskus kustutati 31. detsembril 2021. Integreerimisteenus ei ole pärast seda kuupäeva enam saadaval. Organisatsioonid, mis ei kasuta juba integreerimisteenust, ei saa teenust enne pensionile minekut rakendada.
 
 [LinkedIn Talent Hub](https://business.linkedin.com/talent-solutions/talent-hub) on kandidaadi jälgimise süsteemi (ATS) platvorm. See võimaldab teil leida, hallata ja palgata töötajaid ühest kohast. Microsoft Dynamics 365 Human Resourcesi integreerimisel LinkedIn Talent Hubiga saate Human Resourcesis hõlpsalt luua töövõtja kirjed kandidaatide jaoks, kes on palgatud ametikohale.
 

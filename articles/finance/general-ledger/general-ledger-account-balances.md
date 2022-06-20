@@ -1,6 +1,6 @@
 ---
 title: Pearaamatukonto saldod
-description: See teema selgitab pearaamatukonto saldode vaatamise kahte võimalust – proovibilansi loendilehte ja rahalisi aruandeid.
+description: 'Selles artiklis selgitatakse pearaamatu konto saldode vaatamise kaht viisi: proovibilansi loendileht ja finantsaruanded.'
 author: aprilolson
 ms.date: 01/11/2018
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8470929b6805ddf9b85bd03e3043c2953d5fcfd1
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: f00f221765e757d8d4c82e1a0e4b8721e33dc321
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716433"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874489"
 ---
 # <a name="general-ledger-account-balances"></a>Pearaamatukonto saldod
 
 [!include [banner](../includes/banner.md)]
 
-See teema selgitab pearaamatukonto saldode vaatamise kahte võimalust – proovibilansi loendilehte ja rahalisi aruandeid. Arutletakse ka dimensioonikomplekti saldo värskendamise üle.
+Selles artiklis selgitatakse pearaamatu konto saldode vaatamise kaht viisi: proovibilansi loendileht ja finantsaruanded. Arutletakse ka dimensioonikomplekti saldo värskendamise üle.
 
 Pearaamatusaldode vaatamiseks on kasutajatel mitmesuguseid võimalusi. Kõige levinumad võimalused on järgmised.
 

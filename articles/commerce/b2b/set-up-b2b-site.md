@@ -1,6 +1,6 @@
 ---
-title: B2B e-kaubanduse saidi seadistamine
-description: Selles teemas kirjeldatakse ettevõtetevahelise (B2B) e-kaubanduse saidi loomist lahenduses Microsoft Dynamics 365 Commerce.
+title: B2B e-kaubandussaidi häälestamine
+description: See artikkel kirjeldab, kuidas seadistada ettevõtete vahel (B2B) e-kaubanduse sait Microsoft Dynamics 365 Commerce.
 author: josaw1
 ms.date: 12/03/2021
 ms.topic: article
@@ -14,24 +14,24 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 31266f84270f170e172eadea75a90397c5a6e8e6
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 0bcd864694ff2ad2aa211c927da4d698c0039715
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691914"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881902"
 ---
 # <a name="set-up-a-b2b-e-commerce-site"></a>B2B e-kaubandussaidi häälestamine
 
 [!include [banner](../../includes/banner.md)]
 
-Ettevõtetevahelised (B2B) e-kaubanduse saidid pakuvad mõningaid võtmefunktsioone, mis optimeerivad töövoogu B2B-kasutaja jaoks. Selles teemas kirjeldatakse B2B e-kaubanduse saidi loomist lahenduses Microsoft Dynamics 365 Commerce. See käib läbi moodulite ja saidisätete, mis tuleb B2B-spetsiifiliste stsenaariumite lubamiseks konfigureerida.
+Ettevõtetevahelised (B2B) e-kaubanduse saidid pakuvad mõningaid võtmefunktsioone, mis optimeerivad töövoogu B2B-kasutaja jaoks. See artikkel kirjeldab, kuidas seadistada B2B e-kaubanduse saiti moodulis Microsoft Dynamics 365 Commerce. See käib läbi moodulite ja saidisätete, mis tuleb B2B-spetsiifiliste stsenaariumite lubamiseks konfigureerida.
 
 ## <a name="prerequisites"></a>Eeltingimused
 
-- B2B e-kaubanduse saidi seadistamiseks peate lubama ja konfigureerima spetsiaalset funktsioonid Commerce'i peakontoris, nii nagu käesolevas teemas kirjeldatakse.
+- B2B e-äri saidi seadistamiseks peate lubama ja konfigureerima rakenduse Commerce headquarters kindlad funktsioonid vastavalt selles artiklis kirjeldatud kirjeldusele.
 - Põhikogemused, nagu toote tuvastamine, toote üksikasjade lehed, ostukorv ja kassa, kasutavad samu mooduleid, mida kasutatakse ettevõttelt tarbijale (B2C) mõeldud e-kaubanduse saitidel. Saidi autorid peavad olema tuttavad kõigi moodulitega, mida Dynamics 365 Commerce toetab. Lisateabe saamiseks vt [Mooduliteegi ülevaade](../starter-kit-overview.md).
-- Käesolevas teemas eeldatakse, et saidi autorid mõistavad Commerce'i saidilooja, mallide, fragmentide ja lehtede põhitõdesid, et nad saaksid sisse lülitada e-kaubanduse saitide B2B-funktsioone.
+- See artikkel eeldab, et saidi autorid mõistavad Commerce'i saidilooja, mallide, killude ja lehtede põhie, nii et nad saaksid lubada e-kaubanduse saitide B2B-funktsioone.
 
 ## <a name="site-level-settings"></a>Saiditasemel sätted
 

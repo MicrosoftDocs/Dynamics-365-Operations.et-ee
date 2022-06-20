@@ -1,6 +1,6 @@
 ---
 title: Mis on Dynamics 365 Human Resourcesis uut või mida on muudetud (2. detsember 2020)
-description: Selles teemas kirjeldatakse Microsoft Dynamics 365 Human Resourcesi 2. deptembri 2020 uusi või muutunud funktsioone.
+description: See artikkel kirjeldab funktsioone, mis on Dynamics 365 Human Resources microsoftis uued või muudetud 2. detsembriks 2020.
 author: marcelbf
 ms.date: 12/02/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6e02586ad3e6b4428f2ba826851db6ebc3172bdf1760b483032f5159e7864a81
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cecef6d2e73b42126b1be100dca52ebd8d9270fc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782655"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848103"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-december-2-2020"></a>Mis on Dynamics 365 Human Resourcesis uut või mida on muudetud (2. detsember 2020)
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Selles teemas kirjeldatakse Dynamics 365 Human Resourcesi uusi, muutunud või peatselt tulevaid funktsioone.
+See artikkel kirjeldab funktsioone, mis on uued, muutunud või tulevad varsti Dynamics 365 Human Resources.
 
 Meie värskendamisprotsessi ja graafiku kohta lisateabe saamiseks vt teemat [Värskendamisprotsess](hr-admin-setup-update-process.md).
 
@@ -52,9 +52,9 @@ Selle väljalaskega tulevad üldiselt kättesaadavaks järgmised funktsioonid.
 See väljalase hõlmab järgmisi veaparandusi.
 
 > [!NOTE]
-> Meie eesmärk on edastada teile see teave esimesel võimalusel. Võime värskendada seda teemat, et lisada sellesse versioonijärku pärast selle teema esialgset avaldamist tehtud veaparandusi.
+> Meie eesmärk on edastada teile see teave esimesel võimalusel. Võime seda artiklit värskendada, et kaasata vigaparandused, mis muutsid selle järku pärast selle artikli algset avaldamist.
 
-| Väljaande number | Väljasta | Kirjeldus |
+| Väljaande number | Probleem | Kirjeldus |
 | --- | --- | --- |
 | 514087 | BenefitEligibilityProcessResult peaks sisaldama kuupäeva ja kellaaega, mida kasutati töötlemisel. | BenefitEligibity töötlemise tulemuses on nüüd viimase töötluse datetimestamp, mis varem puudus. |
 | 526903 | Soodustuste registreerimine nurjub sõltuvate isikutega lepingute puhul, kui jaotises **Human Resourcesi ühiskasutuses parameetrid** lülitatakse sisse suvand **Volitatud isikute automaatne valimine**. | Lahendati probleem, kus soodustuste registreerimine nurjus sültuvate isikute puhul, kui suvand **Volitatud isikute automaatne valimine** oli volitatud isikute korral vaikimisi sisse lülitatud. |

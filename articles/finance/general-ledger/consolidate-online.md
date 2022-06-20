@@ -1,6 +1,6 @@
 ---
 title: Finantskonsolideerimised võrgus
-description: Selles teemas kirjeldatakse pearaamatu finantskonsolideerimisi võrgus.
+description: See artikkel kirjeldab võrgus rahalisi konsolideerimisi Pearaamatus.
 author: aprilolson
 ms.date: 07/09/2018
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: d5848960ec5e30c1356a93ca4cb6545cec9e39de
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: f6c489156ca869e02ba6387c3464cc1e1a248d9f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716715"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848545"
 ---
 # <a name="online-financial-consolidations"></a>Finantskonsolideerimised võrgus
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas kirjeldatakse pearaamatu finantskonsolideerimisi võrgus. Enne selle teema lugemist lugege kindlasti teemat [Finantskonsolideerimise ja valuuta ümberarvestuse ülevaade](financial-consolidations-currency-translation.md).
+See artikkel kirjeldab võrgus rahalisi konsolideerimisi Pearaamatus. Enne selle artikli lugemist lugege kindlasti finantskonsolideerumist [ja valuuta teisenduse ülevaate artiklit](financial-consolidations-currency-translation.md).
 
 Kui olete seadistuse lõpetanud, sisestage konsolideerimise üksikasjad lehel **Konsolideeri (võrgus)**. Kui olete lõpetanud, klõpsake suvandit **OK** või **Partii**, et konsolideerimist töödelda.
 
@@ -90,7 +90,7 @@ Vahekaardil **Valuuta teisendamine** määrate juriidilise isiku, konto ja vahet
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-Lisateavet konsolideerimise ja valuuta teisendamise kohta vaadake selle teema ülemteemast [Finantskonsolideerimiste ja valuutateisenduse ülevaade](./financial-consolidations-currency-translation.md).
+Lisateavet konsolideerimise ja valuutateisenduste kohta vt selle artikli emaüksusest Finantskonsolideerumine [ja valuuta teisendusülevaade](./financial-consolidations-currency-translation.md).
 
 Lisateavet stsenaariumide kohta, kus võite luua konsolideeritud finantsaruandeid, vt teemast [Konsolideeritud finantsaruannete loomine](./generating-consolidated-financial-statements.md).
 

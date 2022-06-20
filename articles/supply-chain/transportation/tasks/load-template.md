@@ -1,6 +1,6 @@
 ---
 title: Koorma mallid
-description: Teemas kirjeldatakse koormamallide häälestamist ja koormamalli seostamist uue koormaga.
+description: See artikkel kirjeldab, kuidas seadistada koormamalle ja kuidas siduda koormamalli uue koormaga.
 author: Weijiesa
 ms.date: 10/30/2020
 ms.topic: business-process
@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: weijiesa
 ms.search.validFrom: 2020-10-30
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: d33e4c71680947316b540d2aef7a7220305f2054
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 47b4925c528b64b835ce3e88659ee6ab0572eb2b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674641"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844176"
 ---
 # <a name="load-templates"></a>Koorma mallid
 
@@ -27,7 +27,7 @@ ms.locfileid: "8674641"
 
 Uue koorma loomisel saate määrata koormamalli. Koorma mallis on teave seadmete ja selliste mõõtmete kohta nagu koorma kõrgus, laius, sügavus ja maht.
 
-Teemas kirjeldatakse koormamallide häälestamist ja koormamalli seostamist uue koormaga.
+See artikkel kirjeldab, kuidas seadistada koormamalle ja kuidas siduda koormamalli uue koormaga.
 
 ## <a name="set-up-a-load-template"></a>Koormamalli häälestamine
 

@@ -1,6 +1,6 @@
 ---
 title: ER-i funktsioon LEFT
-description: See teema sisaldab teavet selle kohta, kuidas kasutatakse elektroonilise aruandluse (ER) funktsiooni LEFT.
+description: See artikkel annab teavet selle kohta, kuidas kasutatakse LEFT Electronic Reporting (ER) funktsiooni.
 author: NickSelin
 ms.date: 12/11/2019
 ms.prod: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5d0056dbe46b20432aacb35a971895b987fdbf1b8ebc0d2679bb1e52eb3c4cc2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 51842c56053f9de8ea7f65bcda71d606f42f8bf1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6762472"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852629"
 ---
 # <a name="left-er-function"></a>ER-i funktsioon LEFT
 

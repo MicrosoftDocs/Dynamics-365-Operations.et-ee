@@ -1,6 +1,6 @@
 ---
 title: Organisatsioonihalduse avaleht
-description: Selles teemas on toodud viited ressurssidele, mida saate oma organisatsioonis kasutada.
+description: See artikkel viitab ressurssidele, mis aitavad teid teie organisatsioonis.
 author: sericks007
 ms.date: 08/18/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 04d188b0bf7d7fc7064467e1e05199d0eb90b4d0276a3c0c01ad8f9be78e76e8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f6d4320fb22f0354b33b44e731d22f3f763789ff
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759892"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882045"
 ---
 # <a name="organization-administration-home-page"></a>Organisatsioonihalduse avaleht
 
 [!include [banner](../includes/banner.md)]
 
-Teemas on toodud viited, mis aitavad lauskasutajatel ja administraatoritel konfigureerida süsteemi nii, et see töötaks teie organisatsiooni ja äritegevuse puhul sujuvalt ning tulemuslikult.
+See artikkel viitab sisule, mis aitab power-kasutajatel ja administraatoritel konfigureerida süsteemi nii, et süsteem töötaks teie organisatsiooni ja ettevõtte jaoks sujuvalt ja efektiivselt.
 
 Suur osa siin nimetatud sisust kohaldub mooduli **Organisatsiooni haldus** funktsioonidele. Kuid on mõned toimingud, nt kirje malli loomine ja kasutamine, mida saab rakendada mis tahes moodulis, et teie organisatsioon tõhusamalt toimiks.
 

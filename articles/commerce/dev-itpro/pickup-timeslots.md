@@ -1,6 +1,6 @@
 ---
 title: Kliendi järeletulemise ajavahemike loomine ja värskendamine
-description: See teema kirjeldab kliendi järeletulemise ajavahemike loomist, konfigureerimist ja värskendamist Commerce Headquartersis.
+description: See artikkel kirjeldab, kuidas commerce headquartersis luua, konfigureerida ja värskendada kliendi pealelugemise ajapesasid.
 author: anupamar-ms
 ms.date: 01/05/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-09-20
 ms.dyn365.ops.version: Retail 10.0.15 update
-ms.openlocfilehash: a9ee1356bfcaeee881c28cf0361b34b2c65acbc7a3b57347fa2581a8a935da42
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a135f592225e4b388b5c9fdaa5fe23e60baf0185
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713417"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882229"
 ---
 # <a name="create-and-update-time-slots-for-customer-pickup"></a>Kliendi järeletulemise ajavahemike loomine ja värskendamine
 
 [!include [banner](../../includes/banner.md)]
 
-See teema kirjeldab kliendi järeletulemise ajavahemike loomist, konfigureerimist ja värskendamist Commerce Headquartersis.
+See artikkel kirjeldab, kuidas commerce headquartersis luua, konfigureerida ja värskendada kliendi pealelugemise ajapesasid.
 
 Ajavahemiku funktsioon annab jaemüüjatele võimaluse määratleda ajavahemiku kaupadele, mille jaoks kliendi järeletulemisega tarneviis on sisse lülitatud. Ajavahemikud võimaldavad jaemüüjatel määratleda päevad ja kellaajad, kui tellimustele saab poodi järele tulla. Jaemüüjad saavad määratleda ka tellimuste arvu, millele saab kindla perioodi jooksul järele tulla. Sel viisil saavad jaemüüjad piirata selliste tellimuste arvu, millele saab kindlal päeval ja kindlal kellaajal järele tulla. Tulemuseks on kvaliteetsem klienditeenindus.
 

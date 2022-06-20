@@ -1,6 +1,6 @@
 ---
 title: Ühe makse kasutamine nende arvete tasakaalustamiseks, mis ulatuvad üle mitme allahindlusperioodi
-description: See teema näitab, kuidas makstakse mitut arvet, kui igale arvele kehtib skonto. Selle artikli stsenaariumid toovad välja, kuidas erinevad kasutatavad sularaha allahindlused, olenevalt sellest, millal makse tehakse.
+description: See artikkel näitab, kuidas makstakse mitut arvet, kui igale arvele kehtib skonto. Selle artikli stsenaariumid toovad välja, kuidas erinevad kasutatavad sularaha allahindlused, olenevalt sellest, millal makse tehakse.
 author: ShivamPandey-msft
 ms.date: 10/26/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f5187835da33d729e50aad9c813d8753d240fb81
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: e6035973abea9dacd4b6d4d8bf2fd3c7d6b10fb0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727618"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872640"
 ---
 # <a name="use-one-payment-to-settle-invoices-that-span-multiple-discount-periods"></a>Ühe makse kasutamine nende arvete tasakaalustamiseks, mis ulatuvad üle mitme allahindlusperioodi
 
 [!include [banner](../includes/banner.md)]
 
-See teema näitab, kuidas makstakse mitut arvet, kui igale arvele kehtib skonto. Selle artikli stsenaariumid toovad välja, kuidas erinevad kasutatavad sularaha allahindlused, olenevalt sellest, millal makse tehakse.
+See artikkel näitab, kuidas makstakse mitut arvet, kui igale arvele kehtib skonto. Selle artikli stsenaariumid toovad välja, kuidas erinevad kasutatavad sularaha allahindlused, olenevalt sellest, millal makse tehakse.
 
 Fabrikam müüb kliendile 4032 kaupu. Fabrikam pakub skontot 1%, kui arve tasutakse 14 päeva jooksul. Fabrikam pakub osalistele maksetele ka skontosid. Tasakaalustamise parameetrid asuvad lehel **Müügireskontro parameetrid**.
 

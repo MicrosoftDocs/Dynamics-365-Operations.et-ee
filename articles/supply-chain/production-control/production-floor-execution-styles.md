@@ -1,6 +1,6 @@
 ---
-title: Tootmisosakonna täideviimisliidese laadide määramine
-description: Teema selgitab, kuidas konfigureerida vormi juhtelemente nii, et neile rakendataks tootmiskorruse vaikekäitusstiile.
+title: Tootmisosakonna käivitusliidese laadide määramine
+description: Artikkel selgitab, kuidas konfigureerida vormi juhtelemente nii, et neile rakendatakse vaikimisi tootmispinna käivitamise laadid.
 author: johanhoffmann
 ms.date: 11/08/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-02-22
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: ef39dc6414f0afdadd4a4b5a41e1fb1fe60e4974
-ms.sourcegitcommit: bc9e75c38e192664cde226ed3a94df5a0b304369
+ms.openlocfilehash: ad6ecd591353fe8ddc1a5b9049d65491fb58e98a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7790886"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859136"
 ---
-# <a name="style-the-production-floor-execution-interface"></a>Tootmisosakonna täideviimisliidese laadide määramine
+# <a name="style-the-production-floor-execution-interface"></a>Tootmisosakonna käivitusliidese laadide määramine
 
 [!include [banner](../includes/banner.md)]
 
-Teema selgitab, kuidas konfigureerida vormi juhtelemente nii, et neile rakendataks tootmiskorruse vaikekäitusstiile.
+Artikkel selgitab, kuidas konfigureerida vormi juhtelemente nii, et neile rakendatakse vaikimisi tootmispinna käivitamise laadid.
 
 ## <a name="forms-and-dialogs"></a>Vormid ja dialoogid
 
@@ -31,7 +31,7 @@ Stiile saab vormile või dialoogile rakendada ainult siis, kui on täidetud jär
 - Kui vorm peaks sarnanema olemasoleva aruande edenemisvormiga, peavad teie vormi või dialoogi nimi alg olema `JmgProductionFloorExecutionCustomInputDialog`.
 - Vorm või dialoog võib sisaldada üksikasjade vormiosa. Stiilide rakendamiseks peab üksikasjavormi osa nimi alg olema `JmgProductionFloorExecutionCustomDetailsDialog`.
 - Kui vormil või dialoogil peaks olema lihtne vaade, peab lihtvaate nimi alg olema `JmgProductionFloorExecutionCustomDialog`. Lihtsa vaatega vormide näited hõlmavad algusvormi ja kaudse tegevuse vormi.
-- Kõik dialoogi juhtelemendid tuleb konfigureerida selles teemas kirjeldatud viisil.
+- Kõik dialoogi juhtelemendid tuleb konfigureerida selles artiklis kirjeldatud viisil.
 
 > [!IMPORTANT]
 > Selle loendi kahes esimeses punktis mainitud funktsioonid nõuavad Supply Chain Managementi versiooni 10.0.19 või uuemat.
@@ -52,7 +52,7 @@ Järgmine illustratsioon näitab tüüpilist vormi või dialoogi päist.
 
 ![Tüüpiline vormi või dialoogi päis.](media/pfe-styles-header.png "Vormi või dialoogi tüüpiline päis")
 
-Päised luuakse sellise struktuuri abil, nagu näidatud Visual Studio järgmises illustratsioonis.
+Päised Visual Studio luuakse sellise struktuuri abil, nagu näidatud järgmises illustratsioonis.
 
 ![Tüüpiline koodistruktuur päise loomiseks.](media/pfe-styles-header-code-structure.png "Tüüpiline koodistruktuur päise loomiseks")
 
@@ -73,8 +73,8 @@ private void setCaption()
 Oma päisekoodi kirjutamisel rakendage järgmisi reegleid:
 
 - Põhigrupi nimi peab olema `TableRowHeaderGroup`.
-- Iga tekstiblokk (täpiga eraldatud) peab alg `HeaderFieldWithSeparatorText` olema.
-- Viimase teksti nimi peab alg olema `HeaderFieldText`.
+- Iga tekstiblokk (täpiga eraldatud) peab alg olema.`HeaderFieldWithSeparatorText`
+- Viimase teksti nimi peab alg olema .`HeaderFieldText`
 - `CaptionImage` võib vahele jätta.
 
 ### <a name="progress-indicator"></a>Edenemisenäidik
@@ -89,7 +89,7 @@ Edenemisnäidiku näitamiseks peab tekstivälja nimi olema `ShowProgress`.
 
 Stiile rakendatakse automaatselt. Spetsiifiline konfiguratsioon ei ole nõutud.
 
-Ruudustikul peaks olema laad ja kohandatud vormi meetod tuleb `TabularView``run()` üle kirjutada, sest uut ruudustikku ei toetata veel. Lisage järgmine kood.
+Ruudustikul peaks olema `TabularView` laad `run()` ja kohandatud vormi meetod tuleb üle kirjutada, sest uut ruudustikku ei toetata veel. Lisage järgmine kood.
 
 ```xpp
 public void run()
@@ -100,14 +100,14 @@ public void run()
 }
 ```
 
-Põhivaate andmete värskendamiseks võite soovida kasutada midagi `this.parmParentForm().updateLayout();` sellist nagu `click` tegevuse puhul. (Näitena vaadake `JmgProductionFloorExecutionReportFeedbackAction` klassi.) Kontrollige ainult, `parmDataSource` et see on `init` seadistatud teie uue vormi `formCaller.parmDataSource(this.dataSource(1));` () meetodis. Näitena vaadake `JmgProductionFloorExecutionMainGrid` vormi.
+Põhivaate andmete värskendamiseks võite soovida kasutada midagi `this.parmParentForm().updateLayout();` sellist nagu tegevuse `click` puhul. (Näitena vaadake `JmgProductionFloorExecutionReportFeedbackAction` klassi.) Kontrollige ainult, `parmDataSource` et see on seadistatud `init` teie uue vormi meetodile (`formCaller.parmDataSource(this.dataSource(1));`). Näitena vaadake vormi `JmgProductionFloorExecutionMainGrid`.
 
 ## <a name="card-view"></a>Kaardi vaade
 
 Stiile saab kaardivaate juhtelementidele rakendada ainult siis, kui on täidetud järgmised nõuded.
 
 - Iga kaardivaade sisaldub vormirühmas.
-- Grupi nimi algab `CardGroup` sellega (nt `CardGroupJobsView`).
+- Grupi nimi algab sellega `CardGroup` (nt `CardGroupJobsView`).
 
 Järgmisel joonisel on kujutatud kaardivaade, mille sees pole juhtnuppe.
 
@@ -124,7 +124,7 @@ Järgmistel joonistel on kujutatud kaardivaateid, mille sees on juhtnupud.
 Stiile saab visiitkaardi juhtelementidele rakendada ainult siis, kui on täidetud järgmised nõuded.
 
 - Iga visiitkaart sisaldub vormirühmas.
-- Grupi nimi algab `BusinessCardGroup` sellega (nt `BusinessCardGroupJobsList`).
+- Grupi nimi algab sellega `BusinessCardGroup` (nt `BusinessCardGroupJobsList`).
 
 Määrake visiitkaardil järgmised omadused:
 
@@ -140,12 +140,12 @@ Määrake visiitkaardil järgmised omadused:
 Stiile saab raadionuppudele rakendada ainult siis, kui on täidetud järgmised nõuded.
 
 - Iga raadionupp sisaldub vormirühmas.
-- Grupi nimi algab `RadioTextBelow` tekstiga `RadioTextRight` või sõltuvalt sellest, kus soovite teksti kuvada.
+- Grupi nimi algab tekstiga `RadioTextBelow``RadioTextRight` või sõltuvalt sellest, kus soovite teksti kuvada.
 
 Määrake raadionupul järgmised omadused:
 
 - **Tumblernupp:** *kontrolli*
-- **Tumbleri** *väärtus:* sees, kui raadionupp tuleb valida; muul juhul välja *lülitatud*
+- **Tumbleri väärtus:** *sees*, kui raadionupp tuleb valida; muul juhul välja *lülitatud*
 
 Järgmisel joonisel on näide, kus tekst kuvatakse raadionuppude all.
 
@@ -173,15 +173,15 @@ Määrake nuppudele järgmised omadused:
 - **Nupu kuva:** *TextWithImageLeft*
 - **Tavaline pilt:** see atribuut ei saa olla tühi. Näiteks kasutage *CoffeeScript*.
 - **Tekst:** see atribuut ei saa olla tühi. Näiteks kasutage *Start Break*.
-- **Laius:** *Automaatne või* *SizeToContent*
-- **Kõrgus:** *Automaatne või* *SizeToContent*
+- **Laius:** *Automaatne* või *SizeToContent*
+- **Kõrgus:** *Automaatne* või *SizeToContent*
 
 ### <a name="primary-button"></a>Põhinupp
 
 Stiile saab esmasele nupule rakendada ainult siis, kui on täidetud järgmised nõuded.
 
 - Nupp sisaldub vormirühmas.
-- Grupi nimi algab `DefaultButtonGroup` järgmisega või `PrimaryButtonGroup` (nt `DefaultButtonGroup10`).
+- Grupi nimi algab järgmisega `DefaultButtonGroup` või `PrimaryButtonGroup` (nt `DefaultButtonGroup10`).
 
 ![Peamine nupp.](media/pfe-styles-first.png)
 
@@ -190,7 +190,7 @@ Stiile saab esmasele nupule rakendada ainult siis, kui on täidetud järgmised n
 Stiile saab lisanupule rakendada ainult siis, kui on täidetud järgmised nõuded.
 
 - Nupp sisaldub vormirühmas.
-- Grupi nimi on **Parem** paneel või grupi nimi `SecondaryButtonGroup` algab.
+- Grupi nimi on Parem **paneel** või grupi nimi algab.`SecondaryButtonGroup`
 
 ![Lisanupp.](media/pfe-styles-second.png)
 
@@ -199,7 +199,7 @@ Stiile saab lisanupule rakendada ainult siis, kui on täidetud järgmised nõude
 Stiile saab kolmanda grupi nupule rakendada ainult siis, kui on täidetud järgmised nõuded.
 
 - Nupp sisaldub vormirühmas.
-- Grupi nimi on **Vasak** paneel või grupi nimi `ThirdButtonGroup` algab.
+- Grupi nimi on Vasak **paneel** või grupi nimi algab.`ThirdButtonGroup`
 
 ![Kolmanda grupi nupp.](media/pfe-styles-third.png)
 
@@ -232,8 +232,8 @@ Määrake nupule järgmised omadused:
 - **Nupu kuvamine:** *ImageOnly*
 - **Tavaline pilt:** see atribuut ei saa olla tühi. Näiteks kasutage *CoffeeScript*.
 - **Tekst:** see atribuut peab olema tühi.
-- **Laius:** *Automaatne või* *SizeToContent*
-- **Kõrgus:** *Automaatne või* *SizeToContent*
+- **Laius:** *Automaatne* või *SizeToContent*
+- **Kõrgus:** *Automaatne* või *SizeToContent*
 
 ![Lame nupp.](media/pfe-styles-flat-button.png)
 
@@ -249,8 +249,8 @@ Määrake nupule järgmised omadused:
 - **Nupu kuvamine:** *ImageOnly*
 - **Tavaline pilt:** *edasi*
 - **Tekst:** see atribuut peab olema tühi.
-- **Laius:** *Automaatne või* *SizeToContent*
-- **Kõrgus:** *Automaatne või* *SizeToContent*
+- **Laius:** *Automaatne* või *SizeToContent*
+- **Kõrgus:** *Automaatne* või *SizeToContent*
 
 ![Nupp Jätka.](media/pfe-styles-continue-button.png)
 
@@ -262,8 +262,8 @@ Stiile saab liitkastile rakendada ainult siis, kui on täidetud järgmised nõud
 
 - Liitkast sisaldub vormirühmas.
 - Grupi nime algus on `Combobox`.
-- Grupis on esimene juhtelement `AxFormStringControl` juhtelement. See juhtnupp näitab praegust väärtust ja sinna sisestab kasutaja vajaliku väärtuse.
-- Teine juhtelement on juhtelement `CommonButton` ja selle nimi algab. `ClearButton` See nupp peab sisaldama koodi, mis `enable` kasutab atribuuti nupu näitamiseks või peitmiseks. Näiteks nupu **Tühjenda** kuvamiseks või peitmiseks, kui kasutaja sisestab sisendjuhtseadmesse teavet, saate kasutada järgmist koodi.
+- Grupis on esimene juhtelement juhtelement `AxFormStringControl`. See juhtnupp näitab praegust väärtust ja sinna sisestab kasutaja vajaliku väärtuse.
+- Teine juhtelement on juhtelement `CommonButton` ja selle nimi algab.`ClearButton` See nupp peab sisaldama koodi, mis kasutab `enable` atribuuti nupu näitamiseks või peitmiseks. Näiteks nupu **Tühjenda** kuvamiseks või peitmiseks, kui kasutaja sisestab sisendjuhtseadmesse teavet, saate kasutada järgmist koodi.
 
     ```xpp
     public void textChange()
@@ -288,7 +288,7 @@ Stiile saab liitkastile rakendada ainult siis, kui on täidetud järgmised nõud
     }
     ```
 
-    Kasutage nupu Tühjenda `clicked` meetodi puhul järgmist **·** koodi.
+    Kasutage nupu Tühjenda meetodi `clicked` puhul järgmist **koodi**.
 
     ```xpp
     public void clicked()
@@ -298,9 +298,9 @@ Stiile saab liitkastile rakendada ainult siis, kui on täidetud järgmised nõud
     }
     ```
 
-    Seadistage sisendkontrolli `AxFormStringControl` väärtus, kui vorm lähtestatakse meetodi `init` abil. Kui väärtus ei ole tühi, lubage nupp **Tühjenda**. Kui väärtus on tühi, keelake nupp **Tühjenda**.
+    Seadistage sisendkontrolli väärtus, `AxFormStringControl` kui vorm lähtestatakse meetodi `init` abil. Kui väärtus ei ole tühi, lubage nupp **Tühjenda**. Kui väärtus on tühi, keelake nupp **Tühjenda**.
 
-- Kolmas juhtelement on juhtelement `CommonButton` ja selle nimi algab. `SearchButton`
+- Kolmas juhtelement on juhtelement `CommonButton` ja selle nimi algab.`SearchButton`
 
 Järgmisel joonisel on kujutatud kaks liitkasti juhtnuppu. Vasakpoolses liitkastis on tühi tekstikast ja nupp **Tühjenda** on keelatud. Parempoolses liitkastis on tekst ja nupp **Tühjenda** on lubatud.
 
@@ -312,9 +312,9 @@ Kiirfiltri juhtelement lisab lehele otsinguvälja. Saate kiirfiltrile stiile rak
 
 - Kiirfilter sisaldub vormirühmas.
 - Grupi nime algus on `SearchInputGroup`.
-- Grupis on esimene juhtelement `QuickFilter` juhtelement. (See juhtelement on seal, kuhu kasutaja sisestab otsingustringi.)
-- Teine juhtelement on `FormStaticTextControl``NumberOfResults` nimi. (See juhtelement on valikuline. Kui see on kaasatud, kuvatakse siin leitud kaupade arv.)
-- Kolmas juhtelement on juhtelement `CommonButton` ja selle nimi algab. `ClearButton`
+- Grupis on esimene juhtelement juhtelement `QuickFilter`. (See juhtelement on seal, kuhu kasutaja sisestab otsingustringi.)
+- Teine juhtelement on `FormStaticTextControl` nimi `NumberOfResults`. (See juhtelement on valikuline. Kui see on kaasatud, kuvatakse siin leitud kaupade arv.)
+- Kolmas juhtelement on juhtelement `CommonButton` ja selle nimi algab.`ClearButton`
 
 Järgmisel joonisel on kujutatud kaks kiirfiltri juhtnuppu. Vasakpoolsel kiirfiltril on tühi kiirfilter ja tulemuste arv pole nähtav. Parempoolne kiirfilter sisaldab otsingustringi ja näitab tulemuste arvu.
 
@@ -322,7 +322,7 @@ Järgmisel joonisel on kujutatud kaks kiirfiltri juhtnuppu. Vasakpoolsel kiirfil
 
 ## <a name="center-align-elements-on-a-tab"></a>Joonda elemendid vahekaardil keskele
 
-Elementide joondamiseks vahekaardi keskel peab grupi nimi alg olema ja `TabContentGroup` grupil peavad olema järgmised atribuudid:
+Elementide joondamiseks vahekaardi keskel peab grupi nimi `TabContentGroup` alg olema ja grupil peavad olema järgmised atribuudid:
 
 - **Laiuse režiim:**`SizeToAvailable`
 - **Kõrguse režiim:**`SizeToAvailable`
@@ -331,14 +331,14 @@ Elementide joondamiseks vahekaardi keskel peab grupi nimi alg olema ja `TabConte
 
 Kohandatud ruudustiku, detailide osa ja kiire filtri korraldamiseks nii, et need sarnaneksid standardse kujundusega, pidage silmas järgmisi punkte, kui panete need kõik kokku:
 
-- Kui ruudustikul on kiirfilter, peaksid nii ruudustik kui ka kiirfilter olema grupi sees, mille nimi `GridGroup` algab.
-- Stiilide rakendamiseks üksikasjaosale peab grupi nimi alg olema `DetailInformationGroup` järgmine:
+- Kui ruudustikul on kiirfilter, peaksid nii ruudustik kui ka kiirfilter olema grupi sees, mille nimi algab.`GridGroup`
+- Stiilide rakendamiseks üksikasjaosale peab grupi nimi alg olema järgmine `DetailInformationGroup`:
 
 Järgmine näide näitab tüüpilist ruudustikku, mis sisaldab kiirfiltrit ja üksikasjalist osa paremal.
 
 ![Tavaline ruudustik, mis sisaldab kiirfiltri ja üksikasjaliku osa.](media/pfe-styles-align-grid.png "Tavaline ruudustik, mis sisaldab kiirfiltri ja üksikasjaliku osa")
 
-Ruudustiku, üksikasjaliku ja kiire filtri loomiseks saate kasutada järgmist struktuuri, mida näidatakse järgmisel Visual Studio joonisel.
+Ruudustiku Visual Studio, üksikasjaliku ja kiire filtri loomiseks saate kasutada järgmist struktuuri, mida näidatakse järgmisel joonisel.
 
 ![Tüüpiline koodistruktuur, mis joondab ruudustiku, üksikasjaliku osa ja kiirfiltri.](media/pfe-styles-header-code-structure2.png "Tüüpiline koodistruktuur, mis joondab ruudustiku, üksikasjaliku osa ja kiirfiltri")
 

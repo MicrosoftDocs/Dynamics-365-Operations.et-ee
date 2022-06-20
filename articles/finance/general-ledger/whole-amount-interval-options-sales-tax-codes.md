@@ -1,6 +1,6 @@
 ---
 title: Kogusumma ja intervalli arvutamise valikud käibemaksukoodide puhul
-description: See teema selgitab käibemaksukoodide välja Arvutusmeetod ja seda, kuidas käibemaksu vahemike ja terviksummade puhul arvutatakse.
+description: See artikkel selgitab käibemaksukoodide välja Arvutusmeetod ja seda, kuidas käibemaksu vahemike ja terviksummade puhul arvutatakse.
 author: kailiang
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6f06c92f2151f54a7d9b684b9687b786d1e4cd7a
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 5b02a0ced8b556cfc5a984d24ceaf982629fd69c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727450"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874457"
 ---
 # <a name="whole-amount-and-interval-calculation-options-for-sales-tax-codes"></a>Kogusumma ja intervalli arvutamise valikud käibemaksukoodide puhul
 
 [!include [banner](../includes/banner.md)]
 
-See teema selgitab käibemaksukoodide välja **Arvutusmeetod** ja seda, kuidas käibemaksu vahemike ja terviksummade puhul arvutatakse.
+See artikkel selgitab käibemaksukoodide arvutusmeetodi **välja** valikuid ja seda, kuidas käibemaksu intervallide ja kogusummade puhul arvutatakse.
 
 Saate seadistada käibemaksukoodi arvutamise kogusumma või intervallisumma põhjal. Valige käibemaksukoodi arvutamise viis lehe **Käibemaksukoodid** kiirkaardi **Arvutamine** väljal **Arvutusmeetod**.
 - Kogusumma – maksumäära rakendatakse kogu maksustatavale summale.

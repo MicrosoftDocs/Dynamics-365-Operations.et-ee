@@ -1,6 +1,6 @@
 ---
 title: Staatiliste failide üleslaadimine ja kasutamine
-description: See teema kirjeldab, kuidas laadida staatilist faili Microsoft Dynamics 365 Commerce saidiloojasse ja kuidas luua kohandatud URL-i ja faili nime, mida saab kasutada faili taotlemiseks.
+description: See artikkel kirjeldab, kuidas Microsoft Dynamics 365 Commerce staatilist faili saidikonstruktorisse üles laadida ja kuidas luua kohandatud URL-i ja faili nime, mida saab faili taotleda.
 author: StuHarg
 ms.date: 11/16/2020
 ms.topic: article
@@ -14,20 +14,20 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 389d33189644241dcf98da0c7f3b841e82a4430ac459dc8027284cecc299b4b1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a1b14feba1466c3a5efc3b0ea66f20e9e818a8a5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714679"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885318"
 ---
 # <a name="upload-and-serve-static-files"></a>Staatiliste failide üleslaadimine ja kasutamine
 
 [!include [banner](includes/banner.md)]
 
-See teema kirjeldab, kuidas laadida staatilist faili Microsoft Dynamics 365 Commerce saidiloojasse ja kuidas luua kohandatud URL-i ja faili nime, mida saab kasutada faili taotlemiseks.
+See artikkel kirjeldab, kuidas Microsoft Dynamics 365 Commerce staatilist faili saidikonstruktorisse üles laadida ja kuidas luua kohandatud URL-i ja faili nime, mida saab faili taotleda.
 
-Mõned kolmanda osapoole konnektorid nõuavad, et fail majutatakse ja serveeritakse e-kaubanduse saidilt. Need konnektorid eeldavad, et fail tagastatakse taotlustega kindlale tagasihelistamise URL-i teele ja failinimele. Seetõttu selgitab see teema, kuidas üles laadida ja kasutada staatilist faili, millel on Dynamics 365 Commerce e-kaubanduse saidil kasutaja poolt määratletavad URL ja failinimi.
+Mõned kolmanda osapoole konnektorid nõuavad, et fail majutatakse ja serveeritakse e-kaubanduse saidilt. Need konnektorid eeldavad, et fail tagastatakse taotlustega kindlale tagasihelistamise URL-i teele ja failinimele. Seetõttu selgitab see artikkel, kuidas laadida üles ja teenindada staatilist faili, mille kasutaja määratletav URL ja faili nimi on Dynamics 365 Commerce e-äri saidil.
 
 ## <a name="create-a-site-url-that-returns-a-static-file"></a>Looge saidi URL, mis tagastab staatilise faili.
 
@@ -86,7 +86,7 @@ Pärast URL-i loomist ei saa selle teed muuta. Kui peate muutma faili või mõnd
 
 URL-i tee muutmiseks tehke järgmist.
 
-1. Uue URL-i loomiseks ja selle olemasolevale failile või muule ressursile vastendamiseks järgige juhiseid selles teemas olevaid varasemaid juhised [Saidi URL-i loomine, mis tagastab staatilise faili](#create-a-site-url-that-returns-a-static-file).
+1. Uue URL-i loomiseks ja selle vastendamiseks olemasoleva faili või muu ressursiga järgige juhiseid saidi URL-i [loomiseks,](#create-a-site-url-that-returns-a-static-file) mis tagastab selle artikli varasema staatilise faili sektsiooni.
 1. Valige uus URL ja valige käsk **Avalda**. Uus URL on avaldatud.
 1. Vana URL-i avaldamise tühistamiseks valige see ja seejärel valige käsuribal käsk **Tühista avaldamine**. Soovi korral võite nüüd vana URL-i kustutada.
 

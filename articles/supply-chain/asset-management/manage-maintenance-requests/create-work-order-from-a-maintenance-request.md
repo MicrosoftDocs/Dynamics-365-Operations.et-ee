@@ -1,6 +1,6 @@
 ---
 title: Töötellimuste loomine hooldustaotluste põhjal
-description: See teema selgitab, kuidas luua varahalduses hoolduse päringust töökäsk.
+description: See artikkel selgitab, kuidas luua varahalduse hooldusnõudest töötellimus.
 author: johanhoffmann
 ms.date: 10/01/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1c69ad91e931475dd4c8e5a126190e867bd193f881ad58525c1d2ac8997c972a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: MT
+ms.openlocfilehash: 0c73f019951460dc7cb6395d616a0f0a22fd0b91
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726917"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909697"
 ---
 # <a name="create-work-orders-from-maintenance-requests"></a>Töötellimuste loomine hooldustaotluste põhjal
 
@@ -29,7 +29,7 @@ ms.locfileid: "6726917"
  
 
 
-Pärast hoolduspäringute loomist saate need hõlpsalt töötellimusteks teisendada. See teema kirjeldab kiireimat viisi, kuidas töötada hooldustaotlustega, uuendada mitut hooldustaotlust korraga ja seejärel luua töökäsk mitme hooldustaotluse jaoks samal ajal. Lehel **Aktiivsed hooldustaotlused** või lehel **Minu funktsionaalsed asukohahoolduse taotlused** saate töötada korraga ka ühe hooldustaotlusega ja teisendada ühe hooldustaotluse töötellimuseks.
+Pärast hoolduspäringute loomist saate need hõlpsalt töötellimusteks teisendada. See artikkel kirjeldab kõige kiiremat viisi töötada hooldustaotlustega, värskendada samaaegselt mitut hooldustaotlust ja seejärel luua töötellimus mitme hooldustaotluse jaoks samaaegselt. Lehel **Aktiivsed hooldustaotlused** või lehel **Minu funktsionaalsed asukohahoolduse taotlused** saate töötada korraga ka ühe hooldustaotlusega ja teisendada ühe hooldustaotluse töötellimuseks.
 
 > [!NOTE]
 > Iga hooldustaotlus võib olla seotud ainult ühe töötellimusega. Mitu hooldustaotlust saab siiski lisada ühele töötellimusele, isegi kui hooldustaotlustes on erinevad varad.

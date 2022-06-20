@@ -1,6 +1,6 @@
 ---
-title: Laohalduse mobiilirakenduse Warehouse Management väljade konfigureerimine
-description: See teema kirjeldab, kuidas määratleda ja konfigureerida ladustamise mobiilirakenduse Warehouse Management kuvatud väljade nimesid ja prioriteete.
+title: Mobiilirakenduse Warehouse Management väljade konfigureerimine
+description: See artikkel kirjeldab, kuidas määrata ja konfigureerida laohalduse mobiilirakenduses kuvatavate väljade nimesid ja prioriteete.
 author: Mirzaab
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,21 +16,21 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8c9c1d921f68538d5b84db16b1e88e28147e6b41
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: 1ce274c997119c7fdba193fa9559832e63febddc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902292"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893232"
 ---
-# <a name="configure-fields-for-the-warehouse-management-mobile-app"></a>Laohalduse mobiilirakenduse Warehouse Management väljade konfigureerimine
+# <a name="configure-fields-for-the-warehouse-management-mobile-app"></a>Mobiilirakenduse Warehouse Management väljade konfigureerimine
 
 [!include [banner](../includes/banner.md)]
 
-See teema kirjeldab, kuidas määratleda ja konfigureerida ladustamise mobiilirakenduse Warehouse Management kuvatud väljade nimesid ja prioriteete.
+See artikkel kirjeldab, kuidas määrata ja konfigureerida laohalduse mobiilirakenduses kuvatavate väljade nimesid ja prioriteete.
 
 > [!NOTE]
-> See teema kehtib laohalduse funktsioonidele. See ei kehti funktsioonidele moodulis Varude haldus. Mobiilirakendus Warehouse Management on rakendus, mille abil saate täita laos vajalikke ülesandeid. Saate määratleda ja konfigureerida rakenduses kasutatavaid väljanimetusi, samuti konfigureerida prioriteeti, millele väljanimed tuleb määrata. See teema selgitab, kuidas neid mobiilirakenduse Warehouse Management väljade nimesid ja prioriteete määratleda ning konfigureerida ja kuidas neid kasutada.
+> See artikkel kehtib laohalduse funktsioonide kohta. See ei kehti funktsioonidele moodulis Varude haldus. Mobiilirakendus Warehouse Management on rakendus, mille abil saate täita laos vajalikke ülesandeid. Saate määratleda ja konfigureerida rakenduses kasutatavaid väljanimetusi, samuti konfigureerida prioriteeti, millele väljanimed tuleb määrata. See artikkel selgitab, kuidas määrata ja konfigureerida neid laohalduse mobiilirakenduse väljanimesid ja -prioriteete ning nende kasutamist.
 
 ## <a name="configure-warehouse-app-field-names"></a>Laorakenduse väljade nimede konfigureerimine
 
@@ -135,7 +135,7 @@ Näiteks kui laotöötaja täidab ülesannet mobiilses seadmes, sisaldavad raken
 -   2. rida: kauba kirjeldus
 -   3. rida: suurus
 
-Ülejäänud metaandmeid, näiteks asukohta, ülesandelehel ei kuvata, kuid need kuvatakse üksikasjade lehel. Lisateabe saamiseks ja kasutajaliidese näidete vaatamiseks lugege ajaveebipostitust [Announcing Finance and Operations – Warehousing](https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/).
+Ülejäänud metaandmeid, näiteks asukohta, ülesandelehel ei kuvata, kuid need kuvatakse üksikasjade lehel. Lisateabe saamiseks ja kasutajaliidese näidete vaatamiseks lugege ajaveebipostitust [Announcing Finance and Operations - Warehousing](https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/).
 
 ## <a name="additional-resources"></a>Lisaressursid
 

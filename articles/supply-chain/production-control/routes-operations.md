@@ -1,6 +1,6 @@
 ---
 title: Protsessid ja operatsioonid
-description: See teema annab teavet protsesside ja operatsioonide kohta.
+description: See artikkel annab teavet protsesside ja toimingute kohta.
 author: johanhoffmann
 ms.date: 03/18/2019
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ab825227e7cd8848dbad58c58f5c6d7afc338f9c
-ms.sourcegitcommit: 7cbd53617af179a0de74aae30c149edc95e86684
+ms.openlocfilehash: 103c7007cd002c5953d096ff6001a93c4936b702
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/06/2021
-ms.locfileid: "7891949"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856015"
 ---
 # <a name="routes-and-operations"></a>Protsessid ja operatsioonid
 
 [!include [banner](../includes/banner.md)]
 
-See teema annab teavet protsesside ja operatsioonide kohta. Protsess määratleb toote või tootevariandi tootmise protsessi. See kirjeldab tootmisprotsessi iga etappi (operatsiooni) ja nende etappide läbimise järjekorda. Iga etapi puhul määratleb protsess ka vajalikud operatsiooniressursid, vajaliku seadistamise aja ja käitusaja ning kulu arvutamise viisi.
+See artikkel annab teavet protsesside ja toimingute kohta. Protsess määratleb toote või tootevariandi tootmise protsessi. See kirjeldab tootmisprotsessi iga etappi (operatsiooni) ja nende etappide läbimise järjekorda. Iga etapi puhul määratleb protsess ka vajalikud operatsiooniressursid, vajaliku seadistamise aja ja käitusaja ning kulu arvutamise viisi.
 
 ## <a name="overview"></a>Ülevaade
 
@@ -223,7 +223,7 @@ Selle lähenemise kasutamisel muutub leht **Operatsiooniseosed** käitusaegade j
 Kui te operatsiooni ressursivajaduste hulgas operatsiooniressurssi või ressursigruppi ei määra, võivad vastavad ressursid tegutseda erineva kiirusega. Seega võib aeg, mida on operatsiooni töötlemiseks vaja, erinev olla. Selle probleemi lahendamiseks võib kasutada operatsiooni seose välja **Valem** määramiseks, kuidas protsessi aega arvutatakse. Valikud on järgmised:
 
 - **Standardne** – (vaikevalik) arvutus kasutab ainult operatsiooniseose välju ja korrutab määratud käitusaja tellimuse kogusega.
-- **Maht** – arvutus sisaldab operatsiooniressursi välja **Maht**. Seega on aeg ressursist sõltuv. Operatsiooniressursi juures määratud väärtus on maht tunni kohta. **Töötlemisaeg** arvutatakse **Tellimuse kogusena**, mis jagatakse **Võimsusega**. Võimsuse väärtus pole kindlale mõõtühikule omane ja seega ei põhine see võimsusühiku väljal, mis on lihtsalt kirjeldav väli, mida arvutustes **ei** kasutata.
+- **Maht** – arvutus sisaldab operatsiooniressursi välja **Maht**. Seega on aeg ressursist sõltuv. Operatsiooniressursi juures määratud väärtus on maht tunni kohta. **Töötlemisaeg** arvutatakse **Tellimuse kogusena**, mis jagatakse **Võimsusega**. Võimsuse väärtus pole kindlale mõõtühikule omane ja seega ei põhine see võimsusühiku väljal, mis on **lihtsalt** kirjeldav väli, mida arvutustes ei kasutata.
 - **Partii** – partii maht arvutatakse operatsiooni seose teabe abil. Siis saab arvutada tellimuse koguse põhjal partiide arvu ja protsessi aja.
 - **Ressursi partii** – see valik on põhimõtteliselt sama, mis valik **Partii**. Kuid arvutus sisaldab operatsiooniressursi välja **Partii maht**. Seega on aeg ressursist sõltuv.
 

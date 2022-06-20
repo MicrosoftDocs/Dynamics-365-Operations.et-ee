@@ -1,6 +1,6 @@
 ---
 title: Negatiivsed päevad ja dünaamilised negatiivsed päevad
-description: Selles teemas antakse ülevaade negatiivsetest päevadest ja dünaamilistest negatiivsetest päevadest ning kuidas neid oma ettevõtte abistamiseks kasutada.
+description: See artikkel annab teavet negatiivsete päevade ja dünaamiliste negatiivsete päevade kohta ning selle kohta, kuidas neid kasutada oma äritegevuses.
 author: t-benebo
 ms.date: 05/25/2021
 ms.topic: article
@@ -10,27 +10,27 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2019-06-07
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6d88517c99a274911e8abd8de4bcd318139822a5
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: d83aab9b7d3d30d519e8b313a57f2802de3cfb72
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469865"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846123"
 ---
 # <a name="negative-days-and-dynamic-negative-days"></a>Negatiivsed päevad ja dünaamilised negatiivsed päevad
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas antakse ülevaade negatiivsetest päevadest ja dünaamilistest negatiivsetest päevadest ning kuidas neid oma ettevõtte abistamiseks kasutada. *Negatiivsete päevade ajapiir* tähistab päevade arvu, mida olete valmis ootama, enne kui tellite negatiivse kaubavaru korral uue täienduse.
+See artikkel annab teavet negatiivsete päevade ja dünaamiliste negatiivsete päevade kohta ning selle kohta, kuidas neid kasutada oma äritegevuses. *Negatiivsete päevade ajapiir* tähistab päevade arvu, mida olete valmis ootama, enne kui tellite negatiivse kaubavaru korral uue täienduse.
 
-Selles teemas on järgmine teave.
+Selles artiklis saate teada järgmise teabe:
 
 - Kuidas plaanitud tellimusi luuakse?
 - Negatiivsete päevade ajapiiri ja kauba täitmisaja vaheline korrelatsioon
 - Kuidas dünaamiliste negatiivsete päevade ajapiiri arvutatakse ja kuidas arvutamisel võetakse arvesse kauba täitmisaega.
 - Kuidas tõlgendada [soovitusi materiaalsete nõuete plaanimise käitusaja parandamiseks (koondplaneerimine)](https://blogs.msdn.com/b/axmfg/archive/2015/01/02/checklist-for-improving-mrp-performance-part-2-how-to-setup-planning-parameters.aspx), mis on negatiivsete päevadega seotud.
 
-Selles teemas kasutatakse teabe mõistmise hõlbustamiseks kolme oletuslikku stsenaariumit. Erinevus stsenaariumite vahel on nõudluse saamise hetk – enne, selle ajal või pärast kauba täitmisaja perioodi lõppu.
+Selles artiklis kasutatakse kolme stsenaariumi, mis aitavad teil seda teavet mõista. Erinevus stsenaariumite vahel on nõudluse saamise hetk – enne, selle ajal või pärast kauba täitmisaja perioodi lõppu.
 
 ## <a name="scenario-1-you-get-demand-before-the-items-lead-time-period"></a>1. stsenaarium: saate nõudluse enne kauba täitmisaja perioodi
 
@@ -93,7 +93,7 @@ Järgmisel joonisel on selles juhtumis toimuva graafiline vaade.
 
 ### <a name="case-e-use-both-negative-days-that-are-more-than-the-items-lead-time-and-the-dynamic-negative-days-time-fence"></a>Juhtum E: mõlema negatiivse päeva kasutamine, mis on suurem kui kauba täitmisaeg ja dünaamiliste negatiivsete päevade ajapiir.
 
-Kui määrate negatiivsed päevad väärtusele, mis on suurem kui kauba täitmisaeg, ja kui kasutate ka dünaamiliste negatiivsete päevade ajapiiri, on dünaamiliste negatiivsete päevade ajapiir 6 + 6 + 0 = 12 päeva. See lähenemine võib luua väga pika ajapiiri, mille seast MRP peab tulemusi otsima. Teavet selle kohta, kuidas juhtum E on seotud olukorraga, kus määrate negatiivsed päevad pikale ajapiirile, vt selle teema jaotist [Lõppsõna](#conclusion).
+Kui määrate negatiivsed päevad väärtusele, mis on suurem kui kauba täitmisaeg, ja kui kasutate ka dünaamiliste negatiivsete päevade ajapiiri, on dünaamiliste negatiivsete päevade ajapiir 6 + 6 + 0 = 12 päeva. See lähenemine võib luua väga pika ajapiiri, mille seast MRP peab tulemusi otsima. Teavet selle kohta, kuidas juhtum E on seotud situatsiooniga, kus seate negatiivsed päevad pikale ajapiirile, [vt](#conclusion) selle artikli lõppjaost.
 
 ## <a name="scenario-2-you-get-demand-during-the-items-lead-time-period"></a>2. stsenaarium: saate nõudluse kauba täitmisaja perioodi jooksul
 
@@ -142,7 +142,7 @@ Kui määrate negatiivsed päevad väärtusele **0** (null) ja kasutate ainult d
 
 ### <a name="case-e-use-both-negative-days-that-are-more-than-the-items-lead-time-and-the-dynamic-negative-days-time-fence"></a>Juhtum E: mõlema negatiivse päeva kasutamine, mis on suurem kui kauba täitmisaeg ja dünaamiliste negatiivsete päevade ajapiir.
 
-Kui määrate negatiivsed päevad väärtusele, mis on suurem kui kauba täitmisaeg, ja kui kasutate ka dünaamiliste negatiivsete päevade ajapiiri, on dünaamiliste negatiivsete päevade ajapiir 6 + 6 – 4 = 8 päeva. See lähenemine võib luua väga pika ajapiiri, mille seast MRP peab tulemusi otsima. Teavet selle kohta, kuidas juhtum E on seotud olukorraga, kus määrate negatiivsed päevad pikale ajapiirile, vt selle teema jaotist [Lõppsõna](#conclusion).
+Kui määrate negatiivsed päevad väärtusele, mis on suurem kui kauba täitmisaeg, ja kui kasutate ka dünaamiliste negatiivsete päevade ajapiiri, on dünaamiliste negatiivsete päevade ajapiir 6 + 6 – 4 = 8 päeva. See lähenemine võib luua väga pika ajapiiri, mille seast MRP peab tulemusi otsima. Teavet selle kohta, kuidas juhtum E on seotud situatsiooniga, kus seate negatiivsed päevad pikale ajapiirile, [vt](#conclusion) selle artikli lõppjaost.
 
 ## <a name="scenario-3-you-get-demand-after-the-items-lead-time-period"></a>3. stsenaarium: saate nõudluse pärast kauba täitmisaja perioodi
 
@@ -204,7 +204,7 @@ See juhtum on sama, mis 1. ja 2. stsenaariumi juhtum E. Sellel on põhimõttelis
 
 ## <a name="conclusion"></a>Lõppsõna
 
-Nagu selle teema kolm stsenaariumit näitava, on hea mõte seada negatiivsed päevad väärtusele, mis on suurem kui laovarude grupi kaupade täitmisaeg. Samuti on hea mõte kasutada ainult dünaamilisi negatiivseid päevi ja määrata negatiivsed päevad päevade arvule, kaua olete negatiivse laovaru korral nõus enne uue täiendamise tellimist ootama (teisisõnu päevade arv, kaua olete nõus nõudlust veel edasi lükkama). Lisaks peaks samas laovarude grupis olevatel kaupadel olema sarnased täitmisajad.
+Nagu näitab kolm selle artikli stsenaariumit, on hea mõte seada negatiivsed päevad arvule, mis on suurem kui laovarude grupi kaupade täitmisaeg. Samuti on hea mõte kasutada ainult dünaamilisi negatiivseid päevi ja määrata negatiivsed päevad päevade arvule, kaua olete negatiivse laovaru korral nõus enne uue täiendamise tellimist ootama (teisisõnu päevade arv, kaua olete nõus nõudlust veel edasi lükkama). Lisaks peaks samas laovarude grupis olevatel kaupadel olema sarnased täitmisajad.
 
 Kui määrate negatiivsed päevad väärtusele **0** (null) ja dünaamilisi negatiivseid päevi ei kasuta, loob MRP nõudluse täitmiseks alati uue plaanitud tellimuse. Sellises olukorras on oluline, et töötate tegevussoovitustega veendumaks, et te kaubavarusid ei kuhjaks.
 

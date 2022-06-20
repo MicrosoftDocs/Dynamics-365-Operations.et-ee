@@ -1,6 +1,6 @@
 ---
 title: Ülesannete halduse sünkroonimine Microsoft Teams ja Dynamics 365 Commerce kassade vahel
-description: See teema kirjeldab, kuidas sünkroonida ülesannete haldust Microsoft Teams ja Dynamics 365 Commerce müügikoha vahel.
+description: See artikkel kirjeldab, kuidas sünkroonida ülesannete haldust Microsoft Teams müügikoha Dynamics 365 Commerce ja kassa vahel.
 author: gvrmohanreddy
 ms.date: 02/17/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: b7bb38a415524290d1636eda1f379f3cdcf7e593
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 23da56f4f6aee906aad261939d1c7ef9feac5922
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688907"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874865"
 ---
 # <a name="synchronize-task-management-between-microsoft-teams-and-dynamics-365-commerce-pos"></a>Ülesannete halduse sünkroonimine Microsoft Teams ja Dynamics 365 Commerce kassade vahel
 
 [!include [banner](includes/banner.md)]
 
-See teema kirjeldab, kuidas sünkroonida ülesannete haldust Microsoft Teams ja Dynamics 365 Commerce müügikoha vahel.
+See artikkel kirjeldab, kuidas sünkroonida ülesannete haldust Microsoft Teams müügikoha Dynamics 365 Commerce ja kassa vahel.
 
 Teams'i integreerimise üks peamisi eesmärke on võimaldada kassarakenduse ja Teams-i ülesannete halduse sünkroonimist. Nii saavad poe töötajad ülesannete haldamiseks kasutada kas POS-rakendust või Teamsit ega pea rakendusi vahetama.
 

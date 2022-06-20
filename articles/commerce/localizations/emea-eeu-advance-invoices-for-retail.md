@@ -1,6 +1,6 @@
 ---
-title: Commerce'i ettemaksuarved Ida-Euroopa puhul
-description: Selles teemas selgitatakse, kuidas seadistada Ida-Euroopa ettemaksu teavitusi.
+title: Commerce'i ettemaksuarved Ida-Euroopa jaoks
+description: See artikkel selgitab, kuidas seadistada ida-Euroopa äriteatisi.
 author: epopov
 ms.date: 10/23/2018
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 4433dfad61aacb41aba9cf233515460410c7260304e8e3d690b015b193ffe774
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c71f0ddb0a040202a486e63b4812ac4f84ad36aa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718688"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883919"
 ---
-# <a name="advance-invoices-for-commerce-for-eastern-europe"></a>Commerce'i ettemaksuarved Ida-Euroopa puhul
+# <a name="advance-invoices-for-commerce-for-eastern-europe"></a>Commerce'i ettemaksuarved Ida-Euroopa jaoks
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas sisalduv teave kehtib Ida-Euroopa asukohale ja puudutab konkreetselt kaubandust.
+Selle artikli teave kehtib Ida-Euroopa lokalisatsiooni kohta ja on omane äritööstusele.
 
 Poola, Ungari ja Tšehhi Vabariigi korral tuleb peale kliendilt müügipunktis saadud ettemakset see ettemakse maksude eesmärgil registreerida ning vajalik on luua ja trükkida ettemaksuarve, mis sisaldab ettemaksu summat. Lisaks tuleb Poola korral ettemaksearvete tehingud kanda pearaamatusse.
 

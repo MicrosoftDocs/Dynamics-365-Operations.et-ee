@@ -1,6 +1,6 @@
 ---
 title: ER-i konfiguratsioonide sõltuvuse määramine teistest komponentidest
-description: Selles teemas kirjeldatase, kuidas kujundada elektroonilise aruandluse (ER) konfiguratsiooni ja määrata selle sõltuvus teistest tarkvarakomponentidest.
+description: See artikkel kirjeldab, kuidas kujundada elektroonilise aruandluse (ER) konfiguratsiooni ja määrata selle sõltuvus teistest tarkvarakomponentidest.
 author: NickSelin
 ms.date: 07/23/2021
 ms.topic: business-process
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2901092938dae5ae14480716eeeb2b0386848332e91ad388ce5d34437f8492ba
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 525e9be1655bdf0c0328ec53509ab1966abd7bde
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6717590"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883564"
 ---
 # <a name="define-the-dependency-of-er-configurations-on-other-components"></a>ER-i konfiguratsioonide sõltuvuse määramine teistest komponentidest
 
@@ -25,7 +25,7 @@ ms.locfileid: "6717590"
 
 Toimingute teostamiseks peate esmalt läbima tegevusjuhises toodud ja ER-i mudelihalduse vastendamise konfiguratsioonide etapid ning teil peab olema juurdepääs teenusele Microsoft Dynamics Lifecycle Services (LCS).
 
-Järgmises protseduuris kirjeldatakse elektroonilise aruandluse (ER) konfiguratsiooni kavandamist ja selle teistest tarkvarakomponentidest sõltuvuse määramist tagamaks, et konfiguratsioon laaditaks õigesti alla rakenduse Finance and Operations, Enterprise Edition kindlale versioonile. Selles näites loote näidisettevõtte Litware, Inc jaoks vajalikud elektroonilise aruandluse konfiguratsioonid. 
+Järgmises protseduuris kirjeldatakse elektroonilise aruandluse (ER) konfiguratsiooni kavandamist ja selle teistest tarkvarakomponentidest sõltuvuse määramist tagamaks, et konfiguratsioon laaditaks õigesti alla rakenduse Finance and Operations kindlale versioonile. Selles näites loote näidisettevõtte Litware, Inc jaoks vajalikud elektroonilise aruandluse konfiguratsioonid. 
 
 Protseduur on loodud kasutajatele, kellele on määratud süsteemiadministraatori või elektroonilise aruandluse arendaja roll. Neid etappe võib teha igas ettevõttes, kuna ER-i konfiguratsioonid on kõigi ettevõtete vahel ühiskasutuses. 
 
@@ -46,7 +46,7 @@ Protseduur on loodud kasutajatele, kellele on määratud süsteemiadministraator
 7. Valige Microsoft Dynamics 365 for Operations (1611).
 8. Sisestage versiooniväljale väärtus „[7.1.1541.3036,8)”.
     * [7.1.1541.3036,8)  
-    * Sisestatud sõltuvusi hinnatakse, kui see konfiguratsioon on ER-i hoidlast alla laaditud. See konfiguratsiooni versioon laaditakse ER-i hoidlast alla, kui konfiguratsiooni „Näidisandmemudel” 1. versioon on juba olemas või eelnevalt alla laaditud. Kui see on eelnevalt alla laaditud, tuleb see lõpule viia rakenduse Finance and Operations versioonis 7.1.1541.3036 või uuemas, kuid see ei tohi ületada põhiversiooni 8.   
+    * Sisestatud sõltuvusi hinnatakse, kui see konfiguratsioon on ER-i hoidlast alla laaditud. See konfiguratsiooni versioon laaditakse ER-i hoidlast alla, kui konfiguratsiooni „Näidisandmemudel” 1. versioon on juba olemas või eelnevalt alla laaditud. Kui see on eelnevalt alla laaditud, tuleb see täita finantside ja toimingute 7.1.1541.3036 uuemas versioonis, kuid ei tohi ületada põhiversiooni 8.   
 9. Klõpsake nuppu Salvesta.
 10. Sulgege leht.
 11. Klõpsake valikut Muuda olekut.
@@ -136,7 +136,7 @@ Kustutame süsteemist loodud konfiguratsioonid ja laadime need uuesti alla LCS-i
 25. Avage Organisatsiooni haldamine > Elektrooniline aruandlus > Konfiguratsioonid.
 26. Laiendage puul valikut „Sample data model".
     * Pange tähele, et mudeli „Näidisvastendamine" vastenduskonfiguratsioon on alla laaditud koos valitud andmemudeli konfiguratsiooniga. Kaks faili laaditi koos alla, kuna „Näidisvastendus" on määratletud valitud andmemudeli juurutamisena ja kuna see kehtib rakenduse kohta. Konfiguratsiooni „Näidisvastendus (alternatiivne)” pole alla laaditud, kuna nõutava avalduse versiooni tingimust pole täidetud.   
-    * Kui logite sisse Finance and Operationsi, registreerige sama pakkuja, avage sama LCS-projekt ja laadige alla sama andmemudeli konfiguratsioon. Konfiguratsioon „Näidisvastendus (alternatiivne)” laaditakse alla, aga konfiguratsioon „Näidisvastendus” jäetakse vahele.  
+    * Kui logite finantside ja toimingutesse sisse, registreerite sama pakkuja, pääsete juurde samale LCS-projektile ja laadige alla sama andmemudeli konfiguratsioon, laaditakse alla näidisvastenduse (alternatiivne) konfiguratsioon, kuid näidisvastenduse konfiguratsioon jäetakse vahele.  
 
 ## <a name="additional-resources"></a>Lisaressursid
 

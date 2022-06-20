@@ -1,6 +1,6 @@
 ---
 title: Failide importimine XML-vormingus koos valikuliste atribuutidega
-description: Selles teemas kirjeldatakse ER-vormingute kujundamist, mis määravad XML-atribuute sissetulevate elektrooniliste dokumentide sõelumiseks XML-vormingus.
+description: See artikkel annab teavet ER-vormingute loomise kohta, mis määravad XML-atribuudid sissetulevate elektrooniliste dokumentide sõelumiseks XML-vormingus.
 author: NickSelin
 ms.date: 07/03/2019
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 81156cf13e003a67fde0a73bdcd69b2c997f23a33c464fad82132f7768f8a99f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f5b25b51a4f59bf9c308bcaeb140e2737597798e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757293"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873218"
 ---
 # <a name="import-files-in-xml-format-with-optional-attributes"></a>Failide importimine XML-vormingus koos valikuliste atribuutidega
 
@@ -26,7 +26,7 @@ ms.locfileid: "6757293"
 
 Saate kujundada elektroonilise aruandluse (ER) vormingud sõeluma sissetulevaid dokumente XML-vormingus. XML-elementide teatud atribuute saab loodud ER-vormingus määratleda valikuliselt. See võimaldab teil selliste XML-atribuutidega ja ilma nendeta sissetulevaid faile õigesti käsistseda. Seejärel saate neist failidest pärit sisu kasutada rakenduse andmete värskendamiseks.
 
-Selle funktsiooni kohta lisateabe saamiseks läbige etapid teemas [(RCS) Failide importimine XML-vormingus koos valikuliste atribuutidega](tasks/import-files-xml-format-optional-attributes.md), mis on osa 7.5.4.3 omandada/arendada IT-teenuse/-lahenduse komponentide hankimise/arendamise (10677) äriprotsessist. Saate selle tegevuse juhise ja seotud näitefailid alla laadida [Microsofti allalaadimiskeskusest](https://go.microsoft.com/fwlink/?linkid=874684).
+Selle funktsiooni kohta lisateabe [saamiseks viige lõpule artikli sammud (RCS) Failide importimine XML-vormingus valikuliste atribuutidega, mis on osa 7.5.4.3 IT-teenuse](tasks/import-files-xml-format-optional-attributes.md)/lahenduse komponentide (10677) äriprotsessist. Saate selle tegevuse juhise ja seotud näitefailid alla laadida [Microsofti allalaadimiskeskusest](https://go.microsoft.com/fwlink/?linkid=874684).
 
 
 | Sisu kirjeldus       | Fail                                                         |
@@ -38,7 +38,7 @@ Selle funktsiooni kohta lisateabe saamiseks läbige etapid teemas [(RCS) Failide
 Järgmistes etappides selgitatakse, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rolli määratud kasutajad saavad kujundada elektroonilise aruandluse (ER) vormingu konfiguratsiooni failide importimiseks XML-vormingus koos valikuliste atribuutidega. Etappide lõpuleviimiseks, peate esmalt läbima etapid protseduuris [Konfiguratsioonipakkujate loomine ja nende aktiivseks märkimine](tasks/er-configuration-provider-mark-it-active-2016-11.md). Enne alustamist laadige alla ja salvestage lokaalselt fail IncomingDocumentToLearnHowToHandleOptionalAttributes.xml Microsofti allalaadimiskeskusest (https://go.microsoft.com/fwlink/?linkid=874684).
 
 1. Avage **Organisatsiooni haldamine** > **Tööruumid** > **Elektrooniline aruandlus**.
-2. Veenduge, et näidisettevõtte Litware, Inc. konfiguratsioonipakkuja on saadaval ja märgitud kui **Aktiivne**. Kui te ei näe seda konfiguratsioonipakkujat, peate esmalt läbima teemas [Konfiguratsioonipakkujate loomine ja nende aktiivseks märkimine](tasks/er-configuration-provider-mark-it-active-2016-11.md) toodud juhised.
+2. Veenduge, et näidisettevõtte Litware, Inc. konfiguratsioonipakkuja on saadaval ja märgitud kui **Aktiivne**. Kui te ei näe seda konfiguratsioonipakkujat, viige artikli sammud lõpule, [looge konfiguratsiooni pakkujad ja märkige need aktiivseks](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 3. Klõpsake valikut **Aruandluse konfiguratsioonid**.
 
 ## <a name="create-a-new-data-model-configuration"></a>Uue andmemudeli konfiguratsiooni loomine

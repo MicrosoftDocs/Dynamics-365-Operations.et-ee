@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 508723752ec7ae5f48e52c728b6ef526ec49e4e2
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: f1e6932740c33ae418ac633623680eda6af7a592
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8723019"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858520"
 ---
 # <a name="collections-management-key-concepts"></a>Kollektsioonide halduse võtmekontseptsioonid
 
@@ -34,7 +34,7 @@ Enne sissenõuete seadistamise alustamist või nendega töötamist peaksite tead
 - Mahakandmiskanded saab luua ühe etapina.
 - Ebapiisavate vahendite (NSF) maksed saab töödelda ühe etapina.
 
-See teema kirjeldab iga kontseptsiooni.
+See artikkel kirjeldab iga mõiste.
 
 ## <a name="customer-aging-snapshots"></a>Kliendi aegumise hetktõmmised 
 
@@ -86,7 +86,7 @@ Toimingupaanil on nupud, mis lasevad vaadata valitud kliendi, juhtumi, kande võ
 
 Saate loobuda täielike viivisearvete või tasude ja kandeintresside, mis on osa viivisearvest, nõudest, neid ennistada või tühistada. Vahekaardil **Sissenõudmine** lehe **Kõik kliendid** toimingupaanil valige **Viivisearve**, **Kandeintress** või **Tasu**.
 
-Need korrigeerimised mõjutavad ainult viivisearveid ning neis sisalduvat intressi ja tasusid. Lisateavet selle kohta, kuidas maha kanda kõik kulud, mille klient võlgneb, leiate selle teema osast [Mahakandmise kannete loomine](#creating-write-off-transactions).
+Need korrigeerimised mõjutavad ainult viivisearveid ning neis sisalduvat intressi ja tasusid. Teavet selle kohta, kuidas maha maha kirjutada kõik tasud, mis klient võlgneb, [vt selle](#creating-write-off-transactions) artikli jaotist Mahakandmiskannete loomine.
 
 Lisateabe saamiseks vt Vahemikuga viivisekoodi loomine ja Protsessiviivis.
 

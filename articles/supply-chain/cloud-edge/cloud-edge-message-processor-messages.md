@@ -1,6 +1,6 @@
 ---
 title: Sõnumi töötleja sõnumid
-description: See teema annab teavet sõnumite protsessori teadete funktsiooni kohta kaalu ühiku töökoormuste puhul.
+description: See artikkel annab teavet sõnumite protsessori teadete funktsiooni kohta kaalu ühiku töökoormuste puhul.
 author: perlynne
 ms.date: 04/22/2021
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2021-04-21
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 68db4c6561f2cc3fcfd64b49da59a4cc164685f2
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: a5f8d48ba697df389150f70ac159e690156de33b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069425"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893609"
 ---
 # <a name="message-processor-messages"></a>Sõnumi töötleja sõnumid
 
@@ -29,7 +29,7 @@ ms.locfileid: "8069425"
 
 Sõnumitöötluse sõnumeid kasutatakse pilve ja servaskaala üksuste käitamisel [tootmise töökoormuste](cloud-edge-workload-manufacturing.md) ja [laohalduse töökoormuste](cloud-edge-workload-warehousing.md) jaoks.
 
-Jaoturi ja skaalaüksuse juurutuskeskkonnad vahetavad sünkroonimiseks suure hulga andmeid. Mõned vahetatud andmed käivitavad sõnumiprotsessoris *täiendava loogika*. Sõnumiprotsessori poolt töödeldud sõnumeid saate vaadata, minnes **süsteemi administreerimise > Sõnumiprotsessori > Sõnumiprotsessori sõnumeid**.
+Keskuse ja kaalu ühiku juurutuse keskkonnad vahetavad palju andmeid, mis jäävad sünkroonisse. Mõned vahetatud andmed käivitavad teateprotsessori *lisaloogika*. Te saate vaadata teateid, mida **sõnumiprotsessor on töönud, kui saadate süsteemihaldust > teateprotsessori > teateid**.
 
 ## <a name="message-grid-columns-and-filters"></a>Teatepaneeli veerud ja filtrid
 

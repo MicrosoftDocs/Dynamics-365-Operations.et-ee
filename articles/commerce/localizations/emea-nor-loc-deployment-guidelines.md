@@ -1,6 +1,6 @@
 ---
 title: Norra kassaregistrite juurutuse juhised (pärand)
-description: See teema on juurutuse juhend, mis näitab, kuidas lubada Microsoft Dynamics 365 Commerce Lokaliseerimine Norras.
+description: See artikkel on juurutuse juhend, mis näitab, kuidas lubada Microsoft Dynamics 365 Commerce Lokaliseerimine Norras.
 author: EvgenyPopovMBS
 ms.date: 12/20/2021
 ms.topic: article
@@ -9,39 +9,39 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2018-2-28
-ms.openlocfilehash: 019bac01abdc0b2e16718c08953b44fbccef83a3
-ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
+ms.openlocfilehash: 7a6450215f152779428d3b0fd83bf09761e2ad98
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7944784"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894458"
 ---
 # <a name="deployment-guidelines-for-cash-registers-for-norway-legacy"></a>Norra kassaregistrite juurutuse juhised (pärand)
 
 [!include [banner](../includes/banner.md)]
 
-See teema on juurutuse juhend, mis näitab, kuidas lubada Microsoft Dynamics 365 Commerce Lokaliseerimine Norras. Lokaliseerimine koosneb Commerce'i komponentide mitmest laiendist. Näiteks lubavad laiendid printida kviitungitele kohandatud välju, registreerida täiendavaid auditi sündmusi, müügikandeid ja maksekandeid kassas (POS), digitaalselt müügikandeid allkirjastada ja printida X- ja Z-aruanded kohalikes vormingutes. Lisateavet Norra lokaliseerimise kohta vt Norra [kassaraamatu funktsioonist](./emea-nor-cash-registers.md).
+See artikkel on juurutuse juhend, mis näitab, kuidas lubada Microsoft Dynamics 365 Commerce Lokaliseerimine Norras. Lokaliseerimine koosneb Commerce'i komponentide mitmest laiendist. Näiteks lubavad laiendid printida kviitungitele kohandatud välju, registreerida täiendavaid auditi sündmusi, müügikandeid ja maksekandeid kassas (POS), digitaalselt müügikandeid allkirjastada ja printida X- ja Z-aruanded kohalikes vormingutes. Lisateavet Norra lokaliseerimise kohta vt Norra kassaraamatu [funktsioonist](./emea-nor-cash-registers.md).
 
 See näidis on osa jaemüügi tarkvara arenduskomplektist (SDK). Lisateavet SDK kohta vt jaemüügi tarkvara [arenduskomplekti (SDK) arhitektuurist](../dev-itpro/retail-sdk/retail-sdk-overview.md).
 
-See näidis koosneb Commerce Runtime' ( ), jaemüügiserveri ja kassa CRT laiendustest. Selle näidisprojekti käivitamiseks peate muutma ja koosnema CRT projektidest, jaemüügiserverist ja kassaprojektidest. Selles teemas kirjeldatud muudatuste vaatamiseks on soovitatav kasutada jaemüügi SDK-d, mida pole võimalik muuta. Soovitame kasutada ka allikakontrollisüsteemi, nt Microsoft Visual Studio Online (VSO), kus ühtegi faili pole veel muudetud.
+See näidis koosneb Commerce Runtime'i (CRT), jaemüügiserveri ja kassa laiendustest. Selle näidisprojekti käivitamiseks peate muutma ja koosnema projektidest CRT, jaemüügiserverist ja kassaprojektidest. Soovitame kasutada jaemüügi SDK-d, et teha selles artiklis kirjeldatud muudatused. Soovitame kasutada ka allikakontrollisüsteemi, nt Microsoft Visual Studio Online (VSO), kus ühtegi faili pole veel muudetud.
 
 > [!NOTE]
-> Rakendusel Commerce 10.0.8 ja eespool nimetatakse jaemüügiserverit Commerce Scale Unitiks. Kuna see teema kehtib rakenduse mitme varasema versiooni kohta, *kasutatakse* teemas jaemüügiserverit.
+> Rakendusel Commerce 10.0.8 ja eespool nimetatakse jaemüügiserverit Commerce Scale Unitiks. Kuna see artikkel kehtib rakenduse mitme varasema versiooni kohta, kasutatakse *jaemüügiserverit* kogu artikli jooksul.
 >
-> Mõned selle teema protseduuride sammud erinevad üksteisest sõltuvalt kasutatavast äriversioonist. Lisateavet vt jaotisest [Mis on uut või Dynamics 365 Retail](../get-started/whats-new.md) muutunud.
+> Mõned selle artikli protseduuride sammud erinevad üksteisest sõltuvalt kasutatavast äriversioonist. Lisateavet vt jaotisest Mis [on uut või muutunud Dynamics 365 Retail](../get-started/whats-new.md).
 
 ### <a name="using-certificate-profiles-in-commerce-channels"></a>Serdiprofiilide kasutamine ärikanalites
 
-Commerce'i versioonides 10.0.15 ja uuemates versioonides saate kasutada kasutaja määratud serdiprofiile jaekaupluste funktsiooni jaoks, mis toetab tõrke üleminekut võrguühenduseta, kui võtme vault või [commerce headquarters pole](./certificate-profiles-for-retail-stores.md) saadaval. See funktsioon laiendab [jaemüügikanalite funktsiooni salateene](../dev-itpro/manage-secrets.md) haldamine.
+Commerce'i versioonides 10.0.15 ja uuemates versioonides saate kasutada kasutaja määratud serdiprofiile jaekaupluste funktsiooni jaoks, [mis](./certificate-profiles-for-retail-stores.md) toetab tõrke üleminekut võrguühenduseta, kui võtme vault või commerce headquarters pole saadaval. See funktsioon laiendab jaemüügikanalite [funktsiooni salateene haldamine](../dev-itpro/manage-secrets.md).
 
-Selle funktsiooni rakendamiseks CRT laiendis järgige neid samme.
+Selle funktsiooni rakendamiseks laiendis CRT järgige neid samme.
 
-1. Looge uus CRT laiendusprojekt (C# klassi teegi projekti tüüp). Kasutage jaemüügi tarkvara arenduskomplekti (SDK) näidismalle (RetailSDK\SampleExtensions\CommerceRuntime).
+1. Looge uus laiendusprojekt CRT (C# klassi teegi projekti tüüp). Kasutage jaemüügi tarkvara arenduskomplekti (SDK) näidismalle (RetailSDK\SampleExtensions\CommerceRuntime).
 
 2. Lisage kohandatud ohjur certificateSignatureServiceRequest projektile SequentialSignatureRegister.
 
-3. Salakutse lugemiseks, `GetUserDefinedSecretCertificateServiceRequest` kasutades konstruktorit parameetriga profileId. See käivitab funktsiooni, mis töötab serdiprofiilide sätetega. Sätete põhjal tuuakse sert kas Azure'i võtme hoidlast või kohaliku arvuti mäluseadmest.
+3. Salakutse lugemiseks, kasutades `GetUserDefinedSecretCertificateServiceRequest` konstruktorit parameetriga profileId. See käivitab funktsiooni, mis töötab serdiprofiilide sätetega. Sätete põhjal tuuakse sert kas Azure'i võtme hoidlast või kohaliku arvuti mäluseadmest.
 
     ```csharp
     GetUserDefinedSecretCertificateServiceRequest getUserDefinedSecretCertificateServiceRequest = new GetUserDefinedSecretCertificateServiceRequest(profileId: "ProfileId", secretName: null, thumbprint: null, expirationInterval: null);
@@ -58,27 +58,27 @@ Selle funktsiooni rakendamiseks CRT laiendis järgige neid samme.
 
 7. Failis CommerceRuntime.Ext.config värskendage laiendi koosseisu jaotist kohandatud teegiteabega.
 
-## <a name="development-environment"></a>Arenduskeskkonnad
+## <a name="development-environment"></a>Arenduskeskkond
 
 Viige need protseduurid lõpule arenduskeskkonna häälestamiseks, et saate testida ja laiendada näidist.
 
 ### <a name="the-crt-extension-components"></a>Laienduse CRT komponendid
 
-CRT Laienduskomponendid kaasatakse CRT näidiste hulka. Järgmiste protseduuride lõpule viimiseks avage CRT lahendus **CommerceRuntimeSamples.sln** jaotises **RetailSdk \\ SampleExtensions \\ CommerceRuntime.**
+Laienduskomponendid CRT kaasatakse näidiste CRT hulka. Järgmiste protseduuride lõpule viimiseks avage CRT lahendus **CommerceRuntimeSamples.sln** jaotises **RetailSdk\\ SampleExtensions\\ CommerceRuntime**.
 
 #### <a name="receiptsnorway-component"></a>ReceiptsNorway komponent
 
-1. Leidke **projekt Runtime.Extensions.ReceiptsNorway** ja koostage see.
-2. Leidke **kaustast Extensions.ReceiptsNorway \\ bin \\ Debug** **contoso.Commerce.Runtime.ReceiptsNorway.dll** assemblerfail.
-3. Kopeerige assemblerifail CRT laiendite kausta:
+1. Leidke projekt **Runtime.Extensions.ReceiptsNorway** ja koostage see.
+2. Leidke kaustast Extensions.ReceiptsNorway **bin\\ Debug\\** contoso.Commerce.Runtime.ReceiptsNorway.dll **assemblerfail**.
+3. Kopeerige assemblerifail laiendite CRT kausta:
 
-    - **Jaemüügiserver:** kopeerige assembler **\\ microsoft Internet Information Services \\ (IIS) jaemüügiserveri asukoha bin** ext kausta.
-    - **Kohalik CRT modern POS-is:** kopeerige assembler kohaliku kliendi **\\** maakleri asukoha ext-kausta. CRT
+    - **Jaemüügiserver:** kopeerige assembler **\\ microsoft\\ Internet Information Services (IIS) jaemüügiserveri asukoha bin ext** kausta.
+    - **Kohalik CRT modern POS-is:** kopeerige assembler **\\ kohaliku kliendi maakleri asukoha ext-kausta** CRT.
 
-4. Leidke laiendi CRT konfiguratsioonifail:
+4. Leidke laiendi konfiguratsioonifail:CRT
 
-    - **Jaemüügiserver:** faili nimi on **commerceruntime.ext.config ja see on IIS-i jaemüügiserveri saidi asukoha bin** **\\** ext-kaustas.
-    - **Modern CRT POS-is kohalik: faili nimi on** **CommerceRuntime.MPOSOffline.Ext.config ja see on kohaliku kliendi** maakleri CRT asukoha all.
+    - **Jaemüügiserver:** faili nimi on **commerceruntime.ext.config** **\\ ja see on IIS-i jaemüügiserveri saidi asukoha bin ext-kaustas.**
+    - **Modern CRT POS-is kohalik:** faili nimi **on CommerceRuntime.MPOSOffline.Ext.config** ja see on kohaliku kliendi maakleri CRT asukoha all.
 
 5. Registreerige CRT muudatus laiendi konfiguratsioonifailis.
 
@@ -92,16 +92,16 @@ CRT Laienduskomponendid kaasatakse CRT näidiste hulka. Järgmiste protseduuride
 #### <a name="salespaymenttransext-component"></a>SalesPaymentTransExt komponent
 
 1. Leidke projekt **Runtime.Extensions.SalesPaymentTransExt** ja koostage see.
-2. Leidke **kaustast Extensions.SalesPaymentTransExt \\ bin \\ Debug** **Contoso.Commerce.Runtime.SalesPaymentTransExt.dll** assemblerifail.
-3. Kopeerige assemblerifail CRT laiendite kausta:
+2. Leidke kaustast Extensions.SalesPaymentTransExt **bin\\ Debug\\** Contoso.Commerce.Runtime.SalesPaymentTransExt.dll **assemblerifail**.
+3. Kopeerige assemblerifail laiendite CRT kausta:
 
-    - **Jaemüügiserver:** kopeerige assembler **\\\\** IIS-i jaemüügiserveri saidi asukoha bin-ext kausta.
-    - **Kohalik CRT modern POS-is:** kopeerige assembler kohaliku kliendi **\\** maakleri asukoha ext-kausta. CRT
+    - **Jaemüügiserver:** kopeerige assembler **\\ IIS-i\\** jaemüügiserveri saidi asukoha bin-ext kausta.
+    - **Kohalik CRT modern POS-is:** kopeerige assembler **\\ kohaliku kliendi maakleri asukoha ext-kausta** CRT.
 
-4. Leidke laiendi CRT konfiguratsioonifail:
+4. Leidke laiendi konfiguratsioonifail:CRT
 
-    - **Jaemüügiserver:** faili nimi on **commerceruntime.ext.config ja see on IIS-i jaemüügiserveri saidi asukoha bin** **\\** ext-kaustas.
-    - **Modern CRT POS-is kohalik: faili nimi on** **CommerceRuntime.MPOSOffline.Ext.config ja see on kohaliku kliendi** maakleri CRT asukoha all.
+    - **Jaemüügiserver:** faili nimi on **commerceruntime.ext.config** **\\ ja see on IIS-i jaemüügiserveri saidi asukoha bin ext-kaustas.**
+    - **Modern CRT POS-is kohalik:** faili nimi **on CommerceRuntime.MPOSOffline.Ext.config** ja see on kohaliku kliendi maakleri CRT asukoha all.
 
 5. Registreerige CRT muudatus laiendi konfiguratsioonifailis.
 
@@ -114,17 +114,17 @@ CRT Laienduskomponendid kaasatakse CRT näidiste hulka. Järgmiste protseduuride
 
 #### <a name="xzreportsnorway-component"></a>XZReportsNorway komponent
 
-1. Leidke **projekt Runtime.Extensions.XZReportsNorway** ja koostage see.
-2. Leidke **kaustast Extensions.XZReportsNorway \\ bin \\ Debug** **Contoso.Commerce.Runtime.XZReportsNorway.dll** assemblerfail.
-3. Kopeerige assemblerifail CRT laiendite kausta:
+1. Leidke projekt **Runtime.Extensions.XZReportsNorway** ja koostage see.
+2. Leidke kaustast Extensions.XZReportsNorway **bin\\ Debug\\** Contoso.Commerce.Runtime.XZReportsNorway.dll **assemblerfail**.
+3. Kopeerige assemblerifail laiendite CRT kausta:
 
-    - **Jaemüügiserver:** kopeerige assembler **\\\\** IIS-i jaemüügiserveri saidi asukoha bin-ext kausta.
-    - **Kohalik CRT modern POS-is:** kopeerige assembler kohaliku kliendi **\\** maakleri asukoha ext-kausta. CRT
+    - **Jaemüügiserver:** kopeerige assembler **\\ IIS-i\\** jaemüügiserveri saidi asukoha bin-ext kausta.
+    - **Kohalik CRT modern POS-is:** kopeerige assembler **\\ kohaliku kliendi maakleri asukoha ext-kausta** CRT.
 
-4. Leidke laiendi CRT konfiguratsioonifail:
+4. Leidke laiendi konfiguratsioonifail:CRT
 
-    - **Jaemüügiserver:** faili nimi on **commerceruntime.ext.config ja see on IIS-i jaemüügiserveri saidi asukoha bin** **\\** ext-kaustas.
-    - **Modern CRT POS-is kohalik: faili nimi on** **CommerceRuntime.MPOSOffline.Ext.config ja see on kohaliku kliendi** maakleri CRT asukoha all.
+    - **Jaemüügiserver:** faili nimi on **commerceruntime.ext.config** **\\ ja see on IIS-i jaemüügiserveri saidi asukoha bin ext-kaustas.**
+    - **Modern CRT POS-is kohalik:** faili nimi **on CommerceRuntime.MPOSOffline.Ext.config** ja see on kohaliku kliendi maakleri CRT asukoha all.
 
 5. Registreerige CRT muudatus laiendi konfiguratsioonifailis.
 
@@ -140,16 +140,16 @@ CRT Laienduskomponendid kaasatakse CRT näidiste hulka. Järgmiste protseduuride
 #### <a name="registerauditevent-sample-component"></a>RegisterAuditEventi näidiskomponent
 
 1. Otsige üles **projekt Runtime.Extensions.RegisterAuditEventSample** ja koostage see.
-2. Leidke **kaustast Extensions.RegisterAuditEventSample \\ bin \\ Debug** **contoso.Commerce.Runtime.RegisterAuditEventSample.dll** assemblerifail.
-3. Kopeerige assemblerifail CRT laiendite kausta:
+2. Leidke kaustast Extensions.RegisterAuditEventSample **bin\\ Debug\\** contoso.Commerce.Runtime.RegisterAuditEventSample.dll **assemblerifail**.
+3. Kopeerige assemblerifail laiendite CRT kausta:
 
-    - **Jaemüügiserver:** kopeerige assembler **\\\\** IIS-i jaemüügiserveri saidi asukoha bin-ext kausta.
-    - **Kohalik CRT modern POS-is:** kopeerige assembler kohaliku kliendi **\\** maakleri asukoha ext-kausta. CRT
+    - **Jaemüügiserver:** kopeerige assembler **\\ IIS-i\\** jaemüügiserveri saidi asukoha bin-ext kausta.
+    - **Kohalik CRT modern POS-is:** kopeerige assembler **\\ kohaliku kliendi maakleri asukoha ext-kausta** CRT.
 
-4. Leidke laiendi CRT konfiguratsioonifail:
+4. Leidke laiendi konfiguratsioonifail:CRT
 
-    - **Jaemüügiserver:** faili nimi on **commerceruntime.ext.config ja see on IIS-i jaemüügiserveri saidi asukoha bin** **\\** ext-kaustas.
-    - **Modern CRT POS-is kohalik: faili nimi on** **CommerceRuntime.MPOSOffline.Ext.config ja see on kohaliku kliendi** maakleri CRT asukoha all.
+    - **Jaemüügiserver:** faili nimi on **commerceruntime.ext.config** **\\ ja see on IIS-i jaemüügiserveri saidi asukoha bin ext-kaustas.**
+    - **Modern CRT POS-is kohalik:** faili nimi **on CommerceRuntime.MPOSOffline.Ext.config** ja see on kohaliku kliendi maakleri CRT asukoha all.
 
 5. Registreerige CRT muudatus laiendi konfiguratsioonifailis.
 
@@ -162,23 +162,23 @@ CRT Laienduskomponendid kaasatakse CRT näidiste hulka. Järgmiste protseduuride
 
 #### <a name="salestransactionsignature-sample-component"></a>SalesTransactionSignature'i näidiskomponent
 
-1. Leidke projekt **Runtime.Extensions.SalesTransactionSignatureSample.**
-2. Muutke faili **App.config, määrates sõrmejälje, kaupluse asukoha ja kaupluse nime serdi jaoks, mida tuleks** kasutada müügikannete allkirjastamiseks.
+1. Leidke projekt **Runtime.Extensions.SalesTransactionSignatureSample**.
+2. Muutke faili **App.config**, määrates sõrmejälje, kaupluse asukoha ja kaupluse nime serdi jaoks, mida tuleks kasutada müügikannete allkirjastamiseks.
 3. Koostage projekt.
-4. Leidke **kaustast Extensions.SalesTransactionSignatureSample \\ bin \\ Debug** järgmised failid:
+4. Leidke kaustast **Extensions.SalesTransactionSignatureSample\\ bin\\ Debug** järgmised failid:
 
-    - **Contoso.Commerce.Runtime.SalesTransactionSignatureSample.dll** assemblerifail
-    - **Contoso.Commerce.Runtime.SalesTransactionSignatureSample.dll.config** konfiguratsioonifail
+    - Contoso.Commerce.Runtime.SalesTransactionSignatureSample.dll **assemblerifail**
+    - Contoso.Commerce.Runtime.SalesTransactionSignatureSample.dll.config **konfiguratsioonifail**
 
-5. Kopeerige failid CRT laiendite kausta:
+5. Kopeerige failid laiendite CRT kausta:
 
-    - **Jaemüügiserver:** kopeerige assembler **\\\\** IIS-i jaemüügiserveri saidi asukoha bin-ext kausta.
-    - **Kohalik CRT modern POS-is:** kopeerige assembler kohaliku kliendi **\\** maakleri asukoha ext-kausta. CRT
+    - **Jaemüügiserver:** kopeerige assembler **\\ IIS-i\\** jaemüügiserveri saidi asukoha bin-ext kausta.
+    - **Kohalik CRT modern POS-is:** kopeerige assembler **\\ kohaliku kliendi maakleri asukoha ext-kausta** CRT.
 
-6. Leidke laiendi CRT konfiguratsioonifail:
+6. Leidke laiendi konfiguratsioonifail:CRT
 
-    - **Jaemüügiserver:** faili nimi on **commerceruntime.ext.config ja see on IIS-i jaemüügiserveri saidi asukoha bin** **\\** ext-kaustas.
-    - **Modern CRT POS-is kohalik: faili nimi on** **CommerceRuntime.MPOSOffline.Ext.config ja see on kohaliku kliendi** maakleri CRT asukoha all.
+    - **Jaemüügiserver:** faili nimi on **commerceruntime.ext.config** **\\ ja see on IIS-i jaemüügiserveri saidi asukoha bin ext-kaustas.**
+    - **Modern CRT POS-is kohalik:** faili nimi **on CommerceRuntime.MPOSOffline.Ext.config** ja see on kohaliku kliendi maakleri CRT asukoha all.
 
 7. Registreerige CRT muudatus laiendi konfiguratsioonifailis.
 
@@ -194,16 +194,16 @@ CRT Laienduskomponendid kaasatakse CRT näidiste hulka. Järgmiste protseduuride
 #### <a name="registerauditevent-sample-component"></a>RegisterAuditEventi näidiskomponent
 
 1. Otsige üles **projekt Runtime.Extensions.RegisterAuditEventSample** ja koostage see.
-2. Leidke **kaustast Extensions.RegisterAuditEventSample \\ bin \\ Debug** **contoso.Commerce.Runtime.RegisterAuditEventSample.dll** assemblerifail.
-3. Kopeerige assemblerifail CRT laiendite kausta:
+2. Leidke kaustast Extensions.RegisterAuditEventSample **bin\\ Debug\\** contoso.Commerce.Runtime.RegisterAuditEventSample.dll **assemblerifail**.
+3. Kopeerige assemblerifail laiendite CRT kausta:
 
-    - **Jaemüügiserver:** kopeerige assembler **\\\\** IIS-i jaemüügiserveri saidi asukoha bin-ext kausta.
-    - **Kohalik CRT modern POS-is:** kopeerige assembler kohaliku kliendi **\\** maakleri asukoha ext-kausta. CRT
+    - **Jaemüügiserver:** kopeerige assembler **\\ IIS-i\\** jaemüügiserveri saidi asukoha bin-ext kausta.
+    - **Kohalik CRT modern POS-is:** kopeerige assembler **\\ kohaliku kliendi maakleri asukoha ext-kausta** CRT.
 
-4. Leidke laiendi CRT konfiguratsioonifail:
+4. Leidke laiendi konfiguratsioonifail:CRT
 
-    - **Jaemüügiserver:** faili nimi on **commerceruntime.ext.config ja see on IIS-i jaemüügiserveri saidi asukoha bin** **\\** ext-kaustas.
-    - **Modern CRT POS-is kohalik: faili nimi on** **CommerceRuntime.MPOSOffline.Ext.config ja see on kohaliku kliendi** maakleri CRT asukoha all.
+    - **Jaemüügiserver:** faili nimi on **commerceruntime.ext.config** **\\ ja see on IIS-i jaemüügiserveri saidi asukoha bin ext-kaustas.**
+    - **Modern CRT POS-is kohalik:** faili nimi **on CommerceRuntime.MPOSOffline.Ext.config** ja see on kohaliku kliendi maakleri CRT asukoha all.
 
 5. Registreerige CRT muudatus laiendi konfiguratsioonifailis.
 
@@ -216,23 +216,23 @@ CRT Laienduskomponendid kaasatakse CRT näidiste hulka. Järgmiste protseduuride
 
 #### <a name="salestransactionsignature-sample-component"></a>SalesTransactionSignature'i näidiskomponent
 
-1. Leidke projekt **Runtime.Extensions.SalesTransactionSignatureSample.**
-2. Muutke faili **App.config, määrates sõrmejälje, kaupluse asukoha ja kaupluse nime serdi jaoks, mida tuleks** kasutada müügikannete allkirjastamiseks.
+1. Leidke projekt **Runtime.Extensions.SalesTransactionSignatureSample**.
+2. Muutke faili **App.config**, määrates sõrmejälje, kaupluse asukoha ja kaupluse nime serdi jaoks, mida tuleks kasutada müügikannete allkirjastamiseks.
 3. Koostage projekt.
-4. Leidke **kaustast Extensions.SalesTransactionSignatureSample \\ bin \\ Debug** järgmised failid:
+4. Leidke kaustast **Extensions.SalesTransactionSignatureSample\\ bin\\ Debug** järgmised failid:
 
-    - **Contoso.Commerce.Runtime.SalesTransactionSignatureSample.dll** assemblerifail
-    - **Contoso.Commerce.Runtime.SalesTransactionSignatureSample.dll.config** konfiguratsioonifail
+    - Contoso.Commerce.Runtime.SalesTransactionSignatureSample.dll **assemblerifail**
+    - Contoso.Commerce.Runtime.SalesTransactionSignatureSample.dll.config **konfiguratsioonifail**
 
-5. Kopeerige failid CRT laiendite kausta:
+5. Kopeerige failid laiendite CRT kausta:
 
-    - **Jaemüügiserver:** kopeerige assembler **\\\\** IIS-i jaemüügiserveri saidi asukoha bin-ext kausta.
-    - **Kohalik CRT modern POS-is:** kopeerige assembler kohaliku kliendi **\\** maakleri asukoha ext-kausta. CRT
+    - **Jaemüügiserver:** kopeerige assembler **\\ IIS-i\\** jaemüügiserveri saidi asukoha bin-ext kausta.
+    - **Kohalik CRT modern POS-is:** kopeerige assembler **\\ kohaliku kliendi maakleri asukoha ext-kausta** CRT.
 
-6. Leidke laiendi CRT konfiguratsioonifail:
+6. Leidke laiendi konfiguratsioonifail:CRT
 
-    - **Jaemüügiserver:** faili nimi on **commerceruntime.ext.config ja see on IIS-i jaemüügiserveri saidi asukoha bin** **\\** ext-kaustas.
-    - **Modern CRT POS-is kohalik: faili nimi on** **CommerceRuntime.MPOSOffline.Ext.config ja see on kohaliku kliendi** maakleri CRT asukoha all.
+    - **Jaemüügiserver:** faili nimi on **commerceruntime.ext.config** **\\ ja see on IIS-i jaemüügiserveri saidi asukoha bin ext-kaustas.**
+    - **Modern CRT POS-is kohalik:** faili nimi **on CommerceRuntime.MPOSOffline.Ext.config** ja see on kohaliku kliendi maakleri CRT asukoha all.
 
 7. Registreerige CRT muudatus laiendi konfiguratsioonifailis.
 
@@ -245,17 +245,17 @@ CRT Laienduskomponendid kaasatakse CRT näidiste hulka. Järgmiste protseduuride
 
 #### <a name="salestransactionsignaturesamplemessages-component"></a>SalesTransactionSignatureSample.Messagesi komponent
 
-1. Leidke **runtime.Extensions.SalesTransactionSignatureSample.Messages** project.
-2. Leidke **kaustast Extensions.SalesTransactionSignatureSample.Messages \\ bin \\ Silumine** **contoso.Commerce.Runtime.SalesTransactionSignatureSample.Messages.dll** assemblerfail.
-3. Kopeerige assemblerifail CRT laiendite kausta:
+1. Leidke runtime.Extensions.SalesTransactionSignatureSample.Messages **project**.
+2. Leidke kaustast Extensions.SalesTransactionSignatureSample.Messages **bin\\ Silumine\\** contoso.Commerce.Runtime.SalesTransactionSignatureSample.Messages.dll **assemblerfail**.
+3. Kopeerige assemblerifail laiendite CRT kausta:
 
-    - **Jaemüügiserver:** kopeerige assembler **\\\\** IIS-i jaemüügiserveri saidi asukoha bin-ext kausta.
-    - **Kohalik CRT modern POS-is:** kopeerige assembler kohaliku kliendi **\\** maakleri asukoha ext-kausta. CRT
+    - **Jaemüügiserver:** kopeerige assembler **\\ IIS-i\\** jaemüügiserveri saidi asukoha bin-ext kausta.
+    - **Kohalik CRT modern POS-is:** kopeerige assembler **\\ kohaliku kliendi maakleri asukoha ext-kausta** CRT.
 
-4. Leidke laiendi CRT konfiguratsioonifail:
+4. Leidke laiendi konfiguratsioonifail:CRT
 
-    - **Jaemüügiserver:** faili nimi on **commerceruntime.ext.config ja see on IIS-i jaemüügiserveri saidi asukoha bin** **\\** ext-kaustas.
-    - **Modern CRT POS-is kohalik: faili nimi on** **CommerceRuntime.MPOSOffline.Ext.config ja see on kohaliku kliendi** maakleri CRT asukoha all.
+    - **Jaemüügiserver:** faili nimi on **commerceruntime.ext.config** **\\ ja see on IIS-i jaemüügiserveri saidi asukoha bin ext-kaustas.**
+    - **Modern CRT POS-is kohalik:** faili nimi **on CommerceRuntime.MPOSOffline.Ext.config** ja see on kohaliku kliendi maakleri CRT asukoha all.
 
 5. Registreerige CRT muudatus laiendi konfiguratsioonifailis.
 
@@ -271,16 +271,16 @@ CRT Laienduskomponendid kaasatakse CRT näidiste hulka. Järgmiste protseduuride
 #### <a name="registerauditevent-sample-component"></a>RegisterAuditEventi näidiskomponent
 
 1. Otsige üles **projekt Runtime.Extensions.RegisterAuditEventSample** ja koostage see.
-2. Leidke **kaustast Extensions.RegisterAuditEventSample \\ bin \\ Debug** **contoso.Commerce.Runtime.RegisterAuditEventSample.dll** assemblerifail.
-3. Kopeerige assemblerifail CRT laiendite kausta:
+2. Leidke kaustast Extensions.RegisterAuditEventSample **bin\\ Debug\\** contoso.Commerce.Runtime.RegisterAuditEventSample.dll **assemblerifail**.
+3. Kopeerige assemblerifail laiendite CRT kausta:
 
-    - **Jaemüügiserver:** kopeerige assembler **\\\\** IIS-i jaemüügiserveri saidi asukoha bin-ext kausta.
-    - **Kohalik CRT modern POS-is:** kopeerige assembler kohaliku kliendi **\\** maakleri asukoha ext-kausta. CRT
+    - **Jaemüügiserver:** kopeerige assembler **\\ IIS-i\\** jaemüügiserveri saidi asukoha bin-ext kausta.
+    - **Kohalik CRT modern POS-is:** kopeerige assembler **\\ kohaliku kliendi maakleri asukoha ext-kausta** CRT.
 
-4. Leidke laiendi CRT konfiguratsioonifail:
+4. Leidke laiendi konfiguratsioonifail:CRT
 
-    - **Jaemüügiserver:** faili nimi on **commerceruntime.ext.config ja see on IIS-i jaemüügiserveri saidi asukoha bin** **\\** ext-kaustas.
-    - **Modern CRT POS-is kohalik: faili nimi on** **CommerceRuntime.MPOSOffline.Ext.config ja see on kohaliku kliendi** maakleri CRT asukoha all.
+    - **Jaemüügiserver:** faili nimi on **commerceruntime.ext.config** **\\ ja see on IIS-i jaemüügiserveri saidi asukoha bin ext-kaustas.**
+    - **Modern CRT POS-is kohalik:** faili nimi **on CommerceRuntime.MPOSOffline.Ext.config** ja see on kohaliku kliendi maakleri CRT asukoha all.
 
 5. Registreerige CRT muudatus laiendi konfiguratsioonifailis.
 
@@ -293,23 +293,23 @@ CRT Laienduskomponendid kaasatakse CRT näidiste hulka. Järgmiste protseduuride
 
 #### <a name="salestransactionsignature-sample-component"></a>SalesTransactionSignature'i näidiskomponent
 
-1. Leidke projekt **Runtime.Extensions.SalesTransactionSignatureSample.**
-2. Muutke faili **App.config, määrates sõrmejälje, kaupluse asukoha ja kaupluse nime serdi jaoks, mida tuleks** kasutada müügikannete allkirjastamiseks.
+1. Leidke projekt **Runtime.Extensions.SalesTransactionSignatureSample**.
+2. Muutke faili **App.config**, määrates sõrmejälje, kaupluse asukoha ja kaupluse nime serdi jaoks, mida tuleks kasutada müügikannete allkirjastamiseks.
 3. Koostage projekt.
-4. Leidke **kaustast Extensions.SalesTransactionSignatureSample \\ bin \\ Debug** järgmised failid:
+4. Leidke kaustast **Extensions.SalesTransactionSignatureSample\\ bin\\ Debug** järgmised failid:
 
-    - **Contoso.Commerce.Runtime.SalesTransactionSignatureSample.dll** assemblerifail
-    - **Contoso.Commerce.Runtime.SalesTransactionSignatureSample.dll.config** konfiguratsioonifail
+    - Contoso.Commerce.Runtime.SalesTransactionSignatureSample.dll **assemblerifail**
+    - Contoso.Commerce.Runtime.SalesTransactionSignatureSample.dll.config **konfiguratsioonifail**
 
-5. Kopeerige failid CRT laiendite kausta:
+5. Kopeerige failid laiendite CRT kausta:
 
-    - **Jaemüügiserver:** kopeerige assembler **\\\\** IIS-i jaemüügiserveri saidi asukoha bin-ext kausta.
-    - **Kohalik CRT modern POS-is:** kopeerige assembler kohaliku kliendi **\\** maakleri asukoha ext-kausta. CRT
+    - **Jaemüügiserver:** kopeerige assembler **\\ IIS-i\\** jaemüügiserveri saidi asukoha bin-ext kausta.
+    - **Kohalik CRT modern POS-is:** kopeerige assembler **\\ kohaliku kliendi maakleri asukoha ext-kausta** CRT.
 
-6. Leidke laiendi CRT konfiguratsioonifail:
+6. Leidke laiendi konfiguratsioonifail:CRT
 
-    - **Jaemüügiserver:** faili nimi on **commerceruntime.ext.config ja see on IIS-i jaemüügiserveri saidi asukoha bin** **\\** ext-kaustas.
-    - **Modern CRT POS-is kohalik: faili nimi on** **CommerceRuntime.MPOSOffline.Ext.config ja see on kohaliku kliendi** maakleri CRT asukoha all.
+    - **Jaemüügiserver:** faili nimi on **commerceruntime.ext.config** **\\ ja see on IIS-i jaemüügiserveri saidi asukoha bin ext-kaustas.**
+    - **Modern CRT POS-is kohalik:** faili nimi **on CommerceRuntime.MPOSOffline.Ext.config** ja see on kohaliku kliendi maakleri CRT asukoha all.
 
 7. Registreerige CRT muudatus laiendi konfiguratsioonifailis.
 
@@ -322,28 +322,28 @@ CRT Laienduskomponendid kaasatakse CRT näidiste hulka. Järgmiste protseduuride
 
 #### <a name="sequentialsignatureregistercontracts-component"></a>Komponent SequentialSignatureRegister.Contracts
 
-1. Leidke projekt **Runtime.Extensions.SequentialSignatureRegister.Contracts.**
-2. Leidke **kaustast Extensions.SequentialSignatureRegister.Contracts \\ bin \\ Silumine** **contoso.Commerce.Runtime.SequentialSignatureRegister.Contracts.dll** assemblerifail.
-3. Kopeerige assemblerifail CRT laiendite kausta:
+1. Leidke projekt **Runtime.Extensions.SequentialSignatureRegister.Contracts**.
+2. Leidke kaustast Extensions.SequentialSignatureRegister.Contracts **bin\\ Silumine\\** contoso.Commerce.Runtime.SequentialSignatureRegister.Contracts.dll **assemblerifail**.
+3. Kopeerige assemblerifail laiendite CRT kausta:
 
-    - **Jaemüügiserver:** kopeerige assembler **\\\\** IIS-i jaemüügiserveri saidi asukoha bin-ext kausta.
-    - **Kohalik CRT modern POS-is:** kopeerige assembler kohaliku kliendi **\\** maakleri asukoha ext-kausta. CRT
+    - **Jaemüügiserver:** kopeerige assembler **\\ IIS-i\\** jaemüügiserveri saidi asukoha bin-ext kausta.
+    - **Kohalik CRT modern POS-is:** kopeerige assembler **\\ kohaliku kliendi maakleri asukoha ext-kausta** CRT.
 
 # <a name="retail-732-and-later"></a>[Jaemüügi 7.3.2 ja uuemad](#tab/retail-7-3-2)
 
 #### <a name="registerauditevent-sample-component"></a>RegisterAuditEventi näidiskomponent
 
 1. Otsige üles **projekt Runtime.Extensions.RegisterAuditEventSample** ja koostage see.
-2. Leidke **kaustast Extensions.RegisterAuditEventSample \\ bin \\ Debug** **contoso.Commerce.Runtime.RegisterAuditEventSample.dll** assemblerifail.
-3. Kopeerige assemblerifail CRT laiendite kausta:
+2. Leidke kaustast Extensions.RegisterAuditEventSample **bin\\ Debug\\** contoso.Commerce.Runtime.RegisterAuditEventSample.dll **assemblerifail**.
+3. Kopeerige assemblerifail laiendite CRT kausta:
 
-    - **Jaemüügiserver:** kopeerige assembler **\\\\** IIS-i jaemüügiserveri saidi asukoha bin-ext kausta.
-    - **Kohalik CRT modern POS-is:** kopeerige assembler kohaliku kliendi **\\** maakleri asukoha ext-kausta. CRT
+    - **Jaemüügiserver:** kopeerige assembler **\\ IIS-i\\** jaemüügiserveri saidi asukoha bin-ext kausta.
+    - **Kohalik CRT modern POS-is:** kopeerige assembler **\\ kohaliku kliendi maakleri asukoha ext-kausta** CRT.
 
-4. Leidke laiendi CRT konfiguratsioonifail:
+4. Leidke laiendi konfiguratsioonifail:CRT
 
-    - **Jaemüügiserver:** faili nimi on **commerceruntime.ext.config ja see on IIS-i jaemüügiserveri saidi asukoha bin** **\\** ext-kaustas.
-    - **Modern CRT POS-is kohalik: faili nimi on** **CommerceRuntime.MPOSOffline.Ext.config ja see on kohaliku kliendi** maakleri CRT asukoha all.
+    - **Jaemüügiserver:** faili nimi on **commerceruntime.ext.config** **\\ ja see on IIS-i jaemüügiserveri saidi asukoha bin ext-kaustas.**
+    - **Modern CRT POS-is kohalik:** faili nimi **on CommerceRuntime.MPOSOffline.Ext.config** ja see on kohaliku kliendi maakleri CRT asukoha all.
 
 5. Registreerige CRT muudatus laiendi konfiguratsioonifailis.
 
@@ -356,23 +356,23 @@ CRT Laienduskomponendid kaasatakse CRT näidiste hulka. Järgmiste protseduuride
 
 #### <a name="sequentialsignatureregister-component"></a>Komponent SequentialSignatureRegister
 
-1. Leidke projekt **Runtime.Extensions.SequentialSignatureRegister.**
-2. Muutke faili **App.config, määrates sõrmejälje, kaupluse asukoha ja kaupluse nime serdi jaoks, mida tuleks** kasutada müügikannete allkirjastamiseks.
+1. Leidke projekt **Runtime.Extensions.SequentialSignatureRegister**.
+2. Muutke faili **App.config**, määrates sõrmejälje, kaupluse asukoha ja kaupluse nime serdi jaoks, mida tuleks kasutada müügikannete allkirjastamiseks.
 3. Koostage projekt.
-4. Leidke **kaustast Extensions.SequentialSignatureRegister \\ bin \\ Debug** järgmised failid:
+4. Leidke kaustast **Extensions.SequentialSignatureRegister\\ bin\\ Debug** järgmised failid:
 
-    - **Contoso.Commerce.Runtime.SequentialSignatureRegister.dll-i** assemblerifail
+    - Contoso.Commerce.Runtime.SequentialSignatureRegister.dll-i **assemblerifail**
     - **Konfiguratsioonifail Contoso.Commerce.Runtime.SequentialSignatureRegister.dll.config**
 
-5. Kopeerige failid CRT laiendite kausta:
+5. Kopeerige failid laiendite CRT kausta:
 
-    - **Jaemüügiserver:** kopeerige assembler **\\\\** IIS-i jaemüügiserveri saidi asukoha bin-ext kausta.
-    - **Kohalik CRT modern POS-is:** kopeerige assembler kohaliku kliendi **\\** maakleri asukoha ext-kausta. CRT
+    - **Jaemüügiserver:** kopeerige assembler **\\ IIS-i\\** jaemüügiserveri saidi asukoha bin-ext kausta.
+    - **Kohalik CRT modern POS-is:** kopeerige assembler **\\ kohaliku kliendi maakleri asukoha ext-kausta** CRT.
 
-6. Leidke laiendi CRT konfiguratsioonifail:
+6. Leidke laiendi konfiguratsioonifail:CRT
 
-    - **Jaemüügiserver:** faili nimi on **commerceruntime.ext.config ja see on IIS-i jaemüügiserveri saidi asukoha bin** **\\** ext-kaustas.
-    - **Modern CRT POS-is kohalik: faili nimi on** **CommerceRuntime.MPOSOffline.Ext.config ja see on kohaliku kliendi** maakleri CRT asukoha all.
+    - **Jaemüügiserver:** faili nimi on **commerceruntime.ext.config** **\\ ja see on IIS-i jaemüügiserveri saidi asukoha bin ext-kaustas.**
+    - **Modern CRT POS-is kohalik:** faili nimi **on CommerceRuntime.MPOSOffline.Ext.config** ja see on kohaliku kliendi maakleri CRT asukoha all.
 
 7. Registreerige CRT muudatus laiendi konfiguratsioonifailis.
 
@@ -385,17 +385,17 @@ CRT Laienduskomponendid kaasatakse CRT näidiste hulka. Järgmiste protseduuride
 
 #### <a name="salestransactionsignaturenorway-component"></a>SalesTransactionSignatureNorway komponent
 
-1. Leidke **projekt Runtime.Extensions.SalesTransactionSignatureNorway.**
-2. Leidke **kaustast Extensions.SalesTransactionSignatureNorway \\ bin \\ Debug** **contoso.Commerce.Runtime.SalesTransactionSignatureNorway.dll** assemblerifail.
-3. Kopeerige assemblerifail CRT laiendite kausta:
+1. Leidke projekt **Runtime.Extensions.SalesTransactionSignatureNorway**.
+2. Leidke kaustast Extensions.SalesTransactionSignatureNorway **bin\\ Debug\\** contoso.Commerce.Runtime.SalesTransactionSignatureNorway.dll **assemblerifail**.
+3. Kopeerige assemblerifail laiendite CRT kausta:
 
-    - **Jaemüügiserver:** kopeerige assembler **\\\\** IIS-i jaemüügiserveri saidi asukoha bin-ext kausta.
-    - **Kohalik CRT modern POS-is:** kopeerige assembler kohaliku kliendi **\\** maakleri asukoha ext-kausta. CRT
+    - **Jaemüügiserver:** kopeerige assembler **\\ IIS-i\\** jaemüügiserveri saidi asukoha bin-ext kausta.
+    - **Kohalik CRT modern POS-is:** kopeerige assembler **\\ kohaliku kliendi maakleri asukoha ext-kausta** CRT.
 
-4. Leidke laiendi CRT konfiguratsioonifail:
+4. Leidke laiendi konfiguratsioonifail:CRT
 
-    - **Jaemüügiserver:** faili nimi on **commerceruntime.ext.config ja see on IIS-i jaemüügiserveri saidi asukoha bin** **\\** ext-kaustas.
-    - **Modern CRT POS-is kohalik: faili nimi on** **CommerceRuntime.MPOSOffline.Ext.config ja see on kohaliku kliendi** maakleri CRT asukoha all.
+    - **Jaemüügiserver:** faili nimi on **commerceruntime.ext.config** **\\ ja see on IIS-i jaemüügiserveri saidi asukoha bin ext-kaustas.**
+    - **Modern CRT POS-is kohalik:** faili nimi **on CommerceRuntime.MPOSOffline.Ext.config** ja see on kohaliku kliendi maakleri CRT asukoha all.
 
 5. Registreerige CRT muudatus laiendi konfiguratsioonifailis.
 
@@ -408,26 +408,26 @@ CRT Laienduskomponendid kaasatakse CRT näidiste hulka. Järgmiste protseduuride
 
 #### <a name="sequentialsignatureregistercontracts-component"></a>Komponent SequentialSignatureRegister.Contracts
 
-1. Leidke projekt **Runtime.Extensions.SequentialSignatureRegister.Contracts.**
-2. Leidke **kaustast Extensions.SequentialSignatureRegister.Contracts \\ bin \\ Silumine** **contoso.Commerce.Runtime.SequentialSignatureRegister.Contracts.dll** assemblerifail.
-3. Kopeerige assemblerifail CRT laiendite kausta:
+1. Leidke projekt **Runtime.Extensions.SequentialSignatureRegister.Contracts**.
+2. Leidke kaustast Extensions.SequentialSignatureRegister.Contracts **bin\\ Silumine\\** contoso.Commerce.Runtime.SequentialSignatureRegister.Contracts.dll **assemblerifail**.
+3. Kopeerige assemblerifail laiendite CRT kausta:
 
-    - **Jaemüügiserver:** kopeerige assembler **\\\\** IIS-i jaemüügiserveri saidi asukoha bin-ext kausta.
-    - **Kohalik CRT modern POS-is:** kopeerige assembler kohaliku kliendi **\\** maakleri asukoha ext-kausta. CRT
+    - **Jaemüügiserver:** kopeerige assembler **\\ IIS-i\\** jaemüügiserveri saidi asukoha bin-ext kausta.
+    - **Kohalik CRT modern POS-is:** kopeerige assembler **\\ kohaliku kliendi maakleri asukoha ext-kausta** CRT.
 
 #### <a name="salespaymenttransextnorway-component"></a>SalesPaymentTransExtNorway komponent
 
-1. Leidke **projekt Runtime.Extensions.SalesPaymentTransExtNorway** ja koostage see.
-2. Leidke **kaustast Extensions.SalesPaymentTransExtNorway \\ bin \\ Debug** **contoso.Commerce.Runtime.SalesPaymentTransExtNorway.dll** assemblerifail.
-3. Kopeerige assemblerifail CRT laiendite kausta:
+1. Leidke projekt **Runtime.Extensions.SalesPaymentTransExtNorway** ja koostage see.
+2. Leidke kaustast Extensions.SalesPaymentTransExtNorway **bin\\ Debug\\** contoso.Commerce.Runtime.SalesPaymentTransExtNorway.dll **assemblerifail**.
+3. Kopeerige assemblerifail laiendite CRT kausta:
 
-    - **Jaemüügiserver:** kopeerige assembler **\\\\** IIS-i jaemüügiserveri saidi asukoha bin-ext kausta.
-    - **Kohalik CRT modern POS-is:** kopeerige assembler kohaliku kliendi **\\** maakleri asukoha ext-kausta. CRT
+    - **Jaemüügiserver:** kopeerige assembler **\\ IIS-i\\** jaemüügiserveri saidi asukoha bin-ext kausta.
+    - **Kohalik CRT modern POS-is:** kopeerige assembler **\\ kohaliku kliendi maakleri asukoha ext-kausta** CRT.
 
-4. Leidke laiendi CRT konfiguratsioonifail:
+4. Leidke laiendi konfiguratsioonifail:CRT
 
-    - **Jaemüügiserver:** faili nimi on **commerceruntime.ext.config ja see on IIS-i jaemüügiserveri saidi asukoha bin** **\\** ext-kaustas.
-    - **Modern CRT POS-is kohalik: faili nimi on** **CommerceRuntime.MPOSOffline.Ext.config ja see on kohaliku kliendi** maakleri CRT asukoha all.
+    - **Jaemüügiserver:** faili nimi on **commerceruntime.ext.config** **\\ ja see on IIS-i jaemüügiserveri saidi asukoha bin ext-kaustas.**
+    - **Modern CRT POS-is kohalik:** faili nimi **on CommerceRuntime.MPOSOffline.Ext.config** ja see on kohaliku kliendi maakleri CRT asukoha all.
 
 5. Registreerige CRT muudatus laiendi konfiguratsioonifailis.
 
@@ -442,10 +442,10 @@ CRT Laienduskomponendid kaasatakse CRT näidiste hulka. Järgmiste protseduuride
 
 #### <a name="registerauditeventnorway-component"></a>RegisterAuditEventNorway komponent
 
-1. Leidke laiendi CRT konfiguratsioonifail:
+1. Leidke laiendi konfiguratsioonifail:CRT
 
-    - **Jaemüügiserver:** faili nimi on **commerceruntime.ext.config ja see on IIS-i jaemüügiserveri saidi asukoha bin** **\\** ext-kaustas.
-    - **Modern CRT POS-is kohalik: faili nimi on** **CommerceRuntime.MPOSOffline.Ext.config ja see on kohaliku kliendi** maakleri CRT asukoha all.
+    - **Jaemüügiserver:** faili nimi on **commerceruntime.ext.config** **\\ ja see on IIS-i jaemüügiserveri saidi asukoha bin ext-kaustas.**
+    - **Modern CRT POS-is kohalik:** faili nimi **on CommerceRuntime.MPOSOffline.Ext.config** ja see on kohaliku kliendi maakleri CRT asukoha all.
 
 2. Registreerige CRT muudatus laiendi konfiguratsioonifailis.
 
@@ -458,23 +458,23 @@ CRT Laienduskomponendid kaasatakse CRT näidiste hulka. Järgmiste protseduuride
 
 #### <a name="sequentialsignatureregister-component"></a>Komponent SequentialSignatureRegister
 
-1. Leidke projekt **Runtime.Extensions.SequentialSignatureRegister.**
-2. Muutke faili **App.config, määrates sõrmejälje, kaupluse asukoha ja kaupluse nime serdi jaoks, mida tuleks** kasutada müügikannete allkirjastamiseks.
+1. Leidke projekt **Runtime.Extensions.SequentialSignatureRegister**.
+2. Muutke faili **App.config**, määrates sõrmejälje, kaupluse asukoha ja kaupluse nime serdi jaoks, mida tuleks kasutada müügikannete allkirjastamiseks.
 3. Koostage projekt.
-4. Leidke **kaustast Extensions.SequentialSignatureRegister \\ bin \\ Debug** järgmised failid:
+4. Leidke kaustast **Extensions.SequentialSignatureRegister\\ bin\\ Debug** järgmised failid:
 
-    - **Contoso.Commerce.Runtime.SequentialSignatureRegister.dll-i** assemblerifail
+    - Contoso.Commerce.Runtime.SequentialSignatureRegister.dll-i **assemblerifail**
     - **Konfiguratsioonifail Contoso.Commerce.Runtime.SequentialSignatureRegister.dll.config**
 
-5. Kopeerige failid CRT laiendite kausta:
+5. Kopeerige failid laiendite CRT kausta:
 
-    - **Jaemüügiserver:** kopeerige assembler **\\\\** IIS-i jaemüügiserveri saidi asukoha bin-ext kausta.
-    - **Kohalik CRT modern POS-is:** kopeerige assembler kohaliku kliendi **\\** maakleri asukoha ext-kausta. CRT
+    - **Jaemüügiserver:** kopeerige assembler **\\ IIS-i\\** jaemüügiserveri saidi asukoha bin-ext kausta.
+    - **Kohalik CRT modern POS-is:** kopeerige assembler **\\ kohaliku kliendi maakleri asukoha ext-kausta** CRT.
 
-6. Leidke laiendi CRT konfiguratsioonifail:
+6. Leidke laiendi konfiguratsioonifail:CRT
 
-    - **Jaemüügiserver:** faili nimi on **commerceruntime.ext.config ja see on IIS-i jaemüügiserveri saidi asukoha bin** **\\** ext-kaustas.
-    - **Modern CRT POS-is kohalik: faili nimi on** **CommerceRuntime.MPOSOffline.Ext.config ja see on kohaliku kliendi** maakleri CRT asukoha all.
+    - **Jaemüügiserver:** faili nimi on **commerceruntime.ext.config** **\\ ja see on IIS-i jaemüügiserveri saidi asukoha bin ext-kaustas.**
+    - **Modern CRT POS-is kohalik:** faili nimi **on CommerceRuntime.MPOSOffline.Ext.config** ja see on kohaliku kliendi maakleri CRT asukoha all.
 
 7. Registreerige CRT muudatus laiendi konfiguratsioonifailis.
 
@@ -487,17 +487,17 @@ CRT Laienduskomponendid kaasatakse CRT näidiste hulka. Järgmiste protseduuride
 
 #### <a name="salestransactionsignaturenorway-component"></a>SalesTransactionSignatureNorway komponent
 
-1. Leidke **projekt Runtime.Extensions.SalesTransactionSignatureNorway.**
-2. Leidke **kaustast Extensions.SalesTransactionSignatureNorway \\ bin \\ Debug** **contoso.Commerce.Runtime.SalesTransactionSignatureNorway.dll** assemblerifail.
-3. Kopeerige assemblerifail CRT laiendite kausta:
+1. Leidke projekt **Runtime.Extensions.SalesTransactionSignatureNorway**.
+2. Leidke kaustast Extensions.SalesTransactionSignatureNorway **bin\\ Debug\\** contoso.Commerce.Runtime.SalesTransactionSignatureNorway.dll **assemblerifail**.
+3. Kopeerige assemblerifail laiendite CRT kausta:
 
-    - **Jaemüügiserver:** kopeerige assembler **\\\\** IIS-i jaemüügiserveri saidi asukoha bin-ext kausta.
-    - **Kohalik CRT modern POS-is:** kopeerige assembler kohaliku kliendi **\\** maakleri asukoha ext-kausta. CRT
+    - **Jaemüügiserver:** kopeerige assembler **\\ IIS-i\\** jaemüügiserveri saidi asukoha bin-ext kausta.
+    - **Kohalik CRT modern POS-is:** kopeerige assembler **\\ kohaliku kliendi maakleri asukoha ext-kausta** CRT.
 
-4. Leidke laiendi CRT konfiguratsioonifail:
+4. Leidke laiendi konfiguratsioonifail:CRT
 
-    - **Jaemüügiserver:** faili nimi on **commerceruntime.ext.config ja see on IIS-i jaemüügiserveri saidi asukoha bin** **\\** ext-kaustas.
-    - **Modern CRT POS-is kohalik: faili nimi on** **CommerceRuntime.MPOSOffline.Ext.config ja see on kohaliku kliendi** maakleri CRT asukoha all.
+    - **Jaemüügiserver:** faili nimi on **commerceruntime.ext.config** **\\ ja see on IIS-i jaemüügiserveri saidi asukoha bin ext-kaustas.**
+    - **Modern CRT POS-is kohalik:** faili nimi **on CommerceRuntime.MPOSOffline.Ext.config** ja see on kohaliku kliendi maakleri CRT asukoha all.
 
 5. Registreerige CRT muudatus laiendi konfiguratsioonifailis.
 
@@ -510,26 +510,26 @@ CRT Laienduskomponendid kaasatakse CRT näidiste hulka. Järgmiste protseduuride
 
 #### <a name="sequentialsignatureregistercontracts-component"></a>Komponent SequentialSignatureRegister.Contracts
 
-1. Leidke projekt **Runtime.Extensions.SequentialSignatureRegister.Contracts.**
-2. Leidke **kaustast Extensions.SequentialSignatureRegister.Contracts \\ bin \\ Silumine** **contoso.Commerce.Runtime.SequentialSignatureRegister.Contracts.dll** assemblerifail.
-3. Kopeerige assemblerifail CRT laiendite kausta:
+1. Leidke projekt **Runtime.Extensions.SequentialSignatureRegister.Contracts**.
+2. Leidke kaustast Extensions.SequentialSignatureRegister.Contracts **bin\\ Silumine\\** contoso.Commerce.Runtime.SequentialSignatureRegister.Contracts.dll **assemblerifail**.
+3. Kopeerige assemblerifail laiendite CRT kausta:
 
-    - **Jaemüügiserver:** kopeerige assembler **\\\\** IIS-i jaemüügiserveri saidi asukoha bin-ext kausta.
-    - **Kohalik CRT modern POS-is:** kopeerige assembler kohaliku kliendi **\\** maakleri asukoha ext-kausta. CRT
+    - **Jaemüügiserver:** kopeerige assembler **\\ IIS-i\\** jaemüügiserveri saidi asukoha bin-ext kausta.
+    - **Kohalik CRT modern POS-is:** kopeerige assembler **\\ kohaliku kliendi maakleri asukoha ext-kausta** CRT.
 
 #### <a name="salespaymenttransextnorway-component"></a>SalesPaymentTransExtNorway komponent
 
-1. Leidke **projekt Runtime.Extensions.SalesPaymentTransExtNorway** ja koostage see.
-2. Leidke **kaustast Extensions.SalesPaymentTransExtNorway \\ bin \\ Debug** **contoso.Commerce.Runtime.SalesPaymentTransExtNorway.dll** assemblerifail.
-3. Kopeerige assemblerifail CRT laiendite kausta:
+1. Leidke projekt **Runtime.Extensions.SalesPaymentTransExtNorway** ja koostage see.
+2. Leidke kaustast Extensions.SalesPaymentTransExtNorway **bin\\ Debug\\** contoso.Commerce.Runtime.SalesPaymentTransExtNorway.dll **assemblerifail**.
+3. Kopeerige assemblerifail laiendite CRT kausta:
 
-    - **Jaemüügiserver:** kopeerige assembler **\\\\** IIS-i jaemüügiserveri saidi asukoha bin-ext kausta.
-    - **Kohalik CRT modern POS-is:** kopeerige assembler kohaliku kliendi **\\** maakleri asukoha ext-kausta. CRT
+    - **Jaemüügiserver:** kopeerige assembler **\\ IIS-i\\** jaemüügiserveri saidi asukoha bin-ext kausta.
+    - **Kohalik CRT modern POS-is:** kopeerige assembler **\\ kohaliku kliendi maakleri asukoha ext-kausta** CRT.
 
-4. Leidke laiendi CRT konfiguratsioonifail:
+4. Leidke laiendi konfiguratsioonifail:CRT
 
-    - **Jaemüügiserver:** faili nimi on **commerceruntime.ext.config ja see on IIS-i jaemüügiserveri saidi asukoha bin** **\\** ext-kaustas.
-    - **Modern CRT POS-is kohalik: faili nimi on** **CommerceRuntime.MPOSOffline.Ext.config ja see on kohaliku kliendi** maakleri CRT asukoha all.
+    - **Jaemüügiserver:** faili nimi on **commerceruntime.ext.config** **\\ ja see on IIS-i jaemüügiserveri saidi asukoha bin ext-kaustas.**
+    - **Modern CRT POS-is kohalik:** faili nimi **on CommerceRuntime.MPOSOffline.Ext.config** ja see on kohaliku kliendi maakleri CRT asukoha all.
 
 5. Registreerige CRT muudatus laiendi konfiguratsioonifailis.
 
@@ -544,10 +544,10 @@ CRT Laienduskomponendid kaasatakse CRT näidiste hulka. Järgmiste protseduuride
 
 #### <a name="registerauditeventnorway-component"></a>RegisterAuditEventNorway komponent
 
-1. Leidke laiendi CRT konfiguratsioonifail:
+1. Leidke laiendi konfiguratsioonifail:CRT
 
-    - **Jaemüügiserver:** faili nimi on **commerceruntime.ext.config ja see on IIS-i jaemüügiserveri saidi asukoha bin** **\\** ext-kaustas.
-    - **Modern CRT POS-is kohalik: faili nimi on** **CommerceRuntime.MPOSOffline.Ext.config ja see on kohaliku kliendi** maakleri CRT asukoha all.
+    - **Jaemüügiserver:** faili nimi on **commerceruntime.ext.config** **\\ ja see on IIS-i jaemüügiserveri saidi asukoha bin ext-kaustas.**
+    - **Modern CRT POS-is kohalik:** faili nimi **on CommerceRuntime.MPOSOffline.Ext.config** ja see on kohaliku kliendi maakleri CRT asukoha all.
 
 2. Registreerige CRT muudatus laiendi konfiguratsioonifailis.
 
@@ -560,23 +560,23 @@ CRT Laienduskomponendid kaasatakse CRT näidiste hulka. Järgmiste protseduuride
 
 #### <a name="sequentialsignatureregister-component"></a>Komponent SequentialSignatureRegister
 
-1. Leidke projekt **Runtime.Extensions.SequentialSignatureRegister.**
-2. Muutke faili **App.config, määrates sõrmejälje, kaupluse asukoha ja kaupluse nime serdi jaoks, mida tuleks** kasutada müügikannete allkirjastamiseks.
+1. Leidke projekt **Runtime.Extensions.SequentialSignatureRegister**.
+2. Muutke faili **App.config**, määrates sõrmejälje, kaupluse asukoha ja kaupluse nime serdi jaoks, mida tuleks kasutada müügikannete allkirjastamiseks.
 3. Koostage projekt.
-4. Leidke **kaustast Extensions.SequentialSignatureRegister \\ bin \\ Debug** järgmised failid:
+4. Leidke kaustast **Extensions.SequentialSignatureRegister\\ bin\\ Debug** järgmised failid:
 
-    - **Contoso.Commerce.Runtime.SequentialSignatureRegister.dll-i** assemblerifail
+    - Contoso.Commerce.Runtime.SequentialSignatureRegister.dll-i **assemblerifail**
     - **Konfiguratsioonifail Contoso.Commerce.Runtime.SequentialSignatureRegister.dll.config**
 
-5. Kopeerige failid CRT laiendite kausta:
+5. Kopeerige failid laiendite CRT kausta:
 
-    - **Jaemüügiserver:** kopeerige assembler **\\\\** IIS-i jaemüügiserveri saidi asukoha bin-ext kausta.
-    - **Kohalik CRT modern POS-is:** kopeerige assembler kohaliku kliendi **\\** maakleri asukoha ext-kausta. CRT
+    - **Jaemüügiserver:** kopeerige assembler **\\ IIS-i\\** jaemüügiserveri saidi asukoha bin-ext kausta.
+    - **Kohalik CRT modern POS-is:** kopeerige assembler **\\ kohaliku kliendi maakleri asukoha ext-kausta** CRT.
 
-6. Leidke laiendi CRT konfiguratsioonifail:
+6. Leidke laiendi konfiguratsioonifail:CRT
 
-    - **Jaemüügiserver:** faili nimi on **commerceruntime.ext.config ja see on IIS-i jaemüügiserveri saidi asukoha bin** **\\** ext-kaustas.
-    - **Modern CRT POS-is kohalik: faili nimi on** **CommerceRuntime.MPOSOffline.Ext.config ja see on kohaliku kliendi** maakleri CRT asukoha all.
+    - **Jaemüügiserver:** faili nimi on **commerceruntime.ext.config** **\\ ja see on IIS-i jaemüügiserveri saidi asukoha bin ext-kaustas.**
+    - **Modern CRT POS-is kohalik:** faili nimi **on CommerceRuntime.MPOSOffline.Ext.config** ja see on kohaliku kliendi maakleri CRT asukoha all.
 
 7. Registreerige CRT muudatus laiendi konfiguratsioonifailis.
 
@@ -589,17 +589,17 @@ CRT Laienduskomponendid kaasatakse CRT näidiste hulka. Järgmiste protseduuride
 
 #### <a name="salestransactionsignaturenorway-component"></a>SalesTransactionSignatureNorway komponent
 
-1. Leidke **projekt Runtime.Extensions.SalesTransactionSignatureNorway.**
-2. Leidke **kaustast Extensions.SalesTransactionSignatureNorway \\ bin \\ Debug** **contoso.Commerce.Runtime.SalesTransactionSignatureNorway.dll** assemblerifail.
-3. Kopeerige assemblerifail CRT laiendite kausta:
+1. Leidke projekt **Runtime.Extensions.SalesTransactionSignatureNorway**.
+2. Leidke kaustast Extensions.SalesTransactionSignatureNorway **bin\\ Debug\\** contoso.Commerce.Runtime.SalesTransactionSignatureNorway.dll **assemblerifail**.
+3. Kopeerige assemblerifail laiendite CRT kausta:
 
-    - **Jaemüügiserver:** kopeerige assembler **\\\\** IIS-i jaemüügiserveri saidi asukoha bin-ext kausta.
-    - **Kohalik CRT modern POS-is:** kopeerige assembler kohaliku kliendi **\\** maakleri asukoha ext-kausta. CRT
+    - **Jaemüügiserver:** kopeerige assembler **\\ IIS-i\\** jaemüügiserveri saidi asukoha bin-ext kausta.
+    - **Kohalik CRT modern POS-is:** kopeerige assembler **\\ kohaliku kliendi maakleri asukoha ext-kausta** CRT.
 
-4. Leidke laiendi CRT konfiguratsioonifail:
+4. Leidke laiendi konfiguratsioonifail:CRT
 
-    - **Jaemüügiserver:** faili nimi on **commerceruntime.ext.config ja see on IIS-i jaemüügiserveri saidi asukoha bin** **\\** ext-kaustas.
-    - **Modern CRT POS-is kohalik: faili nimi on** **CommerceRuntime.MPOSOffline.Ext.config ja see on kohaliku kliendi** maakleri CRT asukoha all.
+    - **Jaemüügiserver:** faili nimi on **commerceruntime.ext.config** **\\ ja see on IIS-i jaemüügiserveri saidi asukoha bin ext-kaustas.**
+    - **Modern CRT POS-is kohalik:** faili nimi **on CommerceRuntime.MPOSOffline.Ext.config** ja see on kohaliku kliendi maakleri CRT asukoha all.
 
 5. Registreerige CRT muudatus laiendi konfiguratsioonifailis.
 
@@ -612,26 +612,26 @@ CRT Laienduskomponendid kaasatakse CRT näidiste hulka. Järgmiste protseduuride
 
 #### <a name="sequentialsignatureregistercontracts-component"></a>Komponent SequentialSignatureRegister.Contracts
 
-1. Leidke projekt **Runtime.Extensions.SequentialSignatureRegister.Contracts.**
-2. Leidke **kaustast Extensions.SequentialSignatureRegister.Contracts \\ bin \\ Silumine** **contoso.Commerce.Runtime.SequentialSignatureRegister.Contracts.dll** assemblerifail.
-3. Kopeerige assemblerifail CRT laiendite kausta:
+1. Leidke projekt **Runtime.Extensions.SequentialSignatureRegister.Contracts**.
+2. Leidke kaustast Extensions.SequentialSignatureRegister.Contracts **bin\\ Silumine\\** contoso.Commerce.Runtime.SequentialSignatureRegister.Contracts.dll **assemblerifail**.
+3. Kopeerige assemblerifail laiendite CRT kausta:
 
-    - **Jaemüügiserver:** kopeerige assembler **\\\\** IIS-i jaemüügiserveri saidi asukoha bin-ext kausta.
-    - **Kohalik CRT modern POS-is:** kopeerige assembler kohaliku kliendi **\\** maakleri asukoha ext-kausta. CRT
+    - **Jaemüügiserver:** kopeerige assembler **\\ IIS-i\\** jaemüügiserveri saidi asukoha bin-ext kausta.
+    - **Kohalik CRT modern POS-is:** kopeerige assembler **\\ kohaliku kliendi maakleri asukoha ext-kausta** CRT.
 
 #### <a name="salespaymenttransextnorway-component"></a>SalesPaymentTransExtNorway komponent
 
-1. Leidke **projekt Runtime.Extensions.SalesPaymentTransExtNorway** ja koostage see.
-2. Leidke **kaustast Extensions.SalesPaymentTransExtNorway \\ bin \\ Debug** **contoso.Commerce.Runtime.SalesPaymentTransExtNorway.dll** assemblerifail.
-3. Kopeerige assemblerifail CRT laiendite kausta:
+1. Leidke projekt **Runtime.Extensions.SalesPaymentTransExtNorway** ja koostage see.
+2. Leidke kaustast Extensions.SalesPaymentTransExtNorway **bin\\ Debug\\** contoso.Commerce.Runtime.SalesPaymentTransExtNorway.dll **assemblerifail**.
+3. Kopeerige assemblerifail laiendite CRT kausta:
 
-    - **Jaemüügiserver:** kopeerige assembler **\\\\** IIS-i jaemüügiserveri saidi asukoha bin-ext kausta.
-    - **Kohalik CRT modern POS-is:** kopeerige assembler kohaliku kliendi **\\** maakleri asukoha ext-kausta. CRT
+    - **Jaemüügiserver:** kopeerige assembler **\\ IIS-i\\** jaemüügiserveri saidi asukoha bin-ext kausta.
+    - **Kohalik CRT modern POS-is:** kopeerige assembler **\\ kohaliku kliendi maakleri asukoha ext-kausta** CRT.
 
-4. Leidke laiendi CRT konfiguratsioonifail:
+4. Leidke laiendi konfiguratsioonifail:CRT
 
-    - **Jaemüügiserver:** faili nimi on **commerceruntime.ext.config ja see on IIS-i jaemüügiserveri saidi asukoha bin** **\\** ext-kaustas.
-    - **Modern CRT POS-is kohalik: faili nimi on** **CommerceRuntime.MPOSOffline.Ext.config ja see on kohaliku kliendi** maakleri CRT asukoha all.
+    - **Jaemüügiserver:** faili nimi on **commerceruntime.ext.config** **\\ ja see on IIS-i jaemüügiserveri saidi asukoha bin ext-kaustas.**
+    - **Modern CRT POS-is kohalik:** faili nimi **on CommerceRuntime.MPOSOffline.Ext.config** ja see on kohaliku kliendi maakleri CRT asukoha all.
 
 5. Registreerige CRT muudatus laiendi konfiguratsioonifailis.
 
@@ -648,38 +648,38 @@ CRT Laienduskomponendid kaasatakse CRT näidiste hulka. Järgmiste protseduuride
 
 #### <a name="salestransactionsignature-retail-server-sample-component"></a>SalesTransactionSignature jaemüügiserveri näidiskomponent
 
-1. Leidke **kaustas RetailSDK \\ SampleExtensions \\\\ RetailServer RetailServer.Extensions.SalesTransactionSignatureSample projekt** **RetailServer.Extensions.SalesTransactionSignatureSample** ja koostage see.
-2. Leidke kaustast **RetailServer \\ Extensions.SalesTransactionSignatureSample bin Debug kaust \\\\** **Contoso.RetailServer.SalesTransactionSignatureSample.dll.**
+1. **Leidke kaustas RetailSDK\\ SampleExtensions\\ RetailServer\\ RetailServer.Extensions.SalesTransactionSignatureSample projekt RetailServer.Extensions.SalesTransactionSignatureSample** **ja** koostage see.
+2. Leidke kaustast RetailServer **Extensions.SalesTransactionSignatureSample\\ bin\\ Debug\\** kaust Contoso.RetailServer.SalesTransactionSignatureSample.dll **.**
 3. Kopeerige assemblerifail jaemüügiserveri laienduste kausta.
 
     # <a name="application-update-4"></a>[Rakenduse värskendus 4](#tab/app-update-4)
 
-    See kaust on **\\** IIS-i jaemüügiserveri asukoha bin-kaust.
+    See kaust on **\\ IIS-i** jaemüügiserveri asukoha bin-kaust.
 
     # <a name="application-update-5-and-later"></a>[Rakenduse värskendus 5 ja uuem](#tab/app-update-5-and-later)
 
-    See kaust on **\\** IIS-i jaemüügiserveri asukoha bin-kaust.
+    See kaust on **\\ IIS-i** jaemüügiserveri asukoha bin-kaust.
 
     # <a name="retail-731"></a>[Jaemüügi 7.3.1](#tab/retail-7-3-1)
 
-    Kaust on **\\\\** IIS-i jaemüügiserveri asukoha bin-ext-kaust.
+    Kaust on IIS-i **\\\\ jaemüügiserveri** asukoha bin-ext-kaust.
 
     # <a name="retail-732-and-later"></a>[Jaemüügi 7.3.2 ja uuemad](#tab/retail-7-3-2)
 
-    Kaust on **\\\\** IIS-i jaemüügiserveri asukoha bin-ext-kaust.
+    Kaust on IIS-i **\\\\ jaemüügiserveri** asukoha bin-ext-kaust.
 
     # <a name="retail-735-and-later"></a>[Jaemüügi 7.3.5 ja uuemad](#tab/retail-7-3-5)
 
-    Kaust on **\\\\** IIS-i jaemüügiserveri asukoha bin-ext-kaust.
+    Kaust on IIS-i **\\\\ jaemüügiserveri** asukoha bin-ext-kaust.
 
     # <a name="retail-811-and-later"></a>[Jaemüügi 8.1.1 ja uuem](#tab/retail-8-1-1)
 
-    Kaust on **\\\\** IIS-i jaemüügiserveri asukoha bin-ext-kaust.
+    Kaust on IIS-i **\\\\ jaemüügiserveri** asukoha bin-ext-kaust.
 
     ---
 
 4. Otsige jaemüügiserveri konfiguratsioonifail. Faili nimi on **web.config** ja see on IIS-i jaemüügiserveri saidi asukoha juurkaustas.
-5. Registreerige jaemüügiserveri laiendused **konfiguratsioonifaili laiendi** sektsioonis extensionComposition.
+5. Registreerige jaemüügiserveri laiendused **konfiguratsioonifaili laiendi sektsioonis extensionComposition**.
 
     ``` xml
     <add source="assembly" value="Contoso.RetailServer.SalesTransactionSignatureSample" />
@@ -689,13 +689,13 @@ CRT Laienduskomponendid kaasatakse CRT näidiste hulka. Järgmiste protseduuride
 
     # <a name="application-update-4"></a>[Rakenduse värskendus 4](#tab/app-update-4/)
 
-    1. Leidke kaustast **CommerceRuntime \\ Extensions.SalesTransactionSignatureSample \\ bin \\ Silumine** järgmised failid:
+    1. Leidke kaustast **CommerceRuntime\\ Extensions.SalesTransactionSignatureSample\\ bin\\ Silumine** järgmised failid:
 
-        - **Contoso.Commerce.Runtime.SalesTransactionSignatureSample.dll** assemblerifail
-        - **Contoso.Commerce.Runtime.SalesTransactionSignatureSample.dll.config** konfiguratsioonifail
+        - Contoso.Commerce.Runtime.SalesTransactionSignatureSample.dll **assemblerifail**
+        - Contoso.Commerce.Runtime.SalesTransactionSignatureSample.dll.config **konfiguratsioonifail**
 
-    2. Kopeerige failid **\\** IIS-i jaemüügiserveri asukoha bin-kausta.
-    3. Registreeri laiendi CRT konfiguratsioonifaili muudatus. CRT Selle faili nimi on **commerceruntime.ext.config ja see on** **IIS**-i jaemüügiserveri saidi asukoha bin-kaustas.
+    2. Kopeerige failid IIS-i **\\** jaemüügiserveri asukoha bin-kausta.
+    3. Registreeri laiendi CRT konfiguratsioonifaili muudatus.CRT Selle faili nimi on **commerceruntime.ext.config** **ja** see on IIS-i jaemüügiserveri saidi asukoha bin-kaustas.
 
         ``` xml
         <add source="assembly" value="Contoso.Commerce.Runtime.SalesTransactionSignatureSample" />
@@ -703,9 +703,9 @@ CRT Laienduskomponendid kaasatakse CRT näidiste hulka. Järgmiste protseduuride
 
     # <a name="application-update-5-and-later"></a>[Rakenduse värskendus 5 ja uuem](#tab/app-update-5-and-later/)
 
-    1. Leidke kaustas **CommerceRuntime \\ Extensions.SalesTransactionSignatureSample.Messages bin Debug kaust \\\\** **Contoso.Commerce.Runtime.SalesTransactionSignatureSample.Messages.dll** assemblerifail.
-    2. Kopeerige fail **\\** IIS-i jaemüügiserveri saidi asukoha bin-kausta.
-    3. Registreeri laiendi CRT konfiguratsioonifaili muudatus. CRT Selle faili nimi on **commerceruntime.ext.config ja see on** **IIS**-i jaemüügiserveri saidi asukoha bin-kaustas.
+    1. Leidke kaustas CommerceRuntime Extensions.SalesTransactionSignatureSample.Messages bin Debug **\\ kaust Contoso.Commerce.Runtime.SalesTransactionSignatureSample.Messages.dll assemblerifail\\.\\** **·**
+    2. Kopeerige fail IIS-i **\\** jaemüügiserveri saidi asukoha bin-kausta.
+    3. Registreeri laiendi CRT konfiguratsioonifaili muudatus.CRT Selle faili nimi on **commerceruntime.ext.config** **ja** see on IIS-i jaemüügiserveri saidi asukoha bin-kaustas.
 
         ``` xml
         <add source="assembly" value="Contoso.Commerce.Runtime.SalesTransactionSignatureSample.Messages" />
@@ -737,10 +737,10 @@ CRT Laienduskomponendid kaasatakse CRT näidiste hulka. Järgmiste protseduuride
 
 #### <a name="implement-the-proxy-code-for-offline-mode"></a>Võrguühenduseta režiimi puhvrikoodi juurutamine
 
-See osa on võrdne jaemüügiserveri kontrolleriga, kuid see laiendab kohalikku versiooni, mida kasutatakse CRT siis, kui klientrakendus ei ole ühendatud.
+See osa on võrdne jaemüügiserveri kontrolleriga, CRT kuid see laiendab kohalikku versiooni, mida kasutatakse siis, kui klientrakendus ei ole ühendatud.
 
-1. Kohandamisfailis muutke **jaotist** **@(RetailServerLibraryPathForProxyGeneration), et see kasutaks puhverserveri loomiseks uut** jaemüügiserveri assemblerit.
-2. Juurutage järgmised liidesemeetodid **klassis StoreOperationsManager.** Lisage esimese iteratsiooni jaoks järgmine kood:
+1. Kohandamisfailis **muutke** **jaotist @(RetailServerLibraryPathForProxyGeneration),** et see kasutaks puhverserveri loomiseks uut jaemüügiserveri assemblerit.
+2. Juurutage järgmised liidesemeetodid **klassis StoreOperationsManager**. Lisage esimese iteratsiooni jaoks järgmine kood:
 
     # <a name="application-update-4"></a>[Rakenduse värskendus 4](#tab/app-update-4)
 
@@ -790,16 +790,16 @@ See osa on võrdne jaemüügiserveri kontrolleriga, kuid see laiendab kohalikku 
 
     ---
 
-3. Puhvrikoodi uuesti loomiseks looge käsurealt kaust **Puhvrid, kasutades** käsku **msbuild /t:Rebuild.**
-4. Lahenda **projekti sõltuvus Proxies.RetailProxy:**
+3. Puhvrikoodi uuesti loomiseks looge **käsurealt** **kaust Puhvrid, kasutades käsku msbuild /t:Rebuild**.
+4. Lahenda projekti **sõltuvus Proxies.RetailProxy**:
 
     # <a name="application-update-4"></a>[Rakenduse värskendus 4](#tab/app-update-4)
 
-    Avatud **RetailSDK \\ Proxies \\ RetailProxy \\ Proxies.RetailProxy.csproj . Lisage lahendusele** projekt **RetailSDK \\ SampleExtensions \\ CommerceRuntime \\ Extensions.SalesTransactionSignatureSample \\ CommerceRuntime.Extensions.SalesTransactionSignatureSample projekt ja lisage projekti viide projektile** **RetailTransactionSignatureSample**. **·**
+    Avatud RetailSDK Proxies **RetailProxy\\ Proxies.RetailProxy.csproj, lisage lahendusele projekt RetailSDK\\ SampleExtensions\\ CommerceRuntime** Extensions.SalesTransactionSignatureSample **CommerceRuntime.Extensions.SalesTransactionSignatureSample \\\\ projekt ja lisage projekti viide projektile RetailTransactionSignatureSample\\\\**.**·** **·**
 
     # <a name="application-update-5-and-later"></a>[Rakenduse värskendus 5 ja uuem](#tab/app-update-5-and-later)
 
-    Avatud **RetailSDK \\ Proxies \\ RetailProxy \\ Proxies.RetailProxy.csproj. Lisage** **retailSDK \\ SampleExtensions \\ CommerceRuntime \\ Extensions.SalesTransactionSignatureSample.Messages \\ CommerceRuntime.Extensions.SalesTransactionSignatureSample.Messages project lahendusele ja lisage projekti viide projektile RetailProxy, et viidata** **·** **SalesTransactionSignatureSample.Messages.**
+    Avatud RetailSDK Proxies **RetailProxy\\ Proxies.RetailProxy.csproj. Lisage retailSDK\\ SampleExtensions\\ CommerceRuntime** Extensions.SalesTransactionSignatureSample.Messages CommerceRuntime.Extensions.SalesTransactionSignatureSample.Messages **\\ project lahendusele ja lisage projekti viide projektile RetailProxy\\\\, et viidata SalesTransactionSignatureSample.Messages\\.** **·** **·**
 
     # <a name="retail-731"></a>[Jaemüügi 7.3.1](#tab/retail-7-3-1)
 
@@ -823,7 +823,7 @@ See osa on võrdne jaemüügiserveri kontrolleriga, kuid see laiendab kohalikku 
 
     ---
 
-5. Liidese meetodite korrigeerimine **klassis StoreOperationsManager:**
+5. Liidese meetodite korrigeerimine **klassis StoreOperationsManager**:
 
     # <a name="application-update-4"></a>[Rakenduse värskendus 4](#tab/app-update-4)
 
@@ -884,10 +884,10 @@ See osa on võrdne jaemüügiserveri kontrolleriga, kuid see laiendab kohalikku 
 
 Täitke järgmine protseduur ainult juhul, kui kasutate jaemüügi 7.3.1 ja uuemat versiooni.
 
-1. Leidke **kaustas RetailSDK \\ SampleExtensions \\\\ RetailProxy.Extensions.SalesTransactionSignatureSample projekt** **RetailServer.Extensions.SalesTransactionSignatureSample** ja koostage see.
-2. Leidke **kaustas RetailProxy \\ RetailProxy.Extensions.SalesTransactionSignatureSample bin Debug assemblerifail \\\\** **Contoso.Commerce.RetailProxy.SalesTransactionSignatureSample.**
-3. Kopeerige assemblerifailid **\\ kohaliku** kliendi maakleri asukoha ext-kausta. CRT
-4. Registreerige jaemüügi puhvri muudatus laiendi konfiguratsioonifailis. Faili nimi on **RetailProxy.MPOSOffline.ext.config ja see on** kohaliku kliendi CRT maakleri asukoha all.
+1. **Leidke kaustas RetailSDK\\ SampleExtensions\\ RetailProxy.Extensions.SalesTransactionSignatureSample\\ projekt RetailServer.Extensions.SalesTransactionSignatureSample** **ja** koostage see.
+2. Leidke kaustas RetailProxy RetailProxy.Extensions.SalesTransactionSignatureSample bin Debug **\\ assemblerifail Contoso.Commerce.RetailProxy.SalesTransactionSignatureSample\\\\.** **·**
+3. Kopeerige assemblerifailid kohaliku **\\ kliendi maakleri asukoha ext-kausta** CRT.
+4. Registreerige jaemüügi puhvri muudatus laiendi konfiguratsioonifailis. Faili nimi on **RetailProxy.MPOSOffline.ext.config** ja see on kohaliku kliendi maakleri CRT asukoha all.
 
     ``` xml
     <add source="assembly" value="Contoso.Commerce.RetailProxy.SalesTransactionSignatureSample" />
@@ -895,12 +895,12 @@ Täitke järgmine protseduur ainult juhul, kui kasutate jaemüügi 7.3.1 ja uuem
 
 #### <a name="modern-pos-extension-components"></a>Tänapäevase kassa laienduse komponendid
 
-1. Avage lahendus **retailSdk \\ POS \\ ModernPOS.sln-sln ja veenduge, et seda** saab kompileerida tõrgeteta. Lisaks veenduge, et saate Microsoft'ilt Modern POS-i Visual Studio käivitada, kasutades **käsku** Käivita.
+1. Avage lahendus retailSdk **\\ POS\\ ModernPOS.sln-sln** ja veenduge, et seda saab kompileerida tõrgeteta. Lisaks veenduge, et saate Microsoft'ilt Modern POS-i käivitada Visual Studio, kasutades käsku **Käivita**.
 
     > [!NOTE]
     > Tänapäevane kassa ei tohi olla kohandatud. Peate kasutajakonto juhtelemendi (UAC) lubama ja vastavalt vajadusele desinstallima modern POS-i varem installitud eksemplarid.
 
-2. Kaasa järgmised olemasolevad lähtekoodi kaustad **pos.Extensions** projekti.
+2. Kaasa järgmised olemasolevad lähtekoodi kaustad pos.Extensions **projekti.**
 
     # <a name="application-update-4"></a>[Rakenduse värskendus 4](#tab/app-update-4)
 
@@ -938,7 +938,7 @@ Täitke järgmine protseduur ainult juhul, kui kasutate jaemüügi 7.3.1 ja uuem
 
     ---
 
-3. Lubage laienduste kompileerimine **failis tsconfig.json,** eemaldades välistamisloendist järgmised kaustad.
+3. Lubage laienduste kompileerimine failis **tsconfig.json**, eemaldades välistamisloendist järgmised kaustad.
 
     # <a name="application-update-4"></a>[Rakenduse värskendus 4](#tab/app-update-4)
 
@@ -976,7 +976,7 @@ Täitke järgmine protseduur ainult juhul, kui kasutate jaemüügi 7.3.1 ja uuem
 
     ---
 
-4. Lubage laienduste laadimine **laiendustes.json, lisades sobivasse kohta järgmised** read.
+4. Lubage laienduste laadimine laiendustes.json **·**, lisades sobivasse kohta järgmised read.
 
     # <a name="application-update-4"></a>[Rakenduse värskendus 4](#tab/app-update-4)
 
@@ -1065,15 +1065,15 @@ Täitke järgmine protseduur ainult juhul, kui kasutate jaemüügi 7.3.1 ja uuem
     ---
 
     > [!NOTE]
-    > Lisateavet ja näidiseid, mis näitavad, kuidas kaasata lähtekoodi kaustu ja lubada laiendite laadimist, vt readme.md juhised **müügikoha laienduste** projektis.
+    > Lisateavet ja näidiseid, mis näitavad lähtekoodi kaustade kaasamist ja laiendite laadimist, leiate readme.md **müügikoha laienduste projekti juhistest**.
 
 5. Saate lahenduse uuesti luua.
 6. Käivitage Modern POS siluris ja katsege funktsioone.
 
 ### <a name="cloud-pos-extension-components"></a>Pilve kassa laienduse komponendid
 
-1. Avage lahendus **retailSdk \\ POS \\ CloudPOS.sln-sn ja veenduge, et seda** saab kompileerida tõrgeteta.
-2. Kaasa järgmised olemasolevad lähtekoodi kaustad **pos.Extensions** projekti.
+1. Avage lahendus retailSdk **\\ POS\\ CloudPOS.sln-s ja** veenduge, et seda saab kompileerida tõrgeteta.
+2. Kaasa järgmised olemasolevad lähtekoodi kaustad **pos.Extensions projekti.**
 
     # <a name="application-update-4"></a>[Rakenduse värskendus 4](#tab/app-update-4)
 
@@ -1111,7 +1111,7 @@ Täitke järgmine protseduur ainult juhul, kui kasutate jaemüügi 7.3.1 ja uuem
 
     ---
 
-3. Lubage laienduste kompileerimine **failis tsconfig.json,** eemaldades välistamisloendist järgmised kaustad.
+3. Lubage laienduste kompileerimine failis **tsconfig.json**, eemaldades välistamisloendist järgmised kaustad.
 
     # <a name="application-update-4"></a>[Rakenduse värskendus 4](#tab/app-update-4)
 
@@ -1149,7 +1149,7 @@ Täitke järgmine protseduur ainult juhul, kui kasutate jaemüügi 7.3.1 ja uuem
 
     ---
 
-4. Lubage laienduste laadimine **laiendustes.json, lisades sobivasse kohta järgmised** read.
+4. Lubage laienduste laadimine laiendustes.json **·**, lisades sobivasse kohta järgmised read.
 
     # <a name="application-update-4"></a>[Rakenduse värskendus 4](#tab/app-update-4)
 
@@ -1238,24 +1238,24 @@ Täitke järgmine protseduur ainult juhul, kui kasutate jaemüügi 7.3.1 ja uuem
     ---
 
     > [!NOTE]
-    > Lisateavet ja näidiseid, mis näitavad, kuidas kaasata lähtekoodi kaustu ja lubada laiendite laadimist, vt readme.md juhised **müügikoha laienduste** projektis.
+    > Lisateavet ja näidiseid, mis näitavad lähtekoodi kaustade kaasamist ja laiendite laadimist, leiate readme.md **müügikoha laienduste projekti juhistest**.
 
 5. Saate lahenduse uuesti luua.
-6. Käivitage lahendus, kasutades **käsku Käivita** ja järgides Jaemüügi SDK kasutusjuhend.
+6. Käivitage lahendus, kasutades käsku **Käivita** ja järgides Jaemüügi SDK kasutusjuhend.
 7. Saate funktsiooni testida.
 
 ### <a name="set-up-required-parameters-in-headquarters"></a>Häälestage peakontoris nõutavad parameetrid.
 
-Lisateavet vt Norra [kassaraamatu](./emea-nor-cash-registers.md) funktsioonidest.
+Lisateavet vt Norra kassaraamatu [funktsioonidest](./emea-nor-cash-registers.md).
 
 ## <a name="production-environment"></a>Tootmiskeskkond
 
 Järgige neid samme Commerce'i komponente sisaldavate juurutatavate pakendite loomiseks ja nende pakendite rakendamiseks tootmiskeskkonnas.
 
-1. Viige lõpule selles teemas varasemas pilve kassa laienduse komponentide või [Modern](#cloud-pos-extension-components) [POS](#modern-pos-extension-components)-i laienduskomponentide jaotises toodud sammud.
-2. Tehke paketi konfiguratsioonifailides kausta **RetailSdk Assets all järgmised \\** muudatused:
+1. Viige lõpule selles artiklis varasemas [pilve kassa laienduse](#cloud-pos-extension-components)[komponentide või Modern POS-i](#modern-pos-extension-components) laienduskomponentide jaotises toodud sammud.
+2. Tehke paketi konfiguratsioonifailides kausta **RetailSdk Assets\\ all järgmised** muudatused:
 
-    1. Lisage **konfiguratsioonifailides commerceruntime.ext.config ja** **CommerceRuntime.MPOSOffline.Ext.config koostise** jaotisele **järgmised** read:
+    1. **Lisage konfiguratsioonifailides commerceruntime.ext.config** **ja CommerceRuntime.MPOSOffline.Ext.config** koostise jaotisele **järgmised** read:
 
         # <a name="application-update-4"></a>[Rakenduse värskendus 4](#tab/app-update-4)
 
@@ -1331,7 +1331,7 @@ Järgige neid samme Commerce'i komponente sisaldavate juurutatavate pakendite lo
 
         # <a name="application-update-4"></a>[Rakenduse värskendus 4](#tab/app-update-4)
 
-        **Konfiguratsioonifailis dllhost.exe.config lisage** konfiguratsioonijaotise **alamjaotisesse appSettings** järgmised **read**.
+        Konfiguratsioonifailis **dllhost.exe.config** lisage konfiguratsioonijaotise **alamjaotisesse appSettings** järgmised **read**.
 
         ``` xml
         <add key="RetailProxyAssemblyName" value="Contoso.Commerce.RetailProxy"/>
@@ -1340,7 +1340,7 @@ Järgige neid samme Commerce'i komponente sisaldavate juurutatavate pakendite lo
 
         # <a name="application-update-5-and-later"></a>[Rakenduse värskendus 5 ja uuem](#tab/app-update-5-and-later)
 
-        **Konfiguratsioonifailis dllhost.exe.config lisage** konfiguratsioonijaotise **alamjaotisesse appSettings** järgmised **read**.
+        Konfiguratsioonifailis **dllhost.exe.config** lisage konfiguratsioonijaotise **alamjaotisesse appSettings** järgmised **read**.
 
         ``` xml
         <add key="RetailProxyAssemblyName" value="Contoso.Commerce.RetailProxy"/>
@@ -1349,7 +1349,7 @@ Järgige neid samme Commerce'i komponente sisaldavate juurutatavate pakendite lo
 
         # <a name="retail-731"></a>[Jaemüügi 7.3.1](#tab/retail-7-3-1)
 
-        **Konfiguratsioonifailis RetailProxy.MPOSOffline.ext.config** lisage koostise jaotisesse **järgmised** read:
+        Konfiguratsioonifailis **RetailProxy.MPOSOffline.ext.config** lisage koostise jaotisesse järgmised **read**:
 
         ``` xml
         <add source="assembly" value="Contoso.Commerce.RetailProxy.SalesTransactionSignatureSample" />
@@ -1357,7 +1357,7 @@ Järgige neid samme Commerce'i komponente sisaldavate juurutatavate pakendite lo
 
         # <a name="retail-732-and-later"></a>[Jaemüügi 7.3.2 ja uuemad](#tab/retail-7-3-2)
 
-        **Konfiguratsioonifailis RetailProxy.MPOSOffline.ext.config** lisage koostise jaotisesse **järgmised** read:
+        Konfiguratsioonifailis **RetailProxy.MPOSOffline.ext.config** lisage koostise jaotisesse järgmised **read**:
 
         ``` xml
         <add source="assembly" value="Contoso.Commerce.RetailProxy.SalesTransactionSignatureSample" />
@@ -1365,7 +1365,7 @@ Järgige neid samme Commerce'i komponente sisaldavate juurutatavate pakendite lo
 
         # <a name="retail-735-and-later"></a>[Jaemüügi 7.3.5 ja uuemad](#tab/retail-7-3-5)
 
-        **Konfiguratsioonifailis RetailProxy.MPOSOffline.ext.config** lisage koostise jaotisesse **järgmised** read:
+        Konfiguratsioonifailis **RetailProxy.MPOSOffline.ext.config** lisage koostise jaotisesse järgmised **read**:
 
         ``` xml
         <add source="assembly" value="Contoso.Commerce.RetailProxy.SalesTransactionSignatureSample" />
@@ -1373,7 +1373,7 @@ Järgige neid samme Commerce'i komponente sisaldavate juurutatavate pakendite lo
 
         # <a name="retail-811-and-later"></a>[Jaemüügi 8.1.1 ja uuem](#tab/retail-8-1-1)
 
-        **Konfiguratsioonifailis RetailProxy.MPOSOffline.ext.config** lisage koostise jaotisesse **järgmised** read:
+        Konfiguratsioonifailis **RetailProxy.MPOSOffline.ext.config** lisage koostise jaotisesse järgmised **read**:
 
         ``` xml
         <add source="assembly" value="Contoso.Commerce.RetailProxy.SalesTransactionSignatureSample" />
@@ -1387,7 +1387,7 @@ Järgige neid samme Commerce'i komponente sisaldavate juurutatavate pakendite lo
 
         # <a name="application-update-4"></a>[Rakenduse värskendus 4](#tab/app-update-4)
 
-        Lisage järgmised read jaotisesse **&lt; ItemGroup Condition="@(RetailServerLibraryPathForProxyGeneration)" == &gt;** "".
+        Lisage järgmised read jaotisesse **&lt; ItemGroup Condition="@(RetailServerLibraryPathForProxyGeneration)" == ""&gt;**.
 
         ``` xml
         <RetailServerLibraryPathForProxyGeneration Include="$(SdkReferencesPath)\Contoso.RetailServer.SalesTransactionSignatureSample.dll"/>
@@ -1395,7 +1395,7 @@ Järgige neid samme Commerce'i komponente sisaldavate juurutatavate pakendite lo
 
         # <a name="application-update-5-and-later"></a>[Rakenduse värskendus 5 ja uuem](#tab/app-update-5-and-later)
 
-        Lisage järgmised read jaotisesse **&lt; ItemGroup Condition="@(RetailServerLibraryPathForProxyGeneration)" == &gt;** "".
+        Lisage järgmised read jaotisesse **&lt; ItemGroup Condition="@(RetailServerLibraryPathForProxyGeneration)" == ""&gt;**.
 
         ``` xml
         <RetailServerLibraryPathForProxyGeneration Include="$(SdkReferencesPath)\Contoso.RetailServer.SalesTransactionSignatureSample.dll"/>
@@ -1403,7 +1403,7 @@ Järgige neid samme Commerce'i komponente sisaldavate juurutatavate pakendite lo
 
         # <a name="retail-731"></a>[Jaemüügi 7.3.1](#tab/retail-7-3-1)
 
-        Lisage jaotisesse **ItemGroup järgmised** read, et kaasata jaemüügi puhvri laiendus juurutatavatesse pakettidesse:
+        Lisage jaotisesse **ItemGroup järgmised read**, et kaasata jaemüügi puhvri laiendus juurutatavatesse pakettidesse:
 
         ``` xml
         <ISV_RetailProxy_CustomizableFile Include="$(SdkReferencesPath)\Contoso.Commerce.RetailProxy.SalesTransactionSignatureSample.dll" />
@@ -1411,7 +1411,7 @@ Järgige neid samme Commerce'i komponente sisaldavate juurutatavate pakendite lo
 
         # <a name="retail-732-and-later"></a>[Jaemüügi 7.3.2 ja uuemad](#tab/retail-7-3-2)
 
-        Lisage jaotisesse **ItemGroup järgmised** read, et kaasata jaemüügi puhvri laiendus juurutatavatesse pakettidesse:
+        Lisage jaotisesse **ItemGroup järgmised read**, et kaasata jaemüügi puhvri laiendus juurutatavatesse pakettidesse:
 
         ``` xml
         <ISV_RetailProxy_CustomizableFile Include="$(SdkReferencesPath)\Contoso.Commerce.RetailProxy.SalesTransactionSignatureSample.dll" />
@@ -1419,7 +1419,7 @@ Järgige neid samme Commerce'i komponente sisaldavate juurutatavate pakendite lo
 
         # <a name="retail-735-and-later"></a>[Jaemüügi 7.3.5 ja uuemad](#tab/retail-7-3-5)
 
-        Lisage jaotisesse **ItemGroup järgmised** read, et kaasata jaemüügi puhvri laiendus juurutatavatesse pakettidesse:
+        Lisage jaotisesse **ItemGroup järgmised read**, et kaasata jaemüügi puhvri laiendus juurutatavatesse pakettidesse:
 
         ``` xml
         <ISV_RetailProxy_CustomizableFile Include="$(SdkReferencesPath)\Contoso.Commerce.RetailProxy.SalesTransactionSignatureSample.dll" />
@@ -1427,7 +1427,7 @@ Järgige neid samme Commerce'i komponente sisaldavate juurutatavate pakendite lo
 
         # <a name="retail-811-and-later"></a>[Jaemüügi 8.1.1 ja uuem](#tab/retail-8-1-1)
 
-        Lisage jaotisesse **ItemGroup järgmised** read, et kaasata jaemüügi puhvri laiendus juurutatavatesse pakettidesse:
+        Lisage jaotisesse **ItemGroup järgmised read**, et kaasata jaemüügi puhvri laiendus juurutatavatesse pakettidesse:
 
         ``` xml
         <ISV_RetailProxy_CustomizableFile Include="$(SdkReferencesPath)\Contoso.Commerce.RetailProxy.SalesTransactionSignatureSample.dll" />
@@ -1435,7 +1435,7 @@ Järgige neid samme Commerce'i komponente sisaldavate juurutatavate pakendite lo
 
         ---
 
-    2. Lisage jaotisesse **ItemGroup järgmised** read, et kaasata CRT laiendused juurutatavatesse pakettidesse:
+    2. Lisage jaotisesse **ItemGroup järgmised read**, et kaasata CRT laiendused juurutatavatesse pakettidesse:
 
         # <a name="application-update-4"></a>[Rakenduse värskendus 4](#tab/app-update-4)
 
@@ -1514,7 +1514,7 @@ Järgige neid samme Commerce'i komponente sisaldavate juurutatavate pakendite lo
 
         ---
 
-    3. Lisage jaotisesse **ItemGroup järgmised** read, et kaasata jaemüügiserveri laiend juurutatavatesse pakettidesse:
+    3. Lisage jaotisesse **ItemGroup järgmised read**, et kaasata jaemüügiserveri laiend juurutatavatesse pakettidesse:
 
         # <a name="application-update-4"></a>[Rakenduse värskendus 4](#tab/app-update-4)
 
@@ -1558,29 +1558,29 @@ Järgige neid samme Commerce'i komponente sisaldavate juurutatavate pakendite lo
         ---
 
 4. Muutke järgmisi faile, et kaasata Norra ressursifailid juurutatavatesse pakettidesse:
-    - Paketid \_ SharedPackagingProjectComponents\Sdk.ModernPos.Shared.csproj
+    - Paketid\_ SharedPackagingProjectComponents\Sdk.ModernPos.Shared.csproj
     - Pakendid\RetailServer\Sdk.RetailServerSetup.proj
   
-  - Faili **Sdk.ModernPos.Shared.csproj** jaoks 
+  - **Faili Sdk.ModernPos.Shared.csproj** jaoks 
     - Lisa rida jaotisse **ItemGroup**
     
         ``` xml
         <<File_name> Include="$(SdkReferencesPath)\nb-NO\*" />
         ```
     > [!Note]
-    > Ressursifaili <File_name>konto asemel täpsustage. Sama kehtib teiste alltoodud näidete kohta.
+    > Määrake <File_name> ressursifaili nimi. Sama kehtib teiste alltoodud näidete kohta.
  
-    - Lisa rida **jaotisesse Sihtkoha nimi = "CopyPackageFiles"**
+    - Lisa rida jaotisesse **Sihtkoha nimi = "CopyPackageFiles"**
        ``` xml
         <Copy SourceFiles="@(<File_name>)" DestinationFolder="$(OutputPath)content.folder\CustomizedFiles\ClientBroker\ext\nb-NO" SkipUnchangedFiles="true" />
         ```
   
-  - Faili **Sdk.RetailServerSetup.proj** jaoks 
+  - **Faili Sdk.RetailServerSetup.proj** jaoks 
     - Lisa rida jaotisse **ItemGroup**
         ``` xml
         <<File_name> Include="$(SdkReferencesPath)\nb-NO\*" />
         ```    
-    - Lisa rida **jaotisesse Sihtkoha nimi = "CopyPackageFiles"**
+    - Lisa rida jaotisesse **Sihtkoha nimi = "CopyPackageFiles"**
          ``` xml
         <Copy SourceFiles="@(<File_name>)" DestinationFolder="$(OutputPath)content.folder\RetailServer\Code\bin\ext\nb-NO" SkipUnchangedFiles="true" />
         ```    
@@ -1589,49 +1589,49 @@ Järgige neid samme Commerce'i komponente sisaldavate juurutatavate pakendite lo
 
     # <a name="application-update-4"></a>[Rakenduse värskendus 4](#tab/app-update-4)
 
-    Faili nimi on **Contoso.Commerce.Runtime.SalesTransactionSignatureSample.dll.config ja see on jaotises** **CommerceRuntime \\ Extensions.SalesTransactionSignatureSample \\ bin \\ Debug**.
+    Faili nimi on **Contoso.Commerce.Runtime.SalesTransactionSignatureSample.dll.config** **ja see on jaotises CommerceRuntime\\ Extensions.SalesTransactionSignatureSample\\ bin\\ Debug**.
 
     # <a name="application-update-5-and-later"></a>[Rakenduse värskendus 5 ja uuem](#tab/app-update-5-and-later)
 
-    Faili nimi on **Contoso.Commerce.Runtime.SalesTransactionSignatureSample.dll.config ja see on jaotises** **CommerceRuntime \\ Extensions.SalesTransactionSignatureSample \\ bin \\ Debug**.
+    Faili nimi on **Contoso.Commerce.Runtime.SalesTransactionSignatureSample.dll.config** **ja see on jaotises CommerceRuntime\\ Extensions.SalesTransactionSignatureSample\\ bin\\ Debug**.
 
     # <a name="retail-731"></a>[Jaemüügi 7.3.1](#tab/retail-7-3-1)
 
-    Faili nimi on **Contoso.Commerce.Runtime.SalesTransactionSignatureSample.dll.config ja see on jaotises** **CommerceRuntime \\ Extensions.SalesTransactionSignatureSample \\ bin \\ Debug**.
+    Faili nimi on **Contoso.Commerce.Runtime.SalesTransactionSignatureSample.dll.config** **ja see on jaotises CommerceRuntime\\ Extensions.SalesTransactionSignatureSample\\ bin\\ Debug**.
 
     # <a name="retail-732-and-later"></a>[Jaemüügi 7.3.2 ja uuemad](#tab/retail-7-3-2)
 
-    Faili nimi on **Contoso.Commerce.Runtime.SequentialSignatureRegister.dll.config ja see on jaotises** **Extensions.SequentialSignatureRegister \\ bin \\** Debug.
+    Faili nimi on **Contoso.Commerce.Runtime.SequentialSignatureRegister.dll.config** ja **see on jaotises Extensions.SequentialSignatureRegister\\ bin\\ Debug**.
 
     # <a name="retail-735-and-later"></a>[Jaemüügi 7.3.5 ja uuemad](#tab/retail-7-3-5)
 
-    Faili nimi on **Contoso.Commerce.Runtime.SequentialSignatureRegister.dll.config ja see on jaotises** **Extensions.SequentialSignatureRegister \\ bin \\** Debug.
+    Faili nimi on **Contoso.Commerce.Runtime.SequentialSignatureRegister.dll.config** ja **see on jaotises Extensions.SequentialSignatureRegister\\ bin\\ Debug**.
 
     # <a name="retail-811-and-later"></a>[Jaemüügi 8.1.1 ja uuem](#tab/retail-8-1-1)
 
-    Faili nimi on **Contoso.Commerce.Runtime.SequentialSignatureRegister.dll.config ja see on jaotises** **Extensions.SequentialSignatureRegister \\ bin \\** Debug.
+    Faili nimi on **Contoso.Commerce.Runtime.SequentialSignatureRegister.dll.config** ja **see on jaotises Extensions.SequentialSignatureRegister\\ bin\\ Debug**.
 
     ---
 
-6. Jaemüügiserveri konfiguratsioonifaili värskendamine. Failis **RetailSDK \\ Packages \\ RetailServer \\ Code web.config lisage laiendicomposition sektsiooni \\** järgmised **read**.
+6. Jaemüügiserveri konfiguratsioonifaili värskendamine. Failis **RetailSDK\\ Packages\\ RetailServer\\ Code\\ web.config** lisage **laiendicomposition** sektsiooni järgmised read.
 
     ``` xml
     <add source="assembly" value="Contoso.RetailServer.SalesTransactionSignatureSample" />
     ```
 
-7. Juurutatavate **pakendite loomiseks käivitage msbuild kogu** Retail SDK jaoks.
-8. Rakendage paketid Microsoft Dynamics elutsükli teenuste (LCS) kaudu või käsitsi. Lisateavet vt teemast [Juurutatavate pakendite](../dev-itpro/retail-sdk/retail-sdk-packaging.md) loomine.
+7. Juurutatavate **pakendite loomiseks käivitage msbuild** kogu Retail SDK jaoks.
+8. Rakendage paketid elutsükli Microsoft Dynamics teenuste (LCS) kaudu või käsitsi. Lisateavet vt teemast Juurutatavate [pakendite loomine](../dev-itpro/retail-sdk/retail-sdk-packaging.md).
 
 ### <a name="enable-the-digital-signature-in-offline-mode-for-modern-pos"></a>Digitaalallkirja lubamine Modern POS-i võrguühenduseta režiimis
 
 Modern POS-i võrguühenduseta režiimis digitaalallkirja lubamiseks peate järgima neid samme pärast Modern POS-i aktiveerimist uues seadmes.
 
 1. Logige teenusesse POS sisse.
-2. Andmebaasi ühenduse **oleku lehel** veenduge, et ühenduseta andmebaas on täielikult sünkroonitud. Kui välja Ootel **allalaadimised** väärtus on **0** (null), siis on andmebaas täielikult sünkroonitud.
+2. Andmebaasi ühenduse **oleku lehel** veenduge, et ühenduseta andmebaas on täielikult sünkroonitud. Kui välja Ootel allalaadimised **väärtus** on **0** (null), siis on andmebaas täielikult sünkroonitud.
 3. Logige müügikohast välja.
 4. Oodake, kuni võrguühenduseta andmebaas täielikult sünkroonitakse.
 5. Logige teenusesse POS sisse.
-6. Andmebaasi ühenduse **oleku lehel** veenduge, et ühenduseta andmebaas on täielikult sünkroonitud. Kui ootel kannete **väärtus võrguühenduseta andmebaasi väljal** on **0** (null), siis on andmebaas täielikult sünkroonitud.
+6. Andmebaasi ühenduse **oleku lehel** veenduge, et ühenduseta andmebaas on täielikult sünkroonitud. Kui ootel kannete väärtus **võrguühenduseta andmebaasi väljal** on **0** (null), siis on andmebaas täielikult sünkroonitud.
 7. Modern POS-i taaskäivitamine.
 
 

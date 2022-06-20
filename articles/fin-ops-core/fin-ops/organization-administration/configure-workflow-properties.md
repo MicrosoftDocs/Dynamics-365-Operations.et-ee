@@ -1,6 +1,6 @@
 ---
-title: Töövoo atribuutide konfigureerimine
-description: See teema selgitab, kuidas konfigureerida töövoo mitmesuguseid atribuute.
+title: Töövooatribuutide konfigureerimine
+description: See artikkel selgitab, kuidas konfigureerida töövoo erinevaid atribuute.
 author: ChrisGarty
 ms.date: 07/07/2020
 ms.topic: article
@@ -14,21 +14,21 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 81f73f187f75e40297f1f8462e9fff58a309f7f0
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: ec604ed9614b80b3b24c670911b4ea480d6131e2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069244"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876437"
 ---
-# <a name="configure-workflow-properties"></a>Töövoo atribuutide konfigureerimine
+# <a name="configure-workflow-properties"></a>Töövooatribuutide konfigureerimine
 
 [!include [banner](../includes/banner.md)]
 
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-See teema selgitab, kuidas konfigureerida töövoo mitmesuguseid atribuute.
+See artikkel selgitab, kuidas konfigureerida töövoo erinevaid atribuute.
 
 Avage töövoo töövoo atribuutide töövoo konfigureerimiseks. Klõpsake töövoo redaktori lõuendit ja seejärel suvandit **Atribuudid**, et avada leht **Atribuudid**. Seejärel saate järgmiste protseduuride abil konfigureerida töövoo mitmesuguseid atribuute.
 

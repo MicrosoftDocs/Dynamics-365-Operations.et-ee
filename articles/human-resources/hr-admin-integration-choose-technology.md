@@ -1,6 +1,6 @@
 ---
 title: Andme integratsioonitehnoloogia valimine
-description: See teema annab teavet Inimressursside hallatavate andmetega integreerimise kohta.
+description: See artikkel annab teavet Inimressursside hallatavate andmetega integreerimise kohta.
 author: twheeloc
 ms.date: 08/19/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 98c1c56b445ae426103d19f96cbf1a77891221ef
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 79aee04527eea5b673555f9c7de893a400a5c617
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8717135"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887790"
 ---
 # <a name="choose-a-data-integration-technology"></a>Andme integratsioonitehnoloogia valimine
 
@@ -30,7 +30,7 @@ ms.locfileid: "8717135"
 
 
 
-See teema annab teavet Dynamics 365 inimressursside hallatud andmetega integreerimiseks. Kirjeldatakse erinevaid integratsioonitehnoloogiaid, et aitata teil otsustada, millised tehnoloogiad teie vajadustele kõige paremini vastavad.
+See artikkel annab teavet Dynamics 365 inimressursside hallatud andmetega integreerimiseks. Kirjeldatakse erinevaid integratsioonitehnoloogiaid, et aitata teil otsustada, millised tehnoloogiad teie vajadustele kõige paremini vastavad.
 
 ## <a name="data-integration-background"></a>Andmete integratsiooni taust
 

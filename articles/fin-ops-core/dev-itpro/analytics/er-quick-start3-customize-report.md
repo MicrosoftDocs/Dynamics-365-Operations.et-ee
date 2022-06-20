@@ -1,6 +1,6 @@
 ---
 title: Elektroonilise aruandluse konfiguratsioonide kohandamine elektroonilise dokumendi loomiseks
-description: Selles teemas selgitatakse, kuidas kohandada Microsofti elektroonilise aruandluse (ER) konfiguratsioone, mida kasutatakse kohandatud elektroonilise dokumendi loomiseks.
+description: See artikkel selgitab, kuidas kohandada Microsofti pakutava elektroonilise aruandluse (ER) konfiguratsioone, mida kasutatakse kohandatud elektroonilise dokumendi loomiseks.
 author: NickSelin
 ms.date: 10/21/2020
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a7353d7d8149ff1316fbc0adc55b7e1050f443a8
-ms.sourcegitcommit: 5f7177b9ab192b5a6554bfc2f285f7cf0b046264
+ms.openlocfilehash: 30ef9a0fa9b61b1e2016f85407ec0ec8fb70a6c6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/30/2022
-ms.locfileid: "8661654"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854694"
 ---
 # <a name="customize-electronic-reporting-configurations-to-generate-an-electronic-document"></a>Elektroonilise aruandluse konfiguratsioonide kohandamine elektroonilise dokumendi loomiseks
 
@@ -32,9 +32,9 @@ Elektroonilise [aruandluse (ER) raamistik](general-electronic-reporting.md) või
 
 ## <a name="overview"></a>Ülevaade
 
-Selles teemas esitatud näites peate määratlema föderaalmaksu ID-koodi uue kohandatud atribuudina iga kliendi kohta, kellele te elektroonilist arvet esitate. Seetõttu peate kohandama praegu kasutusel oleva arve struktuuri, lisades uue üksuse, mis tuleb igas loodud e-arves täita maksukoodiga.
+Näiteks selles artiklis peate iga elektrooniliselt arveldatud kliendi uueks kohandatud atribuudiks määrama föderaalmaksu ID-koodi. Seetõttu peate kohandama praegu kasutusel oleva arve struktuuri, lisades uue üksuse, mis tuleb igas loodud e-arves täita maksukoodiga.
 
-Selle teema protseduurid selgitavad, kuidas süsteemiadministraatori, elektroonilise aruandluse arendaja või elektroonilise aruandluse funktsionaalse konsultanti rolli kasutajad saavad teie Finance'i eksemplaris järgmisi ülesandeid täita.
+Selles artiklis kirjeldatakse, kuidas süsteemiadministraatori, elektroonilise aruandluse arendaja või elektroonilise aruandluse funktsiooninõustaja rolliga kasutaja saab finantseksemplaris täita järgmisi ülesandeid:
 
 - [Minimaalsete ER-i parameetrite konfigureerimine, mis on vajalikud ER-i raamistiku kasutamiseks](#ConfigureER).
 - [Standardsete ER-i konfiguratsioonide algsete versioonide importimine, mida pakutakse e-arvete loomiseks](#ImportERConfigurations1).

@@ -1,6 +1,6 @@
 ---
 title: Hinnanguprofiilid
-description: Selles teemas kirjeldatakse, kuidas seadistada andmeid hinnangu gruppidele.
+description: See artikkel kirjeldab, kuidas seadistada hinnanguprofiilidele andmeid.
 author: Weijiesa
 ms.date: 10/30/2020
 ms.topic: business-process
@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: weijiesa
 ms.search.validFrom: 2020-10-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2512b79c87a4640a2b31b7699e85d743b451a14c
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 1f7408574187ddb099181bd2566c46c52307f603
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8676435"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850463"
 ---
 # <a name="rating-profiles"></a>Hinnanguprofiilid
 
@@ -56,7 +56,7 @@ Lehel **Hinnanguprofiilid** saate vaadata kõiki saadaolevaid hinnangu reegleid.
 1. Avage jaotis **Transpordihaldus \> Seadistus \> Vedajad \> Kättetoimetajad**.
 1. Valige nimekirjast vedaja.
 1. Hinnanguprofiili loomiseks valige **Hinnanguprofiilide** FastTab-is **Uus**.
-1. Seadistage uue hinnangu profiili väljad. Need väljad vastavad lehe **Hinnangu profiilid** väljadele, nagu on kirjeldatud selle teema eelmises jaotises.
+1. Seadistage uue hinnangu profiili väljad. Need väljad vastavad hinnanguprofiilide lehekülje **väljadele**, nagu on kirjeldatud selle artikli eelmises jaotises.
 
 > [!NOTE]
 > Lehel **Saadetise vedajad** loodud profiilid kuvatakse ka lehel **Hinnanguprofiilid**.

@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 Commercei eemaldatud või aegunud funktsioonid
-description: See teema kirjeldab funktsioone, mis on eemaldatud või plaanitakse eemaldada Dynamics 365 Commerce'ist.
+title: Dynamics 365 Commerce’i eemaldatud või iganenud funktsioonid
+description: See artikkel kirjeldab funktsioone, mis on eemaldatud või mida plaanitakse eemaldada Dynamics 365 Commerce.
 author: josaw
 ms.date: 04/27/2022
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 213ed2091b1f2359f2481b162cba07812b3ffe90
-ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
+ms.openlocfilehash: 2725ff2b8bfbaadbca1bc070e32cee7c5d2754be
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8649071"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910520"
 ---
-# <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Dynamics 365 Commercei eemaldatud või aegunud funktsioonid
+# <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Dynamics 365 Commerce’i eemaldatud või iganenud funktsioonid
 
 [!include [banner](../includes/banner.md)]
 
-See teema kirjeldab funktsioone, mis on eemaldatud või plaanitakse eemaldada Dynamics 365 Commerce'ist.
+See artikkel kirjeldab funktsioone, mis on eemaldatud või mida plaanitakse eemaldada Dynamics 365 Commerce.
 
 - *Eemaldatud* funktsioon pole tootes enam saadaval.
 - *Aegunud* funktsioon ei ole aktiivses arenduses ja vee võidakse tulevases värskenduses eemaldada.

@@ -1,6 +1,6 @@
 ---
 title: Mis on Dynamics 365 Supply Chain Managementi versioonis 10.0.13 uut või mida on muudetud (oktoober 2020)
-description: Selles teemas kirjeldatakse Dynamics 365 Supply Chain Management 10.0.13 uusi või muutunud funktsioone.
+description: See artikkel kirjeldab funktsioone, mis on uued või muutunud Dynamics 365 Supply Chain Management 10.0.13-s.
 author: kamaybac
 ms.date: 07/31/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 238dc7191b5d6cb044b2825e511bdc869d82ca20c03cfbc6129c22a010da3496
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3916e70e4c9e3bc4ceae3a82e58bc4b0697ddb9f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6766118"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888668"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10013-october-2020"></a>Mis on Dynamics 365 Supply Chain Managementi versioonis 10.0.13 uut või mida on muudetud (oktoober 2020)
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas loendatakse Microsoft Dynamics 365 Supply Chain Management 10.0.13 uusi või muutunud funktsioone. Selle versiooni number on 10.0.569 ja see on saadaval järgmiselt:
+See artikkel loetleb funktsioonid, mis on Microsoft Dynamics 365 Supply Chain Management 10.0.13 uued või muutunud. Selle versiooni number on 10.0.569 ja see on saadaval järgmiselt:
 
 - **Eelvaateversiooni välja andmine:** august 2020
 - **Üldine saadavus (enesevärskendus):** september 2020
@@ -53,9 +53,9 @@ See väljalase hõlmab järgmisi funktsioone. Funktsioonide pealkirjad on lingit
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Teenuse Finance and Operations rakenduste platvormivärskendused
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Finantside ja toimingute rakenduste platvormi värskendused
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.13 sisaldab platvormivärskendusi. Lisateavet leiate teemast [Finance and Operationsi rakenduste versiooni 10.0.13 platvormivärskendused (oktoober 2020)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-13.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.13 sisaldab platvormivärskendusi. Lisateavet vt Platvormi värskendustest [versioonile 10.0.13 Finance and Operations rakendustest (oktoober 2020)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-13.md).
 
 ### <a name="bug-fixes"></a>Veaparandused
 
@@ -69,12 +69,12 @@ Vaadake teemat [Dynamics 365: 2020. aasta väljalaske 2. voo plaan](/dynamics365
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Eemaldatud ja aegunud Supply Chain Managementi funktsioonid
 
-Teemas [Eemaldatud või aegunud Dynamics 365 Supply Chain Managementi funktsioonid](removed-deprecated-features-scm-updates.md) kirjeldatakse funktsioone, mis on eemaldatud või aegunud või kavandatakse eemaldada Supply Chain Managementist.
+Artikli [eemaldatud või taunitud Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) funktsioonid kirjeldavad funktsioone, mis on tarneahela halduses eemaldatud või plaaniliselt eemaldatud või taunitud.
 
 - *Eemaldatud* funktsioon pole tootes enam saadaval.
 - *Aegunud* funktsioon ei ole aktiivses arenduses ja vee võidakse tulevases värskenduses eemaldada.
 
-Enne mis tahes funktsiooni eemaldamist tootest, teavitatakse aegumisest 12 kuud ette teemas [Eemaldatud või aegunud Dynamics 365 Supply Chain Managementi funktsioonid](removed-deprecated-features-scm-updates.md).
+Enne mis tahes funktsiooni eemaldamist tootest teatatakse amortiseerumisest [Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) artikli 12 kuu jooksul enne eemaldamist eemaldatud või taunitud funktsioonides.
 
 Murranguliste muudatuste puhul, mis mõjutavad ainult kompileerimise aega, kuid on binaarselt ühilduvad liivakasti- ja tootmiskeskkondadega, on aegumise aeg vähem kui 12 kuud. Need on tavaliselt funktsionaalsed uuendused, mida tuleb teha kompilaatori jaoks.
 

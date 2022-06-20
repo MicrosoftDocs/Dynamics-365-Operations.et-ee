@@ -1,6 +1,6 @@
 ---
 title: Exceli mallidega ER-i konfiguratsioonide taaskasutamine Wordi vormingus aruannete loomiseks
-description: See teema kirjeldab, kuidas konfigureerida aruande vorminguid, mis loodi aruannete loomiseks Exceli töövihikuna, looma aruandeid Wordi dokumendina.
+description: See artikkel kirjeldab, kuidas aruande vorminguid, mis loodi aruannete loomiseks Exceli töövihikuna, saab konfigureerida aruannete loomiseks Wordi dokumentidena.
 author: NickSelin
 ms.date: 04/23/2021
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: de8286c7612cd588b28cf4667340374906962dde
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 1e0fe9ba55be435fb214c9d0885dd4ef942f5081
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8324058"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910382"
 ---
 # <a name="reuse-er-configurations-with-excel-templates-to-generate-reports-in-word-format"></a>Exceli mallidega ER-i konfiguratsioonide taaskasutamine Wordi vormingus aruannete loomiseks
 
@@ -43,7 +43,7 @@ Need protseduurid n funktsiooni jaoks, mis lisati rakenduse Dynamics 365 for Ope
 
 ## <a name="select-the-existing-er-report-configuration"></a>Olemasoleva elektroonilise aruandluse aruande konfiguratsiooni valimine
 
-1. Avage rakenduses Dynamics 365 Finance suvand **Organisatsiooni haldamine** \> **Tööruumid** \> **Elektrooniline aruandlus**.
+1. Rakenduses Dynamics 365 Finance minge organisatsiooni **halduse tööruumide** \> **elektroonilisele** \> **aruandlusele.**
 2. Veenduge, et konfiguratsiooni pakkuja **Litware, Inc.** on valitud **aktiivsena**. Kui ei, järgige samme tegevuse juhises [Konfiguratsiooni pakkujate loomine ja nende märkimine aktiivseks](er-configuration-provider-mark-it-active-2016-11.md).
 3. Valige **Aruandluse konfiguratsioonid**. Taaskasutate olemasolevat elektroonilise aruandluse konfiguratsiooni, mis oli mõeldud aruande väljundi loomiseks OPENXML-vormingus.
 4. Laiendage lehe **Konfiguratsioonid** vasakpoolsel paanil konfiguratsioonipuus suvandit **Maksemudel** ja valige **Töölehe aruande näide**.

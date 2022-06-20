@@ -1,6 +1,6 @@
 ---
 title: Finantsdimensioonid ja sisestamine
-description: Kontoplaani koostades ja häälestades peate arvestama sellega, kuidas erinevad komponendid dokumendi või tööraamatu sisestamisel koos toimivad. Need komponendid on konto struktuurid, täpsemad reeglid ning tasakaalustavad ja fikseeritud dimensioonid. Selles teemas selgitatakse, mis komponendid on ja kuidas need koos töötavad.
+description: Kontoplaani koostades ja häälestades peate arvestama sellega, kuidas erinevad komponendid dokumendi või tööraamatu sisestamisel koos toimivad. Need komponendid on konto struktuurid, täpsemad reeglid ning tasakaalustavad ja fikseeritud dimensioonid. See artikkel selgitab, mis on iga komponent ja kuidas komponendid koos töötavad.
 author: aprilolson
 ms.date: 08/04/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: a612f3b703349e1cffe300b75afd44e72ae63b2c
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: a165c4084a9f2075a54c99a7e4913a4e3c3dfe55
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722795"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910109"
 ---
 # <a name="financial-dimensions-and-posting"></a>Finantsdimensioonid ja sisestamine 
 
 [!include [banner](../includes/banner.md)]
 
-Kontoplaani koostades ja häälestades peate arvestama sellega, kuidas erinevad komponendid dokumendi või tööraamatu sisestamisel koos toimivad. Need komponendid on konto struktuurid, täpsemad reeglid ning tasakaalustavad ja fikseeritud dimensioonid. Selles teemas selgitatakse, mis komponendid on ja kuidas need koos töötavad.
+Kontoplaani koostades ja häälestades peate arvestama sellega, kuidas erinevad komponendid dokumendi või tööraamatu sisestamisel koos toimivad. Need komponendid on konto struktuurid, täpsemad reeglid ning tasakaalustavad ja fikseeritud dimensioonid. See artikkel selgitab, mis on iga komponent ja kuidas komponendid koos töötavad.
 
 ## <a name="chart-of-accounts-and-financial-dimension-components"></a>Kontoplaani ja finantsdimensiooni komponendid
 
@@ -46,7 +46,7 @@ Saate vajadusel määratleda tasakaalustava finantsdimensiooni. Lehel **Pearaama
 
 ### <a name="defaultfixed-financial-dimensions-on-the-main-account"></a>Põhikontosse vaikimisi/fikseeritud finantsdimensioonide sisestamine
 
-Vaikedimensioonid tulevad erinevatest kohtadest, näiteks põhikirjetest (nt kliendi või hankija kirjed), dokumendipäistest ja põhikontolt. Selles teemas käsitletakse põhikonto vaikedimensioone juriidilise isiku alusel. Saate määratleda, kas põhikonto väärtus on **Fikseerimata** või **Fikseeritud** iga finantsdimensiooni puhul, mida kasutatakse kõigis pearaamatu konto struktuurides. Kui finantsdimensioon on **Fikseerimata**, kasutatakse vaikeväärtust, mida saab üle kirjutada. See kehtib süsteemi kõigi, isegi põhikirjetest pärit vaikeväärtuste puhul. Kui finantsdimensiooni väärtus on **Fikseeritud**, rakendatakse alati seda väärtust, olenemata sellest, kas tegemist on mõne vaikeväärtuse või kasutaja poolt sisestatud väärtusega.
+Vaikedimensioonid tulevad erinevatest kohtadest, näiteks põhikirjetest (nt kliendi või hankija kirjed), dokumendipäistest ja põhikontolt. See artikkel keskendub põhikonto vaikedimensioonidele juriidilise isiku alusel. Saate määratleda, kas põhikonto väärtus on **Fikseerimata** või **Fikseeritud** iga finantsdimensiooni puhul, mida kasutatakse kõigis pearaamatu konto struktuurides. Kui finantsdimensioon on **Fikseerimata**, kasutatakse vaikeväärtust, mida saab üle kirjutada. See kehtib süsteemi kõigi, isegi põhikirjetest pärit vaikeväärtuste puhul. Kui finantsdimensiooni väärtus on **Fikseeritud**, rakendatakse alati seda väärtust, olenemata sellest, kas tegemist on mõne vaikeväärtuse või kasutaja poolt sisestatud väärtusega.
 
 ## <a name="order-in-which-default-dimensions-are-applied-during-posting"></a>Vaikedimensioonide rakendamise järjekord sisestamise ajal
 

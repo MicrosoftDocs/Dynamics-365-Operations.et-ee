@@ -1,6 +1,6 @@
 ---
 title: Varude kuluarvestuse KKK
-description: See teema vastab mõnele korduma kippuvale küsimusele varude kuluarvestuse kohta Microsoftis Dynamics 365 Supply Chain Management.
+description: See artikkel vastab mõnele korduma kippuvale küsimusele varude kuluarvestuse kohta Microsoftis Dynamics 365 Supply Chain Management.
 author: rachel-profitt
 ms.date: 05/03/2022
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2022-05-03
 ms.dyn365.ops.version: 10.0.27
-ms.openlocfilehash: 45f65bd4a5cfb9bd0c4eb03ceb56eca452f6ec95
-ms.sourcegitcommit: cbe9493d479f96f271d94599ec1b85131b26169f
+ms.openlocfilehash: 467839b1d0ca6788a92ae60d46686374d0a58046
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "8809302"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850840"
 ---
 # <a name="inventory-costing-faq"></a>Varude kuluarvestuse KKK
 
 [!include [banner](../includes/banner.md)]
 
-See teema vastab mõnele korduma kippuvale küsimusele varude kuluarvestuse kohta Microsoftis Dynamics 365 Supply Chain Management.
+See artikkel vastab mõnele korduma kippuvale küsimusele varude kuluarvestuse kohta Microsoftis Dynamics 365 Supply Chain Management.
 
 ## <a name="inventory-close-adjustments-and-recalculation"></a>Lao sulgemine, korrigeerimine ja ümberarvutamine
 
@@ -359,7 +359,7 @@ Soovitame teil sageli jälgida ja parandada negatiivset laovaru, kui teie organi
 
 ### <a name="do-i-have-to-create-a-new-item-if-my-inventory-has-gone-negative-and-i-use-moving-average"></a>Kas ma soovin luua uue kauba, kui minu varud on negatiivsed ja ma kasutan liikuvat keskmist?
 
-Ei. Kui teie organisatsioon võimaldab laovarudel füüsiliselt negatiivseks minna ja te kasutate laomudelina liikuvat keskmist, **kasutab süsteem varude ja laohalduse parameetrite lehel määratud varusid ja laohalduse parameetrites** määratud taavarude kulujärjestust, et määrata, kuidas määratakse kulu teie väljaminek. Üldiselt soovitame teil vältida laovarude füüsilist negatiivset olekut. Lisateavet vt selle teema jaotisest [Negatiivne](#negative-inventory) laovaru.
+Ei. Kui teie organisatsioon võimaldab laovarudel füüsiliselt negatiivseks minna ja te kasutate laomudelina liikuvat keskmist, **kasutab süsteem varude ja laohalduse parameetrite lehel määratud varusid ja laohalduse parameetrites** määratud taavarude kulujärjestust, et määrata, kuidas määratakse kulu teie väljaminek. Üldiselt soovitame teil vältida laovarude füüsilist negatiivset olekut. Lisateavet vt selle artikli jaotisest [Negatiivne](#negative-inventory) laovaru.
 
 ## <a name="not-stocked-products"></a>Ladustamata tooted
 
@@ -433,7 +433,7 @@ Kui füüsilise värskenduse sisestamise ja sissetuleku finantsilise värskendus
 
 ### <a name="when-i-use-moving-average-what-happens-if-there-is-an-issue-before-the-receipt"></a>Mis toimub liikuva keskmise kasutamisel, kui enne sissetulekut ilmneb väljaminev väljaminev?
 
-Tavaliselt võib enne sissetulekut olla väljaminek, kas seetõttu, et lubate kauba mudeligrupi füüsilist negatiivset laovaru või kuna väljaminek on varundatud. Lisateavet vt selle teema [jaotisest](#negative-inventory) Negatiivne laovaru.
+Tavaliselt võib enne sissetulekut olla väljaminek, kas seetõttu, et lubate kauba mudeligrupi füüsilist negatiivset laovaru või kuna väljaminek on varundatud. Lisateavet vt selle artikli jaotisest [Negatiivne](#negative-inventory) laovaru.
 
 Kui te kandeid varundate, soovitame hoolikalt kaaluda oma äriprotsessi ja operatsioone, et otsustada, kas on olemas võimalus seda stsenaariumi vältida. Kui varundate kande kaubale, mis kasutab liikuvat keskmist, määrab süsteem kandele praeguse liikuva keskmise. Hilisemaid väljaminek ei korrigeerita. Lisateavet liikuv keskmise kohta varundatud kannetega vt liikuvast [keskmisest](moving-average.md).
 

@@ -1,6 +1,6 @@
 ---
 title: Tagasimaksete töötlemine kõnekeskustes
-description: Selles teemas kirjeldatakse, kuidas genereeritakse kõnekeskuste kaudu maksete tagasimaksed, kui luuakse tagastused või tühistatakse tellimused või tellimusread.
+description: See artikkel selgitab, kuidas makse tagasimakseid luuakse kõnekeskuste kaudu, kui tagastused luuakse või kui tellimused või tellimuse read tühistatakse.
 author: hhainesms
 ms.date: 01/05/2020
 ms.topic: article
@@ -12,16 +12,16 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8d5bcf3a0d36e323ee96c1f37829a95b60f529bc
-ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
+ms.openlocfilehash: 330674a31dc59e99ffedb82d0896c64214562eb3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7944709"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880110"
 ---
 # <a name="refund-payment-processing-in-call-centers"></a>Tagasimaksete töötlemine kõnekeskustes
 
-Selles teemas kirjeldatakse, kuidas genereeritakse kõnekeskuste kaudu maksete tagasimaksed, kui luuakse tagastused või tühistatakse tellimused või tellimusread.
+See artikkel selgitab, kuidas makse tagasimakseid luuakse kõnekeskuste kaudu, kui tagastused luuakse või kui tellimused või tellimuse read tühistatakse.
 
 Kasutaja, kes loob kliendile tagastustellimuse kõnekeskuse kasutajana Microsoft Dynamics 365 Commerce'i peakontoris, kasutab lehte **Tagastustellimus**, et luua esialgne tagastatud kauba kood (RMA). RMA määratleb tooted, mida klient soovib tagastada või vahetada, ja loob lingitud tagastamise müügitellimuse, mille tellimuse tüüp on **Tagastatud tellimus**. Seda lingitud tagastustellimust kasutatakse tagastatud varude sisestamise ja mis tahes sisestatud kreeditarvete või tagasimaksete jälgimiseks.
 
@@ -33,7 +33,7 @@ Kõnekeskuse loogika määrab tagasimakse rea makseviisi, mis põhineb algses te
 
 Kõnekeskus lähtub tagastustellimusele rakendatava makseviisi määramisel algse tellimuse makseviisist. Allpool on teave selle kohta, kuidas toimib see protsess järgmiste algsete makseviiside korral.
 
-- **Tavaline** (sularaha) või **Tšekk** – kui loodud tagastustellimus viitab algsele tellimusele, mille eest maksmiseks kasutati tavalist (sularaha) või tšekipõhist makseviisi, viitab kõnekeskuse rakendus konfiguratsioonidele lehel **Kõnekeskuse tagasimakseviisid**. See leht võimaldab organisatsioonidel määrata tellimuse vääringu alusel seda, kuidas väljastatakse tagasimakseid klientidele tellimuste eest, mille eest algselt tasumiseks kasutati tavalist või tšekipõhist maksetüüpi. Kõnekeskuse **tagasimakse meetodite leht võimaldab** organisatsioonil valida ka selle, kas kliendile tuleb saata süsteemi loodud tagasimakse kontroll. Nendes stsenaariumides viitab kõnekeskuse loogika tagastustellimuse vääringule ja kasutab seejärel tagastamise müügitellimuse tagasimakse rea loomiseks väljal **Jaemüügi makseviis** toodud väärtust selle vääringu kohta. Hiljem lingitakse vääringuga müügireskontro (AR) kliendi maksetööleht, mis kasutab vastendatud AR-makseviisi.
+- **Tavaline** (sularaha) või **Tšekk** – kui loodud tagastustellimus viitab algsele tellimusele, mille eest maksmiseks kasutati tavalist (sularaha) või tšekipõhist makseviisi, viitab kõnekeskuse rakendus konfiguratsioonidele lehel **Kõnekeskuse tagasimakseviisid**. See leht võimaldab organisatsioonidel määrata tellimuse vääringu alusel seda, kuidas väljastatakse tagasimakseid klientidele tellimuste eest, mille eest algselt tasumiseks kasutati tavalist või tšekipõhist maksetüüpi. Kõnekeskuse **tagasimakse meetodite** leht võimaldab organisatsioonil valida ka selle, kas kliendile tuleb saata süsteemi loodud tagasimakse kontroll. Nendes stsenaariumides viitab kõnekeskuse loogika tagastustellimuse vääringule ja kasutab seejärel tagastamise müügitellimuse tagasimakse rea loomiseks väljal **Jaemüügi makseviis** toodud väärtust selle vääringu kohta. Hiljem lingitakse vääringuga müügireskontro (AR) kliendi maksetööleht, mis kasutab vastendatud AR-makseviisi.
 
     Järgmisel joonisel on toodud konfiguratsioon sellise stsenaariumi korral, kus klient tagastab tooted, mis pärinevad USD vääringuga lingitud müügitellimusest, ja mille eest algselt tasumiseks kasutati tavalist või tšekipõhist maksetüüpi. Selles stsenaariumis väljastatakse kliendile tagasimakse süsteemi genereeritud tagasimaksetšeki kaudu. AR-makseviis **REF-CHK** on konfigureeritud tagasimaksetšeki maksetüübina.
 
@@ -92,7 +92,7 @@ Suvandi **Rakenda krediit** väärtus **Jah** rakendub ainult siis, kui tagastus
 
 ## <a name="payment-overrides-for-call-center-returns"></a>Kõnekeskuse tagastuste maksete alistamised
 
-Kuigi kõnekeskuse loogika määrab tagasimakse makseviisi süstemaatiliselt selles teemas ülalpool kirjeldatud viisil, võivad kasutajad mõnikord soovida neid makseid alistada. Näiteks võib kasutaja muuta või eemaldada olemasolevaid tagasimakseridu ja rakendada uusi makseridu. Süsteemi arvutatud tagasimakseid saavad muuta ainult kasutajad, kellel on vajalikud alistamisload. Neid õigusi saab konfigureerida Jaemüügi ja kaubanduse lehel **Lubade alistamine**. Tagasimakse alistamiseks peab kasutaja olema lingitud turberolliga, kus lehe **Lubade alistamine** suvandi **Luba alternatiivne makse** väärtuseks on määratud **Jah**.
+Kuigi kõnekeskuse loogika määrab süsteemselt tagasimakse makseviisi viisil, mida kirjeldatakse selles artiklis, võivad kasutajad mõnikord soovida neid makseid alistada. Näiteks võib kasutaja muuta või eemaldada olemasolevaid tagasimakseridu ja rakendada uusi makseridu. Süsteemi arvutatud tagasimakseid saavad muuta ainult kasutajad, kellel on vajalikud alistamisload. Neid õigusi saab konfigureerida Jaemüügi ja kaubanduse lehel **Lubade alistamine**. Tagasimakse alistamiseks peab kasutaja olema lingitud turberolliga, kus lehe **Lubade alistamine** suvandi **Luba alternatiivne makse** väärtuseks on määratud **Jah**.
 
 ![Suvand Luba alternatiivne makse lehel Lubade alistamine.](media/overridepermissions.png)
 

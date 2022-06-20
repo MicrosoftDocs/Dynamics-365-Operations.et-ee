@@ -1,6 +1,6 @@
 ---
-title: Varasematest versioonidest eemaldatud või aegunud funktsioonid
-description: Selle teema all kirjeldatakse funktsioone, mis on eemaldatud või mis olid planeeritud eemaldamiseks teenusest Dynamics 365 for Finance and Operations ja selle varasemast väljalaskest.
+title: Varasemate versioonide eemaldatud või iganenud funktsioonid
+description: See artikkel kirjeldab funktsioone, mis on eemaldatud või mida planeeriti eemaldamiseks eelmistest Dynamics 365 for Finance and Operations väljalasetest.
 author: sericks007
 ms.date: 02/16/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6dfe1cf9d3d67c6b65f64248d48a2e7420a47c93
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 2d8c79057c157f9f0244ea11ad5c3563dcdb21a5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063233"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8866181"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Varasemate versioonide eemaldatud või iganenud funktsioonid
 
@@ -28,16 +28,16 @@ ms.locfileid: "8063233"
 
 
 > [!IMPORTANT]
-> Seda teemat enam ei uuendata. Finance and Operationsi rakendustest eemaldatud või aegunud funktsioonide praeguse loendi vaatamiseks otsige **sisu "Eemaldatud või aegunud funktsioonid"**, mis on seotud teie rakendusega.
+> Seda artiklit enam ei uuendata. Finantside ja toimingute rakendustest eemaldatud või taunitud funktsioonide praeguse loendi otsimine sisust "**Eemaldatud või taunitud funktsioonid", mis on seotud rakendusega,** mida kasutate.
 
-Selle teema all kirjeldatakse funktsioone, mis on eemaldatud või mis olid planeeritud eemaldamiseks tootest Dynamics 365 for Finance and Operations ja selle varasematest väljalasetest.
+See artikkel kirjeldab funktsioone, mis on selle toote eelmistest väljalasetest eemaldatud Dynamics 365 for Finance and Operations või taunitud.
 
 - *Eemaldatud* funktsioon pole tootes enam saadaval.
 - *Aegunud* funktsioon ei ole aktiivses arenduses ja vee võidakse tulevases värskenduses eemaldada.
 
 See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võtta. 
 
-Üksikasjalikku teavet rakenduste Finance and Operations objektide kohta leiate tehnilistest [teatmeteostest](/dynamics/s-e/global/axtechrefrep_61). Saate võrrelda nende aruannete erinevaid versioone, et saada teavet objektide kohta, mis on muutunud või eemaldatud finance and Operationsi rakenduste igas versioonis.
+Finantside ja toimingute rakenduste objektide üksikasjaliku teabe leiate tehnilistest [viitearuannetest](/dynamics/s-e/global/axtechrefrep_61). Saate võrrelda nende aruannete erinevaid versioone, et saada teavet objektide kohta, mida on igas Finantsi ja operatsioonide rakenduste versioonis muudetud või eemaldatud.
 
 ## <a name="finance-1007-with-platform-update-31"></a>Finance 10.0.7 koos platvormivärskendusega 31
 
@@ -84,7 +84,7 @@ See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võ
 | **Juurutamissuvand**              | Kõik |
 | **Olek**                         | Aegunud: 1. oktoobrist 2020, me ei plaani enam toetada **setUtcString ()** meetodit. Arendajad peaksid kasutama hoopis **setUtcDateTime ()** meetodit. |
 
-### <a name="blocklist-report-it--feature-reference-it-00001"></a>Plokkloendi aruanne (IT) – funktsiooniviite IT-00001
+### <a name="blocklist-report-it--feature-reference-it-00001"></a>Blokiloendi aruanne (IT) – funktsiooni IT-00001
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
@@ -302,7 +302,7 @@ Arendaja saab manustatud juhtimismõõdikuid (KPI-d) Visual Studio kaudu modelle
 | **Asendatud teise funktsiooniga?**   | See hoiatus asendatakse tulevikus kompileerimistõrkega. |
 | **Mõjutatud tootealad**         | Visual Studio arendustööriistad |
 | **Juurutamissuvand**              | Kõik |
-| **Olek**                         | Aegunud: hoiatus on kompileerimisaja tõrge, mis on seotud Finance and Operationsi rakenduste versiooni 10.0.11 platvormivärskendustega. |
+| **Olek**                         | Taunitud: hoiatus on kompileerimisaja tõrge platvormi värskendustega finantside ja toimingute rakenduste versioonile 10.0.11. |
 
 #### <a name="complete-list"></a>Täielik loend
 Aegunud API-de täielikule loendile juurdepääsuks vaadake jaotist [Meetodite ja metaandmeelementide aegumine](deprecation-deletion-apis.md).
@@ -889,7 +889,7 @@ Töövoog töötaja eesmärkide loomise haldamiseks on üks mitmest töövoost, 
 
 ### <a name="aif-axd-and-axbc-integrations"></a>AIF, AxD ja AxBC integratsioonid
 
-Rakenduste integreerimise raamistikus (AIF) saab vahetada andmeid välissüsteemidega äriloogika kaudu, mis on näidatud teenustena. Dynamics AX sisaldab teenuseid, mis põhinevad dokumentidel ja .NET Business Connectoril (AxBC). Dokument luuakse XML-i abil. XML sisaldab päiseteavet, mis lisatakse *sõnumi* loomiseks, mille saab Dynamics AX-i või sealt välja saata. Dokumentide näites on müügitellimused ja ostutellimused. Kuid peaaegu igasugune üksus (nt klient) võib olla kajastatud dokumendiga. Dokumentidel põhinevad teenused kasutavad klasse **Axd \<Document\>**.
+Rakenduste integreerimise raamistikus (AIF) saab vahetada andmeid välissüsteemidega äriloogika kaudu, mis on näidatud teenustena. Dynamics AX sisaldab teenuseid, mis põhinevad dokumentidel ja .NET Business Connector (AxBC). Dokument luuakse XML-i abil. XML sisaldab päiseteavet, mis lisatakse *sõnumi* loomiseks, mille saab Dynamics AX-i või sealt välja saata. Dokumentide näites on müügitellimused ja ostutellimused. Kuid peaaegu igasugune üksus (nt klient) võib olla kajastatud dokumendiga. Dokumentidel põhinevad teenused kasutavad klasse **Axd \<Document\>**.
 
 |  &nbsp; | &nbsp; |
 |------------|--------------------|

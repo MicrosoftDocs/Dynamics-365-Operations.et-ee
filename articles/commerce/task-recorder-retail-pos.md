@@ -1,6 +1,6 @@
 ---
 title: Tegevuse salvestaja ning spikker Retail Modern POS-i (MPOS) ja pilvekassa jaoks
-description: Selles teemas kirjeldatakse tegevuse salvestaja kasutamist Retail Modern POS-is (MPOS) ja pilvekassas.
+description: See artikkel kirjeldab, kuidas kasutada Task Recorderit ja Retail Modern POS Cloud POS-i.
 author: mugunthanm
 ms.date: 06/19/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: aedf18ef8b3d7266f3e5c7acd676241f9ec8b900f061f5363cd8d581062e83ed
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f9f3e17a6c67dc1cc1d4ba423ce258f2ed1d1ec0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730751"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847596"
 ---
 # <a name="task-recorder-and-help-for-retail-modern-pos-mpos-and-cloud-pos"></a>Tegevuse salvestaja ning spikker Retail Modern POS-i (MPOS) ja pilvekassa jaoks
 
 [!include [banner](includes/banner.md)]
 
-Selles teemas kirjeldatakse tegevuse salvestaja kasutamist Retail Modern POS-is (MPOS) ja pilvekassas.
+See artikkel kirjeldab, kuidas kasutada Task Recorderit ja Retail Modern POS Cloud POS-i.
 
 ## <a name="overview"></a>Ülevaade
 
@@ -139,7 +139,7 @@ Oma kohandatud tegevuse salvestiste kuvamiseks Retail Modern POS-i ja pilvekassa
 
 [![Spikri nupp.](./media/help.jpg)](./media/help.jpg)
 
-Kui klõpsate otsingutulemustes valikut Tegevuse juhis, saate vaadata toiminguid spikriteemana või eksportida toimingud Wordi dokumenti.
+Kui klõpsate otsingutulemustes toimingujuhendil, saate kas kuvada sammud spikri artiklina või eksportida sammud Wordi dokumenti.
 
 > [!NOTE]
 > Retail Modern POS-i ja pilvekassa spikker ei kuva tegevusjuhiseid selle põhjal, millisel vormil olete või millist toimingut teete. Protsessi nimi tuleb sisestada otsinguväljale ja klõpsata siis nuppu **Otsing**.

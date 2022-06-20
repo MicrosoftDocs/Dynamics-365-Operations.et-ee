@@ -1,6 +1,6 @@
 ---
 title: Tööriista Regression Suite Automation Tool seadistamise ja installimise õppetükk
-description: See teema on õppetükk, milles näidatakse, kuidas seadistada installida tööriista Regression suite automation tool (RSAT).
+description: See artikkel on õppetükk, mis näitab, kuidas regressionkomplekti automatiseerimistööriista (RSAT) seadistada ja installida.
 author: tonyafehr
 ms.date: 09/20/2019
 ms.topic: article
@@ -14,16 +14,16 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2019-05-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 5dcdd14f54b9c0ad39794ff98ede29332c246513
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: ec4ae765aaac038e6c7eff11403fb21ebd27fc2c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781987"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858586"
 ---
 # <a name="set-up-and-install-regression-suite-automation-tool-tutorial"></a>Tööriista Regression Suite Automation Tool seadistamise ja installimise õppetükk
 
-See teema on õppetükk, mis aitab seadistada RSAT-d ja selle kasutamisega seotud tööriistu ning alustada nende kasutamist.
+See artikkel on õppetükk, mis aitab teil saada seadistust ja alustada RSAT-iga ning RSAT-iga seostatud tööriistadega.
 
 [!include [banner](../../includes/banner.md)]
 
@@ -40,10 +40,10 @@ See teema on õppetükk, mis aitab seadistada RSAT-d ja selle kasutamisega seotu
 
 ### <a name="prerequisites"></a>Eeltingimused
 
-- Selle õppetüki jaoks on vaja keskkonda, kus töötab Microsoft Dynamics 365 for Finance and Operations i versioon 10.0 (aprill 2019) või uuem versioon. Klientide jaoks, kes kasutavad Microsoft Dynamics 365 for Finance and Operations i, Enterprise edition 7.3, toetatakse ka platvormivärskendust 20 (PU20) või uuemat versiooni.
+- Selle õppetüki jaoks on vaja keskkonda, kus töötab Microsoft Dynamics 365 for Finance and Operationsi versioon 10.0 (aprill 2019) või uuem versioon. Klientide jaoks, kes kasutavad Microsoft Dynamics 365 for Finance and Operationsi, Enterprise edition 7.3, toetatakse ka platvormivärskendust 20 (PU20) või uuemat versiooni.
 - Kasutajal peavad olema selle keskkonna administraatoriõigused.
-- Teil peab olema juurdepääs kliendi rentniku LCS-ile ja Azure DevOps ile (varem Microsoft Visual Studio Team Services \[ VSTS\]).
-- Kasutajal, kes loob ja haldab testkomplekte, peab olema Azure DevOps i katseplaanide või katsehalduri litsents. Katseplaanidele annavad juurdepääsu ka järgmised litsentsid.
+- Teil peab olema juurdepääs kliendi rentniku LCS-ile ja Azure DevOpsile (varem Microsoft Visual Studio Team Services \[VSTS\]).
+- Kasutajal, kes loob ja haldab testkomplekte, peab olema Azure DevOpsi katseplaanide või katsehalduri litsents. Katseplaanidele annavad juurdepääsu ka järgmised litsentsid.
     - Visual Studio ettevõtte litsents
     - Visual Studio Test Professionali litsents
     - MSDN-i platvormide tellija litsents
@@ -54,14 +54,14 @@ See teema on õppetükk, mis aitab seadistada RSAT-d ja selle kasutamisega seotu
 
 ### <a name="user-eligibility"></a>Kasutaja sobivus
 
-Veenduge, et kasutaja oleks loodud Azure DevOps is ja tal oleks tellimustase, mis annab juurdepääsu Azure’i katseplaanidele. Azure DevOps i katseplaanide litsentsi on vaja vaid siis, kui kasutaja loob ja haldab katsejuhtumeid (ehk kõikidel RSAT kasutajatel seda litsentsi vaja pole). Teavet litsentsi nõudmiste kohta vt teemast [Litsentsi nõudmised](/azure/devops/test/manual-test-permissions#license-requirements).
+Veenduge, et kasutaja oleks loodud Azure DevOpsis ja tal oleks tellimustase, mis annab juurdepääsu Azure’i katseplaanidele. Azure DevOpsi katseplaanide litsentsi on vaja vaid siis, kui kasutaja loob ja haldab katsejuhtumeid (ehk kõikidel RSAT kasutajatel seda litsentsi vaja pole). Teavet litsentsi nõudmiste kohta vt teemast [Litsentsi nõudmised](/azure/devops/test/manual-test-permissions#license-requirements).
 
-### <a name="create-a-new-azure-devops-project"></a>Uue Azure DevOps i projekti loomine
+### <a name="create-a-new-azure-devops-project"></a>Uue Azure DevOpsi projekti loomine
 
 RSAT kasutab Azure DevOpsi testjuhtumi ja testkomplekti halduseks, aruandluseks ja testkäivituse tulemuste uurimiseks.
 
 > [!NOTE]
-> Võite kasutada olemasolevat Azure DevOps i projekti. Kuid kui olemasolev Azure DevOps i projekt on seadistatud nii, et sellel on kohandatud mall, saate tõrke „VSTS-i sünkroonimistõrge”, kui sünkroonite testjuhtumeid äriprotsesside modelleerijast (BPM) Azure DevOps i (vt jaotist [BPM-st Azure DevOps i sünkroonimise testimine](#test-the-synchronization-from-bpm-to-azure-devops)). Kui kohandatud malli korral on järgitud järgmisi parimaid tavasid, saate sünkroonida testjuhtumid Azure DevOps i. (Parimad tavad on loendatud tõrketeates.)
+> Võite kasutada olemasolevat Azure DevOpsi projekti. Kuid kui olemasolev Azure DevOpsi projekt on seadistatud nii, et sellel on kohandatud mall, saate tõrke „VSTS-i sünkroonimistõrge”, kui sünkroonite testjuhtumeid äriprotsesside modelleerijast (BPM) Azure DevOpsi (vt jaotist [BPM-st Azure DevOpsi sünkroonimise testimine](#test-the-synchronization-from-bpm-to-azure-devops)). Kui kohandatud malli korral on järgitud järgmisi parimaid tavasid, saate sünkroonida testjuhtumid Azure DevOpsi. (Parimad tavad on loendatud tõrketeates.)
 
 - Ärge kustutage ühtegi tööüksuse tüüpi või valmiskujul välja.
 - Ärge kustutage ühtegi tööüksuse tüübi olekut.
@@ -69,10 +69,10 @@ RSAT kasutab Azure DevOpsi testjuhtumi ja testkomplekti halduseks, aruandluseks 
 
 ![Tõrketeade parimate tavade loendiga.](./media/setup_rsa_tool_02.png)
 
-Muidu soovitame selle õppetüki jaoks luua uue Azure DevOps i projekti. Lisateavet vt teemast [Probleemid BPM-i sünkroonimisel kohandatud Azure DevOps i (VSTS) protsessimalliga](https://blogs.msdn.microsoft.com/lcs/2018/11/28/issues-when-syncing-to-bpm-using-a-custom-azure-devops-vsts-process-template/).
+Muidu soovitame selle õppetüki jaoks luua uue Azure DevOpsi projekti. Lisateavet vt teemast [Probleemid BPM-i sünkroonimisel kohandatud Azure DevOpsi (VSTS) protsessimalliga](https://blogs.msdn.microsoft.com/lcs/2018/11/28/issues-when-syncing-to-bpm-using-a-custom-azure-devops-vsts-process-template/).
 
-1. Avage Azure DevOps i URL (`https://dev.azure.com/<Azure DevOps Name>`).
-2. Valige suvand **Projekti loomine** Azure DevOps i lehelt ülevalt paremalt nurgast.
+1. Avage Azure DevOpsi URL (`https://dev.azure.com/<Azure DevOps Name>`).
+2. Valige suvand **Projekti loomine** Azure DevOpsi lehelt ülevalt paremalt nurgast.
 
     ![Projekti loomise nupp.](./media/setup_rsa_tool_03.png)
 
@@ -86,9 +86,9 @@ Muidu soovitame selle õppetüki jaoks luua uue Azure DevOps i projekti. Lisatea
 
 ### <a name="create-a-personal-access-token"></a>Isikliku pääsutõendi loomine
 
-Selles õppetükis kasutate LCS-i äriprotsessi modelleerijat (BPM) testjuhtumi teegi loomiseks ja testjuhtumite loomiseks Azure DevOps iga. Vajate isiklikku pääsutõendit BPM-i sünkroonimiseks Azure DevOps iga.
+Selles õppetükis kasutate LCS-i äriprotsessi modelleerijat (BPM) testjuhtumi teegi loomiseks ja testjuhtumite loomiseks Azure DevOpsiga. Vajate isiklikku pääsutõendit BPM-i sünkroonimiseks Azure DevOpsiga.
 
-1. Valige profiili ikoon Azure DevOps i projekti lehe ülevalt paremalt nurgast ja seejärel valige suvand **Turve**.
+1. Valige profiili ikoon Azure DevOpsi projekti lehe ülevalt paremalt nurgast ja seejärel valige suvand **Turve**.
 
     ![Turbe käsk.](./media/setup_rsa_tool_05.png)
 
@@ -111,7 +111,7 @@ Selles õppetükis kasutate LCS-i äriprotsessi modelleerijat (BPM) testjuhtumi 
 
 ## <a name="configure-the-lcs-project"></a>LCS-i projekti konfigureerimine
 
-Testide ülemteegi jaoks on vaja teenuse Lifecycle Services (LCS) projekti. LCS äriprotsesside modelleerijat (BPM) kasutatakse testjuhtumite ülemteegina. BPM-i kasutatakse testteekide haldamiseks ja jaotamiseks LCS-i projektides. Näiteks testteeke loov Microsofti partner või sõltumatu tarkvarahankija (ISV) väljastab testteegid BPM-i teekidena. BPM-is on testjuhtumid korraldatud äriprotsessi järgi. BPM ei määratle testi läbimise täitmisjärjestust või -sagedust. Neid üksikasju hallatakse Azure DevOps i, nagu on kirjeldatud selles teemas allpool.  
+Testide ülemteegi jaoks on vaja teenuse Lifecycle Services (LCS) projekti. LCS äriprotsesside modelleerijat (BPM) kasutatakse testjuhtumite ülemteegina. BPM-i kasutatakse testteekide haldamiseks ja jaotamiseks LCS-i projektides. Näiteks testteeke loov Microsofti partner või sõltumatu tarkvarahankija (ISV) väljastab testteegid BPM-i teekidena. BPM-is on testjuhtumid korraldatud äriprotsessi järgi. BPM ei määratle testi läbimise täitmisjärjestust või -sagedust. Neid üksikasju hallatakse Azure DevOps selles artiklis allpool kirjeldatud viisil.  
 
 LCS-i projekti jaoks saate kasutada olemasolevat kliendi juurutus- või partneriprojekti.
 
@@ -129,9 +129,9 @@ LCS-i projekti jaoks saate kasutada olemasolevat kliendi juurutus- või partneri
 
     ![Keele-eelistuse vahekaart kasutajasätetes.](./media/setup_rsa_tool_10.png)
 
-### <a name="configure-lcs-to-connect-to-the-azure-devops-project"></a>LCS-i konfigureerimine ühenduse loomiseks Azure DevOps i projektiga
+### <a name="configure-lcs-to-connect-to-the-azure-devops-project"></a>LCS-i konfigureerimine ühenduse loomiseks Azure DevOpsi projektiga
 
-Kui lõite varem uue Azure DevOps i projekti, konfigureerige LCS-i projekt sellega ühendumiseks. Kui LCS-i projekt on juba Azure DevOps i projekti ühendatud, võite minna edasi järgmisse jaotisesse.
+Kui lõite varem uue Azure DevOpsi projekti, konfigureerige LCS-i projekt sellega ühendumiseks. Kui LCS-i projekt on juba Azure DevOpsi projekti ühendatud, võite minna edasi järgmisse jaotisesse.
 
 1. Minge LCS-i juurutusprojekti.
 2. Valige nupp **Menüü** ja seejärel suvand **Projekti sätted**.
@@ -142,15 +142,15 @@ Kui lõite varem uue Azure DevOps i projekti, konfigureerige LCS-i projekt selle
 
     ![Teenuse Visual Studio Team Services vahekaart projekti sätetes.](./media/setup_rsa_tool_12.png)
 
-4. Välja **Azure DevOps i saidi URL** sisestage Azure DevOps i saidi URL. Välja **Isiklik pääsutõend** sisestage varem loodud isiklik pääsutõend.
+4. Välja **Azure DevOpsi saidi URL** sisestage Azure DevOpsi saidi URL. Välja **Isiklik pääsutõend** sisestage varem loodud isiklik pääsutõend.
 
     > [!NOTE]
-    > Kuigi VSTS kannab nüüd nime Azure DevOps, kasutage LCS-i ühendamiseks Azure DevOps i projektiga vana URL-i. Näiteks selles õppetükis kasutatud Azure DevOps i URL on `https://dev.azure.com/D365FOFastTrack/`. Kuid järgmisel joonisel on see sisestatud kujul `https://D365FOFastTrack.visualstudio.com/`.
+    > Kuigi VSTS kannab nüüd nime Azure DevOps, kasutage LCS-i ühendamiseks Azure DevOpsi projektiga vana URL-i. Näiteks selles õppetükis kasutatud Azure DevOpsi URL on `https://dev.azure.com/D365FOFastTrack/`. Kuid järgmisel joonisel on see sisestatud kujul `https://D365FOFastTrack.visualstudio.com/`.
 
     ![Teenuse Visual Studio Team Services seadistamise 1. etapp.](./media/setup_rsa_tool_13.png)
 
 5. Valige nupp **Jätka**.
-6. Väljas **Teenuse Visual Studio Team Services projekt** valige valitud saidi VSTS-i projekt, mille soovite siduda LCS projektiga. Väli **Protsessimall** seatakse vaikimisi väärtusele **Kiire**. Kohandatud malli jaoks vaadake üle heade tavade juhised jaotises [Uue Azure DevOps i projekti loomine](#create-a-new-azure-devops-project). Seejärel valige nupp **Jätka**.
+6. Väljas **Teenuse Visual Studio Team Services projekt** valige valitud saidi VSTS-i projekt, mille soovite siduda LCS projektiga. Väli **Protsessimall** seatakse vaikimisi väärtusele **Kiire**. Kohandatud malli jaoks vaadake üle heade tavade juhised jaotises [Uue Azure DevOpsi projekti loomine](#create-a-new-azure-devops-project). Seejärel valige nupp **Jätka**.
 
     ![Teenuse Visual Studio Team Services seadistamise 2. etapp.](./media/setup_rsa_tool_14.png)
 
@@ -158,7 +158,7 @@ Kui lõite varem uue Azure DevOps i projekti, konfigureerige LCS-i projekt selle
 
     ![Teenuse Visual Studio Team Services seadistamise 3. etapp.](./media/setup_rsa_tool_15.png)
 
-8. Valige nupp **Autoriseerimine**, et anda LCS-ile volitus juurdepääsuks konfigureeritud Azure DevOps i saidile teie nimel ja VSTS-iga integreeritavate funktsioonide sisse lülitamiseks.
+8. Valige nupp **Autoriseerimine**, et anda LCS-ile volitus juurdepääsuks konfigureeritud Azure DevOpsi saidile teie nimel ja VSTS-iga integreeritavate funktsioonide sisse lülitamiseks.
 
     ![Nupp Autoriseerimine.](./media/setup_rsa_tool_16.png)
 
@@ -289,22 +289,22 @@ Looge vastav tegevuse salvestis, mida saate manustada uues BPM-i teegis loodud l
 
         ![Üleslaadimiseks faili .axtr valimine.](./media/setup_rsa_tool_38.png)
 
-### <a name="test-the-synchronization-from-bpm-to-azure-devops"></a>BPM-ist Azure DevOps i sünkroonimise testimine
+### <a name="test-the-synchronization-from-bpm-to-azure-devops"></a>BPM-ist Azure DevOpsi sünkroonimise testimine
 
-Kui tegevuse salvestis on äriprotsessi juurde manustatud, peate kinnitama, et äriprotsessi ja seotud tegevuse salvestist saab sünkroonida Azure DevOps i funktsioonina ja testjuhtumina (vastavalt), kasutades LCS-is VSTS-i sünkroonimise funktsiooni.
+Kui tegevuse salvestis on äriprotsessi juurde manustatud, peate kinnitama, et äriprotsessi ja seotud tegevuse salvestist saab sünkroonida Azure DevOpsi funktsioonina ja testjuhtumina (vastavalt), kasutades LCS-is VSTS-i sünkroonimise funktsiooni.
 
 > [!NOTE]
-> Vastav tööüksuse tüüp, mis Azure DevOps is luuakse, on erinev, olenevalt protsessimallist, mille valisite LCS-i projekti konfigureerimisel Azure DevOps iga, nagu on kirjeldatud jaotises [Uue Azure DevOps i projekti loomine](#create-a-new-azure-devops-project).
+> Vastav tööüksuse tüüp, mis Azure DevOpsis luuakse, on erinev, olenevalt protsessimallist, mille valisite LCS-i projekti konfigureerimisel Azure DevOpsiga, nagu on kirjeldatud jaotises [Uue Azure DevOpsi projekti loomine](#create-a-new-azure-devops-project).
 
 1. Minge BPM-i teeki ja avage varem loodud **RSAT** teek.
 2. Valige kolmikpunkti nupp (**...**) ja seejärel suvand **VSTS-i sünkroonimine**.
 
     ![VSTS-i sünkroonimise käsk kolmikpunkti menüüs.](./media/setup_rsa_tool_39.png)
 
-    Kui VSTS-i sünkroonimine on lõpule viidud, ilmub vasakule vahekaart **Nõuded**, mis sisaldab vastavat Azure DevOps i tööüksust.
+    Kui VSTS-i sünkroonimine on lõpule viidud, ilmub vasakule vahekaart **Nõuded**, mis sisaldab vastavat Azure DevOpsi tööüksust.
 
     > [!NOTE]
-    > Azure DevOps is loodud tööüksusel on pealkirja eesliiteks BPM-i teegi nimi.
+    > Azure DevOpsis loodud tööüksusel on pealkirja eesliiteks BPM-i teegi nimi.
 
     ![Vahekaart Nõuded.](./media/setup_rsa_tool_40.png)
 
@@ -322,7 +322,7 @@ Kui tegevuse salvestis on äriprotsessi juurde manustatud, peate kinnitama, et �
 
     ![Uus testjuhtum vahekaardil Nõuded.](./media/setup_rsa_tool_43.png)
 
-5. Avage Azure DevOps i projekt ja valige suvandid **Tahvlid \> Tööüksused**.
+5. Avage Azure DevOpsi projekt ja valige suvandid **Tahvlid \> Tööüksused**.
 
     ![Tööüksuste käsk jaotises Tahvlid.](./media/setup_rsa_tool_44.png)
 
@@ -386,7 +386,7 @@ Autentimise lubamiseks peate looma ja installima serdi samasse arvutisse, kus t�
 
     ![AOSService saitide loendis.](./media/setup_rsa_tool_49.png)
 
-3. Tehke paremklõps valikul **Uuri**, et avada kaust **\<Drive\>: \\ AosService\\ WebRoot**. Otsige üles fail **wif.config**.
+3. Tehke paremklõps valikul **Uuri**, et avada kaust **\<Drive\>: \\AosService\\WebRoot**. Otsige üles fail **wif.config**.
 
     ![File wif.config kaustas WebRoot.](./media/setup_rsa_tool_50.png)
 
@@ -451,7 +451,7 @@ RSAT vanemates versioonides pidite installima Seleniumi ja brauseri draiverid. N
 
 ### <a name="create-a-test-plan-and-test-suites"></a>Katseplaani ja testkomplektide loomine
 
-1. Avage Azure DevOps i projekt ja valige suvand **Katseplaanid**.
+1. Avage Azure DevOpsi projekt ja valige suvand **Katseplaanid**.
 
     ![Katseplaanide käsk.](./media/setup_rsa_tool_53.png)
 
@@ -496,12 +496,12 @@ RSAT vanemates versioonides pidite installima Seleniumi ja brauseri draiverid. N
 
 3. Valige nupp **Sätted** (hammasratta sümbol) ja seejärel täitke ilmuvas dialoogiaknas järgmised väljad.
 
-    - **Azure DevOps i URL** – sisestage Azure DevOps i projekti URL, näiteks `https://yourAzureDevOpsUrlHere.visualStudio.com`.
-    - **Pääsutõend** – sisestage pääsutõend, millega saab tööriist luua ühenduse Azure DevOps iga. Kasutage isiklikku pääsutõendit, mille lõite varem selles õppetükis. Lisateavet vt teemast [Juurdepääsu autentimine isiklike pääsutõenditega](https://www.visualstudio.com/docs/setup-admin/team-services/use-personal-access-tokens-to-authenticate).
-    - **Projekti nimi** – valige oma Azure DevOps i projekti nimi.
-    - **Katseplaan** – valige Azure DevOps i katseplaan, mis sisaldab teie testjuhtumeid. Lisateavet vt teemast [Katseplaanide ja testkomplektide loomine](https://www.visualstudio.com/docs/test/manual-exploratory-testing/getting-started/create-a-test-plan). Pärast katseplaani valimist valige suvand **Ühenduse test**, et kontrollida ühendust Azure DevOps iga.
+    - **Azure DevOpsi URL** – sisestage Azure DevOpsi projekti URL, näiteks `https://yourAzureDevOpsUrlHere.visualStudio.com`.
+    - **Pääsutõend** – sisestage pääsutõend, millega saab tööriist luua ühenduse Azure DevOpsiga. Kasutage isiklikku pääsutõendit, mille lõite varem selles õppetükis. Lisateavet vt teemast [Juurdepääsu autentimine isiklike pääsutõenditega](https://www.visualstudio.com/docs/setup-admin/team-services/use-personal-access-tokens-to-authenticate).
+    - **Projekti nimi** – valige oma Azure DevOpsi projekti nimi.
+    - **Katseplaan** – valige Azure DevOpsi katseplaan, mis sisaldab teie testjuhtumeid. Lisateavet vt teemast [Katseplaanide ja testkomplektide loomine](https://www.visualstudio.com/docs/test/manual-exploratory-testing/getting-started/create-a-test-plan). Pärast katseplaani valimist valige suvand **Ühenduse test**, et kontrollida ühendust Azure DevOpsiga.
     - **Hosti nimi** – sisestage katsekeskkonna hosti nimi, näiteks **\<myaos\>.cloudax.dynamics.com**. Ärge lisage eesliidet **https://** või **http://**.
-    - **SOAP-i hosti nimi** – sisestage katsekeskkonna SOAP-i hosti nimi. Tavaliselt on SOAP-i hosti nimi sama kui hosti nimi, aga sellel on järelliide **soap**. Siin on näide: **\<myaos\> soap.cloudax.dynamics.com**. Ärge lisage eesliidet **https://** või **http://**.
+    - **SOAP-i hosti nimi** – sisestage katsekeskkonna SOAP-i hosti nimi. Tavaliselt on SOAP-i hosti nimi sama kui hosti nimi, aga sellel on järelliide **soap**. Siin on näide: **\<myaos\>soap.cloudax.dynamics.com**. Ärge lisage eesliidet **https://** või **http://**.
 
         > [!NOTE]
         > Hosti nime ja SOAP-i hosti nime leidmiseks avage IIS-i haldur, tehke paremklõps suvanditel **Saidid \> AOSService** ja seejärel valige suvand **Sidumiste redigeerimine**. Väärtused veerus **Hosti nimi** annavad hosti nime ja SOAP-i hosti nime (SOAP-i hosti nimel on URL-ist järelliide **soap**).
@@ -510,7 +510,7 @@ RSAT vanemates versioonides pidite installima Seleniumi ja brauseri draiverid. N
 
     - **Administraatori kasutajanimi** – sisestage katsekeskkonda administraatori meiliaadress.
     - **Sõrmejälg** – sisestage autentimisserdi sõrmejälg, nagu on kirjeldatud selles õppetükis eespool.
-    - **Töökaust** – määrake kausta asukoht, kuhu salvestatakse automatiseerimise testfailid, nt Exceli andmete testfailid. Näiteks sisestage või valige **C:\\ Temp\\ RegressionTool**.
+    - **Töökaust** – määrake kausta asukoht, kuhu salvestatakse automatiseerimise testfailid, nt Exceli andmete testfailid. Näiteks sisestage või valige **C:\\Temp\\RegressionTool**.
 
         > [!NOTE]
         > Kui kausta nimes on tühikud, siis käivitamine nurjub, sest kausta ei leita. See on teadaolev probleem ja see peaks olema tööriista uusimas versioonis lahendatud.
@@ -530,7 +530,7 @@ RSAT vanemates versioonides pidite installima Seleniumi ja brauseri draiverid. N
 
 ### <a name="load-and-run-test-cases"></a>Testjuhtumite laadimine ja käivitamine
 
-1. Valige nupp **Laadi**, et laadida katseplaan **RSAT katseplaan** Azure DevOps i projektist.
+1. Valige nupp **Laadi**, et laadida katseplaan **RSAT katseplaan** Azure DevOpsi projektist.
 
     ![Nupp Laadi.](./media/setup_rsa_tool_64.png)
 
@@ -538,15 +538,15 @@ RSAT vanemates versioonides pidite installima Seleniumi ja brauseri draiverid. N
 
     ![Käsk Testkäivitus- ja parameetrifailide loomine menüüs Uus.](./media/setup_rsa_tool_65.png)
 
-    Exceli parameetrifail luuakse kohalikku kausta, mille määratlesite RSAT konfiguratsioonis (nt **C:\\ Temp\\ RegressionTool**).
+    Exceli parameetrifail luuakse kohalikku kausta, mille määratlesite RSAT konfiguratsioonis (nt **C:\\Temp\\RegressionTool**).
 
     ![Loodud Exceli parameetrifail.](./media/setup_rsa_tool_66.png)
 
-3. Kui soovite parameetrifailid salvestada, valige nupp **Laadi üles**. Kõikide valitud testjuhtumite automatiseerimise testfailid laaditakse hiljem kasutamiseks üles Azure DevOps i. (Need failid hõlmavad Exceli testparameetrifaile.)
+3. Kui soovite parameetrifailid salvestada, valige nupp **Laadi üles**. Kõikide valitud testjuhtumite automatiseerimise testfailid laaditakse hiljem kasutamiseks üles Azure DevOpsi. (Need failid hõlmavad Exceli testparameetrifaile.)
 
-    Nii saate valida nupu **Laadi** parameetrifailide (ja automatiseerimise failide) laadimiseks testjuhtumist otse Azure DevOps ist. Parameetrifaile pole vaja uuesti luua. See lähenemine muutub oluliseks hiljem, kui soovite säilitada muudatusi parameetrifailis ega taha, et need üle kirjutataks.
+    Nii saate valida nupu **Laadi** parameetrifailide (ja automatiseerimise failide) laadimiseks testjuhtumist otse Azure DevOpsist. Parameetrifaile pole vaja uuesti luua. See lähenemine muutub oluliseks hiljem, kui soovite säilitada muudatusi parameetrifailis ega taha, et need üle kirjutataks.
 
-4. Veendumaks, et automatiseerimise ja parameetrifailid salvestatakse Azure DevOps i, avage Azure DevOps i projekt, valige suvandid **Tahvlid \> Tööüksused** ja valige testjuhtum **Uue toote loomine**. Vahekaardil **Manused** peaksite nägema nelja faili.
+4. Veendumaks, et automatiseerimise ja parameetrifailid salvestatakse Azure DevOpsi, avage Azure DevOpsi projekt, valige suvandid **Tahvlid \> Tööüksused** ja valige testjuhtum **Uue toote loomine**. Vahekaardil **Manused** peaksite nägema nelja faili.
 
     - **.cs** – C\# automatiseerimise fail
     - **.dll** – kompileeritud automatiseerimise fail komplektina
@@ -558,7 +558,7 @@ RSAT vanemates versioonides pidite installima Seleniumi ja brauseri draiverid. N
 5. Valige käivitamiseks testjuhtum ja seejärel käsk **Käivita**.
 
     > [!NOTE]
-    > Kui kasutate brauserina Internet Explorer it, siis veenduge enne testjuhtumi käivitamist, et teie töölaua eraldusvõime oleks seatud väärtusele **100%** suvandites **Windowsi kuvasätted \> Mõõtkava ja paigutus**. Kui te seda sätet virtuaalarvutis muuta ei saa, muutke seda kliendis (sülearvutis), mille kaudu üritate virtuaalarvutile ligi pääseda. Eraldusvõime sätted rakenduvad virtuaalarvuti kuvasätetele.
+    > Kui kasutate brauserina Internet Explorerit, siis veenduge enne testjuhtumi käivitamist, et teie töölaua eraldusvõime oleks seatud väärtusele **100%** suvandites **Windowsi kuvasätted \> Mõõtkava ja paigutus**. Kui te seda sätet virtuaalarvutis muuta ei saa, muutke seda kliendis (sülearvutis), mille kaudu üritate virtuaalarvutile ligi pääseda. Eraldusvõime sätted rakenduvad virtuaalarvuti kuvasätetele.
 
     ![Töölaua eraldusvõime on seatud väärtusele 100%.](./media/setup_rsa_tool_68.png)
 
@@ -569,7 +569,7 @@ RSAT vanemates versioonides pidite installima Seleniumi ja brauseri draiverid. N
     ![Chrome’i hoiatusteade.](./media/setup_rsa_tool_70.png)
 
     > [!NOTE]
-    > Kui kasutate brauserina Chrome’i ja saate tõrketeate, et seanssi ei loodud, kuna Chrome’i versioon pole õige, siis laadige alla uusim Chrome’i draiver lehelt <http://chromedriver.chromium.org/downloads> kausta **C:\\ Program Files (x86)\\Regression Suite Automation Tool\\ Common\\ External\\ Selenium**.
+    > Kui kasutate brauserina Chrome’i ja saate tõrketeate, et seanssi ei loodud, kuna Chrome’i versioon pole õige, siis laadige alla uusim Chrome’i draiver lehelt <http://chromedriver.chromium.org/downloads> kausta **C:\\Program Files (x86)\\Regression Suite Automation Tool\\Common\\External\\Selenium**.
 
     ![Chrome’i tõrketeade.](./media/setup_rsa_tool_71.png)
 
@@ -593,11 +593,11 @@ RSAT vanemates versioonides pidite installima Seleniumi ja brauseri draiverid. N
 
     ![Kogu tõrketeade.](./media/setup_rsa_tool_74.png)
 
-3. Tõrketeate üksikasjaliku versiooni vaatamiseks Azure DevOps is valige käsk **Ava Azure DevOps is**. Azure DevOps is saate vaadata testjuhtumi olekut ja üksikasjalikku tõrketeadet.
+3. Tõrketeate üksikasjaliku versiooni vaatamiseks Azure DevOpsis valige käsk **Ava Azure DevOpsis**. Azure DevOpsis saate vaadata testjuhtumi olekut ja üksikasjalikku tõrketeadet.
 
     ![Üksikasjalik tõrketeade Azure DevOps`is.](./media/setup_rsa_tool_75.png)
 
-4. Testi tulemuste vaatamiseks otse Azure DevOps i projektis valige suvandid **Katseplaanid \> Katseplaanid \> Käivitused**. Tehke topeltklõps testkäivitusel, mille üksikasju soovite näha.
+4. Testi tulemuste vaatamiseks otse Azure DevOpsi projektis valige suvandid **Katseplaanid \> Katseplaanid \> Käivitused**. Tehke topeltklõps testkäivitusel, mille üksikasju soovite näha.
 
     ![Testkäivituste loend Azure DevOps`is.](./media/setup_rsa_tool_76.png)
 
@@ -614,7 +614,7 @@ RSAT vanemates versioonides pidite installima Seleniumi ja brauseri draiverid. N
     ![Üksikasjalik tõrketeade.](./media/setup_rsa_tool_79.png)
 
     > [!NOTE]
-    > Kõik tõrketeated on saadaval ka lokaalselt failis **C:\\ Users\\\$ YourUserName\\ AppData\\ Roaming\\ regressionTool\\ errormsg-.txt**.
+    > Kõik tõrketeated on saadaval ka lokaalselt failis **C:\\Users\\\$YourUserName\\AppData\\Roaming\\regressionTool\\errormsg-.txt**.
 
 7. Saate eksportida testkäivituse tulemused katseplaani tasemest, valides nupu **Ekspordi**.
 
@@ -639,7 +639,7 @@ RSAT vanemates versioonides pidite installima Seleniumi ja brauseri draiverid. N
     ![Tootenumbri väli.](./media/setup_rsa_tool_81.png)
 
 4. Valige **Salvesta** ja sulgege seejärel Exceli tööraamat.
-5. Valige nupp **Laadi üles** Exceli parameetrifaili salvestamiseks Azure DevOps i.
+5. Valige nupp **Laadi üles** Exceli parameetrifaili salvestamiseks Azure DevOpsi.
 
     ![Teade üleslaadimise õnnestumise kohta.](./media/setup_rsa_tool_82.png)
 
@@ -656,7 +656,7 @@ RSAT vanemates versioonides pidite installima Seleniumi ja brauseri draiverid. N
 
 ### <a name="chaining-of-test-cases"></a>Testjuhtumite aheltöötlus
 
-Üks RSAT põhifunktsioone on testjuhtumite aheltöötlus (test suudab edastada väärtusi teistele testidele). Testjuhtumid käivitatakse Azure DevOps i katseplaanis määratud järjekorra järgi. (Seda järjekorda saab värskendada ka testtööriistas.) Seega kui soovite edastada muutujaid ühest testjuhtumist teise, on väga oluline, et testid oleksid õiges järjekorras.
+Üks RSAT põhifunktsioone on testjuhtumite aheltöötlus (test suudab edastada väärtusi teistele testidele). Testjuhtumid käivitatakse Azure DevOpsi katseplaanis määratud järjekorra järgi. (Seda järjekorda saab värskendada ka testtööriistas.) Seega kui soovite edastada muutujaid ühest testjuhtumist teise, on väga oluline, et testid oleksid õiges järjekorras.
 
 Selles jaotises loote salvestatud muutuja esimeses testjuhtumis, loote teise testjuhtumi ja edastate salvestatud muutuja esimesest testjuhtumist teise testjuhtumisse. Seejärel käivitate testjuhtumid RSAT-s testjuhtumi ahelana.
 
@@ -706,13 +706,13 @@ Selles jaotises loote salvestatud muutuja esimeses testjuhtumis, loote teise tes
 
 12. Valige nupp **Muutmine on lõpetatud**.
 13. Valige nupp **Salvesta teenusesse Lifecycle Services** ja seostage uus tegevuse salvestis sama BPM-i teegi ja äriprotsessiga, millega oli seotud algne tegevuse salvestis. Lisateavet vt jaotisest [Tegevuse salvestise loomine ja salvestamine BPM-i teeki](#create-a-task-recording-and-save-it-to-the-bpm-library).
-14. Minge BPM-i teeki ja valige suvand **Testjuhtumite sünkroonimine**, et kirjutada üle tegevuse salvestis, mis on seotud testjuhtumiga Azure DevOps is, nagu on kirjeldatud jaotises [BPM-ist Azure DevOps i sünkroonimise testimine](#test-the-synchronization-from-bpm-to-azure-devops).
+14. Minge BPM-i teeki ja valige suvand **Testjuhtumite sünkroonimine**, et kirjutada üle tegevuse salvestis, mis on seotud testjuhtumiga Azure DevOpsis, nagu on kirjeldatud jaotises [BPM-ist Azure DevOpsi sünkroonimise testimine](#test-the-synchronization-from-bpm-to-azure-devops).
 15. Avage RSAT ja valige nupp **Laadi**, et laadida uuesti kõik testjuhtumid testkomplektis. Peate looma uuesti automatiseerimise ja parameetrifaili vastava testjuhtumi jaoks, valides testjuhtumi ja seejärel suvandid **Uus \> Testkäivitus- ja parameetrifailide loomine**, nagu on kirjeldatud jaotises [Testjuhtumite laadimine ja käivitamine](#load-and-run-test-cases).
 
     > [!NOTE]
     > Kui Exceli parameetrifail jäeti lahti, siis uuesti loomine nurjub. Seetõttu olge kindel, et testjuhtumi Exceli parameetrifail suletakse enne uue Exceli parameetrifaili loomist.
 
-16. Valige nupp **Redigeeri**, et avada uus Exceli parameetrifail. Näete uut kannet **Salvestatud muutuja** real 9. See muutuja, **{{ EcoResProductCreate\_ Identification\_ ProductNumber\_ Copy}}**, salvestatakse tegevuse salvestise XML-faili ja seda saab kasutada edaspidistes testides.
+16. Valige nupp **Redigeeri**, et avada uus Exceli parameetrifail. Näete uut kannet **Salvestatud muutuja** real 9. See muutuja, **{{EcoResProductCreate\_Identification\_ProductNumber\_Copy}}**, salvestatakse tegevuse salvestise XML-faili ja seda saab kasutada edaspidistes testides.
 
     ![Salvestatud muutuja kanne.](./media/setup_rsa_tool_94.png)
 
@@ -749,12 +749,12 @@ Selles jaotises loote salvestatud muutuja esimeses testjuhtumis, loote teise tes
 
 3. Valige tegevuse salvestisega seostamiseks BPM-i teek. Selles õppetükis valige varem loodud BPM-i teek **RSAT** ja selle all äriprotsess **Toote väljastamine**. Seejärel valige **OK**.
 
-#### <a name="sync-bpm-to-azure-devops"></a>BPM-i sünkroonimine Azure DevOps iga
+#### <a name="sync-bpm-to-azure-devops"></a>BPM-i sünkroonimine Azure DevOpsiga
 
 1. Minge BPM-i teeki ja avage teek **RSAT**.
-2. Valige suvand **VSTS-i sünkroonimine** ja seejärel suvand **Testjuhtumite sünkroonimine**. Lisateavet vt jaotisest [BPM-ist Azure DevOps i sünkroonimise testimine](#test-the-synchronization-from-bpm-to-azure-devops).
+2. Valige suvand **VSTS-i sünkroonimine** ja seejärel suvand **Testjuhtumite sünkroonimine**. Lisateavet vt jaotisest [BPM-ist Azure DevOpsi sünkroonimise testimine](#test-the-synchronization-from-bpm-to-azure-devops).
 
-    Kui sünkroonimine on lõpule viidud, kuvatakse äriprotsessi **Toote väljastamine** uus tööüksus ja vastav testjuhtum Azure DevOps is jaotises **Tahvlid \> Tööüksused**.
+    Kui sünkroonimine on lõpule viidud, kuvatakse äriprotsessi **Toote väljastamine** uus tööüksus ja vastav testjuhtum Azure DevOpsis jaotises **Tahvlid \> Tööüksused**.
 
 #### <a name="add-the-new-test-case-to-the-existing-test-suite"></a>Uue testjuhtumi lisamine olemasolevasse testkomplekti
 
@@ -772,11 +772,11 @@ Selles jaotises loote salvestatud muutuja esimeses testjuhtumis, loote teise tes
 #### <a name="load-test-cases-into-rsat"></a>Testjuhtumite laadimine RSAT-sse
 
 1. Avage RSAT ja valige nupp **Laadi**.
-2. Testjuhtumid laaditakse ja kuvatakse hoiatus tekstiga „See tegevus kirjutab üle Exceli testandmefailid, kohalikud muudatused lähevad kaduma. Kas soovite jätkata?” Valige nupp **Jah** Exceli parameetrifailide värskendamiseks kohalikus süsteemis, aga mitte Azure DevOps i üles laaditud Exceli parameetrifailide värskendamiseks.
+2. Testjuhtumid laaditakse ja kuvatakse hoiatus tekstiga „See tegevus kirjutab üle Exceli testandmefailid, kohalikud muudatused lähevad kaduma. Kas soovite jätkata?” Valige nupp **Jah** Exceli parameetrifailide värskendamiseks kohalikus süsteemis, aga mitte Azure DevOpsi üles laaditud Exceli parameetrifailide värskendamiseks.
 
     ![See toiming kirjutab Exceli testandmefailid üle.](./media/setup_rsa_tool_102.png)
 
-    Mõlemad testjuhtumid on laaditud koos Exceli parameetrifailiga esimese testjuhtumi jaoks. Kuna valisite viimasel käitusel nupu **Laadi**, tõmmatakse parameetrifailid Azure DevOps ist.
+    Mõlemad testjuhtumid on laaditud koos Exceli parameetrifailiga esimese testjuhtumi jaoks. Kuna valisite viimasel käitusel nupu **Laadi**, tõmmatakse parameetrifailid Azure DevOpsist.
 
     ![Laaditud testjuhtumid.](./media/setup_rsa_tool_103.png)
 
@@ -785,7 +785,7 @@ Selles jaotises loote salvestatud muutuja esimeses testjuhtumis, loote teise tes
 #### <a name="edit-the-excel-parameter-file"></a>Exceli parameetrifaili redigeerimine
 
 1. Valige ainult teine testjuhtum ja seejärel valige nupp **Redigeeri** vastava Exceli parameetrifaili avamiseks.
-2. Kopeerige salvestatud muutuja **{{ EcoResProductCreate\_ Identification\_ ProductNumber\_ Copy}}** (vt jaotist [Olemasoleva tegevuse salvestise muutmine salvestatud muutuja loomiseks](#modify-an-existing-task-recording-to-create-a-saved-variable)) esimesest testjuhtumist kõikidesse väljadesse, kus kasutatakse tootenumbrit. Kopeerige selles juhtumis muutuja väljadesse **Tootenumber** ja **Tootenumbri kinnitus** lehel **EcoResProductListPage**.
+2. Kopeerige salvestatud muutuja **{{EcoResProductCreate\_Identification\_ProductNumber\_Copy}}** (vt jaotist [Olemasoleva tegevuse salvestise muutmine salvestatud muutuja loomiseks](#modify-an-existing-task-recording-to-create-a-saved-variable)) esimesest testjuhtumist kõikidesse väljadesse, kus kasutatakse tootenumbrit. Kopeerige selles juhtumis muutuja väljadesse **Tootenumber** ja **Tootenumbri kinnitus** lehel **EcoResProductListPage**.
 
     ![Tootenumbri ja tootenumbri kinnituse väljad.](./media/setup_rsa_tool_104.png)
 

@@ -1,6 +1,6 @@
 ---
 title: Täpsemate reeglistruktuuride loomine ja määramine
-description: Selles teemas selgitatakse, kuidas luua ja määrata täpsustatud reegli struktuuri konto struktuurile.
+description: See artikkel selgitab, kuidas konto struktuuri täpsemat reeglistruktuuri luua ja määrata.
 author: aprilolson
 ms.date: 07/19/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ea0a31eeac9593051916d44113459f4b6ad70a92
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 72688642936f9428c96aebb34bf9f240dd48b46b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8723047"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896315"
 ---
 # <a name="create-and-assign-advanced-rule-structures"></a>Täpsemate reeglistruktuuride loomine ja määramine
 
 [!include [banner](../../includes/banner.md)]
 
-Selles teemas selgitatakse, kuidas luua ja määrata täpsustatud reegli struktuuri konto struktuurile. Juhendis kasutatakse demoettevõtte USMF andmeid.
+See artikkel selgitab, kuidas konto struktuuri täpsemat reeglistruktuuri luua ja määrata. Juhendis kasutatakse demoettevõtte USMF andmeid.
 
 ## <a name="create-an-advanced-rule-structure"></a>Täpsema reegli struktuuri loomine
 1. Avage **Navigeerimispaan > Pearaamat > Kontoplaan > Struktuurid > Täpsema reegli struktuurid**.

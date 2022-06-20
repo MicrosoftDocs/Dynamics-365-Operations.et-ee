@@ -1,6 +1,6 @@
 ---
 title: Hankija koostöö väliste hankijatega
-description: Selles teemas selgitatakse, kuidas ostuagendid saavad teha koostööd väliste hankijatega, et vahetada teavet ostutellimuste ja veose varude kohta.
+description: See artikkel selgitab, kuidas ostuagendid saavad teha koostööd väliste hankijatega, et vahetada teavet ostutellimuste ja veose varude kohta.
 author: GalynaFedorova
 ms.date: 11/02/2017
 ms.topic: article
@@ -15,23 +15,23 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 05a2ecc82306c013912b3ee824d63d7d39c4258f
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
-ms.translationtype: MT
+ms.openlocfilehash: 4ae943592c18dd0383aafbce59617cc983dc979b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8676883"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907286"
 ---
 # <a name="vendor-collaboration-with-external-vendors"></a>Hankija koostöö väliste hankijatega
 
 [!include [banner](../includes/banner.md)]
 
-Moodul **Hankija koostöö** on suunatud hankijatele, kellel puudub elektroonilise andmete vahetuse (EDI) integratsioon rakendusega Microsoft Dynamics 365 Supply Chain Management. See laseb hankijatel töötada ostutellimustega (OT-dega), arvetega, veose varude teabega ja pakkumiskutsetega, samuti võimaldab see neile juurdepääsu osale hankija koondandmetest. Selles teemas selgitatakse, kuidas saate teha koostööd väliste hankijatega, kes kasutavad hankija koostööliidest OT-de, pakkumiskutsete ja veose varudega töötamiseks. Selles selgitatakse ka, kuidas lubada konkreetset hankijat hankija koostöö kasutamiseks ja kuidas määratleda teavet, mida kõik hankijad näevad, kui nad vastavad OT-le.
+Moodul **Hankija koostöö** on suunatud hankijatele, kellel puudub elektroonilise andmete vahetuse (EDI) integratsioon rakendusega Microsoft Dynamics 365 Supply Chain Management. See laseb hankijatel töötada ostutellimustega (OT-dega), arvetega, veose varude teabega ja pakkumiskutsetega, samuti võimaldab see neile juurdepääsu osale hankija koondandmetest. See artikkel selgitab, kuidas saate teha koostööd väliste hankijatega, kes kasutavad hankija koostöö liidest, et töötada POS-ga, pakkumiskutsetega ja veose varudega. Selles selgitatakse ka, kuidas lubada konkreetset hankijat hankija koostöö kasutamiseks ja kuidas määratleda teavet, mida kõik hankijad näevad, kui nad vastavad OT-le.
 
 Lisateavet selle kohta, mida välised hankijad saavad hankija koostöö liideses teha, leiate teemast [Hankija koostöö klientidega](vendor-collaboration-work-customers-dynamics-365-operations.md).
 
 > [!NOTE]
-> Selles teemas kirjeldatud teave hankija koostöö kohta kehtib ainult rakenduse Supply Chain Management praeguse versiooni puhul. Microsoft Dynamics AX 7.0 (veebruar 2016) ja rakenduse Microsoft Dynamics AX versiooni 7.0.1 (mai 2016) puhul saate hankijatega koostööd teha, kasutades moodulit **Hankija portaal**. Mooduli **Hankija portaal** kohta teabe saamiseks vaadake teemat [„Hankijatega koostöö tegemine Hankija portaali kasutades”](collaborate-vendors-vendor-portal.md).
+> Teave hankija koostöö kohta selles artiklis kehtib ainult praeguse tarneahela halduse versiooni kohta. Microsoft Dynamics AX 7.0 (veebruar 2016) ja rakenduse Microsoft Dynamics AX versiooni 7.0.1 (mai 2016) puhul saate hankijatega koostööd teha, kasutades moodulit **Hankija portaal**. Mooduli **Hankija portaal** kohta teabe saamiseks vaadake teemat [„Hankijatega koostöö tegemine Hankija portaali kasutades”](collaborate-vendors-vendor-portal.md).
 
 Lisateavet selle kohta, kuidas hankijad saavad kasutada hankija koostööd arveldamise protsessides, leiate teemast [Hankija koostöö arve tööruum](../../finance/accounts-payable/vendor-portal-invoicing-workspace.md). Lisateavet selle kohta, kuidas ette valmistada uue hankija koostöö kasutajaid, leiate teemast [Hankija koostöö kasutajate haldamine](manage-vendor-collaboration-users.md).
 
@@ -112,7 +112,7 @@ OT, mis saadeti hankijale ja mille olek on <strong>Välisel ülevaatamisel</stro
 <li>Asendage üksus.</li>
 </ul>
 Hankija ei saa muuta hinnateavet ja kulusid. Siiski saab hankija neid muudatusi märkusi kasutades soovitada.</td>
-<td>Hankija vastus salvestatakse kui <strong>Aktsepteeritud koos muudatustega</strong> ja ostutellimuse olekuks jääb <strong>Välisel ülevaatamisel</strong>. Olekud näitavad, millist tüüpi muudatusi hankija on soovitanud. Muudatuste automaatse tarbimise kohta leiate teavet allpool olevast jaotisest &quot;Ostutellimuse uuendamine, kui hankija soovitab muudatusi&quot;. </td>
+<td>Hankija vastus salvestatakse kui <strong>Aktsepteeritud koos muudatustega</strong> ja ostutellimuse olekuks jääb <strong>Välisel ülevaatamisel</strong>. Olekud näitavad, millist tüüpi muudatusi hankija on soovitanud. Automaatse muudatuste tarbimise kohta teabe saamiseks vt ostutellimuse uuendamist, &quot; kui hankija soovitab muudatusi&quot; jaotises hiljem selles artiklis. </td>
 </tr>
 </tbody>
 </table>

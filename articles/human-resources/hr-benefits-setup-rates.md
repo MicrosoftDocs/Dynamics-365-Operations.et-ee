@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2deb20646a532509c9e3a3e7a39f646bced2a3fb
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 039b4aa3f044cda29944bcd4f5c42fc35818c58b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8693111"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868155"
 ---
 # <a name="configure-rates"></a>Määrade konfigureerimine
 
@@ -47,7 +47,7 @@ Kasutage määrasid, et määratleda, kui palju töövõtjad ja tööandjad iga 
    | **Jõustunud** | Kursi jõustumise kuupäev. Praegune süsteemikuupäev on vaikeväärtus. See kuupäev peab olema soodustusperioodil või enne seda. Hea tava on määrata see kuupäev hüvitiste plaani kuupäevaks. |
    | **Aegumine** | Määra lõpukuupäev. Vaikeväärtus on 12/31/2154 (mis tähendab mitte kunagi). |
    | **Kasuta järke** |  Kasutage seda välja, kui teil on loogika, mida tuleb kasutada määra määramiseks. Näiteks kui määr peab põhinema vanusel, valige siin väärtus. Valige **üheastmeline** üheastmelise hüvitise määra jaoks või **kaheastmeline** kaheastmelise hüvitise määra jaoks. Topelttaseme näide on sool ja vanusel põhinev tase. Pärast väärtuse valimist valige **Toimingud** ja seejärel valige **Järgu määrad**. Kui teil on fikseeritud määr, mis ei muutu, jätke see väli tühjaks. |
-   | **Makse sagedus** | Täpsustage, kui sageli tuleks hüvitise pakkujale maksta hüvitise määra. Selles teemas hiljem kirjeldatud lehele sisestatud määrad põhinevad siin määratud maksesagedusel. Kui sisestate sellele väljale näiteks **igakuine** ja sisestate töötaja määraks **100 $**, siis eeldatakse, et soodustus maksab töötajale $100 kuu kohta. Töötajale võidakse siiski maksta kaks korda kuus, võttes aluseks töötajakirjes määratud hüvitiste maksesageduse. Sellisel juhul on **töötaja iseteenindusse sisselogimisel** summa, mille nad maksavad, 50 dollarit, kuna **töötaja iseteeninduse** näidatud määr põhineb töötaja maksesagedusel. |
+   | **Makse sagedus** | Täpsustage, kui sageli tuleks hüvitise pakkujale maksta hüvitise määra. Määrad, mida sisestate lehel, mida kirjeldatakse selles artiklis allpool, põhinevad siin määratud maksesagedusel. Kui sisestate sellele väljale näiteks **igakuine** ja sisestate töötaja määraks **100 $**, siis eeldatakse, et soodustus maksab töötajale $100 kuu kohta. Töötajale võidakse siiski maksta kaks korda kuus, võttes aluseks töötajakirjes määratud hüvitiste maksesageduse. Sellisel juhul on **töötaja iseteenindusse sisselogimisel** summa, mille nad maksavad, 50 dollarit, kuna **töötaja iseteeninduse** näidatud määr põhineb töötaja maksesagedusel. |
    | **Maksesageduse määra ümardamine** | Määra ümardamise meetodid on: standardne, kärbitud, tavaline, allapoole ja ümardamine üles. </br></br><ul><li>**Standardne** – ümardage alati üles. Näiteks 10,611 ümardatakse 10,62-ni. -10,231 ümardatakse -10,23-ni. </li><li>**Kärbitud** - alati ümardatakse alla. Näiteks 10,619 ümardatakse 10,61-ni. -10,231 ümardatakse -10,24-ni. </li><li>**Tavaline** – kümnendarvud, mis lõppevad 5 või suurema arvuga, ümardavad nullist suuremaks. Kümnendarvud, mis lõppevad 4 või väiksema arvuga, ümardatakse nulli poole. Näiteks 10,615 ümardatakse 10,62-ni. -10,235 ümardatakse -10,24-ni. 10,614 ümardatakse 10,61-ni. -10,234 ümardatakse -10,23-ni. </li><li>**Allapoole** – ümardage nulli suunas. Näiteks 10,619 ümardatakse 10,61-ni. -10,231 ümardatakse -10,23-ni. </li><li>**Ümardamine üles** – ümardatakse nullist eemale. Näiteks 10,619 ümardatakse 10,62-ni. -10,231 ümardatakse -10,24-ni. |
    | **Mittesuitsetaja töövõtja summa** | Summa, mille hüvitise pakkuja küsib mittesuitsetava töövõtja eest. See on summa, mille töövõtja maksab soodustuse pakkujale, ja mis peaks põhinema määra seadistuse maksesagedusel. |
    | **Mittesuitsetaja tööandja summa** | Summa, mille hüvitise pakkuja küsib mittesuitsetava töövõtja eest. See on summa, mille töövõtja maksab soodustuse pakkujale, ja see peaks põhinema määra seadistuse maksesagedusel. |

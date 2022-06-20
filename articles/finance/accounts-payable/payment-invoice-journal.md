@@ -1,6 +1,6 @@
 ---
 title: Maksegraafiku rakendamine arve töölehele
-description: See teema kirjeldab, kuidas lisada makse hankija arve töölehele.
+description: See artikkel kirjeldab, kuidas lisada makse hankija arve töölehele.
 author: sunfzam
 ms.date: 01/31/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-08-30
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: f6481c3fc033acf4bb563bf1716789216646b60b
-ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
+ms.openlocfilehash: f3ae08ea46be66dd8bf26f7f91bd73f6c5b9192f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/26/2022
-ms.locfileid: "8358335"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863126"
 ---
 # <a name="apply-a-payment-schedule-to-the-invoice-journal"></a>Maksegraafiku rakendamine arve töölehele
 
 [!include [banner](../includes/preview-banner.md)]
 
-Rakenduses Microsoft Dynamics 365 Finance Release 10.0.25 on nüüd hankija arve töölehel **toetatud maksegraafik**.
+Microsoft Dynamics 365 Finantsi väljalaskes 10.0.25 toetatakse nüüd maksegraafikut hankija **arve töölehel**.
 
 Selle funktsiooni kasutamiseks peate funktsioonihalduses lubama **maksegraafiku rakendada arvetöölehe** funktsioonile.
 

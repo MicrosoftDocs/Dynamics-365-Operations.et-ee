@@ -1,6 +1,6 @@
 ---
 title: ER-i funktsioon TEXT
-description: See teema sisaldab teavet selle kohta, kuidas kasutatakse elektroonilise aruandluse (ER) funktsiooni TEXT.
+description: See artikkel annab teavet selle kohta, kuidas teksti elektroonilise aruandluse (ER) funktsiooni kasutatakse.
 author: NickSelin
 ms.date: 12/10/2019
 ms.prod: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 38550b8b5181b49bcb8504129932f185ea95e038e38d4581bc3e0fa076f4fb50
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bf9049463ca905952cab512884afad380b7b3d52
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6762448"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900160"
 ---
 # <a name="text-er-function"></a>ER-i funktsioon TEXT
 
@@ -51,7 +51,7 @@ Tüübi *Tõeline* väärtuste puhul on stringi teisendamine piiratud kahe kümn
 
 ## <a name="example"></a>Näide
 
-Kui Microsoft Dynamics 365 Finance’i eksemplari serverilokaat on määratud kui **EN-US**, tagastab `TEXT (NOW ())` praeguse rakenduse Finance seansi kuupäeva 17. detsember 2015 tekstistringina **„12/17/2015 07:59:23 AM”**. `TEXT (1/3)` tagastab **„0,33”**.
+Microsoft Dynamics Kui 365 **Finantside eksemplari serveri lokaadiks on määratletud EN-US**, `TEXT (NOW ())` tagastab finantsseansi kuupäeva 17. detsembril 2015 tekstistringina **"12/17/2015 07:59:23 AM"**. `TEXT (1/3)` tagastab **„0,33”**.
 
 ## <a name="additional-resources"></a>Lisaressursid
 

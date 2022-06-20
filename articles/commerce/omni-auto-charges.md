@@ -1,6 +1,6 @@
 ---
 title: Omnikanali täpsemad automaatsed kulud
-description: See teema kirjeldab võimalusi Commerce kanali tellimuste täiendavate tellimuskulude haldamise kohta, kasutades täpsemate automaatsete kulude funktsioone.
+description: See artikkel kirjeldab võimalusi ärikanali tellimuste muude tellimustasude haldamiseks, kasutades täpsemaid automaatsete kulude funktsioone.
 author: hhaines
 ms.date: 03/24/2022
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 69432e13424b08b75e8ce7c88eaf6be66db59e65
-ms.sourcegitcommit: 94ebdaae6dc996b205ac78ed546e38f91f4f46ed
+ms.openlocfilehash: 412f5befa255d12914444b57918f14ab51243bfa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/28/2022
-ms.locfileid: "8489614"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851127"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>Omnikanali täpsemad automaatsed kulud
 
 [!include [banner](includes/banner.md)]
 
-See teema sisaldab teavet rakenduse Dynamics 365 for Retail versioonis 10.0 saadaolevate täpsemate automaatsete kulude funktsioonide konfigureerimise ja juurutamise kohta.
+See artikkel annab teavet täpsemate automaatsete kulude funktsioonide konfiguratsiooni ja juurutamise kohta, mis on saadaval versioonis Dynamics 365 for Retail 10.0.
 
 Kui täpsemate automaatsete kulude funktsioonid on lubatud, saavad mis tahes toetatud Commerce’i kanalis (kassa, kõnekeskus ja veebipood) loodud tellimused kasutada [automaatsete kulude](/dynamics365/unified-operations/retail/configure-call-center-delivery#define-charges-for-delivery-services) konfiguratsioone, mis on määratletud ERP rakenduses nii päise- kui ka reatasemega seotud kuludele.
 

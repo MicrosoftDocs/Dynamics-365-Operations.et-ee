@@ -1,6 +1,6 @@
 ---
 title: Vara rentimise funktsiooni kasutamise alustamine
-description: Selles teemas kirjeldatakse vara rentimise võimalust ja näidatakse, kuidas renditavat vara luua ja nende varade teavet vaadata.
+description: See artikkel kirjeldab varade võimsuse ja läbi läbi varade liisingu loomise sammude ja vaadata nende liisingute teavet.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-09-24
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 991685f50a00e60026331bf573561be904c7f9ab
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: df4343031b3b116318f798f31adb4d1f6bed1db9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710325"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895134"
 ---
 # <a name="asset-leasing-get-started"></a>Vara rentimise funktsiooni kasutamise alustamine
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas kirjeldatakse vara rentimise võimalust ja näidatakse, kuidas renditavat vara luua ja nende varade teavet vaadata. Teemas on toodud ka kasutajaliideses ja dokumentatsioonis kasutatud terminoloogia. Varade kasutamine on täiustatud võimalus liisitud varade finantskannete haldamiseks, jälgimiseks ja automaatseks automatiseerimiseks Microsoft Dynamics 365. finantsis. Vara rentimise funktsioon vastab rahvusvahelistele raamatupidamisstandarditele (IFRS 16) ja Ameerika Ühendriikide üldaktsepteeritavate raamatupidamispõhimõtete (GAAP) standarditele (ASC 842). Vara rentimise funktsioon kogub ja töötleb renditavate varade põhiteavet ning aitab luua töölehe sisestusi terve renditava vara elutsükli jooksul alates esialgsest tuvastamisest, igakuistest töölehe sisestustest kuni renditava vara väärtuse langemiseni ja rentimise lõppemiseni. Varade integratsioon integreerub sujuvalt Dynamics 365 Finantside teiste komponentidega (sh põhivarad, ostureskontro ja Pearaamat).
+See artikkel kirjeldab varade võimsuse ja läbi läbi varade liisingu loomise sammude ja vaadata nende liisingute teavet. Artikkel määratleb ka kasutajaliideses kasutatava terminoloogia ja dokumentatsiooni. Varade kasutamine on täiustatud võimalus liisitud varade finantskannete haldamiseks, jälgimiseks ja automaatseks automatiseerimiseks Microsoft Dynamics 365. finantsis. Vara rentimise funktsioon vastab rahvusvahelistele raamatupidamisstandarditele (IFRS 16) ja Ameerika Ühendriikide üldaktsepteeritavate raamatupidamispõhimõtete (GAAP) standarditele (ASC 842). Vara rentimise funktsioon kogub ja töötleb renditavate varade põhiteavet ning aitab luua töölehe sisestusi terve renditava vara elutsükli jooksul alates esialgsest tuvastamisest, igakuistest töölehe sisestustest kuni renditava vara väärtuse langemiseni ja rentimise lõppemiseni. Varade integratsioon integreerub sujuvalt Dynamics 365 Finantside teiste komponentidega (sh põhivarad, ostureskontro ja Pearaamat).
 
 Enne selle funktsiooni kasutamist peate selle oma süsteemis sisse lülitama. Administraatorid saavad kasutada **funktsioonihalduse** tööruumi, et kontrollida funktsiooni olekut ja vajadusel selle sisse lülitada. Otsige tööruumis **Funktsioonihaldus** üles suvand **Vara rentimine** ja seejärel klõpsake nuppu **Luba kohe**.
 

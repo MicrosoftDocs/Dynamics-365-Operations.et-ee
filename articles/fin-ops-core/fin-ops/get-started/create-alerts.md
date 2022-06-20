@@ -1,6 +1,6 @@
 ---
 title: Teatisereeglite loomine
-description: Selles teemas antakse teavet teatiste kohta ja selgitatakse teatisereegli loomist.
+description: See artikkel annab teavet teatiste kohta ja selgitab teatisereegli loomise teavet.
 author: RichdiMSFT
 ms.date: 10/08/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: 597785e65f127794ca84fe3053a664f717b056bd7374e0396732d4bcf59a743c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f523680f3d71ffd75c6cd2df284d2fd3610cef96
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736194"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853613"
 ---
 # <a name="create-alert-rules"></a>Teatisereeglite loomine
 
@@ -75,7 +75,7 @@ Dialoogiboksi **Loo teatise reegel** kiirkaardil **Teavita mind järgmisega** sa
 
 ## <a name="alerts-as-business-events"></a>Teatised ärisündmustena
 
-Saate saata teatisi väliselt ärisündmuste raamistikku kasutades. Teatise loomisel seadke suvand **Organisatsiooniülene** valikule **Ei** ja määrake suvand **Saada väliselt** väärtusele **Jah**. Pärast seda, kui teatis käivitab ärisündmuse, saate käivitada teenusesse Power Automate ehitatud voo, kasutades päästikut **Kui ärisündmus leiab aset** rakenduskomplekti Finance and Operations konnektoris, või saata sündmuse eraldi suvandi **Ärisündmuste kataloog** kaudu otse ärisündmuste lõpp-punktile.
+Saate saata teatisi väliselt ärisündmuste raamistikku kasutades. Teatise loomisel seadke suvand **Organisatsiooniülene** valikule **Ei** ja määrake suvand **Saada väliselt** väärtusele **Jah**. Pärast ärisündmuse teatise käivitamist saate käivitada voo, Power Automate **mis** on loodud ärisündmuse toimumisel, mis käivitab finantside ja toimingute konnektori, **või saata sündmuse ärisündmuste lõpp-punkti ärisündmuste kataloogi kaudu**.
 
 ## <a name="create-an-alert-rule"></a>Teatisereegli loomine
 

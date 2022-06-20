@@ -1,6 +1,6 @@
 ---
 title: Arveldamata tulu
-description: See teema kirjeldab, kuidas seadistada kaupu ja kontosid, et kasutada arveldamata tulu funktsiooni kordustellimuse arvelduses.
+description: See artikkel selgitab, kuidas seadistada kaupu ja kontosid, et kasutada arveldamata tulu funktsiooni kordustellimuse arvelduses.
 author: JodiChristiansen
 ms.date: 11/04/2021
 ms.topic: article
@@ -14,16 +14,16 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: a70786291822a85ec41c98ab8ce706f2ad79b08d
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: b3fe58fc06df3f61433c8457b337ae895283e12b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691241"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879678"
 ---
 # <a name="unbilled-revenue"></a>Arveldamata tulu
 
-See teema kirjeldab arveldamata tulu funktsiooni, mis võimaldab teil kaasata bilansile summad kogu arveldusgraafiku jaoks. Need summad on kaasatud arveldamata tulu kontole ja arveldamata tulu vastaskontole ja lepingu eest arveldatakse osamaksetena.
+See artikkel kirjeldab arveldamata tulu funktsiooni, mis võimaldab teil kaasata bilansile summad kogu arveldusgraafiku jaoks. Need summad on kaasatud arveldamata tulu kontole ja arveldamata tulu vastaskontole ja lepingu eest arveldatakse osamaksetena.
 
 ## <a name="set-up-unbilled-revenue"></a>Saate häälestada segmentimata tulu.
 

@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Supply Chain Management-i (varahalduse) integreerimine Dynamics 365 Guides-iga
-description: Selles teemas selgitatakse, kuidas integreerida Microsoft Dynamics 365 Supply Chain Management-i varahalduse moodulit Dynamics 365 Guides-iga, et saada võimalus kasutada virtuaaljuhendite võimalusi oma igapäevastes teeninduse ja hoolduse töövoogudes.
+description: See artikkel selgitab, kuidas integreerida varahalduse moodulit Microsofti Dynamics 365 Supply Chain Management Dynamics 365 Guides, et kasutada ära segareaalsusjuhisi oma päevasele teenuse- ja hooldustöövoogudele.
 author: johanhoffmann
 ms.date: 04/28/2020
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-04-28
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 4132992eb5f4b42d43d9ff72cada616fe0573c2f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: d06978bcbd6205111384f5c7cefdf34fdbdbfbf5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568251"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875680"
 ---
 # <a name="integrate-dynamics-365-supply-chain-management-asset-management-with-dynamics-365-guides"></a>Dynamics 365 Supply Chain Management-i (varahalduse) integreerimine Dynamics 365 Guides-iga
 
@@ -47,7 +47,7 @@ Juhendi seostamiseks kasutate varahalduse real hoolduse kontrollnimekirja. Te sa
 
 Juhendi seostamiseks hoolduse kontrollnimekirja malliga toimige järgmiselt.
 
-1. Looge rakenduste Dynamics 365 Guides PC ja HoloLens abil juhend. Juhendi loomise kohta lisateabe saamiseks vaadake järgmisi teemasid.
+1. Looge rakenduste Dynamics 365 Guides PC ja HoloLens abil juhend. Teavet juhendi loomise kohta vt järgmistest artiklitest:
 
     - [Kasutage juhendi loomiseks arvutirakendust](/dynamics365/mixed-reality/guides/pc-app-overview)
     - [Kasutage hologrammide paigutamiseks HoloLens-i rakendust](/dynamics365/mixed-reality/guides/hololens-app-overview)

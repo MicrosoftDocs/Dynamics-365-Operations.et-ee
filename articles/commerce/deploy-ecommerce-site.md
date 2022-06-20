@@ -1,6 +1,6 @@
 ---
 title: Uue e-kaubanduse rentniku juurutamine
-description: Selles teemas kirjeldatakse, kuidas juurutada uut Dynamics 365 Commerce'i e-kaubanduse saiti, kasutades teenust Microsoft Dynamics Lifecycle Services (LCS).
+description: See artikkel kirjeldab, kuidas juurutada uut Dynamics 365 Commerce e-äri saiti, kasutades elutsükli Microsoft Dynamics teenuseid (LCS).
 author: psimolin
 ms.date: 07/02/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b4b54e10cb4bd897b4c0706a13eeaf32f8892a05f7a09f3b27dbdd3dcdad1606
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7aee33a6322ada6de142ecf5b70ba81213ffb085
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750710"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884000"
 ---
 # <a name="deploy-a-new-e-commerce-tenant"></a>Uue e-kaubanduse rentniku juurutamine
 
 [!include [banner](includes/banner.md)]
 
-Selles teemas kirjeldatakse, kuidas juurutada uut Dynamics 365 Commerce'i e-kaubanduse saiti, kasutades teenust Microsoft Dynamics Lifecycle Services (LCS).
+See artikkel kirjeldab, kuidas juurutada uut Dynamics 365 Commerce e-äri saiti, kasutades elutsükli Microsoft Dynamics teenuseid (LCS).
 
 Microsoft Dynamicsi teenus Lifecycle Services (LCS) on pilvepõhine koostöö tööruum, mida partnerid ja kliendid saavad kasutada oma projektide ja keskkondade haldamiseks, Microsoft Dynamicsi toodete ja funktsioonide kohta uusima teabe vaatamiseks ning teenindusjuhtumite loomiseks, jälgimiseks ja sirvimiseks. E-kaubanduse haldusefunktsioonid on LCS-i integreeritud.
 

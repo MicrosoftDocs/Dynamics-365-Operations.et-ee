@@ -1,6 +1,6 @@
 ---
 title: Topeltkirjutuse häälestamise juhend
-description: Selle teema all kirjeldatakse stsenaariume, mida toetatakse kaksikkirjutamise seadistuseks.
+description: See artikkel kirjeldab stsenaariume, mida topeltkirjutuse seadistuses toetatakse.
 author: RamaKrishnamoorthy
 ms.date: 10/12/2020
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 6de449b14bcdd82336e3e255bf62ad069d3daaf5
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: a0d1b4e1f093874a8fd37cf7aadb331cd1e7adc4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061600"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873145"
 ---
 # <a name="guidance-for-dual-write-setup"></a>Topeltkirjutuse häälestamise juhend
 
@@ -24,102 +24,102 @@ ms.locfileid: "8061600"
 
 
 
-Saate seadistada topeltkirjutusühenduse finants- ja operatsioonide keskkonna ning Dataverse keskkonna vahel.
+Saate seadistada topeltkirjutuse ühenduse Finantside ja toimingute keskkonna ning keskkonna Dataverse vahel.
 
-+ **Finants- ja operatsioonide keskkond** pakub finance and Operationsi rakenduste **aluseks olevat platvormi**(nt Microsoft Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Dynamics 365 Commerce ja Dynamics 365 Human Resources).
++ Finantside **ja toimingute keskkond** on finantside ja **toimingute rakenduste aluseks olev** platvorm (Microsoft Dynamics nt 365 Finantsid, Dynamics 365 Supply Chain Management ja Dynamics 365 Commerce).Dynamics 365 Human Resources
 + **Teenuse Dataverse keskkond** loob aluseks oleva platvormi **klientide kaasamise rakenduste** jaoks (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 column Service, Dynamics 365 Marketing ja Dynamics 365 Project Service Automation).
 
 > [!IMPORTANT]
-> Dynamics 365 Financei inimressursside moodul toetab topeltkirjutuse ühendusi, kuid rakendus Dynamics 365 Human Resources ei luba seda.
+> Dynamics 365 Finance inimressursside moodul toetab topeltkirjutusega ühendusi, Dynamics 365 Human Resources kuid rakendus mitte.
 
 Seadistuse mehhanism erineb sõltuvalt teie tellimusest ja keskkonnast.
 
-+ Finance and Operationsi rakenduste uute eksemplaride puhul algab kahe kirjutamisühenduse seadistamine elutsükli teenustes Microsoft Dynamics (LCS). Kui teil on Microsoft Power Platformi litsents, saate uue Dataverse'i keskkonna, kui teie rentnikul seda ei ole.
-+ Olemasolevatel juhtudel Finance and Operationsi rakendused algab topeltkirjutusühenduse seadistamine keskkonnas Finance and Operations.
++ Finantside ja toimingute rakenduste uute eksemplaride puhul algab topeltkirjutuse ühenduse häälestamine elutsükli Microsoft Dynamics teenustes (LCS). Kui teil on Microsoft Power Platformi litsents, saate uue Dataverse'i keskkonna, kui teie rentnikul seda ei ole.
++ Olemasolevate eksemplaride Finance ja Operationsi rakenduste puhul algab topeltkirjutuse ühenduse häälestamine Finantside ja toimingute keskkonnas.
 
-Enne olemi topeltkirjutuse alustamist saate käivitada algse sünkroonimise, et käsitleda olemasolevaid andmeid mõlemalt poolt: Finance and Operationsi rakendused ja klientide kaasamise rakendused. Kui te ei pea nende kahe keskkonna vahel andmeid sünkroonima, saate algse sünkroonimise vahele jätta.
+Enne üksuse topeltkirjutuse käivitamist saate käivitada algse sünkroonimise, et käsitleda olemasolevaid andmeid mõlemal pool: finantside ja toimingute rakendused ja kliendi kaasamise rakendused. Kui te ei pea nende kahe keskkonna vahel andmeid sünkroonima, saate algse sünkroonimise vahele jätta.
 
 Algse sünkroonimisega saate kopeerida olemasolevad andmed kahesuunaliselt ühest rakendusest teise. Sõltuvalt sellest, millised keskkonnad teil on olemas ja millist tüüpi andmeid on nendes olemas, on mitu seadistuse stsenaariumi.
 
 Toetatud on järgmised seadistusstsenaariumid:
 
-+ [Uus Finance and Operationsi rakenduse eksemplar ja uus kliendi kaasamise rakenduse eksemplar](#new-new)
-+ [Uus Finance and Operationsi rakenduse eksemplar ja olemasolev kliendi kaasamise rakenduse eksemplar](#new-existing)
-+ [Uus Finance and Operationsi rakenduse eksemplar, millel on andmed ja uus kliendi kaasamise rakenduse eksemplar](#new-data-new)
-+ [Uus Finance and Operationsi rakenduse eksemplar, millel on andmed ja olemasolev kliendi kaasamise rakenduse eksemplar](#new-data-existing)
-+ [Olemasolev Finance and Operationsi rakenduse eksemplar ja uus kliendi kaasamise rakenduse eksemplar](#existing-new)
-+ [Olemasolev Finance and Operationsi rakenduse eksemplar ja olemasolev kliendi kaasamise rakenduse eksemplar](#existing-existing)
++ [Uus Finantside ja toimingute rakenduse eksemplar ning uus kliendi kaasamise rakenduse eksemplar](#new-new)
++ [Uus Finantside ja toimingute rakenduse eksemplar ja olemasolev kliendi kaasamise rakenduse eksemplar](#new-existing)
++ [Uus Finantside ja toimingute rakenduse eksemplar, kus on andmed ja uus kliendi kaasamise rakenduse eksemplar](#new-data-new)
++ [Uus Finantside ja toimingute rakenduse eksemplar, kus on andmed ja olemasolev kliendi kaasamise rakenduse eksemplar](#new-data-existing)
++ [Olemasolev Finantside ja toimingute rakenduse eksemplar ning uus kliendi kaasamise rakenduse eksemplar](#existing-new)
++ [Olemasolev finants- ja toimingute rakenduse eksemplar ja olemasolev kliendi kaasamise rakenduse eksemplar](#existing-existing)
 
-## <a name="a-new-finance-and-operations-app-instance-and-a-new-customer-engagement-app-instance"></a><a id="new-new"></a> Uus Finance and Operationsi rakenduse eksemplar ja uus kliendi kaasamise rakenduse eksemplar
+## <a name="a-new-finance-and-operations-app-instance-and-a-new-customer-engagement-app-instance"></a><a id="new-new"></a> Uus Finantside ja toimingute rakenduse eksemplar ning uus kliendi kaasamise rakenduse eksemplar
 
-Kahe kirjutamisühenduse loomiseks rakenduse Finance and Operations uue eksemplari vahel, millel pole andmeid, ja kliendi kaasamise rakenduse uue eksemplari vahel järgige Lifecycle Servicesi [topeltkirjutuse seadistuse juhiseid](lcs-setup.md). Kui ühenduse seadistus on lõpule viidud, toimuvad automaatselt järgmised toimingud.
+Topeltkirjutuse ühenduse seadistamiseks finants- ja operatsioonide rakenduse uue, andmeteta eksemplari ja kliendi kaasamise rakenduse uue eksemplari vahel järgige [elutsükli teenuste topeltkirjutuse häälestuse](lcs-setup.md) samme. Kui ühenduse seadistus on lõpule viidud, toimuvad automaatselt järgmised toimingud.
 
-- On ette nähtud uus tühi finants- ja toimingute keskkond.
+- Uus, tühi finantside ja toimingute keskkond on ette ettevalmistamises.
 - On ette valmistatud Customer Engagementi rakenduse uus tühi eksemplar, kus on installitud CRM-i pealahendus.
 - Kaksikkirjutamise ühendus on loodud DAT-ettevõtte andmetele.
 - Tabeli vastendused on lubatud reaalajas sünkroonimiseks.
 
 Mõlemad keskkonnad on seejärel valmis reaalaja andmete sünkroonimiseks.
 
-## <a name="a-new-finance-and-operations-app-instance-and-an-existing-customer-engagement-app-instance"></a><a id="new-existing"></a> Uus Finance and Operationsi rakenduse eksemplar ja olemasolev kliendi kaasamise rakenduse eksemplar
+## <a name="a-new-finance-and-operations-app-instance-and-an-existing-customer-engagement-app-instance"></a><a id="new-existing"></a> Uus Finantside ja toimingute rakenduse eksemplar ja olemasolev kliendi kaasamise rakenduse eksemplar
 
-Kahe kirjutamisühenduse loomiseks rakenduse Finance and Operations uue eksemplari vahel, millel pole andmeid, ja olemasoleva kliendi kaasamise rakenduse eksemplari vahel järgige Lifecycle Servicesi [topeltkirjutuse seadistuse juhiseid](lcs-setup.md). Kui ühenduse seadistus on lõpule viidud, toimuvad automaatselt järgmised toimingud.
+Topeltkirjutuse ühenduse seadistamiseks finants- ja operatsioonide rakenduse uue, andmeteta rakenduse ja olemasoleva kliendikogemuse rakenduse eksemplari vahel järgige [elutsükli teenuste topeltkirjutuse häälestuse samme](lcs-setup.md). Kui ühenduse seadistus on lõpule viidud, toimuvad automaatselt järgmised toimingud.
 
-- On ette nähtud uus tühi finants- ja toimingute keskkond.
+- Uus, tühi finantside ja toimingute keskkond on ette ettevalmistamises.
 - Kaksikkirjutamise ühendus on loodud DAT-ettevõtte andmetele.
 - Tabeli vastendused on lubatud reaalajas sünkroonimiseks.
 
 Mõlemad keskkonnad on seejärel valmis reaalaja andmete sünkroonimiseks.
 
-Olemasolevate Dataverse andmete sünkroonimiseks rakendusega Finance and Operations tehke järgmist.
+Et sünkroonida olemasolevaid Dataverse andmeid Finantside ja Toimingute rakendusega, järgige neid samme.
 
-1. Looge rakenduses Finance and Operations uus ettevõte.
+1. Uue ettevõtte loomine rakenduse finantside ja toimingute rakenduses.
 2. Lisage ettevõte kaksikkirjutamise ühenduse seadistusse.
 3. Rakendage[Bootstrap](bootstrap-company-data.md) Dataverse andmetele, kasutades kolmetähelist Rahvusvahelise standardiorganisatsiooni (ISO) ettevõttekoodi.
 4. Käivitage **Esmase sünkroonimise** funktsionaalsus tabelites, millele soovite andmeid sünkroonida.
 
-Linke näidete vaatamiseks ja alternatiivse lähenemise jaoks vaadake selles teemas hiljem jaotist [Näide](#example).
+Linke näitele ja alternatiivsele lähenemisele vt selle [artikli](#example) näitejaost.
 
-## <a name="a-new-finance-and-operations-app-instance-that-has-data-and-a-new-customer-engagement-app-instance"></a><a id="new-data-new"></a> Uus Finance and Operationsi rakenduse eksemplar, millel on andmed ja uus kliendi kaasamise rakenduse eksemplar
+## <a name="a-new-finance-and-operations-app-instance-that-has-data-and-a-new-customer-engagement-app-instance"></a><a id="new-data-new"></a> Uus Finantside ja toimingute rakenduse eksemplar, kus on andmed ja uus kliendi kaasamise rakenduse eksemplar
 
-Andmetega rakenduse Finance and Operations uue eksemplari ja kliendi kaasamise rakenduse uue eksemplari vahelise topeltkirjutusühenduse loomiseks järgige selles teemas [varem jaotises Uue finants- ja toimingute rakenduse eksemplari ja uue kliendi kaasamise rakenduse eksemplari](#new-new) juhiseid. Kui ühenduse häälestus on lõpule viidud, kui soovite andmeid sünkroonida Customer Engagementi rakendusega, toimige järgmiselt.
+Andmetega finants- ja operatsioonide rakenduse uue eksemplari vahelise topeltkirjutuse ühenduse loomiseks, mille andmed on kliendikogemuse rakenduse uue eksemplariga, [järgige käesoleva artikli varasemat etappi rakenduses Finantsid](#new-new) ja toimingud ja uues kliendikogemuse rakenduse eksemplaris. Kui ühenduse häälestus on lõpule viidud, kui soovite andmeid sünkroonida Customer Engagementi rakendusega, toimige järgmiselt.
 
-1. Avage rakendus Finance and Operations LCS lehelt, logige sisse ja seejärel minge **andmehalduse \> topeltkirjutamisse**.
+1. Avage finantside ja toimingute rakendus LCS-leheküljelt, logige sisse ja minge seejärel **\> andmehalduse topeltkirjutusse**.
 2. Käivitage **Esmase sünkroonimise** funktsionaalsus tabelites, millele soovite andmeid sünkroonida.
 
 Linke näidete vaatamiseks ja alternatiivse lähenemise jaoks vaadake jaotist [Näide](#example).
 
-## <a name="a-new-finance-and-operations-app-instance-that-has-data-and-an-existing-customer-engagement-app-instance"></a><a id="new-data-existing"></a> Uus Finance and Operationsi rakenduse eksemplar, millel on andmed ja olemasolev kliendi kaasamise rakenduse eksemplar
+## <a name="a-new-finance-and-operations-app-instance-that-has-data-and-an-existing-customer-engagement-app-instance"></a><a id="new-data-existing"></a> Uus Finantside ja toimingute rakenduse eksemplar, kus on andmed ja olemasolev kliendi kaasamise rakenduse eksemplar
 
-Andmetega rakenduse Finance and Operations uue eksemplari ja kliendi kaasamise rakenduse olemasoleva eksemplari vahelise topeltkirjutusühenduse loomiseks järgige selles teemas [varem rakenduses A new Finance and Operations eksemplari ja olemasoleva kliendi kaasamise rakenduse eksemplari](#new-existing) juhiseid. Kui ühenduse häälestus on lõpule viidud, kui soovite andmeid sünkroonida Customer Engagementi rakendusega, toimige järgmiselt.
+Andmetega finants- ja operatsioonide rakenduse uue eksemplari vahelise topeltkirjutuse ühenduse loomiseks, mille andmed on kliendikogemuse rakenduse olemasoleva eksemplariga, [järgige käesoleva artikli varasemat etappi rakenduses Finantsid](#new-existing) ja toimingud ja olemasoleva kliendi kaasamise rakenduse eksemplaris. Kui ühenduse häälestus on lõpule viidud, kui soovite andmeid sünkroonida Customer Engagementi rakendusega, toimige järgmiselt.
 
-1. Avage rakendus Finance and Operations LCS lehelt, logige sisse ja seejärel minge **andmehalduse \> topeltkirjutamisse**.
+1. Avage finantside ja toimingute rakendus LCS-leheküljelt, logige sisse ja minge seejärel **\> andmehalduse topeltkirjutusse**.
 2. Käivitage **Esmase sünkroonimise** funktsionaalsus tabelites, millele soovite andmeid sünkroonida.
 
-Olemasolevate Dataverse andmete sünkroonimiseks rakendusega Finance and Operations tehke järgmist.
+Et sünkroonida olemasolevaid Dataverse andmeid Finantside ja Toimingute rakendusega, järgige neid samme.
 
-1. Looge rakenduses Finance and Operations uus ettevõte.
+1. Uue ettevõtte loomine rakenduse finantside ja toimingute rakenduses.
 2. Lisage ettevõte kaksikkirjutamise ühenduse seadistusse.
 3. Rakendage[Bootstrap](bootstrap-company-data.md) Dataverse andmetele, kasutades kolmetähelist Rahvusvahelise standardiorganisatsiooni (ISO) ettevõttekoodi.
 4. Käivitage **Esmase sünkroonimise** funktsionaalsus tabelites, millele soovite andmeid sünkroonida.
 
 Linke näidete vaatamiseks ja alternatiivse lähenemise jaoks vaadake jaotist [Näide](#example).
 
-## <a name="an-existing-finance-and-operations-app-instance-and-a-new-customer-engagement-app-instance"></a><a id="existing-new"></a> Olemasolev Finance and Operationsi rakenduse eksemplar ja uus kliendi kaasamise rakenduse eksemplar
+## <a name="an-existing-finance-and-operations-app-instance-and-a-new-customer-engagement-app-instance"></a><a id="existing-new"></a> Olemasolev Finantside ja toimingute rakenduse eksemplar ning uus kliendi kaasamise rakenduse eksemplar
 
-Topeltkirjutusühenduse seadistamine rakenduse Finance and Operations olemasoleva eksemplari ja kliendi kaasamise rakenduse uue eksemplari vahel toimub finants- ja toimingukeskkonnas.
+Finantside ja toimingute rakenduse olemasoleva eksemplari ja kliendi kaasamise rakenduse uue eksemplari vahel toimub finants- ja toimingukeskkonnas topeltkirjutusega ühenduse seadistus.
 
-1. [Ühenduse häälestamine rakendusest](enable-dual-write.md) Finance and Operations.
+1. [Häälestage ühendus rakendusest Finantsid ja Toimingud](enable-dual-write.md).
 2. Käivitage **Esmase sünkroonimise** funktsionaalsus tabelites, millele soovite andmeid sünkroonida.
 
 Linke näidete vaatamiseks ja alternatiivse lähenemise jaoks vaadake jaotist [Näide](#example).
 
-## <a name="an-existing-finance-and-operations-app-instance-and-an-existing-customer-engagement-app-instance"></a><a id="existing-existing"></a> Olemasolev Finance and Operationsi rakenduse eksemplar ja olemasolev kliendi kaasamise rakenduse eksemplar
+## <a name="an-existing-finance-and-operations-app-instance-and-an-existing-customer-engagement-app-instance"></a><a id="existing-existing"></a> Olemasolev finants- ja toimingute rakenduse eksemplar ja olemasolev kliendi kaasamise rakenduse eksemplar
 
-Topeltkirjutusühenduse seadistamine rakenduse Finance and Operations olemasoleva eksemplari ja kliendi kaasamise rakenduse olemasoleva eksemplari vahel toimub finants- ja operatsioonikeskkonnas.
+Finantside ja toimingute rakenduse olemasoleva eksemplari ja kliendi kaasamise rakenduse olemasoleva eksemplari vahel toimub finants- ja toimingukeskkonnas topeltkirjutusega ühenduse seadistus.
 
-1. [Ühenduse häälestamine rakendusest](enable-dual-write.md) Finance and Operations.
-2. Olemasolevate Dataverse andmete sünkroonimiseks rakendusega [Finance and Operations käivitage](bootstrap-company-data.md)Dataverse andmed kolmetähelise ISO-ettevõtte koodi abil.
+1. [Häälestage ühendus rakendusest Finantsid ja Toimingud](enable-dual-write.md).
+2. Olemasolevate andmete sünkroonimiseks Dataverse rakendusega Finantsid ja Toimingud laiendage [andmed](bootstrap-company-data.md)Dataverse kolmetäheline ISO-koodi kasutades.
 3. Käivitage **Esmase sünkroonimise** funktsionaalsus tabelites, millele soovite andmeid sünkroonida.
 
 Linke näidete vaatamiseks ja alternatiivse lähenemise jaoks vaadake jaotist [Näide](#example).

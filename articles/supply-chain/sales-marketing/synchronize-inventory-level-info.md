@@ -1,6 +1,6 @@
 ---
 title: Varude taseme teabe sünkroonimine rakendusest Supply Chain Management rakendusse Field Service
-description: Selles teemas käsitletakse malle ja aluseks olevaid ülesandeid, mida kasutatakse varude tasemel teabe sünkroonimiseks rakendusest Dynamics 365 Supply Chain Management rakendusse Dynamics 365 Field Service.
+description: See artikkel käsitleb malle ja aluseks olevaid ülesandeid, mida kasutatakse laotaseme teabe sünkroonimiseks alates Dynamics 365 Supply Chain Management Dynamics 365 Field Service.
 author: Henrikan
 ms.date: 05/07/2019
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 8dfba2d2dc2fdd4af136e3cb20061d794369011f
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: fc14fc63bc1a69a57b10f39b2cb9fb8014e6f70b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060941"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844789"
 ---
 # <a name="synchronize-inventory-level-information-from-supply-chain-management-to-field-service"></a>Varude taseme teabe sünkroonimine rakendusest Supply Chain Management rakendusse Field Service 
 
@@ -29,7 +29,7 @@ ms.locfileid: "8060941"
 
 
 
-Selles teemas käsitletakse malle ja aluseks olevaid ülesandeid, mida kasutatakse varude tasemel teabe sünkroonimiseks rakendusest Dynamics 365 Supply Chain Management rakendusse Dynamics 365 Field Service.
+See artikkel käsitleb malle ja aluseks olevaid ülesandeid, mida kasutatakse laotaseme teabe sünkroonimiseks alates Dynamics 365 Supply Chain Management Dynamics 365 Field Service.
 
 [![Äriprotsesside sünkroniseerimine rakenduste Supply Chain Management ja Field Service vahel.](./media/FSOnHandOW.png)](./media/FSOnHandOW.png)
 
@@ -64,7 +64,7 @@ Rakenduses Field Service loob integratsioonilahendus deltale varude töölehed, 
 
 Rakendus Supply Chain Management toimib kaubavarude tasemete koondina. Seega on oluline seadistada töökäskude, üleviimiste ja korrigeerimiste integreerimine rakendusest Field Service rakendusse Supply Chain Management kui seda funktsiooni kasutatakse rakenduses Field Service koos varude tasemete sünkroonimisega rakendusest Supply Chain Management.
 
-Tooteid ja ladusid, kus varude tasemed on tarneahela haldusest õppinud, saab juhtida täpsema päringu ja filtreerimisega (Power Query).
+Neid tooteid ja ladusid, kus laotasemed on tarneahela halduses koondunud, saab juhtida täpsema päringu ja filtreerimise () abil Power Query.
 
 > [!NOTE]
 > Rakenduses Field Service on võimalik luua mitmeid ladusid (seadistusega **On väliselt hallatav = Ei**) ja seejärel vastendada need ühe laoga rakenduses Supply Chain Management koos täpsema päringu ja filtreerimise funktsiooniga. Seda kasutakse olukordades, kus soovite, et rakendus Field Service koondab üksikasjaliku varude taseme ja saadab ainult värskendused rakendusse Supply Chain Management. Sellisel juhul ei saa Field Service varude taseme värskendusi rakendusest Supply Chain Management. Lisateavet vt teemadest [Varude korrigeerimiste sünkroonimine rakendusest Field Service rakendusse Supply Chain Management](/dynamics365/unified-operations/supply-chain/sales-marketing/synchronize-inventory-adjustments) ja [Töökäskude sünkroonimine rakenduses Field Service rakenduses Supply Chain Management projektiga seotud müügitellimustega](/dynamics365/unified-operations/supply-chain/sales-marketing/field-service-work-order).

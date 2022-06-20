@@ -1,6 +1,6 @@
 ---
 title: Laotöö töötlemise edasilükkamine
-description: Selles teemas kirjeldatakse funktsioone, mis muudavad edasilükatud lao tööüksuse toimingute töötlemise saadavaks rakenduses  Dynamics 365 Supply Chain Management.
+description: See artikkel kirjeldab funktsioone, mis teeb laotöö panemistoimingute hilisema töötlemise kättesaadavaks Dynamics 365 Supply Chain Management.
 author: Mirzaab
 ms.date: 11/18/2019
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2019-6-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f99e960ffe7ca383563cc49c2e0825592ef5de57
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f4eeea0805c2cecedbd6b42926191ab02022df9f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577860"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899291"
 ---
 # <a name="deferred-processing-of-warehouse-work"></a>Laotöö töötlemise edasilükkamine
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas kirjeldatakse funktsioone, mis muudavad edasilükatud lao tööüksuse asetamistoimingute töötlemise saadavaks rakenduses Dynamics 365 Supply Chain Management.
+See artikkel kirjeldab funktsioone, mis teeb laotöö panemistoimingute edasilükkunud töötlemise kättesaadavaks Dynamics 365 Supply Chain Management.
 
 Edasilükatud töötlemise funktsioon võimaldab laotöötajatel jätkata muude töödega, kui asetamistoiminguid taustal töödeldakse. Edasilükatud töötlemine on kasulik, kui palju tööridu tuleb töödelda ja töötaja saab lasta selle töö töödelda asünkroonselt. See on kasulik ka siis, kui serveris võib olla töötlusaja ad-hoc plaaniväline suurenemine ja suurenenud töötlusaeg võib mõjutada kasutaja tootlikkust.
 

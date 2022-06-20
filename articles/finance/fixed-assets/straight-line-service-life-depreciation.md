@@ -1,6 +1,6 @@
 ---
 title: Kasuliku eluea lineaarne kulum
-description: See teema annab ülevaate amortisatsiooni sirge kasutusea meetodist.
+description: Selles artiklis antakse ülevaade kulumiarvestusmeetodist Lineaarne kasulik eluiga.
 author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d39bfea3f222d83d3b3d47e4ba931521b8e1aed0
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 8766d38958ccb17142132fb78d04368f1b73af71
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726665"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896459"
 ---
 # <a name="straight-line-service-life-depreciation"></a>Kasuliku eluea lineaarne kulum
 
 [!include [banner](../includes/banner.md)]
 
-See teema annab ülevaate amortisatsiooni sirge kasutusea meetodist.
+Selles artiklis antakse ülevaade kulumiarvestusmeetodist Lineaarne kasulik eluiga.
 
 Kui seadistate põhivara kulumireegli ja valite lehe Kulumireeglid väljal Meetod suvandi Tööeapõhine lineaarne, arvutatakse varad, millele on määratud see kulumiprofiil, vara kogu tööea põhjal. Tavaliselt on sel juhul kõigi kulumiperioodide kulumisumma ühesuurune. 
 
@@ -41,7 +41,7 @@ Saate lehe Kulumireeglid väljalt Kulumiarvestusaasta valida kas suvandi Kalende
 
 Kui valite suvandi Kalender, arvestatakse aastana perioodi 1. jaanuarist kuni 31. detsembrini, isegi kui olete määratlenud rahanduskalendri teisiti. 
 
-Suvandiga Kalender värskendatakse iga aasta 1. jaanuaril kulumiarvestuse alust, mis on tavaliselt raamatupidamislik jääkväärtus miinus likvideerimisväärtus. Selle teema edasistes näidetes on kulumiarvestuse alus arvutuste veeru esimese avaldise esimene liige. 
+Suvandiga Kalender värskendatakse iga aasta 1. jaanuaril kulumiarvestuse alust, mis on tavaliselt raamatupidamislik jääkväärtus miinus likvideerimisväärtus. Selles artikli näites on kulumiarvestuse alus arvutusveeru avaldise esimeseks lugejaks. 
 
 Valides suvandi Kalender on teil kalendriaasta kulumisumma jaotust ja selle sisestuskuupäevi määratleval väljal Perioodi sagedus saadaval järgmised suvandid.
 - Sisestamine kord aastas (31. detsembril).

@@ -1,6 +1,6 @@
 ---
-title: Täiustatud koormuse koostamine voo ajal
-description: Selles teemas antakse teavet täiustatud voo koormuse koostamise kohta, mis määrab voo käivitamise ajal saadetised automaatselt olemasolevatele voogudele. Seeläbi saate luua olulisi koormaid, mis tähistavad veokeid, ilma et peaksite kasutama koorma planeerimise töölauda.
+title: Täiustatud koorma koostamine voo ajal
+description: See artikkel annab teavet täpsema laine koorma loomise kohta, mis määrab voo käivitamise käigus automaatselt olemasolevatele lainetele saadetised. Seeläbi saate luua olulisi koormaid, mis tähistavad veokeid, ilma et peaksite kasutama koorma planeerimise töölauda.
 author: Mirzaab
 ms.date: 07/01/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 0dafac981bcdec307de6dc202f557e7b8837ae2e
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 3a630a7f388e0bbb6fee96e4de753b2380d305c3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670513"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863762"
 ---
 # <a name="advanced-load-building-during-wave"></a>Täiustatud koormuse koostamine voo ajal
 
@@ -220,7 +220,7 @@ Saate seadistada nii palju koormuse koostamismalle kui vaja. Kuid täiustatud vo
 
 ## <a name="scenario"></a>Stsenaarium
 
-Selles stsenaariumis näidatakse, kuidas selles teemas eelnevalt kirjeldatud sätted mõjutavad laotoiminguid müügitellimuse töötlemise ajal. See stsenaarium kasutab demoandmeid **USMF** koos teiste demoväärtustega, mis on esitatud nendes seadistuse juhistes.
+See stsenaarium näitab, kuidas varem selles artiklis kirjeldatud sätted mõjutavad laotoiminguid müügitellimuse töötlemisel. See stsenaarium kasutab demoandmeid **USMF** koos teiste demoväärtustega, mis on esitatud nendes seadistuse juhistes.
 
 ### <a name="create-sales-orders"></a>Müügitellimuste loomine
 

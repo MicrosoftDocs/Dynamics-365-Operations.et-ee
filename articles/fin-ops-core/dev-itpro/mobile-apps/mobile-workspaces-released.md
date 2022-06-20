@@ -1,6 +1,6 @@
 ---
 title: Saadavalolevad mobiilsed tööruumid
-description: Selles teemas esitatakse saadaolevate mobiilsete tööruumide loend.
+description: Selles artiklis loetletakse mobiilsed tööruumid, mis on kasutamiseks saadaval.
 author: sericks007
 ms.date: 05/24/2022
 ms.topic: article
@@ -12,19 +12,19 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 4398bd8cf944ef11a0463d937aeaa3b5cc109142
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: 79abd22bab9ec88358fa039060a67006fc53cb5d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811000"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868636"
 ---
 # <a name="available-mobile-workspaces"></a>Saadavalolevad mobiilsed tööruumid
 
 [!include [banner](../includes/banner.md)]
 [!include [mobile app deprecation](../includes/mobile-app-deprecation-banner.md)]
 
-Selles teemas loetletakse mobiilsed tööruumid, mis on saadaval kasutamiseks rakenduseGa Finantsid ja toimingud (Dynamics 365). Allolevas tabelis näidatakse iga mobiilse tööruumi amortiseerimisplaani selles mõttes, kas asenduskogemus on planeeritud või mitte.  
+Selles artiklis loetletakse mobiilsed tööruumid, mis on saadaval kasutamiseks mobiilirakendusega Finantsid ja toimingud (Dynamics 365). Allolevas tabelis näidatakse iga mobiilse tööruumi amortiseerimisplaani selles mõttes, kas asenduskogemus on planeeritud või mitte.  
 
 
 | Mobiilne tööruum     | Kirjeldus   | Amortiseerimisplaan   |

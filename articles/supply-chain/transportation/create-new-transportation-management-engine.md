@@ -1,6 +1,6 @@
 ---
 title: Uue transpordihalduse mootori loomine
-description: See teema kirjeldab, kuidas luua uus transpordihalduse mootor moodulis Dynamics 365 Supply Chain Management.
+description: See artikkel kirjeldab, kuidas luua uus transpordihalduse mootor Dynamics 365 Supply Chain Management.
 author: Weijiesa
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: be52c6afb66e88b36f3b2cdf5af14e17b3d3005f
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 627972ef6afb7551bb57821ded24183f8f335e9b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678118"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857253"
 ---
 # <a name="create-a-new-transportation-management-engine"></a>Uue transpordihalduse mootori loomine
 
 [!include [banner](../includes/banner.md)]
 
-See teema kirjeldab, kuidas luua uus transpordihalduse mootor moodulis Dynamics 365 Supply Chain Management. 
+See artikkel kirjeldab, kuidas luua uus transpordihalduse mootor Dynamics 365 Supply Chain Management. 
 
 Transpordihalduse (TMS) mootorid määratlevad loogika, mida kasutatakse transpordihindade loomiseks ja töötlemiseks transpordihalduse moodulis. Supply Chain Management pakub mitut erinevat tüüpi mootoritüüpe, mis arvutavad erinevaid parameetreid, nagu määrad, transiitajad ja transiidi ajal risttamistsoonide arv. See artikkel selgitab, kuidas kasutada Microsoft Visual Studio arenduskeskkonda koos Supply Chain Management arendustööriistadega, et luua ja juurutada uus TMS-i mootor ning kuidas seejärel mootorit operatsioonides seadistada. Lisateavet mootorite kohta vt [transpordihalduse mootoritest](transportation-management-engines.md).
 

@@ -1,6 +1,6 @@
 ---
 title: Tagastustellimuse tagasimakse on tagasi lükatud
-description: See teema annab tõrkeotsingu juhised, mis võivad aidata, kui tagastustellimusel tagasimakse lükatakse tagasi, sest arveldamiseks kasutatav krediitkaart erineb algse makse autoriseerimisel kasutatud kaardist.
+description: See artikkel annab tõrkeotsingu juhised, mis aitavad, kui tagastustellimusel tagasimakse lükatakse tagasi, kuna arveldamiseks kasutatav krediitkaart erineb algse makse autoriseerimisel kasutatud kaardist.
 author: Reza-Assadi
 ms.date: 03/11/2021
 ms.topic: Troubleshooting
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 8880d72d702758d611755bce48a331e3f2e28ca1b7abf485e8b4f7301317c875
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8360be76fe5ef5ddfbcf290cf6272825bc1849f7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738620"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879973"
 ---
 # <a name="refund-on-a-return-order-is-declined"></a>Tagastustellimuse tagasimakse on tagasi lükatud
 
 [!include [banner](../../includes/banner.md)]
 
-See teema annab tõrkeotsingu juhised, mis võivad aidata, kui tagastustellimusel tagasimakse lükatakse tagasi, sest arveldamiseks kasutatav krediitkaart erineb algse makse autoriseerimisel kasutatud kaardist.
+See artikkel annab tõrkeotsingu juhised, mis aitavad, kui tagastustellimusel tagasimakse lükatakse tagasi, kuna arveldamiseks kasutatav krediitkaart erineb algse makse autoriseerimisel kasutatud kaardist.
 
 ## <a name="description"></a>Kirjeldus
 

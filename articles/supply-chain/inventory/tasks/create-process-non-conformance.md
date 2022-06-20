@@ -1,6 +1,6 @@
 ---
 title: Mittevastavuste loomine ja töötlemine
-description: Selles teemas tutvustatakse, kuidas teha mittevastavuse haldust olemasoleva kvaliteettellimuse põhjal.
+description: See artikkel kirjeldab, kuidas viia läbi mittevastavuse haldust olemasoleva kvaliteettellimuse alusel.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 032f5b712c2be5312524129cd25e655e778f5f44
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: dd8a10e88ab4d1be24a11739dddd7619b3fa6bbc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580860"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901962"
 ---
 # <a name="create-and-process-nonconformances"></a>Mittevastavuste loomine ja töötlemine
 
 [!include [banner](../../includes/banner.md)]
 
-Selles teemas tutvustatakse, kuidas teha mittevastavuse haldust olemasoleva kvaliteettellimuse põhjal. Mittevastavuse haldust viib tavaliselt läbi kvaliteediametnik. Eeltingimusena peab teil olema saadaval kvaliteettellimus. (Lisateavet kvaliteettellimuse loomise kohta vt teemast [Kaupade kvaliteedi kontrollimine ](inspect-quality-goods.md).)
+See artikkel kirjeldab, kuidas viia läbi mittevastavuse haldust olemasoleva kvaliteettellimuse alusel. Mittevastavuse haldust viib tavaliselt läbi kvaliteediametnik. Eeltingimusena peab teil olema saadaval kvaliteettellimus. (Lisateavet kvaliteettellimuse loomise kohta vt teemast [Kaupade kvaliteedi kontrollimine ](inspect-quality-goods.md).)
 
 Enne, kui kasutaja saab mittevastavuse kinnitamist töödelda, peab töötaja olema määratud talle lehel **Kasutajad** oleval väljal **Isik**. Lisaks tuleb enne kasutajal dokumendi märkuste kasutamist kasutajavalikutes seada valik **Luba dokumendi käsitlemine** väärtusele *Jah*.
 

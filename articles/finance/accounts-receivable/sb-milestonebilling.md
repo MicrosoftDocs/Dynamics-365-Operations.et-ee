@@ -1,6 +1,6 @@
 ---
 title: Vahe-etapi mallid
-description: See teema kirjeldab, kuidas seadistada kordustellimuse arvelduse vahe-eesmärgi arveldusega seotud teavet.
+description: See artikkel selgitab, kuidas seadistada kordustellimuse arvelduse vahe-eesmärgi arveldusega seotud teavet.
 author: JodiChristiansen
 ms.date: 11/04/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: ecc4ddbb4d22eefac36f8cf8205d3b6084bd7d9d
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: d3c2cf751e4998c73bc3816e5b81e8d5963c8e53
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686487"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856766"
 ---
 # <a name="milestone-billing"></a>Etapiviisiline arveldus
 
 [!include [banner](../includes/banner.md)]
 
-See teema kirjeldab, kuidas määrata malle kordustellimuse arvelduse vahe-eesmärgi arveldusfunktsiooni jaoks. Vahe-eesmärgi malli iga rea jaoks saate määrata eraldamise protsendi või summa. Seejärel saate vahe-eesmärgi malli määrata arveldusgraafiku kaupadele, mis kasutavad vahe-eesmärgi arveldusfunktsiooni.
+See artikkel selgitab, kuidas määrata malle kordustellimuse arvelduse vahe-eesmärgi arveldusfunktsioonide jaoks. Vahe-eesmärgi malli iga rea jaoks saate määrata eraldamise protsendi või summa. Seejärel saate vahe-eesmärgi malli määrata arveldusgraafiku kaupadele, mis kasutavad vahe-eesmärgi arveldusfunktsiooni.
 
 ## <a name="add-a-template"></a>Malli lisamine
 

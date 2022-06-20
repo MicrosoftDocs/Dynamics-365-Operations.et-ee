@@ -1,6 +1,6 @@
 ---
 title: Küsimustikud
-description: Selles teemas on üldine teave küsimustike kohta ja lingid täpsema teabe juurde.
+description: Selles artiklis on üldine teave küsimustike kohta ja lingid täpsema teabe juurde.
 author: twheeloc
 ms.date: 10/28/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: efe0ac953e5c1cb04044256e799ecfc07cf3eebe
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: de38bcbfc89479d6b643ca5ee256c38c88fa7f69
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690746"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897889"
 ---
 # <a name="questionnaires"></a>Küsimustikud
 
@@ -28,7 +28,7 @@ ms.locfileid: "8690746"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Selles teemas on üldine teave küsimustike kohta ja lingid täpsema teabe juurde. Küsimustik on küsimuste kogum, mida kasutatakse teabe kogumiseks erinevatel eesmärkidel. Saate küsimusi kavandada, luua, jaotada ja täita ning seejärel tulemusi analüüsida. 
+Selles artiklis on üldine teave küsimustike kohta ja lingid täpsema teabe juurde. Küsimustik on küsimuste kogum, mida kasutatakse teabe kogumiseks erinevatel eesmärkidel. Saate küsimusi kavandada, luua, jaotada ja täita ning seejärel tulemusi analüüsida. 
 
 Saate kohandada küsimustikku, et see sobiks teie konkreetsete nõuetega, kasutades erinevaid funktsioone, mis on saadaval Microsoft Dynamics 365 Finantsis. Siin on mõned näited küsimustike kasutamise kohta.
 
@@ -40,11 +40,11 @@ Saate kohandada küsimustikku, et see sobiks teie konkreetsete nõuetega, kasuta
 
 Järgmises tabelis on lingid küsimustike põhitoimingute teabe juurde. Lisateabe saamiseks klõpsake linke.
 
-| Teema| Kirjeldus|
+| Artikkel | Kirjeldus|
 |------|------------|
-| [Küsimustiku kujundamine](hr-learning-design-questionnaires.md) | Selles teemas antakse teavet küsimustiku kujundamise kohta. Kavandamisprotsess hõlmab eeltingimuste, vastuste ja küsimuste seadistamist ning seejärel nende küsimustikku paigutamist. |
-| [Küsimustike jaotamine ja kavandamine](hr-learning-distribute-questionnaires.md) | Selles teemas antakse teavet selle kohta, kuidas jaotada küsimustikku vastajatele ja kuidas küsimustikke täita. |
-| [Küsimustiku tulemuste vaatamine ja hindamine](hr-learning-evaluate-questionnaire-results.md) | See teema annab teavet täidetud küsimustike tulemuste vaatamise ja hindamise kohta. |
+| [Küsimustiku kujundamine](hr-learning-design-questionnaires.md) | See artikkel annab teavet küsimustiku kavandamise kohta. Kavandamisprotsess hõlmab eeltingimuste, vastuste ja küsimuste seadistamist ning seejärel nende küsimustikku paigutamist. |
+| [Küsimustike jaotamine ja kavandamine](hr-learning-distribute-questionnaires.md) | Selles artiklis on teave selle kohta, kuidas küsimustikku vastajatele saata ja kuidas küsimustikke täita. |
+| [Küsimustiku tulemuste vaatamine ja hindamine](hr-learning-evaluate-questionnaire-results.md) | Selles artiklis on teave selle kohta, kuidas täidetud küsimustike tulemusi vaadata ja hinnata. |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

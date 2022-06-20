@@ -1,6 +1,6 @@
 ---
 title: Hõlbustusfunktsioonid ja -võimalused
-description: Selles teemas kirjeldatakse rakenduse Microsoft Microsoft Dynamics 365 Commerce hõlbustusfunktsioone ja -võimalusi.
+description: See artikkel annab teavet juurdepääsufunktsioonide ja võimaluste kohta Microsoft Dynamics 365 Commerce.
 author: BrianShook
 ms.date: 04/14/2020
 ms.topic: article
@@ -14,24 +14,24 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 77c5b2e40c3dd16b95afe421d4515c45af0e81358940c29a14c03754c39a076e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8f4e73ebaf6dc3fc6eb97f69df8545c9ab9fa9df
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716272"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853898"
 ---
 # <a name="accessibility-features-and-capabilities"></a>Hõlbustusfunktsioonid ja -võimalused
 
 [!include [banner](includes/banner.md)]
 
-Selles teemas kirjeldatakse rakenduse Microsoft Microsoft Dynamics 365 Commerce hõlbustusfunktsioone ja -võimalusi.
+See artikkel annab teavet juurdepääsufunktsioonide ja võimaluste kohta Microsoft Dynamics 365 Commerce.
 
 Hõlbustusfunktsioonid ja -võimalused annavad kõigile kasutajatele funktsionaalsed vahendid juurdepääsuks ja toimingute tegemiseks, et nad saaksid täita oma eesmärke. See lai kasutajate hulk võib nõuda abistavaid tööriistu kuulmiseks, nägemiseks, liikuvuseks või neurodiversiteediks.
 
 Erinevad funktsioonid Dynamics 365 Commerce võimaldavad teil oma saiti ehitada nii, et see hõlmaks abistavat funktsiooni. Saidi kujundamisel peaksite arvestama hõlbustusfunktsioonide funktsionaalsuse aladega, mis on nimetatud [Microsoft Accessibility Centeris ](https://www.microsoft.com/accessibility). 
 
-Selles teemas kirjeldatakse hõlbustusfunktsioonide funktsionaalsuse täiendavaid valdkondi, mida peaksite kasutama Dynamics 365 Commerce.
+See artikkel kirjeldab mõningaid juurdepääsufunktsioonide lisaalasid, mida peaksite arvestama, kui kasutate Dynamics 365 Commerce.
 
 ## <a name="image-alt-text"></a>Pildi alt tekst
 

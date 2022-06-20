@@ -1,6 +1,6 @@
 ---
 title: Rendi kinnitamise töövoogude kasutamine
-description: Selles teemas selgitatakse, kuidas kasutada töövooge vara rentimise kinnitamiseks ja kuidas jälgida töövoogude olekut ja ajalugu.
+description: See artikkel selgitab, kuidas kasutada töövooge põhivara liisimise kinnitamiseks ning kuidas jälgida töövoogude olekut ja ajalugu.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 0b35dfa599895cb39cdd6a0a95fdcdcc54c45044
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 4205b83919f0b3c30a4b5d8e3290af230f538f39
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8724921"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906438"
 ---
 # <a name="use-lease-approval-workflows"></a>Rendi kinnitamise töövoogude kasutamine
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas selgitatakse, kuidas kasutada töövooge vara rentimise kinnitamiseks ja kuidas jälgida töövoogude olekut ja ajalugu. Töövood aitavad viia rendilepingute kinnitamise halduse vastavusse, pakkudes standardset kinnitamise etappide komplekti ja määrates kindlad kasutajad igat protsessi etappi kinnitama. Kinnitaja saab rendilepingu kinnitada, selle tagasi lükata, taotleda selle muutmist või määrata selle teisele kasutajale kinnitamiseks. Töövood võivad tuua kinnitamise protsessi ka rohkem nähtavust, võimaldades teil nende olekut ja ajalugu jälgida. Lisaks saate vaadata tsentraliseeritud tööloendit, milles loetletakse kindlatele kinnitajatele määratud ülesanded ja kinnitused.
+See artikkel selgitab, kuidas kasutada töövooge põhivara liisimise kinnitamiseks ning kuidas jälgida töövoogude olekut ja ajalugu. Töövood aitavad viia rendilepingute kinnitamise halduse vastavusse, pakkudes standardset kinnitamise etappide komplekti ja määrates kindlad kasutajad igat protsessi etappi kinnitama. Kinnitaja saab rendilepingu kinnitada, selle tagasi lükata, taotleda selle muutmist või määrata selle teisele kasutajale kinnitamiseks. Töövood võivad tuua kinnitamise protsessi ka rohkem nähtavust, võimaldades teil nende olekut ja ajalugu jälgida. Lisaks saate vaadata tsentraliseeritud tööloendit, milles loetletakse kindlatele kinnitajatele määratud ülesanded ja kinnitused.
 
 Enne selle protseduuri kasutamist veenduge, et loodud on vähemalt üks rendilepingu kinnitamise töövoog. Kui ühtegi töövoogu pole olemas, looge see. Lisateavet töövoo seadistamise kohta vaadake jaotisest [Rendilepingu kinnitamise töövoogude seadistamine](set-up-lease-wrkflw.md).
 

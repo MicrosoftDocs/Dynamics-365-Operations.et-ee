@@ -1,6 +1,6 @@
 ---
 title: Rootsi Intrastat
-description: See teema sisaldab teavet Rootsi Intrastati aruandluse kohta.
+description: See artikkel sisaldab teavet Intrastat-aruandluse kohta Rootsis.
 author: anasyash
 ms.date: 8/24/2021
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: kfend
 ms.search.region: Global
 ms.author: anasyash
 ms.search.validFrom: ''
-ms.openlocfilehash: 1031b93950e44fe3b1b6254bf1503b4c09d6fd10
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: a81f0c19923d1a4747c2ecb8ab03dd86b45497ad
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727394"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886256"
 ---
 # <a name="swedish-intrastat"></a>Rootsi Intrastat
 
@@ -43,7 +43,7 @@ Lisateavet leiate teemast [ER konfiguratsioonide allalaadimine konfiguratsioonit
 
 ## <a name="set-up-foreign-trade-parameters"></a>Väliskaubanduse parameetrite häälestamine
 
-1. Finantsis Microsoft Dynamics 365 minge **TaxSetupForeign** > **·** > **kaubandusparameetritele**.
+1. Finantside Microsoft Dynamics 365 puhul minge **väliskaubanduse** > **maksu** > **seadistamise parameetritele**.
 2. Vahekaardil **Intrastat** kiirkaardi **Elektrooniline aruandlus** väljal **Failivormingu vastendamine**, valige **Intrastat (SE)**.
 3. Sisestage või valige väärtus **Intrastati aruanne** väljal **Aruandevormingu vastendamine**.
 4. Valige kiirkaardi **Kaubaartikli hierarhia** väljal **Kategooriahierarhia** väärtus **Intrastat**.

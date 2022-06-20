@@ -1,6 +1,6 @@
 ---
 title: Vara vea kulujuhtimine
-description: Selles teemas selgitatakse vara vea kulujuhtimist Varahalduses.
+description: See artikkel selgitab varahalduses vara tõrke kulu juhtimist.
 author: johanhoffmann
 ms.date: 08/23/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3c36fc791fac6cce0433935adb88eb8cdc23003368204a87efc12cf5a419ec9d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 553b89a43b656669b7730b19898f3a5d81a3873a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752029"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889660"
 ---
 # <a name="asset-fault-cost-control"></a>Vara vea kulujuhtimine
 
@@ -58,7 +58,7 @@ Selles näites kuvatakse vara vea kulujuhtimise arvutamist.
 
     ![Joonis 1.](media/05-controlling-and-reporting.png)
 
-Teavet vigade häälestamise kohta vaadake teemast [Veahaldus](../setup-for-work-orders/fault-management.md).
+Tõrkeid seadistamist vt tõrkehalduse [artiklist](../setup-for-work-orders/fault-management.md).
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

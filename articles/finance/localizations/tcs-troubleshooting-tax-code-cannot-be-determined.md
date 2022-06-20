@@ -1,6 +1,6 @@
 ---
-title: Maksukoodi ei saa määrata.
-description: See teema kirjeldab, kuidas sooritada maksuarvestuse teenuses tõrke "Maksukoodi ei saa määrata" tõrkeotsingut.
+title: Maksukoodi ei saa määrata
+description: See artikkel selgitab, kuidas sooritada maksuarvutusteenuses tõrke "Maksukoodi ei saa määrata" tõrkeotsingut.
 author: hangwan
 ms.date: 03/25/2022
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: hangwan
 ms.search.validFrom: 03/23/2022
 ms.dyn365.ops.version: Version 10.0.21
-ms.openlocfilehash: 3c0914f0013ad2de61cd5a59e3092fef149742e4
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 6a74724de38cf362900277ab9addc8e6894f7689
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8648139"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877855"
 ---
-# <a name="tax-code-cannot-be-determined"></a>Maksukoodi ei saa määrata.
+# <a name="tax-code-cannot-be-determined"></a>Maksukoodi ei saa määrata
 
 [!include [banner](../includes/banner.md)]
 
-See teema selgitab tõrkeotsingu etappe, mida saate maksu arvutamise teenuses tõrke "Maksukoodi ei saa määrata" korral ette võtta.
+See artikkel selgitab tõrkeotsingu samme, mida saate ette võtta, kui saate maksuarvutuse teenuses tõrke Maksukood ei saa määrata.
 
 ## <a name="symptom"></a>Sümptom
 
@@ -121,10 +121,10 @@ Järgige neid samme probleemi tõrkeotsinguks.
 
 ## <a name="mitigation"></a>Vähendamine
 
-1. Läbige selle teema tõrkeotsingu [jaotises](#troubleshoot) kõik etapid ja parandage seadistus vastavalt vajadusele. Kui maksugrupp ja kauba käibemaksugrupp pole õigesti määratletud, [vt ühtivad tulemused puuduvad](tcs-troubleshooting-no-matching-result.md).
+1. Läbige selle artikli tõrkeotsingu jaotises [kõik](#troubleshoot) etapid ja parandage seadistus vastavalt vajadusele. Kui maksugrupp ja kauba käibemaksugrupp pole õigesti määratletud, [vt ühtivad tulemused puuduvad](tcs-troubleshooting-no-matching-result.md).
 2. Kui maksugrupi ja kauba maksugrupi kohta pole ühtegi ristsektsiooni, looge RCS-is uus funktsiooniversioon ja parandage seadistus.
 
-    - Minge **maksufunktsioonid** \> **Maksukoodid ja groupsItem** > **maksugrupp.**
+    - Minge maksufunktsioonid **Maksukoodid** \> **ja -grupid** > **Kauba käibemaksugrupp.**
 
         | Rida. Kauba maksugrupp | Maksukoodid |
         |---------------------|-----------|

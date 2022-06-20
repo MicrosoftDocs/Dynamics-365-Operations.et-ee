@@ -1,6 +1,6 @@
 ---
 title: Partii tasakaalustamine
-description: Selles teemas kirjeldatakse partii tasakaalustamise protsessi.
+description: See artikkel kirjeldab partii tasakaalustamise protsessi.
 author: johanhoffmann
 ms.date: 01/04/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: a9e69b4d9213e57e5a920c7adda934ba845d17410c17d9c8a6356d717870ac23
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 50392e8aa0deb568a57e1df59ced70625a4f8a78
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6780072"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856044"
 ---
 # <a name="batch-balancing"></a>Partii tasakaalustamine
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas kirjeldatakse, kuidas partii tasakaalustamise protsessi toetatakse.
+See artikkel kirjeldab, kuidas partii tasakaalustamise protsessi toetatakse.
 
 Lisateabe saamiseks vaadake [videot partii tasakaalustamise kohta](https://www.youtube.com/watch?v=4SNLWsU9KyI&feature=youtu.be).
 
@@ -149,7 +149,7 @@ Täiteaine tasakaalustatud kogus arvutatakse erinevusena partii suuruse 100 liit
 Partii tasakaalustamise protsessi teostatakse lehel **Partii tasakaalustamine**.
 Valige **Kuluhandlus \> Partiitellimused** ja seejärel valige vahekaardil **Protsess** suvand **Partii tasakaalustamine**. Partii tasakaalustamine on saadaval partiitellimustel, mille olek on **Alustatud**.
 
-Üldjuhul saab partii tasakaalustamist partiitellimustele rakendada siis, kui valemis on vähemalt üks valemirida, kus suvand **Koostisosa tüüp** väärtus on *Aktiivne*. (Selle reegli erandit vt käesolevas teemas allpool osa „Partiitellimused, mis ei ole partii tasakaalustamise jaoks sobilikud”.)
+Üldjuhul saab partii tasakaalustamist partiitellimustele rakendada siis, kui valemis on vähemalt üks valemirida, kus suvand **Koostisosa tüüp** väärtus on *Aktiivne*. (Selle reegli erandi puhul vt selles artiklis jaotist "Partiitellimused, mida ei saa partii tasakaalustamiseks kasutada".
 
 Partii tasakaalustamise protsessi saab jagada kaheks alamprotsessiks:
 

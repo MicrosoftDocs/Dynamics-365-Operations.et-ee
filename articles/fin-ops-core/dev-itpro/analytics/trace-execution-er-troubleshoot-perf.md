@@ -1,6 +1,6 @@
 ---
 title: Elektroonilise aruandluse vormingute täitmise jälitamine jõudlusprobleemide tõrkeotsingu tegemiseks
-description: Selles teemas kirjeldatakse, kuidas kasutada elektroonilises aruandluses (ER) jõudluse jälituse funktsiooni jõudluse probleemide tõrkeotsingu tegemiseks.
+description: See artikkel annab teavet selle kohta, kuidas kasutada jõudluse jälgimise funktsiooni elektroonilises aruandluses (ER) jõudlusprobleemide tõrkeotsinguks.
 author: NickSelin
 ms.date: 06/22/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 10eddf2f60db914e6451840d4d7aedb9dce7108874ea3ff45f375b85a55a694f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 886781764b44ca76b327ad49f25f11f6c370a706
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724389"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851947"
 ---
 # <a name="trace-the-execution-of-er-formats-to-troubleshoot-performance-issues"></a>ER-vormingute täitmise jälitus jõudluse probleemide tõrkeotsinguks
 
@@ -98,7 +98,7 @@ Oletame, et olete alustanud uue ER-i lahenduse kujundamist, et luua uus hankija 
 
 Oletame, et olete lõpetanud ER-i lahenduse esimese versiooni kujundamise. Nüüd soovite seda testida oma eksemplaris ja analüüsida täitmise jõudlust.
 
-### <a name="import-an-er-configuration-from-rcs-into-finance-and-operations"></a><a id='import-configuration'></a>ER-konfiguratsiooni importimine RCS-ist rakendusse Finance and Operations
+### <a name="import-an-er-configuration-from-rcs-into-finance-and-operations"></a><a id='import-configuration'></a>ER-i konfiguratsiooni importimine RCS-ist rakendusse Finance and Operations
 
 1. Logige sisse oma rakenduse eksemplari.
 2. Selles õppetükis impordite konfiguratsioonid RCS-i eksemplarist (kus kujundate ER-i komponente) oma eksemplari (kus testite ja lõpuks neid kasutate). Seega peate veenduma, et kõik nõutud artefaktid oleksid ette valmistatud. Juhised leiate teemast [Elektroonilise aruandluse (ER) konfiguratsioonide importimine teenusest Regulatory Configuration Services (RCS)](rcs-download-configurations.md).
@@ -134,7 +134,7 @@ Andmemudeli ja mudelivastenduse vastavate versioonide konfiguratsioonid impordit
             - Iga andmeallika käitamine vormingu vastendusel, mida kutsutakse andmeid tooma
             - Iga vormingu üksuse töötlemine andmete sisestamiseks loodavasse väljundisse
 
-            **Agregaeeritud jälitusvormingu** väärtus on saadaval Microsoft Dynamics 365 Finance versioonis 10.0.20 või uuemas.
+            Agregad **jälgimise vormingu** väärtus on saadaval Microsoft Dynamics versioonis 365 Finance versioonis 10.0.20 ja uuemas versioonis.
 
             ER-vormingu kujundajas ja ER-mudeli vastendamise kujundajas saate vaadata üksiku komponendi kogu täitmisaega. Lisaks sisaldab jälg käivitamise üksikasju, nt teostamiste arvu ning üksiku käivitamise minimaalset ja maksimaalset aega.
 
@@ -305,27 +305,27 @@ Samuti võib see olla kasulik. et vähendada andmeallikale LedgerTransTypeList t
 
 ### <a name="import-the-modified-er-model-mapping-configuration-from-rcs-into-the-application"></a>Muudetud ER-i mudelivastenduse konfiguratsiooni importimine RCS-ist rakendusse
 
-Korrake samme selle teema jaotises [ER-i konfiguratsiooni importimine RCS-ist rakendusse Finance and Operations](#import-configuration), et importida konfiguratsiooni **Jõudluse jälituse vastendus** versioon 1.2.
+Korrake [selle artikli varasemas jaotises RCS-ilt RCS-ilt](#import-configuration) ER-i konfiguratsiooni importimiseks jõudlusjälje vastenduse konfiguratsiooni versiooni 1.2 **samme**.
 
 ## <a name="run-the-modified-er-solution-to-trace-execution"></a>Muudetud ER-i lahenduse kasutamine täitmise jälituseks
 
 ### <a name="run-the-er-format"></a>ER-vormingu käivitamine
 
-Korrake samme selle teema jaotises [ER-vormingu käivitamine](#run-format), et luua uus jõudluse jälg.
+Korrake selle artikli varasema [ER-vormingu](#run-format) sektsiooni samme uue jõudluse jälituse loomiseks.
 
 ## <a name="work-with-the-execution-trace"></a>Töö käivitamise jäljega
 
 ### <a name="export-the-generated-trace-from-the-application"></a>Eksportige loodud jälg rakendusest
 
-Korrake samme selle teema jaotises [Loodud jälje eksportimine rakendusest](#export-trace), et salvestada uus jõudluse jälg kohalikult.
+Korrake selle artikli varasemas [jaotises Loodud jälituse](#export-trace) eksportimine, et salvestada uus jõudluse jälitus kohalikult.
 
 ### <a name="import-the-generated-trace-into-rcs"></a>Loodud jälje importimine RCS-i
 
-Korrake samme selle teema jaotises [Loodud jälje importimine RCS-i](#import-trace), et importida uus jõudluse jälg RCS-i.
+Korrake selle artikli varasemas [jaotises "Impordi loodud jälitus" toodud RCS-i](#import-trace), et importida uus jõudluse jälitus RCS-i.
 
 ### <a name="use-the-performance-trace-for-analysis-in-rcs--model-mapping"></a>Jõudluse jälituse kasutamine analüüsiks RCS-is – mudelivastendus
 
-Korrake samme selle teema jaotises [Jõudluse jälituse kasutamine analüüsiks RCS-is – mudelivastendus](#use-trace), et analüüsida viimast jõudluse jälge.
+Korrake viimase jõudluse [jälituse analüüsimiseks RCS-i –](#use-trace) mudeli vastendamise jaotises toodud etappe selles artiklis.
 
 Pange tähele, et kohandused, mida tegite mudelivastendusele, on eemaldanud dubleeritud päringud andmebaasile. Vähendatud on ka selle mudelivastenduse kutsete arvu andmebaasi tabelitele ja andmeallikatele. See on paranenud kogu ER-i lahenduse jõudlus.
 
@@ -355,7 +355,7 @@ Kui kasutate ühte neist versioonidest, saate analüüsida loodud jõudluse jäl
 
 ### <a name="run-the-er-format"></a>ER-vormingu käivitamine
 
-Korrake samme selle teema jaotises [ER-vormingu käivitamine](#run-format), et luua uus jõudluse jälg.
+Korrake selle artikli varasema [ER-vormingu](#run-format) sektsiooni samme uue jõudluse jälituse loomiseks.
 
 Pange tähele, et veebibrauser pakub allalaadimiseks ZIP-faili. See fail sisaldab jõudluse jälge PerfView-vormingus. Seejärel saate kasutada PerfView jõudluse analüüsi tööriista, et analüüsida ER-vormingu täitmise üksikasju.
 
@@ -379,7 +379,7 @@ Tänu ER-raamistiku täiustustele pakub PerfView'is loodud jõudluse jälitus n�
 
 ### <a name="run-the-er-format"></a>ER-vormingu käivitamine
 
-Korrake samme selle teema jaotises [ER-vormingu käivitamine](#run-format), et luua uus jõudluse jälg.
+Korrake selle artikli varasema [ER-vormingu](#run-format) sektsiooni samme uue jõudluse jälituse loomiseks.
 
 Pange tähele, et veebibrauser pakub allalaadimiseks ZIP-faili. See fail sisaldab jõudluse jälge PerfView-vormingus. Seejärel saate kasutada PerfView jõudluse analüüsi tööriista, et analüüsida ER-vormingu täitmise üksikasju. See jälg sisaldab nüüd SQL-i andmebaasi juurdepääsu üksikasju ER-vormingu käivitamise ajal.
 

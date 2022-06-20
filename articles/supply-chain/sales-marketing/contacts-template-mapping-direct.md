@@ -1,6 +1,6 @@
 ---
 title: Rakenduse Sales kontaktide sünkroonimine otse rakenduse Supply Chain Management kontaktide või klientidega
-description: Selles teemas käsitletakse malle ja aluseks olevaid ülesandeid, mida kasutatakse üksuste Kontakt (kontaktid) ja Kontakt (kliendid) sünkroonimiseks rakendusest Dynamics 365 Sales rakendusse Dynamics 365 Supply Chain Management.
+description: See artikkel käsitleb malle ja aluseks olevaid ülesandeid, mida kasutatakse Dynamics 365 müügist Dynamics 365 müügist Dynamics 365 tarneahela haldusse kontaktide (kontaktid) ja kontaktide (klientide) sünkroonimiseks.
 author: Henrikan
 ms.date: 10/25/2018
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 57a9c2a860e99855e841f0f4276ba2f92767c2b1
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 4ddb91c34816791d8eca80e4798eb46c1b496439
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062511"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857340"
 ---
 # <a name="synchronize-contacts-directly-from-sales-to-contacts-or-customers-in-supply-chain-management"></a>Rakenduse Sales kontaktide sünkroonimine otse rakenduse Supply Chain Management kontaktide või klientidega
 
@@ -32,7 +32,7 @@ ms.locfileid: "8062511"
 > [!NOTE]
 > Enne kui saate kasutada lahendust Potentsiaalne klient sularahaks, tutvuge [andmete integreerimisega teenusesse Microsoft Dataverse for Apps](/powerapps/administrator/data-integrator).
 
-Selles teemas käsitletakse malle ja aluseks olevaid ülesandeid, mida kasutatakse tabelites Kontakt (kontaktid) ja Kontakt (kliendid) sünkroonimiseks rakendusest Dynamics 365 Sales otse rakendusse Dynamics 365 Supply Chain Management.
+See artikkel käsitleb malle ja aluseks olevaid ülesandeid, mida kasutatakse kontaktide (Kontaktid) ja kontaktide (kliendid) tabelite sünkroonimiseks otse Dynamics 365 müügist vormi Dynamics 365 Supply Chain Management.
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Andmevoog lahenduses Potentsiaalne klient sularahaks
 
@@ -126,7 +126,7 @@ Järgmisel joonisel on toodud näide malli vastendusest andmete integratsioonis.
 ![Kontaktilt kliendile malli kaardistamine andmete integreerijas.](./media/contacts-direct-template-mapping-data-integrator-2.png)
 
 
-## <a name="related-topics"></a>Seotud dokumendid
+## <a name="related-articles"></a>Seotud artiklid
 
 [Potentsiaalne klient sularahaks](prospect-to-cash.md)
 

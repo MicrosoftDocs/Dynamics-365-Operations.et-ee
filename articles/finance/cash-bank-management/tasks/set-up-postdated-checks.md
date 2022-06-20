@@ -1,6 +1,6 @@
 ---
-title: Hilisema kuupäevaga tšekkide seadistamine
-description: Selles teemas selgitatakse, kuidas määrata, kas sisestada hilisema kuupäevaga dateeritud tšekkidele töölehe sisestused ja milliseid sisestamise töölehti kliiringukirjete ja hankija maksete puhul kasutada.
+title: Hilisema kuupäevaga tšekkide häälestus
+description: See artikkel selgitab, kuidas määrata, kas sisestada töölehe sisestused pärast kuupäevaga tšekkide jaoks ja millist töölehte kasutada kliiringukirjete ja hankijamaksete jaoks.
 author: kweekley
 ms.date: 08/29/2018
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 645b474b8b4bd13cd47bef404cda002e6b29a1ba
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: e045648230aba7965ed68fbc499f73e077caceed
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8724837"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870303"
 ---
-# <a name="set-up-postdated-checks"></a>Hilisema kuupäevaga tšekkide seadistamine
+# <a name="set-up-postdated-checks"></a>Hilisema kuupäevaga tšekkide häälestus
 
 [!include [banner](../../includes/banner.md)]
 
-Selles teemas selgitatakse, kuidas määrata, kas sisestada hilisema kuupäevaga dateeritud tšekkidele töölehe sisestused ja milliseid sisestamise töölehti kliiringukirjete ja hankija maksete puhul kasutada. Samuti saate määrata kliiringukontod väljastatud tšekkidele, vastuvõetud tšekkidele ja kinnipeetavatele maksudele. Hilisema kuupäevaga dateeritud tšekid, mis väljastatakse tulevasel kuupäeval maksete tegemiseks ja vastuvõtmiseks. Saate määrata, kas tšekk peab kajastuma raamatupidamises enne selle lõpptähtaega.
+See artikkel selgitab, kuidas määrata, kas sisestada töölehe sisestused pärast kuupäevaga tšekkide jaoks ja millist töölehte kasutada kliiringukirjete ja hankijamaksete jaoks. Samuti saate määrata kliiringukontod väljastatud tšekkidele, vastuvõetud tšekkidele ja kinnipeetavatele maksudele. Hilisema kuupäevaga dateeritud tšekid, mis väljastatakse tulevasel kuupäeval maksete tegemiseks ja vastuvõtmiseks. Saate määrata, kas tšekk peab kajastuma raamatupidamises enne selle lõpptähtaega.
 
 
 

@@ -1,6 +1,6 @@
 ---
-title: Lükka edasi XML-elementide käivitamine ER-vormingus
-description: Selles teemas selgitatakse, kuidas lükata XML-elemendi käivitamine elektroonilise aruandluse (ER) vormingus.
+title: Elektroonilise aruandluse vormingus XML-elementide käivitamise edasilükkamine
+description: See artikkel selgitab, kuidas edasi soovitud XML-elemendi käivitamist elektroonilises aruandluse (ER) vormingus.
 author: NickSelin
 ms.date: 04/23/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: b804e840b98321ee9e509ea483b360ec42d12880
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 074b14cbb018a8e34b99124b8aaec3a5bdb30be2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323711"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861841"
 ---
 # <a name="defer-the-execution-of-xml-elements-in-er-formats"></a>Lükka edasi XML-elementide käivitamine ER-vormingus
 
@@ -32,7 +32,7 @@ ms.locfileid: "8323711"
 
 Kui konfigureeritud vormingus <a name="DeferredXmlElementExecution"></a> XML-elemendi **Edasilükatud käivitamise** suvandi sisse lülitada, saate selle elemendi käivitamise edasi lükata (edasi lükata). Sel juhul element ei käivitu enne, kui kõik teised ülemastme elemendid on käivitatud.
 
-Lisateabe saamiseks selle funktsiooni kohta läbige siinse teema näide.
+Selle funktsiooni kohta lisateabe saamiseks viige selle artikli näide lõpule.
 
 ## <a name="limitations"></a>Kitsendused
 
@@ -46,7 +46,7 @@ Lisateabe saamiseks selle funktsiooni kohta läbige siinse teema näide.
 
 Järgmised sammud selgitavad, kuidas süsteemiadministraatori või elektroonilise aruandluse funktsionaalse nõustaja kasutaja [roll](../sysadmin/tasks/assign-users-security-roles.md) saab konfigureerida ER-vormingut, mis sisaldab XML-elementi, kus täitmise järjekord erineb järjekorrast vormingu hierarhias.
 
-Need toimingud saab teha **USMF** ettevõttes rakenduses Microsoft Dynamics 365 Finance.
+Neid samme saab teha USMF-ettevõttes **·** Microsoft Dynamics 365 Finances.
 
 ### <a name="prerequisites"></a>Eeltingimused
 
@@ -55,7 +55,7 @@ Selle näite läbimiseks peab teil olema juurdepääs rakendusele **USMF** ettev
 - Elektroonilise aruandluse funktsionaalne konsultant
 - Süsteemiadministraator
 
-Kui te pole veel lõpule viinud näidet teemas [ER-vormingu elementide järjestuse käivitamise edasilükkamine](er-defer-sequence-element.md#Example), laadige alla järgmised proovi ER-lahenduse [konfiguratsioonid](general-electronic-reporting.md#Configuration).
+Kui te pole veel [lõpule viinud näidet ER-i vormingu artikli järjestuselementide täitmise edasilükkamise kohta,](er-defer-sequence-element.md#Example) laadige alla järgmised ER-näidislahenduse [konfiguratsioonid](general-electronic-reporting.md#Configuration).
 
 | Sisu kirjeldus            | Faili nimi |
 |--------------------------------|-----------|
@@ -95,7 +95,7 @@ Enne alustamist tuleb teil oma kohalikku arvutisse alla laadida ja salvestada ka
 ### <a name="activate-a-configuration-provider"></a>Konfiguratsioonipakkuja aktiveerimine
 
 1. Avage **Organisatsiooni haldamine** \> **Tööruumid** \> **Elektrooniline aruandlus**.
-2. Veenduge lehe **Lokalistasiooni konfiguratsioonid** jaotises **Konfiguratsiooni pakkujad**, et [konfiguratsiooni pakkuja](general-electronic-reporting.md#Provider) näidisettevõttele Litware, Inc. (`http://www.litware.com`) oleks loendis ja tähistatud kui aktiivne. Kui seda konfiguratsioonipakkujat ei ole loendis või kui see pole märgitud aktiivseks, järgige juhiseid teemas [Looge konfiguratsioonipakkuja ja märkige see aktiivseks](./tasks/er-configuration-provider-mark-it-active-2016-11.md).
+2. Veenduge lehe **Lokalistasiooni konfiguratsioonid** jaotises **Konfiguratsiooni pakkujad**, et [konfiguratsiooni pakkuja](general-electronic-reporting.md#Provider) näidisettevõttele Litware, Inc. (`http://www.litware.com`) oleks loendis ja tähistatud kui aktiivne. Kui seda konfiguratsioonipakkujat pole loendis või kui see pole märgitud aktiivseks, [järgige konfiguratsioonipakkuja loomise juhiseid ja märkige see aktiivse artiklina](./tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
     ![Litware, Inc. näidisettevõte lokaliseerimise konfiguratsioonide lehel.](./media/ER-DeferredXml-ElectronicReportingWorkspace.png)
 

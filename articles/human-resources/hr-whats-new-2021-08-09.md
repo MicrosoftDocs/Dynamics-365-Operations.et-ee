@@ -1,6 +1,6 @@
 ---
 title: Mis on uut ja mida on muudetud rakenduses Dynamics 365 Human Resources (9. august 2021)
-description: Selles teemas kirjeldatakse Microsoft Dynamics 365 Human Resourcesi 9. augusti 2021 uusi või muutunud funktsioone.
+description: See artikkel kirjeldab funktsioone, mis on kas uued või Microsoftis Dynamics 365 Human Resources muudetud 9. augustil 2021.
 author: marcelbf
 ms.date: 08/09/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-08-09
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5c43ed654a07834ce31a1425762f29c53aa2a020
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: ad1397084dd3eb210065fe6d8c20c5b8253cd206
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689266"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882862"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-august-9-2021"></a>Mis on uut ja mida on muudetud rakenduses Dynamics 365 Human Resources (9. august 2021)
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Selles teemas kirjeldatakse rakenduse Microsoft Dynamics 365 Human Resources uusi, muutunud või peatselt tulevaid funktsioone.
+See artikkel kirjeldab funktsioone, mis on Microsoftis uued, muutunud või tulevad varsti Dynamics 365 Human Resources.
 
 Meie värskendamisprotsessi ja graafiku kohta lisateabe saamiseks vt teemat [Värskendamisprotsess](hr-admin-setup-update-process.md).
 
@@ -40,7 +40,7 @@ See väljaanne sisaldab järgmisi uusi funktsioone ja veaparandusi. Muudatused r
 See väljalase hõlmab järgmisi veaparandusi.
 
 > [!NOTE]
-> Meie eesmärk on edastada teile see teave esimesel võimalusel. Võime värskendada seda teemat, et lisada sellesse versioonijärku pärast selle teema esialgset avaldamist tehtud veaparandusi.
+> Meie eesmärk on edastada teile see teave esimesel võimalusel. Võime seda artiklit värskendada, et kaasata vigaparandused, mis muutsid selle pärast selle artikli algset avaldamist koostesse.
 
 | Väljaande number | Probleem | Kirjeldus |
 | --- | --- | --- |

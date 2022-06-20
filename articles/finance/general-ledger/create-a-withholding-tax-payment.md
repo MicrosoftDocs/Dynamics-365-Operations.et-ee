@@ -1,6 +1,6 @@
 ---
 title: Kinnipeetava maksu makse loomine
-description: Kinnipeetava maksu makse tööprotseduur tasakaalustab kinnipeetava maksu saldod kinnipeetava maksu kontode ostureskontrost ja tasakaalustab need kinnipeetava maksu tasakaalustuskontoga kindla perioodi jooksul. Selles teemas loetletakse kinnipeetava maksu makse seadistamise etapid.
+description: Kinnipeetava maksu makse tööprotseduur tasakaalustab kinnipeetava maksu saldod kinnipeetava maksu kontode ostureskontrost ja tasakaalustab need kinnipeetava maksu tasakaalustuskontoga kindla perioodi jooksul. Selles artiklis loetletakse kinnipeetava maksu makse seadistamise sammud.
 author: kailiang
 ms.date: 01/12/2021
 ms.topic: article
@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2020-01-12
 ms.dyn365.ops.version: AX 10.0.16
-ms.openlocfilehash: 2b374d7aeab4d066b0894dde8f542c2f807d1ef9
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 3d3619137ccb909eed31af3793c6cf2773cc9886
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713328"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855400"
 ---
 # <a name="create-a-withholding-tax-payment"></a>Kinnipeetava maksu makse loomine
 
-Kinnipeetava maksu makse tööprotseduur tasakaalustab kinnipeetava maksu saldod kinnipeetava maksu kontode ostureskontrost ja tasakaalustab need kinnipeetava maksu tasakaalustuskontoga kindla perioodi jooksul. Selles teemas loetletakse kinnipeetava maksu makse seadistamise etapid.
+Kinnipeetava maksu makse tööprotseduur tasakaalustab kinnipeetava maksu saldod kinnipeetava maksu kontode ostureskontrost ja tasakaalustab need kinnipeetava maksu tasakaalustuskontoga kindla perioodi jooksul. Selles artiklis loetletakse kinnipeetava maksu makse seadistamise sammud.
 
 > [!NOTE] 
 > Kinnipeetava maksu vastaskontot (müügireskontrost) ei võeta kinnipeetava maksu makse arvutamisel arvesse.

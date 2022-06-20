@@ -1,6 +1,6 @@
 ---
 title: Vöötkoodi andmeallikate kasutamine vöötkoodipiltide loomiseks
-description: Selles teemas selgitatakse, kuidas kasutada vöötkoodi andmeallikaid vöötkoodipiltide loomiseks.
+description: See artikkel selgitab, kuidas kasutada vöötkoodi andmeallikaid vöötkoodi piltide loomiseks.
 author: NickSelin
 ms.date: 10/21/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: Version 10.0.13
-ms.openlocfilehash: a5a396080d8b5dd4c2ed9a0eb15c1286e8799ebf
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: c8e755b664656a1a10672a990dc581969f6a7b80
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323948"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880308"
 ---
 # <a name="use-barcode-data-sources-to-generate-bar-code-images"></a>Vöötkoodi andmeallikate kasutamine vöötkoodipiltide loomiseks
 
@@ -77,7 +77,7 @@ Kasutades andmeallikat, mille tüüp on **Vöötkood**, saate luua vöötkoode j
 >
 > Kui seote andmellika **Vöötkood** vormingus lahtrielemendiga ning lahtrielement tähistab Wordi sisu juhtelementi või Exceli pilti, esitatakse andmeallikas selles seoses funktsioonina, millel on üks parameeter, mille tüüp on **String**. Peate seda parameetrit kasutama, et määrata tekst, mis tuleb muuta vöötkoodipildiks ja mida loetakse vöötkoodi skannimisel.
 
-Selle funktsiooni kohta lisateabe saamiseks läbige siinse teema näited.
+Lisateabe saamiseks selle funktsiooni kohta viige lõpule selle artikli näited.
 
 ## <a name="example-generate-a-payment-check-that-contains-a-bar-code-that-encodes-the-payable-amount"></a>Näide: tšeki loomine, mis sisaldab vöötkoodi, millesse on kodeeritud tasumisele kuuluv summa
 
@@ -103,7 +103,7 @@ Selles näites on näha, kuidas **süsteemiadministraatori** või **elektroonili
 
 Selles näites kasutatakse tšekkide loomiseks konfigureeritud pakutavat ER-i lahendust. See lahendus loob tšekid, millel esitatakse tasumisele kuuluv summa nii numbri kui ka tekstina. Te muudate ER-i lahendust nii, et tšekk sisaldaks ka loodud vöötkoodi, kuhu on kodeeritud tasumisele kuuluv summa ja mida saab lugeda vöötkoodiskanneri abil.
 
-Neid toimingud saab lõpule viia **USMF** ettevõttes rakenduses Microsoft Dynamics 365 Finance.
+Sammud saab läbida USMF-ettevõttes **·** Microsoft Dynamics 365 Finantsid.
 
 ### <a name="complete-the-prerequisites"></a><a name="ExamplePrerequisites"></a>Eeltingimuste täitmine
 
@@ -112,7 +112,7 @@ Selle näite läbimiseks peab teil olema juurdepääs rakendusele USMF ettevõtt
 - Elektroonilise aruandluse funktsionaalne konsultant
 - Süsteemiadministraator
 
-Kui te pole veel lõpule viinud näidet teemas [Piltide ja kujundite manustamine ER-i abil loodud dokumentides](electronic-reporting-embed-images-shapes.md), laadige alla järgmised ER-i näidislahenduse konfiguratsioonid.
+Kui te pole [veel lõpule viinud näidet ER-i artiklit kasutades dokumentides Manusta pildid ja kujud, laadige alla järgmised ER-i](electronic-reporting-embed-images-shapes.md) näidislahenduse konfiguratsioonid.
 
 | Sisu kirjeldus         | Faili nimi                   |
 |-----------------------------|-----------------------------|
@@ -128,7 +128,7 @@ Lisaks laadige alla järgmine Exceli fail, mis sisaldab muudetud malli pakutava 
 ### <a name="activate-a-configuration-provider"></a><a name="ExampleProvider"></a>Konfiguratsioonipakkuja aktiveerimine
 
 1. Avage **Organisatsiooni haldamine** \> **Tööruumid** \> **Elektrooniline aruandlus**.
-2. Veenduge lehe **Lokaliseerimise konfiguratsioonid** jaotises **Konfiguratsioonipakkujad**, et näidisettevõtte **Litware, Inc.** [konfiguratsioonipakkuja](general-electronic-reporting.md#Provider) oleks loendis ja aktiivseks märgitud. Kui seda pole loendis või kui see pole märgitud aktiivseks, järgige juhiseid teemas [Konfiguratsioonipakkuja loomine ja selle märkimine aktiivseks](tasks/er-configuration-provider-mark-it-active-2016-11.md).
+2. Veenduge lehe **Lokaliseerimise konfiguratsioonid** jaotises **Konfiguratsioonipakkujad**, et näidisettevõtte **Litware, Inc.** [konfiguratsioonipakkuja](general-electronic-reporting.md#Provider) oleks loendis ja aktiivseks märgitud. Kui seda loendis pole või kui see pole märgitud aktiivseks, [järgige konfiguratsiooni loomise pakkuja samme ja märkige see aktiivseks artikliks](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
 ![Näidisettevõtte märkimine aktiivseks lokaliseerimise konfiguratsioonide lehel.](./media/er-barcode-data-source-active-provider.png)
 
@@ -284,7 +284,7 @@ Valitud vormingu mustandiversioon on valitud vormingu käitamisel kasutamiseks s
 
 ### <a name="convert-the-generated-check-to-a-pdf"></a><a name="ExampleConvertToPDF"></a>Loodud tšeki teisendamine PDF-iks
 
-Nagu kirjeldatud teemas [Prinditavate FTI-vormide loomine](er-generate-printable-fti-forms.md#finland), saate loodud dokumendis vöötkoodide loomiseks kasutada spetsiaalset fonti. Sellisel juhul võib loodud dokumendi teisendamine hiljem sõltuda sellest, kas font on teisendamiskeskkonnas saadaval. Näiteks kui proovite teisendada dokumenti PDF-vormingusse või kuvada selle eelvaadet keskkonnas, kus font puudub, ei renderdata vöötkoode õigesti.
+Prinditavate FTI-vormide [loomise artikli](er-generate-printable-fti-forms.md#finland) kirjelduse kohaselt saate kasutada spetsiaalset fonti loodud dokumendis vöötkoodide loomiseks. Sellisel juhul võib loodud dokumendi teisendamine hiljem sõltuda sellest, kas font on teisendamiskeskkonnas saadaval. Näiteks kui proovite teisendada dokumenti PDF-vormingusse või kuvada selle eelvaadet keskkonnas, kus font puudub, ei renderdata vöötkoode õigesti.
 
 Kui aga kasutate vöötkoodide loomiseks **Vöötkoodi** andmeallikat, ei sõltu vöötkoodide renderdamine ühestki fondist. Seetõttu saate vöötkoode sisaldavaid dokumente hõlpsalt PDF-vormingusse teisendada. Järgmisel illustratsioonil on kujutatud loodud tšeki eelvaade, mis on [teisendatud](electronic-reporting-destinations.md#OutputConversionToPDF) PDF-iks konfigureeritud ER-i [sihtkoha](electronic-reporting-destinations.md) sätete alusel.
 

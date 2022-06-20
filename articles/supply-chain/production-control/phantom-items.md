@@ -1,6 +1,6 @@
 ---
 title: Fiktiivsed kaubad
-description: See teema kirjeldab, kuidas fiktiivse rea tüüpi saab kasutada koosluse ridade ja mooduli <a0/& valemi puhul Dynamics 365 Supply Chain Management.
+description: See artikkel kirjeldab, kuidas fiktiivst reatüüpi saab kasutada koosluse ridade ja valemi puhul moodulis Dynamics 365 Supply Chain Management.
 author: johanhoffmann
 ms.date: 05/05/2022
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-05-05
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 5c9768381d35709611e4bec3d2b7793a4d896b34
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 64139873216decd8ecb2fcaf1f284e726c53c332
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713242"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893319"
 ---
 # <a name="phantom-items"></a>Fiktiivsed kaubad
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas kirjeldatakse üksikasjalikult, kuidas saab fiktiivset reatüüpi kasutada koosluse- (BOM) ja valemiridade puhul.
+See artikkel kirjeldab üksikasjalikult, kuidas fiktiivse rea tüüpi saab kasutada koosluse ja valemi ridadel.
 
 Joonisel 1 on (a) toote H ning osade F ja G kooslus ning (b) on toodete H ja F protsessileht.
 

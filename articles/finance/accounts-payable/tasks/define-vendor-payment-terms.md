@@ -1,6 +1,6 @@
 ---
 title: Hankija maksetingimuste määratlemine
-description: Selles teemas selgitatakse, kuidas sätestada maksetingimusi tarnija arvete jaoks.
+description: See artikkel selgitab, kuidas hankija arvetele maksetingimusi seadistada.
 author: abruer
 ms.date: 02/11/2022
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2199c12e92d631d3eb058637c48b53335d779f2d
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: a676856ed43bf1b78684eac0682e0fdef9c84083
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109802"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906467"
 ---
 # <a name="define-vendor-payment-terms"></a>Hankija maksetingimuste määratlemine
 
 [!include [banner](../../includes/banner.md)]
 
-Selles teemas selgitatakse, kuidas sätestada maksetingimusi tarnija arvete jaoks. See ülesanne kasutab demoettevõtte USMF andmeid.
+See artikkel selgitab, kuidas hankija arvetele maksetingimusi seadistada. See ülesanne kasutab demoettevõtte USMF andmeid.
 
 1. Avage **Navigeerimispaan > Moodulid > Ostureskontro > Makse häälestus > Maksetingimused**.
 2. Valige suvand **Uus**. Maksetingimuste **lehte** kasutatakse tähtaja arvutamise määratlemiseks. Seda ei kasutata määratlemaks, kuidas skonto kuupäeva arvutatakse.  

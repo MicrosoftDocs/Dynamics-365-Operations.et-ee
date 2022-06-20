@@ -1,6 +1,6 @@
 ---
 title: Tööjõu korraldamine osakondade, tööde ja ametikohtade abil
-description: See teema kirjeldab kontseptuaalset teavet osakondade, tööde ja positsioonide kohta, mis on inimressursside piires säilitavad organisatsioonilised elemendid.
+description: See artikkel kirjeldab kontseptuaalset teavet osakondade, tööde ja positsioonide kohta, mis on inimressursside piires säilitavad organisatsioonilised elemendid.
 author: twheeloc
 ms.date: 01/03/2022
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 717bf7dcbd9a7e19a6dc960648655fdbd3e2465a
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 0cb4e745eb6531d90a02778ba85e6caf790f2d46
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694819"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874271"
 ---
 # <a name="organize-your-workforce-by-using-departments-jobs-and-positions"></a>Tööjõu korraldamine osakondade, tööde ja ametikohtade abil
 
@@ -28,7 +28,7 @@ ms.locfileid: "8694819"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Osakonnad, tööd ja ametikohad on organisatsiooni elemendid, mida hallatakse inimressurssides. Selles teemas kirjeldatakse nende elementide sisulist teavet. 
+Osakonnad, tööd ja ametikohad on organisatsiooni elemendid, mida hallatakse inimressurssides. Selles artiklis kirjeldatakse nende elementide sisulist teavet. 
 
 Järgmise näite abil selgitatakse selles artiklis kirjeldatud põhimõtteid.
 

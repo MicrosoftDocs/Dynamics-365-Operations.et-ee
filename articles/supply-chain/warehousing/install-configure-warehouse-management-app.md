@@ -1,6 +1,6 @@
 ---
-title: Laohalduse mobiilirakenduse installimine ja ühendamine
-description: Selles teemas selgitatakse, kuidas installida laohalduse mobiilirakendust kõigisse mobiilsetesse seadmetesse ja konfigureerida see keskkonnaga Microsoft Dynamics 365 Supply Chain Management ühenduse loomiseks.
+title: Mobiilirakenduse Warehouse Management installimine ja ühendamine
+description: See artikkel selgitab, kuidas installida laohalduse mobiilirakendus igasse mobiilsesse seadmesse ja konfigureerida see nii, et see oleks ühendatud Microsofti keskkonnaga Dynamics 365 Supply Chain Management.
 author: Mirzaab
 ms.date: 02/03/2021
 ms.topic: article
@@ -16,21 +16,21 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 812dd30e0e444bc310fc81edd16958e0c0747885
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 9bd208ba78d28046782d03221b0f23471f56b574
+ms.sourcegitcommit: 3f544f8671821be915b289a614e4e440bd38994f
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103409"
+ms.lasthandoff: 06/07/2022
+ms.locfileid: "8941762"
 ---
-# <a name="install-and-connect-the-warehouse-management-mobile-app"></a>Laohalduse mobiilirakenduse installimine ja ühendamine
+# <a name="install-and-connect-the-warehouse-management-mobile-app"></a>Mobiilirakenduse Warehouse Management installimine ja ühendamine
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> Selles teemas selgitatakse, kuidas konfigureerida uut laohalduse mobiilirakendust. Kui otsite teavet vana laorakenduse (iganenud nüüdseks) konfigureerimise kohta, vt [Laorakenduse installimine ja ühendamine](../../supply-chain/warehousing/install-configure-warehousing-app.md).
+> See artikkel kirjeldab, kuidas konfigureerida uut laohalduse mobiilirakendust. Kui otsite teavet vana laorakenduse (iganenud nüüdseks) konfigureerimise kohta, vt [Laorakenduse installimine ja ühendamine](../../supply-chain/warehousing/install-configure-warehousing-app.md).
 
-Selles teemas selgitatakse, kuidas alla laadida ja installida laohalduse mobiilirakendust teie kõigisse mobiilsetesse seadmetesse ja konfigureerida seda keskkonnaga Supply Chain Management ühenduse loomiseks. Saate konfigureerida kõik seadmed käsitsi, importida ühenduse sätted faili kaudu või skannides QR-koodi.
+See artikkel selgitab, kuidas laohalduse mobiilirakendust igasse mobiilseadmesse alla laadida ja installida ja kuidas konfigureerida rakendust tarneahela haldamise keskkonnaga ühenduma. Saate konfigureerida kõik seadmed käsitsi, importida ühenduse sätted faili kaudu või skannides QR-koodi.
 
 ## <a name="system-requirements"></a>Süsteeminõuded
 
@@ -39,7 +39,7 @@ Laohalduse mobiilirakendus on saadaval nii Windowsi kui ka Google’i Androidi o
 - Windows 10 (Universaalne Windowsi platvorm \[UWP\]) 2018. a oktoobri värskendus 1809 (versioonijärk 10.0.17763) või uuem
 - Android 4.4 või uuem
 
-## <a name="turn-warehouse-management-mobile-app-features-or-or-off-in-supply-chain-management"></a>Laohalduse mobiilirakenduse funktsioonide või tarneahela haldamises välja lülitatud
+## <a name="turn-warehouse-management-mobile-app-features-on-or-off-in-supply-chain-management"></a>Laohalduse mobiilirakenduse funktsioonide sisse- ja väljalülitamine tarneahela halduses
 
 Laohalduse mobiilirakenduse kasutamiseks peavad uue *laorakenduse funktsiooni kasutajasätted,* ikoonid ja etapi pealkirjad olema süsteemis sisse lülitatud. Tarneahela halduse 10.0.25 puhul on see funktsioon kohustuslik ja seda ei saa välja lülitada. Kui käitate versiooni, mis on *vanem kui 10.0.25, saavad administraatorid selle funktsiooni sisse ja välja lülitada, otsides Kasutajasätteid, ikoone ja uue laorakenduse funktsiooni pealkirjad Funktsioonihalduse tööruumis*[...](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
@@ -87,11 +87,11 @@ Selleks et laohalduse mobiilirakendus saaks konkreetse Supply Chain Managementi 
 
     ![Rakenduse viisardi registreerimine.](media/app-connect-azure-register-wizard.png "Rakenduse viisardi registreerimine")
 
-1. Avaneb teie uue rakenduse registreerimisaken. Märkige välja **Rakenduse (klient) ID** väärtus üles, seda läheb hiljem vaja. Sellele ID-le on selles teemas hiljem viidatud kui *kliendi ID*.
+1. Avaneb teie uue rakenduse registreerimisaken. Märkige välja **Rakenduse (klient) ID** väärtus üles, seda läheb hiljem vaja. Sellele ID-le viidatakse selles artiklis hiljem kui kliendi *ID-le*.
 
     ![Rakenduse (klient) ID.](media/app-connect-azure-app-id.png "Rakenduse (klient) ID")
 
-1. Valige loendist **Haldamine** suvand **Serdid ja saladused**. Seejärel valige üks järgmistest nuppudest, sõltuvalt sellest, kuidas soovite rakendust autentimiseks konfigureerida. (Lisateabe saamiseks vaadake jaotist [Serdi või kliendi saladuse abil autentimine](#authenticate) selles teemas hiljem.)
+1. Valige loendist **Haldamine** suvand **Serdid ja saladused**. Seejärel valige üks järgmistest nuppudest, sõltuvalt sellest, kuidas soovite rakendust autentimiseks konfigureerida. (Lisateavet vt teemast [Autendimine, kasutades tunnistuse või kliendi salaseost](#authenticate) hiljem selles artiklis.)
 
     - **Serdi üleslaadimine** – laadige üles sert saladusena kasutatamiseks. Soovitame selle lähenemisviisi kasutamist, sest see on turvalisem ja seda saab täielikumalt automatiseerida. Kui käitate laohalduse mobiilirakendust Windowsi seadmetes, märkige üles väärtus **Sõrmejälg**, mida kuvatakse pärast serdi üleslaadimist. Vajate seda väärtust Windowsi seadmetes serdi konfigureerimisel.
     - **Uus kliendi saladus** – looge võti, sisestades võtme kirjeldus ja kestus jaotises **Paroolid** ning seejärel valige **Lisa**. Tehke võtmest koopia ja talletage see turvaliselt.
@@ -101,7 +101,7 @@ Selleks et laohalduse mobiilirakendus saaks konkreetse Supply Chain Managementi 
 Lisateavet Azure AD-s veebiteenuse rakenduste seadistamise kohta leiate järgmistest allikatest.
 
 - Juhiste saamiseks selle kohta, kuidas kasutada Windows PowerShelli veebiteenuse rakenduste seadistamiseks Azure AD-s, vaadake teemat [Kuidas: teenusesubjekti loomine serdiga Azure PowerShelli abil](/azure/active-directory/develop/howto-authenticate-service-principal-powershell).
-- Üksikasjaliku teabe saamiseks, kuidas Azure AD-s käsitsi veebiteenuse rakendust luua, vaadake järgmisi teemasid.
+- Lisateavet selle kohta, kuidas käsitsi veebirakendust luua, leiate järgmistest Azure AD artiklitest:
 
     - [Lühijuhend: rakenduse registreerimine Microsofti identiteedi platvormiga](/azure/active-directory/develop/quickstart-register-app)
     - [Kuidas: portaali abil Azure AD rakenduse ja ressurssidele juurde pääseva teenusesubjekti loomine](/azure/active-directory/develop/howto-create-service-principal-portal)
@@ -129,13 +129,13 @@ Supply Chain Managementi lubamiseks, et kasutada Azure AD rakendust, toimige jä
     ![Azure Active Directory rakendused.](media/app-connect-aad-apps.png "Azure Active Directory avaldused")
 
 > [!TIP]
-> Üks viis nende sätete kasutamiseks on luua Azure'is kliendi ID igale füüsilisele seadmele ja seejärel lisada igale rakenduse lehele kliendi **Azure Active Directory rakenduse** leht. Sellisel juhul saate seadme kaotamise korral selle lehe kaudu hõlpsalt eemaldada nende Supply Chain Management juurdepääsu. (See lähenemine töötab, sest igas seadmes salvestatud ühenduse mandaadid määravad ka kliendi ID, nagu kirjeldatud selles teemas allpool.)
+> Üks viis nende sätete kasutamiseks on luua Azure'is kliendi ID igale füüsilisele seadmele ja seejärel lisada igale rakenduse lehele kliendi **Azure Active Directory rakenduse** leht. Sellisel juhul saate seadme kaotamise korral selle lehe kaudu hõlpsalt eemaldada nende Supply Chain Management juurdepääsu. (See lähenemine töötab, sest igas seadmes salvestatud ühenduse mandaadid määravad ka kliendi ID, nagu kirjeldatud käesolevas artiklis.)
 >
 > Lisaks määratakse iga kliendi ID vaikekeel, numbrivorming ja ajavööndi sätted siin vastendatud **kasutaja ID** väärtusele seadistatud eelistustega. Seetõttu võite kasutada neid eelistusi kliendi ID-l põhinevate vaikesätete kehtestamiseks iga seadme või seadmete kogumi jaoks. Kuid need vaikesätted alistatakse, kui need on määratud ka *laorakenduse kasutajakontole* mida töötaja kasutab seadmesse sisselogimiseks. (Lisateavet vt artiklist [Töötajate mobiilse seadme kasutajakontode häälestamine](mobile-device-work-users.md).)
 
 ## <a name="authenticate-by-using-a-certificate-or-client-secret"></a><a name="authenticate"></a>Autentimine serdi või kliendi saladuse abil
 
-Azure AD-ga autentimine pakub turvalist viisi mobiilse seadme ühendamiseks Supply Chain Managementiga. Saate autentida nii serdi kui ka kliendi saladuse abil. Kui impordite ühenduse sätteid, soovitame kliendi saladuse asemel kasutada serti. Kuna kliendi saladus peab olema alati turvaliselt talletatud, ei saa te seda ühenduse sätete failist või QR-koodist importida, nagu selles teemas hiljem kirjeldatakse.
+Azure AD-ga autentimine pakub turvalist viisi mobiilse seadme ühendamiseks Supply Chain Managementiga. Saate autentida nii serdi kui ka kliendi saladuse abil. Kui impordite ühenduse sätteid, soovitame kliendi saladuse asemel kasutada serti. Kuna kliendi saladus tuleb alati turvaliselt talletada, ei saa seda ühendussätete failist ega QR-koodist importida, nagu kirjeldatud käesolevas artiklis.
 
 Serte saab kasutada saladusena rakenduse identiteedi tõestamisel, kui luba taotletakse. Serdi avalik osa laaditakse üles rakenduse registreerimiseks Azure’i portaalis, kuid täielik sert tuleb juurutada igasse seadmesse, kuhu on installitud laohalduse mobiilirakendus. Teie organisatsioon vastutab serdi haldamise eest roteerimise ja muus osas. Teil on võimalik kasutada enda allkirjastatud serte, kuid te peaksite alati kasutama mitte-eksporditavaid serte.
 
@@ -266,7 +266,7 @@ Kui teil pole faili ega QR-koodi, saate rakenduse seadmel käsitsi konfigureerid
 
 1. Sisestage järgmine teave:
 
-    - **Kliendi saladuse kasutamine** – määrake selle suvandi väärtusekd _Jah_, et kasutada kliendi saladust Supply Chain Managementiga autentimiseks. Autentimisel serdi kasutamiseks määrake selle väärtuseks _Ei_. (Lisateavet vt selle teema varasemast jaotisest [Veebiteenuse rakenduse loomine rakenduses Azure Active Directory](#create-service).)
+    - **Kliendi saladuse kasutamine** – määrake selle suvandi väärtusekd _Jah_, et kasutada kliendi saladust Supply Chain Managementiga autentimiseks. Autentimisel serdi kasutamiseks määrake selle väärtuseks _Ei_. (Lisateavet vt teemast [Looge selle artikli varasemas jaotises Azure Active Directory](#create-service) veebiteenuse rakendus.)
     - **Ühenduse nimi** – sisestage uue ühenduse nimi. See nimi kuvatakse väljal **Ühenduse valimine** järgmisel korral, kui avate ühenduse sätted. Sisestatav nimi peab olema kordumatu. (Teisisõnu peab see erinema kõigist muudest teie seadmesse salvestatud ühenduse nimedest, kui sinna on talletatud teisi ühenduse nimesid.)
     - **Active Directory kliendi ID** – sisestage kliendi ID, mille märkisite üles Azure AD seadistamise ajal, jaotises [Veebiteenuse rakenduse loomine Azure Active Directorys](#create-service).
     - **Active Directory kliendi saladus** – see väli on saadaval ainult siis, kui suvandi **Kkliendi saladuse kasutamine** väärtuseks on seatud _Jah_. Sisestage kliendi saladus, mille märkisite üles Azure AD seadistamise ajal, jaotises [Veebiteenuse rakenduse loomine Azure Active Directorys](#create-service).

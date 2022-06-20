@@ -1,6 +1,6 @@
 ---
 title: Alustage elektroonilise arveldusega Mehhikos
-description: Sellest teemast leiate teabe, mis aitab teil alustada elektroonilise arveldusega Mehhikos.
+description: See artikkel annab teavet, mis aitab teil Mehhiko elektroonilise arveldusega alustada.
 author: gionoder
 ms.date: 12/01/2020
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 6fc8a9eaf6c6e4c82719e7c1ebccd4272548e73f
-ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
+ms.openlocfilehash: 540b6e6f9b4b669957cc3310e473ad59b9210594
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8565995"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855325"
 ---
 # <a name="get-started-with-electronic-invoicing-for-mexico"></a>Alustage elektroonilise arveldusega Mehhikos
 
@@ -31,11 +31,11 @@ ms.locfileid: "8565995"
 > [!IMPORTANT]
 > Mehhiko elektrooniline arveldamine ei pruugi praegu toetada kõiki funktsioone, mis on saadaval Comprobante Fiscal Digital por Internet (CFDI) dokumendis, ja seotud integratsioonis, Microsoft Dynamics mis on üles ehitatud 365 Finantsid või Dynamics 365 Supply Chain Management.
 
-Sellest teemast leiate teabe, mis aitab teil alustada elektroonilise arveldusega Mehhikos. Selles antakse juhiseid konfiguratsioonisammude kohta, mis on teenustes Regulatory Configuration Services (RCS) ja rakenduses Finance riigipõhised. Samuti antakse teile juhised, mida peate rakenduses Finance järgima, et edastada teenuse kaudu CFDI arveid, ning selgitatakse, kuidas vaadata üle töötlemise tulemusi ja CFDI arvete olekut.
+See artikkel annab teavet, mis aitab teil Mehhiko elektroonilise arveldusega alustada. Selles antakse juhiseid konfiguratsioonisammude kohta, mis on teenustes Regulatory Configuration Services (RCS) ja rakenduses Finance riigipõhised. Samuti antakse teile juhised, mida peate rakenduses Finance järgima, et edastada teenuse kaudu CFDI arveid, ning selgitatakse, kuidas vaadata üle töötlemise tulemusi ja CFDI arvete olekut.
 
 ## <a name="prerequisites"></a>Eeltingimused
 
-Enne selle teema sammude sooritamist peate lõpule viima sammud, mis on vajalikud selleks, [et käivitada elektroonilise arveldamise teenuse haldus](e-invoicing-get-started-service-administration.md)[ja alustada elektroonilist arveldamist](e-invoicing-get-started.md).
+Enne selle artikli sammude lõpule viimist peate [lõpule viima sammud, mis on vajalikud selleks, et käivitada elektroonilise arveldamise teenuse haldus](e-invoicing-get-started-service-administration.md)[ja alustada elektroonilise arveldamisega](e-invoicing-get-started.md).
 
 ## <a name="set-up-the-cadena-xslt"></a>Cadena XSLT-i seadistamine
 
@@ -139,13 +139,13 @@ CFDI arve tühistamise edastamiseks on vajalikud funktsiooniseadistused **Tühis
 ### <a name="set-up-the-path-for-the-cadena-xlst-schema"></a>Cadena XLST-skeemi tee seadistamine
 
 1. Funktsiooni versiooni **seadistamise lehel** vahekaardil Muutujad **valige** muutuja nimi, **DigitalSignatureXSLT**.
-2. Sisestage **väärtuste** väljale: {"containerUrl":"https://&lt; AccountStorageName&gt;.blob.core.windows.net/&lt; ContainerName&gt;", "tee":"&lt; RelativePath&gt;"}
+2. Väärtuste väljale **sisestage** : {"containerUrl":"https://&lt; AccountStorageName&gt;.blob.core.windows.net/&lt; ContainerName&gt;", "tee":"&lt; RelativePath&gt;"}
    
-    kus: \<RelativePath\> = folderfolderfilename\\\\ kahe kaldkriipsuga, ContainerName peab tähistama teenuses kasutatavat konteinerit.
+    kus: \<RelativePath\> = kausta\\\\ failinimi kahekordse kaldkriipsuga, ContainerName peab tähistama teenuses kasutatavat konteinerit.
    
     Muutuja näide oleks:
     
-    {tee: xdev xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx\\\\ cadena_xslt,containerUrl:https://yyyyyyyyyy.blob.core.windows.net/containername}
+    {tee: x xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx\\ dev\\ cadena_xslt, containerUrl:https://yyyyyyyyyy.blob.core.windows.net/containername}
 
 ## <a name="assign-the-draft-version-to-an-e-invoicing-environment"></a>Mustandversiooni määramine e-arvelduse keskkonnale
 

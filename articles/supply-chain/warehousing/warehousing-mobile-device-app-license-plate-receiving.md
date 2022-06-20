@@ -1,6 +1,6 @@
 ---
-title: Identifitseerimisnumbri vastuvõtmine laohalduse mobiilirakenduse kaudu
-description: Selles teemas selgitatakse, kuidas häälestada ladustamise mobiilirakendust Warehouse Management, et toetada identifitseerimisnumbri vastuvõtmisprotsessi füüsiliste varude vastuvõtmiseks.
+title: Identifitseerimisnumbri vastuvõtmine mobiilirakenduse Warehouse Management kaudu
+description: See artikkel selgitab, kuidas laohalduse mobiilirakendust seadistada, et toetada litsentsiplaadi vastuvõtuprotsessi füüsiliste varude saamiseks.
 author: perlynne
 ms.date: 04/29/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-03-31
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 6663188334c70035906f924c7850a0dc5002f306
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: fe083f16bd47b3f7bdfd366ae4b0fe4a02f49185
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103059"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906996"
 ---
-# <a name="license-plate-receiving-via-the-warehouse-management-mobile-app"></a>Identifitseerimisnumbri vastuvõtmine laohalduse mobiilirakenduse kaudu
+# <a name="license-plate-receiving-via-the-warehouse-management-mobile-app"></a>Identifitseerimisnumbri vastuvõtmine mobiilirakenduse Warehouse Management kaudu
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas selgitatakse, kuidas häälestada ladustamise mobiilirakendust Warehouse Management, et see toetaks identifitseerimisnumbri vastuvõtmisprotsessi füüsiliste varude vastuvõtmiseks.
+See artikkel selgitab laohalduse mobiilirakenduse seadistamist nii, et see toetab füüsiliste varude vastuvõtuprotsessi litsentsiplaadiga vastuvõtuprotsessi kasutamist.
 
 Selle funktsiooni abil saate kiiresti kirjendada sissetulevate varude vastuvõtmist, mis on seotud saadetise eelteatisega (ASN). Süsteem loob automaatselt ASN-i, kui üleviimistellimuse saatmiseks kasutatakse laohaldusprotsesse. Ostutellimuse protsessi puhul saab ASN-i käsitsi kirjendada või automaatselt importida sissetuleva ASN-i andmeüksuse protsessi abil.
 

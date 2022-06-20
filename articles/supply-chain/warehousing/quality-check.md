@@ -1,6 +1,6 @@
 ---
 title: Kvaliteedikontroll
-description: Sellest teemast leiate teavet kvaliteedikontrolli funktsiooni kohta. See funktsioon võimaldab laotöötajatel teha kiireid, pistelisi kontrolle kaupade vastuvõtmisel saabumisalale.
+description: See artikkel annab teavet kvaliteedikontrolli funktsiooni kohta. See funktsioon võimaldab laotöötajatel teha kiireid, pistelisi kontrolle kaupade vastuvõtmisel saabumisalale.
 author: Mirzaab
 ms.date: 07/16/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: c5a4b380529ca8cb9c3474b363c7f9ba4220ff2b
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: ceb01205edc269690fda306bc90f465dbccc563b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677978"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855053"
 ---
 # <a name="quality-check"></a>Kvaliteedikontroll
 
@@ -41,11 +41,11 @@ Seda protsessi saab häälestada ka nii, et kõik skannitud litsentsiplaadid suu
 
 ## <a name="turn-the-quality-check-feature-on-or-off"></a>Kvaliteedikontrolli funktsiooni sisse- või väljalülitamine
 
-Selles teemas kirjeldatud funktsioonide kasutamiseks peab kvaliteedikontrolli *funktsioon* olema teie süsteemi jaoks sisse lülitatud. Tarneahela halduse 10.0.25 puhul on see funktsioon kohustuslik ja seda ei saa välja lülitada. Kui käitate versiooni, mis on *vanem* kui 10.0.25, saavad administraatorid selle funktsiooni sisse või välja lülitada, otsides kvaliteedikontrolli funktsiooni Funktsioonihalduse [tööruumist](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Selles artiklis kirjeldatud funktsioonide kasutamiseks peab kvaliteedikontrolli *funktsioon* olema teie süsteemi jaoks sisse lülitatud. Tarneahela halduse 10.0.25 puhul on see funktsioon kohustuslik ja seda ei saa välja lülitada. Kui käitate versiooni, mis on *vanem* kui 10.0.25, saavad administraatorid selle funktsiooni sisse või välja lülitada, otsides kvaliteedikontrolli funktsiooni Funktsioonihalduse [tööruumist](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="set-up-the-feature-for-the-example-scenario"></a>Funktsiooni häälestamine näidisstsenaariumi jaoks
 
-Sellest jaotisest leiate juhised ja näite funktsiooni *Kvaliteedikontroll* häälestamise ning näidisandmete ettevalmistamise kohta teemas hiljem esitatud näidisstsenaariumi jaoks.
+See jaotis annab juhised ja näite, mis näitab, kuidas *seadistada* kvaliteedikontrolli funktsiooni ja valmistada näidisandmed ette näidisandmete jaoks, mis on antud käesolevas artiklis hiljem.
 
 ### <a name="make-sample-data-available"></a>Näidisandmete kättesaadavaks tegemine
 
@@ -270,7 +270,7 @@ Konfigureerige menüü-üksus, et mobiilsetes seadmetes olek võimalik kasutada 
 
 ## <a name="example-scenario"></a><a name="example-scenario"></a>Näidisstsenaarium
 
-Pärast seda, kui olete teinud kõik eelnevalt kirjeldatud näidisandmed kättesaadavaks ja need häälestanud, saate töötada selle stsenaariumi abil, et proovida funktsiooni *Kvaliteedikontroll*. Selles stsenaariumis kuvatavad väärtused eeldavad, et töötate standardsete demo andmetega, et valisite juriidilise isiku **USMF** ja olete ette valmistanud näidiskirjed, mida on selles teemas varem kirjeldatud. See stsenaarium toimib ka näitena selle kohta, kuidas seda funktsiooni saab tootmises kasutada.
+Pärast seda, kui olete teinud kõik eelnevalt kirjeldatud näidisandmed kättesaadavaks ja need häälestanud, saate töötada selle stsenaariumi abil, et proovida funktsiooni *Kvaliteedikontroll*. Väärtused, mida selles stsenaariumis näidatakse, eeldavad, et töötate standardsete demoandmetega, **et valisite USMF-i** juriidilise isiku ja te valmistasite ette käesolevas artiklis kirjeldatud näidiskirjed. See stsenaarium toimib ka näitena selle kohta, kuidas seda funktsiooni saab tootmises kasutada.
 
 ### <a name="create-a-purchase-order"></a>Ostutellimuse loomine
 
@@ -357,7 +357,7 @@ Selles stsenaariumis lükatakse kaubaalus 2 tagasi.
 
 Olete nüüd kvaliteedikontrolli lõpule viinud ja loonud tagasilükatud kaubaaluse jaoks kvaliteettellimuse. Loodud tellimuse vaatamiseks avage **Varude haldus \> Perioodilised ülesanded \> Kvaliteedijuhtimine \> Kvaliteettellimused**.
 
-Nüüd saab töödelda kvaliteettellimust. See teema ei hõlma kvaliteedi testimist.
+Nüüd saab töödelda kvaliteettellimust. Selles artiklis ei ole kvaliteeditestimist kaetud.
 
 Lisateavet kvaliteedijuhtimise kohta vt [Kvaliteedijuhtimise ülevaade](../inventory/enable-quality-management.md)
 

@@ -1,6 +1,6 @@
 ---
 title: Varude üleviimiste ja korrigeerimiste sünkroonimine rakendusest Field Service rakendusse Supply Chain Management
-description: Selles teemas käsitletakse malle ja aluseks olevaid ülesandeid, mida kasutatakse varude korrigeerimiste ja üleviimiste sünkroonimiseks rakendusest Dynamics 365 Supply Chain Management rakendusse Dynamics 365 Field Service.
+description: See artikkel käsitleb malle ja aluseks olevaid ülesandeid, mida kasutatakse varude korrigeerimiste sünkroonimiseks ja üleviimisteks asukohast Dynamics 365 Supply Chain Management Dynamics 365 Field Service.
 author: Henrikan
 ms.date: 04/30/2019
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: cfa7f617cbc4cd75d669972b35f8d33ba3cbcc56
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: e59e50a4f54bac749b3d860404a3ecd444d99a89
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061675"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854090"
 ---
 # <a name="synchronize-inventory-transfers-and-adjustments-from-field-service-to-supply-chain-management"></a>Varude üleviimiste ja korrigeerimiste sünkroonimine rakendusest Field Service rakendusse Supply Chain Management
 
@@ -29,7 +29,7 @@ ms.locfileid: "8061675"
 
 
 
-Selles teemas käsitletakse malle ja aluseks olevaid ülesandeid, mida kasutatakse varude korrigeerimiste ja üleviimiste sünkroonimiseks rakendusest Dynamics 365 Supply Chain Management rakendusse Dynamics 365 Field Service.
+See artikkel käsitleb malle ja aluseks olevaid ülesandeid, mida kasutatakse varude korrigeerimiste sünkroonimiseks ja üleviimisteks asukohast Dynamics 365 Supply Chain Management Dynamics 365 Field Service.
 
 [![Äriprotsesside sünkroniseerimine rakenduste Supply Chain Management ja Field Service vahel.](./media/FSTransAdjOW.png)](./media/FSTransAdjOW.png)
 

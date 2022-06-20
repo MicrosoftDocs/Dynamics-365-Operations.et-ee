@@ -1,6 +1,6 @@
 ---
 title: ER-i sihtkoha tüübi e-post
-description: Selles teemas selgitatakse, kuidas konfigureerida meilisihtkohta iga elektroonilise aruandluse (ER) vormingu komponendi FOLDER või FILE jaoks.
+description: See artikkel selgitab, kuidas konfigureerida e-posti sihtkohta elektroonilise aruandluse (ER) vormingus iga kausta või FAILI komponendi jaoks.
 author: NickSelin
 ms.date: 08/03/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 2248b8a35b076eb778a50bbbc67d083380ceee62
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 08d64b0f21e4957727de1e8f5f13f9067c0fbc7d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8324004"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845653"
 ---
 # <a name="email-er-destination-type"></a>ER-i sihtkoha tüübi e-post
 
@@ -120,7 +120,7 @@ Sisestage lehe **Valemi kujundaja** väljale **Valem** dokumendile vastav toetat
 
 ![Meili allika konto konfigureerimine.](./media/er_destinations-emaildefineaddresssource.gif)
 
-Kui konfigureeritud rolli kontonumbrid on kordumatud kogu Microsoft Dynamics 365 Finance’i eksemplari jaoks, võib välja **Meili allika ettevõte** dialoogiboks **Meili saaja** jääda tühjaks.
+Kui konfigureeritud rolli kontonumbrid on kogu 365 Finantsi eksemplari puhul kordumatud Microsoft Dynamics, **·** **võib** dialoogiboksi Meil kuni meiliallika väli jääda tühjaks.
 
 Teise võimalusena võib teil olla olukord, kus erinevates ettevõtetes on registreeritud [globaalse aadressiraamatu](../../fin-ops/organization-administration/overview-global-address-book.md) erinevad osapooled ([juriidilised isikud](../../fin-ops/organization-administration/organizations-organizational-hierarchies.md#legal-entities)) nii, et nad kõik kasutavad konfigureeritud rolli täitmiseks sama kontonumbrit. Sel juhul ei ole konfigureeritud rolli kontonumbrid kogu rakenduse Finance eksemplari jaoks kordumatud. Seetõttu ei saa te osapoole selgeks valimiseks määrata ainult kontonumbri. Samuti peate määrama ettevõtte, kus osapool on konfigureeritud rolli täitmiseks registreerinud. Valige nupp **Seo** (keti sümbol) välja **Meili allika ettevõte** kõrval dialoogiboksis **Meili saaja**, et avada leht [Valemi disainija](general-electronic-reporting-formula-designer.md). Seejärel saate kasutada lehekülge, et konfigureerida valemi, mis tagastab käitusajal ettevõtte koodi, mille ulatuses tuleb leida soovitud allikas.
 
@@ -162,7 +162,7 @@ Järgmisel joonisel on kujutatud ER-i vormingu struktuur, mis on konfigureeritud
 
 [![Väljaminevaid dokumente genereeriva ER-i vormingu struktuur.](./media/ER_Destinations-Email-Grouping1.png)](./media/ER_Destinations-Email-Grouping1.png)
 
-Järgmisel joonisel on kujutatud selles teemas kirjeldatud protsessi üksikute komponentide grupeerimiseks ja uue grupi sihtkoha **Meil** lubamiseks, et märgukirja teade saadetakse koos vastava kliendi arvetega meili manustena.
+Järgmine näide **näitab** üksikute komponentide grupeerimise ja uue grupi meilisihtkoha lubamist selles artiklis kirjeldatud viisil, et märgukirja märkus saadetakse koos asjakohaste kliendiarvetega meilimanusena.
 
 [![Üksikute komponentide grupeerimine ja meili sihtkoha lubamine.](./media/ER_Destinations-Email-Grouping2.gif)](./media/ER_Destinations-Email-Grouping2.gif)
 

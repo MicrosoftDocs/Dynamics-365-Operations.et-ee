@@ -1,6 +1,6 @@
 ---
 title: Katkesta konfiguratsioonid RCS-i globaalses hoidlas
-description: See teema kirjeldab, kuidas lõpetada konfiguratsioonid RCS-i globaalses hoidlas.
+description: See artikkel kirjeldab, kuidas lõpetada konfiguratsioonid RCS-i globaalses hoidlas.
 author: JaneA07
 ms.date: 02/17/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2021-02-02
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: 340fc96e7dfe56da9ee8d4831a5980e3e96ec3ee0f2f5a8fb2ab72f713de9737
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4121f45a95e1712f21390c317af532662846a0fc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712166"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894807"
 ---
 # <a name="discontinue-configurations-in-the-rcs-global-repository"></a>Katkesta konfiguratsioonid RCS-i globaalses hoidlas
 
 [!include [banner](../includes/banner.md)]
 
-See teema kirjeldab, kuidas lõpetada konfiguratsioonid RCS-i globaalses hoidlas. Varem oli võimalik kustutada ainult need konfiguratsioonid, mida enam ei vajata. Nüüd saate väljastatud konfiguratsiooni RCS-i globaalses hoidlas märkida kui **Lõpetatud**. Saate sellega ka hallata järgmisi funktsioone: 
+See artikkel kirjeldab, kuidas RCS-i globaalses hoidlas konfiguratsioonist loobuda. Varem oli võimalik kustutada ainult need konfiguratsioonid, mida enam ei vajata. Nüüd saate väljastatud konfiguratsiooni RCS-i globaalses hoidlas märkida kui **Lõpetatud**. Saate sellega ka hallata järgmisi funktsioone: 
  
  - Esitage eelnevalt teatised, kui konfiguratsiooni konfigureerimine on kavandatud lõpetama.
  - Kaasab asenduskonfiguratsioonile rakendatavad üksikasjad.
@@ -56,7 +56,7 @@ Kui soovite plaanitud katkestuse kohta teavet jagada, siis enne konfiguratsiooni
 
 ## <a name="finance-supports-displaying-this-information-starting-in-version-10014"></a>Finantsid toetavad selle teabe kuvamist alates versioonist 10.0.14
 
-Alates versioonist 10.0.14 toetab Dynamics 365 Finance lõpetamisteabe kuvamist. Lehel **Globaalne hoidla** saate vaadata ajateavet, mis on seotud hiljutise teabega. Vaikimisi filtreeritakse välja enamjaolt konfiguratsioonid.
+Versiooniga 10.0.14 alustamisel toetab Dynamics 365 Finance teabe kuvamist. Lehel **Globaalne hoidla** saate vaadata ajateavet, mis on seotud hiljutise teabega. Vaikimisi filtreeritakse välja enamjaolt konfiguratsioonid.
   
 Lehel **Imporditud konfiguratsioonid** (ERSolutionTable) kuvatakse konfiguratsioonid, mis on impordi ajal juba lõpetatud. Nende konfiguratsioonide puhul, mis pärast importimist enam ei tööta, saab teabe sünkroonida, käivitades töö **Impordi konfiguratsioonid**.
 

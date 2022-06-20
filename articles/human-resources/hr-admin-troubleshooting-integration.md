@@ -1,6 +1,6 @@
 ---
 title: Finance’i KKK-ga integreerimine
-description: Selles teemas selgitatakse, millised andmed sünkroonitakse rakenduste Human Resources ja Finance integratsioonis.
+description: Selles artiklis selgitatakse, millised andmed sünkroonitakse rakenduste Human Resources ja Finance integratsioonis.
 author: twheeloc
 ms.date: 08/19/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9b83250bdb54ea6e78709dd3a3ea434a994f6211
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: f150c87b6d4e6575bc61a8f36bdf344ebba9c571
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694000"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879275"
 ---
 # <a name="integration-with-finance-faq"></a>Finance’i KKK-ga integreerimine
 
@@ -29,7 +29,7 @@ ms.locfileid: "8694000"
 
 
 
-See teema vastab ühistele küsimustele, mis on seotud sünkroonitud andmetega, kui neid Dynamics 365 Human Resources integreeritakse Dynamics 365 Finance-ga.
+See artikkel vastab ühistele küsimustele, mis on seotud sünkroonitud andmetega, kui neid Dynamics 365 Human Resources integreeritakse Dynamics 365 Finance-ga.
 
 ## <a name="can-i-edit-the-dynamics-365-talent-application-user-in-power-apps"></a>Kas ma saan rakenduse Dynamics 365 Talent kasutajat muuta rakenduses Power Apps?
 

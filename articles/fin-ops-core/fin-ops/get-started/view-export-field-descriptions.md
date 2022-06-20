@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ea52c39ef1c7d7b62f20da9fe4d94103119ccc23
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 75019f3f9bcd081f32d06971b11429bcdd794240
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069269"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847095"
 ---
 # <a name="view-and-export-field-descriptions"></a>Väljade kirjelduste vaatamine ja eksportimine
 
@@ -91,11 +91,11 @@ Selles jaotises on teave, mis on abiks veaotsingul probleemide osas, millega võ
 
 ### <a name="i-cant-find-a-field-description"></a>Ma ei leia välja kirjeldust
 
-Praegu on käimas kirjelduste lisamise toiming keerulisematele väljadele. Kui vajate konkreetse välja puhul abi, andke meile sellest teada, lisades sellele teemale kommentaari.
+Praegu on käimas kirjelduste lisamise toiming keerulisematele väljadele. Kui vajate konkreetse välja kohta spikrit, andke meile teada, lisades kommentaari selle artikli kohta.
 
 ### <a name="the-field-description-isnt-helpful"></a>Välja kirjeldusest ei ole abi
 
-Andke meile sellest teada, lisades sellele teemale kommentaari. Võimaluse korral kirjeldage lisateavet, mida vajate.
+Andke meile teada, lisades sellele artiklile kommentaari. Võimaluse korral kirjeldage lisateavet, mida vajate.
 
 ### <a name="i-cant-find-a-field-on-the-field-descriptions-page"></a>Ma ei leia lehelt Väljade kirjeldused välja.
 

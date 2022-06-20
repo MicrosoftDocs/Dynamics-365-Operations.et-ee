@@ -1,6 +1,6 @@
 ---
 title: Hankija arve kuupäevad
-description: See teema kirjeldab hankija arvetel kuvatavaid kuupäevi. Lisaks selgitatakse, kuidas süsteemi seadistada nii, et see kohandaks automaatselt postitamiskuupäeva.
+description: Selles artiklis kirjeldatakse hankija arvetel kuvatavaid kuupäevi. Lisaks selgitatakse, kuidas süsteemi seadistada nii, et see kohandaks automaatselt postitamiskuupäeva.
 author: sunfzam
 ms.date: 2/09/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-08-30
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 064a125d448ebb3511db2d9b1f4228380805dc44
-ms.sourcegitcommit: f2a78e0d7d461ca843ac2f9abff7690275db9196
+ms.openlocfilehash: 943a84407d022c2c05bc534a35a2b5d44a94653e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8105459"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876408"
 ---
 # <a name="vendor-invoice-dates"></a>Hankija arve kuupäevad
 
 [!include [banner](../includes/banner.md)]
 
-See teema kirjeldab hankija arvetel kuvatavaid kuupäevi. Lisaks selgitatakse, kuidas süsteemi seadistada nii, et see kohandaks automaatselt postitamiskuupäeva.
+Selles artiklis kirjeldatakse hankija arvetel kuvatavaid kuupäevi. Lisaks selgitatakse, kuidas süsteemi seadistada nii, et see kohandaks automaatselt postitamiskuupäeva.
 
 Lehel **Ootel hankija arve üksikasjad** on arve päises neli kuupäeva: arve saamise kuupäev, arve kuupäev, saatmise kuupäev ja maksetähtaeg. Hankija arve loomisel sisestatakse vaikimisi järgmised kuupäevad.
 
@@ -37,7 +37,7 @@ Lehel **Ootel hankija arve üksikasjad** on arve päises neli kuupäeva: arve sa
 
 Mõnikord võib hankija arve olla pärast perioodi sulgemist pikka aega ootel. Kui see on postitamiseks valmis, kasutatakse endiselt eelmise postitamisperioodi vana postitamiskuupäeva. See periood on aga nüüdseks lõppenud. Seetõttu peab võlgnevuste (AP) ametnik käsitsi muutma kõigi eelnevalt loodud ootel olevate arvete kõik saatmiskuupäevad uueks saatmisperioodiks.
 
-Selles teemas kirjeldatud funktsioon võimaldab teil seadistada süsteemi nii, et see kohandab automaatselt postitamiskuupäeva vastavalt ärinõuetele.
+Funktsioon, mida selles artiklis kirjeldatakse, võimaldab teil seadistada süsteemi nii, et see korrigeerib automaatselt sisestuskuupäeva vastavalt ärinõuetele.
 
 ## <a name="parameter-for-automatically-adjusting-the-vendor-invoice-posting-date"></a>Parameeter hankija arve konteerimiskuupäeva automaatseks kohandamiseks
 

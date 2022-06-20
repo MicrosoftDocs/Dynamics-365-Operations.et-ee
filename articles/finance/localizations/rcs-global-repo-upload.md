@@ -1,6 +1,6 @@
 ---
 title: ER-konfiguratsioonide loomine RCS-is ja üleslaadimine globaalsesse hoidlasse
-description: Selles teemas selgitatakse, kuidas luua elektroonilise aruandluse (ER) konfiguratsiooni Microsoft Regulatory Configuration Servicesis (RCS) ja globaalsesse hoidlasse üles laadida.
+description: See artikkel selgitab, kuidas luua elektroonilise aruandluse (ER) konfiguratsiooni Microsoft Regulatory Configuration Servicesis (RCS) ja laadida see üles globaalsesse hoidlasse.
 author: JaneA07
 ms.date: 01/11/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: eb04362d6d7261af56d2940b085fbc8d43c9d662
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 8cfbcfea3c6056d87eb600c9a2f9e0d1727c30ff
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7965085"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894739"
 ---
 # <a name="create-er-configurations-in-regulatory-configuration-services-rcs-and-upload-them-to-the-global-repository"></a>ER-konfiguratsioonide loomine Regulatory Configuration Servicesis RCS ja üleslaadimine globaalsesse hoidlasse
 
@@ -37,24 +37,24 @@ Enne nende protseduuride lõpule viimist peate esmalt viima lõpule järgmised e
 
 Peate veenduma, et RCS-keskkond on teie organisatsiooni jaoks ette ettevalmistamine. Kui teie organisatsiooni jaoks pole RCS-i eksemplari ette vaadatud, saate seda teha järgmiste sammude abil:
 
-1. Minge finantside ja toimingute rakendusesse Organisatsiooni **halduse** \> **tööruumide** \> **elektrooniline aruandlus**.
-2. Väljadel Seotud lingid / Välised lingid valige Regulatiivsed teenused – Konfiguratsioon ja järgige seejärel juhiseid, **et** **·** **eraldisesse** registreeruda.
+1. Minge finantside ja toimingute rakendusesse Organisatsiooni halduse **tööruumide** \> **elektrooniline** \> **aruandlus**.
+2. Väljadel **Seotud lingid / Välised lingid** valige **Regulatiivsed teenused –** Konfiguratsioon ja järgige seejärel juhiseid, et **eraldisesse** registreeruda.
 
-Kui RCS-keskkond on juba teie organisatsiooni jaoks ette ettevalmistamine, kasutage sellele juurdepääsuks lehe **URL-i ja valige** sisselogimissuvand.
+Kui RCS-keskkond on juba teie organisatsiooni jaoks ette ettevalmistamine, kasutage sellele juurdepääsuks lehe URL-i **ja valige sisselogimissuvand**.
 
 ## <a name="create-a-derived-version-of-a-configuration-in-rcs"></a>Konfiguratsiooni tuletatud versiooni loomine RCS-is
 
 > [!NOTE]
 > Kui see on esimene kord, mil olete kasutanud RCS-i, ei ole teil võimalik tuletada ühtegi konfiguratsiooni. Peate importima konfiguratsiooni globaalsest hoidlast. Lisateavet leiate teemast [ER konfiguratsioonide allalaadimine konfiguratsiooniteenuse globaalsest hoidlast](../../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md).
 
-1. **Logige sisse** RCS-i ja valige **elektroonilise aruandluse** tööruum.
+1. **Logige sisse** RCS-i ja valige elektroonilise **aruandluse** tööruum.
 2. Kontrollige, kas teie organisatsioonil on aktiivne konfiguratsioonipakkuja, mis on seadistatud aktiivseks (vt eeltingimusi). 
 3. Valige **Aruandluse konfiguratsioonid**.
 4. Valige konfiguratsioon, millest soovite tuletada uut versiooni. Otsingu kitsendamiseks saate kasutada puu kohal olevat filtri välja.
 5. Valige **Konfiguratsiooni loomine** \> **Tuleta nimest**.
-6. Sisestage nimi ja kirjeldus ning seejärel valige käsk Loo konfiguratsioon, et luua uus tuletatud **versioon** olekuga Mustand.
+6. Sisestage nimi ja kirjeldus ning seejärel valige käsk **Loo konfiguratsioon**, et luua uus tuletatud versioon olekuga Mustand.
 7. Valige vastloodud konfiguratsioon ja tehke vajadusel konfiguratsioonivormingus lisamuudatusi. 
-8. Kui muudatused on tehtud, peate selle avaldamiseks hoidlas häälestama konfiguratsiooni oleku **Muuda** **olekuks** Lõpetatud. Valige nupp **OK**.
+8. Kui muudatused on tehtud, peate **selle** **avaldamiseks** hoidlas häälestama konfiguratsiooni oleku Muuda olekuks Lõpetatud. Valige nupp **OK**.
 
 ![Uus konfiguratsiooni versioon RCS-is.](media/RCS_CompleteConfig.JPG)
 
@@ -73,7 +73,7 @@ Uue või tuletatud konfiguratsiooni jagamiseks oma organisatsiooniga saate selle
 3. Valige kinnituse teateaknast **Jah**. 
 4. Värskendage versiooni kirjeldust vastavalt vajadusele ja seejärel valige **OK**. Soovi korral saate versiooni üles laadida kas ühendatud rakendusse või GIT-hoidlasse.  
 
-Konfiguratsiooni olek värskendatakse olekusse **Ühiskasutuses** ja konfiguratsioon laaditakse üles globaalsesse hoidlasse. Samuti luuakse teie üleslaaditud konfiguratsiooni mustandversioon ja seda saab kasutada siis, kui on vaja teha edaspidisi muudatusi.
+Konfiguratsiooni olek värskendatakse olekusse Ühiskasutuses **ja** konfiguratsioon laaditakse üles globaalsesse hoidlasse. Samuti luuakse teie üleslaaditud konfiguratsiooni mustandversioon ja seda saab kasutada siis, kui on vaja teha edaspidisi muudatusi.
 
 Kui konfiguratsioon on globaalsesse hoidlasse üles laaditud, saate sellega töötada järgmistel viisidel:
 

@@ -1,6 +1,6 @@
 ---
 title: Aruannetel ja dokumentidel summade kuvamisviisi värskendamine
-description: Selles teemas antakse teavet aruannetel ja muudel dokumentidel summade kuvamisviisi värskendamiseks Eesti, Leedu, Poola, Tšehhi Vabariigi, Ungaris ja Venemaa puhul.
+description: See artikkel annab teavet selle kohta, kuidas uuendada summade kuvamist eesti, Läti, Leedu, Poola, Tšehhi Vabariigi, Ungari ja Venemaa aruannetes ja teistes dokumentides.
 author: anasyash
 ms.date: 01/18/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, R
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 678c7ac288e7754809ad51cc609e1aaa011776ee
-ms.sourcegitcommit: 9638d3a2bd592dc28f5952bda4af7dcf06edfaa4
+ms.openlocfilehash: e985ffc156caa86da3a3e8c36122e4f73278ca7f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8007589"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907709"
 ---
 # <a name="update-how-amounts-are-displayed-on-reports-and-documents"></a>Aruannetel ja dokumentidel summade kuvamisviisi värskendamine
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas antakse teavet aruannetel ja muudel dokumentidel summade kuvamisviisi värskendamiseks Eesti, Leedu, Poola, Tšehhi Vabariigi, Ungaris ja Venemaa puhul.
+See artikkel annab teavet selle kohta, kuidas uuendada summade kuvamist eesti, Läti, Leedu, Poola, Tšehhi Vabariigi, Ungari ja Venemaa aruannetes ja teistes dokumentides.
 
 Juriidiliste isikute puhul Eestis, Lätis, Leedus, Poolas, Tšehhi Vabariigis, Ungaris ja Venemaal saate seadistada valuutaühikute ning allühikute jaoks täielikud ja lühinimed. Neid nimesid saab kasutada dokumentidel ja aruannetes summade kuvamisviisi määramiseks. Näiteks kuvatakse summa **LTL 100,20** arvetes või aruannetes kui **100 Litas 20 Centas**.
 
@@ -47,7 +47,7 @@ Valuutaühikute ja allühikute täielike ning lühinimede seadistamiseks valitud
    |    <strong>Ühikute lühinimi (Lühinime väljagrupp)</strong>    |                                                                                         Sisestage valuutat tuvastav ISO-kood. Näiteks littide tuvastamiseks sisestage LTL.                                                                                         |
    |   <strong>Ühikute lühinimi (Lühinime väljagrupp)</strong>    |                                                                                               Sisestage valuuta allühiku üldnimetus. Näiteks sisestage Centas.                                                                                               |
    |       <strong>Sidesõna „ja” ühikute ja allühikute vahel</strong>       |                                     Märkige ruut , et printida ühikute ja allühikute vahel sidesõna „ja”. Näiteks kuvatakse summa LTL 100,20 arvetel või aruannetes kui „100 Litas and 20 Centas”.                                      |
-   |       <strong>Sugu</strong>       |  Valige **Mehelik**, **Naiselik** või **Kesksoost**. See näitaja võib mõjutada summa käänet, mida näidatakse kassaorderi kohalikus keeles. Näiteks kui seadistate Valuuta Sugu EUR-i jaoks Neuter-ina, kirjutatakse summa 1,01 EUR kassaorderi Thhi **keeles** **·** *01 senti Jedno eurona*.  |
+   |       <strong>Sugu</strong>       |  Valige **Mehelik**, **Naiselik** või **Kesksoost**. See näitaja võib mõjutada summa käänet, mida näidatakse kassaorderi kohalikus keeles. Näiteks **kui** **seadistate Valuuta Sugu EUR-i jaoks Neuter-ina**, kirjutatakse *summa 1,01 EUR kassaorderi Thhi keeles 01 senti Jedno eurona*.  |
 
 5. Valige käsk **Salvesta**.
 

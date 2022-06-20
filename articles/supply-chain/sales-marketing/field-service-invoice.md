@@ -1,6 +1,6 @@
 ---
 title: Sünkroonige leppe arved rakenduses Field Service vabas vormis arveteks rakenduses Supply Chain Management
-description: Selles teemas käsitletakse malle ja aluseks olevaid ülesandeid, mida kasutatakse lepinguarvete sünkroonimiseks rakendusest Dynamics 365 Field Service vabas vormis arveteks rakenduses Dynamics 365 Supply Chain Management.
+description: See artikkel käsitleb malle ja aluseks olevaid ülesandeid, mida kasutatakse rakenduses Dynamics 365 Field Service sõlmitud lepinguarvete sünkroonimiseks vabas vormis arvete jaoks Dynamics 365 Supply Chain Management.
 author: Henrikan
 ms.date: 04/10/2018
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 70f1c072c3a2a1b201aac1f1d2beea9979a3b792
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: c4ef70af71ae223baaa2abb2b64428beab946e3d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060760"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900879"
 ---
 # <a name="synchronize-agreement-invoices-in-field-service-to-free-text-invoices-in-supply-chain-management"></a>Sünkroonige leppe arved rakenduses Field Service vabas vormis arveteks rakenduses Supply Chain Management
 
@@ -29,7 +29,7 @@ ms.locfileid: "8060760"
 
 
 
-Selles teemas käsitletakse malle ja aluseks olevaid ülesandeid, mida kasutatakse lepinguarvete sünkroonimiseks rakendusest Dynamics 365 Field Service vabas vormis arvetega rakenduses Dynamics 365 Supply Chain Management.
+See artikkel käsitleb malle ja aluseks olevaid ülesandeid, mida kasutatakse lepinguarvete sünkroonimiseks Dynamics 365 Field Service vabas vormis arvetesse Dynamics 365 Supply Chain Management.
 
 ## <a name="templates-and-tasks"></a>Mallid ja ülesanded
 

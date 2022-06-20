@@ -1,6 +1,6 @@
 ---
 title: Hooldusobjektide loomine
-description: Selles teemas antakse protseduur, mis näitab, kuidas luua teenuse objekte.
+description: See artikkel pakub protseduuri, mis näitab, kuidas luua teenuseobjekte.
 author: sorenva
 ms.date: 02/21/2018
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 585a268f4ebbe7bc8626f028c038d1533812c5e4
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
-ms.translationtype: MT
+ms.openlocfilehash: b372e7d06fdf25df81b11e74e20a5ff214503a0c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674977"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852124"
 ---
 # <a name="create-service-objects"></a>Hooldusobjektide loomine  
 
@@ -34,7 +34,7 @@ Teenuse objektid on kliendi varad ja tooted, millega seoses saab hooldust osutad
 4. Väljal **Hooldusobjekti grupp** valige grupp, kuhu objekt kuulub. 
 5. Valikuline: valige hooldusobjekti reale objekt või valige malli kooslus (BOM).
 
-## <a name="related-topics"></a>Seotud dokumendid
+## <a name="related-articles"></a>Seotud artiklid
 
 [Teenuseobjektide ülevaade](service-objects.md)
 

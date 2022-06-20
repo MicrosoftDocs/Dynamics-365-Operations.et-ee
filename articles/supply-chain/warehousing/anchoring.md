@@ -1,6 +1,6 @@
 ---
 title: Ankurdamine
-description: See teema kirjeldab ankurdamise lubamist ja kasutamist.
+description: See artikkel selgitab, kuidas ankurdamist lubada ja kasutada.
 author: GalynaFedorova
 ms.date: 07/29/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2021-07-29
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 26a7bf60912ff1e8a23305e9331d520fe8d65727
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 8a0fa849f07f0cc0a41a663fc97b5aba927700b1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8676491"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903807"
 ---
 # <a name="anchoring"></a>Ankurdamine
 
 [!include [banner](../includes/banner.md)]
 
-See teema annab üksikasju ankurdamise protsessi kohta. See kirjeldab nõutavat konfiguratsiooni ja loogikat, mis käivitatakse, kui laotöötaja muudab kas ajastamiskohta või laadimise asukohta.
+See artikkel annab üksikasju ankurdamisprotsessi kohta. See kirjeldab nõutavat konfiguratsiooni ja loogikat, mis käivitatakse, kui laotöötaja muudab kas ajastamiskohta või laadimise asukohta.
 
 Ankurdamisfunktsioon võimaldab alistada ajastus- või laadimisasukoha. Kõik avatud asetamised suunatakse siis uude teie määratud ajastus- või laadimisasukohta.
 
@@ -36,11 +36,11 @@ Konfigureerige ankurdamine mobiilse seadme menüü-üksuste jaoks **Ankur** suva
 > [!IMPORTANT]
 > Järgmiste avatud panemiste asukohta muudetakse ainult töö ridadel, mis luuakse sama töömalli realt. See tähendab, et süsteem ankurdab samalt töömalli realt pärinevad panemisread.
 
-Selles teemas antakse stsenaarium, mis näitab, kuidas ankurdamine toimib. Selle stsenaariumi käigus loote müügitellimuste komplekti ja väljastate need komplektid lattu. Seejärel alistate soovitatud ajastusasukoha ja kontrollite, et kogu allesjäänud mahajääv töö suunatakse uude asukohta.
+See artikkel annab stsenaariumi, mis näitab, kuidas ankurdamine töötab. Selle stsenaariumi käigus loote müügitellimuste komplekti ja väljastate need komplektid lattu. Seejärel alistate soovitatud ajastusasukoha ja kontrollite, et kogu allesjäänud mahajääv töö suunatakse uude asukohta.
 
 ## <a name="scenario-prerequisite-make-demo-data-available"></a>Stsenaariumi eeltingimus: demoandmete kättesaadavaks tegemine
 
-Selle teema stsenaarium viitab väärtustele ja kirjetele, mis kuuluvad Microsoft Dynamics 365 Supply Chain Managementile esitatud standardsete demoandmete hulka. Kui soovite kasutada siin esitatud väärtusi harjutuste tegemise ajal, veenduge, et töötate keskkonnas, kuhu on demoandmed installitud ja määrake enne alustamist juriidiliseks isikuks *USMF*.
+Selle artikli stsenaarium viitab väärtustele ja kirjetele, mis sisalduvad Microsofti standardsetes demoandmetes Dynamics 365 Supply Chain Management. Kui soovite kasutada siin esitatud väärtusi harjutuste tegemise ajal, veenduge, et töötate keskkonnas, kuhu on demoandmed installitud ja määrake enne alustamist juriidiliseks isikuks *USMF*.
 
 ## <a name="scenario-setup"></a>Stsenaariumi häälestus
 

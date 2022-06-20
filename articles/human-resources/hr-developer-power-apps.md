@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4036378ca70089a9978a9bf5fb48c058a2064cdc
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 5fe8ecd368bc63eed43c86053084ca67ef9beac6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689490"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859513"
 ---
 # <a name="extend-with-power-apps-and-power-automate"></a>Laiendamine Power Appsi ja Power Automate’iga
 
@@ -33,7 +33,7 @@ ms.locfileid: "8689490"
 Selles artiklis kirjeldatakse rakenduse Microsoft Dynamics 365 Human Resources laiendatavusstsenaariumeid, mis kasutavad Microsoft Power Appsi ja Microsoft Power Automate'i. Saate rakenduse Power Apps keskkonda importida iga näitega seotud lahendusepaketi. Seejärel saate pakette kasutada juhisena või lähtekohana teie organisatsioonile sobivate stsenaariumide rakendamiseks.
 
 > [!IMPORTANT]
-> Kui soovite kasutada selles teemas kirjeldatud malle ja rakendusi muutmata kujul, katsetage neid kindlasti veendumaks, et need hõlmaksid kõiki teie juurutusele kehtivaid stsenaariume.
+> Kui soovite kasutada malle ja rakendusi, mida on kirjeldatud käesolevas artiklis "nagu on", kontrollige kindlasti, et need hõlmaks kõiki teie rakendusele omasi stsenaariume.
 
 ## <a name="prerequisites"></a>Eeltingimused
 

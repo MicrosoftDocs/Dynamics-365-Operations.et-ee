@@ -1,6 +1,6 @@
 ---
 title: E-kaubanduse digitaalsed kinkekaardid
-description: See teema kirjeldab, kuidas digitaalsed kinkekaardid e-kaubanduses teenuse Microsoft Dynamics 365 Commerce juurutamisel töötavad. Samuti antakse ülevaade olulistest konfigureerimisetappidest.
+description: See artikkel kirjeldab, kuidas digitaalsed kinkekaardid e-kaubanduses töötavad Microsoft Dynamics 365 Commerce. Samuti antakse ülevaade olulistest konfigureerimisetappidest.
 author: anupamar-ms
 ms.date: 05/27/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: de8811b3265bc582a055aaad1f3dea32def552f4
-ms.sourcegitcommit: d38d2fe85dc2497211ba5731617f590029d07145
+ms.openlocfilehash: 60de6988f14a0dcbbb881e84a9e4d8a45ca1289a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "8809583"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884900"
 ---
 # <a name="e-commerce-digital-gift-cards"></a>E-kaubanduse digitaalsed kinkekaardid
 
 [!include [banner](includes/banner.md)]
 
-See teema kirjeldab, kuidas digitaalsed kinkekaardid e-kaubanduses teenuse Microsoft Dynamics 365 Commerce juurutamisel töötavad. Samuti antakse ülevaade olulistest konfigureerimisetappidest.
+See artikkel kirjeldab, kuidas digitaalsed kinkekaardid e-kaubanduses töötavad Microsoft Dynamics 365 Commerce. Samuti antakse ülevaade olulistest konfigureerimisetappidest.
 
 Teenuses Dynamics 365 Commerce järgib digitaalsete kinkekaartide ostmine sama voogu mis muude süsteemi toodete ostmine. Mingeid lisamooduleid ei ole vaja konfigureerida. Kui ostukorvi lisatakse mitu kinkekaarti, ei koondata kinkekaardikaubad ühele müügireale. Selline käitumine on vajalik, kuna iga müügirea arveldamiseks kasutatakse eraldi kinkekaardi numbrit.
 

@@ -1,6 +1,6 @@
 ---
 title: Masinõppemudelite tulemused
-description: Selles teemas käsitletakse segaduse maatrikseid, klassifitseerimisprobleeme ja täpsust masinõppe (ML) mudelites. Eesmärk on parandada oma arusaamist ML-i prognoosimise tulemuste täpsusest.
+description: See artikkel käsitleb segadust maatrikseid, klassifikatsiooniprobleeme ja täpsust masina õppemudelites (MALA). Eesmärk on parandada oma arusaamist ML-i prognoosimise tulemuste täpsusest.
 author: ShivamPandey-msft
 ms.date: 07/16/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-14
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: c57a023995e0bb58d4fba0a4fd2f147d07e51348
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 23df5979231fbd6908b6f1e7c3aca5dd3e0e733d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725956"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910167"
 ---
 # <a name="results-of-machine-learning-models"></a>Masinõppemudelite tulemused
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas käsitletakse segaduse maatrikseid, klassifitseerimisprobleeme ja täpsust masinõppe (ML) mudelites. Eesmärk on parandada oma arusaamist ML-i prognoosimise tulemuste täpsusest. Sihtrühma kuuluvad insenerid, analüütikud ja juhid, kes soovivad luua oma teadmisi ja oskusi andmeteaduses.
+See artikkel käsitleb segadust maatrikseid, klassifikatsiooniprobleeme ja täpsust masina õppemudelites (MALA). Eesmärk on parandada oma arusaamist ML-i prognoosimise tulemuste täpsusest. Sihtrühma kuuluvad insenerid, analüütikud ja juhid, kes soovivad luua oma teadmisi ja oskusi andmeteaduses.
 
 ## <a name="confusion-matrix"></a>Segaduse maatriks
 Pärast seda kui jälgitav ML-i probleem on ajalooliste andmete komplekti põhjal koolitatud, seda testitakse kasutades andmeid, mis on koolitusprotsessist eemale jäänud. Sel viisil saate võrrelda koolitatud mudeli prognoose tegelike väärtustega. Segaduse maatriks annab võimaluse hinnata, kui edukas klassifitseerimise probleem on ja kus see teeb vigu (st kus see läheb segadusse).
@@ -73,16 +73,16 @@ Täpsus on oluline vahend suhtlemiseks domeeni asjatundjatega, kes ei ole statis
 
 Makse prognoosimise stsenaariumi puhul saate seada eesmärgi ML-i mudeli jaoks, mis sisaldab erinevate makse käitumise tegureid. Eesmärk on, et mudel peaks paranema pärast naiivset oletust, vähendades valede vastuste arvu vähemalt 50 protsendi võrra. Teisisõnu on eesmärgiks täpsus, mis eraldab erineva täpsusega naiivse oletuse ja 100 protsenti.
 
-Järgmises tabelis summeeritakse see põhimõte selle teema segaduse maatriksite jaoks.
+Järgmises tabelis võetakse kokku see põhimõte selles artiklis segaduste matriitriliste jaoks.
 
-| Mudel   | Naiivne oletus | Sihtkoht | Mudeli täpsus | Kas eesmärk on täidetud?                                          |
+| Mudel   | Naiivne oletus | Sihtmärk | Mudeli täpsus | Kas eesmärk on täidetud?                                          |
 |---------|-------------|--------|----------------|-----------------------------------------------------------|
 | Mudel 1 | 0.50        | 0.75   | 0.73           | Peaaegu. See mudel parandab oluliselt oletust. |
 | Mudel 2 | 0.80        | 0.90   | 0.83           | Nr Parandamine on nõutav.                              |
 
 ## <a name="classification-f1-accuracy"></a>Klassifikatsiooni F1 täpsus
 
-Selle teema lõplik kasu on täpsem mõõtmise klassifikatsioon ML-i jõudluse kohta, mida tuntakse kui F1 täpsuse nime all.
+Selle artikli lõpp kaalutlemine on klassifikatsiooniMEETRI jõudluse täpsem mõõt, mida nimetatakse F1 täpsuseks.
 
 Enne kui F1 täpsust saab määratleda, tuleb kehtestada kaks täiendavat mõõdikut: täpsus ja tagasikutsumine. Täpsus näitab, mitu positiivsete prognooside koguarvu on õigesti määratud. Seda mõõdikut tuntakse ka positiivse prognoositava väärtusena. Tagasikutsumine on tegelike positiivsete juhtumite koguarv, mida ennustati õigesti. Seda mõõdikut nimetatakse ka tundlikkuseks.
 
@@ -97,7 +97,7 @@ F1 mõõt ühendab täpsust ja tagasikutsumist. Tulemuseks on kahe väärtuse ha
 
 - F1 = 2 × (täpsus × tagasikutsumine) ÷ (täpsus + tagasikutsumine)
 
-Vaatame konkreetset näidet. Selle teema alguses oli näide mudelist, mis ennustas, kas loom on koer või kass. Illustratsiooni korratakse siin.
+Vaatame konkreetset näidet. Varem selles artiklis oli näide mudeli kohta, mis võiks prognoosida, kas tegemist on geli või kassiga. Illustratsiooni korratakse siin.
 
 [![Liikide prognoosi näide (korduv).](./media/species-prediction-matrix.png)](./media/species-prediction-matrix.png)
 
@@ -111,7 +111,7 @@ Nagu näete, on F1 väärtus täpsuse ja tagasikutsumise väärtuste vahel.
 
 Kuigi F1 täpsust ei ole nii lihtne mõista, lisab see nüansse täpsuse üldise täpsuse numbrile. Samuti võib see aidata tasakaalustamata andmekogumite puhul, kuna kuvatakse järgmine arutelu.
 
-Selle teema jaotises [Mudeli täpsus](#model-accuracy) võrreldi järgmisi kahte segiajamise maatriksit. Kuigi esimesel mudelil oli madalam täpsus, peeti seda kasulikumaks mudeliks, sest see näitas suuremat paranemist, kui õigeaegselt tasumine.
+Selle [artikli mudeli täpsuse](#model-accuracy) jaotises võrreldakse järgmisi segadus matriitrilisi. Kuigi esimesel mudelil oli madalam täpsus, peeti seda kasulikumaks mudeliks, sest see näitas suuremat paranemist, kui õigeaegselt tasumine.
 
 ![Makse ennustus vs. tegelike näide.](media/payment-prediction-matrix.png)
 

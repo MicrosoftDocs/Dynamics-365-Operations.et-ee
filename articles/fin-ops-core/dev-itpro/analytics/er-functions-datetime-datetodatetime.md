@@ -1,6 +1,6 @@
 ---
 title: ER-i funktsioon DATETODATETIME
-description: See teema sisaldab teavet selle kohta, kuidas kasutatakse elektroonilise aruandluse (ER) funktsiooni DATETODATETIME.
+description: See artikkel annab teavet selle kohta, kuidas kasutatakse funktsiooni DATETODATETIME Electronic Reporting (ER).
 author: NickSelin
 ms.date: 12/04/2019
 ms.prod: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e5fa64b776ed2702ac65a2f6416adcf657c748caa1156a71b4c3e99ee188880
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ba80c4c3eac703ba96a4f2741fcc19bceeb24ed0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6755003"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898487"
 ---
 # <a name="datetodatetime-er-function"></a>ER-i funktsioon DATETODATETIME
 
@@ -47,7 +47,7 @@ Tulemiks saadud kuupäeva/kellaaja väärtus.
 
 ## <a name="example-1"></a>Näide 1
 
-`DATETODATETIME (CompInfo. 'getCurrentDate()')` tagastab jooksva Dynamics 365 Finance’i seansi 24. detsembril 2015 kujul **12/24/2015 12:00:00 AM**. Selles näites on **CompInfo** tüübi **Finance and Operations / tabel** elektroonilise aruandluse (ER) andmeallikas ja see viitab tabelile CompanyInfo.
+`DATETODATETIME (CompInfo. 'getCurrentDate()')`: tagastab Microsoft Dynamics praeguse 365 finantsseansi kuupäeva, 24. detsember 2015, **seisuga 24.01.242015 12:00:00**. Selles näites on **CompInfo** tüübi **Finance and Operations / tabel** elektrilise aruandluse (ER) andmeallikas ja see viitab tabelile CompanyInfo.
 
 ## <a name="example-2"></a>Näide 2
 

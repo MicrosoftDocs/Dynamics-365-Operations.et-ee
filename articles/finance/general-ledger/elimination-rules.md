@@ -1,6 +1,6 @@
 ---
 title: Eemaldamisreeglid
-description: See teema annab teavet eemaldamisreeglite ja eemaldamistest teatamise erinevate võimaluste kohta.
+description: Selles artiklis antakse teavet eemaldamisreeglite ja eemaldamistest teatamise erinevate võimaluste kohta.
 author: aprilolson
 ms.date: 01/11/2018
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e062e7541871d77803cbed475d715621b19537f1
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 3eb3ea117959dbc51eb5666aad60299210ff3ac5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722629"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864306"
 ---
 # <a name="elimination-rules"></a>Eemaldamisreeglid
 
 [!include [banner](../includes/banner.md)]
 
-See teema annab teavet eemaldamisreeglite ja eemaldamistest teatamise erinevate võimaluste kohta.
+Selles artiklis antakse teavet eemaldamisreeglite ja eemaldamistest teatamise erinevate võimaluste kohta.
 
 Eemaldamiskanded on nõutavad juhul, kui emaettevõttest juriidilisel isikul on ärisuhted ühe või mitme tütarettevõttest juriidilise isikuga ning ta kasutab konsolideeritud finantsaruandlust. Konsolideeritud finantsaruanded peavad sisaldama ainult konsolideeritud organisatsiooni ja teiste sellest organisatsioonist väljaspool asuvate üksuste vahelisi kandeid. Seetõttu tuleb samasse organisatsiooni kuuluvate juriidiliste isikute vahelised kanded pearaamatust eemaldada, nii et neid finantsaruannetes ei kuvata. Eemaldamistest saab teatada mitmesugusel moel.
 
@@ -34,7 +34,7 @@ Eemaldamiskanded on nõutavad juhul, kui emaettevõttest juriidilisel isikul on 
 -   Finantsaruandlust saab kasutada eemaldamiskontode ja dimensioonide kuvamiseks konkreetses reas või veerus.
 -   Eemaldamiste jälgimiseks võib käsitsi kandekirjete sisestamiseks kasutada eraldi juriidilist isikut.
 
-Selles teemas käsitletakse eemaldamisreegleid, mida töödeldakse eemaldamis- või konsolideerimisettevõttes. Saate seadistada eemaldamisreeglid, et luua eemaldamiskanded juriidilises isikus, mis on määratud sihtettevõttest juriidilise isikuna eemaldamiste jaoks. Seda sihtettevõttest juriidilist isikut nimetatakse eemaldamise juriidiliseks isikuks. Eemaldamistöölehti saab luua konsolideerimisprotsessis või eemaldamistöölehe soovituse abil. Enne eemaldamisreeglite seadistamist tuleb tutvuda järgmiste terminitega.
+See artikkel keskendub eemaldamisreeglitele, mida töödeldakse konsolideerimis- või eemaldamisettevõttes. Saate seadistada eemaldamisreeglid, et luua eemaldamiskanded juriidilises isikus, mis on määratud sihtettevõttest juriidilise isikuna eemaldamiste jaoks. Seda sihtettevõttest juriidilist isikut nimetatakse eemaldamise juriidiliseks isikuks. Eemaldamistöölehti saab luua konsolideerimisprotsessis või eemaldamistöölehe soovituse abil. Enne eemaldamisreeglite seadistamist tuleb tutvuda järgmiste terminitega.
 
 -   **Lähteettevõttest juriidiline isik** – juriidiline isik, kus sisestatakse eemaldatavad summad.
 -   **Sihtettevõttest juriidiline isik** – juriidiline isik, kus sisestatakse eemaldamisreeglid.

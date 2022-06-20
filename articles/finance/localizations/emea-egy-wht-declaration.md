@@ -1,6 +1,6 @@
 ---
 title: Kinnipeetava maksu deklaratsioon Egiptuse jaoks
-description: Käesolev teema kirjeldab, kuidas konfigureerida ja luua Egiptuse kinnipeetava maksu deklaratsioone.
+description: See artikkel selgitab, kuidas konfigureerida ja luua Egiptuse kinnipeetava maksu deklaratsioone.
 author: sndray
 ms.date: 03/08/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: sndray
 ms.search.validFrom: 2017-06-20
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 8d78af13e0b3879afd0b6dae7b1a9ece651c3fd2
-ms.sourcegitcommit: 7aa7d756e1e98a53da62e03c608a9597ef9893ea
+ms.openlocfilehash: 505eb8a907ec8cc74b897695ddd90eee3abb0ed6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "7403887"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907683"
 ---
 #  <a name="withholding-tax-declaration-for-egypt-eg-00005"></a>Kinnipeetava maksu deklaratsioon Egiptuse jaoks (EG-00005)
 
@@ -26,11 +26,11 @@ ms.locfileid: "7403887"
 [!include[banner](../includes/preview-banner.md)]
 
 ## <a name="overview"></a>Ülevaade
-See teema kirjeldab, kuidas seadistada ja luua kinnipeetava maksu deklaratsioone ning kinnipeetava maksu deklaratsiooni vorme 41 ja 11 Egiptuse juriidilistele isikutele 
+See artikkel selgitab, kuidas seadistada ja luua kinnipeetava maksu deklaratsioone ning kinnipeetava maksu deklaratsiooni vorme 41 ja 11 Egiptuse juriidilistele isikutele. 
 
 Kõik Egiptuse üksused peavad ette valmistama vormi 41, mis võtab kokku kõik maksud, mis on kinnipeetud kohalikelt hankijatelt ja tarnijatelt. Lisaks vormile 41 tuleb luua vorm 11 kõigi välismaiselt pakkujatelt kinnipeetud maksu üksikasjade jaoks. 
 
-Kinnipeetava **Maksu deklaratsiooni** aruanne sisaldab järgmisi Dynamics 365 Finance aruandeid:
+**Dynamics** 365 Finance kinnipeetava maksu deklaratsiooni aruanne sisaldab järgmisi aruandeid:
 
 - Deklaratsiooni vormi number. 41
 - Deklaratsiooni vormi number. 11
@@ -58,7 +58,7 @@ Lisateavet selle kohta, kuidas importida elektroonilise aruandluse konfiguratsio
 
 Egiptuse deklaratsioonivormide rakendamine põhineb elektroonilise aruandluse (ER) konfiguratsioonil. Lisateavet konfigureeritava aruandluse võimaluste ja mõistete kohta vaata [Eektroonilisest aruandlusest](../../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md).
 
-Tootmise ja kasutaja aktsepteerimise testimiseks (UAT) keskkonnad järgige teema juhiseid, [Laadige alla elektroonilise aruandluse konfiguratsioonid Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
+Tootmise ja kasutaja aktsepteerimise testimiseks (UAT) keskkonnad järgige artikli juhiseid, [laadige alla elektroonilise aruandluse konfiguratsioonid elutsükli teenustest](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
 
 Kinnipeetavate deklaratsioonide loomiseks Egiptuse juriidilises isikus, peate üles laadima järgmised konfiguratsioonid:
 

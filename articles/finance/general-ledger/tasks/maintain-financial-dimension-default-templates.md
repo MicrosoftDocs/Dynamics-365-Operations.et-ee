@@ -1,6 +1,6 @@
 ---
 title: Finantsdimensiooni vaikemallide haldamine
-description: See teema näitab, kuidas seadistada finantsdimensiooni vaikemallid.
+description: See artikkel näitab, kuidas seadistada finantsdimensiooni vaikemalle.
 author: aprilolson
 ms.date: 07/30/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 08e795b44e552dbf049b460811a66741d9b6b96f
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 846347f3a0b5257e88e06ad593ba49160de9458a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722120"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872408"
 ---
 # <a name="maintain-financial-dimension-default-templates"></a>Finantsdimensiooni vaikemallide haldamine
 
 [!include [banner](../../includes/banner.md)]
 
-See teema näitab, kuidas seadistada finantsdimensiooni vaikemallid. Malle saab kasutada summade kiireks jaotamiseks lähtedokumentidele.
+See artikkel näitab, kuidas seadistada finantsdimensiooni vaikemalle. Malle saab kasutada summade kiireks jaotamiseks lähtedokumentidele.
 
 1. Navigatsioonipaanil avage **Moodulid > Pearaamat > Kontoplaan > Dimensioonid > Finantsdimensiooni vaikemallid**.
 2. Valige suvand **Uus**.

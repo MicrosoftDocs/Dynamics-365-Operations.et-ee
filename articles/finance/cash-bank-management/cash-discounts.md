@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37698133a959792338abcc2abd75b6fa654177f6
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: b684cf16b172432fc3bdb485be98a5c3476c8ed0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710666"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846951"
 ---
 # <a name="cash-discounts"></a>Skontod
 
@@ -30,7 +30,7 @@ Skontod seadistatakse ning neid ühiskasutatakse ostu- ja müügireskontroga.  S
 
 ## <a name="cash-discounts"></a>Skontod
 
-Lehel Skontod saab luua skontosid nii klientidele kui ka hankijatele. Saate määratleda välja Järgmine allahindluse kood abil ka eelnevate skontokuupäevade möödumisel üksteisele järgnevate skontode seeria. Lisateavet leiate selle teema osast „Näide: skontoseeriad”. Kui arve, kreeditkanne (kas makse või kreeditarve) või mõlemad sisestatakse muus valuutas kui juriidilise isiku arvestusvaluuta, arvutatakse skonto kreeditarve maksekuupäeval kehtiva vahetuskursi alusel. Kui arve ja kreeditarve sisestatakse erinevatele juriidilistele isikutele ja juriidiliste isikute arvestusvaluutad erinevad, võetakse vahetuskurss arve juriidiliselt isikult kreeditarve kuupäeva seisuga. Lisateavet leiate selle teema osast „Näide: skontode vahetuskursid”.
+Lehel Skontod saab luua skontosid nii klientidele kui ka hankijatele. Saate määratleda välja Järgmine allahindluse kood abil ka eelnevate skontokuupäevade möödumisel üksteisele järgnevate skontode seeria. Lisateavet vt jaotisest "Näide: skonto seeria" (selles artiklis). Kui arve, kreeditkanne (kas makse või kreeditarve) või mõlemad sisestatakse muus valuutas kui juriidilise isiku arvestusvaluuta, arvutatakse skonto kreeditarve maksekuupäeval kehtiva vahetuskursi alusel. Kui arve ja kreeditarve sisestatakse erinevatele juriidilistele isikutele ja juriidiliste isikute arvestusvaluutad erinevad, võetakse vahetuskurss arve juriidiliselt isikult kreeditarve kuupäeva seisuga. Lisateavet vt jaotisest "Näide skonto vahetuskursside kohta" (selles artiklis).
 
 ## <a name="defaulting-order-of-cash-discount-main-account"></a>Skonto põhikonto vaiketegevuste järjestus
 

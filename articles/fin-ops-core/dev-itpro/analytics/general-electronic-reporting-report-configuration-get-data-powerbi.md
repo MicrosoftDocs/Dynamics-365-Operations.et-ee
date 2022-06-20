@@ -1,6 +1,6 @@
 ---
 title: Elektroonilise aruandluse (ER) konfigureerimine andmete tõmbamiseks Power BI-sse
-description: Selles teemas selgitatakse, kuidas kasutada elektroonilise aruandluse (ER) konfiguratsiooni, et korraldada andmete edastamine teie eksemplarist Power BI teenustesse.
+description: See artikkel selgitab, kuidas te saate kasutada elektroonilise aruandluse (ER) konfiguratsiooni andmete edastamise korraldamiseks eksemplarist teenustesse Power BI.
 author: NickSelin
 ms.date: 04/23/2021
 ms.topic: article
@@ -14,31 +14,31 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: aa9a47c9ee7c76322fd2d9bfcf5fc61a50bf421321891b3c78a782be6a9f8e6a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e6903513dec4da20dbc4463fbae6a406fc06e1a6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740938"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896730"
 ---
 # <a name="configure-electronic-reporting-er-to-pull-data-into-power-bi"></a>Elektroonilise aruandluse (ER) konfigureerimine andmete tõmbamiseks Power BI-sse
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas selgitatakse, kuidas kasutada elektroonilise aruandluse (ER) konfiguratsiooni, et korraldada andmete edastamine teie eksemplarist Power BI teenustesse. Näitena kasutab see teema Intrastati kandeid äriandmetena, mis tuleb üle viia. Power BI kaardi visualisatsioon kasutab neid Intrastati kande andmeid, et esitleda Power BI aruandes ettevõtte impordi-/eksporditegevuse analüüsi vaadet.
+See artikkel selgitab, kuidas te saate kasutada elektroonilise aruandluse (ER) konfiguratsiooni andmete edastamise korraldamiseks eksemplarist teenustesse Power BI. See artikkel kasutab näiteks Intrastat-kandeid äriandmetena, mis tuleb üle kanda. Power BI kaardi visualisatsioon kasutab neid Intrastati kande andmeid, et esitleda Power BI aruandes ettevõtte impordi-/eksporditegevuse analüüsi vaadet.
 
 ## <a name="overview"></a>Ülevaade
 
-Microsoft Power BI on kogumik tarkvarateenustest, rakendustest ja konnektoritest, mis töötavad koos, et muuta välised andmeallikad sidusateks, visuaalselt kaasahaaravateks ja interaktiivseteks ülevaadeteks. Elektrooniline aruandlus (ER) võimaldab kasutajatel hõlpsasti konfigureerida andmeallikaid ja korraldada andmete edastamine rakendusest Power BI-sse. Andmed edastatakse failidena OpenXML-i töölehe (Microsoft Exceli töövihiku fail) vormingus. Edastatud failid talletatakse Microsoft SharePoint Serverisse, mis on selleks otstarbeks konfigureeritud. Talletatud faile kasutatakse Power BI aruannete koostamiseks, mis hõlmavad visualisatsioone (tabelid, diagrammid, kaardid jne). Power BI aruandeid jagatakse Power BI kasutajatega ning neile pääseb juurde Power BI armatuurlaudade ja rakenduse lehtede kaudu. See teema selgitab järgmisi ülesandeid:
+Microsoft Power BI on kogumik tarkvarateenustest, rakendustest ja konnektoritest, mis töötavad koos, et muuta välised andmeallikad sidusateks, visuaalselt kaasahaaravateks ja interaktiivseteks ülevaadeteks. Elektrooniline aruandlus (ER) võimaldab kasutajatel hõlpsasti konfigureerida andmeallikaid ja korraldada andmete edastamine rakendusest Power BI-sse. Andmed edastatakse failidena OpenXML-i töölehe (Microsoft Exceli töövihiku fail) vormingus. Edastatud failid talletatakse Microsoft SharePoint Serverisse, mis on selleks otstarbeks konfigureeritud. Talletatud faile kasutatakse Power BI aruannete koostamiseks, mis hõlmavad visualisatsioone (tabelid, diagrammid, kaardid jne). Power BI aruandeid jagatakse Power BI kasutajatega ning neile pääseb juurde Power BI armatuurlaudade ja rakenduse lehtede kaudu. See artikkel selgitab järgmisi ülesandeid:
 
-- Microsoft Dynamics 365 Finance'i konfigureerimine.
+- Konfigureerige Microsoft Dynamics 365 Finantsid.
 - Valmistage ette elektroonilise aruandluse vormingus konfiguratsioon, et saada andmeid rakendusest Finance.
 - Konfigureerige elektroonilise aruandluse keskkond andmete edastamiseks Power BI-sse.
 - Looge edastatud andmeid kasutades Power BI aruanne.
 - Muutke Power BI aruanne Finance'is juurdepääsetavaks.
 
 ## <a name="prerequisites"></a>Eeltingimused
-Selles teemas näite lõpuleviimiseks peab teil olema järgmine juurdepääs:
+Selle artikli näite lõpuleviimiseks peab teil olema järgmine juurdepääs:
 
 - Juurdepääs ühe järgmise rolli jaoks:
 

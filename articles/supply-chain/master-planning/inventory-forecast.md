@@ -1,6 +1,6 @@
 ---
 title: Varude prognoosid
-description: Selles teemas kirjeldatakse pakkumise ja nõudluse prognoosi funktsioone, mida saab kasutada Varude prognooside loomiseks rakenduses Microsoft Dynamics 365 Supply Chain Management.
+description: See artikkel kirjeldab pakkumise ja nõudluse prognoosi funktsioone, mida saab kasutada varude prognooside loomiseks Microsoftis Dynamics 365 Supply Chain Management.
 author: t-benebo
 ms.date: 06/08/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 1446928c2f5fe606d1d0732764a2a4460643afcf
-ms.sourcegitcommit: 4c8223c9540fbc1c1e554962938058d432e4c681
+ms.openlocfilehash: 10e3b6ad079dbcbc3cce429a4d9d838e584b9c54
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/05/2022
-ms.locfileid: "8548163"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844521"
 ---
 # <a name="inventory-forecasts"></a>Varude prognoosid
 
 [!include [banner](../includes/banner.md)]
 
-See teema kirjeldab, kuidas vaadata ja luua varude prognoose. Saate luua ja vaadata kaupade, kaubagruppide, kauba eraldamisvõtmete, kliendikontode, kliendigruppide, hankijakontode ja hankijagruppide pakkumise ja nõudluse prognoosi ridu.
+See artikkel kirjeldab, kuidas vaadata ja luua varude eelarveid. Saate luua ja vaadata kaupade, kaubagruppide, kauba eraldamisvõtmete, kliendikontode, kliendigruppide, hankijakontode ja hankijagruppide pakkumise ja nõudluse prognoosi ridu.
 
 Saate valida iga rea jaoks prognoosmudeli, mida kasutatakse. Seejärel saate määrata kauba või kaubagrupi, millele on lisatud kogus või kandesumma. Saate prognoosi eraldamiseks määrata ka ajahorisondi ja ajaintervallid.
 
@@ -60,7 +60,7 @@ Nagu 1. sammu tabel näitab, on kasutusel lehtedele juurdepääsuks eri viise.
     Sõltuvalt valikust kuvatakse **Pakkumise prognoosi** või **Nõudluse prognoosi** leht. See näitab mis tahes olemasolevaid eelarveridu kirje kohta, mille valisite enne lehekülje avamist.
 
 1. Prognoosi rea lisamiseks lehe ülaossa valige tegevuspaanil suvand **Uus**.
-1. Valige uue rea väljal **Mudel**, et kasutadda eelarvemudelit. Seejärel sisestage nõutavad üksikasjad, nt kaup, kaubagrupp, kliendi- või hankijakonto või -grupp, kauba kogus või kande kogusumma. **Pakkumise prognoosi** ja **nõudluse prognoosi** lehtedel täielike saaddaval olevate üksikasjade saamiseks vaadake selle teema hilisemaid jaotisi.
+1. Valige uue rea väljal **Mudel**, et kasutadda eelarvemudelit. Seejärel sisestage nõutavad üksikasjad, nt kaup, kaubagrupp, kliendi- või hankijakonto või -grupp, kauba kogus või kande kogusumma. Tarneprognoosi ja nõudluse prognoosi lehtedel **saadaval** oleva väljade **kohta täielike üksikasjade saamiseks** vaadake selle artikli hilisemaid jaotisi.
 1. Eelarve jaotamiseks perioodi peale valige vahekaardil **Ülevaade** tööriistaribal **Eralda eelarve**.
 1. Seadistage väljade **Eraldama** abil ajahorisont ja ajaintervallid, mida kasutatakse eelarvekoguste jaotamiseks.
 
@@ -68,7 +68,7 @@ Nagu 1. sammu tabel näitab, on kasutusel lehtedele juurdepääsuks eri viise.
 
 Tarneprognoos võimaldab teil luua plaani ostetud kaupadele. See teavitab hanke- ja ametnikele, mida nad eeldatavalt tellivad.
 
-Tarneprognoosi saate sisestada kauba, kaubagrupi, kauba eraldusvõtme, hankija ja hankijagrupi kaupa. Teavet kõigi **tarneprognoosi** lehe erinevate üksuste ja kirjete jaoks avamiseks [vt selles prognoosiridade vaatamise ja käsitsi sisestamise jaotisest](#manual-entry) selles teemas eespool.
+Tarneprognoosi saate sisestada kauba, kaubagrupi, kauba eraldusvõtme, hankija ja hankijagrupi kaupa. Teavet kõigi **tarneprognoosi**[lehe](#manual-entry) avamiseks erinevate üksuste ja kirjete puhul vt selles artiklis varasemast jaotisest Prognoosiridade vaade ja käsitsi sisestamise.
 
 **Tarneprognoosi** lehe ülemine osa pakub tarneprognoosi ridade ruudustikku ja vahekaartide kogu, mida saate kasutada valitud eelarverea lisateabe vaatamiseks ja häälestamiseks. Lehe alumises osas on **Jaotis** ruudustik.
 
@@ -94,9 +94,9 @@ Järgmises tabelis kirjeldatakse käske toimingupaanil lehel **Ülevaade** vahek
 
 | Käsk | Kirjeldus |
 |---|---|
-| Eralda prognoos | Kui kasutate eraldamismeetodit, looge eelarvekandele individuaalsed graafiku read. Rea kogus jaotatakse seejärel kuupäeva (vastavalt valitud ajaintervallidele), koguse ja kogu ajavahemiku summa järgi. (Vaata [Määrake eelarve](#allocate-forecast) sektsioon selles teemas hiljem.) |
-| Hulgivärskendamine | Saate avada **Eelarvekannete redigeerimine** lehe. (Vt [Eelarvekannete hulgivärskendus](#bulk-update) sektsioon selles teemas hiljem.) |
-| Varude prognoos | Saate avada valitud **varude eelarve** lehe, mis on filtreeritud valitud toote/mudeli kombinatsioon. (Vt [Varude eelarve](#inventory-forecast) sektsioon selles teemas hiljem.) |
+| Eralda prognoos | Kui kasutate eraldamismeetodit, looge eelarvekandele individuaalsed graafiku read. Rea kogus jaotatakse seejärel kuupäeva (vastavalt valitud ajaintervallidele), koguse ja kogu ajavahemiku summa järgi. (Vt [Eralda selles](#allocate-forecast) artiklis hiljem eelarvejaos.) |
+| Hulgivärskendamine | Saate avada **Eelarvekannete redigeerimine** lehe. (Vt [Eelarvekannete hulgivärskenduse](#bulk-update) jaotis selles artiklis hiljem.) |
+| Varude prognoos | Saate avada valitud **varude eelarve** lehe, mis on filtreeritud valitud toote/mudeli kombinatsioon. (Vt [Selles artiklis](#inventory-forecast) hiljem jaotis Varude prognoos.) |
 | Loo kaubavajadus | Saate avada dialoogiboksi, kus saate luua kauba vajadusi ning projektiga seotud eelarvekannete jaoks müügitellimusi või kaubatöölehe ridu. Kuigi see käsk on saadaval nii tarneprognoosi ridade kui ka nõudluse prognoosi ridade jaoks, ei saa seda kasutada **tarneprognoosi** lehel. |
 
 ### <a name="the-overview-tab-on-the-supply-forecast-page"></a>Tööriistariba käsud tarneprognoosi lehe ülevaate vahekaardil
@@ -173,7 +173,7 @@ Kui kasutate kauba eraldusvõtit, või kui olete sisestanud kaubaeelarve ühe v�
 
 Nõudluse prognoos võimaldab teil sisestada või luua kliendile nõudluse. See aitab müügi- ja turundusametnikke eeloleval prognoosiperioodil teavitada koondplaneerimise ametnikke eeldatavast nõudlusest.
 
-Nõudluse prognoosi saate sisestada kauba, kaubagrupi, kauba eraldusvõtme, kliendi ja kliendigrupi kaupa. Teavet kõigi **Nõudluse prognoosi** lehe erinevate üksuste ja kirjete jaoks avamiseks [vt prognoosiridade vaatamise ja käsitsi sisestamise jaotisest](#manual-entry) selles teemas eespool.
+Nõudluse prognoosi saate sisestada kauba, kaubagrupi, kauba eraldusvõtme, kliendi ja kliendigrupi kaupa. Teavet kõigi erinevate **üksuste**[ja kirjete nõudluse prognoosi lehe avamiseks vt selles](#manual-entry) artiklis eespool jaotisest Prognoosiridade vaade ja käsitsi sisestamiseks.
 
 **Nõudluse prognoosi** lehe ülemine osa pakub nõudluse prognoosi ridade ruudustikku ja vahekaartide kogu, mida saate kasutada valitud eelarverea lisateabe vaatamiseks ja häälestamiseks. Lehe alumises osas on **Jaotis** ruudustik.
 
@@ -201,9 +201,9 @@ Järgmises tabelis kirjeldatakse käske toimingupaanil lehel **Ülevaade** vahek
 
 | Käsk | Kirjeldus |
 |---|---|
-| Eralda prognoos | Kui kasutate eraldamismeetodit, looge eelarvekandele individuaalsed graafiku read. Rea kogus jaotatakse seejärel kuupäeva (vastavalt valitud ajaintervallidele), koguse ja kogu ajavahemiku summa järgi. (Vaata [Määrake eelarve](#allocate-forecast) sektsioon selles teemas hiljem.)|
-| Hulgivärskendamine | Saate avada **Eelarvekannete redigeerimine** lehe. (Vt [Eelarvekannete hulgivärskendus](#bulk-update) sektsioon selles teemas hiljem.) |
-| Varude prognoos | Saate avada valitud **varude eelarve** lehe, mis on filtreeritud valitud toote/mudeli kombinatsioon. (Vt [Varude eelarve](#inventory-forecast) sektsioon selles teemas hiljem.) |
+| Eralda prognoos | Kui kasutate eraldamismeetodit, looge eelarvekandele individuaalsed graafiku read. Rea kogus jaotatakse seejärel kuupäeva (vastavalt valitud ajaintervallidele), koguse ja kogu ajavahemiku summa järgi. (Vt [Eralda selles](#allocate-forecast) artiklis hiljem eelarvejaos.)|
+| Hulgivärskendamine | Saate avada **Eelarvekannete redigeerimine** lehe. (Vt [Eelarvekannete hulgivärskenduse](#bulk-update) jaotis selles artiklis hiljem.) |
+| Varude prognoos | Saate avada valitud **varude eelarve** lehe, mis on filtreeritud valitud toote/mudeli kombinatsioon. (Vt [Selles artiklis](#inventory-forecast) hiljem jaotis Varude prognoos.) |
 | Loo kaubavajadus | Saate avada dialoogiboksi, kus saate luua kauba vajadusi ning projektiga seotud eelarvekannete jaoks müügitellimusi või kaubatöölehe ridu. |
 
 ### <a name="the-overview-tab-on-the-demand-forecast-page"></a>Tööriistariba käsud nõudlusprognoosi lehe ülevaate vahekaardil
@@ -296,7 +296,7 @@ Vahekaardil **Varude dimensioonid** kuvatakse kõik vahekaardil **Ülevaade** pr
 
 ### <a name="the-allocation-grid-on-the-demand-forecast-page"></a>Jaotusvõrk lehel Nõudluse prognoos
 
-Kui kasutate kauba eraldusvõtit, või kui olete sisestanud kaubaeelarve ühe või mitme tulevase perioodi jaoks, saate eraldada eelarve valides **Eralda prognoos** vahekaardil **Ülevaade** tööriistaribal. Seejärel jaotatakse kogus nii nagu on näidatud ridadel **Eraldus** ruudustikus. (Vaata [Määrake eelarve](#allocate-forecast) sektsioon selles teemas hiljem.)
+Kui kasutate kauba eraldusvõtit, või kui olete sisestanud kaubaeelarve ühe või mitme tulevase perioodi jaoks, saate eraldada eelarve valides **Eralda prognoos** vahekaardil **Ülevaade** tööriistaribal. Seejärel jaotatakse kogus nii nagu on näidatud ridadel **Eraldus** ruudustikus. (Vt [Eralda selles](#allocate-forecast) artiklis hiljem eelarvejaos.)
 
 ## <a name="inventory-forecast"></a><a name="inventory-forecast"></a>Varude prognoos
 

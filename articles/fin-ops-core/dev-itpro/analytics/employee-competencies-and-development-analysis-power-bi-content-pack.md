@@ -1,6 +1,6 @@
 ---
 title: Töövõtja pädevuste ja arengu Power BI sisu
-description: Selles teemas kirjeldatakse töötajate pädevuse ja arengu Power BI sisu.
+description: See artikkel kirjeldab Töötaja pädevusi ja arenduse Power BI sisu.
 author: jcart1106
 ms.date: 12/19/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 572f6bcfa202995d90080e1a31476122f7ec23d71214d5ff0dd44ed919859c57
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8fee4d98a3e20fa268d6c3539db09e09a7861a2b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726305"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851012"
 ---
 # <a name="employee-competencies-and-development-power-bi-content"></a>Töövõtja pädevuste ja arengu Power BI sisu
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas kirjeldatakse töötajate pädevuse ja arengu Power BI sisu. 
+See artikkel kirjeldab Töötaja pädevusi ja arenduse Power BI sisu. 
 
 ## <a name="reports-that-are-included-in-the-content-pack"></a>Sisupaketti kuuluvad aruanded
 Pärast sisupaketi ühendamist andmetega näitavad aruanded teie organisatsiooni andmeid. Kui te pole Microsoft Power BI-d varem kasutanud, saate selle kohta lisateavet teemast [Juhendatud õpe Power BI](https://powerbi.microsoft.com/guided-learning/?WT.mc_id=PBIService_GetData). Sisupaketti kuuluvad aruanded sisaldavad nii lisateavet andvaid diagramme kui ka tabeleid. Järgmises tabelis on kirjeldatud aruandeid.

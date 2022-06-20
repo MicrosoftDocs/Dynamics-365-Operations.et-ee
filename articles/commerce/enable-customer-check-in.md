@@ -1,6 +1,6 @@
 ---
 title: Luba kliendi sisseregistreerimise teatised kassas (POS)
-description: See teema kirjeldab, kuidas lubada kliendi sisseregistreerimise teatisi Microsoft Dynamics 365 Commerce kassas (POS).
+description: See artikkel kirjeldab, kuidas lubada kliendi sisseregistreerimise teatisi Microsoft Dynamics 365 Commerce kassas.
 author: bicyclingfool
 ms.date: 12/03/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 95b4e3a1750cf072db919492f7445e87654701da
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: ae53657c95128eae793f670bd9dbc31d9fac0fe4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983157"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885141"
 ---
 # <a name="enable-customer-check-in-notifications-in-point-of-sale-pos"></a>Luba kliendi sisseregistreerimise teatised kassas (POS)
 
 [!include [banner](includes/banner.md)]
 
-See teema kirjeldab, kuidas lubada kliendi sisseregistreerimise teatisi Microsoft Dynamics 365 Commerce kassas (POS).
+See artikkel kirjeldab, kuidas lubada kliendi sisseregistreerimise teatisi Microsoft Dynamics 365 Commerce kassas.
 
 Oma "komplekt kasutamiseks valmis olevas tellimuses" võivad organisatsioonid anda lingi või nupu, mis lubab klientidel teavitada kauplust, et nad on valdustes ja ootavad oma paketi välja tuua. Kliendid saavad seejärel sisseregistreerimise kinnituse ja kauplus saab kassarakenduses ülesandena teatise. See ülesanne on viip müügipartnerile tellimuse tarnimiseks kliendi sõidukisse. Seetõttu ei pea klient kauplust sisestama.
 
@@ -66,27 +66,27 @@ Kliendi sisseregistreerimine nõuab kindlate parameetrite ja väärtuste saatmis
 
 Kliendi sisseregistreerimise funktsiooni testimiseks järgige neid samme.
 
-1. Looge kliendi sisseregistreerimise leht ning seejärel lisage ja konfigureerige kliendi sisseregistreerimise moodul. Lisateabe saamiseks vt [sisseregistreerimise moodulit](check-in-pickup-module.md). 
+1. Looge kliendi sisseregistreerimise leht ning seejärel lisage ja konfigureerige kliendi sisseregistreerimise moodul. Lisateabe saamiseks vt sisseregistreerimise [moodulit](check-in-pickup-module.md). 
 1. Kontrollige lehte, kuid ärge avaldage seda.
-1. Lisage meilimallile järgmine link, mille kutsus kättetoimetamisviisi pakkimise täieliku teatise tüüp. Lisateavet vt teemast [Meilimallide loomine kandesündmuste jaoks](email-templates-transactions.md).
+1. Lisage meilimallile järgmine link, mille kutsus kättetoimetamisviisi pakkimise täieliku teatise tüüp. Lisateavet vt teemast Meilimallide [loomine kandesündmuste jaoks](email-templates-transactions.md).
 
-    - **Tootmiseelsetele (UAT) keskkondadele: lisage koodilõigud käesolevas teemas eespool kirjeldatud kande**[meilimalli](#configure-the-transactional-email-template) konfigureerimise jaotisest.
+    - **Tootmiseelsetele (UAT) keskkondadele:**[lisage koodilõigud jaotisest Selles artiklis varasema kande meilimalli](#configure-the-transactional-email-template) konfigureerimine.
     - **Tootmiskeskkondadele:** lisage järgmine kommenteeritud kood, et olemasolevaid kliente ei mõjutata.
 
         `<!-- https://[DOMAIN]/[CHECK_IN_PAGE]?channelReferenceId=%confirmationid%&channelId=%pickupchannelid%&packingSlipId=%packingslipid%&preview=inprogress -->`
 
 1. Saate luua tellimuse, mille puhul on määratud peale selle tarneviis.
-1. Kui saate pakkimise täieliku teatise tüübi käivitatud meili, testige sisseregistreerimise voogu, avades sisseregistreerimise lehe, kus on varem lisatud URL. Kuna URL sisaldab `&preview=inprogress` lippu, palutakse teil enne lehe vaatamist autentida.
+1. Kui saate pakkimise täieliku teatise tüübi käivitatud meili, testige sisseregistreerimise voogu, avades sisseregistreerimise lehe, kus on varem lisatud URL. Kuna URL sisaldab lippu `&preview=inprogress`, palutakse teil enne lehe vaatamist autentida.
 1. Sisestage kogu lisateave, mis on mooduli konfigureerimiseks vajalik.
 1. Kontrollige, kas sisseregistreerimise kinnitusvaade on õigesti kuvatud.
 1. Avage kaupluse müügikoha terminal, kuhu tellimus peale võtta.
-1. Valige **paani peale võtta** tellimused ja veenduge, et tellimus ilmub.
+1. Valige paani **peale võtta tellimused** ja veenduge, et tellimus ilmub.
 1. Kontrollige, kas üksikasjapaanil kuvatakse kõik lisateavet, mis on konfigureeritud sisseregistreerimise moodulis.
 
 Pärast seda, kui olete kontrollinud, et kliendi sisseregistreerimise funktsioon töötab lõpust lõpuni, järgige neid samme.
 
 1. Avaldage sisseregistreerimisleht.
-1. Kui testite tootmiskeskkonnas, tühistage URL e-kirja mallis "Komplekt kasutamiseks valmis tellimus", et kuvataks link või **nupp**. Seejärel laadige mall uuesti.
+1. Kui testite tootmiskeskkonnas, tühistage URL e-kirja mallis "Komplekt kasutamiseks valmis tellimus", **et** kuvataks link või nupp. Seejärel laadige mall uuesti.
 
 ## <a name="additional-resources"></a>Lisaressursid
 

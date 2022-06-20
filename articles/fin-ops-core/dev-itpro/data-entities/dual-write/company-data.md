@@ -1,6 +1,6 @@
 ---
-title: Ettevõtte mõiste teenuses Dataverse
-description: Selles teemas kirjeldatakse ettevõtteandmete integreerimist rakenduse Finance and Operationsi ja teenuse Dataverse vahel.
+title: Ettevõtte kontseptsioon Dataverse'is
+description: See artikkel kirjeldab ettevõtete andmete integreerimist Finantside ja Toimingute ning Ettevõtete vahel Dataverse.
 author: RamaKrishnamoorthy
 ms.date: 08/04/2020
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 3657e41363ca6c1ce8eabfeaf3ba6da9b93f5e2a
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 11355031714b7e046f70bd5840297d66aa7d32e0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061022"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873174"
 ---
 # <a name="company-concept-in-dataverse"></a>Ettevõtte mõiste teenuses Dataverse
 
@@ -29,7 +29,7 @@ Teenuses Dataverse pole ei ole samaväärset mõistet. Lähim mõiste on *äriü
 
 Kuna äriüksus ja ettevõte ei ole samaväärsed mõisted, ei ole võimalik jõustada üks-ühele (1:1) vastendust nende vahel teenuse Dataverse integratsiooni eesmärgil. Kuid kuna kasutajad peavad vaikimisi nägema samu ridu rakenduses ja teenuses Dataverse, on Microsoft võtnud teenuses Dataverse kasutusele uue tabeli nimega CDM\_Company. See tabel on samaväärne rakenduse tabeliga Ettevõte. Selleks, et ridade nähtavus oleks valmislahendusena rakenduse ja teenuse Dataverse vahel samaväärne, soovitame teenuse Dataverse andmete järgmist seadistust.
 
-+ Iga topeltkirjumiseks lubatud finants- ja toiminguettevõtte rea jaoks luuakse seotud cdmCompany\_ rida.
++ Iga topeltkirjutusega lubatud finants- ja operatsioonide ettevõtte rea jaoks luuakse seotud rida cdm\_ Company.
 + Kui rida CDM\_Company on loodud ja lubatud kahesuguse kirjutuse jaoks, luuakse samanimeline vaikeäriüksus. Kuigi selle äriüksuse jaoks luuakse automaatselt vaiketöörühm, ei kasutata äriüksust.
 + Luuakse eraldi omaniku töörühm, millel on sama nimi. See on samuti äriüksusega seostatud.
 + Mistahes rea omanik, mis on loodud ja kahesuguselt kirjutatud teenusesse Dataverse, on vaikimisi määratud väärtuseks „DW omanikust töörühm, mis on lingitud seostatud äriüksusega.
@@ -43,13 +43,13 @@ Selle konfiguratsiooni tõttu kuulub kõigi USMF-i ettevõttega seotud rea töö
 + Roll "Müügihaldur" on määratud "USMF müük" töörühma liikmetele.
 + Kasutajad, kellel on roll „Müügihaldur", pääsevad juurde mistahes kontoridadele, mis on sama äriüksuse liikmed.
 + Töörühm "USMF müük" on seotud varem mainitud USMF-i äriüksusega.
-+ Seetõttu näevad "USMF Sales" meeskonna liikmed mis tahes kontot, mis kuulub "USMF DW" kasutajale, mis oleks tulnud USMF Company tabelist rahanduses ja operatsioonides.
++ Seetõttu saavad USMF-i müügimeeskonna liikmed näha kõiki kontosid, mis on "USMF DW" kasutaja omad, mis oleks pärit finantside ja toimingute TABELIst USMF Company.
 
 ![Töörühmade kasutamine.](media/dual-write-company-2.png)
 
 Vastavalt eespool toodud joonisele, on see 1:1 vastendamine äriüksuse, ettevõtte ja töörühma vahel vaid alguspunkt. Selles näites luuakse teenuses Dataverse uus "Euroopa" äriüksus käsitsi ülataseme üksusena nii DEMF-i kui ka ESMF-i jaoks. See uus juuräriüksus pole kahesuguse kirjutamisega seotud. Siiski saab seda kasutada "EUR Sales" töörühmale juurdepääsu andmiseks kontoandmetele nii DEMF-is kui ka ESMF-is, määrates seostatud turberollis andmete nähtavuseks **Ülataseme/alataseme äriüksus**.
 
-Viimaseks aruteluteemaks on, kuidas kahesugune kirjutamine määrab, millisele omanikust töörühmale tuleks read määrata. Seda käitumist juhib veerg **Omanikust vaiketöörühm** real CDM\_Company. Kui rida cdm\_Company on kahesuguseks kirjutamiseks lubatud, loob lisandmoodul automaatselt seostatud äriüksuse ja omaniktöörühma (kui seda veel pole) ja seadistab veeru **Omanikust vaiketöörühm**. Administraator saab selle veeru muuta muuks väärtuseks. Kuid administraator ei saa tühjendada veergu seni, kuni tabel on lubatud kahesuguseks kirjutamiseks.
+Lõpp-artikkel, mida arutleda, on see, kui topeltkirjutusega määrab, millisele omaniku töörühmale peaks ridu määrama. Seda käitumist juhib veerg **Omanikust vaiketöörühm** real CDM\_Company. Kui rida cdm\_Company on kahesuguseks kirjutamiseks lubatud, loob lisandmoodul automaatselt seostatud äriüksuse ja omaniktöörühma (kui seda veel pole) ja seadistab veeru **Omanikust vaiketöörühm**. Administraator saab selle veeru muuta muuks väärtuseks. Kuid administraator ei saa tühjendada veergu seni, kuni tabel on lubatud kahesuguseks kirjutamiseks.
 
 > [!div class="mx-imgBorder"]
 ![Omanikust vaiketöörühma veerg.](media/dual-write-default-owning-team.jpg)

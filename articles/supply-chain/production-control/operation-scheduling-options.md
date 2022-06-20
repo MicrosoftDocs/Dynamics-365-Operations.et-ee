@@ -1,6 +1,6 @@
 ---
 title: Operatsioonide plaanimise valikud
-description: Selles teemas kirjeldatakse operatsioonide plaanimise võimalusi. Operatsioonide plaanimine võimaldab anda tootmisprotsessi kohta üldise hinnangu aja jooksul.
+description: Selles artiklis kirjeldatakse operatsioonide planeerimise valikuid. Operatsioonide plaanimine võimaldab anda tootmisprotsessi kohta üldise hinnangu aja jooksul.
 author: johanhoffmann
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1bb0ee3020c5cfd17e82282e8fddb8f9c6dcdfee
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: d2f4d1e74855a0a8f73030c222c3f2fe27ce58a2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566739"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907257"
 ---
 # <a name="operations-scheduling-options"></a>Operatsioonide plaanimise valikud
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas kirjeldatakse operatsioonide plaanimise võimalusi. Operatsioonide plaanimine võimaldab anda tootmisprotsessi kohta üldise hinnangu aja jooksul.
+Selles artiklis kirjeldatakse operatsioonide planeerimise valikuid. Operatsioonide plaanimine võimaldab anda tootmisprotsessi kohta üldise hinnangu aja jooksul.
 
 Operatsioonide plaanimine arvutab tootmistellimuse jaoks järgmise teabe.
 

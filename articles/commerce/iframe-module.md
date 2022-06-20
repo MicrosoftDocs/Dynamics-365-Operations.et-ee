@@ -1,6 +1,6 @@
 ---
 title: IFrame-moodul
-description: See teema hõlmab iframe-moodulit ja kirjeldab, kuidas seda rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
+description: See artikkel katab IFrame'i mooduli ja kirjeldab, kuidas lisada see saidi lehtedele moodulis Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: eeb9d76367be6b2d2153578f6358594b807382ac
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: e9f1804cde1010c585d53d63bc0a487bc5407552
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780230"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858933"
 ---
 # <a name="iframe-module"></a>IFrame-moodul
 
 [!include [banner](includes/banner.md)]
 
-See teema hõlmab iframe-moodulit ja kirjeldab, kuidas seda rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
+See artikkel katab IFrame'i mooduli ja kirjeldab, kuidas lisada see saidi lehtedele moodulis Microsoft Dynamics 365 Commerce.
 
 IFrame-moodul tagab iFrame'i (tekstisisene raam), mis majutab saidil välissisu. Näiteks saab seda kasutada YouTube'i video või PDF-faili vaaturi majutamiseks ükskõik millisel saidilehel. 
 

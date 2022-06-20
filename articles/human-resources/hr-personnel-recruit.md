@@ -1,6 +1,6 @@
 ---
 title: Töökandidaatide värbamine
-description: See teema kirjeldab, kuidas värvata kandidaate Dynamics 365 Human Resources.
+description: See artikkel kirjeldab, kuidas värvata kandidaate Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 10/28/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-12-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ef2f2c82708fd48055faa7546e7e0c4da51e7b6c
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 743c78d3526db2707630229d4cf21531f9641dd6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8733981"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879246"
 ---
 # <a name="recruit-job-candidates"></a>Töökandidaatide värbamine
 
@@ -46,12 +46,13 @@ Kui te ei kasuta eraldi värbamisrakendust, saate rakenduses Human Resources kan
 Kui soovite värbamistaotlusi esitada inimressursside värbamises, peate esmalt lubama inimressursside **kasutajakogemuse** **ja värbamisprotsessi haldusfunktsioonid**.
 
 Kui funktsioonid on sisse lülitatud, valige järgmiste sammudega funktsioon: 
-1. Avage **inimressurssidesetupHuman** > **·** > **ressursside parameetrid**.
-2. Seadke väljal  **Recruitmentment**  väli Värbamine **keelatud valikule** **Ei**.
-3. Valige värbamiskogemuse **ripploendist** inimressursside **värbamine**.   
+1. Minge inimressursside **seadistuse** > **inimressursside** > **parameetritesse**.
+2. Seadke vahekaardil  **Värbamine** lubatud välja **Värbamine väärtuseks** **Jah**.
+3. Valige värbamiskogemuse **ripploendist** inimressursside **värbamine**.  
+4. Klõpsake nuppu **Salvesta**. 
 
 > [!Note] 
-> Kui **inimressursside värbamine** on valitud, **siis on** värbamisprojektid (pärand) kirjutuskaitstud. 
+> Kui **inimressursside värbamine** on valitud, **ei** ole värbamisprojektid (pärand) saadaval. 
 
 
 ## <a name="add-a-recruiting-request-location"></a>Värbamistaotluse asukoha lisamine

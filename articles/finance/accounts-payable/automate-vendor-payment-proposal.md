@@ -1,6 +1,6 @@
 ---
 title: Hankija maksesoovituste automatiseerimine
-description: Selles teemas selgitatakse, kuidas korduva graafiku alusel hankijatele maksvad organisatsioonid saavad automatiseerida hankija maksesoovituste loomise protsessi.
+description: See artikkel selgitab, kuidas organisatsioonid, mis maksavad hankijatele korduvas graafikus, saavad hankija makseettepanekute loomise protsessi automatiseerida.
 author: kweekley
 ms.date: 04/08/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-04-08
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: ad9b1929cb4773ae79c54f6c95d73c1a8d5f86ef
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 006dd5646410bb63b4060220b17aec38eb0e4545
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8712589"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903474"
 ---
 # <a name="automate-vendor-payment-proposals"></a>Hankija maksesoovituste automatiseerimine
 

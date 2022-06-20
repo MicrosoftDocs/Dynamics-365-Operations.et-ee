@@ -1,6 +1,6 @@
 ---
 title: Ohtlike materjalide ülevaade
-description: Selles teemas antakse ülevaade funktsioonidest, mis on seotud ohtlike materjalide käitlemise ja dokumenteerimisega tooteteabe ja laohalduse ajal.
+description: See artikkel annab ülevaate funktsioonidest, mis on seotud ohtliku materjali käsitsemise ja dokumenteerimisega tooteteabe haldamise ja laohalduse ajal.
 author: t-benebo
 ms.date: 06/10/2020
 ms.topic: overview
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: cfea2cd6a2699bdf2a14de72a8bdeb3e8cd32a17
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: c2cae4cb65dd163e9fbf1d24cff5a0a040e3ce3a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986272"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905801"
 ---
 # <a name="hazardous-materials-overview"></a>Ohtlike materjalide ülevaade
 
@@ -50,7 +50,7 @@ Selle funktsiooni väljatöötamisel viidati järgmistele ühistele määrustele
 
 Igas määruses on sätestatud ohtlike kaupade ja viitekoodide standardiseeritud loendid. Seetõttu pakub Supply Chain Management nende ühiste koodide loendite viitetabeli. Igal loendil on ka mõned unikaalsed koodid, mida saate määratleda.
 
-Lisateabe saamiseks ohtlike materjalide määruste ja väärtuste häälestamise ja asjakohastele toodetele väärtuste määramise kohta lugege järgmistest teemadest.
+Lisateavet ohtlike materjalide kohta määruste ja väärtuste ning vastavatele toodetele väärtuste määramise kohta vt järgmistest artiklitest:
 
 - [Ohtlike materjalide häälestamine](hazmat-setup.md)
 - [Ohtlikud materjalid toodetes, tellimustes, saadetistes ja koormates](hazmat-items.md)

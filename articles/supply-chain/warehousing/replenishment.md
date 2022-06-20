@@ -1,6 +1,6 @@
 ---
 title: Täiendamise ülevaade
-description: Selles teemas kirjeldatakse täiendamisstrateegiaid, mis on saadaval ladude puhul, milles seda laohalduse moodulis saadaolevat funktsiooni kasutatakse.
+description: Selles artiklis kirjeldatakse täiendamisstrateegiaid, mis on saadaval ladude puhul, milles seda laohalduse moodulis saadaolevat funktsiooni kasutatakse.
 author: Mirzaab
 ms.date: 02/19/2020
 ms.topic: overview
@@ -18,18 +18,18 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7681294c1c05f1ca93330c948fc454b6460cb41c
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 3dceb8e6300d19eb9253e88debbaaef0b6987420
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985780"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893087"
 ---
 # <a name="replenishment-overview"></a>Täiendamise ülevaade
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas kirjeldatakse täiendamisstrateegiaid, mis on saadaval ladude puhul, milles seda laohalduse moodulis saadaolevat funktsiooni kasutatakse. Selle teema teave ei kehti moodulis Varude haldus oleva ladustamislahenduse puhul.
+Selles artiklis kirjeldatakse täiendamisstrateegiaid, mis on saadaval ladude puhul, milles seda laohalduse moodulis saadaolevat funktsiooni kasutatakse. Selle artikli teave ei kehti laohalduses saadaoleva ladustamislahenduse kohta.
 
 Saadaval järgmised täiendamise strateegiad.
 

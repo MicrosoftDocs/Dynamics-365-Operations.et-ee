@@ -1,6 +1,6 @@
 ---
 title: Mis on uut või mida on muudetud rakenduses Dynamics 365 Supply Chain Management
-description: See teema viitab teemadele, mis kirjeldavad uusi ja muudetud funktsioone igas Dynamics 365 Supply Chain Managementi väljalaskes.
+description: See artikkel viitab toodetele, mis kirjeldavad uusi ja muudetud funktsioone igas väljaandes Dynamics 365 Supply Chain Management.
 author: kamaybac
 ms.date: 05/27/2022
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 6c1cfcd7ccc39f2742fd237278f97b4d3d0ad4fd
-ms.sourcegitcommit: 611202adaa080250636efabb3b3b32b850d92d04
-ms.translationtype: MT
+ms.openlocfilehash: b767f8ff8e9c9ef7ea1b4dee777f9e0c96f93aef
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8812968"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893435"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 Supply Chain Management
 
@@ -27,7 +27,7 @@ ms.locfileid: "8812968"
 
 ## <a name="releases-of-dynamics-365-supply-chain-management"></a>Rakenduse Dynamics 365 Supply Chain Management väljaanded
 
-Et näha, mis on teenuse Dynamics 365 Supply Chain Management igas väljalaskes uut või muudetud, vaadake järgmisi teemasid.
+Iga väljalase kohta uute või muutunud vabastuste millest Dynamics 365 Supply Chain Management leiate teavet järgmistest artiklitest.
 
 | Versioon | Loo number | Automaatvärskenduse kättesaadavus | Lisateave |
 |---|---|---|---|
@@ -57,9 +57,9 @@ Et näha, mis on teenuse Dynamics 365 Supply Chain Management igas väljalaskes 
 
 ## <a name="releases-before-november-2019"></a>Väljalasked enne 2019. aasta novembrit
 
-Et enne 2019. aasta novembrit näha, mis on väljalasetes uut või muudetud, vaadake järgmisi teemasid.
+Et näha, mis on uut või muutunud väljalasetes enne 2019. aastat, vaadake järgmisi artikliid.
 
-| Väljaanne | Versioon | Järgu number | Kättesaadavus | Lisateave |
+| Vabasta | Versioon | Loo number | Kättesaadavus | Lisateave |
 |---|---|---|---|---|
 | Microsoft Dynamics 365 for Finance and Operations                     | 10.0.5      | 10.0.197         | 2019. oktoober     | [Mis on uut või mida on muudetud rakenduse Dynamics 365 for Finance and Operations versioonis 10.0.5 (oktoober 2019)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-5.md)                 |
 | Microsoft Dynamics 365 for Finance and Operations                     | 10.0.4      | 10.0.136         | Juuli 2019        | [Mida on rakenduse Dynamics 365 for Finance and Operations versioonis 10.0.4 (juuli 2019) uut või muutunud](../../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-4.md)                    |

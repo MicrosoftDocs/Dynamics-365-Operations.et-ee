@@ -1,6 +1,6 @@
 ---
 title: Igakuiste töölehe kannete loomine partiis
-description: See teema selgitab, kuidas luua töölehe kandeid partiina, et aidata suurendada igakuiste rendikulude kirjendamisel tõhusust.
+description: See artikkel selgitab, kuidas luua partiis töölehe sisestusi, et suurendada efektiivsust kuu rendikulude kirjendamisel.
 author: moaamer
 ms.date: 08/10/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: cd282ab04312a3ed1821160146b86db902906f3b
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: fb5c65b0a2c982171fa0ae88141d92c2f1ead6ac
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8714057"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894989"
 ---
 # <a name="create-monthly-journal-entries-in-a-batch"></a>Igakuiste töölehe kannete loomine partiis
 
@@ -28,7 +28,7 @@ ms.locfileid: "8714057"
 [!include [preview banner](../includes/preview-banner.md)]
 
 
-See teema selgitab, kuidas luua töölehe kandeid partiina, et aidata suurendada igakuiste rendikulude kirjendamisel tõhusust. Mitmest ajakavast pärinevate töölehtede kirjete loomiseks saab kasutada partiina töötlemist. Need töölehe kanded võivad sisaldada rendimakseid, kohustise amortiseerumist, kasutamisõiguse esemeks oleva vara amortiseerumist ja täitekulude kulusid. Samuti saate kasutada partiina töötlemist, et teha samal ajal mitme rendikirje esialgne tuvastus või teha mitmele rendikirjele sama ajal ülemineku korrigeerimisi.
+See artikkel selgitab, kuidas luua partiis töölehe sisestusi, et suurendada efektiivsust kuu rendikulude kirjendamisel. Mitmest ajakavast pärinevate töölehtede kirjete loomiseks saab kasutada partiina töötlemist. Need töölehe kanded võivad sisaldada rendimakseid, kohustise amortiseerumist, kasutamisõiguse esemeks oleva vara amortiseerumist ja täitekulude kulusid. Samuti saate kasutada partiina töötlemist, et teha samal ajal mitme rendikirje esialgne tuvastus või teha mitmele rendikirjele sama ajal ülemineku korrigeerimisi.
 
 Pakett-töö häälestamiseks või mitme rendikirje maksuarvete, kulumi või intressi töötlemiseks avage **Vara rentimine \> Perioodiline \> Töölehe partiina loomine**. Kuvatavas dialoogiboksis saate valida ajakava, mille põhjal töölehe kirjed luua. Samuti saate määrata, kas konkreetsete olemite, rendigruppide või rendi raamatute jaoks tuleks käitada protsessi partiina.
 

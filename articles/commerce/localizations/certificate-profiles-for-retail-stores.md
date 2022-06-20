@@ -1,6 +1,6 @@
 ---
 title: Kasutaja määratletud serdiprofiilid jaekaupluste jaoks
-description: Selles teemas antakse ülevaade selle kohta, kuidas serte kauplustes kasutatakse.
+description: See artikkel annab ülevaate sellest, kuidas serte jaekauplustes kasutatakse.
 author: josaw
 ms.date: 10/09/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 9cb82a6d6336bb69fe818fb33e04ad621382b383055b24a4e79eee5ddff217ac
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1b40c74efa56a6e18af907e000554b9ab269bb31
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719926"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873025"
 ---
 # <a name="user-defined-certificate-profiles-for-retail-stores"></a>Kasutaja määratletud serdiprofiilid jaekaupluste jaoks
 
@@ -28,7 +28,7 @@ ms.locfileid: "6719926"
 
 ## <a name="overview"></a>Ülevaade
 
-Selles teemas antakse ülevaade rakenduses Microsoft Dynamics 365 Commerce saadaolevatest serdiprofiilidest. See funktsioon laiendab funktsiooni [Jaemüügikanalite saladuste haldamine](../dev-itpro/manage-secrets.md), lisades kohalike sertide toe.
+See artikkel annab ülevaate serdiprofiilidest, mis on saadaval Microsoft Dynamics 365 Commerce. See funktsioon laiendab funktsiooni [Jaemüügikanalite saladuste haldamine](../dev-itpro/manage-secrets.md), lisades kohalike sertide toe.
 
 Kui kassa (POS) töötab ühenduseta režiimis, ei pääse see juurde võtmehoidlas talletatud sertidele. Selle asemel tuleks kasutada kohalikku serti. Toetatud on järgmised võimalused.
 

@@ -1,6 +1,6 @@
 ---
 title: ER-i funktsioon CHAR
-description: See teema sisaldab teavet selle kohta, kuidas kasutatakse elektroonilise aruandluse (ER) funktsiooni CHAR.
+description: See artikkel annab teavet CHAR-i elektroonilise aruandluse (ER) funktsiooni kohta.
 author: NickSelin
 ms.date: 12/12/2019
 ms.prod: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e422ccc406e919b2191f4bccb1ac8198bba84b09e9f01f6971876e2c6507d6d3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1fb1d25c2624894e7bb0fa34b7bc48905a9289a6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754362"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881486"
 ---
 # <a name="char-er-function"></a>ER-i funktsioon CHAR
 

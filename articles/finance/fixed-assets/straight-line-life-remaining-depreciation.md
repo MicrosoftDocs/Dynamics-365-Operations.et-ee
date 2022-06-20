@@ -1,6 +1,6 @@
 ---
 title: Allesjäänud eluea lineaarne kulum
-description: Selles teemas antakse ülevaade kulumiarvestusmeetodist Allesjäänud lineaarne eluiga.
+description: Selles artiklis antakse ülevaade kulumiarvestusmeetodist Allesjäänud lineaarne eluiga.
 author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 92941bc679835d38ba47464452315498a70ce2ee
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 185e1c101ffb6dfbd47348952d6dfc47ab137ffa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726693"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853434"
 ---
 # <a name="straight-line-life-remaining-depreciation"></a>Allesjäänud eluea lineaarne kulum
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas antakse ülevaade kulumiarvestusmeetodist Allesjäänud lineaarne eluiga.
+Selles artiklis antakse ülevaade kulumiarvestusmeetodist Allesjäänud lineaarne eluiga.
 
 Kui seadistate põhivara kulumireegli ja valite lehe **Kulumireeglid** väljal **Meetod** suvandi **Allesjäänud lineaarne eluiga**, siis põhineb kulumireeglile määratud põhivarade tarbimiskulum põhivara järelejäänud tööeal. Tavaliselt on sel juhul kõigi kulumiperioodide kulumisumma ühesuurune. Allesjäänud eluea lineaarne kulumi seadistamiseks peate valima ka suvandid lehe **Kulumireeglid** väljadel **Kulumiaasta** ja **Perioodi sagedus**. Väljal **Perioodi sagedus** olevad valikud erinevad olenevalt väljal **Kulumiarvestusaasta** valitud väärtusest.
 
@@ -35,7 +35,7 @@ Saate teha valiku **Kalendriaasta** või **Rahandusaasta** väljalt **Kulumiarve
 
 ### <a name="calendar"></a>Kalender
 
-Kui teete valiku **Kalender** väljal **_Kuluaasta_*_, eeldatakse, et aasta on 1. jaanuar kuni 31. detsember, isegu kui olete määratlendu finantsaasta teisiti. Suvand _* Kalender** värskendab kulumiarvestuse alust iga aasta 1. jaanuaril. Kulumiarvestuse alus on tavaliselt raamatupidamislik jääkväärtus miinus jääkväärtus. Selle teema edasistes näidetes on kulumiarvestuse alus arvutuste veeru esimese avaldise esimene liige. Kui valite kulumiarvestusaasta **Kalendriaasta**, on väljal **Perioodi sagedus** saadaval järgmised valikud.
+Kui teete valiku **Kalender** väljal **_Kuluaasta_*_, eeldatakse, et aasta on 1. jaanuar kuni 31. detsember, isegu kui olete määratlendu finantsaasta teisiti. Suvand _* Kalender** värskendab kulumiarvestuse alust iga aasta 1. jaanuaril. Kulumiarvestuse alus on tavaliselt raamatupidamislik jääkväärtus miinus jääkväärtus. Selles artikli näites on kulumiarvestuse alus arvutusveeru avaldise esimeseks lugejaks. Kui valite kulumiarvestusaasta **Kalendriaasta**, on väljal **Perioodi sagedus** saadaval järgmised valikud.
 
 - **Kord aastas** sisestab summa 31. detsembril.
 - **Kord kuus** sisestab igakuise summa iga kalendrikuu lõpus.

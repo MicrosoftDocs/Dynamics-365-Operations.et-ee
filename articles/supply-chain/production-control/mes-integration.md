@@ -1,6 +1,6 @@
 ---
 title: Kolmanda osapoole tootmise käivitussüsteemidega integreerimine
-description: See teema kirjeldab, kuidas saate Integreerida Microsofti Dynamics 365 Supply Chain Management kolmanda osapoole tootmise käivitamissüsteemiga (MES).
+description: See artikkel selgitab, kuidas saate Integreerida Microsofti Dynamics 365 Supply Chain Management kolmanda osapoole tootmise käivitamissüsteemiga (MES).
 author: johanhoffmann
 ms.date: 10/01/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-10-01
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: c7633ba32f9265aa0fd8f702552f48dbf675375d
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 208ed2d6c8b411d12888966d9c175730e828eb44
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678683"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860634"
 ---
 # <a name="integrate-with-third-party-manufacturing-execution-systems"></a>Kolmanda osapoole tootmise käivitussüsteemidega integreerimine
 
@@ -238,7 +238,7 @@ Tootmistellimuse *lõppteate* väärtus `_messageType` on `ProdProductionOrderEn
 
 ## <a name="other-production-information"></a>Muu tootmisteave
 
-Sõnumid toetavad tegevusi või sündmusi, mis toimuma tööde juhtimises. Neid töödeldakse selles teemas kirjeldatud MES-i integreerimisraamistiku abil. Kujundus eeldab, et konkreetses tootmistellimuses kasutatav muu viiteteave (nt tootega seotud teave, kooslus või protsess (koos selle konkreetse seadistuse ja konfigureerimisaegadega)) tuuakse süsteemist, kasutades andmeüksuseid [faili](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md#data-entities) ülekande või OData kaudu.
+Sõnumid toetavad tegevusi või sündmusi, mis toimuma tööde juhtimises. Neid töödeldakse MES-i integreerimisraamistiku abil, mida kirjeldatakse selles artiklis. Kujundus eeldab, et konkreetses tootmistellimuses kasutatav muu viiteteave (nt tootega seotud teave, kooslus või protsess (koos selle konkreetse seadistuse ja konfigureerimisaegadega)) tuuakse süsteemist, kasutades andmeüksuseid [faili](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md#data-entities) ülekande või OData kaudu.
 
 ## <a name="receive-feedback-about-the-state-of-a-message"></a>Võta sõnumi oleku kohta tagasisidet
 
@@ -251,7 +251,7 @@ Pärast seda, kui MES on tarneahela haldusse sõnumi saatnud, võib tarneahela h
 
 Sellisel juhul saate kasutada tarneahela halduses standardset teatisefunktsiooni. Lisateavet selle kohta, kuidas standardsed teatised töötavad, vaadake järgmistest ressurssidest:
 
-- Spikriteema teatiste [ülevaade](../../fin-ops-core/fin-ops/get-started/alerts-overview.md)
+- Spikri artikkel: [teatiste ülevaade](../../fin-ops-core/fin-ops/get-started/alerts-overview.md)
 - Video: [teatisereegli valikud Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=cpzimwOjicM&ab_channel=MicrosoftDynamics365)
 
 Näiteks võite sõnumi oleku kohta tagasiside andmiseks seadistada järgmised teatised:

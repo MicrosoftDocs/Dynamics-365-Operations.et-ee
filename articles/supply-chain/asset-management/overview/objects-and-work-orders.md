@@ -1,6 +1,6 @@
 ---
 title: Varad ja töökäsud
-description: Selles teemas kirjeldatakse varasid ja töökäskusid varahalduses.
+description: See artikkel kirjeldab varahalduse varasid ja töötellimusi.
 author: johanhoffmann
 ms.date: 06/24/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a2872dc84ec11ae7fad9fd5b225b9207f13280db334cc0d010a3d6749a591ee2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: df2d0fcc5162900ad2ad67f2629d14015f694bd4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718103"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869687"
 ---
 # <a name="assets-and-work-orders"></a>Varad ja töökäsud
 
@@ -28,7 +28,7 @@ ms.locfileid: "6718103"
 
  
 
-Selles teemas kirjeldatakse varasid ja töökäskusid varahalduses. Varad ja töökäsud on varahalduse kesksed osad. *Vara* on masin või masina osa, mis nõuab pidevat hooldust ja teenindust. Varasid saab luua hierarhilises struktuuris ja need võivad olla seotud funktsionaalsete asukohtadega. Hooldustöid saab kavandada varade kõikidel tasanditel.
+See artikkel kirjeldab varahalduse varasid ja töötellimusi. Varad ja töökäsud on varahalduse kesksed osad. *Vara* on masin või masina osa, mis nõuab pidevat hooldust ja teenindust. Varasid saab luua hierarhilises struktuuris ja need võivad olla seotud funktsionaalsete asukohtadega. Hooldustöid saab kavandada varade kõikidel tasanditel.
 
 Igale varale seadistatakse mitmesugused andmed, näiteks tooteteave ja vara täpsustus ning nõutavad hooldusplaanid. Järgmisel joonisel on ülevaade vara andmetest ja varade kuuluvusest töö tüüpides. Punast teksti kasutatakse näidete puhul, mis näitavad päritolu ja sõltuvused.
 

@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2964be0b02d6a5553bad9a1b3788a5f1efb208ee
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: be8001428cf2df111458fddd0ecbcdae0daf9b25
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725257"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863068"
 ---
 # <a name="set-up-fixed-asset-posting-profiles"></a>Põhivara sisestusreeglite häälestus
 
 [!include [banner](../../includes/banner.md)]
 
-See protseduur näitab, kuidas seadistada põhivara sisestusreeglid. Teemas toodud näited on peamised sisestusreeglid, ehkki sisestusreeglid tuleb luua teie kontoplaani ja finantsaruandluse nõuete jaoks.
+See protseduur näitab, kuidas seadistada põhivara sisestusreeglid. Artikli toodud näited on peamised sisestusreeglid, ehkki sisestusreeglid tuleb luua teie konkreetse kontoplaani ja finantsaruandluse nõuete jaoks.
 
 1. Avage navigeerimispaanil **Moodulid > Põhivarad > Häälestus > Põhivarade sisestusreeglid**.
 2. Klõpsake valikut **Uus**.

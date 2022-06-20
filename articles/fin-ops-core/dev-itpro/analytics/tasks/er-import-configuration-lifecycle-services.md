@@ -1,6 +1,6 @@
 ---
 title: Konfiguratsiooni importimine teenusest Lifecycle Services
-description: Selles teemas kirjeldatakse, kuidas importida elektroonilise aruandluse (ER) konfiguratsiooni uus versioon teenusest Microsoft Dynamics Lifecycle Services (LCS).
+description: See artikkel kirjeldab, kuidas importida elutsükli teenustest (LCS) elektroonilise aruandluse (ER) Microsoft Dynamics konfiguratsiooni uut versiooni.
 author: NickSelin
 ms.date: 06/17/2021
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 05a8ad127df177c54e67ff1f2ddcd8b3a3f51ea12b6e11d087105bd74b6bdb3f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2aae59334828a5636f35051d50cf2ea392074b71
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712588"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886668"
 ---
 # <a name="import-a-configuration-from-lifecycle-services"></a>Konfiguratsiooni importimine teenusest Lifecycle Services
 
 [!include [banner](../../includes/banner.md)]
 
-Selles teemas selgitatakse, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rolli määratud kasutajad saavad importida [elektroonilise aruandluse (ER) konfiguratsiooni](../general-electronic-reporting.md#Configuration) uue versiooni teenuse Microsoft Dynamics Lifecycle Services (LCS) [projekti tasandi varade teegist](../../lifecycle-services/asset-library.md).
+See artikkel selgitab [, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rolli kasutaja saab importida elektroonilise aruandluse (ER)](../general-electronic-reporting.md#Configuration)[konfiguratsiooni uut versiooni projektitaseme](../../lifecycle-services/asset-library.md)Microsoft Dynamics varateegist elutsükli teenustes (LCS).
 
 > [!IMPORTANT]
 > LCS kasutamine elektroonilise aruandluse (ER) konfiguratsiooni talletushoidlana on [aegunud](../../../../finance/get-started/removed-deprecated-features-finance.md#features-removed-or-deprecated-in-the-finance-10017-release). Lisateavet vt jaotisest [Regulatory Configuration Service (RCS) – Lifecycle Services (LCS) ladustamise amortiseerimine](../../../../finance/localizations/rcs-lcs-repo-dep-faq.md).
@@ -41,7 +41,7 @@ Selles näites valite soovitud ER-i konfiguratsiooni ja impordite selle näidise
 
 <a name="accessconditions"></a>
 > [!NOTE]
-> Veenduge, et antud Dynamics 365 Finance'i kasutaja on selle LCS-i projekti liige, mis sisaldab varade teeki, millele kasutaja soovib [juurde pääseda](../../lifecycle-services/asset-library.md#asset-library-support) ER-konfiguratsioonide importimiseks.
+> Veenduge, et praegune Dynamics 365 Finance kasutaja on LCS-i [projekti](../../lifecycle-services/asset-library.md#asset-library-support) liige, mis sisaldab varateeki, mille kasutaja soovib ER-i konfiguratsioonide importimiseks kasutada.
 >
 > Te ei pääse LCS-i projektile juurde ER-hoidlast, mis esindab rakenduses Finance kasutatavast domeenist erinevat domeeni. Kui proovite, kuvatakse LCS-i projektide tühi loend ja te ei saa importida ER-konfiguratsioone LCS-i projekti tasandi varade teegist. Projekti tasandi varade teekidele juurde pääsemiseks ER-konfiguratsioonide importimiseks kasutatavast ER-hoidlast logige rakendusse Finance sisse selle kasutaja mandaadi abil, kes kuulub rentnikku (domeeni), kelle jaoks praegune rakenduse Finance eksemplar on ette valmistatud.
 
@@ -49,7 +49,7 @@ Selles näites valite soovitud ER-i konfiguratsiooni ja impordite selle näidise
 
 1. Valige lehe **Konfiguratsioonid** konfiguratsioonide puult suvand **Mudeli konfiguratsiooni näide**.
 
-    Lõite andmemudeli konfiguratsiooni esimese versiooni ja avaldasite selle LCS-is, kui täitsite protsessi [Konfiguratsiooni üleslaadimine teenusesse Lifecycle Services](er-upload-configuration-into-lifecycle-services.md) etappe. Selle protseduuri käigus kustutate selle ER-i konfiguratsiooni versiooni. Hiljem selles teemas impordite selle versiooni LCS-ist.
+    Lõite andmemudeli konfiguratsiooni esimese versiooni ja avaldasite selle LCS-is, kui täitsite protsessi [Konfiguratsiooni üleslaadimine teenusesse Lifecycle Services](er-upload-configuration-into-lifecycle-services.md) etappe. Selle protseduuri käigus kustutate selle ER-i konfiguratsiooni versiooni. Seejärel impordite selle versiooni LCS-st hiljem selles artiklis.
 
 2. Otsige loendist ja valige soovitud kirje.
 

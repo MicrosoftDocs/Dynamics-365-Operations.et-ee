@@ -1,6 +1,6 @@
 ---
 title: Fragmentidega töötamine
-description: Selles teemas kirjeldatakse, miks, millal ja kuidas kasutada fragmente rakenduses Microsoft Dynamics 365 Commerce.
+description: See artikkel kirjeldab, miks, millal ja kuidas kasutada killust selles Microsoft Dynamics 365 Commerce.
 author: phinneyridge
 ms.date: 02/03/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 98cb1fba158ea99427d2068ca49b257cb5290de3
-ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
+ms.openlocfilehash: 8824a42e46d94904f50d3f95b486673c231d9828
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8090740"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896817"
 ---
 # <a name="work-with-fragments"></a>Fragmentidega töötamine 
 
 [!include [banner](includes/banner.md)]
 
-Selles teemas kirjeldatakse, miks, millal ja kuidas kasutada fragmente rakenduses Microsoft Dynamics 365 Commerce.
+See artikkel kirjeldab, miks, millal ja kuidas kasutada killust selles Microsoft Dynamics 365 Commerce.
 
 Fragmendid tagavad tsentraliseeritud loomiskogemuse mooduli konfiguratsioonidele, mida tuleb kogu saidil uuesti kasutada. Näiteks päiseid, jaluseid ja ribareklaame konfigureeritakse sageli fragmentidena, kuna neid jagatakse paljude lehtede vahel. Mõelge fragmentidest kui miniatuursetest veebisaitidest, mida saab sisestada teie saidi teistele lehtedele. Fragmentidel on oma elutsükkel. Teisisõnu need luuakse, neile viidatakse, neid värskendatakse ja need kustutatakse loomistööriistade sõltumatute üksustena.
 
@@ -122,19 +122,19 @@ Fragmendi redigeerimiseks Commerce'i saidiehitajas, toimige järgmiselt.
 
 Saate fragmenti redigeerida ka nii, et valite selle lehelt, mallist või ülemfragmendist ja seejärel valite paremalt atribuutide paanilt suvandi **Fragmendi redigeerimine**.
 
-### <a name="rename-a-fragment"></a>Nimetage fragment ümber
+### <a name="rename-a-fragment"></a>Killu ümbernimetamine
 
-Olemasoleva fragmendi ümbernimetamiseks saidi koostajas toimige järgmiselt.
+Olemasoleva tüki ümber nimetamiseks saidikonstruktoris järgige neid samme.
 
-1. Valige vasakpoolsel navigeerimispaanil **Killud**.
-1. Valige ümbernimetatava fragmendi fragmendi nimi.
-1. Valige **Redigeeri** fragmendi redigeerimise alustamiseks. Pange tähele, et te ei saa fragmenti redigeerida, kui keegi teine seda fragmenti juba redigeerib.
-1. Valige fragmendi atribuutide paanil pliiatsi sümbol fragmendi nime kõrval.
-1. Muutke fragmendi nime vastavalt vajadusele.
-1. Nime muutmise kinnitamiseks valige linnuke.
+1. Valige vasakul navigeerimispaanil **tükid**.
+1. Valige selle tüki killu nimi, mida soovite ümber nimetada.
+1. **Tüki** redigeerimise alustamiseks klõpsake nuppu Redigeeri. Võtke arvesse, et killust ei saa redigeerida, kui keegi teine juba tükke redigeerib.
+1. Killu atribuutide paanil valige killusta nime kõrvalt amplige märgiks.
+1. Redigeerige killusta nime vastavalt vajadusele.
+1. Nime muudatuse kinnitamiseks märkige see ruut.
 1. Valige **Lõpeta redigeerimine**.
 
-Saate fragmendi pärast loomist ümber nimetada, muutes seda ja valides seejärel atribuutide paanil fragmendi nime kõrval pliiatsi sümboli.
+Tüki nime saate ümber nimetada pärast selle loomist, redigeerides seda ja valides seejärel atribuudipaanil tüki nime kõrvalt tükimärgi.
 
 ## <a name="additional-resources"></a>Lisaressursid
 

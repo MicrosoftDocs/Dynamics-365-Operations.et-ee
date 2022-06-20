@@ -1,6 +1,6 @@
 ---
 title: Osalise makse tasumine enne allahindluse kuupäeva ja lõplik makse pärast allahindluse kuupäeva
-description: Selles teemas saate läbi stsenaariumi, kus tehakse mitu osamakset, mõned skontoperioodi piires ja teised väljaspool skonto perioodi.
+description: Selles artiklis läbitakse stsenaarium, kus tehakse mitu osalist makset, mõned skontoperioodil ja teised väljaspool skontoperioodi.
 author: abruer
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7331b4b2ad48cfa380497336d4ac22c8723568b5
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 1e249be4024ee6581060e3890795770054c6ab67
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716743"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871358"
 ---
 # <a name="settle-partial-payment-before-discount-date-and-final-payment-after-discount-date"></a>Osalise makse tasumine enne allahindluse kuupäeva ja lõplik makse pärast allahindluse kuupäeva
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas saate läbi stsenaariumi, kus tehakse mitu osamakset, mõned skontoperioodi piires ja teised väljaspool skonto perioodi.
+Selles artiklis läbitakse stsenaarium, kus tehakse mitu osalist makset, mõned skontoperioodil ja teised väljaspool skontoperioodi.
 
 Fabrikam ostab kaubad hankijalt 3057. Fabrikam saab 1 protsenti skontot, kui arve tasutakse 14 päeva jooksul. Arved tuleb tasuda 30 päeva jooksul. Hankija lubab Fabrikamil kasutada skontosid ka osaliste maksete korral. Tasakaalustamise parameetrid asuvad lehel **Ostureskontro parameetrid**.
 

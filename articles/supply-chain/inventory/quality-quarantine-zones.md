@@ -1,6 +1,6 @@
 ---
 title: Mittevastavuste garantiitsoonid
-description: See teema kirjeldab, kuidas luua ja kasutada mittevastavuste garantiitsoone.
+description: See artikkel kirjeldab, kuidas luua ja kasutada mittevastavustele vahelao tsoone.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 207950a2ff4057853488f75d0e302a049d228b76
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 2e556d2aa078a76ff4f81b6763535c38ce1cca0e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578460"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857702"
 ---
 # <a name="quarantine-zones-for-nonconformances"></a>Mittevastavuste garantiitsoonid
 
 [!include [banner](../includes/banner.md)]
 
-See teema kirjeldab, kuidas luua ja kasutada mittevastavuste garantiitsoone.
+See artikkel kirjeldab, kuidas luua ja kasutada mittevastavustele vahelao tsoone.
 
 Kasutage lehte **Garantii tsoonid** tsoonide määratlemiseks, mida saab mittevastavusele määrata. Kui loote mittevastavuse, saate seadistada **Garantii tsoon** ja **Garantiitüüp** väljad vahekaardil **Üldine** lehel **Mittevastavused**. **Garantiitsoon** väli näitab tavaliselt ala või asukohta, kus kaup asub. **Garantii tüüp** väli määratleb kauba kas *Piiratud kasutusena* või *kasutuskõlbmatuna*.
 

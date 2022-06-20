@@ -1,6 +1,6 @@
 ---
 title: Mis on Dynamics 365 Human Resources-is uut või mida on muudetud (6. oktoober 2020)
-description: Selles teemas kirjeldatakse Microsoft Dynamics 365 Human Resourcesi 6. oktoobri 2020 uusi või muutunud funktsioone.
+description: See artikkel kirjeldab funktsioone, mis on uued või muutunud Microsoftis Dynamics 365 Human Resources 6. oktoober 2020 jaoks.
 author: jcart1106
 ms.date: 10/06/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ac64218e48d2713b91af1541f94083aef3f815a2
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 4eb3e893c3243d3b2c169cb5a47001d4e0771a20
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062975"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887714"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-october-6-2020"></a>Mis on Dynamics 365 Human Resources-is uut või mida on muudetud (6. oktoober 2020)
 
@@ -27,7 +27,7 @@ ms.locfileid: "8062975"
 
 
 
-Selles teemas kirjeldatakse Dynamics 365 Human Resourcesi uusi, muutunud või peatselt tulevaid funktsioone. Meie värskendamisprotsessi ja graafiku kohta lisateabe saamiseks vt teemat [Värskendamisprotsess](hr-admin-setup-update-process.md).
+See artikkel kirjeldab funktsioone, mis on uued, muutunud või tulevad varsti Dynamics 365 Human Resources. Meie värskendamisprotsessi ja graafiku kohta lisateabe saamiseks vt teemat [Värskendamisprotsess](hr-admin-setup-update-process.md).
 
 Lisateavet uute funktsioonide ja nende eeldatava üldise kättesaadavuse kuupäevade kohta leiate teemast [Dynamics 365 Human Resourcesi 2020. aasta 2. väljalaskevoo ülevaade](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/).
 
@@ -48,9 +48,9 @@ Selle väljalaskega tuleb üldiselt kättesaadavaks järgmine funktsioon.
 See väljalase hõlmab järgmisi veaparandusi.
 
 >[!NOTE]
-> Meie eesmärk on edastada teile see teave esimesel võimalusel. Seda teemat võidakse värskendada, et lisada sellesse versioonijärku pärast selle teema esialgset avaldamist tehtud veaparandusi.
+> Meie eesmärk on edastada teile see teave esimesel võimalusel. Võib olla värskendusi sellele artiklile, et kaasata parandused, mis muutsid selle pärast selle artikli algset avaldamist järguks.
 
-| Väljaande number | Väljasta | Kirjeldus |
+| Väljaande number | Probleem | Kirjeldus |
 | --- | --- | --- |
 | 448806 | **Vaike-ID-tüüp** eksporditakse HCM-i parameetrites üksusena **RecID** | Selle Human Resourcesi parameetrite üksuse muudatusega lisatakse täiendav veerg, kus kuvatakse **Vaike-ID tüüp**. |
 | 492923 | Tegevuse salvestisi ei salvestata Lifecycle Servicesis (LCS) | Tegevuse salvestised saab nüüd LCS-i salvestada. |

@@ -1,6 +1,6 @@
 ---
-title: Luba "osta sarnase kirjeldusega" soovitused
-description: Selles teemas kirjeldatakse, kuidas lubada „osta sarnase kirjeldusega” tootesoovitused rakenduses Microsoft Dynamics 365 Commerce.
+title: Luba "osta sarnaseid kirjeldusi" soovitused
+description: See artikkel kirjeldab, kuidas lubada tootesoovitusi moodulis "ostu sarnane kirjeldus"Microsoft Dynamics 365 Commerce.
 author: bsokolov
 ms.date: 01/13/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 733b21870f9dd7ffa42fce3bccf669a59d633b14
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: b935731b24f96753c814e3b496ffeeb7a92d9cc1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690999"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852004"
 ---
 # <a name="enable-shop-similar-description-recommendations"></a>Luba "osta sarnaseid kirjeldusi" soovitused
 
 [!include [banner](includes/banner.md)]
 
-Selles teemas kirjeldatakse, kuidas lubada „osta sarnase kirjeldusega” tootesoovitused rakenduses Microsoft Dynamics 365 Commerce.
+See artikkel kirjeldab, kuidas lubada tootesoovitusi moodulis "ostu sarnane kirjeldus"Microsoft Dynamics 365 Commerce.
 
 Rakenduse Dynamics 365 Commerce soovituste funktsioon „osta sarnase kirjeldusega” kasutab tehisintellekti ja masinõpet (AI-ML), et pakkuda klientidele sarnaste kirjeldustega tooteid, nagu need, mida klient otsib. Tehes „osta sarnaste kirjeldustega” soovitused kõigis Commerce'i jaemüügikanalites kättesaadavaks, saavad jaemüüjad aidata klientidel lihtsamini leida seda, mida nad soovivad.
 

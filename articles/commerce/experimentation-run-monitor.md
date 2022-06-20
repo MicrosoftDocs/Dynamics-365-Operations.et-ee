@@ -1,6 +1,6 @@
 ---
 title: Eksperimendi käitamine ja jälgimine
-description: Selles teemas kirjeldatakse, kuidas käitada ja jälgida eksperimenti kolmanda osapoole teenuses. Selles kirjeldatakse ka, kuidas muuta variatsioone pärast eksperimendi alustamist.
+description: See artikkel kirjeldab, kuidas käitada ja jälgida kolmanda osapoole teenuse katsetust. Selles kirjeldatakse ka, kuidas muuta variatsioone pärast eksperimendi alustamist.
 author: sushma-rao
 ms.date: 10/21/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: cd8864caec23f6aca30badba1a79da31301a0ddb92a74bb4a6fe027214d0f8d6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c9f62c97b46fa00791de52b2804dad5edde7f625
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777568"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909579"
 ---
 # <a name="run-and-monitor-an-experiment"></a>Eksperimendi käitamine ja jälgimine
 
-Selles teemas kirjeldatakse, kuidas käitada ja jälgida oma eksperimenti kolmanda osapoole rakenduses ning vajadusel variatsioone muuta. Enne selle teema juhiste lõpule viimist tuleb teil esmalt oma eksperiment rakenduses Commerce [avaldada](experimentation-preview-publish.md). 
+See artikkel kirjeldab, kuidas käitada ja jälgida katset kolmanda osapoole rakenduses ning vajadusel muudatusi muuta. Enne selle artikli sammude lõpule viimist peate esmalt avaldama katse [äris](experimentation-preview-publish.md). 
 
-Järgmine diagramm näitab kõiki etappe, mis on seotud e-kaubanduse veebisaidi jaoks eksperimendi seadistamise ja käivitamisega rakenduses Dynamics 365 Commerce. Täiendavad etapid on toodud eraldi teemades.
+Järgmine diagramm näitab kõiki etappe, mis on seotud e-kaubanduse veebisaidi jaoks eksperimendi seadistamise ja käivitamisega rakenduses Dynamics 365 Commerce. Lisa sammud on kaetud eraldi artikliga.
 
 [ ![Eksperimendi kasutaja teekond – käitamine ja jälgimine.](./media/experimentation_run_monitor.svg) ](./media/experimentation_run_monitor.svg#lightbox)
 

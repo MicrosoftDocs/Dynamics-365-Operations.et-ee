@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Commerce'i hindamiskeskkonna KKK
-description: Selles jaotises antakse vastuseid korduma kippuvatele küsimustele rakenduse Microsoft Dynamics 365 Commerce hindamiskeskkonna kohta.
+description: See artikkel annab vastused korduma kippuvatele küsimustele hindamiskeskkonna Microsoft Dynamics 365 Commerce kohta.
 author: v-chgri
 ms.date: 07/16/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e8a3e760353b351d42aff82c0d372d2aca350cd2
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
-ms.translationtype: MT
+ms.openlocfilehash: 94717c1b9ff4ec05ee9734e1471a137cef55edfe
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343554"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861936"
 ---
 # <a name="dynamics-365-commerce-evaluation-environment-faq"></a>Dynamics 365 Commerce'i hindamiskeskkonna KKK
 
 [!include [banner](includes/banner.md)]
 
-Selles jaotises antakse vastuseid korduma kippuvatele küsimustele rakenduse Microsoft Dynamics 365 Commerce hindamiskeskkonna kohta.
+See artikkel annab vastused korduma kippuvatele küsimustele hindamiskeskkonna Microsoft Dynamics 365 Commerce kohta.
 
 ## <a name="can-we-use-the-commerce-evaluation-environment-as-an-e-commerce-storefront-for-customers-that-currently-implement-retail"></a>Kas saame kasutada Commerce'i hindamiskeskkonda e-kaubanduse poena klientidele, kes rakendavad praegu jaemüüki?
 
@@ -37,7 +37,7 @@ Ei (enamasti). Commerce'i hindamise komponendid on saadaval ainult keskkondadele
 
 ## <a name="what-costs-are-involved-in-deploying-the-commerce-evaluation-environment-on-microsoft-azure-via-microsoft-dynamics-lifecycle-services-lcs"></a>Millised kulud on kaasatud Commerce'i hindamiskeskkonna Microsoft Azure keskkonna kasutamisele läbi Microsoft Dynamics Lifecycle Serviceses (LCS)?
 
-Traditsiooniline Dynamics 365 Finance'i / Dynamics 365 Supply Chain Managementi / Dynamics 365 Commerce'i peakontori demokeskkond (virtuaalarvuti \[VM\]) majutatakse teie Azure'i tellimuses. Selle kulu hindamiseks saate kasutada [Azure hinnakujunduse kalkulaatorit ](https://azure.microsoft.com/pricing/calculator/).
+Traditsiooniline Dynamics 365 Finantside/Dynamics 365 Supply Chain Management/Dynamics 365 Commerce peakontorite demokeskkond (\[virtuaalmasina VM\]) majutatakse teie Azure'i kordustellimusse. Selle kulu hindamiseks saate kasutada [Azure hinnakujunduse kalkulaatorit ](https://azure.microsoft.com/pricing/calculator/).
 
 Muud komponendid, nt Commerce Scale Unit, Commerce'i saidiehitaja ja teie e-kaubanduse sait, on saadaval tarkvarana teenusena (SaaS) ja majutatakse Microsoftis.
 

@@ -1,6 +1,6 @@
 ---
 title: Pearaamatu tasakaalustused
-description: Selles teemas kirjeldatakse, kuidas kasutada pearaamatu tasakaalustuste lehte pearaamatukannete tasakaalustamiseks ja taskaalustuste tühistamiseks.
+description: See artikkel selgitab, kuidas kasutada pearaamatu tasakaalustuste lehte pearaamatukannete tasakaalustamiseks ja tasakaalustuste tühistamiseks.
 author: kweekley
 ms.date: 01/31/2022
 ms.topic: article
@@ -13,82 +13,82 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-11-30
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: e98b012210338e7f18cb874eefbc8a023aa4428b
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: 39fd6c6677565a4b1e9a9bf6f43a4c630cb5e07b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075320"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902483"
 ---
 # <a name="ledger-settlements"></a>Pearaamatu tasakaalustused
 
 [!include [banner](../includes/banner.md)]
 
-Pearaamatu tasakaalustus on pearaamatu deebet- ja kreeditkannete sobitamise protsess. Deebet- ja kreeditsummade arveldamist kasutatakse pearaamatukonto saldo vastavusse ühildamiseks selle saldo moodustavate üksikasjalike kannetega.
+Pearaamatu tasakaalustamine on deebet- ja kreeditkannete vastavusseviimise protsess pearaamatus. Deebet- ja kreeditsummade tasakaalustust kasutatakse pearaamatukonto saldo vastavusseviimiseks üksikasjalike kannetega, mis selle saldo moodustab.
 
-Tasakaalustatud kanded saab päringutest ja aruannetest välja jätta. Sel viisil on lihtsam analüüsida avatud pearaamatukandeid, mis moodustavad pearaamatukonto saldo.
+Tasakaalustatud kandeid saab päringutest ja aruannetest välja jätta. Sel viisil on lihtsam analüüsida avatud pearaamatukandeid, mis on pearaamatukonto saldo.
 
 > [!IMPORTANT] 
-> Ostureskontro (AP) ja müügireskontro moodulid (AR) arveldavad ka arveid ja makseid. Kui tasakaalustamine toimub liit- ja AP-alammoodulites, ei tasakaalustata vastavaid andmikukandeid automaatselt.
+> Ostureskontro (AP) ja müügireskontro (AR) moodulites on ka arvete ja maksete tasakaalustused. Kui tasakaalustus leiab aset AR-i ja AP alammoodulites, siis vastavaid pearaamatukirjeid automaatselt ei tasakaalustata.
 
-## <a name="ledger-settlement-features"></a>Pearaamatu tasakaalustuse funktsioonid
-Microsofti Dynamics 365 Finance versioonis 10.0.21 **eemaldati** lehelt Pearaamatu parameetrite suvand Luba täpsem pearaamatu **tasakaalustus**. Täpsem pearaamatu tasakaalustus on nüüd alati lubatud.
-Finance'i versioonis 10.0.25 **võeti kasutusele teadlikkus pearaamatu tasakaalustamise ja aastalõpu sulgemisfunktsiooni** vahel. See funktsioon muudab põhifunktsioone nii pearaamatu tasakaalustuses kui ka pearaamatu aastalõpu sulgemises. Enne selle funktsiooni lubamist **funktsioonihalduse** tööruumis lugege lisateavet teemast [Teadlikkus pearaamatu tasakaalustuse ja aastalõpu sulgemise](awareness-between-ledger-settlement-year-end-close.md) vahel.
+## <a name="ledger-settlement-features"></a>Pearaamatu tasakaalustamise funktsioonid
+Finantside Microsoft Dynamics versioonis 10.0.21 **·** **eemaldati pearaamatu parameetrite lehelt suvand Luba laiendatud pearaamatu tasakaalustamine.** Laiendatud pearaamatu tasakaalustus on nüüd alati lubatud.
+Finantsversioonis 10.0.25 **tutvustati pearaamatu tasakaalustuse ja aasta lõpu sulgemise** funktsiooni vahelist arusaama. See funktsioon muudab põhifunktsioone nii pearaamatu tasakaalustamises kui ka pearaamatu aasta lõpu sulgemises. Enne selle funktsiooni lubamist funktsioonihalduse **tööruumis** vaadake pearaamatu tasakaalustuse [ja aasta lõpu sulgemise vahelist teadmist](awareness-between-ledger-settlement-year-end-close.md).
 
-## <a name="set-up-ledger-settlement"></a>Pearaamatu tasakaalustuse häälestamine
-Peate valima põhikontod, mille jaoks soovite pearaamatu tasakaalustuse teha. Nende põhikontode valimiseks on kaks võimalust.
+## <a name="set-up-ledger-settlement"></a>Seadista pearaamatu tasakaalustamine
+Peate valima põhikontod, mille jaoks soovite pearaamatu tasakaalustamist teha. Nende põhikontode valimiseks on kaks viisi.
 
-1. **Avage pearaamatu** > **ledger setupGeneral** > **ledger parameters**.
-2. Valige vahekaardil **Pearaamatu tasakaalustused** nende kontode diagrammid, mille hulgast soovite põhikontod valida.
-3. Valige põhikontod, mille pearaamatu tasakaalustamiseks. Kuna kontoplaanid on globaalsed, on kõigil ettevõtetel, kellele valitud kontoplaanid on määratud, pearaamatu tasakaalustamiseks valitud samad põhikontod.
+1. Minge pearaamatu **pearaamatu seadistuse** > **pearaamatu** > **parameetritele**.
+2. **Valige vahekaardil Pearaamatu tasakaalustused** kontoplaanid, millelt soovite põhikontosid valida.
+3. Valige põhikontod, mille puhul soovite pearaamatu tasakaalustamist teha. Kuna kontoplaanid on globaalsed, on kõigil valitud kontoplaanidele määratud ettevõtetel pearaamatu tasakaalustamiseks valitud samad põhikontod.
 
   - või -
 
-1. **Avage pearaamatPeriodsed** > **ülesandedLedgeri** > **tasakaalustused**.
-2. Valige **Pearaamatu tasakaalustuskontod**.
-3. Valige dialoogiboksis konto- ja põhikontode diagrammid, mille jaoks pearaamatu tasakaalustada. See dialoogiboks on otsetee. Kõik siia lisatud põhikontod kajastuvad **ka pearaamatu parameetrite** lehel.
+1. Minge pearaamatu perioodiliste **toimingute** > **pearaamatu** > **tasakaalustustele**.
+2. Saate valida **pearaamatu tasakaalustuskontod**.
+3. Valige dialoogiboksis kontoplaanid ja põhikontod, mille puhul soovite pearaamatu tasakaalustamist teha. See dialoogiboks on otsetee. Kõik siia lisatav põhikontod kajastuvad ka pearaamatu **parameetrite** lehel.
 
-Põhikontode pearaamatu tasakaalustuselt eemaldamiseks saate igal ajal kasutada samu põhiprotseduure. Põhikonto eemaldamine ei mõjuta varasemaid pearaamatu tasakaalustusi. Põhikontot ja kandeid ei kuvata **siiski enam lehel Pearaamatu tasakaalustus**.
+Samade põhiprotseduuride abil saate igal ajal põhikontod pearaamatu tasakaalustuselt eemaldada. Põhikonto eemaldamine ei mõjuta eelmisi pearaamatu tasakaalustusi. Põhikontot ja kandeid ei kuvata enam pearaamatu tasakaalustamise **lehel**.
 
 ## <a name="settle-transactions"></a><a name="settle-transactions"></a>Kannete tasakaalustamine
 Pearaamatu kannete tasakaalustamiseks toimige järgmiselt.
 
-1. **Avage pearaamatPeriodsed** > **ülesandedLedgeri** > **tasakaalustused**.
+1. Minge pearaamatu perioodiliste **toimingute** > **pearaamatu** > **tasakaalustustele**.
 2. Seadke filtrid lehe ülaosas.
 
-    - Kuupäevavahemiku valimine. Teise võimalusena valige kuupäevavahemiku automaatseks täitmiseks kuupäevavahemiku kood. Me ei soovita teil teha pearaamatu tasakaalustust finantsaastaid läbivate kannete puhul.
-    - Muutke sisestuskihti vastavalt vajadusele. Te ei saa arveldada tehinguid, mis on erinevates postitamiskihtides.
-    - Põhikonto ja dimensioonide eraldi kuvamiseks valige finantsdimensioonikomplekt.
+    - Kuupäevavahemiku valimine. Teise võimalusena valige kuupäevavahemiku kood, et kuupäevavahemik automaatselt täita. Me ei soovita teil teha pearaamatu tasakaalustusi kannetele, mis ristvad rahandusaastaid.
+    - Muutke sisestuskihti vastavalt vajadusele. Te ei saa tasakaalustada kandeid, mis on erinevates sisestamiskihtides.
+    - Põhikonto ja dimensioonide eraldi näitamiseks valige finantsdimensioonide kogum.
 
 3. Valige **Kuva kanded**, et kuvada kõik kanded, mis vastavad seatud filtritele ja eelmises jaotises kontoplaani loomisel määratud kontode loendile.
 
     - Filtrite või dimensioonikogumite muutmisel peate uuesti valima **Kuva kanded**.
-    - Kannete filtreerimiseks üksikule põhikontole kasutage välja Pearaamatukonto **filtrit**. Me ei soovita teil teha pearaamatu tasakaalustust kannete jaoks, mis on konteeritud erinevatele põhikontodele.
+    - Kannete filtreerimiseks üksiku põhikonto järgi kasutage filtrit väljal **Pearaamatukonto**. Me ei soovita teil teha pearaamatu tasakaalustusi erinevatele põhikontodele sisestatud kannetele.
 
-4. Valige arveldamiseks read. Väärtus **Valitud summa** lehe ülaosas olev väli suureneb või väheneb, et kajastada valitud ridade kogusummat.
-5. Kui olete tehingute valimise lõpetanud, valige **Märgi valituks**. Iga valitud tehingu kohta kuvatakse linnuke **Märgitud** veerg. Lisaks väärtus **Märgitud summa** ruudustiku kohal olev väli suureneb või väheneb, et kajastada märgitud joonte kogusummat.
-6. Kui väärtus on **Märgitud summa** väli on **0** (null), valige **Arveldage märgitud tehingud**. Märgistatud kannete olek uuendatakse olekule **Tasakaalustatud**.
+4. Valige tasakaalustuse read. Lehekülje ülaosas oleva **valitud summa** välja väärtus suureneb või väheneb, et kajastada valitud ridade kogusummat.
+5. Kui olete kannete valimise lõpetanud, valige suvand **Märgi valituna**. Iga valitud kande puhul kuvatakse märge veerus **Märgitud**. Lisaks suureneb või väheneb **märgitud summa** välja väärtus ruudustiku kohal, et kajastada märgitud ridade kogusummat.
+6. Kui väärtus väljal Märgitud summa **on** **0** (null), valige suvand Tasakaalusta **märgitud kanded.** Märgistatud kannete olek uuendatakse olekule **Tasakaalustatud**.
 
     > [!IMPORTANT]
-    > Kõik aktiivse juriidilise isiku tasakaalustamiseks märgitud kanded tasakaalustatakse, isegi kui neid pole praegu pearaamatu tasakaalustuse lehel kuvatud, kuna rakendasite filtri.
+    > Kõik kanded, mille märkisite aktiivse juriidilise isiku tasakaalustamiseks, tasakaalustatakse, isegi kui neid ei kuvata praegu pearaamatu tasakaalustuse lehel, sest rakendasite filtri.
 
 ## <a name="make-transactions-easier-to-find"></a>Muudke kannete leidmine lihtsamaks
-The **Pearaamatu arveldused** leht sisaldab võimalusi, mis hõlbustavad arveldamiseks vajalike tehingute vaatamist.
+Pearaamatu **tasakaalustuste** leht sisaldab võimalusi, mis lihtsustavad tasakaalustuse jaoks vajaminev kannete vaatamist.
 
-- Kasutage kannete filtreerimiseks filtrit **selle** põhjal, **kas nende jaoks on märgitud ruut Märgitud**.
-- **Kasutage olekufiltrit** kannete filtreerimiseks nende oleku alusel.
-- Summade sortimiseks absoluutväärtuse järgi valige **Sordi absoluutsumma** järgi. Sel viisil saate rühmitada deebeteid ja krediite, millel on sama summa.
+- Kasutage märgitud **filtrit**, et filtreerida kandeid selle **põhjal**, kas nende jaoks on märgitud ruut märgitud.
+- Olekufiltri **abil** saate filtreerida kandeid nende oleku alusel.
+- Valige **kogusumma järgi sortimine** summade järgi absoluutväärtuse järgi. Sel viisil saate grupeerida deebeteid ja kreediteid, mis on ühesuguse summaga.
 
 ## <a name="reverse-a-settlement"></a>Tasakaalustuse tühistamine
 Saate tühistada ekslikult tehtud tasakaalustuse.
 
-1. Järgige samme 1 kuni 3 jaotises [Arvelda tehingud](#settle-transactions) Teid huvitavate tehingute kuvamiseks.
+1. Järgige jaotises Kannete tasakaalustamine samme 1 kuni [3](#settle-transactions), et näidata kandeid, mille suhtes olete huvitatud.
 2. Valige **Oleku** filtris valik **Tasakaalustatud**.
-3. Valige ümberpööramiseks read.
-4. Valige **Pöördmärgistatud tehingud**. Kõigi sama arveldus-ID-ga tehingute olekut värskendatakse **Ei lahendatud**.
+3. Valige read, mida tagasipööramiseks valida.
+4. Valige Märgitud **kannete tagasipööramine**. Kõigi sama tasakaalustuse ID-ga kannete olek uuendatakse olekuks **Tasakaalusta pole.**
 
     > [!IMPORTANT]
-    > Kõik sama arveldus-ID-ga tehingud tühistatakse, isegi kui need pole märgitud. Näiteks märgiti ja arveldati neli rida. Kõigil neljal real on sama asula ID. Kui märgite ühe neist neljast reast ja seejärel valige **Pöördmärgistatud tehingud**, pööratakse kõik neli rida ümber.
+    > Kõik sama tasakaalustuse ID-ga kanded tühistatakse, isegi kui neid pole märgitud. Näiteks märgitakse ja tasakaalustati neli rida. Kõigil neljal real on sama tasakaalustuse ID. Kui märgite neljast reast ühe ja valite siis **märgitud kannete ümberpööramise**, tühistatakse kõik neli rida.
 
 
 

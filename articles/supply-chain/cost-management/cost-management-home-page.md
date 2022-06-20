@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0c5d7e8f9561ba81e0be93220df9afcd493179f
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: e9ba69f637087298bf6a93dbb049d78dff739aaf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672482"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891143"
 ---
 # <a name="cost-management-home-page"></a>Kuluhalduse koduleht
 
@@ -53,7 +53,7 @@ Avage [Microsoft Dynamics 365 sisukaart](https://roadmap.dynamics.com/), et näh
 
 #### <a name="white-paper"></a>Tehniline ülevaade
 
-Tehniline ülevaade [Koosluse arvutamine kuluarvutustabeli abil](https://www.microsoft.com/download/details.aspx?id=101937) kirjeldab, kuidas seadistada kuluarvutustabelit, mis sisaldab materjali ja tootmist ning kuidas seadistamine mõjutab koosluse arvutamise tulemusi. Teema paremini selgitamiseks sisaldab see konkreetseid stsenaariumeid ja andmeid, mis näitavad eri sätete ja konfiguratsioonide mõju.
+Tehniline ülevaade [Koosluse arvutamine kuluarvutustabeli abil](https://www.microsoft.com/download/details.aspx?id=101937) kirjeldab, kuidas seadistada kuluarvutustabelit, mis sisaldab materjali ja tootmist ning kuidas seadistamine mõjutab koosluse arvutamise tulemusi. Et paremini selgitada artikleid, pakub see konkreetseid stsenaariume ja andmeid, mis demonstreerivad erinevate sätete ja konfiguratsioonide mõju.
 
 #### <a name="blogs"></a>Ajaveebid
 

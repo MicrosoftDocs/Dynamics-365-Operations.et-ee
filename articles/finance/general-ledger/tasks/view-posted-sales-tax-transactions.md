@@ -1,6 +1,6 @@
 ---
 title: Sisestatud käibemaksukannete kuvamine
-description: See teema kirjeldab mõningaid sisestatud käibemaksu kannete vaatamise viise.
+description: See artikkel kirjeldab mõningaid viise sisestatud käibemaksukannete vaatamiseks.
 author: twheeloc
 ms.date: 08/08/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5c140f0565005120f57ba1c22bbdac50b3d0d3d4
-ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
+ms.openlocfilehash: 028ebe44a639b32e45e0dd0af57887abc9b2af6f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8566127"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883238"
 ---
 # <a name="view-posted-sales-tax-transactions"></a>Sisestatud käibemaksukannete kuvamine
 
 [!include [banner](../../includes/banner.md)]
 
-See teema kirjeldab mõningaid sisestatud käibemaksu kannete vaatamise viise. Saate sisestatud käibemaksukandeid vaadata eri lehtedelt, olenevalt sellest, mida teil on vaja vaadata. See ülesanne kasutab demoettevõtte USMF andmeid.
+See artikkel kirjeldab mõningaid viise sisestatud käibemaksukannete vaatamiseks. Saate sisestatud käibemaksukandeid vaadata eri lehtedelt, olenevalt sellest, mida teil on vaja vaadata. See ülesanne kasutab demoettevõtte USMF andmeid.
 
 ## <a name="posted-sales-tax-page"></a>Sisestatud käibemaksu leht
 

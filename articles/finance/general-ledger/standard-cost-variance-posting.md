@@ -1,6 +1,6 @@
 ---
 title: Standardkulu hälbe sisestamine
-description: Sellest teemast leiate teavet standardkuluarvestuse sisestusreeglite seadistamise kohta.
+description: See artikkel annab teavet sisestusreeglite seadistamise kohta standardseks kuluarvestuseks.
 author: rachelprofitt
 ms.date: 04/25/2022
 ms.topic: overview
@@ -10,16 +10,16 @@ ms.search.form: InventPosting, InventItemGroup
 audience: Application User
 ms.search.region: Global
 ms.author: raprofit
-ms.openlocfilehash: bc4f1bd7c1bf7a8f214f20460b10d371d8f3c790
-ms.sourcegitcommit: 1ea145dc606e243c7f51d91a5c0dd9e385bbda4a
+ms.openlocfilehash: e7b2d04f32b75dbd1354b3ef74a41ea1b6469c8a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "8804637"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894873"
 ---
 # <a name="standard-cost-variance-posting"></a>Standardkulu hälbe sisestamine
 
-Kui kasutate oma organisatsioonis ühe või mitme toote standardset kuluarvestust, peate konfigureerima [standardse kuluarvestuse eeltingimused](/supply-chain/cost-management/prerequisites-standard-costs.md). See teema selgitab sisestuskontosid, mida on vaja eeltingimuste sammu 3 jaoks, "Määrake pearaamatukontod kauba sisestustele, mis on seotud standardsete kuluhälvetega."
+Kui kasutate oma organisatsioonis ühe või mitme toote standardset kuluarvestust, peate konfigureerima [standardse kuluarvestuse eeltingimused](/supply-chain/cost-management/prerequisites-standard-costs.md). See artikkel selgitab sisestuskontosid, mida on vaja eeltingimuste sammu 3 jaoks, "Määrake pearaamatukontod kauba sisestustele, mis on seotud standardsete kuluhälvetega."
 
 Ostu- ja tootmistellimuste puhul võib esineda eri tüüpi hälbeid. Tootmiskulude hälvete näiteid vt teemast [Tootmishälvete tavalised allikad](/supply-chain/cost-management/common-sources-of-production-variances.md). Ostutellimuse hinna hälbeid kasutatakse siis, kui kasutate ostetud kauba standardset kulu ning ostutellimusel on erinevus toote standardkulu ja arveldatud summa vahel.
 

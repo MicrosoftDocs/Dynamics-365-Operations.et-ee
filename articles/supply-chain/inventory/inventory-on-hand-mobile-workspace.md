@@ -1,6 +1,6 @@
 ---
 title: Vaba kaubavaru mobiilne tööruum
-description: See teema annab teavet vaba kaubavaru mobiilse tööruumi kohta. See tööruum aitab saada alati ja kõikjal mobiilseid ülevaateid reserveeritud ning vabadest kaubavarudest.
+description: See artikkel annab teavet mobiilse laoseisu tööruumi kohta. See tööruum aitab saada alati ja kõikjal mobiilseid ülevaateid reserveeritud ning vabadest kaubavarudest.
 author: yufeihuang
 ms.date: 05/24/2022
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.industry: Manufacturing
 ms.author: yufeihuang
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: b380da99b02fe9b7cd834eabac3498ee3b8e54a4
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: d493164b754b86a9df9ce4dcf9df8b20eeb55c5c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811462"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859426"
 ---
 # <a name="inventory-on-hand-mobile-workspace"></a>Vaba kaubavaru mobiilne tööruum
 
 [!include [banner](../includes/banner.md)]
 [!include [mobile app deprecation](../../fin-ops-core/dev-itpro/includes/mobile-app-deprecation-banner.md)]
 
-See teema annab teavet **vaba kaubavaru** mobiilse tööruumi kohta. See tööruum aitab saada alati ja kõikjal ülevaateid reserveeritud ning vabadest kaubavarudest.
+See artikkel annab teavet mobiilse **laoseisu tööruumi** kohta. See tööruum aitab saada alati ja kõikjal ülevaateid reserveeritud ning vabadest kaubavarudest.
 
 See mobiilses tööruum on mõeldud kasutamiseks koos Rakenduse Finantsid ja toimingud (Dynamics 365) mobiilirakendusega.
 

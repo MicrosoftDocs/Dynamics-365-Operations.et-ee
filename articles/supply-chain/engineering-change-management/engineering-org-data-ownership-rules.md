@@ -1,6 +1,6 @@
 ---
 title: Tehnikaettevõtted ja andmete omandiõiguse reeglid
-description: Selles teemas selgitatakse, kuidas kasutada ühte või enamat tehnikaettevõtet, et tagada, et toodete koondandmeid luuakse ja hallatakse keskselt. Tehnikaettevõte esindab ettevõtet, mis omab tehnilisi tooteid ja tehnilisi andmeid.
+description: See artikkel selgitab, kuidas ühte või enamat tehnikafirmat kasutada, et tagada toodete koondandmete loomine ja haldamine keskselt. Tehnikaettevõte esindab ettevõtet, mis omab tehnilisi tooteid ja tehnilisi andmeid.
 author: t-benebo
 ms.date: 09/28/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 1a05ad1a9d24239e2659c1ffecc21e5e186b1e96
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 47662203669d5dd466990be397c9a4aaf1dd9932
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572909"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875535"
 ---
 # <a name="engineering-companies-and-data-ownership-rules"></a>Tehnikaettevõtted ja andmete omandiõiguse reeglid
 

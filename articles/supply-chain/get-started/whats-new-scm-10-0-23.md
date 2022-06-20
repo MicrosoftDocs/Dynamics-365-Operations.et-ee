@@ -1,6 +1,6 @@
 ---
 title: Mis on uut või mida on muudetud rakenduses Dynamics 365 Supply Chain Management 10.0.23. (jaanuar 2022)
-description: Selles teemas kirjeldatakse Microsoft Dynamics 365 Supply Chain Management 10.0.23 uusi või muutunud funktsioone.
+description: See artikkel kirjeldab funktsioone, mis on Microsoft Dynamics 365 Supply Chain Management 10.0.23 uued või muutunud.
 author: kamaybac
 ms.date: 10/15/2021
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 86e33296fd8631082e47bf6814d8e5e716d9fa1b
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: acffe97cf1844f16a70c716a7f2078b1e9a072d1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691466"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849470"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10023-january-2022"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 Supply Chain Management 10.0.23. (jaanuar 2022)
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas loendatakse Microsoft Dynamics 365 Supply Chain Managementi versiooni 10.0.23 uusi või muutunud funktsioone. Selle versiooni number on 10.0.1037 ja see on saadaval järgmiselt:
+See artikkel loetleb funktsioonid, mis on Microsofti versioonis Dynamics 365 Supply Chain Management 10.0.23 uued või muutunud. Selle versiooni number on 10.0.1037 ja see on saadaval järgmiselt:
 
 - **Väljalaske eelversioon:** oktoober 2021
 - **Väljalaske üldine kättesaadavus (enesevärskendus):** detsember 2021
@@ -29,7 +29,7 @@ Selles teemas loendatakse Microsoft Dynamics 365 Supply Chain Managementi versio
 
 ## <a name="features-included-in-this-release"></a>Selles väljalaskes sisalduvad funktsioonid
 
-Järgmises tabelis on loetletud selles versioonis sisalduvad funktsioonid. Veerg *Funktsioon* pakub linke [väljalaskeplaani](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planned-features) kus saate vaadata iga funktsiooni ametlikke väljalaskekuupäevi. Veerg *Lisateave* pakub üksikasju/linke seotud dokumentatsioonile. Funktsiooni sisselülitamise määratlemiseks vaadake veergu *Lubatud*. Lisateavet funktsioonihalduse kasutamise kohta vt [Funktsioonihalduse ülevaade](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). Võime värskendada seda teemat, et lisada sellesse funktsioone, mis on loodud pärast selle esialgset avaldamist tehtud veaparandusi.
+Järgmises tabelis on loetletud selles versioonis sisalduvad funktsioonid. Veerg *Funktsioon* pakub linke [väljalaskeplaani](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planned-features) kus saate vaadata iga funktsiooni ametlikke väljalaskekuupäevi. Veerg *Lisateave* pakub üksikasju/linke seotud dokumentatsioonile. Funktsiooni sisselülitamise määratlemiseks vaadake veergu *Lubatud*. Lisateavet funktsioonihalduse kasutamise kohta vt [Funktsioonihalduse ülevaade](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). Võime seda artiklit värskendada, et kaasata funktsioonid, mis muutsid selle koostesse pärast selle artikli algset avaldamist.
 
 | Funktsiooniala | Funktsioon | Lisateave | Lubaja:   |
 |---|---|---|---|
@@ -63,9 +63,9 @@ Kui soovite mõnda neist funktsioonidest sisse või välja lülitada, peate seda
 
 ## <a name="new-and-updated-documentation-resources"></a>Uued ja värskendatud dokumentatsiooni ressursid
 
-Oleme hiljuti lisanud või oluliselt uuendanud järgmisi abiteemasid. Need teemad ei ole tingimata seotud uute funktsioonidega, mis sellele väljalaskele lisati, nagu on loetletud eelmises jaotises. Kuid need võivad aidata teil rohkem funktsionaalsust olemasolevatest funktsioonidest kätte saada.
+Oleme hiljuti lisanud või oluliselt uuendanud järgmised spikriartiklid. Need artiklid ei pea tingimata olema seotud uute funktsioonidega, mis selle väljalaske jaoks lisati, nagu on loetletud eelmises jaotises. Kuid need võivad aidata teil rohkem funktsionaalsust olemasolevatest funktsioonidest kätte saada.
 
-| Funktsiooniala | Uued või värskendatud teemad |
+| Funktsiooniala | Uued või värskendatud artiklid |
 |---|---|
 | Tehnilise muudatuse haldamine | [Tehnilised atribuudid ja tehnilise atribuudi otsing](../engineering-change-management/engineering-attributes-and-search.md) nüüd kirjeldab, kuidas tehnilise atribuudi pärimine töötab. |
 | Koondplaneerimine | [Üldplaneering nõudluse prognooside](../master-planning/planning-optimization/demand-forecast.md) ja [Prognoosi vähendamise võtmetega](../master-planning/reduction-keys.md) pakuvad nüüd rohkem teavet vähendamise võtmetega töötamise kohta. |
@@ -74,9 +74,9 @@ Oleme hiljuti lisanud või oluliselt uuendanud järgmisi abiteemasid. Need teema
 | Koondplaneerimine | [Tarnegraafik](../master-planning/supply-schedule.md) |
 | Laohaldus | [Mobiilsete seadmete globaalsed parameetrid](../warehousing/mobile-device-parameters.md) |
 | Laohaldus | [Ankurdamine](../warehousing/anchoring.md) |
-| Müük ja turundus | Nüüd kirjeldatakse üksikasjalikult ettevõtetevahelist kaubandust, alustades [ettevõtetevahelise kaubanduse seadistamisest](../sales-marketing/intercompany-trade-set-up.md) ja sellega seotud teemadest. |
+| Müük ja turundus | Kontsernisisest kaubandust on nüüd üksikasjalikult kirjeldatud, alustades [kontsernisisese](../sales-marketing/intercompany-trade-set-up.md) kaubanduse ja sellega seotud artiklitega. |
 | Müük ja turundus | [Müügiajaloo puhastamise jõudluse täiustused](../sales-marketing/sales-update-history-cleanup-performance-improvements.md) |
-| Varud | Varude nähtavuse dokumentatsiooni on laiendatud ja värskendatud, alustades [laoseisu nähtavuse lisandmooduli ülevaatest](../inventory/inventory-visibility.md) ja sellega seotud teemadest. |
+| Varud | Lao nähtavuse dokumentatsiooni on laiendatud ja uuendatud, alustades varude [nähtavuse lisandmooduli ülevaatega](../inventory/inventory-visibility.md) ja selle seotud artiklitega. |
 | Laohaldus | [Mobiilse seadme kasutaja kontod](../warehousing/mobile-device-work-users.md) |
 
 ## <a name="additional-resources"></a>Lisaressursid
@@ -97,12 +97,12 @@ Vaadake [Dynamics 365 ja majandusharu pilved: 2021 väljalaskevoo 2 plaan](/dyna
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Eemaldatud ja aegunud Supply Chain Managementi funktsioonid
 
-Teemas [Eemaldatud või aegunud Dynamics 365 Supply Chain Managementi funktsioonid](removed-deprecated-features-scm-updates.md) kirjeldatakse funktsioone, mis on eemaldatud või aegunud või kavandatakse eemaldada Supply Chain Managementist.
+Artikli [eemaldatud või taunitud Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) funktsioonid kirjeldavad funktsioone, mis on tarneahela halduses eemaldatud või plaaniliselt eemaldatud või taunitud.
 
 - *Eemaldatud* funktsioon pole tootes enam saadaval.
 - *Aegunud* funktsioon ei ole aktiivses arenduses ja vee võidakse tulevases värskenduses eemaldada.
 
-Enne mis tahes funktsiooni eemaldamist tootest, teavitatakse aegumisest 12 kuud ette teemas [Eemaldatud või aegunud Dynamics 365 Supply Chain Managementi funktsioonid](removed-deprecated-features-scm-updates.md).
+Enne mis tahes funktsiooni eemaldamist tootest teatatakse amortiseerumisest [Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) artikli 12 kuu jooksul enne eemaldamist eemaldatud või taunitud funktsioonides.
 
 Murranguliste muudatuste puhul, mis mõjutavad ainult kompileerimise aega, kuid on binaarselt ühilduvad liivakasti- ja tootmiskeskkondadega, on aegumise aeg vähem kui 12 kuud. Need on tavaliselt funktsionaalsed uuendused, mida tuleb teha kompilaatori jaoks.
 

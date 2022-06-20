@@ -1,6 +1,6 @@
 ---
 title: Hankija koostöö kasutajate haldamine
-description: See teema kirjeldab, kuidas saate taotleda uue hankija koostöö kasutajate ettevalmistamist ja kuidas lisada uue hankija koostöö kontakte.
+description: See artikkel kirjeldab, kuidas taotleda uute hankija koostöö kasutajate tellimist ja kuidas lisada uusi hankija koostöökontakte.
 author: GalynaFedorova
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 515d995641f5bbe976643a38c26a46f7d8a115dd
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 823e92cadc36659264a70132ed1390c7bcf8bc5d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678823"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852298"
 ---
 # <a name="manage-vendor-collaboration-users"></a>Hankija koostöö kasutajate haldamine
 
 [!include [banner](../includes/banner.md)]
 
-See teema kirjeldab, kuidas saate taotleda uue hankija koostöö kasutajate ettevalmistamist ja kuidas lisada uue hankija koostöö kontakte. 
+See artikkel kirjeldab, kuidas taotleda uute hankija koostöö kasutajate tellimist ja kuidas lisada uusi hankija koostöökontakte. 
 
-Hankija koostöö liides rakenduses Dynamics 365 Supply Chain Management avaldab teavet ostutellimuste, arvete ja veosevarude kohta välistele hankijatele. Saate luua uued hankija koostöö kontaktid ja nõuda, et uued kasutajad valmistatakse ette, kui töötate välise hankijana turberolliga **Hankija administraator (väline)** või sarnaste lubadega. Samuti saate teha need ülesanded, kui töötate hankeprofessionaalina. Selles teemas viitab see roll hankeprofessionaalile, kes töötab selle ettevõtte siseselt, millele kuulub Supply Chain Managementi eksemplar. Lisateavet selle kohta, kuidas kasutada hankija koostööd, kui olete väline hankija, vaadake jaotisest [Hankija koostöö klientidega](vendor-collaboration-work-customers-dynamics-365-operations.md).  
+Hankija koostöö liides rakenduses Dynamics 365 Supply Chain Management avaldab teavet ostutellimuste, arvete ja veosevarude kohta välistele hankijatele. Saate luua uued hankija koostöö kontaktid ja nõuda, et uued kasutajad valmistatakse ette, kui töötate välise hankijana turberolliga **Hankija administraator (väline)** või sarnaste lubadega. Samuti saate teha need ülesanded, kui töötate hankeprofessionaalina. Selles artiklis viitab see roll hankespetsialistile, kes töötab ettevõttes, millele kuulub tarneahela halduse eksemplar. Lisateavet selle kohta, kuidas kasutada hankija koostööd, kui olete väline hankija, vaadake jaotisest [Hankija koostöö klientidega](vendor-collaboration-work-customers-dynamics-365-operations.md).  
 
 Lisateavet selle kohta, kuidas kasutada hankija koostööd, kui olete väline hankija, vaadake teemast [Hankija koostöö väliste hankijatega](vendor-collaboration-work-external-vendors.md).
 

@@ -1,6 +1,6 @@
 ---
-title: Konteineri tegevuste üksus
-description: Selles teemas antakse teavet konteinerite saatmise edenemise jälgimiseks kasutatavate konteinerite kohta.
+title: Konteinerite tegevuste üksused
+description: See artikkel annab teavet konteineri tegevuste kohta, mida kasutatakse konteinerite saatmise edenemise jälgimiseks.
 author: yufeihuang
 ms.date: 05/27/2022
 ms.topic: article
@@ -11,14 +11,14 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-05-27
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 7bb2b97e8885e3b1265f0c93585873c8a64f1dfb
-ms.sourcegitcommit: 611202adaa080250636efabb3b3b32b850d92d04
+ms.openlocfilehash: b69d26ee8abaa403f6a0ef3b03d9015fe507dd5b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8813156"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873952"
 ---
-# <a name="container-activities-entity"></a>Konteineri tegevuste üksus
+# <a name="container-activities-entity"></a>Konteinerite tegevuste üksused
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]

@@ -1,6 +1,6 @@
 ---
-title: Planeerimise optimiseerimise kasutamise alustamine
-description: Selles teemas selgitatakse, kuidas hakata kasutama planeerimise optimeerimise funktsiooni.
+title: Planeerimise optimeerimise kasutamise alustamine
+description: See artikkel selgitab, kuidas käivitada plaanimise optimeerimise funktsiooni.
 author: t-benebo
 ms.date: 05/20/2021
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: a08128f9529e576294181bd70134b02caae54b90
-ms.sourcegitcommit: 5130446fd5327595b2d67e67cbd1b5661bb2983c
+ms.openlocfilehash: b9595aece264f55c706ebc84010b927fae56b512
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8648705"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900966"
 ---
 # <a name="get-started-with-planning-optimization"></a>Planeerimise optimeerimisega alustamine
 
@@ -99,7 +99,7 @@ Konfigureerimaks, kas planeerimise optimeerimise lisandmoodulit peaks koondplane
 |---|---|---|
 | Ühendus on loodud | Planeerimise optimeerimise teenuse ja tarneahela halduse vahel on loodud ühendus. | Jah |
 | Ühenduse loomine | Planeerimise optimeerimise teenuse ühendamise sisselülitamise taotlus on praegu tööd. | Ei |
-| Ühendus on katkestatud | Planeerimise optimeerimise teenusega puudub ühendus. Ühenduse saab lülitada sisse LCS-ist, nagu selles teemas varasemalt on kirjeldatud. | Ei |
+| Ühendus on katkestatud | Planeerimise optimeerimise teenusega puudub ühendus. LCS-i kaudu saab ühenduse sisse lülitada, nagu kirjeldatud selles artiklis. | Nr |
 | Ühenduse katkestamine | Planeerimise optimeerimise teenuse ühendamise väljalülitamise taotlus on praegu tööd. | Ei |
 | Oleku hankimine | Süsteem ootab planeerimise optimeerimise teenuselt oleku teavet. | Ei |
 

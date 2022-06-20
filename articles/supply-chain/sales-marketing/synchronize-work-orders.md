@@ -1,6 +1,6 @@
 ---
 title: Töökäskude sünkroonimine projektiga rakendusest Field Service rakendusse Supply Chain Management
-description: Selles teemas käsitletakse malle ja aluseks olevat ülesannet, mida kasutatakse projekti numbriga töökäskude sünkroonimiseks rakendusest Dynamics 365 Field Service rakendusse Dynamics 365 Supply Chain Management.
+description: See artikkel käsitleb malle ja aluseks olevat ülesannet, mida kasutatakse töötellimuste sünkroonimiseks projekti numbriga alates Dynamics 365 Field Service kuni Dynamics 365 Supply Chain Management.
 author: Henrikan
 ms.date: 03/12/2019
 ms.topic: article
@@ -16,24 +16,24 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: f0b3214aba5882a585664030d6c1aebe34de455c
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: a43a7f7e900205bdb23fb9a35ca1518369683a42
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572525"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860489"
 ---
 # <a name="synchronize-work-orders-with-project-from-field-service-to-supply-chain-management"></a>Töökäskude sünkroonimine projektiga rakendusest Field Service rakendusse Supply Chain Management
 
 [!include[banner](../includes/banner.md)]
 
-Selles teemas käsitletakse malle ja aluseks olevat ülesannet, mida kasutatakse projekti numbriga töökäskude sünkroonimiseks rakendusest Dynamics 365 Field Service rakendusse Dynamics 365 Supply Chain Management.
+See artikkel käsitleb malle ja aluseks olevat ülesannet, mida kasutatakse töötellimuste sünkroonimiseks projekti numbriga alates Dynamics 365 Field Service kuni Dynamics 365 Supply Chain Management.
 
 [![Äriprotsesside sünkroniseerimine rakenduste Supply Chain Management ja Field Service vahel.](./media/FSSOprojectOW.png)](./media/FSSOprojectOW.png)
 
 Kasutatud mall **Töötellimused koos projektiga (rakendusest Field Service rakendusse Supply Chain Management)** põhineb mallil **Töötellimused (rakendusest Field Service rakendusse Supply Chain Management)**. Lisateavet vt jaotisest [Rakenduse Field Service töötellimuste sünkroonimine rakenduse Supply Chain Management müügitellimustega](/dynamics365/unified-operations/supply-chain/sales-marketing/field-service-work-order).
 
-Selles teemas kirjeldatakse ainult kahe malli vahelisi erinevusi:
+See artikkel kirjeldab ainult erinevusi kahe malli vahel:
 - **Projektiga töökäsud (rakendusest Field Service rakendusse Supply Chain Management)**
 - **Töötellimused (rakendusest Field Service rakendusse Supply Chain Management)**
 

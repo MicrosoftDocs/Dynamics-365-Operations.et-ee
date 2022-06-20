@@ -1,6 +1,6 @@
 ---
 title: Vara rentimise avaleht
-description: See teema sisaldab ülevaadet vara rentimise dokumentatsioonist ja linke konkreetsetele teemadele.
+description: See artikkel annab varakirje dokumentatsiooni ülevaate ja lingib konkreetsetele teemadele.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -17,27 +17,27 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-27
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: c82c54b08a7d4c603d1246c598abacc51eb88839
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 014c34791f280ca1d3d9154cd0870a73cc43d26b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710381"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889145"
 ---
 # <a name="asset-leasing-home-page"></a>Vara rentimise avaleht
 
 [!include [banner](../includes/banner.md)]
 
-See teema loetleb vara rentimise jaoks saadaolevad spikriteemad ja sisaldab linke konkreetsete teemade juurde. 
+Selles artiklis loetletakse spikriteemad, mis on saadaval Varade spikriteemade jaoks ja need sisaldavad linke konkreetsetele teemadele. 
 
 Varade kasutamine on täiustatud võimalus liisitud varade finantskannete haldamiseks, jälgimiseks ja automaatseks automatiseerimiseks Microsoft Dynamics 365. finantsis. Vara rentimise funktsioon vastab rahvusvahelistele raamatupidamisstandarditele (IFRS 16) ja Ameerika Ühendriikide üldaktsepteeritavate raamatupidamispõhimõtete (GAAP) standarditele (ASC 842). Vara rentimise funktsioon kogub ja töötleb renditavate varade põhiteavet ning aitab luua töölehe sisestusi terve renditava vara elutsükli jooksul alates esialgsest tuvastamisest, igakuistest töölehe sisestustest kuni renditava vara väärtuse langemiseni ja rentimise lõppemiseni.
 
 Enne selle funktsiooni kasutamist peate selle oma süsteemis sisse lülitama. Administraatorid saavad kasutada **funktsioonihalduse** tööruumi, et kontrollida funktsiooni olekut ja vajadusel selle sisse lülitada. Otsige tööruumis **Funktsioonihaldus** üles suvand **Vara rentimine** ja seejärel klõpsake nuppu **Luba kohe**.
 
 ## <a name="asset-leasing-topics"></a>Vara rentimise teemad
-Vara rentimise konfigureerimise ja kasutamise abistamiseks on saadaval järgmine teema. 
+Järgmine artikkel on saadaval põhivara konfigureerimise ja kasutamise abi saamiseks. 
 
- - [Vara rentimise alustamine](asset-leasing-quick-start.md) – selles teemas kirjeldatakse vara rentimise üldisi võimalusi ning loetletakse ja määratletakse tarkvaras ja dokumentatsioonis kasutatavad terminid.
+ - [Vara käivitamine –](asset-leasing-quick-start.md) see artikkel kirjeldab varade üldvõimalusi ning loetleb ja määratleb tarkvaras ja dokumentatsioonis kasutatavad terminid.
  
  ### <a name="set-up-asset-leasing"></a>Vara rentimise häälestus
  See teemade rühm aitab teil konfigureerida vara rentimise viisil, mis on teie organisatsiooni äriolukorrale optimaalne.  
@@ -77,7 +77,7 @@ See teemade rühm kirjeldab rentimiste lisamise protsessi, maksearvete loomist, 
  - [Rendikirje haldamine rendikirje importimise raamistiku kaudu](manage-leases-thru-imprt-framewrk.md)
  
 ### <a name="asset-leasing-reporting"></a>Vara rentimise aruandlus
-See teema kirjeldab vara rentimiseks saadaolevaid aruandeid. 
+Selles artiklis kirjeldatakse vara liisingu jaoks saadaolevaid aruandeid. 
 
  - [Vara rentimise aruanded](asset-leasing-rprts.md)
  
@@ -90,7 +90,7 @@ Avage [Microsoft Dynamics 365 väljalaskeplaanid](/dynamics365/release-plans/), 
 
 ### <a name="blogs"></a>Ajaveebid
 
-Arvamusi, uudiseid ja muud teavet leiate [Microsoft Dynamics 365 ajaveebist](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) ning [ajaveebist Microsoft Dynamics 365 Finance and Operations – Financials](https://community.dynamics.com/365/financeandoperations/b/financials).
+Arvamusi, uudiseid ja muud teavet leiate [Microsoft Dynamics 365 ajaveebist](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) ning [ajaveebist Microsoft Dynamics 365 Finance and Operations – Rahandus](https://community.dynamics.com/365/financeandoperations/b/financials).
 
 [Microsoft Dynamics Operationsi partnerite kogukonna ajaveeb](https://community.dynamics.com/partner/b/operationspartnercommunityblog) on Microsoft Dynamicsi partnerite jaoks kõikehõlmav ressurss, kust nad saavad teada, mis on uut ja põnevat rakenduses Dynamics 365.
 

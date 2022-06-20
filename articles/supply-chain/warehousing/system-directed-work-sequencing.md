@@ -1,6 +1,6 @@
 ---
 title: Süsteemi suunatud tööde järjestus
-description: Selles teemas antakse teavet süsteemi suunatud tööde järjestuse kohta. Selle funktsiooni abil saate sortida ja filtreerida töötellimusi, mida süsteem kasutajatele käivitamiseks esitab. See on kasulik olukordades, kus lao komplekteerimise protsessi juhtimiseks on lisakriteeriumid nõutavad.
+description: See artikkel annab teavet süsteemi suunatud töö järjestuse kohta. Selle funktsiooni abil saate sortida ja filtreerida töötellimusi, mida süsteem kasutajatele käivitamiseks esitab. See on kasulik olukordades, kus lao komplekteerimise protsessi juhtimiseks on lisakriteeriumid nõutavad.
 author: Mirzaab
 ms.date: 07/03/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-03
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: b433787f330de3634c59f7b1b2babfe07e3bdf09
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 8dfa7d8e3bdbfd74c6f95d8b79ac1b0698f73bd6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577812"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849122"
 ---
 # <a name="system-directed-work-sequencing"></a>Süsteemi suunatud tööde järjestus
 
@@ -44,7 +44,7 @@ Enne süsteemi suunatud tööde järjestamise kasutamist peate selle funktsiooni
 
 ### <a name="make-demo-data-available"></a>Demoandmete kättesaadavaks tegemine
 
-Selle stsenaariumi kasutamiseks selles teemas esitletud väärtuste abil, peate kasutama süsteemi, kuhu on installitud standardsed demoandmed. Peate valima ka juriidilise isiku **USMF**. Stsenaarium kasutab ladu *51* demoandmetest.
+Et töötada stsenaariumiga, kasutades selles artiklis esitatud väärtusi, peate töötama süsteemis, kuhu on installitud standardsed demoandmed. Peate valima ka juriidilise isiku **USMF**. Stsenaarium kasutab ladu *51* demoandmetest.
 
 > [!IMPORTANT]
 > Enne tellimuste lattu vabastamist veenduge, et komplekteerimise asukohtadel on tellimuste kõigi üksuste jaoks piisavalt varusid.

@@ -1,6 +1,6 @@
 ---
 title: Vaba kaubavaru loend
-description: Selles teemas kirjeldatakse, kuidas kasutada vaba kaubavaru loendi lehte, et vaadata vaba kaubavaru üksikasju. Selles näidatakse mõnda viisi, kuidas eri filtreerimis- ja sortimissuvandid koos töötavad ja kuidas need valikud võivad mõnikord põhjustada ühendamisel ootamatuid tulemusi.
+description: See artikkel kirjeldab, kuidas kasutada vaba kaubavaru loendilehte, et kontrollida vaba kaubavaru üksikasju. Selles näidatakse mõnda viisi, kuidas eri filtreerimis- ja sortimissuvandid koos töötavad ja kuidas need valikud võivad mõnikord põhjustada ühendamisel ootamatuid tulemusi.
 author: yufeihuang
 ms.date: 07/07/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-07-07
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 9464240123ec2248e1b66f32dd3c9a2f974512b6
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 5747ae985e1791de8ddd93b678c2449a4a1802da
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573917"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879044"
 ---
 # <a name="inventory-on-hand-list"></a>Vaba kaubavaru loend
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas kirjeldatakse, kuidas kasutada lehte **Vaba kaubavaru loend**, et vaadata vaba kaubavaru üksikasju. Selles näidatakse mõnda viisi, kuidas eri filtreerimis- ja sortimissuvandid koos töötavad ja kuidas need valikud võivad mõnikord põhjustada ühendamisel ootamatuid tulemusi.
+See artikkel kirjeldab, kuidas kasutada **vaba kaubavaru** loendilehte, et kontrollida vaba kaubavaru üksikasju. Selles näidatakse mõnda viisi, kuidas eri filtreerimis- ja sortimissuvandid koos töötavad ja kuidas need valikud võivad mõnikord põhjustada ühendamisel ootamatuid tulemusi.
 
 ## <a name="query-your-on-hand-inventory"></a>Oma vaba kaubavaru kontrollimine
 
@@ -35,9 +35,9 @@ Lehte **Vaba kaubavaru loend** uuendatakse automaatselt varudes kannete tegemise
 Kasutage otsitavate toodete leidmiseks järgmisi tööriistu.
 
 - Valige toimingupaanil [**Dimensioonid**](#dimensions), et avada dialoogiboks, kus saate lisada või eemaldada veerge, mis kuvatakse ruudustikus **Vaba kaubavaru**.
-- Sisestage [paanil **Filtrid**](#filters-pane) kindlatele väljadele väärtused, et näidata ainult nende väärtustega ühtivaid kirjeid. Võtke arvesse, et siin määratletud filtreid rakendatakse lähtetabelite puhul, mida võidakse hiljem koondada dimensioonide järgi, mille te kuvamiseks valisite. Teavet selle kohta, kuidas see käitumine võib teie tulemusi mõjutada, leiate hiljem selle teema [näidetest](#examples).
+- Sisestage [paanil **Filtrid**](#filters-pane) kindlatele väljadele väärtused, et näidata ainult nende väärtustega ühtivaid kirjeid. Võtke arvesse, et siin määratletud filtreid rakendatakse lähtetabelite puhul, mida võidakse hiljem koondada dimensioonide järgi, mille te kuvamiseks valisite. Lisateavet selle kohta, kuidas see käitumine võib teie tulemusi mõjutada, vaadake näiteid [selles](#examples) artiklis allpool.
 - Valige paanil **Filtrid** suvand **Rakenda**, et luua **Vaba kaubavaru** ruudustikus ühtiva vaba kaubavaru loend.
-- Valige **Vaba kaubavaru** ruudustikus ükskõik milline veerupäis, et sortida või filtreerida selle veeru väärtuste alusel. Ruudustiku ülaosas olev kiirfilter pakub täiendavaid filtreerimissuvandeid. Need filtrid rakenduvad tulemustele, mitte lähtetabelitele. Teavet selle kohta, kuidas see käitumine võib teie tulemusi mõjutada, leiate hiljem selle teema [näidetest](#examples).
+- Valige **Vaba kaubavaru** ruudustikus ükskõik milline veerupäis, et sortida või filtreerida selle veeru väärtuste alusel. Ruudustiku ülaosas olev kiirfilter pakub täiendavaid filtreerimissuvandeid. Need filtrid rakenduvad tulemustele, mitte lähtetabelitele. Lisateavet selle kohta, kuidas see käitumine võib teie tulemusi mõjutada, vaadake näiteid [selles](#examples) artiklis allpool.
 
 **Vaba kaubavaru** ruudustikus on iga ühtiva kauba kohta järgmised varude teavet sisaldavad veerud.
 
@@ -64,7 +64,7 @@ Kasutage paani **Filtrid**, filtreerida vaba kaubavaru loendit nii, et see sisal
 > [!IMPORTANT]
 > Leht **Vaba kaubavaru loend** koostatakse üksikasjalikust vaba kaubavaru tabelist, mis sisaldab kõiki saadaolevaid dimensioone. Sellel lehel olev loend on aga vaid kokkuvõte. Seetõttu võidakse selles kombineerida lähtetabeli ridu, koondades väärtuseid kuvatud dimensioonide järgi.
 >
-> Paanil **Filtrid** määratletud filtrid rakenduvad lähtetabelile, mitte koondatud loendile. Selline käitumine võib mõnikord põhjustada ootamatuid tulemusi. Teavet selle kohta, kuidas see käitumine võib teie tulemusi mõjutada, leiate hiljem selle teema [näidetest](#examples).
+> Paanil **Filtrid** määratletud filtrid rakenduvad lähtetabelile, mitte koondatud loendile. Selline käitumine võib mõnikord põhjustada ootamatuid tulemusi. Lisateavet selle kohta, kuidas see käitumine võib teie tulemusi mõjutada, vaadake näiteid [selles](#examples) artiklis allpool.
 > 
 > [Ruudustikus esitatud filtrid](#grid-filters) rakenduvad *siiski* koondatud loendile. Need filtrid hõlmavad nii kiirfiltrit ruudustiku ülaosas kui ka iga veerupäise filtrit.
 
@@ -75,7 +75,7 @@ Saate muuta filtreid, mis on saadaval paanil **Filtrid**, järgmiseid juhiseid j
 
 ## <a name="select-which-dimensions-to-show"></a><a name="dimensions"></a>Kuvatavate dimensioonide valimine
 
-Dimensioonid annavad kõikide vaba kaubavaru loendis olevate kaupade kohta lisateavet ning rohkem võimalusi loendi sortimiseks ja filtreerimiseks. Dimensioonid, mida valite kuvamiseks, mõjutavad ka seda, kuidas read lehel **Vaba kaubavaru loend** koondatakse. Koondamine võib omakorda mõjutada seda, kuidas lähtetabelite read kombineeritakse tulemustes, mida näete. Teavet selle kohta, kuidas see käitumine võib teie tulemusi mõjutada, leiate hiljem selle teema [näidetest](#examples).
+Dimensioonid annavad kõikide vaba kaubavaru loendis olevate kaupade kohta lisateavet ning rohkem võimalusi loendi sortimiseks ja filtreerimiseks. Dimensioonid, mida valite kuvamiseks, mõjutavad ka seda, kuidas read lehel **Vaba kaubavaru loend** koondatakse. Koondamine võib omakorda mõjutada seda, kuidas lähtetabelite read kombineeritakse tulemustes, mida näete. Lisateavet selle kohta, kuidas see käitumine võib teie tulemusi mõjutada, vaadake näiteid [selles](#examples) artiklis allpool.
 
 Kuvatavate varude dimensioonide valiku kohandamiseks toimige järgmiselt.
 
@@ -89,7 +89,7 @@ Kuvatavate varude dimensioonide valiku kohandamiseks toimige järgmiselt.
 
 ## <a name="filter-on-the-output-of-the-inventory-on-hand-list"></a><a name="grid-filters"></a>Vaba kaubavaru loendi väljundi alusel filtreerimine
 
-Saate valida **Vaba kaubavaru** ruudustikus ükskõik millise veerupäise, et sortida või filtreerida selle veeru väärtuste alusel. Ruudustiku ülaosas olev kiirfilter pakub täiendavaid filtreerimissuvandeid. Need filtrid rakenduvad tulemustele, mitte lähtetabelitele. Teavet selle kohta, kuidas see käitumine võib teie tulemusi mõjutada, leiate hiljem selle teema [näidetest](#examples).
+Saate valida **Vaba kaubavaru** ruudustikus ükskõik millise veerupäise, et sortida või filtreerida selle veeru väärtuste alusel. Ruudustiku ülaosas olev kiirfilter pakub täiendavaid filtreerimissuvandeid. Need filtrid rakenduvad tulemustele, mitte lähtetabelitele. Lisateavet selle kohta, kuidas see käitumine võib teie tulemusi mõjutada, vaadake näiteid [selles](#examples) artiklis allpool.
 
 > [!NOTE]
 > Te ei saa filtreerida ega sortida kõigi veergude alusel. Enamikus koguseveergudes pole sortimise ja filtreerimise juhtelemente, kuna need on arvutatud väljad. Veerg **Tellimusel** on erand.

@@ -1,6 +1,6 @@
 ---
 title: Poolaasta kulumiarvestuse konventsiooni metoodika
-description: Selles teemas kirjeldatakse meetodit, mida põhivarad kasutavad kulumi arvestamiseks, kasutades poolaasta reeglit, mis arvutab kuue kuu kulumi vara esimesel ja viimasel kasutusaastal.
+description: See artikkel kirjeldab meetodit, mida põhivara kasutab kulumi arvutamiseks poolaastareeglite alusel, mille puhul arvutatakse vara esimesel ja eelmisel teenuseaastal kuus kuud kulumit.
 author: moaamer
 ms.date: 08/17/2019
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2019-08-17
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: fb15a293bb8cec1b4faba7bcbd29eb4df7916786
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: fac20f7a31eca7922ed079f9554437f28448620d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720388"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879591"
 ---
 # <a name="half-year-depreciation-convention-methodology"></a>Poolaasta kulumiarvestuse konventsiooni metoodika
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Selles teemas kirjeldatakse meetodit, mida kasutatakse põhivarade korral kulumi arvestamiseks poolaasta konventsiooni kasutades. Poolaasta konventsioon arvestab kuue kuu kulumi vara esimese ja viimase kasutusaasta jooksul. Lisateavet kulumiarvestuse konventsioonide kohta leiate jaotisest [Kulumimeetodid ja kulumiarvestusreeglid](Fixed-asset-depreciation-conventions.md). 
+Selles artiklis kirjeldatakse põhivarades kulumi arvutamiseks poolaastareeglite abil kasutatavat meetodit. Poolaasta konventsioon arvestab kuue kuu kulumi vara esimese ja viimase kasutusaasta jooksul. Lisateavet kulumiarvestuse konventsioonide kohta leiate jaotisest [Kulumimeetodid ja kulumiarvestusreeglid](Fixed-asset-depreciation-conventions.md). 
 
 Kui kasutate kuue kuu kulumiarvestuse konventsiooni, kasutab süsteem soetusaastat või aastat, mil vara võeti kasutusse, seejärel arvestab viie aasta kulumi alates sellest aastast ja lisab seejärel kuus kuud. Selle protsessi näitlikustamiseks kasutage vara, mis soetati hinnaga 50 000 ja võeti kasutusele 2020. aasta aprillis. Samuti eeldage, et varal on viieaastane tööiga.
 

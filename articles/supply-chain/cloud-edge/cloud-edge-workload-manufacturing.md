@@ -1,6 +1,6 @@
 ---
 title: Tootmise täideviimise töökoormused pilv- ja perimeeterskaalaüksuste jaoks
-description: See teema kirjeldab, kuidas tootmise läbiviimise töömahud töötavad koos pilv- ja perimeeterskaalaüksustega.
+description: See artikkel kirjeldab, kuidas tootmise käivitamise töökoormused töötavad pilve ja servaskaala üksustega.
 author: johanhoffmann
 ms.date: 10/06/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: johanho
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: b30e16489b0b0169f08e52c70cf4489c9bf4ce1b
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: c73c2440d8807e965e5d2d89105c2a8a6971c849
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674050"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865320"
 ---
 # <a name="manufacturing-execution-workloads-for-cloud-and-edge-scale-units"></a>Tootmise täideviimise töökoormused pilv- ja perimeeterskaalaüksuste jaoks
 
@@ -41,7 +41,7 @@ Tootmise käivitamisel pakuvad mastaabiüksused järgmisi võimalusi:
 - Tööde juhtimise haldur saab tegevuskava korrigeerida.
 - Töötajatel on juurdepääs aja ja kohalolekt sisse-ja väljaregistreerimisele serval, et tagada õiglane töötaja tasu arvutamine.
 
-See teema kirjeldab, kuidas tootmise läbiviimise töömahud töötavad koos pilv- ja perimeeterskaalaüksustega.
+See artikkel kirjeldab, kuidas tootmise käivitamise töökoormused töötavad pilve ja servaskaala üksustega.
 
 ## <a name="the-manufacturing-lifecycle"></a>Tootmise elutsükkel
 

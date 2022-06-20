@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: f3e94cc79f0daac9107f9876ac8414d2c4cff366
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: e3ec1f59e0b1d202d5591bfc1525c9034f4d8f45
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568987"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893116"
 ---
 # <a name="zone-threshold-replenishment"></a>Tsooniläve täiendamine
 
@@ -45,7 +45,7 @@ Enne funktsiooni *Tsooniläve täiendamine* kasutamist peate selle oma süsteemi
 
 ## <a name="set-up-zone-based-replenishment"></a><a name="setup"></a>Tsoonipõhise täiendamise häälestus
 
-Tsoonipõhise täiendamise seadistamiseks peate konfigureerima süsteemi mitu osa. Selles jaotises tutvustatakse erinevaid sätteid ja esitatakse demoandmete väärtuseid, mida saate sisestada, kui soovite kasutada selle teema lõpus olevat stsenaariumi.
+Tsoonipõhise täiendamise seadistamiseks peate konfigureerima süsteemi mitu osa. See jaotis tutvustab erinevaid sätteid ja pakub demo andmeväärtusi, mida saate sisestada, kui soovite stsenaariumi selle artikli lõpus läbi töötada.
 
 ### <a name="set-up-directive-codes"></a>Korralduskoodide häälestus
 
@@ -57,7 +57,7 @@ Oma korralduskoodide kuvamiseks või redigeerimiseks avage jaotis **Laohaldus \>
 
 #### <a name="prepare-demo-data-directive-codes"></a>Demoandmete korralduskoodide ettevalmistamine
 
-Selles näites kirjeldatakse, kuidas valmistada ette korralduskoodi. Kui kavatsete kasutada selle teema lõpus olevat stsenaariumi, kasutage siin esitatud demoandmete väärtusi. Muul juhul saate kasutada oma väärtusi.
+Selles näites kirjeldatakse, kuidas valmistada ette korralduskoodi. Kui plaanite stsenaariumit selle artikli lõpus läbi töötada, kasutage demoandmete väärtusi, mis siin antakse. Muul juhul saate kasutada oma väärtusi.
 
 1. Valige juriidiline isik **USMF** demoandmetega töötamiseks.
 1. Avage jaotis **Laohaldus \> Seadistus \> Korralduskoodid**.
@@ -79,7 +79,7 @@ Täiendamismall on reeglistik, mis määrab asikoha täiendamise aja ja viisi. S
 
 #### <a name="prepare-a-demo-data-replenishment-template"></a>Demoandmete täiendamismalli ettevalmistamine
 
-Selles näites kirjeldatakse, kuidas valmistada ette täiendamismalli. Kui kavatsete kasutada selle teema lõpus olevat stsenaariumi, kasutage siin esitatud demoandmete väärtusi. Muul juhul saate kasutada oma väärtusi.
+Selles näites kirjeldatakse, kuidas valmistada ette täiendamismalli. Kui plaanite stsenaariumit selle artikli lõpus läbi töötada, kasutage demoandmete väärtusi, mis siin antakse. Muul juhul saate kasutada oma väärtusi.
 
 1. Valige juriidiline isik **USMF** demoandmetega töötamiseks.
 1. Avage jaotis **Laohaldus \> Seadistus \> Täiendamine \> Täiendamismallid**.
@@ -144,7 +144,7 @@ Vaadake järgmises jaotises olevaid näiteid, kuidas kasutada sätteid nõutava 
 
 #### <a name="prepare-demo-data-location-directives"></a>Demoandmete asukohakorralduste ettevalmistamine
 
-Demoandmete ettevalmistamiseks, et neid saaks kasutada selle teema lõpus kirjeldatud stsenaariumis, peate looma kaks asukohakorraldust: üks komplekteerimiseks ja teine ladustamiseks.
+Demoandmete ettevalmistamiseks nii, et seda saaks kasutada selle artikli lõpus stsenaariumis, peate looma kaks asukohadirektiivi: üks noppimiseks ja teine panemiseks.
 
 ##### <a name="create-a-replenishment-pick-directive"></a>Täiendamise komplekteerimise korralduse loomine
 
@@ -258,7 +258,7 @@ Selles jaotises esitatakse näidisstsenaarium, mis näitab, kuidas selle funktsi
 
 ### <a name="prepare-the-sample-data-that-is-required-for-the-sample-scenario"></a>Valmistage ette näidisstsenaariumi jaoks nõutavad näidisandmed
 
-Enne kui alustate stsenaariumi kasutamist, peate aktiveerima näidisandmed ja seadistama selle funktsiooni selle teema käesolevas ja eelnevates jaotistes kirjeldatu järgi.
+Enne, kui alustate stsenaariumi läbimist, peate aktiveerima näidisandmed ja seadistama funktsiooni nii, nagu on kirjeldatud selles jaotises ja selle artikli eelmistes jaotistes.
 
 #### <a name="use-the-usmf-legal-entity"></a>Juriidilise isiku USMF kasutamine
 
@@ -266,7 +266,7 @@ Selle stsenaariumi kasutamiseks siin määratud näidiskirjete ja -väärtuste a
 
 #### <a name="prepare-additional-sample-data"></a>Täiendavate näidisandmete ettevalmistamine
 
-Pärast juriidilise isiku **USMF** valimist, lisage nõutavad täiendavad näidisandmed, nagu on kirjeldatud selle teema varasemas jaotises [Tsoonipõhise täiendamise häälestus](#setup).
+Kui olete valinud **USMF-i**[juriidilise isiku, lisage nõutavad täiendavad näidisandmed,](#setup) nagu on kirjeldatud selle artikli jaotises Tsoonipõhise täiendamise häälestamine.
 
 #### <a name="check-your-on-hand-inventory"></a>Vaba kaubavaru kontrollimine
 

@@ -1,6 +1,6 @@
 ---
 title: Vara atribuudi ülevaade
-description: Selles teemas kirjeldatakse vara atribuute varahalduses.
+description: See artikkel annab varahalduses vara atribuutide ülevaate.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: overview
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 98386b6ffe2a5f9c79c0ee1f18073ac13fc3a039
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: d1585f200e4baba519085685a41979c70a64fb1a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986456"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862739"
 ---
 # <a name="asset-attribute-overview"></a>Vara atribuudi ülevaade
 
@@ -30,7 +30,7 @@ ms.locfileid: "7986456"
 
  
 
-Selles teemas kirjeldatakse vara atribuute varahalduses. Vara atribuudid on vara tüübi või varaga seotud atribuudid. Kui olete seadistanud [atribuudi tüübid](../setup-for-functional-locations/specification-types.md) ja kasutanud neid varadel, saate ülevaate varade kohta seadistatud atribuudi väärtustest. See ülevaade kuvatakse varahalduse kahel lehel: **Vara atribuudi ülevaade** ja **Vara atribuut**.
+See artikkel annab varahalduses vara atribuutide ülevaate. Vara atribuudid on vara tüübi või varaga seotud atribuudid. Kui olete seadistanud [atribuudi tüübid](../setup-for-functional-locations/specification-types.md) ja kasutanud neid varadel, saate ülevaate varade kohta seadistatud atribuudi väärtustest. See ülevaade kuvatakse varahalduse kahel lehel: **Vara atribuudi ülevaade** ja **Vara atribuut**.
 
 Lehel **Vara atribuudi ülevaade** kuvatakse iga vara kohta eraldi rida. Real kuvatakse kõik selle varaga seotud atribuudi tüübid. Järgige neid samme, et avada ja kasutada lehekülge **Vara atribuudi ülevaade**.
 

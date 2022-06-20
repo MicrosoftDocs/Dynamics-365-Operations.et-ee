@@ -1,6 +1,6 @@
 ---
-title: Kvaliteedijuhtimine laoprotsesside jaoks
-description: Teema annab teavet funktsiooni „Kvaliteedijuhtimine laoprotsesside jaoks” kohta. See funktsioon laiendab kvaliteedijuhtimise võimalusi ja võimaldab kasutajatel täpsema laohalduse abil kauba valimi juhtelemendid lao vastuvõtmisprotsessi integreerida.
+title: Laoprotsesside kvaliteedijuhtimine
+description: See artikkel annab teavet laoprotsesside funktsiooni kvaliteedijuhtimise kohta. See funktsioon laiendab kvaliteedijuhtimise võimalusi ja võimaldab kasutajatel täpsema laohalduse abil kauba valimi juhtelemendid lao vastuvõtmisprotsessi integreerida.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-04-02
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: a8a7ac8266c14791137f9eda51b5abb5a59e5961
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 7f806b58c5e956e4f26158e8ea5c90a559296655
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8679047"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857833"
 ---
 # <a name="quality-management-for-warehouse-processes"></a>Kvaliteedijuhtimine laoprotsesside jaoks
 
@@ -69,7 +69,7 @@ Enne laotöö automaatset loomist varude teisaldamiseks kvaliteedikontrolli, pea
 1. Seadistage igale töökäsu tüübile asukohakorraldused, mis rakendavad õigeid kvaliteedikontrolli asukohti, kuhu varud tuleks teisaldada. Pärast kvaliteedikontrolli lõpule viimist tagab töökäsu tüübi _Kvaliteettellimus_ asukohakorraldus uue sihtkoha valimise, et varud viidaks kvaliteedikontrolli asukohast välja.
 1. Seadistage asjakohased mobiilse seadme menüüelemendid, et toetada vastuvõetud varude liikumist kvaliteedikontrolli asukohta ning varude, mis läbivad või ei läbi kvaliteedikontrolli, liikumist kvaliteedikontrolli asukohast üle uude asukohta.
 
-Üksikasjaliku juhise, milles on näha, kuidas seadistust lõpule viia, leiate [näidisstsenaariumist](#example-scenario) selle teema lõpus.
+Samm-sammulise näitena, mis näitab, kuidas seda seadistust lõpule viia, [vt](#example-scenario) selle artikli lõpus toodud näite stsenaariumi.
 
 ## <a name="enable-a-warehouse-for-quality-management"></a>Lubage ladu kvaliteedijuhtimise jaoks
 
@@ -188,7 +188,7 @@ Valiku **Viite tüüp** väärtus on järgmiste näidete puhul _Ost_ ja valiku *
 | Laadi | Täielik litsentsiplaat | Jah _(lukustatud / pole redigeeritav)_ | <p>Asukoht: jah</p><p>Litsentsiplaat: jah _(lukustatud / pole redigeeritav)_</p> | Jah | 3 | <p>**Kaks kaupa:**</p><ul><li>**Tellimuse rea kogus kauba A puhul: 120 EA (4 kaubaalust)**</li><li>**Tellimuse rea kogus kauba B puhul: 90 EA (3 kaubaalust)**</li></ul><p>**Üks koorem, kaks koormarida iga tellimuserea kohta**</p><ol><li>Registreeri sissetulek mobiilirakenduses Warehouse Management kauba A, 30 EA, LP1 jaoks<p>Kauba kvaliteedivalimi töö 30 EA jaoks</p><p>Kvaliteettellimus 1 30 EA jaoks</p></li><li>Registreeri sissetulek mobiilirakenduses Warehouse Management kauba A, 30 EA, LP2 jaoks<p>Ostutellimuse töö 30 EA jaoks (ladustamine)</p></li><li>Registreeri sissetulek mobiilirakenduses Warehouse Management kauba A, 30 EA, LP3 jaoks<p>Ostutellimuse töö 30 EA jaoks (ladustamine)</p></li><li>Registreeri sissetulek mobiilirakenduses Warehouse Management kauba A, 30 EA, LP4 jaoks<p>Kauba kvaliteedivalimi töö 30 EA jaoks</p><p>Kvaliteettellimus 1 30 EA jaoks</p></li><li>Registreeri sissetulek mobiilirakenduses Warehouse Management kauba B, 30 EA, LP5 jaoks<p>Kauba kvaliteedivalimi töö 30 EA jaoks</p><p>Kvaliteettellimus 1 30 EA jaoks</p></li><li>Registreeri sissetulek mobiilirakenduses Warehouse Management kauba B, 30 EA, LP6 jaoks<p>Ostutellimuse töö 30 EA jaoks (ladustamine)</p></li><li>Registreeri sissetulek mobiilirakenduses Warehouse Management kauba A, 30 EA, LP7 jaoks<p>Ostutellimuse töö 30 EA jaoks (ladustamine)</p></li></ol> |
 | Laadi | Protsent = 10 | Jah _(lukustatud / pole redigeeritav)_ | <p>Asukoht: ei</p><p>Litsentsiplaat: ei</p> | Ei | Pole kohaldatav | <p>**Tellimuse rea kogus: 100 EA**</p><p>**Koormaid ei looda. Rakendatakse tellimuse ulatust.**</p><ol><li>Registreeri sissetulek mobiilirakenduses Warehouse Management kauba A, 50 EA, LP1 jaoks<p>Kauba kvaliteedivalimi töö 5 EA jaoks</p><p>Kvaliteettellimus 1 5 EA jaoks</p><p>Ostutellimuse töö 45 EA jaoks (ladustamine)</p></li><li>Registreeri sissetulek mobiilirakenduses Warehouse Management kauba A, 50 EA, LP2 jaoks<p>Kauba kvaliteedivalimi töö 5 EA jaoks</p><p>Kvaliteettellimus 1 5 EA jaoks</p><p>Ostutellimuse töö 45 EA jaoks (ladustamine)</p></li></ol> |
 
-Kui töötaja kinnitab ühe eelmises tabelis toodud kvaliteettellimustest, loob süsteem automaatselt kvaliteettellimuse töö, et teisaldada varud kvaliteedikontrolli asukohast asukohta, mis on määratletud töökäsu tüübi _Kvaliteettellimus_ asukohakorralduses. Selleks otstarbeks saate seadistada mis tahes asukoha, nt tagastus- või ladustamisasukoha, sõltuvalt kvaliteettellimuse katsetulemusest. Selle seadistuse näite leiate selle teema lõpust jaotisest [näidisstsenaarium](#example-scenario).
+Kui töötaja kinnitab ühe eelmises tabelis toodud kvaliteettellimustest, loob süsteem automaatselt kvaliteettellimuse töö, et teisaldada varud kvaliteedikontrolli asukohast asukohta, mis on määratletud töökäsu tüübi _Kvaliteettellimus_ asukohakorralduses. Selleks otstarbeks saate seadistada mis tahes asukoha, nt tagastus- või ladustamisasukoha, sõltuvalt kvaliteettellimuse katsetulemusest. Näiteid selle häälestuse kohta vt [selle](#example-scenario) artikli lõpust näite stsenaariumit.
 
 Te saate juba kinnitatud kvaliteettellimuse uuesti avada, eeldusel, et varude kvaliteedikontrolli asukohast teisaldamisega seotud kvaliteettellimuse töö sätte **Töö olek** väärtus pole *Suletud* või *Pooleli*.
 

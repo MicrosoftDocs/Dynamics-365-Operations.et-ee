@@ -1,6 +1,6 @@
 ---
 title: Statistilise dimensiooni liikmete ja mõõtude pakkujate mallid
-description: Selles teemas antakse teavet statistilise dimensiooni liikmete ja statistilise meetme pakkuja mallide kohta.
+description: See artikkel annab teavet statistiliste dimensiooni liikmete ja statistilise mõõtmise pakkuja mallide kohta.
 author: AndersGirke
 ms.date: 06/16/2017
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 5daac80fdc62fb996be82aa4c8bb7bb3c8dc03e9
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 55f4f1e93eb45530bed886bc46acd1420160eb38
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8733902"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904639"
 ---
 # <a name="provider-templates-for-statistical-dimension-members-and-measure-providers"></a>Statistilise dimensiooni liikmete ja mõõtude pakkujate mallid
 

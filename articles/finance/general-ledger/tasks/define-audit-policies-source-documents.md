@@ -1,6 +1,6 @@
 ---
 title: Lähtedokumentide jaoks auditipoliitikate määratlemine
-description: Selles teemas selgitatakse, kuidas seadistada ja käivitada auditipoliitika reegleid.
+description: See artikkel selgitab, kuidas auditi poliitika reegleid seadistada ja käivitada.
 author: panolte
 ms.date: 08/20/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e8698dd2c14321498d23efe1d01be274c56d5721
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: b8aa106cd5a5596f6b9a6663390e03ebc3f91a7b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713778"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872524"
 ---
 # <a name="define-audit-policies-for-source-documents"></a>Lähtedokumentide jaoks auditipoliitikate määratlemine
 
 [!include [banner](../../includes/banner.md)]
 
-Selles teemas selgitatakse, kuidas seadistada ja käivitada auditipoliitika reegleid. Näites kasutatakse hotelli kulu tüübiga kuluaruandeid. See protsess kasutab demoettevõtte USMF-i andmeid. Audiitori roll sisaldab nende ülesannete teostamiseks vajalikke õigusi.
+See artikkel selgitab, kuidas auditi poliitika reegleid seadistada ja käivitada. Näites kasutatakse hotelli kulu tüübiga kuluaruandeid. See protsess kasutab demoettevõtte USMF-i andmeid. Audiitori roll sisaldab nende ülesannete teostamiseks vajalikke õigusi.
 
 1. Navigeerimispaanil avage **Moodulid > Auditi töölaud > Seadistus > Poliitika reegli tüüp**.
 2. Valige suvand **Uus**.

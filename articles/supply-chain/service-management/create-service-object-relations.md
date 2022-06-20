@@ -1,6 +1,6 @@
 ---
 title: teenusobjektide seoste loomine
-description: Teemas kirjeldatakse, kuidas luua teenuseleppe ja teenusetellimuse jaoks teenuseobjekti seoseid.
+description: See artikkel kirjeldab, kuidas luua teenuseobjekti seoseid teenuselepingu ja teenusetellimuse jaoks.
 author: sorenva
 ms.date: 05/01/2018
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4178132b03cd146aacbcbb8bf8e1e774a161726c
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
-ms.translationtype: MT
+ms.openlocfilehash: e89039356f167ef2f06824ffee8645f74f8a2b53
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677222"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890650"
 ---
 # <a name="create-service-object-relations"></a>teenusobjektide seoste loomine 
 
 [!include [banner](../includes/banner.md)]
 
 
-Teemas kirjeldatakse, kuidas luua teenuseleppe ja teenusetellimuse jaoks teenuseobjekti seoseid. Teenuseobjekti seose loomisel seostate teenuseobjekti teenuseleppe või teenusetellimusega. Kui klient taotleb teenust kauba puhul, mis on teenuseobjekti, saate valida teenuseobjekti seoste loendist.
+See artikkel kirjeldab, kuidas luua teenuseobjekti seoseid teenuselepingu ja teenusetellimuse jaoks. Teenuseobjekti seose loomisel seostate teenuseobjekti teenuseleppe või teenusetellimusega. Kui klient taotleb teenust kauba puhul, mis on teenuseobjekti, saate valida teenuseobjekti seoste loendist.
 
 ## <a name="create-a-service-object-relation-for-a-service-agreement"></a>Teenuseobjekti seose loomine teenuseleppe jaoks
 

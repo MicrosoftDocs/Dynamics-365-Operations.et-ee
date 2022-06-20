@@ -1,6 +1,6 @@
 ---
 title: Ettemaksuarved vs. ettemaksed
-description: See teema kirjeldab ja vastandab kahte meetodit, mida organisatsioonid saavad avansimaksete (ettemaksete) puhul kasutada.
+description: See artikkel kirjeldab ja vastandab kahte meetodit, mida organisatsioonid saavad kasutada ettemaksete (ettemaksete) puhul.
 author: abruer
 ms.date: 10/26/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f05f1d8d2a1fb454f3f227d2cc8138f2b779ff87
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: a420a0a366e454df14d5fe994691829bc7950306
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716321"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895192"
 ---
 # <a name="prepayment-invoices-vs-prepayments"></a>Ettemaksuarved vs. ettemaksed
 
 [!include [banner](../includes/banner.md)]
 
-See teema kirjeldab ja vastandab kahte meetodit, mida organisatsioonid saavad avansimaksete (ettemaksete) puhul kasutada. Üks meetod loob ostutellimusega seotud ettemaksuarve. Teine meetod loob ettemaksu töölehekanded, luues töölehekanded ja märkides need ettemaksu töölehekanneteks.
+See artikkel kirjeldab ja vastandab kahte meetodit, mida organisatsioonid saavad kasutada ettemaksete (ettemaksete) puhul. Üks meetod loob ostutellimusega seotud ettemaksuarve. Teine meetod loob ettemaksu töölehekanded, luues töölehekanded ja märkides need ettemaksu töölehekanneteks.
 
 Organisatsioonid võivad väljastada hankijatele ettemakseid kaupade või teenuste eest enne nende täitmist. Hankijatele ettemaksete väljastamiseks on kaks võimalust. Riski vähendamiseks saate ettemakseid jälgida, määratledes ettemakse ostutellimusel. Selle meetodi puhul peate looma ostutellimusega seotud ettemaksuarve. Seda meetodit nimetatakse ettemaksuarvelduseks. Organisatsioonid, mis ei soovi ettemakseid nii täpselt jälgida või ei saa hankijalt ettemaksearvet, saavad ettemaksuarvelduse meetodi asemel kasutada ettemakse töölehekandeid. Ettemakse töölehekannete loomiseks looge töölehekanded ja märkige need ettemakse töölehekanneteks. Selle meetodi puhul ei saa te jälgida, millised hankija ettemaksed milliste ostutellimustega on seotud. Siiski saate märkida sisestatud makse tasakaalustamiseks ostutellimuse suhtes.
 

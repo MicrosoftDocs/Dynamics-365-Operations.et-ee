@@ -1,6 +1,6 @@
 ---
 title: Arvete esitamine töövoosüsteemi ja toote sissetulekuridade vastendamine
-description: Selles teemas kirjeldatakse, kuidas hankija arveid töövoosüsteemile edastada ja sisestatud toote sissetuleku ridasid automaatselt hankija arvetega vastavusse viia.
+description: See artikkel selgitab hankija arvete töövoo süsteemi edastamise protsessi ja sisestatud toote sissetuleku ridade automaatset vastendamist hankija arvetega.
 author: abruer
 ms.date: 02/11/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-09-08
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 0962ea2bfa28deb3e86620c364feffd209cfc38e
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: 960a08eb5e98cac034bbd41335b616ff41bf6fd4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109939"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861614"
 ---
 # <a name="submit-invoices-to-the-workflow-system-and-match-product-receipt-lines"></a>Arvete esitamine töövoosüsteemi ja toote sissetulekuridade vastendamine
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas kirjeldatakse, kuidas hankija arveid töövoosüsteemile edastada ja sisestatud toote sissetuleku ridasid automaatselt hankija arvetega vastavusse viia.
+See artikkel selgitab hankija arvete töövoo süsteemi edastamise protsessi ja sisestatud toote sissetuleku ridade automaatset vastendamist hankija arvetega.
 
 ## <a name="submitting-imported-vendor-invoices-to-the-workflow-system-and-matching-posted-product-receipt-lines-to-pending-vendor-invoice-lines"></a>Imporditud hankija arvete edastamine töövoosüsteemile ja sisestatud toote sissetuleku ridade vastavusse viimine ootel hankija arve ridadega
 

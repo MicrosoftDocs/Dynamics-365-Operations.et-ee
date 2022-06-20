@@ -1,6 +1,6 @@
 ---
 title: Kulukomplekti poliitika ja üldkulude arvutus
-description: See teema selgitab, kuidas määrata õige teiseste kuluelementide tase ja luua kulu ümberarvestusreeglid, mis sobivad organisatsiooni aruandluse ja kulu jälgitavusega.
+description: See artikkel annab teavet selle kohta, kuidas määrata teiseste kuluelementide õiget taset ja luua kulukomplekti reeglid, mis sobivad organisatsiooni aruandluse ja kulude jälitatavusega.
 author: AndersGirke
 ms.date: 06/16/2017
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c9c36587294ff157266e354e06d107000f198061
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: f35bf3e900b8dd9c1864be8668f7ff7296924c4d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734425"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874605"
 ---
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>Kulukomplekti poliitika ja üldkulude arvutus 
 
@@ -33,7 +33,7 @@ Kuluarvestuse abil saate ülevaate, kuidas kuluvoog on seotud organisatsioonis e
 -   Üldkulude arvutuse loodud kulukirjete maht võib olla väga suur.
 -   Kuluobjektide vahelist kuluvoogu pole võimalik jälgida.
 
-Nende mõjude vältimiseks võimaldab kuluarvestus konfigureerida kulude eraldamist nii, et see vastaks teie organisatsiooni juhtimisaruandluse vajadustele. See teema selgitab, kuidas saate määrata õige teiseste kuluelementide taseme ja luua kulu ümberarvestusreeglid, mis sobivad organisatsiooni aruandluse ja kulu jälgitavusega.
+Nende mõjude vältimiseks võimaldab kuluarvestus konfigureerida kulude eraldamist nii, et see vastaks teie organisatsiooni juhtimisaruandluse vajadustele. See artikkel käsitleb, kuidas te saate määrata teiseste kuluelementide õige taseme ja luua kulukomplekti reeglid, mis sobivad organisatsiooni aruandluse ja kulude jälitatavusega.
 
 > [!NOTE]
 > Nõuete muutuse registreerimisel saate konfiguratsioone muuta.

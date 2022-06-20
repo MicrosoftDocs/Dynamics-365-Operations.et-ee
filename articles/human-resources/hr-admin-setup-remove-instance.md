@@ -1,6 +1,6 @@
 ---
 title: Eemalda eksemplar
-description: See teema selgitab proovi- või tootmiskeskkonna eemaldamise protsessi rakenduse Microsoft Dynamics 365 Human Resources puhul.
+description: See artikkel selgitab proovi- või tootmiskeskkonna eemaldamise protsessi rakenduse Microsoft Dynamics 365 Human Resources puhul.
 author: twheeloc
 ms.date: 08/11/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 522989298544fa5a2c0812bc57e9ae4ae21fe250
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 4256938be70f301d3d7b7663f10addb19725b048
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692362"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859629"
 ---
 # <a name="remove-an-instance"></a>Eemalda eksemplar
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-See teema selgitab proovi- või tootmiskeskkonna eemaldamise protsessi rakenduse Microsoft Dynamics 365 Human Resources puhul.
+See artikkel selgitab microsofti testdraivi või tootmiskeskkonna eemaldamise protsessi Dynamics 365 Human Resources.
 
 ## <a name="remove-a-test-drive-environment"></a>Proovikeskkonna eemaldamine
 
@@ -40,7 +40,7 @@ Olemasolev proovikeskkond eemaldatakse. Kui see on eemaldatud, saate registreeri
 
 ## <a name="remove-a-production-environment"></a>Tootmiskeskkonna eemaldamine
 
-See teema eeldab, et olete ostnud rakenduse Human Resources pilvelahenduse pakkuja (CSP) või ettevõtte arhitektuuri (AE) lepingu kaudu. 
+See artikkel eeldab, et olete ostnud rakenduse Human Resources pilvelahenduse pakkuja (CSP) või ettevõtte arhitektuuri (AE) lepingu kaudu. 
 
 Kuna üks Human Resourcesi keskkond asub ühes Power Appsi keskkonnas, on kaks valikut. Esimene valik hõlmab kogu Power Appsi keskkonna eemaldamist; teine hõlmab ainult Human Resourcesi eemaldamist. Esimene valik on soovitatav, kui lõite Power Appsi keskkonna spetsiaalselt Human Resourcesi ettevalmistamiseks ja olete just juurutamisega alustanud või te pole loonud integratsioone. Teine suvand on sobiv, kui teil on loodud Power Appsi keskkond, mis on täidetud rikasandmetega, mida kasutatakse Power Appsis ja Power Automate’is.
 

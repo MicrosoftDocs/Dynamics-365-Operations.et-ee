@@ -1,6 +1,6 @@
 ---
-title: Rakenduse spikrikogemuse konfigureerimine finance and Operationsi rakenduste jaoks
-description: Selles teemas antakse teavet osade Microsoft Dynamics 365 rakenduste spikrisüsteemi komponentide kohta.
+title: Konfigureerige finantside ja toimingute rakenduste spikrikogemust
+description: See artikkel annab teavet spikrisüsteemi komponentide kohta umbes Microsoft Dynamics 365 rakenduse puhul.
 author: margoc
 ms.date: 08/11/2021
 ms.topic: article
@@ -15,25 +15,25 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bac06e258a96bb50bb6de7957e3e5ed07e966127
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: b002b374e5da619460c496b8f0d7a70b7194afd0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071004"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900125"
 ---
-# <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>Rakenduse spikrikogemuse konfigureerimine finance and Operationsi rakenduste jaoks
+# <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>Konfigureerige finantside ja toimingute rakenduste spikrikogemust
 
 [!include [banner](../includes/banner.md)]
 
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Sellest teemast leiate ülevaate finance and Operationsi rakenduste spikrisüsteemi komponentidest nt Microsoft Dynamics 365 Finance,, Dynamics 365 Supply Chain Management Dynamics 365 Commerce ja Dynamics 365 Human Resources. Samuti selgitatakse selles teemas, kuidas neid komponente ühendada ja esitatakse kohandatud spikri loomise protsessi kokkuvõte.
+Selles artiklis leiate finantside ja toimingute rakenduste spikrisüsteemi komponentide ülevaate, Microsoft Dynamics nt 365 Finantsid Dynamics 365 Supply Chain Management, Dynamics 365 Commerce ja Dynamics 365 Human Resources. Artikkel selgitab ka nende komponentide ühendamist ja annab kohandatud spikri loomise protsessi kokkuvõtte.
 
 ## <a name="help-architecture"></a>Spikri arhitektuur
 
-Finance and Operationsi rakendused sisaldavad kontseptuaalseid ülevaateid ja muid teemasid, mis avaldatakse dokumentatsioonisaidile [Microsoft Dynamics 365](/dynamics365/). Selle sisu juurde pääseb seejärel tootesisese paani **Spikker** kaudu. Järgmisel joonisel on näidatud spikrisüsteemi osad.
+Finantside ja toimingute rakendused sisaldavad kontseptuaalseid ülevaateid ja muid teemasid, mis avaldatakse [Microsoft Dynamics 365 dokumentatsioonisaidil](/dynamics365/). Selle sisu juurde pääseb seejärel tootesisese paani **Spikker** kaudu. Järgmisel joonisel on näidatud spikrisüsteemi osad.
 
 [![Spikri arhitektuur.](./media/help-architecture.png)](./media/help-architecture.png)
 
@@ -63,7 +63,7 @@ Lahenduse jaoks tegevuse juhiste konfigureerimiseks, järgige lehel **Süsteemi 
 2. Valige BPM-i teegid (valitud projektis), kust tegevuse salvestised tuua.
 3. Valige BPM-i teekide kuvamise järjekord. Kuvamise järjekord määratleb teekidest pärinevate tegevuse salvestiste kuvamise järjekorra paanil **Spikker**.
 
-Pärast nende juhiste täitmist saate avada **spikripaani** ja valida **vahekaardi Tööülesandejuhendid** . Nüüd näete ülesandejuhendeid, mis rakenduvad lehele, kus olete praegu finance and Operationsi rakendustes. Kui ühtegi ülesande juhist ei leita, saate sisestada märksõnu otsingu kitsendamiseks.
+Pärast nende sammude sooritamist saate avada spikripaani **ja** valida **vahekaarti Ülesande juhendid**. Nüüd näete ülesande juhendeid, mis kehtivad leheküljele, mida olete praegu Finance and Operationsi rakendustes. Kui ühtegi ülesande juhist ei leita, saate sisestada märksõnu otsingu kitsendamiseks.
 
 ### <a name="showing-translated-task-guides"></a>Tõlgitud tegevusjuhiste kuvamine
 
@@ -87,7 +87,7 @@ Kui olete partner ja viite teegi üle ettevõtte teegiks ning lisate selle lahen
 
 ### <a name="connect-a-custom-help-site"></a>Kohandatud spikrisaidi ühendamine
 
-Finance and Operationsi rakendusi kasutatakse harva nende kastist väljas. Selle asemel lahendust kohandatakse ja laiendatakse organisatsiooni vajadustele vastavalt. Saate kohandada ja laiendada ka spikri kasutuskogemust. Saate näiteks lisada kohandatud spikri tootesisesele paanile **Spikker**.
+Finantside ja toimingute rakendusi kasutatakse harva boksist väljas vormil. Selle asemel lahendust kohandatakse ja laiendatakse organisatsiooni vajadustele vastavalt. Saate kohandada ja laiendada ka spikri kasutuskogemust. Saate näiteks lisada kohandatud spikri tootesisesele paanile **Spikker**.
 
 Microsoft pakub tööriistakomplekti, mis aitab teil juurutada ja ühendada kohandatud spikrit paanile **Spikker**. Lisateavet selle kohta, kuidas seadistada kohandatud spikri lahendust, mis oleks ühendatud paaniga **Spikker**, vaadake teemast [Kohandatud spikri ülevaade](../../dev-itpro/help/custom-help-overview.md).
 

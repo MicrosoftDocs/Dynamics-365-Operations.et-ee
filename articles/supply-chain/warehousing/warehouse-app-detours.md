@@ -1,6 +1,6 @@
 ---
 title: Mobiilse seadme menüükäskude sammude ümbersuunamise konfigureerimine
-description: Selles teemas kirjeldatakse, kuidas konfigureerida menüüüksustele ümbersuunamised, et töötajad saaksid praeguse ülesande parkida, sooritada teise toimingu ja seejärel naasta algse ülesande juurde ilma teavet kaotamata.
+description: See artikkel kirjeldab, kuidas konfigureerida menüükäske nii, et töötajad saavad praegust ülesannet parkida, teha muud ülesannet ja seejärel naasta algse ülesande juurde ilma teavet kaotamata.
 author: Mirzaab
 ms.date: 10/15/2021
 ms.topic: article
@@ -11,21 +11,21 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 874abbdf7c0938a7ad4cc66e23dd01d901a1f0d3
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: 69090def1bba2f64ed21cca8b6d4629083aeb0c4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920344"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863588"
 ---
 # <a name="configure-detours-for-steps-in-mobile-device-menu-items"></a>Mobiilse seadme menüükäskude sammude ümbersuunamise konfigureerimine
 
 [!include [banner](../includes/banner.md)]
 
 > [!IMPORTANT]
-> Selles teemas kirjeldatud funktsioonid kehtivad ainult uue mobiilirakenduse Warehouse Management kohta. Need ei mõjuta vana laorakendust, mis on nüüdseks iganenud.
+> Selles artiklis kirjeldatud funktsioonid kehtivad ainult uuele laohalduse mobiilirakendusele. Need ei mõjuta vana laorakendust, mis on nüüdseks iganenud.
 
-Selles teemas kirjeldatakse, kuidas konfigureerida menüüüksustele ümbersuunamised, et töötajad saaksid praeguse ülesande "parkida", sooritada teise toimingu ja seejärel naasta algse ülesande juurde ilma teavet kaotamata.
+See artikkel kirjeldab, kuidas konfigureerida menüükäske nii, et töötajad saavad "park" praeguse ülesande täita, teha muud ülesannet ja seejärel naasta algse ülesande juurde ilma teavet kaotamata.
 
 Ümbersuunamine on eraldi menüüpunkt, mida saab avada põhiülesande etapist. Ümbersuunamise lõpus suunatakse töötaja tagasi kohta, kust ta põhiülesandelt lahkus. Seadistamise ajal määrate menüüelemendi, mis peaks toimima ümbersuunamisena. Lisaks saate valida, millised põhiülesande välja väärtused suunatakse (kopeeritakse) automaatselt ümbersuunamisele ja sisestatakse sinna. Seetõttu peate mõistma, millises toiminguvoos soovite, et ümbersuunamine oleks töötajatele kättesaadav. Samuti peate tagama, et ümbersuunamisele kopeeritav teave on ülesandevoo selle etapi jaoks saadaval.
 
@@ -46,7 +46,7 @@ Enne kui saate mobiilseadme menüü-üksustes sammude ümbersuunamisi konfiguree
     - **Moodul:** *laohaldus*
     - **Funktsiooni nimi:** *Warehouse management rakenduse ümbersuunamised*
 
-    Seda funktsiooni kirjeldatakse selles teemas.
+    See funktsioon on funktsioon, mida kirjeldatakse selles artiklis.
 
 1. Värskendage Warehouse Management mobiilirakenduses väljade nimesid, avades **Laohaldus \> Seadistamine \> Mobiilseade \> Laorakenduse väljade nimed** ja valides **Loo vaikeseade**. Lisateavet vt [Mobiilirakenduse Warehouse Management väljade konfigureerimine](configure-app-field-names-priorities-warehouse.md).
 1. Korrake eelmist sammu iga juriidilise isiku (ettevõtte) puhul, kus kasutate Warehouse Management mobiilirakendust.
@@ -57,7 +57,7 @@ Menüüspetsiifilise ülekirjutamise ümbersuunamise seadistamiseks kasutage jä
 
 1. Looge vastava menüü ja sammu jaoks menüüpõhine ülekirjutamine, nagu on kirjeldatud jaotises [Warehouse Management mobiilirakenduse sammude pealkirjade ja juhiste kohandamine](mobile-app-titles-instructions.md).
 1. Leidke **Etapi ID** ja **menüüelemendi nime** nende väärtuste kombinatsioon, mida soovite redigeerida, ja valige väärtus veerus **Etapi ID**.
-1. Ilmuval lehel kiirkaardil **Saadaolevad ümbersuunamised (menüüelemendid)** saate määrata menüüelemendi, mis peaks toimima ümbersuunamisena. Lisaks saate valida, millised põhiülesande väljaväärtused kopeeritakse automaatselt ümbersuunamiselt ja sealt ümbersuunamisele. Näiteid, mis näitavad, kuidas neid sätteid kasutada, leiate selle teema edaspidistest stsenaariumidest.
+1. Ilmuval lehel kiirkaardil **Saadaolevad ümbersuunamised (menüüelemendid)** saate määrata menüüelemendi, mis peaks toimima ümbersuunamisena. Lisaks saate valida, millised põhiülesande väljaväärtused kopeeritakse automaatselt ümbersuunamiselt ja sealt ümbersuunamisele. Näiteid, mis näitavad, kuidas neid sätteid kasutada, vaadake selles artiklis allpool stsenaariume.
 
 ## <a name="sample-scenario-1-sales-picking-where-a-location-inquiry-acts-as-a-detour"></a>Näidisstsenaarium 1: müügivalik, kus asukohapäring toimib ümbersuunamisena
 

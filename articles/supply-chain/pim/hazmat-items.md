@@ -1,6 +1,6 @@
 ---
 title: Ohtlikud materjalid toodetes, tellimustes, saadetistes ja koormates
-description: Selles teemas selgitatakse, kuidas määrata väljastatavate toodete ohtlike materjalide omadusi, kuidas panna ohtlikele kaupadele laovarude limiite ja kuidas kaasata ohtlikke materjale müügitellimusse, saadetisse või koormasse.
+description: See artikkel selgitab, kuidas määrata väljastatud toodetele ohtlikud materjali omadused, kuidas asetada ohtlikele kaupadele laopiiranguid ja kuidas lisada ohtlikke materjale müügitellimusse, saadetisse või koormasse.
 author: t-benebo
 ms.date: 06/10/2020
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 64d31cd86045ff28aa007666a3877271eecf0106
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: eaae3ce4916465cd57da65eaa217c40f9c3ea88a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570701"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860692"
 ---
 # <a name="hazardous-materials-in-products-orders-shipments-and-loads"></a>Ohtlikud materjalid toodetes, tellimustes, saadetistes ja koormates
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas selgitatakse, kuidas määrata väljastatavate toodete ohtlike materjalide omadusi, kuidas panna ohtlikele kaupadele laovarude limiite ja kuidas kaasata ohtlikke materjale müügitellimusse, saadetisse või koormasse.
+See artikkel selgitab, kuidas määrata väljastatud toodetele ohtlikud materjali omadused, kuidas asetada ohtlikele kaupadele laopiiranguid ja kuidas lisada ohtlikke materjale müügitellimusse, saadetisse või koormasse.
 
 ## <a name="set-hazardous-material-specifications-for-products"></a>Toodete ohtlike materjalide spetsifikatsioonide määramine
 
@@ -109,11 +109,11 @@ Siin on valemi võti.
 - *&lt;Ühikuteisendus&gt;* on teisendustegur, mida kasutatakse teisendamiseks koormarea koguse ühiku ja toote jaoks määratud ühiku vahel kiirkaardi **Materjalihaldus** väljal **Ühik**.
 - *&lt;Kordaja&gt;* on toote jaoks määratud kordaja kiirkaardi **Materjalihaldus** väljal **Kordaja**.
 
-See skoor esitatakse iga koormarea kohta, mis sisaldab toodet, milles need väärtused on määratud. Lisateavet lugege selle teema järgmisi jaotisi: [Ohtlikke materjale sisaldavad saadetised](#hazmat-shipments) ja [Ohtlikke materjale sisaldavad koormad](#hazmat-loads).
+See skoor esitatakse iga koormarea kohta, mis sisaldab toodet, milles need väärtused on määratud. Lisateabe saamiseks vt saadetisi, mis [sisaldavad ohtlikke](#hazmat-shipments)[materjale ja koormaid, mis](#hazmat-loads) sisaldavad selles artiklis hilisemaid ohtlikke materjale.
 
 #### <a name="how-the-hazardous-material-weight-is-calculated"></a>Ohtlike materjalide kaalu arvutamine
 
-Koormad ja koormaread, mis sisaldavad tooteid mille kiirkaardi **Materjalihaldus** suvandi **Piiratud kogus** väärtuseks on määratud **Jah**, kuvatakse ohtlike materjalide kogukaal, nagu on kirjeldatud selle teema järgnevates jaotistes [Ohtlikke materjale sisaldavad saadetised](#hazmat-shipments) ja [Ohtlikke materjale sisaldavad koormad](#hazmat-loads). Ohtlike materjalide kaalu arvutamiseks kasutatakse järgmist valemit.
+Koormad ja **koormaread, mis sisaldavad tooteid, mille materjalihalduse kiirkaardi valik Piiratud kogus on seadistatud valikule Jah, näitavad ohtlikku materjali kogukaalu, nagu on** **·** **kirjeldatud saadetises**[...](#hazmat-shipments), mis sisaldab ohtlikke materjale ja koormaid, [mis sisaldavad selle artikli hiljem ohtlikke materjale.](#hazmat-loads) Ohtlike materjalide kaalu arvutamiseks kasutatakse järgmist valemit.
 
 Ohtliku materjali kaal = *&lt;Reakogus&gt;* × *&lt;Toote kaal&gt;* × *&lt;Ühikuteisendus&gt;*
 

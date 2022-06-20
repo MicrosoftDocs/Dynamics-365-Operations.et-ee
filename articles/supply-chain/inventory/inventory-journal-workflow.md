@@ -1,6 +1,6 @@
 ---
 title: Varude töölehe kinnitamise töövood
-description: Selles teemas kirjeldatakse, kuidas seadistada ja kasutada varude töölehe kinnitamise töövoogusid eri tüüpi füüsiliste laokannete jaoks. Varude töölehe töövood aitavad tagada, et kannetesse saab sisestada ainult kinnitatud varude töölehti.
+description: See artikkel kirjeldab, kuidas seadistada ja kasutada laotöölehe kinnitustöövooge erinevat tüüpi füüsiliste laokannete puhul. Varude töölehe töövood aitavad tagada, et kannetesse saab sisestada ainult kinnitatud varude töölehti.
 author: yufeihuang
 ms.date: 07/21/2020
 ms.topic: article
@@ -13,25 +13,25 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-07-21
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: fd73c515c653de9160301e069fb25d995db40741
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: ebb12562a9f06f2efc3b5a373d7ad0f98bc3505e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778301"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873981"
 ---
 # <a name="inventory-journal-approval-workflows"></a>Varude töölehe kinnitamise töövood
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas kirjeldatakse, kuidas seadistada ja kasutada varude töölehe kinnitamise töövoogusid mitmesuguste füüsiliste laokannete jaoks, nt väljaminekud ja sissetulekud, varude liikumised, kooslused (BOM-id) ning füüsiliste varude vastavusseviimine. Varude töölehe töövood aitavad tagada, et kannetesse saab sisestada ainult kinnitatud varude töölehti.
+See artikkel kirjeldab, kuidas seadistada ja kasutada laotöölehe kinnitustöövooge erinevat tüüpi füüsiliste laokannete puhul, nt väljaminekud ja sissetulekud, lao liikumised, kooslused ning füüsilise laoseisu vastavusseviimine. Varude töölehe töövood aitavad tagada, et kannetesse saab sisestada ainult kinnitatud varude töölehti.
 
 > [!NOTE]
 > Varude töölehe kinnitamise töövood rakenduvad ainult kannete puhul, mis on salvestatud varude halduse mooduli abil. Need ei tööta laohalduse moodulist käivitatud varude töölehtedega.
 
 ## <a name="turn-on-the-inventory-journal-approval-workflows-feature"></a>Varude töölehe kinnitustöövoogude funktsiooni sisselülitamine
 
-Tarneahela halduse versiooni 10.0.21 puhul on see funktsioon vaikimisi sisse lülitatud. Administraatorid saavad funktsioonihalduse [lehte](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) kasutada, et kontrollida funktsiooni olekut ja lubada või keelata see, kui vaja. Siin on funktsioon loetletud järgmiselt.
+Tarneahela halduse versiooni 10.0.21 puhul on see funktsioon vaikimisi sisse lülitatud. Administraatorid saavad funktsioonihalduse [lehte kasutada](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), et kontrollida funktsiooni olekut ja lubada või keelata see, kui vaja. Siin on funktsioon loetletud järgmiselt.
 
 - **Moodul:** *varude ja laohaldus*
 - **Funktsiooni nimi**: *Varude töölehe kinnitamise töövoog*

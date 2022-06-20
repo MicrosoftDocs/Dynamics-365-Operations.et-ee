@@ -1,6 +1,6 @@
 ---
 title: Andmeallikate JOIN kasutamine elektroonilises aruandluse (ER) mudeli vastendustes, et saada andmeid mitmest rakendusetabelist
-description: Selles teema selgitatakse, kuidas saate kasutada elektroonilises aruandluses andmeallikaid JOIN.
+description: See artikkel selgitab, kuidas kasutada elektroonilises aruandluses (ER) JOIN-tüüpi andmeallikaid.
 author: NickSelin
 ms.date: 04/26/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-03-01
 ms.dyn365.ops.version: Release 10.0.1
-ms.openlocfilehash: c9a06c048e98676e30a6652cad6634c2e13531d4ebc6d35f325f4c7153cd82ae
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0994c19ad79a3e73dc787ef8d82716db637f9ab0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723209"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845514"
 ---
 # <a name="use-join-data-sources-to-get-data-from-multiple-application-tables-in-electronic-reporting-er-model-mappings"></a>Andmeallikate JOIN kasutamine andmete saamiseks mitmest rakendusetabelist elektroonilise aruandluse (ER) mudeli vastendustes
 
@@ -40,15 +40,15 @@ Konfigureeritud **ühendamise** andmeallikas, kui kõigi andmeallikate tüüp on
 > [!NOTE]
 > Funktsiooni **VALUEIN** kasutamist elektroonilise aruandluse avaldistes, mis määravad tingimused kirjete ühendamiseks andmeallikates, mille tüüp on Ühendamine, ei toetata veel. Üksikasjalikumat teavet selle funktsiooni kohta leiate lehelt [Valemikoostaja elektroonilises aruandluses](general-electronic-reporting-formula-designer.md).
 
-Lisateabe saamiseks selle funktsiooni kohta läbige siinse teema näide.
+Selle funktsiooni kohta lisateabe saamiseks viige selle artikli näide lõpule.
 
 ## <a name="example-use-join-data-sources-in-er-model-mappings"></a>Näide: andmeallikate JOIN kasutamine ER-i mudelivastendustes
 
-Järgmistes toimingutes selgitatakse, kuidas süsteemiadministraator või elektroonilise aruandluse arendaja saab konfigureerida elektroonilise aruandluse (ER) mudelivastenduse, et saada andmeid mitmest rakendusetabelist korraga, kasutades andmeallikaid tüübiga **Ühendamine**, et suurendada andmejuurdepääsu jõudlust. Neid toiminguid saab teha mis tahes ettevõte, mis kasutab tarkvara Dynamics 365 Finance või Regulatory Configuration Services (RCS).
+Järgmistes toimingutes selgitatakse, kuidas süsteemiadministraator või elektroonilise aruandluse arendaja saab konfigureerida elektroonilise aruandluse (ER) mudelivastenduse, et saada andmeid mitmest rakendusetabelist korraga, kasutades andmeallikaid tüübiga **Ühendamine**, et suurendada andmejuurdepääsu jõudlust. Neid samme saab teha mis tahes Dynamics 365 Finance või Regulatory Configuration Services (RCS) ettevõtte puhul.
 
 ### <a name="prerequisites"></a>Eeltingimused
 
-Selle teema näides kirjeldatud toimingute tegemiseks peab teil olema juurdepääs ühele järgmistest, sõltuvalt sellest, millist teenust kasutatakse nende toimingute tegemiseks.
+Selle artikli näidete lõpuleviimiseks peab teil olema juurdepääs ühele järgmistest:
 
 **Juurdepääs Rahanduse keskkonda ühe järgmise rolli jaoks:**
 
@@ -257,9 +257,9 @@ Vaadake üle ER-i mudelivastenduse komponendi sätted. Komponent on konfigureeri
 
 ## <a name="limitations"></a>Kitsendused
 
-Nagu käesolevas teemas toodud näitest näha, saab **JOIN** andmeallika koostada mitmest andmeallikast, mis kirjeldavad lõpuks ühendatavate kirjete individuaalseid andmekogusid. Antud andmeallikaid saab konfigureerida sisseehitatud ER-i [FILTRI](er-functions-list-filter.md) funktsiooniga. Kui konfigureerite andmeallikat nii, et see on kaugemaleulatuv kui **JOIN** andmeallikas, siis saate kasutada andmevaliku tingimusena ettevõtte vahemikke. **JOIN** andmeallika esmane rakendamine ei toeta seda tüüpi andmeallikaid. Näiteks kui kutsute **JOIN** andmeallika rakendusulatusse jääva [FILTRI](er-functions-list-filter.md)-põhise andmeallika, siis esineb erand juhul, kui kutsutud andmeallikas sisaldab andmevaliku tingimuse raames ettevõtte vahemikke.
+Nagu näete selles artikli näites, saab JOIN-i **andmeallika luua mitmetest andmeallikatest, mis kirjeldavad kirjete üksikuid andmekogumeid,** mis peavad lõpuks olema liidetud. Antud andmeallikaid saab konfigureerida sisseehitatud ER-i [FILTRI](er-functions-list-filter.md) funktsiooniga. Kui konfigureerite andmeallikat nii, et see on kaugemaleulatuv kui **JOIN** andmeallikas, siis saate kasutada andmevaliku tingimusena ettevõtte vahemikke. **JOIN** andmeallika esmane rakendamine ei toeta seda tüüpi andmeallikaid. Näiteks kui kutsute **JOIN** andmeallika rakendusulatusse jääva [FILTRI](er-functions-list-filter.md)-põhise andmeallika, siis esineb erand juhul, kui kutsutud andmeallikas sisaldab andmevaliku tingimuse raames ettevõtte vahemikke.
 
-Microsoft Dynamics 365 Finance'i versioonis 10.0.12 (august 2020), saate kasutada [FILTRI](er-functions-list-filter.md)-põhistes andmeallikates andmevaliku tingimuste raames ettevõtte vahemikke, kui andmeallikaid kutsutakse **JOIN** andmeallika rakendusulatuse piires. Rakenduse [päringuehitaja](../dev-ref/xpp-library-objects.md#query-object-model) piirangutest tulenevalt toetatakse ettevõtte vahemikke vaid esimese **JOIN** andmeallika alla kuuluva andmeallika puhul.
+Finantsversioonis 365.10.0.12 (2020. august) saate kasutada ettevõttevahemikke FILTER-põhiste Microsoft Dynamics andmeallikate [andmevaliku tingimuse osana, mida kutsutakse JOIN-i](er-functions-list-filter.md) andmeallika käivitamise ulatuse **piires.** Rakenduse [päringuehitaja](../dev-ref/xpp-library-objects.md#query-object-model) piirangutest tulenevalt toetatakse ettevõtte vahemikke vaid esimese **JOIN** andmeallika alla kuuluva andmeallika puhul.
 
 ### <a name="example"></a>Näide
 

@@ -1,6 +1,6 @@
 ---
-title: Azure'i ladustamiskonto loomine Azure'i portaalis
-description: See teema kirjeldab, kuidas luua elektrooniliseks arveldamiseks Azure'i ladustamiskonto.
+title: Azure'i salvestusruumi konto loomine Azure'i portaalis
+description: See artikkel selgitab, kuidas luua elektrooniliseks arveldamiseks Azure'i salvestuskonto.
 author: dkalyuzh
 ms.date: 02/14/2022
 ms.topic: article
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: dkalyuzh
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3d9647e234b3603ef6305ec6031a793b744bbe98
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: 4380261140086bcb278162f8dc70b39eaa7078fe
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371896"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898014"
 ---
-# <a name="create-an-azure-storage-account-in-the-azure-portal"></a>Azure'i ladustamiskonto loomine Azure'i portaalis
+# <a name="create-an-azure-storage-account-in-the-azure-portal"></a>Azure'i salvestusruumi konto loomine Azure'i portaalis
 
 [!include [banner](../includes/banner.md)]
 
@@ -47,9 +47,9 @@ Kõik elektroonilised failid, mille genereerib elektroonilise arveldamise teenus
 
     - Loe
     - Lisamine
-    - Loo
+    - Loomine
     - Kirjuta
-    - Kustuta
+    - Kustutusklahv
     - Loend
 
 14. Valige **Loo SAS-luba ja URL**.

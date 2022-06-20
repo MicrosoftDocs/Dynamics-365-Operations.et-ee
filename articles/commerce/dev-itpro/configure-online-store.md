@@ -1,6 +1,6 @@
 ---
-title: Konfigureeri e-poode
-description: See artikkel sisaldab linke teemadele, mis aitavad teil võrgupoodi keskselt konfigureerida ja hallata.
+title: Veebipoodide konfigureerimine
+description: See artikkel sisaldab linke artiklitele, mis aitavad teil võrgupoodi keskselt konfigureerida ja hallata.
 author: kfend
 ms.date: 06/20/2017
 ms.topic: article
@@ -14,24 +14,24 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 87607e2c42ee67d62a7ce2e87744e9d9143dcf81
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: c8a5b13189eb93d4df81a427a932b81ab8d830be
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734100"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861875"
 ---
-# <a name="configure-online-stores"></a>Konfigureeri e-poode
+# <a name="configure-online-stores"></a>Veebipoodide konfigureerimine
 
 [!include [banner](../includes/banner.md)]
 
-See artikkel sisaldab linke teemadele, mis aitavad teil võrgupoodi keskselt konfigureerida ja hallata.
+See artikkel sisaldab linke artiklitele, mis aitavad teil võrgupoodi keskselt konfigureerida ja hallata.
 
-Järgmises tabelis loetletud teemad aitavad teil kaubanduse komponente ja jaemüügi võrgupoodi kliendis konfigureerida.
+Järgmises tabelis loetletud artiklid aitavad ärikomponente ja võrgupoodi kliendis konfigureerida.
 
 ## <a name="configure-an-online-store"></a>E-poe konfigureerimine
 
-| Ülesanne                                                | Üksikasjad                                                                                                                                                                                                                                                                                                                                                   | Teema                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Ülesanne                                                | Üksikasjad                                                                                                                                                                                                                                                                                                                                                   | Artiklid                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 |-----------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Komponentide konfigureerimine.                        | Saate seadistada ja hallata kaubandustoimingute teavet. See teave hõlmab poode, makse, tooteid, kinkekaarte, soodustusi ja allahindlusi.                                                                                                                                                                                                          | [Retaili seadistamine ja haldamine](/dynamicsax-2012/appuser-itpro/setting-up-and-maintaining-retail) (TechNeti sisu Microsoft Dynamics AX 2012 kohta)                                                                                                                                                                                                                                                                                          |
 | Kanali navigeerimishierarhia konfigureerimine.    | Saate luua kanali navigeerimiskategooria hierarhia, mida saab kasutada kategooriastruktuuri seadistamiseks teie võrgupoe kaudu pakutavatele toodetele. Saate määratleda kategooriahierarhia ning määrata kategooriatesse tooted, tooteatribuutide grupid ja atribuudiväärtused. Seejärel saate määrata võrgupoele kategooriahierarhia.                            | [Jaemüügihierarhia häälestus](/dynamicsax-2012/appuser-itpro/set-up-a-retail-hierarchy)</br> (TechNet sisu AX 2012 jaoks)</br> [Atribuutide ja atribuudi tüüpide seadistamine](/dynamicsax-2012/appuser-itpro/set-up-attributes-and-attribute-types) (TechNet sisu AX 2012 jaoks)</br> [Jaemüügi atribuutide gruppide seadistamine](/dynamicsax-2012/appuser-itpro/set-up-retail-attribute-groups) (TechNet sisu AX 2012 jaoks) |
@@ -41,7 +41,7 @@ Järgmises tabelis loetletud teemad aitavad teil kaubanduse komponente ja jaemü
 
 ## <a name="configure-online-store-products"></a>Võrgupoe toodete konfigureerimine
 
-| Ülesanne                                 | Üksikasjad                                                                                                                                           | Teema                                                                                                                                                                                                                                                                            |
+| Ülesanne                                 | Üksikasjad                                                                                                                                           | Artiklid                                                                                                                                                                                                                                                                            |
 |--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Võrgupoele sordimentide lisamine. | Saate lisada sortimendid, mis sisaldavad teie võrgupoes pakutavaid tooteid.                                                                  | [Võrgupoe seadistamine](/dynamicsax-2012/appuser-itpro/set-up-an-online-store) (TechNeti sisu AX 2012 kohta)                                                                                                                                              |
 | Kataloogide haldamine.                     | Saate kasutada tootekatalooge, et tuvastada tooteid, mida soovite oma kauplustes pakkuda.                                                              | [Peamised ülesanded: jaemüügi tootekataloogide loomine](/dynamicsax-2012/appuser-itpro/key-tasks-create-retail-product-catalogs) (TechNeti sisu AX 2012 kohta)                                                                                                                           |
@@ -52,7 +52,7 @@ Järgmises tabelis loetletud teemad aitavad teil kaubanduse komponente ja jaemü
 
 ## <a name="set-up-data-exchange-between-commerce-and-the-online-store"></a>Saate seadistada andmevahetuse Commerce'i ja võrgupoe vahel
 
-| Ülesanne                                 | Üksikasjad                                                                                                                               | Teema                                                                                                                                                                                                                                                                                  |
+| Ülesanne                                 | Üksikasjad                                                                                                                               | Artiklid                                                                                                                                                                                                                                                                                  |
 |--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Kanali integratsiooniprofiilide seadistamine. | Profiilid võimaldavad komponentidel üksteisega suhelda. Saate seadistada profiilid enne andmevahetuse sätete konfigureerimist. | [Reaalajas teenuse profiili seadistamine](/dynamicsax-2012/appuser-itpro/set-up-a-real-time-service-profile) (TechNet sisu AX 2012 jaoks)</br> [Kanali profiili seadistamine](/dynamicsax-2012/appuser-itpro/set-up-a-channel-profile) (TechNet sisu AX 2012 jaoks) |
 

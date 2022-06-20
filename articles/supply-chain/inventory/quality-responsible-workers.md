@@ -1,6 +1,6 @@
 ---
 title: Mittevastavuste kinnitamise eest vastutavad töötajad
-description: See teema kirjeldab, kuidas konfigureerida mittevastavuste kinnitamise eest vastutavaid töötajaid.
+description: See artikkel kirjeldab, kuidas konfigureerida mittevastavuste kinnitamise eest vastutavaid töötajaid.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5fd1c7c86ac8627bd332bc578e98b4d7f091cdc8
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: a108fc1f8954e32719c93656a64d1d27fda03fb6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575892"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907402"
 ---
 # <a name="workers-responsible-for-approving-nonconformances"></a>Mittevastavuste kinnitamise eest vastutavad töötajad
 
 [!include [banner](../includes/banner.md)]
 
-See teema kirjeldab, kuidas konfigureerida mittevastavuste kinnitamise eest vastutavaid töötajaid.
+See artikkel kirjeldab, kuidas konfigureerida mittevastavuste kinnitamise eest vastutavaid töötajaid.
 
 Mittevastavused tuleb heaks kiita, enne kui kasutajad saavad sisestada üksikasju nagu parandused või toimingud. Enne kui kasutajad saavad mittevastavusi kinnitada või tagasi lükata, peab nende kasutaja ID (kasutajakirje) olema lingitud töötaja kirjega. Saate valikuliselt konfigureerida kvaliteedi eest vastutavaid töötajaid ja seejärel lubada ühel töötajal kinnitada töö teise töötaja nimel.
 

@@ -1,6 +1,6 @@
 ---
-title: ER-vormingu parameetrite seadistamine juriidilise isiku kohta
-description: Selles teemas selgitatakse, kuidas seadistada elektroonilise aruandluse (ER) vormingu parameetreid juriidilise isiku kohta.
+title: Elektroonilise aruandluse vormingu parameetrite häälestus juriidilise isiku kohta
+description: See artikkel selgitab, kuidas seadistada juriidilise isiku kohta elektroonilise aruandluse (ER) vormingu parameetreid.
 author: NickSelin
 ms.date: 03/25/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: f72ce72e9cbd268efc6ab09dbec7009794d69613
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: dbcf968dde432da182b5bd2d6a7bcb9f83dad6fa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8644495"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890208"
 ---
 # <a name="set-up-the-parameters-of-an-er-format-per-legal-entity"></a>ER-vormingu parameetrite seadistamine juriidilise isiku kohta
 
@@ -30,7 +30,7 @@ ms.locfileid: "8644495"
 
 Nende etappide lõpetamiseks peate kõigepealt läbima etapid teemas [ER-vormingute konfigureerimine juriidilise isiku kohta määratud parameetrite kasutamiseks](er-app-specific-parameters-configure-format.md).
 
-Selle teema näidete lõpuleviimiseks peab teil olema juurdepääs Microsoft Dynamics 365 Finantside kohta ühe järgmise rolli puhul:
+Selle artikli näidete lõpuleviimiseks peab teil olema juurdepääs Microsoft Dynamics 365 Finance'le ühe järgmise rolli puhul:
 
 - Elektroonilise aruandluse arendaja
 - Elektroonilise aruandluse funktsionaalne konsultant
@@ -221,7 +221,7 @@ ER-vormingu rakendusekohased parameetrid sõltuvad juriidilisest isikust. Ühe j
 
 Seda ekspordi-impordi lähenemisviisi saate kasutada ka ER-vorminguga seotud rakendusespetsiifiliste parameetrite ülekandmiseks, mis olid algselt konfigureeritud ühes Finance'i eksemplaris, teise Finance'i eksemplari.
 
-Kui konfigureerite rakendusepõhised parameetrid ER-vormingu ühe versiooni jaoks ja impordite seejärel sama vormingu uuema versiooni praegusesse Finance'i eksemplari, ei rakendata olemasolevaid rakendusepõhiseid parameetreid imporditud versioonile, välja arvatud juhul, kui kasutate **Kasutage ER-vormingute eelmiste versioonide rakendusespetsiifilisi parameetreid** funktsioone. Lisateabe saamiseks vaadake teemat [Olemasolevate taaskasutamine](#reuse-existing-parameters).
+Kui konfigureerite rakendusepõhised parameetrid ER-vormingu ühe versiooni jaoks ja impordite seejärel sama vormingu uuema versiooni praegusesse Finance'i eksemplari, ei rakendata olemasolevaid rakendusepõhiseid parameetreid imporditud versioonile, välja arvatud juhul, kui kasutate **Kasutage ER-vormingute eelmiste versioonide rakendusespetsiifilisi parameetreid** funktsioone. Lisateavet vt selle artikli jaotisest [Olemasolevate parameetrite](#reuse-existing-parameters) korduvkasutamine.
 
 Pidage ka meeles, et kui valite importimiseks faili, võrreldakse selle faili rakendusekohaseid parameetreid importimiseks valitud ER-vormingu tüübi **Otsing** vastava andmeallika struktuuriga. Vaikimisi viiakse importimine lõpule ainult siis, kui iga rakendusepõhise parameetri struktuur ühtib impordiks valitud ER-vormingus vastava andmeallika struktuuriga. Kui struktuurid ei kattu, kuvatakse hoiatusteade, et importimist ei toimu. Kui sunnite importimise, tühistatakse valitud ER-vormingu olemasolevad rakendusekohased parameetrid ja peate need uuesti algusest peale seadistama.
 

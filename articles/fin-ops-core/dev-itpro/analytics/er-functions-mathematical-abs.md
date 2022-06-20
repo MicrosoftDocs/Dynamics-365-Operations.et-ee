@@ -1,6 +1,6 @@
 ---
 title: ER-i funktsioon ABS
-description: See teema sisaldab teavet selle kohta, kuidas kasutatakse elektroonilise aruandluse (ER) funktsiooni ABS.
+description: See artikkel annab teavet ABS-i elektroonilise aruandluse (ER) funktsiooni kohta.
 author: NickSelin
 ms.date: 12/17/2019
 ms.prod: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: db12ddddb087556414e81d646c4c87d273a77c133e49152091452d0731916e93
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 90fbff223be5c195feb66b9ea72ee0688e60697b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6776070"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886874"
 ---
 # <a name="abs-er-function"></a>ER-i funktsioon ABS
 

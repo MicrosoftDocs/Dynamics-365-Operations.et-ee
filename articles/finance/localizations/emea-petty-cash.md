@@ -1,6 +1,6 @@
 ---
 title: Väikesed summad Ida-Euroopa ja Venemaa puhul
-description: Selles teemas antakse teavet väikeste summade funktsiooni kohta, mis võimaldab Eestis, Leedus, Tšehhi Vabariigis, Ungaris, Lätis, Poolas ja Venemaal asuvatel kasutajatel kajastada süsteemis sularahatehinguid.
+description: See artikkel annab teavet pisiraha funktsiooni kohta, mis võimaldab kasutajatel Eestis, Leedus, Tšehhi Vabariigis, Ungaris, Lätis, Poolas ja Venemaal kajastada sularahatoiminguid süsteemis.
 author: ShylaThompson
 ms.date: 06/20/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, R
 ms.author: kfend
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 8d301cb7b16960d9f239719841516ca6354381c0011d0b2d8302f8b85012ed1e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cf5e49f76753188ebeb39e4c14bf177b83bbb018
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733590"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871119"
 ---
 # <a name="petty-cash-for-eastern-europe-and-russia"></a>Väikesed summad Ida-Euroopa ja Venemaa puhul
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas antakse teavet väikeste summade funktsiooni kohta, mis võimaldab Eestis, Leedus, Tšehhi Vabariigis, Ungaris, Lätis, Poolas ja Venemaal asuvatel kasutajatel kajastada süsteemis sularahatehinguid.
+See artikkel annab teavet pisiraha funktsiooni kohta, mis võimaldab kasutajatel Eestis, Leedus, Tšehhi Vabariigis, Ungaris, Lätis, Poolas ja Venemaal kajastada sularahatoiminguid süsteemis.
 
 Väikeset summade funktsioon võimaldab automatiseerida sularahasissetulekute ja -kulude toiminguid, põhidokumentide loomist ja seotud aruannete printimist. Väikeste summade funktsioon võimaldab teha järgmist.
 
@@ -100,7 +100,7 @@ Sularahakonto puhul sularahasaldo juhtimise reeglite seadistamiseks valige sular
 <li><strong>Hoiatus</strong> – limiidi saab ületada, kuid kasutaja saab hoiatusteate. Kassadokument kinnitatakse või kiidetakse heaks.</li>
 <li><strong>Tõrge</strong> – limiiti ei saa ületada. Kasutaja saab tõrketeate ja kassadokumenti ei kinnitata või ei kiideta heaks.</li>
 </ul>
-Lisateavet kassadokumentide heakskiiduprotsessi kohta vt selle teema allpool olevast teemast &quot;Sularahakande kinnitamine ja sisestamine&quot;.</td>
+Lisateavet sularahadokumentide kinnitusprotsessi kohta vt käesoleva artikli &quot; jaotisest Sularahakande&quot; kinnitamine ja sisestamine.</td>
 </tr>
 <tr class="odd">
 <td>Saldolimiit</td>

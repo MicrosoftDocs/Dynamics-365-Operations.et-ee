@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0e6af5fbd050642ac462ecb159c05d78f534f0ce
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: ae6b2b505acb211f9fb5506234953eba9f3ec2a3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722545"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865768"
 ---
 # <a name="posting-definition-examples"></a>Sisestamisdefinitsioonide näited
 
@@ -28,7 +28,7 @@ ms.locfileid: "8722545"
 
 Selles artiklis on näited selle kohta, kuidas ostutellimuse pandiõiguse ja eelarve jaotamise puhul sisestamisdefinitsioone kasutatakse.
 
-Enne selle teema lugemist peaksite olema kursis sisestamisdefinitsioonide ja kande sisestamisdefinitsioonidega. Lisateavet vaadake teemast [Sisestamisdefinitsioonid](posting-definitions.md). Lehel **Sisestamisdefinitsioonid** saate seadistada järgmised näited. Iga näide sisaldab järgmisi jaotisi.
+Enne selle artikli lugemist peaksite tutvuma sisestamisdefinitsioonide ja kande sisestamisdefinitsiooniga. Lisateavet vaadake teemast [Sisestamisdefinitsioonid](posting-definitions.md). Lehel **Sisestamisdefinitsioonid** saate seadistada järgmised näited. Iga näide sisaldab järgmisi jaotisi.
 
 -   Sisestamisdefinitsioon – vastendamise kriteeriumid
 -   Sisestamisdefinitsioon – loodud kanded

@@ -1,6 +1,6 @@
 ---
-title: Maksuintegratsiooni andmeväljade lisamine laiendite abil
-description: See teema kirjeldab X++ laiendite kasutamist maksuintegratsioonile andmeväljade lisamiseks.
+title: Andmeväljade lisamine maksu integreerimisse, kasutades laiendusi
+description: See artikkel selgitab X++ laienduste kasutamist maksuintegratsiooni andmeväljade lisamiseks.
 author: qire
 ms.date: 04/27/2022
 ms.topic: article
@@ -14,19 +14,19 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 64c68ef6804297f86b5d9dc1933b0c16a0d42aae
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 184012dcc0b68e017bb28d8d73caa9e8415bdbfa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695384"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871045"
 ---
 # <a name="add-data-fields-in-the-tax-integration-by-using-extension"></a>Maksuintegratsiooni andmeväljade lisamine laiendite abil
 
 [!include [banner](../includes/banner.md)]
 
 
-See teema kirjeldab X++ laiendite kasutamist maksuintegratsioonile andmeväljade lisamiseks. Neid välju saab laiendada maksuteenuse maksuandmete mudelile ja kasutada maksukoodide määramiseks. Lisateavet vt teemast [Maksukonfiguratsioonides andmeväljade lisamine](tax-service-add-data-fields-tax-configurations.md).
+See artikkel selgitab X++ laienduste kasutamist maksuintegratsiooni andmeväljade lisamiseks. Neid välju saab laiendada maksuteenuse maksuandmete mudelile ja kasutada maksukoodide määramiseks. Lisateavet vt teemast [Maksukonfiguratsioonides andmeväljade lisamine](tax-service-add-data-fields-tax-configurations.md).
 
 ## <a name="data-model"></a>Andmemudel
 
@@ -359,7 +359,7 @@ final static class TaxIntegrationCalculationActivityOnDocument_CalculationServic
 Selles koodis `_destination` on ümbrisobjekt, mida kasutatakse taotluse loomiseks ja `_source` milleks on `TaxIntegrationLineObject` objekt.
 
 > [!NOTE]
-> Määratlege välja nimi, mida kasutatakse taotluses privaatse **konstnatuurina**. String peab olema täpselt sama mis maksukonfiguratsioonides andmeväljade lisamise teemas lisatud sõlme nimi ([mitte silt)](tax-service-add-data-fields-tax-configurations.md).
+> Määratlege välja nimi, mida kasutatakse taotluses privaatse **konstnatuurina**. String peab olema täpselt sama mis maksukonfiguratsioonide artikli andmeväljadel lisatud sõlme [nimi (mitte silt)](tax-service-add-data-fields-tax-configurations.md).
 > 
 > Seadke väli meetodis copyToTaxableDocumentLineWraümbrisFromTaxIntegrationLineObjectByLine **meetodiga** SetField **.** Teise parameetri andmetüüp peaks olema **string**. Kui andmetüüp ei ole **string**, teisendage see stringiks.
 > Kui andmetüüp on X++ **enum** tüüp, **soovitame kasutada meetodit enum2Symbol**, et teisendada andmetüübiks string. Maksukonfiguratsioonis lisatav enum väärtus peab olema täpselt sama mis enum nimel. Järgnev on loetelu väärtuse, sildi ja nime erinevuste loend.
@@ -382,7 +382,7 @@ Projekti edukaks loomiseks lisage mudeli sõltuvuste jaoks järgmised viitemudel
 
 Pärast eelmiste sammude lõpule viimist saate oma muudatused kinnitada.
 
-1. Finantsis minge ostureskontrosse **ja** lisage **URL-ile &debug=vsCconfirmExit%2&**. Näiteks. `https://usnconeboxax1aos.cloud.onebox.dynamics.com/?cmp=DEMF&mi=PurchTableListPage&debug=vs%2CconfirmExit&` Lõpp on **&** oluline.
+1. Finantsis minge ostureskontrosse **ja** lisage **URL-ile &debug=vs%2 CconfirmExit&**. Näiteks. `https://usnconeboxax1aos.cloud.onebox.dynamics.com/?cmp=DEMF&mi=PurchTableListPage&debug=vs%2CconfirmExit&` Lõpp on **&** oluline.
 2. Avage ostutellimuse **leht** ja valige **ostutellimuse** loomiseks uus.
 3. Seadke kohandatud väljale väärtus ja seejärel valige **käibemaks**. Eesliitega tõrkeotsingu fail **TaxServiceTroubleshootingLog** laaditakse automaatselt alla. See fail sisaldab maksuarvutuse teenusesse sisestatud kandeteavet. 
 4. Kontrollige, kas kohandatud väli on maksuteenuse arvutuse **sisendis JSON-i** jaotises olemas ja kas selle väärtus on õige. Kui väärtus ei ole õige, topeltkontrollige selle dokumendi samme.

@@ -1,6 +1,6 @@
 ---
 title: Konfigureeri Azure Active Directory autentimise lubamine kassasse sisselogimiseks
-description: See teema kirjeldab, kuidas konfigureerida Azure Active Directory müügis Microsoft Dynamics 365 Commerce autentimismeetodina.
+description: See artikkel selgitab, kuidas konfigureerida Azure Active Directory müügis autentimismeetodina Microsoft Dynamics 365 Commerce.
 author: boycezhu
 ms.date: 04/23/2021
 ms.topic: article
@@ -12,20 +12,20 @@ ms.search.region: global
 ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 9dfb0389b0ca4b2cf75ccc70f35824674e618055
-ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
+ms.openlocfilehash: 47da2c78cef2bbee324fbc2202898fbabd927c4d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "7402147"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853924"
 ---
 # <a name="configure-azure-active-directory-authentication-for-pos-sign-in"></a>Konfigureeri Azure Active Directory autentimise lubamine kassasse sisselogimiseks
 
 [!include [banner](includes/banner.md)]
 
-Selles peatükis kirjeldatakse, kuidas konfigureerida Azure Active Directory (Azure AD) autentimismeetodina Microsoft Dynamics 365 Commerce kassas (POS).
+See artikkel selgitab, kuidas konfigureerida Azure Active Directory (Azure AD) kassas Microsoft Dynamics 365 Commerce autentimismeetodina.
 
-Jaemüüjad, kes kasutavad koos Dynamics 365 Commerce Microsofti pilveteenustega Microsoft Azure (nt Microsoft 365) ja soovivad Microsoft Teams tavaliselt kasutada kasutaja mandaatide tsentraliseeritud haldust turvaliseks ja sujuvaks sisselogimiseks Azure AD rakendustes. Autentimise kasutamiseks Azure AD Commerce POS-i puhul peate esmalt Azure AD konfigureerima autentimismeetodina Commerce headquartersis.
+Jaemüüjad, kes Dynamics 365 Commerce kasutavad koos muude Microsofti pilveteenustega Microsoft Azure(Microsoft 365 Microsoft Teams Azure AD nt) ja soovivad tavaliselt kasutada kasutaja mandaatide tsentraliseeritud haldust turvalise ja sujuva sisselogimise jaoks rakendustes. Autentimise kasutamiseks Azure AD Commerce POS-i puhul peate esmalt Azure AD konfigureerima autentimismeetodina Commerce headquartersis.
 
 ## <a name="configure-pos-authentication-method"></a>POSi autentimise konfigureerimine
 

@@ -1,6 +1,6 @@
 ---
 title: Konteineri pakkimise strateegiad
-description: Selles teemas kirjeldatakse konteinerite pakkimise strateegiate vahelisi erinevusi ja tuuakse näiteid.
+description: Selles artiklis kirjeldatakse konteinerite pakkimise strateegiate vahelisi erinevusi ja esitatakse näiteid.
 author: GalynaFedorova
 ms.date: 06/11/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2021-06-11
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: ab34cee7fd495ec26f6b20da2aa43895f49f677c
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 46b4a007dafbd99e5f9b7231c07a148f8101d2a4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8676379"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862362"
 ---
 # <a name="container-packing-strategies"></a>Konteineri pakkimise strateegiad
 
 [!include [banner](../includes/banner.md)]
 
-*Konteineri pakkimisstrateegia* on strateegia, mida saate kasutada kauba konteinerite eraldamise määratlemiseks. See teema selgitab erinevusi strateegiate *Pakenda kõikidesse avatud konteineritesse* ja *Pakenda ainult praegusesse konteinerisse*.
+*Konteineri pakkimisstrateegia* on strateegia, mida saate kasutada kauba konteinerite eraldamise määratlemiseks. See artikkel selgitab erinevusi pakendi ja kõigi avatud *konteinerite* vahel ning *pakitakse ainult praegusesse konteinerisse*.
 
 - **Pakenda kõikidesse avatud konteineritesse** – süsteem peab kontrollima kõiki avatud konteinereid, mis on konteinerite tsükli jooksul juba loodud, veendumaks, et kaup mahub ühte neist. Pakkimise ajal kontrollib süsteem iga kaupa, kas see mahub mõnda varem loodud konteinerisse. Kui kaup ei mahu olemasolevasse konteinerisse, loob süsteem uue konteineri ja jätkab tööd seni, kuni see on kogu tellimuse pakkimise lõpetanud.
 

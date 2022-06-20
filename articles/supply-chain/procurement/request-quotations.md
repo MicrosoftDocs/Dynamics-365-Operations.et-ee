@@ -1,6 +1,6 @@
 ---
 title: Pakkumiskutsete ülevaade
-description: Selles teemas antakse ülevaade pakkumiskutsete kohta. Organisatsioonid väljastavad pakkumiskutse, kui saavad mitmelt hankijalt konkureerivaid pakkumisi kaupade või teenuste kohta, mida soovivad osta.
+description: See artikkel annab pakkumiskutsete ülevaate. Organisatsioonid väljastavad pakkumiskutse, kui saavad mitmelt hankijalt konkureerivaid pakkumisi kaupade või teenuste kohta, mida soovivad osta.
 author: GalynaFedorova
 ms.date: 10/05/2020
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3de48c03ac73ee164dea0c329b2595db21c841cc
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 89abf82879ab08f2341ce5b14e6af1d5c42140b1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8671950"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895579"
 ---
 # <a name="requests-for-quotation-rfqs-overview"></a>Pakkumiskutsete ülevaade
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas antakse ülevaade pakkumiskutsete kohta. Organisatsioonid väljastavad pakkumiskutse, kui saavad mitmelt hankijalt konkureerivaid pakkumisi kaupade või teenuste kohta, mida soovivad osta. Pakkumiskutses saate hankijatelt küsida teie määratud kaubakoguse hindu ja tarneaegu.
+See artikkel annab pakkumiskutsete ülevaate. Organisatsioonid väljastavad pakkumiskutse, kui saavad mitmelt hankijalt konkureerivaid pakkumisi kaupade või teenuste kohta, mida soovivad osta. Pakkumiskutses saate hankijatelt küsida teie määratud kaubakoguse hindu ja tarneaegu.
 Samuti saate hankijatelt küsida, kas on lisatasusid, nagu saatekulud, või allahindlusi suurte tellimuste või hankija arve ennetähtaegse maksmise korral.
 
 Pakkumiskutse protsess koosneb järgmistest ülesannetest.
@@ -45,7 +45,7 @@ Saate luua pakkumiskutse juhtumi plaanitud tellimustelt, ostutaotluselt või kä
 
 Kui olete pakkumiskutse ette valmistanud ja hankijad lisanud, valige pakkumiskutses **Saada** (**Saada ja avalda** avaliku sektori korral). Iga hankija kohta, kellele pakkumiskutse saadate, luuakse pakkumiskutse tööleht. Saate konfigureerida saatmistegevuse prindisuvandeid kas printima iga hankija kohta aruande arhiivi või saatma aruande iga hankija meiliaadressile. Peale selle saate iga hankija pakkumiskutse töölehe abil luua aruande, mille saate hankijale saata kohe või hiljem uuesti. Samuti saate konfigureerida saatmistegevuse nii, et see loob vastuselehe, mille hankija saab täita.
 
-Selles teemas käsitletakse pakkumiskutsete käsitlemise protsessi, kui hankija koostööd ei kasutata. Kui teie süsteem on seadistatud hankija koostöö kasutamiseks, saavad hankijad sisestada pakkumised otse rakenduses Supply Chain Management. Lisateavet vt teemast [Hankija koostöö klientidega](/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) ja [Hankija koostöö väliste hankijatega](vendor-collaboration-work-external-vendors.md).
+See artikkel hõlmab pakkumiskutsete töötlemise protsessi, kui hankija koostöö ei kasutata. Kui teie süsteem on seadistatud hankija koostöö kasutamiseks, saavad hankijad sisestada pakkumised otse rakenduses Supply Chain Management. Lisateavet vt teemast [Hankija koostöö klientidega](/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) ja [Hankija koostöö väliste hankijatega](vendor-collaboration-work-external-vendors.md).
 
 Kui peate pakkumiskutset pärast selle saatmist täiendama, saate pakkumiskutse hankijatele uuesti saata, kasutades kaht täiendamistegevust: loomine ja lõpetamine.
 
@@ -59,7 +59,7 @@ Pärast seda, kui valite pakkumise või ridade arvu pakkumises, saate aktsepteer
 
 Pakkumiskutsel on kaks olekut: madalaim ja kõrgeim, saate olekut vaadata suvandi **Kõik pakkumiskutsed** loendilehel. Madalaim olek on pakkumiskutse juhtumil ükskõik millise rea kõige vähemarenenum etapp ja kõrgeim olek on pakkumiskutse juhtumil ükskõik millise rea kõige arenenum etapp. Oletame näiteks, et kolme reaga pakkumiskutse juhtum saadetakse kahele hankijale, nii et olemas on kaks kolme reaga pakkumiskutset. Kõik read on olekuga **Saadetud**. Nüüd sisestatakse ühest hankijast pakkumine ja pakkumiskutse rea olekuks määratakse **Vastu võetud**. See tähendab, et pakkumiskutse juhtumi kolmest reast on ühe pakkumiskutse korral kõik neist **Saadetud** ja teise pakkumiskutse korral **Vastu võetud**. Madalaim olek on sellisel juhul **Saadetud** ja kõrgeim olek **Vastu võetud.**
 
-Neid olekuid kirjeldatakse üksikasjalikumalt selles teemas allpool.
+Neid olekuid kirjeldatakse üksikasjalikumalt selles artiklis.
 
 ## <a name="setting-up-rfq-functionality"></a>Pakkumiskutse funktsiooni seadistamine
 

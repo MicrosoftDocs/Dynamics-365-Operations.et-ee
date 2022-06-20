@@ -12,12 +12,12 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 296cee4c5da82d8bfcab298a5a2a13d982f8f808
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 05f2f11408dac93faa8f71cb0396893c03cdb6a0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672090"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851880"
 ---
 # <a name="learning-catalog-for-dynamics-365-supply-chain-management-functional-consultants"></a>Õppekataloog Dynamics 365 Supply Chain Managementi funktsionaalsetele konsultantidele
 
@@ -68,7 +68,7 @@ Meie tööülesandeid analüüsivast uuringust selgus, et kõik funktsionaalsed 
 | [Kursus MB-300T01-A: Dynamics 365 for Finance and Operationsi ühiseid põhifunktsioonid](https://www.microsoft.com/learning/course.aspx?cid=MB-300T01) | Kursus hõlmab Microsoft Dynamics 365 for Finance and Operationsi ühiseid põhifunktsioone. | Juhendaja juhitud isiklik või võrgukoolitus; hinnad on piirkonniti ja partnerite puhul erinevad | 1 päev |
 | [Kursus MB-300T02-: Dynamics 365 for Finance and Operationsi põhikonfiguratsioonid](https://www.microsoft.com/learning/course.aspx?cid=MB-300T02) | Kursus käsitleb Microsoft Dynamics 365 for Finance and Operationsi põhikonfiguratsiooni toiminguid. | Juhendaja juhitud isiklik või võrgukoolitus; hinnad on piirkonniti ja partnerite puhul erinevad | 1 päev |
 | [Kursus MB-300T03-A: andmemigratsioon ja ettevalmistused Dynamics 365 for Finance and Operationsiga reaalaega minemiseks](https://www.microsoft.com/learning/course.aspx?cid=MB-300T03) | See kursus käsitleb andmemigratsiooni ja ettevalmistusi Microsoft Dynamics 365 for Finance and Operationsiga reaalaega minemiseks. | Juhendaja juhitud isiklik või võrgukoolitus; hinnad on piirkonniti ja partnerite puhul erinevad | 1 päev |
-| [Juurutamise elutsükli avaleht](/dynamics365/unified-operations/fin-and-ops/imp-lifecycle/implementation-lifecycle) | Need teemad kirjeldavad programme, tööriistu ja protsesse, mis on saadaval seoses teie Microsoft Dynamics 365 for Finance and Operationsi projekti juurutamise elutsükliga. | Dokumentatsioon | |
+| [Juurutamise elutsükli avaleht](/dynamics365/unified-operations/fin-and-ops/imp-lifecycle/implementation-lifecycle) | Need artiklid kirjeldavad teie projekti rakendustsükliga seotud programme, tööriistu ja protsesse Microsoft Dynamics 365 for Finance and Operations. | Dokumentatsioon | |
 
 ## <a name="migration-and-upgrade"></a>Migreerimine ja täiendamine<a name="migration"></a>
 
@@ -104,8 +104,8 @@ Meie tööülesandeid analüüsivast uuringust selgus, et kõik funktsionaalsed 
 | [Transpordihalduse konfigureerimine ja sellega töötamine Dynamics 365 Supply Chain Managementis](/learn/paths/configure-work-transportation-mgmt-dyn365-supply-chain-mgmt/) | Transpordihalduse moodul rakenduses Dynamics 365 Supply Chain Management aitab teil leida kõige tõhusama viisi oma klientidele kaupade tarnimiseks. Transpordihalduse moodul arvutab kõige soodsama ja kiirema viisi kaupade tarnimiseks ning võimaldab teil tuvastada hankija- ja marsruudilahendusi sissetulevate ning väljaminevate tellimuste jaoks. | Tasuta iseläbitav internetipõhine õppetee | 3 tundi |
 | [Warehousing Mobile App (VIR816PAL) ](https://community.dynamics.com/365/b/techtalks/posts/warehousing-mobile-app-march-22-2017) | Selle arutelu käigus räägitakse Dynamics 365 for Operationsi täiustatud ladustamissüsteemist ja edaspidi kasutusele võetavast ladustamise täiustatud mobiililiidesest. Uurime uut mobiilirakendust ja võrdleme seda pärandportaaliga WMDP. Uurime, mida on vaja selle mobiilirakenduse installimiseks, konfigureerimiseks ja käitamiseks ning kuidas seda saab kasutada teie juurutustest kasu saamiseks. | Veebikonverentsi tasuta salvestamine | 54 minutit |
 | [Hankija koostöö (DYN327PAL) ](https://community.dynamics.com/365/b/techtalks/posts/vendor-collaboration-july-25-2017) | Selles arutelus antakse ülevaate hankija koostöö funktsioonist, sh ülevaade juuli (kevadise) väljalaske hankija funktsiooni kasutamisest. | Veebikonverentsi tasuta salvestamine | 58 minutit |
-| [Kauba ja lao migreerimisprotsess täiustatud laohalduse kasutamiseks (DYN316PAL) ](https://community.dynamics.com/365/b/techtalks/posts/item-and-warehouse-migration-process-to-use-advanced-warehouse-management-june-27-2017) | Selle arutelu käigus õpetame, kuidas olemasolevaid lao häälestusi ja avatud kannetega kaupu täpsematesse laohaldusprotsessidesse migreerida, kasutades uusi võimalusi kaupade laoala dimensiooni grupi muutmiseks ja lubades ladudel kasutada täpsemaid laohaldusprotsesse. | Veebikonverentsi tasuta salvestamine | 54 minutit |
-| [Tarneahela juhtimise avaleht](/dynamics365/unified-operations/supply-chain/) | Selles teemas on teenuse Microsoft Dynamics 365 for Finance and Operations tarneahela halduse funktsioonide spikriteemade ja muude ressursside loend. | Dokumentatsioon | |
+| [Kauba ja lao migreerimisprotsess täiustatud laohalduse kasutamiseks (DYN316PAL) ](https://community.dynamics.com/365/b/techtalks/posts/item-and-warehouse-migration-process-to-use-advanced-warehouse-management-june-27-2017) | Selle arutelu käigus õpetame, kuidas olemasolevaid lao häälestusi ja avatud kannetega kaupu täpsematesse laohaldusprotsessidesse migreerida, kasutades uusi võimalusi kaupade laoala dimensiooni grupi muutmiseks ja lubades ladudel kasutada täpsemaid laohaldusprotsesse. | Veebikonverentsi tasuta salvestus | 54 minutit |
+| [Tarneahela juhtimise avaleht](/dynamics365/unified-operations/supply-chain/) | See artikkel annab loendi spikriartiklitest ja muudest ressurssidest tarneahela haldamise funktsioonide jaoks Microsoft Dynamics 365 for Finance and Operations. | Dokumentatsioon | |
 | [Toormaterjali komplekteerimise nõudluse täiendamine (DYN333PAL2) ](https://community.dynamics.com/365/b/techtalks/posts/demand-replenishment-for-raw-material-picking-september-28-2017) | See arutelu käsitleb toormaterjali komplekteerimise nõudluse täiendamist toormaterjali komplekteerimisel. | Veebikonverentsi tasuta salvestamine | 38 minutit |
 | [Kursus MB-330T01-A: Supply Chain Managementi konfigureerimine ja kasutamine Dynamics 365 for Finance and Operationsis](https://www.microsoft.com/learning/course.aspx?cid=MB-330T01) | Sellel kursusel räägitakse Supply Chain Managementi konfigureerimisest ja kasutamisest Dynamics 365 for Finance and Operationsis. | Juhendaja juhitud isiklik või võrgukoolitus; hinnad on piirkonniti ja partnerite puhul erinevad | 2 päeva |
 | [Kursus MB-330T02-A: kvaliteedijuhtimise, kontsernisisese kauplemise ja koondplaneerimise kasutamine Dynamics 365 for Finance and Operationsis](https://www.microsoft.com/learning/course.aspx?cid=MB-330T02) | Sellel kursusel räägitakse kvaliteedijuhtimise, kontsernisisese kauplemise ja koondplaneerimise kasutamisest Dynamics 365 for Finance and Operationsis. | Juhendaja juhitud isiklik või võrgukoolitus; hinnad on piirkonniti ja partnerite puhul erinevad | 1 päev |

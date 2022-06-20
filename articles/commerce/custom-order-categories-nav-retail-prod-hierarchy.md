@@ -1,6 +1,6 @@
 ---
 title: Kaubastamisolemite sortimisjärjestuse muutmine
-description: Selles teemas selgitatakse mõisteid, mis on seotud erinevate kaubastamisega seotud olemite kuvamisjärjestuse juhtimisega rakenduses Dynamics 365 Commerce.
+description: See artikkel selgitab eri tootega seotud üksuste kuvamisjärjestuse juhtimisega seotud mõisteid Dynamics 365 Commerce.
 author: josaw1
 ms.date: 08/05/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: brshoo
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 444f1ebd99cf8443181a51d93a48b6b4d1addf4d
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: 4e7a7bd42b0ef72ae6bc3f52a8857602b6282907
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779538"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847650"
 ---
 # <a name="change-the-sort-order-for-merchandising-entities"></a>Kaubastamisolemite sortimisjärjestuse muutmine
 
@@ -29,7 +29,7 @@ ms.locfileid: "7779538"
 
 Jaemüüjad peavad toodete avastamist esmaseks vahendiks klientidega suhtlemisel kõigis kanalites. Erinevad funktsioonid aitavad klientidel tooteid hõlpsasti avastada. Näiteks saavad nad sirvida kategooriaid, otsida ja filtreerida.
 
-Selles teemas selgitatakse mõisteid, mis on seotud erinevate kaubastamisega seotud olemite kuvamisjärjestuse juhtimisega. Samuti selgitatakse, kuidas muuta sortimisjärjestust.
+See artikkel selgitab eri tootega seotud üksuste kuvamisjärjestuse juhtimisega seotud mõisteid. Samuti selgitatakse, kuidas muuta sortimisjärjestust.
 
 ## <a name="overview"></a>Ülevaade
 

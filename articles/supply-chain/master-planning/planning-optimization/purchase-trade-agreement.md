@@ -1,6 +1,6 @@
 ---
-title: Koondplaneerimine ostulepingutega
-description: Selles teemas kirjeldatakse, kuidas planeerimise optimeerimine võib leida ostulepingute seas leitud parima hinna ja täitmisaja alusel planeeritud tellimuse hankija ja/või täitmisaja.
+title: Koondplaneerimine koos ostu kaubanduslepetega
+description: See artikkel kirjeldab, kuidas planeerimise optimeerimine suudab leida plaanitud tellimuse hankija ja/või täitmisaja, mis põhineb ostu kaubandusleppes oleval parimal hinnal või täitmisajal.
 author: t-benebo
 ms.date: 06/29/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: cb790836042506ed6676ee7edbd8bba58191519b
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 29f0f44289e44b21cb304bd1f423d63f9f58f2db
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468409"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873749"
 ---
-# <a name="master-planning-with-purchase-trade-agreements"></a>Koondplaneerimine ostulepingutega
+# <a name="master-planning-with-purchase-trade-agreements"></a>Koondplaneerimine koos ostu kaubanduslepetega
 
 [!include [banner](../../includes/banner.md)]
 
-Selles teemas kirjeldatakse, kuidas planeerimise optimeerimine võib leida kõigi konkreetse toote jaoks täpsustatud ostulepingute seas leitud parima hinna ja täitmisaja alusel planeeritud tellimuse hankija ja/või täitmisaja.
+See artikkel kirjeldab, kuidas planeerimise optimeerimine suudab leida plaanitud tellimuse hankija ja/või täitmisaja, mis põhineb parimal hinnal või täitmisajal, mis leitakse kõigi antud toote jaoks määratud ostu kaubandusleppete vahel.
 
 ## <a name="turn-on-the-purchase-trade-agreements-for-planning-optimization-feature"></a>Planeerimise optimeerimise funktsiooni jaoks ostulepingute sisse lülitamine
 

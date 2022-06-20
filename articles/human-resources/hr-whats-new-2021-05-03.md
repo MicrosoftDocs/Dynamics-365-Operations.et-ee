@@ -1,6 +1,6 @@
 ---
 title: Mis on uus või muudetud rakenduses Dynamics 365 Human Resources (3. mai 2021)
-description: Selles teemas kirjeldatakse Microsoft Dynamics 365 Human Resourcesi 3. mai 2021 uusi või muutunud funktsioone.
+description: Selles artiklis kirjeldatakse Microsoft Dynamics 365 Human Resourcesi 3. mai 2021 uusi või muutunud funktsioone.
 author: marcelbf
 ms.date: 05/03/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-05-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 01babeae8ccb5af5e414cb78734ce05adf670277
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 01ebd15e09e181a7ea0ec5bf70c8df731d2169c0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689771"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902856"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-3-2021"></a>Mis on uus või muudetud rakenduses Dynamics 365 Human Resources (3. mai 2021)
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Selles teemas kirjeldatakse Dynamics 365 Human Resourcesi uusi, muutunud või peatselt tulevaid funktsioone.
+See artikkel kirjeldab funktsioone, mis on uued, muutunud või tulevad varsti Dynamics 365 Human Resources.
 
 Meie värskendamisprotsessi ja graafiku kohta lisateabe saamiseks vt teemat [Värskendamisprotsess](hr-admin-setup-update-process.md).
 
@@ -48,9 +48,9 @@ Selle väljalaskega tulevad üldiselt kättesaadavaks järgmised funktsioonid.
 See väljalase hõlmab järgmisi veaparandusi.
 
 > [!NOTE]
-> Meie eesmärk on edastada teile see teave esimesel võimalusel. Võime värskendada seda teemat, et lisada sellesse versioonijärku pärast selle teema esialgset avaldamist tehtud veaparandusi.
+> Meie eesmärk on edastada teile see teave esimesel võimalusel. Võime seda artiklit värskendada, et kaasata vigaparandused, mis muutsid selle järku pärast selle artikli algset avaldamist.
 
-| Väljaande number | Väljasta |  Kirjeldus |
+| Väljaande number | Probleem |  Kirjeldus |
 | --- | --- | --- |
 | 559312 |  Töötaja fikseeritud tasuplaani loomisel taset ei kuvata. |  Kui kasutaja ajavöönd ja ettevõtte ajavöönd ei kattu, ei õnnestunud töö kompensatsioonitaset lugeda. Päringut värskendati UTC-kellaajal põhinevaks toomiseks. |
 | 573676  | Uut perioodi ei saa vormi **Eelistuste plaan** lisada. | Vormi värskendati nii, et **Uus** nupp oleks lisatud kiirkaardi **Periood** kiirkaardi jaotises **Soodustusplaanid**. |

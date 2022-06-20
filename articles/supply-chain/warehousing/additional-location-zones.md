@@ -1,6 +1,6 @@
 ---
 title: Täiendavad asukohatsoonid
-description: Selles teemas antakse ülevaate uutest Microsoft Dynamics 365 Supply Chain Managementi lisatud asukohatsoonidest.
+description: See artikkel annab ülevaate uutest Microsofti lisatud asukohatsoonidest Dynamics 365 Supply Chain Management.
 author: Mirzaab
 ms.date: 07/01/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: dd9e97cabe5e3d3bdc261a7280930b73eb8e1419
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: c20225cfb3c44fff955d0ad4e96c7fecf0ddf715
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103834"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900647"
 ---
 # <a name="additional-location-zones"></a>Täiendavad asukohatsoonid
 

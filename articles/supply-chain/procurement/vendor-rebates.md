@@ -1,6 +1,6 @@
 ---
 title: Hankija tagasimaksed
-description: Selles teemas antakse ülevaade kõige levinumatest ülesannetest, mida on vaja teha hankija tagasimaksetega töötamisel. Hankija tagasimaksed aitavad ettevõtetel tarnijate tagasimakseprogramme paremini hallata, automatiseerides toiminguid, mis on vajalikud teenitud tagasimaksete haldamiseks, jälgimiseks ja nõudmiseks.
+description: See artikkel annab ülevaate kõige tavalisematest ülesannetest, mida võite soovida hankija tagasimaksetega töötades teha. Hankija tagasimaksed aitavad ettevõtetel tarnijate tagasimakseprogramme paremini hallata, automatiseerides toiminguid, mis on vajalikud teenitud tagasimaksete haldamiseks, jälgimiseks ja nõudmiseks.
 author: GalynaFedorova
 ms.date: 06/20/2017
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 2012
-ms.openlocfilehash: ed41fe18048050ecb80a93e929d66ebc3a2e2441
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 789a58af40595cbb72d55d598510c43315aead2b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672958"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890795"
 ---
 # <a name="vendor-rebates"></a>Hankija tagasimaksed
 
@@ -26,7 +26,7 @@ ms.locfileid: "8672958"
 
 Hankija tagasimaksed aitavad ettevõtetel tarnijate tagasimakseprogramme paremini hallata, automatiseerides toiminguid, mis on vajalikud teenitud tagasimaksete haldamiseks, jälgimiseks ja nõudmiseks.
 
-Selles teemas antakse ülevaade kõige levinumatest ülesannetest, mida on vaja teha hankija tagasimaksetega töötamisel. Ülevaade hõlmab järgmisi ülesandeid.
+See artikkel annab ülevaate kõige tavalisematest ülesannetest, mida võite soovida hankija tagasimaksetega töötades teha. Ülevaade hõlmab järgmisi ülesandeid.
 
 - Tagasimakselepingu üksikasjade ülevaatamine.
 - Tagasimaksetele kvalifitseeruvate tellimuste tuvastamine ja tagasimaksenõuete koostamine.
@@ -34,7 +34,7 @@ Selles teemas antakse ülevaade kõige levinumatest ülesannetest, mida on vaja 
 
 ## <a name="audience-and-purpose"></a>Sihtgrupp ja eesmärk
 
-Selles teemas sisalduv teave on mõeldud ettevõtete äriotsuste tegijatele (ametikohad nagu ostujuht, finantsjuht ja pearaamatupidaja), kellel on järgmised ülesanded.
+Selle artikli teave on mõeldud äriotsuste langetajatele ettevõtte ettevõtetes, näiteks ostujuht, finantsdirektor (CFO) ja raamatupidaja, kellel on järgmised kohustused:
 
 - Läbirääkimiste pidamine hankijate hindade, allahindluste ja tagasimakselepingute teemal.
 - Tagasimaksenõuete töötlemise ja maksete sissenõudmisega tegelevate töötajate juhtimine.

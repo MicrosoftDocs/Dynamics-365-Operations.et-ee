@@ -1,6 +1,6 @@
 ---
 title: Täpsemad vormingusuvandid finantsaruandluses
-description: Selles teemas kirjeldatakse täpsemaid vormindamise funktsioone, sealhulgas filtrid, piirangud, mitte prinditavad read ja arvutuste tingimuslaused.
+description: See artikkel kirjeldab täpsemaid vormindamise funktsioone, sh filtreid, piiranguid, mitteprintimisridasid ja tingimuslauseid arvutustes.
 author: panolte
 ms.date: 04/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e15869fdd598aeec7ef616f6d54593c7551cb906ab53763a64f4202473bcd926
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3ede95ff196abab450a478fef9e024490d22e00f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760122"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906664"
 ---
 # <a name="advanced-formatting-options-in-financial-reporting"></a>Täpsemad vormingusuvandid finantsaruandluses
 

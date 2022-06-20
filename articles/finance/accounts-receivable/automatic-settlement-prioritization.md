@@ -1,6 +1,6 @@
 ---
 title: Automaatne tasakaalustus ja prioritiseerimine
-description: See teema kirjeldab, kuidas kandeid tasakaalustatakse, kui teete lehel Müügireskontro parameetrid valiku Automaatne tasakaalustamine. Samuti selgitab see, kuidas automaatset tasakaalustamist saab koos makse prioriteediga kasutada.
+description: See artikkel kirjeldab, kuidas kandeid tasakaalustatakse, kui teete lehel Müügireskontro parameetrid valiku Automaatne tasakaalustamine. Samuti selgitab see, kuidas automaatset tasakaalustamist saab koos makse prioriteediga kasutada.
 author: ShivamPandey-msft
 ms.date: 01/30/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 47ccdb49b4d5c43b4f9cb9a967bd30376474e4c1
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: bd5b894c82beb1b5d69ad6bf485161ab9c91a806
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8712254"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855516"
 ---
 # <a name="automatic-settlement-and-prioritization"></a>Automaatne tasakaalustus ja prioritiseerimine
 
 [!include [banner](../includes/banner.md)]
 
-See teema kirjeldab, kuidas kandeid tasakaalustatakse, kui teete lehel Müügireskontro parameetrid valiku Automaatne tasakaalustamine. Samuti selgitab see, kuidas automaatset tasakaalustamist saab koos makse prioriteediga kasutada.
+See artikkel kirjeldab, kuidas kandeid tasakaalustatakse, kui teete lehel Müügireskontro parameetrid valiku Automaatne tasakaalustamine. Samuti selgitab see, kuidas automaatset tasakaalustamist saab koos makse prioriteediga kasutada.
 
 Maksete tasakaalustamisel arvete ja muude kannetega on kaks võimalust. Saate valida tasakaalustatavad kanded käsitsi või süsteem võib valida kanded automaatselt, kasutades automaatse tasakaalustamise funktsiooni. Saate kohandada ka automaatsete tasakaalustuste töötlemise viisi, kasutades suvandit **Tasakaalustuse prioriseerimine**. Kõik need suvandid on osa tasakaalustuse parameetritest, mis on määratletud lehel **Müügireskontro parameetrid**. Kannete automaatse tasakaalustamise viis võib erineda, sõltuvalt meetodist, mida automaatseks tasakaalustamiseks kasutate. Saadaval on järgmised meetodid:
 

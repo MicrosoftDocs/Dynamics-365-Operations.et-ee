@@ -1,6 +1,6 @@
 ---
 title: Ergutussüsteemi plaanide loomine
-description: Selles teemas kirjeldatakse komponente, mis peavad olema seadistatud, enne kui saate kasutada ergutussüsteemi ja registreerida töötaja ergutussüsteemi plaani.
+description: Selles artiklis kirjeldatakse komponente, mis peavad olema seadistatud, enne kui saate kasutada ergutussüsteemi ja registreerida töötaja ergustussüsteemi plaani.
 author: twheeloc
 ms.date: 08/24/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 589990c48d115266b57589f905de20572e76a040
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 22788dff1ee29b6920426d8ff00d412c3d5564e0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688653"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853070"
 ---
 # <a name="create-variable-compensation-plans"></a>Ergutussüsteemi plaanide loomine
 
@@ -28,7 +28,7 @@ ms.locfileid: "8688653"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Ergutussüsteem moodustab töötaja ebaregulaarse tasu, nagu lisatasud või aktsiapreemiad. Selles teemas selgitatakse, kuidas seadistada muutuva hüvitise jaoks vajalikke komponente ja registreerida töötaja muutuva töötasuga plaani.
+Ergutussüsteem moodustab töötaja ebaregulaarse tasu, nagu lisatasud või aktsiapreemiad. See artikkel selgitab, kuidas seadistada komponente, mida on vaja muutuja kompensatsiooniks ja töötaja registreerimine tulemustasu plaani.
 
 Ergutussüsteemi summade arvutamine töötajatele võib põhineda mitmel teguril, näiteks töötaja tulemustel, töötaja palgatasemel ja osakonna tulemustel.
 

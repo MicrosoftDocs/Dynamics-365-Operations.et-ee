@@ -1,6 +1,6 @@
 ---
 title: Loodud dokumentidele kohandatud salvestuskohtade määramine
-description: Selles teemas selgitatakse, kuidas laiendada talletuskohtade loendit dokumentidele, mille on loodud elektroonilise aruandluse (ER) vormingud.
+description: See artikkel selgitab, kuidas laiendada ladustamise asukohtade loendit dokumentidele, mis on loodud elektroonilise aruandluse (ER) vormingutes.
 author: NickSelin
 ms.date: 10/29/2020
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 337e760f28161721d886c7bbec09b5ff8dbfad45
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 103a7e51fc6042e19b1db3b3d6b00436df15fd89
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7594905"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898852"
 ---
 # <a name="specify-custom-storage-locations-for-generated-documents"></a>Loodud dokumentidele kohandatud salvestuskohtade määramine
 
 [!include[banner](../includes/banner.md)]
 
-Elektroonilise aruandluse (ER) rakenduse programmeerimisliidese (API) raamistik võimaldab teil laiendada talletuskohtade loendit ER vormingute loodavatele dokumentidele. See teema selgitab, kuidas lisada loodud dokumentidele kohandatud talletuskoht, delegeerides ülesande luua ER-i sihtkohad vaikimisi sihtkoha tehases ja rakendada seejärel kohandatud klassi, millel on oma sihtkoha loogika.
+Elektroonilise aruandluse (ER) rakenduse programmeerimisliidese (API) raamistik võimaldab teil laiendada talletuskohtade loendit ER vormingute loodavatele dokumentidele. See artikkel selgitab, kuidas lisada loodud dokumentide jaoks kohandatud ladustamiskoht, delegeerides ülesande luua ER sihtkohad vaikesihtkoha tehasesse ja rakendades seejärel kohandatud klassi, kus on oma sihtkoha loogika.
 
 ## <a name="prerequisites"></a>Eeltingimused
 
@@ -35,7 +35,7 @@ Juurutage topoloogia, mis toetab pidevat järku. Lisainfo saamiseks vt [Pideva j
 
 Samuti peab teil selle topoloogia puhul olema juurdepääs arenduskeskkonnale.
 
-Kõik selle teema ülesanded saab täita ettevõttes **USMF**.
+Kõik selle artikli ülesanded saab USMF-ettevõttes **lõpule** viia.
 
 ## <a name="import-the-fixed-asset-roll-forward-er-format"></a>Impordib põhivara edasiarendus ER-i vormingus
 

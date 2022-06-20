@@ -1,6 +1,6 @@
 ---
 title: FUNKTSIOON GETLABELTEXT ER
-description: See teema annab teavet selle kohta, kuidas kasutatakse funktsiooni GETLABELTEXT Electronic reporting (ER).
+description: See artikkel annab teavet selle kohta, kuidas getLABELTEXT elektroonilise aruandluse (ER) funktsiooni kasutatakse.
 author: NickSelin
 ms.date: 03/18/2022
 ms.prod: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2022-01-01
 ms.dyn365.ops.version: AX 10.0.25
-ms.openlocfilehash: 2ce66c9410abeee16bbd074204262edf79bf6d68
-ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.openlocfilehash: cb3af10d4725e87190f901aa99378e10bdf05bee
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8462407"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877063"
 ---
 # <a name="getlabeltext-er-function"></a>FUNKTSIOON GETLABELTEXT ER
 
@@ -42,7 +42,7 @@ GETLABELTEXT (label id, language)
 Ühe järgmise silditüübi kehtiv ID:
 
 - [Elektroonilise aruandluse (ER)](general-electronic-reporting.md) silt
-- Microsofti Dynamics 365 Finance silt
+- Microsoft Dynamics 365 finantside silt
 
 #### <a name="usage-notes"></a>Kasutamise märkused
 

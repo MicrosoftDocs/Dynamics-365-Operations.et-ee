@@ -1,6 +1,6 @@
 ---
 title: Kvaliteedi ja mittevastavuse haldamise ülevaade
-description: See teema tutvustab Microsoft Dynamics 365 Supply Chain Management kvaliteedi ja mittevastavuse haldamise funktsioone ja selgitab, kuidas need aitavad parandada toote kvaliteeti tarneahelas.
+description: See artikkel tutvustab Microsofti kvaliteedi ja mittevastavuse haldamise Dynamics 365 Supply Chain Management funktsioone ja selgitab, kuidas need aitavad parandada toote kvaliteeti tarneahelas.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1bb4bcb7f554c22b4e1ab1b41867bd2d3dcca4d4
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 510dee78f6fed02e6511aedad00fcb1b15195470
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985505"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907489"
 ---
 # <a name="quality-and-nonconformance-management-overview"></a>Kvaliteedi ja mittevastavuse haldamise ülevaade
 
 [!include [banner](../includes/banner.md)]
 
-See teema tutvustab Microsoft Dynamics 365 Supply Chain Management kvaliteedi ja mittevastavuse haldamise funktsioone ja selgitab, kuidas need aitavad parandada toote kvaliteeti tarneahelas.
+See artikkel tutvustab Microsofti kvaliteedi ja mittevastavuse haldamise Dynamics 365 Supply Chain Management funktsioone ja selgitab, kuidas need aitavad parandada toote kvaliteeti tarneahelas.
 
 Kvaliteedijuhtimine hõlmab toote testimist ja mittevastava materjali haldamist. Kvaliteedijuhtimise protsessid aitavad tagada toote kõrge kvaliteedi teie tarneahelas. Need protsessid aitavad optimeerida ka tarneahela protsesse ja suurendada klientide rahulolu. Kvaliteedijuhtimise abil saate hallata ümberpööramise aegu, kui käsitsete mittevastavaid tooteid, olenemata nende toodete päritolukohast. Saate siduda diagnostilisi tulemusi parandustoimingutega. Süsteem saab probleemide lahendamiseks ülesandeid plaanida ja seega aidata vältida tulevikus nende probleemide kordumist. Kvaliteedijuhtimine võimaldab teil ka probleeme (sealhulgas ettevõttesiseseid probleeme) probleemi tüübi järgi jälgida ja leida lühiajalisi või pikaajalisi lahendusi. Tulemuslikkuse võtmenäitajate (KPI) statistika annab ülevaate varasematest mittevastavuse probleemidest ja nende kõrvaldamiseks kasutatud lahendustest. Saate kasutada varasemaid andmeid varasemate kvaliteedimeetmete tulemuslikkuse ülevaatamiseks ja sobivate tulevikus kasutatavate meetmete määramiseks.
 

@@ -1,6 +1,6 @@
 ---
 title: Hoolduslepete täitmise ülevaade
-description: Selles teemas antakse ülevaade hoolduslepete täitmise ülesannetest.
+description: See artikkel annab teenuselepete täitmise ülesannete ülevaate.
 author: sorenva
 ms.date: 05/03/2018
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9c0331477a815c7404faa9bde43275415c3994fd
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 920ac245c94d87ac692b173012e88dc8c1352f8f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677194"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852095"
 ---
 # <a name="fulfill-service-agreements-overview"></a>Hoolduslepete täitmise ülevaade
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas antakse ülevaade hoolduslepete täitmise ülesannetest. Käesolevas teemas loetletakse iga äriprotsessi komponendiga seotud vormid ja arutatakse iga äriprotsessi komponendiga seotud ülesandeid.
+See artikkel annab teenuselepete täitmise ülesannete ülevaate. Artikkel loetleb ka vormid, mis on seotud iga äriprotsessi komponendiga ja käsitleb ülesandeid, mis on seotud iga äriprotsessikomponendiga.
 
 ## <a name="forms-for-the-fulfill-service-contracts-business-process-components"></a>Hoolduslepete äriprotsessi komponentide täitmise vormid
 

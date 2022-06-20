@@ -1,6 +1,6 @@
 ---
 title: PayPali kiirmaksete konfigureerimine
-description: See teema kirjeldab, kuidas konfigureerida PayPali kiirmakseid, et lubada kiiremaid väljaregistreerimise võimalusi Microsoft Dynamics 365 Commerce.
+description: See artikkel kirjeldab, kuidas konfigureerida PayPali kiirmakseid, et lubada kiiremaid väljaregistreerimise võimalusi Microsoft Dynamics 365 Commerce.
 author: BrianShook
 ms.date: 05/11/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 5fff17959e7ed9299df169c68b2ed07f6b7c7d2c
-ms.sourcegitcommit: e4cc43b06ef3f0f562849e2c960025cb244d6017
+ms.openlocfilehash: b69b7384992fb86370ff6881824a7d2c9a77d2c4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/12/2022
-ms.locfileid: "8743597"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905278"
 ---
 # <a name="configure-express-payments-for-paypal"></a>PayPali kiirmaksete konfigureerimine
 
 [!include [banner](../includes/banner.md)]
 
-See teema kirjeldab, kuidas konfigureerida PayPali kiirmakseid, et lubada kiiremaid väljaregistreerimise võimalusi Microsoft Dynamics 365 Commerce.
+See artikkel kirjeldab, kuidas konfigureerida PayPali kiirmakseid, et lubada kiiremaid väljaregistreerimise võimalusi Microsoft Dynamics 365 Commerce.
 
 ## <a name="key-terms"></a>Põhimõisted
 
@@ -28,7 +28,7 @@ See teema kirjeldab, kuidas konfigureerida PayPali kiirmakseid, et lubada kiirem
 |---|---|
 | PayPali väljaminek | Kliendikogemus ja integratsioon, mida PayPal Connector toetab. Seda nimetatakse ka PayPali nupuks. |
 | Rahakott | Maksetüüp, mis ei sisalda traditsioonilisi makse omadusi nt panga ID-koodi (BIN) vahemikku ja aegumiskuupäeva, mida kasutatakse krediit- ja deebetkaardi tüüpide eristamiseks. |
-| Kiirmakse | Commerce'i moodul, mis toetab toetatud makseviiside kasutamisel kiiremat väljaregistreerimise käitumist. See teema käsitleb PayPaliga kiirmakse kiirmooduli kasutamist. |
+| Kiirmakse | Commerce'i moodul, mis toetab toetatud makseviiside kasutamisel kiiremat väljaregistreerimise käitumist. See artikkel hõlmab kiirmakse kiirmooduli kasutamist PayPaliga. |
 
 Dynamics 365 Commerce Rakendus <a0/& pakub väljaminekuvälist integratsiooni PayPal Karbi jaoks. Kui Dynamics 365 Payment Connector PayPali jaoks on konfigureeritud, kuvatakse PayPali nupp valitava makseviisina võrgutellimuse väljaregistreerimise ajal. Kui kasutajad valite PayPali, suunatakse nad oma makse otse PayPali kaudu lõpule viima ja seejärel tagastatakse e-poodi tellimuse lõpetamiseks. PayPali ostukorvi väljaregistreerimine, et kliendid saaksid kasutada oma maksekonto teavet väljaregistreerimise vormi eeltäitmiseks, et nad saaksid väljaregistreerimise protsessi kiiremini lõpule viia.
 
@@ -83,7 +83,7 @@ Makse väljendamise killu lisamiseks väljaregistreerimise leheküljele saidi ko
 1. Konteineri **atribuutide** paanil on soovitatav konfigureerida atribuudi sätted järgmisel viisil:
 
     - **Konteineri** paigutus – valige **virnastatud**.
-    - **Laius**: valige **täitekonteiner**.
+    - **Laius** : valige **täitekonteiner**.
     - **Kuvatud last** – valige **kolm**.
 
 1. **Valige konteineri** pesast kolmikpunkt (**...**) ja seejärel valige käsk Lisa **kill.**

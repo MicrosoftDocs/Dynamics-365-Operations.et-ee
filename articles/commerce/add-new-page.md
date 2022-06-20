@@ -1,6 +1,6 @@
 ---
 title: Uue saidilehe lisamine
-description: Selles teemas kirjeldatakse, kuidas lisada rakenduses Microsoft Microsoft Dynamics 365 Commerce uus saidi leht.
+description: See artikkel kirjeldab, kuidas lisada uus saidileht moodulisse Microsoft Dynamics 365 Commerce.
 author: psimolin
 ms.date: 02/03/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e0c2a73ae9e85cb299e7cb6fc70562659cdfadc5
-ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
+ms.openlocfilehash: 76fc3f52746943d5cbf1cb31e677344a1d14bee3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8090715"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871724"
 ---
 # <a name="add-a-new-site-page"></a>Uue saidilehe lisamine
 
 [!include [banner](includes/banner.md)]
 
-Selles teemas kirjeldatakse, kuidas lisada rakenduses Microsoft Microsoft Dynamics 365 Commerce uus saidi leht.
+See artikkel kirjeldab, kuidas lisada uus saidileht moodulisse Microsoft Dynamics 365 Commerce.
 
 Pärast saidi mallide ja fragmentide loomist on järgmine etapp lehtede loomise alustamine, mis neid kasutavad. Alustamiseks peate valima malli või paigutuse, lehe nime ja lehe URL-i.
 
@@ -33,11 +33,11 @@ Pärast saidi mallide ja fragmentide loomist on järgmine etapp lehtede loomise 
 
 Saate kasutada kas oma uue lehe malli või paigutust. Lisateavet vaadake teemast [Mallide ja paigutuste ülevaade](templates-layouts-overview.md).
 
-## <a name="specify-the-page-name"></a>Lehe nime määramine
+## <a name="specify-the-page-name"></a>Määrake lehe nimi
 
-Lehe nimi peab olema teie saidile ainulaadne ja kirjeldav, et saaksite selle hõlpsalt leida ja teised inimesed teaksid, milleks leht mõeldud on. Lehe saate hiljem ümber nimetada, redigeerides seda ja valides seejärel atribuudipaanil lehe nime kõrval pliiatsi sümboli.
+Lehe nimi peab teie saidi jaoks kordumatu olema ja seda kirjeldama, et seda oleks lihtne leida ja teised inimesed teaksid, mille jaoks see lehekülg on mõeldud. Saate oma lehe hiljem ümber nimetada, redigeerides selle ja valides seejärel atribuudipaanilt lehekülje nime kõrvalt amplijamärgi.
 
-## <a name="specify-the-page-url"></a>Lehe URL-i määramine
+## <a name="specify-the-page-url"></a>Lehe URL-i määratlemine
 
 Teil võib olla võimalus sisestada uue lehe URL. Lehe loomisel saate sisestada stringi, mida kasutatakse täieliku URL-i moodustamiseks. See string on tuntud kui suhteline URL või URL-i komponent. Seejärel luuakse URL-i komponendi põhjal täielik URL ja sellele määratakse uus leht. Saate URL-i komponenti hiljem muuta, enne kui avaldate lehe. Lisateavet vaadake teemast [Lehe URL-i loomine](create-page-URL.md) .
 

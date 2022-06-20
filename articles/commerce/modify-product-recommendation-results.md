@@ -1,6 +1,6 @@
 ---
 title: AI-ML-põhiste tootesoovituse tulemuste kohandamine
-description: Selles teemas selgitatakse, kuidas kohandada tehisintellekti masinõppel (AI-ML) põhinevaid tootesoovituse tulemusi teie ettevõttele.
+description: See artikkel selgitab, kuidas kohandada tootesoovituse tulemusi, mis põhinevad microsofti teabe-masinteabel (AI-PLAANI) teie ettevõttele.
 author: bebeale
 ms.date: 05/26/2020
 ms.topic: article
@@ -16,19 +16,19 @@ ms.search.industry: Retail
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5374b2ce559134bd26036b06ac6d96a9f5510ab847544707fc9885506aaab547
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d74fa013d44e0f113bdf0ce0ca9efeb943926e9f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748518"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901698"
 ---
 # <a name="adjust-ai-ml-based-product-recommendation-results"></a>AI-ML-põhiste tootesoovituse tulemuste kohandamine
 
 
 [!include [banner](includes/banner.md)]
 
-Selles teemas selgitatakse, kuidas kohandada tehisintellekti masinõppel (AI-ML) põhinevaid tootesoovituse tulemusi teie ettevõttele. 
+See artikkel selgitab, kuidas korrigeerida tootesoovituse tulemusi, mis põhinevad microsofti teabe-masinteabel (AI-PLAANI) teie ettevõttele. 
 
 Pärast tootesoovituste lubamist hakkavad kehtima vaikesätted; need parameetrid töötavad, võivad töötada paljude vajaduste jaoks. Parim on planeerida kulutada aega hindamisele, kas tulemused vastavad toodete müügiliikumisele. Soovitame hinnata tulemusi paar päeva, enne kui muudate parameetreid vastavalt vajadusele enne uuesti testimist. 
 

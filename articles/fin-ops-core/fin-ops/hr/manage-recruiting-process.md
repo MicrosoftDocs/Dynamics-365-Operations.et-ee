@@ -1,6 +1,6 @@
 ---
 title: Värbamisprotsesside haldus
-description: See teema kirjeldab kontseptsiooni, mida värbamisjad saavad kasutada värbamisprotsessi sammude jälgimiseks.
+description: See artikkel kirjeldab kontseptsiooni, mida värbajad saavad kasutada värbamisprotsessi sammude jälgimiseks.
 author: twheeloc
 ms.date: 01/10/2022
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eb7cc1db906ba0cd07caaa1d82a12182f78b19ba
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 1ada6dfc9b227c7ae4ca873e8354d1fcc11ecbaf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735370"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910315"
 ---
 # <a name="manage-recruiting-processes"></a>Värbamisprotsesside haldus
 
 > [!IMPORTANT]
-> Selle teema värbamisfunktsioone nimetatakse värbamisprojektideks ning see keskendub kandidaatidele, avaldustele ja värbamisprojektidele. 
+> Selle artikli värbamisfunktsioone nimetatakse värbamisprojektideks ning see keskendub kandidaatidele, avaldustele ja värbamisprojektidele. 
 
 
-See teema kirjeldab võimalusi, kuidas värbajad saavad jälgida värbamise etappe, sh vabade ametikohtade reklaamimiseks ja kandidaatide värbamiseks, kandidaadi ja avalduse teabe jälgimiseks, kandidaatide intervjueerimiseks ja vaba ametikoha täitmiseks ühe või mitme kandidaadi väljavalimiseks tehtud pingutusi.
+See artikkel kirjeldab võimalusi, kuidas värbajad saavad jälgida värbamise etappe, sh vabade ametikohtade reklaamimiseks ja kandidaatide värbamiseks, kandidaadi ja avalduse teabe jälgimiseks, kandidaatide intervjueerimiseks ja vaba ametikoha täitmiseks ühe või mitme kandidaadi väljavalimiseks tehtud pingutusi.
 
 ## <a name="overview"></a>Ülevaade
 

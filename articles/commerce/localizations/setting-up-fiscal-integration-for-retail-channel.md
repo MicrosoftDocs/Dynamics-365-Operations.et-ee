@@ -1,6 +1,6 @@
 ---
 title: Commerce’i kanalite fiskaalüksuse integreerimise seadistamine
-description: Sellest teemast leiate juhised kaubanduse kanalite fiskaalüksuse integratsiooni funktsiooni seadistamise kohta.
+description: See artikkel annab juhised commerce-kanalite fiskaalintegratsiooni funktsiooni seadistamiseks.
 author: EvgenyPopovMBS
 ms.date: 04/28/2022
 ms.topic: article
@@ -9,19 +9,19 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 51a75ce03b0ae6b744ec56df35bd3fdb1f40cf3a
-ms.sourcegitcommit: 5f7177b9ab192b5a6554bfc2f285f7cf0b046264
-ms.translationtype: MT
+ms.openlocfilehash: 13bdbcc2d52846b8b5d04773c986cd3a4a59e7b4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/30/2022
-ms.locfileid: "8661745"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889395"
 ---
 # <a name="set-up-the-fiscal-integration-for-commerce-channels"></a>Commerce’i kanalite fiskaalüksuse integreerimise seadistamine
 
 [!include [banner](../includes/banner.md)]
 [!include [banner](../includes/preview-banner.md)]
 
-Sellest teemast leiate juhised kaubanduse kanalite fiskaalüksuse integratsiooni funktsiooni seadistamise kohta. Lisateavet fiskaalüksuse integratsiooni kohta vt teemast [Kaubanduse kanalite fiskaalüksuse integratsiooni ülevaade](fiscal-integration-for-retail-channel.md).
+See artikkel annab juhised commerce-kanalite fiskaalintegratsiooni funktsiooni seadistamiseks. Lisateavet fiskaalüksuse integratsiooni kohta vt teemast [Kaubanduse kanalite fiskaalüksuse integratsiooni ülevaade](fiscal-integration-for-retail-channel.md).
 
 ## <a name="enable-features-in-commerce-headquarters"></a>Commerce Headquartersi funktsioonide lubamine
 

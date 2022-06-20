@@ -1,6 +1,6 @@
 ---
 title: Azure'i salvestusruumi konto ja võtmehoidla loomine
-description: Selles teemas selgitatakse, kuidas luua Azure'i salvestusruumi kontot ja võtmehoidlat.
+description: See artikkel selgitab, kuidas luua Azure'i ladustamiskontot ja võtme vault.
 author: gionoder
 ms.date: 08/17/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 23fec7a00d800719e1a7d2c90f9d0977d56be038
-ms.sourcegitcommit: baf82100f0aa7d5f5f47c7f54bc155d8a07beab5
+ms.openlocfilehash: ae2f21e959e35690ca3d8bd09059cfbf679ab842
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "7463838"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907757"
 ---
 # <a name="create-an-azure-storage-account-and-a-key-vault"></a>Azure'i salvestusruumi konto ja võtmehoidla loomine
 
@@ -28,14 +28,14 @@ ms.locfileid: "7463838"
 
 ## <a name="prerequisites"></a>Eeltingimused
 
-Enne selles teemas kirjeldatud sammude läbimist peate veenduma, et järgmised ülesanded oleksid lõpetatud.
+Enne kui saate selle artikli sammud lõpule viia, peate veenduma, et järgmised ülesanded on lõpule viidud:
 
 - Võtmehoidla ressursi loomine Azure'is. Lisateavet leiate teemast [Teave Azure'i võtmehoidla kohta](/azure/key-vault/general/overview).
 - Azure'i salvestusruumi konto loomine (bloobimälu). Lisateavet leiate jaotisest [Azure'i salvestusruumi konto haldamine](/azure/storage/blobs/).
 
 ## <a name="overview"></a>Ülevaade
 
-Selles teemas läbite kaks peamist sammu.
+Selles artiklis läbite kaks peamist sammu:
 
 - Azure'i salvestusruumi konto seadistamine salvestusruumi konto URI hankimiseks.
 - Võtmehoidla seadistamine salvestusruumi konto URI talletamiseks.

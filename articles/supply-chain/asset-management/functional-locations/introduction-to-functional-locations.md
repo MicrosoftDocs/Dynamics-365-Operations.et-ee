@@ -1,6 +1,6 @@
 ---
 title: Sissejuhatus -i lokaliseerimisfunktsioonidesse
-description: Selles teemas antakse ülevaade funktsionaalsetest asukohtadest varahalduses.
+description: See artikkel annab ülevaate varahalduse funktsiooniasukohtadest.
 author: johanhoffmann
 ms.date: 06/25/2019
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1b0cb76a05f0f19d3e57d1f79751e8bc5870b3c331aa4d1c37ec8dfde0a3c6d5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: MT
+ms.openlocfilehash: 4a1c8c4db9aee68584ab35949745132091a34a58
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767551"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882833"
 ---
 # <a name="introduction-to-functional-locations"></a>Sissejuhatus -i lokaliseerimisfunktsioonidesse
 
@@ -30,7 +30,7 @@ ms.locfileid: "6767551"
 
  
 
-Selles teemas antakse ülevaade funktsionaalsetest asukohtadest varahalduses. Funktsionaalsed asukohad on tehnilise struktuuri elemendid, näiteks süsteemi funktsionaalsed üksused. Funktsionaalseid asukohti luuakse hierarhiliselt ja te installite neile varasid. Funktsionaalsete asukohtade seadistamine teie ettevõttes sõltub ettevõtte vajadustest.
+See artikkel annab ülevaate varahalduse funktsiooniasukohtadest. Funktsionaalsed asukohad on tehnilise struktuuri elemendid, näiteks süsteemi funktsionaalsed üksused. Funktsionaalseid asukohti luuakse hierarhiliselt ja te installite neile varasid. Funktsionaalsete asukohtade seadistamine teie ettevõttes sõltub ettevõtte vajadustest.
 
 Siin on mõned näited selle kohta, kuidas funktsionaalseid asukohti kasutada.
 

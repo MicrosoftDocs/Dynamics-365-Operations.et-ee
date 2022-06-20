@@ -1,6 +1,6 @@
 ---
-title: Mitme B2C rentniku konfigureerimine Kaubanduskeskkonnas
-description: Selle teema all kirjeldatakse, millal ja kuidas seadistada kanali kohta mitme Microsoft Azure Active Directory (Azure AD) äri-tarbija (B2C) üürnikut kasutaja autentimiseks spetsiaalses Dynamics 365 Commerce keskkonnas .
+title: Mitme jaekaubandusrentniku konfigureerimine Commerce'i keskkonnas
+description: See artikkel kirjeldab Azure Active Directory, millal ja kuidas seadistada mitu kanali kohta Microsofti (Azure AD B2C) rentnikud kasutaja autentimiseks spetsiaalses Dynamics 365 Commerce keskkonnas.
 author: BrianShook
 ms.date: 03/17/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-12
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a372561b8a6cdca8e1a3dc362009379884f1a3414330f3f056d4c3af7703a132
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 13504a612c388b4720ec3328aaf2db83da2aad8c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736400"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890565"
 ---
-# <a name="configure-multiple-b2c-tenants-in-a-commerce-environment"></a>Mitme B2C rentniku konfigureerimine Kaubanduskeskkonnas
+# <a name="configure-multiple-b2c-tenants-in-a-commerce-environment"></a>Mitme jaekaubandusrentniku konfigureerimine Commerce'i keskkonnas
 
 [!include [banner](includes/banner.md)]
 
-Selle teema all kirjeldatakse, millal ja kuidas seadistada kanali kohta mitme Microsoft Azure Active Directory (Azure AD) äri-tarbija (B2C) üürnikut kasutaja autentimiseks spetsiaalses Dynamics 365 Commerce keskkonnas .
+See artikkel kirjeldab, millal ja kuidas seadistada mitu Microsofti Azure Active Directory (Azure AD B2C) rentnikku kanali kohta Dynamics 365 Commerce kasutaja autentimiseks spetsiaalses keskkonnas.
 
 Dynamics 365 Commerce kasutab Azure AD B2C pilve identiteediteenust kasutaja mandaadi ja autentimisvoogude toetamiseks. Kasutajad saavad kasutada autentimise voogusid, et registreeruda, sisse logida ja lähtestada oma parool. Azure AD B2C talletab kasutaja tundliku autentimisteabe, nagu näiteks kasutajanimi ja parool. Kasutajakirje on kordumatu iga B2C rentniku jaoks ja see kasutab kasutajanime (meiliaadressi) mandaate või sotsiaalse identiteedi pakkuja mandaati.
 

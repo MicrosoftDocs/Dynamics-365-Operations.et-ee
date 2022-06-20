@@ -1,6 +1,6 @@
 ---
 title: Likviidsuse plaanimine
-description: Selles teemas antakse ülevaade rahavoo prognoosimise protsessist. Samuti selgitatakse, kuidas rahavoogude prognoosimine on integreeritud teiste süsteemi moodulitega.
+description: See artikkel annab ülevaate likviidsuse prognoosimise protsessist. Samuti selgitatakse, kuidas rahavoogude prognoosimine on integreeritud teiste süsteemi moodulitega.
 author: panolte
 ms.date: 02/16/2022
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 4979a57c966f25dba62a944a4e44086e5f6aed28
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: c811afb0129b25a257bdc3519c511d70ecb44714
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8712533"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904668"
 ---
 # <a name="cash-flow-forecasting"></a>Likviidsuse plaanimine
 
@@ -97,7 +97,7 @@ Eelarve registrikirjeid saab rahavoogude prognoosi lisada individuaalselt isikup
 Likviidsuse plaanimisse saab lisada varude pakkumise ja nõudluse prognoosid. Valige vahekaardilt **Varude haldus** lehel **Likviidsuse plaanimise seadistus** prognoosi mudel, mida likviidsuse plaanimisse lisada. Likviidsuse plaanimisse lisamise saab eraldi pakkumise ja nõudluse prognoosi ridadel üle kirjutada.
 
 ### <a name="setting-up-dimensions-for-cash-flow-forecasting"></a>Rahavoo prognoosimise jaoks dimensioonide seadistamine
-Uus vahekaartCash-voo **prognoosimise seadistuslehel**  **võimaldab teil kontrollida, milliseid finantsdimensioone kasutatakse FiltreerimiseksCash-voo prognoosimise**  tööruumis. See vahekaart kuvatakse ainult siis, kui likviidsuse prognoosimise funktsioon on lubatud.
+Uus vahekaart likviidsuse prognoosimise **seadistamise** lehel võimaldab **teil kontrollida, milliseid finantsdimensioone kasutatakse rahavoo prognoosimise tööruumi filtreerimiseks** . See vahekaart kuvatakse ainult siis, kui likviidsuse prognoosimise funktsioon on lubatud.
 
 Vahekaardil **Dimensioonid** tehke dimensioonide loendis filtreerimiseks valik ja kasutage nooleklahve, et liigutada need parempoolsesse veergu. Rahavoo prognoosimise andmete filtreerimiseks saab valida ainult kaks dimensiooni. 
 
@@ -110,7 +110,7 @@ Lisateavet vt välisandmetest [likviidsuse prognoosides](../../finance/finance-i
 
 Versioonis 10.0.17 võimaldab uus funktsioon integreerimist projektijuhtimise ning raamatupidamise ja likviidsuse prognoosimisega. **Funktsioonihalduse** tööruumis lülitage **Likviidsuse projekti prognoosi** funktsioon sisse, et kaasata prognoositud kulud ja tulud likviidsuse prognoosi. Valige **Projektihaldus ja raamatupidamine** vahekaardilt lehekülg **Rahavoo prognoosi seadistus** , valige projektitüüpja kandetüübid, mis peavad olema rahavoo prognoosi kaasatud. Seejärel valige projekti eelarvemudel. Vähendamise tüübi alammudel töötab kõige paremini. Likviidsuskontod, mis on sisestatud kontode müügikontro seadistusse likviidsuse vaikekontodena. Seetõttu ei pea te rahavoogu prognoosides likviidsuse vaikekontosid sisestama. Kasutada saab ka eelarvemudelit, kuid projektihalduse ja raamatupidamise lehel **Rahavoo prognoosimise seades** saab valida vaid ühe tüübi. Prognoosimudel pakub kõige rohkem paindlikkust siis, kui kasutate Projektihaldust ja raamatupidamist või Project Operations -it.
 
-Peale Rahavoo projekti prognoosi funktsiooni sisselülitamist, saab rahavoo prognoosi iga projekti jaoks näha lehel **Kõik projektid** . Toimingupaani vahekaardil **Plaan** rühmas **Prognoos** valige suvand **Rahavoo prognoos**. **Sularaha ülevaate** tööruumides (vt [Aruandlus](#reporting) jaotist sama teem alt), Projekti kandetüübi prognoos näitab sissevoolu (projekti prognoositavattulu) ja väljavoolu (projekti prognoosi kulusid). Summasid saab kaasata ainult siis, kui **Projekti etapi** väli **Sularaha ülevaate** tööruumis väärtuseks on seatud **Töös**.
+Peale Rahavoo projekti prognoosi funktsiooni sisselülitamist, saab rahavoo prognoosi iga projekti jaoks näha lehel **Kõik projektid** . Toimingupaani vahekaardil **Plaan** rühmas **Prognoos** valige suvand **Rahavoo prognoos**. Sularaha ülevaate **tööruumides** ([vt](#reporting) selle artikli jaotist Aruandlus) näitab projekti eelarve kandetüüp sissetulekuid (projekti eelarve tulu) ja väljaminekuid (projekti eelarve kulud). Summasid saab kaasata ainult siis, kui **Projekti etapi** väli **Sularaha ülevaate** tööruumis väärtuseks on seatud **Töös**.
 
 Projektikandeid kaasatakse rahavoo prognoosi mitmel viisil, sõltumata sellest, kas **Rahavoo projekti prognoos** funktsioon on sisse lülitatud. Sisestatud projektiarved lisatakse prognoosi avatud kliendikannete osana. Projekti algatatud müügitellimused ja ostutellimused lisatakse prognoosi avatud tellimustena pärast nende sisestamist süsteemi. Projekti prognoose saab viia üle ka pearaamatu eelarvemudelisse. See pearaamatu eelarvemudel lisatakse siis likviidsuse plaanimisse eelarveregistri kirjete osana. Kui olete **Rahavoo projekti prognoosi** funktsiooni sisse lülitanud, siis ärge kandke projekti prognoose üle pearaamatu eelarvemudelisse, sest see tegevus põhjustab seda, et projekti prognoose loetakse kaks korda.
 

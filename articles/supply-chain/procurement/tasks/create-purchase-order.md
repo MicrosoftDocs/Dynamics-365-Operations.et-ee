@@ -1,6 +1,6 @@
 ---
 title: Ostutellimuse loomine
-description: Selles teemas näidatakse teile, kuidas luua ostutellimust käsitsi.
+description: See artikkel näitab, kuidas ostutellimust käsitsi luua.
 author: GalynaFedorova
 ms.date: 07/18/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c2fd627b9874b3e3f7aad71fb2970ddcc333a608
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 2a04a9f4a512a307efecb19703cd3df638ba5ff5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677390"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856073"
 ---
 # <a name="create-a-purchase-order"></a>Ostutellimuse loomine
 
 [!include [banner](../../includes/banner.md)]
 
-Selles teemas näidatakse teile, kuidas luua ostutellimust käsitsi. Koondplaneerimise, otsetarne ja muude protsesside tulemusena luuakse ostutellimused tavaliselt automaatselt. Ostutellimused loob tavaliselt ostuagent. Siin esitatud näidet saab kasutada demoandmete ettevõttes USMF, kasutades väärtusi, mida on soovitatud erinevate etappide märkustes.
+See artikkel näitab, kuidas ostutellimust käsitsi luua. Koondplaneerimise, otsetarne ja muude protsesside tulemusena luuakse ostutellimused tavaliselt automaatselt. Ostutellimused loob tavaliselt ostuagent. Siin esitatud näidet saab kasutada demoandmete ettevõttes USMF, kasutades väärtusi, mida on soovitatud erinevate etappide märkustes.
 
 
 ## <a name="create-the-purchase-order-header"></a>Ostutellimuse päise loomine

@@ -1,6 +1,6 @@
 ---
 title: Soodustuse halduse tööruum
-description: Selles teemas kirjeldatakse soodustuste halduse tööruumi rakenduses Dynamics 365 Human Resources.
+description: See artikkel kirjeldab soodustuste halduse tööruumi moodulis Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 01/03/2022
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-24
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 39e7f606ae3c5c0a66764cc3235837380725241f
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 7975d1723e07ae390961d4f44e0f34f2ff2df44d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690023"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902914"
 ---
 # <a name="benefits-management-workspace"></a>Soodustuse halduse tööruum
 
@@ -30,7 +30,7 @@ ms.locfileid: "8690023"
 
 [!include [preview feature](./includes/preview-feature.md)]
 
-Selles teemas kirjeldatakse **soodustuste halduse** tööruumi rakenduses Dynamics 365 Human Resources.
+See artikkel kirjeldab soodustuste **halduse tööruumi** moodulis Dynamics 365 Human Resources.
 
 > [!NOTE]
 > **Soodustuste halduse** tööruumi vaatamiseks peate esmalt funktsioonihalduse kaudu lubama funktsiooni **(Eelversioon) Soodustuste halduse tööruum**. Lisateavet funktsioonide eelversioonide lubamise kohta vt [Funktsioonide haldamine](hr-admin-manage-features.md).<br><br>![Soodustuste halduse tööruumi lubamine.](./media/hr-benefits-management-workspace-enable.png)
@@ -96,7 +96,7 @@ Muu soodustuste perioodi vaatamiseks valige see ripploendist **Periood**.
 Tegevusüksuste kuvamiseks võite valida kas paani või vahekaardi. Vahekaardi valimise korral saate töötajaid vaadata ja valida tööruumi lehel.
 Vahekaardil **Avatud registreerimine** antakse avatud registreerimisprotsessi võtmemõõdud. 
 
-Avatud registreerimisega seotud teave kuvatakse 30 päeva enne **Registreerimise alguskuupäeva**. See määratletakse **Perioodide** seadistuses **Soodustuste haldus** > **Lingid** > **Perioodid** väljal **Registreerimise alguskuupäev**.  Selle sätte muutmiseks minge inimressursside jagatud **parameetritesseBenefits** > **managementOpeni** > **registreerimisvalikud** ja värskendage **välja arv**.  
+Avatud registreerimisega seotud teave kuvatakse 30 päeva enne **Registreerimise alguskuupäeva**. See määratletakse **Perioodide** seadistuses **Soodustuste haldus** > **Lingid** > **Perioodid** väljal **Registreerimise alguskuupäev**.  Selle sätte muutmiseks minge Inimressursside jagatud **parameetrite soodustuste** > **halduse** > **avatud registreerimise** valikutele ja värskendage **välja arvu**.  
 
 Järgmine teave on saadaval vahekaardil **Avatud registreerimine**:
  - Töötajad, kes ei ole avatud registreerimisprotsessi alustanud

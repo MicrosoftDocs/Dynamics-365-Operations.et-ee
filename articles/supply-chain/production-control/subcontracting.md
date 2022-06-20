@@ -1,6 +1,6 @@
 ---
 title: Allhange
-description: See teema aitab teil koostada rakenduses Dynamics 365 Supply Chain Management tootmise allhanke juhiseid.
+description: See artikkel aitab teil koostada allhanke lühiülevaadet tootmises Dynamics 365 Supply Chain Management.
 author: johanhoffmann
 ms.date: 09/28/2018
 ms.topic: article
@@ -12,22 +12,22 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4c4ef554406c727cc410f8dca5f41264be01060b
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: ef8f30e934ece4a148c6f5259d74f8f67799999d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579348"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854173"
 ---
 # <a name="subcontracting"></a>Allhange
 
 [!include [banner](../includes/banner.md)]
 
-See teema aitab teil koostada rakenduses Microsoft Dynamics 365 Supply Chain Management tootmise allhanke juhiseid. Teema esimeses osas kirjeldatakse andmete seadistamist. Teises osas läbite juhise etapid.
+See artikkel aitab teil koostada Microsofti allhankelepingu lühiülevaadet Dynamics 365 Supply Chain Management. Selle artikli esimeses osas kirjeldatakse andmete seadistamist. Teises osas läbite juhise etapid.
 
 ## <a name="target-audience"></a>Sihtpublik
 
-Selles teemas saate teada, kuidas seadistada allhanget tootmises. Allhanke tegevusvoo põhiseadistamiseks kasutate olemasolevaid andmeid juriidilises isikus HQUS. Demoandmed juriidilises isikus HQUS sisaldavad eelmääratud seadistusparameetreid, mis toetavad juhendi etappides. Kuigi juhend käsitleb peamisi valupunkte ja väljakutseid erinevate rollide puhul, saab selle lõpule viia süsteemiadministraator.
+Selles artiklis kirjeldatakse allhanke seadistamist tootmises. Allhanke tegevusvoo põhiseadistamiseks kasutate olemasolevaid andmeid juriidilises isikus HQUS. Demoandmed juriidilises isikus HQUS sisaldavad eelmääratud seadistusparameetreid, mis toetavad juhendi etappides. Kuigi juhend käsitleb peamisi valupunkte ja väljakutseid erinevate rollide puhul, saab selle lõpule viia süsteemiadministraator.
 
 ## <a name="demo-scenario"></a>Demostsenaarium
 

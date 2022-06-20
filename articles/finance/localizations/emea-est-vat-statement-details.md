@@ -1,6 +1,6 @@
 ---
 title: KM-aruande üksikasjad Eesti puhul
-description: See teema selgitab, kuidas seadistada käibemaksuaruannet Eestis asuvate juriidiliste isikute puhul.
+description: See artikkel selgitab, kuidas seadistada EESTI juriidilistele isikutele KM-aruanne.
 author: ShylaThompson
 ms.date: 06/20/2017
 ms.topic: article
@@ -14,20 +14,20 @@ ms.search.region: Estonia
 ms.author: kfend
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 442309db43d6f154cccf48e49c3026ab57856f85e2c850613811c01364840e39
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d37a8bb2ceb2592b0c226ef198a986a6b8ef8270
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779356"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879514"
 ---
 # <a name="vat-statement-details-for-estonia"></a>KM-aruande üksikasjad Eesti puhul
 
 [!include [banner](../includes/banner.md)]
 
-See teema selgitab, kuidas seadistada käibemaksuaruannet Eestis asuvate juriidiliste isikute puhul.
+See artikkel selgitab, kuidas seadistada EESTI juriidilistele isikutele KM-aruanne.
 
-See teema sisaldab riigi-/piirkonnakohast teavet käibemaksu (KM) aruande seadistamise kohta ainult Eestis asuvate juriidiliste isikute puhul. Lisateavet käibemaksuaruannete seadistamise kohta vt teemast [Käibemaksuaruandlus Euroopas](emea-vat-reporting.md).
+See artikkel sisaldab riigi-/regiooniomast teavet käibemaksuaruande seadistuse kohta ainult Eesti juriidilistele isikutele. Lisateavet käibemaksuaruannete seadistamise kohta vt teemast [Käibemaksuaruandlus Euroopas](emea-vat-reporting.md).
 
 ## <a name="set-up-sales-tax-authorities"></a>Käibemaksuhaldurite seadistamine
 Käibemaksuaruande loomist asjakohase maksuasutuse jaoks sobivas vormingus peate seadistama käibemaksuasutuste jaoks aruande paigutuse. Tehke lehel **Käibemaksuasutused** väljal **Aruande paigutus** valik **Eesti aruande paigutus**. Valige käibemaksu tasakaalustamisperioodi kohta sama käibemaksuasutus, mida kasutatakse käibemaksukoodide puhul.

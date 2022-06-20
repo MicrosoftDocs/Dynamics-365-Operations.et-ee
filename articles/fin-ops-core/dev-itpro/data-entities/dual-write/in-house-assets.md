@@ -1,6 +1,6 @@
 ---
 title: Ettevõttesisesed varad teenindamiseks
-description: See teema kirjeldab, kuidas saate Microsoft Dynamics 365 Field Service kasutada nii kliendi kui ka majavarade hooldamiseks.
+description: See artikkel kirjeldab, kuidas saate kasutada Microsoft Dynamics 365 Field Service nii kliendi varade kui ka majavarade teenuseks.
 author: RamaKrishnamoorthy
 ms.date: 01/27/2020
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 8048a99951eea3fbae34e56c1b444c75ad3d199d
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: c946af11737a77c4dadd824893e6cc1e4c77b587
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781412"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858618"
 ---
 # <a name="in-house-assets-for-servicing"></a>Ettevõttesisesed varad teenindamiseks
 
 [!include [banner](../../includes/banner.md)]
 
-Microsoft Dynamics 365 Field Service on loodud kliendivarade teenindamiseks. Dynamics 365 Supply Chain Management i varahaldus on loodud ettevõttesiseste varade haldamiseks. Nende kahe rakenduse integreerimine võimaldab teil kasutada Field Service'it nii klientide kui ka ettevõttesiseste varade teenindamiseks. Samuti saate varasid liigitada töö asukoha ja hierarhia järgi ning jälgida teenindust üksikasjalikul tasemel.
+Microsoft Dynamics 365 Field Service on loodud kliendivarade teenindamiseks. Dynamics 365 Supply Chain Managementi varahaldus on loodud ettevõttesiseste varade haldamiseks. Nende kahe rakenduse integreerimine võimaldab teil kasutada Field Service'it nii klientide kui ka ettevõttesiseste varade teenindamiseks. Samuti saate varasid liigitada töö asukoha ja hierarhia järgi ning jälgida teenindust üksikasjalikul tasemel.
 
 Lisateavet vaadake teemast [Dynamics 365 Field Service'i ja Supply Chain Managementi integreerimine](/dynamics365/field-service/supply-chain-field-service-integration).
 

@@ -12,12 +12,12 @@ ms.reviewer: tfehr
 ms.assetid: ''
 ms.search.region: Global
 ms.author: bking
-ms.openlocfilehash: fef3130f06cbb1d8afdbae93bdc55b47be3480b3
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 626b3bbaf88f905bd167ad9eea4683ed1855eb92
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070823"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860035"
 ---
 # <a name="data-validation-checklist-workspace"></a>Andmete valideerimise kontroll-loendi tööruum
 
@@ -26,7 +26,7 @@ ms.locfileid: "8070823"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Selles teemas antakse ülevaade **andmete valideerimise kontroll-loendi tööruumist** ja seotud konfiguratsioonist.
+See artikkel annab ülevaate andmete kinnitamise kontroll-loendi **tööruumist ja** seostatud konfiguratsioonist.
 
 **Andmete valideerimise kontroll-loendi** tööruum võimaldab jälgida andmete valideerimisprotsesse ettevõtete, valdkondade ja inimeste lõikes. Kontroll-loendit saab kasutada uue juurutuse käigus, pärast versioonitäiendust või migreerimist. Olenevalt teie vaatest selle tööruumi **andmete valideerimise kontroll-loendi** kohta, näete kas kõiki andmete valideerimise projekti ülesandeid ja olekuid või ainult teile määratud ülesandeid.
 

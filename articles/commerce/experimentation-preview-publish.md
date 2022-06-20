@@ -1,30 +1,24 @@
 ---
 title: Eksperimendi eelversioon ja avaldamine
-description: Selles teemas kirjeldatakse, kuidas vaadata rakendusest Dynamics 365 Commerce pärit eksperimendi eelversiooni ja seda avaldada.
+description: See artikkel kirjeldab, kuidas katsetada eelvaadet ja avaldada katset Dynamics 365 Commerce.
 author: sushma-rao
-ms.date: 10/21/2020
+ms.date: 06/08/2022
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: global
-ms.search.industry: Retail
+ms.search.region: Global
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
-ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 41957befe109102aaa7d3a5783b54f96824dfe76a25ab787f94afc778c08fca5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5da7a4e3c17057278d02ebd45702d1de404f0dc6
+ms.sourcegitcommit: 427fe14824a9d937661ae21b9e9574be2bc9360b
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740379"
+ms.lasthandoff: 06/09/2022
+ms.locfileid: "8946128"
 ---
 # <a name="preview-and-publish-an-experiment"></a>Eksperimendi eelversioon ja avaldamine
 
-Selles teemas kirjeldatakse, kuidas vaadata rakenduses Dynamics 365 Commerce oma eksperimendi eelversiooni ning seda avaldada pärast seda, kui olete [oma eksperimendi ühendanud ja oma variatsioone redigeerinud](experimentation-connect-edit.md). Järgmine diagramm näitab kõiki etappe, mis on seotud e-kaubanduse veebisaidi jaoks eksperimendi seadistamise ja käivitamisega rakenduses Dynamics 365 Commerce. Täiendavad etapid on toodud eraldi teemades.
+See artikkel kirjeldab, kuidas katsetada ja avaldada katset Dynamics 365 Commerce pärast seda, kui olete katsetanud [ja muutnud variatsioone](experimentation-connect-edit.md). Järgmine diagramm näitab kõiki etappe, mis on seotud e-kaubanduse veebisaidi jaoks eksperimendi seadistamise ja käivitamisega rakenduses Dynamics 365 Commerce. Lisa sammud on kaetud eraldi artikliga.
 
 [ ![Eksperimendi kasutaja teekond – eelversioon ja avaldamine.](./media/experimentation_preview_publish.svg) ](./media/experimentation_preview_publish.svg#lightbox)
 
@@ -52,11 +46,15 @@ Kui kasutate eksperimentidega koos avaldamisrühmi, tuleb arvestada mõnda oluli
 - Kui avaldate või ajastate avaldamisrühma, avaldatakse kogu rühmas olev sisu hoolimata sellest, kas avaldamisrühmaga on seotud mõni eksperiment.
 - Kuna avaldamisrühm jääb alles ka pärast selle avaldamist aktiivsel saidil, jäävad alles ka avaldamisrühmas olevad eksperimendid. Seetõttu ei saa te sama lehe või fragmendiga teisi eksperimente seostada. Selle piirangu vältimiseks kustutage kõik avaldamisrühmad, mis sisaldavad eksperimente. Kui soovite kustutada aktiivselt saidilt eksperimendi, mis sisaldub ka avaldamisrühmas, kustutage see esmalt avaldamisrühmast.
 
+### <a name="force-variations-for-testing"></a>Muudatuste sunnimine testimiseks
+
+Kui katse on reaalajas, saate katsetuse ID ja variatsiooni ID lisada vaikimisi lehe URL-i, et sundida variatsiooni testimise või automatiseerimise eesmärgil. Näiteks kui lehe vaike-URL on `https://fabrikam.com/modern/homepage`, saate sundida muudatust, mille URL on nagu `https://fabrikam.com/modern/homepage?exp=18012910471|18024360464`. Võite katsetada katse ID ja variatsiooni ID teie katse variatsiooni jaoks eelvaate URL-ist eelvaate **kogemuses,** mida on ülal kirjeldatud.
+
 ## <a name="previous-step"></a>Eelmine etapp
-[Eksperimendi ühendamine ja redigeerimine](experimentation-connect-edit.md)
+[Katse ühendamine ja redigeerimine](experimentation-connect-edit.md)
 
 ## <a name="next-step"></a>Järgmine etapp
-[Eksperimendi käitamine ja jälgimine](experimentation-run-monitor.md)
+[Katse käitamine ja jälgimine](experimentation-run-monitor.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

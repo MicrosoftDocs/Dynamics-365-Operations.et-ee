@@ -1,6 +1,6 @@
 ---
 title: Loodud ER-aruannete ja võrdluste alusväärtuste abil jälgimise tulemuste täiustused
-description: Selles teemas kirjeldatakse ER-i põhifunktsiooni täiustusi rakenduse Microsoft Dynamics 365 for Finance and Operations versioonis 10.0.3 (juuni 2019).
+description: See artikkel kirjeldab ER-i põhifunktsiooni parendusi Microsoft Dynamics 365 for Finance and Operations versioonis 10.0.3 (juuni 2019).
 author: NickSelin
 ms.date: 06/19/2019
 ms.topic: article
@@ -14,22 +14,22 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: b6e8299dd57730486c731cd38578bd5ff6b8a1754f145432e300c1217c6dd640
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3b9ac7dcac4d020759d04fec75e17c43ed627e25
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760746"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847397"
 ---
 # <a name="improve-tracing-the-results-of-generated-er-reports-to-compare-with-baseline-values"></a>Loodud ER-aruannete ja võrdluste alusväärtuste abil jälgimise tulemuste täiustused
 
 [!include[banner](../includes/banner.md)]
 
-Selles teemas kirjeldatakse esimest täiustuste kogumit, mis on tehtud elektroonilise aruandluse raamistiku alusfunktsioonis. Need täiustused on saadaval rakenduse Microsoft Dynamics 365 for Finance and Operations versioonis 10.0.3 (juuni 2019) ja uuemates versioonides.
+See artikkel kirjeldab esimest parenduste kogum, mis on tehtud elektroonilise aruandluse (ER) raamistiku põhifunktsioonile. Need täiustused on saadaval rakenduse Microsoft Dynamics 365 for Finance and Operations versioonis 10.0.3 (juuni 2019) ja uuemates versioonides.
 
 ## <a name="automate-the-setting-of-baseline-rules"></a>Alusreeglite seadistamise automatiseerimine
 
-Teemas [Loodud aruandetulemite jälgimine ja nende võrdlemine alusväärtustega](er-trace-reports-compare-baseline.md) kirjeldatakse, kuidas konfigureerida elektroonilise aruandluse raamistikku nii, et see koguks teavet elektroonilise aruandluse vormingu käivitamiste kohta ja hindaks nende käivitamiste tulemusi. Selle teema näites on toodud etapid, mis tuleb läbida.
+Jälitus [genereeritud aruande tulemused ja](er-trace-reports-compare-baseline.md) võrrelge neid alusväärtuste artikliga selgitab, kuidas konfigureerida ER-raamistikku, et koguda teavet ER-vormingu käivitamiste kohta ja hinnata nende käivitamiste tulemusi. Selles artiklis toodud näites kuvatakse sammud, mis tuleb lõpule viia.
 
 Siin on mõned neist etappidest.
 
@@ -45,7 +45,7 @@ Siin on mõned neist etappidest.
 
 ## <a name="example-automate-the-setting-of-baseline-rules"></a>Näide. Alusreeglite seadistamise automatiseerimine
 
-Selle näite etappide läbimiseks peate kõigepealt läbima etapid näites teemas [Loodud aruandetulemite jälgimine ja nende võrdlemine alusväärtustega](er-trace-reports-compare-baseline.md) kuni jaotiseni „Uue aluse lisamine kujundatud elektroonilise aruande vormingu jaoks”.
+Selle näite [sammude lõpuleviimiseks peate esmalt täitma sammud näites Jälgi](er-trace-reports-compare-baseline.md) loodud aruandesse ja võrdlema neid alusväärtuste artikliga, mis asub jaotises "Lisa loodud ER-vormingu jaoks uus alusjoon".
 
 ### <a name="review-added-baseline"></a>Lisatud aluse ülevaatamine
 
@@ -80,7 +80,7 @@ Alus on lisatud valitud vormingu **Vorming elektroonilise aruandluse aluste õpp
 
 ### <a name="run-the-format"></a>Vormingu käivitamine
 
-Nüüd olete valmis läbima ülejäänud sammud näites teemas [Loodud aruandetulemite jälgimine ja nende võrdlemine alusväärtustega](er-trace-reports-compare-baseline.md), alustades jaotisest „Kujundatud elektroonilise aruandluse vormingu käitamine ja logi ülevaatamine tulemuste analüüsimiseks”.
+Olete nüüd [valmis](er-trace-reports-compare-baseline.md) täitma näites Jälitus loodud aruande ülejäänud etappe ja võrdlema neid alusväärtuste artikliga, alustades jaotisest "Käivita kujundatud ER-vorming ja vaadake logi tulemuste analüüsimiseks üle".
 
 > [!NOTE]
 > Kui kustutate automaatselt lisatud alusreegli kiirkaardilt **Alused**, ei kustutata viidatud manust automaatselt.
@@ -91,7 +91,7 @@ Kui elektroonilise aruandluse vorming on kujundatud sisaldama teavet, mis muutub
 
 ## <a name="example-configure-the-baseline-so-that-it-ignores-constantly-changing-parts-of-the-er-output"></a>Näide. Aluse konfigureerimine nii, et see eiraks elektroonilise aruandluse väljundi pidevalt muutuvaid osasid
 
-Selle näite etappide läbimiseks peate kõigepealt läbima etapid näites teemas [Loodud aruandetulemite jälgimine ja nende võrdlemine alusväärtustega](er-trace-reports-compare-baseline.md).
+Selle näite sammude lõpuleviimiseks peate esmalt täitma [sammud näites Jälitus loodud aruande tulemused ja võrdlema neid põhiväärtuste artikliga](er-trace-reports-compare-baseline.md).
 
 ### <a name="modify-a-configured-er-format"></a>Konfigureeritud elektroonilise aruandluse vormingu muutmine
 
@@ -142,7 +142,7 @@ Valitud elektroonilise aruandluse vormingu komponent on lisatud komponentide loe
 
 ### <a name="make-a-new-baseline-rule"></a>Uue alusreegli tegemine
 
-Järgige etappe selle teema jaotises „Näide. Alusreeglite seadistamise automatiseerimine”. Teatis hoiatab teid, et väljaminev fail on loodud, kasutades alussätteid, ja et tekkinud on vormingu sidumiste sundasendamine.
+Järgige selle artikli varasemas jaotises "Näide: alusreeglite seadistamise automatiseerimine" toodud etappe. Teatis hoiatab teid, et väljaminev fail on loodud, kasutades alussätteid, ja et tekkinud on vormingu sidumiste sundasendamine.
 
 ![Teatis lehel Konfiguratsioonid.](media/GER-BaselineSample-FormatRunToMakeBaselineFile4.PNG "Kuvatõmmis teatisest lehel Konfiguratsioonid")
 

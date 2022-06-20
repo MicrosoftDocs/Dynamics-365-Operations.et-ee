@@ -1,6 +1,6 @@
 ---
 title: ER-i konfiguratsioonide koostamine PDF-mallide täitmiseks
-description: Selles teemas antakse teavet selle kohta, kuidas kujundada elektroonilise aruandluse (ER) vormingut PDF-malli täitmiseks.
+description: See artikkel annab teavet selle kohta, kuidas kujundada PDF-malli täitmiseks elektroonilise aruandluse (ER) vormingut.
 author: NickSelin
 ms.date: 03/18/2022
 ms.topic: article
@@ -14,22 +14,22 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 706256300cf0b64bc5b5e1e7adb77c1da500d16f
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: ef9b650e9b676d79af8839c08cfbb1000a5aee5f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8645103"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908586"
 ---
 # <a name="design-er-configurations-to-fill-in-pdf-templates"></a>ER-i konfiguratsioonide koostamine PDF-mallide täitmiseks
 
 [!include[banner](../includes/banner.md)]
 
-Selle teemas esitatud protseduurid on näited, mis näitavad, kuidas kasutaja kas **Süsteemiadministraatori** või **Elektroonilise aruandluse arendaja** rollis saab konfigureerida elektroonilise aruandluse (ER) vormingu, mis loob aruandeid PDF-failidena, kasutades täidetavaid PDF-dokumente aruandemallidena. Neid samme saab teha mis tahes Dynamics 365 Finance või Regulatory Configuration Services (RCS) ettevõttes.
+Selle **artikli** **protseduurid** on näited, mis näitavad, kuidas süsteemiadministraatori rolli või elektroonilise aruandluse arendaja rolliga kasutaja saab konfigureerida elektroonilise aruandluse (ER) vormingut, mis loob aruandeid PDF-failidena, kasutades täitmisfaile aruandemallina. Neid samme saab teha mis tahes Dynamics 365 Finance või Regulatory Configuration Services (RCS) ettevõttes.
 
 ## <a name="prerequisites"></a>Eeltingimused
 
-Enne alustamist peab teil olema üks järgmistest juurdepääsu tüüpidest, sõltuvalt teenusest, mida kasutate selle teema protseduuride lõpetamiseks.
+Enne alustamist peab teil olema üks järgmistest juurdepääsu tüüpidest, sõltuvalt teenusest, mida kasutate selles artiklis protseduuride sooritamiseks:
 
 - Juurdepääs Rahanduse keskkonda ühe järgmise rolli jaoks:
 

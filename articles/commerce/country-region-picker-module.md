@@ -1,6 +1,6 @@
 ---
 title: Riigi/regiooni valija moodul
-description: See teema hõlmab tarneaadressi moodulit ja kirjeldab, kuidas seda rakenduses Microsoft Dynamics 365 Commerce konfigureerida.
+description: See artikkel käsitleb riigi/regiooni valijamoodulit ja kirjeldab selle konfigureerimist moodulis Microsoft Dynamics 365 Commerce.
 author: stuharg
 ms.date: 04/06/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2021-08-12
 ms.dyn365.ops.version: Release 10.0.22
-ms.openlocfilehash: 9c20e614053b7a79cf962990dbd13ca0f45d5a00
-ms.sourcegitcommit: 4861ec2d3ae24cc9dd4ad3ac748fd05be3d80c70
+ms.openlocfilehash: d20b3be008a37b1c86e6fefe0ccc90c581e18340
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/06/2022
-ms.locfileid: "8551666"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861988"
 ---
 # <a name="countryregion-picker-module"></a>Riigi/regiooni valija moodul
 
 [!include [banner](includes/banner.md)]
 
-See teema hõlmab tarneaadressi moodulit ja kirjeldab, kuidas seda rakenduses Microsoft Dynamics 365 Commerce konfigureerida.
+See artikkel käsitleb riigi/regiooni valijamoodulit ja kirjeldab selle konfigureerimist moodulis Microsoft Dynamics 365 Commerce.
 
 Riigi/regiooni valijamoodul [kasutab geotuvastuse](geo-detection-redirection.md)Dynamics 365 Commerce ja ümbersuunamise funktsiooni soovitatud saitide näitamiseks klientidele, kes taotlevad e-ärisaidi URL-i, mis ei ole seotud nende riigi või regiooniga.
 
@@ -38,7 +38,7 @@ Kui geotuvastus ja ümbersuunamine on saidi puhul lubatud ja klient taotleb said
 
 Kui taotluse URL ei vasta ühelegi kliendi riigiga vastendatud URL-le, tagastatakse vastuses selle riigiga vastendatud ühe või mitme URL-i loend. Riigi/regiooni valija võrdleb kõiki loendis sisestatud URL-e riigi/regiooni moodulis konfigureeritud URL-dega. Iga leitud täpse vaste puhul renderdab riigi/regiooni valija selle URL-i kuvamispäise, alapealkirja ja pildi ning hüperlingid need elemendid URL-i kasutades.
 
-Kui klient valib riigi/regiooni valija suvandi, võetakse ta hüperlingiga URL-ile. See URL kirjutatakse küpsistele **\_ msdmeeter365\_\_\_\_** nii, et seda saab kasutada kliendi saidi-eelistusena. Seejärel, kui klient taotleb järgmisel korral URL-i, mis ei ole seotud nende riigi või regiooniga, suunatakse need automaatselt ümber oma eelistatud riiki. Seetõttu on soovitatav kasutada [e](site-selector.md)-kaubanduse saidil ka saidi valijamoodulit, et klientidel oleks võimalus oma saidi-eelistusi alistada või uuendada. 
+Kui klient valib riigi/regiooni valija suvandi, võetakse ta hüperlingiga URL-ile. See URL kirjutatakse **\_ saidi küpsistesse msdmeeter365\_\_\_\_**, nii et seda saab kasutada kliendi saidi-eelistusena. Seejärel, kui klient taotleb järgmisel korral URL-i, mis ei ole seotud nende riigi või regiooniga, suunatakse need automaatselt ümber oma eelistatud riiki. Seetõttu on soovitatav kasutada [e](site-selector.md)-kaubanduse saidil ka saidi valijamoodulit, et klientidel oleks võimalus oma saidi-eelistusi alistada või uuendada. 
 
 Kui klient sulgeb riigi/regiooni valija dialoogiboksi, ei kirjutata küpsistet ja klient jääb praegusele saidile. 
 

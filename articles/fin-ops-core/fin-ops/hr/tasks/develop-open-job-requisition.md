@@ -13,19 +13,19 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 364117133cb7a868e613088b14a33869fd9fedb1
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 15b1796367338bf40b434cfab9368ed3386aed99
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735342"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876498"
 ---
 # <a name="develop-and-open-job-requisition"></a>Töötaotluse arendamine ja avamine
 
 [!include [banner](../../includes/banner.md)]
 
 > [!IMPORTANT]
-> Selle teema värbamisfunktsioone nimetatakse värbamisprojektideks ning see keskendub kandidaatidele, avaldustele ja värbamisprojektidele.  
+> Selle artikli värbamisfunktsioone nimetatakse värbamisprojektideks ning see keskendub kandidaatidele, avaldustele ja värbamisprojektidele.  
 
 
 Värbamisprojektid aitavad värbamisprotsessi hallata. Iga värbamisprojekti jaoks saate seadistada teabe, nt töökohad, mille jaoks värbamine toimub, värbamise nimi, projekti olek ja osakond, kus töö asub. Värbamisprojekti loomise järel saate sellele kirjutada töökuulutuse, avaldada kuulutuse töötaja iseteeninduslehele **, seostada töölevõtu avaldused** projektiga ja jälgida selle projekti tegevusi. Selle **protseduuri loomiseks kasutati USMF-i** demoandmete ettevõtet.

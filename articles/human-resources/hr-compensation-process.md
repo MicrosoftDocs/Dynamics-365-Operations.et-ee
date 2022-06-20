@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: e4aa910d92c2905d54d96f656e1d3d1c36388636
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 228c891e8c29cf4309856b90139d0b88805a9812
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8693860"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886156"
 ---
 # <a name="process-compensation"></a>Tasu töötlemine
 
@@ -27,7 +27,7 @@ ms.locfileid: "8693860"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Tasu töötlemise abil saate arvutada omakapitali kohanduste, teenetel põhineva palgatõusu sihtväärtuste ja tulemuste põhjal töötajate uusi põhipalga summasid. See teema käsitleb tasude töötlemise põhivoogu põhipalga plaanide puhul ilma töötaja tulemusi arvesse võtmata.
+Tasu töötlemise abil saate arvutada omakapitali kohanduste, teenetel põhineva palgatõusu sihtväärtuste ja tulemuste põhjal töötajate uusi põhipalga summasid. See artikkel käsitleb tasude töötlemise põhivoogu põhipalga plaanide puhul ilma töötaja tulemusi arvesse võtmata.
 
 ## <a name="plan-the-new-compensation-amounts-and-budgets"></a>Uute tasusummade ja eelarvete plaanimine
 Töötajatele teenetel põhineva palgatõusu andmiseks peate seadistama igale osakonnale fikseeritud tõusu eelarve: **Tasuhaldus** > **Lingid** > **Teenetel põhineva palgatõusu sihtmärgid**. (Teine võimalus on avada see leht osakonna kaudu: **Organisatsioon** > **Osakonnad**.) Siin saate täiendavalt määrata, kas teatud ametiühingu või asukoha töötajad peaksid saama teistsuguse kasvuprotsendi. Väljad **Eelarve** ja **Valuuta** on informatiivsed ja neid saab kasutada eelarve jaoks valuutasumma märkimiseks.
@@ -41,7 +41,7 @@ Protsessisündmuse **Ajahetk** kuupäeva kasutatakse ainult teatud ergutussüste
 
 Kui protsessisündmuse parameetrid on salvestatud, võite klõpsata nuppu **Seadistus**, et valida, millised plaanid tuleks sellesse protsessitsüklisse lisada ja milliseid põhipalga toiminguid iga plaani puhul teha.
 
-Klõpsake vahekaardil **Plaanid** nuppu **Lisa** tasuplaani lisamiseks protsessisündmusele. Veergusid **Kasuta muud finantsvõimendust**, **Finantsvõimenduse tegur** ja **Finantsvõimenduse kirjeldus** kasutatakse ainult ergutussüsteemi plaanide jaoks ja neid selles teemas ei käsitleta.
+Klõpsake vahekaardil **Plaanid** nuppu **Lisa** tasuplaani lisamiseks protsessisündmusele. Veergusid **Kasuta muud finantsvõimendust**, **Finantsvõimenduse tegur** ja **Finantsvõimenduse kirjeldus** kasutatakse ainult ergutussüsteemi plaanide jaoks ja neid selles artiklis ei käsitleta.
 
 Salvestage kirje ja klõpsake siis vahekaardil **Tegevused** nuppu **Lisa** põhipalga toimingute lisamiseks valitud plaani puhul. Kasutage valikut **Luba soovitus**, et sisestada muu summa peale tegevuse jaoks arvutatud kasvusumma. Kui soovite arvutada eelmise tegevuse tulemusel põhineva tegevuse mitme hüvitustegevuse linkimiseks, märkige valik **Kasuta eelmist tulemuse** varianti. Põhitasu tegevused on kompensatsiooniloogika tüübid, millele saate anda kirjeldavaid nimed. Taseme **ja** palgaastala **plaanide** jaoks saate lisada ainult fikseeritud tasu tegevusi, mille tüübid on järgmised:
 

@@ -1,6 +1,6 @@
 ---
-title: Põhikonto kategooriate seadistamine
-description: See teema kirjeldab, kuidas seadistada põhikonto kategooriaid Dynamics 365 Financeis.
+title: Põhikonto kategooriate häälestus
+description: See artikkel selgitab, kuidas häälestada põhikonto kategooriaid Dynamics 365 Finances.
 author: aprilolson
 ms.date: 08/08/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cb41f1b7200363f8846c406d5c20338f6ea242bd
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: c48011c9988bdca694851476540db574efef7909
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8721978"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879559"
 ---
 # <a name="set-up-main-account-categories"></a>Põhikonto kategooriate häälestus
 
 [!include [banner](../../includes/banner.md)]
 
-Selles teemas selgitatakse, kuidas seadistada põhikonto kategooriaid. Põhikonto kategooriaid kasutatakse vaikearuanneteks finantsaruandluses ja Power BI-s. Vaikimisi loodud põhikonto kategooriaid saab ümber nimetada, kuid mitte kustutada. Luua saab täiendavaid kontokategooriaid ning kasutada neid aruandluseks ja analüüsiks. Teemas kasutatakse demoettevõtet USMF.
+See artikkel selgitab, kuidas häälestada põhikonto kategooriaid. Põhikonto kategooriaid kasutatakse vaikearuanneteks finantsaruandluses ja Power BI-s. Vaikimisi loodud põhikonto kategooriaid saab ümber nimetada, kuid mitte kustutada. Luua saab täiendavaid kontokategooriaid ning kasutada neid aruandluseks ja analüüsiks. See artikkel kasutab USMF-i demoettevõtet.
 
 ## <a name="create-a-main-account-category"></a>Põhikonto kategooria loomine
 1. Avage **Navigeerimispaan > Moodulid > Pearaamat > Kontoplaan > Kontod > Põhikontode kategooriad**.

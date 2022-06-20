@@ -1,6 +1,6 @@
 ---
 title: Funktsioonihalduse ülevaade
-description: Selles teemas kirjeldatakse funktsioonide haldamist ja selle kasutamist.
+description: See artikkel kirjeldab Funktsioonihaldust ja selle kasutamist.
 author: Peakerbl
 ms.date: 01/10/2022
 ms.topic: overview
@@ -15,12 +15,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: c98bdbd64ee5488da20de3f5b23ae18ebce8c23f
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 0691bc34ac8b57d20cfbeb58b6a2e2a03a57d067
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068005"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850047"
 ---
 # <a name="feature-management-overview"></a>Funktsioonihalduse ülevaade
 
@@ -41,7 +41,7 @@ Funktsioonide loend sisaldab järgmist teavet.
 - **Olek** – sümbol näitab, kas funktsioon on sisse lülitatud (märge), poel sisse lülitatud (tühi), on plaanitud sisse lülitamiseks (kell), on kohustuslikult sisse lülitatud (lukk), nõuab enne sisselülitamist tähelepanu (hoiatussümbol) või ei saa sisse lülitada (X). Siin kuvatavat sätet kasutatakse kõigi juriidiliste isikute puhul. Pidage meeles, et isegi kui funktsioon on sisse lülitatud, kontrollib seda ikkagi turve. Seetõttu on funktsioon saadaval ainult neile kasutajatele, kellel on sellele juurdepääs, põhinevalt nende turberollil. See on saadaval ainult juriidilistele isikutele, millele kasutajal on juurdepääs.
 - **Luba kuupäeval** – kuupäev, millal funktsioon sisse lülitatud või on sisse lülitamiseks plaanitud.
 - **Funktsioon lisatud** – kuupäev, mil funktsioon lisati teie keskkonda. See kuupäev sisestatakse automaatselt, kui värskendate oma keskkonda igakuiste väljaannete tsüklite ajal.
-- **Funktsiooni olek** – funktsiooni praegune töötsükli olek: **eelvaade**, **vabastatud** (kuvatakse tühjana), **Sisselülitatud vaikimisi** ja **Kohustuslik**. Täpsemate üksikasjadega kaetud olekud on selles teemas hiljem kaetud. 
+- **Funktsiooni olek** – funktsiooni praegune töötsükli olek: **eelvaade**, **vabastatud** (kuvatakse tühjana), **Sisselülitatud vaikimisi** ja **Kohustuslik**. Täpsemate üksikasjadega kaetud riigid on selles artiklis hiljem kaetud. 
 - **Moodul** – moodul, mida uus funktsioon mõjutab.
 
 > [!NOTE]
@@ -72,14 +72,14 @@ Nende **funktsioonide oleku** veerg funktsioonina on tühi. Algselt väljastatun
 
 ### <a name="on-by-default-features-optional"></a>Vaikefunktsioonid (valikuline)
 
-Funktsioonid, mida uuendatakse **vaikimisi**, on lülitatud vaikimisi sisse, kuid neid saab keelata. Pärast seda, kui funktsioonid, mida saab keelata, on olekus **Vabastatud** olnud vähemalt kuus kuud, eeldatakse, et nad liiguvad järgmise põhivabastuse ajal siia olekusse. Funktsioonid, mis **vaikimisi** lülituvad sissse eeldatava edastamise puhul [Mis on uut](../whats-new-changed.md) väljaandmise teemas. Värskenduse algatab toote omanik.
+Funktsioonid, mida uuendatakse **vaikimisi**, on lülitatud vaikimisi sisse, kuid neid saab keelata. Pärast seda, kui funktsioonid, mida saab keelata, on olekus **Vabastatud** olnud vähemalt kuus kuud, eeldatakse, et nad liiguvad järgmise põhivabastuse ajal siia olekusse. Funktsioonid, mis vaikimisi **üle minna** On-i, peavad olema koosnema [vabastamise uuest](../whats-new-changed.md) artiklist. Värskenduse algatab toote omanik.
 
 > [!NOTE]
 > Kuna need funktsioonid lubatakse automaatselt, on oluline määrata, kas teie organisatsioon on valmis neid funktsioone uuendama või on vaja rohkem aega. Kui vaja on rohkem aega, võib olla vajalik need funktsioonid ajutiselt keelata. Pange tähele, et funktsiooni siirde vaikimisi valikule **Sees vaikimisi** tehakse tavaliselt põhivabastuses enne, kui see funktsioon on määratud **Kohustuslikuks**. Sel hetkel pole teil võimalust seda funktsiooni keelata. 
 
 ### <a name="mandatory"></a>Kohustuslik
 
-**Kohustuslik** on funktsioonide eeldatav lõppseisund. See näitab, et funktsioonid on sisse lülitatud ja te ei saa neid keelata ilma Microsoft`iga kontakteerumata. Valikulised funktsioonid muutuvad kohustuslikuks pärast kahte põhivabastust. Kriitilisi funktsioone saab erandkorras kehtestada kohustuslikuna.
+**Kohustuslik on** funktsioonide eeldatav lõplik olek. See näitab, et funktsioonid on sisse lülitatud ja te ei saa neid keelata ilma Microsoft`iga kontakteerumata. Valikulised funktsioonid muutuvad kohustuslikuks pärast kahte põhivabastust. Kriitilisi funktsioone saab erandkorras kehtestada kohustuslikuna.
 
 ## <a name="example-of-expected-feature-lifecycles"></a>Eeldatava funktsiooni töötsüklite näide
 

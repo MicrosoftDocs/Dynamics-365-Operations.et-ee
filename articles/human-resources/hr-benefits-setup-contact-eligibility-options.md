@@ -1,6 +1,6 @@
 ---
 title: Isiklike kontaktide sobivuse suvandite konfigureerimine
-description: See teema selgitab, kuidas konfigureerida isiklike kontaktide sobivuse suvandeid rakenduses Microsoft Dynamics 365 Human Resources.
+description: See artikkel selgitab, kuidas konfigureerida Microsofti isiklike kontaktide sobivuse suvandeid Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 08/24/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e145acf6a6ba3333acfcc6e66dadd1f7d5deac65
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 82bb7c037b4e0ab9950ce4c314c03a0f2d713bbd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692306"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895927"
 ---
 # <a name="configure-personal-contact-eligibility-options"></a>Isiklike kontaktide sobivuse suvandite konfigureerimine
 
@@ -28,7 +28,7 @@ ms.locfileid: "8692306"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-See teema kirjeldab, kuidas konfigureerida soodustuste kasutamiseks isiklike kontaktide tüüpe rakenduses Microsoft Dynamics 365 Human Resources. Isiklikud kontaktid on need isikud, kellele teie plaanid kuuluvad (ülalpeetavad) või kes saavad teie plaanidest kasu (kasusaajad). Ülalpeetavad on tavaliselt abikaasad või lapsed. Kasusaajad võivad olla abikaasad, pered, usaldusisikud või lapsevanemad.
+See artikkel selgitab, kuidas konfigureerida isiklike kontaktide tüüpe, mida saab Microsofti soodustustes kasutada Dynamics 365 Human Resources. Isiklikud kontaktid on need isikud, kellele teie plaanid kuuluvad (ülalpeetavad) või kes saavad teie plaanidest kasu (kasusaajad). Ülalpeetavad on tavaliselt abikaasad või lapsed. Kasusaajad võivad olla abikaasad, pered, usaldusisikud või lapsevanemad.
 
 1. Tööruumis **Soodustuste haldus** jaotises **Seadistus** valige suvand **Isikliku kontakti sobivuse suvandid**.
 

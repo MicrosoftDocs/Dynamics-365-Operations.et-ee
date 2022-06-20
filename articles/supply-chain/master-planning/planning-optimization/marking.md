@@ -1,6 +1,6 @@
 ---
 title: Varude märkimine planeerimise optimeerimisega
-description: See teema annab teavet valikute kohta, mis on saadaval varude märkimiseks, kui kasutate planeerimise optimeerimist.
+description: See artikkel annab teavet valikute kohta, mis on saadaval varude märkimiseks kinnitatud tellimustes, kui kasutate planeerimise optimeerimist.
 author: t-benebo
 ms.date: 12/02/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 8d06527d125837b056729574517ca5ed6738fcff
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 2f1902ba76db59b61b0437eb3cd68ee94018b7c5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468352"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844463"
 ---
 # <a name="inventory-marking-with-planning-optimization"></a>Varude märkimine planeerimise optimeerimisega
 
 [!include [banner](../../includes/banner.md)]
 
-See teema annab teavet valikute kohta, mis on saadaval varude märkimiseks, kui kasutate planeerimise optimeerimist.
+See artikkel annab teavet valikute kohta, mis on saadaval varude märkimiseks kinnitatud tellimustes, kui kasutate planeerimise optimeerimist.
 
 *Märkimist* kasutatakse pakkumise ja nõudluse linkimiseks. See meenutab *sidumist*, mis näitab, kuidas koondplaneerimise abil soovitakse nõudlusele vastata. Planeerimise vaatepunktist on peamiseks erinevuseks see, et märgistus on sidumisest püsivam.
 

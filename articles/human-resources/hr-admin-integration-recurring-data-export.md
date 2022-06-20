@@ -1,6 +1,6 @@
 ---
 title: Korduvate andmete ekspordi rakenduse loomine
-description: See artikkel näitab, kuidas luua Microsoft Azure loogikarakendus, mis ekspordib rakendusest Microsoft Dynamics 365 Human Resources korduva graafiku alusel andmeid.
+description: See artikkel kirjeldab, kuidas luua loogikarakendus Microsoft Azure, mis ekspordib Microsoftist Dynamics 365 Human Resources andmeid korduvas graafikus.
 author: twheeloc
 ms.date: 08/19/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c53adc56c19acae05904edcf4109a134566d30b7
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 9c840dbf4f717da3359640ee5c8231ccd129ebb2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688767"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875825"
 ---
 # <a name="create-a-recurring-data-export-app"></a>Korduvate andmete ekspordi rakenduse loomine
 
@@ -28,7 +28,7 @@ ms.locfileid: "8688767"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-See artikkel näitab, kuidas luua Microsoft Azure loogikarakendus, mis ekspordib rakendusest Microsoft Dynamics 365 Human Resources korduva graafiku alusel andmeid. Õpetus kasutab andmete eksportimiseks rakenduse Human Resources DMF-i paketi REST rakenduse programmeerimisliidest (API). Pärast andmete eksportimist salvestab loogikarakendus eksporditud andmed Microsoft OneDrive for Businessi kausta.
+See artikkel kirjeldab, kuidas luua loogikarakendus Microsoft Azure, mis ekspordib Microsoftist Dynamics 365 Human Resources andmeid korduvas graafikus. Õpetus kasutab andmete eksportimiseks rakenduse Human Resources DMF-i paketi REST rakenduse programmeerimisliidest (API). Pärast andmete eksportimist salvestab loogikarakendus eksporditud andmed Microsoft OneDrive for Businessi kausta.
 
 ## <a name="business-scenario"></a>Äristsenaarium
 

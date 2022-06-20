@@ -1,6 +1,6 @@
 ---
 title: Standardkulude eeltingimuste ülevaade
-description: Selles teemas kirjeldatakse standardkulude kasutamise põhisamme.
+description: Selles artiklis kirjeldatakse standardkulude kasutamise põhitoiminguid.
 author: JennySong-SH
 ms.date: 07/25/2019
 ms.topic: overview
@@ -15,18 +15,18 @@ ms.search.industry: Manufacturing
 ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7cf37ae8d2cfa2a3f372e37eb66c22711e76dd59
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: bf02653b1d1a2cf5ed45f0fc6bd9affe098e7396
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672314"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895782"
 ---
 # <a name="prerequisites-for-standard-costs-overview"></a>Standardkulude eeltingimuste ülevaade
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas kirjeldatakse standardkulude kasutamise põhisamme. Järgmised etapid sõltuvad ettevõtte toimingutest. Näiteks erinevad need mittetöötleva keskkonna, protsesse mittekasutava töötleva keskkonna ja protsesse kasutava töötleva keskkonna puhul. 
+Selles artiklis kirjeldatakse standardkulude kasutamise põhitoiminguid. Järgmised etapid sõltuvad ettevõtte toimingutest. Näiteks erinevad need mittetöötleva keskkonna, protsesse mittekasutava töötleva keskkonna ja protsesse kasutava töötleva keskkonna puhul. 
 
 Standardkulude seadistamiseks läbige järgmised etapid.
 
@@ -65,7 +65,7 @@ Kasutage lehte **Kuluarvutuse versiooni seadistus**, et luua üks või mitu stan
 Kliendid, kes soovivad oma olemasolevaid kaupu muuta standardkulu laomudeliks peavad kasutama lehte **Standardkulu teisendused**.
 
 
-## <a name="related-topics"></a>Seotud teemad
+## <a name="related-articles"></a>Seotud artiklid
 
 [Standardomahinna teisendamise ülevaade](standard-cost-conversion-overview.md)
 

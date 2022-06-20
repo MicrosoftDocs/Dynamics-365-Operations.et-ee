@@ -1,6 +1,6 @@
 ---
 title: Kauba konsolideerimine – asukoha kasutamine
-description: Selles teemas antakse teavet funktsiooni kohta, mis hõlbustab laohalduritel kuvada ja filtreerida asukohtade mahulist kasutust terves laos. Haldurid saavad valida asukohti ja luua varude liikumise tööd otse kauba konsolideerimise lehelt, et konsolideerida kaupu ja seeläbi kasutada laos olevat ruumi tõhusamalt.
+description: See artikkel annab teavet funktsioonide kohta, mis hõlbustab laohalduritel vaadata ja filtreerida asukohtade mahulist kasutamist kogu laos. Haldurid saavad valida asukohti ja luua varude liikumise tööd otse kauba konsolideerimise lehelt, et konsolideerida kaupu ja seeläbi kasutada laos olevat ruumi tõhusamalt.
 author: Mirzaab
 ms.date: 07/16/2020
 ms.topic: article
@@ -13,22 +13,22 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: f858eae57b8b354076f5ed026a4b84ed680866b0
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 63fd8b209cb73843aae7324c805c5d0eb83b4ca4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578604"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849180"
 ---
 # <a name="item-consolidation---location-utilization"></a>Kauba konsolideerimine – asukoha kasutamine
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas antakse teavet funktsiooni kohta, mis hõlbustab laohalduritel kuvada ja filtreerida asukohtade mahulist kasutust terves laos. Haldurid saavad valida asukohti ja luua varude liikumise tööd otse lehelt **Kauba konsolideerimine**, et konsolideerida kaupu ja seeläbi kasutada laos olevat ruumi tõhusamalt.
+See artikkel annab teavet funktsioonide kohta, mis hõlbustab laohalduritel vaadata ja filtreerida asukohtade mahulist kasutamist kogu laos. Haldurid saavad valida asukohti ja luua varude liikumise tööd otse lehelt **Kauba konsolideerimine**, et konsolideerida kaupu ja seeläbi kasutada laos olevat ruumi tõhusamalt.
 
 ## <a name="turn-on-the-features"></a>Funktsioonide sisselülitamine
 
-Enne, kui saate kasutada selles teemas kirjeldatud funktsioone, peate need oma süsteemis sisse lülitama. Administraatorid saavad kasutada tööruumi [Funktsioonihaldus](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), et kontrollida funktsioonide olekut ja need vajadusel sisse lülitada. Lülitage sisse mõlemad järgmised funktsioonid loendis olevas järjekorras. (Mõlemad funktsioonid on mooduli **Laohaldus** jaoks.)
+Enne kui saate kasutada selles artiklis kirjeldatud funktsioone, peate need oma süsteemis sisse lülitama. Administraatorid saavad kasutada tööruumi [Funktsioonihaldus](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), et kontrollida funktsioonide olekut ja need vajadusel sisse lülitada. Lülitage sisse mõlemad järgmised funktsioonid loendis olevas järjekorras. (Mõlemad funktsioonid on mooduli **Laohaldus** jaoks.)
 
 1. Laoasukoha olek
 2. Kauba konsolideerimise asukoha kasutamine
@@ -51,7 +51,7 @@ Need väljad võimaldavad laohalduritel saada täpsemat ülevaadet lao asukohtad
 
 ## <a name="set-up-item-consolidation-and-location-utilization"></a>Kauba konsolideerimise ja asukoha kasutamise seadistamine
 
-Selles jaotises kirjeldatakse, kuidas valmistada süsteemi ette kauba konsolideerimise ja asukoha kasutamise kasutamiseks. Need protseduurid kasutavad standardsete demoandmete näidisväärtusi. Kui plaanite töötada näidisstsenaariumiga, mida selles teemas hiljem käsitletakse, valige juriidiline isik **USMF** (mis sisaldab standardseid demoandmeid) ja looge kõik selles jaotises kirjeldatavad kirjed. Kui te ei plaani töötada näidisstsenaariumiga, saate siin esitatud väärtusi käsitleda sellist tüüpi seadistuste näidetena, mille peate funktsioonide kasutamiseks lõpule viima.
+Selles jaotises kirjeldatakse, kuidas valmistada süsteemi ette kauba konsolideerimise ja asukoha kasutamise kasutamiseks. Need protseduurid kasutavad standardsete demoandmete näidisväärtusi. Kui plaanite töötada näidisstsenaariumiga, mis antakse selles artiklis allpool, **valige USMF-i** juriidiline isik (mis sisaldab standardseid demoandmeid) ja looge kõik selles jaotises kirjeldatud kirjed. Kui te ei plaani töötada näidisstsenaariumiga, saate siin esitatud väärtusi käsitleda sellist tüüpi seadistuste näidetena, mille peate funktsioonide kasutamiseks lõpule viima.
 
 ### <a name="released-product"></a>Väljastatud toode
 

@@ -1,6 +1,6 @@
 ---
 title: Vooeraldus
-description: See teema kirjeldab, kuidas seadistada vooeralduse samme, k.a paralleeltöötluse lubamine.
+description: See artikkel kirjeldab, kuidas seadistada voo eraldussamme, k.a paralleeltöötluse lubamine.
 author: Mirzaab
 ms.date: 03/08/2021
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 08781b26a4e066a026d4efa14670f073b04ec185
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: c6b89364afd57b9c4b4413d0319b86e725433594
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695531"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906947"
 ---
 # <a name="wave-allocation"></a>Vooeraldus
 
@@ -25,7 +25,7 @@ ms.locfileid: "8695531"
 
 Voo töötlemine võib olla aeganõudev ning suurem osa töötlemisajast kulub eraldamise sammus ja töö loomise etapis.
 
-Nüüd on võimalik käivitada kõik need sammud paralleelselt, mis võib parandada voo töötluse jõudlust ja võimaldada suurema voogude läbilaske samas laos. See teema kirjeldab, kuidas seadistada voo eraldusviisi paralleelselt käitamiseks. Lisateavet selle kohta, kuidas seadistada töö loomine paralleelselt käivituma, vaadake teemast [Planeeritud töö loomine voo ajal](configure-wave-schedule-work-creation.md).
+Nüüd on võimalik käivitada kõik need sammud paralleelselt, mis võib parandada voo töötluse jõudlust ja võimaldada suurema voogude läbilaske samas laos. See artikkel selgitab, kuidas seadistada voo eraldusviisi paralleelselt käitamiseks. Lisateavet selle kohta, kuidas seadistada töö loomine paralleelselt käivituma, vaadake teemast [Planeeritud töö loomine voo ajal](configure-wave-schedule-work-creation.md).
 
 Varem oli võimalik eraldada korraga ainult üks voog laos. See piirang on eemaldatud ja asendatud uue piiranguga, mis lukustab ainult selle üksuse ja mõõtmed, mis asuvad reserveerimishierarhias asukohast kõrgemal. Asukohast ülalpool asuvates dimensioonides on alati tootedimensioonid. Näiteks kui kaup on konfigureeritud *värvi* abil, saab igat varianti (*punase*, *sinise* ja *kollase*) töödelda paralleelselt.
 

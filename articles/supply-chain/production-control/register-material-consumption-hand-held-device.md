@@ -1,6 +1,6 @@
 ---
 title: Materjalitarbe registreerimine mobiilse seadmega
-description: Selles teemas kirjeldatakse töövoogu, mis võimaldab registreerida tootmises toormaterjali pihuseadme abil.
+description: See artikkel kirjeldab töövoogu, mis võimaldab toormaterjali tarbimise registreerimist tootmises, kasutades pihuseadmeid.
 author: johanhoffmann
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1aeb527255358ecafafcb64185cb9dcb31243d499c533f9c9390d79658534e3c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1e1dbc399eb06d1049950bbdd755b479ef275563
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777859"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849238"
 ---
 # <a name="register-material-consumption-using-a-mobile-device"></a>Materjalitarbe registreerimine mobiilse seadmega
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas kirjeldatakse töövoogu, mis võimaldab registreerida tootmises toormaterjali pihuseadme abil.
+See artikkel kirjeldab töövoogu, mis võimaldab toormaterjali tarbimise registreerimist tootmises, kasutades pihuseadmeid.
 
 ## <a name="introduction"></a>Sissejuhatus
 

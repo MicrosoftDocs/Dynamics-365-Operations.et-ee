@@ -1,6 +1,6 @@
 ---
 title: Rakenduses Supply Chain Management toodete sünkroonimine rakenduse Field Service toodetega
-description: Selles teemas käsitletakse malle ja aluseks olevat ülesannet, mida kasutatakse toodete sünkroonimiseks rakendusest Dynamics 365 Supply Chain Management rakendusse Dynamics 365 Field Service.
+description: See artikkel käsitleb malle ja aluseks olevat ülesannet, mida kasutatakse toodete sünkroonimiseks alates Dynamics 365 Supply Chain Management Dynamics 365 Field Service.
 author: Henrikan
 ms.date: 04/09/2018
 ms.topic: article
@@ -16,22 +16,22 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 09460139ba2ae7c9be78b1441e1d095952b405f8
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 114550f01f3aed197480fb6830fe913dbfa7b570
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566475"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860547"
 ---
 # <a name="synchronize-products-in-supply-chain-management-to-products-in-field-service"></a>Rakenduses Supply Chain Management toodete sünkroonimine rakenduse Field Service toodetega
 
 [!include[banner](../includes/banner.md)]
 
-Selles teemas käsitletakse malle ja aluseks olevat ülesannet, mida kasutatakse toodete sünkroonimiseks rakendusest Dynamics 365 Supply Chain Management rakendusse Dynamics 365 Field Service.
+See artikkel käsitleb malle ja aluseks olevat ülesannet, mida kasutatakse toodete sünkroonimiseks Dynamics Dynamics 365 Supply Chain Management 365 Field Service'ist.
 
 Kasutatud mall **Field Service’i tooted (rakendus Supply Chain Management rakendusele Field Service)** põhineb lahenduse Potentsiaalne klient sularahaks mallil **Tooted (rakendus Supply Chain Management rakendusele Salesi) – otse**. Lisateabe saamiseks vt [Tooted (Supply Chain Managementist Salesi) – otse](/dynamics365/unified-operations/supply-chain/sales-marketing/products-template-mapping-direct).
 
-Selles teemas kirjeldatakse ainult mallide **Field Service’i tooted (Supply Chain Managementist Field Service’isse)** ja **Tooted (Supply Chain Managementist Salesi) – otse** erinevusi.
+See artikkel kirjeldab ainult erinevusi **Field Service'i toodete (tarneahela haldus field Service'ile)** **ja toodete (tarneahela haldus müügile) vahel – otsesed mallid**.
 
 ## <a name="templates-and-tasks"></a>Mallid ja ülesanded
 

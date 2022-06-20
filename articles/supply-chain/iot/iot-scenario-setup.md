@@ -1,6 +1,6 @@
 ---
 title: IoT iseõppimisvõime stsenaariumi seadistamine
-description: Selles teemas selgitatakse, kuidas konfigureerida stsenaariume IoT iseõppimisvõime jaoks rakenduses Microsoft Dynamics 365 Supply Chain Management.
+description: See artikkel selgitab, kuidas konfigureerida Microsofti IoT-teabe stsenaariume Dynamics 365 Supply Chain Management.
 author: johanhoffmann
 ms.date: 08/16/2019
 ms.topic: article
@@ -14,20 +14,20 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: dddc282ef3e479d524b1dfa0c60091cad1c231e0
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 3172bdb81e00d20c5b1d1f3f8e4299ca69c59434
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675173"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889602"
 ---
 # <a name="scenario-setup-for-iot-intelligence"></a>IoT iseõppimisvõime stsenaariumi seadistamine
 
 [!include [banner](../../includes/banner.md)]
 
-Selles teemas selgitatakse, kuidas konfigureerida stsenaariume IoT iseõppimisvõime jaoks rakenduses Microsoft Dynamics 365 Supply Chain Management. <!-- KFM: Hide setup info for now: Before you can set up the scenarios, you must [set up Microsoft Dynamics Lifecycle Services (LCS)](iot-lcs-setup.md). -->
+See artikkel selgitab, kuidas konfigureerida Microsofti IoT-teabe stsenaariume Dynamics 365 Supply Chain Management. <!-- KFM: Hide setup info for now: Before you can set up the scenarios, you must [set up Microsoft Dynamics Lifecycle Services (LCS)](iot-lcs-setup.md). -->
 
-Selles teemas konfigureerite stsenaariumi **Seadmete seisakuaeg**, et masina tõrgete puhul luuaks rakenduses Supply Chain Management teatis. Selles teemas näidatakse ka, kuidas konfigureerida stsenaariumi **Tootekvaliteet**, et kauba atribuudi jäämisel väljapoole määratud vahemikku luuaks teatis, ja kuidas konfigureerida stsenaariumi **Tootmisviivitused**, et olukorras, kus tootmise läbilaskevõime jääb allapoole läviväärtust, luuaks teatis.
+Selles artiklis konfigureerite seadmete **downtime stsenaariumi** nii, et teatis luuakse tarneahela halduses, kui masin maha läheb. Artikkel näitab **ka**, kuidas konfigureerida toote kvaliteedi stsenaariumi nii, et teatis luuakse, kui kauba atribuut on väljaspool määratletud vahemikku, ja kuidas konfigureerida tootmise viivituste stsenaariumi nii, **et** teatis luuakse, kui tootmise läbilask langeb allapoole läviväärtust.
 
 ## <a name="configure-the-equipment-downtime-scenario-in-supply-chain-management"></a>Stsenaariumi Seadmete seisakuaeg konfigureerimine Supply Chain Managementis
 

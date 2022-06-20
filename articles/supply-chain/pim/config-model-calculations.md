@@ -1,6 +1,6 @@
 ---
 title: Toote konfiguratsioonimudeli arvutamise
-description: See teema kirjeldab, kuidas luua rakenduse toote konfiguratsioonimudelile atribuutide kalkulatsioone
+description: See artikkel kirjeldab, kuidas luua toote konfiguratsioonimudelis atribuutide kalkulatsioone.
 author: t-benebo
 ms.date: 03/18/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-03-18
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 349fed3ca75b94db2f421a1ff3c3553c96c202c37d59857a3d973f3de8f995ad
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 35057a4fc59732fea24e4d953cafed633a936ec1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6755247"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878928"
 ---
 # <a name="product-configuration-model-calculations"></a>Toote konfiguratsioonimudeli arvutamise
 
 [!include [banner](../includes/banner.md)]
 
-See teema kirjeldab, kuidas luua rakenduse toote konfiguratsioonimudelile atribuutide kalkulatsioone.
+See artikkel kirjeldab, kuidas luua toote konfiguratsioonimudelis atribuutide kalkulatsioone.
 
 ## <a name="prerequisites"></a>Eeltingimused
 

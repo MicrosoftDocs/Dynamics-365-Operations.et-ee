@@ -1,6 +1,6 @@
 ---
 title: Eelarve planeerimise koefitsiendid
-description: Selles teemas esitatakse näiteid planeerimise koefitsiendi seadistamise kohta. Selles on teave mitmesuguste planeerimise koefitsiendi sätete ja nende tulemuste kohta. Planeerimise koefitsiendi abil saate määratleda, kuidas eelarvevajadusi vähendada.
+description: Selles artiklis esitatakse näited, mis näitavad, kuidas seadistada vähendusvõtit. Selles on teave mitmesuguste planeerimise koefitsiendi sätete ja nende tulemuste kohta. Planeerimise koefitsiendi abil saate määratleda, kuidas eelarvevajadusi vähendada.
 author: t-benebo
 ms.date: 04/15/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 054eb28044e532ed2850cde21cb2f9fb5181ae02
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 5cf84598b731e9750e3cf79d312bf0bbf4f8bd81
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468974"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854264"
 ---
 # <a name="forecast-reduction-keys"></a>Eelarve planeerimise koefitsiendid
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas kirjeldatakse eri meetodeid, mida kasutatakse eelarvevajaduste vähendamiseks. Iga meetodi tulemuste kohta on toodud näited. Samuti selgitatakse, kuidas eelarve planeerimise koefitsienti luua, seadistada ja kasutada. Mõni meetod kasutab eelarvevajaduste vähendamiseks eelarve planeerimise koefitsienti.
+See artikkel annab teavet erinevate meetodite kohta, mida kasutatakse eelarvenõuete vähendamiseks. Iga meetodi tulemuste kohta on toodud näited. Samuti selgitatakse, kuidas eelarve planeerimise koefitsienti luua, seadistada ja kasutada. Mõni meetod kasutab eelarvevajaduste vähendamiseks eelarve planeerimise koefitsienti.
 
 ## <a name="methods-that-are-used-to-reduce-forecast-requirements"></a>Meetodid, mida kasutatakse eelarvevajaduste vähendamiseks
 

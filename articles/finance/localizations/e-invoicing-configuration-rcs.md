@@ -1,6 +1,6 @@
 ---
 title: Elektroonilise arvelduse konfigureerimine Regulatory Configuration Services -is (RCS)
-description: See teema kirjeldab, kuidas konfigureerida elektroonilist arveldust Dynamics 365 teenuses Regulatory Configuration Services (RCS)-is.
+description: See artikkel selgitab, kuidas konfigureerida elektroonilist arveldamist Dynamics 365 regulatiivsetes konfiguratsiooniteenustes (RCS).
 author: gionoder
 ms.date: 11/08/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 640244612a2a553ec09661635787cb7f8694283b
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: 985bed767442d196a9ce0528673b4ed5946379ac
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779666"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865638"
 ---
 # <a name="configure-electronic-invoicing-in-regulatory-configuration-services-rcs"></a>Elektroonilise arvelduse konfigureerimine Regulatory Configuration Services -is (RCS)
 
 [!include [banner](../includes/banner.md)]
 
-Sellest teemast leiate teavet elektroonilise arvelduse konfiguratsioonivõimaluste kohta Dynamics 365 teenuses Regulatory Configuration Services (RCS).
+See artikkel pakub teavet elektroonilise arveldamise konfiguratsioonivõimaluste kohta Dynamics 365 regulatiivsete konfiguratsiooniteenuste (RCS) puhul.
 
 Elektroonilise arvelduse lisandmoodul aitab teil konfiguratsioonivõimaluste kaudu täita elektrooniliste arvete ärialaseid ja regulatiivseid nõudeid, ilma et peaksite midagi kodeerima. Stsenaariumides, kus elektroonilised arved peab veebiteenus elektrooniliselt kinnitanud, aitavad konfiguratsioonivõimalused täita ka veebiteenusega sõnumite vahetamise nõudeid ilma koodita.
 
@@ -40,7 +40,7 @@ Lisateavet vt teemast [Elektroonilise aruandluse (ER) ülevaade](../../fin-ops-c
 
 ## <a name="electronic-invoicing-features"></a>Elektroonilise arvelduse funktsioonid
 
-Elektroonilise arvelduse funktsioonid vastutavad elektrooniliste arvete loomise eest elektroonilise arvelduse lisandmooduli kaudu. Need hõlmavad konfiguratsioonireegleid ja kasutavad neid andmete töötlemiseks, mida Microsoft Dynamics 365 Finance ja Dynamics 365 Supply Chain Management elektroonilise arvelduse lisandmoodulile ning elektroonilistele arvetele saadavad.
+Elektroonilise arvelduse funktsioonid vastutavad elektrooniliste arvete loomise eest elektroonilise arvelduse lisandmooduli kaudu. Need koosnevad konfiguratsioonireeglitest Microsoft Dynamics ja kasutavad neid andmete töötlemiseks, mida 365 Finantsid Dynamics 365 Supply Chain Management ja saatmine elektroonilisele arveldamiseks ja elektroonilistele arvetele.
 
 Funktsioonid toetavad ka olukordi, kus on nõutav vastavus failivormingu spetsifikatsioonidele ning kus väljund on eraldiseisev elektrooniline fail. Enamasti avaldab failivormingu spetsifikatsioonid maksuamet.
 
@@ -277,7 +277,7 @@ Nende kahe funktsiooni eristamiseks kohaldatavuse reeglite kaudu tuleb ühele fu
 Keerukamate klauslite loomise toetamiseks on saadaval järgmised ressursid.
 
 Loogikatehtemärgid:
-- ja
+- Ja
 - Või
 
 Operaatoritüübid:

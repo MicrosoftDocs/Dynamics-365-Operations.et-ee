@@ -1,6 +1,6 @@
 ---
 title: Pitseeritud pakkumine pakkumiskutsete puhul
-description: See teema kirjeldab, kuidas seadistada pitseeritud pakkumine, et hoida müüja pakkumise vastused saladusse seni, kuni ostupersonal neid pitseerib.
+description: See artikkel kirjeldab, kuidas seadistada pitseeritud pakkumise, et hoida hankija pakkumise vastused saladusse seni, kuni ostupersonal neid pitseerib.
 author: GalynaFedorova
 ms.date: 08/02/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: dfc19646d6724627c8a25bcfc8a6b2a70a73c261
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 40f1735d7efa5131b1462963758b6b48eec78fea
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675145"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890882"
 ---
 # <a name="sealed-bidding-for-rfqs"></a>Pitseeritud pakkumine pakkumiskutsete puhul
 
@@ -148,7 +148,7 @@ Pitseeritud pakkumise pakkumiskutse juhtumi loomine on peaaegu sama, mis pitseer
 Pitseeritud pakkumise pakkumiskutse **pakkumise tüüp** peab olema *Pitseeritud*. Pakkumiskutse juhtumile väärtuse määramiseks on kolm võimalust:
 
 - Saate väärtuse seadistada pakkumiskutse juhtumile pärast selle loomist otse.
-- Saate määratleda pakkumise pitseeritud pakkumise vaiketüübina kõigi hanke- ja hankeparameetrite pakkumiskutsete juhtumite puhul. (Vt Määrake selles teemas varasemalt toodud [Pakkumise vaiketüübi määramine](#set-default-bid-type).)
+- Saate määratleda pakkumise pitseeritud pakkumise vaiketüübina kõigi hanke- ja hankeparameetrite pakkumiskutsete juhtumite puhul. (Vt [Määrake selles artiklis varasema](#set-default-bid-type) pakkumise tüübi vaikejada.)
 - Uue pakkumiskutse juhtumi loomisel valige pakkumistüüp, mis on seadistatud pitseeritud pakkumiseks. (Vt jaotist [Pakkumise vaiketüübi määramine](#set-default-bid-type).)
 
 Pitseeritud pakkumise puhul määrab pakkumiskutse juhtumi **aegumiskuupäev ja -kellaaeg**, millal edastatud pakkumistelt saab pitseri eemaldada. Iga rea **aegumiskuupäev ja -kellaaeg** ühtivad päise väärtusega.

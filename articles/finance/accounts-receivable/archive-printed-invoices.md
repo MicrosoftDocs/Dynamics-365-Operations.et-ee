@@ -1,6 +1,6 @@
 ---
 title: Arhiivi prinditud kliendiarved räsinumbritega
-description: See teema kirjeldab, kuidas lubada arhiveerimine, et talletada prinditud kliendiarved koos räsinumbritega.
+description: See artikkel selgitab, kuidas lubada prinditud kliendiarvete arhiveerimine koos hash numbers-dega.
 author: ilkond
 ms.date: 09/15/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-05
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 44caf44097a433b8848b17688430ca88a4b3f51b
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 3f19968b4f4cf76a48ac5485e915785e9be5c7db
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695270"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909181"
 ---
 # <a name="archive-printed-customer-invoices-with-hash-numbers"></a>Arhiivi prinditud kliendiarved räsinumbritega
 
@@ -27,7 +27,7 @@ ms.locfileid: "8695270"
 
 Mõnedes riikides on juriidiline nõue talletada süsteemis arvutatud räsinumbrid koos mõne dokumendi väljaprintiga. Räsinumbreid saab kasutada ametivõimudele aruandluseks ja auditi ajal.
 
-See teema kirjeldab, kuidas lubada arhiveerimine, et talletada prinditud kliendiarved koos räsinumbritega.
+See artikkel selgitab, kuidas konfigureerida arhiivimist, et talletada prinditud kliendiarved koos hash-numbritega.
 
 ## <a name="prerequisites"></a>Eeltingimused
 

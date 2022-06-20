@@ -1,6 +1,6 @@
 ---
 title: Kassaaparaadi funktsioonid Norra jaoks
-description: See teema annab ülevaate kassaraamatu funktsioonidest, mis on Norrale Microsoft Dynamics 365 Commerce saadaval ja annab juhised funktsioonide seadistamiseks.
+description: See artikkel annab ülevaate kassaraamatu funktsioonidest, mis on Norrale Microsoft Dynamics 365 Commerce saadaval ja annab juhised funktsioonide seadistamiseks.
 author: EvgenyPopovMBS
 ms.date: 12/20/2021
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2017-10-31
-ms.openlocfilehash: bb87b3a7405ef3d8435748813fa66db74b8f0971
-ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
+ms.openlocfilehash: 778a947f03866518219e9c0fa44660d66f19f53a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7944936"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906695"
 ---
 # <a name="cash-register-functionality-for-norway"></a>Kassaaparaadi funktsioonid Norra jaoks
 
 [!include[banner](../includes/banner.md)]
 
-Selles teemas antakse ülevaade kassaraamatu funktsioonidest, mis on Saadaval Norras Dynamics 365 Commerce. Samuti annab see juhised funktsioonide seadistamiseks. Funktsioon koosneb järgmistest osadest:
+See artikkel annab ülevaate kassaraamatu funktsioonidest, mis on Saadaval Norras Dynamics 365 Commerce. Samuti annab see juhised funktsioonide seadistamiseks. Funktsioon koosneb järgmistest osadest:
 
 - Kõigi riikide või regioonide klientidele saadaolevad tavalise müügikoha (POS) funktsioonid. Näited hõlmavad valikut, mis laseb teil takistada kviitungi koopia prindimist rohkem kui üks kord.
 - Norrale omased funktsioonid, nt müügikannete digitaalallkirjad.
@@ -29,13 +29,13 @@ Selles teemas antakse ülevaade kassaraamatu funktsioonidest, mis on Saadaval No
 
 ### <a name="common-pos-features"></a>Ühise kassa funktsioonid
 
-Lisateavet müügikoha funktsioonide kohta, mis on saadaval klientidele kõikides riikides või regioonides, vt [spikriressursse Dynamics 365 Retail](../index.md).
+Lisateavet müügikoha funktsioonide kohta, mis on saadaval klientidele kõikides riikides või regioonides, vt spikriressursse [Dynamics 365 Retail](../index.md).
 
 Järgmisi müügikoha lokaliseerimise funktsioone, mis on eelnevalt rakendatud ja mis on tehtud klientidele kõikides riikides või regioonides kättesaadavaks, saab nüüd kasutada konkreetselt Norra puhul:
 
-- **Prindib kviitungi tekstiväljad suurema fondisuuruses.** Kviitungi vormingu kujundajas saate kasutada fondi suuruse parameetrit, et määrata, kas kviitungi vormingus väljal tuleb kasutada **suurt** fondi suurust. (Suur fondi suurus on tavalisest fondi suurusest umbes kahekordne.) Näiteks saate seda parameetrit kasutada näidiku Kopeeri printimiseks kviitungi koopiale suurte märkidega.
-- **Registreerige kviitungi koopiate printimine kassa auditi sündmustelogis.** Saate kasutada kassa funktsiooniprofiilis parameetrit Audit, et lubada kviitungite koopiate printimise ja teiste kassa auditi **sündmuste** registreerimist. Auditi sündmused registreeritakse kanali andmebaasis ja Peakontoris. Auditi sündmusi saate vaadata lehel **Auditi** sündmused.
-- **Takistage kviitungi koopiat rohkem kui üks kord printimist.** Kui kassa funktsiooniprofiili auditi parameeter on lubatud, kontrollib luba kviitungi koopiate kassa loa printimine, kas **·** **kviitungite** koopiaid saab printida. Samuti on olemas valik, mis laseb teil takistada kviitungi koopia prindimist rohkem kui üks kord.
+- **Prindib kviitungi tekstiväljad suurema fondisuuruses.** Kviitungi vormingu **kujundajas** saate kasutada fondi suuruse parameetrit, et määrata, kas kviitungi vormingus väljal tuleb kasutada suurt fondi suurust. (Suur fondi suurus on tavalisest fondi suurusest umbes kahekordne.) Näiteks saate seda parameetrit kasutada näidiku Kopeeri printimiseks kviitungi koopiale suurte märkidega.
+- **Registreerige kviitungi koopiate printimine kassa auditi sündmustelogis.** Saate kasutada kassa funktsiooniprofiilis **parameetrit** Audit, et lubada kviitungite koopiate printimise ja teiste kassa auditi sündmuste registreerimist. Auditi sündmused registreeritakse kanali andmebaasis ja Peakontoris. Auditi sündmusi saate vaadata lehel **Auditi sündmused**.
+- **Takistage kviitungi koopiat rohkem kui üks kord printimist.** Kui kassa **funktsiooniprofiili** auditi parameeter on lubatud, **kontrollib luba kviitungi koopiate** kassa loa printimine, kas kviitungite koopiaid saab printida. Samuti on olemas valik, mis laseb teil takistada kviitungi koopia prindimist rohkem kui üks kord.
 
 Lisaks rakendati Norra jaoks järgmine müügikoha funktsioon, kuid see tehti kättesaadavaks klientidele kõikides riikides või regioonides:
 
@@ -48,7 +48,7 @@ Lisaks rakendati Norra jaoks järgmine müügikoha funktsioon, kuid see tehti k�
 
 ### <a name="norway-specific-pos-features"></a>Norrale omased müügikoha funktsioonid
 
-Järgmised Norrale omased müügikoha funktsioonid on lubatud, kui **kassa** funktsiooniprofiili ISO-koodi parameetri väärtuseks on seatud **Ei**.
+Järgmised Norrale omased müügikoha funktsioonid on lubatud, kui **kassa funktsiooniprofiili ISO-koodi** parameetri väärtuseks on seatud **Ei**.
 
 #### <a name="digital-signing-of-sales-transactions"></a>Müügikannete digitaalne allkirjastamine
 
@@ -63,7 +63,7 @@ Allkirjastatakse ainult sularahamüügi kanded. Siin on mõned näited kannetest
 
 Allkirjastatud andmed on tekstistring, mis koosneb järgmistest andmeväljadest. Andmeväljad eraldatakse semikoolonitega.
 
-1. Sama kassa eelmine allkiri (esimese kande \[**puhul**\] kasutatakse nulli 0.)
+1. Sama kassa eelmine allkiri (esimese kande \[**puhul kasutatakse nulli 0**\] .)
 2. Kande kuupäev
 3. Kande aeg
 4. Järjestikuse allkirjastatud kande number
@@ -72,14 +72,14 @@ Allkirjastatud andmed on tekstistring, mis koosneb järgmistest andmeväljadest.
 
 Digitaalsel allkirjastamise protsessil kasutatakse RSA 1024-bitiset võtit, mis omab SHA-1 RSA-SHA1-1024. Commerce Scale Uniti installitud serti kasutatakse allkirjastamiseks. Serdi kordumatu ID (tunnistus) registreeritakse koos allkirjaga.
 
-Allkiri talletatakse koos kandeandmetega kaupluse andmebaasis ja peakontori (HQ) andmebaasis. Kande allkirja ja selle loomiseks kasutatud kande andmete saate vaadata kaupluse kannete lehe **finantskannete** **kiirkaardil**.
+Allkiri talletatakse koos kandeandmetega kaupluse andmebaasis ja peakontori (HQ) andmebaasis. Kande allkirja ja selle loomiseks kasutatud kande andmete saate vaadata **kaupluse** **kannete lehe finantskannete kiirkaardil.**
 
 #### <a name="receipts"></a>Kviitungid
 
 Norra sissetulekud võivad hõlmata täiendavat teavet, mis rakendati kohandatud väljade abil:
 
 - **Kviitungi** pealkiri – kviitungi vormingu kavandile saate lisada välja, et tuvastada kviitungi tüüp. Näiteks sisaldab müügikviitung teksti "Müügi sissetulek".
-- **Allkirjastatud kande seerianumber – allkirjastatud kande järjenumber võib ilmuda kviitungil, et seostada prinditud kviitung** andmebaasis digitaalallkirjaga.
+- **Allkirjastatud kande seerianumber** – allkirjastatud kande järjenumber võib ilmuda kviitungil, et seostada prinditud kviitung andmebaasis digitaalallkirjaga.
 - **Sissetuleku kogusummad** – kohandatud väljad sissetuleku kogusummade jaoks välistavad kande kogusummadest müügiväliseid summasid. Mittemüügisummad sisaldavad summasid järgmistele toimingutele:
 
     - Ettemaksed (kliendikonto deposiit)
@@ -89,7 +89,7 @@ Norra sissetulekud võivad hõlmata täiendavat teavet, mis rakendati kohandatud
 
 #### <a name="x-and-z-reports"></a>X- ja Z-aruanded
 
-X- ja Z-aruannetes kaasatud teave põhineb Norra nõuetel. Näiteks hõlmab sularaha müügi kogusumma ainult sularahakannete summasid ning välistada **kinkekaarditoimingute** ja ettemaksete väljaminek. Sularahamüükide kogusumma loetletakse ka kaubagrupi ja makseviisi järgi. Lisaks säilitatakse ja **prinditakse kumulatiivsed** **müügi kogusummad ja** tagastuste kogusummad.
+X- ja Z-aruannetes kaasatud teave põhineb Norra nõuetel. Näiteks hõlmab sularaha **müügi kogusumma ainult sularahakannete** summasid ning välistada kinkekaarditoimingute ja ettemaksete väljaminek. Sularahamüükide kogusumma loetletakse ka kaubagrupi ja makseviisi järgi. Lisaks säilitatakse ja prinditakse **kumulatiivsed müügi** **kogusummad** ja tagastuste kogusummad.
 
 #### <a name="saf-t-cash-register-audit-file"></a>SAF-T kassaregistri auditifail
 
@@ -104,16 +104,16 @@ Auditifaili saab eksportida järgmiste stsenaariumide jaoks:
 
 Te saate saata aruande ka ühest juriidilisest isikust teise juriidilise isiku nimel. Sellisel juhul peate käitama ekspordi tootmisüksusest ja määrama aruande saatjaks juriidilise isiku.
 
-SAF-T kassaregistri vorming rakendatakse Peakontoris elektroonilise [aruandluse](../../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md) abil. 
+SAF-T kassaregistri vorming rakendatakse Peakontoris elektroonilise aruandluse [abil](../../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md). 
 
 ## <a name="setting-up-commerce-for-norway"></a>Norra äri seadistamine
 
-Selles jaotises kirjeldatakse Norrale omased ja soovitatavad sätteid. Lisateavet vt spikri [ressurssidest Dynamics 365 Retail](../index.md).
+Selles jaotises kirjeldatakse Norrale omased ja soovitatavad sätteid. Lisateavet vt spikri ressurssidest [Dynamics 365 Retail](../index.md).
 
 Norrale omase funktsionaalsuse kasutamiseks peate lõpule täitma need ülesanded:
 
-- Seadke väli **Riik**/regioon **väärtusele NOR** (Norra) juriidilise isiku esmases aadressis.
-- Seadke **ISO**-koodi väljale **NO** (Norra) iga Norras paikneva kaupluse kassa funktsiooniprofiilis.
+- Seadke väli **Riik/regioon** **väärtusele NOR** (Norra) juriidilise isiku esmases aadressis.
+- **Seadke ISO-koodi** väljale **NO** (Norra) iga Norras paikneva kaupluse kassa funktsiooniprofiilis.
 
 Peate määrama ka Järgmised sätted Norra jaoks.
 
@@ -121,16 +121,16 @@ Peate määrama ka Järgmised sätted Norra jaoks.
 
 Veenduge, et juriidilise isiku nimi on määratud. See nimi prinditakse X- ja Z-aruannetele.
 
-Lisaks määrake **pangakonto teabe** kiirkaardil väljal **Protsessikood organisatsiooni** kood.
+Lisaks määrake pangakonto **teabe kiirkaardil** väljal **Protsessikood** organisatsiooni kood.
 
 ### <a name="set-up-value-added-tax-vat-per-norwegian-requirements"></a>Saate häälestada km-i Norra nõuete kohta.
 
 
-Peate looma käibemaksukoodid, käibemaksugrupid ja kauba käibemaksugrupid. Samuti peate häälestama toodete ja teenuste käibemaksuteabe. Lisateavet käibemaksude seadistamis- ja kasutus kohta leiate käibemaksu [ülevaatest](../../finance/general-ledger/indirect-taxes-overview.md).
+Peate looma käibemaksukoodid, käibemaksugrupid ja kauba käibemaksugrupid. Samuti peate häälestama toodete ja teenuste käibemaksuteabe. Lisateavet käibemaksude seadistamis- ja kasutus kohta vt käibemaksu [ülevaatest](../../finance/general-ledger/indirect-taxes-overview.md).
 
-Peate määrama ka käibemaksugrupid ja lubama Suvandi Hinnad sisaldavad käibemaksu **valikut** kauplustele, mis asuvad Norras.
+Peate määrama ka käibemaksugrupid ja lubama Suvandi **Hinnad sisaldavad** käibemaksu valikut kauplustele, mis asuvad Norras.
 
-### <a name="set-up-functionality-profiles"></a>Funktsiooniprofiilide seadistamine
+### <a name="set-up-functionality-profiles"></a>Funktsiooniprofiilide häälestus
 
 Peate lubama auditi ja seadistama kviitungite nummerdamise.
 
@@ -140,24 +140,24 @@ Seadke luba **kviitungi koopia printimise** õigusele sobiv väärtus.
 
 - **Luba alati** – operaator saab mitu korda kviitungi koopiat printida.
 - **Lubatakse ainult** üks kord – operaator saab kviitungi koopiat ainult ühe korra printida.
-- **Lubatakse ainult üks kord ja ainult siis, kui HQ DB on saadaval – operaator saab printida kviitungi koopia ainult üks kord ning ainult siis, kui HQ andmebaas on saadaval** järgmise kaudu: Real-time Service, nii et süsteem saab kontrollida, et kviitungi koopiaid pole eelnevalt üheski kaupluses Commerce Data Exchange prinditud.
+- **Lubatakse ainult üks kord ja ainult siis, kui HQ DB** on saadaval – operaator saab printida kviitungi koopia ainult üks kord ning ainult siis, kui HQ Commerce Data Exchange andmebaas on saadaval järgmise kaudu: Real-time Service, nii et süsteem saab kontrollida, et kviitungi koopiaid pole eelnevalt üheski kaupluses prinditud.
 - **Mitte** kunagi – operaator ei saa kviitungi koopiat printida.
 
 ### <a name="configure-custom-fields-so-that-they-can-be-used-in-receipt-formats-for-sales-receipts"></a>Kohandatud väljade konfigureerimine, et neid saaks kasutada müügikviitungite kviitungi vormingutes
 
-Lisage **keele teksti** lehel kviitungi kavandite kohandatud väljade siltidele järgmised kirjed. Pange **tähele, et tabelis kuvatavad keele ID, teksti ID ja teksti väärtused** **on vaid** **näited**. Saate neid vastavalt oma nõuetele muuta.
+Lisage keele **teksti lehel** kviitungi kavandite kohandatud väljade siltidele järgmised kirjed. Pange tähele **, et tabelis kuvatavad** keele **-,** **teksti-ID**- ja tekstiväärtused on vaid näited. Saate neid vastavalt oma nõuetele muuta.
 
 | Keele ID | Tekst                   | Teksti ID |
 |-------------|------------------------|---------|
-| en-US       | Kviitungi pealkiri          | 900011  |
-| en-US       | On kinkekaart           | 900012  |
-| en-US       | Kokku (müük)          | 900013  |
-| en-US       | Kogumaks (müük)      | 900014  |
-| en-US       | Kokku koos maksuga (müük) | 900015  |
-| en-US       | Maksusumma (müük)     | 900016  |
-| en-US       | Sularahakande ID    | 900017  |
+| et       | Kviitungi pealkiri          | 900011  |
+| et       | On kinkekaart           | 900012  |
+| et       | Kokku (müük)          | 900013  |
+| et       | Kogumaks (müük)      | 900014  |
+| et       | Kokku koos maksuga (müük) | 900015  |
+| et       | Maksusumma (müük)     | 900016  |
+| et       | Sularahakande ID    | 900017  |
 
-Lisage **kviitungi** kavandite kohandatud väljade jaoks kohandatud väljadele järgmised kirjed lehel Kohandatud väljad. Pange **tähele, et pealdise teksti ID väärtused peavad vastama teksti** **ID** väärtustele, mille **määrate keele teksti** lehel.
+**Lisage kviitungi** kavandite kohandatud väljade jaoks kohandatud väljadele järgmised kirjed lehel Kohandatud väljad. Pange tähele **, et pealdise teksti ID** väärtused peavad vastama **teksti ID** väärtustele, mille määrate **keele teksti** lehel.
 
 | Nimi                            | Tüüp    | Pealdise teksti ID |
 |---------------------------------|---------|-----------------|
@@ -174,7 +174,7 @@ Lisage **kviitungi** kavandite kohandatud väljade jaoks kohandatud väljadele j
 
 ### <a name="configure-receipt-formats"></a>Kviitungi vormingute konfigureerimine
 
-Muutke kõigi nõutud kviitungi vormingute puhul välja **Prindikäitumine** väärtus **väärtuseks Prindi alati** kviitungi vormingu jaoks.
+Muutke kõigi nõutud kviitungi vormingute puhul välja **Prindikäitumine väärtus** väärtuseks **Prindi alati** kviitungi vormingu jaoks.
 
 Lisage kviitungi vormingu kujundajasse järgmised kohandatud väljad asjakohastele kviitungi jaotistele. Pange tähele, et väljanimed vastavad eelmises jaotises määratletud keeletekstidele.
 
@@ -185,28 +185,28 @@ Lisage kviitungi vormingu kujundajasse järgmised kohandatud väljad asjakohaste
 
 2. Read:
 
-    - **On** kinkekaart – see väli märgib kviitungi rea seoses väljasta kinkekaardiga või lisa kinkekaardi toiminguga.
+    - **On kinkekaart** – see väli märgib kviitungi rea seoses väljasta kinkekaardiga või lisa kinkekaardi toiminguga.
 
 3. Jalus:
 
     - **Kokku (müük)** – see väli prindib sissetuleku sularahamüügi kogusumma. Summa ei sisalda maksu. Ettemaksed ja kinkekaarditoimingud on välja jäetud.
     - **Maksu kogusumma (müük)** – see väli prindib sissetuleku käibemaksu kogusumma sularahamüügi puhul. Ettemaksed ja kinkekaarditoimingud on välja jäetud.
-    - **Kogusumma koos maksuga** (müük) – see väli prindib sissetuleku sularahamüügi kogusumma. Summa sisaldab maksu. Ettemaksed ja kinkekaarditoimingud on välja jäetud.
+    - **Kogusumma koos maksuga (müük)** – see väli prindib sissetuleku sularahamüügi kogusumma. Summa sisaldab maksu. Ettemaksed ja kinkekaarditoimingud on välja jäetud.
     - **Maksusumma (müük)** – selle välja abil prinditakse iga maksukoodi kohta kassakäibmaksu summa. Ettemaksed ja kinkekaarditoimingud on välja jäetud.
 
-Lisateavet kviitungi vormingutega töötades vt Kviitungi [vormingute häälestamine ja](../receipt-templates-printing.md) kujundamine.
+Lisateavet kviitungi vormingutega töötades vt Kviitungi vormingute [häälestamine ja kujundamine](../receipt-templates-printing.md).
 
 ### <a name="configure-the-saf-t-cash-register-export-format"></a>SAF-T kassaraamatu ekspordivormingu konfigureerimine
 
-SAF-T kassaregistri konfiguratsioon on allalaadimiseks saadaval elutsükli Microsoft Dynamics teenustest (LCS). Lisateavet vt jaotisest [Elektroonilise aruandluse konfiguratsioonide](../../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md) importimine. Peate alla laadima järgmised konfiguratsioonid:
+SAF-T kassaregistri konfiguratsioon on allalaadimiseks saadaval elutsükli Microsoft Dynamics teenustest (LCS). Lisateavet vt impordi elektrooniliste aruandluskonfiguratsioonide [kohta](../../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md). Peate alla laadima järgmised konfiguratsioonid:
 
 - **Jaemüügikanali andmed.version.1** – andmemudeli konfiguratsioon.
 - **DMM jaemüügikanali andmed.version.1.14** – andmemudeli vastendamise konfiguratsioon.
 - **EI SAF T Cash Register.version.1.20** – vormingu konfiguratsioon.
 
-Pärast konfiguratsioonide importimist äriparameetrite lehel, vahekaardil **Elektroonilised** **·** **dokumendid, valige SAF-T sularaharegistri ekspordivormingu väljal imporditud vormingu** konfiguratsiooni nimi.
+Pärast **konfiguratsioonide** **·** **importimist äriparameetrite lehel, vahekaardil Elektroonilised dokumendid, valige SAF-T** sularaharegistri ekspordivormingu väljal imporditud vormingu konfiguratsiooni nimi.
 
-Samuti peate vastendama nõutavad koondandmed eelmääratletud SAF-T standardkoodidega. Lisateavet vt Norra maksuhalduse esitatud SAF-T kassaraamatu dokumentatsioonist. Vastenduse loomiseks peate määrama uue **SAF-T kassaraamatu** koodi välja järgmistel lehekülgedel:
+Samuti peate vastendama nõutavad koondandmed eelmääratletud SAF-T standardkoodidega. Lisateavet vt Norra maksuhalduse esitatud SAF-T kassaraamatu dokumentatsioonist. Vastenduse loomiseks peate määrama uue **SAF-T kassaraamatu koodi** välja järgmistel lehekülgedel:
 
 - Kaubagrupid
 - Makseviisid
@@ -214,6 +214,6 @@ Samuti peate vastendama nõutavad koondandmed eelmääratletud SAF-T standardkoo
 
 ### <a name="configure-channel-components"></a>Kanali komponentide konfigureerimine
 
-Norrale omase funktsionaalsuse lubamiseks peate konfigureerima kanali komponendid. Lisateavet vt juurutuse [juhistest](emea-nor-fi-deployment.md).
+Norrale omase funktsionaalsuse lubamiseks peate konfigureerima kanali komponendid. Lisateavet vt juurutamise [juhistest](emea-nor-fi-deployment.md).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

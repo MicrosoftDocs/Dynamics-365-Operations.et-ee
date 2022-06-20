@@ -1,6 +1,6 @@
 ---
-title: Konsolideerimiskontode grupid ja täiendavad konsolideerimiskontod
-description: See teema annab teavet konsolideerimiskonto gruppide ja täiendavate konsolideerimiskontode kohta ning selgitab nende kasutamist.
+title: Konsolideerimiskonto grupid ja täiendavad konsolideerimiskontod
+description: See artikkel annab teavet konsolideerimiskonto gruppide ja täiendavate konsolideerimiskontode kohta ning selgitab nende kasutamist.
 author: panolte
 ms.date: 01/11/2018
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 5ca7a50fcac53f1636da15b2d7977174b087ac25
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 9e66190fe0bab24545bf19eba59facded63ee197
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711689"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882016"
 ---
 # <a name="consolidation-account-groups-and-additional-consolidation-accounts"></a>Konsolideerimiskonto grupid ja täiendavad konsolideerimiskontod
 
 [!include [banner](../includes/banner.md)]
 
-See teema annab teavet konsolideerimiskonto gruppide ja täiendavate konsolideerimiskontode kohta ning selgitab nende kasutamist.
+See artikkel annab teavet konsolideerimiskonto gruppide ja täiendavate konsolideerimiskontode kohta ning selgitab nende kasutamist.
 
 ## <a name="consolidation-account-groups"></a>Konsolideerimiskontode grupid
 

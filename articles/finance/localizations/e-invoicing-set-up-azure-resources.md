@@ -1,6 +1,6 @@
 ---
-title: Häälestage Azure'i ressursid elektrooniliseks arveldamiseks
-description: Selles teemas antakse ülevaade protsessist ressursside seadistamiseks Microsoft Azure elektroonilise arvelduse jaoks.
+title: Azure'i ressursside häälestamine elektroonilise arvelduse jaoks
+description: See artikkel annab ülevaate protsessist ressursside seadistamiseks Microsoft Azure elektroonilise arvelduse jaoks.
 author: dkalyuzh
 ms.date: 01/26/2022
 ms.topic: article
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: dkalyuzh
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: cb1fcddce1054aebf9ef70ba69eb7aca98093cbe
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: c5b7b2ca4d7733fb1c75ded8798655699284fe1a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371888"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907725"
 ---
-# <a name="set-up-azure-resources-for-electronic-invoicing"></a>Häälestage Azure'i ressursid elektrooniliseks arveldamiseks
+# <a name="set-up-azure-resources-for-electronic-invoicing"></a>Azure'i ressursside häälestamine elektroonilise arvelduse jaoks
 
 [!include [banner](../includes/banner.md)]
 
@@ -34,13 +34,13 @@ Looge oma Azure'i kordustellimuses võtme võti. Soovitame luua elektrooniliseks
 
 Teavet selle sammu lõpuleviimise kohta vt Azure'i [võtme vaulti loomine Azure'i portaalis](e-invoicing-create-azure-key-vault-azure-portal.md).
 
-## <a name="create-an-azure-storage-account-in-the-azure-portal"></a>Azure'i ladustamiskonto loomine Azure'i portaalis
+## <a name="create-an-azure-storage-account-in-the-azure-portal"></a>Azure'i salvestusruumi konto loomine Azure'i portaalis
 
 Teie omate kõiki elektroonilisi dokumente ja faile, mille on loonud elektroonilise arvelduse teenus või sisestage teenus. Need dokumendid ja failid salvestatakse Azure'i kordustellimuses lootatavale Azure'i ladustamiskontole. Teenus pääseb teie ladustamiskontole juurde, kasutades SAS-i luba, mis võetakse teie võtme vault-saladustest.
 
 Teavet selle sammu lõpuleviimise kohta vt Azure'i [ladustamiskonto loomine Azure'i portaalis](e-invoicing-create-azure-storage-account-azure-portal.md).
 
-## <a name="configure-a-sharepoint-connection"></a>SharePoint Ühenduse konfigureerimine
+## <a name="configure-a-sharepoint-connection"></a>SharePointi ühenduse konfigureerimine
 
 Mõne stsenaariumi korral võib juhtuda, et peate salvestama elektrooniliste failide kausta ja SharePoint need alla laadima SharePoint. Kindlustamaks, et elektroonilise arveldamise teenusel on juurdepääs teie kaustadele SharePoint, konfigureerige juurdepääs.SharePoint
 

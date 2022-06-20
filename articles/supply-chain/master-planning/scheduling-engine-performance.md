@@ -1,6 +1,6 @@
 ---
 title: Ajastamismootori jõudluse parandamine
-description: Selles teemas antakse teavet ajastamismootori ja selle jõudluse parandamise kohta.
+description: See artikkel annab teavet plaanimismootori ja jõudluse parandamise kohta.
 author: t-benebo
 ms.date: 09/03/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 972e566153b7423398b2ad4a4e70b264f02c40cd
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: f5ece3672bba352e02808248c91366539423d682
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469002"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854293"
 ---
 # <a name="improve-scheduling-engine-performance"></a>Ajastamismootori jõudluse parandamine
 
@@ -29,7 +29,7 @@ ms.locfileid: "8469002"
 
 Ressursside ajastamise mootorit kasutatakse plaanitud ja väljastatud tootmistellimuste protsesside ajastamiseks. Mootor anti algselt välja koos rakendusega Dynamics AX 2012 ja seda on pärast väljastamist mitu korda täiustatud.
 
-[Tööde ajastamise probleem](https://en.wikipedia.org/wiki/Job_shop_scheduling) on äärmiselt keerukas kombinatoorikaprobleem, mille puhul kasvab lahendamisaeg muutujate arvu suurenedes eksponentsiaalselt. Sageli seavad kliendid tootmisprotsessid ja seotud andmed üles viisil, mis põhjustab ajastamisprobleemi, mida ei saa mõistliku aja jooksul lahendada isegi kõige moodsam riistvara. See teema aitab teil mõista ajastamismootorit ja seda, kuidas konkreetne seadistus võib jõudlust mõjutada.
+[Tööde ajastamise probleem](https://en.wikipedia.org/wiki/Job_shop_scheduling) on äärmiselt keerukas kombinatoorikaprobleem, mille puhul kasvab lahendamisaeg muutujate arvu suurenedes eksponentsiaalselt. Sageli seavad kliendid tootmisprotsessid ja seotud andmed üles viisil, mis põhjustab ajastamisprobleemi, mida ei saa mõistliku aja jooksul lahendada isegi kõige moodsam riistvara. See artikkel aitab teil mõista planeerimismootorit ja seda, kuidas konkreetne seadistus võib jõudlust mõjutada.
 
 Ajastamise jõudluse parandamise puhul soovitatakse üldiselt vähendada mootori lahendatava probleemi keerukust. Jõudlust võivad mõjutada muu hulgas peamiselt järgmised tegurid.
 

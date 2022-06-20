@@ -1,6 +1,6 @@
 ---
 title: Avalehe ülevaade
-description: Selles teemas antakse ülevaade autorluse lehest rakenduses Microsoft Dynamics 365 Commerce.
+description: See artikkel annab ülevaate avalehest Microsoft Dynamics 365 Commerce
 author: anupamar-ms
 ms.date: 09/15/2020
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4c65d040696a72a42c89934533bad6a69c5923f5
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: ce94dce081957af620e3ab85e466877c0bcc5bd9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984490"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844668"
 ---
 # <a name="home-page-overview"></a>Avalehe ülevaade
 
 [!include [banner](includes/banner.md)]
 
-Selles teemas antakse ülevaade autorluse lehest rakenduses Microsoft Dynamics 365 Commerce.
+See artikkel annab ülevaate avalehest Microsoft Dynamics 365 Commerce
 
 Koduleht on vaikimisi leht, kuhu ostjad lähevad, kui nad külastavad e-kaubanduse saiti. Tavaliselt näitab see lehekülg tooteid ja kampaaniaid, kasutades turunduse moodulite kombinatsiooni. Kodulehekülg peaks olema rikastatud piltide ja tekstiga, et ostjaid kaasata.
 
@@ -33,7 +33,7 @@ Järgmisel joonisel on kujutatud avalehe näide, mis loodi mooduliteegi ja kujun
 
 ![Avalehe näide.](./media/Homepage2.PNG)
 
-Avalehe ülaosas on päis, mis näitab kõiki tootekategooriaid ja teisi lehekülgi, mida jaemüüja soovib klientidele sirvimiseks pakkuda. Avalehe allosas on jalus, mis sisaldab kiireid linke erinevatele teemadele, mis võivad klientidele huvi pakkuda.
+Avalehe ülaosas on päis, mis näitab kõiki tootekategooriaid ja teisi lehekülgi, mida jaemüüja soovib klientidele sirvimiseks pakkuda. Avalehe alumisel lehel on jalus, mis sisaldab kiirlinke erinevatele artiklitele, mis võivad kliente huvi pakkuda.
 
 Avalehe põhijaotises võib esile tuua tooteid, kategooriaid või kampaaniaid, kasutades erinevaid rakenduse Dynamics 365 Commerce mooduleid.
 
@@ -49,8 +49,8 @@ Avalehe põhijaotises võib esile tuua tooteid, kategooriaid või kampaaniaid, k
 
     ![Funktsiooni moodulite näited.](./media/Feature.PNG)
 
-- **Paan** – sisuploki paani paigutuse moodulit kasutatakse mitme toote või kategooria toodete esitlemiseks, kasutades mitmeveerulise paigutusega piltide ja teksti kombinatsiooni. Selles teemas varem kuvatud avalehe illustratsioonil kasutatakse paani paigutust kolme veeruga renderduseks üksustele **Naistele**, **Meestele** ja **Aksessuaarid**.
-- **Videomängija** – videomängija moodulit saab kasutada kodulehe video sisu esitlemiseks. Selles teemas varem kuvatava avalehe illustratsioon sisaldab videomängija moodulit.
+- **Paan** – sisuploki paani paigutuse moodulit kasutatakse mitme toote või kategooria toodete esitlemiseks, kasutades mitmeveerulise paigutusega piltide ja teksti kombinatsiooni. Selles artiklis varem **ilmuva** avalehe illustratsioonis kasutatakse paani kavandit kolmeveeru renderdamiseks tööde naised, **·** **tööde** mehed ja tööde lisade kaubad.
+- **Videomängija** – videomängija moodulit saab kasutada kodulehe video sisu esitlemiseks. Selles artiklis varem ilmuva avalehe illustratsioon sisaldab video playeri moodulit.
 - **Tekstiplokk** – sisurikka ploki moodulit saab kasutada avalehel oleva teksti sisu esitamiseks ühe- või mitmeveerulises paigutuses.
 - **Tootesoovitused** – tootesoovituste mooduleid kasutatakse avalehel selliste loendite kuvamiseks, nagu **Uus**, **Populaarne** ja **Enim müüdud**. Need loendid tutvustavad tooteid, mis põhinevad ostutrendidel ja neid saab algoritmiliselt luua või käsitsi kureerida. Need aitavad klientidel kiiresti leida parimaid tooteid ja seejärel ostlemist jätkata.
 

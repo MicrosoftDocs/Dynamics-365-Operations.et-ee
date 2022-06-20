@@ -1,6 +1,6 @@
 ---
-title: Varude väljamineku toiming kassas
-description: Selles teemas kirjeldatakse kassa varude väljamineku toimingu võimalusi.
+title: Väljaminev laooperatsioon kassas
+description: See artikkel kirjeldab kassa väljamineva laotoimingu võimalusi.
 author: hhaines
 ms.date: 07/30/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 3641e1974ffc277a690ca8b8d15399ac883b0132
-ms.sourcegitcommit: 89906aa2f18f16e622fd280433c8fc9fe74d2aec
+ms.openlocfilehash: dd2c124660643628ca4c19dc3a49366b67f29ad3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7581133"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850219"
 ---
 # <a name="outbound-inventory-operation-in-pos"></a>Väljaminev laooperatsioon kassas
 
@@ -187,7 +187,7 @@ Kui dokument on olekus **Taotletud**, on see väljamineku lao poolt täitmise t�
 
 Täielikult saadetud üleviimistellimused liigutatakse vahekaardile **Lõpetatud** dokumendi loendis **Väljamineku tegevus**. Seal jäävad need väljamineku poe või lao kasutajatele kirjutuskaitstud režiimis nähtavaks seitsme päeva jooksul.
 
-## <a name="related-topics"></a>Seotud dokumendid
+## <a name="related-articles"></a>Seotud artiklid
 
 [Varude sissetuleku toiming kassas](pos-inbound-inventory-operation.md)
 

@@ -1,6 +1,6 @@
 ---
 title: ICMS-DIF-i maksuarvutuste aluse muutus teiste riikide hankijate toodete puhul
-description: See teema kirjeldab konfiguratsiooni ICMS-DIF-i maksutüübi arvutuste jaoks, kui fiskaaldokument laekub Brasiilia osariigis Tomati do Sul (RS) või São Mossi (SP).
+description: See artikkel kirjeldab konfiguratsiooni ICMS-DIF-i maksutüübi arvutusteks juhul, kui fiskaaldokument laekub Brasiilia osariigis Tomati do Sul (RS) või São Mossi (SP).
 author: Kai-Cloud
 ms.date: 1/20/2022
 ms.topic: article
@@ -14,16 +14,16 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2022-1-17
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: 63e3cbaaf77456b55f08ea91831ba9d49cb57185
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 1fde18c79f375db4db6bc52cdb5c40a61625ae63
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689152"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868258"
 ---
 # <a name="basis-change-in-icms-dif-tax-calculations-for-products-from-suppliers-in-other-states"></a>ICMS-DIF-i maksuarvutuste aluse muutus teiste riikide hankijate toodete puhul
 
-See teema kirjeldab **konfiguratsiooni ICMS-DIF-i** maksutüübi arvutuste jaoks, kui fiskaaldokument laekub Brasiilia osariigis Tomati do Sul (RS) või São Mossi (SP).
+See artikkel **kirjeldab konfiguratsiooni ICMS-DIF-i** maksutüübi arvutusteks juhul, kui fiskaaldokument laekub Brasiilia osariigis Tomati do Sul (RS) või São Mossi (SP).
 
 Vastavalt riikliku seaduse definitsioonile peab kogutav Imposto sobre Toolulação de Mercias e Serviços (ICMS) järgima järgmist reeglit:
 

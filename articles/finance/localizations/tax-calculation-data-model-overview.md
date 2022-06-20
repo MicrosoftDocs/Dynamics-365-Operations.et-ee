@@ -1,6 +1,6 @@
 ---
 title: Maksuarvutuse andmemudel
-description: Selles teemas antakse teavet maksuandmete mudeli kohta ja selle kohta, kuidas iga andmemudeli välja väärtused määratletakse maksuarvutuskannete kontekstiga.
+description: See artikkel annab teavet maksu andmemudeli kohta ja selle kohta, kuidas maksuarvutuse kannete kontekst määratleb iga andmemudeli väljaväärtused.
 author: kailiang
 ms.date: 10/15/2021
 ms.topic: overview
@@ -14,16 +14,16 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 759803767111c27cba76b68430e09a0d9dd6110f
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: a711eb73c171cd099947b44e2376cad2455059f0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694252"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859691"
 ---
 # <a name="tax-calculation-data-model"></a>Maksuarvutuse andmemudel
 
-See teema annab teavet selle kohta, kuidas maksuandmete mudeli väljaväärtused määratakse kindlaks maksuarvutustehingutes.
+See artikkel annab teavet selle kohta, kuidas maksuandmete mudeli väljaväärtused määratletakse maksuarvutuse kannetes.
 
 *Maksuandmete mudel* koosneb väljadest, mis on nõutavad maksuarvutustes. Microsoft pakub maksuarvutuse *andmemudelit*, mis sisaldab finantside ja toimingute rakendustes kandedokumentide päisevälju ja reavälju. Väljad, mis on määratletud maksuarvutuse andmemudelis, on kohaldatavate eeskirjade tabelite veerud maksuarvutuse funktsiooni konfiguratsioonis.
 
@@ -99,7 +99,7 @@ Kaht andmemudelit saab kaasata kande päise väljadeks. Kõik väljad ei kehti a
 | Saadetis provintsi/osariiki          | <ul><li>**Müügitellimus:**<ol><li>Päis &gt; Tarneaadress &gt; Osariik</li></ol></li><li>**Ostutellimus:**<ol><li>Päis &gt; Tarneaadress &gt; Osariik</li></ol></li><li>**Kandetellimus -lähetus:**<ol><li>Päis &gt; Lattu &gt; Esmane aadress &gt; Osariik</li><li>Päis &gt; Saidile &gt; Esmane aadress &gt; Osariik</li></ol></li><li>**Kandetellimus- Kättesaamine:**<ol><li>Päis &gt; Lattu &gt; Esmane aadress &gt; Osariik</li><li>Päis &gt; Saidile &gt; Esmane aadress &gt; Osariik</li></ol></li><li>**Pakkumise kutse:**<ol><li>Päis &gt; Tarneaadress &gt; Osariik</li></ol></li><li>**Müügipakkumine:**<ol><li>Päis &gt; Tarneaadress &gt; osariik</li></ol></li><li>**Vabas vormis arve:**<ol><li>Päis &gt; Kliendi konto &gt; Vaikimisi tarneaadress &gt; Osariik</li><li>Päis &gt; Kliendi konto &gt; Esmane aadress &gt; Osariik</li></ol></li><li>**Tööleht (klient):**<ol><li>Kliendikonto vaikimisi &gt; tarneaadressi olek &gt;</li><li>Kliendikonto &gt; esmase aadressi &gt; olek</li></ol></li><li>**Tööleht (hankija):**<ol><li>Juriidiline isik &gt; Vaikimisi tarneaadress &gt; Osariik</li><li>Juriidilise isiku &gt; esmase aadressi &gt; Osariik</li></ol></li></ul> |
 | Saadetis postiindeksisse                 | <ul><li>**Müügitellimus:**<ol><li>Päis &gt; Tarneaadress &gt; ZIP/postiindeks</li></ol></li><li>**Ostutellimus:**<ol><li>Päis &gt; Tarneaadress &gt; ZIP/postiindeks</li></ol></li><li>**Kandetellimus -lähetus:**<ol><li>Päis &gt; Lattu &gt; Esmane aadress &gt; ZIP/postiindeks</li><li>Päis &gt; Saidile &gt; Esmane aadress &gt; ZIP/postiindeks</li></ol></li><li>**Kandetellimus- Kättesaamine:**<ol><li>Päis &gt; Lattu &gt; Esmane aadress &gt; ZIP/postiindeks</li><li>Päis &gt; Saidile &gt; Esmane aadress &gt; ZIP/postiindeks</li></ol></li><li>**Pakkumise kutse:**<ol><li>Päis &gt; Tarneaadress &gt; ZIP/postiindeks</li></ol></li><li>**Müügipakkumine:**<ol><li>Päis &gt; Tarneaadress &gt; ZIP/postiindeks</li></ol></li><li>**Vabas vormis arve:**<ol><li>Päis &gt; Kliendi konto &gt; Vaikimisi tarneaadress &gt; ZIP/postiindeks</li><li>Päis &gt; Kliendi konto &gt; Esmane aadress &gt; ZIP/postiindeks</li></ol></li><li>**Tööleht (klient):**<ol><li>Kliendikonto &gt; vaikimisi tarneaadressi &gt; sihtnumber</li><li>Kliendi konto &gt; esmane aadress &gt; sihtnumber</li></ol></li><li>**Tööleht (hankija):**<ol><li>Juriidiline isik &gt; Vaikimisi tarneaadress &gt; ZIP/postiindeks</li><li>Juriidilise isiku &gt; esmase aadressi &gt; ZIP/sihtnumber</li></ol></li></ul> |
 | Sait                             | <ul><li>**Müügitellimus:** Sait</li><li>**Ostutellimus:** Sait</li><li>**Üleviimistellimus - Saadetis:** Sait Laost</li><li>**Üleviimistellimus - Vastu võtta:** Sait Lattu</li><li>**Pakkumise kutse:** Sait</li><li>**Müügipakkumine:** Sait</li></ul> |
-| Maksu suund                    | <ul><li>**Müügitellimus:** Väljund</li><li>**Ostutellimus:** Väljund</li><li>**Kande tellimus - Saadetis:** Väljund</li><li>**Kandetellimus - Vastu võtta:** Sisend</li><li>**Ostutaotlused**: Sisend</li><li>**Pakkumise kutse:** Sisend</li><li>**Müügipakkumine:** Väljund</li><li>**Vabas vormis arve:** väljund</li></ul> |
+| Maksu suund                    | <ul><li>**Müügitellimus:** Väljund</li><li>**Ostutellimus:** Väljund</li><li>**Kande tellimus - Saadetis:** Väljund</li><li>**Kandetellimus - Vastu võtta:** Sisend</li><li>**Ostutaotlused**: Sisend</li><li>**Pakkumise kutse:** Sisend</li><li>**Müügipakkumine:** Väljund</li><li>**Vabas vormis arve:** väljund</li><li>**Tööleht: väljaminek**</li></ul> |
 | Hankija konto                   | <ul><li>**Ostutellimus:** Hankija konto</li><li>**Tööleht (hankija):** hankija konto</li></ul> |
 | Hankija arvekonto           | <ul><li>**Ostutellimus:** Arve konto</li><li>**Tööleht (hankija):**<ol><li>Hankija arve põhikonto &gt;</li><li>Hankija konto</li></ol></li></ul> |
 | Ladu                        | <ul><li>**Müügitellimus:** Ladu</li><li>**Ostutellimus:** Ladu</li><li>**Üleviimistellimus - Saadetis:** Laost</li><li>**Üleviimistellimus - Vastu võtma:** Lattu</li><li>**Pakkumiskutse:** Ladu</li><li>**Müügipakkumine:** Ladu</li></ul> |

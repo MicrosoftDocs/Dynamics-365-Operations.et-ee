@@ -1,6 +1,6 @@
 ---
-title: Tööriista Regression Suite Automation Tool õpiku kasutamine
-description: Selles teemas näidatakse, kuidas kasutada tööriista Regression suite automation tool (RSAT). Selles kirjeldatakse mitmesuguseid funktsioone ja esitatakse näited, kus kasutatakse täpsemat skriptimist.
+title: Regression Suite Automation Tooli õpik
+description: See artikkel näitab, kuidas kasutada Regression suite automation tool (RSAT). Selles kirjeldatakse mitmesuguseid funktsioone ja esitatakse näited, kus kasutatakse täpsemat skriptimist.
 author: FrankDahl
 ms.date: 09/23/2021
 ms.topic: article
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: e2273aefb98880a1ae746ef7ec65b4f2262f3560
-ms.sourcegitcommit: 49c97b0c94e916db5efca5672d85df70c3450755
+ms.openlocfilehash: 04c7d7081ece4e077881092534ed061fe2d0e999
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/29/2022
-ms.locfileid: "8492916"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854595"
 ---
 # <a name="regression-suite-automation-tool-tutorial"></a>Tööriista Regression Suite Automation Tool õpiku kasutamine
 

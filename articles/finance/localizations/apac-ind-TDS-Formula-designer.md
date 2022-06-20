@@ -1,6 +1,6 @@
 ---
 title: TDS-i arvutuste valemikoostaja
-description: Selles teemas antakse näide, kuidas allika järgi mahaarvatud maks (TDS) arvutatakse kandega seotud TDS-i grupis iga TDS-i maksukoodi jaoks määratud valemi alusel.
+description: See artikkel annab näite selle kohta, kuidas allika järgi mahaarvatud maks (TDS) arvutatakse kandega seotud TDS-i grupis iga TDS-i maksukoodi jaoks määratud valemi alusel.
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: e60db55fd3bbcfb8dc34670b3bbbd39336b04efb
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: 1196f7258c898a55f3f29ddce7457e6f527185d8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720079"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889857"
 ---
 # <a name="formula-designer-for-tds-calculations"></a>TDS-i arvutuste valemikoostaja
 
 [!include [banner](../includes/banner.md)]
 
-See teema annab näite selle kohta, kuidas maks, mis on maha arvatud allikast (TDS), põhineb iga TDS-i maksukoodi jaoks määratud valemil. TDS-i maksukoodid määratletakse kandega seotud TDS-grupis. Enne TDS-valemite kujundamist viige lõpule TDS-i jaoks nõutav põhiseadistus, nagu on loetletud järgmistes sammudes. 
+See artikkel annab näite selle kohta, kuidas lähtekohas (TDS) mahaarvatud maks arvutatakse iga TDS-i maksukoodi jaoks määratud valemi alusel. TDS-i maksukoodid määratletakse kandega seotud TDS-grupis. Enne TDS-valemite kujundamist viige lõpule TDS-i jaoks nõutav põhiseadistus, nagu on loetletud järgmistes sammudes. 
 
 - Kinnipeetava maksu gruppide seadistamine **Kinnipeetava maksu grupid** lehel. 
 - Seadistage TDS-i komponendid ja manustage TDS-i komponendigrupp TDS-i komponentidele, kasutades **Kinnipeetava maksu komponentide** lehte. 

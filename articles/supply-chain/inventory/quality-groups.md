@@ -1,6 +1,6 @@
 ---
 title: Üksuse kvaliteedigrupid
-description: Selles teemas kirjeldatakse, kuidas kauba kvaliteedigruppe kasutada ja luua toodete loogiliseks rühmitamiseks, et neid saaks kvaliteettellimuste automaatseks genereerimiseks määrata kvaliteediseostele.
+description: See artikkel kirjeldab, kuidas kasutada ja luua kauba kvaliteedigruppe loogiliselt grupeerida nii, et neid saaks määrata kvaliteediseostele kvaliteettellimuste automaatseks loomiseks.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6f7a4932c561c052bec1eb0094a390e315b9b1bb
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: bf1ce49fa58fd1a8a5aa07636e0b2bd7e2fc10e4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580908"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875361"
 ---
 # <a name="item-quality-groups"></a>Üksuse kvaliteedigrupid
 
 [!include [banner](../includes/banner.md)]
 
-Kvaliteedigrupp tähistab kaupade üldisi testimisnõudeid. Selles teemas kirjeldatakse, kuidas kauba kvaliteedigruppe kasutada ja luua toodete loogiliseks rühmitamiseks, et neid saaks kvaliteettellimuste automaatseks genereerimiseks määrata kvaliteediseostele.
+Kvaliteedigrupp tähistab kaupade üldisi testimisnõudeid. See artikkel kirjeldab, kuidas kasutada ja luua kauba kvaliteedigruppe loogiliselt grupeerida nii, et neid saaks määrata kvaliteediseostele kvaliteettellimuste automaatseks loomiseks.
 
 Kvaliteedigrupile määratud kauba või kaubale määratud kvaliteedigruppide seadistamiseks, muutmiseks ja vaatamiseks minge **Varude haldus \> Seaded \> Kvaliteedigrupid**. Pärast katsenõuete määratlemist lehel **Katsegrupid** saate määratleda reeglid kvaliteettellimuste automaatseks koostamiseks. Protsessi hõlbustamiseks ei määratleta reegleid üksikutele kaupadele. Selle asemel määratletakse reeglid kvaliteedigrupile, kasutades lehte **Kvaliteediseosed**.
 

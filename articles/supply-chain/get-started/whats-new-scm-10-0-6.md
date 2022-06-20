@@ -1,6 +1,6 @@
 ---
 title: Mis onuut või mida on muudetud rakenduses Dynamics 365 Supply Chain Management 10.0.6 (november 2019)
-description: Selles teemas kirjeldatakse Dynamics 365 Supply Chain Management 10.0.6 uusi või muutunud funktsioone.
+description: See artikkel kirjeldab funktsioone, mis on uued või muutunud Dynamics 365 Supply Chain Management 10.0.6-s.
 author: kamaybac
 ms.date: 10/28/2019
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 87bcda25b89135e052a5a883b816ea0bb430479a
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 8c97e4e5544c49d2e6a13b34061abfbf50e2932a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568899"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844434"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1006-november-2019"></a>Mis onuut või mida on muudetud rakenduses Dynamics 365 Supply Chain Management 10.0.6 (november 2019)
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas kirjeldatakse Microsoft Dynamics 365 Supply Chain Management 10.0.6 uusi või muutunud funktsioone. Selle versioonijärgu number on 10.0.234. Kuigi üldise kättesaadavuse kuupäev on plaanitud novembrisse, on uued funktsioonid saadaval ka varajases väljalaskes oktoobris. Lisateabe saamiseks versiooni 10.0.6 kohta vt [Lisaressurssid](whats-new-scm-10-0-6.md#additional-resources).
+See artikkel kirjeldab funktsioone, mis on uued või muudetud rakenduses Microsoft Dynamics 365 Supply Chain Management 10.0.6. Selle versioonijärgu number on 10.0.234. Kuigi üldise kättesaadavuse kuupäev on plaanitud novembrisse, on uued funktsioonid saadaval ka varajases väljalaskes oktoobris. Lisateabe saamiseks versiooni 10.0.6 kohta vt [Lisaressurssid](whats-new-scm-10-0-6.md#additional-resources).
 
 ## <a name="product-configuration-models-v2-data-entity"></a>Toote konfiguratsioonimudelite V2 andmeüksus
 
@@ -60,12 +60,12 @@ Vaadake teemat [Dynamics 365: 2019. aasta väljalaske 2. voo plaan](/dynamics365
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Eemaldatud ja aegunud Supply Chain Managementi funktsioonid
 
-Teemas [Eemaldatud või aegunud Dynamics 365 Supply Chain Managementi funktsioonid](removed-deprecated-features-scm-updates.md) kirjeldatakse funktsioone, mis on eemaldatud või aegunud või kavandatakse eemaldada Supply Chain Managementist.
+Artikli [eemaldatud või taunitud Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) funktsioonid kirjeldavad funktsioone, mis on tarneahela halduses eemaldatud või plaaniliselt eemaldatud või taunitud.
 
 - *Eemaldatud* funktsioon pole tootes enam saadaval.
 - *Aegunud* funktsioon ei ole aktiivses arenduses ja vee võidakse tulevases värskenduses eemaldada.
 
-Enne mis tahes funktsiooni eemaldamist tootest, teavitatakse aegumisest 12 kuud ette teemas [Eemaldatud või aegunud Dynamics 365 Supply Chain Managementi funktsioonid](removed-deprecated-features-scm-updates.md).
+Enne mis tahes funktsiooni eemaldamist tootest teatatakse amortiseerumisest [Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) artikli 12 kuu jooksul enne eemaldamist eemaldatud või taunitud funktsioonides.
 
 Murranguliste muudatuste puhul, mis mõjutavad ainult kompileerimise aega, kuid on binaarselt ühilduvad liivakasti- ja tootmiskeskkondadega, on aegumise aeg vähem kui 12 kuud. Need on tavaliselt funktsionaalsed uuendused, mida tuleb teha kompilaatori jaoks.
 

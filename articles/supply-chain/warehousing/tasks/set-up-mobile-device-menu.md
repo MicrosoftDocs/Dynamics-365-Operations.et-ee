@@ -1,6 +1,6 @@
 ---
 title: Mobiilse seadme menüüelemendi seadistamine ostutellimuse lõpetamiseks
-description: Selles teemas näidatakse, kuidas seadistada mobiiliseadme menüü-üksust.
+description: See artikkel näitab, kuidas häälestada mobiilse seadme menüükäsku.
 author: Mirzaab
 ms.date: 08/02/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d18b0ab1057dbccdd45a52a58f80ef9346e4459f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 09286e8e482780523b61006081205868be487755
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565148"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882282"
 ---
 # <a name="set-up-a-mobile-device-menu-item-for-completing-work-of-type-purchase-order"></a>Mobiilse seadme menüüelemendi seadistamine ostutellimuse lõpetamiseks
 
 [!include [banner](../../includes/banner.md)]
 
-Selles teemas näidatakse, kuidas seadistada mobiiliseadme menüü-üksust. Selles näites kasutatakse seda menüü-üksust ostutellimuse tüüpi töö tegemiseks. Menüü-üksusega seostatud töö klass määrab, milline töö on kehtiv. Saate seda juhendit kasutada demoettevõtte USMF andmetega. Tavaliselt viib selle protseduuri läbi laojuhataja.
+See artikkel näitab, kuidas häälestada mobiilse seadme menüükäsku. Selles näites kasutatakse seda menüü-üksust ostutellimuse tüüpi töö tegemiseks. Menüü-üksusega seostatud töö klass määrab, milline töö on kehtiv. Saate seda juhendit kasutada demoettevõtte USMF andmetega. Tavaliselt viib selle protseduuri läbi laojuhataja.
 
 
 ## <a name="create-a-mobile-device-menu-item"></a>Mobiilse seadme menüü-üksuse loomine

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8068850ee143540ff9f3b6222485d3ecd2a2a82020063f34cfd7b5a69826eda3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 83fbcd2cedab02643f8a2b22a098343ff065047d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6756377"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884166"
 ---
 # <a name="design-er-configurations-to-parse-incoming-documents"></a>Elektroonilise aruandluse konfiguratsioonide kujundamine sissetulevate dokumentide sõelumiseks
 
@@ -27,7 +27,7 @@ Protseduur näitab, kuidas kujundada elektroonilise aruandluse (ER) konfiguratsi
 
 Protseduur on loodud kasutajatele, kellele on määratud süsteemiadministraatori või elektroonilise aruandluse arendaja roll.
 
-Need etapid saab lõpule viia ükskõik millise andmekomplekti abil. Enne alustamist laadige alla ja salvestage teemas „Sissetulevate dokumentide sõelumine avalduse andmete värskendamiseks” loetletud failid ([Sissetulevate dokumentide sõelumine](../parse-incoming-electronic-documents.md)). Failid on järgmised: EFSTA model.xml EFSTA format.xml Response1.xml Response2.xml Response3.xml, Response4.xml.
+Need etapid saab lõpule viia ükskõik millise andmekomplekti abil. Enne alustamist laadige alla ja salvestage artikli "Sõelu sissetulevad dokumendid rakendusandmete uuendamiseks" ([sissetulevate dokumentide sõelumine](../parse-incoming-electronic-documents.md)). Failid on järgmised: EFSTA model.xml EFSTA format.xml Response1.xml Response2.xml Response3.xml, Response4.xml.
 
 1. Avage Organisatsiooni haldamine > Tööruumid > Elektrooniline aruandlus.
     * Veenduge, et näidisettevõtte Litware, Inc. konfiguratsioonipakkuja on saadaval ja tähistatud aktiivsena. Kui te ei näe seda konfiguratsioonipakkujat, peate esmalt läbima protseduuris „Konfiguratsiooni pakkuja loomine ja selle märkimine aktiivseks” toodud juhised.

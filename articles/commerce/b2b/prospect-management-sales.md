@@ -1,6 +1,6 @@
 ---
 title: Halda äripartneri kasutajaid B2B e-commerce'i veebisaitidel, kasutades Dynamics 365-müüki
-description: See teema kirjeldab Microsoft Dynamics, kuidas kasutada 365 Dynamics 365 Commerce Müüki äripartneri kinnituste haldamiseks ettevõtete vahel (B2B) veebisaitidel.
+description: See artikkel kirjeldab Microsoft Dynamics, kuidas kasutada 365 Dynamics 365 Commerce müüki äripartneri kinnituste haldamiseks ettevõtete vahel (B2B) veebisaitidel.
 author: shajain
 ms.date: 2/16/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2022-01-31
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 540e8f26d7f2a08060a3839f9e4f97bf8ddcafac
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: ac4aa15f2c6e7f557105254c2c8ce743a9466985
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692559"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878617"
 ---
 # <a name="manage-business-partner-users-on-b2b-e-commerce-websites-using-dynamics-365-sales"></a>Halda äripartneri kasutajaid B2B e-commerce'i veebisaitidel, kasutades Dynamics 365-müüki
 
 [!include [banner](../../includes/banner.md)]
 
-See teema kirjeldab Microsoft Dynamics, kuidas kasutada 365 Dynamics 365 Commerce Müüki äripartneri kinnituste haldamiseks ettevõtete vahel (B2B) veebisaitidel. Organisatsioonid, mis on Dynamics 365 müügilahenduses juba olemas, saavad kasutada oma müügivihjete ja -võimaluste mõisteid B2B e-äripartneri kinnitusprotsessis.
+See artikkel kirjeldab Microsoft Dynamics, kuidas kasutada 365 Dynamics 365 Commerce müüki äripartneri kinnituste haldamiseks ettevõtete vahel (B2B) veebisaitidel. Organisatsioonid, mis on Dynamics 365 müügilahenduses juba olemas, saavad kasutada oma müügivihjete ja -võimaluste mõisteid B2B e-äripartneri kinnitusprotsessis.
 
 Lisateavet B2B äripartneri kinnitusprotsessi kohta vt [B2B e-kaubanduse veebisaitidel äripartneri kasutajate haldamine](manage-b2b-users.md).
 

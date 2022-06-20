@@ -1,6 +1,6 @@
 ---
 title: Äripartnerist kasutajate haldamine B2B e-kaubanduse veebisaitidel
-description: See teema kirjeldab, kuidas lisada, kustutada ja redigeerida Microsoft Dynamics 365 Commerce äripartneri kasutajaid ettevõtete vahel (B2B) e-kaubanduse veebisaitidel ja Commerce Headquartersis.
+description: See artikkel kirjeldab, kuidas lisada, kustutada Microsoft Dynamics 365 Commerce ja redigeerida äripartneri kasutajaid ettevõtete vahel (B2B) e-äri veebisaitidel ja Commerce headquartersis.
 author: josaw1
 ms.date: 04/19/2022
 ms.topic: article
@@ -14,21 +14,21 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: ef8ae583f18048fc6a36adf38ee7be0fb5b02fcd
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 4a3d1c7bf7e7ea545590315d9e185fa525b5d5e3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686320"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860291"
 ---
 # <a name="manage-business-partner-users-on-b2b-e-commerce-websites"></a>Äripartnerist kasutajate haldamine B2B e-kaubanduse veebisaitidel
 
 [!include [banner](../../includes/banner.md)]
 
-See teema kirjeldab, kuidas lisada, kustutada ja redigeerida Microsoft Dynamics 365 Commerce äripartneri kasutajaid ettevõtete vahel (B2B) e-kaubanduse veebisaitidel ja Commerce Headquartersis.
+See artikkel kirjeldab, kuidas lisada, kustutada Microsoft Dynamics 365 Commerce ja redigeerida äripartneri kasutajaid ettevõtete vahel (B2B) e-äri veebisaitidel ja Commerce headquartersis.
 
 > [!NOTE]
-> - Dokumendi [eeltingimuseks on B2B-äripartnerite](partners-customer-hierarchies.md) haldamine, kasutades kliendi hierarhiate teemat.
+> - B2B-äripartnerite [haldamine kliendi hierarhiate](partners-customer-hierarchies.md) artiklit kasutades on selle dokumendi eeltingimus.
 > - Veenduge, et lähtestate dokumenditüüpide üksuse Commerce Headquartersis, avades **dokumenditüüpide** vormi Organisatsioonihalduse **dokumendihalduse \> dokumenditüüpides \>**.
 
 B2B e-kaubanduse veebisaidid nõuavad, et organisatsioonide äripartneriks saamiseks registreeruksid. Pärast seda, kui organisatsioon esitab registreerimisandmed B2B e-äri veebisaidile, läbib registreerimistaotlus kvalifikatsiooniprotsessi. Kui organisatsioon on edukalt kvalifitseeritud, võetakse see äripartnerina vastu.
@@ -121,7 +121,7 @@ Administraatorid saavad äripartnereid ja kasutajaid otse Commerce'i peakontoris
 
 ## <a name="additional-information"></a>Lisateave
 
-- Kõiki selles teemas mainitud töid saab konfigureerida graafikus käivituma partiivormingus. Eeldatakse, et äripartnerid konfigureerivad pakett-töid vastavalt vajadusele.
+- Kõiki selles artiklis mainitud töid saab konfigureerida käivituma graafikus pakett-vormingus. Eeldatakse, et äripartnerid konfigureerivad pakett-töid vastavalt vajadusele.
 - Praegu saab adiminstraatorkasutajaks määrata ainult ühe kasutaja/kliendi kirje ja seda rolli saab muuta ainult Commerce'i peakontoris. Puudub tugi iseteeninduse võimalustele, mis laseksid äripartneritel määrata mitut administraatorit või muuta B2B e-kaubanduse veebisaitidel adiminstraatoreid.
 - Kuigi kasutajatele saab määrata kulutamise piiranguid, ei ole kulutamise piirangute jõustamist tellimuse sisestamise protsessis veel rakendatud.
 - Kogu kasutajakogemuse äriloogika ja valideerimine B2B e-kaubanduse veebisaidil põhineb kasutajale Commerce'i peakontoris vastendatud kliendikirje konfiguratsioonil.

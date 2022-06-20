@@ -1,6 +1,6 @@
 ---
 title: Kuidas seadistada tasakaalustavad finantsdimensioonid?
-description: Selles teemas kirjeldatakse tasakaalustava finantsdimensiooni funktsiooni seadistamise ja kasutamise valikuid.
+description: See artikkel kirjeldab valikuid Tasakaalustava finantsdimensiooni funktsiooni seadistamiseks ja kasutamiseks.
 author: kweekley
 ms.date: 08/25/2021
 ms.topic: article
@@ -13,22 +13,22 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-08-17
 ms.dyn365.ops.version: 10.0.210
-ms.openlocfilehash: cb3033a615200a358c1b28b0991bae4b84470ae0
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: dd859629b0eb9f14fa4907699613382f3897d21d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720107"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878008"
 ---
 # <a name="how-do-i-set-up-balancing-financial-dimensions"></a>Kuidas seadistada tasakaalustavad finantsdimensioonid?
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas kirjeldatakse tasakaalustava finantsdimensiooni funktsiooni seadistamise ja kasutamise valikuid.
+See artikkel kirjeldab valikuid Tasakaalustava finantsdimensiooni funktsiooni seadistamiseks ja kasutamiseks.
 
 ## <a name="symptom"></a>Sümptom
 
-Tasakaalustava finantsdimensioonide seadistamiseks on kaks võimalust. Esimene valik on kasutada **Tasakaalustav finantsdimensioon** välja **pearaamatu** seadistuslehel (**Pearaamatu \> pearaamatu häälestus \> Pearaamat**). Teine võimalus on kasutada **Nõudke, et mõõde oleks tasakaalus** väljal **Finantsdimensioonid** lehel (**Pearaamat > Kontoplaan \> Dimensioonid \> Finantsdimensioonikogumid**). See teema selgitab erinevust nende kahe valiku vahel.
+Tasakaalustava finantsdimensioonide seadistamiseks on kaks võimalust. Esimene valik on kasutada **Tasakaalustav finantsdimensioon** välja **pearaamatu** seadistuslehel (**Pearaamatu \> pearaamatu häälestus \> Pearaamat**). Teine võimalus on kasutada **Nõudke, et mõõde oleks tasakaalus** väljal **Finantsdimensioonid** lehel (**Pearaamat > Kontoplaan \> Dimensioonid \> Finantsdimensioonikogumid**). See artikkel selgitab erinevust nende kahe valiku vahel.
 
 ## <a name="resolution"></a>Lahendus
 

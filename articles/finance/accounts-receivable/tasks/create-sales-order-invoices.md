@@ -1,6 +1,6 @@
 ---
 title: Müügitellimuse arvete loomine
-description: Selles tegevuse juhises kirjeldatakse müügitellimuse arveldust, sh arvete ühendamine ja pakktöötlus.
+description: See artikkel kirjeldab, kuidas arveldada müügitellimusi, k.a arvete ühendamine ja pakktöötlus.
 author: ShivamPandey-msft
 ms.date: 06/25/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7976d310e9c80dfe683359f1157b85e46c758c48
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: ceda837cae563dab68969cb9f05de113079d4495
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713440"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910254"
 ---
 # <a name="create-sales-order-invoices"></a>Müügitellimuse arvete loomine
 
 [!include [banner](../../includes/banner.md)]
 
-Selles tegevuse juhises kirjeldatakse müügitellimuse arveldust, sh arvete ühendamine ja pakktöötlus. See protsess kasutab demoettevõtte USMF-i andmeid.
+See artikkel kirjeldab, kuidas arveldada müügitellimusi, k.a arvete ühendamine ja pakktöötlus. See protsess kasutab demoettevõtte USMF-i andmeid.
 
 
 ## <a name="create-an-invoice-from-a-sales-order"></a>Müügitellimusest arve loomine

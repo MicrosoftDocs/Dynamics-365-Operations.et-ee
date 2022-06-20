@@ -1,6 +1,6 @@
 ---
-title: Kolmesuunalised vastavusse viimise poliitikad
-description: See teema sisaldab näiteid kolmesuunalise vastavusseviimise kohta.
+title: Kolmesuunalised vastavusseviimise poliitikad
+description: See artikkel sisaldab näiteid kolmesuunalise vastavusseviimise kohta.
 author: abruer
 ms.date: 02/11/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cffdc06216ce8ab1bfb79265f265bec1aee334c5
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: 2d6d98164766e81625bd9eeb9e504e5f0683151e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109989"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904926"
 ---
-# <a name="three-way-matching-policies"></a>Kolmesuunalised vastavusse viimise poliitikad
+# <a name="three-way-matching-policies"></a>Kolmesuunalised vastavusseviimise poliitikad
 
 [!include [banner](../includes/banner.md)]
 
-See teema sisaldab näiteid kolmesuunalise vastavusseviimise kohta.
+See artikkel sisaldab näiteid kolmesuunalise vastavusseviimise kohta.
 
 ## <a name="example-three-way-matching-for-items"></a>Näide: kaupade kolmesuunaline vastavusse viimine
 
@@ -59,7 +59,7 @@ Selles näites toodud arvete vastavusse viimise poliitikad aitavad järgmistes r
 1.  Sammy, kes on Fabrikami vastuvõtu osakonna töötaja, saab Contoso saadetud masinate lõpliku koguse. Sammy sisestab toote sissetuleku koguseks 5. Kuna ostutellimus on täielikult saadud, muutub ostutellimuse olekuks Saadud.
 2.  April, Fabrikami ostureskontro koordinaator, sisestab ja kinnitab Contoso esitatud arve. Ta kontrollib järgmist teavet.
     -   Kolmesuunalist vastavusse viimist vajavate kaupade kogus arve real vastab saadud kogusele. Saadud kogus on näidatud arvega vastendatud toote sissetulekul.
-    -   Kahe- või kolmesuunalist vastavusseviimist vajavate kaupade hinnad arve real jäävad Microsoft Dynamics 365 Financeis määratletud kõikumiste piiridesse. See hõlmab järgmisi hindade vastavusseviimise tüüpe.
+    -   Kaupade puhul, mis nõuavad kahe- või kolme-viisil vastavusse viimist, on arverea hinnad kõikumiste piires, mis on Microsoft Dynamics määratletud 365 Finantsis. See hõlmab järgmisi hindade vastavusseviimise tüüpe.
         -   Ühiku netohinna vastavusse viimine – ühiku netohind arve real vastendub kõikumise protsendi piires ühiku netohinnale ostutellimuse real. Selles näites on lubatud ühiku netohinna kõikumine +8 protsenti.
         -   Koguhindade vastavusse viimine – netosumma arve real vastendub kõikumise protsendi, summa või protsendi ja summa piires netosummale ostutellimuse real. Selles näites on lubatud koguhindade vastavusse viimise kõikumine +15 protsenti.
 

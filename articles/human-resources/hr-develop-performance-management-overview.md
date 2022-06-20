@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c1ef722eabc3c3bc740f9ff5d959cfa005862a9b
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 28caacaafa5ef20a3d8e1ce93851c48bd4af89a0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735719"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848190"
 ---
 # <a name="performance-management"></a>Jõudlushaldus
 
@@ -79,7 +79,7 @@ Teie jõudluse tööleht kirjeldab<!--note from editor: Suggested.--> Tegevused,
 
 Kui soovite eesmärgile lisada dokumendi, nt lõpetamise sertifikaadi, saate selle lisada **jõudluse eesmärkide** lehe jaotisse **Manused**. Saate kasutada dokumendivaaturit, et kuvada kiiresti mis tahes manustatud dokumendi sisu. 
 
-Saate eesmärgist luua malli ja seejärel kasutada seda uute eesmärkide loomiseks malli põhjal. Malli loomisel eesmärgist salvestatakse kirjeldus, teemad ja eesmärgi mõõtmised. Kuid kõik tegelikud mõõtmised. lõpetamise kuupäevad ja teemade kommentaarid eemaldatakse.
+Saate eesmärgist luua malli ja seejärel kasutada seda uute eesmärkide loomiseks malli põhjal. Malli loomisel eesmärgist salvestatakse kirjeldus, teemad ja eesmärgi mõõtmised. Kõik tegelikud mõõtmised, lõpetamiskuupäevad ja kommentaarid eemaldatakse.
 
 ## <a name="performance-reviews"></a>Jõudluse ülevaated
 

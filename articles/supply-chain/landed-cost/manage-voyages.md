@@ -1,6 +1,6 @@
 ---
 title: Teekondade haldamine
-description: Selles teemas kirjeldatakse, kuidas töötada teekondadega. Teekond tähistab harilikult laeva. Kuid olenevalt teie tavadest ja protseduuridest võib see tähistada ka hankijat, ostutellimust või mõnda muud teie organisatsiooni jaoks sobivat üksust.
+description: See artikkel kirjeldab, kuidas töötada reisidega. Teekond tähistab harilikult laeva. Kuid olenevalt teie tavadest ja protseduuridest võib see tähistada ka hankijat, ostutellimust või mõnda muud teie organisatsiooni jaoks sobivat üksust.
 author: Weijiesa
 ms.date: 12/14/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 7d85ef86351f5d6ac662bb72c88d464fba82f561
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 43f28a7e30dbbe15bb02d26483289f25515fcfca
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8696162"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905859"
 ---
 # <a name="manage-voyages"></a>Teekondade haldamine
 
@@ -96,7 +96,7 @@ Vaate **Read** avamiseks avage teekond ja seejärel valige teekonna päises üla
 
 ### <a name="information-on-the-voyage-header-fasttab"></a>Teave teekonna päise kiirkaardil
 
-Teekonna vaate **Read** kiirkaart **Teekonna päis** sisaldab teekonda kirjeldavat põhiteavet. Paljud kiirkaardil kuvatavad väljad kuvatakse ka vaates **Päis**, nagu kirjeldatakse selles teemas allpool.
+Teekonna vaate **Read** kiirkaart **Teekonna päis** sisaldab teekonda kirjeldavat põhiteavet. Paljud kiirkaardil kuvatavad väljad ilmuvad samuti **päisevaates**, nagu kirjeldatud selles artiklis.
 
 ### <a name="information-on-the-voyage-lines-fasttab"></a>Teave teekonna ridade kiirkaardil
 

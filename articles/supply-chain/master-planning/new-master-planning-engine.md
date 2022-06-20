@@ -1,6 +1,6 @@
 ---
 title: Üleminek planeerimise optimeerimisele koondplaneerimiseks
-description: See teema annab teavet planeerimise optimeerimise kohta, mis on uus koondplaneerimise mootor, ja olemasolevalt mootorilt ülemineku kohta.
+description: See artikkel annab teavet uue koondplaneerimise mootori, planeerimise optimeerimise ja olemasolevast mootorist migreerimise kohta.
 author: t-benebo
 ms.date: 05/11/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.search.validFrom: 2020-11-05
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 598e29ead50e1ecb249a7338c7f0952a912b4f69
-ms.sourcegitcommit: cbe9493d479f96f271d94599ec1b85131b26169f
+ms.openlocfilehash: a94b424ad1a454feecede8a7b037171b2984504f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "8809091"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846094"
 ---
 # <a name="migration-to-planning-optimization-for-master-planning"></a>Üleminek planeerimise optimeerimisele koondplaneerimiseks
 
 [!include [banner](../includes/banner.md)]
 
-Sisseehitatud koondplaneerimise mootor kavatsetakse muuta iganenuks. See asendatakse planeerimise optimeerimise lisandmooduliga Microsoft Dynamics 365 Supply Chain Management. See teema annab teavet uute ja olemasolevate juurutuste mõju kohta. See sisaldab teavet vajalike toimingute kohta.
+Sisseehitatud koondplaneerimise mootor kavatsetakse muuta iganenuks. See asendatakse planeerimise optimeerimise lisandmooduliga Microsoft Dynamics 365 Supply Chain Management. See artikkel annab teavet mõju kohta uutele ja olemasolevatele juurutustele. See sisaldab teavet vajalike toimingute kohta.
 
 Planeerimise optimeerimine võimaldab koondplaneerimise arvutuste tegemist väljaspool Supply Chain Managementi ja selle Azure'i SQL-andmebaasi. Planeerimise optimeerimisega seotud eelised hõlmavad paremat jõudlust ja minimeeritud mõju SQL-andmebaasile koondplaneerimise käivitamiste ajal. Kuna kiireid planeerimise käivitamisi saab teha isegi kontoris viibimise ajal, saavad planeerijad nõudlusele või parameetri muutustele kohe reageerida.
 
@@ -63,7 +63,7 @@ Praegu on planeerimise optimeerimise funktsiooni migreerumise erand asjakohane, 
 
 Pärast nõutavate funktsioonide kättesaadavaks muutumist annab Microsoft ajapikenduse perioodi, kuni erand aegub. Keskkonna administraatorit teavitatakse, kui nõutavad funktsioonid on saadaval ja ajapikenduse periood on alanud.
 
-Järgmine vooskeem võtab kokku selles teemas esitatud teabe, et saaksite kiiresti teada, kas peaksite erandit taotlema. Kui teil on vaja taotleda erandit, täitke ja esitage [Planning Optimization migreerimise ja erandi küsimustik](https://go.microsoft.com/fwlink/?linkid=2144962). Tootegrupp vastutab iga eranditaotluse hindamise ja kinnitamise eest, seega esitage oma taotlus otse tootegrupile, kasutades esitatud linki ja ärge looge selle jaoks tugipiletit. Kui teie taotlus lükatakse tagasi, siis ärge looge tugipiletit, kuna Microsoft Support ei saa ümber hinnata ega anda erandeid.
+Järgmises vooskeemis summeeritakse selles artiklis antud teave, et oleks võimalik kiiresti teada saada, kas tuleks teha erand. Kui teil on vaja taotleda erandit, täitke ja esitage [Planning Optimization migreerimise ja erandi küsimustik](https://go.microsoft.com/fwlink/?linkid=2144962). Tootegrupp vastutab iga eranditaotluse hindamise ja kinnitamise eest, seega esitage oma taotlus otse tootegrupile, kasutades esitatud linki ja ärge looge selle jaoks tugipiletit. Kui teie taotlus lükatakse tagasi, siis ärge looge tugipiletit, kuna Microsoft Support ei saa ümber hinnata ega anda erandeid.
 
 ![Erandi vooskeem.](media/exception-diagram.png "Erandi vooskeem")
 

@@ -1,6 +1,6 @@
 ---
 title: Atribuudipõhised müügihinnad piirangupõhistele tootekonfiguratsioonidele
-description: Selles teemas kirjeldatakse, kuidas luua müügihinna mudeleid müügihindadega, mis põhinevad komponentidel ja atribuutidel, mitte füüsilisel kooslusel ja protsessil.
+description: See artikkel kirjeldab, kuidas koostada müügihinna mudeleid, mille müügihinnad põhinevad pigem komponentidel ja atribuutidel kui füüsilisel kooslusel ja protsessil.
 author: t-benebo
 ms.date: 10/2/2020
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-08-17
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: e50b2d1e9ccf03a58e0ddf6d4ecfb34c6c504161
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 456c7399f981e41ea452f1a6a8e30e9e12e0be54
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577452"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857457"
 ---
 # <a name="attribute-based-sales-prices-for-constraint-based-product-configuration"></a>Atribuudipõhised müügihinnad piirangupõhistele tootekonfiguratsioonidele
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas kirjeldatakse, kuidas luua müügihinna mudeleid müügihindadega, mis põhinevad komponentidel ja atribuutidel, mitte füüsilisel kooslusel ja protsessil. Igale tootekonfiguratsiooni mudelile saate luua mitu müügihinna mudelit.
+See artikkel kirjeldab, kuidas koostada müügihinna mudeleid, mille müügihinnad põhinevad pigem komponentidel ja atribuutidel kui füüsilisel kooslusel ja protsessil. Igale tootekonfiguratsiooni mudelile saate luua mitu müügihinna mudelit.
 
 ## <a name="set-relevant-product-information-management-parameters"></a>Asjakohaste tooteteabe halduse parameetrite seadmine
 

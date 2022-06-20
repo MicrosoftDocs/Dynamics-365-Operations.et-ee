@@ -1,6 +1,6 @@
 ---
-title: Tellimuse kokkuvõtte vahesumma ei sisalda tasumakse, kui kasutatakse kohandatud tellimuse kokkuvõttemooduleid.
-description: See teema annab tõrkeotsingu juhised, mis aitavad teil kasutada kohandatud tellimuse kokkuvõtte mooduleid ja tellimuse kokkuvõtte vahesumma ei sisalda tasude makse stsenaariumis "hind sisaldab käibemaksu".
+title: Tellimuse kokkuvõtte vahesumma ei sisalda makse, kui kasutatakse kohandatud tellimuse kokkuvõttemooduleid
+description: See artikkel annab tõrkeotsingu juhised, mis aitavad teil kasutada kohandatud tellimuse kokkuvõtte mooduleid ja tellimuse kokkuvõtte vahesumma ei sisalda tasude makse stsenaariumis "hind sisaldab käibemaksu".
 author: gvrmohanreddy
 ms.date: 05/17/2022
 ms.topic: article
@@ -9,16 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2022-04-22
-ms.openlocfilehash: 1a47561a3ac984bc554b5b93546592237c16cf18
-ms.sourcegitcommit: 48d094d083c1bd45c3d72f8b666926b48ec7ae35
+ms.openlocfilehash: 260dcb6bc1585615195e32adfcd1da6bfbca294e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8767923"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848833"
 ---
-# <a name="order-summary-subtotal-doesnt-include-taxes-on-charges-when-using-customized-order-summary-modules"></a>Tellimuse kokkuvõtte vahesumma ei sisalda tasumakse, kui kasutatakse kohandatud tellimuse kokkuvõttemooduleid.
+# <a name="order-summary-subtotal-doesnt-include-taxes-on-charges-when-using-customized-order-summary-modules"></a>Tellimuse kokkuvõtte vahesumma ei sisalda makse, kui kasutatakse kohandatud tellimuse kokkuvõttemooduleid
 
-See teema annab tõrkeotsingu juhised, mis aitavad teil kasutada kohandatud tellimuse kokkuvõtte mooduleid ja tellimuse kokkuvõtte vahesumma ei sisalda tasude makse stsenaariumis "hind sisaldab käibemaksu".
+See artikkel annab tõrkeotsingu juhised, mis aitavad teil kasutada kohandatud tellimuse kokkuvõtte mooduleid ja tellimuse kokkuvõtte vahesumma ei sisalda tasude makse stsenaariumis "hind sisaldab käibemaksu".
 
 ## <a name="description"></a>Kirjeldus
 

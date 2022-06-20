@@ -1,6 +1,6 @@
 ---
 title: Laotellimused pilv- ja perimeeterskaalaüksuste jaoks
-description: See teema annab teavet lao tellimuste võimaluse kohta, mida kasutatakse lao skaalaühiku töökoormuse osana.
+description: See artikkel annab teavet laotellimuse võimaluse kohta, mida kasutatakse laoskaala ühiku töökoormuse osana.
 author: perlynne
 ms.date: 04/22/2021
 ms.topic: article
@@ -11,19 +11,19 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: bd3c72f2c008b936ceda53a3fcdde79df1e6b1b7
-ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
+ms.openlocfilehash: db254216e6c34b81f83c87a8fda454d0aeb1cece
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7471688"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893522"
 ---
 # <a name="warehouse-orders-for-cloud-and-edge-scale-units"></a>Laotellimused pilv- ja perimeeterskaalaüksuste jaoks
 
 [!include [banner](../includes/banner.md)]
 
 > [!WARNING]
-> Mitte kogu ettevõtte funktsionaalsus ei ole skaalaühikute töökoormuste kasutamisel avalikus eelvaates täielikult toetatud. Kui kasutate skaalaühikuid, kasutage kindlasti ainult neid protsesse, mida see teema konkreetselt toetab.
+> Mitte kogu ettevõtte funktsionaalsus ei ole skaalaühikute töökoormuste kasutamisel avalikus eelvaates täielikult toetatud. Kui kasutate kaaluühikuid, kasutage kindlasti ainult neid protsesse, mida see artikkel kirjeldab täpselt toetatud üksustena.
 
 ## <a name="what-are-warehouse-orders"></a>Mis on laotellimused?
 

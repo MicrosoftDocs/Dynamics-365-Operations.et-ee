@@ -1,6 +1,6 @@
 ---
 title: Konteinerisse määramine
-description: Teema kirjeldab koormakonteinerite koostamise automatiseerimist. Automaatne konteinerite koostamine loob saadetiste jaoks konteinerid ja komplekteerimistööd pärast voo töötlemist.
+description: See artikkel kirjeldab, kuidas automatiseerida koormate konteinerite saatmist. Automaatne konteinerite koostamine loob saadetiste jaoks konteinerid ja komplekteerimistööd pärast voo töötlemist.
 author: Mirzaab
 ms.date: 03/08/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 2f738c0404a41ef862d4985a170a0eba991e4dd4
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 4bdd13d794f01c9971ee1bcbdf206bff6b526afa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686622"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880418"
 ---
 # <a name="containerization"></a>Konteinerisse määramine
 
 [!include [banner](../includes/banner.md)]
 
-Teema kirjeldab koormakonteinerite koostamise automatiseerimist. Automaatne konteinerite koostamine loob saadetiste jaoks konteinerid ja komplekteerimistööd pärast voo töötlemist.
+See artikkel kirjeldab, kuidas automatiseerida koormate konteinerite saatmist. Automaatne konteinerite koostamine loob saadetiste jaoks konteinerid ja komplekteerimistööd pärast voo töötlemist.
 
 Konteinerite koostamise häälestamiseks tuleb teil luua järgmised sätted.
 

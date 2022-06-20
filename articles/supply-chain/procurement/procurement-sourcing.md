@@ -1,6 +1,6 @@
 ---
 title: Hangete avaleht
-description: Teema esitab hangete jaoks saadavalolevate spikriteemade ja teiste ressursside loendi.
+description: See artikkel annab loendi spikriartiklitest ja muudest ressurssidest, mis on hankeks saadaval.
 author: GalynaFedorova
 ms.date: 09/27/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fdf56084147edcdf8951d4a267611c10dc7eb6dd
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
-ms.translationtype: MT
+ms.openlocfilehash: 68409b15a3f4874d05a43931136ce91097c4f904
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8673014"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885866"
 ---
 # <a name="procurement-and-sourcing-home-page"></a>Hangete avaleht
 
 [!include [banner](../includes/banner.md)]
 
-Teema esitab hangete jaoks saadavalolevate spikriteemade ja teiste ressursside loendi.
+See artikkel annab loendi spikriartiklitest ja muudest ressurssidest, mis on hankeks saadaval.
 
 Hanked katavad kõiki etappe alates toote ja teenuste vajaduse tuvastamisest kuni toote hankimiseni, kviitungi, arveldamise ja hankijatega makse töötlemiseni. Hanke protsesse saab konfigureerida kindlatele ärivajadustele, määratledes ostupoliitikad ja töövood. Üldise teabe jaoks vaadake [Hangete ülevaade](procurement-sourcing-overview.md). Allpool on esitatud lisaressursid.
 

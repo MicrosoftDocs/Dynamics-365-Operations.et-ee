@@ -1,6 +1,6 @@
 ---
-title: Vöötkoodi maskide häälestamine
-description: Selles teemas kirjeldatakse, kuidas seadistada vöötkoodi maski tähemärke ja vöötkoodi maske ning kuidas määrata vöötkoodidele vöötkoodi maske.
+title: Vöötkoodi maskide seadistamine
+description: See artikkel kirjeldab, kuidas seadistada vöötkoodi maski tähemärke, vöötkoodi maske ja vöötkoodi maske vöötkoodidele määrata.
 author: BrianShook
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: brshoo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: ddba3ef6c6a1fb1f71198291d5eccd44be737336
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: 97b490384cff27c60191a87dc623eb6a2ef868f0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779818"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853708"
 ---
-# <a name="set-up-bar-code-masks"></a>Vöötkoodi maskide häälestamine
+# <a name="set-up-bar-code-masks"></a>Vöötkoodi maskide seadistamine
 
 [!include [banner](includes/banner.md)]
 
-Selles teemas kirjeldatakse, kuidas seadistada vöötkoodi maski tähemärke ja vöötkoodi maske ning kuidas määrata vöötkoodidele vöötkoodi maske.
+See artikkel kirjeldab, kuidas seadistada vöötkoodi maski tähemärke, vöötkoodi maske ja vöötkoodi maske vöötkoodidele määrata.
 
 ## <a name="set-up-bar-code-mask-characters"></a>Vöötkoodi maski tähemärkide häälestamine
 
@@ -47,7 +47,7 @@ Vöötkoodimaske kasutatakse vöötkoodide loomiseks ja kassas skannitavate vö�
 | Töötaja         | Näitab vöötkoodi segmenti vöötkoodi kassa sisselogimise puhul kasutatava töötaja ID-koodi puhul. |
 | Klient         | Näitab kliendi ID segmenti. |
 | Andmekirje       | *Pole veel rakendatud.* |
-| Allahindluse kood    | *Aegunud* alates Dynamics 365 for Retail i 2017. aasta kevade väljalaskest. Varem: näitab allahindluse koodi vöötkoodile, mida kasutatakse kassa kandele allahindluse lisamiseks. |
+| Allahindluse kood    | *Aegunud* alates Dynamics 365 for Retaili 2017. aasta kevade väljalaskest. Varem: näitab allahindluse koodi vöötkoodile, mida kasutatakse kassa kandele allahindluse lisamiseks. |
 | Kupongikood      | Näitab tellimusele allahindluse lisamiseks kasutatava vöötkoodi kupongikoodi. See asendas allahindluse koodi. |
 | Kinkekaart        | Näitab kinkekaardi väljastamisel või sellega tasumisel kinkekaardi numbrit. |
 | Kliendikaart     | Lisab kandele püsikliendi ja seda saab kasutada kliendikaardiga tasumisel. |

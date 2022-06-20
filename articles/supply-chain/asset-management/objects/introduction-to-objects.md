@@ -1,6 +1,6 @@
 ---
 title: Varade sissejuhatus
-description: Selles teemas antakse ülevaade varadest moodulis Asset Management.
+description: See artikkel annab ülevaate varadest varahalduses.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 43a5646bc4a1301922781d8b083dfa709befe3dca0fad1074b5433c6e02f5c66
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: MT
+ms.openlocfilehash: ee61c43f93d68747a7095dc9317674a435553c8a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767504"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874184"
 ---
 # <a name="introduction-to-assets"></a>Varade sissejuhatus
 
@@ -30,9 +30,9 @@ ms.locfileid: "6767504"
 
  
 
-Selles teemas antakse ülevaade varadest moodulis Asset Management. *Vara* on mistahes tüüpi seade, nt masin või masina osa, mis nõuab hooldust, teenindust või remonti.
+See artikkel annab ülevaate varadest varahalduses. *Vara* on mistahes tüüpi seade, nt masin või masina osa, mis nõuab hooldust, teenindust või remonti.
 
-Vara uuendatakse automaatselt koos seotud teabega. Näiteks võib see seotud teave olla uute või värskendatud töökäskude kohta. Saate luua varasid, kasutades kas menüükäske **Kõik varad** või **Ootel varad**. Selles teemas selgitatakse, kuidas luua varasid menüükäsu **Kõik varad** abil. Lisateavet varade loomise kohta menüükäsuga **Ootel varad** lugege teemat [Varade loomine ostutellimuste alusel](../objects/create-objects-based-on-purchase-orders.md).
+Vara uuendatakse automaatselt koos seotud teabega. Näiteks võib see seotud teave olla uute või värskendatud töökäskude kohta. Saate luua varasid, kasutades kas menüükäske **Kõik varad** või **Ootel varad**. See artikkel selgitab, kuidas luua varasid, kasutades menüükäsku **Kõik** varad. Lisateavet varade loomise kohta menüükäsuga **Ootel varad** lugege teemat [Varade loomine ostutellimuste alusel](../objects/create-objects-based-on-purchase-orders.md).
 
 ## <a name="all-assets"></a>Kõik varad
 

@@ -1,6 +1,6 @@
 ---
-title: Maksesumma tüüpide lisamine
-description: Selles teemas selgitatakse, kuidas seadistada maksesumma tüüpe varaliisingus.
+title: Lisa maksesumma tüübid
+description: See artikkel kirjeldab, kuidas seadistada Vara laenusumma tüüpe.
 author: moaamer
 ms.date: 01/11/2022
 ms.topic: article
@@ -15,30 +15,30 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 037afa458277a3a07bcb937c6ec4d961d0dd5ca9
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.openlocfilehash: 03fc903e6cfe78ef2fed7e3a0744a8f809f6892d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968413"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891605"
 ---
-# <a name="add-payment-amount-types"></a>Maksesumma tüüpide lisamine
+# <a name="add-payment-amount-types"></a>Lisa maksesumma tüübid
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas kirjeldatakse, kuidas seadistada maksesumma tüüpe varaliisingus. Sel viisil saate liisingumakse summa üksikasjalikuks muuta, selle asemel et lisada maksegraafiku ridadele ühekordne summa.
+See artikkel kirjeldab, kuidas seadistada Põhivaras maksesumma tüüpe. Sel viisil saate rendimakse summat muuta maksegraafiku ridadele ühekordse makse summa lisamise asemel.
 
-Maksesumma tüüpide lisamiseks tehke järgmist.
+Maksesumma tüüpide lisamiseks järgige neid samme.
 
-1. Avage **varaliisingu \> häälestuse \> maksesumma tüübid**.
+1. Saate minna varade **lisategevuse \> seadistuse \> maksesumma tüüpidele**.
 2. Valige suvand **Uus**.
 3. Sisestage uus maksetüüp ja kirjeldus.
 
 > [!NOTE]
-> IFRS 16 indeksi ümberhindamise puhul peate looma ühe maksesumma tüübi ja märkima selle **IRS 16 indeksi ümberhindamiseks kasutatavaks**. Seda maksesumma tüüpi kasutatakse siis, kui indeksi ümberhindamisprotsess toimub IFRS 16 raamatu vastu, ja see arvestab indeksi ümberhindluse protsessi tõttu toimunud muudatusi.
+> IFRS 16 indeksi **ümberhindamise jaoks peate looma ühe maksesumma tüübi ja märkima selle väärtuseks Kasuta IRFS 16 indeksi ümberhindamise puhul**. Seda maksesumma tüüpi kasutatakse, kui indeksi ümberhindamisprotsessi käitatakse IFRS 16 raamatu suhtes ja see võtab arvesse indeksi ümberhindamise protsessi tõttu toimunud muudatusi.
 >
-> Kui **rendilepingu** maksejaotuse valiku väärtuseks on seatud **Jah, kui** IFRS 16 indeksi ümberhindamine käivitatakse, kuid IFRS 16 maksetüüpi pole, siis protsessi ei lõpetata.
+> Kui **rendi** **makse jaotuse suvand on seatud väärtusele Jah**, kui IFRS 16 indeksi ümberhindamine on tehtud, kuid IFRS 16 puhul pole maksetüüpi, siis protsessi ei lõpetata.
 
-**Ifrs 16 indeksi ümberhindamiseks saab märkida ainult ühe kirje**.
+Ainult ühe kirje saab märkida kui Kasutatakse **IFRS 16 indeksi ümberhindamise jaoks**.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

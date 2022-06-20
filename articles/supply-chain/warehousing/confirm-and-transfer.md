@@ -1,6 +1,6 @@
 ---
 title: Kinnitamine ja üleviimine
-description: Selles teemas selgitatakse, kuidas kasutada funktsiooni Kinnitamine ja üleviimine, mis võimaldab kasutajatel koormusi laost välja saata enne, kui nad viivad lõpule kogu nende koormustega seotud töö.
+description: See artikkel selgitab, kuidas kasutada kinnitamis- ja ülekandefunktsiooni, mis võimaldab kasutajatel koormusi laost välja saata enne, kui nad lõpetavad kogu töö, mis on koormatega seotud.
 author: Mirzaab
 ms.date: 07/01/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 0d34dd1b33467aa1ea3a723e1baaf7f06285c3fa
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 9257d8f9e6ed62ac0b19b0cdc8fd858e8b2f97a3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675483"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900560"
 ---
 # <a name="confirm-and-transfer"></a>Kinnitamine ja üleviimine
 
@@ -55,11 +55,11 @@ Saate tükeldada ainult järgmistele kriteeriumidele vastavaid koormuseid.
 
 ## <a name="turn-the-confirm-and-transfer-feature-on-or-off"></a>Kinnitamis- ja ülekandefunktsiooni sisse- või väljalülitamine
 
-Selles teemas kirjeldatud funktsioonide kasutamiseks peab kinnitamise *ja* ülekandmise funktsioon olema teie süsteemi jaoks sisse lülitatud. Tarneahela halduse 10.0.25 puhul on see funktsioon kohustuslik ja seda ei saa välja lülitada. Kui käitate versiooni, mis *on*[vanem kui 10.0.25, saavad administraatorid selle funktsiooni sisse või välja lülitada, otsides Funktsioonihalduse tööruumis kinnitamis- ja ülekandefunktsiooni.](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
+Selles artiklis kirjeldatud funktsioonide kasutamiseks peab kinnitamise *ja ülekandmise* funktsioon olema teie süsteemi jaoks sisse lülitatud. Tarneahela halduse 10.0.25 puhul on see funktsioon kohustuslik ja seda ei saa välja lülitada. Kui käitate versiooni, mis *on*[vanem kui 10.0.25, saavad administraatorid selle funktsiooni sisse või välja lülitada, otsides Funktsioonihalduse tööruumis kinnitamis- ja ülekandefunktsiooni.](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
 
 ## <a name="set-up-confirm-and-transfer"></a>Kinnitamise ja üleviimise häälestamine
 
-Funktsiooni *Kinnitamine ja üleviimine* kasutamiseks, peate selle sisse lülitama igas asjakohases koormusmallis. Lisaks võite funktsiooni toetamiseks valmistada ette töömallid vastavalt vajadusele. Kui soovite töötada läbi hiljem selles teemas käsitletava näidisstsenaariumi, seadistage oma süsteem selles jaotises kirjeldatud viisil. (See stsenaarium põhineb demoandmetel **USMF**.)
+Funktsiooni *Kinnitamine ja üleviimine* kasutamiseks, peate selle sisse lülitama igas asjakohases koormusmallis. Lisaks võite funktsiooni toetamiseks valmistada ette töömallid vastavalt vajadusele. Kui soovite töötada näidestsenaariumiga, mis antakse selles artiklis allpool, seadistage oma süsteem selles jaotises kirjeldatud viisil. (See stsenaarium põhineb demoandmetel **USMF**.)
 
 ### <a name="prepare-your-load-templates"></a>Koormusmallide ettevalmistamine
 
@@ -69,7 +69,7 @@ Funktsiooni *Kinnitamine ja üleviimine* kasutamiseks, peate selle sisse lülita
 
 ### <a name="prepare-your-work-templates"></a>Töömallide ettevalmistamine
 
-See seadistus pole nõutav kõigis olukordades. Siin kuvatud näide tagab, et tööd saab tükeldada saadetisega, et toetada selles teemas hiljem kirjeldatud stsenaariumi. Selle tulemuse saavutamiseks on ka muid võimalusi.
+See seadistus pole nõutav kõigis olukordades. Siin kuvatud näide tagab, et tööd saab saadetise kaupa katkeda, et toetada käesolevas artiklis allpool antud näidisstsenaariumi. Selle tulemuse saavutamiseks on ka muid võimalusi.
 
 1. Avage **Laohaldus \> Seadistus \> Töö \> Töömallid**.
 1. Valige lehe ülemises osas olevas ruudustikus olemasolev töömall, kuhu soovite seadistada funktsiooni *Kinnitamine ja üleviimine*. (Kui töötate demoandmetega **USMF**, valige töömall **51 Ettevalmistamiseks komplekteerimine**.) Teise võimalusena saate luua uue töömalli.

@@ -1,6 +1,6 @@
 ---
-title: Ülesandehaldus
-description: See teema kirjeldab Ülesandehalduse funktsioone, mis on Microsoftis saadaval Dynamics 365 Human Resources.
+title: Ülesande haldus
+description: See artikkel selgitab Microsoftis saadaolevaid ülesandehalduse funktsioone Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 12/20/2021
 ms.topic: article
@@ -14,14 +14,14 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2021-29-11
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ae453bd57217f272038decc7e40ed373f618ae03
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: c567f6d74e6ff87a72ff3b8663ca3a291dff3abb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710217"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897860"
 ---
-# <a name="task-management"></a>Ülesandehaldus
+# <a name="task-management"></a>Ülesande haldus
 
 [!INCLUDE [PEAP](../includes/peap-1.md)]
 
@@ -96,8 +96,8 @@ Järgmises tabelis kirjeldatakse välju, mis on saadaval, kui loote ülesande m�
 - **URL** : selle suvandi valimisel sisestage selle veebilehe URL, kuhu soovite ülesandele määratud isiku üle viia. Määratud lehekülg võib olla leht, mis ei ole Dynamics 365 rakenduse osa.
 - **Töötaja üksikasjad** – selle suvandi valimisel valige üks järgmistest suvanditest:
 
-    - **Töötaja iseteenindustegevused** – see valik kuvab loendi lehtedest, mis on saadaval Töötaja **iseteeninduses**. Kasutage seda juhul, kui töötajale määratud ülesanne peab olema täidetud Töötaja **iseteeninduses**. Näiteks kui soovite, et töötaja sisestaks oma isikliku kontaktteabe, valige töötaja **iseteenindustegevused** ja seejärel valige **Personal DetailsPersonal&gt; Information**.
-    - **Töötaja haldustegevused** – see suvand kuvab loendi lehtedest, mis on seotud töötaja kirjega, kuid mis pole töötaja jaoks saadaval. Näiteks, kui soovite, et ülesande omanik sisestaks teabe, mis on konkreetne põhitöölisele, nt kompensatsiooni teave, **valige** Töötaja haldustegevused ja seejärel valige **Hüvitusefikseeritud&gt; kompensatsioon**.
+    - **Töötaja iseteenindustegevused** – see valik kuvab loendi lehtedest, mis on saadaval Töötaja **iseteeninduses**. Kasutage seda juhul, kui töötajale määratud ülesanne peab olema täidetud Töötaja **iseteeninduses**. Näiteks kui soovite, et töötaja sisestaks oma isikliku kontaktteabe, valige **Töötaja iseteenindustegevused** ja seejärel isiklikud **&gt; andmed**.
+    - **Töötaja haldustegevused** – see suvand kuvab loendi lehtedest, mis on seotud töötaja kirjega, kuid mis pole töötaja jaoks saadaval. Näiteks kui soovite, et ülesande omanik sisestaks teabe, mis on omane põhitöölisele, nt kompensatsiooni teave, **valige** Töötaja haldustegevused ja seejärel valige **Tasu&gt; põhitasu**.
 
 ### <a name="assignment-types"></a>Määrangutüübid
 

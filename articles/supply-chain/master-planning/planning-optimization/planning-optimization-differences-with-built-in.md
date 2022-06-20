@@ -1,6 +1,6 @@
 ---
 title: Integreeritud koondplaneerimise ja planeerimise optimeerimise vahelised erinevused
-description: Selles teemas loetletakse funktsioonid, mida plaanimise optimeerimine veel ei toeta ja mida pole loetletud planeerimise optimeerimise sobivuse analüüsi lehel.
+description: Selles artiklis loetletakse funktsioonid, mida plaanimise optimeerimine veel ei toeta ja mis pole loetletud planeerimise optimeerimise sobivuse analüüsi lehel.
 author: t-benebo
 ms.date: 07/30/2021
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-30
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: c73587015d6714c409819ab19ad68685aaa71cf7
-ms.sourcegitcommit: 70289a33b0a6ff3f9418d91a928db452cfd815bd
+ms.openlocfilehash: cf39166dce860dbd796cb4749175628252ed96ea
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/20/2022
-ms.locfileid: "8618256"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897570"
 ---
 # <a name="differences-between-built-in-master-planning-and-planning-optimization"></a>Integreeritud koondplaneerimise ja planeerimise optimeerimise vahelised erinevused
 
 [!include [banner](../../includes/banner.md)]
 
-Plaanimise optimeerimise tulemused võivad erineda integreeritud koondplaneerimise mootori tulemustest. Erinevusi võivad põhjustada ootel funktsioonid. Selles teemas loetletakse funktsioonid, mida plaanimise optimeerimine veel ei toeta ja mida pole loetletud lehel **[Planeerimise optimeerimise sobivuse analüüs](planning-optimization-fit-analysis.md)**].
+Plaanimise optimeerimise tulemused võivad erineda integreeritud koondplaneerimise mootori tulemustest. Erinevusi võivad põhjustada ootel funktsioonid. Selles artiklis loetletakse funktsioonid, mida plaanimise optimeerimine veel ei toeta ja mis pole loetletud planeerimise optimeerimise **[sobivuse analüüsi](planning-optimization-fit-analysis.md)** lehel.
 
 | Funktsioon | Plaanimise optimeerimise praegune käitumine |
 |---|---|

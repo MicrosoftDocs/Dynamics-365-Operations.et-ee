@@ -1,6 +1,6 @@
 ---
-title: Sildiga varude inventuur
-description: Selles teemas antakse teavet märgistusega inventuuri kohta, mille abil saate võrrelda lao tegelikku sisu vabade kaubavarudega.
+title: Varude märgistusega inventuur
+description: Selles artiklis antakse teavet märgistusega inventuuri kohta, mille abil saate võrrelda lao tegelikku sisu vabade kaubavarudega.
 author: yufeihuang
 ms.date: 06/10/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 64315b8c5f0be1dbd19239a8b07746e90aebb0d4
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 7ceccfce98a71f7396358de9369af61c9eb96dce
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567363"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856160"
 ---
-# <a name="inventory-tag-counting"></a>Sildiga varude inventuur
+# <a name="inventory-tag-counting"></a>Varude märgistusega inventuur
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas antakse teavet märgistusega inventuuri kohta, mille abil saate võrrelda lao tegelikku sisu vabade kaubavarudega.
+Selles artiklis antakse teavet märgistusega inventuuri kohta, mille abil saate võrrelda lao tegelikku sisu vabade kaubavarudega.
 
 Lehel **Märgistusega inventuur** lisatakse igale laokaubale märgistuse number, nt number vahemikus 1–500. Inventuuri ajal sisestatakse kaubakood ja kogus vastavalt sildile. Seda silti saab seejärel kasutada märgistusega inventuuri töölehele sisestamise alusena. Pärast märgistusega inventuuri töölehe sisestamist luuakse lehel **Inventuur** uus inventuuritööleht. Uus tööleht põhineb loodud märgistusega inventuuri töölehe ridadel. Märgistusega inventuuri läbiviimiseks kaupade puhul konkreetse laodimensiooni põhjal valige dimensioon lehel **Dimensiooni kuvamine**, mis kuvatakse, kui märgistusega inventuuri töölehe loote. Näiteks kindlas laos olevate kaupade loendamiseks märkige ruut **Ladu**. Kui valida liugur **Lukusta kaubad inventuuri ajaks** lehel **Varude ja laohalduse parameetrid**, ei saa kaupu inventuuri ajal füüsiliselt muuta. Kuid märgistusega inventuuri töölehtedel olevad kaubad pole inventuuri ajal lukus. Laokandeid ei looda enne, kui sildiga inventuuri read sisestatakse ja inventuuritöölehele kantakse. Kui sildid sisestatakse juhuslikult ja soovite tuvastada puuduvaid silte, klõpsake ridade sildi järgi sortimiseks veeru **Silt** päist.
 

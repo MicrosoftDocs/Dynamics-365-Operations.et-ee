@@ -1,6 +1,6 @@
 ---
-title: Varude nähtavuse lisandmooduli ülevaade
-description: See teema selgitab mis Varude nähtavus on ja kirjeldab selle funktsioone.
+title: Inventory Visibility lisandmooduli ülevaade
+description: See artikkel kirjeldab varude nähtavust ja selle funktsioone.
 author: yufeihuang
 ms.date: 03/18/2022
 ms.topic: overview
@@ -11,14 +11,14 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 9eb8a135d2415c867c746a1c40a80cdb84819c0e
-ms.sourcegitcommit: d475dea4cf13eae2f0ce517542c5173bb9d52c1c
+ms.openlocfilehash: 782545ea38a209eb4430607f5bca96e4e930efdc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/05/2022
-ms.locfileid: "8547897"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897628"
 ---
-# <a name="inventory-visibility-add-in-overview"></a>Varude nähtavuse lisandmooduli ülevaade
+# <a name="inventory-visibility-add-in-overview"></a>Inventory Visibility lisandmooduli ülevaade
 
 [!include [banner](../includes/banner.md)]
 

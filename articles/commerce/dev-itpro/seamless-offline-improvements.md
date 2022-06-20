@@ -1,6 +1,6 @@
 ---
-title: Kinkekaardi ja krediiditeatise toimingute sujuv võrguühenduseta lülitamine
-description: See teema annab ülevaate parandustest, mis pakuvad konkreetsetele maksetüüpidele sujuvat võrguühenduseta lülitust.
+title: Kinkekaardi ja krediiditeatise toimingute sujuv jätkamine internetiühenduse katkemise korral
+description: See artikkel annab ülevaate parendustest, mis pakuvad kindlatele maksetüüpidele sujuvat võrguühenduseta lülitit.
 author: BrianShook
 ms.date: 02/11/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: brshoo
 ms.search.validFrom: 20120-02-28
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 59f1a0b213bd22906ba8b2c3e7da38a9818f6d4f
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: e0416a61bd5fd3b875b427ad8a6313d0e9936f0d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779488"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869157"
 ---
 # <a name="seamless-offline-switch-for-gift-card-and-credit-memo-operations"></a>Kinkekaardi ja krediiditeatise toimingute sujuv võrguühenduseta lülitamine
 
 [!include [banner](../includes/banner.md)]
 
-Kui kassa seade kaotab oma ühenduse kanali andmebaasiga, saab enamike pooleli olevate kassatoimingute ja tehingutega jätkata pärast seda, kui müüja saab hoiatusteate ühenduse kadumise kohta. Samas mõnel juhul on tehingutel siiski elemente, mis sõltuvad reaalajas teenusest, ja neid elemente ei toetata, kui kassa on võrguühenduseta. See teema kirjeldab mõnesid funktsioone, mis aitavad vähendada kaotatud ühenduvuse mõju sellistel juhtudel.
+Kui kassa seade kaotab oma ühenduse kanali andmebaasiga, saab enamike pooleli olevate kassatoimingute ja tehingutega jätkata pärast seda, kui müüja saab hoiatusteate ühenduse kadumise kohta. Samas mõnel juhul on tehingutel siiski elemente, mis sõltuvad reaalajas teenusest, ja neid elemente ei toetata, kui kassa on võrguühenduseta. See artikkel kirjeldab mõnda funktsiooni, mis aitab vähendada kaotatud ühenduvuse mõju nendes stsenaariumides.
 
 ## <a name="completing-gift-card-transactions-in-offline-mode"></a>Ühenduseta režiimis kinkekaardi kannete lõpetamine
 
@@ -50,7 +50,7 @@ Et lubada funktsioonil lõpetada krediiditeatise kanded pärast võrguühenduset
 
 Commerce’i parameetrid on tavaliselt vahemällu talletatud. Seega pärast seda, kui selle parameetri seadistus on värskendatud ja jaotusgraafik on käivitatud sünkroonima muudatuse kanaliga, võib muudatuse jõustumiseks kuluda kuni 24 tundi. Muudatuse koheselt jõustamiseks lähtestage IIS.
 
-## <a name="related-topics"></a>Seotud dokumendid
+## <a name="related-articles"></a>Seotud artiklid
 
 - [Võrguühenduseta kassa funktsioonid](../pos-offline-functionality.md)
 - [Ühendusega ja ühenduseta kassatoimingud](../pos-operations.md)

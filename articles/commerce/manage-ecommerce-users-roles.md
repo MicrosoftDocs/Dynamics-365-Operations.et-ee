@@ -1,6 +1,6 @@
 ---
 title: E-kaubanduse kasutajate ja rollide haldamine
-description: See teema selgitab, kuidas anda kasutajatele juurdepääs teie Microsoft Dynamics 365 Commerce’i saidi autorluse keskkonnale.
+description: See artikkel selgitab, kuidas anda kasutajatele teie saidi jaoks juurdepääs autoriteetkeskkonnale Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
 ms.date: 10/01/2019
 ms.topic: article
@@ -16,19 +16,19 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: ff0d3e607eb905eb9264bbb9ba151fbd527a81a2c72252252f2a45edc201e1b4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ac4342e4439db229997d9d4a0ad32f3664a795b1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715402"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868957"
 ---
 # <a name="manage-e-commerce-users-and-roles"></a>E-kaubanduse kasutajate ja rollide haldamine
 
 
 [!include [banner](includes/banner.md)]
 
-See teema selgitab, kuidas anda kasutajatele juurdepääs teie Microsoft Dynamics 365 Commerce’i saidi autorluse keskkonnale.
+See artikkel selgitab, kuidas anda kasutajatele teie saidi jaoks juurdepääs autoriteetkeskkonnale Microsoft Dynamics 365 Commerce.
 
 Et aidata kontrollida kasutajate juurdepääsu ja anda kasutajatele luba konkreetsete ülesannete täitmiseks, kasutab saidi autorluse keskkond rakenduses Microsoft Azure Active Directory (Azure AD) loodud turvagruppe. Kõigepealt määrate autorluse keskkonnas igale rollile Azure AD-st uue või olemasoleva turvagrupi. Seejärel annate või tühistate individuaalsete kasutajate load, lisades need kasutajad vastavasse turvagruppi või eemaldades need turvarühmast.
 
@@ -50,7 +50,7 @@ Rakenduse Dynamics 365 Commerce ettevalmistamisel Microsoft Dynamicsi teenuse Li
 
 ## <a name="administrator-role"></a>Administraatori roll
 
-Commerce’is uue saidi loomisel küsitakse teilt rolli **Administraator** jaoks turvagrupi määramist. Vaadake selles teemas eelnevalt toodud tabelit selle rolli antavate lubade ülevaateks.
+Commerce’is uue saidi loomisel küsitakse teilt rolli **Administraator** jaoks turvagrupi määramist. Vaadake selles artiklis eespool toodud tabelit, et saada ülevaade õigustest, mida see roll annab.
 
 ## <a name="add-or-update-security-groups"></a>Turvagruppide lisamine või värskendamine
 

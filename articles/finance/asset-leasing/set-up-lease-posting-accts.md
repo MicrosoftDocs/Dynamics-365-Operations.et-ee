@@ -1,6 +1,6 @@
 ---
 title: Rendi sisestuskontode seadistamine
-description: Selles teemas loetletakse vara rendikannete jaoks nõutavad sisestuskontod ja selgitatakse, kuidas määratleda rendi sisestamise parameetrite lehel sisetuskontod.
+description: Selles artiklis loetletakse sisestuskontod, mis on vajalikud varaga seotud kannete jaoks, ning selgitatakse, kuidas määrata sisestuskontosid rendi sisestusparameetrite lehel.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 147d8cd93f9664039b2004b878dcaff96c8b6ce6
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 6e3a0d8dd3bb3e58ca10b2efce0cc88a2f48d2de
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726374"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859910"
 ---
 # <a name="set-up-lease-posting-accounts"></a>Rendi sisestuskontode seadistamine
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas loetletakse vara rendikannete jaoks nõutavad sisestuskontod ja selgitatakse, kuidas määratleda lehel **Rendi sisestamise parameetrid** sisetuskontod.
+Selles artiklis loetletakse sisestuskontod, mis on vajalikud varaga seotud kannete jaoks, ning selgitatakse, kuidas määrata sisestuskontosid rendi **sisestusparameetrite** lehel.
 
 Vastavalt raamatupidamisstandardite kodifitseerimise teemale 842 (ASC 842) ja rahvusvahelise finantsaruandluse standardile 16 (IFRS 16) võib olla vajalik luua oma kontoplaanis kontod. Siiski ei ole kõik kontod, mille vastavalt ASC-i ja IFRS-i standarditele loote, põhivara kontod. ASC 842 kohaselt kirjendatakse kasutamisõiguse esemeks oleva vara nii kapitali- kui kasutusrendi korral. Need rendid on põhivaradest eraldi. (Kasutamisõiguse esemeks olevat vara võite siiski hallata põhivarade abil.)
 

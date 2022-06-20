@@ -1,6 +1,6 @@
 ---
-title: Globaalse aadressiraamatu ja muude aadressiraamatute plaanimine
-description: Selles teemas kirjeldatakse kaalutlusi ja otsuseid, mille peate protsessi plaanimise käigus tegema.
+title: Plaan globaalse aadressiraamatu ja muude aadressiraamatute jaoks
+description: See artikkel kirjeldab kaalutlused ja otsuseid, mida peate planeerimisprotsessi käigus tegema.
 author: msftbrking
 ms.date: 01/13/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: brking
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 87b3f6a74c217b0cc7cec784ca6a964ab2caae0c7e9438aee2cc82987a508d63
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 288c96d8c877f5e3b3101080294b2f6cdeb39882
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771892"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863155"
 ---
 # <a name="plan-for-the-global-address-book-and-other-address-books"></a>Plaan globaalse aadressiraamatu ja muude aadressiraamatute jaoks
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas kirjeldatakse kaalutlusi ja otsuseid, mille peate protsessi plaanimise käigus tegema, enne kui globaalse aadressiraamatu ning mis tahes täiendava aadressiraamatu seadistate ja konfigureerite. Mõned otsused nõuavad toote mõnes muus valdkonnas (nt organisatsiooni hierarhia) tehtud otsuste kinnitamist.
+See artikkel kirjeldab kaalutlusi ja otsuseid, mida peate planeerimisprotsessi käigus enne globaalse aadressiraamatu ja mis tahes täiendavate aadressiraamatute seadistamist ja konfigureerimist tegema. Mõned otsused nõuavad toote mõnes muus valdkonnas (nt organisatsiooni hierarhia) tehtud otsuste kinnitamist.
 
 ## <a name="global-address-book"></a>Globaalne aadressiraamat
 

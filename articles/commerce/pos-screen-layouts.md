@@ -1,6 +1,6 @@
 ---
 title: Kassa kasutajaliidese visuaalsed konfiguratsioonid
-description: Selles teemas käsitletakse Dynamics 365 Commercei kassa ekraanipaigutusi.
+description: See artikkel annab teavet kassakogemuste ekraanipaigutuste Dynamics 365 Commerce kohta.
 author: boycezhu
 ms.date: 09/22/2020
 ms.topic: article
@@ -16,19 +16,19 @@ ms.search.industry: Retail
 ms.author: boycez
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 17379dc97c7a8b22912482a7aeebd0d8ac08dc496fa7b1661952bca10a21c75b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 22a35d69780a48415076dd70c21c33b1024c217d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765876"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871629"
 ---
 # <a name="pos-user-interface-visual-configurations"></a>Kassa kasutajaliidese visuaalsed konfiguratsioonid
 
 [!include [banner](includes/banner.md)]
 
 
-Microsoft Dynamics 365 Commerce'i kassa kasutajaliidest saab konfigureerida kauplustele, registritele ja/või kasutajatele määratud visuaalsete profiilide ja ekraanipaigutuste kombinatsiooni abil. Selles teemas antakse teavet nende konfiguratsioonisuvandite kohta.
+Microsoft Dynamics 365 Commerce'i kassa kasutajaliidest saab konfigureerida kauplustele, registritele ja/või kasutajatele määratud visuaalsete profiilide ja ekraanipaigutuste kombinatsiooni abil. See artikkel annab teavet nende konfiguratsioonisuvandite kohta.
 
 Järgmine joonis näitab seoseid erinevate olemite vahel, millest kassa UI konfigureeritavad aspektid koosnevad.
 

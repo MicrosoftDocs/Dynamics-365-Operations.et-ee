@@ -1,6 +1,6 @@
 ---
 title: Tarnehind vs Transpordihaldus
-description: Microsoft Dynamics 365 Supply Chain Management pakub transpordi, transpordihalduse (TMS) ja tarnehinnaga töötamiseks kahte erinevat moodulit. Selles teemas summeeritakse kahe mooduli ühised funktsioonid ja tõstetakse esile erinevused nende vahel.
+description: Microsoft Dynamics 365 Supply Chain Management pakub transpordi, transpordihalduse (TMS) ja tarnehinnaga töötamiseks kahte erinevat moodulit. Selles artiklis summeeritakse kahe mooduli ühised funktsioonid ja tõstetakse esile erinevused nende vahel.
 author: Weijiesa
 ms.date: 12/04/2020
 ms.topic: article
@@ -12,20 +12,20 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-04
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 8c59d7d1887986d308cb591ece077cff9f4648a5
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 40489ff8d8683d19a5f726546cc4c43cc3e7a05d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690368"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905917"
 ---
 # <a name="landed-cost-vs-transportation-management"></a>Tarnehind vs Transpordihaldus
 
 [!include [banner](../../includes/banner.md)]
 
-Microsoft Dynamics 365 Supply Chain Management pakub kahte erinevat moodulit transpordiga töötamiseks, **Transpordihaldus** (TMS) ja **Tarnehind**. Selles teemas summeeritakse kahe mooduli ühised funktsioonid ja tõstetakse esile erinevused nende vahel. Seda teavet saate kasutada otsustamiseks, milline moodul teie äritavadega kõige paremini sobib. Mõned äritavad töötavad koos TMS-iga paremini, teised aga töötavad kõige paremini tarnehinnaga. Seejärel, sõltuvalt teie äritegevuse nõuetest, võite valida ainult ühe mooduli kasutamise või võite kaks moodulit kombineerida.
+Microsoft Dynamics 365 Supply Chain Management pakub kahte erinevat moodulit transpordiga töötamiseks, **Transpordihaldus** (TMS) ja **Tarnehind**. Selles artiklis summeeritakse kahe mooduli ühised funktsioonid ja tõstetakse esile erinevused nende vahel. Seda teavet saate kasutada otsustamiseks, milline moodul teie äritavadega kõige paremini sobib. Mõned äritavad töötavad koos TMS-iga paremini, teised aga töötavad kõige paremini tarnehinnaga. Seejärel, sõltuvalt teie äritegevuse nõuetest, võite valida ainult ühe mooduli kasutamise või võite kaks moodulit kombineerida.
 
-See teema ei ole täielik ülevaade mõlema mooduli kõigi funktsioonidest. Selle asemel tõstetakse esile saadav funktsionaalsus vastavalt kauba transportimisele hankijalt teie ettevõtte lattu, kus seda saab tarbida.
+See artikkel ei ole kõigi mooduli funktsioonide täielik ülevaade. Selle asemel tõstetakse esile saadav funktsionaalsus vastavalt kauba transportimisele hankijalt teie ettevõtte lattu, kus seda saab tarbida.
 
 ## <a name="terminology-reference-data-and-reporting-differences"></a>Terminoloogia, viiteandmed ja aruandluse erinevused
 

@@ -1,6 +1,6 @@
 ---
 title: Soodustuste halduse ülevaade
-description: Selles teemas antakse ülevaade rakenduse Dynamics 365 Human Resources soodustuste halduse funktsioonist.
+description: See artikkel annab ülevaate soodustuste haldamise funktsioonist Dynamics 365 Human Resources
 author: twheeloc
 ms.date: 12/06/2021
 ms.topic: overview
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e53a68aed2e4b1e0b0d7797e7326e223c47443f4
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: f008c273a3088353c33ae8c4b0b3cbc6b274fbcf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687187"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901143"
 ---
 # <a name="benefits-management-overview"></a>Soodustuste halduse ülevaade
 
@@ -44,7 +44,7 @@ Kui soovite ligipääsu demoandmetelel, peate oma liivakastikeskkonna uuesti juu
 
 ## <a name="enable-benefits-management"></a>Soodustuste halduse lubamine
 
-Selles teemas kirjeldatakse, kuidas funktsioone rakenduses Human Resources sisse lülitada. Lisaks selgitab see, millised rakenduse Human Resources olemasolevad funktsioonid soodustuste haldamine pärast soodustuste haldamise sisselülitamist asendab ja keelab.
+See artikkel kirjeldab, kuidas funktsioone rakenduses Human Resources sisse lülitada. Lisaks selgitab see, millised rakenduse Human Resources olemasolevad funktsioonid soodustuste haldamine pärast soodustuste haldamise sisselülitamist asendab ja keelab.
 
 > [!IMPORTANT]
 > Keskkonnas **Tootmine** ei saa soodustuste haldust keelata, kui olete selle lubanud. Enne soodustuste halduse keskkonnas **Tootmine** lubamist soovitame lubada ja testida soodustuste haldust keskkonnas **Liivakast**. Olemasolevate pärandsoodustuse funktsioonide ja uute pärandsoodustuse funktsioonide vahel on olulisi erinevusi, mis vajavad täiendavat seadistamist ja mida tuleks enne tootmise alustamist testida.

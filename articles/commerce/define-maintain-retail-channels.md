@@ -1,6 +1,6 @@
 ---
 title: Jaemüügikanalite määratlemine ja haldamine
-description: Selles teemas antakse ülevaade füüsilistele kaupluste, mida nimetatakse Dynamics 365 Commerce'is kauplusteks, seadistamise protsessist. See sisaldab teavet ülesannete kohta, mis tuleb lõpule viia enne ja pärast kaupluse seadistamist.
+description: See artikkel annab ülevaate seina- ja linnakaupluste seadistamise protsessist, mida nimetatakse kauplusteks Dynamics 365 Commerce. See sisaldab teavet ülesannete kohta, mis tuleb lõpule viia enne ja pärast kaupluse seadistamist.
 author: mugunthanm
 ms.date: 01/06/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: ef06d79e1fa4d024dc1de0125cc72bdba5671aad384c7988dc63d407323b7abc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f3cba816af72a27c6d8a59e17fad145a236016c9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760198"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870578"
 ---
 # <a name="define-and-maintain-retail-channels"></a>Jaemüügikanalite määratlemine ja haldamine
 
 [!include [banner](includes/banner.md)]
 
-Selles teemas antakse ülevaade füüsilistele kaupluste, mida nimetatakse Dynamics 365 Commerce'is kauplusteks, seadistamise protsessist. See sisaldab teavet ülesannete kohta, mis tuleb lõpule viia enne ja pärast kaupluse seadistamist.
+See artikkel annab ülevaate seina- ja linnakaupluste seadistamise protsessist, mida nimetatakse kauplusteks Dynamics 365 Commerce. See sisaldab teavet ülesannete kohta, mis tuleb lõpule viia enne ja pärast kaupluse seadistamist.
 
 Commerce toetab mitmeid kanaleid, nagu võrgupoed, kõnekeskused ja traditsioonilised kauplused. Traditsioonilist kauplust nimetatakse kaupluseks. Igal kauplusel võivad olla oma makseviisid, hinnagrupid, kassaregistrid, tulu- ja kulukontod ning personal. Enne kaupluse loomist tuleb seadistada kõik need elemendid. Kui olete kaupluse loonud, saate määrata seal müüdavad tooted. Saate kauplusele määrata ka töötajad, registrid ja kliendid. Viimaks peate lisama uue kaupluse organisatsioonihierarhiasse.
 

@@ -1,6 +1,6 @@
 ---
 title: Saabumiste ja lähetuste sisestamine Intrastati jaoks
-description: See teema pakub näidet, kuidas sisestada Intrastati saabumised ja lähetamised.
+description: See artikkel annab näite, mis näitab, kuidas sisestada Saabumised ja lähetused Intrastati jaoks.
 author: anasyash
 ms.date: 8/23/2021
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: kfend
 ms.search.region: Global
 ms.author: anasyash
 ms.search.validFrom: ''
-ms.openlocfilehash: 4ab4402740d199043519773b18732bdde9a0fb2f
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: aef20f0261e103be7fe231a7efb39751ab4d1151
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8724779"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862960"
 ---
 # <a name="post-arrivals-and-dispatches-for-intrastat"></a>Saabumiste ja lähetuste sisestamine Intrastati jaoks
 
 [!include [banner](../includes/banner.md)]
 
-See teema pakub näidet, kuidas sisestada Intrastati saabumised ja lähetamised. Näites kasutatakse **ITCO** juriidilist isikut.
+See artikkel annab näite, mis näitab, kuidas sisestada Saabumised ja lähetused Intrastati jaoks. Näites kasutatakse **ITCO** juriidilist isikut.
 
 ## <a name="setup"></a>Seadistus
 
@@ -32,7 +32,7 @@ See teema pakub näidet, kuidas sisestada Intrastati saabumised ja lähetamised.
 
     Lisateavet leiate teemast [ER konfiguratsioonide allalaadimine konfiguratsiooniteenuse globaalsest hoidlast](../../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md).
 
-2. Määratlege Microsoft Dynamics 365 finantside puhul järgmised numbriseeriad pidevana: **\_ Gema397,** Atulu16403 **\_,** **Gene407\_** ja **PUREU.\_**
+2. Määratlege Microsoft Dynamics 365 Finantsis järgmised numbriseeriad pidevaks: **Gene\_ 397**, **A\_ 16403**, **Gene\_ 407** ja **PUR\_ EL**.
 
     1. Avage **Organisatsiooni haldus** > **Numbriseeriad** > **Numbriseeriad**.
     2. Valige ruudustikus üks numbriseeria koodidest.

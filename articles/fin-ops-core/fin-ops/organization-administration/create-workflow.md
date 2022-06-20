@@ -1,6 +1,6 @@
 ---
 title: Töövoogude ülevaate loomine
-description: See teema selgitab, kuidas töövoogu luua.
+description: See artikkel selgitab, kuidas töövoogu luua.
 author: ChrisGarty
 ms.date: 07/25/2019
 ms.topic: overview
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: abdb8ce3186806ac1b756c9161d53547dd8ae40b
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 1343061ba06d13e68a98b05c013867af0a4d07a6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067954"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864482"
 ---
 # <a name="create-workflows-overview"></a>Töövoogude ülevaate loomine
 
@@ -31,7 +31,7 @@ ms.locfileid: "8067954"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-See teema selgitab, kuidas töövoogu luua.
+See artikkel selgitab, kuidas töövoogu luua.
 
 ## <a name="open-the-workflow-editor"></a>Avage töövoo redaktor
 
@@ -56,7 +56,7 @@ Järgige neid juhiseid töövoo atribuutide konfigureerimiseks.
 
 1. Klõpsake lõuend veendumaks, et töövoo element pole valitud.
 2. Klõpsake valikut **Atribuudid**, et avada töövoo leht **Atribuudid**.
-3. Järgige protseduure teemas [Töövooatribuutide konfigureerimine](configure-workflow-properties.md).
+3. Järgige töövoo atribuutide [konfigureerimise artikli protseduure](configure-workflow-properties.md).
 
 ## <a name="configure-the-elements-of-the-workflow"></a>Töövoo elementide konfigureerimine
 

@@ -1,6 +1,6 @@
 ---
 title: Laokande üksikasjad
-description: Käesolevas teemas antakse ülevaade kannete üksikasjade lehest, mis näitab valitud laokande üksikasju.
+description: See artikkel annab ülevaate kannete üksikasjade lehest, mis näitab valitud laokande üksikasju.
 author: rachel-profitt
 ms.date: 04/25/2022
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2022-04-25
 ms.dyn365.ops.version: 10.0.27
-ms.openlocfilehash: fd1416f21ce15dc832dd41ea4110c93bf5bb41a2
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 55e29d5804f57cd86fb5ddac5d6c5576b7ea5f61
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735876"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859383"
 ---
 # <a name="inventory-transaction-details"></a>Laokande üksikasjad
 
@@ -36,8 +36,8 @@ Kannete **üksikasjade leht** on tükeldatud mitmeks kiirkaardiks. Järgmises ta
 
 | Kiirkaart | Kirjeldus |
 |---|---|
-| Üldine | Sellel kiirkaardil kuvatakse valitud laokande põhiteave. Lisaks laokannete lehel kuvatavatele väljadele **sisaldab** see ka käesolevas teemas allpool kirjeldatud lisavälju. |
-| Uuendused | See kiirkaart näitab teavet, mis on seotud valitud laokande füüsiliste, finantsilisi ja tasakaalustusaspekte. Sõltuvalt kande praegusest olekust, võivad mõned väljad olla tühjad. Need väljad seatakse kannete sisestamisel automaatselt. Lisaks laokannete lehel kuvatavatele väljadele sisaldab **see** kiirkaart täiendavaid välju, mida kirjeldatakse selles teemas allpool. |
+| Üldine | Sellel kiirkaardil kuvatakse valitud laokande põhiteave. Lisaks laokannete lehel kuvatavatele väljadele **sisaldab** see ka täiendavaid välju, mida kirjeldatakse selles artiklis. |
+| Uuendused | See kiirkaart näitab teavet, mis on seotud valitud laokande füüsiliste, finantsilisi ja tasakaalustusaspekte. Sõltuvalt kande praegusest olekust, võivad mõned väljad olla tühjad. Need väljad seatakse kannete sisestamisel automaatselt. Lisaks laokannete lehel kuvatavatele väljadele sisaldab **see** kiirkaart täiendavaid välju, mida kirjeldatakse selles artiklis hiljem. |
 | Pearaamatu sisestused | See kiirkaart näitab sisestamise tüüpi ja pearaamatu kontot, mida kasutatakse valitud laokandega seotud füüsiliseks uuendamiseks, finantsiliseks uuendamiseks, füüsiliseks tuluks, füüsilisteks kuludeks, finantskuludeks ja finantskuludeks. |
 | Viited | See kiirkaart näitab lisateavet valitud laokande loonud lähtekande kohta. Näiteks võib see teave sisaldada üksikasju ostutellimusest või müügitellimusest. |
 | Seostuv teave | See kiirkaart kuvab täiendavat teavet valitud laokande kohta. Neid välju ei saa seada, kui te ei kasuta mõnda funktsiooni, nt hankekategooriaid või projekte. |

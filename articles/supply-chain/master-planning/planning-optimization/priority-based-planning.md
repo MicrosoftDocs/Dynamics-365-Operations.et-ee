@@ -1,6 +1,6 @@
 ---
 title: Prioriteedipõhine planeerimine
-description: Selles teemas kirjeldatakse Microsofti prioriteedipõhise planeerimise funktsiooni Dynamics 365 Supply Chain Management.
+description: See artikkel kirjeldab Microsofti prioriteedipõhise planeerimise funktsiooni Dynamics 365 Supply Chain Management.
 author: t-benebo
 ms.date: 10/15/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: bdca7ef99716cebee5c4eb41d1e51793b9468dd4
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 4997ba123f105f683daaa6b29fe8c5ee72cb47cb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468296"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873807"
 ---
 # <a name="priority-based-planning"></a>Prioriteedipõhine planeerimine
 
 [!include [banner](../../includes/banner.md)]
 
-Selles teemas kirjeldatakse Microsofti prioriteedipõhise planeerimise funktsiooni Dynamics 365 Supply Chain Management. See funktsioon toetab nõudlusepõhist planeerimist, mis on üks samm nõudlusepõhiste materjalinõuete planeerimisest (DDMRP). Prioriteedipõhine planeerimine võimaldab planeerimise optimeerimisel luua plaanitud tellimusi, mis põhinevad vajaduse kuupäevade asemel plaanimise prioriteetidel.
+See artikkel kirjeldab Microsofti prioriteedipõhise planeerimise funktsiooni Dynamics 365 Supply Chain Management. See funktsioon toetab nõudlusepõhist planeerimist, mis on üks samm nõudlusepõhiste materjalinõuete planeerimisest (DDMRP). Prioriteedipõhine planeerimine võimaldab planeerimise optimeerimisel luua plaanitud tellimusi, mis põhinevad vajaduse kuupäevade asemel plaanimise prioriteetidel.
 
 Prioriteedipõhine planeerimine võimaldab teil prioriteerida varude täiendamise tellimusi nii, et tagada pakilise nõudluse tähtsusjärjekorras väiksem nõudlus. Näiteks laovarude täiendamise tellimusele täidetakse standardne taastäitmise varude täiendamise tellimus. Süsteem saab suuremad tellimused automaatselt tükeldada eraldi väiksemateks tellimusteks, kus tellimuseread on grupeeritud prioriteedi alusel. Seejärel saab esimesena töödelda kõiki kõrge prioriteediga tellimusi.
 
@@ -62,7 +62,7 @@ Arvutamisel kasutatakse järgmist valemit:
 
 Selles valemis *arvutatakse netovoo* positsioon järgmiselt:
 
-*Netovoo positsioonOn-handOn-order* = *·* + *·* – *kvalifitseeritud nõudlus*
+*Puhasvoo* = *positsioon vabas* + *tellimuses* – *kvalifitseeritud nõudlus*
 
 - *Ettetellimus on* eeldatav tarne.
 - *Kvalifitseeritud* nõudlus kajastab netovajadusi, mille vajaduse kuupäev jääb plaanimise ajapiiri piiresse.

@@ -1,6 +1,6 @@
 ---
 title: Regulatory Configuration Service (RCS) – RCS-keskkonna kustutamine
-description: See teema kirjeldab, kuidas Regulatory Configuration Service (RCS) teenuse süsteemi administraator saab kustutada RCS-keskkonda ja seotud andmeid.
+description: See artikkel selgitab, kuidas regulatiivse konfiguratsiooniteenuse (RCS) süsteemi administraator saab kustutada RCS-keskkonna ja seotud andmed.
 author: JaneA07
 ms.date: 06/14/2021
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2021-01-01
 ms.dyn365.ops.version: AX 10.0.15
-ms.openlocfilehash: f9073a14143423676f23f9bf8dc9c17dbae18a6c3ad0d2f6d1e33919fd9162bf
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 21e7ee546bb2b712d9424c6bd95e9f9227831bd1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759815"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908886"
 ---
 # <a name="regulatory-configuration-service-rcs---delete-an-rcs-environment"></a>Regulatory Configuration Service (RCS) – RCS-keskkonna kustutamine
 
 [!include [banner](../includes/banner.md)]
 
-See teema kirjeldab, kuidas Regulatory Configuration Service (RCS) teenuse süsteemi administraator saab kustutada RCS-keskkonda ja seotud andmeid.
+See artikkel selgitab, kuidas regulatiivse konfiguratsiooniteenuse (RCS) süsteemi administraator saab kustutada RCS-keskkonna ja seotud andmed.
 
-Enne selles teemas kirjeldatud protseduuri lõpetamist peavad täidetud olema järgmised eeltingimused:
+Enne selle artikli protseduuri lõpule viimist peavad olema täidetud järgmised eeltingimused:
 
 - Teile peab RCS-keskkonnas olema määratud **Süsteemiadministraatori** roll.
 - **Süsteemiadministraatori** rollile peab olema määratud **RCSDeleteEnvironmentDuty** roll.

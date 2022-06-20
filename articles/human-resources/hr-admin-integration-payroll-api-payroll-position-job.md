@@ -1,6 +1,6 @@
 ---
 title: Palga positsiooni töö
-description: See teema annab üksikasjad ja näidispäringu Palgalise ametikoha olemi kohta rakenduses Dynamics 365 Human Resources.
+description: See artikkel annab üksikasju ja näitepäringut palgaarvestuse positsiooni tööüksuse kohta üksuses Dynamics 365 Human Resources.
 author: jcart
 ms.date: 04/07/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 349479d9e77861b54d879bcfd93f7af0e38cff95
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: fa347f4b99adc7c29d69daf62ad2bbfc14726a19
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069828"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864079"
 ---
 # <a name="payroll-position-job"></a>Palga positsiooni töö
 
@@ -27,7 +27,7 @@ ms.locfileid: "8069828"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Selles teemas kirjeldatakse rakenduse Dynamics 365 Human Resources palgatöötaja ametikoha olemit.
+See artikkel kirjeldab palga positsiooni töö üksust üksuse jaoks Dynamics 365 Human Resources.
 
 ### <a name="description"></a>Kirjeldus
 

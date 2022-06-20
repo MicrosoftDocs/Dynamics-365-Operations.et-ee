@@ -1,8 +1,8 @@
 ---
-title: Kasutuskogemuse isikupärastamine
-description: Selles teemas selgitatakse, kuidas isikupärastada rakendust.
+title: Kasutusfunktsionaalsuse isikupärastamine
+description: See artikkel selgitab, kuidas saate rakendust isikupärastada.
 author: jasongre
-ms.date: 03/03/2022
+ms.date: 06/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b922d68fcf3e83be57140cf8c54c4bacd2b75f56
-ms.sourcegitcommit: edc887e0526c415466e9691e642028ecd97cdbe7
+ms.openlocfilehash: c326e51dc127d8b82ccef28146ec223ca5169c5e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8602985"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845438"
 ---
-# <a name="personalize-the-user-experience"></a>Kasutuskogemuse isikupärastamine
+# <a name="personalize-the-user-experience"></a>Kasutusfunktsionaalsuse isikupärastamine
 
 [!include [banner](../includes/banner.md)]
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Selles teemas selgitatakse, kuidas saate rakendust isikupärastada, ning see hõlmab järgmisi teemasid. 
+See artikkel selgitab, kuidas saate rakendust isikupärastada ja katab järgmised teemad. 
 
 - **Kogu süsteemi hõlmavad suvandid** – need isikupärastamise suvandid on saadaval seadistuslehel kõigile kasutajatele. Näiteks võib tuua värvikujunduse ja ajavööndi. 
 - **Piiratud juurdepääs isikupärastamisele** – sellel juurdepääsutasemel salvestab rakendus automaatselt kasutaja tegevused, mis on seotud tüüpilise lehekasutusega, ja need taastatakse järgmine kord, kui te lehte külastate. Näiteks talletab rakendus ruudustiku veerulaiused, kui neid korrigeerite, ja kiirkaartide laiendatud või ahendatud oleku. 
@@ -58,7 +58,7 @@ Siin on loend tegevustest, mis kuuluvad tüüpilise lehekasutuse ja seega piirat
 
 - **Ruudustiku veergude laiused** – saate korrigeerida veeru laiust ruudustikus, valides veerupäisest vasakul või paremal oleva suuruse muutmise riba ja libistades seda vasakule või paremale, kuni veerg on soovitud laiusega. Rakendus salvestab veeru jaoks valitud laiuse. Seejärel muudetakse järgmine kord, kui lehe avate, veeru laius selleks laiuseks.
 - **Ruudustiku jalus ja veergude summad** – *(saadaval ainult siis, kui uus ruudustiku juhtelement on sisse lülitatud)* saate otsustada, kas ruudustiku numbreid sisaldava veergude allosas tuleks näidata summat ning kas ruudustiku jalus peaks nähtav olema. Rakendus talletab need eelistused ja rakendab need järgmisel korral, kui avate lehe. Lisateavet vt jaotisest [Ruudustiku võimalused](grid-capabilities.md). 
-- **Kiirkaardid** – mõnel lehel on laiendatavad jaotised, mida nimetatakse *kiirkaartideks*. Rakendus salvestab teabe laiendatud või ahendatud kiirkaartide kohta. Samad kiirkaadid laiendatakse või ahendatakse järgmisel korral, kui lehe avate, võttes aluseks teie viimast tegevust lehel. Mõnel juhul saate kiirkaardi ahendamisega aidata süsteemi jõudlust parandada, sest rakendus ei pea kiirkaartide teavet tooma, kuni neid ei laiendata. Nagu hiljem selles teemas selgitatakse, saate muuta ka kiirkaartide järjestust lehel.
+- **Kiirkaardid** – mõnel lehel on laiendatavad jaotised, mida nimetatakse *kiirkaartideks*. Rakendus salvestab teabe laiendatud või ahendatud kiirkaartide kohta. Samad kiirkaadid laiendatakse või ahendatakse järgmisel korral, kui lehe avate, võttes aluseks teie viimast tegevust lehel. Mõnel juhul saate kiirkaardi ahendamisega aidata süsteemi jõudlust parandada, sest rakendus ei pea kiirkaartide teavet tooma, kuni neid ei laiendata. Nagu selles artiklis allpool selgitatakse, saate muuta ka lehekülje kiirkaartide järjestust.
 - **Kiirinfo** – mõnel lehel on paan **Seotud teave**, millel kuvatakse lehe praeguse teemaga seotud kirjutuskaitstud teave. Igat paani **Seotud teave** jaotist nimetatakse *Kiirinfoks*. Saate kogu paani **Seotud teave** laiendada või ahendada, samuti laiendada või ahendada üksikuid kiirinfo jaotisi. Rakendus salvestab need eelistused. Teie viimast tegevust lehel arvesse võttes laiendatakse või ahendatakse paani **Seotud teave** ja üksikuid kiirinfo jaotisi järgmine kord, kui lehe avate. Mõnel juhul saate paani **Seotud teave** või kiirinfo ahendamisega aidata süsteemi jõudlust parandada, sest rakendus ei pea kiirinfo jaotiste teavet tooma, kuni neid ei laiendata.
 - **Toimingupaanid** – *toimingupaan* kuvatakse enamiku lehtede ülaserva lähedal. Toimingupaan sisaldab nuppe paljudeks tegevusteks, mida praegusel lehel saate teha. Need nupud on sageli korraldatud vahekaartidele. Saate kogu toimingupaani avatuks *kinnitada* või hoida seda vaikimisi ahendatuna. Toimingupaan avatakse või ahendatakse järgmisel korral, kui lehe avate, võttes aluseks teie viimast tegevust lehel. Kui olete toimingupaani kinnitanud, kuvatakse viimati kasutatud vahekaart.
 - **Kiirfiltrid** – *kiirfilter* kuvatakse paljude ruudustike kohal. Kiirfiltriga saate ruudustikku filtreerida ühe valitud veeru põhjal. Rakendus salvestab filtreeritud veeru valiku. Seejärel filtreeritakse ruudustik vaikimisi sama veeru järgi, kui selle lehe järgmine kord avate. Siiski saate valida erineva veeru, mille alusel ruudustikku filtreerida.
@@ -173,14 +173,14 @@ Versiooni 10.0.26 **käivitamisel** lubab luba kasutajatel paani suuruseid valid
 
 ### <a name="personalizing-your-dashboard"></a>Armatuurlaua isikupärastamine
 
-Armatuurlaud on tihti esimene leht, mida näete rakenduse avamisel. Seda saab isikupärastada nagu kõiki süsteemi lehti, kasutades samu meetodeid, mida enne selles teemas kirjeldati. 
+Armatuurlaud on tihti esimene leht, mida näete rakenduse avamisel. Seda saab isikupärastada nagu iga teine lehekülg süsteemis, kasutades samu mehhanisme, mida kirjeldatakse käesolevas artiklis varem. 
 
 > [!WARNING]
 > On oluline, et armatuurlaua sisu peitmisel valiksite te praegu otse paani, mitte selle ümber oleva ruumi. Kui peidate paani ümber oleva grupi, võivad tulemused olla ootamatud, kui hiljem lisatakse rohkem paane või kui süsteem lülitatakse mõnesse muusse keelde.
 
 Üks armatuurlaual saadaolev ainulaadne isikupärastamise võimalus on võime lisada paane. 
 
-- Kui funktsioon **Täisleheküljelised rakendused** on välja lülitatud, saate lisada uue paani, kui paremklõpsate armatuurlaua elemendil ja valite **Lisa tööruum**. Uus tööruumipaan luuakse armatuurlaua alaserva. Saate selle uue tööruumipaani soovitud viisil ümber nimetada. Samuti saate lisada tööruumi loendeid, paane ja linke, nagu on kirjeldatud selle teema jaotises [Paanide, loendite ja linkide lisamine tööruumi](personalize-user-experience.md#adding-tiles-lists-and-links-to-a-workspace).
+- Kui funktsioon **Täisleheküljelised rakendused** on välja lülitatud, saate lisada uue paani, kui paremklõpsate armatuurlaua elemendil ja valite **Lisa tööruum**. Uus tööruumipaan luuakse armatuurlaua alaserva. Saate selle uue tööruumipaani soovitud viisil ümber nimetada. Saate lisada ka loendeid, paanisid ja linke tööruumile, [nagu on kirjeldatud selle artikli jaotises Paanide,](personalize-user-experience.md#adding-tiles-lists-and-links-to-a-workspace) loendite ja linkide lisamine tööruumile.
 - Kui funktsioon **Täisleheküljelised rakendused** on sisse lülitatud, saate lisada uue paani, kui paremklõpsate armatuurlaua elemendil ja valite **Lisa rakendus**. Valige dialoogiboksis, kas soovite lisada paani uue tööruumi jaoks või paani, mis sisaldab sisu Power Appsist või veebisaidilt. Seejärel järgige valitud suvandi konfigureerimiseks juhiseid. Uus paan luuakse armatuurlaua alaserva. Lisateavet nende manustatud rakenduste lisamise, redigeerimise, kustutamise ja jagamise kohta vt jaotisest [Lõuendirakenduste manustamine Power Appsist](embed-power-apps.md) ja [Kolmanda osapoole rakenduste manustamine](embed-website.md).
 
 ## <a name="sharing-personalizations"></a>Isikupärastamiste ühiskasutamine
@@ -236,7 +236,7 @@ Teine viis isikupärastamise jagamiseks on läbi ekspordi ja impordi. Üksikud k
 
 #### <a name="export"></a>Ekspordi
 
-Üldiselt saate eksportida ühe oma vaadetest või isikupärastamist, avades sobiva lehekülje, avades **isikupärastamise** tööriistariba ja valides seejärel **Ekspordi**. Lisateavet tööriistariba kohta vt [Tööriistariba isikupärastamise](#personalization-toolbar) jaotisest varasemalt selles teemas. Kui [salvestatud vaated](saved-views.md) on lubatud, saate minna ka **Sätted \> Kasutaja võimalused \> Isikustamine** et vaadata kõigi isikustamiste loendit süsteemis. Sealt saate valida eksportimiseks vaateid või isikupärastamiseid ja seejärel valida **Ekspordi**.
+Üldiselt saate eksportida ühe oma vaadetest või isikupärastamist, avades sobiva lehekülje, avades **isikupärastamise** tööriistariba ja valides seejärel **Ekspordi**. Lisateavet tööriistariba kohta vt selle artikli varasemast [isikupärastamise](#personalization-toolbar) tööriistariba jaotisest. Kui [salvestatud vaated](saved-views.md) on lubatud, saate minna ka **Sätted \> Kasutaja võimalused \> Isikustamine** et vaadata kõigi isikustamiste loendit süsteemis. Sealt saate valida eksportimiseks vaateid või isikupärastamiseid ja seejärel valida **Ekspordi**.
 
 Lisaks saavad administraatorid eksportida teiste kasutajate isikupärastamiseid järgides neid samme.
 
@@ -277,7 +277,7 @@ Kui salvestatud vaated ei ole lubatud, järgige neid samme.
 
 Leht **Isikupärastamine** on isikupärastamiste organisatsiooni tasemel haldamise keskus. Lehe sisu ja võimalused sõltuvad sellest, kas funktsioon **Salvestatud vaated** on sisse lülitatud.
 
-Kliendid, kes on sisse lülitanud funktsiooni **Salvestatud vaated**, näevad teemas [Salvestatud vaated](saved-views.md) jaotist „Vaadete globaalne haldamine“.
+Klientide puhul, kes on salvestatud vaadete **funktsiooni** sisse lülitanud, vaadake salvestatud vaadete artikli jaotist "Vaadete [globaalne haldamine](saved-views.md) ".
 
 Klientidele, kes pole funktsiooni [Salvestatud vaated](saved-views.md) veel sisse lülitanud, on sellel lehel neli vahekaarti.
 
@@ -285,6 +285,9 @@ Klientidele, kes pole funktsiooni [Salvestatud vaated](saved-views.md) veel siss
 - **Eemalda** – saate eemaldada vähemalt ühe kasutaja lehe või tööruumi kõik isikupärastamised. Esmalt valige leht või tööruum, et näha seda isikupärastanud kasutajate loendit. Seejärel valige kasutajad, kelle isikupärastamised tuleb sellelt lehelt või sellest tööruumist eemaldada, ja valige käsk **Eemalda**. Kõik isikupärastamised, mille valitud kasutajad on valitud lehele või tööruumile rakendanud, kustutatakse. Seda tegevust ei saa tagasi võtta. Kui aga isikupärastamine on lehele või tööruumile salvestatud, saab selle isikupärastamise uuesti importida.
 - **Kasutajad** – saate valida kasutaja, et kuvada loend lehtedest, mille kasutaja on isikupärastanud. Seejärel saate valitud kasutaja võimaluse kasutada isikupärastamisi kindlatel lehtedel või terves süsteemis sisse või välja lülitada. Samuti saate kasutaja jaoks isikupärastamise importida, eksportida või eemaldada. Lisaks saate lähtestada kasutaja funktsiooni viiktekstid. Sel juhul, kui kasutaja on varem välja lülitanud kõik hüpikaknad, mis juurutavad uusi funktsioone, kuvatakse need uuesti järgmisel korral, kui kasutaja nende funktsioonidega kokku puutub.
 - **Süsteem** – saate ajutiselt välja lülitada süsteemis olevad kõigi kasutajate kõik isikupärastamised. Sel juhul kustutatakse kõik isikupärastamised kõigi kasutajate jaoks ja kõik lehed lähtestatakse nende vaikeolekusse. Kui lülitate isikupärastamise hiljem uuesti sisse, rakendatakse kõik isikupärastamised uuesti. Saate ka kõigi kasutajate isikupärastamised süsteemist jäädavalt kustutada. Kustutatud isikupärastamisi ei ole võimalik taastada. Seega veenduge enne seda ülesannet, et oleksite eksportinud kõik isikupärastamised, mida võite soovida hiljem importida.
+
+### <a name="service-updates-and-personalization"></a>Teenuse värskendused ja isikupärastamine
+Isikupärastamisandmeid ei pea toote uude versiooni teisaldamisel tühjendama ega lähtestama. Isikupärastamised ja salvestatud vaadete andmed jätkavad tööd kõigis värskendustes. Selle erandid hõlmavad muudatusi vormil, mis muudab isikupärastamise (nt eemaldatud juhtelement) või muudab vormi põhipäringut, mis muudab selle andmeallika alampuud, et see ei ühtiks enam vaate päringuga seostatud andmeallika alampuuga.
 
 ## <a name="personalizing-inventory-dimensions"></a>Varude dimensioonide isikupärastamine
 

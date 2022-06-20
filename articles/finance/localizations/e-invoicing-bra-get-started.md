@@ -1,6 +1,6 @@
 ---
 title: Alustage elektroonilise arveldusega Brasiilias
-description: See teema pakub teavet, mis aitab teil alustada elektroonilise arveldusega Brasiilias Finants ja Supply Chain Management -iga.
+description: See artikkel annab teavet, mis aitab teil alustada elektroonilise arveldusega Brasiilia jaoks finantside ja tarneahela halduses.
 author: gionoder
 ms.date: 03/29/2021
 ms.topic: article
@@ -9,30 +9,32 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: intro-internal
+ms.custom:
+- "97423"
+- intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 82bbf806d207af0b15406e4bec516420db7f2c06
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 74debbca4ee365e05f1c15d45179f0cd1d23c3e5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984849"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846580"
 ---
 # <a name="get-started-with-electronic-invoicing-for-brazil"></a>Alustage elektroonilise arveldusega Brasiilias 
 
 [!include [banner](../includes/banner.md)]
 
-Sellest teemast leiate teabe, mis aitab teil alustada elektroonilise arveldusega Brasiilias. See teema juhatab teid läbi riigist sõltuvate konfiguratsioonietappide Regulatory Configuration Services (RCS) ja täiendavad teemas kirjeldatud samme [Alustage elektroonilise arveldamisega](e-invoicing-get-started.md).
+See artikkel annab teavet, mis aitab teil Alustada Brasiilia elektroonilise arveldusega. Artikkel juhendab teid läbi konfiguratsioonietappide, mis sõltuvad regulatiivsetest konfiguratsiooniteenustest (RCS) ja täiendab artikli kirjeldatud samme, [alustage elektroonilise arveldamise abil](e-invoicing-get-started.md).
 
 ## <a name="country-specific-configuration-for-brazilian-nf-e-br-electronic-invoicing-feature"></a>Brasiilia NF-e (BR) elektroonilise arveldamise funktsiooni riigispetsiifiline konfiguratsioon
 
 Mõned parameetrid **Brasiilia NF-e (BR) Elektroonilise arvelduse funktsioonist** avaldatakse vaikeväärtustega. Vaadake üle ja vajadusel uuendage väärtusi, et need sobiksid paremini teie äritegevuse vajadustega, enne kui juurutate elektroonilise arveldamise funktsiooni teenuse keskkonda.
 
-See jaotis täiendab **Elektroonilise arveldamise riigispetsiifilist funktsiooni** jaotist teemas [Alusta elektroonilise arveldusega](e-invoicing-get-started.md).
+See jaotis täiendab artikli **elektroonilise arvelduse funktsiooni** jaotise riigiomast konfiguratsiooni. [Alustage elektroonilise arveldusega](e-invoicing-get-started.md).
 
 1. RCS-i jaotises **Funktsioonid** tööruumis **Globaliseerimisfunktsioonid** valige paan **Elektrooniline arveldus** .
 2. Lehel **Elektroonilise arveldamise Funktsioonid** veenduge, et **Brasiilia NF-e (BR)** on valitud loodud elektroonilise arveldamise funktsioon.
@@ -51,7 +53,7 @@ See jaotis täiendab **Elektroonilise arveldamise riigispetsiifilist funktsiooni
 
 Viige need sammud lõpule enne rakenduse häälestuse juurutamist ühendatud finants- või Supply Chain Management rakendusse.
 
-See jaotis täiendab **Rakenduse seadistamise riigispetsiifilist funktsiooni** jaotist teemas [Alusta elektroonilise arveldusega](e-invoicing-get-started.md).
+See jaotis täiendab artikli **jaotise Rakenduse häälestuse riigispetsiifilist** konfiguratsiooni Alustage [elektroonilise arveldusega](e-invoicing-get-started.md).
 
 1. RCS-i jaotises **Funktsioonid** tööruumis **Globaliseerimisfunktsioonid** valige paan **Elektrooniline arveldus** .
 2. Lehel **Elektroonilise arveldamise Funktsioonid** veenduge, et **Brasiilia NF-e (BR)** on valitud loodud elektroonilise arveldamise funktsioon.
@@ -71,7 +73,7 @@ See jaotis täiendab **Rakenduse seadistamise riigispetsiifilist funktsiooni** j
 
 Mõned parameetrid **Brasiilia NFS-e ABRASF Curitiba (BR) Elektroonilise arvelduse funktsioonist** avaldatakse vaikeväärtustega. Vaadake üle ja vajadusel uuendage väärtusi, et need sobiksid paremini teie äritegevuse vajadustega, enne kui juurutate elektroonilise arveldamise funktsiooni teenuse keskkonda.
 
-See jaotis täiendab **Elektroonilise arveldamise riigispetsiifilist funktsiooni** jaotist teemas [Alusta elektroonilise arveldusega](e-invoicing-get-started.md).
+See jaotis täiendab artikli **elektroonilise arvelduse funktsiooni** jaotise riigiomast konfiguratsiooni. [Alustage elektroonilise arveldusega](e-invoicing-get-started.md).
 
 1. RCS-i jaotises **Funktsioonid** tööruumis **Globaliseerimisfunktsioonid** valige paan **Elektrooniline arveldus** .
 2. Lehel **Elektroonilise arveldamise funktsioonid** veenduge, et **Brasiilia NFS-e ABRASF Curitiba (BR)** on valitud loodud elektroonilise arveldamise funktsioon.
@@ -96,7 +98,7 @@ See jaotis täiendab **Elektroonilise arveldamise riigispetsiifilist funktsiooni
 
 Viige need sammud lõpule enne rakenduse häälestuse juurutamist ühendatud finants- või Supply Chain Management rakendusse.
 
-See jaotis täiendab **Rakenduse seadistamise riigispetsiifilist funktsiooni** jaotist teemas [Alusta elektroonilise arveldusega](e-invoicing-get-started.md).
+See jaotis täiendab artikli **rakenduse häälestuse jaotise** riigiomast konfiguratsiooni Ja [alustage elektroonilise arveldamisega](e-invoicing-get-started.md).
 
 1. RCS-i jaotises **Funktsioonid** tööruumis **Globaliseerimisfunktsioonid** valige paan **Elektrooniline arveldus** .
 2. Lehel **Elektroonilise arveldamise Funktsioonid** veenduge, et **Brasiilia NFS-e ABRASF (BR)** on valitud loodud elektroonilise arveldamise funktsioon.

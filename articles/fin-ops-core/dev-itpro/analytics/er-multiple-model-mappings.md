@@ -1,6 +1,6 @@
 ---
 title: Ühe mudeli juure mitme tuletatud vastenduse haldamine
-description: Selles teemas kirjeldatakse, kuidas hallata mitut tuletatud vastendust, mis konfigureeriti ühe mudeli juure jaoks.
+description: See artikkel selgitab, kuidas hallata mitut tuletatud vastendust, mis konfigureeriti ühe mudeli juure jaoks.
 author: NickSelin
 ms.date: 01/04/2021
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d71b05b3f2eda93a93f728926e675c040371781e
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 960f5962ec1ea216e35feb0c282856bed95d079a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8324108"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892475"
 ---
 # <a name="manage-several-derived-mappings-for-a-single-model-root"></a>Ühe mudeli juure mitme tuletatud vastenduse haldamine
 
@@ -26,15 +26,15 @@ ms.locfileid: "8324108"
 
 Elektroonilise [aruandluse (ER)](general-electronic-reporting.md) andmemudelikomponenti kasutatakse igas konfigureeritud ER-vormingu komponendis andmeallikana väljaminevate dokumentide loomiseks. Ühe äridomeeni kirjeldamiseks konfigureerige andmemudeli komponent, mis sisaldab palju juurdefinitsioone. 
 
-Iga juurdefinitsioon võimaldab teil esindada selle domeeni andmeid viisil, mis sobib kõige paremini konkreetsete aruandluse eesmärkidega. Iga juurdefinitsiooni jaoks saate konfigureerida ER-mudeli vastendamise komponendi Microsoft Dynamics 365 Finance-spetsiifiliseks andmemudeli juurutamiseks. Nii saate kirjeldada, kuidas teie andmemudel käitusajal täidetakse.
+Iga juurdefinitsioon võimaldab teil esindada selle domeeni andmeid viisil, mis sobib kõige paremini konkreetsete aruandluse eesmärkidega. Iga juurdefinitsiooni jaoks saate konfigureerida ER-mudeli vastendamise Microsoft Dynamics komponendi kui oma andmemudeli 365 finantsipõhine rakendamine. Nii saate kirjeldada, kuidas teie andmemudel käitusajal täidetakse.
 
 ER-i mudeli vastendamise komponendid võivad asuda ER-i andmemudeli [konfiguratsioonides](general-electronic-reporting.md#Configuration) ja ER-mudeli vastendamise konfiguratsioonides. Üksik ER-i konfiguratsioon võib sisaldada palju vastendamise komponente, millest igaüks on konfigureeritud ühe juurdefinitsiooni jaoks. Teise võimalusena võib üksik ER-i konfiguratsioon sisaldada ainult ühte vastendamise komponenti, mis on konfigureeritud ühe juurdefinitsiooni jaoks.
 
 Paljud konfiguratsiooni pakkujad võivad pakkuda ER-i mudeli vastendamise konfiguratsioone samale ER-i andmemudelile. Need mudeli vastendamise konfiguratsioonid võivad sisaldada erinevate juurdefinitsioonide vastendamise komponente. Võite kasutada ühe juurdefinitsiooni jaoks ühe [pakkuja](general-electronic-reporting.md#Provider) pakutavat mudeli vastendamist ja teise juurdefinitsiooni jaoks teise pakkuja pakutavat mudeli vastendust.
 
-Selles teemas toodud protseduurid selgitavad, kuidas hallata ER-i andmemudeli mitut ER-mudeli vastendamise konfiguratsiooni, kui need sisaldavad sama juurdefinitsiooni jaoks konfigureeritud eri mudelivastenduse komponente. 
+Selles artikli protseduurides seletatakse, kuidas hallata ER-i andmemudeli mitut ER-mudeli vastendamiskonfiguratsiooni, kui need sisaldavad sama juurdefinitsiooni jaoks konfigureeritud eri mudelivastenduse komponente. 
 
-Selles teemas toodud protseduuride lõpule viimiseks peab teile olema määratud süsteemiadministraatori või elektroonilise aruandluse arendaja roll.
+Selle artikli protseduuride lõpule viimiseks peate olema määratud süsteemiadministraatori või elektroonilise aruandluse arendaja rollile.
 
 Kõiki järgmisi protseduure saab teha ettevõttes USMF. Koodi pole vaja kirjutada.
 

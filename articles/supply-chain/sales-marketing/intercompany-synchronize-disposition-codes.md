@@ -1,6 +1,6 @@
 ---
 title: Likvideerimiskoodide sünkroniseerimine
-description: See teema kirjeldab kontsernisisese kaubanduse likvideerimiskoodide sünkroniseerimist
+description: See artikkel selgitab kontsernisisese äri likvideerimiskoodide sünkroonimist
 author: Henrikan
 ms.date: 09/01/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2021-09-01
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 27b587e576900f2b7f7fed7ee2a27a282306f0fe
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: d347181dd6ba12de0e114d74d43cd46230ba4fb7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8671754"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905656"
 ---
 # <a name="synchronize-intercompany-disposition-codes"></a>Likvideerimiskoodide kontsernisisene sünkroniseerimine
 

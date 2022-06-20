@@ -1,6 +1,6 @@
 ---
 title: 200 protsenti väheneva saldoga kulum
-description: Selles teemas antakse ülevaade 200-protsendise vähenevsaldo kulumimeetodist.
+description: See artikkel annab ülevaate 200-protsendise vähenevsaldo kulumimeetodist.
 author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 831a99246f0a2d5f223e3624aace1c218c3c4ff4
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 7abcf26f3e658e8a6f451f26240890d183547982
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710942"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870158"
 ---
 # <a name="200-percent-reducing-balance-depreciation"></a>200 protsenti väheneva saldoga kulum
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas antakse ülevaade 200-protsendise vähenevsaldo kulumimeetodist.
+See artikkel annab ülevaate 200-protsendise vähenevsaldo kulumimeetodist.
 
 Kui valite põhivara kulumireeglite seadistamisel lehe **Kulumireeglid** väljal **Meetod** suvandi **200% vähenev saldo**, on sellele kulumireeglile määratud põhivarade kulumiprotsent kõigil kulumiperioodidel ühesuurune. Protsendimäära arvutamise aluseks on põhivara tööiga. Nt kui põhivara kasulik eluiga on viis aastat, arvutatakse perioodi kulumiks 40 protsenti (200% ÷ 5). 
 
@@ -43,7 +43,7 @@ Teie valik määrab väljal **Perioodi sagedus** saadaolevad suvandid. See väli
 
 Võite säilitada vaikeväärtuse väljal **Kulumiarvestusaasta** jaotises **Kalendriaasta**. 
 
-Valik **Kalendriaasta** värskendab kulumiarvestuse alust iga aasta 1. jaanuaril. Kulumiarvestus on tavaliselt raamatupidamislik jääkväärtus miinus mahakandemaksumus. Selle teema edasistes näidetes on kulumiarvestuse alus arvutuste veeru esimese avaldise esimene liige. 
+Valik **Kalendriaasta** värskendab kulumiarvestuse alust iga aasta 1. jaanuaril. Kulumiarvestus on tavaliselt raamatupidamislik jääkväärtus miinus mahakandemaksumus. Selles artikli näites on kulumiarvestuse alus arvutusveeru avaldise esimeseks lugejaks. 
 
 Kui valite kulumiarvestusaasta **Kalendriaasta**, on väljal **Perioodi sagedus** saadaval järgmised valikud.
 

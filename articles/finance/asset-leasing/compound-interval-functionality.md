@@ -1,6 +1,6 @@
 ---
 title: Liitintervalli funktsioon
-description: See teema sisaldab teavet, mis aitab teil valida kuu, kvartali, poolaasta ja iga-aastase liitintervallide seast.
+description: See artikkel annab teavet, mis aitab teil valida kuu, kvartali, poolaasta ja iga-aastase liitmisintervallide vahel.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,24 +15,24 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: d1b8af3d5f8f6a6812fe309f57f682d0c5023d00
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 2de5f1e9d52de41388298031a03fbc487a1b1cde
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710438"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886409"
 ---
 # <a name="compounding-interval-functionality"></a>Liitintervalli funktsioon
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-See teema sisaldab teavet, mis aitab teil valida kuu, kvartali, poolaasta ja iga-aastase liitintervallide seast. Liitintervalli funktsiooni kasutatakse rendimaksete graafiku liitperioodide arvu määramiseks aastas. Kõik selle teema neli näidet näitavad, milline näeb rendimaksete graafik välja erinevate intervallide korral.
+See artikkel annab teavet, mis aitab teil valida kuu, kvartali, poolaasta ja iga-aastase liitmisintervallide vahel. Liitintervalli funktsiooni kasutatakse rendimaksete graafiku liitperioodide arvu määramiseks aastas. Iga nelja selle artikli näitest näitab, milline on rendi maksegraafik erineva intervalli puhul.
 
 Te ei saa valida liitintervalli, mis on harvem kui rendimaksete sagedus. Näiteks ei saa kvartalipõhist liitintervalli kasutada koos igakuise maksesagedusega ja iga-aastast liitintervalli ei saa kasutada poolaastase maksesagedusega. Kui proovite valida liitintervalli, mis on harvem kui rendimaksete sagedus, kuvatakse tõrketeade.
 
 > [!NOTE]
-> Selle teema kõigis neljas näites ühtib liitintervall maksesagedusega.
+> Selle artikli kõigi nelja näite puhul ühtib liitmisintervall maksesagedusega.
 
 ## <a name="examples"></a>Näited
 

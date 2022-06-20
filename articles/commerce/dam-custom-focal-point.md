@@ -1,6 +1,6 @@
 ---
 title: Pildi fokaalpunktide kohandamine
-description: Selle teema all kirjeldatakse, kuidas kohandada piltide fokaalpunkte rakenduse Microsoft Dynamics 365 Commerce saidiehituses.
+description: See artikkel kirjeldab, kuidas kohandada saidikonstruktori pildipunkte Microsoft Dynamics 365 Commerce.
 author: psimolin
 ms.date: 04/14/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 9c8a1b6de774a4d89c0ebcf46847c1b2c5b62374b3e5ac25a0bea2ff30b47510
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9294fcc7302e3651eca1b5edefd556143e49fb93
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727602"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852811"
 ---
 # <a name="customize-image-focal-points"></a>Pildi fokaalpunktide kohandamine
 
 [!include [banner](includes/banner.md)]
 
-Selle teema all kirjeldatakse, kuidas kohandada piltide fokaalpunkte rakenduse Microsoft Dynamics 365 Commerce saidiehituses.
+See artikkel kirjeldab, kuidas kohandada saidikonstruktori pildipunkte Microsoft Dynamics 365 Commerce.
 
 Kui pilt laaditakse üles Kaubanduse saidiehituse meediumiteeki, püüab süsteem määrata pildi fokaalpunkti. Näiteks, kui pildil on inimene, seab süsteem fokaalpunkti vaikimisi inimese näole. Enamikul juhtudel töötab automaatselt seatud fokaalpunkt hästi kõigi vaateportide korral, kuid mõnikord on vaja fokaalpunkti reguleerida, et tagada pildi teatud osa alatine nähtavus.
 

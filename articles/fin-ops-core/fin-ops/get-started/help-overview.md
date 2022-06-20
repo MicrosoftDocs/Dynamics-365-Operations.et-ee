@@ -1,6 +1,6 @@
 ---
 title: Spikrisüsteem (sisaldab videot)
-description: Selles teemas antakse ülevaade finance and Operationsi rakenduste spikrisüsteemist.
+description: See artikkel annab ülevaate finantside ja toimingute rakenduste spikrisüsteemist.
 author: edupont04
 ms.date: 07/20/2021
 ms.topic: overview
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dd34addc2ffa5e437691cb1e3e8b33246053ccc7
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 924af44a6f0b1430859f0f6354ef55ff67a1b677
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070497"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898365"
 ---
 # <a name="help-system"></a>Spikrisüsteem
 
@@ -53,7 +53,7 @@ Sisu leiate saidilt docs.microsoft.com mis tahes otsingumootori abil. Soovitame 
 
 ## <a name="get-notified-about-changes-through-an-rss-feed"></a>Muudatuste kohta teatiste saamine RSS-kanali kaudu
 
-Kõigi finance and Operationsi rakendustes docs.microsoft.com sisule tehtud RSS-voo tellimiseks kasutage järgmist linki.
+RAKENDUSE Finance and Operations rakendustes sisule docs.microsoft.com UUENDUSte tellimiseks kasutage järgmist linki:
 
 [RSS-kanal](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-finops%27)&locale=en-us)
 
@@ -70,7 +70,7 @@ Teise võimalusena saate tellida RSS-voo rakenduse järgi:
 
 ### <a name="leave-us-feedback"></a>Tagasiside andmine
 
-Kui teil on küsimusi konkreetse teema kohta, lisage kommentaar lehe alaosas.
+Kui teil on tagasisidet või küsimusi artikli kohta, jätke lehe allservas kommentaar.
 
 1. Valige **Tagasiside** kommentaaride nägemiseks lehe alumises osas. Seejärel valige **Toote tagasiside** või **Sisselogimine dokumentatsiooni tagasiside andmiseks**.
 
@@ -83,7 +83,7 @@ Kui teil on küsimusi konkreetse teema kohta, lisage kommentaar lehe alaosas.
 
 ## <a name="contribute-to-the-documentation"></a>Dokumenti panustamine
 
-Saate anda oma panuse dokumentidesse ja neid redigeerida. Alustamiseks valige teemas nupp (pliiatsi sümbol) **Redigeeri**. Järgmises videod näidatakse, kuidas saate meie dokumentidesse panustada.
+Saate anda oma panuse dokumentidesse ja neid redigeerida. Alustamiseks valige artikli kohta **nupp** Redigeeri (sümbol). Järgmises videod näidatakse, kuidas saate meie dokumentidesse panustada.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE36liB]
 
@@ -98,7 +98,7 @@ Lugege lisateavet teemast [Dokumentide kaasautori juhend](/contribute), mille av
 
 Tegevuse juhis on juhendatud, interaktiivne kogemus, mis juhib teid läbi tegevuse või äriprotsessi toimingute. Tegevuse juhise saab avada (esitada) paanilt **Spikker**. Tegevuse juhise esmakordsel valimisel kuvatakse paanil **Spikker** tegevuse etapiviisilised juhised. Lokaliseeritud tegevuse juhised on saadaval.
 
-Microsoft väljastas 2017. aasta Dynamics 365 for Finance and Operationsi väljalaskega tegevuse juhiste teegid toote versioonidele. Selle teema jaotis [Spikripaanilt tegevuse juhistele juurde pääsemine](#accessing-task-guides-from-the-help-pane) kirjeldab, kuidas leida oma toote jaoks sobivaid tegevuse juhiseid.
+Microsoft väljastas 2017. aasta Dynamics 365 for Finance and Operationsi väljalaskega tegevuse juhiste teegid toote versioonidele. Selle [artikli spikripaani jaotisest juurde pääsemise](#accessing-task-guides-from-the-help-pane) ülesande juhendid selgitavad, kuidas leida toote jaoks õigeid toimingujuhiseid.
 
 ![Tegevuse juhise lugemisvaade.](./media/task-guide-ops.png)
 
@@ -121,7 +121,7 @@ Spikrisisule juurde pääsemiseks valige nupp **Spikker** (**?**) ja seejärel v
 
 ### <a name="accessing-help-topics-from-the-help-pane"></a>Spikri paanilt spikriteemadele juurdepääsemine
 
-Paanilt **Spikker** pääsete juurde kliendile mõeldud teemadele. Kui avate esimest korda paani **Spikker** vahekaardi **Spikker**, kuvatakse teemad, mis kohalduvad lehele, millel parajasti olete. Kui ühtegi teemat ei leita, saate sisestada märksõnu otsingu kitsendamiseks. Kui valite paanil **Spikker** teema, avatakse see teie brauseri uuel vahekaardil.
+Paanilt **Spikker** pääsete juurde kliendile mõeldud teemadele. Kui avate esimest korda paani **Spikker** vahekaardi **Spikker**, kuvatakse teemad, mis kohalduvad lehele, millel parajasti olete. Kui ühtegi teemat ei leita, saate sisestada märksõnu otsingu kitsendamiseks. Kui valite spikripaanil **artikli**, avaneb see brauseris uuel vahekaardil.
 
 > [!IMPORTANT]
 > See jaotis ei kehti Dynamics 365 Human Resourcesi puhul. Rakenduse Human Resources spikrisüsteem on ühendatud automaatselt toote tegevuse juhistega. Rakenduse Human Resources jaoks ei saa te kohandatud tegevuse juhiseid luua.

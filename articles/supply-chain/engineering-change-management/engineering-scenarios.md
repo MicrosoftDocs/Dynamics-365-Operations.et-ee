@@ -1,6 +1,6 @@
 ---
 title: Tehnilise muudatuse haldamise funktsiooni juhis
-description: See teema on põhjalik juhis, milles näidatakse, kuidas töötada tehnilise muudatuse haldamisega.
+description: See artikkel annab lõpuni läbisaadmise, mis näitab, kuidas töötada tehnika muudatusehaldusega.
 author: t-benebo
 ms.date: 09/28/2020
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 4c1c67559a8f2e9d0abb512f4231aea495d1957c
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: ec5535013af9ccb253744e061de738155ac9ad22
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573989"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889631"
 ---
 # <a name="engineering-change-management-feature-walkthrough"></a>Tehnilise muudatuse haldamise funktsiooni juhis
 
 [!include [banner](../includes/banner.md)]
 
-See teema on põhjalik juhis, milles näidatakse, kuidas töötada tehnilise muudatuse haldamisega. See läbib iga kõige olulisema stsenaariumi.
+See artikkel annab lõpuni läbisaadmise, mis näitab, kuidas töötada tehnika muudatusehaldusega. See läbib iga kõige olulisema stsenaariumi.
 
 - Põhiline funktsiooni konfigureerimine
 - Kuidas tehnikaettevõte uut tehnilist toodet loob
@@ -35,13 +35,13 @@ See teema on põhjalik juhis, milles näidatakse, kuidas töötada tehnilise muu
 - Kuidas planeerida ja rakendada nõutud muudatusi, luues tehnilise muudatuse tellimuse
 - Kuidas väljastada muudetud toodet
 
-Kõik selle teema harjutused kasutavad standardseid näidisandmeid, mis on mõeldud Microsoft Dynamics 365 Supply Chain Managementi jaoks. Lisaks põhineb iga järgmine harjutus eelmisel harjutusel. Seetõttu soovitame, et te töötate harjutused läbi järjekorras algusest lõpuni, eriti juhul, kui te pole kunagi varem tehnilise muudatuse haldamise funktsiooni kasutanud. Sel viisil saate funktsioonist täieliku ülevaate.
+Kõik selle artikli teostamised kasutavad Microsofti jaoks antud standardseid näidisandmeid Dynamics 365 Supply Chain Management. Lisaks põhineb iga järgmine harjutus eelmisel harjutusel. Seetõttu soovitame, et te töötate harjutused läbi järjekorras algusest lõpuni, eriti juhul, kui te pole kunagi varem tehnilise muudatuse haldamise funktsiooni kasutanud. Sel viisil saate funktsioonist täieliku ülevaate.
 
 ## <a name="set-up-for-the-sample-scenario"></a>Näidisstsenaariumi seadistamine
 
-Selleks, et järgida selles teemas esitatud näidisstsenaariumi, peate esmalt funktsiooni ette valmistama, tehes demoandmed kättesaadavaks ja lisades mõned kohandatud kirjed.
+Selles artiklis esitatud näidisstsenaariumi järgimiseks peate esmalt funktsiooni ette valmistama, muutes demoandmed kättesaadavaks ja lisades mõned kohandatud kirjed.
 
-Enne kui püüate läbi teha teisi selle teema harjutusi, järgige juhiseid kõigis järgmistes alajaotistes. Need alajaotised toovad esile ka mitu olulist sätete lehte, mida hakkate kasutama, kui seadistate oma organisatsiooni jaoks tehnilise muudatuste haldamist.
+Enne kui proovite teha kõiki selle artikli olevaid koormusi, järgige kõikide järgmiste alamjaotiste juhiseid. Need alajaotised toovad esile ka mitu olulist sätete lehte, mida hakkate kasutama, kui seadistate oma organisatsiooni jaoks tehnilise muudatuste haldamist.
 
 ### <a name="make-standard-demo-data-available"></a>Standardsete demoandmete kättesaadavaks tegemine
 

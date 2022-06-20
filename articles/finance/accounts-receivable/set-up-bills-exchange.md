@@ -1,6 +1,6 @@
 ---
-title: Käskvekslite seadistamine
-description: Selles teemas kirjeldatakse käskvekslite seadistamise etappe.
+title: Käskvekslite häälestus
+description: Selles artiklis kirjeldatakse käskveksli seadistamise samme.
 author: ShivamPandey-msft
 ms.date: 09/17/2018
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6a9d04500ffe5b93c7a95c5cac9b4270e208dde9
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 91821b10afe7cdbabd0a58b61219ce29d686c5c9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726805"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874721"
 ---
-# <a name="set-up-bills-of-exchange"></a>Käskvekslite seadistamine
+# <a name="set-up-bills-of-exchange"></a>Käskvekslite häälestus
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas kirjeldatakse käskvekslite seadistamise etappe.
+Selles artiklis kirjeldatakse käskveksli seadistamise samme.
 
 Pangatäht on kas kirjalik või elektrooniline kliendilt tellimus, mis määrab, et kolmas osapool (tavaliselt pank) peab ettevõttele maksma teatud kindla summa. Kui kasutate pangatähte müügitellimusarve või vaba tekstiga arve maksena, krediteerite kliendi konto. See krediit on kaitstud pangatähe üksusega seni, kuni klient on pangatähe tasunud. Tavaliselt tasakaalustatakse arve tähtajaks pangatähega. Kui saate pangalt teate, et arve on tasutud, saate selle pangatähe sulgeda. Panga kaudu saate pangatähe koostada järgmistel aegadel:
 

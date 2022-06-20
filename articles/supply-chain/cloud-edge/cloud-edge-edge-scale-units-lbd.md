@@ -1,6 +1,6 @@
 ---
 title: Perimeeterskaalaüksuste juurutamine kohandatud riistvara jaoks LBD abil
-description: See teema selgitab, kuidas kasutada ettevõtte andmetel (LBD) põhinevat kohandatud riistvara ja juurutamist, kasutades valdustelimuse skaala üksuseid.
+description: See artikkel selgitab, kuidas kasutada valduste servskaala ühikuid, kasutades kohandatud riistvara ja juurutamist, mis põhineb kohalikul äriandmetel (LBD).
 author: Mirzaab
 ms.date: 01/24/2022
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 540ac1f6d69d869256f49b8501e18966575903fa
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 794de8c0d77949789e4046418ac2b55dba1bee02
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674082"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882746"
 ---
 # <a name="deploy-edge-scale-units-on-custom-hardware-using-lbd"></a>Perimeeterskaalaüksuste juurutamine kohandatud riistvara jaoks LBD abil
 
@@ -27,7 +27,7 @@ Servaskaala ühikud on hankeahela halduse jaotatud topoloogias olulise rolliga. 
 
 Servaskaala ühikuid saab juurutada, luues kohalikke äriandmeid (LBD) [ettevõttekeskkonnas](../../fin-ops-core/dev-itpro/deployment/on-premises-deployment-landing-page.md) ja konfigureerides need siis nii, et see töötaks supply chain management jaotatud topoloogias kaaluühikuna. Selle saavutamiseks seostatakse ettevõttesisene LBD keskkond Supply Chain Management pilve keskkonnaga, mis on konfigureeritud funktsioneerima keskusena.  
 
-See teema kirjeldab, kuidas seadistada ettevõttesisene LBD-keskkond servaskaala üksusena ja seejärel seostada see keskusega.
+See artikkel kirjeldab, kuidas seadistada ettevõttesisene LBD-keskkond servaskaala üksusena ja seejärel seostada see keskusega.
 
 ## <a name="infrastructure-considerations"></a>Infrastruktuuri kaalutlused
 
@@ -44,21 +44,21 @@ Siin on juurutamise protsessi ülevaade.
 
 1. **Seadistage ja juurutage LBD keskkond *tühja* andmebaasiga.**
 
-    Kasutage LCS-i, et juurutada LBD-keskkond uusima topoloogia ja tühja andmebaasiga. Lisateavet vt [Häälestusest tühja andmebaasiga LBD keskkonna juurutamiseks](#set-up-deploy) selles teemas hiljem. Peate kasutama tarneahela halduse versiooni 10.0.21 või hiljem läbi kogu keskuse ja kaalu ühiku keskkondades.
+    Kasutage LCS-i, et juurutada LBD-keskkond uusima topoloogia ja tühja andmebaasiga. Lisateabe saamiseks vaadake häälestusprogrammi [ja juurutage selles artiklis hiljem](#set-up-deploy) tühja andmebaasi jaotis LBD-keskkond. Peate kasutama tarneahela halduse versiooni 10.0.21 või hiljem läbi kogu keskuse ja kaalu ühiku keskkondades.
 
 1. **Laadige sihtpaketid LBD-projekti varadesse LCS-s.**
 
-    Valmistage ette rakenduse, platvormi ja kohandamise paketid, mida kasutate kogu keskuses ja servaskaala üksuses. Lisateavet vt [Sihtpakettide üleslaadimine LBD-projekti varadesse LCS-i](#upload-packages) selle teema jaotisest.
+    Valmistage ette rakenduse, platvormi ja kohandamise paketid, mida kasutate kogu keskuses ja servaskaala üksuses. Lisateavet vt selle artikli jaotisest Sihtpakettide [üleslaadimine LBD-projekti varadesse LCS-i](#upload-packages).
 
 1. **LBD-keskkonna hooldus sihtpakettide abil.**
 
-    See samm tagab, et keskusele ja sihtkohale juurutatakse samad järgud ja kohandused. Lisateavet vt jaotisest [Teenuse LBD-keskkond koos sihtpakettide](#service-target-packages) sektsiooniga selles teemas.
+    See samm tagab, et keskusele ja sihtkohale juurutatakse samad järgud ja kohandused. Lisateavet vt jaotisest [Teenuse LBD keskkond koos sihtpakettidega (selles artiklis](#service-target-packages)).
 
 1. **Viige lõpule kaaluühiku konfigureerimine ja töökoormuse määramine.**
 
-    Lisateavet vt teemast [Oma LBD servaskaala üksuse määramine keskusesse](#assign-edge-to-hub) jaotisesse hiljem siin teemas.
+    Lisateavet vt jaotisest [Oma LBD-servaskaala üksuse määramine selles artiklis keskuse](#assign-edge-to-hub) jaotisele.
 
-Selle teema ülejäänud osades on lisateave iga protsessi etapi kohta, kuidas neid samme lõpetada.
+Selle artikli ülejäänud jaotised annavad üksikasjalikumat teavet nende sammude lõpuleviimise kohta.
 
 ## <a name="set-up-and-deploy-an-lbd-environment-with-an-empty-database"></a><a name="set-up-deploy"></a>Seadistage ja juurutage LBD keskkond tühja andmebaasiga
 
@@ -67,7 +67,7 @@ See samm loob funktsionaalse LBD keskkonna. Keskkonnal ei pea siiski olema samu 
 1. Järgige juhiseid [apealsete keskkondade häälestamine ja juurutamine (platvormivärskendus 41 ja uuemad)](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md). Peate kasutama tarneahela halduse versiooni 10.0.21 või hiljem läbi kogu keskuse ja kaalu ühiku keskkondades. Lisaks peate kasutama infrastruktuuriskriptide versiooni 2.12.0 või uuemat versiooni. 
 
     > [!IMPORTANT]
-    > **Enne** selle teema lõpule viimist lugege ülejäänud osa.
+    > Lugege ülejäänud osa enne selle **artikli** sammude lõpule viimist.
 
 1. Enne konfiguratsiooni kirjeldamist infrastruktuuri\\ConfigTemplate.xml failis käivitage järgmine skript:
 
@@ -95,9 +95,9 @@ See samm loob funktsionaalse LBD keskkonna. Keskkonnal ei pea siiski olema samu 
 
         | Kasutaja            | Tüüp | Andmebaasi roll |
         |-----------------|------|---------------|
-        | svc-LocalAgent$ | gMSA | dbowner\_     |
+        | svc-LocalAgent$ | gMSA | db\_ omanik     |
 
-1. Jätkake juhiste järgimist seadistuses [ja juurutage ettevõtteruumides asuvates keskkondades (Platvormi värskendus 41 ja uuem)](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md).
+1. Jätkake seadistuse ja tööruumide [juhiste järgimist (Platvormi uuendus 41 ja uuem)](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md)
 1. Pärast AD [FS-i konfigureerimise etapi](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md#configuredb) lõpetamist järgige järgmisi samme:
 
     1. Looge uus Active Directory FS-i (AD FS) rakendus, mis võimaldab Windows Orchestrationi teenusel suhelda rakendusobjekti serveriga (AOS).
@@ -116,7 +116,7 @@ See samm loob funktsionaalse LBD keskkonna. Keskkonnal ei pea siiski olema samu 
                                        -ApplicationDisplayName '<Whichever name you want the Azure AD app to have>'
         ```
 
-1. Jätkake juhiste järgimist seadistuses [ja juurutage ettevõtteruumides asuvates keskkondades (Platvormi värskendus 41 ja uuem)](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md). Kui peate sisestama kohaliku esindaja konfiguratsiooni, veenduge, et lubate Servaskaala ühiku funktsioonid ja esitate kõik nõutavad parameetrid.
+1. Jätkake seadistuse ja tööruumide [juhiste järgimist (Platvormi uuendus 41 ja uuem)](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md) Kui peate sisestama kohaliku esindaja konfiguratsiooni, veenduge, et lubate Servaskaala ühiku funktsioonid ja esitate kõik nõutavad parameetrid.
 
     ![Servaskaala ühiku funktsioonide lubamine.](media/EnableEdgeScaleUnitFeatures.png "Servaskaala ühiku funktsioonide lubamine.")
 

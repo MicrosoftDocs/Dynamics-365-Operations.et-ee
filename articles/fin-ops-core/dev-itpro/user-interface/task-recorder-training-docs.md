@@ -1,6 +1,6 @@
 ---
 title: Dokumentide või koolituse loomine tegevuse salvestaja abil
-description: See teema selgitab, mis asjad on tegevuse salvestaja ja tegevuse juhised, kuidas luua salvestisi ja kuidas kohandada Microsoft tegevuse juhiseid ja kaasata neid oma spikrisse.
+description: See artikkel selgitab, millised on Task Recorder ja ülesande juhendid, kuidas luua salvestusi ja kuidas kohandada Microsofti tööülesande juhendeid ja kaasata need spikrisse.
 author: josaw1
 ms.date: 03/24/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 448c2b302136e595852c423d53e49adfcc40d12d
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: b556003edf2fe186f6b095e538f142fcf5a0bba5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070522"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891810"
 ---
 # <a name="create-documentation-or-training-with-task-recorder"></a>Dokumentide või koolituse loomine tegevuse salvestaja abil
 
@@ -29,7 +29,7 @@ ms.locfileid: "8070522"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-See teema selgitab, mis asjad on tegevuse salvestaja ja tegevuse juhised, kuidas luua tegevuse salvestisi ja kuidas kohandada Microsoft tegevuse juhiseid ja kaasata neid oma spikrisse.
+See artikkel selgitab, millised on Task Recorder ja ülesande juhendid, kuidas luua ülesannete salvestusi ja kuidas kohandada Microsofti tööülesande juhendeid ja kaasata need spikrisse.
 
 > [!IMPORTANT]
 > Saate salvestada oma rakenduse Dynamics 365 Human Resources tegevusjuhised, kuid ei saa neid praegu äriprotsesside modelleerija (BPM) teeki salvestada ega neid paanilt Spikker avada. Saate need lokaalselt või võrgukohta salvestada ning seejärel neid tegevuse salvestajaga avada ja esitada. 

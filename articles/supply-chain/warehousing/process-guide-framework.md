@@ -1,6 +1,6 @@
 ---
 title: Protsessijuhendi raamistik
-description: See teema pakub teavet protsessijuhendi raamistiku kohta arendajatele, kes laiendavad meie lao mobiilseid protsesse rakenduses X++.
+description: See artikkel annab teavet protsessijuhendi raamistiku kohta arendajatele, kes laiendavad meie lao mobiilseid protsesse X++is.
 author: Mirzaab
 ms.date: 11/01/2018
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2018-4-30
 ms.dyn365.ops.version: 8
-ms.openlocfilehash: 6882c979ad9b37eb4f95a04259b6ac0f0a0edcdc
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: e88f32e0347a808d03615cf85e50b1592d691670
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902042"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860431"
 ---
 # <a name="process-guide-framework"></a>Protsessijuhendi raamistik
 
 [!include [banner](../includes/banner.md)]
 
-See teema pakub teavet protsessijuhendi raamistiku kohta arendajatele, kes laiendavad lao mobiilseid protsesse rakenduses X++. Lao mobiilsed protsessid on laiendatavad, kuna protsessid on jaotatud väikesteks sammudeks. Iga sammu äriloogika ja kasutajaliidese ehitus on eraldatud üksikuteks klassideks, mis võimaldab laiendada.
+See artikkel annab teavet protsessijuhendi raamistiku kohta arendajatele, kes laiendavad lao mobiilseid protsesse X++-s. Lao mobiilsed protsessid on laiendatavad, kuna protsessid on jaotatud väikesteks sammudeks. Iga sammu äriloogika ja kasutajaliidese ehitus on eraldatud üksikuteks klassideks, mis võimaldab laiendada.
 
 ## <a name="overview-of-the-existing-design"></a>Ülevaade olemasolevast kujunduses
 
@@ -321,7 +321,7 @@ public class ProdProcessGuideConfirmProductionOrderPageBuilder extends ProcessGu
 ```
 
 > [!NOTE]
-> Selle teema X++ meetodite jaoks leiate sama lähtekoodi, kasutades rakendust Application Explorer. Filtreerige klassi nimi, paremklõpsake klassi nimel ja valige **Kuva kood**.
+> Selles artiklis on X++ meetodite jaoks sama lähtekood rakenduse sirvija abil. Filtreerige klassi nimi, paremklõpsake klassi nimel ja valige **Kuva kood**.
 
 ### <a name="step-3-start-the-production-order"></a>3. samm: tootmistellimuse alustamine
 
@@ -421,7 +421,7 @@ Seda tehes palub see sammul luua edasiantud nimele toiminguklass ja seob selle t
 
 ### <a name="summary"></a>Kokkuvõte
 
-Kõik selles teemas selgitatu kokkuvõtmiseks on siin protsessi jaoks vajaliku koodi põhjalik kokkuvõte:
+Et summeerida kõik selles artiklis kirjeldatud, on siin protsessi jaoks vajaliku koodi täielik kokkuvõte:
 
 1.  **ProdProcessGuideProductionStartController**
 
@@ -570,7 +570,7 @@ Kõik selles teemas selgitatu kokkuvõtmiseks on siin protsessi jaoks vajaliku k
         ```
 
         > [!NOTE]
-        > Meetod **generateItemInfoForProdId()**, mida kasutatakse kaubateabe siltide genereerimiseks, on sellest teemast välja jäetud. See meetod teeb päringu mõnest tabelist, et saada üksuse ID, kirjeldus ja mõõtmed. Kui soovite funktsiooni **generateItemInfoForProdId()** paremini mõista, vaadake lähtekoodi.
+        > Meetod **generateItemInfoForProdId(),** mida kasutatakse kauba teabesiltide loomiseks, jäetakse sellest artiklist välja. See meetod teeb päringu mõnest tabelist, et saada üksuse ID, kirjeldus ja mõõtmed. Kui soovite funktsiooni **generateItemInfoForProdId()** paremini mõista, vaadake lähtekoodi.
 
 4.  **ProdProcessGuideStartProductionOrderStep**
 
@@ -605,7 +605,7 @@ Kõik selles teemas selgitatu kokkuvõtmiseks on siin protsessi jaoks vajaliku k
 
 ### <a name="extending-a-business-process"></a>Äriprotsessi laiendamine
 
-Siiani on see teema esile tõstnud, kuidas luua **ProcessGuide** raamistikku kasutades uut protsessi. Sellest viimasest jaotisest leiate mõned näited selle äriprotsessi laiendamise kohta.
+Seni on see artikkel välja tõstetud, kuidas processGuide'i raamistikku kasutades **uut protsessi** luua. Sellest viimasest jaotisest leiate mõned näited selle äriprotsessi laiendamise kohta.
 
 ### <a name="add-a-step-in-a-flow-using-processguidenavigationagentdefault"></a>Voo sammu lisamine (kasutades ProcessGuideNavigationAgentDefault klassi)
 

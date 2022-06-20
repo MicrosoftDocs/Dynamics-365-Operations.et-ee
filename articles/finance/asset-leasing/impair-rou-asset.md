@@ -1,6 +1,6 @@
 ---
 title: Kasutamisõiguse esemeks olevate varade väärtuse langus
-description: See teema kirjeldab funktsiooni, mis kirjendab väärtuse languse ja muudab raamatupidamise standardite kodeerimise teema 842 (ASC 842) kasutusrendi varade kulumi ajakava.
+description: See artikkel kirjeldab funktsioone, mis salvestavad kahjustuse, ja kohandab raamatupidamisstandardite kodeerimise teema 842 (ASC 842) kasutusrendi vara kulumigraafikut.
 author: moaamer
 ms.date: 12/03/2021
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 497739e56c6ce0f4fe0bd4aec889f0782d08fc4a
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: f953b3a351859c6becba10a129bbb17b49be6290
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720163"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894109"
 ---
 # <a name="impair-right-of-use-assets"></a>Kasutamisõiguse esemeks olevate varade väärtuse langus
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Kui kasutamisõiguse esemeks oleva vara bilansiline summa ei ole taastatav, peate võib-olla kontrollima, kas vara väärtus on langenud. Kui teete kindlaks, et vara väärtus on langenud, saab vara rentimine kirjendada väärtuse langust ja korrigeerida vastavalt kulumi graafikut. See teema kirjeldab funktsiooni, mis kirjendab väärtuse languse ja muudab raamatupidamise standardite kodeerimise teema 842 (ASC 842) kasutusrendi kulumi ajakava. Sama meetod kehtib ka rahvusvahelises finantsaruandluse standardis 16 (IFRS 16) rendile.
+Kui kasutamisõiguse esemeks oleva vara bilansiline summa ei ole taastatav, peate võib-olla kontrollima, kas vara väärtus on langenud. Kui teete kindlaks, et vara väärtus on langenud, saab vara rentimine kirjendada väärtuse langust ja korrigeerida vastavalt kulumi graafikut. See artikkel kirjeldab funktsioone, mis salvestavad kahjustuse, ja kohandab raamatupidamisstandardite kodeerimise teema 842 (ASC 842) kasutusrendi kulumigraafikut. Sama meetod kehtib ka rahvusvahelises finantsaruandluse standardis 16 (IFRS 16) rendile.
 
 Kasutamisõiguse esemeks oleva vara järelejäänud saldo amortiseeritakse vastavalt allesjäänud perioodide arvule lineaarselt, sõltumata sellest, kas rent liigitati kapitalirendiks IFRS 16 alusel või kasutusrendiks ASC 842 alusel.
 
@@ -83,7 +83,7 @@ Järgmistes tabelites on toodud väärtused, mis on määratud vahekaartidel **�
 
 ### <a name="steps"></a>Etapid
 
-1. Pärast rendi selle teemas varasemalt kirjeldatud viisil loomist avage rendiraamat ja kinnitage maksegraafil. Seejärel sisestage esialgne tuvastuse töölehe kirje. Esialgne kasutamisõiguse esemeks olev vara ja rendikohustis peaks olema 70 235,81 eurot. Selle näite puhul liigitati rent kasutusrendiks ASC 842 alusel.
+1. Pärast selles artiklis kirjeldatud viisil liisingu loomist minge rendiraamatusse ja kinnitage maksegraafik. Seejärel sisestage esialgne tuvastuse töölehe kirje. Esialgne kasutamisõiguse esemeks olev vara ja rendikohustis peaks olema 70 235,81 eurot. Selle näite puhul liigitati rent kasutusrendiks ASC 842 alusel.
 2. Käitage pakett-töölehe protsessi kolm korda, et simuleerida rendimaksete, intressikulu ja amortisatsioonikulu jaoks kolme aasta möödumine.
 3. Pärast kõigi kolme pakett-töö käitamise lõpetamist minge tagasi rendiraamatusse ning avage kohustuse ja vara kannete tabelid, et vaadata kasutamisõiguse esemeks oleva vara ja rendikohustise praegust bilansiväärtust. Kolme aasta pärast peaks kohustise väärtus olema umbes –53 893,00 eurot ja vara väärtus peaks olema ligikaudu 53 893,00 eurot. 
 

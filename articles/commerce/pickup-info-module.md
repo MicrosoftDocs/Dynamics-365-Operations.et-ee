@@ -1,6 +1,6 @@
 ---
 title: Järeletulemisteabe moodul
-description: See teema hõlmab järeletulemisteabe moodulit ja kirjeldab, kuidas seda rakenduses Microsoft Dynamics 365 Commerce maksmise lehtedele lisada.
+description: See artikkel käsitleb pealekleegimisteabe moodulit ja kirjeldab, kuidas lisada see väljaregistreerimislehtedele moodulis Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 11/06/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-09021
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 52015fb973642bfc6f45901e7c1a265f0ccfc415b1324bc62ef77a5fc72550bb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ad877a0c018093fe97f0aa8ac213357c0520a1c9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764557"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892593"
 ---
-# <a name="pickup-information-module"></a>Järeletulemise teabe moodul
+# <a name="pickup-information-module"></a>Järeletulemisteabe moodul
 
 [!include [banner](includes/banner.md)]
 
-See teema hõlmab järeletulemisteabe moodulit ja kirjeldab, kuidas seda rakenduses Microsoft Dynamics 365 Commerce maksmise lehtedele lisada.
+See artikkel käsitleb pealekleegimisteabe moodulit ja kirjeldab, kuidas lisada see väljaregistreerimislehtedele moodulis Microsoft Dynamics 365 Commerce.
 
 Järeletulemisteabe moodulit saab kasutada maksmise moodulis tellimusele järele tulemise teabe näitamiseks. Kliendid saavad vaadata saadaolevaid järeletulemiskuupäevi ja -aegu ning seejärel valida tellimusele järeletulemiseks sobiva aja. Näiteks saab klient valida, et tuleb San Francisco poodi tellimusele järele 21. märtsil kell 15.00.
 

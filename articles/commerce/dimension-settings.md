@@ -1,6 +1,6 @@
 ---
 title: Tootedimensioonidele kuvasätete rakendamine
-description: See teema hõlmab tootedimensioonide kuvasätteid ja kirjeldab, kuidas neid rakendada rakenduses Microsoft Dynamics 365 Commerce.
+description: See artikkel kirjeldab tootedimensioonide kuvamissätteid ja nende rakendussätteid Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 05/28/2021
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 80a0861c51ea14ddb6bce02d757667adac34e740cd04311e26211d9bdbae4ed8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d7575e205a9732259b00e424f66eeadfe8c659ee
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716218"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899171"
 ---
 # <a name="apply-display-settings-for-product-dimensions"></a>Tootedimensioonidele kuvasätete rakendamine
 
 [!include [banner](includes/banner.md)]
 
 
-See teema hõlmab tootedimensioonide kuvasätteid ja kirjeldab, kuidas neid rakendada rakenduses Microsoft Dynamics 365 Commerce.
+See artikkel kirjeldab tootedimensioonide kuvamissätteid ja nende rakendussätteid Microsoft Dynamics 365 Commerce.
 
 Dynamics 365 Commerce toetab suurust, stiili ja värvimõõtmeid tootevariantide eristamiseks. Mõõtmed kuvatakse tavaliselt tekstiväärtustena, näiteks "Väike", "Keskmine" ja "Suur" suuruste puhul ning "Must" ja "Pruun" värvide puhul. Kui aga toode toetab paljusid variatsioone, võib tootevariantide sirvimine olla keeruline, sest iga variandi pildi vaatamiseks on vaja mitut valikut. Tootevariantide sirvimise lihtsustamiseks saab Commerce'i versioonis 10.0.20 kasutada pilte ja kuueteistkümnendkoode dimensioonide kuvamiseks näidistena.
 

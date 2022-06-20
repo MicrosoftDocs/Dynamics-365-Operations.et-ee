@@ -1,6 +1,6 @@
 ---
 title: Topeltkirjutuse häälestus teenustest Lifecycle Services
-description: Selles teemas selgitatakse, kuidas häälestada topeltkirjutuse ühendust teenusest Microsoft Dynamics Lifecycle Services (LCS).
+description: See artikkel selgitab, kuidas seadistada topeltkirjutust ühenduse elutsükli Microsoft Dynamics teenustest (LCS).
 author: laneswenka
 ms.date: 05/16/2022
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 53e82fbf8cff834c9eb0d14a0597561158b85fa1
-ms.sourcegitcommit: 6744cc2971047e3e568100eae338885104c38294
+ms.openlocfilehash: 5cccba580d23c3a0e9aed62f76a305926a58585f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/20/2022
-ms.locfileid: "8783197"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879800"
 ---
 # <a name="dual-write-setup-from-lifecycle-services"></a>Topeltkirjutuse häälestus teenustest Lifecycle Services
 
@@ -22,7 +22,7 @@ ms.locfileid: "8783197"
 
 
 
-Selles teemas selgitatakse, kuidas häälestada topeltkirjutuse ühendust teenusest Microsoft Dynamics Lifecycle Services (LCS).
+See artikkel selgitab, kuidas lubada topeltkirjutust elutsükli Microsoft Dynamics teenustest (LCS).
 
 ## <a name="prerequisites"></a>Eeltingimused
 

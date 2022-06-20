@@ -1,6 +1,6 @@
 ---
 title: Rendilepingu lõpetamise ettepanek
-description: See teema selgitab, kuidas teha rendilepingu lõppemise ettepanekut.
+description: See artikkel selgitab, kuidas soovitada lepingu lõpetamiseks rendi.
 author: moaamer
 ms.date: 07/16/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2021-1-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 2f6990177251418bece8c99a0f9befa333d6549f
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: a5939f165943ff76ba453fb49d8c0c376c8ce4b1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720498"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879649"
 ---
 # <a name="propose-a-lease-for-termination"></a>Rendilepingu lõpetamise ettepanek
 
 [!include [banner](../includes/banner.md)]
 
-Kui rendileping lõpetati vara, saab Vara rentimine kirjendada lõpetamise töölehe kirje, et kanda rendikohustus, kasutusõiguse (ROU) esemeks olev vara ja akumuleeritud kulum maha ja kirjendada kasum või kahjum. Varajane lõpetamisprotsess lõpetab rendilepingu ja sellega seotud rendiraamatud. See ei lõpeta individuaalseid rendiraamatuid. Selles teemas kirjeldatakse funktsioone, mis võimaldab teil teha rendilepingu lõpetamise ettepanek ja töödelda rendilepingu lõpetamise töölehes sisestust.
+Kui rendileping lõpetati vara, saab Vara rentimine kirjendada lõpetamise töölehe kirje, et kanda rendikohustus, kasutusõiguse (ROU) esemeks olev vara ja akumuleeritud kulum maha ja kirjendada kasum või kahjum. Varajane lõpetamisprotsess lõpetab rendilepingu ja sellega seotud rendiraamatud. See ei lõpeta individuaalseid rendiraamatuid. See artikkel kirjeldab funktsioone, mis võimaldab teil soovitada lepingu lõpetamiseks liisimist ja töödelda rendi lõpetamise töölehe kirjet.
 
 Kui rent ei ole klassifitseeritud edasilükatud rendina ja see ei ole seotud põhivaraga, loob Vara rentimine järgmise lõpetamise töölehe kande.
 
@@ -121,7 +121,7 @@ Järgmistes tabelites on toodud väärtused, mis on määratud vahekaartidel **�
 
 ### <a name="steps-for-terminating-the-lease"></a>Rendilepingu lõpetamise etapid
 
-1. Pärast rendi selle teemas varasemalt kirjeldatud viisil loomist avage rendiraamat ja kinnitage maksegraafil. Seejärel sisestage esialgne tuvastuse töölehe kirje. Esialgne kasutamisõiguse esemeks olev vara on 71 235.81 USD ja rendikohustis peaks olema 70 235.81 USD. Selle näite puhul liigitati rent kasutusrendiks Raamatupidamisstandardite kodeerimise teema 842 (ASC 842) alusel.
+1. Pärast selles artiklis kirjeldatud viisil liisingu loomist minge rendiraamatusse ja kinnitage maksegraafik. Seejärel sisestage esialgne tuvastuse töölehe kirje. Esialgne kasutamisõiguse esemeks olev vara on 71 235.81 USD ja rendikohustis peaks olema 70 235.81 USD. Selle näite puhul liigitati rent kasutusrendiks Raamatupidamisstandardite kodeerimise teema 842 (ASC 842) alusel.
 2. Käitage pakett-töölehe protsessi kolm korda, et simuleerida rendimaksete, intressikulu ja amortisatsioonikulu jaoks kolme aasta möödumine.
 3. Pärast kõigi kolme pakett-töö käitamise lõpetamist minge tagasi rendiraamatusse ning avage kohustuse ja vara kannete tabelid, et vaadata kasutamisõiguse esemeks oleva vara ja rendikohustise praegust bilansiväärtust. Kolme aasta pärast peaks kohustise väärtus olema umbes –53 893.00 USD ja vara väärtus peaks olema ligikaudu 54 593.00 USD.
 

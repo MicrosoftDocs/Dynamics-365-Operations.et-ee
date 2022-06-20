@@ -1,6 +1,6 @@
 ---
-title: Luba tarnerežiimi järjepidev käsitlemine e-äri kanalites
-description: See teema kirjeldab, kuidas lubada järjepidevat tarneviisi käsitlemist Microsoft Dynamics 365 Commerce, et käsitleda võimalikke e-äri kanalite tasude voogudega seotud probleeme.
+title: Ühtse tarnerežiimi käsitlemise lubamine e-kaubanduse kanalites
+description: See artikkel kirjeldab, kuidas lubada järjepidevat tarneviisi käsitlemist Microsoft Dynamics 365 Commerce, et käsitleda võimalikke e-äri kanalite tasude voogudega seotud probleeme.
 author: gvrmohanreddy
 ms.date: 02/24/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgri
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2022-02-10
-ms.openlocfilehash: 4cecd70dacd72572afc8e6cb65530bf2be4cc93d
-ms.sourcegitcommit: d2e5d38ed1550287b12c90331fc4136ed546b14c
+ms.openlocfilehash: f32f1915f8f7de1d5536b69b05bc74c6149dfda6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "8349922"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885581"
 ---
-# <a name="enable-consistent-delivery-mode-handling-in-e-commerce-channels"></a>Luba tarnerežiimi järjepidev käsitlemine e-äri kanalites 
+# <a name="enable-consistent-delivery-mode-handling-in-e-commerce-channels"></a>Ühtse tarnerežiimi käsitlemise lubamine e-kaubanduse kanalites 
 
 [!include [banner](includes/banner.md)]
 
-See teema kirjeldab, kuidas lubada järjepidevat tarneviisi käsitlemist Microsoft Dynamics 365 Commerce, et käsitleda võimalikke e-äri kanalite tasude voogudega seotud probleeme.
+See artikkel kirjeldab, kuidas lubada järjepidevat tarneviisi käsitlemist Microsoft Dynamics 365 Commerce, et käsitleda võimalikke e-äri kanalite tasude voogudega seotud probleeme.
 
 Salvestamata Dynamics 365 Commerce päisetaseme tasusid ei rakendata e-äri kanalites vaikimisi. Selline käitumine võib põhjustada e-äri kanalites ühe või mõlemad järgmised probleemid:
 

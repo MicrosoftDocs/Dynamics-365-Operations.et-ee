@@ -1,6 +1,6 @@
 ---
-title: Varude sissetuleku toiming kassas
-description: Selles teemas kirjeldatakse kassa varude sissetuleku toimingu võimalusi.
+title: Sissetulev laooperatsioon kassas
+description: See artikkel kirjeldab kassa sissetuleva laotoimingu võimalusi.
 author: hhaines
 ms.date: 09/17/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 8848c10e9f8f931ee66414075d28b8910a02e5a000525a63bc38ab6851f11276
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fbabcaafee74b4d0a1ca8ef79de94376a7764aa3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741778"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858878"
 ---
 # <a name="inbound-inventory-operation-in-pos"></a>Sissetulev laooperatsioon kassas
 
@@ -215,7 +215,7 @@ Pärast dokumendi mustandi Commerce Headquartersile edukat esitamist kuvatakse s
 
 Kui dokument on olekus **Taotletud**, on see nähtav vahekaardil **Aktiivne**. Samas seda sissetuleku pood ega ladu ei saa seda veel vastu võtta. Kui väljamineku ladu on osa või kogu üleviimistellimuse teele pannud, saab sissetuleku pood või ladu sisestada sissetulekud kassas. Kui väljamineku pool töötleb üleviimistellimuse dokumente, uuendatakse nende olekut suvandilt **Taotletud** olekule **Välja saadetud** või **Osaliselt saadetud**. Pärast seda, kui dokumendid on olekus **Välja saadetud** või **Osaliselt saadetud**, saab sissetuleku pood või ladu sisestada nendepoolsed sissetulekud, kasutades sissetuleku toimingu vastuvõtmisprotsessi.
 
-## <a name="related-topics"></a>Seotud dokumendid
+## <a name="related-articles"></a>Seotud artiklid
 
 [Varude väljamineku toiming kassas](pos-outbound-inventory-operation.md)
 

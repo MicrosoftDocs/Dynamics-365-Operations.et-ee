@@ -1,6 +1,6 @@
 ---
 title: Kõnekeskuse pettuseteatiste seadistamine ja kasutamine
-description: Selles teemas kirjeldatakse, kuidas seadistada reegleid, et tellimuste töötlemise käigus teavitada klienditeeninduse esindajaid potentsiaalsetest valeandmetest. Saate määratleda spetsiaalsed koodid, mida kasutatakse kahtlaste tellimust automaatselt või manuaalselt ootele panekuks.
+description: See artikkel selgitab, kuidas seadistada reegleid klientide teenuseesindajatele potentsiaalselt petturliku teabest, kui tellimusi töödeldakse. Saate määratleda spetsiaalsed koodid, mida kasutatakse kahtlaste tellimust automaatselt või manuaalselt ootele panekuks.
 author: josaw1
 ms.date: 05/14/2018
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: e692d43b8c2648a424ff3b4fdc9d0cf16d0e03702d6a237f71caaf49646c5ec3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 212afd594453d3594fdaef9442a7809e4cafbd07
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763664"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885344"
 ---
 # <a name="set-up-and-work-with-call-center-fraud-alerts"></a>Kõnekeskuse pettuseteatiste seadistamine ja kasutamine
 
 [!include [banner](includes/banner.md)]
 
-Selles teemas selgitatakse, kuidas seadistada kriteeriume ja reegleid, et panna potentsiaalselt petturlikud müügitellimused täiendavaks ülevaatamiseks ootele. Pettuse kontrolli funktsioon võimaldab kontrollida müügitellimuse teabe kehtivust. Kui müügitellimuse teave tundub organisatsiooni petturliku tegevuse kriteeriumite ja reeglite alusel kahtlane, võidakse tellimus täiendavaks ülevaatamiseks ootele panna. Sel juhul ei saa tellimust lattu täiendavaks töötlemiseks edastada enne, kui ootelolek on tühistatud.
+See artikkel selgitab, kuidas seadistada kriteeriume ja reegleid potentsiaalselt petturlike müügitellimuste ootele vaatamiseks. Pettuse kontrolli funktsioon võimaldab kontrollida müügitellimuse teabe kehtivust. Kui müügitellimuse teave tundub organisatsiooni petturliku tegevuse kriteeriumite ja reeglite alusel kahtlane, võidakse tellimus täiendavaks ülevaatamiseks ootele panna. Sel juhul ei saa tellimust lattu täiendavaks töötlemiseks edastada enne, kui ootelolek on tühistatud.
 
 > [!NOTE]
 > Seda funktsiooni saab kasutada ainult Commerce’i kõnekeskuse kanali müügitellimuse töötlemisel.

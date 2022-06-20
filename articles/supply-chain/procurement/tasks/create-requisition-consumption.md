@@ -1,6 +1,6 @@
 ---
 title: Tarbimistaotluse loomine
-description: See teema kirjeldab küsimustiku koostamise protsessi.
+description: See artikkel kirjeldab taotluse loomise protsessi.
 author: GalynaFedorova
 ms.date: 07/09/2019
 ms.topic: business-process
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5881e8a415ad37ff4bdb61b1043901c0b87ef743
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: b4fc4a9f0dbd5c413300d27640512df69df30122
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8671119"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888466"
 ---
 # <a name="create-a-requisition-for-consumption"></a>Tarbimistaotluse loomine
 
 [!include [banner](../../includes/banner.md)]
 
-See teema kirjeldab küsimustiku koostamise protsessi. See näitab erinevaid viise toodete otsimiseks hankekataloogist ja toodete lisamiseks, mis ei ole kataloogis. Enne selle protseduuri alustamist peab teil olema seadistatud ostupoliitika, mille ostutaotluse vaiketüübiks on Tarbimine. Saate selle protseduuriga tutvuda demoettevõtte USMF-i või omaenda andmeid kasutades. Protseduuri saab teha ainult kasutajaprofiiliga, mis on seadistatud töötaja profiilina. Seda ülesannet teeb tavaliselt töötaja. **Töötaja** turberoll võimaldab ülesandeid teha; või juhul, kui kasutate USMF-i, saate sisse logida nime **Alicia** alt.
+See artikkel kirjeldab taotluse loomise protsessi. See näitab erinevaid viise toodete otsimiseks hankekataloogist ja toodete lisamiseks, mis ei ole kataloogis. Enne selle protseduuri alustamist peab teil olema seadistatud ostupoliitika, mille ostutaotluse vaiketüübiks on Tarbimine. Saate selle protseduuriga tutvuda demoettevõtte USMF-i või omaenda andmeid kasutades. Protseduuri saab teha ainult kasutajaprofiiliga, mis on seadistatud töötaja profiilina. Seda ülesannet teeb tavaliselt töötaja. **Töötaja** turberoll võimaldab ülesandeid teha; või juhul, kui kasutate USMF-i, saate sisse logida nime **Alicia** alt.
 
 
 ## <a name="create-a-new-requisition"></a>Uue tellimuse loomine

@@ -1,6 +1,6 @@
 ---
 title: Prantsuse Intrastat
-description: See teema sisaldab teavet Prantsusmaa Intrastat deklareerimise kohta.
+description: See artikkel sisaldab teavet Prantsusmaa Intrastat-deklaratsiooni kohta.
 author: anasyash
 ms.date: 07/9/2021
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: kfend
 ms.search.region: Global
 ms.author: anasyash
 ms.search.validFrom: ''
-ms.openlocfilehash: 4d38576e1c6b40242d5c6313fb06f08e170b4466
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: e86d7c8f28b1b3df0066a588d380965c21dc98a7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7487896"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887849"
 ---
 # <a name="french-intrastat"></a>Prantsuse Intrastat
 
@@ -90,14 +90,14 @@ Tabel näitab ka välja aruandetaset. Väli võib olla **4** (lihtsustatud), **1
 
     Lisateavet leiate jaotisest [Elektroonilise aruandluse konfiguratsioonide allalaadimine teenusest Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
 
-2.  Minge rakenduses Dynamics 365 Finance jaotisesse **Maksud** > **Seadistamine** >  **Väliskaubandus** > **Väliskaubanduse parameetrid** ja järgige järgmisi samme:
+2.  Rakenduses Dynamics 365 Finance minge maksu **seadistamise** > **·** >  **·** > **väliskaubanduse väliskaubanduse parameetritele** ja järgige neid samme.
 
     1. Valige **Intrastati** vahekaardil vahekaardil **Elektrooniline aruandluse kiirkaart** väljal **Failivormingu vastendamine** **Intrastat INTRACOM (FR)** või **Intrastat SAISUNIC (FR)**.
     2. Sisestage või valige väärtus **Intrastati aruanne** väljal **Aruandevormingu vastendamine**.
     3. Valige kiirkaardi **Kaubaartikli hierarhia** väljal **Kategooriahierarhia** väärtus **Intrastat**.
     4. Valige kiirkaardi **Üldine** väljal **Kandekood** kauba ülekannetel kasutatav kood.
     5. Valige väljal **Kreeditarve** kaupade tagastuseks kasutatav kood.
-    6. Sisestage väljal **Ekspordikohustuse tase** ekspordiaruande üksikasjade tase. Teie valitud tase mõjutab aruandes kuvatavaid ridu. Lisateabe saamiseks vt tabeleid käesoleva teema alguses.
+    6. Sisestage väljal **Ekspordikohustuse tase** ekspordiaruande üksikasjade tase. Teie valitud tase mõjutab aruandes kuvatavaid ridu. Lisateabe saamiseks vt tabeleid selle artikli alguses.
 
 3. Minge **Organisatsiooni haldamine** > **Organisatsioonid** > **Juriidilised isikud** ja valige oma ettevõte, misjärel järgige neid samme:
 

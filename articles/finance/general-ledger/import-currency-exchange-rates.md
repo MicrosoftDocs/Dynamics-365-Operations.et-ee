@@ -1,6 +1,6 @@
 ---
-title: Valuutavahetuskursside importimine
-description: See teema annab teavet vahetuskursi pakkujate avaldatud vahetuskursside importimise nõuete kohta.
+title: Valuutavahetuskursside import
+description: See artikkel annab teavet vahetuskursi pakkujate avaldatud välisvaluuta viitekursside importimise nõuete kohta.
 author: EvgenyPopovMBS
 ms.date: 03/17/2020
 ms.topic: article
@@ -15,23 +15,23 @@ ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: f96622132be3c8a404f3f4e9c34f3ac5085a4fdc007ecb627d06a95d7c80932b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 27f9b06646d9ce948a6b4528c38c5df9784b24b2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727320"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894931"
 ---
 # <a name="import-currency-exchange-rates"></a>Valuutavahetuskursside importimine
 
 [!include [banner](../includes/banner.md)]
 
-Kui juriidiline isik on saanud arveid välisvaluutas, tuleb välisvaluuta teisendada kohalikku valuutasse. See tähendab, et vaja on erinevate valuutade ajakohaseid vahetuskursse. Selles teemas antakse ülevaade vajalikest sätetest ja töötlemisest vahetuskursside pakkujate (nt Euroopa Keskpank ja Venemaa Keskpank) avaldatud vahetuskursside importimiseks.
+Kui juriidiline isik on saanud arveid välisvaluutas, tuleb välisvaluuta teisendada kohalikku valuutasse. See tähendab, et vaja on erinevate valuutade ajakohaseid vahetuskursse. See artikkel annab ülevaate sätetest ja töötlemisest, mida on vaja välisvaluuta viitekursside importimiseks, mille on avaldanud vahetuskursi pakkujad, nt Euroopa Keskpank ja Venemaa Keskpank.
 
 Järgmised jaotised kirjeldavad teabevoogu, mida kasutatakse vahetuskursside importimise häälestamiseks ja töötlemiseks.
 
 ## <a name="configure-an-exchange-rate-provider"></a>Vahetuskursi pakkuja konfigureerimine
-Enne vahetuskursside importimist tuleb seadistada andmed, mida nõuavad vahetuskursi pakkujad. Valige vahetuskursi pakkujad lehelt **Vahetuskursi pakkujate konfigureerimine**. Mõned vahetuskursi pakkujad sisalduvad Dynamics 365 Financei demoandmetes. Lehe juhtelementide kirjeldused leiate järgmisest tabelist.
+Enne vahetuskursside importimist tuleb seadistada andmed, mida nõuavad vahetuskursi pakkujad. Valige vahetuskursi pakkujad lehelt **Vahetuskursi pakkujate konfigureerimine**. Mõned vahetuskursi pakkujad kaasatakse Dynamics 365 Finance demoandmetesse. Lehe juhtelementide kirjeldused leiate järgmisest tabelist.
 
 | Field | Kirjeldus                   |
 |-----------|-----------------------------------|

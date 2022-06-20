@@ -1,6 +1,6 @@
 ---
 title: Välisseadmete ühendamine kassaga (POS)
-description: See teema käsitleb välisseadmete ühendamist Retail POS-iga.
+description: See artikkel käsitleb välisseadmete ühendamist Retail POS-iga.
 author: BrianShook
 ms.date: 03/01/2022
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: brshoo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: f1c53c7215d3a5a182f345d5e040274ae06f9b12
-ms.sourcegitcommit: 116898def829c0f78bda8a117242aa308793465d
+ms.openlocfilehash: ffee75e1713c7c9d31b1d023cd055c2f1a3fc43d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8370947"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897104"
 ---
 # <a name="connect-peripherals-to-the-point-of-sale-pos"></a>Välisseadmete ühendamine kassaga (POS)
 
 [!include [banner](includes/banner.md)]
 
-See teema käsitleb välisseadmete ühendamist Retail POS-iga.
+See artikkel käsitleb välisseadmete ühendamist Retail POS-iga.
 
 > [!NOTE]
 > Täpsemate installimisjuhiste saamiseks vaadake jaotiseid [Jaemüügi riisvarajaama konfigureerimine ja installimine](retail-hardware-station-configuration-installation.md) ja [Kaasaegse kassa (MPOS) konfigureerimine, installimine ja aktiveerimine](retail-modern-pos-device-activation.md).
@@ -157,7 +157,7 @@ Kviitungi profiilid määratakse printeritele riistvaraprofiilis. Neid kasutatak
 
 #### <a name="hardware-profiles"></a>Riistvara profiilid
 
-Riistvaraprofiile kirjeldatakse selles teemas varasema kliendi häälestuse komponendina. Riistvaraprofiilid on määratud otse kassaregistrisse või ühiskasutatavasse riistvarajaama ja neid kasutatakse teatud kassaregistri või riistvarajaama kasutatavate seadmete tüüpide määramiseks. Riistvaraprofiilide abil määratakse ka makse SDK-ga suhtlemiseks kasutatavad EFT sätted.
+Riistvaraprofiile selgitatakse kliendi seadistuse komponendina selles artiklis eespool. Riistvaraprofiilid on määratud otse kassaregistrisse või ühiskasutatavasse riistvarajaama ja neid kasutatakse teatud kassaregistri või riistvarajaama kasutatavate seadmete tüüpide määramiseks. Riistvaraprofiilide abil määratakse ka makse SDK-ga suhtlemiseks kasutatavad EFT sätted.
 
 #### <a name="visual-profiles"></a>Visuaalsed profiilid
 

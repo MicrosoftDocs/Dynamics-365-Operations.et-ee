@@ -1,6 +1,6 @@
 ---
-title: Hiljutisuse, sageduse ja valuuta (RFM-i) analüüsi seadistamine
-description: Selles teemas selgitatakse, kuidas seadistada klientidele hiljutisuse, sageduse ja valuuta (RFM-i) analüüsi.
+title: Hiljutisuse, sageduse ja rahasumma (RFM) analüüsi häälestus
+description: See artikkel selgitab, kuidas seadistada oma klientide Recency, Sageduse ja Valuuta (RFM) analüüsi.
 author: josaw1
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: d058401541d37dac55d0a500835ce9c357468656e467951f789207452f798d94
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 153759ac6b70235b79c080e934819536c2861371
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765214"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850167"
 ---
-# <a name="set-up-recency-frequency-and-monetary-rfm-analysis"></a>Hiljutisuse, sageduse ja valuuta (RFM-i) analüüsi seadistamine
+# <a name="set-up-recency-frequency-and-monetary-rfm-analysis"></a>Hiljutisuse, sageduse ja rahasumma (RFM) analüüsi häälestus
 
 [!include [banner](includes/banner.md)]
 
-Selles teemas selgitatakse, kuidas seadistada klientidele hiljutisuse, sageduse ja valuuta (RFM-i) analüüsi.
+See artikkel selgitab, kuidas seadistada oma klientide Recency, Sageduse ja Valuuta (RFM) analüüsi.
 
 Hiljutisuse, sageduse ja rahasumma (RFM) analüüs on turunduse tööriist, mida teie organisatsioon saab kasutada kliendi ostudega loodud andmete hindamiseks. Pärast RFM-analüüsi seadistamist määratakse klientidele arvutatud RFM-i skoori, kui nad oste sooritavad. RFM-i skoor võib olla kolmekohaline hinne või koondnumber, sõltuvalt sellest, kuidas teie organisatsioon on RFM-analüüsi seadistanud. Kui teie organisatsioon kasutab skoori puhul kolmekohalist hinnet, siis selle põhimõte on järgmine.
 

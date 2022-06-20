@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 08ab90d6f53dbb9eabeea3c2cf020792e8957c7b71ed27fc491008fcad114c72
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a75b268f2d8341c1a6dd0d3f1bd9dcb31d9084ca
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727481"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884137"
 ---
 # <a name="import-configurations-to-generate-documents-that-have-application-data"></a>Konfiguratsioonide importimine rakendusandmetega dokumentide loomiseks
 
@@ -25,7 +25,7 @@ ms.locfileid: "6727481"
 
 Selle protseduuri toimingute lõpule viimiseks peate esmalt läbima protseduuri „ER Konfiguratsiooni pakkuja loomine ja selle märkimine aktiivseks”.
 
-Konfiguratsioonipakkuja loomine ja aktiivseks märkimine". Selles protseduuris selgitatakse, kuidas importida näidisettevõtte Litware, Inc. jaoks loodud elektroonilise aruandluse (ER) konfiguratsioone ja neid kasutada elektroonilise dokumendi genereerimiseks. Protseduur on loodud kasutajatele, kellele on määratud süsteemiadministraatori või elektroonilise aruandluse arendaja roll. Need toimingud saab lõpule viia DEMF-i andmekomplekti abil. Enne alustamist laadige alla ja salvestage spikriteemas „Elektrooniliste dokumentide genereerimine ja avalduse andmete värskendamine ER-tööriistaga” (generate-electronic-documents-update-application-data/) loetletud failid. Failid on Intrastat (model).xml, Intrastat (mapping).xml ja Intrastat (format).xml.
+Konfiguratsioonipakkuja loomine ja aktiivseks märkimine". Selles protseduuris selgitatakse, kuidas importida näidisettevõtte Litware, Inc. jaoks loodud elektroonilise aruandluse (ER) konfiguratsioone ja neid kasutada elektroonilise dokumendi genereerimiseks. Protseduur on loodud kasutajatele, kellele on määratud süsteemiadministraatori või elektroonilise aruandluse arendaja roll. Need toimingud saab lõpule viia DEMF-i andmekomplekti abil. Enne alustamist laadige alla ja salvestage spikridokumendis loetletud failid" "Elektrooniliste dokumentide loomine ja rakendusandmete uuendamine ER-tööriistaga" (genereeri elektrooniliste dokumentide uuendamise/rakenduse andmed). Failid on Intrastat (model).xml, Intrastat (mapping).xml ja Intrastat (format).xml.
 
 1. Avage Organisatsiooni haldamine > Tööruumid > Elektrooniline aruandlus.
     * Veenduge, et näidisettevõtte Litware, Inc. konfiguratsioonipakkuja on saadaval ja tähistatud aktiivsena. Kui te ei näe seda konfiguratsioonipakkujat, peate esmalt läbima protseduuris „Konfiguratsiooni pakkuja loomine ja selle märkimine aktiivseks” toodud juhised.  

@@ -1,6 +1,6 @@
 ---
 title: Transpordihalduse ülevaade
-description: Selles teemas antakse ülevaade transpordihalduse funktsionaalsusest rakenduses Supply Chain Management.
+description: See artikkel annab ülevaate transpordihalduse funktsioonidest tarneahela halduses.
 author: Weijiesa
 ms.date: 06/20/2017
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6181d63c9ab447c4892948fe1f3ee41d2680b78d
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 12f870c95f28e752c3c3b3dd4161d82815b9954a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8671642"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897454"
 ---
 # <a name="transportation-management-overview"></a>Transpordihalduse ülevaade
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas antakse ülevaade transpordihalduse funktsionaalsusest rakenduses Supply Chain Management.
+See artikkel annab ülevaate transpordihalduse funktsioonidest tarneahela halduses.
 
 Moodul Transpordihaldus võimaldab kasutada ettevõtte transporti ning tuvastada ka hankijat ja marsruudilahendusi nii sissetulevate kui ka väljaminevate tellimuste puhul. Näiteks saate tuvastada kiireima marsruudi või soodsaima transpordihinna. Järgmine tabel kirjeldab peamisi stsenaariume transpordihalduse kasutamiseks.
 

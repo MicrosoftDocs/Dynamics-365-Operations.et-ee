@@ -1,6 +1,6 @@
 ---
 title: Server-serveri autentimine ATS-integratsiooni API jaoks
-description: See teema kirjeldab, kuidas seadistada server-serveri autentimist integratsioonide jaoks Dynamics 365 Human Resources Applicant Tracking System (ATS) integratsiooni API-ga.
+description: See artikkel kirjeldab, kuidas seadistada serveri-serveri autentimise Dynamics 365 Human Resources integreerimist kandidaadi jälgimissüsteemi (ATS) integratsiooni API-ga.
 author: jaredha
 ms.date: 06/30/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-06-30
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 350fb5a00b85f28fa8aef2ca50cf1f277b8f635e
-ms.sourcegitcommit: e4cc43b06ef3f0f562849e2c960025cb244d6017
+ms.openlocfilehash: de3dc29c5366996276c02576eba27f7e831e4ccf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/12/2022
-ms.locfileid: "8743537"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879362"
 ---
 # <a name="server-to-server-authentication-for-the-ats-integration-api"></a>Server-serveri autentimine ATS-integratsiooni API jaoks
 
@@ -27,7 +27,7 @@ ms.locfileid: "8743537"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-See teema kirjeldab, kuidas seadistada server-serveri autentimist integratsiooniga vastu Dynamics 365 Human Resources Applicant Tracking System (ATS) integratsiooni API-ga. Virtuaaltabelile ja seotud andmetele juurdepääsuks on vaja teenuse subjekti jaoks hallata teatud Microsoft Dataverse turvakihte. Kasutajale peab olema antud juurdepääs Dataverse virtuaaltabelile rakenduses Microsoft Power Platform ja juurdepääsu Dynamics 365 Human Resources andmetele.
+See artikkel kirjeldab, kuidas seadistada serverist serverisse autentimist rakenduste integreerimiseks Dynamics 365 Human Resources Kandidaadi jälgimissüsteemi (ATS) integratsiooni API-ga. Virtuaaltabelile ja seotud andmetele juurdepääsuks on vaja teenuse subjekti jaoks hallata teatud Microsoft Dataverse turvakihte. Kasutajale peab olema antud juurdepääs Dataverse virtuaaltabelile rakenduses Microsoft Power Platform ja juurdepääsu Dynamics 365 Human Resources andmetele.
 
 ## <a name="enable-access-to-dataverse-virtual-tables-in-power-platform"></a>Luba juurdepääs virtuaalsetele Dataverse tabelitele rakendduses Power Platform
 

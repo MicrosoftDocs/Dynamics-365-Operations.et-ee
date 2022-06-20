@@ -1,6 +1,6 @@
 ---
 title: Kõnekeskuse tarneviiside ja -tasude konfigureerimine
-description: Selles teemas kirjeldatakse, kuidas seadistada kõnekeskuse jaoks tarneviise ja -tasusid rakenduses Dynamics 365 Commerce.
+description: See artikkel kirjeldab, kuidas seadistada kõnekeskuse tellimuse tarne- ja tasuviise moodulis Dynamics 365 Commerce.
 author: josaw1
 ms.date: 04/26/2018
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: bd763082969079de2d68e12483ec25871c332e4067f122c6a845d3acd477af62
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f445e9dabd0210951609170369eae63bcc30ce6b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748567"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888294"
 ---
 # <a name="configure-call-center-delivery-modes-and-charges"></a>Kõnekeskuse tarneviiside ja -tasude konfigureerimine
 
@@ -35,7 +35,7 @@ Commerce'il on funktsioonid, mis võimaldavad kasutajatel piirata kanali kasutat
 
 Enne kui saate määratleda, milliseid tarneviise saab kõnekeskuse tellimuste jaoks kasutada, ja sätestada seotud reegleid ning tasusid, peate määratlema tarneviisid. Valige **Müük ja turundus \> Seadistamine \> Jaotus \> Tarneviisid**. Klõpsake valikut **Uus**, et luua uus tarneviis. Teine võimalus on valida loendist olemasolev tarneviis ja seejärel klõpsata käsku **Redigeeri**, et teha muutusi.
 
-Väljale **Tarneviis** saate sisestada mis tahes tähe-või numbrimärkide kombinatsiooni teie ettevõtte nõuete kohaselt. Seejärel saate kasutada välja **Kirjeldus**, et sisestada täiendavat teavet. Väljad **Tasugrupp** ja **Kiirsaadetis** on valikulised ning neid kirjeldatakse hiljem selles teemas üksikasjalikult.
+Väljale **Tarneviis** saate sisestada mis tahes tähe-või numbrimärkide kombinatsiooni teie ettevõtte nõuete kohaselt. Seejärel saate kasutada välja **Kirjeldus**, et sisestada täiendavat teavet. Väljad **Tasugrupp** **ja Kiirtekst** on valikulised ning neid kirjeldatakse üksikasjalikumalt selles artiklis.
 
 Lisage kiirkaardil **Ärikanalid** ükskõik milline jaemüügi kanal, millele tuleks lubada tarneviisi kasutamist, kui selles kanalis luuakse müügikandeid.
 

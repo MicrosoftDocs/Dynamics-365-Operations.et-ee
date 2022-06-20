@@ -1,6 +1,6 @@
 ---
 title: Ostutaotluse ülevaade
-description: Teema kirjeldab ostutaotluste töövoogu ja erinevaid olekuid, mis ostutaotlusel olla võivad.
+description: See artikkel kirjeldab ostutaotluste töövoogu ja erinevaid olekuid, mis ostutaotlusel võivad olla.
 author: GalynaFedorova
 ms.date: 11/02/2017
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e6524229800233d1bfdf54a11afc122990eed9d3
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: a7430e18779dc2c37f74e6d25c95836f4fbc435d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8671164"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905743"
 ---
 # <a name="purchase-requisition-overview"></a>Ostutaotluse ülevaade
 
 [!include [banner](../includes/banner.md)]
 
-Teema kirjeldab ostutaotluste töövoogu ja erinevaid olekuid, mis ostutaotlusel olla võivad.
+See artikkel kirjeldab ostutaotluste töövoogu ja erinevaid olekuid, mis ostutaotlusel võivad olla.
 
 Olenevalt organisatsiooni seadistusest, saate luua organisatsiooni kasutatavatele toodetele ostutaotlusi. Ostutaotlus on sisedokument, mis annab ostuosakonnale volituse kaupu või teenuseid osta.  
 

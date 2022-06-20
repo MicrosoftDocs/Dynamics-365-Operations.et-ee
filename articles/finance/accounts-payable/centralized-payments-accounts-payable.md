@@ -1,6 +1,6 @@
 ---
 title: Ostureskontro tsentraliseeritud maksed
-description: Organisatsioonid, mis sisaldavad mitut juriidilist isikut, saavad luua ja hallata makseid, kasutades ühte kõigi maksetega tegelevat juriidilist isikut. Seetõttu pole vaja sisestada samu makseid mitmesse juriidilisse isikusse, See teema pakub näiteid, mis näitavad, kuidas tsentraliseeritud maksete sisestamist mitmesugustes stsenaariumides käsitletakse.
+description: Organisatsioonid, mis sisaldavad mitut juriidilist isikut, saavad luua ja hallata makseid, kasutades ühte kõigi maksetega tegelevat juriidilist isikut. Seetõttu pole vaja sisestada samu makseid mitmesse juriidilisse isikusse, Selles artiklis tuuakse näiteid, mis näitavad, kuidas tsentraliseeritud maksete sisestamist erinevates stsenaariumides käsitletakse.
 author: abruer
 ms.date: 02/15/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: df0d2178d1ebd3dcb154e2c4f7821a4007da55d4
-ms.sourcegitcommit: 5033d42a2aac852916d726e40bd98a164d1a837d
+ms.openlocfilehash: 5478a2ac61fb7304bc617f3d2614e68cda6154de
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8331738"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903445"
 ---
 # <a name="centralized-payments-for-accounts-payable"></a>Ostureskontro tsentraliseeritud maksed
 
 [!include [banner](../includes/banner.md)]
 
-Organisatsioonid, mis sisaldavad mitut juriidilist isikut, saavad luua ja hallata makseid, kasutades ühte kõigi maksetega tegelevat juriidilist isikut. Seetõttu pole vaja sisestada samu makseid mitmesse juriidilisse isikusse, See teema pakub näiteid, mis näitavad, kuidas tsentraliseeritud maksete sisestamist mitmesugustes stsenaariumides käsitletakse.
+Organisatsioonid, mis sisaldavad mitut juriidilist isikut, saavad luua ja hallata makseid, kasutades ühte kõigi maksetega tegelevat juriidilist isikut. Seetõttu pole vaja sisestada samu makseid mitmesse juriidilisse isikusse, Selles artiklis tuuakse näiteid, mis näitavad, kuidas tsentraliseeritud maksete sisestamist erinevates stsenaariumides käsitletakse.
 
 Tsentraliseeritud maksete organisatsioonis on toimingute jaoks palju juriidilisi isikuid ja iga tegutsev juriidiline isik haldab oma hankijaarveid. Maksed kõigi juriidiliste isikute jaoks luuakse ühest juriidilisest isikust, mida nimetatakse makse juriidiliseks isikuks. Tasakaalustusprotsessi ajal luuakse rakendatavad millest milleni kanded. Saate määrata, milline juriidiline isik organisatsioonis võtab vastu realiseeritud kasumi või realiseeritud kahjumi kanded ning kuidas käsitsetakse ettevõtetevaheliste maksetega seotud allahindluskandeid. Tsentraliseeritud maksetöölehe real peaks suvandi **Konto tüüp** sätteks peaks olema määratud Hankija. Suvandi **Vastaskonto tüüp** sätteks peaks olema määratud Pank või Pearaamat. Pangakonto peaks olema praeguses ettevõttes. 
 

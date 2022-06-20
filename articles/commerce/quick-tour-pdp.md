@@ -1,6 +1,6 @@
 ---
 title: Toote üksikasjade lehe ülevaade
-description: See teema annab ülevaate toote üksikasjade lehtedest (PDP-dest) rakenduses Microsoft Dynamics 365 Commerce.
+description: See artikkel annab ülevaate toote üksikasjade lehtedest (PDP-d)Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 01/23/2020
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 48b4e5d66b86e0b1198bd6ff7ce1e7de33f8fde0
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 7b7630a15f98da4a1454f7c9b0d3501d4f035649
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986197"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884281"
 ---
 # <a name="product-details-pages-overview"></a>Toote üksikasjade lehe ülevaade
 
 [!include [banner](includes/banner.md)]
 
-See teema annab ülevaate toote üksikasjade lehtedest (PDP-dest) rakenduses Microsoft Dynamics 365 Commerce.
+See artikkel annab ülevaate toote üksikasjade lehtedest (PDP-d)Microsoft Dynamics 365 Commerce.
 
 PDP annab toote kohta üksikasjalikku teavet ja laseb klientidel valida toote suvandid, nagu suurus, stiil ja värv. PDP peaks esitlema kogu toote teavet, mis on kliendile vajalik ostuotsuse tegemiseks.
 
@@ -35,9 +35,9 @@ Järgmisel joonisel on toodud PDP näide.
 
 ## <a name="header-and-footer-modules"></a>Päise ja jaluse moodulid
 
-PDP ülaosas on päis, mis näitab kõiki tootekategooriaid ja teisi lehekülgi, mida jaemüüja soovib klientidele sirvimiseks pakkuda. Lehe allosas on jalus, mis sisaldab kiireid linke erinevatele teemadele, mis võivad klientidele huvi pakkuda.
+PDP ülaosas on päis, mis näitab kõiki tootekategooriaid ja teisi lehekülgi, mida jaemüüja soovib klientidele sirvimiseks pakkuda. Lehe alumisel osal on jalus, mis sisaldab kiirlinke erinevatele artiklitele, mis võivad kliente huvi pakkuda.
 
-## <a name="buy-box-module"></a>Ostukasti moodul
+## <a name="buy-box-module"></a>Ostukastimoodul
 
 PDP kõige olulisem moodul on ostukasti moodul, mis kuvatakse lehe põhijaotises esimese üksusena. Ostukasti moodul kuvab olulise tooteteabe, nagu tootenimetus, toote kirjeldus, toote hind, toote pildid ja toote hinnangud.
 

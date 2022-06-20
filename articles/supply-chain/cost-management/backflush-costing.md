@@ -1,6 +1,6 @@
 ---
 title: Omahinna tagasiarvestus
-description: Selles teemas tutvustatakse omahinna tagasiarvestuse mõistet, mida kasutatakse lean manufacturingi jaoks.
+description: Selles artiklis tutvustatakse Lean manufacturingi puhul kasutatava omahinna tagasiarvestuse kontseptsiooni.
 author: JennySong-SH
 ms.date: 04/10/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: yanansong
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: a5b0ac26a1f6b209be7c9d52aaad9bb689a8a656
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 33cb7bf70d8867ccd067144e661c3bdf1c0b778d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674022"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906091"
 ---
 # <a name="backflush-costing"></a>Omahinna tagasiarvestus
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas tutvustatakse omahinna tagasiarvestuse mõistet, mida kasutatakse lean manufacturingi jaoks. 
+Selles artiklis tutvustatakse Lean manufacturingi puhul kasutatava omahinna tagasiarvestuse kontseptsiooni. 
 
 Lean manufacturingi kuluarvutus võimaldab tootmisvoos kasutada kulu akumuleerimise viisi, mida nimetatakse omahinna tagasiarvestuseks. Omahinna tagasiarvestuse meetodi puhul akumuleeruvad tarbitud otsesed materjalikulud tootmisvoo lõpetamata toodangu (WIP) kulukontole. Kasutatakse standardkuludele laomudeligruppi. Töövoost saadud tooted lahutatakse lõpetamata toodangust standardomahinnaga. Standardomahinna ja omahinna tagasiarvestuse peamine erinevus on see, et omahinna tagasiarvestuse puhul ei arvutata hälbeid kanbani või lõpetatud toote kohta. Selle asemel arvutatakse hälbeid tootmisvoo kohta perioodi jooksul. See meetod tutvustab materjalitarbimise aruandluse jaoks tõelist säästlikkuse mõistet. Sihtotstarbelisi komplekteeritud materjalikoguseid ei esitada kanban- ega tootmistellimuse jaoks. Selle asemel koondatakse töövoole täielikud partiid või materjali käsitlemisühikud. Pärast seda, kui partiid või materjali käsitlemisühikud on tühjana registreeritud, deklareeritakse need tarbituks. Kasutada võib täiustatud tarbimist, sõltuvalt [töövoo konfiguratsioonist](../production-control/lean-manufacturing-modeling-lean-organization.md). Enne täiustatud tarbimise kasutamist peavad organisatsioonid endale lubama materjali kaotamist tootmisvoo lõpetamata toodangus. Perioodiline omahinna tagasiarvestus määrab lõpetamata toodangu kehtiva väärtuse perioodi lõppu. See määramine põhineb kanbani materjali käsitlemisühikutel ja kanban-töö olekul. Kõrvalekaldeid kehtiva väärtuse ja tegeliku lõpetamata toodangu väärtuse iga kulugrupi ja kauba kohta vahel arvutatakse ja näidatakse hälvetena.
 

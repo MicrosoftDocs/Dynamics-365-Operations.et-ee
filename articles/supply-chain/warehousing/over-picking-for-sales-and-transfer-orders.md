@@ -1,6 +1,6 @@
 ---
 title: Müügitellimuste ja üleviimistellimuste ülekorjamine
-description: Selles teemas selgitatakse, kuidas lubada müügitellimuste ja üleviimistellimuste ülekorjamist.
+description: See artikkel selgitab, kuidas lubada müügitellimuste ja üleviimistellimuste üle komplekteerimist.
 author: GalynaFedorova
 ms.date: 07/06/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2021-07-06
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 52a4225efa88a7b9303dd611d5652f59da1612a4
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: b8bbc7d532f910edfb442831d6c906f253dee06c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678404"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897280"
 ---
 # <a name="over-picking-for-sales-orders-and-transfer-orders"></a>Müügitellimuste ja üleviimistellimuste ülekorjamine
 
 [!include [banner](../includes/banner.md)]
 
-See teema esitab stsenaariumi, mis näitab, kuidas lubada kas konkreetsel töötajal või kõigil töötajatel ülevalida. Ülekorjamise protsess võimaldab kontrollitud ülekorjamist komplekteerimistöö ajal.
+See artikkel sisaldab stsenaariumi, mis näitab, kuidas lubada konkreetsel töötajal või kõigil töötajatel üle valida. Ülekorjamise protsess võimaldab kontrollitud ülekorjamist komplekteerimistöö ajal.
 
 Lao ülekorjamine on lihtne mõiste. Süsteem võimaldab töötajatel valida rohkem kaupu, kui on tellimuse jaoks määratud. Siiski võtab ta arvesse üleviimistellimuse või müügitellimuse rea tasemel määratud ületarne limiiti. Kui see limiit on ületatud, teatab rakendus Warehouse Management töötajatele, et nad ületavad ületarne limiiti.
 
@@ -41,11 +41,11 @@ Lao ülekorjamine on lihtne mõiste. Süsteem võimaldab töötajatel valida roh
 > [!IMPORTANT]
 > Ülekorjamise funktsioon rakendub ainult müügi- ja üleviimistellimuste komplekteerimisele ja töötlemisele. Täiendamine ei toeta ülekorjamist. Täiendustöö käivitamisel ei luba süsteem kasutajatel üle valida.
 
-Selle teema stsenaarium näitab, kuidas ülevalimise funktsiooni seadistada ja kasutada.
+See stsenaarium selles artiklis näitab, kuidas seadistada ja kasutada üle-noppimise funktsiooni.
 
 ## <a name="scenario-prerequisite-make-demo-data-available"></a>Stsenaariumi eeltingimus: demoandmete kättesaadavaks tegemine
 
-Selle teema stsenaarium viitab väärtustele ja kirjetele, mis kuuluvad Microsoft Dynamics 365 Supply Chain Managementile esitatud standardsete demoandmete hulka. Kui soovite kasutada siin esitatud väärtusi harjutuste tegemise ajal, veenduge, et töötate keskkonnas, kuhu on demoandmed installitud ja määrake enne alustamist juriidiliseks isikuks *USMF*.
+Selle artikli stsenaarium viitab väärtustele ja kirjetele, mis sisalduvad Microsofti standardsetes demoandmetes Dynamics 365 Supply Chain Management. Kui soovite kasutada siin esitatud väärtusi harjutuste tegemise ajal, veenduge, et töötate keskkonnas, kuhu on demoandmed installitud ja määrake enne alustamist juriidiliseks isikuks *USMF*.
 
 ## <a name="scenario-setup"></a>Stsenaariumi häälestus
 

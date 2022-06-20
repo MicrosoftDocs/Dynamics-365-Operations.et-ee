@@ -1,6 +1,6 @@
 ---
 title: Integratsiooni konfigureerimine Dayforce’iga
-description: See teema kirjeldab vajalikke konfigureerimisetappe, mida on vaja Microsoft Dynamics 365 Human Resources ja Ceridian Dayforce'i vaheliseks integreerimiseks.
+description: See artikkel kirjeldab vajalikke konfigureerimistoiminguid, mis on vajalikud Microsofti Dynamics 365 Human Resources ja Ceridani päevapoliitika integreerimiseks.
 author: twheeloc
 ms.date: 08/19/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a4e95a78364fcee2c03614e110f9b5983abfde37
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 5a5d296dd4c1b09065fc47673dd540d8c122c482
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691328"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896130"
 ---
 # <a name="configure-integration-with-dayforce"></a>Integratsiooni konfigureerimine Dayforce’iga
 
@@ -28,7 +28,7 @@ ms.locfileid: "8691328"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Rakenduste Microsoft Dynamics 365 Human Resources ja Ceridian Dayforce vaheline integratsioon sõltub mitmest konfiguratsioonietapist, mida kirjeldatakse selles teemas. Enne palgatöötluse tegemist peate konfigureerima integratsiooni nii rakenduses Human Resources kui ka Dayforce.
+Rakenduste Microsoft Dynamics 365 Human Resources ja Ceridian Dayforce vaheline integratsioon oleneb mitmest selles teemas kirjeldatavast konfiguratsioonietapist. Enne palgatöötluse tegemist peate konfigureerima integratsiooni nii rakenduses Human Resources kui ka Dayforce.
 
 Kui te kasutate palgatöötluste tegemiseks teenust, nagu Dayforce, siis peate rakenduses Human Resources integratsiooni lubama. Integratsiooni jaoks on rakendusest Human Resources vaja teatud andmeid. Seega peate kinnitama, et Dayforce’iga vastendatud andmed on rakenduses Human Resources konfigureeritud viisil, mis lubab integratsiooni. Integratsioon kasutab järgmisi üldisi andmekategooriaid.
 
@@ -37,7 +37,7 @@ Kui te kasutate palgatöötluste tegemiseks teenust, nagu Dayforce, siis peate r
 - Palgaandmed, näiteks palgatsüklid, makseperioodid ja tulukoodid
 - Töötaja andmed
 
-See teema kirjeldab samme, mida peate järgima integratsiooni lubamiseks ja selgitab andmetüüpe ja konfiguratsiooni üksikasju, mida integratsioon nõuab.
+See artikkel kirjeldab samme, mida peate järgima integratsiooni lubamiseks ja selgitab andmetüüpe ja konfiguratsiooni üksikasju, mida integratsioon nõuab.
 
 ## <a name="enable-the-integration"></a>Integratsiooni lubamine
 

@@ -1,6 +1,6 @@
 ---
 title: Puhvervaru abil üksuste minimaalse laovaru uuendamine
-description: See teema kirjeldab, kuidas kasutada ohutusvaru töölehte kaupade puhul ohutusvaru koguse uuendamiseks, arvutades ajaloolistel kannetel põhinevaid minimaalse laovaru ettepanekuid.
+description: See artikkel kirjeldab, kuidas kasutada ohutusvaru töölehte kaupade puhul ohutusvaru koguse uuendamiseks, arvutades ajalooliste kannete põhjal minimaalse laovarude ettepanekuid.
 author: t-benebo
 ms.date: 10/28/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-10-28
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 391f741ee08eb0624e80f5c297009c527e50c14c
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 385144738b83fcf6873eae5204b4784d6ecd5b80
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468534"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851765"
 ---
 # <a name="use-the-safety-stock-journal-to-update-minimum-coverage-for-items"></a>Puhvervaru abil üksuste minimaalse laovaru uuendamine
 
@@ -24,7 +24,7 @@ ms.locfileid: "8468534"
 
 Ohutusvaru näitab laos hoitava kauba lisakogust, et vähendada riski, et kaup laost välja läheb. Puhvervaru kasutatakse puhvrina juhul, kui müügitellimused on kasutatavad, kuid hankija ei saa kliendi nõutavale lähetuskuupäevale vastata.
 
-See teema kirjeldab, kuidas kasutada laovaru töölehte, et arvutada minimaalsed laovarude ettepanekud, mis põhinevad ajaloolistel kannetel, ja seejärel uuendada kauba laovarud vastavalt taotlustele.
+See artikkel kirjeldab, kuidas kasutada laovaru töölehte, et arvutada minimaalsed laovarude ettepanekud, mis põhinevad ajaloolistel kannetel, ja seejärel uuendada kauba laovarud vastavalt taotlustele.
 
 ## <a name="overview-of-minimum-coverage-usage"></a>Laovarude miinimumkasutuse ülevaade
 
@@ -43,7 +43,7 @@ Miinimumväärtuse **saate** seadistada kolmel viisil:
 
 Ohutusvaru töölehti kasutatakse pakutud miinimumkoguse arvutamiseks, võttes aluseks kauba ajaloolise kasutuse (kas minimaalsel/maksimaalsel eesmärgil või laoplaani eesmärgil). Ajalooline kasutus tähistab kõiki väljaminekukandeid määratud perioodil. Need väljaminek kanded hõlmavad müügitellimuse kandeid ja lao korrigeerimisi. Arvutustega tuvastatakse ka pakutud miinimumkoguse mõju laoväärtusele ja laoväärtuse muutus võrreldes praeguste miinimumkogustega.
 
-Iga ohutusvaru töölehe rida tähistab kaupa ja selle laovarude dimensioone. Need tööleheread luuakse ja kuvatakse ohutusvaru töölehe **ridade lehel (** koondplaneerimise käita ohutusvaru **\>\>\> kalkulatsioon).** Selles teemas kirjeldatakse äriprotsessi, mille puhul kasutatakse ohutusvaru töölehti soovitatud miinimumkoguste arvutamiseks.
+Iga ohutusvaru töölehe rida tähistab kaupa ja selle laovarude dimensioone. Need tööleheread luuakse ja kuvatakse ohutusvaru töölehe **ridade lehel (** koondplaneerimise käita ohutusvaru **\>\>\> kalkulatsioon).** Selles artiklis kirjeldatakse äriprotsessi, mille puhul kasutatakse ohutusvaru töölehti soovitatud miinimumkoguste arvutamiseks.
 
 Planeerija kasutab valitud kaupade jaoks soovitatud miinimumkoguste arvutamiseks ohutusvaru töölehte, võttes aluseks valitud perioodide ajaloolise kasutamise. Soovitatud miinimumid saab vajaduse korral käsitsi alistada ja saate üle vaadata pakutud miinimumide potentsiaalset mõju laoväärtusele. Töölehe sisestamisel uuendatakse automaatselt seostatud miinimumkogused kauba laovarudes.
 
@@ -89,7 +89,7 @@ Järgige neid samme tööleheridade automaatseks loomiseks.
 
     - **Alguskuupäev**: valige perioodi alguskuupäev, mille väljaminekud tuleks arvutamisse kaasata.
     - **Lõppkuupäev** : valige perioodi lõppkuupäev, mille väljaminekud tuleks selle arvutamisse kaasata. Algus- ja lõppkuupäeva vahel peab olema vähemalt kaks kuud.
-    - **Arvuta standardhälve** – määrake selle valiku väärtuseks *Jah,* et arvutada standardhälve. Kui soovite soovitust arvutades *kasutada* suvandit Kasuta **teenusetaset**, tuleb selle suvandi väärtuseks seada Jah (vt kirjeldust käesolevas teemas allpool).
+    - **Arvuta standardhälve** – määrake selle valiku väärtuseks *Jah,* et arvutada standardhälve. Selleks, et kasutada suvandit *Kasuta* teenusetaset **·**, peate määrama suvandi Jah, kui soovitus arvutate (vt kirjeldust käesolevas artiklis allpool).
 
 1. Kiirkaarti **kaasatavatel** kirjetel saate seadistada filtrid ja piirangud, et määrata, millised kaubad kaasatakse. (Näiteks saate filtreerida **Laovarude grupi** väärtus.) Valige **filter**, et avada standardpäringu redaktori dialoogiboks, kus saate määratleda valikukriteeriumid, sortimiskriteeriumid ja liitmised. Väljad töötavad nii nagu Microsoft muud tüüpi päringute puhul Dynamics 365 Supply Chain Management.
 1. Valige taustal **tehtud kiirkaardil**, kas käitada töö pakett-režiimis ja/või seadistada korduv graafik. Väljad töötavad samamoodi nagu muud tüüpi [taustatööl](../../fin-ops-core/dev-itpro/sysadmin/batch-processing-overview.md) Supply Chain Management puhul.
@@ -110,7 +110,7 @@ See samm arvutab igale töölehe reale soovitatud miinimumi ja rea võimaliku m�
 Kuvatavad arvutused ei mõjuta iga toote tegelikke minimaalse koguse väärtusi enne, kui valite tegevuspaanil **valiku** Sisesta. Sel ajal rakendatakse **igale tootele** uued miinimumkoguse väärtused.
 
 1. Minge koondplaneerimise **koondplaneerimise \> käitama \> ohutusvaru \> arvutusse**.
-1. Avage tööleht, mille jaoks soovitust arvutada. Teise võimalusena looge uus tööleht, nagu selles teemas varem kirjeldatud.
+1. Avage tööleht, mille jaoks soovitust arvutada. Teise võimalusena looge uus tööleht, nagu kirjeldatud selles artiklis.
 1. Valige tööleheridade **kiirkaardil** tööriistaribal **suvand** Arvuta soovitus. (Te ei pea ühtegi rida valima.)
 1. Seadke dialoogiboksis **Minimaalse kaubavaru taseme arvutamise** dialoogiboksis järgmised väljad:
 

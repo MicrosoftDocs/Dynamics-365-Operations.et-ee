@@ -1,8 +1,8 @@
 ---
-title: Varude nähtavuse konfigureerimine
-description: Selles teemas kirjeldatakse, kuidas Varude nähtavust konfigureerida.
+title: Inventory Visibility konfigureerimine
+description: See artikkel kirjeldab varude nähtavuse konfigureerimist.
 author: yufeihuang
-ms.date: 12/09/2021
+ms.date: 05/27/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,23 +11,23 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 7e42c0b49a4083edd0e64551f4840bd74d412fc1
-ms.sourcegitcommit: 1877696fa05d66b6f51996412cf19e3a6b2e18c6
+ms.openlocfilehash: 2bdb2ca0067ea430b249ac619a38c8bcec75f2f7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/20/2022
-ms.locfileid: "8786834"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895811"
 ---
-# <a name="configure-inventory-visibility"></a>Varude nähtavuse konfigureerimine
+# <a name="configure-inventory-visibility"></a>Inventory Visibility konfigureerimine
 
 [!include [banner](../includes/banner.md)]
 
 
-See teema kirjeldab Inventory Visibility konfigureerimist ja Inventory Visibility kasutamist rakenduses Power Apps.
+See artikkel kirjeldab, kuidas konfigureerida varude nähtavust varude nähtavuse rakenduse abil moodulis Power Apps.
 
 ## <a name="introduction"></a><a name="introduction"></a>Sissejuhatus
 
-Enne kui alustate Varude nähtavusega tööd, peate lõpuni viima järgmise konfiguratsiooni, nii nagu selles teemas kirjeldatud.
+Enne kui alustate tööd varude nähtavusega, peate lõpule täitma järgmise konfiguratsiooni, nagu kirjeldatud selles artiklis:
 
 - [Andmeallika konfiguratsioon](#data-source-configuration)
 - [Sektsiooni konfiguratsioon](#partition-configuration)
@@ -41,7 +41,7 @@ Enne alustamist installige ja seadistage Inventory Visibility lisandmoodul, nagu
 
 ## <a name="the-configuration-page-of-the-inventory-visibility-app"></a><a name="configuration"></a>Inventory Visibility rakenduse konfiguratsioonileht
 
-Power Apps rakenduses **Konfiguratsioon** lehel [Inventory Visibility rakendus](inventory-visibility-power-platform.md) aitab teil seadistada konfiguratsiooni ja tarkvara reserveerimise konfiguratsiooni. Pärast lisandmooduli installimist sisaldab vaikekonfiguratsioon Microsoft Dynamics 365 Supply Chain Management-i väärtust (`fno` andmeallikas). Vaikesätted on võimalik üle vaadata. Lisaks sellele saate vastavalt teie äritegevuse nõuetele ja välise süsteemi lao sisestusnõuetele muuta konfiguratsiooni lahenduses , et ühtlustada viisi, kuidas saab erinevates süsteemides varude muudatusi sisestada, korraldada ja nende kohta päringuid esitada. Selle teema ülejäänud jaotised selgitavad, kuidas kasutada iga **konfiguratsiooni** lehe osa.
+Power Apps rakenduses **Konfiguratsioon** lehel [Inventory Visibility rakendus](inventory-visibility-power-platform.md) aitab teil seadistada konfiguratsiooni ja tarkvara reserveerimise konfiguratsiooni. Pärast lisandmooduli installimist sisaldab vaikekonfiguratsioon Microsoft Dynamics 365 Supply Chain Management-i väärtust (`fno` andmeallikas). Vaikesätted on võimalik üle vaadata. Lisaks sellele saate vastavalt teie äritegevuse nõuetele ja välise süsteemi lao sisestusnõuetele muuta konfiguratsiooni lahenduses , et ühtlustada viisi, kuidas saab erinevates süsteemides varude muudatusi sisestada, korraldada ja nende kohta päringuid esitada. Selle artikli ülejäänud jaotised selgitavad, kuidas kasutada konfiguratsioonilehe **iga osa**.
 
 Kui konfiguratsioon on lõpule viidud, valige kindlasti rakenduses **Konfiguratsiooni värskendamine**.
 
@@ -54,6 +54,7 @@ Inventory Visibility lisandmoodul lisab teie installile mitu uut Power Apps funk
 | *OnHandReservation* | See funktsioon võimaldab varude nähtavust kasutades luua reserveeringuid, tarbida reserveeringuid ja/või reserveerimata laokoguseid. Lisateavet vt teemast [Varude nähtavuse reserveeringud](inventory-visibility-reservations.md). |
 | *OnHandMostSpecificBackgroundService* | See funktsioon annab tootevarude kokkuvõtte koos kõigi dimensioonidega. Lao koondandmed sünkroonitakse perioodiliselt laovarude nähtavuse väljalt. Lisateavet vt laovarude [kokkuvõttest](inventory-visibility-power-platform.md#inventory-summary). |
 | *Sõlm OnhandChangeSchedule* | See valikuline funktsioon võimaldab vaba kaubavaru muutmise graafikut ja on saadaval lubamiseks (ATP) funktsioone. Lisateavet vt varude nähtavuse vaba [kaubavaru muutmise graafikust ja lubaduse andmiseks saadaval](inventory-visibility-available-to-promise.md). |
+| *Eraldamine* | See valikuline funktsioon võimaldab varude nähtavust, omab võimalust laovarude kaitsmiseks (ringlemine) ja alistab kontrolli. Lisateavet vt varude nähtavuse [varude eraldamisest](inventory-visibility-allocation.md). |
 | *Laokauba lubamine varude nähtavuses* | See valikuline funktsioon võimaldab varude nähtavust, et toetada kaupu, mis on lubatud täpsematele laoprotsessidele (laohaldusüksused). Lisateavet vt laovarude nähtavuse [tugi laotöölehe kaupade puhul](inventory-visibility-whs-support.md). |
 
 ## <a name="find-the-service-endpoint"></a><a name="get-service-endpoint"></a>Teenuse lõpp-punkti leidmine
@@ -116,7 +117,7 @@ Dimensioonide konfigureerimise eesmärk on ühtlustada mitme süsteemi integreer
 >
 > Varude (kohandatud) dimensioone saab reserveerida rakenduse Supply Chain Management jaoks. Sel juhul saate kasutada laiendatud dimensioone.
 
-Välistel süsteemidel on juurdepääs Varude nähtavusele läbi selle RESTful API-de. Integreerimiseks võimaldab Varude nähtavus konfigureerida _välise andmeallika_ ja vastenduse _väliselt dimensioonilt_ _põhidimensioonile_. Siin on dimensioonide vastenduse tabeli näide.
+Välistel süsteemidel on juurdepääs Varude nähtavusele läbi selle RESTful API-de. Integreerimiseks võimaldab Varude nähtavus konfigureerida _välise andmeallika_ ja vastenduse _väliselt dimensioonilt_ _põhidimensioonile_. Siin on näide dimensioonide vastendamise tabelist.
 
 | Väline dimensioon | Põhidimensioon |
 |---|---|
@@ -318,7 +319,14 @@ Tootehierarhia indeksi seadistamiseks toimige järgmiselt.
 1. Vaikimisi antakse indeksite loend. Olemasoleva indeksi muutmiseks valige vastava indeksi jaotisest **Redigeeri** või **Lisa**. Uue indeksikomplekti loomiseks valige suvand **Uus indeksikomplekt**. Iga indeksikomplekti iga rea jaoks valige väljal **Dimensioon** põhidimensioonide loendi hulgast. Järgmiste väljade väärtused luuakse automaatselt.
 
     - **Komplekti number** - samasse gruppi (indeksisse) kuuluvad dimensioonid grupeeritakse kokku ja neile eraldatakse sama komplekti number.
-    - **Hierarhia** – hierarhiat kasutatakse toetatud dimensioonikombinatsioonide määratlemiseks, mille kohta saab dimensioonigrupis (indeksis) päringu esitada. Näiteks kui seadistate dimensioonigrupi, mille hierarhiajärjesus on *Stiil*, *Värv* ja *Suurus*, toimetab süsteem kolme päringugrupi tulemust. Esimene grupp on ainult stiil. Teine grupp on stiili ja värvi kombinatsioon. Ja kolmas grupp on stiili, värvi ja suuruse kombinatsioon. Teisi kombinatsioone ei toetata.
+    - **Hierarhia** – hierarhiat kasutatakse toetatud dimensioonikombinatsioonide määratlemiseks, mille kohta saab dimensioonigrupis (indeksis) päringu esitada. Näiteks kui seadistate dimensioonigrupi, mille *hierarhiajärjestus on Stiil*, *·* *Värv ja Suurus*, toetab süsteem kolme päringugrupi tulemust. Esimene grupp on ainult stiil. Teine grupp on stiili ja värvi kombinatsioon. Ja kolmas grupp on stiili, värvi ja suuruse kombinatsioon. Teisi kombinatsioone ei toetata.
+
+> [!TIP]
+> Siin on mõned vihjed, mida indeksihierarhia seadistamisel silmas pidada.
+>
+> - Sektsiooni konfiguratsioonis määratletud põhidimensioone ei pea indeksikonfiguratsioonides määratlema. Kui indeksikonfiguratsioonis on baasdimensioon uuesti määratletud, ei saa te selle indeksi alusel päringuid esitada.
+> - Kui teil on vaja teha päringuid ainult kõigi dimensioonide kombinatsioonidega liidetud varude kohta, siis seadistage üksik indeks, mis sisaldab baasdimensiooni `Empty`.
+> - Teil peab olema vähemalt üks indeksihierarhia (`Empty` näiteks põhidimensiooni sisaldav), vastasel juhul nurjuvad päringud tõrkega "Indekshierarhiat pole seatud."
 
 ### <a name="example"></a>Näide
 
@@ -372,11 +380,6 @@ Indeks võimaldab teil teha vaba kaubavaru kohta päringuid järgmistel viisidel
     - T-särk, punane, väike, tavaline, 6
     - T-särk, punane, suur, tavaline, 7
 
-> [!NOTE]
-> Sektsiooni konfiguratsioonis määratletud põhidimensioone ei tohi määratleda indeksi konfiguratsioonides.
-> 
-> Kui peate tegema päringuid ainult kõigi dimensioonide kombinatsioonidega liidetud varude kohta, saate seadistada ühe indeksi, mis sisaldab `Empty` baasdimensiooni.
-
 ## <a name="reservation-configuration-optional"></a><a name="reservation-configuration"></a>Reserveeringu konfiguratsioon (valikuline)
 
 Kui soovite kasutada esialgse reserveerimise funktsiooni, on vajalik reserveeringu konfiguratsioon. Konfiguratsioon koosneb kahest põhiosast.
@@ -390,7 +393,7 @@ Reserveerides võite soovida teada, kas vaba kaubavaru on praegu reserveerimisek
 
 Seadistades vastendamise füüsiliselt mõõtmelt arvutatud mõõtmele, lubate Varude nähtavuse teenusel automaatselt kontrollida reserveeringu saadavust vastavalt füüsilisele mõõtmele.
 
-Enne selle vastenduse seadistamist tuleb määratleda füüsilised mõõtmed, arvutatud mõõtmed ja nende andmeallikad Power Appsi lehe **Konfiguratsioon** vahekaartidel **Andmeallikas** ja **Arvutatud mõõde** (nagu varem siin teemas kirjeldatud).
+Enne vastendamise seadistamist peavad konfiguratsioonilehe andmeallika ja arvutatud mõõtu vahekaardil olema määratletud füüsilised mõõtmised, **·** **arvutatud** mõõtmised ja nende andmeallikad (nagu kirjeldatud käesolevas artiklis).**·** Power Apps
 
 Esialgse reserveerimise vastendamise määratlemiseks toimige järgmiselt.
 
@@ -460,7 +463,7 @@ Reserveerimishierarhia kirjeldab dimensioonide järjestust, mis tuleb reserveeri
 
 Reserveerimishierarhia ei sõltu tooteindeksi hierarhiast. See sõltumatus võimaldab teil juurutada kategooriahaldust, kus kasutajad saavad dimensioonid täpsemate reserveeringute nõuete määramiseks osadeks lammutada. Teie tarkvara reserveerimise hierarhia peaks sisaldama komponentidena `SiteId` ja `LocationId`, sest need konstrueerivad sektsiooni konfiguratsiooni. Reserveeringu tegemisel peate määrama tootele sektsiooni.
 
-Siin on esialgse reserveeringu hierarhia näide.
+Siin on soft reservation hierarhia näide.
 
 | Põhidimensioon | Hierarhia |
 |---|---|
@@ -508,7 +511,7 @@ Lähtestamise etapis seadistab , Inventory Visibility vaikekonfiguratsiooni, mid
 
 See jaotis kirjeldab, kuidas konfigureerida `iv` andmeallikat.
 
-##### <a name="physical-measures-configured-for-the-iv-data-source"></a>Iv andmeallika jaoks konfigureeritud füüsilised meetmed
+##### <a name="physical-measures-configured-for-the-iv-data-source"></a>Andmeallika "iv" jaoks konfigureeritud füüsilised meetmed
 
 Andmeallika `iv` jaoks konfigureeritakse järgmised füüsilised mõõtmed.
 
@@ -646,16 +649,16 @@ Andmeallika `iv` jaoks konfigureeritakse järgmised füüsilised mõõtmed.
 | Lisa | `iom` | `OnOrder` |
 | Lisa | `iv` | `SoftReservPhysical` |
 | Lisa | `iv` | `SoftReservOrdered` |
-| Lisa | `fno` | `ReservPhysical` |
-| Lisa | `fno` | `ReservOrdered` |
-| Lisa | `iv` | `ReservPhysical` |
-| Lisa | `iv` | `ReservOrdered` |
+| Liitmine | `fno` | `ReservPhysical` |
+| Liitmine | `fno` | `ReservOrdered` |
+| Liitmine | `iv` | `ReservPhysical` |
+| Liitmine | `iv` | `ReservOrdered` |
 
-#### <a name="configuration-of-the-fno-data-source"></a>Fno andmeallika konfiguratsioon
+#### <a name="configuration-of-the-fno-data-source"></a>Andmeallika FNO konfigureerimine
 
 See jaotis kirjeldab, kuidas konfigureerida `fno` andmeallikat.
 
-##### <a name="dimension-mappings-for-the-fno-data-source"></a>Fno andmeallika dimensioonivastendused
+##### <a name="dimension-mappings-for-the-fno-data-source"></a>Andmeallika "fno" dimensioonivastendused
 
 Järgmises tabelis loetletud dimensioonivastendused on konfigureeritud `fno` andmeallika jaoks.
 
@@ -687,7 +690,7 @@ Järgmises tabelis loetletud dimensioonivastendused on konfigureeritud `fno` and
 | `InventDimension11` | `CustomDimension11` |
 | `InventDimension12` | `CustomDimension12` |
 
-##### <a name="physical-measures-configured-for-the-fno-data-source"></a>Fno andmeallika jaoks konfigureeritud füüsilised meetmed
+##### <a name="physical-measures-configured-for-the-fno-data-source"></a>Andmeallika "fno" jaoks konfigureeritud füüsilised meetmed
 
 Andmeallika `fno` jaoks konfigureeritakse järgmised füüsilised mõõtmed.
 
@@ -699,11 +702,11 @@ Andmeallika `fno` jaoks konfigureeritakse järgmised füüsilised mõõtmed.
 - `ReservOrdered`
 - `OnOrder`
 
-#### <a name="configuration-of-the-pos-data-source"></a>Pos andmeallika konfiguratsioon
+#### <a name="configuration-of-the-pos-data-source"></a>Andmeallika "pos" konfiguratsioon
 
 See jaotis kirjeldab, kuidas konfigureerida `pos` andmeallikat.
 
-##### <a name="physical-measures-for-the-pos-data-source"></a>Pos andmeallika jaoks konfigureeritud füüsilised meetmed
+##### <a name="physical-measures-for-the-pos-data-source"></a>Andmeallika "pos" füüsilised meetmed
 
 Andmeallika `pos` jaoks konfigureeritakse järgmised füüsilised mõõtmed.
 
@@ -716,18 +719,18 @@ Andmeallika `pos` jaoks konfigureeritakse järgmised füüsilised mõõtmed.
 
 | Kalkulatsiooni tüüp | Andmeallikas | Füüsiline mõõde |
 |---|---|---|
-| Lisa | `fno` | `AvailPhysical` |
-| Lisa | `pos` | `PosInbound` |
+| Liitmine | `fno` | `AvailPhysical` |
+| Liitmine | `pos` | `PosInbound` |
 | Lahutamine | `pos` | `PosOutbound` |
 
-#### <a name="configuration-of-the-iom-data-source"></a>Iom andmeallika konfiguratsioon
+#### <a name="configuration-of-the-iom-data-source"></a>IOM-i andmeallika konfiguratsioon
 
 Andmeallika `iom` (nutika tellimusehalduse) jaoks on konfigureeritud järgmised füüsilised meetmed.
 
 - `OnOrder`
 - `OnHand`
 
-#### <a name="configuration-of-the-erp-data-source"></a>Erp andmeallika konfiguratsioon
+#### <a name="configuration-of-the-erp-data-source"></a>Andmeallika erp konfigureerimine
 
 Andmeallika `erp` (ettevõtte ressursiplaneerimise) jaoks on konfigureeritud järgmised füüsilised meetmed.
 

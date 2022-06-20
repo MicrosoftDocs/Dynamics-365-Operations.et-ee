@@ -1,6 +1,6 @@
 ---
 title: Panga välisvaluuta ümberarvutamine
-description: Selles teemas antakse ülevaade panga välisvaluuta ümberarvutamise protsessi kohta. Siin on teave seadistamise, protsessi käitamise, protsessi jaoks arvutuste tegemise ja ümberarvutuskannete tühistamise kohta.
+description: See artikkel annab ülevaate panga välisvaluuta ümberarvutamise protsessist. Siin on teave seadistamise, protsessi käitamise, protsessi jaoks arvutuste tegemise ja ümberarvutuskannete tühistamise kohta.
 author: kweekley
 ms.date: 05/16/2019
 ms.topic: article
@@ -13,19 +13,19 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2019-03-08
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: a8ce792fdc0c6b441deaead32db04ee0246becc9
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: d68232af3e87cef2f86213211e6c87f7d654df33
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711199"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863097"
 ---
 # <a name="bank-foreign-currency-revaluation"></a>Panga välisvaluuta ümberarvutamine
 
 [!include [banner](../includes/banner.md)]
 
 
-Selles teemas antakse ülevaade panga välisvaluuta ümberarvutamise protsessi kohta. Siin selgitatakse, kuidas protsessi seadistada ja käitada, ning antakse teavet protsessi jaoks tehtavate arvutuste kohta. Samuti selgitatakse, kuidas ümberarvutuskandeid vajaduse korral tühistada.
+See artikkel annab ülevaate panga välisvaluuta ümberarvutamise protsessist. Siin selgitatakse, kuidas protsessi seadistada ja käitada, ning antakse teavet protsessi jaoks tehtavate arvutuste kohta. Samuti selgitatakse, kuidas ümberarvutuskandeid vajaduse korral tühistada.
 
 Perioodi lõpu üks osa on raamatupidamistavade järgi pangakontode välisvaluutas saldode ümberarvutamist eri tüüpi vahetuskurssidega (praegune, ajalooline, keskmine jne). Panga välisvaluuta ümberarvutamise funktsiooni saab kasutada ühe võit mitme pangakonto ümberhindamiseks. See funktsioon ka globaalne funktsioon. Seetõttu saate ühelt lehelt ümber hinnata kõikide juriidiliste isikute pangakontosid, millele teil on juurdepääs.
 

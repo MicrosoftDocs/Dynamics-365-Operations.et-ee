@@ -1,6 +1,6 @@
 ---
 title: Tagasta seerianumbriga kontrollitud tooted kassas
-description: See teema kirjeldab võimalusi järjestatud kaupade valideerimiseks osana müügikoha rakenduse Microsoft Dynamics 365 Commerce tagastusprotsessist.
+description: See artikkel kirjeldab võimalusi seeriaks jaotatud Microsoft Dynamics 365 Commerce kaupade kinnitamise võimalusena müügikoha rakenduse tagastusprotsessi osana.
 author: hhainesms
 ms.date: 06/01/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 179d66e19c7fa81d587ea920b1c71468ec070177d7e7e68e45c2b58da2f9f5af
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b2af301180dc2284400b887ce36357660bdd86fa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716344"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860317"
 ---
 # <a name="return-serial-numbercontrolled-products-in-pos"></a>Tagasta seerianumbriga kontrollitud tooted kassas
 
 [!include [banner](includes/banner.md)]
 
-See teema kirjeldab võimalusi järjestatud kaupade valideerimiseks osana müügikoha rakenduse Microsoft Dynamics 365 Commerce tagastusprotsessist.
+See artikkel kirjeldab võimalusi seeriaks jaotatud Microsoft Dynamics 365 Commerce kaupade kinnitamise võimalusena müügikoha rakenduse tagastusprotsessi osana.
 
 > [!NOTE]
 > Commerce version 10.0.20 väljalaskes ja hilisemas versioonis on saadaval uus funktsioon nimega **Ühtne tagastuse töötlemise kogemus kassas**. Seerianumbrite valideerimiseks tagastustellimuse töötlemise ajal kassas peate selle funktsiooni sisse lülitama. Teavet teiste võimaluste kohta, mida see funktsioon pakub, kui see on sisse lülitatud, vt [loo tagastused müügikohas](POS-returns.md).

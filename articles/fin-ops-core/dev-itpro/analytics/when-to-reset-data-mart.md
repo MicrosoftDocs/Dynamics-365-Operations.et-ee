@@ -1,6 +1,6 @@
 ---
 title: Andmevaka lähtestamise KKK
-description: Selles teemas antakse vastused mõnele korduma kippuvatele küsimustele andmevaka lähtestamise kohta.
+description: See artikkel annab vastused korduma kippuvatele küsimustele data marti lähtestamise kohta.
 author: jinniew
 ms.date: 03/21/2022
 ms.topic: article
@@ -13,16 +13,16 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-05-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 61c7047096f42e71cde5e9ba1ddc59785383795a
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: d2b20ec7af9f0c6b7899617c2b8fdbf0992d7397
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8714125"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892388"
 ---
 # <a name="data-mart-resets-faq"></a>Andmevaka lähtestamise KKK
 
-Selles teemas antakse vastused mõnele korduma kippuvatele küsimustele andmevaka lähtestamise kohta. Andmevaka lähtestamine võib olla aeganõudev protsess ja olenevalt olukorrast ei pruugi see olla vajalik lahendus. Seetõttu sisaldab see teema teavet olukorrast, kus andmevaka lähtestamine võib aidata ning ka olukordi, kus ei saa.
+See artikkel annab vastused korduma kippuvatele küsimustele data marti lähtestamise kohta. Andmevaka lähtestamine võib olla aeganõudev protsess ja olenevalt olukorrast ei pruugi see olla vajalik lahendus. Seetõttu sisaldab see artikkel teavet olukorra kohta, kus data marti lähtestamine võib aidata ning ka olukordi, kus see ei suuda aidata.
 
 ## <a name="what-is-a-data-mart-reset"></a>Millal lähtestada andmevakka?
 

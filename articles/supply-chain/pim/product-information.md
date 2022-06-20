@@ -1,6 +1,6 @@
 ---
 title: Tooteteabe ülevaade
-description: Teema annab teavet tooteteabe halduse kohta. Tooteteabe haldus toimib ühiskasutuses toote definitsiooni, kategoriseerimise ja identifikaatoritega kõigi juriidiliste isikute lõikes ja samuti toote konkreetsete konfiguratsioonidega, et sobida äriprotsessidesse.
+description: See artikkel annab teavet tooteteabe halduse kohta. Tooteteabe haldus toimib ühiskasutuses toote definitsiooni, kategoriseerimise ja identifikaatoritega kõigi juriidiliste isikute lõikes ja samuti toote konkreetsete konfiguratsioonidega, et sobida äriprotsessidesse.
 author: t-benebo
 ms.date: 06/01/2017
 ms.topic: overview
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2c8aabeed66f864d1d1060a6452a3b554611c295
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: fa06e718d2acc44cfced7db842814c48fb210d1e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063312"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8867865"
 ---
 # <a name="product-information-overview"></a>Tooteteabe ülevaade
 
@@ -28,7 +28,7 @@ ms.locfileid: "8063312"
 
 
 
-Teema annab teavet tooteteabe halduse kohta. Tooteteabe haldus toimib ühiskasutuses toote definitsiooni, kategoriseerimise ja identifikaatoritega kõigi juriidiliste isikute lõikes ja samuti toote konkreetsete konfiguratsioonidega, et sobida äriprotsessidesse. 
+See artikkel annab teavet tooteteabe halduse kohta. Tooteteabe haldus toimib ühiskasutuses toote definitsiooni, kategoriseerimise ja identifikaatoritega kõigi juriidiliste isikute lõikes ja samuti toote konkreetsete konfiguratsioonidega, et sobida äriprotsessidesse. 
 
 Tooteteave on tarneahela ja kaubandusrakenduste alus kõigi valdkondade lõikes. See viitab protsessidele ja tehnoloogiatele, mis keskenduvad tooteid puudutava teabe tsentraalsele haldamisele (nt tarneahelate lõikes). On väga tähtis, et kasutataks ühiseid tootedefinitsioone, dokumentatsiooni, atribuute ja identifikaatoreid. Mitmesugustes ärilahenduse moodulites on vajalik tootepõhine teave ja konfiguratsioon, et hallata konkreetsete toodete, tooteperede või tootekategooriatega seotud äriprotsesse.
 

@@ -1,6 +1,6 @@
 ---
-title: Organisatsiooni hierarhiate seadistamine
-description: Selle teema all kirjeldatakse organisatsiooni hierarhiate seadistust rakenduses Microsoft Dynamics 365 Commerce.
+title: Organisatsiooni hierarhiate häälestus
+description: See artikkel kirjeldab, kuidas seadistada organisatsiooni hierarhiaid Microsoft Dynamics 365 Commerce.
 author: samjarawan
 ms.date: 01/27/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: ce0732f32a9a80fc5b0ede7ae9f1c1ab9a68a89b2fb0b1821cb5df123ca5ca4a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 01ba05566e966eb62a4df0b7b97ee3a442027936
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6746012"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847676"
 ---
 # <a name="set-up-organization-hierarchies"></a>Organisatsiooni hierarhiate häälestus
 
 [!include [banner](includes/banner.md)]
 
-Selle teema all kirjeldatakse organisatsiooni hierarhiate seadistust rakenduses Microsoft Dynamics 365 Commerce.
+See artikkel kirjeldab, kuidas seadistada organisatsiooni hierarhiaid Microsoft Dynamics 365 Commerce.
 
 Enne kanalite loomist peate veenduma, et teie organisatsiooni hierarhiad on seadistatud.
 
@@ -34,7 +34,7 @@ Saate kasutada organisatsiooni hierarhiaid oma äri vaatamiseks ja selle aruandl
 Enne organisatsiooni hierarhia loomist tuleb luua organisatsioonid. Lisateabe saamiseks vaadake jaotist [Juriidiliste isikute loomine](channels-legal-entities.md) või [Tootmisüksuste loomine](../fin-ops-core/fin-ops/organization-administration/tasks/create-operating-unit.md?toc=/dynamics365/commerce/toc.json).
 
 
-Lisateavet vt järgmistest teemadest.
+Lisateavet vt järgmistest artiklitest.
 - [Organisatsioonide ja organisatsioonihierarhiate ülevaade](../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/commerce/toc.json)
 - [Organisatsiooni hierarhia kavandamine](../fin-ops-core/fin-ops/organization-administration/plan-organizational-hierarchy.md?toc=/dynamics365/commerce/toc.json)
 - [Organisatsioonihierarhia loomine](../fin-ops-core/fin-ops/organization-administration/tasks/create-organization-hierarchy.md?toc=/dynamics365/commerce/toc.json)

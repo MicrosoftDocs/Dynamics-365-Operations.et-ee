@@ -1,6 +1,6 @@
 ---
 title: Testimise automatiseerimine elektroonilise aruandluse abil
-description: Selles teemas selgitatakse, kuidas saate kasutada elektroonilise aruandluse (ER) raamistiku põhifunktsiooni mõnede funktsioonide testimise automatiseerimiseks.
+description: See artikkel selgitab, kuidas te saate kasutada elektroonilise aruandluse (ER) raamistiku põhifunktsiooni funktsioonide automaatseks testimiseks.
 author: NickSelin
 ms.date: 07/02/2019
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: da69cc903197dbfae536c8494f126074c51aa77f9522d57f2673c97b1e682d9d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: df2baa988bb634db11d819dd84ef73eaa560bab9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749796"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892765"
 ---
 # <a name="automate-testing-with-electronic-reporting"></a>Testimise automatiseerimine elektroonilise aruandluse abil
 
 [!include[banner](../includes/banner.md)]
 
-Selles teemas selgitatakse, kuidas saate kasutada elektroonilise aruandluse (ER) raamistikku mõnede funktsioonide testimise automatiseerimiseks. Selles teemas toodud näide näitab, kuidas automatiseerida hankija maksetöötluse testimist.
+See artikkel selgitab, kuidas te saate kasutada elektroonilise aruandluse (ER) raamistikku mõne funktsiooni automaatseks testimiseks. Selles veerus toodud näide näitab, kuidas automatiseerida hankija makse töötlemise testimist.
 
 Rakendus kasutab hankija maksetöötluse ajal makseväljade ja vastavate dokumentide loomiseks ER-raamistikku. ER-raamistik koosneb andmemudelist, mudeli vastendustest ja vorminduse komponentidest, mis toetavad makse töötlemist erinevate makseviiside jaoks ja erinevates vormingutes dokumentide loomist. Neid komponente saab alla laadida lahendusest Microsoft Dynamics Lifecycle Services (LCS) ja importida eksemplari.
 
@@ -54,15 +54,15 @@ Funktsionaalsed lauskasutajad saavad teostada kasutajate vastuvõtu ja integreer
 
 ## <a name="prerequisites"></a>Eeltingimused
 
-Enne selles teemas kirjeldatud ülesannete lõpetamist peate täitma järgmised eeltingimused.
+Enne kui saate selles artiklis olevad ülesanded lõpule viia, peate lõpule täitma järgmised eeltingimused:
 
 - Rakendage topoloogiat, mis toetab testimise automatiseerimist. **Süsteemi administraatori** rolli jaoks peab teil olema juurdepääs selle topoloogia eksemplarile. See topoloogia peab sisaldama demo andmeid, mida selles näites kasutatakse. Lisateavet vt [Pideva koostamise ja testimise automaatikat toetavate keskkondade juurutamine ja kasutamine](../perf-test/continuous-build-test-automation.md).
-- Kasutaja vastuvõtu ja integreerimise testide automaatseks teostamiseks peate paigaldama RSATi topoloogiasse, mida kasutate, ja selle sobivalt konfigureerima. Lisainfot RSATi installimise ja konfigureerimise kohta, et see töötaks Finance and Operationsi rakendustega ja Azure DevOpsiga, vaadake: [Regression Suite Automation Tool](https://www.microsoft.com/download/details.aspx?id=57357). Pöörake tähelepanu tööriista kasutamise eeltingimustele. Järgmisel joonisel on näide RSATi seadistuste kohta. Sinine ristkülik ümbritseb parameetrid, mis määravad juurdepääsu Azure DevOps-ile. Roheline ristkülik ümbritseb parameetrid, mis määravad juurdepääsu eksemplarile.
+- Kasutaja vastuvõtu ja integreerimise testide automaatseks teostamiseks peate paigaldama RSATi topoloogiasse, mida kasutate, ja selle sobivalt konfigureerima. Lisainfot RSATi installimise ja konfigureerimise ning Finance and Operations rakenduste ja Azure DevOps'iga toimimise konfigureerimise kohta vt [Regression Suite Automation Tool](https://www.microsoft.com/download/details.aspx?id=57357). Pöörake tähelepanu tööriista kasutamise eeltingimustele. Järgmisel joonisel on näide RSATi seadistuste kohta. Sinine ristkülik ümbritseb parameetrid, mis määravad juurdepääsu Azure DevOps-ile. Roheline ristkülik ümbritseb parameetrid, mis määravad juurdepääsu eksemplarile.
 
     ![RSAT sätted.](media/GER-Configure.png "RSAT-i sätete dialoogiboksi kuvatõmmis")
 
 - Testjuhtumite õige käivitusjärjestuse tagamiseks komplektidesse sorteerimiseks, et saaksite koguda testkäivituste logisid edasiseks aruandluseks ja uurimiseks, peab teil olema rakendatud topoloogiast juurdepääs Azure DevOps-ile.
-- Selle teema näite lõpetuseks soovitame teil alla laadida [ER-i kasutamine RSAT-testideks](https://go.microsoft.com/fwlink/?linkid=874684). See zip-fail sisaldab järgmisi tegevusjuhiseid.
+- Selle artikli näite lõpuleviimiseks on soovitatav RSAT-testide [jaoks alla laadida ER kasutus](https://go.microsoft.com/fwlink/?linkid=874684). See zip-fail sisaldab järgmisi tegevusjuhiseid.
 
     | Sisu                                           | Faili nimi ja asukoht |
     |---------------------------------------------------|------------------------|

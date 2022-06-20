@@ -1,6 +1,6 @@
 ---
 title: Topeltkirjutusprobleemide tõrkeotsing finants- ja äritoiminguterakendustes
-description: See teema pakub tõrkeotsingu teavet, mis aitab teil lahendada finantside ja toimingute rakenduste topeltkirjutuse mooduli probleemid.
+description: See artikkel pakub tõrkeotsingu teavet, mis aitab teil lahendada probleeme topeltkirjutuse mooduliga finantside ja toimingute rakendustes.
 author: RamaKrishnamoorthy
 ms.date: 04/18/2022
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 0696d525e985f1cfcac1998d4c0bd8a380ca9551
-ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
+ms.openlocfilehash: 36f7969eb0bdbc64ade14a5bb97b4b708486d226
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "8613878"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864568"
 ---
 # <a name="troubleshoot-dual-write-issues-in-finance-and-operations-apps"></a>Topeltkirjutusprobleemide tõrkeotsing finants- ja äritoiminguterakendustes
 
@@ -22,10 +22,10 @@ ms.locfileid: "8613878"
 
 
 
-Selles teemas antakse tõrkeotsingu teavet topeltkirjutuse integreerimiseks finantside ja toimingute rakenduste ning rakenduste vahel Dataverse. See annab teavet, mis aitab teil lahendada probleeme topeltkirjutuse **mooduliga** finantside ja toimingute rakendustes.
+See artikkel pakub tõrkeotsingu teavet topeltkirjutuse integreerimiseks finantside ja toimingute rakenduste ning rakenduste vahel Dataverse. See annab teavet, mis aitab teil lahendada probleeme topeltkirjutuse **mooduliga** finantside ja toimingute rakendustes.
 
 > [!IMPORTANT]
-> Mõne selles teemas käsitletava probleemi korral on nõutav kas süsteemiadministraatori roll või Microsoft Azure Active Directory (Azure AD) rentniku administraatori mandaat. Kõigis probleeme kirjeldavates jaotistes täpsustatakse, kas konkreetne roll või mandaat on nõutav.
+> Mõned küsimused, mida see artikkel käsitleb, võivad nõuda kas süsteemiadministraatori rolli või Microsofti Azure Active Directory (Azure AD) rentniku administraatori mandaate. Kõigis probleeme kirjeldavates jaotistes täpsustatakse, kas konkreetne roll või mandaat on nõutav.
 
 ## <a name="you-cant-load-the-dual-write-module-in-a-finance-and-operations-app"></a>Finantside ja toimingute rakenduses ei saa topeltkirjutuse moodulit laadida.
 

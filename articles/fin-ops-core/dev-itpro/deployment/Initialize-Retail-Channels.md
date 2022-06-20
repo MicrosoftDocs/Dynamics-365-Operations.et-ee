@@ -1,8 +1,8 @@
 ---
 title: Commerce Scale Uniti (pilv) lähtestamine
-description: Selles teemas selgitatakse, kuidas Commerce Scale Uniti (pilve) lähtestada Microsoft Dynamics 365 Commerce.
+description: See artikkel selgitab, kuidas käivitada Commerce Scale Uniti (pilve) sisse Microsoft Dynamics 365 Commerce.
 author: AamirAllaq
-ms.date: 02/04/2022
+ms.date: 06/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -11,176 +11,178 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: aamiral
 ms.search.validFrom: 2018-4-30
-ms.openlocfilehash: 84e70515accde161e7efa36755edec68d26be952
-ms.sourcegitcommit: fefe93f3f44d8aa0b7e6d54cc4a3e5eca6e64feb
+ms.openlocfilehash: 969dd220a7b73a676b9cf5ac26223ebd9b3f2296
+ms.sourcegitcommit: ddcb62bb5fbf26a1178c2bb1aec45a3d2362339e
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8092221"
+ms.lasthandoff: 06/07/2022
+ms.locfileid: "8942848"
 ---
 # <a name="initialize-commerce-scale-unit-cloud"></a>Commerce Scale Uniti (pilv) lähtestamine
 
 [!include[banner](../includes/banner.md)]
 
-Selles teemas selgitatakse, kuidas Commerce Scale Uniti (pilve) lähtestada Microsoft Dynamics 365 Commerce.
+See artikkel selgitab, kuidas käivitada Commerce Scale Uniti (pilve) sisse Microsoft Dynamics 365 Commerce.
 
-Kui kasutate Tier-2 liivakasti või tootmiskeskkonda, millel on rakenduse versioon 8.1.2.x või uuemad versioonid, peate enne jaemüügikanali funktsiooni kasutamist kas müügikoha (POS) toiminguteks või e-kaubanduse toiminguteks, mis kasutavad pilves Retail Serverit. Lähtestamine juurutab Commerce Scale Uniti (pilve).
+Kui kasutate kiht-2 ruutu või tootmiskeskkonda, mille rakenduse versioon on 8.1.2.x või uuem, peate lähtestama commerce Scale Uniti (pilve), enne kui saate kasutada jaemüügikanali funktsioone kas müügikoha (POS) toimingutes või e-kaubanduse toimingutes, mis kasutavad Jaemüügiserverit pilves. Lähtestamine juurutab Commerce Scale Uniti (pilve).
 
 > [!IMPORTANT]
-> Olemasolevate klientide jaoks, kes kasutavad pilves jaemüügikanali funktsioone, nõuame, et värskendaksite oma jaemüügikanaleid, et kasutada Commerce Scale Uniti. Uued keskkonnad, mis on juurutatud ilma Commerce Scale Unitita, ei saa enam pilve majutatud jaemüügikanali komponentide kvaliteedi- ja teenusevärskendusi. Klientidele, kes kasutavad ainult Commerce Scale Uniti (ise hostitud) ei ole vaja toiminguid teha. Kui vajate laiendust, võtke ühendust oma Microsoft FastTracki lahendusearhitektiga.
+> Olemasolevate klientide jaoks, kes kasutavad pilves jaemüügikanali funktsioone, on äri jätkuva ja katkestamata toe tagamiseks vaja värskendada jaemüügikanaleid Commerce Scale Uniti kasutamiseks. Ilma Commerce Scale Unitita juurutatud uued keskkonnad ei saa enam pilve majutatud jaemüügikanali komponentide kvaliteedi ja teenuse värskendusi. Tegevust ei nõuta klientide puhul, kes kasutavad ainult Commerce Scale Uniti (ise majutatud). Kui vajate laiendust, pöörduge oma Microsoft FastTracki lahenduse arhitekti poole.
 
 ## <a name="prerequisites"></a>Eeltingimused
 
-1. Juurutage Tier-2 liivakast või tootmiskeskkond, mille versioon on 8.1.2.x või uuemad versioonid.
-2. Saate ise juurutada kuni 2 Commerce Scale Ühikut keskkonna kohta. Kui vajate keskkonna kohta rohkem kui 2 Commerce Scale Ühikut keskkonna kohta, looge elutsükli teenustes Microsoft Dynamics (LCS) tugiteenuse taotlus ja sisestage **taotlus täiendava Commerce Scale Uniti** kohta ning märkige keskkonna ID, kaubandusskaala ühikute arv ja soovitud andmekeskuse piirkonnad. Taotlus täidetakse viie tööpäeva jooksul. Kui te ei vaja rohkem kui 2 Commerce Scale Ühikut keskkonna kohta, ei pea te tugiteenuse taotlust looma. 
-3. Enne Commerce Scale Uniti lähtestamist peavad teil olema elutsükli teenuste projekti omaniku õigused.
-4. Veenduge, et jaemüügi litsentsi konfiguratsioonivõtmed on teie keskkonnas lubatud. Lisateavet vt [teemast Litsentsikoodide ja konfiguratsioonivõtmete aruanne](../sysadmin/license-codes-configuration-keys-report.md). Commerce Scale Uniti kasutamiseks peavad järgmised klahvid sisse lülitama.
+1. Juurutage kiht-2info või tootmiskeskkond, mille versioon on 8.1.2.x või uuem.
+2. Saate ise juurutada kuni 2 Commerce Scale Unitsi keskkonna kohta. Kui vajate elutsükli teenustes (LCS Microsoft Dynamics) rohkem kui 2 Commerce Scale Unitsi keskkonna kohta, **looge tugitaotlus ja sisestage commerce Scale Uniti** lisataotlus ning näidake keskkonna ID-d, Commerce Scale Unitsi arvu ja soovitud andmekeskuste piirkondi. Taotlus täidetakse viie tööpäeva jooksul. Kui te ei nõua rohkem kui 2 Commerce Scale Unitsi keskkonna kohta, ei pea te tugitaotlust looma. 
+3. Enne Commerce Scale Uniti lähtestamist peavad teil olema projekti omaniku õigused elutsükli teenustes.
+4. Veenduge, et jaemüügi litsentsi konfiguratsioonivõtmed on teie keskkonnas lubatud. Lisateavet vt litsentsikoodide [ja konfiguratsioonivõtmete aruandest](../sysadmin/license-codes-configuration-keys-report.md). Commerce Scale Uniti kasutamiseks peavad teil järgmised võtmed olema sisse lülitatud.
 
     - RetailBasic
-    - RetaileCommerce – kui kavatsete kasutada e-kaubandust Dynamics 365 Commerce.
-    - RetailGiftCard - Kui kavatsete kinkekaarte kasutada.
-    - RetailInvent – kui kavatsete kasutada varusid.
-    - RetailModernPos - Kui kavatsete kasutada müügikohta (kassa).
-    - RetailReplenishment – kui kavatsete kasutada täiendusi.
+    - RetaileCommerce – kui plaanite kasutada E-commerce'i rakenduse <a0/&a; jaoks,Dynamics 365 Commerce
+    - RetailGiftCard – kui plaanite kinkekaarte kasutada.
+    - RetailInvent – kui plaanite varusid kasutada.
+    - RetailModernPos – kui plaanite kasutada kassat;
+    - RetailReplenishment – kui plaanite varusid kasutada.
     - RetailScheduler
-    - RetailStores – kui kavatsete kassat kasutada.
+    - RetailStores – kui plaanite kassat kasutada.
 
 
 ## <a name="region-availability"></a>Piirkonna saadavus
-Commerce Scale Unit on juurutamiseks saadaval järgmistes piirkondades.
+Commerce Scale Unit on saadaval juurutamiseks järgmistes regioonides.
 
-| Globaalne asukoht | Regioon              | Kättesaadavus        |
-|-----------------|---------------------|---------------------|
-| AMERICAS        | Ida-USA             | Üldiselt saadaval |
-| AMERICAS        | Ida-USA 2           | Üldiselt saadaval |
-| AMERICAS        | Kesk-USA põhjaosa    | Üldiselt saadaval |
-| AMERICAS        | Kesk-USA lõunaosa    | Üldiselt saadaval |
-| AMERICAS        | Kesk-USA          | Üldiselt saadaval |
-| AMERICAS        | Lääne-USA             | Üldiselt saadaval |
-| AMERICAS        | Lääne-USA 2           | Üldiselt saadaval |
-| AMERICAS        | Kanada kesklinn      | Piiratud võimsus    |
-| AMERICAS        | Kanada idaosa         | Piiratud võimsus    |
-| AMERICAS        | Usa lääneosa     | Piiratud võimsus    |
-| APAC            | Ida-Austraalia      | Üldiselt saadaval |
-| APAC            | Kagu-Aasia      | Üldiselt saadaval |
-| APAC            | Ida-Jaapan          | Üldiselt saadaval |
-| APAC            | Lääne-Jaapan          | Üldiselt saadaval |
-| APAC            | Kagu-Austraalia | Piiratud võimsus    |
-| APAC            | Ida-Aasia           | Piiratud võimsus    |
-| APAC            | India lõunaosas         | Piiratud võimsus    |
-| APAC            | India Kesk-Euroopa       | Piiratud võimsus    |
-| EMEA            | Lääne-Euroopa         | Üldiselt saadaval |
-| EMEA            | Põhja-Euroopa        | Üldiselt saadaval |
-| EMEA            | Ühendkuningriigi lõunaosa            | Piiratud võimsus    |
-| EMEA            | Ühendkuningriigi lääs             | Piiratud võimsus    |
+| Globaalne asukoht | Regioon              | Kättesaadavus        | Kommentaarid                  |
+|-----------------|---------------------|---------------------|---------------------------|
+| AMERICAS        | Ida-USA             | Üldiselt saadaval |                           |
+| AMERICAS        | Ida-USA 2           | Üldiselt saadaval |                           |
+| AMERICAS        | Kesk-USA põhjaosa    | Piiratud võimsus    |                           |
+| AMERICAS        | Kesk-USA lõunaosa    | Piiratud võimsus    |                           |
+| AMERICAS        | Kesk-USA          | Üldiselt saadaval |                           |
+| AMERICAS        | Lääne-USA             | Üldiselt saadaval |                           |
+| AMERICAS        | Lääne-USA 2           | Üldiselt saadaval |                           |
+| AMERICAS        | Kanada keskpank      | Piiratud võimsus    |                           |
+| AMERICAS        | Kanada, Ida         | Piiratud võimsus    |                           |
+| AMERICAS        | Lääne-Kesk-USA     | Piiratud võimsus    |                           |
+| APAC            | Ida-Austraalia      | Üldiselt saadaval |                           |
+| APAC            | Kagu-Aasia      | Piiratud võimsus | Juurutused pole lubatud    |
+| APAC            | Ida-Jaapan          | Üldiselt saadaval |                           |
+| APAC            | Lääne-Jaapan          | Üldiselt saadaval |                           |
+| APAC            | Kagu-Austraalia | Üldiselt saadaval |                           |
+| APAC            | Ida-Aasia           | Piiratud võimsus    |                           |
+| APAC            | India ( Lõuna-India)         | Piiratud võimsus | Juurutused pole lubatud    |
+| APAC            | India Central       | Piiratud võimsus    | Vajab kinnitusprotsessi |
+| EMEA            | Lääne-Euroopa         | Üldiselt saadaval |                           |
+| EMEA            | Põhja-Euroopa        | Üldiselt saadaval |                           |
+| EMEA            | UK Lõuna            | Piiratud võimsus    |                           |
+| EMEA            | UK, Lääs             | Piiratud võimsus    |                           |
+| Šveits     | Põhja-Šveits   | Piiratud võimsus    | Vajab kinnitusprotsessi |
+| AÜE             | Põhja-AÜE           | Piiratud võimsus    | Vajab kinnitusprotsessi |
 
-Piiratud võimsusega piirkondades on kasutuselevõtuvõimsus äärmiselt piiratud. Kasutuselevõtu taotlusi hinnatakse iga juhtumi puhul eraldi. Kui teil on piiratud võimsusega piirkondades juurutamise jaoks kaalukas ärivajadus, võite esitada ootenimekirja lisamiseks tugiteenuse taotluse.
+Piiratud võimsusega regioonides on juurutamisvõimsus väga piiratud. Juurutamistaotlusi hinnatakse juhtumi kaupa. Kui teil on piiratud võimsusega regioonides ärisuhteid vaja juurutada, saate ooteloendisse lisata tugitaotluse. Võimsuse piiratud alad ei võimalda praegu Commerce Scale Uniti juurutamist. 
 
-![Kaart, mis näitab piirkonna saadavust.](media/Commerce-Scale-Unit-Region-Availability.png "Kaart, mis näitab piirkonna saadavust")
+![Saate vastendada regiooni kättesaadavusega.](media/Commerce-Scale-Unit-Region-Availability.png "Kuva regiooni saadavust kuvav vastendamine")
 
-## <a name="initialize-commerce-scale-unit-as-part-of-a-new-environment-deployment"></a>Commerce Scale Uniti lähtestamine uue keskkonnajuurutuse osana
+## <a name="initialize-commerce-scale-unit-as-part-of-a-new-environment-deployment"></a>Commerce Scale Uniti lähtestamine uue keskkonna juurutamise osana
 
-Palun veenduge, et peakorter on saadaval. See on vajalik skaalaüksuse registreerimiseks peakorteris lähtestamisprotsessi ajal. Kui peakorter on hoolduses, ei ole soovitatav skaalaüksust lähtestada, kuna see ei pruugi hooldusprotsessi ajal saadaval olla.
+Veenduge, et peakontor on saadaval. See on vajalik, et registreerida kaaluühik lähtestamisprotsessi ajal peakontoris. Kaaluühikut ei soovitata käivitada, kui peakontor on hooldamis all, kuna see ei pruugi töö käigus muutuda kättesaadavaks.
 
-1. Veenduge, et peakontori keskkond on saadaval, mitte [hooldusrežiimis](../sysadmin/maintenance-mode.md).
-2. Valige LCS-i lehel Keskkonna üksikasjad suvand **Keskkonnafunktsioonid \> Kaubandus**.
-3. Valige lehel Commerce'i häälestuse juurutus käsk **Lähtesta.**
+1. Veenduge, et peakontori keskkond on saadaval ja mitte [hooldusrežiimis](../sysadmin/maintenance-mode.md).
+2. LCS-i keskkonna üksikasjade lehel valige keskkonnafunktsioonid **\> Commerce**.
+3. Valige commerce'i häälestamise juurutamise lehel suvand **Lähtesta**.
 4. Valige lähtestamiseks Commerce Scale Uniti versioon.
 5. Valige piirkond, kus Commerce Scale Unit lähtestada.
 
 ## <a name="configure-channels-to-use-commerce-scale-unit"></a>Kanalite konfigureerimine Commerce Scale Uniti kasutamiseks
 
-Pärast Commerce Scale Uniti juurutamist peate tagama, et teie kanalid on konfigureeritud andmebaasi selle jaoks kasutama. 
+Pärast Commerce Scale Uniti juurutamist peate tagama, et teie kanalid on konfigureeritud selle jaoks andmebaasi kasutama. 
 
-Kanalite konfigureerimiseks Commerce Scale Uniti andmebaasi kasutamiseks tehke järgmist.
+Oma kanalite konfigureerimiseks Commerce Scale Uniti andmebaasi kasutamiseks järgige neid samme.
 
-1. Avage Commerce'i peakontoris **jae- ja kaubandus \> peakontori häälestus \> Commerce Scheduler \> Channeli andmebaas**.
-1. Valige vasakpoolsel paanil kanaliandmebaas.
-1. **Valige kiirkaardil** Jaemüügikanal **Lisa** ja seejärel valige ripploendist oma jaemüügikanal.
-1. Valige **Lisa** ja seejärel valige ripploendist oma veebikanal. 
+1. Minge Commerce Headquartersi Rakenduse Retail ja **Commerce Headquarters häälestamise \> rakenduse \> Commerce Scheduler \> Channel andmebaasi**.
+1. Valige vasakul paanil kanali andmebaas.
+1. **Jaemüügikanali kiirkaardil** valige **käsk** Lisa ja seejärel valige ripploendist jaemüügikanal.
+1. **Valige** lisa ja seejärel valige ripploendist oma võrgukanal. 
 
-Kui olete lõpetanud, minge jae- ja kaubandus- ja kaubandus-kaubanduse **IT-jaotuse \> ajakavasse \>** ning käivitage töö 9999.
+Kui olete lõpetanud, minge jaemüügi **ja rakenduse Commerce Retail ja äri it-jaotuse \>\> graafikusse** ja käivitage töö 9999.
 
 > [!NOTE] 
-> Töö 9999 sünkroonib kõik uued tooted ja kliendid Commerce Scale Unitiga. See protsess võib võtta kaua aega. Kui kanal peab olema saadaval ainult e-kaubanduse saidi koostaja konfiguratsiooni jaoks, saate töö 9999 asemel käivitada töö 1070.
+> Töö 9999 sünkroonib kõik uued tooted ja kliendid Commerce Scale Uniti. See protsess võib võtta palju aega. Kui kanal peab olema saadaval ainult e-äri saidi koostaja konfiguratsiooni jaoks, saate töö 9999 asemel käivitada töö 1070.
 
-### <a name="database-refresh-and-commerce-scale-units"></a>Andmebaasi värskendamine ja kaubanduse skaala ühikud
+### <a name="database-refresh-and-commerce-scale-units"></a>Andmebaasi värskendamine ja äriskaala ühikud
 
-Enne alustamist veenduge, et olete tuttav juhistega [, mida pärast andmebaasi värskendamist lõpule viia keskkondade jaoks, mis kasutavad Commerce'i funktsioone](../database/database-refresh.md).
+Enne alustamist veenduge, et olete tuttav [läbitud sammudega pärast andmebaasi värskendamist Commerce'i funktsiooni kasutava keskkonna puhul](../database/database-refresh.md).
 
-Skaalaühiku kanali andmebaasikirjeid (kanali andmebaasi vormis) ei saa andmebaasi värskendamise osana keskkondades teisaldada. Seda seetõttu, et kirjed esindavad keskkonnapõhist konfiguratsiooni.
+Kaaluühiku kanali andmebaasi kirjeid (kanali andmebaasi vormis) ei saa andmebaasi värskenduse osana läbi kogu keskkonda teisaldada. Seda seetõttu, et kirjed tähistavad keskkonnaspetsiifilist konfiguratsiooni.
 
-Pärast andmebaasi värskendamist saate taastada skaalaüksuse kanaliandmebaasi kirje, andes LCS-is välja oma skaalaüksuse uuesti juurutamise. Mis tahes juurutus- või teenindustoimingud skaalaüksuses üritavad skaalaüksust peakorteris registreerida, kui registreering tuvastatakse puuduvana.
+Pärast andmebaasi värskendamist saate luua uuesti kaaluühiku kanali andmebaasi kirje, väljasdes taasjuurutades oma kaaluühiku LCS-s. Iga juurutamine või hooldamine kaaluühikus üritab registreerida kaaluühikut peakontoris, kui registreerimine tuvastatakse puuduvana.
 
-Saate välja anda skaalaüksuse uuesti juurutamise ilma komponente muutmata, valides sama versiooni juurutamise, mille skaalaüksus juba on. Seda saab LCS-is teha järgmiste toimingutega.
+Saate väljasta kaaluühiku taasjuurumise ilma komponente muutmata, valides sama versiooni, mille juures teie kaaluühik juba on. Seda saab teha LCS-s järgmiste sammude abil:
 
-1. Valige LCS-i lehel Keskkonna üksikasjad suvand **Keskkonnafunktsioonid \> Jaemüük**.
-2. Valige häälestuse juurutuslehel skaalaühik, mille soovite ümber paigutada.
-3. Valige skaalaüksuse töömenüüs **Värskendus**.
-4. Valige liuguri ripploendis **Valik versioon** suvand **Määra versioon**.
-5. Tippige tekstiväljale jaotises **Versiooni** määramine skaalaühiku jaoks kuvatud versioon, mis kuvatakse lisaks praeguse versiooni **sildile**.
-6. Klõpsake **nuppu Värskenda**.
+1. Valige LCS-i keskkonna üksikasjade lehel keskkonnafunktsioonid **Jaekaubandus \>**.
+2. Valige häälestuse juurutamise lehel kaaluühik, mida soovite uuesti juurutada.
+3. Valige kaaluühiku operatsioonimenüü suvand **Uuenda**.
+4. Valige versiooni valimine slaidi **ripploendist** **suvand Määra versioon**.
+5. Tippige tekstiväljale "Määra **versioon"** oma kaaluühiku jaoks näidatav versioon, mis kuvatakse praeguse versiooni **sildi** peale.
+6. Klõpsake nuppu **Uuenda**.
 
-Te ei pea valima **värskenduslaiendeid**, isegi kui olete varem laiendusi rakendanud, kuna skaalaüksusele rakendatud viimane laienduspakett valitakse skaalaüksuse värskendamisel automaatselt.
+Te ei pea valima **värskendamislaiendeid** isegi juhul, kui olete laiendusi juba rakendanud, kuna kaaluühikule rakendatud viimane laienduspakett komplekttakse kaaluühiku uuendamisel automaatselt.
 
-Kui teil on mitu skaalaühikut, peate iga skaalaühiku puhul ülaloleva toimingu tegema. Soovi korral saate neid toiminguid teha paralleelselt.
+Kui teil on mitu skaalaühikut, peate sooritama operatsiooni igale kaaluühikule. Soovi korral võite teha neid toiminguid paralleelselt.
 
-## <a name="deploy-additional-commerce-scale-units-optional"></a>Täiendavate kaubanduse mastaabiüksuste juurutamine (valikuline)
+## <a name="deploy-additional-commerce-scale-units-optional"></a>Commerce Scale Unitsi täiendavate juurutamine (valikuline)
 
-Pärast Commerce Scale Unit'i lähtestamist saate ise juurutada teise skaalaühiku, kui teie litsents annab teile selleks õiguse. Rohkem kui kahe mastaabiühiku juurutamiseks peate looma tugitaotluse. Toetaotluses märkige vajalike kaubanduse mastaabiühikute arv, keskkonna nimi ja soovitud piirkonnad. Lisateavet litsentsimise kohta vt [Dynamics 365 litsentsimise juhend](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409). 
+Pärast Commerce Scale Uniti lähtestamist saate teise kaaluühiku kasutusele võtta, kui teie litsents seda lubab. Rohkem kui kahe kaaluühiku juurutamiseks peate looma tugitaotluse. Tugitaotluses peate lisama Commerce Scale Unitsi ühikute arvu, keskkonna nime ja soovitud regioonid. Lisateavet litsentsimise kohta vt [Dynamics 365 litsentsijuhendist](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409). 
 
-Iga täiendava Commerce Scale üksuse jaoks, mille juurutate, soovitame luua eraldi kanali andmebaasi rühm, järgides neid samme.
+Iga täiendava juurutatud Commerce Scale Uniti puhul on soovitatav luua eraldi kanali andmebaasi grupp, järgides neid samme.
 
-1. Commerce'i peakontoris minge aadressile **Jaemüük ja kaubandus >Retail Headquarters > Jaemüügiplaanija häälestus > Kanalite andmebaasirühm**.
+1. Minge Äri peakontoris jaemüügi **ja äri > > Retail Headquarters kaupluse andmeedastaja > kanali andmebaasi grupis**.
 2. Looge uus kanali andmebaasigrupp.
-3. Mine lehele **Jaemüük ja kaubandus >Retail Headquarters > Jaemüügi ajakava seadistamine > Kanalite andmebaas** ja valige kanali andmebaas, mis vastab äsja loodud kaubanduse mastaabiühikule.
-4. Valige **Muuda** ja valige uus kanali andmebaasi rühm.
+3. Minge jaemüügi ja **Retail Headquarters äri > > Kaupluse andmeedastaja häälestus > Kanali** andmebaasi ja valige kanali andmebaas, mis vastab vastloodud Äriskaala ühikule.
+4. Valige **Redigeeri** ja valige uus kanali andmebaasi grupp.
 5. Valige käsk **Salvesta**.
-6. Valige **Käivitage täielik andmete sünkroonimine** valitud kanali andmebaasi jaoks.
+6. Valige **valitud kanali andmebaasi jaoks** suvand Käivita andmete täielik sünkroonimine.
 
-## <a name="additional-considerations-if-you-initialize-cloud-hosted-commerce-channel-components-in-an-existing-environment"></a>Täiendavad kaalutlused pilve hostitud kaubanduskanali komponentide lähtestamisel olemasolevas keskkonnas
+## <a name="additional-considerations-if-you-initialize-cloud-hosted-commerce-channel-components-in-an-existing-environment"></a>Täiendavad kaalutlused pilve majutatud Ärikanali komponentide lähtestamisel olemasolevas keskkonnas
 
-Kui kasutate keskkonnas juba pilvehostitud Commerce'i kanali komponente, aitab Commerce Scale Unit'i lähtestamine vähendada nende komponentide värskendamisel tekkivaid seisakuid. Enne Commerce Scale Unit lähtestamist on vaja täiendavat planeerimist.
+Kui kasutate juba pilves majutatud Commerce Kanali komponente keskkonnas, aitab Commerce Scale Uniti lähtestamine nende komponentide värskendamisel etteaega vähendada. Enne Commerce Scale Uniti lähtestamist on vajalik täiendav planeerimine.
 
-Kui lähtestate oma esimese Commerce'i mastaabiüksuse keskkonnas, mis kasutab pilve hostitud Commerce'i kanali komponente, migreerub lähtestamisprotsess teie pilve hostitud kanalikomponentidega seotud kanalid esimesse mastaabiüksusesse. Store Scale ühikutega seotud kanaleid see ei mõjuta.
+Kui lähtestate oma esimese Commerce Scale Uniti keskkonnas, mis kasutab pilves majutatud Ärikanali komponente, siirdab lähtestamisprotsess teie pilves majutatud kanali komponentidega seotud kanalid esimese skaala ühikusse. Kaupluse kaalu ühikutega seostatud kanalid pole mõjutatud.
 
-Migratsiooniprotsess on kanalitele läbipaistev. Pärast skaalaüksuse lähtestamise algust teostatakse automaatselt järgmised toimingud:
+Siirdeprotsess on kanalite jaoks selge. Pärast kaaluühiku lähtestamist sooritatakse automaatselt järgmised operatsioonid:
 
-1. Luuakse uus Commerce Scale Unit ja seostatakse see keskkonnaga.
-2. Commerce Scale Unit registreeritakse peakorteris saadaoleva kanaliandmebaasina.
-3. Kõik kanalid on kaardistatud **Vaikimisi** peakorteri kanalite andmebaasi värskendatakse, et see vastaks uuele Commerce Scale Unitile.
-4. A Commerce Data Exchange Kanaliandmete uude skaalaühikusse viimiseks tehakse andmete täielik (CDX) sünkroonimine.
+1. Luuakse uus Commerce Scale Unit ja seostatakse keskkonnaga.
+2. Commerce Scale Unit registreeritakse peakontoris saadaoleva kanali andmebaasina.
+3. Kõik peakontori vaikekanali andmebaasiga **vastendatud** kanalid värskendatakse uue Commerce Scale Unitiga vastendamiseks.
+4. (Commerce Data Exchange CDX) tehakse andmete täielik sünkroonimine, et viia kanali andmed uude skaala ühikusse.
 
-**Commerce Scale Unit lähtestamise planeerimine ja testimine** Üldreeglina peate Commerce Scale Unit'i lähtestamisel planeerima viietunnise seisakuaja nii poe toimingute kui ka kõigi e-kaubanduse kanali toimingute jaoks, mis kasutavad jaemüügiserverit või pilvemüügipunkti.
+**Commerce Scale Uniti** lähtestamise planeerimine ja testimine üldreeglina Commerce Scale Uniti lähtestamisel peate plaanima kaupluse toimingute jaoks viietunnise töötunnise akna, aga ka mis tahes e-äri kanali toimingute jaoks, mis kasutavad jaemüügiserverit või pilve müügipunkti.
 
-1. Värskendage andmebaasi tootmiskeskkonnast liivakasti UAT-keskkonda. 
-2. Initsialiseerige Commerce Scale Unit liivakasti UAT keskkonnas. 
-3. Pange tähele Commerce Scale Unit'i lähtestamisaeg. See on võrreldav selle toimingu ajaga teie tootmiskeskkonnas, mille jooksul poetoimingud ja e-kaubanduse toimingud pole saadaval.
+1. Saate teha andmebaasivärskenduse tootmiskeskkonnastboxi UAT-i keskkonda. 
+2. Commerce Scale Uniti lähtestamineboxi UAT-keskkonnas. 
+3. Pange tähele Commerce Scale Uniti puhul lõpetamiseks etteantud lähtestamise aega. See on võrreldav ajaga, mis kulub teie tootmiskeskkonnas ning mille jooksul ei ole kauplusetoimingud ja e-kaubanduse toimingud saadaval.
 
-Enne Commerce Scale Unit lähtestamist peate tegema järgmised lisatoimingud.
+Enne Commerce Scale Uniti lähtestamist peate sooritama järgmised lisa sammud.
 
-- **Sulgege kõik POS-i vahetused** - Pärast üleviimist ei saa POS-i kasutajad sulgeda ühtegi vahetust, mis migratsiooniprotsessi ajal olid aktiivsed.
-- **Kinnitage, et kõik P-tööd on edukalt sooritatud** - Soovitatav on, et ootel olevate tehingute sünkroonimiseks mõeldud P-tööd oleksid lõpetatud enne CSU initsialiseerimist.
-- **Logige välja kõigist kassaseadmetest** - POS-operatsioone migratsiooni ajal ei toetata.
-- **Kutsuge tagasi ja tühistage kõik POS-is peatatud tehingud** - Peatatud tehinguid ei säilitata lähtestamise osana.
+- **Sulgege kõik müügikoha vahetused** – pärast migreerimist ei saa kassa kasutajad sulgeda vahetusi, mis migreerimisprotsessi ajal aktiivsed olid.
+- **Kontrollige, kas kõik P-tööd on** edukalt lõpetatud – enne CSU lähtestamist on P-tööde sünkroonimine ootel kannetega soovitatav.
+- **Kassaseadmest välja logimine –** kassatoiminguid ei toetata migreerimise ajal.
+- **Kutsu tagasi ja tühista kõik peatatud kanded kassas** - peatatud kandeid ei säilitata lähtestamise osana.
 
 > [!IMPORTANT]
-> Commerce Scale Unit lähtestamise osana lähevad varasemad peatatud tehingud kaotsi ja neid ei saa tagasi kutsuda. 
+> Äriskaala ühiku lähtestamise osana kaotatakse varasemad peatatud kanded ja neid ei saa tagasi kutsuda. 
 
-Lähtestamisperioodi jooksul toimub järgmine:
+Siin on, mis toimub lähtestamisperioodil:
 
-- Pilve hostitud kaubanduskanalid ei tööta, välja arvatud juhul, kui lülitate sisse POS-i võrguühenduseta funktsiooni.
-- POS-seadmetel, mille võrguühenduseta funktsioon on sisse lülitatud, on vähem funktsioone.
-- Kõik e-kaubanduse kliendid, mis sõltuvad jaemüügiserverist, on häiritud.
-- See ei mõjuta kanaleid, mida hostitakse Commerce Scale Units'is (ise hostitud).
-- Peakontori funktsionaalsust see ei mõjuta.
+- Pilves majutatud Ärikanalid ei tööta, välja arvatud juhul, kui lülitate kassa võrguühenduseta võimaluse sisse.
+- Võrguühenduseta tööga müügikoha seadmetel on vähendatud funktsioone.
+- Kõik jaemüügiserverist sõltuvad e-commerce'i kliendid katkevad.
+- Commerce Scale Unitsis majutatud kanaleid (ise majutatud) ei mõjutata.
+- Peakontori funktsioone see ei mõjuta.
 
-Pärast initsialiseerimise lõppu toimub järgmine:
+Siin on, mis toimub pärast lähtestamist:
 
-- Kõikide aktiveeritud POS-seadmete seadmete aktiveerimise olek säilib, mis tähendab, et seadmeid ei pea uuesti aktiveerima.
-- Eraldiseisvad riistvarajaama eksemplarid jätkavad tööd.
-- POS-kanalipoolsed aruanded lähtestatakse ja neid ei kuvata enne lähtestamist.
-- Tööpäeviku näitamise toiming lähtestatakse ka ja see ei näita andmeid enne lähtestamist.
+- Kõikide aktiveeritud müügikoha seadmete seadme aktiveerimise olek säilitatakse, mis tähendab, et seadmeid ei pea uuesti aktiveerima.
+- Autonoomse riistvarajaama eksemplarid jätkavad tööd.
+- Müügikoha kanali poole aruanded lähtestatakse ja need ei näita andmeid enne lähtestamist.
+- Näita töölehe toimingut lähtestatakse samuti ja see ei näita andmeid enne lähtestamist.
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

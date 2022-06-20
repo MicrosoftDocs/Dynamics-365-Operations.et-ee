@@ -1,6 +1,6 @@
 ---
 title: Töö komponentide seadistamine
-description: See teema kirjeldab töö võimalikke põhielemente ja toob näiteid, kuidas saate neid elemente oma organisatsioonis kasutada.
+description: See artikkel kirjeldab töö võimalikke põhielemente ja toob näiteid, kuidas saate neid elemente oma organisatsioonis kasutada.
 author: twheeloc
 ms.date: 10/28/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.assetid: 889a8fab-0eef-45c2-91fc-ff2f4d44d54f
 ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: de828bc1ab764a8a1bd084a508f38ff19a3947d5
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: afe100879a4f83e4ef16048bc4b1acace19b679b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8693580"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877710"
 ---
 # <a name="set-up-the-components-of-a-job"></a>Töö komponentide seadistamine
 
@@ -28,7 +28,7 @@ ms.locfileid: "8693580"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-See teema kirjeldab töö võimalikke põhielemente ja toob näiteid, kuidas saate neid elemente oma organisatsioonis kasutada. 
+See artikkel kirjeldab töö võimalikke põhielemente ja toob näiteid, kuidas saate neid elemente oma organisatsioonis kasutada. 
 
 Enne tööde loomist tuleb seadistada teatud viiteteave. Saate luua töö, millel on ainult nimi. Täiendava teabe, näiteks ametinimetuse, lisamisega pakute aga tööle määratud ametikohtade vaikeväärtused. Peale selle saab osa sisestatud teavet kasutada teatud töödele tasuplaanide filtreerimiseks. Kui soovite seadistada sobivuse, mida saate kasutada kindlale tööle tasuplaanide filtreerimiseks, peate enne tööde seadistamist seadistama tööfunktsioonid ja töötüübid. Kui need vaikeväärtused on saadaval, hoiate tööle ametikohtade lisamisel aega kokku. 
 

@@ -1,6 +1,6 @@
 ---
 title: Müügitellimuste krediidi ootelolekud
-description: See teema kirjeldab nende reeglite seadistust, mida kasutatakse müügitellimuse krediidi ootele panemiseks.
+description: See artikkel kirjeldab reeglite seadistust, mida kasutatakse müügitellimuse ootele seadmine krediidiga ootele.
 author: JodiChristiansen
 ms.date: 07/20/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2d8966f993e7ca82b10a2ef5a023256a05682980
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 44560425056ee1726f21a4279f36c2e718956814
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734329"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856824"
 ---
 # <a name="credit-holds-for-sales-orders"></a>Müügitellimuste krediidi ootelolekud
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-See teema kirjeldab nende reeglite seadistust, mida kasutatakse müügitellimuse krediidi ootele panemiseks. Krediidihalduse blokeerimise reegleid saab rakendada üksikule kliendile või klientide grupile. Blokeerimise reeglid määratlevad vastuseid järgmistele asjaoludele.
+See artikkel kirjeldab reeglite seadistust, mida kasutatakse müügitellimuse ootele seadmine krediidiga ootele. Krediidihalduse blokeerimise reegleid saab rakendada üksikule kliendile või klientide grupile. Blokeerimise reeglid määratlevad vastuseid järgmistele asjaoludele.
 
 1. Ületatud päevade arv
 2. Kontode olek

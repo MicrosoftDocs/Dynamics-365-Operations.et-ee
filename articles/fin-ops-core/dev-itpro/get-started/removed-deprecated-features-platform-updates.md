@@ -1,6 +1,6 @@
 ---
-title: Eemaldatud või aegunud platvormi funktsioonid
-description: See teema kirjeldab funktsioone, mis on eemaldatud või mida on planeeritud finantside ja toimingute rakenduste platvormivärskendustes eemaldamiseks.
+title: Eemaldatud või iganenud platvormifunktsioonid
+description: See artikkel kirjeldab funktsioone, mis on eemaldatud või mida on planeeritud finantside ja toimingute rakenduste platvormivärskendustes eemaldamiseks.
 author: sericks007
 ms.date: 05/24/2022
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 3de9b9ea0bd20d1346a7cdfd2f919f50374b164c
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: 51165db8d15f0a57fd9bc1649dc6e3ca72875236
+ms.sourcegitcommit: 1fa1ac1fa25e977e98bc02ed5d9d39bd3a7a28d7
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811242"
+ms.lasthandoff: 06/08/2022
+ms.locfileid: "8945800"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Eemaldatud või iganenud platvormifunktsioonid
 
 [!include [banner](../includes/banner.md)]
 
-See teema kirjeldab funktsioone, mis on eemaldatud või mida on planeeritud finantside ja toimingute rakenduste platvormivärskendustes eemaldamiseks.
+See artikkel kirjeldab funktsioone, mis on eemaldatud või mida on planeeritud finantside ja toimingute rakenduste platvormivärskendustes eemaldamiseks.
 
 - *Eemaldatud* funktsioon pole tootes enam saadaval.
 - *Aegunud* funktsioon ei ole aktiivses arenduses ja vee võidakse tulevases värskenduses eemaldada.
@@ -40,7 +40,7 @@ Finantside ja toimingute rakenduste objektide üksikasjaliku teabe leiate tehnil
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Aegumise/eemaldamise põhjus** | Finantside ja toimingute (Dynamics 365) mobiilirakendus ja platvorm on taunitav ühe mobiilse platvormiga konsolideerimiseks Power Apps. |
-| **Asendatud teise funktsiooniga?**   | Jah, mobiilikogemusi finantsi ja toimingute rakenduse andmete üle saab üles ehitada koos integratsiooniga Power Platform. Üksikasjalikumat [teavet leiate teemast Mobiilikogemuste](../power-platform/build-mobile-experiences.md) ülesehimine. |
+| **Asendatud teise funktsiooniga?**   | Jah, mobiilikogemusi finantsi ja toimingute rakenduse andmete üle saab üles ehitada koos integratsiooniga Power Platform. Üksikasjalikumat [teavet leiate mobiilikogemuste](https://cloudblogs.microsoft.com/dynamics365/it/2022/06/03/finance-and-operations-dynamics-365-mobile-app-to-be-deprecated/)[sisestamisest](../power-platform/build-mobile-experiences.md) ja loomisest. |
 | **Mõjutatud tootealad**         | Finance and Operationsi rakendused |
 | **Juurutamissuvand**              | Kõik |
 | **Olek**                         | Aegunud. Tugikuupäeva lõppkuupäev on mõeldud oktoober 2024. |

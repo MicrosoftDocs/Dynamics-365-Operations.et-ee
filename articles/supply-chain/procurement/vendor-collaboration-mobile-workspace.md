@@ -1,6 +1,6 @@
 ---
 title: Hankija koostöö mobiilne tööruum
-description: See teema annab teavet hankija koostöö mobiilse tööruumi kohta. See tööruum võimaldab hankijatel olla kursis ostutellimustega, mis on neile kinnitamiseks saadetud. Nad saavad vaadata teavet ka uute ja muudetud ostutellimuste ning kontaktide kohta.
+description: See artikkel annab teavet hankija koostöö mobiili tööruumi kohta. See tööruum võimaldab hankijatel olla kursis ostutellimustega, mis on neile kinnitamiseks saadetud. Nad saavad vaadata teavet ka uute ja muudetud ostutellimuste ning kontaktide kohta.
 author: GalynaFedorova
 ms.date: 05/24/2022
 ms.topic: article
@@ -14,19 +14,19 @@ ms.search.region: global
 ms.author: gfedorova
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 97352ca89cef77b9320f17af5a1dbe6a00df2dd6
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: 591d4269a1188ed8f098a342729ba49b9772f42d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811710"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851648"
 ---
 # <a name="vendor-collaboration-mobile-workspace"></a>Hankija koostöö mobiilne tööruum
 
 [!include [banner](../includes/banner.md)]
 [!include [mobile app deprecation](../../fin-ops-core/dev-itpro/includes/mobile-app-deprecation-banner.md)]
 
-See teema annab teavet **hankija koostöö** mobiilse tööruumi kohta. See tööruum võimaldab hankijatel olla kursis ostutellimustega, mis on neile kinnitamiseks saadetud. Nad saavad vaadata teavet ka uute ja muudetud ostutellimuste ning kontaktide kohta.
+See artikkel annab teavet hankija koostöö mobiili **tööruumi** kohta. See tööruum võimaldab hankijatel olla kursis ostutellimustega, mis on neile kinnitamiseks saadetud. Nad saavad vaadata teavet ka uute ja muudetud ostutellimuste ning kontaktide kohta.
 
 See mobiilses tööruum on mõeldud kasutamiseks koos Rakenduse Finantsid ja toimingud (Dynamics 365) mobiilirakendusega.
 
@@ -97,7 +97,7 @@ Kui teie organisatsioonis on juurutatud Microsoft Dynamics 365 for Operationsi v
 </tr>
 <tr class="even">
 <td>Hankija-kasutajal peab olema juurdepääs hankija koostöö veebiliidesele veebikliendis ja ta peab seadistama hankija koostöö kasutaja.</td><td>Ostuspetsialistid ja süsteemiadministraator</td>
-<td>Järgige hankija koostöö veebiliidese seadistamiseks ja sellega töötamiseks järgmistes teemades antud juhiseid.
+<td>Järgige järgmiste artiklite etappe, et seadistada ja töötada hankija koostöö veebiliidesega.
 <ul>
 <li><a href="vendor-collaboration-work-external-vendors.md">Hankija koostöö kasutamine väliste hankijatega töötamiseks</a></li>
 <li><a href="manage-vendor-collaboration-users.md">Hankija koostöö kasutajate haldamine</a></li>

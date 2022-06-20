@@ -1,6 +1,6 @@
 ---
 title: Voomallid
-description: Selles teemas kirjeldatakse, kuidas seadistada kriteeriumid, mis määravad, kas vooge töödeldakse käsitsi või automaatselt, ja töö, mis luuakse lao jaoks voo töötlemisel.
+description: See artikkel kirjeldab, kuidas seadistada kriteeriume, mis määratlevad, kas laineid töödeldakse käsitsi või automaatselt, ning voo töötlemisel lao jaoks loodud tööd.
 author: Mirzaab
 ms.date: 03/08/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 61fbcad572bbb69ab8a4eb2cd309cdf8a6328391
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: e4a74b61ea32df432da118ac8af550a4ca4b0089
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686593"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851194"
 ---
 # <a name="wave-templates"></a>Voomallid
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas kirjeldatakse, kuidas seadistada kriteeriumid, mis määravad, kas vooge töödeldakse käsitsi või automaatselt, ja töö, mis luuakse lao jaoks voo töötlemisel. Kriteeriumite määramiseks seadistage voomallid ja päringud, mis vastavad müügitellimuste, tootmistellimuste ja kanbanide väljastatud ridadega voole.
+See artikkel kirjeldab, kuidas seadistada kriteeriume, mis määratlevad, kas laineid töödeldakse käsitsi või automaatselt, ning voo töötlemisel lao jaoks loodud tööd. Kriteeriumite määramiseks seadistage voomallid ja päringud, mis vastavad müügitellimuste, tootmistellimuste ja kanbanide väljastatud ridadega voole.
 
 ## <a name="settings-for-wave-templates"></a>Voomallide sätted
 

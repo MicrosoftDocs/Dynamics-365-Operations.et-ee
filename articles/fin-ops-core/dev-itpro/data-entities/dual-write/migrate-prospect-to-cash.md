@@ -1,6 +1,6 @@
 ---
 title: Potentsiaalne klient sularahaks andmete migreerimine andmeintegraator topeltkirjutusse
-description: See teema kirjeldab, kuidas migreerida potentsiaalne kliendi sularahaks andmeid andmeintegraator topeltkirjutusse.
+description: See artikkel kirjeldab, kuidas potentsiaalset klienti andmeintegraatorist topeltkirjutusse üle siirdada.
 author: RamaKrishnamoorthy
 ms.date: 02/01/2022
 ms.topic: article
@@ -9,30 +9,30 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-26
-ms.openlocfilehash: 82bfb768b0ecac04184f4b806527346d39584d64
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.openlocfilehash: 8e5c11e535bd61e9955a4abf1491e88991ee40f1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087264"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894262"
 ---
 # <a name="migrate-prospect-to-cash-data-from-data-integrator-to-dual-write"></a>Potentsiaalne klient sularahaks andmete migreerimine andmeintegraator topeltkirjutusse
 
 [!include [banner](../../includes/banner.md)]
 
-Data Integratori jaoks saadaval olev potentsiaal sularahalahendusele ei ühildu topeltkirjutusega. Selle põhjuseks on kontotabeli msdynce_AccountNumber indeks, mis tuli osana lahendusest Väljavaade sularahale. Kui see indeks on olemas, ei saa te luua sama kliendikonto numbrit kahes erinevas juriidilises üksuses. Võite alustada värskelt topeltkirjutamisega, migreerides prospecti andmete sularahaandmetele data integraatorist topeltkirjutamisele või installida prospecti viimase "seisva" versiooni sularahalahendusele. See teema hõlmab mõlemat lähenemist.
+Andmeintegraator jaoks saadaoleva potentsiaalse kliendi kassalahendus ei ühildu topeltkirjutusega. Selle põhjuseks on msdynce_AccountNumber kontotabeli indeks, mis tuli lahenduse otsimiseks potentsiaalse kliendi osana. Kui see indeks on olemas, ei saa te luua sama kliendi kontonumbrit kahes erinevas juriidilises isikus. Võite valida uue topeltkirjutusega alguse, kui migreerite potentsiaalse kliendi andmeintegraatorist andmeintegraatorist topeltkirjutusse või saate installida potentsiaalse kliendi viimase domaniversiooni kassalahendusse. See artikkel käsitleb mõlemat lähenemist.
 
-## <a name="install-the-last-dorman-version-of-the-data-integrator-prospect-to-cash-solution"></a>Installige andmeintegraatori prospekti viimane "uinuv" versioon sularahalahendusele
+## <a name="install-the-last-dorman-version-of-the-data-integrator-prospect-to-cash-solution"></a>Installige andmeintegraatorpotentsiaali viimane doman-versioon kassalahendusse
 
-**P2C versiooni 15.0.0.2** peetakse andmeintegraatori Prospecti viimaseks "seisvaks" versiooniks sularahalahendusele. Saate selle alla laadida [FastTrack for Dynamics 365](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Dual-write/P2C).
+**P2C versiooni 15.0.0.2** peetakse andmeintegraatori potentsiaalse kliendi viimaseks domaniversiooniks sularahalahenduse jaoks. Selle saate alla laadida asukohast [FastTrack for Dynamics 365](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Dual-write/P2C).
 
-Peate selle käsitsi installima. Pärast paigaldamist jääb kõik täpselt samaks, välja arvatud msdynce_AccountNumber indeks eemaldatakse.
+Peate selle käsitsi installima. Pärast installimist jääb kõik täpselt samaks, v.a msdynce_AccountNumber indeks eemaldatakse.
 
-## <a name="steps-to-migrate-prospect-to-cash-data-from-data-integrator-to-dual-write"></a>Juhised Prospecti migreerimiseks andmete rahaks andmeintegraatorilt topeltkirjutajale
+## <a name="steps-to-migrate-prospect-to-cash-data-from-data-integrator-to-dual-write"></a>Sammud potentsiaalse kliendi migreerimiseks andmeintegraatorist topeltkirjutusse
 
 Teie potentsiaalne klient sularahaks andmete migreerimiseks andmeintegraatorist topeltkirjutusse tehke järgmist.
 
-1. Käivitage potentsiaalne klient sularahaks andmeintegraatori tööd, et teha üks lõplik täielik sünkroonimine. Sel viisil tagate, et nii süsteemidel (Finance and Operationsi rakendused kui ka klientide kaasamise rakendused) on kõik andmed.
+1. Käivitage potentsiaalne klient sularahaks andmeintegraatori tööd, et teha üks lõplik täielik sünkroonimine. Sel viisil tagate, et mõlemas süsteemis (Finantside ja toimingute rakendused ja kliendi kaasamise rakendused) on kõik andmed.
 2. Potentsiaalse andmekao vältimiseks eksportige potentsiaalne klient sularahaks andmed rakendusest Microsoft Dynamics 365 Sales Exceli faili või komaga eraldatud väärtustega (CSV) faili. Eksportige andmed järgmistest üksustest.
 
     - [Konto](#account-table)
@@ -47,25 +47,25 @@ Teie potentsiaalne klient sularahaks andmete migreerimiseks andmeintegraatorist 
 
 3. Potentsiaalse kliendi sularahaks lahenduse desinstallimine rakenduse Sales keskkonnast. See etapp eemaldab veerud ja vastavad andmed, mille potentsiaalne klient sularahaks lahenduse jaoks juurutas.
 4. Installige topeltkirjutuse lahendus.
-5. Looge rakenduse Finance and Operations ja kliendi kaasamise rakenduse vahel ühe või mitme juriidilise inimese jaoks topeltkirjutusühendus.
+5. Looge topeltkirjutusega ühendus finantside ja toimingute rakenduse ja kliendi kaasamise rakenduse vahel ühele või mitmele juriidilisele isikule.
 6. Lubage topeltkirjutustabeli kaardid ja käivitage nõutud viiteandmete esialgne sünkroonimine. (Lisateavet vt teemast [Algse sünkroonimise kaalutlused](initial-sync-guidance.md).) Nõutavate andmete näidete hulka kuuluvad kliendigrupid, maksetingimused ja maksegraafikud. Ärge lubage topeltkirjutuse kaarte tabelitele, mis nõuavad lähtestamist, nt konto, pakkumise, pakkumise rea, tellimuse ja tellimuse rea tabelid.
 7. Avage kliendi kaasamise rakenduses **Täpsemad sätted \> Süsteemi sätted \> Andmehaldus \> Duplikaadi tuvastamise reeglid** ja keelake kõik reeglid.
-8. Lähtestage 2. etapis loetletud tabelid. Juhiseid vaadake selle teema ülejäänud jaotistest.
-9. Avage rakendus Rahandus ja Toimingud ning lubage tabelikaardid (nt konto, pakkumine, hinnapakkumise rida, tellimus ja tellimuse rea tabelikaardid). Seejärel käivitage algne sünkroonimine. (Lisateavet vt teemast [Esialgse sünkroonimise](initial-sync-guidance.md) kaalutlused.) See protsess sünkroonib rakenduse Finance and Operations lisateavet, näiteks töötlemise olekut, lähetus- ja arveldusaadresse, saite ja ladusid.
+8. Lähtestage 2. etapis loetletud tabelid. Juhiseid vt selle artikli ülejäänud jaotistest.
+9. Avage rakendus Finantsid ja toimingud ning lubage tabeli vastekaardid, nt konto, pakkumise, pakkumise rea, tellimuse ja tellimuserea tabeli vastekaardid. Seejärel käivitage algne sünkroonimine. (Lisateavet vt teemast [Esmase sünkroonimise kaalutlused](initial-sync-guidance.md).) See protsess sünkroonib lisateabe rakendusest Finantsid ja Toimingud, nt töötlemise olek, saatmise ja arveldamise aadressid, saidid ja laod.
 
 ## <a name="account-table"></a>Konto tabel
 
 1. Sisestage veergu **Ettevõte** ettevõtte nimi, nt **USMF**.
 2. Veerus **Suhte tüüp** sisestage staatilise väärtusena **klient**. Te ei pruugi soovida iga kontokirjet oma äriloogikas kliendina klassifitseerida.
-3. Sisestage veerus **Kliendirühma ID** kliendirühma number rakendusest Finance and Operations. Potentsiaalse kliendi sularahaks lahenduse vaikeväärtus on **10**.
-4. Kui kasutate valikut potentsiaalne klient sularahaks ilma **kontonumbrit** kohandamata, sisestage **kontonumbri** väärtus veergu **Osapoole number**. Kui kohandusi on ja te ei tea osapoole numbrit, tõmmake see teave rakendusest Finance and Operations.
+3. Sisestage **kliendigrupi ID** veerus kliendigrupi number rakendusest Finantsid ja toimingud. Potentsiaalse kliendi sularahaks lahenduse vaikeväärtus on **10**.
+4. Kui kasutate valikut potentsiaalne klient sularahaks ilma **kontonumbrit** kohandamata, sisestage **kontonumbri** väärtus veergu **Osapoole number**. Kui kohandused on olemas ja te ei tea osapoolenumbrit, tõmbage see teave rakendusest Finantsid ja toimingud.
 
 ## <a name="contact-table"></a>Kontakti tabel
 
 1. Sisestage veergu **Ettevõte** ettevõtte nimi, nt **USMF**.
 2. Määrake järgmised veerud, mis põhinevad CSV-faili **IsActiveCustomer** väärtusel.
 
-    - Kui **IsActiveCustomer** on määratud CSV-failis väärtusele **Jah**, määrake veeru **Müüdav** väärtuseks **Jah**. Sisestage veerus **Kliendirühma ID** kliendirühma number rakendusest Finance and Operations. Potentsiaalse kliendi sularahaks lahenduse vaikeväärtus on **10**.
+    - Kui **IsActiveCustomer** on määratud CSV-failis väärtusele **Jah**, määrake veeru **Müüdav** väärtuseks **Jah**. Sisestage **kliendigrupi ID** veerus kliendigrupi number rakendusest Finantsid ja toimingud. Potentsiaalse kliendi sularahaks lahenduse vaikeväärtus on **10**.
     - Kui **IsActiveCustomer** on CSV-failis seatud väärtusele **Ei**, määrake veeru **Müüdav** väärtuseks **Ei** ja määrake veeru **Kontakt** väärtuseks **Klient**.
 
 3. Kui kasutate lahendust potentsiaalne klient sularahaks ilma **kontaktinumbrit** kohandamata, määrake järgmised veerud.
@@ -76,7 +76,7 @@ Teie potentsiaalne klient sularahaks andmete migreerimiseks andmeintegraatorist 
 
 ## <a name="invoice-table"></a>Arve tabel
 
-Kuna tabeli Arve **andmed** on loodud voolama ühel viisil, rakendusest Finance and Operations kuni kliendi kaasamise rakenduseni, pole lähtestamine vajalik. Käivitage algne sünkroonimine, et migreerida kõik vajalikud andmed rakendusest Finance and Operations kliendi kaasamise rakendusse. Lisateavet vt teemast [Algse sünkroonimise kaalutlused](initial-sync-guidance.md).
+Kuna arve tabeli andmed **on** mõeldud ühe viisi voogu voogu, alates Finantside ja toimingute rakendusest kliendikogemuse rakendusesse, pole lähtestamine vajalik. Käivitage esialgne sünkroonimine, et migreerida kõik nõutavad andmed Rakendusest Finantsid ja toimingud kliendikogemuse rakendusse. Lisateavet vt teemast [Algse sünkroonimise kaalutlused](initial-sync-guidance.md).
 
 ## <a name="order-table"></a>Tellimuse tabel
 
@@ -94,11 +94,11 @@ Kuna tabeli Arve **andmed** on loodud voolama ühel viisil, rakendusest Finance 
 
 ## <a name="products-table"></a>Toodete tabel
 
-Kuna tabeli Tooted **andmed** on loodud liikuma ühel viisil, rakendusest Finance and Operations kuni kliendi kaasamise rakenduseni, pole lähtestamine vajalik. Käivitage algne sünkroonimine, et migreerida kõik vajalikud andmed rakendusest Finance and Operations kliendi kaasamise rakendusse. Lisateavet vt teemast [Algse sünkroonimise kaalutlused](initial-sync-guidance.md).
+Kuna andmed tabelist **Tooted** on mõeldud ühe viisi voogu, alates Finantside ja toimingute rakendusest kliendikogemuse rakendusesse, pole lähtestamine vajalik. Käivitage esialgne sünkroonimine, et migreerida kõik nõutavad andmed Rakendusest Finantsid ja toimingud kliendikogemuse rakendusse. Lisateavet vt teemast [Algse sünkroonimise kaalutlused](initial-sync-guidance.md).
 
 ## <a name="quote-and-quote-product-tables"></a>Hinnapakkumise ja hinnapakkumise toodete tabel
 
-Tabeli **Hinnapakkumine** puhul järgige juhiseid selle teema varasemas jaotises [Tellimuse tabel](#order-table). Tabeli **Hinnapakkumise toode** puhul järgige juhiseid jaotises [Tellimuse toodete tabel](#order-products-table).
+Tabeli Pakkumine **puhul** järgige selle artikli varasemas [jaotises Tellimuse](#order-table) tabel toodud juhiseid. Tabeli **Hinnapakkumise toode** puhul järgige juhiseid jaotises [Tellimuse toodete tabel](#order-products-table).
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

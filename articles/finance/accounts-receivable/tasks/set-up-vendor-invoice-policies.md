@@ -1,6 +1,6 @@
 ---
-title: Hankija arve poliitikate seadistamine
-description: Selles teemas selgitatakse, kuidas seadistada tarnijate arvete poliitikat.
+title: Saate häälestada hankija arve poliitikaid.
+description: See artikkel selgitab, kuidas seadistada hankija arve poliitikaid.
 author: ShivamPandey-msft
 ms.date: 02/11/2022
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1f9707c7b283f42729126efa57e890e0df65ca8b
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: 049b38b6feba5f4369d79b89b4c81a8195dd7758
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109752"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904726"
 ---
-# <a name="set-up-vendor-invoice-policies"></a>Hankija arve poliitikate seadistamine
+# <a name="set-up-vendor-invoice-policies"></a>Saate häälestada hankija arve poliitikaid.
 
 [!include [banner](../../includes/banner.md)]
 
-Selles teemas selgitatakse, kuidas seadistada tarnijate arvete poliitikat. Hankija arvepoliitikad käivitatakse, kui sisestate **hankija** arve, kasutades lehte Hankija arve ja kui avate hankija arve poliitika **rikkumiste** lehe. Hankija arve töövoogu saate konfigureerida ka selliselt, et hankija arve poliitikad käivitatakse iga kord, kui sisestate arve töövoogu. 
+See artikkel selgitab, kuidas seadistada hankija arve poliitikaid. Hankija arvepoliitikad käivitatakse, kui sisestate **hankija** arve, kasutades lehte Hankija arve ja kui avate hankija arve poliitika **rikkumiste** lehe. Hankija arve töövoogu saate konfigureerida ka selliselt, et hankija arve poliitikad käivitatakse iga kord, kui sisestate arve töövoogu. 
 
 - Hankija arvepoliitikad ei kehti arvetele, mis on loodud arveregistris või arve töölehel.  
 - Arvete vastendamise kontrollimine ei kasuta hankija arvepoliitikaid, vaid seadistatakse selle asemel ostureskontro **parameetrite** lehel.  

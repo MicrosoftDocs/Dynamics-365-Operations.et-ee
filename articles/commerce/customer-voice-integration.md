@@ -1,6 +1,6 @@
 ---
-title: KliendiAndmete integreerimine e-kaubanduse saidi lehtedele
-description: See teema kirjeldab, kuidas integreerida Microsoft Dynamics 365 Customer Voice Dynamics 365 Commerce e-äri saitide lehtedele.
+title: Customer Voice'i integreerimine e-kaubanduse saidi lehtedele
+description: See artikkel kirjeldab, kuidas integreerida Microsoft Dynamics 365 Customer Voice Dynamics 365 Commerce e-äri saitide lehtedele.
 author: samjarawan
 ms.date: 05/17/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2019-10-31
-ms.openlocfilehash: 272ec1a59ed45b2d2336dcfea16051d27011360f
-ms.sourcegitcommit: 48d094d083c1bd45c3d72f8b666926b48ec7ae35
+ms.openlocfilehash: c8c67ecf4950c92fc91c8d119e06e5e8afff0ddf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8767920"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850326"
 ---
-# <a name="integrate-customer-voice-into-e-commerce-site-pages"></a>KliendiAndmete integreerimine e-kaubanduse saidi lehtedele
+# <a name="integrate-customer-voice-into-e-commerce-site-pages"></a>Customer Voice'i integreerimine e-kaubanduse saidi lehtedele
 
 [!include [banner](../includes/banner.md)]
 
-See teema kirjeldab, kuidas integreerida Microsoft Dynamics 365 Customer Voice Dynamics 365 Commerce e-äri saitide lehtedele.
+See artikkel kirjeldab, kuidas integreerida Microsoft Dynamics 365 Customer Voice Dynamics 365 Commerce e-äri saitide lehtedele.
 
 Saate integreerida [CustomerKlienditeeninduse](https://dynamics.microsoft.com/customer-voice/overview/) oma e-äri saidile, et koguda, analüüsida ja jälgida reaalajas kliendi tagasisidet. Integratsiooniga alustamiseks peate kogutava tagasiside tüübi jaoks looma konto ja valima kliendi projektimalli.
 
@@ -37,7 +37,7 @@ Kliendi projektimalli valimiseks järgige neid samme.
 1. Valige kogutava tagasiside tüübi projektimall ja seejärel valige **Edasi**.
 1. Valige **manustamisvorming** **vahekaardi Saada jaotises Vali** manustamisvorming. Väljal **Manustatud** kood kuvatakse Kood, mis peab olema Commerce'i saidiloojale manustatud.
 
-Selles teemas toodud näited kasutavad perioodilist **kliendi** uuringuprojekti malli ja **nupu** manustatud vormingut.
+Selle artikli näidetes kasutatakse perioodilist **kliendi uuringuprojekti** malli ja nupu **manustatud** vormingut.
 
 Järgmine näite näide näitab **perioodilist** kliendi uuringuprojekti mallilehte, **kus** on valitud suvand Nupu manustamisvorming ja **selle** suvandi manustamiskood kuvatakse väljal Manustatud kood. Antud koodi oma saidi lehtedele kaasamiseks on vaja kolm eraldi tegevust, nagu kirjeldatud järgmistes jaotistes.
 

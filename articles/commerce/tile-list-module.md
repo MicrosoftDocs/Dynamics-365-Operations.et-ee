@@ -1,6 +1,6 @@
 ---
-title: Paanide loendi moodul
-description: See teema hõlmab paani mooduleid ja kirjeldab, kuidas neid rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
+title: Loendi moodul
+description: See artikkel katab paaniloendi moodulid ja kirjeldab, kuidas lisada neid saidi lehtedele moodulis Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: dd714f29fe2f9acd459be7bda1c0bfac65b72cb0
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: 44eb9b82ef9625734c7fe5ccba85207d9f210a00
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780789"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905394"
 ---
-# <a name="tile-list-module"></a>Paanide loendi moodul
+# <a name="tile-list-module"></a>Loendi moodul
 
 [!include [banner](includes/banner.md)]
 
-See teema hõlmab paani mooduleid ja kirjeldab, kuidas neid rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
+See artikkel katab paaniloendi moodulid ja kirjeldab, kuidas lisada neid saidi lehtedele moodulis Microsoft Dynamics 365 Commerce.
 
 Paaniloendimoodul on paanide kogum. Seda kasutatakse tootekategooriate või tootemarkide turusmiseks piltide ja teksti kaudu. Näiteks saab jaemüüja lisada paaniloendi mooduli e-kaubanduse saidi kodulehele, et propageerida kõiki tippmüügikategooriaid.
 

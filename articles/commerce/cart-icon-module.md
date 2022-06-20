@@ -1,6 +1,6 @@
 ---
 title: Ostukorvi ikooni moodul
-description: See teema hõlmab ostukorvi ikooni moodulit ja kirjeldab, kuidas seda rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
+description: See artikkel katab ostukorvi ikoonimooduli ja kirjeldab, kuidas lisada see saidile lehekülgedele moodulis Microsoft Dynamics 365 Commerce
 author: anupamar-ms
 ms.date: 08/02/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5cf86876ba03d510b03237c9c89a1fc069a73482b755a1d72227037c91439e86
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a5b86b0c843a680dd0c46295a69e12d6e3542619
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6735674"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859109"
 ---
 # <a name="cart-icon-module"></a>Ostukorvi ikooni moodul
 
 [!include [banner](includes/banner.md)]
 
-See teema hõlmab ostukorvi ikooni moodulit ja kirjeldab, kuidas seda rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
+See artikkel katab ostukorvi ikoonimooduli ja kirjeldab, kuidas lisada see saidile lehekülgedele moodulis Microsoft Dynamics 365 Commerce
 
 Ostukorvi ikooni moodul tähistab ostukorvi lehe päisemoodulis ja kuvab ostukorvis olevate kaupade arvu. Ostukorvi ikooni moodul kuvab ka ostukorvi kokkuvõtte (tuntud ka kui väike ostukorv), kui hiirt hõljutatakse üle ostukorvi. Väike ostukorv esitab kasutajale kokkuvõtte ostukorvis olevatest kaupadest, ilma et peaksite liikuma ostukorvi lehele. Lisaks võimaldab see kasutajal ka otse kassa lehele minna, kui nad on kokkuvõttega rahul. See vähendab lehekülgede vahel liikumiste arvu ja teeb väljaregistreerimise kiiremaks. 
 

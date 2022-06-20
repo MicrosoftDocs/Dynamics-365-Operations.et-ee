@@ -1,6 +1,6 @@
 ---
 title: Lattu väljastamise reegel
-description: Selles teemas antakse teavet funktsiooni Lattu väljastamise reegel kohta, mis annab lattu väljastamisel paindlikkuse. See lisab konfiguratsioonisuvandi, mis juhib seda, kas süsteem lubab osaliselt reserveeritud tellimuseridade väljastamist.
+description: See artikkel annab teavet lattu vabastamise reegli funktsiooni kohta, mis pakub paindlikkust lattu vabastamisel. See lisab konfiguratsioonisuvandi, mis juhib seda, kas süsteem lubab osaliselt reserveeritud tellimuseridade väljastamist.
 author: Mirzaab
 ms.date: 07/01/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 5fef1d942f2e9d3467fb8a00c6d89cc5c018a5aa
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: c011938438be32e8a3169d90561ab329da32e32a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674613"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895463"
 ---
 # <a name="release-to-warehouse-rule"></a>Lattu väljastamise reegel
 
@@ -78,7 +78,7 @@ Neid stsenaariume saate kasutada ka juhistena funktsiooni kasutamiseks, kui tö�
 See stsenaarium näitab, kuidas funktsioon töötab ladude puhul, kus on seatud **Nõua täielikku reserveerimist**.
 
 1. Avage **Laohaldus \> Seadistus \> Ladu \> Laod**.
-1. Määrake lao _62_ välja **Varude reserveerimise nõue** väärtuseks **Nõua täielikku reserveerimist**, nagu kirjeldati selle teema varasemas jaotises [Lattu väljastamise reegli määramine iga lao jaoks](#set-option-warehouse).
+1. _Lao 62_ **·** **puhul** määrake väljal Varude reserveerimise nõue väärtuseks Täieliku reserveerimise nõudmine, [nagu](#set-option-warehouse) on kirjeldatud selles artikli varasemas lao jaotises iga lao jaotise puhul lattu vabastamise reeglis.
 1. Avage **Müük ja turundus \> Müügitellimused \> Kõik müügitellimused**.
 1. Müügitellimuse loomiseks valige **Uus**.
 1. Dialoogiboksis **Müügitellimuse loomine** määrake järgmised väärtused.
@@ -112,7 +112,7 @@ See stsenaarium näitab, kuidas funktsioon töötab ladude puhul, kus on seatud 
 See stsenaarium näitab, kuidas funktsioon töötab ladude puhul, kus on seatud **Luba osaline väljastamine**.
 
 1. Avage **Laohaldus \> Seadistus \> Ladu \> Laod**.
-1. Määrake lao _62_ välja **Varude reserveerimise nõue** väärtuseks **Luba osaline reserveerimist**, nagu kirjeldati selle teema varasemas jaotises [Lattu väljastamise reegli määramine iga lao jaoks](#set-option-warehouse).
+1. _Lao 62_ **·** **puhul** seadistage väli Varude reserveerimise nõue väärtusele Osaline reserveerimine, [nagu](#set-option-warehouse) on kirjeldatud selles artikli varasemas lao jaotises iga lao jaotise puhul.
 1. Nagu tegite [eelmises stsenaariumis](#scenario1), avage jaotis **Müük ja turundus \> Müügitellimused \> Kõik müügitellimused** ja looge müügitellimus kliendi konto _US-004_ jaoks laost _62_. Lisage kaks järgmist tellimuserida.
 
     - **Rida 1:** määrake välja **Kaubakood** väärtuseks _A0001_, välja **Kogus** väärtuseks _2_ ja välja **Ühik** väärtuseks _Pcs_.

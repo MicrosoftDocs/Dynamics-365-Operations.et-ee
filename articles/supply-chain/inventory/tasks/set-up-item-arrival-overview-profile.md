@@ -1,6 +1,6 @@
 ---
-title: Kauba saabumise ülevaateprofiili seadistamine
-description: Selles teemas keskendutakse saabumise ülevaate profiilile.
+title: Kauba saabumise ülevaateprofiili häälestus
+description: See artikkel keskendub saabumise ülevaate profiili seadistusele.
 author: yufeihuang
 ms.date: 07/30/2019
 ms.topic: business-process
@@ -15,18 +15,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a9a98c84c0dcc86e58b74f53a9061c4a0518ecbf
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 8517710f5d0be1859f86449152712d950281769a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964802"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872003"
 ---
-# <a name="set-up-an-item-arrival-overview-profile"></a>Kauba saabumise ülevaateprofiili seadistamine
+# <a name="set-up-an-item-arrival-overview-profile"></a>Kauba saabumise ülevaateprofiili häälestus
 
 [!include [banner](../../includes/banner.md)]
 
-Selles teemas keskendutakse saabumise ülevaate profiilile. Saabumisülevaate profiil on kogumik reegleid, mida rakendatakse, kui kasutaja avaneb lehe Saabumisülevaade. Saate seda protseduuri kasutada demoandmete ettevõttes USMF. Seda protseduuri viib tavaliselt läbi vastuvõtuametnik.
+See artikkel keskendub saabumise ülevaate profiili seadistusele. Saabumisülevaate profiil on kogumik reegleid, mida rakendatakse, kui kasutaja avaneb lehe Saabumisülevaade. Saate seda protseduuri kasutada demoandmete ettevõttes USMF. Seda protseduuri viib tavaliselt läbi vastuvõtuametnik.
 
 1. Navigeerimispaanil avage **Moodulid > Varude haldus > Seadistus > Jaotus > Saabumise ülevaate profiilid**.
 2. Valige suvand **Uus**. Kuna töötate täis veokikoormate mahalaadimisel peaaegu alati samas laos, peaksite looma saabuvate kaupade registreerimise lihtsustamiseks saabumisülevaate profiili.  

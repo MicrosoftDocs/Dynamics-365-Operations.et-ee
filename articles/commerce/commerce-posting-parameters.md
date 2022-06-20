@@ -1,6 +1,6 @@
 ---
-title: Äris sisestamisparameetrid
-description: Selles teemas kirjeldatakse parameetreid, mis on spetsiifilised finants- ja füüsiliste kannete sisestamiseks moodulisse Microsoft Dynamics 365 Commerce.
+title: Commerce'i sisestusparameetrid
+description: See artikkel kirjeldab parameetreid, mis on spetsiifilised finants- ja füüsiliste kannete sisestamisele moodulisse Microsoft Dynamics 365 Commerce.
 author: analpert
 ms.date: 04/27/2022
 ms.topic: article
@@ -9,19 +9,19 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: analpert
 ms.search.validFrom: 2022-04-12
-ms.openlocfilehash: 1b49c893567d39f05e16cefee47407a424b7e139
-ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
-ms.translationtype: MT
+ms.openlocfilehash: 10ea650b7c5c0cad7e1a3d7556c073aecef06036
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8649175"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887110"
 ---
-# <a name="commerce-posting-parameters"></a>Äris sisestamisparameetrid
+# <a name="commerce-posting-parameters"></a>Commerce'i sisestusparameetrid
 
 [!include [banner](includes/banner.md)]
 [!include [banner](includes/preview-banner.md)]
 
-Selles teemas kirjeldatakse parameetreid, mis on spetsiifilised finants- ja füüsiliste kannete sisestamiseks moodulisse Microsoft Dynamics 365 Commerce. Äri sisestamisparameetrid asuvad rakenduse Retail ja Commerce Headquarters **häälestamise parameetrite Commerce \> Headquartersis \>\> (sisestamine \>)**.
+See artikkel kirjeldab parameetreid, mis on spetsiifilised finants- ja füüsiliste kannete sisestamisele moodulisse Microsoft Dynamics 365 Commerce. Äri sisestamisparameetrid asuvad rakenduse Retail ja Commerce Headquarters **häälestamise parameetrite Commerce \> Headquartersis \>\> (sisestamine \>)**.
 
 ## <a name="periodic-discount-parameters"></a>Perioodilise allahindluse parameetrid
 
@@ -103,4 +103,4 @@ Järgmises tabelis loetletakse finants- ja füüsiliste kannete sisestamisel kon
 | Keela ümarduserinevuse sisestamine | See parameeter keelab ümarduserinevuse sisestamise kande makse ja brutosumma vahel maksete töötlemisel. |
 | Tasakaalusta klientide deposiidid automaatselt | Kui see parameeter on lubatud, tasakaalustatakse jaemüügi väljavõtte sisestamisel sisestatud kliendi deposiitid kliendi avatud kannetega. |
 | Kassa kassa kassahalduse vastavusseviimise lubamine ja kasutamine | Kui see parameeter on lubatud, tehakse kassas sularahahalduse vastavusseviimine ja väärtused edastatakse väljavõtteridade loomiseks jaemüügi finantsaruande sisestustele. |
-| Pearaamatukande üksikasjade tase | See parameeter määratleb kassast pärit valitud kannete pearaamatukandesse kaasatud üksikasjataseme. Kandetüübid hõlmavad tulusid, kulusid ja allahindlusi. Allahindluste puhul võetakse seda parameetrit arvesse ainult juhul, kui perioodilise allahindluse kontonumber ja regulaarse allahindluse kontonumber ei ole samad. Kui üksikasjad ei ole nõutavad **,** on kokkuvõte nende sisestuste soovitatav väärtus. Kui kokkuvõttetaseme sisestus on määratletud, ei **täideta TransactionDiscountTrans.RecID-d**. Commerce 10.0.27 versiooni väljaandes nimetati see lipp ümber ja teisaldati. Selle nimi oli varem **Detaili tase** ja oli jaotises Varude **uuendamine**. |
+| Pearaamatu vautšeri üksikasjalikkuse tase | See parameeter määratleb kassast pärit valitud kannete pearaamatukandesse kaasatud üksikasjataseme. Kandetüübid hõlmavad tulusid, kulusid ja allahindlusi. Allahindluste puhul võetakse seda parameetrit arvesse ainult juhul, kui perioodilise allahindluse kontonumber ja regulaarse allahindluse kontonumber ei ole samad. Kui üksikasjad ei ole nõutavad **,** on kokkuvõte nende sisestuste soovitatav väärtus. Kui kokkuvõttetaseme sisestus on määratletud, ei **täideta TransactionDiscountTrans.RecID-d**. Commerce 10.0.27 versiooni väljaandes nimetati see lipp ümber ja teisaldati. Selle nimi oli varem **Detaili tase** ja oli jaotises Varude **uuendamine**. |

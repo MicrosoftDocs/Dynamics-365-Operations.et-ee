@@ -1,6 +1,6 @@
 ---
 title: Tarnevalikute moodul
-description: See teema hõlmab tarnevalikute mooduleid ja kirjeldab, kuidas neid rakenduses Microsoft Dynamics 365 Commerce konfigureerida.
+description: See artikkel hõlmab tarnevalikute mooduleid ja selgitab nende konfigureerimist moodulites Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 02/24/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 9b9a7ad05974b98511cfc582af62c19c5fb4dbf5
-ms.sourcegitcommit: d2e5d38ed1550287b12c90331fc4136ed546b14c
+ms.openlocfilehash: 554a17cf1c90f7fdaa20de74c3f6726910ab815d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "8349790"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894554"
 ---
 # <a name="delivery-options-module"></a>Tarnevalikute moodul
 
 [!include [banner](includes/banner.md)]
 
-See teema hõlmab tarnevalikute mooduleid ja kirjeldab, kuidas neid rakenduses Microsoft Dynamics 365 Commerce konfigureerida.
+See artikkel hõlmab tarnevalikute mooduleid ja selgitab nende konfigureerimist moodulites Microsoft Dynamics 365 Commerce.
 
 Tarnevalikute moodulid võimaldavad klientidel valida oma veebitellimuse jaoks tarneviisi, nt lähetamise või pealevõtmise. Tarneviisi määramiseks on vajalik tarneaadress. Kui tarneaadress muutub, tuleb tarnevalikud uuesti hankida. Kui tellimus sisaldab ainult kaupu, millele minnakse poodi järele, siis see moodul peidetakse automaatselt.
 

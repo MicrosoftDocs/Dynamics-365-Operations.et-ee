@@ -16,24 +16,24 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c867d051f5e32c5f98ea49a92475c6f15427ad54
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: f8ce982dc27a887c70ca4fed11fcc230bcb6de65
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692775"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858065"
 ---
 # <a name="human-resources-home-page"></a>Personaliosakonna kodulehekülg
 
 
 
-Selles teemas antakse loend spikriteemadest ja muudest Dynamics 365 inimressurssidest. 
+See artikkel annab dynamics 365 inimressurssides spikriteemade ja teiste ressursside loendi. 
 
 Valige funktsiooniala, et selle kohta rohkem teavet saada.
 
 - [Töövõtja iseteenindus](hr-employee-manager-self-service-overview.md)
 - [Personalihaldus](hr-personnel-departments-jobs-positions.md)
-- [Ülesandehaldus](hr-task-mgmt.md)
+- [Ülesande haldus](hr-task-mgmt.md)
 - [Puhkused ja puudumine](hr-leave-and-absence-overview.md)
 - [Soodustused](hr-benefits-manage-program.md)
 - [Soodustuste haldus](hr-benefits-management-overview.md)

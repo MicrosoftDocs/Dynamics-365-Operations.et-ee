@@ -1,20 +1,20 @@
 ---
 title: Tabelikaardi tervisekontrolli veakoodid
-description: Selles teemas kirjeldatakse tabelikaardi tervisekontrolli veakoode.
-author: nhelgren
-ms.date: 10/04/2021
+description: See artikkel kirjeldab tõrkekoode tabelikaardi seisundikontrolli jaoks.
+author: RamaKrishnamoorthy
+ms.date: 05/31/2022
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: tfehr
 ms.search.region: global
-ms.author: nhelgren
+ms.author: ramasri
 ms.search.validFrom: 2021-10-04
-ms.openlocfilehash: 916f3cfca3bae7a073ce4e956a12080ee01c8d31
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 3ae78077fc716311c38620b14665af3983a44c2d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061274"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884079"
 ---
 # <a name="errors-codes-for-the-table-map-health-check"></a>Tabelikaardi tervisekontrolli veakoodid
 
@@ -22,41 +22,41 @@ ms.locfileid: "8061274"
 
 
 
-Selles teemas kirjeldatakse tabelikaardi tervisekontrolli veakoode.
+See artikkel kirjeldab tõrkekoode tabelikaardi seisundikontrolli jaoks.
 
 ## <a name="error-100"></a>Tõrge 100
 
-Veateade on: "Minimaalne nõutav finance and Operations platvormi versioon on PU 43, et käivitada finants- ja operatsioonide soovitused."
+Tõrketeade on järgmine: "Minimaalne nõutav finantside ja toimingute platvormi versioon on PU 43, et käivitada finantside ja toimingute soovitused."
 
-Funktsioon nõuab finance and Operationsi rakenduste versiooni 10.0.19 või uuema versiooni platvormivärskendusi.
+See funktsioon nõuab platvormi uuendusi 10.0.19 või uuema versiooni Finance and Operationsi rakenduste jaoks.
 
 ## <a name="error-400"></a>Tõrge 400
 
-Tõrketeade on järgmine: "Olemi \{Finance and Operations UniqueEntityName\} jaoks ei leitud ärisündmuste registreerimisandmeid, mis tähendab, et kaart ei tööta või kogu väljavastendus on ühesuunaline."
+Tõrketeade on järgmine: " \{Üksuse Finants ja toimingute kordumatuentityName\} puhul ei leitud ärisündmuste registreerimisandmeid, mis tähendab, et vastendus ei tööta või on kogu välja vastendamine ühesuunaline."
 
 ## <a name="error-500"></a>Tõrge 500
 
-Veateade on järgmine: "Projekti \{projekti nimi\} jaoks ei leitud projekti konfiguratsioone. See võib olla kas projekt pole lubatud või kõik väljavastendused on ühesuunalised klientide kaasamisest finance and Operationsi.
+Veateade on järgmine: "Projekti \{projekti nimi\} jaoks ei leitud projekti konfiguratsioone. See võib olla kas projekt pole lubatud või on kõik väljavastendused ühesuunalised kliendi kaasamisest finantside ja toimingutega."
 
-Kontrollige tabelikaardi kaardistusi. Kui need on ühesuunalised kliendi kaasamise rakendustest Finance and Operationsi rakendustesse, ei looda otsesünkroonimiseks liiklust Finance and Operationsi rakendustest rakendusse Dataverse.
+Kontrollige tabelikaardi kaardistusi. Kui need on kliendikogemuse rakendustest finantside ja toimingute rakendustesse ühesuunalisena, siis ei looda ühtegi liiklust finantside ja toimingute rakenduste otsesünkroonimiseks rakenduseks Dataverse.
 
 ## <a name="error-900"></a>Tõrge 900
 
-Tõrketeade on "Olemi \{Finance and Operations UniqueEntityName\} kehtetu lähtefiltri \{allikasFilterivorming\}".
+Tõrketeade on järgmine: "Üksuse Finantsid ja \{toimingute uniqueEntityName lähtefiltri\}\{kehtetu lähtefiltri vorming\}."
 
-Finance and Operationsi rakenduste tabelikaardil määratud lähtefilter pole süntaktiliselt õige. Filtrikriteeriumide kinnitamiseks vt teemat [Reaalajas sünkroniseerimisprobleemide tõrkeotsing](dual-write-troubleshooting-live-sync.md#live-synchronization-issues-that-are-caused-by-incorrect-query-filter-syntax-on-the-dual-write-maps).
+Finantside ja toimingute rakenduste tabelikaardil määratud allikafilter ei ole süntaktiliselt õige. Filtrikriteeriumide kinnitamiseks vt teemat [Reaalajas sünkroniseerimisprobleemide tõrkeotsing](dual-write-troubleshooting-live-sync.md#live-synchronization-issues-that-are-caused-by-incorrect-query-filter-syntax-on-the-dual-write-maps).
 
 ## <a name="error-1000"></a>Tõrge 1000
 
-Tõrketeade on järgmine: "Olemi \{finance and Operations UniqueEntityName\} päring, mida kasutatakse topeltkirjutamisalus sünkroonimiseks, on \{Finance and Operations EntityFilterQueryString \}. Päringukriteeriumidele vastavad kirjed valitakse reaalajas sünkroonimiseks."
+Tõrketeade on järgmine: päring Entity \{Finance ja Operations UniqueEntityName\}, mida kasutatakse topeltkirjutuse otsesünkroonimiseks, on \{Finantsid ja Toimingud EntityFilterQueryString \}. Päringukriteeriumidele vastavad kirjed valitakse reaalajas sünkroonimiseks."
 
 Tagastatud olemipäring on olemi SQL-i tugipäring. Kontrollige, kas päringus on sisemisi liite või filtreid, mis määravad reaalajas sünkroonimiseks kogutavad ettevõtteandmed. Sisemised ühendused ja filtrid on kohustuslikud tingimused, mis peavad olema täidetud iga kirje puhul, mis võetakse kahekordse kirjutamise reaalajas sünkroonimiseks.
 
 ## <a name="error-1300"></a>Tõrge 1300
 
-Tõrketeade on järgmine: "Olemi \{Finance and Operations EntityMetadata.EntityProperties.LogicalEntityName\} virtuaalseid välju \{s.EntityFieldName\} ei pruugita topeltkirjutamise jaoks jälgida."
+Tõrketeade on järgmine: " \{Virtuaalsed väljad s.EntityFieldName\} üksuse finantside \{ja toimingute üksusemetadata.EntityProperties.LogicalEntityName\} puhul ei pruugita topeltkirjutust jälitada."
 
-Finance and Operationsi tabelite virtuaalsed väljad pole jälgimiseks lubatud. Reaalajas sünkroonimine võib andmeid sünkroonida, kuid see ei saa veergudes tehtud muudatusi vastu võtta.
+Finantside ja toimingute tabelite virtuaalväljad ei ole jälgimise jaoks lubatud. Reaalajas sünkroonimine võib andmeid sünkroonida, kuid see ei saa veergudes tehtud muudatusi vastu võtta.
 
 ## <a name="error-1500"></a>Tõrge 1500
 
@@ -66,9 +66,9 @@ Olemi andmeallikal ei ole ühtegi välja, mis on vastendatud kahekordseks kirjut
 
 ## <a name="error-1600"></a>Tõrge 1600
 
-Veateade on:"Andmeallikas: \{andmeallikas. DataSourceName\} for entity \{Finance and Operations EntityMetadata.EntityProperties.LogicalEntityName\} on vahemik. Väljaminevaks kaasatakse ainult vahemikutingimusele vastavad kirjed."
+Tõrketeade on järgmine: andmeallikas \{. Üksuse Finantsid\} ja toimingud \{EntityMetadata.EntityProperties.LogicalEntityName\} on vahemik. Väljaminevaks kaasatakse ainult vahemikutingimusele vastavad kirjed."
 
-Finance and Operationsi rakenduste olemitel võivad olla andmeallikad, kus filtrivahemikud on lubatud. Need vahemikud määravad kirjed, mis võetakse reaalajas sünkroonimise osana. Kui mõned kirjed jäetakse finance and Operationsi rakendustest Dataverse rakendustest välja, kontrollige, kas kirjed vastavad olemi vahemiku kriteeriumidele. Lihtne viis selle kontrolli tegemiseks on käivitada SQL-päring, mis sarnaneb järgmise näitega.
+Finantside ja toimingute rakenduste üksustel võivad olla andmeallikad, kus filtrivahemikud on lubatud. Need vahemikud määravad kirjed, mis võetakse reaalajas sünkroonimise osana. Kui mõned kirjed jäetakse finantside ja toimingute rakendustest vahele, kontrollige Dataverse, kas kirjed vastavad üksuse vahemiku kriteeriumitele. Lihtne viis selle kontrolli tegemiseks on käivitada SQL-päring, mis sarnaneb järgmise näitega.
 
 ```sql
 select * from <EntityName> where <filter criteria for the records> on SQL.
@@ -79,5 +79,20 @@ select * from <EntityName> where <filter criteria for the records> on SQL.
 Veateade on järgmine, "Olemi \{datasourceTable.Key.entityName\} is tracked for entity \{origTableToEntityMaps.EntityName\} tabel \{datasourceTable.Key.subscribedTableName\}. Samade tabelite, mida jälgitakse mitme olemi puhul, võib mõjutada süsteemi jõudlust reaalajas sünkroonimiskannetel."
 
 Kui sama tabelit jälgib mitu olemit, käivitavad kõik tabeli muudatused lingitud olemite kahekordse kirjutamise hindamise. Kuigi filtriklauslid saadavad ainult kehtivad kirjed, võib hindamine põhjustada toimivusprobleeme, kui on kaua kestnud päringuid või optimeerimata päringuplaanid. See probleem ei pruugi olla ärilisest vaatenurgast välditav. Kui aga mitme üksuse vahel on palju ristuvaid tabeleid, peaksite kaaluma olemi lihtsustamist või olemi päringute optimeerimisvõimaluste kontrollimist.
+
+## <a name="error-1800"></a>Tõrge 1800
+Tõrketeade on järgmine: "Datasource: {} üksuseLe CustCustomerV3Entity sisaldab vahemiku väärtust. Sissetulevate kirjete upse saateid üksuste Dataverse vahemiku väärtustest finantsidesse ja toimingutesse võivad mõjutada. Sätete kinnitamiseks testige kirjevärskendusi Dataverse jaotisest Finantsid ja Operatsioonid kirjetega, mis ei vasta filtri kriteeriumidele."
+
+Kui finantside ja toimingute rakenduste üksuses on määratud vahemik, tuleb sissetulevat sünkroonimist finantsidelt ja toimingute rakendustele testida nende kirjete uuendamise suhtes, Dataverse mis ei vasta sellele vahemiku kriteeriumile. Kõiki kirjeid, mis ei ühti vahemikuga, koheldakse üksus sisestamistoiminguna. Kui aluseks olevas tabelis on kirje, siis sisestamine nurjub. Soovitame teil testida seda kasutusjuhtumeid kõigi stsenaariumite puhul enne tootmisele juurutamist.
+
+## <a name="error-1900"></a>Tõrge 1900
+Tõrketeade on järgmine: üksus: andmeallikaid {} ei jälgita väljamineva topeltkirjutuse suhtes. See võib mõjutada reaalajas sünkroonimispäringu jõudlust. Kasutage finantside ja toimingute üksust uuesti kasutamata andmeallikate ja tabelite eemaldamiseks või juurutage getEntityRecordIdsImpactedByTableChange käitusaja päringute optimeerimiseks."
+
+Kui on palju andmeallikaid, mida ei kasutata tegeliku reaalajas sünkroonimise jälgimiseks finantside ja toimingute rakendustest, siis on võimalus, et üksuse jõudlus võib mõjutada reaalajas sünkroonimist. Jälgitud tabelite optimeerimiseks kasutage meetodit getEntityRecordIdsImpactedByTableChange.
+
+## <a name="error-5000"></a>Tõrge 5000
+Tõrketeade on järgmine: "Sünkroonne sünkroonne sünkroonne on registreeritud üksusekontode andmehalduse sündmuste jaoks. Need võivad mõjutada algset sünkroonimist ja reaalajas sünkroonimise jõudlust Dataverse. Parima jõudluse jaoks muutke aaaa asünkroonseks töötluseks. Registreeritud registreerimata {} kauba loend."
+
+Üksuse sünkroonne sisu võib Dataverse mõjutada reaalajas sünkroonimist ja sünkroonimisjõudluseid, kuna see lisab kande koormale. Soovitatav lähenemine on lülitada välja üksus või teha need asyncid välja, kui koormuse aeg on algses sünkroonimises aeglane või kui teatud üksuse sünkroonimine on reaalajas.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

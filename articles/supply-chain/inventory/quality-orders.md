@@ -1,6 +1,6 @@
 ---
 title: Kvaliteettellimused
-description: See teema kirjeldab, kuidas käsitsi või automaatselt luua kvaliteettellimusi ning kuidas teha nendega toiminguid ja kirjeldada testitulemusi Microsoft Dynamics 365 Supply Chain Management.
+description: See artikkel kirjeldab, kuidas käsitsi või automaatselt kvaliteettellimusi luua ning kuidas nendega Microsoftis kontrolltoiminguid teha ja katsetulemusi kirjendada Dynamics 365 Supply Chain Management.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 69a4a61a599f1279ec7ad68ebb20c7b4b0f37005
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: eb7ab1de0fb4d93ed18f1862630c1af7af7f3095
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571853"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857775"
 ---
 # <a name="quality-orders"></a>Kvaliteettellimused
 
 [!include [banner](../includes/banner.md)]
 
-See teema kirjeldab, kuidas käsitsi või automaatselt luua kvaliteettellimusi ning kuidas teha nendega toiminguid ja kirjeldada testitulemusi Microsoft Dynamics 365 Supply Chain Management.
+See artikkel kirjeldab, kuidas käsitsi või automaatselt kvaliteettellimusi luua ning kuidas nendega Microsoftis kontrolltoiminguid teha ja katsetulemusi kirjendada Dynamics 365 Supply Chain Management.
 
 ## <a name="automatically-created-quality-orders"></a>Automaatselt loodud kvaliteeditellimused
 
@@ -39,7 +39,7 @@ Kvaliteeditellimuse loomiseks tehke järgmist.
 
 1. Avage **Varude haldus \> Perioodilised ülesanded \> Kvaliteedijuhtimine \> Kvaliteettellimused**.
 1. Valige suvand **Uus**.
-1. Valige **Kvaliteeditellimused** dialoogiakna väljal **Viite tüüp** varude viide, millega teie kvaliteettellimus seotud on. Valimiseks saadaolevate viitetüüpide kirjelduse jaoks vaadake jaotist [Kvaliteeditellimuse viitetüübid](#ref-types) selles teemas järgnevalt.
+1. Valige **Kvaliteeditellimused** dialoogiakna väljal **Viite tüüp** varude viide, millega teie kvaliteettellimus seotud on. Valiku jaoks saadaval viitetüüpide kirjeldused leiate selles [artiklis jaotisest Kvaliteeditellimuse](#ref-types) viitetüübid.
 
     > [!NOTE]
     > Valitud viitega seotud varud peavad olema saadaval. Kui valitud viitetüübi, koguse ja varude dimensioonide kombinatsiooni jaoks pole varusid saadaval, saate veateate.
@@ -88,7 +88,7 @@ Saate kasutada kvaliteettellimuse lehte, et luua käsitsi uus kvaliteettellimus 
 
 ### <a name="from-the-quality-orders-page"></a>Kvaliteettellimuste lehelt
 
-Kvaliteeditellimuste käsitsi loomiseks ja kõigi olemasolevate kvaliteeditellimuste vaatamiseks, minge **Varude haldus \> Perioodilised ülesanded \> Kvaliteedijuhtimine \> Kvaliteettellimused**. Selle teema ülejäänud jaotised annavad lisateavet selle kohta, kuidas töötada lehega **Kvaliteettellimused**.
+Kvaliteeditellimuste käsitsi loomiseks ja kõigi olemasolevate kvaliteeditellimuste vaatamiseks, minge **Varude haldus \> Perioodilised ülesanded \> Kvaliteedijuhtimine \> Kvaliteettellimused**. Selle artikli ülejäänud jaotised annavad lisateavet selle kohta, kuidas töötada kvaliteettellimuste **lehega**.
 
 ### <a name="from-sales-orders"></a>Müügitellimustest
 

@@ -1,6 +1,6 @@
 ---
 title: Müügiajaloo andmete puhastamise plaanimine
-description: See teema kirjeldab, kuidas aidata parandada süsteemi jõudlust, planeerides müügi uuendamisajaloo perioodilise puhastuse perioodilise ülesande regulaarseks käitamiseks korrapärase intervalliga.
+description: See artikkel kirjeldab, kuidas saate aidata parandada süsteemi jõudlust, planeerides müügi uuendamisajaloo perioodilise puhastuse ülesande regulaarseks käitamiseks korrapärase intervalliga.
 author: myvakalo
 ms.date: 03/21/2022
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: myvakalo
 ms.search.validFrom: 2021-09-29
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 6c6c1e08d45f2a7d1e1267010b286111bad01a6c
-ms.sourcegitcommit: 197e6ddee84522fd587c6e4ee4f9089101e301c2
+ms.openlocfilehash: 1b2c9436fbb5020065f8f6ec30eedeca342d8aa9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8570362"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900821"
 ---
 # <a name="schedule-sales-history-data-cleanup"></a>Müügiajaloo andmete puhastamise plaanimine
 
@@ -28,7 +28,7 @@ Kui kasutate müügi uuendamisajaloo *perioodilist* puhastusülesannet, *soovita
 
 ## <a name="turn-on-the-sales-history-cleanup-features"></a>Lülita müügiajaloo puhastamisfunktsioonid sisse
 
-*Et* seadistada ja kasutada müügi värskendusajaloo perioodilist puhastusülesannet koos kõigi selles teemas kirjeldatud funktsioonidega, *·* *peate lubama müügiajaloo puhastamisjõudluse parendused ja puhastama müügi värskendamise ajaloo, mis põhineb* funktsioonihalduse vanuse funktsioonidel, nagu kirjeldatud järgmistes alamjaotistes.
+*Et* seadistada ja kasutada müügi värskendusajaloo perioodilist puhastusülesannet koos kõigi selles artiklis kirjeldatud funktsioonidega, *·* *peate lubama müügiajaloo puhastamisjõudluse parendused ja puhastama müügi värskendamise ajaloo, mis põhineb* funktsioonihalduse vanuse funktsioonidel, nagu kirjeldatud järgmistes alamjaotistes.
 
 ### <a name="sales-history-cleanup-performance-improvements"></a>Müügiajaloo puhastamise jõudluse täiustused
 

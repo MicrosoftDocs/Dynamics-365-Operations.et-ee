@@ -1,6 +1,6 @@
 ---
 title: Plaanitud tellimuste lihtsustamine
-description: See teema kirjeldab, kuidas plaanitud tellimusi vaadata, hallata ja kindel olla, kasutades planeeritud tellimuste lihtsustatud lehte.
+description: See artikkel kirjeldab, kuidas plaanitud tellimusi vaadata, hallata ja kindel olla, kasutades planeeritud tellimuste lihtsustatud lehte.
 author: t-benebo
 ms.date: 01/24/2022
 ms.topic: article
@@ -11,24 +11,24 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-01-24
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: b039aa5481b835d3523b86c4ea88afff6a96ba8b
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 5f207fa1edb11d05910e22732cf54e100e4e3489
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8470117"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887366"
 ---
 # <a name="planned-orders-simplified"></a>Plaanitud tellimuste lihtsustamine
 
 [!include [banner](../../includes/banner.md)]
 
-See teema kirjeldab, kuidas plaanitud tellimusi vaadata, hallata ja kindel olla, kasutades planeeritud **tellimuste lihtsustatud** lehte.
+See artikkel kirjeldab, kuidas plaanitud tellimusi vaadata, hallata ja kindel olla, kasutades planeeritud **tellimuste lihtsustatud** lehte.
 
 Plaanitud **tellimuste lihtsustatud** leht on planeeritud tellimuste lehe **lihtsustatud** versioon. See pakub vähem valikuid, kuid on kiirem, kui teil on vaja vaid läbi vaadata, kinnitada ja kinnitada oma plaanitud tellimusi.
 
 ## <a name="turn-on-this-feature-for-your-system"></a>Selle funktsiooni sisselülitamine teie süsteemi jaoks
 
-Kui teie süsteem ei kaasa juba selles teemas kirjeldatud funktsioone, [minge](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) Funktsioonihaldusse ja lülitage *sisse planeeritud tellimuste lihtsustatud* funktsioon.
+Kui teie süsteem ei kaasa juba selles artiklis kirjeldatud funktsioone, [minge](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) funktsioonihalduse ja lülitage *sisse plaanitud tellimuste lihtsustatud* funktsioon.
 
 ## <a name="view-manage-and-firm-planned-orders"></a>Plaanitud tellimuste kuvamine, haldamine ja kindlad
 

@@ -1,6 +1,6 @@
 ---
 title: Laorakenduse installimine ja ühendamine
-description: Selles teemas selgitatakse, kuidas installida laorakendust kõigisse mobiilsetesse seadmetesse ja konfigureerida see keskkonnaga Microsoft Dynamics 365 Supply Chain Management ühenduse loomiseks. Saate konfigureerida kõik seadmed käsitsi, importida ühenduse sätted faili kaudu või skannides QR-koodi.
+description: See artikkel selgitab, kuidas installida laorakendus igasse mobiilsesse seadmesse ja konfigureerida see nii, et see ühenduks Microsofti keskkonnaga Dynamics 365 Supply Chain Management. Saate konfigureerida kõik seadmed käsitsi, importida ühenduse sätted faili kaudu või skannides QR-koodi.
 author: Mirzaab
 ms.date: 05/25/2020
 ms.topic: article
@@ -16,26 +16,26 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9f123f217aabcc7500832fafb15199043048b5e5
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: 8ed770e45aa7f9909b98a92b493dd2931c6a3981
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902267"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885750"
 ---
 # <a name="install-and-connect-the-warehouse-app"></a>Laorakenduse installimine ja ühendamine
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> See teema kirjeldab, kuidas konfigureerida vana laorakendust (mis on nüüdseks iganenud). Kui otsite teavet selle kohta, kuidas konfigureerida uut laohalduse mobiilirakendust, vaadake jaotisest [Laohalduse mobiilirakenduse installimine ja ühendamine](install-configure-warehouse-management-app.md).
+> See artikkel kirjeldab, kuidas konfigureerida vana laorakendust (mis on nüüd taunitud). Kui otsite teavet selle kohta, kuidas konfigureerida uut laohalduse mobiilirakendust, vaadake jaotisest [Laohalduse mobiilirakenduse installimine ja ühendamine](install-configure-warehouse-management-app.md).
 
 > [!NOTE]
-> Selles teemas kirjeldatakse, kuidas pilvejuurutuse korral konfigureerida laorakendust. Kui soovite teavet asutusesiseste juurutamiste laorakenduse konfigureerimise kohta, vt [Kohapealsete juurutuste ladustamine](../../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
+> See artikkel kirjeldab, kuidas konfigureerida laorakendust pilve juurutuste jaoks. Kui soovite teavet asutusesiseste juurutamiste laorakenduse konfigureerimise kohta, vt [Kohapealsete juurutuste ladustamine](../../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
 
 Laorakendus on saadaval Google Play poes ja Microsoft Store'is. See on saadaval eraldiseisva komponendina. Seetõttu peate selle igasse seadmesse eraldi alla laadima ja seejärel konfigureerima selle keskkonnaga Microsoft Dynamics 365 Supply Chain Management ühenduse loomiseks.
 
-Selles teemas selgitatakse, kuidas installida laorakendust kõigisse mobiilsetesse seadmetesse ja konfigureerida see keskkonnaga Supply Chain Management ühenduse loomiseks. Saate konfigureerida kõik seadmed käsitsi, importida ühenduse sätted faili kaudu või skannides QR-koodi.
+See artikkel selgitab, kuidas installida laorakendus igasse mobiilsesse seadmesse ja konfigureerida see ühenduma tarneahela halduskeskkonnaga. Saate konfigureerida kõik seadmed käsitsi, importida ühenduse sätted faili kaudu või skannides QR-koodi.
 
 ## <a name="system-requirements"></a>Süsteeminõuded
 
@@ -76,11 +76,11 @@ Selleks et laorakendus saaks konkreetse Supply Chain Managementi serveriga suhel
 
     ![Rakenduse viisardi registreerimine.](media/app-connect-azure-register-wizard.png "Rakenduse viisardi registreerimine")
 
-1. Avaneb teie uue rakenduse registreerimisaken. Märkige välja **Rakenduse (klient) ID** väärtus üles, seda läheb hiljem vaja. Sellele ID-le on selles teemas hiljem viidatud kui *kliendi ID*.
+1. Avaneb teie uue rakenduse registreerimisaken. Märkige välja **Rakenduse (klient) ID** väärtus üles, seda läheb hiljem vaja. Sellele ID-le viidatakse selles artiklis hiljem kui kliendi *ID-le*.
 
     ![Rakenduse (klient) ID.](media/app-connect-azure-app-id.png "Rakenduse (klient) ID")
 
-1. Valige loendist **Haldamine** suvand **Serdid ja saladused**. Seejärel valige üks järgmistest nuppudest, sõltuvalt sellest, kuidas soovite rakendust autentimiseks konfigureerida. (Lisateabe saamiseks vaadake jaotist [Serdi või kliendi saladuse abil autentimine](#authenticate) selles teemas hiljem.)
+1. Valige loendist **Haldamine** suvand **Serdid ja saladused**. Seejärel valige üks järgmistest nuppudest, sõltuvalt sellest, kuidas soovite rakendust autentimiseks konfigureerida. (Lisateavet vt teemast [Autendimine, kasutades tunnistuse või kliendi salaseost](#authenticate) hiljem selles artiklis.)
 
     - **Serdi üleslaadimine** – laadige üles sert saladusena kasutatamiseks. Soovitame selle lähenemisviisi kasutamist, sest see on turvalisem ja seda saab täielikumalt automatiseerida. Kui käitate laorakendust Windowsi seadmetes, märkige üles väärtus **Sõrmejälg**, mida kuvatakse pärast serdi üleslaadimist. Vajate seda väärtust Windowsi seadmetes serdi konfigureerimisel.
     - **Uus kliendi saladus** – looge võti, sisestades võtme kirjeldus ja kestus jaotises **Paroolid** ning seejärel valige **Lisa**. Tehke võtmest koopia ja talletage see turvaliselt.
@@ -90,7 +90,7 @@ Selleks et laorakendus saaks konkreetse Supply Chain Managementi serveriga suhel
 Lisateavet Azure AD-s veebiteenuse rakenduste seadistamise kohta leiate järgmistest allikatest.
 
 - Juhiste saamiseks selle kohta, kuidas kasutada Windows PowerShelli veebiteenuse rakenduste seadistamiseks Azure AD-s, vaadake teemat [Kuidas: teenusesubjekti loomine serdiga Azure PowerShelli abil](/azure/active-directory/develop/howto-authenticate-service-principal-powershell).
-- Üksikasjaliku teabe saamiseks, kuidas Azure AD-s käsitsi veebiteenuse rakendust luua, vaadake järgmisi teemasid.
+- Lisateavet selle kohta, kuidas käsitsi veebirakendust luua, leiate järgmistest Azure AD artiklitest:
 
     - [Lühijuhend: rakenduse registreerimine Microsofti identiteedi platvormiga](/azure/active-directory/develop/quickstart-register-app)
     - [Kuidas: portaali abil Azure AD rakenduse ja ressurssidele juurde pääseva teenusesubjekti loomine](/azure/active-directory/develop/howto-create-service-principal-portal)
@@ -117,7 +117,7 @@ Supply Chain Managementi lubamiseks, et kasutada Azure AD rakendust, toimige jä
 
 ## <a name="authenticate-by-using-a-certificate-or-client-secret"></a><a name="authenticate"></a>Autentimine serdi või kliendi saladuse abil
 
-Azure AD-ga autentimine pakub turvalist viisi mobiilse seadme ühendamiseks Supply Chain Managementiga. Saate autentida nii serdi kui ka kliendi saladuse abil. Kui impordite ühenduse sätteid, soovitame kliendi saladuse asemel kasutada serti. Kuna kliendi saladus peab olema alati turvaliselt talletatud, ei saa te seda ühenduse sätete failist või QR-koodist importida, nagu selles teemas hiljem kirjeldatakse.
+Azure AD-ga autentimine pakub turvalist viisi mobiilse seadme ühendamiseks Supply Chain Managementiga. Saate autentida nii serdi kui ka kliendi saladuse abil. Kui impordite ühenduse sätteid, soovitame kliendi saladuse asemel kasutada serti. Kuna kliendi saladus tuleb alati turvaliselt talletada, ei saa seda ühendussätete failist ega QR-koodist importida, nagu kirjeldatud käesolevas artiklis.
 
 Serte saab kasutada saladusena rakenduse identiteedi tõestamisel, kui luba taotletakse. Serdi avalik osa laaditakse üles rakenduse registreerimiseks Azure'i portaalis, kuid täielik sert tuleb juurutada igasse seadmesse, kuhu on installitud laorakendus. Teie organisatsioon vastutab serdi haldamise eest roteerimise ja muus osas. Teil on võimalik kasutada enda allkirjastatud serte, kuid te peaksite alati kasutama mitte-eksporditavaid serte.
 

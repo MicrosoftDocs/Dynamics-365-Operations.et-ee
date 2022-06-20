@@ -1,6 +1,6 @@
 ---
-title: Pakett-töödes väljaminevate saadetiste kinnitamine
-description: Selles teemas kirjeldatakse, kuidas seadistada pakett-tööd, mis kinnitab automaatselt väljaminevad üleviimistellimuse saadetised saatmisvalmis koorma jaoks.
+title: Pakett-töös väljuvate saadetiste kinnitamine
+description: See artikkel kirjeldab, kuidas seadistada pakett-tööd, mis kinnitab automaatselt väljaminevad üleviimistellimuse saadetised valmissaadetise koormate jaoks.
 author: perlynne
 ms.date: 07/31/2020
 ms.topic: article
@@ -12,22 +12,22 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: f68dcfc0c1454ee5b095e186c52faa6c83bf8dc6
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 00749a69b17b0064290d7b41ccb2171386716302
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103911"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875097"
 ---
-# <a name="confirm-outbound-shipments-from-batch-jobs"></a>Pakett-töödes väljaminevate saadetiste kinnitamine
+# <a name="confirm-outbound-shipments-from-batch-jobs"></a>Pakett-töös väljuvate saadetiste kinnitamine
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas kirjeldatakse, kuidas seadistada pakett-tööd, mis kinnitab automaatselt väljaminevad üleviimistellimuse saadetised saatmisvalmis koorma jaoks. Siin kirjeldatud pakett-tööd rakendatakse ainult üleviimistellimuste saadetiste, mitte müügitellimuste puhul.
+See artikkel kirjeldab, kuidas seadistada pakett-tööd, mis kinnitab automaatselt väljaminevad üleviimistellimuse saadetised valmissaadetise koormate jaoks. Siin kirjeldatud pakett-tööd rakendatakse ainult üleviimistellimuste saadetiste, mitte müügitellimuste puhul.
 
 ## <a name="turn-the-confirm-outbound-shipments-from-batch-jobs-feature-on-or-off"></a>Pakett-töödest väljaminevate saadetiste kinnitamise funktsiooni sisse- või väljalülitamine
 
-Selles teemas *kirjeldatud funktsioonide kasutamiseks peab* funktsioon Pakett-töödest väljaminevate saadetiste kinnitamine olema teie süsteemi jaoks sisse lülitatud. Tarneahela halduse versiooni 10.0.21 puhul on see funktsioon vaikimisi sisse lülitatud. Tarneahela halduse 10.0.25 puhul on see funktsioon kohustuslik ja seda ei saa välja lülitada. Kui käitate versiooni, mis on *vanem kui 10.0.25, saavad administraatorid selle funktsiooni sisse või välja lülitada, otsides funktsioonihalduse tööruumi pakett-tööde*[funktsioonist](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) Väljaminevate saadetiste kinnitust.
+Selles artiklis kirjeldatud funktsioonide kasutamiseks peab *funktsioon* Pakett-töödest väljaminevate saadetiste kinnitamine olema teie süsteemi jaoks sisse lülitatud. Tarneahela halduse versiooni 10.0.21 puhul on see funktsioon vaikimisi sisse lülitatud. Tarneahela halduse 10.0.25 puhul on see funktsioon kohustuslik ja seda ei saa välja lülitada. Kui käitate versiooni, mis on *vanem kui 10.0.25, saavad administraatorid selle funktsiooni sisse või välja lülitada, otsides funktsioonihalduse tööruumi pakett-tööde*[funktsioonist](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) Väljaminevate saadetiste kinnitust.
 
 ## <a name="process-outbound-shipments"></a>Väljaminevate saadetiste töötlemine
 

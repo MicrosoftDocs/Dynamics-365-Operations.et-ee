@@ -1,6 +1,6 @@
 ---
 title: Global Inventory Accounting toetatavad äridokumendid
-description: Selles teemas loetletakse äridokumendid, mida toetab Global Inventory Accounting. See annab üksikasjaliku näite ostutellimuste dokumentidest.
+description: See artikkel loendab äridokumendid, mida toetab globaalne laoarvestus. See annab üksikasjaliku näite ostutellimuste dokumentidest.
 author: JennySong-SH
 ms.date: 06/18/2021
 ms.topic: article
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 44081be35c6737aa0d16b6e11a5fc8f94b41e872
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: dc88d095c039b22ac347db949f6b61d5a89dc4b1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674445"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875419"
 ---
 # <a name="business-documents-supported-by-global-inventory-accounting"></a>Global Inventory Accounting toetatavad äridokumendid
 
@@ -32,7 +32,7 @@ Kui Global Inventory Accounting lisandmoodul on täielikult seadistatud, on see 
 - **Töölehega dokumendid** – nendeks dokumentideks on toote sissetuleku-, ostuarve-, saatelehe- ja müügiarvedokumendid.
 - **Tööleheta dokumendid** – nendeks dokumentideks on inventuuri, liikumise ja laokorrektsiooni dokumendid.
 
-Selles teemas hiljem kasutatakse protsessi illustreerimiseks näitena ostutellimusi.
+Selles artiklis kasutatakse protsessi illustreerimiseks näitena ostutellimusi.
 
 Järgmises tabelis loetletakse dokumendid, mida praegune väljaanne toetab.
 

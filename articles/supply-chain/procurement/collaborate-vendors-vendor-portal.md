@@ -1,6 +1,6 @@
 ---
 title: Hankijatega koostöö tegemine Hankija portaali kasutades
-description: See teema kirjeldab, kuidas ostuagendid saavad kasutada hankija portaali ostutellimuse kinnitamise protsessi käigus väliste hankijatega koostöö tegemiseks. See teave kehtib ainult Dynamics AX-i 2016. aasta veebruari ja 2016. aasta mai versioonide puhul.
+description: See artikkel kirjeldab, kuidas ostuagendid saavad kasutada hankija portaali, et teha koostööd väliste hankijatega ostutellimuse kinnitusprotsessi ajal. See teave kehtib ainult Dynamics AX-i 2016. aasta veebruari ja 2016. aasta mai versioonide puhul.
 author: GalynaFedorova
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7bbcea318da3ca28b35c6b5ad237092da94dbd0d
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: f15a1087cd85df09c9633b9936058d74656067d3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672034"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865175"
 ---
 # <a name="collaborate-with-vendors-by-using-the-vendor-portal"></a>Hankijatega koostöö tegemine Hankija portaali kasutades
 
 [!include [banner](../includes/banner.md)]
 
-See teema kirjeldab, kuidas ostuagendid saavad kasutada hankija portaali ostutellimuse kinnitamise protsessi käigus väliste hankijatega koostöö tegemiseks. See teave kehtib ainult Dynamics AX-i 2016. aasta veebruari ja 2016. aasta mai versioonide puhul.
+See artikkel kirjeldab, kuidas ostuagendid saavad kasutada hankija portaali, et teha koostööd väliste hankijatega ostutellimuse kinnitusprotsessi ajal. See teave kehtib ainult Dynamics AX-i 2016. aasta veebruari ja 2016. aasta mai versioonide puhul.
 
-Selles teemas sisalduv teave kehtib ainult Dynamics AX-i 2016. aasta veebruari ja 2016. aasta mai versioonide puhul. Lisateavet uue hankijate koostöö funktsiooni kohta leiate jaotisest [Hankijate koostöö väliste hankijatega](vendor-collaboration-work-external-vendors.md).  
+Selle artikli teave kehtib ainult Dynamicsi 2016. aasta veebruari ja 2016. aasta mai versioonide kohta AX. Lisateavet uue hankijate koostöö funktsiooni kohta leiate jaotisest [Hankijate koostöö väliste hankijatega](vendor-collaboration-work-external-vendors.md).  
 
 Hankija portaal on mõeldud hankijatele, kellel puudub ostutellimuse (PO) teabe vahetamiseks Microsoft Dynamics AX-iga elektrooniliste andmevahetus (EDI). Portaal võimaldab ostuagentidel saata hankijale ostutellimuse ja saada siis kinnitava või tagasilükkava vastuse otse Dynamics AX-is.  
 

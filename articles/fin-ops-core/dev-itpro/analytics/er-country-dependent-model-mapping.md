@@ -1,6 +1,6 @@
 ---
-title: Riigi konteksti konfigureerimine sõltuvalt ER-i mudelivastendustest
-description: Selles teemas selgitatakse, kuidas saate seadistada ER-i mudelivastendusi, et need sõltuksid nende kasutamist kontrolliva juriidilise isiku riigi/regiooni kontekstist.
+title: Riigi kontekstist sõltuva ER-mudelivastenduste konfigureerimine
+description: See artikkel selgitab, kuidas saate seadistada ER-mudeli vastendusi nii, et need sõltuvad nende kasutamist kontrolliv juriidilise isiku riigist/regiooni kontekstist.
 author: NickSelin
 ms.date: 11/11/2019
 ms.topic: article
@@ -15,22 +15,22 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.2
-ms.openlocfilehash: 5b26c605bd64b8d8e5a90f4389261e8e56825111
-ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
+ms.openlocfilehash: 771b14662638838ac1f39d85b19ac58a47352c79
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7605367"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883871"
 ---
 # <a name="configure-country-context-dependent-er-model-mappings"></a>Riigi konteksti konfigureerimine sõltuvalt ER-i mudelivastendustest
 
 [!include[banner](../includes/banner.md)]
 
-Saate konfigureerida elektroonilise aruandluse (ER) mudelivastendused nii, et need juurutavad üldist ER-i andmemudelit, kuid on rakenduse Dynamics 365 Finance põhised. Selles teemas selgitatakse, kuidas kujundada ER-i andmemudelile mitut ER-i mudelivastendust, et juhtida, kuidas neid kasutatakse vastavate ER-i vormingute poolt, mida käitatakse erineva riigi/piirkonna kontekstiga ettevõtetest.
+Saate konfigureerida elektroonilise aruandluse (ER) mudeli vastendused nii, et need juurutavad üldise ER-i andmemudeli, kuid on omased Dynamics 365 Finance'le. See artikkel selgitab, kuidas kujundada ER-i andmemudeli jaoks mitme ER-mudeli vastendamist, et kontrollida nende kasutamist vastavates ER-vormingutes, mida käitatakse ettevõtetest, mille riigi/regiooni kontekstid on erinevad.
 
 ## <a name="prerequisites"></a>Eeltingimused
 
-Selles teemas näidete lõpuleviimiseks peavad teil olema järgmised juurdepääsuõigused.
+Selle artikli näidete lõpetamiseks peab teil olema järgmine juurdepääs:
 
 - Juurdepääs Rahanduse keskkonda ühe järgmise rolli jaoks:
     - Elektroonilise aruandluse arendaja
@@ -42,11 +42,11 @@ Selles teemas näidete lõpuleviimiseks peavad teil olema järgmised juurdepää
     - Elektroonilise aruandluse funktsionaalne konsultant
     - Süsteemiadministraator
 
-Mõned selle teema etapid nõuavad ER-vormingu käitamist. Mõnel juhul mõjutab ER-vormingu käitamist selle ettevõtte riigi/regiooni kontekst, kuhu olete hetkel sisse logitud. Saate käitada ER-vormingut praeguses RCS-i eksemplaris, kui ettevõttel, millel on nõutav riigi/regiooni kontekst, on RCS-is saadaval. Vastasel juhul tuleb teil laadida üles ER-i mudelivastenduse ja ER-vormingu konfiguratsioonide lõpetatud versioonid, mis kasutavad Finance’i eksemplari ER-i andmemudelit, ja käitada seejärel ER-vormingut selles Finance’i eksemplaris. Lisateavet selle kohta, kuidas RCS-is sisalduvaid konfiguratsioone Finance’i eksemplari importida, vt [Konfiguratsioonide importimine RCS-ist](rcs-download-configurations.md).
+Mõned selle artikli sammud nõuavad ER-vormingu käivitamist. Mõnel juhul mõjutab ER-vormingu käitamist selle ettevõtte riigi/regiooni kontekst, kuhu olete hetkel sisse logitud. Saate käitada ER-vormingut praeguses RCS-i eksemplaris, kui ettevõttel, millel on nõutav riigi/regiooni kontekst, on RCS-is saadaval. Vastasel juhul tuleb teil laadida üles ER-i mudelivastenduse ja ER-vormingu konfiguratsioonide lõpetatud versioonid, mis kasutavad Finance’i eksemplari ER-i andmemudelit, ja käitada seejärel ER-vormingut selles Finance’i eksemplaris. Lisateavet selle kohta, kuidas RCS-is sisalduvaid konfiguratsioone Finance’i eksemplari importida, vt [Konfiguratsioonide importimine RCS-ist](rcs-download-configurations.md).
 
 ## <a name="single-model-mapping-case"></a>Ühe mudelivastendusega juhtum
 
-Nõutud ER-komponentide kujundamiseks järgige etappe selle teema [lisas 1](#appendix1). Nüüd on teil mudelivastenduse konfiguratsioon **Vastendamine (üldine)**, mis sisaldab määratluse **Sisenemiskoht 1** mudelivastendust.
+Järgige selle artikli [lisa 1](#appendix1) samme ER-i nõutavate komponentide kujundamiseks. Nüüd on teil mudelivastenduse konfiguratsioon **Vastendamine (üldine)**, mis sisaldab määratluse **Sisenemiskoht 1** mudelivastendust.
 
 ![ER konfiguratsioonide leht, vorming, et saada vastenduste konfiguratsioon.](./media/RCS-Context-specific-mapping-Tree.PNG)
 
@@ -59,7 +59,7 @@ Pange tähele, et veebilehitseja pakub laadida alla tekstifaili, mis käivitatud
 
 ## <a name="multiple-shared-model-mappings-case"></a>Mitme ühiskasutuses mudelivastendusega juhtum
 
-Nõutud ER-komponentide kujundamiseks järgige etappe selle teema [lisas 2](#appendix2). Nüüd on teil mudelivastenduse konfiguratsioonid **Vastendamine (üldine)** ja **Vastendamise (üldine) kohandus**, mis sisaldavad määratluse **Sisenemiskoht 1** mudelivastendust.
+Järgige selle artikli [lisa 2](#appendix2) etappe, et kujundada nõutavad ER-i komponendid. Nüüd on teil mudelivastenduse konfiguratsioonid **Vastendamine (üldine)** ja **Vastendamise (üldine) kohandus**, mis sisaldavad määratluse **Sisenemiskoht 1** mudelivastendust.
 
 ![ER konfiguratsioonide leht, üldise kohandatud konfiguratsiooni vastendamine.](./media/RCS-Context-specific-mapping-TreeCustom.PNG)
 
@@ -97,7 +97,7 @@ Pange tähele, et valitud ER-vormingu käivitamine õnnestub. Veebilehitseja pak
 
 ## <a name="multiple-mixed-model-mappings-case"></a>Mitme segatud mudelivastendusega juhtum
 
-Nõutud ER-komponentide kujundamiseks järgige etappe selle teema [lisas 3](#appendix3). Nüüd on teil mudelivastenduse konfiguratsioonid **Vastendamine (üldine)** , **Vastendamise (üldine) kohandus** ja **Vastenduse (FR) mudelivastendus**, mis sisaldavad määratluse **Sisenemiskoht 1** mudelivastendust.
+Järgige selle artikli [lisa 3](#appendix3) samme, et kujundada nõutavad ER-i komponendid. Nüüd on teil mudelivastenduse konfiguratsioonid **Vastendamine (üldine)** , **Vastendamise (üldine) kohandus** ja **Vastenduse (FR) mudelivastendus**, mis sisaldavad määratluse **Sisenemiskoht 1** mudelivastendust.
 
 Pange tähele, et mudelivastenduse konfiguratsiooni **Vastendamine (FR)** 1. versioon konfigureeritakse nii, et see rakendub ainult mudeli **Mudel vastenduste õppimiseks** ER-vormingutele, mida käitatakse rakenduse Finance ettevõtetes, mille riigi/piirkonna kontekst on Prantsusmaa.
 
@@ -138,10 +138,10 @@ Pange tähele, et valitud ER-vormingu käivitamine õnnestub. Veebilehitseja pak
 
 Nagu olete näinud, töötab mudelivastenduse valik ER-vormingu käitamiseks järgmisel viisil.
 
-- Mudelivastenduse määratlus, mida ER-vorming kasutab, on määratud (selle teema näites **Sisenemiskoht 1**).
-- Kõiki vastenduste konfiguratsioone, mis sisaldavad konkreetse määratlusega vastandust ja mis vastavad mis tahes konfigureeritud riigi/piirkonna kontekstipiirangutele, võib kasutada ER-vormingu käitamiseks (selle teema näidete puhul **Vastendamine (üldine)**, **Vastendamise (üldine) kohandus** ja **Vastendamine (FR)**).
-- Mis tahes vaikimisi mudelivastendused, millel on riigi/piirkonna kontekstipiirangud, omavad valikus kõrgemat prioriteeti (selle teema näidetes **Vastendamine (FR)**).
-- Mis tahes vaikimisi mudelivastendused, millel ei ole riigi/piirkonna kontekstipiirangut, omavad valikus järgmist kõrgemat prioriteeti (selle teema näidetes **Vastendamise (üldine) kohandus**).
+- Mudeli vastendamise definitsioon, mida ER-vorming kasutab, on määratud (**artikli näidetes on sisestuspunkt 1**).
+- Kõiki vastendamise konfiguratsioone, mis sisaldavad määratud definitsiooniga vastendust ja mis vastavad mis tahes konfigureeritud riigi/regiooni kontekstipiirangutele, saab potentsiaalselt kasutada ER-vormingu käivitamiseks (vastendamine (**Üldine)**, **vastendamine (Üldine) kohandatud** **ja vastendamine (FR)** selle artikli näidetes).
+- Mis tahes vaikemudeli vastendamist, mille riigi/regiooni kontekstipiirangud on valikule kõrgeima prioriteediga (**vastendamine (FR)** selle artikli näidetes.
+- Mis tahes vaikemudeli vastendusel, mille puhul ei ole riigi/regiooni kontekstipiiranguid, on valiku järgmine kõrgemad prioriteedid (**vastendamine (üldine)** selle artikli näidetes.
 - Mis tahes mudelivastendus, millel on riigi/piirkonna kontekstipiirangud olemas, omavad valikus kõrgemat prioriteeti, kui mudelivastendused, millel puuduvad riigi/piirkonna kontekstipiirangud.
 
 Järgmine tabel annab teavet mudelivastenduste valiku tulemuste kohta kõigi võimalike mudelivastenduste seadistuste juhtumite puhul.

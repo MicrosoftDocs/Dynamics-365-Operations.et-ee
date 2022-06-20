@@ -1,6 +1,6 @@
 ---
 title: Tehnilise muudatuse haldamise KKK-d
-description: Selles jaotises antakse vastuseid korduma kippuvatele küsimustele tehniliste muudatushalduste funktsiooni kohta.
+description: See artikkel annab vastused korduma kippuvatele küsimustele tehnika muudatusehalduse funktsiooni kohta.
 author: t-benebo
 ms.date: 03/25/2021
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-03-25
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: dee16f9d6f8ea583f221a7f6eb466675c8c622d0
-ms.sourcegitcommit: 9638d3a2bd592dc28f5952bda4af7dcf06edfaa4
+ms.openlocfilehash: 16d29fa6485bae866a5209a855dfb928e8bc4783
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8007603"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870778"
 ---
 # <a name="engineering-change-management-faq"></a>Tehnilise muudatuse haldamise KKK-d
 
 [!include [banner](../includes/banner.md)]
 
-Selles jaotises antakse vastuseid korduma kippuvatele küsimustele tehniliste muudatushalduste funktsiooni kohta.
+See artikkel annab vastused korduma kippuvatele küsimustele tehnika muudatusehalduse funktsiooni kohta.
 
 ## <a name="should-i-track-the-version-in-transactions"></a>Kas jälgida versiooni kannetes?
 
@@ -67,7 +67,7 @@ Lisaks eelmises tabelis kuvatud väljadele kopeeritakse kõik tellimuse vaikesä
 > [!NOTE]
 >
 > - Ühik on mallist vaikimisi määratud.
-> - Funktsionaalsust kasutavad jaemüüjad jaekategooria tootele määramisel rakendab jaemüügi kategooria mitme välja vaikeväärtusi väljastatud Dynamics 365 Commerce tootetasemele. Need vaikeväärtused kirjutavad üle vaikeväärtused, mis võivad olla malli poolt juba seatud või kopeeritud inseneritööst.
+> - Funktsionaalsust kasutavad Dynamics 365 Commerce jaemüüjad jaekategooria tootele määramisel rakendab jaemüügi kategooria mitme välja vaikeväärtusi väljastatud tootetasemele. Need vaikeväärtused kirjutavad üle vaikeväärtused, mis võivad olla malli poolt juba seatud või kopeeritud inseneritööst.
 
 ## <a name="should-i-create-a-separate-legal-entity-for-engineering-products-or-use-an-existing-legal-entity"></a>Kas luua tehnika toodete jaoks eraldi juriidiline isik või kasutada olemasolevat juriidilist isikut?
 

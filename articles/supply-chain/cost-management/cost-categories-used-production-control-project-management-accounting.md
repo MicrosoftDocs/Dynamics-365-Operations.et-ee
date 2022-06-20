@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2e35a6b7da4ead8ab6f007ef8800ed8a05b1c513
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 09a808c91ece25a9a40f662e0aca2c504246fc0a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675342"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854496"
 ---
 # <a name="cost-categories-used-in-production-control-and-project-management-accounting"></a>Kulukategooriad, mida kasutatakse moodulites Tootmise juhtimine ja Projektihalduse raamatupidamine
 
@@ -31,7 +31,7 @@ Mõnda tüüpi tootmistöö võib rakenduda projekti ajaprognoosidele ja aruandl
 
 Mõnda tüüpi tootmistöö võib rakenduda projekti ajaprognoosidele ja aruandlusele. Sellisel juhul on tootmise ja projekti jaoks vaja kulukategooriat. Kui tootmises ja projektides kasutatakse kulukategooriat, tuleb määratleda täiendav projektiga seotud teave. Näiteks projektidega seotud tunnikulud võivad erineda tootmisega seotud tunnikuludest. Lehte **Kulukategooriad** saab kasutada tootmise juhtimises ja projektihalduse raamatupidamises kasutatava kulukategooria määratlemiseks. 
 
-**Märkus:** kuluarvestusel on leht **Projekti kategooriad**, kuid sellel lehel puudub seos selles teemas kirjeldatud funktsioonidega. Kulukategooria kasutamisel projektides on lehel **Kulukategooriad** täiendavad vahekaardid, mis kuvavad täiendava projektiga seotud teabe. See teave hõlmab kategooriagruppi, rea atribuuti ja pearaamatukontosid, mis on määratud kulukategooriale.
+**Märkus:** kuluarvestusel on **projektikategooriate** leht, kuid sellel lehel puudub seos selles artiklis kirjeldatud funktsioonidega. Kulukategooria kasutamisel projektides on lehel **Kulukategooriad** täiendavad vahekaardid, mis kuvavad täiendava projektiga seotud teabe. See teave hõlmab kategooriagruppi, rea atribuuti ja pearaamatukontosid, mis on määratud kulukategooriale.
 
 -   Kulukategooria peab olema määratud kategooriagrupile, mis toetab kandetüüpi **Tunnid**.
 -   Rea atribuut näitab vaiketeavet selle kohta, kuidas teavitatud aeg on projektile arveldatav.

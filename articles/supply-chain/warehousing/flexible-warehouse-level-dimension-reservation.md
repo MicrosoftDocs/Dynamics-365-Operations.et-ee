@@ -1,6 +1,6 @@
 ---
-title: Paindliku laotaseme dimensiooni reserveerimise poliitika
-description: See teema kirjeldab varude reserveerimise poliitikat, mis võimaldab partiijälgimisega tooteid müüvatel ettevõtetel käitada nende logistikat, nagu WMS-i toega toimingud, kindlatel partiidel kliendi müügitellimuste jaoks. Seda ka siis, kui tootega seostatud reserveerimise hierarhia ei luba kindlaid partiisid reserveerida.
+title: Paindlik dimensiooni reserveerimise poliitika laotasemel
+description: See artikkel kirjeldab varude reserveerimispoliitikat, mis lubab ettevõtetele, kes müüvad partii jälgitud tooteid ja käitavad nende logistikat WMS-lubatud toimingutena, reserveerida teatud partiisid kliendi müügitellimustele, kuigi toodetega seostatud reserveerimishierarhia keelab konkreetsete partiide reserveerimise.
 author: perlynne
 ms.date: 07/31/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 0fe4b377ec80601f616f81f71222129256dfd448
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.openlocfilehash: fb42d4ccd2d8797a34f6351caf7dedbc1e957fd5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7474936"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885808"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Paindlik dimensiooni reserveerimise poliitika laotasemel
 
@@ -28,7 +28,7 @@ Kui varude reserveerimise hierarhia tüüp *partii-alla\[asukoha\]* on seotud to
 
 Sarnaselt ei saa kindlaid litsentsiplaate reserveerida müügitellimustes olevate toodete jaoks, kui need tooted on seotud reserveerimise vaikehierarhiaga.
 
-Selles teemas kirjeldatakse varude reserveerimise poliitikat, mis võimaldab nendel ettevõtetel kindlaid partiisid või litsentsiplaate reserveerida isegi siis, kui tooted on seotud reserveerimise hierarhia üksusega *partii-alla\[asukoht\]*.
+See artikkel kirjeldab varude reserveerimispoliitikat, mis võimaldab neil ettevõtetel reserveerida kindlaid partiisid või litsentsiplaate, isegi kui tooted on seotud asukohast *allpool\[\]* asuvate partiide reserveerimishierarhiaga.
 
 ## <a name="inventory-reservation-hierarchy"></a>Varude reserveerimise hierarhia
 

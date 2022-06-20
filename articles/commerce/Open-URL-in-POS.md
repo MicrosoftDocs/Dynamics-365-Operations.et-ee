@@ -1,6 +1,6 @@
 ---
 title: URL-i avamine kassas
-description: Selles teemas antakse ülevaade toote ja kliendi otsingufunktsiooni täiustustest rakenduses Dynamics 365 Commerce.
+description: See artikkel annab ülevaate parendustest, mis on tehtud toote ja kliendi otsingu funktsioonis moodulis Dynamics 365 Commerce.
 author: AamirAllaq
 ms.date: 01/28/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-30
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: 0e02a08e5afd15fd9622495fd77f4dc01b85786bcffc222b5c979c82a59a6aab
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 529908df866c71ea84d90bbb5d46b23311ed74d1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714110"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853958"
 ---
 # <a name="open-url-in-pos"></a>URL-i avamine kassas
 
 [!include [banner](includes/banner.md)]
 
-Selles teemas kirjeldatakse, kuidas saate URL-i avamiseks konfigureerida Dynamics 365 Commerce nuppu jaemüügikassas. See funktsioon ei vaja koodikohandust ja seda saab konfigureerida mittearendaja rollis. 
+See artikkel kirjeldab, kuidas saab url-i Dynamics 365 Commerce avamiseks müügikohas nuppu konfigureerida. See funktsioon ei vaja koodikohandust ja seda saab konfigureerida mittearendaja rollis. 
 
 See funktsioon võimaldab nupu konfigureerimist kassas, kasutades URL-i avamiseks nupupaneeli koostajat. Praegu toetatakse seda järgmistes konfiguratsioonides.
 

@@ -1,6 +1,6 @@
 ---
 title: Kliendi makseviisi määramine
-description: Selles teemas kirjeldatakse, kuidas luua kliendi makseviisi.
+description: See artikkel selgitab, kuidas kliendi maksetele maksemeetodit luua.
 author: ShivamPandey-msft
 ms.date: 07/31/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f9e8974ea20497124e24e95b3761317daf126839
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: f3843ce596d054263b69ccc577f3885970fe49d1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713892"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861498"
 ---
 # <a name="establish-customer-method-of-payment"></a>Kliendi makseviisi määramine
 
 [!include [banner](../../includes/banner.md)]
 
-Selles teemas kirjeldatakse, kuidas luua kliendi makseviisi. See ülesanne kasutab demoettevõtte USMF andmeid.
+See artikkel selgitab, kuidas kliendi maksetele maksemeetodit luua. See ülesanne kasutab demoettevõtte USMF andmeid.
 
 1. Navigeerimispaanil avage **Moodulid > Müügireskontro > Maksete seadistamine > Makseviisid**.
 2. Valige suvand **Uus**.

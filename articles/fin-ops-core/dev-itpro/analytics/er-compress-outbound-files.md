@@ -1,6 +1,6 @@
 ---
 title: Elektroonilises aruandluses loodavate suurte failide tihendamine
-description: Selles teemas selgitatakse, kuidas tihendada suuri dokumente, mis luuakse elektroonilise aruandluse (ER) vormingus.
+description: See artikkel selgitab, kuidas tihendada suuri dokumente, mille on loonud elektroonilise aruandluse (ER) vorming.
 author: NickSelin
 ms.date: 09/11/2020
 ms.topic: article
@@ -15,25 +15,25 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 7ef8f730f2e207a8fd28c2bf5167d14f57d6c607314bfc48d4358a59d3ef5c43
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9a4995879717e715f8ebadb6a80e00949df7545c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718595"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864803"
 ---
 # <a name="compress-large-documents-that-are-generated-in-electronic-reporting"></a>Elektroonilises aruandluses loodavate suurte failide tihendamine 
 
 [!include [banner](../includes/banner.md)]
 
-Saate kasutada [elektroonilise aruandluse (ER) raamistikku](general-electronic-reporting.md), et konfigureerida lahendus, mis toob kandeandmed väljamineva dokumendi loomiseks. See loodud dokument võib olla üsna suur. Seda tüüpi dokumendi loomisel kasutatakse selle hoidmiseks [rakendusobjekti serveri (AOS)](../dev-tools/access-instances.md#location-of-packages-source-code-and-other-aos-configurations) mälu. Mingil hetkel tuleb dokument seejärel rakendusest Microsoft Dynamics 365 Finance alla laadida. Praegu on ühe ER-is loodava dokumendi maksimaalne suurus 2 gigabaiti (GB). Lisaks on Finance'is praegu allalaaditud faili suuruse [piirang](https://fix.lcs.dynamics.com/Issue/Details?kb=4569432&bugId=453907&dbType=3) 1 GB. Seetõttu peate konfigureerima ER-i lahenduse, mis vähendab tõenäosust, et need piirangud ületatakse ja et teile näidatakse erandit **Voog oli liiga pikk** või **Ületäide või allakadu aritmeetikatehtes**.
+Saate kasutada [elektroonilise aruandluse (ER) raamistikku](general-electronic-reporting.md), et konfigureerida lahendus, mis toob kandeandmed väljamineva dokumendi loomiseks. See loodud dokument võib olla üsna suur. Seda tüüpi dokumendi loomisel kasutatakse selle hoidmiseks [rakendusobjekti serveri (AOS)](../dev-tools/access-instances.md#location-of-packages-source-code-and-other-aos-configurations) mälu. Dokument tuleb seejärel alla laadida oma rakendusest Microsoft Dynamics 365 Finance. Praegu on ühe ER-is loodava dokumendi maksimaalne suurus 2 gigabaiti (GB). Lisaks on Finance'is praegu allalaaditud faili suuruse [piirang](https://fix.lcs.dynamics.com/Issue/Details?kb=4569432&bugId=453907&dbType=3) 1 GB. Seetõttu peate konfigureerima ER-i lahenduse, mis vähendab tõenäosust, et need piirangud ületatakse ja et teile näidatakse erandit **Voog oli liiga pikk** või **Ületäide või allakadu aritmeetikatehtes**.
 
 Lahendust konfigureerides saate toimingute kujundajas ER-i vormingut kohandada, lisades juurelemendi, mille tüüp on **Kaust**, et tihendada sisu, mida selle pesastatud elemendid loovad. Tihendamine toimub „täpselt õigel ajal”, nii et maksimaalset kasutatavat mälumahtu ja allalaaditava faili suurust saab vähendada.
 
 > [!NOTE]
 > Faili tihendamine hõivab CPU kasutusest lisaprotsendi.
 
-Selle meetodi kohta lisateabe saamiseks läbige siinse teema näide.
+Lisateabe saamiseks selle lähenemise kohta viige näide selles artiklis lõpule.
 
 ## <a name="example-compress-an-outbound-document"></a>Näide: väljamineva dokumendi tihendamine
 
@@ -41,7 +41,7 @@ Selles näites on näha, kuidas kasutaja, kellele on määratud **süsteemiadmin
 
 ### <a name="prerequisites"></a>Eeltingimused
 
-Enne selles teemas kirjeldatud toimingute tegemist peavad järgmised sammud lõpetatud olema.
+Enne selle artikli protseduuride sooritamist tuleb läbida järgmised sammud.
 
 1. [Konfiguratsioonipakkuja aktiveerimine](er-defer-xml-element.md#activate-a-configuration-provider).
 2. [ER-i näidiskonfiguratsioonide importimine](er-defer-xml-element.md#import-the-sample-er-configurations).

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e884e96e1275f9162b642bbe48c2d891c6434002
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: d4be32a7158561bdf00a996831dca7395ce6f331
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109964"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879736"
 ---
 # <a name="invoice-matching-and-intercompany-purchase-orders"></a>Arvete võrdlemine ja kontsernisisesed ostutellimused
 
@@ -28,7 +28,7 @@ ms.locfileid: "8109964"
 
 Kontsernisisese kaubanduse kandega seotud juriidilise isiku ostu saab seadistada kasutama ostureskontro arvete võrdlemist. Kui ostureskontro **parameetrite lehel** on **seadistatud** **väli** Sisesta arve lahknevustega, tehakse arvete vastendamise kinnitamine. Sel juhul peavad nii kontsernisisese kaubanduse kui ka ostureskontro arvete võrdlemise sisestamisnõuded olema täidetud, enne kui saab sisestada kontsernisisesed hankijate arved.
 
-Selle teema näidetes kasutatakse järgmist kontsernisisese kaubanduse seadistust.
+Selle artikli näidetes kasutatakse kontserni kaubavahetuse jaoks järgmist seadistust:
 -   Fabrikam Purchase on ostja juriidiline isik.
 -   Fabrikam Sales on müüja juriidiline isik.
 -   Klient 4020 eksisteerib valikus Fabrikam Müük.

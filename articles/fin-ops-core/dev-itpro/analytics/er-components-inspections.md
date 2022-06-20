@@ -1,6 +1,6 @@
 ---
 title: Käitusaja probleemide ennetamiseks konfigureeritud ER-i komponendi kontrollimine
-description: Selles teemas selgitatakse, kuidas kontrollida konfigureeritud elektroonilise aruandluse (ER) komponente, et vältida tekkida võivaid käitusaja probleeme.
+description: See artikkel selgitab, kuidas kontrollida konfigureeritud elektroonilise aruandluse (ER) komponente käitusajaprobleemide vältimiseks, mis võivad ilmneda.
 author: NickSelin
 ms.date: 01/03/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c63ffc6316d21d36bb2aad57194b8aa1c477607e
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: c30f1a0d6ca4a50645bada39abbbf2f58777abb8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8074787"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864832"
 ---
 # <a name="inspect-the-configured-er-component-to-prevent-runtime-issues"></a>Käitusaja probleemide ennetamiseks konfigureeritud ER-i komponendi kontrollimine
 
@@ -30,7 +30,7 @@ Kõik konfigureeritud [elektroonilise aruandluse (ER)](general-electronic-report
 
 Vaikimisi rakendatakse ER-i konfiguratsioonile automaatselt kontroll järgmistel juhtudel, mis sisaldab eelnevalt nimetatud ER-i komponente.
 
-- Te [impordite](general-electronic-reporting.md#importing-an-er-component-from-lcs-to-use-it-internally) ER-i konfiguratsiooni uue [versiooni](general-electronic-reporting.md#component-versioning) oma Microsoft Dynamics 365 Finance’i olemisse.
+- Impordite [...](general-electronic-reporting.md#importing-an-er-component-from-lcs-to-use-it-internally)[ER-i](general-electronic-reporting.md#component-versioning) konfiguratsiooni uue versiooni oma Microsoft Dynamics 365 Finantside eksemplari.
 - Muudate redigeeritava ER-i konfiguratsiooni [oleku](general-electronic-reporting.md#component-versioning) valikult **Mustand** valikule **Lõpetatud**.
 - Muudate redigeeritava ER-i konfiguratsiooni [alust](general-electronic-reporting.md#upgrading-a-format-selecting-a-new-version-of-base-format-rebase), rakendades uue alusversiooni.
 
@@ -80,7 +80,7 @@ ER kasutab järjepidevuse kontrollide rühmitamiseks järgmisi kategooriaid.
 
 ## <a name="list-of-inspections"></a>Kontrollimiste loend
 
-Järgmises tabelis antakse ülevaade ER-i pakutavate kontrollide ülevaade. Nende kontrollimiste kohta lisateabe saamiseks kasutage esimeses veerus olevaid linke, et minna selle teema vastavatesse jaotistesse. Need jaotised selgitavad komponentide tüüpe, mille jaoks ER kontrolle pakub, ja kuidas saate probleemide ennetamise abistamiseks ER-i komponente uuesti konfigureerida.
+Järgmises tabelis antakse ülevaade ER-i pakutavate kontrollide ülevaade. Nende kontrollimise kohta lisateabe saamiseks kasutage esimese veeru linke, et minna käesoleva artikli vastavatesse jaotisse. Need jaotised selgitavad komponentide tüüpe, mille jaoks ER kontrolle pakub, ja kuidas saate probleemide ennetamise abistamiseks ER-i komponente uuesti konfigureerida.
 
 <table>
 <thead>
@@ -237,9 +237,9 @@ Järgmises tabelis antakse ülevaade ER-i pakutavate kontrollide ülevaade. Nend
 <td>Andmeedastuseta on rohkem kui kaks vahemikukomponenti. Palun eemaldage mittevajalikud komponendid.</td>
 </tr>
 <tr>
-<td><a href='#i18'>Avaldise käivitatavus funktsiooniga ORDERBY</a></td>
+<td><a href='#i18'>Avaldise täitmine funktsiooniga ORDERBY</a></td>
 <td>Täidetavus</td>
-<td>Tõrge</td>
+<td>Viga</td>
 <td>
 <p>Funktsiooni ORDERBY loendiavaldis ei ole päringuobjektiks sobilik.</p>
 <p><b>Käitusaja tõrge:</b> sortimist ei toetata. Kontrollige konfiguratsiooni, et saada selle kohta lisateavet.</p>
@@ -374,7 +374,7 @@ Järgmised etapid näitavad, kuidas see probleem võib ilmneda.
 8. Pange uue pesastatud välja nimeks **$AccNumber** ja konfigureerige see nii, et see sisaldaks avaldist `TRIM(Vendor.AccountNum)`.
 9. Valige suvand **Kontrolli**, et kontrollida mudeli vastendamise kujundaja lehel **Mudeli vastendamise kujundaja** redigeeritud mudeli vastendamise komponenti ja kinnitada, et avaldisele `FILTER(Vendor, Vendor.AccountNum="US-101")` on võimalik andmeallikas **Hankija** saata päring.
 
-    ![Kontrollides, kas funktsioonil FILTER olevat avaldist saab küsida lehel Mudelivastenduse kujundaja.](./media/er-components-inspections-04.gif)
+    ![Veenduge, et funktsiooniGA FILTER avaldist saab mudeli vastendamise kujundaja lehel päringusse esitada.](./media/er-components-inspections-04.gif)
 
 10. Pange tähele, et ilmneb valideerimise tõrge, kuna andmeallikas **Hankija** sisaldab tüübi **Arvutatud väli** pesastatud välja, mis ei luba andmeallika **FilteredVendor** avaldist otse SQL-lauseks teisendada.
 
@@ -902,32 +902,32 @@ Selle probleemi automaatseks lahendamiseks pole saadaval ühtegi valikut.
 
 Muutke konfigureeritud vormingut, muutes kõikide vastuolude **Exceli\\Vahemiku** komponentide **Andmeedastussuuna** atribuuti.
 
-## <a name="executability-of-an-expression-with-orderby-function"></a><a id="i18"></a> Avaldise käivitatavus funktsiooniga ORDERBY
+## <a name="executability-of-an-expression-with-orderby-function"></a><a id="i18"></a> Avaldise täitmine funktsiooniga ORDERBY
 
-Funktsiooni ORDERBY [ER kasutatakse funktsiooni Kirjeloenditüübi](er-functions-list-orderby.md) ER **[andmeallika](er-formula-supported-data-types-composite.md#record-list)** kirjete sortimiseks, mis on määratud funktsiooni argumendina.
+Integreeritud funktsiooni ORDERBY [ER kasutatakse funktsiooni argumendina määratud kirjeloendi tüübiga ER-andmeallika](er-functions-list-orderby.md)**[...](er-formula-supported-data-types-composite.md#record-list)** kirjete sortimiseks.
 
-Funktsiooni argumente `ORDERBY` saab [määrata](er-functions-list-orderby.md#syntax-2) rakendustabelite, vaadete või andmeolemite kirjete sortimiseks, pannes sorditud andmete loendina saamiseks ühe andmebaasikõne. Kirjeloendi **tüübi andmeallikat** kasutatakse funktsiooni argumendina ja see määrab kõne rakenduse allika.
+Funktsiooni argumente `ORDERBY`[saab](er-functions-list-orderby.md#syntax-2) määrata rakendustabelite, vaadete või andmeüksuste kirjete sortimiseks, pannes ühe andmebaasikutse, et saada sorditud andmed kirjete loendina. Loenditüübi Kirje **andmeallikat** kasutatakse funktsiooni argumendina ja see määrab kõne jaoks rakenduse allika.
 
-ER kontrollib, kas funktsioonis `ORDERBY` viidatud andmeallikale saab luua otsese andmebaasipäringu. Kui otsest päringut ei saa luua, kuvatakse ER-i mudeli vastendamise kujundajas valideerimise tõrge. Teile kuvatavas teates on kirjas, et ER-i avaldist, mis sisaldav funktsiooni `ORDERBY` ei saa käitusajal käivitada.
+ER kontrollib, kas otseandmebaasi päringu saab luua andmeallikale, millele funktsioonis `ORDERBY` viidatakse. Kui otsest päringut ei saa luua, kuvatakse ER-i mudeli vastendamise kujundajas valideerimise tõrge. Teile kuvatavas teates on kirjas, et ER-i avaldist, mis sisaldav funktsiooni `ORDERBY` ei saa käitusajal käivitada.
 
 Järgmised etapid näitavad, kuidas see probleem võib ilmneda.
 
 1. Hakake konfigureerima ER-i mudeli vastendamise komponenti.
 2. Lisage tüübi **Dynamics 365 for Operations \\ Tabeli kirjed** andmeallikas.
-3. Pange uuele andmeallikale nimeks **Hankija**. Valige väljal **Tabel** Väärtus VendTable **,** et määrata, kas see andmeallikas taotleb tabelit **VendTable**.
+3. Pange uuele andmeallikale nimeks **Hankija**. Väljal Tabel **valige** VendTable, **et** määrata, kas see andmeallikas taotleks tabelit **VendTable**.
 4. Lisage tüübi **Arvutatud väli** andmeallikas.
-5. Nimetage uus andmeallikas **TellitudVendorid** ja konfigureerige see nii, et see sisaldaks avaldist `ORDERBY("Query", Vendor, Vendor.AccountNum)`.
+5. Nimetage uus andmeallikas **OrderedVendors ja** konfigureerige see nii, et see sisaldaks avaldist `ORDERBY("Query", Vendor, Vendor.AccountNum)`.
  
-    ![Andmeallikate konfigureerimine lehel Mudelivastenduse kujundaja.](./media/er-components-inspections-18-1.png)
+    ![Andmeallikate konfigureerimine mudeli vastendamise kujundaja lehel](./media/er-components-inspections-18-1.png)
 
-6. Valige **Kinnita**, et kontrollida redigeeritavat mudelivastenduse komponenti **lehel Mudelivastenduse kujundaja** ja kontrollida, kas andmeallikas Tellitudvendorid **olevat avaldist** saab küsitleda.
+6. Valige **Kinnita,** et **·** **kontrollida redigeeritavat mudeli vastendamise komponenti mudeli vastenduse koostaja lehel ja veenduge, et andmeallikas OrderedVendors** oleva avaldise kohta saab teha päringuid.
 7. Muutke andmeallikat **Hankija**, lisades tüübi **Arvutatud väli** pesastatud väli, et hankida kärbitud hankija konto number.
 8. Pange uue pesastatud välja nimeks **$AccNumber** ja konfigureerige see nii, et see sisaldaks avaldist `TRIM(Vendor.AccountNum)`.
-9. Valige **Kinnita**, et kontrollida redigeeritavat mudelivastenduse komponenti **lehel Mudelivastenduse kujundaja** ja kontrollida, kas hankija **andmeallika avaldist** saab küsitleda.
+9. Valige **Kinnita,** et kontrollida redigeeritavat mudeli vastendamise **komponenti mudeli vastendamise** **koostaja** lehel ja veenduge, et hankija andmeallika avaldisele võib teha päringuid.
 
-    ![Kontrollimine, kas hankija andmeallika avaldist saab küsida lehel Mudelivastenduse kujundaja.](./media/er-components-inspections-18-2.png)
+    ![Kontrollimine, kas hankija andmeallika avaldise kohta saab teha päringuid mudeli vastendamise kujundaja lehel.](./media/er-components-inspections-18-2.png)
 
-10. Pange tähele valideerimistõrke ilmnemist, kuna **hankija** andmeallikas sisaldab välja **Arvutatud pesastatud välja**, mis ei luba andmeallika TellitudVendors **avaldist** tõlkida otsesesse andmebaasiväljavõttu. Sama tõrge ilmneb käitusajal, kui ignoreerite valideerimistõrget ja valite selle mudelivastenduse käivitamiseks suvandi **Käivita**.
+10. Pange tähele, et ilmneb valideerimistõrge, sest hankija andmeallikas on arvutatud väljatüübiga pesastatud väli, **·** **·** **mis ei luba andmeallika OrderedVendors** avaldist otseandmebaasi lausesse tõlkida. Sama tõrge ilmneb käitusajal, kui ignoreerite kinnitamistõrget ja valite selle **mudeli** vastenduse käivitamiseks käsu Käivita.
 
 ### <a name="automatic-resolution"></a>Automaatne lahendamine
 
@@ -937,11 +937,11 @@ Selle probleemi automaatseks lahendamiseks pole saadaval ühtegi valikut.
 
 #### <a name="option-1"></a>Suvand 1
 
-Selle asemel, et lisada hankija andmeallikale välja Arvutatud pesastatud väli **, lisage**$AccNumber **pesastatud välja andmeallikasse** FilteredVendors **ja konfigureerige väli nii, et see sisaldaks avaldist**.**·**`TRIM(FilteredVendor.AccountNum)` Sel viisil saab avaldist `ORDERBY("Query", Vendor, Vendor.AccountNum)` käitada andmebaasi tasemel ja $AccNumber **pesastatud välja arvutamist** saab teha pärast seda.
+Arvutatud väljatüübi **pesastatud** **·** **välja lisamise asemel hankija andmeallikale lisage $AccNumber** **- pesastatud väli andmeallikale FilteredVendors** ja konfigureerige väli nii, et see sisaldaks avaldist.`TRIM(FilteredVendor.AccountNum)` Sel viisil saab `ORDERBY("Query", Vendor, Vendor.AccountNum)` avaldist käitada andmebaasi tasemel **ja avaldise $AccNumber** saa pärast seda teha.
 
 #### <a name="option-2"></a>Suvand 2
 
-Muutke andmeallika FiltreeritudVendorid **avaldise** asukohaks `ORDERBY("Query", Vendor, Vendor.AccountNum)``ORDERBY("InMemory", Vendor, Vendor.AccountNum)`. Me ei soovita muuta suure andmemahuga tabeli avaldist (tehingutabel), kuna kõik kirjed toodatakse ja vajalike kirjete tellimine toimub mälus. Seetõttu võib selline lähenemine põhjustada kehva jõudluse.
+Muuda andmeallika **FilteredVendors** avaldise lähtekohaks `ORDERBY("Query", Vendor, Vendor.AccountNum)``ORDERBY("InMemory", Vendor, Vendor.AccountNum)`. Me ei soovita muuta avaldist tabeli puhul, kus on suur andmemaht (kandetabel), sest kõik kirjed laaditakse ja nõutud kirjed tellitakse mälus. Seetõttu võib selline lähenemine põhjustada kehva jõudluse.
 
 ## <a name="additional-resources"></a>Lisaressursid
 

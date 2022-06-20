@@ -1,6 +1,6 @@
 ---
 title: Hankija koostöö klientidega
-description: Selles teemas kirjeldatakse, kuidas saate kasutada hankija koostööd, et töötada ostutellimustega ja jälgida saadetise varusid.
+description: See artikkel kirjeldab, kuidas saate hankija koostöö abil töötada ostuühikutega ja jälgida veose varusid.
 author: GalynaFedorova
 ms.date: 09/15/2020
 ms.topic: article
@@ -15,23 +15,23 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 5690630d4dde947798c925af66c73122c2efad3d
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 4e5748f2368376ee03f280f1487d1de65250d3a4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8673770"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859165"
 ---
 # <a name="vendor-collaboration-with-customers"></a>Hankija koostöö klientidega
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas kirjeldatakse, kuidas saate kasutada hankija koostööd, et töötada klientidega rakenduses Microsoft Dynamics 365 Supply Chain Management. Hankijad saavad äriprotsesse lõpule viia järgmistes tööruumides.
+See artikkel kirjeldab, kuidas saate hankija koostöö abil Microsofti klientidega töötada Dynamics 365 Supply Chain Management. Hankijad saavad äriprotsesse lõpule viia järgmistes tööruumides.
 
 - **Ostutellimuse kinnitus** – ostutellimuste (OT-de) jälgimine ja neile vastamine.
 - **Hankija pakkumine** – pakkumiskutsete vaatamine ja neile reageerimine pakkumisi sisestades.
 - **Hankija teave** – hankija koondandmete vaatamine ja värskendamine.
-- **Arve koostamine** – töötamine arvetega. See teema ei hõlma tööruumi **Arve koostamine**. Lisateabe saamiseks selle tööruumi kohta vaadake teemat [„Hankija koostöö arve tööruum”](../../finance/accounts-payable/vendor-portal-invoicing-workspace.md).
+- **Arve koostamine** – töötamine arvetega. See artikkel ei hõlma arvelduse **tööruumi**. Lisateabe saamiseks selle tööruumi kohta vaadake teemat [„Hankija koostöö arve tööruum”](../../finance/accounts-payable/vendor-portal-invoicing-workspace.md).
 
 Hankijad saavad jälgida ka teavet veose varude kohta.
 
@@ -47,9 +47,9 @@ Tööruumis **Ostutellimuse kinnitus** on kolm loendit.
 
 OT-dega töötamiseks saate kasutada järgmisi lehti.
 
-- **Ülevaatamist ootavad ostutellimused** – see leht sisaldab sama teavet nagu loend **Ülevaatamist ootavad ostutellimused** tööruumis. Vaadake selle kirjeldust eestpoolt.
+- **Ülevaatamist ootavad ostutellimused** – see leht sisaldab sama teavet nagu loend **Ülevaatamist ootavad ostutellimused** tööruumis. Vt selle artikli varasemat kirjeldust.
 - **Ostutellimuse hankija kinnitamise ajalugu** – see leht sisaldab kõiki OT-sid ja kõiki hankijale saadetud OT-de versioone. See sisaldab ka kõiki hankijalt saadud vastuseid.
-- **Ava kinnitatud ostutellimused** – see leht sisaldab sama teavet nagu loend **Ava kinnitatud ostutellimus** tööruumis. Vaadake selle kirjeldust eestpoolt.
+- **Ava kinnitatud ostutellimused** – see leht sisaldab sama teavet nagu loend **Ava kinnitatud ostutellimus** tööruumis. Vt selle artikli varasemat kirjeldust.
 - **Kõik kinnitatud ostutellimused** – see leht sisaldab kõiki kinnitatud OT-sid. Sellel lehel kuvatud OT-d hõlmavad ka saadud toodete või teenuste OT-sid. Saate kasutada seda loendit jälgimaks, milliste OT-de eest saate arveid saata.
 
 ### <a name="responding-to-pos"></a>OT-dele vastamine

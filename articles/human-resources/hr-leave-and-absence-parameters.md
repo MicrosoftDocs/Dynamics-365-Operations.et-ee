@@ -1,6 +1,6 @@
 ---
 title: Puhkuste ja puudumiste parameetrite konfigureerimine
-description: See teema kirjeldab inimressursside parameetrite määratlemist puhkusel ja puudumisel Dynamics 365 Human Resources.
+description: See artikkel kirjeldab inimressursside parameetrite määratlemist puhkusel ja puudumiste puhul Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 10/28/2021
 ms.topic: article
@@ -14,17 +14,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 79052c550783dee1ba4091ad10bde4d79d7b905e
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 3a39c74eef3865c03ccb9dd5aa2fece7f25e639a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690690"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891375"
 ---
 # <a name="configure-leave-and-absence-parameters"></a>Puhkuste ja puudumiste parameetrite konfigureerimine
 
 >[!Important]
->Selles teemas märgitud funktsioone saavad kliendid praegu kasutada eraldiseisvas teenuses Dynamics 365 Human Resources. Osa või kõik funktsioonid on saadaval osana Finance'i taristu tulevasest väljalaskest pärast Finance'i versiooni 10.0.26.
+>Selles artiklis märgitud funktsioonid on klientide jaoks praegu saadaval eraldiseisev Dynamics 365 Human Resources. Osa või kõik funktsioonid on saadaval osana Finance'i taristu tulevasest väljalaskest pärast Finance'i versiooni 10.0.26.
 
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]

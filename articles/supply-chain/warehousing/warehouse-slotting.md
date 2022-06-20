@@ -1,6 +1,6 @@
 ---
 title: Lao ruumi leidmine
-description: Selles teemas antakse teavet lao ruumi leidmise kohta. Lao ruumi leidmise abil saate konsolideerida nõudlust kauba ja mõõtühiku järgi tellimustest, mille olek on tellitud, reserveeritud või väljastatud. See aitab laohalduritel nutikalt planeerida komplekteerimise asukohti enne tellimuse lattu väljatamist ja komplekteerimistöö loomist.
+description: See artikkel annab teavet lao pesade kohta. Lao ruumi leidmise abil saate konsolideerida nõudlust kauba ja mõõtühiku järgi tellimustest, mille olek on tellitud, reserveeritud või väljastatud. See aitab laohalduritel nutikalt planeerida komplekteerimise asukohti enne tellimuse lattu väljatamist ja komplekteerimistöö loomist.
 author: Mirzaab
 ms.date: 11/13/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: e057992b15f0a1fa76a78ef78ea9aeea3c088be9
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: a5ce900d7698c7d8211ce1e8b7d529ab79a28915
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8676295"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897251"
 ---
 # <a name="warehouse-slotting"></a>Lao ruumi leidmine
 
@@ -156,7 +156,7 @@ Iga loodava müügitellimuse malli jaoks järgige neid etappe, et lisada rida ig
 
     - **Mõõtühiku järk:** _EaBoxPl_
 
-        See väli määratleb rea jaoks kehtiva mõõtühiku. (Lisateavet leiate selle teema varasemast jaotisest [Ruumi leidmise mõõtühikute järkude seadistamine](#unit-tiers).)
+        See väli määratleb rea jaoks kehtiva mõõtühiku. (Lisateavet vt teemast [Seadistage mõõtühikujärgud selles artiklis varasema pesastamisjaoks](#unit-tiers) .)
 
     - **Määra ruumi kriteeriumid:** _Koguse kaalumine_
 

@@ -1,6 +1,6 @@
 ---
 title: Põhivarade likvideerimine Eesti ja Leedu puhul
-description: See teema pakub teavet Eestis ja Leedus asuvate juriidiliste isikute kasutajate puhul vabas vormis arvete sisestatud põhivarade likvideerimise kreeditarvete kohta.
+description: See artikkel annab teavet vabas vormis arvega sisestatud põhivarade likvideerimise kreeditarvete kohta Eesti ja Leedu juriidiliste isikute kasutajatele.
 author: ShylaThompson
 ms.date: 06/20/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Estonia, Lithuania
 ms.author: kfend
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 27740f29c8813e1facfc839c644aed58e146d781f07311b85df4899e22445877
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c5849c7e1ab55ab074b579ed1aa765acd0fc5888
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6725992"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910025"
 ---
 # <a name="fixed-assets-disposal-for-estonia-and-lithuania"></a>Põhivarade likvideerimine Eesti ja Leedu puhul
 
 [!include [banner](../includes/banner.md)]
 
-See teema pakub teavet Eestis ja Leedus asuvate juriidiliste isikute kasutajate puhul vabas vormis arvete sisestatud põhivarade likvideerimise kreeditarvete kohta.
+See artikkel annab teavet vabas vormis arvega sisestatud põhivarade likvideerimise kreeditarvete kohta Eesti ja Leedu juriidiliste isikute kasutajatele.
 
 Põhivarasid saab müüa likvideerimisfunktsiooni abil vabas vormis arve, põhivara töölehe või päevaraamatu kaudu pearaamatus. Lisateavet vt teemast [Põhivara likvideerimise sisestuskontod](../fixed-assets/fixed-asset-disposal-posting-accounts.md). Põhivarade likvideerimise kreeditarve funktsioon võimaldab Eestis ja Leedus asuvate juriidiliste isikute kasutajatel luua koos põhivara müügiga kreeditarve vabas vormis arve jaoks ja selle siis sisestada. Kreeditarve loomiseks. et tühistada vabas vormis arve, mis loodi põhivara müügi alusel, tehke järgmist.
 

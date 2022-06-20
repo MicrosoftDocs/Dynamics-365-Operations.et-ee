@@ -1,26 +1,26 @@
 ---
 title: E-kaubanduse saidi kopeerimine
-description: See teema kirjeldab, kuidas kopeerida olemasolevat e-äri saiti saidi sees või nende vahel e-kaubanduse keskkondades saidikonstruktoris Microsoft Dynamics 365 Commerce.
+description: See artikkel kirjeldab, kuidas kopeerida olemasolevat e-äri saiti saidi sees või e-äri keskkondade vahel saidikonstruktoris Microsoft Dynamics 365 Commerce.
 author: psimolin
-ms.date: 03/03/2022
+ms.date: 06/03/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: a23f544cbd1e960cb704d2b9666b7db4c3894b5e
-ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.openlocfilehash: cb53a76b2ebe5b511bf5009727f20f20755e5720
+ms.sourcegitcommit: 13c7a1cc4c90417e3e88db59b7d2165b3c40a56c
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8462322"
+ms.lasthandoff: 06/04/2022
+ms.locfileid: "8935740"
 ---
 # <a name="copy-an-e-commerce-site"></a>E-kaubanduse saidi kopeerimine
 
 [!include [banner](../includes/banner.md)]
 
-See teema kirjeldab, kuidas kopeerida olemasolevat e-äri saiti saidi sees või nende vahel e-kaubanduse keskkondades saidikonstruktoris Microsoft Dynamics 365 Commerce.
+See artikkel kirjeldab, kuidas kopeerida olemasolevat e-äri saiti saidi sees või e-äri keskkondade vahel saidikonstruktoris Microsoft Dynamics 365 Commerce.
 
 Dynamics 365 Commerce Toetab saitide kopeerimist või teisaldamist Iseteenindustoiminguna Commerce'i saidi koostajas. Saite saab kopeerida üksikus e-äri keskkonnas või kahe e-äri keskkonna vahel. Kasutaja, kes käivitab saidi kopeerimise toimingu, peab olema rentniku administraator nii lähte- kui siht-e-äri keskkondades.
 
@@ -40,23 +40,23 @@ Saidi kopeerimiseks e-äri keskkonnas järgige neid samme.
 1. Logige sisse saidikonstruktorisse keskkonnas, kus soovite teha kopeerimistoimingu.
 1. Avage saidiloendi vaade, valides **ülemises parempoolses nurgas** saidilüliti ja valides seejärel suvandi Halda **saite**.
 1. Otsige sait, mida soovite kopeerida või muuta, ning valige see, märkides saidi nime kõrval ruudu.
-1. Tegevuspaanil valige kopeeri **sait**.
-1. **Dialoogiakna Kopeeri** sait väljale Uus **saidi nimi** sisestage uue saidi nimi. Uus saidi nimi peab e-ärikeskkonnas olema kordumatu. Lähte **rentniku** ja **lähtekoha** väljad seatakse automaatselt praeguse rentniku ja valitud saidi teabele.
+1. Käsuribal valige suvand **Kopeeri sait**.
+1. **Menüüs Kopeeri saidi** väljale Uue saidi **nimi** sisestage uue saidi nimi. Uus saidi nimi peab e-ärikeskkonnas olema kordumatu. Lähte **rentniku** ja **lähtekoha** väljad seatakse automaatselt praeguse rentniku ja valitud saidi teabele.
 1. Valige **loo koopia**.
 
 Pärast teabe kinnitamist näitab teatis, et uus saidi koopiatöö on loodud. Töö edenemist saate jälgida rentnike [tööde lehe parempoolsel **paanil**](#monitor-the-site-copy-operation). Kui kopeerimistoiming on edukalt lõpule viidud, kuvatakse uus sait saidiloendi vaates saitide loendis.
 
-Järgmine näide saidilooja dialoogiboksi **Saidi** kopeerimine kohta.
+Järgmine näide näitab saidikonstruktori **menüü** Kopeeri sait väljaminek näidet.
 
-![Kopeerib saidi dialoogiboksi saidikonstruktoris.](media/site-copy_1.png)
+![Kopeeri saidi väljaminev menüü saidikonstruktoris.](media/site-copy_1.png)
 
 ## <a name="copy-a-site-between-two-e-commerce-environments"></a>Saidi kopeerimine kahe e-ärikeskkonna vahel
 
 Saidi kopeerimiseks kahe e-äri keskkonna vahel järgige neid samme.
 
 1. Logige sisse sihtkoha e-äri keskkonna saidikonstruktorisse.
-1. Tegevuspaanil valige kopeeri **sait**.
-1. **Dialoogiakna Kopeeri** sait väljale Uus **saidi nimi** sisestage uue saidi nimi. Uus saidi nimi peab e-ärikeskkonnas olema kordumatu.
+1. Käsuribal valige suvand **Kopeeri sait**.
+1. **Menüüs Kopeeri saidi** väljale Uue saidi **nimi** sisestage uue saidi nimi. Uus saidi nimi peab e-ärikeskkonnas olema kordumatu.
 1. Väljal Allika **rentnik** valige lähte rentniku nimi.
 1. **Valige väljal Lähtesaidid** lähtesaidid.
 1. Valige **loo koopia**.
@@ -66,6 +66,32 @@ Saidi kopeerimiseks kahe e-äri keskkonna vahel järgige neid samme.
 
 Pärast teabe kinnitamist näitab teatis, et uus saidi koopiatöö on loodud. Töö edenemist saate jälgida rentnike [tööde lehe parempoolsel **paanil**](#monitor-the-site-copy-operation). Kui kopeerimistoiming on edukalt lõpule viidud, kuvatakse uus sait saidiloendi vaates saitide loendis.
 
+## <a name="map-channels-during-the-site-copy-operation-optional"></a>Kanalite vastendamine saidi kopeerimistoimingu ajal (valikuline)
+
+Lähtekanaleid ja -lokte saab vastendada sihtkanalite ja -lokaadidega saidi koopiatoimingu osana. Kui kanali vastendamine toimub saidi kopeerimistoimingu osana, ei ole SAIDI lähtestamine TOOTMISPROTSESSI ABIL JA kanalite konfigureerimine saidi sätetes vajalik. 
+
+Kõigi kanalite ja lokaadide vastendamiseks saidikonstruktoril nii nagu on" (1-1), järgige neid samme.
+
+1. Avage saidiloendi vaade, valides **ülemises parempoolses nurgas** saidilüliti ja valides seejärel suvandi Halda **saite**.
+1. Otsige sait, mida soovite kopeerida või muuta, ning valige see, märkides saidi nime kõrval ruudu.
+1. Käsuribal valige suvand **Kopeeri sait**.
+1. Sisestage **menüü Kopeeri sait** väljale Uue saidi **nimi**, Allika **rentnik** **ja** Lähtekoht (kui seda pole juba olemas) väärtused.
+1. Valige suvand **Lisa kanali vastendused**.
+1. Saidikanalite **ja lokaadide väljaminekmenüüs** valige **lähtekanal** ja seejärel valige lähtekanal.  
+1. Valige **sihtkanal** ja seejärel lähtekanaliga sama kanal. 
+1. Valige **lisa lokaadiks**.
+1. Valige **lähte lokaadiks** ja seejärel allika lokaadiks.
+1. Valige **sihtkaust** ja seejärel lähte lokaadiga sama lokaadi. 
+1. URL-i **tee** jaoks sisestage kordumatu URL-tee, mida praegu sihtkeskkonnas ei kasutata.
+1. Korrake samme 8-11 iga kanali vastendamiseks lokaadiga.
+1. Valige **Rakendamine**.
+1. Korrake samme 6–11 iga lähtekanali puhul.
+1. Valige suvand **Sule**.
+1. Kontrollige konfiguratsiooni täpsuse üle ja valige suvand **Kopeeri sait**.
+
+> [!NOTE]
+> Kõik lähtekanalid ja lokid tuleb vastendada ja neid saab vastendada ainult üks kord.
+
 ## <a name="monitor-the-site-copy-operation"></a>Saidi koopiatoimingu s monitorimine
 
 Saidi koopiatoimingu edenemise jälgimiseks järgige neid samme.
@@ -74,9 +100,9 @@ Saidi koopiatoimingu edenemise jälgimiseks järgige neid samme.
 1. Valige vasakul paanil **rentnikutööd**.
 1. Otsige ja **valige lehel** Rentniku tööd loendist saidi koopiatöö. Paan ilmub paremal ja näitab valitud töö olekut ja üksikasju.
 
-Saate tühistada töö, mille olek on **Pooleli**. Valige loendist töö ja seejärel klõpsake tegevuspaanil **käsku** Tühista.
+Saate tühistada töö, mille olek on **Pooleli**. Valige loendist töö ja seejärel valige **käsuribalt** Tühista.
 
-Saate uuesti käivitada töö, mille olek on Nurjunud **või** **Tõrgetega lõpetatud**. Valige loendist töö ja seejärel klõpsake tegevuspaanil **nuppu** Uuesti.
+Saate uuesti käivitada töö, mille olek on Nurjunud **või** **Tõrgetega lõpetatud**. Valige loendist töö ja seejärel valige **käsuribalt** Uuesti proovige.
 
 > [!NOTE]
 > Video varade töötlemine võib jätkuda pärast saidi koopiatöö lõpetamist.

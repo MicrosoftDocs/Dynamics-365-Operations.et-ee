@@ -1,6 +1,6 @@
 ---
 title: Elektrooniline arveldus Egiptuse kohta
-description: See teema annab teavet, mis aitab teil alustada Egiptuse elektroonilise arveldusega Microsoft Dynamics 365 Finants ja Dynamics 365 Supply Chain Management.
+description: See artikkel annab teavet, mis aitab teil alustada Egiptuse elektroonilise arveldusega Microsoft Dynamics 365 Finants ja Dynamics 365 Supply Chain Management.
 author: gionoder
 ms.date: 02/09/2022
 ms.topic: article
@@ -17,22 +17,22 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: e21c4ce4d676c3194665672a078dc1e3d0492799
-ms.sourcegitcommit: 5f7177b9ab192b5a6554bfc2f285f7cf0b046264
+ms.openlocfilehash: c2a46ef938c5dee62c0d0acd1648584df344c81a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/30/2022
-ms.locfileid: "8661718"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904408"
 ---
 # <a name="electronic-invoicing-for-egypt"></a>Elektrooniline arveldus Egiptuse kohta
 
 [!include [banner](../includes/banner.md)]
 
-Sellest teemast leiate teabe, mis aitab teil alustada elektroonilise arveldusega Egiptuses. See juhib teid läbi konfiguratsioonietappide, mis sõltuvad riigist regulatiivses konfiguratsiooniteenuses (RCS). Need sammud täiendavad sammud, mida kirjeldatakse elektroonilise [arvelduse häälestamisel](e-invoicing-set-up-overview.md).
+See artikkel annab teavet, mis aitab teil egiptuse elektroonilise arveldusega alustada. See juhib teid läbi konfiguratsioonietappide, mis sõltuvad riigist regulatiivses konfiguratsiooniteenuses (RCS). Need sammud täiendavad sammud, mida kirjeldatakse elektroonilise [arvelduse häälestamisel](e-invoicing-set-up-overview.md).
 
 ## <a name="prerequisites"></a>Eeltingimused
 
-Enne selles teemas protseduuride alustamist viige lõpule järgmised eeltingimused:
+Enne selle artikli protseduuride alustamist viige lõpule järgmised eeltingimused:
 
 - Tutvuge elektroonilise arveldamisega, nagu seda kirjeldatakse elektroonilise [arveldamise ülevaates](e-invoicing-service-overview.md).
 - Registreerige RCS-ile ja seadistage elektrooniline arveldus. Lisateavet vt järgmistest teemadest:

@@ -1,6 +1,6 @@
 ---
 title: Elektrooniline aruandlus. Finantsdimensioonide kasutamine andmeallikana (2. osa – mudeli vastendamine)
-description: Selles teemas kirjeldatakse, kuidas konfigureerida elektroonilise aruandluse (ER) mudelit kasutama finantsdimensioone andmeallikana ER-i aruannetele. (2. osa)
+description: See artikkel kirjeldab, kuidas konfigureerida elektroonilise aruandluse (ER) mudelit, et kasutada finantsdimensioone ER-aruannete andmeallikana. (2. osa)
 author: NickSelin
 ms.date: 05/27/2020
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bc7c6bc299dd0af83db3b09b06276a210ecfada5
-ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
+ms.openlocfilehash: d228ee9d393cab1c5c1592ca6570cdc91992c38c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7605401"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878338"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-2---model-mapping"></a>Elektrooniline aruandlus. Finantsdimensioonide kasutamine andmeallikana (2. osa – mudeli vastendamine)
 
@@ -94,7 +94,7 @@ Nende etappide lõpule viimiseks peate esmalt viima lõpule etapid protseduuris 
 25. Valige puult „LedgerJournal\<Seosed\LedgerJournalTrans\Account.Dimension(LedgerDimension.Dimension)\Põhikonto ja dimensioonid“.
 26. Valige puult Tööleht \ Kanne \ Dimensioonide andmed.
 27. Klõpsake valikut Seo.
-!Mudeli vastendamise kujundaja leht, vahekaart Vastendamine, andmeallikate puu.](../media/er-financial-dimensions-guides-model-mapping3.png)
+! Mudeli vastendamise kujundaja leht, vahekaart Vastendamine, andmeallikate puu.](../media/er-financial-dimensions-guides-model-mapping3.png)
 28. Valige puult „LedgerJournal\<Seosed\LedgerJournalTrans\Debit(AmountCurDebit)“.
 29. Valige puult Tööleht \ Kanne \ Deebet.
 30. Klõpsake valikut Seo.

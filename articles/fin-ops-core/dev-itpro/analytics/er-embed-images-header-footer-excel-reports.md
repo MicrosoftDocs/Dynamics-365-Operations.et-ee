@@ -1,6 +1,6 @@
 ---
 title: ER-vormingu loomine Exceli vormingus manustatud piltidega lehe päistes või jalustes
-description: See teema kirjeldab, kuidas kasutada elektroonilise aruandluse (ER) tööriista äridokumentide loomiseks, milles on manustatud pilte või kujusid lehe päistes või jalustes.
+description: See artikkel selgitab, kuidas kasutada elektroonilist aruandlust (ER) äridokumentide loomiseks, milles on lehekülje päistele või jalusesse manustatud pildid ja kujud.
 author: NickSelin
 ms.date: 08/11/2021
 ms.topic: article
@@ -15,25 +15,25 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2021-06-01
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 3f3f77a9e6104a31995c9ee398504982fe43ac9e
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 1cfde60459e440c851edb97276321216b1654e40
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323771"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854839"
 ---
 # <a name="design-an-er-format-to-generate-a-report-in-excel-format-with-embedded-images-in-page-headers-or-footers"></a>ER-vormingu loomine Exceli vormingus manustatud piltidega lehe päistes või jalustes
 
 [!include[banner](../includes/banner.md)]
 
-See teema selgitab, kuidas süsteemiadministraatori või elektroonilise aruandluse funktsionaalse konsultandi rolli kasutajad saavad neid ülesandeid täita.
+See artikkel selgitab, kuidas süsteemiadministraatori või elektroonilise aruandluse funktsiooninõustaja rolli kasutaja saab neid ülesandeid täita.
 
 - Parameetrite konfigureerimine [Elektroonilise aruandluse (ER)](general-electronic-reporting.md) raamistiku jaoks.
 - Importige ER [konfiguratsioonid](general-electronic-reporting.md#Configuration) mida [pakub](general-electronic-reporting.md#Provider) Microsoft ja mida kasutatakse et luua [vabas vormis arveid](../../../finance/accounts-receivable/create-free-text-invoice-new.md) mis põhinevad [mallil](er-fillable-excel.md#excel-file-component) rakenduse Microsoft Excel vormis.
 - Looge [kohandatud (tuletatud)](general-electronic-reporting.md#building-a-format-selecting-another-format-as-a-base-customization) standardse ER-vormingu konfiguratsiooni kohandatud versioon, mida pakub Microsoft.
 - Muutke kohandatud ER-vormingu konfiguratsiooni nii, et see loob vabas vormis arve aruande, milles on ettevõtte logo pilt jaluses.
 
-Kõik selle teema ülesanded saab täita ettevõttes **USMF**. Koodi pole vaja kirjutada. Enne alustamist laadige alla ja talletage kohalikult järgmised failid.
+Selle artikli protseduurid saab USMF-ettevõttes **lõpule** viia. Koodi pole vaja kirjutada. Enne alustamist laadige alla ja talletage kohalikult järgmised failid.
 
 | Kirjeldus        | Faili nimi |
 |--------------------|-----------|
@@ -132,7 +132,7 @@ Lisateabe saamiseks ER-konfiguratsiooni pakkujate kohta vaadake teemat [Konfigur
 
 ### <a name="import-the-standard-er-configurations"></a><a id="ImportERFormat"></a>Standardse ER-konfiguratsiooni importimine
 
-Oma praegusesse Microsoft Dynamics 365 Finance'i eksemplari standardsete ER-konfiguratsioonide lisamiseks peate importima need selle eksemplari jaoks konfigureeritud ER-[hoidlast](general-electronic-reporting.md#Repository).
+Rakenduse Dynamics 365 Finance praegusele eksemplarile standardsete ER-konfiguratsioonide lisamiseks peate need importima selle eksemplari jaoks konfigureeritud ER-hoidlast [...](general-electronic-reporting.md#Repository).
 
 1. Avage **Organisatsiooni haldamine** \> **Tööruumid** \> **Elektrooniline aruandlus**.
 2. Valige **Lokaliseerimise konfiguratsioonid** lehel **Konfiguratsioonipakkujad** jaotises, valige paan **Microsoft** ja seejärel valige **Hoidla** et näha **Microsofti** hoidlate pakkujate loendit.

@@ -1,6 +1,6 @@
 ---
 title: Tootmisprotsessi ülevaade
-description: See teema annab ülevaate tootmisprotsessidest. Selles kirjeldatakse mitmesuguseid tootmistellimuste, partiitellimuste ja kanbanide etappe, alates tellimuse loomisest kuni rahandusperioodi sulgemiseni.
+description: See artikkel annab ülevaate tootmisprotsessidest. Selles kirjeldatakse mitmesuguseid tootmistellimuste, partiitellimuste ja kanbanide etappe, alates tellimuse loomisest kuni rahandusperioodi sulgemiseni.
 author: johanhoffmann
 ms.date: 09/13/2019
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8c9eac4d3f984b6fe511d7cc5ebab67e6c24c722
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: a8ebf0418a7d8b93e2ac58f90a686c63fd859355
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983209"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852211"
 ---
 # <a name="production-process-overview"></a>Tootmisprotsessi ülevaade
 
 [!include [banner](../includes/banner.md)]
 
-See teema annab ülevaate tootmisprotsessidest. Selles kirjeldatakse mitmesuguseid tootmistellimuste, partiitellimuste ja kanbanide etappe, alates tellimuse loomisest kuni rahandusperioodi sulgemiseni.
+See artikkel annab ülevaate tootmisprotsessidest. Selles kirjeldatakse mitmesuguseid tootmistellimuste, partiitellimuste ja kanbanide etappe, alates tellimuse loomisest kuni rahandusperioodi sulgemiseni.
 
 Toodete tootmine, protsess, mida nimetatakse ka tootmise töötsükliks, järgib kindlaid etappe, mis on nõutavad kauba tootmiseks. Töötsükkel algab tootmistellimuse, partiitellimuse või kanbani loomisega. See lõpeb lõpetatud kaubaga, mis on valmis kas kliendi või tootmise teise faasi jaoks. Igal töötsükli sammul vajatakse protsessi lõpule viimiseks erinevat laadi teavet. Iga etapi lõpulejõudmisel kuvatakse tootmistellimuses, partii tellimuses või kanbanis tootmise oleku muudatus. Erinevat tüüpi tooted nõuavad erinevaid tootmisprotsesse.
 

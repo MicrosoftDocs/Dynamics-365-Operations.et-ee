@@ -1,6 +1,6 @@
 ---
 title: Tehnilise muudatuse haldamise jaoks ühiste väärtuste loomine
-description: Selles teemas kirjeldatakse, kuidas luua ühiseid väärtusi, mida kasutatakse tehnilise muudatuse haldamise eri osade parameetrite korral.
+description: See artikkel kirjeldab, kuidas kehtestada ühiseid väärtusi, mida kasutatakse parameetrite jaoks tehnika muudatusehalduse erinevates osades.
 author: t-benebo
 ms.date: 09/28/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: c2ff21490dc71859d75923dd757e264096d4fcba
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 376e3f209109d36e5a18b11d81afc55ba509e3e4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565923"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852530"
 ---
 # <a name="establish-common-values-for-engineering-change-management"></a>Tehnilise muudatuse haldamise jaoks ühiste väärtuste loomine
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e98884c1c12d40b2b8c0989e2dd5ca4a3738f3f
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: f7c99e56751230a7b8881dc55c1d460674cc6f0c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8669989"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850480"
 ---
 # <a name="service-templates"></a>Teenusmallid
 
@@ -52,7 +52,7 @@ Kui kopeerite malli ridu hooldustellimustesse või hoolduslepetesse, kuvatakse t
 
 On lihtsam otsustada, millist hooldusmalli rida soovite kopeerida, kui olete grupeerinud mallid kasutusele osutavate nimede alla.
 
-## <a name="related-topics"></a>Seotud dokumendid
+## <a name="related-articles"></a>Seotud artiklid
 
 [Teenusemallide kopeerimine](copy-service-template-lines.md)
 

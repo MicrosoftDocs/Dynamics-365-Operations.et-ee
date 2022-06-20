@@ -1,6 +1,6 @@
 ---
 title: Topeltvaluuta
-description: Selles teemas antakse teavet topeltvaluuta kohta, kus aruandlusvaluutat kasutatakse teise arvestusvaluutana Microsoft Dynamics 365 finantside puhul.
+description: See artikkel annab teavet topeltvaluuta kohta, kus aruandlusvaluutat kasutatakse teise arvestusvaluutana Microsoft Dynamics 365 finantside puhul.
 author: kweekley
 ms.date: 04/17/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 04738d2fe88fef5c0e96a39febfec86fab3bee7d
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 8db8faefaec4afe208344492ec91375531cb9cd0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713566"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906351"
 ---
 # <a name="dual-currency"></a>Topeltvaluuta
 
@@ -36,7 +36,7 @@ Lisaks on täiustatud mitmeid mooduleid aruandlusvaluuta jälgimiseks, aruandlus
 - Põhivarad 
 - Konsolideerimised
 
-Pärast uuendamist peate täitma teatud sularaha- ja pangahalduse ning põhivara etapid. Seega lugege ja mõistke kindlasti selle teema asjakohaseid jaotisi.
+Pärast uuendamist peate täitma teatud sularaha- ja pangahalduse ning põhivara etapid. Seetõttu lugege ja mõistage kindlasti selle artikli vastavaid jaotisi.
 
 ## <a name="posting-process"></a>Sisestamise protsess
 
@@ -93,7 +93,7 @@ Moodulile **Pearaamat** tehti järgmised lisamuudatused.
 - Pearaamatus saab määratleda eraldi vahetuskursi tüübi aruandlusvaluutale. Kui organisatsioon ei soovi kasutada erinevat vahetuskursi tüüpi, võite aruandlusvaluuta vahetuskursi tüübi välja tühjaks jätta. Teise võimalusena saate valida sama vahetuskursi tüübi, mida kasutatakse arvestusvaluuta juures. Kui jätate välja tühjaks, kasutab süsteem arvestusvaluuta vahetuskursi tüüpi.
 - Uus tööleht, aruandlusvaluuta korrigeerimise tööleht, võimaldab korrigeerimiste sisestamist pearaamatukontodele ainult aruandlusvaluutas. See tööleht lubab ainult pearaamatukontodele sisestamist.. See ei toeta kontsernisisest tööd ja valuuta peab olema selle juriidilise isiku aruandlusvaluuta, kus tööleht on sisestatud. Kui tööleht on sisestatud, on kandevaluuta ja arvestusvaluuta summad 0 (null) ning aruandlusvaluuta summa sisestatakse kandesse sisestatud summas. Kuna aruandlusvaluuta kasutamine moodulites **Ostureskontro**, **Müügireskontro** ja **Põhivara** on muutunud, saab seda töölehte pärast uuendamist korrigeerimiseks kasutada. Selle töölehe kasutamise näidete saamiseks vaadake nende moodulite jaotisi.
 - Perioodi eraldamise protsess on uuendatud nii, et see eraldab kande-, arvestus- ja aruandlusvaluutade summad. Varem eraldati kande- ja arvestusvaluutade summad ja seejärel teisendati arvestusvaluuta summa aruandlusvaluutasse. Sellise käitumise tõttu võib pearaamatukontole jääda aruandlusvaluutas saldo. Kui nüüd summad arvutatakse ja konto kirjes kasutatakse, teisendust ei toimu.
-- Välisvaluuta ümberarvutamise protsess arvutas summad juba aruandlusvaluutasse ümber. Siiski arvutatakse aruandlusvaluuta summat nüüd läbi kandevaluuta summa, nii nagu selles teemas eelnevalt jaotises [Sisestamise protsess](#posting-process) kirjeldati.
+- Välisvaluuta ümberarvutamise protsess arvutas summad juba aruandlusvaluutasse ümber. Aruandlusvaluuta summa arvutatakse nüüd kandevaluuta summa kaudu, [nagu on kirjeldatud selles artikli jaotises Sisestusprotsess](#posting-process).
 - Paljudes pearaamatu aruannetes ja päringutes oli juba aruandlusvaluuta, kuid mõnes ei olnud. Üheks selliseks näiteks on loendileht **Proovibilanss** loendilehe. See loendileht sisaldab nüüd nii arvestusvaluuta kui ka aruandlusvaluuta veerge. Pange tähele, et aruandlusvaluuta veerud on peidetud, kui arvestusvaluuta ja aruandlusvaluuta on samad või kui pearaamatus ei ole aruandlusvaluutat määratud.
 
 ### <a name="financial-reporting"></a>Finantsaruandlus

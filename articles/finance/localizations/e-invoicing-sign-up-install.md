@@ -1,6 +1,6 @@
 ---
 title: Registreerige elektroonilise arve teenus ja installige see
-description: See teema annab teavet selle kohta, kuidas registreerida ja installida elektroonilise arvelduse teenust.
+description: See artikkel annab teavet selle kohta, kuidas registreerida ja installida elektroonilise arvelduse teenust.
 author: dkalyuzh
 ms.date: 02/07/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: dkalyuzh
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4ab16652e4a50dd71a5d0b2b49b4dd79e327f7a8
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: 57314058883e60599bc51d91a65b0daeae724bb7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371869"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865522"
 ---
 # <a name="sign-up-for-and-install-the-electronic-invoicing-service"></a>Registreerige elektroonilise arve teenus ja installige see
 
 [!include [banner](../includes/banner.md)]
 
-See teema annab teavet selle kohta, kuidas registreerida ja installida elektroonilise arvelduse teenust. Selles protsessis on neli sammu. Juhised 1–3 on kohustuslikud ja 4. etapp on valikuline.
+See artikkel annab teavet selle kohta, kuidas registreerida ja installida elektroonilise arvelduse teenust. Selles protsessis on neli sammu. Juhised 1–3 on kohustuslikud ja 4. etapp on valikuline.
 
 ### <a name="step-1-sign-up-for-regulatory-configuration-service"></a>1. etapp: regulatiivse konfiguratsiooniteenuse konfigureerimine
 
@@ -38,7 +38,7 @@ RCS-ile registreerumiseks minge lehele Regulatiivse [konfiguratsiooni](https://m
 
 ### <a name="step-2-install-the-add-in-for-microservices-in-microsoft-dynamics-lifecycle-services"></a>2. etapp: installige lisandmoodulid mikroteenustele elutsükli Microsoft Dynamics teenustes.
 
-Elektroonilise arveldamise teenus on Microsofti andmekeskustes majutatud mikroteenuste kogum. Vaikimisi on elektronarvelduse Dynamics 365 Finance Dynamics 365 Supply Chain Management teenusel klientidele ja neil ei ole juurdepääsu sellele. Peate selle installima lisandmoodulina elutsükli Microsoft Dynamics teenustes (LCS). Kui installite lisandmooduli, registreeritakse teie finantside või tarneahela halduskeskkond rakenduste registris, mis võivad ühenduda elektroonilise arveldamise teenusega.
+Elektroonilise arveldamise teenus on Microsofti andmekeskustes majutatud mikroteenuste kogum. Dynamics 365 Finance'i klientidel Dynamics 365 Supply Chain Management ei ole vaikimisi juurdepääsu elektroonilise arveldamise teenusele. Peate selle installima lisandmoodulina elutsükli Microsoft Dynamics teenustes (LCS). Kui installite lisandmooduli, registreeritakse teie finantside või tarneahela halduskeskkond rakenduste registris, mis võivad ühenduda elektroonilise arveldamise teenusega.
 
 Selle etapi lõpuleviimiseks vt [installige mikroteenuste lisandmoodul elutsükli teenustes](e-invoicing-install-add-in-microservices-lcs.md).
 

@@ -1,6 +1,6 @@
 ---
 title: Dokumentide ja kannete nummerdamine kronoloogiliselt
-description: See teema kirjeldab, kuidas seadistada ja kasutada kohaldatavate dokumentide ning seotud kannete kronoloogilisi numbreid.
+description: See artikkel selgitab, kuidas seadistada ja kasutada rakendatavate dokumentide ja seotud kannete kronoloogilised numbrid.
 author: ikond
 ms.date: 02/01/2021
 ms.topic: article
@@ -14,19 +14,19 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-15
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 0ce1afdbd31a78611e6b51dd93f7159d684c97cb
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 6baf307406982e8f72acc0d02f047dbc7c63a5ed
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692669"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876379"
 ---
 # <a name="numbering-documents-and-vouchers-chronologically"></a>Dokumentide ja kannete nummerdamine kronoloogiliselt
 
 [!include [banner](../includes/banner.md)]
 
 
-Mõnes riigis on dokumentide ja seotud kannete kronoloogilises järjestuses nummerdamine juriidiliselt nõutud. Kronoloogia peab hõlmama perioode. Kõik varasemate perioodide numbrid peavad olema hilisemate perioodide numbritest väiksemad. Selle nõude täitmiseks on juurutatud kronoloogilise nummerdamise funktsioon. See teema kirjeldab, kuidas konfigureerida ja kasutada kohaldatavate dokumentide ning seotud kannete kronoloogilisi numbreid.
+Mõnes riigis on dokumentide ja seotud kannete kronoloogilises järjestuses nummerdamine juriidiliselt nõutud. Kronoloogia peab hõlmama perioode. Kõik varasemate perioodide numbrid peavad olema hilisemate perioodide numbritest väiksemad. Selle nõude täitmiseks on juurutatud kronoloogilise nummerdamise funktsioon. See artikkel selgitab, kuidas konfigureerida ja kasutada rakendatavate dokumentide ja seotud kannete kronoloogilised numbrid.
 
 ## <a name="prerequisites"></a>Eeltingimused
 

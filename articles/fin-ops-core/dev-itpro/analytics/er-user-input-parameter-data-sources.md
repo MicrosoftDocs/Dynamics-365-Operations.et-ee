@@ -1,6 +1,6 @@
 ---
 title: Aruande parameetrite määramiseks kasutage kasutaja sisendparameetri andmeallikaid
-description: See teema kirjeldab, kuidas kasutada kasutaja sisendparameetri andmeallikaid teie poolt genereeritud aruannete parameetrite määramiseks.
+description: See artikkel selgitab, kuidas kasutada kasutaja sisendparameetri andmeallikaid, et määrata parameetrid teie genereeritud aruannetele.
 author: NickSelin
 ms.date: 04/20/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: Version 10.0.27
-ms.openlocfilehash: 4e431c9dd59080af17fa073547073037ba233288
-ms.sourcegitcommit: 6c1bf233748c4bc70fc5a1a9711758cdfd9e07dc
+ms.openlocfilehash: 62b7a8173416a1d36a2985823d186a7a0e6a7e60
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8782542"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872968"
 ---
 # <a name="use-user-input-parameter-data-sources-to-specify-parameters-for-a-report"></a>Aruande parameetrite määramiseks kasutage kasutaja sisendparameetri andmeallikaid
 
 [!include[banner](../includes/banner.md)]
 
-Kui kujundate [elektroonilise](general-electronic-reporting.md) aruandluse (ER) [mudeli](er-overview-components.md#model-mapping-component) vastendamise ja ER-vormingu [komponente](er-overview-components.md#format-component), saate kasutada andmeallikaid tüübiga USER INPUT PARAMETER *, et saada nõutud väärtused,* mida saab määrata käitusajal dialoogiboksi andmesisestusväljadele, enne kui algab ER-vormingu käivitamine. Selles teemas kirjeldatakse praegu *toetatud kasutaja* sisestusparameetri andmeallikaid.
+Kui kujundate [elektroonilise](general-electronic-reporting.md) aruandluse (ER) [mudeli](er-overview-components.md#model-mapping-component) vastendamise ja ER-vormingu [komponente](er-overview-components.md#format-component), saate kasutada andmeallikaid tüübiga USER INPUT PARAMETER *, et saada nõutud väärtused,* mida saab määrata käitusajal dialoogiboksi andmesisestusväljadele, enne kui algab ER-vormingu käivitamine. See artikkel kirjeldab praegu *toetatud andmeallikaid USER INPUT PARAMETER*.
 
 ## <a name="mandatory-properties"></a><a name="mandatory-properties"></a> Kohustuslikud atribuudid
 

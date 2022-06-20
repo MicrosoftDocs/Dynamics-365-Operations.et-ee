@@ -1,6 +1,6 @@
 ---
 title: Mis on uut või mida on muudetud rakenduses Dynamics 365 Human Resources (19. aprill, 2021)?
-description: Selles teemas kirjeldatakse Microsoft Dynamics 365 Human Resourcesi 19. aprill 2021 uusi või muutunud funktsioone.
+description: Selles artiklis kirjeldatakse Microsoft Dynamics 365 Human Resourcesi 19. aprilli 2021 uusi või muutunud funktsioone.
 author: marcelbf
 ms.date: 04/19/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-04-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6734069b1448999c62a8c538f97d786fc10995e5
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: e46c5721853ebfe3b9d5955ca5f4e7a4ead570c1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8685738"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846296"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-april-19-2021"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 Human Resources (19. aprill, 2021)?
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Selles teemas kirjeldatakse Dynamics 365 Human Resourcesi uusi, muutunud või peatselt tulevaid funktsioone.
+See artikkel kirjeldab funktsioone, mis on uued, muutunud või tulevad varsti Dynamics 365 Human Resources.
 
 Meie värskendamisprotsessi ja graafiku kohta lisateabe saamiseks vt teemat [Värskendamisprotsess](hr-admin-setup-update-process.md).
 
@@ -49,9 +49,9 @@ Selle väljalaskega tulevad üldiselt kättesaadavaks järgmised funktsioonid.
 See väljalase hõlmab järgmisi veaparandusi.
 
 > [!NOTE]
-> Meie eesmärk on edastada teile see teave esimesel võimalusel. Võime värskendada seda teemat, et lisada sellesse versioonijärku pärast selle teema esialgset avaldamist tehtud veaparandusi.
+> Meie eesmärk on edastada teile see teave esimesel võimalusel. Võime seda artiklit värskendada, et kaasata vigaparandused, mis muutsid selle järku pärast selle artikli algset avaldamist.
 
-| Väljaande number | Väljasta |  Kirjeldus |
+| Väljaande number | Probleem |  Kirjeldus |
 | --- | --- | --- |
 | 552164 | **Töötaja** **iseteeninduse salvestatud vaade > Avatud kursused** ei tööta kursustel, mis sisaldavad päevakorda | Kui avatud kursustel (ESS) kasutatakse salvestatud vaadet ja ühele kursusele on lisatud päevakord, siis ei näita vaade enam selle kursuse kohta mitut rida |
 | 560614 | **Soodustused > Elusündmuse valikud** näitavad lahknevusi kohtspikri dokumentatsioonis ja koodi käitumises. | Uuendatud kohtspikkerid **elusündmuse valikutes** korrigeeritud käitumise näitamiseks. |

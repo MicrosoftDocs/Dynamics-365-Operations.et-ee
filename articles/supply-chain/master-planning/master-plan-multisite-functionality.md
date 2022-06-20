@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 55594290f0583085f16506acb058ad83a02c54f1
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 289763931703eb354ae78fa18f37cd00f1102de8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8470146"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844905"
 ---
 # <a name="master-planning-and-multisite-functionality-overview"></a>Koondplaani ja mitme saidi funktsionaalsuse ülevaade
 
@@ -37,7 +37,7 @@ Kui dimensioon on kohustuslik, tuleb dimensiooniväärtus sisestada kõigile lao
 
 Kui ladu ei ole seatud kohustuslikuks, ei pruugi see pärineda nõudest. Planeerimismootor peab määratlema, millist ladu kauba, üksikute ladude ja tellimusrea üksikasjade jaoks määratud sätetel põhinedes kasutada.
 
-Järgmised teemad kirjeldavad, kuidas toimib planeerimismootor kasutatava lao määratlemisel, kui on määratud erinevad sätted.
+Järgmised artiklid kirjeldavad, kuidas, kui on määratud erinevad sätted, planeerimismootor kasutuslao määramiseks toimib.
 
 [Laoala ja lao katmise koondplaanimine, ladu on kohustuslik](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
 

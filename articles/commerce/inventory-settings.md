@@ -1,6 +1,6 @@
 ---
 title: Varude sätete rakendamine
-description: See teema hõlmab varude sätteid ja kirjeldab, kuidas neid rakenduses Microsoft Dynamics 365 Commerce rakendada.
+description: See artikkel katab varude sätted ja kirjeldab nende rakendumist Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 10/15/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4ba3e67cf9c72b9a9606528c02f9e57d19a74c1f
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: df1d1283a7692336906550169bc77104a9118779
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647580"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909553"
 ---
 # <a name="apply-inventory-settings"></a>Varude sätete rakendamine
 
 [!include [banner](includes/banner.md)]
 
-See teema hõlmab varude sätteid ja kirjeldab, kuidas neid rakenduses Microsoft Dynamics 365 Commerce rakendada.
+See artikkel katab varude sätted ja kirjeldab nende rakendumist Microsoft Dynamics 365 Commerce.
 
 Varude sätted määratlevad, kas varusid tuleks enne toodete ostukorvi lisamist kontrollida. Samuti määratletakse nende abil varudega seotud kaubandusteated, nagu näiteks „Olemas“ ja „Ainult mõni alles“. Need sätted tagavad, et toodet ei saa soetada, kui see on laost otsas.
 

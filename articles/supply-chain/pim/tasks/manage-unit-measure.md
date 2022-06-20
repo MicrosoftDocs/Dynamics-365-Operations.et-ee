@@ -1,6 +1,6 @@
 ---
 title: Mõõtühikute haldamine
-description: Selles teemas kirjeldatakse, kuidas määratleda mõõtühikut, pakkuda üksuse ja selle kirjelduse ümberarvestusi ja määratleda seotud üksuste teisendusreegleid.
+description: See artikkel kirjeldab, kuidas määratleda mõõtühikuid, esitada ühiku ja selle kirjelduse tõlkeid ning määratleda seotud ühikute teisendusreeglid.
 author: t-benebo
 ms.date: 04/09/2021
 ms.topic: business-process
@@ -13,24 +13,24 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e13897396810507bb4b2cbb415b873eb3dd7f4e8
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 8e2c21756b270ef7d914dc74a0cf61727953206a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565515"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863907"
 ---
 # <a name="manage-units-of-measure"></a>Mõõtühikute haldamine
 
 [!include [banner](../../includes/banner.md)]
 
-Selles teemas kirjeldatakse, kuidas määratleda mõõtühikut, pakkuda üksuse ja selle kirjelduse ümberarvestusi ja määratleda seotud üksuste teisendusreegleid.
+See artikkel kirjeldab, kuidas määratleda mõõtühikuid, esitada ühiku ja selle kirjelduse tõlkeid ning määratleda seotud ühikute teisendusreeglid.
 
 ## <a name="open-the-units-page"></a>Avage ühikute leht
 
 Süsteemis saadaolevate mõõtühikute loomiseks ja tööks minge **organisatsioonihalduse \> häälestusüksuste \> ühikute \> üksusesse**.
 
-Selle teema ülejäänud jaotised kirjeldavad, mida saate teha lehel **Ühikud**.
+Selle artikli ülejäänud jaotised kirjeldavad, mida saate teha lehel **Ühikud**.
 
 ## <a name="create-standard-units-and-conversions"></a>Standardühikute ja teisenduste loomine
 

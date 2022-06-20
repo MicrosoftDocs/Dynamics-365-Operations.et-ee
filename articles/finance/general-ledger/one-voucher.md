@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: 9a0a9a3f23a3aec0077fd1a64c55fea567b72800
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: fa7a519b87bd5933b8b672f9f9b3e230fd7f2eb4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722488"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896401"
 ---
 # <a name="one-voucher"></a>Üks kanne
 
@@ -37,7 +37,7 @@ Olemasoleva funktsiooniga finantstöölehtede jaoks (üldine tööleht, põhivar
     [![Üksik rida.](./media/same-line.png)](./media/same-line.png)
 
     > [!IMPORTANT]
-    > Sätte Üks kanne definitsioon **ei** kata juhtumeid, kus töölehe nimed seadistatakse valikule **Üks kande number**, kuid kasutaja sisestab seejärel kande, mis sisaldab ainult pearaamatukonto tüüpe. Selles teemas tähendab Üks kanne, et olemas on üks kanne, mis sisaldab rohkem kui üht hankijat, klienti, panka, põhivara või projekti.
+    > Sätte Üks kanne definitsioon **ei** kata juhtumeid, kus töölehe nimed seadistatakse valikule **Üks kande number**, kuid kasutaja sisestab seejärel kande, mis sisaldab ainult pearaamatukonto tüüpe. Selles artiklis tähendab üks kanne seda, et on olemas üks kanne, mis sisaldab rohkem kui ühte hankijat, klienti, panka, põhivara või projekti.
 
 - Sisestage mitmerealine kanne, kus vastaskonto puudub.
 
@@ -63,16 +63,16 @@ Seejärel loote aruande **Kulud hankija järgi** tööruumi **Finantsülevaated*
 
 Probleemide tõttu, mis võivad ilmneda ühe kande kasutamisel, siis see funktsionaalsus lõpuks iganeb. Kuid kuna on olemas sellest funktsioonist olenevad funktsionaalsed vahemikud, ei toimu iganemine kõik korraga. Selle asemel kasutatakse järgmist graafikut.
 
-- **Kevad 2018 väljaanne** – funktsioon lülitati vaikimisi välja parameetri **Luba ühe kande raames mitu kannet** kaudu **Üldisel** vahekaardil **Pearaamatu parameetrite** lehel. Saate selle siiski tagasi sisse lülitada, kui teie organisatsioonil on stsenaarium, mis langeb selles teemas allpool loetletud funktsionaalsuse vahemikku.
+- **Kevad 2018 väljaanne** – funktsioon lülitati vaikimisi välja parameetri **Luba ühe kande raames mitu kannet** kaudu **Üldisel** vahekaardil **Pearaamatu parameetrite** lehel. Kuid te saate selle tagasi sisse lülitada, kui teie organisatsioonil on stsenaarium, mis langeb ühte funktsioonivahedest, mis on loetletud selles artiklis allpool.
 
-    - Kui teie äristsenaarium ei nõua üht kannet, soovitame funktsiooni välja jätta. Microsoft ei paranda vigu aladel, millest räägitakse selles teemas allpool, kui seda funktsiooni kasutatakse, kuigi olemas on muu lahendus.
+    - Kui teie äristsenaarium ei nõua üht kannet, soovitame funktsiooni välja jätta. Kui kasutate seda isegi siis, kui on olemas teine lahendus, ei paranda Microsoft "vigased" aladel, mis tuvastatakse selles artiklis hiljem.
     - Soovitame teil lõpetada ühe kande kasutamine integratsioonides, v.a juhul, kui see funktsioon on vajalik mõne dokumenteeritud funktsionaalse vahemiku jaoks.
 
 - **Hilisemad väljalasked** - mitmeid ärivajadusi on võimalik täita vaid ühe kande funktsiooni kasutades. Microsoft peab tagama, et kõiki tuvastatud ärinõudeid saab süsteemis siiski täita pärast seda, kui funktsioon on iganenud. Seetõttu tuleb funktsioonivahede täitmiseks tõenäoliselt lisada uued funktsioonid. Microsoft ei saa pakkuda konkreetset lahendust, kuna iga funktsioonivahe on erinev ja seda tuleb hinnata ärinõuete alusel. Mõned funktsioonivahed asendatakse tõenäoliselt kindlatele ärinõuetele vastavate funktsioonidega. Ülejäänud vahed võidakse siiski täita, jätkates töölehele sisestamise lubamist, nagu siis, kui kasutatakse üht kannet, kuid täiendades süsteemi, et jälgida üksikasju vastavalt vajadusele.
 
 Kui kõik funktsioonivahed on täidetud, teatab Microsoft, et funktsioon iganeb. Kuid iganemine ei ole kehtiv vähemalt aasta jooksul pärast sellest teavitamist. Kuigi Microsoft ei saa esitada hinnangut selle kohta, millal ühe kande funktsioon iganeb, läheb igenemiseni tõenäoliselt veel vähemalt kaks aastat. Microsofti poliitika kohaselt peab funktsioonide iganemise teate ja tegeliku iganemise vahele jätma vähemalt 12 kuud, et klientidel ja sõltumatutel tarkvara hankijatel (ISV-l) oleks muudatusele reageerimiseks aega. Näiteks võib organisatsioonil olla vaja värskendada oma äriprotsesse, üksuseid ja integratsioone.
 
-Ühe kande iganemine on oluline muudatus, millest teavitatakse laialdaselt. Selle kommunikatsiooni osana värskendab Microsoft seda teemat, Microsoft Dynamics sisestab teksti 365 Finance 365 Finance, värskendab teema "Eemaldatud või aegunud funktsioonid", teavitab muudatusest Microsofti asjakohastel konverentsidel jne.
+Ühe kande iganemine on oluline muudatus, millest teavitatakse laialdaselt. Selle kommunikatsiooni osana värskendab Microsoft seda artiklit, Microsoft Dynamics sisestab postkontole 365 Finance, värskendab artiklit "Eemaldatud või aegunud funktsioonid", teavitab muudatusest Microsofti asjakohastel konverentsidel jne.
 
 ## <a name="why-use-one-voucher"></a>Miks kasutada üht kannet?
 

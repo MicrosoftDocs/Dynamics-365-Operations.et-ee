@@ -1,6 +1,6 @@
 ---
 title: Tulu ja kulu viitvõlad kordustellimuse arvelduses
-description: See teema kirjeldab, kuidas seadistada tulu- ja kulu viitvõlgu kordustellimuse arvelduses.
+description: See artikkel selgitab, kuidas seadistada tulu- ja kulu viitvõlgu kordustellimuse arvelduses.
 author: JodiChristiansen
 ms.date: 11/04/2021
 ms.topic: article
@@ -14,16 +14,16 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 9a12cf52d904db0396aa9914b8e324060289710f
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 209afd08c0c7e3cbd63ed95613b1d1dec94856f5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690944"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908092"
 ---
 # <a name="revenue-and-expense-deferrals-in-subscription-billing"></a>Tulu ja kulu viitvõlad kordustellimuse arvelduses
 
-See teema kirjeldab, kuidas seadistada ja kasutada tulu- ja kulu viitvõlgu kordustellimuse arvelduses. Viitvõlgade graafikud põhinevad alati algdokumendil või arveldusgraafikul ja sõltuvad sellest. Kuna need luuakse vaikeväärtuste põhjal, ei saa neid eraldi sisestada ega luua.
+See artikkel selgitab, kuidas seadistada ja kasutada tulu- ja kulu viitvõlgu kordustellimuse arvelduses. Viitvõlgade graafikud põhinevad alati algdokumendil või arveldusgraafikul ja sõltuvad sellest. Kuna need luuakse vaikeväärtuste põhjal, ei saa neid eraldi sisestada ega luua.
 
 Tulu- ja kulu viitvõlgade seadistamise ja kasutamise protsess toimub mitmel lehel:
 

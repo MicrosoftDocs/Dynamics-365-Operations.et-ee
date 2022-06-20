@@ -1,6 +1,6 @@
 ---
 title: Voo siltide uuesti printimine ja tühistamine
-description: Selles teemas selgitatakse olemasolevate voo siltide tühistamist ja printimist.
+description: See artikkel selgitab, kuidas tühistada ja uuesti printida olemasolevaid voo silte.
 author: perlynne
 ms.date: 07/09/2020
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-09
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 052c6632d1c6c6b1f357d4066ca8b419698cae62
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f9f057d9985fb8431ec7c9ced23f2cd3c476570d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572333"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871829"
 ---
 # <a name="reprint-and-void-wave-labels"></a>Voo siltide uuesti printimine ja tühistamine
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas selgitatakse, kuidas hallata voo töötlemisel loodud silte. (Üksikasjaliku kirjelduse ja konfigureerimisjuhised leiate teemast [Voo sildi printimise konfigureerimine](../warehousing/configure-wave-label-printing.md).)
+See artikkel selgitab, kuidas hallata laine töötlemise käigus loodud silte. (Üksikasjaliku kirjelduse ja konfigureerimisjuhised leiate teemast [Voo sildi printimise konfigureerimine](../warehousing/configure-wave-label-printing.md).)
 
 Voo silte saate igal ajal uuesti printida. Näiteks võib juhtuda, et peate printima üksiku sildi, kui olemasolev silt on kaotsi läinud või kahjustatud. Lao töötajal või järelevaatajal võib olla vaja tervet siltide rulli uuesti printida, kui terve voo siltide seeria number ja/või koosseis on muutunud (nt varude vähesuse tõttu või muudel põhjustel). Sageli tuleb terve rull uuesti printida isegi juhul, kui ainult pakkide arv on muutunud, et iga sildi jaotises „Pakk X/Y” oleks õige koguarv.
 
@@ -32,10 +32,10 @@ Voo siltide uuesti printimise funktsioon toetab järgmisi funktsioone.
 - Saate samaaegselt tühistada silte ja printida neid uuesti. (Siltide tühistamise võimalus on manustatud näiteks kiire komplekteerimise stsenaariumide puhul.)
 - Voo siltide ajaloo puhastamine.
 
-Selles teemas kirjeldatakse hulka stsenaariumeid, mis illustreerivad näidete abil, kuidas töötada voo siltide uuesti printimise funktsiooniga.
+See artikkel sisaldab stsenaariumite kogumeid, mis näitavad näidete kaudu, kuidas töötada uuesti prinditud voosiltide funktsiooniga.
 
 > [!IMPORTANT]
-> Selles teemas esitatud stsenaariumidega töötamiseks peate esmalt sisse lülitama ja konfigureerima asjakohased voo printimise funktsioonid, mis on kirjeldatud teemas [Voo sildi printimise konfigureerimine](../warehousing/configure-wave-label-printing.md). Mitmed selle teema stsenaariumid nõuavad ka esmalt selle teema stsenaariumide läbitöötamist, et luua eeltingimuseks olevad näidisandmed.
+> Selles artiklis esitatud stsenaariumide läbimiseks tuleb kõigepealt sisse lülitada ja konfigureerida vastavad voo printimise funktsioonid, [nagu on kirjeldatud laine sildi printimise konfigureerimises](../warehousing/configure-wave-label-printing.md). Mitmed selle artikli stsenaariumid nõuavad ka, et töötate selle artikli stsenaariumite abil esmalt läbi eeltingimuse näidisandmete loomise.
 
 ## <a name="scenario-1-reprint-labels-from-the-web-client"></a>1. stsenaarium: siltide uuesti printimine veebikliendist
 

@@ -1,6 +1,6 @@
 ---
 title: Lattu väljastamine
-description: See teema annab üksikasju lattu vabastamise protsessi kohta. See kirjeldab üksusi, mis luuakse tellimuse vabastamisel lattu ja valikuid, mida saate protsessi käivitamiseks kasutada.
+description: See artikkel annab üksikasju lattu vabastamise protsessi kohta. See kirjeldab üksusi, mis luuakse tellimuse vabastamisel lattu ja valikuid, mida saate protsessi käivitamiseks kasutada.
 author: Mirzaab
 ms.date: 8/13/2021
 ms.topic: article
@@ -11,22 +11,22 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-13
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 8624db42e9d0f3d08ed3b582224ed7937d52f85d
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: c3280b2e39d7af5ca99cad703cad6ecc7b307bff
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678347"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893174"
 ---
 # <a name="release-to-warehouse"></a>Lattu väljastamine
 
 [!include [banner](../../includes/banner.md)]
 
-See teema annab üksikasju lattu vabastamise protsessi kohta. See kirjeldab üksusi, mis luuakse tellimuse vabastamisel lattu ja valikuid, mida saate protsessi käivitamiseks kasutada.
+See artikkel annab üksikasju lattu vabastamise protsessi kohta. See kirjeldab üksusi, mis luuakse tellimuse vabastamisel lattu ja valikuid, mida saate protsessi käivitamiseks kasutada.
 
 ## <a name="release-to-warehouse-overview"></a>Lattu väljastamise ülevaade
 
-Lattu välja saatmine on varude lähetuseks valmis panemise protsess. Kui vabastate tellimuse lattu, loob süsteem koormaread ja saadetised. Kui voo automaatne töötlemine on seadistatud, luuakse ka koormad ja nõutud töö. Kaasatud üksuste konfiguratsioon sõltub süsteemi sätetest. Teema selles jaotises vaatab üle lattu vabastamise protsessi ajal loodud üksused ja neid määratlevad süsteemisätted.
+Lattu välja saatmine on varude lähetuseks valmis panemise protsess. Kui vabastate tellimuse lattu, loob süsteem koormaread ja saadetised. Kui voo automaatne töötlemine on seadistatud, luuakse ka koormad ja nõutud töö. Kaasatud üksuste konfiguratsioon sõltub süsteemi sätetest. See artikli jaotis vaatab üle lattu vabastamise protsessi ajal loodud üksused ja neid määratlevad süsteemisätted.
 
 *Saadetis* on sama kliendi või sama tarneaadressi müügitellimuse või üleviimistellimuse ridade grupp.
 
@@ -67,7 +67,7 @@ Kokkuvõtteks, kui tellimus vabastatakse lattu, toimib kõige automaatsem voog j
 
 Sõltuvalt voo mallidest, töömallidest ja asukohadirektiivide sätetest võivad mõned sammud selles voos muutuda manuaalseks. Kuid üleüldine voog jääb samaks.
 
-Teil on mitu valikut selle kohta, kuidas te tellimust lattu välja saadate. Seda toimingut saate teha käsitsi või seadistada pakett-töö. Selle teema ülejäänud jaotised vaatavad üksikasjalikult läbi erinevad viisid, kuidas see laotöödeks välja anda.
+Teil on mitu valikut selle kohta, kuidas te tellimust lattu välja saadate. Seda toimingut saate teha käsitsi või seadistada pakett-töö. Selle artikli ülejäänud jaotised vaadata üksikasjalikult läbi mitmesugused viisid, kuidas saate teha lattu väljast vabastamise toimingut.
 
 ## <a name="manual-release-to-the-warehouse-from-the-sales-orders-and-transfer-orders-pages"></a>Käsitsi lattu väljaminemine müügitellimuste ja üleviimistellimuste lehtedelt
 

@@ -1,6 +1,6 @@
 ---
 title: Koondplaanimine laoala ja laovarude jaoks, ladu ei ole kohustuslik
-description: Selles teemas kirjeldatakse, kuidas plaanitakse kaupa, millel on laoala ja varud kattedimensioonidena. Lao dimensioon ei ole kohustuslik.
+description: See artikkel kirjeldab, kuidas planeeritakse laoala ja laoga kaupa laovarude dimensioonina. Lao dimensioon ei ole kohustuslik.
 author: t-benebo
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 396c07fa8cd5a915d5be39837cfdda3404dc402e
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: fb1f486406df22b4e9b92a0302e4e7ce7816517f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8470313"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878957"
 ---
 # <a name="master-planning-for-site-and-warehouse-coverage-warehouse-not-mandatory"></a>Koondplaanimine laoala ja laovarude jaoks, ladu ei ole kohustuslik
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas kirjeldatakse, kuidas plaanitakse kaupa, millel on laoala ja varud kattedimensioonidena. Lao dimensioon ei ole kohustuslik.
+See artikkel kirjeldab, kuidas planeeritakse laoala ja laoga kaupa laovarude dimensioonina. Lao dimensioon ei ole kohustuslik.
 
 See koondplaneerimise stsenaarium sisaldab järgmisi tingimusi.
 

@@ -1,6 +1,6 @@
 ---
-title: Finantskonsolideerimise ja valuuta teisenduse ülevaade
-description: Selles teemas kirjeldatakse pearaamatu finantskonsolideerimisi ja valuuta teisendusi.
+title: Finantskonsolideerimiste ja valuutateisenduse ülevaade
+description: Selles artiklis kirjeldatakse finantskonsolideerumist ja valuuta tõlget Pearaamatusse.
 author: jinniew
 ms.date: 10/07/2021
 ms.topic: overview
@@ -13,26 +13,26 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: f6f0094ac3307164e1c715a71e16b0766247e275
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 56e445dcf471fd20695824d5e47cd15f39c022ce
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713864"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846853"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>Finantskonsolideerimiste ja valuutateisenduse ülevaade
 
 [!include [banner](../includes/banner.md)]
 
-Käesolev teema viib teid läbi lähenemise, mida mõlemad Microsoft Dynamics 365 Finantsid ja Finantsaruandlus konsolideerimistes kasutavad. Selles kirjeldatakse stsenaariume, mis hõlmavad mitme ettevõttega aruandlust, kogumit, eemaldamist ja vähemusosalust. Selgitatakse ka, kuidas tegeleda eriolukordade, nt stsenaariumitega, kus juriidilistel isikutel on erinevad rahandusperioodid või kontoplaanid.
+See artikkel viib teid läbi lähenemise, mida mõlemad Microsoft Dynamics 365 Finantsid ja Finantsaruandlus konsolideerimistes kasutavad. Selles kirjeldatakse stsenaariume, mis hõlmavad mitme ettevõttega aruandlust, kogumit, eemaldamist ja vähemusosalust. Selgitatakse ka, kuidas tegeleda eriolukordade, nt stsenaariumitega, kus juriidilistel isikutel on erinevad rahandusperioodid või kontoplaanid.
 
-See teema on kirjutatud kasutajatele ja funktsionaalsetele konsultantidele ning eeldab, et lugejatel on üldine arusaam Rahandusest ja finantsaruandlusest. Põhiseadistusest siin ei räägita.
+See artikkel kirjutati kasutajatele ja funktsiooninõustajatele ning selles eeldatakse, et lugejatel on finants- ja finantsaruandluse üldteadmine. Põhiseadistusest siin ei räägita.
 
 > [!NOTE]
-> Mõistet *juriidiline isik* kasutatakse rakenduses Rahandus ja mõistet *ettevõte* finantsaruandluses. Selles teemas on kasutatud mõlemat mõistet. Kuid selle teema huvides on nende tähendus sama.
+> Mõistet *juriidiline isik* kasutatakse rakenduses Rahandus ja mõistet *ettevõte* finantsaruandluses. Mõlemaid tingimusi kasutatakse selles artiklis. Selle artikli puhul on nende tähendus siiski sama.
 
 ## <a name="audience"></a>Sihtrühm
-See teema on mõeldud finants- ja raamatupidamiskasutajatele ning rakenduse konsultantidele, kes tahavad kasutada rakendust Finance and Operations ning finantsaruandlust mitme ettevõtte ja mitme valuutaga andmete konsolideerimiseks.
+See artikkel on mõeldud finants- ja raamatupidamise kasutajatele ning rakenduse nõustajatele, kes soovivad kasutada finants- ja aruandlus- ning finantsaruandlust mitme ettevõtte ja mitme valuutaga andmete konsolideerimiseks.
 
 ## <a name="approach"></a>Lähenemine
 Rahandus kasutab konsolideerimise töötlemiseks eraldi juriidilist isikut. See võimaldab üksiku juhtumi konsolideerimist, aga pakub võimalust kasutada andmeid teistest allikatest. Konsolideerimisprotsess tuleb käivitada iga kord, kui aluseks olevas juriidilises isikus tehakse muudatusi.

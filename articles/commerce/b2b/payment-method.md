@@ -1,6 +1,6 @@
 ---
 title: Kliendikonto makseviisi konfigureerimine B2B e-kaubanduse saitide jaoks
-description: See teema kirjeldab, kuidas konfigureerida kliendikonto makseviisi moodulis Microsoft Dynamics 365 Commerce. See kirjeldab ka seda, kuidas krediidilimiidid mõjutavad ettemaksete hõivamist ettevõtete vahel (B2B) e-kaubanduse saitidel.
+description: See artikkel kirjeldab, kuidas konfigureerida kliendikonto makseviisi moodulis Microsoft Dynamics 365 Commerce. See kirjeldab ka seda, kuidas krediidilimiidid mõjutavad ettemaksete hõivamist ettevõtete vahel (B2B) e-kaubanduse saitidel.
 author: josaw1
 ms.date: 04/19/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: a55a5d4c9dbf7909af5219843fc4310b6cdd4ed7
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 20af517b9a69f4fb490d4d93ada8bc4063e895dd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689633"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878643"
 ---
 # <a name="configure-the-customer-account-payment-method-for-b2b-e-commerce-sites"></a>Kliendikonto makseviisi konfigureerimine B2B e-kaubanduse saitide jaoks
 
 [!include [banner](../../includes/banner.md)]
 
-See teema kirjeldab, kuidas konfigureerida kliendikonto makseviisi moodulis Microsoft Dynamics 365 Commerce. See kirjeldab ka seda, kuidas krediidilimiidid mõjutavad ettemaksete hõivamist ettevõtete vahel (B2B) e-kaubanduse saitidel.
+See artikkel kirjeldab, kuidas konfigureerida kliendikonto makseviisi moodulis Microsoft Dynamics 365 Commerce. See kirjeldab ka seda, kuidas krediidilimiidid mõjutavad ettemaksete hõivamist ettevõtete vahel (B2B) e-kaubanduse saitidel.
 
 Jaemüüjad võivad võtta e-kaubanduse kanalis müüdavate toodete ja teenuste eest tasu erinevat tüüpi maksemeetoditega. Kõik jaemüüja aktsepteeritavad maksetüübid tuleb konfigureerida süsteemi seadistamisel rakenduses Dynamics 365 Commerce. Kliendikonto (või "ettemaks") makseviisi peab toetama B2B e-commerce'i saitidel. 
 

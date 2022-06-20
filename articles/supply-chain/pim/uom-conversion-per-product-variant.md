@@ -1,6 +1,6 @@
 ---
 title: Mõõtühiku teisendus tootevariandi kohta
-description: See teema kirjeldab, kuidas seadistada tootevariantide mõõtühikute teisendusi. See sisaldab seadistuse näidet.
+description: See artikkel selgitab, kuidas häälestada tootevariantide mõõtühiku teisendusi. See sisaldab seadistuse näidet.
 author: t-benebo
 ms.date: 05/11/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: c02252abcaf82cb2aab928949827e25ef7cce8c2
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: a605e510ac8faa1f92e105c9fcc30222ef78e05e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579564"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869629"
 ---
 # <a name="unit-of-measure-conversion-per-product-variant"></a>Mõõtühiku teisendus tootevariandi kohta
 
 [!include [banner](../includes/banner.md)]
 
-See teema kirjeldab, kuidas seadistada erinevaid tootevariantide mõõtühikute teisendusi.
+See artikkel selgitab, kuidas häälestada erinevate tootevariantide mõõtühiku teisendusi.
 
 Selle asemel, et luua mitut haldamist vajavat individuaalset toodet, saate kasutada tootevariante ühe toote variatsioonide loomiseks. Näiteks võib tootevariant olla antud suuruse ja värviga t-särk.
 

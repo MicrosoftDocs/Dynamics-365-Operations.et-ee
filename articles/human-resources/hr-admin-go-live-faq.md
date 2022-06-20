@@ -1,6 +1,6 @@
 ---
 title: Süsteemi Go-live KKK
-description: Selles teemas loetletakse Dynamics 365 Human Resourcesi juurutusprojekti kasutuselevõtuga seonduvaid korduma kippuvaid küsimusi.
+description: See artikkel loendab korduma kippuvad küsimused, kuidas rakendusprojektiga Dynamics 365 Human Resources edasi minna.
 author: rachel-profitt
 ms.date: 10/13/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e5b0f58c7ebf03466805d20806316f6f1c32e4a4
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: dfb2434b0d0573f2edab228fcca77ee653d751a5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695356"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853099"
 ---
 # <a name="go-live-faq"></a>Süsteemi Go-live KKK 
 
@@ -30,7 +30,7 @@ ms.locfileid: "8695356"
 
 
 
-Selles teemas loetletakse Dynamics 365 Human Resourcesi juurutusprojekti kasutuselevõtuga seonduvaid korduma kippuvaid küsimusi. 
+See artikkel loendab korduma kippuvad küsimused, kuidas rakendusprojektiga Dynamics 365 Human Resources edasi minna. 
 
 ## <a name="when-can-i-configure-and-request-my-production-environment"></a>Millal ma saan konfigureerida ja taotleda oma töökeskkonda? 
 

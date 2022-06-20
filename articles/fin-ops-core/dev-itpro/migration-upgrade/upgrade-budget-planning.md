@@ -1,6 +1,6 @@
 ---
 title: Eelarve plaanimise täiendamine
-description: Selles teemas selgitatakse, mida tuleb ümber konfigureerida, ja kirjeldatakse ka uusi funktsioone, mida tuleb pärast täiendamise lõpulejõudmist arvesse võtta.
+description: See artikkel selgitab, mida tuleb ümber konfigureerida, ja kirjeldab ka uusi funktsioone, mida tuleb pärast täienduse lõpetamist arvestada.
 author: panolte
 ms.date: 04/10/2017
 ms.topic: article
@@ -14,20 +14,20 @@ ms.search.region: Global
 ms.author: panolte
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: c52de15faddd797d31d0875882863b8fe37a7d173b38be058e51a06b2e7fe078
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d098aa77b4eb87118692c18ecd1b09a5de2c53d6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769187"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890402"
 ---
 # <a name="upgrade-budget-planning"></a>Eelarve plaanimise täiendamine
 
 [!include [banner](../includes/banner.md)]
 
-Eelarve planeerimine on rakendustes Microsoft Dynamics AX 2012 ja Dynamics 365 Finance suuresti erinev. Mõnd funktsiooni pole täiendatud ja seetõttu nõuavad need ümberkonfigureerimist. Selles teemas selgitatakse, mida tuleb ümber konfigureerida, ja kirjeldatakse ka uusi funktsioone, mida tuleb pärast täiendamise lõpulejõudmist arvesse võtta.  
+2012. ja Microsoft Dynamics AX Dynamics 365 finantside vahel on eelarve plaanimises märkimisväärselt erinevusi. Mõnd funktsiooni pole täiendatud ja seetõttu nõuavad need ümberkonfigureerimist. See artikkel selgitab, mida tuleb ümber konfigureerida, ja kirjeldab ka uusi funktsioone, mida tuleb pärast täienduse lõpetamist arvestada.  
 
-Eelarve plaanimisel rakenduses on palju täiustusi, mis ei olnud rakenduses Dynamics AX 2012 saadaval. Selles teemas selgitatakse muudatusi, mida täiendust tegevad kliendid peavad rakendama. Samuti tuuakse välja uued funktsioonid, mida tuleb täiendusprotsessis arvesse võtta. Muudatuste rohkuse tõttu ei saa ühtki olemasolevat eelarveplaani avada, enne kui selles teemas kirjeldatud muudatused on tehtud. Siiski peavad aruanded tööd jätkama ega nõua lisamuudatusi.
+Eelarve plaanimisel rakenduses on palju täiustusi, mis ei olnud rakenduses Dynamics AX 2012 saadaval. See artikkel selgitab muudatusi, mida kliendid, kes peavad uuendusi tegema. Samuti tuuakse välja uued funktsioonid, mida tuleb täiendusprotsessis arvesse võtta. Muudatuste ulatuse tõttu ei saa olemasolevaid eelarveplaane avada enne, kui selles artiklis toodud muudatused on tehtud. Siiski peavad aruanded tööd jätkama ega nõua lisamuudatusi.
 
 ## <a name="overview-of-changes"></a>Muudatuste ülevaade
 Finance and Operationsi moodulis Eelarvestus on tehtud palju olulisi muudatusi. Need muudatused hõlbustavad eelarve plaanimise konfigureerimist ja korduskasutamist, et vähendada iga-aastast hooldamist ja seadistamist. Finance ei sisalda enam järgmisi AX 2012 valdkondi.
@@ -58,7 +58,7 @@ Eelarve plaanimise protsessid on üldjoontes samad mis AX 2012-s. Olulisim muuda
 AX 2012-s salvestati põhjendusdokumendid manuse kausta. Eelmisi põhjendusdokumente ei täiendata. Põhjendusdokumente talletatakse nüüd andmebaasis. Kui see teave tuleb täiendatud versioonis salvestada, saate iga plaani puhul lõplikud põhjendusdokumendid manusena üles laadida toimingupaani nupuga **Põhjendus**. AX 2012-s loodi Exceli töölehed iga eelarveplaani kohta malli põhjal. Finance’is avavad kõik plaanid paigutuse koopia. Exceli faili muudatusi siiski ei salvestata. Kõik valemid või toetav teave, mida kasutatakse iga plaani alusel eraldi, tuleb lisada kommentaaride, põhjendusdokumendi või mõne muu lisaprotsessi kaudu.
 
 ## <a name="configuring-an-upgraded-environment-from-ax-2012"></a>AX 2012-st täiendatud keskkonna konfigureerimine
-Järgmine näide aitab teil määrata, kuidas täiendatud süsteemi konfigureerida, kasutades täiendatud eelarve protsessi AX 2012 demoandmete põhjal. Loodi veergude vaikekonfiguratsiooni andmed täiendamisprotsessi abistamiseks. Saate neid vaikeandmeid värskendada või kustutada, kui need ei vasta teie konfigureerimisnõuetele. **Märkus.** Siin on uued kohustuslikud väljad, mida süsteemis ei seadistata. Kui te ei pääse mõnelt lehelt, näiteks **Eelarve plaanimise konfiguratsioon**, edasi ega saa mujale navigeerida, võite brauseri sulgeda ja seejärel selle uuesti avada teisel lehel, et sisestada üksikasjad õiges järjekorras. Siin on kohustuslikud väljad, mis ei ole veel seadistatud. Seetõttu võib esineda probleeme, kuni kõik on konfigureeritud ja kõik kohustuslikud väljad seadistatud. Selles teemas selgitatakse, kuidas neid välju vastavalt vajadusele seadistada. Nõutud väljad on muu hulgas järgmised.
+Järgmine näide aitab teil määrata, kuidas täiendatud süsteemi konfigureerida, kasutades täiendatud eelarve protsessi AX 2012 demoandmete põhjal. Loodi veergude vaikekonfiguratsiooni andmed täiendamisprotsessi abistamiseks. Saate neid vaikeandmeid värskendada või kustutada, kui need ei vasta teie konfigureerimisnõuetele. **Märkus.** Siin on uued kohustuslikud väljad, mida süsteemis ei seadistata. Kui te ei pääse mõnelt lehelt, näiteks **Eelarve plaanimise konfiguratsioon**, edasi ega saa mujale navigeerida, võite brauseri sulgeda ja seejärel selle uuesti avada teisel lehel, et sisestada üksikasjad õiges järjekorras. Siin on kohustuslikud väljad, mis ei ole veel seadistatud. Seetõttu võib esineda probleeme, kuni kõik on konfigureeritud ja kõik kohustuslikud väljad seadistatud. See artikkel selgitab, kuidas neid välju vastavalt vajadusele seadistada. Nõutud väljad on muu hulgas järgmised.
 
 -   Leht **Eelarve planeerimise protsess**: väli **Konto vaikestruktuur**
 -   Leht **Eelarve planeerimise protsess**: väli **Paigutus** kiirkaardil **Eelarve planeerimise etapireeglid ja paigutused**
@@ -71,7 +71,7 @@ Järgmine näide aitab teil määrata, kuidas täiendatud süsteemi konfigureeri
 
    Finance and Operationsis luuakse järgmised veerud.
 
-   | Veeru nimi    | Eelarveplaani stsenaarium | Veeru ajaperiood | Aasta nihe |
+   | Veeru nimi    | Eelarveplaani stsenaarium | Veeru ajaperiood | Aasta vastaskonto |
    |----------------|----------------------|--------------------|-------------|
    | Jaanuaristsenaarium 1 | Tegelikud              | 1                  | 0           |
    | Jaanuaristsenaarium 2 | Alus             | 1                  | 0           |

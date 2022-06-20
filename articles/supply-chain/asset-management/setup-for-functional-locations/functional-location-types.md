@@ -1,6 +1,6 @@
 ---
 title: Töö asukoha tüübid
-description: Selles teemas kirjeldatakse, kuidas moodulis Asset Management töö asukohta tüüpe luua.
+description: See artikkel kirjeldab, kuidas luua Varahalduses funktsiooni asukohatüüpe.
 author: johanhoffmann
 ms.date: 06/24/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 301dc838ed204ebe488dd167df75fc84131f235f64285c6ae99c62ee1188362c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: MT
+ms.openlocfilehash: 01c8276d77f7655659cab13f3c520d7c171e3cfd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739151"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879217"
 ---
 # <a name="functional-location-types"></a>Töö asukoha tüübid
 
@@ -28,7 +28,7 @@ ms.locfileid: "6739151"
 
  
 
-Selles teemas kirjeldatakse, kuidas moodulis Asset Management töö asukohta tüüpe luua. Töö asukoha tüüpe kasutatakse töö asukohtade nõuete haldamiseks, sealhulgas selle kohta, kuidas varasid töö asukohta paigaldada. Saate seadistada varade tüüpe, hoolduskavu, töö asukoha atribuute ja vara atribuutide nõudeid, mida kasutatakse töö asukohas, mis kasutab konkreetseid töö asukoha tüüpe. Kui loote töö asukoha, on töö asukoha tüüp kohustuslik.
+See artikkel kirjeldab, kuidas luua Varahalduses funktsiooni asukohatüüpe. Töö asukoha tüüpe kasutatakse töö asukohtade nõuete haldamiseks, sealhulgas selle kohta, kuidas varasid töö asukohta paigaldada. Saate seadistada varade tüüpe, hoolduskavu, töö asukoha atribuute ja vara atribuutide nõudeid, mida kasutatakse töö asukohas, mis kasutab konkreetseid töö asukoha tüüpe. Kui loote töö asukoha, on töö asukoha tüüp kohustuslik.
 
 >[!NOTE] 
 >Töö asukohtadega töötamiseks peate looma töö vaikeasukoha, mida saate kasutada ainult uute varade loomiseks. Selle töö vaikeasukoha jaoks peate looma töö vaikeasukoha tüübi, mis on tõeliselt lihtne ja lubab installida mitu vara töö vaikeasukohta. Lisateavet töö asukohtade seadistamise kohta lugege teemast [Töö asukohtade loomine](../functional-locations/create-functional-locations.md).

@@ -1,6 +1,6 @@
 ---
 title: Lehe URL-i loomine
-description: See teema käsitleb saidil lehe URL-i loomise põhimõisteid ja -toiminguid.
+description: See artikkel hõlmab saidi lehe URL-i loomise põhimõisteid ja protseduure.
 author: bicyclingfool
 ms.date: 10/01/2019
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 923723ce6e3f92c5186cd8a562a6e3fee3fdf70dfe8db29c86192cb1db515b1a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1798c4812b535ef007cbd5ff310b534e64a2f11e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6717719"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892300"
 ---
 # <a name="create-a-page-url"></a>Lehe URL-i loomine
 
 [!include [banner](includes/banner.md)]
 
-See teema käsitleb saidil lehe URL-i loomise põhimõisteid ja -toiminguid.
+See artikkel hõlmab saidi lehe URL-i loomise põhimõisteid ja protseduure.
 
 Teie saidi lehele viitav täielik või absoluutne URL koosneb eraldi osadest. Näiteks on URL-il `https://www.contoso.com/en-us/contactus` järgmised osad:
 

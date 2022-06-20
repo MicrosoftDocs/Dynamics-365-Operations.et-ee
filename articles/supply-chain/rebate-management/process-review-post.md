@@ -1,6 +1,6 @@
 ---
 title: Tagasimaksete protsess, ülevaatamine ja sisestamine
-description: See teema kirjeldab, kuidas töödelda tagasimaksehalduse tehinguid, arvutada nende allahindlusi, vaadata üle loodud kanded, sisestada kandeid ja vaadata sisestusi üle.
+description: See artikkel kirjeldab, kuidas töödelda tagasimaksehalduse tehinguid, arvutada nende allahindlusi, vaadata üle loodud kanded, sisestada kandeid ja vaadata sisestusi üle.
 author: sherry-zheng
 ms.date: 02/19/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 524aec8025378391057275f77e31191f88e4a98b
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: e63f02e5e93ec2ce8c321a20c2a0c5886edcbe42
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690270"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901933"
 ---
 # <a name="process-review-and-post-rebates"></a>Tagasimaksete protsess, ülevaatamine ja sisestamine
 
 [!include [banner](../includes/banner.md)]
 
-See teema kirjeldab, kuidas töödelda tagasimaksehalduse tehinguid, arvutada nende allahindlusi, vaadata üle loodud kanded, sisestada kandeid ja vaadata sisestusi üle.
+See artikkel kirjeldab, kuidas töödelda tagasimaksehalduse tehinguid, arvutada nende allahindlusi, vaadata üle loodud kanded, sisestada kandeid ja vaadata sisestusi üle.
 
 ## <a name="change-the-status-of-a-deal"></a>Pakkumise oleku muutmine
 
@@ -45,7 +45,7 @@ Mine **Tagasimaksete haldus \> Perioodilised ülesanded \>FIFO ostuhinna arvutam
 
 Saate luua müügi- või ostutellimusi, millel on lähtetehingud kas enne või pärast rakendatava tagasimaksehalduse tehingu loomist.
 
-Iga tehingurea saate seadistada nii, et see loob automaatselt tagasimaksepakkumise, konteerides müügitellimuse või ostutellimuse tarne või arve. Seadke tehingurea välja **Tehingu liik** väärtuseks *Tarne* või *Arve* ja seadke suvandi **Protsess sisestamisel** väärtuseks *Jah*. Kui välja **Tehingu liik** väärtuseks on seatud *Tellimus*, on töötlemine sisestamisel keelatud. Lähtetehingute puhul, mis loodi pärast tehingu aktiveerimist, saate siiski seda sätet töödelda, nagu on kirjeldatud selle teema jaotises [Protsessi tagasimaksehalduse tehingud](#process-deals).
+Iga tehingurea saate seadistada nii, et see loob automaatselt tagasimaksepakkumise, konteerides müügitellimuse või ostutellimuse tarne või arve. Seadke tehingurea välja **Tehingu liik** väärtuseks *Tarne* või *Arve* ja seadke suvandi **Protsess sisestamisel** väärtuseks *Jah*. Kui välja **Tehingu liik** väärtuseks on seatud *Tellimus*, on töötlemine sisestamisel keelatud. Pärast tehingu aktiveerimist loodud lähtekannete puhul saate eraldist siiski töödelda, [nagu](#process-deals) on kirjeldatud selles artiklis allpool jaotises Tagasimaksehalduse tehingute protsess.
 
 ### <a name="enable-price-details"></a>Hinna üksikasjade lubamine
 

@@ -1,6 +1,6 @@
 ---
 title: Hüvitise struktuuri arendamine
-description: Selles teemas selgitatakse, kuidas luua fikseeritud hüvituskava ja registreerida töötajad abikõlblikkuse reeglite kaudu plaani.
+description: See artikkel selgitab, kuidas luua fikseeritud tasu plaani ja registreerida töötajaid plaani sobivuse reeglite kaudu.
 author: twheeloc
 ms.date: 08/25/2021
 ms.topic: business-process
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f069d4e982a9c02070c2010b894b2ec7a9c7f6ab
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 86953e6d54843f17d0d6090a9def8bc256624f21
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8693083"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902962"
 ---
 # <a name="develop-a-compensation-structure"></a>Hüvitise struktuuri arendamine
 
@@ -26,7 +26,7 @@ ms.locfileid: "8693083"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-See teema kirjeldab fikseeritud hüvitiste plaani loomist ja töötajate registreerimist plaani abikõlblikkuse reeglite kaudu. See teema kasutab USMF-i demoandmeid ja kehtib hüvitise ja soodustuste halduritele.
+See artikkel kirjeldab fikseeritud tasuplaani loomist ja töötajate registreerimist plaani sobivuse reeglite kaudu. See artikkel kasutab USMF-i demoandmeid ja kehtib hüvitise ja soodustuste halduritele.
 
 ## <a name="create-a-fixed-compensation-plan"></a>Põhipalga plaani loomine
 

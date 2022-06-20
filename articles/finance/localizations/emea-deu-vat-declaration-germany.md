@@ -1,6 +1,6 @@
 ---
 title: KM-i deklaratsioon (Saksamaa)
-description: See teema kirjeldab, kuidas seadistada ja luua Saksamaa ettemakse käibemaksu deklaratsioon ametlikus XML-vormingus.
+description: See artikkel kirjeldab, kuidas seadistada ja luua Saksamaa ettemakse käibemaksu käibemaks (VAT) deklaratsiooni ametlikus XML-vormingus.
 author: anasyash
 ms.date: 03/10/2022
 ms.topic: article
@@ -9,22 +9,22 @@ ms.reviewer: kfend
 ms.search.region: Global
 ms.author: anasyash
 ms.search.validFrom: ''
-ms.openlocfilehash: a761a145a876584728098a92b3f3e93ac718a164
-ms.sourcegitcommit: 9c19898e1f41495f804c7f07e2636b53a098c4c1
+ms.openlocfilehash: ff52963c03ec2eb662eb0c20ef2a960e3b999167
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/10/2022
-ms.locfileid: "8402799"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879528"
 ---
 # <a name="vat-declaration-germany"></a>KM-i deklaratsioon (Saksamaa)
 
 [!include [banner](../includes/banner.md)]
 
-See teema kirjeldab, kuidas seadistada ja luua Saksamaa ettemakse käibemaksu deklaratsioon ametlikus XML-vormingus. See teema selgitab ka, kuidas KM-i deklaratsiooni eelvaadet vaadata Microsoft Excel.
+See artikkel kirjeldab, kuidas seadistada ja luua Saksamaa ettemakse käibemaksu käibemaks (VAT) deklaratsiooni ametlikus XML-vormingus. See artikkel selgitab ka, kuidas KM-i deklaratsiooni eelvaadet vaadata Microsoft Excel.
 
 Aruande automaatseks loomiseks looge piisavalt käibemaksukoode, et hoida eraldi KM-i raamatupidamine iga välja puhul käibemaksu ettemaksu deklaratsioonis. Lisaks seostage käibemaksukoodid elektroonilise aruandluse (ER) rakendusspetsiifilistes parameetrites käibemaksukoodide otsingutulemusega km-deklaratsiooni väljade otsingutulemusega.
 
-Saksamaa puhul peate konfigureerima aruandevälja **otsingu**. Rakendusespetsiifiliste parameetrite seadistuse kohta lisateabe saamiseks vt selles teemas [jaotist](#set-up-application-specific-parameters-for-vat-declaration-fields) KM-i deklaratsiooni väljade rakendusespetsiifiliste parameetrite seadistamine.
+Saksamaa puhul peate konfigureerima aruandevälja **otsingu**. Rakendusespetsiifiliste parameetrite kohta lisateabe saamiseks vt selles artiklis [jaotist](#set-up-application-specific-parameters-for-vat-declaration-fields) KM-i deklaratsiooni väljade rakendusespetsiifiliste parameetrite seadistamine.
 
 Järgmises tabelis kuvatakse veerus "Otsingu tulemus" otsingutulemus, mis on eelkonfigureeritud kindla KM-i deklaratsiooni reale KM-deklaratsiooni vormingus. Kasutage seda teavet käibemaksukoodide õigeks seostamiseks otsingutulemusega ja seejärel KM-i deklaratsiooni reaga.
 
@@ -59,7 +59,7 @@ Saksamaa käibemaksu ettemaksu deklaratsioon sisaldab järgmist teavet.
 |-----|----------------|------------------|--------------------------------------------------------|-----------------------------------------|
 | 30  | 48             | *Maksusumma puudub*  | Maksuvaba müük, mis ei oma sisendmaksu mahaarvamist. | 30-TaxFreeSalesWithoutInputTaxDeduction |
 
-**ÜHENDUSEsisesed soetamised**
+**EL-i sisesed soetamised**
 
 | Rida | Kast – maksubaas | Kast – maksusumma | Kirjeldus                                                                                                                   | Otsingu tulemus                                                    |
 |-----|----------------|------------------|-------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------|
@@ -169,14 +169,14 @@ KM-i deklaratsiooni automaatseks loomiseks seostage käibemaksukoodid rakenduses
 
 Järgige neid samme, et määrata, millised käibemaksukoodid loovad millised väljad KM-i deklaratsioonil.
 
-1. Avage **WorkspacesElectronic** > **aruandlus ja** valige **aruandluskonfiguratsioonid**.
+1. Minge tööruumide elektroonilise aruandluse juurde ja **valige aruandluskonfiguratsioonid** > **·**.**·**
 2. Valige KM-deklaratsiooni **XML-i (DE)** konfiguratsioon ja seejärel konfiguratsioonide **rakendusespetsiifiliste \> parameetrite seadistus**.
 3. **Valige rakendusespetsiifiliste** parameetrite lehe otsingu **kiirkaardil** aruandevälja **otsing**.
 4. Seadke Kiirkaardil **Tingimused** käibemaksukoodide ja aruandeväljade seostamiseks järgmised väljad.
 
     | Väli                  | Kirjeldus                                                                                                                                                                                                                                                                                                          |
     |------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | Otsingu tulemus          | Valige aruandevälja väärtus. Lisateavet väärtuste ja nende määramise kohta KM-i deklaratsiooni ridadele vt [selle teema varasemast](#vat-declaration-overview) KM-i deklaratsiooni ülevaate jaotisest.                                                                                               |
+    | Otsingu tulemus          | Valige aruandevälja väärtus. Lisateavet väärtuste ja nende määramise kohta KM-i deklaratsiooni ridadele vt [selle artikli varasemast KM-i](#vat-declaration-overview) deklaratsiooni ülevaate jaotisest.                                                                                               |
     | Maksukood               | Valige käibemaksukood, mida aruandeväljaga seostada. Valitud käibemaksukoodi kasutavad sisestatud maksukanded kogutakse vastavasse deklaratsiooniboksi. Soovitame käibemaksukoodid eraldada nii, et üks käibemaksukood loob summad ainult ühes deklaratsioonikastis. |
     | Kande liigitaja | Kui olete deklaratsiooniboksi määramiseks loonud piisavalt käibemaksukoode, märkige ruut **\* Mitte tühi\***. Kui te ei loo piisavalt käibemaksukoode, nii et üks käibemaksukood loob summad ainult ühes deklaratsiooniboksis, saate seadistada kande liigitaja. Saadaval on järgmised kandeklassid:</br>-   **Osta**</br>-   **PurchaseExempt** (maksuvaba ost)</br>-   **PurchaseReverseCharge** (ostu pöördtasult saadaolev maks)</br>-   **Müük**</br>-   **SalesExempt** (maksuvaba müük)</br>-   **SalesReverseCharge** (ostu pöördtasult või müügi pöördtasult makstav maks)</br>-   **Kasutusmaks**. </br>Iga kandeklassi jaoks on saadaval ka kreeditarve klassifikaatorid. Näiteks on üks nendest klassifikaatoriist **PurchaseCreditNote** (ostu kreeditarve).</br>Looge kindlasti kaks rida iga käibemaksukoodi kohta: üks, mille kandeklassifikaatori väärtus on ja teine, mille kande klassifikaatoriks on kreeditarve väärtus. |
 
@@ -193,7 +193,7 @@ Järgige neid samme, et määrata, millised käibemaksukoodid loovad millised v�
 ### <a name="set-up-the-vat-reporting-format-for-preview-amounts-in-excel"></a>KM-i aruandluse vormingu häälestamine exceli eelvaatesummade jaoks
 
 1. Funktsioonihalduse **tööruumis** leidke ja lubage KM-aruande **vormingu aruannete** funktsioon.
-2. Minge pearaamatu **pearaamatu parameetritesse LedgerSetupGeneral** > **·** > **·**.
+2. Minge pearaamatu **seadistuse** > **pearaamatu** > **parameetritesse**.
 3. Valige käibemaksu **vahekaardi Maksusuvandite kiirkaardil** **KM**-aruande vormingu vastendamise **väljal** KM-i **deklaratsiooni Excel (DE).**
 
    See vorming prinditakse tasakaalustusperioodi **käibemaksuaruande käivitamisel**. See prinditakse ka siis, kui **valite** käibemaksu maksete **lehel valiku** Prindi.
@@ -202,7 +202,7 @@ Järgige neid samme, et määrata, millised käibemaksukoodid loovad millised v�
 
 Kui konfigureerite KM-i deklaratsiooni juriidilises isikus, kus on mitu [KM-i registreerimist](emea-reporting-for-multiple-vat-registrations.md), järgige neid samme.
 
-1. Minge pearaamatu **pearaamatu parameetritesse LedgerSetupGeneral** > **·** > **·**.
+1. Minge pearaamatu **seadistuse** > **pearaamatu** > **parameetritesse**.
 2. Valige **käibemaksudeklaratsiooni** **Exceli (DE)** ER-vorming deu-vormingu **real** riikide/**regioonide** elektroonilise aruandluse vahekaardil käibemaksu vahekaardil.
 
 ## <a name="set-up-electronic-messages"></a>Saate häälestada elektroonilisi teateid.
@@ -212,17 +212,17 @@ Kui konfigureerite KM-i deklaratsiooni juriidilises isikus, kus on mitu [KM-i re
 Andmepakett sisaldab elektroonilise sõnumi sätteid, mida kasutatakse KM-i deklaratsiooni loomiseks XML-vormingus ja seejärel selle eelvaadet Excelis. Saate neid sätteid laiendada või luua ise. Lisateavet selle kohta, kuidas töötada elektroonilise sõnumsidega ja luua oma sätted, vt Elektrooniline [sõnumside](../general-ledger/electronic-messaging.md).
 
 1. Elutsükli [Microsoft Dynamics teenustes (LCS)](https://lcs.dynamics.com/v2)**·** **ühiskasutusega varateegis valige vara tüübiks andmepakett ja seejärel laadige alla DE KM-i deklaratsioon EM pakett.** Allalaaditud faili nimi on **DE KM-i deklaratsiooni EM pakett**.
-2. Valige Dynamics 365 Finance andmehalduse **tööruumis** käsk **Impordi**.
+2. Valige Dynamics 365 Finances andmehalduse **tööruumis** suvand **Impordi**.
 3. **Sisestage** töö nimi kiirkaardi **Impordi** kiirkaardi väljale Grupi nimi.
 4. Valige kiirsakis **Valitud üksused** suvand **Lisa fail**.
 5. Dialoogiboksis **Faili lisamine** veenduge, **·** **et** lähteandmete vormingu väli on seatud valikule Pakett, **valige Üleslaadimine ja lisamine** ning seejärel valige varem alla laaditud sihtfail.
 6. Valige suvand **Sule**.
 7. Kui andmeüksused on tegevuspaanil üles laaditud, valige käsk **Impordi**.
-8. Minge **TaxInquiriesi** > **ja reportsElectronic** > **messagesElectronic** > **messages** ning valideerige imporditud elektroonilise teate töötlemine.
+8. Minge **maksupäringute** > **ja aruannetesse Elektroonilised** > **teated** > **ning** valideerige imporditud elektroonilise teate töötlemine.
 
 ### <a name="configure-electronic-messages"></a>Elektrooniliste teadete konfigureerimine
 
-1. Minge **taxSetupElectronic** > **·** > **messagesPopulate** > **kirjete toimingutesse**.
+1. Minge maksu seadistamise **elektrooniliste** > **teadete** > **asustamiskirjete** > **tegevustele**.
 2. Valige de asusta käibemaksu **tagastuskirjete rida ja** seejärel valige käsk **Redigeeri päringut**.
 3. Kasutage filtrit aruandesse kaasamiseks tasakaalustusperioodide määramiseks.
 4. Kui peate esitama teise deklaratsioonina aruande teiste tasakaalustusperioodide maksukannetest, looge uus **tegevus Asusta kirjed** ja valige sobivad tasakaalustusperioodid.
@@ -231,7 +231,7 @@ Andmepakett sisaldab elektroonilise sõnumi sätteid, mida kasutatakse KM-i dekl
 
 ### <a name="preview-the-vat-declaration-in-excel-from-the-report-sales-tax-for-settlement-period-periodic-task"></a>Käibemaksudeklaratsiooni eelvaade Excelis tasakaalustusperioodi perioodilise ülesande käibemaksuaruandest
 
-1. Minge taxPeriodic **tasksDeclarationsSales** > **taxReport** > **käibemaksu tasakaalustusperioodi kohta** > **.** > **·**
+1. Minge **tasakaalustusperioodi** > **käibemaksuaruande** > **maksu** > **perioodiliste** > **ülesannete deklaratsioonidele**.
 2. **Valige väärtus väljal** Tasakaalustusperiood.
 3. **Väljal Käibemaksu makse versioon** valige üks järgmistest väärtustest:
 
@@ -244,7 +244,7 @@ Andmepakett sisaldab elektroonilise sõnumi sätteid, mida kasutatakse KM-i dekl
 
 ### <a name="settle-and-post-sales-tax"></a><a name="settle-and-post-sales-tax"></a>Käibemaksu tasakaalustamine ja sisestamine
 
-1. Minge maksuperiodic **tasksDeclarationsSales** > **taxSettle'i** > **ja sisestage käibemaks** > **.** > **·**
+1. Minge maksu **perioodiliste** > **ülesannete deklaratsioonidele** > **käibemaksu** > **tasakaalustamine** > **ja sisestage käibemaks**.
 2. **Valige väärtus väljal** Tasakaalustusperiood.
 3. **Väljal Käibemaksu makse versioon** valige üks järgmistest väärtustest:
 
@@ -256,7 +256,7 @@ Andmepakett sisaldab elektroonilise sõnumi sätteid, mida kasutatakse KM-i dekl
 
 ### <a name="preview-the-vat-declaration-in-excel-from-a-sales-tax-payment"></a>Käibemaksumakse KM-i deklaratsiooni eelvaade Excelis
 
-1. Minge **TaxInquiriesi** > **ja reportsSales** > **maksupäringuteleSales** > **maksu maksetele** ja valige käibemaksu makserida.
+1. Minge **maksupäringute** > **ja aruannetesse** > **Käibemaksupäringud** > **Käibemaksu maksed** ning valige käibemaksu makserida.
 2. Valige **prindiaruanne** ja seejärel valige **OK**.
 3. Vaadake üle Valitud käibemaksu makserea jaoks loodud Exceli fail.
 
@@ -265,11 +265,11 @@ Andmepakett sisaldab elektroonilise sõnumi sätteid, mida kasutatakse KM-i dekl
 
 ## <a name="generate-a-vat-declaration-from-electronic-messages"></a>KM-i deklaratsiooni loomine elektroonilistest teadetest
 
-Kui kasutate aruande loomiseks elektroonilisi teateid, saate koguda maksuandmeid mitmelt juriidiliselt isikult. Lisateavet vt jaotisest Mitme [juriidilise isiku KM-i deklaratsiooni käivitamine](#run-a-vat-declaration-for-multiple-legal-entities) (selles teemas hiljem).
+Kui kasutate aruande loomiseks elektroonilisi teateid, saate koguda maksuandmeid mitmelt juriidiliselt isikult. Lisateavet vt jaotisest Mitme [juriidilise isiku KM-i deklaratsiooni käivitamine](#run-a-vat-declaration-for-multiple-legal-entities) (selles artiklis).
 
 Järgmine protseduur kehtib elektroonilise sõnumitöötluse näite kohta, mille impordite LCS-i jagatud varateegist.
 
-1. Minge **taxInquiriesi** > **ja reportsElectronic** > **messagesElectronic** > **messages**.
+1. Minge maksupäringute **ja** > **aruannetesse elektrooniliste** > **teadete elektroonilised** > **teated**.
 2. Valige vasakul paanil DE **KM-i deklaratsioon**.
 3. Valige kiirkaardil **Teated** **väärtus Uus** ja seejärel valige **dialoogiboksis Käivita töötlemine** **OK**.
 4. Valige teaterida, mis on loodud, sisestage kirjeldus ja seejärel määratlege deklaratsiooni algus- ja lõppkuupäevad.
@@ -277,7 +277,7 @@ Järgmine protseduur kehtib elektroonilise sõnumitöötluse näite kohta, mille
     > [!NOTE]
     > Sammud 5 kuni 7 on valikulised.
 
-5. Valikuline: valige **kiirkaardil** Teated suvand **Andmete kogumine** ja seejärel valige **OK**. Varem loodud käibemaksu maksed lisatakse teatele. Lisateabe saamiseks vt selles teemas [varasemat jaotist Käibemaksu tasakaalustamine](#settle-and-post-sales-tax) ja postitamine. Kui selle sammu vahelejätte, saate siiski luua KM-i deklaratsiooni, **kasutades** dialoogiboksi Deklaratsioon välja Maksudeklaratsiooni **versioon**.
+5. Valikuline: valige **kiirkaardil** Teated suvand **Andmete kogumine** ja seejärel valige **OK**. Varem loodud käibemaksu maksed lisatakse teatele. Lisateabe saamiseks vt selles artiklis [varasemat jaotist Käibemaksu tasakaalustamine](#settle-and-post-sales-tax) ja postitamine. Kui selle sammu vahelejätte, saate siiski luua KM-i deklaratsiooni, **kasutades** dialoogiboksi Deklaratsioon välja Maksudeklaratsiooni **versioon**.
 6. Valikuline: **kiirkaardil** Teateüksused vaadake üle töödeldavad käibemaksumaksed. Vaikimisi kaasatakse kõik valitud perioodi käibemaksu maksed, mida ei kaasatud muusse sama töötlemise teatesse.
 7. Valikuline: **valige käibemaksu** maksete ülevaatamiseks algdokument või valige käsk **Kustuta**, et käibemaksu maksed töötlemisest välja jätta. Kui selle sammu vahelejätte, saate siiski luua KM-i deklaratsiooni, **kasutades** dialoogiboksi Deklaratsioon välja Maksudeklaratsiooni **versioon**.
 8. Valige kiirkaardil **Teated** suvand **Uuenda olekut**. Dialoogiaknas **Oleku** värskendamine valige suvand **Loomiseks valmis ja** seejärel valige **OK**. Kontrollige, kas teate olekuks on määratud **"Loomiseks valmis"**.
@@ -310,9 +310,9 @@ Vormingute kasutamiseks KM-i deklaratsiooni esitamiseks juriidiliste isikute gru
 
 Järgige neid samme, et seadistada elektroonilised teated, mis koguvad andmeid mitmelt juriidiliselt isikult.
 
-1. Minge **tööruumidefeatuuri** > **haldusse**.
+1. Avage tööruumide **funktsioonihaldus** > **·**.
 2. Otsige ja valige loendist **asustatud kirjete tegevuste funktsiooni jaoks** ettevõtetevahelised päringud ja seejärel valige luba **kohe**.
-3. Minge **taxSetupElectronic** > **·** > **messages Asusta \> kirjete tegevused**.
+3. Minge maksu seadistamise **elektrooniliste** > **teadete** > **asustamiskirjete \> tegevustele**.
 4. Valige tegevuslehel **Asusta** kirjed rida DE Asusta **KM-i tagastuskirjete jaoks**.
 
    Andmeallikate **häälestuse** ruudustikus on **saadaval** uus ettevõtte väli. Olemasolevate kirjete puhul näitab see väli praeguse juriidilise isiku ID-d.

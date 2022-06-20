@@ -1,6 +1,6 @@
 ---
-title: Muuda töö töökausta
-description: Selles teemas selgitatakse, kuidas saate kasutada tööüksuste nuppu Muuda töökausta olemasoleva töö töökausta muutmiseks.
+title: Töö töökausta muutmine
+description: See artikkel selgitab, kuidas te saate kasutada nuppu Muuda töökausta tööüksuste jaoks, et muuta olemasoleva töö töökausta.
 author: Mirzaab
 ms.date: 07/16/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: dc210de420705062ba52c674f3ddb8eb7944715a
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 817b45e8f5af957801a0af04e50acf20ba16c26d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8669848"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900618"
 ---
 # <a name="change-work-pool-on-work"></a>Muuda töö töökausta
 
@@ -34,14 +34,14 @@ Tarneahela halduse 10.0.25 puhul on see funktsioon kohustuslik ja seda ei saa v�
 
 ## <a name="set-up-the-change-work-pool-on-work-feature"></a>Funktsiooni Töö töökausta muutmine seadistamine
 
-Selle funktsiooni kasutamiseks peavad teil olema seadistatud mõned töökaustad. Samuti võite seadistada töömallid, et need määraksid automaatselt kausta. Kui soovite töötada läbi hiljem selles teemas käsitletava näidisstsenaariumi, seadistage oma süsteem selles jaotises kirjeldatud viisil.
+Selle funktsiooni kasutamiseks peavad teil olema seadistatud mõned töökaustad. Samuti võite seadistada töömallid, et need määraksid automaatselt kausta. Kui soovite töötada näidestsenaariumiga, mis antakse selles artiklis allpool, seadistage oma süsteem selles jaotises kirjeldatud viisil.
 
 ### <a name="set-up-work-pools"></a>Töökaustade seadistamine
 
 Töökaustad võimaldavad teil korraldada tööüksusi tüübi järgi. Funktsiooniga *Töö töökausta muutmine* töötamiseks peab teil olema saadaval vähemalt kaks töökausta. Töökaustade kuvamiseks ja lisamiseks järgige neid juhiseid.
 
 1. Minge jaotisse **Laohaldus \> Seadistus \> Töö \> Töökaustad**.
-1. Kui töötate ettevõtte **USMF** demoandmetega ja töötate läbi selles teemas hiljem esitatud näidisstsenaariumi, lisage kaks töökausta, millel on järgmised sätted.
+1. Kui töötate DEMOandmetega **USMF-ettevõttest** ja töötate selle näite stsenaariumiga hiljem selles artiklis läbi, lisage kaks töökaustu, kus on järgmised sätted:
 
     - Töökaust 1:
 
@@ -57,7 +57,7 @@ Töökaustad võimaldavad teil korraldada tööüksusi tüübi järgi. Funktsioo
 
 ### <a name="set-up-work-templates"></a>Töömallide häälestamine
 
-Igale oma töömallile saate määrata vaikimisi töökausta vastavalt vajadusele. Iga asjakohase malli jaoks saate määrata töökausta veerus **Töökausta ID**. Sellisel juhul pärivad kõik antud malli abil loodud tööüksused automaatselt määratud töökausta. Kui töötate ettevõtte **USMF** demoandmetega ja töötate läbi selles teemas hiljem esitatud näidisstsenaariumi, järgige neid juhiseid.
+Igale oma töömallile saate määrata vaikimisi töökausta vastavalt vajadusele. Iga asjakohase malli jaoks saate määrata töökausta veerus **Töökausta ID**. Sellisel juhul pärivad kõik antud malli abil loodud tööüksused automaatselt määratud töökausta. Kui töötate DEMOandmetega **USMF-ettevõttest** ja töötate läbi käesolevas artiklis allpool toodud näite stsenaariumi, järgige neid samme.
 
 1. Avage **Laohaldus \> Seadistus \> Töö \> Töömallid**.
 1. Lehe redigeerimisrežiimi panemiseks valige toimingupaanil **Redigeeri**.
@@ -70,7 +70,7 @@ Igale oma töömallile saate määrata vaikimisi töökausta vastavalt vajadusel
 
 ## <a name="example-scenario"></a>Näidisstsenaarium
 
-Selles stsenaariumis näidatakse, kuidas muuta olemasoleva tööüksuse töötlemisvoogu, muutes selle töökausta. See kasutab ettevõtte **USMF** demoandmeid ja selles teemas eelnevalt soovitatud sätteid.
+Selles stsenaariumis näidatakse, kuidas muuta olemasoleva tööüksuse töötlemisvoogu, muutes selle töökausta. See kasutab DEMOandmeid **USMF-ettevõttest** ja sätteid, mida soovitati selles artiklis varem.
 
 ### <a name="create-a-sales-order-and-release-it-to-the-warehouse"></a>Müügitellimuse loomine ja selle väljastamine lattu
 

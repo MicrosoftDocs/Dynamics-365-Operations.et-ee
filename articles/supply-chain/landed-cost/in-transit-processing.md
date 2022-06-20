@@ -1,6 +1,6 @@
 ---
 title: Transiidis olevate kaupade töötlemine
-description: Selles teemas kirjeldatakse, kuidas töötada transiidis olevate kaupade tellimustega. Kui tellimus või teekond on häälestatud kasutama transiidis olevate kaupade töötlemist, saab kaupu arveldada juba enne seda, kui need on tarbimiseks laos vastu võetud.
+description: See artikkel kirjeldab, kuidas töötada transiidis kaupade tellimustega. Kui tellimus või teekond on häälestatud kasutama transiidis olevate kaupade töötlemist, saab kaupu arveldada juba enne seda, kui need on tarbimiseks laos vastu võetud.
 author: Weijiesa
 ms.date: 01/13/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 8df07c7c94cf64b0e4cf1def794270e176241b5f
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 47e5ef2ef99fcf23af73cfdb6ec57b92ad62f18c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694651"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854380"
 ---
 # <a name="goods-in-transit-processing"></a>Transiidis olevate kaupade töötlemine
 
 [!include [banner](../../includes/banner.md)]
 
-Selles teemas kirjeldatakse, kuidas töötada transiidis olevate kaupade tellimustega. Seda tüüpi tellimust kasutatab ainult moodul **Väljalaadimiskulu**. Kui tellimus või teekond on häälestatud kasutama transiidis olevate kaupade töötlemist, ei pea te kaupade arveldamiseks ootama, kuni need on laos vastu võetud. Kaubad arveldatakse selle asemel kohe, kui nad hankija laost või lähtesadamast lahkuvad, finantskulud tuvastatakse teekonna alguses. See funktsioon võimaldab teil varude kuuluvuse õigesti endale võtta, kuna kaubad muutuvad sageli teie organisatsiooni omandiks juba lähtesadamast väljumisel.
+See artikkel kirjeldab, kuidas töötada transiidis kaupade tellimustega. Seda tüüpi tellimust kasutatab ainult moodul **Väljalaadimiskulu**. Kui tellimus või teekond on häälestatud kasutama transiidis olevate kaupade töötlemist, ei pea te kaupade arveldamiseks ootama, kuni need on laos vastu võetud. Kaubad arveldatakse selle asemel kohe, kui nad hankija laost või lähtesadamast lahkuvad, finantskulud tuvastatakse teekonna alguses. See funktsioon võimaldab teil varude kuuluvuse õigesti endale võtta, kuna kaubad muutuvad sageli teie organisatsiooni omandiks juba lähtesadamast väljumisel.
 
 Transiidis olevate kaupade tellimuste kasutamisel võetakse finantsiliselt värskendatud kaubad vastu vahelaos, mida nimetatakse transiidis olevateks kaupade laoks. Kaubad jäävad seejärel sellesse lattu seniks, kuni need saab lõppsihtlaos (st ostureal määratletud laos) vastu võtta. Neid ei saa käsitsi eemaldada.
 

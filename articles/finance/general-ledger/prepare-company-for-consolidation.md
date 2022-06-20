@@ -1,6 +1,6 @@
 ---
 title: Juriidilise isiku ettevalmistamine konsolideerimisprotsessiks
-description: Konsolideerimise ajal kogute kanded mitmetelt juriidiliste isikute kontokomplektidelt ühte juriidilise isiku kontokomplekti. Selles teemas kirjeldatakse, kuidas juriidilist isikut konsolideerimiseks ette valmistada.
+description: Konsolideerimise ajal kogute kanded mitmetelt juriidiliste isikute kontokomplektidelt ühte juriidilise isiku kontokomplekti. See artikkel selgitab, kuidas juriidilist isikut konsolideerimiseks ette valmistada.
 author: jinniew
 ms.date: 10/30/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2018-10-30
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 0ef6736046748b92357c41d27eeedfc88c610d33
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 2a3d4645c79ec30df2bbb7a32a82a59fdb7016e5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722034"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894022"
 ---
 # <a name="prepare-a-legal-entity-for-the-consolidation-process"></a>Juriidilise isiku ettevalmistamine konsolideerimisprotsessiks
 
 [!include [banner](../includes/banner.md)]
 
-Konsolideerimise ajal kogute kanded mitmetelt juriidiliste isikute kontokomplektidelt ühte juriidilise isiku kontokomplekti. Selles teemas kirjeldatakse, kuidas juriidilist isikut konsolideerimiseks ette valmistada.
+Konsolideerimise ajal kogute kanded mitmetelt juriidiliste isikute kontokomplektidelt ühte juriidilise isiku kontokomplekti. See artikkel selgitab, kuidas juriidilist isikut konsolideerimiseks ette valmistada.
 
 > [!NOTE]
 > Me soovitame kasutada halduse aru anda Microsoft Dynamics 365 Finance'le, et kombineerida finantstulemused mitme juriidilise isiku konsolideeritud vormingus. Halduse aru andja võimaldab teil luua konsolideeritud finantsaruandeid juriidiliste isikute lõikes, kasutada Excelit konsolideerimisandmete importimiseks teistest allikatest ja teisendada summad mis tahes arvuks aruandlusvaluutadeks ilma konsolideerimisprotsessi käivitamata Dynamics 365 Finantsis.

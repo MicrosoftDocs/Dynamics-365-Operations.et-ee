@@ -1,6 +1,6 @@
 ---
-title: Integreeritud klientide koond
-description: Selles teemas kirjeldatakse kliendiandmete integreerimist Finance and Operationsi ja Dataverse'i vahel.
+title: Integreeritud kliendi koondandmed
+description: See artikkel kirjeldab kliendiandmete integreerimist Finantside ja Toimingute ning Dataverse.
 author: RamaKrishnamoorthy
 ms.date: 07/15/2019
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 41e4b6c192b6125a144e4d5ef952ba0975821d44
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 042042bb19b32d3c96b4e0c8521a8b1d65e7ab22
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063285"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890452"
 ---
 # <a name="integrated-customer-master"></a>Integreeritud kliendi koondandmed
 
@@ -32,7 +32,7 @@ Kliendiandmeid saab luua rohkem kui ühes Dynamics 365 rakenduses. Näiteks klie
 
 Kliente saab laias laastus liigitada kahte tüüpi: äri-/organisatsioonikliendid ning tarbijad/lõppkasutajad. Neid kahte tüüpi kliente talletatakse ja käsitletakse rakendustes Finance and Operations ja Dataverse erinevalt.
 
-Rakenduses Finance and Operations on nii äri- / organisatsioonikliendid kui ka tarbijad / lõppkasutajad õppinud ühes tabelis, mille nimi **on CustTable** (CustCustomerV3Entity) ja need liigitatakse atribuudi Tüüp **alusel**. (Kui atribuudiks **Tüüp** on määratud **Organisatsioon**, on klient äri-/organisatsiooniklient, ja kui atribuudiks **Tüüp** on määratud **Isik**, on klient tarbija/lõppkasutaja.) Esmase kontaktisiku teavet töödeldakse tabeli SMMContactPersonEntity kaudu.
+Finantside ja operatsioonide puhul omatakse nii äri-/organisatsioonilised kliendid kui ka kliendid/lõppkasutajad **ühte tabelisse nimega CustTable** (CustCustomerV3Entity) **ja** need klassifitseeritakse tüübi atribuudi alusel. (Kui atribuudiks **Tüüp** on määratud **Organisatsioon**, on klient äri-/organisatsiooniklient, ja kui atribuudiks **Tüüp** on määratud **Isik**, on klient tarbija/lõppkasutaja.) Esmase kontaktisiku teavet töödeldakse tabeli SMMContactPersonEntity kaudu.
 
 Rakenduses Dataverse luuakse äri-/organisatsioonikliendid tabelis Konto ja tuvastatakse klientidena, kui atribuudiks **Seose tüüp** on määratud **Klient**. Nii tarbijaid/lõppkasutajaid kui ka kontaktisikut esindab tabel Kontakt. Et tagada tarbija/lõppkasutaja ja kontaktisiku selge eristamine, on tabelil **Kontakt** loogikalipp nimega **Müüdav**. Kui **Müüdav** on **Tõene**, on kontakt tarbija/lõppkasutaja ja selle kontakt jaoks saab luua pakkumisi ja tellimusi. Kui **Müüdav** on **Väär**, on kontakt vaid kliendi esmane kontaktisik.
 

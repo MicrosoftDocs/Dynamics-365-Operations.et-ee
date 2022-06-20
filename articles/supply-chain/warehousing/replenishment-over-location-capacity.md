@@ -1,6 +1,6 @@
 ---
-title: Täiendamine üle asukoha võimsuse
-description: Selles teemas antakse teavet funktsiooni Täiendamine üle asukoha võimsuse kohta. See funktsioon võimaldab kogu päevast loodavat täiendamistööd ja selle abil saab hallata selle täiendustöö kättesaadavust, tagamaks, et komplekteerimise asukoht jääks varudeta ega ületaks võimsust.
+title: Täiendamine üle asukoha mahutavuse
+description: See artikkel annab teavet asukoha võimsuse täiendamise funktsiooni kohta. See funktsioon võimaldab kogu päevast loodavat täiendamistööd ja selle abil saab hallata selle täiendustöö kättesaadavust, tagamaks, et komplekteerimise asukoht jääks varudeta ega ületaks võimsust.
 author: Mirzaab
 ms.date: 07/16/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 0c3dedc47558e98f63fb5883e4731bf021b9602b
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 72cda7608d55414ee62bc7dcc1e02e28f6212aff
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677922"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899233"
 ---
 # <a name="replenishment-over-location-capacity"></a>Täiendamine üle asukoha võimsuse
 
@@ -37,7 +37,7 @@ Selle funktsiooni kättesaadavaks muutmiseks lülitage [funktsioonihalduses](../
 
 ## <a name="set-up-the-feature-for-the-example-scenario"></a>Funktsiooni häälestamine näidisstsenaariumi jaoks
 
-Sellest jaotisest leiate juhised ja näite selle funktsiooni häälestamise ning näidisandmete ettevalmistamise kohta teemas hiljem esitatud näidisstsenaariumi jaoks.
+Käesolevas jaotises antakse juhised ja näide, mis näitab, kuidas seda funktsiooni seadistada ja näidisandmeid selles artiklis järgmise stsenaariumi jaoks ette valmistada.
 
 ### <a name="enable-sample-data"></a>Luba näidisandmed
 
@@ -145,7 +145,7 @@ Täiendamise mallid on reeglistik, mis määrab asikoha täiendamise aja ja viis
 
 ## <a name="example-scenario"></a>Näidisstsenaarium
 
-Pärast seda, kui olete teinud kõik eelnevalt kirjeldatud näidisandmed kättesaadavaks ja need häälestanud, saate töötada selle stsenaariumi abil, et proovida funktsiooni *Täiendamine üle asukoha võimsuse*. Selles stsenaariumis kuvatavad väärtused eeldavad, et töötate standardsete demo andmetega, et valisite juriidilise isiku **USMF** ja olete ette valmistanud näidiskirjed, mida on selles teemas varem kirjeldatud. See stsenaarium toimib ka näitena selle kohta, kuidas seda funktsiooni saab tootmises kasutada.
+Pärast seda, kui olete teinud kõik eelnevalt kirjeldatud näidisandmed kättesaadavaks ja need häälestanud, saate töötada selle stsenaariumi abil, et proovida funktsiooni *Täiendamine üle asukoha võimsuse*. Väärtused, mida selles stsenaariumis näidatakse, eeldavad, et töötate standardsete demoandmetega, **et valisite USMF-i** juriidilise isiku ja te valmistasite ette käesolevas artiklis kirjeldatud näidiskirjed. See stsenaarium toimib ka näitena selle kohta, kuidas seda funktsiooni saab tootmises kasutada.
 
 ### <a name="create-replenishment-work"></a>Täiendustöö loomine
 

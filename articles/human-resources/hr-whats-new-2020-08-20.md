@@ -1,6 +1,6 @@
 ---
 title: Mis on uut ja mida on muudetud rakenduses Dynamics 365 Human Resources (20. august 2020)?
-description: Selles teemas kirjeldatakse Microsoft Dynamics 365 Human Resourcesi 20. augusti 2020 uusi või muutunud funktsioone.
+description: See artikkel kirjeldab funktsioone, mis on Dynamics 365 Human Resources microsoftis uued või muutunud 20. augusti 2020 jaoks.
 author: andreabichsel
 ms.date: 08/20/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-08-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b6a3953c0c8474ae67667176c21d065c6b94c6ab
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 3c71a742022afba36c417092d5a9b75c78600357
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688399"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902165"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-august-20-2020"></a>Mis on uut ja mida on muudetud rakenduses Dynamics 365 Human Resources (20. august 2020)?
 
@@ -27,7 +27,7 @@ ms.locfileid: "8688399"
 
 
 
-Selles teemas kirjeldatakse Dynamics 365 Human Resourcesi uusi või muutunud funktsioone. Muudatused rakenduvad versioonile number 8.1.3478. Sulgudes olevad numbrid mõnedes pealkirjades viitavad toenumbritele teenuses Lifecycle Services (LCS).
+Selles artiklis kirjeldatakse Dynamics 365 Human Resourcesi uusi või muutunud funktsioone. Muudatused rakenduvad versioonile number 8.1.3478. Sulgudes olevad numbrid mõnedes pealkirjades viitavad toenumbritele teenuses Lifecycle Services (LCS).
 
 ## <a name="show-upcoming-and-pending-leave-of-absence-information-to-cards-in-people-workspace"></a>Eelseisvate ja ootel puhkuste teabe kuvamine tööruumi Inimesed kaartidel
 

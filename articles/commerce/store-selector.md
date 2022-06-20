@@ -1,6 +1,6 @@
 ---
-title: Kaupluse valija moodul
-description: See teema hõlmab kaupluse valija moodulit ja kirjeldab, kuidas seda rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
+title: Kaupluse valimise moodul
+description: See artikkel katab kauplusevalija mooduli ja kirjeldab, kuidas lisada see saidi lehtedele moodulis Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
 ms.date: 05/18/2022
@@ -16,18 +16,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 76682f26f62fe4686f5102e3099f038a50005f5e
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: a91b50d2177483615cf45276cf342be381814717
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780635"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881679"
 ---
 # <a name="store-selector-module"></a>Kaupluse valimise moodul
 
 [!include [banner](includes/banner.md)]
 
-See teema hõlmab kaupluse valija moodulit ja kirjeldab, kuidas seda rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
+See artikkel katab kauplusevalija mooduli ja kirjeldab, kuidas lisada see saidi lehtedele moodulis Microsoft Dynamics 365 Commerce.
 
 Kliendid saavad kasutada kaupluse valija moodulit, et komplekteerida toode valitud poes pärast Internetis ostlemist. Commerce versioonis 10.0.13 sisaldab kaupluse valija moodul ka täiendavaid võimalusi, mis võivad näidata lehekülge **Leia kauplus**, mis näitab lähedalasuvate kauplusi.
 
@@ -132,7 +132,7 @@ Kauplusevalija moodul võtab arvesse toote [ostukorvi lisamise sätteid](add-car
 - Lisateavet selle kohta, kuidas lisada kaupluse valija moodulit ostukasti moodulisse, vaadake teemast [Ostukasti moodul](add-buy-box.md). 
 - Lisateavet selle kohta, kuidas lisada kaupluse valija moodulit ostukorvii moodulisse, vaadake teemast [Ostukorvi moodul](add-cart-module.md)
 
-Kaupluse valija mooduli konfigureerimiseks, et näidata kaupluse asukohtade lehel saadaolevaid kauplusi (nagu joonisel, mis kuvatakse selles teemas) toimige järgmiselt.
+Kauplusevalija mooduli konfigureerimiseks, et kuvada kaupluse asukohtade lehel saadaolevad kauplused, nagu käesolevas artiklis varem ilmuva näite puhul, järgige neid samme.
 
 1. Avage **Mallid** ja valige uue malli loomiseks **Uus**.
 1. Dialoogiboksis Uus **mall** sisestage malli nime **all** turundusmall **ja** seejärel valige **OK**.

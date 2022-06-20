@@ -1,6 +1,6 @@
 ---
 title: Kassa rakenduse ja kasutaja keelesätted
-description: Selles teemas kirjeldatakse Modern POS-i (MPOS) ja pilvekassa keelesätete muutmist.
+description: See artikkel kirjeldab, kuidas muuta keelesätteid Modern POS-s (MPOS) ja Pilve kassas.
 author: jblucher
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 099d16f63e03ecbc8bf911fe4385b35fac7c67f763c17379cdc6b6229abdea16
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 15490885b5ce366edbab669893f3c3e36585f308
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774529"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863343"
 ---
 # <a name="point-of-sale-pos-application-and-user-language-settings"></a>Kassa rakenduse ja kasutaja keelesätted
 
 [!include [banner](includes/banner.md)]
 
-Selles teemas kirjeldatakse Modern POS-i (MPOS) ja pilvekassa keelesätete muutmist.
+See artikkel kirjeldab, kuidas muuta keelesätteid Modern POS-s (MPOS) ja Pilve kassas.
 
 ## <a name="overview"></a>Ülevaade
 Modern POS (MPOS) ja pilvekassa toetavad keskkondi, kus kaupluse ja kasutaja keelesätted ning tõlked võivad erineda. Näiteks asub kauplus piirkonnas, kus enamik kliente kasutab inglise keelt, kuid mõned töötajad eelistavad prantsuskeelse tõlkega rakendust kasutada.

@@ -1,6 +1,6 @@
 ---
 title: Klassid "Vähem kui koormatäis" (LTL)
-description: See teema kirjeldab, mis on "vähem kui koormatäis" (LTL) klassid ja kirjeldab, kuidas neid Microsoftis Dynamics 365 Supply Chain Management seadistada.
+description: See artikkel selgitab, millised vähem kui veokikoormuse (LTL) klassid on ja mis kirjeldab, kuidas neid Microsoftis seadistada Dynamics 365 Supply Chain Management.
 author: Weijiesa
 ms.date: 04/05/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2021-04-05
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: a6e05ea7534ee081778a899d5956e6ca7cd104cb
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 9ab05e1bc5d0ae2c8b5d98dda32660d2436676e9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678062"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857195"
 ---
 # <a name="less-than-truckload-ltl-classes"></a>Klassid "Vähem kui koormatäis" (LTL)
 
@@ -33,7 +33,7 @@ See funktsioon võimaldab teil oma süsteemi kasutada, et teha järgmisi toiming
 - Määratlege iga LTL-klassi pakkimisnõuded, kontrollides rahvusvahelisi LTL-standardeid. Sel viisil tagate, et teie tooted on hästi kaitstud ja turvaliselt saadetud.
 - Saate täpsed saadetise hinnangud, mis põhinevad iga toote LTL-veoklassil.
 
-Selles teemas kirjeldatakse, kuidas luua rakenduses Microsoft Dynamics 365 Supply Chain Management LTL-klasse.
+See artikkel kirjeldab, kuidas luua Microsofti LTL-klasse Dynamics 365 Supply Chain Management.
 
 ## <a name="create-an-ltl-class"></a>LTL-klassi loomine
 

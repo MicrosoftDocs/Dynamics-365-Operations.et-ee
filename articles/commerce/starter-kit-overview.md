@@ -1,6 +1,6 @@
 ---
 title: Mooduliteegi ülevaade
-description: Selles teemas antakse ülevaade rakenduse Microsoft Dynamics 365 Commerce mooduliteegi kohta.
+description: See artikkel sisaldab mooduliteegi Microsoft Dynamics 365 Commerce ülevaadet.
 author: anupamar-ms
 ms.date: 09/15/2020
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 94ff18fc34fbfbaee434db12f0d0bc8bb7042c2f
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: dbf3754136de62b72938742b7cd4cb3d56532f8b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985755"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882166"
 ---
 # <a name="module-library-overview"></a>Mooduliteegi ülevaade
 
 [!include [banner](includes/banner.md)]
 
-Selles teemas antakse ülevaade rakenduse Microsoft Dynamics 365 Commerce mooduliteegi kohta.
+See artikkel sisaldab mooduliteegi Microsoft Dynamics 365 Commerce ülevaadet.
 
 Rakenduse Dynamics 365 Commerce mooduliteek on moodulikogum, mida saab kasutada e-kaubanduse veebisaidi loomiseks. Moodulitel on nii kasutajaliidese (UI) kui ka funktsionaalse käitumise aspektid.
 

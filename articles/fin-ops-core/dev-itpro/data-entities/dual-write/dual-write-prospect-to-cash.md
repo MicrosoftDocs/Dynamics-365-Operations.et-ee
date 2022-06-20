@@ -1,6 +1,6 @@
 ---
 title: Potentsiaalne klient-raha ja kaksikkirjutamine
-description: See teema annab teavet potentsiaalne klient-raha kaksikkirjutamises kohta.
+description: See artikkel annab teavet potentsiaalse kliendi ja sularaha kohta topeltkirjutuses.
 author: RamaKrishnamoorthy
 ms.date: 01/07/2021
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 7c53bcd1084d89b59d0f6b2674a85d7c3481a9bf
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: f0d5339190f7e2aff7b084fa73e559af28e10ee8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781787"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860105"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Potentsiaalne klient-raha kaksikkirjutamises
 
@@ -29,7 +29,7 @@ Rakendusliidestes pääsete juurde reaalaja töötlemisolekutele ja arveteabele.
 Lisateavet kliendi ja kontaktide integreerimise kohta vt [Integreeritud kliendi koondandmed](customer-mapping.md). Lisateavet toote integreerimise kohta vt [Ühendatud toote kasutusfunktsionaalsus](product-mapping.md).
 
 > [!NOTE]
-> Rakenduses Dynamics 365 Sales viitavad nii potentsiaalne klient kui ka klient kirjele tabelis **Konto**, kus veerg **Suhtetüüp** on kas **Potentsiaalne klient** või **Klient**. Kui teie äriloogika hõlmab kvalifikatsiooniprotsessi **Konto**, kus kirje **Konto** luuakse ja kvalifitseerub esmalt potentsiaalse kliendina ja seejärel kliendina, sünkroonitakse kirje rakendusega Finance and Operations ainult siis, kui see on klient (`RelationshipType=Customer`). Kui soovite, et rida **Konto** sünkroonitaks potentsiaalse kliendina, vajate potentsiaalse kliendi andmete integreerimiseks kohandatud vastendust.
+> Rakenduses Dynamics 365 Sales viitavad nii potentsiaalne klient kui ka klient kirjele tabelis **Konto**, kus veerg **Suhtetüüp** on kas **Potentsiaalne klient** või **Klient**. Kui teie **äriloogika** **hõlmab** konto kvalifikatsiooni protsessi, kus kontokirje luuakse ja kvalifitseerub esmalt potentsiaalse kliendina, ning seejärel kliendina, sünkroonitakse see kirje rakendusega Finantsid ja toimingud ainult siis, kui see on klient ().`RelationshipType=Customer` Kui soovite, et rida **Konto** sünkroonitaks potentsiaalse kliendina, vajate potentsiaalse kliendi andmete integreerimiseks kohandatud vastendust.
 
 ## <a name="prerequisites-and-mapping-setup"></a>Eeltingimused ja vastendamise seadistamine
 
@@ -96,7 +96,7 @@ Kui sünkroonite Supply Chain Managementi Müükidega, saate järgmise tulemuse:
 Tabelile **Tellimus** lisati uued veerud ja need kuvatakse lehel. Enamik neist veergudes kuvatakse rakenduse Sales vahekaardil **Integreerimine**. Lisateavet selle kohta, kuidas olekuveergusid vastendatakse, vaadake: [Müügitellimuse olekuveergude vastendamise seadistamine](sales-status-map.md).
 
 + Nupud **Loo arve** ja **Tühista tellimus** lehel **Müügitellimus** on Müükides peidetud.
-+ Väärtus **Müügitellimuse olek** jääb **Aktiivseks**, et rakendusest Supply Chain Management pärit muudatused saaksid liikuda rakenduse Müügid müügitellimusse. Selle käitumise juhtimiseks seadke suvandi **Olekukood \[ Olek\]** vaikeväärtuseks **Aktiivne**.
++ Väärtus **Müügitellimuse olek** jääb **Aktiivseks** , et rakendusest Supply Chain Management pärit muudatused saaksid liikuda rakenduse Müügid müügitellimusse. Selle käitumise juhtimiseks seadke suvandi **Olekukood \[Olek\]** vaikeväärtuseks **Aktiivne**.
 
 ## <a name="invoices"></a>Arved
 
@@ -111,7 +111,7 @@ Müügiarved luuakse rakenduses Supply Chain Management ja sünkroonitakse raken
 
 Järjestus Potentsiaalne klient sularahaks sisaldab kogumit põhitabeli vastendustest, mis töötavad andmete vastasmõjus koos, nagu on näha järgmises tabelis.
 
-| Finance and Operations rakendused | Klientide kaasamise rakendused | Kirjeldus |
+| Finance and Operationsi rakendused | Klientide kaasamise rakendused | Kirjeldus |
 |-----------------------------|-----------------------------------|-------------|
 [Kõik tooted](mapping-reference.md#138) | msdyn_globalproducts | |
 [Kliendid V3](mapping-reference.md#101) | kontod | |
@@ -122,7 +122,7 @@ Järjestus Potentsiaalne klient sularahaks sisaldab kogumit põhitabeli vastendu
 [CDS-i müügipakkumise päis](mapping-reference.md#215) | pakkumised | |
 [CDS-i müügipakkumise read](mapping-reference.md#214) | Pakkumise üksikasjad | |
 [Väljastatud tooted V2](mapping-reference.md#189) | msdyn_sharedproductdetails | |
-[Müügiarve päised V2](mapping-reference.md#118) | arved | Tabel Müügiarve päised V2 rakenduses Finance and Operations sisaldab müügtellimuste arveid ja vabas vormis arveid. Dataverse’is rakendatakse topeltkirjutamise jaoks filter, et filtreerida välja kõik vabas vormis arvedokumendid. |
+[Müügiarve päised V2](mapping-reference.md#118) | arved | Finantside ja toimingute rakenduse müügiarvete päiste V2 tabel sisaldab müügitellimuste arveid ja vabas vormis arveid. Dataverse’is rakendatakse topeltkirjutamise jaoks filter, et filtreerida välja kõik vabas vormis arvedokumendid. |
 [Müügiarve read V2](mapping-reference.md#117) | invoicedetails | |
 [Müügitellimuse päritolukoodid](mapping-reference.md#186) | msdyn_salesorderorigins | |
 

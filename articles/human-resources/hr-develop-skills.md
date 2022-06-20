@@ -15,17 +15,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 7c853ad71aecd7f5d214c02da97f7956ff2391df
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: acb632042cdb535bea0dd625531f22d284653294
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695952"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893754"
 ---
 # <a name="configure-skills"></a>Oskuste konfigureerimine
 
 > [!IMPORTANT]
-> Selles teemas märgitud funktsioon on praegu saadaval Inimressursside klientide jaoks finants infrastruktuuris.  
+> Selles artiklis märgitud funktsioon on praegu saadaval Inimressursside klientidele finants infrastruktuuris.  
 
 
 Saate jälgida oma töötajate oskusi rakenduses Dynamics 365 Human Resources. Samuti saate määrata oskused, mida on vaja konkreetse töö jaoks.

@@ -1,6 +1,6 @@
 ---
 title: Asukohakorraldustega töötamine
-description: See teema kirjeldab, kuidas töötada asukohakorraldustega. Asukohakorraldused on kasutaja määratud reeglid, mis aitavad tuvastada komplekteerimise ja ladustamise asukohti varude liigutamisel.
+description: See artikkel kirjeldab, kuidas asukohadirektiividega töötada. Asukohakorraldused on kasutaja määratud reeglid, mis aitavad tuvastada komplekteerimise ja ladustamise asukohti varude liigutamisel.
 author: Mirzaab
 ms.date: 11/13/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-11-13
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 84ff0a466c037db05aecaff14aa2e17990ce8799
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 7705ea132521353cd6af7245df90aafaf23af885
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103134"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903691"
 ---
 # <a name="work-with-location-directives"></a>Asukohakorraldustega töötamine
 
@@ -27,7 +27,7 @@ ms.locfileid: "8103134"
 Asukoha korraldused on reeglid, mis aitavad tuvastada komplekteerimise ja mahapanemise asukohti varude liigutamisel. Näiteks määratleb asukohakorraldus müügitellimuse kandes koha, kus kaubad komplekteeritakse ja kuhu komplekteeritud kaubad maha pannakse. Asukohakorraldused koosnevad päisest ja seotud ridadest. Need luuakse kindlate *töökäsutüüpide* jaoks.
 
 > [!NOTE]
-> Selles teemas kirjeldatakse mooduli **Laohaldus** funktsioone. See ei kehti mooduli [Varude haldus](../inventory/inventory-home-page.md) funktsioonide korral.
+> See artikkel kehtib laohalduse mooduli **funktsioonide** kohta. See ei kehti mooduli [Varude haldus](../inventory/inventory-home-page.md) funktsioonide korral.
 
 Asukohakorraldusi saate kasutada järgmiste ülesannete täitmiseks.
 
@@ -109,7 +109,7 @@ Järgmises tabelis loetletakse väljad, mis on eriomased kõigi töökäsutüüp
 
 **Asukohakorralduste** lehe avamiseks minge **Laohaldus \> Seadistus \> Asukohakorraldused**.
 
-Sealt saate vaadata, luua ja redigeerida oma asukohakorraldusi, kasutades toimingupaanil olevaid käske. Vaadake selle teema ülejäänud jaotisi, et saada teavet selle kohta, kuidas kasutada kõiki lehel saadaolevaid välju.
+Sealt saate vaadata, luua ja redigeerida oma asukohakorraldusi, kasutades toimingupaanil olevaid käske. Vaadake selle artikli ülejäänud jaotisi, et saada teavet selle kohta, kuidas kasutada kõiki leheküljel saadaolevaid välju.
 
 ## <a name="action-pane"></a>Toimingupaan
 
@@ -162,7 +162,7 @@ Kiirkaardi **Asukohakorraldused** väljad on omased töökäsutüübile, mis on 
 - **Kohaldatav likvideerimiskood** – Määrake, kas asukohakorralduse likvideerimiskood peab ühtima kauba vastuvõtmisel rakendatava likvideerimiskoodiga või tohib asukohakorralduse valida mis tahes likvideerimiskoodi põhjal. Kui valite suvandi *Täpne vaste* ning väli **Likvideerimiskood** on tühi, kasutatakse selle asukohakorralduse jaoks ainult tühje likvideerimiskoode.
 
     > [!NOTE]
-    > See väli on saadaval ainult valitud töökäsutüüpide puhul, kus täiendamine on lubatud. Täieliku loendi leiate selle teema varasemast jaotisest [Töökäsutüüpidele omased väljad](#fields-specific-types).
+    > See väli on saadaval ainult valitud töökäsutüüpide puhul, kus täiendamine on lubatud. Täielikku loendit vt selle artikli [jaotisest Töötellimuste tüüpide omased](#fields-specific-types) väljad.
 
 - **Leidmisalus** – täpsustage, kas ladustamise kogus peaks olema terve litsentsiplaadi kogus või peaks see olema kaup kauba põhjal. Kasutage seda välja, et tagada, et kogu litsentsiplaadi sisu ladustatakse ühte asukohta ja et süsteem ei soovitaks jagada sisu mitmesse asukohta vastuvõtmisprotsesside **ASN** (litsentsiplaadi vastuvõtmine), **Kombineeritud litsentsiplaat** ja **Kogum** korral. (Vastuvõtmisprotsessi **Kogum** korral on vaja, et funktsioon [Kogumi ladustamise funktsioon](putaway-clusters.md) oleks sisse lülitatud.) Asukohakorralduse päringu, ridade ja tegevuste käitumine sõltub valitud väärtusest. Kiirkaarti **Read** kasutatakse ainult siis, kui **Leidmisalus** on seatud väärtusele *Kaup*.
 
@@ -254,7 +254,7 @@ Pärast asukohakorralduste loomist saate töö loomiseks seostada iga korralduse
 ## <a name="additional-resources"></a>Lisaressursid
 
 - Video: [laohalduse konfiguratsiooni üksikasjalik juhis](https://community.dynamics.com/365/b/techtalks/posts/warehouse-management-configuration-deep-dive-october-14-2020)
-- Spikriteema: [laotöö juhtimine töömallide ja asukohakorraldustega](control-warehouse-location-directives.md)
+- Spikri artikkel: [laotöö juhtimine töömallide ja asukohadirektiivide abil](control-warehouse-location-directives.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

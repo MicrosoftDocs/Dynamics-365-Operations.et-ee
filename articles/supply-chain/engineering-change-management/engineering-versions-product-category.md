@@ -1,6 +1,6 @@
 ---
 title: Tehnilised versioonid ja tehniliste toodete kategooriad
-description: See teema annab teavet tehniliste versioonide kontseptsiooni kohta. Tehnilised versioonid tagavad, et toote eri olekud ja selle andmed oleksid ajakohased ja selged ning et neid saaks süsteemis visualiseerida.
+description: See artikkel annab teavet tehnikaversioonide mõistete kohta. Tehnilised versioonid tagavad, et toote eri olekud ja selle andmed oleksid ajakohased ja selged ning et neid saaks süsteemis visualiseerida.
 author: t-benebo
 ms.date: 04/07/2022
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: a4d057c603e6592e491af7597e50fce2497860ec
-ms.sourcegitcommit: b96e0c70553bca9b3f5eb65105a52cb71d978a36
+ms.openlocfilehash: a98ead81a61ceac2ed721848847164f76e758f80
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/07/2022
-ms.locfileid: "8553358"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872061"
 ---
 # <a name="engineering-versions-and-engineering-product-categories"></a>Tehnilised versioonid ja tehniliste toodete kategooriad
 
@@ -60,7 +60,7 @@ Võtke arvesse, et tehniline toode võib korraga olla ainult ühes tehnilise muu
 
 ## <a name="track-versions-in-transactions"></a>Kannete versioonide jälgimine
 
-Kui kasutate tehnilise muudatuse haldust, on teie toote koondandmetes alati vähemalt üks tehniline versioon. Tehniliste toodete häälestuses saate valida, kas tehniline versioon on ka *logistiliste kannete* osa. (Lisateavet vt jaotist [Tehniliste toodete kategooriate häälestamine](#product-category), mis tuleb selles teemas hiljem.) Kui logistiline mõju on oluline, on see toodete ja ettevõtete lõikes erinev. Mõnikord kasutatakse ainult toote uusimat versiooni. Seetõttu, kui juurutate uue versiooni, ei saa eelmist versiooni enam kasutada. Muudel juhtudel on varasemat versiooni logistilistes kannetes vaja järgmiste probleemide lahendamiseks.
+Kui kasutate tehnilise muudatuse haldust, on teie toote koondandmetes alati vähemalt üks tehniline versioon. Tehniliste toodete häälestuses saate valida, kas tehniline versioon on ka *logistiliste kannete* osa. (Lisateavet vt teemast [Seadistage selles artiklis hiljem](#product-category) tehnika tootekategooriate jaotis.) Logistilise mõju puhul erineb see toote ja ettevõtteti. Mõnikord kasutatakse ainult toote uusimat versiooni. Seetõttu, kui juurutate uue versiooni, ei saa eelmist versiooni enam kasutada. Muudel juhtudel on varasemat versiooni logistilistes kannetes vaja järgmiste probleemide lahendamiseks.
 
 - Logistikaosakond peab kliendile saatma kaks toote osa. Sel juhul peate otsustama, kas soovite või lubate kaks erinevat versiooni saata.
 - Kui hiljem avastatakse, et ilmneb probleem, siis teatakse, et see on seotud konkreetse muudatusega. Sellisel juhul võib olla kasulik määratleda täpselt, milline versioon iga tellimusega saadeti.
@@ -118,7 +118,7 @@ Häälestage järgmised väljad tehnilise toote kategooria kiirkaardil **Üksika
 | Tootedimensioonigrupp | Seade **Kannete versioonide jälgimine** aitab teil valida toote mõõtmegrupi. Kui täpsustasite, et soovite jälgida kannete versioone, kuvatakse tootedimensioonide rühmad, kus kasutatakse *versiooni* dimensiooni. Muidu kuvatakse ainult need tootedimensiooni grupid, kus *versiooni* dimensiooni ei kasutata. |
 | Toote töötsükli olek loomisel | Saate häälestada toote töötsükli vaikeoleku, mis tehnilisel tootel peaks olema, kui see esmakordselt luuakse. Lisateavet vt jaotisest [Toote töötsükli olekud ja kanded](product-lifecycle-state-transactions.md). |
 | Versiooninumbri reegel | Valige versiooninumber, mis kategooria korral kehtib.<ul><li>**Käsitsi** – saate valida iga uue versiooni versiooninumbri.</li><li>**Automaatne** – süsteem määrab versiooninumbri, mis põhineb teie määratletud vormingul. Kui häälestate vormingu, kasutage numbrimärki (\#), et tähistada numbrit ja mis tahes muud märki, et tähistada püsiväärtust. Näiteks kui määratlete vormingu *V-\#\#*, on esimene versioon „V-01“, teine versioon on „V-02“ jne.</li><li>**Loend** – süsteem võtab teie määratletud kohandatud väärtuste loendist järgmise numbri.</li></ul> |
-| Kehtivuse jõustamine | Valige, kas kehtivuskuupäevad peavad olema järjestikused või kas seal võib olla lünki ja kattumisi. See säte mõjutab seda, kuidas saate kasutada välju **Kehtiv alates** ja **Kehtiv kuni** iga tehnilise versiooni puhul, kus kategooriat rakendatakse.<ul><li>Kui sellele suvandile on määratud väärtus *Jah*, tuleb väärtus **Kehtiv alates** määarata iga versiooni puhul ning versioonid ei tohi kattuda ja nende vahel ei tohi olla lünki. Iga tehnilise versiooni kuupäevavahemik on ühendatud otse eelmise ja järgmise tehnilise versiooniga, kui need on olemas. Selle stsenaariumi puhul kasutatakse alati uusimat versiooni ja vanemaid versioone enam ei kasutata.</li><li>Kui sellele suvandile määratakse väärtus **Ei**, siis ei ole kehtivuskuupäevaga väljade jaoks piiranguid ja nii kattumine kui ka lüngad on lubatud. Selle stsenaariumi puhul võivad mitu versiooni olla aktiivsed samal ajal ja te saate töötada mis tahes aktiivse versiooniga.</li></ul><p>See suvand mõjutab ka kooslusi ja protsesse, mis on seotud toote versiooniga. Lisateavet vt jaotisest [Koosluste ja protsesside ühendamine tehniliste versioonidega](#boms-routes), mis on selles teemas allpool.</p> |
+| Kehtivuse jõustamine | Valige, kas kehtivuskuupäevad peavad olema järjestikused või kas seal võib olla lünki ja kattumisi. See säte mõjutab seda, kuidas saate kasutada välju **Kehtiv alates** ja **Kehtiv kuni** iga tehnilise versiooni puhul, kus kategooriat rakendatakse.<ul><li>Kui sellele suvandile on määratud väärtus *Jah*, tuleb väärtus **Kehtiv alates** määarata iga versiooni puhul ning versioonid ei tohi kattuda ja nende vahel ei tohi olla lünki. Iga tehnilise versiooni kuupäevavahemik on ühendatud otse eelmise ja järgmise tehnilise versiooniga, kui need on olemas. Selle stsenaariumi puhul kasutatakse alati uusimat versiooni ja vanemaid versioone enam ei kasutata.</li><li>Kui sellele suvandile määratakse väärtus **Ei**, siis ei ole kehtivuskuupäevaga väljade jaoks piiranguid ja nii kattumine kui ka lüngad on lubatud. Selle stsenaariumi puhul võivad mitu versiooni olla aktiivsed samal ajal ja te saate töötada mis tahes aktiivse versiooniga.</li></ul><p>See suvand mõjutab ka kooslusi ja protsesse, mis on seotud toote versiooniga. Lisateavet vt selle artikli jaotisest [Ühenda kooslusi ja protsessid tehnikaversioonide](#boms-routes) jaoks.</p> |
 | Numbri reegli nomenklatuuri kasutus | Määrake sellele suvandile väärtus *Jah*, et lubada tootenumbri määratlemise reegleid, kasutades numbriseeriaid, tehniliste atribuutide nimesid ja väärtusi ning tekstikonstante segmentidena. Reeglite loomiseks või muutmiseks valige nupp **Redigeeri**. |
 | Nime reegli nomenklatuuri kasutus | Määrake sellele suvandile väärtus *Jah*, et lubada nime määratlemise reegleid, kasutades tehniliste atribuutide nimesid, tehniliste atribuutide väärtusi ning tekstikonstante segmentidena. Reeglite loomiseks või muutmiseks valige nupp **Redigeeri**. |
 | Kirjelduse reegli nomenklatuuri kasutus | Määrake sellele suvandile väärtus *Jah*, et lubada kirjelduse määratlemise reegleid, kasutades tehniliste atribuutide nimesid, tehniliste atribuutide väärtusi ning tekstikonstante segmentidena. Reeglite loomiseks või muutmiseks valige nupp **Redigeeri**. |

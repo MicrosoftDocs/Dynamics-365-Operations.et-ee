@@ -1,6 +1,6 @@
 ---
 title: Varude inventuuri põhjusekoodid
-description: Selles teemas kirjeldatakse põhjusekoodide seadistamist ja rakendamist inventuuriülesannete jaoks.
+description: See artikkel kirjeldab, kuidas seadistada ja rakendada inventuuriülesannete põhjusekoode.
 author: perlynne
 ms.date: 08/02/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 4c178ddf342b13a0ef8fee8b8b958554a9a31069
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: 7d182f1d979543eeec700924d2bd180ee06be8ce
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500586"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857108"
 ---
 # <a name="reason-codes-for-inventory-counting"></a>Varude inventuuri põhjusekoodid
 
@@ -42,7 +42,7 @@ Enne süsteemi häälestamist on soovitatav määratleda põhjusekoodidega töö
 
 ## <a name="turn-on-reason-code-features-in-your-system"></a>Lülitage põhjusekoodi funktsioonid oma süsteemis sisse
 
-Kui te ei näe kõiki selles teemas kirjeldatud funktsioone süsteemis, peate tõenäoliselt lülitama sisse *vaba kaubavaru sisestamise, kasutades vastaskontode funktsiooniga ühendatud konfigureeritavaid põhjusekoode*. Administraatorid saavad kasutada [funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sätteid, et kontrollida funktsiooni olekut ja vajadusel selle sisse lülitada. Tööruumis **Funktsioonihaldus** loetletakse funktsiooni järgneval viisil.
+Kui te ei näe kõiki selles artiklis kirjeldatud funktsioone süsteemis, peate tõenäoliselt lülitama sisse vaba kaubavaru sisestamise, *kasutades vastaskontode funktsiooniga ühendatud konfigureeritavaid põhjusekoode*. Administraatorid saavad kasutada [funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sätteid, et kontrollida funktsiooni olekut ja vajadusel selle sisse lülitada. Tööruumis **Funktsioonihaldus** loetletakse funktsiooni järgneval viisil.
 
 - **Moodul:** *laohaldus*
 - **Funktsiooni nimi:** *sisestage vaba kaubavaru korrigeerimised, kasutades vastaskontodega ühendatud konfigureeritavaid põhjusekoode*
@@ -111,7 +111,7 @@ Loendamise põhjuste koodide seadistamiseks toimige järgmiselt.
 
 ### <a name="set-up-counting-reason-code-groups"></a><a name="reason-groups"></a>Seadistage loenduse põhjusekoodi grupid
 
-*Inventuuri põhjusekoodi gruppe* saab kasutada Warehouse Management mobiilirakenduse menüü-üksuste *Korrigeerimine* ja *Reguleerimine välja* välja korrigeerimise osana inventuuri põhjusekoodide loendi piiramiseks. (Lisateavet inventuuri põhjusekoodigruppide kohta vt teemast [Seadistage mobiilse seadme menüü-üksused korrigeerimiseks ja välja reguleerimiseks](#setup-adjustment-in-out) selle teema jaotises hiljem.)
+*Inventuuri põhjusekoodi gruppe* saab kasutada Warehouse Management mobiilirakenduse menüü-üksuste *Korrigeerimine* ja *Reguleerimine välja* välja korrigeerimise osana inventuuri põhjusekoodide loendi piiramiseks. Lisateavet inventuuri põhjusekoodigruppide kohta vt teemast [Seadistage mobiilse seadme menüü-üksused selles artiklis hilisemas jaotises](#setup-adjustment-in-out) korrigeerimiseks ja korrigeerimiseks.)
 
 1. Minge **Varude haldus** \> **Seadistus** \> **Varud** \> **Põhjusekoodi gruppide loendamine**.
 1. Grupi lisamiseks valige toimingupaanilt suvand **Uus**.
@@ -174,7 +174,7 @@ Mobiilseadme menüüelemendi seadistamiseks sisse- või väljareguleerimiseks to
         - *Peida* – põhjusekoodi ei näidata.
 
     - **Muuda inventuuri põhjuse koodi** - määrake väärtuseks *Jah*, et töötaja saaks põhjuse koodi muuta, kui see loendamise ajal mobiilseadmes kuvatakse. Selleks et vältida töötaja koodi redigeerimist, määrake selle väärtuseks *Ei*.
-    - **Inventuuri põhjusekoodi grupp** – valige põhjuse koodigrupp, kui soovite piirata töötajatele esitatud valikute loendit. Põhjusekoodigruppide seadistamisteabe saamiseks vt käesoleva teema varasemat jaotist [Inventuuri põhjusekoodide gruppide seadistamine](#reason-groups). 
+    - **Inventuuri põhjusekoodi grupp** – valige põhjuse koodigrupp, kui soovite piirata töötajatele esitatud valikute loendit. Põhjusekoodigruppide seadistamisteabe saamiseks vt käesoleva artikli [varasemat jaotist Inventuuri põhjusekoodide](#reason-groups) gruppide seadistamine. 
 
 > [!NOTE]
 > Kui määrate inventuuri põhjusekoodi grupi menüü-üksustesse *Saadetise korrigeerimine* ja *Väljastuse korrigeerimine*, kus suvandi **Kasuta protsessijuhendit** väärtuseks on määratud *Jah*, saate Warehouse Management mobiilirakenduses töötlemise osana saada inventuuri põhjusekoodide piiratud loendi.

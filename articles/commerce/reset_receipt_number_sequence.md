@@ -1,6 +1,6 @@
 ---
-title: Kviitungi numbrite lähtestamine
-description: See teema kirjeldab, kuidas lähtestada kviitungi numbreid, mida kasutatakse erinevate tegevuste jaoks soovitud kuupäeval (nt finantsaasta või kalendriaasta).
+title: Kviitunginumbrite lähtestamine
+description: See artikkel kirjeldab, kuidas lähtestada erinevate tegevuste puhul kasutatavaid sissetulekute numbreid soovitud kuupäeval (nt rahandusaasta või kalendriaasta).
 author: ShalabhjainMSFT
 ms.date: 10/06/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: Application update 10.0.9
-ms.openlocfilehash: 855c39f15db6de8fac1f0cd4667eec485c70542b9aebde0d7085e2703f4609bb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5dc9f3f977e04866562781d9768141a4a96166f4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733865"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858852"
 ---
 # <a name="reset-receipt-numbers"></a>Kviitunginumbrite lähtestamine 
 
@@ -30,7 +30,7 @@ ms.locfileid: "6733865"
 > [!NOTE]
 > Enne selle funktsiooni kasutamist tuleb teil funktsiooniprofiilis valida kõikide kviitungitüüpide jaoks atribuut **Sõltumatu seeria**. Samuti peaks kassat kasutava seadme süsteemi ajavöönd ühtima asjaomase kaupluse ajavööndiga. Nende piirangute tõttu soovitame seda funktsiooni tootmises mitte kasutada, kuni me töötame nende probleemide lahendamise kallal tulevases väljalaskes. 
 
-Jaemüüjad loovad kviitungi numbreid kaupluses erinevate tegevuste jaoks, nt sularaha- ja vedamiskanded, tagastuskanded, klienditellimused, hinnapakkumised ja maksed. Kuigi jaemüüjad määravad kviitungi vormingud ise, on osades riikides või regioonides määrused, mis seavad nendele kviitungi vormingutele piirangud. Näiteks võivad need määrused piirata märkide arvu kviitungil, nõuda järjestikuseid kviitungi numbreid, piirata mõningaid erimärke või nõuda kviitungi numbrite lähtestamist aasta alguses. Microsoft Dynamics 365 Commerce muudab kviitungite numbrite haldamise protsessi väga paindlikuks, et aidata jaemüüjatel täita seadusest tulenevaid nõudeid. See teema selgitab, kuidas kasutada kviitungi numbrite lähtestamise funktsiooni.
+Jaemüüjad loovad kviitungi numbreid kaupluses erinevate tegevuste jaoks, nt sularaha- ja vedamiskanded, tagastuskanded, klienditellimused, hinnapakkumised ja maksed. Kuigi jaemüüjad määravad kviitungi vormingud ise, on osades riikides või regioonides määrused, mis seavad nendele kviitungi vormingutele piirangud. Näiteks võivad need määrused piirata märkide arvu kviitungil, nõuda järjestikuseid kviitungi numbreid, piirata mõningaid erimärke või nõuda kviitungi numbrite lähtestamist aasta alguses. Microsoft Dynamics 365 Commerce muudab kviitungite numbrite haldamise protsessi väga paindlikuks, et aidata jaemüüjatel täita seadusest tulenevaid nõudeid. See artikkel selgitab, kuidas kasutada funktsiooni kviitungite numbrite lähtestamiseks.
 
 Rakenduses Commerce võivad kviitungi vormingud olla tähtnumbrilised. Saate lisada nendesse nii staatilist sisu kui ka dünaamilist sisu. Staatiline sisu sisaldab tähemärke, numbreid ja erimärke. Dünaamiline sisu sisaldab üht või mitut märki, mis esindavad teavet, nagu kaupluse number, terminali number, kuupäev, kuu, aasta ja numbriseeriad, mis automaatselt suurenevad. Vormingud määratletakse funktsiooniprofiili jaotises **Kviitungi nummerdamine**. Järgmine tabel kirjeldab dünaamilist sisu tähistavaid märke.
 

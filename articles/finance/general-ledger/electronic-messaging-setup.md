@@ -1,6 +1,6 @@
 ---
 title: Elektroonilise sõnumi häälestamine
-description: Selles teemas antakse ülevaade, kuidas töötada elektroonilise sõnumsidega (EM).
+description: See artikkel annab teavet selle kohta, kuidas seadistada elektrooniliste teadete (EM) funktsioone.
 author: liza-golub
 ms.date: 11/18/2021
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: elgolu
 ms.search.validFrom: 2021-06-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 652d8684473d1c1505a80eb1d860c57a214b9488
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 6ac6e4fbc37165a3126de3b1f937a43c980410b4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734215"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874547"
 ---
 # <a name="set-up-electronic-messages"></a>Elektroonilise sõnumi häälestamine
 
@@ -66,7 +66,7 @@ Järgmises tabelis kirjeldatakse lehe **Sõnumite olekud** välju.
 |---------------------|-------------|
 | Teate olek      | Saate sisestada sõnumi olekule kordumatu nime. Sõnumiolekuid kasutatakse elektronsõnumi oleku iseloomustamiseks igal ajahetkel. Sisestatud nimi kuvatakse lehel **Elektronsõnumid** ja elektronsõnumitega seotud logis. |
 | Kirjeldus         | Saate sisestada sõnumi oleku kirjelduse. |
-| Vastuse tüüp       | Saate valida sõnumi olekuks vastuse tüübi. Töötluse mõned tegevused võivad anda enam kui üht tüüpi vastuseid. Näiteks tegevused tüübiga **Veebiteenus** võib olenevalt selle täitmise tulemusest anda vastuseks tüübi **Edukalt täidetud** või **Tehniline tõrge**. Sel juhul peab määrama sõnumi oleku mõlema vastusetüübi korral. Lisateavet tegevusetüüpide ja nendega seotud vastusetüüpide kohta vt jaotisest [Sõnumi töötlemise tegevusetüübid](#action-types) selles teemas hiljem. |
+| Vastuse tüüp       | Saate valida sõnumi olekuks vastuse tüübi. Töötluse mõned tegevused võivad anda enam kui üht tüüpi vastuseid. Näiteks tegevused tüübiga **Veebiteenus** võib olenevalt selle täitmise tulemusest anda vastuseks tüübi **Edukalt täidetud** või **Tehniline tõrge**. Sel juhul peab määrama sõnumi oleku mõlema vastusetüübi korral. Lisateavet tegevusetüüpide ja nendega seotud vastuste [tüüpide](#action-types) kohta vt selle artikli jaotisest Teate töötlemise tegevusetüübid. |
 | Sõnumiüksuse olek | Mõnikord peab elektronsõnumi olek mõjutama seotud sõnumiüksuste olekut. Valige sellel väljal sõnumiüksuse olek, mille soovite sõnumi olekuga seostada. |
 | Luba kustutamine        | Märkige see ruut, kui kasutajatel peab olema võimalik kustutada elektronsõnumeid, millel on lehel **Elektronsõnumid** see olek. |
 
@@ -240,7 +240,7 @@ Järgmistes tabelites kirjeldatakse lehel **Sõnumi töötlemise tegevused** ole
 
 | Väli                                     | Kirjeldus |
 |-------------------------------------------|-------------|
-| Tegevuse tüüp                               | Saate valida tegevuse tüübi. Lisateavet saadaolevate valikute kohta vaata [Sõnumi töötlemise tegevuse tüübid](#action-types) hilisemas jaotises selles teemas. |
+| Tegevuse tüüp                               | Saate valida tegevuse tüübi. Lisateavet saadaval valikute kohta vt selle artikli [jaotisest](#action-types) Teate töötlemise tegevusetüübid. |
 | Vormingu vastendamine                            | Saate valida ER-i vormingu, mis tuleb tegevuse jaoks kutsuda. See väli on saadaval ainult tegevuste jaoks, mille tüüp on **Elektroonilise aruandluse eksportimine**, **Elektroonilise aruandluse importimine** ja **Elektroonilise aruandluse eksportimissõnum**. |
 | Vorminguvastendus URL-i tee jaoks               | Saate valida ER-i vormingu, mis tuleb tegevuse jaoks kutsuda. Seda vormi kasutatakse URL-aadressi tee koostamiseks, mis lisatakse valitud veebiserveri jaoks määratavale interneti baasaadressile. See väli on saadaval ainult tegevuste jaoks, mille tüüp on **Veebiteenus**. |
 | Sõnumiüksuse tüüp                         | Saate valida kirjete tüübid, mille saamiseks tegevust tuleb hinnata. See väli on saadaval tegevuste jaoks, mille tüüp on **Sõnumiüksuse täitmise tase**, **Elektroonilise aruandluse eksportimine**, **Elektroonilise aruandluse importimine** ja **Veebiteenus** ning teised tüübid. Kui jätate selle välja tühjaks, hinnatakse kõiki sõnumiüksuse tüüpe, mis on sõnumi töötlemiseks määratletud. |

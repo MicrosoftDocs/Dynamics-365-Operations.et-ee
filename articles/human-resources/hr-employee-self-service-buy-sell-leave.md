@@ -1,6 +1,6 @@
 ---
 title: Puhkuse ostmine ja müümine
-description: See teema kirjeldab, kuidas esitada ostu- ja müügipuhkuste Dynamics 365 Human Resources taotlusi.
+description: See artikkel kirjeldab, kuidas esitada ostu- ja müügipuhkuste taotlusi Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 08/26/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 695840516849dcfeb69895f6808d828d5878c59b
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: a6d38a69a73ce14f099beb6b6b560bf6c5686b0c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688172"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875709"
 ---
 # <a name="buy-and-sell-leave"></a>Puhkuse ostmine ja müümine
 
 
 >[!Important]
->Selles teemas märgitud funktsioone saavad kliendid praegu kasutada eraldiseisvas teenuses Dynamics 365 Human Resources. Osa või kõik funktsioonid on saadaval osana Finance'i taristu tulevasest väljalaskest pärast Finance'i versiooni 10.0.26.
+>Selles artiklis märgitud funktsioonid on klientide jaoks praegu saadaval eraldiseisev Dynamics 365 Human Resources. Osa või kõik funktsioonid on saadaval osana Finance'i taristu tulevasest väljalaskest pärast Finance'i versiooni 10.0.26.
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 

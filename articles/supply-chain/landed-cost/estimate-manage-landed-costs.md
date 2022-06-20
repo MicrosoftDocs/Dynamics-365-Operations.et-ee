@@ -1,6 +1,6 @@
 ---
 title: Väljalaadimiskulude hindamine ja haldamine
-description: Süsteem kasutab väljalaadimiskulude hinnangu määratlemiseks teie automaatset kuluhäälestust. Selles teemas selgitatakse, kuidas saate täpsema prognoosi andmiseks määratleda erinevaid stsenaariumeid.
+description: Süsteem kasutab väljalaadimiskulude hinnangu määratlemiseks teie automaatset kuluhäälestust. See artikkel selgitab, kuidas saate määratleda erinevaid stsenaariume täpsema hinnangu saamiseks.
 author: Weijiesa
 ms.date: 01/26/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2021-01-26
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 630fb9dc8e7954fcbc4f54941d81de1caa657676
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 2e7cdd7c7439a24ec75a59bcee1e8f42f37bb2cd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8696203"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854437"
 ---
 # <a name="estimate-and-manage-landed-costs"></a>Väljalaadimiskulude hindamine ja haldamine
 
@@ -50,7 +50,7 @@ Järgmises tabelis kirjeldatakse iga malli jaoks saadaolevaid välju.
 
 Dialoogiboksis **Kuluhinnang** saate genereerida uue kuluhinnangu, mis põhineb valitud kulumallil, valitud kaubakomplektil ja muudel teekonna üksikasjadel. Neid sätteid kasutatakse seejärel kaupade hinnanguliste väljalaadimiskulude määratlemiseks. Neid kuluhinnanguid kasutatakse peamiselt standardkuluga kaupadega töötamiseks. Kui lisate hinnangulised väljalaadimiskulud laos olevate kaupade standardkulule, peaksite kaupade lisamisel teekonnale kogema väiksema hälbega kandeid, kuna standardkulu kajastab nende väljalaadimiskulude hinnanguid.
 
-Dialoogiboksi **Kuluhinnang** avamiseks valige **Väljalaadimiskulu \> Perioodilised ülesanded \> Kuluhinnang**. Seejärel häälestage järgmistes alljaotistes kirjeldatud väljad. Lõpuks valige hinnangu loomiseks **OK**. Seejärel kuvatakse leht **Kuluhinnang** (**Väljalaadimiskulu \> Päringud \> Kuluhinnangud**), kus on kuvatud teie uus hinnang, seda on lähemalt kirjeldatud selles teemas allpool.
+Dialoogiboksi **Kuluhinnang** avamiseks valige **Väljalaadimiskulu \> Perioodilised ülesanded \> Kuluhinnang**. Seejärel häälestage järgmistes alljaotistes kirjeldatud väljad. Lõpuks valige hinnangu loomiseks **OK**. Kuvatakse **ja kuvatakse** uue hinnangu lehekülg (**\>\>** Väljaminev kulu päringud) ja kuvatakse teie uus hinnang, nagu kirjeldatud käesolevas artiklis.
 
 ### <a name="settings-on-the-parameters-tab"></a>Sätted vahekaardil Parameetrid
 
@@ -91,7 +91,7 @@ Kauba mahu ja/või kaalu üksikasjade vaatamiseks või korrigeerimiseks valige k
 
 ## <a name="manage-estimated-costs"></a>Hinnanguliste kulude haldamine
 
-Loodud kuluhinnangute vaatamiseks ja redigeerimiseks valige **Väljalaadimiskulu \> Päringud \> Kuluhinnangud**. Lehel **Kuluhinnangud** on vasakpoolsel loendipaanil kuvatud kõik praegused kuluhinnangud. Valitud hinnanguga saate töötada toimingupaani nuppude abil. Võtke arvesse, et te ei saa lehel **Kuluhinnangud** uut kuluhinnangut luua. Kasutage selle asemel dialoogiboksi **Kuluhinnang** (**Väljalaadimiskulu \> Perioodilised ülesanded \> Kuluhinnang**), nagu käesolevas teemas eespool kirjeldatud.
+Loodud kuluhinnangute vaatamiseks ja redigeerimiseks valige **Väljalaadimiskulu \> Päringud \> Kuluhinnangud**. Lehel **Kuluhinnangud** on vasakpoolsel loendipaanil kuvatud kõik praegused kuluhinnangud. Valitud hinnanguga saate töötada toimingupaani nuppude abil. Võtke arvesse, et te ei saa lehel **Kuluhinnangud** uut kuluhinnangut luua. Selle asemel kasutage dialoogiboksi **Kuluhinnang** (Väljaminev **kulu perioodiliste \> ülesannete \> kuluhinnang**), nagu kirjeldatud käesolevas artiklis varem.
 
 Lehel **Kuluhinnangud** on kuvatud iga hinnangulise kulu tuletamise viis. Samuti kuvatakse selles iga kauba hinnanguline väljalaadimiskulu. Kuluhinnangu muutmiseks saate muuta mitmesuguste kaupadega seostatud omahinda ja/või valuutat. Samuti saate muuta seostuvaid teekonnakulusid nii teekonna tasemel kui ka konteineri tasemel. Kui kasutate seda lehte kulude muutmiseks, palutakse teil kuluhinnangusse kaasatud kaupade hinnangulised kulud ümber arvutada. Kui olete valmis, saate hinnanguid kasutada kaupade omahinna uuendamiseks kulumallis.
 

@@ -1,6 +1,6 @@
 ---
 title: Domeenid Dynamics 365 Commerce'is
-description: Selles teemas kirjeldatakse, kuidas käsitsetakse domeene teenuses Microsoft Dynamics 365 Commerce.
+description: See artikkel kirjeldab, kuidas domeene käsitsetakse Microsoft Dynamics 365 Commerce.
 author: BrShoo
 ms.date: 05/10/2022
 ms.topic: article
@@ -14,20 +14,20 @@ ms.search.industry: retail
 ms.author: BrShoo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: aab5e983b42aea7d8eb4f198f033634d4663f278
-ms.sourcegitcommit: 7181a022739d6107a75d84546c3379c23f722034
+ms.openlocfilehash: c48c8bd57d90a8c7d47bfa4263cd9ab38002629b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8737342"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848950"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>Domeenid Dynamics 365 Commerce'is
 
 [!include [banner](includes/banner.md)]
 
-Selles teemas kirjeldatakse, kuidas käsitsetakse domeene teenuses Microsoft Dynamics 365 Commerce.
+See artikkel kirjeldab, kuidas domeene käsitsetakse Microsoft Dynamics 365 Commerce.
 
-Domeenid on veebiaadressid, mida kasutatakse veebibrauseris teenuse Dynamics 365 Commerce saitidele navigeerimiseks. Saate juhtida oma domeeni haldamist valitud domeeni nimeserveri (DNS) pakkuja abil. Domeenidele viidatakse teenuse Dynamics 365 Commerce saidiehitajas, et koordineerida seda, kuidas saidile pärast avaldamist juurde pääseb. Selles teemas antakse ülevaade sellest, kuidas domeene käsitletakse ja viidatakse kogu kaubanduse saidi arendamise ja käivitamise töötsükli jooksul.
+Domeenid on veebiaadressid, mida kasutatakse veebibrauseris teenuse Dynamics 365 Commerce saitidele navigeerimiseks. Saate juhtida oma domeeni haldamist valitud domeeni nimeserveri (DNS) pakkuja abil. Domeenidele viidatakse teenuse Dynamics 365 Commerce saidiehitajas, et koordineerida seda, kuidas saidile pärast avaldamist juurde pääseb. See artikkel vaatab üle, kuidas domeene ärisaidi arenduse ja käivitamise töötsükli jooksul käsitletakse ja viidatakse.
 
 > [!NOTE]
 > 6. mai 2022- 2022 Dynamics 365 Commerce`.dynamics365commerce.ms` . aasta mais asendatakse domeeniga kõik loodud keskkonnad, asendades varasema mustri `.commerce.dynamics.com`. Domeeniga ette ettevalmistamine olemasolevad `.commerce.dynamics.com` keskkonnad jätkavad tööd.

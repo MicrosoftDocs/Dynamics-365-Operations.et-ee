@@ -1,6 +1,6 @@
 ---
 title: Prinditavate FTI-vormide loomine
-description: Teemas selgitatakse, kuidas kasutada elektroonilise aruandluse (ER) raamistikku, et luua prinditavaid vabas vormis arvete (FTI) vorme Microsoft Office’i dokumentidena.
+description: See artikkel selgitab, kuidas kasutada elektroonilise aruandluse (ER) raamistikku, et luua dokumentidena prinditavaid vabas vormis arvevorme Microsoft Office.
 author: NickSelin
 ms.date: 07/24/2018
 ms.topic: article
@@ -14,25 +14,25 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: be5e3ef0f6ecb3d8f911b5be5f8bc9102d201fd299425e847a2df233d9b4edf4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d4efbb46bbba2b139bbcf9b07c480a7e8669fd7d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758212"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868825"
 ---
 # <a name="generate-printable-fti-forms"></a>Prinditavate FTI-vormide loomine
 
 [!include[banner](../includes/banner.md)]
 
-Elektroonilise aruandluse (ER) raamistik võimaldab teil luua prinditavaid vabas vormis arvete (FTI) vorme Microsoft Office’i dokumentidena. Teema annab teavet selle kohta, kuidas luua oma konfiguratsioone, ja üksikasjaliku ülevaate saadavaolevate konfiguratsioonimallide kohta.
+Elektroonilise aruandluse (ER) raamistik võimaldab teil luua prinditavaid vabas vormis arvete (FTI) vorme Microsoft Office’i dokumentidena. See artikkel annab teavet selle kohta, kuidas koostada oma konfiguratsioone ja saadaolevaid konfiguratsioonimalle.
 
 ## <a name="overview"></a>Ülevaade
 
 Peale olemasoleva võimaluse luua teenusega Microsoft SQL Server Reporting Services (SSRS) prinditavaid FTI-vorme saate nüüd selleks kasutada ka elektroonilise aruandluse raamistikku. Saate hallata prinditavaid FTI-vorme Microsoft Office Excelis ja Wordis. Samuti saate konkreetsete nõuete täitmiseks muuta paigutust, andmevoogu ja vormingut ilma, et peaks tegema muudatusi koodis.
 
 > [!NOTE]
-> Kui soovite alustuseks näha ülevaadet olemasolevatest ER-i konfiguratsioonidest selle prinditavate FTI-vormide lahenduse näite jaoks, võite kohe liikuda selle teema jaotisesse **ER-i näidiskonfiguratsioonide allalaadimine, et luua prinditavaid FTI-vorme**.
+> Kui soovite alustada olemasolevate ER-i konfiguratsioonide ülevaatega selle prinditava FTI-vormide lahenduse näidise jaoks, võite minna otse jaotisse Laadi alla ER näidiskonfiguratsioonid, **et luua prinditavad FTI-vormid** selles artiklis hiljem.
 
 ## <a name="create-customized-configurations-for-fti-printable-forms"></a>Prinditavate FTI-vormide jaoks kohandatud konfiguratsioonide loomine
 Prinditavate FTI-vormide kohandatud lahenduse osana peate looma ER-i konfiguratsioonide kogumi.
@@ -108,7 +108,7 @@ FTI postitamisel saate ka luua FTI-vorme, kui lülitate sisse suvandi **Prindi a
 ER-i raamistik toetab praegu loodud dokumentide jaoks järgmisi sihtkohti.
 
 - **Allalaaditud fail** – loodud vorme pakutakse allalaadimistena, mida saate brauseri kaudu salvestada.
-- **Ekraan** – kasutatakse rakendust Microsoft 365 Excel, et kuvada loodud FTI-vormide eelvaated Exceli vormingus.
+- **Ekraan** – loodud FTI-vormide eelvaadete kuvamiseks Exceli vormingus kasutatakse rakendust Microsoft 365 Excel.
 - **SharePointi kaust** – loodud vorme hoiustatakse dokumendihalduse raamistiku sätete põhjal.
 - **Rakenduse arhiiv**– loodud vorme hoiustatakse Microsoft Azure’i salvestusruumis käivituslogi kirjete manustena.
 - **Meil** – loodud vormid saadetakse meilimanustena.

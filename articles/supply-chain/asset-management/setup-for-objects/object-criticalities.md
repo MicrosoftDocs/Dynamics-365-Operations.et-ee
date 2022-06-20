@@ -1,6 +1,6 @@
 ---
 title: Varade kriitilisuse tüübid
-description: Teemas selgitatakse varade kriitilisuse tüüpe varahalduses.
+description: Artikkel selgitab vara kriitilise tähtsusega tüüpe varahalduses.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f9edf55c22375a66fda04ae7ff76d7a0a191140e5ffb3a377b9ac1a7ba604a8d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cfde9a9bc681c0d758491fc5c361b5b046e20d9d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6776916"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899494"
 ---
 # <a name="asset-criticality-types"></a>Varade kriitilisuse tüübid
 
@@ -28,7 +28,7 @@ ms.locfileid: "6776916"
 
  
 
-Teemas selgitatakse varade kriitilisuse tüüpe varahalduses. Varade kriitilisus on seotud varaga ja kantakse töötellimustele üle. Töötellimuse puhul ei saa seda muuta. Varade kriitilisust kasutatakse töökäsu kriitilisuse arvutamiseks töötellimuse planeerimisel. Teisisõnu kasutatakse seda arvutamiseks, millises ulatuses mõjutab vara hooldustöö tootmisgraafikut ja tootlikkust teie ettevõttes. Lisateabe saamiseks häälestuse kohta, mis on seotud töötellimuse planeerimisel reitingusummade arvutamisega, vt teemat [Varahalduse parameetrid](../setup-for-objects/enterprise-asset-management-parameters.md).
+Artikkel selgitab vara kriitilise tähtsusega tüüpe varahalduses. Varade kriitilisus on seotud varaga ja kantakse töötellimustele üle. Töötellimuse puhul ei saa seda muuta. Varade kriitilisust kasutatakse töökäsu kriitilisuse arvutamiseks töötellimuse planeerimisel. Teisisõnu kasutatakse seda arvutamiseks, millises ulatuses mõjutab vara hooldustöö tootmisgraafikut ja tootlikkust teie ettevõttes. Lisateabe saamiseks häälestuse kohta, mis on seotud töötellimuse planeerimisel reitingusummade arvutamisega, vt teemat [Varahalduse parameetrid](../setup-for-objects/enterprise-asset-management-parameters.md).
 
 Kriitilisuse seadistamiseks looge esmalt kriitilisuse tüübid, mida tuleks kasutada vara seadistuses. Seejärel seadistage vara kriitilisused.
 

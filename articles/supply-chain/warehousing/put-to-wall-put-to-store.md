@@ -1,6 +1,6 @@
 ---
 title: Pane seinale – pane kauplusesse
-description: Selles teemas antakse teavet funktsiooni Pane seinale – pane kauplusesse kohta. See funktsioon võimaldab teil käsitseda stsenaariume, kus peate konsolideerima toote eelpakkimise vaheasukohta konfigureeritavate kriteeriumide põhjal. See aitab vähendada komplekteerimise aega, sest see võimaldab komplekteerimist ühele sihtidentifitseerimisnumbrile ja panna rohkematesse asukohtadesse kui kogumi komplekteerimise puhul.
+description: See artikkel annab teavet panemise seinale – panemine funktsioonide talletamiseks. See funktsioon võimaldab teil käsitseda stsenaariume, kus peate konsolideerima toote eelpakkimise vaheasukohta konfigureeritavate kriteeriumide põhjal. See aitab vähendada komplekteerimise aega, sest see võimaldab komplekteerimist ühele sihtidentifitseerimisnumbrile ja panna rohkematesse asukohtadesse kui kogumi komplekteerimise puhul.
 author: Mirzaab
 ms.date: 07/16/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 372bb556ec1207096a8ff3c7df8bac9b7011b5c4
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: e020bd3973b8b56dd1e6f3e5bdc8cba32600f7f8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574133"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909639"
 ---
 # <a name="put-to-wall---put-to-store"></a>Pane seinale – pane kauplusesse
 

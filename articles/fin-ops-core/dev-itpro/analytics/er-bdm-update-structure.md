@@ -1,6 +1,6 @@
 ---
 title: Äridokumendimalli struktuuri värskendamine
-description: See teema selgitab, kuidas värskendada äridokumendi malli struktuuri äridokumendi haldamise funktsiooni abil.
+description: See artikkel selgitab äridokumendi malli struktuuri värskendust äridokumendi halduse funktsiooni abil.
 author: NickSelin
 ms.date: 11/19/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-12-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 2f57e3f3a84a6e767755c69074bc194e90793e6edd79d0e07ae7449d45ec7539
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2adecba4e988bfe04de2c181501b6c3ef8491dcf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775282"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880279"
 ---
 # <a name="update-the-structure-of-a-business-document-template"></a>Äridokumendimalli struktuuri värskendamine 
 
 [!include[banner](../includes/banner.md)]
 
-**Malli struktuuri** paanil [äridokumendi halduse](er-business-document-management.md) malli redaktoris saate muuta äridokumendi malli, [lisades uued väljad](er-bdm-add-field-to-excel-template.md) Microsoft Exceli mallile. Malli struktuuri värskendatakse seejärel automaatselt rakenduses Dynamics 365 Finance, nii et see kajastaks muudatusi, mida te paanil **Malli struktuur** tegite.
+**Malli struktuuri** paanil [äridokumendi halduse](er-business-document-management.md) malli redaktoris saate muuta äridokumendi malli, [lisades uued väljad](er-bdm-add-field-to-excel-template.md) Microsoft Exceli mallile. Seejärel uuendatakse malli struktuur automaatselt Dynamics 365 Finance'is nii, **et see peegeldab mallistruktuuri paanil tehtud** muudatusi.
 
 Samuti saate malli muuta, kasutades Office 365 veebipõhiseid funktsioone. Näiteks saate lisada muudetavale töölehele uue nimega üksuse (nt pildi või kujundi). Sel juhul malli struktuuri rakenduses Finance automaatselt ei värskendata ja lisatud üksus ei ilmu paanil **Malli struktuur**. Värskendage malli struktuuri rakenduses Finance käsitsi, klõpsates malli redaktori lehel suvandi **Värskenda struktuuri**.
 

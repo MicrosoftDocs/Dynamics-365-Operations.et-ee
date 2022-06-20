@@ -1,6 +1,6 @@
 ---
 title: Sissenõuete protsessi automatiseerimine
-description: Selles teemas kirjeldatakse võlanõudmise protsessi strateegiate seadistamist, mis automaatselt tuvastavad kliendi arved, mille korral on vajalik meilimeeldetuletus, võlanõudmise tegevus (nt telefonikõne) või kliendile saadetav märgukiri.
+description: See artikkel kirjeldab sissenõuete protsessi strateegiate seadistamise protsessi, mis määratlevad automaatselt kliendiarved, mis nõuavad meili meeldetuletust, märgukirja tegevust või kliendile saadetavat märgukirja.
 author: JodiChristiansen
 ms.date: 03/12/2021
 ms.topic: article
@@ -8,23 +8,23 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CustomerCollectionManagerWorkspace
 audience: Application User, IT Pro
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-26
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 59db852024faf457db7ac145b67619b31555aaf2
-ms.sourcegitcommit: 3f6cbf4fcbe0458b1515c98a1276b5d875c7eda7
+ms.openlocfilehash: 9ec749db197b4d04ee2e99ac7a16f4f2120c6707
+ms.sourcegitcommit: 427fe14824a9d937661ae21b9e9574be2bc9360b
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "7486865"
+ms.lasthandoff: 06/09/2022
+ms.locfileid: "8946143"
 ---
 # <a name="collections-process-automation"></a>Sissenõuete protsessi automatiseerimine
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas kirjeldatakse võlanõudmise protsessi strateegiate seadistamist, mis automaatselt tuvastavad kliendi arved, mille korral on vajalik meilimeeldetuletus, võlanõudmise tegevus (nt telefonikõne) või kliendile saadetav märgukiri. 
+See artikkel kirjeldab sissenõuete protsessi strateegiate seadistamise protsessi, mis määratlevad automaatselt kliendiarved, mis nõuavad meili meeldetuletust, märgukirja tegevust (nt telefonikõne) või kliendile saadetavat märgukirja. 
 
 Organisatsioonid kulutavad tihti märkimisväärse aja aegunud saldoaruannete, kliendikontode ja avatud arvete otsimisele, et teha kindlaks, milliste klientidega on vaja avatud arve või konto saldoga seoses ühendust võtta. See uuring vähendab aega, mis kulub inkassaatoril klientidega suhtlemiseks, et sisse nõuda tähtajaks tasumata saldosid, või arvega seotud vaidluste lahendamiseks. Võlanõudmise protsessi automatiseerimine võimaldab teil seadistada oma võlanõudmise protsessile strateegiapõhise lähenemise. See aitab teil võlanõudmise tegevusi järjepidevalt rakendada, pakkudes kohandatud meilimeeldetuletusi või programmeeritud protsessi märgukirjade saatmiseks. 
 

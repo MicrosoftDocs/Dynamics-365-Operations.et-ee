@@ -1,6 +1,6 @@
 ---
 title: Töökäsu elutsükli olekud
-description: Selles teemas selgitatakse töötsüklite olekuid varahalduses.
+description: See artikkel selgitab varahalduses töötellimuse töötsükli olekuid.
 author: johanhoffmann
 ms.date: 08/13/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: fa0980438ec629ef7ae6bf711d5ae87efca131e6ab86dfcaa1f17d953725147a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: MT
+ms.openlocfilehash: 67f857e4bfb828250e632e3ba46af9930cd908a1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768662"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860866"
 ---
 # <a name="work-order-lifecycle-states"></a>Töökäsu elutsükli olekud
 
@@ -69,7 +69,7 @@ Järgmises tabelis on kirjeldatud valikud jaotistes **Töökäsk** ja **Graafik*
 
     Kiirkaardi **Üksikasjad** väljal **Töötsükli mudelid** kuvatakse töökäsu töötsükli mudelite arvu, mida selles elutsükli olekus kasutatakse.
 
-8. Valige kiirkaart **Üldine** jaotises **Töökäsk** ja seejärel valige funktsioonid, mis peaksid olema selle töötsükli oleku jaoks saadaval, seades vastavad valikud väärtusele **Jah**. Suvandite kirjeldused leiate selles teema eelnevas tabelis.
+8. Valige kiirkaart **Üldine** jaotises **Töökäsk** ja seejärel valige funktsioonid, mis peaksid olema selle töötsükli oleku jaoks saadaval, seades vastavad valikud väärtusele **Jah**. Valikute kirjeldusi vt käesoleva artikli varasemast tabelist.
 9. Jaotises **Projekt** valige väli **Etapp**, seejärel valige projektietapp, mis peaks olema selle töötsükli olekuga seotud.
 10. Seadke jaotises **Projekt** valik **Sule tegevused** väärtuseks **Jah**, kui projekti tegevused, mis on seotud iga töökäsu tööga, tuleb automaatselt sulgeda, kui töö tellimus on selles töötsükli olekus.
 
@@ -77,7 +77,7 @@ Järgmises tabelis on kirjeldatud valikud jaotistes **Töökäsk** ja **Graafik*
     > Töötellimuse tööga seotud projekti tegevuse numbri leidmiseks valige **Varahaldus** \> **Ühised** \> **Töökäsudt** \> **Kõik töökäsud**, **Aktiivsed töökäsud** või **Minu aktiivsed töökäsud**. Avage töökäsk ja valige töökäsu töö. Tegevuse number kuvatakse väljal **Aktiivsuse number** jaotises **Projekt** kaardil **Üldine** kiirkaardil **Rea üksikasjad**.
 
 11. Seadke jaotises **Prognoos** valik **Kopeeri tundide prognoos**, **Kopeeri kauba prognoos** ja/või **Kopeeri kulude prognoos** väärtusele **Jah**, kui tööoleku projekti prognoosid kopeeritakse tööoleku töölehtedesse automaatselt, kui tööolek on selles töötsükli olekus.
-12. Seadke jaotises **Graafik** üks valikutest väärtusele **Jah**, kui töökäsu tööde graafiku olekut tuleb uuendada, kui töökäsk on selles töötsükli olekus. Valikute **Valmis**, **Alusta**, **Lõpeta** ja **Kustuta graafikuread** kirjeldusi vt selles teemas eelnevalt toodud tabelist.
+12. Seadke jaotises **Graafik** üks valikutest väärtusele **Jah**, kui töökäsu tööde graafiku olekut tuleb uuendada, kui töökäsk on selles töötsükli olekus. Graafikuridade suvandite **Valmis**, **Algus**, **Lõpp** **ja** Kustuta kirjeldusi vt käesoleva artikli tabelist.
 
     > [!NOTE]
     > Töötellimuse töödega seotud graafikuridade vaatamiseks valige **Varahaldus** \> **Ühised** \> **Töökäsudt** \> **Kõik töökäsud**, **Aktiivsed töökäsud** või **Minu aktiivsed töökäsud**. Avage töökäsk, valige töökäsu töö kiirkaardilt **Töökäsu tööd** ja vaadake seotud teavet kiirkaardilt **Rea üksikasjad**. Vahekaardi **Graafik** väli **Olek** näitab töökäsu töö olekut. Välja **Olek** väärtuseks saab seada järgmised väärtused: **Plaanitud**, **Valmis**, **Alustatud**, **Peatatud** ja **Lõpetatud**.

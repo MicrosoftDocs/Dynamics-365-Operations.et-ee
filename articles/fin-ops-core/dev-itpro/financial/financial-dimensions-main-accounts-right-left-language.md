@@ -1,6 +1,6 @@
 ---
 title: Finantsdimensioonid ja põhikontod paremalt vasakule loetavates keeltes
-description: See teema kirjeldab otsuseid, mida tuleb teha, kui kasutate paremalt vasakule keelt ja peate seadistama finantsdimensioonid ning põhikontod.
+description: See artikkel kirjeldab otsuseid, mida peate tegema, kui kasutate paremalt-vasakule keelt, ning teil tuleb seadistada finantsdimensioonid ja põhikontod.
 author: RyanCCarlson2
 ms.date: 06/20/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: global
 ms.author: rcarlson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 5de2e0e6e56651487ebd36e3594eb378ce6154ea
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: b1e2c0ef5cd405232332847078c70af42f056e17
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734949"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8866756"
 ---
 # <a name="financial-dimensions-and-main-accounts-in-right-to-left-languages"></a>Finantsdimensioonid ja põhikontod paremalt vasakule loetavates keeltes
 
 [!include [banner](../includes/banner.md)]
 
-See teema kirjeldab mõningaid juurutamisotsuseid, mida tuleb arvestada, kui kasutate paremalt vasakule keelt, ja peate seadistama finantsdimensioonid ja põhikontod.
+See artikkel kirjeldab mõningaid rakendusotsuseid, mida peaksite arvestama, kui kasutate paremalt-vasakule keelt, ning teil tuleb seadistada finantsdimensioonid ja põhikontod.
 
 Finantsdimensioonid ja põhikontod on juurutamise plaanimisfaasi põhikomponendid. Pärast finantsdimensioonide ja põhikontode loomist süsteemis kasutatakse neid lehtedel **Konto struktuuride konfigureerimine**, **Täpsemad konto struktuurid** ja **Finantsdimensiooni konfiguratsioon rakenduste integreerimiseks**. Nendel lehtedel määratletud tellimust kasutatakse andmete sisestamise ja tarbimise süsteemis. Mõnes süsteemis kohas ilmuvad finantsdimensioonid ja põhikontod eraldi väljadel. Teistes kohtades, nagu töölehed, finantsdimensioonid ja põhikontod, ilmuvad need ühe stringina.
 

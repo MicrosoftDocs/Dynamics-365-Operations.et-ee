@@ -1,6 +1,6 @@
 ---
 title: Töölehe sisestamise tõrge tasakaalustamatuse tõttu
-description: Teemas selgitatakse, miks deebetid ja kreeditid ei pruugi kandekannetes tasakaalustatud olla, mistõttu ei saa kandeid sisestada. Teema sisaldab ka etappe probleemi lahendamiseks.
+description: See artikkel selgitab, miks deebeteid ja krediite ei pruugita kandekannetes tasakaalustada, nii et kandeid ei saa sisestada. Artikkel sisaldab ka probleemi parandamise samme.
 author: kweekley
 ms.date: 08/03/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-8-03
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 07408e608496dcc19562b866449b3b27f5f80edd
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: f5afded3d5c42f8dab465b668e4c1fcdaed8c215
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8719928"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861325"
 ---
 # <a name="journal-posting-failure-because-of-imbalance"></a>Töölehe sisestamise tõrge tasakaalustamatuse tõttu
 
 [!include [banner](../includes/banner.md)]
 
-Teemas selgitatakse, miks deebetid ja kreeditid ei pruugi kandekannetes tasakaalustatud olla, mistõttu ei saa kandeid sisestada. Teema sisaldab ka etappe probleemi lahendamiseks.
+See artikkel selgitab, miks deebeteid ja krediite ei pruugita kandekannetes tasakaalustada, nii et kandeid ei saa sisestada. Artikkel sisaldab ka probleemi parandamise samme.
 
 ## <a name="symptom"></a>Sümptom
 

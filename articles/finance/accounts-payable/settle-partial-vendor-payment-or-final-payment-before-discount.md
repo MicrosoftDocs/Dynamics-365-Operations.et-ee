@@ -1,6 +1,6 @@
 ---
 title: Hankija osalise makse ja lõpliku makse tasakaalustamine enne allahindluse kuupäeva.
-description: Selles teemas saate läbi stsenaariumi, kus hankija arvele tehakse osamakseid ja võetakse skonto.
+description: Selles artiklis käsitletakse stsenaariumi, kus osalised maksed tehakse hankija arvele ja võetakse skonto.
 author: abruer
 ms.date: 08/22/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 04b00c8407ea2fd7d1e4b58db47c392989a20577
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 90aeff9872e72950f42b6227300933d562c0a3d0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716239"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889986"
 ---
 # <a name="settle-a-partial-vendor-payment-and-the-final-payment-in-full-before-the-discount-date"></a>Hankija osalise makse ja lõpliku makse tasakaalustamine enne allahindluse kuupäeva.
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas saate läbi stsenaariumi, kus hankija arvele tehakse osamakseid ja võetakse skonto.
+Selles artiklis käsitletakse stsenaariumi, kus osalised maksed tehakse hankija arvele ja võetakse skonto.
 
 Fabrikam ostab kaupu hankijalt 3064. Hankija annab Fabrikamile 1 protsenti skontot, kui arve tasutakse 14 päeva jooksul. Arved tuleb tasuda 30 päeva jooksul. Hankija lubab Fabrikamil kasutada skontosid ka osaliste maksete korral. Tasakaalustamise parameetrid asuvad lehel **Ostureskontro parameetrid**. April sisestab 25. juunil arve hankijale 3064 summas 1000,00.
 

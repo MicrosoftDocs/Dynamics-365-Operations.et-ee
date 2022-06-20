@@ -1,6 +1,6 @@
 ---
 title: Plaanitud ristlaadimine
-description: Selles teemas kirjeldatakse täiustatud plaanitud ristlaadimist, kus tellimuse jaoks nõutav varude kogus suunatakse sissetulekust või loomisest otse õigesse väljaminevasse väljastus- või koondusalasse. Kõik järelejäänud sissetulevast allikast pärinevad varud suunatakse õigesse ladustamiskohta, kasutades tavalist ladustamise protsessi.
+description: See artikkel kirjeldab täpsemat planeeritud ristlaadimist, kus tellimuseks nõutav varude kogus suunatakse otse sissetulekust või loomisest õigesse väljastusalasse või ladustamisalasse. Kõik järelejäänud sissetulevast allikast pärinevad varud suunatakse õigesse ladustamiskohta, kasutades tavalist ladustamise protsessi.
 author: Mirzaab
 ms.date: 07/01/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: c28639a4a575f5f356bf947ba8e0aee6bcd256b4
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 28ebf1b4fb966fd6801e75e7b3a6c8741114938d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573029"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863675"
 ---
 # <a name="planned-cross-docking"></a>Plaanitud ristlaadimine
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas kirjeldatakse täiustatud plaanitud ristlaadimist. Ristlaadimine on laoprotsess, kus tellimuse jaoks nõutav varude kogus suunatakse sissetulekust või loomisest otse õigesse väljaminevasse väljastus- või koondusalasse. Kõik järelejäänud sissetulevast allikast pärinevad varud suunatakse õigesse ladustamiskohta, kasutades tavalist ladustamise protsessi.
+See artikkel kirjeldab täpsemat planeeritud ristlaadimist. Ristlaadimine on laoprotsess, kus tellimuse jaoks nõutav varude kogus suunatakse sissetulekust või loomisest otse õigesse väljaminevasse väljastus- või koondusalasse. Kõik järelejäänud sissetulevast allikast pärinevad varud suunatakse õigesse ladustamiskohta, kasutades tavalist ladustamise protsessi.
 
 Ristlaadimine võimaldab töötajatel jätta vahele juba väljaminevasse tellimusse märgitud varude sissetulevat ladustamist ja väljaminevat komplekteerimist. Selle abil vähendatakse varude liigutamise kordade arvu, kus see on võimalik. Lisaks, kuna süsteemiga suheldakse vähem, säästetakse rohkem lao kaupluse korrusel olevat aega ja ruumi.
 
@@ -37,7 +37,7 @@ Sissetuleva tellimuse vastuvõtmise ajal tuvastab ristlaadimise seadistus automa
 
 ## <a name="turn-on-the-planned-cross-docking-features"></a>Plaanitud ristilaadimise funktsioonide sisselülitamine
 
-Kui teie süsteemis ei ole veel selles teemas kirjeldatud funktsioone, avage [Funktsioonihaldus](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ja lülitage järgmised funktsioonid järgmises järjekorras sisse.
+Kui teie süsteem ei kaasa juba selles artiklis kirjeldatud funktsioone, [minge](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) Funktsioonihaldusse ja lülitage järgmised funktsioonid sisse järgmises järjekorras:
 
 1. *Plaanitud ristlaadimine*
 1. *Asukohadirektiividega ristiliaadimismallid*

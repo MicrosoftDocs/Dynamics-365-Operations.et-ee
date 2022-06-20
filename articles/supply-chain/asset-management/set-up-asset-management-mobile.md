@@ -1,6 +1,6 @@
 ---
 title: Varahalduse mobiilse tööruumi häälestamine
-description: See teema kirjeldab, kuidas seadistada Microsofti Dynamics 365 Supply Chain Management ja finantside ja toimingute (Dynamics 365) mobiilirakendust, et käitada varahalduse mobiilset tööruumi, mida töötajad saavad kasutada varahalduse ülesannete tegemiseks.
+description: See artikkel kirjeldab, kuidas seadistada Microsofti Dynamics 365 Supply Chain Management ja finantside ja toimingute (Dynamics 365) mobiilirakendust, et käitada varahalduse mobiilset tööruumi, mida töötajad saavad kasutada varahalduse ülesannete tegemiseks.
 author: johanhoffmann
 ms.date: 01/15/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-22
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: a056be417d266fd400ce1572312f327dc070cb6a
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: ee92ed2c0e2a59adaebe20ed3d426ac03c056dac
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8693496"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870838"
 ---
 # <a name="set-up-the-asset-management-mobile-workspace"></a>Varahalduse mobiilse tööruumi häälestamine
 
 [!include [banner](../includes/banner.md)]
 
-See teema kirjeldab, kuidas seadistada Microsofti Dynamics 365 Supply Chain Management ja finantside ja toimingute (Dynamics 365) **mobiilirakendust**, et käitada varahalduse mobiilset tööruumi, mida töötajad saavad kasutada varahalduse ülesannete tegemiseks.
+See artikkel kirjeldab, kuidas seadistada Microsofti Dynamics 365 Supply Chain Management ja finantside ja toimingute (Dynamics 365) **mobiilirakendust**, et käitada varahalduse mobiilset tööruumi, mida töötajad saavad kasutada varahalduse ülesannete tegemiseks.
 
 ## <a name="set-up-maintenance-worker-users-in-supply-chain-management"></a>Hooldustöötajate häälestamine teenuses Supply Chain Management
 

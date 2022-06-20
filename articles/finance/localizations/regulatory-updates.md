@@ -1,6 +1,6 @@
 ---
 title: Regulatiivsed värskendused
-description: Selles teemas antakse plaanitud ja väljastatud regulatiivsete uuenduste loend Microsoft Dynamics 365 Finantside jaoks.
+description: See artikkel annab plaanitud ja väljastatud regulatiivsete uuenduste loendi Microsoft Dynamics 365 Finantside jaoks.
 author: VStamberg
 ms.date: 04/18/2022
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: vastrup
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 4e9a74f814e6ae93fd5c12b05c4fbd00ad503fca
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 04cc8b4272bcedc7db27b0d76eccdc6375641933
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711910"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904277"
 ---
 # <a name="regulatory-updates"></a>Regulatiivsed värskendused
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas loetletakse regulatiivsed uuendused, mis on Dynamics 365 Finance'i toetatud lokaliseerimistes plaanitud ja väljastatud. Väljaandmise tähtajad võivad muutuda ja kavandatud funktsioonid võivad olla erinevad või ei pruugita neid väljastada. Lisateavet leiate jaotisest [Microsofti poliitika](https://go.microsoft.com/fwlink/p/?linkid=2007332). 
+See artikkel loetleb regulatiivsed uuendused, mis on dynamics 365 finantside toetatud lokaliseerimistes plaanitud ja väljastatud. Väljaandmise tähtajad võivad muutuda ja kavandatud funktsioonid võivad olla erinevad või ei pruugita neid väljastada. Lisateavet leiate jaotisest [Microsofti poliitika](https://go.microsoft.com/fwlink/p/?linkid=2007332). 
 
 Regulatiivsed värskendused on funktsioonid, mida juurutatakse, et toetada uusi või muudetud riigikohaseid õigusakte. Lisateavet plaanitud ja väljastatud riigispetsiifiliste funktsioonide kohta vt [Dynamics 365 ja väljalaskeplaanidest Power Platform](/business-applications-release-notes/index).
 

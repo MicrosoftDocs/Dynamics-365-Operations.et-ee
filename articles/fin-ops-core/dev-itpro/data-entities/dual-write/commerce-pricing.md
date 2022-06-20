@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Commerce’i hinnakujunduse mootori kasutamine koos rakendusega Dynamics 365 Sales
-description: Selles teemas kirjeldatakse, kuidas kasutada Microsoft Dynamics 365 Commerce hinnakujunduse mootorit rakenduses Dynamics 365 Sales müügipakkumiste loomiseks.
+description: See artikkel kirjeldab, kuidas kasutada Microsoft Dynamics 365 Commerce hinnakujundusmootorit müügipakkumiste loomiseks Dynamics 365 müügis.
 author: ShalabhjainMSFT
 ms.date: 11/19/2020
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgri
 ms.search.region: global
 ms.author: shajain
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: c3f1527e5f37bebba57661ca86b1a3aae7e62da0
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
+ms.openlocfilehash: 11a164ec15c8b7a69172a153b961011a8b324712
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7416751"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881390"
 ---
 # <a name="use-the-dynamics-365-commerce-pricing-engine-with-dynamics-365-sales"></a>Dynamics 365 Commerce’i hinnakujunduse mootori kasutamine koos rakendusega Dynamics 365 Sales
 
 [!include [banner](../../includes/banner.md)]
 
-Selles teemas kirjeldatakse, kuidas kasutada Microsoft Dynamics 365 Commerce hinnakujunduse mootorit rakenduses Dynamics 365 Sales müügipakkumiste loomiseks.
+See artikkel kirjeldab, kuidas kasutada Microsoft Dynamics 365 Commerce hinnakujundusmootorit müügipakkumiste loomiseks Dynamics 365 müügis.
 
 Dynamics 365 Commerce’i hinnakujunduse mootor toetab enamikke ettevõtja ja tarbija vahelisi (B2C) hinnakujunduse stsenaariume, nagu kaupluse tasemel hinnakujundus, alluvusepõhine ja püsikliendipõhine hinnakujundus, sobitamise allahindlused, koguse allahindlused ja läveallahindlused. Hinnakujunduse mootor kasutab keerukaid reegleid antud pakkumisele või tellimusele parima hinna määramiseks.
 

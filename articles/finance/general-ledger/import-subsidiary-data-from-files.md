@@ -1,6 +1,6 @@
 ---
 title: Failidest allettevõtte andmete importimine
-description: See teema kirjeldab, kuidas ette valmistada andmeid välissüsteemidest, nii et seda saab importida süsteemi Microsoft Dynamics 365 Finance.
+description: See artikkel selgitab, kuidas ette valmistada andmeid välissüsteemidest, nii et seda saab importida süsteemi Microsoft Dynamics 365 Finance.
 author: jinniew
 ms.date: 10/09/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 045ecd6dfb95ccf38773293d44834531668ac1ff
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 6886e2ee79ee9e4ccc067dc4f661c1eea646cfa6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8733815"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846766"
 ---
 # <a name="import-subsidiary-data-from-files"></a>Failidest allettevõtte andmete importimine
 
 [!include [banner](../includes/banner.md)]
 
-See teema kirjeldab, kuidas ette valmistada andmeid välissüsteemidest, nii et seda saab importida süsteemi Microsoft Dynamics 365 Finance. Kasutate lehte **Konsolideeri impordiga** (**Konsolideerimised \> Konsolideeri impordiga**), et valmistada ette allettevõtte andmete edastamiseks välissüsteemidest.
+See artikkel selgitab, kuidas ette valmistada andmeid välissüsteemidest, nii et seda saab importida süsteemi Microsoft Dynamics 365 Finance. Kasutate lehte **Konsolideeri impordiga** (**Konsolideerimised \> Konsolideeri impordiga**), et valmistada ette allettevõtte andmete edastamiseks välissüsteemidest.
 
 1. Allettevõtte juriidilise isiku loomine konsolideerimiseks. Lisateavet juriidiliste isikute loomise kohta leiate jaotisest [Juriidilise isiku loomine](../../fin-ops-core/fin-ops/organization-administration/tasks/create-legal-entity.md). Lisateavet leiate jaotisest [Juriidilise isiku ettevalmistamine konsolideerimisprotsessis kasutamiseks](prepare-company-for-consolidation.md) ja [Allettevõtte juriidilise isiku seadistamine konsolideerimiseks](set-up-subsidiary-company-for-consolidation.md).
 
