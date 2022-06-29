@@ -16,12 +16,12 @@ ms.search.industry: Product information
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a2798e25d1f6c293aa71a6c143ded5293f241060
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 079e6de00d1a946d998648378d5ca24c1fd26218
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8850550"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015402"
 ---
 # <a name="product-related-translations-faq"></a>Tootega seotud tõlgete KKK
 
@@ -43,20 +43,20 @@ Saate vaadata mis tahes välise dokumendi, nt arve, mis kasutab keelt, kui tõlg
 
 ## <a name="how-do-i-create-translations-for-product-related-information"></a>Kuidas luua tootega seotud teabe tõlkeid?
 Tootele tõlke loomiseks tehke järgmist.
-1.  Klõpsake valikuid **Tooteteabe haldus** &gt; **Üldine** &gt; **Väljastatud tooted**.
+1.  Klõpsake tooteteabe **halduse väljastatud** &gt; **·** &gt; **tooteid**.
 2.  Valige toode ja klõpsake tegumiribal grupis **Keeled** nuppu **Tõlked**.
 3.  Valige lehel **Teksti tõlge** väljal **Keel** soovitud keel. Keelte juurde lisamiseks laiendage välja **Keel** ja klõpsake seejärel **OK**.
 4.  Grupis **Tõlgitud tekst** sisestage tõlked väljadele **Kirjeldus** ja **Toote nimi**.
 
 Tooteatribuutidele tõlke loomiseks tehke järgmist.
-1.  Klõpsake valikuid **Tooteteabe haldus** &gt; **Üldine** &gt; **Väljastatud tooted**.
+1.  Klõpsake tooteteabe **halduse väljastatud** &gt; **·** &gt; **tooteid**.
 2.  Jaotises **Seadistus** klõpsake valikut **Atribuudid** ja seejärel valikut **Atribuudid**.
 3.  Lehel **Atribuudid** klõpsake valikut **Tõlgi**.
 4.  Valige lehel **Teksti tõlge** väljal **Keel** soovitud keel. Keelte juurde lisamiseks laiendage välja **Keel** ja klõpsake seejärel **OK**.
 5.  Grupis **Tõlgitud tekst** sisestage tõlked väljadele **Kirjeldus**, **Hüüdnimi** ja **Spikri tekst**.
 
 Tootedimensiooni atribuutidele tõlke loomiseks tehke järgmist.
-1.  Klõpsake valikuid **Tooteteabe haldus** &gt; **Üldine** &gt; **Väljastatud tooted**.
+1.  Klõpsake tooteteabe **halduse väljastatud** &gt; **·** &gt; **tooteid**.
 2.  Valige toode ja seejärel klõpsake valikut **Tootedimensioonid**.
 3.  Valige üks tootedimensioonide linkidest: **Konfiguratsioonid**, **Suurused**, **Värvid** või **Stiil**.
 4.  Valige dimensiooni väärtus ja klõpsake valikut **Tõlgi** .

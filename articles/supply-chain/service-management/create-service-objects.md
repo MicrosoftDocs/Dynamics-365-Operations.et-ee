@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b372e7d06fdf25df81b11e74e20a5ff214503a0c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 6c2a1a30fe3f1c86d316cc04bf88b428369e7f14
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8852124"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9014788"
 ---
 # <a name="create-service-objects"></a>Hooldusobjektide loomine  
 
@@ -29,9 +29,9 @@ ms.locfileid: "8852124"
 Teenuse objektid on kliendi varad ja tooted, millega seoses saab hooldust osutada.
 
 1. Minge **Teenuse haldus** \> **Seadistus** \> **Teenuse objektid** \> **Teenuse objektid**.
-2. Valige tööriistaribal **Uus**.
+2. Valige toimingupaanil nupp **Uus**.
 3. Väljale **Kirjeldus** sisestage objekti kirjeldus.
-4. Väljal **Hooldusobjekti grupp** valige grupp, kuhu objekt kuulub. 
+4. Väljal **Hooldusobjekti grupp** valige grupp, kuhu objekt kuulub.
 5. Valikuline: valige hooldusobjekti reale objekt või valige malli kooslus (BOM).
 
 ## <a name="related-articles"></a>Seotud artiklid

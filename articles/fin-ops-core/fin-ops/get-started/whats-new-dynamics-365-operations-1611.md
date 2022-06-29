@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a6e9454baa33e37fe62db2b7bd39ff00891ff855
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 5be880a6d178743f4a2d3339609604d993f7e5d5
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8905020"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016395"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-operations-version-1611-november-2016"></a>Mis on uut või mida on muudetud rakenduse Dynamics 365 for Operations versioonis 1611 (november 2016)
 
@@ -818,7 +818,7 @@ Praegu on Retail Modern POS saadaval ainult Windows 8.1 rakendusena laua- ja tah
 | Reguleerige hankijale kuuluvaid varusid, kasutades inventuuritöölehte. | On oluline hoida süsteemi vaba kaubavaru sünkroonis tegelike füüsiliste varudega. Hankijale kuuluvaid varusid saab reguleerida sisse ja välja, kasutades inventuuriprotsesse, nagu koguse reguleerimine ja inventuuritöölehe protsessid. |
 | Lugege lisateavet rakenduses Dynamics 365 for Operations saadetise seadistamise kohta | Veoseprotsesside toe kohta lisateabe saamiseks vaadake teemasid [Saadetis](../../../supply-chain/inventory/consignment.md), [Veose seadistamine](/d365F-O/fin-ops-core/fin-ops/get-started/consignment), [Veose täiendustellimuse loomine (ülesande juhend)](../../../supply-chain/inventory/tasks/create-consignment-replenishment-order.md) ja [Kaubavaru omandiõiguse muutmine tootmise nõudluse põhjal (ülesande juhend)](../../../supply-chain/inventory/tasks/change-ownership-consignment.md). |
 
-### <a name="vendor-collaboration-previously-known-as-the-vendor-portal"></a>Hankija koostöö (varasema nimega hankijaportaal)
+### <a name="vendor-collaboration"></a>Hankija koostöö
 
 | Mida saate teha | Miks on see oluline |
 |-----------------|-----------------------|

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4ae943592c18dd0383aafbce59617cc983dc979b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 25561802996514f6f60fc9400c22dc61a30ef1c8
+ms.sourcegitcommit: bad64015da0c96a6b5d81e389708281406021d4f
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907286"
+ms.lasthandoff: 06/17/2022
+ms.locfileid: "9023784"
 ---
 # <a name="vendor-collaboration-with-external-vendors"></a>Hankija koostöö väliste hankijatega
 
@@ -29,9 +29,6 @@ ms.locfileid: "8907286"
 Moodul **Hankija koostöö** on suunatud hankijatele, kellel puudub elektroonilise andmete vahetuse (EDI) integratsioon rakendusega Microsoft Dynamics 365 Supply Chain Management. See laseb hankijatel töötada ostutellimustega (OT-dega), arvetega, veose varude teabega ja pakkumiskutsetega, samuti võimaldab see neile juurdepääsu osale hankija koondandmetest. See artikkel selgitab, kuidas saate teha koostööd väliste hankijatega, kes kasutavad hankija koostöö liidest, et töötada POS-ga, pakkumiskutsetega ja veose varudega. Selles selgitatakse ka, kuidas lubada konkreetset hankijat hankija koostöö kasutamiseks ja kuidas määratleda teavet, mida kõik hankijad näevad, kui nad vastavad OT-le.
 
 Lisateavet selle kohta, mida välised hankijad saavad hankija koostöö liideses teha, leiate teemast [Hankija koostöö klientidega](vendor-collaboration-work-customers-dynamics-365-operations.md).
-
-> [!NOTE]
-> Teave hankija koostöö kohta selles artiklis kehtib ainult praeguse tarneahela halduse versiooni kohta. Microsoft Dynamics AX 7.0 (veebruar 2016) ja rakenduse Microsoft Dynamics AX versiooni 7.0.1 (mai 2016) puhul saate hankijatega koostööd teha, kasutades moodulit **Hankija portaal**. Mooduli **Hankija portaal** kohta teabe saamiseks vaadake teemat [„Hankijatega koostöö tegemine Hankija portaali kasutades”](collaborate-vendors-vendor-portal.md).
 
 Lisateavet selle kohta, kuidas hankijad saavad kasutada hankija koostööd arveldamise protsessides, leiate teemast [Hankija koostöö arve tööruum](../../finance/accounts-payable/vendor-portal-invoicing-workspace.md). Lisateavet selle kohta, kuidas ette valmistada uue hankija koostöö kasutajaid, leiate teemast [Hankija koostöö kasutajate haldamine](manage-vendor-collaboration-users.md).
 
@@ -57,8 +54,25 @@ Kõigi hankijate jaoks saab koostöö üldsätted, nagu hankijale saadaolevad tu
 
 Enne kui välise hankija jaoks saab kasutajakontod luua, peate konfigureerima hankija konto selliselt, et hankija saaks hankija koostööd kasutada. Seadistage väli **Koostöö aktiveerimine** lehe **Hankijad** vahekaardil **Üldine**. Valikud on järgmised:
 
-- **Aktiivne (ostutellimus kinnitatakse automaatselt)** – OT-d kinnitatakse automaatselt, kui hankija aktseptib need ilma muudatusteta.
+- **Aktiivne (ostutellimus kinnitatakse automaatselt)** – OT-d kinnitatakse automaatselt, kui hankija aktseptib need ilma muudatusteta. Kui kasutate seda valikut, plaanige kindlasti *kinnitus kinnitatud ostutellimused* hankija koostöö pakett-tööst, mis vastutab kinnituste töötlemise eest. Juhiseid vt järgmisest jaotisest.
 - **Aktiivne (ostutellimust ei kinnitata automaatselt)** – teie organisatsioon peab OT-d käsitsi kinnitama pärast seda, kui hankija on need aktseptinud.
+
+### <a name="scheduling-the-auto-confirmation-batch-job"></a>Automaatse kinnitamise pakett-töö plaanimine
+
+**Kui kasutate valikut Aktiivne (ostutellimus on automaatselt kinnitatud)** ühe või mitme oma hankija jaoks (nagu kirjeldatud eelmises jaotises), *peate* plaanima kinnitatud ostutellimused hankija koostöö pakett-tööst, mis vastutab teie ostutellimuste töötlemise ja kinnitamise eest. Vastasel juhul automaatseid kinnitusi ei toimu kunagi. Kasutage seda tööd planeerides järgmist protseduuri.
+
+1. Minge hankesse Ostutellimuste ostutellimuste **kinnitamine Kinnitage \>\> kinnitatud ostutellimused hankija koostööst \>.**
+1. Valige dialoogiboksis **Hankija koostöö kinnitatud ostutellimused** taustal **käitamine** **kiirkaardil Kordumine.**
+1. Määrake dialoogiboksis **Kordumise** määratlemine, mis graafik, millal tööd peaks käitama. Graafiku valimisel kaaluge järgmisi probleeme.
+
+    - Kui teie süsteem töötleb suurt andmemahtu ja käitab palju pakett-töid, võib jõudlusele olla probleem. Sel juhul ei tohiks seda tööd tõenäoliselt käitada rohkem kui iga 10 minuti järel (sõltuvalt teistest nõuetest). Kui teie jaoks jõudlus ei ole probleemiks, saate seda käitada nii tihti, kui vaja, iga 1–2 minutit.
+    - Kui teie hankijad saavad kaupu kiiresti tarnida (päeva jooksul, mil nad nõustusid), peab kordumine olema sagedane (iga 10 kuni 30 minuti järel). Sel viisil on laotöötajatel võimalik kaupu kinnitatud ostutellimuse alusel vastu võtta pärast kinnituse kinnitamist.
+    - Kui teie hankijatel on pikk täitmisaeg (rohkem kui 24 tundi), saate selle ülesande seada käivituma just üks kord päevas või nii.
+
+1. Valige **OK**, et rakendada oma graafik ja naasta kinnitatud **ostutellimuste kinnitamise dialoogiboksi hankija** koostööst.
+1. Seadistage vajadusel täiendavad taustavalikud. Dialoogiboks pakub tavapäraseid valikuid pakett-tööde seadistamiseks tarneahela halduses.
+
+Lisateavet pakett-tööde kohta vt teemast Pakktöötluse [ülevaade](../../fin-ops-core/dev-itpro/sysadmin/batch-processing-overview.md).
 
 ### <a name="specifying-whether-the-vendor-should-see-price-information"></a>Hankijale hinnateabe kuvamise määramine
 

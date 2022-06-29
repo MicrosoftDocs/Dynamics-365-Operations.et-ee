@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 936fddb73a639564a136002354a4d3dff7798e0b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: af33dbd38b1eb70e79392860e48c6943a4192f78
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907373"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016445"
 ---
 # <a name="approve-and-confirm-purchase-orders"></a>Ostutellimuste kinnitamine
 
@@ -50,7 +50,7 @@ Kui muudatuste haldus on lubatud, läbivad ostutellimused kuus heakskiitmise ole
 ## <a name="confirming-purchase-orders"></a>Ostutellimuste kinnitamine
 Ostutellimused, mille heakskiitmise olek on **Heaks kiidetud**, võivad läbida enne kinnitamist lisatoimingud. Näiteks võib olla vaja saata hankijale ostupäring, et küsida hindade, allahindluste või tarnekuupäevade kohta. Sel juhul saate määrata ostutellimuse olekuks **Välisel ülevaatamisel**, kasutades toimingut **Ostupäring**.
 
-Hankijad, kes on seadistatud kasutama hankijaportaali, saavad vaadata portaalis tellimusi üle ja neid heaks kiita või tagasi lükata. Selle ülevaatamisprotsessi käigus on ostutellimuse olek **Välisel ülevaatamisel**. Hankijaportaali on võimalik konfigureerida nii, et hankija kinnitus kinnitab tellimuse Supply Chain Managementis automaatselt. Teise võimalusena saate ostutellimuse käsitsi kinnitada, kui olete hankijalt kinnituse saanud. Kui hankija lükkab ostutellimuse tagasi, saadakse tagasilükkamine koos tagasilükkamise põhjuse ja muudatuste soovitustega. Sel juhul jääb ostutellimuse olekuks **Välisel ülevaatamisel**.
+Hankijad, kes on seadistatud kasutama hankija koostöömoodulit, saavad portaali tellimused üle vaadata ja need kinnitada või tagasi lükata. Selle ülevaatamisprotsessi käigus on ostutellimuse olek **Välisel ülevaatamisel**. Hankija koostöömoodulit saab konfigureerida nii, et hankija kinnitus kinnitab automaatselt tellimuse tarneahela halduses. Teise võimalusena saate ostutellimuse käsitsi kinnitada, kui olete hankijalt kinnituse saanud. Kui hankija lükkab ostutellimuse tagasi, saadakse tagasilükkamine koos tagasilükkamise põhjuse ja muudatuste soovitustega. Sel juhul jääb ostutellimuse olekuks **Välisel ülevaatamisel**.
 
 Võimalik on luua ka tellimuse pro-forma kinnitus enne tegeliku kinnituse töötlemist. See valik loob lihtsalt aruande, mida saate hankijaga jagada. See ei loo mingit töölehe teavet.
 

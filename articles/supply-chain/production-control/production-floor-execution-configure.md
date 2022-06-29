@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 9eefde163473e11b01bfa0adf9b3694c830f1488
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 14a49d1d6c956b37ff9b2bec387615dc75d060e1
+ms.sourcegitcommit: d770f0e6a012675a3027641704be804beb99754b
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8899407"
+ms.lasthandoff: 06/16/2022
+ms.locfileid: "9022560"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Tootmisosakonna käivitusliidese konfigureerimine
 
@@ -113,9 +113,6 @@ Selle funktsiooni kasutamiseks lülitage funktsioonihalduses sisse järgmine [fu
 
 ### <a name="enable-the-my-day-dialog"></a>Dialoogi Minu päev lubamine
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-<!-- KFM: preview until 10.0.27 GA -->
-
 Dialoogiaken **Minu** päev annab töötajatele ülevaate nende igapäevastest registreerimistest ja jooksvatest saldodest tasustatud aja, tasustatud ületunnitöö, puudumiste ja tasustatud puudumiste kohta.
 
 Selle funktsiooni kasutamiseks lülitage funktsioonihalduses sisse järgmine [funktsioon](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
@@ -124,9 +121,6 @@ Selle funktsiooni kasutamiseks lülitage funktsioonihalduses sisse järgmine [fu
 
 ### <a name="enable-teams"></a>Töörühmade lubamine
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-<!-- KFM: preview until 10.0.27 GA -->
-
 Kui samale tootmistööle on määratud mitu töötajat, saavad nad moodustada meeskonna. Meeskond võib määrata ühe töötaja piloodiks. Ülejäänud töötajatest saavad seejärel automaatselt selle piloodi abilised. Tulemuseks saadud meeskonna puhul peab ainult piloot registreerima töö oleku. Ajakirjed kehtivad kõigi töörühma liikmete kohta.
 
 Selle funktsiooni kasutamiseks lülitage funktsioonihalduses sisse järgmine [funktsioon](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
@@ -134,9 +128,6 @@ Selle funktsiooni kasutamiseks lülitage funktsioonihalduses sisse järgmine [fu
 - *Tootmistöörühmad tootmisosakonna täideviimisliideses*
 
 ### <a name="enable-additional-configuration-in-the-production-floor-execution-interface"></a>Lubab lisakonfiguratsiooni tootmispinna käivitamise liideses
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-<!-- KFM: preview until 10.0.27 GA -->
 
 See funktsioon lisab tootmise juhtimise lehe konfigureerimisele järgmiste **funktsioonide** sätted:
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 25e9139ce57283482d8da4b7f1e5d6275c74ad28
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 70b83de50105cf664bbc6b6095203d01d83cd79b
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854525"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016677"
 ---
 # <a name="maintenance-checklists"></a>Hoolduse kontrollnimekirjad
 
@@ -35,7 +35,7 @@ Kui töötate hooldustööde kontrollnimekirjadega töökäsu alusel, saate täi
 
 ## <a name="fill-in-a-maintenance-checklist"></a>Hoolduse kontrollnimekirja täitmine
 
-1. Klõpsake **Varahaldus** > **Tavaline** > **Töökäsud** > **Kõik töökäsud** või **Aktiivsed töökäsud**.
+1. Klõpsake **varahalduse töötellimusi** > **·** > **kõik töötellimused või** aktiivsed **töötellimused**.
 
 2. Valige töökäsk ja seejärel tehke tegumiriba vahekaardi **Töökäsk** jaotises **Read Lines** valik **Hoolduse kontrollnimekiri**.
 

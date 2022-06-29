@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 593f6a8e28c789a378515ddc8e4163c331442e8b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 4424ebbf64ccdcb9bffc840520952ac915606209
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8890940"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015489"
 ---
 # <a name="calculations-for-product-configuration-models-faq"></a>Toote konfiguratsioonimudelite arvutuste KKK
 
@@ -73,7 +73,7 @@ Saate sihtatribuudile arvutatud väärtuse üle kirjutada, kui sihtatribuut pole
 ## <a name="how-do-i-set-a-target-attribute-as-hidden-or-read-only"></a>Kuidas määrata sihtatribuut peidetuks või kirjutuskaitstuks?
 Atribuudi määramiseks peidetuks või kirjutuskaitstuks tehke järgmist.
 
-1.  Klõpsake valikuid **Tooteteabe haldus** &gt; **Üldine** &gt; **Toote konfiguratsioonimudelid**.
+1.  Klõpsake tooteteabe **halduse toodete** &gt; **konfiguratsioonimudeleid.** &gt; **·**
 2.  Valige toote konfiguratsioonimudel ja klõpsake seejärel tegevuspaanil suvandit **Redigeeri**.
 3.  Valige lehel **Piirangupõhise toote konfiguratsioonimudeli üksikasjad** sihtatribuudina kasutatav atribuut.
 4.  Valige kiirkaardil **Atribuudid** suvand **Peidetud** või **Kirjutuskaitstud**.
@@ -96,7 +96,7 @@ See teade kuvatakse, kui arvutuses on viga või kui ühes või mitmes piirangus 
 ## <a name="why-do-i-receive-an-error-message-even-though-i-successfully-validated-my-product-model"></a>Miks saan tõrketeate, kuigi minu tootemudeli kinnitamine õnnestus?
 Arvutusi ei kaasata kinnitamisse. Vigade leidmiseks arvutustes peab konfiguratsioonimudelit testima. Toote konfiguratsioonimudeli testimiseks järgige neid juhiseid.
 
-1.  Klõpsake valikuid **Tooteteabe haldus** &gt; **Üldine** &gt; **Toote konfiguratsioonimudelid**.
+1.  Klõpsake tooteteabe **halduse toodete** &gt; **konfiguratsioonimudeleid.** &gt; **·**
 2.  Valige toote konfiguratsioonimudel ja klõpsake seejärel tegevuspaanil grupis **Käita** suvandit **Katse**.
 
 

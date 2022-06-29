@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ee61c43f93d68747a7095dc9317674a435553c8a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: d8498d6099112cea2c57a6387e7596adb5bcd84e
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8874184"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016010"
 ---
 # <a name="introduction-to-assets"></a>Varade sissejuhatus
 
@@ -36,7 +36,7 @@ Vara uuendatakse automaatselt koos seotud teabega. Näiteks võib see seotud tea
 
 ## <a name="all-assets"></a>Kõik varad
 
-Valige **Varahaldus**\>**Ühised**\>**Varad**\>**Kõik varad**. Lehel **Kõik varad** kuvatakse kõik varad ja osa nendega seotud teabest. Ainult aktiivsete varade vaatamiseks valige **Aktiivsed varad.** Ainult hooldustöötajana seotud töö asukohtadesse installitud varade vaatamiseks valige **Minu aktiivsed varad.** (See seos on seadistatud lehel **Töötajad**. Lisateavet lugege teemast [Hooldustöötajad ja töötajate grupid](../setup-for-objects/workers-and-worker-groups.md).)
+Valige **Varahaldus** \> **Varad Kõik** \> **varad.** Lehel **Kõik varad** kuvatakse kõik varad ja osa nendega seotud teabest. Ainult aktiivsete varade vaatamiseks valige **Aktiivsed varad.** Ainult hooldustöötajana seotud töö asukohtadesse installitud varade vaatamiseks valige **Minu aktiivsed varad.** (See seos on seadistatud lehel **Töötajad**. Lisateavet lugege teemast [Hooldustöötajad ja töötajate grupid](../setup-for-objects/workers-and-worker-groups.md).)
 
 Valige tabelivaates **Kõik varad** link veerus **Vara** veerus, et vaadata valitud kirje üksikasju. Kirje redigeerimiseks valige nupp **Redigeeri.** Üksikasjavaade näitab üksikasjalikku teavet, mis on seotud varaga. Paremal olev paan **Seotud teave** sisaldab täiendavat varaga seotud teavet. Laiendage paani, et kuvada seotud teavet valitud vara kohta.
 

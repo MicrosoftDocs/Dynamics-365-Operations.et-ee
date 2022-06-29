@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a416dbea0bab8f6a506ae5cfbfc4feeae8edfe29
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 495f3dbf9bab9d550ebdbb7dda52aca80d5ea635
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8882717"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9017112"
 ---
 # <a name="asset-view"></a>Vara vaade
 
@@ -30,7 +30,7 @@ ms.locfileid: "8882717"
 
 Varahalduse vara kuva kirjeldatakse selles artiklis. Lehel **Vara vaade** kuvatakse puuvaates aktiivsed varad ja funktsionaalsed asukohad. Seetõttu saate kergesti ülevaate varade suhetest funktsionaalsete asukohtade suhtes. Lisaks saate vaadata üksikasjalikku teavet funktsionaalsete asukohtade, varade ja seotud koosluste (BOM-ide) kohta. Samuti saate kiire ülevaate aktiivsete hooldustaotluste ja varaga seotud töökäskude kohta.
 
-1. Valige **Varahaldus**\>**Ühised**\>**Varad**\>**Varavaade**.
+1. Valige **varahalduse** \> **varade** \> **vaade**.
 2. Lehel kuvatava vaate muutmiseks valige uus väärtus väljal **Vaade**.
 
     > [!NOTE]

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f4ff01a8c4ed5fb8372ff7b498d0febdcd2f1e89
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: f4942e455350844ac5614e70fef21b37461540a6
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672762"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9017285"
 ---
 # <a name="register-the-receipt-of-returned-items"></a>Tagastatud kauba sissetuleku registreerimine 
 
@@ -87,7 +87,7 @@ Saate kasutada vormi **Saabumise ülevaade**, et tuvastada tagastussaadetis sell
 
 Vormi **Saabumise ülevaade** kasutamise alternatiivina võite kasutada vormi **Registreerimine**, et registreerida tagastatud kaupade saabumine.
 
-1.  Klõpsake valikuid **Müük ja turundus** \> **Üldine** \> **Tagastustellimused** \> **Kõik tagastustellimused**. Looge uus tagastustellimus või avage loendist tagastustellimus. Kiirkaardil **Read** valige tagastustellimuse rida. Klõpsake käsku **Värskenda rida** ja seejärel valikut **Registreerimine**.
+1.  Klõpsake müügi **ja turunduse müügi** \> **tagastused** \> **kõik tagastustellimused**. Looge uus tagastustellimus või avage loendist tagastustellimus. Kiirkaardil **Read** valige tagastustellimuse rida. Klõpsake käsku **Värskenda rida** ja seejärel valikut **Registreerimine**.
 
 2.  Määrake likvideerimiskood väljal **Likvideerimiskood** ja klõpsake seejärel nuppu **OK**.
     

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7905dcd4c29872ec2601359baefa78545140397c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 210db3259a6c64a508119b30598a34dbda2d2dd2
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857891"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9014994"
 ---
 # <a name="add-fault-to-work-order"></a>Töökäsule vea lisamine
 
@@ -30,7 +30,7 @@ ms.locfileid: "8857891"
 
 Saate lisada töökäsule vea kujundajas seadistatud vigu. Vähemalt üks veakirje peab olema seotud varatüüpidega, mida kasutatakse töökäsus valitud vara korral. Häälestuse kohta leiate lisateavet jaotisest [Veahaldus](../setup-for-work-orders/fault-management.md).
 
-1. Valie **Varahaldus** > **Üldine** > **Töökäsud** > **Kõik töökäsud** või **Aktiivsed töökäsud**.
+1. Valige **varahalduse töötellimused** > **·** > **kõik töötellimused või** aktiivsed **töötellimused**.
 
 2. Valige töökäsk, mille kohta registreerida viga ja seejärel valige toimingupaani vahekaardil **Töökäsk** rühma **Vara** alt valik **Vara viga**.
 
@@ -64,7 +64,7 @@ Loendilehel **Vara vead** saate ülevaate kõigist vigadest, mis on varade kohta
 
 Loendilehelt **Kõik varad** saate printida vara vea aruande, kus kuvatakse kõik vea registreerimised ja veastatistika graafiline ülevaade.
 
-1. Valige **Varahaldus** > **Ühised** > **Varad** > **Kõik varad**.
+1. Valige **Varahaldus** > **Varad Kõik** > **varad**.
 
 2. Valige vara, mille kohta printida aruanne.
 
