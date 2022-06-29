@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: gfedorova
 ms.search.validFrom: 2018-04-20
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 19fa26eeb8ea3c0944be199c57eaf4a2d7e76034
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 923715893b9f1c4b87d7bbb67e200f8cb8f92e6b
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8851619"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015548"
 ---
 # <a name="import-vendor-catalogs"></a>Hankija kataloogide importimine
 
@@ -46,7 +46,7 @@ Hankija kataloogi andmete importimiseks peate täitma järgmised ülesanded.
 
 4. Konfigureerige töövoogu kataloogi importimiseks. Looge CMR-faili mall ja jagage seda oma hankijaga.
 
-5. Valige **Hanked** \> **Ühine** \> **Kataloogid** \> **Hankija kataloogid**, et luua hankija kataloog. Selles kataloogis on grupeeritud kataloogihoolduse nõude (CMR) failid, mille saate oma hankijalt. 
+5. Hankija **kataloogi loomiseks valige** \> **hankekataloogid** \> **Hankija** kataloogid. Selles kataloogis on grupeeritud kataloogihoolduse nõude (CMR) failid, mille saate oma hankijalt.
 
 6. Laadige üles CRM-fail.
 

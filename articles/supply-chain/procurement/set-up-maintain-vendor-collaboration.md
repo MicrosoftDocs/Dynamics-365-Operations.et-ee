@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8fe4731f8ff23f4abe25fce57a2325e1fca979c4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 19fafb21e879d7436678bdb3c29d1a3d7e2330d7
+ms.sourcegitcommit: bad64015da0c96a6b5d81e389708281406021d4f
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8890824"
+ms.lasthandoff: 06/17/2022
+ms.locfileid: "9023756"
 ---
 # <a name="set-up-and-maintain-vendor-collaboration"></a>Hankija koostöö seadistamine ja haldamine
 
@@ -29,9 +29,6 @@ ms.locfileid: "8890824"
 Tarnija koostööliides pakub välistele hankija kasutajatele piiratud hulga teavet ostutellimuste, arvete ja saadetise laoseisu kohta. Selle liidese kaudu saab müüja vastata ka pakkumise päringutele (RFQ) ning vaadata ja muuta ettevõtte põhiteavet.
 
 See artikkel selgitab, kuidas seadistada hankija koostöö sisse Dynamics 365 Supply Chain Management. Samuti selgitatakse, kuidas seadistada töövoogu uute tarnijate koostöökasutajate loomiseks ja kuidas hallata nende kasutajate turberolle.
-
-> [!NOTE]
-> Hankija koostöö turberollide häälestamise teave rakendub ainult finantside ja toimingute praegusele versioonile. Microsoft Dynamics AX 7.0 (veebruar 2016) ja rakenduse Microsoft Dynamics AX versiooni 7.0.1 (mai 2016) puhul saate hankijatega koostööd teha, kasutades moodulit **Hankija portaal**. Lisateavet Microsoft Dynamics AX-i hankija portaali kasutajaõiguste kohta leiate artiklist [Hankija portaali kasaja turvalisus](configure-security-vendor-portal-users.md).
 
 ## <a name="set-up-vendor-collaboration-security-roles"></a>Seadistage hankija koostöö turberollid
 
@@ -118,7 +115,7 @@ Selle hargnemise seadistamiseks looge uus **Kasutajapäringu töövoog (platvorm
 2. Määrake ülesanne inimesele, kes vastutab Azure'i portaalis uute Microsoft Azure Active Directory (Azure AD) kasutajakontode taotlemise eest. Kasutage selle sammu jaoks eelmääratletud ülesannet **Saada Azure B2B kasutaja kutse**. B2B kasutajaid saab automaatselt Azure AD-sse eksportida. Kasutage eelmääratletud **Määrake Azure AD B2B kasutaja**. Lisateavet leiate teemast [B2B kasutajate eksportimine Azure AD-sse](../../fin-ops-core/dev-itpro/sysadmin/implement-b2b.md).
 3. Määrake kinnitamisülesanne inimesele, kes laadib Azure'i üles. Kui konto loomine ebaõnnestub, lükkab see inimene ülesande tagasi ja lõpetab töövoo. Selle kinnitamisülesande saab vahele jätta, kui olete lisanud sammu, mis ekspordib B2B rakendusliidese (API) kaudu automaatselt Azure'i uued kasutajakontod.
 4. Lisage automaatne ülesanne, mis loob uue kasutaja. Kasutage selle sammu jaoks eelmääratletud ülesannet **Kasutaja automaatne määramine**.
-5. Lisage ülesanne, mis teavitab uut kasutajat. Võib-olla soovite saata uuele kasutajale tervitusmeili, mis sisaldab Supply Chain Management URL-i. See meil võib kasutada malli, mille loote lehel **E-kirjad** ja seejärel valite lehel **Kasutaja töövoo parameetrid**. Mall võib sisaldada märgendit **%portalURL%**. Kui tervitusmeil luuakse, asendatakse see silt Supply Chain Management rentniku URL-iga.
+5. Lisage ülesanne, mis teavitab uut kasutajat. Võib-olla soovite saata uuele kasutajale tervitusmeili, mis sisaldab Supply Chain Management URL-i. See meil võib kasutada malli, mille loote lehel **E-kirjad** ja seejärel valite lehel **Kasutaja töövoo parameetrid**. Mall võib sisaldada märgendit **%portalURL%**. Kui luuakse tervitusmeil, asendatakse see silt tarneahela haldus rentniku URL-iga.
 
     > [!NOTE]
     > Seda töövoogu saab kasutada mitme stsenaariumi korral, mis hõlmavad kasutaja kaasamist. Näiteks saab seda kasutada siis, kui potentsiaalsed müüjad või kontaktisikud nõuavad hankija koostöökontot. Seetõttu peaksite e-kirja sõnastama üldise väitena, mida saab kasutada mitmel otstarbel.
@@ -138,13 +135,7 @@ Looge **Inaktiveeri kasutajapäringu töövooplatvorm** töövoog ja lisage seej
 
 ## <a name="enable-vendor-collaboration-for-a-specific-vendor"></a>Lubage hankija koostöö konkreetse hankija jaoks
 
-Enne kasutajakonto loomist kellelegi, kes kasutab hankija koostööd, peate seadistama hankija nii, et see saaks kasutada hankija koostööd. Seadistage väli **Koostöö aktiveerimine** lehe **Hankijad** vahekaardil **Üldine**. Valikud on järgmised:
-
-- **Aktiivne (ostutellimus kinnitatakse automaatselt)** – ostutellimused kinnitatakse automaatselt, kui hankija kinnitab need ilma muudatuste taotluseta.
-- **Aktiivne (ostutellimust ei kinnitata automaatselt)** – teie organisatsioon peab ostutellimused käsitsi kinnitama pärast seda, kui hankija on need kinnitanud.
-
-> [!NOTE]
-> Selle ülesande saavad täita ka teie ettevõtte hankespetsialistid.
+Enne kasutajakonto loomist kellelegi, kes kasutab hankija koostööd, peate seadistama hankija nii, et see saaks kasutada hankija koostööd. Üksikasju selle kohta, kuidas seda teha, vt hankija [koostöö välis hankijatega](vendor-collaboration-work-external-vendors.md).
 
 ## <a name="troubleshoot-the-provisioning-of-new-vendor-collaboration-users"></a>Uute hankijate koostöö kasutajate varustamise tõrkeotsing
 

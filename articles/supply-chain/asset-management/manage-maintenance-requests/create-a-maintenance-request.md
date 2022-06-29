@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c3def1b8ebd75da44588732d9f54a1cc03c999c6
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 92f3a2bc3d2a4d5d1c3be0c6dda2674dc3e7d0bb
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8891230"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016822"
 ---
 # <a name="create-maintenance-requests"></a>Hooldustaotluste loomine
 
@@ -32,9 +32,9 @@ Hooldustaotlusi saab kasutada juhul, kui hooldustöötajad või tootmistöötaja
 
 **Näide:** kui hooldustöötaja teeb remonti ja avastab, et samal aadressil peab hooldama ka teist vara. Hooldustöötajal ei ole aga aega ega vajalikke varuosi parandustöö jaoks. Seetõttu loob ta vara hooldustaotluse ja sisestab probleemi lühikirjelduse.
 
-Jaotis **Aktiivsed hoolduse taotlused** paanil **Seotud teave** lehe **Kõik varad** paremal küljel või lehel **Aktiivsed varad** (**Varahaldus**\>**Üldine**\>**Varad**\>**Kõik varad** või **Aktiivsed varad**) näitab aktiivseid hooldustaotlusi, mis on seotud valitud varaga.
+Paani **·** **Seotud** teave aktiivse hoolduse taotlused, mis **asub** **lehe** Kõik varad või Aktiivsed varad paremal pool (**Varade** \> **·** \> **·** **haldus Kõik varad või Aktiivsed** varad), kuvatakse valitud varale lisatud aktiivse hoolduse taotlused.
 
-1. Valige **Varahaldus**\>**Ühised**\>**Hooldustaotlused**\>**Kõik hooldustaotlused** või **Aktiivsed hooldustaotlused**.
+1. Valige **varahalduse hooldustaotlused** \> **·** \> **Kõik hooldustaotlused või** aktiivse hoolduse **taotlused.**
 2. Valige suvand **Uus**.
 3. Dialoogiboksis **Loo taotlus** väljal **Hoolduse taotluse tüüp** valige hooldustaotluse tüüp. Soovitatakse vaiketüüpi.
 4. Väljale **Kirjeldus** sisestage nimi või pealkiri, mis kirjeldab lühidalt hooldustaotlust.

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 66215811c8c48412fb137967107abca3774f5f0c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 0087abebccca107a094a40d3e2d5a5de330532af
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872032"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9014905"
 ---
 # <a name="set-up-consignment"></a>Saadetise häälestus
 
@@ -84,7 +84,7 @@ Kui hankijad kasutavad hankija koostööliidest, saavad nad seda kasutada varude
 - **Veose varudest saadud tooted** – näitab teavet kaupade ja kogemuste kohta, mille toote sissetulekuid värskendatakse omandiõiguse muutmisprotsessi käigus.
 - **Veose vaba kaubavaru** – näitab teavet selliste veose kaupade kohta, mille tarnimist nad ootavad ja selliste, mis on juba kliendi tegevuskohas füüsiliselt saadaval.
 
-Lisateavet hankijate koostööks tarnijate seadistamise kohta leiate jaotisest [Hankijaportaali kasutaja turvalisus](../procurement/configure-security-vendor-portal-users.md).
+Lisateavet hankijate seadistamise kohta hankija koostöö kasutamiseks vt hankija koostöö [kasutajate haldamine](../procurement/manage-vendor-collaboration-users.md).
 
 ## <a name="inventory-owners"></a>Varude omanikud
 

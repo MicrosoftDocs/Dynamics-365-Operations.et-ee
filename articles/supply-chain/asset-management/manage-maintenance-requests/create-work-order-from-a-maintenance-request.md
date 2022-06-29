@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 0c73f019951460dc7cb6395d616a0f0a22fd0b91
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: bb54ec3466086afbd87a023a40e346a6a3464c98
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8909697"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9017170"
 ---
 # <a name="create-work-orders-from-maintenance-requests"></a>Töötellimuste loomine hooldustaotluste põhjal
 
@@ -34,7 +34,7 @@ Pärast hoolduspäringute loomist saate need hõlpsalt töötellimusteks teisend
 > [!NOTE]
 > Iga hooldustaotlus võib olla seotud ainult ühe töötellimusega. Mitu hooldustaotlust saab siiski lisada ühele töötellimusele, isegi kui hooldustaotlustes on erinevad varad.
 
-1. Valige **Varahaldus**\>**Ühised**\>**Hooldustaotlused**\>**Hooldustaotlused**.
+1. Valige **Varahalduse hooldustaotlused** \> **·** \> **Kõik hooldustaotlused**.
 2. Enne kui saate hooldustaotlusest töökäsu luua, peate hooldustaotluse jaoks valima vähemalt hooldustöö tüübi ja hooldustöö tüübi variandi ning kaubanduse, kui see teave on asjakohane. Ruudustiku vaates saate hõlpsasti värskendada hooldustaotluse teavet.
 3. Kui olete valmis töökäsu looma, valige sellesse kaasatavad hooldustaotlused.
 
@@ -48,7 +48,7 @@ Pärast hoolduspäringute loomist saate need hõlpsalt töötellimusteks teisend
 
     Lisaks, kui loote töökäsu, mis põhineb hoolduse taotlusel, kui hoolduse taotlusega seotud vara sisaldub garantiilepingus, teavitab teateriba teid garantiilepingust.
 
-6. Valige **Varahaldus** \> **Ühised** \> **Töökäsud** \> **Kõik töökäsud** ja avage uus töökäsk.
+6. Valige **varahalduse** \> **töötellimused** \> **kõik töötellimused** ja avage uus töötellimus.
 
     ![Uue töökäsu avamine.](media/05-manage-maintenance-requests.png)
 

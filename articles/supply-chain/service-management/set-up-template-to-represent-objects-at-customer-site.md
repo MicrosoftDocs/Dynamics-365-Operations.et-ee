@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8c91fc2478ce4799fd51140a1416df0b674c1bce
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 02e15375eb4757e84627206c4617edc7bf51ebf2
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8673406"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016880"
 ---
 # <a name="set-up-template-to-represent-objects-at-customer-site"></a>Kliendi juures asuvaid objekte kajastava malli seadistamine 
 
@@ -29,7 +29,7 @@ ms.locfileid: "8673406"
 
 Kasutage seda protseduuri, et seadistada mall, mis tähistab kliendi saidi objekte.
 
-1.  Klõpsake valikut **Hooldushaldus** \> **Üldine** \> **Hooldustellimused** \> **Hooldusleppegrupid**.
+1.  Klõpsake teenusehalduse **teenuseleppeid** \> **Teenuselepped.** \> **·**
 
 2.  Topeltklõpsake teenuselepet või klõpsake valikut **Teenuselepe**, et luua uus teenuselepe.
 

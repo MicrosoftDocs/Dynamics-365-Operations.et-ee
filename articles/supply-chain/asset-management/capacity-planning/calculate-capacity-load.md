@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8eb0b152f0a4b4e0f61d519262c24d02b71b8fc3
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 95d1e38db8e4658a57f36139836264b87d525e61
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849644"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016126"
 ---
 # <a name="calculate-capacity-load"></a>Arvuta täiskoormus
 
@@ -35,7 +35,7 @@ Varahalduses saate arvutada täiskoormust järgmiste näitajate kohta:
 
 See on kasulik, kui soovite saada ülevaate konkreetse perioodi oodatavast täiskoormusest. Täiskoormuse arvutuse saab teha kõigile varadele või valitud varadele. Samuti saate teha arvutuse hoolduskatkestuse toimingute või töökäsu kaustade kohta.
 
-1. Klõpsake **Varahaldus** > **Päringud** > **Täiskoormus** või **Varahaldus** > **Üldine** > **Töökäsu kaustad** > **Kõik töökäsu kaustad** / **Aktiivsed töökäsu kaustad** > valige loendist töökäsu kaust > nupp **Täiskoormus** või **Varahaldus** > **Üldine** > **Hoolduskatkestuse toimingud** > **Kõik hoolduskatkestuse toimingud** / **Aktiivsed hoolduskatkestuse toimingud** > valige loendist hooldustoiming > nupp **Täiskoormus**.
+1. Klõpsake varahalduse päringute võimsuse koormust **või** > **·** > **·** **varahalduse töötellimuste kaustu Kõik töötellimuste kaustad aktiivsete töötellimuste kaustad > valige loendist töötellimuse kogum nupust >** > **·** > **Võimsuse laadimine või** / **Varahalduse** hoolduse downtime-tegevused **Kõik hoolduse** **mahatunnitöö tegevused > valige loendist > Võimsuse koormuse** > **·** > **nupp.** / **·** **·**
 
 2. Dialoogiboksis **Arvuta täiskoormus** valige arvutuse periood väljadel **Alguskuupäev/aeg** ja **Lõppkuupäev/aeg**.
 

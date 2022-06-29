@@ -1,8 +1,8 @@
 ---
 title: Videod
-description: Sellel lehel on loetletud Microsofti loodud Finance and Operationsi rakendustega seotud õppe- ja Tech Talki videod, mis on saadaval YouTube’is ja teistel saitidel.
+description: Sellel lehel on loetletud Microsofti loodud iga seotud õppe- ja Tech Talki videod, mis on saadaval YouTube’is ja teistel saitidel.
 author: sericks007
-ms.date: 09/15/2021
+ms.date: 06/13/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,27 +14,27 @@ ms.search.region: global
 ms.author: sericks
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: 3fe44a9a7fcef2f22dff3be00ddfadd5b8c59574
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: 76fe61c13490afbd7b5dcd39f3c631cbab43bb9e
+ms.sourcegitcommit: 0686b56b4699ffefd2c208d0fe496d5860296520
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7487987"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "8958134"
 ---
 # <a name="videos"></a>Videod 
 
 [!include [banner](../includes/banner.md)]
 
-[Microsoft Dynamics 365 YouTube’i kanalil](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ) leiate Microsofti loodud videod, mis esitlevad laia valikut ärilahendusi Dynamics 365 toodetele. Selles jaotises on toodud kanalis majutatavate Finance and Operationsi rakenduste õppevideote loend.
+[Microsoft Dynamics 365 YouTube’i kanalil](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ) leiate Microsofti loodud videod, mis esitlevad laia valikut ärilahendusi Dynamics 365 toodetele. Selles jaotises loendatakse kanalil majutatavate rakenduse Finance and Operations õppevideod.
 
 > [!Note]
 > Mõned loetletud videod on avaldatud eelmise toote nime all, kuid on endiselt kehtivad.
 
-## <a name="videos-for-finance-and-operations-development-and-administration"></a>Videod Finance and Operationsi arenduse ja halduse kohta
+## <a name="videos-for-finance-and-operations-development-and-administration"></a>Rakenduse Finance and Operations arendamise ja halduse videod
 
 ### <a name="data-integration"></a>Andmete integratsioon
 
-- [Töötellimuse sünkroonimine rakenduse Dynamics 365 for Field Service ja rakenduste Finance and Operations vahel](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
+- [Töökäsu sünkroonimine rakenduste Dynamics 365 for Field Service ja Finance and Operations vahel](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
 
 ### <a name="data-management"></a>Andmehaldus
 
@@ -42,8 +42,7 @@ ms.locfileid: "7487987"
 
 ### <a name="development"></a>Arendus
 
-- [Ei saa lahendada konflikti rakendusesVisual Studio](https://youtu.be/4rxO0zUN2zU)
-- [Optimeerimise nõustaja](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
+- [Optimeerimisnõunik](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
 - [Arendusharu ja -järgu seadistamine](https://www.youtube.com/watch?v=qXLd-NMx9OY)
 - [Arendusmasina seadistamine](https://www.youtube.com/watch?v=cqp9MetfiyM)
 - [Tarkvara Azure DevOps teenusega Lifecycle Services integreerimine](https://www.youtube.com/watch?v=0QyyyUp1zHQ&t=1s)
@@ -51,7 +50,7 @@ ms.locfileid: "7487987"
 ### <a name="intelligence"></a>Teave
 
 - [Kuidas redigeerida manustatud aruannet analüütilises tööruumis](https://youtu.be/_8WlwmSggcQ)
-- [Kuidas manustada PowerBi.com aruandeid rakendustes Finance and Operations](https://youtu.be/gGWuNJDoi-M)
+- [Kuidas kaasata PowerBI.com aruandeid rakendustes Finance and Operations](https://youtu.be/gGWuNJDoi-M)
 - [Oma andmebaasi toomine (BYOD) rakendustesse Finance and Operations](https://www.youtube.com/watch?v=-MaxtBJu2_o&feature=youtu.be)
 - [Kuluhalduse Power BI sisu kasutamine rakenduses Dynamics 365](https://www.youtube.com/watch?v=5jWHnM_C7WM&feature=youtu.be)
 
@@ -81,7 +80,7 @@ ms.locfileid: "7487987"
 - [Täiustatud Exceli kasutamise kogemus lahenduses Regression Suite Automation Tool (RSAT) 2.0](https://youtu.be/fcEkSIVQ1Bg)
 
 
-## <a name="videos-for-dynamics-365-finance"></a>Rakenduse Dynamics 365 Finance videod
+## <a name="videos-for-dynamics-365-finance"></a>Dynamics 365 finantside videod
 
 ### <a name="business-document-management"></a>Äridokumentide haldus
 - [Äridokumentide haldamise abil uue äridokumendi loomine](https://www.youtube.com/watch?v=gAIYl-mM_pw)

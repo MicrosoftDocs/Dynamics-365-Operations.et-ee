@@ -15,41 +15,35 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3294f9b106bf7dbed1e7bd74f1bc17846e4b655b
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 060d258fe46a378ed9aa423ee229285ba6213106
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8676575"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015139"
 ---
-# <a name="view-dispatch-teams"></a>Lähetustöörühmade kuvamine   
+# <a name="view-dispatch-teams"></a>Lähetustöörühmade kuvamine
 
 [!include [banner](../includes/banner.md)]
 
-
 Vormil **Lähetustahvel** on hooldustellimused grupeeritud lähetustöörühmade kaupa.
 
-1.  Klõpsake valikuid **Teenuste halduse** \> **Perioodiline** \> **Lähetustahvel**.
+1. Avage teenusehalduse **perioodiline** \> **lähetustahvel.** \> **·**
 
-2.  Valige kuupäevavahemik ja klõpsake **OK**.
+1. Tegevuspaanil valige kohandage **vaate sätteid**.
 
-3.  Vormis **Lähetustahvel** laiendage vormi ülaosas Gantti diagrammis töörühma loend selle töötajate nimede läbivaatamiseks. Samuti saate vaadata igale töötajale määratud teenusetegevuste üksikasju.
+1. Avaneb **dialoogiaken Korrigeeri vaate** sätteid. Valige kuupäevavahemik ja seejärel valige **OK**.
+
+1. **Lähetustahvli** lehel gantti diagrammis lehe ülaosas laiendage meeskonna nimekirja, et üle vaadata meeskonna töötajate nimed. Samuti saate vaadata igale töötajale määratud teenusetegevuste üksikasju.
 
 Jaotisest [Eelistatud tehniku seadistamine](set-up-preferred-technician.md) leiate teavet selle kohta, kuidas lisada töötajat töörühma.
 
 ## <a name="see-also"></a>Vt ka
 
-[Hooldustellimuste prioritiseerimine](prioritize-service-orders.md)
-
-[Hooldustellimuste oleku vaatamine](view-the-status-of-service-orders.md)
-
-[Hooldustegevuste jälgimine](monitor-service-activities.md)
-
-[Lähetustahvel (vorm)](https://technet.microsoft.com/library/hh242789\(v=ax.60\))
-
-  
-
-
-
+- [Hooldustellimuste prioritiseerimine](prioritize-service-orders.md)
+- [Hooldustellimuste oleku vaatamine](view-the-status-of-service-orders.md)
+- [Hooldustegevuste jälgimine](monitor-service-activities.md)
+- [Lähetustahvel (vorm)](https://technet.microsoft.com/library/hh242789\(v=ax.60\))
+- [Saate häälestada lähetustöörühmi.](set-up-dispatch-teams.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

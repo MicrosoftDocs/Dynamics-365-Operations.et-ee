@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: dcee5fd729de6e96d57462879f7851756f287dc9
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 5eb911ec4ba9655c4ecaea3bf9a4f8736fa036c2
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8902827"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016706"
 ---
 # <a name="introduction-to-work-orders"></a>Töökäskude tutvustus
 
@@ -47,15 +47,15 @@ Töökäske saab luua järgmistel viisidel.
 
 ## <a name="all-work-orders"></a>Kõik töökäsud
 
-Loendilehe **Kõik töökäsud** avamiseks valige **Varahaldus** > **Ühine** > **Töökäsud** > **Kõik töökäsud**. Sellel lehel kuvatakse kõik töökäsud ja osa iga töökäsuga seotud teabest.
+Valige **Varahalduse** > **töötellimused** > **Kõik töötellimused**, et avada **loendileht Kõik töötellimused**. Sellel lehel kuvatakse kõik töökäsud ja osa iga töökäsuga seotud teabest.
 
 Alloleval joonisel kuvatakse loendilehe **Kõik töökäsud** näide.
 
 ![Joonis 1.](media/01-work-orders.png)
 
-Ainult aktiivsete töökäskude loendi nägemiseks valige **Varahaldus** > **Ühine** > **Töökäsud** > **Aktiivsed töökäsud**. 
+Ainult aktiivsete töötellimuste loendi vaatamiseks valige varahalduse **töötellimused** > **aktiivsed** > **töötellimused**. 
 
-Teie, kui töötjaga seotud töö asukohtadesse paigaldatud varasid sisaldava töökäsu tööde loendi vaatamiseks valige **Varahaldus** > **Ühine** > **Töökäsud** > **Minu töö asukoha töökäsu hooldustööd**. (Töötajate ja töö asukoha vaheline seos on seadistatud lehel **Töötajad**. Lisateavet lugege teemast [Hooldustöötajad ja töötajate grupid](../setup-for-objects/workers-and-worker-groups.md).)
+Nende töötellimuse tööde loendi vaatamiseks, mis sisaldavad varasid, mis on installitud funktsionaalsesse asukohta, millega te olete seotud töötajana, **valige Varahalduse** > **·** > **töötellimused Minu funktsiooni asukoha töötellimuse hooldustööd**. (Töötajate ja töö asukoha vaheline seos on seadistatud lehel **Töötajad**. Lisateavet lugege teemast [Hooldustöötajad ja töötajate grupid](../setup-for-objects/workers-and-worker-groups.md).)
 
 Siin on mõned viisid, kuidas kasutada lehte **Kõik töökäsud**.
 

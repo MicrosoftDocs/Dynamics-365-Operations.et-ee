@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 6b4d0bf82dc0dfe12991b4a48fd68a029a2ff2f3
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 2d4385fdd3e94d48a65baf195efa1d687fbf95c3
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8887598"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016764"
 ---
 # <a name="maintenance-job-types-categories-variants-trades-and-checklists"></a>Hooldustöö tüübid, kategooriad, variandid, kaubandused ja kontroll-loendid
 
@@ -243,7 +243,7 @@ Hooldustöö tüübi vaikeviidete värskendamiseks korrapäraste intervallidega 
 
 Pärast vajalike hooldustöötüüpide vaikekombinatsioonide loomist saate lehel **Kõik varad** ülevaate konkreetse varaga seotud praeguse hooldustöö tüübi vaikeseadistusest. Ülevaade näitab kõikide hooldustöö tüüpide vaikekombinatsioone, mida saab vara jaoks valitud vara tüübil kasutada. Need kombinatsioonid hõlmavad kombinatsioone, millel on erinevad hooldustöö tüüpide variandid ja hooldustööde vahetused.
 
-1. Valige **Varahaldus** \> **Ühine** \> **Varad** \> **Kõik varad** või **Aktiivsed varad**.
+1. Valige **Varahaldus** \> **Varad Kõik** \> **varad** või **Aktiivsed varad.**
 2. Valige loendist vara, et näha ülevaadet hooldustööde tüüpide kombinatsioonidest.
 3. Toimingupaani vahekaardil **Üldine** rühmas **Seotud teave** valige **Hooldustööde tüübid**.
 

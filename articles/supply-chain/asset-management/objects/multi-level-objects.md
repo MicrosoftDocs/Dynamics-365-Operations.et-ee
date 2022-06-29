@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 34ab83c9f9673c39006b3985ebaac9e17a45da82
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 5b13db8b8b12aaef2e067f9a55eb8754333eb16b
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8908768"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9017141"
 ---
 # <a name="multi-level-assets"></a>Mitmetasandiline vara
 
@@ -30,7 +30,7 @@ ms.locfileid: "8908768"
 
 See artikkel selgitab, kuidas luua ja kustutada mitmetasemelised varad. Hierarhilises puustruktuuris saate luua varasid ja seotud allvarasid. Sel viisil saate kuvada varade vahelisi suhteid ja sõltuvusi. Hooldustöid saab seostada kõigil puustruktuuri tasemetel. Statistikat saab luua ka üksiku taseme või kõigi alamvarade tasemete summana.
 
-Loendilehel **Kõik varad** (**Varahaldus**\>**Ühised**\>**Varad**\>**Kõik varad**), loendab veerg **Vara** varad hierarhilises järjestuses. **Emaveerg** näitab seostuvat vanemat. Lisaks, kui varad ja allvarad on juba loodud kuvatakse jaotise **Vara puu** paanil **Seotud teave** varad puustruktuuris.
+Loendilehel **Kõik** varad (**Asset management** \> **Assets All** \> **assets)** **loetleb põhivarad** hierarhilises järjestuses. **Emaveerg** näitab seostuvat vanemat. Lisaks, kui varad ja allvarad on juba loodud kuvatakse jaotise **Vara puu** paanil **Seotud teave** varad puustruktuuris.
 
 Teabe saamiseks vara loomise kohta vt teemat [Vara loomine](../objects/create-an-object.md). Alamvara loomiseks valige emavara väli **Ema** kiirkaardil **Üldine**.
 
@@ -38,7 +38,7 @@ Teabe saamiseks vara loomise kohta vt teemat [Vara loomine](../objects/create-an
 
 Kui teie ettevõttel on mitu sarnast varade struktuuri, saate nende kiireks loomiseks kasutada funktsiooni Kopeeri varahalduses.
 
-1. Valige **Varahaldus**\>**Ühised**\>**Varad**\>**Kõik varad**.
+1. Valige **Varahaldus** \> **Varad Kõik** \> **varad.**
 2. Leheloendis **Kõik varad** valige kopeeritav vara. Näiteks kui soovite kopeerida kogu vara struktuuri (sh alamvarasid), valige emavara.
 3. Valige **Kopeeri vara**. Jaotises **Kopeeri asukohast** on välja **Vara** väärtuseks sätestatud vara, mille valisite loendilehelt.
 4. Jaotise **Kopeeri asukohta** väljale **Vara** sisestage uue vara nimi.

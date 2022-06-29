@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4a1c8c4db9aee68584ab35949745132091a34a58
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: a94b366dc725db3af01c156ae517a241213f7d52
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8882833"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016039"
 ---
 # <a name="introduction-to-functional-locations"></a>Sissejuhatus -i lokaliseerimisfunktsioonidesse
 
@@ -57,9 +57,9 @@ Funktsionaalsed asukohad **ei ole** paindlikud. Seetõttu pärast funktsionaalse
 
 Pärast funktsionaalse asukoha hierarhia loomist on järgmiseks sammuks sellele vara installimine. Lisateavet leiate teemast [Objektide installimine funktsionaalsetes asukohtades](../functional-locations/install-objects-on-functional-locations.md).
 
-## <a name="all-functional-locations"></a>Kõik funktsionaalsed asukohad
+## <a name="all-functional-locations"></a>Kõik töö asukohad
 
-Valige **Varahaldus**\>**Ühised**\>**Funktsionaalsed asukohad**\>**Kõik funktsionaalsed asukohad**, et avada loendileht **Kõik funktsionaalsed asukohad**. Sellel lehel kuvatakse kõik funktsionaalsed asukohad ja osa iga asukohaga seotud teabest. Ainult aktiivsete funktsionaalsete asukohtade vaatamiseks valige **Aktiivsed funktsionaalsed asukohad**. Ainult töötajana seotud funktsionaalsete asukohtade vaatamiseks valige **Minu aktiivsed funktsionaalsed asukohad**. (See seos on seadistatud lehel **Töötajad**. Lisateavet lugege teemast [Hooldustöötajad ja töötajate grupid](../setup-for-objects/workers-and-worker-groups.md).)
+Valige **Varahalduse** \> **funktsionaalsed asukohad** \> **Kõik funktsionaalsed asukohad**, et avada **loendileht Kõik funktsionaalsed** asukohad. Sellel lehel kuvatakse kõik funktsionaalsed asukohad ja osa iga asukohaga seotud teabest. Ainult aktiivsete funktsionaalsete asukohtade vaatamiseks valige **Aktiivsed funktsionaalsed asukohad**. Ainult töötajana seotud funktsionaalsete asukohtade vaatamiseks valige **Minu aktiivsed funktsionaalsed asukohad**. (See seos on seadistatud lehel **Töötajad**. Lisateavet lugege teemast [Hooldustöötajad ja töötajate grupid](../setup-for-objects/workers-and-worker-groups.md).)
 
 Loendilehel **Kõik funktsionaalsed asukohad** valige link veerus **Funktsionaalne asukoht**, et vaadata valitud kirje üksikasju. Funktsionaalse asukoha redigeerimiseks valige nupp **Redigeeri**. Üksikasjade vaade näitab üksikasjalikku teavet, mis on seotud asukohaga. See sisaldab ka paani **Seotud teave**, mis asub paremal. Sellel paanil kuvatakse funktsionaalse asukoha hierarhia. Saate laiendada ja ahendada paani **Seostuv teabe**.
 

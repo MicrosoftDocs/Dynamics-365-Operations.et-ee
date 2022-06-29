@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: dfb75d69f20c68a40242bb1c0c25ca77f85e0c14
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 519431d84652e45dcd45aefbbaaa2a0e2afe6349
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8852867"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016503"
 ---
 # <a name="maintenance-rounds"></a>Hoolduskorrad
 
@@ -87,7 +87,7 @@ Alloleval joonisel on kujutatud kolme vara hõlmava hoolduskorra näide.
 
 Kui olete hoolduskorra seadistanud, käivitate ajastamise töö, et ajastada kõik hoolduskorraga seotud tööd.
 
-1. Klõpsake **Varahaldus** > **Perioodiline** > **Ennetav hooldus** > **Hoolduskordade ajastamine** või **Varahaldus** > **Üldine** > **Hooldusgraafik** > **Kõik hooldusgraafikud** või **Ava hooldusgraafiku read** või **Ava hooldusgraafiku kogumid** > valige loendist hooldusgraafiku rida > nupp **Hoolduskorrad**.
+1. **Klõpsake varahalduse** > **·** > **·** > **perioodiliste** ennetavate hoolduse graafikute hoolduse ümardamist **või** > **·** > **·** **·** **varahalduse** haldusgraafiku kõiki hooldusgraafiku või avatud hoolduse graafiku ridu või avage hooldusgraafiku kaustu > valige hooldusgraafiku rida loendis > **Haldamine**.
 
 2. Valige väljal **Periood** ajastamise tööks kasutatav perioodi tüüp.
 
@@ -102,7 +102,7 @@ Kui olete hoolduskorra seadistanud, käivitate ajastamise töö, et ajastada kõ
 
 6. Klõpsake valikut **OK**.
 
-7. Nüüd saate hoolduskordade töid näha jaotises **Varahaldus** > **Üldine** > **Hooldusgraafik** > **Kõik hooldusgraafikud** või **Avatud hooldusgraafiku read**. Kui ajastatud hoolduskorrad on ühendatud töökäskude kogumiga, näete hooldusgraafiku ridu ka jaotises **Avatud hooldusgraafiku kogumid**. Hoolduskorrast loodud hooldusgraafiku ridadel on viitetüüp "Hoolduskorrad".
+7. Nüüd saate vaadata hoolduse ümardamise töid Varahalduse haldusgraafikus Kõik hooldusgraafik **või** > **Avatud hoolduse** > **graafiku read**.**·** Kui ajastatud hoolduskorrad on ühendatud töökäskude kogumiga, näete hooldusgraafiku ridu ka jaotises **Avatud hooldusgraafiku kogumid**. Hoolduskorrast loodud hooldusgraafiku ridadel on viitetüüp "Hoolduskorrad".
 
 Kahel alloleval joonisel on kujutatud ajastamise töö dialoogis **Hoolduskordade plaanimine** ja hooldusgraafiku read, mis on loodud jaotises **Kõik hooldusgraafikud** selle ajastamise töö põhjal.
 

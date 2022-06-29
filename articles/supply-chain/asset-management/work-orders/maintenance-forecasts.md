@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c2dbd968a22f2bded29cff3517dacbafc79ff8f1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: be6ef12f34e85b90c24c43c6e55ad169c271810a
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8902107"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016619"
 ---
 # <a name="maintenance-forecasts"></a>Hooldusprognoosid
 
@@ -32,7 +32,7 @@ Kui loote töökäsu, loote töökäsu tööd, millel on seotud varad ja hooldus
 
 Võimalik, et saate töökäsule lisada prognoosiread või need töökäsust kustutada. Töökäsu töötsükli oleku seadistus, seotud projektitüüp ja seotud projektitüübi oleku reeglid määravad ära, kas saate prognoosi ridu lisada või redigeerida. Lisateavet töökäsu elutsükli olekute ja seotud projekti etappide kohta vt teemast [Prognoosid, töökäsud ja projektid](../integration-to-project-management-and-accounting/forecasts-work-orders-and-projects.md).
 
-1. Valige **Varahaldus** > **Üldine** > **Töökäsud** > **Kõik töökäsud** või **Aktiivsed töökäsud**.
+1. Valige **varahalduse töötellimused** > **·** > **kõik töötellimused või** aktiivsed **töötellimused**.
 
 2. Valige loendist töökäsk ja seejärel tehke tegumiriba vahekaardi > **Töökäsk** jaotises **Projekt** valik **Prognoos**. Lehel **Töökäsu hooldusprognoos** kuvatakse töökäsu tööl valitud hooldustöö tüüpi prognoosi ridu.
 

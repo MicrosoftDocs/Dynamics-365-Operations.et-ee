@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 57bbb8eb638b990914dc00f9700ff0c1925c48852862b02e09f3f26415d3e347
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 14751fb0e0632ca986d6eddf55c93d44fbd68276
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745498"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015460"
 ---
 # <a name="create-an-item-replacement-order"></a>Kauba asendamise tellimuse loomine 
 
@@ -31,7 +31,7 @@ Kauba asendustellimused luuakse tavaliselt pärast toote tagastamist ja kontroll
 
 ## <a name="create-a-replacement-order-after-you-receive-an-item-that-is-returned"></a>Looge asendustellimus pärast tagastatava kauba kättesaamist.
 
-1.  Klõpsake valikuid **Müük ja turundus** \> **Üldine** \> **Tagastustellimused** \> **Kõik tagastustellimused**.
+1.  Klõpsake müügi **ja turunduse müügi** \> **tagastused** \> **kõik tagastustellimused**.
 
 2.  Looge uus tagastustellimus või valige tagastustellimus loendist, et avada vorm **Tagastustellimus – RMA-kood: %1, %2**.
 
@@ -45,7 +45,7 @@ Kauba asendustellimused luuakse tavaliselt pärast toote tagastamist ja kontroll
 
 ## <a name="create-a-replacement-order-before-you-receive-an-item-that-will-be-returned"></a>Asendustellimuse loomine enne tagastatava kauba kättesaamist
 
-1.  Klõpsake valikuid **Müük ja turundus** \> **Üldine** \> **Tagastustellimused** \> **Kõik tagastustellimused**.
+1.  Klõpsake müügi **ja turunduse müügi** \> **tagastused** \> **kõik tagastustellimused**.
 
 2.  Looge uus tagastustellimus või valige tagastustellimus loendist, et avada vorm **Tagastustellimus – RMA-kood: %1, %2**.
 

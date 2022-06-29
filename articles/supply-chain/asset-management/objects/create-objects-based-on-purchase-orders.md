@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8bee66e2d35af6daa8d86539e52b558bde3c79a1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: ccd14493aac6484dc54ccf51ae159a071c8697a5
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8893696"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015605"
 ---
 # <a name="create-assets-based-on-purchase-orders"></a>Ostutellimusel põhinevate varade loomine
 
@@ -45,7 +45,7 @@ Esmalt saate seadistada kaubad, mida kasutatakse varade loomisel ostutellimuse p
 
 ## <a name="create-assets-from-pending-assets"></a>Varade loomine ootel varadest
 
-1. Klõpsake **Varahaldus** > **Ühised** > **Varad** > **Ootel varad**.
+1. Klõpsake ootel **varasid** > **varahalduses** > **·**.
 2. Näete ostutellimuste värskendatud loendit, mis põhineb üksuses **Kaubagrupid** valitud kaupadel.
 3. Saate filtreerida ostutellimuste olekut, et valida, millises elutsükli olekus vara tuleks luua. Näiteks võite luua varasid ainult siis, kui toote sissetulek on ostutellimusel sisestatud.
 4. Valige ostutellimuse real link **Viitenumber**, et nähe kauba kohta üksikasjalikku teavet.

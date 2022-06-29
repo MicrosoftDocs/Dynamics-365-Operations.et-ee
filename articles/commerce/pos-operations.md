@@ -15,17 +15,16 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: aa1ca9c057b8a1332cd52f73a24adf2089ebef3a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 23805a88fab34d925241c51ae449bd81e15d5337
+ms.sourcegitcommit: 6616b969afd6beb11a79d8e740560bf00016ea7f
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8852715"
+ms.lasthandoff: 06/17/2022
+ms.locfileid: "9027279"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Ühendusega ja ühenduseta kassatoimingud
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Enamik toiminguid, mida kasutajad kassas (POS) tehke, loetakse toiminguteks. Operatsioone konfigureeritakse ja hallatakse rakenduse Dynamics 365 Commerce varukontoris. Paljud operatsioonid saab lisada kassa nupupaneeli nuppudele. Kasutajad saavad seejärel nuppude abil operatsioone käivitada ja nende funktsioone kasutada. Toimingu kättesaadavaks muutmiseks nupupaneeli nupupaneelile nupupaneeli kujundajas tuleb see esmalt märkida kasutajatoiminguna rakenduse Commerce headquarters kassatoimingute vaates (**Retail ja Commerce \> Channel Setup \> POS-i häälestamise kassatoimingud \>\>**.)
 

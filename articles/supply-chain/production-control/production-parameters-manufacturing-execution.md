@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d74b6c82c573810da9cbfe14745f997f40d408fc
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 8d9c756d8aaf2e7b2f6593e78fbb645dafee4552
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873662"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016155"
 ---
 # <a name="production-parameters-in-manufacturing-execution"></a>Tootmise parameetrid moodulis Tootmise käivitamine
 
@@ -63,7 +63,7 @@ Lehel **Tootmise parameetrid** seadistatakse automaatne koosluse tarbimine kolme
 
 Igas etapis võimaldab väli **Automaatne koosluse tarbimine** valida ühe kolmest meetodist kaupade komplekteerimiseks tootmistellimuse jaoks.
 
-- **Automaatse tarbimise põhimõte** – seda valikut kasutatakse koos valikuga, mis on määratud kooslusele moodulis **Tootmine**. Klõpsake valikuid **Tootmise juhtimine** &gt; **Üldine** &gt; **Tootmistellimused** &gt; **Kõik tootmistellimused**. Valige lehel **Kõik tootmistellimused** loendist tootmistellimus ja klõpsake siis toimingupaanil valikut **Kooslus**. Lehel **Kooslus** vahekaardil **Seadistus** väljal **Automaatse tarbimise põhimõte** valige üks kolmest võimalusest.
+- **Automaatse tarbimise põhimõte** – seda valikut kasutatakse koos valikuga, mis on määratud kooslusele moodulis **Tootmine**. Klõpsake tootmisjuhtimise **tootmistellimustel** &gt; **kõik** &gt; **tootmistellimused**. Valige lehel **Kõik tootmistellimused** loendist tootmistellimus ja klõpsake siis toimingupaanil valikut **Kooslus**. Lehel **Kooslus** vahekaardil **Seadistus** väljal **Automaatse tarbimise põhimõte** valige üks kolmest võimalusest.
 
   - **Alustamine**
   - **Lõpetamine**

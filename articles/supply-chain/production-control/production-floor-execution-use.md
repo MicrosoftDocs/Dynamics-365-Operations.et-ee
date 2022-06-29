@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 9c0d87dfb4c432f9cff0f1172139dbcda6308275
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 2ee316a3e6a6baef7aa8b5d46b04a2d1bb07a641
+ms.sourcegitcommit: d770f0e6a012675a3027641704be804beb99754b
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8860663"
+ms.lasthandoff: 06/16/2022
+ms.locfileid: "9022500"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Kuidas töötajad kasutavad tootmisosakonna käivitusliidest
 
@@ -263,9 +263,6 @@ Töötaja registreerib pausi, valides suvandi **Paus** ja valides seejärel kaar
 
 ## <a name="view-the-my-day-dialog"></a>Dialoogi "Minu päev" kuvamine
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-<!-- KFM: preview until 10.0.27 GA -->
-
 Dialoogiaken **Minu** päev annab töötajatele ülevaate nende registreerimistest ja saldodest. Dialoog on jagatud kolme järgmise jaotise vahel:
 
 - Põhijaos loetletakse registreerimised, mis praegune töötaja valitud kuupäeval teeb. Avaneb praeguse päeva registreerimised ja kuvatakse kuupäeva valija, mis võimaldab töötajal teisi päevi vaadata.
@@ -275,9 +272,6 @@ Dialoogiaken **Minu** päev annab töötajatele ülevaate nende registreerimiste
 Administraatorid saavad selle funktsiooni liidesele lisada, **·**[asetades nupu Minu päev tööriistaribale iga vastava vahekaardi jaoks, nagu on kirjeldatud tootmispinna käivitamise liidese kujunduses.](production-floor-execution-tabs.md)
 
 ## <a name="working-in-teams"></a>Töörühmades töötamine
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-<!-- KFM: preview until 10.0.27 GA -->
 
 Kui samale tootmistööle on määratud mitu töötajat, saavad nad moodustada meeskonna. Meeskond võib määrata ühe töötaja piloodiks. Ülejäänud töötajatest saavad seejärel automaatselt selle piloodi abilised. Tulemuseks saadud meeskonna puhul peab ainult piloot registreerima töö oleku. Ajakirjed kehtivad kõigi töörühma liikmete kohta.
 

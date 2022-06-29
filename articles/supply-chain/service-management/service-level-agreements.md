@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1db12600aa47f537da6918c82ef3164c2123a8ac
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 2b90618d5d283b16ac8374f3b8b2df48611ba270
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670800"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9014658"
 ---
 # <a name="service-level-agreements-overview"></a>Teenusetaseme lepingute ülevaade       
 
@@ -50,7 +50,7 @@ Automaatselt loodud teenusetellimusi teenusetaseme leppega ei seota.
 
 ## <a name="apply-the-service-level-agreement-to-the-service-agreement"></a>Teenusetaseme leppe rakendamine teenuseleppele
 
-1.  Klõpsake valikut **Hooldushaldus** \> **Üldine** \> **Hooldustellimused** \> **Hooldusleppegrupid**. Valige teenuselepe, millele soovite teenusetaseme leppe rakendada, ja klõpsake **toimingupaanil** valikut **Redigeeri**.
+1.  Klõpsake teenusehalduse **teenuseleppeid** \> **Teenuselepped.** \> **·** Valige teenuselepe, millele soovite teenusetaseme leppe rakendada, ja klõpsake **toimingupaanil** valikut **Redigeeri**.
 
 2.  Valige väljal **Teenindustaseme leping** teenindustaseme leping, mida soovite määrata.
 

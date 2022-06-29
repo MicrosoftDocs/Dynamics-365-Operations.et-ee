@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 3347db6395b7da396c42f84881060f476346d2e9
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 60bf4ab6944bd982e022ead6431adae417ddfb43
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8851271"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9014615"
 ---
 # <a name="wave-creation-and-processing"></a>Voo loomine ja töötlemine
 
@@ -60,9 +60,9 @@ Voo käsitsi loomiseks tehke järgmist.
 1. Veenduge, et vastavad [voomallid](wave-templates.md) ei oleks seadistatud looma lao ja tellimuse tüüpide jaoks automaatselt voogu, kohas kus soovite seda teha käsitsi.
 1. Sõltuvalt loodava voo tüübist tehke ühte järgmistest.
 
-    - Avage **Laohaldus** \> **Tavaline** \> **Vood** \> **Saatmisvood** \> **Kõik vood**. Valige toimingupaanil nupp **Voog**.
-    - Avage **Laohaldus** \> **Tavaline** \> **Vood** \> **Tootmisvood** \> **Kõik tootmisvood**. Valige toimingupaanil nupp **Tootmisvoog**.
-    - Avage **Laohaldus** \> **Tavaline** \> **Vood** \> **Kanban vood** \> **Kõik Kanban vood**. Valige toimingupaanil nupp **Loo voog**.
+    - Mine laohalduse **väljaminevate** \> **lainete saadetise lainetesse** \> **Kõik** \> **lained.** Valige toimingupaanil nupp **Voog**.
+    - Minge laohalduse **väljaminevatele** \> **lainetele Tootmisvood** \> **Kõik** \> **tootmisvood.** Valige toimingupaanil nupp **Tootmisvoog**.
+    - Minge laohalduse **väljaminevate lainete** \> **kanbani** \> **vood Kõik** \> **kanbani vood.** Valige toimingupaanil nupp **Loo voog**.
 
 1. Sisestage väljale **Kirjeldus** voo lühikirjeldus. See peaks näitama, mida voos töötlete.
 
@@ -87,9 +87,9 @@ Kui voog on loodud, kuid pole veel välja antud, saate käsitsi määrata, mida 
 
 1. Sõltuvalt voo tüübist, millele ridu lisada, tehke ühte järgmisest.
 
-    - Avage **Laohaldus** \> **Tavaline** \> **Vood** \> **Saatmisvood** \> **Kõik vood**. Valige toimingupaanil nupp **Voog**.
-    - Avage **Laohaldus** \> **Tavaline** \> **Vood** \> **Tootmisvood** \> **Kõik tootmisvood**. Valige toimingupaanil nupp **Tootmisvoog**.
-    - Avage **Laohaldus** \> **Tavaline** \> **Vood** \> **Kanban vood** \> **Kõik Kanban vood**. Valige toimingupaanil nupp **Loo voog**.
+    - Mine laohalduse **väljaminevate** \> **lainete saadetise lainetesse** \> **Kõik** \> **lained.** Valige toimingupaanil nupp **Voog**.
+    - Minge laohalduse **väljaminevatele** \> **lainetele Tootmisvood** \> **Kõik** \> **tootmisvood.** Valige toimingupaanil nupp **Tootmisvoog**.
+    - Minge laohalduse **väljaminevate lainete** \> **kanbani** \> **vood Kõik** \> **kanbani vood.** Valige toimingupaanil nupp **Loo voog**.
 
 1. Valige voog. Klõpsake tegumiribal ühte järgmistest valikutest.
 
@@ -121,9 +121,9 @@ Kogu vajaliku sisuga voo käsitsi töötlemiseks järgige järgmisi samme.
 
 1. Sõltuvalt töödeldava voo tüübist tehke ühte järgmist.
 
-    - Valige **Laohaldus** \> **Tavaline** \> **Vood** \> **Saatmisvood** \> **Kõik vood**. Valige toimingupaanil nupp **Voog**.
-    - Valige **Laohaldus** \> **Tavaline** \> **Vood** \> **Tootmisvood** \> **Kõik tootmisvood**. Valige toimingupaanil nupp **Tootmisvoog**.
-    - Valige **Laohaldus** \> **Tavaline** \> **Vood** \> **Kanban vood** \> **Kõik Kanban vood**. Valige toimingupaanil nupp **Loo voog**.
+    - Valige laohalduse **väljaminevad** \> **lained Saadetise** \> **lained Kõik** \> **lained.** Valige toimingupaanil nupp **Voog**.
+    - Valige laohalduse **väljaminevad** \> **vood Tootmisvood** \> **·** \> **Kõik tootmisvood.** Valige toimingupaanil nupp **Tootmisvoog**.
+    - Valige laohalduse **väljaminevad** \> **vood Kanbani** \> **vood Kõik** \> **kanbani vood.** Valige toimingupaanil nupp **Loo voog**.
 
 1. Valige töödeldav voog. Klõpsake toimingupaanil suvandit **Töötlemine**.
 
@@ -141,9 +141,9 @@ Voo käsitsi väljastamiseks tehke järgmist.
 
 1. Sõltuvalt väljaantava voo tüübist tehke ühte järgmist.
 
-      - Valige **Laohaldus** \> **Tavaline** \> **Vood** \> **Saatmisvood** \> **Kõik vood**. Valige toimingupaanil nupp **Voog**.
-      - Valige **Laohaldus** \> **Tavaline** \> **Vood** \> **Tootmisvood** \> **Kõik tootmisvood**. Valige toimingupaanil nupp **Tootmisvoog**.
-      - Valige **Laohaldus** \> **Tavaline** \> **Vood** \> **Kanban vood** \> **Kõik Kanban vood**. Valige toimingupaanil nupp **Loo voog**.
+      - Valige laohalduse **väljaminevad** \> **lained Saadetise** \> **lained Kõik** \> **lained.** Valige toimingupaanil nupp **Voog**.
+      - Valige laohalduse **väljaminevad** \> **vood Tootmisvood** \> **·** \> **Kõik tootmisvood.** Valige toimingupaanil nupp **Tootmisvoog**.
+      - Valige laohalduse **väljaminevad** \> **vood Kanbani** \> **vood Kõik** \> **kanbani vood.** Valige toimingupaanil nupp **Loo voog**.
 
 1. Valige väljastatav voog. Valige toimingupaanil nupp **Anna voog välja**.
 
@@ -179,9 +179,9 @@ Vajaduse korral saate töödeldud voo tühistada. Loodud voo ja komplekteerimist
 
 1. Sõltuvalt tühistatava voo tüübist tehke ühte järgmist.
 
-      - Avage **Laohaldus** \> **Tavaline** \> **Vood** \> **Saatmisvood** \> **Kõik vood**.
-      - Avage **Laohaldus** \> **Tavaline** \> **Vood** \> **Tootmisvood** \> **Kõik tootmisvood**.
-      - Avage **Laohaldus** \> **Tavaline** \> **Vood** \> **Kanban vood** \> **Kõik Kanban vood**.
+      - Mine laohalduse **väljaminevate** \> **lainete saadetise lainetesse** \> **Kõik** \> **lained.**
+      - Minge laohalduse **väljaminevatele** \> **lainetele Tootmisvood** \> **Kõik** \> **tootmisvood.**
+      - Minge laohalduse **väljaminevate lainete** \> **kanbani** \> **vood Kõik** \> **kanbani vood.**
 
 1. Valige tühistamiseks voog. Toiminguriba vahekaardil **Töö** valige suvand **Tühista**.
 

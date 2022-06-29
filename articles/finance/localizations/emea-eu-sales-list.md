@@ -2,7 +2,7 @@
 title: EL-i käibearuandlus
 description: Selles artiklis antakse teavet Euroopa Liidu (EL-i) käibearuande aruandluse kohta.
 author: EvgenyPopovMBS
-ms.date: 02/17/2022
+ms.date: 06/14/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epopov
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: af49817667999dd02a96a7a9bd5bb966be652d35
-ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
+ms.openlocfilehash: 8dfd3fafdfc011973b169516cd4e2d239751e96d
+ms.sourcegitcommit: f5b156f2e5ca99ad05b3d6e4a5d118631fd3064e
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323472"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "9012496"
 ---
 # <a name="eu-sales-list-reporting"></a>EL-i käibearuandlus
 
@@ -150,7 +150,7 @@ Järgmist tüüpi kandeid saab nimetada EL-i sisesteks kaubanduskanneteks.
 -   Projektiarved
 -   Hankijaarved
 
-Kannet peetakse EL-i siseseks kaubanduskandeks, kui kande tarneaadress on EL-i liikmesriigis. Selliste riikide/regioonidep kohta peab olema kirje lehe **Väliskaubanduse parameetrid**  vahekaardil **Riigi/regiooni parameetrid** ja suvandi **Riigi/regiooni tüüp** väärtus peab olema **EL**. EL-i sisesed kaubanduskanded on väljal **Loendi kood** märgitud. Seda välja kasutades saate eraldada ka üldised EL-i sisesed kaubanduskanded triangulatsioonkaubanduse kannetest. Saate koguda teavet EL-i siseste kaubanduskannete kohta lehel **EL-i käibearuanne** (klõpsake valikuid **Maks** &gt; **Deklaratsioonid** &gt; **Väliskaubandus** &gt; **EL-i käibearuanne**), kasutades funktsiooni **Ülekanne**. Selle funktsiooni abil saate kaasata kanded, millel on mitmeid erinevaid aruandluse tüüpe (s.o kaubad või teenused) vastavalt kauba käibemaksugruppidele, mis on kanderidadel määratud. Samuti saate rakendada muid filtreid, et määratleda kaasatavaid kandeid. Funktsioon **Ülekanne** loob lehel **EL-i käibearuanne** kirje igale kaasatud EL-i sisesele kaubanduskandele ja määrab vastaspoole kontonumbri, riigi/regiooni, maksukohuslase koodi, arve numbri ja kuupäeva ning ridade kogusumma aruandluse tüübi kohta. See kopeerib kandest ka väärtuse **Loendi kood**. Saate käsitsi muuta kande loendi koodi lehel **EL-i käibearuanne**. Funktsioon **Ülekanne** loob kirjed, kui väärtus **Aruandluse olek** on olekus **Kaasatud**. Saate kinnitada teabe, mida kogutakse lehel **EL-i käibearuanne**, kasutades funktsiooni **Kinnitamine**.
+Kannet peetakse EL-i siseseks kaubanduskandeks, kui kande tarneaadress on EL-i liikmesriigis. Selliste riikide/regioonidep kohta peab olema kirje lehe **Väliskaubanduse parameetrid**  vahekaardil **Riigi/regiooni parameetrid** ja suvandi **Riigi/regiooni tüüp** väärtus peab olema **EL**. EL-i sisesed kaubanduskanded on väljal **Loendi kood** märgitud. Seda välja kasutades saate eraldada ka üldised EL-i sisesed kaubanduskanded triangulatsioonkaubanduse kannetest. Saate koguda teavet EL-i siseste kaubanduskannete kohta lehel **EL-i käibearuanne** (klõpsake valikuid **Maks** &gt; **Deklaratsioonid** &gt; **Väliskaubandus** &gt; **EL-i käibearuanne**), kasutades funktsiooni **Ülekanne**. Selle funktsiooni abil saate kaasata kanded, millel on mitmeid erinevaid aruandluse tüüpe (s.o kaubad või teenused) vastavalt kauba käibemaksugruppidele, mis on kanderidadel määratud. Samuti saate rakendada muid filtreid, et määratleda kaasatavaid kandeid. Funktsioon **Ülekanne** loob lehel **EL-i käibearuanne** kirje igale kaasatud EL-i sisesele kaubanduskandele ja määrab vastaspoole kontonumbri, riigi/regiooni, maksukohuslase koodi, arve numbri ja kuupäeva ning ridade kogusumma aruandluse tüübi kohta. See kopeerib kandest ka väärtuse **Loendi kood**. Saate käsitsi muuta kande loendi koodi lehel **EL-i käibearuanne**. Funktsioon **Ülekanne** loob kirjed, kui väärtus **Aruandluse olek** on olekus **Kaasatud**. Saate kinnitada teabe, mida kogutakse lehel **EL-i käibearuanne**, kasutades funktsiooni **Kinnitamine**. Saate arve kohta üksikasjalikku teavet (müügi suuna puhul) funktsiooni Summad **abil**.
 
 ### <a name="generating-the-eu-sales-list-report"></a>EL-i käibearuande loomine
 
@@ -160,8 +160,26 @@ Saate luua aruande **EL-i käibearuanne**, kasutades funktsiooni **Aruandlus** l
 
 Kui olete lõpetanud konkreetse perioodi aruandlusprotsessi (näiteks kui maksuametnikud on **EL-i käibearuande** kinnitanud), saate märkida ESL-i kirjed, mis on perioodil aruandesse kaasatud, seadistades väärtuse **Aruandluse olek** olekuks **Suletud**. Kasutage selle oleku määramiseks funktsiooni **Märgi suletuks** lehel **EL-i käibearuanne**. Kui ennistate perioodi lõpetamise, saate märkida ESL-i kirjed, seadistades suvandi **Aruandluse olek** väärtuseks **Kaasatud**. Need kirjed saab siis uuesti **EL-i käibearuandesse** lisada. Selle oleku seadistamiseks kasutage funktsiooni **Märgi** **kaasatuks** lehel **EL-i käibearuanne**.
 
+## <a name="list-of-country-specific-topics"></a>Riigile omaste teemade loend
 
-
+| Riik          | Link      |
+|------------------|-----------|
+| Austria          | [EL käibeloend Austria jaoks](emea-aut-eu-sales-list.md)| 
+| Belgia          |[EL käibeloend Belgia jaoks](emea-bel-eu-sales-list.md)|
+| Tšehhi Vabariik          |[EL käibeloend Tšehhi Vabariigile](emea-cze-eu-sales-list.md)|
+| Taani          |[EL käibeloend Taani jaoks](emea-dnk-eu-sales-list.md)|
+| Eesti          |[EL käibeloend Eesti jaoks](emea-est-eu-sales-list.md)|
+| Soome          |[EL käibeloend Soome jaoks](emea-fin-eu-sales-list.md)|
+| Prantsusmaa          |[EL müügiloend Prantsusmaa jaoks](emea-fra-eu-sales-list.md)|
+| Saksamaa          |[EL käibeloend Saksamaa jaoks](emea-deu-eu-sales-list.md)|
+| Ungari          |[EL käibeloend Ungarile](emea-hun-eu-sales-list.md)|
+| Läti          |[EL käibeloend Läti jaoks](emea-lva-eu-sales-list.md)|
+| Leedu          |[EL käibeloend Leedu jaoks](emea-ltu-eu-sales-list.md)|
+| Holland          |[EL käibeloend Hollandi jaoks](emea-nl-eu-sales-list.md)|
+| Poola          |[EL käibeloend Poola jaoks](emea-pol-eu-sales-list.md)|
+| Hispaania          |[EL käibearuanne Hispaania jaoks (aruanne 349)](emea-esp-sales-list.md)|
+| Rootsi          |[EL käibeloend Rootsi jaoks](emea-swe-eu-sales-list.md)|
+| UK (Põhja-Iirimaa)          |[EL müügiloend Ühendkuningriigi (Põhja-Iirimaa) jaoks](emea-uk-eu-sales-list.md)|
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 1fa2ec6e21026552a4f14a67188db0720d3feae5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: af344d3771583a99851c070e3735258ac964b5d7
+ms.sourcegitcommit: 78576abe5c7cbab1bb69d26c999b038e8c24873a
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8850782"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "8954487"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10025-april-2022"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 Supply Chain Management 10.0.25 (aprill, 2022)?
 
@@ -155,7 +155,7 @@ Tabelis loetletakse ka funktsioonid, mis olid eelnevalt avalikus eelvaates, kuid
 | Laohaldus | [Varude käsitsi paigutamise toimingu edasilükatud töötlemine](../warehousing/deferred-processing-manual-inventory-movement.md) | Kohustuslik |
 | Laohaldus | Ära luba luua koormaid, mis ei vasta voo koorma loomise malli nõuetele | Kohustuslik |
 | Laohaldus | [Täiustatud litsentsiplaadi sildipaigutused](../warehousing/document-routing-layout-for-license-plates.md) | Kohustuslik |
-| Laohaldus | [Mitme SKU asukohakorralduste kõigi toimingute hindamine](../troubleshooting/warehousing/evaluate-multiple-location-directive-actions.md) | Kohustuslik |
+| Laohaldus | [Mitme SKU asukohakorralduste kõigi toimingute hindamine](/troubleshoot/dynamics-365/supply-chain/warehousing/evaluate-multiple-location-directive-actions) | Kohustuslik |
 | Laohaldus | Peida koguväärtuse väli lehtedel "Kõik koormused" ja "Koormuse üksikasjad" | Kohustuslik |
 | Laohaldus | Litsentsiplaadi sildi koostekonfiguratsioon | Kohustuslik |
 | Laohaldus | Koorma rea käsitsi korrigeerimine administraatorile või sarnastele usaldusväärsetele kasutajatele | Kohustuslik |

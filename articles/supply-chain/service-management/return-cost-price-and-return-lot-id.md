@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 14442853152764fce7e5a8a275532ed553da16dc
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 4c1d236918eddf3203a544a6b047f8ccac777971
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677082"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9017236"
 ---
 # <a name="return-cost-price-and-return-lot-id"></a>Tagastuse hind ja tagastuspartii ID        
 
@@ -38,7 +38,7 @@ Muu kui praeguse kulu kasutamiseks tagasimaksete tegemiseks kliendile toimige j�
 
 Kui lisate tagastustellimusse kauba, tagastatakse kaubad lattu vaikimisi praeguse omahinnaga. Muu tagastuse omahinna määramiseks tehke järgmist.
 
-1.  Klõpsake valikuid **Müük ja turundus** \> **Üldine** \> **Tagastustellimused** \> **Kõik tagastustellimused**.
+1.  Klõpsake müügi **ja turunduse müügi** \> **tagastused** \> **kõik tagastustellimused**.
 
 2.  Klõpsake **Toimingupaanil** grupis **Uus** valikut **Tagastustellimus**.
 
@@ -54,7 +54,7 @@ Kui lisate tagastustellimusse kauba, tagastatakse kaubad lattu vaikimisi praegus
 
 See on tagastusridade loomisel eelistatud meetod. Selleks et kasutada toodete kulu, mis kehtis toodete müümisel kliendile, looge tagastustellimus ja määrake tagastusele müügirida.
 
-1.  Klõpsake valikuid **Müük ja turundus** \> **Üldine** \> **Tagastustellimused** \> **Kõik tagastustellimused**.
+1.  Klõpsake müügi **ja turunduse müügi** \> **tagastused** \> **kõik tagastustellimused**.
 
 2.  Klõpsake **Toimingupaanil** grupis **Uus** valikut **Tagastustellimus**.
 

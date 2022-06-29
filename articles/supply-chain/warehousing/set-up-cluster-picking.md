@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3094649da2ce9a700a4d1cde236609013f4b9744
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 0ec3de073def2ff63af3c04b5696cbcec4f09948
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8862304"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9014716"
 ---
 # <a name="set-up-cluster-picking"></a>Kogumi komplekteerimise häälestamine
 
@@ -74,9 +74,14 @@ Kogumi komplekteerimise rakendamiseks on kinnitamine väga oluline, et kontrolli
 
 ### <a name="set-up-item-verification-with-cluster-picking"></a>Kauba kontrollimise seadistamine kogumi komplekteerimisega
 
-1. Avage mobiilse seadme menüü üksuses seadistusvorm töö kinnitamiseks: **Laohaldus** \> **Laohaldus** \> **Seadistus** \> **Mobiilne seade** \> **Mobiilse seadme menüü üksused**.
+1. Minge laohalduse **häälestuse** > **mobiilse** > **seadme** > **mobiilseadme menüü-üksustesse**.
+1. Valige loendipaanil menüükäsk, mida soovite seadistada.
+1. Tegevuspaanil valige töö **kinnituse häälestus**.
+1. Tehke üks järgmistest toiming:
+    - Kui seadistatav töötüübi kohta **on rida** juba olemas, valige see ja klõpsake siis tegevuspaanil **nuppu** Redigeeri.
+    - Kui sobivat rida pole, valige tegevuspaanil **väärtus** Uus ja määrake tüübiks **Töö**.
+1. Märkige uue **või** valitud rea puhul ruut Toote kinnitus. See võimaldab töötajatel mobiilse seadme abil kõiki laovarusid kontrollida.
 
-1. Avage mobiilse seadme menüüelemendist jaotis **Töö kinnituse häälestus**. Suvand **Toote kinnitus** võimaldab iga varude üksust mobiilsel seadmel skannides kontrollida.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

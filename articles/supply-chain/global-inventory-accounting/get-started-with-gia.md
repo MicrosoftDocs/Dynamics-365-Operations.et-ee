@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 493e0be8ab56abc2a3253876107b7f4fefabf4ad
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: cbe6bff6fab96900b8bd4e112a8858363fff86d1
+ms.sourcegitcommit: 9870b773a2ea8f5675651199fdbc63ca7a1b4453
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8891085"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9013551"
 ---
 # <a name="get-started-with-global-inventory-accounting"></a>Global Inventory Accounting kasutamise alustamine
 
@@ -69,37 +69,6 @@ Enne lisandfunktsiooni lubamist tuleb teil need sammud Microsoft Power Platform 
 
 Lisateavet vt teemast [Luba peale keskkonna juurutamist](../../fin-ops-core/dev-itpro/power-platform/enable-power-platform-integration.md#enable-after-deploy).
 
-### <a name="set-up-dataverse"></a>Üksuse Dataverse häälestus
-
-Enne Dataverse seadistamist järgmiste sammude abil lisage oma rentnikule Global Inventory Accounting laoarvestuse põhimõtted.
-
-1. Installige Azure AD Windows PowerShell Module v2, nagu on kirjeldatud [Instalige Azure Active Directory PowerShell Graph'ile](/powershell/azure/active-directory/install-adv2).
-1. Käivitage järgmine PowerShell käsk.
-
-    ```powershell
-    Connect-AzureAD # (open a sign in window and sign in as a tenant user)
-
-    New-AzureADServicePrincipal -AppId "7a1dd80f-c961-4a67-a2f5-d6a5d2f52cf9" -DisplayName "d365-scm-costaccountingservice"
-
-    New-AzureADServicePrincipal -AppId "5f58fc56-0202-49a8-ac9e-0946b049718b" -DisplayName "d365-scm-operationdataservice"
-    ```
-
-Järgmisena looge rakenduse kasutajad Global Inventory Accounting laoarvestuse jaoks Dataverse'is järgmiste sammude abil.
-
-1. Avage oma Dataverse keskkonna URL.
-1. Minge **Lisaseaded \> Süsteem \> Turvalisus \> Kasutajad** ja looge rakenduse kasutaja. Kasutage **Vaade** välja, et muuta lehe vaade *Rakenduse kasutajad*.
-1. Valige suvand **Uus**.
-1. Määrake välja **Rakenduse ID** väärtuseks *7a1dd80f-c961-4a67-a2f5-d6a5d2f52cf9*.
-1. Valige **Määra roll** ja seejärel valige *Süsteemiadministraator*. Kui rolli nimi on Kasutaja *Common Data Service, valige* ka see.
-1. Korrake eelnevaid samme, kuid seadistage **Rakenduse ID** välja väärtuseks *5f58fc56-0202-49a8-ac9e-0946b049718b*.
-
-Lisateavet leiate teemast [Rakenduse kasutaja loomine](/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user).
-
-Kui teie Dataverse installi vaikekeel ei ole inglise keel, järgige neid samme.
-
-1. Avage **Täpsemad seadistused \>Administreerimine \> Keeled**.
-1. Valige *Inglise keel* (*LanguageCode=1033*) ja valige **Rakenda**.
-
 ## <a name="install-the-add-in"></a><a name="install"></a>Lisandmooduli installimine
 
 Järgige neid samme lisandmooduli installimiseks Global Inventory Accounting laoarvestuse kasutamiseks.
@@ -109,11 +78,21 @@ Järgige neid samme lisandmooduli installimiseks Global Inventory Accounting lao
 1. Avage **Kõik üksikasjad**.
 1. Avage **Power Platform integratsioon** ja valige **Seadistamine**.
 1. Märkige ruut **Power Platform platvormi keskkonna seadistus** dialoogiboksis ja valige seejärel **Seadistamine**. Tavaliselt võtab seadistus aega 60 kuni 90 minutit.
-1. Kui Microsoft Power Platform keskkonna häälestamine on lõpule viidud, valige kiirkaardil **Keskkonna lisandmoodulid** suvand **Installi uus lisandmoodul**.
+1. Pärast keskkonna seadistuse Microsoft Power Platform lõpule viimist [Power Platform](https://admin.powerplatform.microsoft.com) logige halduskeskusesse sisse ja seejärel installige globaalse laoarvestuse lisandmoodul järgmiste sammude abil.
+   1. Valige keskkond, kuhu soovite lisandmooduli installida.
+   1. Valige **Dynamics 365 rakendused**.
+   1. Valige **installirakendus**.
+   1. Valige **Dynamics 365 globaalne laoarvestus**.
+   1. Valige **installimiseks** edasi.
+1. Minge tagasi LCS-i keskkonda. Valige kiirkaardil **Keskkonna lisandmoodulid** suvand **Installi uus lisandmoodul**.
 1. Valige **Globaalne laoarvestus**.
 1. Täitke paigaldusjuhendit ja nõustuge nõuete ja tingimustega.
 1. Valige **Installi**.
 1. Peaksite nägema kiirkaardil **Keskkonna lisandmoodulid**, et Global Inventory Accounting installitakse. Mõne minuti pärast peaks olek *Installimine* muutuma olekuks *Installitud*. (Selle muudatuse nägemiseks võib olla vaja lehte värskendada.) Pärast seda on Global Inventory Accounting kasutamiseks valmis.
+
+Kui teie installi vaikekeel ei Dataverse ole inglise keel, järgige neid samme.
+1. Avage **Täpsemad seadistused \>Administreerimine \> Keeled**.
+1. Valige *Inglise keel* (*LanguageCode=1033*) ja valige **Rakenda**.
 
 ## <a name="set-up-the-integration"></a>Integratsiooni seadistamine
 

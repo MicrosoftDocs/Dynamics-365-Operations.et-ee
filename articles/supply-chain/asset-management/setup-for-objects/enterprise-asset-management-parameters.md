@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a1e2c79a621cf4bd1212c006e1c8967d85bd716b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 750776412ce9d87389a635ef108a34cffe12b68b
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8870807"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015808"
 ---
 # <a name="asset-management-parameters"></a>Rakenduse Asset Management parameetrid
 
@@ -37,7 +37,7 @@ Vahekaart **Varad** sisaldab järgmisi sätteid.
 
 - **Töö vaikeasukoht** on standardne töö asukoht, mis uute varade loomisel valitakse varades automaatselt.  
 - Valige väljal **Standardne kalender** kalender, mida kasutatakse varade KPI-de arvutamiseks, kui varas pole ressurssi valitud.  
-- Valige väljal **Vaade** standardne vaade, mis kuvatakse, kui avate suvandi **Varade vaade** (**Varahaldus** > **Ühine** > **Varad** > **Varade vaade**).
+- Väljal Vaade valige standardvaade, mis kuvatakse varavaate **avamisel** (**varahalduse varade** **kuva** > **).** > **·**
 - **Taotluse vaiketüüp** on standardne hooldusnõude tüüp, mis valitakse automaatselt uue taotluse loomisel.  
 - Töötüüpide eelarved talletatakse väljal **Eelarveprojekt** valitud projektis. Iga töötüübi puhul luuakse eelarveprojektis automaatselt uus tegevus. Töötüübi eelarved salvestatakse seejärel eelarveprojektis.  
 - Valige väljal **Mudel** töötüübi ja töökäsu eelarvetes kasutatav eelarvemudel.

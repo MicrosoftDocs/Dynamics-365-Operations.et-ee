@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 503150e7cfc580821c5ed8d4c4c9b56998f6ff13
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: f7c36fe230db38bfdbfd70fec7bdfd0a313d5a15
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8869716"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015837"
 ---
 # <a name="create-functional-locations"></a>Töö asukohtade loomine
 
@@ -41,7 +41,7 @@ Töö asukohtadega töötamiseks alustage kahe töö asukoha „kategooria” lo
 
 Kui kasutate töö asukohti, alustage uue vara loomisel ühe vaikeasukoha loomisega. See töö asukoht on see, mille teete valikus **Varahaldus** > **Seadistus** > **Varahalduse parameetrid** > **Vara** link > väli **Töö vaikeasukoht**. Töö vaikeasukohta saab kasutada uute varade loomisel ja kui te pole veel seadistanud nende varade jaoks töö asukoha struktuuri.
 
-1. Valige **Varahaldus** > **Ühine** > **Töö asukohad** > **Kõik töö asukohad**.  
+1. Valige **Varahalduse funktsionaalsed** > **asukohad** > **Kõik funktsionaalsed asukohad**.  
 2. Tehke funktsioonis **Kõik töö asukohad** valik **Uus**.
 3. Sisestage ID väljale **Töö asukoht**, näiteks „0000” või „vaikimisi”, et näidata, et see on spetsiaalne töö asukoht.
 4. Sisestage töö vaikeasukoha nimetus väljale **Nimi**.
@@ -53,7 +53,7 @@ Kui kasutate töö asukohti, alustage uue vara loomisel ühe vaikeasukoha loomis
 
 Järgnev protseduur kirjeldab, kuidas luua teie ettevõtte hoolduse haldamiseks vajalikke töö asukohti.
 
-1. Valige **Varahaldus** > **Ühine** > **Töö asukohad** > **Kõik töö asukohad**. Töö asukoha saate luua tabelivaates või üksikasjade vaates.
+1. Valige **Varahalduse funktsionaalsed** > **asukohad** > **Kõik funktsionaalsed asukohad**. Töö asukoha saate luua tabelivaates või üksikasjade vaates.
 2. Valige nupp **Uus**.
 3. Sisestage ID väljale **Töö asukoht**.
 4. Sisestage töö asukoha nimetus väljale **Nimi**.

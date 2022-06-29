@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a3fc3e6ef2332a883ef4a612a669142da1794454
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 6592b94105777525c777950132d5099d1e8abb0e
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8845050"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016735"
 ---
 # <a name="schedule-work-orders"></a>Töökäskude plaanimine
 
@@ -30,11 +30,11 @@ ms.locfileid: "8845050"
 
 See artikkel selgitab, kuidas planeerida varahalduses töötellimusi. 
 
-Töökäsu vajalikku tundide arvu määramiseks lahutatakse prognoositud tundide arvust sisestatud tunnid. Kui vaja on rohkem aega, tuleb prognoosi vastavalt kohandada. Jaotises **Varahaldus** > **Üldine** > **Töökäsud** > **Kõik töökäsud** või **Aktiivsed töökäsud** saate vaadata või redigeerida töökäsu prognoose, valides selleks töökäsu ja klõpsates nuppu **Prognoos** vahekaardil **Töökäsk**. Kui töökäsud on loodud ja prognoositud, on järgmiseks sammuks töökäsu täitmisel vajalike hooldustöötajate ja tööriistade määramine.
+Töökäsu vajalikku tundide arvu määramiseks lahutatakse prognoositud tundide arvust sisestatud tunnid. Kui vaja on rohkem aega, tuleb prognoosi vastavalt kohandada. Varahalduse **töötellimustes** > **·** > **·** **kõik** töötellimused või aktiivsed töötellimused saate vaadata või redigeerida töötellimuse prognoose, valides töötellimuse ja **klõpsates** **vahekaardil Töötellimus** nuppu Eelarve. Kui töötellimused on loodud ja hinnatud, on järgmine samm töötellimuste lõpuleviimiseks vajalike hooldustöötajate ja tööriistade andmine.
 
 Ajastada saab ainult sellise töökäsu töötsükli olekuga töökäske, mis lubavad ajastamist. Ajastamise lubamist seadistatakse jaotises **Varahaldus** > **Seadistus** > **Töökäsud** > **Töötsükli olekud** > **Üldine** kiirkaart > tumblernupp **Luba ajastamine**.
 
-1. Klõpsake **Varahaldus** > **Üldine** > **Töökäsud** > **Kõik töökäsud**.
+1. Klõpsake **varahalduse töötellimusi** > **·** > **kõiki töötellimusi**.
 
 2. Valige loendist need töökäsud, mida soovite ajastada. Näiteks võite loendit sortida, võttes aluseks **Praeguse töötsükli oleku**.
 
