@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e59271771a5f332ad8470b0b8f8f54b52a25543d
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 4c9495bbc8e5f7cb603c027a125887feba1f0e2d
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8671670"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9017199"
 ---
 # <a name="set-up-a-preferred-technician"></a>Eelistatud tehniku seadistamine 
 
@@ -31,13 +31,13 @@ Saate teenusleppe või teenuse tellimuse jaoks eelistatud tehnikuna valida mis t
 
 ## <a name="assign-employee-to-a-dispatch-team"></a>Töötaja lähetusmeeskonda määramine
 
-1.  Klõpsake valikuid **Inimressursid** \> **Üldine** \> **Töötajad** \> **Töötajad**. Topeltklõpsake töötajat tema üksikasjade lehe avamiseks. **Toimingupaanil** klõpsake valikuid **Seadistamine** \>**Lähetustöörühm**, et avada vorm **Töötajate lähetamine**.
+1.  Klõpsake **suvandit Inimressursside** \> **töötajad** \> **·**. Topeltklõpsake töötajat tema üksikasjade lehe avamiseks. **Toimingupaanil** klõpsake valikuid **Seadistamine** \>**Lähetustöörühm**, et avada vorm **Töötajate lähetamine**.
 
 2.  Väljal **Lähetustöörühm** valige töörühm, millesse tuleb töötaja määrata.
 
 ## <a name="assign-a-preferred-technician-to-a-service-agreement"></a>Eelistatud tehniku teenuseleppega töösse määramine
 
-1.  Klõpsake valikut **Hooldushaldus** \> **Üldine** \> **Hooldustellimused** \> **Hooldusleppegrupid**. Topeltklõpsake teenuslepet, et avada üksikasjade vorm.
+1.  Klõpsake teenusehalduse **teenuseleppeid** \> **Teenuselepped.** \> **·** Topeltklõpsake teenuslepet, et avada üksikasjade vorm.
 
 2.  Vahekaardil **Üldine** valige väli **Eelistatud tehnik** ja valige sobiva lähetustöörühma liige teenuseleppe eelistatud tehnikuks.
 

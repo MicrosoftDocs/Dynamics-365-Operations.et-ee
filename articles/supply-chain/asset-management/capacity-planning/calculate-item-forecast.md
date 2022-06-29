@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 2d0552c38ddc31ad6322e9e2e0f2c2c722c045f4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 25e9b00533fb183b27c1bbe616cf6f414b44b5e7
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8870896"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016097"
 ---
 # <a name="calculate-item-forecast"></a>Kauba prognoosi arvutamine
 
@@ -36,7 +36,7 @@ Nii nagu saate teha eelmises jaotises kirjeldatud täiskoormuse arvutusi, saate 
 
 See on kasulik, kui soovite saada ülevaadet konkreetse perioodi oodatavast kauba tarbimisest (nii varuosad kui ka muu kaup, mis on vajalik töökäsu lõpetamiseks). Kauba prognoosi arvutuse saab teha kõigile varadele või valitud varadele. Samuti saate teha arvutuse hoolduskatkestuse toimingule (**Kõik hoolduskatkestuse toimingud** või **Aktiivsed hoolduskatkestuse toimingud**) või töökäsu kaustale (**Kõik töökäsu kaustad** või **Aktiivsed töökäsu kaustad**).
 
-1. Klõpsake **Varahaldus** > **Päringud** > **Kauba prognoos** või **Varahaldus** > **Üldine** > **Töökäsu kaustad** > **Kõik töökäsu kaustad** / **Aktiivsed töökäsu kaustad** > valige loendist töökäsu kaust > nupp **Kauba prognoos** või **Varahaldus** > **Üldine** > **Hoolduskatkestuse toimingud** > **Kõik hoolduskatkestuse toimingud** / **Aktiivsed hoolduskatkestuse toimingud** > valige loendist hoolduskatkestuse toiming > nupp **Kauba prognoos**.
+1. Klõpsake varahalduse päringute kaubaprognoosi **või** > **·** > **·** **varahalduse töötellimuste kaustu kõik töötellimuste kaustad > valige töötellimuse kaustu loendist > Kaubaeelarve** > **·** > **·** / **või** Varahalduse hoolduse downtime-tegevused Kõik hoolduse downtime-tegevused **aktiivse hoolduse downtime-tegevused** **> valige loendilt > Kaubaeelarve** > **·** > **tegevus.** / **·** **·**
 
 2. Dialoogiboksis **Arvuta kauba prognoos** valige arvutuse periood väljadel **Alguskuupäev/aeg** ja **Lõppkuupäev/aeg**.
 

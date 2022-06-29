@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 015499463f1eab4aaa3f3658b3204229382e73cb
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 6e41a28ec922924b0ef86858a881280fd44bfe63
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8893638"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9014948"
 ---
 # <a name="procurement"></a>Hange
 
@@ -28,7 +28,7 @@ ms.locfileid: "8893638"
 
 Varahalduses saate ülevaate ostutaotlustega ja ostutellimustega seotud töökäskude kohta. Samuti on võimalik luua ostutellimus või ostutaotlus töökäsust.
 
-Loendis **Töökäsu ostutaotlus** (**Varahaldus** > **Tavaline** > **Hange** > **Töökäsu ostutaotlus**) on kuvatud töökäskudega seotud ostutaotlused. Kui valite sellelt lehelt töökäsu töö, saate kasutada toimingupaani vahekaardi **Töökäsu ostutaotlus** grupi **Kuva** nuppe, et sooritada mitmesuguseid toiminguid:
+Töötellimuse **ostutaotluse** loendileht (**Varahalduse** > **hanketöö** > **tellimuse ostutaotlus**) kuvab töötellimustega seotud ostutaotluste loendi. Kui valite sellelt lehelt töökäsu töö, saate kasutada toimingupaani vahekaardi **Töökäsu ostutaotlus** grupi **Kuva** nuppe, et sooritada mitmesuguseid toiminguid:
 
 - Seotud ostutaotluse avamiseks valige **Ostutaotlus**. 
 - Seotud töökäsu avamiseks valige **Töökäsk**.
@@ -39,7 +39,7 @@ Alloleval joonisel kuvatakse loendilehe **Töökäsu ostutaotlus** näide.
 ![Joonis 1.](media/08-work-orders.png)
 
 
-Loendis **Töökäsu ost** (**Varahaldus** > **Tavaline** > **Hange** > **Töökäsu ost**) on kuvatud töökäskudega seotud ostutellimused. Kui valite sellelt lehelt töökäsu töö, saate kasutada toimingupaani vahekaardi **Töökäsu ost** grupi **Kuva** nuppe, et sooritada mitmesuguseid toiminguid:
+Töötellimuse **ostuloendi** leht (**Varahalduse** > **hanketöötellimuse** > **ost**) kuvab töötellimustega seotud ostutellimuste loendi. Kui valite sellelt lehelt töökäsu töö, saate kasutada toimingupaani vahekaardi **Töökäsu ost** grupi **Kuva** nuppe, et sooritada mitmesuguseid toiminguid:
 
 - Seotud ostutellimuse avamiseks valige **Ostutellimus**. 
 - Seotud töökäsu avamiseks valige **Töökäsk**.
@@ -69,7 +69,7 @@ Ostutaotluse puhul kasutatakse võimaliku viivituse arvutamiseks lehe **Ostutaot
 
 Loendilehel **Kõik töökäsud** saate valida töökäsu töö ja seejärel luua seotud ostutellimuse või seotud ostutaotluse. Nii aitate tagada ostutellimuse või ostutaotluse ja töökäsu vahelise projektiseose olemasolu.
 
-1. Valige **Varahaldus** > **Üldine** > **Töökäsud** > **Kõik töökäsud** või **Aktiivsed töökäsud**.
+1. Valige **varahalduse töötellimused** > **·** > **kõik töötellimused või** aktiivsed **töötellimused**.
 
 2. Valige töökäsk, mille jaoks ostutellimus luua, ja seejärel valige **Redigeeri**.
 

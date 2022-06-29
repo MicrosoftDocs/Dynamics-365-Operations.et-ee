@@ -10,18 +10,30 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 34ac023bc5ee44987f6a36a1636cd343576e5d90
-ms.sourcegitcommit: b666289f5113d0a3fa2220fe337d5aacf07cbd92
-ms.translationtype: HT
+ms.openlocfilehash: ac750ede78bb4547f90b57426cc9cb10d2a282b3
+ms.sourcegitcommit: 78576abe5c7cbab1bb69d26c999b038e8c24873a
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/08/2022
-ms.locfileid: "8945719"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "8954659"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Mis on uut või mida on muudetud mobiilirakenduses Warehouse Management?
 
 [!include [banner](../includes/banner.md)]
 
 Selles artiklis loetletakse microsofti iga laohalduse mobiilirakenduse väljastatud versiooni uued funktsioonid, parandused, parendused ja teadaolevad probleemid Dynamics 365 Supply Chain Management.
+
+## <a name="version-20250"></a>Versioon 2.0.25.0
+
+See versioon tutvustab järgmisi uusi funktsioone, parandusi ja täiustusi:
+
+- Suurendatud jõudlus.
+- Suurendatud stabiilsus.
+- Täiustatud **päringulehte**, et toetada pikemaid tekste alampäises.
+- Tutvustatakse võimalust tühistada kohe voog ühe puudutusega või klõpsata (**Kui loobumine** on ainus toiming, mis on saadaval valikus Veel **tegevusi**).
+- Fikseeritud probleem, kus fookus võib vahel kaotsi minna ühenduslehe Redigeerimine **ja** kohandatud lehtede sisestuse juhtelementide vahel.
+- Fikseeritud probleem, mille puhul nupud võivad mõnikord muutuda vastutustundetuks ja jäävad kerimisvaatesse kaasamisel valituiks.
+- Probleemi lahendamiseks, kus põhilehel saab vahel kasutada vale paigutust.
 
 ## <a name="version-20240"></a>Versioon 2.0.24.0
 

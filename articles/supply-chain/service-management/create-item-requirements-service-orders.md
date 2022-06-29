@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5c2c90ff76121b436d0fec532268cd3383de0eab
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: f21cda0abb334432d22cc7e0ccfdab724253d91e
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8888408"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016945"
 ---
 # <a name="create-item-requirements-for-service-orders"></a>Kaubavajaduse loomine hooldustellimuste jaoks
 
@@ -34,14 +34,14 @@ Teenusetellimuste kaubavajadusi töödeldakse projekti kaudu. Teenusetellimusele
 
 ## <a name="create-an-item-requirement-for-a-service-order"></a>Teenustellimusele kaubavajaduse loomine
 
-1. **Teenusehaldus** \> **Üldine** \> **Hooldustellimused** \> **Hooldustellimused**.
+1. Minge teenusehalduse **teenusetellimuste** \> **teenusetellimuste** \> **loendisse**.
 1. Valige teenusetellimus, millele soovite kaubavajaduse luua.
 1. Klõpsake **Toimingupaani** vahekaardil **Lähetus** valikut **Kaubavajadus**.
 1. Sisestage vormil **Kaubavajadused** nõutava kauba teave. Konkreetsete väljade kohta lisateabe saamiseks vt jaotist [Kaubavajadused (vorm)](https://technet.microsoft.com/library/aa552021\(v=ax.60\)).
 
 ## <a name="create-an-item-requirement-for-a-service-agreement"></a>Teenusleppele kaubavajaduse loomine
 
-1. Valige **Teenusehaldus** \> **Üldine** \> **Hoolduslepped** \> **Hoolduslepped**.
+1. Minge teenusehalduse **teenuselepped** \> **teenuselepped.** \> **·**
 1. Avage teenuselepe, millele soovite kaubavajaduse luua.
 1. Tehke uue rea loomiseks kiirkaardil **Read** valik **Lisa**.
 1. Valige **Kaup** väljal **Kande tüüp**.
