@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b7a69cbca6e6f32812ea00a63751c931a8477991
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: e1648808667c8bb9487e7a47b87d8e73cf442d82
+ms.sourcegitcommit: d98ecbd9457197ec8f8e281f9c2f24dcce7b8269
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469250"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8960169"
 ---
 # <a name="demand-forecasting-overview"></a>Nõudluse prognoosimise ülevaade
 
@@ -91,19 +91,13 @@ Pange tähele, et nõudluse prognoosi mõõtühikul ei pea olema mingit kindlat 
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-[Nõudluse prognoosi häälestus](demand-forecasting-setup.md)
-
-[Statistilise alusprognoosi loomine](generate-statistical-baseline-forecast.md)
-
-[Alusprognoosis käsitsi korrigeerimiste tegemine](manual-adjustments-baseline-forecast.md)
-
-[Korrigeeritud prognoosi autoriseerimine](authorize-adjusted-forecast.md)
-
-[Prognoosi täpsuse jälgimine](monitor-forecast-accuracy.md)
-
-[Nõudluse prognoosi arvutamisel võõrväärtuste eemaldamine kandeandmete ajaloost](remove-historical-outliers-calculating-demand-forecast.md)
-
-[Nõudluse prognoosi funktsiooni pikendamine](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
-
+- [Nõudluse prognoosi häälestus](demand-forecasting-setup.md)
+- [Statistilise alusprognoosi loomine](generate-statistical-baseline-forecast.md)
+- [Alusprognoosis käsitsi korrigeerimiste tegemine](manual-adjustments-baseline-forecast.md)
+- [Korrigeeritud prognoosi autoriseerimine](authorize-adjusted-forecast.md)
+- [Prognoosi täpsuse jälgimine](monitor-forecast-accuracy.md)
+- [Nõudluse prognoosi arvutamisel võõrväärtuste eemaldamine kandeandmete ajaloost](remove-historical-outliers-calculating-demand-forecast.md)
+- [Video: nõudluse prognoosimise funktsiooni laiendamine](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
+- [Veebiseis: nõudluse prognoosimine Azure'i masina õppeseeriaga](https://aka.ms/DemandForecastingwithAzureMachineLearningSeries)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

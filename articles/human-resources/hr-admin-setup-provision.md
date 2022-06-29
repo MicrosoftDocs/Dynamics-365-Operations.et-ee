@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 341b14d493c85a1e94666fa7e07b80704645e5f1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 9d13372d8cc1f1f0f1407ea69bee4f98ae5065c2
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8858239"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015342"
 ---
 # <a name="provision-human-resources"></a>Human Resources'i ettevalmistus
 
@@ -143,7 +143,9 @@ Kasutage järgmisi juhiseid, kui otsustate, millisesse Power Appsi keskkonda rak
 6. Topeltkirjutuse võimalusi personaliandmete integreerimiseks Power Apps keskkonnaga saab kasutada ainult siis, kui keskkonna jaoks on valitud suvand **Luba Dynamics 365 rakendused**. Vaata [Topeltkirjutuse kodulehte](../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page.md) – lisateabe saamiseks topeltkirjutuse kohta.
 
     > [!NOTE]
-    > Suvand **Luba Dynamics 365** rakendused peab olema valitud keskkonna Power Apps loomise ajal. Kui suvandit ei ole ettevalmistamise ajal valitud, ei saa te topeltkirjutust kasutada andmete integreerimiseks Dynamics 365 Human Resources ja Power Apps keskkonna vahel ega installida Dynamics 365 rakendusi, näiteks Dynamics 365 Sales ja Field Service keskkonnale. See valik ei ole tühistatav. Lisateabe saamiseks vaata [Olulistest kaalutlustest uue keskkonna loomisel](/power-platform/admin/create-environment#some-important-considerations-when-creating-a-new-environment) Power Platform dokumentatsiooni saidil.
+    > Suvand **Luba Dynamics 365** rakendused peab olema valitud keskkonna Power Apps loomise ajal. Kui suvandit ei ole ettevalmistamise ajal valitud, ei saa te topeltkirjutust kasutada andmete integreerimiseks Dynamics 365 Human Resources ja Power Apps keskkonna vahel ega installida Dynamics 365 rakendusi, näiteks Dynamics 365 Sales ja Field Service keskkonnale. See valik ei ole tühistatav. 
+    > -  Inimressursid ei toeta lingitud eksemplari Dataverse muutmist, kui inimressursid on sellesse juurutatud. </br></br>
+    > Lisateabe saamiseks vaata [Olulistest kaalutlustest uue keskkonna loomisel](/power-platform/admin/create-environment#some-important-considerations-when-creating-a-new-environment) Power Platform dokumentatsiooni saidil.  
 
 7. Kui olete määratlenud kasutatava keskkonna, saate ettevalmistamise protsessiga jätkata. 
 

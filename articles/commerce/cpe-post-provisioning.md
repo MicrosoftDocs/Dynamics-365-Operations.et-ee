@@ -1,8 +1,8 @@
 ---
-title: Dynamics 365 Commerce'i hindamiskeskkonna konfigureerimine
-description: See artikkel selgitab, kuidas konfigureerida hindamiskeskkonda Microsoft Dynamics 365 Commerce pärast seda, kui see on eraldi.
+title: Einfo Dynamics 365 Commerce keskkonna konfigureerimine
+description: See artikkel selgitab, kuidas pärast Microsoft Dynamics 365 Commerce seda etteaidatud päevakast keskkonda konfigureerida.
 author: psimolin
-ms.date: 05/12/2022
+ms.date: 06/14/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,34 +14,34 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 19d88139e35554bce68bc6203141957b96e439a7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 259a580981003f135e234f66e9e93ceb18605412
+ms.sourcegitcommit: 252cb41c3029b623354698463f7b44a29fd9f184
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8892326"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9013105"
 ---
-# <a name="configure-a-dynamics-365-commerce-evaluation-environment"></a>Dynamics 365 Commerce'i hindamiskeskkonna konfigureerimine
+# <a name="configure-a-dynamics-365-commerce-sandbox-environment"></a>Einfo Dynamics 365 Commerce keskkonna konfigureerimine
 
 [!include [banner](includes/banner.md)]
 
-See artikkel selgitab, kuidas konfigureerida hindamiskeskkonda Microsoft Dynamics 365 Commerce pärast seda, kui see on eraldi.
+See artikkel selgitab, kuidas pärast Microsoft Dynamics 365 Commerce seda etteaidatud päevakast keskkonda konfigureerida.
 
-Viige selle artikli protseduurid lõpule alles siis, kui ärihindamiskeskkond on juba ette antud. Teavet selle kohta, kuidas Commerce’i hindamiskeskkonda ette valmistada, vaadake teemast [Commerce’i hindamiskeskkonna ettevalmistamine](provisioning-guide.md).
+Viige selle artikli protseduurid lõpule alles siis, kui teie Commerceboxi keskkond on juba eraldi antud. Lisateavet commerceboxi keskkonna ettevalmistamise kohta vt Commerceboxi [keskkonna ettesätestamine](provisioning-guide.md).
 
-Pärast seda, kui teie Commerce'i hindamiskeskkond on täielikult ettevalmistatud, tuleb lõpule viia ettevalmistusjärgsed konfigureerimisetapid, enne kui saate hakata keskkonda hindama. Nende sammude lõpetamiseks peate kasutama teenust Microsoft Dynamics Lifecycle Services (LCS) ja rakendust Dynamics 365 Commerce.
+Pärast äriportaali keskkonna lõpetamist tuleb enne keskkonna kasutamist lõpule viia täiendavad järelettevalmistamise konfiguratsiooni etapid. Nende sammude lõpetamiseks peate kasutama teenust Microsoft Dynamics Lifecycle Services (LCS) ja rakendust Dynamics 365 Commerce.
 
 ## <a name="before-you-start"></a>Enne alustamist
 
 1. Logige sisse [LCS portaali](https://lcs.dynamics.com).
 1. Avage oma projekt.
-1. Ülemises menüüs valige suvand **Pilve majutatud keskkonnad**.
 1. Valige loendist oma keskkond.
 1. Valige paremal olevast keskkonna teabest **Keskkonda sisselogimine**. Teid suunatakse Commerce'i peakontorisse.
-1. Veenduge, et **USRT** juriidiline isik on valitud ülemises parempoolses nurgas.
-1. Minge Commerce'i **parameetrite \> konfiguratsiooniparameetritele** **ja veenduge, et productSearch.UseAzureSearch** oleks kirje ja et väärtuseks on seatud **Tõene**. Kui see kirje puudub, saate selle lisada, **·** **seada väärtuseks Tõene ja seejärel valida kanali \>** andmebaasi andmete täielik sünkroonimine commerce Scale Uniti jaoks, mis on seotud teie e-äri veebisaidiga.
+1. Veenduge, et **USRT** juriidiline isik on valitud ülemises parempoolses nurgas. See juriidiline isik on demoandmetes eelkonfigureeritud.
+1. Minge Commerce'i **parameetrite \> konfiguratsiooniparameetritele** **ja veenduge, et productSearch.UseAzureSearch** oleks kirje ja et väärtuseks on seatud **Tõene**. Kui see kirje puudub, lisage see ja seadke väärtuseks **Tõene**.
 1. Minge rakenduse **Retail ja Commerce \> Headquarters häälestamise rakenduse \> Commerce andmeedastaja \> lähtestamiseks**. Menüüs Lähtesta **äriedastaja** väljaminek seadke suvandi **Kustuta olemasolev konfiguratsioon väärtuseks** Jah **ja** seejärel valige **OK**.
-1. Kanalite lisamiseks Commerce Scale Unitile minge **Rakenduse Retail ja Commerce \> Headquarters \> häälestamise rakenduse Commerce andmeedastaja \> kanali** andmebaasi ja valige vasakul paanil Commerce Scale Unit. Jaemüügikanali **kiirkaardil** lisage **AW-e-pood**, **AW Businesse e-pood** ja **Fabrikami laiendatud võrgupoe kanalid**. Valikuna saate lisada ka jaekauplusi, kui kasutate kassat (nt Seattle, **San Maria** ja **SanTagem**). **·**
+1. Kaupluse ja e-äri kanalite õigeks tööks tuleb need lisada Commerce Scale Uniti. Minge Rakenduse **Retail ja Commerce \> Headquarters häälestamise \> rakenduse Commerce andmeedastaja \> kanali** andmebaasi ja valige vasakul paanil Commerce Scale Unit. Kui plaanite **neid** e-ärikanaleid kasutada, **lisage jaemüügikanali kiirkaardil AW-e** e-pood, **AW** Business **e-pood ja Fabrikami** laiendatud võrgupoe kanalid. Soovi korral saate lisada jaekauplusi ka juhul, kui kasutate kassat (**nt Seattle**, **San Francisco** ja/või **SanTagem**).
+1. Kõikide muudatuste kanali andmebaasiga sünkroonimise tagamiseks valige **Commerce Scale Uniti jaoks \>** kanali andmebaasi andmete täielik sünkroonimine.
 
 Commerce'i peakontori ettevalmistusjärgsete tegevuste käigus veenduge, et juriidiline isik **USRT** oleks alati valitud.
 
@@ -52,7 +52,7 @@ Commerce'i peakontori ettevalmistusjärgsete tegevuste käigus veenduge, et juri
 Töötaja seostamiseks Commerce'i peakontoris oma identiteediga toimige järgmiselt.
 
 1. Kasutage vasakul asuvat menüüd, et avada **Moodulid \> Jaemüük ja kaubandus \> Töövõtjad \> Töötajad**.
-1. Otsige loendist ja valige kirje **000713 – Andrew Collette**.
+1. Otsige loendist ja valige kirje **000713 – Andrew Collette**. See näite kasutaja on seotud San Francisco kauplusega, mida kasutatakse järgmises jaotises.
 1. Valige toimingupaanil **Kaubandus**.
 1. Valige **Seosta olemasolev identiteet**.
 1. Väljale **Meil**, mis on paremal pool väljast **Otsi meili abil**, sisestage oma meiliaadress.
@@ -76,24 +76,24 @@ Pilve kassa aktiveerimiseks järgige LCS-is neid etappe.
 1. Valige **Aktiveeri**. Olete välja logitud ja viidud Kassa sisselogimise lehele.
 1. Nüüd saate pilve kassasse sisse logida, kasutades operaatori ID-d **000713** ja parooli **123**.
 
-## <a name="set-up-your-site-in-commerce"></a>Saidi seadistamine Commerce'is
+## <a name="set-up-your-e-commerce-sites"></a>Seadistage oma e-äri saidid
 
-Et alustada oma hindamise saidi seadistamist Commerce'is, toimige järgmiselt.
+Saadaval on kolm e-kaubanduse demosaiti: Fabrikam, Adventure Works ja Adventure Works Business. Järgige iga demosaidi konfigureerimiseks alltoodud samme.
 
 1. Logige saidiehitajasse sisse, kasutades URL-i, mille märkisite üles, kui te e-kaubanduse lähtestamist ette valmistasite (vt [e-kaubanduse lähtestamine](provisioning-guide.md#initialize-e-commerce)).
-1. Klõpsake saidil **Fabrikam**, et avada saidi häälestuse kast.
-1. Valige domeen, mille sisestasite e-kaubanduse lähtestamisel.
-1. Vaikimisi kanali jaoks valige **Fabrikami laiendatud e-pood**. (Veenduge, et valite **laiendatud** e-poe.)
+1. Valige sait (Fabrikam **,** Adventure Works **või** Adventure Works Business **), et avada saidi** seadistuse dialoogiboks.
+1. Valige domeen, mille sisestasite Commerce'i lähtestamisel.
+1. Peakontoris valige eelkonfigureeritud võrgupoe kanal (**Fabrikami laiendatud e-pood**, **AW** **e-pood või AW Business e-pood**), mis vastab vaikekanalile.
 1. Vaikekeeleks valige **en-us**.
-1. Jätke välja **tee** väärtus nii, nagu see on.
+1. Konfigureerige tee väljad. Ühe saidi puhul võib selle tühjaks jätta, kuid see tuleb konfigureerida, kui kasutate mitme saidi puhul sama domeeninime. Näiteks kui `https://www.constoso.com` domeeni nimi on, saate kasutada tühja teed Fabrikami (`https://contoso.com`) jaoks ja seejärel kasutada "aw" Adventure Worksi (`https://contoso.com/aw`) ja "awbusiness" jaoks Adventure Worksi ärisaidil (`https://contoso.com/awbusiness`).
 1. Valige nupp **OK**. Kuvatakse saidi lehtede loend.
-1. Korrake samme 2–7 **AdventureWorks** saidi puhul (**mis vastendab AW** võrgupoe kanaliga) **AdventureWorks ja Ettevõtte** saidiga (mis **vastendab AW Businessi võrgupoe kanalile**). **Kui** Fabrikami saidi tee väli on tühi, AdventureWorks peate lisama teed kahele saidile (nt awbusiness").
+1. Valikuliselt korrake samme 2-7 teiste demosaitide konfigureerimiseks vastavalt vajadusele.
 
 ## <a name="enable-jobs"></a>Tööde lubamine
 
 Commerce’is tööde lubamiseks tehke järgmist.
 
-1. Logige sisse keskkonda (HQ).
+1. Logige sisse peakontori keskkonda.
 1. Kasutades menüüd vasakul, avage **Jaemüük ja kaubandus \> Päringud ja aruanded \> Pakett-tööd**.
 
     Selle protseduuri ülejäänud sammud peavad olema täidetud iga järgmise töö puhul:
@@ -146,12 +146,11 @@ Selleks, et sooritada testi kandeid saidil, saate kasutada järgmist testi kredi
 
 ## <a name="next-steps"></a>Järgmised etapid
 
-Pärast ettevalmistamise ja konfigureerimise etappide lõpule viimist, olete valmis oma hindamiskeskkonda kasutama. Kasutage Commerce'i saidiehitaja URL-i, et minna autorluskogemuse juurde. Kasutage Commerce'i saidi URL-i, et minna jaemüügi klientide saidikogemuse juurde.
+Pärast ettevalmistamise ja konfigureerimise sammude lõpuleviimist saate hakata kasutama oma sisendkausta keskkonda. Kasutage Commerce'i saidiehitaja URL-i, et minna autorluskogemuse juurde. Kasutage Commerce'i saidi URL-i, et minna jaemüügi klientide saidikogemuse juurde.
 
-Teavet selle kohta, kuidas Commerce’i hindamiskeskkonna valikulisi funktsioone konfigureerida, vaadake teemast [Commerce’i hindamiskeskkonna valikuliste funktsioonide konfigureerimine](cpe-optional-features.md).
+Rakenduse Commercebox keskkonna valikuliste funktsioonide konfigureerimiseks vt [Commerceboxi keskkonna valikuliste funktsioonide konfigureerimine](cpe-optional-features.md).
 
-> [!NOTE]
-> Commerce'i hindamiskeskkonnad on eellaaditud Azure Active Directory (Azure AD) ettvõttelt tarbijale (B2C) rentnikule demo eesmärgil. Oma Azure AD B2C rentniku konfigureerimine ei ole hindamiskeskkondade jaoks vajalik. Kui aga konfigureerite hindamiskeskkonda oma Azure AD B2C rentniku kasutamiseks, lisage ``https://login.commerce.dynamics.com/_msdyn365/authresp`` see Azure AD Azure Portaali kaudu B2C-rakendusele vastuse URL-ina.
+Selleks, et e-äri kasutajad e-kaubandussaidile sisse logida, on vaja täiendavat konfiguratsiooni, Azure Active Directory et lubada saidi autentimine ettevõtete-tarbe (B2C) kaudu. Juhiseid vt B2C [rentniku häälestamise kohta äris](set-up-b2c-tenant.md).
 
 ## <a name="troubleshooting"></a>Tõrkeotsing
 
@@ -177,15 +176,11 @@ Commerce versioonis 10.0.26 tarnitud demoandmetel oli varem viga **, kus AW Busi
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-[Dynamics 365 Commerce'i hindamiskeskkonna ülevaade](cpe-overview.md)
+[Info keskkonna Dynamics 365 Commerce ettevalmistamine](provisioning-guide.md)
 
-[Dynamics 365 Commerce'i hindamiskeskkonna ettevalmistamine](provisioning-guide.md)
+[Valikuliste funktsioonide konfigureerimine kausta Dynamics 365 Commerce keskkonna jaoks](cpe-optional-features.md)
 
-[Dynamics 365 Commerce'i hindamiskeskkonna valikuliste funktsioonide konfigureerimine](cpe-optional-features.md)
-
-[BOPIS-e konfigureerimine Dynamics 365 Commerce'i hindamiskeskkonnas](cpe-bopis.md)
-
-[Dynamics 365 Commerce'i hindamiskeskkonna KKK](cpe-faq.md)
+[BOPIS-i konfigureerimine Dynamics 365 Commerce sisendkausta keskkonnas](cpe-bopis.md)
 
 [Microsofti elutsükli teenused (LCS)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 

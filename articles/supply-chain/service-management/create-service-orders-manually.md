@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f969e3de9586c0c47214201b34a16f8afad5ca90
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 1764d97d4492e7b982a5d2c9f7e7f1c15380be1d
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678258"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9014847"
 ---
 # <a name="create-service-orders-manually"></a>teenustellimuste loomine käsitsi    
 
@@ -34,7 +34,7 @@ Hooldustellimusi saate luua käsitsi hoolduslepete või vormi **Hooldustellimuse
 
 ## <a name="create-a-service-order-manually-from-a-service-agreement"></a>Hooldustellimuse käsitsi loomine hooldusleppest
 
-1.  Valige **Teenusehaldus** \> **Üldine** \> **Hoolduslepped** \> **Hoolduslepped**.
+1.  Valige teenusehalduse **teenuselepped** \> **teenuselepped.** \> **·**
 
 2.  Valige teenuslepe või looge uus teenuslepe.
 
@@ -42,7 +42,7 @@ Hooldustellimusi saate luua käsitsi hoolduslepete või vormi **Hooldustellimuse
 
 ## <a name="create-a-service-order-manually-in-the-service-orders-form"></a>teenustellimuse käsitsi loomine teenustellimuse vormi abil
 
-1.  Valige **Teenusehaldus** \> **Üldine** \> **Hooldustellimused** \> **Hooldustellimused**.
+1.  Valige **teenusehalduse teenusetellimused** \> **teenusetellimused.** \> **·**
 
 2.  Valige uue hooldustellimuse loomiseks **Uus**.
 
@@ -53,7 +53,7 @@ Hooldustellimusi saate luua käsitsi hoolduslepete või vormi **Hooldustellimuse
 
 ## <a name="create-a-service-order-from-a-project"></a>Hooldustellimuse loomine projektist
 
-1.  Valige **Projektihaldus ja raamatupidamine** \> **Üldine** \> **Projektid** \> **Kõik projektid**.
+1.  Avage **Projektihaldus ja raamatupidamine** \> **Projektid** \> **Kõik projektid**.
 
 2.  Valige vormi **Projektid** **Toimingupaanil** vahekaart **Halda** \> **Teenus** \> **Hooldustellimused**.
 
@@ -66,7 +66,7 @@ Hooldustellimusi saate luua käsitsi hoolduslepete või vormi **Hooldustellimuse
 
 Vormilt **Müügitellimused** saate hooldustellimuse luua viisardi **Loo müügitellimuse põhjal uus hooldustellimus** abil.
 
-1.  Valige **Müük ja turundus** \> **Üldine** \> **Müügitellimused** \> **Kõik müügitellimused**.
+1.  Avage **Müük ja turundus** \> **Müügitellimused** \> **Kõik müügitellimused**.
 
 2.  Avage asjakohane müügitellimus.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aa326a01bb63bd0b59c0df7a3c751a5242a3dd37
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: c43424a0955d7a046186e8a4120c050990df6060
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872090"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015052"
 ---
 # <a name="condition-assessment"></a>Tingimuse hindamine
 
@@ -47,7 +47,7 @@ Seisundi hindamine on loodud varadele. Enne tingimuse hindamise protseduuri tege
 
 ## <a name="create-condition-assessment-registration-on-an-asset"></a>Vara seisundi hindamise registreerimise loomine
 
-1. Valige **Varahaldus** > **Ühised** > **Varad** > **Kõik varad**.
+1. Valige **Varahaldus** > **Varad** > **Kõik Varad**.
 2. Valige loendist või hankija, kellele soovite kontakti luua.
 3. Klõpsake vahekaardi **Üldine** nuppu **Hõlbustusvahendid**.
 4. Uue reegli loomiseks klõpsake valikut **Uus**.
@@ -62,7 +62,7 @@ Seisundi hindamine on loodud varadele. Enne tingimuse hindamise protseduuri tege
 Pärast seda, kui olete teinud seisundi hindamise registreerimise, saate seisundi hindamise aruande printida.
 
 >[!NOTE]
->Samuti saate registreerida seisundi hindamise töökäsul (**Varahaldus** > **Ühised** > **Töökäsud** > **Kõik töökäsud** > **Seisundi hindamise** nupp.)
+>Saate registreerida ka töötellimuse tingimuse hindamise (**varahalduse töötellimused** > **·** > **Kõigi töötellimuste tingimuste** > **hindamise** nupp.)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

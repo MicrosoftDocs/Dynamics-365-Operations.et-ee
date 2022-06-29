@@ -1,8 +1,8 @@
 ---
-title: Dynamics 365 Commerce'i hindamisekeskkonna ettevalmistamine
-description: See artikkel selgitab, kuidas hindamiskeskkonda Microsoft Dynamics 365 Commerce ette näha.
+title: Info keskkonna Dynamics 365 Commerce ettevalmistamine
+description: See artikkel selgitab, kuidas valmis demo- Microsoft Dynamics 365 Commerce või kaustakasutust koos sisseehitatud demoandmetega ette kasutada.
 author: psimolin
-ms.date: 12/17/2020
+ms.date: 06/14/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,138 +15,64 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 52a263d1ab833eb688b1049cd4e8c584e8c9a94d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 3ada30fc9d86d236b71d018ef77f2ae8573f2285
+ms.sourcegitcommit: 252cb41c3029b623354698463f7b44a29fd9f184
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8868905"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9013130"
 ---
-# <a name="provision-a-dynamics-365-commerce-evaluation-environment"></a>Dynamics 365 Commerce'i hindamisekeskkonna ettevalmistamine
+# <a name="provision-a-dynamics-365-commerce-sandbox-environment"></a>Info keskkonna Dynamics 365 Commerce ettevalmistamine
 
 [!include [banner](includes/banner.md)]
 
-See artikkel selgitab, kuidas hindamiskeskkonda Microsoft Dynamics 365 Commerce ette näha.
+See artikkel kirjeldab, kuidas kasutada mestiboksi Microsoft Dynamics 365 Commerce keskkonda demokasutuseks sisseehitatud demoandmetega. Tootmiskeskkonna seadistamise protsess on sarnane, kuid täpsustab seda, kuna demoandmetes on juba esitatud paljud eeltingimuseks olevad keskkonnad.
 
 Enne alustamist soovitame teil selle artikli kaudu kiiresti skannida, et saada aimu, mida protsess nõuab.
 
-> [!NOTE]
-> Commerce'i hindamiskeskkonnad pole üldiselt kättesaadavad ja antakse partneritele ning klientidele taotluse alusel. Lisateabe saamiseks pöörduge oma Microsofti partneri kontakti poole.
+Commerceboxi keskkonna edukaks ettevalmistamiseks peate täpsustama mõned keskkonna ja Commerce Scale Uniti (CSU) parameetrid, mida kasutatakse Äri hilisemal eraldise puhul. Selle artikli juhised kirjeldavad kõiki etappe, mis on vajalikud selleks, et ettevalmistamine lõpule viia, ja parameetreid, mida peate kasutama.
 
-Oma Commerce’i hindamiskeskkonna edukaks ettevalmistamiseks peate looma projekti, millel on kindel toote nimi ja tüüp. Keskkonnal ja Commerce Scale Unitil (CSU) on samuti mõned konkreetsed parameetrid, mida peate kasutama, kui loodate hiljem e-kaubandust ette valmistada. Selle artikli juhised kirjeldavad kõiki etappe, mis on vajalikud selleks, et ettevalmistamine lõpule viia, ja parameetreid, mida peate kasutama.
+Pärast Ärikeskkonna edukat ettevalmistamist peate selle kasutamiseks sooritama mõned järelettevalmistamise sammud. Sõltuvalt kasutatava süsteemi aspektidest on mõned sammud valikulised. Võite valikulised etapid alati hiljem läbida.
 
-Pärast seda, kui olete oma Commerce’i hindamiskeskkonna edukalt ette valmistanud, peate viima lõpule mõned ettevalmistamisjärgsed etapid selle kasutamiseks valmistumiseks. Mõned etapid on valikulised, olenevalt sellest, milliseid süsteemi aspekte soovite hinnata. Võite valikulised etapid alati hiljem läbida.
-
-Teavet selle kohta, kuidas Commerce’i hindamiskeskkonda pärast ettevalmistamist konfigureerida, vaadake teemast [Commerce’i hindamiskeskkonna konfigureerimine](cpe-post-provisioning.md). Teavet selle kohta, kuidas Commerce’i hindamiskeskkonna valikulisi funktsioone konfigureerida, vaadake teemast [Commerce’i hindamiskeskkonna valikuliste funktsioonide konfigureerimine](cpe-optional-features.md).
+Lisateavet Ärikeskkonna konfigureerimise kohta pärast selle ülesseadmist vt [Commerceboxi keskkonna konfigureerimine](cpe-post-provisioning.md). Lisateavet rakenduse Commerce keskkonna valikuliste funktsioonide konfigureerimise kohta vt [Commerceboxi keskkonna valikuliste funktsioonide konfigureerimisest](cpe-optional-features.md).
 
 ## <a name="prerequisites"></a>Eeltingimused
 
-Enne Commerce’i hindamiskeskkonna ettevalmistamist peavad olema kehtestatud järgmised eeltingimused.
+Enne Commerce'i keskkonna kasutamist peavad olema täidetud järgmised eeltingimused:
 
-- Teid on teavitatud hindamisprogrammist ja teile on antud hindamiskeskkonna suutlikkus.
 - Teil on juurdepääs Microsoft Dynamicsi portaalile Lifecycle Services (LCS).
-- Olete olemasolev Microsoft Dynamics 365 partner või klient ja olete võimeline looma Dynamics 365 Commerce’i projekti.
-- Teil on administraatori juurdepääs Microsoft Azure'i kordustellimusele või teil on võimalik võtta ühendust kordustellimuse administraatoriga, kes saab vajadusel teid abistada.
-- Teie Azure Active Directory (Azure AD) rentniku ID on saadaval.
-- Olete loonud Azure AD turberühma, mida saab kasutada e-kaubanduse süsteemiadministraatorite grupina ja mille ID on saadaval.
-- Olete loonud Azure AD turberühma, mida saab kasutada hinnangute ja arvustuste moderaatori grupina ja mille ID on saadaval. (See turberühm võib olla sama, mis e-kaubanduse süsteemiadministraatorite grupp.)
+- Te olete olemasolev Microsoft Dynamics 365 partner või klient ning teil on juba loodud rakendusprojekt, mis on LCS-s kasutamiseks juba loodud.  
+- Olete loonud Azure Active Directory (Azure AD) turvagrupi, mida saab kasutada Commerce'i süsteemi administraatorigrupina ja teil on selle ID saadaval.
+- Olete loonud turvagrupi Azure AD, mida saab kasutada hinnangute ja ülevaatete moderaatori grupina ja teil on selle ID saadaval. (See turvagrupp võib olla sama mis Commerce'i süsteemi administraatorigrupp.)
+- Juurutanud peakontori eksemplari LCS-i sees. Lisateavet vt teemast Uue [keskkonna juurutamine](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure).
 
 Pange tähele, et see loend pole ammendav. Kui teil ilmneb mõni probleem, peaksite abi saamiseks pöörduma oma Microsofti partneri kontakti poole.
 
-## <a name="provision-your-commerce-evaluation-environment"></a>Oma Commerce’i hindamiskeskkonna ettevalmistamine
+## <a name="provision-your-commerce-environment"></a>Ärikeskkonna ettevalmistamine
 
-Need protseduurid selgitavad, kuidas valmistada ette Commerce’i hindamiskeskkonda. Pärast nende edukat lõpule viimist on Commerce’i hindamiskeskkond konfigureerimiseks valmis. Kõik siin kirjeldatud tegevused esinevad LCS portaalis.
-
-### <a name="create-a-new-project"></a>Loo uus projekt
-
-LCS-is uue projekti loomiseks toimige järgmiselt.
-
-1. LCS-i avalehel valige projekti loomiseks plussmärk (**+**).
-1. Parempoolsel paanil järgige ühte järgmistest etappidest.
-
-    - Kui olete partner, valige suvand **Migreerimine, lahenduste loomine ja teave**.
-    - Kui olete klient, valige suvand **Potentsiaalsed eelmüügid**.
-
-1. Sisestage nimi, kirjeldus ja valdkond.
-1. Valige väljal **Toote nimi** suvand **Dynamics 365 Commerce**.
-1. Valige väljal **Toote versioon** suvand **Dynamics 365 Commerce**.
-1. Väljal **Metoodika** valige **Dynamics Retail juurutamise metoodika**.
-1. Valikuline: võite portida rollid ja kasutajad olemasolevast projektist.
-1. Valige **Loo**. Kuvatakse projekti vaade.
-
-### <a name="add-the-azure-connector"></a>Azure’i konnektori lisamine
-
-Azure'i konnektori lisamiseks oma LCS-i projekti, järgige etappe teemas [Azure Resource Manageri (ARM) sisseelamisprotsessi lõpule viimine](../fin-ops-core/dev-itpro/deployment/arm-onboarding.md).
-
-### <a name="deploy-the-environment"></a>Keskkonna juurutamine
-
-Keskkonna juurutamiseks tehke järgmist.
-
-> [!NOTE]
-> Võimalik, et te ei pea samme 6, 7 ja/või 8 läbima, kuna ühe suvandi ekraanid jäetakse vahele. Kui olete vaates **Keskkonna parameetrid**, kinnitage, et tekst **Dynamics 365 Commerce (eelvaade) – demo (10.0.* x* platvormi värskendus *xx*)** kuvatakse otse välja **Keskkonna nimi** kohal. Üksikasju vt jooniselt, mis kuvatakse pärast sammu 8.
-
-1. Ülemises menüüs valige suvand **Pilve majutatud keskkonnad**.
-1. Valige suvand **Lisa** keskkonna lisamiseks.
-1. Väljal **Rakenduse versioon** valige uusim versioon. Kui teil on konkreetne vajadus valida rakenduse versioon, mis ei ole kõige uuem versioon, ärge valige varasemat versiooni kui **10.0.14**.
-1. Kasutage väljal **Platvormi versioon** platvormi versiooni, mis valitakse automaatselt valitud rakenduse versiooni jaoks. 
-
-    ![Rakenduse ja platvormi versioonide valimine.](./media/project1.png)
-
-1. Valige **Edasi**.
-1. Valige keskkonna topoloogiaks **Demo**.
-
-    ![Keskkonna topoloogia valimine 1.](./media/project2.png)
-
-1. Lehel **Keskkonna juurutamine** sisestage keskkonna nimi. Jätke täpsemad sätted nii nagu need on.
-
-    ![Keskkonna juurutamise leht.](./media/project4.png)
-
-1. Kohandage VM-i suurust vastavalt vajadusele. (Soovitame VM-i varude arvestusühikut \[SKU\] **D13 v2**.)
-1. Vaadake üle hinnakujunduse ja litsentsimise tingimused ning märkige ruut, et näidata, et olete nendega nõus.
-1. Valige **Edasi**.
-1. Juurutamise kinnituse lehel kinnitage, et üksikasjad oleksid õiged ja valige seejärel nupp **Juuruta**. Olete naasnud vaatesse **Pilve majutatud keskkonnad** ja teie keskkond peaks ilmuma loendis.
-
-    Teie soovitud keskkond ilmub järjekorras ja seejärel juurutatakse. Keskkonna töövoogude lõpule viimine võtab aega. Seetõttu kontrollige umbes kuue kuni üheksa tunni pärast uuesti.
-
-1. Enne jätkamist veenduge, et teie keskkonna olek oleks **Juurutatud**.
+Järgmistes protseduurides selgitatakse, kuidas ärikeskkonda ette näha. Pärast sammude edukat lõpule viimist on ärikeskkond konfigureerimiseks valmis. Kõik allpool kirjeldatud sammud toimuvad LCS-i portaalis.
 
 ### <a name="initialize-the-commerce-scale-unit-cloud"></a>Commerce Scale Uniti (pilv) lähtestamine
 
 CSU lähtestamiseks tehke järgmist.
 
-1. Vaates **Pilve majutatud keskkonnad** valige loendist oma keskkond.
-1. Valige paremal olevast keskkonna vaatest **Täielik teave**. Ilmub keskkonna üksikasjade vaade.
-1. Jaotises **Keskkonna funktsioonid** valige käsk **Halda**.
-1. Vahekaardil **Kaubandus** valige käsk **Lähtesta**. Ilmub CSU lähtestamise parameetrite vaade.
-1. Valige väljal **Piirkond** see piirkond, mis on sama või asub selle piirkonna lähedal, kuhu te keskkonna juurutasite.
-1. Ärge muutke välja **Versioon**.
+1. LCS-s valige loendist oma keskkond.
+1. **Valige paremal vaates ENVIRONMENTS** täielikud **üksikasjad**. Ilmub keskkonna üksikasjade vaade.
+1. Jaotises Keskkonna **haldamine jaotises** KESKKONNAFUNKTSIOONID **valige** Haldamine **·**.
+1. Vahekaardil Commerce **Scale Units (** Äriskaala ühikud) tehke valik **Initialize (Lähtesta**). Kuvatakse **kaaluühiku** lisamise vaade.
+1. **Väljal REGION** valige piirkond, mis on sama või lähedal regioonile, kus te juurutaste keskkonna.
+1. **Ripploendist** Versioon valige uusim saadav versioon.
 1. Valige **Lähtesta**.
-1. Juurutamise kinnituse lehel kinnitage, et üksikasjad oleksid õiged ja valige seejärel nupp **Jah**. Vaade **Kaubanduse haldus** kuvatakse uuesti, kus vahekaart **Kaubandus** on valitud. Teie CSU on ettevalmistamiseks ootele pandud.
-1. Enne jätkamist veenduge, et teie CSU olek oleks **Õnnestus**. Lähtestamiseks kulub umbes kaks kuni viis tundi.
+1. Valige hoiatusdialoogiaknas, kus soovite kinnitada Commerce Scale Uniti lähtestamise, valik **Jah**. CSU on nüüd uuesti väljastatav.
+1. Enne jätkamist veenduge, et teie CSU olek on **edukas**. Lähtestamiseks kulub umbes kaks kuni viis tundi.
 
 Kui te ei leia keskkonna üksikasjade vaates linki **Halda**, võtke abi saamiseks ühendust oma Microsofti kontaktiga.
 
-Juurutamisprotsessi käigus võite saada järgmise tõrketeate.
-
-> Hindamiskeskkonnad (demo/test) peavad peakontoris registreerima skaalaüksuse konnektori rakenduse \<application ID\>.
-
-Kui CSU lähtestamine nurjub ja te saate selle tõrketeate, tehke märkus rakenduse ID kohta, mis on globaalne ainuidentifikaator (GUID) ja seejärel järgige järgmise jaotise etappe CSU juurutamise rakenduse registreerimiseks Commerce'i peakontoris.
-
-### <a name="register-the-csu-deployment-application-in-commerce-headquarters-if-required"></a>CSU juurutuse rakenduse registreerimine Commerce peakontoris (vajadusel)
-
-CSU juurutuse rakenduse registreerimiseks Commerce'i peakontoris toimige järgmiselt.
-
-1. Avage Commerce'i peakontoris **Süsteemihaldus \> Seadistus \> Azure Active Directory rakendused**.
-1. Sisestage veergu **Kliendi ID** rakenduse ID saadud CSU lähtestamise tõrketeatest.
-1. Sisestage veergu **Nimi** mistahes kirjeldav tekst (nt **CSU hinnang**).
-1. Sisestage veergu **Kasutaja ID** väärtus **RetailServiceAccount**.
-1. Proovige CSU lähtestamist ja LCS-i juurutamist uuesti.
-
 ### <a name="initialize-e-commerce"></a>E-kaubanduse lähtestamine
 
-E-kaubanduse lähtestamiseks tehke järgmist.
+Äri lähtestamiseks järgige neid samme.
 
-1. Vahekaardil **E-kaubandus** vaadake üle hindamise nõusolek ja seejärel valige suvand **Seadistus**.
+1. Vahekaardil **E-kaubandus** valige **Seadistus**.
 1. Sisestage nimi väljale **E-kaubanduse keskkonna nimi**. Võtke arvesse, et see nimi on nähtav mõnes URL-is, mis viitavad teie e-kaubanduse eksemplarile.
 1. Väljal **Commerce Scale Uniti nimi** valige loendist oma CSU. (Loendis peaks olema ainult üks valik.)
 
@@ -158,7 +84,7 @@ E-kaubanduse lähtestamiseks tehke järgmist.
 1.  Sisestage väljale **AAD turberühm hinnangute ja arvustuse moderaatorile** turberühma nime paar esimest tähemärki, mida soovite kasutada, ja seejärel valige suurendusklaasi sümbol otsingutulemuste kuvamiseks. Valige loendist õige turberühm.
 1. Jätke suvandi **Hinnangute ja arvustuse teenuse lubamine** väärtuseks **Jah**.
 1. Valige **Lähtesta**. Vaade **Kaubanduse haldus** kuvatakse uuesti, kus vahekaart **e-kaubandus** on valitud. E-kaubanduse lähtestamine on käivitatud.
-1. Enne jätkamist oodake, kuni teie e-kaubanduse lähtestamise olek on **Lähtestamine edukas**.
+1. Enne jätkamist oodake, kuni Commerce'i lähtestamise olek on **EDUKAS**.
 1. All paremal jaotises **Lingid** märkige järgmiste linkide URL-id:
 
     * **E-kaubanduse sait** – link teie e-kaubanduse saidi juurele.
@@ -166,19 +92,15 @@ E-kaubanduse lähtestamiseks tehke järgmist.
 
 ## <a name="next-steps"></a>Järgmised etapid
 
-Oma Commerce’i hindamiskeskkonna ettevalmistamise ja konfigueerimise protsessi jätkamiseks vaadake teemat [Commerce’i hindamiskeskkonna konfigureerimine](cpe-post-provisioning.md).
+Commerce'i keskkonna ettevalmistamise ja konfigureerimise jätkamiseks vaadake teemat [Rakenduse Commercebox keskkonna konfigureerimine](cpe-post-provisioning.md).
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-[Dynamics 365 Commerce'i hindamiskeskkonna ülevaade](cpe-overview.md)
+[Einfo Dynamics 365 Commerce keskkonna konfigureerimine](cpe-post-provisioning.md)
 
-[Dynamics 365 Commerce'i hindamiskeskkonna konfigureerimine](cpe-post-provisioning.md)
+[BOPIS-i konfigureerimine Dynamics 365 Commerce sisendkausta keskkonnas](cpe-bopis.md)
 
-[BOPIS-e konfigureerimine Dynamics 365 Commerce'i hindamiskeskkonnas](cpe-bopis.md)
-
-[Dynamics 365 Commerce'i hindamiskeskkonna valikuliste funktsioonide konfigureerimine](cpe-optional-features.md)
-
-[Dynamics 365 Commerce'i hindamiskeskkonna KKK](cpe-faq.md)
+[Valikuliste funktsioonide konfigureerimine kausta Dynamics 365 Commerce keskkonna jaoks](cpe-optional-features.md)
 
 [Microsofti elutsükli teenused (LCS)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 

@@ -1,8 +1,8 @@
 ---
-title: Dynamics 365 Commerce'i hindamiskeskkonna valikuliste funktsioonide konfigureerimine
-description: See artikkel selgitab, kuidas konfigureerida hindamiskeskkonna valikulisi Microsoft Dynamics 365 Commerce funktsioone.
+title: Valikuliste funktsioonide konfigureerimine kausta Dynamics 365 Commerce keskkonna jaoks
+description: See artikkel selgitab, kuidas konfigureerimine valikuliste funktsioonide jaoks sisendkausta Microsoft Dynamics 365 Commerce keskkonnas.
 author: psimolin
-ms.date: 07/16/2020
+ms.date: 06/14/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,24 +14,24 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 39d4784e21c4fb42ca218d507616d49eff309ee1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 201628eb0c3e81d5fee0df9e53d93f5b1839adfb
+ms.sourcegitcommit: 252cb41c3029b623354698463f7b44a29fd9f184
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8861910"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9013234"
 ---
-# <a name="configure-optional-features-for-a-dynamics-365-commerce-evaluation-environment"></a>Dynamics 365 Commerce'i hindamiskeskkonna valikuliste funktsioonide konfigureerimine
+# <a name="configure-optional-features-for-a-dynamics-365-commerce-sandbox-environment"></a>Valikuliste funktsioonide konfigureerimine kausta Dynamics 365 Commerce keskkonna jaoks
 
 [!include [banner](includes/banner.md)]
 
-See artikkel selgitab, kuidas konfigureerida hindamiskeskkonna valikulisi Microsoft Dynamics 365 Commerce funktsioone.
+See artikkel selgitab, kuidas konfigureerimine valikuliste funktsioonide jaoks sisendkausta Microsoft Dynamics 365 Commerce keskkonnas.
 
 ## <a name="prerequisites"></a>Eeltingimused
 
-Kui soovite hinnata ülekande meilifunktsioone, peavad olema täidetud järgmised eeltingimused.
+Kui soovite kande meilifunktsiooni demosse saata, peavad olema täidetud järgmised eeltingimused:
 
-- Teil on meiliserver saadaval (Simple Mail Transfer Protocol \[SMTP\] server), mida saab kasutada Microsoft Azure'i tellimuses, kus te hindamiskeskkonda ette valmistate.
+- Teil on saadav meiliserver (Simple Mail Transfer Protocol \[SMTP\] server), Microsoft Azure mida saab kasutada kordustellimusest, kus olete edastanud sisendkausta keskkonna.
 - Teile on saadaval serveri täielikult kvalifitseeritud domeeni nimi (FQDN)/IP aadress, SMTP pordi number ja autentimise üksikasjad.
 
 ## <a name="configure-the-image-back-end"></a>Kujutise konfigureerimine tagaserveris
@@ -39,10 +39,10 @@ Kui soovite hinnata ülekande meilifunktsioone, peavad olema täidetud järgmise
 ### <a name="find-your-media-base-url"></a>Oma meedia baas-URL-i leidmine
 
 > [!NOTE]
-> Enne, kui saate selle protseduuri lõpule viia, peate täitma sammud [oma saidi häälestamiseks Commerce'iis](cpe-post-provisioning.md#set-up-your-site-in-commerce).
+> Enne, kui saate selle protseduuri lõpule viia, peate täitma sammud [oma saidi häälestamiseks Commerce'iis](cpe-post-provisioning.md#set-up-your-e-commerce-sites).
 
 1. Logige Commerce'i saidiehitajasse sisse, kasutades URL-i, mille märkisite üles, kui te e-kaubanduse lähtestamist ette valmistasite (vt [e-kaubanduse lähtestamine](provisioning-guide.md#initialize-e-commerce)).
-1. Avage sait **Fabrikam**.
+1. **Avage Fabrikam**, **Adventure Works** või **Adventure Works Businessi** sait, mida soovite kasutada.
 1. Valige vasakpoolses menüüs **Meediumiteek**.
 1. Valige mis tahes üks pildi vara.
 1. Paremal asuval atribuudi kontrollijal leiate **avaliku URL-i** atribuudi. Väärtus on URL. Siin on näide.
@@ -98,9 +98,9 @@ Iga kandelise sündmuse jaoks, mille jaoks soovite meile saata, tuleb uuendada m
 
 ## <a name="customize-email-templates"></a>Meilimallide kohandamine
 
-Võite soovida kohandada meilimalle, et nad kasutaksid erinevaid pilte. Võite ka värskendada linke mallides, et need sobiksid teie hindamiskeskkonda. See protseduur selgitab, kuidas vaikimisi malle alla laadida, neid kohandada ja süsteemi malle värskendada.
+Võite soovida kohandada meilimalle, et nad kasutaksid erinevaid pilte. Samuti võite soovida uuendada mallide linke nii, et nad lähevad teie sisendkausta keskkonda. See protseduur selgitab, kuidas vaikimisi malle alla laadida, neid kohandada ja süsteemi malle värskendada.
 
-1. Laadige brauserist alla [Microsoft Dynamics 365 Commerce Microsoft 'i hindamisee vaikimisi meilimallide zip-fail](https://download.microsoft.com/download/d/7/b/d7b6c4d4-fe09-4922-9551-46bbb29d202d/Commerce.Preview.Default.Email.Templates.zip) kohalikku arvutisse. See fail sisaldab järgmisi HTML-dokumente:
+1. Laadige veebibrauseris alla demo vaikimisi [Microsoft Dynamics 365 Commerce e-kirja mallide sihtfail](https://download.microsoft.com/download/d/7/b/d7b6c4d4-fe09-4922-9551-46bbb29d202d/Commerce.Preview.Default.Email.Templates.zip) kohalikku arvutisse. See fail sisaldab järgmisi HTML-dokumente:
 
     - Tellimuse kinnituse mall
     - Kinkekaardi väljastamise mall
@@ -167,15 +167,11 @@ Järgmised load on iga toote puhul tellimuses asendatud väärtustega.
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-[Dynamics 365 Commerce'i hindamiskeskkonna ülevaade](cpe-overview.md)
+[Info keskkonna Dynamics 365 Commerce ettevalmistamine](provisioning-guide.md)
 
-[Dynamics 365 Commerce'i hindamiskeskkonna ettevalmistamine](provisioning-guide.md)
+[Einfo Dynamics 365 Commerce keskkonna konfigureerimine](cpe-post-provisioning.md)
 
-[Dynamics 365 Commerce'i hindamiskeskkonna konfigureerimine](cpe-post-provisioning.md)
-
-[BOPIS-e konfigureerimine Dynamics 365 Commerce'i hindamiskeskkonnas](cpe-bopis.md)
-
-[Dynamics 365 Commerce'i hindamiskeskkonna KKK](cpe-faq.md)
+[BOPIS-i konfigureerimine Dynamics 365 Commerce sisendkausta keskkonnas](cpe-bopis.md)
 
 [Microsofti elutsükli teenused (LCS)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 

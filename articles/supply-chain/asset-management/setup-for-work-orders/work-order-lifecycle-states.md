@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 67f857e4bfb828250e632e3ba46af9930cd908a1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 9c6a7c204370542353e9b629b78091972f8ce9a1
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8860866"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9017083"
 ---
 # <a name="work-order-lifecycle-states"></a>Töökäsu elutsükli olekud
 
@@ -46,7 +46,7 @@ Järgmises tabelis on kirjeldatud valikud jaotistes **Töökäsk** ja **Graafik*
 | Luba plaanimine              | Seadke see suvand valikule **Jah**, kui töökäsku saab selles töötsükli olekus graafikusse lisada. |
 | Tegeliku alguse seadistamine              | Seadke see suvand väärtusele **Jah**, kui kasutajal palutakse valida töö tegelik alguskuupäeva ja-kellaaeg, kui see on selle töötsükliolekusse uuendatud. |
 | Tegelik lõpu seadistamine                | Seadke see suvand väärtusele **Jah**, kui kasutajal palutakse valida töö tegelik lõpukuupäeva ja-kellaaeg, kui see on selle töötsükliolekusse uuendatud. |
-| Sisesta töölehed                 | Seadke see suvand väärtusele **Jah**, kui töökäsu tööd tuleb automaatselt lisada, kui töökäsku uuendatakse selles töötsükliolekus. Kui töölehe sisestamisel ilmneb tõrge, kuvatakse teade ja töökäsu töötsükli oleku uuendamine on tühistatud. Töökäsu tööleheridade vaatamiseks valige Töökäsu tööleheridade vaatamiseks valige **Varahaldus** \> **Ühised** \> **Töökäsud** \> **Kõik töökäsud**, **Aktiivsed töökäsud** või **Minu aktiivsed töökäsud**, valige loendist töökäsk ja seejärel valige **Töölehed**. See automaatse töökäsu töölehe sisestamise seadistus kindlas töötsükli olekus on sama, mis siis, kui valite **Postita töölehed** lehel **Tööoleku töölehed**.<p>**Märge:** kui seate selle suvandi väärtuseks **Jah**, sisestatakse töölehed automaatselt, kui kinnitamise töövoogu pole seadistatud. Kui teie ettevõte kasutab töölehe kinnitamise seadistust, mis on konfigureeritud lehel **Töölehe kinnitamine** (**Projektijuhtimine ja raamatupidamise** \> **Seadistus** \> **Töölehed** \> **Töölehe kinnitamine**), peab haldur või ametnik kontrollima ja sisestama tarbimisjärgseid registreerimisi.</p> |
+| Sisesta töölehed                 | Seadke see suvand väärtusele **Jah**, kui töökäsu tööd tuleb automaatselt lisada, kui töökäsku uuendatakse selles töötsükliolekus. Kui töölehe sisestamisel ilmneb tõrge, kuvatakse teade ja töökäsu töötsükli oleku uuendamine on tühistatud. Töötellimuse **tööleheridade** \> **·** \> **vaatamiseks** valige varahalduse töötellimused Kõik töötellimused, **·** **aktiivsed** töötellimused või minu aktiivsed töötellimused, valige loendist töötellimus ja seejärel valige **Töölehed.** See automaatse töökäsu töölehe sisestamise seadistus kindlas töötsükli olekus on sama, mis siis, kui valite **Postita töölehed** lehel **Tööoleku töölehed**.<p>**Märge:** kui seate selle suvandi väärtuseks **Jah**, sisestatakse töölehed automaatselt, kui kinnitamise töövoogu pole seadistatud. Kui teie ettevõte kasutab töölehe kinnitamise seadistust, mis on konfigureeritud lehel **Töölehe kinnitamine** (**Projektijuhtimine ja raamatupidamise** \> **Seadistus** \> **Töölehed** \> **Töölehe kinnitamine**), peab haldur või ametnik kontrollima ja sisestama tarbimisjärgseid registreerimisi.</p> |
 | Hoolduse kontrollnimekirja töötlemine | Seadke see suvand väärtusele **Jah**, kui kõik toodud hoolduse kontrollnimekirjad tuleb töödelda, kui töökäsku uuendatakse selles töötsükliolekus. Selle töötluse osana sisestatakse kõik hoolduse kontroll-loendis tehtud loenduri registreerimised ja hinnatakse kogu hoolduse kontroll-loendi tulemust. Hoolduse kontrollnimekirja ridu tulemustega **Keela** ja **Nurja** hinnatakse, kui kui vähemalt üks rida nurjub, märgitakse kogu hoolduse kontrollnimekiri väärtusele **Nurjunud**. |
 | Valmis                         | Seadke see suvand väärtusele **Jah**, kui töökäsu töögraafiku olek kõigi töökäskude tööde jaoks, mis luuakse töökäsul, tuleks automaatselt uuendada olekuks **Valmis**, et see oleks töötsükli olekusse jõudmisel uuendatud. |
 | Alusta                         | Seadke see suvand väärtusele **Jah**, kui töökäsu töögraafiku olek kõigi töökäskude tööde jaoks, mis luuakse töökäsul, tuleks automaatselt uuendada olekuks **Alustatud**, et see oleks töötsükli olekusse jõudmisel uuendatud. |
@@ -74,13 +74,13 @@ Järgmises tabelis on kirjeldatud valikud jaotistes **Töökäsk** ja **Graafik*
 10. Seadke jaotises **Projekt** valik **Sule tegevused** väärtuseks **Jah**, kui projekti tegevused, mis on seotud iga töökäsu tööga, tuleb automaatselt sulgeda, kui töö tellimus on selles töötsükli olekus.
 
     > [!NOTE]
-    > Töötellimuse tööga seotud projekti tegevuse numbri leidmiseks valige **Varahaldus** \> **Ühised** \> **Töökäsudt** \> **Kõik töökäsud**, **Aktiivsed töökäsud** või **Minu aktiivsed töökäsud**. Avage töökäsk ja valige töökäsu töö. Tegevuse number kuvatakse väljal **Aktiivsuse number** jaotises **Projekt** kaardil **Üldine** kiirkaardil **Rea üksikasjad**.
+    > Töötellimuse **tööga** \> **·** \> **seotud projektitegevuse numbri leidmiseks valige varahalduse töötellimused Kõik** töötellimused, **aktiivsed** töötellimused või minu **aktiivsed töötellimused.** Avage töökäsk ja valige töökäsu töö. Tegevuse number kuvatakse väljal **Aktiivsuse number** jaotises **Projekt** kaardil **Üldine** kiirkaardil **Rea üksikasjad**.
 
 11. Seadke jaotises **Prognoos** valik **Kopeeri tundide prognoos**, **Kopeeri kauba prognoos** ja/või **Kopeeri kulude prognoos** väärtusele **Jah**, kui tööoleku projekti prognoosid kopeeritakse tööoleku töölehtedesse automaatselt, kui tööolek on selles töötsükli olekus.
 12. Seadke jaotises **Graafik** üks valikutest väärtusele **Jah**, kui töökäsu tööde graafiku olekut tuleb uuendada, kui töökäsk on selles töötsükli olekus. Graafikuridade suvandite **Valmis**, **Algus**, **Lõpp** **ja** Kustuta kirjeldusi vt käesoleva artikli tabelist.
 
     > [!NOTE]
-    > Töötellimuse töödega seotud graafikuridade vaatamiseks valige **Varahaldus** \> **Ühised** \> **Töökäsudt** \> **Kõik töökäsud**, **Aktiivsed töökäsud** või **Minu aktiivsed töökäsud**. Avage töökäsk, valige töökäsu töö kiirkaardilt **Töökäsu tööd** ja vaadake seotud teavet kiirkaardilt **Rea üksikasjad**. Vahekaardi **Graafik** väli **Olek** näitab töökäsu töö olekut. Välja **Olek** väärtuseks saab seada järgmised väärtused: **Plaanitud**, **Valmis**, **Alustatud**, **Peatatud** ja **Lõpetatud**.
+    > Töötellimuse töödega seotud graafiku ridade vaatamiseks **valige** \> **·** \> **Varahalduse** töötellimused Kõik töötellimused, **aktiivsed** töötellimused või minu **aktiivsed töötellimused.** Avage töökäsk, valige töökäsu töö kiirkaardilt **Töökäsu tööd** ja vaadake seotud teavet kiirkaardilt **Rea üksikasjad**. Vahekaardi **Graafik** väli **Olek** näitab töökäsu töö olekut. Välja **Olek** väärtuseks saab seada järgmised väärtused: **Plaanitud**, **Valmis**, **Alustatud**, **Peatatud** ja **Lõpetatud**.
 
 13. Valige jaotises **Hooldusnõuded** väljal **Töötsükli olek** hooldusenõude töötsükli olek, kuhu seotud hooldustööd tuleb uuendada. See uuendus toimub automaatselt. Seda saab teha ainult juhul, kui hooldusenõude töötsükli olek on valitud hooldusnõude töötsükli mudelis, mida kasutatakse hooldusnõude puhul.
 14. Seadke jaotises **Vara** suvandi **Uuenda vara kooslus** väärtuseks **Jah**, kui kõik töökäsul kasutatavad kaubad tuleks töökäsu uuendamisel automaatselt uuendada lehel **Vara kooslus**, kui töökäsk uuendatakse sellesse töötsükli olekusse. See säte võib olla asjakohane, kui näiteks töökäsu töötsükli olek määratleb töökäsu lõpetatuks või lõpetatud.
@@ -98,7 +98,7 @@ Järgmises tabelis on kirjeldatud valikud jaotistes **Töökäsk** ja **Graafik*
 > [!NOTE]
 > Kui töötsükli olek, mille värskendate töökäsuks on passiivne, kustutatakse töökäskudega seotud töölehed, kuid see pole veel sisestatud. Selline käitumine aitab tagada kasutamata teabe automaatse puhastamise. (Töötsükli olek on passiivne, kui selle suvand **Aktiivne** on seatud väärtusele **Ei** kiirkaardil **Üldine** lehel **Töökäsu töötsükli olek**.)
 >
-> Kui töötsükli olek on käsitsi seadustatud passiivseks, siis **ei** kustutata automaatselt töökäskudega seotud töölehti, kuid neid pole veel sisestatud. (Töökäsu käsitsi passiivseks muutmisel valige **Varahaldus** \> **Ühised** \> **Töökäsud** \> **Kõik töökäsud** või **Aktiivsed töökäsud**. Avage töökäsk ja aktiveerige vaade **Päis**. Valige kiirkaardil **Üldine** käsk **Redigeeri** ja määrake suvandi **Aktiivne** väärtuseks **Ei**.
+> Kui töötsükli olek on käsitsi seadustatud passiivseks, siis **ei** kustutata automaatselt töökäskudega seotud töölehti, kuid neid pole veel sisestatud. (Töötellimuse käsitsi inaktiveerimiseks valige **Varahalduse** \> **töötellimused** \> **kõik töötellimused** või aktiivsed **töötellimused.** Avage töökäsk ja aktiveerige vaade **Päis**. Valige kiirkaardil **Üldine** käsk **Redigeeri** ja määrake suvandi **Aktiivne** väärtuseks **Ei**.
 
 ## <a name="relations-among-work-order-lifecycle-models-work-order-types-and-work-order-lifecycle-states"></a>Seosed töökäsu elutsükli olekute, töökäsu elutsükli mudelite ja töökäsu tüüpide vahel
 

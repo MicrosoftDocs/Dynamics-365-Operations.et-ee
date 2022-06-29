@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 01c8276d77f7655659cab13f3c520d7c171e3cfd
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 0c44e503900bd157d7f0159cdf2b2d0c1fb3393f
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8879217"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015779"
 ---
 # <a name="functional-location-types"></a>Töö asukoha tüübid
 
@@ -57,7 +57,7 @@ Luuakse ainult töö vaikeasukohas kasutatav töö vaikeasukoha tüüp. Sellele 
 7. Välja **Vara tüüp** kasutatakse juhul, kui soovite töö asukoha jaoks luua automaatselt *ühe* vara sama ID ja sama nimega, nagu on loodaval töö asukohal. Näiteks võib see olla asjakohane, kui loote staatilise töö asukoha (nt ehitis või torustik). Sel juhul valige vara tüüp, mida soovite kasutada automaatselt loodud vara puhul. Pidage meeles, et kui teete sellel väljal valiku, peab tumblernupp **Mitu vara** olema väärtusega „Ei”.
 8. Valige kiirkaardil **Varatüübid** varatüübid, mis tuleks siduda töö asukoha tüübiga. Valige **Lisa rida** ja valige vara tüüp. Kui lisate siin varatüüpe, saab töö asukohta selle töö asukoha tüübiga installidaainult neid varasid, mis kasutavad neid varatüüpe. Kui kiirkaardil **Varatüübid** pole ühtegi varatüüpi valitud, võidakse installida kõik varatüübid.
 9. Kiirkaardil **hooldusplaanid** valige hoolduskavad, mis tuleks automaatselt seadistada uutele töö asukohtadele, kasutades seda töö asukoha tüüpi. Valige **Lisa rida** ja valige hoolduskavad. Kui lisate hoolduskavad siia, saab seda töö asukoha tüüpi kasutades kasutada ainult neid kavu töö asukohas kasutada.
-10. Seadistage kiirkaardil **Vara atribuudinõuded** vara atribuudid, mis tuleks uues töö asukohas automaatselt seadistada selle töö asukoha tüübi abil. Valige **Lisa rida** ja valige atribuut. Need atribuudinõuded toimivad juhistena. Neid ei kontrollita varal (**Varahaldus** > **Ühine** > **Varad** > **Kõik varad** > valige vara loendilehel > vahekaart **Üldine** tab > nupp **Atribuudid** button) seadistatud atribuutide suhtes. Atribuutide nõuded kuvatakse, kui installite vara töö asukohtades.
+10. Seadistage kiirkaardil **Vara atribuudinõuded** vara atribuudid, mis tuleks uues töö asukohas automaatselt seadistada selle töö asukoha tüübi abil. Valige **Lisa rida** ja valige atribuut. Need atribuudinõuded toimivad juhistena. Neid ei kontrollita varas seadistatud atribuutide suhtes (**·** > **·** > **Varade** haldus Varad Kõik > valige vara loendilehel >**Üldine** > **Atribuudid**). Atribuutide nõuded kuvatakse, kui installite vara töö asukohtades.
 11. Kiirkaardil **Lubatud tüübid** valige töö asukoha tüübid, mis peaksid kehtima peamise töö asukohatüübiga seotud töö asukoha alamtüübiga, mis kasutab valitud töö asukoha tüüpi.
 12. Kiirkaardil **Atribuudid** valige töö asukoha atribuudid, mis tuleks automaatselt seadistada uutele töö asukohtadele, kasutades seda töö asukoha tüüpi. Valige **Lisa rida** ja valige atribuut.
 
