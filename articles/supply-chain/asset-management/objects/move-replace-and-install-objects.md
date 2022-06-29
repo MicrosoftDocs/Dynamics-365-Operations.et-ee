@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e1454f41bb0b43e22c5278463f63aa4178696eef
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 0a6b5a2904d21782ae422d06eaaf03c5d5e51ab9
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872120"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015575"
 ---
 # <a name="move-replace-and-install-assets"></a>Varade teisaldamine, asendamine ja installimine
 
@@ -44,7 +44,7 @@ Funktsiooni **Vara teisaldamine** saate kasutada vara teisaldamiseks kas muusse 
 > [!NOTE]
 > Ärge kasutage seda funktsiooni, kui varasid parandatakse või asendatakse ajutiselt. Selle asemel kasutage varade **asendamise funktsiooni**, mida kirjeldatakse selles artiklis hiljem.
 
-1. Valige **Varahaldus** \> **Ühine** \> **Varad** \> **Kõik varad** või **Aktiivsed varad**.
+1. Valige **Varahaldus** \> **Varad Kõik** \> **varad** või **Aktiivsed varad.**
 2. Valige loendist teisaldatav vara. Kui varal on alamarad, teisaldate ka need varad.
 3. Valige **Teisalda vara**.
 4. Vara teisaldamiseks nii, et see muutuks varade struktuuri osaks, valige uus emavara väljal **Emavara**. Kui teisaldate tütarvara ja soovite muuta selle eraldiseisvad põhivarad, millel pole struktuurisuhteid, jätke **emasvara** väli tühjaks.
@@ -58,7 +58,7 @@ Kasutage funktsiooni **Vara asendamine** seoses remontimise, renoveerimise või 
 > [!NOTE]
 > Kui tootmisosakonnaga on seotud remonditöökoda, saate luua töö asukohti **(nt Remont**, **Praak** ja **Ladustamine**), et käsitseda vara parandamist ja asendamist.
 
-1. Valige **Varahaldus** \> **Ühine** \> **Varad** \> **Kõik varad** või **Aktiivsed varad**.
+1. Valige **Varahaldus** \> **Varad Kõik** \> **varad** või **Aktiivsed varad.**
 2. Valige loendist asendatav alamvara. Kui varal on alamvarad, asendate ka need varad.
 3. Valige **Asenda vara**.
 
@@ -79,7 +79,7 @@ Vara struktuuri installimiseks töö asukohta kasutage funktsiooni **Vara instal
 > [!NOTE]
 > Valige alati emavara. Emavara ja sellega seotud tütarvarad teisaldatakse valitud töö asukohta.
 
-1. Valige **Varahaldus** \> **Ühine** \> **Varad** \> **Kõik varad** või **Aktiivsed varad**.
+1. Valige **Varahaldus** \> **Varad Kõik** \> **varad** või **Aktiivsed varad.**
 2. Valige loendist ema vara, mida soovite installida muusse töö asukohta.
 3. Valige **Installi vara**.
 
