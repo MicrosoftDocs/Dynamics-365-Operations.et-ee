@@ -18,8 +18,6 @@
                   href: get-started/whats-new-changed-10-0-27.md
                 - name: Finance 10.0.26 (mai)
                   href: get-started/whats-new-changed-10-0-26.md
-                - name: Finance 10.0.25 (aprill)
-                  href: get-started/whats-new-changed-10-0-25.md
             - name: Eemaldatud või iganenud funktsioonid
               items:
                 - name: Eemaldatud või iganenud funktsioonide avaleht
@@ -462,6 +460,8 @@
                   items:
                     - name: Tulude ja kulude edasilükkamiste seadistamine
                       href: accounts-receivable/sb-deferrals.md
+                    - name: Edasilükkamise kirjendamise viis
+                      href: accounts-receivable/Deferral-posting-methods.md
                     - name: Edasilükkamise graafikute loomine
                       href: accounts-receivable/sb-deferrals-schedules.md
                     - name: Edasilükkamise vaiketehingud
@@ -1214,6 +1214,8 @@
               href: ../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=/dynamics365/finance/toc.json
             - name: Finantsaruande komponendid
               href: ../fin-ops-core/dev-itpro/analytics/financial-report-components.md?toc=/dynamics365/finance/toc.json
+            - name: Finantsaruannete vaatamine ja kujundamine
+              href: ../fin-ops-core/dev-itpro/analytics/design-financial-reports.md
             - name: Finantsaruande valuutavõimalused
               href: general-ledger/financial-reporting-currency-capability.md
             - name: Jaotamata kasumi arvutamine finantsaruandluses
@@ -1978,6 +1980,8 @@
                   href: localizations/tasks/br-00066-2-calculate-interest-fines-customer-payments.md
                 - name: Pangakonto numbrite seadistamine Brasiilia jaoks
                   href: localizations/latam-bra-bank-account-number-setup-brazil-localization.md
+                - name: Üleviimistellimused
+                  href: localizations/latam-bra-about-transfer-orders.md
                 - name: Maksud
                   items:
                     - name: Brasiilia maksude ülevaade
@@ -2116,6 +2120,8 @@
                   href: localizations/emea-cze-intra-community-VAT.md
                 - name: Aastalõpu sulgemine
                   href: localizations/emea-cze-hun-year-end.md
+                - name: EL-i käibearuanne
+                  href: localizations/emea-cze-eu-sales-list.md
             - name: Taani
               items:
                 - name: Taani ülevaade
@@ -2130,8 +2136,8 @@
                   href: localizations/tasks/create-post-project-invoice-public-sector-customer.md
                 - name: EL-i käibearuanne
                   href: localizations/emea-dnk-eu-sales-list.md
-                - name: OIOUBL-i elektroonilise arveldamise konfiguratsioonide importimine
-                  href: localizations/tasks/import-oioubl-electronic-invoicing-configurations.md
+                - name: Kliendi elektroonilised arved Taanis
+                  href: localizations/emea-dnk-e-invoices.md
                 - name: Vabas vormis arve sisestamine koos maksekviitungiga
                   href: localizations/tasks/post-free-text-invoice-payment-slip.md
                 - name: Projektiarve sisestamine koos maksekviitungiga
@@ -2220,6 +2226,8 @@
                       href: localizations/emea-ISO20022-file-formats.md
                     - name: ISO20022 otsekorralduse konfiguratsiooni importimine
                       href: localizations/tasks/import-iso20022-direct-debit-configuration.md
+                    - name: ISO 20022 kreeditiülekandevormingu eeltingimused
+                      href: localizations/emea-fra-ISO20022-international.md
                     - name: ISO20022 kreeditiülekande konfiguratsiooni importimine
                       href: localizations/tasks/import-iso20022-credit-transfer-configuration.md
                     - name: Ettevõtte pangakontode häälestus ISO20022 kreeditkorralduste jaoks
@@ -2462,6 +2470,8 @@
                   href: localizations/emea-hun-intrastat.md
                 - name: Viivitusega käibemaksu arvutused
                   href: localizations/emea-hun-deferred-vat.md
+                - name: EL-i käibearuanne
+                  href: localizations/emea-hun-eu-sales-list.md
             - name: Island
               items:
                 - name: Islandi ülevaade
@@ -2766,6 +2776,8 @@
                                   href: localizations/apac-ind-TDS-TDS-ledger-accounts-setup.md
                                 - name: TDS-i registreerimisnumbrite häälestamine juriidiliste isikute jaoks
                                   href: localizations/apac-ind-TDS-TDS-registration-numbers-setup-for-legal-entities.md
+                                - name: Kinnipeetava maksu komponendirühmade häälestamine TDS-i maksutüübi jaoks
+                                  href: localizations/apac-ind-TDS-Withholding-tax-component-groups-setup-for-TDS-tax-type.md
                                 - name: Kinnipeetava maksu haldurite häälestamine TDS-i maksutüübi jaoks
                                   href: localizations/apac-ind-TDS-Withholding-tax-authorities-setup-for-TDS-tax-type.md
                                 - name: Maksukomponentide häälestamine TDS-i maksutüübi jaoks
@@ -2968,6 +2980,8 @@
                   href: localizations/tasks/configure-depreciation-profile-posting.md
                 - name: Vara käibelt kõrvaldamise kohustuse sisestamise ja turu allahindlusmäärade jaoks põhikontode konfigureerimine
                   href: localizations/tasks/configure-main-accounts-asset-retirement.md
+                - name: Tarbimismaksu aruanne
+                  href: localizations/apac-jpn-consumption-tax-report.md
                 - name: Koondarved
                   href: localizations/apac-jpn-consolidate-invoices.md
                 - name: Lisakulumiga põhivara loomine
@@ -3416,6 +3430,8 @@
                           href: localizations/rus-register-acquisition.md
                         - name: Põhivarade soetamine ja kasutuselevõtmine
                           href: localizations/rus-fixed-asset-acquisition.md
+                        - name: Sõidukid ja kinnisvara põhivarana
+                          href: localizations/rus-vehicles-realty.md
                         - name: Kulumiarvestus
                           href: localizations/rus-depreciation-calculation.md
                         - name: Põhivara osaline osadeks jaotamine (likvideerimine)
@@ -3444,6 +3460,8 @@
                       items:
                         - name: Väheväärtuslik põhivara (NVFA-d) (Venemaa)
                           href: localizations/rus-not-valuable-assets.md
+                        - name: 'NVFA, töörõivaste ja erivarustuse (Venemaa) esmased vormid'
+                          href: localizations/rus-nvfa.md
                         - name: Töörõivaste/erivarustuse raamatupidamine (Venemaa)
                           href: localizations/rus-working-clothes-instruments-accounting.md
                     - name: Põhivarade integreerimine varahalduse mooduliga
@@ -3520,6 +3538,8 @@
                       href: localizations/rus-land-tax-declaration.md
                     - name: Kasumi maksudeklaratsioon
                       href: localizations/rus-profit-tax-declaration.md
+                    - name: Aruanne jälgitavate kaupadega toimingute kohta
+                      href: localizations/rus-traceable-goods-operation-report.md
                 - name: Organisatsiooni haldus
                   items:
                     - name: Aadressiga seotud maksu registreerimise teave

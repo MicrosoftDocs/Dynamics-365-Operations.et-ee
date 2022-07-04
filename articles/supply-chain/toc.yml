@@ -18,8 +18,6 @@
                   href: get-started/whats-new-scm-10-0-27.md
                 - name: Supply Chain Management 10.0.26 (mai 2022)
                   href: get-started/whats-new-scm-10-0-26.md
-                - name: Supply Chain Managementi 10.0.25 (aprill 2022)
-                  href: get-started/whats-new-scm-10-0-25.md
             - name: Eemaldatud või iganenud funktsioonid
               items:
                 - name: Eemaldatud või iganenud funktsioonide avaleht
@@ -619,8 +617,6 @@
                   href: asset-management/asset-management-mobile-workspace.md
             - name: Varahalduse integreerimine Dynamics 365 Guidesiga
               href: asset-management/asset-management-guides-integration.md
-        - name: Andmehaldus
-          items:
             - name: Sihtüksused
               href: asset-management/data-management/target-entities.md
         - name: Kuluarvestus
@@ -775,6 +771,10 @@
                   href: cost-management/physical-financial-updates.md
                 - name: Kaasab füüsilist väärtust
                   href: cost-management/include-physical-value.md
+                - name: Fikseeritud jaehind
+                  href: cost-management/fixed-receipt-price.md
+                - name: Kulude kontole sisestamise raamatupidamispõhimõte
+                  href: cost-management/post-to-charge-account-accounting-principle.md
                 - name: Kuluobjektid
                   href: cost-management/cost-object.md
                 - name: Kuluobjekti saldo kuvamine
@@ -1651,6 +1651,8 @@
                   href: inventory/tasks/check-availability-stock.md
                 - name: Vaba kaubavaru loend
                   href: inventory/inventory-on-hand-list.md
+                - name: Laokande üksikasjad
+                  href: inventory/inventory-transactions-details.md
                 - name: Laovaru tasemete lähtestamine laos
                   href: inventory/tasks/initialize-stock-levels-warehouse.md
                 - name: Füüsiliste varude ülekandmine laos
@@ -2111,6 +2113,8 @@
               href: ../fin-ops-core/fin-ops/organization-administration/date-time-zones.md?toc=/dynamics365/supply-chain/toc.json
         - name: Hanked
           items:
+            - name: Hangete avaleht
+              href: procurement/procurement-sourcing.md
             - name: Hangete ülevaade
               href: procurement/procurement-sourcing-overview.md
             - name: Hangete töövoog
@@ -2167,6 +2171,8 @@
                   href: procurement/purchase-order-creation.md
                 - name: Ostutellimuse loomine
                   href: procurement/tasks/create-purchase-order.md
+                - name: Eelarvekohase ostutellimuse loomine
+                  href: cost-management/tasks/create-purchase-order-governed-by-budget.md
                 - name: Tarnegraafikuga ostutellimuse loomine
                   href: procurement/tasks/create-purchase-order-delivery-schedule.md
                 - name: Ostutellimuse loomine ühekordse tarnija jaoks
@@ -2383,6 +2389,8 @@
                       href: pim/tasks/create-dimension-based-configurations.md
                 - name: Piirangupõhise konfiguratsiooni loomine
                   items:
+                    - name: Tootekonfiguratsiooni mudelite ülevaade
+                      href: pim/product-configuration-models.md
                     - name: Toote konfiguratsioonimudeli häälestamine
                       href: pim/set-up-maintain-product-configuration-model.md
                     - name: Toote konfiguratsioonimudeli arvutamised
@@ -2933,6 +2941,8 @@
                   href: sales-marketing/customer-portal-user-admin.md
                 - name: Kliendiportaali kohandamine ja kasutamine
                   href: sales-marketing/customer-portal-customize.md
+            - name: Klientide krediidilimiidid
+              href: sales-marketing/credit-limits-customers.md
             - name: Kaubandushüvitis
               href: sales-marketing/trade-allowance.md
             - name: Uue kaubandusleppe loomine
@@ -2951,7 +2961,9 @@
                       href: service-management/service-agreement-groups.md
                     - name: Hoolduslepete loomine
                       href: service-management/create-service-agreements.md
-                    - name: Hooldusintervallid
+                    - name: Teenusleppegruppide loomine
+                      href: service-management/create-service-agreement-groups.md
+                    - name: Teenuse intervallid
                       href: service-management/service-intervals.md
                     - name: Hooldusintervallide häälestus
                       href: service-management/set-up-service-intervals.md
@@ -2972,7 +2984,7 @@
                     - name: Teenuseobjektide ülevaade
                       href: service-management/service-objects.md
                     - name: Hooldusobjektide loomine
-                      href: service-management/create-service-task-relations.md
+                      href: service-management/create-service-objects.md
                     - name: Laokaupade sidumine hooldusobjektidega
                       href: service-management/attach-inventory-items-service-objects.md
                     - name: Hooldusobjektide grupid
@@ -3117,9 +3129,11 @@
                           href: service-management/create-item-requirements-service-orders.md
                         - name: Hooldustellimuse kaubanõuded
                           href: service-management/service-order-item-requirements.md
+                        - name: Teenusetellimusele aadressi lisamine
+                          href: service-management/add-address-service-order.md
                         - name: Kordustellimuste töövoo ülevaade
                           href: service-management/subscription-workflow-overview.md
-                        - name: Hooldustellimuste ühendamine
+                        - name: Teenuse tellimuste ühendamine
                           href: service-management/combine-service-orders.md
                         - name: Teenuse kordustellimuste loomine kordustellimuste grupist
                           href: service-management/create-service-subscriptions-from-subscription-group.md
@@ -3137,8 +3151,10 @@
                           href: service-management/set-up-service-activity-types.md
                         - name: Eelistatud tehniku häälestus
                           href: service-management/set-up-preferred-technician.md
-                        - name: Lähetustöörühmade häälestus
+                        - name: Lähetustöörühmade häälestamine
                           href: service-management/set-up-dispatch-teams.md
+                        - name: Lähetustöörühmade kuvamine
+                          href: service-management/view-dispatch-teams.md
                         - name: Hooldustellimuste prioritiseerimine
                           href: service-management/prioritize-service-orders.md
                         - name: Hooldustellimuste oleku vaatamine
@@ -3257,8 +3273,6 @@
                   href: landed-cost/landed-cost-enable.md
                 - name: Väljalaadimiskulu parameetrid
                   href: landed-cost/landed-cost-parameters.md
-                - name: Väljalaadimiskulu hangete parameetrid
-                  href: landed-cost/landed-cost-procurement-parameters.md
                 - name: Reisi oleku häälestus
                   href: landed-cost/voyage-status-setup.md
                 - name: Veokonteineri häälestus
@@ -3269,12 +3283,16 @@
                   href: landed-cost/multi-leg-journey-setup.md
                 - name: Lähetamisteabe häälestus
                   href: landed-cost/shipping-information-setup.md
+                - name: Kulude automaatne häälestus
+                  href: landed-cost/auto-cost-setup.md
                 - name: Kuluarvutusparameetri väärtuste häälestus
                   href: landed-cost/costing-parameters-setup.md
+                - name: Väljalaadimiskulu hangete parameetrid
+                  href: landed-cost/landed-cost-procurement-parameters.md
+                - name: Väljalaadimiskulule lisati hankija sätted
+                  href: landed-cost/vendors-landed-cost-settings.md
                 - name: Pearaamatu vaikekirjeldused
                   href: landed-cost/defult-descriptions.md
-            - name: Väljalaadimiskulule lisati hankija sätted
-              href: landed-cost/vendors-landed-cost-settings.md
             - name: 'Töö reiside, konteinerite ja fooliotega'
               items:
                 - name: Reiside haldamine
@@ -3643,396 +3661,6 @@
               href: transportation/create-new-transportation-management-engine.md?toc=/dynamics365/supply-chain/toc.json
             - name: Vaba kaubavaru andmeüksuste laiendamine
               href: inventory/extend-on-hand-entities.md
-        - name: Tõrkeotsing
-          items:
-            - name: Kuluhaldus
-              items:
-                - name: Varude ajalise jaotuse aruande lahknevused
-                  href: troubleshooting/costing/aging-report-discrepancies.md
-                - name: Hoiatused või tõrked pearaamatuperioodi oleku muutmisel ilma lao sulgemiseta
-                  href: troubleshooting/costing/change-ledger-period-without-closing.md
-                - name: Funktsionaalsed lüngad varude väärtuse/vananemise aruannete ja nende ladustamise versioonide vahel
-                  href: troubleshooting/costing/function-gaps-storage-reports.md
-                - name: 'Uuenduse vastuolu ilmneb, kui varude hinna määramise meetod on kas standardne kulu või libisev keskmine'
-                  href: troubleshooting/costing/update-conflict-standard-moving.md
-                - name: Puuduvad väljaseaded kauba mudeligruppide kopeerimisel teise juriidilisse isikusse
-                  href: troubleshooting/costing/copying-item-model-groups.md
-                - name: Aruanne „Töödeldavad kaudsed kulud” sisaldab kustutatud tootmistellimusi
-                  href: troubleshooting/costing/indirect-costs-in-pr.md
-                - name: Nullsummaga sisestatud ostu viitvõlg nullväärtusega toote sissetuleku jaoks
-                  href: troubleshooting/costing/posting-to-purchase.md
-                - name: Füüsiliselt sissetulnud ostutellimusi ei kuvata lao sulgemise aruandes
-                  href: troubleshooting/costing/purchase-orders-rece.md
-                - name: Lehe „Kauba hind” vahekaardil „Aktiivsed hinnad” ei ole alguskuupäeva
-                  href: troubleshooting/costing/there-is-no-from-dat.md
-            - name: Varude haldus
-              items:
-                - name: Te ei leia varude töölehel ripploendi välja „Töövoog”
-                  href: troubleshooting/inventory/cant-find-workflow-dropdown.md
-                - name: Varude töölehe töövoog ei jõua kunagi lõpule ja töölehte ei saa töödelda
-                  href: troubleshooting/inventory/cant-post-inventory-journal.md
-                - name: Teie varude tööleht on lukus ja töövoo pakett-töö ei toimi
-                  href: troubleshooting/inventory/inventory-journal-locked-workflow.md
-                - name: Ühik ja ühiku kogus ei toimi varude töölehel õigesti
-                  href: troubleshooting/inventory/journal-unit-quantity-incorrect.md
-                - name: 'Varude töölehe töövoo tingimused kehtivad töölehe tasemel, mitte rea tasemel'
-                  href: troubleshooting/inventory/journal-workflow-conditions.md
-                - name: Laoseisu loendilehe filtripaan ei toimi ootuspäraselt
-                  href: troubleshooting/inventory/on-hand-filter-unexpected.md
-                - name: Varude arvestusühiku kümnendkohtade maksimumarv on 0
-                  href: troubleshooting/inventory/sku-max-decimals-zero.md
-                - name: Mitu laokannet partiinumbrite kohta ilma valikuta „Füüsilise sisestamise puhul”
-                  href: troubleshooting/inventory/multiple-inventory-t.md
-                - name: Aruande tühistamine lõpetatuna loob ootamatu avatud kande
-                  href: troubleshooting/inventory/reverse-report-as-fi.md
-                - name: Töölehele lisatud uusi märkmeid ei kuvata komplekteerimislehe aruandes
-                  href: troubleshooting/inventory/unable-to-print-the.md
-                - name: Alustatud vahelaoorderi kogust ei uuendata tellimuse jaotamisel
-                  href: troubleshooting/inventory/quantity-on-a-start.md
-                - name: Välja „Viimase testimise kuupäev” ei uuendata mitme kvaliteettellimuse loomisel
-                  href: troubleshooting/inventory/the-field-last-test.md
-                - name: Tegeliku kaalu koguse jaotamisel kasutatakse nimikoguse asemel miinimumkogust
-                  href: troubleshooting/inventory/while-splitting-the.md
-            - name: Koondplaneerimine
-              items:
-                - name: 'Süsteem ei leia plaanitud tellimust, kui see töötab mitme tellimusega'
-                  href: troubleshooting/planning/planned-order-not-exist.md
-                - name: Koosluse koosnevus käitub kinnitatud ja hinnanguliste tootmistellimuste puhul erinevalt
-                  href: troubleshooting/planning/bom-explosion-works-differently.md
-                - name: 'Viivituse väärtust ei uuendata, kui plaanite plaanitud tellimust uuesti planeerida'
-                  href: troubleshooting/planning/delay-value-not-updated.md
-                - name: Plaanitud tellimused võtaksid uuendamiseks kaua aega
-                  href: troubleshooting/planning/planned-order-long-update.md
-                - name: Plaanitud tellimused luuakse laovarude kohta koos tootmistellimustega
-                  href: troubleshooting/planning/planned-orders-in-stock-items.md
-                - name: Tootmise planeerimisel ei arvestata ohutuspiire
-                  href: troubleshooting/planning/prod-schedule-safety-margins.md
-                - name: Koondplaneerimine plaanib üle saadaoleva võimsuse
-                  href: troubleshooting/planning/respect-capacity-limitations.md
-                - name: Piisavat võimsust ei leitud.
-                  href: troubleshooting/planning/not-enough-capacity-error.md
-                - name: Sisseehitatud koondplaneerimise mootori käitamisel kuvatakse tõrge
-                  href: troubleshooting/planning/deprecated-master-planning-error.md
-                - name: Kaubal ei saa olla kooslust ega valemit
-                  href: troubleshooting/planning/item-cannot-have-bom-formula.md
-                - name: Parameetreid koondplaanile pole olemas
-                  href: troubleshooting/planning/no-parameters-for-master-plan.md
-                - name: 'Plaanitud tootmistellimus peab olema plaanitud enne, kui seda saab kinnitada'
-                  href: troubleshooting/planning/planned-order-must-be-scheduled.md
-                - name: Toode on kande jaoks ootel
-                  href: troubleshooting/planning/product-is-on-hold.md
-                - name: Valitud valeminumber ei ole partiitellimuse puhul kinnitatud.
-                  href: troubleshooting/planning/selected-formula-not-approved.md
-                - name: Hankija kood pole kindla toote ja kuupäeva jaoks autoriseeritud
-                  href: troubleshooting/planning/vendor-code-not-authorized.md
-                - name: Plaanitud tellimuste kinnitamisel pole hankijat määratud
-                  href: troubleshooting/planning/vendor-not-specified.md
-                - name: Otse tuletatud kindlad tellimused töödeldakse ülevaatuse töövooga
-                  href: troubleshooting/planning/firmed-directly-deri.md
-                - name: Koondplaneerimise üksuseid ei saa filtreerida seotud laovarude grupi väärtuste alusel
-                  href: troubleshooting/planning/master-planning-batc.md
-                - name: Koondplaneerimine loob fiktiivsetele toodetele plaanitud tellimused
-                  href: troubleshooting/planning/planned-orders-are-g.md
-                - name: Plaanitud ostutellimus luuakse ostu olemasolul negatiivsete päevade jooksul
-                  href: troubleshooting/planning/planning-optimisatio.md
-                - name: 'Prognoositud ühiku kulusid ei saa värskendada, kui impordite nõudluse prognoosi kirjeid'
-                  href: troubleshooting/planning/unable-to-upload-the.md
-                - name: Lao nõudluse prognoosi dimensiooni ei saa prognoosi ridadelt eemaldada
-                  href: troubleshooting/planning/warehouse-removal-fr.md
-                - name: 'Teil palutakse salvestada kauba laovarude sätted ka juhul, kui muudatusi pole tehtud'
-                  href: troubleshooting/planning/when-importing-to-th.md
-            - name: Hange
-              items:
-                - name: Ostutellimuse reaandmete lahknevused
-                  href: troubleshooting/procurement/purchase-order-line-data-issues.md
-                - name: Üks või mitu arvestuse jaotust on kas üle- või alajaotatud.
-                  href: troubleshooting/procurement/accounting-over-under-distributed.md
-                - name: Ostutellimuse tegevuse saab lõpetada ainult täielikult jaotatud reanumbrite osas
-                  href: troubleshooting/procurement/action-requires-full-distribution.md
-                - name: Kinnitatud hankija kehtivuse kuupäeva ei saa muuta
-                  href: troubleshooting/procurement/approved-vendor-effective-date.md
-                - name: Tühistatud ostutellimused kuvatakse tööruumi mustandiloendis
-                  href: troubleshooting/procurement/canceled-po-in-draft-list.md
-                - name: Kandeid saab sisestada peatatud pearaamatukontole
-                  href: troubleshooting/procurement/canceled-receipts-posted.md
-                - name: Tarnejäägi tühistamisel teisaldatakse ostutellimus kinnitatud olekusse
-                  href: troubleshooting/procurement/change-management-canceled-remainder.md
-                - name: Te ei saa mitut toote sissetulekut üheks ostutellimuseks konsolideerida
-                  href: troubleshooting/procurement/consolidate-multiple-receipts.md
-                - name: Vaikemaksugrupp ja skonto pole arvekontol täidetud
-                  href: troubleshooting/procurement/default-tax-group-and-discount.md
-                - name: Tarne nime ei sünkroonita pärast ostutellimuse tarneaadressi muutmist
-                  href: troubleshooting/procurement/delivery-name-isnt-synced.md
-                - name: Hankija arve sisestamisel ilmneb erand
-                  href: troubleshooting/procurement/invocation-target-exception.md
-                - name: Imporditud ostutellimuste reanumbrid on valed
-                  href: troubleshooting/procurement/line-number-increments.md
-                - name: Ostulepingu maksimaalne limiit ei kehti ostutaotluse suhtes
-                  href: troubleshooting/procurement/max-limit-on-requisition.md
-                - name: Ostutellimuse kinnitamisel ilmneb tõrge „Objektiviidet pole määratud”
-                  href: troubleshooting/procurement/object-reference-not-set.md
-                - name: Arvestuse jaotused on kas üle- või alajaotatud
-                  href: troubleshooting/procurement/over-under-distribution.md
-                - name: Välja Hinnaühik ei saa lisada lehele Ostutellimus
-                  href: troubleshooting/procurement/personalize-purchase-agreement-price.md
-                - name: Ostutellimustel ei kajastata juriidilise isiku keelesätteid
-                  href: troubleshooting/procurement/po-language.md
-                - name: Ostutellimuse sissetulek ei sisalda kõiki kulusid
-                  href: troubleshooting/procurement/po-receipt-missing-charges.md
-                - name: Ostutellimuste ühikuhindu ei arvutata ühikuteisenduse alusel
-                  href: troubleshooting/procurement/po-unit-prices-not-calculated.md
-                - name: Säte „Sisesta pearaamatu kulude kontole” pole sisse lülitatud
-                  href: troubleshooting/procurement/post-setting-turned-off.md
-                - name: Tõrge ostutellimuse taasedastamisel töövoogu pärast muudatust
-                  href: troubleshooting/procurement/resubmit-po-after-change.md
-                - name: Kaubanduslelepingu valuutateisenduse probleemid
-                  href: troubleshooting/procurement/trade-agreement-currencies.md
-                - name: Kaubanduslelepingu tingimusi ei rakendata imporditud tellimuseridadele
-                  href: troubleshooting/procurement/trade-agreement-not-applied.md
-                - name: Kaubandusleppeid saab luua tagasilükatud pakkumiskutsete põhjal
-                  href: troubleshooting/procurement/trade-agreements-from-rejected-rfq.md
-                - name: Hankija tagasimakset ei kumuleerita arvete põhjal
-                  href: troubleshooting/procurement/vendor-rebate-not-cumulated.md
-                - name: 'Toote sissetuleku kande number kasutatakse ära ka siis, kui kannet ei looda'
-                  href: troubleshooting/procurement/voucher-number-consumed.md
-                - name: Te ei saa arvet esitada kliendile suunatud müügitellimuse kohta
-                  href: troubleshooting/procurement/not-able-to-invoice-.md
-                - name: Ostutaotlusele ei saa pärast muudatuse taotlemist rida lisada
-                  href: troubleshooting/procurement/purchase-requisition.md
-            - name: Tooteteabe haldus
-              items:
-                - name: Väljastatud toodet ei saa kustutada
-                  href: troubleshooting/products/cant-delete-released-prod.md
-                - name: Toote konfiguratsioonimudelite arvutamisel ümardatakse täisarvud valesti
-                  href: troubleshooting/products/integers-incorrectly-rounded.md
-                - name: 'Kauba tekst kirjutatakse üle, kui toode konfigureeritakse müügitellimuse real'
-                  href: troubleshooting/products/text-overwritten-configured-item.md
-                - name: Te ei saa väljastatud toote loomiseks malli rakendada
-                  href: troubleshooting/products/apply-template-in-re.md
-                - name: Te ei saa üksuse Väljastatud tooted V2 abil kaupa importida
-                  href: troubleshooting/products/cannot-import-with-r.md
-                - name: Ostutellimustes ei kuvata tõlgitud tooteteksti
-                  href: troubleshooting/products/when-the-customer-ad.md
-            - name: Tootmise juhtimine
-              items:
-                - name: Omahinna tagasiarvestuse arvutamise tõrge lao sulgemisel
-                  href: troubleshooting/production/backflush-costing-calculation-error.md
-                - name: Tootmistellimust ei saa lõpetada koosluse consumptionCosti väärtuse vea tõttu
-                  href: troubleshooting/production/bom-consumption-cost-error.md
-                - name: Uue tootmistellimuse loomisel ei saa kooslust ja protsessi lisada
-                  href: troubleshooting/production/cant-insert-bom-route-number.md
-                - name: Eelmised pooleliolevad tööd lõpetatakse viimase töö osalise koguse teatamisel
-                  href: troubleshooting/production/in-progress-jobs-ended.md
-                - name: Tootmistellimuse vabastamisel ei saa kauba RM-i täielikult reserveerida
-                  href: troubleshooting/production/item-rm-not-reserved.md
-                - name: Lõpetatuna kinnitamise värskendus nurjub puuduva koguse tõrkega
-                  href: troubleshooting/production/missing-report-finished-quantity.md
-                - name: 'Tõrge, kui postitatakse Märgi lõpetatud tööleheks'
-                  href: troubleshooting/production/posting-report-as-.md
-                - name: Tõrge tootmistellimuse oleku muutmisel olekust Lõpetatuna kinnitatud olekusse Lõpp
-                  href: troubleshooting/production/production-order-status-error.md
-                - name: Tootmistellimusi ei kuvata lehel Märgistus
-                  href: troubleshooting/production/production-orders-marking-page.md
-                - name: Ressursi nime ei värskendata pärast töötaja nime muutmist aadressiraamatus
-                  href: troubleshooting/production/resource-name-not-updated.md
-                - name: Kaupade üldkoguse tõrge tootmistellimuse lõpetamisel
-                  href: troubleshooting/production/total-good-quantity-order-error.md
-                - name: Lõpetatud kaupade seerianumbreid ei saa jälitada tarbitud kaupade suhtes
-                  href: troubleshooting/production/trace-finished-goods-consumed-goods.md
-                - name: 'Tööd ei saa reserveerida ega vabastada, sest protsessid on praegu kasutusel'
-                  href: troubleshooting/production/warehouse-management-processes-used.md
-                - name: Koosluseridade automaatse tarbimise põhimõtte sätteid ei järgita
-                  href: troubleshooting/production/flushing-principle-n.md
-                - name: Partiinumber eemaldatakse uue partii ID valimisel
-                  href: troubleshooting/production/when-customer-is-try.md
-                - name: Hilist valikut ei arvestata tootmistellimuste lähtestamisel pakett-töö kaudu
-                  href: troubleshooting/production/late-selection-is-no.md
-                - name: Kasutajad saavad lõpetatuna kinnitatud toodete materjaliridade komplekteerimise tühistada
-                  href: troubleshooting/production/raw-material-lines-a.md
-                - name: 'Tõrge, kui postitatakse Märgi lõpetatud tööleheks'
-                  href: troubleshooting/production/posting-report-as-.md
-                - name: Komplekteerimislehe töölehel olevat ladu ei ole koosluse real uuendatud
-                  href: troubleshooting/production/the-warehouse-in-pic.md
-            - name: Tagasimakse haldus
-              items:
-                - name: Kliendi tagasimaksete kumuleerimine kauba tagasimaksegruppide abil nurjub
-                  href: troubleshooting/rebates/cumulating-customer-.md
-            - name: Müük ja turundus
-              items:
-                - name: Müügi uuendamisajaloo puhastamise töö nurjub või sellel on jõudlusprobleeme
-                  href: troubleshooting/sales/sales-update-history-cleanup-job-performance-issues.md
-                - name: Kontsernisiseses protsessis ei toetata kogumi kaupa
-                  href: troubleshooting/sales/bundle-item-intercompany-process.md
-                - name: Müügitellimusega seotud kontsernisisest ostutellimust ei saa tühistada
-                  href: troubleshooting/sales/cancel-intercompany-purchase-order.md
-                - name: Tellimuse tühistamisel ei saa reserveeringuid eemaldada
-                  href: troubleshooting/sales/cancel-order-reservations-not-removed.md
-                - name: 'Kui on olemas kaks kattuvate kuupäevadega kaubandusleppet, valitakse alati sama'
-                  href: troubleshooting/sales/same-trade-agreement-selected.md
-                - name: Teenusüksuse müügikogust ei saa muuta müügipakkumise real
-                  href: troubleshooting/sales/service-item-sales-quantity.md
-                - name: 'Maksuteavet ei värskendata, kui müügitellimuse päises muudetakse asukohta'
-                  href: troubleshooting/sales/tax-information-not-updated.md
-                - name: Kogust ei saa vähendada müügitellimuse tühistamisel
-                  href: troubleshooting/sales/quantity-cannot-be-reduced.md
-                - name: 'Süsteemiadministraatorid ei saa tellimuste ootelolekuid tühjendada, sest nad pole autoriseeritud'
-                  href: troubleshooting/sales/system-administrator.md
-            - name: Transpordihaldus
-              items:
-                - name: Põhikonto saab krediidikontona lisada ainult vastavusseviimise põhjustel
-                  href: troubleshooting/transportation/reconciliation-reaso.md
-            - name: Laohaldus
-              items:
-                - name: Warehouse mobile app
-                  items:
-                    - name: Ootamatu erinevus nõude ja seansi andmete vahel testimisel
-                      href: troubleshooting/warehousing/request-session-data-difference.md
-                    - name: Rakenduse ühenduse seadistamisel ei leitud sertifikaadi tee usaldusankrut
-                      href: troubleshooting/warehousing/certification-path-app-connection-error.md
-                    - name: Värskendamisel ja LHS-i migreerimisel ei leitud sertifikaadi tee usaldusankrut
-                      href: troubleshooting/warehousing/upgrade-migration-certification-path-error.md
-                - name: Peatatud müügitellimuse rea saatelehte ei saa sisestada
-                  href: troubleshooting/warehousing/unable-to-post-packi.md
-                - name: Töötlusprobleemid ilmnevad pärast skaalaüksuse lao töökoormuse installimist
-                  href: troubleshooting/warehousing/Scale-unit-warehouse-workload-installation-issues.md
-                - name: Partiinumbri automaatse reserveerimise viip kuvatakse isegi saadaolevate varude puhul
-                  href: troubleshooting/warehousing/auto-reservation-prompt-shown.md
-                - name: Komplekteerimistöö blokeeringut ei saa lõpetamata täiendustöö tõttu eemaldada
-                  href: troubleshooting/warehousing/blocked-unfinished-replenishment-work.md
-                - name: Pärast müügitellimusest sisestamist ei saa saatelehte tühistada
-                  href: troubleshooting/warehousing/cancel-posted-packing-slip.md
-                - name: 'Litsentsiplaati ei saa teisaldada, kui seerianumbril on lubatud tühi väljastamine ja tühi sissetulek'
-                  href: troubleshooting/warehousing/cant-move-license-plate.md
-                - name: 'Varusid ei saa liigutada asukohta, mis on identifitseerimisnumbri järgi kontrollitud'
-                  href: troubleshooting/warehousing/cant-reduce-picked-quantities.md
-                - name: Kogumiprofiili ei leitud
-                  href: troubleshooting/warehousing/cluster-profile-not-found-error.md
-                - name: Tarneteate parandust ei saa töödelda
-                  href: troubleshooting/warehousing/delivery-note-correction.md
-                - name: Tõrge saadetise kinnitamisel pärast seeriakauba üleviimistellimuse loomist
-                  href: troubleshooting/warehousing/dimension-location-left-blank.md
-                - name: Otsetarne ei ole võimeline töötlema LHS-loaga ladu
-                  href: troubleshooting/warehousing/direct-delivery-wms-enabled-warehouse.md
-                - name: Laadimissildade halduse profiili kasutamisel segatakse laotüüpe
-                  href: troubleshooting/warehousing/dock-management-inventory-mixing.md
-                - name: Mitu SKU valikut ei hinda mitme asukoha direktiivi tegevust
-                  href: troubleshooting/warehousing/evaluate-multiple-location-directive-actions.md
-                - name: 'Komplekteerimistööd ei looda kohe, kui väljaminev koormus vabastatakse'
-                  href: troubleshooting/warehousing/generate-work-immediately-load-release.md
-                - name: Litsentsiplaadi ID skannimisel mobiilirakenduses ilmnes kehtetu litsentsiplaadi tõrge
-                  href: troubleshooting/warehousing/invalid-license-plate.md
-                - name: Laovarude omanik pole lubatud liikumiste töötlemisel laorakenduses
-                  href: troubleshooting/warehousing/inventory-owner-not-allowed.md
-                - name: Süsteem ei saa laovarude kogust ebapiisavate kannete tõttu värskendada
-                  href: troubleshooting/warehousing/inventory-quantity-insufficient-transactions.md
-                - name: Laovarude oleku muudatust ei saa valida veerus Töö tüüp
-                  href: troubleshooting/warehousing/inventory-status-change-work-type.md
-                - name: Mobiilirakenduses skannimisel ilmnes kehtetu litsentsiplaadi või asukoha tõrge
-                  href: troubleshooting/warehousing/license-plate-location-invalid.md
-                - name: Litsentsiplaadi kogus sissetulevate tellimuste registreerimisel ei sobi
-                  href: troubleshooting/warehousing/license-plate-quantity-not-valid.md
-                - name: Litsentsiplaadi spetsifikatsiooni tõrge üleviimistellimuse saadetise kinnitamisel
-                  href: troubleshooting/warehousing/license-plate-specified-location.md
-                - name: Üks rida on juba koormal
-                  href: troubleshooting/warehousing/line-already-on-load.md
-                - name: Koorma kaalu tõrge ja värskendamine tühistati töö töötlemisel asukohtade vahel
-                  href: troubleshooting/warehousing/load-weight-positive-numbers.md
-                - name: 'Kasutatav kombineeritud identifitseerimisnumber ei tööta ühegi likvideerimise koodi, v.a krediidi puhul'
-                  href: troubleshooting/warehousing/mixed-license-plate-receiving.md
-                - name: Mobiilse seadme rakenduse emulaatorile juurdepääsemiseks saab kasutada ainult administraatorirolli
-                  href: troubleshooting/warehousing/mobile-app-emulator-administrator.md
-                - name: Üldisest ladustamisest täpsemasse ladustamisse teisaldamisega seotud probleemid
-                  href: troubleshooting/warehousing/move-basic-to-advanced-warehousing.md
-                - name: 'Kogumi jaoks ei leidu piisavalt tööd, kui kasutatakse süsteemi suunatud kogumi komplekteerimist'
-                  href: troubleshooting/warehousing/not-enough-work-for-cluster.md
-                - name: Tellimuse olek jääb osaliselt väljastatud olekusse isegi pärast müügitellimuse arveldamist
-                  href: troubleshooting/warehousing/order-status-partially-released.md
-                - name: Lao mobiilirakendust Warehouse Management ei saa kasutada osalise komplekteerimise tegemiseks
-                  href: troubleshooting/warehousing/partial-picking-warehouse-app.md
-                - name: Luba osalise kogusega töö laovarude oleku muutmine
-                  href: troubleshooting/warehousing/partial-quantity-inventory-status.md
-                - name: Tarneteate või pakkimissisu printimine lao või saidi alusel
-                  href: troubleshooting/warehousing/print-documents-by-warehouse.md
-                - name: 'Kogus ei sobi, kui ühes asukohas on mitme LP-ga komplekteerimistöö'
-                  href: troubleshooting/warehousing/quantity-invalid-multiple-license-plates.md
-                - name: Kogus ei sobi mitme partii tükeldatud komplekteerimisel
-                  href: troubleshooting/warehousing/quantity-invalid-split-pick.md
-                - name: Osaliselt lähetatud koormat ei saa uuesti lattu väljastada
-                  href: troubleshooting/warehousing/rerelease-partially-shipped-load.md
-                - name: 'Süsteem ei saa reserveeringuid teha, sest laos on saadaval 0,00'
-                  href: troubleshooting/warehousing/reservations-0-inventory-available.md
-                - name: Varude sobimatute dimensioonide tõttu ei saa tagastusmüügitellimuse jaoks koormarida luua
-                  href: troubleshooting/warehousing/return-order-invalid-dimensions.md
-                - name: Müügitellimust ei saanud väljastada väljaminevate laotoimingutega
-                  href: troubleshooting/warehousing/sales-order-not-released.md
-                - name: 'Koorma saadetis on kinnitatud, kuid ühtegi rida ei sisestata'
-                  href: troubleshooting/warehousing/shipment-confirmed-no-posting.md
-                - name: Ruumi leidmise mallid ei arvesta partiiüleste kaupade vaba kaubavaru
-                  href: troubleshooting/warehousing/slotting-templates-inventory-batch-above.md
-                - name: Osalise koguse koormust ei saa väljastada partiiülese reserveerimishierarhiaga
-                  href: troubleshooting/warehousing/specify-dimensions-above-location.md
-                - name: Kinnitamata ostutellimused kinnitatakse pärast toote sissetulekute värskendamise käitamist.
-                  href: troubleshooting/warehousing/unconfirmed-purchase-orders-confirmed.md
-                - name: Müügitellimuse real olevate varude reserveeringut ei saa tühistada
-                  href: troubleshooting/warehousing/unreserve-inventory-sales-line.md
-                - name: 'Saadetist ei saa kinnitada, kuna klient on ootel'
-                  href: troubleshooting/warehousing/customer-is-on-hold.md
-                - name: 'Saadetist ei saa kinnitada, kuna koormaridadel on kogus null'
-                  href: troubleshooting/warehousing/load-line-quantity-is-zero.md
-                - name: 'Koormarida ei saa värskendada, kuna vabastatud kogus oleks negatiivne'
-                  href: troubleshooting/warehousing/released-qty-cannot-be-negative.md
-                - name: Tühistatud toote sissetulekud ei värskenda kannete olekut olekusse Registreeritud
-                  href: troubleshooting/warehousing/canceled-product-receipts.md
-                - name: Värskendatava füüsilise koguse kümnendkohani ümardamine on vale
-                  href: troubleshooting/warehousing/decimal-rounding-of-quantity.md
-                - name: Füüsiliselt järelejääv kogus ühikus peab nullist erinema
-                  href: troubleshooting/warehousing/physical-remaining-q.md
-                - name: Komplekteeritud kogus pole saatelehe loomisel piisav
-                  href: troubleshooting/warehousing/picked-quantity-is-n.md
-                - name: Kogus ületab ületarne protsendi saatelehe loomisel
-                  href: troubleshooting/warehousing/quantity-exceeds-over-pack-slip.md
-                - name: 'Kogus, mida püüate värskendada, ületab saadud või tarnitud koguse'
-                  href: troubleshooting/warehousing/quantity-exceeds-rec-del.md
-                - name: Kogus ületab alatarne protsendi saatelehe loomisel
-                  href: troubleshooting/warehousing/quantity-exceeds-under-pack-slip.md
-                - name: Komplekteerimislehe registreerimise ajal ilmneb asukoha valimisel tõrge
-                  href: troubleshooting/warehousing/error-cannot-update.md
-                - name: Pakkimisjaam ei kuva tootemärkmeid
-                  href: troubleshooting/warehousing/packing-station-not-.md
-                - name: 'Asukohaprofiil keelab negatiivsed varud, kuid negatiivne vaba kogus on lubatud'
-                  href: troubleshooting/warehousing/location-profile-set.md
-                - name: Ühele kviitungile prinditakse mitme tööpäise jaoks ainult üks silt
-                  href: troubleshooting/warehousing/when-receipting-prod.md
-                - name: Saadetist ei saa kinnitada kalendri probleemi tõttu
-                  href: troubleshooting/warehousing/load-has-active-appo.md
-                - name: Saadetist ei saa kinnitada lõpetamata või puuduva töö tõttu
-                  href: troubleshooting/warehousing/open-or-no-work-exis.md
-                - name: 'Saadetist ei saa kinnitada, kuna kaubad pole komplekteeritud'
-                  href: troubleshooting/warehousing/picked-quantity-is-not-on-final.md
-                - name: 'Saadetist ei saa kinnitada, kuna kogus on null'
-                  href: troubleshooting/warehousing/picked-quantity-is-zero.md
-                - name: 'Saadetist ei saa kinnitada, kuna kogus ületab ületarne protsenti'
-                  href: troubleshooting/warehousing/quantity-exceeds-ove.md
-                - name: 'Saadetist ei saa kinnitada, kuna kogus ületab alatarne protsenti'
-                  href: troubleshooting/warehousing/quantity-exceeds-und.md
-                - name: Viimane suletud töörida peab olema „panemine“
-                  href: troubleshooting/warehousing/the-last-closed-work.md
-                - name: Koormaridade kaaluväljad ei vasta koorma kaaluväljadele
-                  href: troubleshooting/warehousing/the-weight-fields-on.md
-                - name: Voog ei ole puhastamise jaoks sobilik
-                  href: troubleshooting/warehousing/wave-is-not-eligible.md
-                - name: Kaal peab olema positiivne
-                  href: troubleshooting/warehousing/weight-must-be-posit.md
-                - name: 'Tööd ei saa tühistada, kuna see on blokeeritud'
-                  href: troubleshooting/warehousing/work-cannot-be-canceled-blocked.md
-                - name: Tööd ei saa oleku tõttu tühistada
-                  href: troubleshooting/warehousing/work-cannot-be-canceled-status.md
-                - name: Töö pole blokeeritud
-                  href: troubleshooting/warehousing/work-is-not-blocked.md
-                - name: Töö jääb blokeerituks
-                  href: troubleshooting/warehousing/work-remains-blocked.md
-                - name: Kasutajale määratud tööd ei saa tühistada
-                  href: troubleshooting/warehousing/you-cannot-cancel-wo.md
     - name: Finants- ja äritoimingute rakenduste juurutamine ja haldamine
       href: ../fin-ops-core/dev-itpro/index.md
     - name: Dynamics 365 Finance
