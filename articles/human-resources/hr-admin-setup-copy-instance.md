@@ -14,17 +14,22 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d0da71c87364eacf60b9a82a200996292b863b6a
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 935c2e6cb45df193e6cbf70634f3561154c6fe38
+ms.sourcegitcommit: 1401d66b6b64c590ca1f8f339d622e922920cf15
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692418"
+ms.lasthandoff: 07/20/2022
+ms.locfileid: "9178529"
 ---
 # <a name="copy-an-instance"></a>Kopeeri eksemplar
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+_**Rakendub:** inimressursid autonoomsel infrastruktuuril_ 
 
+> [!NOTE]
+> Alates 2022. juunist saab Inimressursside keskkondi juurutada ainult finantside ja toimingute rakenduse infrastruktuuris. Lisateavet vt inimressursside ettevalmistamisest [finantside ja toimingute infrastruktuuris](hr-admin-setup-provision-fo.md).
+
+> [!IMPORTANT]
+> Finantside ja toimingute taristu ei toeta kopeerimiseksemplari funktsiooni. Saate juurutada uusi keskkondi ja kasutada koopiate loomiseks andmebaasi liikumisi. Lisateavet iseteeninduse juurutuste kohta vt iseteeninduse [juurutuse ülevaatest](../fin-ops-core/dev-itpro/deployment/infrastructure-stack.md). Lisateavet andmebaasi liikumiste kohta finantside ja toimingute infrastruktuuris vt Andmebaasi tegemistoimingute [avalehelt](../fin-ops-core/dev-itpro/database/dbmovement-operations.md).
 
 Saate kasutada portaali Microsoft Dynamics Lifecycle Services (LCS), et kopeerida rakenduse Microsoft Dynamics 365 Human Resources andmebaas liivakastikeskkonda. Kui teil on teine liivakastikeskkond, saate kopeerida andmebaasi ka sellest keskkonnast sihtkohaks olevasse liivakastikeskkonda.
 
@@ -50,7 +55,7 @@ Rakenduse Human Resources andmebaasi kopeerimisel esinevad järgmised sündmused
 
 - Microsoft Azure’i bloobimälu dokumente ei kopeerita ühest keskkonnast teise. Selle tulemusena ei kopeerita ühtegi lisatud dokumenti ega malli ja need jäävad lähtekeskkonda.
 
-- Kõik kasutajad, v.a need, kellel on turberoll "Süsteemiadministraator" ja teised siseteenuse kasutajakontod, pole saadaval. Administraatorkasutaja andmed kustutada või ebaselgeks muuta enne teiste kasutajate tagasi süsteemi lubamist.
+- Kõik kasutajad, v.a need, kellel on turberoll "Süsteemiadministraator" ja teised siseteenuse kasutajakontod, pole saadaval. Administraatorkasutaja saab andmeid kustutada enne teiste kasutajate süsteemi tagasi lubamist.
 
 - Iga kasutaja, kellel on turvaroll "Süsteemihaldur", peab tegema vajalikud konfiguratsioonimuudatused, näiteks ühendama integratsiooni lõpp-punktid uuesti teatud teenuste või URL-idega.
 
@@ -67,15 +72,17 @@ Selle ülesande lõpetamiseks kopeerite esmalt eksemplar ja seejärel logige oma
 
 3. Valige kopeeritav eksemplar ja seejärel valige käsk **Kopeeri**.
 
-4. Valige tööpaanil **Eksemplari kopeerimine** ülekirjutamiseks eksemplar ja seejärel valige käsk **Kopeeri**. Oodake, kuni välja **Kopeerimise olek** väärtus uuendatakse suvandile **Lõpule viidud**.
+4. Valige tööpaanil **Eksemplari kopeerimine** ülekirjutamiseks eksemplar ja seejärel valige käsk **Kopeeri**. Oodake, kuni **olekuväli** Kopeeri uuendatakse väärtusele **Lõpetatud**.
 
    ![[Valige ülekirjutamiseks eksemplar.](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
 
 5. Valige **Power Platform** ja logige Microsoft Power Platformi halduskeskusesse sisse.
 
-   ![[Valige käsk .Power Platform](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
+   ![[Vali.Power Platform](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
 
 6. Valige kopeeritav Power Appsi keskkond eksemplar ja seejärel valige käsk **Kopeeri**.
+
+Lisateavet keskkonna kopeerimise kohta Power Apps vt teemast [Keskkonna kopeerimine](/power-platform/admin/copy-environment#copy-an-environment-1).
 
 7. Kui kopeerimisprotsess on lõpule viidud, logige sihteksemplari sisse ja lubage Dataverse’i integratsioon. Lisateavet ja juhiseid vt teemast [Dataverse’i integreerimise konfigureerimine](./hr-admin-integration-common-data-service.md).
 
@@ -115,7 +122,7 @@ Samuti muutuvad eksemplari kopeerimisel järgmised olekud.
 
 ## <a name="environment-admin"></a>Kekkonna administraator
 
-Kõik liivakasti sihtkeskkonna kasutajad (sh administraatorid) asendatakse lähtekeskkonna kasutajatega. Enne eksemplari kopeerimist veenduge, et oleksite lähtekeskkonnas administraator. Kui te seda ei ole, ei saa te pärast kopeerimise lõpetamist liivakasti sihtkeskkonda sisse logida.
+Kõik liivakasti sihtkeskkonna kasutajad (sh administraatorid) asendatakse lähtekeskkonna kasutajatega. Enne eksemplari kopeerimist veenduge, et oleksite lähtekeskkonnas administraator. Kui te seda ei tee, ei saa te pärast kopeerimise lõpetamist sihtkausta keskkonda sisse logida.
 
 Kõik mitte-administraatorist kasutajad liivakasti sihtkeskkonnas keelatakse, et välistada liivakasti keskkonnas soovimatuid sisselogimisi. Administraatorid saavad vajadusel kasutajaid uuesti lubada.
 

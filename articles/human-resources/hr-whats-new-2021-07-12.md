@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-07-12
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 259004773c4e5a7d8865d563da9bcfea3a116632
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d7fb922a35504b69aa8cc3d92cb981e8fb060290
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8870954"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067582"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-july-12-2021"></a>Mis on uut ja mida on muudetud rakenduses Dynamics 365 Human Resources (12. juuli 2021)
 
@@ -80,7 +80,7 @@ Järgmised uued funktsioonid on eelversioonis. Lisateavet funktsioonide sisse- v
 
 | Funktsioon | Details |
 | --- | --- |
-| Platvormi värskendus 10.0.20 (44) | Platvormi värskendus 10.0.20 peaks tuleb välja teenuseväljalaske raames 26. juuli 2021. Lisateavet vt Platvormi värskendustest [versioonile 10.0.20 Finance and Operations rakendustest (august 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-20). |
+| Platvormi värskendus 10.0.20 (44) | Platvormi värskendus 10.0.20 peaks tuleb välja teenuseväljalaske raames 26. juuli 2021. Lisateavet vt platvormi uuendustest [versioonile 10.0.20 finantside ja toimingute rakendustest (august 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-20). |
 
 Plaanitud funktsioonide täieliku loendi ja nende kavandatud väljaannete kohta leiate teavet teemast [Dynamics 365 Human Resourcesi 2021. aasta 1. väljalaskevoo ülevaade](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/).
 
@@ -92,3 +92,4 @@ Plaanitud funktsioonide täieliku loendi ja nende kavandatud väljaannete kohta 
 [Funktsioonide haldamine](hr-admin-manage-features.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

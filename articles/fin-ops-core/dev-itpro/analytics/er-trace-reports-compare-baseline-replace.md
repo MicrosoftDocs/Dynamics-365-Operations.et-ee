@@ -1,6 +1,6 @@
 ---
 title: Loodud ER-aruannete ja võrdluste alusväärtuste abil jälgimise tulemuste täiustused
-description: See artikkel kirjeldab ER-i põhifunktsiooni parendusi Microsoft Dynamics 365 for Finance and Operations versioonis 10.0.3 (juuni 2019).
+description: See artikkel kirjeldab ER-i Microsoft Dynamics põhifunktsiooni parendusi versioonis 365 Finantsversioon 10.0.3 (juuni 2019).
 author: NickSelin
 ms.date: 06/19/2019
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 3b9ac7dcac4d020759d04fec75e17c43ed627e25
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: bb2e76492ac9f6feb71811d0fbfd25919b59ac4d
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8847397"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9109138"
 ---
 # <a name="improve-tracing-the-results-of-generated-er-reports-to-compare-with-baseline-values"></a>Loodud ER-aruannete ja võrdluste alusväärtuste abil jälgimise tulemuste täiustused
 
 [!include[banner](../includes/banner.md)]
 
-See artikkel kirjeldab esimest parenduste kogum, mis on tehtud elektroonilise aruandluse (ER) raamistiku põhifunktsioonile. Need täiustused on saadaval rakenduse Microsoft Dynamics 365 for Finance and Operations versioonis 10.0.3 (juuni 2019) ja uuemates versioonides.
+See artikkel kirjeldab esimest parenduste kogum, mis on tehtud elektroonilise aruandluse (ER) raamistiku põhifunktsioonile. Need parendused on saadaval Microsoft Dynamics versioonis 365 Finance 10.0.3 (juuni 2019) ja hilisemas versioonis.
 
 ## <a name="automate-the-setting-of-baseline-rules"></a>Alusreeglite seadistamise automatiseerimine
 
@@ -208,3 +208,4 @@ Alussätete importimiseks Microsoft SharePoint Serverisse salvestatud XML-failis
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

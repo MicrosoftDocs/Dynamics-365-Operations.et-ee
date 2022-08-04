@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 953a3bfec70235524067a47b8764f6dbb40d3c7b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 357ce65792ceef37abda523e7693069f1bc1ab43
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849296"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065550"
 ---
 # <a name="flushing-principles"></a>Automaatse tarbimise põhimõtted
 
@@ -50,7 +50,7 @@ Automaatse tarbimise põhimõtted on konfigureeritud vaikeväärtuste hierarhias
 ## <a name="description-of-the-flushing-principles"></a>Automaatse tarbimise põhimõtete kirjeldus
 
 ### <a name="manual"></a>Käsitsi
-Käsitsi automaatse tarbimise põhimõte näitab, et materjali tarbimise registreerimine toimub käsitsi. See põhimõte on sobiv näiteks siis, kui soovite jälgida aega ning jälgimiseks tuleb arvesse võtta tarbitud partiide numbrite või seerianumbrite kogust. Käsitsi tarbimine registreeritakse tootmise komplekteerimislehe töölehel. Täpsemate laoprotsesside jaoks lubatud kaupade puhul saab rakendada käimasolevat voogu.
+Käsitsi automaatse tarbimise põhimõte näitab, et materjali tarbimise registreerimine toimub käsitsi. See põhimõte on sobiv näiteks siis, kui soovite jälgida aega ning jälgimiseks tuleb arvesse võtta tarbitud partiide numbrite või seerianumbrite kogust. Käsitsi tarbimine registreeritakse tootmise komplekteerimislehe töölehel. Kaupadele, mis on lubatud laohaldusprotsessidele (WMS), saab rakendada käsikäivitusvoogu.
 
 ### <a name="start"></a>Käivita
 Automaatse tarbimise põhimõte Algus näitab, et materjali tarbitakse tootmistellimuse käivitamisel automaatselt. Tarbitud materjali kogus on alguskoguse suhtes proportsionaalne. Kui automaatse tarbimise põhimõtet Algus kasutatakse koos tootmise käivitussüsteemiga, saab seda kasutada ka materjalide automaatseks tarbimiseks toimingu või protsessitöö käivitamisel. See põhimõtte on asjakohane, kui näiteks tarbimise hälve on väike, materjalid väheväärtuslikud, jälgimisnõudeid pole või on toimingutel lühike käitusaeg. 

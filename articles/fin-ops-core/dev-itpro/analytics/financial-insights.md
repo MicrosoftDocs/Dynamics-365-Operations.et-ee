@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 304cf3f6c913586e08e0a3771ebfe40bc5d2b102
-ms.sourcegitcommit: 3cb1f49a02e4a849fc34ffeb81fe507f0608b35e
+ms.openlocfilehash: 21d7d045c812c54d6776394ad9a0b025b55df8e1
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8464905"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9109108"
 ---
 # <a name="financial-analysis"></a>Finantsanalüüs
 
@@ -40,7 +40,7 @@ ms.locfileid: "8464905"
 
 - [Visualiseeringute Power BI lisamine või redigeerimine armatuurlaudal](/powerapps/user/add-powerbi-dashboards)
 
-## <a name="dynamics-365-finance-setup"></a>Dynamics 365 Finance’i häälestus
+## <a name="dynamics-365-finance-setup"></a>Dynamics 365 finantside häälestus
 **Pearaamat**
 
 Põhikonto tüüpi ja põhikonto kategooriaid kasutatakse **finantsülevaadete** **bilansi** finantsaruande ja paljude **kasumiaruande** finantsaruannete sobivate vaike- ja põhikontode täitmiseks.
@@ -78,7 +78,7 @@ Praegu ei saa Power BI aruannete andmeid manustada juriidilistele isikutele, mil
 | Lõiv                                    | Rollid | Kirjeldus |
 |-----------------------------------------|-------|------------|
 | Praeguse ettevõtte finantsülevaadete vaatamine | <ul><li>Raamatupidaja</li><li>Pearaamatupidaja</li><li>Raamatupidaja</li><li>Audiitor</li><li>Eelarvehaldur</li><li>Tegevjuht</li><li>Finantsdirektor</li><li>Finantskontroller</li></ul> | See kohustus võimaldab juurdepääsu finantsülevaatele. Vaikimisi kasutatakse filtrina aktiivset ettevõtet. Teisi juriidilisi isikuid ei saa lisada. |
-| Kõikide ettevõtte finantsülevaadete vaatamine   | Rakenduses Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3 pole see kohustus veel rollile määratud. Järgmises väljaandes määratakse see kohustus finantsdirektori rollile. | See kohustus võimaldab juurdepääsu CFO ülevaate tööruumi menüükäsule. Vaikimisi kasutatakse filtrina aktiivset ettevõtet. Sellegipoolest saate lisada kõik juriidilised isikud, sõltumata sellest, kas kasutajal on juurdepääs teistele juriidilistele isikutele. |
+| Kõikide ettevõtte finantsülevaadete vaatamine   | Finantsis Microsoft Dynamics 365, Enterprise edition 7.3, pole see kohustus määratud rollile. Järgmises väljaandes määratakse see kohustus finantsdirektori rollile. | See kohustus võimaldab juurdepääsu CFO ülevaate tööruumi menüükäsule. Vaikimisi kasutatakse filtrina aktiivset ettevõtet. Sellegipoolest saate lisada kõik juriidilised isikud, sõltumata sellest, kas kasutajal on juurdepääs teistele juriidilistele isikutele. |
 
 
 ## <a name="financial-reporting-vs-financial-analysis"></a>Financial reporting vs. finantsanalüüs
@@ -96,7 +96,7 @@ Järgmine võrdlusdiagramm selgitab kahe võimaluse vahelisi erinevusi.
 | **Aruandluse hierarhia / organisatsiooni hierarhia toetamine**   | Jah                                                               | Ei |
 | **Alammoodulite andmete kuvamine**                             | Jah Limiteeritud ainult hankijale, kliendile                              | Jah Hankija, klient, hankija-/kliendigrupid, hankija/kliendi aadressid jne |
 | **Aruandlusvaluuta**                                   | Jah Arvestusvaluuta ja aruandlusvaluutasse teisendamine       | Ei Ainult arvestusvaluuta |
-| **Turve**                                             | Jah Järgib rakendust Rahandus ja aruandluspuu turvet | Limiteeritud vaatega aruanded kõigile ettevõtetele (sõltumata rakenduse Finance and Operations turbest) või ainult aktiivsele ettevõttele |
+| **Turve**                                             | Jah Järgib rakendust Rahandus ja aruandluspuu turvet | Piiratud kuva aruanded kõigi ettevõtete kohta (sõltumata finantside ja toimingute turvalisusest) või ainult aktiivse ettevõtte kohta |
 | **Eri kontoplaanide ja rahandusaastate toetamine** | Jah                                                               | Ei |
 | **välisandmete aruanne**                              | Ei                                                                | Ei |
 | **Konsolideerimiste toetamine**                               | Jah                                                               | Limiteeritud Võimaldab aruandlust mitmele ettevõttele, aga kasutab ainult arvestusvaluutat |
@@ -244,3 +244,4 @@ Järgmiste ressursside teave ei ole kohustuslik **finantsülevaadete** tööruum
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 886781764b44ca76b327ad49f25f11f6c370a706
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4ea6901f8d9632b021c35b9ee899385e688fc77e
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8851947"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9108852"
 ---
 # <a name="trace-the-execution-of-er-formats-to-troubleshoot-performance-issues"></a>ER-vormingute täitmise jälitus jõudluse probleemide tõrkeotsinguks
 
@@ -98,7 +98,7 @@ Oletame, et olete alustanud uue ER-i lahenduse kujundamist, et luua uus hankija 
 
 Oletame, et olete lõpetanud ER-i lahenduse esimese versiooni kujundamise. Nüüd soovite seda testida oma eksemplaris ja analüüsida täitmise jõudlust.
 
-### <a name="import-an-er-configuration-from-rcs-into-finance-and-operations"></a><a id='import-configuration'></a>ER-i konfiguratsiooni importimine RCS-ist rakendusse Finance and Operations
+### <a name="import-an-er-configuration-from-rcs-into-finance-and-operations"></a><a id='import-configuration'></a> ER-konfiguratsiooni importimine RCS-st finantsidesse ja toimingutesse
 
 1. Logige sisse oma rakenduse eksemplari.
 2. Selles õppetükis impordite konfiguratsioonid RCS-i eksemplarist (kus kujundate ER-i komponente) oma eksemplari (kus testite ja lõpuks neid kasutate). Seega peate veenduma, et kõik nõutud artefaktid oleksid ette valmistatud. Juhised leiate teemast [Elektroonilise aruandluse (ER) konfiguratsioonide importimine teenusest Regulatory Configuration Services (RCS)](rcs-download-configurations.md).
@@ -305,7 +305,7 @@ Samuti võib see olla kasulik. et vähendada andmeallikale LedgerTransTypeList t
 
 ### <a name="import-the-modified-er-model-mapping-configuration-from-rcs-into-the-application"></a>Muudetud ER-i mudelivastenduse konfiguratsiooni importimine RCS-ist rakendusse
 
-Korrake [selle artikli varasemas jaotises RCS-ilt RCS-ilt](#import-configuration) ER-i konfiguratsiooni importimiseks jõudlusjälje vastenduse konfiguratsiooni versiooni 1.2 **samme**.
+Korrake [selles artiklis varasemas jaotises RCS-ilt](#import-configuration) ER-i konfiguratsiooni importimiseks selles artiklis toodud etappe, et importida jõudlusjälje vastenduse konfiguratsiooni versioon 1.2 **·**.
 
 ## <a name="run-the-modified-er-solution-to-trace-execution"></a>Muudetud ER-i lahenduse kasutamine täitmise jälituseks
 
@@ -363,7 +363,7 @@ Pange tähele, et veebibrauser pakub allalaadimiseks ZIP-faili. See fail sisalda
 
 ## <a name="use-external-tools-to-review-an-execution-trace-that-includes-database-queries"></a>Väliste tööriistade kasutamine täitmise jälje läbivaatamiseks, mis hõlmab andmebaasi päringuid
 
-Tänu ER-raamistiku täiustustele pakub PerfView'is loodud jõudluse jälitus nüüd üksikasjalikumat teavet ER-i vormingu käivitamise kohta. Microsoft Dynamics 365 for Finance and Operations versioonis 10.0.4 (juuli, 2019) võib see jälg sisaldada ka rakenduse andmebaasile tehtud SQL-i päringute üksikasju.
+Tänu ER-raamistiku täiustustele pakub PerfView'is loodud jõudluse jälitus nüüd üksikasjalikumat teavet ER-i vormingu käivitamise kohta. Finantside Microsoft Dynamics versioonis 365 10.0.4 (juuli 2019) võib see jälitada ka rakenduse andmebaasi tehtud SQL-päringute üksikasju.
 
 ### <a name="configure-user-parameters"></a>Kasutaja parameetrite konfigureerimine
 
@@ -392,3 +392,4 @@ Pange tähele, et veebibrauser pakub allalaadimiseks ZIP-faili. See fail sisalda
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

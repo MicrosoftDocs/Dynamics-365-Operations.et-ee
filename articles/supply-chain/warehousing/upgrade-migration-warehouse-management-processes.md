@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d85f4e5c44db511970b3e22490341228fa0d1abd
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7a88c5a615ec860890578873eaee736fabbeaf08
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857079"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065806"
 ---
 # <a name="upgrade-warehouse-management-from-microsoft-dynamics-ax-2012-to-supply-chain-management"></a>Laohalduse uuendamine rakendusest Microsoft Dynamics AX2012 rakendusse Supply Chain Management 
 
@@ -37,11 +37,11 @@ Versioonitäienduse käigus tuvastatakse ja märgitakse blokeerituks kõik toote
 Pärast versioonitäiendust võite kasutada valikute komplekti vormis **Kaupade laoala dimensioonigrupi muutmine**, et versioonitäienduse ajal blokeeritud toodetelt blokeering eemaldada ja seejärel nende toodete kandeid töödelda.
 
 ### <a name="enabling-items-in-supply-chain-management"></a>Kaupade lubamine Supply Chain Managementis 
-See muudatus on vajalik, kuna rakenduses Supply Chain Management kuulub kauba jälgimine laohalduse protsesside hulka. Nende protsesside puhul tuleb kõik laod ja nende asukohad seostada asukohaprofiiliga. Kui soovite kasutada laohalduse protsesse, tuleb teha järgmine konfiguratsioon.
--   Olemasolevatel ladudel peab olema lubatud kasutada laohaldusprotsesse 
--   Olemasolevad väljastatud tooted peavad olema seostatud laoala dimensioonigrupiga, mis kasutab laohalduse protsesse 
+See muudatus on vajalik, kuna tarneahela halduses on kauba jälgimine osa laohaldusprotsessidest (WMS). Nende protsesside puhul tuleb kõik laod ja nende asukohad seostada asukohaprofiiliga. Kui soovite kasutada WMS-i, peab olema konfigureeritud järgmine:
+-   WMS-i kasutamiseks peavad olemasolevad laod olema lubatud 
+-   Olemasolevad väljastatud tooted peavad olema seostatud WMS-i kasutav laoala dimensiooni grupiga 
 
-Kui laoala dimensioonigrupid kasutavad varude dimensiooni Aluse ID, tuleb olemasolevate vabade kaubavarude asukohad, mis kasutavad varude dimensiooni Aluse ID, seostada asukohaprofiiliga, kus on valitud parameeter **Kasuta litsentsiplaadi jälgimist**. Kui olemasolevates ladudes ei peaks laohaldusprotsesside kasutamine lubatud olema, võite muuta olemasolevad vaba kaubavaru laoala dimensioonigrupid gruppideks, mis käsitlevad ainult varude dimensioone Laoala, Ladu ja Asukoha varud. 
+Kui laoala dimensioonigrupid kasutavad varude dimensiooni Aluse ID, tuleb olemasolevate vabade kaubavarude asukohad, mis kasutavad varude dimensiooni Aluse ID, seostada asukohaprofiiliga, kus on valitud parameeter **Kasuta litsentsiplaadi jälgimist**. Kui olemasolevate ladude puhul ei tohiks WMS-i kasutamist lubada, saate olemasoleva vaba kaubavaru laodimensioonigruppe muuta gruppideks, mis käsitsevad ainult laoala, lao ja asukoha varude dimensioone. 
 
 > [!NOTE] 
 >  Laodimensioonide gruppi saab kaupade jaoks muuta, isegi kui on olemas avatud laokandeid.
@@ -56,12 +56,12 @@ Selleks et kaupa kasutataks osana laohalduse protsessist, peab kaup olema seosta
 Selleks, et eemaldada versioonitäienduse käigus blokeeritud kaupadelt blokeering, tuleb valida toodetele uus laodimensioonide grupp. Pange tähele, et laodimensioonide gruppi saab muuta, isegi kui on olemas avatud laokandeid. Versioonitäienduse ajal blokeeritud kaupade kasutamiseks on kaks võimalust.
 
 -   Muutke kauba laoala dimensioonigrupp selliseks laoala dimensioonigrupiks, mis kasutab ainult dimensioone Laoala, Ladu ja Asukoha varud. Selle muudatuse tulemusena ei kasutata enam varude dimensiooni Aluse ID.
--   Muutke kauba laoala dimensioonigrupp selliseks laoala dimensioonigrupiks, mis kasutab laohalduse protsesse. Selle muudatuse tulemusena kasutatakse nüüd varude dimensiooni Litsentsiplaat.
+-   Muutke kauba laoala dimensiooni grupp laoala dimensiooni gruppi, mis kasutab WMS-i. Selle muudatuse tulemusena kasutatakse nüüd varude dimensiooni Litsentsiplaat.
 
-## <a name="configure-warehouse-management-processes"></a>Laohaldusprotsesside konfigureerimine
+## <a name="configure-wms"></a>WMS konfigureerimine
 Enne väljastatud toodete kasutamist moodulis **Laohaldus** peavad tooted kasutama laoala dimensioonigruppi, kus on valitud parameeter **Kasuta laohaldusprotsesse**.
 
-### <a name="enable-warehouses-to-use-warehouse-management-processes"></a>Olemasolevatel ladudel laohaldusprotsesside kasutamise lubamine
+### <a name="enable-warehouses-to-use-wms"></a>Ladudel WMS-i kasutamise lubamine
 
 1.  Looge vähemalt üks uus asukohaprofiil.
 2.  Klõpsake valikuid **Laohaldus** &gt; **Seadistus** &gt; **Luba laohaldusprotsessid** &gt; **Luba lao seadistus**.
@@ -70,7 +70,7 @@ Enne väljastatud toodete kasutamist moodulis **Laohaldus** peavad tooted kasuta
 5.  Valideerige muudatused. Valideerimisprotsessi käigus toimuvad mitmesugused andmete terviklikkuse valideerimised. Suurema versioonitäienduse protsessi käigus võib olla vaja ilmnevaid probleeme allika juurutamisel korrigeerida. Sellisel juhul on vajalik täiendav andmete versioonitäiendus.
 6.  Töödelge muudatused.
 
-### <a name="change-the-storage-dimension-group-for-items-so-that-it-uses-warehouse-management-processes"></a>Muutke kaupade laoala dimensioonigruppi, nii et see kasutaks laohaldusprotsesse
+### <a name="change-the-storage-dimension-group-for-items-so-that-it-uses-wms"></a>Muutke kaupade laoala dimensiooni gruppi, nii et see kasutab WMS-i
 
 1.  Looge uus väärtus **Varude olek** ja määrake see väärtuseks **Varude oleku vaike-ID** sätetes **Laohalduse parameetrid**.
 2.  Looge uus laoala dimensioonigrupp, kus on valitud parameeter **Kasuta laohaldusprotsesse**.

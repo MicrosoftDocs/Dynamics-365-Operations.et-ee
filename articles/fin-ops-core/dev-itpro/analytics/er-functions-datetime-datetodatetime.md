@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ba80c4c3eac703ba96a4f2741fcc19bceeb24ed0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 519932854dfd3e872433b0fb304e683c57cea1cb
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8898487"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9108493"
 ---
 # <a name="datetodatetime-er-function"></a>ER-i funktsioon DATETODATETIME
 
@@ -47,7 +47,7 @@ Tulemiks saadud kuupäeva/kellaaja väärtus.
 
 ## <a name="example-1"></a>Näide 1
 
-`DATETODATETIME (CompInfo. 'getCurrentDate()')`: tagastab Microsoft Dynamics praeguse 365 finantsseansi kuupäeva, 24. detsember 2015, **seisuga 24.01.242015 12:00:00**. Selles näites on **CompInfo** tüübi **Finance and Operations / tabel** elektrilise aruandluse (ER) andmeallikas ja see viitab tabelile CompanyInfo.
+`DATETODATETIME (CompInfo. 'getCurrentDate()')`: tagastab Microsoft Dynamics praeguse 365 finantsseansi kuupäeva, 24. detsember 2015, **seisuga 24.01.242015 12:00:00**. Selles näites on **CompInfo** finantside ja toimingute/**tabeli tüübi elektronaruandluse (ER)** andmeallikas ja see viitab tabelile CompanyInfo.
 
 ## <a name="example-2"></a>Näide 2
 

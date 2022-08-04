@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 65f7a642d3b2c2ddfca1e2d92570b49ef2f8c2b4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 1f3853e0c1da0a5abb3f92171370cc4aeabbd829
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8869253"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9109576"
 ---
 # <a name="electronic-reporting-er-overview"></a>Elektroonilise aruandluse (ER) ülevaade
 
@@ -66,7 +66,7 @@ ER toetab praegu töölehevorminguid TEXT, XML, JSON, Microsoft Word Microsoft E
 
 ER-i mootoril on järgmised võimalused.
 
-- See on üks ühiskasutatav tööriist elektrooniliseks aruandluseks erinevates domeenides ja asendab enam kui 20 erinevat mootorit, mis rakenduses Finance and Operations teatud tüüpi elektroonilise aruandlusega tegelevad.
+- See esindab ühte ühiskasutuses tööriista elektroonilise aruandluse jaoks erinevates domeenides ja asendab üle 20 erineva mootori, mis teevad teatud tüüpi finantside ja toimingute elektroonilist aruandlust.
 - See isoleerib aruande vormingu praegusest versioonist. Teisisõnu: seda vormingut saab rakendada erinevatele versioonidele.
 - See toetab algsel vormingul põhineva kohandatud vormingu loomist. See sisaldab ka võimalusi kohandatud vormingu automaatseks versioonitäienduseks, kui algset vormingut muudetakse, kuna kasutusele on võetud lokaliseerimise/kohandamise nõuded.
 - Sellest saab esmane standardtöövahend elektroonilise aruandluse lokaliseerimisnõuete toetamiseks – nii Microsofti kui ka Microsofti partnerite jaoks.
@@ -126,7 +126,7 @@ Rakenduse ettevõtted jagavad ER-i konfiguratsiooni.
 
 #### <a name="provider"></a><a name="Provider"></a>Pakkuja
 
-ER-i pakkuja on osapoole ID, mida kasutatakse iga ER-i konfiguratsiooni autori (omaniku) tähistamiseks. ER võimaldab hallata konfiguratsioonipakkujate loendit. Elektroonilistele dokumentidele Finance and Operationsi lahenduse osana väljastatud vormingukonfiguratsioonide omanikuks märgitakse konfiguratsioonipakkuja **Microsoft**.
+ER-i pakkuja on osapoole ID, mida kasutatakse iga ER-i konfiguratsiooni autori (omaniku) tähistamiseks. ER võimaldab hallata konfiguratsioonipakkujate loendit. Vormingu konfiguratsioonid, mis vabastatakse elektrooniliste dokumentide jaoks finantside ja toimingute lahenduse osana, on märgitud Microsofti konfiguratsiooni pakkuja **omaks**.
 
 Uue ER-i pakkuja registreerimise kohta saate juhised, kui esitate tegevusjuhise **Elektrooniline aruandlus. Konfiguratsioonipakkuja loomine ja aktiivseks märkimine** (äriprotsessi **7.5.4.3 IT-teenuse/-lahenduse komponentide hankimine/arendamine (10677)** osa).
 
@@ -270,3 +270,4 @@ Rakenduse Finance ER-i konfiguratsioonide loendit värskendatakse pidevalt. Avag
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

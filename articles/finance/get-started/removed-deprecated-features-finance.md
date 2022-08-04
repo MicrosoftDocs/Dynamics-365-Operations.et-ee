@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 0278b57ccfa2da9dba6b5ea77821fdc47ad2d078
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.openlocfilehash: ee084e84c052366bdf34fe1a1e697a32e456914b
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8846650"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068918"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Dynamics 365 Finance'i eemaldatud või aegunud funktsioonid
 
@@ -31,7 +31,7 @@ See artikkel kirjeldab funktsioone, mis on eemaldatud või plaanitud rakendusest
 See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võtta. 
 
 > [!NOTE]
-> Finantside ja toimingute rakenduste objektide üksikasjaliku teabe leiate tehnilistest [viitearuannetest](/dynamics/s-e/global/axtechrefrep_61). Saate võrrelda nende aruannete erinevaid versioone, et saada teavet objektide kohta, mida on igas Finantsi ja operatsioonide rakenduste versioonis muudetud või eemaldatud.
+> Finantside ja toimingute rakenduste objektide üksikasjaliku teabe leiate tehnilistest [viitearuannetest](/dynamics/s-e/global/axtechrefrep_61). Saate võrrelda nende aruannete erinevaid versioone, et saada teavet objektide kohta, mida on igas finantsi ja toimingute rakenduste versioonis muudetud või eemaldatud.
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10026-release"></a>Finance'i väljalaskest 10.0.26 eemaldatud või aegunud funktsioonid
 
@@ -218,3 +218,4 @@ Lisateavet funktsioonide kohta, mis on eelnevatest versioonidest eemaldatud või
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

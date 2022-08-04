@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: c0ec643046d871000220fbe82df04866599bcdf7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: eba7c10d08ade65f7ddf93cae06446b7e3452e37
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907830"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065267"
 ---
 # <a name="learning-catalog-for-business-decision-makers-considering-dynamics-365-finance"></a>Äriotsuste langetajate kataloogi õppimine, võttes arvesse Dynamics 365 finantse
 
@@ -31,7 +31,7 @@ Järgnev kataloog hõlmab üld- ja valdkonnapõhiseid teadmisi nii baas- kui ka 
 |---------|-------------|--------|--------|
 | [Microsoft Dynamics 365 ja Power Platformi äriväärtustega tutvumine](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | Kas olete huvitatud ärirakendustest? Kas te pole kindel, kuidas alustada Microsoft Dynamics 365 ja Power Platformi rakenduste kasutamist? Õppige, kuidas ärirakenduste kasutamine võib aidata teil oma ettevõtet muuta. | Tasuta iseläbitav internetipõhine õppetee | 7 tundi |
 | [Dynamics 365 ja Power Platformi põhisätted](/learn/paths/dyn-power-plat-bus-app-fundamentals/) | Kas olete huvitatud ärirakendustest? Alustage sellest õppeteest, et näha, kuidas Dynamics 365 rakendusi kasutatakse. Siit leiate teavet pilvkeskkonna kontseptsioonide, Power Platformi ja Dynamics 365 rakendustega töötamise alustamise kohta. | Tasuta iseläbitav internetipõhine õppetee | 5.5 tundi |
-| [Finantside ja toimingute rakendustega alustamine](/learn/paths/get-started-finance-operations/) | Vaadake, kuidas finantside ja toimingute rakendused toetavad ettevõtteid globaalsete finantssüsteemide, äriprotsesside ja sujuvate tarneahelate haldamiseks, et volitada inimesi tegema kiireid, teavitatud otsuseid. Esimese sammuna finantside ja toimingute rakendustega töötamise karjääri jooksul peate tutvuma selle funktsioonide ja funktsioonidega, olenemata sellest, milline on teie soovitud roll. | Tasuta iseläbitav internetipõhine õppetee | 2 tundi |
+| [Alustage finantside ja toimingute rakendustega](/learn/paths/get-started-finance-operations/) | Vaadake, kuidas finantsid ja toimingute rakendused toetavad ettevõtteid globaalsete finantssüsteemide, tegevus äriprotsesside ja sujuvate tarneahelate haldamiseks, et volitada inimesi tegema kiireid, teavitatud otsuseid. Esimese sammuna finantside ja toimingute rakendustega töötamise karjääri jooksul peate tutvuma selle funktsioonide ja funktsioonidega, olenemata sellest, milline on teie soovitud roll. | Tasuta iseläbitav internetipõhine õppetee | 2 tundi |
 | [Dynamics 365 finantsiga alustamine](/learn/modules/get-started-financial-management-dyn365-finance/) | Dynamics 365 Finance volitab ärikasutajaid kohandama ärikeskkonna kiireks vahetamiseks. See annab ettevõttele kõik vajaliku, et kontrollida rahalisi vahendeid ja hallata eelarvet täpse teabe abil rahanduse planeerimiseks ja prognoosimiseks ning aitab neil analüütikatööriistadega kursis olla. Kuna finantsid on mis tahes ettevõtte tuum, on oluline tutvuda Dynamics 365 Finance võimalustega. | Tasuta iseläbitav internetipõhine õppemoodul | 1 tund |
 | [Kuluhaldusega alustamine Dynamics 365 Project Operationsis](/learn/modules/get-started-expense-management/) | Kuluhalduse moodul rakenduses Dynamics 365 Project Operations võimaldab organisatsioonidel jälgida ja hallata töötaja kulusid. Kuluhaldus võimaldab teil talletada makseteavet, importida krediitkaardikandeid ja jälgida raha, mida töötajad teie organisatsiooni nimel kulude tekkimisel kulutavad. Saate Project Operationsi abil seadistada ka kulupoliitikaid, automatiseerida kinnitusi ja pakkuda sujuvat äriprotsessi. | Tasuta iseläbitav internetipõhine õppetee | 1 tund |
 | [Dynamics 365 Intelligent Order Managementi kasutamise alustamine](/learn/modules/get-started-intelligent-order-management/) | Dynamics 365 Intelligent Order Managementi abil saavad kliendid hallata tellimuste korraldamist täitmise kaudu. Need võimalused võimaldavad organisatsioonidel korraldada tellimuse voogusid erinevate platvormide ja rakenduste kaudu. | Tasuta iseläbitav internetipõhine õppemoodul | 30 minutit |

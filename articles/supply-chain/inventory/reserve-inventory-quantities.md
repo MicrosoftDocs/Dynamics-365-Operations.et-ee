@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0c407b45f3df91d569c2bf043ff9f83b640837bb
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e0c0e283189998473469164398fa6f43c8e8825e
+ms.sourcegitcommit: 3a882de1f1c27654a8e92ebc1999c75678cc9a53
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8899436"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "9201862"
 ---
 # <a name="reserve-inventory-quantities"></a>Laokoguste reserveerimine
 
@@ -75,7 +75,7 @@ Müügitellimus, mille puhul tuleb kasutada automaatset reserveerimist ja mis pe
 
 Lehel **Varude ja laohalduse parameetrid** on kaks suvandit seotud reserveerimistega.
 -   Suvand **Reserve ordered items** vahekaardil **Üldine** võimaldab reserveerida kauba sissetulekuid, mis on tellitud kauba väljaminekute suhtes moodulites Müügireskontro, Projektijuhtimine ja raamatupidamine ning Tootmise juhtimine. Selle valiku tühistamisel saate reserveerida ainult füüsiliselt sissetulnud kaupu. Kui konkreetse kauba puhul on lubatud negatiivne laovaru, pole see väli vajalik.
--   Suvand **Kaupade automaatne reserveerimine** vahekaardil **Transport** määrab vaikesätte, kui kaubad reserveeritakse üleviimistellimuste jaoks automaatselt. Vaikesätte saab individuaalsetel üleviimistellimustel alistada.
+-   Kaupade **automaatse reserveerimise** suvand vahekaardil **Üleviimine** määrab vaikesätte, kui kaubad reserveeritakse üleviimistellimustele automaatselt. Vaikesätte saab individuaalsetel üleviimistellimustel alistada.
 
 ### <a name="inventory-reservation-policies-on-the-production-parameters-page"></a>Varude reserveerimispoliitikad tootmisparameetrite lehel
 

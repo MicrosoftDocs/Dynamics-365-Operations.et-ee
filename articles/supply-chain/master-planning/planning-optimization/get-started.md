@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: b9595aece264f55c706ebc84010b927fae56b512
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e853c8a482b8fd0b92c9861fe022c056915ab405
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8900966"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112176"
 ---
 # <a name="get-started-with-planning-optimization"></a>Planeerimise optimeerimisega alustamine
 
@@ -40,7 +40,7 @@ Enne planeerimise optimeerimise sisselülitamist soovitame teil hinnata planeeri
 
 ## <a name="availability"></a>Kättesaadavus
 
-Plaanimise optimeerimine on praegu saadaval järgmistes Azure'i geograafilistes asukohtades: USA, Kanada, Brasiilia, Euroopa, Ühendkuningriik, Austraalia, Aasia Vaikse ookeani, Jaapan ja India. Kui proovite lisandmoodulit installida muus geograafilises piirkonnas, siis kuvab LCS teate, et seda geograafilist piirkonda ei toetata. Lisateavet Azure'i piirkondade ja seotud piirkondade kohta vt [Azure'i piirkonnad](https://azure.microsoft.com/global-infrastructure/geographies/#geographies).
+Plaanimise optimeerimine on praegu saadaval järgmistes Azure'i geograafilistes asukohtades: USA, Kanada, Brasiilia, Euroopa, Prantsusmaa, Ühendkuningriik, Austraalia, Aasia Vaikse ookeani, Jaapan ja India. Kui proovite lisandmoodulit installida muus geograafilises piirkonnas, siis kuvab LCS teate, et seda geograafilist piirkonda ei toetata. Lisateavet Azure'i piirkondade ja seotud piirkondade kohta vt [Azure'i piirkonnad](https://azure.microsoft.com/global-infrastructure/geographies/#geographies).
 
 Pange tähele, et planeerimise optimeerimine ei toeta Dynamics 365 Supply Chain Management-i kohapealseid juurutusi.
 
@@ -58,7 +58,7 @@ Enne rakenduse Planning Optimization lisandmooduli installimist peavad olema tä
 
 - Supply Chain Management peab teil töötama LCS-i loaga suure kättesaadavusega keskkonnas, järk 2 või kõrgem, (mitte OneBoxi keskkond) koos rakenduse Dynamics 365 Supply Chain Management versiooniga 10.0.7 või hilisem. Kui proovite paigaldada moodulit OneBoxi keskkonnas, siis ei viida paigaldust lõpule ja te peate paigalduse tühistama.
 
-- Teie süsteem peab olema seadistatud Power Platformi integreerimiseks. Lisateavet vt integreerimisest [Microsoft Power Platform finantside ja toimingute rakendustega](../../../fin-ops-core/dev-itpro/power-platform/overview.md).
+- Teie süsteem peab olema seadistatud Power Platformi integreerimiseks. Lisateabe saamiseks vt integratsiooni finantside [Microsoft Power Platform ja toimingute rakendustega](../../../fin-ops-core/dev-itpro/power-platform/overview.md).
 
 ### <a name="enable-the-planning-optimization-license"></a>Planning Optimizationi litsentside lubamine
 
@@ -135,3 +135,4 @@ Kui planeerimise optimeerimine on sisse lülitatud, tehakse koondplaneerimine pl
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

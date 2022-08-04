@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 976a86aee75581d1afa764bea049b6c0eaecf9f3
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f789fd86904c1e625be8fc5be3bfe456fe0659b4
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8888919"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068744"
 ---
 # <a name="share-electronic-reporting-er-configurations-in-regulatory-configuration-services-rcs-global-repository-with-external-organizations"></a>Elektroonilise aruandluse (ER) konfiguratsioonide ühiskasutusse andmine Regulatory Configuration Servicesi (RCS) globaalses hoidlas väliste organisatsioonidega
 
@@ -67,7 +67,7 @@ Pärast konfiguratsiooni loomist teie konfiguratsioonipakkujas, saate anda seda 
 
     ![Konfiguratsiooni versiooni ühiskasutusse andmine välise organisatsiooni dialoogiboksiga.](media/1_RCS_Repo_for_Share_with_form.JPG)
 
-Konfiguratsioon on antud ühiskasutusse välise organisatsiooniga ja saadaval globaalses hoidlas selle organisatsiooni jaoks. Sealt saab seda importida RCS-i organisatsiooni eksemplari või finantside ja toimingute rakenduste eksemplari.
+Konfiguratsioon on antud ühiskasutusse välise organisatsiooniga ja saadaval globaalses hoidlas selle organisatsiooni jaoks. Sealt saab seda importida organisatsiooni RCS-i eksemplari või selle finantside ja toimingute rakenduste eksemplari.
 
 6. Välise organisatsiooniga varasemalt ühiskasutusse antud konfiguratsiooni ühiskasutusest eemaldamiseks, valige see konfiguratsioon ja klõpsake suvandit **Eemalda ühiskasutusest** ning seejärel valige **OK**
 

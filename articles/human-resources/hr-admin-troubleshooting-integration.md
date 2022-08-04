@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f150c87b6d4e6575bc61a8f36bdf344ebba9c571
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4f57e995dfcc04de8384d15f238c45290b3c3cbd
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8879275"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067612"
 ---
 # <a name="integration-with-finance-faq"></a>Finance’i KKK-ga integreerimine
 
@@ -88,7 +88,7 @@ Erandite töötlemiseks pole eriseadistus vajalik. Andmeintegraator jäädvustab
 
 ## <a name="can-i-set-up-bi-directional-integration"></a>Kas saan seadistada kahesuunalise integratsiooni?
 
-Ei, integratsioon on praegu ühepoolene (Inimressursid finantside ja toimingute jaoks). Siiski on saadaval vaikemall andmete saatmiseks rakendusest Human Resources rakendusse Finance.
+Ei, integratsioon on praegu ühene (Inimressursid finantside ja toimingute jaoks). Siiski on saadaval vaikemall andmete saatmiseks rakendusest Human Resources rakendusse Finance.
 
 ## <a name="can-i-allow-record-deletion-as-part-of-my-integration"></a>Kas saan integratsiooni osana lubada kirjete kustutamise?
 
@@ -118,7 +118,7 @@ Tõrke põhjused võivad olla järgmised.
 
 - Andmeedastuse tulemuseks on topeltkirjete eraldamine lähtekohas (Dataverse).
 
-- Andmeedastusel on Finance and Operationsis vajalike väljade puhul nullväärtused. Kontrollige, kas teenuses Dataverse olevad andmed vastavad rakenduse Finance and Operations nõuetele.
+- Andmeülekandel on finantside ja toimingute puhul nõutavate väljade nullväärtused. Kontrollige, kas teenuses Dataverse olevad andmed vastavad rakenduse Finance and Operations nõuetele.
 
 ## <a name="if-there-are-execution-errors-and-the-employee-id-didnt-sync-how-do-i-find-the-history-job-which-has-the-failed-employee-record"></a>Kui esineb käivitustõrkeid ja töövõtja ID-d ei sünkroonita, siis kuidas leida ajalooline töö, milles on nurjunud töövõtja kirje?
 
@@ -150,7 +150,7 @@ Kui üksust toetatakse ja andmed on teenuses Dataverse saadaval, siis kontrollig
 
 ## <a name="the-addresses-for-my-employees-are-incorrect-after-i-import-them-into-finance-what-should-i-do"></a>Pärast töövõtjate importimist rakendusse Finance, on nende aadressid valed. Mida teha?
 
-**Asukoha ID** numbriseeria kasutab rakendustes Human Resources ja Finance sama mustrit. Numbriseeria peab olema mõlemal poolel kordumatu, et andmete integreerimisel teenusest Dataverse rakendusse Finance and Operations ei tekiks aadressivastuolusid.
+**Asukoha ID** numbriseeria kasutab rakendustes Human Resources ja Finance sama mustrit. Numbriseeria peab olema mõlema poole jaoks kordumatu, seega ei peaks andmete finantsi ja toimingute integreerimisel olema mingeid aadressi põrkeid Dataverse.
 
 Human Resourcesi juurutamise ajal kontrollige, et numbriseeriad poleks rakendustes Human Resources ja Finance and Operations samad. Veenduge, et ükski numbriseeria poleks identne, kui andmeid võidakse hallata mõlemas süsteemis.
 
@@ -184,3 +184,4 @@ Värskendage andmeüksuseid rakenduses Finance, minnes jaotisse **Andmehaldus \>
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

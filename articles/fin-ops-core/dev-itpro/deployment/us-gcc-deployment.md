@@ -9,12 +9,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: hasaid
 ms.search.validFrom: 2021-11-09
-ms.openlocfilehash: 90e64fec512307af209ace128d5897475de7aee5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 41789d574cc7348dbf8a18db97da9c428da09602
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8867269"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103934"
 ---
 # <a name="dynamics-365-finance-supply-chain-management-and-commerce-in-us-government-community-cloud-gcc"></a>Dynamics 365 Finantsid, Tarneahela haldus ja Kaubandus USA valitsuse kogukonna pilves (GCC)
 
@@ -38,9 +38,9 @@ Kui algne sisseostmine on lõpule viidud, järgige projektis [olevaid juhiseid](
 
 ## <a name="environment-deployment"></a>Keskkonna juurutamine
 
-Pärast projekti põhist lõpetamist saate üle vaadata finantside ja toimingute rakenduste klientide elutsükli teenustes (LCS) kirjeldatud LCS-i [lisavõimalused](../../../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md). Seejärel minge edasi keskkonna juurutusse.
+Pärast projekti põhist lõpetamist saate üle vaadata LCS-i [täiendavad võimalused, mida kirjeldatakse elutsükli teenustes (LCS) finantside ja toimingute rakenduste klientidele](../../../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md). Seejärel minge edasi keskkonna juurutusse.
 
-- Microsofti hallatud keskkondade juurutamiseks LCS-i [kaudu järgige finantside ja toimingute rakenduste klientide elutsükli teenuste (LCS) juhiseid](../../../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md#new-deployment-experience).
+- Microsofti hallatud keskkondade juurutamiseks LCS-i [kaudu järgige elutsükli teenuste (LCS) juhiseid finantside ja toimingute rakenduste klientidele](../../../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md#new-deployment-experience).
 - Pilve hostitud keskkondade kohta vt "Juurutamine [ja juurdepääs arenduskeskkonnad"](../../../fin-ops-core/dev-itpro/dev-tools/access-instances.md). Samuti peate oma konnektorite ressursihalduriga ühendamisprotsessi lõpule viima, [nagu on kirjeldatud Usa valitsuse elutsükli teenuste projektide azure'i ressursihaldurit läbiva ajastamise protsessis](arm-onbarding-us-goverment.md).
 
 > [!NOTE]
@@ -84,3 +84,4 @@ Jah. Kuid kui teie partner kasutab mitte-GCC identiteeti, suunatakse tugipilet a
 - [Pilvjuurutuse ülevaade](../../../fin-ops-core/dev-itpro/deployment/cloud-deployment-overview.md)
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

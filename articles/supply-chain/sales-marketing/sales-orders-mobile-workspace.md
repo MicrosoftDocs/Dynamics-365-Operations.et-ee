@@ -15,12 +15,12 @@ ms.search.industry: Manufacturing
 ms.author: henrikan
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: fc04a90c0c071508c9ebee57862a029de0e58f9a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 38971f2a5f3f3d2692de0e52365e2215170101cc
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8844760"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103176"
 ---
 # <a name="sales-orders-mobile-workspace"></a>Müügitellimuste mobiilne tööruum
 
@@ -29,7 +29,7 @@ ms.locfileid: "8844760"
 
 See artikkel annab teavet müügitellimuste **mobiilse tööruumi** kohta. See tööruum aitab teil olla oma müügitellimustega alati kõikjal kursis. 
 
-See mobiilses tööruum on mõeldud kasutamiseks koos Rakenduse Finantsid ja toimingud (Dynamics 365) mobiilirakendusega.
+See mobiilses tööruum on mõeldud kasutamiseks koos finantside ja toimingute (Dynamics 365) mobiilirakendusega.
 
 ## <a name="overview"></a>Ülevaade
 **Müügitellimuste** mobiilne tööruum võimaldab vaadata üksikasjalikku teavet iga müügitellimuse kohta. See teave hõlmab tellimuse olekut, kliendi kontaktteavet ja tellimuse vastuvõtja kontaktteavet. Mobiilne tööruum **Müügitellimused** annab müügitellimustest kiirülevaate. Saate vaadata kõiki müügitellimusi, müügitellimusi klientide kaupa või konkreetse müügitellimuse andmeid. 
@@ -143,3 +143,4 @@ Laadige alla ja installige finantside ja toimingute (Dynamics 365) mobiilirakend
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

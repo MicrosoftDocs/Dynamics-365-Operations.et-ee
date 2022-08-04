@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-01-21
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9f1f660b7993804901f5fc9d3b608c141882bff5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 1f1daf630d3a9354012db9b5b487d8a5ed11e0ed
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8901085"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066696"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-january-21-2021"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 Human Resources 21. jaanuar 2021
 
@@ -42,7 +42,7 @@ Selle väljalaskega tulevad üldiselt kättesaadavaks järgmised funktsioonid.
 
 | Funktsioon | Väljaandmisplaan | Dokumentatsioon |
 | --- | --- | --- |
-| Platform update 10.0.16(40) | -- | [Platvormi värskendused versioonile 10.0.16 finantside ja toimingute rakendustele (veebruar 2021)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-16.md) |
+| Platform update 10.0.16(40) | -- | [Platvormi värskendused versioonile 10.0.16 finantside ja toimingute rakendustest (veebruar 2021)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-16.md) |
 | Täiustatud töövoo taotlused ja kinnitused | [Organisatsiooni ja personalihalduse töövoo kasutuskogemuse täiustused](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements) | [Konfiguratsiooni suvand loendi „Mulle määratud tööüksused” paigutamiseks](./hr-whats-new-2020-09-03.md#configuration-option-to-position-work-items-assigned-to-me-list-477004) |
 | Taskukohase ravikindlustuse eelnõu (ACA) vastavuse värskendused vormile 1095-C, vormile 1095-B ja elektroonilisele aruandlusele pärandrakenduses Soodustused | -- | -- | 
 | Soodustuste haldus toetab nüüd ACA vastavuse aruandlust USA-põhistele juriidilistele isikutele | -- | [ACA-aruannete loomine Soodustuste halduses](hr-benefits-management-aca-reports.md) |

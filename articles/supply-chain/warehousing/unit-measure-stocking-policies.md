@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0de12620bca54c7e43713138d7a152c2bd6edff3453f81cf779f9b875cf77eb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ca1c18a293d66ab78f41cac857461249826ce4c9
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714832"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069118"
 ---
 # <a name="unit-of-measure-and-stocking-policies"></a>Mõõtühik ja ladustamispoliitikad
 
@@ -28,7 +28,7 @@ ms.locfileid: "6714832"
 
 Selles artiklis kirjeldatakse, kuidas kasutada laoprotsessides vaikeühikuid, ühikuseeriaid ja ühikuteisendusi.
 
-Ühiku seeriagrupid määratlevad laotoimingutes kasutatavate ühikute järjestuse. Need luuakse lehel **Ühiku seeriagrupid**. Järjestus näitab seost erinevate ühikute vahel. Näiteks saate hoiundada kaubaaluseid, mis sisaldavad üksikuid kaupu sisaldavaid kaste. Sellisel juhul peate sisestama kolm erinevat ühikut ja kihtide loogilise järjestuse. Ühiku seeriagrupid võimaldavad määratleda litsentsiplaatide grupeerimise poliitikad ja vaikeühikud, mida tuleks erinevate laoprotsesside puhul kasutada. See artikkel kehtib nii täpsemale ladustamislahendusele, mis on saadaval moodulis Laohaldus, kui ka põhilisele ladustamislahendusele, mis on saadaval moodulis Varude haldus.
+Ühiku seeriagrupid määratlevad laotoimingutes kasutatavate ühikute järjestuse. Need luuakse lehel **Ühiku seeriagrupid**. Järjestus näitab seost erinevate ühikute vahel. Näiteks saate hoiundada kaubaaluseid, mis sisaldavad üksikuid kaupu sisaldavaid kaste. Sellisel juhul peate sisestama kolm erinevat ühikut ja kihtide loogilise järjestuse. Ühiku seeriagrupid võimaldavad määratleda litsentsiplaatide grupeerimise poliitikad ja vaikeühikud, mida tuleks erinevate laoprotsesside puhul kasutada. See artikkel kehtib nii laohaldusprotsesside (WMS) puhul, mis on saadaval laohalduse moodulis, kui ka laohalduse moodulis saadaolevale baaslaolahendustele.
 
 ## <a name="unit-sequence-groups-for-released-products"></a>Väljastatud toodete ühiku seeriagrupid
 Kui soovite kasutada väljastatud tooteid lao tööprotsessides, tuleb neile määrata seeriagrupp. Kui kinnitate toote, mis on seotud laoala dimensioonigrupiga, ja laoala dimensioonigrupi suvandi **Kasuta laohaldusprotsesse** sätteks on valitud **Jah**, kuvatakse tõrketeade, kui toote kohta pole määratletud ühiku seeriagrupi ID-d. Kui kasutatavad ühiku seeriagrupid sisaldavad mitut rida (ja seega mitut ühikut), peate ühikute vahel ühiku teisendamise seadistamise valima. Viige see seadistus lehel **Ühiku teisendused** lõpule. Seeriagrupi väikseim ühik, mille väljastatud tootega seostate, peab ühtima vastava toote jaoks määratletud varude ühikuga. Laoühik on vaba kaubavaru põhiarvutusteks kasutatav ühik. Saate ka seadistada mõõtühikute teisendused tooteetalonide tootevariantide kohta, kasutades suvandit **Luba mõõtühikute teisendused**.

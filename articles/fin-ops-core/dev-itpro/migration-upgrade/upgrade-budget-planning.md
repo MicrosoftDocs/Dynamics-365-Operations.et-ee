@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: d098aa77b4eb87118692c18ecd1b09a5de2c53d6
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7d8d59def24fd138b4cf1d36e286b786e13b096e
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8890402"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124024"
 ---
 # <a name="upgrade-budget-planning"></a>Eelarve plaanimise täiendamine
 
@@ -30,7 +30,7 @@ ms.locfileid: "8890402"
 Eelarve plaanimisel rakenduses on palju täiustusi, mis ei olnud rakenduses Dynamics AX 2012 saadaval. See artikkel selgitab muudatusi, mida kliendid, kes peavad uuendusi tegema. Samuti tuuakse välja uued funktsioonid, mida tuleb täiendusprotsessis arvesse võtta. Muudatuste ulatuse tõttu ei saa olemasolevaid eelarveplaane avada enne, kui selles artiklis toodud muudatused on tehtud. Siiski peavad aruanded tööd jätkama ega nõua lisamuudatusi.
 
 ## <a name="overview-of-changes"></a>Muudatuste ülevaade
-Finance and Operationsi moodulis Eelarvestus on tehtud palju olulisi muudatusi. Need muudatused hõlbustavad eelarve plaanimise konfigureerimist ja korduskasutamist, et vähendada iga-aastast hooldamist ja seadistamist. Finance ei sisalda enam järgmisi AX 2012 valdkondi.
+Finantside ja toimingute eelarves on tehtud mitmeid olulisi muudatusi. Need muudatused hõlbustavad eelarve plaanimise konfigureerimist ja korduskasutamist, et vähendada iga-aastast hooldamist ja seadistamist. Finance ei sisalda enam järgmisi AX 2012 valdkondi.
 
 -   Eelarveplaani mallid (eelarve plaanimise konfigureerimine)
 -   Eelarveplaani kaustad (eelarve plaanimise konfigureerimine)
@@ -47,7 +47,7 @@ Veerud on uus põhimõte, mis asendab Exceli malli osi ja ka maatriksivälju. Ve
 
 ### <a name="layouts"></a>Paigutused
 
-Paigutused on uus põhimõte, mis asendab Exceli malli. Paigutused sisaldavad veerge, mis määratlevad, milliseid eelarve või tegelike näitajate andmeid ja perioode tuleb kuvada. Paigutusi kasutavad klientrakendus ja Exceli lisandmoodul ka ühiselt. Seetõttu on kasutajakogemus Finance and Operationsi klientrakenduses andmete sisestamisel või vaatamisel parem kui kasutajakogemus AX 2012-s. Andmete sisestamiseks Finance’i klientrakenduses pole teil enam kandevaates piirangut vaadata ja sisestada ainult üht stsenaariumit. Selle asemel võimaldab võrdlusvaade hõlpsasti vaadata ja sisestada samal ajal mitme perioodi ning konto summasid. Paigutsi saab ka määratleda nii, et saate sisestada ja vaadata valuutat, kommentaare ning muid valikulisi andmeid. Paigutused võimaldavad ka määratleda, milliseid pearaamatu dimensioone ja dimensioonikirjeldusi tuleb kuvada. Ühtlasi sisaldavad paigutused stsenaariumipiiranguid määratlemaks, milliseid malli veerge saab redigeerida ja millised veerud peavad Excelis saadaval olema. Pärast paigutuse määratlemist luuakse selle jaoks mall. See mall omakorda loob vastava Exceli malli. Seejärel saate Exceli malli redigeerida, et kaasata rohkem valemeid ja vorminguid, ning seejärel selle uuesti üles laadida. Pärast seda määratakse paigutused lehel **Eelarve plaanimise protsess** igale etapireeglile. Seega asendavad paigutused malle, mida määrati ja kasutati samal moel.
+Paigutused on uus põhimõte, mis asendab Exceli malli. Paigutused sisaldavad veerge, mis määratlevad, milliseid eelarve või tegelike näitajate andmeid ja perioode tuleb kuvada. Paigutusi kasutavad klientrakendus ja Exceli lisandmoodul ka ühiselt. Seetõttu on kasutajakogemus finants- ja toimingute AX kliendi andmete sisestamisel ja vaatamisel parem kui 2012. aasta kasutajakogemus. Andmete sisestamiseks Finance’i klientrakenduses pole teil enam kandevaates piirangut vaadata ja sisestada ainult üht stsenaariumit. Selle asemel võimaldab võrdlusvaade hõlpsasti vaadata ja sisestada samal ajal mitme perioodi ning konto summasid. Paigutsi saab ka määratleda nii, et saate sisestada ja vaadata valuutat, kommentaare ning muid valikulisi andmeid. Paigutused võimaldavad ka määratleda, milliseid pearaamatu dimensioone ja dimensioonikirjeldusi tuleb kuvada. Ühtlasi sisaldavad paigutused stsenaariumipiiranguid määratlemaks, milliseid malli veerge saab redigeerida ja millised veerud peavad Excelis saadaval olema. Pärast paigutuse määratlemist luuakse selle jaoks mall. See mall omakorda loob vastava Exceli malli. Seejärel saate Exceli malli redigeerida, et kaasata rohkem valemeid ja vorminguid, ning seejärel selle uuesti üles laadida. Pärast seda määratakse paigutused lehel **Eelarve plaanimise protsess** igale etapireeglile. Seega asendavad paigutused malle, mida määrati ja kasutati samal moel.
 
 ### <a name="budget-planning-processes"></a>Eelarve planeerimise protsessid
 
@@ -69,7 +69,7 @@ Järgmine näide aitab teil määrata, kuidas täiendatud süsteemi konfigureeri
    -   Eelarveplaani stsenaariumid: Tegelikud näitajad, Algväärtus, Eelarvetaotlus, Kinnitatud eelarve
    -   Eelarveplaani read kõigile stsenaariumitele 2017. aastal ja tegelikud näitajad nii 2017. kui ka 2016. aastal
 
-   Finance and Operationsis luuakse järgmised veerud.
+   Finantside ja toimingute kohta luuakse järgmised veerud:
 
    | Veeru nimi    | Eelarveplaani stsenaarium | Veeru ajaperiood | Aasta vastaskonto |
    |----------------|----------------------|--------------------|-------------|

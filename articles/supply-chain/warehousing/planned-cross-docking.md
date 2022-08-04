@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 28ebf1b4fb966fd6801e75e7b3a6c8741114938d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4f379b3cdb6830f989199afde7d751842047df79
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8863675"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070285"
 ---
 # <a name="planned-cross-docking"></a>Plaanitud ristlaadimine
 
@@ -118,7 +118,7 @@ Plaanitud ristlaadimine rakendatakse koormuse sisestamise meetodina. Pärast fun
     - **Tarneallikas:** *Ostutellimus*
 
 > [!NOTE]
-> Saate seadistada päringu, et juhtida konkreetse ristdokkimise malli kasutamist. Ristlaadimise mallide päringus on ainult *InventTable*'i (kaubad) tabel ja sisemiselt ühendatud *WHSInventTable'i* (WHS-kaupade) tabel. Kui soovite päringule teisi tabeleid lisada, saate nendega liituda, kasutades ainult *olemas olnud liitmised* või *ei ole olemas liitmised*. Kui filtreerite ühendatud tabeleid, laaditakse põhitabelist kirje iga tabeli sobiva kirje kohta. Kui liitmistüüp *on olemas liitmine*, lõpeb otsing pärast esimese vaste leidmist. Näiteks kui te liidate müügitellimuse rea tabeliga kaupade tabeliga, kontrollib ja tagastab süsteem kaubad, mille kohta on määratud tingimus vähemalt ühel müügitellimuse real. Andmed on toodud ematabelist (kaubad), mitte alamtabelist (müügitellimuse rida). Seega ei saa lähtedokumentide (nt müügitellimuse ridade või klientide) alusel filtreerimist teha väljast.
+> Saate seadistada päringu, et juhtida konkreetse ristdokkimise malli kasutamist. Ristlaadimise mallide päringus on ainult *InventTable*'i (kaubad) tabel ja sisemiselt ühendatud *WHSInventTable'i* (WMS-kaupade) tabel. Kui soovite päringule teisi tabeleid lisada, saate nendega liituda, kasutades ainult *olemas olnud liitmised* või *ei ole olemas liitmised*. Kui filtreerite ühendatud tabeleid, laaditakse põhitabelist kirje iga tabeli sobiva kirje kohta. Kui liitmistüüp *on olemas liitmine*, lõpeb otsing pärast esimese vaste leidmist. Näiteks kui te liidate müügitellimuse rea tabeliga kaupade tabeliga, kontrollib ja tagastab süsteem kaubad, mille kohta on määratud tingimus vähemalt ühel müügitellimuse real. Andmed on toodud ematabelist (kaubad), mitte alamtabelist (müügitellimuse rida). Seega ei saa lähtedokumentide (nt müügitellimuse ridade või klientide) alusel filtreerimist teha väljast.
 
 ### <a name="create-a-work-class"></a>Tööklassi loomine
 

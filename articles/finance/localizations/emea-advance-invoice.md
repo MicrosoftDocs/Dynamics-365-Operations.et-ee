@@ -2,7 +2,7 @@
 title: Ettemaksuarved Ida-Euroopa puhul
 description: See artikkel annab teavet ettemaksuarvete kohta Ida-Euroopa jaoks. Ettemaksuarve on dokument, mille saate luua kliendile või hankijale. Sellel märgitakse summa, mis tuleb müügitellimuse puhul ette maksta.
 author: EvgenyPopovMBS
-ms.date: 05/25/2022
+ms.date: 07/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland
 ms.author: epopov
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: c722d8215c2b65e24008042c9a4d65bb419ad46a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: bcf8424b311b595a114d3429fa7a3252e47e643d
+ms.sourcegitcommit: 6b209919de39c15e0ebe4abc9cbcd30618f2af0b
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8886287"
+ms.lasthandoff: 07/11/2022
+ms.locfileid: "9135926"
 ---
 # <a name="advance-invoices-for-eastern-europe"></a>Ettemaksuarved Ida-Euroopa puhul
 
@@ -38,6 +38,26 @@ Ettemaksuarve funktsioon võimalda teha järgmist.
 - Seostage klientidelt saadud ettemaksud ettemaksuarvetega (enne või pärast ettemaksu sisestamist).
 - Muutke käibemaksusisestust sisestatud ettemaksudtes (st teisendage ettemaksu makseks või makse ettemaksuks või muutke sisestamiskuupäeva, maksumäära või summat).
 - *Ainult Tšehhi Vabariigile:* looge käibemaksustatav tarne maksudokument.
+
+Artikkel sisaldab järgmisi jaotisi:
+
+- [Ettemaksuarved Poola puhul](#advance-invoices-for-poland)
+- [Müügireskontro seadistamine ettemaksuarvete puhul](#set-up-accounts-receivable-for-advance-invoices)
+- [Kliendi ettemaksuarve loomine](#create-a-customer-advance-invoice)
+- [Käibemaks ettemaksuarvetel](#vat-on-advance-invoices)
+- [Ettemaksuarve seostamine müügitellimuse või vabas vormis arvega](#link-an-advance-invoice-to-a-sales-order-or-a-free-text-invoice)
+- [Kliendi ettemaksuarve loomine müügitellimuselt](#create-a-customer-advance-invoice-from-a-sales-order)
+- [Kliendi ettemaksuarve loomine vabas vormis arvelt](#create-a-customer-advance-invoice-from-a-free-text-invoice)
+- [Ettemaksuarve printimine](#print-an-advance-invoice)
+- [Maksesoovituse loomine ettemaksuarvelt](#create-a-payment-proposal-from-an-advance-invoice)
+- [Ettemaksu seostamine ettemaksuarvega](#link-a-prepayment-to-an-advance-invoice)
+- [Ettemaksuarve seostamine ettemaksuga](#link-an-advance-invoice-to-a-prepayment)
+- [Ettemaksuarve kreeditarved](#advance-invoice-credit-notes)
+- [Tšehhi Vabariigi maksudokumendid](#tax-documents-for-the-czech-republic)
+- [Ostureskontro seadistamine ettemaksuarvete puhul](#set-up-accounts-payable-for-advance-invoices)
+- [Hankija ettemaksuarve loomine](#create-a-vendor-advance-invoice)
+- [Kasuta ettemaksuarve ja ettemakse käsitlemisfunktsiooni](#use-the-advance-invoice-and-prepayment-handling-functionality)
+- [Tšehhi Vabariigi käibemaksusummade tagasipööramine](#reversing-sales-tax-amounts-for-czech-republic)
 
 ## <a name="advance-invoices-for-poland"></a>Ettemaksuarved Poola puhul
 
@@ -243,5 +263,33 @@ Ettemaksuarve seostamiseks ostutellimusega järgige neid samme.
     | Protsent | Saate määrata ostutellimuse ettemaksu protsendi. |
     | Uuenda ostu | Tehke valik. Ettemaksuarve summa arvutatakse kaupade ostutellimuse summa alusel. |
     | Sisestusreeglid ettemaksu töölehekandega | Saate määrata ettemaksu sisestusreeglid. |
+
+## <a name="use-the-advance-invoice-and-prepayment-handling-functionality"></a>Kasuta ettemaksuarve ja ettemakse käsitlemisfunktsiooni
+
+Äriprotsessis saate **kasutada ettemaksuarve** **ja** ettemaksu töötlemise funktsioone. Siin on näide.
+
+1. Kasutaja esitab ettemaksuarve, mis sisaldab kliendile ettemakse puhul käibemaksu. Ettemaksuarvet pole pearaamatusse sisestatud.
+2. Kasutaja loob ja sisestab ettemakse ilma käibemaksuta.
+3. Kasutaja loob ettemakse käsitlemise ja seostub ettemaksuarvega. Kasutaja sisestab ettemakse käsitlemise ja loob maksudokumendi. Süsteem sisestab käibemaksu pearaamatusse ja seostub käibemaksu ettemaksega.
+
+> [!NOTE]
+> Tühjendage müügireskontro **parameetrite** **·** **vahekaardi** Värskendamine kiirkaardi Ettemaksuarve **väärtus väljal Sisestusreeglid.** Kui loote ettemaksuarve, seadistage suvand Sisesta **maks valikule** **Jah**.
+
+Ettemakse käsitlemine ja selle seostamine ettemaksuarvega, järgige neid samme.
+
+1. Minge **müügireskontro** \> **klientidesse** ning otsige ja avage kliendikirje.
+2. Tegevuspaanil valige **kliendikanded** \> **·**, valige ettemakse kanne ja seejärel tehke valik Ettemakse **käsitlemine.**
+3. Määrake valiku **Muuda makseks** väärtus **Ei**.
+4. Ettemakse **käsitlemis** seostamiseks ettemaksuarvega valige ettemaksuarve. Süsteem loob automaatselt käibemaksuread ettemaksuarvest.
+5. Sisestage ettemakse käsitlemine. Süsteem loob automaatselt ettemakse käibemaksukanded.
+
+## <a name="reversing-sales-tax-amounts-for-czech-republic"></a>Tšehhi Vabariigi käibemaksusummade tagasipööramine
+
+Ettemakse käsitlemistel põhinevate käibemaksusummade ümberpööramise **käsitsi määratlemiseks lubage (Tšehhi) Lubage sisendkäibemaksu summade käsitsi funktsioon**. Lisateavet funktsioonide lubamise kohta vt funktsioonihalduse [ülevaatest](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+
+> [!NOTE]
+> See funktsioon on saadaval ainult Ostureskontro puhul.
+
+Kui märgite arvekande tasakaalustuse jaoks makse vastu, **·** **saate uuendada käibemaksusummasid tühistamiseks vahekaardil Käibemaksusummade tühistamine vahekaardil Kande** tasakaalustamine. Vajadusel saate uuendada tasakaalustuse maksusumma **väljalt Maksusumma**.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

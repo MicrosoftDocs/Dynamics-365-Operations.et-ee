@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 8
-ms.openlocfilehash: aa0092f65461b6ebeea6649f48c0cf1c07cc936d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2fd29d747c7141b051e6c7c68db94abfd849f947
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8866250"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9123492"
 ---
 # <a name="make-the-chart-of-accounts-delimiter-unique"></a>Kontoplaani eraldaja kordumatuks muutmine
 
@@ -39,3 +39,4 @@ Sarnaselt projekti/alamprojekti ID-ga ei tohi ühelgi teisel finantsdimensioonid
 Kui täiendatud keskkonnas esineb eraldajatega seoses konflikte, võib segmenditud sisestamise või dimensiooni kirje juhtimises väärtuste sisestamisel ilmneda ebastabiilsus. See tähendab, et teil tuleb alati konto ja dimensiooni kombinatsioonide sisestamisel kasutada otsinguid või hüpikmenüüd.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

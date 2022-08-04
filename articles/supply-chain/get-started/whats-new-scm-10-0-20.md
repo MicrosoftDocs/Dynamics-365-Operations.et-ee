@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 3eadc447d8c0c443fa9d3eab220300e3eedf051d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.openlocfilehash: 3465866df0d766b2300eb4fd1989c034cedbbb22
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8888639"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9123804"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10020-august-2021"></a>Mis on uut ja mida on muudetud rakenduses Dynamics 365 Supply Chain Management 10.0.20. (august 2021)?
 
@@ -71,9 +71,9 @@ Oleme hiljuti lisanud või oluliselt uuendanud järgmised spikriartiklid. Need e
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Finantside ja toimingute rakenduste platvormi värskendused
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Platvormi värskendused finantside ja toimingute rakenduste jaoks
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.20 sisaldab platvormivärskendusi. Lisateavet vt Platvormi värskendustest [versioonile 10.0.20 Finance and Operations rakendustest (juuli 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-20.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.20 sisaldab platvormivärskendusi. Lisateavet vt platvormi värskendustest [versioonile 10.0.20 finantside ja toimingute rakendustest (juuli 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-20.md).
 
 ### <a name="bug-fixes"></a>Veaparandused
 
@@ -98,3 +98,4 @@ Murranguliste muudatuste puhul, mis mõjutavad ainult kompileerimise aega, kuid 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

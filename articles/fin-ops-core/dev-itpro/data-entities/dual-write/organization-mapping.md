@@ -1,6 +1,6 @@
 ---
 title: Organisatsiooni hierarhia teenusesDataverse
-description: See artikkel kirjeldab organisatsiooniandmete integreerimist Finantside ja toimingute rakenduste ning rakenduste vahel Dataverse.
+description: See artikkel kirjeldab organisatsiooniandmete integreerimist finantside ja toimingute rakenduste ning rakenduste vahel Dataverse.
 author: RamaKrishnamoorthy
 ms.date: 07/15/2019
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: a4edaf5b9c50e9d8781ff703328ac786d71ee782
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2f900637855bee3e21916652a373c683e6bf1392
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8884728"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112014"
 ---
 # <a name="organization-hierarchy-in-dataverse"></a>Organisatsiooni hierarhia teenusesDataverse
 
@@ -28,11 +28,11 @@ Kuigi teenuses Dataverse ei ole organisatsiooni hierarhia mõistet, on sellel m�
 
 ## <a name="data-flow"></a>Andmevoog
 
-Ettevõtte ökosüsteemil, mis koosneb Finance and Operationsi rakendustest ja Dataverse’ist, on jätkuvalt organisatsiooni hierarhia. See organisatsiooni hierarhia on loodud Finance and Operationsi rakendustes, kuid see on informatiivsel ja laiendatavuse eesmärgil esitatud Dataverse’is. Järgmine illustratsioon näitab organisatsiooni hierarhia teavet, mis on avatud Dataverse’i ühesuunaline andmevoona Finance and Operationsi rakendustest teenusesse Dataverse.
+Ettevõtte tegevus, mis koosneb finantside ja toimingute rakendustest Dataverse ning omab jätkuvalt organisatsiooni hierarhiat. See organisatsiooni hierarhia on loodud finantside ja toimingute rakenduste põhjal, Dataverse kuid seda kasutatakse teabe ja laiendatavuse eesmärgil. Järgmine näide näitab organisatsiooni hierarhia teavet, mida kuvatakse Dataverse ühepoolese andmevoona finantside ja toimingute rakendustest rakendusse Dataverse.
 
 ![Ülesehituse pilt.](media/dual-write-data-flow.png)
 
-Organisatsiooni hierarhia tabeli vastekaardid on saadaval ühepoolne andmete sünkroonimiseks rakendustest Finantsid ja Toimingud rakendusse Dataverse.
+Organisatsiooni hierarhia tabeli vastekaardid on saadaval ühepoolne andmete sünkroonimiseks finantside ja toimingute rakendustest rakendusse Dataverse.
 
 ## <a name="templates"></a>Mallid
 
@@ -52,3 +52,4 @@ Finance and Operations rakendused | Klientide kaasamise rakendused     | Kirjeld
 Sisemine organisatsiooniteave Dataverse’is pärineb kahest tabelist: **Tootmisüksus** ja **Juriidilised isikud**.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

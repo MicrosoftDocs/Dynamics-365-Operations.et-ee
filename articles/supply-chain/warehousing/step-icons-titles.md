@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-05-17
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 361ace454f7125ec86bd99cffefc7d268f81d37f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2ed2baff1851eba488233c050cef1f8f73b6bcee
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8890592"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067298"
 ---
 # <a name="assign-step-icons-and-titles-for-the-warehouse-management-mobile-app"></a>Warehouse Management mobiilirakendusele astmeikoonide ja pealkirjade määramine
 
@@ -317,8 +317,8 @@ Järgmine tabel näitab kõiki praegu saadaolevaid standardseid astme ikoone ja 
 <td><img src="media/step-icons-weight-to-consume.png" alt="Weight to consume step icon" title="Kaalu tarbitava sammu ikoon"><br>KaalToConsume</td>
 </tr>
 <tr>
-<td><img src="media/step-icons-whs-adjustment-type.png" alt="WHS adjustment type step icon" title="WHS kohandamistüübi etapi ikoon"><br>WhSAdjustmentType</td>
-<td><img src="media/step-icons-whs-receiving-exception.png" alt="WHS receiving exception step icon" title="WHS-i vastuvõtmise erandisammu ikoon"><br>WhSReceivingException</td>
+<td><img src="media/step-icons-whs-adjustment-type.png" alt="WMS adjustment type step icon" title="WMS kohandamistüübi etapi ikoon"><br>WhSAdjustmentType</td>
+<td><img src="media/step-icons-whs-receiving-exception.png" alt="WMS receiving exception step icon" title="WMS-i vastuvõtmise erandisammu ikoon"><br>WhSReceivingException</td>
 <td><img src="media/step-icons-wms-location-id.png" alt="WMS location ID step icon" title="WMS asukoha ID etapi ikoon"><br>WMSAsukohtId</td>
 <td><img src="media/step-icons-work-id.png" alt="Work ID step icon" title="Töö ID etapi ikoon"><br>Töö ID</td>
 </tr>

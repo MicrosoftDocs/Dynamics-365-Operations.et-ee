@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 7fac40ebd8a1f7994997e12f1231e5522a0c0e24
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8b86b6a59344299a7a2d277543c3186ed2b8cee4
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8865059"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103229"
 ---
 # <a name="synchronize-warehouses-from-supply-chain-management-to-field-service"></a>Ladude sünkroonimine rakendusest Supply Chain Management rakendusse Field Service
 
@@ -58,7 +58,7 @@ Rakenduste Field Service ja Supply Chain Management vahelise integratsiooni toet
 Veerg **On väliselt hallatud** aitab juhtida varude tasemete, korrigeerimiste, üleviimiste ja töökäskude kasutuse sünkroonimist. Ainult ladusid, kus suvandi **On väliselt hallatud** sätteks on valitud **Jah**, saab kasutada otse teise süsteemi sama laoga sünkroonimiseks. 
 
 > [!NOTE]
-> Rakenduses Field Service on võimalik luua mitmeid ladusid (seadistusega **On väliselt hallatud** = Ei) ja seejärel vastendada need ühe laoga, kasutades täpsema päringu ja filtreerimise funktsiooni. Seda kasutakse olukordades, kus soovite, et rakendus Field Service koondaks üksikasjaliku varude taseme ja saadaks rakendusse Supply Chain Management ainult värskendused. Sellisel juhul ei saa Field Service varude taseme värskendusi rakendusest Supply Chain Management. Lisateavet vt teemadest [Varude korrigeerimiste sünkroonimine rakendusest Field Service rakendusse Finance and Operations](/dynamics365/unified-operations/supply-chain/sales-marketing/synchronize-inventory-adjustments) ja [Töökäskude sünkroonimine rakenduses Field Service rakenduses Finance and Operations projektiga seotud müügitellimustega](/dynamics365/unified-operations/supply-chain/sales-marketing/field-service-work-order).
+> Rakenduses Field Service on võimalik luua mitmeid ladusid (seadistusega **On väliselt hallatud** = Ei) ja seejärel vastendada need ühe laoga, kasutades täpsema päringu ja filtreerimise funktsiooni. Seda kasutakse olukordades, kus soovite, et rakendus Field Service koondaks üksikasjaliku varude taseme ja saadaks rakendusse Supply Chain Management ainult värskendused. Sellisel juhul ei saa Field Service varude taseme värskendusi rakendusest Supply Chain Management. Lisateavet vt teemadest [Varude korrigeerimiste sünkroonimine rakendusest Field Service rakendusse Supply Chain Management](/dynamics365/unified-operations/supply-chain/sales-marketing/synchronize-inventory-adjustments) ja [Töökäskude sünkroonimine rakenduses Field Service rakenduses Supply Chain Management projektiga seotud müügitellimustega](/dynamics365/unified-operations/supply-chain/sales-marketing/field-service-work-order).
 
 ## <a name="prerequisites-and-mapping-setup"></a>Eeltingimused ja vastendamise seadistamine
 ### <a name="data-integration-project"></a>Andmeintegratsiooni projekt

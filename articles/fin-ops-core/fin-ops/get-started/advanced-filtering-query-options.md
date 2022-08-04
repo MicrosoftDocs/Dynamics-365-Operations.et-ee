@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 520c8b32099024e9a9619a6ecdcd3ba7b97c7ecf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 89175763357f4309c4eb7874d0068586c5d9e726
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8856914"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9123944"
 ---
 # <a name="advanced-filtering-and-query-syntax"></a>Täpsema filtreerimise ja päringu süntaks
 
@@ -122,9 +122,9 @@ See artikkel kirjeldab filtreerimis- ja päringuvalikuid, mis on saadaval, kui k
 <td>Kaks järjestikust kahekordset jutumärki (<strong>"</strong>") leiab ilma väärtuseta ridu käesoleva veeru jaoks.</td>
 </tr>
 <tr>
-<td>(<span class="code">Finantside ja toimingute päring</span>) (sulgude vaheline finantside ja toimingute päring)</td>
+<td>(<span class="code">Finantside ja toimingute päring</span>) (sulgude finantside ja toimingute päring)</td>
 <td>Kirjeldatud päringule vastav</td>
-<td>Tippige sulgude vahele päring SQL-lausena, kasutades päringukeelt Finantsid ja toimingud.</td>
+<td>Tippige sulgude vahele päring SQL-lausena, kasutades finantside ja toimingute päringukeelt.</td>
   <td><strong><span class="code">((AccountNum NAGU "US *") & & (DirPartyTable.Name NAGU "CONT*"))</span></strong><br><br> 
        filtritingimuse süntaksi näitena väljal juurandmeallikast, samuti väljal teisest andmeallikast (kõigi klientide lehel)</td>
 </tr>

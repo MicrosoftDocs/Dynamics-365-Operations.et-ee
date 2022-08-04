@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-06-03
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: e6b9c34ee68a25ac9613a65cf63443751a39c576
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d05403113c9b178553134ce1a9066bb2acf59b0f
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8868514"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068101"
 ---
 # <a name="configuration-for-finance-insights---version-10020-and-later"></a>Finantside vihjete konfiguratsioon – versioon 10.0.20 ja uuem
 
@@ -38,7 +38,7 @@ Finantsülevaated koondavad rakenduse Microsoft Dynamics 365 Finance Dataverse f
 
 Keskkonna juurutamiseks tehke järgmist.
 
-1. Looge teenuses Microsoft Dynamics Lifecycle Services (LCS) või värskendage ’i keskkonda. Keskkonnas on vaja rakenduse 10.0.20 või uuemat Rakendust Finance and Operationsi rakendustest.
+1. Looge teenuses Microsoft Dynamics Lifecycle Services (LCS) või värskendage ’i keskkonda. Keskkonnas on vaja rakenduse 10.0.20 või uuemat versiooni finantside ja toimingute rakendusi.
 2. Keskkond peab olema hea kättesaadavusega (HA) liivakasti keskkond. (Seda tüüpi keskkond on tuntud ka kui järgu 2 keskkond.) Lisateavet vt teemast [Keskkonna kavandamine](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
 3. Finance insights`i konfigureerimisel võib olla peate prognooside tööle kopeerimiseks tootmisandmed sellele keskkonnale kopeerima. Ennustuse mudel kasutab prognooside koostamiseks mitmeid aastaid andmeid. Contoso demoandmed ei sisalda piisavalt ajaloolisi andmeid ennustuse mudeli andmeedastuse jaoks. 
 
@@ -755,3 +755,4 @@ Lisandmooduli installimiseks võib aega kuluda mitu minutit.
 Kui olete tagasiside pakkumisest huvitatud või teil on tuge vaja, saatke finantsülevaatele [meilisõnum](mailto:fiap@microsoft.com).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

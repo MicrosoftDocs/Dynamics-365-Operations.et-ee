@@ -1,31 +1,32 @@
 ---
 title: Organisatsiooni koolituse Power BI sisu
-description: See artikkel kirjeldab finantside ja toimingute – organisatsiooni koolituse Power BI sisu.
+description: See artikkel kirjeldab finantse ja toiminguid – organisatsiooni koolitussisu Power BI.
 author: jcart1106
 ms.date: 12/19/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User, IT Pro
-ms.reviewer: kfend
-ms.custom: 263874
-ms.assetid: 45dbba14-aba6-4571-be0d-5d1aba3515d9
+ms.reviewer: sericks
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: ba332fc0c241969cbe0c25e7985101a2bbe12be4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom:
+- "263874"
+ms.assetid: 45dbba14-aba6-4571-be0d-5d1aba3515d9
+ms.openlocfilehash: 7b8f6c1b32876af3a6992ff73c6898ce5307c5a2
+ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8892417"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9206751"
 ---
 # <a name="organizational-training-power-bi-content"></a>Organisatsiooni koolituse Power BI sisu
 
 [!include [banner](../includes/banner.md)]
 
-See artikkel kirjeldab finantside ja toimingute – organisatsiooni koolituse Power BI sisu.
+See artikkel kirjeldab finantse ja toiminguid – organisatsiooni koolitussisu Power BI.
 
 ## <a name="reports-that-are-included-in-the-content-pack"></a>Sisupaketti kuuluvad aruanded
 Pärast sisupaketi ühendamist andmetega näitavad aruanded teie organisatsiooni andmeid. Kui te pole Microsoft Power BI-d varem kasutanud, saate selle kohta lisateavet teemast [Juhendatud õpe Power BI](https://powerbi.microsoft.com/guided-learning/?WT.mc_id=PBIService_GetData). Sisupaketti kuuluvad aruanded sisaldavad nii lisateavet andvaid diagramme kui ka tabeleid. Järgmises tabelis on kirjeldatud aruandeid.

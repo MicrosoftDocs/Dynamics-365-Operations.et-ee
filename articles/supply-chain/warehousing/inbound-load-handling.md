@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 100b1972801f117560a5caf338a1ac640737ccdf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.openlocfilehash: 43102cb867243a872a5d1df777d8c4102a48e235
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8855928"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070315"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Ostutellimuste sissetulevate koormate laohaldus
 
@@ -56,7 +56,7 @@ Järgmisel joonisel on kujutatud tüüpilist kaubavoogu sissetulevate koormate k
 
 ## <a name="register-item-quantities-that-arrive-on-an-inbound-load"></a><a name="register-item-quantities-arriving"></a>Sissetuleva koorma kaubakoguste registreerimine
 
-Microsoft Dynamics 365 Supply Chain Management toetab mitut toimingut tellitud toodete saabumise registreerimiseks. Seetõttu saate konfigureerida süsteemi, et see vastaks teie kindlatele ärivajadustele. Selles jaotises kirjeldatakse sissetulevate kaubakoguste registreerimist mobiilsete seadme abil, kui täpsem laohaldus on süsteemis sisse lülitatud. Siiski on olemas alternatiivne voog, mis põhineb mobiilse seadme kasutamise asemel kauba saabumistöölehe kasutamisel. Lisateavet selle voo kohta leiate teemast [Kaupade registreerimine täpsemaks ladustamiseks lubatud kauba puhul saabuva kauba töölehe abil](tasks/register-items-advanced-warehousing.md).
+Microsoft Dynamics 365 Supply Chain Management toetab mitut toimingut tellitud toodete saabumise registreerimiseks. Seetõttu saate konfigureerida süsteemi, et see vastaks teie kindlatele ärivajadustele. See jaotis kirjeldab, kuidas registreerida sissetulevaid kaubakoguseid mobiilse seadmega, kui laohaldusprotsessid (WMS) on süsteemis sisse lülitatud. Siiski on olemas alternatiivne voog, mis põhineb mobiilse seadme kasutamise asemel kauba saabumistöölehe kasutamisel. Lisateavet selle voo kohta vt laohaldusprotsesside [jaoks lubatud kaupade registreerimine kauba saabumise töölehe kaudu](tasks/register-items-advanced-warehousing.md).
 
 Kui sissetulev koorem saabub lattu, peavad laotöötajad registreerima saadetise kauba kogused. Tavaliselt kasutavad nad pihuskannereid. See töövoog on saadaval ainult juhul, kui süsteemis on olemas järgmised kaubad.
 

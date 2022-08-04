@@ -1,6 +1,6 @@
 ---
 title: Ettevõtte kontseptsioon Dataverse'is
-description: See artikkel kirjeldab ettevõtete andmete integreerimist Finantside ja Toimingute ning Ettevõtete vahel Dataverse.
+description: See artikkel kirjeldab ettevõtete andmete integreerimist finantside ja toimingute ning ettevõtete vahel Dataverse.
 author: RamaKrishnamoorthy
 ms.date: 08/04/2020
 ms.topic: article
@@ -9,29 +9,31 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 11355031714b7e046f70bd5840297d66aa7d32e0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ad0075e2b92ebeb9fba879bcae503100dc7adb47
+ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873174"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9205932"
 ---
-# <a name="company-concept-in-dataverse"></a>Ettevõtte mõiste teenuses Dataverse
+# <a name="company-concept-in-dataverse"></a>Ettevõtte kontseptsioon Dataverse'is
 
 [!include [banner](../../includes/banner.md)]
 
 
 
 
-Rakenduses Finance and Operations on mõiste *ettevõte* nii juriidiline kui ka ka ärikonstruktsioon. See on ka andmete turvalisuse ja nähtavuse piir. Kasutajad töötavad alati ühe ettevõtte kontekstis ning ettevõte segmendib enamiku andmetest.
+Finantside ja operatsioonide puhul on ettevõtte mõiste *nii* juriidiline konstrukt kui ka ettevõtte konstrukt. See on ka andmete turvalisuse ja nähtavuse piir. Kasutajad töötavad alati ühe ettevõtte kontekstis ning ettevõte segmendib enamiku andmetest.
 
 Teenuses Dataverse pole ei ole samaväärset mõistet. Lähim mõiste on *äriüksus*, mis on peamiselt kasutajaandmete turvalisuse ja nähtavuse piir. Sellel mõistel pole sama juriidilist ega ärimõju nagu ettevõtte mõistel.
 
 Kuna äriüksus ja ettevõte ei ole samaväärsed mõisted, ei ole võimalik jõustada üks-ühele (1:1) vastendust nende vahel teenuse Dataverse integratsiooni eesmärgil. Kuid kuna kasutajad peavad vaikimisi nägema samu ridu rakenduses ja teenuses Dataverse, on Microsoft võtnud teenuses Dataverse kasutusele uue tabeli nimega CDM\_Company. See tabel on samaväärne rakenduse tabeliga Ettevõte. Selleks, et ridade nähtavus oleks valmislahendusena rakenduse ja teenuse Dataverse vahel samaväärne, soovitame teenuse Dataverse andmete järgmist seadistust.
 
-+ Iga topeltkirjutusega lubatud finants- ja operatsioonide ettevõtte rea jaoks luuakse seotud rida cdm\_ Company.
-+ Kui rida CDM\_Company on loodud ja lubatud kahesuguse kirjutuse jaoks, luuakse samanimeline vaikeäriüksus. Kuigi selle äriüksuse jaoks luuakse automaatselt vaiketöörühm, ei kasutata äriüksust.
-+ Luuakse eraldi omaniku töörühm, millel on sama nimi. See on samuti äriüksusega seostatud.
++ Iga finantsi ja operatsioonide ettevõtterea jaoks, mis on lubatud topeltkirjutuse jaoks, luuakse seotud rida cdm\_ Company.
+
++ Kui rida CDM\_Company on loodud ja lubatud kahesuguse kirjutuse jaoks, luuakse samanimeline vaikeäriüksus. Kuigi selle äriüksuse jaoks luuakse automaatselt omaniku vaikemeeskond, äriüksust ei kasutata.
++ Luuakse eraldi omaniku meeskond, kellel on sama nimi topeltkirjutuse järelliidetega. See on samuti äriüksusega seostatud.
+
 + Mistahes rea omanik, mis on loodud ja kahesuguselt kirjutatud teenusesse Dataverse, on vaikimisi määratud väärtuseks „DW omanikust töörühm, mis on lingitud seostatud äriüksusega.
 
 Järgmisel joonisel on näide seda tüüpi andmete seadistamise kohta teenuses Dataverse.
@@ -43,7 +45,7 @@ Selle konfiguratsiooni tõttu kuulub kõigi USMF-i ettevõttega seotud rea töö
 + Roll "Müügihaldur" on määratud "USMF müük" töörühma liikmetele.
 + Kasutajad, kellel on roll „Müügihaldur", pääsevad juurde mistahes kontoridadele, mis on sama äriüksuse liikmed.
 + Töörühm "USMF müük" on seotud varem mainitud USMF-i äriüksusega.
-+ Seetõttu saavad USMF-i müügimeeskonna liikmed näha kõiki kontosid, mis on "USMF DW" kasutaja omad, mis oleks pärit finantside ja toimingute TABELIst USMF Company.
++ Seetõttu saavad USMF-i müügimeeskonna liikmed näha mis tahes kontot, mis kuulub kasutajale "USMF DW", mis oleks pärit finantside ja toimingute tabelist USMF Company.
 
 ![Töörühmade kasutamine.](media/dual-write-company-2.png)
 

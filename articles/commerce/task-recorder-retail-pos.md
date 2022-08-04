@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: f9f3e17a6c67dc1cc1d4ba423ce258f2ed1d1ec0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0b8723da9b80d007cd0a3196affdfa854eff095f
+ms.sourcegitcommit: 45bb77244a31fa174adf85d1b54e9700109ca0c4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8847596"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "9198376"
 ---
 # <a name="task-recorder-and-help-for-retail-modern-pos-mpos-and-cloud-pos"></a>Tegevuse salvestaja ning spikker Retail Modern POS-i (MPOS) ja pilvekassa jaoks
 
@@ -107,7 +107,7 @@ Salvestamisseansi jätkamiseks pärast pausi klõpsake **Jätka**.
 Tegevuse salvestaja suudab jäädvustada Retail Modern POS-i kasutajaliidese kuvatõmmiseid äriprotsessi salvestamise ajal. Kuvatõmmise jäädvustamise funktsiooni sisselülitamiseks määrake suvandi **Jäädvusta kuvatõmmis** väärtuseks **Jah** ja seejärel alustage jäädvustamist. Kui lõpetate salvestamise, klõpsake **Peata** ja laadige alla Wordi dokument. Dokumendis on sammud asjakohaste kuvatõmmistega.
 
 > [!NOTE]
-> Pilvekassas ei toetata kuvatõmmise jäädvustamise funktsiooni.
+> Hõiva ekraanipilti funktsioone ei toetata store Commerce'is, Commerce Modern POS-is ja pilve kassas.
 
 ### <a name="start-task-and-end-task"></a>Tegevuse alustamine ja lõpetamine
 

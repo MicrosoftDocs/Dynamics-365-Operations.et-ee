@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0144be929045b385c58dd29f6241330fc1092f0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 3478e8c712c7bcbfb8ace9e7b43f0d8d3cf4ac8a
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8862478"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069148"
 ---
 # <a name="ship-sales-orders-without-warehousing"></a>Müügitellimuste lähetamine ladustamiseta
 
 [!include [banner](../../includes/banner.md)]
 
-See artikkel selgitab, kuidas värskendada müügitellimust, kui tooteid kliendile saadetakse. Juhend kehtib täitmisvoo puhul, mis pole seadistatud laohalduse jaoks (ei põhi- ega täpsema lao puhul) ega nõua seetõttu toote komplekteerimise registreerimist enne tarnimist. Saate seda protseduuri käitada oma andmete või demoettevõtte USMF andmetega. Mõlemal juhul tuleb enne selle ülesande alustamist luua müügitellimus varundatud tootele, mille kogus on suurem kui 1. Sisestamise tõrke vältimiseks peab kontrollima, et toote saadaolev kogus tellimusel valitud asukohas ja laos vastab tellitud kogusele.
+See artikkel selgitab, kuidas värskendada müügitellimust, kui tooteid kliendile saadetakse. Juhend kehtib täitmisvoole, mis ei ole seadistatud laohalduse jaoks (ei ole baas- ega laohaldusprotsessid (WMS)) ega nõua seetõttu toote komplekteerimist enne saatmist registreerida. Saate seda protseduuri käitada oma andmete või demoettevõtte USMF andmetega. Mõlemal juhul tuleb enne selle ülesande alustamist luua müügitellimus varundatud tootele, mille kogus on suurem kui 1. Sisestamise tõrke vältimiseks peab kontrollima, et toote saadaolev kogus tellimusel valitud asukohas ja laos vastab tellitud kogusele.
 
 ## <a name="post-packing-slip-for-an-order"></a>Tellimuse saatelehe sisestamine
 1. Avage navigeerimispaanil **Moodulid > Müük ja turundus > Müügitellimused > Kõik müügitellimused**.

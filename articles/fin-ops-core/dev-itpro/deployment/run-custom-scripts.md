@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-12-16
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: ff01e2ff8ec105603bb91e0b555301f36e8985b4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: aad48fbd3ee2f28f39f6061b5e922f5c4f47c8f6
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8867325"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103516"
 ---
 # <a name="run-custom-x-scripts-with-zero-downtime"></a>Kohandatud X++ skriptide käitamine ilma katkestusteta
 
@@ -120,7 +120,7 @@ Järgmine loend kirjeldab mõnda head tava skripti edukaks kirjutamiseks, rakend
 
 Kasutage skripti üles- ja käivitamiseks järgmist protseduuri.
 
-1. Minge oma finantside ja toimingute rakenduse süsteemihalduse perioodiliste **\> ülesannete andmebaasi \>\> kohandatud skriptide juurde**.
+1. Minge finantside ja toimingute rakenduses süsteemihalduse perioodiliste **ülesannete \> andmebaasi \>\> kohandatud skriptide juurde**.
 1. Valige nupp **Laadi üles**.
 1. Valige juurutatav pakett, mille lõite selles artiklis varem kirjeldatud viisil. Teil palutakse määrata skripti eesmärk.
 1. Skripti peab nüüd kinnitanud teine kasutaja, kes selle üles laadis. Kinnitaja peab läbima järgmised sammud.
@@ -149,6 +149,7 @@ Teie valik viimases etapis määratleb skripti lõpliku oleku. Võite protsessi 
 
 ## <a name="upload-and-run-a-deployable-package-through-lcs"></a>Juurutatava paketi üleslaadimine ja käitamine LCS-i kaudu
 
-Selle asemel, et juurutada oma juurutatav pakett finantside ja toimingute rakenduse kasutajaliidese kaudu, nagu kirjeldatud eelmises jaotises, saate selle LCS-i üles laadida ja kasutada selle juurutamiseks tavaprotseduuri. Lisateavet vt käsurealt [juurutatavate pakendite installimine](../deployment/install-deployable-package.md).
+Juurutatava paketi juurutamise asemel finantside ja toimingute rakenduse kasutajaliidese kaudu saate selle üles laadida LCS-i ja kasutada selle juurutamiseks tavaprotseduuri. Lisateavet vt käsurealt [juurutatavate pakendite installimine](../deployment/install-deployable-package.md).
 
 Kuigi lähenemisel on vähem piiranguid, pakub see vähem veakaitset. Lisaks, kuna see nõuab kõigi serverite taaskäivitamist, põhjustab see veidi downtime'i.
+

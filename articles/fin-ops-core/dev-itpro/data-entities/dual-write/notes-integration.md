@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 8e1444aa311bb2dc74705a3791e58c3187ecd8ea
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 19a1fd53f19575a16ee8d8b7391c30f0cacf26a8
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8876711"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111452"
 ---
 # <a name="note-integration"></a>Integratsiooni teatis
 
@@ -30,7 +30,7 @@ Kliendi teavet saab klassifitseerida järgmiselt:
 + **Dynamics 365 kasutaja toimingu teave** – näiteks klient, kes ostab Surface'i ühikut, sisestab erijuhised, mis näitavad, et seade peaks enne tarnet olemakingituseks. Need juhised on tegevusatav teave, mida peaks käsitsema pakendamise eest vastutav Contoso töötaja.
 + **Mittetegevuslik teave** – näiteks klient külastab Contoso kauplust ja väljendab vestluse ajal kauplusepartneriga huvi *Halo* mängu ja mängutarvikute vastu. Kaupluse seostamine teeb selle teabe kohta märkuse. Tootesoovituste mootor kasutab seda siis kliendile soovituste andmiseks.
 
-Üldiselt on tegutsetav teave hõivatud tegevustena Finantside ja *toimingute* rakendustes ja kliendi kaasamise rakendustes. Mittetegevuslik teave salvestatakse märkustena *Finantside* ja toimingute rakendustes *ning marginaalidena kliendikogemuse* rakendustes.
+Üldiselt kogutakse tegevustavat teavet finantside ja toimingute *rakenduste* ning kliendikogemuse rakenduste tegevustena. Mittetegevuslik teave salvestatakse märkustena *finantside* ja toimingute rakendustes *ning marginaalidena kliendikogemuse* rakendustes.
 
 > [!TIP]
 > Ehkki märkused on mõeldud mittetegevustava teabe jaoks, ei takista rakendused teil neid kasutamast talletada ja käsitseda tegevustavat teavet, kui soovite neid sel viisil kasutada.
@@ -39,7 +39,7 @@ Microsoft vabastab praegu funktsiooni märkuse integreerimiseks. (Tegevuse integ
 
 ## <a name="create-a-note-in-a-customer-engagement-app"></a>Märkuse loomine kliendikogemuse rakenduses
 
-Märkuse loomiseks kliendikogemuse rakenduses ja seejärel sünkroonige see Finantside ja Toimingute rakendusega, järgige neid samme.
+Märkuse loomiseks kliendi teenuse rakendusesse ja seejärel sünkroonige see finantside ja operatsioonide rakendusega, järgige neid samme.
 
 1. Kliendi kaasamise rakenduses avage kliendi kontokirje.
 2. Paanil **Ajajoon** valige plussmärk (**+**) ja seejärel valige **Märkus** märkuse loomiseks.
@@ -54,7 +54,7 @@ Märkuse loomiseks kliendikogemuse rakenduses ja seejärel sünkroonige see Fina
 
     ![Uus märkus kliendi ajajoonel.](media/notes-ce-3.png)
 
-4. Logige rakendusse Finantsid ja Toimingud sisse ja avage sama kliendikirje. Pange tähele, et **Ma nused** nupp (paberi märkide sümbol) ülemises parempoolses nurgas näitab, et kirje on manusega.
+4. Logige sisse finantside ja toimingute rakendusse ning avage sama kliendikirje. Pange tähele, et **Ma nused** nupp (paberi märkide sümbol) ülemises parempoolses nurgas näitab, et kirje on manusega.
 
     ![Manuse teatis.](media/notes-ce-4.png)
 
@@ -62,17 +62,17 @@ Märkuse loomiseks kliendikogemuse rakenduses ja seejärel sünkroonige see Fina
 
     ![Märkus kliendikogemuse rakendusest.](media/notes-ce-5.png)
 
-Märkuse uuendused sünkroonitakse edasi-tagasi rakenduse Finants ja Toimingud ja kliendikogemuse rakenduse vahel.
+Kõik märkuse uuendused sünkroonitakse edasi-tagasi finantside ja operatsioonide rakenduse ning kliendikogemuse rakenduse vahel.
 
-## <a name="create-a-note-in-a-finance-and-operations-app"></a>Märkuse loomine rakenduses Finantsid ja toimingud
+## <a name="create-a-note-in-a-finance-and-operations-app"></a>Märkuse loomine finantside ja toimingute rakenduses
 
-Samuti saate luua märkuse Rakenduses Finantsid ja Toimingud ja see sünkroonitakse customer Engagementi rakendusega.
+Võite ka luua märkuse finantside ja toimingute rakenduses ning see sünkroonitakse customer Engagementi rakendusega.
 
-Märkuse loomiseks rakenduses Finantsid ja toimingud ja seejärel sünkroonige see kliendikogemuse rakendusega, järgige neid samme.
+Märkuse loomiseks finantside ja toimingute rakenduses ja seejärel sünkroonige see kliendikogemuse rakendusega, järgige neid samme.
 
 1. Valige finantside ja toimingute rakenduse lehel **Manused suvand** Uus **·** \> **märkus.**
 
-    ![Märkuse loomine rakenduses Finantsid ja toimingud.](media/notes-fo-1.png)
+    ![Märkuse loomine finantside ja toimingute rakenduses.](media/notes-fo-1.png)
 
 2. Sisestage pealkiri ja lühikirjeldus ning seejärel valige **Salvestamine**.
 
@@ -84,17 +84,17 @@ Märkuse loomiseks rakenduses Finantsid ja toimingud ja seejärel sünkroonige s
 
 Te saate liigitada märkuse nii sisemiseks kui väliseks.
 
-- Finantside ja toimingute rakenduse **lehel Manused** avage märkus ja seejärel **valige välja Piirang** suvand Sisemine **või** **Väline**.
+- Avage finantside ja **toimingute rakenduse lehel** Manused märkus ja seejärel **valige väljal Piirang** suvand Sisemine **või** **Väline**.
 
     ![Piiranguväli.](media/notes-fo-4.png)
 
 Samuti saate luua URLi.
 
-1. Valige finantside ja toimingute rakenduse lehel **Manused** **·**\> uus **URL.**
+1. Valige finantside ja toimingute rakenduse lehel Manused **suvand** Uus **·** \> **URL.**
 2. Sisestage pealkiri ja URL.
 3. Väljal **Piirang** valige **Sisemine** või **Väline**.
 
-    ![URL-i loomine rakenduses Finantsid ja toimingud.](media/notes-fo-5.png)
+    ![URL-i loomine finantside ja toimingute rakenduses.](media/notes-fo-5.png)
 
 4. Valige käsk **Salvesta**.
 
@@ -121,3 +121,4 @@ Maksuandmed sisaldavad tabeli kaartide kogumit, mis töötavad andmete suhtluse 
 Pärast märkmelahenduse installimist ei saa te seda desinstallida. 
 
 Lisateavet vt [topeltkirjutuse vastendamise viitest](mapping-reference.md).
+

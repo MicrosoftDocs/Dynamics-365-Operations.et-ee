@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: f15ac24e5c32a42863cac8a9c9754c95aa4ff734
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 11a4b1667e3d97b651b8019c9dbe577ab30aed67
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8868694"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068195"
 ---
 # <a name="my-team-mobile-workspace"></a>Minu töörühma mobiilne tööruum
 
@@ -26,7 +26,7 @@ ms.locfileid: "8868694"
 
 See artikkel annab teavet minu töörühma **mobiilse tööruumi** kohta. See tööruum võimaldab juhtidel vaadata oma otseseid alluvaid ja laiendatud personali. Nad saavad ka oma aruandlusahela inimestele tänu saata.
 
-See mobiilne tööruum on mõeldud kasutamiseks mobiilirakendusega Finance and Operations.
+Mobiilset tööruumi kasutatakse koos finantside ja toimingute mobiilirakendusega.
 
 ## <a name="overview"></a>Ülevaade 
 **Minu töörühma** mobiilne tööruum võimaldab juhtidel teha järgmisi toiminguid.
@@ -50,12 +50,12 @@ Enne selle mobiilse tööruumi kasutamist peavad olema täidetud järgmised eelt
 <tbody>
 <tr class="odd">
 <td>Teie organisatsioonis peab olema juurutatud üks järgmistest toodetest.
-<ul><li>Finance and Operationsi rakendus</li>
+<ul><li>Finantside ja toimingute rakendus</li>
 <li>Microsoft Dynamics 365 Human Resources</li>
 </ul>
 </td>
 <td>Süsteemiadministraator</td>
-<td>Kui teie organisatsioonis pol&#39;e veel rakendust Finance and Operations juurutatud, siis vt teemat <a href="../deployment/deploy-demo-environment.md">Demokeskkonna juurutamine</a>. Kui teie&#39; organisatsioonis veel inimressursse ei kasutata, saab süsteemiadministraator prooviversioonile juurdepääsu <a href="https://dynamics.microsoft.com/human-resources/overview/">Inimressursside veebilehelt</a>.
+<td>Kui teie organisatsioonis&#39; ei ole veel finantside ja toimingute rakendust juurutatud, vaadake demokeskkonna <a href="../deployment/deploy-demo-environment.md">juurutamist</a>. Kui teie&#39; organisatsioonis veel inimressursse ei kasutata, saab süsteemiadministraator prooviversioonile juurdepääsu <a href="https://dynamics.microsoft.com/human-resources/overview/">Inimressursside veebilehelt</a>.
 </td>
 </tr>
 <tr class="even">
@@ -68,7 +68,7 @@ Enne selle mobiilse tööruumi kasutamist peavad olema täidetud järgmised eelt
 
 ## <a name="download-and-install-the-mobile-app"></a>Laadige alla ja installige mobiilirakendus
 
-Laadige alla ja installige Finance and Operationsi mobiilirakendus.
+Laadige alla ja installige finantside ja toimingute mobiilirakendus:
 
 -   [Androidi telefonide puhul](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [iPhone’idele](https://go.microsoft.com/fwlink/?linkid=850663)
@@ -99,3 +99,4 @@ Laadige alla ja installige Finance and Operationsi mobiilirakendus.
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

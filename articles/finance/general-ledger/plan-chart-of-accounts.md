@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6e797117199ff57cb4d3beae187ae7649579d33b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 10906d7b30628dfe69907cfa69ae1022fde33243
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8853344"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070630"
 ---
 # <a name="plan-your-chart-of-accounts"></a>Kontoplaanide plaanimine
 
@@ -43,7 +43,7 @@ Järgmiselt on toodud mõni tegur, millega peate oma organisatsiooni kontoplaani
 Saate luua kontoplaani lehel **Kontoplaan**. Saate luua põhikontosid lehel **Kontoplaan** või lehel **Põhikontod**. Põhikontodel ei tohiks kasutada erimärke, mida kasutatakse kontoplaani eraldajatena. Vastasel juhul võib konto ja dimensiooni kombinatsioonide sisestamisel ilmneda ebastabiilsus või vajalik olla alati otsingute või dialoogiboksi kasutamine. Lisateabe jaoks vt [Põhikonto loomine](tasks/create-main-account.md).
 
 > [!NOTE]
-> Rakenduse Dynamics 365 for Finance and Operations versioonis 8.0 (aprill 2018) saate muuta kontoplaani eraldajat lehel **Pearaamatu parameetrid**.
+> Dynamics 365 Finance versioonis 8.0 (2018 **. aprill) saate muuta kontoplaani eraldaja pearaamatu parameetrite lehelt**.
 
 Soovitatav on siduda põhikontod põhikonto kategooriatega, nii et saate kasutada vaikimisi finantsaruandeid ega pea muudatusi tegema. Seetõttu saate aruandeid kiiremini ja hõlpsamini kujundada ja säilitada.
 
@@ -60,3 +60,4 @@ Lisateavet vt järgmistest teemadest:
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

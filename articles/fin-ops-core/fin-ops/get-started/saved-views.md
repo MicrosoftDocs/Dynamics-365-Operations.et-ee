@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: 1218497bbb112c9a9ebeaa4cabdcb9314c604a7f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.openlocfilehash: 14369b02f1d7553be5c732f3bdf768825267998b
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8845409"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9125146"
 ---
 # <a name="saved-views"></a>Salvestatud vaated
 
@@ -215,7 +215,7 @@ Salvestatud vaadetega teadaolevate probleemide loendi leiate jaotisest [Koostevo
 ### <a name="how-do-i-enable-saved-views-in-my-environment"></a>Kuidas lubada salvestatud vaateid minu keskkonnas?
 
 > [!NOTE]
-> **Salvestatud vaadete** funktsioon nõuab finantside ja toimingute isikupärastamise süsteemi lubamist. Kui kogu keskkonnale on isikupärastamine välja lülitatud, keelatakse vaated isegi siis, kui järgite alltoodud juhiseid. 
+> **Salvestatud vaadete** funktsioon nõuab finantside ja toimingute rakenduste isikupärastamise süsteemi lubamist. Kui kogu keskkonnale on isikupärastamine välja lülitatud, keelatakse vaated isegi siis, kui järgite alltoodud juhiseid. 
 
 Saate funktsiooni **Salvestatud vaade** sisse ja välja lülitada mis tahes keskkonna funktsioonihalduses. Kui see on sisse lülitatud, on salvestatud vaated kõigil järgnevatel kasutajaseanssidele kättesaadavad.
 
@@ -255,3 +255,4 @@ Kui avaldate vaate kindlale juriidilisele isikule, kuid te ei avalda seda vaadet
 - **Versioon 10.0.21 või uuem:** kui funktsioon **Täiustatud juriidilise isiku tugi salvestatud vaadete jaoks** on sisse lülitatud, kuvab vaatevalija alati ainult määratud juriidiliste isikute vaate. Käitumine ilmneb, kuna funktsioon võimaldab vaateid (sh isiklikke vaateid) linkida kindlate juriidiliste isikutega.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

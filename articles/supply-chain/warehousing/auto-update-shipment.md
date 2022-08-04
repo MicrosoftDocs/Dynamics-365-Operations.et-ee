@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 2963589562e2d646670183e9db35df33255e8894
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e5816a7cddf509260511368b74655a9fd5bfc485
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8903749"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067877"
 ---
 # <a name="shipment-auto-updates"></a>Saadetise automaatvärskendused
 
@@ -30,7 +30,7 @@ Saadetise automaatvärskenduse funktsioon uuendab automaatselt koormusreal oleva
 
 Kui saadetise automaatvärskenduse funktsiooni ei kasutata, väheneb automaatselt ainult kogus kuni laotöö loomiseni. Kasutajad peavad ridu käsitsi uuendama või kustutama ning seejärel uuesti vabastama, kui suurendatakse tellimuse koguseid või lisatakse uusi tellimuse ridu. Saadetise automaatvärskenduse funktsiooni kasutamisel saavad ettevõtted vaevatult ladu värskendada, muretsemata, et seotud saadetised ja koormused ei vasta tellimusrea uuendustele.
 
-Saadetise automaatvärskenduse funktsioon rakendub nii müügitellimuse kui ka edastamise ridadele ja see on sisse lülitatud kindla lao jaoks. Tänu sellele saavad ettevõtted vastavalt vajadusele rakendada ladudes erinevaid saadetise automaatvärskenduse poliitikaid. Vaikimisi rakendub koguse vähenemise saadetise automaatvärskenduse poliitika kõikidele ladudele, mis kasutavad laohalduse protsesse. Kui kasutusel on see vaikepoliitika, väheneb automaatselt ainult saadetise ja koormuse kogus kuni laotöö loomiseni. See sarnaneb käitumisele, mida kasutati enne saadetise automaatvärskenduse funktsiooni kasutuselevõttu.
+Saadetise automaatvärskenduse funktsioon rakendub nii müügitellimuse kui ka edastamise ridadele ja see on sisse lülitatud kindla lao jaoks. Tänu sellele saavad ettevõtted vastavalt vajadusele rakendada ladudes erinevaid saadetise automaatvärskenduse poliitikaid. Vaikimisi rakendatakse koguse vähendamise saadetise automaatset uuendamist kõikide ladude puhul, mis kasutavad laohaldusprotsesse (WMS). Kui kasutusel on see vaikepoliitika, väheneb automaatselt ainult saadetise ja koormuse kogus kuni laotöö loomiseni. See sarnaneb käitumisele, mida kasutati enne saadetise automaatvärskenduse funktsiooni kasutuselevõttu.
 
 ## <a name="main-elements-of-the-functionality"></a>Funktsiooni põhielemendid
 

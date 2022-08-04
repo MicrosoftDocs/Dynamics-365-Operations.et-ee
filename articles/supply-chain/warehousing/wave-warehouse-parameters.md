@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 2a64cba837faf84f3e8470a9831d1641213a5cc4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e02cd80a3b7692f496fc70e50b812fae358103bc
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8909608"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067847"
 ---
 # <a name="warehouse-parameters-for-wave-processing"></a>Voo töötlemise laoparameetrid
 
@@ -52,7 +52,7 @@ Voo töötluse jaoks lao parameetrite häälestamiseks tehke järgmist.
 > [!NOTE]
 > Voo töötlemiseks kasutataval voomallil saate määrata voo töötluse automatiseerimissätted. Kui häälestate pakett-töö graafiku, tuleb teil koordineerida ajastus voomalli automatiseerimise sätetega. Lisateavet vt teemast [Voomalli loomine](wave-templates.md).
 >
-> Kui kasutate sätteid *Transpordihaldus* ja *Täpsem laohaldus*, saate määrata, kas koormad konsolideeritakse voo töötlemisel. See on kasulik näiteks juhul, kui korraga saab lähetada mitu väikest koormat. Koormate konsolideerimiseks voo töötlemise ajal märkige vahekaardil **Koormad** ruut **Konsolideeri koormad voo töötlemise ajal**.</P>
+> Kui kasutate transpordihaldust *ja* *laohaldusprotsesse (WMS),* saate määrata, kas laine töötlemise ajal koormaid konsolideerida. See on kasulik näiteks juhul, kui korraga saab lähetada mitu väikest koormat. Koormate konsolideerimiseks voo töötlemise ajal märkige vahekaardil **Koormad** ruut **Konsolideeri koormad voo töötlemise ajal**.</P>
 
 ## <a name="set-up-full-or-partial-reservation-for-production-waves"></a>Tootmisvoogude täieliku või osalise reserveerimise häälestamine
 

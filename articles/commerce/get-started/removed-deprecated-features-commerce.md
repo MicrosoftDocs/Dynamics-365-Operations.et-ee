@@ -2,7 +2,7 @@
 title: Dynamics 365 Commerce’i eemaldatud või iganenud funktsioonid
 description: See artikkel kirjeldab funktsioone, mis on eemaldatud või mida plaanitakse eemaldada Dynamics 365 Commerce.
 author: josaw
-ms.date: 04/27/2022
+ms.date: 07/11/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 2725ff2b8bfbaadbca1bc070e32cee7c5d2754be
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a59d62ad846eed659fa4e70390ebafc40127df0f
+ms.sourcegitcommit: ef56b5d0ed26e373add5dec63168e08ade40573e
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8910520"
+ms.lasthandoff: 07/12/2022
+ms.locfileid: "9138582"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Dynamics 365 Commerce’i eemaldatud või iganenud funktsioonid
 
@@ -31,7 +31,20 @@ See artikkel kirjeldab funktsioone, mis on eemaldatud või mida plaanitakse eema
 See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võtta. 
 
 > [!NOTE]
-> Finantside ja toimingute rakenduste objektide üksikasjaliku teabe leiate tehnilistest [viitearuannetest](/dynamics/s-e/). Saate võrrelda nende aruannete erinevaid versioone, et saada teavet objektide kohta, mida on igas Finantsi ja operatsioonide rakenduste versioonis muudetud või eemaldatud.
+> Finantside ja toimingute rakenduste objektide üksikasjaliku teabe leiate tehnilistest [viitearuannetest](/dynamics/s-e/). Saate võrrelda nende aruannete erinevaid versioone, et saada teavet objektide kohta, mida on igas finantsi ja toimingute rakenduste versioonis muudetud või eemaldatud.
+
+## <a name="feature-deprecation-effective-july-2022"></a>Funktsiooni amortiseerumine kehtib juulil 2022
+
+### <a name="commerce-analytics-preview"></a>Commerce‘i analüütika (eelversioon)
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Aegumise/eemaldamise põhjus** | Meeskond Dynamics 365 Commerce on analüüsinud Commernce analüüsi (Preview) funktsiooni kasutamist ja kasutamist ning otsustati, et see ei liiguks enam edasi funktsiooni üldisele saadavusele.   |
+| **Asendatud teise funktsiooniga?**   | Praegu ei asendata Commerce Analyticsit (Eelvaade) muu funktsiooni või lahendusega. Finantside ja toimingute rakenduste toorkannete ja koondandmete eksportimine Azure Data Sisestasse on edasi saadaval, [nagu selgitatakse finantside ja toimingute rakendustes andmete eksportimises Osarakendusse Data Tete](../../fin-ops-core/dev-itpro/data-entities/finance-data-azure-data-lake.md). Partnerid ja kliendid saavad kasutada seda andmevoogu, et autoriks saada mis tahes kavandatud analüüsiaruandeid oma äritegevuse vajadustele.
+| **Mõjutatud tootealad**         | Commerce‘i analüütika (eelversioon) |
+| **Juurutamissuvand**              | Kõik |
+| **Olek**                         | Selle funktsiooni keelamisest 30. augustiks 2022.  Ärianalüüsi (Preview) antud praegustes Power BI aruannetes sellest kuupäevast edasi ei värskendata.     |
+
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10025-release"></a>Commerce'i väljalaskest 10.0.25 eemaldatud või aegunud funktsioonid
 
@@ -195,3 +208,4 @@ Lisateavet funktsioonide kohta, mis on eelnevatest versioonidest eemaldatud või
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 588da2a217a56d2bc25f85c9a10c6589f90b16a1
-ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.openlocfilehash: 729ef6aae228ad1e528945031567b92c44cdf256
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "9015081"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111750"
 ---
 # <a name="register-consumption"></a>Tarbimise registreerimine
 
@@ -90,7 +90,7 @@ Kui teete tarbimise registreeringuid, lisatakse eri registreerimise tüüpidega 
 - *Kauba registreeringud*: esimesena lisatakse finantsdimensioonid töölehe päisest, kui neid on. Seejärel lisatakse seotud töökäsu projekti finantsdimensioonid. Järgmisena lisatakse koha finantsdimensioonid. Viimasena lisatakse kauba finantsdimensioonid.
 
 >[!NOTE]
->Kõigi kolme registreerimise tüübi puhul on finantsdimensioonide kombinatsioon valideeritud ja kehtetud kombinatsioonid jäetakse tühjaks. See on standardne seadistus koos teiste lahenduse Finance and Operations rakendustega.
+>Kõigi kolme registreerimise tüübi puhul on finantsdimensioonide kombinatsioon valideeritud ja kehtetud kombinatsioonid jäetakse tühjaks. See on standardne seadistus teiste finantside ja toimingute rakendustega.
 
 
 

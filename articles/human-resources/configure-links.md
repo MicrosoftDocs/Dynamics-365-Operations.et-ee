@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2021-29-11
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0c9efae1061e96c0c42d5ca6a100bb36889ce56b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 9640f460ed7b0b1a0cfdffb7c318bf833f8627fc
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8859662"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065289"
 ---
 # <a name="create-links-from-human-resources-to-another-finance-environment"></a>Inimressurssidest teise finantskeskkonna linkide loomine
 
@@ -53,7 +53,7 @@ Igal teie poolt valitud lingil on määratud järgmine teave:
 
    Nõutava menüükäsu leidmiseks:
    1. Minge finantskeskkonda ja avage leht, mis on navigeerimise sihtmärk. 
-   2. Kopeerige menüü-üksus URL-ist. Kui soovite näiteks, et link viiks teid töövõtjate loendisse Finance ja Operationsis, sisestage väärtus, mis kuvatakse URL-is pärast "&mi"-d. 
+   2. Kopeerige menüü-üksus URL-ist. Näiteks kui soovite, et link viiks teid finantside ja toimingute töötaja loendisse, sisestage URL-ile väärtus, mis kuvatakse pärast "&mi". 
    3. Töövõtja loendi lehele navigeerimise menüü-üksus on selles näites: HcmWorkerListPage_Employees.
 
  - **Link andmeallikale**: valige andmeallikas, millele link viitab. Saadaval on kõige tavalisemad allikad nagu **Töötaja** ja **Ametikoht**.
@@ -63,4 +63,5 @@ Igal teie poolt valitud lingil on määratud järgmine teave:
 Süsteemiadministraatorid näevad vastloodud linke määratletud lehtedel isegi siis, kui **Lingi lubamise** suvandiks on määratud **Ei**. Seda saab kasutada linkide kontrollimiseks enne nende ilmutamist teistele töövõtjatele. Kõik teised rollid näevad ainult konfigureeritud linke, kui suvandi **Luba see link** väärtuseks on määratud **Jah**. Töövõtjatel, kellel on juurdepääs lehekülgedele, kuhu lingid on ilmutatud, on juurdepääs ka linkidele.
 
 Kasutajatel peavad olema turvaõigused teiseses keskkonnas määratletud juurdepääsuks selle keskkonna lehtedele. Kui õiguseid ei ole, kuvatakse lingi kasutamisel turva dialoogiboks.
+
 

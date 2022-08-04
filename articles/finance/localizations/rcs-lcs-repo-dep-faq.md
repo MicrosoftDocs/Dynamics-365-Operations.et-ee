@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: AX 10.0.19
-ms.openlocfilehash: 4a35941d1521d26f95bacf29213fee42daeb42ab
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 65d45eaf618075e0c78881634fc77bda0fab277e
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849727"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065670"
 ---
 # <a name="regulatory-configuration-service-rcs--lifecycle-services-lcs-storage-deprecation"></a>Regulatory Configuration Service (RCS) – Lifecycle Services (LCS) ladustamise amortiseerimine
 
@@ -30,7 +30,7 @@ Microsoft Dynamics Lifecycle Services (LCS) kasutamine elektroonilise aruandluse
 
 - Microsofti loodud konfiguratsioone, mida kasutatakse Microsoft Dynamics 365 rakendustes, ei avaldata enam LCS-i jagatud vara teegis. Selle asemel avaldatakse need ainult RCS-i globaalse hoidla kaudu. Dynamics AX 2012 konfiguratsioone avaldatakse siiski LCS-is ühiskasutusega varateegis kuni AX 2012. aasta tugitsükli lõpuni.
 - Funktsioon, mis võimaldab teil finantside ja toimingute rakendustest ja RCS-st üles laadida konfiguratsioone LCS-i projekti varateeki, inaktiveeritakse. Siiski, saate kasutada LCS-i brauserit konfiguratsioonide üleslaadimiseks Projekti varateeki. Seega saate LCS-ile siiski konfiguratsioone lisada, et neid saaks lisada lahendusepakettidesse.
-- Konfiguratsioonide importimine LCS-st on finantside ja toimingute rakendustes ja RCS-is teatud ajal saadaval ja toetatud. Siiski, funktsioon lõpuks aegub. (Täpne aegumise kuupäev teatatakse hiljem.)
+- Konfiguratsioonide importimine LCS-st on finantside ja toimingute rakendustes ning RCS-is teatud ajal edaspidi saadaval ja toetatud. Siiski, funktsioon lõpuks aegub. (Täpne aegumise kuupäev teatatakse hiljem.)
 
 ## <a name="deprecation-notice"></a>Aegumisteatis
 
@@ -73,7 +73,7 @@ Kasutage globaliseerumise hoidlat järgmistel eesmärkidel.
 
 ### <a name="does-this-change-mean-that-lcs-cant-be-used-as-central-storage-for-configurations"></a>Kas see muudatus tähendab, et LCS-i ei saa konfiguratsioonide keskseks ladustamiseks kasutada?
 
-Jah. Funktsioon, mis võimaldab teil finantside ja toimingute rakendustest üles laadida konfiguratsioone LCS-i projekti varateeki, on aegunud. Siiski, saate kasutada LCS-i brauserit konfiguratsioonide üleslaadimiseks Projekti varateeki, nagu vajate.
+Jah. Funktsioon, mis võimaldab teil finantside ja toimingute rakendustest laadida konfiguratsioone LCS-i projekti varateeki, on aegunud. Siiski, saate kasutada LCS-i brauserit konfiguratsioonide üleslaadimiseks Projekti varateeki, nagu vajate.
 
 ### <a name="i-thought-that-rcs-was-a-replacement-repository-for-importing-global-template-files-i-didnt-think-that-its-used-to-store-configurations-which-is-correct"></a>Ma arvasin, et RCS on globaalsete mallifailide importimise asendushoidla. Ma ei arvanud, et seda kasutatakse konfiguratsioonide talletamiseks. Milline on õige?
 
@@ -81,7 +81,7 @@ RCS on kujundusteenus ER-i konfiguratsioonide loomiseks ja redigeerimiseks. RCS-
 
 ### <a name="without-lcs-what-is-the-suggested-way-to-store-configurations-so-that-test-and-production-configurations-can-easily-be-managed-and-transferred"></a>Kuidas ilma LCS-ta konfiguratsioonid talletada nii, et konfiguratsioone "testimine" ja "tootmine" saab hõlpsasti hallata ja üle kanda?
 
-RCS kasutab *ühendatud rakenduse* mõisteid. Seotud rakendus moodustab ühenduse RCS-i ja mis tahes Finantside ja toimingute rakenduste vahel. Kuna RCS-i saab kasutada konfiguratsioonide redigeerimiseks, saab ühendatud rakendust kasutada konfiguratsioonide otse kujundajast finantside ja toimingute rakenduste keskkondade tõukamiseks. Seega saate konfiguratsiooni kiiresti muuta ja katsetada, selle asemel et LCS-i projektitasemel talletus läbida.
+RCS kasutab *ühendatud rakenduse* mõisteid. Seotud rakendus moodustab ühenduse RCS-i ja mis tahes finantside ja toimingute rakenduste vahel. Kuna RCS-i saab kasutada konfiguratsioonide redigeerimiseks, saab ühendatud rakendust kasutada konfiguratsioonide otse kujundajast finantside ja toimingute rakenduste keskkondade tõukamiseks. Seega saate konfiguratsiooni kiiresti muuta ja katsetada, selle asemel et LCS-i projektitasemel talletus läbida.
 
 ### <a name="are-there-any-examples-that-show-the-setup-and-management"></a>Kas on näiteid, mis näitavad seadistust ja haldust?
 

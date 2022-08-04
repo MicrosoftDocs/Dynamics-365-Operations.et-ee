@@ -1,5 +1,5 @@
 ---
-title: Topeltkirjutuse konfiguratsiooni kontrollimine finants- ja äritoimingute rakendustes ja Dataverse’is
+title: Topeltkirjutuse konfiguratsiooni kontrollimine finantside ja toimingute rakendustes ning Dataverse
 description: See artikkel selgitab, kuidas saate otsustada, kas topeltkirjutused on konfigureeritud finantside ja toimingute rakendustes ja rakenduses Dataverse.
 author: RamaKrishnamoorthy
 ms.date: 03/16/2020
@@ -9,14 +9,14 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 7131e6c2c4ca4d9c6bb84ad74bf425faf28bd92c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d5191f5dd9c3a286abac622aede07d04fb72a8f7
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8884455"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111388"
 ---
-# <a name="verify-dual-write-configuration-in-finance-and-operations-apps-and-dataverse"></a>Topeltkirjutuse konfiguratsiooni kontrollimine finants- ja äritoimingute rakendustes ja Dataverse’is
+# <a name="verify-dual-write-configuration-in-finance-and-operations-apps-and-dataverse"></a>Topeltkirjutuse konfiguratsiooni kontrollimine finantside ja toimingute rakendustes ning Dataverse
 
 [!include [banner](../../includes/banner.md)]
 
@@ -24,17 +24,17 @@ ms.locfileid: "8884455"
 
 
 
-See artikkel pakub tõrkeotsingu teavet topeltkirjutuse integreerimiseks finantside ja toimingute rakenduste ning rakenduste vahel Dataverse. Täpsemalt selgitab see, kuidas saate otsustada, kas topeltkirjutust konfigureeritakse finantside ja toimingute rakendustes ja rakenduses Dataverse.
+See artikkel pakub tõrkeotsingu teavet topeltkirjutuse integreerimiseks finantside ja toimingute rakenduste ning Dataverse. Täpsemalt selgitab see, kuidas saate otsustada, kas topeltkirjutust konfigureeritakse finantside ja operatsioonide rakendustes ja rakenduses Dataverse.
 
-## <a name="verify-that-dual-write-is-configured-in-a-finance-and-operations-app"></a>Kontrollige, kas topeltkirjutus on konfigureeritud Finantside ja toimingute rakenduses.
+## <a name="verify-that-dual-write-is-configured-in-a-finance-and-operations-app"></a>Kontrollige, kas topeltkirjutus on konfigureeritud finantside ja toimingute rakenduses.
 
 Selleks, et teha kindlaks, kas ridade värskenduse salvestamisel kuvatavad tõrketeated on põhjustatud topeltkirjutusest, kontrollige esmalt, kas topeltkirjutus on konfigureeritud.
 
-+ Kui teil on halduse privileegid rakenduses Finantsid ja toimingud, minge tööruumide **\> andmehalduse ja** valige topeltkirjutuse **paani**. Kui kuvatakse lingitud keskkondade üksikasjad ja kasutatava tabeli vastenduste loend, konfigureeritakse topeltkirjutus.
++ Kui teil on finantside ja toimingute rakenduses administraatori privileegid, minge tööruumide **\> andmehalduse ja** valige topeltkirjutuse **paani**. Kui kuvatakse lingitud keskkondade üksikasjad ja kasutatava tabeli vastenduste loend, konfigureeritakse topeltkirjutus.
 
     ![Finantside ja toimingute rakenduse ühenduse kontrollimine, kui teil on halduse privileegid.](media/verify_fin_ops_1.png)
 
-+ Kui teil ei ole administraatori privileege, kuvatakse tõrketeade *Andmeid ei saa kirjutada üksusele \<entity name\>*. Järgmises illustratsioonis toodud näites ei saa te rakendusesse Finantsid ja Toimingud luua kliendirida, kuna topeltkirjutus on konfigureeritud, kuid kliendigrupi ja maksetingimuste viiteandmeid pole olemas Dataverse.
++ Kui teil ei ole administraatori privileege, kuvatakse tõrketeade *Andmeid ei saa kirjutada üksusele \<entity name\>*. Järgmises illustratsioonis toodud näites ei saa finantside ja toimingute rakenduses luua kliendi rida, kuna topeltkirjutus on konfigureeritud, kuid kliendigrupi ja maksetingimuste viiteandmeid pole olemas Dataverse.
 
     ![Finantside ja toimingute rakenduse ühenduse kontrollimine, kui teil ei ole halduseõigusi.](media/verify_fin_ops_2.png)
 

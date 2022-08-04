@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 330683da986a551a9694833655122768d30499b1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b24d865bff0e81f79e7edde360fd5115d8637b42
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8906764"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111227"
 ---
 # <a name="access-application-metadata-by-using-connected-applications"></a>Juurdepääs rakenduse metaandmetele ühendatud rakenduste abil
 
 [!include [banner](../../includes/banner.md)]
 
-Järgmised etapid selgitavad, kuidas süsteemi administraatori või elektroonilise aruandluse arendaja rolliga lahenduse Regulatory Configuration Service (RCS) kasutaja saab kavandada uue elektroonilise aruandluse (ER) mudelivastenduse kasutades Finance and Operationsi metaandmeid. Rakenduse metaandmete saab online-juurdepääsu RCS-ga ühendatud rakenduse abil. Väliskaubanduse kannetele juurdepääsuks konfigureeritakse elektroonilise aruandluse mudeli vastenduse näidis. Nende sammude lõpuleviimiseks peate RCS-is esmalt täitma artikli sammud, [looma konfiguratsiooni pakkujad ja märkima need aktiivseks](er-configuration-provider-mark-it-active-2016-11.md). Kui te pole artikli samme täitnud, [pääsete ER-konfiguratsiooni](access-application-metadata-er-configuration.md) abil rakenduse metaandmete juurde, [laadige](https://download.microsoft.com/download/0/4/e/04e13839-e423-442b-a6c2-dd35b1045c2d/Dynamics%20365%20for%20Finance%20and%20Operations%208.1%20Electronic%20reporting%20task%20guides.zip) alla elektroonilise aruandluse näited ja salvestage järgmised ER-konfiguratsioonid: väliskaubanduse metaandmed.xml; Väliskaubanduse mudel.xml; Väliskaubanduse vastendus.xml ja viige seejärel protseduuri sammud lõpule.
+Järgmistes sammudes seletatakse, kuidas regulatiivse konfiguratsiooniteenuse (RCS) kasutaja süsteemiadministraatoris või elektroonilise aruandluse arendaja rollis saab kujundada uue elektroonilise aruandluse (ER) mudeli vastenduse, kasutades finantside ja toimingute metaandmeid. Rakenduse metaandmete saab online-juurdepääsu RCS-ga ühendatud rakenduse abil. Väliskaubanduse kannetele juurdepääsuks konfigureeritakse elektroonilise aruandluse mudeli vastenduse näidis. Nende sammude lõpuleviimiseks peate RCS-is esmalt täitma artikli sammud, [looma konfiguratsiooni pakkujad ja märkima need aktiivseks](er-configuration-provider-mark-it-active-2016-11.md). Kui te pole artikli samme täitnud, [pääsete ER-konfiguratsiooni](access-application-metadata-er-configuration.md) abil rakenduse metaandmete juurde, [laadige](https://download.microsoft.com/download/0/4/e/04e13839-e423-442b-a6c2-dd35b1045c2d/Dynamics%20365%20for%20Finance%20and%20Operations%208.1%20Electronic%20reporting%20task%20guides.zip) alla elektroonilise aruandluse näited ja salvestage järgmised ER-konfiguratsioonid: väliskaubanduse metaandmed.xml; Väliskaubanduse mudel.xml; Väliskaubanduse .xml ja viige siis protseduuri sammud lõpule.
 
 ## <a name="prerequisites"></a>Eeltingimused
 1. Avage **Kõik tööruumid** > **Elektrooniline aruandlus**. 
@@ -114,3 +114,4 @@ Kui peate hindama seda mudeli vastendust, kasutades rakenduse teise versiooni me
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

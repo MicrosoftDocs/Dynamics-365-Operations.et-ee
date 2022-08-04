@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 2bdb2ca0067ea430b249ac619a38c8bcec75f2f7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: cd5d2cf112a9d2ccdf6226ee79f0ff488d51066b
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8895811"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066666"
 ---
 # <a name="configure-inventory-visibility"></a>Inventory Visibility konfigureerimine
 
@@ -55,7 +55,7 @@ Inventory Visibility lisandmoodul lisab teie installile mitu uut Power Apps funk
 | *OnHandMostSpecificBackgroundService* | See funktsioon annab tootevarude kokkuvõtte koos kõigi dimensioonidega. Lao koondandmed sünkroonitakse perioodiliselt laovarude nähtavuse väljalt. Lisateavet vt laovarude [kokkuvõttest](inventory-visibility-power-platform.md#inventory-summary). |
 | *Sõlm OnhandChangeSchedule* | See valikuline funktsioon võimaldab vaba kaubavaru muutmise graafikut ja on saadaval lubamiseks (ATP) funktsioone. Lisateavet vt varude nähtavuse vaba [kaubavaru muutmise graafikust ja lubaduse andmiseks saadaval](inventory-visibility-available-to-promise.md). |
 | *Eraldamine* | See valikuline funktsioon võimaldab varude nähtavust, omab võimalust laovarude kaitsmiseks (ringlemine) ja alistab kontrolli. Lisateavet vt varude nähtavuse [varude eraldamisest](inventory-visibility-allocation.md). |
-| *Laokauba lubamine varude nähtavuses* | See valikuline funktsioon võimaldab varude nähtavust, et toetada kaupu, mis on lubatud täpsematele laoprotsessidele (laohaldusüksused). Lisateavet vt laovarude nähtavuse [tugi laotöölehe kaupade puhul](inventory-visibility-whs-support.md). |
+| *Laokauba lubamine varude nähtavuses* | See valikuline funktsioon võimaldab varude nähtavust, et toetada kaupu, mis on lubatud laohaldusprotsessidele (WMS). Lisateavet vt WMS-kaupade [varude nähtavuse tugi](inventory-visibility-whs-support.md). |
 
 ## <a name="find-the-service-endpoint"></a><a name="get-service-endpoint"></a>Teenuse lõpp-punkti leidmine
 
@@ -63,7 +63,7 @@ Kui te ei tea õiget Varude nähtavuse teenuse lõpp-punkti, avage Power Appsi l
 
 ## <a name="data-source-configuration"></a><a name="data-source-configuration"></a>Andmeallika konfiguratsioon
 
-Iga andmeallikas tähistab süsteemi, millest teie andmed tulevad. Andmeallikate nimede näited on `fno` (st Dynamics 365 Finantside ja toimingute rakendused) `pos` ja (st müügikohad). Vaikimisi on rakenduse Varude nähtavus andmeallikaks (`fno`) seadistatud Supply Chain Management.
+Iga andmeallikas tähistab süsteemi, millest teie andmed tulevad. Andmeallikate nimede näited on `fno` (st Dynamics 365 finantside ja toimingute rakendused) `pos` ja (st müügikohad). Vaikimisi on rakenduse Varude nähtavus andmeallikaks (`fno`) seadistatud Supply Chain Management.
 
 > [!NOTE]
 > Andmeallikas `fno` on reserveeritud tarneahela haldamiseks. Kui varude nähtavuse lisandmoodul on integreeritud tarneahela halduskeskkonnaga, on soovitatav mitte kustutada andmeallikaga `fno` seotud konfiguratsioone.
@@ -717,7 +717,7 @@ Andmeallika `pos` jaoks konfigureeritakse järgmised füüsilised mõõtmed.
 
 `AvailQuantity` arvutatud mõõde konfigureeritakse `pos` andmeallikale nii nagu näidatud järgmises tabelis.
 
-| Kalkulatsiooni tüüp | Andmeallikas | Füüsiline mõõde |
+| Kalkulatsiooni tüüp | Andmeallikas | Füüsiline mõõt |
 |---|---|---|
 | Liitmine | `fno` | `AvailPhysical` |
 | Liitmine | `pos` | `PosInbound` |
@@ -809,3 +809,4 @@ Järgmine tabel näitab reserveeringu vaikehierarhiat.
 | `ExtendedDimension8` | 33 |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

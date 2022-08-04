@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-12-03
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 94e465616338b0c905ccf6b8244324c18c7a59e8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f8864ac22153908492b5e7c30a03617e6dc9d05a
+ms.sourcegitcommit: 5b34b41ae74269ba639e2876bc5862ef468da1cc
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849441"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "9166871"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10024-february-2022"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 Supply Chain Management 10.0.24. (veebruar 2022)
 
@@ -46,7 +46,7 @@ Kui soovite mõne neist funktsioonidest sisse ja välja lülitada, peate seda fu
 | Moodul | Funktsiooni nimi funktsioonihalduses | Lisateave |
 |---|---|---|
 | Tootmise juhtimine | Tootmistellimuste vajaduse korral materjali saadavuse kontroll | See funktsioon muudab kiiremaks tootmistellimuse **avamiseks lehekülje** vabastamise, mis on saadaval tootmispinna **halduse tööruumis**. Ilma selle funktsioonita kontrollib süsteem automaatselt, kas materjalid on saadaval kõigi loetletud tootmistellimuste jaoks kohe, kui avate lehekülje, mis võib võtta palju aega, kui teil on palju tellimusi. Kui see funktsioon on lubatud, pakub süsteem hoopis tööriistariba nuppu, mille abil saate käivitada materjalide kontrolli ainult valitud tellimustele ja vajadusel. |
-| Tootmise juhtimine | (Eelversioon) Materjali tarbimise registreerimine tootmisosakonna täideviimisliideses (mitte-WMS) | See funktsioon võimaldab töötajatel kasutada tootmispinna käivitamise liidest materjalitarbimise, partiinumbrite ja seerianumbrite registreerimiseks. See funktsioon toetab ainult kaupu, mis ei ole lubatud täpsemate laoprotsesside (WMS) kasutamiseks. WMS-iga lubatud kaupade tugi on plaanitud tulevaseks väljalaskeks.<p>Osa tootjaid, eriti neid, kes kuuluvad protsessitööstusesse, peavad iga partii või tootmistellimuse puhul eraldi registreerima tarbitud materjali hulga. Töötajad võivad näiteks kaalu kasutada oma töös tarbitud materjali kaalu kaalumiseks. Täieliku materjalijälgitavuse tagamiseks peavad need organisatsioonid registreerima ka iga toote tootmises kasutatud partiinumbrid. |
+| Tootmise juhtimine | Registreeri materjalitarbimine tootmispinna käivitamise liideses (non-WMS) | See funktsioon võimaldab töötajatel kasutada tootmispinna käivitamise liidest materjalitarbimise, partiinumbrite ja seerianumbrite registreerimiseks. See funktsioon toetab ainult kaupu, mis ei ole lubatud laohaldusprotsesse (WMS) kasutada. WMS-iga lubatud kaupade tugi on plaanitud tulevaseks väljalaskeks.<p>Osa tootjaid, eriti neid, kes kuuluvad protsessitööstusesse, peavad iga partii või tootmistellimuse puhul eraldi registreerima tarbitud materjali hulga. Töötajad võivad näiteks kaalu kasutada oma töös tarbitud materjali kaalu kaalumiseks. Täieliku materjalijälgitavuse tagamiseks peavad need organisatsioonid registreerima ka iga toote tootmises kasutatud partiinumbrid. |
 | Tootmise juhtimine | Lõpetatuna kinnitamine laohaldustöökoormuses pilv- ja perimeeterskaalaüksuste jaoks | See funktsioon võimaldab töötajatel kasutada laohalduse mobiilirakendust, et teatada tootmise või partii tellimuse lõpetatuna, kui rakendus töötab laohalduse töökoormusega pilves või servaskaala üksuses. Lisateavet vt lõpetatuna kinnitamine [ja kaaluühiku panemine](../cloud-edge/cloud-edge-workload-manufacturing.md#RAF). |
 | Laohaldus | Uued koorma planeerimise töölaua leheküljed | Lubab kaks uut koorma planeerimise töölaualehte: **sissetuleva koorma planeerimise töölaud ja** **väljamineva koorma plaanimise töölaud**. |
 
@@ -68,9 +68,9 @@ Oleme hiljuti lisanud või oluliselt uuendanud järgmised spikriartiklid. Need a
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Finantside ja toimingute rakenduste platvormi värskendused
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Platvormi värskendused finantside ja toimingute rakenduste jaoks
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.24 sisaldab platvormivärskendusi. Lisateavet vt platvormi värskendustest [versioonile 10.0.24 Finance and Operations rakendustest (veebruar 2022).](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-24.md)
+Microsoft Dynamics 365 Supply Chain Management 10.0.24 sisaldab platvormivärskendusi. Lisateavet vt platvormi värskendustest [versioonile 10.0.24 finantside ja toimingute rakendustest (veebruar 2022).](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-24.md)
 
 ### <a name="bug-fixes"></a>Veaparandused
 
@@ -94,3 +94,4 @@ Enne mis tahes funktsiooni eemaldamist tootest teatatakse amortiseerumisest [Dyn
 Murranguliste muudatuste puhul, mis mõjutavad ainult kompileerimise aega, kuid on binaarselt ühilduvad liivakasti- ja tootmiskeskkondadega, on aegumise aeg vähem kui 12 kuud. Need on tavaliselt funktsionaalsed uuendused, mida tuleb teha kompilaatori jaoks.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

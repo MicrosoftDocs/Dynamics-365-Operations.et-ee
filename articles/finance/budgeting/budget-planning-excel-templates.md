@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6bc190a48d0212e24c5bd72255ed6b6b3caf942c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8996ad5d03327b9273be7860a3905dc25efa7e90
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872495"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070660"
 ---
 # <a name="budget-planning-templates-for-excel"></a>Eelarve planeerimise mallid Exceli jaoks
 
@@ -79,7 +79,7 @@ Valitud väljagrupis kuvatakse mallis saadaolevad veerud. Uue veeru lisamiseks k
 [![Lisa ja sisesta veerg.](./media/bpt12-1024x565.png)](./media/bpt12.png)
 
 > [!NOTE] 
-> Valemi määratlemiseks looge valem arvutustabelis ja kopeerige see aknasse **Kujundus**. Finance and Operationsiga seotud tabelile antakse tavaliselt nimi AXTable1. Näiteks veergude Taotlus Q1 : Taotlus Q4 columns summeerimiseks arvutustabelis saate kasutada valemit AxTable1\[Taotlus Q1\]+AxTable1\[Taotlus Q2\]+AxTable1\[Taotlus Q3\]+AxTable1\[Taotlus Q4\].
+> Valemi määratlemiseks looge valem arvutustabelis ja kopeerige see aknasse **Kujundus**. Finantside ja toimingute seotud tabeli nimi on tavaliselt "AXTable1". Näiteks veergude Taotlus Q1 : Taotlus Q4 columns summeerimiseks arvutustabelis saate kasutada valemit AxTable1\[Taotlus Q1\]+AxTable1\[Taotlus Q2\]+AxTable1\[Taotlus Q3\]+AxTable1\[Taotlus Q4\].
 
 Korrake neid etappe veeru **Korrigeerimine** lisamiseks. Kasutage selle veeru puhul valemit AxTable1\[Koondtaotlus\]\*$I$1. See võtab väärtuse lahtrist I1 ja korrutab väärtustega veerus **Koondtaotlus**, et arvutada korrigeerimise summad.
 
@@ -129,3 +129,4 @@ Samuti saate eelarveandmete täiendavaks grupeerimiseks ja visualiseerimiseks lu
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

@@ -10,12 +10,12 @@ ms.custom: separate-solution
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-11-29
-ms.openlocfilehash: 504939f1f98c18005c092cabc1d040b420402c93
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 28c321ee2815b2886c07bfb0996870e536458145
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8874808"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111656"
 ---
 # <a name="separated-dual-write-application-orchestration-package"></a>Eraldatud topeltkirjutusega rakenduse orkestratsioonipakett
 
@@ -26,14 +26,14 @@ ms.locfileid: "8874808"
 Varem oli topeltkirjutusega rakenduse orkestrutuspakett üksikpakett, mis sisaldas järgmisi lahendusi:
 
 - Dynamics 365 märkused
-- Dynamics 365 finantside ja toimingute tavaankur
+- Dynamics 365 finantsid ja toimingud, ühisankur
 - Dynamics 365 finantside ja toimingute topeltkirjutuse üksuse vastekaardid
 - Dynamics 365 varahalduse rakendus
 - Dynamics 365 varahaldus
 - HCM-i ühine
 - Dynamics 365 tarneahelat on laiendatud.
 - Dynamics 365 Finance Extended
-- Dynamics 365 ühised finantsid ja toimingud
+- Dynamics 365 finantsid ja toimingud (tavaline)
 - Dynamics 365 ettevõte
 - Valuuta vahetuskursid
 - Väljateenuse üldine
@@ -58,7 +58,7 @@ Topeltkirjutusega rakenduse tuumpakett võimaldab kasutajatel installida ja konf
 
 Selles paketis on saadaval järgmised vastekaardid.
 
-| Finance and Operationsi rakendused     | Klientide kaasamise rakendused                    |
+| Finance and Operations rakendused     | Klientide kaasamise rakendused                    |
 |---------------------------------|---------------------------------------------|
 | Tootmisüksus                  | msdyn_internalorganizations                 |
 | Organisatsiooni hierarhia          | msdyn_internalorganizationhierarchies       |
@@ -85,11 +85,11 @@ Topeltkirjutuse inimressursside pakett sisaldab inimressursside andmete sünkroo
 |----------------------------|------------------------------------------|
 | HCMCommon                  | HCM-i ühine                               |
 | msdyn_Dynamics365HCMMaps   | Dynamics 365 Human Resources üksuse vastekaardid |
-| msdyn_Dynamics365HCMAnchor | Dynamics 365 Human Resources Ankur      |
+| msdyn_Dynamics365HCMAnchor | Dynamics 365 Human Resources ankur      |
 
 Selles paketis on saadaval järgmised vastekaardid.
 
-| Finance and Operationsi rakendused | Klientide kaasamise rakendused         |
+| Finance and Operations rakendused | Klientide kaasamise rakendused         |
 |-----------------------------|----------------------------------|
 | Etniline päritolu              | cdm_ethnicorigins                |
 | Tasu tööfunktsioon   | cdm_jobfunctions                 |
@@ -119,7 +119,7 @@ Topeltkirjutuse tarneahela pakett sisaldab lahendusi ja vastekaarte, mida on vaj
 
 Selles paketis on saadaval järgmised vastekaardid.
 
-| Finance and Operationsi rakendused                 | Klientide kaasamise rakendused                      |
+| Finance and Operations rakendused                 | Klientide kaasamise rakendused                      |
 |---------------------------------------------|-----------------------------------------------|
 | Ühikud                                       | uoms                                          |
 | CDS-i müügitellimuse päised                     | müügitellimused                                   |
@@ -197,7 +197,7 @@ Topeltkirjutuse finantspakett sisaldab Dynamics 365 Financei andmete sünkroonim
 
 Selles paketis on saadaval järgmised vastekaardid.
 
-| Finance and Operationsi rakendused             | Klientide kaasamise rakendused        |
+| Finance and Operations rakendused             | Klientide kaasamise rakendused        |
 |-----------------------------------------|---------------------------------|
 | Kinnipeetava maksu grupid                  | msdyn_withholdingtaxgroups      |
 | CDS Contacts V2 (klient)              | kontaktid                        |
@@ -247,7 +247,7 @@ Topeltkirjutuse märkuste pakett sisaldab lahendusi ja vastendusi, mida on vaja 
 
 Selles paketis on saadaval järgmised vastekaardid.
 
-| Finance and Operations                     | Customer Engagement |
+| Finantsid ja toimingud                     | Customer Engagement |
 |--------------------------------------------|---------------------|
 | Müügitellimuse päise dokumendi manused    | Marginaalid         |
 | Kliendi manused                       | Marginaalid         |
@@ -274,7 +274,7 @@ Topeltkirjutuse varahalduse pakett sisaldab lahendusi ja vastekaarte, mida on va
 
 Selles paketis on saadaval järgmised vastekaardid.
 
-| Finance and Operationsi rakendused                           | Klientide kaasamise rakendused                |
+| Finance and Operations rakendused                           | Klientide kaasamise rakendused                |
 |-------------------------------------------------------|-----------------------------------------|
 | Varahalduse garantii                             | msdyn_warranties                        |
 | Varahalduse mudelid                               | msdyn_models                            |
@@ -344,3 +344,4 @@ Topeltkirjutuse osapoole ja globaalse aadressiraamatu lahendused sõltuvad järg
 - Topeltkirjutuse rakenduse tuumpakett
 - Topeltkirjutuse finantspakett
 - Topeltkirjutuse tarneahela pakett
+

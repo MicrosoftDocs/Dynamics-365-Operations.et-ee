@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: 4b63ac8a09efb9ab449b651d030bd14a24d5cc36
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b81eb8e0be4c7d7357a6b8b7b5f0ac025b9ab8ca
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8850060"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124254"
 ---
 # <a name="alerts-overview"></a>Teatiste ülevaade
 
@@ -77,13 +77,13 @@ Teatisereegel koosneb viiest osast.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3DWZ3]
 
-Video [Kuidas kasutada teatisi filtreeritud andmete jälgimiseks](https://youtu.be/ZYKMcv6kl9s) (eespool näidatud) on lisatud [Finance and Operationsi esitusloendisse](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW), mis on saadavalYouTube'is.
+Teatiste [kasutamine filtreeritud andme video jälgimiseks](https://youtu.be/ZYKMcv6kl9s) (vt ülal kuvatud) [sisaldub finantsis ja toimingutes, mille](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) kohta on saadaval YouTube.
 
 ### <a name="alert-rule-options"></a>Teatise reegli valikud
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3E4PV]
 
-Video [Teatise reegli valikud](https://youtu.be/cpzimwOjicM) (eespool näidatud) on lisatud [Finance and Operationsi esitusloendisse](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW), mis on saadaval YouTube'is.
+Teatisereegli [valikute](https://youtu.be/cpzimwOjicM) video (vt ülalpool) on kaasatud saadaolevasse [finantside ja toimingute](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) sse YouTube.
 
 
 

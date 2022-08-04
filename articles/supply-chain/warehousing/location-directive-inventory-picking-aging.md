@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 34ce119ca70596f0e40797c4b44a8fba4d5b7e0e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.openlocfilehash: 8b75907d01a029da1ed6a8224f8a7c0ca0230550
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8885692"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068666"
 ---
 # <a name="location-directive-inventory-picking-aging"></a>Asukohakorralduse varude komplekteerimise ajaline jaotus
 
@@ -82,7 +82,7 @@ Need demoandmed nõuavad varude kohandamist nende stsenaariumide toetamiseks. J�
 
 1. Valige **OK**, et rakendada oma sätted ja sulgeda päringu dialoogiboks.
 1. Oma asukohakorralduse muudatuste salvestamiseks valige **Salvesta**.
-1. Järgige mobiilsel seadmel või rakenduses *Dynamics 365 for Finance and Operations – ladustamine* neid etappe olemasolevate varude eemaldamiseks lao asukohast, et toetada stsenaariume.
+1. Järgige mobiilsel seadmel või rakenduses *Dynamics 365 Supply Chain Management – ladustamine* neid etappe olemasolevate varude eemaldamiseks lao asukohast, et toetada stsenaariume.
 
     1. Logige lattu *63* sisse vastava kasutaja ID ja parooli abil.
     1. Valige peamenüüs suvand **Kvaliteet**.

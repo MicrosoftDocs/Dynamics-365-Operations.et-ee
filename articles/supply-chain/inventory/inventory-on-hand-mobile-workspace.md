@@ -15,12 +15,12 @@ ms.search.industry: Manufacturing
 ms.author: yufeihuang
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: d493164b754b86a9df9ce4dcf9df8b20eeb55c5c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 640a45e29627ffe56535c7d05419309688e8ecb6
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8859426"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069812"
 ---
 # <a name="inventory-on-hand-mobile-workspace"></a>Vaba kaubavaru mobiilne tööruum
 
@@ -29,7 +29,7 @@ ms.locfileid: "8859426"
 
 See artikkel annab teavet mobiilse **laoseisu tööruumi** kohta. See tööruum aitab saada alati ja kõikjal ülevaateid reserveeritud ning vabadest kaubavarudest.
 
-See mobiilses tööruum on mõeldud kasutamiseks koos Rakenduse Finantsid ja toimingud (Dynamics 365) mobiilirakendusega.
+See mobiilses tööruum on mõeldud kasutamiseks koos finantside ja toimingute (Dynamics 365) mobiilirakendusega.
 
 ## <a name="overview"></a>Ülevaade
 Tavaliselt on ettevõtetel iga päev mitu laosaadetist ja sissetulekut. Need liikumised muudavad pidevalt vaba kaubavaru olekut. Mobiilne tööruum **Vaba kaubavaru** aitab näha ettevõtteülest vaba kaubavaru olekut, et saaksite enda valitud mobiilsel seadmel viimaseid ülevaateid varude andmetest. Olenemata sellest, kas töötate laos, ostu- või müügiosakonnas, tootmises või juhtkonnas või teil on muud rollid, pääsete vaba kaubavaru andmetele alati ja kõikjal juurde. 
@@ -131,3 +131,4 @@ Laadige alla ja installige finantside ja toimingute (Dynamics 365) mobiilirakend
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

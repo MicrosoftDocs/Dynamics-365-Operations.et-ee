@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 24d4a722ee143dc0869f758475aaf377e7a9e084
-ms.sourcegitcommit: 78576abe5c7cbab1bb69d26c999b038e8c24873a
+ms.openlocfilehash: 817d7db5952f96fa741671166d88fffddaac84e9
+ms.sourcegitcommit: 5b34b41ae74269ba639e2876bc5862ef468da1cc
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "8954517"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "9166835"
 ---
 # <a name="tax-calculation-overview"></a>Maksuarvutuse ülevaade
 
@@ -29,7 +29,7 @@ Maksuarvestus on hüperskaleeritav mitmetasandiline teenus, mis võimaldab globa
 Maksuarvutus integreerub Dynamics 365 Finantside ja .finantsiga Dynamics 365 Supply Chain Management. Lõpuks integreerub see ka Dynamics 365 Project Operations Dynamics 365 Commerce ja teiste esimese ja kolmanda osapoole rakendustega.
 
 > [!IMPORTANT]
-> Kui lubate maksuarvestuse teenuse, võidakse teha mõningaid seotud andmete toiminguid andmekeskuses, mis ei ole andmekeskus, mis haldab teie teenuse andmeid. Vaadake [Reeglid ja tingimused](../../fin-ops-core/fin-ops/get-started/public-preview-terms.md) üle enne maksuarvutamise lubamist. Teie privaatsus on meie jaoks oluline. Lisateabe saamiseks lugege meie [privaatsusavaldust](https://go.microsoft.com/fwlink/?LinkId=521839).
+> Kui lubate maksuarvestuse teenuse, võidakse teha mõningaid seotud andmete toiminguid andmekeskuses, mis ei ole andmekeskus, mis haldab teie teenuse andmeid. Vaadake [Reeglid ja tingimused](https://go.microsoft.com/fwlink/?linkid=2156043) üle enne maksuarvutamise lubamist. Teie privaatsus on meie jaoks oluline. Lisateabe saamiseks lugege meie [privaatsusavaldust](https://go.microsoft.com/fwlink/?LinkId=521839).
 
 Maksu arvutamine on mikroteenustel põhinev maksumootor, mis pakub astmelist skaleeritavust ja aitab täita järgmisi ülesandeid:
 

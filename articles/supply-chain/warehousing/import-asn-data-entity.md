@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2021-06-04
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 0ac45e070d0473547c48da1380377de3d4bf60bd
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 66ed258ebddaadb5a306f41dea3e439e9b5a7be3
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907112"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065857"
 ---
 # <a name="import-inbound-asns-through-the-v3-data-entity"></a>Sissetulevate ASN-ide importimine V3 andmeüksuse kaudu
 
@@ -29,7 +29,7 @@ ASNid aitavad laotöötajatel teada saada, mis millal saabub. Seetõttu saavad n
 See artikkel sisaldab stsenaariumite kogumeid, mis näitavad näidete kaudu, kuidas ASN-failidega töötada.
 
 > [!IMPORTANT]
-> *Sissetulev ASN*-i import rakendub ainult kaupadele, mis on lubatud täpsemaks laohalduseks (WMS). Enne ASN-i saamist tuleb süsteemis registreerida ostutellimus selle hankija vastu, kes ASN-i saadab.
+> *Sissetulev ASN-i* import kehtib ainult kaupadele, mis on lubatud laohaldusprotsessidele (WMS). Enne ASN-i saamist tuleb süsteemis registreerida ostutellimus selle hankija vastu, kes ASN-i saadab.
 
 ## <a name="inbound-asn-v3-entity"></a>Sissetulev ASN V3 olem
 

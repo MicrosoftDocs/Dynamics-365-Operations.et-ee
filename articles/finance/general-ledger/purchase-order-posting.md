@@ -10,12 +10,12 @@ ms.search.form: InventPosting, InventTrans
 audience: Application User
 ms.search.region: Global
 ms.author: raprofit
-ms.openlocfilehash: 0793c58b07d2c0a133e1a5bc0607483f22206b95
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 38a9e2740232b18255109ba867fcdddd5b890774
+ms.sourcegitcommit: 9310c943ac76896663e5604209034da9f8d6139c
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849927"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "9151028"
 ---
 # <a name="purchase-order-posting"></a>Ostutellimuse sisestamine
 
@@ -91,12 +91,12 @@ Järgmine tabel näitab vaikimisi sisestamistüüpide näiteid koos näidis põh
 > Põhikontod ja põhikonto nimed on ainult soovitused. Soovitame<!--note from editor: Via Writing Style Guide.--> , et töötate koos raamatupidajaga, et määrata oma ärivajaduste parim konfiguratsioon.
 
 
-| Sisestamistüüp | Põhikonto näide | Põhikonto nime näide | Konto tüüp | Deebet/kreedit? | Kliiringukonto | Ette/tagasi | Järgige | Kirjeldus |
+| Sisestamistüüp | Põhikonto näide | Põhikonto nime näide | Konto tüüp | Deebet/kreedit? | Kliiringukonto | Ette/tagasi | Järgnema | Kirjeldus |
 |--------------|---------------------|-------------------------|----------------|----------------|--------------------|----|----------|-----------|
-| Saadud ostetud materjalide kulu | 140100</br>140101 | Materjalide laoseis</br>Saadetud, arveldamata materjalid | Vara | Deebet | Jah | P | Arveldatud ostetud materjalide kulu | Kasutatakse ostutellimuse toote sissetuleku sisestamisel. Konto vastaskonto on ostu kulu, arvelt eemaldamata. Selle konto summa tühistatakse ostutellimuse arve sisestamisel. |
+| Saadud ostetud materjalide kulu | 140100</br>140101 | Materjalide laoseis</br>Saadetud, arveldamata materjalid | Vara | Deebet | Jah | P | Arveldatud ostetud materjalide kulu | Kasutatakse ostutellimuse toote sissetuleku sisestamisel, vastaskontoks on ostu kulu, arvelt eemaldamata. Selle konto summa tühistatakse ostutellimuse arve sisestamisel. |
 | Ostu kulud, arvele taatamata | 600180 | Materjali sissetulekud | Kulu | Deebet | Jah | P | |Kasutatakse ostutellimuse toote sissetuleku sisestamisel. Sissetuleku jaoks luuakse kaks kannet ostuhinna hälvete jälgimiseks, kui kasutatakse standardkulu. Esimese kande vastaskontoks on ostu viitvõlg. Teise kande vastaskonto on saadud materjalide omahinna ja ostuhinna hälbe kontode summa. Sellele kontole sisestatud summad tühistatakse ostutellimuse arve sisestamisel. |
 | Arveldatud ostetud materjalide kulu | 140100 | Materjalide laoseis | Vara | Deebet | Nr | R  |Saadud ostetud materjalide kulu | Kasutatakse ostutellimuse arve sisestamisel. Selle konto vastaskonto on toote ostu kulu. See konto tähistab teie bilansikonto varusid. Kasutatav konto on tavaliselt sama, mida kasutatakse tarnitud ühikute omahinna ja müügitellimuse arveldatud ühikute omahinna puhul. |
-| Toote ostu kulu | 600180 | Materjalide sissetulek | Kulu | Krediit | Nr | R  | |Kasutatakse ostutellimuse arve sisestamisel. Selle konto vastaskonto on ostetud materjalide kulu. See konto tähistab teie bilansikonto varusid. |
+| Toote ostu kulu | 600180 | Materjalide sissetulek | Kulu | Krediit | Jah | R  | |Kasutatakse ostutellimuse arve sisestamisel. Arve jaoks luuakse kaks kannet ostuhinna hälvete jälgimiseks, kui kasutatakse standardkulu. Selle konto vastaskonto on Ostu kulu, arveldamata konto, mida kasutatakse sissetuleku sisestamisel ja mis tühistatakse arve sisestamisel. Tähistab arveldamisel ostetud varude kulusid, mis ei kajastu bilansi laokontol. See on kasumi ja kahjumi sisestamine ostuhinna hälbe jaoks, mis on kõige sagedamini kasutatavad standardkulu kauba ostudes.|
 | Fikseeritud jaehinna kasum (ost, fikseeritud jaehinna kasum*) | 510310 | Ostuhinna erinevus | Kulu | Krediit | Nr | R | Fikseeritud jaehinna kahjum | Kasutatakse ostutellimuse arve sisestamisel ning arveldatud hinna ja kauba vaikekulu vahel on erinevus. Seda kontot kasutatakse siis, kui erinevus on suurem. Selle konto vastaskonto on fikseeritud jaehinna vastaskonto. |
 | Fikseeritud jaehinna kahjum (ost, fikseeritud jaehinna kahjum*) | 510310 | Ostuhinna erinevus | Kulu | Deebet | Nr | R | Fikseeritud jaehinna kasum | Kasutatakse ostutellimuse arve sisestamisel ning arveldatud hinna ja kauba vaikekulu vahel on erinevus. Seda kontot kasutatakse siis, kui erinevus on väiksem. Selle konto vastaskonto on fikseeritud jaehinna vastaskonto. |
 | Fikseeritud jaehinna vastaskonto (ost, fikseeritud jaehinna vastaskonto*) | 140900 | Lao muudatus | Vara | Mõlemad | Nr | R  | |Kasutatakse ostutellimuse arve sisestamisel ning arveldatud hinna ja kauba vaikekulu vahel on erinevus. See konto on vastaskonto fikseeritud jaehinna kasumi- ja kahjumikontodele. |

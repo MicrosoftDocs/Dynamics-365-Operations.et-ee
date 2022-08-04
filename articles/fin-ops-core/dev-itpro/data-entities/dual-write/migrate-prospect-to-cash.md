@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-26
-ms.openlocfilehash: 8e5c11e535bd61e9955a4abf1491e88991ee40f1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 91cc0e59405bc085e09f01f05ef02e4a0260481e
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8894262"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111890"
 ---
 # <a name="migrate-prospect-to-cash-data-from-data-integrator-to-dual-write"></a>Potentsiaalne klient sularahaks andmete migreerimine andmeintegraator topeltkirjutusse
 
@@ -32,7 +32,7 @@ Peate selle käsitsi installima. Pärast installimist jääb kõik täpselt sama
 
 Teie potentsiaalne klient sularahaks andmete migreerimiseks andmeintegraatorist topeltkirjutusse tehke järgmist.
 
-1. Käivitage potentsiaalne klient sularahaks andmeintegraatori tööd, et teha üks lõplik täielik sünkroonimine. Sel viisil tagate, et mõlemas süsteemis (Finantside ja toimingute rakendused ja kliendi kaasamise rakendused) on kõik andmed.
+1. Käivitage potentsiaalne klient sularahaks andmeintegraatori tööd, et teha üks lõplik täielik sünkroonimine. Sel viisil tagate, et mõlemas süsteemis (finantside ja toimingute rakendused ning kliendi kaasamise rakendused) on kõik andmed.
 2. Potentsiaalse andmekao vältimiseks eksportige potentsiaalne klient sularahaks andmed rakendusest Microsoft Dynamics 365 Sales Exceli faili või komaga eraldatud väärtustega (CSV) faili. Eksportige andmed järgmistest üksustest.
 
     - [Konto](#account-table)
@@ -47,25 +47,25 @@ Teie potentsiaalne klient sularahaks andmete migreerimiseks andmeintegraatorist 
 
 3. Potentsiaalse kliendi sularahaks lahenduse desinstallimine rakenduse Sales keskkonnast. See etapp eemaldab veerud ja vastavad andmed, mille potentsiaalne klient sularahaks lahenduse jaoks juurutas.
 4. Installige topeltkirjutuse lahendus.
-5. Looge topeltkirjutusega ühendus finantside ja toimingute rakenduse ja kliendi kaasamise rakenduse vahel ühele või mitmele juriidilisele isikule.
+5. Looge topeltkirjutusega ühendus ühe või mitme juriidilise isiku finantside ja operatsioonide rakenduse ja kliendi kaasamise rakenduse vahel.
 6. Lubage topeltkirjutustabeli kaardid ja käivitage nõutud viiteandmete esialgne sünkroonimine. (Lisateavet vt teemast [Algse sünkroonimise kaalutlused](initial-sync-guidance.md).) Nõutavate andmete näidete hulka kuuluvad kliendigrupid, maksetingimused ja maksegraafikud. Ärge lubage topeltkirjutuse kaarte tabelitele, mis nõuavad lähtestamist, nt konto, pakkumise, pakkumise rea, tellimuse ja tellimuse rea tabelid.
 7. Avage kliendi kaasamise rakenduses **Täpsemad sätted \> Süsteemi sätted \> Andmehaldus \> Duplikaadi tuvastamise reeglid** ja keelake kõik reeglid.
 8. Lähtestage 2. etapis loetletud tabelid. Juhiseid vt selle artikli ülejäänud jaotistest.
-9. Avage rakendus Finantsid ja toimingud ning lubage tabeli vastekaardid, nt konto, pakkumise, pakkumise rea, tellimuse ja tellimuserea tabeli vastekaardid. Seejärel käivitage algne sünkroonimine. (Lisateavet vt teemast [Esmase sünkroonimise kaalutlused](initial-sync-guidance.md).) See protsess sünkroonib lisateabe rakendusest Finantsid ja Toimingud, nt töötlemise olek, saatmise ja arveldamise aadressid, saidid ja laod.
+9. Avage finantside ja toimingute rakendus ning lubage tabelikaardid, nt konto, pakkumise, pakkumise rea, tellimuse ja tellimuserea tabeli vastekaardid. Seejärel käivitage algne sünkroonimine. (Lisateavet vt teemast [Esmase sünkroonimise kaalutlused](initial-sync-guidance.md).) See protsess sünkroonib lisateabe finantside ja toimingute rakendusest, nagu töötlemise olek, saatmise ja arveaadressid, saidid ja laod.
 
 ## <a name="account-table"></a>Konto tabel
 
 1. Sisestage veergu **Ettevõte** ettevõtte nimi, nt **USMF**.
 2. Veerus **Suhte tüüp** sisestage staatilise väärtusena **klient**. Te ei pruugi soovida iga kontokirjet oma äriloogikas kliendina klassifitseerida.
-3. Sisestage **kliendigrupi ID** veerus kliendigrupi number rakendusest Finantsid ja toimingud. Potentsiaalse kliendi sularahaks lahenduse vaikeväärtus on **10**.
-4. Kui kasutate valikut potentsiaalne klient sularahaks ilma **kontonumbrit** kohandamata, sisestage **kontonumbri** väärtus veergu **Osapoole number**. Kui kohandused on olemas ja te ei tea osapoolenumbrit, tõmbage see teave rakendusest Finantsid ja toimingud.
+3. Veerus Kliendigrupi **ID** sisestage kliendigrupi number finantside ja toimingute rakendusest. Potentsiaalse kliendi sularahaks lahenduse vaikeväärtus on **10**.
+4. Kui kasutate valikut potentsiaalne klient sularahaks ilma **kontonumbrit** kohandamata, sisestage **kontonumbri** väärtus veergu **Osapoole number**. Kui kohandused on olemas ja te ei tea osapoole numbrit, tõmbage see teave finantside ja toimingute rakendusest.
 
 ## <a name="contact-table"></a>Kontakti tabel
 
 1. Sisestage veergu **Ettevõte** ettevõtte nimi, nt **USMF**.
 2. Määrake järgmised veerud, mis põhinevad CSV-faili **IsActiveCustomer** väärtusel.
 
-    - Kui **IsActiveCustomer** on määratud CSV-failis väärtusele **Jah**, määrake veeru **Müüdav** väärtuseks **Jah**. Sisestage **kliendigrupi ID** veerus kliendigrupi number rakendusest Finantsid ja toimingud. Potentsiaalse kliendi sularahaks lahenduse vaikeväärtus on **10**.
+    - Kui **IsActiveCustomer** on määratud CSV-failis väärtusele **Jah**, määrake veeru **Müüdav** väärtuseks **Jah**. Veerus Kliendigrupi **ID** sisestage kliendigrupi number finantside ja toimingute rakendusest. Potentsiaalse kliendi sularahaks lahenduse vaikeväärtus on **10**.
     - Kui **IsActiveCustomer** on CSV-failis seatud väärtusele **Ei**, määrake veeru **Müüdav** väärtuseks **Ei** ja määrake veeru **Kontakt** väärtuseks **Klient**.
 
 3. Kui kasutate lahendust potentsiaalne klient sularahaks ilma **kontaktinumbrit** kohandamata, määrake järgmised veerud.
@@ -76,7 +76,7 @@ Teie potentsiaalne klient sularahaks andmete migreerimiseks andmeintegraatorist 
 
 ## <a name="invoice-table"></a>Arve tabel
 
-Kuna arve tabeli andmed **on** mõeldud ühe viisi voogu voogu, alates Finantside ja toimingute rakendusest kliendikogemuse rakendusesse, pole lähtestamine vajalik. Käivitage esialgne sünkroonimine, et migreerida kõik nõutavad andmed Rakendusest Finantsid ja toimingud kliendikogemuse rakendusse. Lisateavet vt teemast [Algse sünkroonimise kaalutlused](initial-sync-guidance.md).
+Kuna arve tabeli andmed **on** mõeldud ühe viisi voogu voogu, alates finantside ja toimingute rakendusest kuni kliendi kaasamise rakenduseni, pole lähtestamine vajalik. Käivitage esialgne sünkroonimine, et migreerida kõik nõutavad andmed finantside ja toimingute rakendusest kliendikogemuse rakendusse. Lisateavet vt teemast [Algse sünkroonimise kaalutlused](initial-sync-guidance.md).
 
 ## <a name="order-table"></a>Tellimuse tabel
 
@@ -94,7 +94,7 @@ Kuna arve tabeli andmed **on** mõeldud ühe viisi voogu voogu, alates Finantsid
 
 ## <a name="products-table"></a>Toodete tabel
 
-Kuna andmed tabelist **Tooted** on mõeldud ühe viisi voogu, alates Finantside ja toimingute rakendusest kliendikogemuse rakendusesse, pole lähtestamine vajalik. Käivitage esialgne sünkroonimine, et migreerida kõik nõutavad andmed Rakendusest Finantsid ja toimingud kliendikogemuse rakendusse. Lisateavet vt teemast [Algse sünkroonimise kaalutlused](initial-sync-guidance.md).
+Kuna andmed tabelist **Tooted** on mõeldud ühe viisi voogu, alates finantside ja toimingute rakendusest kuni kliendikogemuse rakenduseni, pole lähtestamine vajalik. Käivitage esialgne sünkroonimine, et migreerida kõik nõutavad andmed finantside ja toimingute rakendusest kliendikogemuse rakendusse. Lisateavet vt teemast [Algse sünkroonimise kaalutlused](initial-sync-guidance.md).
 
 ## <a name="quote-and-quote-product-tables"></a>Hinnapakkumise ja hinnapakkumise toodete tabel
 
@@ -102,3 +102,4 @@ Tabeli Pakkumine **puhul** järgige selle artikli varasemas [jaotises Tellimuse]
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

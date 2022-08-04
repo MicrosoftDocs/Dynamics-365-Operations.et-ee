@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f032f95377fdc6f8ec7fbbfa7aadab8fc448be5d
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: fb0fbfcceece2883c32a266bcbe659211b0b56ce
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577764"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069722"
 ---
 # <a name="set-up-a-min-max-replenishment-process"></a>Min-max täiendamisprotsessi seadistamine
 
 [!include [banner](../../includes/banner.md)]
 
-Selles protseduuris kirjeldatakse, kuidas seadistada uut täiendamisprotsessi, mis kasutab minimaalse/maksimaalse täiendamise strateegiat. Kui varud jäävad allapoole minimaalset taset, luuakse töö asukoha täiendamiseks. Protseduur näitab ka seda, kuidas kasutada fikseeritud komplekteerimise asukohti, et lubada uuesti täiendamist isegi siis, kui varud jäävad allapoole minimaalset taset, ja, kuidas lubada täiendamisprotsessi regulaarset käitamist, kasutades pakett-tööd. Neid ülesandeid täidab üldjuhul laohaldur. Saate seda protseduuri käitada USMF-i demoandmete ettevõttes, kasutades allpool olevaid näidisväärtusi, või käitada seda oma andmetega. Kui kasutate oma andmeid, veenduge, et teil on ladu, mis on laohaldusprotsessideks lubatud.
+Selles protseduuris kirjeldatakse, kuidas seadistada uut täiendamisprotsessi, mis kasutab minimaalse/maksimaalse täiendamise strateegiat. Kui varud jäävad allapoole minimaalset taset, luuakse töö asukoha täiendamiseks. Protseduur näitab ka seda, kuidas kasutada fikseeritud komplekteerimise asukohti, et lubada uuesti täiendamist isegi siis, kui varud jäävad allapoole minimaalset taset, ja, kuidas lubada täiendamisprotsessi regulaarset käitamist, kasutades pakett-tööd. Neid ülesandeid täidab üldjuhul laohaldur. Saate seda protseduuri käitada USMF-i demoandmete ettevõttes, kasutades allpool olevaid näidisväärtusi, või käitada seda oma andmetega. Kui kasutate oma andmeid, veenduge, et teil on ladu, mis on lubatud laohaldusprotsessidele (WMS).
 
 
 ## <a name="create-a-fixed-picking-location"></a>Fikseeritud komplekteerimise asukoha loomine

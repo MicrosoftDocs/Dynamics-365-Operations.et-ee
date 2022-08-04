@@ -9,12 +9,12 @@ ms.reviewer: josaw
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-31
-ms.openlocfilehash: 10c5d9eb3f98887be976c2331f4d34530628702c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 02ab3675db0d78efa1e4e43188d79bb1e763a713
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8895272"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111814"
 ---
 # <a name="upgrade-to-the-party-and-global-address-book-model"></a>Üleminek osapoole ja globaalse aadressiraamatu mudelile
 
@@ -24,7 +24,7 @@ ms.locfileid: "8895272"
 
 Andmete [Microsoft Azure tehase mallid](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema) aitavad teil täiendada järgmisi olemasolevaid andmeid topeltkirjutuses osapoolele ja globaalse aadressiraamatu mudelile: **andmed** konto, **·** **kontaktide** ja hankija tabelites ning posti- ja elektroonilised aadressid.
 
-Antud on järgmised kolm Data Factory malle. Need aitavad viia vastavusse nii finantside ja toimingute rakenduste kui ka kliendikogemuse rakenduste andmed.
+Antud on järgmised kolm Data Factory malle. Need aitavad viia vastavusse nii finantside ja toimingute rakenduste kui ka klienditeeninduse rakenduste andmeid.
 
 - **[Osapoole mall](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema/arm_template.json) (täiendage andmeid topeltkirjutusega osapoole-GAB skeemiks/arm_template.json)** – see **mall** **aitab** täiendada osapoole ja kontaktandmeid, mis on **seotud** konto, **kontakti** ja hankija **andmetega.**
 - **[Osapoole postiaadressi](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema/Upgrade%20to%20Party%20Postal%20Address%20-%20GAB/arm_template.json) mall (täiendage andmeid topeltkirjutusega osapoole-GAB skeemiks/täiendage osapoole postiaadressiks - GAB/arm_template.json)** –**see** mall aitab täiendada konto, **·** **kontakti** ja hankija andmetega seotud postiaadresse.
@@ -34,11 +34,11 @@ Protsessi lõpus luuakse järgmised komaga eraldatud failid (.csv).
 
 | Failinimi | Eesmärk |
 |---|---|
-| FONewParty.csv | See fail aitab finantside ja **toimingute** rakenduses luua uusi osapoolekirjeid. |
-| ImpordiFONewPostalAddressLocation.csv | See fail aitab luua uued **postiaadressi asukoha** kirjed rakenduses Finantsid ja toimingud. |
-| ImpordiFONewPartyPostalAddress.csv | See fail aitab finantside ja **toimingute rakenduses** luua uusi osapoole postiaadressi kirjeid. |
-| ImpordiFONewPostalAddress.csv | See fail aitab luua uusi **postiaadressi** kirjeid rakendusest Finantsid ja toimingud. |
-| ImpordiFONewElectronicAddress.csv | See fail aitab luua uued **elektroonilise aadressi** kirjed rakenduses Finantsid ja toimingud. |
+| FoNewParty.csv | See fail aitab luua uusi **osapoole kirjeid** finantside ja toimingute rakenduses. |
+| ImpordiFONewPostalAddressLocation.csv | See fail aitab luua uued **postiaadressi asukoha** kirjed finantside ja toimingute rakenduses. |
+| ImpordiFONewPartyPostalAddress.csv | See fail aitab luua uued **osapoole postiaadressi** kirjed finantside ja toimingute rakenduses. |
+| ImpordiFONewPostalAddress.csv | See fail aitab luua uusi **postiaadressi** kirjeid finantside ja toimingute rakenduses. |
+| ImpordiFONewElectronicAddress.csv | See fail aitab luua uusi **elektroonilise aadressi** kirjeid finantside ja toimingute rakenduses. |
 
 See artikkel selgitab, kuidas kasutada data factory malle ja uuendada andmeid. Kui te ühtegi kohandust ei tee, saate malle kasutada nii, nagu need on. Kuid kui teil on konto, kontakti **ja** **·** **hankija andmete kohandusi, peate malle muutma selles artiklis kirjeldatud viisil.**
 
@@ -128,7 +128,7 @@ See jaotis kirjeldab seadistust, mida nõutakse enne osapoole postiaadressi ja o
 
     | Number | Nimi | Tüüp | Väärtus |
     |---|---|---|---|
-    | 1 | PostiaadressIdPrefix | string | Selle parameetriga lisatakse seerianumber vastloodud postiaadressidele eesliitena. Sisestage kindlasti string, mis ei satu vastuollu postiaadressidega finantside ja toimingute rakendustes ja kliendikogemuse rakendustes. Kasutage näiteks **ADF-PAD-.** |
+    | 1 | PostiaadressIdPrefix | string | Selle parameetriga lisatakse seerianumber vastloodud postiaadressidele eesliitena. Sisestage kindlasti string, mis ei ole vastuolus postiaadressidega finantside ja operatsioonide rakendustes ja kliendikogemuse rakendustes. Kasutage näiteks **ADF-PAD-.** |
 
     ![Vahekaardil Haldamine loodud postalAddressIdPrefix globaalne parameeter.](media/ADF-2.png)
 
@@ -142,8 +142,8 @@ See jaotis kirjeldab seadistust, mida nõutakse enne osapoole postiaadressi ja o
 
     | Number | Nimi | Tüüp | Väärtus |
     |---|---|---|---|
-    | 1 | IsFOSource | Bool | See parameeter määratleb, millised esmased süsteemiaadressid vastuolude korral asendatakse. Kui see väärtus on **tõene**, asendavad finantside ja toimingute rakenduste esmased aadressid kliendikogemuse rakendustes esmased aadressid. Kui väärtus on väär **, asendavad** klienditeeninduse rakenduste esmased aadressid finantside ja toimingute rakenduste esmased aadressid. |
-    | 2 | ElektroonilineAddressIdPrefix | string | See parameeter lisab eesliitena vastloodud elektroonilistele aadressidele seerianumbri. Sisestage kindlasti string, mis ei satu vastuollu finantside ja toimingute rakenduste ja kliendikogemuse rakenduste elektrooniliste aadressidega. Näiteks kasutage ADF-EAD **-**. |
+    | 1 | IsFOSource | Bool | See parameeter määratleb, millised esmased süsteemiaadressid vastuolude korral asendatakse. Kui see väärtus on **tõene**, asendavad finantside ja toimingute rakenduste esmased aadressid kliendikogemuse rakendustes esmased aadressid. Kui väärtus on väär **, asendavad** kliendi kaasamise rakenduste esmased aadressid finantside ja toimingute rakenduste esmased aadressid. |
+    | 2 | ElektroonilineAddressIdPrefix | string | See parameeter lisab eesliitena vastloodud elektroonilistele aadressidele seerianumbri. Sisestage kindlasti string, mis ei satu vastuollu elektrooniliste aadressidega finantside ja operatsioonide rakendustes ja kliendikogemuse rakendustes. Näiteks kasutage ADF-EAD **-**. |
 
     ![IsFOSource ja ElectronicAddressIdPrefix globaalsed parameetrid on loodud vahekaardil Haldamine.](media/ADF-4.png)
 
@@ -167,7 +167,7 @@ See jaotis kirjeldab seadistust, mida nõutakse enne osapoole postiaadressi ja o
 
 2. Veenduge, et vastekaardid on tabelist **msdy_dualwriteruntimeconfig** eemaldatud Dataverse.
 3. Installige [kahekirjutajalised osapoole ja globaalse aadressiraamatu lahendused](https://aka.ms/dual-write-gab) AppSource rakendusest.
-4. Käitage finantside ja toimingute rakenduses esialgne **sünkroonimine** järgmiste tabelite jaoks, kui need sisaldavad andmeid:
+4. Finantside ja toimingute rakenduses käivitage esialgne **sünkroonimine** järgmiste tabelite jaoks, kui need sisaldavad andmeid:
 
     + Tervitused
     + Isiklikud märgitüübid
@@ -269,19 +269,19 @@ See jaotis kirjeldab seadistust, mida nõutakse enne osapoole postiaadressi ja o
 
 8. Importige uued **osapoole** kirjed finantside ja toimingute rakendusse.
 
-    1. Laadige alla **fail FONewParty.csv Azure** Blobi mäluseadmest. Tee on **partybootstrapping/output/FONewParty.csv**.
-    2. Teisendage **fail FONewParty.csv** Exceli faili ja importige Exceli fail finantside ja toimingute rakendusse. Kui CSV-import teie eest töötab, saate importida .csv-faili otse. Olenevalt andmemahust võib selle lõpule viimine võtta mitu tundi. Lisateavet vt [Andmete importimis- ja eksportimistööde ülevaade](../data-import-export-job.md).
+    1. Laadige alla **FONewParty.csv Azure** Blob ladustamise fail. Tee on partybootstrapping **/output/FONewParty.csv**.
+    2. Teisendage **FONewParty.csv fail** Exceli faili ja importige Exceli fail finantside ja toimingute rakendusse. Kui CSV-import teile töötab, saate selle otse .csv importida. Olenevalt andmemahust võib selle lõpule viimine võtta mitu tundi. Lisateavet vt [Andmete importimis- ja eksportimistööde ülevaade](../data-import-export-job.md).
 
     ![Osapoole kirjete Dataverse importimine](media/data-factory-import-party.png)
 
 9. Käitage andmete tehases osapoole postiaadress ja osapoole elektroonilise aadressi mallid üksteise järel.
 
-    + Osapoole postiaadressi malli kõik kliendisessi rakenduse postiaadressi kirjed ja seostab need vastavate konto-, **kontakti**- ja **hankijakirjetega**.**·** Samuti loob see kolm .CSV-faili: ImportFONewPostalAddressLocation.csv, ImportFONewPartyPostalAddress.csv ja ImportFONewPostalAddress.csv.
-    + Osapoole elektroonilise aadressi malli kõik kliendisessi rakenduse elektroonilised aadressid ja seostatakse need vastavate konto-, **kontakti**- ja **hankijakirjetega**.**·** Samuti loob see ühe .CSV-faili: ImportFONewElectronicAddress.csv.
+    + Osapoole postiaadressi malli kõik kliendisessi rakenduse postiaadressi kirjed ja seostab need vastavate konto-, **kontakti**- ja **hankijakirjetega**.**·** Samuti loob see kolm .csv: ImportFONewPostalAddressLocation.csv, ImportFONewPartyPostalAddress.csv ja ImportFONewPostalAddress.csv.
+    + Osapoole elektroonilise aadressi malli kõik kliendisessi rakenduse elektroonilised aadressid ja seostatakse need vastavate konto-, **kontakti**- ja **hankijakirjetega**.**·** See loob ka ühe .csv: ImportFONewElectronicAddress.csv.
 
     ![Osapoole postiaadressi ja osapoole elektroonilise aadressi mallide käitamine](media/ADF-7.png)
 
-10. Finantside ja toimingute rakenduse värskendamiseks nende andmetega peate teisendama .CSV-failid Exceli [töövihikusse ja importima selle Finantside ja Toimingute rakendusse](../data-import-export-job.md). Kui CSV-import teie eest töötab, saate importida .csv-failid otse. Olenevalt mahust võib selle lõpule viimine võtta mitu tundi.
+10. Finantside ja toimingute rakenduse värskendamiseks nende andmetega peate teisendama .csv failid Exceli [töövihikusse ja importima need finantside ja toimingute rakendusse](../data-import-export-job.md). Kui CSV-import teile töötab, saate need otse .csv importida. Olenevalt mahust võib selle lõpule viimine võtta mitu tundi.
 
     ![Õnnestunud import.](media/ADF-8.png)
 
@@ -364,12 +364,12 @@ See jaotis viib teid läbi andme tehasmallide sammude.
 ### <a name="steps-in-the-party-template"></a>Osapoole malli etapid
 
 1. Sammud 1–6 määratlevad ettevõtted, mis on topeltkirjutusega lubatud ja koostetvad nende jaoks filtriklausli.
-2. Sammud 7-1 kuni 7-9 toob andmeid nii rakendusest Finantsid ja Toimingud kui ka kliendikogemuse rakendusest ja etapist, kus andmed uuendatakse.
-3. Sammud 8–9 võrdlevad finantside **ja** toimingute rakenduse ning kliendikogemuse rakenduse vaheliste konto-, **·** **kontakti**- ja hankijakirjete osapoolenumbrit. Kõik osapoolenumbrita kirjed jäetakse vahele.
-4. 10. etapp loob kaks .CSV-faili osapoolekirjetele, mis tuleb luua kliendis kaasamisrakenduses ja finantside ja toimingute rakenduses.
+2. Sammud 7-1 kuni 7-9 toob andmeid nii finantside ja toimingute rakendusest kui ka kliendikogemuse rakendusest ja etapist, kus andmed on versioonitäienduseks.
+3. Sammud 8–9 võrdlevad finantside **ja** operatsioonide rakenduse ning kliendi kaasamise rakenduse vaheliste konto-, **·** **kontakti**- ja hankijakirjete osapoolenumbrit. Kõik osapoolenumbrita kirjed jäetakse vahele.
+4. 10. etapp loob .csv faili osapoolekirjetele, mis tuleb luua Customer Engagementi rakenduses ja finantside ja toimingute rakenduses.
 
-    - **FOCDSParty.csv** – see fail sisaldab kõigi mõlema süsteemi osapoolekirjeid, sõltumata sellest, kas ettevõte on lubatud topeltkirjutuse jaoks.
-    - **FONewParty.csv** – Dataverse see fail sisaldab osapoolekirjete alamkogumit, **mida on teada (nt potentsiaalse kliendi tüübi kontod**).
+    - **FOCDSParty.csv** – see fail sisaldab mõlema süsteemi kõiki osapoolekirjeid, sõltumata sellest, kas ettevõte on lubatud topeltkirjutuse jaoks.
+    - **FONewParty.csv** – Dataverse see fail sisaldab pakutavate osapoolekirjete alamkogumit (**nt potentsiaalse kliendi tüübi kontosid**).
 
 5. 11. etapp loob osapooled kliendi kaasamise rakenduses.
 6. 12. etapp toob kliendikogemuse rakendusest globaalselt kordumatud ID-d (GUID-d) **ja etapid, et neid saaks seostada järgmiste sammudega konto-,** **·** **kontakti- ja hankijakirjetega.**
@@ -382,12 +382,12 @@ See jaotis viib teid läbi andme tehasmallide sammude.
 
 ### <a name="steps-in-the-party-postal-address-template"></a>Osapoole postiaadressi malli etapid
 
-1. Sammud 1-1 kuni 1-10 toob andmeid nii rakendusest Finance and Operations kui ka kliendikogemuse rakendusest ja etapist, kus andmed uuendatakse.
-2. 2. etapp normaliseerib postiaadressi andmed finantside ja toimingute rakenduses postiaadressi ja osapoole postiaadressi ühendamisega.
+1. Sammud 1-1 kuni 1-10 toob andmeid nii finantside ja toimingute rakendusest kui ka kliendikogemuse rakendusest ja etapist, kus andmed uuendatakse.
+2. 2. etapp normaliseerib postiaadressi andmed finantside ja operatsioonide rakenduses postiaadressi ja osapoole postiaadressi ühendamisega.
 3. 3. sammus dedlikatsioonid ja ühendatakse kliendikogemuse rakenduse konto, kontakti ja hankija aadressiandmed.
-4. 4. etapp loob Finantside ja toimingute rakendusele .CSV-failid, et luua uued aadressiandmed, mis põhinevad konto, kontaktil ja hankija aadressidel.
-5. Sammuga 5-1 luuakse .CSV-failid customer Engagementi rakendusele, et luua kõik aadressiandmed, põhinedes nii Finantside ja Toimingute rakendusel kui ka klienditeeninduse rakendusel.
-6. 5.2. etapp teisendab .CSV-failid käsitsi importimiseks Finantside ja toimingute impordivormingusse.
+4. 4. sammus .csv finantside ja toimingute rakenduse jaoks uued failid, et luua uued aadressiandmed, mis põhinevad konto, kontakti ja hankija aadressidel.
+5. Sammuga 5-1 .csv kliendi kaasamise rakendusele failid, et luua kõik aadressiandmed, mis põhinevad nii finantside kui ka toimingute rakendusel ja kliendi kaasamise rakendusel.
+6. 5.2. etapp teisendab .csv faili käsitsi importimiseks finantside ja toimingute impordivormingusse.
 
     - ImpordiFONewPostalAddressLocation.csv
     - ImpordiFONewPartyPostalAddress.csv
@@ -401,23 +401,23 @@ See jaotis viib teid läbi andme tehasmallide sammude.
 
 ### <a name="steps-in-the-party-electronic-address-template"></a>Osapoole elektroonilise aadressi malli etapid
 
-1. Etapid 1–1–5 toob andmeid nii rakendusest Finantsid ja Toimingud kui ka kliendikogemuse rakendusest ja etapist, kus andmed on versioonitäienduseks.
+1. Etapid 1–1–5 toob andmeid nii finantside ja toimingute rakendusest kui ka kliendikogemuse rakendusest ja etapist, kus andmed on versioonitäienduseks.
 2. 2. etapp konsolideerib kliendi kaasamise rakenduse elektroonilised aadressid konto-, kontakti- ja hankijaüksustest.
-3. 3. etapp ühendab rakendusest Customer Engagement ja Finantside ja Toimingute rakendusest esmased elektroonilised aadressiandmed.
-4. 4. etapp loob .CSV-failid.
+3. 3. etapp ühendab rakendusest Customer Engagement ja finantside ja toimingute rakendusest esmased elektroonilised aadressiandmed.
+4. 4. etapp loob .csv faili.
 
-    - Looge uued elektroonilised aadressiandmed rakenduse Finants ja Toimingud jaoks konto, kontakti ja hankija aadresside alusel.
-    - Looge klienditeeninduse rakendusele uued elektroonilise aadressi andmed, mis põhinevad elektroonilisel aadressil, kontol, kontaktil ja hankija aadressidel rakenduses Finantsid ja toimingud.
+    - Looge uued elektroonilised aadressiandmed finantside ja toimingute rakenduse jaoks, mis põhinevad konto, kontaktil ja hankija aadressidel.
+    - Looge uued elektroonilised aadressiandmed kliendi kaasamise rakenduse jaoks, mis põhinevad elektroonilisel aadressil, kontol, kontaktil ja hankija aadressidel finantside ja toimingute rakenduses.
 
 5. 5.1. etapp impordib elektroonilised aadressid klienditeeninduse rakendusse.
-6. Sammuga 5-2 luuakse .CSV-failid, et värskendada kontode ja kontaktide esmaseid aadresse Customer Engagementi rakenduses.
+6. Sammuga 5-2 .csv rakendusse Customer Engagement kontode ja kontaktide esmaste aadresside värskendamiseks uusi faile.
 7. Sammud 6-1 kuni 6-2 impordikontod ja kontakti esmased aadressid customer Engagementi rakendusse.
 
 ## <a name="troubleshooting"></a>Tõrkeotsing
 
 1. Kui protsess nurjub, käivitage andmete tehas uuesti. Alustage nurjunud tegevusest.
 2. Andmevabiku loodud faile saab kasutada andmete valideerimiseks.
-3. Andmete tehas töötab .CSV-failide põhjal. Kui koma on kaasatud mis tahes välja väärtusesse, võib see olla koos tulemustega. Peate eemaldama väljaväärtustelt kõik komad.
+3. Andme tehas töötab andmefailide .csv põhjal. Kui koma on kaasatud mis tahes välja väärtusesse, võib see olla koos tulemustega. Peate eemaldama väljaväärtustelt kõik komad.
 4. Vahekaart **Seire** annab teavet kõigi töödeldud etappide ja andmete kohta. Valige selle silumiseks kindel juhis.
 
     ![Jälgimise vahekaart.](media/data-factory-monitor.png)
@@ -425,3 +425,4 @@ See jaotis viib teid läbi andme tehasmallide sammude.
 ## <a name="learn-more-about-the-template"></a>Lisateave malli kohta
 
 Lisateavet malli kohta vt kommentaaridest [Azure Data Factory malli lugemiseks](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema/readme.md).
+

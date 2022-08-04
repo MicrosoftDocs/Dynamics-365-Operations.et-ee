@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-04
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: f3d6cd373699d374c019f0db7befaffc169f4f6c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7d6524cb9109263ad62d221ec98e546b962b89ee
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8850434"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067524"
 ---
 # <a name="configure-product-filters-for-warehouse-transactions"></a>Laokannete tootefiltrite konfigureerimine
 
@@ -95,7 +95,7 @@ Kaubagruppidele filtrikoodide seadistamiseks toimige järgmiselt.
     Näiteks kui märgitud on märkeruudud **Kasutaja filtri kood 1** ja **Kasutaja filtri kood 2**, peavad nii filtri kood 1 kui ka filtri kood 2 vastama kaubagrupi filtri grupi seadistusele, enne kui filtri grupi saab valida. Uue kauba loomisel on valitud filtrigrupp vaikimisi filtrigrupp väljadel **Grupp 1** ja **Grupp 2** kiirkaardil **Ladu** lehel **Väljastatud toote üksikasjad**.
 
 > [!IMPORTANT]
-> Tootefiltri koodid on lubatud ainult kaupade puhul, mis kasutavad täpsemat laohaldust.
+> Tootefiltri koodid on lubatud ainult kaupade puhul, mis kasutavad laohaldusprotsesse (WMS).
 
 ## <a name="specify-filter-codes-for-released-products"></a>Väljastatud toodete filtri koodide määramine
 
@@ -158,7 +158,7 @@ Hankija filtrikoodide seadistamiseks toimige järgmiselt.
 1. Väljadel **Kood 1** kuni **Kood 10** valige filtri koodid, mida kasutada kriteeriumidena valitud kaubagrupis hankijatele saadavaolevate kaupade piiramiseks. Valik tuleb teha iga kaubagrupi jaoks seadistatud filtri koodi puhul.
 
 > [!NOTE]
-> Hankija toodetele filtrite häälestus kehtib väljastatud toodetele, kus laohaldusprotsessid on seostatud laoala dimensioonigrupi puhul lubatud. Filtri koode kasutatakse selleks, et määrata, kas süsteem võimaldab kasutajatel ostutellimuse ridade loomisel osta antud kaupa antud hankijalt. Rakenduses Microsoft Dynamics 365 Supply Chain Management on hankija kinnituse käsitlemiseks kaks meetodit. Kui on olemas üks või mitu väljastatud toodet, kus välja **Kinnitatud hankija kontrollmeetod** väärtuseks on seatud *Ainult hoiatus* või *Pole lubatud*, saab nende kaupade puhul lubada mõlemad hankija kinnitamise meetodid. Selline olukord võib põhjustada probleeme, kui kasutajad loovad ostutellimuse ridu.
+> Hankija toote filtrite seadistus kehtib väljastatud toodetele, kus laohaldusprotsessid (WMS) on seostatud laoala dimensioonigrupi puhul lubatud. Filtri koode kasutatakse selleks, et määrata, kas süsteem võimaldab kasutajatel ostutellimuse ridade loomisel osta antud kaupa antud hankijalt. Rakenduses Microsoft Dynamics 365 Supply Chain Management on hankija kinnituse käsitlemiseks kaks meetodit. Kui on olemas üks või mitu väljastatud toodet, kus välja **Kinnitatud hankija kontrollmeetod** väärtuseks on seatud *Ainult hoiatus* või *Pole lubatud*, saab nende kaupade puhul lubada mõlemad hankija kinnitamise meetodid. Selline olukord võib põhjustada probleeme, kui kasutajad loovad ostutellimuse ridu.
 
 ## <a name="see-also"></a>Vt ka
 

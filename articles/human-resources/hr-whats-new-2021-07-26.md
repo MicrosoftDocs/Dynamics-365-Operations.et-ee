@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-07-26
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6c7211135733f45a9841ae5a80607b01999d7c69
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 14041dfc753b508a0d68b90ee99d79510d07e622
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8870925"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070076"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-july-26-2021"></a>Mis on uut ja mida on muudetud rakenduses Dynamics 365 Human Resources (26. juuli 2021)
 
@@ -83,3 +83,4 @@ Plaanitud funktsioonide täieliku loendi ja nende kavandatud väljaannete kohta 
 [Funktsioonide haldamine](hr-admin-manage-features.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

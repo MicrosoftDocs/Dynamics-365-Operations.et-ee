@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: 6f8f43bcdaae9a14350c66039d204caf38d33768
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5c8fa259e51f024d19c1f2f7e84ed7edd0ddb7e1
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8906938"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069024"
 ---
 # <a name="wave-execution-notifications"></a>Voo täitmise teatised
 
@@ -28,7 +28,7 @@ ms.locfileid: "8906938"
 
 **Teadete näitamise** nupp (kellukesümbol) navigeerimisriba paremal pool näitab, millal tegevuskeskuse sõnum on praegusele kasutajale saadaval. Kasutaja saab tegevuskeskuse avamiseks ja sõnumite ülevaatamiseks valida nupu **Näita teateid**.
 
-Ärisündmused toimuvad äriprotsesside käivitamisel. Äriprotsessid valmistatud ülesannetest. Äriprotsessi ajal sooritavad seda osalevad kasutajad nende ülesannete täitmiseks äritoiminguid. Ärisündmused on mehhanism, mis võimaldab välissüsteemidel saada teatisi finants- ja operatsioonide rakendustelt. Sel viisil saavad süsteemid sooritada äritoiminguid ja reageerida ärisündmustele. Lisateavet leiate teemast [Ärisündmuste ülevaade](../../fin-ops-core/dev-itpro/business-events/home-page.md).
+Ärisündmused toimuvad äriprotsesside käivitamisel. Äriprotsessid valmistatud ülesannetest. Äriprotsessi ajal sooritavad seda osalevad kasutajad nende ülesannete täitmiseks äritoiminguid. Ärisündmused on mehhanism, mis võimaldab välissüsteemidel võtta vastu teatisi finants- ja operatsioonide rakendustelt. Sel viisil saavad süsteemid sooritada äritoiminguid ja reageerida ärisündmustele. Lisateavet leiate teemast [Ärisündmuste ülevaade](../../fin-ops-core/dev-itpro/business-events/home-page.md).
 
 ## <a name="turn-the-wave-execution-notifications-feature-on-or-off"></a>Voo käivitamise teatiste funktsiooni sisse- või väljalülitamine
 
@@ -125,3 +125,4 @@ Olenevalt teie ärisündmuste seadistusest saate te lõpuks teate voo käivitami
 > Ava voo üksikasjad
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

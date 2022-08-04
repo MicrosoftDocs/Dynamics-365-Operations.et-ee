@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 14a49d1d6c956b37ff9b2bec387615dc75d060e1
-ms.sourcegitcommit: d770f0e6a012675a3027641704be804beb99754b
-ms.translationtype: MT
+ms.openlocfilehash: f740b68128b90fc7c9ce2f74edc4f3c06f03debd
+ms.sourcegitcommit: 5b34b41ae74269ba639e2876bc5862ef468da1cc
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/16/2022
-ms.locfileid: "9022560"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "9167757"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Tootmisosakonna käivitusliidese konfigureerimine
 
@@ -92,9 +92,9 @@ Tarneahela halduse versiooni 10.0.25 puhul lülitatakse see funktsioon vaikimisi
 
 See funktsioon võimaldab töötajatel kasutada tootmispinna käivitamise liidest materjalitarbimise, partiinumbrite ja seerianumbrite registreerimiseks. Mõned tootjad, eriti need, mis on protsessitööstuses, peavad eraldi registreerima materjali hulga, mida tarbitakse iga partii või tootmistellimuse puhul. Töötajad võivad näiteks kaalu kasutada tarbimisel tarbitava materjali kaalu kaalumiseks. Täieliku materjalijälgitavuse tagamiseks peavad need organisatsioonid registreerima ka iga toote tootmiseks tarbitud partiinumbrid.
 
-Funktsioonil on kaks versiooni. Need kaubad toetavad kaupu, mille *puhul ei ole* lubatud kasutada täpsemaid laoprotsesse (WMS). Teised toetavad KAUPU, mis on *WMS-i* kasutamiseks lubatud. Selle funktsiooni kasutamiseks lülitage sisse üks või mõlemad funktsioonihalduses (selles järjekorras) sõltuvalt sellest, kas teil on [WMS](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)-i jaoks lubatud kaupu:
+Funktsioonil on kaks versiooni. Need kaubad toetavad kaupu, mille *puhul ei ole* laohaldusprotsesse (WMS) lubatud. Teised toetavad KAUPU, mis on *WMS-i* kasutamiseks lubatud. Selle funktsiooni kasutamiseks lülitage sisse üks või mõlemad funktsioonihalduses (selles järjekorras) sõltuvalt sellest, kas teil on [WMS](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)-i jaoks lubatud kaupu:
 
-- *(Eelversioon) Materjali tarbimise registreerimine tootmisosakonna täideviimisliideses (mitte-WMS)*
+- *Registreeri materjalitarbimine tootmispinna käivitamise liideses (non-WMS)*
 - *(Eelvaade) Materjalikulu registreerimine tootmisosakonna käivitusliideses (WMS-loaga)*
 
 > [!IMPORTANT]

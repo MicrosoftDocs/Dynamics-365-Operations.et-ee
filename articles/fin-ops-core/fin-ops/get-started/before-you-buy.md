@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 9c2f658fbf7fd4db38d572ff80e9d500b5548e0a
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: fc3cf3b5d28a4e512f921db6ba090dd5731391cc
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713272"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9123978"
 ---
 # <a name="before-you-buy"></a>Enne ostmist
 
@@ -26,13 +26,13 @@ ms.locfileid: "8713272"
 
 Uus rakendusele Dynamics 365 Finance või Dynamics 365 Supply Chain Management Dynamics 365 Commerce? Oleme koostanud üksikasjalikud juhiseid selleks puhuks, kui kas alles kaalute või olete valmis ostu tegema.
 
-## <a name="step-one-try-out-finance-and-operations-free-for-30-days"></a>Esimene etapp: proovige rakendust Finance and Operations tasuta 30 päeva
+## <a name="step-one-try-out-finance-and-operations-free-for-30-days"></a>Esimene etapp: proovige finantse ja toiminguid tasuta 30 päeva jooksul
 
 Saate rakendusi Dynamics 365 for Finance, Dynamics 365 Supply Chain Management või Dynamics 365 Commerce 30 päeva jooksul lihtsalt meili kaudu registreerides proovida. Finantside ja toimingute rakenduste prooviversioonid sisaldavad toimingujuhendite alustamine, mis sisaldavad samm-sammuseid juhiseid, mis võimaldavad teil kindlaid stsenaariume tegevuses vaadata. Toode on saadaval uurimiseks ja harjutamiseks, kuid seda ei saa kohandada. Lisatud on demoandmed, et hõlbustada toote kasutamist ja muuta kasutamine sisukamaks. Kolm päeva enne prooviperioodi lõppu saadetakse meeldetuletusmeil. Vaadake üksikasju teemas [Eelvaatetellimuste saajaks registreerumine](../../dev-itpro/dev-tools/sign-up-preview-subscription.md#subscribe)
 
 ## <a name="step-two-choose-a-deployment-option"></a>Teine etapp: juurutamisvaliku tegemine
 
-Nüüd saate finantside ja toimingute rakendusi juurutada pilve või ettevõttes. Pilvejuurutus pakub ERP-teenust, mida haldab täielikult Microsoft, samas kui kohapealseid juurutusi hallatakse kohapeal kliendi andmekeskuses.
+Nüüd saate finants- ja toimingute rakendusi juurutada pilve või ettevõttes. Pilvejuurutus pakub ERP-teenust, mida haldab täielikult Microsoft, samas kui kohapealseid juurutusi hallatakse kohapeal kliendi andmekeskuses.
 
 Asutusesisese juurutamisvaliku valimisel tuleb kaaluda järgmisi aspekte.
 
@@ -62,7 +62,7 @@ Microsofti pilvelahenduse pakkuja saab teiega tihedat koostööd teha, et mõist
 
 ### <a name="buy-through-a-dynamics-partner-on-premises"></a>Ostmine Dynamicsi partneri kaudu (kohapealselt)
 
-Rakenduse Finance and Operations kohapealseks ostmiseks peate tegema partneriga koostööd. Lisateavet leiate teemast [Finance + Operationsi ostmine (asutusesisene)](purchase-on-premises.md).
+Peate tegema partneriga koostööd, et osta finantse + toiminguid (kohapeal). Lisateavet leiate teemast [Finance + Operationsi ostmine (asutusesisene)](purchase-on-premises.md).
 
 ### <a name="buy-through-volume-licensing-cloud-or-on-premises"></a>Hulgilitsentsimise kaudu ostmine (pilves või kohapealselt)
 
@@ -94,3 +94,4 @@ Kui olete klient, kes täiendab rakenduselt Microsoft Dynamics AX 2012 või migr
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

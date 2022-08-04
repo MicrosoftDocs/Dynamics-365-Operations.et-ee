@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: ff074e62489fe74f0c2de6dae0e02d1da7e7f6ae
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7f34acd78966cc9f26242653e9d0d16fdf22e0b2
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8901904"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103826"
 ---
 # <a name="customer-portal-for-dynamics-365-supply-chain-management-overview"></a>Kliendiportaal Dynamics 365 Supply Chain Managementi ülevaate jaoks
 
@@ -42,7 +42,7 @@ Kliendiportaali mallil on kõik kohandusvõimalused, mida pakub Power Appsi port
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4ylwW]
 
-Video [kliendiportaali malli ülevaade Dynamics 365 Supply Chain Management](https://youtu.be/nPrqoLuHfV8) (vt ülal kuvatud) [sisaldub asukohas Finantsid ja operatsioonid saadaolevas](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) teabes YouTube.
+Video [kliendiportaali malli ülevaade Dynamics 365 Supply Chain Management](https://youtu.be/nPrqoLuHfV8) (vt ülalpool) [sisaldub finantside ja toimingute saadaolevas](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) teabes YouTube.
 
 ## <a name="who-should-use-it"></a>Kes peaks seda kasutama?
 
@@ -62,7 +62,7 @@ Kliendiportaali pakutakse Power Appsi portaalide mallina. See sõltub Power Apps
 
 [Power Appsi portaalid](/powerapps/maker/portals/overview) kujutavad endast funktsiooni, mis võimaldab kasutajatel luua väljapoole suunatud veebisaidi, millesse saavad sisse logida organisatsioonivälised inimesed. Portaalide tegemiseks pole enamasti vaja koodi kirjutada. Kliendiportaal on üks paljudest Microsofti pakutavatest kättesaadavatest [Dynamics 365 portaalimallidest](/powerapps/maker/portals/portal-templates#environment-with-model-driven-apps-in-dynamics-365).
 
-[Topeltkirjutus on](/powerapps/maker/portals/overview) boksist väljas infrastruktuuri toode, mis pakub reaalajas lähedalasuv suhtlust kliendilepete rakenduste ning finantside ja toimingute rakenduste vahel. Topeltkirjutus pakub kahesuunalist integratsiooni finantside ja toimingute rakenduste ning rakenduste vahel Microsoft Dataverse. Seega pakub see rakenduste vahel integreeritud kasutuskogemust. Kliendiportaal sõltub topeltkirjutusega sünkroonitud tabelitest. Enne Supply Chain Managementist pärinevate andmete esitamist kliendiportaalis peab olema topeltkirjutuse funktsioon kõikide asjakohaste tabelite jaoks lubatud.
+[Topeltkirjutus on](/powerapps/maker/portals/overview) boksist väljas infrastruktuuri toode, mis pakub reaalajas juurdepääsu kliendikogemuste rakenduste ning finantside ja toimingute rakenduste vahel. Topeltkirjutus võimaldab finantside ja toimingute rakenduste ning kahesuunalise integratsiooni Microsoft Dataverse. Seega pakub see rakenduste vahel integreeritud kasutuskogemust. Kliendiportaal sõltub topeltkirjutusega sünkroonitud tabelitest. Enne Supply Chain Managementist pärinevate andmete esitamist kliendiportaalis peab olema topeltkirjutuse funktsioon kõikide asjakohaste tabelite jaoks lubatud.
 
 ![Kliendiportaali sõltuvused.](media/customer-portal-elements.png "Kliendiportaali sõltuvused")
 

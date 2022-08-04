@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: v-anamir
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: bcc464a17e27393c5904c59b8439de6ca000d57a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 208cfc91f11d4893785538ce4874e85a5725e993
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8892221"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9109256"
 ---
 # <a name="microsoft-office-style-user-interface-in-business-document-management"></a>Microsoft Office stiili kasutajaliides äridokumendi halduses
 
@@ -36,7 +36,7 @@ Selle artikli näidetes on aktiivne pakkuja Contoso ja te kasutate seda Microsof
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWAVQg]
 
-Äridokumendi [haldus video abil uue äridokumendi loomine](https://youtu.be/gAIYl-mM_pw) (vt ülal kuvatud) [sisaldub](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) teegis Finantsid ja tegevused YouTube.
+Äridokumendi [haldus video abil uue äridokumendi loomine](https://youtu.be/gAIYl-mM_pw) (vt ülal kuvatud) [sisaldub finantsis ja toimingutes, mille](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) kohta on saadaval YouTube.
 
 ## <a name="make-the-new-document-ui-in-business-document-management-available"></a>Tee uus dokumendi kasutajaliides äridokumentide halduses kättesaadavaks
 
@@ -145,3 +145,4 @@ See näide **näitab** **·**, kuidas kasutada nuppu Uus dokument Äridokumendih
 7. Muutmis alustamise kinnitamiseks valige **OK**.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

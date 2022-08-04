@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 50392e8aa0deb568a57e1df59ced70625a4f8a78
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 939066fbf4ab7b316283d406c321f1a7936c187f
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8856044"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066542"
 ---
 # <a name="batch-balancing"></a>Partii tasakaalustamine
 
@@ -149,7 +149,7 @@ Täiteaine tasakaalustatud kogus arvutatakse erinevusena partii suuruse 100 liit
 Partii tasakaalustamise protsessi teostatakse lehel **Partii tasakaalustamine**.
 Valige **Kuluhandlus \> Partiitellimused** ja seejärel valige vahekaardil **Protsess** suvand **Partii tasakaalustamine**. Partii tasakaalustamine on saadaval partiitellimustel, mille olek on **Alustatud**.
 
-Üldjuhul saab partii tasakaalustamist partiitellimustele rakendada siis, kui valemis on vähemalt üks valemirida, kus suvand **Koostisosa tüüp** väärtus on *Aktiivne*. (Selle reegli erandi puhul vt selles artiklis jaotist "Partiitellimused, mida ei saa partii tasakaalustamiseks kasutada".
+Üldjuhul saab partii tasakaalustamist partiitellimustele rakendada siis, kui valemis on vähemalt üks valemirida, kus suvand **Koostisosa tüüp** väärtus on *Aktiivne*. (Selle reegli erandi puhul vt selles artiklis jaotist "Partiitellimused, mida ei saa partii tasakaalustamiseks kasutada".)
 
 Partii tasakaalustamise protsessi saab jagada kaheks alamprotsessiks:
 
@@ -165,22 +165,22 @@ Partii koostisosade tasakaalustamise alamprotsessis arvutatakse tootmispartii ja
 
 ### <a name="confirm-and-release-the-formula"></a>Valemi kinnitamine ja väljastamine
 
-Kui koostisosa kogused on arvutatud, saate valemi kinnitada ja väljstada. Väljastamise protsess erineb olenevalt sellest, kas tooted on laohaldusprotsesside jaoks lubatud.
+Kui koostisosa kogused on arvutatud, saate valemi kinnitada ja väljstada. Vabastamisprotsess erineb olenevalt sellest, kas tooted on laohaldusprotsessides (WMS) lubatud:
 
-- Kui toode on laohaldusprotsesside jaoks lubatud, väljastatakse valemirida lattu laohaldusprotsesside põhimõtete alusel. Valemirida väljastatakse kogustes, mis vastavad tasakaalustatud kogustele ja see väljastatakse kindlatele partiidele, mis on valitud toimeaine jaoks.
+- Kui toode on WMS-i jaoks lubatud, vabastatakse valemirida lattu WMS-i põhimõtete alusel. Valemirida väljastatakse kogustes, mis vastavad tasakaalustatud kogustele ja see väljastatakse kindlatele partiidele, mis on valitud toimeaine jaoks.
 
     > [!NOTE]
     > Valemiread võib lattu väljastada ainult partii tasakaalustamise protsessi osana. Kuigi tootmise jaoks mõeldud materjalide väljastamiseks lattu on ka teisi valikuid, ei saa neid valikuid valemiridade korral kasutada.
 
-- Kui toode ei ole laohaldusprotsesside jaoks lubatud, luuakse valemi kinnitamisel ja väljastamisel toote jaoks tootmise komplekteerimisleht.
+- Kui wmS-i jaoks ei ole toode lubatud, luuakse valemi kinnitamisel ja vabastamisel toote jaoks tootmise komplekteerimisleht.
 
-Saate ühes valemis kombineerida nii tooted, mis on laohaldusprotsesside jaoks lubatud, kui ka tooted, mis pole laohaldusprotsesside jaoks lubatud. Kui ühes valemis kasutatakse neid kahte tüüpi tooteid, väljastatakse lattu tooted, mis on laohaldusprotsesside jaoks lubatud. Toodete jaoks, mis ei ole laohaldusprotsesside jaoks lubatud, luuakse valemi kinnitamisel ja väljastamisel komplekteerimisleht.
+Saate ühes valemis kombineerida nii tooted, mis on laohaldusprotsesside jaoks lubatud, kui ka tooted, mis pole laohaldusprotsesside jaoks lubatud. Kui kahte tüüpi tooted on ühte valemisse kaasatud, vabastatakse WMS-i jaoks lubatud tooted lattu. Tooted, mis ei ole WMS-i jaoks lubatud, luuakse komplekteerimisleht, kui valem on kinnitatud ja vabastatud.
 
 ### <a name="batch-orders-that-arent-applicable-for-batch-balancing"></a>Partii tasakaalustamise jaoks mittesobilikud partiitellimused
 
 Olemas on kaks erandit reeglile, et partiitellimused on sobilikud partii tasakaalustamise jaoks, kui valemis on vähemalt üks valemirida, kus suvandi **Koostisosa tüüp** väärtus on *Aktiivne*.
 
-1. Kui valem sisaldab laohaldusprotsesside jaoks lubatud toote toimeainet, kuid partii number on reserveerimishierarhias allpool asukohta, ei ole partiitellimus partii tasakaalustamiseks sobilik.
+1. Kui valem sisaldab toimeainet tootele, mis on WMS-i jaoks lubatud, kuid partiinumber on reserveerimishierarhias asukohast allpool, ei kehti partiitellimus partii tasakaalustamisel.
 1. Kui valemi mõõtühik erineb toimeaine varude mõõtühikust, ei saa partiitellimust partii tasakaalustamiseks rakendada.
 
 Partiitellimus, mis ei ole partii tasakaalustamiseks sobilik, läbib partiitellimuste tavapärase protsessitsükli.

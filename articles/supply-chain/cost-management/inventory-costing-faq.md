@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2022-05-03
 ms.dyn365.ops.version: 10.0.27
-ms.openlocfilehash: 467839b1d0ca6788a92ae60d46686374d0a58046
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5a1d86e7e9cca159d0a820680714a08dc73c0688
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8850840"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068389"
 ---
 # <a name="inventory-costing-faq"></a>Varude kuluarvestuse KKK
 
@@ -112,11 +112,11 @@ Ei, te ei saa varude dimensiooni grupi **asukohadimensiooni** jaoks **lubada** s
 
 ### <a name="should-i-enable-the-use-warehouse-management-processes-option-for-the-storage-dimension-group"></a>Kas lubada laoala dimensiooni grupile suvand Kasuta laohaldusprotsesse?
 
-Kui te arvate, et te soovite ehk kasutada täpsemaid laohalduse funktsioone tulevikus, peaksite lubama suvandi Kasuta **laohaldusprotsesse**. Pärast laoala dimensiooni grupi salvestamist ei saa te enam muuta sätte Kasuta laohaldusprotsesse **selle** jaoks. Kui otsustate hiljem laohaldusprotsesse kasutada, peate looma uue lao, kus see valik on lubatud. Pole automaatset protsessi, mida saate kasutada kõikide varude teisaldamiseks ühest laost teise lattu või seotud konfiguratsioonide kopeerimiseks uude lattu.
+Kui arvate, et soovite võibolla kasutada laohaldusprotsesside (WMS) funktsioone tulevikus, **peaksite lubama suvandi Kasuta laohaldusprotsesse**. Pärast laoala dimensiooni grupi salvestamist ei saa te enam muuta sätte Kasuta laohaldusprotsesse **selle** jaoks. Kui otsustate hiljem laohaldusprotsesse kasutada, peate looma uue lao, kus see valik on lubatud. Pole automaatset protsessi, mida saate kasutada kõikide varude teisaldamiseks ühest laost teise lattu või seotud konfiguratsioonide kopeerimiseks uude lattu.
 
-### <a name="can-i-enable-the-use-warehouse-management-processes-for-the-storage-dimension-group-even-if-im-not-planning-to-use-advanced-warehousing"></a>Kas lubada laoala dimensioonigrupi puhul kasutada laohaldusprotsesse isegi siis, kui ma ei plaani täpsemat ladustamist kasutada?
+### <a name="can-i-enable-the-use-warehouse-management-processes-for-the-storage-dimension-group-even-if-im-not-planning-to-use-warehouse-management-processes-wms"></a>Kas lubada laoala dimensiooni grupi puhul kasutada laohaldusprotsesse isegi siis, kui ma ei plaani kasutada laohaldusprotsesse (WMS)?
 
-Jah, isegi kui te ei plaani täpsemaid laohalduse funktsioone kasutada, **saate laoala dimensioonigrupile** lubada suvandi Kasuta laohaldusprotsesse. Kannete loomiseks ja töötlemiseks peate lõpule viima minimaalse konfiguratsiooni, nt reserveerimise hierarhiad ja ühiku seeriagrupid. Täpsema ladustamise sätteid eiratakse tavaliselt komplekteerimislehtede, saatelehtede ja toote sissetulekute käsitsi töötlemise korral (nt müügitellimuse ja ostutellimuse lehtedel).
+Jah, isegi kui te ei plaani kasutada laohaldusprotsesside (WMS) funktsioone, **saate** laoala dimensioonigrupile lubada suvandi Kasuta laohaldusprotsesse. Kannete loomiseks ja töötlemiseks peate lõpule viima minimaalse konfiguratsiooni, nt reserveerimise hierarhiad ja ühiku seeriagrupid. WMS-i sätteid eiratakse üldiselt komplekteerimislehtede, saatelehtede ja toote sissetulekute käsitsi töötlemisel (nt müügitellimuse ja ostutellimuse lehtedel).
 
 ### <a name="when-should-i-enable-the-physical-inventory-option-for-a-storage-or-tracking-dimension-group"></a>Millal peaks laoala või jälgimisdimensiooni grupi jaoks lubama füüsilise lao valiku?
 

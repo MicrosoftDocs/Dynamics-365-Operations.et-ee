@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8ad9c91051c1a1140661c93d7c5e86a78de5ec3f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0e53b7667dd4589a7c6c14b8aaf8ba51017eee0d
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8877330"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068326"
 ---
 # <a name="plan-loads-and-shipments-using-the-load-planning-workbench"></a>Koormate ja saadetiste planeerimine koorma planeerimise töölaua abil
 
@@ -38,7 +38,7 @@ See artikkel näitab, kuidas kasutada koorma planeerimise töölauda müügitell
 7. Valige üksus **A0001**. **A0001** on transpordihaldusele lubatud.  
 8. Valige väljal **Koht** ripploendi nupp, et avada otsing, ja seejärel valige üksus.
 9. Sisestage arv väljale **Kogus**.
-10. Selle näite korral sisestage väljale **Ladu** tekst „24“. See ladu võimaldab transpordihaldust ja täiustatud laohaldust.  
+10. Selle näite korral sisestage väljale **Ladu** tekst „24“. See ladu on lubatud transpordihalduse ja laohaldusprotsesside jaoks (WMS).  
 11. Valige käsk **Salvesta**.
 12. Sulgege leht.
 

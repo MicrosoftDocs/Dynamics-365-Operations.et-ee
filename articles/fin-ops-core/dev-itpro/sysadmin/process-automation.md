@@ -2,7 +2,7 @@
 title: Protsessi automatiseerimine
 description: See artikkel annab üksikasju selle kohta, kuidas protsessi automatiseerimine võimaldab pakktöötluse serveri käitatud protsesside lihtsat planeerimist.
 author: RyanCCarlson2
-ms.date: 04/20/2021
+ms.date: 06/29/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: rcarlson
 ms.search.validFrom: 2020-06-30
 ms.dyn365.ops.version: AX 10.0.11
-ms.openlocfilehash: f13392fd6610735f8c539d42b62cf71cece71fba
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: c0015b65f1ff00cfce19139cb8aaa248512d070b
+ms.sourcegitcommit: 3d2c0a39c4f987e9ac71df2f2fa6df0f64f10b2b
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8898605"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9114931"
 ---
 # <a name="process-automation"></a>Protsessi automatiseerimine
 
@@ -30,7 +30,7 @@ Protsessi automatiseerimine võimaldab pakktöötlusserveris käivitatavate prot
 
 Kõigi protsessi automatiseerimiste keskse halduse lehe leiate süsteemihalduse mooduli menüü jaotisest **Häälestus**. Sellel lehel loetletakse kõik süsteemis seadistatud automatiseeritud protsessid (seeriad). Saate lisada ka uusi protsessi automatiseerimisi otse sellelt lehelt. Pärast seeria seadistamist saate selle loendi kaudu hallata kõiki seeriaid. Saate redigeerida tervet seeriat, seda kustutada, vaadata loendivaatest kõiki esinemisi või keelata seeria, kui soovite plaanitud töö mõneks ajaks peatada. 
 
-Funktsioonihalduses keelatud protsesse ei näidata, kui funktsioon on keelatud. Lisaks ei ajasta protsessi automatiseerimise ajastamise mootor keelatud funktsiooni jaoks ühtegi esinemiskorda ega taustaprotsessi. Funktsiooni uuesti lubamisel käivitatakse kohe varem ajastatud esinemiskorrad või taustaprotsessid. Protsessi automatiseerimise plaanimise mootor põhineb süsteemi pakett-tööl **Protsessi automatiseerimise pollimissüsteemi töö** käitamisel. Tööd ei tohi suvalisel ajal muuta ega sellega manipuleerida. 
+Funktsioonihalduses keelatud protsesse ei näidata, kui funktsioon on keelatud. Lisaks ei ajasta protsessi automatiseerimise ajastamise mootor keelatud funktsiooni jaoks ühtegi esinemiskorda ega taustaprotsessi. Funktsiooni uuesti lubamisel käivitatakse kohe varem ajastatud esinemiskorrad või taustaprotsessid. Protsessi automatiseerimise plaanimise mootor põhineb süsteemi pakett-tööl **Protsessi automatiseerimise pollimissüsteemi töö** käitamisel. Tööd ei tohi suvalisel ajal muuta ega sellega manipuleerida. Kui see pakett-töö ei tööta või on see tõrke olekus, valige pakett-töö **lähtestamiseks** suvand Lähtesta protsessi automatiseerimine. See lähtestamine tagab kõigi rakenduse uuemas versioonis väljastatud uute automatiseerimiste lähtestamise. 
 
 ## <a name="calendar-view"></a>Kalendri vaade
 

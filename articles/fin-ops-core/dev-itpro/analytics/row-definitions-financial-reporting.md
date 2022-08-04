@@ -6,21 +6,22 @@ ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: kfend
-ms.custom: 68873
-ms.assetid: 2fd7b5da-700f-48cb-9003-90c0d82f818f
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e175d1e3de1f5db31de9c4600c8a5935f0cb11a9d39bc0f4e142edf5fc00ce86
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.custom:
+- "68873"
+ms.assetid: 2fd7b5da-700f-48cb-9003-90c0d82f818f
+ms.search.form: FinancialReports
+ms.openlocfilehash: a60e66c372d85cc05219eaa17b7924aca5f3f337
+ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745908"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9206314"
 ---
 # <a name="row-definitions-in-financial-report-designer"></a>Readefinitsioonid finantsaruande koosturis
 
@@ -42,7 +43,7 @@ Readefinitsioon on aruande komponent (koosteüksus), mis määrab finantsaruande
 Readefinitsioon võib sisaldada kuni 20 000 finantsdimensiooni rida ja võib sisaldada järgmist teavet.
 
 - Kirjeldav tekst, mis lisab aruandele tähenduse, luues jaotise päiseid, ridu ja tühikuid, nt **Sularaha** või **Kogutulu**
-- Lingid finantsandmete juurde, mille hulka võivad kuuluda Microsoft Dynamics 365 Financei dimensiooniväärtused
+- Lingid finantsandmetele, mis võivad sisaldada dimensiooniväärtusi Microsoft Dynamics 365 Finantsid
 
     > [!NOTE]
     > Saate readefinitsiooni nii seadistada, et see võtab iga kord, kui aruanne luuakse, finantsdimensiooni süsteemist andmeid.

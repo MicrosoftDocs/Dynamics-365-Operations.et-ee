@@ -1,6 +1,6 @@
 ---
 title: Integreeritud kliendi koondandmed
-description: See artikkel kirjeldab kliendiandmete integreerimist Finantside ja Toimingute ning Dataverse.
+description: See artikkel kirjeldab kliendi andmete integreerimist finantside ja toimingute ning Dataverse.
 author: RamaKrishnamoorthy
 ms.date: 07/15/2019
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 042042bb19b32d3c96b4e0c8521a8b1d65e7ab22
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 1b16eab5c107a3176f0890372d397947698e71de
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8890452"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111720"
 ---
 # <a name="integrated-customer-master"></a>Integreeritud kliendi koondandmed
 
@@ -30,7 +30,7 @@ Kliendiandmeid saab luua rohkem kui ühes Dynamics 365 rakenduses. Näiteks klie
 
 ![Kliendiandmete voog.](media/dual-write-customer-data-flow.png)
 
-Kliente saab laias laastus liigitada kahte tüüpi: äri-/organisatsioonikliendid ning tarbijad/lõppkasutajad. Neid kahte tüüpi kliente talletatakse ja käsitletakse rakendustes Finance and Operations ja Dataverse erinevalt.
+Kliente saab laias laastus liigitada kahte tüüpi: äri-/organisatsioonikliendid ning tarbijad/lõppkasutajad. Neid kaht tüüpi kliente ladustatakse ja käsitletakse finantside ja toimingute ning toimingute puhul teisiti Dataverse.
 
 Finantside ja operatsioonide puhul omatakse nii äri-/organisatsioonilised kliendid kui ka kliendid/lõppkasutajad **ühte tabelisse nimega CustTable** (CustCustomerV3Entity) **ja** need klassifitseeritakse tüübi atribuudi alusel. (Kui atribuudiks **Tüüp** on määratud **Organisatsioon**, on klient äri-/organisatsiooniklient, ja kui atribuudiks **Tüüp** on määratud **Isik**, on klient tarbija/lõppkasutaja.) Esmase kontaktisiku teavet töödeldakse tabeli SMMContactPersonEntity kaudu.
 
@@ -57,3 +57,4 @@ Finance and Operations rakendused | Klientide kaasamise rakendused         | Kir
 [Maksetingimused](mapping-reference.md#161) | msdyn_paymentterms | See mall sünkroonib nii klientide kui ka hankijate maksetingimuste viiteandmed.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

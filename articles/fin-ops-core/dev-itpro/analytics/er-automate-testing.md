@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: df2baa988bb634db11d819dd84ef73eaa560bab9
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 6254d15d13e40007396c9f2a36a8cd3122dc2609
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8892765"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9109336"
 ---
 # <a name="automate-testing-with-electronic-reporting"></a>Testimise automatiseerimine elektroonilise aruandluse abil
 
@@ -57,7 +57,7 @@ Funktsionaalsed lauskasutajad saavad teostada kasutajate vastuvõtu ja integreer
 Enne kui saate selles artiklis olevad ülesanded lõpule viia, peate lõpule täitma järgmised eeltingimused:
 
 - Rakendage topoloogiat, mis toetab testimise automatiseerimist. **Süsteemi administraatori** rolli jaoks peab teil olema juurdepääs selle topoloogia eksemplarile. See topoloogia peab sisaldama demo andmeid, mida selles näites kasutatakse. Lisateavet vt [Pideva koostamise ja testimise automaatikat toetavate keskkondade juurutamine ja kasutamine](../perf-test/continuous-build-test-automation.md).
-- Kasutaja vastuvõtu ja integreerimise testide automaatseks teostamiseks peate paigaldama RSATi topoloogiasse, mida kasutate, ja selle sobivalt konfigureerima. Lisainfot RSATi installimise ja konfigureerimise ning Finance and Operations rakenduste ja Azure DevOps'iga toimimise konfigureerimise kohta vt [Regression Suite Automation Tool](https://www.microsoft.com/download/details.aspx?id=57357). Pöörake tähelepanu tööriista kasutamise eeltingimustele. Järgmisel joonisel on näide RSATi seadistuste kohta. Sinine ristkülik ümbritseb parameetrid, mis määravad juurdepääsu Azure DevOps-ile. Roheline ristkülik ümbritseb parameetrid, mis määravad juurdepääsu eksemplarile.
+- Kasutaja vastuvõtu ja integreerimise testide automaatseks teostamiseks peate paigaldama RSATi topoloogiasse, mida kasutate, ja selle sobivalt konfigureerima. Lisateavet RSAT-i installimise ja konfigureerimise kohta ning selle konfigureerimise kohta, et töötada finantside ja toimingute rakendustega Azure DevOps, vt [Regression Suite Automation Tool](https://www.microsoft.com/download/details.aspx?id=57357). Pöörake tähelepanu tööriista kasutamise eeltingimustele. Järgmisel joonisel on näide RSATi seadistuste kohta. Sinine ristkülik ümbritseb parameetrid, mis määravad juurdepääsu Azure DevOps-ile. Roheline ristkülik ümbritseb parameetrid, mis määravad juurdepääsu eksemplarile.
 
     ![RSAT sätted.](media/GER-Configure.png "RSAT-i sätete dialoogiboksi kuvatõmmis")
 

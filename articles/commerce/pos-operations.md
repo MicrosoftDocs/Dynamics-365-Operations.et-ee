@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 23805a88fab34d925241c51ae449bd81e15d5337
-ms.sourcegitcommit: 6616b969afd6beb11a79d8e740560bf00016ea7f
+ms.openlocfilehash: 3948fff15108568df514406ad443d4f538653e62
+ms.sourcegitcommit: 1af2b01aea6b5a4d88ee3fae6faa0eaf1976c5dd
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/17/2022
-ms.locfileid: "9027279"
+ms.lasthandoff: 07/13/2022
+ms.locfileid: "9146481"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Ühendusega ja ühenduseta kassatoimingud
 
@@ -271,7 +271,7 @@ Järgmised veerud näitavad, kus operatsioone käivitatakse.
 | 1218 | Ava perifeerseade sunniviisiliselt                           | Operatsiooni kasutatakse süsteemisiseselt kassa välisseadmete avamiseks.                                                                                                                                           | Pole kohaldatav | Pole kohaldatav     | Pole kohaldatav | Pole kohaldatav    | Nr              |
 | 1219 | URL-i avamine kassas                                   | Administraatori konfigureeritud URL-i avamine kassas.                                                                                                                                                                           | Jah            | Jah                | Jah            | Jah               | Nr              |
 | 1220 | Seifi haldamine                                       | Hallake erinevate kassaaparaatide seifi.                                                                                                                                                                       | Jah            | Jah                | Jah            | Jah               | Nr              |
-| 1221 | Peatatud kannete tühistatud                       | Peatatud kannete tühistatud.                                                                                                                                                                               | Jah            | Jah                | Jah            | Jah               | Nr              |
+| 1221 | Peatatud kannete tühistatud                       | Peatatud kannete tühistatud.                                                                                                                                                                               | Jah            | Nr                | Nr            | Jah               | Nr              |
 | 1300 | Jäta fiskaalüksuse registreerimine vahele                          | Jäta fiskaalregistreerimine vahele.                                                                                                                                                                                       | Nr            | Nr                | Nr            | Jah               | Nr             |
 | 1301 | Märgi finantssündmus registreerituks                      |  Märgib finantssündmuse registreeritud sündmuseks.                                                                                                                                                                                  | Nr            | Nr                | Nr            | Jah               | Nr             |
 | 1302 | Vii fiskaalüksuse registreerimise protsess lõpule              | Fiskaalregistreerimisprotsessi lõpule viimine.                                                                                                                                                                           | Nr            | Nr                | Jah            | Jah               | Jah             |

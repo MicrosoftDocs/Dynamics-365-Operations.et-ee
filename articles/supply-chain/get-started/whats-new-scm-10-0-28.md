@@ -1,5 +1,5 @@
 ---
-title: Dynamics 365 Supply Chain Management 10.0.28 eelvaade (august 2022)
+title: Mis on uut ja mida on muudetud rakenduses Dynamics 365 Supply Chain Management 10.0.28. (august 2022)?
 description: See artikkel kirjeldab funktsioone, mis on Microsoft Dynamics 365 Supply Chain Management 10.0.28 uued või muutunud.
 author: kamaybac
 ms.date: 05/27/2022
@@ -10,19 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-05-27
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 2b129481399897337e960ec2d708d69a563b5435
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7e17127ff6ef6c52034b8aa5e0c8404772363ca9
+ms.sourcegitcommit: 529fc10074b06f4c4dc52f2b4dc1f159c36e8dbc
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8902049"
+ms.lasthandoff: 07/22/2022
+ms.locfileid: "9186515"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10028-august-2022"></a>Dynamics 365 Supply Chain Management 10.0.28 eelvaade (august 2022)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10028-august-2022"></a>Mis on uut ja mida on muudetud rakenduses Dynamics 365 Supply Chain Management 10.0.28. (august 2022)?
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-See artikkel loetleb funktsioonid, mis on Microsofti eelvaate versioonis Dynamics 365 Supply Chain Management 10.0.28 uued või muutunud. Sellel versioonil on järgu number 10.0.1264 see on saadaval järgmises graafikus.
+See artikkel loetleb funktsioonid, mis on Microsofti versioonis Dynamics 365 Supply Chain Management 10.0.28 uued või muutunud. Sellel versioonil on järgu number 10.0.1264 see on saadaval järgmises graafikus.
 
 - **Väljalaske eelversioon:** mai 2022
 - **Väljalaske üldine kättesaadavus (automaatne värskendamine):** juuli 2022
@@ -35,7 +34,7 @@ Järgmises tabelis on loetletud selles versioonis sisalduvad funktsioonid. Võim
 | Funktsiooniala | Funktsioon | Lisateave | Lubaja:   |
 |---|---|---|---|
 | Varud ja logistika | [Väljaminekuga kulude integreerimise üksused kolmandate osapoolte veostele](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/landed-cost-integration-third-party-freight-forwarders) | [Väljalaadimiskulu üksuste ülevaade](../landed-cost/landed-cost-entities-overview.md) | Vaikimisi lubatud |
-| Planeerimine | [Nõudlusepõhiste materjalinõuete planeerimine (DDMRP)](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/demand-driven-material-requirements-planning-ddmrp) | Peagi tulekul | Funktsioonihaldus:<br>*(Eelversioon) Planeerimise optimeerimise DDMRP* |
+| Planeerimine | [Nõudlusepõhiste materjalinõuete planeerimine (DDMRP)](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/demand-driven-material-requirements-planning-ddmrp) | [Nõudlusepõhiste materjalinõuete planeerimise ülevaade](../master-planning/planning-optimization/ddmrp-overview.md) | Funktsioonihaldus:<br>*(Eelversioon) Planeerimise optimeerimise DDMRP* |
 | Planeerimine | [Plaanimise optimeerimise tugi võimelisele/lubadustele (CTP)](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-capable-to-promise-ctp) | Peagi tulekul | Funktsioonihaldus:<br>*(Eelversioon) Planeerimise optimeerimise CTP* |
 | Planeerimine | [Kõlblikkusaja plaanimise optimeerimise tugi](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-shelf-life) | Peagi tulekul | Vaikimisi lubatud |
 
@@ -61,14 +60,14 @@ Oleme hiljuti lisanud või oluliselt värskendanud järgmised spikriartiklid. Ne
 |---|---|
 | Kuluhaldus | [Fikseeritud jaehind](../cost-management/fixed-receipt-price.md) |
 | Kuluhaldus | [Korduma kippuvad küsimused varude kuluarvutuse kohta](../cost-management/inventory-costing-faq.md) |
-| Kuluhaldus | [Sisesta kulukonto raamatupidamispõhimõttesse](../cost-management/post-to-charge-account-accounting-principle.md) |
+| Kuluhaldus | [Kulude kontole sisestamise raamatupidamispõhimõte](../cost-management/post-to-charge-account-accounting-principle.md) |
 | Varud | [Laokande üksikasjad](../inventory/inventory-transactions-details.md) |
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Finantside ja toimingute rakenduste platvormi värskendused
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Platvormi värskendused finantside ja toimingute rakenduste jaoks
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.28 sisaldab platvormivärskendusi. Lisateavet leiate finantside ja [toimingute rakenduste versiooni 10.0.28 platvormi värskendustest (juuni 2022).](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-28.md)
+Microsoft Dynamics 365 Supply Chain Management 10.0.28 sisaldab platvormivärskendusi. Lisateavet vt platvormi värskendustest [versioonile 10.0.28 finantside ja toimingute rakendustest (juuni 2022).](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-28.md)
 
 ### <a name="bug-fixes"></a>Veaparandused
 
@@ -92,3 +91,4 @@ Enne mis tahes funktsiooni eemaldamist tootest teatatakse amortiseerumisest [Dyn
 Murranguliste muudatuste puhul, mis mõjutavad ainult kompileerimise aega, kuid on binaarselt ühilduvad liivakasti- ja tootmiskeskkondadega, on aegumise aeg vähem kui 12 kuud. Need on tavaliselt funktsionaalsed uuendused, mida tuleb teha kompilaatori jaoks.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

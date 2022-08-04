@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e7d8e55fc1293e2b33b15f3862498363a6b23f1f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0449a13989bad45cf0456a2678e5724036d2af3d
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8883412"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070690"
 ---
 # <a name="invoice-automation-for-scanned-documents"></a>Arve automatiseerimine skannitud dokumentide korral
 
@@ -86,7 +86,7 @@ Andmepakettide kaudu imporditud arved saab seostada juriidilise isikuga, mille j
 
 ## <a name="exception-processing"></a>Erandi töötlemine
 
-Stsenaariumide korral, kus hankija arved tulevad Finance and Operationsisse integreerimise kaudu, peab olema Ostureskontro töörühma liikmel lihtne võimalus erandite või nurjunud arvete töötlemiseks ja ootel arvete loomiseks nurjunud arvetest. See hankija arvete erandite töötlemine on nüüd Finance and Operationsi osa.
+Stsenaariumides, kus hankija arved integreerituse kaudu finantsidesse ja toimingutesse tulevad, peab ostureskontro töörühma liige töötlema erandeid või nurjunud arveid ja looma ootel arveid nurjunud arvetest. See hankija arvete erandtöötlemine on nüüd finantside ja toimingute osa.
 
 ### <a name="vendor-invoices-that-failed-to-import-list-page"></a>Hankijaarved, mille loendilehele importimine ei õnnestunud
 
@@ -225,3 +225,4 @@ Vaikimisi, kui kasutaja roll annab mõnel lehel redigeerimisõigused, on kasutaj
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

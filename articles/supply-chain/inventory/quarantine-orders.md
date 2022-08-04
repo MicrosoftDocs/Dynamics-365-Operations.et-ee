@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3ee1ba338d90c6ee9cdc37948061f518040ae1a1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7e18735117d1f671e0efc0947248bbe266fa0ca6
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8869658"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065581"
 ---
 # <a name="quarantine-orders"></a>Vahelaoorderid
 
@@ -31,7 +31,7 @@ See artikkel kirjeldab, kuidas kasutada vahelaoorderid lao blokeerimiseks.
 Garantiitellimused lasevad teil varud blokeerida. Näiteks võib olla vaja kvaliteedikontrolliks kaubad vahelattu paigutada. Karantiinis olevad kaubad edastatakse vahelattu.
 
 > [!NOTE]
-> Edasijõudnud laohalduse protsesside kasutamisel (laohalduse moodulis) kasutatakse garantiitellimuse töötlemist ainult müügi tagastustellimuste puhul.
+> Kui kasutate laohaldusprotsesse (laohalduse moodulis), kasutatakse vahelaoorderi töötlemist ainult tagastusmüügitellimuste puhul.
 
 ## <a name="quarantine-on-hand-inventory-items"></a>Vabade laokaupade paigutamine vahelattu
 

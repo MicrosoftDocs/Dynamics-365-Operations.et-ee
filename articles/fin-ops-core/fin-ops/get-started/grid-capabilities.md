@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 5259e1d7d6c95074337164d8427d7f035e00dbd9
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.openlocfilehash: 07791afb2de670a5b9b910e441395c2949460394
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8890054"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124706"
 ---
 # <a name="grid-capabilities"></a>Ruudustiku võimalused
 
@@ -38,7 +38,7 @@ Uus ruudustiku juhtelement pakub mitmeid kasulikke ja võimsaid võimalusi, mida
 Finantside ja toimingute rakendustes on kasutajatel võimalus näha kogusummasid ruudustike numbriveergude all. Ruudustiku allosas olev jaluse jaotis näitab neid kogusummasid. 
 
 ### <a name="showing-the-grid-footer"></a>Ruudustiku jaluse kuvamine
-Finantside ja toimingute rakenduste iga vahekaardi allosas on jaluse ala. Jalus näitab olulist teavet, mis on seotud ruudustikus kuvatavate andmetega. Siin on mõned näited sellest teabest.
+Finantside ja operatsioonide rakenduste iga vahekaardi allosas on jaluse ala. Jalus näitab olulist teavet, mis on seotud ruudustikus kuvatavate andmetega. Siin on mõned näited sellest teabest.
 
 - Valitud ridade arv tabelis (kui valite rohkem kui ühe kirje)
 - Konfigureeritud arvveergude allosas olevad kogusummad
@@ -86,7 +86,7 @@ Selle uue funktsiooni toetamiseks on rea valimise veeru paremasse osasse lisatud
 Kui kasutajad sisestavad andmeid kohas, kuhu serveritöötlus pole veel jõudnud, võib nende andmesisestuskogemus olla halvem, näiteks puuduvad otsingud, kontrolli tasemel kinnitamine ja vaikeväärtuste sisestamine. Kasutajatel, kellel on väärtuse leidmiseks vaja ripploendit, soovitatakse oodata, kuni server jõuab praegusele reale. Kontrolli tasemel kinnitamist ja vaikeväärtuste sisestamist saab samuti teha, kui server töötleb seda rida.
 
 ### <a name="pasting-from-excel"></a>Kleepimine Excelist
-Kasutajatel on alati olnud võimalik finantside ja toimingute rakenduste ruudustike andmeid eksportida Microsoft Excel, **kasutades Excelisse eksportimise mehhanismi**. Kuid võimalus sisestada andmeid süsteemist ette võimaldab uuel ruudustikul toetada tabelite kopeerimist Excelist ja nende otse finantside ja toimingute rakenduste ruudustikke. Ruudustiku lahter, millelt kleepimistoimingut alustati, määrab, kuhu kopeeritud tabel kleebitakse. Ruudustiku sisu kirjutatakse kopeeritud tabeli sisuga üle, välja arvatud kahel järgmisel juhul.
+Kasutajatel on alati olnud võimalik finantside ja toimingute rakenduste ruudustike andmeid Microsoft Excel eksportida, **kasutades Excelisse eksportimise mehhanismi**. Kuid võimalus sisestada andmeid süsteemist ette võimaldab uuel ruudustikul toetada tabelite kopeerimist Excelist ja nende otse finantside ja toimingute rakenduste ruudustikke. Ruudustiku lahter, millelt kleepimistoimingut alustati, määrab, kuhu kopeeritud tabel kleebitakse. Ruudustiku sisu kirjutatakse kopeeritud tabeli sisuga üle, välja arvatud kahel järgmisel juhul.
 
 - Kui kopeeritud tabeli veergude arv ületab kleepimise asukohast alates ruudustikku jäävate veergude arvu, teavitatakse kasutajat, et lisaveergusid eirati. 
 - Kui kopeeritud tabeli ridade arv ületab kleepimise asukohast alates ruudustiku ridade arvu, kirjutatakse olemasolevad lahtrid kleebitud sisuga üle ja kõik kopeeritud tabeli lisaread lisatakse ruudustiku allossa uute ridadena. 
@@ -97,7 +97,7 @@ Tootlikkuse tõstmiseks saavad kasutajad sisestada ruudustiku numbrilahtritesse 
 Selleks et süsteem tuvastaks avaldise väärtuse, käivitage väärtus võrdusmärgiga (**=**). Lisateavet toetatud tehtemärkide ja süntaksi kohta vt teemast [Toetatud matemaatilised sümbolid](http://bugwheels94.github.io/math-expression-evaluator/#supported-maths-symbols).
 
 ## <a name="grouping-tabular-data"></a>Tabeli andmete grupeerimine
-Ärikasutajatel on sageli vaja teha andmete ad-hoc-analüüsi. Ehkki seda Microsoft Excel saab teha andmete eksportimisel liigendtabelisse ja kasutades seda, **võimaldab grupeerimine ruudustikes funktsioon, mis sõltub uuest ruudustiku juhtelemendi funktsioonist, võimaldab kasutajatel organiseerida oma tabelandmeid huvitavatel viisidel Finantside ja toimingute rakendustes**. Kuna see funktsioon laiendab funktsiooni **Kogusummad**, võimaldab **Rühmitamine** teil saada ka sisukaid ülevaateid oma andmetest, pakkudes vahesummasid grupi tasandil.
+Ärikasutajatel on sageli vaja teha andmete ad-hoc-analüüsi. Ehkki seda Microsoft Excel saab teha andmete eksportimisel liigendtabelisse ja kasutades seda, **võimaldab grupeerimine ruudustikes funktsioon, mis sõltub uuest ruudustiku juhtelemendi funktsioonist, võimaldab kasutajatel organiseerida oma tabelandmeid huvitavatel viisidel finantside ja toimingute rakenduste piires**. Kuna see funktsioon laiendab funktsiooni **Kogusummad**, võimaldab **Rühmitamine** teil saada ka sisukaid ülevaateid oma andmetest, pakkudes vahesummasid grupi tasandil.
 
 Selle funktsiooni kasutamiseks paremklõpsake veergu, mille alusel soovite rühmitada, ja valige käsk **Rühmita selle veeru järgi**. See tegevus sordib andmed valitud veeru alusel, lisab uue veeru **Rühmitamisalus** ruudustiku algusse ja lisab iga grupi algusesse päise read. Need päise read annavad iga grupi kohta järgmist teavet.
 
@@ -168,7 +168,7 @@ Kui olete uue ruudustiku kasutamisest loobunud, võite soovida hiljem uue ruudus
 ## <a name="developer-opting-individual-grids-out-of-the-typing-ahead-of-the-system-capability"></a>[Arendaja] Üksikute ruudustike tippimine süsteemivõimalustest ees
 Mõned stsenaariumid on tekkinud, mis ei laena *end* ruudustiku süsteemivõimalustest ette tippimiseks. (Näiteks mõni kood, mis käivitatakse, kui rida kinnitatakse, käivitab andmeallika uuringute käivitamise ja uurimine võib seejärel rikkuda olemasolevate ridade kinnitamata redigeerimisi.) Kui teie organisatsioon avastab sellise stsenaariumi, on saadaval API, mis võimaldab arendajal asünkroonsest rea kinnitamisest individuaalse ruudustiku valida ja pärandkäitumise taastada.
 
-Kui asünkroonne rea kinnitamine on ruudustikus keelatud, ei saa kasutajad uut rida luua ega teisaldada ruudustikus muule olemasolevale reale, kui praeguses reas on kinnitamisprobleeme. Selle tegevuse kõrval ei saa tabeleid Excelist finantside ja toimingute ruudustike alla kleepida.
+Kui asünkroonne rea kinnitamine on ruudustikus keelatud, ei saa kasutajad uut rida luua ega teisaldada ruudustikus muule olemasolevale reale, kui praeguses reas on kinnitamisprobleeme. Selle tegevuse kõrval ei saa tabeleid Excelist finantsidesse ja toimingute ruudustikes kleepida.
 
 Üksiku ruudustiku asünkroonsest rea kinnitamisest loobumiseks lisage vormi meetodile `super()` järgmine `run()` kutse.
 
@@ -200,3 +200,4 @@ See jaotis sisaldab uue ruudustiku juhtelemendi teadaolevate probleemide loendit
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

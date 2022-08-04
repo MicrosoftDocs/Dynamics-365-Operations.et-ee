@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: d0f0e44cfafec722f6eed3d18ba8be4739be30c1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 881c3c4aa655a5ad30adffce108ba2fc3e6691c5
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8900676"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070405"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Tegeliku kaalu toote protsess laohalduse abil
 
@@ -82,7 +82,7 @@ Kui tegelik kaal registreeritakse pakkimisjaamas konteineri pakkimisprotsesside 
 > [!NOTE]
 > Kuna suvand **Pakkimine** põhjustab varude värskendamist keskmise komplekteeritud kaaluga, võib see põhjustada lahknevuse, mis võib põhjustada tegeliku kaalu kasumi/kahjumi korrigeerimise ja/või erinevuse vaba kaubavaru kaalu ja tegeliku kaalu sildi kaalu vahel.
 
-Sisemiste laohaldusprotsesside, nagu inventuur ja korrigeerimisparandused, puhul saate määratleda, kas kaal tuleb registreerida või mitte. Kui seda ei registreerita, kasutatakse nominaalset kaalu. Muud valikud võimaldavad teil hõivata kaalu ühe tegeliku kaalu ühiku kohta ja arvestusliku koguse kohta.
+Sisemiste protsesside puhul, nt inventuuri ja korrigeerimise parandused, saate määrata, kas kaal tuleks hõivata. Kui seda ei registreerita, kasutatakse nominaalset kaalu. Muud valikud võimaldavad teil hõivata kaalu ühe tegeliku kaalu ühiku kohta ja arvestusliku koguse kohta.
 
 Saate ka määratleda kaalu registreerimise viisi. Ühes kahest põhivoost jälgitakse ja kasutatakse kaalu registreerimiseks tegeliku kaalu silte. Teises voos tegeliku kaalu silte ei jälgita.
 
@@ -183,7 +183,7 @@ Kõik töövood ei toeta tegeliku kaalu toote protsessi laohalduse abil. Praegu 
 ### <a name="other-restrictions-and-behaviors-for-catch-weight-product-processing-with-warehouse-management"></a>Muud piirangud ja käitumised tegeliku kaalu toodete protsesside puhul laohaldusega
 
 - Komplekteerimisprotsesside puhul, kus kasutajal ei paluta jälgimisdimensioone tuvastada, toimub kaalu määramine keskmise kaalu põhjal. See käitumine ilmneb näiteks siis, kui samas asukohas kasutatakse jälgimisdimensioonide kombinatsiooni ja pärast seda, kui kasutaja on komplekteerimisprotsessi lõpule viinud, jääb asukohta alles ainult üks jälgimisdimensioon.
-- Kui varud reserveeritakse tegeliku kaalu tootele, mis on konfigureeritud laohaldusprotsesside jaoks, toimub reserveerimine määratletud minimaalse kaalu põhjal, isegi kui kogus on viimane laos olev käsitlemiskogus. See käitumine erineb käitumisest kaupade puhul, mis ei ole laohaldusprotsesside jaoks konfigureeritud. Sellele piirangule on üks erand. Tootmisse komplekteerimiseks, kui komplekteeritakse tegeliku kaalu toote viimase käitlemise kogus, mille seerianumber on kontrollitud, kasutatakse tegeliku kaalu.
+- Kui varud on reserveeritud laohalduse protsesside jaoks konfigureeritud tegeliku kaalu tootele (WMS), tehakse reserveering minimaalse kaalu alusel, mis on määratud, isegi kui see kogus on laoseisu viimane käsitsemiskogus. See käitumine erineb nende kaupade käitumisest, mis ei ole WMS-i jaoks konfigureeritud. Sellele piirangule on üks erand. Tootmisse komplekteerimiseks, kui komplekteeritakse tegeliku kaalu toote viimase käitlemise kogus, mille seerianumber on kontrollitud, kasutatakse tegeliku kaalu.
 - Protsessid, mis kasutavad kaalu võimsuse arvutuste osana (vooläved, maksimaalsed tööjaotused, konteineri maksimumväärtused, asukoha koormavõimsused jne), ei kasuta varude tegelikku kaalu. Selle asemel põhinevad protsessid toote jaoks määratletud füüsilisel käsitlemiskaalul.
 - Üldiselt ei toetata tegeliku kaalu toodete puhul Commerce'i funktsionaalsust.
 - Tegeliku kaalu toodete puhul ei saa varude olekut värskendada **Lao oleku muudatusest**.

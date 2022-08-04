@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 5cccba580d23c3a0e9aed62f76a305926a58585f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a002bae22044ea10be30340a87a191305f6c6b92
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8879800"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111966"
 ---
 # <a name="dual-write-setup-from-lifecycle-services"></a>Topeltkirjutuse häälestus teenustest Lifecycle Services
 
@@ -29,7 +29,7 @@ See artikkel selgitab, kuidas lubada topeltkirjutust elutsükli Microsoft Dynami
 Kliendid peavad integratsiooni lõpule Power Platform viima, nagu on kirjeldatud järgmistes teemades:
 
 - Kui te ei kasuta ja soovite oma Microsoft Power Platform finants- ja operatsioonide keskkondi laiendada platvormivõimaluste lisamisega, [Power Platform vt Integreerimine – Luba keskkonna juurutamise ajal](../../power-platform/enable-power-platform-integration.md#enable-during-deploy).
-- Kui teil on juba Dataverse olemas keskkonnad Power Platform ja soovite need ühendada Finantside ja toimingute keskkondadega, vaadake integreerimist [Power Platform – Lubage pärast keskkonna juurutamist](../../power-platform/enable-power-platform-integration.md#enable-after-deploy).
+- Kui teil on juba Dataverse olemas keskkonnad Power Platform ja soovite need ühendada finants- ja operatsioonide keskkondadega, vaadake integreerimist [Power Platform – Lubage pärast keskkonna juurutamist](../../power-platform/enable-power-platform-integration.md#enable-after-deploy).
 
 ## <a name="set-up-dual-write-for-new-or-existing-dataverse-environments"></a>Saate häälestada uute või olemasolevate keskkondade topeltkirjutust Dataverse.
 
@@ -53,7 +53,7 @@ Järgige neid samme LCS-i keskkonna üksikasjade lehel **topeltkirjutuse hääle
 
     :::image type="content" source="media/powerplat_integration_step3.png" alt-text="Link Power Platform keskkonda.":::
 
-8. Kui linkimine on lõpetatud, kuvatakse hüperlink. Logige lingi abil sisse topeltkirjutuse haldusalasse finantside ja toimingute keskkonnas. Sealt saate seadistada üksuse vastendamised.
+8. Kui linkimine on lõpetatud, kuvatakse hüperlink. Kasutage linki finantside ja toimingute keskkonnas topeltkirjutuse haldusalasse sisselogimiseks. Sealt saate seadistada üksuse vastendamised.
 
 ## <a name="linking-mismatch"></a>Mittevastavuse linkimine
 
@@ -71,3 +71,4 @@ Kui saate selle hoiatuse, proovige ühte järgmistest lahendustest.
 Minevikus oli saadaval käsitsi toepileti valik, kuid see oli enne 1. valikut olemas.  Microsoft ei toeta enam käsitsi uuesti linkimise taotlusi tugiteenuste kaudu.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

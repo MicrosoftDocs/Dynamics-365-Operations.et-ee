@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 28e026b01bbc2b2534556ce6018eec66fc5517d6
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 7643a333c269a7e1976563ff0f10b89c1fb91674
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982998"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065178"
 ---
 # <a name="warehouse-configuration-overview"></a>Lao konfiguratsiooni ülevaade
 
@@ -31,10 +31,10 @@ ms.locfileid: "7982998"
 Selles artiklis selgitatakse, kuidas konfigureerida ladu. See sisaldab teavet selle kohta, kuidas lubada lao paigutust ja laoprotsesse.
 
 > [!NOTE]
-> See artikkel kehtib mooduli **Laohaldus** funktsioonidele (täpsem ladustamine). See ei kehti ladustamisfunktsioonidele moodulis **Laohaldus**.
+> See artikkel kehtib laohalduse mooduli **funktsioonide** kohta. See ei kehti ladustamisfunktsioonidele moodulis **Laohaldus**.
 
 ## <a name="warehouse-layout"></a>Lao paigutus
-Laohalduse süsteem rakenduses Supply Chain Management pakub paindlikke võimalusi lao paigutuse määratlemiseks, et rahuldada muutuvaid vajadusi, nii et saavutaksite optimaalse lao tõhususe.
+Hankeahela halduse laohaldusprotsessid (WMS) annavad teile paindlikud võimalused lao kavandi määratlemiseks, et tagada lao optimaalne efektiivsus.
 
 -   Saate luua ja kõrge prioriteediga ja madal prioriteediga hoiustamisalasid kaupade optimaalseks paigutamiseks.
 -   Saate jagada oma lao tsoonideks, et rahuldada mitmesuguseid ladustamisvajadusi, näiteks temperatuurinõudeid või mitmesuguseid kaubakäibe kiirusi.
@@ -42,7 +42,7 @@ Laohalduse süsteem rakenduses Supply Chain Management pakub paindlikke võimalu
 -   Saate rühmitada asukohti, kasutades füüsilise mahu piirangu sätteid.
 -   Saate kaupade ladustamise ja komplekteerimise viisi juhtida, tuginedes päringuga määratud reeglitele.
 
-Rakenduses Supply Chain Management laohalduse kasutamiseks peate looma lao ja lubama selle täpsema või spetsiaalse laohalduse tegevuste jaoks. Tehke lehel **Laod** valik **Kasuta laohaldusprotsesse**.
+WMS-i kasutamiseks tarneahela halduses peate looma lao ja lubama WMS-i jaoks. Tehke lehel **Laod** valik **Kasuta laohaldusprotsesse**.
 
 ### <a name="zone-groups-zones-location-types-and-locations"></a>Tsoonigrupid, tsoonid, asukohatüübid ja asukohad
 

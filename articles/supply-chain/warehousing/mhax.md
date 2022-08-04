@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-04
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: c4b0d991d320d5a679d0ed60880c56a6cb849e2d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: dc46c9fea94c3d86f9511c2bea4ea64455c936f9
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907083"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068355"
 ---
 # <a name="material-handling-equipment-interface-mhax"></a>Materjalikäitlusseadmete liides (MHAX)
 
 [!include [banner](../../includes/banner.md)]
 
-*Materjalikäitlusseadmete liidese* (MHAX) abil saate ühendada väliseid füüsilisi materjalikäsitluse (MH) süsteeme laoga, mida haldab täiustatud laohaldusfunktsioon (WMS) Microsoft Dynamics 365 Supply Chain Managementis. WMS-i ja MH-süsteemide vaheline liideses on kaks järjekorda: üks väljaminevatele sündmustele (WMS-ist MH-sse) ja teine sissetulevatele sündmustele (MH-st WMS-i). WMS-süsteem loob väljaminevad sündmused tööridade põhjal, mis luuakse erinevates töö loomise ja käivitamise protsessides. Seejärel pollib MH-süsteem regulaarselt WMS-süsteemi uute sündmuste osas ja töötleb vastuseid. Kui MH-süsteem on tööjuhiste kohaselt sündmuste käitlemise lõpetanud, saadab see sissetulevad sündmused, nt töörea lõpetamine ja kiirelt komplekteerimine.
+Saate kasutada materjali käsitlemisseadmete *liidest* (MHAX), et ühendada välised füüsilise materjali käsitluse (MH) süsteemid laoga, mida haldavad Microsofti laohaldusprotsessid (WMS)Dynamics 365 Supply Chain Management. WMS-i ja MH-süsteemide vaheline liideses on kaks järjekorda: üks väljaminevatele sündmustele (WMS-ist MH-sse) ja teine sissetulevatele sündmustele (MH-st WMS-i). WMS-süsteem loob väljaminevad sündmused tööridade põhjal, mis luuakse erinevates töö loomise ja käivitamise protsessides. Seejärel pollib MH-süsteem regulaarselt WMS-süsteemi uute sündmuste osas ja töötleb vastuseid. Kui MH-süsteem on tööjuhiste kohaselt sündmuste käitlemise lõpetanud, saadab see sissetulevad sündmused, nt töörea lõpetamine ja kiirelt komplekteerimine.
 
 Järgmine näide kujutab protsesside erinevaid elemente ja toimumisjärjestust MHAX-i integratsiooni kasutamisel.
 

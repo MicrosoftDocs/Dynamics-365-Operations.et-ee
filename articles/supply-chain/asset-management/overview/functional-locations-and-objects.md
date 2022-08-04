@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 274e80136ee303af9d0fe5fd04095f575a345d19
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0d8d155b8bbf981408f6f15e914fc3bb1da25c9c
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8875651"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111072"
 ---
 # <a name="functional-locations-and-assets"></a>Töö asukohad ja varad
 
@@ -32,7 +32,7 @@ See artikkel kirjeldab varahalduse funktsiooniasukohti ja varasid. Varahaldus on
 
 ## <a name="overview"></a>Ülevaade
 
-Varahaldus on integreeritud sujuvalt mitme mooduliga koos muude Finance and Operationsi rakendustega. Järgmisel joonisel on kujutatud liidesed teiste moodulitega.
+Varahaldust integreeritakse sujuvalt mitme mooduliga muude finantside ja toimingute rakendustega. Järgmisel joonisel on kujutatud liidesed teiste moodulitega.
 
 ![Diagramm, mis näitab, kuidas varahaldus liidestub teiste moodulitega.](media/01-overview-image.png)
 

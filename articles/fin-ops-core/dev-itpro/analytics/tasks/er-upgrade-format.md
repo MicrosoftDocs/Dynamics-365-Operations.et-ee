@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5dbf8ab2ea875e902709215e249871474b17230f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 6c4c2a0954c8554da0b4c859d837ab6ca4839b36
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8883505"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111924"
 ---
 # <a name="er-upgrade-your-format-by-adopting-a-new-base-version-of-that-format"></a>Elektrooniline aruandlus. Vormingu täiendamine uue alusversiooni kasutuselevõtuga
 
@@ -119,7 +119,7 @@ Muutke koostatud vormingu konfiguratsiooni olek suvandilt Mustand suvandile Lõp
     Pange tähele, et loodud konfiguratsioon salvestatakse kui lõpetatud versioon 1.1.1. See tähendab, et see on kohandatud BACS-i (UK fiktiivne kohandatud) vormingu 1. versioon, mis põhineb BACS-i (UK fiktiivne) vormingu 1. versioonil, mis põhineb andmemudeli Maksed (lihtsustatud mudel) 1. versioonil.  
 
 ## <a name="test-the-customized-format-to-generate-payment-files"></a>Kohandatud vormingu testimine maksefailide loomiseks
-Läbige sammud jaotises "Kasuta loodud vormingut maksete jaoks elektrooniliste dokumentide loomiseks" paralleelses finants- ja operatsioonide seansis. Valige BACS-i (UK fiktiivne kohandatud) vorming elektroonilise makseviisi parameetrites. Veenduge, et loodud maksefail sisaldab hiljuti kasutusele võetud XML-sõlme IBAN-koodiga vastavalt piirkondlikele nõuetele.  
+Läbige sammud "Kasuta loodud vormingut maksetele elektrooniliste dokumentide loomiseks" paralleelrahade ja toimingute seansis. Valige BACS-i (UK fiktiivne kohandatud) vorming elektroonilise makseviisi parameetrites. Veenduge, et loodud maksefail sisaldab hiljuti kasutusele võetud XML-sõlme IBAN-koodiga vastavalt piirkondlikele nõuetele.  
 
 ## <a name="update-the-existing-country-specific-configuration"></a>Olemasoleva riigipõhise konfiguratsiooni värskendamine
 Litware, Inc. peab värskendama BACS-i (UK fiktiivne) konfiguratsiooni ja kasutusele võtma uued riigipõhised nõuded, et hallata elektroonilise dokumendi vormingut. Hiljem lisatakse see selle konfiguratsiooni uude versiooni, mida pakutakse teenuse tellijatele, sh ettevõttele Proseware, Inc.  
@@ -239,7 +239,7 @@ Selleks peab Proseware, Inc. muutma kohandatud konfiguratsiooni BACS-i (UK fikti
     Pange tähele, et loodud konfiguratsioon salvestatakse lõpetatud versioonina 1.2.2: alus-BACS-i (UK fiktiivne kohandatud) vormingu versioon 2, mis põhineb alust-BACS-i (UK fiktiivne) vormingu versioonil 2, mis põhineb andmemudeli Maksed (lihtsustatud mudel) versioonil 1.  
 
 ## <a name="test-the-customized-format-for-payment-files-generation"></a>Kohandatud vormingu testimine maksefailide loomiseks
-Läbige sammud jaotises "Kasuta loodud vormingut maksete jaoks elektrooniliste dokumentide loomiseks" paralleelses finants- ja operatsioonide seansis. Valige loodud vorming „BACS (UK fiktiivne kohandatud)” elektroonilise makseviisi parameetrites. Veenduge, et loodud maksefail sisaldab ettevõttes Proseware, Inc. hiljuti kasutusele võetud XML-sõlme IBAN-koodiga vastavalt piirkondlikele nõuetele. Fail peab sisaldama ka hiljuti ettevõtte Litware, Inc. poolt loodud XML-sõlme SWIFT-pangakoodiga vastavalt riigi nõuetele.  
+Viige lõpule sammud jaotises "Kasuta loodud vormingut maksete jaoks elektrooniliste dokumentide loomiseks" paralleelrahade ja toimingute seansis. Valige loodud vorming „BACS (UK fiktiivne kohandatud)” elektroonilise makseviisi parameetrites. Veenduge, et loodud maksefail sisaldab ettevõttes Proseware, Inc. hiljuti kasutusele võetud XML-sõlme IBAN-koodiga vastavalt piirkondlikele nõuetele. Fail peab sisaldama ka hiljuti ettevõtte Litware, Inc. poolt loodud XML-sõlme SWIFT-pangakoodiga vastavalt riigi nõuetele.  
 
 
 

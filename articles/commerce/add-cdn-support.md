@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a2ed8f66d447e1d9e890c0885fd20e9b55c66ac0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2177eeb6497269d580d2baea87ebb4fcd395223b
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8855872"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069664"
 ---
 # <a name="add-support-for-a-content-delivery-network-cdn"></a>Sisu edastamise võrgu (CDN) toe lisamine
 
@@ -101,7 +101,7 @@ Azure’i sisenemispunkti teenuse marsruudivaliku reegli seadistamiseks toimige 
 
 
 > [!WARNING]
-> Kui domeen, mida te kasutama hakkate, on juba aktiivne ja kasutusvalmis, looge teenuse [Microsoft Dynamics Lifecycle Services](https://lcs.dynamics.com/) paanil **Tugi** tugiteenusepilet, et saada järgmiste sammude jaoks abi. Lisateavet vt jaotisest Finantside [ja toimingute rakenduste või elutsükli teenuste (LCS) toe saamine](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md).
+> Kui domeen, mida te kasutama hakkate, on juba aktiivne ja kasutusvalmis, looge teenuse [Microsoft Dynamics Lifecycle Services](https://lcs.dynamics.com/) paanil **Tugi** tugiteenusepilet, et saada järgmiste sammude jaoks abi. Lisateavet vt teemast Finantside ja [toimingute rakenduste toe saamine või elutsükli teenuste (LCS) kasutamine](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md).
 
 Kui teie domeen on uus ja ei ole olemasolev kasutatav domeen, saate lisada oma kohandatud domeeni Azure'i sisenemispunkti teenuse konfiguratsiooni. See võimaldab suunata veebiliiklust teie saidile Azure'i sisenemispunkti teenuse kaudu. Kohandatud domeeni lisamiseks (nt `www.fabrikam.com`) peate konfigureerima domeeni kanoonilise nime (CNAME).
 

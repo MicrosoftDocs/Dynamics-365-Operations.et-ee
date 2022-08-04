@@ -1,7 +1,7 @@
 ---
 title: Pangaväljavõtte faili importimise tõrkeotsing
 description: See artikkel selgitab, kuidas probleeme lahendada väikesed erinevused panga väljavõtte failis.
-author: panolte
+author: angelad116
 ms.date: 03/29/2021
 ms.topic: article
 ms.prod: ''
@@ -12,19 +12,22 @@ ms.reviewer: kfend
 ms.custom: 141273
 ms.assetid: 3ee2f32b-02aa-420b-8990-e6aa5fc6bda3
 ms.search.region: global
-ms.author: panolte
+ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 422b2df6c4de3a948b0e62bfb70f99b12e04a8f9
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 44658ea48b9f7dae76c34c5f3d8828c9e8c4ac32
+ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711169"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "9151756"
 ---
 # <a name="bank-statement-file-import-troubleshooting"></a>Pangaväljavõtte faili importimise tõrkeotsing
 
 [!include [banner](../includes/banner.md)]
+
+>[!NOTE]
+>See funktsioon on aegunud septembrist 2022, uued kasutajad peaksid kasutama elektroonilist aruandlust.
 
 Oluline on, et panga väljavõtte fail ühtiks paigutusega, mida Microsoft Dynamics 365 Finantsid toetavad. Pangaväljavõtete rangete standardite tõttu töötavad enamik integratsioone õigesti. Mõnikord ei saa väljavõttefaili importida või on sel valed tulemused. Tüüpiliselt põhjustavad neid probleeme väikesed erinevused pangaväljavõtte failis. See artikkel selgitab, kuidas neid erinevusi parandada ja probleeme lahendada.
 
@@ -39,7 +42,7 @@ Kui olete proovinud importida pangaväljavõtte faili, minge tõrke leidmiseks a
 Võrrelge panga faili paigutuse määratlust Finance'i impordi määratlusega ja pange tähele mis tahes võimalikke erinevusi väljades ja elementides. Võrrelge pangaväljavõtte faili seotud Finance'i näidisfailiga. ISO20022 failides peaks võimalikke erinevusi lihtne märgata olema.
 
 ## <a name="time-zone-differences-on-imported-bank-statements"></a>Ajavöönd on imporditud pangaväljavõtetes erinev
-Impordifaili kuupäeva-kellaaja väärtused võivad erineda Finance and Operationsis kuvatavatest kuupäeva-kellaaja väärtustest. Selle lahknevuse vältimiseks sisestage ajavööndi eelistus lehele **Andmeallika konfigureerimine**. Lisateavet ajavööndi eelistuste sisestamise kohta leiate teemast [Täpsema panga vastavusseviimise importimisprotsessi seadistamine](set-up-advanced-bank-reconciliation-import-process.md).
+Kuupäeva ja kellaaja väärtused impordifailis võivad erineda finantsis ja toimingutes kuvatavatest kuupäeva ja kellaaja väärtustest. Selle lahknevuse vältimiseks sisestage ajavööndi eelistus lehele **Andmeallika konfigureerimine**. Lisateavet ajavööndi eelistuste sisestamise kohta leiate teemast [Täpsema panga vastavusseviimise importimisprotsessi seadistamine](set-up-advanced-bank-reconciliation-import-process.md).
 
 ## <a name="transformations"></a>Teisendused
 Tüüpiliselt tuleb muudatus teha ühes kolmest teisendusest. Iga teisendus on kirjutatud spetsiifilise standardi jaoks.
@@ -109,3 +112,4 @@ Järgmises tabelis on esitatud näited tehnilise paigutuse määratlustest täiu
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

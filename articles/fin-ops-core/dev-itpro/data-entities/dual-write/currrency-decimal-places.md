@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-04-06
-ms.openlocfilehash: 809906c3926b200e7beac84e780314aec1f8c2ca
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 85b3a45c054144e414aebb28b3d8080ab295f52f
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8855583"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112270"
 ---
 # <a name="currency-data-type-migration-for-dual-write"></a>Valuuta andmetüübi migreerimine topeltkirjutamise jaoks
 
@@ -29,7 +29,7 @@ Kümnendkohtade arvu muutmise protsessil on kaks sammu.
 1. Taotlege Microsoftilt migreerimist.
 2. Muutke kümnendkohtade arv teenuses Dataverse.
 
-Rakendus Finantsid ja toimingud peab Dataverse toetama sama komakohtade arvu valuutaväärtustes. Vastasel juhul võib esineda andmekadu, kui seda teavet sünkroonitakse rakenduste vahel. Migreerimisprotsess muudab viisi, kuidas valuuta- ja vahetuskursiväärtuseid talletatakse, kuid mitte andmeid. Pärast migreerimise lõpule viimist saab valuutakoodide ja hinnakujunduse kümnendkohtade arvu suurendada ning andmed, mida kasutajad sisestavad ja vaatavad, võivad hõlmata täpsemaid kümnendkohti.
+Finantside ja toimingute rakendus ning Dataverse need peavad toetama sama komakohtade arvu valuutaväärtustes. Vastasel juhul võib esineda andmekadu, kui seda teavet sünkroonitakse rakenduste vahel. Migreerimisprotsess muudab viisi, kuidas valuuta- ja vahetuskursiväärtuseid talletatakse, kuid mitte andmeid. Pärast migreerimise lõpule viimist saab valuutakoodide ja hinnakujunduse kümnendkohtade arvu suurendada ning andmed, mida kasutajad sisestavad ja vaatavad, võivad hõlmata täpsemaid kümnendkohti.
 
 Migreerimine on valikuline. Kui rohkemate kümnendkohtade tugi võib teile kasuks tulla, soovitame teil migreerimist kaaluda. Organisatsioonid, millel pole vaja rohkem kui nelja kümnendkohaga väärtuseid, ei pea migreerima.
 
@@ -37,7 +37,7 @@ Migreerimine on valikuline. Kui rohkemate kümnendkohtade tugi võib teile kasuk
 
 Olemasolevate valuutaveergude talletamise puhul teenuses Dataverse ei toetata rohkem kui nelja kümnendkohta. Seetõttu kopeeritakse valuutaväärtused migreerimise käigus andmebaasi uutele sisemistele veergudele. See protsess jätkub, kuni kõik andmed on migreeritud. Migreerimise lõpus asendatakse vanad talletustüübid sisemiselt uute talletustüüpidega, kuid andmeväärtused ei muutu. Valuutaveerud toetavad seejärel kuni kümmet kümnendkohta. Migreerimise käigus saab jätkata teenuse Dataverse kasutamist häirimatult.
 
-Samal ajal muudetakse vahetuskursse nii, et need toetaks kuni 12 kümnendkohta praeguse kümnese piirangu asemel. See muudatus on vajalik, et komakohtade arv oleks nii rakenduse Finantsid kui ka toimingute rakenduses ja komakohtade arvus sama Dataverse.
+Samal ajal muudetakse vahetuskursse nii, et need toetaks kuni 12 kümnendkohta praeguse kümnese piirangu asemel. See muudatus on vajalik, et komakohtade arv oleks nii finantside kui ka toimingute rakenduses ja komakohtade arvus sama Dataverse.
 
 Migreerimine ei muuda andmeid. Pärast valuuta- ja vahetuskursivveergude teisendamist saavad administraatorid seadistada süsteemi kasutama valuutaveergude puhul kuni kümmet kümnendkohta, määrates kümnendkohtade arvu iga kande valuuta ning hinnakujunduse jaoks.
 
@@ -100,3 +100,4 @@ Migreerimise ja mittesiirde stsenaariumide vaikimisi valuuta kümnendarvu täpsu
 |          | Maksimaalne kümnendarvuline täpsus, mis on nähtav andmebaasi ja andmebaasi päringutulemuste kasutajaliideses | 10 numbrit. Kuid ainult 4 on oluline, kui kõik nullid on väljaspool nelja kümnendkohta. See võimaldab vajadusel organisatsiooni lihtsamat ja kiiremat siirdet. | 10 numbrit      | 10 numbrit     |
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

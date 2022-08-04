@@ -13,23 +13,23 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: af3a646e24976d50f83d8564e3006fc2c50d8e2a
-ms.sourcegitcommit: 8bcb9c13eccb14e61c39ca6578d135b64090fad2
+ms.openlocfilehash: be2c0f921fde13598685553ea01bfcf3f8255362
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8313563"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9108667"
 ---
 # <a name="use-a-relative-path-in-data-bindings-of-er-models-and-formats"></a>Suhtelise tee kasutamine ER-mudelite ja -vormingute andmesidemetes
 
 [!include[banner](../includes/banner.md)]
 
-Elektrooniline aruandluse (ER) tööriist võimaldab kasutajatel määratleda elektroonilise vormingu struktuurid ja seejärel kirjeldada, kuidas neid struktuure tuleb täita, kasutades rakenduses olemasolevaid andmeid ja algoritme. Lisateabe saamiseks vt teemat [Elektroonilise aruandluse (ER) konfiguratsioonide loomine](electronic-reporting-configuration.md). Andmevoo määramiseks rakenduse Finance and Operations andmete toomiseks ja selle kasutamiseks elektrooniliste dokumentide loomisel, tuleb teha järgmist.
+Elektrooniline aruandluse (ER) tööriist võimaldab kasutajatel määratleda elektroonilise vormingu struktuurid ja seejärel kirjeldada, kuidas neid struktuure tuleb täita, kasutades rakenduses olemasolevaid andmeid ja algoritme. Lisateabe saamiseks vt teemat [Elektroonilise aruandluse (ER) konfiguratsioonide loomine](electronic-reporting-configuration.md). Finantside ja toimingute andmete toomiseks ning selle abil elektroonilise dokumendi loomiseks andmevoo määramiseks peate tegema järgmist:
 
 - Siduda konfigureeritud andmeallikad kujundatud domeenikohase andmemudeli elementidega. Mudeli struktuur ja valitud andmeallikad võivad olla osa keerukast hierarhilisest struktuurist. Selle tõttu võivad lõplikud sidumised olla üsna suured ja sisaldada mitut erinevat tüüpi elemente (nt seosed, tabelid ja meetodid). Sidumised võivad muutuda kehvemini loetavaks ning nende ülevaatamine ja mõistmine võib muutuda üsna keeruliseks, eriti mitteomanike jaoks. 
 - Siduge andmemudeli elemendid vormingu komponentidega, et määratleda, millised andmed sisestatakse andmemudelist loodud vormingu väljundisse.
 
-ER-i vastenduse kujundaja kasutatavuse parandamiseks on loodud [suhtelise teekonna](er-formula-language.md#relative-path) funktsioon. Vaikimisi on suhtelise tee esindatuse suvand sisse lülitatud kõigi rakenduse Finance and Operations uute eksemplaride jaoks, kus on lubatud ER-i kujundamise kogemus (Microsoft Dynamics 365 Finance, Microsoft Regulatory Configuration Service). Rakendasime suhtelise tee parameetri, et kasutajad saaksid selle ER-i sidumise esitlusega töötades jätkata täieliku tee kasutamist.
+ER-i vastenduse kujundaja kasutatavuse parandamiseks on loodud [suhtelise teekonna](er-formula-language.md#relative-path) funktsioon. Vaikimisi on suhteline tee esitussuvand sisse lülitatud rakenduse mis tahes uue eksemplari jaoks, kus ER-i kujunduskogemus on lubatud (Microsoft Dynamics 365 Finantsid, Microsoft Regulatory Configuration Service). Rakendasime suhtelise tee parameetri, et kasutajad saaksid selle ER-i sidumise esitlusega töötades jätkata täieliku tee kasutamist.
 
 [![Kasutaja parameetrid.](./media/relative-path-01.png)](./media/relative-path-01.png)
 
@@ -58,3 +58,4 @@ See funktsioon ei lõhu ER-i raamistiku tagasiühilduvust. Selle uue funktsiooni
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

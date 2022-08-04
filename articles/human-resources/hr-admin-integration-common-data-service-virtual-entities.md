@@ -1,5 +1,5 @@
 ---
-title: Dataverse'i virtuaalsete tabelite konfigureerimine
+title: Dataverse’i virtuaalsete tabelite konfigureerimine
 description: See artikkel näitab, kuidas konfigureerida, luua, uuendada olemasolevaid virtuaaltabeleid ning analüüsida loodud ja saadaolevaid tabeleid Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 08/19/2021
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0154faec8a9f3e968ea1b665e2a815cc9ec02379
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 45155dba5063981eb3aeeed4dda1d79a57b7c8af
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8899726"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067094"
 ---
 # <a name="configure-dataverse-virtual-tables"></a>Dataverse'i virtuaalsete tabelite konfigureerimine
 
@@ -121,10 +121,10 @@ Järgmine samm on konfigureerida virtuaalse tabeli andmeallikas Power Appsi kesk
 
 4. Valige jaotises **Lahenduse seisundikeskus** **täpsema otsingu** ikoon, mis asub rakenduse lehe üleval paremal pool.
 
-5. Valige lehel **Täpsem** otsing ripploendist **Finantside** ja toimingute **virtuaalsete andmeallikate konfiguratsioonid**.
+5. Valige lehel **Täpsem** otsing ripploendist **Finantsid** ja toimingud **virtuaalsete andmeallikate konfiguratsioonid**.
 
    > [!NOTE]
-   > Eelmise häälestussammu virtuaaltabeli rakenduse installimine võib võtta mitu minutit. Kui **finantside ja toimingute virtuaalsete** andmeallikate konfiguratsioonid pole loendis saadaval, oodake veidi ja värskendage loendit.
+   > Eelmise häälestussammu virtuaaltabeli rakenduse installimine võib võtta mitu minutit. Kui **finantsid ja toimingud virtuaalsete** andmeallikate konfiguratsioonid ei ole loendis saadaval, oodake veidi ja värskendage loendit.
 
 6. Valige **Tulemid**.
 
@@ -218,3 +218,4 @@ Liuguripaan kuvab protsessi kõige viimased käivitamise tulemused. Saate kuvada
 [Rakenduste loomise ülevaade Power Appsis](/powerapps/maker/)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

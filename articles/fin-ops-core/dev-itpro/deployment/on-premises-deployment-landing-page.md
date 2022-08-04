@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: b73e0cc31fd0e5a22ee330f623b9125de9237e29
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 87bab110d99bd756038b9f556aa15ed9fd02fb97
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8867408"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103968"
 ---
 # <a name="on-premises-deployment-home-page"></a>Kohapealse juurutuse avaleht
 
@@ -53,7 +53,7 @@ Saate juurutada Dynamics 365 Finance + Operations (on-premises). Asutusesisese j
 - [Elektroonilise aruandluse (ER) konfiguratsioonide importimine](../analytics/electronic-reporting-import-ger-configurations.md)
 - [Dokumentide loomine, avaldamine ja printimine kohapealsetes keskkondades](../analytics/printing-capabilities-on-premises.md)
 - [Puhverserverite konfigureerimine kohapealsete keskkondade jaoks](onprem-reverseproxy.md)
-- [Tehnilise toe seadistamine Finance and Operationsi rakenduste jaoks](../lifecycle-services/support-experience.md)
+- [Häälestage finantside ja toimingute rakenduste tehniline tugi.](../lifecycle-services/support-experience.md)
 - [Kliendi Interneti-ühendus](../user-interface/client-disconnected.md)
 - [Värskenduste rakendamine kohapealsetesse juurutamistesse](apply-updates-on-premises.md)
 - [Kohapealsete keskkondade taasjuurutamine](redeploy-on-prem.md)
@@ -73,9 +73,10 @@ Saate juurutada Dynamics 365 Finance + Operations (on-premises). Asutusesisese j
 - [Asutusesiseses keskkonnas probleemide lahendamise skriptid](onprem-tsg-implementations.md)
 - [Sertide roteerimine](certificate-rotation-on-prem.md)
 - [Kohapealsed diagnostikad](on-premises-diagnostics.md)
-- [Rakenduse Finance and Operations eemaldatud või aegunud funktsioonid.](../migration-upgrade/deprecated-features.md)
+- [Finantside ja toimingute eemaldatud või taunitud funktsioonid](../migration-upgrade/deprecated-features.md)
 - [Tarkvara elutsükli poliitika ja asutusesisesed väljalasked](../migration-upgrade/on-prem-version-update-policy.md)
  
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

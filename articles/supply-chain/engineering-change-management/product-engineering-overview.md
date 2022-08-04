@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 6c9bfcdef91ad07b8346498b8944e1d741d623a1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 3a27548fff9728c74814fb92438da1d0c17b5e2b
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8862652"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067388"
 ---
 # <a name="engineering-change-management-overview"></a>Tehniliste muudatuste halduse ülevaade
 
@@ -40,7 +40,7 @@ Tehniliste muudatuste haldus aitab teil planeerida ja hallata toote versioonimis
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HE6B]
 
-Eelnev video (muudatusehalduse [võimalused seadmes Dynamics 365 Supply Chain Management](https://youtu.be/N313FqvRuBc)) sisaldub finantside ja [operatsioonide teabes](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW), mille kaudu on saadaval YouTube.
+Eelnev video (change [management capabilitiesies in Dynamics 365 Supply Chain Management](https://youtu.be/N313FqvRuBc)) on kaasatud finantsidesse [ja toimingutesse, mis](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) on saadaval YouTube.
 
 ## <a name="turn-on-the-engineering-change-management-features-for-your-system"></a>Lülitage oma süsteemis sisse tehniliste muudatuste haldamise funktsioonid
 
@@ -88,3 +88,4 @@ Pärast seda, kui lülitate sisse peamised tehnika muudatuste haldamise funktsio
 | Tehnikatoodetele variantide loomine | <p>See funktsioon võimaldab teil luua saadaolevatel dimensiooniväärtustel põhinevaid tehnikatoodete variante.</p><p>Lisateavet vt teemast [Tehnikatoodete variantide loomine](engineering-variants.md).</p> |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

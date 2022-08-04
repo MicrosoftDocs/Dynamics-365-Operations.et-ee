@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 9a455ffbc4396ea4bf0e3df12e7acdcbfeaa5f5269dbe772848341ac0d22a5e1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6c65c56dfe5d1e32c440789d207f787169c57269
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748260"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124862"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-application-version-701-may-2016"></a>Mis on uut või mida on muudetud rakenduse Dynamics AX versioonis 7.0.1 (mai 2016)
 
@@ -101,7 +101,7 @@ Selles artiklis kirjeldatakse rakenduse Microsoft Dynamics AX versiooni 7.0.1 uu
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-[Mis on uut või muudetud Finance and Operationsi avalehel](whats-new-changed.md)
+[Mis on uut või muudetud finantside ja toimingute avalehel](whats-new-changed.md)
 
 [Uued või värskendatud ülesande juhised (mai 2016)](new-updated-task-guides-available-may-2016.md)
 

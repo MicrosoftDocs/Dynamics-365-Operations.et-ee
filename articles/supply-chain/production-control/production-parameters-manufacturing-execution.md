@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8d9c756d8aaf2e7b2f6593e78fbb645dafee4552
-ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.openlocfilehash: 6d440a0d0d95fe93ed633fa588e1c3a193757d9d
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "9016155"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070375"
 ---
 # <a name="production-parameters-in-manufacturing-execution"></a>Tootmise parameetrid moodulis Tootmise käivitamine
 
@@ -71,7 +71,7 @@ Igas etapis võimaldab väli **Automaatne koosluse tarbimine** valida ühe kolme
   - Tühi (pole märgitud ühtki valikut.)
   - **Asukohas saadaval**
 
-    Kui moodulis Tootmise käivitamine on valitud **Automaatse tarbimise põhimõte** väljal **Automaatne koosluse tarbimine** vahekaardil **Käivita**, siis arvestatakse kõik materjalid, mille olekuks koosluses on määratud **Käivita**, toimingu alustamisel varudest maha. Valikut **Asukohas saadaval** kasutatakse toodete puhul, millele on lubatud täpsemad laoprotsessid. Kui valite selle automaatse tarbimise põhimõtte, siis eemaldatakse materjal, kui toormaterjali komplekteerimise laotöö on lõpetatud. Materjal eemaldatakse ka siis, kui seda automaatse tarbimise põhimõtet kasutav koosluse rida lattu väljastatakse ja materjal on toodangu sisestuskohas saadaval.
+    Kui moodulis Tootmise käivitamine on valitud **Automaatse tarbimise põhimõte** väljal **Automaatne koosluse tarbimine** vahekaardil **Käivita**, siis arvestatakse kõik materjalid, mille olekuks koosluses on määratud **Käivita**, toimingu alustamisel varudest maha. Asukohas **saadaolevat valikut** kasutatakse toodete puhul, mis on lubatud laohaldusprotsessidele (WMS). Kui valite selle automaatse tarbimise põhimõtte, siis eemaldatakse materjal, kui toormaterjali komplekteerimise laotöö on lõpetatud. Materjal eemaldatakse ka siis, kui seda automaatse tarbimise põhimõtet kasutav koosluse rida lattu väljastatakse ja materjal on toodangu sisestuskohas saadaval.
 
     > [!NOTE]
     > Kui väli **Automaatse tarbimise põhimõte** on mooduli Tootmise käivitamine vahekaardil **Käivita** määratud, tuleb valida sama põhimõte vahekaardil **Toimingud** või vahekaardil **Kinnita lõpetamine**. See nõue aitab tagada, et materjalid arvestatakse varudest maha koosluste puhul, mis kasutavad tootmistellimuse eemaldamise põhimõttena valikut **Lõpetamine**. Kui vahekaardil **Toimingud** või vahekaardil **Kinnita lõpetamine** pole valitud sama automaatse tarbimise põhimõtet, võidakse materjalid varudest kaks korda maha arvestada.

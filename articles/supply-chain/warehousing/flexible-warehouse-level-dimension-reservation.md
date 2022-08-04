@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: fb42d4ccd2d8797a34f6351caf7dedbc1e957fd5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d515fb46dcc2d135412d140b98f0578cae89c409
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8885808"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065894"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Paindlik dimensiooni reserveerimise poliitika laotasemel
 
 [!include [banner](../includes/banner.md)]
 
-Kui varude reserveerimise hierarhia tüüp *partii-alla\[asukoha\]* on seotud toodetega, siis ei saa ettevõtted, mis müüvad partiijälgimisega tooteid ja käitavad nende logistikat, mis on lubatud Microsoft Dynamics 365 laohaldusesüsteemi (WMS) jaoks, reserveerida nende toodete kindlaid partiisid kliendi müügitellimustele.
+Kui allpoolasukoha *\[\]* partii tüüpi varude reserveerimishierarhia on toodetega seostatud, ei saa partii kaudu jälgitud tooteid müüvad ettevõtted ja käitavad nende logistikat laohaldusprotsessides lubatud toimingutena (WMS) kliendi müügitellimuste jaoks teatud partiisid reserveerida.
 
 Sarnaselt ei saa kindlaid litsentsiplaate reserveerida müügitellimustes olevate toodete jaoks, kui need tooted on seotud reserveerimise vaikehierarhiaga.
 

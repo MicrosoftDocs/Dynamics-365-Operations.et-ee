@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 4fdf8cd9d27b0ea6a629339e9c09c2cfc0924957
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: eb0a3f26761f922225aa4b50bc709ae64aab9934
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8864886"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070249"
 ---
 # <a name="learning-catalog-for-commerce-microsoft-partner-sales-and-marketing-roles-for-dynamics-365-commerce"></a>Dynamics 365 Commerce'i õppekataloog Commerce'i Microsofti partneri müügi- ja turundusrollidele
 
@@ -25,7 +25,7 @@ Kas vastutate oma klientide abistamise eest osta õige lahendus.
 
 Järgnev kataloog hõlmab üld- ja valdkonnapõhiseid teadmisi nii baas- kui ka süvatasemel. Kui sisu on mitmes vormingus, anname teile sellest teada, et saaksite valida koolitusvormingu, mis vastab teie vajadustele kõige paremini.
 
-Lisateavet teiste finantside ja toimingute rakendustega ühiskasutuses funktsioonide kohta vt [Dynamics 365 finantside õppe kataloogist](../../finance/get-started/learning-catalog-partner-sales.md).
+Teavet teiste finantside ja toimingute rakendustega ühiskasutuses funktsioonide kohta leiate [Dynamics 365 finantside õppekataloogist](../../finance/get-started/learning-catalog-partner-sales.md).
 
 ## <a name="get-started"></a>Alustage<a name="get-started"></a>
 
@@ -37,3 +37,4 @@ Lisateavet teiste finantside ja toimingute rakendustega ühiskasutuses funktsioo
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

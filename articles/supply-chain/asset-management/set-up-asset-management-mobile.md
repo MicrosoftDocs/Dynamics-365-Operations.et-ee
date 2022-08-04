@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-22
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: ee92ed2c0e2a59adaebe20ed3d426ac03c056dac
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ef4e6bf2ae59adb05c7d4aacc3f5675a5adcafc9
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8870838"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070049"
 ---
 # <a name="set-up-the-asset-management-mobile-workspace"></a>Varahalduse mobiilse tööruumi häälestamine
 
@@ -52,12 +52,12 @@ Varahalduse funktsioonide kättesaadavaks tegemiseks finantside ja toimingute (D
 
 ## <a name="install-and-set-up-the-finance-and-operations-dynamics-365-mobile-app"></a>Finantside ja toimingute (Dynamics 365) mobiilirakenduse installimine ja häälestamine
 
-1. Avage üks järgmistest rakenduse kauplustest, et **installida oma mobiilseadmesse Microsoft Finance and Operations (Dynamics 365)** rakendus:
+1. Avage üks järgmistest rakenduse kauplustest, et **installida oma mobiilseadmesse Microsofti finantside ja toimingute (Dynamics 365)** rakendus:
 
     - [Google’i Androidi seadmed](https://go.microsoft.com/fwlink/?linkid=850662)
     - [Apple’i iOS-i seadmed](https://go.microsoft.com/fwlink/?linkid=850663)
 
-1. Avage rakendus Finantsid ja toimingud (Dynamics 365). Ilmuma peaks sisselogimisleht. Sisestage **sisselogimise** väljale oma Supply Chain Managementi URL või valige loendist **Hiljutised keskkonnad** hiljutine URL ja puudutage seejärel valikut **Ühenda**.
+1. Avage finantside ja toimingute (Dynamics 365) rakendus. Ilmuma peaks sisselogimisleht. Sisestage **sisselogimise** väljale oma Supply Chain Managementi URL või valige loendist **Hiljutised keskkonnad** hiljutine URL ja puudutage seejärel valikut **Ühenda**.
 
     ![Sisselogimise leht.](media/mobile-app-sign-in.png "Sisselogimise leht")
 

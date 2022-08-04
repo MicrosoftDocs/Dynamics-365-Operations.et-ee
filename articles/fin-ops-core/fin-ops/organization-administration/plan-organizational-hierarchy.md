@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ef906c0d60639da763f2a9c1e1adf508b0849b8978dff17cd0e7b3936fc4779e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5bb0b306cca715cad64d62fff843987a8e98eb99
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771868"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9108760"
 ---
 # <a name="plan-your-organizational-hierarchy"></a>Organisatsiooni hierarhia kavandamine
 
@@ -42,7 +42,7 @@ Hierarhiate planeerimisel on oluline arvestada ka organisatsiooni hierarhia ja f
 
 Ettevõttel peab olema vähemalt üks juriidiline isik. Juriidiline isik võib sõlmida seaduslikke lepinguid ja on kohustatud koostama oma tegevuse kohta finantsaruandeid.
 
-Juriidilisi isikuid saab kasutada ärikanneteks või konsolideerimiseks. See tähendab, et juriidiline isik rakenduses Finance and Operations ei pruugi kajastada tingimata teie ettevõtte tegelikku üksust. Näiteks võib kannetes osalevale ettevõttele kuuluda allettevõtete juriidilisi isikuid. Selle stsenaariumi puhul on kannete jaoks vajalik juriidiline isik ja allettevõtete juriidiliste isikute tulemuste ja saldode konsolideerimiseks on vajalik virtuaalne juriidiline isik.
+Juriidilisi isikuid saab kasutada ärikanneteks või konsolideerimiseks. See tähendab, et finantside ja toimingute juriidiline isik ei pea teie äritegevuses tingimata esindama reaalüksust. Näiteks võib kannetes osalevale ettevõttele kuuluda allettevõtete juriidilisi isikuid. Selle stsenaariumi puhul on kannete jaoks vajalik juriidiline isik ja allettevõtete juriidiliste isikute tulemuste ja saldode konsolideerimiseks on vajalik virtuaalne juriidiline isik.
 
 Ettevõtte siseorganisatsioone (nt piirkondlikke kontoreid) saab kajastada täiendavate juriidiliste isikute või peamise juriidilise isiku tootmisüksustena. Tootmisüksus ei pea olema juriidiliselt määratletud organisatsioon. Tootmisüksusi kasutatakse ettevõtte majandusressursside ja tööprotsesside juhtimiseks. Näiteks osakonnad ja kulukeskused on tootmisüksused.
 
@@ -171,7 +171,7 @@ Riikide/piirkondade puhul, mida toetatakse, saab koostada enamikku seaduslikke a
 
 #### <a name="if-the-organization-is-modeled-as-an-operating-unit"></a>Kui organisatsiooni mudel on tootmisüksus
 
-Kohustuslikud aruanded tuleb luua teise rakenduse abil. Peate veenduma, et andmed hõivatakse rakendustekomplektis Finance and Operations iga tootmisüksuse nõuete kohaselt, kui need peakontori nõuetest erinevad.
+Kohustuslikud aruanded tuleb luua teise rakenduse abil. Peate tagama, et finantside ja toimingute rakendustes on andmed hõivatud, et toetada iga tootmisüksuse vajadusi, kus need erinevad peakontori nõuetest.
 
 ### <a name="currency"></a>Valuuta
 
@@ -242,3 +242,4 @@ Arvestage organisatsiooni hierarhia juurutamisel järgmisi parimaid praktikaid.
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

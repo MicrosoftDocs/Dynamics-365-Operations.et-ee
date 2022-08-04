@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: dd645dcc79672e7f69afe47b803b90a04c22305d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 13a25d3f1f72d8053ed3951b036522cfa3a15959
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8856276"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065640"
 ---
 # <a name="configure-human-resources-parameters"></a>Human Resources'i parameetrite konfigureerimine
 
@@ -27,7 +27,7 @@ ms.locfileid: "8856276"
 
 Osa inimressursside parameetrite sätteid on ettevõtteülesed, samas kui teiste parameetrite sätted on ettevõttekohased. See artikkel selgitab, kuidas seadistada ettevõttepõhiseid inimressursside parameetreid.
 
-Personali ehk inimressursside parameetrite määramiseks kasutatakse kahte lehte. Ettevõtetes ühiskasutatavate parameetrite puhul kasutate lehte **Inimressursside ühiskasutusega parameetrid**. Ettevõttekohaste parameetrite (teisisõnu sätted, mis rakenduvad ühele ettevõttele) puhul kasutate lehte **Inimressursside parameetrid**.
+Personali ehk inimressursside parameetrite määramiseks kasutatakse kahte lehte. Ettevõtetes ühiskasutatavate parameetrite puhul kasutate lehte **Inimressursside ühiskasutusega parameetrid**. Ettevõttele omaste parameetrite puhul kasutage lehte **Inimressursside parameetrid**.
 
 ![Avage inimressursside parameetrid.](./media/hr-employee-self-service-human-resources-parameters.png)
 
@@ -74,9 +74,10 @@ Dynamics 365 Finance'is määravad **vahekaardi Tasu** sätted, kas kasutajad pe
 
 Inimressursside moodulis saate vahekaardi **Hüvitus** kaudu soovi korral piirata juurdepääsu kompensatsiooniplaanidele ja häälestada vaikevaluuta.
 
-Lisateavet kompensatsiooni kohta leiate artiklist [Kompensatsiooniplaanide ülevaade](hr-compensation-overview.md).
+> [!NOTE]
+> Ühendatud infrastruktuuris on inimressursside parameetrite **lehe** **vahekaardil** Tasu vaikimisi **valuuta** parameeter eemaldatud. Edasi liikudes käsitseb valuutat **pearaamatu** valuuta parameeter, et tagada olemasolevate finantside ja operatsioonide funktsioonide vastuolud ja duplikaadid. Lisateavet pearaamatu valuutafunktsioonide kasutamise kohta vt pearaamatute [konfigureerimine](/general-ledger/configure-ledger#configuring-currencies-for-the-ledger.md). 
 
-![Kompensatsiooni vahekaart.](./media/hr-setup-parameters-compensation.png)
+Lisateavet kompensatsiooni kohta leiate artiklist [Kompensatsiooniplaanide ülevaade](hr-compensation-overview.md).
 
 ## <a name="number-sequences"></a>Numbriseeriad
 
@@ -122,7 +123,7 @@ Lisateavet töötaja iseteeninduse häälestamise **kohta vt töötaja** ja [juh
 Vahekaardil Halduri iseteeninduse **sätted mõjutavad** seda, mida juhatajad haldurite **iseteeninduses näevad**. Sellel vahekaardil saate konfigureerida järgmisi valikuid:
 
 - Aeguvate kirjete vahemik
-- Teabehaldurid saavad aegumiskirjetes vaadata järgmist teavet
+- Teave, mida haldurid saavad aegumiskirjetes vaadata
 - Kas ülemused saavad laiendatud aruannete jaoks vaadata vabu ametikohti?
 - Lahkuvate töötajate vaated
 - Ülemustele kasulikud lingid

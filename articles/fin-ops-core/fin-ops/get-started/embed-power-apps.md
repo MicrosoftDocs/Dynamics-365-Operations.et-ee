@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
-ms.openlocfilehash: fb81aa058e749df346ee87bbe83427b20b234b72
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d7dc45e56c5fa616c288ebb4b919f039b7358794
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8898394"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9123650"
 ---
 # <a name="embed-canvas-apps-from-power-apps"></a>Power Appsi lõuendirakenduste manustamine
 
@@ -27,7 +27,7 @@ ms.locfileid: "8898394"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Microsoft Power Apps on teenus, mis võimaldab arendajatel ja mittetehnilistel kasutajatel luua kohandatud ärirakendusi mobiilsete seadmete, tahvelarvutite ja veebi jaoks ilma koodi kirjutamata. Finantside ja toimingute rakendused toetavad integreerimist Power Apps. Canvas rakendusi, mida teie, organisatsioon või laiem välja töötada, saab manustada Finantside ja toimingute rakendustesse toote funktsioonide laiendamiseks. Näiteks võite koostada lõuendi rakenduse, et Power Apps täiendada finantside ja toimingute rakendust muust süsteemist toodud teabega.
+Microsoft Power Apps on teenus, mis võimaldab arendajatel ja mittetehnilistel kasutajatel luua kohandatud ärirakendusi mobiilsete seadmete, tahvelarvutite ja veebi jaoks ilma koodi kirjutamata. Finantside ja toimingute rakendused toetavad integreerimist Power Apps. Canvas rakendusi, mida teie, organisatsioon või laiem välja töötada, saab kasutada finantside ja operatsioonide rakendustesse toote funktsioonide arendamiseks. Näiteks võite koostada lõuendi rakenduse, et Power Apps täiendada finants- ja operatsioonide rakendust muust süsteemist toodud teabega.
 
 Lisateavet CanvasAppsi manustamise kohta vaadake lühivideost [Kuidas manustada CanvasAppsi rakendusse](https://www.youtube.com/watch?v=x3qyA1bH-NY).
 
@@ -35,7 +35,7 @@ Lisateavet CanvasAppsi manustamise kohta vaadake lühivideost [Kuidas manustada 
 
 Enne Power Appsi rakenduse manustamist klienti peate leidma või looma soovitud visuaalide või funktsioonidega rakenduse. See artikkel ei sisalda rakenduste loomise protsessi üksikasjalikku kirjeldust. Kui hakkasite Power Appsi alles kasutama, lugege [Power Appsi dokumentatsiooni](/powerapps/).
 
-Lõuendirakenduse finantside ja toimingute rakendusesse kaasamiseks on kolm viisi. Saate kasutada lähenemist, mis sobib kõige paremini teie stsenaariumiga. 
+Lõuendirakenduse finantside ja toimingute rakendusele kaasamiseks on kolm viisi. Saate kasutada lähenemist, mis sobib kõige paremini teie stsenaariumiga. 
 
 - Manustage lõuendirakendus lehekülje **Power Apps** standardsel tegevuspaanil olevale nupule. Sel viisil lisatavate rakenduste puhul kuvatakse üksused **Power Apps** menüü nupuga ja rakendused on avatud külgpaanil. 
 - Manustage lõuendirakendus otse olemasolevale lehele uue vahelehe lehena (liigendtabel, kiirkaart, rakendus või tööruumi jaotis).
@@ -68,7 +68,7 @@ Järgmises protsessis näidatakse, kuidas lõuendirakendust manustada Power Apps
 
 ### <a name="embedding-a-canvas-app-as-a-full-page-experience-from-the-dashboard"></a>Lõuendirakenduse manustamine juhtpaneelilt täisleheküljelise kogemusena
 
-Võite soovida manustada lõuendi rakenduse armatuurlaudalt, kui rakendus ei ole seotud olemasoleva leheküljega, või kui soovite rakenduse kuvada ainult täislehena Finantside ja toimingute rakenduses.
+Võite soovida manustada lõuendi rakenduse armatuurlaudalt, kui rakendus ei ole seotud olemasoleva leheküljega, või kui soovite rakenduse kuvada ainult finantside ja toimingute rakenduse täislehena.
 
 > [!NOTE]
 > Et see võimalus oleks saadaval, peate funktsioonihalduses lülitama sisse funktsiooni **Täieliku lehe rakendused**. 
@@ -86,7 +86,7 @@ Kui manustate lõuendi rakenduse, peate seadistama järgmised parameetrid:
 
 - **Nimi** – sisestage tekst, mida tuleks kuvada nupu või vahekaardi jaoks, mis sisaldab manustatud rakendust. Sageli võiksite sellel väljal korrata rakenduse nime.
 - **Rakenduse ID** - määrake manustatava lõuendrakenduse globaalselt kordumatu identifikaator (GUID). Selle väärtuse toomiseks leidke rakendus aadressilt [make.powerapps.com](https://make.powerapps.com) ja seejärel heitke pilk väljale **Rakenduse ID** jaotises **Üksikasjad**.
-- **Rakenduse sisendkontekst** - valikuliselt saate valida välja, mis sisaldab andmeid, mida soovite rakendusele sisendina edastada. Teavet selle kohta, kuidas rakendus pääseb juurde finantside ja toimingute rakendustest [saadetavatele andmetele, vaadake rakenduse ülesehitada rakendust,](#building-a-canvas-app-that-uses-data-that-is-sent-from-finance-and-operations-apps) mis võimendab finantside ja toimingute rakenduste jaotisest saadetavaid andmeid selles artiklis hiljem.
+- **Rakenduse sisendkontekst** - valikuliselt saate valida välja, mis sisaldab andmeid, mida soovite rakendusele sisendina edastada. Teavet selle kohta, kuidas rakendus pääseb juurde finantside ja toimingute rakendustest saadetavatele andmetele, vt selle artikli jaotisest" rakenduse ülesehitada rakendust, [mis](#building-a-canvas-app-that-uses-data-that-is-sent-from-finance-and-operations-apps) võimendab finantside ja toimingute rakenduste jaotisest saadetavaid andmeid.
 
     Alates versioonist 10.0.19 edastatakse praegune juriidiline isik samuti ka lõuendi rakenduse kontekstina **cmp** URL-i parameetri kaudu. See käitumine ei mõjuta sihtmärgi lõuendi rakendust enne, kui rakendus kasutab seda teavet.
 
@@ -107,15 +107,15 @@ Kui olete lõuendirakenduse lehel manustanud ja veendunud, et see töötab korre
     - Kui **salvestatud vaadete** funktsioon on välja lülitatud, saab süsteemiadministraator lõuendirakenduse **Isikupärastamise** lehe kaudu sobivale kasutajakomplektile anda. Teise võimalusena saate eksportida oma lehe isikupärastamised ja saata need ühele või mitmele kasutajale. Seejärel saavad kõik need kasutajad isikupärastamise importida. Isikupärastamise tööriistaribal on nupud, mis võimaldavad isikupärastamisi eksportida ja importida.
 
 > [!NOTE]
-> Kui lõuendi rakendus on ühiskasutuses väliste kasutajatega, ei saa need kasutajad finantside ja toimingute rakendustes manustatud rakendust kasutada. Siiski pääsevad nad rakendusele juurde otse Power Appsis. Välised kasutajad hõlmavad külalisi ja kasutajaid, kes ei kuulu Microsoft 365 Azure'i kausta, kus juurutatakse rakendus Finantsid ja toimingud.
+> Kui lõuendi rakendus on ühiskasutuses väliste kasutajatega, ei saa need kasutajad kasutada manustatud rakendust finantside ja toimingute rakenduste sees. Siiski pääsevad nad rakendusele juurde otse Power Appsis. Välised kasutajad hõlmavad külalisi ja kasutajaid, kes ei kuulu Microsoft 365 Azure'i kausta, kus juurutatakse finantside ja toimingute rakendus.
 
 Toote isikupärastamise võimaluste ja nende kasutamise kohta vaadake lisateavet teemast [Kasutuskogemuse isikupärastamine](personalize-user-experience.md).
 
 ## <a name="building-a-canvas-app-that-uses-data-that-is-sent-from-finance-and-operations-apps"></a>Lõuendirakenduse ülesehimine, mis kasutab finantside ja toimingute rakendustest saadetud andmeid
 
-Kui koostate lõuendi rakendust, mis on manustatud Finantside ja toimingute rakendusse, on üks oluline osa protsessist, et kasutada sisendandmeid rakendusest Finantsid ja toimingud. Arenduskogemuse Power Apps kaudu pääseb Finantside **ja toimingute rakendusest edastatud sisendandmetele juurde Param("EntityId") muutuja** abil. Alates versioonist 10.0.19 edastatakse praegune juriidiline isik lisaks ka lõuendi rakenduse kontekstina **Param("cmp")** muutuja kaudu. 
+Kui koostate lõuendi rakendust, mis on manustatud finantside ja toimingute rakendusse, on üks oluline osa protsessist, et kasutada sisendandmeid sellest finantside ja toimingute rakendusest. Arenduskogemuse Power Apps kaudu pääseb finantside **ja toimingute rakendusest edastatud sisendandmetele juurde Param("EntityId") muutuja** abil. Alates versioonist 10.0.19 edastatakse praegune juriidiline isik lisaks ka lõuendi rakenduse kontekstina **Param("cmp")** muutuja kaudu. 
 
-Näiteks rakenduse OnStart funktsioonis saate finantside ja toimingute rakenduste sisendandmed seadistada muutujale, mis on järgmine:
+Näiteks võite rakenduse OnStart funktsioonis seadistada finantside ja toimingute rakenduste sisendandmed muutujale, mis on järgmine:
 
 ``` Power Apps
 If(!IsBlank(Param("EntityId")), Set(FinOpsInput, Param("EntityId")), Set(FinOpsInput, ""));
@@ -125,7 +125,7 @@ If(!IsBlank(Param("cmp")), Set(FinOpsLegalEntity, Param("cmp")), Set(FinOpsLegal
 
 ## <a name="viewing-a-canvas-app"></a>Lõuendirakenduse kuvamine
 
-Manustatud lõuendirakenduse vaatamiseks rakenduse Finance and Operations rakenduste lehel minge lehele, kus on manustatud rakendus. Pidage meeles, et rakendustele on võimalik juurde pääseda standardsel toimingupaanil asuva nupu **Power Apps** kaudu. Teise võimalusena võidakse need kuvada otse lehel uue vahekaardi, kiirkaardi või labana või tööruumis uue jaotisena. Kui kasutajad püüavad rakendust esimest korda lehel laadida, palutakse neil sisse logida. Selle abil tagatakse, et kasutajatel oleksid rakenduse kasutamiseks sobivad load.
+Manustatud lõuendirakenduse vaatamiseks lehel finantside ja toimingute rakendustes minge lehele, kus on manustatud rakendus. Pidage meeles, et rakendustele on võimalik juurde pääseda standardsel toimingupaanil asuva nupu **Power Apps** kaudu. Teise võimalusena võidakse need kuvada otse lehel uue vahekaardi, kiirkaardi või labana või tööruumis uue jaotisena. Kui kasutajad püüavad rakendust esimest korda lehel laadida, palutakse neil sisse logida. Selle abil tagatakse, et kasutajatel oleksid rakenduse kasutamiseks sobivad load.
 
 ## <a name="editing-an-embedded-app"></a>Manustatud rakenduse redigeerimine
 
@@ -184,3 +184,4 @@ public final class ClassTest_Extension
 ```
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

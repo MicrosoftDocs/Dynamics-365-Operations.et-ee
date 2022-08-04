@@ -1,22 +1,22 @@
 ---
 title: Commerce Scale Uniti (pilv) lähtestamine
 description: See artikkel selgitab, kuidas käivitada Commerce Scale Uniti (pilve) sisse Microsoft Dynamics 365 Commerce.
-author: AamirAllaq
-ms.date: 06/03/2022
+author: jashanno
+ms.date: 07/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User, Developer, IT Pro
-ms.reviewer: sericks
+ms.reviewer: josaw
 ms.search.region: Global
-ms.author: aamiral
+ms.author: jashanno
 ms.search.validFrom: 2018-4-30
-ms.openlocfilehash: 969dd220a7b73a676b9cf5ac26223ebd9b3f2296
-ms.sourcegitcommit: ddcb62bb5fbf26a1178c2bb1aec45a3d2362339e
+ms.openlocfilehash: 93fbf2893fecc7b731f946797907bce4f8448309
+ms.sourcegitcommit: 8032d6275e6d9994ef9759ee16e743b483f7689e
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/07/2022
-ms.locfileid: "8942848"
+ms.lasthandoff: 07/21/2022
+ms.locfileid: "9183359"
 ---
 # <a name="initialize-commerce-scale-unit-cloud"></a>Commerce Scale Uniti (pilv) lähtestamine
 
@@ -51,30 +51,30 @@ Commerce Scale Unit on saadaval juurutamiseks järgmistes regioonides.
 
 | Globaalne asukoht | Regioon              | Kättesaadavus        | Kommentaarid                  |
 |-----------------|---------------------|---------------------|---------------------------|
-| AMERICAS        | Ida-USA             | Üldiselt saadaval |                           |
-| AMERICAS        | Ida-USA 2           | Üldiselt saadaval |                           |
-| AMERICAS        | Kesk-USA põhjaosa    | Piiratud võimsus    |                           |
-| AMERICAS        | Kesk-USA lõunaosa    | Piiratud võimsus    |                           |
-| AMERICAS        | Kesk-USA          | Üldiselt saadaval |                           |
-| AMERICAS        | Lääne-USA             | Üldiselt saadaval |                           |
-| AMERICAS        | Lääne-USA 2           | Üldiselt saadaval |                           |
-| AMERICAS        | Kanada keskpank      | Piiratud võimsus    |                           |
-| AMERICAS        | Kanada, Ida         | Piiratud võimsus    |                           |
-| AMERICAS        | Lääne-Kesk-USA     | Piiratud võimsus    |                           |
-| APAC            | Ida-Austraalia      | Üldiselt saadaval |                           |
-| APAC            | Kagu-Aasia      | Piiratud võimsus | Juurutused pole lubatud    |
-| APAC            | Ida-Jaapan          | Üldiselt saadaval |                           |
-| APAC            | Lääne-Jaapan          | Üldiselt saadaval |                           |
-| APAC            | Kagu-Austraalia | Üldiselt saadaval |                           |
-| APAC            | Ida-Aasia           | Piiratud võimsus    |                           |
-| APAC            | India ( Lõuna-India)         | Piiratud võimsus | Juurutused pole lubatud    |
-| APAC            | India Central       | Piiratud võimsus    | Vajab kinnitusprotsessi |
-| EMEA            | Lääne-Euroopa         | Üldiselt saadaval |                           |
-| EMEA            | Põhja-Euroopa        | Üldiselt saadaval |                           |
-| EMEA            | UK Lõuna            | Piiratud võimsus    |                           |
-| EMEA            | UK, Lääs             | Piiratud võimsus    |                           |
-| Šveits     | Põhja-Šveits   | Piiratud võimsus    | Vajab kinnitusprotsessi |
-| AÜE             | Põhja-AÜE           | Piiratud võimsus    | Vajab kinnitusprotsessi |
+| AMERICAS        | Ida-USA             | Üldiselt saadaval |  Kommentaarid puuduvad.                         |
+| AMERICAS        | Ida-USA 2           | Üldiselt saadaval |  Kommentaarid puuduvad.                          |
+| AMERICAS        | Kesk-USA põhjaosa    | Piiratud võimsus    |  Kommentaarid puuduvad.                            |
+| AMERICAS        | Kesk-USA lõunaosa    | Piiratud võimsus    |  Kommentaarid puuduvad.                            |
+| AMERICAS        | Kesk-USA          | Üldiselt saadaval |  Kommentaarid puuduvad.                            |
+| AMERICAS        | Lääne-USA             | Üldiselt saadaval |  Kommentaarid puuduvad.                            |
+| AMERICAS        | Lääne-USA 2           | Üldiselt saadaval |  Kommentaarid puuduvad.                            |
+| AMERICAS        | Kanada keskpank      | Piiratud võimsus    |  Kommentaarid puuduvad.                            |
+| AMERICAS        | Kanada, Ida         | Piiratud võimsus    |   Kommentaarid puuduvad.                           |
+| AMERICAS        | Lääne-Kesk-USA     | Piiratud võimsus    |   Kommentaarid puuduvad.                           |
+| APAC            | Ida-Austraalia      | Üldiselt saadaval |   Kommentaarid puuduvad.                           |
+| APAC            | Kagu-Aasia      | Piiratud võimsus | Juurutused pole lubatud.    |
+| APAC            | Ida-Jaapan          | Üldiselt saadaval |  Kommentaarid puuduvad.                            |
+| APAC            | Lääne-Jaapan          | Üldiselt saadaval |   Kommentaarid puuduvad.                           |
+| APAC            | Kagu-Austraalia | Üldiselt saadaval |   Kommentaarid puuduvad.                           |
+| APAC            | Ida-Aasia           | Piiratud võimsus    |   Kommentaarid puuduvad.                           |
+| APAC            | India ( Lõuna-India)         | Piiratud võimsus | Juurutused pole lubatud.    |
+| APAC            | India Central       | Piiratud võimsus    | Vajab kinnitusprotsessi. |
+| EMEA            | Lääne-Euroopa         | Piiratud võimsus    | Praegu pole LCS-s saadaval. |
+| EMEA            | Põhja-Euroopa        | Piiratud võimsus    | Praegu pole LCS-s saadaval. |
+| EMEA            | UK Lõuna            | Üldiselt saadaval |    Kommentaarid puuduvad.                          |
+| EMEA            | UK, Lääs             | Üldiselt saadaval |    Kommentaarid puuduvad.                          |
+| Šveits     | Põhja-Šveits   | Piiratud võimsus    | Vajab kinnitusprotsessi. |
+| Aüe             | Põhja-AÜE           | Piiratud võimsus    | Vajab kinnitusprotsessi. |
 
 Piiratud võimsusega regioonides on juurutamisvõimsus väga piiratud. Juurutamistaotlusi hinnatakse juhtumi kaupa. Kui teil on piiratud võimsusega regioonides ärisuhteid vaja juurutada, saate ooteloendisse lisata tugitaotluse. Võimsuse piiratud alad ei võimalda praegu Commerce Scale Uniti juurutamist. 
 

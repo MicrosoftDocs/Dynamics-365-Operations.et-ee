@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 93d25a260cfc94e898ef50c618b2cbc640c963bc
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 04c26eec8be61d60908bef67c75958287e7e1a01
+ms.sourcegitcommit: 85141b21ac90f3db1b378c21f9c7f3d8f74e182f
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8876321"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9129508"
 ---
 # <a name="create-a-customer-invoice"></a>Kliendiarve loomine
 
@@ -76,7 +76,7 @@ Arve sisestamisel uuendatakse iga kauba kogus väljal **Arve jääk** tarnitud k
 
 Laokandeid uuendatakse koos arvenumbritega ja olek müügitellimuse väljal **Rea olek** muutub olekuks **Arveldatud**. 
 
-Müügitellimuste olekut saab vaadata loendilehel **Kõik müügitellimused**.
+Vaadake müügitellimuste olekut lehel **Kõik müügitellimused**.
 
 ## <a name="consolidate-sales-orders-or-packing-slips-for-posting"></a>Müügitellimuste või saatelehtede konsolideerimine sisestamiseks
 Kasutage seda protsessi, kui vähemalt üks müügitellimus on arveldamiseks valmis ja soovite need ühele arvele konsolideerida. 
@@ -90,6 +90,14 @@ Saate konfigureerida müügitellimuse kliendiarvete **tükeldamise** **saidi võ
 
 ## <a name="post-to-revenue-account-for-sales-order-lines-that-have-no-price-and-no-cost"></a>Tulukontole sisestamisel müügitellimuse ridadele, kus hind puudub ja kulu puudub
 Teil on võimalus värskendada pearaamatu **tulukontot** **müügitellimuse** ridadel, kus hind ja kulu puudub. Selle teabe häälestamiseks või vaatamiseks **minge** **·** **tulukontole sisestamisele nullhinnaga ja nullkuluga müügitellimuse arve ridade parameetrile pearaamatu ja müügireskontro parameetrite lehe käibemaksu vahekaardil.** (Müügireskontro **> seadistus > Müügireskontro parameetrid**). Valige **Jah**, et uuendada **tulukonto** müügitellimuse arve ridadele, mille hind ja kulu puudub. Kui see suvand on valitud, sisaldab kanne 0,00 kirjet kliendi **saldo** ja tulu sisestustüüpide **kohta**. Tulukonto määratletakse vahekaardi Müügitellimuse **konto** määratlus lehel Varude **sisestamise** parameeter. Kui seda valikut ei valita, ei sisestata hinna- või kuluteabeta ridu **tulukontole**. Selle asemel sisaldab kanne kliendi saldo sisestustüübi jaoks 0,00 **kirjet**.
+
+## <a name="line-creation-sequence-number-information"></a>Rea loomise järjekorranumbri teave
+Kliendiarve ridade sisestamisel saate luua jadarea loomise järjekorranumbrid. Rea loomise järjekorranumbrid määratakse sisestusprotsessi käigus. Kui lubate mittejärjenumbrite sisestamist, saate aidata parandada kliendiarvete sisestamise jõudlust. Rea loomise järjekorranumbreid saavad kasutada kolmanda osapoole integratsioonid, mis ootavad järjestikku tellimist. Konsulteerige oma IT-osakonnaga mis tahes laiendite suhtes, mis võivad integreeruda rea loomise järjekorranumbritega.
+
+Selle teabe **häälestamiseks** **·** **või vaatamiseks seadke müügireskontro parameetrite lehel vahekaardil Värskendused suvand Määra kliendiarve ridade sisestamisel järjestikused reanumbrid:**
+
+- Rea loomise järjekorranumbrite **mittejärjekorranumbrite** kasutamiseks määrake suvandiks Ei.
+- Seadke valikule **Jah**, et kasutada seerianumbrite nummerdamist. Peate määrama suvandi Jah juriidilistele **isikutele**, kelle peamine aadress on Itaalias. Kui **custInvoiceTransRandLineCreationSeqNumF** **flight** on keelatud, peate selle määrama väärtusele Jah.
 
 ## <a name="additional-settings-that-change-the-posting-behavior"></a>Sisestamiskäitumist muutvad lisasätted
 Järgmised väljad muudavad sisestamisprotsessi käitumist.

@@ -1,6 +1,6 @@
 ---
 title: Eemalda eksemplar
-description: See artikkel selgitab proovi- või tootmiskeskkonna eemaldamise protsessi rakenduse Microsoft Dynamics 365 Human Resources puhul.
+description: See artikkel kirjeldab testdraivi või Microsofti tootmiskeskkonna eemaldamise protsessi Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 08/11/2021
 ms.topic: article
@@ -14,16 +14,22 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4256938be70f301d3d7b7663f10addb19725b048
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0ce676c93e133cc04ad9c49417ed2ca0d6791e93
+ms.sourcegitcommit: 1401d66b6b64c590ca1f8f339d622e922920cf15
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8859629"
+ms.lasthandoff: 07/20/2022
+ms.locfileid: "9178468"
 ---
 # <a name="remove-an-instance"></a>Eemalda eksemplar
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+_**Rakendub:** inimressursid autonoomsel infrastruktuuril_ 
+
+> [!NOTE]
+> Alates 2022. juulist ei saa uusi inimressursid keskkondi eraldi inimressursside infrastruktuuris Microsoft Dynamics ette luua ja uusi elutsükli teenuste (LCS) projekte ei saa selles luua. Kliendid saavad inimressursside keskkondi kasutusele võtta finantside ja toimingute infrastruktuuris. Lisateavet vt inimressursside ettevalmistamisest [finantside ja toimingute infrastruktuuris](/hr-admin-setup-provision-fo.md).
+
+> [!IMPORTANT]
+> Finantside ja toimingute rakenduse infrastruktuur toetab keskkonna kustutamist. Lisateavet keskkonna kustutamise kohta vt keskkonna [kustutamine](../fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure.md#delete-an-environment).
 
 See artikkel selgitab microsofti testdraivi või tootmiskeskkonna eemaldamise protsessi Dynamics 365 Human Resources.
 
@@ -42,10 +48,13 @@ Olemasolev proovikeskkond eemaldatakse. Kui see on eemaldatud, saate registreeri
 
 See artikkel eeldab, et olete ostnud rakenduse Human Resources pilvelahenduse pakkuja (CSP) või ettevõtte arhitektuuri (AE) lepingu kaudu. 
 
-Kuna üks Human Resourcesi keskkond asub ühes Power Appsi keskkonnas, on kaks valikut. Esimene valik hõlmab kogu Power Appsi keskkonna eemaldamist; teine hõlmab ainult Human Resourcesi eemaldamist. Esimene valik on soovitatav, kui lõite Power Appsi keskkonna spetsiaalselt Human Resourcesi ettevalmistamiseks ja olete just juurutamisega alustanud või te pole loonud integratsioone. Teine suvand on sobiv, kui teil on loodud Power Appsi keskkond, mis on täidetud rikasandmetega, mida kasutatakse Power Appsis ja Power Automate’is.
+Kuna üks Inimressursid keskkond sisaldub ühes Power Apps keskkonnas, on keskkonna eemaldamisel vaja arvestada kahe valikuga: 
+- **Eemalda kogu Power Apps keskkond.** Seda valikut eelistatakse siis Power Apps, kui keskkond loodi Inimressursside ressursina kasutamiseks, rakendamine on just alanud või kui teil ei ole kindlaks määratud integratsiooni.  
+- **Eemalda ainult inimressursid.** See valik on sobiv, kui on loodud Power Apps keskkond, mis on asustatud andmetega, mida kasutatakse ja Microsoft Power Apps Power Automate.
+
 
 > [!Important]
-> Enne Power Appsi keskkonna eemaldamist veenduge, et seda ei kasutataks rikasandmete integreerimiseks väljaspool rakenduse Human Resources ulatust. Pange tähele, et Power Appsi vaikekeskkondasid ei saa eemaldada. 
+> Enne keskkonna eemaldamist Power Apps veenduge, et seda ei kasutata andmete integratsiooniks väljaspool Inimressursside ulatust. Pange tähele, et Power Appsi vaikekeskkondasid ei saa eemaldada. 
 
 Kogu Power Appsi keskkonna eemaldamiseks koos Human Resourcesi ja seotud rakenduste ning voogudega tehke järgmist.
 
@@ -73,7 +82,7 @@ Rakenduse Human Resources eemaldamiseks olemasolevast Power Appsi keskkonnast te
 
 ## <a name="recover-a-soft-deleted-environment"></a>Ajutiselt kustutatud keskkonna taastamine
 
-Kui kustutate Power Appsi keskkonna, millega on ühendatud teie Human Resourcesi keskkond, kustutatakse Human Resourcesi olek teenuses Lifecycle Services **ajutiselt**. Sel juhul ei saa kasutajad Human Resourcesiga ühendust luua.
+Kui kustutate keskkonna Power Apps, millega teie inimressursid keskkond on ühendatud, kustutatakse LCS-i inimressursside keskkonna olek **Kerge**. Sel juhul ei saa kasutajad Human Resourcesiga ühendust luua.
 
 Keskkonna taastamiseks tehke järgmist.
 
@@ -82,7 +91,7 @@ Keskkonna taastamiseks tehke järgmist.
 2. Human Resourcesi keskkonna taastamiseks võtke ühendust tugiteenusega. Lisateavet leiate teemast [Toe hankimine](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md).
 
 > [!Warning]
-> Power Appsi keskkondi salvestatakse ainult seitse päeva pärast kustutamist. Peate taastama keskkonna seitsme päeva jooksul.
+> Power Appsi keskkondi salvestatakse ainult seitse päeva pärast kustutamist. Peate taastama keskkonna 7-päevase perioodi jooksul.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

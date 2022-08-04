@@ -14,21 +14,21 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fcbe41d113ee41734020546388851afb7fc27bbf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7b6fb9643873178f1cb93e3da15e83598af51de0
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8910411"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9109546"
 ---
 # <a name="financial-performance-powerbicom-solution"></a>Finantstulemuste PowerBI.com’i lahendus
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> See PowerBI.com lahendus on aegunud, nagu on kirjas dokumendis [Rakenduse Finance and Operations eemaldatud või aegunud funktsioonid](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
+> See PowerBI.com on dokumenteeritud finantside [ja toimingute eemaldatud või taunitud funktsioonidena](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
 
-See artikkel kirjeldab **finantsjõudluse** PowerBI.com kirjeldust. See kirjeldab armatuurlauda ja selles sisalduvaid aruandeid ning annab teavet lahenduse loomiseks kasutatud andmemudeli ja üksuste kohta.
+See artikkel kirjeldab **finantsjõudluse** PowerBI.com teavet. See kirjeldab armatuurlauda ja selles sisalduvaid aruandeid ning annab teavet lahenduse loomiseks kasutatud andmemudeli ja üksuste kohta.
 
 ## <a name="main-account-setup"></a>Põhikonto seadistus
 Kuna organisatsioonid soovivad kuvada kohustused ja tulusummad aruannetel positiivsete summadena, on põhikontode seadistus oluline. Selleks, et need põhikontod kuvataks positiivsete summadena, peab põhikonto tüübiks olema määratud **Kohustus** või **Tulu**. Kui kasutatakse neid kontotüüpe, pööratakse aruande koostamisel Power BI kaudu märgid ümber ja näidatakse summasid positiivsena.

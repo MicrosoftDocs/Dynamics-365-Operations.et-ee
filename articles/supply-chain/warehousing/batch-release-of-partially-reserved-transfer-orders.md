@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 591c93eef61992507188323909f37e3f33550a7d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.openlocfilehash: e0b21c0000f6bf1cbbb318c898a519e51ca7e9b8
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8888379"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068627"
 ---
 # <a name="batch-release-of-partially-reserved-transfer-orders"></a>Osaliselt reserveeritud üleviimistellimuste hulgiväljastamine
 
@@ -28,7 +28,7 @@ ms.locfileid: "8888379"
 Osaliselt reserveeritud üleviimistellimuste hulgiväljastamise funktsioon võimaldab pakett-töö abil üleviimistellimusi osaliselt lattu väljastada.
 Kuna on olemas osalise koguse väljastamise võimalus, ei pea enne tellimuse väljastamist ootama, et terve tellimuse kogus laos kättesaadav oleks.
 
-Tellimuste väljastamine lattu on täpsem laohalduse protsess. See protsess hõlmab tegevusi, nagu komplekteerimine, pakkimine ja saatmine, mida laotöötaja saab mobiilse seadme abil teha.
+Tellimuste lattu väljalase on laohaldusprotsess (WMS). See protsess hõlmab tegevusi, nagu komplekteerimine, pakkimine ja saatmine, mida laotöötaja saab mobiilse seadme abil teha.
 
 ## <a name="where-it-applies"></a>Kus see kehtib
 

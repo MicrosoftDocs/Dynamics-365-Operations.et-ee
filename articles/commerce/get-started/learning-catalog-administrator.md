@@ -12,18 +12,18 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 54a3dfe64d46b082db12ef05b88075831c9f525e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 473977a7a75bb7bbe493225c6455a918ba5f748e
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8898541"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070784"
 ---
 # <a name="learning-catalog-for-dynamics-365-commerce-administrators"></a>Õppekataloog Dynamics 365 Commerce'i administraatoritele
 
 Kas peate tagama süsteemide ja andmete voogavuse, ettevalmistamise ja turvalisuse ööpäevaringselt?
 
-Järgnev kataloog hõlmab üld- ja valdkonnapõhiseid teadmisi nii baas- kui ka süvatasemel. Kui sisu on mitmes vormingus, anname teile sellest teada, et saaksite valida koolitusvormingu, mis vastab teie vajadustele kõige paremini. See kataloog hõlmab ainult Dynamics 365 Commerce'i funktsioone. Lisateavet teiste finantside ja toimingute rakendustega ühiskasutuses funktsioonide kohta vt [Dynamics 365 finantside õppe kataloogist](../../finance/get-started/learning-catalog-administrator.md).
+Järgnev kataloog hõlmab üld- ja valdkonnapõhiseid teadmisi nii baas- kui ka süvatasemel. Kui sisu on mitmes vormingus, anname teile sellest teada, et saaksite valida koolitusvormingu, mis vastab teie vajadustele kõige paremini. See kataloog hõlmab ainult Dynamics 365 Commerce'i funktsioone. Teavet teiste finantside ja toimingute rakendustega ühiskasutuses funktsioonide kohta leiate [Dynamics 365 finantside õppekataloogist](../../finance/get-started/learning-catalog-administrator.md).
 
 ## <a name="get-started"></a>Alustage<a name="get-started"></a>
 
@@ -49,3 +49,4 @@ Järgnev kataloog hõlmab üld- ja valdkonnapõhiseid teadmisi nii baas- kui ka 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-03-31
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: fe083f16bd47b3f7bdfd366ae4b0fe4a02f49185
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 657c29ec6ddfb2be918424e06eaf219f51a30a02
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8906996"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069058"
 ---
 # <a name="license-plate-receiving-via-the-warehouse-management-mobile-app"></a>Identifitseerimisnumbri vastuvõtmine mobiilirakenduse Warehouse Management kaudu
 
@@ -26,7 +26,7 @@ ms.locfileid: "8906996"
 
 See artikkel selgitab laohalduse mobiilirakenduse seadistamist nii, et see toetab füüsiliste varude vastuvõtuprotsessi litsentsiplaadiga vastuvõtuprotsessi kasutamist.
 
-Selle funktsiooni abil saate kiiresti kirjendada sissetulevate varude vastuvõtmist, mis on seotud saadetise eelteatisega (ASN). Süsteem loob automaatselt ASN-i, kui üleviimistellimuse saatmiseks kasutatakse laohaldusprotsesse. Ostutellimuse protsessi puhul saab ASN-i käsitsi kirjendada või automaatselt importida sissetuleva ASN-i andmeüksuse protsessi abil.
+Selle funktsiooni abil saate kiiresti kirjendada sissetulevate varude vastuvõtmist, mis on seotud saadetise eelteatisega (ASN). Süsteem loob ASN-i automaatselt, kui laohaldusprotsesse (WMS) kasutatakse üleviimistellimuse lähetamiseks. Ostutellimuse protsessi puhul saab ASN-i käsitsi kirjendada või automaatselt importida sissetuleva ASN-i andmeüksuse protsessi abil.
 
 ASN-i andmed on seotud koormate ja saadetistega *pakkestruktuuride* kaudu, kus kaubaalused (peamised identifitseerimisnumbrid) võivad sisaldada kaste (pesastatud identifitseerimisnumbrid).
 

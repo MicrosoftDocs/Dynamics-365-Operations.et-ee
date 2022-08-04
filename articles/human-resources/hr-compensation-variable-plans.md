@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 22788dff1ee29b6920426d8ff00d412c3d5564e0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f2f51a095a23b651dca645b14e652519f20037e2
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8853070"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070554"
 ---
 # <a name="create-variable-compensation-plans"></a>Ergutussüsteemi plaanide loomine
 
@@ -42,7 +42,11 @@ Ergutussüsteemi summade arvutamine töötajatele võib põhineda mitmel teguril
 Soovi korral saavad ettevõtted seadistada **Pensionireegleid**. **Pensionireeglid** kirjeldavad, kuidas tuleks preemiat aja jooksul eraldada. Näiteks võib pensionireegel sätestada, et töötaja saab nelja järgmise aasta jooksul igal aastal 25 protsenti kogu preemiast. Pensionireeglid on üksnes informatiivsed.
 
 ## <a name="variable-compensation-plans"></a>Tulemustasu plaanid
-**Ergutussüsteemi plaan** sisaldab reegleid, arvutusmeetodeid ja vaikeväärtusi registreerunud töötajate ergutussüsteemi arvutamiseks. Ergutussüsteemi plaani loomisel peate määrama ergutussüsteemi tüübi. Ergutussüsteemi tüüp määrab, kas süsteem arvutab preemiana valuutasumma või ühikute arvu. Peate seadistama ka arvutusmeetodi.
+**Ergutussüsteemi plaan** sisaldab reegleid, arvutusmeetodeid ja vaikeväärtusi registreerunud töötajate ergutussüsteemi arvutamiseks. Ergutussüsteemi plaani loomisel peate määrama ergutussüsteemi tüübi. Ergutussüsteemi tüüp määrab, kas süsteem arvutab preemiana valuutasumma või ühikute arvu. 
+
+Juurdepääsu **piiramine valitud rolliparameetritele** piirab juurdepääsu tasuplaanile valitud turberollidele, mis on inimressurssides sellele plaanile määratud. Näiteks kui loote hüvitusplaane, mis on juhatajatele ja ei tohiks olla nähtavad kõigile inimressurssidele omastele rollidele, saate seda parameetrit kasutada juurdepääsu piiramiseks nendele tasuplaanidele. 
+
+Peate seadistama ka arvutusmeetodi.
 
 -   **Ajahetk** – preemia arvutus põhineb põhipalgal, mis töötajal konkreetsel kuupäeval oli. See kuupäev määratakse protsessisündmuses uute tasusummade töötlemisel.
 -   **Kombineeritud** – preemiasumma arvutatakse iga kordumatu põhipalga määra kohta, mis töötajal protsessisündmuse tsükli alguskuupäeva ja tsükli lõppkuupäeva vahel oli. Seejärel liidetakse määrad lõpliku preemia määramiseks kokku. Näiteks viidi tsükli ajal töötaja üle teisele ametikohale, millel oli teistsugune tasumäär. Sellisel juhul korrigeeritakse tulemustasu selle aja kohta, mille vältel töötajal kumbki tasumäär oli.

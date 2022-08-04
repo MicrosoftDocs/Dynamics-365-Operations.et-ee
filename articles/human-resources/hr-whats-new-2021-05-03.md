@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-05-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 01ebd15e09e181a7ea0ec5bf70c8df731d2169c0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: df8bd0277e4f27c23ba25c886d12f589913e5d46
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8902856"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066219"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-3-2021"></a>Mis on uus või muudetud rakenduses Dynamics 365 Human Resources (3. mai 2021)
 
@@ -70,7 +70,7 @@ Järgmised uued funktsioonid on eelversioonis. Lisateavet funktsioonide sisse- v
 
 | Funktsioon | Details |
 | --- | --- |
-| Platvormi värskendus 10.0.18 (42) | Platvormi värskendus 10.0.18 peaks tuleb välja teenuseväljalaske raames 17. mail 2021. Lisateavet vt Platvormi värskendustest [versioonile 10.0.18 Finance and Operations rakendustest (mai 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-18). |
+| Platvormi värskendus 10.0.18 (42) | Platvormi värskendus 10.0.18 peaks tuleb välja teenuseväljalaske raames 17. mail 2021. Lisateavet vt platvormi värskendustest [versioonile 10.0.18 finantside ja toimingute rakendustest (mai 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-18). |
 | Kohandatud väljade toe jaoks kvalifitseerumise reeglid soodustuste halduses  | [Kohandatud välja tugi kõlblikkuse töötlemiseks](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/custom-field-support-eligibility-processing) |
 
 Plaanitud funktsioonide täieliku loendi ja nende kavandatud väljaannete kohta leiate teavet teemast [Dynamics 365 Human Resourcesi 2021. aasta 1. väljalaskevoo ülevaade](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/).
@@ -83,3 +83,4 @@ Plaanitud funktsioonide täieliku loendi ja nende kavandatud väljaannete kohta 
 [Funktsioonide haldamine](hr-admin-manage-features.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

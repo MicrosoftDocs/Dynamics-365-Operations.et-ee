@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 3d1a45ad00e59581f27f2e822ccb47430219c501
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 38372f08db0258de8b5e653b4757c9fda96c8d70
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857369"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070465"
 ---
 # <a name="report-as-finished-from-the-job-card-device"></a>Töökaardi seadmes lõpetamisest teatamine
 
@@ -50,7 +50,7 @@ Lehega **Tootmistellimuse vaikesätted** töötamise kohta vaadake lisateavet te
 
 ## <a name="report-batch-controlled-items-as-finished"></a>Partii kaudu juhitud kaupade lõpetatuna teatamine
 
-Töökaardi seade toetab partiikaupade aruandluse osas kolme stsenaariumit. Need stsenaariumid kehtivad nii kaupadele, mis on lubatud täpsemate laoprotsesside jaoks, kui ka kaupadele, mis ei ole täpsemate laoprotsesside jaoks lubatud.
+Töökaardi seade toetab partiikaupade aruandluse osas kolme stsenaariumit. Need stsenaariumid kehtivad nii laohaldusprotsessidele lubatud kaupadele (WMS) kui ka kaupadele, mis pole WMS-i jaoks lubatud.
 
 - **Käsitsi määratud partiinumbrid** — töötajad sisestavad kohandatud partiinumbri. Partiinumber võib tuleneda välisallikast, mis ei ole süsteemile teada.
 - **Eelmääratletud partiinumbrid** — töötajad valivad partiinumbri partiinumbrite loetelust, mille süsteem on enne tootmistellimuse töökaardi seadmele väljastamist automaatselt loonud.
@@ -129,7 +129,7 @@ Antud stsenaariumi kasutamisel on töökaardi seadmes toodud lehel **Edenemisest
 
 ## <a name="report-serial-controlled-items-as-finished"></a>Seeria kaudu juhitud kaupade lõpetatuna teatamine
 
-Töökaardi seade toetab seeria kaudu juhitud kaupade aruandluse osas kolme stsenaariumit. Need stsenaariumid kehtivad nii kaupadele, mis on lubatud täpsemate laoprotsesside jaoks, kui ka kaupadele, mis ei ole täpsemate laoprotsesside jaoks lubatud.
+Töökaardi seade toetab seeria kaudu juhitud kaupade aruandluse osas kolme stsenaariumit. Need stsenaariumid kehtivad nii laohaldusprotsessidele lubatud kaupadele (WMS) kui ka kaupadele, mis pole WMS-i jaoks lubatud.
 
 - **Käsitsi määratud seerianumbrid** — töötajad sisestavad kohandatud seerianumbri. Seerianumber võib tuleneda välisallikast, mis ei ole süsteemile teada.
 - **Eelmääratletud seerianumbrid** — töötajad valivad seerianumbri seerianumbrite loetelust, mille süsteem on enne tootmistellimuse töökaardi seadmele väljastamist automaatselt loonud.
@@ -212,7 +212,7 @@ Antud stsenaariumi kasutamisel on töökaardi seadmes toodud lehel **Edenemisest
 
 ## <a name="report-as-finished-to-a-license-plate"></a>Lõpetatuna kinnitamine litsentsiplaadil
 
-Täpsemad laoprotsessid rakendavad lao asukohtades varude jälgimiseks vastaval otstarbel seadistatud litsentsiplaadi dimensiooni. Sellisel juhul nõutakse töötajalt koguste lõpetamisest teatamisel identifitseerimisnumbrit.
+Laohaldusprotsessid (WMS) saavad kasutada litsentsiplaadi dimensiooni selleks otstarbeks seadistatud lao asukohtade varude jälgimiseks. Sellisel juhul nõutakse töötajalt koguste lõpetamisest teatamisel identifitseerimisnumbrit.
 
 ### <a name="enable-license-plate-reporting-and-label-printing"></a>Litsentsiplaadi aruandluse ja sildi printimise lubamine
 

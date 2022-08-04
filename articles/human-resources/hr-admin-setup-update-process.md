@@ -14,18 +14,22 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1b9ab27b443e5ec675ea03e13aa7be4ea84bfb45
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 25889f9d4a7ffb4f155b7b7c12ec3b21a44a4710
+ms.sourcegitcommit: 1401d66b6b64c590ca1f8f339d622e922920cf15
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722237"
+ms.lasthandoff: 07/20/2022
+ms.locfileid: "9178439"
 ---
 # <a name="update-process"></a>Värskendamisprotsess
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+_**Rakendub:** inimressursid autonoomsel infrastruktuuril_ 
 
+> [!NOTE]
+> Alates 2022. juulist ei saa uusi inimressursid keskkondi eraldi inimressursside infrastruktuuris Microsoft Dynamics ette luua ja uusi elutsükli teenuste (LCS) projekte ei saa selles luua. Kliendid saavad inimressursside keskkondi kasutusele võtta finantside ja toimingute infrastruktuuris. Lisateavet vt inimressursside ettevalmistamisest [finantside ja toimingute infrastruktuuris](/hr-admin-setup-provision-fo.md).
 
+> [!IMPORTANT]
+> Finantside ja toimingute rakenduse infrastruktuuri värskendus- ja kiirparandusprotsess erineb inimressursside autonoomsest uuendamise ja kiirparanduse protsessist. Lisateavet värskendusprotsessi kohta vt teemast Finantside [ja toimingute viimasele värskendusele teisaldamise protsess](../fin-ops-core/dev-itpro/migration-upgrade/upgrade-latest-update.md). Lisateavet kiirparanduste kohta vt värskenduste allalaadimine [elutsükli teenustest (LCS)](/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs.md). 
 
 Microsoft Dynamics 365 Human Resources on tõeline tarkvara teenusena (Saas), mis pakub pidevaid, puutumatuid teenuse uuendusi. Need värskendused sisaldavad nii rakenduse kui ka platvormi muudatusi, mis pakuvad sageli teenuse kriitilist täiustust, sh regulatiivsed uuendused.
 
@@ -37,16 +41,14 @@ Värskendusi antakse välja regulaarselt kõikides keskkondades. Rakenduse Human
 
 Rakenduse Human Resources värskendusi rakendatakse kõigile keskkondadele automaatselt. Human Resources pakub kahte tüüpi väljaandeid.
 
-- **Teenusevärskendused**: iga kahe nädala tagant toimuvad uuendused, mis sisaldavad veaparandusi ja uusi funktsioone. Teenuse värskendused sisaldavad ka rakendatavaid platvormi uuendusi, kui need väljastaavad. Lisateavet platvormi väljalasete kohta vt platvormi [uuendustest "Mis on uut või muutunud"](../fin-ops-core/dev-itpro/get-started/whats-new-home-page.md). Kahenädalasi värskendusi levitatakse globaalselt kõigis piirkondades etapiliselt. Lisateavet kahenädalaste uuenduste kohta vt teemat [Mis on uut või mida on muudetud rakenduses Dynamics 365 Human Resources](hr-admin-whats-new.md).
+- **Teenusevärskendused**: iga kahe nädala tagant toimuvad uuendused, mis sisaldavad veaparandusi ja uusi funktsioone. Teenuse värskendused sisaldavad ka rakendatavaid platvormivärskendusi, kui need vabastatakse. Lisateavet platvormi väljalasete kohta vt platvormi [uuendustest "Mis on uut või muutunud"](../fin-ops-core/dev-itpro/get-started/whats-new-home-page.md). Värskendustel on etapiviisiline globaalne ümberpööramine üle piirkondade. Lisateavet uuenduste kohta vt teemast [Mis on uut või muutunud Dynamics 365 Human Resources](hr-admin-whats-new.md)?
 
-    Kõik toetatud andmekeskused uuendatakse iga kahe nädala tagant, kui pole teisiti märgitud. USA, Austraalia, Euroopa, Suurbritannia, Aasia ja Kanada piirkonnad sisalduvad kahenädalastes uuendustes. 
-
-- **Lahenduse Dataverse värskendused**: need värskendused toimuvad vastavalt vajadusele ligikaudu iga kuue nädala järel. Need hõlmavad uusi üksusi ja muudatusi olemasolevatele üksustele rakenduses Dataverse. Need uuendused vabastatakse samadele piirkondadele kui kahenädalased uuendused ja neil kulub umbes kuus nädalat, et edastada läbi kõikide andmekeskuste. Lahenduse värskendused võivad, kuid ei pruugi olla vastavuses kahenädalaste teenuse uuendustega.
+- **Lahenduse Dataverse värskendused**: need värskendused toimuvad vastavalt vajadusele ligikaudu iga kuue nädala järel. Need hõlmavad uusi üksusi ja muudatusi olemasolevatele üksustele rakenduses Dataverse. Need uuendused vabastatakse poole nädala uuendustega samasse piirkonda ja neil võtab aega umbes kuus nädalat kõikide andmekeskuste kaudu kopeerimiseks. Lahenduse värskendused võivad, kuid ei pruugi olla vastavuses kahenädalaste teenuse uuendustega.
 
 > [!NOTE]
 > Kui need on väljastatud, on lahenduse värskendused saadaval kõigis andmekeskustes. Kui te ei soovi, et värskendused edastatakse automaatselt, saate neid värskendusi iga andmekeskuse igas keskkonnas käsitsi rakendada.
 
-Vajadusel pakub rakendus Human Resources ka järgmist tüüpi parandusi.
+Vajadusel pakub Inimressursid järgmist tüüpi parandusi.
 
 - **Redaktsioon (kiirparandus)**: veaparandused, mis võivad ilmneda kas koos kahenädalase teenuseuuenduse väljalaskega või eraldi
 
@@ -83,11 +85,11 @@ Saate teada, mis on rakenduses Human Resources töös ja mida oleme väljastanud
 
 Enne nende tootmiskeskkonnas lubamist saate eelvaatefunktsioonid liivakastikeskkonnas kinnitada. Lisateavet funktsioonide lubamise kohta vt [Funktsioonihalduse ülevaade](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-Kõik uued funktsioonid jäävad vähemalt 30 päevaks eelvaatesse ja tavaliselt 30–60 päevaks. Peamised funktsioonid on tavaliselt saadaval eelvaate perioodile järgneva iga aasta oktoobris ja aprillis. Kohe kui näete tööruumis Funktsioonihaldus uusi võimalusi, saate need sisse lülitada. Mõned funktsioonid võivad olla vaikimisi sisse lülitatud.
+Kõik uued funktsioonid jäävad vähemalt 30 päevaks eelvaatesse ja tavaliselt 30–60 päevaks. Peamised funktsioonid on tavaliselt saadaval eelvaate perioodile järgneva iga aasta oktoobris ja aprillis. Kohe kui näete tööruumis **Funktsioonihaldus** uusi võimalusi, saate need sisse lülitada. Mõned funktsioonid võivad olla vaikimisi sisse lülitatud.
 
 Mõnikord on lahutamatu funktsioon vaikimisi sisse lülitatud ja seda ei saa välja lülitada (nt tööruum Funktsioonihaldus).
 
-Kui funktsioon on üldsusele saadaval, võib selle tootmiskeskkonnas sisse või välja lülitada. Tööruum Funktsioonihaldus näitab, millal muutub eelvaate funktsioon kohustuslikuks. See kuupäev on tavaliselt 1. oktoobril või 1. aprillil, et ühitada poolaasta väljalaskeplaanidega. Kohustuslikke funktsioone välja lülitada ei saa. Kuni see muutub kohustuslikuks, saate funktsiooni kõikides keskkondades sisse ja välja lülitada.
+Kui funktsioon on üldsusele saadaval, võib selle tootmiskeskkonnas sisse või välja lülitada. Tööruum **Funktsioonihaldus** näitab, millal muutub eelvaate funktsioon kohustuslikuks. See kuupäev on tavaliselt 1. oktoobril või 1. aprillil, et ühitada poolaasta väljalaskeplaanidega. Kohustuslikke funktsioone välja lülitada ei saa. Kuni see muutub kohustuslikuks, saate funktsiooni kõikides keskkondades sisse ja välja lülitada.
 
 Soovitame tungivalt vaadata funktsioone liivakasti- või prooviversiooni keskkonnas eelvaates. Kõige parem on luua liivakastikeskkonda koopia oma praegusest keskkonnast või andmebaasist, et saaksite oma andmetega uusi funktsioone täielikult kogeda.
 

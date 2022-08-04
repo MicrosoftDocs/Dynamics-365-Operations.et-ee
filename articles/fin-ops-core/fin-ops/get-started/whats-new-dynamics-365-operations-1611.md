@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 5be880a6d178743f4a2d3339609604d993f7e5d5
-ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.openlocfilehash: dfe5eeee10bbe7812155018f4ff552eaa10a14e1
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "9016395"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9125048"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-operations-version-1611-november-2016"></a>Mis on uut või mida on muudetud rakenduse Dynamics 365 for Operations versioonis 1611 (november 2016)
 
@@ -942,7 +942,7 @@ Praegu on Retail Modern POS saadaval ainult Windows 8.1 rakendusena laua- ja tah
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-[Mis on uut või mida on muudetud Finance and Operationsi avalehel?](whats-new-changed.md)
+[Mis on uut või muudetud finantside ja toimingute avalehel](whats-new-changed.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

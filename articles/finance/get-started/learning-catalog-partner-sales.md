@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 4e49b63bf7c88b40010967a7f8c1de571e6d7485
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a53522acb89fc2b766e5b245a5b095a038d1b282
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8845254"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067144"
 ---
 # <a name="learning-catalog-for-microsoft-partner-sales-and-marketing-roles-for-dynamics-365-finance"></a>Microsoft Partneri müügi ja turunduse rollide kataloogi õppimine Dynamics 365 finantside jaoks
 
@@ -31,7 +31,7 @@ Järgnev kataloog hõlmab üld- ja valdkonnapõhiseid teadmisi nii baas- kui ka 
 |-------------|-----------------|-------------|------------|
 | [Microsoft Dynamics 365 ja Power Platformi äriväärtustega tutvumine](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | Kas olete huvitatud ärirakendustest? Kas te pole kindel, kuidas alustada Microsoft Dynamics 365 ja Power Platformi rakenduste kasutamist? Õppige, kuidas ärirakenduste kasutamine võib aidata teil oma ettevõtet muuta. | Tasuta iseläbitav internetipõhine õppetee | 7 tundi |
 | [Dynamics 365 ja Power Platformi põhisätted](/learn/paths/dyn-power-plat-bus-app-fundamentals/) | Kas olete huvitatud ärirakendustest? Alustage sellest õppeteest, et näha, kuidas Dynamics 365 rakendusi kasutatakse. Siit leiate teavet pilvkeskkonna kontseptsioonide, Power Platformi ja Dynamics 365 rakendustega töötamise alustamise kohta. | Tasuta iseläbitav internetipõhine õppetee | 5.5 tundi |
-| [Finantside ja toimingute rakendustega alustamine](/learn/paths/get-started-finance-operations/) | Vaadake, kuidas finantside ja toimingute rakendused toetavad ettevõtteid globaalsete finantssüsteemide, äriprotsesside ja sujuvate tarneahelate haldamiseks, et volitada inimesi tegema kiireid, teavitatud otsuseid. Esimese sammuna finantside ja toimingute rakendustega töötamise karjääri jooksul peate tutvuma selle funktsioonide ja funktsioonidega, olenemata sellest, milline on teie soovitud roll. | Tasuta iseläbitav internetipõhine õppetee | 2 tundi |
+| [Alustage finantside ja toimingute rakendustega](/learn/paths/get-started-finance-operations/) | Vaadake, kuidas finantsid ja toimingute rakendused toetavad ettevõtteid globaalsete finantssüsteemide, tegevus äriprotsesside ja sujuvate tarneahelate haldamiseks, et volitada inimesi tegema kiireid, teavitatud otsuseid. Esimese sammuna finantside ja toimingute rakendustega töötamise karjääri jooksul peate tutvuma selle funktsioonide ja funktsioonidega, olenemata sellest, milline on teie soovitud roll. | Tasuta iseläbitav internetipõhine õppetee | 2 tundi |
 | [Dynamics 365 finantsiga alustamine](/learn/modules/get-started-financial-management-dyn365-finance/) | Dynamics 365 Finance volitab ärikasutajaid kohandama ärikeskkonna kiireks vahetamiseks. See annab ettevõttele kõik vajaliku, et kontrollida rahalisi vahendeid ja hallata eelarvet täpse teabe abil rahanduse planeerimiseks ja prognoosimiseks ning aitab neil analüütikatööriistadega kursis olla. Kuna finantsid on mis tahes ettevõtte tuum, on oluline tutvuda Dynamics 365 Finance võimalustega. | Tasuta iseläbitav internetipõhine õppemoodul | 1 tund |
 | [Kursus MB-900T01-A: Dynamics 365 põhialused](https://www.microsoft.com/learning/course.aspx?cid=MB-900T01) | Sellel kursusel tutvustatakse õppijale Dynamics 365 funktsioone ja äri väärtust. Kursus hõlmab Dynamics 365 rakendusi, Power Platformi, pilvkeskkonna kontseptsioone, turvamudelit ja litsentsimisvõimalusi. | Juhendaja juhitud isiklik või võrgukoolitus; hinnad on piirkonniti ja partnerite puhul erinevad | 1 päev |
 
@@ -43,3 +43,4 @@ Järgnev kataloog hõlmab üld- ja valdkonnapõhiseid teadmisi nii baas- kui ka 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

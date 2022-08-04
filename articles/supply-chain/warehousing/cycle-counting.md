@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: adaed1d5a4f1ac62df35bcc1497610ce0f44043c
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: da7aef93cf994c40410598ab9c4ff2b21f4750e7
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902217"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065924"
 ---
 # <a name="cycle-counting"></a>Tsükliline inventuur
 
@@ -52,11 +52,11 @@ Järgmises tabelis kuvatakse eeltingimused, mis peavad olema olemas, enne kui sa
 <tbody>
 <tr class="odd">
 <td>Kaup</td>
-<td>Kauba puhul peavad olema lubatud laohaldusprotsessid.</td>
+<td>Kaup peab olema laohaldusprotsesside (WMS) jaoks lubatud.</td>
 </tr>
 <tr class="even">
 <td>Ladu</td>
-<td>Laos peavad olema lubatud laohaldusprotsessid. Laohaldusprotsesside lubamiseks laos valige ladu lehelt <strong>Laod</strong> ja märkige seejärel valik <strong>Kasuta laohaldusprotsesse</strong>. Kui soovite, et töötajad saaksid tsüklilise inventuuri käigus aluseid teisaldada, märkige kiirkaardil <strong>Laohaldus</strong> ruut <strong>Luba kaubaaluse teisaldamine tsüklilises inventuuris</strong>.</td>
+<td>Laohaldusprotsesside (WMS) jaoks peab ladu olema lubatud. Lao lubamiseks WMS-i jaoks valige <strong>lehel Laod</strong> ladu ja seejärel valige suvand <strong>Kasuta laohaldusprotsesse</strong>. Kui soovite, et töötajad saaksid tsüklilise inventuuri käigus aluseid teisaldada, märkige kiirkaardil <strong>Laohaldus</strong> ruut <strong>Luba kaubaaluse teisaldamine tsüklilises inventuuris</strong>.</td>
 </tr>
 <tr class="odd">
 <td>Töökaustad</td>

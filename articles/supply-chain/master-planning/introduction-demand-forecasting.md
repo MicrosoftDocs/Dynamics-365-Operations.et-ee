@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e1648808667c8bb9487e7a47b87d8e73cf442d82
-ms.sourcegitcommit: d98ecbd9457197ec8f8e281f9c2f24dcce7b8269
+ms.openlocfilehash: 5c764cc186b5c8742ccfd90b5928f6625f3360c8
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8960169"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065593"
 ---
 # <a name="demand-forecasting-overview"></a>Nõudluse prognoosimise ülevaade
 
@@ -56,7 +56,7 @@ Nõudluse prognoosimisse on rakendatud kolm põhiteemat.
 - **Modulaarsus** – nõudluse prognoos on modulaarne ja hõlpsalt konfigureeritav. Konfiguratsioonivõtit muutes saate funktsiooni sisse ja välja lülitada, valides **Kaubandus** &gt; **Varude prognoos** &gt; **Nõudluse prognoos**.
 - **Microsoft Stacki korduvkasutamine** – Microsoft Cortana Analytics Suite’i kuuluva masinõppe abil saate kiiresti ja hõlpsalt luua ennetavaid analüüsikatseid, nagu nõudluse hinnangu katsed, kasutades programmeerimiskeelte R või Python algoritme ja lihtsat lohistamisega liidest.
   - Nõudluse prognoosimise katsed saate alla laadida, muuta neid vastavalt oma äritegevusele ning avaldada need Azure'is veebiteenusena, et kasutada neid nõudluse prognooside loomisel. Katsed on allalaadimiseks saadaval, kui olete ostnud Supply Chain Managementi ettevõtte tasemel kasutaja tootmisplaneerija tellimuse.
-  - Mistahes saadaolevaid nõudluse ennustuse katseid saate alla laadida [Cortana analüüsigaleriist](https://gallery.cortanaanalytics.com/). Kui nõudluse prognoosimise katsed integreeritakse Supply Chain Managementis automaatselt, siis [Cortana analüüsigaleriist](https://gallery.cortanaanalytics.com/) allalaaditud katseid tuleb klientidel ja partneritel iga integreerimiseks töödelda. Seetõttu pole [Cortana analüüsigaleriist](https://gallery.cortanaanalytics.com/) allalaaditud katseid nii lihtne kasutada kui Finance and Operationsi nõudluse prognoosimise katseid. Katsete koodi tuleb muuta nii, et nende puhul kasutataks Finance and Operationsi rakenduse programmeerimisliidest (API).
+  - Mistahes saadaolevaid nõudluse ennustuse katseid saate alla laadida [Cortana analüüsigaleriist](https://gallery.cortanaanalytics.com/). Kui nõudluse prognoosimise katsed integreeritakse Supply Chain Managementis automaatselt, siis [Cortana analüüsigaleriist](https://gallery.cortanaanalytics.com/) allalaaditud katseid tuleb klientidel ja partneritel iga integreerimiseks töödelda. Seetõttu ei ole Analüüsigalerii [katsed](https://gallery.cortanaanalytics.com/) nii otse, kui kasutada finantside ja toimingutena nõudluse prognoosimise katseid. Peate muutma katsetuste koodi nii, et nad kasutaks finantside ja toimingute rakenduse programmeerimisliidest (API).
   - Looge oma katsed Microsoft Azure Machine Learning Studios (klassikalne), avaldage need Azure’is teenustena ja kasutage neid nõudluse prognooside loomisel.
   - Kui te ei vaja suurt jõudlust või suure hulga andmete töötlust, saate kasutada masinõppe tasuta kihti. Soovitame alati sellest kihist alustada, eriti juurutamise ja testimise faasis. Kui vajate suuremat jõudlust ja täiendavat salvestusruumi, saate kasutada masinõppe standardset kihti. See kiht nõuab Azure'i tellimust ja sellega kaasnevad lisakulud. Masinõppe hindade kohta vt lisateavet aadressil [Machine Learning Studio hinnad](https://aka.ms/machine-learning-price-info).
 - **Prognoosi vähendamine mistahes lahtisidestuspunktis** – nõudluse prognoosimine Dynamics AX-is tugineb sellel funktsioonil, mis võimaldab prognoosida nii sõltuvat kui ka sõltumatut nõudlust mistahes lahtisidestuspunktis.
@@ -101,3 +101,4 @@ Pange tähele, et nõudluse prognoosi mõõtühikul ei pea olema mingit kindlat 
 - [Veebiseis: nõudluse prognoosimine Azure'i masina õppeseeriaga](https://aka.ms/DemandForecastingwithAzureMachineLearningSeries)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

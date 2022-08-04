@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: f0d5339190f7e2aff7b084fa73e559af28e10ee8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f44574abddb71e1a994ae60960e8c9c79242aff0
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8860105"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112108"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Potentsiaalne klient-raha kaksikkirjutamises
 
@@ -29,7 +29,7 @@ Rakendusliidestes pääsete juurde reaalaja töötlemisolekutele ja arveteabele.
 Lisateavet kliendi ja kontaktide integreerimise kohta vt [Integreeritud kliendi koondandmed](customer-mapping.md). Lisateavet toote integreerimise kohta vt [Ühendatud toote kasutusfunktsionaalsus](product-mapping.md).
 
 > [!NOTE]
-> Rakenduses Dynamics 365 Sales viitavad nii potentsiaalne klient kui ka klient kirjele tabelis **Konto**, kus veerg **Suhtetüüp** on kas **Potentsiaalne klient** või **Klient**. Kui teie **äriloogika** **hõlmab** konto kvalifikatsiooni protsessi, kus kontokirje luuakse ja kvalifitseerub esmalt potentsiaalse kliendina, ning seejärel kliendina, sünkroonitakse see kirje rakendusega Finantsid ja toimingud ainult siis, kui see on klient ().`RelationshipType=Customer` Kui soovite, et rida **Konto** sünkroonitaks potentsiaalse kliendina, vajate potentsiaalse kliendi andmete integreerimiseks kohandatud vastendust.
+> Rakenduses Dynamics 365 Sales viitavad nii potentsiaalne klient kui ka klient kirjele tabelis **Konto**, kus veerg **Suhtetüüp** on kas **Potentsiaalne klient** või **Klient**. Kui teie **äriloogika** **hõlmab** konto kvalifikatsiooni protsessi, kus kontokirje luuakse ja kvalifitseerub esmalt potentsiaalse kliendina, ja seejärel kliendina, sünkroonitakse see kirje finantside ja toimingute rakendusega ainult siis, kui see on klient ().`RelationshipType=Customer` Kui soovite, et rida **Konto** sünkroonitaks potentsiaalse kliendina, vajate potentsiaalse kliendi andmete integreerimiseks kohandatud vastendust.
 
 ## <a name="prerequisites-and-mapping-setup"></a>Eeltingimused ja vastendamise seadistamine
 
@@ -111,7 +111,7 @@ Müügiarved luuakse rakenduses Supply Chain Management ja sünkroonitakse raken
 
 Järjestus Potentsiaalne klient sularahaks sisaldab kogumit põhitabeli vastendustest, mis töötavad andmete vastasmõjus koos, nagu on näha järgmises tabelis.
 
-| Finance and Operationsi rakendused | Klientide kaasamise rakendused | Kirjeldus |
+| Finance and Operations rakendused | Klientide kaasamise rakendused | Kirjeldus |
 |-----------------------------|-----------------------------------|-------------|
 [Kõik tooted](mapping-reference.md#138) | msdyn_globalproducts | |
 [Kliendid V3](mapping-reference.md#101) | kontod | |
@@ -135,3 +135,4 @@ Lisateavet hinnaloendite kohta vt [Ühendatud toote kasutusfunktsionaalsus](prod
 - Koondandmete jaoks peavad olema määratud finantsdimensioonid (nt klient ja hankija). Kui klient lisatakse pakkumisele või müügitellimusele, liiguvad kliendikirjega seotud finantsdimensioonid automaatselt tellimusse. Praegu ei sisalda topeltkirjutus koondandmete finantsdimensioonide andmeid.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

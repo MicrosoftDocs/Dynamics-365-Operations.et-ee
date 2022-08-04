@@ -9,22 +9,22 @@ ms.reviewer: josaw
 ms.search.region: Global
 ms.author: analpert
 ms.search.validFrom: 2018-04-30
-ms.openlocfilehash: a7f25a7cc1e214b5c08013055126728b2ad10f3f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 33b4f17cd46338b62bed96f0a285e7b9634cc87a
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8886902"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067815"
 ---
 # <a name="improvements-to-statement-posting-functionality"></a>Väljavõtte sisestamise funktsiooni täiustused
 
 [!include [banner](includes/banner.md)]
 
-See artikkel kirjeldab väljavõtte sisestusfunktsioonis tehtud esimest parenduste komplekti. Need täiustused on saadaval rakenduses Microsoft Dynamics 365 for Finance and Operations7.3.2.
+See artikkel kirjeldab väljavõtte sisestusfunktsioonis tehtud esimest parenduste komplekti. Need parendused on saadaval Microsoft Dynamics 365 Finance 7.3.2.
 
 ## <a name="activation"></a>Aktiveerimine
 
-Vaikimisi on juurutamisel rakendus Finance and Operations 7.3.2 seadistatud kasutama väljavõtte sisestamise pärandfunktsiooni. Täiustatud väljavõtte sisestamise funktsiooni lubamiseks peate sisse lülitama selle konfiguratsioonivõtme.
+Vaikimisi on programm finantside ja toimingute 7.3.2 juurutamisel seadistatud kasutama väljavõtte sisestustes pärandfunktsiooni. Täiustatud väljavõtte sisestamise funktsiooni lubamiseks peate sisse lülitama selle konfiguratsioonivõtme.
 
 - Avage **Süsteemihaldus** \> **Seadistamine** \> **Litsentsi konfiguratsioon** ja seejärel tühjendage sõlmes **Jaemüük ja kaubandus** märkeruut **Väljavõtted (pärand)** ja valige märkeruut **Väljavõtted**.
 
@@ -190,3 +190,4 @@ Väljavõtte sisestamise funktsioonis on tehtud muid põhitäiustusi, mida kasut
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 03d1304c39628323c6d6e15181263a73ba965930
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 00e536241710fc8a75158472688757320abf4247
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710353"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067204"
 ---
 # <a name="collections-in-accounts-receivable"></a>Müügireskontro sissenõuded
 
@@ -65,7 +65,7 @@ Järgmiste loendilehtede abil saate sissenõuete teavet korraldada.
 
 > [!NOTE]
 > Enne kui saate teavet neil loendilehtedel vaadata, tuleb luua aegumise hetktõmmis. Teavet kuvatakse vaid püsiklientidele, kelle jaoks on aegumise hetktõmmis loodud. Loendilehel kuvatavaid kirjeid saab täiendavalt filtreerida järgmiselt.
-> <li>Vaikimisi on Finance and Operationsi kasutajal juurdepääs kõigile klientidele, kel on aegumise hetktõmmis.</li>
+> <li>Vaikimisi on finantsitel ja toimingute kasutajal juurdepääs kõigile klientidele, kellel on aegumise hetktõmmis.</li>
 > <li>Kliendikaustade olemasolul peab kasutaja olema seadistatud inkasaatorina, et kasutada kaustu sissenõuete loendilehtedel oleva teabe filtreerimiseks. Teave on piiratud klientidega, kes kuuluvad valitud kliendikausta.</li>
 > <li>Kui kasutaja on seadistatud inkassaatorina, on loendilehel saadaval ainult selle inkassaatori jaoks valitud kaustad. Kui inkassaatori puhul on lehel Inkassaator märgitud ruut Luba inkassaatoril vaadata kõiki kliendikaustu, on kõik kaustad selle inkassaatori jaoks saadaval.</li>
 
@@ -110,3 +110,4 @@ Saate töödelda NSF-makseid, klõpsates lehel Sissenõuded nuppu NSF-makse. Sel
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

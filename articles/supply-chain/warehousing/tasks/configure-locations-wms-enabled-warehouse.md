@@ -1,6 +1,6 @@
 ---
 title: Asukohtade konfigureerimine WMS-loaga laos
-description: See juhend näitab, kuidas konfigureerida asukohaseadistust uue WMS-loaga lao puhul (ladu, mis kasutab täpsemaid laohaldusprotsesse).
+description: See juhend näitab, kuidas konfigureerida asukoha seadistust uuele WMS-lubatud laole (ladu, mis kasutab laohaldusprotsesse (WMS)).
 author: perlynne
 ms.date: 06/26/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b5273a388b30a41b75bd76c92fa4b9ff05c8f8d6
-ms.sourcegitcommit: db80edbe0c32e3a5f22aae6154781f3ff8a2ab2a
-ms.translationtype: MT
+ms.openlocfilehash: 45195698b48d6a22697f99044a8ae49beaf7156e
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/04/2021
-ms.locfileid: "7599344"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067269"
 ---
-# <a name="configure-locations-in-a-wms-enabled-warehouse"></a>Asukohtade konfigureerimine WMS-loaga laos
+# <a name="configure-locations-in-a-wms-enabled-warehouse"></a>Asukohtade konfigureerimine LHS-i loaga laos
 
 [!include [banner](../../includes/banner.md)]
 
-See juhend näitab, kuidas konfigureerida asukohaseadistust uue WMS-loaga lao puhul (ladu, mis kasutab täpsemaid laohaldusprotsesse). Selle protsessiga tegeleb tavaliselt laohaldur. Saate seda juhendit käitada demoettevõtte USMF andmetega või oma andmetega. Eeltingimuseks on vähemalt üks konfigureeritud sait.
+See juhend näitab, kuidas konfigureerida asukoha seadistust uuele WMS-lubatud laole (ladu, mis kasutab laohaldusprotsesse (WMS)). Selle protsessiga tegeleb tavaliselt laohaldur. Saate seda juhendit käitada demoettevõtte USMF andmetega või oma andmetega. Eeltingimuseks on vähemalt üks konfigureeritud sait.
 
 
 ## <a name="create-a-new-warehouse"></a>Uue lao loomine
@@ -35,7 +35,7 @@ See juhend näitab, kuidas konfigureerida asukohaseadistust uue WMS-loaga lao pu
 4. Sisestage väärtus väljale **Nimi**.
 5. Väljal **Sait** valige või tippige olemasolev saidi väärtus.
 6. Laiendage jaotist **Ladu**.
-7. Valige suvandi **Kasuta laohaldusprotsesside valikut** sätteks Jah. See säte võimaldab käivitada täpsemaid laoprotsesse, kasutades laotööd ja mobiilseid seadmeid.
+7. Valige suvandi **Kasuta laohaldusprotsesside valikut** sätteks Jah. See säte võimaldab teil käitada laohaldusprotsesse (WMS) laotöö ja mobiilsete seadmete abil.
 8. Sulgege leht.
 
 ## <a name="define-a-location-format"></a>Asukohavormingu määratlemine
@@ -68,7 +68,7 @@ See juhend näitab, kuidas konfigureerida asukohaseadistust uue WMS-loaga lao pu
 5. Sulgege leht.
 
 ## <a name="define-location-profile"></a>Asukohaprofiili määratlemine
-1. Avage **Navigeerimispaan >Moodulid > Laohaldus > Seadistus > Ladu > Asukoha profiilid**. Asukohaprofiilide määratlus on väga oluline. Siin saab kontrollida grupeeritud asukohtade koormust, samuti poliitikaid, mis on seotud sellega, milliseid varusid ja kuidas hoitakse. Asukohaprofiile saab kasutada filtreerimissuvanditena erinevate laohaldusprotsesside kontrollimiseks. Minimaalselt peate looma kasutaja asukohaprofiili laohalduse protsesside lubamiseks.
+1. Avage **Navigeerimispaan >Moodulid > Laohaldus > Seadistus > Ladu > Asukoha profiilid**. Asukohaprofiilide määratlus on väga oluline. Siin saab kontrollida grupeeritud asukohtade koormust, samuti poliitikaid, mis on seotud sellega, milliseid varusid ja kuidas hoitakse. Asukohaprofiile saab kasutada filtreerimissuvanditena erinevate laohaldusprotsesside kontrollimiseks. WmS-i lubamiseks peate esmalt looma kasutaja asukoha profiili.
 2. Klõpsake valikut **Uus**.
 3. Väljale **Asukohaprofiili ID** sisestage väärtus.
 4. Sisestage väärtus väljale **Nimi**.

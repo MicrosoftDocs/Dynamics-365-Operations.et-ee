@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-04-03
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 7f054f4f479affe8ca2e041c77bd6fd11d51378e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a82a3b26f2bf7cb546383da047d18c2997569ca5
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8900502"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065115"
 ---
 # <a name="warehouse-management-on-hand-entries-cleanup-job"></a>Laohalduse vabade kirjete puhastustöö
 
@@ -26,11 +26,11 @@ ms.locfileid: "8900502"
 
 Vabade varude arvutamiseks kasutatavat päringute jõudlust mõjutab kaasatud tabelites sisalduvate kirjete arv. Üks viis jõudluse parandamiseks on vähendada kirjete arvu, mida andmebaas peab arvestama.
 
-See artikkel kirjeldab vaba kaubavaru kannete puhastustööd, mis kustutab mittevajalikke kirjeid tabelitest InventSum ja WHSInventReserve. Antud tabelid talletavad laohalduse töötlemise jaoks lubatud kaupade vabade varude teavet. (Neid kaupu nimetatakse WHS kaupadeks.) Antud kirjete kustutamine võib parandada märkimisväärselt vabade varude arvutuste jõudlust.
+See artikkel kirjeldab vaba kaubavaru kirjete puhastustööd, mis kustutab mittevajalikke kirjeid ja tabeleid `InventSum``WHSInventReserve`. Antud tabelid talletavad laohalduse töötlemise jaoks lubatud kaupade vabade varude teavet. (Neid kaupu nimetatakse WMS kaupadeks.) Antud kirjete kustutamine võib parandada märkimisväärselt vabade varude arvutuste jõudlust.
 
 ## <a name="what-the-cleanup-job-does"></a>Puhastustöö otstarve
 
-Vabade kirjete puhastustöö käigus kustutatakse kõik tabelis WHSInventReserve ja InventSum sisalduvad kirjed, kus kõik väljaväärtused on *0* (null). Need kirjed võib kustutada, kuna need ei anna vabade varude teabele midagi juurde. Töö käigus kustutatakse vaid kirjed, mille tase jääb alla taseme **Asukoht**.
+Vaba kaubavaru kannete puhastamise töö kustutab kõik kirjed tabelitest `WHSInventReserve``InventSum` ja kirjetest, kus kõik väljaväärtused on *0* (null). Need kirjed võib kustutada, kuna need ei anna vabade varude teabele midagi juurde. Töö käigus kustutatakse vaid kirjed, mille tase jääb alla taseme **Asukoht**.
 
 Negatiivseete füüsiliste varude lubamise korral ei pruugita puhastustöö käigus kustutada kõiki asjakohaseid kandeid. Selle piirangu põhjuseks on tõsiasi, et töö peab võimaldama eristsenaariumit, kus litsentsiplaadil on mitu seerianumbrit ja üks neist seerianumbritest on muutunud negatiivseks. Näiteks on süsteemis litsentsiplaadi tasemel vabade varude väärtus null, kui litsentsiplaadil on +1 tk seerianumbrit 1 ja -1 tk seerianumbrit 2. Antud eristsenaariumi korral teostatakse töö raames esmalt ulatusepõhine kustutamine, kus üritatakse kustutada esmalt madalamatest tasemetest.
 

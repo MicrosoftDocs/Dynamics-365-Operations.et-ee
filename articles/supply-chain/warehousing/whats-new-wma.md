@@ -10,18 +10,35 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: ac750ede78bb4547f90b57426cc9cb10d2a282b3
-ms.sourcegitcommit: 78576abe5c7cbab1bb69d26c999b038e8c24873a
+ms.openlocfilehash: 19193cc445bc9c7d79463734d7d5787737ecc4f7
+ms.sourcegitcommit: 6989ac8a20c16d384b8307b707eeaf498c32d64e
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "8954659"
+ms.lasthandoff: 07/25/2022
+ms.locfileid: "9188987"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Mis on uut või mida on muudetud mobiilirakenduses Warehouse Management?
 
 [!include [banner](../includes/banner.md)]
 
 Selles artiklis loetletakse microsofti iga laohalduse mobiilirakenduse väljastatud versiooni uued funktsioonid, parandused, parendused ja teadaolevad probleemid Dynamics 365 Supply Chain Management.
+
+## <a name="version-20300"></a>Versioon 2.0.30.0
+
+See versioon tutvustab järgmisi uusi funktsioone, parandusi ja täiustusi:
+
+- Täiustatud stabiilsus
+
+## <a name="version-20280"></a>Versioon 2.0.28.0
+
+See versioon tutvustab järgmisi uusi funktsioone, parandusi ja täiustusi:
+
+- Täiustatud stabiilsus
+- Läbis skannimise jätkamise võimaluse isegi siis, kui ekraanil kuvatakse tõrkedialoog.
+- Lisatud tugi ASCII 10 jaoks vöötkoodides.
+- Täiustatud astmelise juhise dialoogide kasutatavust.
+- Fikseeritud probleem, kus tühja ekraani saab mõnikord kuvada.
+- Fikseeritud probleem, kus tööloendid ei kerinud töö ajal õigesti Microsoft Windows.
 
 ## <a name="version-20250"></a>Versioon 2.0.25.0
 

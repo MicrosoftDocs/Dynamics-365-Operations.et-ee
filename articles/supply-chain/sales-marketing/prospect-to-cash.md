@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 40398a481d23b8abed59556a3c6d70e783756017
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ea07b40c0a1a7eae7cd167f46796556b1e0ecc46
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857224"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103590"
 ---
 # <a name="prospect-to-cash"></a>Potentsiaalne klient sularahaks
 
@@ -43,13 +43,13 @@ Lahenduse Potentsiaalne klient sularahaks praegune versioon pakub vahetu sünkro
 ## <a name="system-requirements-for-supply-chain-management"></a>Süsteemi nõuded rakendusele Supply Chain Management
 Lahendust Potentsiaalne klient sularahaks toetatakse järgmistel versioonidel.
 
-### <a name="microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-73-december-2017"></a>Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 (detsember 2017)
+### <a name="microsoft-dynamics-365-finance-and-operations-enterprise-edition-73-december-2017"></a>Microsoft Dynamics 365 Finantsid ja toimingud, Ettevõtte väljaanne 7.3 (detsember 2017)
 
-- Dynamics 365 for Finance and Operations, Enterprise Edition (detsember 2017) – rakenduse järk 7.3.11971.56116 platvormivärskendusega 12 (7.0.4709.41129)
+- Dynamics 365 Finantsid ja toimingud, Ettevõtte väljaminekud (detsember 2017) – rakenduse 7.3.11971.56116 koos platvormivärskendusega 12 (7.0.4709.41129)
 
-### <a name="dynamics-365-for-finance-and-operations-enterprise-edition-july-2017"></a>Dynamics 365 for Finance and Operations, Enterprise Edition (juuli 2017)
+### <a name="dynamics-365-finance-enterprise-edition-july-2017"></a>Dynamics 365 finants, ettevõtte väljaanne (juuli 2017)
 
-- Dynamics 365 for Finance and Operations, Enterprise Edition (juuli 2017) – platvormivärskendusega 8 (rakenduse järk 7.2.11792.56024 platvormijärguga 7.0.4565.16212).
+- Dynamics 365 Finantsid ja toimingud, ettevõtte väljaanne (juuli 2017) – platvormivärskendusega 8 (rakenduse 7.2.11792.56024 koos platvormi versiooni 7.0.4565.16212).
 - Nõutavad on järgmised kiirparandused.
 
   - **[KB4045570](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4045570&bugId=3851320&qc=ac1145034fd04ab71ccc4d14aa012f245176712c9af7c36bb77a118726d46160)** – see kiirparandus võimaldab müügitellimuse sünkroonimist rakendusest Sales rakendusse Supply Chain Management andmete integratsiooni funktsiooni kaudu. See pakub ka mitmesuguseid muid täiustusi.
@@ -59,9 +59,9 @@ Lahendust Potentsiaalne klient sularahaks toetatakse järgmistel versioonidel.
     > [!NOTE]
     > KB4045570 tuleb installida ainult sellepärast, et installifail sisaldab muudatusi muudest kiirparandustest. 
 
-### <a name="dynamics-365-for-finance-and-operations-version-1611-november-2016"></a>Rakenduse Dynamics 365 for Finance and Operations versioon 1611 (november 2016)
+### <a name="dynamics-365-finance-and-operations-version-1611-november-2016"></a>Dynamics 365 finantside ja toimingute versioon 1611 (november 2016)
 
-- Rakenduse Dynamics 365 for Finance and Operations versioon 1611 (november 2016) platvormivärskendusega 8 või uuem
+- Dynamics 365 finants- ja toimingute versioon 1611 (november 2016) platvormi värskendusega 8 või uuem
 
 - Nõutavad on järgmised kiirparandused.
 

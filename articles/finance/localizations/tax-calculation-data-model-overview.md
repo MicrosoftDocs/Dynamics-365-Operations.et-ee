@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: a711eb73c171cd099947b44e2376cad2455059f0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.openlocfilehash: 79296a452e146bb17b197e9ca40db016664df6f9
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8859691"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068844"
 ---
 # <a name="tax-calculation-data-model"></a>Maksuarvutuse andmemudel
 
@@ -134,3 +134,4 @@ Tehingu ridadel on väljadena esitatud kakskümmend kuus andmemudelit. Pealkirja
 | Ühik                          | <ul><li>**Müügitellimus:** Ühik</li><li>**Ostutellimus:** Ühik</li><li>**Kandetellimus -lähetus:** Ühik</li><li>**Kandetellimus - Saada:** Ühik</li><li>**Ostutaotlused**: Ühik</li><li>**Pakkumise kutse:** Ühik</li><li>**Müügipakkumine:** Ühik</li></ul> |
 | Variandi number                | <ul><li>**Müügitellimus:** Variandi number</li><li>**Ostutellimus:** Variandi number</li><li>**Müügipakkumine:** Variandi number</li></ul> |
 | Ladu                     | <ul><li>**Müügitellimus:**<ol><li>Rida &gt; Ladu</li><li>Toode &gt; Ladu</li></ol></li><li>**Ostutellimus:**<ol><li>Rida &gt; Ladu</li><li>Toode &gt; Ladu</li></ol></li><li>**Üleviimistellimus - Saadetis:** Laost</li><li>**Üleviimistellimus - Vastu võtma:** Lattu</li><li>**Ostutaotlus:** Rida &gt; Ladu</li><li>**Pakkumiskutse:** Rida &gt; Ladu</li><li>**Müügipakkumine:**<ol><li>Rida &gt; Ladu</li><li>Toode &gt; Ladu</li></ol></li></ul> |
+

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 16d861294a80ddb44c78760b329e544bc4665130
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 6069d28d84ab1705fd62a33cea7e0b923f0e0705
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716967"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065704"
 ---
 # <a name="establish-customer-payment-terms"></a>Kliendi maksetingimuste määramine
 
@@ -35,12 +35,12 @@ See protseduur määratleb skonto ja tähtaja seadistamise. See ülesande juhend
 7. Klõpsake valikut **Salvesta**.
 8. Sulgege leht.
 9. Avage **Navigeerimispaan > Moodulid > Müügireskontro > Maksete seadistamine > Maksetingimused**.
-10. Klõpsake valikut **Uus**. Maksetingimusi kasutatakse määratlemaks, kuidas tähtaegu arvutatakse. Skonto kuupäeva seadistus on määratletud eraldi lehel. 
+10. Klõpsake valikut **Uus**. **Maksetingimusi** kasutatakse tähtaja arvutamise id määratlemaks. Skonto kuupäeva seadistus on määratletud eraldi lehel. 
 11. Sisestage ID väljale **Maksetingimused**.
 12. Väljale **Kirjeldus** sisestage kirjeldus.
-13. Valige **Makseviis,** nt tasutakse kättesaamisel, neto, jooksev kuu jne. Makseviisi kasutatakse tähtaja arvutamise alguse määratlemiseks. Näiteks netot kasutatakse, kui tähtaeg on alati teatud arv kuid või päevi pärast arve kuupäeva. Suvandit Tasutakse kättesaamisel saab kasutada, kui makset nõutakse arve saamisel, nii et tähtaega ei arvutata. Valige selle ülesande juhendi puhul Käesolev kuu.  
-14. Valige **Maksepäev**, kui arvutusse on kaasatud kindel nädalapäev või kuupäev. Olenevalt maksetingimustest võite koguse sisestada kuudes või päevades. Võite maksemeetodile lisamiseks kasutada ka valikut **Maksegraafik** või **Maksepäev**. Kui tähtaeg on alati järgmise kuu 10. kuupäev, valige **Maksepäevaks** 10. kuupäev. 
-15. Klõpsake valikut **Salvesta**.
+13. Valige makseviis **,** nt **COD**, **Neto**, **Praegune** kuu jne. Maksemeetodi **abil** määratletakse tähtaja arvutamise algus. Näiteks netoarvet **kasutatakse** siis, kui tähtaeg on alati seatud kuude või päevade arv pärast arve kuupäeva. **Tasumist** saab kasutada juhul, kui arve maksmisel on nõutav makse, seega lõppkuupäeva ei arvutata. Ülesande **juhendi** jaoks praeguse kuu valimine.  
+14. Valige **Maksepäev**, kui arvutusse on kaasatud kindel nädalapäev või kuupäev. Olenevalt maksetingimustest võite koguse sisestada kuudes või päevades. Või saate kasutada maksegraafikut või maksepäeva, et lisada see makseviisi **lõppu**.**·** **·** Kui tähtaeg on alati järgmise kuu 10. kuupäev, valige **Maksepäevaks** 10. kuupäev. Maksekalendri kasutamisel **saate määrata** tähtaja määratlemise, kui arvutatud kuupäev jääb mittetööpäevale. Algne tähtaeg arvutatakse kalendripäevade alusel. Kui arvutatud kuupäev jääb mittetööpäevale, saate arvutatud maksetähtaega korrigeerida kas järgmisele töökuupäevale või varasemale tööpäevale.
+15. Klõpsake nuppu **Salvesta**.
 16. Sulgege leht.
 17. Avage **Müügireskontro > Maksete seadistus > Skontod**.
 18. Klõpsake valikut **Uus**. Seda lehte kasutatakse määratlemaks, kuidas skonto kuupäeva arvutatakse. 
@@ -50,7 +50,7 @@ See protseduur määratleb skonto ja tähtaja seadistamise. See ülesande juhend
 22. Sisestage väljale **Päevad** skonto kuupäeva arvutamiseks kasutatav päevade arv. **Neto** põhimõtte valimisel lisatakse skonto kuupäeva arvutamiseks päevade arv arve kuupäevale.  
 23. Sisestage väljale **Allahindlusprotsent** skonto protsent.
 24. **Kliendi allahindluste põhikontol** sisestage põhikonto, kuhu sisestatakse skonto kliendiarvete jaoks.
-25. Valige suvand väljalt **Allahindluse vastaskontod**. Kui valite suvandi Kontod arve real, sisestatakse skonto hankija arve ridadel sama vara/kulu põhikontole. Kui valite suvandi Kasuta hankija arvete puhul põhikontot, sisestatakse skonto põhikontole, mille määratlete suvandis Hankija arvete põhikonto. Selle näite puhul valige suvand Kasuta hankija arvete puhul põhikontot. 
+25. Valige suvand väljalt **Allahindluse vastaskontod**. Kui valite suvandi Kontod arve real, sisestatakse skonto hankija arve ridadel sama vara/kulu põhikontole. Kui valite **hankija arvete jaoks põhikonto**, sisestab skonto põhikonto põhikontole, **mille määratlete hankija arvete põhikontos**. Näiteks valige hankija arvete **jaoks põhikonto kasutamine**. 
 26. **Hankija allahindluste põhikonto** väljal sisestage põhikonto, kuhu sisestatakse skonto hankija arvete jaoks.
 27. Klõpsake valikut **Salvesta**.
 

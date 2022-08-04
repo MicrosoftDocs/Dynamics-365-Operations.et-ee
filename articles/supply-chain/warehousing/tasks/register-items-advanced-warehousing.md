@@ -1,6 +1,6 @@
 ---
-title: Kaupade registreerimine täpsemaks ladustamiseks lubatud kauba puhul saabuva kauba töölehe abil
-description: See artikkel sisaldab stsenaariumi, mis näitab, kuidas registreerida kaupu kauba saabumise töölehel, kui kasutate täpsemaid laohaldusprotsesse.
+title: Laohaldusprotsessidele lubatud kaupade registreerimine kauba saabumise töölehte kasutades
+description: See artikkel sisaldab stsenaariumi, mis näitab, kuidas registreerida kaupu kauba saabumise töölehel, kui kasutate laohaldusprotsesse (WMS).
 author: Mirzaab
 ms.date: 03/24/2021
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ac4a681484f0cd843ccd73633040f0fa0be0475e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.openlocfilehash: 5241c982675d6b9a9bc9596b8ac9ed2798903287
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8863617"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066963"
 ---
-# <a name="register-items-for-an-advanced-warehousing-enabled-item-using-an-item-arrival-journal"></a>Kaupade registreerimine täpsemaks ladustamiseks lubatud kauba puhul saabuva kauba töölehe abil
+# <a name="register-items-enabled-for-warehouse-management-processes-using-an-item-arrival-journal"></a>Laohaldusprotsessidele lubatud kaupade registreerimine kauba saabumise töölehte kasutades
 
 [!include [banner](../../includes/banner.md)]
 
-See artikkel sisaldab stsenaariumi, mis näitab, kuidas registreerida kaupu kauba saabumise töölehel, kui kasutate täpsemaid laohaldusprotsesse. Seda teeb üldjuhul vastuvõtuametnik.
+See artikkel sisaldab stsenaariumi, mis näitab, kuidas registreerida kaupu kauba saabumise töölehel, kui kasutate laohaldusprotsesse (WMS). Seda teeb üldjuhul vastuvõtuametnik.
 
 ## <a name="enable-sample-data"></a>Luba näidisandmed
 
@@ -36,7 +36,7 @@ Selle stsenaariumi saate läbi töötada, asendades väärtused oma andmetega, k
 - Kinnitatud ostutellimus peab olema avatud ostutellimuse reaga.
 - Real olev kaup peab olema ladustatav. See ei tohi kasutada tootevariante ja sellel ei tohi olla jälgimisdimensioone.
 - Üksus peab olema seotud salvestusmõõtmete grupiga, millel on lubatud laohalduse protsess.
-- Kasutatav ladu peab olema laohaldusprotsesside jaoks lubatud ja vastuvõtmiseks kasutatav asukoht peab olema litsentsiplaadiga juhitav.
+- Kasutatav ladu peab OLEMA WMS-i jaoks lubatud ja vastuvõtul kasutatav asukoht peab olema litsentsiplaadiga juhitav.
 
 ## <a name="create-an-item-arrival-journal-header-that-uses-warehouse-management"></a>Kauba saabumise töölehe päise loomine, mis kasutab laohaldust
 

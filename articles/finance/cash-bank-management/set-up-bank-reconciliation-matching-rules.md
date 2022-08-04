@@ -1,7 +1,7 @@
 ---
 title: Pangakonto vastavusseviimise reeglite häälestus
 description: Selles artiklis selgitatakse, kuidas seadistada vastavusseviimise vastendusreeglid ja vastavusseviimise vastendusreeglite komplektid, et aidata kaasa panga vastavusseviimise protsessile. Vastavusseviimise vastendusreeglid on komplekt kriteeriume, mida kasutatakse pangaväljavõtte ja pangadokumendi ridade filtreerimiseks vastavusseviimise protsessi ajal.
-author: panolte
+author: angelad116
 ms.date: 08/24/2020
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kfend
 ms.custom: 12971
 ms.assetid: b5073f83-31dc-404f-af42-3fd84a02a7c6
 ms.search.region: Global
-ms.author: panolte
+ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: baea7ea7ec98c905e9ae896a8cf1e4ac54fb4a9d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ed8572eca14beb8a0e3c382f0f328cc6d118491c
+ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8899925"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "9151307"
 ---
 # <a name="set-up-bank-reconciliation-matching-rules"></a>Pangakonto vastavusseviimise reeglite häälestus
 
@@ -44,7 +44,8 @@ Vaikimisi ühtivad vastavusse viimise reeglid esimese pangadokumendiga, mis vast
 |--------|---------------|----------------------------------------------------------|
 | **Vastendamine pangadokumendiga**       | Looge kriteeriumid määramaks, kuidas pangadokumente ja pangaväljavõtte ridu vastendatakse, kui vastendusreegel käivitatakse lehelt **Panga vastavusseviimise tööleht** . Kanderead valitakse kiirkaartides seadistatud täiendavate kriteeriumide alusel.                                | **1.etapp: vastendusreegli määratlemine**– valige kriteeriumid määramaks, milliseid pangaväljavõtteid tuleks Finance’i pangakannetega vastendada. **2. etapp (valikuline): valige väljavõtte read, millega vastendusreegleid käivitada:** rakendage filter, millisel väljavõttereal reegleid käivitada.                                                                                                                                                                                                                                                                                                               |
 | **Tagasimaksmise väljavõtteridade tühjendamine** | Looge kriteeriumid määramaks, kuidas tagasimaksmise väljavõtteread tuleks vastendusreegli käivitamisel lehelt **Panga vastavusseviimise tööleht** eemaldada. Seda suvandit kasutatakse, kui pangatõrge põhjustab kahe pangaväljavõtte rea loetlemise imporditud pangaväljavõttes ja read tuleb vastavusse viia. | **1. etapp**:**tagasimaksmise väljavõtteridade leidmine**– lisage tagasimaksmise pangaväljavõtte ridade valimiseks valikukriteeriumid. Näiteks ainult tšekkide valimiseks valige väljalt Väli suvand **Pangakande kood**, valige plussmärk (+) väljalt **Tehtemärk** ja seejärel sisestage väljale Väärtus **Tšekid**. **2. etapp: algsete väljavõtteridade leidmine** – saate lisada valikukriteeriumid pangadokumendi ridade vastavusse viimiseks pangaväljavõtte ridadega. **3. etapp: Finance’i pangakannete leidmine**– saate lisada valikukriteeriumid Finance’i pangakannete vastavusse viimiseks pangaväljavõtte ridadega. |
-| **Uute kannete märkimine**          | Looge kriteeriumid määramaks, kuidas tuleks uusi kandeid vastendusreegli käivitamisel lehel **Panga vastavusseviimise tööleht** märkida.                                                                                                                                                                 | **1.etapp: väljavõtteridade leidmine**– lisage valikuvälju määramaks, millised pangaväljavõtte read tuleks lehelt **Panga vastavusseviimise tööleht** valida. **2. etapp: Finance and Operationsi leidmine**– saate lisada valikukriteeriumid pangadokumendi ridade otsimiseks. Kui ühtegi pangadokumenti ei leita, märgitakse väljavõtterida uue kandena.                                                                                                                                                                                                                                             |
+| **Uute kannete märkimine**          | Looge kriteeriumid määramaks, kuidas tuleks uusi kandeid vastendusreegli käivitamisel lehel **Panga vastavusseviimise tööleht** märkida.                                                                                                                                                                 | **1.etapp: väljavõtteridade leidmine**– lisage valikuvälju määramaks, millised pangaväljavõtte read tuleks lehelt **Panga vastavusseviimise tööleht** valida. **2. etapp: otsige finantse ja** toiminguid – saate pangadokumendi ridade otsimiseks lisada valikukriteeriume. Kui ühtegi pangadokumenti ei leita, märgitakse väljavõtterida uue kandena.                                                                                                                                                                                                                                             |
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-06-22
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: aacb605374d99a3c0bad3438c89e33a04a4d7faf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 61c457abf87ce2da554ddb1472512416159c4dca
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8897773"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068420"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-june-22-2021"></a>Mis on uut ja mida on muudetud rakenduses Dynamics 365 Human Resources (22. juuni 2021)
 
@@ -82,7 +82,7 @@ Järgmised uued funktsioonid on eelversioonis. Lisateavet funktsioonide sisse- v
 
 | Funktsioon | Details |
 | --- | --- |
-| Platvormi värskendus 10.0.19 (43) | Platvormi värskendus 10.0.19 peaks tuleb välja teenuseväljalaske raames 28. juuni 2021. Lisateavet vt Platvormi värskendustest [versioonile 10.0.19 Finance and Operations rakendustest (juuni 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-19). |
+| Platvormi värskendus 10.0.19 (43) | Platvormi värskendus 10.0.19 peaks tuleb välja teenuseväljalaske raames 28. juuni 2021. Lisateavet vt platvormi värskendustest [versioonile 10.0.19 finantside ja toimingute rakendustest (juuni 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-19). |
 |  Teenuse aastate kuvamise lüliti | See funktsioon võimaldab kasutada erinevaid kuupäevi, et arvutada teenuseaastaid, mis on kuvatud **Sujuvama töötajakirje** vormis ja **Inimesed** vormis.  See on saadaval Human Resources parameetrites. |
 |  Luba puudumiste halduril puhkusi hallata | [Luba puudumiste halduril puhkusi hallata](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/enable-absence-manager-manage-leave) |
 |  Kindlate puhkusetüüpide manused | See funktsioon võimaldab administraatoritel lubada manuste lisamist konkreetsete puhkusetüüpidega puhkusetaotluste esitamisel. |
@@ -99,3 +99,4 @@ Plaanitud funktsioonide täieliku loendi ja nende kavandatud väljaannete kohta 
 [Funktsioonide haldamine](hr-admin-manage-features.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

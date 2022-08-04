@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-13
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 2ca847f6f11d5d849ea570cc3886e6470021e451
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 635e7152bece91d5dee47f82cef7052730eb0c82
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8880389"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9108948"
 ---
 # <a name="backup-storage-of-er-templates"></a>ER-mallide varukoopia salvestamine
 
@@ -28,11 +28,11 @@ ms.locfileid: "8880389"
 
 [Elektroonilise aruandluse (ER) ülevaade](general-electronic-reporting.md) võimaldab ärikasutajatel konfigureerida väljuvate dokumentide vorminguid erinevate riikide ja regioonide õigusnõuete järgi. Konfigureeritud ER-vormingud saavad kasutada eelmääratletud malle, et luua väljaminevaid dokumente erinevates vormingutes, näiteks Microsoft Exceli töövihikud, Microsoft Wordi dokumendid või PDF-dokumendid. Mallid on täidetud andmetega, mida genereeritud dokumentide konfigureeritud andmevoog nõuab.
 
-Kõiki vorminguid saab avaldada ER-lahenduse osana. Iga ER lahendust saab eksportida ühest Finance and Operations eksemplarist ning importida teise eksemplari.
+Kõiki vorminguid saab avaldada ER-lahenduse osana. Iga ER-i lahendust saab eksportida ühest finantside ja toimingute eksemplarist ning importida teise eksemplari.
 
-ER raamistik kasutab [Dokumendihalduse konfigureerimist](../../fin-ops/organization-administration/configure-document-management.md), et säilitada praeguse Finance and Operations eksemplari jaoks nõutavad mallid. Sõltuvalt ER-raamistiku sätetest saab valida Microsoft Azure Bloobi salvestamise või Microsoft SharePoint kausta, mis on mallide füüsilise esmase salvestamise vaikeasukoht. (Lisateabe saamiseks vt teemat [Elektroonilise aruandluse (ER) raamistiku konfigureerimine](electronic-reporting-er-configure-parameters.md).) DocuValue tabel sisaldab iga malli kohta eraldi kirjet. Igas kirjes talletab väli **AccessInformation** konfigureeritud salvestuskohas asuva mallifaili tee.
+ER-raamistik kasutab dokumendihalduse [konfigureerimise toiminguid](../../fin-ops/organization-administration/configure-document-management.md), et säilitada nõutavad mallid praeguse finantside ja toimingute eksemplari jaoks. Sõltuvalt ER-raamistiku sätetest saab valida Microsoft Azure Bloobi salvestamise või Microsoft SharePoint kausta, mis on mallide füüsilise esmase salvestamise vaikeasukoht. (Lisateabe saamiseks vt teemat [Elektroonilise aruandluse (ER) raamistiku konfigureerimine](electronic-reporting-er-configure-parameters.md).) DocuValue tabel sisaldab iga malli kohta eraldi kirjet. Igas kirjes talletab väli **AccessInformation** konfigureeritud salvestuskohas asuva mallifaili tee.
 
-Kui haldate oma Finance and Operations eksemplare, võite valida praeguse eksemplari siirdamise teise asukohta. Näiteks võite oma tootmiseksemplari migreerida uude liivakastikeskkonda. Kui konfigureerisite ER-raamistiku talletama malle Bloobi salvestamises, viitab DocuValue tabel uues liivakastikeskkonnas Bloobi salvestamise eksemplarile tootmiskeskkonnas. Sellele eksemplarile ei pääse aga juurde liivakastikeskkonnast, sest migreerimisprotsess ei toeta artefaktide migreerimist Bloobi salvestamises. Seetõttu, kui proovite käitada ER-vormingut, mis kasutab malli äridokumentide loomiseks, ilmneb erand ja teid teavitatakse puuduvast mallist. Juhendate ka ER-puhastustööriista kasutamist malli sisaldava ER-vormingu konfiguratsiooni kustutamiseks ja uuesti importimiseks. Kuna teil võib olla mitu ER-vormingu konfiguratsiooni, võib see protsess olla aeganõudev.
+Kui haldate finants- ja operatsioonide eksemplare, võite otsustada praeguse eksemplari teise asukohta üle siirdada. Näiteks võite oma tootmiseksemplari migreerida uude liivakastikeskkonda. Kui konfigureerisite ER-raamistiku talletama malle Bloobi salvestamises, viitab DocuValue tabel uues liivakastikeskkonnas Bloobi salvestamise eksemplarile tootmiskeskkonnas. Sellele eksemplarile ei pääse aga juurde liivakastikeskkonnast, sest migreerimisprotsess ei toeta artefaktide migreerimist Bloobi salvestamises. Seetõttu, kui proovite käitada ER-vormingut, mis kasutab malli äridokumentide loomiseks, ilmneb erand ja teid teavitatakse puuduvast mallist. Juhendate ka ER-puhastustööriista kasutamist malli sisaldava ER-vormingu konfiguratsiooni kustutamiseks ja uuesti importimiseks. Kuna teil võib olla mitu ER-vormingu konfiguratsiooni, võib see protsess olla aeganõudev.
 
 ER-mallide varundusfunktsioon aitab teil malle luua nii, et need oleksid alati äridokumentide loomiseks saadaval.
 
@@ -46,7 +46,7 @@ Selle funktsiooni puhul salvestatakse kõik praeguse keskkonna uue ER-vormingu k
 - Impordite uue ER-vormingu konfiguratsiooni, mis sisaldab malli.
 - Saate lõpule viia malli sisaldava ER-vormingu konfiguratsiooni mustandversiooni.
 
-Mallide varukoopiad migreeritakse uude Finance and Operations süsteemi osana rakenduse andmebaasist.
+Mallide varukoopiad migreeritakse rakenduse andmebaasi osana uude finantside ja toimingute eksemplari.
 
 Kui väljaminevate dokumentide genereerimiseks on nõutav ER-vormingu mall, mis töötleb näiteks hankijamakseid, sealhulgas maksenõustamis- ja kontrolliaruannete genereerimist, kuid vajalikku malli ei leita primaarses talletuskohas, ilmnevad järgmised sündmused.
 
@@ -58,7 +58,7 @@ Kui väljaminevate dokumentide genereerimiseks on nõutav ER-vormingu mall, mis 
 
 Parameetri **Katkestatud mallide automaatse taastamise protseduur partiis** seadmiseks tehke järgmist.
 
-1. Avage rakenduses Finance and Operations **Organisatsiooni haldus \> Elektrooniline aruandlus \> Konfiguratsiooni leht**.
+1. Avage finantside ja toimingute puhul organisatsiooni **halduse \> elektroonilise aruandluse \> konfiguratsioonide leht**.
 2. Valige lehe **Konfiguratsioonid** toimingupaani vahekaardi **Konfiguratsioonid** grupist **Täpsemad sätted** valik **Kasutaja parameetrid**.
 3. Määrake dialoogiboksis **Kasutaja parameetrid** vajalik väärtus parameetrile **Katkestatud mallide automaatse taastamise protseduur partiis**.
 
@@ -83,7 +83,7 @@ Vaikimisi on sisse lud ER-vorminguga konfiguratsioonides sisalduvatest mallidest
 
 Kui määrate suvandi **Peata mallidest varukoopiate tegemine** väärtuseks **Jah** ja te ei soovi säilitada varem mallidest tehtud varukoopiaid, valige **Puhasta varunduse salvestusruum** lehel **Elektroonilise aruandluse parameetrid**.
 
-Kui täiendasite oma keskkonna versiooni Finance and Operations 10.0.5 (oktoober 2019) ja soovite siirduda uude keskkonda, mis sisaldab käitatavaid ER-vormingu konfiguratsioone, valige enne migreerimist **Täida varundusmälu** lehel **Elektroonilise aruandluse parameetrid**. See nupp käivitab kõigi saadaolevate mallide varukoopiate tegemise, nii et neid saab talletada mallide ER-varunduse talletuskohas.
+Kui uuendasite oma keskkonda finantside ja toimingute versiooniks 10.0.5 (oktoober 2019) ja soovite migreerida uude keskkonda, mis sisaldab käivitada ER-vormingu konfiguratsioone, **·** **valige** enne migreerimist elektroonilise aruandluse parameetrite lehel varusalvestuse täitmine. See nupp käivitab kõigi saadaolevate mallide varukoopiate tegemise, nii et neid saab talletada mallide ER-varunduse talletuskohas.
 
 ![Elektroonilise aruandluse parameetrite leht.](./media/GER-BackupTemplates-5.png)
 
@@ -93,7 +93,7 @@ Avage **Organisatsiooni haldus** \> **Elektrooniline aruandlus** \> **Katkenud m
 
 ## <a name="supported-deployments"></a>Toetatud juurutused
 
-Finance and Operations versioonis 10.0.5 on ER-mallide varundusmälu funktsioon saadaval ainult pilvejuurutustes.
+Finantside ja toimingute versioonis 10.0.5 on ER-mallide funktsiooni varundussalvestus saadaval ainult pilve juurutamistes.
 
 ## <a name="additional-resources"></a>Lisaressursid
 

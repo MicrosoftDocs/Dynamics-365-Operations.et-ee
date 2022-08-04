@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 4997ba123f105f683daaa6b29fe8c5ee72cb47cb
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8f46a4d4e087a99c00ab7b4eabc74f60043cbf21
+ms.sourcegitcommit: 529fc10074b06f4c4dc52f2b4dc1f159c36e8dbc
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873807"
+ms.lasthandoff: 07/22/2022
+ms.locfileid: "9186479"
 ---
 # <a name="priority-based-planning"></a>Prioriteedipõhine planeerimine
 
 [!include [banner](../../includes/banner.md)]
 
-See artikkel kirjeldab Microsofti prioriteedipõhise planeerimise funktsiooni Dynamics 365 Supply Chain Management. See funktsioon toetab nõudlusepõhist planeerimist, mis on üks samm nõudlusepõhiste materjalinõuete planeerimisest (DDMRP). Prioriteedipõhine planeerimine võimaldab planeerimise optimeerimisel luua plaanitud tellimusi, mis põhinevad vajaduse kuupäevade asemel plaanimise prioriteetidel.
+See artikkel kirjeldab Microsofti prioriteedipõhise planeerimise funktsiooni Dynamics 365 Supply Chain Management. See funktsioon toetab nõudlusepõhist planeerimist, mis on üks samm [nõudlusepõhiste materjalinõuete planeerimisest (DDMRP)](ddmrp-overview.md). Prioriteedipõhine planeerimine võimaldab planeerimise optimeerimisel luua plaanitud tellimusi, mis põhinevad vajaduse kuupäevade asemel plaanimise prioriteetidel.
 
 Prioriteedipõhine planeerimine võimaldab teil prioriteerida varude täiendamise tellimusi nii, et tagada pakilise nõudluse tähtsusjärjekorras väiksem nõudlus. Näiteks laovarude täiendamise tellimusele täidetakse standardne taastäitmise varude täiendamise tellimus. Süsteem saab suuremad tellimused automaatselt tükeldada eraldi väiksemateks tellimusteks, kus tellimuseread on grupeeritud prioriteedi alusel. Seejärel saab esimesena töödelda kõiki kõrge prioriteediga tellimusi.
 

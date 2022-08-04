@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 737b6f2f645ff270e5a49d54ca7542df3c075f94
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: dafd51a46b19f3709963ffc12b3c8c77b6c809ac
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8856102"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070435"
 ---
 # <a name="set-up-a-warehouse-by-using-a-warehouse-configuration-template"></a>Lao häälestus lao konfiguratsioonimalli abil
 
@@ -90,7 +90,7 @@ Teil on võimalik andmed ZIP-failina alla laadida. See fail sisaldab kõiki vali
 
 Käsk **Kuva käivituslogi** annab üksikasjaliku teabe iga imporditud andmeüksuse kohta. Kiirelt sihtandmete juurde jõudmiseks saate kasutada andmete ajastamise vaadet. Sel viisil näete, kuidas imporditud andmed rakenduse seotud lehekülgedel välja näevad. Vaikeandmemallide kasutamisel töötab importimise järjestus iga andmeüksuse puhul eelmääratud viisil, tagamaks, et sõltuvad andmed imporditakse esimesena. Kui projekti kuuluvad kohandatud andmeüksused, peate veenduma, et õige järjekord oleks määratud. Lisateavet vaadake teemast [„Konfigureerimisandmete mallid”](../../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md).
 
-Rohkem teavet selle kohta, kuidas kasutada laomalli, et kopeerida lao konfiguratsiooni ühest ettevõttest sama eksemplari uude ettevõttesse, leiate järgmisest 3-minutilisest YouTube’i videost: [Laomalli kasutamine konfiguratsiooni kopeerimiseks rakenduses Finance and Operations](https://www.youtube.com/watch?v=K2WIfFlqJYs).
+Lisateavet laomalli kasutamise kohta, et kopeerida lao konfiguratsioon ühest ettevõttest sama eksemplariga uude ettevõttesse, vaadake sellest 3-minutilisest videost YouTube [, kuidas kasutada laomalli finantside ja toimingute konfiguratsiooni kopeerimiseks](https://www.youtube.com/watch?v=K2WIfFlqJYs).
 
 ## <a name="related-article"></a>Seostuv artikkel
 

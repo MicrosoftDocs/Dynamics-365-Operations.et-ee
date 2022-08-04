@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-10-01
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 208ed2d6c8b411d12888966d9c175730e828eb44
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 46f6db3dd9942131b379216e6fffe5551d6c8fc3
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8860634"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068027"
 ---
 # <a name="integrate-with-third-party-manufacturing-execution-systems"></a>Kolmanda osapoole tootmise käivitussüsteemidega integreerimine
 
@@ -252,9 +252,10 @@ Pärast seda, kui MES on tarneahela haldusse sõnumi saatnud, võib tarneahela h
 Sellisel juhul saate kasutada tarneahela halduses standardset teatisefunktsiooni. Lisateavet selle kohta, kuidas standardsed teatised töötavad, vaadake järgmistest ressurssidest:
 
 - Spikri artikkel: [teatiste ülevaade](../../fin-ops-core/fin-ops/get-started/alerts-overview.md)
-- Video: [teatisereegli valikud Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=cpzimwOjicM&ab_channel=MicrosoftDynamics365)
+- Video: [teatisereegli valikud finantsis ja toimingutes](https://www.youtube.com/watch?v=cpzimwOjicM&ab_channel=MicrosoftDynamics365)
 
 Näiteks võite sõnumi oleku kohta tagasiside andmiseks seadistada järgmised teatised:
 
 - Looge ärisündmus ("Väliselt saatmine")., mida kasutatakse teate *nurjumisel*.
 - Saate saata teatise ja e-kirja IT-haldus- või tootmisjuhile.
+

@@ -1,8 +1,8 @@
 ---
 title: Kiirklahvid
-description: See artikkel annab ülevaate kiirklahvide kombinatsioonidest, mida saate kasutada, kui töötate Finantside ja toimingute rakendustega.
+description: See artikkel annab ülevaate kiirklahvide kombinatsioonidest, mida saate kasutada finantside ja toimingute rakendustega töötamisel.
 author: jasongre
-ms.date: 03/03/2022
+ms.date: 07/12/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3f0f833e3a6d45329fd8a69af658f392df32e4db
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 67e1904807dfe5122de3d3ead97c2e2c11ed213d
+ms.sourcegitcommit: bd2d6a86a7fd4b4f6f86656998f7a8844f949e42
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8866113"
+ms.lasthandoff: 07/12/2022
+ms.locfileid: "9140435"
 ---
 # <a name="keyboard-shortcuts"></a>Kiirklahvid
 
@@ -27,7 +27,7 @@ ms.locfileid: "8866113"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Kiirklahvide abil saate finantside ja toimingute rakendustesse andmeid kiiresti ja tõhusalt sisestada. 
+Kiirklahvide abil saate kiiresti ja tõhusalt sisestada andmeid finantside ja toimingute rakendustesse. 
 
 > [!NOTE]
 > Siin kirjeldatud kiirklahvid viitavad USA klahvipaigutusele. Muude klahvipaigutuste korral ei pruugi klahvid vastata täpselt USA klahvipaigutusele.
@@ -197,6 +197,7 @@ Kasutajad saavad avastada praegu saadaolevaid otseteesid otse kasutajaliidesest.
 | Vormil Üksikasjad navigeerimisloendi sulgemine (fookusega navigeerimisloendil) | Esc-klahv                        |
 | Lehe põhisisu juurde liikumine (fookusega teisel paanil)                    | Alt + M, M                    |
 | Liikumine paanile Kiirinfo (mis võib hõlmata selle avamist)                       | Alt + M, B või Ctrl + F2         |
+| Liigu järgmise funktsiooni viiktekstini                                              | Alt+M,C                    |
 
 > [!NOTE]
 > **Versiooniga** 10.0.26 juurutatud sujuva vahekaartide käitumine täislehe vormidel võimaldab kasutajatel liikuda läbi lehekülje kõikide piirkondade ilma, et oleks vaja hiire- või sihtotstarbeline kiirklahvi piirkondade vahel liikumiseks. Saate olemasolevate kiirklahvide (nt Alt+M klahvide kornastatud otseteed) abil leheküljel piirkondade vahel kiiresti liikuda.
@@ -262,10 +263,11 @@ Kasutajad saavad avastada praegu saadaolevaid otseteesid otse kasutajaliidesest.
 Fookuse haldus kirjeldab, kuidas kasutaja fookust rakenduses käsitletakse. Finantside ja toimingute rakendustel on spetsialiseeritud fookuse käitumine, mis on mõeldud kasutaja tööviljakuse optimeerimiseks, eriti andmesisestusstsenaariumide puhul. Fookuse käitumised hõlmavad järgmist:  
 
 -  Kui leht on laaditud, on lehekülje esimene redigeeritav sisendi juhtelement fookus ja saab kasutaja sisestuse kohe aktsepteerida. Kui lehel ei ole redigeeritavat sisendi juhtelementi, on algse fookuse tagasipööramise valik esimene sisestuskontroll lehel, millele järgneb leheküljel esimene, fookus juhtelement.   
--  Nupu valimisel töödeldakse tegevust ja fookus võib naasta lehele. Sel juhul fookuskeskused pöörduvad tagasi valitud nupu juhtelementi. See kehtib finantside ja toimingute rakendustes, **v.a** juhul, kui nupp asub tegevuspaanil või tööriistaribal. Sel juhul, kui tegevus on lõpetatud, *fookus* naaseb viimasele juhtelemendile väljaspool tegevuspaani (või tööriistariba), mis oli fookus enne nupu valimist.
+-  Nupu valimisel töödeldakse tegevust ja fookus võib naasta lehele. Sel juhul fookuskeskused pöörduvad tagasi valitud nupu juhtelementi. See kehtib finantside ja toimingute rakenduste kohta, **v.a** juhul, kui nupp asub tegevuspaanil või tööriistaribal. Sel juhul, kui tegevus on lõpetatud, *fookus* naaseb viimasele juhtelemendile väljaspool tegevuspaani (või tööriistariba), mis oli fookus enne nupu valimist.
 
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Kiirklahvid puuduva konto analüüsi puhul](../../../finance/general-ledger/financial-reporting-keyboard-shortcuts.md)
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

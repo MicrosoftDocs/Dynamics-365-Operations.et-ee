@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: d47f3f377a7de87b9c24a18e4542e5a48235d270
-ms.sourcegitcommit: 78576abe5c7cbab1bb69d26c999b038e8c24873a
-ms.translationtype: MT
+ms.openlocfilehash: 8be79f259505c084a8680c453ec15a4cef1a890f
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "8954477"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124490"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10026-may-2022"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 Supply Chain Management 10.0.26 (mai 2022)
 
@@ -33,7 +33,7 @@ Järgmises tabelis on loetletud selles versioonis sisalduvad funktsioonid. Võim
 
 | Funktsiooniala | Funktsioon | Lisateave | Lubaja:   |
 |---|---|---|---|
-| Varud ja logistika | [Laovarude nähtavuse vaba kaubavaru päring täpsema laohalduse kaupade toetamiseks](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/inventory-visibility-support-advanced-warehouse-management) | [Inventory Visibility WHS-i kaupade tugi](../inventory/inventory-visibility-whs-support.md) | Funktsioonihaldus:<br>*Laokauba lubamine varude nähtavuses* |
+| Varud ja logistika | [Laovarude nähtavuse vaba kaubavaru päring täpsema laohalduse kaupade toetamiseks](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/inventory-visibility-support-advanced-warehouse-management) | [Inventory Visibility WMS-i kaupade tugi](../inventory/inventory-visibility-whs-support.md) | Funktsioonihaldus:<br>*Laokauba lubamine varude nähtavuses* |
 | Varud ja logistika | [Saadaval-lubadus varude nähtavuse lisandmooduli jaoks](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/available-to-promise-inventory-visibility-add-in) | [Varude nähtavuse laoseisu muudatuste graafikud ja lubaduse andmiseks saadaval](../inventory/inventory-visibility-available-to-promise.md) | Lubatud teenuse konfiguratsiooni järgi |
 | Tootmine | [Tootmispinna täitmisliidese tegeliku kaalu kaubad](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/catch-weight-items-production-floor-execution-interface) | [Kuidas töötajad kasutavad tootmisosakonna käivitusliidest](../production-control/production-floor-execution-use.md) | Funktsioonihaldus:<br>*(Eelversioon) Aruanne tegeliku kaalu üksuste kohta tootmisosakonna täideviimisliidesest* |
 | Tootmine | Tootmisosakonna täideviimisliidese vahekaart Minu tööd <!-- KFM: Add link to release plan when available --> | [Kuidas töötajad kasutavad tootmisosakonna käivitusliidest](../production-control/production-floor-execution-use.md) | Funktsioonihaldus:<br>*Tootmisosakonna täideviimisliidese vahekaart Minu tööd* |
@@ -47,9 +47,9 @@ Kui soovite mõne neist funktsioonidest sisse ja välja lülitada, peate seda fu
 | Moodul | Funktsiooni nimi funktsioonihalduses | Lisateave |
 |---|---|---|
 | Hanked | Laos olevate toodete registreeritud koguste ja laos olevate toodete jääkide sisestamine kviitungite ja hankija arvete jaoks | See funktsioon muudab, kuidas hankija arvete ja sissetulevate saadetiste töötlemisel ostutellimuste suhtes sisestatakse ladustamata toodete (nt teenuste) kogused. Funktsioon *muudab* *registreeritud* koguse ja teenuste koguse valiku käitumist sissetulekute ja hankija arvete sisestamiseks, muutes selle nii, et see vastaks registreeritud koguse ja ladustamata toodete suvandi käitumisele, mis on müügi saatelehtedele koguste sisestamisel juba antud.<br><br>Kui kasutate toote *sissetuleku* või hankija arve sisestamisel registreeritud koguse ja teenuste koguse valikut, sisestab süsteem ladustatavate toodete registreeritud koguse ja sisestab mitte ladustatavate toodete jääkkoguse (sh teenused ja teenused, mida pole). Ilma selle funktsioonita sisestab süsteem siiski ladustatavate toodete registreeritud koguse (sh ladustatavate kaupadena konfigureeritud teenused), kuid sisestab alati kogu tellimata teenuse toodete koguse (ja *ignoreerib mitte ladustamata tooteid, mille tüüp ei ole Teenus*). |
-| Hanked | Sünkroonige jälgimisdimensioonid ettevõtetevahelistel müügi- ja ostutellimuste ridadel | Selle funktsiooniga saate kontrollida, kas seeria- ja partiinumbri jälgimisdimensioonid sünkroonitakse kontsernisiseste müügi- ja ostutellimuste ridade vahel. See lisab uued sätted nii ostutellimuste **poliitikatele** **·** **kui ka klientide ja hankijate kontsernisisese** seadistuse lehe müügitellimuse poliitika vahekaartidele. Samuti uuendatakse seal mõne seotud ja selle lähedalasuva sätetega seotud sätete nimesid.<br><br>Kui kasutate täpsemat laohaldust (WMS), võtke arvesse, et see funktsioon sünkroonib partii- ja seerianumbrid ainult siis, kui need dimensioonid on sihtkoha reserveerimishierarhias asukohast kõrgemal. |
+| Hanked | Sünkroonige jälgimisdimensioonid ettevõtetevahelistel müügi- ja ostutellimuste ridadel | Selle funktsiooniga saate kontrollida, kas seeria- ja partiinumbri jälgimisdimensioonid sünkroonitakse kontsernisiseste müügi- ja ostutellimuste ridade vahel. See lisab uued sätted nii ostutellimuste **poliitikatele** **·** **kui ka klientide ja hankijate kontsernisisese** seadistuse lehe müügitellimuse poliitika vahekaartidele. Samuti uuendatakse seal mõne seotud ja selle lähedalasuva sätetega seotud sätete nimesid.<br><br>Kui kasutate laohaldusprotsesse (WMS), võtke arvesse, et see funktsioon sünkroonib partii- ja seerianumbrid ainult siis, kui need dimensioonid on sihtkoha reserveerimishierarhias asukohast kõrgemal. |
 | Tooteteabe haldus | Puhastage toote atribuudiväärtused | See funktsioon lisab perioodilise ülesande nimega **Toote** atribuudi väärtuste puhastamine, mis puhastab toote atribuudi väärtuse kirjed, mis ei ole enam tootekategooria kaudu ühegi tootega seostatud. |
-| Varude ja laohaldus | (Venemaa) Vältige lahknevusi WMS-i toega tooteid sisaldavate ostutellimuste GTD-de väljastamisel | See funktsioon on üksnes Vene lokaliseerimise jaoks. See takistab lahknevusi, mis ilmnevad Venemaa tollideklaratsiooni numbrite (GTD-de) väljastamisel impordi ostutellimustele, mis sisaldavad täpsemaks ladustamiseks (WMS) lubatud kaupu. GTD väljaandmisprotsess muudab mõned varude dimensiooni väärtused seotud laokannetel arvete puhul, mis on kaasatud kohandatud töölehele, mis viib lahknevustele ostutellimuse töökirjete ja ostu laokannete vahel. Kui see funktsioon on lubatud, loob GTD-väljaandmisprotsess korrigeerimistöid, mis selliseid lahknevusi ei kustuta. |
+| Varude ja laohaldus | (Venemaa) Vältige lahknevusi WMS-i toega tooteid sisaldavate ostutellimuste GTD-de väljastamisel | See funktsioon on üksnes Vene lokaliseerimise jaoks. See takistab lahknevusi, mis ilmnevad Venemaa tollideklaratsiooni numbrite (GTD-de) väljastamisel impordi ostutellimustele, mis sisaldavad laohaldusprotsessidele lubatud kaupu (WMS). GTD väljaandmisprotsess muudab mõned varude dimensiooni väärtused seotud laokannetel arvete puhul, mis on kaasatud kohandatud töölehele, mis viib lahknevustele ostutellimuse töökirjete ja ostu laokannete vahel. Kui see funktsioon on lubatud, loob GTD-väljaandmisprotsess korrigeerimistöid, mis selliseid lahknevusi ei kustuta. |
 | Laohaldus | Täiustatud parser GS1 vöötkoodide jaoks | See funktsioon lisab täiustatud parseri GS1 sümboliandmete jaoks. Uus parser juurutab GS1 üldise spetsifikatsiooni algoritmi GS1 sümbolite sõelumiseks ja pakub kinnitamist vajavad andmed. Lisateavet vt GS1 [vöötkoodi skannimine](../warehousing/gs1-barcodes.md). |
 | Laohaldus | Uued koorma planeerimise töölaua leheküljed | Lisab kaks uut koorma planeerimise töölaualehte: **sissetuleva koorma planeerimise töölaud** **ja väljamineva koorma plaanimise töölaud**. |
 | Laohaldus | Laohalduse rakendus – tühi GTD | See funktsioon on üksnes Vene lokaliseerimise jaoks. See võimaldab laohalduse mobiilirakendust kasutavatel töötajatel vajadusel Jätta Venemaa tollideklaratsiooni numbrid (GTD-d) tühjaks. Kui GTD jälgimisdimensioon on seadistatud lubama tühje väärtusi, aktsepteerib süsteem vaba kaubavaru operatsioonide GTD jaoks tühje väärtusi. |
@@ -64,9 +64,9 @@ Oleme hiljuti lisanud või oluliselt uuendanud järgmised spikriartiklid. Need a
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Finantside ja toimingute rakenduste platvormi värskendused
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Platvormi värskendused finantside ja toimingute rakenduste jaoks
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.26 sisaldab platvormivärskendusi. Lisateavet vt Platvormi värskendustest [versioonile 10.0.26 Finance and Operations rakendustest (mai 2022).](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-26.md)
+Microsoft Dynamics 365 Supply Chain Management 10.0.26 sisaldab platvormivärskendusi. Lisateavet vt platvormi värskendustest [versioonile 10.0.26 finantside ja toimingute rakendustest (mai 2022).](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-26.md)
 
 ### <a name="bug-fixes"></a>Veaparandused
 
@@ -90,3 +90,4 @@ Enne mis tahes funktsiooni eemaldamist tootest teatatakse amortiseerumisest [Dyn
 Murranguliste muudatuste puhul, mis mõjutavad ainult kompileerimise aega, kuid on binaarselt ühilduvad liivakasti- ja tootmiskeskkondadega, on aegumise aeg vähem kui 12 kuud. Need on tavaliselt funktsionaalsed uuendused, mida tuleb teha kompilaatori jaoks.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

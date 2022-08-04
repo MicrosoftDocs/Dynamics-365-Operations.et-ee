@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 924af44a6f0b1430859f0f6354ef55ff67a1b677
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 57c17cab920c531b3eb125260064d01dd8662576
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8898365"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124190"
 ---
 # <a name="help-system"></a>Spikrisüsteem
 
@@ -53,7 +53,7 @@ Sisu leiate saidilt docs.microsoft.com mis tahes otsingumootori abil. Soovitame 
 
 ## <a name="get-notified-about-changes-through-an-rss-feed"></a>Muudatuste kohta teatiste saamine RSS-kanali kaudu
 
-RAKENDUSE Finance and Operations rakendustes sisule docs.microsoft.com UUENDUSte tellimiseks kasutage järgmist linki:
+RAKENDUSES JA operatsioonide rakendustes sisule docs.microsoft.com uuenduste tellimiseks kasutage järgmist linki:
 
 [RSS-kanal](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-finops%27)&locale=en-us)
 
@@ -98,7 +98,7 @@ Lugege lisateavet teemast [Dokumentide kaasautori juhend](/contribute), mille av
 
 Tegevuse juhis on juhendatud, interaktiivne kogemus, mis juhib teid läbi tegevuse või äriprotsessi toimingute. Tegevuse juhise saab avada (esitada) paanilt **Spikker**. Tegevuse juhise esmakordsel valimisel kuvatakse paanil **Spikker** tegevuse etapiviisilised juhised. Lokaliseeritud tegevuse juhised on saadaval.
 
-Microsoft väljastas 2017. aasta Dynamics 365 for Finance and Operationsi väljalaskega tegevuse juhiste teegid toote versioonidele. Selle [artikli spikripaani jaotisest juurde pääsemise](#accessing-task-guides-from-the-help-pane) ülesande juhendid selgitavad, kuidas leida toote jaoks õigeid toimingujuhiseid.
+Microsoft on andnud välja ülesandejuhenditeeke tooteversioonidele Dynamics 365 finantside ja toimingute 2017. aasta detsembri väljalaseks. Selle [artikli spikripaani jaotisest juurde pääsemise](#accessing-task-guides-from-the-help-pane) ülesande juhendid selgitavad, kuidas leida toote jaoks õigeid toimingujuhiseid.
 
 ![Tegevuse juhise lugemisvaade.](./media/task-guide-ops.png)
 
@@ -182,3 +182,4 @@ Järgmises tabelis esitatakse meie veebilehed. Saitidel, millel on nime kõrval 
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

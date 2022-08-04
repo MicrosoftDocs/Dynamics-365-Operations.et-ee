@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-27
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 014c34791f280ca1d3d9154cd0870a73cc43d26b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: fa27e20bc0c0ff5c639dfb2d079adef8926f535f
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8889145"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069343"
 ---
 # <a name="asset-leasing-home-page"></a>Vara rentimise avaleht
 
@@ -90,7 +90,7 @@ Avage [Microsoft Dynamics 365 väljalaskeplaanid](/dynamics365/release-plans/), 
 
 ### <a name="blogs"></a>Ajaveebid
 
-Arvamusi, uudiseid ja muud teavet leiate [Microsoft Dynamics 365 ajaveebist](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) ning [ajaveebist Microsoft Dynamics 365 Finance and Operations – Rahandus](https://community.dynamics.com/365/financeandoperations/b/financials).
+[Microsoft Dynamics 365 tööraamatu](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)[Microsoft Dynamics ning 365 finantsi ja finantsoperatsioonide 365 e-posti teabe kohta saate teavet](https://community.dynamics.com/365/financeandoperations/b/financials).
 
 [Microsoft Dynamics Operationsi partnerite kogukonna ajaveeb](https://community.dynamics.com/partner/b/operationspartnercommunityblog) on Microsoft Dynamicsi partnerite jaoks kõikehõlmav ressurss, kust nad saavad teada, mis on uut ja põnevat rakenduses Dynamics 365.
 
@@ -100,3 +100,4 @@ Vaadake õppevideoid, mis on saadaval [Microsoft Dynamics 365 YouTube’i kanali
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

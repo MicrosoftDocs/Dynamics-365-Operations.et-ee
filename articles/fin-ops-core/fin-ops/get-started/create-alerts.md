@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: f523680f3d71ffd75c6cd2df284d2fd3610cef96
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a420c5b2a036ac63a1a179f93462d152c3941fda
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8853613"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124220"
 ---
 # <a name="create-alert-rules"></a>Teatisereeglite loomine
 
@@ -75,7 +75,7 @@ Dialoogiboksi **Loo teatise reegel** kiirkaardil **Teavita mind järgmisega** sa
 
 ## <a name="alerts-as-business-events"></a>Teatised ärisündmustena
 
-Saate saata teatisi väliselt ärisündmuste raamistikku kasutades. Teatise loomisel seadke suvand **Organisatsiooniülene** valikule **Ei** ja määrake suvand **Saada väliselt** väärtusele **Jah**. Pärast ärisündmuse teatise käivitamist saate käivitada voo, Power Automate **mis** on loodud ärisündmuse toimumisel, mis käivitab finantside ja toimingute konnektori, **või saata sündmuse ärisündmuste lõpp-punkti ärisündmuste kataloogi kaudu**.
+Saate saata teatisi väliselt ärisündmuste raamistikku kasutades. Teatise loomisel seadke suvand **Organisatsiooniülene** valikule **Ei** ja määrake suvand **Saada väliselt** väärtusele **Jah**. Pärast ärisündmuse teatise käivitamist saate käivitada voo, mis on loodud ärisündmuse toimumisel, Power Automate **mis** käivitab finantside ja operatsioonide ühenduse, **või saata sündmuse ärisündmuste lõpp-punkti ärisündmuste kataloogi kaudu**.
 
 ## <a name="create-an-alert-rule"></a>Teatisereegli loomine
 

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c76eadc5839785ba1624ee3894ef1d0872369aa9
-ms.sourcegitcommit: 7aa7d756e1e98a53da62e03c608a9597ef9893ea
+ms.openlocfilehash: b8faa7b73349c48d3a02b685546b47c4969c6027
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "7403837"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9109428"
 ---
 # <a name="synchronize-date-and-time-in-import-jobs"></a>Imporditööde kuupäeva ja kellaaja sünkroonimine
 
@@ -25,9 +25,9 @@ ms.locfileid: "7403837"
 
 Oluline on määrata imporditöö ajavööndiks koordineeritud maailmaaeg (UTC). Erineva sätte kasutamisel võite näha imporditud andmetes ootamatuid kuupäevi ja kellaaegu. Ilma õige sätteta teisendab impordiprotsess UTC kuupäeva kohalikku vormingusse ja seejärel teisendavad süsteemisätted selle uuesti.
 
-See topeltteisendus põhjustab rakenduste vahelise muutuse. Näiteks võib topeltteisenduse tõttu töötaja kuupäev olla erinevate kohalike ajavööndite tõttu rakendustes Dynamics 365 Human Resources ja Dynamics 365 Finance erinev. Imporditöö seadmine UTC peale lahendab selle probleemi.
+See topeltteisendus põhjustab rakenduste vahelise muutuse. Näiteks võib topeltteisendus põhjustada töötaja Dynamics 365 Human Resources alguskuupäeva ja Dynamics 365 Financei vahelise erinevuse tõttu kohalikes ajavööndites. Imporditöö seadmine UTC peale lahendab selle probleemi.
 
-1. Valige rakenduses Dynamics 365 Finance and Operations suvand **Andmehaldus**.
+1. Dynamics 365 finantside ja toimingute puhul valige **andmehaldus**.
 
 2. Valige suvand **Impordi projektid** ja valige seejärel projekt.
 
@@ -41,3 +41,4 @@ See topeltteisendus põhjustab rakenduste vahelise muutuse. Näiteks võib topel
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

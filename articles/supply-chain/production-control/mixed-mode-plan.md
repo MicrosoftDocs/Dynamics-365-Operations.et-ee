@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 186dcdca9d6db5ca16d84f084c66700ddfe8bb5d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 335bdc9690b3111f4a04adc7e82d62de36ff4caf
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857427"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065984"
 ---
 # <a name="mixed-mode-planning---combine-discrete-process-and-lean-sourcing"></a>Segarežiimis plaanimine: diskreetse, protsessi- ja säästliku hanke kombineerimine
 
@@ -33,7 +33,7 @@ Saate valuda üleüldise toote tarnimise strateegia olenemata toote struktuurist
 
 Näiteks võib kanbani juhtelement olla komplektis, kus materjale tootmistellimuste, kanbanide, kannete, partiitellimuste või teie tarneahela iseloomule vastava kombinatsiooni järgi koostepiirkonda väljastatakse, kuid teil on ikkagi täielik ülevaade kõikidest tarnetest. See võimalus viib optimeeritud tarneahela protsessideni ja parema nähtavuseni tarneahelas.  
 
-Koondplaneerimises kasutatavate tarnepoliitikate granulaarsus oleneb laoala dimensioonidest, mis on lubatud kattedimensioonidena. Selleks, et koondplaneerimine juhiks eri tüüpi asukohtade täiendamist ja tarnet (nt eraldades tootmisosakonna erinevateks tootmisüksusteks või eraldades eri tüüpi materjalide ja lõpetatud kaupade laod), soovitame teil lubada suvandid Laoala ja Ladu kattedimensioonidena. Teise võimalusena saab suvandi Ladu kattedimensioonina välja jätta. Sellisel juhul, kui kasutate täiustatud laohaldust, juhib kõiki liikumisi laos laotöö, samas kui kõiki ladudevahelisi liikumisi saab juhtida tagastamise kanbanidega.
+Koondplaneerimises kasutatavate tarnepoliitikate granulaarsus oleneb laoala dimensioonidest, mis on lubatud kattedimensioonidena. Selleks, et koondplaneerimine juhiks eri tüüpi asukohtade täiendamist ja tarnet (nt eraldades tootmisosakonna erinevateks tootmisüksusteks või eraldades eri tüüpi materjalide ja lõpetatud kaupade laod), soovitame teil lubada suvandid Laoala ja Ladu kattedimensioonidena. Teise võimalusena saab suvandi Ladu kattedimensioonina välja jätta. Sel juhul kontrollib laohaldusprotsesside (WMS) kasutamisel kõiki lao liikumisi laotöö, samal ajal kui kõiki ladude läbi liikumist saab kontrollida kanbanide väljaminekuga.
 
 ## <a name="supply-policies"></a>Tarnepoliitikad
 Segarežiimis plaanimine juhib, kuidas toodet tarnitakse ja kuidas väljastatakse tarne alusel tuletatud nõudeid (kaupade tarbimine kooslusest \[BOM\]). Tellimuse tüübi alusel hangib süsteem automaatselt materjale, et nõuetele vastata.  

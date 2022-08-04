@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-08-23
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 91c2cd396ca26cc78c3fd4fab40a29b98a7826c3
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a6c92167a9b67c3be1cdad18293e8ab6d2ba03d4
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8909726"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069842"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-august-23-2021"></a>Mis on uut ja mida on muudetud rakenduses Dynamics 365 Human Resources (23. august 2021)
 
@@ -72,7 +72,7 @@ Plaanitud funktsioonide täieliku loendi ja nende kavandatud väljaannete kohta 
 
 | Funktsioon | Details |
 | --- | --- |
-| Platvormi värskendus 10.0.21 (45) | Platvormi värskendus 10.0.21 välja laskmine on kavandatud algama teenuseväljalaskega 4. oktoobril 2021. Lisateavet vt Platvormi värskendustest [versioonile 10.0.21 Finance and Operations rakendustest (oktoober 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-21). |
+| Platvormi värskendus 10.0.21 (45) | Platvormi värskendus 10.0.21 välja laskmine on kavandatud algama teenuseväljalaskega 4. oktoobril 2021. Lisateavet vt platvormi värskendustest [versioonile 10.0.21 finantside ja toimingute rakendustest (oktoober 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-21). |
 
 ## <a name="see-also"></a>Vt ka
 
@@ -82,3 +82,4 @@ Plaanitud funktsioonide täieliku loendi ja nende kavandatud väljaannete kohta 
 [Funktsioonide haldamine](hr-admin-manage-features.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

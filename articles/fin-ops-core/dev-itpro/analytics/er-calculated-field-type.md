@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4a4933c429982d1371c7c9a9412789ae08e08f43
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5a4eb70144957ecdbeba4246fb8c7cd6a20cb08c
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8934722"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9108325"
 ---
 # <a name="support-parameterized-calls-of-er-data-sources-of-the-calculated-field-type"></a>Arvutatud väljatüübi ER-andmeallikate parameetritega kõned
 
@@ -36,7 +36,7 @@ Selle artikli näidete lõpetamiseks peab teil olema järgmine juurdepääs:
     - Elektroonilise aruandluse funktsionaalne konsultant
     - Süsteemiadministraator
 
-- Juurdepääs teenuse Regulatory Configuration Services (RCS) eksemplarile, mis on ette valmistatud sama rentniku jaoks, nagu rakendus Finance and Operations, ühe järgmise rolli jaoks:
+- Juurdepääs regulatiivsetele konfiguratsiooniteenustele (RCS), mis on ette antud samale rentnikule kui finantsid ja toimingud ühel järgmistest rollidest:
 
     - Elektroonilise aruandluse arendaja
     - Elektroonilise aruandluse funktsionaalne konsultant
@@ -84,7 +84,7 @@ Selles näites loote konfiguratsiooni näidisettevõtte Litware, Inc. jaoks. Esm
             - Maksuväärtuste summa.
             - Kohaldatava maksumäära miinimumväärtus.
 
-    Selle konfiguratsiooni mudeli vastendamine rakendab põhiandmete mudelit selle mudeli jaoks loodud ning rakenduse Finance and Operations puhul. Selle tulemusena on **Maksu-** ja **Gr-** andmeallikate sisu avatud ER-vormingute, näiteks abstraktsete andmeallikate puhul.
+    Selle konfiguratsiooni mudeli vastendamine juurutab finantsides ja toimingutes loodud mis tahes selle mudeli jaoks loodud ER-vormingute põhiandmete mudeli. Selle tulemusena on **Maksu-** ja **Gr-** andmeallikate sisu avatud ER-vormingute, näiteks abstraktsete andmeallikate puhul.
 
     ![Mudeli vastendamise kujundaja lehekülg näitab maksu- ja Gr andme allikaid.](media/er-calculated-field-type-01.png)
 
@@ -343,3 +343,4 @@ Läbivaadatud konfiguratsioone saate RCS-ist importida tüübi **RCS** ER-hoidla
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

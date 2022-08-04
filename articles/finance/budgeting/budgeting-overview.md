@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a6a00bdae34e2aebcc4a015626eb044d90cd2887
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: db15c52ddde08bcc9d390c51efc676c20aac0a7e
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8864393"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067425"
 ---
 # <a name="budgeting-home-page"></a>Eelarvestamise avaleht
 
@@ -38,7 +38,7 @@ Ettevõtte ressursi planeerimistsükkel koosneb tavaliselt plaanimisest, eelarve
 
 Pikaajalist strateegilist plaanimist ja aastase eelarve plaanimist toetatakse eelarveplaani dokumendi kaudu. Eelarveplaani dokumendid on tugevasti Microsoft Exceliga integreeritud. Kasutajad saavad konfigureerida piiramatu arvu valuuta- ja kvantitatiivseid stsenaariume ning määratleda eelarvestamise organisatsiooni hierarhia nii ülalt-alla kui ka alt-üles eelarvestamise meetodite toetamiseks. Pärast seda, kui eelarve on rakenduses loodud ja kinnitatud, teisendatakse eelarveplaan eelarveregistri kirjeks. Eelarveregistri kirjed pakuvad vahendeid eelarve haldamiseks ja summade jälgitavana hoidmiseks eelarvekoodide kaudu. Eelarve registrikirjed võimaldavad parandada algseid eelarveid, teha ülekandeid ja eelmise aasta eelarvesummasid edasi kanda. Kehtestatud eelarve põhjal saab ettevõte lubada eelarve juhtimise. Kontrolli tase oleneb organisatsiooni kultuurist ja küpsusastmest. Madala küpsusastmega organisatsioonid võivad jätta eelarve muutmata ja olla rohkem reaktiivsed kui proaktiivsed, kui eelarve ootustele ei vasta. Teised organisatsioonid võivad lubada eelarve juhtimise poliitikaid, mis takistavad kasutajatel ostmist, kui eelarvesummasid pole.
 
-Lõpetuseks võivad väga küpsed organisatsioonid kehtestada organisatsiooni kultuuri, kus töötajaid koolitatakse organisatsiooni eesmärkide teemal, ja nad järgivad neid eesmärke poliitikate kaudu, nagu „Kaaluge reisimise asemel veebikoosolekut”. Rakendus sisaldab eelarve juhtimise raamistikku, mis võimaldab ettevõtte juhtkonnal valida ranged juhtimismeetodid (mis takistavad sisestamisi, mis ületataks eelarvet) või leebed juhtimismeetodid (kus kasutajatele edastatakse hoiatus, et nad ületavad olemasolevaid eelarvevahendeid, kuid nad saavad ise otsustada, kuidas jätkata). Lõpuks saab kasutada jooksvaid prognoose. Jooksev prognoos on eelarve regulaarne võrdlemine tegelike näitajatega ja seda kasutatakse määratlemiseks, kui hästi ettevõttel eelarvega võrreldes läheb. Jooksvat prognoosi kasutatakse ka suundumuste tuvastamiseks. Rakenduses Finance and Operations toetatakse jooksvaid prognoose eelarveplaani dokumendi kaudu algse plaanimise tegevustena. Jooksvaid prognoose saab teha paralleelselt tulevase eelarvetsükli plaanimisega.
+Lõpetuseks võivad väga küpsed organisatsioonid kehtestada organisatsiooni kultuuri, kus töötajaid koolitatakse organisatsiooni eesmärkide teemal, ja nad järgivad neid eesmärke poliitikate kaudu, nagu „Kaaluge reisimise asemel veebikoosolekut”. Rakendus sisaldab eelarve juhtimise raamistikku, mis võimaldab ettevõtte juhtkonnal valida ranged juhtimismeetodid (mis takistavad sisestamisi, mis ületataks eelarvet) või leebed juhtimismeetodid (kus kasutajatele edastatakse hoiatus, et nad ületavad olemasolevaid eelarvevahendeid, kuid nad saavad ise otsustada, kuidas jätkata). Lõpuks saab kasutada jooksvaid prognoose. Jooksev prognoos on eelarve regulaarne võrdlemine tegelike näitajatega ja seda kasutatakse määratlemiseks, kui hästi ettevõttel eelarvega võrreldes läheb. Jooksvat prognoosi kasutatakse ka suundumuste tuvastamiseks. Finantside ja toimingute puhul toetatakse eelarveplaani algsete plaanimistegevuste kaudu eelarvete jooksvat planeerimist. Jooksvaid prognoose saab teha paralleelselt tulevase eelarvetsükli plaanimisega.
 
 -   [Eelarve koostamise ülevaade](basic-budgeting-overview-configuration.md)
 -   [Eelarve juhtimise ülevaade](budget-control-overview-configuration.md)
@@ -72,3 +72,4 @@ Näiteks saate määratleda, kes eelarve koostab, mille kohta eelarve koostataks
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

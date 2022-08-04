@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2017-12-20
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 9adbf8f5baa829fb28977d618a4f8beee31ef080
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a4d423b149957e624269231aede510190f0c14c7
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8870129"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068776"
 ---
 # <a name="fixed-assets-roll-forward-report"></a>Põhivarade edasiarvestuse aruanne
 
@@ -30,7 +30,7 @@ ms.locfileid: "8870129"
 
 **Põhivarade edasiarvestuse** aruanne kasutab elektroonilise aruandluse (ER) raamistikku. Enne aruande käivitamist tuleb teenusest Microsoft Dynamics Lifecycle Services (LCS) importida põhivarade mudel ja põhivara edasiarvestuse konfiguratsioonid. Juhiste saamiseks vaadake teemat [Elektroonilise aruandluse konfiguratsioonide allalaadimine teenusest Lifecycle Services](/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs).
 
-See aruanne on saadaval rakenduses Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3 või kiirparandusena rakendusele Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (juuli 2017). Juuli 2017 väljalaske keskkondadele tuleb rakendada kolm järgmist kiirparandust.
+See aruanne on saadaval Microsoft Dynamics 365 Finance's, Enterprise Edition 7.3-s Microsoft Dynamics või kiirparandusena 365 Finance, Enterprise editioni (juuli 2017) jaoks. Juuli 2017 väljalaske keskkondadele tuleb rakendada kolm järgmist kiirparandust.
 
 - **KB 4041754:** elektroonilise aruandluse (ER) konfiguratsiooni ei saa LCS-ist alla laadida, kuna see ei ole pärast platvormivärskenduste paketi rakendamist praegusele versioonile rakendatav
 - **KB 4056107:** elektroonilise aruandluse (GER) kumulatiivne värskendus 5
@@ -67,3 +67,4 @@ Järgmises tabelis on kirjeldatud aruandes olevaid välju.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

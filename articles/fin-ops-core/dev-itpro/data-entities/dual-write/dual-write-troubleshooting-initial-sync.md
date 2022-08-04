@@ -2,19 +2,19 @@
 title: Tõrkeotsingu probleemid algse sünkroonimine ajal
 description: See artikkel pakub tõrkeotsingu teavet, mis võib aidata teil lahendada probleeme, mis võivad ilmneda algse sünkroonimise ajal.
 author: RamaKrishnamoorthy
-ms.date: 03/16/2020
+ms.date: 06/24/2022
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: bb3db4c651aaac521974d92753be5a8219bfe1ea
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f8fb27a6af2962be31288a3d2260110e5fe6a201
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8892353"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112078"
 ---
 # <a name="troubleshoot-issues-during-initial-synchronization"></a>Tõrkeotsingu probleemid algse sünkroonimine ajal
 
@@ -22,12 +22,12 @@ ms.locfileid: "8892353"
 
 
 
-See artikkel pakub tõrkeotsingu teavet topeltkirjutuse integreerimiseks finantside ja toimingute rakenduste ning rakenduste vahel Dataverse. Eelkõige annab see teavet, mis aitab lahendada lahenduse teadlikkusega seotud probleeme, mis võivad ilmneda esialgse sünkroonimise käigus.
+See artikkel pakub tõrkeotsingu teavet topeltkirjutuse integreerimiseks finantside ja toimingute rakenduste ning Dataverse. Eelkõige annab see teavet, mis aitab lahendada lahenduse teadlikkusega seotud probleeme, mis võivad ilmneda esialgse sünkroonimise käigus.
 
 > [!IMPORTANT]
 > Mõned küsimused, mida see artikkel käsitleb, võivad nõuda kas süsteemiadministraatori rolli või Microsofti Azure Active Directory (Azure AD) rentniku administraatori mandaate. Kõigis probleeme kirjeldavates jaotistes täpsustatakse, kas konkreetne roll või mandaat on nõutav.
 
-## <a name="check-for-initial-synchronization-errors-in-a-finance-and-operations-app"></a>Finantside ja toimingute rakenduses algse sünkroonimise tõrgete kontrollimine
+## <a name="check-for-initial-synchronization-errors-in-a-finance-and-operations-app"></a>Kontrollige finantside ja toimingute rakenduses algse sünkroonimise tõrkeid.
 
 Pärast vastendamise mallide lubamist peaks vastenduse olekuks olema **Töötab**. Kui olek on **Ei tööta**, ilmnes tõrkeid esmasel sünkroonimisel. Tõrgete kuvamiseks valige lehel **Topeltkirjutus** vahekaart **Esmase sünkroonimise üksikasjad**.
 
@@ -75,7 +75,7 @@ Teile võidakse kuvada esmase sünkroonimise ajal järgmine tõrketeade.
 
 Probleemi lahendamiseks tehke järgmist.
 
-1. Rakendusse Finantsid ja Toimingud sisselogimine.
+1. Logige sisse finantside ja toimingute rakendusse.
 2. Kustutage lehel **Azure Active Directory rakendused** klient **DtAppID** ja seejärel lisage see uuesti.
 
 ![DtAppID klient Azure AD rakenduste loendis.](media/aad_applications.png)
@@ -102,9 +102,9 @@ Järgmisena on toodud mõned näited.
 
 Kui hankija tabelis on read, mille veerud **PrimaryContactPersonId** ja **InvoiceVendorAccountNumber** sisaldavad väärtusi, siis järgige neid samme, et esmane sünkroonimine lõpule viia.
 
-1. Kustutage vastendusest **finantside ja toimingute rakenduses veerud PrimaryContactPersonId** **ja InvoiceVendorAccountNumber** ning seejärel salvestage vastendus.
+1. Kustutage finantside ja toimingute rakenduses **vastendusest veerud PrimaryContactPersonId** **ja InvoiceVendorAccountNumber** ning seejärel salvestage vastendus.
 
-    1. Topeltkirjutuse vastendamise **lehel hankijate V2 (msdandmiku\_ hankijad)** **jaoks valige tabeli vastenduste vahekaardi vasakpoolses filtris** suvand Finantside **ja toimingute rakendused. Hankijad V2**. Valige parempoolses filtris **Müük.Hankija**.
+    1. Topeltkirjutuse vastendamise **lehel hankijate V2 (msdandmiku\_ hankijad)** **jaoks valige tabeli vastenduste vahekaardi vasakpoolses filtris** **finantside ja toimingute rakendused. Hankijad V2**. Valige parempoolses filtris **Müük.Hankija**.
     2. Otsige väärtust **primarycontactperson**, et leida allika veerg **PrimaryContactPersonId**.
     3. Valige **Tegevused** ja seejärel **Kustuta**.
 
@@ -151,7 +151,7 @@ Kui kliendi tabelis on read, mille veerud **ContactPersonID** ja **InvoiceAccoun
 
 1. Finantside ja toimingute rakenduses kustutage **veerud ContactPersonID** ja **InvoiceAccount** **klientide V3 (kontode)** vastendusest ja seejärel salvestage vastendus.
 
-    1. **Klientide V3 (** kontode) topeltkirjutuse vastendamise lehel valige **tabeli vastenduste vahekaardi vasakpoolses filtris** suvand Finantsid **ja Toimingud. Kliendid V3**. Valige parempoolses filtris **Dataverse.Account**.
+    1. **Klientide V3 (** kontod) topeltkirjutuse vastendamise lehel valige **tabeli vastenduste vahekaardi vasakpoolses filtris** finantside **ja toimingute rakendus. Kliendid V3**. Valige parempoolses filtris **Dataverse.Account**.
     2. Otsige väärtust **contactperson**, et leida allika veerg **ContactPersonID**.
     3. Valige **Tegevused** ja seejärel **Kustuta**.
 
@@ -183,15 +183,15 @@ Kui kliendi tabelis on read, mille veerud **ContactPersonID** ja **InvoiceAccoun
 
 5. Lisage veerud **InvoiceAccount** ja **ContactPersonId** tagasi vastendusse **Kliendid V3 (Kontod)** ning seejärel salvestage vastendus. Nüüd on nii veerg **InvoiceAccount** kui ka veerg **ContactPersonId** taas osa reaalajas sünkroonimise režiimist. Järgmise sammu käigus esmasünkroonite need veerud.
 6. Käivitage uuesti üksuse **Kliendid V3 (kontod)** vastenduse esmane sünkroonimine. Kuna muudatuste jälitamine on välja lülitatud **, sünkroonitakse InvoiceAccount** **ja ContactPersonId** andmed finantside ja toimingute rakendusest rakendusesse Dataverse.
-7. InvoiceAccount **ja** **ContactPersonId** andmete sünkroonimiseks rakendusest Dataverse Finantsid ja toimingud, peate kasutama andmete integreerimisprojekti.
+7. InvoiceAccount ja ContactPersonId **andmete sünkroonimiseks finantside** ja toimingute rakendusest peate kasutama andmete integreerimisprojekti.**·** Dataverse
 
-    1. Looge Power Apps andmete integreerimise projekt Müügi.konto **ning finantside ja** **toimingute rakenduste vahel. Klientide V3-tabelid**. Andmesuund peab olema rakendusest Dataverse Finantsid ja toimingud. Kuna **InvoiceAccount** on topeltkirjutuses uus atribuut, siis võite selle atribuudi esmase sünkroonimise vahele jätta. Lisateavet vt teemast [Andmete integreerimine teenusesse Dataverse](/power-platform/admin/data-integrator).
+    1. Looge Power Apps andmete integreerimise projekt Müügi.konto **ja finantside ning** **toimingute rakenduste vahel. Klientide V3-tabelid**. Andmesuund peab olema finantside Dataverse ja toimingute rakendusest. Kuna **InvoiceAccount** on topeltkirjutuses uus atribuut, siis võite selle atribuudi esmase sünkroonimise vahele jätta. Lisateavet vt teemast [Andmete integreerimine teenusesse Dataverse](/power-platform/admin/data-integrator).
 
         Järgmisel illustratsioonil on toodud projekt, mis värskendab väljasid **CustomerAccount** ja **ContactPersonId**.
 
         ![Andmeintegratsiooni projekt väljade CustomerAccount ja ContactPersonId värskendamiseks.](media/cust_selfref6.png)
 
-    2. Lisage ettevõtte kriteeriumid filtrile Dataverse poolel, nii et finantside ja toimingute rakenduses uuendatakse ainult filtri kriteeriumidele vastavad read. Filtri lisamiseks valige filtri nupp. Seejärel saate dialoogiboksis **Päringu redigeerimine** lisada filtri päringu, nagu näiteks **\_msdyn\_company\_value eq '\<guid\>'**.
+    2. Lisage ettevõtte kriteeriumid filtrile Dataverse poolel, nii et finantside ja toimingute rakenduses uuendatakse ainult read, mis vastavad filtri kriteeriumidele. Filtri lisamiseks valige filtri nupp. Seejärel saate dialoogiboksis **Päringu redigeerimine** lisada filtri päringu, nagu näiteks **\_msdyn\_company\_value eq '\<guid\>'**.
 
         > [MÄRKUS] Kui filtri nuppu ei kuvata, siis saate luua tugiteenusepileti, et paluda andmeintegratsiooni meeskonnal lubada teie rentnikus filtri võimalus.
 
@@ -227,7 +227,7 @@ Kui proovite käivitada osapoole postiaadresside ja osapoole elektrooniliste aad
 
 *Osapoole numbrit Dataverse`ist ei leitud.*
 
-Finantside ja toimingute rakendustes on DirPartyCDSEntity **häälestatud vahemik, mis filtreerib isiku ja** organisatsiooni tüüpi **osapooli** **.** Selle tulemusena **CDS-i osapoolte - msdyn_parties** vastendamine ei sünkrooni teist tüüpi osapooli, sh **juriidilist isikut** ja **tootmisüksust**. Kui algne sünkroonimine töötab **CDS Party postiaadresside (msdyn_partypostaladdresses)** või **Party Contacts V3 (msdyn_partyelectronicaddresses)** puhul, võidakse kuvada tõrge.
+Finantside ja toimingute rakendustes on **DirPartyCDSEntity** häälestatud vahemik, mis filtreerib isiku ja organisatsiooni **tüüpi** osapooli **·**. Selle tulemusena **CDS-i osapoolte - msdyn_parties** vastendamine ei sünkrooni teist tüüpi osapooli, sh **juriidilist isikut** ja **tootmisüksust**. Kui algne sünkroonimine töötab **CDS Party postiaadresside (msdyn_partypostaladdresses)** või **Party Contacts V3 (msdyn_partyelectronicaddresses)** puhul, võidakse kuvada tõrge.
 
 Töötame parandusega, et eemaldada finantside ja toimingute üksusest osapoole tüübi vahemik, nii et igat tüüpi osapooled saavad edukalt sünkroonida Dataverse.
 
@@ -235,4 +235,13 @@ Töötame parandusega, et eemaldada finantside ja toimingute üksusest osapoole 
 
 Kui olete käivitanud **kliendi** andmete esmase sünkroonimise ja **Kliendi** vastendused on käivitatud ning seejärel käivitate **Kontaktid** andmete esmase sünkroonimise, võivad värskendustel olla jõudlusprobleemid tabelite sisestamisel **LogisticsPostalAddress** ja **LogisticsElectronicAddress** tabelitesse **Kontaktid** aadressides. Sama globaalset postiaadressi ja elektroonilist aadressitabelit jälgitakse **KohandKlientV3Üksus** ja **HankHankijaV2Üksus** puhul ja topeltkirjutus püüab luua rohkem päringuid, et kirjutada andmeid teisele poolele. Kui olete **kliendi** algse sünkroonimise juba käitanud, siis peatage vastav kaart **Kontaktide** andmete algse sünkroonimise ajal. Tehke sama asja **hankija** andmete jaoks. Kui esialgne sünkroonimine on lõpetatud, saate käivitada kõik kaardid, jättes algse sünkroonimise vahele.
 
+## <a name="float-data-type-that-has-a-zero-value-cant-be-synchronized"></a>Nullväärtusega andmetüüpi ei saa sünkroonida.
+
+Esialgne sünkroonimine võib nurjuda kirjete puhul, mille hinnaväljal on nullväärtus, **nt Fikseeritud makse summa** või **Summa** kandevaluutas. Sel juhul kuvatakse tõrketeade, mis sarnaneb järgmise näitega:
+
+*Sisendparameetrite valideerimisel ilmnes tõrge: Microsoft.OData.ODataException: literaal '000000' ei saa teisendada eeldatavaks tüübiks'Edm. Kümnendkoha,...*
+
+Probleem on seotud väärtusega **Language locale** lähteandmete **vormingute all** andmehalduse **moodulis**. Muutke välja **Language loke väärtuseks** **En-us** ja proovige uuesti.
+
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

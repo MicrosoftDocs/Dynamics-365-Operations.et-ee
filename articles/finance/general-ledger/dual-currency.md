@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 8db8faefaec4afe208344492ec91375531cb9cd0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 19337b2651830d79543361d525bf24c4f794e825
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8906351"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065742"
 ---
 # <a name="dual-currency"></a>Topeltvaluuta
 
 [!include [banner](../includes/banner.md)]
 
-Rakenduse Microsoft Dynamics 365 for Finance and Operations versioonis 8.1 (oktoober 2018) kasutusele võetud funktsionaalsus võimaldab aruandlusvaluuta ümberkorraldamist ja teise arvestusvaluutana kasutamist. Sellele funktsioonile viidatakse ka kui *topeltvaluutale*. Topeltvaluuta muudatusi ei saa konfiguratsioonivõtme või parameetri kaudu välja lülitada. Kuna aruandlusvaluutat kasutatakse teise arvestusvaluutana, on aruandlusvaluuta arvestamise meetodi sisestusloogika muutunud.
+365 Microsoft Dynamics Finantsversioonis 8.1 (oktoober 2018) kasutusele võetud funktsioon võimaldab aruandlusvaluuta uuestiostuda ja kasutada seda teise arvestusvaluutana. Sellele funktsioonile viidatakse ka kui *topeltvaluutale*. Topeltvaluuta muudatusi ei saa konfiguratsioonivõtme või parameetri kaudu välja lülitada. Kuna aruandlusvaluutat kasutatakse teise arvestusvaluutana, on aruandlusvaluuta arvestamise meetodi sisestusloogika muutunud.
 
 Lisaks on täiustatud mitmeid mooduleid aruandlusvaluuta jälgimiseks, aruandluseks ja kasutamiseks erinevates protsessides. Mõjutatud moodulid on järgmised:
 
@@ -209,3 +209,4 @@ Pearaamatu konsolideerimisel on nüüd võimalik konsolideerida lähteettevõtet
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

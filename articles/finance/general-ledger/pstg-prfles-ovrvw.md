@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-01-03
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e7ef3be13e82ff3722fc81247b5cd581b0b571b0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 91078352b6376ee99e7d9ce4546ed200cb80a25a
+ms.sourcegitcommit: 6b209919de39c15e0ebe4abc9cbcd30618f2af0b
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8876120"
+ms.lasthandoff: 07/11/2022
+ms.locfileid: "9135839"
 ---
 # <a name="posting-profiles-overview"></a>Sisestusprofiilide ülevaade
 
@@ -71,9 +71,9 @@ Kui peate jälgima antud sisestamistüübi puhul mitut põhikontot, soovitame ka
 
 | Kliendigrupp | Nimi | Kirjeldus |
 |----------------|------|-------------|
-| EXT | Väliskliendi | Seda gruppi kasutatakse kõigi standardsete välise poole suunatud klientide puhul. |
+| Ext | Väliskliendi | Seda gruppi kasutatakse kõigi standardsete välise poole suunatud klientide puhul. |
 | Tühjenda (EMP) | Töövõtjad | Seda gruppi kasutatakse kõigi töötajate puhul, kes ostavad teie organisatsioonist. |
-| INT | Kontsernisisene müük | Seda gruppi kasutatakse kõigi kontsernisiseste kliendikontode puhul, mida kasutatakse koos integratsiooni müügi- ja ostutellimustega. |
+| Int | Kontsernisisene müük | Seda gruppi kasutatakse kõigi kontsernisiseste kliendikontode puhul, mida kasutatakse koos integratsiooni müügi- ja ostutellimustega. |
 
 Seejärel seadistate sisestusreeglites kolm rida. Igal real saate valida grupi **väärtuse** ja seotud põhikonto.
 
@@ -111,13 +111,14 @@ Paljud moodulid rakenduses Dynamics 365 Finance ja neil on sisestusprofiil või 
 - Kuluhalduse sisestamine (varsti tulev)
 - [Põhivara sisestusreeglid](../fixed-assets/tasks/set-up-fixed-asset-posting-profiles.md)
 - Kontserni raamatupidamise sisestamine (varsti tulev)
-- Lao sisestusreeglid (varsti tulev)
+- [Varude sisestamine](inventory-posting.md)
 - [Väljaminev kulu sisestamine](../../supply-chain/landed-cost/costing-parameters-setup.md)
 - [Sisestamisdefinitsioonide ülevaade](posting-definitions.md)
-- Tootmise juhtimise sisestamine (tuleb varsti)
+- [Tootmise sisestamine](production-posting.md)
 - Projektihalduse ja raamatupidamise sisestamine (varsti tulev)
 - Teenusehalduse sisestamine (varsti tulev)
 - Maksu sisestamine (varsti tulev)
 - Kellaaja ja kohalviibimise sisestamine (varsti tulev)
 - Transpordihalduse sisestamine (tuleb varsti)
 - Tagasimaksehalduse sisestusreeglid (varsti tulev)
+

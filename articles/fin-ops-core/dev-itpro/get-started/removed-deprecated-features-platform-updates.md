@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 51165db8d15f0a57fd9bc1649dc6e3ca72875236
-ms.sourcegitcommit: 1fa1ac1fa25e977e98bc02ed5d9d39bd3a7a28d7
+ms.openlocfilehash: 16c77d719171e8e5cfef71178f8917d462f6d84b
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/08/2022
-ms.locfileid: "8945800"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069918"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Eemaldatud või iganenud platvormifunktsioonid
 
@@ -30,7 +30,7 @@ See artikkel kirjeldab funktsioone, mis on eemaldatud või mida on planeeritud f
 
 See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võtta. 
 
-Finantside ja toimingute rakenduste objektide üksikasjaliku teabe leiate tehnilistest [viitearuannetest](/dynamics/s-e/global/axtechrefrep_61). Saate võrrelda nende aruannete erinevaid versioone, et saada teavet objektide kohta, mida on igas Finantsi ja operatsioonide rakenduste versioonis muudetud või eemaldatud.
+Finantside ja toimingute rakenduste objektide üksikasjaliku teabe leiate tehnilistest [viitearuannetest](/dynamics/s-e/global/axtechrefrep_61). Saate võrrelda nende aruannete erinevaid versioone, et saada teavet objektide kohta, mida on igas finantsi ja toimingute rakenduste versioonis muudetud või eemaldatud.
 
 
 ## <a name="feature-deprecation-effective-june-2022"></a>Funktsiooni amortiseerumine kehtib juunil 2022
@@ -39,14 +39,14 @@ Finantside ja toimingute rakenduste objektide üksikasjaliku teabe leiate tehnil
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Aegumise/eemaldamise põhjus** | Finantside ja toimingute (Dynamics 365) mobiilirakendus ja platvorm on taunitav ühe mobiilse platvormiga konsolideerimiseks Power Apps. |
-| **Asendatud teise funktsiooniga?**   | Jah, mobiilikogemusi finantsi ja toimingute rakenduse andmete üle saab üles ehitada koos integratsiooniga Power Platform. Üksikasjalikumat [teavet leiate mobiilikogemuste](https://cloudblogs.microsoft.com/dynamics365/it/2022/06/03/finance-and-operations-dynamics-365-mobile-app-to-be-deprecated/)[sisestamisest](../power-platform/build-mobile-experiences.md) ja loomisest. |
-| **Mõjutatud tootealad**         | Finance and Operationsi rakendused |
+| **Aegumise/eemaldamise põhjus** | Finantsid ja toimingud (Dynamics 365) on mobiilsed rakenduse ja platvormid taunitav, et konsolideerida ühte mobiilset platvormi, mis on Power Apps. |
+| **Asendatud teise funktsiooniga?**   | Jah, mobiilikogemusi finantside ja toimingute rakenduse andmete üle saab luua integratsiooniga Power Platform. Üksikasjalikumat [teavet leiate mobiilikogemuste](https://cloudblogs.microsoft.com/dynamics365/it/2022/06/03/finance-and-operations-dynamics-365-mobile-app-to-be-deprecated/)[sisestamisest](../power-platform/build-mobile-experiences.md) ja loomisest. |
+| **Mõjutatud tootealad**         | Finance and Operations rakendused |
 | **Juurutamissuvand**              | Kõik |
 | **Olek**                         | Aegunud. Tugikuupäeva lõppkuupäev on mõeldud oktoober 2024. |
 
 
-## <a name="platform-updates-for-version-10029-of-finance-and-operations-apps"></a>Finantside ja toimingute rakenduste versiooni 10.0.29 platvormi värskendused
+## <a name="platform-updates-for-version-10029-of-finance-and-operations-apps"></a>Platvormi värskendused versiooni 10.0.29 finantside ja toimingute rakenduste jaoks
 
 ### <a name="panorama-tab-style"></a>Vahekaardi mati laad
 
@@ -67,7 +67,7 @@ Finantside ja toimingute rakenduste objektide üksikasjaliku teabe leiate tehnil
 |------------|--------------------|
 | **Aegumise/eemaldamise põhjus** | Eemaldame XML-i URL-i lahenduse toe, kuna see on tuvastatud potentsiaalse turvakaebna. See tähendab, et XML-failidega seotud välisressursse enam ei lahendata.  |
 | **Asendatud teise funktsiooniga?**   | Ei. |
-| **Mõjutatud tootealad**         | Finance and Operationsi rakendused |
+| **Mõjutatud tootealad**         | Finance and Operations rakendused |
 | **Juurutamissuvand**              | Kõik |
 | **Olek**                         | Aegunud. |
 
@@ -77,9 +77,9 @@ Finantside ja toimingute rakenduste objektide üksikasjaliku teabe leiate tehnil
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Aegumise/eemaldamise põhjus** | Andmehalduse XSLT-skriptimise tugi ei ole oluline finantside ja toimingute rakenduste turvalisuse ja andmekaitse parandamiseks.  |
+| **Aegumise/eemaldamise põhjus** | Andmehalduse XSLT-skriptimise tugi ei ole oluline turvalisuse ja andmekaitse parandamiseks finantside ja toimingute rakendustes.  |
 | **Asendatud teise funktsiooniga?**   | Ei. Kliendid ja ISV-d peaksid XSLT-skriptimise asemel kaaluma XSLT-keelel põhinevate lahenduste taaskasutust. |
-| **Mõjutatud tootealad**         | Finance and Operationsi rakendused |
+| **Mõjutatud tootealad**         | Finance and Operations rakendused |
 | **Juurutamissuvand**              | Kõik |
 | **Olek**                         | Aegunud <br><br>**Erand:** kliendid, kes kasutavad praegu XLST-skriptimist. Nad saavad seda tööd kuni versioonini 10.0.30 või uuema versiooni uuendamiseni jätkata. Varasemate versioonide puhul aegub erand 31. jaanuar 2023. Selle erandiga kliendid on saanud halduskeskuses saadaolevas teatekeskuses Microsoft 365 teatise. |
 
@@ -118,7 +118,7 @@ Finantside ja toimingute rakenduste objektide üksikasjaliku teabe leiate tehnil
 | **Juurutamissuvand**              | Kõik |
 | **Olek**                         | Aegunud  |
 
-## <a name="platform-updates-for-version-10023-of-finance-and-operations-apps"></a>Finantside ja toimingute rakenduste versiooni 10.0.23 platvormi värskendused
+## <a name="platform-updates-for-version-10023-of-finance-and-operations-apps"></a>Platvormi värskendused versiooni 10.0.23 finantside ja toimingute rakenduste jaoks
 
 ### <a name="ondbsynchronize-event"></a>OnDBSynchronize üritus
 
@@ -141,7 +141,7 @@ Finantside ja toimingute rakenduste objektide üksikasjaliku teabe leiate tehnil
 | **Juurutamissuvand**              | Kõik |
 | **Olek**                         | Aegunud. Planeeritud kolimiskuupäev on aprill 2023. |
 
-## <a name="platform-updates-for-version-10021-of-finance-and-operations-apps"></a>Finantside ja toimingute rakenduste versiooni 10.0.21 platvormi värskendused
+## <a name="platform-updates-for-version-10021-of-finance-and-operations-apps"></a>Platvormi värskendused versiooni 10.0.21 finantside ja toimingute rakenduste jaoks
 
 ### <a name="skype-for-business-online-support"></a>Skype'i ärirakenduse veebiväljaande tugi
 
@@ -196,12 +196,12 @@ Finantside ja toimingute rakenduste objektide üksikasjaliku teabe leiate tehnil
 |------------|--------------------|
 | **Aegumise/eemaldamise põhjus** | Töö, seire ja halduse üldkulude vähendamiseks ja klientide indeksihalduse säilitamiseks on see funktsioon eemaldatud. |
 | **Asendatud teise funktsiooniga?**   | Tulevikus teevad indeksihooldust Microsofti teenused. See toimub pidevalt ilma kasutaja töökoormusi mõjutamata. |
-| **Mõjutatud tootealad**         | Finance and Operationsi rakendused|
+| **Mõjutatud tootealad**         | Finance and Operations rakendused|
 | **Juurutamissuvand**              | Pilve juurutamine – mõjutab Microsofti hallatud töökeskkondi ja liivakastikeskkondi kihist 2 kuni kihini 5. |
 | **Olek**                         | See funktsioon on eemaldatud. |
 
 
-## <a name="platform-updates-for-version-10017-of-finance-and-operations-apps"></a>Finantside ja toimingute rakenduste versiooni 10.0.17 platvormi värskendused
+## <a name="platform-updates-for-version-10017-of-finance-and-operations-apps"></a>Platvormi värskendused versiooni 10.0.17 finantside ja toimingute rakenduste jaoks
 
 
 ### <a name="visual-studio-2015"></a>Visual Studio 2015
@@ -246,7 +246,7 @@ Finantside ja toimingute rakenduste objektide üksikasjaliku teabe leiate tehnil
 | **Juurutamissuvand**              | Kõik|
 | **Olek**                         | Internet Explorer 11 ei toetata pärast 2021. aasta augustit.|
 
-## <a name="platform-updates-for-version-10015-of-finance-and-operations-apps"></a>Finantside ja toimingute rakenduste versiooni 10.0.15 platvormi värskendused
+## <a name="platform-updates-for-version-10015-of-finance-and-operations-apps"></a>Platvormi värskendused versiooni 10.0.15 finantside ja toimingute rakenduste jaoks
 
 ### <a name="visual-studio-add-in-to-apply-metadata-hotfixes"></a>Visual Studio lisandmoodul metaandmete kiirparanduste rakendamiseks
 
@@ -259,7 +259,7 @@ Finantside ja toimingute rakenduste objektide üksikasjaliku teabe leiate tehnil
 | **Olek**                         | Alates versioonist 10.0.15 ei ole lisandmoodul enam Visual Studio tööriistades. |
 
 
-## <a name="platform-updates-for-version-10014-of-finance-and-operations-apps"></a>Finantside ja toimingute rakenduste versiooni 10.0.14 platvormi värskendused
+## <a name="platform-updates-for-version-10014-of-finance-and-operations-apps"></a>Platvormi värskendused versiooni 10.0.14 finantside ja toimingute rakenduste jaoks
 
 ### <a name="online-users-page"></a>Võrgus viibivate kasutajate leht 
 
@@ -272,7 +272,7 @@ Finantside ja toimingute rakenduste objektide üksikasjaliku teabe leiate tehnil
 | **Olek**                         | See vorm eemaldatakse 2021. a oktoobris.   |
 
 
-## <a name="platform-updates-for-version-10013-of-finance-and-operations-apps"></a>Finantside ja toimingute rakenduste versiooni 10.0.13 platvormi värskendused
+## <a name="platform-updates-for-version-10013-of-finance-and-operations-apps"></a>Platvormi värskendused versiooni 10.0.13 finantside ja toimingute rakenduste jaoks
 
 
 ### <a name="custom-code-defined-in-ssrs-report-properties"></a>SSRS-aruande atribuutides määratletud kohandatud kood 
@@ -316,19 +316,19 @@ Finantside ja toimingute rakenduste objektide üksikasjaliku teabe leiate tehnil
 | **Olek**                         | Versioonis 10.0.13/Platvormi värskendusega nr 37 on salvestatud vaadete funktsioon üldiselt saadaval ja kliendid saavad selle valikuliselt sisse lülitada. Salvestatud vaadete funktsioon muutub kohustuslikuks 2021. aasta oktoobri väljalaskes. |
 
 
-## <a name="platform-updates-for-version-10012-of-finance-and-operations-apps"></a>Finantside ja toimingute rakenduste versiooni 10.0.12 platvormi värskendused
+## <a name="platform-updates-for-version-10012-of-finance-and-operations-apps"></a>Platvormi värskendused versiooni 10.0.12 finantside ja toimingute rakenduste jaoks
 
 ### <a name="grid-or-group-control-form-extensions-containing-invalid-field-references"></a>Kehtetuid väljaviiteid sisaldavad ruudustiku või grupi juhtelemendi vormilaiendused
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Aegumise/eemaldamise põhjus** | Ruudustiku või grupi juhtelementide andmegrupi atribuute kasutatakse väljagrupi kõikide väljade automaatseks kuvamiseks. Laiendusega lisatud ruudustiku või grupi juhtelement võib sisaldada välju, mis ei ole enam väljagrupis määratletud, või väljagrupis määratletud väljad võivad puududa. See võib põhjustada käitusajal vastuolulist käitumist. Finantside ja toimingute rakenduste versiooni 10.0.12 platvormi värskendused liigitada nüüd selle probleemi kompilaatori *hoiatuseks*. Probleemi lahendamiseks avage vormilaiendus ja salvestage see.
+| **Aegumise/eemaldamise põhjus** | Ruudustiku või grupi juhtelementide andmegrupi atribuute kasutatakse väljagrupi kõikide väljade automaatseks kuvamiseks. Laiendusega lisatud ruudustiku või grupi juhtelement võib sisaldada välju, mis ei ole enam väljagrupis määratletud, või väljagrupis määratletud väljad võivad puududa. See võib põhjustada käitusajal vastuolulist käitumist. Finantside ja operatsioonide rakenduste versiooni 10.0.12 platvormi värskendused liigitada nüüd selle probleemi kompilaatori *hoiatuseks*. Probleemi lahendamiseks avage vormilaiendus ja salvestage see.
 | **Asendatud teise funktsiooniga?**   | See kompilaatori hoiatus asendatakse tulevases värskenduses kompilaatori tõrkega. |
 | **Mõjutatud tootealad**         | Visual Studio arendustööriistad |
 | **Juurutamissuvand**              | Kõik |
 | **Olek**                         | Kompilaatorhoiatus sisestatakse platvormi uuendustes finantside ja toimingute rakenduste versioonile 10.0.12. |
 
-## <a name="platform-updates-for-version-10011-of-finance-and-operations-apps"></a>Finantside ja toimingute rakenduste versiooni 10.0.11 platvormi värskendused
+## <a name="platform-updates-for-version-10011-of-finance-and-operations-apps"></a>Platvormi värskendused versiooni 10.0.11 finantside ja toimingute rakenduste jaoks
 
 ### <a name="explicit-safe-lists-for-self-service-environments"></a>Üksikasjalikud turvalised loendid iseteeninduskeskkondade jaoks
 
@@ -354,11 +354,11 @@ Finantside ja toimingute rakenduste objektide üksikasjaliku teabe leiate tehnil
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Aegumise/eemaldamise põhjus** | Tabeli metaandmete määratluste väljagrupid võivad sisaldada kehtetuid väljaviiteid. Nende väljagruppide juurutamise korral võib see põhjustada käitusaja tõrkeid teenuses Financial Reporting ja Microsoft SQL Serveri aruandlusteenustes (SSRS). Platform update'i 23 lisati kompilaatori *hoiatus*, mis lubas selle metaandmete probleemi lahendamise. Finantside ja toimingute rakenduste versiooni 10.0.11 platvormi värskendused liigitavad selle probleemi kompilaatori *tõrkena*.<p>Selle probleemi lahendamiseks tehke järgmist.</p><ol><li>Eemaldage sobimatu väljaviide tabeli väljagrupi definitsioonist.</li><li>Kompileerige uuesti.</li><li>Veenduge, et kõik tõrked oleksid lahendatud.</li></ol> |
+| **Aegumise/eemaldamise põhjus** | Tabeli metaandmete määratluste väljagrupid võivad sisaldada kehtetuid väljaviiteid. Nende väljagruppide juurutamise korral võib see põhjustada käitusaja tõrkeid teenuses Financial Reporting ja Microsoft SQL Serveri aruandlusteenustes (SSRS). Platform update'i 23 lisati kompilaatori *hoiatus*, mis lubas selle metaandmete probleemi lahendamise. Finantside ja operatsioonide rakenduste versiooni 10.0.11 platvormi värskendused liigitavad selle probleemi kompilaatori *tõrkena*.<p>Selle probleemi lahendamiseks tehke järgmist.</p><ol><li>Eemaldage sobimatu väljaviide tabeli väljagrupi definitsioonist.</li><li>Kompileerige uuesti.</li><li>Veenduge, et kõik tõrked oleksid lahendatud.</li></ol> |
 | **Asendatud teise funktsiooniga?**   | See kompilaatori tõrge asendab kompilaatori hoiatuse jäädavalt.  |
 | **Mõjutatud tootealad**         | Visual Studio arendustööriistad |
 | **Juurutamissuvand**              | Kõik |
-| **Olek**                         | Taunitud: kompilaatori hoiatus on kompilaatortõrge platvormi värskendustes 10.0.11 finantside ja toimingute rakenduste versioonile. |
+| **Olek**                         | Taunitud: kompilaatori hoiatus on kompilaatortõrge platvormi värskendustes versiooni 10.0.11 jaoks finantside ja toimingute rakenduste jaoks. |
 
 ### <a name="isv-licenses-created-by-using-the-sha1-hashing-algorithm"></a>ISV-litsentsid, mis on loodud SHA1 räsialgoritmi abil
 
@@ -398,3 +398,4 @@ Lisateavet funktsioonide kohta, mis on eelnevatest versioonidest eemaldatud või
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

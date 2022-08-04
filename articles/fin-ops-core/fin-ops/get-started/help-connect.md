@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b002b374e5da619460c496b8f0d7a70b7194afd0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 35f5d73075d118079ccb0616fbd1c5e1a8e00424
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8900125"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9123620"
 ---
 # <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>Konfigureerige finantside ja toimingute rakenduste spikrikogemust
 
@@ -29,7 +29,7 @@ ms.locfileid: "8900125"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Selles artiklis leiate finantside ja toimingute rakenduste spikrisüsteemi komponentide ülevaate, Microsoft Dynamics nt 365 Finantsid Dynamics 365 Supply Chain Management, Dynamics 365 Commerce ja Dynamics 365 Human Resources. Artikkel selgitab ka nende komponentide ühendamist ja annab kohandatud spikri loomise protsessi kokkuvõtte.
+Selles artiklis leiate ülevaate finantside ja toimingute rakenduste spikrisüsteemi komponentidest, Microsoft Dynamics nagu 365 Finantsid Dynamics 365 Supply Chain Management, ja Dynamics 365 Commerce Dynamics 365 Human Resources. Artikkel selgitab ka nende komponentide ühendamist ja annab kohandatud spikri loomise protsessi kokkuvõtte.
 
 ## <a name="help-architecture"></a>Spikri arhitektuur
 
@@ -63,7 +63,7 @@ Lahenduse jaoks tegevuse juhiste konfigureerimiseks, järgige lehel **Süsteemi 
 2. Valige BPM-i teegid (valitud projektis), kust tegevuse salvestised tuua.
 3. Valige BPM-i teekide kuvamise järjekord. Kuvamise järjekord määratleb teekidest pärinevate tegevuse salvestiste kuvamise järjekorra paanil **Spikker**.
 
-Pärast nende sammude sooritamist saate avada spikripaani **ja** valida **vahekaarti Ülesande juhendid**. Nüüd näete ülesande juhendeid, mis kehtivad leheküljele, mida olete praegu Finance and Operationsi rakendustes. Kui ühtegi ülesande juhist ei leita, saate sisestada märksõnu otsingu kitsendamiseks.
+Pärast nende sammude sooritamist saate avada spikripaani **ja** valida **vahekaarti Ülesande juhendid**. Nüüd näete ülesande juhendeid, mis kehtivad leheküljele, mida praegu finantside ja toimingute rakendustes kasutate. Kui ühtegi ülesande juhist ei leita, saate sisestada märksõnu otsingu kitsendamiseks.
 
 ### <a name="showing-translated-task-guides"></a>Tõlgitud tegevusjuhiste kuvamine
 
@@ -103,3 +103,4 @@ Kui soovite teha Microsoftiga koostööd spikri kohandamiseks vajalike tööriis
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

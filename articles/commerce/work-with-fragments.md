@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 8824a42e46d94904f50d3f95b486673c231d9828
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f911c5ee209cfcde5d2b2aef2c8f7343eb694cd3
+ms.sourcegitcommit: 9cfccb5c260ce56a3457f9ea12e80f54ea55a3b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8896817"
+ms.lasthandoff: 07/21/2022
+ms.locfileid: "9183285"
 ---
 # <a name="work-with-fragments"></a>Fragmentidega töötamine 
 
@@ -145,6 +145,8 @@ Tüki nime saate ümber nimetada pärast selle loomist, redigeerides seda ja val
 [Eelmääratud paigutustega töötamine](work-with-layouts.md)
 
 [Avaldamisrühmadega töötamine](publish-groups.md)
+
+[Versiooni ajaloo kuvamine lehtede ja killute tagasipööramiseks](version-history-revert.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

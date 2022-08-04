@@ -1,6 +1,6 @@
 ---
 title: Laoprotsesside kvaliteedijuhtimine
-description: See artikkel annab teavet laoprotsesside funktsiooni kvaliteedijuhtimise kohta. See funktsioon laiendab kvaliteedijuhtimise võimalusi ja võimaldab kasutajatel täpsema laohalduse abil kauba valimi juhtelemendid lao vastuvõtmisprotsessi integreerida.
+description: See artikkel annab teavet laoprotsesside funktsiooni kvaliteedijuhtimise kohta. See funktsioon laiendab kvaliteedijuhtimise võimalusi ja võimaldab kasutajatel integreerida kauba valimi juhtelemente lao vastuvõtuprotsessi, kasutades laohaldusprotsesse (WMS).
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-04-02
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 7f806b58c5e956e4f26158e8ea5c90a559296655
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 13c9bf522ededb5896c5f8462bfe123e9a9edb2c
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857833"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069238"
 ---
-# <a name="quality-management-for-warehouse-processes"></a>Kvaliteedijuhtimine laoprotsesside jaoks
+# <a name="quality-management-for-warehouse-processes"></a>Laoprotsesside kvaliteedijuhtimine
 
 [!include [banner](../includes/banner.md)]
 
-Funktsioon _Kvaliteedijuhtimine laoprotsesside jaoks_ võimaldab teil täpsema laohalduse abil kauba valimi juhtelemendid lao vastuvõtmisprotsessi integreerida. Laotöid saab automaatselt luua, et teisaldada varusid kvaliteedikontrolli asukohta protsendi või fikseeritud koguse põhjal või iga *n*-inda litsentsiplaadi põhjal. Pärast kvaliteettellimuse lõpule viimist saab luua automaatselt töid varude järgmisesse asukohta teisaldamiseks protsessis, sõltuvalt kvaliteedikontrolli tulemustest.
+Laoprotsesside _kvaliteedijuhtimise funktsioon_ võimaldab teil integreerida kauba valimi kontrollid lao vastuvõtuprotsessi, kasutades laohaldusprotsesse (WMS). Laotöid saab automaatselt luua, et teisaldada varusid kvaliteedikontrolli asukohta protsendi või fikseeritud koguse põhjal või iga *n*-inda litsentsiplaadi põhjal. Pärast kvaliteettellimuse lõpule viimist saab luua automaatselt töid varude järgmisesse asukohta teisaldamiseks protsessis, sõltuvalt kvaliteedikontrolli tulemustest.
 
 Funktsioon _Kvaliteedijuhtimine laoprotsesside jaoks_ laiendab põhilise kvaliteedijuhtimise funktsiooni võimalusi. See annab võimaluse luua kvaliteedikontrolli asukohta saadetavate varude jaoks kvaliteettellimusi, kuigi need pole alati kohustuslikud. Seetõttu on tulemuseks lihtne kvaliteedikontrolli protsess, mis põhineb laotööl.
 
@@ -77,7 +77,7 @@ Enne kui funktsiooni _Kvaliteedijuhtimine laoprotsesside jaoks_ saab rakendada k
 
 1. Avage **Laohaldus \> Seadistus \> Ladu \> Laod**.
 1. Valige ladu, et lubada kvaliteedijuhtimine.
-1. Seadke kiirkaardil **Ladu** valiku **Luba kvaliteettellimused laoprotsesside jaoks** väärtuseks _Jah_. (Pange tähele, et seda valikut saab seadistada väärtusele _Jah_ ainult ladude puhul, mis kasutavad laohaldusprotsesse.)
+1. Seadke kiirkaardil **Ladu** valiku **Luba kvaliteettellimused laoprotsesside jaoks** väärtuseks _Jah_. (Pange tähele, et selle valiku saab seada väärtusele _Jah_ ainult ladude puhul, mis kasutavad laohaldusprotsesse (WMS).)
 
 Kui suvand **Luba kvaliteettellimused laoprotsesside jaoks** on seatud väärtusele _Jah_, kontrollib kvaliteediseose seadistus, kas funktsiooni _Kvaliteedijuhtimine laoprotsesside jaoks_ rakendatakse tegelikult valitud lao puhul. Te saate suvandi igal ajal väärtusele _Ei_ muuta. Sel juhul ei rakendata funktsiooni enam lao puhul, sõltumata kvaliteediseose seadistusest.
 
@@ -97,7 +97,7 @@ Iga [kvaliteediseose kirje](enable-quality-management.md) määrab testide kompl
     - **Kõik** – funktsiooni _Kvaliteedijuhtimine laoprotsesside jaoks_ inaktiveerimine. Valige see väärtus kõigi viite tüüpide jaoks, välja arvatud *Ost* ja *Tootmine*.
 
 > [!NOTE]
-> Funktsioon _Kvaliteedijuhtimine laoprotsesside jaoks_ rakendub vaid siis, kui lähtedokumendi real olev kaup kasutab täpsemaid laohaldusprotsesse ja kui suvand **Luba kvaliteettellimused laoprotsesside jaoks** on lähtedokumendi real oleva lao puhul seatud väärtusele _Jah_.
+> Laoprotsesside _kvaliteedijuhtimine_ jõustub ainult siis, kui lähtedokumendi real kasutatud kaup kasutab laohaldusprotsesse (WMS) **·** _ja_ kui laoprotsesside jaoks kvaliteettellimuse lubamine on häälestatud lähtedokumendi real olevale laole suvandile Jah.
 
 Iga kauba registreerimise korral (või lõpetatuna kinnitamise järel) määrab süsteem, millised kvaliteediseosed sellele rakenduvad.
 

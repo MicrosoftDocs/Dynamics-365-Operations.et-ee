@@ -1,6 +1,6 @@
 ---
 title: Kliendi KKK
-description: Selles artiklis annab vastuseid korduma kippuvatele küsimustele Finance and Operationsi kliendi kohta.
+description: See artikkel annab vastused korduma kippuvatele küsimustele finantside ja toimingute kliendi kohta.
 author: jasongre
 ms.date: 09/11/2019
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e64fb2453f17760b17ca2a7d3f593ac34cde0cc9
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: ca763f388bfc59951febf93f314d3df7e12c50cf
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071029"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124424"
 ---
 # <a name="client-faq"></a>Kliendi KKK
 
@@ -28,7 +28,7 @@ ms.locfileid: "8071029"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Selles artiklis annab vastuseid korduma kippuvatele küsimustele Finance and Operationsi kliendi kohta.
+See artikkel annab vastused korduma kippuvatele küsimustele finantside ja toimingute kliendi kohta.
 
 ## <a name="why-arent-symbols-loaded"></a>Miks mu sümboleid ei laadita?
 

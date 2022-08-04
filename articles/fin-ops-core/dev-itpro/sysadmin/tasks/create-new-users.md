@@ -13,26 +13,26 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 480d181e8abb3af5a7406efd13c8bd9961a7490a
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 00da7c69ff18abd02ca0cd7984e9b2de5e453a0c
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7595382"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103321"
 ---
 # <a name="create-new-users"></a>Uute kasutajate loomine
 
 [!include [banner](../../includes/banner.md)]
 
-Enne Finance and Operationsi rakenduste avamist peate olema kõigepealt lisatud lehele **Kasutajad** (**Süsteemi administraator \> Kasutajad \> Kasutajad**). Kasutajad hõlmavad teie organisatsioonisiseseid töötajaid või väliseid kliente ja hankijaid. Kasutajaid saab importida või lisada käsitsi. Kõik kasutajad peavad ühilduvaks kasutuseks olema õigesti litsentsitud.
+Enne kui pääsete juurde finantside ja toimingute rakendustele, tuleb teid kõigepealt lisada lehele **Kasutajad** (**Süsteemihalduse kasutajad \>\>**). Kasutajad hõlmavad teie organisatsioonisiseseid töötajaid või väliseid kliente ja hankijaid. Kasutajaid saab importida või lisada käsitsi. Kõik kasutajad peavad ühilduvaks kasutuseks olema õigesti litsentsitud.
 
-Lisateavet Finance and Operationsi rakendust ostmise ja litsentsimise kohta vt [Microsoft Dynamics 365 litsentsimise juhend](https://go.microsoft.com/fwlink/?LinkId=866544&amp;clcid=0x409).
+Lisateavet finantside ja toimingute rakenduste ostmise ja litsentsimise kohta vt teemast [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544&amp;clcid=0x409).
 
 ## <a name="assign-a-license-to-a-user"></a>Kasutajale litsentsi määramine
-Süsteemi administraatorid saavad [litsentse määrata](/office365/admin/subscriptions-and-billing/assign-licenses-to-users)[Microsoft 365-i administreerimiskeskuse](/office365/admin/admin-overview/about-the-admin-center) kasutajatele.
+Süsteemi administraatorid saavad [määrata litsentsid kasutajatele](/office365/admin/subscriptions-and-billing/assign-licenses-to-users) halduskeskuses [Microsoft 365](/office365/admin/admin-overview/about-the-admin-center).
 
 ## <a name="add-an-external-user-in-azure-ad-and-assign-a-license"></a>Azure AD-s välise kasutaja lisamine ja litsentsi määramine 
-Litsentside määramiseks peavad välised kasutajad olema teie rentniku teegis esindatud (Azure Active Directory (Azure AD)). Need välised kasutajad tuleb lisada Azure AD's rentnikku külaliskasutajatena ja seejärel määrata vastavad litsentsid. Finance and Operationsi rakenduste nõue on, et külaliskasutaja ettevõte peab kasutama teenust Azure AD. Lisateavet vt teemast [Azure portaalis Azure Active Directory B2B koostöö kasutajate lisamine](/azure/active-directory/b2b/add-users-administrator).
+Litsentside määramiseks peavad välised kasutajad olema teie rentniku teegis esindatud (Azure Active Directory (Azure AD)). Need välised kasutajad tuleb lisada Azure AD's rentnikku külaliskasutajatena ja seejärel määrata vastavad litsentsid. Finantside ja toimingute rakenduste vajadus on see, et külaliskasutaja ettevõtte peab seda kasutama Azure AD. Lisateavet vt teemast [Azure portaalis Azure Active Directory B2B koostöö kasutajate lisamine](/azure/active-directory/b2b/add-users-administrator).
 
 ## <a name="import-new-users-from-azure-ad"></a>Uute kasutajate importimine teenusest Azure AD 
 1. Avage **Süsteemihaldud** \> **Kasutaja** \> **Kasutajad**.

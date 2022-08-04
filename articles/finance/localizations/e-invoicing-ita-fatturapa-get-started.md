@@ -2,7 +2,7 @@
 title: Itaalia FatturaPA otseintegratsiooni seadistamine SDI-ga
 description: See artikkel annab teavet, mis aitab teil alustada Itaalia elektroonilise arveldusega ja seadistada Itaalia FatturaPA otsese integreerimise Vahetussüsteemiga (SDI).
 author: abaryshnikov
-ms.date: 01/15/2022
+ms.date: 07/27/2022
 ms.topic: article
 audience: Application User, Developer
 ms.reviewer: kfend
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: abaryshnikov
 ms.search.validFrom: 2021-10-18
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 510cf05e7bbc925478f9a1a4ea2ea27fe397c570
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 363b7b5e3d5abbb990fea8f8ad4d0c1bebf80102
+ms.sourcegitcommit: 6d9fcb52d723ac5022a3002e0ced8e7b56e9bc2a
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8853188"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "9203165"
 ---
 # <a name="set-up-direct-integration-of-italian-fatturapa-with-sdi"></a>Itaalia FatturaPA otseintegratsiooni seadistamine SDI-ga
 
@@ -69,10 +69,13 @@ See jaotis täiendab artikli ["Alusta elektroonilise arveldaga](e-invoicing-get-
     - Dokumendi allkirjastamise **tegevuse** jaoks määrake väljal **Serdi nimi** digitaalallkirja sert.
     - Tegevuse esitamiseks **seadistage** URL-i **aadressi ja** sertide **väljad**. Välja Sertifikaadid **väärtus** on tunnistuste kett, millest millest esimene on juur-CA-tunnistus (caentrate.cer) ja teine, millest on klientide sertifikaat.
 
-4. Valige **Kinnita,** et veenduda, et kõik nõutud väljad on seatud.
-5. Salvestage muudatused ja sulgege leht.
-6. Vahekaardil Seadistused **valige** Projektiarved **ja** seejärel käsk **Redigeeri**.
-7. Korrake projekti arvete puhul samme 3 kuni 5.
+4. Minge jaotises **Kohaldatavusreeglid** läbi ja vaadake üle või seadke nõutavad väljad.
+    - Vaadake üle **klausli LegalEntityID** ja värskendage oma juriidilise isiku õige väärtusega.
+
+5. Valige **Kinnita,** et veenduda, et kõik nõutud väljad on seatud.
+6. Salvestage muudatused ja sulgege leht.
+7. Vahekaardil Seadistused **valige** Projektiarved **ja** seejärel käsk **Redigeeri**.
+8. Korrake projekti arvete puhul samme 3 kuni 6.
 
 ### <a name="configure-the-processing-pipeline-for-import"></a>Konfigureeri müügivõimaluste töötlemine importimiseks
 
@@ -161,7 +164,7 @@ See jaotis annab teavet, mis aitab teil seadistada ja konfigureerida puhvriteenu
 
     2. Valige **Register** ja seejärel äsja loodud rakenduse registreerimine.
     3. **Minge API lubadesse** ja valige hüvitise **administraatori luba**.
-    4. Avage tunnistused **ja saladused**, valige suvand **Laadi** sert üles ja laadige üles .cer certificate file S2S-autentimiseks.
+    4. Avage tunnistused **ja saladused**, valige suvand **Laadi** sert üles ja .cer S2S-autentimiseks.
     5. Minge Ettevõtte **rakendustesse** ja valige rakendus, mille lõite.
     6. Salvestage **rakenduse ID** (kliendi ID) ja rakenduse **objekti ID** väärtused.
     7. Arveldusteenuse meeskond peab andma rakendusele teenusele juurdepääsu. Saatke järgmiste parameetrite väärtused:<D365EInvoiceSupport@microsoft.com>
@@ -234,7 +237,7 @@ Järgige neid samme arvutis, kus puhvriteenus on majutatud.
 
 1. Looge ühendus VM-ga kaugtöölauaühenduse abil.
 2. Avage kohaliku arvuti serdi sissetõmme. Lisateavet vt jaotisest Kuidas [vaadata tunnistusi KKC sissetõmme abil](/dotnet/framework/wcf/feature-details/how-to-view-certificates-with-the-mmc-snap-in).
-3. Importige **tootmise sert caentrate.cer** **ja caEntratetest.cer** usaldusväärsete [juursertifikaatide sertifitseerimisasutuste kauplusesse testimiseks](/dotnet/framework/wcf/feature-details/working-with-certificates#certificate-stores). (**CAEntratetest.cer** on juur-CA-sert, mille andis asutus.)
+3. Importige **vahemällu .cer** sert **ja sert CAEntratetest.cer** jaoks [usaldusväärsete juursertifikaatide sertifitseerimisasutuste kauplusesse testimiseks](/dotnet/framework/wcf/feature-details/working-with-certificates#certificate-stores). (**CAEntratetest.cer** on juur-CA-sert, mille on andnud asutus.)
 4. Avage juhtpaneelil **Windowsi** **·** \> **funktsioonide** sisse- või väljalülitamine või avage serveri operatsioonisüsteemi (OS) rollide ja funktsioonide lisamine serverihalduris ning lülitage sisse teenuse Internet Information Services (IIS) funktsioonid.
 
     - Veebihalduse tööriistad
@@ -242,9 +245,9 @@ Järgige neid samme arvutis, kus puhvriteenus on majutatud.
     - Ülemaailmne veebiteenused
         - Rakenduse arendusfunktsioonid
             - .NET Extensibility 4.7 (või 4.8)
-            - ASP
+            - Asp
             - ASP.NET 4.7 (või 4.8)
-            - CGI
+            - Cgi
             - ISAPI laiendused
             - ISAPI filtrid
         - Tavalised HTTP-funktsioonid
@@ -328,7 +331,7 @@ Järgige neid samme arvutis, kus puhvriteenus on majutatud.
     - **C:\\ Logid\\** – kaupluse logifailid siin. Neid faile saab vaadata MS Service [Trace Viewer](/dotnet/framework/wcf/service-trace-viewer-tool-svctraceviewer-exe).
     - **C:\\ Failid\\** – salvestage kõik vastusefailid siia.
 
-21. Failide **exploreris** **\\** **andke võrguteenustele ja IIS AppPool\\ SdiAppPooli** (**või IIS AppPool** DefaultAppPool **, kui kasutate vaikekausta)** juurdepääs logide ja failide kaustadele.
+21. Failide **exploreris** andke võrguteenustele ja **IIS AppPool\\SdiAppPooli** (või **IIS AppPool\\DefaultAppPool**, kui kasutate vaikekausta)  juurdepääs **logide** ja **failide** kaustadele.
 
     1. Valige ja hoidke all (või paremklõpsake) ühte kaustast ning valige **atribuudid**.
     2. **Valige dialoogiboksi** Atribuudid vahekaardil Turvalisus **suvand** **Redigeeri**.

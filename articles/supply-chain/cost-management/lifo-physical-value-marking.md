@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 45316c40cce988c0758e70af627b0123ec1f7873
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: c1acc103291c5d648ac7e179a598348cd9cc2a93
+ms.sourcegitcommit: 6b209919de39c15e0ebe4abc9cbcd30618f2af0b
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670436"
+ms.lasthandoff: 07/11/2022
+ms.locfileid: "9135565"
 ---
 # <a name="lifo-with-physical-value-and-marking"></a>LIFO füüsilise väärtuse ja märkimisega
 
@@ -128,7 +128,7 @@ Alloleval joonisel on kuvatud järgmised kanded.
 - 6a. Lao füüsiline väljastus, kogus 1, omahind USD 23.00 (finantsiliselt sisestatud kannete jooksev keskmine)
 - 7\. Teostatakse lao sulgemine. LIFO-meetodit kasutav märgistuspõhimõte põhinedes tasakaalustatakse märgitud kanded üksteise suhtes. Selles näites tasakaalustatakse 3b 2b-ga ja korrigeerimine USD 6.00 sisestatakse 3b-sse, et väärtus USD 22.00. Selles näites pole rohkem tasakaalustusi tehtud, sest sulgemine loob tasakaalustusi ainult finantsiliselt uuendatud kannete puhul.
 
-Uus jooksev keskmine omahind kajastab finantsiliselt ja füüsiliselt värskendatud kannete keskmist: 27,50 USA dollarit.
+Uus jooksev keskmine omahind kajastab finantsiliselt ja füüsiliselt värskendatud kannete keskmist: 17,50 USA dollarit.
 
 Järgmine illustratsioon näitab LIFO laomudeli mõju sellele kannete seeriale väljaminekute ja sissetulekute vahelise märkimise kasutamisel.
 

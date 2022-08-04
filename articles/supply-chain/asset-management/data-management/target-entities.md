@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 172f49c13c183eb4df986dc3e30ff3955bc1a605
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 838e3affd4e782bea463638e28da3943329671d4
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8860982"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111852"
 ---
 # <a name="target-entities"></a>Sihtüksused
 
@@ -30,7 +30,7 @@ ms.locfileid: "8860982"
 
 Tööruumis **Andmehaldus** saate ülevaate sihtüksustest, seotud üksuste tüüpidest ja mooduliga **Varahaldus** seotud vahetabelitest. 
 
-1. Klõpsake ekraani paremas vasakus nurgas nuppu **Finance and Operations** ja klõpsake valikut **Andmehaldus**.
+1. Klõpsake ekraani **ülemises vasakpoolses** nurgas nuppu Finantsid ja toimingud ning seejärel klõpsake nuppu **Andmehaldus**.
 
 2. Jaotises **Import/eksport** klõpsake valikut **Andmed.** 
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4843e5bc0cc97f47e212c0cb4a6ddc4a2032f306
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: cdfd8db68647623e2b5f1b9eca93b57776e1bfe9
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8858123"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067027"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Puhkusetaotluste haldamine Teamsis
 
@@ -185,7 +185,7 @@ Valige inimressursside moodulis **Sätted** ja seejärel **Kasutaja valikud**. V
 
 ![Human Resources kasutajavalikud.](./media/hr-teams-leave-app-user-options.png)
 
-Kui tõlkeprobleemid ei lahene, andke meile teada. Lisateavet vt teemast Finantside [ja toimingute rakenduste või elutsükli teenuste (LCS) toe saamine](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json).
+Kui tõlkeprobleemid ei lahene, andke meile teada. Lisateavet vt teemast Finantside [ja toimingute rakenduste toe saamine või elutsükli teenuste (LCS) kasutamine](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json).
 
 ### <a name="error-when-approving-leave-requests-in-the-human-resources-app-in-teams"></a>Tõrge puhkusetaotluste kinnitamise korral Teamsis rakenduses Human Resources
 
@@ -245,3 +245,4 @@ Et piirata oma organisatsiooni või selles olevate kasutajate juurdepääsu rake
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

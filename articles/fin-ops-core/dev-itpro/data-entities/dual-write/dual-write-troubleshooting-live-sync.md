@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 9d27331b940a95168810c2f1ec4ae240a9df93a8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 1211f7da15686f1c55a4c942f04c73d671e0ba6b
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8896701"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111422"
 ---
 # <a name="troubleshoot-live-synchronization-issues"></a>Reaalajas sünkroonimise probleemide tõrkeotsing
 
@@ -22,7 +22,7 @@ ms.locfileid: "8896701"
 
 
 
-See artikkel pakub tõrkeotsingu teavet topeltkirjutuse integreerimiseks finantside ja toimingute rakenduste ning rakenduste vahel Microsoft Dataverse. Eelkõige annab see teavet, mis aitab lahendada reaalajas sünkroonimisega seotud probleeme.
+See artikkel pakub tõrkeotsingu teavet topeltkirjutuse integreerimiseks finantside ja toimingute rakenduste ning Microsoft Dataverse. Eelkõige annab see teavet, mis aitab lahendada reaalajas sünkroonimisega seotud probleeme.
 
 > [!IMPORTANT]
 > Mõned küsimused, mida see artikkel käsitleb, võivad nõuda kas süsteemiadministraatori rolli või Azure Active Directory (Azure AD) rentniku administraatori mandaate. Kõigis probleeme kirjeldavates jaotistes täpsustatakse, kas konkreetne roll või mandaat on nõutav.
@@ -39,27 +39,27 @@ Probleemi lahendamiseks järgige juhiseid teemas [Süsteemi nõuded ja eeltingim
 
 **Tõrke parandamiseks nõutav roll:** süsteemiadministraator
 
-Kui proovite tabeliandmeid finantside ja toimingute rakendusse salvestada, võite saada järgmise tõrketeate:
+Kui proovite salvestada tabeliandmeid finantside ja toimingute rakenduses, võite saada järgmise tõrketeate:
 
 *Andmebaasi muudatusi ei saa salvestada. Tööüksus ei saa kannet kinnitada. Üksuse uoms-i ei saa andmeid kirjutada. Üksusesse UnitOfMeasureEntity kirjutamine nurjus, kuna tõrketeade ei saa sünkroonida üksuse uoms-i.*
 
-Probleemi lahendamiseks veenduge, et eeltingimuse viiteandmed on olemas nii rakenduses Finantsid ja Toimingud kui ka Dataverse. Näiteks kui kliendikirje kuulub kindlasse kliendigruppi, veenduge, et see kliendigrupp on Dataverse'is olemas.
+Probleemi lahendamiseks veenduge, et eeltingimuse viiteandmed on olemas nii finantside kui ka toimingute rakenduses ja Dataverse. Näiteks kui kliendikirje kuulub kindlasse kliendigruppi, veenduge, et see kliendigrupp on Dataverse'is olemas.
 
 Kui andmed on olemas mõlemas kohas ja olete teinud kindlaks, et probleem ei ole seotud andmetega, toimige järgmiselt.
 
-1. Üksuse **DualWriteProjectConfigurationEntity** avamine Exceli lisandmooduliga. Lisandmooduli kasutamiseks lubage **kujundusrežiim Finantside ja toimingute Exceli lisandmoodulis ja lisage töölehele DualWriteProjectConfigurationEntity**. Lisateavet vaata [üksuse andmete kuvamiseks ja värskendamiseks Exceli`ga](../../office-integration/use-excel-add-in.md).
+1. Üksuse **DualWriteProjectConfigurationEntity** avamine Exceli lisandmooduliga. Lisandmooduli kasutamiseks lubage **kujundusrežiim finantside ja toimingute Exceli lisandmoodulis ja lisage töölehele DualWriteProjectConfigurationEntity**. Lisateavet vaata [üksuse andmete kuvamiseks ja värskendamiseks Exceli`ga](../../office-integration/use-excel-add-in.md).
 2. Valige ja kustutage kirjed, mis väljastab topeltkirjutuse kaardi ja projekti probleemid. Iga topeltkirjutuse vastendamise kohta on kaks kirjet.
 3. Avaldage muudatused Exceli lisandmooduli abil. See samm on oluline, kuna see kustutab kirjed üksusest ja aluseks olevatest tabelitest.
 
 ## <a name="handle-read-or-write-privilege-errors-when-you-create-data-in-a-finance-and-operations-app"></a>Finantside ja toimingute rakenduses andmete loomisel lugege või kirjutage privileegitõrkeid.
 
-Võite saada tõrketeate "Bad Request" (Vigane taotlus), kui loote andmeid rakenduses Finantsid ja toimingud.
+Võite saada tõrketeate "Bad Request" (Vigane taotlus), kui loote andmeid finantside ja toimingute rakenduses.
 
 ![Vigase taotluse tõrketeate näide.](media/error_record_id_source.png)
 
 Probleemi lahendamiseks peate määrama vastendatud Dynamics 365 Sales`i või Dynamics 365 Customer Service'i äriüksusele õige turberolli puuduva privileegi lubamiseks.
 
-1. Rakendusest Finantsid ja toimingud leidke andmeintegratsiooni ühenduse komplektis vastendatud äriüksus.
+1. Leidke finantside ja toimingute rakendusest äriüksus, mis on vastendatud Andmeintegratsiooni ühenduse komplektis.
 
     ![Organisatsiooni vastendamine.](media/mapped_business_unit.png)
 
@@ -85,7 +85,7 @@ Kliendikaasamise rakenduse tõrge näeb välja selline:
 
 > ISV koodist ilmnes ootamatu tõrge. (TõrkeTüüp = KliendiTõrge) Ootamatu erand lisandmoodulist (Käivita): Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PostCommitPlugin: System.Exception: üksuse konto töötlemine nurjus – (ühenduse loomise katse nurjus, kuna ühendatud osapool ei reageerinud pärast teatavat ajavahemikku või loodud ühendus nurjus, kuna ühendatud host ei vastanud.
 
-See tõrge ilmneb, kui Dataverse keskkond on valesti lähtestatud, kui proovite luua andmeid rakenduses Finantsid ja toimingud.
+See tõrge ilmneb, kui Dataverse keskkond on valesti lähtestatud, kui proovite luua andmeid finantside ja toimingute rakenduses.
 
 > [!IMPORTANT]
 > Kui olete keskkonnad uuesti linkinud, peate kõik üksuse vastendused peatama, enne kui jätkate vähendamise samme.
@@ -94,7 +94,7 @@ Probleemi lahendamiseks peate läbima etapid nii finantside Dataverse kui ka toi
 
 1. Finantside ja toimingute rakenduses järgige neid samme.
 
-    1. Üksuse **DualWriteProjectConfigurationEntity** avamine Exceli lisandmooduliga. Lisandmooduli kasutamiseks lubage **kujundusrežiim Finantside ja toimingute Exceli lisandmoodulis ja lisage töölehele DualWriteProjectConfigurationEntity**. Lisateavet vaata [üksuse andmete kuvamiseks ja värskendamiseks Exceli`ga](../../office-integration/use-excel-add-in.md).
+    1. Üksuse **DualWriteProjectConfigurationEntity** avamine Exceli lisandmooduliga. Lisandmooduli kasutamiseks lubage **kujundusrežiim finantside ja toimingute Exceli lisandmoodulis ja lisage töölehele DualWriteProjectConfigurationEntity**. Lisateavet vaata [üksuse andmete kuvamiseks ja värskendamiseks Exceli`ga](../../office-integration/use-excel-add-in.md).
     2. Valige ja kustutage kirjed, mis väljastab topeltkirjutuse kaardi ja projekti probleemid. Iga topeltkirjutuse vastendamise kohta on kaks kirjet.
     3. Avaldage muudatused Exceli lisandmooduli abil. See samm on oluline, kuna see kustutab kirjed üksusest ja aluseks olevatest tabelitest.
     4. Tõrgete vältimiseks finantside ja toimingute või keskkondade Dataverse uuesti linkimisel veenduge, et topeltkirjutuse konfiguratsioone ei jääks.
@@ -110,7 +110,7 @@ Probleemi lahendamiseks peate läbima etapid nii finantside Dataverse kui ka toi
 
 3. Finantside ja toimingute rakenduses järgige neid samme.
 
-    1. Üksuse **DualWriteProjectConfigurationEntity** avamine Exceli lisandmooduliga. Lisandmooduli kasutamiseks lubage **kujundusrežiim Finantside ja toimingute Exceli lisandmoodulis ja lisage töölehele DualWriteProjectConfigurationEntity**. Lisateavet vaata [üksuse andmete kuvamiseks ja värskendamiseks Exceli`ga](../../office-integration/use-excel-add-in.md).
+    1. Üksuse **DualWriteProjectConfigurationEntity** avamine Exceli lisandmooduliga. Lisandmooduli kasutamiseks lubage **kujundusrežiim finantside ja toimingute Exceli lisandmoodulis ja lisage töölehele DualWriteProjectConfigurationEntity**. Lisateavet vaata [üksuse andmete kuvamiseks ja värskendamiseks Exceli`ga](../../office-integration/use-excel-add-in.md).
     2. Valige ja kustutage kirjed, mis väljastab topeltkirjutuse kaardi ja projekti probleemid. Iga topeltkirjutuse vastendamise kohta on kaks kirjet.
     3. Avaldage muudatused Exceli lisandmooduli abil. See samm on oluline, kuna see kustutab kirjed üksusest ja aluseks olevatest tabelitest.
     4. Tõrgete vältimiseks finantside ja toimingute või keskkondade Dataverse uuesti linkimisel veenduge, et topeltkirjutuse konfiguratsioone ei jääks.
@@ -191,7 +191,7 @@ while(qRun.next())
 
 ## <a name="data-from-finance-and-operations-apps-isnt-synced-to-dataverse"></a>Finantside ja toimingute rakenduste andmed pole sünkroonitud rakendusega Dataverse
 
-Reaalajas sünkroonimise ajal võib tekkida probleem, kus ainult osa andmeid sünkroonitakse Finantside ja toimingute Dataverse rakendustest või ei sünkroonita andmeid üldse.
+Reaalajas sünkroonimise ajal võib tekkida probleem, kus ainult osa andmeid sünkroonitakse finantside ja toimingute Dataverse rakendustest või ei sünkroonita andmeid üldse.
 
 > [!NOTE]
 > Peate selle probleemi arenduse ajal parandama.
@@ -206,7 +206,7 @@ Enne probleemi lahendamist vaadake üle järgmised eeltingimused:
 
 ### <a name="troubleshooting-steps"></a>Tõrkeotsingu sammud
 
-1. Vaadake välja vastendamised üle topeltkirjutuse halduslehel. Kui väli pole finantside ja toimingute rakendustes vastendatud Dataverse, siis seda ei jälgita. Näiteks järgmise näite korral jälgitakse välja **Kirjeldus** Dataverse väärtuse alusel, kuid mitte rakenduste Finantsid ja Toimingud abil. Finantside ja toimingute rakendustes ei jälgita sellele väljale muudatusi.
+1. Vaadake välja vastendamised üle topeltkirjutuse halduslehel. Kui väli pole finantside ja toimingute rakendustega vastendatud Dataverse, siis seda ei jälgita. Näiteks järgmisel joonisel jälgitakse välja Kirjeldus **väärtuse alusel,** kuid Dataverse mitte finantside ja toimingute rakendustest. Finantside ja toimingute rakenduste sees ei jälgita ühtki muudatust.
 
     ![Jälgitud väli.](media/live-sync-troubleshooting-1.png)
 
@@ -222,7 +222,7 @@ Enne probleemi lahendamist vaadake üle järgmised eeltingimused:
 
 Finantside ja toimingute rakendustes värskendatakse kontaktikirje aadressi, kuid aadressi muudatust ei sünkroonitud Dataverse. See olukord ilmneb, kuna tabelil **BusinessEventsDefinition** ükski kirje ei sisalda mõjutatud tabeli ja üksuse kombinatsiooni. Täpsemalt pole **LogisticsPostalAddress** tabel otseseks andmeallikaks üksusel **smmKontaktpersoonCDSV2Üksus**. Üksuse **smmKontaktpersoonCDSV2Üksus** on **smmKontaktPersoonV2Üksus** andmeallikaks ja **smmKontaktPersoonV2Üksus** on omakorda **LogistikaPostilAadressBaasÜksus** kui andmeallikaks. Tabel **LogisticsPostalAddress** on **LogisticsPostalAddressBaseEntity** andmeallikas.
 
-Sarnane olukord võib tekkida mõnedes ebastandardses mustrites, nt juhtumites, kus finantside ja toimingute rakendustes muudetavad tabelid ei ole selle üksusega seotud. Näiteks arvutatakse üksuse **smmKontaktPersoonCDSV2Üksus** esmase aadressi andmed. Topeltkirjutuse raamistik püüab määrata, kuidas aluseks oleva tabeli muudatus vastendatakse tagasi üksustele. Tavaliselt piisab sellest lähenemisest. Kuid mõnel juhul on link nii keerukas, et peate olema kindel. Veenduge, et **RecId** seotud tabel on üksuses otse saadaval. Seejärel lisage staatiline meetod tabeli muutuste jälgimiseks.
+Sarnane olukord võib tekkida mõnedes ebastandardses mustrites, näiteks juhtumites, kus finantsis muudetud tabel ja toimingute rakendused ei ole selle üksusega seotud. Näiteks arvutatakse üksuse **smmKontaktPersoonCDSV2Üksus** esmase aadressi andmed. Topeltkirjutuse raamistik püüab määrata, kuidas aluseks oleva tabeli muudatus vastendatakse tagasi üksustele. Tavaliselt piisab sellest lähenemisest. Kuid mõnel juhul on link nii keerukas, et peate olema kindel. Veenduge, et **RecId** seotud tabel on üksuses otse saadaval. Seejärel lisage staatiline meetod tabeli muutuste jälgimiseks.
 
 Näiteks vaadake üle **smmKontaktPersoonCDSV2Üksus::getEntityDataSourceToFieldMapping()** meetod. **CustCustomerV3üksus** ja **VendVendorV2Üksus** on muudetud selle olukorra lahendamiseks.
 
@@ -252,17 +252,17 @@ Probleemi lahendamiseks tehke järgmist.
 
 ## <a name="error-when-you-create-a-record-where-multiple-records-are-sent-from-a-finance-and-operations-app-to-dataverse-in-the-same-batch"></a>Tõrge kirje loomisel, kus finantside ja toimingute rakendusest samasse partiisse saadetakse Dataverse mitu kirjet
 
-Iga kande puhul loob rakendus Finance and Operations andmed partiina ja saadab need pakett-tööna.Dataverse Kui kaks kirjet luuakse ühe ja sama kande osana ja need teineteisele viitavad, võite saada tõrketeate, mis sarnaneb järgmise näitega rakenduses Finantsid ja toimingud:
+Iga kande puhul loob finantside ja toimingute rakendus andmed partiina ja saadab need pakett-tööna.Dataverse Kui kaks kirjet luuakse ühe ja sama kande osana ja need teineteisele viitavad, võite saada tõrketeate, mis sarnaneb järgmise näitega finantside ja toimingute rakenduses:
 
 *Ei saa kirjutada andmeid üksusesse aaa_fundingsources. Ei saa otsida ebecsfs_contracts koos väärtustega {PC00...}. Ei saa otsida aaa_fundingsources väärtustega {PC00...}. Kirjutab aaa_fundingsources nurjumisega tõrketeatega Eranditeade: kaugserver tagastas tõrke: (400) vale taotlus.*
 
-Probleemi lahendamiseks looge finants- ja toimingute rakenduses üksuseseosed, mis näitavad, et kaks üksust on üksteisega seotud ja seotud kirjeid käsitletakse samas kandes.
+Probleemi parandamiseks looge finantside ja toimingute rakenduses üksuseseosed, mis näitavad, et kaks üksust on üksteisega seotud ja et seotud kirjeid käsitsetakse samas kandes.
 
 ## <a name="enable-verbose-logging-of-error-messages"></a>Luba tõrketeadete paljusõnaline logimine
 
-Finantside ja toimingute rakenduses võib ilmneda tõrkeid, mis on seotud keskkonnaga Dataverse. Veateade ei pruugi sisaldada sõnumi täisteksti või muid asjakohaseid andmeid. Lisateabe saamiseks saate lubada paljusõnalise **logimise, häälestades IsDebugMode** lipu, mis on **olemas üksuses DualWriteProjectConfigurationEntity** kõigis finantside ja toimingute rakenduste projektikonfiguratsioonides.
+Finantside ja toimingute rakenduses võib ilmneda tõrkeid, mis on seotud keskkonnaga Dataverse. Veateade ei pruugi sisaldada sõnumi täisteksti või muid asjakohaseid andmeid. Lisateabe saamiseks saate lubada paljusõnalise **logimise, häälestades IsDebugMode** lipu, mis on **olemas üksuses DualWriteProjectConfigurationEntity** kõigis projekti konfiguratsioonides finantside ja toimingute rakendustes.
 
-1. Üksuse **DualWriteProjectConfigurationEntity** avamine Exceli lisandmooduliga. Lisandmooduli kasutamiseks lubage **kujundusrežiim Finantside ja toimingute Exceli lisandmoodulis ja lisage töölehele DualWriteProjectConfigurationEntity**. Lisateavet vaata [üksuse andmete kuvamiseks ja värskendamiseks Exceli`ga](../../office-integration/use-excel-add-in.md).
+1. Üksuse **DualWriteProjectConfigurationEntity** avamine Exceli lisandmooduliga. Lisandmooduli kasutamiseks lubage **kujundusrežiim finantside ja toimingute Exceli lisandmoodulis ja lisage töölehele DualWriteProjectConfigurationEntity**. Lisateavet vaata [üksuse andmete kuvamiseks ja värskendamiseks Exceli`ga](../../office-integration/use-excel-add-in.md).
 2. Seadke projektis **IsDebugMode** lipu väärtuseks **Jah**.
 3. Käivitage stsenaarium.
 4. Verbose logid on saadaval tabelis **DualWriteErrorLog**. Andmete otsimiseks tabelibrause abil kasutage järgmist URL-i: `https://XXXaos.cloudax.dynamics.com/?mi=SysTableBrowser&tableName=DualWriteErrorLog`.
@@ -270,7 +270,7 @@ Finantside ja toimingute rakenduses võib ilmneda tõrkeid, mis on seotud keskko
 
 ## <a name="error-when-you-add-an-address-for-a-customer-or-contact"></a>Tõrge kliendi aadressi või kontakti lisamisel
 
-Kui proovite kliendi aadressi lisada või finantside ja toimingute rakendustes ühendust võtta, võite saada järgmise tõrketeate Dataverse:
+Võite saada järgmise tõrketeate, kui proovite lisada kliendi aadressi või võtke ühendust finantside ja toimingute rakendustes või Dataverse:
 
 *Andmeid ei saa kirjutada üksusesse msdyn_partypostaladdresses. Kirjutamine DirPartyPostalAddressLocationCDSEntity nurjus tõrketeate taotlusega, mille olekukood on BadRequest ja CDS-i tõrkekood: 0x80040265 vastussõnum: tõrge ilmnes pluginas. Kirje, mille atribuudiväärtused on Asukoha ID-kood, on juba olemas. Üksusevõtme asukoha ID-võti nõuab, et see atribuudikomplekt sisaldaks kordumatuid väärtusi. Valige kordumatud väärtused ja proovige uuesti.*
 
@@ -300,7 +300,7 @@ Võite saada järgmise tõrketeate, kui proovite lisada uut klienti, hankijat v�
 
 *Osapoole tüüpi ei saa värskendada 'DirOrganization' üksusest üksuseks 'DirPerson', selle asemel tuleb kustutada olemasolev osapool, millele järgneb uue tüübiga sisestamine.*
 
-Rakenduses Dataverse on numbrijada **msdyn_party** tabelis. Kui konto on loodud rakenduses Dataverse, luuakse uus osapool (nt **Osapool-001** tüübist **Organisatsioon**). Need andmed saadetakse rakendusesse Finantsid ja Toimingud. Kui keskkond Dataverse lähtestatakse või Dataverse Dataverse finantside ja toimingute keskkond on lingitud muu keskkonnaga ja seejärel luuakse uus kontaktikirje, luuakse uus osapoole väärtus, **mille alguses on Party-001**. Praegu luuakse osapoole kirjeks **Osapool-001** tüübiga **Isik**. Kui need andmed on sünkroonitud, näitavad finantside ja toimingute rakendused eelnevat tõrketeadet, sest organisatsiooni **tüüpi osapoolekirje Party-001** **on** juba olemas.
+Rakenduses Dataverse on numbrijada **msdyn_party** tabelis. Kui konto on loodud rakenduses Dataverse, luuakse uus osapool (nt **Osapool-001** tüübist **Organisatsioon**). Need andmed saadetakse finantside ja toimingute rakendusse. Kui keskkond Dataverse lähtestatakse või Dataverse Dataverse finants- ja toimingute keskkond on lingitud teise keskkonnaga ja seejärel luuakse uus kontaktikirje, luuakse uus osapoole väärtus, **mis algab väärtusega Party-001**. Praegu luuakse osapoole kirjeks **Osapool-001** tüübiga **Isik**. Kui need andmed on sünkroonitud, näitavad finantside ja toimingute rakendused eelnevat tõrketeadet, sest organisatsiooni **tüüpi osapoolekirje Party-001** **on** juba olemas.
 
 Probleemi parandamiseks muutke automaatne numbrijada välja **msdyn_partynumber** jaoks **msdyn_party** tabelis Dataverse erinevaks automaatseks numbriseeriaks.
 
@@ -355,3 +355,4 @@ Järgige pärast meetodite uuendamist neid samme.
 3. Kaartide käivitamine. Peaksite nägema vähem kirjeid **smmContactPersonCDSV2Entity** ja **CustCustomerV3Entity** üksustes ja **BusinessEventsDefinitioni** tabelis ning jõudlus võib marginaalselt paraneda.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

@@ -1,6 +1,6 @@
 ---
 title: Integreeritud hankija koondandmed
-description: See artikkel kirjeldab hankija andmete integreerimist finantside ja toimingute rakenduste ning rakenduste vahel Dataverse.
+description: See artikkel kirjeldab hankija andmete integreerimist finantside ja toimingute rakenduste ning Dataverse.
 author: RamaKrishnamoorthy
 ms.date: 07/15/2019
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 394bb19000076eace6377e07bb3a939c8345da8a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a2c32ef546a5bc74e090591c0ac9d51529299041
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8905311"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112190"
 ---
 # <a name="integrated-vendor-master"></a>Integreeritud hankija koondandmed
 
@@ -37,7 +37,7 @@ Kui soovite jätkata hankija andmete talletamist tabelis **Konto/kontakt**, saat
 ![Hankijaandmete laiendatud voog.](media/dual-write-vendor-detail.jpg)
 
 > [!TIP]
-> Kui kasutate iseteeninduse Power Apps hankijate portaale, saab hankija teave otse finantside ja toimingute rakendustesse.
+> Kui kasutate iseteeninduse Power Apps hankijate portaale, võib hankija teave otse finantside ja toimingute rakendustesse minna.
 
 ## <a name="templates"></a>Mallid
 
@@ -52,8 +52,9 @@ Finance and Operations rakendused | Klientide kaasamise rakendused     | Kirjeld
 [Maksegraafiku read](mapping-reference.md#159) | msdyn_paymentschedulelines | Sünkroonib nii klientide kui ka hankijate maksegraafiku ridade viiteandmed.
 [Maksegraafik](mapping-reference.md#160) | msdyn_paymentschedules | See mall sünkroonib nii klientide kui ka hankijate maksegraafiku viiteandmed.
 [Maksetingimused](mapping-reference.md#161) | msdyn_paymentterms | See mall sünkroonib nii klientide kui ka hankijate maksetingimuste viiteandmed.
-[Hankijad V2](mapping-reference.md#202) | msdyn_vendors | Ettevõtted, mis kasutavad hankijatele, saavad ära kasutada valmislahendusena hankija eeliseid, mis on Finance and Operationsi rakenduste integratsiooni kaudu juurutatud teenuses Dataverse.
+[Hankijad V2](mapping-reference.md#202) | msdyn_vendors | Ettevõtted, mis kasutavad hankijatele Dataverse kohandatud lahendust, saavad kasutada finance ja toimingute rakenduste integreerimise tõttu juurutatav hankija kontseptsiooni.
 [Hankijagrupid](mapping-reference.md#200) | msdyn_vendorgroups | See mall sünkroonib hankijagrupi teabe.
 [Tarnija makseviis](mapping-reference.md#201) | msdyn_vendorpaymentmethods | See mall sünkroonib hankija makseviisi teabe.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

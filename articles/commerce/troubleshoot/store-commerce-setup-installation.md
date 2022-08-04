@@ -9,17 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: rassadi
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 92d4a9d78485b681b4e802f695d54f44ecd7c5de
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8af2c476ced05fc159a53131f8b51ad914a6c7c3
+ms.sourcegitcommit: c271b2edc4bf777f7194b09139ccbd174a359c75
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8870462"
+ms.lasthandoff: 07/16/2022
+ms.locfileid: "9168943"
 ---
 # <a name="troubleshoot-store-commerce-setup-and-installation-issues"></a>Rakenduse Store Commerce häälestus- ja installiprobleemide tõrkeotsing
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 See artikkel selgitab, kuidas rakenduse Store Commerce häälestus- ja installiprobleemide Microsoft Dynamics 365 Commerce tõrkeotsingut teha.
 
@@ -31,13 +30,13 @@ Pärast kehtiva müügi pilveteenuse (CPOS) URL-i sisestamist võite saada ühen
 
 Sellisel juhul vaadake üle kirjavigade URL või määratlege, kas CPOS-i ei saani, kuna see on võrguühenduseta.
 
-Lisaks veenduge, et pilve kaaluühiku (CSU) versioon on 10.0.25 (9.35.\*\*) või uuem. Rakenduse Store Commerce kasutamiseks on nõutav CPOS-versioon 10.0.25 või uuem.
+Lisaks veenduge, et pilve kaaluühiku (CSU) versioon on 10.0.25 (9.35.\*.\*) või uuem. Rakenduse Store Commerce kasutamiseks on nõutav CPOS-versioon 10.0.25 või uuem.
 
 ## <a name="i-cant-install-the-app-because-modern-pos-is-already-installed"></a>Rakendust ei saa installida, kuna Modern POS on juba installitud
 
 Installimise ajal võidakse kuvada tõrketeade, nt järgmises näites:
 
-> Selle toote (Modern POS) versioon (9.\*..\*\*)) on pärandinstalli kaudu eelnevalt installitud.
+> Selle toote (Modern POS) versioon (9.\*.\*.\*) on pärandinstalli kaudu eelnevalt installitud.
 
 Tõrke lahendamiseks peate desinstallima moderni müügipunkti (MPOS) rakenduse kõigi arvutis kasutajate jaoks ja seejärel uuesti proovima. Saate kinnitada, kas MPOS on kõigi kasutajate jaoks eemaldatud, käivitades järgmise PowerShelli käsu.
 

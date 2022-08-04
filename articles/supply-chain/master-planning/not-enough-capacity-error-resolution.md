@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-19
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 2db4c2606936222fcd1a97cf2814fbfbc41df113
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d4f54c06a07b3cdd0b8fe2cc52614189ff31ba7f
+ms.sourcegitcommit: 6b209919de39c15e0ebe4abc9cbcd30618f2af0b
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8891027"
+ms.lasthandoff: 07/11/2022
+ms.locfileid: "9135595"
 ---
 # <a name="fix-the-not-enough-capacity-could-be-found-scheduling-engine-error"></a>Ajastamismootori tõrke 'Ei leitud piisavalt võimsust' lahendamine
 
@@ -87,7 +87,7 @@ Kalendri ajakava parameetrite üle vaatamiseks järgige neid samme.
 
 ## <a name="review-capacity"></a>Võimsuse ülevaade
 
-Tõrge võib ilmneda, kui planeerite piiratud ajakava, kuid vaba võimsus puudub.
+Tõrge võib ilmneda, kui planeerite piiratud, kuid vaba võimsus puudub.
 
 Piiramatu võimsuse planeerimise läbimiseks järgige neid samme.
 
@@ -99,17 +99,53 @@ Piiramatu võimsuse planeerimise läbimiseks järgige neid samme.
 Ressursi saadaoleva võimsuse ülevaatamiseks järgige neid samme.
 
 1. Minge **Organisatsiooni haldus \> Ressursid \> Ressurssid** ja valige ressurss, mis on rakendatav tellimusele, mida ei saa planeerida.
-1. Valige tegevuspaani vahekaardi **Ressurss** grupis **Vaade** suvand **Võimsuse koormus** või **Võimsuse koormus graafiliselt**  ja veenduge, et võimsus on olemas.
+1. Valige tegevuspaani vahekaardi **Ressurss** **·** **grupis Vaade suvand Võimsuse koormus või Võimsuse koormus graafiliselt ja veenduge,** et võimsus on olemas.**·**
 
 Ressursi grupi saadaoleva võimsuse ülevaatamiseks järgige neid samme.
 
 1. Minge **Organisatsiooni haldus \> Ressursid \> Ressurssi grupid** ja valige ressursi grupp, mis on rakendatav tellimusele, mida ei saa planeerida.
-1. Valige tegevuspaani vahekaardi **Ressursi grupp** vahekaart **Vaade** suvand **Võimsuse koormus** või **Võimsuse koormus graafiliselt** ja veenduge, et võimsus on olemas.
+1. Valige **tegevuspaani** **·** **·** **vahekaardi Ressursigrupp jaotises Vaade suvand Võimsuse koormus või Võimsuse koormus graafiliselt ja veenduge,** et võimsus on olemas.
 
 ## <a name="master-planning-books-a-resource-when-the-resource-calendar-is-closed"></a>Koondplaneerimisel plaanitakse ressurss, kui ressursikalender on suletud.
 
 Operatsioonide planeerimisel planeerib koondplaneerimine võimsust vastavalt esmase ressursigrupi kalendrile. See raamatutab teisese operatsiooni esmase operatsiooniga samaaegselt ega võta arvesse teisese operatsiooni kalendreid ega võimsusi. Selle tulemuseks võib olla tootmistellimuse plaanimine suletud kalendris või ajal, mil teisene operatsioon ei ole saadaval (kalender suletud, võimsus puudub).
 
 Tööde planeerimisel võtab koondplaneerimine arvesse tellimuse planeerimisel esmase ja teisese operatsiooni võimsust ja kalendrit. Tellimuse plaanimiseks peavad mõlema operatsiooni ressursside kalendrid olema avatud ja vaba võimsusega.
+
+## <a name="maximum-job-lead-time-is-too-short"></a>Maksimaalne töö täitmisaeg on liiga lühike.
+
+Planeerimismootor ei saa **tellimust** planeerida, kui saidi maksimaalne töö täitmisaeg on väiksem kui kaubale määratud täitmisaeg tellimuse vaikesätetes või laovarude sätetes.
+
+Oma saidi maksimaalse töö täitmisaja **sätte** vaatamiseks või redigeerimiseks minge Tootmise **juhtimise \> seadistuse \> tootmise juhtimise parameetritesse** ja avage **vahekaart** Üldine.
+
+Kauba tellimuse vaikesätete vaatamiseks või redigeerimiseks järgige neid samme:
+
+1. Avage **Tooteteabe haldus \> Tooted \> Väljastatud tooted**.
+1. Otsige ja valige loendist vastav toode.
+1. Tegevuspaanil avage vahekaart **Halda varusid** ja valige tellimuse **vaikesätted**.
+1. Laiendage **lao** kiirkaarti ja vaadake või redigeerige varude **täitmisaja** sätet vastavalt vajadusele.
+
+Kauba laovarude sätete vaatamiseks või redigeerimiseks järgige neid samme:
+
+1. Avage **Tooteteabe haldus \> Tooted \> Väljastatud tooted**.
+1. Otsige ja valige loendist vastav toode.
+1. Tegevuspaanil avage vahekaart **Plaan ja** valige kauba **laovarud**.
+1. Avage vahekaart **Täitmisaeg** ja vaadake või redigeerige **tootmise aja** väärtust vastavalt vajadusele.
+
+## <a name="excessive-quantity-of-required-resources"></a>Vajalike ressursside üleliigne kogus
+
+Planeerimise ajal püüab mootor vastavalt toimingu ressursinõuetele vastendada protsessi operatsiooni jaoks seatud nõutud ressursikogust kohaldatavate ressurssidega. Liiga kõrge ressursikoguse seadistamine võib põhjustada marsruudi ebatõhususe, mis toob kaasa planeerimisvea.
+
+Kasutage järgmist protseduuri, et kontrollida nii määratud kogust kui ka rakendatavaid ressursse valitud toote, protsessi ja protsessi operatsiooni puhul:
+
+1. Avage **Tooteteabe haldus \> Tooted \> Väljastatud tooted**.
+1. Otsige ja valige ruudustikust vastav toode.
+1. Tegevuspaanil avage vahekaart **Insener** ja valige **protsess**.
+1. Otsige ja valige ruudustikust vastav protsess.
+1. Avage lehe **allosas** olevale vahekaardile Ülevaade.
+1. Valige operatsioon valitud protsessi operatsioonide loendist.
+1. Valige **rakendatavad** ressursid dialoogi avamiseks, kus saate vaadata valitud protsessi operatsioonile rakendatavaid ressursse.
+1. Avage vahekaart **Ressursi** koormus. Sellel **väljal** Kogus kuvatakse valitud protsessitoimingu jaoks vajalik ressursikogus. Vaadake ja/või redigeerige seda vastavalt vajadusele.
+
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

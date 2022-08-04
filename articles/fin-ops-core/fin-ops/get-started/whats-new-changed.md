@@ -1,6 +1,6 @@
 ---
 title: Mis on uut või muudetud finantside ja toimingute rakenduste avalehel
-description: See lehekülg suunab teid teemadele, mis võivad aidata teil saada lisateavet värskeima Finance and Operationsi versiooni uusimate funktsioonide kohta.
+description: Sellel lehel saate vaadata teemasid, mis aitavad teil saada teavet uusimate finantside ja toimingute rakenduste uute funktsioonide kohta.
 author: josaw1
 ms.date: 02/14/2020
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-09-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: 2430e75897a8ddc78a6b1b9288b23458aa44108a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0dc3b9b39fb5cb3aaae1247f0229d802410ea5f8
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8908223"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9125112"
 ---
 # <a name="whats-new-or-changed-in-finance-and-operations-apps-home-page"></a>Mis on uut või muudetud finantside ja toimingute rakenduste avalehel
 
@@ -31,7 +31,7 @@ ms.locfileid: "8908223"
 
 ## <a name="application-releases"></a>Rakenduse väljaanded
 
-Finantside ja toimingute rakenduse iga väljalasete kohta uute või muutunud teemade vaatamiseks vaadake järgmisi teemasid:
+Finantside ja operatsioonide rakenduse igas väljalaskes uute või muutunud teemade vaatamiseks vaadake järgmisi teemasid:
 
 - **Finantsid:**[mis on uut või muudetud Dynamics 365 Finances](../../../finance/get-started/whats-new-home-page.md)
 - **Inimressursid (ühendatud infrastruktuur):**[mis on uut või muutunud Microsoftis Dynamics 365 Human Resources](../../../human-resources/get-started/hr-whats-new-changed-10-0-26.md)  
@@ -47,7 +47,7 @@ Et näha, mida uus või muutub eraldi, Dynamics 365 Human Resources vaadake jär
 
 ## <a name="platform-updates"></a>Platvormivärskendused
 
-Finantside ja toimingute rakenduste platvormi värskendustes uute või muutunud rakenduste kohta vt järgmist artiklit:
+Platvormvärskendustes finantside ja operatsioonide rakenduste kohta uute või muutunud rakenduste kohta vt järgmist artiklit:
 
 - [Mis on uut või mida on muudetud Platform update'is?](../../dev-itpro/get-started/whats-new-home-page.md)
 
@@ -60,3 +60,4 @@ Elutsükli teenustes uute või muutunud kaupade näeb järgmine artikkel:
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

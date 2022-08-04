@@ -1,6 +1,6 @@
 ---
 title: Videod
-description: Sellel lehel on loetletud Microsofti loodud iga seotud õppe- ja Tech Talki videod, mis on saadaval YouTube’is ja teistel saitidel.
+description: Sellel lehel loetletakse Microsofti loodud "kuidas-to" ja Tech-videod, mis on seotud finantside ja toimingute rakendustega, mis on saadaval muudel YouTube saitidel.
 author: sericks007
 ms.date: 06/13/2022
 ms.topic: article
@@ -14,27 +14,27 @@ ms.search.region: global
 ms.author: sericks
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: 76fe61c13490afbd7b5dcd39f3c631cbab43bb9e
-ms.sourcegitcommit: 0686b56b4699ffefd2c208d0fe496d5860296520
+ms.openlocfilehash: a21a9122badc308940c0182061a18051bfcc0abd
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "8958134"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124947"
 ---
 # <a name="videos"></a>Videod 
 
 [!include [banner](../includes/banner.md)]
 
-[Microsoft Dynamics 365 YouTube’i kanalil](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ) leiate Microsofti loodud videod, mis esitlevad laia valikut ärilahendusi Dynamics 365 toodetele. Selles jaotises loendatakse kanalil majutatavate rakenduse Finance and Operations õppevideod.
+[Microsoft Dynamics 365 YouTube’i kanalil](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ) leiate Microsofti loodud videod, mis esitlevad laia valikut ärilahendusi Dynamics 365 toodetele. Selles jaotises loetletakse videote"kuidas-to" kanalis majutatud finantside ja toimingute rakenduste jaoks.
 
 > [!Note]
 > Mõned loetletud videod on avaldatud eelmise toote nime all, kuid on endiselt kehtivad.
 
-## <a name="videos-for-finance-and-operations-development-and-administration"></a>Rakenduse Finance and Operations arendamise ja halduse videod
+## <a name="videos-for-finance-and-operations-development-and-administration"></a>Finantside ja toimingute arendamise ja halduse videod
 
 ### <a name="data-integration"></a>Andmete integratsioon
 
-- [Töökäsu sünkroonimine rakenduste Dynamics 365 for Field Service ja Finance and Operations vahel](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
+- [Sünkroonige töötellimus finantside ja Dynamics 365 for Field Service toimingute rakenduste vahel](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
 
 ### <a name="data-management"></a>Andmehaldus
 
@@ -50,8 +50,8 @@ ms.locfileid: "8958134"
 ### <a name="intelligence"></a>Teave
 
 - [Kuidas redigeerida manustatud aruannet analüütilises tööruumis](https://youtu.be/_8WlwmSggcQ)
-- [Kuidas kaasata PowerBI.com aruandeid rakendustes Finance and Operations](https://youtu.be/gGWuNJDoi-M)
-- [Oma andmebaasi toomine (BYOD) rakendustesse Finance and Operations](https://www.youtube.com/watch?v=-MaxtBJu2_o&feature=youtu.be)
+- [Finantside ja PowerBI.com aruannete kaasamine](https://youtu.be/gGWuNJDoi-M)
+- [Tooge oma andmebaas (BYOD) finantside ja toimingute rakendustesse](https://www.youtube.com/watch?v=-MaxtBJu2_o&feature=youtu.be)
 - [Kuluhalduse Power BI sisu kasutamine rakenduses Dynamics 365](https://www.youtube.com/watch?v=5jWHnM_C7WM&feature=youtu.be)
 
 ### <a name="lifecycle-services-lcs"></a>Lifecycle Services (LCS)
@@ -169,3 +169,4 @@ ms.locfileid: "8958134"
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

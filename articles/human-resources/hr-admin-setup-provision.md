@@ -14,18 +14,19 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9d13372d8cc1f1f0f1407ea69bee4f98ae5065c2
-ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.openlocfilehash: 6fc44b52e2f7662fc6be609562cec903a8755d1b
+ms.sourcegitcommit: 1401d66b6b64c590ca1f8f339d622e922920cf15
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "9015342"
+ms.lasthandoff: 07/20/2022
+ms.locfileid: "9178499"
 ---
 # <a name="provision-human-resources"></a>Human Resources'i ettevalmistus
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+_**Rakendub:** inimressursid autonoomsel infrastruktuuril_ 
 
-
+> [!NOTE]
+> Alates 2022. juunist saab Inimressursside keskkondi juurutada ainult finantside ja toimingute rakenduse infrastruktuuris. Lisateavet vt inimressursside ettevalmistamisest [finantside ja toimingute infrastruktuuris](hr-admin-setup-provision-fo.md).
 
 See artikkel selgitab Microsoftile uue tootmiskeskkonna ettevalmistamise protsessi Dynamics 365 Human Resources. 
 
@@ -40,14 +41,14 @@ Enne uue tootmiskeskkonna ettevalmistamise alustamist peavad olema täidetud jä
 ## <a name="provision-a-human-resources-trial-environment"></a>Human Resources proovikeskkonna ettevalmistamine
 
 >[!NOTE]
-> Alates 2022. aasta aprillist pole Inimressursside proovikeskkonnad saadaval eraldi rakenduses. Potentsiaalsed kliendid, kes on huvitatud inimressursside võimaluste hindamisest Finantside ja toimingute rakendustes, saavad seda teha, kasutades tasuta 30-päevast prooviversiooni koos demoandmetega. Dynamics 365 Finance hõlmab inimressursside võimalusi, mis on toodud finantside infrastruktuuri autonoomse rakenduse ühendamise kaudu. Lisateavet vt [jaotisest](https://cloudblogs.microsoft.com/dynamics365/it/2021/09/15/merging-of-hr-offerings-brings-capabilities-together-for-customers) Inimressursside pakkumiste ühendamine toob klientide võimalused kokku. Lisateavet Dynamics 365 Finantside katsete kohta leiate samm-sammulisest [juhendist](../fin-ops-core/fin-ops/get-started/before-you-buy.md). 
+> Alates 2022. aasta aprillist pole Inimressursside proovikeskkonnad saadaval eraldi rakenduses. Potentsiaalsed kliendid, kes on huvitatud inimressursside võimaluste hindamisest finantside ja operatsioonide rakendustes, saavad seda teha, kasutades tasuta 30-päevast proovimist koos demoandmetega. Dynamics 365 Finance hõlmab inimressursside võimalusi, mis on toodud finantside infrastruktuuri autonoomse rakenduse ühendamise kaudu. Lisateavet vt jaotisest [Inimressursside pakkumiste ühendamine toob klientide võimalused kokku](https://cloudblogs.microsoft.com/dynamics365/it/2021/09/15/merging-of-hr-offerings-brings-capabilities-together-for-customers). Lisateavet Dynamics 365 Finance katsete kohta vt samm-sammult [juhendist](../fin-ops-core/fin-ops/get-started/before-you-buy.md). 
 
 
 Enne oma esimese kausta või tootmiskeskkonna ressursi ressursiks saatmist võite soovida Human Resources funktsionaalsuse kinnitamiseks ette võtta [Human Resources proovikeskkonna](https://go.microsoft.com/fwlink/p/?LinkId=2115962). Proovikeskkonnad sisaldavad fiktiivseid andmeid, mis võimaldavad programmiga turvaliselt tutvuda. Kuigi proovikeskkonna omanikuks on kasutaja, kes seda taotles, saab sinna kutsuda teisi kasutajaid läbi rakenduse Human Resources süsteemiadministratsiooni kogemuse. 
 
-Proovikeskkonnad pakuvad võimalust hinnata inimressursside funktsioone üksikisikute puhul, kellel pole veel juurdepääsu Inimressursside keskkonnale. Kui kasutate proovikeskkonda ja autenditud kasutajal on juba juurdepääs ühele või mitmele olemasolevale Inimressursside keskkonnale, suunatakse kasutaja ümber olemasolevasse keskkonda või keskkondade loendisse.
+Proovikeskkonnad aitavad hinnata inimressursside funktsioone üksikisikutel, kellel ei ole veel juurdepääsu Inimressursside keskkonnale. Kui kasutate proovikeskkonda ja autenditud kasutajal on juba juurdepääs ühele või mitmele olemasolevale Inimressursside keskkonnale, suunatakse kasutaja ümber olemasolevasse keskkonda või keskkondade loendisse.
 
-Proovikeskkonnad pole mõeldud kasutamiseks tootmiskeskkonnana. Need on piiratud 30-päevase prooviajaga. Proovikeskkonna aegumisel keskkond ja kõik selle sisalduvad andmed kustutatakse ning neid ei saa taastada. Keskkonda ei saa teisendada kasti või tootmiskeskkonda. Pärast olemasoleva keskkonna aegumist saate registreerida uue proovikeskkonna kasutamisele.
+Proovikeskkonnad pole mõeldud kasutamiseks tootmiskeskkonnana. Need on piiratud 30-päevase prooviajaga. Kui katseaeg on läbitud, kustutatakse keskkond ja kõik selles puuduvad andmed ning seda ei saa taastada. Keskkonda ei saa teisendada boksi või tootmiskeskkonda. Pärast olemasoleva keskkonna aegumist saate registreerida uue proovikeskkonna kasutamisele.
 
 Inimressursside proovikeskkonna loomisel luuakse rentnikule ka Power Apps proovikeskkond ning see seotakse Inimressursside keskkonnaga. Keskkonnal Power Apps nimega "TestDrive", on sama katseperiood kui inimressursside keskkonnas.
 
@@ -56,14 +57,14 @@ Inimressursside proovikeskkonna loomisel luuakse rentnikule ka Power Apps proovi
 
 ## <a name="plan-human-resources-environments"></a>Human Resourcesi keskkondade plaanimine
 
-Enne oma esimese Human Resourcesi keskkonna loomist peaksite hoolikalt planeerima keskkonna vajadused oma projekti jaoks. Human Resourcesi baastellimus sisaldab kahte keskkonda: töökeskkond ja liivakasti keskkond. Sõltuvalt teie projekti keerukusest võib teil projekti tegevuste toetamiseks olla vaja osta täiendavaid liivakastisekkondi. 
+Enne oma esimese Human Resourcesi keskkonna loomist peaksite hoolikalt planeerima keskkonna vajadused oma projekti jaoks. Human Resourcesi baastellimus sisaldab kahte keskkonda: töökeskkond ja liivakasti keskkond. Sõltuvalt teie projekti keerukusest, võib projektitegevuste toetamiseks olla vaja osta täiendavaid kastikeskkondasid. 
 
 Kaalutlused täiendavatele keskkondadele:
 
-- **Andmete migratsioon**: teil võib olla tarvis kaaluda andmete migreerimise tegevuste jaoks lisakeskkonda, et võimaldada liivakastikeskkonna testimiseks kasutamist kogu projekti vältel. Lisakeskkonna omamine võimaldab andmete migreerimise toimingute jätkumist testimisega ja konfigureerimisega samaaegselt teises keskkonnas.
-- **Integratsioon**: täiendavaid keskkondi peaksite kaaluma testintegreerimiste konfigureerimiseks. See võib hõlmata emaintegratsioone, nagu Ceridani päevajõud või LinkedIn Anne'i keskuse integratsioonid, või kohandatud integratsioonid, nagu palgaarvestuse, kandidaadi jälgimissüsteemide või soodustussüsteemide ja pakkujate jaoks.
-- **Koolitus**: teil võib olla vaja eraldi keskkonda, mis on konfigureeritud koolitusandmete komplektiga, et koolitada oma töötajaid uut süsteemi kasutama. 
-- **Mitmefaasiline projekt**: teil võib täiendavad keskkonna olla vaja konfiguratsiooni, andmete migratsiooni, testimise või muude tegevuste jaoks projektifaasis, mis on planeeritud pärast esialgset projekti käivitamist.
+- **Andmete** migratsioon: andmete siirdamise tegevused, mis võimaldavad teie sisendkausta keskkonda kasutada eesmärkide katsetamiseks kogu projekti vältel. Lisakeskkonna omamine võimaldab andmete migreerimise toimingute jätkumist testimisega ja konfigureerimisega samaaegselt teises keskkonnas.
+- **Integratsioon**: konfigureerige ja katsetage integratsioone, mis võivad hõlmata algintegratsioone, nagu Ceridani dayforce, või kohandatud integratsioonid.
+- **Koolitus**: teil võib olla vaja eraldi keskkonda, mis on konfigureeritud koolitusandmete komplektiga, et oma töötajaid uue süsteemi kasutamise alusel õpetada. 
+- **Mitmefaasiline projekt**: projektifaasis planeeritav tugikonfiguratsioon, andmete migratsioon, testimine või muud tegevused, mis on planeeritud pärast projekti esmast otseülekannet.
 
  > [!IMPORTANT]
  > Keskkonda arvesse kandes soovitame:
@@ -100,7 +101,7 @@ Pärast LCS-i projekti loomist saate Human Resourcesi ette valmistada keskkonnas
 2. Näidake, kas see keskkond on rakenduse Human Resources liivakasti- või tootmiseksemplar. Liivakastieksemplaride puhul võivad varase tagasiside ja testimise jaoks saadaval olla eelvaatefunktsioonid.
    
     > [!NOTE]
-    > Rakenduse Human Resources eksemplari tüüpi ei saa pärast määramist muuta. Enne jätkamist kontrollige, kas valitud on õige eksemplari tüüp.</br></br>
+    > Inimressursside eksemplari tüüpi ei saa ühe komplekti puhul muuta. Enne jätkamist kontrollige, kas valitud on õige eksemplari tüüp.</br></br>
     > Rakenduse Human Resources eksemplari tüüp eraldi on Microsoft Power Appsi keskkonna eksemplari tüübist, mida seadistate Power Appsi halduskeskuses.
     
 3. Kui soovite, et keskkonnas kasutataks sama demoandmete kogumit, mida kasutati Human Resourcesi proovikeskkonnas, siis valige suvand **Kaasa demoandmed**. Demoandmed on kasulikud pikaajalistes demo- või koolituskeskkondades, kuid neid ei tohiks kunagi tootmiskeskkondade jaoks kasutada. See suvand tuleb valida algsel juurutusel. Hiljem ei saa te olemasolevat juurutust värskendada.
@@ -111,7 +112,7 @@ Pärast LCS-i projekti loomist saate Human Resourcesi ette valmistada keskkonnas
 
 6. Valige **Jah**, et nõustuda tingimustega ja alustada juurutamist.
 
-   Teie uus keskkond kuvatakse vasakul oleval navigeerimispaanil asuvas keskkondade loendis. Kuid te ei saa keskkonda kasutada enne, kui juurutuse olekuks on värskendatud **Juurutatud**. See protsess võtab tavaliselt paar minutit aega. Kui ettevalmistuse protsess ei õnnestu, peate võtma ühendust toega.
+   Teie uus keskkond kuvatakse vasakul oleval navigeerimispaanil asuvas keskkondade loendis. Siiski ei saa te käivitada keskkonna kasutamist enne, kui juurutuse olek on **Juurutatud**. See protsess võtab tavaliselt paar minutit aega. Kui ettevalmistamise protsess ei õnnestu, pöörduge tugiteenuste poole.
 
 7. Valige oma uue keskkonna kasutamiseks suvand **Logi rakendusse Human Resources sisse**.
 
@@ -140,7 +141,7 @@ Kasutage järgmisi juhiseid, kui otsustate, millisesse Power Appsi keskkonda rak
    
     - **Toetuseta geograafiline asukoht** - keskkond peab olema toetatud geograafiline asukoht. Lisateavet leiate artiklist [Toetatud geograafiad](hr-admin-setup-provision.md#supported-geographies).
 
-6. Topeltkirjutuse võimalusi personaliandmete integreerimiseks Power Apps keskkonnaga saab kasutada ainult siis, kui keskkonna jaoks on valitud suvand **Luba Dynamics 365 rakendused**. Vaata [Topeltkirjutuse kodulehte](../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page.md) – lisateabe saamiseks topeltkirjutuse kohta.
+6. Topeltkirjutuse võimalusi personaliandmete integreerimiseks Power Apps keskkonnaga saab kasutada ainult siis, kui keskkonna jaoks on valitud suvand **Luba Dynamics 365 rakendused**. Lisateavet vt topeltkirjutuse [kodulehelt](../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page.md).
 
     > [!NOTE]
     > Suvand **Luba Dynamics 365** rakendused peab olema valitud keskkonna Power Apps loomise ajal. Kui suvandit ei ole ettevalmistamise ajal valitud, ei saa te topeltkirjutust kasutada andmete integreerimiseks Dynamics 365 Human Resources ja Power Apps keskkonna vahel ega installida Dynamics 365 rakendusi, näiteks Dynamics 365 Sales ja Field Service keskkonnale. See valik ei ole tühistatav. 
@@ -175,3 +176,4 @@ Vaikimisi on keskkonnale juurdepääs ainult selle loonud üldadministraatoril. 
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

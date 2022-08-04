@@ -11,18 +11,16 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: cbe6bff6fab96900b8bd4e112a8858363fff86d1
-ms.sourcegitcommit: 9870b773a2ea8f5675651199fdbc63ca7a1b4453
+ms.openlocfilehash: 463a66002ec7a6536c9ff829f9ea2c3734138eae
+ms.sourcegitcommit: 6221a25f81aa83ab335de7cb6b6c3014dbec0116
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "9013551"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "9177144"
 ---
 # <a name="get-started-with-global-inventory-accounting"></a>Global Inventory Accounting kasutamise alustamine
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
-<!--KFM: Preview until 4/30/2022 -->
 
 Global Inventory Accounting võimaldab teil teha mitut laoarvestust teie seadistatud Global Inventory Accounting pearaamatutes. Te seostate iga Global Inventory Accounting pearaamatu *reegliga*. Reegel on järgmist tüüpi raamatupidamispoliitikate kogumik.
 
@@ -69,28 +67,34 @@ Enne lisandfunktsiooni lubamist tuleb teil need sammud Microsoft Power Platform 
 
 Lisateavet vt teemast [Luba peale keskkonna juurutamist](../../fin-ops-core/dev-itpro/power-platform/enable-power-platform-integration.md#enable-after-deploy).
 
-## <a name="install-the-add-in"></a><a name="install"></a>Lisandmooduli installimine
+## <a name="install-or-update-the-add-in-and-solution"></a><a name="install"></a> Lisandmooduli ja lahenduse installimine või värskendamine
 
-Järgige neid samme lisandmooduli installimiseks Global Inventory Accounting laoarvestuse kasutamiseks.
+Kasutage järgmist protseduuri globaalse laoarvestuse lisandmooduli ja lahenduse installimiseks või värskendamiseks. Protseduuri osa, mida järgida, sõltub sellest, kas installite esmakordselt või peate olemasoleva installi lahendust värskendama.
+
+- Kui te pole kunagi lisandmoodulit installinud, järgige nii lisandmooduli kui ka lahenduse installimiseks täielikku protseduuri.
+- Kui kasutate juba globaalset varude arvestust [Power Platform](https://admin.powerplatform.microsoft.com), kuid peate lahenduse halduskeskuses värskendama, siis tehke ainult sammu 6 ja jätke kõik muud sammud vahele.
+
+Lisandmooduli ja lahenduse installimiseks või värskendamiseks:
 
 1. Logige teenusesse [LCS](https://lcs.dynamics.com/Logon/Index) sisse.
 1. Avage LCS-i keskkond, kuhu soovite teenuse lisada.
 1. Avage **Kõik üksikasjad**.
-1. Avage **Power Platform integratsioon** ja valige **Seadistamine**.
+1. Minge integratsiooni **Power Platform ja** valige **seadistus**.
 1. Märkige ruut **Power Platform platvormi keskkonna seadistus** dialoogiboksis ja valige seejärel **Seadistamine**. Tavaliselt võtab seadistus aega 60 kuni 90 minutit.
-1. Pärast keskkonna seadistuse Microsoft Power Platform lõpule viimist [Power Platform](https://admin.powerplatform.microsoft.com) logige halduskeskusesse sisse ja seejärel installige globaalse laoarvestuse lisandmoodul järgmiste sammude abil.
-   1. Valige keskkond, kuhu soovite lisandmooduli installida.
+1. Pärast keskkonna Microsoft Power Platform seadistuse lõpule viimist logige [Power Platform](https://admin.powerplatform.microsoft.com) halduskeskusesse sisse ja seejärel installige või värskendage globaalse laoarvestuse lahendus järgmiste sammude abil.
+   1. Valige keskkond, kuhu soovite lahenduse installida või värskendada.
    1. Valige **Dynamics 365 rakendused**.
    1. Valige **installirakendus**.
    1. Valige **Dynamics 365 globaalne laoarvestus**.
    1. Valige **installimiseks** edasi.
-1. Minge tagasi LCS-i keskkonda. Valige kiirkaardil **Keskkonna lisandmoodulid** suvand **Installi uus lisandmoodul**.
+1. Kui lahendus on täielikult installitud, minge tagasi LCS-i keskkonda. Valige kiirkaardil **Keskkonna lisandmoodulid** suvand **Installi uus lisandmoodul**.
 1. Valige **Globaalne laoarvestus**.
 1. Täitke paigaldusjuhendit ja nõustuge nõuete ja tingimustega.
 1. Valige **Installi**.
 1. Peaksite nägema kiirkaardil **Keskkonna lisandmoodulid**, et Global Inventory Accounting installitakse. Mõne minuti pärast peaks olek *Installimine* muutuma olekuks *Installitud*. (Selle muudatuse nägemiseks võib olla vaja lehte värskendada.) Pärast seda on Global Inventory Accounting kasutamiseks valmis.
 
 Kui teie installi vaikekeel ei Dataverse ole inglise keel, järgige neid samme.
+
 1. Avage **Täpsemad seadistused \>Administreerimine \> Keeled**.
 1. Valige *Inglise keel* (*LanguageCode=1033*) ja valige **Rakenda**.
 

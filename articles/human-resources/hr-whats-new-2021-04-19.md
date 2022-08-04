@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-04-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e46c5721853ebfe3b9d5955ca5f4e7a4ead570c1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: fffe9c042c71dc220179bb6d1ba7fd59d5e53cc0
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8846296"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069529"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-april-19-2021"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 Human Resources (19. aprill, 2021)?
 
@@ -41,7 +41,7 @@ Selle väljalaskega tulevad üldiselt kättesaadavaks järgmised funktsioonid.
 
 | Funktsioon | Väljaandmisplaan | Dokumentatsioon |
 | --- | --- | --- |
-| Platvormi värskendus 10.0.17 (41) | -- | [Finantside ja toimingute rakenduste versiooni 10.0.17 platvormi värskendused (aprill 2021)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-17.md) |
+| Platvormi värskendus 10.0.17 (41) | -- | [Platvormi värskendused versioonile 10.0.17 finantside ja toimingute rakendustest (aprill 2021)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-17.md) |
 | Kohandatud väljade tugi soodustuste halduse vormidel | [Kohandatud väljade tugi soodustuste halduses](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/custom-field-support-benefits-management)| [Soodustuste halduse ülevaade](hr-benefits-management-overview.md)|
 
 ### <a name="bug-fixes"></a>Veaparandused
@@ -77,7 +77,7 @@ Järgmised uued funktsioonid on eelversioonis. Lisateavet funktsioonide sisse- v
 | Funktsioon | Details |
 | --- | --- |
 | Töövoog saab automaatselt heaks kiita juhataja poolt töötajate jaoks sisestatud oskused. | Peagi tulekul. |
-| Platvormi värskendus 10.0.18 (42) | Platvormi värskendus 10.0.18 peaks tuleb välja teenuseväljalaske raames 17. mail 2021. Lisateavet vt Platvormi värskendustest [versioonile 10.0.18 Finance and Operations rakendustest (mai 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-18). |
+| Platvormi värskendus 10.0.18 (42) | Platvormi värskendus 10.0.18 peaks tuleb välja teenuseväljalaske raames 17. mail 2021. Lisateavet vt platvormi värskendustest [versioonile 10.0.18 finantside ja toimingute rakendustest (mai 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-18). |
 | Kohandatud väljade toe jaoks kvalifitseerumise reeglid soodustuste halduses  | [Kohandatud välja tugi kõlblikkuse töötlemiseks](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/custom-field-support-eligibility-processing) |
 
 Plaanitud funktsioonide täieliku loendi ja nende kavandatud väljaannete kohta leiate teavet teemast [Dynamics 365 Human Resourcesi 2021. aasta 1. väljalaskevoo ülevaade](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/).
@@ -90,3 +90,4 @@ Plaanitud funktsioonide täieliku loendi ja nende kavandatud väljaannete kohta 
 [Funktsioonide haldamine](hr-admin-manage-features.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

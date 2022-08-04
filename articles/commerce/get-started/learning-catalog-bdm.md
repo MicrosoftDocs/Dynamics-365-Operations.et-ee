@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 130c11320df56c2963653181d00dbf0005b31b69
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: cca34e28ebee1863cbc97b0ed518f84b900a4019
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8881812"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070757"
 ---
 # <a name="learning-catalog-for-business-and-technical-decision-makers-considering-dynamics-365-commerce"></a>Õppekataloog äri- ja tehniliste otsuste tegijatele, kes kaaluvad Dynamics 365 Commerce'i ostmist
 
@@ -25,7 +25,7 @@ Kas teie otsustate, kas investeerida uutesse tehnoloogiatesse?
 
 Järgnev kataloog hõlmab üld- ja valdkonnapõhiseid teadmisi nii baas- kui ka süvatasemel. Kui sisu on mitmes vormingus, anname teile sellest teada, et saaksite valida koolitusvormingu, mis vastab teie vajadustele kõige paremini.
 
-Lisateavet teiste finantside ja toimingute rakendustega ühiskasutuses funktsioonide kohta vt [Dynamics 365 finantside õppe kataloogist](../../finance/get-started/learning-catalog-bdm.md).
+Teavet teiste finantside ja toimingute rakendustega ühiskasutuses funktsioonide kohta leiate [Dynamics 365 finantside õppekataloogist](../../finance/get-started/learning-catalog-bdm.md).
 
 ## <a name="get-started"></a>Alustage<a name="get-started"></a>
 
@@ -37,3 +37,4 @@ Lisateavet teiste finantside ja toimingute rakendustega ühiskasutuses funktsioo
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+
