@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4935d54a911701fda4740e3a1116c139730ceb08
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: abfba49c1b5e410cdc47db9965ffee26fbaebb9e
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8866533"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067678"
 ---
 # <a name="globalization-resources"></a>Globaliseerimisressursid
 
@@ -62,8 +62,8 @@ Järgmised ressursid sisaldavad teavet plaanitud ja uute lokaliseerimisfunktsioo
 #### <a name="dynamics-365-release-plans"></a>Dynamics 365 väljalaskeplaanid
 [Dynamics 365 väljalaskeplaanid](/business-applications-release-notes/) sisaldavad kirjeldust täiustatud ja uute võimaluste kohta, mida plaanitakse Dynamics 365 ärirakenduste ja rakendusplatvormide jaoks. 
 
-#### <a name="finance-and-operations-apps-whats-new"></a>Finance and Operations rakendused – mis on uut?
-Teemast [Mis on uut või muutunud Finance and Operationsi avalehel?](../../fin-ops/get-started/whats-new-changed.md) leiate Finance and Operationsi rakenduste konkreetsetesse versioonidesse lisatud funktsioonid.
+#### <a name="finance-and-operations-apps-whats-new"></a>Finants- ja äritoimingute rakendused – mis on uut?
+Teemast [Mis on uut või muutunud finants- ja äritoimingute rakenduse avalehel?](../../fin-ops/get-started/whats-new-changed.md) leiate finants- ja äritoimingute rakenduste konkreetsetesse versioonidesse lisatud funktsioonid.
 
 ### <a name="electronic-reporting"></a>Elektrooniline aruandlus
 Elektroonilise aruandluse (ER) tööriist võimaldab teil konfigureerida elektrooniliste dokumentide vorminguid erinevate riikide/regioonide õigusnõuete järgi. ER võimaldab hallata neid vorminguid nende elutsükli jooksul. Lisateavet vt järgmistest teemadest.
@@ -133,3 +133,4 @@ Lisateabe saamiseks vt [Spikrisüsteem](../../fin-ops/get-started/help-overview.
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

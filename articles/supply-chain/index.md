@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 189239ad6142af200e41cfe9cfcdbb56be65b0b7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: dbf77b57f7a107918c3b8a03290e208ed1c4803b
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8879072"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066053"
 ---
 # <a name="supply-chain-management-home-page"></a>Supply Chain Managementi avaleht
 
@@ -56,16 +56,16 @@ Lisateavet teenuse Dynamics 365 Finance kohta leiate [Finance'i avalehelt](../fi
 
 ## <a name="videos"></a>Videod
 
-See lühivideo võtab kokku uued tarneahela halduse funktsioonid, mis on lisatud Microsoft Dynamics 365 for Finance and Operationsi versioonile 8.0 (aprill 2018).
+See lühivideo võtab kokku uued tarneahela halduse funktsioonid, mis on lisatud Microsoft Dynamics 365 Finance’i versioonile 8.0 (aprill 2018).
 
-- [Töökäsu sünkroonimine rakenduse Field Service ja rakenduse Finance and Operations vahel](https://youtu.be/hAB4TDVMjxU)
+- [Töökäsu sünkroonimine rakenduse Field Service ja finants- ja äritoimingute rakenduse vahel](https://youtu.be/hAB4TDVMjxU)
 
-Need lühivideod võtavad kokku uued tarneahela halduse funktsioonid, mis on lisatud Microsoft Dynamics 365 for Finance and Operations Enterprise editionile 7.3 (detsember 2017).
+Need lühivideod võtavad kokku uued tarneahela halduse funktsioonid, mis on lisatud Microsoft Dynamics 365 Finance, Enterprise editionile 7.3 (detsember 2017).
 
 - [Optimeerimisnõunik](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
 - [Laomalli kasutamine konfiguratsiooni kopeerimiseks](https://www.youtube.com/watch?v=K2WIfFlqJYs&feature=youtu.be)
 
-Need lühivideod võtavad kokku uued tarneahela halduse funktsioonid, mis on lisatud Microsoft Dynamics 365 for Finance and Operations Enterprise editionile (juuli 2017).
+Need lühivideod võtavad kokku uued tarneahela halduse funktsioonid, mis on lisatud Microsoft Dynamics 365 Finance, Enterprise editionile (juuli 2017).
 
 - [Kuluarvestuse kasutamise alustamine](https://youtu.be/1pUDtJQZ8FU)
 - [Kulude juhtimise mobiilne tööruum](https://youtu.be/imsuTg8rUVk)
@@ -73,7 +73,7 @@ Need lühivideod võtavad kokku uued tarneahela halduse funktsioonid, mis on lis
 - [Ostutellimuste kinnitamine mobiilses seadmes](https://youtu.be/gZ-gOlJe7H8)
 - [Tootmis- ja partiitellimuste visuaalne plaanimine Gantti diagrammiga](https://youtu.be/BtbuShkGj4I)
 
-Järgmised tehnilise konverentsi salvestised arutlevad tarneahela halduse funktsioonide üle eelmistes Finance and Operationsi versioonides. See funktsioon on nüüd Dynamics 365 Supply Chain Managementi osa. Samad mõisted kehtivad endiselt ja toimingud on praeguse versiooniga sarnased.
+Järgmised tehnilise konverentsi salvestised arutlevad tarneahela halduse funktsioonide üle eelmistes finants- ja äritoimingute rakenduse versioonides. See funktsioon on nüüd Dynamics 365 Supply Chain Managementi osa. Samad mõisted kehtivad endiselt ja toimingud on praeguse versiooniga sarnased.
 
 - **Kuluhaldus:**
   - [Kuluhalduse ülevaade](https://www.youtube.com/watch?v=vXzlC-mOBcg&feature=youtu.be)
@@ -106,3 +106,4 @@ Veebikursuste ja koolituse kohta leiate teavet [Microsoft Learni jaotisest Dynam
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

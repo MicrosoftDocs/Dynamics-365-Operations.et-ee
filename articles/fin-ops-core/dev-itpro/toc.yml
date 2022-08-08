@@ -2,7 +2,7 @@
   items:
     - name: Finants- ja äritoimingute rakenduste juurutamine ja haldamine
       items:
-        - name: Rakenduse Rahandus ja toimingud dokumentatsioon
+        - name: Finants- ja äritoimingute rakenduse dokumentatsioon
           href: ../fin-ops/index.md
         - name: Finants- ja äritoimingute rakenduste juurutamine ja haldamine
           href: index.md
@@ -18,8 +18,6 @@
                   href: get-started/whats-new-platform-updates-10-0-28.md
                 - name: Platvormivärskendused versioonile 10.0.27 (juuli 2022)
                   href: get-started/whats-new-platform-updates-10-0-27.md
-                - name: Platvormivärskendused versioonile 10.0.26 (mai 2022)
-                  href: get-started/whats-new-platform-updates-10-0-26.md
             - name: Eemaldatud või iganenud funktsioonid
               items:
                 - name: Eemaldatud või iganenud funktsioonide avaleht
@@ -106,39 +104,39 @@
                       items:
                         - name: Potentsiaalne klient sularahaks
                           href: ../../supply-chain/sales-marketing/prospect-to-cash.md
-                        - name: Rakenduse Sales kontode sünkroonimine otse rakenduse Rahandus ja toimingud klientidega
+                        - name: Rakenduse Sales kontode sünkroonimine otse finants- ja äritoimingute rakenduse klientidega
                           href: ../../supply-chain/sales-marketing/accounts-template-mapping-direct.md
-                        - name: Rakenduse Rahandus ja toimingud toodete sünkroonimine otse rakenduse Sales toodetega
+                        - name: Finants- ja äritoimingute rakenduse toodete sünkroonimine otse rakenduse Sales toodetega
                           href: ../../supply-chain/sales-marketing/products-template-mapping-direct.md
-                        - name: Rakenduse Sales kontaktide sünkroonimine otse rakenduse Rahandus ja toimingud kontaktide või klientidega
+                        - name: Rakenduse Sales kontaktide sünkroonimine otse finants- ja äritoimingute rakenduse kontaktide või klientidega
                           href: ../../supply-chain/sales-marketing/contacts-template-mapping-direct.md
-                        - name: Rakenduse Rahandus ja toimingud müügipakkumiste päiste ja ridade sünkroonimine otse rakendusega Sales
+                        - name: Finants- ja äritoimingute rakenduse müügipakkumiste päiste ja ridade sünkroonimine otse rakendusega Sales
                           href: ../../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md
-                        - name: Müügitellimuste vahetu sünkroonimine rakenduse Rahandus ja toimingud ja rakenduse Sales vahel
+                        - name: Müügitellimuste vahetu sünkroonimine finants- ja äritoimingute rakenduse ja rakenduse Sales vahel
                           href: ../../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
-                        - name: Rakenduse Rahandus ja toimingud müügiarvete päiste ja ridade sünkroonimine otse rakendusega Sales
+                        - name: Finants- ja äritoimingute rakenduse müügiarvete päiste ja ridade sünkroonimine otse rakendusega Sales
                           href: ../../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
                     - name: Integratsiooni konfigureerimine Field Service’iga
                       items:
                         - name: Integratsiooni konfigureerimine Field Service’i abil – ülevaade
                           href: ../../supply-chain/sales-marketing/field-service.md
-                        - name: Rakenduse Rahandus ja toimingud toodete sünkroonimine rakenduse Field Service toodetega
+                        - name: Finants- ja äritoimingute rakenduse toodete sünkroonimine rakenduse Field Service toodetega
                           href: ../../supply-chain/sales-marketing/field-service-product.md
-                        - name: Rakenduse Field Service töötellimuste sünkroonimine rakenduse Rahandus ja toimingud müügitellimustega
+                        - name: Rakenduse Field Service töökäskude sünkroonimine finants- ja äritoimingute rakenduse müügitellimustega
                           href: ../../supply-chain/sales-marketing/field-service-work-order.md
-                        - name: Rakenduse Field Service lepinguarvete sünkroonimine rakenduse Rahandus ja toimingud vabas vormis arvetega
+                        - name: Rakenduse Field Service lepinguarvete sünkroonimine finants- ja äritoimingute rakenduse vabas vormis arvetega
                           href: ../../supply-chain/sales-marketing/field-service-invoice.md
-                        - name: Varude üleviimiste ja korrigeerimiste sünkroonimine rakendusest Field Service rakendusse Rahandus ja toimingud
+                        - name: Varude ülekannete ja korrigeerimiste sünkroonimine rakendusest Field Service finants- ja äritoimingute rakendusse
                           href: ../../supply-chain/sales-marketing/synchronize-inventory-adjustments.md
-                        - name: Varude taseme teabe sünkroonimine rakendusest Rahandus ja toimingud rakendusse Field Service
+                        - name: Varude taseme teabe sünkroonimine finants- ja äritoimingute rakendusest rakendusse Field Service
                           href: ../../supply-chain/sales-marketing/synchronize-inventory-level-info.md
-                        - name: Laoühikuga toodete sünkroonimine rakendusest Rahandus ja toimingud rakendusse Field Service
+                        - name: Laoühikuga toodete sünkroonimine finants- ja äritoimingute rakendusest rakendusse Field Service
                           href: ../../supply-chain/sales-marketing/synchronize-products-inv-unit.md
-                        - name: Projektiloendi sünkroonimine rakendusest Rahandus ja toimingud rakendusse Field Service
+                        - name: Projektiloendi sünkroonimine finants- ja äritoimingute rakendusest rakendusse Field Service
                           href: ../../supply-chain/sales-marketing/synchronize-project-list.md
-                        - name: Ladude sünkroonimine rakendusest Rahandus ja toimingud rakendusse Field Service
+                        - name: Ladude sünkroonimine finants- ja äritoimingute rakendusest rakendusse Field Service
                           href: ../../supply-chain/sales-marketing/synchronize-warehouse.md
-                        - name: Projektiga töökäskude sünkroonimine rakendusest Field Service rakendusse Rahandus ja toimingud
+                        - name: Projektiga töökäskude sünkroonimine rakendusest Field Service finants- ja äritoimingute rakendusse
                           href: ../../supply-chain/sales-marketing/synchronize-work-orders.md
                     - name: Project Service Automationi integreerimise konfigureerimine
                       items:
@@ -242,19 +240,19 @@
               href: data-entities/dm-error-descriptions.md
         - name: Azure Data Lake
           items:
-            - name: Azure Data Lake'i eksportimise ülevaade
+            - name: Azure Data Lake’i eksportimise ülevaade
               href: data-entities/Azure-Data-Lake-GA-version-overview.md
-            - name: Azure Data Lake'i eksportimise lisandmooduli installimine
+            - name: Azure Data Lake’i eksportimise lisandmooduli installimine
               href: data-entities/configure-export-data-lake.md
             - name: Finants- ja äritoimingute rakendused Azure Data Lake’is
               href: data-entities/finance-data-azure-data-lake.md
-            - name: Azure Data Lake'i salvestatud andmed ja metaandmed
+            - name: Azure Data Lake’i salvestatud andmed ja metaandmed
               href: data-entities/Azure-Data-Lake-Enhanced-Metadata.md
             - name: Üksusesalve Data Lake’i üksusena saadavaks muutmine
               href: data-entities/entity-store-data-lake.md
             - name: 'Ärisündmused, mis on saadud teenusesse Azure Data Lake eksportimise teel (eelversioon)'
               href: data-entities/Azure-Data-Lake-Generates-Biz-events.md
-            - name: Andmete muutmine Azure Data Lake'is
+            - name: Andmete muutmine Azure Data Lake’is
               href: data-entities/Azure-data-lake-Change-feeds.md
         - name: Andmebaasi teisaldamistoimingud
           items:
@@ -348,9 +346,9 @@
                   href: deployment/arm-onboarding.md
                 - name: Azure Resource Manageri kasutuselevõtuprotsessi lõpuleviimine USA valitsuse LCS-i projektide jaoks
                   href: deployment/arm-onbarding-us-goverment.md
-                - name: Azure ExpressRoute ja Rahandus ja toimingud
+                - name: Azure ExpressRoute ja finants- ja äritoimingud
                   href: deployment/expressroute.md
-                - name: Finants- ja äritoimingute arhitektuur
+                - name: Finants- ja äritoimingute rakenduse arhitektuur
                   href: ../fin-ops/imp-lifecycle/architecture-overview.md
                 - name: Värskenduste rakendamine pilvekeskkondadele
                   href: deployment/apply-deployable-package-system.md
@@ -1050,9 +1048,9 @@
                   href: lifecycle-services/dts-devops-extension.md
                 - name: Azure DevOpsi laiendi õpik (avalik eelversioon)
                   href: lifecycle-services/dts-ado-tutorial.md
-                - name: Visual Studio laiend (privaatne eelversioon)
+                - name: Visual Studio laiend (avalik eelversioon)
                   href: lifecycle-services/dts-visual-studio.md
-                - name: Visual Studio koodi laiend (avalik eelversioon)
+                - name: Visual Studio Code’i laiend (avalik eelversioon)
                   href: lifecycle-services/dts-vscode-doc.md
         - name: Microsoft Power Platformi integreerimine
           items:
@@ -1198,7 +1196,7 @@
                           href: data-entities/dual-write/dual-write-troubleshooting-initial-sync.md
                         - name: Reaalajas sünkroonimise probleemide tõrkeotsing
                           href: data-entities/dual-write/dual-write-troubleshooting-live-sync.md
-                        - name: Topeltkirjutusprobleemide tõrkeotsing finants- ja äritoiminguterakendustes
+                        - name: Topeltkirjutusprobleemide tõrkeotsing finants- ja äritoimingute rakendustes
                           href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
                         - name: Osapoole ja globaalse aadressiraamatu probleemide tõrkeotsing
                           href: data-entities/dual-write/dual-write-troubleshooting-party-gab.md
@@ -1220,9 +1218,9 @@
                   href: power-platform/entity-modeling.md
                 - name: Rakenduse elutsüklihaldus
                   href: power-platform/application-lifecycle-management.md
-                - name: Dataverse'i virtuaalüksuste konfigureerimine
+                - name: Dataverse’i virtuaalüksuste konfigureerimine
                   href: power-platform/admin-reference.md
-                - name: Dataverse'i virtuaalsete üksuste lubamine
+                - name: Dataverse’i virtuaalüksuste lubamine
                   href: power-platform/enable-virtual-entities.md
                 - name: Power Appsi portaalid finants- ja äritoimingutega
                   href: power-platform/power-portal-reference.md
@@ -1574,11 +1572,11 @@
                   href: lcs-solutions/submit-localization-alerts.md
         - name: Tugi
           items:
-            - name: Rakenduste Rahandus ja toimingud ja Lifecycle Services tugi
+            - name: Finants- ja äritoimingute rakenduste ja Lifecycle Servicesi tugi
               href: lifecycle-services/lcs-support.md
             - name: Dynamics 365 toe ülevaade
               href: /power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json
-            - name: 'Toe hankimine rakenduse Rahandus ja toimingud jaoks, mida käitab 21Vianet Hiinas'
+            - name: 'Toe hankimine finants- ja äritoimingute rakenduse jaoks, mida käitab 21Vianet Hiinas'
               href: lifecycle-services/21vianet-support.md
             - name: Tehnilise toe seadistamine finants- ja äritoimingute rakenduste jaoks
               href: lifecycle-services/support-experience.md
@@ -1698,7 +1696,7 @@
               href: migration-upgrade/upgrade-home-page.md
             - name: Üleminek versioonilt AX 2012
               items:
-                - name: Versiooni AX 2012 täiendamine versioonile Rahandus ja toimingud
+                - name: Versiooni AX 2012 täiendamine versioonile finants- ja äritoimingud
                   href: migration-upgrade/upgrade-overview-2012.md
                 - name: AX 2012 täiendus – täienduse analüüsija tööriista kasutamine plaanimiseks
                   href: migration-upgrade/upgrade-analyzer-tool.md
@@ -1758,7 +1756,7 @@
                       href: migration-upgrade/compress-tables-ax-2012.md
             - name: Andmete migreerimine versioonist AX 2009
               items:
-                - name: Andmete migreerimine AX 2009-st rakendusse Rahandus ja toimingud
+                - name: Andmete migreerimine AX 2009-st finants- ja äritoimingute rakendusse
                   href: migration-upgrade/data-migration-tool.md
                 - name: AX 2009 migratsioon – andmemigratsiooni tööriista installimine
                   href: migration-upgrade/install-dmt.md
