@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: c011938438be32e8a3169d90561ab329da32e32a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d39ce6e07a789ff4d605a01b1d5053be150d2727
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8895463"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336241"
 ---
 # <a name="release-to-warehouse-rule"></a>Lattu väljastamise reegel
 
@@ -30,14 +30,14 @@ Funktsioon *Lattu väljastamise reegel* pakub paindlikkust lattu väljastamisel.
 
 ### <a name="turn-on-the-feature"></a>Funktsiooni sisselülitamine
 
-Enne funktsiooni *Lattu väljastamise reegel* kasutamist peate selle oma süsteemis sisse lülitama. Administraatorid saavad kasutada [funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sätteid, et kontrollida funktsiooni olekut ja vajadusel selle sisse lülitada. Tööruumis **Funktsioonihaldus** loetletakse funktsiooni järgneval viisil.
+Enne lao vabastamise reegli *funktsiooni kasutamist* tuleb see teie süsteemis sisse lülitada. Administraatorid saavad kasutada [funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sätteid, et kontrollida funktsiooni olekut ja vajadusel selle sisse lülitada. Tööruumis **Funktsioonihaldus** loetletakse funktsiooni järgneval viisil.
 
 - **Moodul:** *laohaldus*
 - **Funktsiooni nimi:** *Lattu väljastamise reegel*
 
 ### <a name="initialize-the-feature"></a>Funktsiooni lähtestamine
 
-Kui funktsioon on teie süsteemis sisse lülitatud, peate selle lähtestama, et seada reegel kõigi ladude õigele esialgsele olekule.
+Kui funktsioon on teie süsteemi jaoks sisse lülitatud, peate selle lähtestama, et seadistada reegel õigele esialgsele olekule kõigi ladude puhul.
 
 - Ladude puhul, mis pole laohalduse jaoks lubatud, on algselt selle reegli väärtuseks seatud **Pole kohaldatav**.
 - Ladude puhul, mis on laohalduse jaoks lubatud, on algselt selle reegli väärtuseks seatud **Osalise reserveerimise lubamine**
@@ -69,7 +69,7 @@ Selles jaotises esitatakse kaks stsenaariumit, mille läbi töötamisel saate te
 
 ### <a name="make-sample-data-available"></a>Näidisandmete kättesaadavaks tegemine
 
-Nende stsenaariumide kasutamiseks siin määratud näidiskirjete ja -väärtuste abil peate kasutama süsteemi, kuhu on installitud standardsed [demoandmed](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md). Enne alustamist peate valima ka juriidilise isiku **USMF**.
+Nende stsenaariumide kasutamiseks siin määratud näidiskirjete ja -väärtuste abil peate kasutama süsteemi, kuhu on installitud standardsed [demoandmed](../../fin-ops-core/fin-ops/get-started/demo-data.md). Enne alustamist peate valima ka juriidilise isiku **USMF**.
 
 Neid stsenaariume saate kasutada ka juhistena funktsiooni kasutamiseks, kui töötate tootmissüsteemis. Kuid sellisel juhul peate asendama oma väärtused ja teil ei pruugi olla teatud tüüpi nõutavaid kirjeid, mida pakuvad standardsed demoandmed.
 

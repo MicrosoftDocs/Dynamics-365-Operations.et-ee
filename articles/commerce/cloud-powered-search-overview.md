@@ -7,18 +7,18 @@ ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: v-chgri
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 8a3ab869eb9ddc0e73061bd2363cf9b3962da1e3
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.assetid: ''
+ms.openlocfilehash: ed80ff42ea5c6e6a904ea2855953d006f66aad37
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8850352"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9273662"
 ---
 # <a name="cloud-powered-search-overview"></a>Pilvepõhise otsingu ülevaade
 
@@ -32,7 +32,7 @@ Kliendid on harjunud veebiotsingu mootorite peaaegu hetkelise reaktsiooniajaga, 
 
 Pilve toega toote leidmine äris aitab jaemüüjatel jätkata tarbijalojaalsuse ja teisendusmäärade suurendamiseks kõigis CSU kanalites.
 
-Commerce'i otsingukogemus on täiustatud võimalusi, et aidata jaemüüjatel paremini tooteavastada. Samal ajal tarnivad need võimalused skaleeritavust ja jõudlust, mis on vajalik e-kaubanduse liikluseks.
+Commerce’i otsingukogemus on täiustatud võimalusi, et aidata jaemüüjatel paremini tooteavastada. Samal ajal tarnivad need võimalused skaleeritavust ja jõudlust, mis on vajalik e-kaubanduse liikluseks.
 
 ## <a name="browse-and-search"></a>Sirvimine ja otsing
 
@@ -64,11 +64,14 @@ Järgmisel joonisel on kujutatud näide, kus kasutatakse kõikehõlmavaid automa
 
 ## <a name="sort"></a>Sordi
 
-Täiustatud sortimine Äris lubab klientidel sortida, otsida ja sirvida otsingutulemusi ning täpsustada neid selliste kriteeriumide järgi nagu hind, toote nimi ja tootenumber. Kliendid saavad lisaks sorteerida tulemusi selle põhjal, kas toode on uus, suurima läbimüügiga või hiljuti lisatud.
+Sortimisfunktsioon võimaldab klientidel sortida, otsida ja sirvida kategooria tulemusi ning piiritleda need kriteeriumidega nagu hind, toote nimi ja tootenumber. Kui lubate [tootesoovitused](product-recommendations.md) oma keskkonnas, saavad kliendid sortida tulemusi ka täiustatud sortimiskriteeriumide (nt uue, parimate müügi ja trendide) alusel.
+
 
 > [!NOTE]
 > Need pilvepõhised otsinguvõimalused on saadaval alates versioonist 10.0.8. Veenduge, et commerce Parameters oleks jaotises ProductSearch.UseAzureSearch **kirje seatud konfiguratsiooniparameetrites väärtusele > "tõene"**. 
 ![Pilvepõhise otsingu konfiguratsiooniparameetrid.](./media/CloudPoweredSearchConfigurationParameters.png)
+>Täpsemad sortimisvalikud nagu uus, best-müük ja trending on saadaval Commerce SSK versiooniga 9.35+ Dynamics 365 Commerce ja 10.0.20 väljalaskega.  
+
 
 ## <a name="additional-resources"></a>Lisaressursid
 

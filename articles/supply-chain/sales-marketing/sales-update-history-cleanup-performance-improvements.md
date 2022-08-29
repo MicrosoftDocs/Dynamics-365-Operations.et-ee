@@ -2,7 +2,7 @@
 title: Müügiajaloo andmete puhastamise plaanimine
 description: See artikkel kirjeldab, kuidas saate aidata parandada süsteemi jõudlust, planeerides müügi uuendamisajaloo perioodilise puhastuse ülesande regulaarseks käitamiseks korrapärase intervalliga.
 author: myvakalo
-ms.date: 03/21/2022
+ms.date: 08/09/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: myvakalo
 ms.search.validFrom: 2021-09-29
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 1b2c9436fbb5020065f8f6ec30eedeca342d8aa9
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e9a4dd5372afa8a0452449d1cb9121107e6e1610
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8900821"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335499"
 ---
 # <a name="schedule-sales-history-data-cleanup"></a>Müügiajaloo andmete puhastamise plaanimine
 
@@ -42,7 +42,7 @@ See funktsioon parandab olemasolevat puhastustööd järgmistel viisidel:
 
 Pärast funktsiooni lubamist käitatakse partiitöö **Müügi värskendamise ajaloo puhastamine** (**Müük ja turundus \> Perioodi ülesanded \> Puhastamine \> Müügi värskendamiste ajaloo puhastamine**) nii, nagu seda enne, kuid parema jõudluse ja maksimaalselt 2 tunni jooksul. See tähendab, et teatud andmete säilitamiseks teatud ajavahemiku jooksul võib vaja minna mitut käivitamist.
 
-Enne selle funktsiooni kasutamist peate selle oma süsteemis sisse lülitama. Administraatorid saavad kasutada [funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sätteid, et kontrollida funktsiooni olekut ja selle sisse lülitada. Tööruumis **Funktsioonihaldus** loetletakse funktsiooni järgneval viisil.
+Enne selle funktsiooni kasutamist tuleb see teie süsteemi jaoks sisse lülitada. Administraatorid saavad kasutada [funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sätteid, et kontrollida funktsiooni olekut ja selle sisse lülitada. Tööruumis **Funktsioonihaldus** loetletakse funktsiooni järgneval viisil.
 
 - **Moodul:** *Müük ja turundus*
 - **Funktsiooni nimi:** *Müügiajaloo puhastamise jõudluse täiustused*
@@ -51,10 +51,7 @@ Enne selle funktsiooni kasutamist peate selle oma süsteemis sisse lülitama. Ad
 
 Vanuse *funktsioonil põhinev müügi värskendamise* ajaloo puhastamine võimaldab *teil* määrata kirjete maksimaalse vanuse, kui käitatakse müügi värskendamise ajaloo puhastamist. Vanemad kirjed kustutatakse. See funktsioon on vajalik siis, kui seadistate ülesande perioodiliselt käivituma, kuna vanus arvutatakse alati vastavalt ülesande käituskuupäevale. Kui te seda funktsiooni ei kasuta, saate vanimatele säilitamiskirjetele seada ainult kindla kuupäeva.
 
-Enne selle funktsiooni kasutamist peate selle oma süsteemis sisse lülitama. Administraatorid saavad kasutada [funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sätteid, et kontrollida funktsiooni olekut ja selle sisse lülitada. Tööruumis **Funktsioonihaldus** loetletakse funktsiooni järgneval viisil.
-
-- **Moodul:** *Müük ja turundus*
-- **Funktsiooni nimi:** *müügi värskendamise ajaloo puhastamine vanuse alusel*
+Selle funktsiooni kasutamiseks peab see olema teie süsteemi jaoks sisse lülitatud. Tarneahela halduse versiooni 10.0.29 puhul on see funktsioon kohustuslik ja seda ei saa välja lülitada. Kui käitate versiooni, mis *on*[vanem](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) kui 10.0.29, saavad administraatorid selle funktsiooni sisse või välja lülitada, otsides funktsioonihalduse tööruumi ajastusel põhinevat müügivärskenduste ajaloo puhastamist.
 
 ## <a name="set-up-and-schedule-the-sales-history-cleanup-periodic-task"></a>Müügiajaloo perioodilise puhastuse ülesande häälestamine ja plaanimine
 

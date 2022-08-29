@@ -2,21 +2,21 @@
 title: Mobiilse seadme menüükäskude sammude ümbersuunamise konfigureerimine
 description: See artikkel kirjeldab, kuidas konfigureerida menüükäske nii, et töötajad saavad praegust ülesannet parkida, teha muud ülesannet ja seejärel naasta algse ülesande juurde ilma teavet kaotamata.
 author: Mirzaab
-ms.date: 10/15/2021
+ms.date: 08/09/2022
 ms.topic: article
-ms.search.form: ''
+ms.search.form: WHSMobileAppFlowStepListPage, WHSMobileAppFlowStepAddDetour,WHSMobileAppFlowStepDetourSelectFields
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 69090def1bba2f64ed21cca8b6d4629083aeb0c4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 50f899cd7f28a4b7fd23db5f049de02896e8d8e9
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8863588"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336121"
 ---
 # <a name="configure-detours-for-steps-in-mobile-device-menu-items"></a>Mobiilse seadme menüükäskude sammude ümbersuunamise konfigureerimine
 
@@ -34,22 +34,9 @@ See artikkel kirjeldab, kuidas konfigureerida menüükäske nii, et töötajad s
 Enne kui saate mobiilseadme menüü-üksustes sammude ümbersuunamisi konfigureerida, peate täitma järgmise protseduuri, et lubada vajalikud funktsioonid ja genereerida Warehouse Management mobiilirakenduses nõutavad väljanimed.
 
 1. Avage **Süsteemihaldus \> Tööruumid \> Funktsioonihaldus**.
-1. Tööruumis [**Funktsioonihaldus**](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) lubage järgmine loetletud funktsioon.
-
-    - **Moodul:** *laohaldus*
-    - **Funktsiooni nimi:** *laorakenduse etapiviisilised juhised*
-
-    Funktsiooni *Laorakenduse toimingujuhised* kohta lisateabe saamiseks vaadake jaotist [Warehouse Management mobiilirakenduse etappide pealkirjade ja juhiste kohandamine](mobile-app-titles-instructions.md). See funktsioon on *Warehouse management rakenduse ümbersuunamise* funktsiooni eeltingimus.
-
-1. Lubage loetletud funktsioon järgmisel viisil.
-
-    - **Moodul:** *laohaldus*
-    - **Funktsiooni nimi:** *Warehouse management rakenduse ümbersuunamised*
-
-    See funktsioon on funktsioon, mida kirjeldatakse selles artiklis.
-
-1. Värskendage Warehouse Management mobiilirakenduses väljade nimesid, avades **Laohaldus \> Seadistamine \> Mobiilseade \> Laorakenduse väljade nimed** ja valides **Loo vaikeseade**. Lisateavet vt [Mobiilirakenduse Warehouse Management väljade konfigureerimine](configure-app-field-names-priorities-warehouse.md).
-1. Korrake eelmist sammu iga juriidilise isiku (ettevõtte) puhul, kus kasutate Warehouse Management mobiilirakendust.
+1. Veenduge, et lao *rakenduse juhiste funktsioon* on teie süsteemi jaoks sisse lülitatud. Tarneahela halduse versiooni 10.0.29 puhul on see funktsioon vaikimisi sisse lülitatud. Funktsiooni *Laorakenduse toimingujuhised* kohta lisateabe saamiseks vaadake jaotist [Warehouse Management mobiilirakenduse etappide pealkirjade ja juhiste kohandamine](mobile-app-titles-instructions.md). See funktsioon on *Warehouse management rakenduse ümbersuunamise* funktsiooni eeltingimus.
+1. Lülitage laohalduse *rakenduse ümberpööramise funktsioon* sisse. See funktsioon on see, mida kirjeldatakse selles artiklis. Tarneahela halduse versiooni 10.0.29 puhul on see vaikimisi sisse lülitatud.
+1. Kui laohalduse *rakenduse de pööramise funktsioon ei olnud juba sisse lülitatud, värskendage laohalduse mobiilirakenduse väljanimesid,* **\>\> häälestage laohalduse häälestuse \> mobiilse seadme rakenduse väljanimed** ja valige käsk **Loo vaikehäälestus.** Korrake seda sammu iga juriidilise isiku (ettevõtte) puhul, kus te kasutate laohalduse mobiilirakendust. Lisateavet vt [Mobiilirakenduse Warehouse Management väljade konfigureerimine](configure-app-field-names-priorities-warehouse.md).
 
 ## <a name="configure-a-detour-from-a-menu-specific-override"></a>Konfigureerige menüüpõhisest ülekirjutamisest ümbersuunamine
 
@@ -65,7 +52,7 @@ See stsenaarium näitab, kuidas konfigureerida asukohapäring ümbersuunamisena 
 
 ### <a name="enable-sample-data"></a>Luba näidisandmed
 
-Määratud näidiskirjete ja -väärtuste kasutamiseks selle stsenaariumi läbimiseks peate kasutama süsteemi, kuhu on installitud standardsed demoandmed. Enne alustamist peate valima ka **USMF-i** juriidilise isiku.
+Määratud näidiskirjete ja väärtuste kasutamiseks selle stsenaariumi läbimiseks peate kasutama süsteemi, kuhu on installitud standardsed [demoandmed](../../fin-ops-core/fin-ops/get-started/demo-data.md). Enne alustamist peate valima ka **USMF-i** juriidilise isiku.
 
 ### <a name="create-a-menu-specific-override-and-configure-the-detour-for-scenario-1"></a>Looge menüüpõhine ülekirjutamine ja konfigureerige 1. stsenaariumi jaoks ümbersuunamine
 
@@ -118,7 +105,7 @@ Asukohapäringu saate vastavalt vajadusele asendada numbrimärgi päringuga või
 
 ### <a name="enable-sample-data"></a>Luba näidisandmed
 
-Määratud näidiskirjete ja -väärtuste kasutamiseks selle stsenaariumi läbimiseks peate kasutama süsteemi, kuhu on installitud standardsed demoandmed. Enne alustamist peate valima ka **USMF-i** juriidilise isiku.
+Määratud näidiskirjete ja väärtuste kasutamiseks selle stsenaariumi läbimiseks peate kasutama süsteemi, kuhu on installitud standardsed [demoandmed](../../fin-ops-core/fin-ops/get-started/demo-data.md). Enne alustamist peate valima ka **USMF-i** juriidilise isiku.
 
 ### <a name="create-a-menu-specific-override-and-configure-the-detour-for-scenario-2"></a>Looge menüüpõhine ülekirjutamine ja konfigureerige 2. stsenaariumi jaoks ümbersuunamine
 

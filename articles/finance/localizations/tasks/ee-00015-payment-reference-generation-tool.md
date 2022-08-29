@@ -1,24 +1,24 @@
 ---
 title: EE-00015 Makseviite loomise tööriist
 description: See protseduur juhatab teid läbi makseviidete koostamise protseduuri.
-author: v-oskinaolga
+author: AdamTrukawka
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
-ms.search.form: MainAccount, LedgerJournalTable, LedgerJournalTransDaily
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Estonia
-ms.author: v-oskinaolga
+ms.author: atrukawk
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 009f2c7860e5bc8106a633ca1cf5608567cd9985
-ms.sourcegitcommit: 3927a1268db840b4b3cc2b16eceea49cf084ad18
+ms.search.form: MainAccount, LedgerJournalTable, LedgerJournalTransDaily
+ms.openlocfilehash: 99382240e631bfa4307ceb6f2de4ca34610f5e8c
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/08/2022
-ms.locfileid: "8555446"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9282373"
 ---
 # <a name="ee-00015-payment-reference-generation-tool"></a>EE-00015 Makseviite loomise tööriist
 

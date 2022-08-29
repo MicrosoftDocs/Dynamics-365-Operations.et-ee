@@ -1,24 +1,24 @@
 ---
 title: Maksuarvutuse ülevaade
 description: See artikkel selgitab maksuarvutuse võimaluse üldist ulatust ja funktsioone.
-author: wangchen
+author: EricWangChen
 ms.date: 03/02/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
-ms.search.form: TaxIntegrationTaxServiceParameters
 audience: Application user
 ms.reviewer: kfend
 ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 817d7db5952f96fa741671166d88fffddaac84e9
-ms.sourcegitcommit: 5b34b41ae74269ba639e2876bc5862ef468da1cc
+ms.search.form: TaxIntegrationTaxServiceParameters
+ms.openlocfilehash: 2765b922bcc58837c32973b7ca96e0d63eb8b9d6
+ms.sourcegitcommit: 14a27b776befbc6793390f97e8fb0279c0ea18c1
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "9166835"
+ms.lasthandoff: 08/15/2022
+ms.locfileid: "9295987"
 ---
 # <a name="tax-calculation-overview"></a>Maksuarvutuse ülevaade
 
@@ -54,10 +54,15 @@ Maksuarvestus on juurutatud järgmistes Azure'i geograafilistes asukohtades. Vas
 
 - Aasia ja Vaikse ookeani regioon
 - Austraalia
+- Brasiilia
 - Kanada
 - Euroopa
+- Prantsusmaa
+- India
 - Jaapan
+- Lõuna-Aafrika Vabariik
 - Šveits
+- Araabia Ühendemiraadid
 - Ühendkuningriik
 - Ameerika Ühendriigid
 
@@ -80,6 +85,7 @@ Soovitame teil importida ja seadistada oma maksuarvestuse konfiguratsioon versio
 | 10.0.26         | Maksu arvutamise konfiguratsioon 40.54.234 |
 | 10.0.27         | Maksu arvutamise konfiguratsioon 40.54.234 |
 | 10.0.28         | Maksu arvutamise konfiguratsioon 40.54.234 |
+| 10.0.29         | Maksu arvutamise konfiguratsioon 40.55.236 |
 
 
 ## <a name="data-flow"></a>Andmevoog
@@ -149,11 +155,16 @@ Finantsversioonis 10.0.28 toetatakse järgmisi kandeid:
 - Hankija maksetööleht
 - Kliendimaksete tööleht
 
+Finantsversioonis 10.0.29 toetatakse järgmisi kandeid: 
+
+
+- Perioodilised töölehed
+
 ## <a name="supported-countriesregions"></a>Toetatud riigid/regioonid
 
-Maksude arvutamist saab lubada juriidiline isik. 
+Maksuarvutust saab käitada juriidilise isiku esmase aadressi järgmistes riikides/regioonides toetatud lokaliseerimisfunktsiooniga: 
 
-Versioonis 10.0.21 toetatakse järgmisi juriidilise isiku esmase aadressi riike/piirkondi:
+Versioonis 10.0.21 toetatud:
 
 - Austria
 - Belgia
@@ -174,9 +185,9 @@ Versioonis 10.0.21 toetatakse järgmisi juriidilise isiku esmase aadressi riike/
 - Rootsi
 - Šveits
 - Ühendkuningriik
-- USA
+- Ameerika Ühendriigid
 
-Versioonis 10.0.22 toetatakse järgmisi juriidilise isiku esmase aadressi riike/piirkondi:
+Versioonis 10.0.22 toetatud:
 
 - Austraalia
 - Bahrein
@@ -188,25 +199,27 @@ Versioonis 10.0.22 toetatakse järgmisi juriidilise isiku esmase aadressi riike/
 - Omaan
 - Katar
 - Saudi Araabia
-- Lõuna-Aafrika
+- Lõuna-Aafrika Vabariik
 - Araabia Ühendemiraadid
 
-Versioonis 10.0.23 toetatakse järgmisi juriidilise isiku esmase aadressi riike/piirkondi:
+Versioonis 10.0.23 toetatud:
 
 - Tai
 - Jaapan
 - Malaisia
 - Singapur
 
-Versioonis 10.0.24 toetatakse järgmisi juriidilise isiku esmase aadressi riike/piirkondi:
+Versioonis 10.0.24 toetatud:
 
 - Mehhiko
 
-Versioonis 10.0.26 toetatakse järgmisi juriidilise isiku esmase aadressi riike/piirkondi:
+Versioonis 10.0.26 toetatud:
 
 - Hiina
 - Tšehhi Vabariik
 - Hispaania
+
+Mis tahes Riigi/regiooni puhul, mida Microsoft ei lokaliseeri, saab maksuarvutust lubada ja käitada teiste globaalsete funktsioonidega.
 
 ## <a name="related-resources"></a>Seotud ressursid
 

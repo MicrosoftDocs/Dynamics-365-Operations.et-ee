@@ -6,22 +6,22 @@ ms.date: 03/10/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application user
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: global
-ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b4ac8d1b930c89bf330a2332c0b510dadb92e51f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.industry: ''
+ms.search.form: ''
+ms.openlocfilehash: ea9afd89ce9ff79edbe5bff609b9843026005493
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8855765"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9270233"
 ---
 # <a name="create-an-e-commerce-site"></a>E-kaubanduse saidi loomine
 
@@ -33,14 +33,14 @@ Kui litsentsite Dynamics 365 Commerce'i võimalusi, valmistatakse saidiehitaja e
 
 ## <a name="site-creation-prerequisites"></a>Saidi loomise eeltingimused
 
-Saidikonstruktori kasutajal peab olema Microsofti Azure Active Directory (Azure AD) Azure AD kasutajakonto, mis kuulub e-commerce'i süsteemi administraatoritele turvagruppi. Lisateavet vt teemast Uue e-äri [rentniku juurutamine](deploy-ecommerce-site.md).
+Saidikonstruktori kasutajal peab olema Microsofti Azure Active Directory (Azure AD) Azure AD kasutajakonto, mis kuulub e-commerce’i süsteemi administraatoritele turvagruppi. Lisateavet vt teemast Uue e-äri [rentniku juurutamine](deploy-ecommerce-site.md).
 
 > [!NOTE]
 > Azure AD Külaliskasutajatel võivad olla teie rentnikus erinevad juurdepääsuõigused Azure AD. Isegi kui see Azure AD on kaasatud e-äri süsteemi administraatoritele määratud turvagruppi, Azure AD **võib** külaliskasutaja äris e-äri saidi loomiseks vajada väliste kasutajate õiguste sätete korrigeerimist. 
 
 Väliste Azure AD **kasutajate sätete korrigeerimiseks** järgige neid samme.
 
-1. Azure'i portaalis navigeerige oma rentnikuni Azure AD.
+1. Azure’i portaalis navigeerige oma rentnikuni Azure AD.
 1. Minge kasutajasätete **\> väliste kasutajate ja** valige link **Välise koostöö sätete** haldamine. See avab välise **koostöö sätete lehe**, kus saab seada külaliskasutaja juurdepääsu, külalise kutse sätteid ja koostööpiiranguid. 
 1. Korrigeerige välis koostöösätteid vastavalt teie ettevõtte turvapoliitikale. 
 

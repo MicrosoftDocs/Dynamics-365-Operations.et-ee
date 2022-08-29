@@ -2,7 +2,7 @@
 title: Varude blokeerimine
 description: Selles artiklis antakse ülevaade varude blokeerimisest, mis kuulub Supply Chain Managementi kvaliteedikontrolli protsessi hulka. Varude blokeerimist saab kasutada kaupade töötlemise või tarbimise vältimiseks.
 author: yufeihuang
-ms.date: 03/02/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f7a16c41b56b30098945a6fbdb02577624b6e173
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 83b5417dc24af85f09e6713f2b12fdc358f61d54
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857804"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334681"
 ---
 # <a name="inventory-blocking"></a>Varude blokeerimine
 
@@ -96,11 +96,11 @@ Kui **Reserveeri tellitud kaubad** on keelatud, ei saa eeldatavaid laekumisi res
 
 Pange tähele kahe juhtumi vahelist erinevust kande olekus ja dimensioonides. Seetõttu soovitame lubada suvandi **Reserveeri tellitud kaubad**.
 
-### <a name="disable-expected-receipts-from-quality-orders-that-sample-blocked-inventory-feature"></a>Keela eeldatud sissetulekud kvaliteettellimustest, mis on blokeeritud varude näidisfunktsiooniga
+## <a name="disable-expected-receipts-from-quality-orders-that-sample-blocked-inventory"></a>Keelake oodatud kviitungid kvaliteettellimustest, mille valim on blokeeritud varudes
 
 Varude kannete lihtsustamiseks kvaliteettellimuste korral, mille varude oleku tagajärjeks on blokeeritud varud, annab süsteem funktsiooni, mis keelab sellistelt kvaliteettellimustelt oodatavad sissetulekud. Kuna varude oleku blokeerimine blokeerib eeldatava sissetuleku kohe, siis selle muudatuse tõttu vaba kaubavaru ei vähendata.
 
-Vaikimisi on see funktsioon välja lülitatud. Administraatorid saavad selle sisse või välja lülitada, *otsides* keelake eeldatud sissetulekud kvaliteettellimustest, mis sisaldavad blokeeritud lao näidisfunktsiooni funktsiooni [Funktsioonihalduse tööruumis](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Selle funktsiooni kasutamiseks peab see olema teie süsteemi jaoks sisse lülitatud. Tarneahela halduse versiooni 10.0.29 puhul lülitatakse funktsioon vaikimisi sisse. Administraatorid saavad selle funktsiooni sisse või välja lülitada, *otsides* keelake eeldatud sissetulekud kvaliteettellimustest, mis blokeerisid lao näidised funktsioonihalduse [tööruumis](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="additional-resources"></a>Lisaressursid
 

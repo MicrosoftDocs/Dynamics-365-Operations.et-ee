@@ -2,7 +2,7 @@
 title: Töökaardi seadmes lõpetamisest teatamine
 description: See artikkel kirjeldab süsteemi konfigureerimisjärjestust, nii et töökaardiseadme kasutajad saavad tootmistellimuse lõpetatud toodetest teatada.
 author: johanhoffmann
-ms.date: 07/31/2020
+ms.date: 08/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 38372f08db0258de8b5e653b4757c9fda96c8d70
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 56d19a966d93202668c34ffaaef561d72b7669ff
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9070465"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334621"
 ---
 # <a name="report-as-finished-from-the-job-card-device"></a>Töökaardi seadmes lõpetamisest teatamine
 
@@ -56,13 +56,12 @@ Töökaardi seade toetab partiikaupade aruandluse osas kolme stsenaariumit. Need
 - **Eelmääratletud partiinumbrid** — töötajad valivad partiinumbri partiinumbrite loetelust, mille süsteem on enne tootmistellimuse töökaardi seadmele väljastamist automaatselt loonud.
 - **Kindlaks määratud partiinumbrid** — töötajad ei sisesta ega vali partiinumbrit. Selle asemel määrab süsteem tootmistellimusele enne väljastamist automaatselt partiinumbri.
 
-
 ### <a name="enable-the-feature-on-your-system"></a>Funktsiooni lubamine teie süsteemis
 
-Selleks, et lubada töökaardi seadmel aktsepteerida lõpetatuna kinnitamise ajal partiinumbrit, peate kasutama [funktsioonihaldust](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), et lülitada sisse järgmised funktsioonid (samas järjekorras).
+Et lubada töökaardi seadmetel aktsepteerida pakktöötluse numbrit lõpetatuna esitamise ajal, [peate](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) funktsioonihalduse abil lülitama sisse järgmised funktsioonid:
 
-1. Töökaardi vahendi aruande edenemise dialoogi täiustatud kasutuskogemus
-1. Võimaldab sisestada partii- ja seerianumbreid, kui need märgitakse töökaardi vahendil lõpetatuks
+- *Töökaardi vahendi aruande edenemise dialoogi täiustatud kasutuskogemus*
+- *Võimaldab sisestada partii- ja seerianumbreid, kui need märgitakse töökaardi vahendil lõpetatuks*<br>(Tarneahela halduse versiooni 10.0.29 kohaselt on see funktsioon vaikimisi sisse lülitatud.)
 
 ### <a name="configure-products-that-require-batch-number-reporting"></a>Partiinumbri kinnitamist nõudvate toodete konfigureerimine
 
@@ -137,10 +136,10 @@ Töökaardi seade toetab seeria kaudu juhitud kaupade aruandluse osas kolme stse
 
 ### <a name="enable-the-feature-on-your-system"></a>Funktsiooni lubamine teie süsteemis
 
-Selleks, et lubada töökaardi seadmel aktsepteerida lõpetatuna kinnitamise ajal seerianumbrit, peate kasutama [funktsioonihaldust](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), et lülitada sisse järgmised funktsioonid (samas järjekorras).
+Et lubada töökaardi seadmetel aktsepteerida seerianumbrit lõpetatuna esitamise ajal, [peate](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) funktsioonihalduse abil lülitama sisse järgmised funktsioonid:
 
-1. Töökaardi vahendi aruande edenemise dialoogi täiustatud kasutuskogemus
-1. Võimaldab sisestada partii- ja seerianumbreid, kui need märgitakse töökaardi vahendil lõpetatuks
+- *Töökaardi vahendi aruande edenemise dialoogi täiustatud kasutuskogemus*
+- *Võimaldab sisestada partii- ja seerianumbreid, kui need märgitakse töökaardi vahendil lõpetatuks*<br>(Tarneahela halduse versiooni 10.0.29 kohaselt on see funktsioon vaikimisi sisse lülitatud.)
 
 ### <a name="configure-products-that-require-serial-number-reporting"></a>Seerianumbri kinnitamist nõudvate toodete konfigureerimine
 

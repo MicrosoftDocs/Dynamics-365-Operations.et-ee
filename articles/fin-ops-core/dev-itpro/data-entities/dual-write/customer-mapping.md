@@ -5,16 +5,16 @@ author: RamaKrishnamoorthy
 ms.date: 07/15/2019
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: sericks
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 1b16eab5c107a3176f0890372d397947698e71de
-ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
+ms.openlocfilehash: ea142aff7c8f4b442d7224325e44359129efe8a8
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/02/2022
-ms.locfileid: "9111720"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9289676"
 ---
 # <a name="integrated-customer-master"></a>Integreeritud kliendi koondandmed
 
@@ -22,7 +22,7 @@ ms.locfileid: "9111720"
 
 
 
-Kliendiandmeid saab luua rohkem kui ühes Dynamics 365 rakenduses. Näiteks kliendirida võib pärineda Dynamics 365 Salesi müügitegevusest (kliendikaasamise rakendus) või Dynamics 365 Commerce'i jaemüügi tegevusest (finants- ja tegevusrakendus). Olenemata sellest, kust kliendiandmed pärinevad, on see integreeritud kulisside taga. Integreeritud kliendi koondandmed annavad teile paindlikkuse luua kliendiandmeid kõigis Dynamics 365 rakendustes ja põhjaliku ülevaate kliendi kohta Dynamics 365 rakenduse komplektis.
+Kliendiandmeid saab luua rohkem kui ühes Dynamics 365 rakenduses. Näiteks kliendirida võib pärineda Dynamics 365 Salesi müügitegevusest (kliendikaasamise rakendus) või Dynamics 365 Commerce'i jaemüügi tegevusest (finants- ja tegevusrakendus). Pole oluline, kust kliendi andmed pärinevad, on see lülituse taga integreeritud. Integreeritud kliendi koondandmed annavad teile paindlikkuse luua kliendiandmeid kõigis Dynamics 365 rakendustes ja põhjaliku ülevaate kliendi kohta Dynamics 365 rakenduse komplektis.
 
 ## <a name="customer-data-flow"></a>Kliendiandmete voog
 

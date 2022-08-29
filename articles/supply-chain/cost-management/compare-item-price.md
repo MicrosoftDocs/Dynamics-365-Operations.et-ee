@@ -2,7 +2,7 @@
 title: Kaubahindade võrdluse talletuse aruanne
 description: Saage teada, kuidas luua kaubahindade võrdluse talletuse aruannet ja seejärel tulemusi sirvida ja/või eksportida.
 author: JennySong-SH
-ms.date: 01/30/2020
+ms.date: 08/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: yanansong
 ms.search.validFrom: 2020-03-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: c9e2ccbe613a4aab40a4f519bbb82a9175d46e72
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: c6373679299b68413d75236ca8cc18ceba03e091
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8846209"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334981"
 ---
 # <a name="compare-item-prices-storage-report"></a>Kaubahindade võrdluse talletuse aruanne
 
@@ -35,12 +35,9 @@ Aruande tulemused talletatakse andmeüksuses **Kaubahindade võrdlus**, mis või
 
 Aruanne **Kaubahindade võrdluse talletus** on kasulik juhtudel, kui väljund sisaldab palju ridu. Näiteks sisaldab väljund palju ridu, kui teil on enam kui 40 000 üksusel kuluversioonis ootel kauba hind.
 
-## <a name="enable-compare-item-prices-storage"></a>Kaubahindade võrdluse talletuse lubamine
+## <a name="turn-the-compare-item-prices-storage-feature-on-or-off"></a>Kaupade hindade salvestamise funktsiooni sisse- või väljalülitamine
 
-Enne selle funktsiooni kasutamist peate selle oma süsteemis lubama. Administraatorid saavad kasutada [funktsioonide halduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sätteid, et kontrollida funktsiooni olekut ja vajaduse korral see lubada. Siin on funktsioon loetletud järgmiselt.
-
-- **Moodul** – kuluhaldus
-- **Funktsiooni nimi** – kaubahinna võrdluse talletus
+Selle funktsiooni kasutamiseks peab see olema teie süsteemi jaoks sisse lülitatud. Tarneahela halduse versiooni 10.0.29 puhul on see funktsioon kohustuslik ja seda ei saa välja lülitada. Kui käitate versiooni, mis *on*[vanem kui 10.0.29, saavad administraatorid selle funktsiooni sisse või välja lülitada, otsides funktsioonihalduse tööruumis valikut Võrdle kauba hinna talletusfunktsiooni.](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
 
 ## <a name="generate-a-compare-item-prices-storage-report"></a>Kaubahindade võrdluse talletuse aruande loomine
 

@@ -6,20 +6,20 @@ ms.date: 04/19/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: v-chgri
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 4a3d1c7bf7e7ea545590315d9e185fa525b5d5e3
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.industry: retail
+ms.search.form: ''
+ms.openlocfilehash: a59220c16e195ff36980517baec6fb8246a18115
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8860291"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9281168"
 ---
 # <a name="manage-business-partner-users-on-b2b-e-commerce-websites"></a>Äripartnerist kasutajate haldamine B2B e-kaubanduse veebisaitidel
 
@@ -48,7 +48,7 @@ Potentsiaalsed äripartnerid saavad käivitada sisseseadmisprotsessi B2B e-äri 
 1. Märkige vahekaardil **Üldine** ruut Teisenda **kinnitamine \> /Tagasilükkamine**, et kinnitada sisseostmistaotlus. Kui kuvatakse kinnitusteade, kinnitage, et soovite protsessiga jätkata, ja seejärel kinnitage taotlus. Kinnitamine muudab potentsiaalse **kliendi** kirje olekuvälja väärtusele **Kinnitatud**. Seejärel saadetakse taotleja meiliaadressile meil kinnitamaks, et tema organisatsioon on äripartnerina kinnitatud. Luuakse ka kliendihierarhia, kus nõudeja lisatakse äripartneri administraatorina.
 
     > [!NOTE]
-    > Praegu saadetakse kinnituse meil kinnitamisel kohe. Kuid tulevane Commerce'i funktsioon võimaldab administraatoril e-kirjad käsitsi käivitada.
+    > Praegu saadetakse kinnituse meil kinnitamisel kohe. Kuid tulevane Commerce’i funktsioon võimaldab administraatoril e-kirjad käsitsi käivitada.
 
 1. Minge jaemüügi **ja äri it-jaotuse \>** **graafikusse ja käivitage 1010 (kliendid)** töö, et suunata uued kliendi ja kliendi hierarhia kirjed kanali andmebaasi.
 
@@ -80,7 +80,7 @@ Kui P-0001 **·** **ja** Sünkrooni kliendid ja kanali taotlused on käitatud, *
 
 Järgmisena käivitage **1010 -töö (Kliendid),** et sünkroonida uus äripartneri kasutaja kanali andmebaasiga.
 
-Kui kliendikirje on sünkroonitud, on B2B e-äri **veebisaidi kasutaja olekuks seadistatud Aktiivne** ja uus kasutaja saab oma meiliaadressi kasutades B2B e-commerce'i veebisaidile sisse logida. Kasutajad saavad kasutada registreerumisvoogu oma kontole parooli määratlemiseks. Lisateavet, kuidas Azure AD lubada B2C-identiteedi pakkuja kirje linkimine Commerce Headquartersis loodud B2B kliendikirjega, vt Luba [automaatne linkimine](/dynamics365/commerce/identity-record-linking.md).
+Kui kliendikirje on sünkroonitud, on B2B e-äri **veebisaidi kasutaja olekuks seadistatud Aktiivne** ja uus kasutaja saab oma meiliaadressi kasutades B2B e-commerce’i veebisaidile sisse logida. Kasutajad saavad kasutada registreerumisvoogu oma kontole parooli määratlemiseks. Lisateavet, kuidas Azure AD lubada B2C-identiteedi pakkuja kirje linkimine Commerce Headquartersis loodud B2B kliendikirjega, vt Luba [automaatne linkimine](/dynamics365/commerce/identity-record-linking.md).
 
 ## <a name="edit-business-partner-user-details"></a>Äripartneri kasutaja üksikasjade redigeerimine
 

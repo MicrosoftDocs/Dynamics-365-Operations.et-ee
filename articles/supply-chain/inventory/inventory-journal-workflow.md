@@ -2,7 +2,7 @@
 title: Varude töölehe kinnitamise töövood
 description: See artikkel kirjeldab, kuidas seadistada ja kasutada laotöölehe kinnitustöövooge erinevat tüüpi füüsiliste laokannete puhul. Varude töölehe töövood aitavad tagada, et kannetesse saab sisestada ainult kinnitatud varude töölehti.
 author: yufeihuang
-ms.date: 07/21/2020
+ms.date: 08/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-07-21
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: ebb12562a9f06f2efc3b5a373d7ad0f98bc3505e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 3a97eaeae24850282c39196a61e3baa29307aa93
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873981"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334651"
 ---
 # <a name="inventory-journal-approval-workflows"></a>Varude töölehe kinnitamise töövood
 
@@ -29,12 +29,9 @@ See artikkel kirjeldab, kuidas seadistada ja kasutada laotöölehe kinnitustöö
 > [!NOTE]
 > Varude töölehe kinnitamise töövood rakenduvad ainult kannete puhul, mis on salvestatud varude halduse mooduli abil. Need ei tööta laohalduse moodulist käivitatud varude töölehtedega.
 
-## <a name="turn-on-the-inventory-journal-approval-workflows-feature"></a>Varude töölehe kinnitustöövoogude funktsiooni sisselülitamine
+## <a name="turn-the-inventory-journal-approval-workflows-feature-on-or-off"></a>Laotöölehe kinnitustöövoogude funktsiooni sisse- või väljalülitamine
 
-Tarneahela halduse versiooni 10.0.21 puhul on see funktsioon vaikimisi sisse lülitatud. Administraatorid saavad funktsioonihalduse [lehte kasutada](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), et kontrollida funktsiooni olekut ja lubada või keelata see, kui vaja. Siin on funktsioon loetletud järgmiselt.
-
-- **Moodul:** *varude ja laohaldus*
-- **Funktsiooni nimi**: *Varude töölehe kinnitamise töövoog*
+Selle funktsiooni kasutamiseks peab see olema teie süsteemi jaoks sisse lülitatud. Tarneahela halduse versiooni 10.0.21 puhul lülitatakse funktsioon vaikimisi sisse. Tarneahela halduse versiooni 10.0.29 puhul on see funktsioon kohustuslik ja seda ei saa välja lülitada. Kui käitate versiooni, mis *on*[vanem kui 10.0.29, saavad administraatorid selle funktsiooni sisse või välja lülitada, otsides Varude töölehe kinnitamise töövoo funktsiooni Funktsioonihalduse tööruumis.](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
 
 ## <a name="create-your-inventory-journal-approval-workflows"></a>Varude töölehe kinnitamise töövoogude loomine
 

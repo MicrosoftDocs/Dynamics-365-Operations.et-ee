@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: ded645ebaea1230b68525c247ee91e3893211774
-ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
-ms.translationtype: HT
+ms.openlocfilehash: 1b45cc2ba26f60ab444edca6c513c581e8332a2a
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "9124524"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219120"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10023-january-2022"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 Supply Chain Management 10.0.23. (jaanuar 2022)
 
@@ -53,9 +53,9 @@ Kui soovite mõnda neist funktsioonidest sisse või välja lülitada, peate seda
 | Varude ja laohaldus | \[Venemaa\] Postitage storno finantsinventari tehingud müügitellimuste finantsvautšeril oleva paranduslipu järgi | See funktsioon mõjutab Venemaa kreeditarvete korrigeerimise funktsioone. See võimaldab müügiarvete laotehingud konteerida vastavalt pearaamatu parandusvõimalusele. Kui see funktsioon on lubatud, ei esine enam lahknevusi laotehingu finantskviitungil oleva lipu **Parandus** ja laotehingutel oleva lipu **Storno** vahel. |
 | Varude ja laohaldus | (Venemaa) Varde saldo käibearuande arvutamise käitamine partiidena | Supply Chain Management haldamise venekeelsete tõlgete puhul annab see funktsioon võimaluse käitada *Varude saldo käibe* aruannet partiidena, seda salvestada ja vaadata varem koostatud aruandeid. |
 | Varude ja laohaldus | (Venemaa) Laohalduses riigile või regioonile omastes peamistes vormides kohaliku keele tõlke kasutamine | Supply Chaing Managementi venekeelsete tõlgete puhul võimaldab see funktsioon kasutada toodete/kaubanimede ja mõõtühikute venekeelseid tõlkeid järgmistel venekeelsetel varude väljatrükkidel: loendusloend (INV-3), loendusloend (INV-5), ja loendusloend (INV-6). |
-| Koondplaneerimine | Teenus Azure Machine Learning nõudluse prognoosi jaoks | See funktsioon võimaldab Azure'i masinaõppimisteenusel luua ajaloolistel andmetel põhinevaid nõudluse prognoose. Lisateavet vt nõudluse prognoosimise [häälestusest](../master-planning/demand-forecasting-setup.md). |
+| Koondplaneerimine | Teenus Azure Machine Learning nõudluse prognoosi jaoks | See funktsioon võimaldab Azure’i masinaõppimisteenusel luua ajaloolistel andmetel põhinevaid nõudluse prognoose. Lisateavet vt nõudluse prognoosimise [häälestusest](../master-planning/demand-forecasting-setup.md). |
 | Hanked | Ostutellimuse värskendamise ajaloo puhastamine | See funktsioon võimaldab teil puhastada ostutellimuse värskendustega seotud ajutisi ajaloolisi kirjeid. See lisab lehel **Kõik ostutellimused** toimingupaanile uue nupu nimega **Ostuvärskenduste ajaloo puhastamine**. Funktsioon on vaikimisi lubatud. |
-| Tootmise juhtimine | (Eelversioon) Laos lubatud materjalide automaatne valimine automaatselt sisestatud komplekteerimislehtede jaoks | See funktsioon võimaldab teil automaatselt valida ja lahendada varude dimensioone automaatselt postitatud, tuletatud ja tagasilõigatud komplekteerimisloendi töölehtede jaoks. |
+| Tootmise juhtimine | Laos lubatud materjalide automaatne valimine automaatselt sisestatud komplekteerimislehtede jaoks | See funktsioon võimaldab teil automaatselt valida ja lahendada varude dimensioone automaatselt postitatud, tuletatud ja tagasilõigatud komplekteerimisloendi töölehtede jaoks. |
 | Tootmise juhtimine | Kinnitage tooraine aegumiskuupäev kavandatud tarbimiskuupäeva suhtes | See funktsioon muudab partii aegumiskuupäevade valideerimist, kui reserveeritakse toormaterjali partii tootmiseks kasutamiseks. Kui see funktsioon on lubatud, kontrollitakse partii aegumiskuupäeva kavandatud tarbimiskuupäeva (tooraine kuupäeva) suhtes, mis on kehtestatud tootmismaterjalide rea või partiitellimuse valemi real. Kui see funktsioon on keelatud, kontrollitakse partii aegumiskuupäeva tootmis- või partiitellimuse kavandatud tarnekuupäeva suhtes (nagu varem). |
 | Müük ja turundus | Müügi värskendamise ajaloo puhastamine vanuse põhjal | See funktsioon võimaldab teil seada kirjete maksimaalse vanuse, kui käitatakse müügi uuendamisajaloo **perioodilist puhastusülesannet**. Vanemad kirjed kustutatakse. See on kasulik, kui seadistate ülesande perioodiliseks käivitumiseks, kuna iga arvutatakse alati vastavalt ülesande käituskuupäevale. Ilma selle funktsioonita saate määrata ainult konkreetse kuupäeva vanimatele säilitamiskirjetele. Lisateavet vt müügiajaloo [andmete puhastamise plaanimine](../sales-marketing/sales-update-history-cleanup-performance-improvements.md). |
 | Müük ja turundus | Parandage klientide aruande „100 esimest” jõudlust | See funktsioon parandab **Top 100** klientide aruande toimivust, käitades aruannet alati kõigi klientide kohta (see on selle kavandatud kasutus), mitte lubades kohandatud päringuid. Kui see funktsioon on lubatud, on kõik **Kaasatavad kirjed** sätted **Top 100** aruandedialoogis keelatud. |

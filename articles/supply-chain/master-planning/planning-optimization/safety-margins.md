@@ -2,7 +2,7 @@
 title: Ohutuspiirid
 description: See artikkel kirjeldab, kuidas ohutusvarusid saab Microsofti jaoks optimeerimise lisandmooduliga kasutada Dynamics 365 Supply Chain Management.
 author: t-benebo
-ms.date: 09/14/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-9-14
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: c792c33edea9a7f4e2973383b1fcce5b4e8ec998
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 247b48afab68651cff0ce84c8268a1df35a15c02
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854235"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335191"
 ---
 # <a name="safety-margins"></a>Ohutuspiirid
 
@@ -79,12 +79,9 @@ Pange tähele, et väljamineku ohutusvaru rakendamisel ei ühti seotud nõudluse
 
 ## <a name="set-up-safety-margins"></a>Ohutuspiiride seadistamine
 
-### <a name="turn-on-safety-margins-in-feature-management"></a>Ohutuspiiride sisselülitamine funktsioonihalduses
+### <a name="turn-safety-margins-on-or-off"></a>Lülita ohutusveerised sisse või välja
 
-Enne selle funktsiooni kasutamist koos planeerimise optimeerimisega peate selle oma süsteemis sisse lülitama. Administraatorid saavad kasutada [funktsioonihalduse](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) tööruumi, et kontrollida funktsiooni olekut ja vajadusel selle sisse lülitada. Seega on funktsioon loetletud järgmisel viisil.
-
-- **Moodul:** _Koondplaneerimine_
-- **Funktsiooni nimi:** _planeerimise optimeerimise ohutuspiirid_
+Selle funktsiooni kasutamiseks peab see olema teie süsteemi jaoks sisse lülitatud. Tarneahela halduse versiooni 10.0.29 puhul on see funktsioon kohustuslik ja seda ei saa välja lülitada. Kui käitate versiooni, mis *on*[vanem kui 10.0.29, saavad administraatorid selle funktsiooni sisse või välja lülitada, otsides funktsioonihalduse tööruumis funktsiooni optimeerimise veerised.](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
 
 ### <a name="define-safety-margins"></a>Ohutuspiiride määratlemine
 

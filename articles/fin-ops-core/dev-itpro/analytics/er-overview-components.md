@@ -1,26 +1,26 @@
 ---
 title: Elektroonilise aruandluse komponendid
 description: See artikkel kirjeldab elektroonilise aruandluse (ER) komponente.
-author: nselin
+author: kfend
 ms.date: 09/28/2021
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERWorkspace
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 58941
-ms.assetid: 5d51b6a6-ad12-4af9-a66d-a1eb820ae57f
 ms.search.region: global
-ms.topic: overview
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c2b8b197fdea0cd49fc5161a12b8f547cc1a27bf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 58941
+ms.assetid: 5d51b6a6-ad12-4af9-a66d-a1eb820ae57f
+ms.search.form: ERWorkspace
+ms.openlocfilehash: 4851374ca4943a84d35f063e0ee65b537ec3b6cd
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8892446"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9285027"
 ---
 # <a name="electronic-reporting-components"></a>Elektroonilise aruandluse komponendid
 
@@ -113,7 +113,7 @@ Järgmine illustratsioon näitab, kuidas andmed nende vormingute puhul liiguvad.
 
 ER-komponentide puhul toetatakse versioonimist. Järgmist töövoogu pakutakse ER-i komponentides muudatuste haldamiseks.
 
-1. Algselt loodud versioon on märgitud versioonina **Mustand**. Seda versiooni saab redigeerida ja see on proovimiseks saadaval.
+1. Algselt loodud versioon on märgitud **mustandversioonina**. Seda versiooni saab redigeerida ja see on proovimiseks saadaval.
 2. Versiooni **Mustand** saab teisendada versiooniks **Lõpule viidud**. Seda versiooni saab kasutada kohalikes aruandlusprotsessides.
 3. Versiooni **Lõpule viidud** saab teisendada versiooniks **Jagatud**. See versioon avaldatakse Microsoft Dynamics Lifecycle Services (LCS) platformil ja seda saab kasutada üldistes aruandlusprotsessides.
 4. Versiooni **Jagatud** saab teisendada versiooniks **Katkestatud**. Selle versiooni saab kustutada.
@@ -123,15 +123,37 @@ Versioonid olekus **Lõpule viidud** või **Jagatud** on saadaval muuks andmevah
 - Komponenti saab XML-vormingus järjestada ja eksportida XML-vormingus failina.
 - Komponenti saab ümber järjestada ja importida rakenduse ER-komponendi uue versioonina.
 
+Lisateavet vt Jaotisest Uue [andmemudeli konfiguratsiooni importimine](er-quick-start1-new-solution.md#ImportDataModel) ja [tuletatud vormingu ekspordi lõpetatud versioon](er-calculated-field-type.md#export-completed-version-of-a-derived-format).
+
+### <a name="draft-versions-at-runtime"></a>Mustandi versioonid käitusajal
+
+Oma isiklike kasutaja parameetrites ER-raamistiku jaoks saate lubada suvandi, mis võimaldab teil määratleda, kas ER-i konfiguratsiooni mustandversiooni tuleb käitusajal kasutada. Lisateavet selle kohta, kuidas suvand **Käita** mustand teha ER-i konfiguratsioonide jaoks kättesaadavaks, vt [Märgi kohandatud vorming käivitatavaks](er-quick-start2-customize-report.md#MarkFormatRunnable).
+
+> [!NOTE]
+> ER-i kasutaja parameetrid on ettevõttepõhised ja kasutajapõhised.
+
+### <a name="draft-format-versions-at-runtime"></a>Mustandi vormingu versioonid käitusajal
+
+ER-lahenduse käivitamisel ignoreeritakse vaikimisi selle vormingukomponentide mustandversioone. Selle asemel kasutatakse ainult asjakohast versiooni, mille olek pole **Mustand**. Mõnikord võite soovida, et ER kasutaks käitusajal oma ER-vormingu konfiguratsiooni mustandversiooni. Näiteks pärast vajalike muudatuste tegemist mustandi versiooni saate kasutada seda mustandversiooni testi käivitamiseks. Sel viisil saate kinnitada oma muudatuste õigsust. Mustandvormingu versiooni kasutamise alustamiseks tuleb [vastava](er-quick-start2-customize-report.md#MarkFormatRunnable)**ER**-i konfiguratsiooni suvand Käita mustand seada väärtusele **Jah.**
+
+### <a name="draft-model-mapping-versions-at-runtime"></a>Mustandi mudeli vastendamise versioonid käitusajal
+
+ER-lahenduse käivitamisel kasutatakse vaikimisi alati selle mudeli vastendamise komponentide mustandversioone. Mõnikord võite soovida, et ER ignoreeriks käitusajal teie ER-mudeli vastendamise konfiguratsiooni mustandversiooni. Versioonis **10.0.29** **ja uuemates versioonides saate lubada suvandi Käivita mustand, et ER-mudeli vastenduste funktsioonil juhtida käitusajal** kasutatavat mudeli vastendamise versiooni. Kui see funktsioon on lubatud, ilmneb järgmine käitumine:
+
+- Kui suvand **Käita mustand** on mudeli **vastendamise** konfiguratsioonis seatud valikule Ei, kasutatakse käitusajal selle konfiguratsiooni kõrgeimat mitte-mustandversiooni. Kui konfiguratsioon ei ole praeguses finantseksemplaris saadaval, ilmneb erand.
+- Kui suvand **Käita mustand** on mudeli **vastendamise** konfiguratsioonis seatud väärtusele Jah, kasutatakse käitusajal selle konfiguratsiooni mustandversiooni.
+
 ## <a name="component-date-effectivity"></a>Komponendi kehtivuskuupäev
 
-ER-i komponendi versioonid on kehtivuskuupäevaga. ER-i komponendile saab määratleda kuupäeva „Kehtiv alates”, et määrata kuupäev, millal see komponent aruandlusprotsessides jõustub. Rakenduse seansi kuupäeva kasutatakse selleks, et määratleda, kas komponent kehtib käivitamiseks. Kui kindlal kuupäeval kehtib mitu versiooni, kasutatakse aruandlusprotsessides uusimat versiooni.
+ER-vormingu komponendiversioonid on kehtivusega. ER-vormingu komponendile saate seada "kehtib alates" kuupäeva, et määrata kuupäev, mil komponent aruandlusprotsessides jõustub. Rakenduse seansi kuupäeva kasutatakse selleks, et määratleda, kas komponent kehtib käivitamiseks. Kui kindlal kuupäeval kehtib mitu versiooni, kasutatakse aruandlusprotsessides uusimat versiooni.
 
 ## <a name="component-access"></a>Komponendi juurdepääs
 
-Juurdepääs ER-vormingu komponentidele sõltub Rahvusvahelise Standardiorganisatsiooni (ISO) riigi/regiooni koodi sättest. Kui see seadistus on vormingu konfiguratsiooni valitud versiooni puhul tühi, on võimalik käitusajal igast ettevõttest vormingukomponendile juurde pääseda. kui see seadistus sisaldab ISO riigi/regiooni koode, siis on vormingukomponent saadaval ainult nendest ettevõtetest, millel on esmane aadress, mis on määratletud ühele vormingukomponendi ISO riigi/regiooni koodile.
+Juurdepääs ER-vormingule ja mudeli vastendamise komponentidele käitusajal sõltub Rahvusvahelise Standardiorganisatsiooni (ISO) riigi-/regioonikoodi sättest. Kui see säte on tühi vormingu või mudeli vastendamise konfiguratsiooni valitud versiooni puhul, pääseb vormingu või mudeli vastendamise komponendi juurde mis tahes ettevõttelt käitusajal. Kui säte sisaldab ISO riigi-/regioonikoode, on vormingu või mudeli vastendamise komponent saadaval ainult ettevõtetelt, mille peamine aadress on määratletud ühe vormingukomponendi ISO riigi-/regioonikoodi jaoks.
 
-Andmevormingu komponendi erinevatel versioonidel võivad olla erinevad ISO riigi/regiooni koodide sätted.
+Vormingu või mudeli vastendamise komponendi erinevatel versioonidel võivad ISO riigi-/regioonikoodide jaoks olla erinevad sätted.
+
+Lisateavet vt riigi kontekstist sõltuvate [ER-mudeli vastendamiste konfigureerimine](er-country-dependent-model-mapping.md).
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
 

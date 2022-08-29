@@ -2,27 +2,31 @@
 title: Fiskaalregistreerimisteenuse integreerimise näidisjuhised Tšehhi Vabariigi jaoks (pärand)
 description: See artikkel annab juhised Tšehhi Vabariigi jaoks fiskaalintegratsiooni näidiste juurutamiseks jaemüügi Microsoft Dynamics 365 Commerce tarkvara arenduskomplektist (SDK).
 author: EvgenyPopovMBS
-ms.date: 03/04/2022
+ms.date: 08/17/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.author: epopov
-ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: 35584493cd2a4fecd5fc86d529ec43bb4ef97671
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.author: josaw
+ms.search.validFrom: 2019-03-01
+ms.openlocfilehash: 8338b1e11e1bd4fe7482b914ac6bf5f60ebc2e36
+ms.sourcegitcommit: 0feb5d0b06e04f99903069ff2801577be86b8555
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8881760"
+ms.lasthandoff: 08/18/2022
+ms.locfileid: "9313825"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-registration-service-integration-sample-for-the-czech-republic-legacy"></a>Fiskaalregistreerimisteenuse integreerimise näidisjuhised Tšehhi Vabariigi jaoks (pärand)
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
-See artikkel annab juhised Microsoft Dynamics 365 Commerce fiskaalregistreerimise teenuse integreerimise näidiste juurutamiseks Tšehhi Vabariigi jaoks jaemüügi tarkvara arenduskomplektist (SDK) arendaja virtuaalmasinas (VM) Microsoft Dynamics elutsükli teenustes (LCS). Lisateavet selle fiskaalintegratsiooni näidiste kohta vt Tšehhi [Vabariigi fiskaalregistreerimisteenuse integreerimise näidist](emea-cze-fi-sample.md). 
+> [!IMPORTANT]
+> Järgige selle artikli juhiseid ainult juhul, kui kasutate versiooni Microsoft Dynamics 365 Commerce 10.0.28 või varasemat versiooni. Vastavalt Versioonile Commerce 10.0.29 on Tšehhi Vabariigi fiskaalregistreerimisteenuse integratsiooni näidis saadaval Commerce software development kitis (SDK). Lisateavet vt kanali komponentide [konfigureerimine](./emea-cze-fi-sample.md#configure-channel-components).
 
-Tšehhi Vabariigi fiskaalintegratsiooni näidis on Retail SDK osa. Lisateavet selle kohta, kuidas installida ja kasutada SDK-d, vt jaemüügi [tarkvara arenduskomplekti (SDK) ülesehitust](../dev-itpro/retail-sdk/retail-sdk-overview.md). See näidis koosneb Commerce Runtime'i (CRT) ja riistvarajaama laiendustest. Selle näidisprojekti käivitamiseks peate muutma ja ehitama CRT riistvarajaama projekte. Soovitame kasutada jaemüügi SDK-d, et teha selles artiklis kirjeldatud muudatused. Soovitame kasutada ka allikakontrollisüsteemi, näiteks sellistena, Azure DevOps kus faile pole veel muudetud.
+See artikkel annab juhised Dynamics 365 Commerce fiskaalregistreerimise teenuse integreerimise näidiste juurutamiseks Tšehhi Vabariigi jaoks retail SDK-st arendaja virtuaalmasinas (VM) Microsoft Dynamics elutsükli teenustes (LCS). Lisateavet selle fiskaalintegratsiooni näidiste kohta vt Tšehhi [Vabariigi fiskaalregistreerimisteenuse integreerimise näidist](emea-cze-fi-sample.md). 
+
+Tšehhi Vabariigi fiskaalintegratsiooni näidis on Retail SDK osa. Lisateavet selle kohta, kuidas installida ja kasutada SDK-d, vt jaemüügi [tarkvara arenduskomplekti (SDK) ülesehitust](../dev-itpro/retail-sdk/retail-sdk-overview.md). See näidis koosneb Commerce Runtime’i (CRT) ja riistvarajaama laiendustest. Selle näidisprojekti käivitamiseks peate muutma ja ehitama CRT riistvarajaama projekte. Soovitame kasutada jaemüügi SDK-d, et teha selles artiklis kirjeldatud muudatused. Soovitame kasutada ka allikakontrollisüsteemi, näiteks sellistena, Azure DevOps kus faile pole veel muudetud.
 
 ## <a name="development-environment"></a>Arenduskeskkond
 
@@ -30,9 +34,9 @@ Järgige neid samme arenduskeskkonna häälestamiseks, et saate testida ja laien
 
 ### <a name="enable-commerce-runtime-extensions"></a>Luba Äri käitusaja laiendid
 
-Laienduskomponendid CRT kaasatakse näidiste CRT hulka. Järgmiste protseduuride sooritamiseks avage CommerceRuntimeSamples.sln **lahendus** retailSdk **SampleExtensions\\ CommerceRuntime'i all\\.**
+Laienduskomponendid CRT kaasatakse näidiste CRT hulka. Järgmiste protseduuride sooritamiseks avage CommerceRuntimeSamples.sln **lahendus** retailSdk **SampleExtensions\\ CommerceRuntime’i all\\.**
 
-#### <a name="documentproviderefrsample-component"></a>DocumentProvider.EFRSample'i komponent
+#### <a name="documentproviderefrsample-component"></a>DocumentProvider.EFRSample’i komponent
 
 1. Leidke projekt **Runtime.Extensions.DocumentProvider.EFRSample** ja koostage see.
 2. Leidke kaustast Runtime.Extensions.DocumentProvider.EFRSample **bin\\ Silumine\\** Contoso.Commerce.Runtime.DocumentProvider.EFRSample.dll **assemblerifail**.
@@ -91,9 +95,9 @@ Fiskaalühenduse laiendusi saate lubada riistvarajaamas [või](fiscal-integratio
 
 ### <a name="enable-hardware-station-extensions"></a>Riistvarajaama laienduste lubamine
 
-Riistvarajaama laienduse komponendid sisalduvad riistvarajaama näidises. Järgmiste protseduuride sooritamiseks avage **RetailSdk** SampleExtensions **HardwareStationis\\ konfiguratsioonilahendusHardwareStations.sln \\**.
+Riistvarajaama laienduse komponendid sisalduvad riistvarajaama näidises. Järgmiste protseduuride sooritamiseks avage **RetailSdk** SampleExtensions **HardwareStationis\\ konfiguratsioonilahendusHardwareStations.sln\\**.
 
-#### <a name="efrsample-component"></a>EFRSample'i komponent
+#### <a name="efrsample-component"></a>EFRSample’i komponent
 
 1. Otsige üles **projekt HardwareStation.Extension.EFRSample** ja koostage see.
 2. Leidke kaustast **Extension.EFRSample\\ bin\\ Silumine** järgmised assemblerifailid:
@@ -143,7 +147,7 @@ Pärand-SDK-s kassa laienduse näidiste kasutamiseks järgige neid samme.
 
 ### <a name="production-environment"></a>Tootmiskeskkond
 
-Eelmine protseduur võimaldab laiendusi, mis on fiskaalregistreerimise teenuse integratsiooni näidise komponendid. Lisaks peate järgima neid samme Commerce'i komponente sisaldavate juurutatavate pakendite loomiseks ja nende pakendite rakendamiseks tootmiskeskkonnas.
+Eelmine protseduur võimaldab laiendusi, mis on fiskaalregistreerimise teenuse integratsiooni näidise komponendid. Lisaks peate järgima neid samme Commerce’i komponente sisaldavate juurutatavate pakendite loomiseks ja nende pakendite rakendamiseks tootmiskeskkonnas.
 
 1. Tehke paketi konfiguratsioonifailides kausta **RetailSdk Assets\\ all järgmised** muudatused.
 

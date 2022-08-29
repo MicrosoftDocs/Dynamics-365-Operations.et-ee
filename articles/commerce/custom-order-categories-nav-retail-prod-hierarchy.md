@@ -2,7 +2,7 @@
 title: Kaubastamisolemite sortimisjärjestuse muutmine
 description: See artikkel selgitab eri tootega seotud üksuste kuvamisjärjestuse juhtimisega seotud mõisteid Dynamics 365 Commerce.
 author: josaw1
-ms.date: 08/05/2019
+ms.date: 08/11/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,27 +15,27 @@ ms.search.industry: Retail
 ms.author: brshoo
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4e7a7bd42b0ef72ae6bc3f52a8857602b6282907
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 80586597f4f60476b341e4cf1cfd90f3681e15c0
+ms.sourcegitcommit: 52e31b1ef2b3ed8675de931d06090cd57e057fc2
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8847650"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9265832"
 ---
 # <a name="change-the-sort-order-for-merchandising-entities"></a>Kaubastamisolemite sortimisjärjestuse muutmine
 
 
 [!Include [banner](includes/banner.md)]
 
-Jaemüüjad peavad toodete avastamist esmaseks vahendiks klientidega suhtlemisel kõigis kanalites. Erinevad funktsioonid aitavad klientidel tooteid hõlpsasti avastada. Näiteks saavad nad sirvida kategooriaid, otsida ja filtreerida.
+Jaemüüjad peavad toodete avastamist esmaseks vahendiks klientidega suhtlemisel kõigis kanalites. Klientidel on mitmeid funktsioone, mis aitavad tooteid hõlpsasti avastada. Näiteks saavad kliendid sirvida kategooriaid, otsida ja filtreerida.
 
 See artikkel selgitab eri tootega seotud üksuste kuvamisjärjestuse juhtimisega seotud mõisteid. Samuti selgitatakse, kuidas muuta sortimisjärjestust.
 
 ## <a name="overview"></a>Ülevaade
 
-Erinevate kaubastamisega seotud olemite sorteerimise tuge on täiustatud. Tugi on nüüd paremini ühitatud olemasolevate kliendi stsenaariumitega, mis varem vajasid laiendusi juurutuspartneritelt.
+Äris on erinevate teenusega seotud üksuste sortimine joondatud olemasolevate kliendistsenaariumidega ja ei vaja enam rakenduspartnerite laiendiid.
 
-Rakenduse Retail versioonides, mis on varasemad kui versioon 10.0.5, oli kategooriate sortimisjärjestus navigeerimise hierarhias tähestikuline. Uus kohandatud sortimisjärjestuse funktsioon laseb kaubastamise juhtidel konfigureerida sortimisjärjestust erinevatele kaubastamisega seotud olemitele kõigi lõppkasutaja klientide hulgas. Need kliendid hõlmavad nii peakontoreid ja kõnekeskuseid.
+Äriversioonides 10.0.5 ja varasemas oli kategooriate sortimisjärjestus navigeerimishierarhias tähestikuline. Praegune kohandatud sortimisjärjestuse funktsioon võimaldab tootejuhil konfigureerida eri tootega seotud üksuste sortimisjärjestust kõigi lõppkasutaja klientide lõikes. Need kliendid hõlmavad nii peakontoreid ja kõnekeskuseid.
 
 ## <a name="configure-the-display-order-for-categories-in-the-product-hierarchy"></a>Kategooriate kuvamisjärjestuse konfigureerimine tootehierarhias
 
@@ -63,11 +63,11 @@ Enne selle protseduuri lõpetamist, peate installima demoandmed oma keskkonda.
 2. Valige loendis hierarhia **Moe navigeerimine**.
 3. Klõpsake **Redigeeri kategooriahierarhiat**.
 4. Klõpsake valikut **Redigeeri**.
-5. Puus valige **Mood \> Naiste rõivad \> Naiste kingad**.
+5. Puus valige Moeriietus **\>, Naised \>, Kingid**.
 6. Väljale **Kuvamisjärjestus** sisestage arv.
 7. Puus valige **Mood \> Naiste rõivad \> Pluusid**.
 
-    Samuti saate määratleda sortimisjärjestuse alamkategooriaid.
+Samuti saate määratleda alamkategooriate sortimisjärjestuse.
 
 8. Puus valige **Mood \> Meeste rõivad \> Vabaaja särgid**.
 9. Väljale **Kuvamisjärjestus** sisestage arv.
@@ -84,7 +84,7 @@ Kategooriate kuvamisjärjestuse konfigureerimine kanali navigeerimise hierarhias
 ![Müügikoht koos kohandatud sorteeritud kategooriatega.](./media/POSChannelCategoriesCustomSorted.png)
 
 > [!NOTE]
-> Kohandatud sortimisjärjestuse funktsioon on vaikimisi välja lülitatud. Selle ja paljude teiste funktsiooni sisselülitamiseks vaadake teemat [Funktsioonide haldus](/dynamics365/unified-operations/fin-and-ops/get-started/feature-management/feature-management-overview).
-
+> Vaikimisi on funktsioon **Luba kuvamisjärjestus tooteüksuste jaoks välja** lülitatud. Funktsioonihalduse [abil](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) saate selle sisse lülitada. Pärast funktsiooni häälestamist käivitage jaotusgraafikust **globaalne konfiguratsioon -1110** CDX-töö.
+> Kui teie kategooriate kassatellimust ei uuendata, aktiveerige seade uuesti. Kategooria teave toidetakse seadme aktiveerimisel, seega võib seadmel tekkida vajadus kategooria teave ümber lükkada uuendatud kuvatellimustega. 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

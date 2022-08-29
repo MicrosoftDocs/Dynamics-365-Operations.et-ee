@@ -7,14 +7,14 @@ ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.author: epopov
+ms.author: josaw
 ms.search.validFrom: 2019-10-08
-ms.openlocfilehash: 11ce0b146f2e64092b0d03dc7416660d76380cd0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 3376e6a901b692371a44b5c74c1e6b4afd0cd573
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8885398"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9275062"
 ---
 # <a name="control-unit-integration-sample-for-sweden"></a>Juhtseadme integratsiooni näidis Rootsi jaoks
 
@@ -25,7 +25,7 @@ See artikkel annab ülevaate Rootsi fiskaalintegratsiooni näidistest Microsoft 
 > [!NOTE]
 > Fiskaalintegratsiooni näidisfunktsioon asendab kassa [integratsiooni varasema näidist Rootsi kontrollüksustega](retail-sdk-control-unit-sample.md). Varasem näidis ei kasuta fiskaalintegratsiooni [raamistikku](./fiscal-integration-for-retail-channel.md) ja see aegub hilisemates värskendustes. Lisateabe saamiseks selle kohta Dynamics 365 Commerce **, kuidas varasemast näidisst näidist üle siirdada, mis vastab versioonile 10.0.22 ja varasemale**, [vt varasemast integratsiooninäidandist migreerimist](emea-swe-fi-sample-sdk.md#migrating-from-the-earlier-integration-sample).
 
-Rootsi Commerce'i funktsioonid hõlmavad kassa (POS) näidisintegratsiooni Rootsispetsiifiliste finantsseadmetega, mida nimetatakse *kontrollüksusteks*. See näidis laiendab fiskaalintegratsiooni [funktsioone](fiscal-integration-for-retail-channel.md). Eeldatakse, et juhtüksus on füüsiliselt ühendatud riistvarajaamaga, millega kassa on ühendatud. Näiteks kasutab see näidis Retail HTT AB CleanCash Type A [kontrollüksuse rakenduse programmeerimisliidest (API](https://www.retailinnovation.se/produkter)). Kasutatakse CleanCash API versiooni 1.1.4.
+Rootsi Commerce’i funktsioonid hõlmavad kassa (POS) näidisintegratsiooni Rootsispetsiifiliste finantsseadmetega, mida nimetatakse *kontrollüksusteks*. See näidis laiendab fiskaalintegratsiooni [funktsioone](fiscal-integration-for-retail-channel.md). Eeldatakse, et juhtüksus on füüsiliselt ühendatud riistvarajaamaga, millega kassa on ühendatud. Näiteks kasutab see näidis Retail HTT AB CleanCash Type A [kontrollüksuse rakenduse programmeerimisliidest (API](https://www.retailinnovation.se/produkter)). Kasutatakse CleanCash API versiooni 1.1.4.
 
 Näidis esitatakse lähtekoodina ja on osa jaemüügi tarkvara arenduskomplektist (SDK).
 
@@ -92,10 +92,10 @@ Lisateavet kviitungi vormingutega töötades vt Kviitungi mallidest [ja printimi
 
 ### <a name="set-up-fiscal-integration-for-sweden"></a>Häälestage Rootsi finantsintegratsioon.
 
-Rootsi kontrollüksuse integratsiooni näidis põhineb fiskaalintegratsiooni [funktsioonil](fiscal-integration-for-retail-channel.md) ja on osa Retail SDK-st. Näidis asub lahenduste **hoidla kaustas\\ FiscalIntegration\\ CleanCash**[Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) ([nt näidis väljalaskes/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/CleanCash)). Näidis koosneb [fiskaaldokumendi](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) pakkujast, mis on Commerce Runtime'i (CRT) laiendus, ja fiskaalühendusest, mis on Commerce Hardware Stationi laiendus. Lisateavet Retail SDK [kasutamise kohta vt Retail SDK arhitektuurist ja sõltumatult pakendatud SDK-st](../dev-itpro/retail-sdk/retail-sdk-overview.md)[koostevõimaluste häälestamise kohta](../dev-itpro/build-pipeline.md).
+Rootsi kontrollüksuse integratsiooni näidis põhineb fiskaalintegratsiooni [funktsioonil](fiscal-integration-for-retail-channel.md) ja on osa Retail SDK-st. Näidis asub lahenduste **hoidla kaustas\\ FiscalIntegration\\ CleanCash**[Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) ([nt näidis väljalaskes/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/CleanCash)). Näidis koosneb [fiskaaldokumendi](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) pakkujast, mis on Commerce Runtime’i (CRT) laiendus, ja fiskaalühendusest, mis on Commerce Hardware Stationi laiendus. Lisateavet Retail SDK [kasutamise kohta vt Retail SDK arhitektuurist ja sõltumatult pakendatud SDK-st](../dev-itpro/retail-sdk/retail-sdk-overview.md)[koostevõimaluste häälestamise kohta](../dev-itpro/build-pipeline.md).
 
 > [!WARNING]
-> Uue sõltumatu pakendi- ja [laiendusmudeli piirangute tõttu](../dev-itpro/build-pipeline.md) ei saa seda praegu selle fiskaalintegratsiooni näidise jaoks kasutada. Retail SDK eelmist versiooni peate kasutama arendaja virtuaalmasinas (VM) elutsükli Microsoft Dynamics teenustes (LCS). Lisateavet vt Rootsi kontrollühiku [integratsiooni näidise juurutuse juhistest (pärand).](emea-swe-fi-sample-sdk.md)
+> Uue sõltumatu pakendi- ja [laiendusmudeli piirangute tõttu](../dev-itpro/build-pipeline.md) ei saa seda praegu selle fiskaalintegratsiooni näidise jaoks kasutada. Retail SDK eelmist versiooni peate kasutama arendaja virtuaalmasinas (VM) elutsükli Microsoft Dynamics teenustes (LCS). Lisateavet vt Rootsi ([pärand) kontrollühiku integratsiooni näidise juurutuse juhised](emea-swe-fi-sample-sdk.md).
 >
 > Uutesse versioonidesse planeeritakse fiskaalintegratsiooni valimite uue sõltumatu pakendi- ja laiendusmudeli tugi.
 
@@ -108,7 +108,7 @@ Viige finantsintegratsiooni seadistuse etapid lõpule, nagu on kirjeldatud [Äri
 
 ### <a name="set-up-the-registration-process"></a>Registreerimisprotsessi häälestamine
 
-Registreerimisprotsessi lubamiseks järgige neid samme Commerce headquartersi häälestamiseks. Lisateavet vt Commerce'i [kanalite fiskaalintegratsiooni häälestamist](setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process).
+Registreerimisprotsessi lubamiseks järgige neid samme Commerce headquartersi häälestamiseks. Lisateavet vt Commerce’i [kanalite fiskaalintegratsiooni häälestamist](setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process).
 
 1. Laadige alla finantsdokumendi pakkuja ja fiskaalkonnektori konfiguratsioonifailid:
 
@@ -172,7 +172,7 @@ Järgmised sätted on kaasatud fiskaalkonnektori konfiguratsiooni, mis on antud 
 ### <a name="configure-channel-components"></a>Kanali komponentide konfigureerimine
 
 > [!WARNING]
-> Uue sõltumatu pakendi- ja [laiendusmudeli piirangute tõttu](../dev-itpro/build-pipeline.md) ei saa seda praegu selle fiskaalintegratsiooni näidise jaoks kasutada. Retail SDK eelmist versiooni peate kasutama LCS-i arendaja VM-s. Lisateavet vt Rootsi kontrollühiku [integratsiooni näidise juurutuse juhistest (pärand).](emea-swe-fi-sample-sdk.md)
+> Uue sõltumatu pakendi- ja [laiendusmudeli piirangute tõttu](../dev-itpro/build-pipeline.md) ei saa seda praegu selle fiskaalintegratsiooni näidise jaoks kasutada. Retail SDK eelmist versiooni peate kasutama LCS-i arendaja VM-s. Lisateavet vt Rootsi ([pärand) kontrollühiku integratsiooni näidise juurutuse juhised](emea-swe-fi-sample-sdk.md).
 >
 > Uutesse versioonidesse planeeritakse fiskaalintegratsiooni valimite uue sõltumatu pakendi- ja laiendusmudeli tugi.
 
@@ -221,7 +221,7 @@ Järgige fiskaalintegratsiooni [näidise](fiscal-integration-sample-build-pipeli
 Rootsi kontrollüksuse integratsiooni näidis põhineb fiskaalintegratsiooni [funktsioonil](fiscal-integration-for-retail-channel.md) ja on osa Retail SDK-st. Näidis asub lahenduste **hoidla kaustas\\ FiscalIntegration\\ CleanCash**[Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) ([nt näidis väljalaskes/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/CleanCash)). Näidis koosneb [fiskaaldokumendi](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) pakkujast, mis on CRT laiendiks, ja fiskaalühendusest, mis on Commerce Hardware Stationi laiendus. Lisateavet Retail SDK [kasutamise kohta vt Retail SDK arhitektuurist ja sõltumatult pakendatud SDK-st](../dev-itpro/retail-sdk/retail-sdk-overview.md)[koostevõimaluste häälestamise kohta](../dev-itpro/build-pipeline.md).
 
 > [!WARNING]
-> Uue sõltumatu pakendi- ja [laiendusmudeli piirangute tõttu](../dev-itpro/build-pipeline.md) ei saa seda praegu selle fiskaalintegratsiooni näidise jaoks kasutada. Retail SDK eelmist versiooni peate kasutama LCS-i arendaja VM-s. Lisateavet vt Rootsi kontrollühiku [integratsiooni näidise juurutuse juhistest (pärand).](emea-swe-fi-sample-sdk.md) Uutesse versioonidesse planeeritakse fiskaalintegratsiooni valimite uue sõltumatu pakendi- ja laiendusmudeli tugi.
+> Uue sõltumatu pakendi- ja [laiendusmudeli piirangute tõttu](../dev-itpro/build-pipeline.md) ei saa seda praegu selle fiskaalintegratsiooni näidise jaoks kasutada. Retail SDK eelmist versiooni peate kasutama LCS-i arendaja VM-s. Lisateavet vt Rootsi ([pärand) kontrollühiku integratsiooni näidise juurutuse juhised](emea-swe-fi-sample-sdk.md). Uutesse versioonidesse planeeritakse fiskaalintegratsiooni valimite uue sõltumatu pakendi- ja laiendusmudeli tugi.
 
 ### <a name="crt-extension-design"></a>CRT laiendi kujundus
 

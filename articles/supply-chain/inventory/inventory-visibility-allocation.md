@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-05-13
 ms.dyn365.ops.version: 10.0.27
-ms.openlocfilehash: ccc3a8c4b3d0649397b1d1f9139f7feebf39b02f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f79497a24a5b4dd501bb0d13d9eaca7e98672533
+ms.sourcegitcommit: f2175fe5e900d39f34167d671aab5074b09cc1b8
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8852501"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "9306110"
 ---
 # <a name="inventory-visibility-inventory-allocation"></a>Inventory Visibility varude eraldamine
 
@@ -47,7 +47,7 @@ Järgmised terminid ja mõisted on kasulikud varude eraldamise aruteludel:
 
 - **Eraldusgrupp** – grupp, mis omab eraldamist, nt müügikanal, kliendigrupp või tellimuse tüüp.
 - **Eraldusgrupi** väärtus – iga eraldusgrupi väärtus. Näiteks võib veeb *või* *kauplus* olla müügikanali eraldusgrupi väärtus, *samal ajal kui VIP* *või* tavaline võib olla kliendi eraldamisgrupi väärtus.
-- **Eraldamishierarhia** – A tähendab eraldamisgruppide kombineerimist hierarhilisel viisil. Näiteks saate määratleda kanali *hierarhiatasemena* 1, *2*. tasemena regioonina ja *kliendigrupi* tasemena 3. Varude eraldamise ajal peate järgima eraldamishierarhia seeriat, kui määrate eraldamisgrupi väärtuse. Näiteks võite eraldada 200 punane tolm veebikanalile, London'i *piirkonnale* ja VIP-kliendigrupile *·*.*·*
+- **Eraldamishierarhia** – A tähendab eraldamisgruppide kombineerimist hierarhilisel viisil. Näiteks saate määratleda kanali *hierarhiatasemena* 1, *2*. tasemena regioonina ja *kliendigrupi* tasemena 3. Varude eraldamise ajal peate järgima eraldamishierarhia seeriat, kui määrate eraldamisgrupi väärtuse. Näiteks võite eraldada 200 punane tolm veebikanalile, London’i *piirkonnale* ja VIP-kliendigrupile *·*.*·*
 - **Eraldamiseks saadaval** – virtuaalne *ühisost*, mis näitab kogust, mis on edasiseks eraldamiseks saadaval. See on arvutatud mõõt, mille saate oma valemi abil vabalt määratleda. Kui kasutate ka soft reservation funktsiooni, soovitame kasutada sama valemit, et arvutada saadaolevad eraldamiseks ja reserveerimiseks saadaval.
 - **Eraldatud** – füüsiline mõõt, mis näitab eraldatud tariife, mida eraldamisgrupid tarbida saavad.
 - **Tarbitud** – füüsiline mõõt, mis näitab, et algse eraldatud koguse suhtes tarbitud kogused. Kui sellele füüsilisele mõõtu on lisatud numbreid, vähendatakse automaatselt eraldatud füüsilist mõõtu.
@@ -63,12 +63,11 @@ Varude eraldamisfunktsioon koosneb järgmistest komponentidest:
 - Eelmääratletud, eraldamisega seotud andmeallikas, füüsilised meetmed ja arvutatud andmed.
 - Kohandatavad eraldamisgrupid, mille maksimum on kaheksa taset.
 - Eraldamise rakenduse programmeerimisliideste (API-de) kogum:
-
-    - eraldama
-    - Jaota ümber
-    - Ei saa jaotada
-    - Tarbida
-    - Päringu
+  - eraldama
+  - Jaota ümber
+  - Ei saa jaotada
+  - Tarbida
+  - Päringu
 
 Eraldusfunktsiooni konfigureerimisel on kaks sammu:
 
@@ -84,23 +83,26 @@ Andmeallika nimi on `@iv`.
 Siin on esialgsed füüsilised meetmed:
 
 - `@iv`
-
-    - `@allocated`
-    - `@cumulative_allocated`
-    - `@consumed`
-    - `@cumulative_consumed`
+  - `@allocated`
+  - `@cumulative_allocated`
+  - `@consumed`
+  - `@cumulative_consumed`
 
 Siin on esialgsed arvutatud meetmed:
 
 - `@iv`
-
-    - `@iv.@available_to_allocate` = `??`– –<a1/&a `??``@iv.@allocated`
+  - `@iv.@available_to_allocate` = `??`– –<a1/&a `??``@iv.@allocated`
 
 ### <a name="add-other-physical-measures-to-the-available-to-allocate-calculated-measure"></a>Lisa muud füüsilised mõõtmised arvutatud mõõtu eraldamiseks saadaolevale
 
 Eraldamise kasutamiseks peate seadistama arvutatud mõõtu (eraldamiseks saadaoleva).`@iv.@available_to_allocate` Näiteks on teil andmeallikas `fno` ja mõõt, `onordered``pos` andmeallikas ja mõõt ning te soovite teha vabale kaubavarule eraldamise summa ja `inbound` summa alusel`fno.onordered`.`pos.inbound` Sellisel juhul peaks see `@iv.@available_to_allocate` sisaldama `pos.inbound` valemit `fno.onordered` või seda valemis. Näide:
 
 `@iv.@available_to_allocate` = `fno.onordered` + `pos.inbound`– `@iv.@allocated`
+
+> [!NOTE]
+> Andmeallikas on `@iv` eelmääratletud andmeallikas ja eesliitega määratletud füüsilised `@iv``@` koormused on eelmääratletud andmed. Need arvud on eraldamisfunktsiooni jaoks eelmääratletud konfiguratsioon, nii et ärge muutke ega kustutage neid või ilmneb eraldamisfunktsiooni kasutades ootamatuid tõrkeid.
+>
+> Saate lisada eelmääratletud arvutatud mõõtu uusi `@iv.@available_to_allocate` füüsilisi mõõte, kuid te ei tohi selle nime muuta.
 
 ### <a name="change-the-allocation-group-name"></a>Eraldamisgrupi nime muutmine
 
@@ -136,7 +138,7 @@ Helistage `Allocate` API-le, et eraldada toode, mis sisaldab kindlaid dimensioon
     "id": "string",
     "productId": "string",
     "dimensionDataSource": "string",
-    "targetGroups": {
+    "groups": {
         "groupA": "string",
         "groupB": "string",
         "groupC": "string"
@@ -157,7 +159,7 @@ Näiteks soovite koguseks eraldada 10 *kogust tooteleKogus*, *saidi 1*, asukohal
 {
     "id": "???",
     "productId": "Bike",
-    "targetGroups": {
+    "groups": {
         "channel": "Online",
         "customerGroup": "VIP",
         "region": "US"
@@ -192,7 +194,7 @@ Kasutage toimingu `Unallocate` tühistamiseks API-d `Allocate`. Negatiivne kogus
         "groupB": "string",
         "groupC": "string"
     },
-    "targetGroups": {
+    "groups": {
         "groupD": "string",
         "groupE": "string",
         "groupF": "string"
@@ -218,7 +220,7 @@ Näiteks saate teisaldada kaks kogust, mille dimensioonide sait = 1, asukoht = 1
         "customerGroup": "VIP",
         "region": "US"
     },
-    "targetGroups": {
+    "groups": {
         "channel": "Online",
         "customerGroup": "VIP",
         "region": "EU"
@@ -242,7 +244,7 @@ Näiteks saate teisaldada kaks kogust, mille dimensioonide sait = 1, asukoht = 1
     "id": "string",
     "productId": "string",
     "dimensionDataSource": "string",
-    "targetGroups": {
+    "groups": {
         "groupA": "string",
         "groupB": "string",
         "groupC": "string"
@@ -280,7 +282,7 @@ Nüüd müüakse kolm päeva ja need võetakse eraldamiskaustast. Selle teisalda
         "locationId": "11",
         "colorId": "red"
     },
-    "targetGroups": {
+    "groups": {
         "channel": "Online",
         "customerGroup": "VIP",
         "region": "US"
@@ -326,7 +328,7 @@ Kui soovite tarbida koguseks 3 ja selle koguse otse reserveerida, saate teha kõ
         "locationId": "11",
         "colorId": "red"
     },
-    "targetGroups": {
+    "groups": {
         "channel": "Online",
         "customerGroup": "VIP",
         "region": "US"

@@ -14,19 +14,14 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 039b4aa3f044cda29944bcd4f5c42fc35818c58b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 37fb24bdda1d49291b88c6728e11aecf9863cc66
+ms.sourcegitcommit: 66d129874635d34a8b29c57762ecf1564e4dc233
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8868155"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9324813"
 ---
 # <a name="configure-rates"></a>Määrade konfigureerimine
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Määrad määratlevad, kui suure panuse tööandjad ja töövõtjad soodustusele annavad. Väärtus võib konfiguratsioonist olenevalt olla summa või teatud arv paindlikku krediiti.
 
@@ -84,7 +79,7 @@ Saate kasutada ka topelttasemeid. Kui valite suvandi **Topelttase** väärtuse *
    | **Kirjeldus** | Välja **Kirjeldus** väärtus rakendatakse määra seadistamise kirje kirjeldusest. See aitab teil tuvastada, milliste määra seadistustega taseme määrad on ühendatud. |
    | **Järgukood** | Valige taseme kood. Taseme koodid määratletakse vormil **Taseme koodid**. Süsteem kuvab automaatselt taseme koodide kirjelduse vasakpoolses ruudustikus. |
    | **Järgu tüüp** | Määrab, millist välja tuleks kasutada taseme määra arvutamise protsessi valiku kriteeriumina. Näide:</br></br><ul><li>Kui kasutatakse suvandit **Vanus**, kasutab süsteem soodustuse määra arvutamise protsessis töövõtja sünnikuupäeva.</li><li>Kui kasutatakse suvandit **Palk**, kasutab süsteem soodustuse määra arvutamise protsessis aastast soodustuse palka.</li><li>Kui kasutatakse suvandit **Töö tüüp**, kasutab süsteem töövõtja praeguse aktiivse ametikoha kirjet, et määrata töö tüüp ametikohaga ühendatud töö kirje alusel.</li></ul></br></br>Taseme tüübid on **Vanus**, **Palk**, **Füüsiline**, **Sugu**, **Täistööaja vaste**, **Töö tüüp**, **Hüvituspiirkond** ja **Tase**. | 
-   | **Tase** | Väärtus, mida kasutatakse soodustuse arvutamise protsessi ajal koos taseme tüübiga. Näide:</br></br><ul><li>Kui taseme tüüp on **Vanus**, on see vanuse väärtus.</li><li>Kui taseme tüüp on **Palk**, on see palga summa.</li><li> Kui taseme tüüp on **Töö tüüp**, on see töö tüüp.</li></ul></br></br>Taseme tüübi **Vanus** või **Palk** puhul tähistab välja **Tase** väärtus taseme ülemist piiri. Kui taseme tüüp on **Töö tüüp**, kasutab süsteem taseme määra valimisel täpse vaste lähenemisviisi. |
+   | **Tase** | Väärtus, mida kasutatakse soodustuse arvutamise protsessi ajal koos taseme tüübiga. Näide:</br></br><ul><li>Kui taseme tüüp on **Vanus**, on see vanuse väärtus.</li><li>Kui taseme tüüp on **Palk**, on see palga summa.</li><li> Kui taseme tüüp on **Töö tüüp**, on see töö tüüp.</li></ul></br></br>Järgu tüübiga **Vanus** või **Palk** näitab välja **Tase väärtus** järgu alampiiri. Kui taseme tüüp on **Töö tüüp**, kasutab süsteem taseme määra valimisel täpse vaste lähenemisviisi. |
    | **Kalkulatsiooni tüüp** | Määrab, kuidas kasutada summat arvutussumma väljal ja millist matemaatilist arvutust vajadusel teha. Kui arvutamise tüüp on kindel summa, kasutab süsteem summa väljasid samal kujul. Kui arvutamise tüüp on palga või katvuse summa kohta, kasutab süsteem matemaatilises arvutuses arvutuse summat ja arvutuse suunda.</br></br>Kui arvutamise tüüp on palga summa kohta, kasutab süsteem järgmist matemaatilist võrrandit:</br></br>aastane soodustuse palk jagatud arvutuse summaga (ümardatud üles- või allapoole), korrutatud töövõtja või tööandja suitsetaja või mittesuitsetaja summadega.</br></br>Kui arvutamise tüüp on palga summa kohta, kasutab süsteem järgmist matemaatilist võrrandit:</br></br>katvuse summa jagatud arvutuse summaga (ümardatud üles- või allapoole), korrutatud töövõtja või tööandja suitsetaja või mittesuitsetaja summadega.</br></br>Mõlemas arvutuses kasutatakse arvutamise suunda, et määrata, kas ümardada arvutuse summaga jagatav aastase soodustuse palk või katvuse summa üles- või allapoole. |
    | **Arvutamissumma** | Soodustuse määra arvutamise toimingu ajal kasutatav summa. See summa saab olema taseme määra matemaatilise arvutamise ajal jagaja. |
    | **Arvutuse suund** | Suund, kuhu suunas arvutatud tulemuse summat tuleb ümardada. Süsteem toetab kolme arvutuse suunda: tühi (täpne meetod), **suurenemine** ja **vähenemine**.</br></br><ul><li>Kui väli on tühi, kasutab süsteem arvutamise summaga jagatava palga/katvuse summa täpset arvutust. Kui sellel väärtusel on murd, kasutab süsteem seda oma arvutustes.</li><li>**Suurendamise** korral suurendab süsteem arvutamise summaga jagatava palga/katvuse summa matemaatilise arvutuse järgmise täisarvuni, mis tähendab, et 12,25 suureneks 13-ni.</li><li>**Vähendamise** korral vähendab süsteem arvutamise summaga jagatava palga/katvuse summa matemaatilise arvutuse praeguse täisarvuni, mis tähendab, et 12,25 väheneks 12-ni.</li></ul> |

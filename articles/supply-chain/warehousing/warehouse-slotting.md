@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: a5ce900d7698c7d8211ce1e8b7d529ab79a28915
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: bb86800f1491e8cb9ad629ed6cc1c76e9393e945
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8897251"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336031"
 ---
 # <a name="warehouse-slotting"></a>Lao ruumi leidmine
 
@@ -34,7 +34,7 @@ Mitmed saadavalolevad laoruumi paigutamise funktsioonid aitavad laohalduritel nu
 
 ## <a name="turn-on-the-warehouse-slotting-features"></a>Laoruumi leidmise funktsioonide sisselülitamine
 
-Enne nende funktsioonide kasutamist peate selle oma süsteemis sisse lülitama. Administraatorid saavad kasutada [funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sätteid, et kontrollida funktsioonide olekut ja need vajadusel sisse lülitada. Järgmiste funktsioonide sisselülitamine vastavalt vajadusele:
+Enne nende funktsioonide kasutamist tuleb need teie süsteemi jaoks sisse lülitada. Administraatorid saavad kasutada [funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sätteid, et kontrollida funktsioonide olekut ja need vajadusel sisse lülitada. Järgmiste funktsioonide sisselülitamine vastavalt vajadusele:
 
 - Laopesade planeerimise funktsioon
 - Laoruumi leidmine üleviimistellimuste jaoks
@@ -284,7 +284,7 @@ Selle stsenaariumi puhul saate kasutada sisseehitatud näidisandmeid ja luua sel
 
 #### <a name="use-the-usmf-sample-data"></a>USMF-näidisandmete kasutamine
 
-Selle stsenaariumi kasutamiseks siin määratud näidiskirjete ja -väärtuste abil, peate kasutama süsteemi, kuhu on installitud standardsed [demoandmed](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md). Enne alustamist peate valima ka juriidilise isiku **USMF**.
+Selle stsenaariumi kasutamiseks siin määratud näidiskirjete ja -väärtuste abil, peate kasutama süsteemi, kuhu on installitud standardsed [demoandmed](../../fin-ops-core/fin-ops/get-started/demo-data.md). Enne alustamist peate valima ka juriidilise isiku **USMF**.
 
 #### <a name="create-demand"></a>Nõudluse loomine
 

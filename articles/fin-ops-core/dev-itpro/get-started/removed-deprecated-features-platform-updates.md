@@ -2,7 +2,7 @@
 title: Eemaldatud või iganenud platvormifunktsioonid
 description: See artikkel kirjeldab funktsioone, mis on eemaldatud või mida on planeeritud finantside ja toimingute rakenduste platvormivärskendustes eemaldamiseks.
 author: sericks007
-ms.date: 05/24/2022
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 16c77d719171e8e5cfef71178f8917d462f6d84b
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: b2eec4dd71baef54877b4139a331288bf37f4960
+ms.sourcegitcommit: e4b6521337dfff3515f70086b0125d4c23308c71
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9069918"
+ms.lasthandoff: 08/11/2022
+ms.locfileid: "9262294"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Eemaldatud või iganenud platvormifunktsioonid
 
@@ -31,6 +31,50 @@ See artikkel kirjeldab funktsioone, mis on eemaldatud või mida on planeeritud f
 See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võtta. 
 
 Finantside ja toimingute rakenduste objektide üksikasjaliku teabe leiate tehnilistest [viitearuannetest](/dynamics/s-e/global/axtechrefrep_61). Saate võrrelda nende aruannete erinevaid versioone, et saada teavet objektide kohta, mida on igas finantsi ja toimingute rakenduste versioonis muudetud või eemaldatud.
+
+## <a name="feature-deprecation-effective-august-2022"></a>Funktsioon aegub 2022. aasta augustist
+
+### <a name="lifecycle-services-lcs-features-deprecated-in-august-2022"></a>Elutsükli teenuste (LCS) funktsioonid on aegunud augustis 2022.
+
+Ühe Dynamicsi ühe [platvormi töö panuse](/dynamics365-release-plan/2022wave2/finance-operations/finance-operations-crossapp-capabilities/one-dynamics-one-platform) osana on järgmised LCS-i funktsioonid mittetagastatud.
+
+| Funktsiooni nimi | AX Kasutatakse 2012-ga? | Kasutatakse finantside ja toimingute rakendustega? | Asendatud teise funktsiooniga? |
+|--------------|--------------------|----------------------------------------|------------------------------|
+| Teated | Jah | Jah | Jah: üksikutel projekti ja keskkonna lehtedel on teatisi. |
+| Konfiguratsioonihaldur | Jah | Nr | Nr |
+| Crashi ja tõmmise analüüs | Jah | Nr | Nr |
+| Tagasiside ja vead | Jah | Jah | Nr |
+| Minu tellimus | Jah | Jah | Nr |
+| Office 365 | Jah | Jah | Jah: või Azure Active Directory Microsofti haldusportaal. |
+| Mõju analüüsid | Nr | Jah | Nr |
+| Kogu majandustegevuse mõju hindamine | Nr | Jah | Nr |
+| Teenusetaotlused | Nr | Jah | Jah: [iseteeninduse juurutused](../deployment/infrastructure-stack.md) |
+| SharePointi integreerimine | Jah | Jah | Nr |
+| Konfiguratsiooni- ja andmehaldur | Nr | Jah | Nr |
+| Protsessi andmepaketid | Nr | Jah | Jah: andmete importimise/eksportimise raamistik (DIXF) |
+| Uuendamise täiendamine | Nr | Jah | Jah: saadaval [on ühe](../lifecycle-services/oneversion-overview.md) versiooni teenuse värskendused. |
+| IT-taristu hindaja | Jah | Nr | Nr |
+| Litsentsi suuruse muutmine | Jah | Nr | Nr |
+| Kasutuse profileerija | Jah | Nr | Nr |
+| Kliendi kohanduste analüüs | Jah | Nr | Nr |
+| Süsteemi diagnostika | Jah | Jah | Nr |
+| Äriprotsesside modellaatori Visio haldus | Jah | Jah | Nr |
+| AX 2012 pilve keskkonnahaldus | Jah | Nr | Nr |
+| RDFE Azure’i konnektorid | Jah | Jah | Nr |
+| AX 2012 versioonid | Jah | Nr | Nr |
+| LCS-i ladustamiseks talletatud tööüksused | Jah | Jah | Nr |
+| Kiirparanduse taotlused | Jah | Jah | Nr |
+
+
+### <a name="transport-layer-security-tls-rsa-cipher-suites"></a>Transpordikihi turvalisus (TLS) RSA cipher
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Aegumise/eemaldamise põhjus** | Me eemaldame järgmise loendi cipher nii, et see vastaks meie praegustele turvaprotokollidele.<br><br>TLS_RSA_WITH_AES_256_GCM_SHA384<br>TLS_RSA_WITH_AES_128_GCM_SHA256<br>TLS_RSA_WITH_AES_256_CBC_SHA256<br>TLS_RSA_WITH_AES_128_CBC_SHA256<br>TLS_RSA_WITH_AES_256_CBC_SHA<br>TLS_RSA_WITH_AES_256_CBC_SHA  |
+| **Asendatud teise funktsiooniga?**   | Alates 30. novembrist 2022 saavad kliendid kasutada ainult meie standardset [cipherenti](/power-platform/admin/server-cipher-tls-requirements). See muudatus mõjutab teie kliente ja servereid, mis suhtlevad meie serveritega, näiteks võib see mõjutada teie kolmanda osapoole integratsioone, mis ei ole seotud meie standardse sififiidiga. |
+| **Mõjutatud tootealad**         | Finance and Operations rakendused |
+| **Juurutamissuvand**              | Pilve juurutused |
+| **Olek**                         | Aegunud. Kliendid peavad oma servereid uuendama enne 30. novembrit 2022. Lisateavet TLS Cipher Suite’ tellimuse konfigureerimise kohta vt [transpordikihi turbe haldamine (TLS)](/windows-server/security/tls/manage-tls).  |
 
 
 ## <a name="feature-deprecation-effective-june-2022"></a>Funktsiooni amortiseerumine kehtib juunil 2022

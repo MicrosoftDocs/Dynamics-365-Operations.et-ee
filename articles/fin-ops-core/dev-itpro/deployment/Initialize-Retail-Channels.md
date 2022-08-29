@@ -2,21 +2,21 @@
 title: Commerce Scale Uniti (pilv) lähtestamine
 description: See artikkel selgitab, kuidas käivitada Commerce Scale Uniti (pilve) sisse Microsoft Dynamics 365 Commerce.
 author: jashanno
-ms.date: 07/21/2022
+ms.date: 06/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User, Developer, IT Pro
-ms.reviewer: josaw
+ms.reviewer: sericks
 ms.search.region: Global
 ms.author: jashanno
-ms.search.validFrom: 2018-4-30
-ms.openlocfilehash: 93fbf2893fecc7b731f946797907bce4f8448309
-ms.sourcegitcommit: 8032d6275e6d9994ef9759ee16e743b483f7689e
-ms.translationtype: MT
+ms.search.validFrom: 2018-04-30
+ms.openlocfilehash: 6b42252a37f01a2b387c2393760998a6b2e4761d
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/21/2022
-ms.locfileid: "9183359"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9271511"
 ---
 # <a name="initialize-commerce-scale-unit-cloud"></a>Commerce Scale Uniti (pilv) lähtestamine
 
@@ -37,7 +37,7 @@ Kui kasutate kiht-2 ruutu või tootmiskeskkonda, mille rakenduse versioon on 8.1
 4. Veenduge, et jaemüügi litsentsi konfiguratsioonivõtmed on teie keskkonnas lubatud. Lisateavet vt litsentsikoodide [ja konfiguratsioonivõtmete aruandest](../sysadmin/license-codes-configuration-keys-report.md). Commerce Scale Uniti kasutamiseks peavad teil järgmised võtmed olema sisse lülitatud.
 
     - RetailBasic
-    - RetaileCommerce – kui plaanite kasutada E-commerce'i rakenduse <a0/&a; jaoks,Dynamics 365 Commerce
+    - RetaileCommerce – kui plaanite kasutada E-commerce’i rakenduse <a0/&a; jaoks,Dynamics 365 Commerce
     - RetailGiftCard – kui plaanite kinkekaarte kasutada.
     - RetailInvent – kui plaanite varusid kasutada.
     - RetailModernPos – kui plaanite kasutada kassat;
@@ -86,7 +86,7 @@ Veenduge, et peakontor on saadaval. See on vajalik, et registreerida kaaluühik 
 
 1. Veenduge, et peakontori keskkond on saadaval ja mitte [hooldusrežiimis](../sysadmin/maintenance-mode.md).
 2. LCS-i keskkonna üksikasjade lehel valige keskkonnafunktsioonid **\> Commerce**.
-3. Valige commerce'i häälestamise juurutamise lehel suvand **Lähtesta**.
+3. Valige commerce’i häälestamise juurutamise lehel suvand **Lähtesta**.
 4. Valige lähtestamiseks Commerce Scale Uniti versioon.
 5. Valige piirkond, kus Commerce Scale Unit lähtestada.
 
@@ -108,7 +108,7 @@ Kui olete lõpetanud, minge jaemüügi **ja rakenduse Commerce Retail ja äri it
 
 ### <a name="database-refresh-and-commerce-scale-units"></a>Andmebaasi värskendamine ja äriskaala ühikud
 
-Enne alustamist veenduge, et olete tuttav [läbitud sammudega pärast andmebaasi värskendamist Commerce'i funktsiooni kasutava keskkonna puhul](../database/database-refresh.md).
+Enne alustamist veenduge, et olete tuttav [läbitud sammudega pärast andmebaasi värskendamist Commerce’i funktsiooni kasutava keskkonna puhul](../database/database-refresh.md).
 
 Kaaluühiku kanali andmebaasi kirjeid (kanali andmebaasi vormis) ei saa andmebaasi värskenduse osana läbi kogu keskkonda teisaldada. Seda seetõttu, et kirjed tähistavad keskkonnaspetsiifilist konfiguratsiooni.
 
@@ -173,7 +173,7 @@ Siin on, mis toimub lähtestamisperioodil:
 
 - Pilves majutatud Ärikanalid ei tööta, välja arvatud juhul, kui lülitate kassa võrguühenduseta võimaluse sisse.
 - Võrguühenduseta tööga müügikoha seadmetel on vähendatud funktsioone.
-- Kõik jaemüügiserverist sõltuvad e-commerce'i kliendid katkevad.
+- Kõik jaemüügiserverist sõltuvad e-commerce’i kliendid katkevad.
 - Commerce Scale Unitsis majutatud kanaleid (ise majutatud) ei mõjutata.
 - Peakontori funktsioone see ei mõjuta.
 

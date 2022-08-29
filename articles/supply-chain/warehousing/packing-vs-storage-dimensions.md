@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 85e40a0768174dcdc5d0fa2647b24cddccf01bdf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e2cfcc13f397f57413be1773683daf1f828beaf8
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8905482"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334441"
 ---
 # <a name="set-different-dimensions-for-packing-and-storage"></a>Pakkimiseks ja ladustamiseks erinevate dimensioonide määramine
 
@@ -37,7 +37,7 @@ See artikkel annab stsenaariumi, mis kirjeldab selle funktsiooni kasutamist.
 
 ## <a name="turn-on-the-packaging-product-dimensions-feature"></a>Lülitage pakendatavate toodete dimensioonide funktsioon sisse.
 
-Enne selle funktsiooni kasutamist peate selle oma süsteemis sisse lülitama. Administraatorid saavad kasutada [funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) tööruumi, et kontrollida funktsiooni olekut ja vajadusel selle sisse lülitada. Seega on funktsioon loetletud järgmisel viisil.
+Enne selle funktsiooni kasutamist tuleb see teie süsteemi jaoks sisse lülitada. Administraatorid saavad kasutada [funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) tööruumi, et kontrollida funktsiooni olekut ja vajadusel selle sisse lülitada. Seega on funktsioon loetletud järgmisel viisil.
 
 - **Moodul:** *laohaldus*
 - **Funktsiooni nimi:** *Pakendatavate toodete mõõtmed*
@@ -50,7 +50,7 @@ Enne kui käivitate näidisstsenaariumi, peate oma süsteemi selles jaotises kir
 
 #### <a name="enable-demo-data"></a>Demoandmete lubamine
 
-Selle stsenaariumi kasutamiseks siin määratud demokirjete ja -väärtuste abil, peate kasutama süsteemi, kuhu on installitud standardsed [demoandmed](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md). Enne alustamist peate valima ka juriidilise isiku *USMF*.
+Selle stsenaariumi kasutamiseks siin määratud demokirjete ja -väärtuste abil, peate kasutama süsteemi, kuhu on installitud standardsed [demoandmed](../../fin-ops-core/fin-ops/get-started/demo-data.md). Enne alustamist peate valima ka juriidilise isiku *USMF*.
 
 #### <a name="add-a-new-physical-dimension-to-a-product"></a>Tootele uue füüsilise dimensiooni lisamine
 

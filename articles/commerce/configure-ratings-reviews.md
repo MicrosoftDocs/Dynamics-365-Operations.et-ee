@@ -1,31 +1,31 @@
 ---
 title: Hinnangute ja arvustuste konfigureerimine
-description: See artikkel kirjeldab, kuidas konfigureerida oma e-Commerce'i saiti, et kuvada kliendi hinnanguid ja ülevaateid moodulis Microsoft Dynamics 365 Commerce.
+description: See artikkel kirjeldab, kuidas konfigureerida oma e-Commerce’i saiti, et kuvada kliendi hinnanguid ja ülevaateid moodulis Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 ms.date: 02/17/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 56325eb0d6298f3b30316e104a4b3913ef860366
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.openlocfilehash: 27b1beddd474a2ca4db73f8e344b2d85934c43b1
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8862251"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9276861"
 ---
 # <a name="configure-ratings-and-reviews"></a>Hinnangute ja arvustuste konfigureerimine
 
 [!include [banner](includes/banner.md)]
 
-See artikkel kirjeldab, kuidas konfigureerida oma e-Commerce'i saiti, et kuvada kliendi hinnanguid ja ülevaateid moodulis Microsoft Dynamics 365 Commerce.
+See artikkel kirjeldab, kuidas konfigureerida oma e-Commerce’i saiti, et kuvada kliendi hinnanguid ja ülevaateid moodulis Microsoft Dynamics 365 Commerce.
 
 Hinnangud ja arvustused e-Commerce’i veebisaitidel aitavad klientidel saada toote kohta teavet enne ostuotsuse tegemist, näidates neile, mida teised kliendid nendest toodetest arvavad. E-kaubanduse veebisaitide jaoks on hinnangud ja arvustused lisaks viis klientidelt toodete kohta tagasiside kogumiseks. 
 

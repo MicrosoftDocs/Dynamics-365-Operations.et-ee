@@ -10,18 +10,26 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 19193cc445bc9c7d79463734d7d5787737ecc4f7
-ms.sourcegitcommit: 6989ac8a20c16d384b8307b707eeaf498c32d64e
+ms.openlocfilehash: 115708ce9e71c35feb1cf370ead556847e04cbd2
+ms.sourcegitcommit: 66d129874635d34a8b29c57762ecf1564e4dc233
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/25/2022
-ms.locfileid: "9188987"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9324199"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Mis on uut või mida on muudetud mobiilirakenduses Warehouse Management?
 
 [!include [banner](../includes/banner.md)]
 
 Selles artiklis loetletakse microsofti iga laohalduse mobiilirakenduse väljastatud versiooni uued funktsioonid, parandused, parendused ja teadaolevad probleemid Dynamics 365 Supply Chain Management.
+
+## <a name="version-20310"></a>Versioon 2.0.31.0
+
+See versioon tutvustab järgmisi uusi funktsioone, parandusi ja täiustusi:
+
+-   Täiustatud jõudlus ja stabiilsus.
+-   Täiustatud kasutajaliides, mis muudab pika valikuloenditega töö kiiremaks ja lihtsamaks. Töötajad saavad nüüd otsida loendi kaupa nime järgi, mitte kerida läbi kogu loendi.
+-   Fikseeritud probleem, mille puhul eelsisestatud väärtusi ei kirjutatud skannimisel märgi järgi üle.
 
 ## <a name="version-20300"></a>Versioon 2.0.30.0
 
@@ -73,7 +81,7 @@ See versioon tutvustab järgmisi uusi funktsioone, parandusi ja täiustusi:
 
 - Fikseeritud mitmed kokkukukkumise probleemid.
 - Lahendati probleem, mille puhul teatud märke vaikelehel skannimisel või tippimisel ei tuvastatud.
-- Fikseeritud probleem, mille puhul vaikelehele backspace'i tippimine kustutaks korraga kaks märki.
+- Fikseeritud probleem, mille puhul vaikelehele backspace’i tippimine kustutaks korraga kaks märki.
 - Fikseeritud probleem, **mille puhul** kuvaks **tööloendi** lehe väli Sortimis alusel vale väärtuse, mis ei vastanud kaartide tegelikule sortimisjärjekorrale.
 - Fikseeritud probleem, kus vale paigutus kuvatakse pärast rakenduse akna suuruse muutmise töötades Microsoft Windows.
 - Fikseeritud probleem, mille puhul hüpikloendis kerimine võib põhjustada mõne loendiüksuse peidetud üksuste peitmise või soovitud soovitud saada.

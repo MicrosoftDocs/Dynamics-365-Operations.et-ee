@@ -2,21 +2,21 @@
 title: Mobiilirakenduse Warehouse Management etapipealkirjade ja juhiste kohandamine
 description: See artikkel kirjeldab, kuidas luua ja näidata kohandatud juhiseid iga ülesandevoo sammu kohta, mille laohalduse mobiilirakenduses seadistate.
 author: Mirzaab
-ms.date: 08/11/2021
+ms.date: 08/09/2022
 ms.topic: article
-ms.search.form: ''
+ms.search.form: WHSMobileAppFlowStepListPage
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-11
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 289a3735133919ae7dbad05c40ba9ccf0e8f57ca
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: faa9bfa320823664603153601c56654170e7e23a
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8895492"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334472"
 ---
 # <a name="customize-step-titles-and-instructions-for-the-warehouse-management-mobile-app"></a>Mobiilirakenduse Warehouse Management etapipealkirjade ja juhiste kohandamine
 
@@ -28,12 +28,9 @@ See artikkel kirjeldab, kuidas luua ja näidata kohandatud juhiseid iga ülesand
 - **Valmistab töölised kiiremini ette, lastes neil järgida ülesande iga etapi kohta käivaid lihtsaid juhiseid.** Iga voo samm annab juhised, mis võimaldavad eesliini töötajatel ülesannet mõista.
 - **Sisestage juhised, mis vastavad teie enda protsessidele.** Kirjutage oma juhised teie äri- ja laoprotsessidele vastavalt. Näiteks võite sobitada terminoloogia teie füüsilisele asukohale ja kohalikele lühenditele vastavaks.
 
-## <a name="turn-on-the-warehouse-app-step-instructions-feature"></a>Lülitage laorakenduse etapiviisiliste juhiste funktsioon sisse
+## <a name="turn-the-warehouse-app-step-instructions-feature-on-or-off"></a>Lao rakenduse juhiste funktsiooni sisse- või väljalülitamine
 
-Enne selle funktsiooni kasutamist peate selle oma süsteemis sisse lülitama. Administraatorid saavad kasutada [funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sätteid, et kontrollida funktsiooni olekut ja selle sisse lülitada. Tööruumis **Funktsioonihaldus** loetletakse funktsiooni järgneval viisil.
-
-- **Moodul:** *laohaldus*
-- **Funktsiooni nimi:** *laorakenduse etapiviisilised juhised*
+Enne selle funktsiooni kasutamist tuleb see teie süsteemi jaoks sisse lülitada. Tarneahela halduse versiooni 10.0.29 puhul on see funktsioon kohustuslik ja seda ei saa välja lülitada. Kui käitate versiooni, mis *on*[vanem kui 10.0.29, saavad administraatorid selle funktsiooni sisse või välja lülitada, otsides Laorakenduse juhiste funktsiooni Funktsioonihalduse tööruumis.](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
 
 ## <a name="step-titles-and-step-instructions-in-the-app"></a>Etappide pealkirjad ja etappide juhised rakenduses
 

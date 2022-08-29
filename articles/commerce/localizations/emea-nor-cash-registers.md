@@ -2,19 +2,19 @@
 title: Kassaaparaadi funktsioonid Norra jaoks
 description: See artikkel annab ülevaate kassaraamatu funktsioonidest, mis on Norrale Microsoft Dynamics 365 Commerce saadaval ja annab juhised funktsioonide seadistamiseks.
 author: EvgenyPopovMBS
-ms.date: 12/20/2021
+ms.date: 08/23/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.author: epopov
+ms.author: josaw
 ms.search.validFrom: 2017-10-31
-ms.openlocfilehash: 778a947f03866518219e9c0fa44660d66f19f53a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 30bd5ad8c1513c3d56cc4aa0a77b70fe38d31e0a
+ms.sourcegitcommit: 1dbff0b5fa1f4722a1720fac35cce94606fa4320
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8906695"
+ms.lasthandoff: 08/24/2022
+ms.locfileid: "9346014"
 ---
 # <a name="cash-register-functionality-for-norway"></a>Kassaaparaadi funktsioonid Norra jaoks
 
@@ -74,7 +74,7 @@ Digitaalsel allkirjastamise protsessil kasutatakse RSA 1024-bitiset võtit, mis 
 
 Allkiri talletatakse koos kandeandmetega kaupluse andmebaasis ja peakontori (HQ) andmebaasis. Kande allkirja ja selle loomiseks kasutatud kande andmete saate vaadata **kaupluse** **kannete lehe finantskannete kiirkaardil.**
 
-#### <a name="receipts"></a>Kviitungid
+#### <a name="receipts"></a>Sissetulekud
 
 Norra sissetulekud võivad hõlmata täiendavat teavet, mis rakendati kohandatud väljade abil:
 
@@ -116,6 +116,13 @@ Norrale omase funktsionaalsuse kasutamiseks peate lõpule täitma need ülesande
 - **Seadke ISO-koodi** väljale **NO** (Norra) iga Norras paikneva kaupluse kassa funktsiooniprofiilis.
 
 Peate määrama ka Järgmised sätted Norra jaoks.
+
+### <a name="enable-features-for-norway"></a>Funktsioonide lubamine Norrale
+
+Peate commerce headquartersi funktsioonihalduse tööruumis **lubama** järgmised funktsioonid:
+
+- (Norra) Kassas täiendavate auditisündmuste lubamine
+- (Norra) Kassas päevalõpu väljavõtetes lisateabe lubamine
 
 ### <a name="set-up-the-legal-entity"></a>Juriidilise isiku häälestamine
 

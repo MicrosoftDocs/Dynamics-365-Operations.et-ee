@@ -2,7 +2,7 @@
 title: Dynamics 365 Finance'i eemaldatud või aegunud funktsioonid
 description: See artikkel kirjeldab funktsioone, mis on eemaldatud või plaanitud rakendusest Dynamics 365 Finance eemaldamiseks.
 author: kfend
-ms.date: 03/21/2022
+ms.date: 06/29/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: ee084e84c052366bdf34fe1a1e697a32e456914b
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
-ms.translationtype: HT
+ms.openlocfilehash: 1b5282bc1fb4834d001cd2513664996a2f4cf4f0
+ms.sourcegitcommit: 0feb5d0b06e04f99903069ff2801577be86b8555
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9068918"
+ms.lasthandoff: 08/18/2022
+ms.locfileid: "9313879"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Dynamics 365 Finance'i eemaldatud või aegunud funktsioonid
 
@@ -32,6 +32,31 @@ See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võ
 
 > [!NOTE]
 > Finantside ja toimingute rakenduste objektide üksikasjaliku teabe leiate tehnilistest [viitearuannetest](/dynamics/s-e/global/axtechrefrep_61). Saate võrrelda nende aruannete erinevaid versioone, et saada teavet objektide kohta, mida on igas finantsi ja toimingute rakenduste versioonis muudetud või eemaldatud.
+
+## <a name="features-removed-or-deprecated-in-the-finance-10029-release"></a>Finance'i väljalaskest 10.0.29 eemaldatud või aegunud funktsioonid
+
+### <a name="stock-transfer-orders-that-have-tax-on-the-transfer-price"></a>Lao üleviimistellimused, mille sisehinnale kehtib maks
+
+[Lao üleviimistellimused, mille sisehinnale kehtib maks](../../finance/localizations/apac-ind-gst-stock-transfer-transactions.md)
+
+| &nbsp;  | &nbsp;  |
+|---|---|
+| **Aegumise/eemaldamise põhjus** | Asendatud täiustatud funktsioonidega, [lao üleviimistellimused India jaoks](../../finance/localizations/apac-ind-stock-transfer.md)|
+| **Asendatud teise funktsiooniga?**   | Jah |
+| **Mõjutatud tootealad** | Avaldus |
+| **Juurutamissuvand** | Kõik |
+| **Olek** | Taunitud: pärast 2023. a. aprillit ei **saa** lao üleviimishinna funktsiooniga lao üleviimistellimused enam vigaste paranduste ja turbeparandustega tuge. Klientidel palutakse kasutada täiustatud funktsioone – India [lao üleviimistellimusi](../../finance/localizations/apac-ind-stock-transfer.md). Pärast 2023. aasta oktoober pole laoülekandetellimused, **mis omavad** ülekande hinna funktsioonil maksu, enam saadaval ja klientidel palutakse need teisaldada täiustatud funktsioonidele. |
+
+### <a name="bank-statement-import-and-export-of-positive-pay-file"></a>Positiivse maksefaili pangaväljavõtte import ja eksport
+
+| &nbsp;  | &nbsp;  |
+|---|---|
+| **Aegumise/eemaldamise põhjus** |Asendatud täiustatud funktsioonidega, importige pangaväljavõtted ja eksportige positiivse makse failid.| 
+| **Asendatud teise funktsiooniga?**   | Jah |
+| **Mõjutatud tootealad**         | Avaldus |
+| **Juurutamissuvand**              | Kõik |
+| **Olek**                         | Taunitav: XSLT-funktsioon failide importimiseks ja eksportimiseks ei saa enam tuge paranduste ja turbeparandustega. Klientidel palutakse kasutada täiustatud funktsioone: [...](../../finance/accounts-payable/set-up-positive-pay-er.md)[seadistage positiivsed maksefailid elektroonilise aruandluse abil ja seadistage laiendatud panga vastavusseviimise importimine elektroonilise aruandluse abil](../../finance/accounts-payable/import-bai2-er.md). Pärast 2022. aasta septembrit pole XSLT-funktsioonid enam saadaval ja klientidel palutakse need teisaldada täiustatud funktsioonidele.|
+
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10026-release"></a>Finance'i väljalaskest 10.0.26 eemaldatud või aegunud funktsioonid
 

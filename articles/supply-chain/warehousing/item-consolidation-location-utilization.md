@@ -2,7 +2,7 @@
 title: Kauba konsolideerimine – asukoha kasutamine
 description: See artikkel annab teavet funktsioonide kohta, mis hõlbustab laohalduritel vaadata ja filtreerida asukohtade mahulist kasutamist kogu laos. Haldurid saavad valida asukohti ja luua varude liikumise tööd otse kauba konsolideerimise lehelt, et konsolideerida kaupu ja seeläbi kasutada laos olevat ruumi tõhusamalt.
 author: Mirzaab
-ms.date: 07/16/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 63fd8b209cb73843aae7324c805c5d0eb83b4ca4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d0e52769de3f200e2bb3060b3d9cb19dc0847b69
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849180"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336419"
 ---
 # <a name="item-consolidation---location-utilization"></a>Kauba konsolideerimine – asukoha kasutamine
 
@@ -30,8 +30,8 @@ See artikkel annab teavet funktsioonide kohta, mis hõlbustab laohalduritel vaad
 
 Enne kui saate kasutada selles artiklis kirjeldatud funktsioone, peate need oma süsteemis sisse lülitama. Administraatorid saavad kasutada tööruumi [Funktsioonihaldus](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), et kontrollida funktsioonide olekut ja need vajadusel sisse lülitada. Lülitage sisse mõlemad järgmised funktsioonid loendis olevas järjekorras. (Mõlemad funktsioonid on mooduli **Laohaldus** jaoks.)
 
-1. Laoasukoha olek
-2. Kauba konsolideerimise asukoha kasutamine
+1. *Laoasukoha olek*<br>(Tarneahela halduse versiooni 10.0.29 puhul on see funktsioon kohustuslik ja seda ei saa välja lülitada. Lisateavet vt lao asukoha [olekust](warehouse-location-status.md).)
+2. *Kauba konsolideerimise asukoha kasutamine*<br>(Tarneahela halduse versiooni 10.0.29 puhul on see funktsioon vaikimisi sisse lülitatud.)
 
 ## <a name="warehouse-location-status"></a>Laoasukoha olek
 

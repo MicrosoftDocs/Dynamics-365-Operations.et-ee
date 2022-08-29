@@ -2,7 +2,7 @@
 title: Tehnika muudatusehalduse ülevaade (sisaldab videot)
 description: See artikkel annab ülevaate tehnika muudatusehaldusest, mis aitab teil planeerida ja hallata toote versioonimist ning hallata toote töötsükliid ja tehnika muudatusi.
 author: t-benebo
-ms.date: 01/11/2022
+ms.date: 08/09/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 3a27548fff9728c74814fb92438da1d0c17b5e2b
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: b494e15488bed148119aed0e9d62ab1740f38add
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9067388"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334861"
 ---
 # <a name="engineering-change-management-overview"></a>Tehniliste muudatuste halduse ülevaade
 
@@ -76,16 +76,16 @@ Seejärel lülitage sisse konfiguratsioonivõtmed, järgides järgmisi etappe. V
 
 ### <a name="turn-on-additional-engineering-change-management-features"></a>Lülitage oma süsteemis sisse tehniliste muudatuste haldamise funktsioonid
 
-Pärast seda, kui lülitate sisse peamised tehnika muudatuste haldamise funktsioonid ja lubate nende konfiguratsioonivõtmed, lisatakse funktsioonihaldusele mitu lisa- ja valikulist tehnika muudatusehalduse funktsiooni. Kõik need funktsioonid on loetletud **tehnika muudatusehalduse** moodulis. Järgmises tabelis kirjeldatakse iga valikulist funktsiooni ja antakse lisateabe jaoks linke. Vastavalt tarneahela halduse versioonile 10.0.25 on kõik need funktsioonid vaikimisi sisse lülitatud, kuid saate need siiski välja lülitada.
+Pärast seda, kui lülitate sisse peamised tehnika muudatuste haldamise funktsioonid ja lubate nende konfiguratsioonivõtmed, lisatakse funktsioonihaldusele mitu lisa- ja valikulist tehnika muudatusehalduse funktsiooni. Kõik need funktsioonid on loetletud **tehnika muudatusehalduse** moodulis. Järgmises tabelis kirjeldatakse iga valikulist funktsiooni ja antakse lisateabe jaoks linke.
 
 | Funktsiooni nimi funktsioonihalduses | Kirjeldus | Funktsiooni olek |
 |---|---|---|
-| Luba olemasolevate toodete muudatuste haldamine | <p>See funktsioon võimaldab teil teisendada olemasolevaid tooteid tehnika toodeteks, nii et saate alustada nende haldamist tehnika muudatusehalduse abil.</p><p>Lisateavet vt [Olemasolevate toodete muudatuste haldamise lubamine](change-management-existing-products.md).</p> |
-| Tootmise tehnilised teatised | <p>Kui toode on tehnikas muutunud, võib olla oluline teavitada tootmist nendest muudatustest. Sel viisil saavad tootmistöötajad teha vastavaid tegevusi, nt komponentide asendamine, koosluse asendamine või protsessi asendamine. See funktsioon võimaldab teil teavitada tootmist toodetavate toodete muudatustest.</p><p>Lisateavet vt teemast [Tehniliste toodete muudatuste haldamine](engineering-change-management.md).</p> |
-| Paranenud tehnilise muudatuse halduse atribuudi pärimine | <p>See funktsioon lihtsustab lõpetatud kaupade või vahekaupade atribuutide haldust. Kui see funktsioon on sisse lülitatud, on lihtsam tuvastada kõiki üksusele kuuluvaid atribuute ja valida atribuudid, mida tuleks sellelt kaubalt emaüksusele levitada. See funktsioon on kasulik näiteks siis, kui üks valmistoote komponent on habras, mürgine või tuleohtlik, sest saate kergesti tuvastada hapra, mürgise või tuleohtliku atribuudi ja levitate seda valmistoodangule.</p><p>Lisateavet vt jaotisest [Tehnilised atribuudid ja tehnilise atribuudi otsing](engineering-attributes-and-search.md).</p> |
-| Toote valmisoleku kontrollid | <p>See funktsioon võimaldab seadistada standardsete toodete (mitteinsenerilistele) toodete valmisolekukontrolli. Kasutage toote valmisoleku kontrolle, et tagada iga toote täielik määratlemine ja kõigi nõutud poliitikate konfigureerimine enne toote kättesaadavaks tegemist ja kannetes kasutamist. Kui keelate selle funktsiooni mõneks ajaks pärast seda, kustutatakse kõik olemasolevad standardtoodete valmisolekukontrollid.</p><p>Lisateavet vt jaotisest [Toote valmisolek](product-readiness.md).</p> |
-| Valemite ja nende koostisosade muudatuste haldamine | <p>See funktsioon võimaldab teil jälgida valemi koostisainete, kaastoodete ja kõrvaltoodete muutusi.</p><p>Lisateavet vt jaotisest [Valemite ja nende koostisainete muudatuste haldamine](manage-formula-changes.md).</p> |
-| Tehnikatoodetele variantide loomine | <p>See funktsioon võimaldab teil luua saadaolevatel dimensiooniväärtustel põhinevaid tehnikatoodete variante.</p><p>Lisateavet vt teemast [Tehnikatoodete variantide loomine](engineering-variants.md).</p> |
+| Luba olemasolevate toodete muudatuste haldamine | <p>See funktsioon võimaldab teil teisendada olemasolevaid tooteid tehnika toodeteks, nii et saate alustada nende haldamist tehnika muudatusehalduse abil.</p><p>Lisateavet vt [Olemasolevate toodete muudatuste haldamise lubamine](change-management-existing-products.md).</p> | Vaikimisi versiooni 10.0.25 järgi. |
+| Tootmise tehnilised teatised | <p>Kui toode on tehnikas muutunud, võib olla oluline teavitada tootmist nendest muudatustest. Sel viisil saavad tootmistöötajad teha vastavaid tegevusi, nt komponentide asendamine, koosluse asendamine või protsessi asendamine. See funktsioon võimaldab teil teavitada tootmist toodetavate toodete muudatustest.</p><p>Lisateavet vt teemast [Tehniliste toodete muudatuste haldamine](engineering-change-management.md).</p> |  Vaikimisi versiooni 10.0.25 järgi. |
+| Paranenud tehnilise muudatuse halduse atribuudi pärimine | <p>See funktsioon lihtsustab lõpetatud kaupade või vahekaupade atribuutide haldust. Kui see funktsioon on sisse lülitatud, on lihtsam tuvastada kõiki üksusele kuuluvaid atribuute ja valida atribuudid, mida tuleks sellelt kaubalt emaüksusele levitada. See funktsioon on kasulik näiteks siis, kui üks valmistoote komponent on habras, mürgine või tuleohtlik, sest saate kergesti tuvastada hapra, mürgise või tuleohtliku atribuudi ja levitate seda valmistoodangule.</p><p>Lisateavet vt jaotisest [Tehnilised atribuudid ja tehnilise atribuudi otsing](engineering-attributes-and-search.md).</p> |  Vaikimisi versiooni 10.0.25 järgi. |
+| Toote valmisoleku kontrollid | <p>See funktsioon võimaldab seadistada standardsete toodete (mitteinsenerilistele) toodete valmisolekukontrolli. Kasutage toote valmisoleku kontrolle, et tagada iga toote täielik määratlemine ja kõigi nõutud poliitikate konfigureerimine enne toote kättesaadavaks tegemist ja kannetes kasutamist. Kui keelate selle funktsiooni mõneks ajaks pärast seda, kustutatakse kõik olemasolevad standardtoodete valmisolekukontrollid.</p><p>Lisateavet vt jaotisest [Toote valmisolek](product-readiness.md).</p> |  Vaikimisi versiooni 10.0.25 järgi. |
+| Valemite ja nende koostisosade muudatuste haldamine | <p>See funktsioon võimaldab teil jälgida valemi koostisainete, kaastoodete ja kõrvaltoodete muutusi.</p><p>Lisateavet vt jaotisest [Valemite ja nende koostisainete muudatuste haldamine](manage-formula-changes.md).</p> |  Vaikimisi versiooni 10.0.25 järgi. |
+| Tehnikatoodetele variantide loomine | <p>See funktsioon võimaldab teil luua saadaolevatel dimensiooniväärtustel põhinevaid tehnikatoodete variante.</p><p>Lisateavet vt teemast [Tehnikatoodete variantide loomine](engineering-variants.md).</p> |  Vaikimisi versiooni 10.0.25 järgi. |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
 

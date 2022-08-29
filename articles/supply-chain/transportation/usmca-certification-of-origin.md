@@ -2,7 +2,7 @@
 title: USMCA päritolusertifikaat
 description: Selle funktsiooni abil saate printida Ameerika Ühendriikide-Mehhiko-Kanada leppe (USMCA) nõutava päritoludokumentide sertifikaate.
 author: Weijiesa
-ms.date: 10/23/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-10-23
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 2a87e1aa27085f1b4821d27cece782dffbcd2096
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: edf235351fc7cbffc6bf80c7e05c53159c1e8a7f
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8851358"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336541"
 ---
 # <a name="usmca-certification-of-origin"></a>USMCA päritolusertifikaat
 
@@ -33,12 +33,9 @@ Dokument on kättesaadav ainult siis, kui juriidilise isiku põhiaadress asub on
 
 Sõltuvalt dokumendi printimise valikust saab dokumenti eeltäita teie süsteemis olevate andmetega. Prinditud dokumendile on võimalik andmeid muuta või neid lisada, eksportides prinditud dokumendi redigeeritud vormingusse, nt Microsoft Word. Pärast eksportimist saate enne deklaratsiooni esitamist rakendada mis tahes vajalikke muudatusi.
 
-## <a name="turn-on-the-usmca-feature"></a>USMCA funktsiooni sisselülitamine
+## <a name="turn-the-usmca-feature-on-or-off"></a>USMCA funktsiooni sisse- või väljalülitamine
 
-Enne USMCA funktsiooni kasutamist peate selle oma süsteemis sisse lülitama. Administraatorid saavad kasutada [funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sätteid, et kontrollida funktsiooni olekut ja selle sisse lülitada. Tööruumis **Funktsioonihaldus** loetletakse funktsiooni järgneval viisil.
-
-- **Moodul:** *Transpordihaldus*
-- **Funktsiooni nimi:** *USMCA päritoludokumendi sertifikaat*
+Selle funktsiooni kasutamiseks peab see olema teie süsteemi jaoks sisse lülitatud. Tarneahela halduse versiooni 10.0.29 puhul lülitatakse funktsioon vaikimisi sisse. Administraatorid saavad selle funktsiooni sisse või välja lülitada, otsides *originaaldokumendi funktsiooni USMCA* sertifikaadi funktsiooni funktsioonihalduse [tööruumis](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="document-content"></a>Dokumendi sisu
 

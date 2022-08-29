@@ -1,27 +1,27 @@
 ---
 title: Sissetulev laooperatsioon kassas
 description: See artikkel kirjeldab kassa sissetuleva laotoimingu võimalusi.
-author: hhaines
+author: hhainesms
 ms.date: 09/17/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: fbabcaafee74b4d0a1ca8ef79de94376a7764aa3
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.industry: Retail
+ms.search.form: ''
+ms.openlocfilehash: 3099f03ba2da8a367953ad0d25ee884e41ff9deb
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8858878"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9288348"
 ---
 # <a name="inbound-inventory-operation-in-pos"></a>Sissetulev laooperatsioon kassas
 
@@ -141,7 +141,7 @@ Ostutellimuse rea alatarne lubatud hälbe protsente saab toodete jaoks eelmäär
 
 Kui organisatsioonis on ostutellimuse alatarne konfigureerimine lõpule viidud, kuvatakse kassa kasutajatele paanil **Üksikasjad** uus suvand **Sule järelejäänud kogus**, kui nad valivad sissetuleva ostutellimuse rea toimingu **Sissetulevad varud** kaudu. Kui kasutaja sulgeb järelejäänud koguse, kontrollib kassa seda, kas suletav kogus jääb ostutellimuse real määratletud alatarne lubatud hälbe protsendi piiresse. Kui alatarne lubatud hälvet ületatakse, kuvatakse tõrketeade ja kasutaja ei saa järelejäänud kogust sulgeda enne, kui eelnevalt vastuvõetud kogus pluss kogus **Praegu vastuvõtmisel** võrdub minimaalse kogusega, mis tuleb alatarne lubatud hälbe protsendi põhjal vastu võtta, või ületab seda. 
 
-Kui ostutellimuse rea jaoks on suvand **Sule järelejäänud kogus** sisse lülitatud ja kasutaja lõpetab sissetuleku tegevuse **Lõpeta vastuvõtmine** kaudu, saadetakse sulgemise taotlus ka Commerce'i peakontorisse ja selle tellimuserea mis tahes saamata jäänud kogus tühistatakse. Sel hetkel loetakse rida täielikult vastuvõetuks. 
+**Kui järelejääva** koguse sulgemise suvand on ostutellimuse rea jaoks sisse lülitatud, siis kui kasutaja viib sissetuleku lõpule vastuvõtu lõpetamise tegevuse abil, saadetakse rakendusse Commerce headquarters sulgemistaotlus **ja** kõik selle tellimuserea parandamata kogused tühistatakse. Sel hetkel loetakse rida täielikult vastuvõetuks. 
 
 ### <a name="receiving-location-controlled-items"></a>Asukoha järgi kontrollitavate kaupade vastuvõtmine
 
@@ -155,15 +155,13 @@ Vajaduse korral saate valida rakenduse ribal suvandi **Võta kõik vastu**, et k
 
 ### <a name="receipt-of-unplanned-items-on-purchase-orders"></a>Ostutellimuste plaanimata kaupade vastuvõtmine
 
-Rakenduse Commerce versioonis 10.0.14 ja uuemates versioonides saavad kasutajad vastu võtta toote, mis ei olnud algselt ostutellimusel. Selle funktsiooni lubamiseks lülitage sisse **Ridade lisamine ostutellimusse kassa vastuvõtmise ajal**.  
-
-See funktsioon töötab ainult ostutellimuse vastuvõtmise puhul. Üleviimistellimuste jaoks ei saa kaupu vastu võtta, kui kaupu pole eelnevalt tellitud ega väljaminevast laost lähetatud.
+Rakenduse Commerce versioonis 10.0.14 ja uuemates versioonides saavad kasutajad vastu võtta toote, mis ei olnud algselt ostutellimusel. See funktsioon töötab ainult ostutellimuse vastuvõtmise puhul. Üleviimistellimuste jaoks ei saa kaupu vastu võtta, kui kaupu pole eelnevalt tellitud ega väljaminevast laost lähetatud.
 
 Kasutajad ei saa ostutellimusele kassa vastuvõtmise ajal uusi tooteid lisada, kui ostutellimuse [muutuste halduse töövoog](../supply-chain/procurement/purchase-order-approval-confirmation.md) on lubatud Commerce'i peakontoris (HQ). Muutuste halduse lubamiseks tuleb enne vastuvõtmise kinnitamist kõik ostutellimuse muudatused esmalt kinnitada. Kuna see protsess lubab vastuvõtjal lisada ostutellimusele uusi ridu, nurjub vastuvõtmine, kui muudatuste haldamise töövoog on lubatud. Kui muudatuste haldus on lubatud kõigi ostutellimuste jaoks või ostutellimusega seotud hankija jaoks, keda kassas aktiivselt vastu võetakse, ei saa kasutaja kassa vastuvõtmisel uusi tooteid ostutellimusse lisada.
 
 Ridade lisamist võimaldavat funktsiooni ei saa kasutada juba ostutellimuses olevate toodete lisakoguse vastuvõtmisel. Üleliigse koguse vastuvõtmist hallatakse tavalise [üleliigse koguse vastuvõtmise](#over-receiving-validations) sätete kaudu ostutellimusel oleva tootesarja jaoks.
 
-Kui **Ridade lisamine ostutellimusse kassa vastuvõtmise ajal** on lubatud ja kasutaja võtab kassas vastu **Sissetuleku toiminguga**, kui kasutaja skannib või sisestab toote vöötkoodi või tootekoodi, mida praegusel ostutellimusel ei tuvastata, kuid tuvastatakse sobiva kaubana, saab kasutaja teate kauba ostutellimusele lisamise kohta. Kui kasutaja lisab kauba ostutellimusele, loetakse kogus, mis on sisestatud kohta **Praegu vastuvõtmisel**, ostutellimuse rea tellitud koguseks.
+**Kui** kasutaja saab kassas sissetuleva toiminguga, kui kasutaja skannib või võtmed toote vöötkoodi või tootenumbri, mida tuvastatakse kehtiva kaubana, kuid mida ei tuvastatud praeguse ostutellimuse kaubana, saab kasutaja teate, mis palub neil kaupa ostutellimusele lisada. Kui kasutaja lisab kauba ostutellimusele, loetakse kogus, mis on sisestatud kohta **Praegu vastuvõtmisel**, ostutellimuse rea tellitud koguseks.
 
 Kui ostutellimuse vastuvõtmine on lõpule viidud ja HQ-sse töötlemiseks edastatud, luuakse lisatud read ostutellimuse koonddokumendile. HQ ostutellimuse real kuvatakse ostutellimuse rea vahekaardil **Üldine** lipp **Kassas lisatud**. Lipp **Kassas lisatud** tähistab seda, et kassa vastuvõtutoiming lisas ostutellimuse rea ja see polnud rida, mis oli ostutellimusel olemas enne vastuvõtmist.
 

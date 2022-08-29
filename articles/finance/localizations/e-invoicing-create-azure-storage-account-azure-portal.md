@@ -1,32 +1,32 @@
 ---
 title: Azure'i salvestusruumi konto loomine Azure'i portaalis
-description: See artikkel selgitab, kuidas luua elektrooniliseks arveldamiseks Azure'i salvestuskonto.
-author: dkalyuzh
+description: See artikkel selgitab, kuidas luua elektrooniliseks arveldamiseks Azure’i salvestuskonto.
+author: gionoder
 ms.date: 02/14/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: Global
-ms.author: dkalyuzh
+ms.author: gionoder
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4380261140086bcb278162f8dc70b39eaa7078fe
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.form: ''
+ms.openlocfilehash: 5eca23985c48f4e577bd4567cc2e324df5aa9690
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8898014"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9291632"
 ---
 # <a name="create-an-azure-storage-account-in-the-azure-portal"></a>Azure'i salvestusruumi konto loomine Azure'i portaalis
 
 [!include [banner](../includes/banner.md)]
 
-Kõik elektroonilised failid, mille genereerib elektroonilise arveldamise teenus või mis lähevad teenusesse töötlemise ajal, talletatakse teie ladustamiskonto Microsoft Azure konteinerites. Tagamaks, et elektroonilisel arveldamisel on neile konteineritele juurdepääs, peate andma elektroonilise arveldamise teenusele ladustamise konto ühise juurdepääsu allkirja (SAS). Lisaks, et tagada loa turvamine, ärge esitage SAS-i luba otse. Selle asemel ladustage see Azure'i võtme hoidlasse ja sisestage Azure'i võtme hoidla saladus.
+Kõik elektroonilised failid, mille genereerib elektroonilise arveldamise teenus või mis lähevad teenusesse töötlemise ajal, talletatakse teie ladustamiskonto Microsoft Azure konteinerites. Tagamaks, et elektroonilisel arveldamisel on neile konteineritele juurdepääs, peate andma elektroonilise arveldamise teenusele ladustamise konto ühise juurdepääsu allkirja (SAS). Lisaks, et tagada loa turvamine, ärge esitage SAS-i luba otse. Selle asemel ladustage see Azure’i võtme hoidlasse ja sisestage Azure’i võtme hoidla saladus.
 
 1. Avage ladustamise konto, mida plaanite kasutada elektroonilise arvelduse teenusega.
 2. Minge **sätete** \> **konfiguratsiooni** ja veenduge, et bloobi lubamise **avaliku juurdepääsu** parameeter on seatud väärtusele **Lubatud.**

@@ -2,7 +2,7 @@
 title: Koondplaneerimine koos ostu kaubanduslepetega
 description: See artikkel kirjeldab, kuidas planeerimise optimeerimine suudab leida plaanitud tellimuse hankija ja/või täitmisaja, mis põhineb ostu kaubandusleppes oleval parimal hinnal või täitmisajal.
 author: t-benebo
-ms.date: 06/29/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 29f0f44289e44b21cb304bd1f423d63f9f58f2db
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 3797ee584cdb059a97670d532cf7e1a1163cc7ff
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873749"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335221"
 ---
 # <a name="master-planning-with-purchase-trade-agreements"></a>Koondplaneerimine koos ostu kaubanduslepetega
 
@@ -29,12 +29,9 @@ ms.locfileid: "8873749"
 
 See artikkel kirjeldab, kuidas planeerimise optimeerimine suudab leida plaanitud tellimuse hankija ja/või täitmisaja, mis põhineb parimal hinnal või täitmisajal, mis leitakse kõigi antud toote jaoks määratud ostu kaubandusleppete vahel.
 
-## <a name="turn-on-the-purchase-trade-agreements-for-planning-optimization-feature"></a>Planeerimise optimeerimise funktsiooni jaoks ostulepingute sisse lülitamine
+## <a name="turn-the-purchase-trade-agreements-for-planning-optimization-feature-on-or-off"></a>Ostu kaubanduslepped plaanimise optimeerimise funktsiooni sisse- või väljalülitamine
 
-Enne selle funktsiooni kasutamist peate selle oma süsteemis sisse lülitama. Administraatorid saavad kasutada [funktsioonihalduse](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) tööruumi, et kontrollida funktsiooni olekut ja vajadusel selle sisse lülitada. Seega on funktsioon loetletud järgmisel viisil.
-
-- **Moodul:** *Koondplaneerimine*
-- **Funktsiooni nimi:** *Ostulepingud planeerimise optimeerimiseks*
+Selle funktsiooni kasutamiseks peab see olema teie süsteemi jaoks sisse lülitatud. Tarneahela halduse versiooni 10.0.29 puhul on see funktsioon kohustuslik ja seda ei saa välja lülitada. Kui käitate versiooni, mis *on*[vanem](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) kui 10.0.29, saavad administraatorid selle funktsiooni sisse või välja lülitada, otsides funktsioonihalduse tööruumis funktsioonihalduse funktsiooni Plaanimise optimeerimise jaoks ostu kaubanduslepped.
 
 ## <a name="prepare-your-system-to-evaluate-purchase-trade-agreements-during-master-planning"></a>Süsteemi ettevalmistamine ostulepingute hindamiseks koondplaneerimise ajal
 

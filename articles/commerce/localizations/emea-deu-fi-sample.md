@@ -2,27 +2,28 @@
 title: Fiskaalüksuse registreerimisteenuse integratsiooni näide Saksamaa jaoks
 description: See artikkel annab ülevaate Saksamaa fiskaalintegratsiooni näidistest Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
-ms.date: 03/04/2022
+ms.date: 08/17/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.author: epopov
-ms.search.validFrom: 2020-5-29
-ms.openlocfilehash: a218989263580ea08947d3366b79e3b19b506375
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.author: josaw
+ms.search.validFrom: 2020-05-29
+ms.openlocfilehash: c3fdc0c378ad57300213357eccd50d817e06789a
+ms.sourcegitcommit: 0feb5d0b06e04f99903069ff2801577be86b8555
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8867754"
+ms.lasthandoff: 08/18/2022
+ms.locfileid: "9313937"
 ---
 # <a name="fiscal-registration-service-integration-sample-for-germany"></a>Fiskaalüksuse registreerimisteenuse integratsiooni näide Saksamaa jaoks
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 See artikkel annab ülevaate Saksamaa fiskaalintegratsiooni näidistest Microsoft Dynamics 365 Commerce.
 
-Saksamaa kassaraamatute kohalike fiskaalnõuete täitmiseks hõlmab Saksamaa funktsioon kassa (POS) näidisintegratsiooni välise fiskaalregistreerimise Microsoft Dynamics 365 Commerce teenusega. Näidis laiendab fiskaalintegratsiooni [funktsioone](fiscal-integration-for-retail-channel.md). See põhineb [EFSTA](https://www.efsta.eu/de/fiskalloesungen/deutschland) EFR-i (elektroonilise finantsregistri) [lahendusel](https://www.efsta.eu/de/) ja võimaldab HTTPS-protokolli kaudu sidet EFR-teenusega. EFR-teenus peab olema majutatud kas jaemüügi riistvarajaamas või eraldi arvutis, mida saab ühendada riistvarajaamaga. Näidis esitatakse lähtekoodina ja on osa jaemüügi tarkvara arenduskomplektist (SDK).
+Saksamaa kassaraamatute kohalike fiskaalnõuete täitmiseks hõlmab Saksamaa funktsioon kassa (POS) näidisintegratsiooni välise fiskaalregistreerimise Dynamics 365 Commerce teenusega. Näidis laiendab fiskaalintegratsiooni [funktsioone](fiscal-integration-for-retail-channel.md). See põhineb [EFSTA](https://www.efsta.eu/de/fiskalloesungen/deutschland) EFR-i (elektroonilise finantsregistri) [lahendusel](https://www.efsta.eu/de/) ja võimaldab HTTPS-protokolli kaudu sidet EFR-teenusega. EFR-teenus peab olema majutatud kas jaemüügi riistvarajaamas või eraldi arvutis, mida saab ühendada riistvarajaamaga. Näidis esitatakse lähtekoodina ja on osa Commerce’i tarkvara arenduskomplektist (SDK).
 
 Microsoft ei vabasta EFSTA-st riistvara, tarkvara ega dokumentatsiooni. Lisateabeks selle kohta, kuidas saada EFR-lahendust ja seda kasutada, võtke ühendust [EFSTA-ga](https://www.efsta.eu/de/kontakt/kontakt).
 
@@ -46,7 +47,7 @@ Järgmisi stsenaariume hõlmab Fiskaalregistreerimise teenuse integreerimisnäid
 
     3. Fiskaalregistreerimisteenuse vastuse kogumine
 
-        Turbeandmed on saadud TSE-st vastuse osana ja salvestatakse kandesse kanali andmebaasis. Turbeandmed sisaldavad järgmist teavet.
+        Turbeandmed on saadud TSE-st vastuse osana ja salvestatakse kandesse kanali andmebaasis. Turvaandmed koosnevad järgmisest teabest:
 
         - TID
         - Kande alguse kuupäev ja kellaaeg
@@ -131,7 +132,7 @@ Fiskaalintegratsiooni raamistik ei toeta müügipakkumist. Seetõttu ei ole neid
 
 ## <a name="set-up-commerce-for-germany"></a>Häälestage Saksamaa äri
 
-See jaotis kirjeldab Ärisätteid, mis on Saksamaale spetsiifilised ja soovitatavad. Lisateavet häälestuse kohta vt [Commerce'i kodulehelt](../index.md).
+See jaotis kirjeldab Ärisätteid, mis on Saksamaale spetsiifilised ja soovitatavad. Lisateavet häälestuse kohta vt [Commerce’i kodulehelt](../index.md).
 
 Saksamaale omase funktsiooni kasutamiseks peate määrama järgmised sätted.
 
@@ -248,12 +249,10 @@ Lisateavet kviitungi vormingutega töötades vt Kviitungi vormingute [häälesta
 
 ## <a name="set-up-fiscal-integration-for-germany"></a>Saate häälestada Saksamaa fiskaalintegratsiooni.
 
-Saksamaa fiskaalregistreerimisteenuse integreerimise näidis põhineb fiskaalintegratsiooni [funktsioonil](fiscal-integration-for-retail-channel.md) ja on osa Retail SDK-st. Näidis asub lahenduste **hoidla kaustas\\ FiscalIntegration\\ Efr**[Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) ([nt vabastamisnäide/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/Efr)). Näidis koosneb [fiskaaldokumendi](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) pakkujast, mis on Commerce Runtime'i (CRT) laiendus, ja fiskaalühendusest, mis on Commerce Hardware Stationi laiendus. Lisateavet Retail SDK [kasutamise kohta vt Retail SDK arhitektuurist ja sõltumatult pakendatud SDK-st](../dev-itpro/retail-sdk/retail-sdk-overview.md)[koostevõimaluste häälestamise kohta](../dev-itpro/build-pipeline.md).
+Saksamaa fiskaalregistreerimisteenuse integreerimise näidis põhineb fiskaalintegratsiooni [funktsioonil](fiscal-integration-for-retail-channel.md) ja on osa Commerce SDK-st. Näidis asub lahenduste hoidla **kaustas FiscalIntegration\\\\ Efr**[Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/). Näidis [koosneb](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) fiskaaldokumendi pakkujast, mis on Commerce Runtime’i (CRT) laiendus, ja fiskaalühendusest, mis on Commerce Hardware Stationi laiendus. Lisateavet Commerce SDK kasutamise kohta vt commerce SDK [näidised ja viitepakendite allalaadimine GitHub-st NuGet](../dev-itpro/retail-sdk/sdk-github.md)[ja koostevõimaluste kohta sõltumatu pakendamise SDK-le](../dev-itpro/build-pipeline.md).
 
-> [!WARNING]
-> Uue sõltumatu pakendi- ja [laiendusmudeli piirangute tõttu](../dev-itpro/build-pipeline.md) ei saa seda praegu selle fiskaalintegratsiooni näidise jaoks kasutada. Retail SDK eelmist versiooni peate kasutama arendaja virtuaalmasinas (VM) elutsükli Microsoft Dynamics teenustes (LCS). Lisateavet vt Saksamaa fiskaalintegratsiooni [näidise juurutuse juhistest (pärand).](emea-deu-fi-sample-sdk.md)
->
-> Uutesse versioonidesse planeeritakse fiskaalintegratsiooni valimite uue sõltumatu pakendi- ja laiendusmudeli tugi.
+> [!NOTE]
+> Fiskaalregistreerimisteenuse integreerimise näidis Saksamaa jaoks on commerce SDK-s saadaval äriversiooni 10.0.29 alusel. Commerce’i versioonis 10.0.28 või varem peate kasutama Retail SDK eelmist versiooni arendaja virtuaalmasinas (VM) Microsoft Dynamics elutsükli teenustes (LCS). Lisateavet vt Saksamaa fiskaalintegratsiooni [näidise juurutuse juhistest (pärand).](emea-deu-fi-sample-sdk.md)
 
 Viige finantsintegratsiooni seadistuse etapid lõpule, nagu on kirjeldatud [ärikanalite fiskaalintegratsiooni seadistamises](setting-up-fiscal-integration-for-retail-channel.md):
 
@@ -271,23 +270,21 @@ Viige finantsintegratsiooni seadistuse etapid lõpule, nagu on kirjeldatud [äri
 
 ### <a name="set-up-the-registration-process"></a>Registreerimisprotsessi häälestamine
 
-Registreerimisprotsessi lubamiseks järgige neid samme Commerce headquartersi häälestamiseks. Lisateavet vt Commerce'i [kanalite fiskaalintegratsiooni häälestamist](setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process).
+Registreerimisprotsessi lubamiseks järgige neid samme Commerce headquartersi häälestamiseks. Lisateavet vt Commerce’i [kanalite fiskaalintegratsiooni häälestamist](setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process).
 
 1. Laadige alla finantsdokumendi pakkuja ja fiskaalkonnektori konfiguratsioonifailid:
 
     1. [Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) Lahenduste hoidla avamine.
-    1. Valige õige väljalaske haruversioon vastavalt oma SDK-le/rakenduse versioonile (nt **[vabastamine/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33)**).
+    1. Valige õige väljalaske haruversioon vastavalt oma SDK-le/rakenduse versioonile.
     1. Avatud **src \> FiscalIntegration \> Efr**.
-    1. Laadige alla finantsdokumendi **pakkuja konfiguratsioonifail konfiguratsioonifailis Configurations \> DocumentProviders \> DocumentProviderFiscalEFRSampleGermany.xml** ([nt väljalaske fail/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/blob/release/9.33/src/FiscalIntegration/Efr/Configurations/DocumentProviders/DocumentProviderFiscalEFRSampleGermany.xml)).
-    1. Laadige alla fiskaalkonnektori **konfiguratsioonifail Configurations \> Connectors \> ConnectorEFRSample.xml** ([nt väljalaskefail/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/blob/release/9.33/src/FiscalIntegration/Efr/Configurations/Connectors/ConnectorEFRSample.xml)).
+    1. Laadige alla finantsdokumendi pakkuja konfiguratsioonifail konfiguratsioonifailis **Configurations \> DocumentProviderFiscalEFRSampleGermany.xml \>**.
+    1. Laadige alla finantskonnektori konfiguratsioonifail **configurations \> Connectors \> ConnectorEFRSample.xml-is**.
 
-    > [!WARNING]
-    > Uue sõltumatu pakendi- ja [laiendusmudeli piirangute tõttu](../dev-itpro/build-pipeline.md) ei saa seda praegu selle fiskaalintegratsiooni näidise jaoks kasutada. Retail SDK eelmist versiooni peate kasutama LCS-i arendaja VM-s. Selle fiskaalintegratsiooni näidiskonfiguratsiooni failid asuvad Retail SDK arendaja VM LCS-i kaustades:
+    > [!NOTE]
+    > Commerce’i versioonis 10.0.28 või varem peate kasutama Retail SDK eelmist versiooni arendaja VM-s LCS-s. Selle fiskaalintegratsiooni näidiskonfiguratsiooni failid asuvad Retail SDK arendaja VM LCS-i kaustades:
     >
     > - **Fiskaaldokumendi pakkuja konfiguratsioonifail:** RetailSdk\\ SampleExtensions\\ CommerceRuntime\\ Extensions.DocumentProvider.EFRSample\\ Configuration\\ DocumentProviderFiscalEFRSampleGermany.xml
     > - **Fiskaalkonnektori konfiguratsioonifail:** RetailSdk\\ SampleExtensions\\ HardwareStation\\ Extension.EFRSample\\ Configuration\\ ConnectorEFRSample.xml
-    > 
-    > Uutesse versioonidesse planeeritakse fiskaalintegratsiooni valimite uue sõltumatu pakendi- ja laiendusmudeli tugi.
 
 1. Valige suvandid **Jaemüük ja kaubandus \> Headquartersi häälestus \> Parameetrid \> Commerce’i ühiskasutuses parameetrid**. Seadke vahekaardil **Üldine** suvand Luba fiskaalintegratsioon **väärtusele** **Jah**.
 1. Minge jaemüügi ja **ärikanali häälestuse \> fiskaalintegratsiooni \>\> finantsdokumendi pakkujate** juurde ja laadige varem alla laaditud finantsdokumendi pakkuja konfiguratsioonifail.
@@ -297,7 +294,7 @@ Registreerimisprotsessi lubamiseks järgige neid samme Commerce headquartersi h�
 1. Minge jaemüügi ja **ärikanali häälestuse \> fiskaalintegratsiooni \> fiskaalühenduse \> gruppidesse**. Looge varem loodud konnektori funktsiooniprofiilile uus fiskaalühenduse grupp.
 1. Minge jaemüügi ja **ärikanali häälestuse \> fiskaalintegratsiooni \> fiskaalregistreerimisprotsessidesse \>**. Looge uus fiskaalregistreerimise protsess ja fiskaalregistreerimise protsessi samm ning valige varem loodud fiskaalühenduse grupp.
 1. Avage **Jaemüük ja kaubandus \> Kanali seadistus \> Kassa seadistus \> Kassaprofiilid \> Funktsiooniprofiilid**. Valige funktsiooniprofiil, mis on lingitud kauplusega, kus registreerimisprotsess tuleks aktiveerida. Valige finants **registreerimisprotsessi kiirkaardil** varem loodud fiskaalregistreerimise protsess.
-1. Avage **Jaemüük ja kaubandus \> Kanali seadistus \> Kassa seadistus \> Kassaprofiilid \> Riistvaraprofiilid**. Valige riistvaraprofiil, mis on lingitud riistvarajaamaga, millega fiskaalprinter on ühendatud. Valige kiirkaardil **Fiscal peripherals** varem loodud konnektori tehniline profiil.
+1. Avage **Jaemüük ja kaubandus \> Kanali seadistus \> Kassa seadistus \> Kassaprofiilid \> Riistvaraprofiilid**. Valige riistvaraprofiil, mis on seotud riistvarajaamaga, millega fiskaalregistreerimise teenus on ühendatud. Valige kiirkaardil **Fiscal peripherals** varem loodud konnektori tehniline profiil.
 1. Avage jaotusgraafik (**Retail ja Commerce Retail ja Commerce \> IT \> Distribution schedule**) **ning valige tööd 1070** **ja 1090** andmete edastamiseks kanali andmebaasi.
 
 #### <a name="default-data-mapping"></a>Vaikeandmete vastendamine
@@ -364,18 +361,17 @@ Järgmised sätted on kaasatud fiskaalkonnektori konfiguratsiooni, mis on antud 
 
 ### <a name="configure-channel-components"></a>Kanali komponentide konfigureerimine
 
-> [!WARNING]
-> Uue sõltumatu pakendi- ja [laiendusmudeli piirangute tõttu](../dev-itpro/build-pipeline.md) ei saa seda praegu selle fiskaalintegratsiooni näidise jaoks kasutada. Retail SDK eelmist versiooni peate kasutama LCS-i arendaja VM-s. Lisateavet vt Saksamaa fiskaalintegratsiooni [näidise juurutuse juhistest (pärand).](emea-deu-fi-sample-sdk.md)
->
-> Uutesse versioonidesse planeeritakse fiskaalintegratsiooni valimite uue sõltumatu pakendi- ja laiendusmudeli tugi.
+> [!NOTE]
+> - Fiskaalregistreerimisteenuse integreerimise näidis Saksamaa jaoks on commerce SDK-s saadaval äriversiooni 10.0.29 alusel. Commerce’i versioonis 10.0.28 või varem peate kasutama Retail SDK eelmist versiooni arendaja VM-s LCS-s. Lisateavet vt Saksamaa fiskaalintegratsiooni [näidise juurutuse juhistest (pärand).](emea-deu-fi-sample-sdk.md)
+> - Teie keskkonnas juurutatud ärinäidiseid ei uuendata automaatselt, kui rakendate commerce’i komponentidele teenust või kvaliteediuuendusi. Nõutavad näidised tuleb käsitsi uuendada.
 
 #### <a name="set-up-the-development-environment"></a>Saate häälestada arenduskeskkonda.
 
 Arenduskeskkonna katsetada ja näidist laiendada, järgige neid samme.
 
-1. Rakenduste hoidla leidmine [Dynamics 365 Commerce või](https://github.com/microsoft/Dynamics365Commerce.Solutions) allalaadimine. Valige õige väljalaske haruversioon vastavalt oma SDK-le/rakenduse versioonile. Lisateavet vt jaotisest Jaemüügi [SDK näidised ja viitepakendid alla laadida GitHub-st ja NuGet](../dev-itpro/retail-sdk/sdk-github.md).
+1. Rakenduste hoidla leidmine [Dynamics 365 Commerce või](https://github.com/microsoft/Dynamics365Commerce.Solutions) allalaadimine. Valige õige väljalaske haruversioon vastavalt oma SDK-le/rakenduse versioonile. Lisateavet vt commerce [SDK näidised ja viitepakendid alla laadida GitHub-st ja NuGet](../dev-itpro/retail-sdk/sdk-github.md).
 1. Avage EFR-i lahendus dynamics365Commerce.Solutions **\\ FiscalIntegration\\ EFR.sln\\** ja koostage see.
-1. Commerce'i käitusaja laienduste installimine:
+1. Commerce’i käitusaja laienduste installimine:
 
     1. Leidke laiendi CRT installer:
 
@@ -425,10 +421,10 @@ Järgige fiskaalintegratsiooni [näidise](fiscal-integration-sample-build-pipeli
 
 ## <a name="design-of-extensions"></a>Laienduste kujundus
 
-Saksamaa fiskaalregistreerimisteenuse integreerimise näidis põhineb fiskaalintegratsiooni [funktsioonil](fiscal-integration-for-retail-channel.md) ja on osa Retail SDK-st. Näidis asub lahenduste **hoidla kaustas\\ FiscalIntegration\\ Efr**[Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) ([nt vabastamisnäide/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/Efr)). Näidis koosneb [fiskaaldokumendi](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) pakkujast, mis on CRT laiendiks, ja fiskaalühendusest, mis on Commerce Hardware Stationi laiendus. Lisateavet Retail SDK [kasutamise kohta vt Retail SDK arhitektuurist ja sõltumatult pakendatud SDK-st](../dev-itpro/retail-sdk/retail-sdk-overview.md)[koostevõimaluste häälestamise kohta](../dev-itpro/build-pipeline.md).
+Saksamaa fiskaalregistreerimisteenuse integreerimise näidis põhineb fiskaalintegratsiooni [funktsioonil](fiscal-integration-for-retail-channel.md) ja on osa Commerce SDK-st. Näidis asub lahenduste hoidla **kaustas FiscalIntegration\\\\ Efr**[Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/). Näidis [koosneb](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) fiskaaldokumendi pakkujast, mis on CRT laiendiks, ja fiskaalühendusest, mis on Commerce Hardware Stationi laiendus. Lisateavet Commerce SDK kasutamise kohta vt commerce SDK [näidised ja viitepakendite allalaadimine GitHub-st NuGet](../dev-itpro/retail-sdk/retail-sdk-overview.md)[ja koostevõimaluste kohta sõltumatu pakendamise SDK-le](../dev-itpro/build-pipeline.md).
 
-> [!WARNING]
-> Uue sõltumatu pakendi- ja [laiendusmudeli piirangute tõttu](../dev-itpro/build-pipeline.md) ei saa seda praegu selle fiskaalintegratsiooni näidise jaoks kasutada. Retail SDK eelmist versiooni peate kasutama LCS-i arendaja VM-s. Lisateavet vt Saksamaa fiskaalintegratsiooni [näidise juurutuse juhistest (pärand).](emea-deu-fi-sample-sdk.md) Uutesse versioonidesse planeeritakse fiskaalintegratsiooni valimite uue sõltumatu pakendi- ja laiendusmudeli tugi.
+> [!NOTE]
+> Fiskaalregistreerimisteenuse integreerimise näidis Saksamaa jaoks on commerce SDK-s saadaval äriversiooni 10.0.29 alusel. Commerce’i versioonis 10.0.28 või varem peate kasutama Retail SDK eelmist versiooni arendaja VM-s LCS-s. Lisateavet vt Saksamaa fiskaalintegratsiooni [näidise juurutuse juhistest (pärand).](emea-deu-fi-sample-sdk.md)
 
 ### <a name="crt-extension-design"></a>CRT laiendi kujundus
 

@@ -13,19 +13,14 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f008c273a3088353c33ae8c4b0b3cbc6b274fbcf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2e3fa839b6e0f3cbaea8d2225b5a42ee8a368272
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8901143"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9337296"
 ---
 # <a name="benefits-management-overview"></a>Soodustuste halduse ülevaade
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Konkurentsivõime säilitamiseks peate pakkuma parimate töövõtjate meelitamiseks ja säilitamiseks rikkalikku soodustuste komplekti. Lisaks tavapärastele soodustustele, nagu ravi- ja hambaravikindlustus, võite tahta pakkuda ka laiendatud teenuseid, nagu abi adopteerimisel, vabaajaprogrammid ja toetus töörõivaste jaoks. Rakenduse Microsoft Dynamics 365 Human Resources soodustuste haldus pakub paindlikku lahendust, mis toetab mitmesuguseid soodustuste võimalusi. Human Resources sisaldab ka hõlpsasti kasutatavat töövõtja kogemust, mis teie pakutavat tutvustab.
 
@@ -147,6 +142,16 @@ Enne kui saate elusündmusi töödelda, peate olema käitanud avatud registreeri
 - [Elusündmuste töötlemine](hr-benefits-process-life-events.md)
 - [Elusündmuste muudatuste töötlemine](hr-benefits-process-life-event-changes.md)
 - [Elusündmuste sobivuse töötlemine](hr-benefits-process-life-event-eligibility.md)
+
+Kui elusündmuse töötlemine on lõpetatud ja kuni elusündmuse registreerimise periood on avatud, saavad töötajad teha muudatusi elusündmuse mõjutatud plaanivalikutes. Administraatorid saavad teha muudatusi töötajate nimel. Pärast registreerimisperioodi lõppu ja kinnitamata plaanitüübid pole seotud elusündmuse kandega, kanne suletakse.
+
+Kõik elusündmusest mõjutatud plaanid peavad olema valitud või loobutud ja seejärel kinnitatud. Kui plaani ei valita, sellest loobutakse ja seetõttu seda ei kinnitata, ei suletud elusündmuse kannet.
+
+Administraatorid saavad vajadusel elusündmuse kande käsitsi sulgeda, valides selle ja valides sule **.** Kui kandes on kinnitamata plaane ja administraator soovib selle sulgeda, võib elusündmuse sulgemine piirata nende plaanide redigeerimist.
+
+Suletud eluea sündmusi ei saa kustutada.
+
+Administraatorid saavad vajadusel elusündmuse kande uuesti avada, valides selle ja valides seejärel uuesti **.**
 
 ## <a name="rate-updates-optional"></a>Hinnauuendused (valikuline)
 

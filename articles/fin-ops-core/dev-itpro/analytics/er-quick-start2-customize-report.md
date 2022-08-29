@@ -1,28 +1,26 @@
 ---
 title: ER-vormingu korrigeerimine kohandatud elektroonilise dokumendi loomiseks
 description: See artikkel selgitab, kuidas kohandada Microsofti esitatud elektroonilise aruandluse (ER) vormingut nii, et see loob kohandatud elektroonilise dokumendi.
-author: NickSelin
+author: kfend
 ms.date: 06/22/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom:
-- "220314"
-- intro-internal
-ms.assetid: ''
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 492964d3cea0e474a50d6d83231f33d9508b9d9d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 220314,  ""intro-internal
+ms.assetid: ''
+ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
+ms.openlocfilehash: 8b0bcdbd011c4c04e2693a3dcb8033c3cbe2adc7
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8886787"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9283554"
 ---
 # <a name="adjust-an-er-format-to-generate-a-custom-electronic-document"></a>ER-vormingu korrigeerimine kohandatud elektroonilise dokumendi loomiseks
 
@@ -271,7 +269,7 @@ Sellisel juhul peaksite Litware, Inc.-i esindajana looma (tuletama) uue ER-vormi
 
 6. Valige **Konfiguratsiooni loomine**.
 
-Luuakse ER-vormingu konfiguratsiooni **BACS (UK kohandatud)** versioon 1.1.1. Selle versiooni [olek](general-electronic-reporting.md#component-versioning) on **Mustand** ja seda saab redigeerida. Teie kohandatud ER-vormingu praegune sisu vastab Microsofti antud vormingu sisule.
+Luuakse ER-vormingu konfiguratsiooni **BACS (UK kohandatud)** versioon 1.1.1. Selle versiooni olek on Mustand **ja** seda saab redigeerida. Teie kohandatud ER-vormingu praegune sisu vastab Microsofti antud vormingu sisule.
 
 ![ER-vormingu konfiguratsiooni BACS (UK kohandatud) versioon 1.1.1 konfiguratsioonileht.](./media/er-quick-start2-derived-format-configuration1.png)
 
@@ -324,7 +322,7 @@ Peate konfigureerima oma kohandatud vormingut nii, et see vastaks pangapõhistel
 
 ### <a name="mark-a-custom-format-as-runnable"></a><a id="MarkFormatRunnable"></a>Kohandatud vormingu märkimine käitatavaks
 
-Kui teie kohandatud vormingu esimene versioon on loodud ja selle olek on **Mustand**, saate selle käitada testimise eesmärgil. Aruande käitamiseks peate töötlema hankija makset makseviisi abil, mis viitab teie kohandatud ER-vormingule. Kui toote rakendusest ER-vormingu võetakse vaikimisi [arvesse](general-electronic-reporting.md#component-versioning) ainult versioone, mille olek on **Lõpule viidud** või **Ühiskasutusse antud**. Selle käitumise abil saab vältida ER-vormingute kasutamist, mille koostamine on lõpetamata. Kuid oma testikäivitustel saate sundida rakendust kasutama teie ER-vormingu versiooni, mille olekuks on **Mustand**. Sedasi saate korrigeerida praeguse vormingu versiooni, kui muudatusi on vaja. Lisateavet vt jaotisest [Kohaldatavus](electronic-reporting-destinations.md#applicability).
+Kui teie kohandatud vormingu esimene versioon on loodud ja selle olek on **Mustand**, saate selle käitada testimise eesmärgil. Aruande käitamiseks peate töötlema hankija makset makseviisi abil, mis viitab teie kohandatud ER-vormingule. Kui kutsute rakendusest ER-vormingu, kaalutakse vaikimisi ainult versioone, mille olek on **Lõpetatud** **või** Ühiskasutuses. Selle käitumise abil saab vältida ER-vormingute kasutamist, mille koostamine on lõpetamata. Kuid oma testikäivitustel saate sundida rakendust kasutama teie ER-vormingu versiooni, mille olekuks on **Mustand**. Sedasi saate korrigeerida praeguse vormingu versiooni, kui muudatusi on vaja. Lisateavet vt jaotisest [Kohaldatavus](electronic-reporting-destinations.md#applicability).
 
 ER-vormingu mustandversiooni kasutamiseks peate ER-vormingu selgelt märgistama.
 

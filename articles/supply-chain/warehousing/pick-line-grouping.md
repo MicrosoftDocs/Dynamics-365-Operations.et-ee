@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-12-31
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: f9e6cbf0f520f0f30c01cefba03689e9c119f2cb
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 00a4e07ac38a83cd4569006f3b6e2bdd59ed1a42
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8890621"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334531"
 ---
 # <a name="pick-line-grouping"></a>Komplekteerimisridade grupeerimine
 
@@ -30,7 +30,7 @@ Komplekteerimisridade grupeerimine võimaldab mitu töörida, millel on sama ük
 
 ## <a name="turn-on-the-pick-line-grouping-feature"></a>Komplekteerimisrea grupeerimise funktsiooni sisselülitamine
 
-Enne selle funktsiooni kasutamist peate selle oma süsteemis sisse lülitama. Administraatorid saavad kasutada [Funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) tööruumi, et kontrollida funktsiooni olekut ja vajadusel selle sisse lülitada. Seega on funktsioon loetletud järgmisel viisil.
+Enne selle funktsiooni kasutamist tuleb see teie süsteemi jaoks sisse lülitada. Administraatorid saavad kasutada [Funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) tööruumi, et kontrollida funktsiooni olekut ja vajadusel selle sisse lülitada. Seega on funktsioon loetletud järgmisel viisil.
 
 - **Moodul:** *laohaldus*
 - **Funktsiooni nimi:** *Komplekteerimisridade grupeerimine*

@@ -2,29 +2,32 @@
 title: Norra kassaregistrite juurutuse juhised (pärand)
 description: See artikkel on juurutuse juhend, mis näitab, kuidas lubada Microsoft Dynamics 365 Commerce Lokaliseerimine Norras.
 author: EvgenyPopovMBS
-ms.date: 12/20/2021
+ms.date: 08/23/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.author: epopov
+ms.author: josaw
 ms.search.validFrom: 2018-2-28
-ms.openlocfilehash: 7a6450215f152779428d3b0fd83bf09761e2ad98
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: fb597add48ac3508a88142e63d80f405b6b5f8b4
+ms.sourcegitcommit: 1dbff0b5fa1f4722a1720fac35cce94606fa4320
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8894458"
+ms.lasthandoff: 08/24/2022
+ms.locfileid: "9346041"
 ---
 # <a name="deployment-guidelines-for-cash-registers-for-norway-legacy"></a>Norra kassaregistrite juurutuse juhised (pärand)
 
 [!include [banner](../includes/banner.md)]
 
-See artikkel on juurutuse juhend, mis näitab, kuidas lubada Microsoft Dynamics 365 Commerce Lokaliseerimine Norras. Lokaliseerimine koosneb Commerce'i komponentide mitmest laiendist. Näiteks lubavad laiendid printida kviitungitele kohandatud välju, registreerida täiendavaid auditi sündmusi, müügikandeid ja maksekandeid kassas (POS), digitaalselt müügikandeid allkirjastada ja printida X- ja Z-aruanded kohalikes vormingutes. Lisateavet Norra lokaliseerimise kohta vt Norra kassaraamatu [funktsioonist](./emea-nor-cash-registers.md).
+> [!WARNING]
+> Fiskaalintegratsiooni näidisfunktsioon ei kasuta fiskaalintegratsiooni [raamistikku](./fiscal-integration-for-retail-channel.md) ja seda ei parandata hilisemate värskenduste puhul. Kasutage hoopis fiskaalintegratsiooni [raamistikul põhinevat funktsiooni](./emea-nor-fi-deployment.md).
+
+See artikkel on juurutuse juhend, mis näitab, kuidas lubada Microsoft Dynamics 365 Commerce Lokaliseerimine Norras. Lokaliseerimine koosneb Commerce’i komponentide mitmest laiendist. Näiteks lubavad laiendid printida kviitungitele kohandatud välju, registreerida täiendavaid auditi sündmusi, müügikandeid ja maksekandeid kassas (POS), digitaalselt müügikandeid allkirjastada ja printida X- ja Z-aruanded kohalikes vormingutes. Lisateavet Norra lokaliseerimise kohta vt Norra kassaraamatu [funktsioonist](./emea-nor-cash-registers.md).
 
 See näidis on osa jaemüügi tarkvara arenduskomplektist (SDK). Lisateavet SDK kohta vt jaemüügi tarkvara [arenduskomplekti (SDK) arhitektuurist](../dev-itpro/retail-sdk/retail-sdk-overview.md).
 
-See näidis koosneb Commerce Runtime'i (CRT), jaemüügiserveri ja kassa laiendustest. Selle näidisprojekti käivitamiseks peate muutma ja koosnema projektidest CRT, jaemüügiserverist ja kassaprojektidest. Soovitame kasutada jaemüügi SDK-d, et teha selles artiklis kirjeldatud muudatused. Soovitame kasutada ka allikakontrollisüsteemi, nt Microsoft Visual Studio Online (VSO), kus ühtegi faili pole veel muudetud.
+See näidis koosneb Commerce Runtime’i (CRT), jaemüügiserveri ja kassa laiendustest. Selle näidisprojekti käivitamiseks peate muutma ja koosnema projektidest CRT, jaemüügiserverist ja kassaprojektidest. Soovitame kasutada jaemüügi SDK-d, et teha selles artiklis kirjeldatud muudatused. Soovitame kasutada ka allikakontrollisüsteemi, nt Microsoft Visual Studio Online (VSO), kus ühtegi faili pole veel muudetud.
 
 > [!NOTE]
 > Rakendusel Commerce 10.0.8 ja eespool nimetatakse jaemüügiserverit Commerce Scale Unitiks. Kuna see artikkel kehtib rakenduse mitme varasema versiooni kohta, kasutatakse *jaemüügiserverit* kogu artikli jooksul.
@@ -33,7 +36,7 @@ See näidis koosneb Commerce Runtime'i (CRT), jaemüügiserveri ja kassa laiendu
 
 ### <a name="using-certificate-profiles-in-commerce-channels"></a>Serdiprofiilide kasutamine ärikanalites
 
-Commerce'i versioonides 10.0.15 ja uuemates versioonides saate kasutada kasutaja määratud serdiprofiile jaekaupluste funktsiooni jaoks, [mis](./certificate-profiles-for-retail-stores.md) toetab tõrke üleminekut võrguühenduseta, kui võtme vault või commerce headquarters pole saadaval. See funktsioon laiendab jaemüügikanalite [funktsiooni salateene haldamine](../dev-itpro/manage-secrets.md).
+Commerce’i versioonides 10.0.15 ja uuemates versioonides saate kasutada kasutaja määratud serdiprofiile jaekaupluste funktsiooni jaoks, [mis](./certificate-profiles-for-retail-stores.md) toetab tõrke üleminekut võrguühenduseta, kui võtme vault või commerce headquarters pole saadaval. See funktsioon laiendab jaemüügikanalite [funktsiooni salateene haldamine](../dev-itpro/manage-secrets.md).
 
 Selle funktsiooni rakendamiseks laiendis CRT järgige neid samme.
 
@@ -41,7 +44,7 @@ Selle funktsiooni rakendamiseks laiendis CRT järgige neid samme.
 
 2. Lisage kohandatud ohjur certificateSignatureServiceRequest projektile SequentialSignatureRegister.
 
-3. Salakutse lugemiseks, kasutades `GetUserDefinedSecretCertificateServiceRequest` konstruktorit parameetriga profileId. See käivitab funktsiooni, mis töötab serdiprofiilide sätetega. Sätete põhjal tuuakse sert kas Azure'i võtme hoidlast või kohaliku arvuti mäluseadmest.
+3. Salakutse lugemiseks, kasutades `GetUserDefinedSecretCertificateServiceRequest` konstruktorit parameetriga profileId. See käivitab funktsiooni, mis töötab serdiprofiilide sätetega. Sätete põhjal tuuakse sert kas Azure’i võtme hoidlast või kohaliku arvuti mäluseadmest.
 
     ```csharp
     GetUserDefinedSecretCertificateServiceRequest getUserDefinedSecretCertificateServiceRequest = new GetUserDefinedSecretCertificateServiceRequest(profileId: "ProfileId", secretName: null, thumbprint: null, expirationInterval: null);
@@ -160,7 +163,7 @@ Laienduskomponendid CRT kaasatakse näidiste CRT hulka. Järgmiste protseduuride
     > [!WARNING]
     > Ärge **redigeerige** faile commerceruntime.config ja CommerceRuntime.MPOSOffline.config. Need failid ei ole mõeldud kohandamiseks.
 
-#### <a name="salestransactionsignature-sample-component"></a>SalesTransactionSignature'i näidiskomponent
+#### <a name="salestransactionsignature-sample-component"></a>SalesTransactionSignature’i näidiskomponent
 
 1. Leidke projekt **Runtime.Extensions.SalesTransactionSignatureSample**.
 2. Muutke faili **App.config**, määrates sõrmejälje, kaupluse asukoha ja kaupluse nime serdi jaoks, mida tuleks kasutada müügikannete allkirjastamiseks.
@@ -214,7 +217,7 @@ Laienduskomponendid CRT kaasatakse näidiste CRT hulka. Järgmiste protseduuride
     > [!WARNING]
     > Ärge **redigeerige** faile commerceruntime.config ja CommerceRuntime.MPOSOffline.config. Need failid ei ole mõeldud kohandamiseks.
 
-#### <a name="salestransactionsignature-sample-component"></a>SalesTransactionSignature'i näidiskomponent
+#### <a name="salestransactionsignature-sample-component"></a>SalesTransactionSignature’i näidiskomponent
 
 1. Leidke projekt **Runtime.Extensions.SalesTransactionSignatureSample**.
 2. Muutke faili **App.config**, määrates sõrmejälje, kaupluse asukoha ja kaupluse nime serdi jaoks, mida tuleks kasutada müügikannete allkirjastamiseks.
@@ -291,7 +294,7 @@ Laienduskomponendid CRT kaasatakse näidiste CRT hulka. Järgmiste protseduuride
     > [!WARNING]
     > Ärge **redigeerige** faile commerceruntime.config ja CommerceRuntime.MPOSOffline.config. Need failid ei ole mõeldud kohandamiseks.
 
-#### <a name="salestransactionsignature-sample-component"></a>SalesTransactionSignature'i näidiskomponent
+#### <a name="salestransactionsignature-sample-component"></a>SalesTransactionSignature’i näidiskomponent
 
 1. Leidke projekt **Runtime.Extensions.SalesTransactionSignatureSample**.
 2. Muutke faili **App.config**, määrates sõrmejälje, kaupluse asukoha ja kaupluse nime serdi jaoks, mida tuleks kasutada müügikannete allkirjastamiseks.
@@ -895,7 +898,7 @@ Täitke järgmine protseduur ainult juhul, kui kasutate jaemüügi 7.3.1 ja uuem
 
 #### <a name="modern-pos-extension-components"></a>Tänapäevase kassa laienduse komponendid
 
-1. Avage lahendus retailSdk **\\ POS\\ ModernPOS.sln-sln** ja veenduge, et seda saab kompileerida tõrgeteta. Lisaks veenduge, et saate Microsoft'ilt Modern POS-i käivitada Visual Studio, kasutades käsku **Käivita**.
+1. Avage lahendus retailSdk **\\ POS\\ ModernPOS.sln-sln** ja veenduge, et seda saab kompileerida tõrgeteta. Lisaks veenduge, et saate Microsoft’ilt Modern POS-i käivitada Visual Studio, kasutades käsku **Käivita**.
 
     > [!NOTE]
     > Tänapäevane kassa ei tohi olla kohandatud. Peate kasutajakonto juhtelemendi (UAC) lubama ja vastavalt vajadusele desinstallima modern POS-i varem installitud eksemplarid.
@@ -1250,7 +1253,7 @@ Lisateavet vt Norra kassaraamatu [funktsioonidest](./emea-nor-cash-registers.md)
 
 ## <a name="production-environment"></a>Tootmiskeskkond
 
-Järgige neid samme Commerce'i komponente sisaldavate juurutatavate pakendite loomiseks ja nende pakendite rakendamiseks tootmiskeskkonnas.
+Järgige neid samme Commerce’i komponente sisaldavate juurutatavate pakendite loomiseks ja nende pakendite rakendamiseks tootmiskeskkonnas.
 
 1. Viige lõpule selles artiklis varasemas [pilve kassa laienduse](#cloud-pos-extension-components)[komponentide või Modern POS-i](#modern-pos-extension-components) laienduskomponentide jaotises toodud sammud.
 2. Tehke paketi konfiguratsioonifailides kausta **RetailSdk Assets\\ all järgmised** muudatused:

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-05-27
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 7e17127ff6ef6c52034b8aa5e0c8404772363ca9
-ms.sourcegitcommit: 529fc10074b06f4c4dc52f2b4dc1f159c36e8dbc
+ms.openlocfilehash: 5cca06517fbdcbdae6e54c106b113a83851240c8
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/22/2022
-ms.locfileid: "9186515"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334771"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10028-august-2022"></a>Mis on uut ja mida on muudetud rakenduses Dynamics 365 Supply Chain Management 10.0.28. (august 2022)?
 
@@ -35,8 +35,8 @@ Järgmises tabelis on loetletud selles versioonis sisalduvad funktsioonid. Võim
 |---|---|---|---|
 | Varud ja logistika | [Väljaminekuga kulude integreerimise üksused kolmandate osapoolte veostele](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/landed-cost-integration-third-party-freight-forwarders) | [Väljalaadimiskulu üksuste ülevaade](../landed-cost/landed-cost-entities-overview.md) | Vaikimisi lubatud |
 | Planeerimine | [Nõudlusepõhiste materjalinõuete planeerimine (DDMRP)](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/demand-driven-material-requirements-planning-ddmrp) | [Nõudlusepõhiste materjalinõuete planeerimise ülevaade](../master-planning/planning-optimization/ddmrp-overview.md) | Funktsioonihaldus:<br>*(Eelversioon) Planeerimise optimeerimise DDMRP* |
-| Planeerimine | [Plaanimise optimeerimise tugi võimelisele/lubadustele (CTP)](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-capable-to-promise-ctp) | Peagi tulekul | Funktsioonihaldus:<br>*(Eelversioon) Planeerimise optimeerimise CTP* |
-| Planeerimine | [Kõlblikkusaja plaanimise optimeerimise tugi](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-shelf-life) | Peagi tulekul | Vaikimisi lubatud |
+| Planeerimine | [Plaanimise optimeerimise tugi võimelisele/lubadustele (CTP)](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-capable-to-promise-ctp) | [Müügitellimuse tarnekuupäevade arvutamine CTP-d kasutades](../master-planning/planning-optimization/calculate-delivery-dates-using-ctp.md) | Funktsioonihaldus:<br>*(Eelversioon) Planeerimise optimeerimise CTP* |
+| Planeerimine | [Kõlblikkusaja plaanimise optimeerimise tugi](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-shelf-life) | [Piiratud kõlblikkusajaga toodete koondplaneerimine](../master-planning/planning-optimization/shelf-life.md) | Vaikimisi lubatud |
 
 ## <a name="feature-enhancements-included-in-this-release"></a>Selles väljalaskes sisalduvad funktsioonid
 

@@ -5,22 +5,20 @@ author: RamaKrishnamoorthy
 ms.date: 08/10/2021
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: sericks
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 2e2759ff15dd8d146c642fc0da90d1a38fe855d1
-ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
+ms.openlocfilehash: d33fc6f4895b53f16cc6957a3a2fc6b1abe90a2f
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/02/2022
-ms.locfileid: "9111196"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9289510"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>Tõrkeotsingu probleemid algse häälestuse ajal
 
 [!include [banner](../../includes/banner.md)]
-
-
 
 See artikkel pakub tõrkeotsingu teavet topeltkirjutuse integreerimiseks finantside ja toimingute rakenduste ning Dataverse. Eelkõige annab see teavet, mis aitab lahendada lahenduse teadlikkusega seotud probleeme, mis võivad ilmneda topeltkirjutuse esialgse häälestamise käigus.
 
@@ -51,7 +49,7 @@ Topeltkirjutuskeskkonna linkimisel ebaõnnestub tegevus tõrketeatega:
 
 *Ühenduskomplekti salvestamine nurjus! Sama võtmega kaup on juba lisatud.*
 
-Topeltkirjutus ei toeta mitut sama nimega juriidilist isikut/ettevõtet. Näiteks kui teil on kaks ettevõtet nimega "DAT", siis rakenduses Dataverse kuvatakse see tõrketeade.
+Topeltkirjutus ei toeta mitut sama nimega juriidilist isikut/ettevõtet. Näiteks kui teil on kaks ettevõtet nimega "DAT" Dataverse, siis kuvatakse see tõrketeade.
 
 Kliendi blokeerimise tühistamiseks eemaldage tabelist **cdm_company** duplikaatkirjed rakenduses Dataverse. Kui tabelil **cdm_company** tühja nimega kirjeid, eemaldage need kirjed või parandage need.
 
@@ -87,6 +85,19 @@ On kaks põhjust, mis võivad põhjustada probleemi, kus keskkond pole leitav:
 
 + Sisselogimiseks kasutatav kasutaja pole samas rentnikus kui finantside ja toimingute eksemplar.
 + Leiti pärand-finantse ja toimingute eksemplare, mis hostiti Microsofti majutatud probleemiga avastamisprobleemiga. Selle parandamiseks värskendage finantside ja operatsioonide eksemplari. Keskkond muutub avastatavaks iga värskendusega.
+
+## <a name="403-forbidden-error-while-connections-are-being-created"></a>403 (Keelatud) tõrge ühenduste loomisel
+
+Osana topeltkirjutuse linkimisprotsessist Power Apps luuakse seotud keskkonnas kasutaja nimel kaks ühendust (*teisendusega Apihub-ühendused* Dataverse). Kui kliendil ei ole keskkonna Power Apps litsentsi, nurjub ApiHub-ühenduste loomine ja kuvatakse 403 (keelatud) tõrge. Siin on veateate näide:
+
+> MSG=\[topeltkirjutuskeskkonna laadimine nurjus. Tõrke üksikasjad: vastuse olekukood ei viita edule: 403 (keelatud). - – vastuse olekukood ei näita edukust: 403 (keelatud).\] STACKTRACE=\[ at Microsoft.Dynamics.Integrator.ProjectManagementService.DualWrite.DualWriteConnectionSetProcessor.\<CreateDualWriteConnectionSetAsync\> d\_\_ 29.MoveNext() X:\\ bt\\ 1158727\\ repo\\ src\\ ProjectManagementService\\ DualWrite\\ DualWriteConnectionSetProcessor.cs:line 297 --- Pinu jälgimise lõpp eelmisest asukohast, kus ilmnes erand --- System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw() at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task) at Microsoft.Dynamics.Integrator.ProjectManagementService.Controllers.DualWriteEnvironmentManagementController.\<SetupDualWriteEnvironmentAsync\> d\_\_ 34.MoveNext() X:\\ bt\\ 1158727\\ repo\\ src\\ ProjectManagementService Controllers\\\\ DualWriteEnvironmentManagementController.cs:line 265\]
+
+See tõrge ilmneb litsentsi puudumise Power Apps tõttu. Määrake kasutajale asjakohane litsents (nt Power Apps Proovi 2 plaan), et kasutajal oleks luba ühendusi luua. Litsentsi kontrollimiseks saab klient minna minu [konto](https://portal.office.com/account/?ref=MeControl#subscriptions) saidile praegu kasutajale määratud litsentside vaatamiseks.
+
+Lisateavet litsentsi kohta Power Apps vt järgmistest artiklitest:
+
+- [Litsentside määramine kasutajatele](/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide)
+- [Ost Power Apps teie organisatsiooni jaoks](/power-platform/admin/signup-for-powerapps-admin)
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
 

@@ -14,16 +14,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 183d0f13a17ffac723fac6c4801bd187dd54e976
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2cb3ca03e0d9d7e5423a405f1eb0372e1c19588d
+ms.sourcegitcommit: e0905a3af85d8cdc24a22e0c041cb3a391c036cb
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8888850"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9227981"
 ---
 # <a name="configure-future-life-events"></a>Tulevaste elusündmuste konfigureerimine
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Saate rakenduses Dynamics 365 Human Resources ajastada tulevasi elusündmuseid.
 
@@ -39,11 +40,12 @@ Saate rakenduses Dynamics 365 Human Resources ajastada tulevasi elusündmuseid.
    | Elusündmus logitud | Elusündmuse logimise kuupäev ja kellaaeg. |
    | Logitüüp | Näitab, kas tegevus on üks järgmiste hulgast.</br></br>- **Värskendamine** – olemasoleva kirje muutmine, mis jälgib elusündmusi</br></br>- **Sisestamine** – uue elusündmuse kirje loomine |
    | Elusündmuse tüübi ID | Elusündmuse tüübi kordumatu identifikaator. |
-   | Elusündmuse tüüp | Töövõtja soodustuste registreerimise uuendamise katalüsaator. Lisateavet vaadake elusündmuse päästikute jaotisest. |
+   | Elusündmuse tüüp | Töövõtja soodustuste registreerimise uuendamise katalüsaator. Lisateavet vt jaotisest Elusündmuse käivitajad. |
    | Olek | Kas elusündmus on töödeldud või mitte. |
-   | Liin | Tulevase elusündmuse reanumber. |
+   | Rida | Tulevase elusündmuse reanumber. |
 
 4. Valige käsk **Salvesta**. 
 
+Saate kustutada tulevasi elusündmusi. Töödeldud tulevase eluea sündmuse kustutamisel kustutatakse ka tulevane kirje. 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

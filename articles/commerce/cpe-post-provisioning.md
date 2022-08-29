@@ -1,27 +1,27 @@
 ---
-title: Einfo Dynamics 365 Commerce keskkonna konfigureerimine
+title: Dynamics 365 Commerce’i liivakastikeskkonna konfigureerimine
 description: See artikkel selgitab, kuidas pärast Microsoft Dynamics 365 Commerce seda etteaidatud päevakast keskkonda konfigureerida.
-author: psimolin
+author: josaw1
 ms.date: 06/14/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.author: psimolin
+ms.author: josaw
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 259a580981003f135e234f66e9e93ceb18605412
-ms.sourcegitcommit: 252cb41c3029b623354698463f7b44a29fd9f184
+ms.custom: ''
+ms.assetid: ''
+ms.openlocfilehash: ae6a8c63721ac32f525e1846a10c0b2caeb08f9f
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "9013105"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9270342"
 ---
-# <a name="configure-a-dynamics-365-commerce-sandbox-environment"></a>Einfo Dynamics 365 Commerce keskkonna konfigureerimine
+# <a name="configure-a-dynamics-365-commerce-sandbox-environment"></a>Dynamics 365 Commerce’i liivakastikeskkonna konfigureerimine
 
 [!include [banner](includes/banner.md)]
 
@@ -38,7 +38,7 @@ Pärast äriportaali keskkonna lõpetamist tuleb enne keskkonna kasutamist lõpu
 1. Valige loendist oma keskkond.
 1. Valige paremal olevast keskkonna teabest **Keskkonda sisselogimine**. Teid suunatakse Commerce'i peakontorisse.
 1. Veenduge, et **USRT** juriidiline isik on valitud ülemises parempoolses nurgas. See juriidiline isik on demoandmetes eelkonfigureeritud.
-1. Minge Commerce'i **parameetrite \> konfiguratsiooniparameetritele** **ja veenduge, et productSearch.UseAzureSearch** oleks kirje ja et väärtuseks on seatud **Tõene**. Kui see kirje puudub, lisage see ja seadke väärtuseks **Tõene**.
+1. Minge Commerce’i **parameetrite \> konfiguratsiooniparameetritele** **ja veenduge, et productSearch.UseAzureSearch** oleks kirje ja et väärtuseks on seatud **Tõene**. Kui see kirje puudub, lisage see ja seadke väärtuseks **Tõene**.
 1. Minge rakenduse **Retail ja Commerce \> Headquarters häälestamise rakenduse \> Commerce andmeedastaja \> lähtestamiseks**. Menüüs Lähtesta **äriedastaja** väljaminek seadke suvandi **Kustuta olemasolev konfiguratsioon väärtuseks** Jah **ja** seejärel valige **OK**.
 1. Kaupluse ja e-äri kanalite õigeks tööks tuleb need lisada Commerce Scale Uniti. Minge Rakenduse **Retail ja Commerce \> Headquarters häälestamise \> rakenduse Commerce andmeedastaja \> kanali** andmebaasi ja valige vasakul paanil Commerce Scale Unit. Kui plaanite **neid** e-ärikanaleid kasutada, **lisage jaemüügikanali kiirkaardil AW-e** e-pood, **AW** Business **e-pood ja Fabrikami** laiendatud võrgupoe kanalid. Soovi korral saate lisada jaekauplusi ka juhul, kui kasutate kassat (**nt Seattle**, **San Francisco** ja/või **SanTagem**).
 1. Kõikide muudatuste kanali andmebaasiga sünkroonimise tagamiseks valige **Commerce Scale Uniti jaoks \>** kanali andmebaasi andmete täielik sünkroonimine.
@@ -82,7 +82,7 @@ Saadaval on kolm e-kaubanduse demosaiti: Fabrikam, Adventure Works ja Adventure 
 
 1. Logige saidiehitajasse sisse, kasutades URL-i, mille märkisite üles, kui te e-kaubanduse lähtestamist ette valmistasite (vt [e-kaubanduse lähtestamine](provisioning-guide.md#initialize-e-commerce)).
 1. Valige sait (Fabrikam **,** Adventure Works **või** Adventure Works Business **), et avada saidi** seadistuse dialoogiboks.
-1. Valige domeen, mille sisestasite Commerce'i lähtestamisel.
+1. Valige domeen, mille sisestasite Commerce’i lähtestamisel.
 1. Peakontoris valige eelkonfigureeritud võrgupoe kanal (**Fabrikami laiendatud e-pood**, **AW** **e-pood või AW Business e-pood**), mis vastab vaikekanalile.
 1. Vaikekeeleks valige **en-us**.
 1. Konfigureerige tee väljad. Ühe saidi puhul võib selle tühjaks jätta, kuid see tuleb konfigureerida, kui kasutate mitme saidi puhul sama domeeninime. Näiteks kui `https://www.constoso.com` domeeni nimi on, saate kasutada tühja teed Fabrikami (`https://contoso.com`) jaoks ja seejärel kasutada "aw" Adventure Worksi (`https://contoso.com/aw`) ja "awbusiness" jaoks Adventure Worksi ärisaidil (`https://contoso.com/awbusiness`).

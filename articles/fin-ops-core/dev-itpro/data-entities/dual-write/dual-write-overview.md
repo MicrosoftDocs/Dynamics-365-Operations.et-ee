@@ -5,16 +5,16 @@ author: RamaKrishnamoorthy
 ms.date: 02/06/2020
 ms.topic: overview
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: sericks
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 599cfdab8232cab28c59c5098094c4afd351df77
-ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
+ms.openlocfilehash: 943607a3ef28db11b7bc7805257914117e6ae38c
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/02/2022
-ms.locfileid: "9112390"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9289634"
 ---
 # <a name="dual-write-overview"></a>Topeltkirjutuse ülevaade
 
@@ -73,7 +73,7 @@ Topeltkirjutusega luuakse finantside ja toimingute rakenduste mõistete ja klien
 
 Topeltkirjutus võimaldab Microsoft Dynamics 365 rakenduste üleselt andmete integreerimist. See jõuline raamistik ühendab keskkondasid ja võimaldab erinevatel ärirakendustel koos töötada. Siin on peamised põhjused, miks peaksite topeltkirjutust kasutama.
 
-+ Topeltkirjutus pakub tihedalt ühendatud, peaaegu reaalajas ja kahesuunalist integratsiooni finants- ja tegevusrakenduste ja kliendikaasamise rakenduste vahel. See integratsioon muudab Microsoft Dynamics 365 ühe peatuse poeks kõigi teie ärilahenduste jaoks. Kliendid, kes kasutavad Dynamics 365 Finance'i Dynamics 365 Supply Chain Management ja, kuid kes kasutavad kliendisuhete halduseks (CRM) Mitte-Microsofti lahendusi, teisaldavad Dynamics 365 poole oma topeltkirjutuse toe saamiseks.
++ Topeltkirjutus pakub tihedalt ühendatud, peaaegu reaalajas ja kahesuunalist integratsiooni finants- ja tegevusrakenduste ja kliendikaasamise rakenduste vahel. See integratsioon muudab Microsoft Dynamics 365 ühe peatuse poeks kõigi teie ärilahenduste jaoks. Kliendid, kes kasutavad Dynamics 365 Finance’i Dynamics 365 Supply Chain Management ja, kuid kes kasutavad kliendisuhete halduseks (CRM) Mitte-Microsofti lahendusi, teisaldavad Dynamics 365 poole oma topeltkirjutuse toe saamiseks.
 + Klientide, toodete, operatsioonide, projektide ja asjade Interneti (IoT) andmed voolavad automaatselt topeltkirjutuse kaudu teenusesse Dataverse. See ühendus on kasulik ettevõtetele, kes on huvitatud Power Platformi laiendustest.
 + Topeltkirjutuse infrastruktuur järgib puuduva koodi / vähese koodi põhimõtet. Standardsete tabelist tabelisse kaartide laiendamiseks ja kohandatud kaartide kaasamiseks on vajalik minimaalne projekteerimise panus.
 + Topeltkirjutus toetab nii ühendusega režiimi kui ka võrguühenduseta režiimi. Microsoft on ainus ettevõte, mis pakub ühendusega ja võrguühenduseta režiimide tuge.

@@ -2,7 +2,7 @@
 title: Tootmisosakonna täideviimisliidese konfigureerimine
 description: See artikkel kirjeldab, kuidas luua tootmispinna täitmisliidesele üks või mitu konfiguratsiooni. Tootmisosakonna käivitusliidese avamisel laadib see automaatselt valitud konfiguratsiooni ja tööfiltri, mis vastavad brauserile ja seadmele. Konfiguratsioonis seadistate poliitikad, mis peavad vastama konkreetsele kasutusele.
 author: johanhoffmann
-ms.date: 10/05/2020
+ms.date: 08/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: f740b68128b90fc7c9ce2f74edc4f3c06f03debd
-ms.sourcegitcommit: 5b34b41ae74269ba639e2876bc5862ef468da1cc
-ms.translationtype: HT
+ms.openlocfilehash: ae574e25c5ef0c1736ec13e2ee3fcc11b323721f
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "9167757"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336181"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Tootmisosakonna käivitusliidese konfigureerimine
 
@@ -35,7 +35,7 @@ See artikkel kirjeldab erinevaid valikuid tootmispinna täitmisliidese konfigure
 
 ## <a name="turn-on-the-production-floor-execution-interface-and-its-related-optional-features"></a>Tootmisosakonna käivitusliidese ja sellega seotud valikuliste funktsioonide sisselülitamine
 
-Tootmispinna täitmisliides ja mitmed selles artiklis kirjeldatud valikulised sätted tuleb enne nende kasutamist süsteemi sisse lülitada. Kasutage [funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) lehte, et lülitada sisse vajaduse järgi mõned või kõik järgmistes jaotistes kirjeldatud funktsioonidest.
+Tootmispinna täitmisliides ja mitmed selles artiklis kirjeldatud valikulised sätted tuleb enne nende kasutamist süsteemi jaoks sisse lülitada. Kasutage [funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) lehte, et lülitada sisse vajaduse järgi mõned või kõik järgmistes jaotistes kirjeldatud funktsioonidest.
 
 ### <a name="the-production-floor-execution-interface"></a>Tootmisosakonna käivitusliides
 
@@ -63,63 +63,58 @@ Tarneahela halduse versiooni 10.0.21 puhul on see funktsioon vaikimisi sisse lü
 
 ### <a name="asset-management-functionality-for-the-production-floor-execution-interface"></a>Tootmisosakonna täideviimisliidese varahoolduse funktsioon
 
-See funktsioon lisab tootmisosakonna täideviimisliidesele varahalduse vahekaardi. Töötajad saavad kasutada seda vahekaarti, et valida vara, mis on ühendatud tööloendi valitud filtriga masinaressursiga. Valitud masina vara puhul saab töötaja vaadata vara olekut ja seisundit loenduri väärtustest kuni nelja valitud loenduri puhul. Kui soovite seda funktsiooni kasutada, lülitage [funktsioonide halduses](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sisse järgmised funktsioonid.
+See funktsioon lisab tootmisosakonna täideviimisliidesele varahalduse vahekaardi. Töötajad saavad kasutada seda vahekaarti, et valida vara, mis on ühendatud tööloendi valitud filtriga masinaressursiga. Valitud masina vara puhul saab töötaja vaadata vara olekut ja seisundit loenduri väärtustest kuni nelja valitud loenduri puhul.
 
-- *Tootmisosakonna täideviimisliidese varahoolduse funktsioon*<br>(Tarneahela halduse versiooni 10.0.25 kohaselt on see funktsioon vaikimisi sisse lülitatud.)
+Tarneahela halduse versiooni 10.0.25 puhul lülitatakse see funktsioon vaikimisi sisse. Tarneahela halduse versiooni 10.0.29 puhul on see funktsioon kohustuslik ja seda ei saa välja lülitada. Kui käitate versiooni, mis *on*[vanem kui 10.0.29, saavad administraatorid selle funktsiooni sisse või välja lülitada, otsides tootmispinna käivitamise liidese funktsiooni jaoks Põhivarahalduse funktsioone Funktsioonihalduse tööruumis.](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
 
-### <a name="enable-job-search"></a>Luba tööotsing
+### <a name="job-search"></a>Tööotsing
 
-See funktsioon võimaldab lisada tööde loendisse otsinguvälja. Töötajad saavad leida konkreetse töö, sisestades töö ID või otsides kõik konkreetse tellimuse tööd, sisestades tellimuse ID. Töötajad saavad sisestada ID võtmeklahvistikuga või vöötkoodi skannides. Kui soovite seda kasutada, lülitage [funktsioonide halduses](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sisse järgmised funktsioonid.
+See funktsioon võimaldab lisada tööde loendisse otsinguvälja. Töötajad saavad leida konkreetse töö, sisestades töö ID või otsides kõik konkreetse tellimuse tööd, sisestades tellimuse ID. Töötajad saavad sisestada ID võtmeklahvistikuga või vöötkoodi skannides.
 
-- *Tootmisosakonna täideviimisliidese töö otsing*<br>(Tarneahela halduse versiooni 10.0.25 kohaselt on see funktsioon vaikimisi sisse lülitatud.)
+Tarneahela halduse versiooni 10.0.25 puhul lülitatakse see funktsioon vaikimisi sisse. Tarneahela halduse versiooni 10.0.29 puhul on see funktsioon kohustuslik ja seda ei saa välja lülitada. Kui käitate versiooni, mis *on*[vanem kui 10.0.29, saavad administraatorid selle funktsiooni sisse või välja lülitada, otsides tootmispinna käivitusliidese funktsiooni Tööotsingust Funktsioonihalduse tööruumis.](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
 
-### <a name="enable-reporting-on-co-products-and-by-products"></a>Lubage kaas- ja kõrvalsaaduste aruandlus
+### <a name="report-on-co-products-and-by-products"></a>Aruanne kaastoodete ja kaastoodete kohta
 
-See funktsioon võimaldab töötajatel kasutada partiitellimuste edenemisest teatamiseks tootmispõranda täitmisliidest. See aruandlus hõlmab kaas- ja kõrvalsaaduste aruandlust. Selle funktsiooni kasutamiseks lülitage funktsioonihalduses sisse järgmine [funktsioon](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+See funktsioon võimaldab töötajatel kasutada partiitellimuste edenemisest teatamiseks tootmispõranda täitmisliidest. See aruandlus hõlmab kaas- ja kõrvalsaaduste aruandlust.
 
-- *Tootmisosakonna täideviimisliidese kaas- ja kõrvalsaaduste aruanne*
+Selle funktsiooni kasutamiseks peab see olema teie süsteemi jaoks sisse lülitatud. Tarneahela halduse versiooni 10.0.29 puhul lülitatakse funktsioon vaikimisi sisse. Administraatorid saavad selle funktsiooni sisse või välja *lülitada, otsides kaastoodete ja by-toodete*[aruannet tootmisjuhtimise liidese funktsioonist Funktsioonihalduse tööruumis](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-### <a name="enable-the-display-of-full-serial-batch-and-license-plate-numbers"></a>Luba seeria-, partii- ja litsentsiplaadi numbrite kuvamist
+### <a name="display-full-serial-batch-and-license-plate-numbers"></a>Kuva seeria-, partii- ja litsentsiplaadinumbrid
 
 See funktsioon pakub täiustatud kogemust seeria-, partii- ja litsentsiplaadinumbrite loendite vaatamiseks tootmispinna käivitamise liideses. Kuvamismuudatused kaardivaates, mis näitab piiratud arvu märke loendivaatesse, mis annab täisväärtuste näitamiseks piisavalt ruumi. Loend võimaldab ka otsida kindlaid numbreid.
 
+Selle funktsiooni kasutamiseks peab see olema teie süsteemi jaoks sisse lülitatud. Tarneahela halduse versiooni 10.0.25 puhul lülitatakse funktsioon vaikimisi sisse. Tarneahela halduse versiooni 10.0.29 puhul on see funktsioon kohustuslik ja seda ei saa välja lülitada. Kui käitate versiooni, mis on *vanem kui 10.0.29, saavad administraatorid selle funktsiooni sisse ja välja lülitada, otsides tootmispinna käivitamise liidese funktsioonist Seeria-,*[partii](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)- ja litsentsiplaadi numbreid Funktsioonihalduse tööruumis.
+
+
 Tarneahela halduse versiooni 10.0.25 puhul lülitatakse see funktsioon vaikimisi sisse. Administraatorid saavad selle funktsiooni sisse *või välja lülitada, otsides funktsioonihalduse tööruumis tootmispinna käivitamise liidese funktsioonist täielikke seeria-,*[partii- ja litsentsiplaadi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) numbreid.
 
-### <a name="enable-registering-of-material-consumption"></a>Luba materjalitarbimise registreerimine
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-<!-- KFM: preview until further notice -->
+### <a name="register-material-consumption"></a>Materjali tarbimise registreerimine
 
 See funktsioon võimaldab töötajatel kasutada tootmispinna käivitamise liidest materjalitarbimise, partiinumbrite ja seerianumbrite registreerimiseks. Mõned tootjad, eriti need, mis on protsessitööstuses, peavad eraldi registreerima materjali hulga, mida tarbitakse iga partii või tootmistellimuse puhul. Töötajad võivad näiteks kaalu kasutada tarbimisel tarbitava materjali kaalu kaalumiseks. Täieliku materjalijälgitavuse tagamiseks peavad need organisatsioonid registreerima ka iga toote tootmiseks tarbitud partiinumbrid.
 
 Funktsioonil on kaks versiooni. Need kaubad toetavad kaupu, mille *puhul ei ole* laohaldusprotsesse (WMS) lubatud. Teised toetavad KAUPU, mis on *WMS-i* kasutamiseks lubatud. Selle funktsiooni kasutamiseks lülitage sisse üks või mõlemad funktsioonihalduses (selles järjekorras) sõltuvalt sellest, kas teil on [WMS](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)-i jaoks lubatud kaupu:
 
-- *Registreeri materjalitarbimine tootmispinna käivitamise liideses (non-WMS)*
-- *(Eelvaade) Materjalikulu registreerimine tootmisosakonna käivitusliideses (WMS-loaga)*
+- *Materjali tarbimise registreerimine tootmisosakonna täideviimisliideses (mitte-WMS)*
+- *Registreeri materjalitarbimine tootmispinna käivitamise liideses (WMS-lubatud)*
 
 > [!IMPORTANT]
 > Saate kasutada ainult mitte-WMS-funktsiooni. Kuid WMS-i kasutamisel peate lubama mõlemad funktsioonid.
 
-### <a name="enable-reporting-on-catch-weight-items"></a>Tegeliku kaaluga kaupade aruandluse lubamine
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-<!-- KFM: preview until further notice -->
+### <a name="report-on-catch-weight-items"></a>Tegeliku kaaluga kaupade aruanne
 
 Töötajad saavad kasutada tootmispinna käivitamise liidest tegeliku kaalu kaupade partiitellimuste edenemise aruandeks. Partiitellimused luuakse valemitest, mille puhul saab määrata tegeliku kaalu kaubad valemiüksustena, kaastoodetena ja kaastoodetena. Valemit saab määratleda ka nii, et valemiread peaksid olema määratletud tegeliku kaalu jaoks määratletud koostisainete jaoks. Tegeliku kaalu kaubad kasutavad varude jälgimiseks kahte mõõtühiku ühikut: tegeliku kaalu kogus ja varude kogus. Näiteks võib toiduainetetööstuses määratleda karbistatud liha tegeliku kaalu kaubana, kus tegeliku kaalu kogust kasutatakse kastide arvu jälgimiseks ja varude kogust kasutatakse väljade kaalu jälgimiseks.
 
 Selle funktsiooni kasutamiseks lülitage funktsioonihalduses sisse järgmine [funktsioon](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
 
-- *(Eelversioon) Aruanne tegeliku kaalu üksuste kohta tootmisosakonna täideviimisliidesest*
+- *Aruanne tegeliku kaalu üksuste kohta tootmisosakonna täideviimisliidesest*
 
-### <a name="enable-the-my-day-dialog"></a>Dialoogi Minu päev lubamine
+### <a name="the-my-day-dialog"></a>Dialoog Minu päev
 
 Dialoogiaken **Minu** päev annab töötajatele ülevaate nende igapäevastest registreerimistest ja jooksvatest saldodest tasustatud aja, tasustatud ületunnitöö, puudumiste ja tasustatud puudumiste kohta.
 
-Selle funktsiooni kasutamiseks lülitage funktsioonihalduses sisse järgmine [funktsioon](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+Selle funktsiooni kasutamiseks peab see olema teie süsteemi jaoks sisse lülitatud. Tarneahela halduse versiooni 10.0.29 puhul lülitatakse funktsioon vaikimisi sisse. Administraatorid saavad selle funktsiooni sisse või välja lülitada, *otsides tootmispinna käivitamise liidese funktsiooni "Minu päev"* vaadet Funktsioonihalduse [tööruumis](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-- *Tootmisosakonna täideviimisliidese vaade Minu päev*
-
-### <a name="enable-teams"></a>Töörühmade lubamine
+### <a name="teams"></a>Meeskonnad
 
 Kui samale tootmistööle on määratud mitu töötajat, saavad nad moodustada meeskonna. Meeskond võib määrata ühe töötaja piloodiks. Ülejäänud töötajatest saavad seejärel automaatselt selle piloodi abilised. Tulemuseks saadud meeskonna puhul peab ainult piloot registreerima töö oleku. Ajakirjed kehtivad kõigi töörühma liikmete kohta.
 
@@ -127,7 +122,7 @@ Selle funktsiooni kasutamiseks lülitage funktsioonihalduses sisse järgmine [fu
 
 - *Tootmistöörühmad tootmisosakonna täideviimisliideses*
 
-### <a name="enable-additional-configuration-in-the-production-floor-execution-interface"></a>Lubab lisakonfiguratsiooni tootmispinna käivitamise liideses
+### <a name="additional-configuration-in-the-production-floor-execution-interface"></a>Tootmise juhtimise liidese lisakonfiguratsioon
 
 See funktsioon lisab tootmise juhtimise lehe konfigureerimisele järgmiste **funktsioonide** sätted:
 
@@ -142,7 +137,6 @@ Teave sätete kasutamise kohta antakse hiljem selles artiklis.
 Selle funktsiooni kasutamiseks lülitage funktsioonihalduses sisse järgmine [funktsioon](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
 
 - *Tootmisosakonna täideviimisliidese täiendav konfiguratsioon*
-
 
 ## <a name="work-with-production-floor-execution-configurations"></a>Tootmisosakonna käivituskonfiguratsioonidega töötamine
 

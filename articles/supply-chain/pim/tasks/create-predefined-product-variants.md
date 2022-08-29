@@ -2,7 +2,7 @@
 title: Eelmääratletud tootevariantide loomine
 description: Selles protseduuris juhendatakse teid looma tooteetalonidele tootevariante, kasutades tootedimensioonide kombinatsioone.
 author: t-benebo
-ms.date: 04/22/2021
+ms.date: 08/09/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 6d3a4ae8efd438e01c263af1c0a1746d9484e491
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: a26439b8c7346cdce2b4c9804493fea94c29ac31
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103094"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335911"
 ---
 # <a name="predefined-product-variants"></a>Eelmääratletud tootevariandid
 
@@ -86,7 +86,7 @@ Selle funktsiooniga lisatakse järgmised parendused:
 
 ### <a name="turn-the-variant-suggestions-page-improvements-feature-on-or-off"></a>Variandisoovituste lehe parendusfunktsiooni sisse- või väljalülitamine
 
-Tarneahela halduse versiooni 10.0.25 puhul lülitatakse see funktsioon vaikimisi sisse. Administraatorid saavad selle funktsiooni sisse või välja lülitada, otsides *funktsioonihalduse*[tööruumist variandisoovituste lehekülje parendusfunktsiooni.](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
+Selle funktsiooni kasutamiseks peab see olema teie süsteemi jaoks sisse lülitatud. Tarneahela halduse versiooni 10.0.25 puhul lülitatakse funktsioon vaikimisi sisse. Tarneahela halduse versiooni 10.0.29 puhul on see funktsioon kohustuslik ja seda ei saa välja lülitada. Kui käitate versiooni, mis *on*[vanem kui 10.0.29, saavad administraatorid selle funktsiooni sisse ja välja lülitada, otsides funktsioonihalduse tööruumis variandisoovituste lehekülje parendusfunktsioone](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ### <a name="work-with-the-improved-variant-suggestions"></a>Täiustatud variandisoovitustega töötamine
 

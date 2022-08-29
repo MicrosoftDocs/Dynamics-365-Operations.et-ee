@@ -1,26 +1,26 @@
 ---
 title: Teenusekeskkonnad
 description: See artikkel annab teavet elektroonilise arveldamise teenusekeskkonna kohta ja selgitab nende häälestamist.
-author: dkalyuzh
+author: gionoder
 ms.date: 02/28/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: Global
-ms.author: dkalyuzh
+ms.author: gionoder
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8c743c5b2fbc7dcc3ae04fa4d7ca0e65de6c2507
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.form: ''
+ms.openlocfilehash: ff6f50ff78676f5efed7d905fb622ad662b541d7
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8901243"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9291595"
 ---
 # <a name="service-environments"></a>Teenusekeskkonnad
 
@@ -85,13 +85,13 @@ Kui teie stsenaariumid nõuavad numbriseeriaid (näiteks failinimedes), saate ka
 5. **Võtme hoidla parameetrite lehel valige** võtme **hoidla** viite loomiseks uus.
 6. **Sisestage väljale** Nimi võtme hoidla viite nimi.
 7. Väljale **Kirjeldus** sisestage kirjeldus.
-8. URI **võtmeväljal** kleepige võtme vault URI võtmehoidlast (`https://<your key vault>.vault.azure.net/`). Lisateavet vt Azure'i [võtme vault loomisest Azure'i portaalis](e-invoicing-create-azure-key-vault-azure-portal.md).
+8. URI **võtmeväljal** kleepige võtme vault URI võtmehoidlast (`https://<your key vault>.vault.azure.net/`). Lisateavet vt Azure’i [võtme vault loomisest Azure’i portaalis](e-invoicing-create-azure-key-vault-azure-portal.md).
 9. Valige käsk **Salvesta**.
     
 ## <a name="create-a-secret-for-the-storage-account-secret-token"></a>Looge salvestuskonto salalubade jaoks saladus
 
 1. Valige lehel **Võtme Hoidla parameetrid** võtme vaultviide, mille lõite eelmises protseduuris **,** ja seejärel valige jaotises Sertifikaadid suvand **Lisa**.
-2. Väljal **Nimi** sisesta salvestuskonto saladuse nimi. See nimi peab vastama võtme vault-saladuse nimele, mis sisaldab salvestuse ühiskasutuses juurdepääsu allkirja (SAS) luba. Lisateavet vt Azure'i [ladustamiskonto loomine Azure'i portaalis](e-invoicing-create-azure-storage-account-azure-portal.md). 
+2. Väljal **Nimi** sisesta salvestuskonto saladuse nimi. See nimi peab vastama võtme vault-saladuse nimele, mis sisaldab salvestuse ühiskasutuses juurdepääsu allkirja (SAS) luba. Lisateavet vt Azure’i [ladustamiskonto loomine Azure’i portaalis](e-invoicing-create-azure-storage-account-azure-portal.md). 
 3. Väljale **Kirjeldus** sisestage kirjeldus.
 4. Väljalt **Tüüp** valige **Vali**.
 5. Valige käsk **Salvesta**.

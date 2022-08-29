@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-04-03
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: a82a3b26f2bf7cb546383da047d18c2997569ca5
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: df20f00a639d237bf8446f24a2ad4cbbfcf36615
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9065115"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334381"
 ---
 # <a name="warehouse-management-on-hand-entries-cleanup-job"></a>Laohalduse vabade kirjete puhastustöö
 
@@ -26,7 +26,7 @@ ms.locfileid: "9065115"
 
 Vabade varude arvutamiseks kasutatavat päringute jõudlust mõjutab kaasatud tabelites sisalduvate kirjete arv. Üks viis jõudluse parandamiseks on vähendada kirjete arvu, mida andmebaas peab arvestama.
 
-See artikkel kirjeldab vaba kaubavaru kirjete puhastustööd, mis kustutab mittevajalikke kirjeid ja tabeleid `InventSum``WHSInventReserve`. Antud tabelid talletavad laohalduse töötlemise jaoks lubatud kaupade vabade varude teavet. (Neid kaupu nimetatakse WMS kaupadeks.) Antud kirjete kustutamine võib parandada märkimisväärselt vabade varude arvutuste jõudlust.
+See artikkel kirjeldab vaba kaubavaru kirjete puhastustööd, mis kustutab mittevajalikke kirjeid ja tabeleid`InventSum``WHSInventReserve`. Antud tabelid talletavad laohalduse töötlemise jaoks lubatud kaupade vabade varude teavet. (Neid kaupu nimetatakse WMS kaupadeks.) Antud kirjete kustutamine võib parandada märkimisväärselt vabade varude arvutuste jõudlust.
 
 ## <a name="what-the-cleanup-job-does"></a>Puhastustöö otstarve
 
@@ -39,7 +39,7 @@ Negatiivseete füüsiliste varude lubamise korral ei pruugita puhastustöö käi
 Vabade varude puhastustöö on saadaval asukohas **Varude haldus \> Perioodilised ülesanded \> Puhastus \> Laohalduse vabade kirjete puhastustöö**. Töö käitamise ulatuse ja graafiku kontrollimiseks kasutage tavapäraseid töösätteid. Lisaks pakutakse järgmisi sätteid.
 
 - **Kustutada, kui pole värskendatud antud arv päevi** – sisestage minimaalne päevade arv, kui kaua töö peaks ootama enne nullkoguseni langenud vabade varude kirje kustutamist. Kasutage seda sätet, et vähendada kasutatavate vabade varude kirjete kustutamise ohtu. Kui soovite teostada puhastustöö esimesel võimalusel, siis sisestage väärtuseks *0* (null) või jätke väli tühjaks.
-- **Maksimaalne teostamisaeg (tundides)** – sisestage puhastustöö maksimaalne teostamisaeg tundides. Kui töö ei ole enne selle aja möödumist lõpule viidud, siis salvestatakse seni tehtud töö ja suletakse toiming. See võimalus on eriti oluline rakenduste puhul, kus varude kasutamise tase on kõrge. Sellisel juhul tuleb planeerida töö käitamine ajale, mil süsteemi koormus on võimalikult väike. Kui soovite, et partiitöö jätkuks lõpule viimiseni, siis sisestage väärtuseks *0* (null) või jätke väli tühjaks. See säte on saadaval vaid juhul, kui seotud funktsioon on [teie süsteemis sisse lülitatud](#max-execution-time).
+- **Maksimaalne teostamisaeg (tundides)** – sisestage puhastustöö maksimaalne teostamisaeg tundides. Kui töö ei ole enne selle aja möödumist lõpule viidud, siis salvestatakse seni tehtud töö ja suletakse toiming. See võimalus on eriti oluline rakenduste puhul, kus varude kasutamise tase on kõrge. Sellisel juhul tuleb planeerida töö käitamine ajale, mil süsteemi koormus on võimalikult väike. Kui soovite, et partiitöö jätkuks lõpule viimiseni, siis sisestage väärtuseks *0* (null) või jätke väli tühjaks. Säte on saadaval ainult siis, kui seostuv funktsioon on teie [süsteemi jaoks sisse lülitatud](#max-execution-time).
 
 Kuigi te saate käitada tööd tavatöötundide ajal, siis soovitame seda käitada väljaspool tavatööaega. See aitab ära hoida võimalikke konflikte, mis võivad tekkida juhul, kui kasutaja töötab kirjega, mida samal ajal ka puhastatakse.
 

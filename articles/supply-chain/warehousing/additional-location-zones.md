@@ -2,7 +2,7 @@
 title: Täiendavad asukohatsoonid
 description: See artikkel annab ülevaate uutest Microsofti lisatud asukohatsoonidest Dynamics 365 Supply Chain Management.
 author: Mirzaab
-ms.date: 07/01/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: c20225cfb3c44fff955d0ad4e96c7fecf0ddf715
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 819330e0f6e6cd419da441f919d68ff996b6475c
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8900647"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336511"
 ---
 # <a name="additional-location-zones"></a>Täiendavad asukohatsoonid
 
@@ -32,7 +32,7 @@ Tsooniväljade kasutamiseks pole vaja täiendavat häälestust.
 
 ## <a name="turn-the-additional-location-zone-feature-on-or-off"></a>Täiendava asukohatsooni funktsiooni sisse- või väljalülitamine
 
-Tarneahela halduse versiooni 10.0.25 puhul lülitatakse see funktsioon vaikimisi sisse. Administraatorid saavad selle funktsiooni sisse või välja lülitada, otsides Funktsioonihalduse *tööruumist* täiendavat asukohatsooni [funktsiooni](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Selle funktsiooni kasutamiseks peab see olema teie süsteemi jaoks sisse lülitatud. Tarneahela halduse versiooni 10.0.25 puhul lülitatakse funktsioon vaikimisi sisse. Tarneahela halduse versiooni 10.0.29 puhul on see funktsioon kohustuslik ja seda ei saa välja lülitada. Kui käitate versiooni, mis *on*[vanem kui 10.0.29, saavad administraatorid selle funktsiooni sisse või välja lülitada, otsides Funktsioonihalduse tööruumist täiendavat asukohatsooni](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) funktsiooni.
 
 ## <a name="use-location-zones"></a>Asukohatsoonide kasutamine
 

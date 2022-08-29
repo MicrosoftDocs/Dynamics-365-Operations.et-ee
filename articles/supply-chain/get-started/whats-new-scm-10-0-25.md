@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: c54534ae32aa037f36a16600a058bca6d433002c
-ms.sourcegitcommit: 5b34b41ae74269ba639e2876bc5862ef468da1cc
-ms.translationtype: HT
+ms.openlocfilehash: 89036920cc8738e2948ec1a78aafc4b35fff87fa
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "9167727"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219090"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10025-april-2022"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 Supply Chain Management 10.0.25 (aprill, 2022)?
 
@@ -34,9 +34,9 @@ Järgmises tabelis on loetletud selles versioonis sisalduvad funktsioonid. Võim
 | Funktsiooniala | Funktsioon | Lisateave | Lubaja:   |
 |---|---|---|---|
 | Varud&nbsp;ja&nbsp;logistika | [Ohtlike materjalide täiustused](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/hazardous-materials-enhancements) | Peagi tulekul | Funktsioonihaldus:<br>*Ohtlike materjalide täiustused* |
-| Varud&nbsp;ja&nbsp;logistika | [Pakkimistöö pakkimisjaamade jaoks](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/packing-work-packing-stations) | Peagi tulekul | Funktsioonihaldus:<br>*Pakkimistöö pakkimisjaamade jaoks* |
+| Varud&nbsp;ja&nbsp;logistika | [Pakkimistöö pakkimisjaamade jaoks](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/packing-work-packing-stations) | [Väljaminevate konteinerite ja saadetiste töötlemise pakketöö](../warehousing/packing-work.md) | Funktsioonihaldus:<br>*Pakkimistöö pakkimisjaamade jaoks* |
 | Varud&nbsp;ja&nbsp;logistika | [Skannige vöötkoode laos, kasutades GS1-vormingu standardeid](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/scan-barcodes-warehouse-using-gs1-format-standards) | [GS1 vöötkoodid ja QR-koodid](../warehousing/gs1-barcodes.md) | Funktsioonihaldus:<br>*GS1 vöötkoodide skannimine* |
-| Tootmine | [Materjali tarbimine ja reserveerimised tootmispinna käivitamise liideses](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/material-consumption-reservations-production-floor-execution-interface) | [Kuidas töötajad kasutavad tootmisosakonna käivitusliidest](../production-control/production-floor-execution-use.md) | Funktsioonihaldus:<br>*Registreeri materjalitarbimine tootmispinna käivitamise liideses (non-WMS)*<br><br>Ja/või:<br><br>Funktsioonihaldus:<br>*(Eelvaade) Materjalikulu registreerimine tootmisosakonna käivitusliideses (WMS-loaga)* |
+| Tootmine | [Materjali tarbimine ja reserveerimised tootmispinna käivitamise liideses](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/material-consumption-reservations-production-floor-execution-interface) | [Kuidas töötajad kasutavad tootmisosakonna käivitusliidest](../production-control/production-floor-execution-use.md) | Funktsioonihaldus:<br>*Materjali tarbimise registreerimine tootmisosakonna täideviimisliideses (mitte-WMS)*<br><br>Ja/või:<br><br>Funktsioonihaldus:<br>*(Eelvaade) Materjalikulu registreerimine tootmisosakonna käivitusliideses (WMS-loaga)* |
 | Planeerimine | [Optimeerimise tsentraliseeritud kalendri hoolduse plaanimine](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-centralized-calendar-maintenance) | [Kalendrid ja koondplaneerimine](../master-planning/supply-chain-calendars-master-planning.md) | Vaikimisi lubatud |
 | Planeerimine | [Optimeerimise soovituste plaanimine olemasoleva tarne optimeerimiseks](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-suggestions-optimize-existing-supply) | [Tegevusteated](../master-planning/action-messages.md) | Vaikimisi lubatud |
 | Planeerimine | Plaanitud tellimuste lihtsustamine | [Plaanitud tellimuste lihtsustamine](../master-planning/planning-optimization/planned-orders-simplified.md ) | Funktsioonihaldus:<br>*Plaanitud tellimuste lihtsustamine* |

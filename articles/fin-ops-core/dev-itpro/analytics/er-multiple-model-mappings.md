@@ -1,24 +1,24 @@
 ---
 title: Ühe mudeli juure mitme tuletatud vastenduse haldamine
 description: See artikkel selgitab, kuidas hallata mitut tuletatud vastendust, mis konfigureeriti ühe mudeli juure jaoks.
-author: NickSelin
+author: kfend
 ms.date: 01/04/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERSolutionTable, ERModelMappingTable
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 960f5962ec1ea216e35feb0c282856bed95d079a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.form: ERSolutionTable, ERModelMappingTable
+ms.openlocfilehash: 868d47ccfebb9a9753d93344c72b10ae4353b0e6
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8892475"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9277504"
 ---
 # <a name="manage-several-derived-mappings-for-a-single-model-root"></a>Ühe mudeli juure mitme tuletatud vastenduse haldamine
 
@@ -106,7 +106,7 @@ See jaotis selgitab, kuidas [kohandada](er-quick-start3-customize-report.md#cust
 3. Valige dialoogiakna ripploendi **Konfiguratsiooni loomine** väljal **Uus** suvand **Tuleta nimest: arve mudeli vastendamine, Microsoft**.
 4. Sisestage väljale **Nimi** tekst **Arve mudeli vastendus, Litware**.
 5. Valige **Konfiguratsiooni loomine**.
-6. [Märkige](er-quick-start2-customize-report.md#MarkFormatRunnable) tuletatud vastenduse [mustand](general-electronic-reporting.md#component-versioning) käitusajal kasutamiseks kättesaadavaks.
+6. [Märkige](er-quick-start2-customize-report.md#MarkFormatRunnable) tuletatud vastenduse [mustand](general-electronic-reporting.md) käitusajal kasutamiseks kättesaadavaks.
 
     1. Tehke tegumiriba vahekaardil **Konfiguratsioonid** grupis **Täpsemad sätted** valik **Kasutaja parameetrid**.
     2. Seadke dialoogiboksis **Kasutaja parameetrid** suvandi **Käivitamissätted** väärtuseks **Jah** ja valige seejärel **OK**.

@@ -5,16 +5,16 @@ author: gvrmohanreddy
 ms.date: 01/12/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
-ms.reviewer: v-chgri
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 97407f62d462c0ae370e9ea0d2799d3f30ecacfa
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f369e3cd208cdfba816f817ead75374ee6982912
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8863397"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9271931"
 ---
 # <a name="import-and-export-ratings-and-reviews"></a>Hinnangute ja arvustuste importimine ja eksportimine
 
@@ -22,7 +22,7 @@ ms.locfileid: "8863397"
 
 See artikkel kirjeldab, kuidas importida ja eksportida toote hinnanguid ja ülevaateid moodulis Microsoft Dynamics 365 Commerce.
 
-Dynamics 365 Commerce pakub [hinnanguid ja kommentaare](ratings-reviews-overview.md) kanali kanali lahendusena. Kui lülitute Dynamics 365 Commerce üle hinnangutele ja vaatate üle lahenduse, võite soovida teisaldada oma olemasolevad hinnangud ja ülevaated andmete üle Äriplatvormile. Ärinõuete alusel võite soovida eksportida ka hinnanguid ja ülevaateid Commerce'ist. Konnektor Power Automate võimaldab teil importida hinnanguid ja ülevaateid Commerce'isse ja eksportida neid Commerce'ist.
+Dynamics 365 Commerce pakub [hinnanguid ja kommentaare](ratings-reviews-overview.md) kanali kanali lahendusena. Kui lülitute Dynamics 365 Commerce üle hinnangutele ja vaatate üle lahenduse, võite soovida teisaldada oma olemasolevad hinnangud ja ülevaated andmete üle Äriplatvormile. Ärinõuete alusel võite soovida eksportida ka hinnanguid ja ülevaateid Commerce’ist. Konnektor Power Automate võimaldab teil importida hinnanguid ja ülevaateid Commerce’isse ja eksportida neid Commerce’ist.
 
 > [!NOTE]
 > Lisateavet selle kohta, kuidas loogikavoogudega alustada, Power Automate vt teemast [Pilve voo loomine Power Automate](/power-automate/get-started-logic-flow).
@@ -37,12 +37,12 @@ Enne hinnangute ja hinnangute importimist ja eksportimist peate täitma järgmis
 
 ## <a name="import-ratings-and-reviews"></a>Hinnangute ja kommentaaride importimine
 
-Hinnangute importimiseks ja läbivaatamiseks olemasolevast süsteemist Commerce'i peate lisama Dynamics 365 Power Automate Power Automate hinnangud ja ülevaate ühenduse olemasolevale voole või uuele. Lisateavet vt – hinnangud [Dynamics 365 Commerce ja ülevaated (eelvaade).](/connectors/dynamics365ratingsre/)
+Hinnangute importimiseks ja läbivaatamiseks olemasolevast süsteemist Commerce’i peate lisama Dynamics 365 Power Automate Power Automate hinnangud ja ülevaate ühenduse olemasolevale voole või uuele. Lisateavet vt – hinnangud [Dynamics 365 Commerce ja ülevaated (eelvaade).](/connectors/dynamics365ratingsre/)
 
 > [!IMPORTANT]
 > Enne selle protseduuri sooritamist peate konfigureerima [S2S-i autentimise](service-to-service-auth.md).
 
-Hinnangute ja hinnangute importimiseks Commerce'i, kasutades Dynamics 365 hinnanguid ja ülevaateid Power Automate konnektorit, järgige neid samme.
+Hinnangute ja hinnangute importimiseks Commerce’i, kasutades Dynamics 365 hinnanguid ja ülevaateid Power Automate konnektorit, järgige neid samme.
 
 1. Valige tegevus **Kasutaja ülevaate esitamine**.
 1. Looge ühendus, kasutades Azure Active Directory () rakenduse teavet Azure AD, mis loodi S2S-i autentimise konfigureerimisel. Lisateavet vt teenuselt [teenusele autentimise konfigureerimine](service-to-service-auth.md).

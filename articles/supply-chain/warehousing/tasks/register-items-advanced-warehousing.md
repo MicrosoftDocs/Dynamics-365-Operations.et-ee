@@ -1,5 +1,5 @@
 ---
-title: Laohaldusprotsessidele lubatud kaupade registreerimine kauba saabumise töölehte kasutades
+title: Kaupade registreerimine on lubatud laohaldusprotsesside jaoks saabuva kauba töölehe abil
 description: See artikkel sisaldab stsenaariumi, mis näitab, kuidas registreerida kaupu kauba saabumise töölehel, kui kasutate laohaldusprotsesse (WMS).
 author: Mirzaab
 ms.date: 03/24/2021
@@ -14,14 +14,14 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5241c982675d6b9a9bc9596b8ac9ed2798903287
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
-ms.translationtype: HT
+ms.openlocfilehash: 66fc9e21b79d70ec14750440c74d354bb8ec0695
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9066963"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219594"
 ---
-# <a name="register-items-enabled-for-warehouse-management-processes-using-an-item-arrival-journal"></a>Laohaldusprotsessidele lubatud kaupade registreerimine kauba saabumise töölehte kasutades
+# <a name="register-items-enabled-for-warehouse-management-processes-using-an-item-arrival-journal"></a>Kaupade registreerimine on lubatud laohaldusprotsesside jaoks saabuva kauba töölehe abil
 
 [!include [banner](../../includes/banner.md)]
 
@@ -29,7 +29,7 @@ See artikkel sisaldab stsenaariumi, mis näitab, kuidas registreerida kaupu kaub
 
 ## <a name="enable-sample-data"></a>Luba näidisandmed
 
-Selle stsenaariumi läbimiseks, kasutades käesoleva artikli näidiskirjeid ja -väärtusi, peate kasutama süsteemi, kuhu on installitud standardsed demoandmed, *ja enne alustamist peate valima USMF-i* juriidilise isiku.
+Selle stsenaariumi läbimiseks, kasutades käesoleva artikli näidiskirjeid ja -väärtusi, peate kasutama süsteemi, kuhu on installitud standardsed [demoandmed](../../../fin-ops-core/fin-ops/get-started/demo-data.md), *ja enne alustamist peate valima USMF-i* juriidilise isiku.
 
 Selle stsenaariumi saate läbi töötada, asendades väärtused oma andmetega, kui teil on saadaval järgmised andmed.
 

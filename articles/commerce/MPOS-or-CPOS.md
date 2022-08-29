@@ -1,26 +1,26 @@
 ---
 title: Store Commerce'i ja Cloud POS-i vahel valimine
 description: See artikkel selgitab võtmeerinevusi poe äri ja pilve kassa vahel ning kirjeldab erinevaid tegureid, Dynamics 365 Commerce mida juurutavad jaemüüjad peaksid nende nõuete jaoks parima valiku tegema.
-author: jblucher
+author: josaw1
 ms.date: 04/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: Retail
-ms.author: jeffbl
+ms.author: josaw
 ms.search.validFrom: 2017-10-12
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 26f6e94b13b3058ac42c4c7b83dcf7179bae18e3
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.industry: Retail
+ms.openlocfilehash: bbb5f3d4c61907243bed404f3ab7bea05c78b1c0
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854002"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9276450"
 ---
 # <a name="choose-between-store-commerce-and-cloud-pos"></a>Store Commerce'i ja Cloud POS-i vahel valimine
 
@@ -38,14 +38,14 @@ Commerce toetab järgmisi kassavalikuid.
 
 - Rakenduse Store Commerce:<a1/& Microsoft Windows
 - Store Commerce iOS-ile ja Android
-- Cloud POS (CPOS), mis toetab Microsoft Edge Ja Chrome'i brauseriid
+- Cloud POS (CPOS), mis toetab Microsoft Edge Ja Chrome’i brauseriid
 - Modern POS (MPOS) for Microsoft Windows (MPOS on taunitud oktoober 2023.) 
 
 Kõigil juhtudel jagab kassa (Store Commerce ja CPOS) sama põhirakenduse koodi. See punkt on oluline järgmistel põhjustel.
 
 - Kasutajaliides (UI) on järjepidev, olenemata platvormist või vormitegurist.
 - Enamik võimalusi on samad, olenemata platvormist või vormitegurist. Kuid on ka olulisi erinevusi. Need erinevused on selles artiklis märgitud.
-- Igas kaupluses saab kassa variatsioone kombineerida ja samaaegselt käitada. Näiteks võib jaemüüja oma peamiste registrite jaoks kasutada Store Commerce'i Windowsit kasutatavates arvutites. Kuid jaemüüja saab neid registreid täiendada brauseripõhiste terminalide või mobiilsete seadmetega.
+- Igas kaupluses saab kassa variatsioone kombineerida ja samaaegselt käitada. Näiteks võib jaemüüja oma peamiste registrite jaoks kasutada Store Commerce’i Windowsit kasutatavates arvutites. Kuid jaemüüja saab neid registreid täiendada brauseripõhiste terminalide või mobiilsete seadmetega.
 - Kohandamisi ja laiendeid saab hõlpsalt kasutada erinevatel platvormidel ja vormitegurites. Kuna tuumrakenduse kood on jagatud, saab enamikku kohandamisi juurutada ühe korraga, mitte ei pea seda tegema mitu korda.
 
 ### <a name="store-commerce-vs-cpos"></a>Kaupluse äri vs. CPOS

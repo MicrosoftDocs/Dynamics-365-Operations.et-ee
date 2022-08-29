@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 62530c8ffc8be8d3bae562708872ba8eb00fa9cd
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0b0102bde3548ccf976234e1938114289b80fbba
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8847784"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335821"
 ---
 # <a name="configure-number-sequences-for-warehouse-flows"></a>Laovoogude numbriseeriate konfigureerimine
 
@@ -39,7 +39,7 @@ See funktsioon hõlbustab kastide sildistamise toetamist ja süsteemi loodud uut
 
 ## <a name="turn-on-the-number-sequence-extensions-feature"></a>Funktsiooni Numbriseeria laiendused sisselülitamine
 
-Enne selle funktsiooni kasutamist peate selle oma süsteemis sisse lülitama. Administraatorid saavad kasutada [funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) tööruumi, et kontrollida funktsiooni olekut ja vajadusel selle sisse lülitada. Seega on funktsioon loetletud järgmisel viisil.
+Enne funktsiooni kasutamist tuleb see teie süsteemi jaoks sisse lülitada. Administraatorid saavad kasutada [funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) tööruumi, et kontrollida funktsiooni olekut ja vajadusel selle sisse lülitada. Seega on funktsioon loetletud järgmisel viisil.
 
 - **Moodul:** *laohaldus*
 - **Funktsiooni nimi:** *Numbriseeria laiendused*

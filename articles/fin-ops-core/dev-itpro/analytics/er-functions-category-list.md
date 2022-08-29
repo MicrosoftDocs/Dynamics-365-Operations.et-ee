@@ -1,25 +1,25 @@
 ---
 title: ER-i funktsioonide loend loendi kategoorias
 description: See artikkel annab teavet loendifunktsioonide kohta, mida toetab elektrooniline aruandlus (ER).
-author: NickSelin
+author: kfend
 ms.date: 04/01/2020
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.custom: 58771
-ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b39da482578636d94faaa3117bd40a579f3ae636
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 58771
+ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
+ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
+ms.openlocfilehash: 6c28445f731393857cdb0c75c1244e557b5ff4a4
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8869051"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9277688"
 ---
 # <a name="list-of-er-functions-in-the-list-category"></a>ER-i funktsioonide loend loendi kategoorias
 
@@ -47,6 +47,7 @@ Elektroonilise aruandluse (ER) loendi funktsioone saab kasutada andmete ekstrakt
 | [ListOfFields](er-functions-list-listoffields.md)         | See funktsioon tagastab *kirjete loendi* väärtuse, mis luuakse tüübi *Loetelu* või *Konteiner (kirje)* määratud argumendi struktuuri põhjal. |
 | [ListOfFirstItem](er-functions-list-listoffirstitem.md)   | See funktsioon tagastab *kirjete loendi* väärtuse, mis koosneb ainult määratud loendi esimesest kirjest.|
 | [OrderBy](er-functions-list-orderby.md)                   | See funktsioon tagastab määratud loendi *kirjete loendi* väärtusena, kui see on vastavalt määratud argumentidele sorditud. Neid argumente saab määratleda avaldistena. |
+| [Korda](er-functions-list-repeat.md)                     | See funktsioon loob kirje, mis sisaldab välja, mille väärtus vastab määratud sisestusega. Seejärel tagastab see kirjeloendi *,* mida korratakse määratud arv kordi. |
 | [Storneeri](er-functions-list-reverse.md)                   | See funktsioon tagastab määratud loendi *kirjete loendi* väärtusena pööratud sortimisjärjestuses. |
 | [Tükeldamine](er-functions-list-split.md)                       | See funktsioon tükeldab määratud sisendstringid alamstringideks ja tagastab tulemuse uue *kirjete loendi* väärtusena. |
 | [SplitList](er-functions-list-splitlist.md)               | See funktsioon jaotab määratud loendi alamloenditeks (või partiideks), millest igaüks sisaldab määratud kirjete arvu. See tagastab seejärel tulemuse uue *kirjete loendi* väärtusena, mis koosneb partiidest. |

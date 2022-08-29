@@ -1,28 +1,26 @@
 ---
 title: Elektroonilise aruandluse konfiguratsioonide kohandamine elektroonilise dokumendi loomiseks
 description: See artikkel selgitab, kuidas kohandada Microsofti pakutava elektroonilise aruandluse (ER) konfiguratsioone, mida kasutatakse kohandatud elektroonilise dokumendi loomiseks.
-author: NickSelin
+author: kfend
 ms.date: 10/21/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom:
-- "220314"
-- intro-internal
-ms.assetid: ''
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 30ef9a0fa9b61b1e2016f85407ec0ec8fb70a6c6
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 220314,  ""intro-internal
+ms.assetid: ''
+ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
+ms.openlocfilehash: cd3200bea07d622632dc5781638ec825c21233e4
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854694"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9278942"
 ---
 # <a name="customize-electronic-reporting-configurations-to-generate-an-electronic-document"></a>Elektroonilise aruandluse konfiguratsioonide kohandamine elektroonilise dokumendi loomiseks
 
@@ -310,7 +308,7 @@ Elektroonilise aruandluse funktsionaalse konsultandi rolli kasutajana saate kuju
 5. Tippige väljale **Nimi** tekst **Arvemudel (Litware)**.
 6. Uue ER-i konfiguratsiooni lisamiseks valige **Loo konfiguratsioon**.
 
-Nüüd saate kasutada ER-i andmemudeli kujundajat **Arvemudeli (Litware)** ER-i konfiguratsiooni versiooni 50.1 redigeerimiseks **Mustandi** [olekus](general-electronic-reporting.md#component-versioning).
+Nüüd saate arve mudeli (Litware) **ER-i konfiguratsiooni versiooni 50.1** mustandi olekus redigeerida ER-i **andmemudeli** kujundajat.
 
 ![ER-i konfiguratsiooni versioon 50.1 konfiguratsioonide lehel.](./media/er-quick-start3-added-custom-model.png)
 
@@ -337,7 +335,7 @@ Peate muutma oma kohandatud andmemudelit, lisades uue välja föderaalmaksu ID-k
 
 #### <a name="complete-a-custom-data-model-configuration"></a>Kohandatud andmemudeli konfiguratsiooni lõpule viimine
 
-Peate töö [lõpule viima](general-electronic-reporting.md#component-versioning) oma kohandatud ER-i andmemudeli konfiguratsiooni versiooniga 50.1, et see oleks saadaval ka muude kohandatud ER-i konfiguratsioonide lisamiseks.
+Peate töö lõpule viima oma kohandatud ER-i andmemudeli konfiguratsiooni versiooniga 50.1, et see oleks saadaval ka muude kohandatud ER-i konfiguratsioonide lisamiseks.
 
 1. Minge jaotisse **Organisatsiooni haldamine** \> **Elektrooniline aruandlus** \> **Konfiguratsioonid**.
 2. Laiendage lehe **Konfiguratsioonid** vasakpoolsel paanil konfiguratsioonipuus suvandit **Arvemudel** ja seejärel valige **Arvemudel (Litware)**.
@@ -394,7 +392,7 @@ Peate muutma oma kohandatud mudelivastendust ja määratlema, kuidas kohandatud 
 
 #### <a name="complete-a-custom-model-mapping-configuration"></a>Kohandatud mudelivastenduse konfiguratsiooni lõpule viimine
 
-Peate töö [lõpule viima](general-electronic-reporting.md#component-versioning) oma kohandatud ER-i mudelivastenduse konfiguratsiooni versiooniga 50.19.1, et teha see kasutamiseks kättesaadavaks.
+Peate töö lõpule viima oma kohandatud ER-i mudelivastenduse konfiguratsiooni versiooniga 50.19.1, et teha see kasutamiseks kättesaadavaks.
 
 1. Minge jaotisse **Organisatsiooni haldamine** \> **Elektrooniline aruandlus** \> **Konfiguratsioonid**.
 2. Laiendage lehe **Konfiguratsioonid** vasakpoolsel paanil konfiguratsioonipuus suvandit **Kliendi arve mudel** \> **Kliendi arve mudeli vastendus** ja seejärel valige **Arve mudeli vastendus (Litware)**.
@@ -428,7 +426,7 @@ Elektroonilise aruandluse funktsionaalse konsultandi rolli kasutajana saate kuju
 
 ![Kohandatud vormingu konfiguratsiooni lisamine konfiguratsioonide lehel.](./media/er-quick-start3-adding-custom-format.png)
 
-Nüüd saate kasutada ER-i toimingute kujundajat **PEPPOL-i müügiarve (Litware)** ER-i konfiguratsiooni versiooni 11.2.2.1 redigeerimiseks **Mustandi** [olekus](general-electronic-reporting.md#component-versioning).
+ER-toimingute kujundajat saate kasutada 11.2.2.1 ER-i **·** **konfiguratsiooni** versiooni muutmiseks olekus Mustand.
 
 ![ER-i konfiguratsiooni versioon 11.2.2.1 konfiguratsioonide lehel.](./media/er-quick-start3-added-custom-format.png)
 
@@ -463,7 +461,7 @@ Peate muutma oma kohandatud vormingut, lisades uue vorminguelemendi arveldatud k
 
 #### <a name="complete-a-custom-format-configuration"></a>Kohandatud vormingu konfiguratsiooni lõpule viimine
 
-Peate töö [lõpule viima](general-electronic-reporting.md#component-versioning) oma kohandatud ER-vormingu konfiguratsiooni versiooniga 11.2.2.1, et teha see kasutamiseks kättesaadavaks.
+Peate oma kohandatud ER-11.2.2.1 konfiguratsiooni versiooniversiooniga lõpule viidama, et see oleks kasutamiseks saadaval.
 
 1. Minge jaotisse **Organisatsiooni haldamine** \> **Elektrooniline aruandlus** \> **Konfiguratsioonid**.
 2. Laiendage lehe **Konfiguratsioonid** vasakpoolsel paanil konfiguratsioonipuus suvandit **Kliendi arve mudel** \> **UBL-i müügiarve** \> **PEPPOL-i müügiarve** ja seejärel valige **PEPPOL-i müügiarve (Litware)**.
@@ -650,7 +648,7 @@ Versiooni 32.6.7.2 olek **Mustand** muudetakse olekuks **Lõpule viidud** ja ver
 3. Valige toimingupaani grupis **Dokument** suvand **Saada** \> **Algne**.
 
     > [!NOTE] 
-    > Kuna teil on nüüd kaks ER-vormingu konfiguratsiooni **PEPPOL-i müügiarve (Litware)** versiooni ja kummalgi versioonil pole [jõustumiskuupäeva](general-electronic-reporting.md#component-date-effectivity) väärtust, kasutatakse e-arve loomiseks uusimat versiooni.
+    > Kuna teil on **nüüd 2 versiooni ER-vormingu** konfiguratsiooni Ning kumbki versioon ei oma kehtivuse lõppkuupäevaga konfiguratsiooni, kasutatakse e-arve loomiseks viimast versiooni.
 
 4. Sulgege leht **Vabas vormis arve**.
 

@@ -13,17 +13,14 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: a12649cd0604fb6acd58420fdafb5b560fcc10cf
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 36e7082a890ebec3031021a0871cddad91597447
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688228"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9337285"
 ---
 # <a name="benefit-statement"></a>Soodustuste aruanne
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 **Soodustuste väljavõte** annab väljavõtte soodustustest, kuhu töötaja on hetkel registreeritud. Aruandele pääseb otse juurde töötaja või soodustuse administraator. **Soodustuste väljavõte** annab töötaja registreeritud soodustuste, valikute, kulude ja registreeritud ülalpeetavate või kasusaajate loendi. Väljavõtte saab printida ühe või mitme töötaja kohta.
 

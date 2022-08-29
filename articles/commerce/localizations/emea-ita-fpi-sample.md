@@ -2,29 +2,30 @@
 title: Fiskaalprinteri integratsiooni näide Itaalia jaoks
 description: See artikkel annab ülevaate Itaalia fiskaalintegratsiooni näidistest Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
-ms.date: 12/20/2021
+ms.date: 08/18/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.author: epopov
-ms.search.validFrom: 2018-11-1
-ms.openlocfilehash: 2aa1851fe5fe447ba2dd4640be9881b37e54216e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.author: josaw
+ms.search.validFrom: 2018-11-01
+ms.openlocfilehash: dff555a58c31b4e3daedd56b617dd44c4a87e601
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8909386"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9337235"
 ---
 # <a name="fiscal-printer-integration-sample-for-italy"></a>Fiskaalprinteri integratsiooni näide Itaalia jaoks
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 See artikkel annab ülevaate Itaalia fiskaalintegratsiooni näidistest Microsoft Dynamics 365 Commerce.
 
-Itaalia ärifunktsioon hõlmab kassa (POS) näidisintegratsiooni fiskaalprinteriga. Näidis laiendab [fiskaalintegratsiooni](fiscal-integration-for-retail-channel.md)[funktsiooni nii, et see töötab Epson FP-90III seeriaprinteritega](https://www.epson.it/products/sd/pos-printer/epson-fp-90iii-series) Epsonist ja võimaldab finantsprinteriga suhtlemist veebiserveri režiimis EpsonFPMate veebiteenuse kaudu, kasutades fiskaal-ePOS-print API-t. Näidis toetab ainult Registratore Telemaregistri (RT) režiimi. Näidis esitatakse lähtekoodina ja on osa jaemüügi tarkvara arenduskomplektist (SDK).
+Itaalia ärifunktsioon hõlmab kassa (POS) näidisintegratsiooni fiskaalprinteriga. Näidis laiendab [fiskaalintegratsiooni](fiscal-integration-for-retail-channel.md)[funktsionaalsust, et see töötaks Epson FP-90III seeriaprinteritega](https://www.epson.it/products/sd/pos-printer/epson-fp-90iii-series) ja võimaldab finantsprinteriga suhtlemist veebiserveri režiimis EpsonFPMate veebiteenuse kaudu, kasutades fiskaal-ePOS-print API-t. Näidis toetab ainult Registratore Telemaregistri (RT) režiimi. Näidis esitatakse lähtekoodina ja on osa Commerce’i tarkvara arenduskomplektist (SDK).
 
-Microsoft ei vabasta Epsoni riistvara, tarkvara ega dokumentatsiooni. Fiskaalprinteri saamiseks ja selle käsitsemiseks võtke ühendust [Epson Epso S.p.A-ga](https://www.epson.it).
+Microsoft ei vabasta Epsoni riistvara, tarkvara ega dokumentatsiooni. Fiskaalprinteri saamiseks ja selle käsitsemiseks võtke ühendust [Epson Epso S.p.A-ga.](https://www.epson.it)
 
 ## <a name="scenarios"></a>Stsenaariumid
 
@@ -99,12 +100,10 @@ Fiskaalprinteri integratsiooni näidis juurutab järgmised kliendi deposiitide j
 
 ## <a name="set-up-fiscal-integration-for-italy"></a>Saate häälestada Itaalia rahandusintegratsiooni.
 
-Itaalia fiskaalprinteri integratsiooni näidis põhineb fiskaalintegratsiooni [funktsioonil](fiscal-integration-for-retail-channel.md) ja on osa Retail SDK-st. Näidis asub **lahenduste hoidla kaustas\\ FiscalIntegration\\ EpsonFP90IIISample**[Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) ([nt näidis väljalaskes/9.33).](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/EpsonFP90IIISample) Näidis koosneb [fiskaaldokumendi](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) pakkujast, mis on Commerce Runtime'i (CRT) laiendus, ja fiskaalühendusest, mis on Commerce Hardware Stationi laiendus. Lisateavet Retail SDK [kasutamise kohta vt Retail SDK arhitektuurist ja sõltumatult pakendatud SDK-st](../dev-itpro/retail-sdk/retail-sdk-overview.md)[koostevõimaluste häälestamise kohta](../dev-itpro/build-pipeline.md).
+Itaalia fiskaalprinteri integratsiooni näidis põhineb fiskaalintegratsiooni [funktsioonil](fiscal-integration-for-retail-channel.md) ja on osa Commerce SDK-st. Näidis asub lahenduste hoidla kaustas FiscalIntegration **EpsonFP90IIISample\\\\**.[Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) Näidis [koosneb](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) fiskaaldokumendi pakkujast, mis on Commerce Runtime’i (CRT) laiendus, ja fiskaalühendusest, mis on Commerce Hardware Stationi laiendus. Lisateavet Commerce SDK kasutamise kohta vt commerce SDK [näidised ja viitepakendite allalaadimine GitHub-st NuGet](../dev-itpro/retail-sdk/sdk-github.md)[ja koostevõimaluste kohta sõltumatu pakendamise SDK-le](../dev-itpro/build-pipeline.md).
 
-> [!WARNING]
-> Uue sõltumatu pakendi- ja [laiendusmudeli piirangute tõttu](../dev-itpro/build-pipeline.md) ei saa seda praegu selle fiskaalintegratsiooni näidise jaoks kasutada. Retail SDK eelmist versiooni peate kasutama arendaja virtuaalmasinas (VM) elutsükli Microsoft Dynamics teenustes (LCS). Lisateavet vt Itaalia [(pärand) fiskaalprinteri integratsiooni näidise juurutuse juhised](emea-ita-fpi-sample-sdk.md).
->
-> Uutesse versioonidesse planeeritakse fiskaalintegratsiooni valimite uue sõltumatu pakendi- ja laiendusmudeli tugi.
+> [!NOTE]
+> Itaalia fiskaalprinteri integratsiooni näidis on commerce SDK-s saadaval versiooni 10.0.29 alusel. Commerce’i versioonis 10.0.28 või varem peate kasutama Retail SDK eelmist versiooni arendaja virtuaalmasinas (VM) Microsoft Dynamics elutsükli teenustes (LCS). Lisateavet vt Itaalia [(pärand) fiskaalprinteri integratsiooni näidise juurutuse juhised](emea-ita-fpi-sample-sdk.md).
 
 Viige finantsintegratsiooni seadistuse etapid lõpule, nagu on kirjeldatud [Ärikanalite fiskaalintegratsiooni seadistamises](setting-up-fiscal-integration-for-retail-channel.md).
 
@@ -118,23 +117,21 @@ Viige finantsintegratsiooni seadistuse etapid lõpule, nagu on kirjeldatud [Äri
 
 ### <a name="set-up-the-registration-process"></a>Registreerimisprotsessi häälestamine
 
-Registreerimisprotsessi lubamiseks järgige neid samme Commerce headquartersi häälestamiseks. Lisateavet vt Commerce'i [kanalite fiskaalintegratsiooni häälestamist](setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process).
+Registreerimisprotsessi lubamiseks järgige neid samme Commerce headquartersi häälestamiseks. Lisateavet vt Commerce’i [kanalite fiskaalintegratsiooni häälestamist](setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process).
 
 1. Laadige alla finantsdokumendi pakkuja ja fiskaalkonnektori konfiguratsioonifailid:
 
     1. [Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) Lahenduste hoidla avamine.
-    1. Valige õige väljalaske haruversioon vastavalt oma SDK-le/rakenduse versioonile (nt **[vabastamine/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33)**).
+    1. Valige õige väljalaske haruversioon vastavalt oma SDK-le/rakenduse versioonile.
     1. Saate **avada src \> FiscalIntegration \> EpsonFP90IIISample**.
-    1. Laadige alla fiskaaldokumendi pakkuja konfiguratsioonifail commerceRuntime **DocumentProvider.EpsonFP90IIISample \> Configuration \> DocumentProviderEpsonFP90IIISample.xml (\> nt väljalaske/9.33** fail [).](https://github.com/microsoft/Dynamics365Commerce.Solutions/blob/release/9.33/src/FiscalIntegration/EpsonFP90IIISample/CommerceRuntime/DocumentProvider.EpsonFP90IIISample/Configuration/DocumentProviderEpsonFP90IIISample.xml)
-    1. Laadige alla fiskaalkonnektori konfiguratsioonifail failis HardwareStation **EpsonFP90IIIFiscalDeviceSample \> Configuration \> ConnectorEpsonFP90IIISample.xml \> (** nt väljalaske 9.33 fail [.](https://github.com/microsoft/Dynamics365Commerce.Solutions/blob/release/9.33/src/FiscalIntegration/EpsonFP90IIISample/HardwareStation/EpsonFP90IIIFiscalDeviceSample/Configuration/ConnectorEpsonFP90IIISample.xml)
+    1. Laadige alla finantsdokumendi **pakkuja konfiguratsioonifail: CommerceRuntime \> DocumentProvider.EpsonFP90IIISample \> Configuration \> DocumentProviderEpsonFP90IIISample.xml**.
+    1. Laadige alla fiskaalkonnektori **konfiguratsioonifail ettevõttes HardwareStation \> EpsonFP90IIIFiscalDeviceSample \> Configuration \> ConnectorEpsonFP90IIISample.xml**.
 
-    > [!WARNING]
-    > Uue sõltumatu pakendi- ja [laiendusmudeli piirangute tõttu](../dev-itpro/build-pipeline.md) ei saa seda praegu selle fiskaalintegratsiooni näidise jaoks kasutada. Retail SDK eelmist versiooni peate kasutama LCS-i arendaja VM-s. Selle fiskaalintegratsiooni näidiskonfiguratsiooni failid asuvad Retail SDK arendaja VM LCS-i kaustades:
+    > [!NOTE]
+    > Commerce version 10.0.28 või varasema versiooni puhul tuleb teil kasutada Retail SDK eelmist versiooni arendaja VM-s LCS-s. Selle fiskaalintegratsiooni näidiskonfiguratsiooni failid asuvad Retail SDK arendaja VM LCS-i kaustades:
     >
     > - **Fiskaaldokumendi pakkuja konfiguratsioonifail:** RetailSdk\\ SampleExtensions\\ CommerceRuntime\\ Extension.DocumentProvider.EpsonFP90IIISample\\ konfiguratsiooni\\ DocumentProviderEpsonFP90IIISample.xml
     > - **Fiskaalkonnektori konfiguratsioonifail:** RetailSdk\\ SampleExtensions\\ HardwareStation\\ Extension.EpsonFP90IIIFiscalDeviceSample\\ Configuration\\ ConnectorEpsonFP90IIISample.xml
-    > 
-    > Uutesse versioonidesse planeeritakse fiskaalintegratsiooni valimite uue sõltumatu pakendi- ja laiendusmudeli tugi.
 
 1. Valige suvandid **Jaemüük ja kaubandus \> Headquartersi häälestus \> Parameetrid \> Commerce’i ühiskasutuses parameetrid**. Seadke vahekaardil **Üldine** suvand Luba fiskaalintegratsioon **väärtusele** **Jah**.
 1. Minge jaemüügi ja **ärikanali häälestuse \> fiskaalintegratsiooni \>\> finantsdokumendi pakkujate** juurde ja laadige varem alla laaditud finantsdokumendi pakkuja konfiguratsioonifail.
@@ -256,16 +253,15 @@ Järgmised sätted on kaasatud fiskaalkonnektori konfiguratsiooni, mis on antud 
 
 ### <a name="configure-channel-components"></a>Kanali komponentide konfigureerimine
 
-> [!WARNING]
-> Uue sõltumatu pakendi- ja [laiendusmudeli piirangute tõttu](../dev-itpro/build-pipeline.md) ei saa seda praegu selle fiskaalintegratsiooni näidise jaoks kasutada. Retail SDK eelmist versiooni peate kasutama LCS-i arendaja VM-s. Lisateavet vt Itaalia [(pärand) fiskaalprinteri integratsiooni näidise juurutuse juhised](emea-ita-fpi-sample-sdk.md).
->
-> Uutesse versioonidesse planeeritakse fiskaalintegratsiooni valimite uue sõltumatu pakendi- ja laiendusmudeli tugi.
+> [!NOTE]
+> - Itaalia fiskaalprinteri integratsiooni näidis on commerce SDK-s saadaval versiooni 10.0.29 alusel. Commerce’i versioonis 10.0.28 või varem peate kasutama Retail SDK eelmist versiooni arendaja VM-s LCS-s. Lisateavet vt Itaalia [(pärand) fiskaalprinteri integratsiooni näidise juurutuse juhised](emea-ita-fpi-sample-sdk.md).
+> - Teie keskkonnas juurutatud ärinäidiseid ei uuendata automaatselt, kui rakendate commerce’i komponentidele teenust või kvaliteediuuendusi. Nõutavad näidised tuleb käsitsi uuendada.
 
 #### <a name="set-up-the-development-environment"></a>Saate häälestada arenduskeskkonda.
 
 Arenduskeskkonna katsetada ja näidist laiendada, järgige neid samme.
 
-1. Rakenduste hoidla leidmine [Dynamics 365 Commerce või](https://github.com/microsoft/Dynamics365Commerce.Solutions) allalaadimine. Valige õige väljalaske haruversioon vastavalt oma SDK-le/rakenduse versioonile. Lisateavet vt jaotisest Jaemüügi [SDK näidised ja viitepakendid alla laadida GitHub-st ja NuGet](../dev-itpro/retail-sdk/sdk-github.md).
+1. Rakenduste hoidla leidmine [Dynamics 365 Commerce või](https://github.com/microsoft/Dynamics365Commerce.Solutions) allalaadimine. Valige õige väljalaske haruversioon vastavalt oma SDK-le/rakenduse versioonile. Lisateavet vt commerce [SDK näidised ja viitepakendid alla laadida GitHub-st ja NuGet](../dev-itpro/retail-sdk/sdk-github.md).
 1. Avage rahandusprinteri integreerimislahendus **Dynamics365Commerce.Solutions\\ FiscalIntegration\\ EpsonFP90IIISample\\ EpsonFP90IIISample.sln** ja koostage see.
 1. Installi CRT laiendid:
 
@@ -303,10 +299,10 @@ Järgige fiskaalintegratsiooni [näidise](fiscal-integration-sample-build-pipeli
 
 ## <a name="design-of-extensions"></a>Laienduste kujundus
 
-Itaalia fiskaalprinteri integratsiooni näidis põhineb fiskaalintegratsiooni [funktsioonil](fiscal-integration-for-retail-channel.md) ja on osa Retail SDK-st. Näidis asub **lahenduste hoidla kaustas\\ FiscalIntegration\\ EpsonFP90IIISample**[Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) ([nt näidis väljalaskes/9.33).](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/EpsonFP90IIISample) Näidis koosneb [fiskaaldokumendi](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) pakkujast, mis on CRT laiendiks, ja fiskaalühendusest, mis on Commerce Hardware Stationi laiendus. Lisateavet Retail SDK [kasutamise kohta vt Retail SDK arhitektuurist ja sõltumatult pakendatud SDK-st](../dev-itpro/retail-sdk/retail-sdk-overview.md)[koostevõimaluste häälestamise kohta](../dev-itpro/build-pipeline.md).
+Itaalia fiskaalprinteri integratsiooni näidis põhineb fiskaalintegratsiooni [funktsioonil](fiscal-integration-for-retail-channel.md) ja on osa Commerce SDK-st. Näidis asub lahenduste hoidla kaustas FiscalIntegration **EpsonFP90IIISample\\\\**.[Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) Näidis [koosneb](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) fiskaaldokumendi pakkujast, mis on CRT laiendiks, ja fiskaalühendusest, mis on Commerce Hardware Stationi laiendus. Lisateavet Commerce SDK kasutamise kohta vt commerce SDK [näidised ja viitepakendite allalaadimine GitHub-st NuGet](../dev-itpro/retail-sdk/sdk-github.md)[ja koostevõimaluste kohta sõltumatu pakendamise SDK-le](../dev-itpro/build-pipeline.md).
 
-> [!WARNING]
-> Uue sõltumatu pakendi- ja [laiendusmudeli piirangute tõttu](../dev-itpro/build-pipeline.md) ei saa seda praegu selle fiskaalintegratsiooni näidise jaoks kasutada. Retail SDK eelmist versiooni peate kasutama LCS-i arendaja VM-s. Lisateavet vt Itaalia [(pärand) fiskaalprinteri integratsiooni näidise juurutuse juhised](emea-ita-fpi-sample-sdk.md). Uutesse versioonidesse planeeritakse fiskaalintegratsiooni valimite uue sõltumatu pakendi- ja laiendusmudeli tugi.
+> [!NOTE]
+> Itaalia fiskaalprinteri integratsiooni näidis on commerce SDK-s saadaval versiooni 10.0.29 alusel. Commerce’i versioonis 10.0.28 või varem peate kasutama Retail SDK eelmist versiooni arendaja VM-s LCS-s. Lisateavet vt Itaalia [(pärand) fiskaalprinteri integratsiooni näidise juurutuse juhised](emea-ita-fpi-sample-sdk.md).
 
 ### <a name="commerce-runtime-extension-design"></a>Äri käitusaja laiendi kujundus
 
@@ -333,7 +329,7 @@ Fiskaalühenduseks olemise laiendi eesmärgiks on side fiskaalprinteriga. See la
 
 #### <a name="request-handler"></a>Nõudeohjur
 
-**EpsonFP90IIISample'i** taotluseohjur on fiskaalseadme käsitsemise nõude sisenemispunkt.
+**EpsonFP90IIISample’i** taotluseohjur on fiskaalseadme käsitsemise nõude sisenemispunkt.
 
 Ohjur pärineb INamedRequestHandler **liideselt**. Meetod **HandlerName** vastutab ohjuri nime tagastamise eest. Ohjuri nimi peab ühtima Commerce Headquartersis määratud fiskaalühenduse nimega.
 

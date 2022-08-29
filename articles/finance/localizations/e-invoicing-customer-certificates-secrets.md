@@ -1,26 +1,26 @@
 ---
 title: Kliendiserdid ja -saladused
 description: See artikkel selgitab, kuidas seadistada kliendi serte ja saladusi elektroonilises arveldamises.
-author: dkalyuzh
+author: gionoder
 ms.date: 02/07/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: Global
-ms.author: dkalyuzh
+ms.author: gionoder
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a4d33135bf352a4c4a245e597e0c3c7467317864
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.form: ''
+ms.openlocfilehash: 3943e7cb43cc6bf93995f0b3957766227cc3ec99
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8880656"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9279836"
 ---
 # <a name="customer-certificates-and-secrets"></a>Kliendiserdid ja -saladused
 
@@ -37,7 +37,7 @@ Sertide ja saladuste loomiseks ja häälestamiseks järgige neid samme.
 3. **Valige tegevuspaanil** Keskkonna häälestuslehelt **teenusekeskkonnad**.
 4. Teenuse keskkondade **lehel**, valige tegevuspaanil võtme **hoidla parameetrid**.
 5. **Lehel Võtme hoidla parameetrid** valige võtme vaultviide ja seejärel **valige jaotises Sertifikaadid** suvand **Lisa**.
-6. Sisestage **väljale** Nimi võtme vaultsertifikaadi või saladuse nimi. Lisateavet vt Azure'i [ladustamiskonto loomine Azure'i portaalis](e-invoicing-create-azure-storage-account-azure-portal.md).
+6. Sisestage **väljale** Nimi võtme vaultsertifikaadi või saladuse nimi. Lisateavet vt Azure’i [ladustamiskonto loomine Azure’i portaalis](e-invoicing-create-azure-storage-account-azure-portal.md).
 7. Väljale **Kirjeldus** sisestage kirjeldus.
 8. **Väljal Tüüp** valige **sert**, kui viitate võtmehoidlas talletatavale serdile. Valige **suvand** Saladus, kui viitate võtme varas talletatavale saladusle.
 9. Valige käsk **Salvesta**.

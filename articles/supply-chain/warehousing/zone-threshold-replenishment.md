@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: e3ec1f59e0b1d202d5591bfc1525c9034f4d8f45
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 44e7dfdbc980c5df6b9426515365611bc0de45c2
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8893116"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335941"
 ---
 # <a name="zone-threshold-replenishment"></a>Tsooniläve täiendamine
 
@@ -38,7 +38,7 @@ Erinevalt asukohapõhisest min/max täiendamisest, ei nõua tsoonipõhine min/ma
 
 ## <a name="turn-on-the-zone-threshold-replenishment-feature"></a>Funktsiooni Tsooniläve täiendamine sisselülitamine
 
-Enne funktsiooni *Tsooniläve täiendamine* kasutamist peate selle oma süsteemis sisse lülitama. Administraatorid saavad kasutada [funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sätteid, et kontrollida funktsiooni olekut ja vajadusel selle sisse lülitada. Tööruumis **Funktsioonihaldus** loetletakse funktsiooni järgneval viisil.
+Enne kui saate kasutada tsooni *läve täiendamise funktsiooni*, peab see olema teie süsteemi jaoks sisse lülitatud. Administraatorid saavad kasutada [funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sätteid, et kontrollida funktsiooni olekut ja vajadusel selle sisse lülitada. Tööruumis **Funktsioonihaldus** loetletakse funktsiooni järgneval viisil.
 
 - **Moodul:** *laohaldus*
 - **Funktsiooni nimi:** *Tsooniläve täiendamine*
@@ -262,7 +262,7 @@ Enne, kui alustate stsenaariumi läbimist, peate aktiveerima näidisandmed ja se
 
 #### <a name="use-the-usmf-legal-entity"></a>Juriidilise isiku USMF kasutamine
 
-Selle stsenaariumi kasutamiseks siin määratud näidiskirjete ja -väärtuste abil peate kasutama süsteemi, kuhu on installitud standardsed [demoandmed](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md). Enne alustamist peate valima ka juriidilise isiku **USMF**.
+Selle stsenaariumi kasutamiseks siin määratud näidiskirjete ja -väärtuste abil peate kasutama süsteemi, kuhu on installitud standardsed [demoandmed](../../fin-ops-core/fin-ops/get-started/demo-data.md). Enne alustamist peate valima ka juriidilise isiku **USMF**.
 
 #### <a name="prepare-additional-sample-data"></a>Täiendavate näidisandmete ettevalmistamine
 

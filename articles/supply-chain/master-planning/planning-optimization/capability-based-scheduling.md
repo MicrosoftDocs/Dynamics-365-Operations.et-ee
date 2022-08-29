@@ -2,7 +2,7 @@
 title: Plaanimine võimaluse põhjal ressursivalikuga
 description: See artikkel kirjeldab ressursside valikut piiramatu võimsuse planeerimise ajal, kui määrate operatsioonile võimalusi ressursi nõuetena.
 author: t-benebo
-ms.date: 9/3/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.search.form: RouteInventProd, WrkCtrTable, WrkCtrCapability
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-09-03
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 26b2b65a2d565052b188f4d70f0cc0a773cd7b43
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4a3c8236183b81ad015b43d7dbf869c177eafd44
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8847958"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335401"
 ---
 # <a name="scheduling-with-resource-selection-based-on-capability"></a>Plaanimine võimaluse põhjal ressursivalikuga
 
@@ -24,12 +24,9 @@ ms.locfileid: "8847958"
 
 Määrates tootmisprotsessi toimingu ressursinõuded, määratlete, mis on vajalik selle operatsiooni sooritamiseks. Näiteks võib toiming vajada konkreetset ressurssi või ressursigruppi või oskuste või võimaluste kombinatsiooni. See artikkel kirjeldab ressursside valikut piiramatu võimsuse planeerimise ajal, kui määrate operatsioonile võimalusi ressursi nõuetena.
 
-## <a name="turn-on-the-capability-based-scheduling-feature"></a>Lülitage sisse võimetepõhine planeerimise funktsioon
+## <a name="turn-the-capability-based-scheduling-feature-on-or-off"></a>Lülitab võimalusepõhise plaanimise funktsiooni sisse ja välja
 
-Enne selle funktsiooni kasutamist peate selle oma süsteemis sisse lülitama. Administraatorid saavad kasutada [funktsioonihalduse](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sätteid, et kontrollida funktsiooni olekut ja selle sisse lülitada. Tööruumis **Funktsioonihaldus** loetletakse funktsiooni järgneval viisil.
-
-- **Moodul:** *Koondplaneerimine*
-- **Funktsiooni nimi:** *Planeerimise optimeerimise lõpmatu võimsuse ajastamine*
+Selle funktsiooni kasutamiseks peab see olema teie süsteemi jaoks sisse lülitatud. Tarneahela halduse versiooni 10.0.29 puhul lülitatakse funktsioon vaikimisi sisse. Administraatorid saavad selle funktsiooni sisse või välja lülitada, *otsides Funktsioonihalduse*[tööruumis planeerimise optimeerimise piiramatu võimsuse planeerimise](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) funktsiooni.
 
 Lisateabe saamiseks selle funktsiooni kohta vaata [Planeerimine lõpmatu võimsusega](infinite-capacity-planning.md).
 

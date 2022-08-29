@@ -1,32 +1,32 @@
 ---
 title: IFrame-moodul
-description: See artikkel katab IFrame'i mooduli ja kirjeldab, kuidas lisada see saidi lehtedele moodulis Microsoft Dynamics 365 Commerce.
+description: See artikkel katab IFrame’i mooduli ja kirjeldab, kuidas lisada see saidi lehtedele moodulis Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: e9f1804cde1010c585d53d63bc0a487bc5407552
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.industry: ''
+ms.openlocfilehash: 248da5132d1a2c6dcf8f246628f969c8a200b26c
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8858933"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9269891"
 ---
 # <a name="iframe-module"></a>IFrame-moodul
 
 [!include [banner](includes/banner.md)]
 
-See artikkel katab IFrame'i mooduli ja kirjeldab, kuidas lisada see saidi lehtedele moodulis Microsoft Dynamics 365 Commerce.
+See artikkel katab IFrame’i mooduli ja kirjeldab, kuidas lisada see saidi lehtedele moodulis Microsoft Dynamics 365 Commerce.
 
 IFrame-moodul tagab iFrame'i (tekstisisene raam), mis majutab saidil välissisu. Näiteks saab seda kasutada YouTube'i video või PDF-faili vaaturi majutamiseks ükskõik millisel saidilehel. 
 
@@ -64,14 +64,14 @@ Et lisada välise video kuvamiseks lehele iFrame-moodul, toimige järgmiselt.
 1. Dialoogiaknas **Vali** moodulid valige konteinerimoodul **ja** seejärel valige **OK**.
 1. Seadke mooduli atribuutide paanil **Laiuse** väärtuseks **Täida konteiner**.
 1. Valige konteineri pesast kolmikpunkt (**...**) ja seejärel valige **lisamoodul**.**·**
-1. Dialoogiaknas **Vali** moodulid valige **iframe'i** moodul ja seejärel valige **OK**.
+1. Dialoogiaknas **Vali** moodulid valige **iframe’i** moodul ja seejärel valige **OK**.
 1. Seadke mooduli atribuutide paanil suvandi **Siht-URL** väärtuseks video väline URL.
 1. Määrake vajaduse järgi muud atribuudid, näiteks **Pealkiri** ja **Kõrgus**.
 1. Valige **Salvesta**, valige lehe registreerimiseks **Lõpeta redigeerimine** ja seejärel selle avaldamiseks **Avalda**.
 1. Minge oma saidil turunduslehele. Peaksite nägema iFrame-moodulis renderdatavat videot.
 
 > [!NOTE]
-> Kuna IFrame'i moodul hostib välist sisu, peavad saidi autorid tagama, et iframe'i moodulis majutatud sisu ei riku sisupiirangu poliitikaid vastaval turul. Kui iframe-moodulit kasutav lehekülg sisaldab sisu rikkumise, saab saidi autor iFrame'i mooduli eemaldada, avades saidikonstruktoris lehe, **valides** iframe-moodulis suvandi Eemalda moodul ning salvestades ja avaldades seejärel uuesti.
+> Kuna IFrame’i moodul hostib välist sisu, peavad saidi autorid tagama, et iframe’i moodulis majutatud sisu ei riku sisupiirangu poliitikaid vastaval turul. Kui iframe-moodulit kasutav lehekülg sisaldab sisu rikkumise, saab saidi autor iFrame’i mooduli eemaldada, avades saidikonstruktoris lehe, **valides** iframe-moodulis suvandi Eemalda moodul ning salvestades ja avaldades seejärel uuesti.
 
 ## <a name="additional-resources"></a>Lisaressursid
 

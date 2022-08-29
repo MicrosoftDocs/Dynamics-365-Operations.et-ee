@@ -1,26 +1,26 @@
 ---
 title: Regulatory Configuration Service (RCS) – Lifecycle Services (LCS) ladustamise amortiseerimine
 description: See artikkel annab teavet elutsükli Microsoft Dynamics teenuste (LCS) talletuse amortiseerumise kohta, mis on plaanitud regulatiivse konfiguratsiooniteenuse (RCS) globaalse hoidla väljamineku osana.
-author: JaneA07
+author: kfend
 ms.date: 10/27/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: RCS, Regulatory Configuration Services, Localization, LCS storage, LCS storage deprecation
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 97423
-ms.assetid: ''
 ms.search.region: Global
-ms.author: janeaug
+ms.author: filatovm
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: AX 10.0.19
-ms.openlocfilehash: 65d45eaf618075e0c78881634fc77bda0fab277e
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.custom: 97423
+ms.assetid: ''
+ms.search.form: RCS, Regulatory Configuration Services, Localization, LCS storage, LCS storage deprecation
+ms.openlocfilehash: 717a2b9b00e137631a7cb9a188bdcf1b33e6af02
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9065670"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9277210"
 ---
 # <a name="regulatory-configuration-service-rcs--lifecycle-services-lcs-storage-deprecation"></a>Regulatory Configuration Service (RCS) – Lifecycle Services (LCS) ladustamise amortiseerimine
 
@@ -39,7 +39,7 @@ LCS-i kasutuse alistus ladustamisena Dynamics 365 Finance - LCS-i [teatise eemal
 ## <a name="key-features"></a>Võtmefunktsioonid
 
 - Kasutage RCS-i ER-i konfiguratsioonide ja globaliseerimisfunktsioonide loomiseks ja muutmiseks.
-- Lükake konfiguratsioone otse RCS-kujundajast ühendatud rakendusse, nt Dynamics 365 Finance'i keskkonda, nii et saate konfiguratsioonides teha ja katsetada kiiresti muudatusi.
+- Lükake konfiguratsioone otse RCS-kujundajast ühendatud rakendusse, nt Dynamics 365 Finance’i keskkonda, nii et saate konfiguratsioonides teha ja katsetada kiiresti muudatusi.
 - Keskselt salvestage, jagage ja hallake nii ER-i konfiguratsioonide kui ka globaliseerimisfunktsioonide elutsüklit globaalse hoidla tsentraliseeritud salvestusruumi kaudu.
 
 ## <a name="guidance-for-one-time-and-ongoing-actions"></a>Juhis ühekordsete ja jooksvate tegevuste jaoks

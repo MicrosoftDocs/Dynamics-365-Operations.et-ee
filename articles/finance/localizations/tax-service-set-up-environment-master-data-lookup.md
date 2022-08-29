@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: pashao
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 3642bb88d5b0570014513b64eef5fdab6d1ee9d3
-ms.sourcegitcommit: 5b721f6fc1ba4350b5bd0eae457f71d80246db42
+ms.openlocfilehash: 2f9d882340171173e5e503f8b5e3aa856e8544b0
+ms.sourcegitcommit: f2175fe5e900d39f34167d671aab5074b09cc1b8
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/20/2022
-ms.locfileid: "9181120"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "9306199"
 ---
 # <a name="enable-master-data-lookup-for-tax-calculation-configuration"></a>Luba koondandmete otsing maksuarvestuse konfiguratsiooni jaoks 
 
@@ -77,7 +77,7 @@ Lisateavet vt virtuaalüksuse [lahenduse saamine](../../fin-ops-core/dev-itpro/p
 
 Peate registreerima rakenduse Azure AD finantside ja toimingute rakendustega samal rentnikul, et neid saaks kutsuda Dataverse.
 
-1. [Avage Azure'i](https://portal.azure.com) portaalis rakenduse **Azure Active Directory\> registreerimised**.
+1. [Avage Azure’i](https://portal.azure.com) portaalis rakenduse **Azure Active Directory\> registreerimised**.
 2. Valige **uus** registreerimine ja sisestage järgmine teave:
 
     - **Nimi** : sisestage kordumatu nimi.
@@ -108,7 +108,7 @@ Dataverse rakendusse Azure AD, mille lõite finantside ja toimingute rakenduste 
     - **Pakkuja**: seadke see väli nonAAD-le **·**.
     - **E-kiri** : sisestage **andmetepöördumine** või muu väärtus. (Väärtus ei pea olema kehtiv meiliaadress.)
 
-3. Määrake kasutajale **CDS-i virtuaalüksuse** rakenduse turberoll.
+3. Määrake kasutajale **Dataverse virtuaalüksuse integreerimisrakenduse** turberoll.
 4. Eemaldage kõik teised rollid, k.a **süsteemi kasutaja**.
 5. Minge registreerimiseks **süsteemihalduse** \> **·** \> **Azure Active Directory seadistuse** rakendustesse.Dataverse 
 6. Lisage rida ja seejärel sisestage **väljale Kliendi ID rakenduse (kliendi) ID** **väärtus,** mille olete varemmärkuse teinud.
@@ -127,7 +127,7 @@ Lisateavet vt Rakenduse õiguste andmine [finantside ja toimingute rakendustes](
 
 2. **Valige rippmenüü** sätted suvand **Haldus**.
 
-    [![Administratsioon.](./media/tcs-dataverse-master-data-lookup-5.png)](./media/tcs-dataverse-master-data-lookup-5.png)
+    [![Halduse.](./media/tcs-dataverse-master-data-lookup-5.png)](./media/tcs-dataverse-master-data-lookup-5.png)
 
 3. Valige **virtuaalüksuse andmeallikad**.
 
@@ -199,30 +199,30 @@ Lisateavet vt [Microsoft Dataverse virtuaalsete olemite lubamine](../../fin-ops-
 
 ## <a name="set-up-the-connected-application-for-tax-calculation"></a><a name='set-up'></a> Ühendatud maksuarvutuse rakenduse häälestamine
 
-1. RCS-is avage funktsioonihalduse **tööruum** ja lubage järgmised funktsioonid:
-
-    - elektroonilise aruandluse Dataverse andmeallikate tugi
-    - Maksuteenuse Dataverse'i andmeallikate tugi
-    - Globaliseerimisfunktsioonid
-
-2. Minge elektroonilise **aruandluse** jaotisse ja seejärel valige jaotises **Seotud lingid** suvand **Ühendatud rakendused**.
+1. Minge elektroonilise **aruandluse** jaotisse ja seejärel valige jaotises **Seotud lingid** suvand **Ühendatud rakendused**.
 
     [![Ühendatud avaldused.](./media/tcs-dataverse-master-data-lookup-12.png)](./media/tcs-dataverse-master-data-lookup-12.png)
 
-3. Kirje **lisamiseks** valige väärtus Uus ja sisestage järgmine teave.
+2. Kirje **lisamiseks** valige väärtus Uus ja sisestage järgmine teave.
 
     - **Nimi** - sisesta nimi.
     - **Tüüp** : vali **Dataverse**.
-    - **Rakendus** : sisestage Dataverse oma keskkonna **URL-i** väärtus, mille tegite [sammus 1 märkuse. Lubage Microsoft Power Platform integreerimine ja avage keskkond Dataverse](#enable).
+    - **Rakendus**: sisestage Dataverse oma keskkonna **URL-i** väärtus, mille tegite [sammus 1 märkuse. Lubage Microsoft Power Platform integreerimine ja avage keskkond Dataverse](#enable).
     - **Rentnik** – sisestage oma rentnik.
     - **Kohandatud URL** – sisestage oma Dataverse URL ja lisage **sellele /api/data/v9.1**.
 
-4. Valige **kontrolli ühendust** ja seejärel kuvatavas dialoogiboksis valige Klõpsake siin, **et luua ühendus valitud kaugrakendusega**.
+3. Valige **kontrolli ühendust** ja seejärel valige dialoogiboksis suvand Klõpsa siin **, et luua ühendus valitud kaugrakendusega**.
 
     [![Ühenduse kontrollimine.](./media/tcs-dataverse-master-data-lookup-13.png)](./media/tcs-dataverse-master-data-lookup-13.png)
-5. Veenduge, et saate "Edu". Teade, mis näitab, et ühendus on edukalt loodud.
+4. Veenduge, et saate "Edu". Teade, mis näitab, et ühendus on edukalt loodud.
 
     [![Eduteade.](./media/tcs-dataverse-master-data-lookup-14.png)](./media/tcs-dataverse-master-data-lookup-14.png)
+    
+5. RCS-is avage funktsioonihalduse **tööruum** ja lubage järgmised funktsioonid:
+
+    - Globaliseerimisfunktsioonid
+    - elektroonilise aruandluse Dataverse andmeallikate tugi
+    - Maksuteenuse Dataverse'i andmeallikate tugi
 
 ## <a name="import-and-set-up-the-dataverse-model-mapping-configuration"></a><a name='import'></a> Mudeli vastendamise konfiguratsiooni importimine Dataverse ja häälestamine
 
@@ -248,7 +248,7 @@ Microsoft pakub vaikemudeli vastendamise konfiguratsioone üksuste jaoks, mis on
 9. Valige **väljal Ühendatud** rakendus ühendatud rakendus, mille seadistate sammus [7. Seadistage ühendatud rakendus maksu arvutamiseks](#set-up).
 10. Seadistage virtuaalse **tabeli nähtavuse valik** Jah **,** et seada kõik maksuarvestusega seotud virtuaalsed üksused nähtavaks.
 
-Olete nüüd lõpule viinud koondandmete otsingufunktsiooni seadistuse. Dynamics 365 Finance'i **väljade,** **nagu juriidiline isik,** **hankija konto, kaubakood ja tarne tähtaeg,** **ripploend lubatakse nüüd maksuarvestuse funktsiooni versiooni seadistuses.** **·**
+Olete nüüd lõpule viinud koondandmete otsingufunktsiooni seadistuse. Dynamics 365 Finance’i **väljade,** **nagu juriidiline isik,** **hankija konto, kaubakood ja tarne tähtaeg,** **ripploend lubatakse nüüd maksuarvestuse funktsiooni versiooni seadistuses.** **·**
 
 [![Juriidilise isiku ripploend.](./media/tcs-dataverse-master-data-lookup-17.png)](./media/tcs-dataverse-master-data-lookup-17.png)
 

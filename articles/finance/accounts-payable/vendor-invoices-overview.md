@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b88390085d86956c38c0fc167395509d0c54f860
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 565e45a1c396b9144b4a6437056a0040b2fbde1d
+ms.sourcegitcommit: e0905a3af85d8cdc24a22e0c041cb3a391c036cb
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8894167"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9228747"
 ---
 # <a name="vendor-invoices-overview"></a>Hankija arvete ülevaade
 
@@ -71,10 +71,10 @@ Teie organisatsioon võib kasutada töövoogusid, et hallata hankijaarvete läbi
 
 Järgnevalt on loetletud miteid viise, kuidas saate takistada arve esitamist töövoogu.
 
-- **Arve kogusumma ja registreeritud kogusumma ei ole võrdsed.** Arve esitanud isikule saadetakse teatis selle kohta, et kogusummad ei ole võrdsed. Teatis annab võimaluse parandada saldosid enne arve uuesti töövoogu saatmist. See funktsioon on saadaval, kui lehel **Funktsioonihaldus** on parameeter **Keela töövoogu esitamine, kui arve kogusumma ja arve registreeritud kogusumma ei ole võrdsed** sisse lülitatud. 
-- **Arve sisaldab eraldamata kulusid.** Arve esitanud isik saab teate, et arve sisaldab eraldamata kuludes, võimaldades tal arvet enne töövoogu uuesti esitamist parandada. See funktsioon on saadaval, kui lehel **Funktsioonihaldus** on parameeter **Keela töövoogu esitamine, kui hankija arvel on eraldamata kulusid** sisse lülitatud.
-- **Arvel on sama arvenumber teise sisestatud arvega.** Arve edastanud isikule saadetakse teade, mis näitab, et leiti duplikaatnumbriga arve. Duplikaatnumbrit saab parandada enne arve uuesti töövoole edastamist. See teatis kuvatakse siis, kui ostureskontro parameetriks **Kontrolli kasutatavat arvenumbrit** on määratud **Lükka duplikaat tagasi**. See funktsioon on saadaval, kui lehel **Funktsioonihaldus** on parameeter **Keela töövoogu esitamine, kui sisestatud arvel on selline number juba olemas ja süsteemis ei ole lubatud topeltnumbriga arvete vastuvõtmine** on sisse lülitatud.
-- **Arve sisaldab rida, kus arve kogus on väiksem kui vastendatud toote sissetuleku kogus.** Isik, kes arve esitab või proovib postitada, saab teate, et kogused ei ole võrdsed. Teatis annab võimaluse parandada saldosid enne arve uuesti töövoogu saatmist. See funktsioon on saadaval juhul, kui **Hankija arvete sisestamise blokeerimise** parameeter on **Funktsioonide haldus** lehel ja parameetri **Ostureskontro blokeerimine ja töövoole esitamine** lehel **Konto maksu parameetrid** sisse lülitatud.
+- **Arve kogusumma ja registreeritud kogusumma ei ole võrdsed.** Arve esitanud kasutaja saab teate, et kogusummad ei ole võrdsed. See teatis annab kasutajale võimaluse saldosid parandada, enne kui nad taasesitavad arve töövoo süsteemile. See funktsioon **on saadaval, kui suvand Keela töövoogu esitamine, kui arve kogusumma ja registreeritud arve kogusumma ei ole** **·** **·** **funktsioonihalduse lehel parameetriga võrdsed ja töövoo valik, kui arve kogusumma ja registreeritud kogusumma ei võrdu ostureskontro parameetrite lehel oleva parameetriga.** 
+- **Arve sisaldab eraldamata kulusid.** Arve esitanud kasutaja saab teate, et arvel on eraldamata tasud. Sel viisil saab kasutaja arve enne töövoo süsteemi uuesti saatmist parandada. See funktsioon **on saadaval, kui lehel Funktsioonihaldus oleval hankija arve parameetril on jaotamata kulude ja töövoo suvandi keelamine, kui ostureskontro parameetrite lehel on** **·** **·** **jaotamata** kulude parameeter sisse lülitatud.
+- **Arvel on sama arvenumber teise sisestatud arvega.** Arve esitanud kasutaja saab teate, et leiti duplikaatnumbriga arve. Kasutaja saab duplikaatnumbrit parandada enne arve uuesti töövoo süsteemi saatmist. Kui ostureskontros kasutatava parameetri **Kontrolli arve numbrit on** seatud väärtusele Lükka duplikaat **tagasi, kuvatakse teatis**. See funktsioon on saadaval, kui lehel **Funktsioonihaldus** on parameeter **Keela töövoogu esitamine, kui sisestatud arvel on selline number juba olemas ja süsteemis ei ole lubatud topeltnumbriga arvete vastuvõtmine** on sisse lülitatud.
+- **Arve sisaldab rida, kus arve kogus on väiksem kui vastendatud toote sissetuleku kogus.** Kasutaja, kes esitab arve või proovib seda sisestada, saab teate, et kogused pole võrdsed. See teade annab kasutajale võimaluse väärtusi parandada, enne kui nad taasesitavad arve töövoo süsteemi. See funktsioon **on** **·** **saadaval** **·**, kui blokeerib sisestamise ja hankija arvete esitamise töövoo parameetrile lehel Funktsioonihaldus ja Blokeeri sisestamine ja töövoo parameetrisse esitamine ostureskontro parameetrite lehel lülitatakse sisse.
 
 ## <a name="matching-vendor-invoices-to-product-receipts"></a>Hankijaarvete vastavusseviimine toote sissetulekutega
 
@@ -142,7 +142,7 @@ Iga tehingu kohta sisaldab aruanne järgmisi üksikasju:
 Kui loote aruande **Tarnija avatud tehingud**, on saadaval järgmised vaikeparameetrid. Saate neid kasutada aruandesse lisatavate andmete filtreerimiseks.
 
 - **Välista tulevane arveldus** – märkige see ruut, et välistada tehingud, mis arveldatakse pärast väljale **Ava tehingud kuupäevast** sisestatud kuupäeva.
-- **Avatud tehingud kuupäevast** – sisestage kuupäev, et kaasata tehingud, mis on sellel kuupäeval avatud. Kui te kuupäeva ei sisesta, määratakse sellele väljale maksimaalne kuupäev. (Maksimaalne kuupäev on viimane kuupäev, mille süsteem aktsepteerib, 31. detsember 2154.) Vaikimisi määratakse järgmisel aruande käivitamisel sellele väljale viimane sellele sisestatud kuupäev.
+- **Avatud tehingud kuupäevast** – sisestage kuupäev, et kaasata tehingud, mis on sellel kuupäeval avatud. Kui te kuupäeva ei sisesta, määratakse sellele väljale maksimaalne kuupäev. (Suurim kuupäev on viimane kuupäev, mida süsteem aktsepteerib, 31. detsember 2154.) Vaikimisi seatakse aruande järgmisel käivitamisel selle välja väärtuseks viimane aruandesse sisestatud kuupäev.
 
 Aruandes sisalduvate tehinguandmete piiramiseks saate kasutada välja **Kaasamiseks kirje** all olevaid filtreid.
 

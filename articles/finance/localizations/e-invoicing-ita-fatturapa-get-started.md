@@ -1,21 +1,21 @@
 ---
 title: Itaalia FatturaPA otseintegratsiooni seadistamine SDI-ga
 description: See artikkel annab teavet, mis aitab teil alustada Itaalia elektroonilise arveldusega ja seadistada Itaalia FatturaPA otsese integreerimise Vahetussüsteemiga (SDI).
-author: abaryshnikov
-ms.date: 07/27/2022
+author: gionoder
+ms.date: 01/15/2022
 ms.topic: article
 audience: Application User, Developer
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: abaryshnikov
+ms.author: gionoder
 ms.search.validFrom: 2021-10-18
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 363b7b5e3d5abbb990fea8f8ad4d0c1bebf80102
-ms.sourcegitcommit: 6d9fcb52d723ac5022a3002e0ced8e7b56e9bc2a
+ms.openlocfilehash: e050d3896b2ba10433e166995d6fc405996cf0b2
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/27/2022
-ms.locfileid: "9203165"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9267152"
 ---
 # <a name="set-up-direct-integration-of-italian-fatturapa-with-sdi"></a>Itaalia FatturaPA otseintegratsiooni seadistamine SDI-ga
 
@@ -154,7 +154,7 @@ See jaotis annab teavet, mis aitab teil seadistada ja konfigureerida puhvriteenu
     ```
 
 2. Salvestage .PFX-i sertifikaadifail võtme hoidlasse ja seejärel kustutage kohalik koopia.
-3. Administraatorina Azure'i [portaali](https://portal.azure.com) sisselogimine.
+3. Administraatorina Azure’i [portaali](https://portal.azure.com) sisselogimine.
 4. Looge rakenduse registreerimine SDI puhvriteenusele.
 
     1. Avage rakenduse **registreerimised**, looge registreerimine ja seadke selle jaoks järgmised väärtused:
@@ -164,7 +164,7 @@ See jaotis annab teavet, mis aitab teil seadistada ja konfigureerida puhvriteenu
 
     2. Valige **Register** ja seejärel äsja loodud rakenduse registreerimine.
     3. **Minge API lubadesse** ja valige hüvitise **administraatori luba**.
-    4. Avage tunnistused **ja saladused**, valige suvand **Laadi** sert üles ja .cer S2S-autentimiseks.
+    4. Avage tunnistused **ja saladused**, valige suvand **Laadi** sert üles ja laadige üles .cer certificate file S2S-autentimiseks.
     5. Minge Ettevõtte **rakendustesse** ja valige rakendus, mille lõite.
     6. Salvestage **rakenduse ID** (kliendi ID) ja rakenduse **objekti ID** väärtused.
     7. Arveldusteenuse meeskond peab andma rakendusele teenusele juurdepääsu. Saatke järgmiste parameetrite väärtused:<D365EInvoiceSupport@microsoft.com>
@@ -183,9 +183,9 @@ See jaotis annab teavet, mis aitab teil seadistada ja konfigureerida puhvriteenu
 
     3. Valige **salvestamine** ja seejärel **avalda**.
 
-### <a name="create-an-azure-virtual-machine"></a>Looge Azure'i virtuaalmasin
+### <a name="create-an-azure-virtual-machine"></a>Looge Azure’i virtuaalmasin
 
-1. [Minge Azure'i](https://portal.azure.com) portaali virtuaalmasinasse **ja** valige käsk **Loo uus**.
+1. [Minge Azure’i](https://portal.azure.com) portaali virtuaalmasinasse **ja** valige käsk **Loo uus**.
 2. Vahekaardil Põhied **valige** oma kordustellimus ja ressursigrupp. Väärtused peaksid olema tellimus ja ressursigrupp, kus asuvad teie võtme vault ja bloobi talletus.
 3. Valige piirkond. See väärtus peaks olema piirkond, kus teie finantskeskkond juurutatakse.
 4. Lisage administraatori kasutajanimi ja parool ning salvestage need võtmehoidlasse.
@@ -228,7 +228,7 @@ See jaotis annab teavet, mis aitab teil seadistada ja konfigureerida puhvriteenu
         1. Valige subjektiväli **väljal** Valitud VM.
         2. Valige jaotises **Sert** suvand **Loend** ja **Too** õigused.
 
-14. Azure'i [portaalis](https://portal.azure.com) minge avalikele **IP-aadressidele** ja valige VM-is loodud IP-aadress.
+14. Azure’i [portaalis](https://portal.azure.com) minge avalikele **IP-aadressidele** ja valige VM-is loodud IP-aadress.
 15. **Minge konfiguratsiooni** ja määrake nimi Domain Name System (DNS).
 
 ### <a name="prepare-the-proxy-service-environment"></a>Puhvriteenuse keskkonna ettevalmistamine
@@ -237,7 +237,7 @@ Järgige neid samme arvutis, kus puhvriteenus on majutatud.
 
 1. Looge ühendus VM-ga kaugtöölauaühenduse abil.
 2. Avage kohaliku arvuti serdi sissetõmme. Lisateavet vt jaotisest Kuidas [vaadata tunnistusi KKC sissetõmme abil](/dotnet/framework/wcf/feature-details/how-to-view-certificates-with-the-mmc-snap-in).
-3. Importige **vahemällu .cer** sert **ja sert CAEntratetest.cer** jaoks [usaldusväärsete juursertifikaatide sertifitseerimisasutuste kauplusesse testimiseks](/dotnet/framework/wcf/feature-details/working-with-certificates#certificate-stores). (**CAEntratetest.cer** on juur-CA-sert, mille on andnud asutus.)
+3. Importige **tootmise sert caentrate.cer** **ja caEntratetest.cer** usaldusväärsete [juursertifikaatide sertifitseerimisasutuste kauplusesse testimiseks](/dotnet/framework/wcf/feature-details/working-with-certificates#certificate-stores). (**CAEntratetest.cer** on juur-CA-sert, mille andis asutus.)
 4. Avage juhtpaneelil **Windowsi** **·** \> **funktsioonide** sisse- või väljalülitamine või avage serveri operatsioonisüsteemi (OS) rollide ja funktsioonide lisamine serverihalduris ning lülitage sisse teenuse Internet Information Services (IIS) funktsioonid.
 
     - Veebihalduse tööriistad

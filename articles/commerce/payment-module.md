@@ -7,19 +7,19 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: a89ca5dd4f46611e75faccd3213028750fa48d35
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.openlocfilehash: fa1482cb73a40df5f9bc9d3037196def71accf18
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8850271"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9279471"
 ---
 # <a name="payment-module"></a>Maksemoodul
 
@@ -94,7 +94,7 @@ Maksemoodulit saab lisada ainult maksmise moodulisse. Lisateavet maksmise lehe j
 
 ## <a name="configure-the-adyen-and-paypal-payment-connectors-when-both-are-used"></a>Konfigureerige Puhvri ja PayPali makseühendused, kui mõlemat kasutatakse
 
-Kui teie saidi jaoks kasutatakse nii Puhvri kui ka PayPali makseühendusi, järgige commerce'i saidikonstruktoris neid samme iga konnektori maksemoodulite lisamiseks väljaregistreerimise moodulile ja seejärel konfigureerige atribuudid iga mooduli jaoks.
+Kui teie saidi jaoks kasutatakse nii Puhvri kui ka PayPali makseühendusi, järgige commerce’i saidikonstruktoris neid samme iga konnektori maksemoodulite lisamiseks väljaregistreerimise moodulile ja seejärel konfigureerige atribuudid iga mooduli jaoks.
 
 1. PayPal maksemooduli atribuutide paanil järgige neid samme.
 

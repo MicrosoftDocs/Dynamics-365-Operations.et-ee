@@ -1,26 +1,26 @@
 ---
 title: ER-vormingu loomine Exceli vormingus manustatud piltidega lehe päistes või jalustes
 description: See artikkel selgitab, kuidas kasutada elektroonilist aruandlust (ER) äridokumentide loomiseks, milles on lehekülje päistele või jalusesse manustatud pildid ja kujud.
-author: NickSelin
+author: kfend
 ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: EROperationDesigner, ERParameters
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2021-06-01
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 1cfde60459e440c851edb97276321216b1654e40
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.form: EROperationDesigner, ERParameters
+ms.openlocfilehash: 5b46d92094bb3f2dab67a5cb2f0e1a34b05d52f0
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854839"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9281808"
 ---
 # <a name="design-an-er-format-to-generate-a-report-in-excel-format-with-embedded-images-in-page-headers-or-footers"></a>ER-vormingu loomine Exceli vormingus manustatud piltidega lehe päistes või jalustes
 
@@ -196,7 +196,7 @@ Sellisel juhul peaksite Litware, Inc.-i esindajana looma (tuletama) uue ER-vormi
 
 ![Kohandatud maksevormingu konfiguratsiooni loomine konfiguratsiooni ripploendis.](./media/er-embed-images-header-footer-excel-reports-add-derived-format.png)
 
-Luuakse 240.112.1 **Vabas vormis arve (Excel) kohandatud** ER-vormingu konfiguratsiooni versioonifail. Selle versiooni [olek](general-electronic-reporting.md#component-versioning) on **Mustand** ja seda saab redigeerida. Teie kohandatud ER-vormingu praegune sisu vastab Microsofti antud vormingu sisule.
+Luuakse 240.112.1 **Vabas vormis arve (Excel) kohandatud** ER-vormingu konfiguratsiooni versioonifail. Selle versiooni olek on Mustand **ja** seda saab redigeerida. Teie kohandatud ER-vormingu praegune sisu vastab Microsofti antud vormingu sisule.
 
 ![Luuakse uus versioon ER-i konfiguratsiooni versioonid konfiguratsioonide lehel.](./media/er-embed-images-header-footer-excel-reports-derived-format-configuration1.png)
 
@@ -244,7 +244,7 @@ Konfigureerige oma kohandatud vorming nii, et ettevõtte logo pilt asetatakse ar
 
 ### <a name="mark-the-custom-format-as-runnable"></a><a id="MarkFormatRunnable"></a>Kohandatud vormingu märkimine käitatavaks
 
-Kuna teie kohandatud vormingu esimene versioon on loodud ja selle olek on **Mustand**, saate selle vormingu käitada testimise eesmärgil. Aruande käitamiseks peate töötlema hankija makset makseviisi abil, mis viitab teie kohandatud ER-vormingule. Kui toote rakendusest ER-vormingu võetakse vaikimisi [arvesse](general-electronic-reporting.md#component-versioning) ainult versioone, mille olek on **Lõpule viidud** või **Ühiskasutusse antud**. Selle käitumise abil saab vältida ER-vormingute kasutamist, mille koostamine on lõpetamata. Kuid oma testikäivitustel saate sundida rakendust kasutama teie ER-vormingu versiooni, mille olekuks on **Mustand**. Sedasi saate korrigeerida praeguse vormingu versiooni, kui muudatusi on vaja. Lisateavet vt jaotisest [Kohaldatavus](electronic-reporting-destinations.md#applicability).
+Kuna teie kohandatud vormingu esimene versioon on loodud ja selle olek on **Mustand**, saate selle vormingu käitada testimise eesmärgil. Aruande käitamiseks peate töötlema hankija makset makseviisi abil, mis viitab teie kohandatud ER-vormingule. Kui kutsute rakendusest ER-vormingu, kaalutakse vaikimisi ainult versioone, mille olek on **Lõpetatud** **või** Ühiskasutuses. Selle käitumise abil saab vältida ER-vormingute kasutamist, mille koostamine on lõpetamata. Kuid oma testikäivitustel saate sundida rakendust kasutama teie ER-vormingu versiooni, mille olekuks on **Mustand**. Sedasi saate korrigeerida praeguse vormingu versiooni, kui muudatusi on vaja. Lisateavet vt jaotisest [Kohaldatavus](electronic-reporting-destinations.md#applicability).
 
 ER-vormingu mustandversiooni kasutamiseks peate ER-vormingu selgelt märgistama.
 

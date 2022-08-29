@@ -6,20 +6,20 @@ ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
-ms.reviewer: v-chgri
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: a087c213d4a7094f75da8c20e4ccc14fc52444ce
-ms.sourcegitcommit: 6616b969afd6beb11a79d8e740560bf00016ea7f
+ms.search.industry: ''
+ms.search.form: ''
+ms.openlocfilehash: d10e9ed78dfc90833ff3c09021f863f6ef0b80d9
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/17/2022
-ms.locfileid: "9027087"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9286806"
 ---
 # <a name="search-results-module"></a>Otsingutulemuste moodul
 
@@ -95,10 +95,10 @@ Kliendid eeldavad üldiselt, et e-äri veebisait on laost kursis kogu sirvimise 
 - Näitab tooteloendi lõppu laost väljas valmistatud tooteid.
 - Filtreerige tooted otsingutulemuste alusel laovarude taseme alusel.
 
-Nende kogemuste lubamiseks peate esmalt lubama **täiustatud e-commerce'i** tootetuvastuse varudele vastavalt funktsioonihalduse **tööruumis**.
+Nende kogemuste lubamiseks peate esmalt lubama **täiustatud e-commerce’i** tootetuvastuse varudele vastavalt funktsioonihalduse **tööruumis**.
 
 > [!NOTE]
-> **Täiustatud e-commerce'i tootetuvastuse** varudest teadmise funktsioon on saadaval commerce version 10.0.20 väljaandes ja hilisemates versioonides.
+> **Täiustatud e-commerce’i tootetuvastuse** varudest teadmise funktsioon on saadaval commerce version 10.0.20 väljaandes ja hilisemates versioonides.
 
 Laoseisust teadmise tooteotsing kasutab tooteatribuudiid varude saadavusteabe saamiseks. Funktsiooni eeltingimusena tuleb luua sihtotstarbelised tooteatribuudid, varude andmed tuleb nende jaoks sisestada ja need tuleb lisada võrgukanalile. 
 
@@ -121,7 +121,7 @@ Võrgukanali toote atribuutide konfigureerimiseks järgige neid samme.
 1. Minge peakontoris jaemüügi ja **ärikanali häälestuse \> kanali kategooriatesse \> ja toote atribuutidesse**.
 1. Valige võrgukanal, et lubada laoteadpõhise otsingu tulemuste moodul.
 1. Valige ja avage seostatud atribuudigrupp ning seejärel lisage vastloodud toote atribuut.
-1. Commerce'i versioonide puhul enne 10.0.27 väljalaset valige suvand Atribuudi metaandmete määramine, valige uuesti lisatud tooteatribuut ja seejärel lülitage sisse kanali atribuut Näita, **Toomine**, **·** **Saab** muuta ja neid saab **päringusse** teha.**·**
+1. Commerce’i versioonide puhul enne 10.0.27 väljalaset valige suvand Atribuudi metaandmete määramine, valige uuesti lisatud tooteatribuut ja seejärel lülitage sisse kanali atribuut Näita, **Toomine**, **·** **Saab** muuta ja neid saab **päringusse** teha.**·**
 1. Minge jaemüügi **ja rakenduse Commerce \> Retail ja Commerce IT jaotusgraafikusse \>** ja käitage **1150-töö** (kataloog). Kui planeerite **tooteatribuudid** laotaseme tööga pakktöötlusena, on soovitatav planeerida 1150-töö ka pakett-tööna, mis töötab samas sageduses.
 
 > [!NOTE]

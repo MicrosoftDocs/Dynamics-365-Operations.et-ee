@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e0b21c0000f6bf1cbbb318c898a519e51ca7e9b8
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
-ms.translationtype: HT
+ms.openlocfilehash: 741377a43e2bfe702b213647cc6460a3d6ad93fb
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9068627"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9218678"
 ---
 # <a name="batch-release-of-partially-reserved-transfer-orders"></a>Osaliselt reserveeritud üleviimistellimuste hulgiväljastamine
 
@@ -42,25 +42,22 @@ Enne, kui tellimuse saab osaliselt partiina lattu väljastada, peavad täitmise 
 
 Üleviimistellimuste ja müügitellimuste täitmispoliitikad määratakse ettevõtte tasandil. Olenevalt täitmispoliitika seadistusest võetakse tellimuste väljastamine partiina vastu või lükatakse tagasi. Seejärel töödeldakse tellimusi vastavalt.
 
--   Üleviimis- ja müügitellimuste täitmispoliitikate koostamiseks klõpsake valikuid **Laohaldus** \> **Seadistus** \> **Lattu väljastamine** \> **Täitmispoliitika** ja koostage siis täitmispoliitika, sisestades nime ja kirjelduse.
-
--   Et määrata täitmise määr, väärtuse tüüp ja sõnum, mis kuvatakse, kui täitmispoliitikat rikutakse, klõpsake välju **Laohaldus** \> **Seadistus** \> **Lattu väljastamine** \> **Täitmispoliitika** ja määrake siis **Täitmismäär**, **Väärtuse tüüp** ja **Täitmise rikkumise teade**.
+- Üleviimistellimuste **\>\>\> ja müügitellimuste täitmispoliitikate loomiseks minge laohalduse häälestusprogrammi lao täitmispoliitikasse ja looge täitmispoliitika**, sisestades nime ja kirjelduse.
+- Täitmismäära, väärtuse tüübi ja teate määramiseks, mis kuvatakse täitmispoliitika rikkumise korral, **\>\>\> minge laohalduse häälestuse vabastamise poliitikasse ja seadke täitmismäär** **·**, **·** **väärtuse** tüüp ja täitmise rikkumise teate väljad.
 
 ### <a name="set-the-fulfillment-policies-for-transfer-orders-and-sales-orders"></a>Määrake üleviimistellimuste ja müügitellimuste täitmise poliitikad
 
--   Üleviimistellimuste täitmise poliitikate määramiseks klõpsake valikuid **Varude haldus** \> **Seadistus** \> **Varude ja laohalduse parameetrid** \> **Üleviimistellimused** \> **Laohaldus** ja valige siis üleviimistellimuse täitmise poliitika.
+- Üleviimistellimuste täitmispoliitikate seadistamiseks minge laohalduse seadistuse varude ja laohalduse parameetritesse ja seejärel valige üleviimistellimuse täitmispoliitika jaotises Laohaldus vahekaardil Üleviimistellimused **\>\>** **.** **·**
+- Müügitellimuste täitmispoliitikate seadistamiseks minge müügireskontro seadistuse müügireskontro parameetritesse ja seejärel valige laohalduse vahekaardil müügitellimuse täitmispoliitika **\>\>.** **·**
 
--   Müügitellimuste täitmise poliitikate määramiseks klõpsake valikuid **Müügireskontro** \> **Seadistus** \> **Müügireskontro parameetrid** \> **Laohaldus** ja valige siis müügitellimuse täitmise poliitika.
-
-## <a name="allow-release-in-a-batch-and-specify-the-quantity-that-should-be-release-in-a-batch"></a>Lubage partiina väljastamine ja määrake kogus, mis tuleks partiina väljastada
+## <a name="allow-release-in-a-batch-and-specify-the-quantity-that-should-be-released-in-a-batch"></a>Luba vabastus partiina ja määra kogus, mis tuleb partiina vabastada
 
 Laost tellimuste partiina väljastamiseks kasutatakse pakett-tööd. Parameetrid, mis eristavad tellimusi, mis tuleks pakett-tööna käivitada, määratakse pakett-töös eneses.
 
 Parameeter **Kogus** määrab, kas partiina tuleks väljastada terve kogus või füüsiliselt reserveeritud kogus. Parameeter **Luba osaliselt väljastatud tellimuste väljastamine** määrab, kas partii tellimused tuleks vastu võtta või tagasi lükata, kui nad varem osaliselt väljastati.
 
--   Parameetrite **Kogus** ja **Luba osaliselt väljastatud tellimuste väljastamine** määramiseks üleviimistellimustele klõpsake valikuid **Laohaldus** \> **Lattu väljastamine** \> **Üleviimistellimuste automaatne väljastamine**.
-
--   Parameetrite **Kogus** ja **Luba osaliselt väljastatud tellimuste väljastamine** määramiseks müügitellimustele klõpsake valikuid **Laohaldus** \> **Lattu väljastamine** \> **Müügitellimuste automaatne väljastamine**.
+- Üleviimistellimuste **jaoks** **osaliselt väljastatud tellimuste** parameetrite Koguse ja Lubamise parameetreid häälestamiseks minge laohalduse lattu väljastatud üleviimistellimuste **\>\> automaatseks väljalaseks.**
+- Müügitellimuste jaoks **osaliselt** **väljastatud tellimuste parameetrite** Koguse ja Lubamise parameetreid häälestamiseks minge **\>\> laohalduse müügitellimuste automaatseks väljastamiseks lattu.**
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

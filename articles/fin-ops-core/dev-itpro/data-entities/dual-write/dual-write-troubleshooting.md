@@ -5,16 +5,16 @@ author: RamaKrishnamoorthy
 ms.date: 04/18/2022
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: sericks
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 2f263e331d23ce0ddf60a4abc2467513aa342445
-ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
+ms.openlocfilehash: be3d72063ac18b9abea77d5aec6e230b0c930ae6
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/02/2022
-ms.locfileid: "9112360"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9289356"
 ---
 # <a name="general-troubleshooting"></a>Üldine tõrkeotsing
 
@@ -82,15 +82,15 @@ Topeltkirjutuse tõrked, mis pärinevad Dataverse, võivad ilmuda finantside ja 
 7. Vaadake läbi hiljutiste tõrgete loend.
 
 ## <a name="dual-write-ui-landing-page-showing-blank"></a>Topeltkirjutuse kasutajaliidese dokument, mis kuvatakse tühjana
-Kui avate topeltkirjutuslehe Microsoft Edge brauseris või Chrome'i brauseris, ei laadita kodulehte ja te näete tühja lehekülge või tõrketeadet, nagu näiteks "Midagi läks valesti".
+Kui avate topeltkirjutuslehe Microsoft Edge brauseris või Chrome’i brauseris, ei laadita kodulehte ja te näete tühja lehekülge või tõrketeadet, nagu näiteks "Midagi läks valesti".
 Devtoolis näete viga konsoollogides:
 
->bundle.eed39124e62c58ef34d2.js:37 DOMException: atribuudi sessionStorage lugemine nurjus asukohast Window: selle dokumendi jaoks ei ole võimalik juurde pääseda. t.storeInSessionStorage'is (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:16:136860) uuel t (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:69:20103)https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:37:44115 at Eo (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:37:58728) juures jo (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:37:65191) juures Nr (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:37:84692) või (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:37:85076) Ss ( ) juures, kell vs (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:37:91750 https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:37:91130) Hsis (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:37:90151)
+>bundle.eed39124e62c58ef34d2.js:37 DOMException: atribuudi sessionStorage lugemine asukohast Window: selle dokumendi jaoks pole juurdepääsu lubatud. t.storeInSessionStorage’is (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:16:136860) uuel t (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:69:20103)https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:37:44115 at Eo (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:37:58728) juures jo (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:37:65191) juures Nr (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:37:84692) või (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:37:85076) Ss ( ) juures, kell vs (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:37:91750 https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:37:91130) Hsis (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:37:90151)
 
 Kasutajaliides kasutab brauserit "seansi talletus", et talletada mõned atribuudiväärtused avalehe laadimiseks. Selleks peavad saidi brauseris olema lubatud kolmanda osapoole küpsised. Tõrge näitab, et kasutajaliides ei pääse seansi talletuse juurde. Selle probleemi ilmnemisel võib olla kaks stsenaariumi:
 
 1.  Te avate UI incotoolto režiimis Edge/Kroomitud ja kolmanda osapoole küpsised incokoostos on blokeeritud.
-2.  Te olete blokeerinud kolmanda osapoole küpsised kokku Edge'is/Kroomitud.
+2.  Te olete blokeerinud kolmanda osapoole küpsised kokku Edge’is/Kroomitud.
 
 ### <a name="mitigation"></a>Vähendamine
 Kolmanda osapoole küpsiste kasutamine brauseri sätetes peab olema lubatud.
@@ -105,7 +105,7 @@ Kolmanda osapoole küpsiste kasutamine brauseri sätetes peab olema lubatud.
 2.  Kui valitud on valik "Blokeeri kolmanda osapoole küpsised Incotoolis" või "Blokeeri kolmanda osapoole küpsisted", minge "Saidid, mis saavad alati küpsiseid kasutada" ja klõpsake käsku **Lisa**. 
 3.  Lisage oma finants& toimingute rakenduste saidi nimi – https://<your_FinOp_instance>.cloudax.dynamics.com. Veenduge, et märgite ruudu "Kõik küpsised" puhul ainult sellel saidil. 
 
-### <a name="microsoft-edge-browser"></a>Microsoft Edge brauser
+### <a name="microsoft-edge-browser"></a>Microsoft Edge Brauseri
 1.  Liikuge sätetes –> saidiload –> ja saidi andmed.
 2.  Lülitage välja "Blokeeri kolmanda osapoole küpsisted".  
 
@@ -166,7 +166,7 @@ Tugimeeskond võib mõne probleemi tõrkeotsinguks vajada võrgujälje ülevaata
 3. Käivitage stsenaarium ja jälgige sisselogitud taotlusi.
 4. Paremklõpsake kirjeid ja valige suvand **Salvesta kõik sisuga HAR-i jaoks**.
 
-### <a name="microsoft-edge-browser"></a>Microsoft Edge brauser
+### <a name="microsoft-edge-browser"></a>Microsoft Edge Brauseri
 
 1. Avatud vahekaardil vajutage **F12** või valige **arendaja tööriistad** arendaja tööriistade avamiseks.
 2. Avage vahekaart **Võrgustik**.

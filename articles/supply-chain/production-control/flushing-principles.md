@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 357ce65792ceef37abda523e7693069f1bc1ab43
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 89fd38ea6d2c1635e9d8974ab99c2e4cdae4d6be
+ms.sourcegitcommit: 8d072505f66f507aafbaae65bedf3b530eb6cb7b
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9065550"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9266424"
 ---
 # <a name="flushing-principles"></a>Automaatse tarbimise põhimõtted
 
@@ -56,7 +56,10 @@ Käsitsi automaatse tarbimise põhimõte näitab, et materjali tarbimise registr
 Automaatse tarbimise põhimõte Algus näitab, et materjali tarbitakse tootmistellimuse käivitamisel automaatselt. Tarbitud materjali kogus on alguskoguse suhtes proportsionaalne. Kui automaatse tarbimise põhimõtet Algus kasutatakse koos tootmise käivitussüsteemiga, saab seda kasutada ka materjalide automaatseks tarbimiseks toimingu või protsessitöö käivitamisel. See põhimõtte on asjakohane, kui näiteks tarbimise hälve on väike, materjalid väheväärtuslikud, jälgimisnõudeid pole või on toimingutel lühike käitusaeg. 
 
 ### <a name="finish"></a>Valmis
-Automaatse tarbimise põhimõte Lõpp näitab, et materjali tarbitakse automaatselt, kui tootmistellimus teatatakse lõpetatuks või kui materjale tarbima seadistatud toiming registreeritakse lõpule viiduks. Tarbitud materjali kogus on lõpetatuna teatatud koguse suhtes proportsionaalne. Kui automaatse tarbimise põhimõtet Lõpp kasutatakse koos tootmise käivitussüsteemiga, saab seda kasutada ka materjalide automaatseks tarbimiseks toimingu või protsessitöö lõpetamisel. See põhimõte on asjakohane samades olukordades mis põhimõte Algus. Põhimõte Lõpp on siiski mõeldud pikema käitusajaga toimingutele, kus materjalid ei tule seada olekusse WIP, enne kui toiming viiakse lõpule. 
+Automaatse tarbimise põhimõte Lõpp näitab, et materjali tarbitakse automaatselt, kui tootmistellimus teatatakse lõpetatuks või kui materjale tarbima seadistatud toiming registreeritakse lõpule viiduks. Tarbitud materjali kogus on lõpetatuna teatatud koguse suhtes proportsionaalne. Kui automaatse tarbimise põhimõtet Lõpp kasutatakse koos tootmise käivitussüsteemiga, saab seda kasutada ka materjalide automaatseks tarbimiseks toimingu või protsessitöö lõpetamisel. See põhimõte on asjakohane samades olukordades mis põhimõte Algus. Põhimõte Lõpp on siiski mõeldud pikema käitusajaga toimingutele, kus materjalid ei tule seada olekusse WIP, enne kui toiming viiakse lõpule.
+
+> [!NOTE]
+> Te ei saa kasutada valikut Lõpeta tühjendamine koos kaupade planeerimisega. Selle asemel soovitame kasutada automaatse kasutamise põhimõtet. Plaanitavatel kaupadel on tootmistüüp *Plaanimisüksus* ning ainult kaastoodete ja kaastoodete puhul saab kaupade planeerimiseks loodud partiitellimuste puhul teatada lõpetatuna.
 
 ### <a name="available-at-location"></a>Asukohas saadaval
 Automaatse tarbimise põhimõte Saadaval asukohas näitab, et materjali tarbitakse automaatselt, kui see registreeritakse tootmiseks komplekteerituna. Materjal registreeritakse asukohast komplekteerituks, kui töö toormaterjali komplekteerimiseks on lõpule viidud või kui materjal on saadaval tootmise sisendasukohas ja materjalirida on lattu vabastatud. Protsessi käigus loodud komplekteerimisleht sisestatakse pakett-tööna. See põhimõte on asjakohane näiteks juhul, kui teil on ühe tootmistellimusega seotud palju komplekteerimistegevusi. Sel juhul ei pea te komplekteerimislehte käsitsi värskendama ja saate WIP-saldost ajakohase ülevaate.

@@ -2,7 +2,7 @@
 title: Dynamics 365 Supply Chain Managementi eemaldatud või iganenud funktsioonid
 description: See artikkel kirjeldab funktsioone, mis on eemaldatud või mida plaanitakse eemaldada Dynamics 365 Supply Chain Management
 author: kamaybac
-ms.date: 04/27/2021
+ms.date: 06/29/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 7c7dd90fea79ae83d238ed51b9ec1fc42e9e36b2
-ms.sourcegitcommit: f2501d93ffc1c7bf4e0daa78e63bc37528ef2358
-ms.translationtype: HT
+ms.openlocfilehash: f70d05f5663d8249b2435ad353421c278692a9ac
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/18/2022
-ms.locfileid: "9171511"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9218798"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-supply-chain-management"></a>Dynamics 365 Supply Chain Managementi eemaldatud või iganenud funktsioonid
 
@@ -33,6 +33,17 @@ See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võ
 > [!NOTE]
 > Finantside ja toimingute rakenduste objektide üksikasjaliku teabe leiate tehnilistest [viitearuannetest](/dynamics/s-e/). Saate võrrelda nende aruannete erinevaid versioone, et saada teavet objektide kohta, mida on igas finantsi ja toimingute rakenduste versioonis muudetud või eemaldatud.
 
+## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10029-release"></a>Supply Chain Managementi väljalaskest 10.0.29 eemaldatud või aegunud funktsioonid
+
+### <a name="stock-transfer-orders-that-have-tax-on-the-transfer-price"></a>Lao üleviimistellimused, mille sisehinnale kehtib maks
+
+| &nbsp;  | &nbsp;  |
+|---|---|
+| **Aegumise/eemaldamise põhjus** | Lao [üleviimistellimused, mille ülekande hinnafunktsioonil](../../finance/localizations/apac-ind-gst-stock-transfer-transactions.md) on maks, asendatakse Lao [üleviimistellimustega India funktsioonide](../../finance/localizations/apac-ind-stock-transfer.md) jaoks. |
+| **Asendatud teise funktsiooniga?**   | Jah, lao [üleviimistellimused, mille makse on ülekande hinna](../../finance/localizations/apac-ind-gst-stock-transfer-transactions.md) funktsioonil, asendatakse Lao [üleviimistellimustega India funktsioonide](../../finance/localizations/apac-ind-stock-transfer.md) jaoks. |
+| **Mõjutatud tootealad** | Tarneahela haldus – varud |
+| **Juurutamissuvand** | Pilves ja kohapealne |
+| **Olek** | <p>Taunitud. Lao *üleviimistellimused, mis on ülekande hinna* funktsioonil maksuga, ei saa tuge vigaste paranduste ja turbeparandustega.</p><p>Pärast 2023. aasta aprilli palutakse klientidel vaikimisi kasutada täiustatud funktsioone – *lao üleviimistellimusi India* puhul. Pärast 2023. aasta oktoober pole laoülekandetellimused, *mis omavad* ülekande hinna funktsioonil maksu, *enam saadaval olla ja klientidel palutakse india funktsiooni puhul teisaldada täiustatud lao üleviimistellimused*.</p><p>Lisateavet vt Lao üleviimistellimustest [India jaoks](../../finance/localizations/apac-ind-stock-transfer.md).</p> |
 
 ## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10019-release"></a>Supply Chain Managementi väljalaskest 10.0.19 eemaldatud või aegunud funktsioonid
 

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 3465866df0d766b2300eb4fd1989c034cedbbb22
-ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
-ms.translationtype: HT
+ms.openlocfilehash: d99a7a7d0261ba0afd19efbb237dff329527723d
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "9123804"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219150"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10020-august-2021"></a>Mis on uut ja mida on muudetud rakenduses Dynamics 365 Supply Chain Management 10.0.20. (august 2021)?
 
@@ -49,7 +49,7 @@ Järgmises tabelis on loetletud selle väljalaske funktsioonide täiustused. Iga
 | Moodul | Funktsiooni&nbsp;nimi&nbsp;funtsiooni&nbsp;halduses | Lisateave |
 |---|---|---|
 | Koondplaneerimine | Korrigeeritud nõudluse prognoosi paralleelne lubamine | See funktsioon võimaldab korrigeeritud nõudluse prognoosi paralleelset lubada **Korrigeeritud nõudluse prognoosiks** lehel. Selle funktsiooni eesmärk on suurendada jõudlust suure arvu eelarvete autoriseerimisel. Autoriseerimisel saab kasutaja autoriseerimise dialoogis määrata **Lõimede arvu**. |
-| Koondplaneerimine | (Eelversioon) Plaanitud hulgi- ja partiina tellimuste partiideks jaotatud kinnitamine ja konsolideerimine | See funktsioon võimaldab teil planeeritud hulgi- ja partiidena tellimuste kinnitamiseks ja konsolideerimiseks kasutada pakett-töid. |
+| Koondplaneerimine | Plaanitud hulgi- ja partiina tellimuste partiideks jaotatud kinnitamine ja konsolideerimine | See funktsioon võimaldab teil planeeritud hulgi- ja partiidena tellimuste kinnitamiseks ja konsolideerimiseks kasutada pakett-töid. |
 | Tootmise juhtimine | Kopeeri üldised marsruudid | See funktsioon parandab kopeerimisprotsessi funktsiooni, et lubada kasutajatel kopeerida protsesse, mis pole kaubapõhised. See võimaldab süsteemil värskendada kogu asjakohast teavet (nt sait, protsessigrupp, ressursinõuded ja erinevad ajad) pärast seda, kui kopeerimisprotsessi funktsiooni on kasutatud kaubale veel määramata protsessi ülekirjutamiseks. |
 | Tootmise juhtimine | Uuenda seotud ressursitingimused, kui marsruudi toimingut muudetakse | See funktsioon võimaldab süsteemil värskendada seotud ressursinõudeid pärast seda, kui kasutaja muudab olemasoleva marsruudi etapi toimimist. |
 | Tooteteabe haldus | Materjalide aruanne sisaldab eeltöötlust, et vältida aegumist | Selle funktsiooniga töödeldakse koosluste aruannet. See aitab vältida ajalõppu, kui aruandel on suur andmete koormus. |

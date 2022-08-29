@@ -2,7 +2,7 @@
 title: Tehnilise muudatuse haldamise funktsiooni juhis
 description: See artikkel annab lõpuni läbisaadmise, mis näitab, kuidas töötada tehnika muudatusehaldusega.
 author: t-benebo
-ms.date: 09/28/2020
+ms.date: 08/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: ec5535013af9ccb253744e061de738155ac9ad22
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 65ff30632a54b0b7cadbfe663698d466d41abe47
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8889631"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334891"
 ---
 # <a name="engineering-change-management-feature-walkthrough"></a>Tehnilise muudatuse haldamise funktsiooni juhis
 
@@ -45,7 +45,7 @@ Enne kui proovite teha kõiki selle artikli olevaid koormusi, järgige kõikide 
 
 ### <a name="make-standard-demo-data-available"></a>Standardsete demoandmete kättesaadavaks tegemine
 
-Töötage süsteemis, kuhu on [installitud standardsed demoandmed](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md). Standardsed demoandmed lisavad mitme juriidilise isiku demoandmed (ettevõtted ja organisatsioonid). Harjutusi läbi töötades kasutate navigeerimisriba paremal pool olevat ettevõttevalijat, et lülituda ühe ettevõtte (*DEMF*), mis on seadistatud *tehnikaorganisatsioonina*, ja teise ettevõtte vahel (*USMF*), mis on seadistatud *operatiivorganisatsioonina*.
+Töötage süsteemis, kuhu on installitud [standardsed](../../fin-ops-core/fin-ops/get-started/demo-data.md) demoandmed. Standardsed demoandmed lisavad mitme juriidilise isiku demoandmed (ettevõtted ja organisatsioonid). Harjutusi läbi töötades kasutate navigeerimisriba paremal pool olevat ettevõttevalijat, et lülituda ühe ettevõtte (*DEMF*), mis on seadistatud *tehnikaorganisatsioonina*, ja teise ettevõtte vahel (*USMF*), mis on seadistatud *operatiivorganisatsioonina*.
 
 ### <a name="set-up-an-engineering-organization"></a>Tehnikaorganisatsiooni seadistamine
 
@@ -284,7 +284,7 @@ Toote ülevaatamiseks ja väljastamiseks ettevõttes *USMF* toimige järgmiselt.
 
 1. Valige veeruus **Tootenumber** olev väärtus, et avada leht **Toote väljastamise üksikasjad**. Pange tähele järgmiseid üksikasju.
 
-    - Vahekaardil **Üldine** on teave toote väljastamise kohta, nt väljastav ettevõte (*DEMF* selles näites), väljastav tegevuskoht (*1*) ja vastuvõttev tegevuskoht (*1*). Kuna te ei määranud vastuvõtvat tegevuskohta viisardis **Toodete väljastamine**, kopeeritakse väljastava tegevuskoha väärtus vastuvõtva tegevuskoha väljale.
+    - Vahekaardil **Üldine** on teave toote väljastamise kohta, nt väljastav ettevõte (*DEMF* selles näites), väljastav tegevuskoht (*1*) ja vastuvõttev tegevuskoht (*1*). Kuna te ei määranud vabastustoodete **viisardis** vastuvõtusaidi, kopeeritakse vabastamissaidi väärtus vastuvõtusaidile.
     - Kiirkaardil **Väljastamise üksikasjad** on teave toote ja väljastatud versiooni kohta. Siin saate muuta sätteid, nt kehtivuskuupäevi.
     - Kiirkaardil **Protsess** on toote protsess. Kuid selle näite puhul ei väljastanud te ühtegi protsessi.
 

@@ -1,27 +1,27 @@
 ---
-title: Halda äripartneri kasutajaid B2B e-commerce'i veebisaitidel, kasutades Dynamics 365-müüki
+title: Halda äripartneri kasutajaid B2B e-commerce’i veebisaitidel, kasutades Dynamics 365-müüki
 description: See artikkel kirjeldab Microsoft Dynamics, kuidas kasutada 365 Dynamics 365 Commerce müüki äripartneri kinnituste haldamiseks ettevõtete vahel (B2B) veebisaitidel.
-author: shajain
-ms.date: 2/16/2022
+author: ShalabhjainMSFT
+ms.date: 02/16/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: v-chgri
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2022-01-31
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: ac4aa15f2c6e7f557105254c2c8ce743a9466985
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.industry: retail
+ms.search.form: ''
+ms.openlocfilehash: d178e619fca7915286181aa803376cd564f60a26
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8878617"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9278647"
 ---
-# <a name="manage-business-partner-users-on-b2b-e-commerce-websites-using-dynamics-365-sales"></a>Halda äripartneri kasutajaid B2B e-commerce'i veebisaitidel, kasutades Dynamics 365-müüki
+# <a name="manage-business-partner-users-on-b2b-e-commerce-websites-using-dynamics-365-sales"></a>Halda äripartneri kasutajaid B2B e-commerce’i veebisaitidel, kasutades Dynamics 365-müüki
 
 [!include [banner](../../includes/banner.md)]
 
@@ -39,9 +39,9 @@ Järgmine näide näitab näiteid müügis äripartneri potentsiaalse kliendi m�
 
 Illustratsioonis näitab **kontakt** jaotises isikuid, kes on esitanudboardingu taotluse, ning **jaotises Ettevõte** kuvatakse organisatsioon. Märkus jaotises Ajajoon **näitab**, et müügivihje on loonud topeltkirjutuse infrastruktuuri. Kuna selle lõi topeltkirjutuse infrastruktuur, ei kuvata **seda müügivihjet ripploendis Minu avatud** müügivihjed. Selle asemel kuvatakse see uue vaate all nimega Kõik **äri B2B-müügivihjed**.
 
-Müügi standardse müügivihje kvalifikatsiooniprotsessi kohta, kui kasutaja "täpi annab" müügivihje, *võimaluse* kirje, *·* *kontaktikirje ja kontokirje*. Topeltkirjutuse infrastruktuuri kasutatakse kontakti ja konto kirjete commerce'i kirjutamiseks. Kontakt luuakse seda tüüpi kliendina *ja* ettevõte luuakse organisatsiooni tüübi *kliendina*. Kui kasutaja valib võimaluse jaoks **valiku Sule** valikuks Võidetud, kinnitatakse potentsiaalne klient äris. Potentsiaalse kliendi kinnitamine põhjustab kliendi hierarhia loomise.
+Müügi standardse müügivihje kvalifikatsiooniprotsessi kohta, kui kasutaja "täpi annab" müügivihje, *võimaluse* kirje, *·* *kontaktikirje ja kontokirje*. Topeltkirjutuse infrastruktuuri kasutatakse kontakti ja konto kirjete commerce’i kirjutamiseks. Kontakt luuakse seda tüüpi kliendina *ja* ettevõte luuakse organisatsiooni tüübi *kliendina*. Kui kasutaja valib võimaluse jaoks **valiku Sule** valikuks Võidetud, kinnitatakse potentsiaalne klient äris. Potentsiaalse kliendi kinnitamine põhjustab kliendi hierarhia loomise.
 
-Kõik ülejäänud äriprotsessid esinevad Commerce's. Need protsessid hõlmavad e-kirja saatmist äripartnerile, krediidilimiidi halduse määratlemist kasutajatele ja B2B-saidile kasutajate lisamist. Kui kasutaja märgib müügivihje diskvalifitsendiks või märgib võimaluse müügivihje kvalifitseerimise asemel kaotatuks, märgitakse äripotentsiaalne klient tagasi lükatud ja tagasi lükkav meil saadetakse nõudeandjale.
+Kõik ülejäänud äriprotsessid esinevad Commerce’s. Need protsessid hõlmavad e-kirja saatmist äripartnerile, krediidilimiidi halduse määratlemist kasutajatele ja B2B-saidile kasutajate lisamist. Kui kasutaja märgib müügivihje diskvalifitsendiks või märgib võimaluse müügivihje kvalifitseerimise asemel kaotatuks, märgitakse äripotentsiaalne klient tagasi lükatud ja tagasi lükkav meil saadetakse nõudeandjale.
 
 ## <a name="enable-integration-between-sales-and-commerce"></a>Luba müükide ja äride integreerimine
 

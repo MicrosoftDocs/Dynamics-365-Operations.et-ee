@@ -6,20 +6,20 @@ ms.date: 05/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
-ms.reviewer: v-chgri
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4b1ee8999717d70dfe36baef95921962a1b7be65
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.industry: retail
+ms.search.form: ''
+ms.openlocfilehash: 0b41d61c388e3723e3c30fa4dc0ae0055ffb1842
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8853737"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9271846"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>Jaekaubandusrentniku häälestamine Commerce'is
 
@@ -58,7 +58,7 @@ Enne alustamist veenduge, et teie Dynamics 365 Commerce keskkond ja e-äri kanal
 
 Pärast teie keskkonna Dynamics 365 Commerce juurutamist on soovitatav [lähtestada ka algandmed](enable-configure-retail-functionality.md) keskkonnas.
 
-## <a name="create-or-link-to-an-existing-azure-ad-b2c-tenant-in-the-azure-portal"></a>Looge või linkige olemasoleva B2C Azure AD rentnikuga Azure'i portaalis.
+## <a name="create-or-link-to-an-existing-azure-ad-b2c-tenant-in-the-azure-portal"></a>Looge või linkige olemasoleva B2C Azure AD rentnikuga Azure’i portaalis.
 
 See jaotis hõlmab B2C rentniku loomist Azure AD või seostamist ärisaidil kasutamiseks. Lisateavet vt teemast B2C [rentniku Azure Active Directory loomine](/azure/active-directory-b2c/tutorial-create-tenant).
 
@@ -310,7 +310,7 @@ Kui teie Azure AD B2C rentniku häälestus on lõpule viidud, tuleb konfigureeri
 
 Nõutava rakenduseteabe kogumiseks toimige järgmiselt.
 
-1. Avage Azure'i portaalis **Home \>Azure AD B2C – rakenduse registreerimised**.
+1. Avage Azure’i portaalis **Home \>Azure AD B2C – rakenduse registreerimised**.
 1. Valige oma rakendus ja seejärel valige vasakul navigeerimispaanil **Rakenduse** üksikasjade saamiseks Ülevaade.
 1. Koguge **rakenduse (kliendi) ID viitest teie B2C rentnikus loodud B2C-rakenduse rakenduse ID**. See sisestatakse hiljem saidiehitajas väärtuseks **Kliendi GUID**.
 1. Valige **ümbersuunamise URL-id** ja koguge oma saidi kohta kuvatud vastuse URL (häälestusel sisestatud vastuse URL).
@@ -328,7 +328,7 @@ Järgmisel pildil kuvatakse näide kasutajavoo poliitikatest lehel **Azure AD B2
 
 Enne B2C rentniku seostamist oma saitidega, peate sisestama Azure AD B2C rentniku andmed kaubanduse saidiehitajasse.
 
-Oma B2C Azure AD rentniku rakenduse teabe lisamiseks Commerce'ile järgige neid samme.
+Oma B2C Azure AD rentniku rakenduse teabe lisamiseks Commerce’ile järgige neid samme.
 
 1. Logige sisse administraatorina oma keskkonna kaubanduse saidiehitajasse.
 1. Vasakpoolsel navigeerimispaanil valige suvand **Rentniku sätted** selle laiendamiseks.
@@ -384,7 +384,7 @@ Teie B2C rentnikku on valikuliselt võimalik lisada teisene administraatorikonto
 
 Azure AD B2C võimaldab teil seadistada B2C rentniku jaoks kohandatud Azure AD sisselogimise domeeni. Juhiseid vt B2C [kohandatud domeenide Azure Active Directory lubamine](/azure/active-directory-b2c/custom-domain). 
 
-Kui kasutate kohandatud sisselogimisdomeeni, tuleb domeen sisestada Commerce'i saidiloojasse.
+Kui kasutate kohandatud sisselogimisdomeeni, tuleb domeen sisestada Commerce’i saidiloojasse.
 
 Kohandatud sisselogimise domeeni sisestamiseks saidikonstruktoris järgige neid samme.
 

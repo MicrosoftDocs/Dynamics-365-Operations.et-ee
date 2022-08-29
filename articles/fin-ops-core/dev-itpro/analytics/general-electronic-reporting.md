@@ -1,28 +1,26 @@
 ---
 title: Elektroonilise aruandluse (ER) ülevaade
 description: See artikkel annab ülevaate elektroonilise aruandluse tööriistast. See kirjeldab põhimõisteid, toetatud stsenaariume ja vorminguid, mis on lahenduse osaks.
-author: NickSelin
+author: kfend
 ms.date: 11/02/2021
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERWorkspace
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom:
-- "58941"
-- intro-internal
-ms.assetid: 5d51b6a6-ad12-4af9-a66d-a1eb820ae57f
 ms.search.region: global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1f3853e0c1da0a5abb3f92171370cc4aeabbd829
-ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
+ms.custom: 58941,  ""intro-internal
+ms.assetid: 5d51b6a6-ad12-4af9-a66d-a1eb820ae57f
+ms.search.form: ERWorkspace
+ms.openlocfilehash: e94846dd565abb6de2c1f07532d285e28307e9a2
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "9109576"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9269687"
 ---
 # <a name="electronic-reporting-er-overview"></a>Elektroonilise aruandluse (ER) ülevaade
 
@@ -78,7 +76,7 @@ ER-i mootoril on järgmised võimalused.
 
 [![ER-i põhiandmete voog.](./media/ger-main-data-flow.jpg)](./media/ger-main-data-flow.jpg)
 
-### <a name="components"></a>Komponendid
+### <a name="component"></a>Komponent
 
 ER toetab järgmist tüüpi komponente:
 
@@ -89,32 +87,7 @@ ER toetab järgmist tüüpi komponente:
 
 Lisateabe saamiseks vaadake [Elektroonilise aruandluse komponendid](er-overview-components.md).
 
-
-#### <a name="component-versioning"></a>Komponendi versioonimine
-
-ER-komponentide puhul toetatakse versioonimist. Järgmist töövoogu pakutakse ER-i komponentides muudatuste haldamiseks.
-
-1. Algselt loodud versioon on märgitud versioonina **Mustand**. Seda versiooni saab redigeerida ja see on proovimiseks saadaval.
-2. Versiooni **Mustand** saab teisendada versiooniks **Lõpule viidud**. Seda versiooni saab kasutada kohalikes aruandlusprotsessides.
-3. Versiooni **Lõpule viidud** saab teisendada versiooniks **Jagatud**. See versioon avaldatakse LCS-is ja seda saab kasutada üldistes aruandlusprotsessides.
-4. Versiooni **Jagatud** saab teisendada versiooniks **Katkestatud**. Seejärel saab selle versiooni kustutada.
-
-Versioonid olekus **Lõpule viidud** või **Jagatud** on saadaval muuks andmevahetuseks. Nende olekutega komponentidega saab teha järgmisi toiminguid.
-
-- Komponenti saab XML-vormingus järjestada ja eksportida XML-vormingus failina.
-- Komponenti saab ümber järjestada ja importida rakenduse ER-komponendi uue versioonina.
-
-#### <a name="component-date-effectivity"></a>Komponendi kehtivuskuupäev
-
-ER-i komponendi versioonid on kehtivuskuupäevaga. ER-i komponendile saab määratleda kuupäeva **Kehtiv alates**, et määrata kuupäev, millal see komponent aruandlusprotsessides jõustub. Rakenduse seansi kuupäeva kasutatakse selleks, et määratleda, kas komponent kehtib käivitamiseks. Kui kindlal kuupäeval kehtib mitu versiooni, kasutatakse aruandlusprotsessides uusimat versiooni.
-
-#### <a name="component-access"></a>Komponendi juurdepääs
-
-Juurdepääs ER-i vormingu komponentidele sõltub ISO riigi/regiooni koodi seadistusest. Kui see seadistus on vormingu konfiguratsiooni valitud versiooni puhul tühi, on võimalik käitusajal igast ettevõttest vormingukomponendile juurde pääseda. kui see seadistus sisaldab ISO riigi/regiooni koode, siis on vormingukomponent saadaval ainult nendest ettevõtetest, millel on esmane aadress, mis on määratletud ühele vormingukomponendi ISO riigi/regiooni koodile.
-
-Andmevormingu komponendi erinevatel versioonidel võivad olla erinevad ISO riigi/regiooni koodide sätted.
-
-#### <a name="configuration"></a><a name="Configuration"></a>Konfiguratsioon
+### <a name="configuration"></a><a name="Configuration"></a>Konfiguratsioon
 
 ER-i konfiguratsioon on konkreetse ER-i komponendi ümbris. See komponent võib olla andmemudeli komponent või vormingukomponent. Konfiguratsioon võib sisaldada ER-i komponendi erinevaid versioone. Iga konfiguratsiooni omanikuks on märgitud kindel konfiguratsiooni pakkuja. Konfiguratsiooni komponendi versiooni **Mustand** saab redigeerida, kui konfiguratsiooni omanik on valitud ER-i sätetes aktiivseks teenusepakkujaks.
 
@@ -124,13 +97,13 @@ Loodud vormingukonfiguratsioon sisaldab vormingukomponenti. Algse mudelikonfigur
 
 Rakenduse ettevõtted jagavad ER-i konfiguratsiooni.
 
-#### <a name="provider"></a><a name="Provider"></a>Pakkuja
+### <a name="provider"></a><a name="Provider"></a>Pakkuja
 
 ER-i pakkuja on osapoole ID, mida kasutatakse iga ER-i konfiguratsiooni autori (omaniku) tähistamiseks. ER võimaldab hallata konfiguratsioonipakkujate loendit. Vormingu konfiguratsioonid, mis vabastatakse elektrooniliste dokumentide jaoks finantside ja toimingute lahenduse osana, on märgitud Microsofti konfiguratsiooni pakkuja **omaks**.
 
 Uue ER-i pakkuja registreerimise kohta saate juhised, kui esitate tegevusjuhise **Elektrooniline aruandlus. Konfiguratsioonipakkuja loomine ja aktiivseks märkimine** (äriprotsessi **7.5.4.3 IT-teenuse/-lahenduse komponentide hankimine/arendamine (10677)** osa).
 
-#### <a name="repository"></a><a name="Repository"></a>Hoidla
+### <a name="repository"></a><a name="Repository"></a>Hoidla
 
 ER-i hoidla talletab ER-i konfiguratsioone. Praegu toetatakse järgmisi elektroonilise aruandluse hoidlate tüüpe. 
 
@@ -145,7 +118,7 @@ ER-i hoidla talletab ER-i konfiguratsioone. Praegu toetatakse järgmisi elektroo
 
 Hoidla **LCS-i projekt** võimaldab juurdepääsu konkreetsele LCS-i projekti konfiguratsiooniloendile (LCS-i projektivarade teegile), mis valiti hoidla registreerimisel. ER võimaldab ühiskasutatavate konfiguratsioonide üleslaadimist eksemplarist konkreetsesse hoidlasse **LCS-i projekt**. Konfiguratsioone saate LCS-projektihoidlast **importida** ka oma finantside ja toimingute rakenduste praegusesse eksemplari.
 
-Hoidla **Failisüsteem** võimaldab juurdepääsu konfiguratsioonidele, mis asuvad XML-failidena AOS-i teenuse hostitud masina kohaliku failisüsteemi kindlas kaustas. Vajalik kaust valitakse hoidla registreerimise etapis. Saate importida konfiguratsioone hoidlast **Failisüsteem** praegusesse rakenduse eksemplari. 
+Failisüsteemi **hoidla** pakub juurdepääsu konfiguratsioonide loendile, mis asuvad XML-failidena selle arvuti kohaliku failisüsteemi konkreetses kaustas, kus AOS-i teenust majutatakse. Nõutav kaust valitakse hoidla registreerimise etapis. Saate importida konfiguratsioone hoidlast **Failisüsteem** praegusesse rakenduse eksemplari. 
 
 Pange tähele, et hoidla tüübile pääseb juurde järgmistes keskkondades:
 
@@ -162,7 +135,7 @@ Lisateabe saamiseks vt teemat [Elektroonilise aruandluse (ER) konfiguratsioonide
 
 Lisateavet leiate teemast [Elektroonilise aruandluse (ER) konfiguratsioonide importimine konfiguratsiooniteenuse globaalsest hoidlast](./er-download-configurations-global-repo.md).
 
-Hoidla **Operatsiooniressursid** võimaldab juurdepääsu konfiguratsioonide loendile, mille on algselt väljastanud Microsoft kui ER-i konfiguratsioonipakkuja rakenduse lahenduse osana. Need konfiguratsioonid saab importida praegusesse eksemplari ja kasutada elektroonilise aruandluse jaoks või ülesande näidisjuhiste esitamiseks. Neid saab kasutada ka täiendavaks lokaliseerimiseks ja kohandamiseks. Pange tähele, et Microsoft ER-i konfiguratsioonide uusimad versioonid tuleb importida LCS-i ühiste vahendite teegist, kasutades vastavat ER-i hoidlat.
+Hoidla **Operatsiooniressursid** võimaldab juurdepääsu konfiguratsioonide loendile, mille on algselt väljastanud Microsoft kui ER-i konfiguratsioonipakkuja rakenduse lahenduse osana. Need konfiguratsioonid saab importida praegusesse eksemplari ja kasutada elektroonilise aruandluse jaoks või ülesande näidisjuhiste esitamiseks. Neid saab kasutada ka täiendavaks lokaliseerimiseks ja kohandamiseks. Arvestage, et Microsoft ER-i konfiguratsioonide antud viimased versioonid tuleb importida LCS-i jagatud varateegist, kasutades vastavat ER-hoidlat.
 
 Vajalikke hoidlaid **LCS-i projekt**, **Failisüsteem** ja **Regulatiivsed konfiguratsiooniteenused (RCS)** saab registreerida eraldi iga praeguse rakenduse eksemplari konfiguratsioonipakkuja kohta. Iga hoidla saab eraldada konkreetsele konfiguratsioonipakkujale.
 
@@ -265,6 +238,7 @@ Rakenduse Finance ER-i konfiguratsioonide loendit värskendatakse pidevalt. Avag
 
 ## <a name="additional-resources"></a>Lisaressursid
 
+- [Elektroonilise aruandluse komponendid](er-overview-components.md)
 - [Elektroonilise aruandluse (ER) konfiguratsioonide loomine](electronic-reporting-configuration.md)
 - [Elektroonilise aruandluse (ER) konfiguratsiooni elutsükli haldamine](general-electronic-reporting-manage-configuration-lifecycle.md)
 

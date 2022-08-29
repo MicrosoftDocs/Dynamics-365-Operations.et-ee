@@ -1,26 +1,26 @@
 ---
 title: Globaliseerumise funktsiooni lõpuleviimine, avaldamine ja juurutamine
 description: See artikkel annab teavet globaliseerimisfunktsiooni elutsükli kohta.
-author: dkalyuzh
+author: gionoder
 ms.date: 12/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: Global
-ms.author: dkalyuzh
+ms.author: gionoder
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 469fd66a5eaa779ea28ecfe4a29dd34d3ef748f5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.form: ''
+ms.openlocfilehash: 11378991a24e1a5f5e213d64f0f414db2e5c2573
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8846522"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9279896"
 ---
 # <a name="complete-publish-and-deploy-a-globalization-feature"></a>Globaliseerumise funktsiooni lõpuleviimine, avaldamine ja juurutamine
 
@@ -76,7 +76,7 @@ RCS-s saate valida **tühistamisfunktsiooni** konkreetse elektroonilise arveldam
 
 ## <a name="rebase-electronic-invoicing-features"></a>Elektroonilise arveldamise funktsioonide uuesti põhinemine
 
-Kui ühest elektroonilise arveldamise funktsioonist tuletatakse teine, **saate valida Rebase'i** tuletatud funktsiooni uuendamiseks algses (ema-) funktsioonis tehtud muudatustega.
+Kui ühest elektroonilise arveldamise funktsioonist tuletatakse teine, **saate valida Rebase’i** tuletatud funktsiooni uuendamiseks algses (ema-) funktsioonis tehtud muudatustega.
 
 Loodud funktsiooni tuletatud versiooni taasbaasi loomiseks järgige neid samme.
 
@@ -84,7 +84,7 @@ Loodud funktsiooni tuletatud versiooni taasbaasi loomiseks järgige neid samme.
 2. Valige funktsioonide loetelust funktsioon, mille alust soovite muuta.
 3. Valige vahekaardil **Versioonid** suvand Uus **,** et luua mustandversioon.
 4. Valige **Aluse muutmine**.
-5. Valige dialoogiboksis **Rebase'i** versioon funktsioonist, mida soovite uuesti kasutada.
+5. Valige dialoogiboksis **Rebase’i** versioon funktsioonist, mida soovite uuesti kasutada.
 6. Valige nupp **OK**.
 7. Vaadake üle funktsiooni komponendid ja tehke vajalikud muudatused.
 8. Valige funktsiooni, mille alus on muudetud, lõpule viimiseks suvand **Muuda olekut**. Kui aluse muutmine on lõpule viidud, saate teostada täiendavaid toiminguid.

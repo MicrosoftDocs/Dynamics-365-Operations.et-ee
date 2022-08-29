@@ -7,19 +7,19 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 9a4d67d901608e210b4060a655ce39f0ea707a52
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.openlocfilehash: cc3ad01c60324d751ee52d83d93fe59593775a00
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8910546"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9279564"
 ---
 # <a name="create-email-templates-for-transactional-events"></a>Meilimallide loomine kandesündmuste jaoks
 
@@ -117,7 +117,29 @@ Lisateavet kinkekaartide kohta vt [E-commerce'i digitaalsetest kinkekaartidest](
 
 ### <a name="customer-created"></a>Klient on loodud
 
-*Klient loodud* teavitustüüp käivitatakse Commerce headquarters`is uue kliendi üksuse loomisel.
+*Klient loodud* teavitustüüp käivitatakse Commerce headquarters`is uue kliendi üksuse loomisel. 
+
+Kliendi loodud teatiste lubamiseks minge Commerce Headquartersi **rakenduse Retail ja Commerce \> Headquarters \> häälestamise parameetrite commerce \> parameters \> Generali**. Valige ripploendist **Meiliteatise** profiil, mis sisaldab kliendi loodud teatisetüüpi. 
+
+Vaikimisi laaditakse kliendi loodud sündmused peakontorisse üles pakett-tööga **Sünkrooni kliendid ja kanali** taotlused. Kui soovite nende sündmuste saatmiseks kasutada reaalajas teenuse kõnet, seadistage kliendi loodud malli e-posti ID väärtuseks **newCust**. Kuid see ei ole soovitatav, kuna reaalajas teenuse kutsed on "vallandamised ja unustamise" kõned ning neil ei ole pakett-tööde pakutavat varu- või kordamisloogikat.
+
+> [!NOTE] 
+> Kliendi loodud teatiste lubamisel saavad kõigis juriidilise isiku kanalites loodud kliendid kliendi loodud meili. Kliendi loodud teatisi ei saa praegu piirata ühele kanalile.  
+
+Kui klient käivitab pakett-töö kaudu teatise tüübi, toetab see järgmist kohatäitja.
+
+| Kohatäite nimi | Kirjeldus                                                      |
+| ---------------- | ------------------------------------------------------------ |
+| customername     | Konto loonud kliendi ees- ja perekonnanimi. |
+
+Kui kutsutakse reaalajas teenuse kaudu, toetab kliendi loodud teatise tüüp järgmisi kohatäiteid.
+
+| Kohatäite nimi | Kirjeldus                                                      |
+| ---------------- | ------------------------------------------------------------ |
+| Nimi             | Konto loonud kliendi ees- ja perekonnanimi. |
+| Meil            | Konto loonud kliendi meiliaadress.    |
+| Telefon            | Konto loonud kliendi telefoninumber.      |
+| URL              | Kliendi antud URL konto loomisel. |
 
 ### <a name="b2b-prospect-approved"></a>B2B potentsiaalne klient on heaks kiidetud
 

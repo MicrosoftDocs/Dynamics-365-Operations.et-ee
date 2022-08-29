@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: db158e3b6ae76f69149db04096f99d3dc4251146
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a360b8beaad2bf6916c22765131e37f90e40282b
+ms.sourcegitcommit: f2175fe5e900d39f34167d671aab5074b09cc1b8
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8895753"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "9306169"
 ---
 # <a name="use-the-inventory-visibility-app"></a>Inventory Visibility rakenduse kasutamine
 
@@ -70,10 +70,24 @@ Reserveerimistaotluse sisestamiseks peate väärtuse taotluse sisusse. Kasutage 
 
 ## <a name="inventory-summary"></a><a name="inventory-summary"></a>Varude kokkuvõte
 
-**Varude kokkuvõte** on *Vabade varude summa* olemi kohandatud vaade. See annab toodetele varude kokkuvõtte koos kõigi dimensioonidega. Lao koondandmed sünkroonitakse perioodiliselt laovarude nähtavuselt iga 15 minuti järel. Varude kokkuvõtte vahekaardil andmete **näeks** peate *lülitama funktsioonihalduse vahekaardil sisse funktsioonihalduse funktsiooni OnHandMostSpecificBackgroundService* **ja** valima käsu **Uuenda konfiguratsiooni**.
+Varude **kokkuvõtte leht** annab koos kõigi dimensioonidega toodete lao kokkuvõtte. See on kohandatud vaade varude vaba *summa üksuse* jaoks. Lao koondandmed sünkroonitakse perioodiliselt laovarude nähtavuse väljalt.
+
+### <a name="enable-the-inventory-summary-and-set-the-synchronization-frequency"></a>Lubage varude kokkuvõte ja määrake sünkroonimise sagedus.
+
+Varude kokkuvõtte lehe **lubamiseks ja** sünkroonimise sageduse miseks järgige neid samme.
+
+1. Avage lehekülg **Konfiguratsioon**.
+1. Avage vahekaart **Funktsioonihaldus >** Sätted.
+1. Seadke funktsiooni **OnHandMostSpecificBackgroundService tumblerlüliti** väärtusele *Jah*.
+1. Kui see funktsioon on lubatud, **·** **muutub teenuse konfigureerimise jaotis kättesaadavaks ja sisaldab rida OnHandMostSpecificBackgroundService’i** funktsiooni konfigureerimiseks. See säte võimaldab teil valida sageduse, millega lao koondandmed sünkroonitakse. Kasutage veeru **Väärtus** nuppu **üles** ja **alla,** et muuta sünkroonimiste vahelist aega (mis võib olla kuni 5 minutit alla). Seejärel valige nupp **Salvesta**.
+1. Valige **kõigi muudatuste** salvestamiseks suvand Värskenda konfiguratsiooni.
+
+![OnHandMostSpecificBackgroundService’i säte](media/inventory-visibility-ohms-freq.PNG "OnHandMostSpecificBackgroundService’i säte")
 
 > [!NOTE]
 > Funktsioon *OnHandMostSpecificBackgroundService* jälgib ainult toote vaba kaubavaru muudatusi, mis ilmnesid pärast funktsiooni sisse lülitamist. Nende toodete andmeid, mis pole muutunud, kuna te funktsiooni sisse lülitasite, ei sünkroonita laoteenuse vahemälust keskkonda Dataverse. Kui teie **varude** kokkuvõtte leht ei näita kogu eeldatavat vaba laoseisu teavet, **minge varude haldusse > Perioodilised ülesanded >** Varude nähtavuse integreerimine, keelake pakett-töö ja lubage see uuesti. See käivitab algse tõuke ja kõik andmed sünkroonitakse *üksusega Laovaru Vaba summa järgmise* 15 minuti pärast. Kui soovite seda funktsiooni kasutada, **on soovitatav see enne vaba kaubavaru muudatuste tegemist sisse lülitada ja lubada varude nähtavuse integreerimise pakett-töö**.
+
+### <a name="work-with-the-inventory-summary"></a>Tööta lao kokkuvõttega
 
 Kasutades **Täpsemat filtrit**, mida Dataverse pakub, saate luua isikliku vaate, mis näitab teie jaoks olulisi ridu. Täpsema filtri võimalused lasevad teile luua mitmesuguseid vaateid, lihtsatest keerulisteni. Samuti võimaldavad nad filtritele lisada grupeeritud ja pesastatud tingimusi. Lisateabe saamiseks **Täpsema filtri** kohta, vt jaotist [Isiklike vaadete redigeerimine või loomine täpsemate ruudustiku filtrite abil](/powerapps/user/grid-filters-advanced).
 

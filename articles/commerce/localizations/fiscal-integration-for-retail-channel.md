@@ -7,14 +7,14 @@ ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.author: epopov
+ms.author: josaw
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: ea1de0791a0eaffa2a8b1ac57143bdfd753f855b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0a56df2a463153c6c3986ce84907e25ea7d965b8
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8884840"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9286495"
 ---
 # <a name="fiscal-integration-overview-for-commerce-channels"></a>Ärikanalite fiskaalintegratsiooni ülevaade
 
@@ -39,7 +39,7 @@ Fiskaalüksuse registreerimisprotsess Retail POS-is võib hõlmata üht või mit
 - **Fiskaaldokumendi** pakkuja: see komponent järjestab kande/sündmuse andmed vormingus, mida kasutatakse ka fiskaalseadme või -teenusega suhtlemiseks, sõelub vastused fiskaalseadmest või teenusest ja salvestab vastused kanali andmebaasis. Laiendus määratleb ka kindlad kanded ja sündmused, mis tuleb registreerida.
 - **Fiskaalühendus**: see komponent käivitab side fiskaalseadme või teenusega, saadab finantsseadmele või -teenusele päringud või otsekäsud, võttes aluseks finantsdokumendist ekstraktitud kande/sündmuse andmed ja võtab vastu fiskaalseadmelt või -teenusest saadud vastused.
 
-Fiskaalintegratsiooni näidis võib sisaldada commerce runtime'i (CRT), riistvarajaama ja kassa laiendeid fiskaaldokumendi pakkujale ja fiskaalühendusele. Samuti sisaldab see järgmisi komponendi konfiguratsioone.
+Fiskaalintegratsiooni näidis võib sisaldada commerce runtime’i (CRT), riistvarajaama ja kassa laiendeid fiskaaldokumendi pakkujale ja fiskaalühendusele. Samuti sisaldab see järgmisi komponendi konfiguratsioone.
 
 - **Fiskaaldokumendi pakkuja konfiguratsiooni** – see konfiguratsioon määratleb fiskaaldokumentide väljundmeetodi vormingu. See sisaldab ka maksude ja makseviiside andmevastendust, et retail POS-i andmed ühilduks fiskaalseadmes või teenuses eelmääratletud väärtustega.
 - **Fiskaalkonnektori** konfiguratsioon – see konfiguratsioon määrab füüsilise side konkreetse fiskaalseadme või teenusega.

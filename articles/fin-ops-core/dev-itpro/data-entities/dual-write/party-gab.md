@@ -2,19 +2,19 @@
 title: Osapool ja globaalne aadressiraamat
 description: See artikkel kirjeldab topeltkirjutuse osapoole ja globaalse aadressiraamatu funktsioone.
 author: RamaKrishnamoorthy
-ms.date: 04/25/2022
+ms.date: 08/02/2022
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: 91b56d091f549838092bdefe1a6a763fde79a32c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7f06b6e69b76bf12092fdceca5b45a6750b52233
+ms.sourcegitcommit: e0905a3af85d8cdc24a22e0c041cb3a391c036cb
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8892189"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9228986"
 ---
 # <a name="party-and-global-address-book"></a>Osapool ja globaalne aadressiraamat
 
@@ -119,11 +119,11 @@ Ruudustik sisaldab järgmisi veerge.
 
 Ruudustiku kohal saate kasutada nuppu **Uus Aadress**, et luua nii palju sihtaadresse, kui soovite.
 
-Väljad **Aadress 1** ja **Aadress 2** vahekaardil **Kokkuvõte** lehel **Konto** vastavad vastavalt **Kohaletoimetamise** ja **Arve** aadressidele.
+Kliendi kaasamise **rakendustes** **·**, kui kasutaja sisestab aadressid vahekaardi Kontod vahekaardil Kokkuvõte, **vastavad väljad Aadress 1** **ja Aadress 2** **·** **vastavalt** tarne- ja arveaadressidele. Kui kasutaja loob postiaadressi finantside ja toimingute rakendustes, **ilmuvad kliendikirje kaks esimest aadressi väljadel Address1** **ja Address2** **ning** kasutaja saab aadressi eesmärgi muuta valikuks Tarne ja **Arve.**
 
 ![Postiaadresside kokkuvõtte vahekaart.](media/party-gab-image5.png)
 
-Väljad **Aadress 1**, **Aadress 2** ja **Aadress 3** vahekaardil **Kokkuvõte** lehel **Kontakt** vastavad vastavalt **Ettevõtte**, **Tarne** ja **Arve** aadressidele.
+Samamoodi vastavad vahekaardi Kontakt väljad Aadress **1**, **Aadress** 2 **ja Aadress 3** **·** **·** **vastavalt** ettevõtte- **·** **ja** tarneaadressidele ning arveaadressidele.
 
 ## <a name="electronic-addresses"></a>Elektroonilised aadressid
 

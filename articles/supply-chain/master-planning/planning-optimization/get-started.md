@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: e853c8a482b8fd0b92c9861fe022c056915ab405
-ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
+ms.openlocfilehash: 629a84135434ad79f8397649ee9a4a62e49751d9
+ms.sourcegitcommit: 14a27b776befbc6793390f97e8fb0279c0ea18c1
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/02/2022
-ms.locfileid: "9112176"
+ms.lasthandoff: 08/15/2022
+ms.locfileid: "9295924"
 ---
 # <a name="get-started-with-planning-optimization"></a>Planeerimise optimeerimisega alustamine
 
@@ -29,7 +29,7 @@ ms.locfileid: "9112176"
 
 Nagu [eelnevalt välja kuulutatud](../../get-started/removed-deprecated-features-scm-updates.md#use-of-built-in-supply-chain-management-master-planning-engine-for-distribution-scenarios), asendab planeerimise optimeerimine varsti olemasoleva sisseehitatud koondplaneerimise mootori.
 
-Kui kasutate praegu sisseehitatud koondplaneerimise mootorit, peaksite hakkama tegema kohe plaane migreerimiseks planeerimise optimeerimisse. On oluline alustada migreerimisprotsessi kohe, sest teie toiminguid võidakse mõjutada, kui iganemine jõustatakse. Et vältida viimasel hetkel tekkivaid probleeme iganemise jõustamisel, soovitame teil tungivalt migreerimise lõpule viia enne 1. detsembrit 2020. 
+Kui kasutate praegu sisseehitatud koondplaneerimise mootorit, peaksite hakkama tegema kohe plaane migreerimiseks planeerimise optimeerimisse. On oluline kohe alustada, sest vastasel korral võib teie toiminguid mõjutada amortiseerumise jõustamisel (kuigi rakendamine pole praegu planeeritud). Soovitame tungivalt teil migreerimise lõpule viia kohe, kui plaanimine optimeerimine toetab funktsioone, mida vajate, et te saaks alustada kasutama mitmeid jõudluse parendusi ja muid uusi, uue teenuse pakutavaid võimalusi.
 
 Planeerimise optimeerimise funktsioon ei toeta hetkel kõiki funktsioone, mis on rakendusse Supply Chain Management ehitatud planeerimismootoris saadaval. Seega on oluline, et hindaksite, kas hetkel planeerimise optimeerimises saadaolev funktsioonide komplekt vastab teie nõuetele. Planeerimise optimeerimise funktsioon ei ole praegu vaikimisi sisse lülitatud lahenduses Dynamics Lifecycle Services (LCS), seega on teil võimalus teha oma hinnang enne funktsiooni sisselülitamist.
 
@@ -40,7 +40,7 @@ Enne planeerimise optimeerimise sisselülitamist soovitame teil hinnata planeeri
 
 ## <a name="availability"></a>Kättesaadavus
 
-Plaanimise optimeerimine on praegu saadaval järgmistes Azure'i geograafilistes asukohtades: USA, Kanada, Brasiilia, Euroopa, Prantsusmaa, Ühendkuningriik, Austraalia, Aasia Vaikse ookeani, Jaapan ja India. Kui proovite lisandmoodulit installida muus geograafilises piirkonnas, siis kuvab LCS teate, et seda geograafilist piirkonda ei toetata. Lisateavet Azure'i piirkondade ja seotud piirkondade kohta vt [Azure'i piirkonnad](https://azure.microsoft.com/global-infrastructure/geographies/#geographies).
+Plaanimise optimeerimine on praegu saadaval järgmistes Azure’i geograafilistes asukohtades: USA, Kanada, Brasiilia, Euroopa, Prantsusmaa, Ühendkuningriik, Austraalia, Aasia Vaikse ookeani, Jaapan ja India. Kui proovite lisandmoodulit installida muus geograafilises piirkonnas, siis kuvab LCS teate, et seda geograafilist piirkonda ei toetata. Lisateavet Azure'i piirkondade ja seotud piirkondade kohta vt [Azure'i piirkonnad](https://azure.microsoft.com/global-infrastructure/geographies/#geographies).
 
 Pange tähele, et planeerimise optimeerimine ei toeta Dynamics 365 Supply Chain Management-i kohapealseid juurutusi.
 

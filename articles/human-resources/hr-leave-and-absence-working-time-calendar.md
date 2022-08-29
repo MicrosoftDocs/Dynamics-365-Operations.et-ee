@@ -14,18 +14,15 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 35fcb7c4068ff2f68970d9c0127491e4a63dab4c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: dac3ad583be9e4cbd6eacbc6d228819bd298628b
+ms.sourcegitcommit: 66d129874635d34a8b29c57762ecf1564e4dc233
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8861069"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9323569"
 ---
 # <a name="create-a-working-time-calendar"></a>Tööajakalendri loomine
 
-
-> [!Important]
-> Selles artiklis märgitud funktsioonid on klientide jaoks praegu saadaval eraldiseisev Dynamics 365 Human Resources. Osa või kõik funktsioonid on saadaval osana Finance'i taristu tulevasest väljalaskest pärast Finance'i versiooni 10.0.26.
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -49,7 +46,7 @@ Seadistage vähemalt üks tööajakalender, mis kuvab teie töötamise päevad j
 
 3. Jaotises **Loomissuvandid** valige oma organisatsiooni tööpäevad ja sisestage tööajad. 
    - Puhkuse või kinniolekuaja lisamiseks valige nupp **Lisa** suvandi **Pühad ja kinniolekuajad** kõrval.
-   - Mittetöötamise aja (nt lõunad või pausid) lisamiseks valige käsk **Lisa** jaotises **MITTETÖÖTAMISE AEG** ja sisestage nimi ning ajavahemik.
+   - Mittetööaja (lõunasöökide või vaheajad) **lisamiseks valige suvand Lisa** **jaotises Mittetööaeg** ning sisestage nimi ja ajavahemik.
 
 4. Jaotises **Päevad** valige suvand **Loo**, et luua kalendrisse päevad. Sisestage kalendri kuupäevavahemik ja valige seejärel suvand **Loo päevad**.
 
@@ -67,7 +64,7 @@ Saate pühasid ja kinniolekuaegu lisada või muuta tööajakalendris eraldi.
 
 Saate mittetöötamise aegu lisada või muuta tööajakalendris eraldi.
 
-1. Valige organisatsiooni **halduse** lehel väärtus **MITTETÖÖAEG**.
+1. Valige lehel **Organisatsiooni haldus** suvand **Mittetöötamise aeg**.
 
 2. Valige suvand **Uus** ja sisestage mittetöötamise aja nimi ja ajavahemik.
 

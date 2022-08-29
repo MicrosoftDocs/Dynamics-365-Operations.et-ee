@@ -2,7 +2,7 @@
 title: Voo täitmise teatised
 description: See artikkel kirjeldab voo käivitamise teatisi ja selgitab nende seadistamist.
 author: Mirzaab
-ms.date: 04/03/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: 5c8fa259e51f024d19c1f2f7e84ed7edd0ddb7e1
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: a6a554965c11eea3b4fa53fe4dbc4bac04624026
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9069024"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336571"
 ---
 # <a name="wave-execution-notifications"></a>Voo täitmise teatised
 
@@ -32,7 +32,7 @@ ms.locfileid: "9069024"
 
 ## <a name="turn-the-wave-execution-notifications-feature-on-or-off"></a>Voo käivitamise teatiste funktsiooni sisse- või väljalülitamine
 
-Tarneahela halduse versiooni 10.0.25 puhul lülitatakse see funktsioon vaikimisi sisse. Administraatorid saavad selle funktsiooni sisse või välja lülitada, otsides funktsioonihalduse *tööruumis* voo käivitamise [teatiste](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) funktsiooni.
+Selle funktsiooni kasutamiseks peab see olema teie süsteemi jaoks sisse lülitatud. Tarneahela halduse versiooni 10.0.25 puhul lülitatakse funktsioon vaikimisi sisse. Tarneahela halduse versiooni 10.0.29 puhul on see funktsioon kohustuslik ja seda ei saa välja lülitada. Kui käitate versiooni, mis on *vanem kui 10.0.29, saavad administraatorid selle funktsiooni sisse või välja lülitada, otsides Funktsioonihalduse tööruumis*[voo käivitamise teatiste](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) funktsiooni.
 
 ## <a name="scenario-send-wave-batch-execution-notifications-to-the-action-center"></a>Stsenaarium: voo partii käivitamise teatiste saatmine tegevuskeskusele
 

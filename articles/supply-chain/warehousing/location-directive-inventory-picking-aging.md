@@ -2,7 +2,7 @@
 title: Asukohakorralduse varude komplekteerimise ajaline jaotus
 description: See artikkel selgitab, kuidas kasutada komplekteerimise ajal esimesena sisse, esimesena välja (FIFO) ja viimasena sisse, esimesena välja (LIFO) asukohadirektiivide strateegiaid.
 author: Mirzaab
-ms.date: 07/15/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 8b75907d01a029da1ed6a8224f8a7c0ca0230550
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
-ms.translationtype: HT
+ms.openlocfilehash: 4ed1308ea36b731b156b518182846b60a59528d5
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9068666"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335611"
 ---
 # <a name="location-directive-inventory-picking-aging"></a>Asukohakorralduse varude komplekteerimise ajaline jaotus
 
@@ -34,8 +34,8 @@ Varude esmakordsel vastuvõtmisel või loomisel laos, värskendab süsteem vasta
 
 Selle funktsiooni kättesaadavaks muutmiseks lülitage [funktsioonihalduses](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sisse järgmised funktsioonid vastavas järjekorras.
 
-1. Laoasukoha olek
-1. Asukohakorralduse varude komplekteerimise ajaline jaotus
+1. *Lao asukoha olek* (versiooni 10.0.29 puhul on see funktsioon kohustuslik ja seda ei saa välja lülitada. Lisateavet vt lao asukoha [olekust](warehouse-location-status.md).)
+1. *Asukohakorralduse varude komplekteerimise ajaline jaotus*
 
 ## <a name="feature-requirements"></a>Funktsioonide nõuded
 
@@ -50,7 +50,7 @@ Selles jaotises esitatakse näiteid FIFO- ja LIFO-strateegiate seadistamise ja k
 
 ### <a name="make-sample-data-available"></a>Näidisandmete kättesaadavaks tegemine
 
-Nende stsenaariumide kasutamiseks siin määratud näidiskirjete ja -väärtuste abil peate kasutama süsteemi, kuhu on installitud standardsed [demoandmed](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md). Enne alustamist peate valima ka juriidilise isiku **USMF**.
+Nende stsenaariumide kasutamiseks siin määratud näidiskirjete ja -väärtuste abil peate kasutama süsteemi, kuhu on installitud standardsed [demoandmed](../../fin-ops-core/fin-ops/get-started/demo-data.md). Enne alustamist peate valima ka juriidilise isiku **USMF**.
 
 Neid stsenaariume saate kasutada ka juhistena funktsiooni kasutamiseks tootmissüsteemis. Sel juhul tuleb teil siiski sisestada oma väärtused iga siin kirjeldatud sätte jaoks.
 

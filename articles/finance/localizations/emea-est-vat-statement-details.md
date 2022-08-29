@@ -1,25 +1,25 @@
 ---
 title: KM-aruande üksikasjad Eesti puhul
 description: See artikkel selgitab, kuidas seadistada EESTI juriidilistele isikutele KM-aruanne.
-author: ShylaThompson
+author: AdamTrukawka
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: TaxPeriod, TaxReportCollection, TaxReportVoucher
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 266904
 ms.search.region: Estonia
-ms.author: kfend
+ms.author: atrukawk
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: d37a8bb2ceb2592b0c226ef198a986a6b8ef8270
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 266904
+ms.search.form: TaxPeriod, TaxReportCollection, TaxReportVoucher
+ms.openlocfilehash: f2b352eb6058319aa232c5c902b03bb2f64a18ec
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8879514"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9291578"
 ---
 # <a name="vat-statement-details-for-estonia"></a>KM-aruande üksikasjad Eesti puhul
 

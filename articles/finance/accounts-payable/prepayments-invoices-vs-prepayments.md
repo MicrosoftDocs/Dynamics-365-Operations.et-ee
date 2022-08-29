@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a420a0a366e454df14d5fe994691829bc7950306
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 901683f2176189ce2f4186b4f9b3b5c64ec9f2b1
+ms.sourcegitcommit: e0905a3af85d8cdc24a22e0c041cb3a391c036cb
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8895192"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9227771"
 ---
 # <a name="prepayment-invoices-vs-prepayments"></a>Ettemaksuarved vs. ettemaksed
 
@@ -78,6 +78,8 @@ Ettemakse võib ostutellimuselt eemaldada, kui te ei ole juba makset sisestatud 
 Hankija ettemaksuarve kirjendamiseks minge **Hankija arve** lehele, valides suvandi **Ettemaksuarve** lehel **Ostutellimused** (**Ostureskonto \> Üldine \> Ostutellimused \> Kõik ostutellimused \> Vahekaart Arve \> Ettemaksuarve**). Sisestage ettemaksuarve teave, sh arve number. Ettemaksuarve puhul ei saa koguseid muuta. Kui hankija on arveldanud ostutellimusel määratletud ettemakse väärtuse osalise summa, saate ühikuhinda värskendada, et see kajastaks osaväärtust.
 
 Hankija saldot ja ettemaksukontot uuendatakse (tavaliselt debiteeritakse) ettemaksuarve sisestamisel. Uuendatakse ka ostutellimuse ettemakse määratluses sisalduvat **Ettemakse avalduse** väärtust. Sisestatud ettemakse kande finantsdimensiooni vaikekirjed võetakse ostutellimuse päiseteabest.
+
+Kui finantsdimensioonide **lukustamine arve ridadel hankija ettemakse arve funktsioonil on** **funktsioonihalduse lehel sisse lülitatud, ei saa ettemakse päises** dimensioone või ridu värskendada. 
 
 ## <a name="post-and-settle-payments-for-the-prepayment-invoice"></a>Ettemaksuarve maksete sisestamine ja tasakaalustamine
 Järgmisena makstakse ettemaksuarve **Maksetöölehelt**. Maksetöölehtedele juurdepääsemiseks klõpsake **Ostureskonto \> Töölehted \> Maksed \> Maksetööleht**. Pärast makse tasakaalustuse sisestamist ettemaksuarvele uuendatakse ostutellimuse **Järelejäänud ettemakse avalduse** väärtus.

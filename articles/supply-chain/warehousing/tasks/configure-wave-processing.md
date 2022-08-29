@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3a9fc2b9f31bc9e2f73b53a900bc9b0924410768
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 9a8c088f8726573e4b1fcad1944676547391a9bf
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8860344"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219624"
 ---
 # <a name="configure-wave-processing-example"></a>Vootöötluse konfigureerimise näide
 
@@ -29,7 +29,7 @@ See artikkel annab näite, kuidas seadistada kriteeriumeid, mis määratlevad, m
 
 ## <a name="enable-sample-data"></a>Luba näidisandmed
 
-Selle stsenaariumi kasutamiseks siin määratud näidiskirjete ja -väärtuste abil, peate kasutama süsteemi, kuhu on installitud standardsed demoandmed. Enne alustamist peate valima ka **USMF-i** juriidilise isiku.
+Selle stsenaariumi läbimiseks, kasutades näidiskirjeid ja väärtusi, mis on siin määratud, peate kasutama süsteemi, kuhu on installitud standardsed [demoandmed](../../../fin-ops-core/fin-ops/get-started/demo-data.md). Enne alustamist peate valima ka **USMF-i** juriidilise isiku.
 
 ## <a name="example-scenario-configure-wave-processing"></a>Näidisstsenaarium: vootöötluse konfigureerimine
 

@@ -6,20 +6,20 @@ ms.date: 04/19/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: RetailOperations
 audience: Application User, IT Pro
-ms.reviewer: v-chgri
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 20af517b9a69f4fb490d4d93ada8bc4063e895dd
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.industry: retail
+ms.search.form: RetailOperations
+ms.openlocfilehash: b8424920c3a177e01b71fc1c288b7acdd97ef191
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8878643"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9272013"
 ---
 # <a name="configure-the-customer-account-payment-method-for-b2b-e-commerce-sites"></a>Kliendikonto makseviisi konfigureerimine B2B e-kaubanduse saitide jaoks
 
@@ -27,7 +27,7 @@ ms.locfileid: "8878643"
 
 See artikkel kirjeldab, kuidas konfigureerida kliendikonto makseviisi moodulis Microsoft Dynamics 365 Commerce. See kirjeldab ka seda, kuidas krediidilimiidid mõjutavad ettemaksete hõivamist ettevõtete vahel (B2B) e-kaubanduse saitidel.
 
-Jaemüüjad võivad võtta e-kaubanduse kanalis müüdavate toodete ja teenuste eest tasu erinevat tüüpi maksemeetoditega. Kõik jaemüüja aktsepteeritavad maksetüübid tuleb konfigureerida süsteemi seadistamisel rakenduses Dynamics 365 Commerce. Kliendikonto (või "ettemaks") makseviisi peab toetama B2B e-commerce'i saitidel. 
+Jaemüüjad võivad võtta e-kaubanduse kanalis müüdavate toodete ja teenuste eest tasu erinevat tüüpi maksemeetoditega. Kõik jaemüüja aktsepteeritavad maksetüübid tuleb konfigureerida süsteemi seadistamisel rakenduses Dynamics 365 Commerce. Kliendikonto (või "ettemaks") makseviisi peab toetama B2B e-commerce’i saitidel. 
 
 ## <a name="prerequisites"></a>Eeltingimused
 
@@ -90,7 +90,7 @@ Vaatamata sellele, kas **krediidihalduse** funktsioon on lubatud ja kui kliendi 
 
 Atribuut **Välista krediidihaldusest**, mis takistab Äri müügitellimuste ootele jäämist, asub müügitellimuse päises (**Jaemüügi ja \> ärikliendid \> Kõik müügitellimused**). Kui äri müügitellimuste **puhul on** selle atribuudi väärtuseks seatud Jah (vaikeväärtus), jäetakse tellimused krediidihalduse ootel oleku töövoost välja. Kuigi atribuudi nimi on Välista **krediidihaldusest**, kasutatakse tellimuse täitmise ajal siiski määratletud krediidilimiiti. Tellimused ei jää ootele.
 
-Võimalus panna Commerce'i müügitellimused blokeerimisreeglite alusel ootele on plaanitud tulevasteks Commerce'i väljalaseteks. Kuni seda toetatakse, kui peate rakenduse Commerce müügitellimused läbima uued krediidihalduse vood, saate kohandada järgmisi XML-faile oma lahenduses Visual Studio. Muutke failides loogikat nii, et **CredManExcludeSalesOrderi** lipu väärtuseks oleks seatud **Ei**. Nii määratakse äri müügitellimuste **puhul atribuut** Välista **krediidihaldusest** väärtuseks Ei vaikimisi.
+Võimalus panna Commerce’i müügitellimused blokeerimisreeglite alusel ootele on plaanitud tulevasteks Commerce’i väljalaseteks. Kuni seda toetatakse, kui peate rakenduse Commerce müügitellimused läbima uued krediidihalduse vood, saate kohandada järgmisi XML-faile oma lahenduses Visual Studio. Muutke failides loogikat nii, et **CredManExcludeSalesOrderi** lipu väärtuseks oleks seatud **Ei**. Nii määratakse äri müügitellimuste **puhul atribuut** Välista **krediidihaldusest** väärtuseks Ei vaikimisi.
 
 - RetailCreateCustomerOrderExtensions_CredMan_Extension.xml
 - RetailCallCenterOrderExtensions_CredMan_Extension.xml

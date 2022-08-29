@@ -1,26 +1,26 @@
 ---
 title: Partiirežiimis käsitsi valitud failidest andmete importimine
 description: See artikkel selgitab, kuidas importida andmeid käsitsi valitud failidest pakkrežiimis.
-author: NickSelin
+author: kfend
 ms.date: 01/07/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERSolutionTable, ERImportFormatSourceTable, ERWorkspace
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 220314
-ms.assetid: ''
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2022-01-01
 ms.dyn365.ops.version: Release 10.0.25
-ms.openlocfilehash: 2dec838439876fd8e57ea4a7078d97267e5ea1a2
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 220314
+ms.assetid: ''
+ms.search.form: ERSolutionTable, ERImportFormatSourceTable, ERWorkspace
+ms.openlocfilehash: 21a2ab5f0eb07dda92baf9cc04ee36caeff8b4ec
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8890179"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9288224"
 ---
 # <a name="import-data-from-manually-selected-files-in-batch-mode"></a>Partiirežiimis käsitsi valitud failidest andmete importimine
 
@@ -111,7 +111,7 @@ Nõutud ER-i konfiguratsioonide loomiseks ja muude eeltingimuste hankimiseks jä
 6. Sisestage **väljale Kande ID** väärtus **V-00001**.
 7. Seadke vahekaardil **Käivita taustal valiku** Pakktöötlus **väärtuseks** **Jah**.
 
-    Pange tähele **, et ülesande** kirjelduse väli on **seatud käitama mudeli vastendust "1099 käsitsi kannete importimiseks", konfiguratsioonile '1099 Maksete mudel'**. See väärtus näitab, et valitud mudeli vastendamise käivitamine planeeritakse uue pakett-tööna.
+    Pange tähele **, et ülesande** kirjelduse väli on **seatud käitama mudeli vastendust "1099 käsitsi kannete importimiseks", konfiguratsioonile ’1099 Maksete mudel’**. See väärtus näitab, et valitud mudeli vastendamise käivitamine planeeritakse uue pakett-tööna.
 
     ![Andmete importimise üksikasjade määramine pakett-režiimis elektroonilise aruande parameetrite dialoogiboksis](./media/er-configure-data-import-batch-execution-parameters.png)
 

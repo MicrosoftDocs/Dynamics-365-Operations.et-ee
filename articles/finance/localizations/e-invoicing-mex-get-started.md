@@ -6,23 +6,21 @@ ms.date: 12/01/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom:
-- "97423"
-- intro-internal
-ms.assetid: ''
 ms.search.region: Global
-ms.author: janeaug
+ms.author: gionoder
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 540b6e6f9b4b669957cc3310e473ad59b9210594
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 97423,  ""intro-internal
+ms.assetid: ''
+ms.search.form: ''
+ms.openlocfilehash: 46dfa03a3c90eea2d732f355396d148f475429d7
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8855325"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9283112"
 ---
 # <a name="get-started-with-electronic-invoicing-for-mexico"></a>Alustage elektroonilise arveldusega Mehhikos
 
@@ -43,7 +41,7 @@ Cadena XSLT-skeemi lisamiseks globaliseerimisfunktsioonile CFDI töötlemiseks, 
 
 1. Laadige skeem SAT-i [veebisaidilt alla](http://www.sat.gob.mx/sitio_internet/cfd/3/cadenaoriginal_3_3/cadenaoriginal_3_3.xslt).
 2. Tihendage skeem ZIP-failina.
-3. Salvestage xslt-fail oma uuele konteinerile teenuse keskkonnas seadistatud Azure'i ladustamise kontole.
+3. Salvestage xslt-fail oma uuele konteinerile teenuse keskkonnas seadistatud Azure’i ladustamise kontole.
 
 ## <a name="rcs-setup"></a>RCS häälestus
 

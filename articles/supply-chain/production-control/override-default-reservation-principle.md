@@ -2,7 +2,7 @@
 title: Tootmises olevate materjalide vaikimisi reserveerimise põhimõtte alistamine
 description: See artikkel kirjeldab, kuidas seadistada vaikimisi reserveerimispõhimõte igale kauba mudeligrupile, nii et igale kaubale, mis on tootmiskoosluse või partiitellimuse valemi osa, saab automaatselt rakendada erinevaid reserveerimispõhimõtteid.
 author: johanhoffmann
-ms.date: 12/10/2020
+ms.date: 08/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-10
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 381b7fa5046df8f2734e4b242058eb9a673388cf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 87f10efd7eebdc034af3f7c9081d2674a6190b38
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907228"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334591"
 ---
 # <a name="override-the-default-reservation-principle-for-materials-in-production"></a>Tootmises olevate materjalide vaikimisi reserveerimise põhimõtte alistamine
 
@@ -32,7 +32,7 @@ Näiteks kui teil on toormaterjale või koostisosi, mis nõuavad nende toodete j
 
 ## <a name="turn-the-override-default-production-reservation-feature-on-or-off"></a>Tootmise reserveerimise vaikefunktsiooni alistamise sisse- või väljalülitamine
 
-Tarneahela halduse versiooni 10.0.25 puhul lülitatakse see funktsioon vaikimisi sisse. Administraatorid saavad selle funktsiooni sisse või välja lülitada, otsides *funktsioonihalduse* tööruumis tootmise vaikereserveeringu [alistamise funktsiooni](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Selle funktsiooni kasutamiseks peab see olema teie süsteemi jaoks sisse lülitatud. Tarneahela halduse versiooni 10.0.25 puhul lülitatakse funktsioon vaikimisi sisse. Tarneahela halduse versiooni 10.0.29 puhul on see funktsioon kohustuslik ja seda ei saa välja lülitada. Kui käitate versiooni, mis *on*[vanem](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) kui 10.0.29, saavad administraatorid selle funktsiooni sisse või välja lülitada, otsides funktsioonihalduse tööruumis tootmise vaikereserveeringu funktsiooni.
 
 ## <a name="assign-a-production-reservation-policy-to-an-item-model-group"></a>Tootmise reserveerimise poliitika määramine kauba mudeligrupile
 

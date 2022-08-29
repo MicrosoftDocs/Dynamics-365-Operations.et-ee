@@ -2,7 +2,7 @@
 title: Väljamineva töökoormuse visualiseerimine
 description: See artikkel annab teavet väljamineva töökoormuse visualiseerimise kohta. See funktsioon võimaldab laojuhatajatel ja -ülemustel luua kohandatud töökoormusgraafikuid, mida saab kasutada praeguse töö ja selle allesjäänud osa edenemise jälgimiseks. Laojuhatajad saavad luua mitu vaadet ja häälestada vajaduse korral automaatse värskendamise.
 author: Mirzaab
-ms.date: 08/28/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-08-28
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 0e5a2cd2aa458217ff212d45c0dd13c9d0623bd0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 78d0d81095bb52a314936dd7590a5690d94ecb15
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8851329"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334411"
 ---
 # <a name="outbound-workload-visualization"></a>Väljamineva töökoormuse visualiseerimine
 
@@ -29,7 +29,7 @@ Neid funktsioone saab kasutada komplekteerimistöö edenemise jälgimiseks. Funk
 
 ## <a name="turn-the-outbound-workload-visualization-feature-on-or-off"></a>Väljamineva töökoormuse visualiseeringu funktsiooni sisse- või väljalülitamine
 
-Tarneahela halduse versiooni 10.0.25 puhul lülitatakse see funktsioon vaikimisi sisse. Administraatorid saavad selle funktsiooni sisse või välja lülitada, otsides *Funktsioonihalduse* tööruumist väljamineva töökoormuse [visualiseeringu](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) funktsiooni.
+Selle funktsiooni kasutamiseks peab see olema teie süsteemi jaoks sisse lülitatud. Tarneahela halduse versiooni 10.0.25 puhul lülitatakse funktsioon vaikimisi sisse. Tarneahela halduse versiooni 10.0.29 puhul on see funktsioon kohustuslik ja seda ei saa välja lülitada. Kui käitate versiooni, mis on *vanem kui 10.0.29, saavad administraatorid selle funktsiooni sisse või välja lülitada, otsides funktsioonihalduse tööruumist väljamineva töökoormuse visualiseerimise*[funktsiooni](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="set-up-outbound-workload-visualizations"></a>Väljamineva töökoormuse visualiseeringute häälestamine
 

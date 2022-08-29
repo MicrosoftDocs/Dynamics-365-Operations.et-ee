@@ -15,18 +15,20 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-01-03
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 492bbd31cae08a93cd68e5ce120d02a62141241b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0d679595a1f702c4e3ade138a87c817d245fcf79
+ms.sourcegitcommit: 66d129874635d34a8b29c57762ecf1564e4dc233
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8874570"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9324325"
 ---
 # <a name="accounts-receivable-posting"></a>Müügireskontro sisestamine
 
 [!include [banner](../includes/banner.md)]
 
 Müügireskontro mooduli esmaseks **sisestusreegliks** on kliendi sisestusreeglid. See sisestusrikkumine määratleb summakonto, mida kasutatakse kliendi saldode pearaamatusse sisestamisel. Summakonto on põhikonto. Seda nimetatakse ka Müügireskontro kaubanduskontoks.
+
+Kliendi **ja pearaamatu vastavusseviimise** aruannet saab kasutada pärast sisestamist, et viia vastavusse kliendi- ja pearaamatukontode saldod. Aruanne kasutab teavet, mis leitakse kliendi sisestusreeglite summakontolt. See ei kasuta dokumendi jaoks loodud raamatupidamise summakontot. Kui teete muudatusi kliendi sisestusreeglites või kliendigrupis, mis on määratud kliendile pärast kannete sisestamist, võib aruanne kuvada kliendi ja pearaamatukonto saldo erinevusi. Ainult erinevustega ridade ja kõigi ridade vaatamiseks, mille kliendikontod ja pearaamatukonto on mõlemad null, **valige** aruande printimisel ainult erinevused parameeter.
 
 Lisateavet leiate teemast [Kliendi sisetamise profiil](../accounts-receivable/customer-posting-profiles.md).
 

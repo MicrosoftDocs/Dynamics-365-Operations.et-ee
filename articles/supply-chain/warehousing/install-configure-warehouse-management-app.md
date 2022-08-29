@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: ec2a9f5ca6d6735e675defda6782738da7814c01
-ms.sourcegitcommit: f2501d93ffc1c7bf4e0daa78e63bc37528ef2358
+ms.openlocfilehash: d6131d205e650c0de88b85434629ed9537c2a0b1
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/18/2022
-ms.locfileid: "9171451"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335641"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>Mobiilirakenduse Warehouse Management installimine ja ühendamine
 
@@ -38,7 +38,7 @@ Laohalduse mobiilirakendus on saadaval nii Windowsi kui ka Google’i Androidi o
 
 ## <a name="turn-warehouse-management-mobile-app-features-on-or-off-in-supply-chain-management"></a>Laohalduse mobiilirakenduse funktsioonide sisse- ja väljalülitamine tarneahela halduses
 
-Laohalduse mobiilirakenduse kasutamiseks peavad uue *laorakenduse funktsiooni kasutajasätted,* ikoonid ja etapi pealkirjad olema süsteemis sisse lülitatud. Tarneahela halduse 10.0.25 puhul on see funktsioon kohustuslik ja seda ei saa välja lülitada. Kui käitate versiooni, mis on *vanem kui 10.0.25, saavad administraatorid selle funktsiooni sisse ja välja lülitada, otsides Kasutajasätteid, ikoone ja uue laorakenduse funktsiooni pealkirjad Funktsioonihalduse tööruumis*[...](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Laohalduse mobiilirakenduse kasutamiseks peavad uue *laorakenduse funktsiooni kasutajasätted,* ikoonid ja etapi pealkirjad olema teie süsteemi jaoks sisse lülitatud. Tarneahela halduse 10.0.25 puhul on see funktsioon kohustuslik ja seda ei saa välja lülitada. Kui käitate versiooni, mis on *vanem kui 10.0.25, saavad administraatorid selle funktsiooni sisse ja välja lülitada, otsides Kasutajasätteid, ikoone ja uue laorakenduse funktsiooni pealkirjad Funktsioonihalduse tööruumis*[...](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="get-the-warehouse-management-mobile-app"></a>Laohalduse mobiilirakenduse hankimine
 

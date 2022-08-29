@@ -1,21 +1,21 @@
 ---
 title: Allkirjasta MPOS.appx-fail koodi allkirjastamistunnistusega
 description: See artikkel selgitab, kuidas MPOS-i koodi allkirjastamise serdiga allkirjastada.
-author: mugunthanm
+author: josaw1
 ms.date: 05/27/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
-ms.reviewer: tfehr
-ms.custom: 28021
+ms.reviewer: josaw
 ms.search.region: Global
-ms.author: mumani
+ms.author: josaw
 ms.search.validFrom: 2019-09-2019
-ms.openlocfilehash: 4cbdfcb5229be2f04531031c80f41f672b2a4747
-ms.sourcegitcommit: c271b2edc4bf777f7194b09139ccbd174a359c75
+ms.custom: 28021
+ms.openlocfilehash: bcf558b4b375078ed24777417e92b1c852f4c0eb
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/16/2022
-ms.locfileid: "9169095"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9282802"
 ---
 # <a name="sign-the-mpos-appx-file-with-a-code-signing-certificate"></a>Allkirjasta MPOS.appx-fail koodi allkirjastamistunnistusega
 
@@ -28,14 +28,14 @@ MPOS-rakenduse serdiga allkirjastamiseks **kasutage üht järgmistest suvandites
 - Lisage koostamisetappide secure faili ülesande Azure DevOps osa ja laadige sert üles faili ülesande turvamiseks. Kasutage turvalise faili ülesande väljunditee muutujat parameetrina failis Customization.settings.
 
     > [!NOTE]
-    > Secure Filei ülesanne ei toeta parooliga kaitstud serti. Enne selle ülesande üleslaadimist peate parooli eemaldama. Kuna sert on turvalisse failisüsteemi ülesandesse Azure'is üles laaditud, saate parooli eemaldada ainult selle sammu jaoks. Siiski peaksite käsitlema parooli eemaldamist oma turvaeksepertidega, et määratleda, kas see on teie projekti puhul õige toiming. Ärge eemaldage muude stsenaariumite serdi parooli.
+    > Secure Filei ülesanne ei toeta parooliga kaitstud serti. Enne selle ülesande üleslaadimist peate parooli eemaldama. Kuna sert on turvalisse failisüsteemi ülesandesse Azure’is üles laaditud, saate parooli eemaldada ainult selle sammu jaoks. Siiski peaksite käsitlema parooli eemaldamist oma turvaeksepertidega, et määratleda, kas see on teie projekti puhul õige toiming. Ärge eemaldage muude stsenaariumite serdi parooli.
 - Kasutage failisüsteemis serti. Selleks laadige alla või looge sert ning paigutage see failisüsteemi, kus kooste töötab. Microsofti majutatud agendil või koostekasutajal peab olema juurdepääs sellele teele ja failile.
 - Serdi otsimiseks kaupluses kasutage sõrmejälge ja logige sisse selle serdiga.
 
 ## <a name="use-a-secure-file-task-for-universal-windows-platform-app-signing"></a>Turvalise faili ülesande kasutamine Universal Windowsi platvormi rakenduse allkirjastamiseks
 
 > [!NOTE]
-> Serdi salvestamiseks saate kasutada ka Azure Key Vault'i ja kasutada Azure'i märgi tööriista Modern POS-i .appx-faili ja iseteeninduse installijate allkirjastamiseks. Müügivõimaluste näidisskriptide ja lisateabe saamiseks vt [müügivõimaluste häälestamist Azure DevOps jaemüügi iseteeninduspakettide loomiseks](build-pipeline.md#set-up-a-build-pipeline-in-azure-devops-to-generate-retail-self-service-packages).
+> Serdi salvestamiseks saate kasutada ka Azure Key Vault’i ja kasutada Azure’i märgi tööriista Modern POS-i .appx-faili ja iseteeninduse installijate allkirjastamiseks. Müügivõimaluste näidisskriptide ja lisateabe saamiseks vt [müügivõimaluste häälestamist Azure DevOps jaemüügi iseteeninduspakettide loomiseks](build-pipeline.md#set-up-a-build-pipeline-in-azure-devops-to-generate-retail-self-service-packages).
 
 Turvalise faili ülesande kasutamine on Soovitatav lähenemine Universal Windowsi platvormi (UWP) rakenduse allkirjastamisele. Lisateavet paketi allkirjastamise kohta vt "Paketi allkirjastamise [konfigureerimine"](/windows/uwp/packaging/auto-build-package-uwp-apps#configure-package-signing). See protsess kuvatakse järgmisel pildil.
 
@@ -44,17 +44,17 @@ Turvalise faili ülesande kasutamine on Soovitatav lähenemine Universal Windows
 > [!NOTE]
 > Praegu toetab OOB pakend ainult .appx-faili allkirjastamist, sellele protsessile ei ole allakirjutatud muud iseteenindussüsteemi installijad, nagu MPRAKENDUSEd,MERAU ja HWS. Peate selle allkirjastama käsitsi SignTooli või muude allkirjastamistööriistade abil. .appx-faili allkirjastamiseks kasutatav sert tuleb installida masinasse, kuhu on installitud Modern POS.
 
-## <a name="steps-to-configure-the-certificate-for-signing-in-azure-pipelines"></a>Serdi konfigureerimise sammud Azure Pipelines'i logimiseks
+## <a name="steps-to-configure-the-certificate-for-signing-in-azure-pipelines"></a>Serdi konfigureerimise sammud Azure Pipelines’i logimiseks
 
 ### <a name="certificate-in-the-file-systemsecure-location"></a>Failisüsteemi/turvalise asukoha sert
 
 Laadige alla [toiming DownloadFile](/visualstudio/msbuild/downloadfile-task) ja lisage see koostamisprotsessi esimese sammuna. Turvalise faili ülesande kasutamise eeliseks on see, et fail krüptitakse ja paigutatakse kettale koostamis käigus hoolimata sellest, kas koostamisvõimaluste loomine õnnestus, nurjub või kui see tühistatakse. Fail kustutatakse allalaadimise asukohast pärast seda, kui koostamisprotsess on lõpetatud.
 
-1. Laadige alla ja lisage Secure File toiming esimese sammuna Azure'i build müügivõimalustes. Võite secure file task alla laadida downloadFile'ist [...](https://marketplace.visualstudio.com/items?itemName=automagically.DownloadFile).
+1. Laadige alla ja lisage Secure File toiming esimese sammuna Azure’i build müügivõimalustes. Võite secure file task alla laadida downloadFile’ist [...](https://marketplace.visualstudio.com/items?itemName=automagically.DownloadFile).
 1. Laadige sert üles turvafaili ülesandele ja määrake jaotises Väljundmuutujad viite nimi, nagu järgmisel pildil näha.
     > [!div class="mx-imgBorder"]
     > ![Turvaline failiülesanne.](media/SecureFile.png)
-1. Looge uus muutuja Azure Pipelines'is, valides **vahekaardil** **Muutujad valiku Uus** muutuja.
+1. Looge uus muutuja Azure Pipelines’is, valides **vahekaardil** **Muutujad valiku Uus** muutuja.
 1. Sisestage muutujale väärtusväljal nimi, näiteks **MySigningCert**.
 1. Salvestab muutuja.
 1. Avage **RetailSDK\\BuildToolsi** fail **Customization.settings** ja uuendage **ModernPOSPackageCertificateKeyFile** konveieris loodud muutuja nimega (etapp 3). Näide:

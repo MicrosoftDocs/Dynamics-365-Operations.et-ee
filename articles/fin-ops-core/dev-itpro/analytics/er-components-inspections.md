@@ -1,26 +1,26 @@
 ---
 title: Käitusaja probleemide ennetamiseks konfigureeritud ER-i komponendi kontrollimine
 description: See artikkel selgitab, kuidas kontrollida konfigureeritud elektroonilise aruandluse (ER) komponente käitusajaprobleemide vältimiseks, mis võivad ilmneda.
-author: NickSelin
+author: kfend
 ms.date: 01/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 220314
-ms.assetid: ''
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c30f1a0d6ca4a50645bada39abbbf2f58777abb8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 220314
+ms.assetid: ''
+ms.search.form: ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner
+ms.openlocfilehash: 53835bbceaa89793d890d8bc18921497c686e969
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8864832"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9277846"
 ---
 # <a name="inspect-the-configured-er-component-to-prevent-runtime-issues"></a>Käitusaja probleemide ennetamiseks konfigureeritud ER-i komponendi kontrollimine
 
@@ -30,8 +30,8 @@ Kõik konfigureeritud [elektroonilise aruandluse (ER)](general-electronic-report
 
 Vaikimisi rakendatakse ER-i konfiguratsioonile automaatselt kontroll järgmistel juhtudel, mis sisaldab eelnevalt nimetatud ER-i komponente.
 
-- Impordite [...](general-electronic-reporting.md#importing-an-er-component-from-lcs-to-use-it-internally)[ER-i](general-electronic-reporting.md#component-versioning) konfiguratsiooni uue versiooni oma Microsoft Dynamics 365 Finantside eksemplari.
-- Muudate redigeeritava ER-i konfiguratsiooni [oleku](general-electronic-reporting.md#component-versioning) valikult **Mustand** valikule **Lõpetatud**.
+- Impordite [ER](general-electronic-reporting.md#importing-an-er-component-from-lcs-to-use-it-internally)-i konfiguratsiooni uue versiooni oma Microsoft Dynamics 365 Finantside eksemplari.
+- Muudate redigeeritava ER-i konfiguratsiooni oleku mustandist **olekusse** Lõpetatud **·**.
 - Muudate redigeeritava ER-i konfiguratsiooni [alust](general-electronic-reporting.md#upgrading-a-format-selecting-a-new-version-of-base-format-rebase), rakendades uue alusversiooni.
 
 Selle kontrolli saate käivitada otse. Valige üks järgmisest kolmest valikust ja järgige esitatud samme.
@@ -770,7 +770,7 @@ Muutke konfigureeritud vormingut, eemaldades vormingu elemendi **Avaldis\\Osapoo
 
 ## <a name="not-linked-template"></a><a id="i12"></a>Linkimata mall
 
-Kui konfigureerite ER-i vormingu komponendi [käsitsi](er-fillable-excel.md#manual-entry), et kasutada väljuva dokumendi loomiseks malli, peate lisama elemendi **Excel\\Fail**, lisama nõutavad mallid redigeeritava komponendi manusena ja valima selle manuse lisatud elemendis **Excel\\Fail**. Sel viisil saate näidata, et lisatud element täidab valitud malli käitusajal. Kui konfigureerite vormingu komponendi versiooni **Mustandi** [olekus](general-electronic-reporting.md#component-versioning), võite lisada redigeeritavale komponendile mitu malli ja seejärel valida iga malli elemendis **Excel\\Fail**, element käitada ER-i vormingusse. Sel viisil saate vaadata, kuidas erinevad mallid on käitusajal täidetud. Kui teil on malle, mis ei ole üheski elemendis **Excel\\Fail** valitud, hoiatab ER-i vormingu kujundaja teid, et need mallid kustutatakse redigeeritavate ER-i vormingu komponentide versioonist, kui selle olek muudetakse valikult **Mustand** valikule **Lõpetatud**.
+Kui konfigureerite ER-i vormingu komponendi [käsitsi](er-fillable-excel.md#manual-entry), et kasutada väljuva dokumendi loomiseks malli, peate lisama elemendi **Excel\\Fail**, lisama nõutavad mallid redigeeritava komponendi manusena ja valima selle manuse lisatud elemendis **Excel\\Fail**. Sel viisil saate näidata, et lisatud element täidab valitud malli käitusajal. Kui konfigureerite vormingu komponendi versiooni **olekus** Mustand, **võite lisada redigeeritavale komponendile mitu malli ja seejärel valida iga malli Exceli\\** faili elemendis ER-vormingu käivitamiseks. Sel viisil saate vaadata, kuidas erinevad mallid on käitusajal täidetud. Kui teil on malle, mis ei ole üheski elemendis **Excel\\Fail** valitud, hoiatab ER-i vormingu kujundaja teid, et need mallid kustutatakse redigeeritavate ER-i vormingu komponentide versioonist, kui selle olek muudetakse valikult **Mustand** valikule **Lõpetatud**.
 
 Järgmised etapid näitavad, kuidas see probleem võib ilmneda.
 

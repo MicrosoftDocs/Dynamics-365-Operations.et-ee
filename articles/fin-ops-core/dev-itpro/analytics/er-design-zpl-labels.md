@@ -1,26 +1,26 @@
 ---
 title: Uue elektroonilise aruandluse lahenduse kujundamine ZPL-siltide printimiseks
 description: See artikkel selgitab, kuidas kujundada uut elektroonilise aruandluse (ER) lahendust Teabebaasi (ZPL) siltide printimiseks.
-author: NickSelin
+author: kfend
 ms.date: 02/28/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERSolutionTable, ERFormatDestinationTable
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 97423
-ms.assetid: f3055a27-717a-4c94-a912-f269a1288be6
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2022-02-01
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: f861fe63c6d7d00d0a9f84d33c0d1b1b23735b61
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 97423
+ms.assetid: f3055a27-717a-4c94-a912-f269a1288be6
+ms.search.form: ERSolutionTable, ERFormatDestinationTable
+ms.openlocfilehash: 7ef83cf4822ca129af3ca01fa6ddd05219fee0d7
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8845711"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9271759"
 ---
 # <a name="design-a-new-er-solution-to-print-zpl-labels"></a>Uue elektroonilise aruandluse lahenduse kujundamine ZPL-siltide printimiseks
 
@@ -68,7 +68,7 @@ Konfigureeritud andmemudeli redigeeritavat versiooni saate vaadata andmemudeli *
 
 ## <a name="design-a-model-mapping-for-the-configured-data-model"></a>Mudelivastenduse kujundamine konfigureeritud andmemudelile
 
-Kasutajana elektroonilise aruandluse arendaja rollis peate looma uue ER-i konfiguratsiooni, mis sisaldab lao [andmemudeli](er-overview-components.md#model-mapping-component) mudelivastenduse komponenti. Komponent juurutab Dynamics 365 Finance'i konfigureeritud andmemudeli ja on selle rakenduse spetsiifiline. Peate selle konfigureerima, et määrata rakendusobjektid, mida kasutatakse konfigureeritud andmemudeli täitmiseks käitusajal rakenduse andmetega. Selle ülesande lõpuleviimiseks peate aru saama, kuidas laohalduse äridomeeni andmestruktuuri finantsidesse rakendatakse.
+Kasutajana elektroonilise aruandluse arendaja rollis peate looma uue ER-i konfiguratsiooni, mis sisaldab lao [andmemudeli](er-overview-components.md#model-mapping-component) mudelivastenduse komponenti. Komponent juurutab Dynamics 365 Finance’i konfigureeritud andmemudeli ja on selle rakenduse spetsiifiline. Peate selle konfigureerima, et määrata rakendusobjektid, mida kasutatakse konfigureeritud andmemudeli täitmiseks käitusajal rakenduse andmetega. Selle ülesande lõpuleviimiseks peate aru saama, kuidas laohalduse äridomeeni andmestruktuuri finantsidesse rakendatakse.
 
 ### <a name="import-a-model-mapping-configuration"></a>Mudeli vastendamise konfiguratsiooni importimine
 
@@ -138,7 +138,7 @@ Selle `model.Location.Label` vormingu andmeallikas on konfigureeritud looma silt
 
 Järgmises näites kasutatakse ZPL-siltide printeri emulaatori rakendust loodud siltide eelvaate kuvamiseks ekraanil. Järgige neid samme selle suvandi lubamiseks.
 
-1. Lisage lao [asukoha sildi](er-destination-type-print.md) ER-vormingule printeri **ER**[sihtkoht ja konfigureerige see finantside loodud siltide saatmiseks dokumendi protsessiagendisse (DRA)](install-document-routing-agent.md).
+1. Lisage lao [asukoha sildi](er-destination-type-print.md) ER-vormingule printeri **ER**[sihtkoht ja konfigureerige see finantside loodud siltide saatmiseks dokumendi protsessiagendisse (DRA).](install-document-routing-agent.md)
 2. Installige ja konfigureerige DRA finantside loodud siltide protsessi jaoks kohalikuks printeriks, millele on juurdepääs praegusest tööjaamast.
 3. Lisage praegusele tööjaamale kohalik printer ja konfigureerige see mööduma DRA-st loodud sildid printeri emulaatori rakendusele.
 4. Installige printeri emulaatori rakendus Kroomitud veebibrauseri laiendina ja konfigureerige see mööduma kohalikust printerist genereeritud sildid veebiteenusele, mis renderdab loodud sildid ja tagastab need eelvaateks printeri emulaatorile.

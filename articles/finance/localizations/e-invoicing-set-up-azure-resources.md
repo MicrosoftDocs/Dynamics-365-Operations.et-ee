@@ -1,44 +1,44 @@
 ---
 title: Azure'i ressursside häälestamine elektroonilise arvelduse jaoks
 description: See artikkel annab ülevaate protsessist ressursside seadistamiseks Microsoft Azure elektroonilise arvelduse jaoks.
-author: dkalyuzh
+author: gionoder
 ms.date: 01/26/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: Global
-ms.author: dkalyuzh
+ms.author: gionoder
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c5b7b2ca4d7733fb1c75ded8798655699284fe1a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.form: ''
+ms.openlocfilehash: f11e4eac831d54a6cac765a5adc4e4ffddbe0a22
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907725"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9283081"
 ---
 # <a name="set-up-azure-resources-for-electronic-invoicing"></a>Azure'i ressursside häälestamine elektroonilise arvelduse jaoks
 
 [!include [banner](../includes/banner.md)]
 
-Elektroonilise arvelduse ressursside Microsoft Azure seadistamise protsessil on kolm sammu. Esimesed kaks etappi "Azure'i võtme vault loomine Azure'i portaalis" ja "Azure'i ladustamiskonto loomine Azure'i portaalis" on kohustuslikud. Kolmas etapp "Ühenduse konfigureerimine SharePoint " on valikuline.
+Elektroonilise arvelduse ressursside Microsoft Azure seadistamise protsessil on kolm sammu. Esimesed kaks etappi "Azure’i võtme vault loomine Azure’i portaalis" ja "Azure’i ladustamiskonto loomine Azure’i portaalis" on kohustuslikud. Kolmas etapp "Ühenduse konfigureerimine SharePoint " on valikuline.
 
-## <a name="create-an-azure-key-vault-in-the-azure-portal"></a>Looge Azure'i võtme vault Azure'i portaalis
+## <a name="create-an-azure-key-vault-in-the-azure-portal"></a>Looge Azure’i võtme vault Azure’i portaalis
 
-Looge oma Azure'i kordustellimuses võtme võti. Soovitame luua elektrooniliseks arveldamiseks eraldi võtme hoidla ning et te ei kombineeriks saladusi muude rakendustega. Looge nii palju saladusi ja serte, kui vajate oma elektrooniliste dokumentide stsenaariumite puhul. Peate looma vähemalt ühe saladuse, et salvestada järgmises sammus teie looge Azure'i ladustamiskonto saS-i jagatud pääsu allkiri.
+Looge oma Azure’i kordustellimuses võtme võti. Soovitame luua elektrooniliseks arveldamiseks eraldi võtme hoidla ning et te ei kombineeriks saladusi muude rakendustega. Looge nii palju saladusi ja serte, kui vajate oma elektrooniliste dokumentide stsenaariumite puhul. Peate looma vähemalt ühe saladuse, et salvestada järgmises sammus teie looge Azure’i ladustamiskonto saS-i jagatud pääsu allkiri.
 
-Teavet selle sammu lõpuleviimise kohta vt Azure'i [võtme vaulti loomine Azure'i portaalis](e-invoicing-create-azure-key-vault-azure-portal.md).
+Teavet selle sammu lõpuleviimise kohta vt Azure’i [võtme vaulti loomine Azure’i portaalis](e-invoicing-create-azure-key-vault-azure-portal.md).
 
 ## <a name="create-an-azure-storage-account-in-the-azure-portal"></a>Azure'i salvestusruumi konto loomine Azure'i portaalis
 
-Teie omate kõiki elektroonilisi dokumente ja faile, mille on loonud elektroonilise arvelduse teenus või sisestage teenus. Need dokumendid ja failid salvestatakse Azure'i kordustellimuses lootatavale Azure'i ladustamiskontole. Teenus pääseb teie ladustamiskontole juurde, kasutades SAS-i luba, mis võetakse teie võtme vault-saladustest.
+Teie omate kõiki elektroonilisi dokumente ja faile, mille on loonud elektroonilise arvelduse teenus või sisestage teenus. Need dokumendid ja failid salvestatakse Azure’i kordustellimuses lootatavale Azure’i ladustamiskontole. Teenus pääseb teie ladustamiskontole juurde, kasutades SAS-i luba, mis võetakse teie võtme vault-saladustest.
 
-Teavet selle sammu lõpuleviimise kohta vt Azure'i [ladustamiskonto loomine Azure'i portaalis](e-invoicing-create-azure-storage-account-azure-portal.md).
+Teavet selle sammu lõpuleviimise kohta vt Azure’i [ladustamiskonto loomine Azure’i portaalis](e-invoicing-create-azure-storage-account-azure-portal.md).
 
 ## <a name="configure-a-sharepoint-connection"></a>SharePointi ühenduse konfigureerimine
 

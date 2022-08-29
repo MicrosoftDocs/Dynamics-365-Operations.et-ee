@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 2f1902ba76db59b61b0437eb3cd68ee94018b7c5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 55c83cdbc144f194fe80e8281a35ec7ff43d551e
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8844463"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219933"
 ---
 # <a name="inventory-marking-with-planning-optimization"></a>Varude märkimine planeerimise optimeerimisega
 
@@ -43,9 +43,15 @@ Sidumist alustatakse vastava märgistuse, vabade reserveeringute ja tellimuse re
 
 Kui kinnitate plaanitud tellimust, pakutakse dialoogiboksis **Kinnitamine** välja **Märkimise värskendamine**, mida saate kasutada kinnitamise ajal loodud tellimuste märkimissuvandite määramiseks. Valige üks järgmistest väärtustest.
 
-- **Ei** – varude märkimist ei rakendata.
-- **Tavaline** – varude märkimine värskendatakse sidumise alusel. Vajaduse tellimus (nõudlus) märgitakse täitmise tellimusega (pakkumisega) võrreldes. Kui täitmise tellimusele jääb mõni kogus alles, siis seda ei märgita ja viideteteavet ei lisata. Näiteks kui müügitellimus (100 ea) on seotud ostutellimusega (150 ea), määratakse viiteteave ainult müügitellimusele.
-- **Laiendatud** – märgitakse nii vajaduse (nõudluse) kui täitmise (pakkumise) tellimused, sõltumata sellest, kas täitmise tellimusele jääb teatud kaubakogus või mitte. Näiteks kui müügitellimus (100 ea) on seotud ostutellimusega (150 ea), määratakse viiteteave nii müügi- kui ka ostutellimusele.
+- *Ei* – varude märkimist ei rakendata.
+- *Tavaline* – varude märkimine värskendatakse sidumise alusel. Vajaduse tellimus (nõudlus) märgitakse täitmise tellimusega (pakkumisega) võrreldes. Kui täitmise tellimusele jääb mõni kogus alles, siis seda ei märgita ja viideteteavet ei lisata. Näiteks kui müügitellimus (100 ea) on seotud ostutellimusega (150 ea), määratakse viiteteave ainult müügitellimusele.
+- *Laiendatud* – märgitakse nii vajaduse (nõudluse) kui täitmise (pakkumise) tellimused, sõltumata sellest, kas täitmise tellimusele jääb teatud kaubakogus või mitte. Näiteks kui müügitellimus (100 ea) on seotud ostutellimusega (150 ea), määratakse viiteteave nii müügi- kui ka ostutellimusele.
+- *Ühetasemeline* – kasutatakse ühetaseme märkimist. Ühetasemeline märgistus märgib ainult põhikaupa, mitte selle koosluse komponente. Seetõttu saate pärast kinnitamist säilitada tootmistellimuste komponentide määramise paindlikuna. Ühetasemeline märkimine võimaldab süsteemil optimeerida viimase minuti nõudluse muudatusi. Standardses *ühetaseme* märkimises märgitakse vajaduse tellimused nende täitmistellimustele vastamiseks, kuid täitmistellimusi ei märgita, kui nende kogus on järelejääv.
+- *Ühetasemeline laiendatud* – kasutatakse ühetaseme märkimist. Laiendatud *ühetasemeline* märgistus näitab vajadusetellimusi nende täitmistellimustega seoses ja täitmistellimused märgitakse alati, olenemata sellest, kas mingi kogus jääb alles.
 
+Süsteemi jaoks vaikemärkimissuvandi seadmine minge koondplaneerimise **seadistuse \>\> koondplaneerimise parameetritesse**. Seejärel seadke vahekaardil **Standardne uuendamine** välja Uuenda märkimine **väärtuseks** eelistatud suvand.
+
+> [!NOTE]
+> Ühetasemeline *standard* ja *ühe taseme laiendatud* valikud on saadaval *ainult* siis, kui vastavalt tellimusele tarnimise automatiseerimise funktsioon on teie süsteemis lubatud. Lisateavet selle funktsiooni ja selle lubamise kohta vt tellimusele [tarnimise automatiseerimise kohta](../make-to-order-supply-automation.md).
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,26 +1,26 @@
 ---
 title: Kujundage ER-vorming Excelis genereeritud dokumentide saalimiseks
 description: See artikkel selgitab, kuidas kujundada elektroonilise aruandluse (ER) vormingut, milles loodud dokument saalitakse Microsoft Excel.
-author: NickSelin
+author: kfend
 ms.date: 09/14/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: EROperationDesigner
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 220314
-ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2021-08-01
 ms.dyn365.ops.version: Version 10.0.22
-ms.openlocfilehash: e8edc8bba62f74b4f81d423cf75b5fb87c01e43f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 220314
+ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
+ms.search.form: EROperationDesigner
+ms.openlocfilehash: e4a34dffda9e9b95f5d6c7ee382723663817ec6b
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8909274"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9284997"
 ---
 # <a name="design-an-er-format-to-paginate-generated-documents-in-excel"></a>Kujundage ER-vorming Excelis genereeritud dokumentide saalimiseks
 
@@ -43,7 +43,7 @@ Minimaalsete [ER-i parameetrite konfigureerimine](er-quick-start2-customize-repo
 
 ## <a name="import-the-standard-er-format-configuration"></a>Standardse ER‑vormingu konfiguratsiooni importimine
 
-Järgige standardse ER-vormingu [konfiguratsiooni importimise etappe](er-quick-start2-customize-report.md#ImportERSolution1), et lisada praegusele Dynamics 365 Finance'i eksemplarile standardsed ER-konfiguratsioonid. Importige **Intrastati aruande** vormingu konfiguratsiooni versioon **1.9**. **Intrastati põhimudeli** konfiguratsiooni baasversioon 1 imporditakse automaatselt hoidlast.
+Järgige standardse ER-vormingu [konfiguratsiooni importimise etappe](er-quick-start2-customize-report.md#ImportERSolution1), et lisada praegusele Dynamics 365 Finance’i eksemplarile standardsed ER-konfiguratsioonid. Importige **Intrastati aruande** vormingu konfiguratsiooni versioon **1.9**. **Intrastati põhimudeli** konfiguratsiooni baasversioon 1 imporditakse automaatselt hoidlast.
 
 ## <a name="customize-the-standard-er-format"></a>Standardse ER-vormingu kohandamine
 
@@ -58,11 +58,11 @@ Selles stsenaariumis olete te Litaware, Inc. esindaja, kes on praegu valitud akt
 5. Väljale **Nimi** sisestage **Intrastati aruanne Litware**.
 6. Konfiguratsiooni loomiseks valige **Loo konfiguratsioon**.
 
-Luuakse ER-vormingu konfiguratsiooni **Intrastat aruanne Litware** versioon 1.9.1. Selle versiooni [olek](general-electronic-reporting.md#component-versioning) on **Mustand** ja seda saab redigeerida. Teie kohandatud ER-vormingu praegune sisu vastab Microsofti antud vormingu sisule.
+Luuakse ER-vormingu konfiguratsiooni **Intrastat aruanne Litware** versioon 1.9.1. Selle versiooni olek on Mustand **ja** seda saab redigeerida. Teie kohandatud ER-vormingu praegune sisu vastab Microsofti antud vormingu sisule.
 
 ### <a name="make-the-custom-format-runnable"></a>Kohandatud vormingu tegemine käitatavaks
 
-Kui teie kohandatud vormingu esimene versioon on loodud ja selle olek on **Mustand**, saate vormingu käitada testimise eesmärgil. Aruande käitamiseks peate töötlema hankija makset makseviisi abil, mis viitab teie kohandatud ER-vormingule. Kui toote rakendusest ER-vormingu võetakse vaikimisi [arvesse](general-electronic-reporting.md#component-versioning) ainult versioone, mille olek on **Lõpule viidud** või **Ühiskasutusse antud**. Selle käitumise abil saab vältida ER-vormingute kasutamist, mille koostamine on lõpetamata. Kuid oma testikäivitustel saate sundida rakendust kasutama teie ER-vormingu versiooni, mille olekuks on **Mustand**. Sedasi saate korrigeerida praeguse vormingu versiooni, kui muudatusi on vaja. Lisateavet vt jaotisest [Kohaldatavus](electronic-reporting-destinations.md#applicability).
+Kui teie kohandatud vormingu esimene versioon on loodud ja selle olek on **Mustand**, saate vormingu käitada testimise eesmärgil. Aruande käitamiseks peate töötlema hankija makset makseviisi abil, mis viitab teie kohandatud ER-vormingule. Kui kutsute rakendusest ER-vormingu, kaalutakse vaikimisi ainult versioone, mille olek on **Lõpetatud** **või** Ühiskasutuses. Selle käitumise abil saab vältida ER-vormingute kasutamist, mille koostamine on lõpetamata. Kuid oma testikäivitustel saate sundida rakendust kasutama teie ER-vormingu versiooni, mille olekuks on **Mustand**. Sedasi saate korrigeerida praeguse vormingu versiooni, kui muudatusi on vaja. Lisateavet vt jaotisest [Kohaldatavus](electronic-reporting-destinations.md#applicability).
 
 ER-vormingu mustandversiooni kasutamiseks peate ER-vormingu selgelt märgistama.
 

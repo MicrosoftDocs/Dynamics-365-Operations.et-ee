@@ -2,27 +2,25 @@
 title: Spikrisüsteem (sisaldab videot)
 description: See artikkel annab ülevaate finantside ja toimingute rakenduste spikrisüsteemist.
 author: edupont04
-ms.date: 07/20/2021
+ms.date: 08/16/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
-ms.search.form: SystemParameters
 audience: Application User, Developer, IT Pro
-ms.reviewer: tfehr
-ms.custom:
-- "16381"
-- intro-internal
-ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
+ms.reviewer: edupont
 ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 57c17cab920c531b3eb125260064d01dd8662576
-ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
+ms.custom: 16381,  ""intro-internal
+ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
+ms.search.form: SystemParameters
+ms.openlocfilehash: f9095db85e38598ac03b4c77c3fa3be9f450ec02
+ms.sourcegitcommit: 78d41eeef0a8a8e94ed502bd89778414231a31ae
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "9124190"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "9305220"
 ---
 # <a name="help-system"></a>Spikrisüsteem
 
@@ -58,7 +56,7 @@ RAKENDUSES JA operatsioonide rakendustes sisule docs.microsoft.com uuenduste tel
 [RSS-kanal](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-finops%27)&locale=en-us)
 
 > [!NOTE]
-> RSS-kanal tagastab hiljuti uuendatud 100 teema loendi. Loend ei sordita kuupäeva järgi.  
+> RSS-kanal tagastab hiljuti uuendatud 100 teema loendi. Loend sorditakse kuupäeva järgi, kuid selleks võib aega võtta kuni nädal aega, enne kui viimati uuendatud artiklid seda loendisse teevad.  
 
 Teise võimalusena saate tellida RSS-voo rakenduse järgi:
 

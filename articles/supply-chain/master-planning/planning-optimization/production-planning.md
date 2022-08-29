@@ -2,7 +2,7 @@
 title: Tootmise planeerimine
 description: See artikkel kirjeldab tootmise planeerimist ja selgitab plaanitud tootmistellimuste muutmise plaanimise optimeerimise abil.
 author: t-benebo
-ms.date: 06/01/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-12-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 151aa3688c570ea6ec282c297ed18288dd886131
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5c8169a8d2c3e45304142fb6b4d504e620c545a4
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873778"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335251"
 ---
 # <a name="production-planning"></a>Tootmise planeerimine
 
@@ -26,9 +26,9 @@ Planning Optimization toetab mitut tootmisstsenaariumi. Kui migreerite olemasole
 
 Järgmises videos antakse lühike sissejuhatus mõnedele selles artiklis nimetatud mõistetele: optimeerimise [Dynamics 365 Supply Chain Management optimeerimise täiustuste planeerimine](https://youtu.be/u1pcmZuZBTw).
 
-## <a name="turn-on-this-feature-for-your-system"></a>Selle funktsiooni sisselülitamine teie süsteemi jaoks
+## <a name="turn-this-feature-on-or-off-for-your-system"></a>Lülitage see funktsioon süsteemi sisse või välja
 
-Kui teie süsteem ei kaasa juba selles artiklis kirjeldatud funktsioone, [minge](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) funktsioonihalduse ja lülitage *sisse planeeritud tootmistellimused planeerimise optimeerimise funktsiooni* jaoks.
+Selle funktsiooni kasutamiseks peab see olema teie süsteemi jaoks sisse lülitatud. Tarneahela halduse versiooni 10.0.29 puhul on see funktsioon kohustuslik ja seda ei saa välja lülitada. Kui käitate versiooni, mis *on*[vanem kui 10.0.29, saavad administraatorid selle funktsiooni sisse või välja lülitada, otsides funktsioonihalduse tööruumist plaanimise optimeerimise funktsiooni plaanitud tootmistellimused.](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
 
 ## <a name="planned-production-orders"></a>Plaanitud tootmistellimused
 

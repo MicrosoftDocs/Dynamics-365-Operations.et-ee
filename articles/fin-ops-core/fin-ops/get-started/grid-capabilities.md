@@ -2,7 +2,7 @@
 title: Ruudustiku võimalused
 description: See artikkel kirjeldab mitut ruudustiku juhtelemendi võimast funktsiooni. Nende võimaluste kasutamiseks peate lubama uue ruudustiku funktsiooni.
 author: jasongre
-ms.date: 04/25/2022
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,20 +13,21 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 07791afb2de670a5b9b910e441395c2949460394
-ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
-ms.translationtype: HT
+ms.openlocfilehash: a8968a1263dfafd67b07b4beb78c51493e95756e
+ms.sourcegitcommit: 47534a943f87a9931066e28f5d59323776e6ac65
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "9124706"
+ms.lasthandoff: 08/11/2022
+ms.locfileid: "9258943"
 ---
 # <a name="grid-capabilities"></a>Ruudustiku võimalused
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Uus ruudustiku juhtelement pakub mitmeid kasulikke ja võimsaid võimalusi, mida saate kasutada kasutaja tootlikkuse suurendamiseks, teie andmetest huvitavate vaadete loomiseks ja sisukate ülevaadete hankimiseks andmete jaoks. Selles artiklis tutvustatakse järgmisi võimalusi. 
 
-- Summade arvutamine
+- Arvutatud väärtuste kuvamine 
 - Süsteemist eespool tippimine
 - Matemaatiliste avaldiste hindamine 
 - Tabeldusandmete grupeerimine (lubatud eraldi, kasutades grupeerimist **ruudustikes**)
@@ -34,47 +35,60 @@ Uus ruudustiku juhtelement pakub mitmeid kasulikke ja võimsaid võimalusi, mida
 - Veeru laiuse automaatkorrekteerimine
 - Venitatavad veerud
 
-## <a name="calculating-totals"></a>Summade arvutamine
-Finantside ja toimingute rakendustes on kasutajatel võimalus näha kogusummasid ruudustike numbriveergude all. Ruudustiku allosas olev jaluse jaotis näitab neid kogusummasid. 
+## <a name="showing-calculated-values"></a>Arvutatud väärtuste kuvamine
+Finantside ja toimingute rakendustes saavad kasutajad vaadata arvutatud väärtust iga numbriveeru kohta ruudustikus. Neid arvutatud väärtusi näitab jaluse sektsioon ruudustiku allosas.
+
+[![Kuvatakse arvutatud väärtused ruudustikes.](./media/grids-aggregation.png)](./media/grids-aggregation.png)
+
+Versioonides enne 10.0.29 on arvutatud väärtus kokku ainus toetatud. Versiooni 10.0.29 **puhul** saavad kasutajad pärast laiendatud ruudustiku liitmise funktsiooni lubamist valida järgmise nelja arvutatud väärtuse seast:
+
+- Miinimum
+- Maksimum
+- Kokku
+- Keskmine
+
+Üks veerg saab näidata ainult üht tüüpi arvutatud väärtust. Kuid iga tabeli veergu saab konfigureerida nii, et see näitaks erinevat tüüpi arvutatud väärtust.
 
 ### <a name="showing-the-grid-footer"></a>Ruudustiku jaluse kuvamine
 Finantside ja operatsioonide rakenduste iga vahekaardi allosas on jaluse ala. Jalus näitab olulist teavet, mis on seotud ruudustikus kuvatavate andmetega. Siin on mõned näited sellest teabest.
 
 - Valitud ridade arv tabelis (kui valite rohkem kui ühe kirje)
-- Konfigureeritud arvveergude allosas olevad kogusummad
+- Arvutatud väärtused konfigureeritud veergude allosas, numbrilised veerud (nt kogusummad)
 - Andmekogumi ridade arv 
 
 See jalus on vaikimisi peidetud, kuid saate selle sisse lülitada. Ruudustiku jaluse kuvamiseks paremklõpsake **ruudustiku valikute** nuppu ruudustiku päises ja valige suvand **Kuva jalus**. Kui olete konkreetse ruudustiku jaluse sisse lülitanud, peetakse see seadistus meeles, kuni kasutaja otsustab jaluse peita. Jaluse peitmiseks valige suvand **Peida jalus** **Ruudustiku valikute** menüüs.
 
-### <a name="specifying-columns-with-totals"></a>Veergude määramine kogusummade abil
-Praegu ei kuva ükski veerg kogusummat vaikimisi. Selle asemel loetakse seda ühekordse häälestuse toiminguks, mis on sarnane veergude laiuste kohandamisega ruudustikes. Kui olete määranud, et soovite näha veeru kogusummasid, kuvatakse teile seda sätet järgmisel lehekülastusel.
+### <a name="specifying-columns-with-calculated-values"></a>Arvutatud väärtustega veergude määramine
+Praegu ei näita ükski veerg arvutatud väärtusi vaikimisi. Selle asemel peetakse seadistust üheks tegevuseks, nagu näiteks veergude laiuste korrigeerimine ruudustikes. Pärast seda, kui olete määranud, et soovite vaadata veeru arvutatud väärtust, jääb see säte alles järgmisel lehel käies.
 
-Veeru konfigureerimiseks kogusumma kuvamiseks on kaks võimalust. 
+Arvutatud väärtuse näitamiseks veeru konfigureerimiseks on kaks viisi:
 
-- Paremklõpsake veergu, mille kogusummat soovite näha, ja valige seejärel suvand **Selle veeru kogusumma**. See tegevus põhjustab kolme sündmuse toimumist.
+- Valige ja hoidke all (või paremklõpsake) veerus, mille arvutatud väärtust soovite vaadata. Kui laiendatud **ruudustiku liitmise võimaluse** funktsioon on lubatud, valige **suvand Kuva** veeru kogusummad ja seejärel valige soovitud arvutatud väärtus. Kui see funktsioon pole lubatud, valige suvand **Summeeri see veerg**. See tegevus põhjustab kolme sündmuse toimumist.
 
-    1. Jalus muutub nähtavaks. 
-    2. Teie eelistus selle veeru kogusumma nägemiseks salvestatakse. 
-    3. Käivitatakse kogusummade arvutus selle veeru ja mis tahes teiste veergude jaoks, mille kogusummad konfigureerisite. Kogusumma kuvamiseks vajalik aeg sõltub andmekogumi suurusest, mille summeerite.
+    1. Ruudustiku jalus muutub nähtavaks. 
+    2. Teie eelistus veeru arvutatud väärtuse vaatamiseks on salvestatud. 
+    3. Soovitud arvutus käivitatakse veeru ja teiste eelnevalt konfigureeritud arvutatud väärtuse kuvamiseks konfigureeritud veergude puhul. Arvutatud väärtuste näitamiseks vajalik aeg sõltub andmekomplekti mahust.
 
-- Kui jalus on nähtav, valige veeru, mille kogusummat soovite näha, allosas jaluse alas suvandit **Kuva kogusumma**. Kui konfigureeritud veerge pole, on kõigi arvveergude jaoks saadaval nupp **Kuva kogusumma**. 
+- Kui jalus on nähtaval, valige kokkuvõtte kuvamine (**·** **või valige arvutatud väärtus, kui laiendatud ruudustiku liitmise funktsioon on lubatud) veeru allosas jaluse alas**, **mille** kohta soovite arvutatud väärtust vaadata. Kui konfigureeritud veerge pole, on see nupp saadaval kõigi numbriveergude jaluses.
 
-    Pärast seda, kui vähemalt üks veerg on kogusummade jaoks konfigureeritud, on nupud **Kuva kogusumma** saadaval ainult hõljumisel või fookustamisel. Suvandi **Kuva kogusumma** valimise tegevus ainult salvestab teie eelistused selle veeru kogusumma nägemiseks, nii et eelistus rakendatakse lehe tulevaste külastuste ajal. Jaluses näitab seda olekut veerus ilmuv kriips. (Teie võimalusena kui andmekomplekt on piisavalt väike, kuvatakse kogusumma kohe.)
+    Kui arvutatud väärtuse näitamiseks on konfigureeritud vähemalt üks veerg, **on** nupp Kuva kogusumma (**või** Vali arvutatud väärtus) saadaval ainult hoveris või fookuses. Nupu valimise toiming salvestab teie eelistuse arvutatud väärtuse vaatamiseks veerus, nii et eelistust rakendatakse tulevastele leheküljekülastustele. Jaluses näitab seda olekut veerus ilmuv kriips. (Pange tähele, et arvutatud väärtus ilmub kohe, kui andmekogum on piisavalt väike.)
 
-Kui teete vea ega soovi enam kogusummat kindlas veerus näha, paremklõpsake veergu ja valige käsk **Peida kogusumma** või selle veeru jaluses nupp **Peida kogusumma**. See eelistus salvestatakse ka tulevastele lehekülastuste jaoks. 
+Kui teete vea ja ei soovi enam konkreetses **veerus arvutatud väärtust vaadata, valige ja hoidke all (või paremklõpsake)** veerus ja seejärel valige suvand Peida **kogusumma (või \> kuva veeru kogusummad Pole, kui** **laiendatud** ruudustiku liitmise funktsioon on lubatud). Teise võimalusena valige **selle veeru jaluses** **suvand Peida kogusumma** (või Peida arvutatud väärtus). See eelistus salvestatakse ka tulevastele lehekülastuste jaoks. 
 
-### <a name="calculating-totals"></a>Summade arvutamine
-Kui avate lehe, mille jalus on nähtav ja veerud on kogusummade jaoks juba konfigureeritud, võivad kogusummad olla jaluses kuvatud, kuid see ei pruugi nii olla. Käitumine oleneb leheküljel oleva andmekogumi suurusest. Kui andmekogum on piisavalt väike, kuvatakse kogusummad automaatselt koos andmekogumi ridade arvuga. Kui kogusummade jaoks konfigureeritud veergude all jaluses on kriipsud, siis on andmekogum süsteemi jaoks liiga suur, et kogusummasid kohe kuvada. Seetõttu on kogusummade arvutamiseks vaja selget toimingut. Selleks klõpsake jaluses nuppu **Arvuta** või paremklõpsake veerul, mida soovite kokku arvutada, ja valige käsk **Selle veeru kogusumma**.
+### <a name="calculating-aggregate-values"></a>Kokkuvõtteväärtuste arvutamine
+Kui te lähete leheküljele, kus jalus on nähtaval ja veerud on juba konfigureeritud arvutatud väärtusi kuvama, ei pruugi need väärtused jaluses näha. Käitumine sõltub leheküljel oleva andmekomplekti mahust. Kui andmekogum on piisavalt väike, kuvatakse arvutatud väärtused automaatselt koos andmekomplekti ridade arvuga. Kui teie konfigureeritud veergude all on jaluses mõttekriipsud, on andmekomplekti väärtus süsteemi jaoks liiga suur, et arvutatud väärtusi kohe näidata. Sellisel juhul on väärtuste arvutamiseks vajalik selgesõnaline tegevus. Väärtuste arvutamiseks klõpsake jaluses **nuppu** Arvuta. Teise võimalusena valige ja hoidke all (või paremklõpsake) veerus, mille kogusummasid soovite vaadata ja **seejärel** valige suvand Summeeri see veerg (**või** Kuva veeru kogusummad ja seejärel **soovitud** arvutatud väärtus, kui laiendatud ruudustiku liitmise funktsioon on lubatud).
 
-Kui arvutuse lõpuleviimiseks kulub palju aega, saate toimingu tühistada, klõpsates nuppu **Tühista**. Mõnikord on andmekogumi kogusummade arvutamiseks liiga suur (teie organisatsiooni kehtestatud piirang) ja teid teavitatakse hoopis andmete rohkem filtreerimiseks. 
+Kui arvutuse läbimine võtab kaua aega, saate operatsiooni igal ajal tühistada, kui valite **Tühista**. Mõnikord on andmekogumid liiga suured, et arvutada koondväärtusi (teie organisatsiooni kehtestatud limiit). Sel juhul teavitatakse teid hoopis, et andmeid rohkem filtreerida.
 
 > [!NOTE]
-> Süsteemihaldused **saavad** **muuta** kogusummade arvutamiseks saada oleva kirjete arvu limiiti, kohandades kliendi jõudluse suvandite lehel iga ruudustiku parameetri kohalike kirjete maksimaalset arvu. Vaikeväärtus on 25 000 kirjet. Administraatorid peaksid selle väärtuse korrigeerimisel olema ettevaatlik, kuna liiga suur väärtus võib kasutajale saadaoleva mälu vormindada. Soovitus ei tohi ületada 50 000 kirjet.   
+> Süsteemiadministraatorid **saavad** **muuta** kokkuvõtte arvutamiseks saadaoleva kirjete arvu limiiti, kohandades igale kliendi jõudluse suvandite lehel olevale ruudustiku parameetrile kohalike kirjete maksimaalset arvu. Vaikeväärtus on 25 000 kirjet. Administraatorid peaksid seda väärtust korrigeerides olema ettevaatlik, sest liiga suur väärtus võib kasutajale saadaoleva mälu oma arvutisse lisada. Soovitame, et väärtus ei ületaks 50 000 kirjet.
 
-Kogusummasid värskendatakse automaatselt, kui uuendate, kustutate või loote andmekogumi ridu.
+Arvutatud väärtused uuendatakse andmekomplekti ridade uuendamisel, kustutamisel või loomisel automaatselt.
 
 ## <a name="typing-ahead-of-the-system"></a>Süsteemist eespool tippimine
-Paljudes äriolukordades on väga oluline, et andmed sisestataks kiiresti süsteemi. Enne uue ruudustiku juhtelemendi kasutuselevõttu said kasutajad muuta andmeid ainult praeguses reas. Enne uue rea loomist või teise rea avamist pidid nad ootama, kuni süsteem kõik muudatused edukalt kinnitas. Selleks et vähendada aega, mil kasutajad ootavad kinnituste lõpule viimist, ja parandada kasutajate tootlikkust, kohandab uus ruudustik neid kinnitusi asünkroonselt. Seetõttu saab kasutaja avada muudatuste tegemiseks teisi ridu, samal ajal kui eelmise rea muudatused on veel ootel. 
+Paljudes äriolukordades on väga oluline, et andmed sisestataks kiiresti süsteemi. Enne uue ruudustiku juhtelemendi sissejuhatust saavad kasutajad muuta andmeid ainult praegusel real. Seetõttu ei saanud kasutajad pärast reas muudatuste tegemist lülituda ümber teise reale ega luua uut rida enne, kui süsteem on praeguses reas tehtud muudatused edukalt kinnitanud ja (rea loomise puhul) käivitanud kogu loogika, mis on seotud uue rea loomisega. Selleks, et aidata vähendada kasutajate poolt nende toimingute lõpuleviidud ootamise aega ja aidata kasutaja tööviljakust parandada, kohandab uus ruudustik neid tegevusi asünkroonseks. Kasutajad saavad luua uusi ridu või teisaldada neid teistele ridadele, et teha muudatusi, kui eelmised rea kinnitamised ja rea loomise loogika on ootel. 
+
+[![Süsteemist ees tippimine.](./media/gridFastEntry-07-25-2022.gif)](./media/gridFastEntry-07-25-2022.gif)
 
 Selle uue funktsiooni toetamiseks on rea valimise veeru paremasse osasse lisatud uus veerg, kui ruudustik on redigeerimisrežiimis. See veerg näitab üht järgmistest olekutest.
 
@@ -83,7 +97,11 @@ Selle uue funktsiooni toetamiseks on rea valimise veeru paremasse osasse lisatud
 - **Kehtetu olek** – see olek näitab, et rea töötlemine käivitas mingisuguse hoiatuse või teate ja see võis takistada süsteemil selle rea muudatuste salvestamist. Kui salvestamistoiming nurjus, siis suunati teid vanas ruudustikus tagasi rea juurde, et probleem kohe lahendada. Uues ruudustikus aga teavitatakse teid kinnitamisprobleemist, kuid te saate otsustada, millal soovite rea probleeme parandada. Kui olete valmis probleemi lahendama, saate fookuse käsitsi tagasi reale viia. Teise võimalusena saate valida toimingu **Probleemi lahendamine**. See tegevus viib kohe fookuse tagasi probleemsele reale ja võimaldab teil teha muudatusi ruudustiku sees või väljaspool seda. Pange tähele, et järgnevate ootel ridade töötlemine peatatakse seni, kuni see kinnitamise hoiatus on lahendatud. 
 - **Peatatud** – see olek näitab, et serveris on töötlemine peatatud, kuna rea kinnitamine käivitas hüpikdialoogiboksi, mis nõuab kasutaja tähelepanu. Kuna kasutaja võib olla sisestamas andmeid mõnele muule reale, ei kuvata kasutajale hüpikdialoogiboksi kohe. Selle asemel kuvatakse see siis, kui kasutaja valib töötlemise jätkamise. Olekule on lisatud teatis, milles teavitatakse kasutajat olukorrast. Teatis sisaldab tegevust **Jätka töötlemist**, mis käivitab hüpikdialoogiboksi.
 
-Kui kasutajad sisestavad andmeid kohas, kuhu serveritöötlus pole veel jõudnud, võib nende andmesisestuskogemus olla halvem, näiteks puuduvad otsingud, kontrolli tasemel kinnitamine ja vaikeväärtuste sisestamine. Kasutajatel, kellel on väärtuse leidmiseks vaja ripploendit, soovitatakse oodata, kuni server jõuab praegusele reale. Kontrolli tasemel kinnitamist ja vaikeväärtuste sisestamist saab samuti teha, kui server töötleb seda rida.
+### <a name="differences-when-entering-data-ahead-of-the-system"></a>Erinevused süsteemist ette andmete sisestamisel
+Kui sisestate andmed enne süsteemi töötlemist, võite andmesisestuskogemuses oodata mõnda muudatust.
+
+- Te märkate, et puuduvad otsingu ripploendid, väljaväärtusi ei kontrollita pärast sama rea teise veergu teisaldamist ja veergudel ei näidata algselt vaikeväärtusi. Selline käitumine ilmneb siis, kui loote või värskendate süsteemist ees. Kuid pärast seda, kui süsteem asub kohani, kus te praegu redigeerite, jätkub standardne kogemus. Kui tegite muudatusi väljale, mis tavaliselt võtab vastu vaikeväärtuse, alistavad teie muudatused välja vaikeväärtuse, kui server hakkab rida töötlema.
+- Kui loote allanooleklahvi abil uue **rea**, kuvatakse kõik ruudustiku veerud redigeeritavaks. Vaikimisi seatakse fookus uue rea esimesse veergu. See veerg ei pruugi olla sama veerg, mis sai algse fookuse pärandruudustikus või sama veerg, mis saab fookuse pärast nupu **Uus** klõpsamist. Teie organisatsioon saab kohandada süsteemi ja muuta veergu, mis võtab vastu algse fookuse, kui **on valitud alla-noole** võti. Lisateavet vt jaotisest Veeru määramine, [mis võtab vastu algse fookuse uute ridade loomisel, kasutades alla-noole klahvi jaotist](#developer-specifying-the-column-that-receives-the-initial-focus-when-new-rows-are-created-by-using-the-down-arrow-key). Sõltumata sellest, saate kasutada isikupärastamist iga andmesisestusruudustiku optimeerimiseks. Konkreetselt saate ümber tellida välju nii, et esimene veerg on veerg, kuhu soovite andmeid sisestada. Te soovite võib-olla ka üldises andmesisestuses välju ümber tellida, et vähendada vahekaartide peatusi ja peita väljad, mis ei ole selles vaates andmesisestuses nõutavad.
 
 ### <a name="pasting-from-excel"></a>Kleepimine Excelist
 Kasutajatel on alati olnud võimalik finantside ja toimingute rakenduste ruudustike andmeid Microsoft Excel eksportida, **kasutades Excelisse eksportimise mehhanismi**. Kuid võimalus sisestada andmeid süsteemist ette võimaldab uuel ruudustikul toetada tabelite kopeerimist Excelist ja nende otse finantside ja toimingute rakenduste ruudustikke. Ruudustiku lahter, millelt kleepimistoimingut alustati, määrab, kuhu kopeeritud tabel kleebitakse. Ruudustiku sisu kirjutatakse kopeeritud tabeli sisuga üle, välja arvatud kahel järgmisel juhul.
@@ -94,17 +112,23 @@ Kasutajatel on alati olnud võimalik finantside ja toimingute rakenduste ruudust
 ## <a name="evaluating-math-expressions"></a>Matemaatiliste avaldiste hindamine
 Tootlikkuse tõstmiseks saavad kasutajad sisestada ruudustiku numbrilahtritesse matemaatilisi valemeid. Nad ei pea tegema arvutust süsteemivälises rakenduses. Näiteks kui sisestate **=15\*4** ja vajutate siis väljalt välja liikumiseks **tabeldusklahvi**, hindab süsteem avaldist ja salvestab välja jaoks väärtuse **60**.
 
+[![oma avaldiste hindamine;](./media/gridMathExpression-07-25-2022.gif)](./media/gridMathExpression-07-25-2022.gif)
+
 Selleks et süsteem tuvastaks avaldise väärtuse, käivitage väärtus võrdusmärgiga (**=**). Lisateavet toetatud tehtemärkide ja süntaksi kohta vt teemast [Toetatud matemaatilised sümbolid](http://bugwheels94.github.io/math-expression-evaluator/#supported-maths-symbols).
 
+Versiooni 10.0.29 kohaselt on võimalus hinnata numbrilistes juhtelementides avaldisi ja on nüüd saadaval ka väljaspool ruudustikku.
+
 ## <a name="grouping-tabular-data"></a>Tabeli andmete grupeerimine
-Ärikasutajatel on sageli vaja teha andmete ad-hoc-analüüsi. Ehkki seda Microsoft Excel saab teha andmete eksportimisel liigendtabelisse ja kasutades seda, **võimaldab grupeerimine ruudustikes funktsioon, mis sõltub uuest ruudustiku juhtelemendi funktsioonist, võimaldab kasutajatel organiseerida oma tabelandmeid huvitavatel viisidel finantside ja toimingute rakenduste piires**. Kuna see funktsioon laiendab funktsiooni **Kogusummad**, võimaldab **Rühmitamine** teil saada ka sisukaid ülevaateid oma andmetest, pakkudes vahesummasid grupi tasandil.
+Ärikasutajad peavad sageli tegema andmete sihtanalüüsi. Kuigi seda analüüsi Microsoft Excel saab teha andmete eksportimisel liigendtabelitabelisse ja kasutades seda, **võimaldab grupeerimine ruudustikes funktsioon, mis sõltub uuest ruudustiku juhtelemendi funktsioonist, võimaldab kasutajatel organiseerida oma tabeldusandmeid huvitavatel viisidel finantside ja toimingute rakenduste piires**. Kuna see funktsioon laiendab **arvutatud** väärtuste funktsiooni, **võimaldab** grupeerimine saada otstarbekaid vihjeid andmete kohta, pakkudes grupi tasemel arvutatud väärtusi (nt vahesummasid).
+
+[![Grupeerimisandmed ruudustikus.](./media/grids-groupingWithTotals.png)](./media/grids-groupingWithTotals.png)
 
 Selle funktsiooni kasutamiseks paremklõpsake veergu, mille alusel soovite rühmitada, ja valige käsk **Rühmita selle veeru järgi**. See tegevus sordib andmed valitud veeru alusel, lisab uue veeru **Rühmitamisalus** ruudustiku algusse ja lisab iga grupi algusesse päise read. Need päise read annavad iga grupi kohta järgmist teavet.
 
 - Grupi andmete väärtus 
 - Veeru nimi (see teave on eriti kasulik, kui teil on rühmitamise mitu taset.)
 - Selles grupis olevate andmeridade arv
-- Kogusummade kuvamiseks konfigureeritud veergude vahesummad
+- Arvutatud väärtused mis tahes konfigureeritud veeru jaoks (nt vahesummad, kui veerg on konfigureeritud kuvama kogusummat)
 
 Kui [salvestatud](saved-views.md) vaated on lubatud, saate grupeerimise salvestada osana lehtede vaatest, mis võimaldab päringuid vaadetesse salvestada. Näiteks suure vaatevalijatega. Lisateavet vt [jaotisest Vaadete](saved-views.md#switching-between-views) vahetamine. 
 
@@ -116,10 +140,7 @@ Saate igal ajal teisaldada rühmitamise mis tahes veerule paremklõpsates seda v
 ### <a name="sorting-grouped-data"></a>Grupeeritud andmete sortimine
 Pärast andmete grupeerimist ühe või mitme veeru järgi saate vastava veerupäise kaudu muuta mis tahes grupeerimisveeru sortimissuunda. 
 
-Käitumine grupeerimata veergude sortimisel sõltub teie tooteversioonist:
-
-- Versioonis 10.0.24 ja varasemas versioonis, kui sordite mitte grupeeritud veeru järgi, eemaldatakse grupeerimine kõikidelt veergudelt ja andmed sorditakse valitud veeru alusel. 
-- Kui sordite versioonis 10.0.25 ja hiljem grupeerimata veeru järgi, jääb grupeerimine alles ja andmed sorditakse igas grupis valitud veeru alusel.
+Grupeerimata veeru sortimisel jääb grupeerimine alles. Andmed sorditakse igas grupis valitud veeru alusel.
 
 ### <a name="expanding-and-collapsing-groups"></a>Gruppide laiendamine ja ahendamine
 Andmete algsel grupeerimisel on kõik grupid laiendatud. Andmete summeeritud vaateid saate luua üksikute rühmade ahendamise abil või kasutada andmete navigeerimisel grupi laiendamist ja ahendamist. Grupi laiendamiseks või ahendamiseks valige vastava grupi päisereal nupp Rööpnool (>). Pange tähele, et üksikute gruppide laiendamis-/ahendamisolek on **pole** salvestatud isikupärastamise võimalustes.
@@ -131,10 +152,15 @@ Samamoodi nagu ruudustiku kõigi ridade valimiseks (või valiku tühistamiseks) 
 Andmete grupeerimisel kuvatakse veeru nimi grupi päisereal vaikimisi. Te saate veeru nime grupi päiseridades peita, valides **Ruudustiku suvandid** > **Peida grupi veeru nimi**.
 
 ### <a name="grouping-on-date-and-time-columns"></a>Grupeerimine kuupäeva ja kellaaja veergudel
-Versiooni 10.0.24 puhul on väljade Date või DateTime suvand lisatud grupeerimiseks aasta, kuu või päeva järgi. Vastava päiserea grupp "väärtus" vastab selle välja vormingule. Lisaks saate väljade DateTime ja Time puhul grupeerida tunni, minuti või teise järgi. 
+Kui grupeerite väljadel Kuupäev või Kuupäev/kellaaeg, saate grupeerida aasta, kuu või päeva järgi. Vastava päiserea grupp "väärtus" vastab selle välja vormingule. Lisaks saate väljade DateTime ja Time puhul grupeerida tunni, minuti või teise järgi.
+
+> [!IMPORTANT]
+> Kasutajad ei saa praegu grupeerimisveeru pärast kuupäeva- või kellaajaveeru segmendile grupeerimist lisada.
 
 ## <a name="freezing-columns"></a>Veergude külmutamine
 Mõned ruudustiku veerud võivad olla piisavalt olulised konteksti jaoks, et te ei soovi neid vaatest välja kerida. Selle asemel võite soovida, et väärtused nendes veergudes oleks alati nähtavad. Ruudustiku **külmutamise veergude funktsioon** pakub kasutajatele paindlikkust. 
+
+[![Veergude külmutamine ruudustikus.](./media/gridFreezingColumns-07-25-2022.gif)](./media/gridFreezingColumns-07-25-2022.gif)
 
 Veeru külmutamiseks paremklõpsake veeru päist ja valige seejärel suvand **Külmuta veerg**. Selle sammu esmakordsel lõpuleviimisel muutub valitud veerg esimeseks veeruks ja ei keri enam vaatest välja. Kõik järgmised külmutatud veerud lisatakse viimasest külmutatud veerust paremale. Saate külmutatud veergude järjestuse vastavalt vajadusele muutmiseks kasutada tavalist liigutamise funktsiooni. Samas ei saa külmutatud veerge liigutada nii, et need ilmuksid külmutamata veergude hulgas. Sarnaselt ei saa külmutamata veerge liigutada nii, et need ilmuksid külmutatud veergude hulgas.
 
@@ -143,21 +169,21 @@ Veeru külmutamisest vabastamiseks paremklõpsake külmutatud veeru päist ja va
 Pange tähele, et uue ruudustiku rea valiku ja rea oleku veerud on esimeses kahes veerus alati külmutatud. Kui need veerud on ruudustikku kaasatud, on nad seetõttu alati kasutajatele nähtavad hoolimata ruudustiku horisontaalsest kerimisasukohast. Nende kahe veeru järjestust ei saa muuta.
 
 ## <a name="autofit-column-width"></a>Veeru laiuse automaatkorrekteerimine
-Sarnaselt Excel`iga saavad kasutajad automaatselt veeru suurust muuta, võttes aluseks selles veerus praegu kuvatud sisu. Selleks topeltklõpsake veeru suuruse muutmise pidemeid või asetage fookus veeru päisesse ja vajutage nuppu **A** (automaatseks korrektsiooniks). See võimalus on saadaval alates versioonist 10.0.23.
+Nagu Excelis, saavad kasutajad muuta veeru suurust automaatselt, võttes aluseks praegu kuvatud sisu. Topeltklõpsake (või topeltklõpsake) veerus soovitud suuruse muutmise pidemeid. Teise võimalusena asetage fookus veeru päisesse ja seejärel valige **A-võti** (automaatseks tarbeks).
 
 ## <a name="frequently-asked-questions"></a>Korduma kippuvad küsimused
 ### <a name="how-do-i-enable-the-new-grid-control-in-my-environment"></a>Kuidas lubada uut ruudustiku juhtelementi oma keskkonnas? 
 
 Funktsioon **Uus ruudustiku juhtelement** on kõikides keskkondades saadaval otse funktsioonihalduses. Pärast funktsioonihalduse funktsiooni lubamist kasutavad kõik järgnevad kasutajaseansid uut ruudustiku juhtelementi. 
 
-See funktsioon lubatakse vaikimisi versioonis 10.0.21 ja selle eesmärk on muutuda kohustuslikuks oktoober 2022.  
+See funktsioon algas vaikimisi versioonis 10.0.21. See on mõeldud kohustuslikuks muutumist 2022. aasta oktoobers.
 
 ## <a name="developer-opting-out-individual-pages-from-using-the-new-grid"></a>[Arendajatele] Üksikutelt lehtedelt ruudustiku eemaldamine 
 Kui teie organisatsioon avastab lehekülje, millel on uue ruudustiku kasutamisega probleeme, saate kasutada API-t, et lubada üksikul vormil kasutada ruudustiku pärandjuhtelementi ja samas lubada ülejäänud süsteemil kasutada uut ruudustiku juhtelementi. Et eemaldada ruudustik üksikult lehelt, lisage kutse `super()` vormi meetodile `run()`.
 
 ```this.forceLegacyGrid();```
 
-See API tasutakse seni, kuni uus ruudustiku juhtelement muutub kohustuslikuks. See muudatus on praegu mõeldud oktoober 2022. Kui mõne probleemi korral on vaja kasutada seda API-d, teatage sellest Microsoftile.
+Pärandruudustiku juhtelemendi eemaldamiseks on API lõpuks mittetaunitav. Kuid see jääb alles vähemalt 12 kuuks pärast selle amortiseerumist. Kui mõne probleemi korral on vaja kasutada seda API-d, teatage sellest Microsoftile.
 
 ### <a name="forcing-a-page-to-use-the-new-grid-after-previously-opting-out-the-grid"></a>Lehe sundimine kasutama uut ruudustikku pärast ruudustikust varem loobumist
 Kui olete uue ruudustiku kasutamisest loobunud, võite soovida hiljem uue ruudustiku uuesti lubada pärast põhiprobleemide lahendamist. Selleks peate lihtsalt eemaldama kutse üksusesse `forceLegacyGrid()`. Muudatus ei jõustub enne, kui toimub üks järgmisest:
@@ -181,6 +207,11 @@ Kui asünkroonne rea kinnitamine on ruudustikus keelatud, ei saa kasutajad uut r
 ## <a name="developer-size-to-available-width-columns"></a>[Arendajale] Saadaoleva laiusega veerud
 Kui arendaja seab uue ruudustiku veergude puhul atribuudi **WidthMode** väärtuseks **SizeToAvailable**, on neil veergudel esialgu sama laius, mis neil oleks siis, kui atribuudi väärtuseks oleks seatud **SizeToContent**. Sellest hoolimata venitatakse neid, et kasutada ruudustikus saadaolevat lisalaiust. Kui atribuudi väärtuseks on seatud **SizeToAvailable** mitme veeru puhul, jagavad kõik need veerud ruudustikus saadaolevat lisalaiust. Kui kasutaja muudab ühe sellise veeru suurust aga käsitsi, muutub veerg staatiliseks. Selle laius jääb samaks ja seda ei venitata, et kasutada ruudustikus saadaolevat lisalaiust.
 
+## <a name="developer-specifying-the-column-that-receives-the-initial-focus-when-new-rows-are-created-by-using-the-down-arrow-key"></a>[Arendaja] Veeru määramine, mis võtab vastu algse fookuse uute ridade loomisel alla-noole klahviga
+[Nagu](#differences-when-entering-data-ahead-of-the-system) on süsteemijaost ees andmeid sisestades esitatud erinevustes, siis kui võimalus "Süsteemist ette tippimine" **on** lubatud ja kasutaja loob allanooleklahvi abil uue rea, on vaikekäitumine panna fookus uue rea esimesse veergu. See kogemus võib erineda pärandruudustiku kogemusest või kui **valitakse** nupp Uus.
+
+Kasutajad ja organisatsioonid saavad luua andmesisestustele optimeeritud salvestatud vaateid. (Näiteks saate veerge ümber järjestada nii, et esimene veerg on see, kuhu soovite andmeid sisestada.) Lisaks saab organisatsioonid versiooni 10.0.29 **kohaselt seda käitumist korrigeerida meetodiga selectedControlOnCreate(**). See meetod võimaldab arendajal määrata veeru, mis peaks saama algse fookuse uue rea loomisel alla-noole **klahvi** abil. Sisendina võtab see API juhtelemendi ID, mis vastab veerule, mis peaks vastu võtma algse fookuse.
+
 ## <a name="known-issues"></a>Teadaolevad probleemid
 See jaotis sisaldab uue ruudustiku juhtelemendi teadaolevate probleemide loendit.
 
@@ -194,10 +225,6 @@ See jaotis sisaldab uue ruudustiku juhtelemendi teadaolevate probleemide loendit
     Kui kasutaja seisab ühega neist olukordadest esimest korda silmitsi, kuvatakse teade lehe värskendamise kohta. Pärast selle teate kuvamist jätkab leht olemasoleva ruudustiku kasutamist kõigi kasutajate puhul kuni järgmise tooteversiooni värskenduseni. Nende stsenaariumide paremat käsitlemist, et uut ruudustikku saaks kasutada, kaalutakse tulevases värskenduses.
 
 - [KB 4582758] Kirjed on udused, kui muudate suumi 100 pealt mis tahes teisele protsendile
-- [KB 4592012] Ootamatu kliendi tõrge IE11-s mitme rea kleepimisel Excelist
-
-    Microsoft ei oma probleemile parandust
-
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
 

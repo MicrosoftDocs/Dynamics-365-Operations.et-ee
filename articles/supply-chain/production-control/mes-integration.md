@@ -2,7 +2,7 @@
 title: Kolmanda osapoole tootmise käivitussüsteemidega integreerimine
 description: See artikkel selgitab, kuidas saate Integreerida Microsofti Dynamics 365 Supply Chain Management kolmanda osapoole tootmise käivitamissüsteemiga (MES).
 author: johanhoffmann
-ms.date: 10/01/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-10-01
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 46f6db3dd9942131b379216e6fffe5551d6c8fc3
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 8629ef2581a114609d14999a3c1fc48b49c988e0
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9068027"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336211"
 ---
 # <a name="integrate-with-third-party-manufacturing-execution-systems"></a>Kolmanda osapoole tootmise käivitussüsteemidega integreerimine
 
@@ -45,9 +45,7 @@ Enne selle funktsiooni kasutamist peab administraator selle teie süsteemis siss
     1. **Litsentsi konfiguratsioonilehel** valige märkeruut **Kellaaeg ja kohalviibimine**.
     1. Lülitage hooldusrežiim välja, nagu on kirjeldatud hooldusrežiimis [.](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md)
 1. Minge süsteemihalduse **tööruumide \> funktsioonihaldusesse \>**.
-1. Lülitage sisse järgmisel viisil loetletud funktsioon (vt ka funktsioonihalduse [ülevaadet](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)):
-    - **Moodul:** *tootmise juhtimine*
-    - **Funktsiooni nimi: tootmise** *käivitamissüsteemi integreerimine*
+1. Kasutage funktsioonihalduse [tööruumi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) tootmise käivitamise süsteemi *integreerimise funktsiooni sisse lülitamiseks*. (Tarneahela halduse versiooni 10.0.29 kohaselt on see funktsioon vaikimisi sisse lülitatud.)
 
 ## <a name="processes-available-for-mes-integration"></a>MES-i integreerimiseks saadaolevad protsessid
 
@@ -158,7 +156,7 @@ Järgnev tabel näitab välju, mida sõnumi jaotise `ReportFinishedLines` iga ri
 
 ### <a name="material-consumption-picking-list-message"></a>Materjalitarbimise (komplekteerimisleht) teade
 
-Materjalitarbimise *(komplekteerimislehe)* teate puhul on `_messageType` väärtus .`ProdProductionOrderPickingList` Järgmine tabel näitab välju, mida see teade toetab.
+Materjalitarbimise *(komplekteerimislehe)* teate puhul on `_messageType` väärtus `ProdProductionOrderPickingList`. Järgmine tabel näitab välju, mida see teade toetab.
 
 | Välja nimi | Olek | Tüüp |
 |---|---|---|

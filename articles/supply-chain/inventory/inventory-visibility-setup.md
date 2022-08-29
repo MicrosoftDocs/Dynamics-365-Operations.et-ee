@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: ce81ed2ed79bfe5c7fff9724e14af150817af11f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 42c2c287e2a813f8bb07ce0c7f21f4224a217946
+ms.sourcegitcommit: f2175fe5e900d39f34167d671aab5074b09cc1b8
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8895695"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "9306050"
 ---
 # <a name="install-and-set-up-inventory-visibility"></a>Inventory Visibility installimine ja häälestamine
 
@@ -43,7 +43,7 @@ Kui teil on küsimusi nende eeltingimuste kohta, võtke ühendust varude nähtav
 
 ## <a name="install-the-inventory-visibility-add-in"></a><a name="install-add-in"></a>Varude nähtavuse lisandmooduli installimine
 
-Enne lisandmooduli installimist registreerige rakendus ja lisage kliendi saladus kataloogi Azure Active Directory (Azure AD) oma Azure tellimuse alla. Juhised leiate jaotistest [Rakenduse registreerimine](/azure/active-directory/develop/quickstart-register-app) ja [Kliendi saladuse lisamine](/azure/active-directory/develop/quickstart-register-app#add-a-certificate). Märkige väärtused **Rakenduse (kliendi) ID**, **Kliendi saladus** ja **Rentniku ID** üles, sest neid läheb hiljem vaja.
+Enne lisandmooduli installimist registreerige rakendus ja lisage kliendi saladus kataloogi Azure Active Directory (Azure AD) oma Azure tellimuse alla. Juhised leiate jaotistest [Rakenduse registreerimine](/azure/active-directory/develop/quickstart-register-app) ja [Kliendi saladuse lisamine](/azure/active-directory/develop/quickstart-register-app#add-a-certificate). Tehke kindlasti märge rakenduse **(kliendi) ID**, **·** **kliendi saladuse ja rentnike ID** väärtuste kohta, sest vajate neid hiljem.
 
 > [!IMPORTANT]
 > Kui teil on rohkem kui üks LCS keskkond, looge igaühel Azure AD neist erinev rakendus. Kui kasutate sama rakenduse ID-d ja rentniku ID-d varude nähtavuse lisandmooduli installimiseks erinevates keskkondades, ilmneb loa probleem vanemates keskkondades. Seetõttu kehtib ainult viimane install.
@@ -88,20 +88,6 @@ Pärast rakenduse registreerimist ja Azure AD kliendi saladuse lisamist, järgig
 >
 > 1. Pärast installi lõpule viimist minge tagasi LCS-lehele ja proovige varude **nähtavuse** lisandmoodul uuesti installida.
 
-## <a name="uninstall-the-inventory-visibility-add-in"></a><a name="uninstall-add-in"></a>Varude nähtavuse lisandmooduli desinstallimine
-
-Varude nähtavuse lisandmooduli eemaldamiseks valige LCS-i lehel **Desinstalli**. Desinstallimisprotsess eemaldab varude nähtavuse lisandmooduli, tühistab lisandmooduli registreeringu LCS-t ja kustutab kõik ajutised andmed, mis on salvestatud Varude nähtavuse lisandmooduli andmete vahemällu. Siiski ei kustutata esmaseid varude andmeid, mis on salvestatud teie Dataverse'i tellimusse.
-
-Dataverse'i tellimusse salvestatud varude andmete desinstallimiseks avage [Power Apps](https://make.powerapps.com), valige navigeerimisribal **Keskkond** ja valige see Dataverse'i keskkond, mis on seotud teie LCS-i keskkonnaga. Seejärel avage **Lahendused** ja kustutage järgmised viis lahendust selles järjekorras:
-
-1. Varude nähtavuse rakenduse ankurlahendus Dynamics 365 lahendustes
-1. Dynamics 365 FNO SCM-i Varude nähtavuse rakenduste lahendus
-1. Laoteenuse konfiguratsioon
-1. Eraldiseisev Varude nähtavus
-1. Dynamics 365 FNO SCM-i Varude nähtavuse põhilahendus
-
-Pärast nende lahenduste kustutamist kustutatakse ka tabelites talletatud andmed.
-
 ## <a name="set-up-inventory-visibility-in-supply-chain-management"></a><a name="setup-dynamics-scm"></a>Saate häälestada Inventory Visibility rakenduses Supply Chain Management
 
 ### <a name="deploy-the-inventory-visibility-integration-package"></a><a name="deploy-inventory-visibility-package"></a>Juuruta varude nähtavuse integreerimispakett
@@ -122,7 +108,7 @@ Veenduge, et järgmised funktsioonid on sisse lülitatud teenuse Supply Chain Ma
 
 ### <a name="set-up-inventory-visibility-integration"></a><a name="setup-inventory-visibility-integration"></a>Inventory Visibility integratsiooni seadistamine
 
-Kui olete lisandmooduli installinud, valmistage Supply Chain Management süsteem ette järgmiste sammude abil tööks.
+Kui olete lisandmooduli installinud, valmistage tarneahela haldussüsteem ette järgmiste sammude abil tööks.
 
 1. Rakenduses Supply Chain Management avage **[funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)** tööruum ja lülitage sisse järgmised funktsioonid:
     - *Inventory Visibility integratsioon* - Nõutud.
@@ -135,10 +121,45 @@ Kui olete lisandmooduli installinud, valmistage Supply Chain Management süsteem
 
 1. Kui valitav varude nähtavuse *integratsioon reserveerimise vastasfunktsiooniga* lubatud, avage vahekaart **Reserveerimise vastaskonto** ja tehke järgmised sätted:
     - **Luba reserveerimise vastaskonto** – selle funktsiooni lubamiseks määrake väärtuseks *Jah*.
-    - **Reserveerimise vastaskonto** - Valige laokande olek, mis tasakaalustab varude nähtavuse tehtud reserveerimised. See säte määrab tellimuse töötlemise etapi, mis käivitab vastaskontod. Etappi jälgitakse tellimuse laokande oleku alusel. Valige üks järgmistest:
+    - **Reserveerimise vastaskonto** - Valige laokande olek, mis tasakaalustab varude nähtavuse tehtud reserveerimised. See säte määrab tellimuse töötlemise etapi, mis käivitab vastaskontod. Etappi jälgitakse tellimuse laokande oleku alusel. Valige üks järgmistest valikutest:
         - *Tellimusel* – oleku *Kandel* korral saadab tellimus loomisel vastaskonto taotluse. Vastaskogus on loodud tellimuse kogus.
         - *Reserv* – Oleku *Reservi tellimise kanne* korral saadab tellimus vastaskonto taotluse, kui see on reserveeritud, komplekteeritud, saatelehtedega sisestatud või arveldatud. Taotlus käivitatakse ainult üks kord esimese sammu korral, kui nimetatud protsess aset leiab. Vastaskogus on kogus, mille puhul laokande olek on vastaval tellimusereal muudetud olekuks *Tellitud* või *Tellimusel reserveeritud* (või hilisem olek).
 
 1. Minge **Varude halduse \> Perioodiline \> Varude nähtavuse integratsioon** ja lubage töö. Kõik varude muutmise sündmused teenusest Supply Chain Management sisestatakse nüüd Varude nähtavusse.
+
+## <a name="uninstall-the-inventory-visibility-add-in"></a><a name="uninstall-add-in"></a>Varude nähtavuse lisandmooduli desinstallimine
+
+Varude nähtavuse lisandmooduli desinstallimiseks järgige neid samme.
+
+1. Logige sisse rakendusse Supply Chain Management.
+1. Minge varude **halduse perioodilise \> varude nähtavuse \> integratsiooni ja** keelake töö.
+1. Minge LCS-i ja avage leht keskkonnas, kus soovite lisandmooduli desinstallida (vt ka [varude nähtavuse lisandmooduli installimine](#install-add-in)).
+1. Valige **desinstallimine**.
+1. Desinstallimisprotsess lõpetab nüüd varude nähtavuse lisandmooduli, tühistab lisandmooduli registreerimise LCS-ist ja kustutab kõik ajutised andmed, mis on talletatud varude nähtavuse lisandmooduli andmevahemällu. Kuid esmased varude andmed, mis sünkrooniti teie kordustellimusega Dataverse, on endiselt seal. Andmete kustutamiseks viige ülejäänud protseduur lõpule.
+1. Avage [Power Apps](https://make.powerapps.com).
+1. Valige **navigeerimisribal** keskkond.
+1. Valige keskkond Dataverse, mis on seotud teie LCS-keskkonnaga.
+1. Minge lahendustesse **ja** kustutage järgmised lahendused järgmises järjekorras:
+    1. Inventory Visibility rakenduse ankurlahendus Dynamics 365 lahendustes
+    1. Dynamics 365 FNO SCM-i Varude nähtavuse rakenduste lahendus
+    1. Laoteenuse konfiguratsioon
+    1. Eraldiseisev Varude nähtavus
+    1. Dynamics 365 FNO SCM-i Varude nähtavuse põhilahendus
+
+    Pärast nende lahenduste kustutamist kustutatakse ka tabelites talletatud andmed.
+
+> [!NOTE]
+> Kui taastate tarneahela halduse andmebaasi pärast varude nähtavuse lisandmooduli desinstallimist ja soovite lisandmooduli uuesti installida, siis veenduge, et kustutate enne lisandmooduli uuesti installimist vana varude nähtavuse andmed, Dataverse mis on talletatud teie kordustellimuses (nagu kirjeldatud eelmises protseduuris). See takistab andmete vastuolud, mis võivad ilmneda.
+
+## <a name="clean-inventory-visibility-data-from-dataverse-before-restoring-the-supply-chain-management-database"></a><a name="restore-environment-database"></a> Puhas varude nähtavuse andmed Dataverse enne hankeahela halduse andmebaasi taastamist
+
+Kui olete kasutanud varude nähtavust ja seejärel taastanud tarneahela halduse andmebaasi, võib teie taastatud andmebaas sisaldada andmeid, mis ei ole enam kooskõlas eelnevalt varude nähtavuse kaudu eelnevalt sünkroonitud andmetega Dataverse. Nende andmete vastuolud võivad põhjustada süsteemitõrkeid ja muid probleeme. Seetõttu on oluline enne tarneahela Dataverse halduse andmebaasi taastamist alati puhastada kõik varude nähtavuse andmed.
+
+Kui teil on vaja taastada tarneahela halduse andmebaas, kasutage järgmist protseduuri:
+
+1. Desinstallige varude nähtavuse lisandmoodul ja eemaldage kõik seotud andmed Dataverse, nagu on kirjeldatud [jaotises Varude nähtavuse lisandmooduli desinstallimine.](#uninstall-add-in)
+1. Taastage tarneahela halduse andmebaas, [nt nagu on kirjeldatud andmebaasi ajapunkti taastamises (PITR)](../../fin-ops-core/dev-itpro/database/database-point-in-time-restore.md)[või tootmisandmebaasi ajapunkti taastamises sisendkausta keskkonda](../../fin-ops-core/dev-itpro/database/database-pitr-prod-sandbox.md).
+1. Kui soovite seda siiski kasutada, [...](#install-add-in)[installige see uuesti ja seadistage varude nähtavuse lisandmoodul, nagu on kirjeldatud jaotises Lao nähtavuse lisandmooduli installimine ja lao nähtavuse integreerimise installimine.](#setup-inventory-visibility-integration)
+
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

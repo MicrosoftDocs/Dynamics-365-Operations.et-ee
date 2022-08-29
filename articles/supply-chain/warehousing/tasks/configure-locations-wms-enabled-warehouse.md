@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 45195698b48d6a22697f99044a8ae49beaf7156e
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
-ms.translationtype: HT
+ms.openlocfilehash: 4cce7ea0c06938d2ce038853a262f843ec76fe4c
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9067269"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219654"
 ---
 # <a name="configure-locations-in-a-wms-enabled-warehouse"></a>Asukohtade konfigureerimine LHS-i loaga laos
 
@@ -39,7 +39,7 @@ See juhend näitab, kuidas konfigureerida asukoha seadistust uuele WMS-lubatud l
 8. Sulgege leht.
 
 ## <a name="define-a-location-format"></a>Asukohavormingu määratlemine
-1. Avage **Navigeerimispaan >Moodulid > Laohaldus > Seadistus > Ladu > Asukohavormingud**. Asukohavormingud on nimetussüsteem, mida kasutatakse erinevatele laos kasutatavatele asukoha kohapaigutustele kordumatute ja ühtsete nimede loomiseks. Asukohavormingus on kasulik kasutada eraldajaid, et hõlbustada asukoha komponentide, nagu riiulirea numbri, tuvastamist. Selles näites loome nelja komponendiga nime. Need võivad olla näiteks riiulirida, sektsioon, riiul ja koht.
+1. Avage **Navigeerimispaan >Moodulid > Laohaldus > Seadistus > Ladu > Asukohavormingud**. Asukoha vormingud on nimetamissüsteem, mida kasutatakse laos kasutatavatele kordumatutele ja järjepidevatele nimedele erinevate asukoha asukohakohtade jaoks. Asukohavormingus on kasulik kasutada eraldajaid, et hõlbustada asukoha komponentide, nagu riiulirea numbri, tuvastamist. Selles näites loome nelja komponendiga nime. Need võivad olla näiteks riiulirida, sektsioon, riiul ja koht.
 2. Klõpsake valikut **Uus**.
 3. Sisestage väärtus väljale **Asukohavorming**.
 4. Sisestage väärtus väljale **Nimi**.

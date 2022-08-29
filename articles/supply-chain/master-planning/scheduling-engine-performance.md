@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f5ece3672bba352e02808248c91366539423d682
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ddc22bdd223eff513ff571501c599712ac78a7da
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854293"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219903"
 ---
 # <a name="improve-scheduling-engine-performance"></a>Ajastamismootori jõudluse parandamine
 
@@ -294,7 +294,9 @@ Paralleelsete toimingute kasutamise alternatiiv on kas jäljendada paare „virt
 
 ### <a name="route-with-quantity-of-resources-higher-than-1"></a>Protsess, millel on ressursse rohkem kui üks
 
-Kui toimingu jaoks vajalike ressursside kogus seatakse suuremaks kui üks, siis selle tulemuseks on sama, mis esmaste/teiseste toimingute kasutamine, sest mootorile saadetakse mitu paralleelset tööd. Kuid sel juhul ei ole võimalik määrata kindlaid ressursse, sest rohkem kui üht ressurssi nõudva koguse puhul peab toimingu jaoks olema rakendatav rohkem kui üks ressurss.
+Kui operatsiooni jaoks vajalike ressursside kogus on suurem kui üks, on tulemus sama, mis primaarsete või teiseste operatsioonide kasutamisel, kuna mootorisse saadetakse mitu paralleeltööd. Sel juhul pole aga võimalik kindlaid ressursimääranguid kasutada, kuna suurem kogus nõuab rohkem kui üht ressurssi toimingu puhul.
+
+Teisene operatsioon, mille ressursi koorma kogus on suurem kui üks tähendab, et esmase toimingu iga ressursi jaoks on vaja teiseste ressursside määratud kogust. Näiteks kui esmasel operatsioonil on ressursside koguseks seadistatud kaks ja teisene operatsiooni ressursikogus on seatud kolmele, siis on teisese operatsiooni jaoks vaja kokku kuus ressurssi.
 
 ### <a name="excessive-use-of-finite-capacity"></a>Piiratud võimsuse liigne kasutamine
 

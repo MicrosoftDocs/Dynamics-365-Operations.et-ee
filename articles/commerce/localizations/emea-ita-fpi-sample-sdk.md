@@ -2,27 +2,31 @@
 title: Fiskaalprinteri integratsiooni näidise juurutuse juhised Itaalia jaoks (pärand)
 description: See artikkel annab juhised fiskaalprinteri integreerimise näidiste juurutamiseks Itaalia jaoks jaemüügi Microsoft Dynamics 365 Commerce tarkvara arenduskomplektist (SDK).
 author: EvgenyPopovMBS
-ms.date: 03/04/2022
+ms.date: 08/18/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.author: epopov
-ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: bb07ca91c9e5bf1a79f672f9ba29b7bcc21688c6
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.author: josaw
+ms.search.validFrom: 2019-03-01
+ms.openlocfilehash: 46d42a2c2a5f8f40fc8b9693f26a182c8f2e6352
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8848894"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9337214"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-printer-integration-sample-for-italy-legacy"></a>Fiskaalprinteri integratsiooni näidise juurutuse juhised Itaalia jaoks (pärand)
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
-See artikkel annab juhised fiskaalprinteri Microsoft Dynamics 365 Commerce integreerimise näidiste juurutamiseks Itaalia jaoks jaemüügi tarkvara arenduskomplektist (SDK) arendaja virtuaalmasinasse (VM) Microsoft Dynamics elutsükli teenustes (LCS). Lisateavet fiskaalintegratsiooni näidiste kohta vt Itaalia fiskaalprinteri [integratsiooni näidist](emea-ita-fpi-sample.md). 
+> [!IMPORTANT]
+> Järgige selle artikli juhiseid ainult juhul, kui kasutate versiooni Microsoft Dynamics 365 Commerce 10.0.28 või varasemat versiooni. Äriversiooni 10.0.29 kohaselt on Itaalia fiskaalprinteri integratsiooni näidis saadaval Commerce’i tarkvara arenduskomplektis (SDK). Lisateavet vt kanali komponentide [konfigureerimine](./emea-ita-fpi-sample.md#configure-channel-components).
 
-Itaalia fiskaalintegratsiooni näidis on jaemüügi SDK osa. Lisateavet selle kohta, kuidas installida ja kasutada SDK-d, vt jaemüügi [tarkvara arenduskomplekti (SDK) ülesehitust](../dev-itpro/retail-sdk/retail-sdk-overview.md). See näidis koosneb Commerce Runtime'i (CRT) ja riistvarajaama laiendustest. Selle näidisprojekti käivitamiseks peate muutma ja ehitama CRT riistvarajaama projekte. Soovitame kasutada jaemüügi SDK-d, et teha selles artiklis kirjeldatud muudatused. Soovitame kasutada ka allikakontrollisüsteemi, näiteks sellistena, Azure DevOps kus faile pole veel muudetud.
+See artikkel annab juhised fiskaalprinteri Dynamics 365 Commerce integreerimise näidiste juurutamiseks Itaalia jaoks jaemüügi SDK-st arendaja virtuaalmasinas (VM) Microsoft Dynamics elutsükli teenustes (LCS). Lisateavet fiskaalintegratsiooni näidiste kohta vt Itaalia fiskaalprinteri [integratsiooni näidist](emea-ita-fpi-sample.md). 
+
+Itaalia fiskaalintegratsiooni näidis on jaemüügi SDK osa. Lisateavet selle kohta, kuidas installida ja kasutada SDK-d, vt jaemüügi [tarkvara arenduskomplekti (SDK) ülesehitust](../dev-itpro/retail-sdk/retail-sdk-overview.md). See näidis koosneb Commerce Runtime’i (CRT) ja riistvarajaama laiendustest. Selle näidisprojekti käivitamiseks peate muutma ja ehitama CRT riistvarajaama projekte. Soovitame kasutada jaemüügi SDK-d, et teha selles artiklis kirjeldatud muudatused. Soovitame kasutada ka allikakontrollisüsteemi, näiteks sellistena, Azure DevOps kus faile pole veel muudetud.
 
 ## <a name="development-environment"></a>Arenduskeskkond
 
@@ -30,7 +34,7 @@ Järgige neid samme arenduskeskkonna häälestamiseks, et saate testida ja laien
 
 ### <a name="commerce-runtime-extension-components"></a>Äri käitusaja laienduse komponendid
 
-Laienduskomponendid CRT on kaasatud retail SDK-sse. Järgmiste protseduuride sooritamiseks avage CommerceRuntimeSamples.sln **lahendus** retailSdk **SampleExtensions\\ CommerceRuntime'i all\\.**
+Laienduskomponendid CRT on kaasatud retail SDK-sse. Järgmiste protseduuride sooritamiseks avage CommerceRuntimeSamples.sln **lahendus** retailSdk **SampleExtensions\\ CommerceRuntime’i all\\.**
 
 1. Leidke projekt **Runtime.Extensions.DocumentProvider.EpsonFP90IIISample ja** koostage see.
 2. Leidke kaustast Extensions.DocumentProvider.EpsonFP90IIISample **bin\\ Debug\\ find the** Contoso.Commerce.Runtime.DocumentProvider.EpsonFP90IIISample.dll **assemblerfail**.
@@ -57,7 +61,7 @@ Laienduskomponendid CRT on kaasatud retail SDK-sse. Järgmiste protseduuride soo
 
 ### <a name="hardware-station-extension-components"></a>Riistvarajaama laienduse komponendid
 
-Riistvarajaama laienduse komponendid on kaasatud Jaemüügi SDK-sse. Järgmiste protseduuride sooritamiseks avage **RetailSdk** SampleExtensions **HardwareStationis\\ konfiguratsioonilahendusHardwareStations.sln \\**.
+Riistvarajaama laienduse komponendid on kaasatud Jaemüügi SDK-sse. Järgmiste protseduuride sooritamiseks avage **RetailSdk** SampleExtensions **HardwareStationis\\ konfiguratsioonilahendusHardwareStations.sln\\**.
 
 1. Leidke projekt **HardwareStation.Extensions.EpsonFP90IIIFiscalDeviceSample** ja koostage see.
 2. Leidke kaustast Extensions.EpsonFP90IIIFiscalDeviceSample **bin\\ Silumine\\** assemblerifail Contoso.Commerce.HardwareStation.EpsonFP90IIIFiscalDeviceSample.dll **·**.
@@ -84,7 +88,7 @@ Riistvarajaama laienduse komponendid on kaasatud Jaemüügi SDK-sse. Järgmiste 
 
 ## <a name="production-environment"></a>Tootmiskeskkond
 
-Commerce'i komponente sisaldavate juurutatavate pakendite loomiseks ja nende pakendite rakendamiseks tootmiskeskkonnas järgige neid samme.
+Commerce’i komponente sisaldavate juurutatavate pakendite loomiseks ja nende pakendite rakendamiseks tootmiskeskkonnas järgige neid samme.
 
 1. Viige lõpule selle artikli varasemas arenduskeskkonna [jaotises](#development-environment) kirjeldatud sammud.
 2. Tehke paketi konfiguratsioonifailides kausta **RetailSdk Assets\\ all järgmised** muudatused:
@@ -193,7 +197,7 @@ Riistvarajaama laiend on **HardwareStation.Extension.EpsonFP90IIIFiscalDeviceSam
 
 #### <a name="request-handler"></a>Nõudeohjur
 
-**EpsonFP90IIISample'i** taotluseohjur on fiskaalseadme nõude käsitlemise sisenemispunkt.
+**EpsonFP90IIISample’i** taotluseohjur on fiskaalseadme nõude käsitlemise sisenemispunkt.
 
 Ohjur pärineb INamedRequestHandler **liideselt**. Meetod **HandlerName** vastutab ohjuri nime tagastamise eest. Ohjuri nimi peab ühtima Commerce Headquartersis määratud fiskaalühenduse nimega.
 

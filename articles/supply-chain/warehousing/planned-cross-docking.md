@@ -2,7 +2,7 @@
 title: Plaanitud ristlaadimine
 description: See artikkel kirjeldab täpsemat planeeritud ristlaadimist, kus tellimuseks nõutav varude kogus suunatakse otse sissetulekust või loomisest õigesse väljastusalasse või ladustamisalasse. Kõik järelejäänud sissetulevast allikast pärinevad varud suunatakse õigesse ladustamiskohta, kasutades tavalist ladustamise protsessi.
 author: Mirzaab
-ms.date: 07/01/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 4f379b3cdb6830f989199afde7d751842047df79
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: b530cc1403458775fd330e826a32417d3b03bf25
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9070285"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334561"
 ---
 # <a name="planned-cross-docking"></a>Plaanitud ristlaadimine
 
@@ -37,10 +37,10 @@ Sissetuleva tellimuse vastuvõtmise ajal tuvastab ristlaadimise seadistus automa
 
 ## <a name="turn-on-the-planned-cross-docking-features"></a>Plaanitud ristilaadimise funktsioonide sisselülitamine
 
-Kui teie süsteem ei kaasa juba selles artiklis kirjeldatud funktsioone, [minge](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) Funktsioonihaldusse ja lülitage järgmised funktsioonid sisse järgmises järjekorras:
+Kui käitate tarneahela halduse versiooni 10.0.28 või varem, peate võib-olla plaanitud ristlaadimise lubama, enne kui saate seda kasutada. Avage funktsioonihaldus [ja](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) lülitage järgmised funktsioonid sisse järgmises järjekorras:
 
-1. *Plaanitud ristlaadimine*
-1. *Asukohadirektiividega ristiliaadimismallid*
+1. *Plaanitud ristlaadimine*<br>(Tarneahela halduse versiooni 10.0.29 kohaselt on see funktsioon kohustuslik ja seda ei saa välja lülitada.)
+1. *Asukohadirektiividega ristiliaadimismallid*<br>(Tarneahela halduse versiooni 10.0.29 puhul on see funktsioon vaikimisi sisse lülitatud.)
     > [!NOTE]
     > See funktsioon võimaldab määrata ristlaadimise mallil **direktiivi tähise** välja sarnaselt täiendusmallide seadistamise viisiga. Selle funktsiooni lubamine takistab teil lõpliku *put*-rea ristlaadimise töömalli ridadele direktiivi koodi lisamist. See tagab, et lõpliku asukoha saab määrata töö loomise ajal enne töömallide kaalumist.
 
@@ -92,7 +92,7 @@ Plaanitud ristlaadimine rakendatakse koormuse sisestamise meetodina. Pärast fun
 
     - **Korralduse kood:** jätke see väli tühjaks
 
-        Selle suvandi lubavad *asukohadirektiivide funktsiooniga ristlaadimismallid*. Süsteem kasutab asukohakorraldusi, et aidata määrata parim asukoht ristlaadimise varude teisaldamiseks. Selle seadistamiseks määrake igale asjakohasele ristlaadimise mallile korralduse kood. Kui määratakse direktiivikood, otsib süsteem töö loomisel asukohadirektiive direktiivikoodi järgi. Sel viisil saate piirata asukohajuhiseid, mida kasutatakse konkreetse ristlaadimise malli puhul.
+        See valik on lubatud ristlaadimise *mallide* poolt asukohadirektiivide funktsiooniga (tarneahela halduse versiooni 10.0.29 kohaselt on funktsioon vaikimisi sisse lülitatud). Süsteem kasutab asukohakorraldusi, et aidata määrata parim asukoht ristlaadimise varude teisaldamiseks. Selle seadistamiseks määrake igale asjakohasele ristlaadimise mallile korralduse kood. Kui määratakse direktiivikood, otsib süsteem töö loomisel asukohadirektiive direktiivikoodi järgi. Sel viisil saate piirata asukohajuhiseid, mida kasutatakse konkreetse ristlaadimise malli puhul.
 
     - **Kinnita maksimaalne ajavahemik:** *Jah*
 

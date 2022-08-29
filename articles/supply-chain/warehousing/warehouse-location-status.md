@@ -2,7 +2,7 @@
 title: Laoasukoha olek
 description: See artikkel annab ülevaate lao asukoha oleku funktsioonist.
 author: Mirzaab
-ms.date: 07/01/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 6d04ca43895935329b711f2658360c41f611975e
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
-ms.translationtype: HT
+ms.openlocfilehash: 9b12a7d6a7ce388c8fd049c4aef79ea57c82ae60
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9065460"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336091"
 ---
 # <a name="warehouse-location-status"></a>Laoasukoha olek
 
@@ -40,12 +40,9 @@ Järgmised neli välja lehel **Asukohad** jälgivad teavet asukoha praeguse olek
     - **Komplekteerimine** – väljaminevad kanded on tehtud asukoha suhtes, kui see oli viimati tühi.
     - **Ladustamine** – ainult sissetulevad kanded on tehtud asukoha suhtes sellest ajast, kui see oli viimati tühi.
 
-## <a name="turn-on-the-warehouse-location-status-feature"></a>Funktsiooni Lao asukoha olek sisselülitamine
+## <a name="turn-the-warehouse-location-status-feature-on-or-off"></a>Lao asukoha oleku funktsiooni sisse- või väljalülitamine
 
-Enne funktsiooni *Lao asukoha olek* kasutamist peate selle oma süsteemis sisse lülitama. Administraatorid saavad kasutada [funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sätteid, et kontrollida funktsiooni olekut ja vajadusel selle sisse lülitada. Tööruumis **Funktsioonihaldus** loetletakse funktsiooni järgneval viisil.
-
-- **Moodul:** *laohaldus*
-- **Funktsiooni nimi:** *Lao asukoha olek*
+Selle funktsiooni kasutamiseks peab see olema teie süsteemi jaoks sisse lülitatud. Tarneahela halduse versiooni 10.0.29 puhul on see funktsioon kohustuslik ja seda ei saa välja lülitada. Kui käitate versiooni, mis *on*[vanem kui 10.0.29, saavad administraatorid selle funktsiooni sisse või välja lülitada, otsides funktsioonihalduse tööruumist lao asukoha oleku](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) funktsiooni.
 
 ## <a name="set-up-warehouse-location-status"></a>Lao asukoha oleku seadistamine
 
@@ -55,7 +52,7 @@ Enne, kui alustate stsenaariumi kasutamist, peate aktiveerima näidisandmed ja s
 
 #### <a name="use-the-usmf-legal-entity"></a>Juriidilise isiku USMF kasutamine
 
-Selle näidisstsenaariumi kasutamiseks siin määratud näidiskirjete ja -väärtuste abil, peate kasutama süsteemi, kuhu on installitud standardsed [demoandmed](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md). Enne alustamist peate valima ka juriidilise isiku **USMF**.
+Selle näidisstsenaariumi kasutamiseks siin määratud näidiskirjete ja -väärtuste abil, peate kasutama süsteemi, kuhu on installitud standardsed [demoandmed](../../fin-ops-core/fin-ops/get-started/demo-data.md). Enne alustamist peate valima ka juriidilise isiku **USMF**.
 
 #### <a name="set-up-location-profiles"></a>Asukohaprofiilide häälestamine
 

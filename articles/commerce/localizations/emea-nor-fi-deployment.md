@@ -2,34 +2,32 @@
 title: Norra kassaregistrite juurutuse juhised
 description: See artikkel annab juhiseid selle kohta, kuidas lubada kassaaparaatide funktsioone Norra Microsoft Dynamics 365 Commerce lokaliseerimisel.
 author: EvgenyPopovMBS
-ms.date: 12/20/2021
+ms.date: 08/23/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.author: epopov
-ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: 1f2226432237662e28b9e26017020ab81bb6026b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.author: josaw
+ms.search.validFrom: 2019-03-01
+ms.openlocfilehash: 9149e9da7222699e9ca996b69e56fff07b77a737
+ms.sourcegitcommit: 1dbff0b5fa1f4722a1720fac35cce94606fa4320
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8899063"
+ms.lasthandoff: 08/24/2022
+ms.locfileid: "9345987"
 ---
 # <a name="deployment-guidelines-for-cash-registers-for-norway"></a>Norra kassaregistrite juurutuse juhised
 
 [!include[banner](../includes/banner.md)]
 
-See artikkel annab juhiseid selle kohta, kuidas lubada kassaaparaatide funktsioone Norra Microsoft Dynamics 365 Commerce lokaliseerimisel. Lokaliseerimine koosneb mitmest komponentide laiendist. Need laiendid lasevad teil teha toiminguid, nagu kohandatud väljade printimine kviitungitele, täiendavate auditisündmuste, müügikannete ja maksekannete registreerimine kassas (POS), müügikannete digitaalselt allkirjastamine ja aruannete printimine kohalikes vormingutes. Lisateavet Norra lokaliseerimise kohta vt Norra kassaraamatu [funktsioonist](./emea-nor-cash-registers.md). Lisateavet Norra äri konfigureerimise kohta vt Häälestage [Norra äri](./emea-nor-cash-registers.md#setting-up-commerce-for-norway).
+> [!IMPORTANT]
+> Rakendage selles artiklis kirjeldatud sammud ainult juhul, kui kasutate Microsoft Dynamics 365 Commerce versiooni 10.0.29 või uuemat versiooni. Commerce’i versioonis 10.0.28 või varem peate kasutama jaemüügitarkvara arenduskomplekti (SDK) eelmist versiooni elutsükli teenuste (VM) Microsoft Dynamics arenduskomplektis. Lisateavet vt Norra kassaraamatute [juurutuse juhistest (pärand)](./emea-nor-loc-deployment-guidelines.md). Kui kasutate Commerce’i versiooni 10.0.28 või varasemat versiooni ja kannate üle Commerce’i versiooni 10.0.29 või uuemasse versiooni, [peate järgima Norra pärand commerce’i funktsioonide migreerimine](./emea-nor-fi-migration.md).
 
-> [!WARNING]
-> Uue sõltumatu pakendi- ja [laiendusmudeli piirangute](../dev-itpro/build-pipeline.md) tõttu ei saa seda praegu selle lokaliseerimisfunktsiooni jaoks kasutada. Peate kasutama Norra digitaalallkirja näidisversiooni jaemüügi tarkvara arenduskomplekti (SDK) eelmises versioonis arendaja virtuaalmasinas (VM) Microsoft Dynamics elutsükli teenustes (LCS). Lisateavet vt Norra kassaraamatute [juurutuse juhistest (pärand)](./emea-nor-loc-deployment-guidelines.md).
->
-> Uutesse versioonidesse planeeritakse fiskaalintegratsiooni valimite uue sõltumatu pakendi- ja laiendusmudeli tugi.
+See artikkel annab juhiseid selle kohta, kuidas lubada kassaaparaatide funktsioone Norra Commerce’i lokaliseerimise jaoks. Lokaliseerimine koosneb mitmest komponendi laiendist, mis lubab teil sooritada toiminguid, nagu kohandatud väljade printimine sissetulekutele, auditi lisasündmuste, müügikannete ja maksekannete printimine müügikohas (POS), müügikannete digitaalselt allkirjastamine ja aruannete printimine kohalikes vormingutes. Lisateavet Norra lokaliseerimise kohta vt Norra kassaraamatu [funktsioonist](./emea-nor-cash-registers.md). Lisateavet Norra äri konfigureerimise kohta vt Häälestage [Norra äri.](./emea-nor-cash-registers.md#setting-up-commerce-for-norway)
 
 ## <a name="set-up-fiscal-registration-for-norway"></a>Saate häälestada Norra finantsregistreerimist.
 
-Norra fiskaalregistreerimise näidis põhineb fiskaalintegratsiooni [funktsioonil](fiscal-integration-for-retail-channel.md) ja on osa jaemüügi SDK-st. Näidis asub **lahenduste hoidla kaustas FiscalIntegration\\\\ SequentialSignatureNorway**[Dynamics 365 Commerce (](https://github.com/microsoft/Dynamics365Commerce.Solutions/) näiteks näidis väljalaskest/9.34 [).](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.34/src/FiscalIntegration/SequentialSignatureNorway) Näidis koosneb [fiskaaldokumendi](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) pakkujast ja fiskaalühendusest, mis on Commerce Runtime'i () laiendid CRT. Lisateavet Retail SDK [kasutamise kohta vt Retail SDK arhitektuurist ja sõltumatult pakendatud SDK-st](../dev-itpro/retail-sdk/retail-sdk-overview.md)[koostevõimaluste häälestamise kohta](../dev-itpro/build-pipeline.md).
+Norra fiskaalregistreerimise näidis põhineb fiskaalintegratsiooni [funktsioonil](fiscal-integration-for-retail-channel.md) ja on Osa Commerce SDK-st. Näidis asub lahenduste hoidla **kaustas FiscalIntegration\\\\ SequentialSignatureNorway**[Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/). Näidis [koosneb](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) fiskaaldokumendi pakkujast ja fiskaalühendusest, mis on Commerce Runtime’i () laiendid CRT. Lisateavet Commerce SDK kasutamise kohta vt commerce SDK [näidised ja viitepakendite allalaadimine GitHub-st NuGet](../dev-itpro/retail-sdk/sdk-github.md)[ja koostevõimaluste kohta sõltumatu pakendamise SDK-le](../dev-itpro/build-pipeline.md).
 
 Lõpetage finantsregistreerimise seadistuse etapid, mida on kirjeldatud [Ärikanalite fiskaalintegratsiooni seadistamises](./setting-up-fiscal-integration-for-retail-channel.md):
 
@@ -45,10 +43,10 @@ Järgige neid samme, et lubada Commerce Headquartersis Norra fiskaalregistreerim
 1. Laadige alla finantsdokumendi pakkuja ja fiskaalkonnektori konfiguratsioonifailid Commerce SDK-st:
 
     1. [Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) Lahenduste hoidla avamine.
-    1. Avage viimane saadav väljalaskeharu (nt **[vabastamine/9.34](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.34)**).
+    1. Avage viimane saadav väljalaskeharu.
     1. Saate **avada src \> FiscalIntegrationi \> SequentialSignatureNorway \> CommerceRuntime**.
-    1. Laadige alla fiskaaldokumendi **pakkuja konfiguratsioonifail documentProvider.SequentialSignNorway \> Configuration \> DocumentProviderSequentialSignatureNorwaySample.xml (** nt väljalaske/9.34 [fail](https://github.com/microsoft/Dynamics365Commerce.Solutions/blob/release/9.34/src/FiscalIntegration/SequentialSignatureNorway/CommerceRuntime/DocumentProvider.SequentialSignNorway/Configuration/DocumentProviderSequentialSignatureNorwaySample.xml)).
-    1. Laadige alla fiskaalkonnektori konfiguratsioonifail konnektoris.SequentialSignNorway Configuration ConnectorSequentialSignatureNorwaySample.xml **(\> nt väljalaske fail/9.34 \>).**[...](https://github.com/microsoft/Dynamics365Commerce.Solutions/blob/release/9.34/src/FiscalIntegration/SequentialSignatureNorway/CommerceRuntime/Connector.SequentialSignNorway/Configuration/ConnectorSequentialSignatureNorwaySample.xml)
+    1. Laadige alla finantsdokumendi pakkuja konfiguratsioonifail at **DocumentProvider.SequentialSignNorway \> Configuration \> DocumentProviderSequentialSignatureNorwaySample.xml**.
+    1. Laadige alla fiskaalkonnektori **konfiguratsioonifail konnektoris.SequentialSignNorway \> Configuration \> ConnectorSequentialSignatureNorwaySample.xml**.
 
 1. Minge rakenduse **Retail ja Commerce \> Headquarters häälestusparameetrite \> ühiskasutusega \> parameetritesse**. Seadke vahekaardil **Üldine** suvand Luba fiskaalintegratsioon **väärtusele** **Jah**.
 1. Minge jaemüügi- **ja ärikanali häälestuse \> fiskaalintegratsiooni \>\> fiskaalkonnektori ja laadige varem alla laaditud fiskaalkonnektori** konfiguratsioonifail.
@@ -62,7 +60,7 @@ Järgige neid samme, et lubada Commerce Headquartersis Norra fiskaalregistreerim
 
 ### <a name="configure-the-digital-signature-parameters"></a>Digitaalallkirja parameetrite konfigureerimine
 
-Teil tuleb konfigureerida tunnistused, mida kasutatakse kaupluses müügikannete digitaalallkirjasmiseks. Digitaalserti, mis on talletatud Azure Key Vault'is, kasutatakse allkirjastamiseks. Modern POS-i võrguühenduseta režiimi korral saab allkirjastamist teha ka digitaalse serdiga, mis on salvestatud Modern POS-i installitud arvuti kohalikku salvestusse.
+Teil tuleb konfigureerida tunnistused, mida kasutatakse kaupluses müügikannete digitaalallkirjasmiseks. Digitaalserti, mis on talletatud Azure Key Vault’is, kasutatakse allkirjastamiseks. Modern POS-i võrguühenduseta režiimi korral saab allkirjastamist teha ka digitaalse serdiga, mis on salvestatud Modern POS-i installitud arvuti kohalikku salvestusse.
 
 Enne, kui saate kasutada vaultvõtme talletatud digitaalserdit, tuleb läbida järgmised sammud.
 
@@ -70,7 +68,7 @@ Enne, kui saate kasutada vaultvõtme talletatud digitaalserdit, tuleb läbida j�
 1. Sert tuleb üles laadida võtmehoidlasse alus64 stringisaladusena.
 1. Rakendusobjekti serveri (AOS) rakendus peab olema volitatud lugemiseks võtmesalvestuse turvahoidla saladusi.
 
-Lisateavet selle kohta, kuidas võtmega Vault töötada, vt [Teemat Alustamine Azure'i võtme vault-ga](/azure/key-vault/key-vault-get-started).
+Lisateavet selle kohta, kuidas võtmega Vault töötada, vt [Teemat Alustamine Azure’i võtme vault-ga](/azure/key-vault/key-vault-get-started).
 
 Seejärel peate võtme **hoidla parameetrite lehel** määrama parameetrid võtme hoidlasse pääsemiseks:
 
@@ -99,11 +97,11 @@ Seejärel peate konfigureerima konnektori oma sertide jaoks, mis on talletatud v
 
 ### <a name="configure-channel-components"></a>Kanali komponentide konfigureerimine
 
-### <a name="development-environment"></a>Arenduskeskkond
+#### <a name="development-environment"></a>Arenduskeskkond
 
 Järgige neid samme arenduskeskkonna häälestamiseks, et saate testida ja laiendada näidist.
 
-1. Rakenduste hoidla leidmine [Dynamics 365 Commerce või](https://github.com/microsoft/Dynamics365Commerce.Solutions) allalaadimine. Valige õige väljalaske haruversioon vastavalt oma SDK-le/rakenduse versioonile. Lisateavet vt jaotisest Jaemüügi [SDK näidised ja viitepakendid alla laadida GitHub-st ja NuGet](../dev-itpro/retail-sdk/sdk-github.md).
+1. Rakenduste hoidla leidmine [Dynamics 365 Commerce või](https://github.com/microsoft/Dynamics365Commerce.Solutions) allalaadimine. Valige õige väljalaske haruversioon vastavalt oma SDK-le/rakenduse versioonile. Lisateavet vt commerce [SDK näidised ja viitepakendid alla laadida GitHub-st ja NuGet](../dev-itpro/retail-sdk/sdk-github.md).
 1. **Avage lahendus SequentialSignatureNorway.sln** **dynamics365Commerce.Solutions\\ FiscalIntegration\\ SequentialSignatureNorway** ja koostage see.
 1. Installi CRT laiendid:
 
@@ -126,7 +124,7 @@ Järgige neid samme arenduskeskkonna häälestamiseks, et saate testida ja laien
             ModernPOS.SequentialSignNorway.Installer.exe install --verbosity 0
             ```
 
-### <a name="production-environment"></a>Tootmiskeskkond
+#### <a name="production-environment"></a>Tootmiskeskkond
 
 Järgige fiskaalintegratsiooni [näidise](fiscal-integration-sample-build-pipeline.md) jaoks koostevõimaluste häälestamise etappe, et luua ja vabastada pilveskaala üksus ja iseteeninduse juurutatavad paketid fiskaalintegratsiooni näidiskomplekti jaoks. Malli **SequentialSignatureNorway build-pipeline.jaml** malli JAML **\\ faili leiate lahenduste hoidla YAML_Files**[Dynamics 365 Commerce müügivõimaluste](https://github.com/microsoft/Dynamics365Commerce.Solutions) kaustast.
 

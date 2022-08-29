@@ -2,7 +2,7 @@
 title: Saadetiste konsolideerimine saadetise konsolideerimise töölaua abil
 description: See artikkel sisaldab stsenaariumi, kus mitu tellimust vabastatakse lattu ja konsolideeritakse seejärel saadetisteks hiljem, kasutades saadetise konsolideerimise töölauale.
 author: Mirzaab
-ms.date: 05/12/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 388066b9c81ecb63ac1f81b70dc4b168f3f4a71d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: db8dc5101b223a0033284d8e6c494721871809d8
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8888321"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335791"
 ---
 # <a name="consolidate-shipments-by-using-the-shipment-consolidation-workbench"></a>Saadetiste konsolideerimine saadetise konsolideerimise töölaua abil
 
@@ -34,14 +34,11 @@ Selle artikli stsenaarium viitab väärtustele ja kirjetele, mis sisalduvad Micr
 
 Siin kirjeldatud stsenaarium eeldab, et olete juba funktsiooni sisse lülitanud, sooritanud [saadetise konsolideerimispoliitikate konfigureerimise](configure-shipment-consolidation-policies.md) harjutused ning loonud poliitikad ja muud seal kirjeldatud kirjed. Veenduge, et olete enne selle stsenaariumi jätkamist sooritanud need harjutused.
 
-## <a name="turn-on-the-manual-shipment-consolidation-feature"></a>Saadetise käsitsi konsolideerimise funktsiooni sisselülitamine
+## <a name="turn-the-manual-shipment-consolidation-feature-on-or-off"></a>Saadetise käsitsi konsolideerimise funktsiooni sisse- või väljalülitamine
 
-Enne funktsiooni *Saadetise käsitsi konsolideerimine* kasutamist peate selle oma süsteemis sisse lülitama. Administraatorid saavad kasutada [funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sätteid, et kontrollida funktsiooni olekut ja selle sisse lülitada. Tööruumis **Funktsioonihaldus** loetletakse funktsiooni järgneval viisil.
+Käsitsi saadetiste konsolideerimise kasutamiseks peab see olema teie süsteemi jaoks sisse lülitatud. Tarneahela halduse versiooni 10.0.29 puhul lülitatakse funktsioon vaikimisi sisse. Administraatorid saavad selle funktsiooni sisse või välja lülitada, otsides funktsioonihalduse *tööruumis* käsitsi saadetise [konsolideerimise](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) funktsiooni.
 
-- **Moodul:** *laohaldus*
-- **Funktsiooni nimi:** *Saadetise käsitsi konsolideerimine*
-
-Vastavalt jaotises [Saadetiste konsolideerimispoliitikate konfigureerimine](configure-shipment-consolidation-policies.md) kirjeldatule, peate enne poliitikate loomist funktsiooni *Saadetise konsolideerimine* sisse lülitamine. Kuid see etapp peaks olema teil juba lõpule viidud.
+Enne poliitikate *loomiseks* (tarneahela halduse versiooni 10.0.29 alusel on see funktsioon kohustuslik ja seda ei saa välja lülitada), peate ka konsolideeritud saadetise funktsiooni sisse lülitama. Lisateavet vt saadetise konsolideerimispoliitikate [konfigureerimine](configure-shipment-consolidation-policies.md).
 
 ## <a name="create-the-sales-orders-for-this-scenario"></a>Müügitellimuste loomine selle stsenaariumi jaoks
 

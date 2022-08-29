@@ -2,27 +2,31 @@
 title: Fiskaalprinteri integratsiooni näidise juurutuse juhised Poola jaoks (pärand)
 description: See artikkel annab juhised fiskaalprinteri integreerimisnäidi juurutamiseks Poola jaoks jaemüügi Microsoft Dynamics 365 Commerce tarkvara arenduskomplektist (SDK).
 author: EvgenyPopovMBS
-ms.date: 12/20/2021
+ms.date: 08/18/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.author: epopov
-ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: 3de7559838a8d8caf64993a468f06ba2d50fff46
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.author: josaw
+ms.search.validFrom: 2019-03-01
+ms.openlocfilehash: 178301e6d8e5f87376ed893e4bf5f966260cad62
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8851153"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9337217"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-printer-integration-sample-for-poland-legacy"></a>Fiskaalprinteri integratsiooni näidise juurutuse juhised Poola jaoks (pärand)
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
-See artikkel annab juhised Microsoft Dynamics 365 Commerce, et juurutada fiskaalprinteri integreerimisnäidik Poola jaoks jaemüügi tarkvara arenduskomplektist (SDK) arendaja virtuaalmasinasse (VM) Microsoft Dynamics elutsükli teenustes (LCS). Lisateavet selle fiskaalintegratsiooni näidiste kohta vt Poola fiskaalprinteri [integratsiooni näidist](emea-pol-fpi-sample.md). 
+> [!IMPORTANT]
+> Järgige selle artikli juhiseid ainult juhul, kui kasutate versiooni Microsoft Dynamics 365 Commerce 10.0.28 või varasemat versiooni. Äriversiooni 10.0.29 kohaselt on Poola fiskaalprinteri integratsiooni näidis saadaval Commerce’i tarkvara arenduskomplektis (SDK). Lisateavet vt kanali komponentide [konfigureerimine](./emea-pol-fpi-sample.md#configure-channel-components).
 
-Poola fiskaalintegratsiooni näidis on jaemüügi SDK osa. Lisateavet selle kohta, kuidas installida ja kasutada SDK-d, vt jaemüügi [tarkvara arenduskomplekti (SDK) ülesehitust](../dev-itpro/retail-sdk/retail-sdk-overview.md). See näidis koosneb Commerce Runtime'i (CRT) ja riistvarajaama laiendustest. Selle näidisprojekti käivitamiseks peate muutma ja ehitama CRT riistvarajaama projekte. Soovitame kasutada jaemüügi SDK-d, et teha selles artiklis kirjeldatud muudatused. Soovitame kasutada ka allikakontrollisüsteemi, näiteks sellistena, Azure DevOps kus faile pole veel muudetud.
+See artikkel annab juhised Fiskaalprinteri Dynamics 365 Commerce integreerimise näidiste juurutamiseks Poola jaoks jaemüügi SDK-st arendaja virtuaalmasinas (VM) Microsoft Dynamics elutsükli teenustes (LCS). Lisateavet selle fiskaalintegratsiooni näidiste kohta vt Poola fiskaalprinteri [integratsiooni näidist](emea-pol-fpi-sample.md). 
+
+Poola fiskaalintegratsiooni näidis on jaemüügi SDK osa. Lisateavet selle kohta, kuidas installida ja kasutada SDK-d, vt jaemüügi [tarkvara arenduskomplekti (SDK) ülesehitust](../dev-itpro/retail-sdk/retail-sdk-overview.md). See näidis koosneb Commerce Runtime’i (CRT) ja riistvarajaama laiendustest. Selle näidisprojekti käivitamiseks peate muutma ja ehitama CRT riistvarajaama projekte. Soovitame kasutada jaemüügi SDK-d, et teha selles artiklis kirjeldatud muudatused. Soovitame kasutada ka allikakontrollisüsteemi, näiteks sellistena, Azure DevOps kus faile pole veel muudetud.
 
 ## <a name="development-environment"></a>Arenduskeskkond
 
@@ -30,7 +34,7 @@ Järgige neid samme arenduskeskkonna häälestamiseks, et saate testida ja laien
 
 ### <a name="commerce-runtime-extension-components"></a>Äri käitusaja laienduse komponendid
 
-Laienduskomponendid CRT on kaasatud retail SDK-sse. Järgmiste protseduuride sooritamiseks avage CommerceRuntimeSamples.sln **lahendus** retailSdk **SampleExtensions\\ CommerceRuntime'i all\\.**
+Laienduskomponendid CRT on kaasatud retail SDK-sse. Järgmiste protseduuride sooritamiseks avage CommerceRuntimeSamples.sln **lahendus** retailSdk **SampleExtensions\\ CommerceRuntime’i all\\.**
 
 1. Leidke projekt **Runtime.Extensions.DocumentProvider.PosnetSample** ja koostage see.
 2. Leidke kaustast Extensions.DocumentProvider.PosnetSample **bin\\ Silumine\\** contoso.Commerce.Runtime.Extensions.DocumentProvider.PosnetSample.dll **assemblerifail**.
@@ -52,12 +56,12 @@ Laienduskomponendid CRT on kaasatud retail SDK-sse. Järgmiste protseduuride soo
 
 6. Taaskäivitage Commerce Service:
 
-    - **Commerce Scale Unit: taaskäivitage** Commerce Service'i sait IIS-i halduri kaudu.
+    - **Commerce Scale Unit: taaskäivitage** Commerce Service’i sait IIS-i halduri kaudu.
     - **Kliendi maakler:** lõpetage **dllhost.exe** protsess ülesandehalduris ja taaskäivitage Modern POS.
 
 ### <a name="hardware-station-extension-components"></a>Riistvarajaama laienduse komponendid
 
-Riistvarajaama laienduse komponendid on kaasatud Jaemüügi SDK-sse. Järgmiste protseduuride sooritamiseks avage **RetailSdk** SampleExtensions **HardwareStationis\\ konfiguratsioonilahendusHardwareStations.sln \\**.
+Riistvarajaama laienduse komponendid on kaasatud Jaemüügi SDK-sse. Järgmiste protseduuride sooritamiseks avage **RetailSdk** SampleExtensions **HardwareStationis\\ konfiguratsioonilahendusHardwareStations.sln\\**.
 
 1. Leidke projekt **HardwareStation.Extension.PosnetThermalFVFiscalPrinterSample** ja koostage see.
 2. Leidke kaustast Extension.Posnet.UuendavFiscalPrinterSample **bin\\ Silumine\\** assemblerifail Contoso.Commerce.HardwareStation.PosnetThermalFFiscalPrinterSample.dll **·**.
@@ -81,7 +85,7 @@ Riistvarajaama laienduse komponendid on kaasatud Jaemüügi SDK-sse. Järgmiste 
 
 ## <a name="production-environment"></a>Tootmiskeskkond
 
-Eelmises protseduuris lubate laiendused, mis on fiskaalregistreerimise teenuse integratsiooni näidiskomponendid. Lisaks peate järgima neid samme Commerce'i komponente sisaldavate juurutatavate pakendite loomiseks ja nende pakendite rakendamiseks tootmiskeskkonnas.
+Eelmises protseduuris lubate laiendused, mis on fiskaalregistreerimise teenuse integratsiooni näidiskomponendid. Lisaks peate järgima neid samme Commerce’i komponente sisaldavate juurutatavate pakendite loomiseks ja nende pakendite rakendamiseks tootmiskeskkonnas.
 
 1. Tehke paketi konfiguratsioonifailides kausta **RetailSdk Assets\\ all järgmised** muudatused:
 

@@ -2,7 +2,7 @@
 title: Kindlad plaanitud tellimused
 description: See artikkel selgitab, kuidas plaanitud tellimusi kindlad olla. Kui planeeritud tellimused on kinnitatud, teisendatakse need tegelikeks ostutellimusteks, ülekandekorraldusteks või tootmistellimuseks.
 author: t-benebo
-ms.date: 04/22/2021
+ms.date: 08/09/2022
 ms.search.form: ReqTransPo, ReqTransFirmLog
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 24b5c6cb7e97924ebace8f7131a87e9bffea22e0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7c8d5b7992c7955b9c5b1c7e773fdd467ccba6f9
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857514"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335341"
 ---
 # <a name="firm-planned-orders"></a>Kindlad plaanitud tellimused
 
@@ -37,19 +37,21 @@ Enamik planeeritud tellimuse funktsioone on saadaval Microsoft Dynamics 365 Supp
 
 ### <a name="turn-parallelized-firming-of-planned-orders-on-or-off"></a>Lülitab plaanitud tellimuste paralleelse kinnitamise sisse ja välja
 
-Paralleelne kinnitamine aitab kinnitamisprotsessi kiirendada, seda mitme lõime vahel paralleelselt. Selline lähenemine võib olla kasulik, kui paljud planeeritud tellimused on kinnitatud. Selle funktsiooni kasutamiseks peab plaanitud *tellimuste paralleelne kinnitamine* olema teie süsteemi jaoks sisse lülitatud. Tarneahela halduse versiooni 10.0.21 puhul on see funktsioon vaikimisi sisse lülitatud. Tarneahela halduse 10.0.25 puhul on see funktsioon kohustuslik ja seda ei saa välja lülitada. Kui käitate versiooni, mis [on](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)*vanem kui 10.0.25, saate selle funktsiooni sisse või välja lülitada, käivitades funktsioonihalduse ja otsides plaanitud tellimuste paralleelset kinnitamist* funktsiooni.
+Paralleelne kinnitamine aitab kinnitamisprotsessi kiirendada, seda mitme lõime vahel paralleelselt. Selline lähenemine võib olla kasulik, kui paljud planeeritud tellimused on kinnitatud. Selle funktsiooni kasutamiseks peab plaanitud *tellimuste paralleelne kinnitamine* olema teie süsteemi jaoks sisse lülitatud. 
 
-### <a name="enable-planned-order-firming-with-filtering"></a>Lubage planeeritud tellimuse kinnitamine filtreerimisel
+Tarneahela halduse versiooni 10.0.21 puhul on see funktsioon vaikimisi sisse lülitatud. Tarneahela halduse 10.0.25 puhul on see funktsioon kohustuslik ja seda ei saa välja lülitada. Kui käitate versiooni, mis [on](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)*vanem kui 10.0.25, saate selle funktsiooni sisse või välja lülitada, käivitades funktsioonihalduse ja otsides plaanitud tellimuste paralleelset kinnitamist* funktsiooni.
+
+### <a name="turn-planned-order-firming-with-filtering-on-or-off"></a>Lülita plaanitud tellimuse kinnitamine sisse või välja filtreerimisel
 
 Planeeritud tellimuste kinnitamine filtreerimisel võimaldab määratleda loogilised kriteeriumid, et valida, milliseid planeeritud tellimusi kinnitada. Saate ka eelversiooni vaadata, millised plaanitud tellimused valiti, protsessi taustal käitada ja/või planeerida seda pakett-tööna.
 
-Tarneahela halduse versiooni 10.0.25 puhul lülitatakse see funktsioon vaikimisi sisse. Administraatorid saavad selle funktsiooni sisse või välja lülitada, *otsides* funktsioonihalduse tööruumis filtreerimisfunktsiooniga plaanitud tellimuse [kinnitamist](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Selle funktsiooni kasutamiseks peab see olema teie süsteemi jaoks sisse lülitatud. Tarneahela halduse versiooni 10.0.25 puhul lülitatakse funktsioon vaikimisi sisse. Tarneahela halduse versiooni 10.0.29 puhul on see funktsioon kohustuslik ja seda ei saa välja lülitada. Kui käitate versiooni, mis on *vanem* kui 10.0.29, saavad administraatorid selle funktsiooni sisse või välja lülitada, otsides plaanitud tellimuse kinnitamist filtreerimisfunktsiooniga Funktsioonihalduse [tööruumis](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-### <a name="enable-auto-firming-for-planning-optimization"></a>Lubage automaatne kinnitamine planeerimise optimeerimise käigus
+### <a name="turn-auto-firming-for-planning-optimization-on-or-off"></a>Plaanimise optimeerimise automaatse täitmise sisse- või väljalülitamine
 
 Automaatkinnitamine võimaldab teil kinnitada planeeritud tellimused koondplaneerimise protsessi osana kinnitamise ajaaknas. Supply Chain Management integreeritud planeerimismootori puhul toetatakse alati automaatset kinnitamist. Kuid selleks, et seda kasutada ka planeerimise optimeerimisel, peate selle funktsiooni sisse lülitama.
 
-Et teha see funktsioon süsteemis kättesaadavaks, minge [Funktsioonihaldus](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)ja lülitage sisse *Planeeritud tellimuste paralleelse kinnitamise* funktsioon. (Tarneahela halduse versiooni 10.0.21 kohaselt on see funktsioon vaikimisi sisse lülitatud.)
+Tarneahela halduse versiooni 10.0.21 puhul on see funktsioon vaikimisi sisse lülitatud. Tarneahela halduse 10.0.29 puhul on see funktsioon kohustuslik ja seda ei saa välja lülitada. Kui käitate versiooni, mis [on](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)*vanem* kui 10.0.29, saate selle funktsiooni sisse või välja lülitada, kui lülitute funktsioonihaldusesse ja otsite automaatset kinnitamist plaanimise optimeerimise funktsiooni jaoks.
 
 ## <a name="manually-firm-planned-orders"></a>Planeeritud tellimuste käsitsi kinnitamine
 
@@ -67,8 +69,8 @@ Planeeritud tellimuste käsitsi kinnitamiseks otsige ja valige planeeritud telli
 
     - **Uuenduste märkimine** – Valige varude märkimise poliitika, mida soovite kasutada, kui planeeritud tellimused on kinnitatud.
     - **Peata kinnitamine, kui ilmneb tõrge** – Seadke see suvand valikule *Jah*, et peatada kõigi valitud planeeritud tellimuste kinnitamine, kui ühes neist ilmneb tõrge. See valik peab olema seatud *Ei*, kui suvand **Paralleelne kinnitamine** on seatud valikule *Jah*.
-    - **Paralleelne kinnitamine** – See suvand on saadaval ainult siis, kui [*Planeeritud tellimuste paralleelne kinnitamise* funktsioon](#enable-features) on süsteemis sisse lülitatud ja te olete valinud kinnitamiseks kaks või rohkem planeeritud tellimust. Seadistage see väärtusele *Jah*, et käivitada kinnitamisprotsess paralleelselt. Paralleelne kinnitamine võib parandada jõudlust.
-    - **Lõimede arv** – See suvand on saadaval ainult siis, kui [*Planeeritud tellimuste paralleelne kinnitamise* funktsioon](#enable-features) on süsteemis sisse lülitatud ja te olete seadnud valikule **Paralleelne kinnitamine** *Jah*. Sisestage kinnitamisprotsessi paralleelseks kasutamiseks lõimede arv. Lisateavet selle kohta, kuidas seda suvandit üldplaneerimises kasutada, vt [koondplaneerimise jõudluse parandamine](../master-planning-performance.md#number-of-threads).
+    - **Paralleelne kinnitamine** – [*·*](#enable-features) see suvand on saadaval ainult siis, kui plaanitud tellimuste paralleelne kinnitamine on teie süsteemi jaoks sisse lülitatud ja te olete valinud kinnitamiseks kaks või enam plaanitud tellimust. Seadistage see väärtusele *Jah*, et käivitada kinnitamisprotsess paralleelselt. Paralleelne kinnitamine võib parandada jõudlust.
+    - **Lõimede arv** –[*·*](#enable-features) see suvand on saadaval ainult siis, **kui plaanitud tellimuste paralleelne kinnitamine on teie süsteemi jaoks sisse lülitatud ja kui olete seadistanud kinnitamisfunktsiooni Paralleelseks** kinnitamine väärtusele *Jah.* Sisestage kinnitamisprotsessi paralleelseks kasutamiseks lõimede arv. Lisateavet selle kohta, kuidas seda suvandit üldplaneerimises kasutada, vt [koondplaneerimise jõudluse parandamine](../master-planning-performance.md#number-of-threads).
 
         > [!NOTE]
         > Parameetri **Lõimede arv** säte *0* (null) pikendab üldplaneerimise töötamise aega. Seetõttu soovitame sellele väljale alati määrata väärtuse, mis on suurem kui 0.
@@ -97,7 +99,7 @@ Automaatkinnitamine võimaldab teil kinnitada planeeritud tellimused üldplaneer
 > Tuletatud tellimused (st alltöövõtulepingute ostutellimused), mis on kinnitatud, on staatuses *Ülevaatamisel*, kui muudatuste jälgimine on sisse lülitatud.
 
 > [!IMPORTANT]
-> Enne kui selles jaotises kirjeldatud funktsiooni saab kasutada planeerimise optimeerimisega, [*·*](#enable-features) peab plaanimise optimeerimise automaatne kinnitamisfunktsioon olema teie süsteemis sisse lülitatud, nagu kirjeldatud selle artikli alguses. Automaatset kinnitamist saab alati kasutada integreeritud üldplaneerimise mootoriga.
+> Enne kui selles jaotises kirjeldatud funktsiooni saab kasutada planeerimise optimeerimisega, [*·*](#enable-features) peab plaanimise optimeerimise automaatne kinnitamisfunktsioon olema teie süsteemi jaoks sisse lülitatud, nagu kirjeldatud selle artikli alguses. Automaatset kinnitamist saab alati kasutada integreeritud üldplaneerimise mootoriga.
 
 ### <a name="auto-firming-with-planning-optimization-vs-the-built-in-planning-engine"></a>Automaatne kinnitamine planeerimise optimeerimise vs integreeritud planeerimise mootoriga
 
@@ -130,7 +132,7 @@ Päringupõhine kinnitamine võimaldab planeerida kinnitamist eelnevalt määrat
 Saate automaatset kinnitamist kombineerida päringupõhise kinnitamisega. Näiteks päringupõhisel kinnitamise tööl on edasisuunalise aja ajapiir, mis on sobiva automaatse kinnitamise katvuse konfiguratsiooni jaoks ajapiirist pikem. Seetõttu töötleb päringupõhine kinnitamistöö oma planeeritud tellimusi enne automaatse kinnitamise käivitamist. Seda käitumist saate kasutada konkreetsete müüjate tellimuste ajastamiseks erinevalt kui teiste hankijate sarnaste toodete tellimused.
 
 > [!IMPORTANT]
-> Enne selles jaotises kirjeldatud [*·*](#enable-features) funktsiooni kasutamist tuleb filtreerimisfunktsiooniga plaanitud tellimuse kinnitamine sisse lülitada süsteemis, nagu on kirjeldatud selle artikli alguses.
+> Enne selles jaotises kirjeldatud [*·*](#enable-features) funktsiooni kasutamist tuleb süsteemi jaoks sisse lülitada filtreerimisfunktsiooniga plaanitud tellimuse kinnitamine, nagu on kirjeldatud selle artikli alguses.
 
 Planeeritud tellimuse kinnitamiseks päringupõhise kinnitamisprotsessi abil järgige neid samme.
 

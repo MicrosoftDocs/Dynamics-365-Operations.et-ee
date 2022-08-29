@@ -2,7 +2,7 @@
 title: Paindlik dimensiooni reserveerimise poliitika laotasemel
 description: See artikkel kirjeldab varude reserveerimispoliitikat, mis lubab ettevõtetele, kes müüvad partii jälgitud tooteid ja käitavad nende logistikat WMS-lubatud toimingutena, reserveerida teatud partiisid kliendi müügitellimustele, kuigi toodetega seostatud reserveerimishierarhia keelab konkreetsete partiide reserveerimise.
 author: perlynne
-ms.date: 07/31/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: d515fb46dcc2d135412d140b98f0578cae89c409
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 64855460ddf015f936fe695fc68938067f31b0cc
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9065894"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335701"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Paindlik dimensiooni reserveerimise poliitika laotasemel
 
@@ -196,12 +196,12 @@ Selles stsenaariumis kasutab ettevõte laohaldust ja töö töötlemist ning pla
 - Litsentsiplaati saab kirjendada ja reserveerida, kui volitatud töötleja võtab tellimuse vastu, ning muud nõuded ei saa seda endale võtta. Selline käitumine aitab tagada, et planeeritud litsentsiplaat saadetakse kliendile.
 - Kui litsentsiplaat ei ole juba müügitellimuse reale määratud, saab laotöötaja valida litsentsiplaadi komplekteerimise ajal, pärast müügitellimuse registreerimist ja reserveerimist.
 
-### <a name="turn-on-flexible-license-plate-reservation"></a>Paindliku litsentsiplaadi reserveerimise sisselülitamine
+### <a name="turn-flexible-license-plate-reservation-on-or-off"></a>Paindliku litsentsiplaadi reserveerimise sisse- või väljalülitamine
 
-Enne paindliku litsentsiplaadi reserveerimise kasutamist peate oma süsteemis sisse lülitama kaks funktsiooni. Administraatorid saavad kasutada [funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sätteid, et kontrollida funktsioonide olekut ja need vajadusel sisse lülitada. Peate funktsioonid sisse lülitama järgmises järjekorras.
+Enne, kui saate kasutada paindliku litsentsiplaadi reserveerimist, tuleb teil süsteemi jaoks kaks funktsiooni sisse lülitada. Administraatorid saavad kasutada [funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sätteid, et kontrollida funktsioonide olekut ja need vajadusel sisse lülitada. Peate funktsioonid sisse lülitama järgmises järjekorras.
 
-1. **Funktsiooni nimi:** *Paindlik dimensiooni reserveerimine laotasemel*
-1. **Funktsiooni nimi:** *Paindlik tellimusega seotud litsentsiplaadi reserveerimine*
+1. *Paindlik laotaseme dimensiooni reserveerimine*<br>(Tarneahela halduse versiooni 10.0.29 kohaselt on see funktsioon kohustuslik ja seda ei saa välja lülitada.)
+1. *Paindlik tellimusele kinnitatud litsentsiplaadi reserveering*<br>(Tarneahela halduse versiooni 10.0.29 kohaselt on see funktsioon kohustuslik ja seda ei saa välja lülitada.)
 
 ### <a name="reserve-a-specific-license-plate-on-the-sales-order"></a>Kindla litsentsiplaadi reserveerimine müügitellimusel
 

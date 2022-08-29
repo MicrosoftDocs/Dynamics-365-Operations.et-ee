@@ -7,24 +7,24 @@ ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: v-chgri
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5e61db026649df8fe331d107bfbda8246fb9d5f9
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.assetid: ''
+ms.openlocfilehash: 1f2e4eb8825dd690f926f7f0bdfc39f1eb5fb83c
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8881848"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9276369"
 ---
 # <a name="default-category-landing-page-and-search-results-page-overview"></a>Kategooria vaikesihtlehe ja otsingutulemuste lehe ülevaade
 
 [!include [banner](includes/banner.md)]
 
-See artikkel annab e-Commerce'i vaikimisi kategooria lehekülje ja Microsoft Dynamics 365 Commerce otsingutulemuste lehe ülevaate.
+See artikkel annab e-Commerce’i vaikimisi kategooria lehekülje ja Microsoft Dynamics 365 Commerce otsingutulemuste lehe ülevaate.
 
 ## <a name="default-category-landing-page"></a>Kategooria vaikesihtleht
 
@@ -46,6 +46,12 @@ Kategooria jaoks on olulised järgmised komponendid.
     - Toote nimi – \[Z–A\]
     - Hinnangud – madalast kõrgeni
     - Hinnangud – kõrgest madalani
+
+- **Täpsemaid sortimissuvandeid** kasutavad veebisaidi omad nutikate kriteeriumide alusel toodete sortimiseks. Tootesoovituste [lubamisega](product-recommendations.md) on saadaval järgmised sortimisvalikud. Lisateabe saamiseks vt tootesoovituste [tüüpe](product-recommendations.md#types-of-product-recommendations).
+
+    - Uus
+    - Parim müük
+    - Populaarsed
 
 - **Lehejaotus** võimaldab veebisaidi külastajatel liikuda ühelt kategoriseeritud toodete tulemuste lehelt teisele lehele.
 - **Koguarv** näitab kategoorias määratletud toodete koguarvu.
@@ -78,7 +84,7 @@ Otsingutulemuste lehe jaoks on olulised järgmised komponendid.
 
 - **Tootepaigutuse paanid** näitavad kasutaja otsingu tooteid. Vaikimisi sorditakse need paanid kasutaja otsingu pilvepõhise otsingu asjakohasuse skoori alusel.
 - **Piiritlusatribuudid ja valiku kokkuvõte** on filtrid, mis esitavad arve ja mida saab kasutada kaupade täpsustamiseks. Tootejuht konfigureerib need nn kanali kategooriate ja toote atribuutide metaandmete konfiguratsiooni osana.
-- **Sortimissuvandeid** kasutavad veebisaidi külastajad toodete sortimiseks. Vaikimisi on saadaval järgmised sortimissuvandid.
+- **Standardseid sortimissuvandeid** kasutavad veebisaidi aadressid toodete sortimiseks. Vaikimisi on saadaval järgmised sortimissuvandid.
 
     - Hind – madalast kõrgeni
     - Hind – kõrgest madalani
@@ -86,7 +92,16 @@ Otsingutulemuste lehe jaoks on olulised järgmised komponendid.
     - Toote nimi – \[Z–A\]
     - Hinnangud – madalast kõrgeni
     - Hinnangud – kõrgest madalani
-    - Vaikimisi
+    - Vaikimisi 
+    
+    > [!NOTE]
+    > Kui **display-järjekorra** väärtused on toodetele määratletud navigeerimise müügitellimuses, takse kategoorialehel vaikimisi sordides Display-järjestuses määratletud **väärtused**. Muul juhul toimub sortimine tootenumbri **alusel**.)
+    
+- **Täpsemaid sortimissuvandeid** kasutavad veebisaidi omad nutikate kriteeriumide alusel toodete sortimiseks. Tootesoovituste [lubamisega](product-recommendations.md) on saadaval järgmised sortimisvalikud. Lisateabe saamiseks vt tootesoovituste [tüüpe](product-recommendations.md#types-of-product-recommendations).
+
+    - Uus
+    - Parim müük
+    - Populaarsed
 
 - **Lehejaotus** võimaldab veebisaidi külastajatel liikuda ühelt kategoriseeritud toodete tulemuste lehelt teisele lehele.
 - **Koguarv** näitab kategoorias määratletud ja otsingukriteeriumitega ühtivate toodete koguarvu.
@@ -94,6 +109,8 @@ Otsingutulemuste lehe jaoks on olulised järgmised komponendid.
 >[!NOTE]
 >Need pilvepõhised otsinguvõimalused on saadaval alates versioonist 10.0.8. Veenduge, et jaotises **Kaubanduse parameetrid > konfiguratsiooniparameetrid** on kirje ProductSearch.UseAzureSearch väärtuseks määratud „tõene”. 
 ![Pilvepõhise otsingu konfiguratsiooniparameetrid.](./media/CloudPoweredSearchConfigurationParameters.png)
+
+>Täiustatud sortimisvalikute (nt uus, parimate müük ja [trendid](product-recommendations.md)) kasutamiseks tuleb teil lubada tootesoovitused oma keskkonnas. Täpsemad sortimissuvandid on saadaval koos Commerce SDK versiooniga 9.35+ ja Commerce version 10.0.20.
 
 ## <a name="additional-resources"></a>Lisaressursid
 

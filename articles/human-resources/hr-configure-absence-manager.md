@@ -14,17 +14,15 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 40f9607fb6fc16b96373141d8d2610538e3fdec7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b752b722bf63958fc35b10a4612f7f02e2e8e717
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8886098"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9337294"
 ---
 # <a name="configure-the-absence-manager-role"></a>Puudumiste halduri rolli konfigureerimine
 
->[!Important]
->Selles artiklis märgitud funktsioonid on klientide jaoks praegu saadaval eraldiseisev Dynamics 365 Human Resources. Osa või kõik funktsioonid on saadaval osana Finance'i taristu tulevasest väljalaskest pärast Finance'i versiooni 10.0.26.
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -37,7 +35,6 @@ Mõnedes organisatsioonides ei pruugi personalijuhatajad oma meeskonna puhkuseid
 ## <a name="turn-on-the-feature"></a>Funktsiooni sisselülitamine
 
 1. Valige **Süsteemihaldus** tööruumis **Funktsioonihaldus**.
-
 2. Lubage **Funktsioonihaldus** vahekaardil funktsioon **Puudumiste haldur puhkuste haldamiseks**.
 
 ## <a name="define-a-custom-hierarchy"></a>Kohandatud hierarhia määratlemine
@@ -45,37 +42,26 @@ Mõnedes organisatsioonides ei pruugi personalijuhatajad oma meeskonna puhkuseid
 Puudumiste halduri funktsioon kasutab kohandatud hierarhiat, mida tuleb konfigureerida.
 
 1. Valige **Organisatsiooni haldus** tööruumis **Positsioonihierarhia tüübid**.
-
 2. Looge ametikoha hierarhia tüüp nimega **Puhkus**.
-
 3. Valige **Puhkus ja puudumine** tööruumi jaotises **Lingid** suvand **Puhkuse ja puudumise parameetrid**.
-
 4. Valige varem loodud **Puhkuse** hierarhia tüüp vahekaardi **Üldine** ripploendist **Puudumiste hierarhia**. See puhkuse hierarhia seos tuleb täita iga juriidilise isiku jaoks, kus kasutatakse puudumise halduri funktsioone.
 
 Pärast hierarhiatüübi määratlemist tuleb ametikohale määrata ametikoha hierarhia aruanne.
 
 1. Valige **Organisatsiooni haldus** tööruumis **Kõik ametikohad**.
-
 2. Valige ametikoht, mille jaoks soovite puudumise hierarhiat lisada.
-
 3. Valige vahekaardil **Seosed** suvand **Lisa**.
-
 4. Valige väljal **Hierarhia nimi** suvand **Puhkus**.
-
 5. Valige ametikoht väljal **Millisele ametikohale annab aru**. Töötaja nimi täidetakse automaatselt pärast ametikoha valimist.
 
 ## <a name="assign-the-absence-manager-role-to-a-user"></a>Määrake kasutajale Puudumiste halduri roll.
 
 Puudumiste halduri roll tuleb töötajatele määrata, et nad saaksid puhkusetaotlusi heaks kiita või tagasi lükata.
 
-1. **Süsteemiadministraator** tööruumis valige **Lingid**.
-
+1. Süsteemihalduse **tööruumis** valige **lingid**.
 2. Valige jaotises **Kasutajad** link **Kasutajad**.
-
 3. Valige kasutajate loendist kasutaja, kellele määrata Puudumise halduri roll.
-
 4. Vahekaardil **Kasutaja roll** valige suvand **Määra rollid**.
-
 5. Valige loendist **Puudumiste halduri** roll. Seejärel valige **OK**.
 
     > [!IMPORTANT]
@@ -84,7 +70,6 @@ Puudumiste halduri roll tuleb töötajatele määrata, et nad saaksid puhkusetao
 6. Pärast Puhkuse hierarhia loomist saate seda vaadata järgmiste sammude abil.
 
     1. Valige **Organisatsiooni haldus** tööruumis **Ametikoha hierarhia**.
-    
     2. Valige väljal **Hierarhia tüüp** suvand **Puhkus**.
 
 ## <a name="absence-manager-workspace"></a>Puudumiste halduri tööruum
@@ -115,9 +100,7 @@ Puudumise haldurid saavad töötajate aja mahavõtmise taotlusi heaks kiita või
 > Teavet puhkusetaotluse töövoo loomise kohta leiate teemast [Puhkusetaotluse töövoo loomine](hr-leave-and-absence-workflow.md).
 
 1. Valige töölehel **Töötaja iseteenindus** vahekaart **Puhkuste haldur**.
-
 2. Valige **Puhkuse taotlus** vahekaardilt puhkuse taotlus, millele soovite midagi teha. Selles loendivaates saate valida mitu kirjet.
-
 3. Kasutage ruudustiku ülaosas nuppe Kinnita, Keeldu või Delegeeri vaba aja taotluseks. 
 
 Teise võimalusena saab kasutaja kasutada vasakul paani **Vaba aja taotlus**, et navigeerida kõigi väljasolevate tööüksuste ajaloendisse. 
@@ -130,9 +113,7 @@ Puudumiste halduri rolli kasutajad saavad vaadata oma kalendris puhkuste taotlus
 > Süsteemiadministraator peab puudumiste halduri kalendri vaatevalikud konfigureerima. **Puhkuse ja puudumise parameetrite** lehel on vahekaardil **Kalender** suvand sünnipäevade, üksikasjadeta puudumiste, puudumiste ja ootel puhkusetaotluste peitmiseks või näitamiseks. Samuti on võimalus kalendrivaate valikut filtreerida töötaja tüübi järgi.
 
 1. Tööruumis **Töötaja iseteenindus** valige **Puudumiste haldur** ja seejärel **Puudumiste halduri kalender**.
-
 2. Väljale **Kuupäev** sisestage soovitud kuupäevad.
-
 3. Värskendage vaate valikuid vastavalt vajadusele.
 
 Puudumiste halduri kalender näitab kõiki kirjeid töötajate kohta, kes on puhkuse hierarhias puudumiste haldurile sellest teada andnud.

@@ -1,8 +1,8 @@
 ---
 title: Dynamics 365 Commerce’i eemaldatud või iganenud funktsioonid
 description: See artikkel kirjeldab funktsioone, mis on eemaldatud või mida plaanitakse eemaldada Dynamics 365 Commerce.
-author: josaw
-ms.date: 07/11/2022
+author: josaw1
+ms.date: 08/23/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: a59d62ad846eed659fa4e70390ebafc40127df0f
-ms.sourcegitcommit: ef56b5d0ed26e373add5dec63168e08ade40573e
+ms.openlocfilehash: 59ffcc00d67f6538980dec8965f894eb51f7230d
+ms.sourcegitcommit: 649f1db26da8f20602f11180fc565b7c59eaf545
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/12/2022
-ms.locfileid: "9138582"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9337592"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Dynamics 365 Commerce’i eemaldatud või iganenud funktsioonid
 
@@ -26,12 +26,44 @@ ms.locfileid: "9138582"
 See artikkel kirjeldab funktsioone, mis on eemaldatud või mida plaanitakse eemaldada Dynamics 365 Commerce.
 
 - *Eemaldatud* funktsioon pole tootes enam saadaval.
-- *Aegunud* funktsioon ei ole aktiivses arenduses ja vee võidakse tulevases värskenduses eemaldada.
+- Taunitav *funktsioon* ei ole aktiivses arenduses ja võidakse tulevastes värskendustes eemaldada.
 
 See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võtta. 
 
 > [!NOTE]
 > Finantside ja toimingute rakenduste objektide üksikasjaliku teabe leiate tehnilistest [viitearuannetest](/dynamics/s-e/). Saate võrrelda nende aruannete erinevaid versioone, et saada teavet objektide kohta, mida on igas finantsi ja toimingute rakenduste versioonis muudetud või eemaldatud.
+
+## <a name="features-removed-or-deprecated-in-the-commerce-10029-release"></a>Commerce'i väljalaskest 10.0.29 eemaldatud või aegunud funktsioonid
+
+### <a name="commerce-parameters-setting---allow-price-adjustments-to-increase-product-price"></a>Äriparameetrite säte: hinnakorrektsioonide võimaldamine toote hinna suurendamiseks
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Aegumise/eemaldamise põhjus** | Meil oli see säte kontrollimaks, kas hinna korrigeerimise funktsioon lubab toote hinda tõsta. Kui see parameeter on välja lülitatud, saavad hinnakorrektsiooni funktsiooni organisatsioonid seada toote ühiku hinna ainult madalamaks kui selle baashind ja kaubanduslelepingu müügihind. Selle sätte amortiseerimiseks oleme uuendanud hinnakorrektsioonifunktsiooni, et toetada boksist kahepoole korrigeerimisi (kasvu või kahanemist). |
+| **Asendatud teise funktsiooniga?**   | Nr |
+| **Mõjutatud tootealad**         | Hinnad ja allahindlused |
+| **Juurutamissuvand**              | Kõik |
+| **Olek**                         | Taunitav: see säte on vaikimisi sisse lülitatud, kuna Commerce’i versioon 10.0.29 ja eemaldatakse oktoober 2023. |
+
+### <a name="commerce-parameters-setting---enable-price-report-for-retail-store"></a>Äriparameetrite säte – kaupluse hinnaaruande lubamine
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Aegumise/eemaldamise põhjus** | Meil oli see säte kontrollimaks, kas hinnaaruande funktsioon on saadaval kaupluse konfiguratsioonivormil kasutamiseks. Me amortiseerime seda sätet, sest kaupluse konfiguratsiooni vorm on värskendatud nii, et see pakuks hinnaaruande funktsiooni alati standardfunktsioonina. |
+| **Asendatud teise funktsiooniga?**   | Nr |
+| **Mõjutatud tootealad**         | Hinnad ja allahindlused |
+| **Juurutamissuvand**              | Kõik |
+| **Olek**                         | Taunitav: see säte eemaldatakse oktoober 2023. |
+
+### <a name="commerce-parameters-setting---use-todays-date-to-calculate-prices"></a>Äriparameetrite säte – hindade arvutamiseks kasutage tänast kuupäeva
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Aegumise/eemaldamise põhjus** | Tarneahela halduse (SCM) hinnakujunduse mootor toetab hinnakujunduse arvutust, mis põhineb nõutud lähetuskuupäeval või nõutaval vastuvõtukuupäeval koos tänase kuupäevaga. Commerce’i hinnakujunduse mootor toetab ainult tänasel kuupäeval põhinevat hinnakujunduse arvutust. Klientidele, kes kasutavad nii SCM-i kui ka äri võimalusi, oleme andnud selle sätte ja soovitame, et kliendid seadistaks selle alati väärtusele Jah **,** et kaks hinnakujundusmootorit saaksid koos töötada. Me amortiseerime seda sätet, sest see ei muuda arvutuse käitumist ja on üleliigne. |
+| **Asendatud teise funktsiooniga?**   | Nr |
+| **Mõjutatud tootealad**         | Hinnad ja allahindlused |
+| **Juurutamissuvand**              | Kõik |
+| **Olek**                         | Taunitav: see säte on vaikimisi sisse lülitatud, kuna Commerce’i versioon 10.0.29 ja eemaldatakse oktoober 2023. |
 
 ## <a name="feature-deprecation-effective-july-2022"></a>Funktsiooni amortiseerumine kehtib juulil 2022
 
@@ -39,26 +71,11 @@ See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võ
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Aegumise/eemaldamise põhjus** | Meeskond Dynamics 365 Commerce on analüüsinud Commernce analüüsi (Preview) funktsiooni kasutamist ja kasutamist ning otsustati, et see ei liiguks enam edasi funktsiooni üldisele saadavusele.   |
+| **Aegumise/eemaldamise põhjus** | Meeskond Dynamics 365 Commerce on analüüsinud Commerce analyticsi (Preview) funktsiooni kasutamist ja kasutamist ning otsustati, et see funktsiooni üldisele saadavusele ei viiks enam edasi.   |
 | **Asendatud teise funktsiooniga?**   | Praegu ei asendata Commerce Analyticsit (Eelvaade) muu funktsiooni või lahendusega. Finantside ja toimingute rakenduste toorkannete ja koondandmete eksportimine Azure Data Sisestasse on edasi saadaval, [nagu selgitatakse finantside ja toimingute rakendustes andmete eksportimises Osarakendusse Data Tete](../../fin-ops-core/dev-itpro/data-entities/finance-data-azure-data-lake.md). Partnerid ja kliendid saavad kasutada seda andmevoogu, et autoriks saada mis tahes kavandatud analüüsiaruandeid oma äritegevuse vajadustele.
 | **Mõjutatud tootealad**         | Commerce‘i analüütika (eelversioon) |
 | **Juurutamissuvand**              | Kõik |
-| **Olek**                         | Selle funktsiooni keelamisest 30. augustiks 2022.  Ärianalüüsi (Preview) antud praegustes Power BI aruannetes sellest kuupäevast edasi ei värskendata.     |
-
-
-## <a name="features-removed-or-deprecated-in-the-commerce-10025-release"></a>Commerce'i väljalaskest 10.0.25 eemaldatud või aegunud funktsioonid
-
-### <a name="modern-point-of-sale-mpos"></a>Modernne kassa (MPOS)
-
-Modern Point of Sale'i (MPOS) rakendus on Commerce'i versioonis 10.0.25 aegunud ja asendatud Store Commerce'i rakendusega.
-
-| &nbsp;  | &nbsp; |
-|------------|--------------------|
-| **Aegumise/eemaldamise põhjus** | Kaupluse rakendused on kaupluste pakkumise Dynamics 365 Commerce nurgakivi. Tänapäevaste ja nutikate kauplusekogemuste loomiseks ning lahenduse edasiseks kaasajasamiseks uuendame pidevalt uusi muudatusi, mis parandab oluliselt IT-operatsioone ja kasutajakogemusi Windowsi olemasolevate kaupluse rakendustega. Uus Store Commerce'i rakendus on olemasoleva MPOS-i tehnoloogiatäiendus. See pakub Windowsi platvormil suuremat jõudlust, usaldusväärsust ja pikaajalist tuge ja kõrvaldab vajaduse rakenduse iga värskendusega uuesti pakkida. |
-| **Asendatud teise funktsiooniga?**   |  [Store Commerce](../dev-itpro/store-commerce.md) |
-| **Mõjutatud tootealad**         | Tänapäevane müügipunkt |
-| **Juurutamissuvand**              | Kõik |
-| **Olek**                         | Taunitav: alates Äriversioonist 10.0.25 eemaldatakse LCS-i virtuaalmasina (VMs) kaudu saadetud MPOS-i installer Töölt 2023. |
+| **Olek**                         | Selle funktsiooni keelamisest tuleb otsida 30. augustiks 2022.  Ärianalüüsi (Preview) antud praegustes Power BI aruannetes sellest kuupäevast edasi ei värskendata.     |
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10021-release"></a>Commerce'i väljalaskest 10.0.21 eemaldatud või aegunud funktsioonid
 
@@ -70,7 +87,7 @@ Modern Point of Sale'i (MPOS) rakendus on Commerce'i versioonis 10.0.25 aegunud 
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Aegumise/eemaldamise põhjus** | <p>**Kattuvate allahindluste käsitlemise** säte Commerce'i parameetrites reguleerib Commerce'i hinnakujunduse mootori otsinguid ja määrab kattuvate allahindluste optimaalse kombinatsiooni. Praegu pakub see kolme valikut:<p><ul><li> **Parim jõudlus** – See valik kasutab täpsemat heuristilise algoritmi ja [marginaali väärtuse reitingu](../optimal-combination-overlapping-discounts.md) meetodit, et õigeaegselt määrata prioriteedid, hinnata ja määrata parim allahindluskombinatsioon.</li><li>**Tasakaalustatud kalkulatsioon** – Praeguse koodi alusel toimib see valik nagu **Parim jõudlus** suvand. Seetõttu on see põhiliselt topeltvalik.</li><li>**Ammendav arvutamine** – See valik kasutab vana algoritmi, mis läheb hinna arvutamisel läbi kõigist võimalikest allahindluse kombinatsioonidest. Suurte ridade ja kogustega tellimuste puhul võib see valik põhjustada jõudluse probleeme.</li></ul><p>Konfiguratsiooni lihtsustamiseks, jõudluse parandamiseks ja vana algoritmi põhjustatud juhtumite vähendamiseks eemaldame täielikult **Kattuvate allahindluste käsitlemise** sätte ja uuendame Commerce'i hinnakujundusmootori siseloogikat, et see kasutaks nüüd ainult täpsemat algoritmi (st **Parima jõudluse** suvandi algoritmi taga).</p> |
+| **Aegumise/eemaldamise põhjus** | <p>**Kattuvate allahindluste käsitlemise** säte Commerce'i parameetrites reguleerib Commerce'i hinnakujunduse mootori otsinguid ja määrab kattuvate allahindluste optimaalse kombinatsiooni. Praegu pakub see kolme valikut:<p><ul><li> **Parim jõudlus** – See valik kasutab täpsemat heuristilise algoritmi ja [marginaali väärtuse reitingu](../optimal-combination-overlapping-discounts.md) meetodit, et õigeaegselt määrata prioriteedid, hinnata ja määrata parim allahindluskombinatsioon.</li><li>**Tasakaalustatud kalkulatsioon** – Praeguse koodi alusel toimib see valik nagu **Parim jõudlus** suvand. Seetõttu on see põhiliselt topeltvalik.</li><li>**Ammendav arvutamine** – See valik kasutab vana algoritmi, mis läheb hinna arvutamisel läbi kõigist võimalikest allahindluse kombinatsioonidest. Suurte ridade ja kogustega tellimuste puhul võib see valik põhjustada jõudluse probleeme.</li></ul><p>Konfiguratsiooni lihtsustamiseks, **jõudluse** parandamiseks ja vana algoritmi põhjustatud juhtumite vähendamiseks eemaldame täielikult kattuvate allahindluste käsitlemise sätte ja uuendame äri hinnakujundusmootori siseloogikat, et see kasutaks nüüd ainult täpsemat algoritmi (**st** parima jõudluse suvandi algoritmi taga).</p> |
 | **Asendatud teise funktsiooniga?**   | Ei. Soovitame, et organisatsioonid, mis kasutavad **Tasakaalustatud arvutuse** või **Ammendava arvutuse** suvandit lülituvad **Parim jõudluse** suvandile enne selle funktsiooni eemaldamist. |
 | **Mõjutatud tootealad**         | Hinnad ja allahindlused |
 | **Juurutamissuvand**              | Kõik |
@@ -127,7 +144,7 @@ Müügikoha laienduse arendus kasutades ModernPos.sln, CloudPos.sln, POS. Extens
 
 |  &nbsp; | &nbsp; |
 |------------|--------------------|
-| **Aegumise/eemaldamise põhjus** | Alates sellest väljalaskest on Dynamics 365 peakontori vormil **Kaubanduse andmeedastaja parameetrid** väli **Kogu andmekomplekti loomise intervall päevades** iganenud. Lisaks on alates sellest väljalaskest väli visuaalselt eemaldatud, nii et väärtust ei saa redigeerida. See jääb väärtuseks **0**. |
+| **Aegumise/eemaldamise põhjus** | Alates sellest väljalaskest on Dynamics 365 peakontori vormil **Kaubanduse andmeedastaja parameetrid** väli **Kogu andmekomplekti loomise intervall päevades** iganenud. Alates ka sellest väljalaskest eemaldatakse väli visuaalselt, nii et väärtust ei saa redigeerida. See jääb väärtuseks **0**. |
 | **Asendatud teise funktsiooniga?**   | Ei |
 | **Mõjutatud tootealad**         | Dynamics 365 Commerce |
 | **Juurutamissuvand**              | Kõik|
@@ -177,7 +194,7 @@ Müügikoha laienduse arendus kasutades ModernPos.sln, CloudPos.sln, POS. Extens
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Aegumise/eemaldamise põhjus** | Riistvarajaama laiendus, mis kasutab üksust IHardwareStationController on iganenud, et pakkuda lihtsustatud laienduse mudelit. Uuel juurutusel on ainult IControlleri klass ilma täiendavate klasside juurutusteta ja põhiriistvara jaamateekidega sõltuvuste vältimiseks pidi laiendus varasemalt viitama mitmele teegile.) |
-| **Asendatud teise funktsiooniga?**   | Soovitatav on kasutada IControlleri klassi laienduse mudelit, importides NuGeti (Microsoft.Dynamics.Commerce.Hosting.Contracts) paketi. |
+| **Asendatud teise funktsiooniga?**   | IController-klassi NuGet laiendusmudeli kasutamine on soovitatav, importides paketti (Microsoft.Dynamics.Commerce.Hosting.Contracts). |
 | **Mõjutatud tootealad**         | Riistvarajaama laiendused |
 | **Juurutamissuvand**              | Kõik |
 | **Olek**                         | Iganenud: alates väljaandest 10.0.11 |
@@ -194,11 +211,11 @@ Müügikoha laienduse arendus kasutades ModernPos.sln, CloudPos.sln, POS. Extens
 
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-1007-release"></a>Commerce'i väljalaskest 10.0.7 eemaldatud või aegunud funktsioonid
-### <a name="commerce-getproductavailabilities-and-getavailableinventorynearby-apis"></a>Commerce'i GetProductAvailabilities ja GetAvailableInventoryNearby API-d
+### <a name="commerce-getproductavailabilities-and-getavailableinventorynearby-apis"></a>Äri GetProductAvailabilities ja GetAvailableInventoryNearby API-d
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Aegumise/eemaldamise põhjus** | Uued optimeeritud API-d on loodud asendama API-sid GetProductAvailabilities ja GetAvailableInventoryNearby. |
-| **Asendatud teise funktsiooniga?**   | Jah: see asendatakse API-dega GetEstimatedAvailability ja GetEstimatedProductWarehouseAvailability. |
+| **Asendatud teise funktsiooniga?**   | Jah: see asendatakse api-de GetEstimatedAvailability ja GetEstimatedProductWarewareilability API-ga. |
 | **Mõjutatud tootealad**         | e-Commerce'i rakenduse SDK |
 | **Juurutamissuvand**              | Kõik |
 | **Olek**                         | Aegunud: alates väljalaskest 10.0.7 ei tehta enam API-de GetProductAvailabilities ja GetAvailableInventoryNearby jaoks insenerindusalaseid investeeringuid. Organisatsioonid, mis kasutavad antud API-sid oma e-Commerce'i rakendustes peaksid minema üle uutele API-dele GetEstimatedAvailabilty ja GetEstimatedProductWarehouseAvailability ning lubama [optimeeritud toote saadavuse arvutusfunktsiooni](../calculated-inventory-retail-channels.md).  |

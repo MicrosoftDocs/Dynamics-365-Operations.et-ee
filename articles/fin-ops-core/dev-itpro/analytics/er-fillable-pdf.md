@@ -1,25 +1,25 @@
 ---
 title: ER-i konfiguratsioonide koostamine PDF-mallide täitmiseks
 description: See artikkel annab teavet selle kohta, kuidas kujundada PDF-malli täitmiseks elektroonilise aruandluse (ER) vormingut.
-author: NickSelin
+author: kfend
 ms.date: 03/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 220314
-ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: ef9b650e9b676d79af8839c08cfbb1000a5aee5f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 220314
+ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
+ms.openlocfilehash: 4056c2b9442e26a0e1c99e6155a3cd605d222974
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8908586"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9283309"
 ---
 # <a name="design-er-configurations-to-fill-in-pdf-templates"></a>ER-i konfiguratsioonide koostamine PDF-mallide täitmiseks
 
@@ -254,7 +254,7 @@ Kuna mõlemad atribuudid on vormingu elemendi **Väli** puhul kohustuslikud, rak
 > [!NOTE]
 > Kui PDF-malli märkeruut ei kuulu märkeruutede gruppi, on see esitatud redigeeritavas ER-vormingus **·** **PDF-faili elemendi alla pesastatud väljaelemendina**. Seda tüüpi PDF-märkeruutu saab valida järgmistel viisidel:
 >
-> - Vastav väljavormingu **element** on seotud andmeallika väljaga *[boole'i](er-formula-supported-data-types-primitive.md#boolean)* andmetüübis, mille väärtus on **Tõene**.
+> - Vastav väljavormingu **element** on seotud andmeallika väljaga *[boole’i](er-formula-supported-data-types-primitive.md#boolean)* andmetüübis, mille väärtus on **Tõene**.
 > - Vastav välja **vorminguelement** sisaldab pesastatud **stringivormingu** elementi **, mis on seotud andmeallika väljaga, mille tekstiväärtus on 1**, Tõene **või** **Jah**.
 >
 > Teie mall võib sisaldada märkeruute, kus korraga saab valida ainult ühe märkeruudu. Need märkeruudud on esitatud PDF-mallis mitme ruudutüüpi *vormiväljana*. Igal väljal on sama nimi, kuid erinev ekspordiväärtus. Kui impordite malli redigeeritavasse ER-vormingusse, **tähistab** iga märkeruutu vormingu hierarhilises struktuuris märkeruudugrupi kaubaelement **, mis on pesastatud sama märkeruudugrupi elemendi** alla. Märkeruudugrupi **elemendi** nimi võrdub PDF-malli märkeruuduväljade nimega. Iga märkeruudugrupi **kaubaelemendi** nimi võrdub vastava märkeruudu välja ekspordiväärtusega PDF-mallis.

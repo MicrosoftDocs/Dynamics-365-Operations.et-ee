@@ -1,24 +1,26 @@
 ---
 title: Uue ER-i konfiguratsiooni loomine Wordi vormingus aruannete loomiseks
 description: See artikkel selgitab, kuidas kasutajad saavad konfigureerida uut elektroonilise aruandluse (ER) vormingut aruannete dokumentidena loomiseks Microsoft Word.
-author: NickSelin
+author: kfend
 ms.date: 12/17/2020
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERWorkspace, ERSolutionTable, EROperationDesigner,  LedgerJournalTable, LedgerJournalTransVendPaym
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: caf87659ca4ceb7b25aa43e09893d2a0ef014884
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.form:
+- ERWorkspace, ERSolutionTable, EROperationDesigner
+- LedgerJournalTable, LedgerJournalTransVendPaym
+ms.openlocfilehash: b56b328aa2a2b53dc177a02a4d453e5dbcb8340c
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8893008"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9273334"
 ---
 # <a name="design-a-new-er-configuration-to-generate-reports-in-word-format"></a>Uue ER-i konfiguratsiooni loomine Wordi vormingus aruannete loomiseks
 
@@ -35,7 +37,7 @@ Wordi vormingus aruannete Wordi dokumendi mallina kasutamiseks saate konfigureer
 
 ![Vormingu konfiguratsiooni loomine lehel Konfiguratsioonid.](./media/er-design-configuration-word-image2.gif)
 
-Lahenduse ER-vormingu komponent peab sisaldama vormingu elementi **Excel\\Fail** ja see vorminguelement peab olema lingitud Wordi dokumendiga, mida kasutatakse käitusajal aruannete loomise mallina. ER-vormingu komponendi konfigureerimiseks peate ER-i vormingu kujundajas avama loodud ER-i konfiguratsiooni [mustandi](general-electronic-reporting.md#component-versioning) versiooni. Seejärel lisage element **Excel\\Fail**, lisage redigeeritavale ER-vormingule oma Wordi mall ja linkige see mall lisatud elemendile **Excel\\Fail**.
+Lahenduse ER-vormingu komponent peab sisaldama vormingu elementi **Excel\\Fail** ja see vorminguelement peab olema lingitud Wordi dokumendiga, mida kasutatakse käitusajal aruannete loomise mallina. ER-vormingu komponendi konfigureerimiseks peate ER-i vormingu kujundajas avama loodud ER-i konfiguratsiooni mustandi versiooni. Seejärel lisage element **Excel\\Fail**, lisage redigeeritavale ER-vormingule oma Wordi mall ja linkige see mall lisatud elemendile **Excel\\Fail**.
 
 > [!NOTE]
 > Malli manustamisel peate kasutama [dokumendi tüüpi](../../fin-ops/organization-administration/configure-document-management.md#configure-document-types), mis on varem selleks otstarbeks ER-i parameetrites [konfigureeritud](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents).

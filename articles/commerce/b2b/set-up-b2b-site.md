@@ -6,20 +6,20 @@ ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: RetailOperations
 audience: Application User, IT Pro
-ms.reviewer: v-chgri
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 0bcd864694ff2ad2aa211c927da4d698c0039715
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.industry: retail
+ms.search.form: RetailOperations
+ms.openlocfilehash: 162a8d4b51f10f409b77e1ced4c63c1a69a3b1f2
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8881902"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9281120"
 ---
 # <a name="set-up-a-b2b-e-commerce-site"></a>B2B e-kaubandussaidi häälestamine
 
@@ -31,7 +31,7 @@ Ettevõtetevahelised (B2B) e-kaubanduse saidid pakuvad mõningaid võtmefunktsio
 
 - B2B e-äri saidi seadistamiseks peate lubama ja konfigureerima rakenduse Commerce headquarters kindlad funktsioonid vastavalt selles artiklis kirjeldatud kirjeldusele.
 - Põhikogemused, nagu toote tuvastamine, toote üksikasjade lehed, ostukorv ja kassa, kasutavad samu mooduleid, mida kasutatakse ettevõttelt tarbijale (B2C) mõeldud e-kaubanduse saitidel. Saidi autorid peavad olema tuttavad kõigi moodulitega, mida Dynamics 365 Commerce toetab. Lisateabe saamiseks vt [Mooduliteegi ülevaade](../starter-kit-overview.md).
-- See artikkel eeldab, et saidi autorid mõistavad Commerce'i saidilooja, mallide, killude ja lehtede põhie, nii et nad saaksid lubada e-kaubanduse saitide B2B-funktsioone.
+- See artikkel eeldab, et saidi autorid mõistavad Commerce’i saidilooja, mallide, killude ja lehtede põhie, nii et nad saaksid lubada e-kaubanduse saitide B2B-funktsioone.
 
 ## <a name="site-level-settings"></a>Saiditasemel sätted
 
@@ -311,7 +311,7 @@ Kiirliidete mooduli lisamiseks Commerce saidi looja ostukorvi lehele toimige jä
 
 Hulgiostu moodul toote üksikasjade lehel (PDP) pakub maatriksipõhist kogemust, mis võimaldab ostjal kiiresti lisada ostukorvi mitu tootevariandit. Kui saidi kasutaja peab tellima sama toote mitu varianti, kõrvaldab see kogemus vajaduse valida tootedimensioonide kombinatsioon, määrata kogus, lisada ostukorvi variant ja seejärel korrata protsessi teiste tootedimensioonide kombinatsioonide puhul.
 
-Hulgiostumooduli lisamiseks PDP-le Commerce'i saidi koostajas järgige neid samme.
+Hulgiostumooduli lisamiseks PDP-le Commerce’i saidi koostajas järgige neid samme.
 
 1. Minge mallidele **ja** valige saidi PDP mall.
 1. Valige suvand **Redigeeri**.

@@ -1,20 +1,20 @@
 ---
 title: Poola Intrastat
 description: See artikkel sisaldab teavet Intrastat-aruandluse kohta Poola.
-author: andosip
+author: AdamTrukawka
 ms.date: 11/09/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: kfend
+ms.author: atrukawk
 ms.search.validFrom: ''
-ms.openlocfilehash: 45bd1d3c90d0a8a8ad5db6d0b80c5eed0aa489e8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 473581fa4f3f1e8cac06d5748f28116e6615215e
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8871097"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9281638"
 ---
 # <a name="polish-intrastat"></a>Poola Intrastat
 
@@ -34,7 +34,7 @@ Järgmised väljad on lisatud Poola Intrastati deklaratsioonile. Kõik väljad k
 | Välja nrWlas väljad | Deklaratsiooni identifikaator Väärtus luuakse automaatselt. |
 | Typ | Aruande suund.</br><li>Saabumiste puhul prinditakse "P".</li><li>Lähetuste puhul prinditakse "W".</li> |
 | Rodzaj | Deklaratsiooni tüüp Väärtus näitab, kas aruanne on algse deklaratsiooni või parandusdeklaratsiooni. |
-| UC | Ühiku kood, mille kohta Intrastat-deklaratsioon on adresseeritakse. Väärtus määratakse vahekaardi **Väliskaubanduse parameetrid** **·** **agendi** jaotise Käibemaksukohuslase kood väljal Maksukohuslase **kood.** |
+| Uc | Ühiku kood, mille kohta Intrastat-deklaratsioon on adresseeritakse. Väärtus määratakse vahekaardi **Väliskaubanduse parameetrid** **·** **agendi** jaotise Käibemaksukohuslase kood väljal Maksukohuslase **kood.** |
 | Nazwa | Ettevõtte nimi. |
 | Miejscoscoscosc,IndikaatorNumer, KodPo slots | Juriidilise isiku täielik aadress. |
 | Nip | Poola maksu ID-kood (käibemaksu [VAT] ID). |
@@ -479,7 +479,7 @@ Importige elektroonilise aruandluse (ER) konfiguratsioonide uusim versioon:
     </tr>
     <tr>
     <td>
-    <p>UC</p>
+    <p>Uc</p>
     </td>
     <td>
     <p>Ühiku kood.</p>
@@ -926,7 +926,7 @@ Importige elektroonilise aruandluse (ER) konfiguratsioonide uusim versioon:
     </tr>
     <tr>
     <td>
-    <p>UC</p>
+    <p>Uc</p>
     </td>
     <td>
     <p>Ühiku kood.</p>

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-03
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 8dfa7d8e3bdbfd74c6f95d8b79ac1b0698f73bd6
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 1dab8d8bdace046f0f061713600fd1eab69e7c12
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849122"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335461"
 ---
 # <a name="system-directed-work-sequencing"></a>Süsteemi suunatud tööde järjestus
 
@@ -35,7 +35,7 @@ Seetõttu võimaldab see funktsioon lao komplekteerimise protsesse täiendavalt 
 
 ## <a name="turn-on-the-organization-wide-system-directed-work-sequencing-feature"></a>Lülitage sisse organisatsiooniülene süsteemi suunatud töö järjestamise funktsioon
 
-Enne süsteemi suunatud tööde järjestamise kasutamist peate selle funktsiooni oma süsteemis sisse lülitama. Administraatorid saavad kasutada [funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) tööruumi, et kontrollida funktsiooni olekut ja vajadusel selle sisse lülitada. Seega on funktsioon loetletud järgmisel viisil.
+Enne kui saate kasutada süsteemi suunatud töö järjestust, peab funktsioon olema teie süsteemi jaoks sisse lülitatud. Administraatorid saavad kasutada [funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) tööruumi, et kontrollida funktsiooni olekut ja vajadusel selle sisse lülitada. Seega on funktsioon loetletud järgmisel viisil.
 
 - **Moodul:** *laohaldus*
 - **Funktsiooni nimi:** *Organisatsiooniülene süsteemi suunatud töö järjestamine*
@@ -44,7 +44,7 @@ Enne süsteemi suunatud tööde järjestamise kasutamist peate selle funktsiooni
 
 ### <a name="make-demo-data-available"></a>Demoandmete kättesaadavaks tegemine
 
-Et töötada stsenaariumiga, kasutades selles artiklis esitatud väärtusi, peate töötama süsteemis, kuhu on installitud standardsed demoandmed. Peate valima ka juriidilise isiku **USMF**. Stsenaarium kasutab ladu *51* demoandmetest.
+Et töötada stsenaariumiga, kasutades selles artiklis esitatud väärtusi, peate töötama süsteemis, kuhu on installitud standardsed [demoandmed](../../fin-ops-core/fin-ops/get-started/demo-data.md). Peate valima ka juriidilise isiku **USMF**. Stsenaarium kasutab ladu *51* demoandmetest.
 
 > [!IMPORTANT]
 > Enne tellimuste lattu vabastamist veenduge, et komplekteerimise asukohtadel on tellimuste kõigi üksuste jaoks piisavalt varusid.

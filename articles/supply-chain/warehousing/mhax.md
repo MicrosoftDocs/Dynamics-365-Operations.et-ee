@@ -2,7 +2,7 @@
 title: Materjalikäitlusseadmete liides (MHAX)
 description: See artikkel kirjeldab, kuidas seadistada materjali käsitlemisseadmete liidest (MHAX), nii et saate ühendada välise füüsilise materjali käsitluse (MH) süsteemidega.
 author: Mirzaab
-ms.date: 03/04/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-04
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: dc46c9fea94c3d86f9511c2bea4ea64455c936f9
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 1056c7aee3ea96ddcb012704be40bef6c363f323
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9068355"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334351"
 ---
 # <a name="material-handling-equipment-interface-mhax"></a>Materjalikäitlusseadmete liides (MHAX)
 
@@ -41,12 +41,13 @@ Eelmisel joonisel kujutatud suhtluste selgitus.
 
 Enne kui saate MHAX-i funktsiooni kasutada, peate lülitama sisse nii selle funktsiooni kui ka konfiguratsioonivõtme.
 
-1. Avage **Süsteemihaldus \> Tööruumid \> Funktsioonihaldus**.
-2. Lülitage tööruumis **[Funktsioonihaldus](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)** sisse funktsioon nimega *Materjalikäitlusseadmete liides*.
-3. Pange oma süsteem hooldusrežiimi, nagu on kirjeldatud teemas [Hooldusrežiim](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
-4. Valige suvandid **Süsteemihaldus \> Häälestus \> Litsentsi konfiguratsioon**.
-5. Laiendage valikut **Valdkond \> Lao- ja transpordihaldus** ning märkige ruut **Materjalikäitlusseadmete liides**.
-6. Lülitage hooldusrežiim välja, nagu on kirjeldatud teemas [Hooldusrežiim](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
+1. Kui käitate tarneahela halduse versiooni 10.0.28 või varem, järgige järgmisi samme.
+    1. Avage **Süsteemihaldus \> Tööruumid \> Funktsioonihaldus**.
+    1. Lülitage tööruumis **[Funktsioonihaldus](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)** sisse funktsioon nimega *Materjalikäitlusseadmete liides*. (Tarneahela haldus 10.0.29 kohaselt on see funktsioon kohustuslik ja seda ei saa välja lülitada.)
+1. Pange oma süsteem hooldusrežiimi, nagu on kirjeldatud teemas [Hooldusrežiim](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
+1. Valige suvandid **Süsteemihaldus \> Häälestus \> Litsentsi konfiguratsioon**.
+1. Laiendage valikut **Valdkond \> Lao- ja transpordihaldus** ning märkige ruut **Materjalikäitlusseadmete liides**.
+1. Lülitage hooldusrežiim välja, nagu on kirjeldatud teemas [Hooldusrežiim](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
 
 ## <a name="set-mhax-parameters"></a>MHAX-i parameetrite seadistamine
 

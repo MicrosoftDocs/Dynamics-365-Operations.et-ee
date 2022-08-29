@@ -1,25 +1,25 @@
 ---
 title: Arvehaldus B2B e-kaubanduse veebisaitide jaoks
 description: See artikkel kirjeldab ettevõtete-ettevõtte (Microsoft Dynamics 365 Commerce B2B) e-kaubanduse veebisaitide arvehalduse võimalusi.
-author: shajain
+author: ShalabhjainMSFT
 ms.date: 02/16/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: RetailOperations
 audience: Application User, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: fa6b81187481a6b7f47ea02291e5a581052d6c7b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.industry: retail
+ms.search.form: RetailOperations
+ms.openlocfilehash: c1f3533eb711bf87fe226f5c61678b6939f35e13
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854922"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9274424"
 ---
 # <a name="invoice-management-for-b2b-e-commerce-websites"></a>Arvehaldus B2B e-kaubanduse veebisaitide jaoks
 
@@ -37,7 +37,7 @@ B2B-kandeid käitlevad ettevõtted on tavaks aktsepteerida kliendikrediidi telli
 **B2B veebisaidi** arvete lehel saab kasutaja valida maksmata või osaliselt makstud arve ja seejärel valida **maksearve**. Valitud arve lisatakse ostukorvi ja kasutaja saab maksega jätkata. Kasutaja saab seejärel otsustada, kas maksta arve kogusumma või osaline summa. Kasutaja ei saa arvete maksmiseks kasutada ettemaksu makseviisi.
 
 > [!NOTE]
-> Arveid saab ostukorvi lisada ainult juhul, kui selles pole praegu kaupu. Vastupidiselt võib kaupu ostukorvi lisada ainult siis, kui selles pole praegu arveid. Microsoft plaanib selle piirangu tulevastes Commerce'i väljalasetes eemaldada.
+> Arveid saab ostukorvi lisada ainult juhul, kui selles pole praegu kaupu. Vastupidiselt võib kaupu ostukorvi lisada ainult siis, kui selles pole praegu arveid. Microsoft plaanib selle piirangu tulevastes Commerce’i väljalasetes eemaldada.
 
 ![Ostukorvi lehekülg B2B veebisaidil.](../media/PayInvoice.png)
 

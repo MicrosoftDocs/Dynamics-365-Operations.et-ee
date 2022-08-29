@@ -2,7 +2,7 @@
 title: Saadetise konsolideerimispoliitikate konfigureerimine
 description: See artikkel selgitab, kuidas seadistada saadetise vaike- ja kohandatud konsolideerimispoliitikaid.
 author: Mirzaab
-ms.date: 05/12/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: f793cb71ff52e49534e1f11b06132f2e20610d7c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4583d523811cb41518a0a4dae0d67398d64cab44
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8845920"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336488"
 ---
 # <a name="configure-shipment-consolidation-policies"></a>Saadetise konsolideerimispoliitikate konfigureerimine
 
@@ -33,10 +33,7 @@ Selles artiklis esitatud stsenaariumid näitavad, kuidas seadistada vaike- ja ko
 > [!IMPORTANT]
 > Esimeses stsenaariumis [,](#scenario-1) mida kirjeldatakse selles artiklis, seadistate esmalt lao nii, et see kasutab varasemat saadetise konsolideerimise funktsiooni. Seejärel teete saadetise konsolideerimispoliitikad kättesaadavaks. Sedasi saate proovida, kuidas täiendamise stsenaarium töötab. Kui kavatsete kasutada esimese stsenaariumi läbimiseks demoandmete keskkonda, ärge lülitage funktsiooni enne stsenaariumi tegemist sisse.
 
-Enne funktsiooni *Saadetise konsolideerimispoliitikad* kasutamist peate selle oma süsteemis sisse lülitama. Administraatorid saavad kasutada [funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sätteid, et kontrollida funktsiooni olekut ja selle sisse lülitada. Tööruumis **Funktsioonihaldus** loetletakse funktsiooni järgneval viisil.
-
-- **Moodul:** *laohaldus*
-- **Funktsiooni nimi:** *Saadetise konsolideerimine*
+Saadetise konsolideerimispoliitika *funktsiooni kasutamiseks* peab see olema teie süsteemi jaoks sisse lülitatud. Tarneahela halduse versiooni 10.0.29 puhul on see funktsioon kohustuslik ja seda ei saa välja lülitada. Kui käitate versiooni, mis *on*[vanem kui 10.0.29, saavad administraatorid selle funktsiooni sisse või välja lülitada, otsides Funktsioonihalduse tööruumis saadetise konsolideerimispoliitika](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) funktsiooni.
 
 ## <a name="make-demo-data-available"></a>Demoandmete kättesaadavaks tegemine
 
@@ -61,7 +58,6 @@ Järgige neid etappe vaikimisi saadetiste konsolideerimispoliitikate seadistamis
 1. Määrake kiirkaardil **Ladu** suvandi **Konsolideeri saadetis lattu väljastamisel** väärtuseks *Jah*.
 1. Korrake etappe 2– 4 kõigi teiste ladude puhul, kus konsolideerimist nõutakse.
 1. Sulgege leht.
-1. Kasutage [funktsioonihaldust](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) funktsiooni *Saadetise konsolideerimispoliitikad* sisselülitamiseks. Tööruumis **Funktsioonihaldus** on selle funktsiooni nimeks *Saadetise konsolideerimine*.
 1. Avage jaotis **Laohaldus \> Seadistus \> Lattu väljastamine \> Saadetise konsoldeerimispoliitika**. Pärast funktsiooni sisselülitamist uue menüükäsu **Saadetise konsolideerimispoliitikad** kuvamiseks peate tõenäoliselt värskendama oma brauserit.
 1. Järgmiste poliitikate loomiseks valige Toimingupaanil **Loo vaikeseadistus**.
 
@@ -81,7 +77,6 @@ Järgige neid etappe vaikimisi saadetiste konsolideerimispoliitikate seadistamis
 
 Järgige neid etappe uues keskkonnas saadetise vaikimisi konsolideerimispoliitikate seadistamiseks.
 
-1. Kasutage [funktsioonihaldust](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) funktsiooni *Saadetise konsolideerimispoliitikad* sisselülitamiseks, kui te veel pole seda teinud. Tööruumis **Funktsioonihaldus** on selle funktsiooni nimeks *Saadetise konsolideerimine*.
 1. Avage jaotis **Laohaldus \> Seadistus \> Lattu väljastamine \> Saadetise konsoldeerimispoliitika**.
 1. Järgmiste poliitikate loomiseks valige Toimingupaanil **Loo vaikeseadistus**.
 

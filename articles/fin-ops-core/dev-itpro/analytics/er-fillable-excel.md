@@ -1,26 +1,26 @@
 ---
 title: Konfiguratsiooni kujundamine dokumentide loomiseks Exceli vormingus
 description: See artikkel kirjeldab, kuidas kujundada elektroonilise aruandluse (ER) vormingut Exceli malli täitmiseks ja seejärel luua väljaminevad Exceli vormingu dokumendid.
-author: NickSelin
+author: kfend
 ms.date: 05/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: EROperationDesigner, ERParameters
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 220314
-ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4660aaf438ee091eed30387d984746ac2c3b4bd7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 220314
+ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
+ms.search.form: EROperationDesigner, ERParameters
+ms.openlocfilehash: 2feadf8e196936220cf557989cae40b742447d99
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854810"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9280920"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Konfiguratsiooni kujundamine dokumentide loomiseks Exceli vormingus
 
@@ -403,7 +403,7 @@ Probleemi saate lahendada järgmistel viisidel:
 
 #### <a name="external-data-sources"></a>Välisandmete allikad
 
-Kui üks teie mallidest sisaldab PivotTable'i, PowerPivot mis põhineb välisele andmeallikale viitaval mudelil ja EPTekstiteegi [kasutamise lubamine elektroonilise aruandluse raamistiku funktsioonis](https://support.microsoft.com/office/create-a-pivottable-with-an-external-data-source-db50d01d-2e1c-43bd-bfb5-b76a818a927b)**on** lubatud, saate järgmise tõrketeate, kui käitate ER-vormingut, mis kasutab seda malli väljamineva dokumendi loomiseks Exceli vormingus: "Vahemäluallikas pole tööleht." Probleemi lahendamiseks on teil järgmised võimalused:
+Kui üks teie mallidest sisaldab PivotTable’i, PowerPivot mis põhineb välisele andmeallikale viitaval mudelil ja EPTekstiteegi [kasutamise lubamine elektroonilise aruandluse raamistiku funktsioonis](https://support.microsoft.com/office/create-a-pivottable-with-an-external-data-source-db50d01d-2e1c-43bd-bfb5-b76a818a927b)**on** lubatud, saate järgmise tõrketeate, kui käitate ER-vormingut, mis kasutab seda malli väljamineva dokumendi loomiseks Exceli vormingus: "Vahemäluallikas pole tööleht." Probleemi lahendamiseks on teil järgmised võimalused:
 
 - **Soovitatav:** kujundage ümber exceli lahendus, mida kasutate:
 

@@ -14,14 +14,14 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 935c2e6cb45df193e6cbf70634f3561154c6fe38
-ms.sourcegitcommit: 1401d66b6b64c590ca1f8f339d622e922920cf15
+ms.openlocfilehash: 20a2ffb44f9b99800146e3365e6f0d6df8e9a75e
+ms.sourcegitcommit: 66d129874635d34a8b29c57762ecf1564e4dc233
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/20/2022
-ms.locfileid: "9178529"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9324256"
 ---
-# <a name="copy-an-instance"></a>Kopeeri eksemplar
+# <a name="copy-an-instance"></a>Eksemplari kopeerimine
 
 _**Rakendub:** inimressursid autonoomsel infrastruktuuril_ 
 
@@ -47,13 +47,14 @@ Eksemplari kopeerimiseks pidage meeles järgmisi nõuandeid.
 
 ## <a name="effects-of-copying-a-human-resources-database"></a>Rakenduse Human Resources andmebaasi kopeerimise mõjud
 
+> [!Note]
+> 2022. a. augusti alguses Microsoft Azure kaasatakse bloobisalvestuse dokumendid tootmiskeskkonna kopeerimisel sisendkausta keskkonda. Kõik lisatud dokumendid ja mallid kopeeritakse lähtekeskkonnast sihtkeskkonda.
+
 Rakenduse Human Resources andmebaasi kopeerimisel esinevad järgmised sündmused.
 
 - Kopeerimisprotsess kustutab sihtkeskkonnas olemasoleva andmebaasi. Kui kopeerimisprotsessi lõpetamist ei saa te olemasolevat andmebaasi taastada.
 
 - Sihtkeskkond ei ole saadaval enne, kui kopeerimisprotsess on lõpule viidud.
-
-- Microsoft Azure’i bloobimälu dokumente ei kopeerita ühest keskkonnast teise. Selle tulemusena ei kopeerita ühtegi lisatud dokumenti ega malli ja need jäävad lähtekeskkonda.
 
 - Kõik kasutajad, v.a need, kellel on turberoll "Süsteemiadministraator" ja teised siseteenuse kasutajakontod, pole saadaval. Administraatorkasutaja saab andmeid kustutada enne teiste kasutajate süsteemi tagasi lubamist.
 

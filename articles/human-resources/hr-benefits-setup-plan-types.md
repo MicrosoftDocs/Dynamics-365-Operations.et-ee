@@ -14,19 +14,16 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 833d6cc131b3fb45d273b60ecf6778b2be31fc8a
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 6ca14156c165ca3f536fc0120ebd03883284eb18
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687103"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9337286"
 ---
 # <a name="plan-type-overview"></a>Plaanitüübi ülevaade
 
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Plaani tüüp on kindlate soodustuste tüüpide kõrgetasemeline rühmitamine. Igal plaani tüübil on plaani tüübi kood, mis määrab plaani tüübi reeglid. Näiteks plaani tüüp **Tavaline elu** olemaks plaani tüübi koodi **Elu**, kuna see sarnaneb elukindlustuse plaanile ja peab vastama plaani tüübi koodis **Elu** määratud reeglitele. Teine plaanitüüp võib olla **Täiendav eluiga**. Sellel plaanitüübil on ka **Elu** plaani tüübi kood.
 
@@ -67,12 +64,12 @@ Plaani tüüp võib määratleda katvuse valikud. Katvuse valikud määratletaks
    | --- | --- |
    | **Plaani tüüp** | Plaani tüüp, millele elusündmuse suvandeid konfigureerida. |
    | **Elusündmuse tüübi ID** | Elusündmuse tüübi ID. |
-   | **Luba tühistamine** | Määrab, kas töövõtja saab elusündmuse ajal soodustusplaani tühistada. |
    | **Kindlustussuvandi muutmine** | Määrab, kas töövõtja saab elusündmuse ajal katvuse suvandeid muuta. |
    | **Uue plaani kasutuselevõtmine** | Määrab, kas töövõtja saab elusündmuse ajal plaane muuta. |
-   | **Plaani automaatne tühistamine** | Määrab, kas tühistada plaan elusündmuse ajal automaatselt. |
    | **Ava kõlblikkuskontroll automaatselt** | Määrab, kas elusündmuse korral taasavatakse automaatselt soodustuse registreerimise kõlblikkuskontroll. |
-   | **Aruandlusaken** | Määrab elusündmuse aruandlusakna, päevades. **Märge**: kui te summat ei sisesta, siis süsteem eeldab, et aruandlusaken on null ja ei töötle elusündmust. |
+   | **Elusündmuse registreerimise periood** | Määrab elusündmuse aruandlusakna, päevades. **Märge**: kui te summat ei sisesta, siis süsteem eeldab, et aruandlusaken on null ja ei töötle elusündmust. |
+   | **Redigeeritav ainult administraatorite järgi** | Määrab, kas administraatorid saavad plaani elusündmuse ajal tühistada või muuta. Töötaja ei saa töötaja iseteeninduse tööruumis **muudatusi** teha. |
+   | **Plaani automaatne tühistamine** | Saate määrata, kas plaan tühistatakse automaatselt elusündmuse ajal. Pärast elusündmuse muudatuste töötlemist säilitab plaani **valimine** automaatse tühistamise plaani valiku. Eemaldatakse ainult **olek** Kinnitatud **või** Välja registreeritud. Plaan jääb valimata. Seetõttu ei kaota plaanivalikut töötajad, kes ei tee plaanivalikuid elusündmuse registreerimise perioodi jooksul. 
 
 5. Valige käsk **Salvesta**. 
 

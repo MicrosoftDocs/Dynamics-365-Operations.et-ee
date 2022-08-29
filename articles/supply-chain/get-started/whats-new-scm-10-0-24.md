@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-12-03
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: f8864ac22153908492b5e7c30a03617e6dc9d05a
-ms.sourcegitcommit: 5b34b41ae74269ba639e2876bc5862ef468da1cc
+ms.openlocfilehash: 9b4b538e6d50013626739e19fee2a050b630bf7f
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "9166871"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334801"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10024-february-2022"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 Supply Chain Management 10.0.24. (veebruar 2022)
 
@@ -46,9 +46,9 @@ Kui soovite mõne neist funktsioonidest sisse ja välja lülitada, peate seda fu
 | Moodul | Funktsiooni nimi funktsioonihalduses | Lisateave |
 |---|---|---|
 | Tootmise juhtimine | Tootmistellimuste vajaduse korral materjali saadavuse kontroll | See funktsioon muudab kiiremaks tootmistellimuse **avamiseks lehekülje** vabastamise, mis on saadaval tootmispinna **halduse tööruumis**. Ilma selle funktsioonita kontrollib süsteem automaatselt, kas materjalid on saadaval kõigi loetletud tootmistellimuste jaoks kohe, kui avate lehekülje, mis võib võtta palju aega, kui teil on palju tellimusi. Kui see funktsioon on lubatud, pakub süsteem hoopis tööriistariba nuppu, mille abil saate käivitada materjalide kontrolli ainult valitud tellimustele ja vajadusel. |
-| Tootmise juhtimine | Registreeri materjalitarbimine tootmispinna käivitamise liideses (non-WMS) | See funktsioon võimaldab töötajatel kasutada tootmispinna käivitamise liidest materjalitarbimise, partiinumbrite ja seerianumbrite registreerimiseks. See funktsioon toetab ainult kaupu, mis ei ole lubatud laohaldusprotsesse (WMS) kasutada. WMS-iga lubatud kaupade tugi on plaanitud tulevaseks väljalaskeks.<p>Osa tootjaid, eriti neid, kes kuuluvad protsessitööstusesse, peavad iga partii või tootmistellimuse puhul eraldi registreerima tarbitud materjali hulga. Töötajad võivad näiteks kaalu kasutada oma töös tarbitud materjali kaalu kaalumiseks. Täieliku materjalijälgitavuse tagamiseks peavad need organisatsioonid registreerima ka iga toote tootmises kasutatud partiinumbrid. |
+| Tootmise juhtimine | Materjali tarbimise registreerimine tootmisosakonna täideviimisliideses (mitte-WMS) | See funktsioon võimaldab töötajatel kasutada tootmispinna käivitamise liidest materjalitarbimise, partiinumbrite ja seerianumbrite registreerimiseks. See funktsioon toetab ainult kaupu, mis ei ole lubatud laohaldusprotsesse (WMS) kasutada. WMS-iga lubatud kaupade tugi on plaanitud tulevaseks väljalaskeks.<p>Osa tootjaid, eriti neid, kes kuuluvad protsessitööstusesse, peavad iga partii või tootmistellimuse puhul eraldi registreerima tarbitud materjali hulga. Töötajad võivad näiteks kaalu kasutada oma töös tarbitud materjali kaalu kaalumiseks. Täieliku materjalijälgitavuse tagamiseks peavad need organisatsioonid registreerima ka iga toote tootmises kasutatud partiinumbrid. |
 | Tootmise juhtimine | Lõpetatuna kinnitamine laohaldustöökoormuses pilv- ja perimeeterskaalaüksuste jaoks | See funktsioon võimaldab töötajatel kasutada laohalduse mobiilirakendust, et teatada tootmise või partii tellimuse lõpetatuna, kui rakendus töötab laohalduse töökoormusega pilves või servaskaala üksuses. Lisateavet vt lõpetatuna kinnitamine [ja kaaluühiku panemine](../cloud-edge/cloud-edge-workload-manufacturing.md#RAF). |
-| Laohaldus | Uued koorma planeerimise töölaua leheküljed | Lubab kaks uut koorma planeerimise töölaualehte: **sissetuleva koorma planeerimise töölaud ja** **väljamineva koorma plaanimise töölaud**. |
+| Laohaldus | Uued koorma planeerimise töölaua leheküljed | Lisab kaks uut koorma planeerimise töölaualehte: **sissetuleva koorma planeerimise töölaud** **ja väljamineva koorma plaanimise töölaud**. |
 
 ## <a name="new-and-updated-documentation-resources"></a>Uued ja värskendatud dokumentatsiooni ressursid
 

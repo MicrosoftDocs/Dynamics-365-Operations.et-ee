@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3478e8c712c7bcbfb8ace9e7b43f0d8d3cf4ac8a
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 2bb4115a486fbfe7287c9b183224699de4dfd456
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9069148"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335521"
 ---
 # <a name="ship-sales-orders-without-warehousing"></a>Müügitellimuste lähetamine ladustamiseta
 
@@ -45,7 +45,7 @@ See artikkel selgitab, kuidas värskendada müügitellimust, kui tooteid kliendi
 14. Valige **Muuda vaadet**.
 15. Valige **Päise vaade**.
     - Kui kõik tellimuse read on täielikult tarnitud, muutub tellimuse olek väärtuselt Avatud väärtusele Tarnitud.  
-    - Selles näites on tellimuserida tarnitud osaliselt. Seetõttu jääb tellimuse olekuks Avatud.     
+    - Selles näites on tellimuserida tarnitud osaliselt. Seetõttu jääb tellimuse olek avatuks.     
     - Välja **Dokumendi olek** väärtuseks määratakse Saateleht, kuna vähemalt üks tellimuserida on tarnitud.  
 16. Valige toimingupaanil **Üldine**.
 17. Valige **Rea kogus**.

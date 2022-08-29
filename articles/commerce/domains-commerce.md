@@ -1,25 +1,25 @@
 ---
 title: Domeenid Dynamics 365 Commerce'is
 description: See artikkel kirjeldab, kuidas domeene käsitsetakse Microsoft Dynamics 365 Commerce.
-author: BrShoo
-ms.date: 05/10/2022
+author: BrianShook
+ms.date: 08/19/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
-ms.reviewer: v-chgri
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.search.industry: retail
 ms.author: BrShoo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: c48c8bd57d90a8c7d47bfa4263cd9ab38002629b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.industry: retail
+ms.search.form: ''
+ms.openlocfilehash: 08d6d52175bb7a77259cbd38b15f466deeab0846
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8848950"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9337216"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>Domeenid Dynamics 365 Commerce'is
 
@@ -109,6 +109,10 @@ Saidi `<e-commerce tenant name>.dynamics365commerce.ms` lõpp-punkt ei toeta koh
 Kohandatud domeenide seadistamiseks sisenemispunkti teenuse või CDN-i abil on teil kaks võimalust.
 
 - Saate seadistada sisenemispunkti teenuse (nt Azure Front Door) eesserveri liikluse käsitlemiseks ja oma Commerce'i keskkonnaga ühenduse loomiseks. See tagab suurema kontrolli domeeni- ja serdihalduse ning täpsemate turbepoliitikate üle.
+
+> [!NOTE]
+> Kui kasutate välist CDN-i või esikaaneteenust, veenduge, et taotlus on Äriportaalis äriportaali hostinimega, kuid X-Hosti (XFH) päisega \<custom-domain\>. Näiteks kui teie rakenduse Commerce lõpp-punkt `xyz.dynamics365commerce.ms``www.fabrikam.com` on ja kohandatud domeen on, `xyz.dynamics365commerce.ms` peaks edastatava nõude hostipäis olema ja olema XFH-päis `www.fabrikam.com`.
+
 - Saate kasutada Commerce'i esitatud Azure'i sisenemispunkti eksemplari. Selleks on vaja koordineerida tegevust teenuse Dynamics 365 Commerce töörühmaga domeeni kinnitamiseks ja teie tootmise domeeni SSL-i sertide hankimiseks.
 
 Lisateavet CDN-i teenuse otseseadistamise kohta leiate teemast [Sisu edastamise võrgu (CDN) toe lisamine](add-cdn-support.md).
@@ -141,14 +145,18 @@ Olemasolevate/aktiivsete domeenide korral.
 
 ## <a name="apex-domains"></a>Tippdomeenid
 
-Commerce'i esitatud Azure'i sisenemispunkti eksemplar ei toeta tippdomeene (juurdomeene, mis ei sisalda alamdomeene). Tippdomeenid vajavad probleemi lahendamiseks IP-aadressi ja Commerce'i Azure'i sisenemispunkti eksemplar on olemas ainult koos virtuaalsete lõpp-punktidega. Tippdomeeni kasutamiseks on teil kaks võimalust.
+Commerce'i esitatud Azure'i sisenemispunkti eksemplar ei toeta tippdomeene (juurdomeene, mis ei sisalda alamdomeene). Apex-domeenid vajavad lahendamiseks IP-aadressi ja Commerce Azure’i front ukse eksemplar on olemas ainult virtuaalsete lõpp-punktidega. Domeeni apex kasutamiseks on teil järgmised võimalused:
 
 - **Võimalus 1** – Saate kasutada oma DNS-i pakkujat, et suunata tippdomeen ümber "www"-domeeni. Näiteks suunab fabrikam.com ümber saidile `www.fabrikam.com`, kus `www.fabrikam.com` on kirje CNAME, mis osutab Commerce'i hostitud Azure'i sisenemispunkti eksemplarile.
 
-- **Võimalus 2** – tippdomeeni majutamiseks saate ise seadistada CDN-i/sisenemispunkti eksemplari.
+- **Valik 2** – kui teie DNS-i pakkuja toetab ALIAS-kirjeid, saate määrata eesmise ukse lõpp-punktiks apex-domeeni. See tagab, et eesmise ukse lõpp-punkti IP-muudatus kajastub.
+  
+- **Valik 3** : kui teie DNS-i pakkuja ei toeta ALIAS-kirjeid, peate häälestama oma eestoe või CDN-i eksemplari, et hostida apex-domeeni.
 
 > [!NOTE]
 > Kui kasutate Azure'i sisenemispunkti, peate samas tellimuses seadistama ka Azure'i DNS-i. Azure'i DNS-is majutatud tippdomeen võib osutada teie Azure'i sisenemispunktile pseudonüümi kirjena. See on ainus võimalus, sest tippdomeenid peavad alati osutama IP-aadressile.
+  
+Kui teil on küsimusi apex-domeenide kohta, võtke ühendust Microsofti [toega](https://support.microsoft.com/).
 
   ## <a name="additional-resources"></a>Lisaressursid
 

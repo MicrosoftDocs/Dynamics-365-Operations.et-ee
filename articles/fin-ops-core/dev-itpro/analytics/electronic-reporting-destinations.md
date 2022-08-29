@@ -1,26 +1,26 @@
 ---
 title: Elektroonilise aruandluse (ER) sihtkohad
 description: See artikkel annab teavet elektrooniliste aruandlussihtkohtade haldamise, toetatud sihtkohtade tüüpide ja turbekaalutluste kohta.
-author: nselin
+author: kfend
 ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: DocuType, ERSolutionTable
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 97423
-ms.assetid: f3055a27-717a-4c94-a912-f269a1288be6
 ms.search.region: Global
-ms.author: mrolecki
+ms.author: filatovm
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: bc8ef4a5299e6daba79702fadd37284f752a54a7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.custom: 97423
+ms.assetid: f3055a27-717a-4c94-a912-f269a1288be6
+ms.search.form: DocuType, ERSolutionTable
+ms.openlocfilehash: 1718b9e32c1e9f34d38479b74d59af6233f82a8c
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8851073"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9281963"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Elektroonilise aruandluse (ER) sihtkohad
 
@@ -118,7 +118,7 @@ Kui konfigureerite valitud vormingu jaoks faili sihtkohti, konfigureerite need k
 
 [![Konfiguratsiooni link.](./media/ER_Destinations-ConfigurationLink.png)](./media/ER_Destinations-ConfigurationLink.png)
 
-Samal ajal võib teil olla praegusesse Finance'i eksemplari imporditud vormingust mitu [versiooni](general-electronic-reporting.md#component-versioning). Saate neid vaadata valides linki **Konfiguratsioon**, mida näete, kui valite välja **Viide**.
+Samal ajal võib teil olla praegusesse Finance'i eksemplari imporditud vormingust mitu versiooni. Saate neid vaadata valides linki **Konfiguratsioon**, mida näete, kui valite välja **Viide**.
 
 [![Konfiguratsiooni versioonid.](./media/ER_Destinations-ConfigurationVersions.png)](./media/ER_Destinations-ConfigurationVersions.png)
 
@@ -181,6 +181,16 @@ Finantsversiooniversiooni **versiooni 10.0.9** Exceli väljundi põhjal loodud P
 
 Väljundi teisendamisel kasutatakse ainult tavalisi Windowsi operatsioonisüsteemi süsteemifonte, mis ei sisalda manustatud fonte.
 
+### <a name="resources"></a>Ressursid
+
+Enne finantsversiooni 10.0.29 saab PDF-i teisendada ainult väljaspool praegust finantseksemplari. Loodud fail saadeti finantsist konversiooniteenusesse ja teenus tagastas seejärel teisendatud dokumendi. Versioonis 10.0.29 ja hilisemates versioonides saate **lisaks** vormingutest PDF-funktsioonile **Microsoft Office elektroonilise aruandluse väljaminevate dokumentide teisendamiseks lubada funktsiooni Kasuta rakendusressursse CBD-dokumentide teisendamiseks Wordist PDF-vormingusse**.**·** See funktsioon võimaldab teil teisendada loodud Wordi dokumendid kohalikult PDF-vormingusse, kasutades rakendusserveri ressursse praeguses finantseksemplaris. 
+
+Siin on kohaliku PDF-vormingus teisendamise võimalus siis **, kui CBD-dokumentide teisendamiseks Wordi vormingust PDF-vormingusse** on lubatud rakendusressursid:
+
+- Loodud PDF-dokument ei ole piiratud [maksimaalse](#limitations) arvuga lehekülgi.
+- Teisendatud Wordi dokument võib sisaldada suurt [hulka sisu juhtelemente](https://fix.lcs.dynamics.com/Issue/Details?bugId=647877&dbType=3).
+- Interneti-ühenduvus pole ettevõttes juurutamises nõutav.
+
 ### <a name="use-the-pdf-conversion-option"></a>PDF-teisenduse suvandi kasutamine
 
 Faili sihtkoha jaoks PDF-teisenduse sisselülitamiseks valige märkeruut **Teisenda PDF-iks**.
@@ -230,7 +240,7 @@ Valige kiirkaardil **Üldine** väljal **Saada kaust kui** üks järgmistest vä
 - **Eralda failid** – Edastatakse iga loodud zip fail eraldi failina.
 
     > [!NOTE]
-    > Kui valite **Eraldi failid**, kogutakse loodud väljund mälusse sihtnumbri olekus. Seetõttu rakendatakse maksimaalne [faili mahupiirang](er-compress-outbound-files.md) sihtväljundile, kui tegelik faili suurus võib seda piirangut ületada. Soovitatav on see väärtus valida siis, kui eeldate, et loodud toodangu maht on liiga suur.
+    > Kui valite **Eraldi failid**, kogutakse loodud väljund mälusse sihtnumbri olekus. Seetõttu rakendatakse maksimaalne [faili mahupiirang](er-compress-outbound-files.md) sihtväljundile, kui tegelik faili suurus võib seda piirangut ületada. Soovitatav on see väärtus valida siis, kui eeldate, et loodud toodangu maht on üsna suur.
 
 [![Kausta vormingu komponendi sihtkoha konfigureerimine.](./media/er_destinations-set-unfolding-option.png)](./media/er_destinations-set-unfolding-option.png)
 

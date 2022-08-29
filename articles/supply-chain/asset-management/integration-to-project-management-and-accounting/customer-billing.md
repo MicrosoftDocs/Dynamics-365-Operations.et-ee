@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-01-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: d6ad25ec49a329c16b0290278fb614293a507eae
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: c0d067ec4f2110b1c146ef0229b90e309578eaa7
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8887685"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335071"
 ---
 # <a name="bill-for-maintenance-on-customer-owned-assets"></a>Kliendile kuuluvate varade hooldamise arve
 
@@ -40,7 +40,7 @@ Lisaks omab see funktsioon järgmisi funktsioone.
 
 ## <a name="turn-on-the-customer-billing-feature"></a>Kliendi arveldusfunktsiooni sisselülitamine
 
-Enne selle funktsiooni kasutamist peate selle oma süsteemis sisse lülitama. Administraatorid saavad kasutada [funktsioonihalduse](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sätteid, et kontrollida funktsiooni olekut ja selle sisse lülitada. Tööruumis **Funktsioonihaldus** loetletakse funktsiooni järgneval viisil.
+Enne selle funktsiooni kasutamist tuleb see teie süsteemi jaoks sisse lülitada. Administraatorid saavad kasutada [funktsioonihalduse](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sätteid, et kontrollida funktsiooni olekut ja selle sisse lülitada. Tööruumis **Funktsioonihaldus** loetletakse funktsiooni järgneval viisil.
 
 - **Moodul:** *Projektihaldus ja raamatupidamine*
 - **Funktsiooni nimi:** *Töökäsu arveldamine*
@@ -49,7 +49,7 @@ Enne selle funktsiooni kasutamist peate selle oma süsteemis sisse lülitama. Ad
 
 Et teada saada, kuidas see funktsioon töötab, töötage läbi järgmise näite stsenaarium.
 
-Selle stsenaariumi kasutamiseks siin määratud näidiskirjete ja -väärtuste abil, peate kasutama süsteemi, kuhu on installitud standardsed [demoandmed](../../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md). Enne alustamist peate valima **USMF-i** juriidilise isiku.
+Selle stsenaariumi kasutamiseks siin määratud näidiskirjete ja -väärtuste abil, peate kasutama süsteemi, kuhu on installitud standardsed [demoandmed](../../../fin-ops-core/fin-ops/get-started/demo-data.md). Enne alustamist peate valima **USMF-i** juriidilise isiku.
 
 Seda stsenaariumi saate kasutada ka juhistena funktsiooni kasutamiseks, kui töötate tootmissüsteemis. Kuid sellisel juhul peate asendama oma väärtused ja teil ei pruugi olla teatud tüüpi nõutavaid kirjeid, mida pakuvad standardsed demoandmed.
 

@@ -2,7 +2,7 @@
 title: Ostulepingud
 description: Selles artiklis antakse teavet ostulepingute kohta. Ostuleping on leping, mis kohustab organisatsiooni ostma konkreetset kogust või kindlat summat, kasutades aja jooksul mitut ostutellimust. Selle kohustuse täitmise eest saab ostja erihindu ja allahindlusi.
 author: GalynaFedorova
-ms.date: 06/20/2017
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0a8e2c4fdf640f1a9a64c60afc978a4d5812182a
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 188a71ec660787b0b942a3d3bf4967b747c4469f
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8669541"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335881"
 ---
 # <a name="purchase-agreements"></a>Ostulepingud
 
@@ -41,7 +41,7 @@ Ostulepingu kasutamise ja kinnitamise vältimiseks märkige lepingu olekuks **Su
 Saate tuvastada ostulepingu klassifikatsioonis peamise vastutava töötaja ja teisese vastutava töötaja. Need väärtused rakendatakse tulemiks saadud ostulepingus. Te ei pea vastutavaid töötajaid ostulepingusse lisama ja neid on võimalik ostulepingus endas juhtumipõhiselt muuta. Te ei saa määrata teisest vastutavat töötajat ilma esmase vastutava töötaja määramiseta, ehkki teil ei pea olema teisest vastutavat töötajat. Te ei saa määrata sama töötajat nii esmaseks kui ka teiseseks vastutavaks töötajaks.
 
 > [!IMPORTANT]
-> Vastutava osapoole funktsiooni kasutamiseks peab see olema teie süsteemis sisse lülitatud. Tarneahela halduse 10.0.25 puhul on see funktsioon vaikimisi sisse lülitatud. Administraatorid saavad selle funktsiooni sisse või välja lülitada, otsides funktsioonihalduse *tööruumis* ostulepingu eest [vastutava osapoole](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) funktsiooni.
+> Vastutava osapoole funktsiooni kasutamiseks peab see olema teie süsteemi jaoks sisse lülitatud. Tarneahela halduse versiooni 10.0.25 puhul lülitatakse funktsioon vaikimisi sisse. Tarneahela halduse versiooni 10.0.29 puhul on see funktsioon kohustuslik ja seda ei saa välja lülitada. Kui käitate versiooni, mis *on*[vanem kui 10.0.29, saavad administraatorid selle funktsiooni sisse või välja lülitada, otsides Ostulepingu eest vastutava osapoole funktsiooni Funktsioonihalduse tööruumis.](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
 
 ## <a name="commitment-types"></a>Kohustuse tüübid
 Iga ostulepingu rida on kohustus midagi osta. Kohustuse täitmiseks saate kasutada mitme ostutellimuse (PO) ridu. On nelja tüüpi kohustusi.

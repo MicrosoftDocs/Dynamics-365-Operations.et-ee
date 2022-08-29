@@ -2,7 +2,7 @@
 title: IoT iseõppimisvõime lisandmooduli installimine LCS-is
 description: See artikkel selgitab, kuidas installida IoT-teabe lisandmooduli elutsükli Microsoft Dynamics teenustes (LCS).
 author: johanhoffmann
-ms.date: 07/07/2020
+ms.date: 08/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 52fe4c4a79378aca5f1e64c8b3f4fa85199c9911
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e18b05be1f2ba78c71515e4e76f180355d044b98
+ms.sourcegitcommit: e0905a3af85d8cdc24a22e0c041cb3a391c036cb
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8887482"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9227830"
 ---
 # <a name="install-the-iot-intelligence-add-in-in-lcs"></a>IoT iseõppimisvõime lisandmooduli installimine LCS-is
 
 [!include [banner](../../includes/banner.md)]
+[!INCLUDE [iot-sdi-announcement](../../includes/iot-sdi-announcement.md)]
 
 See artikkel selgitab, kuidas installida IoT-teabe lisandmooduli elutsükli Microsoft Dynamics teenustes (LCS). Pange tähele, et lisandmooduleid ei saa installida demo/prooviversiooni keskkonnas. Enne lisandmooduli installimist peate [looma Azure'i ressursid](iot-azure-setup.md).
 
@@ -32,7 +33,7 @@ Saate seadistada ja konfigureerida IoT-iseõppimise ilma koodi kirjutamata. Siin
 1. [Seadistage Azure'i ressursid](iot-azure-setup.md)– looge IoT keskus, Redis-vahemälu ja võtmehoidla, mida saab kasutada Supply Chain Management rakenduses.
 2. [IoT keskuse teateskeemi vormingud](iot-schema-format.md) – konfigureerige seadmeid sõnumite saatmiseks IoT keskusesse ja määratlege JavaScript Object Notation (JSON) teatevorming.
 3. Funktsioonihalduses lubage IoT iseõppimise funktsiooni lipp.
-4. Installige IoT-teabe Microsoft Dynamics lisandmoodul elutsükli teenustes (LCS) – installige lisandmoodul LCS-is ja konfigureerige Azure'i saladused (nagu kirjeldatud selles artiklis).
+4. Installige IoT-teabe Microsoft Dynamics lisandmoodul elutsükli teenustes (LCS) – installige lisandmoodul LCS-is ja konfigureerige Azure’i saladused (nagu kirjeldatud selles artiklis).
 5. [Seadistage mõõdikud](iot-metrics-setup.md) – seadistage mõõdikud rakenduses Supply Chain Management.
 6. [Stsenaariumi häälestus](iot-scenario-setup.md) - seadistage stsenaariumid rakenduses Supply Chain Management.
 

@@ -1,26 +1,26 @@
 ---
 title: Elektroonilise arveldamise seadistus
 description: See artikkel annab ülevaate protsessist elektroonilise arvelduse seadistamiseks ja konfigureerimiseks.
-author: dkalyuzh
+author: gionoder
 ms.date: 02/28/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: Global
-ms.author: dkalyuzh
+ms.author: gionoder
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8e2aa89119530a0ba00a8561d94006285d67a71b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.form: ''
+ms.openlocfilehash: de94843c1e98a8788375bd41def587a64baea07d
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8883115"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9272175"
 ---
 # <a name="electronic-invoicing-setup"></a>Elektroonilise arveldamise seadistus
 
@@ -30,7 +30,7 @@ Artikkel annab ülevaate protsessist elektroonilise arvelduse seadistamise ja ko
 
 Enne alustamist veenduge, et kõik põhikomponendid on õigesti seadistatud, et olete registreeritud regulatiivsesse konfigureerimisteenusesse (RCS) ja teil on RCS-i Microsoft Dynamics eksemplar ning et elektroonilise arveldamise lisandmoodul on installitud teie 365 Dynamics 365 Supply Chain Management Finantsi või keskkonna jaoks. Lisateavet vt Jaotisest Elektroonilise [arveldamise allkiri ja installimine](e-invoicing-install-add-in-microservices-lcs.md).
 
-Seejärel seadistage Azure'i ressursid, mida elektrooniline arveldamine nõuab oma töö jaoks. Lisateavet vt Azure'i [ressursside seadistamine elektrooniliseks arveldamiseks](e-invoicing-set-up-azure-resources.md).
+Seejärel seadistage Azure’i ressursid, mida elektrooniline arveldamine nõuab oma töö jaoks. Lisateavet vt Azure’i [ressursside seadistamine elektrooniliseks arveldamiseks](e-invoicing-set-up-azure-resources.md).
 
 Pärast põhikomponentide konfigureerimist töötage koos RCS-iga, et seadistada elektroonilise arveldamise põhikomponendid. Kõigepealt määrake säilitate teenuskeskkondade arvu. Sel viisil määrate loogilised andmed ja konfiguratsiooni sektsioonimise, et veenduda arendus- või katsekeskkonna ja tootmiskeskkondade piiris. Oma arendusprotsessi paindlikuks seadistamiseks võite vajada mitut eraldi arendus- ja katsekeskkonda. Lisaks teenusekeskkonna määratlemisele seadistage link oma ärirakendustele, nt finants- või tarneahela haldus, otse RCS-st, et seadistada parameetrid, mis on vajalikud elektroonilise arveldamise õigeks toiminguks. Lisateavet keskkonna kohta vt teenuse [keskkondadest](e-invoicing-service-environments.md).
 

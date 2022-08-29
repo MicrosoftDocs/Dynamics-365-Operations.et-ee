@@ -1,28 +1,28 @@
 ---
-title: Info keskkonna Dynamics 365 Commerce ettevalmistamine
+title: Dynamics 365 Commerce’i liivakastikeskkonna ettevalmistamine
 description: See artikkel selgitab, kuidas valmis demo- Microsoft Dynamics 365 Commerce või kaustakasutust koos sisseehitatud demoandmetega ette kasutada.
-author: psimolin
+author: josaw1
 ms.date: 06/14/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.search.industry: ''
-ms.author: psimolin
+ms.author: josaw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3ada30fc9d86d236b71d018ef77f2ae8573f2285
-ms.sourcegitcommit: 252cb41c3029b623354698463f7b44a29fd9f184
+ms.custom: ''
+ms.assetid: ''
+ms.search.industry: ''
+ms.openlocfilehash: 1fc50f98055f1df72d255a5be6e863570564b183
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "9013130"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9283637"
 ---
-# <a name="provision-a-dynamics-365-commerce-sandbox-environment"></a>Info keskkonna Dynamics 365 Commerce ettevalmistamine
+# <a name="provision-a-dynamics-365-commerce-sandbox-environment"></a>Dynamics 365 Commerce’i liivakastikeskkonna ettevalmistamine
 
 [!include [banner](includes/banner.md)]
 
@@ -38,12 +38,12 @@ Lisateavet Ärikeskkonna konfigureerimise kohta pärast selle ülesseadmist vt [
 
 ## <a name="prerequisites"></a>Eeltingimused
 
-Enne Commerce'i keskkonna kasutamist peavad olema täidetud järgmised eeltingimused:
+Enne Commerce’i keskkonna kasutamist peavad olema täidetud järgmised eeltingimused:
 
 - Teil on juurdepääs Microsoft Dynamicsi portaalile Lifecycle Services (LCS).
 - Te olete olemasolev Microsoft Dynamics 365 partner või klient ning teil on juba loodud rakendusprojekt, mis on LCS-s kasutamiseks juba loodud.  
-- Olete loonud Azure Active Directory (Azure AD) turvagrupi, mida saab kasutada Commerce'i süsteemi administraatorigrupina ja teil on selle ID saadaval.
-- Olete loonud turvagrupi Azure AD, mida saab kasutada hinnangute ja ülevaatete moderaatori grupina ja teil on selle ID saadaval. (See turvagrupp võib olla sama mis Commerce'i süsteemi administraatorigrupp.)
+- Olete loonud Azure Active Directory (Azure AD) turvagrupi, mida saab kasutada Commerce’i süsteemi administraatorigrupina ja teil on selle ID saadaval.
+- Olete loonud turvagrupi Azure AD, mida saab kasutada hinnangute ja ülevaatete moderaatori grupina ja teil on selle ID saadaval. (See turvagrupp võib olla sama mis Commerce’i süsteemi administraatorigrupp.)
 - Juurutanud peakontori eksemplari LCS-i sees. Lisateavet vt teemast Uue [keskkonna juurutamine](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure).
 
 Pange tähele, et see loend pole ammendav. Kui teil ilmneb mõni probleem, peaksite abi saamiseks pöörduma oma Microsofti partneri kontakti poole.
@@ -84,7 +84,7 @@ Kui te ei leia keskkonna üksikasjade vaates linki **Halda**, võtke abi saamise
 1.  Sisestage väljale **AAD turberühm hinnangute ja arvustuse moderaatorile** turberühma nime paar esimest tähemärki, mida soovite kasutada, ja seejärel valige suurendusklaasi sümbol otsingutulemuste kuvamiseks. Valige loendist õige turberühm.
 1. Jätke suvandi **Hinnangute ja arvustuse teenuse lubamine** väärtuseks **Jah**.
 1. Valige **Lähtesta**. Vaade **Kaubanduse haldus** kuvatakse uuesti, kus vahekaart **e-kaubandus** on valitud. E-kaubanduse lähtestamine on käivitatud.
-1. Enne jätkamist oodake, kuni Commerce'i lähtestamise olek on **EDUKAS**.
+1. Enne jätkamist oodake, kuni Commerce’i lähtestamise olek on **EDUKAS**.
 1. All paremal jaotises **Lingid** märkige järgmiste linkide URL-id:
 
     * **E-kaubanduse sait** – link teie e-kaubanduse saidi juurele.
@@ -92,7 +92,7 @@ Kui te ei leia keskkonna üksikasjade vaates linki **Halda**, võtke abi saamise
 
 ## <a name="next-steps"></a>Järgmised etapid
 
-Commerce'i keskkonna ettevalmistamise ja konfigureerimise jätkamiseks vaadake teemat [Rakenduse Commercebox keskkonna konfigureerimine](cpe-post-provisioning.md).
+Commerce’i keskkonna ettevalmistamise ja konfigureerimise jätkamiseks vaadake teemat [Rakenduse Commercebox keskkonna konfigureerimine](cpe-post-provisioning.md).
 
 ## <a name="additional-resources"></a>Lisaressursid
 

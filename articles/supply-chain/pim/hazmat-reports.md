@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 782b1b4995af09a63c483d2b81ed255a5c11803a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 784361f4e715921890ecff784b62935988732464
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8846036"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335161"
 ---
 # <a name="hazardous-materials-inquiries-and-reports"></a>Ohtlike materjalide päringud ja aruanded
 
@@ -101,11 +101,11 @@ Aruande loomiseks ja printimiseks avage **Laohaldus \> Saadetised \> Kõik saade
 
 ## <a name="bill-of-lading-report"></a>veokirja aruanne
 
-Kui ohtlike materjalide funktsioon on süsteemis sisse lülitatud, sisaldab aruanne **veokiri** veergu **Ohtlikud materjalid**, mis näitab, kas koorem sisaldab ohtlikke materjale. See aruanne on saadaval lehel **Kõik koormad**, nagu tavaliselt.
+Kui ohtlik materjalide funktsioon on teie süsteemi jaoks sisse **lülitatud** **,** sisaldab veose aruanne ohtlikke materjale veergu, mis näitab, kas koorem sisaldab ohtlikke materjale. See aruanne on saadaval lehel **Kõik koormad**, nagu tavaliselt.
 
 ## <a name="packing-list-report"></a>Saatelehe aruanne
 
-Kui ohtlike materjalide funktsioon on süsteemis sisse lülitatud, sisaldab saateleht lisateavet, mis on seotud kaubasaadetisse prinditava tekstiga. See aruanne on saadaval lehel **Kõik koormad**, nagu tavaliselt.
+Kui ohtlikud materjalid on teie süsteemi sisse lülitatud, sisaldavad saateloendid kauba saatmise prinditekstiga seotud lisateavet. See aruanne on saadaval lehel **Kõik koormad**, nagu tavaliselt.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: Voo loomine ja töötlemine
 description: See artikkel kirjeldab, kuidas luua, töödelda ja vabastada laine, et luua komplekteerimistöö koorma, saadetise, tootmistellimuse või kanban-tellimuse jaoks.
 author: Mirzaab
-ms.date: 03/08/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 60bf4ab6944bd982e022ead6431adae417ddfb43
-ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.openlocfilehash: 0466019990773ee93e063a255c15a7d64eecdf78
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "9014615"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336001"
 ---
 # <a name="wave-creation-and-processing"></a>Voo loomine ja töötlemine
 
@@ -191,7 +191,7 @@ Kasutage lehte **voo partiitöö üksikasjad**, et kontrollida partiitöid ja mi
 
 ### <a name="turn-the-wave-batch-job-details-page-on-or-off"></a>Voo pakett-töö üksikasjade lehe sisse- või väljalülitamine
 
-Tarneahela halduse versiooni 10.0.25 **puhul** lülitatakse voo pakett-töö üksikasjade leht vaikimisi sisse. Administraatorid saavad selle funktsiooni sisse või välja lülitada, otsides funktsioonihalduse *tööruumist* voo pakett-töö [üksikasju](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Selle funktsiooni kasutamiseks peab see olema teie süsteemi jaoks sisse lülitatud. Tarneahela halduse versiooni 10.0.25 puhul lülitatakse funktsioon vaikimisi sisse. Tarneahela halduse versiooni 10.0.29 puhul on see funktsioon kohustuslik ja seda ei saa välja lülitada. Kui käitate versiooni, mis *on*[vanem kui 10.0.29, saavad administraatorid selle funktsiooni sisse ja välja lülitada, otsides funktsioonihalduse tööruumist voo pakett-töö üksikasju.](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
 
 ### <a name="use-the-wave-batch-job-details-page"></a>Voo partiitöö üksikasjade lehe kasutamine
 

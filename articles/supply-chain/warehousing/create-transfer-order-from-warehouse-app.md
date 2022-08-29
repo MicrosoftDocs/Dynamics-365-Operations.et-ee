@@ -2,7 +2,7 @@
 title: Üleviimistellimuste loomine laorakenduses
 description: See artikkel kirjeldab, kuidas laohalduse mobiilirakendusest luua ja töödelda üleviimistellimusi
 author: perlynne
-ms.date: 09/02/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: b9edc2d94aa1f4850d2e7fe2b4bdd1b092be944f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 45cbf7aca431c19e58de75355579304baef3cf7d
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8877446"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336451"
 ---
 # <a name="create-transfer-orders-from-the-warehouse-app"></a>Üleviimistellimuste loomine laorakenduses
 
@@ -26,14 +26,14 @@ ms.locfileid: "8877446"
 
 See funktsioon laseb laotöötajatel luua ja töödelda üleviimistellimusi otse mobiilirakenduses Warehouse Management. Esiteks peab töötaja valima sihtlao ja seejärel saavad nad skannida rakenduse abil ühe või mitu litsentsiplaati, et lisada litsentsiplaadid üleviimistellimusele. Kui laotöötaja valib suvandi **Lõpeta tellimus**, loob pakett-töö litsentsiplaatide jaoks registreeritud vaba kaubavaru alusel vajaliku üleviimistellimuse ja tellimuse read.
 
-## <a name="turn-this-feature-on-or-off"></a><a name="enable-create-transfer-order-from-warehouse-app"></a> Selle funktsiooni sisse- või väljalülitamine
+## <a name="turn-on-this-feature-and-its-prerequisites"></a><a name="enable-create-transfer-order-from-warehouse-app"></a> Lülita see funktsioon ja selle eeltingimused sisse
 
 Enne selle funktsiooni kasutamist tuleb teie süsteemis lubada nii see ise kui ka selle eeltingimused. Administraatorid saavad kasutada [funktsioonide halduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) lehte, et kontrollida funktsiooni olekut ja vajaduse korral see lubada.
 
 1. Lubage järgmised kaks funktsiooni (järjestuses) Funktsioonihalduse [tööruumis](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). Tarneahela halduse versiooni 10.0.25 puhul lülitatakse mõlemad funktsioonid vaikimisi sisse.
-    1. *Laorakenduse sündmuste töötlemine*
-    1. *Laorakenduses ülekandetellimuste loomine ja töötlemine*
-1. Väljaminevate saadetiste töötlemise automatiseerimiseks peate lubama ka pakett-töödelt [väljaminevate saadetiste kinnitamise funktsiooni](confirm-outbound-shipments-from-batch-jobs.md).
+    1. *Laorakenduse sündmuste töötlemine*<br>(Tarneahela halduse versiooni 10.0.29 kohaselt on see funktsioon kohustuslik ja seda ei saa välja lülitada.)
+    1. *Laorakenduses ülekandetellimuste loomine ja töötlemine*<br>(Tarneahela halduse versiooni 10.0.29 kohaselt on see funktsioon kohustuslik ja seda ei saa välja lülitada.)
+1. Väljaminevate saadetiste töötlemise automatiseerimiseks peate lubama ka pakett-töödelt [*väljaminevate saadetiste kinnitamise funktsiooni*](confirm-outbound-shipments-from-batch-jobs.md). (Tarneahela halduse versiooni 10.0.21 puhul lülitatakse see funktsioon vaikimisi sisse. Tarneahela haldus 10.0.25 kohaselt on see funktsioon kohustuslik ja seda ei saa välja lülitada.)
 
 ## <a name="set-up-a-mobile-device-menu-item-to-create-transfer-orders"></a><a name="setup-warehouse-app-menu"></a>Mobiilse seadme menüükäsu seadistamine üleviimistellimuste loomiseks
 
@@ -307,11 +307,11 @@ Ei, te ei saa lisada rohkem litsentsiplaate üleviimistellimusse, millel on laor
 
 #### <a name="how-can-i-find-existing-transfer-orders-to-be-used-via-the-select-transfer-order-button-in-the-warehouse-management-mobile-app-if-the-order-has-not-yet-been-created-in-the-backend-system"></a>Kuidas saan leida olemasolevaid üleviimistellimusi, mida kasutada mobiilirakenduse Warehouse Management nupu „Vali üleviimistellimus” kaudu, kui tagasüsteem pole veel tellimust loonud?
 
-Praegu ei saa te rakenduses üleviimistellimusi otsida, kuid leiate üleviimistellimuse numbrid lehelt **Laorakenduse sündmused**. Lisateavet leiate teemast [Laorakenduse sündmuste päring](#inquire-the-warehouse-app-events).
+Saate teha töötajatele võimaluse otsida laohalduse mobiilirakenduses üleviimistellimuste numbreid, kasutades selle andmete [päringu](warehouse-app-data-inquiry.md) võimalusi. Näiteks võite luua dekaatseadme menüükäsu, [...](warehouse-app-detours.md)**mis** küsib veebikliendi laorakenduse sündmuste lehel (`WHSMobileDeviceQueueMessageCollection`) *kuvatud andmete kohta osana sammust Vali tellimus – MobileDeviceQueueMessageCollectionIdentifierId.* Üleviimistellimuse number vastab väljal ID kuvatud **väärtusele**. Vaadake ka [laorakenduse sündmuste kohta sisseostmist](#inquire-the-warehouse-app-events).
 
 #### <a name="can-i-manually-select-the-transfer-order-number-to-be-used-from-the-warehouse-management-mobile-app"></a>Kas saan mobiilirakenduses Warehouse Management kasutatava üleviimistellimuse numbri käsitsi valida?
 
-Toetatakse ainult numbriseeriate kaudu automaatselt loodud üleviimistellimuse numbreid.
+Toetatakse ainult numbriseeriate kaudu automaatselt loodud üleviimistellimuse numbreid. Vt ka eelmise küsimuse vastust, kuidas seadistada nuppu Vali **üleviimistellimus**. Üleviimistellimuste numbrite otsimise kohta lisateabe saamiseks vaadake [laorakenduse sündmuste kohta lisateavet](#inquire-the-warehouse-app-events).
 
 ### <a name="background-processing"></a>Taustal töötlemine
 
