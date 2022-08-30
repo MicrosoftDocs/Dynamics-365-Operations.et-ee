@@ -14,9 +14,11 @@
               items:
                 - name: Mis on uut või mida on muudetud platvormivärskenduste avalehel?
                   href: get-started/whats-new-home-page.md
-                - name: Platvormivärskendused versioonile 10.0.28 (august 2022)
+                - name: Versiooni 10.0.29 platvormivärskendused (oktoober 2022)
+                  href: get-started/whats-new-platform-updates-10-0-29.md
+                - name: Versiooni 10.0.28 platvormivärskendused (august 2022)
                   href: get-started/whats-new-platform-updates-10-0-28.md
-                - name: Platvormivärskendused versioonile 10.0.27 (juuli 2022)
+                - name: Versiooni 10.0.27 platvormivärskendused (juuli 2022)
                   href: get-started/whats-new-platform-updates-10-0-27.md
             - name: Eemaldatud või iganenud funktsioonid
               items:
@@ -1088,8 +1090,10 @@
                           href: data-entities/dual-write/requirements-and-prerequisites.md
                         - name: Kuidas kasutada topeltkirjutamise viisardit oma keskkondade linkimiseks?
                           href: data-entities/dual-write/link-your-environment.md
-                        - name: Üksuse vastenduse lubamine topeltkirjutamise jaoks
+                        - name: Üksusevastenduse lubamine topeltkirjutamise jaoks
                           href: data-entities/dual-write/enable-entity-map.md
+                    - name: Seansi viieminutise ajalõpuvahemiku lubamine topeltkirjutusseansside jaoks
+                      href: data-entities/dual-write/5-minute-mode.md
                     - name: Eraldatud topeltkirjutusrakenduse orkestratsioonipakett
                       href: data-entities/dual-write/separated-solutions.md
                     - name: Valuuta andmetüübi migratsioon topeltkirjutamise jaoks

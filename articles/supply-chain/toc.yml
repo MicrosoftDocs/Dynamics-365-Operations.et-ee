@@ -12,6 +12,8 @@
               items:
                 - name: Mis on uut või mida on muudetud Supply Chain Managementi avalehel?
                   href: get-started/whats-new-home-page.md
+                - name: Supply Chain Management 10.0.29 (oktoober 2022)
+                  href: get-started/whats-new-scm-10-0-29.md
                 - name: Supply Chain Management 10.0.28 (august 2022)
                   href: get-started/whats-new-scm-10-0-28.md
                 - name: Supply Chain Management 10.0.27 (juuli 2022)
@@ -62,9 +64,11 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/pause-service-updates.md?context=/dynamics365/context/supply-chain
                 - name: Teenusevärskenduste kohta teadete saamine
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/notifications-service-updates.md?context=/dynamics365/context/supply-chain
+                - name: Ennetavad kvaliteedivärskendused
+                  href: ../fin-ops-core/fin-ops/get-started/quality-updates.md?context=/dynamics365/context/supply-chain
                 - name: Andmeülesannete automatiseerimine
                   href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?context=/dynamics365/context/supply-chain
-                - name: ISV-lahenduste pakkumine One Versioni abil
+                - name: ISV-lahenduste pakkumine ühe versiooni abil
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-isv.md?context=/dynamics365/context/supply-chain
                 - name: Kasutaja vastuvõtu testide loomine ja automatiseerimine
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md?context=/dynamics365/context/supply-chain
@@ -330,6 +334,8 @@
                           href: ../finance/localizations/e-invoicing-bra-get-started.md?context=/dynamics365/context/supply-chain
                         - name: Elektroonilise arvelduse kasutamise alustamine Egiptuses
                           href: ../finance/localizations/e-invoicing-eg-get-started.md?context=/dynamics365/context/supply-chain
+                        - name: Elektroonilise arvelduse kasutamise alustamine Prantsusmaal
+                          href: ../finance/localizations/e-invoicing-fr-get-started.md?context=/dynamics365/context/supply-chain
                         - name: Elektroonilise arvelduse kasutamise alustamine Mehhikos
                           href: ../finance/localizations/e-invoicing-mex-get-started.md?context=/dynamics365/context/supply-chain
                         - name: Elektroonilise arvelduse kasutamise alustamine Saudi Araabias
@@ -1053,9 +1059,11 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listoffirstitem.md?context=/dynamics365/context/supply-chain
                         - name: OrderBy
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-orderby.md?context=/dynamics365/context/supply-chain
+                        - name: Repeat
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-repeat.md?context=/dynamics365/context/supply-chain
                         - name: Reverse
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-reverse.md?context=/dynamics365/context/supply-chain
-                        - name: Tükeldamine
+                        - name: Split
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-split.md?context=/dynamics365/context/supply-chain
                         - name: SplitList
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-splitlist.md?context=/dynamics365/context/supply-chain
@@ -1763,6 +1771,8 @@
                   href: master-planning/planning-optimization/purchase-requisitions.md
                 - name: Tootmise planeerimine
                   href: master-planning/planning-optimization/production-planning.md
+                - name: Piiratud kõlblikkusajaga toodete koondplaneerimine
+                  href: master-planning/planning-optimization/shelf-life.md
                 - name: Piiramatu võimsusega planeerimine
                   href: master-planning/planning-optimization/infinite-capacity-planning.md
                 - name: Võimekusel põhineva ressursivalikuga planeerimine
@@ -1809,6 +1819,8 @@
                   href: master-planning/planning-optimization/cancel-planning-job.md
                 - name: Tegevusteated
                   href: master-planning/action-messages.md
+                - name: Müügitellimuse tarnekuupäevade arvutamine CTP-d kasutades
+                  href: master-planning/planning-optimization/calculate-delivery-dates-using-ctp.md
                 - name: Planeerimise optimeerimise tõrkeotsing
                   href: master-planning/planning-optimization/planning-optimization-trouble-shooting.md
                 - name: Optimeerimise laiendatavuse planeerimine
@@ -1879,6 +1891,8 @@
                   href: master-planning/tasks/view-outbound-planned-intercompany-demand.md
                 - name: Netonõuded ja sidumisteave seoses sisseehitatud koondplaneerimisega
                   href: master-planning/net-requirements-built-in-master-planning.md
+                - name: Tellimuspõhise tarne automatiseerimine
+                  href: master-planning/make-to-order-supply-automation.md
             - name: Eelarvestus
               items:
                 - name: Nõudluse ja tarne prognoosimine
@@ -2467,6 +2481,8 @@
               href: production-control/mixed-mode-plan.md
             - name: Allhanketöö haldamine tootmises
               href: production-control/manage-subcontract-work-production.md
+            - name: Lõpetatud kaupade enne töölehele sisestamist füüsiliselt kättesaadavaks tegemine
+              href: production-control/deferred-posting.md
             - name: Töö ID-de ühtsed numbrijärjestused
               href: production-control/unified-job-ids.md
             - name: Protsessi automatiseerimisvoogude käivitamine kvaliteettellimuste loomiseks
@@ -2809,6 +2825,8 @@
               items:
                 - name: Tellimuse lubamine
                   href: sales-marketing/delivery-dates-available-promise-calculations.md
+                - name: Müügitellimuse tarnekuupäevade arvutamine CTP-d kasutades
+                  href: master-planning/planning-optimization/calculate-delivery-dates-using-ctp.md
                 - name: Tellimuse sisestamise tähtajad
                   href: sales-marketing/order-entry-deadlines.md
                 - name: Tarne alternatiivid
@@ -2945,11 +2963,13 @@
               href: sales-marketing/trade-allowance.md
             - name: Uue kaubandusleppe loomine
               href: sales-marketing/tasks/create-new-trade-agreement.md
+            - name: Rea netosummade ümberarvutamine importimisel
+              href: sales-marketing/calc-line-net-amounts-import.md
             - name: Müügiajaloo andmete puhastamise plaanimine
               href: sales-marketing/sales-update-history-cleanup-performance-improvements.md
-        - name: Teenuse haldus
+        - name: Teenuste haldus
           items:
-            - name: Teenuse halduse ülevaade
+            - name: Teenuste halduse ülevaade
               href: service-management/service-management-home-page.md
             - name: Klienditeeninduse häälestus
               items:
@@ -3387,11 +3407,13 @@
                       href: warehousing/piece-picking-confirmation.md
                     - name: Pakkematerjalid ja tasud
                       href: warehousing/pack-materials-packing-material-fees.md
-                    - name: Käsitsi pakkimise häälestus (ainult veebruar ja mai 2016)
-                      href: warehousing/tasks/set-up-manual-packing-2016-02-05.md
+                    - name: Saadetise konteinerite pakkimine
+                      href: warehousing/packing-containers.md
+                    - name: Väljaminevate konteinerite pakkimise ja saadetiste töötlemise pakkimistöö
+                      href: warehousing/packing-work.md
                     - name: Kiirelt komplekteeritava kauba ümberjaotamise häälestus
                       href: warehousing/tasks/set-up-short-picking-item-reallocation.md
-                    - name: Laotöö tühistamine erandi käsitlemiseks
+                    - name: Laotöö tühistamine erandi käitlemiseks
                       href: warehousing/cancel-warehouse-work.md
                     - name: Süsteemi suunatud tööde järjestus
                       href: warehousing/system-directed-work-sequencing.md
@@ -3545,7 +3567,9 @@
                       href: warehousing/warehouse-app-promoted-fields.md
                     - name: Ringiminekute konfigureerimine mobiilse seadme menüü-üksuste etappide jaoks
                       href: warehousing/warehouse-app-detours.md
-                    - name: Identifitseerimisnumbri vastuvõtmine mobiilirakenduse Warehouse Management kaudu
+                    - name: Andmepäringud Warehouse Managementi mobiilirakenduse kõrvalepõigete kaudu
+                      href: warehousing/warehouse-app-data-inquiry.md
+                    - name: Litsentsiplaadi vastuvõtmine Warehouse Managementi mobiilirakenduse kaudu
                       href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                     - name: Mobiilse seadme menüükäsu häälestus ostutellimuse töö lõpetamiseks
                       href: warehousing/tasks/set-up-mobile-device-menu.md

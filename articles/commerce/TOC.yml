@@ -12,6 +12,8 @@
               items:
                 - name: Mis on uut või mida on muudetud Commerce’i avalehel?
                   href: get-started/whats-new-home-page.md
+                - name: Commerce 10.0.29 (oktoober 2022)
+                  href: get-started/whats-new-commerce-10-0-29.md
                 - name: Commerce 10.0.28 (juuli 2022)
                   href: get-started/whats-new-commerce-10-0-28.md
                 - name: Commerce 10.0.27 (juuli 2022)
@@ -60,9 +62,11 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/pause-service-updates.md?context=/dynamics365/context/commerce
                 - name: Teenusevärskenduste kohta teadete saamine
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/notifications-service-updates.md?context=/dynamics365/context/commerce
+                - name: Ennetavad kvaliteedivärskendused
+                  href: ../fin-ops-core/fin-ops/get-started/quality-updates.md?context=/dynamics365/context/commerce
                 - name: Andmeülesannete automatiseerimine
                   href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?context=/dynamics365/context/commerce
-                - name: ISV-lahenduste pakkumine One Versioni abil
+                - name: ISV-lahenduste pakkumine ühe versiooni abil
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-isv.md?context=/dynamics365/context/commerce
                 - name: Kasutaja vastuvõtu testide loomine ja automatiseerimine
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md?context=/dynamics365/context/commerce
@@ -420,8 +424,10 @@
                       href: charge-send.md
                     - name: Vedajata tarneviiside peitmine kassa saadetisedialoogis
                       href: hide-non-carrier-modes.md
-                    - name: Tegevuse salvestaja ning spikker kaasaegse kassa ja pilve kassa jaoks
+                    - name: Tegevuse salvestaja ning spikker MPOS-i ja Cloud POS-i jaoks
                       href: task-recorder-retail-pos.md
+                    - name: CPOS-i konfigureerimine kohandatud Azure AD rakenduse kasutamiseks
+                      href: cpos-custom-aad.md
                     - name: Riistvara välisseadmed
                       items:
                         - name: Välisseadmed
@@ -698,8 +704,8 @@
                   href: prevent-discounts.md
                 - name: Maksevahendil põhinevad allahindlused
                   href: tender_based_discounts.md
-                - name: Saatmise allahindluse ülevaade
-                  href: retail-shipping-discount.md
+                - name: Saatmise allahindlus
+                  href: shipping-discount.md
                 - name: Ostuga kaasneva kingituse kampaaniate konfigureerimine
                   href: gift-with-purchase.md
                 - name: Kupongide häälestamine
@@ -714,11 +720,15 @@
                   href: tasks/category-pricing-rules-trade-agreements.md
                 - name: Viivituse täpse hinna ja allahindluse arvutamine
                   href: delayed-price-calculation.md
+                - name: Hinnakujundusfunktsioonid kassas
+                  href: pos-pricing-functions.md
+                - name: Commerce’i hinnakirja API-d
+                  href: pricing-apis.md
             - name: Soovitused
               items:
                 - name: Tootesoovituste ülevaade
                   href: product-recommendations.md
-                - name: Azure Data Lake Storage'i lubamine Dynamics 365 Commerce'i keskkonnas
+                - name: Azure Data Lake Storage’i lubamine Dynamics 365 Commerce’i keskkonnas
                   href: enable-ADLS-environment.md
                 - name: Luba tootesoovitused
                   href: enable-product-recommendations.md
@@ -872,6 +882,8 @@
               href: async-customer-mode.md
             - name: Asünkroonsete klientide teisendamine sünkroonseteks klientideks
               href: convert-async-to-sync.md
+            - name: Asünkroonse kliendi loomise režiimi KKK
+              href: async-customer-mode-faq.md
             - name: Kliendisuhtlus
               items:
                 - name: Kliendisuhtluse ülevaade
@@ -1252,6 +1264,10 @@
                       href: product-collection-module-overview.md
                     - name: Kiirvaatemoodul
                       href: quick-view-module.md
+                - name: Tootevõrdluse moodulid
+                  items:
+                    - name: Tootevõrdluse moodulid
+                      href: product-comparison-modules.md
                 - name: Navigeerimismoodulid
                   items:
                     - name: Lingireamoodul
@@ -1272,6 +1288,10 @@
                   items:
                     - name: Küpsistega nõustumise moodul
                       href: cookie-consent-module.md
+                - name: Vestlusmoodulid
+                  items:
+                    - name: Commerce’i vestlusmoodul
+                      href: commerce-chat-module.md
             - name: Otsing
               items:
                 - name: Kategooria vaikesihtlehe ja otsingutulemuste lehe ülevaade
@@ -1404,8 +1424,6 @@
               items:
                 - name: Fiskaalüksuse registreerimisteenuse integratsiooni näide Austria jaoks
                   href: localizations/emea-aut-fi-sample.md
-                - name: Austria kassaaparaatide juurutamise juhised
-                  href: localizations/emea-aut-deployment.md
                 - name: Fiskaalüksuse integratsiooni näite juurutusjuhised Austria jaoks (pärand)
                   href: localizations/emea-aut-fi-sample-sdk.md
             - name: Brasiilia
@@ -1462,7 +1480,7 @@
                   href: localizations/emea-fra-fi-deployment.md
                 - name: Fiskaalarhiivi ja andmete terviklikkuse kontrollimine
                   href: localizations/emea-fra-fiscal-archive.md
-                - name: Üleminek pärandfunktsioonidelt Prantsusmaa jaoks
+                - name: 'Üleminek pärandfunktsioonidelt: Prantsusmaa'
                   href: localizations/emea-fra-fi-migration.md
                 - name: Kassaaparaatide juurutamise juhised (pärand)
                   href: localizations/emea-fra-deployment.md
@@ -1502,6 +1520,8 @@
                   href: localizations/emea-nor-cash-registers.md
                 - name: Kassaaparaatide juurutamise juhised
                   href: localizations/emea-nor-fi-deployment.md
+                - name: 'Üleminek pärandfunktsioonidelt: Norra'
+                  href: localizations/emea-nor-fi-migration.md
                 - name: Kassaaparaatide juurutamise juhised (pärand)
                   href: localizations/emea-nor-loc-deployment-guidelines.md
             - name: Venemaa
@@ -1764,9 +1784,11 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listoffirstitem.md?context=/dynamics365/context/commerce
                         - name: OrderBy
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-orderby.md?context=/dynamics365/context/commerce
+                        - name: Repeat
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-repeat.md?context=/dynamics365/context/commerce
                         - name: Reverse
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-reverse.md?context=/dynamics365/context/commerce
-                        - name: Tükeldamine
+                        - name: Split
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-split.md?context=/dynamics365/context/commerce
                         - name: SplitList
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-splitlist.md?context=/dynamics365/context/commerce
@@ -2482,7 +2504,7 @@
               items:
                 - name: Commerce SDK ülevaade
                   items:
-                    - name: Näidised ja viitepaketid
+                    - name: Commerce SDK näidiste ja viitepakettide allalaadimine
                       href: dev-itpro/retail-sdk/sdk-github.md
                     - name: Retail SDK pärandi migratsioon
                       href: dev-itpro/retail-sdk/migrate-commerce-sdk.md

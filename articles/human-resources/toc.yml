@@ -10,6 +10,8 @@
               href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
             - name: Mis on uut või mida on muudetud rakenduses Human Resources?
               items:
+                - name: Human Resources 10.0.29 (ühendatud taristu)
+                  href: ./get-started/whats-new-changed-10-0-29.md
                 - name: Human Resources 10.0.28 (ühendatud taristu)
                   href: ./get-started/whats-new-changed-10.0.28.md
                 - name: Human Resources 10.0.27 (ühendatud taristu)
@@ -604,6 +606,10 @@
                   href: hr-benefits-setup-parameters-per-company.md
                 - name: Soodustuste halduse ja töövõtja iseteeninduse parameetrite seadistamine kõigi ettevõtete jaoks
                   href: hr-benefits-setup-parameters.md
+                - name: Administraatoriõiguste konfigureerimine elusündmuste jaoks
+                  href: admin-life-events.md
+                - name: Soodustuste meiliteatiste konfigureerimine
+                  href: hr-email-notifications.md
                 - name: Sobivusreeglite ja -suvandite konfigureerimine
                   href: hr-benefits-setup-eligibility-rules.md
                 - name: Isiklike kontaktide sobivuse suvandite konfigureerimine

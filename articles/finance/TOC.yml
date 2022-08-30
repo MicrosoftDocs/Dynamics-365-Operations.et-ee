@@ -12,6 +12,8 @@
               items:
                 - name: Mis on uut või mida on muudetud Finance’i avalehel?
                   href: get-started/whats-new-home-page.md
+                - name: Finance 10.0.29 (oktoober)
+                  href: get-started/whats-new-changed-10-0-29.md
                 - name: Finance 10.0.28 (august)
                   href: get-started/whats-new-changed-10-0-28.md
                 - name: Finance 10.0.27 (juuli)
@@ -62,9 +64,11 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/pause-service-updates.md?context=/dynamics365/context/finance
                 - name: Teenusevärskenduste kohta teadete saamine
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/notifications-service-updates.md?context=/dynamics365/context/finance
+                - name: Ennetavad kvaliteedivärskendused
+                  href: ../fin-ops-core/fin-ops/get-started/quality-updates.md?context=/dynamics365/context/finance
                 - name: Andmeülesannete automatiseerimine
                   href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?context=/dynamics365/context/finance
-                - name: ISV-lahenduste pakkumine One Versioni abil
+                - name: ISV-lahenduste pakkumine ühe versiooni abil
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-isv.md?context=/dynamics365/context/finance
                 - name: Kasutaja vastuvõtu testide loomine ja automatiseerimine
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md?context=/dynamics365/context/finance
@@ -1112,9 +1116,11 @@
                       href: general-ledger/tasks/create-journal-entry-template.md
                     - name: Pearaamatu eraldamistöölehe töötlemine
                       href: general-ledger/tasks/process-ledger-allocation-journal.md
-                    - name: Töölehe sisestuste või kannete kuvamine
+                    - name: Töölehe ridade või kannete kuvamine
                       href: general-ledger/tasks/view-journal-entries-or-transactions.md
-                    - name: Seotud kontsernisisese kande kuvamine töölehelt
+                    - name: Pearaamatu kannete sisemiste andmete redigeerimise lubamine
+                      href: general-ledger/allow-edits-internal-data-gl-vouchers.md
+                    - name: Seostatud kontsernisisese kande kuvamine töölehelt
                       href: general-ledger/tasks/view-related-intercompany-voucher-journal.md
                     - name: Exceli töölehe ridade ja dokumentide avaldamine
                       href: general-ledger/open-lines-excel-journals-documents.md
@@ -1568,14 +1574,20 @@
                           href: localizations/e-invoicing-bra-get-started.md?context=/dynamics365/context/finance
                         - name: Elektroonilise arvelduse kasutamise alustamine Egiptuses
                           href: localizations/e-invoicing-eg-get-started.md?context=/dynamics365/context/finance
+                        - name: Elektroonilise arvelduse kasutamise alustamine Prantsusmaal
+                          href: localizations/e-invoicing-fr-get-started.md?context=/dynamics365/context/finance
                         - name: Elektroonilise arvelduse kasutamise alustamine Mehhikos
                           href: localizations/e-invoicing-mex-get-started.md?context=/dynamics365/context/finance
+                        - name: Elektroonilise arvelduse kasutamise alustamine Poolas
+                          href: localizations/e-invoicing-pol-get-started.md?context=/dynamics365/context/finance
                         - name: Elektroonilise arvelduse kasutamise alustamine Saudi Araabias
-                          href: localizations/e-invoicing-sa-get-started.md
+                          href: localizations/e-invoicing-sa-get-started.md?context=/dynamics365/context/finance
+                        - name: Elektroonilise arvelduse kasutuselevõtt Saudi Araabias
+                          href: localizations/e-invoicing-sa-onboarding.md?context=/dynamics365/context/finance
                         - name: Itaalia SDI-ga FatturaPA otseintegratsiooni seadistamine
-                          href: localizations/e-invoicing-ita-fatturapa-get-started.md
+                          href: localizations/e-invoicing-ita-fatturapa-get-started.md?context=/dynamics365/context/finance
                         - name: Elektroonilise arveldamise teenuse kasutamine hankija arvete importimiseks
-                          href: localizations/e-invoicing-get-started-import-vendor-invoices.md
+                          href: localizations/e-invoicing-get-started-import-vendor-invoices.md?context=/dynamics365/context/finance
                     - name: Elektroonilise arvelduse KKK
                       href: localizations/e-invoicing-faq.md?context=/dynamics365/context/finance
                 - name: Maksuarvutus
@@ -1648,6 +1660,10 @@
                           items:
                             - name: KM-i deklaratsioon
                               href: localizations/emea-nor-vat-declaration.md
+                        - name: Poola aruandlus
+                          items:
+                            - name: KM-i deklaratsioon
+                              href: localizations/emea-pol-vat-declaration.md
                         - name: Hispaania aruandlus
                           items:
                             - name: 'KM-i kohene teave (Suministro Inmediato de Información del IVA, SII)'
@@ -1710,11 +1726,13 @@
                       href: general-ledger/whole-amount-interval-options-sales-tax-codes.md
                     - name: Käibemaksu arvutamine ja ümardamine
                       href: general-ledger/sales-tax-calculation-rounding.md
-                    - name: Arvutatud käibemaks üldise töölehe ridade kohta
+                    - name: Käibemaksu arvutamine päevaraamaturidadel
                       href: general-ledger/sales-tax-calculation-on-general-journal.md
                     - name: Käibemaksu arvutamine ja korrigeerimine hankija arvel
                       href: general-ledger/tasks/calculate-adjust-sales-tax-vendor-invoice.md
-                    - name: Luba töölehel viivitusega maksuarvutus
+                    - name: Käibemaksu korrigeerimine päevaraamatute kaudu
+                      href: general-ledger/adjust-sales-tax-via-general-journals.md
+                    - name: Viivitusega maksuarvutuse lubamine töölehel
                       href: general-ledger/enable-delayed-tax-calculation.md
                     - name: Käibemaksumakse loomine
                       href: general-ledger/tasks/create-sales-tax-payment.md
@@ -1770,6 +1788,8 @@
                           href: general-ledger/global-withholding-tax-overview.md
                         - name: Globaalse kinnipeetava maksu häälestus
                           href: general-ledger/set-up-global-withholding-tax.md
+                        - name: Globaalse kinnipeetava maksu valuuta vahetuskursi tüübi ja kuupäevatüübi häälestuse lubamine
+                          href: general-ledger/global-withholding-tax-currency-exchange-rate-date-type-setup.md
                         - name: Kinnipeetav maks ostukannetes
                           href: general-ledger/withholding-tax-in-purchase-transactions.md
                         - name: Kinnipeetav maks müügikannetes
@@ -1948,6 +1968,8 @@
                       href: localizations/tasks/br-00053-2-set-up-nf-e-parameters-fiscal-establishment.md
                     - name: NF-e XML-failide teisaldamine manustena
                       href: localizations/latam-bra-nf-e-move-xml-as-attachment.md
+                    - name: NT2021.004 – paigutuse ja kinnitamise uuendused elektroonilises fiskaaldokumendis (NF-e)
+                      href: localizations/latam-bra-nfe-nt2021.004.md
                     - name: NT2020.005 – paigutuse ja kinnitamise uuendused elektroonilises fiskaaldokumendis (NF-e)
                       href: localizations/latam-bra-nfe-nt2020.005.md
                     - name: NT2020.006 – vahendaja müügi digitaalne platvorm NF-e jaoks
@@ -2550,8 +2572,10 @@
                       href: localizations/apac-ind-news-letter-10-0-01.md
                     - name: Mis on uut või mida on muudetud versioonis 10.0.0?
                       href: localizations/apac-ind-news-letter-10-0-00.md
-                - name: Raamatupidamistarkvara auditijälg ja logide redigeerimine
+                - name: Raamatupidamistarkvara auditijälg ja redigeerimislogid
                   href: localizations/apac-ind-audit-trail-edit-logs-accounting-software.md
+                - name: Elektroonilised arved Indias
+                  href: localizations/apac-ind-e-invoices.md
                 - name: Kaudsed maksud
                   items:
                     - name: India GST
@@ -3548,6 +3572,10 @@
                           href: localizations/rus-set-up-inventory-profile.md
                         - name: Varude profiili kasutamine dokumentides ja päringutes
                           href: localizations/rus-use-inventory-profile-documents-queries.md
+                    - name: Tollivormistus
+                      items:
+                        - name: Tollivormistusega töötamine
+                          href: localizations/rus-work-with-customs-clearance.md
                 - name: Aruandlus
                   items:
                     - name: Finantsaruandlus
@@ -3572,10 +3600,12 @@
                       href: localizations/emea-registration-ids.md
                     - name: Ametiisikute häälestus
                       href: localizations/rus-officials.md
-                    - name: Ettevõtte jaotused
+                    - name: Ettevõtte allüksused
                       href: localizations/rus-company-divisions.md
-                    - name: Vene aadressivormingud ja import FIAS-ist
+                    - name: Venemaa aadressivormingud ja import FIAS-ist
                       href: localizations/rus-russian-address-format-and-import-from-FIAS.md
+                    - name: Import riiklikust aadressiregistrist (GAR)
+                      href: localizations/rus-russian-address-format-import-gar.md
                 - name: Viitvõlad
                   items:
                     - name: Viitvõlgade häälestamine
@@ -4069,9 +4099,11 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listoffirstitem.md?context=/dynamics365/context/finance
                         - name: OrderBy
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-orderby.md?context=/dynamics365/context/finance
+                        - name: Repeat
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-repeat.md?context=/dynamics365/context/finance
                         - name: Reverse
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-reverse.md?context=/dynamics365/context/finance
-                        - name: Tükeldamine
+                        - name: Split
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-split.md?context=/dynamics365/context/finance
                         - name: SplitList
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-splitlist.md?context=/dynamics365/context/finance
