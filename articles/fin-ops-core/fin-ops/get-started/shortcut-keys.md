@@ -2,7 +2,7 @@
 title: Kiirklahvid
 description: See artikkel annab ülevaate kiirklahvide kombinatsioonidest, mida saate kasutada finantside ja toimingute rakendustega töötamisel.
 author: jasongre
-ms.date: 07/12/2022
+ms.date: 08/26/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 67e1904807dfe5122de3d3ead97c2e2c11ed213d
-ms.sourcegitcommit: bd2d6a86a7fd4b4f6f86656998f7a8844f949e42
+ms.openlocfilehash: 04abaeada458e05df3de045d9c7a715040b7bfa4
+ms.sourcegitcommit: 7bcaf00a3ae7e7794d55356085e46f65a6109176
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/12/2022
-ms.locfileid: "9140435"
+ms.lasthandoff: 08/26/2022
+ms.locfileid: "9357573"
 ---
 # <a name="keyboard-shortcuts"></a>Kiirklahvid
 
@@ -135,10 +135,10 @@ Kasutajad saavad avastada praegu saadaolevaid otseteesid otse kasutajaliidesest.
 | Horisontaalne kerimine                                                                                                   | Vahetus + hiire ratas             |
 | Järgmisele/eelmisele veerule liikumine                                                                                       | tabeldusklahv / Shift + tabeldusklahv                 |
 | Järgmisele/eelmisele reale liikumine                                                                                          | Allanool/ülesnool           |
-| Järgmisele/eelmisele reale liikumine ilma seda valimata<blockquote>[!NOTE] See otsetee kehtib ainult mitme valikuga stsenaariumide puhul.</blockquote> | Ctrl + ülesnool / Ctrl + allanool |
-| Praeguse rea valimine/tühjendamine<blockquote>[!NOTE] See otsetee kehtib ainult mitme valikuga stsenaariumide puhul.</blockquote>                    | Ctrl + tühik / Ctrl + klõps         |
-| Valitud kogumile järgmise/eelmise rea lisamine<blockquote>[!NOTE] See otsetee kehtib ainult mitme valikuga stsenaariumide puhul.</blockquote>   | Shift+tühik                     |
-| Valitud kogumile ridade vahemiku lisamine<blockquote>[!NOTE] See otsetee kehtib ainult mitme valikuga stsenaariumide puhul.</blockquote>         | Shift + klõps                     |
+| Järgmisele/eelmisele reale liikumine ilma seda valimata<br><br>**Märkus:** seda otseteed rakendatakse ainult mitme valikuga stsenaariumi korral. | Ctrl + ülesnool / Ctrl + allanool |
+| Praeguse rea valimine/tühjendamine<br><br>**Märkus:** seda otseteed rakendatakse ainult mitme valikuga stsenaariumi korral.                   | Ctrl + tühik / Ctrl + klõps         |
+| Valitud kogumile järgmise/eelmise rea lisamine<br><br>**Märkus:** seda otseteed rakendatakse ainult mitme valikuga stsenaariumi korral.  | Shift+tühik                     |
+| Valitud kogumile ridade vahemiku lisamine<br><br>**Märkus:** seda otseteed rakendatakse ainult mitme valikuga stsenaariumi korral.         | Shift + klõps                     |
 | Eelmisele/järgmisele andmelehele liikumine                                                                                   | Page Up / Page Down             |
 | Loo ruudustiku allservas uus rida                                                                             | Allanool (alates viimasest reast)  |
 | Teisalda esimesse kirjesse                                                                                               | Ctrl + Home                       |
@@ -148,7 +148,7 @@ Kasutajad saavad avastada praegu saadaolevaid otseteesid otse kasutajaliidesest.
 | Liigu järgmise märgitud reani                                                                                            | Alt+Shift+M, L                  |
 | Liigu eelmise märgitud reani                                                                                        | Alt+Shift+M, P                  |
 | Liigu viimase märgitud reani                                                                                           | Alt+Shift+M, N                  |
-| Vaiketegevuse käivitamine ruudustikus<blockquote>[!NOTE] See otsetee on lubatud, kui fookus on hüperlinki sisaldaval lahtril ja kõigil selle veeru lahtritel on hüperlingid.</blockquote> | Sisestusklahv                           |
+| Vaiketegevuse käivitamine ruudustikus<br><br>**Märkus:** see otsetee on lubatud, kui fookus on hüperlingiga lahtril ja kõigil selle veeru lahtritel on hüperlingid. | Sisestusklahv                           |
 | Lülita fookus ümber valitud rea ja päiserea vahel                                                               | Alt + Shift + H                     |
 | Praeguse veeru suuremaks/väiksemaks tegemine (kui fookus on päisereas)                                                  | Paremnool/vasaknool        |
 | Praeguse veeru teisaldamine järgmisele/eelmisele positsioonile (fookusega päise real)                                   | Ctrl+ Shift + paremnool / Ctrl + Shift + vasaknool |

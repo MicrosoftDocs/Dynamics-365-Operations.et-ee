@@ -2,7 +2,7 @@
 title: Elektroonilise aruandluse (ER) sihtkohad
 description: See artikkel annab teavet elektrooniliste aruandlussihtkohtade haldamise, toetatud sihtkohtade tüüpide ja turbekaalutluste kohta.
 author: kfend
-ms.date: 05/18/2022
+ms.date: 08/28/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.1
 ms.custom: 97423
 ms.assetid: f3055a27-717a-4c94-a912-f269a1288be6
 ms.search.form: DocuType, ERSolutionTable
-ms.openlocfilehash: 1718b9e32c1e9f34d38479b74d59af6233f82a8c
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: HT
+ms.openlocfilehash: b1bf6289e80769dfe8858f307cbb9b217b42dbb4
+ms.sourcegitcommit: f2edc193003564c5bee1747f9c2b800feee342bd
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9281963"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9360975"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Elektroonilise aruandluse (ER) sihtkohad
 
@@ -247,6 +247,52 @@ Valige kiirkaardil **Üldine** väljal **Saada kaust kui** üks järgmistest vä
 ### <a name="limitations"></a>Kitsendused
 
 Kui seadistate **Saada kaust** välja **Eraldatud failidena** komponendi **Kaust** jaoks, mis sisaldab teisi pesastatud **Kausta** komponente, ei rakendata sätet pesastatud **Kaust** komponentidele.
+
+## <a name="change-page-layout-properties-of-a-template"></a><a name="change-page-layout-properties-of-a-template"></a> Muuda malli lehekülje paigutuse atribuute
+
+Saate konfigureerida ER sihtkoha ER-vormingu komponendile, mis on loodud aruande loomiseks Microsoft Office kasutama malli (Excel või Word). Kui te ei ole selle vormingu omanik ja teil on vaja muuta vormingu malli lehekülje paigutuse atribuute finantside versioonides enne versiooni 10.0.29, peate looma tuletatud vormingu ja muutma malli atribuute. Seejärel peate säilitama tuletatud vormingu konfiguratsiooni. Kuid versioonis 10.0.29 ja hilisemas saate käitusajal muuta malli lehekülje paigutuse atribuute, et vältida tuletatud vormingu konfiguratsiooni loomist ja säilitamist. Selleks seadistage soovitud atribuudid konfigureeritud ER-i sihtkoha sätete osana. Kui käivitate ER-vormingu ja käivitate ER sihtkoha, mis on konfigureeritud kasutama teatud lehe paigutuse atribuute, rakendatakse käitatud sihtkoha lehekülje paigutuse atribuudid teie poolt valitud mallile, asendades algse malli atribuudid. Saate konfigureerida sama vormingu komponendi jaoks erinevaid sihtkohti, konfigureerides kasutuses malli jaoks erinevaid lehekülje paigutuse atribuute.
+
+Järgmisi atribuute saab konfigureerida ER-sihtkohana vormingukomponendi jaoks, mis on mõeldud malli kasutamiseks Exceli või Wordi vormingus:
+
+- Lehepaigutus
+    - Vertikaalne
+    - Horisontaalne
+- Paberi suurus
+    - A3
+    - A4
+    - A5
+    - B4
+    - B5
+    - Executive
+    - Juriidiline teave
+    - Täht
+    - Väljavõte
+    - Tabloid
+- Lehekülje veerised
+    - Ülal
+        - Päis
+    - All
+        - Jalus
+    - Vasakul
+    - Paremal
+
+> [!NOTE]
+> Sel viisil konfigureeritud [malli leheküljepaigutus peab olema joondatud PDF-teisenduse leheküljepaigutusega,](#select-a-page-orientation-for-pdf-conversion) kui PDF-teisendus on konfigureeritud.
+
+Peate valima lehekülje veeriste seadmiseks pikkuse ühiku:
+
+- Tollid
+- Sentimeetrid
+- Millimeetrid
+
+![Seadistage lehekülje paigutuse atribuudid elektroonilise aruandluse sihtlehel.](./media/er_destinations-set-page-layout-properties.png)
+
+> [!TIP]
+> Kui marginaali väärtus on määratud sentimeetrites ja määratud mitme kümnendkohaga, ümardatakse see käitusajal lähima väärtuseni kümnendkohaga.
+>
+> Kui marginaali väärtus on määratud millimeetrites ja määratud kümnendkohtadega, ümardatakse see Käitusajal Exceli jaoks lähima täisarvu väärtuseni kümnendkohata.
+>
+> Kui marginaali väärtus on määratud millimeetrites ja määratud mitme kümnendkohaga, ümardatakse see Wordi käitusajal lähima väärtuseni ühe kümnendkohaga.
 
 ## <a name="security-considerations"></a>Turbemeetmed
 

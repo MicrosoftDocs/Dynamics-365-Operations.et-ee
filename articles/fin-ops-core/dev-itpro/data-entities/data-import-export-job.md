@@ -2,7 +2,7 @@
 title: Andmeimpordi ja -ekspordi tööde ülevaade
 description: Kasutage andmeimpordi ja -ekspordi tööde jaoks andmehalduse tööruumi.
 author: peakerbl
-ms.date: 04/25/2022
+ms.date: 08/26/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 18a15928eef4d7158f778729506d691dd587e013
-ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
+ms.openlocfilehash: a03f8fd0fa05a1400c69a2da8867dee135ad06a1
+ms.sourcegitcommit: 7bcaf00a3ae7e7794d55356085e46f65a6109176
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "9109458"
+ms.lasthandoff: 08/26/2022
+ms.locfileid: "9357587"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Andmete importimis- ja eksportimistööde ülevaade
 
@@ -76,6 +76,19 @@ Kui valite üksuse, peate valima eksporditavate või imporditavate andmete vormi
 
 > [!NOTE]
 > XML-põhiste failivormingute puhul kasutage kindlasti ainult õigusmärke. Lisateavet kehtivate märkide kohta vt XML [1.0 kehtivast märgist](https://www.w3.org/TR/2006/REC-xml-20060816/Overview.html#charsets/). XML 1.0 ei luba juhtmärke peale vahekaartide, tagastuste ja rea söötmete. Lubamatute märkide näited on nurksulud, curly sulgud ja kaldkriipsud. 
+
+Andmete importimiseks või eksportimiseks kasutage kindla koodilehe asemel Unicode’i. See aitab anda kõige ühtsemaid tulemusi ja eemaldada andmehalduse tööd nurjumise tõttu, sest need sisaldavad Unicode’i märke. Süsteemi määratletud lähteandmete vormingutes, mis kasutavad Unicode’i vorminguid, **on lähtenimes Unicode’i** vormingus. Unicode-vormingu valite vahekaardil Regional settings (Piirkonnasätted) koodilehena Unicode’i kodeerimise **ANSI** **koodilehe**. Valige Unicode’i jaoks üks järgmistest koodilehtedest:
+
+| Koodileht | Kuvatav nimi                |
+|-----------|-----------------------------|
+| 1200      | Unicode                     |
+| 12000     | Unicode (UTF-32)            |
+| 12001     | Unicode (UTF-32 Big-Endian) |
+| 1201      | Unicode (Big-Endian)        |
+| 65000     | Unicode (UTF-7)             |
+| 65001     | Unicode (UTF-8)             |
+
+Lisateavet koodilehtede kohta vt Koodilehe [ID-dest](/windows/win32/intl/code-page-identifiers/).
 
 ### <a name="sequence-the-entities"></a>Üksuste järjestamine
 Üksusi saab järjestada andmemallis või impordi- ja eksporditöödes. Kui käivitate mitut andmeüksust sisaldava töö, peate veenduma, et andmeüksused oleksid õiges järjestuses. Üksused järjestatakse peamiselt nii, et saaksite käsitleda funktsionaalseid sõltuvusi üksuste vahel. Kui üksustel pole ühtegi funktsionaalset sõltuvust, saab need plaanida paralleelseks impordiks või ekspordiks. 
