@@ -466,9 +466,11 @@
                           items:
                             - name: Väliste kinkekaartide tugi
                               href: dev-itpro/gift-card.md
+                            - name: Kinkekaartide kontsernisisene andmete jagamine
+                              href: dev-itpro/data-sharing-gift-cards.md
                     - name: RSAT
                       items:
-                        - name: Pilve kassa testi salvestaja ja Regression Suite Automation Tool
+                        - name: Cloud POS-i testi salvestaja ja Regression Suite Automation Tool
                           href: dev-itpro/pos-rsat.md
                     - name: Müügi koostööpartnerid
                       items:
